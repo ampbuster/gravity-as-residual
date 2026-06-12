@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.0 (June 2026)  
-**Status:** Pending review at ai.viXra.org (reference: 18068418). Also archived here on GitHub as the canonical source.
+**Status:** First public release.
 
 ---
 

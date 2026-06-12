@@ -35,9 +35,7 @@ These are valuable, but they are *tool* contributions, not *author* contribution
 ## Why disclose this prominently
 
 - The arXiv 2026 rules require explicit AI disclosure.
-- ai.viXra.org (March 2025) is a platform specifically for AI-assisted work; it requires disclosure.
-- The regular viXra.org *rejects* AI-assisted work entirely.
-- The LessWrong / HackerNews / academic communities increasingly expect AI disclosure.
+- The academic and online physics communities increasingly expect AI disclosure.
 - Intellectual honesty demands it: a reader should know whether the author is a domain expert, a curious outsider, or an AI.
 
 This work is by **a curious outsider, assisted by an AI**. The combination has produced a coherent thought experiment, but it has not produced a theory of everything. The paper is honest about this.

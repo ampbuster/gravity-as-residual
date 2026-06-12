@@ -4,7 +4,7 @@ All notable changes to this paper are documented here.
 
 ## v2.0 (June 2026) — Current
 
-Major cleanup and integration. This is the **first release on GitHub** (v1.02 was only on ai.viXra.org).
+Major cleanup and integration. This is the **first public release** on GitHub.
 
 ### Numerical fixes
 
@@ -56,13 +56,13 @@ The cascade is *infinite in principle* (no a priori depth limit) but *practicall
 
 ---
 
-## v1.02 (June 2026) — Submitted to ai.viXra.org
+## v1.0 (June 2026) — Initial Public Release (Superseded)
 
-Initial release. 36 pages, 171 KB. Reference number: 18068418. Status: in review queue.
+Initial draft. 36 pages, 171 KB. Internal iteration only; not publicly released.
 
 ---
 
-## Earlier versions (v1.00 - v1.57)
+## Earlier versions (v0.x)
 
 Internal iteration history, not publicly released. Key milestones:
 - v1.00 - Initial model with 4D event and 3+1D universe
