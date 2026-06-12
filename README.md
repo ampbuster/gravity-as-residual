@@ -22,7 +22,6 @@ What if gravity is *weak* because most of it gets cancelled? In this model, a si
 | `paper/paper.md` | The full paper, v2.0 (markdown source) |
 | `paper/paper.pdf` | Compiled PDF (60 pages) |
 | `supporting/layman_summary.md` | Plain-language summary for general readers |
-| `supporting/reddit_summary.md` | Shorter summary for social media |
 | `supporting/publication_strategy.md` | Notes on where to publish |
 | `calculations/numerical_verification.py` | Python script — re-derives every numerical claim |
 | `changelog.md` | v1.02 → v2.0 version history |
