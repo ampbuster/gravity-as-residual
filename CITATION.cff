@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: article
+title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
+version: "2.0"
+date-released: 2026-06-12
+authors:
+  - family-names: "ampbuster"
+    given-names: "ampbuster"
+keywords:
+  - "dimensional cascade"
+  - "dark matter"
+  - "dark energy"
+  - "gravitational hierarchy problem"
+  - "thought experiment"
+  - "brane-world"
+  - "extra dimensions"
+license: MIT
+url: "https://github.com/ampbuster/gravity-as-residual"
+preferred-citation:
+  type: article
+  title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
+  version: "2.0"
+  authors:
+    - family-names: "ampbuster"
+      given-names: "ampbuster"
+  year: 2026
+  url: "https://github.com/ampbuster/gravity-as-residual"
+notes: "AI-assisted thought experiment. The model was developed in conversation with Mavis (Claude), an AI assistant from Anthropic. The AI's role was to help with physics literature review, numerical verification, internal consistency checks, and prose. All conceptual content originates with the human author."
