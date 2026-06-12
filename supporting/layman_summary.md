@@ -35,7 +35,7 @@ Each child universe is a 3+1D spacetime *embedded inside* our 3+1D spacetime, bu
 
 That Big Crunch is a *time-compressed death-flash* — the entire remaining energy of the child universe concentrated into a brief, intense 3+1D event. **The death-flash back-projects to 3+1D as attractive gravity** — and *that* is what we observe as **dark matter**.
 
-So dark matter isn't a particle. It's the *combined death-flashes* of countless tiny child universes being created and dying all the time. The dark matter's apparent weakness is the *same* mechanism as gravity's weakness — boundary cancellation — but operating at a *different level* of the universe hierarchy.
+So dark matter isn't a particle. It's the *combined death-flashes* of countless tiny child universes being created and dying all the time. The dark matter's apparent weakness is the *same* mechanism as gravity's weakness — bulk-brane cancellation — but operating at a *different level* of the universe hierarchy.
 
 ## The cascade
 
