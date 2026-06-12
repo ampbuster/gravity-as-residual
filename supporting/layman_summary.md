@@ -70,10 +70,10 @@ The model combines several existing ideas in a new way:
 - **Brane-world cosmology** (Randall-Sundrum, ADD) — the formal framework
 - **Scale-invariance** — the principle that the same mechanism should work at every energy scale
 - **Nested universes** (this is the new framing) — universes contain other universes, recursively
-- **Inversion principle** (this is the most novel and most vulnerable claim) — *every* dimensional projection inverts the sign of gravity
+- **Downward inversion principle** (this is the most novel and most vulnerable claim) — when gravity is *projected downward* from a parent universe to a child universe, the sign inverts. The *upward* back-projection (from child to parent) does *not* invert; it brings the child's net attractive gravity back to the parent as attractive, contributing to the parent's dark matter.
 - **Universal bulk-brane cancellation** (this is the new framing) — at *every* level of the cascade, the same bulk-brane cancellation happens, leaving a weak attractive residue. The cascade is a *fractal hierarchy of similar universes*, not a parity-based alternating structure.
 
-The "inversion principle" and "universal bulk-brane cancellation" are the *most novel* and *most vulnerable* parts of the model. Standard brane-world physics doesn't obviously do either of these. I'm proposing them as possibilities, not derived from first principles. A real physicist would need to either derive them from a specific geometry or show why they can't work.
+The "downward inversion principle" and "universal bulk-brane cancellation" are the *most novel* and *most vulnerable* parts of the model. Standard brane-world physics doesn't obviously do either of these. I'm proposing them as possibilities, not derived from first principles. A real physicist would need to either derive them from a specific geometry or show why they can't work.
 
 ## What the model gets right (in my view)
 
@@ -115,7 +115,7 @@ All the numbers in the paper are reproducible from a Python script (`calculation
 
 ## What I want from people reading this
 
-If you're a physicist: tell me where I'm wrong. The inversion principle is the obvious weak point. Is there a known mathematical structure that does this? If not, why not?
+If you're a physicist: tell me where I'm wrong. The downward inversion principle is the obvious weak point. Is there a known mathematical structure that does this? If not, why not?
 
 If you're not a physicist: I hope this gives you a sense of what people are trying to figure out about the universe. The honest answer is that we don't know what dark matter, dark energy, or gravity's weakness really are. There are many models being explored. This is one of them.
 

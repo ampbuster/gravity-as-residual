@@ -14,9 +14,9 @@ The strategy below is for *additional* distribution beyond GitHub.
 
 These are the v2.0 framings that should be consistent across all venues:
 
-1. **"Bulk-brane cancellation"** — gravity is weak because of bulk-brane cancellation between the 4D event (bulk) and 3+1D universe (brane). The model does *not* claim "boundaries flip gravity" — it claims *every* dimensional projection inverts the sign of gravity.
+1. **"Bulk-brane cancellation"** + **"downward inversion"** — gravity is weak because of bulk-brane cancellation between the 4D event (bulk) and 3+1D universe (brane). The model claims that *downward* projection (parent → child universe) inverts the sign of gravity, but *upward* back-projection (child → parent) does not invert. The inversion is *directional*.
 
-2. **"Two dark-sector products"** — dark energy is the 4D→3+1D back-projection (one inversion, repulsive). Dark matter is the 2D→3+1D back-projection of child universes' Big Crunch death-flashes (two inversions, attractive). They look different because they're at different cascade levels.
+2. **"Two dark-sector products"** — dark energy is the un-cancelled fraction of the 4D→3+1D *downward* inversion (one inversion, repulsive). Dark matter is the *upward* back-projection of 2D universes' net attractive residue (no upward inversion, attractive). They look different because they're at different cascade levels and go in different directions.
 
 3. **"Death-flash mechanism"** — dark matter is the *time-compressed Big Crunch* of child universes, not just any gravitational back-projection. Each child universe lives, evolves, and dies. The death-flash is the active source of dark matter.
 
@@ -120,7 +120,7 @@ The AI's role was *not*:
 - Writing the paper autonomously (every section was reviewed and often rewritten)
 - Fabricating references (all 22 are real and verified)
 
-The conceptual content — the dimensional-cascade model, the inversion principle, the universal bulk-brane cancellation, the ending-agnosticism, the death-flash mechanism — is mine. The AI was a tool.
+The conceptual content — the dimensional-cascade model, the downward inversion principle, the universal bulk-brane cancellation, the ending-agnosticism, the death-flash mechanism — is mine. The AI was a tool.
 
 ## Bottom line
 
