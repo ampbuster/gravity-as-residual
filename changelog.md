@@ -4,7 +4,7 @@ All notable changes to this paper are documented here.
 
 ## v2.0 (June 2026) — Current
 
-Major cleanup and integration. This is the **first public release** on GitHub.
+**First public release.** Numerical errors fixed, internal consistency cleaned up (alternating cascade → universal bulk-brane cancellation, two-types-of-endings → ending-agnostic), speculative sections removed, honest acknowledgments added throughout.
 
 ### Numerical fixes
 
