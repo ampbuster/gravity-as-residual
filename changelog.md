@@ -4,7 +4,7 @@ All notable changes to this paper are documented here.
 
 ## v2.0 (June 2026) — Current
 
-**First public release.** Numerical errors fixed, internal consistency cleaned up (alternating cascade → universal bulk-brane cancellation, two-types-of-endings → ending-agnostic, **strict inversion principle → downward inversion principle**), speculative sections removed, honest acknowledgments added throughout.
+**First public release.** Numerical errors fixed, internal consistency cleaned up (alternating cascade → universal bulk-brane cancellation, two-types-of-endings → ending-agnostic, **strict inversion principle → downward inversion principle**, **dark matter = death-flash → dark matter = cumulative energy return** — Big Crunch gives brief death-flash, heat death gives slow diffuse return, mix depends on event size), speculative sections removed, honest acknowledgments added throughout.
 
 ### Numerical fixes
 
@@ -34,7 +34,7 @@ All notable changes to this paper are documented here.
 - **§2.5 "Universal bulk-brane cancellation"** — every level has the same basic structure as 3+1D
 - **§2.5 "Summary of the cascade framework"** — 10 core claims listed explicitly
 - **§2.5 "Lensing and the inversion principle"** — strict cascade inversion
-- **§2.5 "Dark matter = 2D Big Crunch death-flash"** — more concrete mechanism
+- **§2.5 "Dark matter = cumulative energy return from 2D universe endings"** — Big Crunch gives brief death-flash, heat death gives slow diffuse return, mix depends on event size (consistent with smooth observed dark matter + activity-dependence)
 - **§2.6 "Energy budget breakdown"** — 5%/27%/68% made explicit
 - **§2.6 "Symmetries and conservation laws"** — explicit list of model assumptions
 - **§2.6 "Honest acknowledgment"** — what the model does and does not address
