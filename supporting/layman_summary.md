@@ -87,7 +87,7 @@ The "downward inversion principle" and "universal bulk-brane cancellation" are t
 
 ## What the model doesn't claim
 
-- I'm not claiming the inversion principle is mathematically derived. It's a *postulate*.
+- I'm not claiming the inversion principle is mathematically derived. It's a *postulate* — but it has a *physical motivation*: the same standard GR mechanism ($\rho + 3P < 0$, the active gravitational mass density) that drives cosmic inflation and dark energy in our universe. The cascade generalizes this mechanism to every level of the dimensional hierarchy, with the bulk-brane coupling translating the parent's ordinary attractive matter into a brane-perceived effective gravitating density with the *opposite* sign. The 4D event's gravity in 4D is still attractive (standard GR); the inversion is a feature of how the brane *perceives* the projected contribution.
 - I'm not claiming the model is consistent with all data. It matches some observations (galaxy rotation curves, the radial acceleration relation with a slight activity-dependence) but hasn't been checked against others (CMB power spectrum, primordial element abundances, BBN).
 - The model does *not* derive inflation, baryogenesis, BBN, or the Standard Model particle spectrum. It takes these as given.
 - I'm not claiming this is the only possible unification. Other models (Verlinde, MOND, Dark Dimension, superfluid dark matter) are exploring similar ideas with different mechanisms.
