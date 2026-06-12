@@ -4,7 +4,7 @@ Numerical verification of all key claims in
 "Gravity as Residual: A Thought Experiment on Dimensional Inversion,
 Annihilation, and the Origin of the Dark Sector"
 
-Author: Mavis (AI assistant, developed in conversation with the paper's author)
+Author: Mavis (M3, MiniMax AI assistant, developed in conversation with the paper's author)
 Date: 2026-06
 License: MIT
 

@@ -1,6 +1,6 @@
 # AI Disclosure
 
-This paper was developed with substantial assistance from **Mavis** (an AI assistant based on Claude, from Anthropic). The use of AI is explicit and disclosed in §1 of the paper.
+This paper was developed with substantial assistance from **Mavis** (an AI assistant from MiniMax, based on the M3 model). The use of AI is explicit and disclosed in §1 of the paper.
 
 ## How Mavis was used
 

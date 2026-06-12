@@ -3,9 +3,9 @@
 > A thought experiment on dimensional inversion, annihilation, and the origin of the dark sector.
 
 **Author:** A non-specialist (software developer)  
-**AI assistance:** Developed in conversation with Mavis (Claude), disclosed in §1 and `ai_disclosure.md`  
+**AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.0 (June 2026)  
-**Status:** Submitted to ai.viXra.org (reference: 18068418)
+**Status:** Pending review at ai.viXra.org (reference: 18068418). Also archived here on GitHub as the canonical source.
 
 ---
 
