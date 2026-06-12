@@ -18,7 +18,7 @@ These are the v2.0 framings that should be consistent across all venues:
 
 2. **"Two dark-sector products"** — dark energy is the un-cancelled fraction of the 4D→3+1D *downward* inversion (one inversion, repulsive). Dark matter is the *upward* back-projection of 2D universes' net attractive residue (no upward inversion, attractive). They look different because they're at different cascade levels and go in different directions.
 
-3. **"Death-flash mechanism"** — dark matter is the *time-compressed Big Crunch* of child universes, not just any gravitational back-projection. Each child universe lives, evolves, and dies. The death-flash is the active source of dark matter.
+3. **"Cumulative energy return"** — dark matter is the *cumulative energy return* of child universes to their parent (3+1D), as those universes' lives end. The *form* of the return depends on the 2D universe's ending: Big Crunch endings give brief, intense, localized death-flashes; heat death endings give slow, diffuse, distributed returns. The total is set by energy conservation; the form depends on the mix of endings. The model is intentionally ending-agnostic at the 2D level.
 
 4. **"Five possible endings"** — the model is intentionally ending-agnostic. All five (fixed-time boundary, cyclic, diminishing cyclic, Big Rip, Big Freeze) are consistent with the model and are empirically distinguishable by Euclid, Roman, LSST, and SKA.
 
@@ -120,7 +120,7 @@ The AI's role was *not*:
 - Writing the paper autonomously (every section was reviewed and often rewritten)
 - Fabricating references (all 22 are real and verified)
 
-The conceptual content — the dimensional-cascade model, the downward inversion principle, the universal bulk-brane cancellation, the ending-agnosticism, the death-flash mechanism — is mine. The AI was a tool.
+The conceptual content — the dimensional-cascade model, the downward inversion principle, the universal bulk-brane cancellation, the ending-agnosticism, the cumulative-energy-return mechanism — is mine. The AI was a tool.
 
 ## Bottom line
 

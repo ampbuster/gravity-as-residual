@@ -4,7 +4,7 @@
 
 ## The one-line version
 
-What if dark matter, dark energy, and gravity's weird weakness are all *one* process — the projection of a higher-dimensional event into our 3+1-dimensional universe — and dark matter is the "death-flash" of countless tiny child universes constantly being born and dying inside ours?
+What if dark matter, dark energy, and gravity's weird weakness are all *one* process — the projection of a higher-dimensional event into our 3+1-dimensional universe — and dark matter is the *cumulative energy return* of countless tiny child universes being born and ending inside ours (Big Crunch → brief death-flash; heat death → slow diffuse return)?
 
 ## What's the puzzle?
 
@@ -31,11 +31,13 @@ The 4D event is "projecting" itself into our 3+1-dimensional universe. As it doe
 
 Here's where it gets speculative. In this model, **every energetic event in our universe creates a child universe**. A supernova creates one. A star creates one. Even an LHC collision creates one — it's just so small and brief that we don't notice.
 
-Each child universe is a 3+1D spacetime *embedded inside* our 3+1D spacetime, but at a much smaller scale (the "2D" label means "one level down in the hierarchy," not "two spacetime dimensions" — *all* universes are 3+1D). It lives a brief life, then **dies in a Big Crunch** as its own gravity pulls it back together.
+Each child universe is a 3+1D spacetime *embedded inside* our 3+1D spacetime, but at a much smaller scale (the "2D" label means "one level down in the hierarchy," not "two spacetime dimensions" — *all* universes are 3+1D). It lives a brief life, then **ends** — and the form of its ending depends on the competition between its own matter density and its own dark energy.
 
-That Big Crunch is a *time-compressed death-flash* — the entire remaining energy of the child universe concentrated into a brief, intense 3+1D event. **The death-flash back-projects to 3+1D as attractive gravity** — and *that* is what we observe as **dark matter**.
+**Big Crunch endings** (large 2D universes with high matter density, e.g., from AGN or BH-scale events): the 2D universe's gravity overcomes its dark energy, and it collapses in a brief, intense *death-flash* — the entire remaining energy concentrated into a brief 3+1D event. The death-flash back-projects to 3+1D as attractive gravity.
 
-So dark matter isn't a particle. It's the *combined death-flashes* of countless tiny child universes being created and dying all the time. The dark matter's apparent weakness is the *same* mechanism as gravity's weakness — bulk-brane cancellation — but operating at a *different level* of the universe hierarchy.
+**Heat death endings** (small 2D universes where dark energy wins, e.g., from LHC or small SN-scale events): the 2D universe's own dark energy slowly pulls its matter apart over time, and the dispersed matter gradually leaks back to 3+1D as a slow, diffuse return.
+
+**Both** endings return the 2D universe's energy to 3+1D as **dark matter** — Big Crunch endings give localized impulsive contributions, heat death endings give smooth distributed returns. The total is set by energy conservation; the *form* depends on the mix of endings. The model is *intentionally ending-agnostic* — it doesn't commit to which dominates, but predicts that heat death should be *common* for small 2D universes (where dark energy dominates), which is consistent with the *smooth, distributed* dark matter we observe.
 
 ## The cascade
 
@@ -79,7 +81,7 @@ The "downward inversion principle" and "universal bulk-brane cancellation" are t
 
 - **The hierarchy problem (10³⁸) reframed**: gravity is weak because of bulk-brane cancellation, not because of some unexplained fine-tuning.
 - **The cosmological constant (10¹²⁰) reframed**: we were comparing observed dark energy to the wrong theoretical quantity, not because there's a 10¹²⁰-times-smaller number hiding somewhere.
-- **Dark matter reframed**: not a particle, but the collective death-flashes of countless tiny child universes being born and dying all the time.
+- **Dark matter reframed**: not a particle, but the *cumulative energy return* of countless tiny child universes as they end — brief death-flashes (Big Crunch) for large 2D universes, slow diffuse returns (heat death) for small ones.
 - **Three puzzles unified** under one geometric process: hierarchy + dark matter under one mechanism (bulk-brane cancellation at two different cascade levels), cosmological constant under another (misidentification).
 - **Testable predictions**: dark matter should track *current* energetic activity on galaxy scales (more star formation, more dark matter), not just correlate with total mass.
 
