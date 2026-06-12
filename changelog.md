@@ -4,7 +4,7 @@ All notable changes to this paper are documented here.
 
 ## v2.0 (June 2026) — Current
 
-**First public release.** Numerical errors fixed, internal consistency cleaned up (alternating cascade → universal bulk-brane cancellation, two-types-of-endings → ending-agnostic, **strict inversion principle → downward inversion principle**, **dark matter = death-flash → dark matter = cumulative energy return** — Big Crunch gives brief death-flash, heat death gives slow diffuse return, mix depends on event size), speculative sections removed, honest acknowledgments added throughout.
+**First public release.** Numerical errors fixed, internal consistency cleaned up (alternating cascade → universal bulk-brane cancellation, two-types-of-endings → ending-agnostic, **strict inversion principle → downward perceptual inversion principle (4D gravity stays attractive in 4D; inversion is brane perception of projected contribution)**, **dark matter = death-flash → dark matter = cumulative energy return** — Big Crunch gives brief death-flash, heat death gives slow diffuse return, mix depends on event size), speculative sections removed, honest acknowledgments added throughout.
 
 ### Numerical fixes
 
