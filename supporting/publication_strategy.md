@@ -7,7 +7,6 @@ This is the strategy for sharing v2.0 of the paper. The repo is the canonical so
 ## The current state
 
 - **GitHub** (canonical): https://github.com/ampbuster/gravity-as-residual — primary long-term home
-- The paper is also being considered by ai.viXra.org (an open-access archive for AI-assisted work, launched March 2025). Status: under review.
 
 The strategy below is for *additional* distribution beyond GitHub.
 
@@ -70,7 +69,6 @@ The repo is the canonical home. URL: https://github.com/ampbuster/gravity-as-res
 
 ### 5. Other open-access archives (OPTIONAL)
 
-- **ai.viXra.org** (March 2025) — open-access archive for AI-assisted work. Requires explicit AI disclosure. The paper is currently under review here.
 - **arXiv.org** — would require an endorser in the right category (relativity/cosmology). Without one, can take weeks. Also requires explicit AI disclosure (2026 rules).
 - **rxiVerse.org** — a newer alternative. Less established.
 
@@ -102,8 +100,6 @@ Many platforms now have explicit rules about AI-generated content:
 
 - **r/HypotheticalPhysics** — "P6: Acknowledge AI: Heavily AI-formatted posts will be removed"
 - **arXiv** (as of 2026) — banned AI hallucination citations for 1 year; explicit verification of references required; explicit AI acknowledgment mandatory
-- **ai.viXra.org** (March 2025) — explicit AI disclosure required (the platform's reason for existing)
-- **viXra.org** (the original) — *rejects* AI-assisted work entirely
 - **General principle** — be transparent about AI involvement
 
 ## The author's situation
@@ -130,8 +126,7 @@ The conceptual content — the dimensional-cascade model, the inversion principl
 
 - **Canonical home**: GitHub (done)
 - **Optional distribution**: blog, LessWrong, HN
-- **Optional archives**: ai.viXra.org (under review)
-- **Avoid**: Reddit, viXra.org (the original)
+- **Avoid**: Reddit
 
 The paper is *yours*. The AI was a tool. The cleanest path is full transparency about the process.
 

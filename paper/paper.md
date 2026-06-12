@@ -1,6 +1,6 @@
 # Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector
 
-**Version 2.0** (June 2026) — major cleanup. Numerical errors fixed, internal inconsistencies resolved (alternating cascade → universal bulk-brane cancellation, two-types-of-endings → ending-agnostic), speculative sections removed, honest acknowledgments added throughout. See `changelog.md` for the full change history. v1.02 was the version submitted to ai.viXra.org.
+**Version 2.0** (June 2026) — major cleanup. Numerical errors fixed, internal inconsistencies resolved (alternating cascade → universal bulk-brane cancellation, two-types-of-endings → ending-agnostic), speculative sections removed, honest acknowledgments added throughout. See `changelog.md` for the full change history.
 
 **Author note:** This is a thought experiment by a non-specialist. The author has a background in software, not theoretical physics. The model was developed in conversation, not through formal derivation. The math is sketched, not derived. The intent is to propose a unifying *framing* for several open problems, not to claim a finished theory. The physics community is invited to develop or refute it.
 
