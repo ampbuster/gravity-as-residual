@@ -1,0 +1,241 @@
+#!/usr/bin/env python3
+"""
+CORRECTED: why 4D's m/DM/DE is 32/68 (not 5/27/68)
+
+The user is right: 3+1D IS 4D's child. So 3+1D's attractive gravity
+DOES back-project to 4D. Why, then, does 4D have no 5/27 split?
+
+The answer is more subtle than I originally said:
+  - 4D is a PARENT EVENT, not a universe with spacetime
+  - 4D doesn't have a 'frame' with separate matter and DM concepts
+  - 4D's 'energetic projection' (32%) is 3+1D's full back-projection
+  - This is one chunk, not split into 'matter' and 'DM'
+
+If 4D were a UNIVERSE (with spacetime, brane, etc.):
+  - 4D would have matter, DM, DE
+  - 4D's matter = 4D's direct projection to 3+1D (5%)
+  - 4D's DM = 3+1D's back-projection (27%)
+  - 4D's DE = 4D's antigravity (68%)
+  - 4D's m/DM/DE = 5/27/68 (same as 3+1D!)
+
+But the cascade treats 4D as a single EVENT, not a universe.
+So 4D's m/DM/DE is just 32/68 (no 5/27).
+
+The parent-child DM symmetry is well-defined for universe-universe
+pairs (3+1D<->2D) but ambiguous for event-universe pairs (4D<->3+1D).
+
+This is the CORRECTED understanding.
+"""
+
+import math
+import sys
+sys.path.insert(0, ".")
+sys.path.insert(0, "calculations")
+
+from cascade_model import Constants
+
+
+def hr(ch="="):
+    print()
+    print(ch * 78)
+    print(ch * 78)
+
+
+def main():
+    hr()
+    print("CORRECTED: WHY 4D'S M/DM/DE = 32/68 (NO 5/27)")
+    hr()
+
+    print(f"\n  Step 1: User is right - 3+1D IS 4D's child")
+    print(f"  ----------------------------------------------------------------")
+    print(f"  In cone-shape:")
+    print(f"    4D event (top, parent)")
+    print(f"      -> projects DOWN to 3+1D universe")
+    print(f"    3+1D universe (middle, child of 4D, parent of 2D)")
+    print(f"      -> back-projects UP to 4D (children's attractive gravity)")
+    print(f"      -> projects DOWN to 2D universes")
+    print(f"    2D universes (bottom, child of 3+1D)")
+    print(f"      -> back-projects UP to 3+1D (children's attractive gravity)")
+    print()
+    print(f"  So 4D DOES have 3+1D as a child. 3+1D's back-projection to 4D")
+    print(f"  is a real effect (per cascade).")
+    print()
+    print(f"  Question: why does 4D have no 5/27 split, then?")
+
+    print(f"\n\n  Step 2: Two interpretations of '4D'")
+    print(f"  ----------------------------------------------------------------")
+    print(f"  Interpretation A: 4D is a 4D UNIVERSE (with spacetime)")
+    print(f"    - 4D has matter, DM, DE in its own frame")
+    print(f"    - 4D's matter = 4D's intrinsic matter (whatever that means)")
+    print(f"    - 4D's DM = 3+1D's back-projection (children's attractive gravity)")
+    print(f"    - 4D's DE = 4D's antigravity residue (and possibly 5D's projection)")
+    print(f"    - 4D's m/DM/DE = (intrinsic) / (3+1D back-projection) / (antigravity)")
+    print(f"    - If 4D has no intrinsic matter: 4D's m/DM/DE = 0/32/68")
+    print()
+    print(f"  Interpretation B: 4D is a single EVENT (no spacetime)")
+    print(f"    - 4D doesn't have a 'frame' with matter, DM, DE")
+    print(f"    - 4D's '32% projection' is the entire 3+1D universe")
+    print(f"    - 4D's '68% residue' is the 4D antigravity = 3+1D's DE")
+    print(f"    - 4D's m/DM/DE is conceptually meaningless")
+    print(f"    - We can still write 32/68 as 4D's 'energetic/vacuum' split")
+
+    print(f"\n\n  Step 3: What the cascade does")
+    print(f"  ----------------------------------------------------------------")
+    print(f"  The cascade has been treating 4D as a SINGLE EVENT (Interpretation B),")
+    print(f"  not as a 4D universe with spacetime.")
+    print()
+    print(f"  Reasons:")
+    print(f"    - The 4D 'event' created our 3+1D universe (it's a single event,")
+    print(f"      not a 4D universe with multiple children)")
+    print(f"    - 4D's 'duration' is finite (the 4D event has a beginning and end)")
+    print(f"    - 4D doesn't have 'galaxies' or 'stars' or 'time evolution' in")
+    print(f"      the way 3+1D does")
+    print()
+    print(f"  So in the cascade's framework:")
+    print(f"    4D = single event (Interpretation B)")
+    print(f"    4D's m/DM/DE = 32/68 (energetic projection vs vacuum residue)")
+    print(f"    No 5/27 in 4D's frame because 4D is an event, not a universe")
+
+    print(f"\n\n  Step 4: Reconciling with parent-child DM symmetry")
+    print(f"  ----------------------------------------------------------------")
+    print(f"  Parent-child DM symmetry (per commit 69):")
+    print(f"    Parent's antigravity (in child) = child's DM")
+    print(f"    Child's attractive gravity (in parent) = parent's DM")
+    print()
+    print(f"  For 4D<->3+1D:")
+    print(f"    4D's antigravity (in 3+1D frame) = 3+1D's DE (per cascade) ✓")
+    print(f"    3+1D's attractive gravity (in 4D frame) = 4D's 'DM'?")
+    print()
+    print(f"  If 4D is an event (Interpretation B), then 4D doesn't have 'DM'.")
+    print(f"  3+1D's back-projection to 4D is just 4D's 'energetic projection' (32%),")
+    print(f"  not 4D's 'DM' separately from 'matter'.")
+    print()
+    print(f"  So the parent-child DM symmetry:")
+    print(f"    - Holds for 3+1D<->2D (both are universes with frames)")
+    print(f"    - 3+1D's DM = 2D's attractive gravity (in 3+1D frame)")
+    print(f"    - 2D's 'DM' = 3+1D's antigravity (in 2D frame)")
+    print()
+    print(f"    - Ambiguous for 4D<->3+1D (event-universe pair)")
+    print(f"    - 4D's 'antigravity' (in 3+1D frame) = 3+1D's DE ✓")
+    print(f"    - 3+1D's 'attractive gravity' (in 4D frame) = 4D's 'projection' (32%)")
+    print(f"      not 4D's 'DM' separately")
+
+    print(f"\n\n  Step 5: Numerical: 4D's 'm/DM/DE' under both interpretations")
+    print(f"  ----------------------------------------------------------------")
+    print(f"  Under Interpretation A (4D as universe):")
+    print(f"    4D's matter = 4D's direct projection to 3+1D = 5% of 3+1D universe")
+    print(f"      = 5% * E_3plus1D / 0.32 = 0.05 * E_4D = 5% of E_4D")
+    print(f"    4D's DM = 3+1D's full back-projection = 32% of E_4D (energetic)")
+    print(f"      Wait, this is 4D's 'energetic projection', not 4D's 'DM'...")
+    print()
+    print(f"  Hmm, this gets confusing. Let me think again.")
+    print()
+    print(f"  Actually, I think the issue is:")
+    print(f"    In Interpretation A, 4D's 'matter' would be 4D's intrinsic matter")
+    print(f"    (which is not the same as 3+1D's matter).")
+    print(f"    And 4D's 'DM' would be 3+1D's back-projection.")
+    print()
+    print(f"  If 4D has no intrinsic matter (4D is 'pure event'), then:")
+    print(f"    4D's m/DM/DE = 0/32/68")
+    print(f"    4D's 0% matter is the assumption '4D is a pure event'")
+    print(f"    4D's 32% DM is 3+1D's full back-projection")
+    print(f"    4D's 68% DE is 4D's antigravity residue")
+    print()
+    print(f"  This is Interpretation A with the strong assumption of no 4D matter.")
+    print()
+    print(f"  Under Interpretation B (4D as event):")
+    print(f"    4D's m/DM/DE = 32/68 (no 5/27, no DM/matter distinction)")
+    print(f"    4D's 32% is the 'energetic projection' (= 3+1D universe)")
+    print(f"    4D's 68% is the 'vacuum residue' (= 3+1D's DE)")
+
+    print(f"\n\n  Step 6: Which is right?")
+    print(f"  ----------------------------------------------------------------")
+    print(f"  The cascade has been treating 4D as Interpretation B (event).")
+    print(f"  So 4D's m/DM/DE = 32/68 (no 5/27).")
+    print()
+    print(f"  But the user is right: 3+1D is 4D's child.")
+    print(f"  3+1D's back-projection IS a real effect.")
+    print()
+    print(f"  The honest answer:")
+    print(f"    - 4D is a single event, not a universe with spacetime")
+    print(f"    - 4D doesn't have a 'frame' with separate matter/DM/DE")
+    print(f"    - 4D's 'm/DM/DE' is conceptually 32/68 (energetic vs vacuum)")
+    print(f"    - The 5/27 split only emerges in 3+1D's frame (a universe frame)")
+    print(f"    - 3+1D's children (2D) provide 3+1D's DM via back-projection")
+    print(f"    - 4D's 'child' (3+1D) provides 4D's 'energetic projection' (32%)")
+    print(f"      but this is one chunk, not split into 5/27")
+    print()
+    print(f"  This is consistent with the cascade's framework.")
+    print(f"  The 5/27 split is a property of UNIVERSE frames, not event frames.")
+    print(f"  Only 3+1D and 2D (the universes) have 5/27 splits.")
+    print(f"  4D (the event) does not.")
+
+    print(f"\n\n  Step 7: What if we treat 4D as a 4D universe?")
+    print(f"  ----------------------------------------------------------------")
+    print(f"  If we extend the cascade to treat 4D as a 4D universe:")
+    print(f"    - 4D would have matter, DM, DE in its frame")
+    print(f"    - 4D's matter = 4D's intrinsic matter (assumed 5%? derived?)")
+    print(f"    - 4D's DM = 3+1D's back-projection (27% of 4D's frame)")
+    print(f"    - 4D's DE = 4D's antigravity (68%)")
+    print()
+    print(f"  Under this extension, 4D's m/DM/DE = 5/27/68 (same as 3+1D)")
+    print()
+    print(f"  But the cascade's current model treats 4D as a single event,")
+    print(f"  not a 4D universe. So we use Interpretation B.")
+    print()
+    print(f"  This is a CHOICE the cascade makes. Other choices are possible.")
+    print()
+    print(f"  Choice B (event): 4D's m/DM/DE = 32/68 (current cascade)")
+    print(f"  Choice A (universe): 4D's m/DM/DE = 5/27/68 (extended cascade)")
+    print()
+    print(f"  The current cascade chooses B for simplicity. The '4D's m/DM/DE'")
+    print(f"  question is really about the cascade's choice of model.")
+
+    print(f"\n\n  Step 8: Updated understanding")
+    print(f"  ----------------------------------------------------------------")
+    print(f"  The user caught a real issue. Let me restate the correct understanding:")
+    print()
+    print(f"  1. 4D has 3+1D as a child (user is right)")
+    print(f"  2. 3+1D's back-projection to 4D is real (per cascade)")
+    print(f"  3. But 4D's m/DM/DE = 32/68 (no 5/27) is BECAUSE:")
+    print(f"     a) 4D is treated as a single event, not a universe with frame")
+    print(f"     b) 4D doesn't have 'matter' and 'DM' as separate concepts")
+    print(f"     c) 4D's 32% is one chunk (3+1D's full projection), not split")
+    print(f"  4. The 5/27 split is a property of UNIVERSE frames, not event frames")
+    print(f"  5. Only 3+1D and 2D (the universes) have 5/27 splits")
+    print(f"  6. 4D (the event) does not")
+    print()
+    print(f"  My earlier statement '4D has no children' was WRONG.")
+    print(f"  The correct statement is: '4D is a single event, not a universe,")
+    print(f"  so 4D doesn't have matter/DM/DE as separate concepts in its frame.'")
+    print()
+    print(f"  This is a more subtle and correct understanding.")
+
+    # Summary
+    hr()
+    print("SUMMARY")
+    hr()
+    print(f"\n  The user is right: 3+1D IS 4D's child.")
+    print(f"  3+1D's back-projection to 4D is real.")
+    print()
+    print(f"  But: 4D's m/DM/DE = 32/68 (no 5/27) is because:")
+    print(f"    4D is a single EVENT (not a 4D universe with spacetime)")
+    print(f"    4D doesn't have a 'frame' with separate matter/DM concepts")
+    print(f"    4D's 32% is one chunk (3+1D's full projection), not 5+27")
+    print()
+    print(f"  The 5/27 split is a property of UNIVERSE frames, not event frames.")
+    print(f"  Only 3+1D and 2D (the universes) have 5/27 splits.")
+    print()
+    print(f"  Parent-child DM symmetry:")
+    print(f"    - Holds for 3+1D<->2D (universe-universe pair)")
+    print(f"    - Ambiguous for 4D<->3+1D (event-universe pair)")
+    print(f"    - 4D's antigravity -> 3+1D's DE (well-defined)")
+    print(f"    - 3+1D's attractive -> 4D's 'projection' (32% chunk, not 'DM')")
+    print()
+    print(f"  Status: corrected understanding. 4D's 32/68 is consistent with")
+    print(f"  4D being a single event (Interpretation B), not because 4D has no")
+    print(f"  children (which it does, namely 3+1D).")
+
+
+if __name__ == "__main__":
+    main()
