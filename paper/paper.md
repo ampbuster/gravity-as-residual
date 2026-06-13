@@ -359,6 +359,32 @@ In the cascade's framework, these 3+1D observables *constrain* the 4D event:
 
 So the cascade is not as "unfalsifiable" as it might first appear: its 4D event's geometry is *constrained* by 3+1D observations (5/27/68 from cosmology, f_active from cosmic star formation history). A specific implementation of the cascade would need to *derive* these observational constraints from the 4D event's specific physics, which is the future-work item.
 
+*A curious coincidence: the "5%" appearing in three places.* The number 5% appears prominently in three different parts of the cascade:
+
+1. **5% baryon fraction (ordinary matter, from BBN).** This is the fraction of the universe's total energy density in ordinary matter, measured by Big Bang nucleosynthesis (D, 4He, 7Li abundances) and CMB + large-scale structure.
+
+2. **5% / 27% ratio (cascade's direct / cumulative 2D universe gravity).** In the cascade's framework, the 5% is the "direct 3+1D" content (ordinary matter) and the 27% is the "cumulative 2D universe gravity" (dark matter). The 5/27 = 0.185 ratio is set by the 4D event's projection efficiency.
+
+3. **f_active ≈ 0.05 (active fraction of dark matter, from RAR fit).** In the cascade, f_active is the fraction of dark matter that is "current activity" (concentrated near stars, follows stellar profile). The RAR fit (commits 113-114, 119) found f_active ≈ 0.05 gives the best match to the empirical RAR for the Milky Way.
+
+**Are these three 5% related?** In the cascade's framework, they might be — through the cosmic star formation rate (SFR) timescale:
+
+- The cosmic SFR density (Madau & Dickinson 2014) peaked at z~2 (~3.3 Gyr after the Big Bang) and has been declining since. The "current" timescale for star formation in galaxies is ~2-3 Gyr (gas consumption timescale in spirals, similar to the cosmic SFR decline timescale).
+- The 5/27 ratio = T_universe / t_current = 13.8 Gyr / 2.5 Gyr ≈ 5.5, close to 27/5 = 5.4.
+- f_active = t_current / T_universe = 0.05 (with t_current ~ 0.7 Gyr) — though this is a *shorter* timescale than the cosmic SFR.
+
+**Honest assessment:**
+- The 5% baryon fraction and the 5/27 cascade ratio are connected through the cosmic SFR timescale (t_current ~ 2.5 Gyr).
+- The f_active ~ 0.05 corresponds to a *different* timescale (t_current ~ 0.7 Gyr, the gas consumption timescale), which is a *shorter* timescale than the cosmic SFR peak.
+- In the cascade, f_active should be the *active* fraction of dark matter — the 2D universes currently being created. If we identify this with the cosmic SFR (peaked at z~2, declining since), then t_current ~ 2.5 Gyr and f_active should be ~0.18, not 0.05.
+- The 4x discrepancy between f_active ~ 0.05 (RAR fit) and f_active ~ 0.18 (cosmic SFR timescale) is a real tension in the cascade.
+
+**Possible resolution:** The cascade's "current activity" might refer to a shorter timescale than the cosmic SFR peak. The 0.7 Gyr timescale is the gas consumption timescale in spiral galaxies (Bigiel et al. 2011), which is the time over which the current gas reservoir will be converted to stars. This is a *shorter* timescale than the cosmic SFR peak (~2.5 Gyr).
+
+So the three 5% are not a perfect coincidence, but they are not all the same 5% either. The 5% baryon fraction ↔ cosmic SFR timescale, while f_active ~ 0.05 ↔ gas consumption timescale. The cascade's specific implementation would need to specify which timescale is the "active" one.
+
+This is left as a future-work item for a specific cascade implementation.
+
 *Deriving the growth factor from 2D universe dynamics.* The above self-consistency picture uses the growth factor as a *postulate* in the 10⁵–10¹⁰ range, with the *specific* value left unspecified. We can, however, *derive* the growth factor from the 2D universe's own Friedmann–Robertson–Walker (FRW) dynamics, using only the universal-split assumption and a physically reasonable 2D universe equation-of-state. This closes the limitation noted in the *A quantitative attempt at the DM calculation* paragraph above, by showing that the growth factor is *not* a free parameter of the model — it is a *consequence* of the 2D universe's own physics.
 
 Per the universal-split assumption, the 2D universe's *total* mass-energy at peak is related to the original event energy by:
