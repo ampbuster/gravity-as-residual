@@ -1457,15 +1457,16 @@ class Universe:
         # The 2D universe's *attractive* gravity residue back-projects
         # to the parent. Per §2.6 universal-split, the attractive
         # fraction is ~32% of the 2D universe's *total* mass-energy
-        # (5% ordinary + 27% dark matter from 1D universe
-        # back-projection in 2D). But the 2D universe's total
-        # mass-energy is dominated by its own dark energy (68%),
-        # not the original event energy.
+        # (5% ordinary + 27% dark matter from *unspecified* 2D-internal
+        # source, *not* from 1D universe back-projection since 1D
+        # universes don't exist per the v2.1 cone-shape refinement).
+        # But the 2D universe's total mass-energy is dominated by
+        # its own dark energy (68%), not the original event energy.
         #
         # For simplicity here, we return the original event energy
         # (the "ordinary matter" 5% contribution) as the attractive
         # back-projection. A full implementation would include the
-        # growth factor and the cumulative 1D universe contributions.
+        # growth factor and the *postulated* 2D-internal dark matter contributions.
         attractive_back_projection = (
             self.params.cumulative_back_projection
             * self.energy
@@ -1633,7 +1634,9 @@ def simulate_galaxy_events(
       M_2D_peak = (1/0.05) * G * M_event
                   = 20 * G * M_event
                   (5% of M_2D_peak is from original event; rest is
-                   DE (68%) + 1D universe back-projection in 2D (27%))
+                   DE (68%) + *postulated* 2D-internal dark matter (27%)
+                   -- 1D universe back-projection does NOT contribute
+                   since 1D universes don't exist per the v2.1 cone-shape)
       DM_to_3+1D = 0.32 * M_2D_peak
                   = 0.32 * 20 * G * M_event
                   = 6.4 * G * M_event
@@ -1914,12 +1917,16 @@ def demo():
     print(f"Sgr A* 2D universe: {sgr.lifetime_parent_frame:.3e} s")
     print(f"  Expected ~ 40 s (since extent ~ 1.2e10 m)")
 
-    # Demonstrate the cascade: create a 2D universe's child (3D universe)
-    print("\n--- Recursive cascade ---")
-    # The SN 2D universe's "energetic events" could create 1D universes
-    # (but we won't actually do that here, just show the recursion)
-    print(f"The SN 2D universe could create its own 1D universe children,")
-    print(f"each with shorter lifetime. The cascade is fractal.")
+    # Demonstrate the cascade: show the v2.1 cone-shape recursion
+    print("\n--- Cone-shaped cascade ---")
+    # Per the v2.1 cone-shape, the 2D universe's Big Crunch (the
+    # 2D-level ending) is a 3+1D event that creates a *new* 2D
+    # universe at the same 3+1D location. The recursion stays
+    # *within* the 2D level (each Big Crunch creates a new 2D
+    # universe, not a 1D universe).
+    print(f"The SN 2D universe's Big Crunch is a 3+1D event that creates")
+    print(f"a *new* 2D universe at the same 3+1D location. The cascade")
+    print(f"cycles within the 2D level (per cone-shape, no 1D universes).")
 
     print("\n" + "=" * 70)
     print("Demo complete.")

@@ -47,7 +47,7 @@ Each child universe is a 3+1D spacetime *embedded inside* our 3+1D spacetime, bu
 
 ## The cascade
 
-And it doesn't stop there. Each child universe's Big Crunch can create *its own* child universes. And those can create more. It's a *cascade* of nested universes, like floors in a building, each one smaller and briefer than the one above.
+It cascades. The 4D event creates the 3+1D universe. Every energetic event in the 3+1D universe creates 2D universes. The 2D universes are *terminal* (per the v2.1 cone-shape): they don't create 1D universes. But each 2D universe's Big Crunch (the 2D-level ending) is a *new* energetic event in 3+1D, which creates a *new* 2D universe at the same 3+1D location. So the cascade *cycles* within the 2D level: Big Crunch -> new 2D universe -> new Big Crunch -> ... but it never goes *deeper* than 2D.
 
 **Updated in v2.1:** The cascade is now **cone-shaped**, not *fractal*. It has a finite depth:
 
@@ -84,9 +84,9 @@ The model combines several existing ideas in a new way:
 
 - **Brane-world cosmology** (Randall-Sundrum, ADD) — the formal framework
 - **Scale-invariance** — the principle that the same mechanism should work at every energy scale
-- **Nested universes** (this is the new framing) — universes contain other universes, recursively
+- **Cone-shaped hierarchy** (this is the v2.1 framing) — the cascade has 2 levels (4D event -> 3+1D -> 2D, terminal), not infinite recursion
 - **Downward inversion principle** (this is the most novel and most vulnerable claim) — when gravity is *projected downward* from a parent universe to a child universe, the sign inverts. The *upward* back-projection (from child to parent) does *not* invert; it brings the child's net attractive gravity back to the parent as attractive, contributing to the parent's dark matter.
-- **Universal bulk-brane cancellation** (this is the new framing) — at *every* level of the cascade, the same bulk-brane cancellation happens, leaving a weak attractive residue. The cascade is a *fractal hierarchy of similar universes*, not a parity-based alternating structure.
+- **Universal bulk-brane cancellation** (this is the new framing) — at *each* of the two cascade levels (4D parent, 3+1D universe, 2D children; per the v2.1 cone-shape refinement), the same bulk-brane cancellation happens, leaving a weak attractive residue. The cascade is a *cone-shaped* hierarchy with the 2D level being terminal, not a parity-based alternating structure or an infinite fractal.
 
 The "downward inversion principle" and "universal bulk-brane cancellation" are the *most novel* and *most vulnerable* parts of the model. Standard brane-world physics doesn't obviously do either of these. I'm proposing them as possibilities, not derived from first principles. A real physicist would need to either derive them from a specific geometry or show why they can't work.
 
