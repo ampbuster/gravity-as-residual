@@ -719,6 +719,18 @@ With these parameters:
 - This is consistent with the recent RAR papers (EDGE 2025, Tian 2024) showing the RAR is NOT perfectly universal. The cascade's parameters are also partially degenerate — multiple (f_active, N_crit) combinations give similar fits.
 - A specific implementation would need additional physics (e.g., feedback-driven modifications to kappa, baryonic effects on mixing, or environment-dependent N_crit) to match the full mass spectrum.
 
+*Inner-galaxy over-prediction (commits 109-110, v2.2.1).* I tried several model variations to fit the empirical RAR better (in `calculations/rar_*.py`):
+- Power-law cumulative profile (different alpha): no improvement
+- Scale-dependent f_active (varies with mass): cluster prediction became too low
+- Mass-dependent g_+ (g_+ scales as M^p): search converged to p=0
+- Core+isothermal cumulative: best at r_core=10% of R_halo, but mass-dependence still wrong
+- Spread-out active contribution: no improvement
+- Direct g_obs(g_bar) curve comparison (commits 109-110): **the cascade's MW actually matches the cluster RAR (g_+=17x) much better than the galaxy RAR (g_+=1x)** — diff_17x ranges from -0.32 to 0.74, vs diff_cascade from 0.77 to 5.75. This is a tension: the cascade's MW model is in the 'cluster' regime of the RAR parameter space, but empirically it's in the 'galaxy' regime.
+
+*The fundamental issue:* the cascade's active contribution (clustered, follows stellar) makes the inner g_obs too large. The empirical RAR requires g_obs ~ g_bar at high g_bar (no DM excess at high stellar surface density), but the cascade's active contribution gives g_obs = g_bar * (1 + f_active * kappa), which is 5-6x g_bar for f_active=0.2, kappa=17. To match the RAR at 2R_d for MW, f_active * kappa must be < 1, requiring f_active < 0.06 — which is 5x smaller than the cascade's postulate of f_active=0.3.
+
+This tension requires either a different spatial distribution for the active contribution, a smaller f_active (cascade's postulate is off by ~5x), or a different cascade g_+. The cascade's g_+ might not be 1.2×10⁻¹⁰ m/s² (McGaugh+ 2016) but rather closer to 2×10⁻⁹ m/s² (Tian+ 2024 cluster value) — which would be a genuinely different prediction of the cascade that conflicts with the galaxy RAR. This is left as an open question for further theoretical work (Limitation 19).
+
 *Numerical results* (computing the full model with $N_{crit} = 10$, $f_{active} = 0.3$, $f_{cumulative} = 0.7$):
 
 | Object | r (kpc) | N_orbits | f_mix | g_obs/g_bar | Effective g_+ |
