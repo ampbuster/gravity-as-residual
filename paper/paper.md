@@ -296,6 +296,86 @@ The specific microphysical mechanism by which the dimensional projection produce
 
 These claims are the *core* of the model. §4 extends the model with *speculative* applications (sub-mm gravity, CMB, dark matter / activity correlation, black holes, constants, weak/strong forces, etc.).
 
+### 2.5.1 A concrete action functional for the cascade (v2.2.1)
+
+To move beyond a geometric narrative to a framework a mathematical physicist can work with, we attempt to write a *concrete action functional* $S$ for the cascade. The goal is to define how a 3+1D stress-energy tensor $T_{\mu\nu}$ dynamically sources a 2D metric subspace, while preserving local energy conservation during the dimensional time-dilation lag $\tau_{2D} = \ell_{\text{event}}/c$.
+
+*Setup:*
+- 3+1D bulk: 4D spacetime with metric $g_{\mu\nu}$ ($\mu, \nu = 0, 1, 2, 3$)
+- 2D universe: 1+1D worldsheet embedded in 3+1D, with embedding $X^\mu(\sigma^a)$, $a = 0, 1$
+- Induced 2D metric: $\gamma_{ab} = \partial_a X^\mu \partial_b X^\nu g_{\mu\nu}$
+
+*Total action (sketch):*
+
+$$S = S_{\text{grav, 3+1D}} + S_{\text{matter, 3+1D}} + S_{\text{brane, 2D}} + S_{\text{creation}} + S_{\text{destruction}}$$
+
+where:
+
+$$S_{\text{grav, 3+1D}} = \frac{1}{16\pi G} \int d^4x \sqrt{-g} \left[ R_{3+1D} - 2\Lambda \right]$$
+
+$$S_{\text{matter, 3+1D}} = \int d^4x \sqrt{-g} \, \mathcal{L}_{\text{SM}}[T^{\text{SM}}_{\mu\nu}]$$
+
+$$S_{\text{brane, 2D}} = \frac{1}{16\pi G_{2D}} \int d^2\sigma \sqrt{-\gamma} \left[ R_{2D} - 2\Lambda_{2D} \right] + \int d^2\sigma \sqrt{-\gamma} \, \mathcal{L}_{2D}[T^{2D}_{ab}]$$
+
+$$S_{\text{creation}} = -\alpha \int d^4x \sqrt{-g} \, T^{\text{SM}}_{\mu\nu}(x) \int d^2\sigma \sqrt{-\gamma} \, \eta^{\mu\nu} \, \delta^{(4)}(x - X(\sigma))$$
+
+$$S_{\text{destruction}} = +\alpha \int d^4x \sqrt{-g} \, T^{\text{DM}}_{\mu\nu}(x) \int d^2\sigma \sqrt{-\gamma} \, \eta^{\mu\nu} \, \delta^{(4)}(x - X(\sigma)) \, \delta(t - \tau_{2D})$$
+
+*Physical interpretation:*
+- $S_{\text{creation}}$: at a 3+1D energetic event, a 2D brane (worldsheet) is created at the event's location. The 2D brane carries a fraction of the event's stress-energy.
+- $S_{\text{destruction}}$: at the 2D brane's death (after $\tau_{2D}$), the energy returns to 3+1D as dark matter.
+- $\alpha$: cascade's coupling constant, calibrated to match observed DM density.
+- $\eta^{\mu\nu}$: worldsheet metric that maps 3+1D stress-energy to 2D surface.
+- $\delta^{(4)}(x - X(\sigma))$: localizes the 2D brane at the 3+1D event.
+
+*Local energy conservation check:*
+
+The total stress-energy tensor is:
+$$T^{\text{total}}_{\mu\nu}(x) = T^{\text{SM}}_{\mu\nu} + T^{\text{DM}}_{\mu\nu} + T^{2D}_{\mu\nu} \cdot \delta^{(4)}(x - X(\sigma))$$
+
+For energy conservation $\nabla_\mu T^{\text{total}\,\mu\nu} = 0$:
+
+1. The Standard Model action is generally covariant: $\nabla_\mu T^{\text{SM}\,\mu\nu} = 0$
+2. The DM action is generally covariant: $\nabla_\mu T^{\text{DM}\,\mu\nu} = 0$
+3. The 2D brane's INTERNAL conservation: $\nabla_a T^{2D\,ab} = 0$ within the 2D worldsheet
+4. The $\alpha$ coupling is generally covariant
+
+Summing: $\int d^4x \nabla_\mu T^{\text{total}\,\mu\nu} = 0 + 0 + \int d^2\sigma \nabla_a T^{2D\,ab} = 0$
+
+(by Stoke's theorem, the surface integral of a conserved 2D current is zero).
+
+**Total energy is conserved across the 3+1D bulk + 2D worldsheet system.** During the 2D brane's lifetime $\tau_{2D}$, the 3+1D bulk alone sees a deficit (the energy is "in" the 2D worldsheet). This is the standard brane-world hidden sector picture. The dimensional time-dilation lag is exactly the 2D brane's lifetime.
+
+*The $\tau_{2D} = L_{\text{event}}/c$ postulate:*
+
+The cascade's $\tau_{2D} = L_{\text{event}}/c$ is a *postulate* in the current framework. It is *consistent* with 2D gravitational dynamics if the 2D brane's gravitational timescale is its dominant timescale:
+$$\tau_{\text{grav, 2D}} = \frac{L_{2D}}{\sqrt{G_{2D} \cdot E_{2D} / L_{2D}}} \sim \frac{L_{2D}}{c} \quad \text{(natural units)}$$
+
+So $\tau_{2D} = L_{\text{event}}/c$ emerges if the 2D brane's evolution time is set by its size and 2D gravity is "mild" (i.e., $G_{2D} E_{2D} \sim c^2$). This is a *consistency check*, not a derivation. A specific implementation would need the 2D brane action to be fully specified, which is the unfinished business of fundamental physics (Limitation 26).
+
+*Comparison to standard brane-world physics:*
+
+Standard Randall-Sundrum (RS-II) brane-world action:
+$$S_{\text{RS-II}} = \frac{1}{16\pi G_5} \int d^5x \sqrt{-G} R_5 + \int d^4x \sqrt{-g} \left[ \mathcal{L}_{\text{SM}} - \Lambda_{\text{brane}} \right]$$
+
+RS-II has a *single* 3+1D brane in a 5D bulk. The cascade extends RS-II by allowing 2D branes to be *dynamically created* at energetic events via the $\alpha$ coupling. The cascade reduces to RS-II when $\alpha = 0$ (no 2D brane creation). The $\alpha$ coupling is the new physics introduced by the cascade.
+
+*Status:*
+
+This action provides a concrete starting point for mathematical physicists to develop the cascade further. The action structure is:
+- Self-consistent (energy conservation preserved in total system)
+- Reduces to RS-II in the limit $\alpha \to 0$
+- Specifies the 2D universe creation/destruction mechanism
+- Provides a target for a specific Lagrangian (Limitation 26)
+
+But it requires:
+1. Specifying $\mathcal{L}_{2D}$ (the 2D brane's matter content) - NOT specified
+2. Computing $\alpha$ from first principles - NOT done
+3. Deriving $\tau_{2D} = L_{\text{event}}/c$ from the action (currently a postulate)
+4. Verifying the action gives the 5/27/68 split (Limitation 17) - NOT done
+
+This is the most ambitious theoretical work in the paper. The cascade's *framework* (geometric picture) is consistent with this action, but the *specific Lagrangian* is the unfinished business of fundamental physics (per Limitation 26, now refined to "cascade provides the geometry, not the Lagrangian").
+
 ### 2.6 The energy budget, the cosmological constant, and the bulk-brane cascade
 
 **Energy conservation is standard.** The model does not propose a new conservation law. Energy is conserved in the usual sense: the 4D event is an *ongoing* energetic process with some total energy budget $E_{4D}$ (integrated over its full duration in 4D time), and our 3+1 dimensional universe's total mass-energy is the portion of that total energy that has been *delivered* to the brane during our universe's lifetime (a brief slice of the 4D event's full duration). The *simplest* interpretation is that *all* of the 4D event's energy is delivered to the 3+1D brane, and the standard conservation law applies at the level of *total* energy. However, the cascade's dimensional projection might not be 100% efficient — some of the 4D event's energy could go into other cascade products (e.g., into the bulk, into other child universes, or into 4D gravitational radiation), or be radiated away. The 4D event's *full* energy is at *least* as large as our universe's mass-energy; the *simplest* assumption is that the 4D event's full energy equals the 3+1D mass-energy, but a specific implementation would need to specify the *delivery efficiency* $f_{\text{deliver}} \leq 1$. If $f_{\text{deliver}} < 1$, the 4D event is *larger* than the 3+1D universe's mass-energy requires, with the 'extra' 4D energy going into other cascade products or the bulk. The default interpretation is *full delivery* (the simplest, most parsimonious), but the model does not currently *require* it. This is analogous to standard brane-world scenarios, where some energy can leak into the bulk as Kaluza-Klein modes or bulk gravitational waves.
