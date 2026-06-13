@@ -29,3 +29,8 @@ __pycache__/
 /private/
 /scratch/
 *.local
+
+# Backup and test files
+calculations/*.bak
+supporting/data/test*.dat
+supporting/data/PantheonSH0ES_v2.dat
