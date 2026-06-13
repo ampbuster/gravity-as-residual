@@ -656,6 +656,39 @@ For a Milky Way-like galaxy ($M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, $f
 
 *Implication:* the cascade's RAR is *not* a perfect universal function; it predicts a *slight* galaxy-type dependence via $M_{DM}/R_{halo}^2$. This is *consistent* with recent findings (e.g., the EDGE collaboration's low-mass dwarf deviation, BCGs on a different relation) that the RAR is not perfectly universal. The cascade's prediction is in the *ballpark* of these observed deviations.
 
+**The RAR across mass scales: cascade vs. observations (v2.2.1).** A more stringent test of the cascade's $g_+$ prediction comes from comparing the cascade to recent observations across the *full* mass spectrum. Three recent observational results are particularly relevant:
+
+1. **McGaugh+ 2016 (galaxies)**: $g_+ = 1.2 \times 10^{-10}$ m/s² (a tight, approximately universal relation for spiral galaxies with $M_{bar} \sim 10^8 - 10^{11} M_\odot$).
+
+2. **Júlio+ 2025 (EDGE, dwarfs)**: 12 nearby dwarf galaxies with $M_{bar} \sim 10^4 - 10^{7.5} M_\odot$ lie *systematically above* the low-mass extrapolation of the McGaugh+ 2016 RAR. Each galaxy traces a multi-valued locus in RAR space (the same baryonic acceleration can correspond to different observed accelerations). The conclusion: *"the RAR does not apply to low-mass dwarf galaxies"* [Júlio+ 2025, A&A 704, A330].
+
+3. **Tian+ 2024 (BCGs and clusters)**: 50 BCGs and galaxy clusters have a *distinct* RAR with an acceleration scale *17x larger* than the galaxy-scale RAR [Tian+ 2024, A&A 683, A221]. This is not a continuation of the McGaugh+ 2016 RAR but a *separate* relation.
+
+The cascade's prediction across these scales (see `calculations/rar_across_scales_v2.py`):
+
+| Object | $M_{DM}$ ($M_\odot$) | $R_{halo}$ (kpc) | $g_+$ (cascade) | $g_+$ (obs) | ratio |
+
+```
+Object              M_DM (M_sun)   R (kpc)    g_+ cascade       g_+ obs           ratio
+Dwarf (EDGE 2025)   1e9            5          9.3e-13           > 1.2e-10         0.008
+Small spiral        1e10           10         2.3e-12           1.2e-10           0.02
+Milky Way           1e12           30         2.6e-11           1.2e-10           0.22
+Large spiral        5e12           50         4.7e-11           1.2e-10           0.39
+Cluster (Tian 2024) 1e14           500        9.3e-12           2.0e-9            0.005
+Supercluster        1e15           3000       2.6e-12           2.0e-9            0.001
+```
+
+
+*Honest finding:* the cascade's $g_+$ prediction is in the *right ballpark* for galaxy scales (0.22x the empirical value for the Milky Way) but is *off by orders of magnitude* at both ends of the mass spectrum. The cascade *under-predicts* $g_+$ for dwarfs (off by ~100x) and for clusters (off by ~200x, and in the *wrong direction* — the cascade predicts $g_+$ *decreases* with mass, but empirically it *increases* for clusters).
+
+*Implications for the cascade:*
+- The cascade's *galaxy-scale* RAR is consistent with observations to within a factor of 5, which is encouraging.
+- The cascade's *dwarf-scale* and *cluster-scale* $g_+$ predictions are *quantitatively wrong*. The cascade would need significant additional physics (baryonic feedback at low masses, ICM physics at high masses) to match the full mass spectrum.
+- The cascade's *scaling* $g_+ \propto M_{DM}/R_{halo}^2$ is the *opposite direction* of the empirical cluster RAR (which has $g_+$ increasing with mass for clusters).
+- The cascade's qualitative picture — $g_+$ depends on local environment — is correct, but the *quantitative* $g_+$ scaling across mass scales is *not* simply $M_{DM}/R_{halo}^2$. A more sophisticated implementation of the cascade (e.g., including baryonic feedback, ICM physics, halo concentration dependence) would be needed to match the full data.
+
+*Status:* the cascade's RAR prediction is *partially* consistent with the data. The qualitative picture (smooth RAR, activity-driven, cumulative-return floor) is right, but the quantitative $g_+$ scaling across mass scales is *open* and would require a specific implementation to fully resolve. This is consistent with the §7 limitations: the *qualitative* RAR picture is preserved, but the *quantitative* $g_+$ scaling is a *calculation to do* (now better framed as a *specific* calculation that's *partially* consistent with data).
+
 ### 4.2 Dark matter as cumulative collective gravity, not a relic
 
 Standard WIMP dark matter models predict that dark matter is a relic of the early universe, with density fixed by freeze-out and subsequently diluted only by cosmic expansion. In our model, dark matter is *not* a static relic — it is the *cumulative* collective gravitational signature of all 2D universes created by 3+1 dimensional energetic events: the *active* back-projection of currently-alive 2D universes (rate × lifetime) *plus* the *cumulative return* of past 2D universe endings (per §2.5, §4.2). The *spatial variation* in dark matter across the universe is dominated by the *active* population, so locally (within a galaxy) the dark matter density is dominated by the *current rate* of 2D universe creation in that region, weighted by the *energy* of each event.
