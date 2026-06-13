@@ -146,3 +146,30 @@ Internal iteration history, not publicly released. Key milestones:
 - v1.57 - Major simplification pass
 - v1.58 - Numerical errors caught and fixed
 - v2.0 - This release
+
+## v2.2.1 (June 2026) — Paper audit pass
+
+**Internal consistency pass after v2.2.** After the v2.2 refactor (B/F rejected, L busted, M as final position, cone-shape, RAR reframing, etc.), a slow paper audit found several pre-v2.1 *fractal* references that were not fully updated when the v2.1 cone-shape was introduced. This commit brings all the v2.0 text into consistency with the cone-shape.
+
+**Fixed inconsistencies** (all related to cone-shape superseding fractal):
+- §2.1: 'all 3+1D' note (v2.0) updated — 2D is now literal 2D, not a 3+1D placeholder
+- §2.4: 'cascade continues to lower dimensions' — added cone-shape limit (3+1D -> 2D, terminal)
+- §2.5 summary #2: 'scale invariance' — clarified downward direction is finite (one level, not infinite)
+- §2.5 summary #3: 'universal bulk-brane cancellation' — clarified applies at 2 levels (4D, 2D), not infinite
+- §2.5 summary #8: 'cascade is infinite in principle' — replaced with 'cone-shaped, finite'
+- §2.5 summary #10: 'D-labels are placeholders' — replaced with 'D-labels are physical'
+- §2.5 'fractal hierarchy' / 'miniature 3+1D universe' language — replaced
+- §2.5 'universal energy budget split' (1D/0D within 2D) — updated to be cone-shape consistent
+- §2.5 'endings at every level' header — clarified 'each' (2 levels only)
+- §2.5 'all levels' dynamics — clarified 3+1D and 2D only
+- §4.10: 'recursive cascade is fractal' — clarified recursion is *within* 2D level (Big Crunch -> new 2D), not deeper
+- §4.10: '1D-level, 0D-level, -1D-level' legacy labels — kept as *legacy* terminology, with explicit note
+- §4.10: 'miniature brane-world' — clarified two levels (4D and 2D)
+- §7 Limitation 11: updated to 'upward direction open' (not 'bottom open' which assumed 1D/0D exist)
+- v2.1 page count line (87 pages) — noted v2.2 is 81-82 pages
+
+**LaTeX template fix:** `no-lmodern-template.tex` needed `\providecommand{\tightlist}{}` for pandoc 3.x compatibility (was failing silently with `! Undefined control sequence \tightlist`).
+
+PDF rebuilt: 82 pages, 429 KB.
+
+Total commits: 94.
