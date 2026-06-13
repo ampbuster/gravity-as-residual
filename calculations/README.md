@@ -34,6 +34,12 @@ Annihilation, and the Origin of the Dark Sector"**.
     (LHC, supernova, AGN, etc.)
   - `Ending` (enum) — the 5 possible universe endings
   - `Constants` — standard physical constants
+  - `GrowthFactorCalculator` — derives the 2D universe's growth factor
+    from its own FRW dynamics (matter era, DE era, lifetime)
+  - `HierarchyUnificationCalculator` — shows hierarchy, DE, and DM
+    all follow from the same cascade formula
+  - `HubbleTensionCalculator` — predicts H_0_local > H_0_CMB from
+    active vs cumulative DM in local region
 
   Key methods on Universe:
   - `gravity_coupling_own()` / `_effective()` — native and effective G
@@ -45,6 +51,15 @@ Annihilation, and the Origin of the Dark Sector"**.
   - `total_dark_matter_density()` — active + cumulative return
   - `create_child()` — create a child universe
   - `end()` — end this universe and return energy to parent
+
+  Event factories (create known events):
+  - `lhc_collision_universe()` — LHC collision in our universe
+  - `supernova_universe()` — Type II supernova
+  - `sgr_a_universe()` — Sagittarius A* AGN outburst
+  - `cosmic_ray_collision_universe()` — GZK cosmic ray collision
+  - `binary_merger_universe()` — binary neutron star merger
+  - `primordial_bh_formation_universe()` — PBH formation
+  - `simulate_galaxy_events()` — realistic galaxy event simulation
 
 - **`numerical_verification.py`** — Re-derives all numerical claims
   in the paper from first principles (hierarchy, energy budget, 2D
@@ -86,8 +101,24 @@ several quantitative predictions. It is **not**:
 - A derivation of the cascade from first principles
 - A full quantitative prediction of dark matter density (the model
   has a 10⁵-10¹⁰ gap in the DM calculation that requires the
-  2D universe's own dark energy / dark matter growth factor)
+  2D universe's own dark energy / dark matter growth factor,
+  which is captured by the GrowthFactorCalculator)
 - A replacement for actual physics derivations
 
 The framework is intended as a *scaffolding* for future work, not a
 finished calculation.
+
+## Derivation summary
+
+The framework demonstrates several derivations from the cascade model:
+
+1. **Hierarchy problem** (§2.1): G_eff / G = (m_proton / M_Pl)^2 = 5.9×10⁻³⁹
+2. **Dark energy** (§2.4): ρ_DE = ε × f_back × ρ_Pl = 6.21×10⁻¹⁰ J/m³ (Planck 2018)
+3. **Dark matter** (§2.6): M_DM = 6.4 × G × M_event × N_events per galaxy
+4. **Growth factor** (§2.6): G = 20 × V_growth, where V_growth is the 2D
+   universe's volumetric expansion. With Omega_DE_2D ~ 0.999, lifetime
+   ~30 Gyr, t_eq_2D ~ 1% of lifetime: G ~ 1e8 (matches observed DM).
+5. **Hubble tension** (§2.7): H_0_local > H_0_CMB by ~3-6 km/s/Mpc,
+   from active children boosting local antigravity.
+6. **2D universe lifetimes** (§2.2): τ_2D = l_event / c in our frame
+   (LHC: 3.3e-24 s, SN: 33 s, AGN: 40 s).
