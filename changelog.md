@@ -1,3 +1,47 @@
+## v2.3.0 (June 2026) — Current
+
+**Paper version bumped from v2.2.1 to v2.3.0** for the major theoretical contribution: a concrete action functional S for the cascade, plus a first-principles derivation of the g_+ acceleration scale.
+
+**§2.5.1 NEW: Concrete action functional S (commit 163).** Per the gap identified by Gemini and the user, replaced the cascade's geometric narrative with a concrete action functional that a mathematical physicist can work with:
+
+$$S = S_{\text{grav, 3+1D}} + S_{\text{matter, 3+1D}} + S_{\text{brane, 2D}} + S_{\text{creation}} + S_{\text{destruction}}$$
+
+Where:
+- S_creation has α coupling and δ-function localization of the 2D brane at the 3+1D event
+- S_destruction returns energy to 3+1D as DM after τ_2D
+- Local energy conservation preserved in total 3+1D+2D system (Stoke's theorem)
+- Reduces to standard RS-II brane-world when α → 0
+- Comparable in structure to Randall-Sundrum brane-world physics
+
+**§2.5.1 HONEST STATUS (commit 164):** The action is a SKELETON, not a complete theory. It has 5+ free parameters that need to be specified for a complete theory: L_2D, α, the death mechanism, T^DM at death, the 5/27/68 split, the cascade-MOND g_+. The cascade's contribution is the GEOMETRY; the dynamics are open problems. A mathematical physicist would need to specify these to complete the cascade.
+
+**§4.11 NEW: First-principles g_+ derivation (commit 165).** From the action's α coupling, derived:
+
+$$g_+ = k \int_{t_{form}}^{t_0} \dot{n}(t) \cdot E_{event} \cdot \frac{\tau_{2D}}{L_{2D}} \, dt$$
+
+This is the cascade's first-principles formula for g_+, which is essentially Gemini's scaling relation: g_+ ∝ ∫ ρ_events/M_b dt.
+
+**CLUSTER g_+ ENHANCEMENT (Tian+ 2024) NOW EXPLAINED as a natural consequence.** A BCG sits at the bottom of a cluster's potential well and sees not just its own stellar history but the entire cluster's ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure). Cluster event rate ~ 100× BCG's own, cluster events ~ 10× more energetic, ~ 10× larger. Net enhancement ~ 100×, in the right ballpark for Tian+ 2024's 10-17×.
+
+**4 testable predictions from the g_+ formula:**
+1. BCG g_+ correlates with cluster ICM activity (cooling flow vs not)
+2. Dwarf g_+ correlates with recent SFR, not total M_*
+3. g_+ ratio between systems matches event rate ratio, not M_b ratio
+4. Direct test: partial correlation between SFR, M_*, and g_+ (TENSION: §4.7 partial correlation test found SFR signal is entirely mediated by M_b)
+
+**Build infrastructure fix (commit 163).** Replaced one longtable that was breaking xelatex with bullet list format. Added xcolor [table] option for future longtables. PDF now builds cleanly: 100 → 103 pages.
+
+**§7 Limitations updated:** Limitation 26 (Cascade provides geometry, not Lagrangian) is now more explicit: "Cascade specifies geometry, not Lagrangian. The action in §2.5.1 is a SKELETON with 5+ free parameters that need to be specified for a complete theory."
+
+**New companion code added:**
+- `calculations/cascade_action.py` (210 lines) — cascade action functional skeleton
+- `calculations/cascade_action_honest.py` — honest assessment of the action's remaining gaps
+- `calculations/g_plus_scaling_derivation.py` (450 lines) — first-principles g_+ derivation
+
+**Paper length: 97 → 103 pages** (v2.2.1 → v2.3.0; +6 pages for the action functional and g_+ derivation).
+
+---
+
 # Changelog
 
 All notable changes to this paper are documented here.

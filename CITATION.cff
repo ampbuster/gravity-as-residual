@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 type: article
 title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
-version: "2.2.1"
+version: "2.3.0"
 date-released: 2026-06-12
 authors:
   - family-names: "ampbuster"
@@ -20,7 +20,7 @@ url: "https://github.com/ampbuster/gravity-as-residual"
 preferred-citation:
   type: article
   title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
-  version: "2.2.1"
+  version: "2.3.0"
   authors:
     - family-names: "ampbuster"
       given-names: "ampbuster"

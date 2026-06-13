@@ -1,15 +1,19 @@
 # Layman Summary: Gravity as Residual
 
-**v2.2.1 — June 2026** (audit pass + RAR tests after v2.2; see `changelog.md` for full history)
+**v2.3.0 — June 2026** (action functional + first-principles g_+ derivation; see `changelog.md` for full history)
 
-**TL;DR of v2.2.1:**
+**TL;DR of v2.3.0:**
+- **NEW**: §2.5.1 concrete action functional S = S_grav + S_matter + S_brane_2D + S_creation + S_destruction. Reduces to RS-II when α → 0. Local energy conservation preserved (Stoke).
+- **NEW**: §4.11 first-principles g_+ derivation: g_+ = k * ∫ event rate * E_event * τ_2D / L_2D dt. Matches Gemini scaling relation.
+- **NEW**: Cluster g_+ enhancement (Tian+ 2024) explained as BCG seeing cluster-wide ICM activity, not just own stellar history.
 - The cascade is **cone-shaped** (4D → 3+1D → 2D, terminal at 2D). 1D/0D universes don't exist.
-- The 5/27/68 mass-energy split is **observational 3+1D data** (from BBN, CMB, supernovae), not a free postulate. It constrains the 4D event's geometry.
-- The cascade's RAR prediction now matches the empirical RAR to **8-12%** across the full mass spectrum (dwarf galaxies to galaxy clusters) — with three tuning parameters.
-- The cascade's "f_active" (active fraction of dark matter) is ~5%, not the originally-postulated 30%. The 4× gap is documented.
-- The cascade's final position on the Hubble tension: **H_0 = 73, accept the 5.6 km/s/Mpc gap to Planck**. Not resolved.
+- The 5/27/68 mass-energy split is **observational 3+1D data**, not a free postulate.
+- Cascade-MOND hybrid validated on real SPARC (149 galaxies, 10.1% median residual) and Tian+ 2024 clusters (50 BCGs, g_+ ratio 13.1x).
+- Cascade's final position on Hubble tension: H_0 = 73, accept the 5.6 km/s/Mpc gap to Planck.
 
-## The one-line version
+**Preserved from v2.2.1:**
+- The cascade's RAR prediction matches the empirical RAR to **8-12%** across the full mass spectrum (dwarf galaxies to galaxy clusters) — with three tuning parameters.
+- The cascade's "f_active" (active fraction of dark matter) is ~5%, not the originally-postulated 30%. The 4× gap is documented.
 
 What if dark matter, dark energy, and gravity's weird weakness are all *one* process — the projection of a higher-dimensional event into our 3+1-dimensional universe — and dark matter is the *cumulative gravity* of countless tiny 2D universes being created by every energetic event in our universe, then ending and returning their energy to 3+1D as dark matter?
 

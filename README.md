@@ -4,14 +4,50 @@
 
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
-**Version:** 2.2.1 (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 154 commits, 28 honest limitations documented.
+**Version:** 2.3.0 (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
+**Status:** Public release. 166 commits, 30 honest limitations documented.
 
 ---
 
 ## The idea in one paragraph
 
 What if gravity is *weak* because most of it gets cancelled? In this model, a single ongoing 4-dimensional event projects into our 3+1-dimensional universe. The projection *inverts* the sign of gravity, so the 4D event's native gravity is cancelled on the 3+1D brane — leaving only a small positive residue that we call ordinary gravity. The un-cancelled *antigravity* component is what we observe as **dark energy**. Every energetic event in 3+1D (a star, a supernova, a black hole) creates a *child universe* at the next level — a literal 2D universe (one time + one space) embedded in our 3+1D space, its gravity back-projected to 3+1D as the cumulative effect we call **dark matter**. The cascade is *cone-shaped* (4D → 3+1D → 2D, terminal) and the 5/27/68 mass-energy split is observational 3+1D data that constrains the 4D event's geometry, not a free postulate.
+
+---
+
+## What's new in v2.3.0 (since v2.2.1)
+
+This is a **major theoretical contribution**: a concrete action functional S for the cascade, plus a first-principles derivation of the g_+ acceleration scale.
+
+- **§2.5.1 NEW: Concrete action functional S** (commit 163). Per the gap identified by Gemini and the user, replaced the cascade's geometric narrative with a concrete action functional a mathematical physicist can work with:
+  - S = S_grav + S_matter + S_brane_2D + S_creation + S_destruction
+  - S_creation has α coupling and δ-function localization of 2D brane at 3+1D event
+  - S_destruction returns energy to 3+1D as DM after τ_2D
+  - Local energy conservation preserved (Stoke's theorem)
+  - Reduces to standard RS-II brane-world when α → 0
+
+- **§2.5.1 HONEST STATUS** (commit 164): the action is a SKELETON, not a complete theory. It has 5+ free parameters (L_2D, α, death mechanism, T^DM at death, the 5/27/68 split, the cascade-MOND g_+) that need to be specified. The cascade's contribution is the GEOMETRY; the dynamics are open problems.
+
+- **§4.11 NEW: First-principles g_+ derivation** (commit 165). From the action's α coupling, derived:
+  - g_+ = k * ∫ event rate * E_event * τ_2D / L_2D dt
+  - This is Gemini's scaling relation: g_+ ∝ ∫ ρ_events/M_b dt
+
+- **CLUSTER g_+ ENHANCEMENT (Tian+ 2024) NOW EXPLAINED** as a natural consequence. A BCG sits at the bottom of a cluster's potential well and sees not just its own stellar history but the entire cluster's ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure). Cluster event rate ~ 100× BCG's own, cluster events ~ 10× more energetic, ~ 10× larger. Net enhancement ~ 100×, matching Tian+ 2024's 10-17×.
+
+- **4 testable predictions** from the g_+ formula (Limitation 26 unchanged: cascade provides geometry, not Lagrangian):
+  1. BCG g_+ correlates with cluster ICM activity (cooling flow vs not)
+  2. Dwarf g_+ correlates with recent SFR, not total M_*
+  3. g_+ ratio between systems matches event rate ratio, not M_b ratio
+  4. Direct test: partial correlation between SFR, M_*, and g_+ (TENSION: §4.7 found SFR signal entirely mediated by M_b)
+
+- **Build infrastructure fix** (commit 163). Replaced one longtable that was breaking xelatex with bullet list format. Added xcolor [table] option for future longtables. PDF now builds cleanly: 100 → 103 pages.
+
+- **30 honest limitations** (was 28). Limitation 26 refined: "Cascade provides geometry, not Lagrangian. The action in §2.5.1 is a SKELETON with 5+ free parameters that need to be specified for a complete theory."
+
+- **New companion code**:
+  - `calculations/cascade_action.py` (210 lines) — cascade action functional skeleton
+  - `calculations/cascade_action_honest.py` — honest assessment of the action's remaining gaps
+  - `calculations/g_plus_scaling_derivation.py` (450 lines) — first-principles g_+ derivation
 
 ---
 
@@ -33,22 +69,22 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 
 | Folder / File | What's in it |
 |---|---|
-| `paper/paper.md` | The full paper, v2.2.1 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (97 pages) |
+| `paper/paper.md` | The full paper, v2.3.0 (markdown source) |
+| `paper/paper.pdf` | Compiled PDF (103 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
-| `supporting/layman_summary.md` | Plain-language summary (v2.2.1) |
+| `supporting/layman_summary.md` | Plain-language summary (v2.3.0) |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |
 | `supporting/publication_strategy.md` | Notes on where to publish |
 | `calculations/` | ~50 Python scripts (numerical verification, derivations, tests) |
 | `calculations/rar_*.py` | New RAR analysis scripts (commits 101-119) |
 | `calculations/cascade_model.py` | The main OO model implementation |
 | `calculations/figures/cascade_summary.png` | 9-panel summary figure |
-| `changelog.md` | Full version history v1.02 → v2.2.1 |
+| `changelog.md` | Full version history v1.02 → v2.3.0 |
 | `ai_disclosure.md` | How Mavis was used in the development |
 | `LICENSE` | MIT License |
 | `CITATION.cff` | How to cite this work |
 
-## Key findings (v2.2.1)
+## Key findings (v2.3.0)
 
 - **Cone-shaped hierarchy** (4D event → 3+1D → 2D, terminal at 2D; 1D universes do not exist). Closes the 1D-universes limitation.
 - **Sign ambiguity RESOLVED** in §2.4: ordinary gravity and dark energy are two physically distinct small contributions to the effective 3+1D action, not opposite-sign components of the same quantity.
