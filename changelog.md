@@ -2,7 +2,27 @@
 
 All notable changes to this paper are documented here.
 
-## v2.0 (June 2026) — Current
+## v2.1 (June 2026) — Current
+
+**Paper version bumped from v2.0 to v2.1** for major math cleanup + honest findings.
+
+**Sign ambiguity in §2.4 mathematical sketch RESOLVED.** The "Mathematical sketch" was reframed as a *clean formulation* that distinguishes two physically distinct small contributions to the effective 3+1D action: the *ordinary attractive gravity* (a force on matter, entering the Einstein equation's stress-energy coupling) and the *dark energy* (a vacuum energy, entering the cosmological-constant term Λ g_μν). Both are small because of the near-cancellation of the projected contribution, but they are different terms in the effective action and are not required to have any algebraic sign relationship. *Status: was Limitation 14, now CLOSED.*
+
+**Hubble tension mechanism UPDATED.** The original Mechanism A (active 2D universe children boost local H_0 in star-forming hosts) was *falsified* by SH0ES data: both spiral and elliptical-host measurements give H_0 ~ 73, with no host-type dependence. A new Mechanism B/F (4D event temporal structure) is proposed: the 4D event's antigravity output is not constant in 4D time; local H_0 measures the *current* 4D output; CMB H_0 measures the *time-averaged* 4D output. If the 4D event is currently ~8% above its historical average, H_0_local = 73 (matches data). This is host-type-INDEPENDENT, consistent with the SH0ES/SBF data. *New testable predictions: H_0 at high z should be BELOW the ΛCDM extrapolation, H_0 should be isotropic, H_0 should not correlate with any local property.*
+
+**§7 (Limitations) comprehensively updated.** The "Note on closure status" subsection now documents:
+- Fully closed: Limitation 14 (sign ambiguity)
+- Partially closed: Limitation 5 (DM proportionality, via derived G), Limitation 15 (10⁸⁵ DE gap, via empirical 5/27/68 formula)
+- New findings: 5/27/68 split is a *fit* not a *derivation* (Monte Carlo test shows not significant), Mechanism A is *falsified*, Mechanism B/F is a *placeholder* pending 4D dynamics
+- New limitations added: 16 (4D event temporal structure not derived), 17 (5/27/68 split is empirical not derived)
+
+**Paper length: 83 → 86 pages**, 361 KB → 371 KB.
+
+**Mathematical sketch now clean:** The sign ambiguity noted in earlier versions is gone. The ordinary attractive gravity and the dark energy are *physically distinct small contributions* to the effective 3+1D action, not opposite-sign components of the same quantity.
+
+---
+
+## v2.0 (June 2026)
 
 **First public release.** Numerical errors fixed, internal consistency cleaned up (alternating cascade → universal bulk-brane cancellation, two-types-of-endings → ending-agnostic, **strict inversion principle → downward perceptual inversion principle** (4D gravity stays attractive in 4D; inversion is brane perception of projected contribution, *grounded in the standard GR $\rho + 3P < 0$ mechanism* for negative effective gravitating density — the same mechanism that drives cosmic inflation and dark energy in our universe), **dark matter = death-flash → dark matter = cumulative energy return** — Big Crunch gives brief death-flash, heat death gives slow diffuse return, mix depends on event size), speculative sections removed, honest acknowledgments added throughout.
 
