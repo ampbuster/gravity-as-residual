@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.2.1 (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 136 commits, 26 honest limitations documented.
+**Status:** Public release. 149 commits, 26 honest limitations documented.
 
 ---
 
@@ -25,7 +25,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 - **f_active is ~5%, not the originally-postulated 30%** — found by grid search against the RAR. The 4× gap to 30% is documented. A specific 4D event model would need to derive f_active from the 4D geometry.
 - **The "5%" appears in three places** in the cascade (baryon fraction, 5/27 ratio, f_active). They're not all the same 5%, but the 5/27 ratio corresponds to the cosmic star formation timescale (Madau & Dickinson 2014).
 - **All existing tests re-verified with the new framing** — Pantheon+ with full covariance, Mechanism M for the Hubble tension, the cone-shaped hierarchy. None are broken by the §2.6 reframing.
-- **26 honest limitations** (was 18) — added §7 Limitations 19 and 20 for the RAR fit residual and the f_active derivation limitation.
+- **26 honest limitations** (was 18) — added §7 Limitations 19-26 for the dynamical-mixing, RAR residuals, scale factor, and Lagrangian constraints.
 
 ---
 
@@ -34,7 +34,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 | Folder / File | What's in it |
 |---|---|
 | `paper/paper.md` | The full paper, v2.2.1 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (94 pages) |
+| `paper/paper.pdf` | Compiled PDF (95 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary (v2.2.1) |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |
@@ -75,7 +75,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 - **§3** — Testable predictions
 - **§4** — Quantitative tests, including the RAR fit (commits 101-119)
 - **§5-§6** — Connections to other work
-- **§7** — Honest limitations (20 items: 2 fully closed, 2 partially closed, 16 open. Plus 1 separate limitation (1D universes) closed by cone-shape)
+- **§7** — Honest limitations (26 items: 2 fully closed + 2 partially closed + 1 cone-shape closed + 21 open)
 
 ---
 
@@ -98,7 +98,7 @@ The 5/27/68 split is now correctly framed as **observational 3+1D data** that co
 
 **Closed/partial limitations (5: 2 full + 2 partial + 1 cone-shape):** sign ambiguity (Limitation 14), 1D universes (cone-shape), growth factor G (Limitation 5, partial), Ω_DE ≈ 68% (Limitation 15, partial).
 
-**Open limitations (16: 11 original + 5 new):** including 5/27 inner split (Limitation 17, now reframed as observational), 4D temporal structure (Limitation 6, partial), 4D projection geometry (Limitation 5), cone uniqueness (Limitation 8), 2D physics (Limitation 9), RAR 8% residual (Limitation 19), f_active derivation (Limitation 20), and the Hubble tension (Limitation 18, accepted as unresolved).
+**Open limitations (21: 13 original + 8 new):** including 5/27 inner split (Limitation 17, now reframed as observational), 4D temporal structure (Limitation 6, partial), 4D projection geometry (Limitation 5), cone uniqueness (Limitation 8), 2D physics (Limitation 9), RAR 8% residual (documented in §4.1), f_active derivation (Limitation 20), and the Hubble tension (Limitation 18, accepted as unresolved).
 
 The 22+ cited references are real published papers used to anchor the model's claims in observational/experimental data.
 

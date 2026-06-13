@@ -109,12 +109,27 @@ Importantly, **the dark matter mechanism is robust to whichever ending turns out
 
 ## What's still open (honest limitations)
 
-The paper documents 20 honest limitations, of which 5 are closed or partially closed and 15 are open. The most important open limitations:
+The paper documents 26 honest limitations, of which 5 are closed or partially closed and 21 are open. The most important open limitations:
 
 - The 5/27 inner split (reframed as observational, but not derived from 4D physics)
 - The Hubble tension (accepted, not resolved)
 - A Lagrangian or action principle for the 4D event
-- The RAR's 8% residual (a real signature of the cascade, not yet understood)
+- The RAR's 8% residual (a real signature of the cascade, documented in §4.1; 1-2% at small r from active DM excess, 6-8% at large r from isothermal regime mismatch)
 - f_active ≈ 0.05 (constrained by 3+1D data, not derived from 4D physics)
-- The mass-dependent scale factor (empirical fit, not derived)
+- The mass-dependent scale factor (empirical fit, not derived; 10% for MW, 70% for cluster, fits scale ∝ kappa^1.1)
+- The cascade's RAR doesn't generalize to a galaxy population (40% median residual, structural limit; mass-dep and SFR-dep params both fail to fix it)
 - Baryogenesis, inflation, neutrino masses, Standard Model parameters (not addressed)
+
+## The 4 ambitious open tests (v2.2.1)
+
+The user asked "what's next?" and we tackled 4 of the most ambitious open questions:
+
+1. **A Lagrangian for the 4D event** (Limitation 26): We tried 4D scalar fields with Yukawa and Gaussian profiles. Neither gives 5/27/68 naturally. Honest: a full Lagrangian is the unfinished business of physics (the TOE problem). The cascade gives the *framework*, not the specific Lagrangian.
+
+2. **The RAR's 8% structural residual** (documented in §4.1, not a numbered §7 limitation): The 8% is mostly at LARGE r (25-30 kpc), where the cascade's g_cum~1/r doesn't match the RAR's exact sqrt(g_bar*g_+) functional form. It's a structural shape mismatch, not a parameter problem.
+
+3. **The mass-dependent scale factor's derivation** (Limitation 24): scale ∝ kappa^1.1 fits the data (MW and cluster) to 10% precision. This is a *candidate* relationship, not a derivation. A specific cascade would need to derive kappa^1.1 from the 4D event's geometry.
+
+4. **Population-level RAR fit** (Limitation 25): We tested 5+ mass-dependent parameter forms (f_active ∝ kappa, scale ∝ log(M), etc.) AND SFR-dependent f_active. All FAIL to improve on the single-parameter baseline in a meaningful way. A partial correlation test (commit 146) showed the apparent 'SFR signal' was entirely explained by mass. The cascade's RAR is approximately right at a few specific tuning points but doesn't form a universal population-level relation. *Status: REVERTED to honest version in commit 149 after partial correlation analysis.*
+
+These are the honest negative and aspirational results.
