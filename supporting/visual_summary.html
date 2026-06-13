@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gravity as Residual — Visual Summary</title>
+<style>
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 40px;
+    color: #222;
+    line-height: 1.5;
+    max-width: 1000px;
+  }
+  h1 { font-size: 28px; color: #1a3a5c; border-bottom: 2px solid #1a3a5c; padding-bottom: 8px; }
+  h2 { font-size: 20px; color: #1a3a5c; margin-top: 30px; }
+  .diagram {
+    background: #f7f9fc;
+    border: 1px solid #d0d7e2;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px 0;
+    font-family: 'Courier New', monospace;
+  }
+  .key-point {
+    background: #fff8e1;
+    border-left: 4px solid #f5a623;
+    padding: 12px 16px;
+    margin: 16px 0;
+  }
+  .formula {
+    background: #e8f4f8;
+    border-left: 4px solid #1a3a5c;
+    padding: 12px 16px;
+    margin: 16px 0;
+    font-family: 'Courier New', monospace;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 16px 0;
+  }
+  th, td {
+    border: 1px solid #d0d7e2;
+    padding: 8px 12px;
+    text-align: left;
+  }
+  th { background: #1a3a5c; color: white; }
+  tr:nth-child(even) { background: #f7f9fc; }
+  .small { font-size: 13px; color: #666; }
+  .check { color: #1a8a1a; font-weight: bold; }
+  .partial { color: #d68000; font-weight: bold; }
+  .fail { color: #c0392b; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<h1>Gravity as Residual — One-Page Visual Summary</h1>
+<p class="small">A thought experiment on dimensional inversion, annihilation, and the origin of the dark sector. v2.3.0, June 2026.</p>
+
+<h2>The Cascade (the core idea)</h2>
+
+<div class="diagram">
+<pre>
+       4D Event (the parent)
+       Single ongoing energetic process
+       Antigravity output → cancels with 3+1D gravity
+       |  Downward projection: inverts sign
+       |  Local frame: dark energy
+       v
+       3+1D Universe (our world)
+       Brane with weak attractive gravity = G * M / r^2
+       Every energetic event creates a child:
+       |  Scale-invariant principle
+       |  2D universe has its own Big Bang, lifetime, ending
+       v
+       2D Universe (each energetic event)
+       Lives for τ_2D = L_event / c
+       Attractive gravity in 2D (logarithmic)
+       Upward back-projection: attractive (NO sign flip)
+       Local frame: dark matter (cumulative + active)
+</pre>
+</div>
+
+<div class="key-point">
+<strong>Two dark-sector products from one mechanism:</strong>
+<ul>
+  <li><strong>Dark energy</strong> = un-cancelled 4D antigravity (constant, ~68% of universe)</li>
+  <li><strong>Dark matter</strong> = cumulative 2D universe back-projection (varying, ~27% of universe)</li>
+</ul>
+</div>
+
+<h2>The Action (S = ...)</h2>
+
+<div class="formula">
+S = S_grav_3+1D + S_matter_3+1D + S_brane_2D + S_creation + S_destruction
+</div>
+
+<p>Each term:</p>
+<ul>
+  <li><strong>S_grav_3+1D</strong>: standard Einstein-Hilbert, ∫d⁴x √(-g) [R - 2Λ]/16πG</li>
+  <li><strong>S_matter_3+1D</strong>: Standard Model on the 3+1D brane</li>
+  <li><strong>S_brane_2D</strong>: 2D universe action (NOT specified, Limitation 26)</li>
+  <li><strong>S_creation</strong>: -α ∫ T<sup>SM</sup><sub>μν</sub> · δ<sup>(4)</sup>(x - X(σ)) — couples 3+1D stress-energy to 2D brane</li>
+  <li><strong>S_destruction</strong>: +α ∫ T<sup>DM</sup><sub>μν</sub> · δ(t - τ_2D) — returns energy as DM after lifetime</li>
+</ul>
+
+<div class="key-point">
+<strong>Local energy conservation:</strong> ∇<sub>μ</sub> T<sub>total</sub><sup>μν</sup> = 0 by Stoke's theorem (contingent on ℒ<sub>2D</sub> being generally covariant). The 2D brane is a HIDDEN SECTOR: the 3+1D observer sees a deficit during τ<sub>2D</sub>, the 2D brane carries the energy. In-in (Schwinger-Keldysh CTP) formalism handles the creation + destruction symmetrically.
+</div>
+
+<h2>The g₊ Formula (first-principles, V_local normalization)</h2>
+
+<div class="formula">
+g₊ ∝ ∫<sub>t_form</sub><sup>t₀</sup> [ℛ<sub>energetic</sub>(t) / V<sub>local</sub>] dt
+</div>
+
+<p>This is the <strong>specific energetic power density</strong> integrated over cosmic time.</p>
+
+<ul>
+  <li><strong>ℛ<sub>energetic</sub>(t)</strong> = total energetic power at the location (W)
+    <ul>
+      <li>For galaxy: SFR + SN power (~10<sup>37</sup> W for MW)</li>
+      <li>For BCG: P<sub>ICM</sub> + cluster mergers + AGN feedback (cluster-wide, ~10<sup>37</sup> W)</li>
+    </ul>
+  </li>
+  <li><strong>V<sub>local</sub></strong> = local sphere of influence (m³)
+    <ul>
+      <li>For galaxy: own R<sub>halo</sub><sup>3</sup> (~10<sup>63</sup> m³ for MW)</li>
+      <li>For BCG: own R<sub>BCG</sub><sup>3</sup> (~10<sup>61</sup> m³), NOT the cluster volume</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Predictions vs Data</h2>
+
+<table>
+<thead>
+<tr>
+<th>Scale</th>
+<th>g₊ predicted</th>
+<th>g₊ observed</th>
+<th>Match?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Galaxies (SPARC, 175 galaxies)</td>
+<td>~10<sup>-10</sup> m/s²</td>
+<td>1.2 × 10<sup>-10</sup> m/s² (McGaugh+ 2016)</td>
+<td class="check">✓ within 25%</td>
+</tr>
+<tr>
+<td>BCGs / clusters (Tian+ 2024, 50 BCGs)</td>
+<td>~10 × galaxy</td>
+<td>1.7 × 10<sup>-9</sup> m/s² (14× galaxy)</td>
+<td class="check">✓ order of magnitude</td>
+</tr>
+<tr>
+<td>Cluster/galaxy ratio (V_local)</td>
+<td>~100×</td>
+<td>14× (Tian+ 2024)</td>
+<td class="partial">~ within factor of 7</td>
+</tr>
+<tr>
+<td>Cluster/galaxy ratio (MOND EFE)</td>
+<td>√(M_cluster/M_galaxy) = 10×</td>
+<td>14×</td>
+<td class="check">✓ within 30%</td>
+</tr>
+<tr>
+<td>g₊ ∝ σ<sup>1.85</sup> (MOND EFE)</td>
+<td>σ<sup>2</sup></td>
+<td>σ<sup>1.85</sup> (Tian+ 2024)</td>
+<td class="check">✓ almost exact</td>
+</tr>
+<tr>
+<td>g₊ vs z (no cosmic evolution)</td>
+<td>r ≈ 0</td>
+<td>r = 0.089</td>
+<td class="check">✓ no evolution</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Honest Limitations (30 total)</h2>
+
+<div class="key-point">
+<strong>Closed (3):</strong>
+<ul>
+  <li>1D universes don't exist (cone-shape)</li>
+  <li>Sign ambiguity resolved (clean formulation)</li>
+  <li>Growth factor derived (2D FRW dynamics)</li>
+</ul>
+<strong>Partially closed (3):</strong>
+<ul>
+  <li>16: H_0(z) Mechanism B/F (FALSIFIED by Pantheon+ at 7σ)</li>
+  <li>23: Population fit (mediocre, 30% residual)</li>
+  <li><strong>28: Cluster g_+ enhancement (V_local + MOND EFE, 30% residual)</strong></li>
+</ul>
+<strong>Open (24):</strong>
+<ul>
+  <li>17: 5/27/68 is observational 3+1D data, not derived from 4D event</li>
+  <li>18: Hubble tension not resolved (accept Mechanism M, H_0=73)</li>
+  <li>19: Pure cascade g_obs functional form FALSIFIED by SPARC (cascade-MOND hybrid is the resolution)</li>
+  <li>26: Cascade provides geometry + CTP structure, but ℒ<sub>2D</sub> and α are calibration parameters</li>
+  <li>27: Cascade's g_obs is MOND-compatible, not the cascade's own prediction</li>
+</ul>
+</div>
+
+<h2>The "Honest" Picture</h2>
+
+<p>The cascade is a <strong>geometric framework</strong> that a mathematical physicist can develop further. The §2.5.1 action is a <strong>skeleton</strong> with the right structure (reduces to RS-II when α → 0, preserves local energy conservation by Stoke's theorem), but the specific 2D brane Lagrangian ℒ<sub>2D</sub> and the coupling α are calibration parameters, not derived constants. The CTP formalism (§2.5.2) handles the creation + destruction symmetrically and removes the teleological issue.</p>
+
+<p>What the cascade <em>does</em> provide:</p>
+<ul>
+  <li>Geometric origin of g₊ (cumulative 2D universe back-projection)</li>
+  <li>Why g₊ is universal at galaxy scales</li>
+  <li>Why g₊ enhances at cluster scales (V_local + MOND EFE)</li>
+  <li>Connection to brane-world physics (reduces to RS-II)</li>
+  <li>Connection to MOND (cascade provides geometry, MOND provides functional form)</li>
+</ul>
+
+<p>What the cascade <em>doesn't</em> provide:</p>
+<ul>
+  <li>Specific 2D brane Lagrangian</li>
+  <li>Derivation of α from first principles</li>
+  <li>Derivation of 5/27/68 from 4D event</li>
+  <li>Resolution of the Hubble tension</li>
+  <li>Derivation of MOND's interpolation function from cascade physics</li>
+</ul>
+
+<p class="small">Paper: 106 pages, 547 KB, 171 commits, 30 limitations. <a href="https://github.com/ampbuster/gravity-as-residual">github.com/ampbuster/gravity-as-residual</a></p>
+
+</body>
+</html>
