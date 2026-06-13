@@ -95,6 +95,112 @@ class Ending(Enum):
 
 
 # ============================================================
+# Rules — the cascade extends standard physics with these
+# ============================================================
+class InversionRule:
+    """
+    The downward perceptual inversion principle (per §2.4 of the paper).
+
+    *Downward* dimensional projection (parent -> child) is *perceived*
+    by the child as having the *opposite sign* of gravity. The
+    *underlying* gravity in the parent remains attractive (standard GR);
+    the inversion is a *perceptual* effect of the bulk-brane coupling.
+
+    *Upward* back-projection (child -> parent) does *not* invert the
+    perception; the parent perceives the child's net attractive gravity
+    as attractive.
+
+    This is a *postulate* of the model, *motivated* by the standard GR
+    mechanism for negative effective gravitating density (rho + 3P < 0).
+    """
+
+    @staticmethod
+    def project_downward(parent_gravity: float) -> float:
+        """
+        Project a parent's gravity *down* to a child universe.
+        Returns the antigravity (inverted) contribution.
+        """
+        return -parent_gravity  # inversion
+
+    @staticmethod
+    def project_upward(child_attractive_residue: float) -> float:
+        """
+        Project a child's attractive gravity residue *up* to the parent.
+        Returns the back-projected (still attractive) contribution.
+        """
+        return child_attractive_residue  # no inversion
+
+
+class BulkBraneCoupling:
+    """
+    The bulk-brane coupling (per §2.4, §2.6 of the paper).
+
+    The bulk-brane interaction produces a *near-cancellation* between
+    the brane's native attractive gravity and the projected (inverted)
+    bulk gravity, leaving a small net attractive residue.
+
+    G_brane_eff = epsilon * G_brane_native
+
+    where epsilon << 1 is the cancellation fraction (one of the
+    cascade's free parameters).
+    """
+
+    def __init__(self, params: CascadeParams):
+        self.params = params
+
+    def effective_gravity(self, G_native: float) -> float:
+        """Compute the effective gravity after bulk-brane cancellation."""
+        return self.params.epsilon * G_native
+
+    def un_cancelled_antigravity(self, G_parent: float) -> float:
+        """
+        The un-cancelled antigravity (the dark energy contribution).
+        Per §2.6, this is of order epsilon * G_parent.
+        """
+        return self.params.epsilon * G_parent
+
+
+class EnergyConservationRule:
+    """
+    Standard energy conservation (per §2.6 of the paper).
+
+    The model does *not* propose a new conservation law. Energy is
+    conserved in the usual sense. The 4D event's energy is *delivered*
+    to 3+1D with efficiency f_deliver (default: 1, full delivery).
+    """
+
+    def __init__(self, params: CascadeParams):
+        self.params = params
+
+    def delivered_energy(self, original_energy: float) -> float:
+        """Energy delivered from parent to child, accounting for f_deliver."""
+        return self.params.f_deliver * original_energy
+
+
+class SymmetriesAndConservationLaws:
+    """
+    The model assumes standard symmetries and conservation laws
+    (per §2.6 of the paper):
+      - Energy conservation
+      - Momentum and angular momentum conservation
+      - CPT symmetry
+      - Lorentz invariance
+    """
+
+    @staticmethod
+    def verify_energy_conserved(
+        parent_energy: float,
+        delivered_energy: float,
+        child_energies: list,
+    ) -> bool:
+        """
+        Check energy conservation: parent's delivered energy equals
+        the sum of children's energies (within numerical precision).
+        """
+        return math.isclose(delivered_energy, sum(child_energies), rel_tol=1e-9)
+
+
+# ============================================================
 # Universe — the main class
 # ============================================================
 class Universe:
@@ -578,6 +684,90 @@ def sgr_a_universe(
 
 
 # ============================================================
+# Cascade — top-level orchestrator
+# ============================================================
+class Cascade:
+    """
+    Top-level orchestrator for the dimensional cascade.
+
+    A Cascade has:
+      - parameters (the 4 free parameters of the model)
+      - rules (the cascade-specific extensions to standard physics)
+      - a root universe (the 4D event that creates our 3+1D universe)
+
+    The Cascade class is the entry point for running simulations of
+    the cascade. It manages the universe tree and provides methods
+    for computing observable quantities.
+    """
+
+    def __init__(
+        self,
+        params: Optional[CascadeParams] = None,
+        root: Optional[Universe] = None,
+    ):
+        self.params = params or CascadeParams()
+        self.inversion_rule = InversionRule()
+        self.bulk_brane = BulkBraneCoupling(self.params)
+        self.energy_conservation = EnergyConservationRule(self.params)
+        self.symmetries = SymmetriesAndConservationLaws()
+        # If no root provided, build the standard cascade:
+        # 4D event (level 0) -> our 3+1D universe (level 1)
+        if root is None:
+            self.root = self._build_standard_cascade()
+        else:
+            self.root = root
+
+    def _build_standard_cascade(self) -> Universe:
+        """Build the standard cascade: 4D event -> 3+1D universe."""
+        # Build the 4D event first
+        four_d_duration_s = 13.8e9 * Constants.year_s
+        four_d_extent_m = four_d_duration_s * Constants.c
+        four_d_event = Universe(
+            level=0,
+            spatial_extent=four_d_extent_m,
+            energy=4e69,
+            parent=None,
+            params=self.params,
+            ending=Ending.FIXED_TIME_BOUNDARY,
+            name="4D event (parent of our universe)",
+        )
+        # Then our 3+1D universe as a child
+        Universe(
+            level=1,
+            spatial_extent=8.8e26,
+            energy=4e69,
+            parent=four_d_event,
+            params=self.params,
+            ending=Ending.FIXED_TIME_BOUNDARY,
+            name="Our 3+1D universe",
+        )
+        # Return the 4D event (the top of the cascade)
+        return four_d_event
+
+    def our_universe(self) -> Universe:
+        """Get our 3+1D universe (the first child of the root)."""
+        return self.root.children[0]
+
+    def total_descendants(self) -> int:
+        """Count all universes in the cascade tree."""
+        count = 0
+        stack = [self.root]
+        while stack:
+            u = stack.pop()
+            count += 1
+            stack.extend(u.children)
+        return count
+
+    def describe(self) -> str:
+        s = "Cascade:\n"
+        s += f"  Total universes in tree: {self.total_descendants()}\n"
+        s += f"  Parameters: epsilon={self.params.epsilon:.2e}, f_back={self.params.f_back:.2e}, f_deliver={self.params.f_deliver:.2f}\n"
+        s += "\n"
+        s += self.root.describe()
+        return s
+
+
+# ============================================================
 # Demonstration
 # ============================================================
 def demo():
@@ -586,9 +776,10 @@ def demo():
     print("DIMENSIONAL CASCADE — DEMO")
     print("=" * 70)
 
-    # Build our universe
-    us = our_3plus1d_universe()
-    print("\n--- Our 3+1D universe ---")
+    # Build a cascade
+    cascade = Cascade()
+    us = cascade.our_universe()
+    print("\n--- Our 3+1D universe (via Cascade class) ---")
     print(us.describe())
 
     # Add a few child universes from energetic events
