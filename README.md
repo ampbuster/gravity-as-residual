@@ -4,7 +4,7 @@
 
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
-**Version:** 2.2 (June 2026)  
+**Version:** 2.2.1 (June 2026) — internal consistency pass after v2.2 audit  
 **Status:** Public release. 90 commits, 18 honest limitations documented.
 
 ---
@@ -19,7 +19,7 @@ What if gravity is *weak* because most of it gets cancelled? In this model, a si
 
 | Folder / File | What's in it |
 |---|---|
-| `paper/paper.md` | The full paper, v2.2 (markdown source) |
+| `paper/paper.md` | The full paper, v2.2.1 (markdown source) |
 | `paper/paper.pdf` | Compiled PDF (81 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary for general readers |
@@ -28,12 +28,12 @@ What if gravity is *weak* because most of it gets cancelled? In this model, a si
 | `calculations/` | 42 Python scripts (numerical verification, derivations, tests) |
 | `calculations/cascade_model.py` | The main OO model implementation |
 | `calculations/figures/cascade_summary.png` | 9-panel summary figure |
-| `changelog.md` | Full version history v1.02 → v2.2 |
+| `changelog.md` | Full version history v1.02 → v2.2.1 |
 | `ai_disclosure.md` | How Mavis was used in the development |
 | `LICENSE` | MIT License |
 | `CITATION.cff` | How to cite this work |
 
-## Key findings (v2.2)
+## Key findings (v2.2.1)
 
 - **Cone-shaped hierarchy** (4D event → 3+1D → 2D, terminal at 2D; 1D universes do not exist). Closes the 1D-universes limitation.
 - **Sign ambiguity RESOLVED** in §2.4: ordinary gravity and dark energy are now two physically distinct small contributions to the effective 3+1D action, not opposite-sign components of the same quantity.
