@@ -13,6 +13,31 @@ Annihilation, and the Origin of the Dark Sector"**.
   Hubble tension, 2D lifetime, universal-split). Each derivation
   prints its inputs, math, and outputs. Run with
   `python3 section_2_1_derivations.py`.
+- **`parameter_sweep.py`** — Sweep 2D universe parameter space
+  (Omega_DE, lifetime, f_eq, h_2D) for G ~ 1e8 robustness. Shows
+  that G ~ 1e8 is achieved for a moderate range of parameters
+  (lifetime 25-35 Gyr, h_2D 0.8-1.2).
+- **`hubble_sfr_correlation.py`** — Falsifiable prediction: H_0
+  correlates with local star formation rate. Predicts H_0 in
+  starbursts ~ 72 km/s/Mpc vs H_0 in passive ellipticals ~ 68 km/s/Mpc.
+- **`hubble_tightened.py`** — Honest analysis of the Hubble tension
+  prediction: simple model gives 2.7 km/s/Mpc, half the observed
+  5.6. Identifies 4 alternative mechanisms to close the gap.
+- **`cmb_imprint.py`** — Order-of-magnitude CMB power spectrum
+  imprint from 4D->3+1D projection. Discusses tensor modes, spectral
+  index, and specific features.
+- **`rar_check.py`** — Radial Acceleration Relation (RAR) check.
+  Cascade predicts g+ ~ 1e-10 m/s² (matches observed). Notes that
+  the predicted *shape* is 'broken' (uniform halo DM) while the
+  empirical RAR is smooth (NFW-like profile).
+- **`universal_split_derivation.py`** — Attempts to derive the
+  5/27/68 split from projection geometry. Honest result: the split
+  is a POSTULATE, not derived. 5% and 68% are coupled via epsilon,
+  27% follows from G (now derived in Task 1).
+- **`parameter_collapse.py`** — Free parameter reduction. Shows
+  the cascade has effectively 1 free parameter (f_back), with
+  epsilon (defined by hierarchy), G (derived), and f_deliver
+  (set to 1 by parsimony). More parsimonious than ΛCDM.
 - **`derivations.md`** — Paper-style document with the math behind
   each quantitative claim.
 - **`numerical_verification.py`** — First-principles derivations
