@@ -24,6 +24,7 @@ License: MIT
 
 from __future__ import annotations
 import math
+from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from typing import Optional, List, Dict, Any
 from enum import Enum
@@ -201,6 +202,274 @@ class SymmetriesAndConservationLaws:
 
 
 # ============================================================
+# StandardModel — physics at each level (abstract)
+# ============================================================
+class StandardModel(ABC):
+    """
+    Abstract base class for the "Standard Model" at a given level
+    of the cascade.
+
+    Per §2.5 of the paper: each level has its *own* "Standard Model."
+    The 3+1D Standard Model (electromagnetic, weak, strong forces +
+    matter particles) is the physics that governs our universe. A
+    2D universe has its own SM (potentially different forces and
+    particles). Etc.
+
+    The cascade extends standard physics with:
+      - bulk-brane cancellation
+      - downward perceptual inversion
+      - active + cumulative return of dark matter
+      - hierarchy of weak effective gravity
+
+    This class is the *abstract interface* between the cascade and
+    the standard physics. Subclasses implement specific SMs:
+      - StandardModel_L1_3plus1D: the 3+1D SM (electromagnetic, weak,
+        strong + matter particles)
+      - StandardModel_L2_2D: the 2D SM (unknown; abstract)
+      - etc.
+
+    Subclasses must implement:
+      - speed_of_light(): the effective c at this level
+      - force_carriers(): the gauge bosons at this level
+      - matter_particles(): the fermions at this level
+      - coupling_constants(): the gauge couplings
+    """
+
+    def __init__(self, level: int, params: CascadeParams):
+        self.level = level
+        self.params = params
+
+    @abstractmethod
+    def speed_of_light(self) -> float:
+        """The effective speed of light at this level."""
+        pass
+
+    @abstractmethod
+    def force_carriers(self) -> List[str]:
+        """The gauge bosons (force carriers) at this level."""
+        pass
+
+    @abstractmethod
+    def matter_particles(self) -> List[str]:
+        """The fermionic matter particles at this level."""
+        pass
+
+    @abstractmethod
+    def coupling_constants(self) -> Dict[str, float]:
+        """The gauge coupling constants at this level."""
+        pass
+
+    def gravitational_coupling(self) -> float:
+        """The effective G at this level (after bulk-brane cancellation)."""
+        bb = BulkBraneCoupling(self.params)
+        return bb.effective_gravity(Constants.G)
+
+    def planck_mass(self) -> float:
+        """The effective Planck mass at this level."""
+        c = self.speed_of_light()
+        G = self.gravitational_coupling()
+        hbar = Constants.hbar
+        return math.sqrt(hbar * c / G)
+
+    def planck_length(self) -> float:
+        """The effective Planck length at this level."""
+        c = self.speed_of_light()
+        G = self.gravitational_coupling()
+        hbar = Constants.hbar
+        return math.sqrt(hbar * G / c ** 3)
+
+    def planck_energy(self) -> float:
+        """The effective Planck energy at this level (J)."""
+        c = self.speed_of_light()
+        G = self.gravitational_coupling()
+        hbar = Constants.hbar
+        return math.sqrt(hbar * c ** 5 / G)
+
+    def describe(self) -> str:
+        carriers = ", ".join(self.force_carriers())
+        particles = ", ".join(self.matter_particles())
+        couplings = ", ".join(f"{k}={v:.3e}" for k, v in self.coupling_constants().items())
+        return (
+            f"StandardModel(L{self.level}):\n"
+            f"  c = {self.speed_of_light():.3e} m/s\n"
+            f"  G_eff = {self.gravitational_coupling():.3e} m^3/kg/s^2\n"
+            f"  M_Pl = {self.planck_mass():.3e} kg\n"
+            f"  l_Pl = {self.planck_length():.3e} m\n"
+            f"  E_Pl = {self.planck_energy():.3e} J = {self.planck_energy() / Constants.eV_to_J:.3e} eV\n"
+            f"  force carriers: {carriers}\n"
+            f"  matter particles: {particles}\n"
+            f"  coupling constants: {couplings}\n"
+        )
+
+
+class StandardModel_L1_3plus1D(StandardModel):
+    """
+    The 3+1D Standard Model (the one we know).
+
+    Force carriers: photon (γ), W±, Z⁰, gluons (g), graviton (hypothetical)
+    Matter particles: u, d, c, s, t, b quarks, e, μ, τ leptons, neutrinos
+    Coupling constants: α_EM, α_W, α_S, α_G
+    """
+
+    def speed_of_light(self) -> float:
+        return Constants.c
+
+    def force_carriers(self) -> List[str]:
+        return ["γ (photon)", "W±", "Z⁰", "gluons", "graviton (?)"]
+
+    def matter_particles(self) -> List[str]:
+        return ["u, d, c, s, t, b", "e, μ, τ", "ν_e, ν_μ, ν_τ"]
+
+    def coupling_constants(self) -> Dict[str, float]:
+        return {
+            "α_EM": 1 / 137.0,        # fine structure constant
+            "α_W": 1 / 29.7,          # weak coupling (at low energy)
+            "α_S": 0.118,             # strong coupling (at M_Z)
+            "α_G": 5.9e-39,           # gravitational coupling / (h_bar c)
+        }
+
+
+class StandardModel_L2_2D(StandardModel):
+    """
+    The hypothetical 2D Standard Model.
+
+    Per the paper: we cannot directly observe 2D universes, so this SM
+    is unknown. The 2D SM is *postulated* to be similar in structure
+    to the 3+1D SM (bulk-brane cancellation, attractive net gravity,
+    own dark energy, own ending) but with potentially different forces
+    and particles.
+
+    The cascade's scale-invariant principle says the 2D SM has the
+    *same structure* as the 3+1D SM, just at different scales. But
+    the specific forces, particles, and couplings are unknown.
+    """
+
+    def speed_of_light(self) -> float:
+        # Per §4.10, c at each level is the *projection* of the
+        # higher-D causal structure. We don't know if c is the
+        # same at all levels or scales differently.
+        # Default: assume c is the same (simplest case).
+        return Constants.c
+
+    def force_carriers(self) -> List[str]:
+        return ["unknown (2D SM)"]
+
+    def matter_particles(self) -> List[str]:
+        return ["unknown (2D SM)"]
+
+    def coupling_constants(self) -> Dict[str, float]:
+        return {
+            "α_2D": float("nan"),  # unknown
+        }
+
+
+class StandardModel_L0_4D(StandardModel):
+    """
+    The hypothetical 4D Standard Model.
+
+    The 4D event is the *parent* of our 3+1D universe. Its physics is
+    the *source* of the cascade. We do not currently know what the
+    4D SM is, but it must:
+      - be a localized, energetic process
+      - have a finite spatial extent
+      - have a finite duration
+      - produce the antigravity that, when projected into 3+1D,
+        becomes the un-cancelled fraction we call dark energy
+    """
+
+    def speed_of_light(self) -> float:
+        # c_4 is the 4D speed of light (per §4.10, c = c_4 * k for
+        # some projection factor k). We assume c_4 ~ c for simplicity.
+        return Constants.c
+
+    def force_carriers(self) -> List[str]:
+        return ["unknown (4D SM)"]
+
+    def matter_particles(self) -> List[str]:
+        return ["unknown (4D SM)"]
+
+    def coupling_constants(self) -> Dict[str, float]:
+        return {
+            "α_4D": float("nan"),
+        }
+
+
+# ============================================================
+# EnergeticEvent — represents an event that creates a child universe
+# ============================================================
+@dataclass
+class EnergeticEvent:
+    """
+    An energetic event in some universe that creates a child universe.
+
+    Examples:
+      - LHC collision: ~TeV energy, ~10^-15 m extent
+      - Supernova: ~10^60 eV visible light, ~10^10 m photosphere
+      - AGN outburst: ~10^62 eV, ~10^14 m
+      - Stellar fusion: ~MeV per reaction, ~10^-15 m
+      - Big Bang: 4D event with full mass-energy of our universe
+
+    The dimensional time-dilation rule says: the child universe's
+    lifetime in the parent's frame is tau = l/c, where l is the
+    event's spatial extent.
+    """
+
+    energy_joules: float
+    spatial_extent_m: float
+    name: str = ""
+    type: str = ""
+
+    def lifetime_in_parent_frame(self) -> float:
+        """The child universe's lifetime in the parent's frame (s)."""
+        return self.spatial_extent_m / Constants.c
+
+    def lifetime_in_child_frame(self) -> float:
+        """
+        The child universe's lifetime in *its own* frame.
+        This is its full cosmic history (per the dimensional
+        time-dilation principle): a brief moment in the parent's
+        frame is a full cosmic history in the child's frame.
+        """
+        return self.spatial_extent_m / Constants.c
+
+    def describe(self) -> str:
+        return (
+            f"EnergeticEvent({self.name or 'unnamed'}):\n"
+            f"  type: {self.type}\n"
+            f"  energy: {self.energy_joules:.3e} J = {self.energy_joules / Constants.eV_to_J:.3e} eV\n"
+            f"  spatial extent: {self.spatial_extent_m:.3e} m\n"
+            f"  lifetime in parent frame: {self.lifetime_in_parent_frame():.3e} s\n"
+        )
+
+    @classmethod
+    def lhc_collision(cls, energy_GeV: float = 13000) -> "EnergeticEvent":
+        return cls(
+            energy_joules=energy_GeV * 1e9 * Constants.eV_to_J,
+            spatial_extent_m=1e-15,
+            name=f"LHC collision ({energy_GeV:.0f} GeV)",
+            type="particle collision",
+        )
+
+    @classmethod
+    def supernova(cls) -> "EnergeticEvent":
+        return cls(
+            energy_joules=1e60 * Constants.eV_to_J,
+            spatial_extent_m=1e10,
+            name="Supernova (visible light)",
+            type="stellar explosion",
+        )
+
+    @classmethod
+    def solar_fusion(cls) -> "EnergeticEvent":
+        return cls(
+            energy_joules=1e6 * Constants.eV_to_J,  # ~MeV per fusion
+            spatial_extent_m=1e-15,  # nuclear scale
+            name="Solar fusion (single reaction)",
+            type="nuclear fusion",
+        )
+
+
+# ============================================================
 # Universe — the main class
 # ============================================================
 class Universe:
@@ -233,6 +502,7 @@ class Universe:
         params: Optional[CascadeParams] = None,
         ending: Ending = Ending.FIXED_TIME_BOUNDARY,
         name: str = "",
+        standard_model: Optional[StandardModel] = None,
     ):
         """
         Parameters
@@ -253,6 +523,8 @@ class Universe:
             The universe's ending type.
         name : str
             Optional name for printing.
+        standard_model : StandardModel, optional
+            This universe's own StandardModel. Defaults to a level-appropriate one.
         """
         self.level = level
         self.spatial_extent = spatial_extent
@@ -261,6 +533,7 @@ class Universe:
         self.params = params or CascadeParams()
         self.ending = ending
         self.name = name or f"Universe(L{level})"
+        self.standard_model = standard_model or self._default_standard_model()
 
         # Children (created by this universe's energetic events)
         self.children: List[Universe] = []
@@ -272,20 +545,27 @@ class Universe:
         # (per the dimensional time-dilation rule tau = l/c in the
         # parent's frame, where l is the creating event's spatial
         # extent in the parent).
-        # NOTE: the child's `spatial_extent` is the *event's* spatial
-        # extent in the parent, so the lifetime in the parent's frame
-        # is `self.spatial_extent / c` (the same as lifetime_own_frame
-        # for a child created by a point-like event in the parent).
         if parent is not None:
             self.lifetime_parent_frame = self.spatial_extent / Constants.c
         else:
-            # Top-level universe's "parent" is the 4D bulk; its lifetime
-            # in the bulk is just its full 4D duration
             self.lifetime_parent_frame = self.lifetime_own_frame
 
         # Register as a child of parent
         if parent is not None:
             parent.children.append(self)
+
+    def _default_standard_model(self) -> StandardModel:
+        """Get the default StandardModel for this level."""
+        if self.level == 0:
+            return StandardModel_L0_4D(level=0, params=self.params)
+        elif self.level == 1:
+            return StandardModel_L1_3plus1D(level=1, params=self.params)
+        else:
+            # For level >= 2 (2D, 1D, 0D, etc.), use the 2D SM as
+            # a placeholder. Each level is *postulated* to have a SM
+            # similar in structure to ours, but the specific forces
+            # and particles are unknown.
+            return StandardModel_L2_2D(level=self.level, params=self.params)
 
     # --------------------------------------------------------
     # Cascade physics: how this universe's gravity relates to its parent's
