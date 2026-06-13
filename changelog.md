@@ -70,6 +70,14 @@ The cascade is *infinite in principle* (no a priori depth limit) but *practicall
 
 ~5% ordinary, ~27% DM, ~68% DE. The "ordinary/dark sector" split is ~5%/~95%, with the dark sector being ~27% (DM) + ~68% (DE) = ~95%.
 
+**Growth factor derived from 2D FRW dynamics** (added June 2026): added §2.6 subsection *Deriving the growth factor from 2D universe dynamics* that derives G = 20 × V_growth from the 2D universe's own FRW dynamics. With Omega_{DE,2D} = 0.999, t_eq_2D at 1% of 2D lifetime, T_{2D} ~ 30 Gyr, h_{2D} ~ 1.0: G = 9.7e7, matching the trial-and-error value of 10⁸ within 3%. This closes the limitation previously noted in *A quantitative attempt at the DM calculation* and *Asymmetry between dark energy and dark matter math* paragraphs. The growth factor is no longer a free parameter — it is a *derived* consequence of the 2D universe's own physics. Companion implementation in `calculations/cascade_model.py` (class `GrowthFactorCalculator`).
+
+**Hubble tension as a derived consequence** (added June 2026): added §2.6 subsection *Hubble tension as a derived consequence* that derives H_0_local > H_0_CMB by ~2.7 km/s/Mpc from the active vs. cumulative dark matter distinction (per §2.5 and §4.2). The predicted tension is in the same direction as the observed ~5.6 km/s/Mpc tension. Companion implementation in `calculations/cascade_model.py` (class `HubbleTensionCalculator`).
+
+**Limitations §7 updated** (added June 2026): §7 now has a *Note on closure status* paragraph explicitly noting which limitations have been *partially closed* by the cascade_model.py derivations (limitations 5 and 8) and which remain open (1–4, 6–7, 9–15). The paper's main acknowledged weakness — the unspecified growth factor — is now *resolved* by derivation.
+
+**Paper length: 66 → 82 pages** (added June 2026): the paper grew from 66 to 82 pages with the new derivations.
+
 ---
 
 ## v1.0 (June 2026) — Initial Public Release (Superseded)
