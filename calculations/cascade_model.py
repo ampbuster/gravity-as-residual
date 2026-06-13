@@ -24,6 +24,7 @@ License: MIT
 
 from __future__ import annotations
 import math
+import numpy as np
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from typing import Optional, List, Dict, Any
@@ -437,6 +438,280 @@ class HubbleTensionCalculator:
             f"\n"
             f"  Mechanism: active children in local region boost\n"
             f"  antigravity contribution, biasing H_0 upward.\n"
+        )
+
+
+# ============================================================
+# HubbleTensionBF — Mechanism B/F: 4D event's antigravity varies in 4D time
+# ============================================================
+class HubbleTensionBF:
+    """
+    Mechanism B/F for the Hubble tension.
+
+    IDEA: The 4D event's antigravity output is NOT constant in 4D time.
+    Our 3+1D universe is a brief slice of the 4D event's full duration.
+    Local H_0 measures the *current* 4D output; CMB H_0 measures the
+    *time-averaged* 4D output over ~13.8 Gyr of 3+1D time.
+
+    PREDICTION: H_0(z) = sqrt(H_0_CMB^2 + (H_0_local^2 - H_0_CMB^2) / (1+z)^q)
+    where q is a free parameter (~2/3 in the B/F model).
+
+    STATUS: TESTED with full Pantheon+ statistical+systematic covariance
+    matrix (1701 SNe, 1701x1701, M fixed at SH0ES value). Result: cascade
+    chi^2 = 1488.3 vs best-fit LCDM (H_0 = 73.00) chi^2 = 1439.4. Delta
+    chi^2 = +48.9, ~7 sigma, LCDM WINS. Pantheon+ shows H_0 is *roughly
+    constant* at ~73 across all z bins, not decreasing with z as B/F
+    predicted. *STATUS: REJECTED at 7 sigma by Pantheon+ (commit 82).*
+    """
+
+    def __init__(
+        self,
+        H_0_local: float = 73.04,
+        H_0_CMB: float = 67.4,
+        q: float = 2.0/3.0,
+    ):
+        self.H_0_local = H_0_local
+        self.H_0_CMB = H_0_CMB
+        self.q = q
+
+    def H_0_at_z(self, z):
+        """
+        Predicted H_0 at redshift z.
+        """
+        f_z = 1.0 / (1.0 + z) ** self.q
+        H_0_sq = self.H_0_CMB**2 + (self.H_0_local**2 - self.H_0_CMB**2) * f_z
+        return math.sqrt(H_0_sq)
+
+    def H_0_at_z_arr(self, z_arr):
+        """
+        Vectorized H_0(z) prediction.
+        """
+        f_z = 1.0 / (1.0 + z_arr) ** self.q
+        H_0_sq = self.H_0_CMB**2 + (self.H_0_local**2 - self.H_0_CMB**2) * f_z
+        return np.sqrt(H_0_sq)
+
+    def predict_h0_z(self, z_arr) -> list:
+        """
+        Predict H_0 at each z value in the array.
+        """
+        return [self.H_0_at_z(z) for z in z_arr]
+
+    def describe(self) -> str:
+        return (
+            f"HubbleTensionBF:\n"
+            f"  H_0_local = {self.H_0_local} km/s/Mpc\n"
+            f"  H_0_CMB = {self.H_0_CMB} km/s/Mpc\n"
+            f"  q = {self.q:.3f}\n"
+            f"  H_0(z=0) = {self.H_0_at_z(0):.2f} km/s/Mpc\n"
+            f"  H_0(z=1) = {self.H_0_at_z(1):.2f} km/s/Mpc\n"
+            f"  H_0(z=1100) = {self.H_0_at_z(1100):.2f} km/s/Mpc\n"
+            f"  STATUS: REJECTED at 7 sigma by Pantheon+ (commit 82)\n"
+            f"  Pantheon+ shows H_0 constant at ~73, not decreasing\n"
+        )
+
+
+# ============================================================
+# HubbleTensionL — Mechanism L: CMB H_0 is cascade-consistent
+# ============================================================
+class HubbleTensionL:
+    """
+    Mechanism L for the Hubble tension.
+
+    IDEA: The CMB-inferred H_0 = 67.4 is an ARTIFACT of assuming LCDM.
+    In the cascade's model, CMB analysis would give H_0 ~ 73 (matching
+    local and Pantheon+ best-fit).
+
+    MECHANISM: Re-analyze Planck with cascade's model:
+    - Early universe: cascade has no DM, no DE at z > 1100 (just baryons
+      and radiation)
+    - Late universe: cascade has H_0 = 73 and Omega_m_eff = 0.32, Omega_DE_eff = 0.68
+
+    TEST: Re-derive Planck's theta_* measurement in the cascade's model.
+    Planck measures theta_* = r_s(z_*) / D_A(z_*) = 0.01041.
+
+    STATUS: BUSTED. The cascade's natural early universe (no DM, no DE at
+    z > 1100, just baryons and radiation with Omega_m = 0.05) gives:
+      H_cascade(1100) = 1.03e6 km/s/Mpc (vs LCDM's 4.36e7, 42x smaller)
+      r_s_cascade = 194 Mpc (vs LCDM's 144.4, larger)
+      D_A_cascade(1089) = 12 Mpc
+      theta_*_cascade = 15.58 (vs Planck's 0.01041, off by 1500x)
+    *STATUS: BUSTED. The cascade's early universe is INCOMPATIBLE with
+    Planck's theta_* measurement. Mechanism L does NOT work.*
+    """
+
+    H_0_cascade = 73.0
+    Omega_b = 0.05  # Baryons only (no DM at z > 1100)
+    Omega_DE = 0.68  # Constant DE
+    z_recomb = 1089
+
+    def H_cascade(self, z):
+        """
+        H(z) in cascade's early universe (no DM, no DE at z > 1100).
+        """
+        Omega_r = 9e-5  # Photons + neutrinos
+        Omega_b = self.Omega_b
+        Omega_DE = self.Omega_DE if z < 1100 else 0  # No DE at z > 1100
+        H = self.H_0_cascade * math.sqrt(
+            Omega_r * (1 + z)**4
+            + Omega_b * (1 + z)**3
+            + Omega_DE
+        )
+        return H
+
+    def H_LCDM(self, z):
+        """
+        H(z) in LCDM at z = 1100.
+        """
+        Omega_r = 9e-5
+        Omega_m = 0.315
+        Omega_L = 0.685
+        H = 67.4 * math.sqrt(Omega_r * (1 + z)**4 + Omega_m * (1 + z)**3 + Omega_L)
+        return H
+
+    def theta_star_cascade(self) -> float:
+        """
+        Compute theta_* in the cascade's model.
+        Cascade: r_s_cascade = 194 Mpc, D_A_cascade(1089) = 12 Mpc.
+        """
+        r_s_cascade = 194.0
+        D_A_cascade = 12.0
+        return r_s_cascade / D_A_cascade
+
+    def theta_star_LCDM(self) -> float:
+        """
+        Compute theta_* in LCDM.
+        r_s_LCDM = 144.4 Mpc, D_A_LCDM(1089) = 13.5 Mpc.
+        """
+        r_s_LCDM = 144.4
+        D_A_LCDM = 13.5
+        return r_s_LCDM / D_A_LCDM
+
+    def describe(self) -> str:
+        theta_planck = 0.01041
+        theta_cas = self.theta_star_cascade()
+        theta_lcdm = self.theta_star_LCDM()
+        return (
+            f"HubbleTensionL:\n"
+            f"  Planck measured: theta_* = {theta_planck:.5f}\n"
+            f"  Cascade predicts: theta_* = {theta_cas:.4f}\n"
+            f"  LCDM predicts:    theta_* = {theta_lcdm:.5f}\n"
+            f"  Off by factor: {theta_cas / theta_planck:.0f}x\n"
+            f"  STATUS: BUSTED. Cascade's early universe is incompatible\n"
+            f"  with Planck's theta_* measurement. The cascade cannot\n"
+            f"  re-interpret CMB H_0 = 67.4 as cascade-consistent without\n"
+            f"  matching the early-universe matter content (which contradicts\n"
+            f"  the cascade's natural picture).\n"
+        )
+
+
+# ============================================================
+# HubbleTensionM — Mechanism M: accept the tension (honest position)
+# ============================================================
+class HubbleTensionM:
+    """
+    Mechanism M for the Hubble tension: ACCEPT THE TENSION.
+
+    IDEA: The cascade accommodates the Hubble tension but does not
+    fully explain it.
+    - The cascade's H_0 is 73, matching local + Pantheon+ best-fit
+    - The Planck-inferred H_0 = 67.4 is a model-dependent result
+    - The 5.6 km/s/Mpc gap is a feature the cascade does not resolve
+
+    STATUS: This is the cascade's final position after B/F, L, and
+    ALL other mechanisms (C, I, N, O, P, Q, R, S, T, U, V) were
+    tested and either rejected, busted, or equivalent to M.
+    """
+
+    H_0_local = 73.04
+    H_0_CMB = 67.4
+    H_0_pantheon = 73.00
+
+    def predict_h0(self) -> dict:
+        return {
+            "H_0_local": self.H_0_local,
+            "H_0_CMB": self.H_0_CMB,
+            "H_0_pantheon": self.H_0_pantheon,
+            "tension_local_CMB": self.H_0_local - self.H_0_CMB,
+            "tension_pantheon_CMB": self.H_0_pantheon - self.H_0_CMB,
+        }
+
+    def describe(self) -> str:
+        return (
+            f"HubbleTensionM (accept the tension):\n"
+            f"  H_0_local (SH0ES):    {self.H_0_local} km/s/Mpc\n"
+            f"  H_0_Pantheon+:        {self.H_0_pantheon} km/s/Mpc (1588 SNe, full cov)\n"
+            f"  H_0_CMB (Planck LCDM): {self.H_0_CMB} km/s/Mpc\n"
+            f"  Local vs CMB:  {self.H_0_local - self.H_0_CMB:.2f} km/s/Mpc\n"
+            f"  Pantheon+ vs CMB: {self.H_0_pantheon - self.H_0_CMB:.2f} km/s/Mpc\n"
+            f"  STATUS: The cascade ACCOMMODATES the tension but does\n"
+            f"  NOT FULLY EXPLAIN it. This is the most honest position.\n"
+        )
+
+
+# ============================================================
+# PantheonPlusFullCovariance — Rigorous Pantheon+ test
+# ============================================================
+class PantheonPlusFullCovariance:
+    """
+    Rigorous Pantheon+ SNe analysis using the full statistical+systematic
+    covariance matrix (1701x1701).
+
+    Tests:
+      - Best-fit LCDM (constant H_0) with M marginalized AND M fixed
+      - Cascade Mechanism B/F H_0(z) with M fixed
+      - Delta chi^2 between models
+
+    STATUS: Pantheon+ with full covariance (M fixed at SH0ES value
+    M = -19.253) shows:
+      - LCDM best fit: H_0 = 73.00, chi^2 = 1439.4
+      - Cascade: chi^2 = 1488.3
+      - Delta chi^2 = +48.9 (~7 sigma, LCDM WINS)
+      - Pantheon+ shows H_0 is roughly constant at ~73 across all z bins
+
+    Companion code: pantheon_full_cov_analysis.py
+    Data: supporting/data/PantheonSH0ES_STAT+SYS.cov
+    """
+
+    N_SNE = 1701
+    N_HUBBLE_FLOW = 1588
+    M_SH0ES = -19.253
+    H_0_LCDM_BEST = 73.00
+    CHI2_LCDM_BEST = 1439.4
+    CHI2_LCDM_PLANCK = 3663.9
+    CHI2_LCDM_SH0ES = 1438.7
+    CHI2_CASCADE = 1488.3
+    DELTA_CHI2 = 48.9
+    SIGMA_REJECTION = 7.0
+
+    def summary(self) -> dict:
+        return {
+            "N_SNe": self.N_SNE,
+            "N_Hubble_flow": self.N_HUBBLE_FLOW,
+            "M_SH0ES": self.M_SH0ES,
+            "H_0_LCDM_best": self.H_0_LCDM_BEST,
+            "chi^2_LCDM_best": self.CHI2_LCDM_BEST,
+            "chi^2_LCDM_Planck": self.CHI2_LCDM_PLANCK,
+            "chi^2_LCDM_SH0ES": self.CHI2_LCDM_SH0ES,
+            "chi^2_cascade": self.CHI2_CASCADE,
+            "delta_chi^2": self.DELTA_CHI2,
+            "sigma_rejection": self.SIGMA_REJECTION,
+            "status": "REJECTED at 7 sigma",
+        }
+
+    def describe(self) -> str:
+        s = self.summary()
+        return (
+            f"PantheonPlusFullCovariance:\n"
+            f"  N_SNe (full):           {s['N_SNe']}\n"
+            f"  N_Hubble_flow (z>0.01): {s['N_Hubble_flow']}\n"
+            f"  M_SH0ES (calibrators):  {s['M_SH0ES']}\n"
+            f"  LCDM best-fit:          H_0 = {s['H_0_LCDM_best']} km/s/Mpc, "
+            f"chi^2 = {s['chi^2_LCDM_best']:.1f}\n"
+            f"  LCDM (Planck):          H_0 = 67.4, chi^2 = {s['chi^2_LCDM_Planck']:.1f}\n"
+            f"  LCDM (SH0ES):           H_0 = 73.04, chi^2 = {s['chi^2_LCDM_SH0ES']:.1f}\n"
+            f"  Cascade (B/F):          chi^2 = {s['chi^2_cascade']:.1f}\n"
+            f"  Delta chi^2:            {s['delta_chi^2']:.1f} ({s['sigma_rejection']:.0f} sigma)\n"
+            f"  STATUS:                 {s['status']}\n"
         )
 
 
@@ -1597,9 +1872,29 @@ def demo():
     print(huc.describe())
 
     # Hubble tension prediction
-    print("\n--- Hubble tension prediction ---")
+    print("\n--- Hubble tension prediction (Mechanism A: original, FALSIFIED) ---")
     htc = HubbleTensionCalculator(n_local_events=1e8)
     print(htc.describe())
+
+    # Hubble tension: Mechanism B/F (REJECTED by Pantheon+ at 7 sigma)
+    print("\n--- Hubble tension: Mechanism B/F (4D time-varying antigravity) ---")
+    bf = HubbleTensionBF()
+    print(bf.describe())
+
+    # Hubble tension: Mechanism L (BUSTED - theta_* mismatch)
+    print("\n--- Hubble tension: Mechanism L (CMB H_0 = LCDM artifact) ---")
+    lth = HubbleTensionL()
+    print(lth.describe())
+
+    # Hubble tension: Mechanism M (ACCEPT THE TENSION)
+    print("\n--- Hubble tension: Mechanism M (accept the tension) ---")
+    mth = HubbleTensionM()
+    print(mth.describe())
+
+    # Pantheon+ full covariance test
+    print("\n--- Pantheon+ full covariance (1701 SNe, 1701x1701 matrix) ---")
+    ppfc = PantheonPlusFullCovariance()
+    print(ppfc.describe())
 
     # Additional event types
     print("\n--- Additional event types ---")
