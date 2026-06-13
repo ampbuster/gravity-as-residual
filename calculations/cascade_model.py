@@ -75,11 +75,15 @@ class CascadeParams:
       - f_deliver: 4D event's energy delivery efficiency to 3+1D
       - cumulative_back_projection: 2D universe's back-projection
         efficiency to 3+1D (DM)
+
+    The cumulative_back_projection is the *fraction* of the 2D
+    universe's attractive gravity that back-projects to 3+1D.
+    The paper's calc uses 1.0 (full projection) as a benchmark.
     """
     epsilon: float = 5.9e-39        # ~1/10^38
-    f_back: float = 5.2e-85         # staying fraction
+    f_back: float = 1.34e-85        # staying fraction: bridges 10^85 gap exactly
     f_deliver: float = 1.0          # 4D event's energy delivery (default: full)
-    cumulative_back_projection: float = 1e-3  # 2D->3+1D back-projection (placeholder)
+    cumulative_back_projection: float = 1.0  # 2D->3+1D back-projection (full)
 
 
 # ============================================================
@@ -689,14 +693,18 @@ class Universe:
         growth factor (2D universe's own dark energy dominating its
         mass budget). A full implementation would include that.
         """
+        if self.spatial_extent <= 0:
+            return 0.0
         # The active population = (sum over child event rates) × (avg lifetime)
         # For each child, its back-projection contributes
         # (cumulative_back_projection * child.energy) / (this volume)
         # to this universe's dark matter density.
         #
-        # We use this universe's spatial extent as a proxy for volume:
-        if self.spatial_extent <= 0:
-            return 0.0
+        # We use this universe's spatial extent as a proxy for the
+        # *local* region of interest (e.g., a galaxy for our 3+1D
+        # universe). For the observable universe, this gives a very
+        # small number; for a galaxy-sized region, this is the
+        # relevant density.
         volume = self.spatial_extent ** 3
         total_active_E = sum(
             self.params.cumulative_back_projection * c.energy
@@ -746,6 +754,31 @@ class Universe:
         cumulative return), in J/m^3.
         """
         return self.active_dark_matter_density() + self.cumulative_return_dark_matter_density()
+
+    def total_dark_matter_density_with_growth(self, growth_factor: float) -> float:
+        """
+        The *total* dark matter density in this universe, *with* the
+        growth factor from the 2D universe's own dark energy / matter
+        dominating its mass-energy.
+
+        The paper (§2.6) acknowledges that the naive cumulative
+        calculation is off by 10^5-10^10. The growth factor is
+        *postulated* to come from the 2D universe's own dark energy
+        expanding its total mass-energy during its lifetime, similar
+        to how our universe's dark energy dominates its mass budget.
+
+        Parameters
+        ----------
+        growth_factor : float
+            The 2D universe's mass-energy growth factor during its
+            lifetime. The paper estimates this is ~10^5-10^10.
+
+        Returns
+        -------
+        float
+            Dark matter density in J/m^3.
+        """
+        return self.total_dark_matter_density() * growth_factor
 
     # --------------------------------------------------------
     # Energetic event: create a child universe
@@ -963,6 +996,60 @@ def sgr_a_universe(
     )
 
 
+def simulate_galaxy_events(
+    galaxy_universe: Universe,
+    sn_count: int = 1e8,        # ~10^8 SNe over galaxy's 13.8 Gyr history
+    stellar_events: int = 1e30,  # ~10^30 stellar nuclear events
+    lhc_count: int = 1e15,       # ~10^15 LHC-scale events (scaled by stars)
+    seed: int = 42,
+) -> dict:
+    """
+    Compute the *cumulative* back-projection of 2D universes created
+    by a realistic *spectrum* of events in a galaxy, over its
+    13.8 Gyr history.
+
+    A typical galaxy (~10^10 M_sun) over 13.8 Gyr has:
+      - ~10^8 core-collapse supernovae (1 per ~100 yr per 10^10 M_sun)
+      - ~10^10 Type Ia supernovae (1 per ~few hundred yr)
+      - ~10^30 stellar nuclear events (proton-proton chain, etc.)
+      - ~10^15 high-energy particle collisions (cosmic rays, etc.)
+      - ~few AGN outbursts over its lifetime
+
+    This function *computes* the cumulative back-projection
+    *analytically* (without creating individual Universe objects,
+    which would be memory-intensive for 10^30 events).
+
+    Returns
+    -------
+    dict
+        Summary with total_cumulative_E_3plus1D and the simulated
+        event counts.
+    """
+    cumulative_back_projection = galaxy_universe.params.cumulative_back_projection
+
+    # SN events: ~10^8 SNe, each 10^60 eV
+    sn_total = sn_count * 1e60 * Constants.eV_to_J
+
+    # Stellar nuclear events: ~10^30 events, each ~MeV
+    stellar_total = stellar_events * 1e6 * Constants.eV_to_J
+
+    # LHC-scale events: ~10^15 events, each ~TeV
+    lhc_total = lhc_count * 1e12 * Constants.eV_to_J
+
+    # Total back-projected energy (with the 32% attractive fraction)
+    total_E = cumulative_back_projection * 0.32 * (sn_total + stellar_total + lhc_total)
+
+    return {
+        "sn_count": sn_count,
+        "stellar_events": stellar_events,
+        "lhc_count": lhc_count,
+        "sn_total_E": sn_total,
+        "stellar_total_E": stellar_total,
+        "lhc_total_E": lhc_total,
+        "total_cumulative_E_3plus1D": total_E,
+    }
+
+
 # ============================================================
 # Cascade — top-level orchestrator
 # ============================================================
@@ -1102,6 +1189,24 @@ def demo():
     print(f"rho_DM_total      = {dm_total:.3e} J/m^3")
     print(f"Expected ~ 3e-10 J/m^3 (Planck 2018; 27% of critical)")
     print(f"NOTE: this is the *naive* calc; real DM needs growth factor")
+
+    # With the growth factor from 2D universe's own DE
+    print("\n--- DM with growth factor (per paper §2.6) ---")
+    for growth in [1e5, 1e7, 1e9, 1e10]:
+        dm_with_growth = us.total_dark_matter_density_with_growth(growth)
+        ratio = dm_with_growth / 3e-10
+        print(f"  growth = {growth:.0e}: rho_DM = {dm_with_growth:.3e} J/m^3 (ratio to obs: {ratio:.2e})")
+
+    # Realistic galaxy simulation
+    print("\n--- Realistic galaxy simulation (per paper §2.6) ---")
+    galaxy_universe = our_3plus1d_universe()
+    result = simulate_galaxy_events(galaxy_universe, sn_count=1e8, stellar_events=1e30, lhc_count=1e15)
+    total_E = result["total_cumulative_E_3plus1D"]
+    print(f"Total cumulative 2D->3+1D back-projection over 13.8 Gyr:")
+    print(f"  {total_E:.3e} J per galaxy")
+    print(f"  Observed DM energy in galaxy: ~{5e10 * Constants.M_sun * Constants.c**2:.3e} J")
+    print(f"  Ratio (obs/calc): {5e10 * Constants.M_sun * Constants.c**2 / total_E:.2e}")
+    print(f"  Growth factor needed: {5e10 * Constants.M_sun * Constants.c**2 / total_E:.2e}")
 
     # Numerical check: 2D universe lifetimes
     print("\n--- 2D universe lifetimes in our frame ---")
