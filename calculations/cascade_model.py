@@ -68,22 +68,30 @@ class Constants:
 @dataclass
 class CascadeParams:
     """
-    The four free parameters of the dimensional-cascade model
+    The five free parameters of the dimensional-cascade model
     (per §2.6 of the paper):
       - epsilon: bulk-brane cancellation fraction (hierarchy)
       - f_back: staying fraction (DE)
       - f_deliver: 4D event's energy delivery efficiency to 3+1D
       - cumulative_back_projection: 2D universe's back-projection
         efficiency to 3+1D (DM)
+      - growth_factor: 2D universe's total mass-energy growth
+        during its lifetime (from expansion + DE dominance)
 
     The cumulative_back_projection is the *fraction* of the 2D
     universe's attractive gravity that back-projects to 3+1D.
     The paper's calc uses 1.0 (full projection) as a benchmark.
+
+    The growth_factor is the 2D universe's peak total mass-energy
+    divided by the original event energy. The paper's estimate is
+    ~10^5-10^10. Our derivation (assuming 2D universe's expansion
+    factor is similar to ours in matter+DE era) gives ~10^8.
     """
     epsilon: float = 5.9e-39        # ~1/10^38
     f_back: float = 2.27e-85        # staying fraction: bridges 10^85 gap exactly
     f_deliver: float = 1.0          # 4D event's energy delivery (default: full)
     cumulative_back_projection: float = 1.0  # 2D->3+1D back-projection (full)
+    growth_factor: float = 1e8      # 2D universe's mass-energy growth factor
 
 
 # ============================================================
@@ -652,6 +660,55 @@ class Universe:
         """
         return self.gravity_coupling_effective()
 
+    def dark_matter_contribution_to_parent(self) -> float:
+        """
+        The total dark matter energy this universe contributes to
+        its parent, in joules.
+
+        Per the universal-split assumption (§2.6):
+          M_2D_peak = 20 * G * M_event
+          (5% ordinary, 27% DM, 68% DE)
+          Back-projection to 3+1D = 0.32 * M_2D_peak
+                                 = 6.4 * G * M_event
+
+        where G is the growth_factor from params.
+
+        Returns
+        -------
+        float
+            Dark matter energy in joules.
+        """
+        G = self.params.growth_factor
+        # Back-projection fraction: 32% of 2D universe's peak mass-energy
+        # Universal-split factor: 20 (1/0.05)
+        # Growth factor: G
+        return 0.32 * 20 * G * self.energy
+
+    def total_dark_matter_density_with_growth(self, growth_factor: float) -> float:
+        """
+        The *total* dark matter density in this universe, *with* the
+        growth factor from the 2D universe's own dark energy / matter
+        dominating its mass-energy.
+
+        The paper (§2.6) acknowledges that the naive cumulative
+        calculation is off by 10^5-10^10. The growth factor is
+        *postulated* to come from the 2D universe's own dark energy
+        expanding its total mass-energy during its lifetime, similar
+        to how our universe's dark energy dominates its mass budget.
+
+        Parameters
+        ----------
+        growth_factor : float
+            The 2D universe's mass-energy growth factor during its
+            lifetime. The paper estimates this is ~10^5-10^10.
+
+        Returns
+        -------
+        float
+            Dark matter density in J/m^3.
+        """
+        return self.total_dark_matter_density() * growth_factor
+
     # --------------------------------------------------------
     # Observable dark-sector quantities
     # --------------------------------------------------------
@@ -754,31 +811,6 @@ class Universe:
         cumulative return), in J/m^3.
         """
         return self.active_dark_matter_density() + self.cumulative_return_dark_matter_density()
-
-    def total_dark_matter_density_with_growth(self, growth_factor: float) -> float:
-        """
-        The *total* dark matter density in this universe, *with* the
-        growth factor from the 2D universe's own dark energy / matter
-        dominating its mass-energy.
-
-        The paper (§2.6) acknowledges that the naive cumulative
-        calculation is off by 10^5-10^10. The growth factor is
-        *postulated* to come from the 2D universe's own dark energy
-        expanding its total mass-energy during its lifetime, similar
-        to how our universe's dark energy dominates its mass budget.
-
-        Parameters
-        ----------
-        growth_factor : float
-            The 2D universe's mass-energy growth factor during its
-            lifetime. The paper estimates this is ~10^5-10^10.
-
-        Returns
-        -------
-        float
-            Dark matter density in J/m^3.
-        """
-        return self.total_dark_matter_density() * growth_factor
 
     # --------------------------------------------------------
     # Energetic event: create a child universe
@@ -1015,6 +1047,17 @@ def simulate_galaxy_events(
       - ~10^15 high-energy particle collisions (cosmic rays, etc.)
       - ~few AGN outbursts over its lifetime
 
+    The formula (per §2.6 universal-split assumption):
+      M_2D_peak = (1/0.05) * G * M_event
+                  = 20 * G * M_event
+                  (5% of M_2D_peak is from original event; rest is
+                   DE (68%) + 1D universe back-projection in 2D (27%))
+      DM_to_3+1D = 0.32 * M_2D_peak
+                  = 0.32 * 20 * G * M_event
+                  = 6.4 * G * M_event
+
+    where G is the 2D universe's expansion growth factor (params).
+
     This function *computes* the cumulative back-projection
     *analytically* (without creating individual Universe objects,
     which would be memory-intensive for 10^30 events).
@@ -1026,6 +1069,7 @@ def simulate_galaxy_events(
         event counts.
     """
     cumulative_back_projection = galaxy_universe.params.cumulative_back_projection
+    G = galaxy_universe.params.growth_factor
 
     # SN events: ~10^8 SNe, each 10^60 eV
     sn_total = sn_count * 1e60 * Constants.eV_to_J
@@ -1036,8 +1080,17 @@ def simulate_galaxy_events(
     # LHC-scale events: ~10^15 events, each ~TeV
     lhc_total = lhc_count * 1e12 * Constants.eV_to_J
 
-    # Total back-projected energy (with the 32% attractive fraction)
-    total_E = cumulative_back_projection * 0.32 * (sn_total + stellar_total + lhc_total)
+    # Total back-projected energy
+    # (per universal-split: 0.32 * 20 * G * M_event = 6.4 * G * M_event)
+    back_proj_fraction = 0.32  # 5% ordinary + 27% DM
+    universal_split_factor = 20  # 1/0.05
+    total_E = (
+        cumulative_back_projection
+        * back_proj_fraction
+        * universal_split_factor
+        * G
+        * (sn_total + stellar_total + lhc_total)
+    )
 
     return {
         "sn_count": sn_count,
@@ -1046,6 +1099,7 @@ def simulate_galaxy_events(
         "sn_total_E": sn_total,
         "stellar_total_E": stellar_total,
         "lhc_total_E": lhc_total,
+        "growth_factor": G,
         "total_cumulative_E_3plus1D": total_E,
     }
 
@@ -1192,7 +1246,7 @@ def demo():
 
     # With the growth factor from 2D universe's own DE
     print("\n--- DM with growth factor (per paper §2.6) ---")
-    for growth in [1e5, 1e7, 1e9, 1e10]:
+    for growth in [1e5, 1e7, 1e8, 1e9, 1e10]:
         dm_with_growth = us.total_dark_matter_density_with_growth(growth)
         ratio = dm_with_growth / 3e-10
         print(f"  growth = {growth:.0e}: rho_DM = {dm_with_growth:.3e} J/m^3 (ratio to obs: {ratio:.2e})")
@@ -1206,7 +1260,8 @@ def demo():
     print(f"  {total_E:.3e} J per galaxy")
     print(f"  Observed DM energy in galaxy: ~{5e10 * Constants.M_sun * Constants.c**2:.3e} J")
     print(f"  Ratio (obs/calc): {5e10 * Constants.M_sun * Constants.c**2 / total_E:.2e}")
-    print(f"  Growth factor needed: {5e10 * Constants.M_sun * Constants.c**2 / total_E:.2e}")
+    print(f"  Using growth factor G = {result['growth_factor']:.0e} (from params)")
+    print(f"  Per-event DM contribution: 6.4 * G * M_event = 0.32 * 20 * G * M_event")
 
     # Numerical check: 2D universe lifetimes
     print("\n--- 2D universe lifetimes in our frame ---")
