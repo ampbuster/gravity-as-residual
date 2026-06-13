@@ -731,6 +731,36 @@ With these parameters:
 
 This tension requires either a different spatial distribution for the active contribution, a smaller f_active (cascade's postulate is off by ~5x), or a different cascade g_+. The cascade's g_+ might not be 1.2×10⁻¹⁰ m/s² (McGaugh+ 2016) but rather closer to 2×10⁻⁹ m/s² (Tian+ 2024 cluster value) — which would be a genuinely different prediction of the cascade that conflicts with the galaxy RAR. This is left as an open question for further theoretical work (Limitation 19).
 
+*Full mass spectrum test (commit 111, v2.2.1).* I tested the cascade's RAR prediction across 9 systems from ultra-faint dwarf ($M_{halo} = 10^7 M_\odot$) to supercluster core ($M_{halo} = 5 \times 10^{14} M_\odot$), in `calculations/rar_extremes.py`. Key findings:
+
+1. **The "lies on RAR" pattern is non-monotonic with mass.** The cascade's $g_{obs}/g_{bar}$ at $2R_d$:
+   - Ultra-faint dwarf ($M_{halo} = 10^7$): 342 (over-predicts, beyond cluster RAR)
+   - Classical dwarf ($10^9$): 38 (transition)
+   - Small spiral ($10^{10}$): 4.16 (on galaxy RAR)
+   - MW-like ($10^{12}$): 2.9 (matches well at $2R_d$)
+   - Large spiral ($5 \times 10^{12}$): 3.6 (transition)
+   - Compact group ($10^{13}$): 9.3 (transition)
+   - Small cluster ($5 \times 10^{13}$): 14 (beyond cluster RAR)
+   - Massive cluster ($10^{14}$): 29 (beyond cluster RAR)
+   - Supercluster core ($5 \times 10^{14}$): 31 (beyond cluster RAR)
+
+2. **The cascade's MW model TRANSITIONS from "on galaxy RAR" at small r to "on cluster RAR" at large r:** at $r=0.5$ kpc, the cascade matches the galaxy RAR (5% off); at $r=30$ kpc, it matches the cluster RAR (18% off). This radial transition is a generic feature of the uniform-cumulative profile: at small r, $g_{active}$ dominates (clustered, follows stellar, gives $g_{obs} \sim g_{bar}$); at large r, $g_{cum}$ dominates (uniform, gives $g_{obs} \sim \text{const}$, MOND-like).
+
+3. **At the cluster scale, the cascade over-predicts by 1.4-2.5x even with $f_{active} = 0$.** This means the CUMULATIVE-ONLY contribution is too much. The cluster's empirical $M_{halo}$ would need to be 1.6-1.7x smaller to match the cluster RAR.
+
+4. **The cascade's $M_{halo}$ is too large for the RAR fit:**
+   - MW: 4.6x too large (compared to the MOND-implied $M_{halo}$ from $g_+ = 1.2 \times 10^{-10}$)
+   - Cluster: 1.65x too large (compared to the MOND-implied $M_{halo}$ from $g_+ = 2 \times 10^{-9}$)
+   - The "too large" factor is *mass-dependent* (4.6x for MW, 1.65x for cluster)
+
+**Honest interpretation of the full mass spectrum:**
+- The cascade's qualitative RAR picture is correct (extra gravity from dark matter exists, scales with mass).
+- The quantitative mass-dependence is off by factors of 2-5 at the extremes.
+- The cascade's $g_+$ is naturally closer to the *cluster* value ($2 \times 10^{-9}$) than the *galaxy* value ($1.2 \times 10^{-10}$). This could be a genuinely new cascade prediction that conflicts with the McGaugh+ 2016 RAR.
+- A specific implementation would need either (a) mass-dependent $M_{halo}$ scaling, (b) a different spatial distribution that flattens the cumulative at large masses, or (c) a sub-dominant active contribution ($f_{active} < 0.06$).
+
+This is consistent with the recent findings (EDGE 2025, Tian 2024) that the RAR is not perfectly universal, and the cascade's specific implementation would need additional physics to match the full mass spectrum.
+
 *Numerical results* (computing the full model with $N_{crit} = 10$, $f_{active} = 0.3$, $f_{cumulative} = 0.7$):
 
 | Object | r (kpc) | N_orbits | f_mix | g_obs/g_bar | Effective g_+ |
