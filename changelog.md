@@ -78,6 +78,8 @@ The cascade is *infinite in principle* (no a priori depth limit) but *practicall
 
 **Paper length: 66 → 82 pages** (added June 2026): the paper grew from 66 to 82 pages with the new derivations.
 
+**Empirical formula for 5/27/68 split** (added June 2026): added §2.6 *Empirical formula for the 5/27/68 split* paragraph with a candidate formula derived from trial-and-error sweep. Formula: Omega_o = 1/(N_cascade(N_cascade+1)) = 1/20, Omega_DM = N_spatial/(2N_cascade+N_spatial) = 3/11, Omega_DE = residual = 149/220. Matches observed 5/27/68 to 0.5% on average. Has a suggestive graph-theoretic interpretation (1/(N(N+1)) is the inverse of self-and-neighbor edge count in a chain of N nodes; 3/11 is the spatial fraction of cascade directions). Status: PARTIAL DERIVATION (empirical fit, not rigorous). Implementation in `calculations/split_best_fit.py`. Paper length: 82 → 83 pages.
+
 ---
 
 ## v1.0 (June 2026) — Initial Public Release (Superseded)
