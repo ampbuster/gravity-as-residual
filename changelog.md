@@ -173,3 +173,36 @@ Internal iteration history, not publicly released. Key milestones:
 PDF rebuilt: 82 pages, 429 KB.
 
 Total commits: 94.
+
+
+---
+
+## v2.2.1 commits 95-105 (June 2026) — Audit + RAR Tests
+
+Commits 95-105 added to v2.2.1:
+
+**Commits 95-100: Paper audit fixes**
+- 95: Added CHANGELOG v2.2.1 entry
+- 96: Updated README to v2.2.1
+- 97: Clarified v2.2 status of Mechanism B/F (REJECTED) in v2.1 changelog block
+- 98: Updated cone-shape language in supporting/layman_summary.md and cascade_model.py
+- 99: Fixed broken cross-references (§7.14 → §7 Limitation 14) and §7 header
+- 100: Added limitations 16, 17, 18 to numbered §7 list (centennial commit!)
+
+**Commits 101-105: Substantive new RAR tests**
+- 101: RAR g_+ floor from cumulative return (galaxies, in right ballpark at 0.22x)
+- 102: RAR across mass scales vs EDGE 2025 (dwarfs) + Tian 2024 (clusters)
+- 103: CLUSTERED vs UNIFORM DM profile (revealed internal inconsistency)
+- 104: Dynamical mixing resolution (intermediate profile)
+- 105: Full mathematical derivation of dynamical-mixing g_+ (this commit)
+
+**Key finding from commits 101-105**: The cascade's RAR picture is qualitatively correct
+but quantitatively off by a factor of a few at each scale. The mass-dependence
+direction is right (cluster g_+ > galaxy g_+ > dwarf g_+), consistent with Tian+ 2024's
+17x enhancement at cluster scale. The amplitude is too large (over-predicts g_+ by
+2-3x at all scales) and would need parameter adjustment to match observations.
+
+**§7 limitations now 1-19** (was 1-15 in v2.2, added 16, 17, 18 in commit 100, added 19 in commit 105).
+
+PDF: 86 pages, 450 KB.
+Total commits: 105.
