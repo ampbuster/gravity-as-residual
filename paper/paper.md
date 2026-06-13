@@ -359,36 +359,43 @@ Ratio: 0.972
 
 The derived G matches the trial-and-error value of 10⁸ to within 3%, well within the uncertainty in the 2D universe's specific dynamics. The growth factor is therefore a *derived* parameter of the cascade, not a free postulate.
 
-*Hubble tension as a derived consequence.* A second *derived* consequence of the cascade's structure is the Hubble tension: the observed ~9% discrepancy between H_0 inferred from the CMB (67.4 km/s/Mpc) and H_0 measured locally via Cepheids and the distance ladder (73.0 km/s/Mpc). In the cascade framework, this discrepancy arises *naturally* from the active vs. cumulative dark matter distinction (per §2.5 and §4.2):
+*Hubble tension: status of the cascade's explanation.* A *derived* consequence of the cascade's structure is the *direction* of the Hubble tension: the observed ~9% discrepancy between H_0 inferred from the CMB (67.4 km/s/Mpc) and H_0 measured locally via Cepheids and the distance ladder (73.0 km/s/Mpc). The cascade predicts H_0_local > H_0_CMB, in agreement with the data.
 
-The total dark matter density in 3+1D has two contributions: (i) the *active* back-projection from currently-alive 2D universe children, and (ii) the *cumulative return* from past 2D universe endings. Local H_0 measurements (Cepheids, TRGB, SNe Ia) are made in regions of *active* cascade activity, where recent and ongoing energetic events (supernovae, AGN, etc.) are creating 2D universe children that contribute extra antigravity to the local 3+1D expansion rate. The CMB-inferred H_0, by contrast, is the *cosmic average* of expansion over the universe's full history, including regions of *cumulative return* (already-collapsed 2D universes) that don't bias H_0 upward.
+**Original mechanism (Mechanism A: active 2D universe children boost local H_0).** The cascade's original explanation for the Hubble tension was that the *active* back-projection from currently-alive 2D universe children (in star-forming galaxies with recent supernovae, AGN, etc.) contributes extra antigravity to the local 3+1D expansion rate. The *cumulative return* from past 2D universe endings (already-collapsed universes) does not bias H_0 upward. The CMB-inferred H_0 is the *cosmic average* over the universe's history, dominated by cumulative return.
 
 The active fraction of dark matter in the local ~50 Mpc volume is ~30% (estimated from the active vs. cumulative return ratio computed in `simulate_galaxy_events()`). This gives a *local excess* in expansion:
 
-$$\Delta H_0^{\text{local}} \approx f_{\text{active}} \cdot \Omega_{DM} \cdot 0.5 \cdot H_0^{CMB}$$
-$$\Delta H_0^{\text{local}} \approx 0.3 \cdot 0.27 \cdot 0.5 \cdot 67.4 \approx 2.7 \text{ km/s/Mpc}$$
+$$\Delta H_0^{\text{local, A}} \approx f_{\text{active}} \cdot \Omega_{DM} \cdot 0.5 \cdot H_0^{CMB}$$
+$$\Delta H_0^{\text{local, A}} \approx 0.3 \cdot 0.27 \cdot 0.5 \cdot 67.4 \approx 2.7 \text{ km/s/Mpc}$$
 
-This predicts a Hubble tension of ~2.7 km/s/Mpc in the cascade framework (implemented in `HubbleTensionCalculator.predict_h0_tension()`), in the *same direction* as the observed tension (~5.6 km/s/Mpc). The predicted magnitude is smaller than observed by a factor of ~2, which could be filled in by additional local-bias effects (sample variance, anisotropy in cascade activity, etc.) that the model does not currently specify. The *qualitative* prediction (H_0_local > H_0_CMB) is correct, and the *quantitative* prediction is in the right ballpark.
+This predicts a Hubble tension of ~2.7 km/s/Mpc in the cascade framework (Mechanism A), in the *same direction* as the observed tension (~5.6 km/s/Mpc). The predicted magnitude is smaller than observed by a factor of ~2.
 
-This derivation has been implemented in the companion code (`HubbleTensionCalculator`) and can be reproduced by running `python3 calculations/cascade_model.py`. The relevant section of the output is:
+**Falsification of Mechanism A's host-type prediction.** A more specific prediction of Mechanism A is that H_0 should correlate with host galaxy type: spiral/star-forming hosts (high active fraction) should give *higher* H_0 than passive/elliptical hosts (low active fraction). The cascade predicted dH_0/dlog(SFR) ~ 1.5 km/s/Mpc per decade of star formation rate.
 
-```
---- Hubble tension prediction ---
-HubbleTensionCalculator:
-  H_0_CMB = 67.4 km/s/Mpc
-  H_0_local predicted = 70.13 km/s/Mpc
-  H_0_local observed = 73.0 km/s/Mpc
-  Tension predicted = 2.73 km/s/Mpc
-  Tension observed = 5.599999999999994 km/s/Mpc
+This prediction is *falsified* by published data (see companion code `calculations/shoes_data_check.py`):
+- SH0ES (Riess+2022, 42 Cepheid calibrators): H_0 = 73.04 ± 1.04 km/s/Mpc. **All 42 hosts are late-type spirals** (Cepheids are young stars, only in star-forming hosts).
+- SBF (Blakeslee+2021, 63 mainly early-type galaxies): H_0 = 73.3 ± 0.7 ± 2.4 km/s/Mpc. (Note: the SBF calibration chain still uses Cepheid+TRGB in spiral hosts, so it inherits some of the same selection bias.)
+- Both methods give H_0 ~ 73, regardless of host galaxy type.
+- The cascade predicted H_0(elliptical) < H_0(spiral) by ~5 km/s/Mpc; the data shows no such correlation.
 
-  Mechanism: active children in local region boost
-  antigravity contribution, biasing H_0 upward.
-```
+The cascade's Mechanism A is therefore *incomplete* as a quantitative explanation of the Hubble tension. The *qualitative* direction (H_0_local > H_0_CMB) is still consistent with the data, but the specific mechanism (active children boost H_0 in star-forming hosts) is not.
 
-The cascade framework therefore makes *two* derived predictions that close limitations noted earlier in this section:
+**Alternative mechanism (Mechanism B/F: 4D event temporal structure).** An alternative mechanism within the cascade framework, consistent with the host-type-independent H_0 data, is that the 4D event's antigravity output is *not constant in 4D time*. Per dimensional time-dilation (§2.2), our 3+1D universe is a *brief slice* of the 4D event's full duration. Local H_0 measures the *current* 4D event antigravity output, while CMB H_0 measures the *time-averaged* output over ~13.8 Gyr of 3+1D time. If the 4D event's antigravity is currently ~8% higher than its time-average (e.g., due to a recent 4D-DE-dominance transition, or a 4D cosmic evolution phase), this gives:
 
-1. The growth factor G is derived from 2D universe FRW dynamics (with f_eq ~ 0.01, h_{2D} ~ 1.0, T_{2D} ~ 30 Gyr, G = 9.7e7), matching the trial-and-error value of 10⁸ to within 3%.
-2. The Hubble tension is derived from the active vs. cumulative dark matter distinction (predicted ~2.7 km/s/Mpc, observed ~5.6 km/s/Mpc, in the correct direction).
+$$H_0^{\text{local}} / H_0^{CMB} = 1.08 \Rightarrow H_0^{\text{local}} = 73.0 \text{ km/s/Mpc}$$
+
+This is *host-type-independent* (it depends on the 4D event's *global* state, not on local star formation), consistent with the SH0ES/SBF data. Implementation: `calculations/hubble_mechanism_b.py`.
+
+**New testable predictions of Mechanism B/F:**
+- H_0 should be *isotropic* across the sky (the 4D event is global, not local).
+- H_0 at high redshift (z > 1) should be *below* the ΛCDM extrapolation, because the 4D event was in its pre-burst phase at that time. This is a *distinctive* prediction that distinguishes the cascade from ΛCDM.
+- H_0 should NOT correlate with any local property (galaxy type, baryon density, environment, etc.).
+
+**Status of the cascade's Hubble tension explanation:**
+- The cascade's *qualitative* prediction (H_0_local > H_0_CMB) is *correct*.
+- The cascade's *Mechanism A* (host-type-dependent boost) is *falsified* by data.
+- The cascade's *Mechanism B/F* (4D event temporal structure) is *consistent* with data but is currently a *placeholder*; the specific 4D event dynamics are not derived.
+- The remaining quantitative work is to specify the 4D event's temporal structure (which would turn Mechanism B/F from a placeholder into a prediction). This is left to future work.
 
 These derivations substantially strengthen the cascade framework: the previously-acknowledged *asymmetry* between dark energy and dark matter math (§2.6 *Asymmetry between dark energy and dark matter math*) is *partially closed* by the growth factor derivation, and the previously-acknowledged *limitation* in the quantitative DM prediction is *resolved* by the same derivation. The remaining quantitative work is to pin down the 2D universe's specific dynamics (Omega_{DE,2D}, t_eq, T_{2D}, h_{2D}) from a deeper theoretical principle, which would turn the order-of-magnitude estimate into an exact derivation.
 
