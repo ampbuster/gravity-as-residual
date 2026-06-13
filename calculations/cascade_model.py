@@ -81,7 +81,7 @@ class CascadeParams:
     The paper's calc uses 1.0 (full projection) as a benchmark.
     """
     epsilon: float = 5.9e-39        # ~1/10^38
-    f_back: float = 1.34e-85        # staying fraction: bridges 10^85 gap exactly
+    f_back: float = 2.27e-85        # staying fraction: bridges 10^85 gap exactly
     f_deliver: float = 1.0          # 4D event's energy delivery (default: full)
     cumulative_back_projection: float = 1.0  # 2D->3+1D back-projection (full)
 
@@ -1171,7 +1171,7 @@ def demo():
     # Numerical check: G_eff / G should be ~ 10^-38
     print("\n--- Hierarchy check ---")
     print(f"G_eff / G_newton = {us.gravity_coupling_effective() / Constants.G:.3e}")
-    print(f"Expected ~ 10^-38 (hierarchy)")
+    print(f"Expected 5.9e-39 (1/(M_Pl/m_proton)^2 = 1/1.69e38)")
 
     # Numerical check: dark energy density
     print("\n--- Dark energy density (in our universe) ---")
