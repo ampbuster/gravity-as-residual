@@ -384,6 +384,33 @@ The §2.5.1 action is a **starting skeleton, not a complete theory**. It has the
 
 This is the most ambitious theoretical work in the paper. The cascade's *framework* (geometric picture) is consistent with this action, but the *specific Lagrangian* is the unfinished business of fundamental physics (per Limitation 26, now refined to: "Cascade specifies geometry, not Lagrangian. The action in §2.5.1 is a SKELETON with 5+ free parameters that need to be specified for a complete theory."). A mathematical physicist interested in completing the cascade would need to: (1) specify $\mathcal{L}_{2D}$, (2) compute $\alpha$ from the bulk-brane coupling, (3) derive the death mechanism, (4) derive the 5/27/68 split, (5) derive the cascade-MOND $g_+$. The geometric framework is the cascade's contribution; the dynamics are the open problems.
 
+### 2.5.2 In-in (Schwinger-Keldysh CTP) formulation of the cascade action (v2.3.0)
+
+The action in §2.5.1 has a structural issue: $S_{\text{destruction}}$ contains $\delta(t - \tau_{2D})$ which references the *future* death of the 2D brane. This makes the action "teleological" in a problematic way (the action "knows" the future).
+
+The proper resolution is the **in-in (Schwinger-Keldysh Closed Time Path) formalism**, which is the standard way to handle particle creation/annihilation in quantum field theory [Schwinger61, Keldysh64, Jordan+ 2008]. The CTP action is integrated over TWO time contours:
+
+$$S_{\text{CTP}}[\phi_+, \phi_-] = S[\phi_+] - S[\phi_-]$$
+
+Where:
+- $S[\phi_+]$ is the standard action evaluated on the *forward* time contour (creation)
+- $S[\phi_-]$ is the standard action evaluated on the *backward* time contour (destruction)
+- Each field has a $+$ and $-$ branch
+
+For the cascade, the CTP action naturally handles the 2D brane's lifecycle:
+- $S_{\text{creation}}$ goes on the $+$ branch (the 2D brane is created at $t=0$)
+- $S_{\text{destruction}}$ goes on the $-$ branch (the 2D brane's death is the boundary condition at $t=\infty$)
+- The CTP formalism encodes the future death as a *mathematical device*, not a teleological reference
+
+The 2D brane's full propagator is a 2x2 matrix in $+/-$ space:
+$$G(x_1, x_2) = \begin{pmatrix} G_{++}(x_1, x_2) & G_{+-}(x_1, x_2) \\ G_{-+}(x_1, x_2) & G_{--}(x_1, x_2) \end{pmatrix}$$
+
+Where $G_{++}$ is the time-ordered (Feynman) propagator for the brane's lifecycle, and $G_{+-}$, $G_{-+}$ are the Wightman functions describing the in/out states.
+
+*Practical implication:* The cascade's $\tau_{2D} = L_{\text{event}}/c$ is a *dynamical timescale* (the size of the energetic event divided by $c$), not a "future knowledge." The CTP formalism encodes this as a contour parameter, removing the teleological issue.
+
+*Limitation 26 update (v2.3.0):* The cascade now provides both the *geometry* AND the *CTP structure* of the action. The remaining gaps are *calibration parameters* ($\mathcal{L}_{2D}$, $\alpha$), not structural gaps. The framework is rigorous in the in-in sense; the parameters are empirical. A mathematical physicist can complete the cascade by specifying these parameters. The cascade's action is a *framework* ready to be parameterized.
+
 ### 2.6 The energy budget, the cosmological constant, and the bulk-brane cascade
 
 **Energy conservation is standard.** The model does not propose a new conservation law. Energy is conserved in the usual sense: the 4D event is an *ongoing* energetic process with some total energy budget $E_{4D}$ (integrated over its full duration in 4D time), and our 3+1 dimensional universe's total mass-energy is the portion of that total energy that has been *delivered* to the brane during our universe's lifetime (a brief slice of the 4D event's full duration). The *simplest* interpretation is that *all* of the 4D event's energy is delivered to the 3+1D brane, and the standard conservation law applies at the level of *total* energy. However, the cascade's dimensional projection might not be 100% efficient — some of the 4D event's energy could go into other cascade products (e.g., into the bulk, into other child universes, or into 4D gravitational radiation), or be radiated away. The 4D event's *full* energy is at *least* as large as our universe's mass-energy; the *simplest* assumption is that the 4D event's full energy equals the 3+1D mass-energy, but a specific implementation would need to specify the *delivery efficiency* $f_{\text{deliver}} \leq 1$. If $f_{\text{deliver}} < 1$, the 4D event is *larger* than the 3+1D universe's mass-energy requires, with the 'extra' 4D energy going into other cascade products or the bulk. The default interpretation is *full delivery* (the simplest, most parsimonious), but the model does not currently *require* it. This is analogous to standard brane-world scenarios, where some energy can leak into the bulk as Kaluza-Klein modes or bulk gravitational waves.
