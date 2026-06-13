@@ -15,24 +15,35 @@ Annihilation, and the Origin of the Dark Sector"**.
   with `level=2`; and so on. Every universe is itself a parent and can
   have its own children.
 
-  Key methods:
-  - `gravity_coupling_own()` — the universe's native G
-  - `gravity_coupling_effective()` — the universe's *effective* G
-    (after bulk-brane cancellation)
-  - `antigravity_from_parent()` — the antigravity contribution from
-    the parent universe (this is the dark energy in this universe)
-  - `attractive_gravity_to_parent()` — the attractive gravity
-    back-projection to the parent (this is the dark matter
-    contribution to the parent)
-  - `dark_energy_density_observed()` — the dark energy density in
-    this universe, in J/m^3
-  - `active_dark_matter_density()` — the *active* contribution to
-    dark matter density (from currently-alive children)
-  - `cumulative_return_dark_matter_density()` — the *cumulative
-    return* contribution (from past child universe endings)
+  Key classes:
+  - `Universe` — a universe at any level of the cascade (parent +
+    children, gravity couplings, lifetime, ending, etc.)
+  - `CascadeParams` — the 4 free parameters of the model (epsilon,
+    f_back, f_deliver, cumulative_back_projection)
+  - `Cascade` — top-level orchestrator (params, rules, root universe)
+  - `StandardModel` (abstract) — the physics at a given level
+  - `StandardModel_L0_4D` — abstract 4D SM (unknown)
+  - `StandardModel_L1_3plus1D` — the SM we know (real force carriers,
+    matter particles, coupling constants)
+  - `StandardModel_L2_2D` — abstract 2D SM (unknown)
+  - `InversionRule` — the downward perceptual inversion principle
+  - `BulkBraneCoupling` — the bulk-brane interaction (G_eff = epsilon * G)
+  - `EnergyConservationRule` — standard energy conservation
+  - `SymmetriesAndConservationLaws` — standard physics laws assumed
+  - `EnergeticEvent` — an event that creates a child universe
+    (LHC, supernova, AGN, etc.)
+  - `Ending` (enum) — the 5 possible universe endings
+  - `Constants` — standard physical constants
+
+  Key methods on Universe:
+  - `gravity_coupling_own()` / `_effective()` — native and effective G
+  - `antigravity_from_parent()` — dark energy in this universe
+  - `attractive_gravity_to_parent()` — dark matter to parent
+  - `dark_energy_density_observed()` — DE density in J/m^3
+  - `active_dark_matter_density()` — DM from currently-alive children
+  - `cumulative_return_dark_matter_density()` — DM from past endings
   - `total_dark_matter_density()` — active + cumulative return
-  - `create_child()` — create a new child universe from an
-    energetic event
+  - `create_child()` — create a child universe
   - `end()` — end this universe and return energy to parent
 
 - **`numerical_verification.py`** — Re-derives all numerical claims
