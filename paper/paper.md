@@ -240,7 +240,7 @@ These are *assumptions* of the model, not derivations. The cascade is *consisten
 - *Baryogenesis* — the matter-antimatter asymmetry. The cascade is *compatible* with baryogenesis (the 4D event could in principle generate the asymmetry via C and CP violation in the projection) but does *not* derive it.
 - *Big Bang nucleosynthesis* — the light element abundances. The cascade takes BBN as given, noting that the 4D event scenario must be *consistent* with the observed D, ³He, ⁴He, ⁷Li abundances.
 - *The Standard Model particle spectrum* — the masses and couplings of all known particles. The cascade takes these as given; the 4D event's internal physics is *unspecified* in the model.
-- *Neutrino masses and oscillations* — the cascade takes these as given (this is why §4.6 and §4.12 were removed in v1.58).
+- *Neutrino masses and oscillations* — the cascade takes these as given. (The neutrino interpretation was speculative and introduced internal inconsistencies; the dimensional-cascade framework does not currently address neutrino properties.)
 
 The model is a *framework* for the dark sector and gravity, not a complete cosmological theory. The 22 references and §4 extensions are *speculative applications* of the model, not derivations.
 
