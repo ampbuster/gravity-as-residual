@@ -1757,6 +1757,59 @@ These limitations are not unusual for a thought experiment. They are the natural
 
 ---
 
+## 7.1 Appeals to Formalism: The Required Action Layer (v2.3.0)
+
+This subsection is a *direct invitation* to mathematical physicists working in brane-world gravity, modified gravity, or analog gravity. The cascade's framework is *architecturally* complete: the geometric picture, the phenomenological predictions, and the empirical constraints are all in place. What is *missing* is the formal action layer that a theoretical physicist would need to derive the cascade's specific predictions from first principles.
+
+### The open challenge
+
+To fully mature this framework, the scale-invariant dimensional cascade requires an explicit mapping to a modified stress-energy tensor:
+
+$$T_{\mu\nu}^{\text{total}} = T_{\mu\nu}^{\text{standard}} + T_{\mu\nu}^{\text{cascade}}$$
+
+The open theoretical challenge is to define a **scalar field** $\phi$ or an **auxiliary metric tensor** on a bounded 2D sub-manifold such that local energy-momentum conservation ($\nabla_\mu T^{\mu\nu} = 0$) is preserved on the 3+1D brane via a time-dilated boundary junction during the lifetime $\tau_{2D} = L_{\text{event}}/c$.
+
+### Specific sub-problems ready for formalization
+
+The cascade's action in §2.5.1 (with its CTP extension in §2.5.2) provides the **boundary conditions** for a formal derivation. The missing pieces, in order of tractability:
+
+1. **Specify $\mathcal{L}_{2D}$ (the 2D brane Lagrangian).** The cascade says "every energetic event creates a 2D universe," but does not specify the 2D universe's matter content. Candidate choices: 2D CFT, 2D dilaton gravity, 2D string worldsheet. Each gives a different $\mathcal{L}_{2D}$, a different $\tau_{2D}$ dynamics, and a different $\alpha$ coupling calibration. A mathematical physicist can pick the most physically motivated choice and derive the consequences.
+
+2. **Compute $\alpha$ from first principles.** The cascade's $\alpha$ coupling in $S_{\text{creation}}$ is currently calibrated to observations. A derivation would require the bulk-brane coupling geometry (the Israel junction conditions applied to the 2D/3+1D boundary). This is the *cleanest* sub-problem because it can be done in standard brane-world formalism.
+
+3. **Derive the death mechanism.** The cascade postulates $\tau_{2D} = L_{\text{event}}/c$ but does not derive it. A brane-world expert can compute the lifetime of a 2D brane embedded in a 3+1D bulk, using the brane's tension and bulk viscosity. This is a *specific calculation* that requires the $\mathcal{L}_{2D}$ from item 1.
+
+4. **Derive the 5/27/68 split from the 4D event.** The cascade's honest position (§2.6, Limitation 17) is that 5/27/68 is *observational 3+1D data*, not a free postulate. But a 4D event with specific $\mathcal{L}_{4D}$ would *predict* a specific projection efficiency, which in turn gives a specific matter content. This is the *deepest* sub-problem and the one most likely to either validate or falsify the cascade.
+
+5. **Derive the cascade-MOND interpolation.** The cascade's g_obs functional form is *MOND-compatible* (10% residual on SPARC with free M/L), but the cascade does not derive MOND's specific interpolation function $g_{\text{obs}} = g_{\text{bar}} / (1 - \exp(-\sqrt{g_{\text{bar}}/g_+}))$. A theoretical physicist could derive this from the 2D universe's back-projected gravity at the observation point, which depends on the spatial distribution of 2D universe endings (a function of $\mathcal{L}_{2D}$).
+
+### Why this is open-source physics
+
+The cascade is *unusually well-positioned* for theorists to contribute because:
+
+- The action structure is **fixed** (§2.5.1, §2.5.2). Theorists don't need to design the framework; they need to fill in the free parameters.
+- The empirical targets are **sharp**. The cascade's g_+ at galaxies (1.2e-10 m/s²) and at cluster BCGs (1.7e-9 m/s²) are well-measured. The MOND EFE scaling g_+ ∝ σ^1.85 (Tian+ 2024) is a clean test.
+- The failure modes are **documented**. The 4D graph theory attempt at deriving 5/27/68 FAILED (commit 173). The 8 approaches are documented in `calculations/five_27_68_graph_theory.py`. A theorist can either succeed where these failed, or build on the failures to constrain the 4D event's specific physics.
+- The phenomenological pipeline is **ready**. SPARC (175 galaxies), Tian+ 2024 (50 BCGs), and Pantheon+ (1701 SNe) are all analyzed. New theoretical predictions can be tested against these datasets immediately.
+
+### Who would be a good fit for this
+
+Mainstream theorists working in:
+- **Randall-Sundrum II brane-worlds**: the cascade's S = S_grav + S_matter + S_brane + S_creation + S_destruction is structurally a RS-II action with a 2D brane (instead of 3-brane) and a creation operator. A RS-II expert would recognize the framework immediately.
+- **DGP brane-worlds**: the cascade's $\alpha$ coupling is analogous to DGP's brane-bulk coupling. The 2D universe's "self-gravity" in 2D is analogous to DGP's self-accelerating branch.
+- **Analog gravity**: the cascade's 2D universe is conceptually similar to acoustic black holes or other analog systems. An analog gravity expert would see the structure.
+- **Schwinger-Keldysh / in-in QFT**: the §2.5.2 CTP formulation is a standard tool in non-equilibrium QFT. A CTP expert could derive the EOMs and the 2x2 propagator matrix for the cascade.
+
+### The honest framing
+
+The cascade is a *geometric framework* with *empirical constraints*. The action functional in §2.5.1 is a *skeleton* with the right structure. The free parameters (ℒ_2D, α, death mechanism) are *calibration parameters*, not derivable from the cascade's geometric picture alone. A theoretical physicist who formalizes these would be doing *foundational work*, not just *parameter fitting*.
+
+This is the open-source ticket. The cascade's author is a software developer, not a theoretical physicist. The mathematical derivation of the EOMs, the propagation of the 2x2 CTP matrix, and the derivation of 5/27/68 from the 4D event's specific $\mathcal{L}_{4D}$ are *not* in scope for the current paper. They are *invited contributions* from the theoretical physics community.
+
+If you are a brane-world expert, a DGP specialist, an analog gravity theorist, or a CTP practitioner, and this subsection makes the cascade's missing piece *tractable* for you, please reach out. The framework is ready to be formalized.
+
+---
+
 ## 8. Conclusion
 
 We have proposed that gravity's observed weakness, dark matter, and dark energy are all manifestations of a single geometric process: a *dimensional inversion* of gravitational influence following a *single ongoing* energetic event in a higher-dimensional space. The universe is the projection of that event into our 3+1 dimensional spacetime. The bulk-brane gravity interaction produces two distinct observable effects: a *4D-event-driven geometric contribution* (the un-cancelled fraction of the inverted bulk gravity, identified as dark energy, approximately constant in our 3+1 dimensional frame because our universe is a brief slice of the 4D event's full duration) and a *cumulative 2D-universe collective effect* (the *active* back-projection of currently-alive 2D universes + the *cumulative return* of past 2D universe endings, identified as dark matter, per §2.5, §4.2). The universe's lifetime is *some fraction* of the 4D event's full duration in 4D time. The universe ends as a fixed-time boundary rather than a fade-out.
