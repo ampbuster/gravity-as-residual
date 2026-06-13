@@ -1,0 +1,29 @@
+{
+  "n_bcgs": 50,
+  "median_g_plus": 1.972553457363462e-09,
+  "mean_log_g_plus": -8.676599999999999,
+  "std_log_g_plus": 0.19563854425956043,
+  "predictions": {
+    "g_plus_vs_Mbar": {
+      "correlation": 0.21427863442965375,
+      "slope": 0.23451756837843352,
+      "intercept": -11.386408289450493
+    },
+    "g_plus_vs_sigma": {
+      "correlation": 0.8032068981917098,
+      "slope": 1.8455843979383562
+    },
+    "g_plus_vs_z": {
+      "correlation": 0.08929248769365854
+    },
+    "g_plus_vs_Reff": {
+      "correlation": 0.1854826650624037,
+      "slope": 0.23009411727561732
+    },
+    "core_vs_noncore": {
+      "core_median": 1.995262314968883e-09,
+      "noncore_median": 1.8197008586099823e-09,
+      "ratio": 1.0964781961431878
+    }
+  }
+}
