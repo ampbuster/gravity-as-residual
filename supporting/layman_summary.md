@@ -1,11 +1,16 @@
 # Layman Summary: Gravity as Residual
 
-**v2.3.0 — June 2026** (action functional + first-principles g_+ derivation; see `changelog.md` for full history)
+**v2.3.0 — June 2026** (action functional + CTP formalism + V_local g_+ formula + Tian+ 2024 test; see `changelog.md` for full history)
 
 **TL;DR of v2.3.0:**
-- **NEW**: §2.5.1 concrete action functional S = S_grav + S_matter + S_brane_2D + S_creation + S_destruction. Reduces to RS-II when α → 0. Local energy conservation preserved (Stoke).
-- **NEW**: §4.11 first-principles g_+ derivation: g_+ = k * ∫ event rate * E_event * τ_2D / L_2D dt. Matches Gemini scaling relation.
-- **NEW**: Cluster g_+ enhancement (Tian+ 2024) explained as BCG seeing cluster-wide ICM activity, not just own stellar history.
+- **NEW**: §2.5.1 concrete action functional S = S_grav + S_matter + S_brane_2D + S_creation + S_destruction. S_creation has α coupling and δ-function localization; S_destruction returns energy as DM after τ_2D. Reduces to RS-II when α → 0.
+- **NEW**: §2.5.2 in-in (Schwinger-Keldysh CTP) formalism removes the teleological issue with S_destruction. The cascade's action is now rigorous in the in-in sense.
+- **NEW**: §4.11 first-principles g_+ derivation: g_+ = k * ∫ [ℛ_energetic(t) / V_local] dt. This is the V_local formula.
+- **NEW**: Cluster g_+ enhancement (Tian+ 2024) explained as BCG seeing cluster-wide ICM activity, not just own stellar history. MOND external field effect connection: g_+ ∝ σ^1.85 matches σ^2 prediction within 30%.
+- **NEW**: V_local predictions tested on 50 Tian+ 2024 BCGs. 2 of 4 confirmed (g_+ ∝ σ^1.85, no z evolution). 2 partial.
+- **NEW**: §3.7 cascade-MOND positioning updated — the cascade-MOND hybrid is a *complement* to MOND (cascade provides geometry, MOND provides functional form), not a competitor.
+- **NEW**: One-page visual summary (HTML + PNG) at `supporting/visual_summary.html` and `supporting/cascade_visual_summary.png`.
+- **NEW (failed)**: 5/27/68 derivation attempt v2 with 4D graph theory. Tested 8 approaches (K_4 eigenvalues, hypergraphs, projections, K_{3,1}, etc.). ALL FAILED — 5/27/68 is observational 3+1D data, not derivable from 4D geometry alone. Limitation 17 unchanged.
 - The cascade is **cone-shaped** (4D → 3+1D → 2D, terminal at 2D). 1D/0D universes don't exist.
 - The 5/27/68 mass-energy split is **observational 3+1D data**, not a free postulate.
 - Cascade-MOND hybrid validated on real SPARC (149 galaxies, 10.1% median residual) and Tian+ 2024 clusters (50 BCGs, g_+ ratio 13.1x).
@@ -16,8 +21,6 @@
 - The cascade's "f_active" (active fraction of dark matter) is ~5%, not the originally-postulated 30%. The 4× gap is documented.
 
 What if dark matter, dark energy, and gravity's weird weakness are all *one* process — the projection of a higher-dimensional event into our 3+1-dimensional universe — and dark matter is the *cumulative gravity* of countless tiny 2D universes being created by every energetic event in our universe, then ending and returning their energy to 3+1D as dark matter?
-
-## What's the puzzle?
 
 Physicists have three big unsolved problems that don't seem to fit together:
 
