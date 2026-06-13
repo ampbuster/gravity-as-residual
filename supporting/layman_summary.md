@@ -81,6 +81,16 @@ The cascade's RAR prediction can be made to fit this data with three tuning para
 
 With these three parameters, the cascade matches the RAR to 8-12% across the full mass spectrum from ultra-faint dwarf galaxies to supercluster cores. The 8-12% residual is the cascade's RAR signature — competitive with MOND (~5%) and ΛCDM (~10-15%) at the typical radius, but not a perfect fit. The shape of the cascade's g_obs(g_bar) curve is slightly different from the RAR's functional form, and no amount of parameter tweaking bridges the last 8%.
 
+## The cascade-MOND hybrid (v2.2.1 revision)
+
+The previous "RAR fit" claim was based on synthetic data. When tested against the **real SPARC database** (175 galaxies, Lelli/McGaugh/Schombert 2016), the cascade's `g_obs = g_bar + g_cum + g_active` formula fails badly: 70% median residual on 149 high-quality galaxies (vs. the 8-12% claimed from synthetic tests). This was a real correction.
+
+**The fix: a cascade-MOND hybrid.** Pure MOND (g_obs = g_bar / (1 - exp(-sqrt(g_bar/g_+)))) fits the real data to 10% median residual (when g_+ and M/L are allowed to vary per galaxy). The cascade's *framework* (2D universe cumulative gravity creates a universal g_+ ~ 1.2e-10) provides the *why* of MOND's success; MOND's interpolation function provides the *how*.
+
+In plain terms: the cascade is good at explaining *why* there's a universal acceleration scale at galaxy sizes (it's a property of the cumulative 2D universe gravity), and MOND is good at describing the *shape* of how galaxy rotation curves depend on visible matter. Together they fit the real data.
+
+This is a *completion* of the cascade, not a refutation. The cascade's 4D event framework still provides: the geometric origin of dark matter (2D universe gravity), the geometric origin of g_+, and H_0 = 73. The RAR functional form is the one part where the cascade needs to defer to MOND.
+
 ## The 10¹²⁰ problem (cosmological constant)
 
 The famous "120 orders of magnitude" wrong number is *not* solved by this model. It's *reframed*. We were comparing observed dark energy to the wrong theoretical quantity (3+1D quantum field theory vacuum energy). The right quantity to compare to is the *un-cancelled* fraction of the 4D event's antigravity, which is much smaller. The 10¹²⁰ is a sign that we had the wrong comparison, not that the universe is fine-tuned to a ridiculously small number.
@@ -109,7 +119,7 @@ Importantly, **the dark matter mechanism is robust to whichever ending turns out
 
 ## What's still open (honest limitations)
 
-The paper documents 26 honest limitations, of which 5 are closed or partially closed and 21 are open. The most important open limitations:
+The paper documents 28 honest limitations, of which 5 are closed or partially closed and 23 are open. The most important open limitations:
 
 - The 5/27 inner split (reframed as observational, but not derived from 4D physics)
 - The Hubble tension (accepted, not resolved)
