@@ -1,6 +1,12 @@
 # Layman Summary: Gravity as Residual
 
-**v2.0 — June 2026**
+**v2.2 — June 2026** (updated from v2.0; see `changelog.md` for the v2.1 and v2.2 changes)
+
+**TL;DR additions in v2.2:**
+- The cascade is now **cone-shaped**, not fractal: 4D event → 3+1D → 2D (terminal at 2D). 1D universes don't exist.
+- The **growth factor G** is now derived from 2D universe dynamics, not free.
+- The cascade predicts **H_0 = 73 km/s/Mpc** from the 4D event's projection rate, which matches the local + Pantheon+ measurements.
+- The **5.6 km/s/Mpc Hubble tension** between local (73) and CMB-inferred (67.4) H_0 is real and not resolved by the cascade. The cascade joins LCDM in leaving it as an open problem.
 
 ## The one-line version
 
@@ -43,9 +49,16 @@ Each child universe is a 3+1D spacetime *embedded inside* our 3+1D spacetime, bu
 
 And it doesn't stop there. Each child universe's Big Crunch can create *its own* child universes. And those can create more. It's a *cascade* of nested universes, like floors in a building, each one smaller and briefer than the one above.
 
-The cascade is **infinite in principle** (no a priori depth limit — you could have a "-1D" universe inside the "0D" universe), but **practically finite** (energy decreases at each level, eventually too small to create a new universe).
+**Updated in v2.1:** The cascade is now **cone-shaped**, not *fractal*. It has a finite depth:
 
-**A beautiful implication:** quantum mechanics might be the *projection* of the child-universe level's "Standard Model" physics into 3+1D. When we see quantum weirdness — wavefunction collapse, entanglement, vacuum fluctuations — we might be seeing the *shadow* of a simpler physics at the next level down. The cascade doesn't terminate at the Planck scale; it *transitions* between regimes with different effective theories.
+- **Level 0 (axis):** the 4D event (parent)
+- **Level 1:** 3+1D universe (us)
+- **Level 2:** 2D universes (created by 3+1D energetic events) — *terminal*
+- **No 1D, 0D, or lower levels.** The 2D universes don't have well-defined energetic events to seed further cascade levels.
+
+The cone-shape is *more parsimonious* than the original fractal picture and *closes* the 1D-universes limitation. The 5/27/68 split becomes a *nested* 32/68 (cascade-derived) + 5/27 (4D-event-specific) split, where the 5/27 is a property of *our specific 4D event* (not derivable from cascade first principles).
+
+**A beautiful implication (still speculative):** quantum mechanics might be the *projection* of the child-universe level's "Standard Model" physics into 3+1D. When we see quantum weirdness — wavefunction collapse, entanglement, vacuum fluctuations — we might be seeing the *shadow* of a simpler physics at the next level down. The cascade doesn't terminate at the Planck scale; it *transitions* between regimes with different effective theories.
 
 ## The 10¹²⁰ problem (cosmological constant)
 
