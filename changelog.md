@@ -2,7 +2,32 @@
 
 All notable changes to this paper are documented here.
 
-## v2.1 (June 2026) — Current
+## v2.2 (June 2026) — Current
+
+**Paper version bumped from v2.1 to v2.2** for the definitive Pantheon+ full-covariance Hubble tension test + honest position on Mechanism M.
+
+**Mechanism B/F TESTED and REJECTED by Pantheon+ at 7 sigma (commit 82).** The cascade's Mechanism B/F (4D event's antigravity output varies in 4D time, giving H_0(z) = H_0_CMB^2 + (H_0_local^2 - H_0_CMB^2) / (1+z)^(2/3)) was tested rigorously with the full Pantheon+ statistical+systematic covariance matrix (1701 SNe, 1701x1701, M fixed at SH0ES value -19.253 from 113 Cepheid calibrators). Result: cascade chi^2 = 1488.3 vs best-fit LCDM (H_0 = 73.00) chi^2 = 1439.4. **Delta chi^2 = +48.9, ~7 sigma, LCDM WINS.** Pantheon+ shows H_0 is *roughly constant* at ~73 across all z bins, not decreasing with z as B/F predicted. *Status: B/F was a placeholder, now also falsified.*
+
+**Mechanism L BUSTED (commit 84).** The most promising alternative (re-interpret Planck's CMB-inferred H_0 = 67.4 as a cascade-consistent value) was tested by re-deriving Planck's theta_* measurement in the cascade's model. Result: cascade's natural early universe (no DM, no DE at z > 1100, just baryons and radiation) gives theta_* = 15.58, off by a factor of **1500x** from Planck's measured 0.01041. The cascade's picture is incompatible with Planck's CMB structure. *Status: L is busted.*
+
+**ALL alternative Hubble mechanisms TESTED and EXHAUSTED (commits 83, 85).** After B/F and L were rejected, we systematically tested mechanisms C (local bubble), I (w != -1 late-time physics), N (4D memory decay), O (observer-dependent), P (2D universe rate), Q (recent 4D kick), R (4D stochastic), S (cascade H_0 = 73 at all z), T (cascade = LCDM), U (non-monotonic H_0(z)), V (4D anisotropic). **All were either rejected by Pantheon+, equivalent to M, or just LCDM with a different H_0.** A general H_0(z) = a + bz + cz^2 fit gave best-fit (73.16, 0.0001, 0.00019) with chi^2 = 1437.8 vs constant 73's 1438.7 — delta chi^2 = -0.86 with 2 extra parameters, no statistical support for H_0(z) variation.
+
+**Cascade's final position: Mechanism M (accept the tension).** The cascade accommodates H_0 = 73 (local + Pantheon+ best-fit), accepts the H_0 = 67.4 Planck-inferred value, and acknowledges the 5.6 km/s/Mpc gap as a feature the cascade does not fully explain. The cascade has its own *testable* prediction (H_0 ~ 73 from its 4D event projection rate), and the data confirms this prediction in the local + Pantheon+ universe. The CMB H_0 = 67.4 is a separate issue, possibly a model-dependent artifact, possibly a real tension. The cascade is honest about what it can and can't explain.
+
+**New companion code added:**
+- `calculations/pantheon_full_cov_analysis.py` (300 lines) — full Pantheon+ statistical+systematic covariance analysis, M fixed at SH0ES
+- `calculations/hubble_mechanism_options.py` (300 lines) — enumeration of all 9 alternative Hubble mechanisms
+- `calculations/hubble_mechanism_remaining.py` (300 lines) — rigorous tests of C, I, N, O, P
+- `calculations/hubble_mechanism_creative.py` (350 lines) — rigorous tests of Q, R, S, T, U, V
+- `calculations/mechanism_l_planck_reanalysis.py` (500 lines) — Planck theta_* mismatch demonstration
+
+**§7 Limitations updated.** Limitation 16 (4D event temporal structure not derived) is now FALSIFIED. NEW Limitation 18: the cascade does not resolve the Hubble tension (Mechanism M).
+
+**Paper length: 86 → ~90 pages** (v2.1 → v2.2; net content added for the new analysis sections).
+
+---
+
+## v2.1 (June 2026)
 
 **Paper version bumped from v2.0 to v2.1** for major math cleanup + honest findings.
 
