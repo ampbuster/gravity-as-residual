@@ -112,13 +112,11 @@ We emphasize that these smaller events do *not* re-create our universe. They cre
 
 *Quantitative budget:*
 
-| Quantity | Value | Origin |
-|----------|-------|--------|
-| MW stellar nucleosynthesis energy over 10 Gyr | ~10⁵⁵ J | 0.7% mass fraction × stellar mass |
-| MW "DM" energy (M_DM × c²) | ~1.8×10⁵⁹ J | Critical density × volume |
-| Required fraction of stellar energy in 2D universes | ~0.2% | To produce observed DM density |
-| Total energetic events per MW (SN + nucleosynthesis + AGN) | ~10⁵⁸ events | Over 10 Gyr |
-| Energy in 2D universe per event | ~10²-10⁵ eV | 0.2% of typical event energy |
+- **MW stellar nucleosynthesis energy over 10 Gyr**: ~10⁵⁵ J (0.7% mass fraction × stellar mass)
+- **MW "DM" energy ($M_{\rm DM} \times c^2$)**: ~1.8×10⁵⁹ J (critical density × volume)
+- **Required fraction of stellar energy in 2D universes**: ~0.2% (to produce observed DM density)
+- **Total energetic events per MW (SN + nucleosynthesis + AGN)**: ~10⁵⁸ events (over 10 Gyr)
+- **Energy in 2D universe per event**: ~10²-10⁵ eV (0.2% of typical event energy)
 
 *The geometric interpretation:* In the cascade's framework, the 27% DM is NOT "missing 27% of the universe's energy." It is the *geometric effect* of 2D universes' back-projected gravity on 3+1D spacetime. The 68% DE is similarly the *geometric effect* of the 4D event's antigravity. Only ~5.2% of the universe's effective density is "real" energy in 3+1D (5% ordinary matter + 0.2% in 2D universes). The remaining 94.8% is *effective* density from geometric modifications to gravity.
 

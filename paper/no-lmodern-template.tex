@@ -10,7 +10,8 @@
   \usepackage{unicode-math}
 \fi
 \usepackage{hyperref}
-\usepackage{xcolor}
+\usepackage[table,dvipsnames]{xcolor}
+%colortbl removed - not needed
 \usepackage{titlesec}
 \usepackage{longtable}
 \usepackage{booktabs}
@@ -39,3 +40,6 @@
 $body$
 
 \end{document}
+
+% Define \real for xelatex (colortbl's command for longtable)
+\providecommand{\real}[1]{#1}
