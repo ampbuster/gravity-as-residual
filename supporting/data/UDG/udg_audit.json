@@ -1,0 +1,40 @@
+{
+  "falsifying_cases": [
+    {
+      "name": "AGC 114905",
+      "M_b_Msun": 140000000.0,
+      "sfr_status": "ongoing (UV detected)",
+      "dm_status": "extremely low (<1/10 LCDM)",
+      "cascade_prediction": "high DM (active galaxy)",
+      "observation": "low DM",
+      "verdict": "CHALLENGE - cascade predicts high DM but observed low"
+    }
+  ],
+  "consistent_cases": [
+    {
+      "name": "DF2/DF4",
+      "M_b_Msun": 200000000.0,
+      "sfr_status": "old, quiescent",
+      "dm_status": "extremely low (~1/400 LCDM)",
+      "cascade_prediction": "low DM (quiescent)",
+      "verdict": "CONSISTENT"
+    },
+    {
+      "name": "FCC 224",
+      "M_b_Msun": 100000000.0,
+      "sfr_status": "quiescent",
+      "dm_status": "low",
+      "cascade_prediction": "low DM (quiescent)",
+      "verdict": "CONSISTENT"
+    },
+    {
+      "name": "KKR 25",
+      "M_b_Msun": "1e7-1e8",
+      "sfr_status": "active in past",
+      "dm_status": "high (DM-rich for mass)",
+      "cascade_prediction": "high DM (active history)",
+      "verdict": "CONSISTENT (positive case)"
+    }
+  ],
+  "verdict_summary": "3/4 UDG cases consistent. AGC 114905 is a challenge requiring further investigation (recent SF vs cumulative)."
+}
