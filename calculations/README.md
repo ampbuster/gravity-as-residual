@@ -8,6 +8,16 @@ Annihilation, and the Origin of the Dark Sector"**.
 ## Files
 
 - **`cascade_model.py`** — Object-oriented framework for the cascade.
+- **`section_2_1_derivations.py`** — Standalone script running the 7
+  derivations from first principles (hierarchy, DE, DM, growth factor,
+  Hubble tension, 2D lifetime, universal-split). Each derivation
+  prints its inputs, math, and outputs. Run with
+  `python3 section_2_1_derivations.py`.
+- **`derivations.md`** — Paper-style document with the math behind
+  each quantitative claim.
+- **`numerical_verification.py`** — First-principles derivations
+  of the paper's main numerical claims.
+- **`README.md`** — This file.
   A single `Universe` class represents a universe at *any* level of
   the cascade. The 4D event that creates our 3+1D universe is a
   `Universe` object with `level=0`; our universe is a child with
