@@ -42,7 +42,7 @@ What if gravity is *weak* because most of it gets cancelled? In this model, a si
 - **Cascade's final H_0 position (Mechanism M)**: cascade accommodates the Hubble tension (predicts 73, not 67.4) but does not resolve the 5.6 km/s/Mpc gap. Joins LCDM in leaving the tension unresolved.
 - **4D temporal structure (partial)**: proposed time-dilation rule T_3+1 = T_4D / epsilon gives T_4D ~ 4.35e-21 s, L_4D ~ 1.3 picometers (in Dark Dimension scenario range).
 - **5/27 ratio NOT derivable**: confirmed (Limitation 7, 10+ attempts). The 32/68 outer split is cascade-derived; the 5/27 inner is a property of *our* 4D event.
-- **18 honest limitations** documented in §7, with status (5 closed, 13 open).
+- **18 honest limitations** documented in §7, with status (2 fully closed, 2 partially closed, 14 open. Plus 1 separate limitation (1D universes) closed by cone-shape).
 
 ---
 
@@ -57,7 +57,7 @@ What if gravity is *weak* because most of it gets cancelled? In this model, a si
 - **§3** — Testable predictions
 - **§4** — Speculative extensions to other physics (sub-mm gravity, CMB, black holes, weak/strong forces, ...)
 - **§5-§6** — Connections to other work
-- **§7** — Honest limitations (18 items, 5 closed, 13 open)
+- **§7** — Honest limitations (18 items, 2 fully closed, 2 partially closed, 14 open. Plus 1 separate limitation (1D universes) closed by cone-shape)
 
 **Want to verify the math?** Run `python3 calculations/cascade_model.py` or any of the 42 scripts in `calculations/`. They re-derive every number claim from first principles.
 
@@ -87,9 +87,9 @@ The paper is a *thought experiment*, not a derivation. It does not derive:
 
 It also does not provide a Lagrangian, action principle, or equations of motion. The "Mathematical sketch" in §2.4 is *qualitative* — it shows the *shape* of the cancellation, not the specific numbers. The specific values of dark energy and dark matter densities are not derived from first principles; they are observed inputs.
 
-**Closed limitations (5):** sign ambiguity, 1D universes, growth factor G, Ω_DE ≈ 68%, RAR scale.
+**Closed/partial limitations (5: 2 full + 2 partial + 1 cone-shape):** sign ambiguity (Limitation 14), 1D universes (cone-shape), growth factor G (Limitation 5, partial), Ω_DE ≈ 68% (Limitation 15, partial).
 
-**Open limitations (13):** including 5/27 (Limitation 7), 4D temporal structure (Limitation 6, partial), 4D projection geometry (Limitation 5), cone uniqueness (Limitation 8), 2D physics (Limitation 9), and the Hubble tension (Limitation 18, accepted as unresolved).
+**Open limitations (14: 11 original + 3 new):** including 5/27 (Limitation 7), 4D temporal structure (Limitation 6, partial), 4D projection geometry (Limitation 5), cone uniqueness (Limitation 8), 2D physics (Limitation 9), and the Hubble tension (Limitation 18, accepted as unresolved).
 
 The 22 cited references are real published papers used to anchor the model's claims in observational/experimental data.
 
