@@ -691,9 +691,33 @@ Supercluster        1e15           3000       2.6e-12           2.0e-9          
 
 **A dynamical-mixing resolution of the clustered/uniform tension (v2.2.1).** The above analysis assumes the *cumulative* return is uniform, but by the cascade's own logic, the cumulative return should follow the activity profile (clustered, not uniform). A natural physical mechanism for the *intermediate* profile between fully clustered and fully uniform is **dynamical mixing**: the cumulative dark matter is gravitationally scattered and mixed by 3+1D dynamics over cosmic time. The degree of mixing depends on the local dynamical time $t_{dyn} = 2\pi r / v_{circ}$ relative to the Hubble time (see `calculations/rar_dynamical_mixing.py`).
 
+The mixing fraction is parameterized as:
+
+$$f_{mix}(r) = 1 - \exp(-N_{orbits}(r) / N_{crit})$$
+
+where $N_{orbits}(r) = t_{Hubble} / t_{dyn}(r)$ is the number of dynamical times elapsed since formation, and $N_{crit}$ is a critical number of orbits for "effective" mixing. The full model is then:
+
+$$\rho_{DM}(r) = f_{mix}(r) \cdot \rho_{uniform} + (1 - f_{mix}(r)) \cdot \rho_{clustered} + f_{active} \cdot \rho_{clustered}$$
+
+This gives a *naturally intermediate* profile that smoothly transitions from fully clustered (where $N_{orbits} \ll N_{crit}$) to fully uniform (where $N_{orbits} \gg N_{crit}$), with the transition radius depending on halo mass.
+
 For a Milky Way-like galaxy (v_circ ~ 250-380 km/s), the inner galaxy (r < 5 kpc) has $t_{dyn} < 0.1$ Gyr and the cumulative dark matter has had ~100-1000 dynamical times to mix — it is *very well-mixed*, close to uniform. The outer halo (r ~ 30-100 kpc) has $t_{dyn} \sim 1-3$ Gyr and is only partially mixed. For a galaxy cluster (r ~ 500 kpc, v_circ ~ 900 km/s), the inner region (r < 30 kpc) is well-mixed but the outer halo (r ~ 200-500 kpc) is *barely mixed* (only a few dynamical times over cosmic history).
 
-This dynamical mixing naturally gives the *intermediate* spatial distribution needed to match the data:
+*Numerical results* (computing the full model with $N_{crit} = 10$, $f_{active} = 0.3$, $f_{cumulative} = 0.7$):
+
+| Object | r (kpc) | N_orbits | f_mix | g_obs/g_bar | Effective g_+ |
+| --- | --- | --- | --- | --- | --- |
+| Milky Way (2$R_d$) | 8 | 130 | 1.00 | 6.4 | 2.7×10⁻⁹ m/s² |
+| Dwarf (2$R_d$) | 2 | 39 | 0.98 | 40 | 3.3×10⁻¹⁰ m/s² |
+| Cluster (2$R_d$) | 60 | 73 | 1.00 | 33 | 2.4×10⁻⁸ m/s² |
+
+*Honest assessment of the full dynamical-mixing model:*
+- The mixing-fraction formalism is correct: the cumulative return is *naturally* between fully clustered and fully uniform, with the mixing fraction depending on radius and halo mass.
+- However, the *amplitude* of the model's prediction for $g_+$ at galaxy and cluster scales is now *too large* (the model over-predicts g_obs/g_bar by ~2-3x for MW, dwarfs, and clusters compared to the empirical RAR).
+- The *direction* of the mass dependence is right: cluster g_+ > galaxy g_+ > dwarf g_+, consistent with the empirical trend (Tian+ 2024 finds cluster g_+ is 17x galaxy g_+).
+- The model is *qualitatively correct* (the spatial distribution is right) but *quantitatively off* by a factor of a few at each scale. A specific implementation would need to also adjust the active/cumulative split, the kappa factor, or the N_crit parameter to match the data.
+
+This dynamical-mixing naturally gives the *intermediate* spatial distribution needed to match the data:
 
 - **Galaxy scale**: cumulative is mostly well-mixed (close to uniform). The cascade's original $g_+ = (3/4) \cdot G \cdot f_{cumulative} \cdot M_{DM} / (\pi R_{halo}^2)$ formula is *approximately* right, explaining why the cascade's $g_+$ is in the right ballpark for galaxies (0.22x empirical).
 
