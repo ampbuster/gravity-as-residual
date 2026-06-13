@@ -1378,6 +1378,12 @@ This is a thought experiment, not a theory. We identify the following limitation
 
 **Conclusion:** The new §2.6 framing (5/27/68 is observational 3+1D data) is fully consistent with all the Hubble tension tests. Mechanism M ($H_0 = 73$, accept the tension) is the cascade's final position, supported by Pantheon+ and local measurements. The Planck $H_0 = 67.4$ is the outlier (5.6 km/s/Mpc tension), accepted but not resolved by the cascade.
 
+21. **NEW: f_active ~ 0.05 is preferred by MCMC at >2σ over f_active ~ 0.18 (Option B+8).** A proper Bayesian MCMC fit (commit 127, `calculations/rar_mcmc.py`) gives f_active = 0.0513 +0.0070/-0.0073 (1σ), with f_active = 0.18 (cosmic SFR interpretation) OUTSIDE the 2σ range. The MCMC data STRONGLY PREFERS the gas-consumption interpretation (t_current ~ 0.7 Gyr) over the cosmic-SFR interpretation (t_current ~ 2.5 Gyr). This RESOLVES the 4× tension from commit 121: the gas consumption timescale wins by >2σ. The 5% appearing in three places (baryon fraction, 5/27 ratio, f_active) is therefore likely a coincidence in the 5%/27% value, but f_active is well-constrained to be ~5%, not ~18%.
+
+22. **NEW: The isothermal cumulative profile is DERIVABLE from 2D universe 1/r gravity (Option 7).** The cascade's 2D universe gravity is logarithmic in 2D (V_2D(r) = G_2D M_2D log(r), giving g_2D(r) = G_2D M_2D / r). For a 2D universe with finite gravity reach r_0, and a UNIFORM distribution of such universes, the cumulative 3+1D gravity is g_cum(r) ~ 1/r for r > r_0. This gives v_circ² = g_cum * r = const, which is exactly the FLAT ROTATION CURVE. The isothermal profile (ρ ~ 1/r²) is therefore a NATURAL CONSEQUENCE of the cascade's 2D universe 1/r gravity, not just a fitting parameter. This is a real derivation (commit 126, `calculations/derive_isothermal_cum.py`).
+
+23. **NEW: The cascade's RAR fit does not generalize to a population of galaxies (Option 9).** A SPARC-like test (commit 128, `calculations/rar_sparc_like.py`) with 30 galaxies spanning M_halo from 10^7 to 10^12 M_sun gives a median absolute residual of 29% (vs 5-13% for the single-MW fit). The cascade's RAR parameters are tuned for the MW, not the full population. A specific implementation would need mass-dependent parameters to fit the full mass spectrum — this is left as future work.
+
 These limitations are not unusual for a thought experiment. They are the natural next steps for theoretical development.
 
 ---
