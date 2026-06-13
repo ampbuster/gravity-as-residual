@@ -358,21 +358,22 @@ $$S_{\text{RS-II}} = \frac{1}{16\pi G_5} \int d^5x \sqrt{-G} R_5 + \int d^4x \sq
 
 RS-II has a *single* 3+1D brane in a 5D bulk. The cascade extends RS-II by allowing 2D branes to be *dynamically created* at energetic events via the $\alpha$ coupling. The cascade reduces to RS-II when $\alpha = 0$ (no 2D brane creation). The $\alpha$ coupling is the new physics introduced by the cascade.
 
-*Status:*
+*Status (honest version, v2.2.1 commit 164):*
 
-This action provides a concrete starting point for mathematical physicists to develop the cascade further. The action structure is:
-- Self-consistent (energy conservation preserved in total system)
-- Reduces to RS-II in the limit $\alpha \to 0$
-- Specifies the 2D universe creation/destruction mechanism
-- Provides a target for a specific Lagrangian (Limitation 26)
+The §2.5.1 action is a **starting skeleton, not a complete theory**. It has the right *structure* (4D event → 3+1D brane → 2D branes with creation/destruction), preserves local energy conservation in the total 3+1D+2D system (by Stoke's theorem, contingent on $\mathcal{L}_{2D}$ being generally covariant), and reduces to standard RS-II brane-world in the limit $\alpha \to 0$. But it has **5+ free parameters / unspecifed choices** that need to be pinned down for a complete theory:
 
-But it requires:
-1. Specifying $\mathcal{L}_{2D}$ (the 2D brane's matter content) - NOT specified
-2. Computing $\alpha$ from first principles - NOT done
-3. Deriving $\tau_{2D} = L_{\text{event}}/c$ from the action (currently a postulate)
-4. Verifying the action gives the 5/27/68 split (Limitation 17) - NOT done
+1. **$\mathcal{L}_{2D}$** (the 2D brane's Lagrangian): NOT specified. Choices include 2D gravity + scalar field, 2D CFT, 2D string worldsheet action, etc.
+2. **$\alpha$** (the bulk-brane coupling): NOT derived. Calibrated phenomenologically to match observed DM density.
+3. **Death mechanism**: What causes $\tau_{2D} = L_{\text{event}}/c$? Is it brane tension, 2D gravity, 2D heat death, Big Crunch, or something else? NOT specified.
+4. **$T^{DM}$ at death**: The spatial and temporal distribution of DM appearing at the 2D brane's death is NOT specified.
+5. **The 5/27/68 split**: NOT derived from the action. The numerical values are postulates, not outputs.
+6. **The cascade-MOND hybrid $g_+$**: The action should derive $g_+ \sim 10^{-10}$ m/s² from first principles, but does NOT.
 
-This is the most ambitious theoretical work in the paper. The cascade's *framework* (geometric picture) is consistent with this action, but the *specific Lagrangian* is the unfinished business of fundamental physics (per Limitation 26, now refined to "cascade provides the geometry, not the Lagrangian").
+*Honest structural issue: the action is "teleological."* The $S_{\text{destruction}}$ term includes $\delta(t - \tau_{2D})$ which references the *future* death of the 2D brane. This is mathematically acceptable (integrate over all time in the action), but conceptually weird — the action "knows" that 2D branes created at $t=0$ will die at $t = \tau_{2D}$. The proper resolution is the **in-in formalism (Schwinger-Keldysh CTP)**: the action has two time contours (forward for creation, backward for destruction), which is the standard way to handle particle creation/annihilation in QFT.
+
+*Energy conservation is conditional.* The argument that $\nabla_\mu T_{\text{total}}^{\mu\nu} = 0$ by Stoke's theorem requires the 2D brane's INTERNAL conservation: $\nabla_a T^{2D\,ab} = 0$. This holds IF $\mathcal{L}_{2D}$ is generally covariant on the worldsheet. Since $\mathcal{L}_{2D}$ is NOT specified, the conservation is a **conditional result**, not a proven one.
+
+This is the most ambitious theoretical work in the paper. The cascade's *framework* (geometric picture) is consistent with this action, but the *specific Lagrangian* is the unfinished business of fundamental physics (per Limitation 26, now refined to: "Cascade specifies geometry, not Lagrangian. The action in §2.5.1 is a SKELETON with 5+ free parameters that need to be specified for a complete theory."). A mathematical physicist interested in completing the cascade would need to: (1) specify $\mathcal{L}_{2D}$, (2) compute $\alpha$ from the bulk-brane coupling, (3) derive the death mechanism, (4) derive the 5/27/68 split, (5) derive the cascade-MOND $g_+$. The geometric framework is the cascade's contribution; the dynamics are the open problems.
 
 ### 2.6 The energy budget, the cosmological constant, and the bulk-brane cascade
 
