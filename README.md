@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.2.1 (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 124 commits, 20 honest limitations documented.
+**Status:** Public release. 136 commits, 26 honest limitations documented.
 
 ---
 
@@ -25,7 +25,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 - **f_active is ~5%, not the originally-postulated 30%** — found by grid search against the RAR. The 4× gap to 30% is documented. A specific 4D event model would need to derive f_active from the 4D geometry.
 - **The "5%" appears in three places** in the cascade (baryon fraction, 5/27 ratio, f_active). They're not all the same 5%, but the 5/27 ratio corresponds to the cosmic star formation timescale (Madau & Dickinson 2014).
 - **All existing tests re-verified with the new framing** — Pantheon+ with full covariance, Mechanism M for the Hubble tension, the cone-shaped hierarchy. None are broken by the §2.6 reframing.
-- **20 honest limitations** (was 18) — added §7 Limitations 19 and 20 for the RAR fit residual and the f_active derivation limitation.
+- **26 honest limitations** (was 18) — added §7 Limitations 19 and 20 for the RAR fit residual and the f_active derivation limitation.
 
 ---
 
@@ -34,7 +34,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 | Folder / File | What's in it |
 |---|---|
 | `paper/paper.md` | The full paper, v2.2.1 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (93 pages) |
+| `paper/paper.pdf` | Compiled PDF (94 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary (v2.2.1) |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |
@@ -60,7 +60,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 - **RAR fit: 8-12% across mass spectrum.** Three-parameter model (f_active ≈ 0.05, isothermal cumulative, mass-dependent scale) matches McGaugh+ 2016 galaxy RAR and Tian+ 2024 cluster RAR. Residual 8% is the cascade's RAR signature.
 - **f_active ≈ 0.05, not 0.30 (postulated).** Found by grid search. The 5/27 inner split ↔ cosmic SFR timescale (~2.5 Gyr). f_active ↔ gas consumption timescale (~0.7 Gyr). 4× tension between these is documented.
 - **Mass-dependent scale factor** (cascade M_halo / empirical M_halo): 10% for MW, 70% for cluster. The 7× ratio matches the kappa ratio (5.9×) remarkably well, suggesting cascade intrinsic M_halo scales as 1/κ.
-- **20 honest limitations** documented in §7.
+- **26 honest limitations** documented in §7.
 
 ---
 
