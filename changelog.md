@@ -20,6 +20,8 @@ All notable changes to this paper are documented here.
 
 **Mathematical sketch now clean:** The sign ambiguity noted in earlier versions is gone. The ordinary attractive gravity and the dark energy are *physically distinct small contributions* to the effective 3+1D action, not opposite-sign components of the same quantity.
 
+**Cone-shaped hierarchy** (§2.6 *Cone-shaped hierarchy*). The cascade is *cone-shaped*, not *fractal*. It has a *finite* depth: 4D event → 3+1D universe → 2D universes (terminal). No 1D, 0D, etc. universes exist. This refinement has three consequences: (1) *1D universes do NOT exist* (closes the 1D-universes limitation in §7); (2) *5/27/68 is a NESTED 2-way split* (32/68 outer is cascade-derived, 5/27 inner is 4D-event-derived), not a 3-way split; (3) the cascade is *more parsimonious* (1 parameter: depth = 2, vs. fractal's infinite depth). The 32/68 split is *derivable* from dimensional-projection kinematics (32% projects to energetic 3+1D, 68% is vacuum residue); the 5/27 ratio remains a *property of the 4D event* and is *not* derived from cascade first principles. See companion code `calculations/cone_shaped_cascade.py` for detailed analysis.
+
 ---
 
 ## v2.0 (June 2026)
