@@ -1,0 +1,12 @@
+{
+  "n_bcgs": 50,
+  "best_fixed_g_plus": 1e-09,
+  "best_fixed_median_resid": 0.14270822171920475,
+  "per_bcg_g_plus": {
+    "mean_log": -8.943434343434342,
+    "median_log": -8.97979797979798,
+    "std_log": 0.30773452968613524,
+    "physical_median": 1.0476157527896662e-09
+  },
+  "tian_2024_g_plus": 1.7e-09
+}

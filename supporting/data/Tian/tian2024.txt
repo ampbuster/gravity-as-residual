@@ -1,0 +1,1779 @@
+Astronomy & Astrophysics manuscript no. RAR_BCG
+February 20, 2024
+
+©ESO 2024
+
+A Distinct Radial Acceleration Relation across Brightest Cluster
+Galaxies and Galaxy Clusters
+Yong Tian
+
+1 , Chung-Ming Ko
+
+1, 2,⋆ , Pengfei Li
+
+3,⋆⋆ , Stacy McGaugh
+
+4 , and Shemile L. Poblete1
+
+1
+
+Institute of Astronomy, National Central University, Taoyuan 320317, Taiwan
+Department of Physics and Center for Complex Systems, National Central University, Taoyuan 320317, Taiwan
+e-mail: cmko@astro.ncu.edu.tw
+3
+Leibniz-Institute for Astrophysics, An der Sternwarte 16, 14482 Potsdam, Germany
+4
+Department of Astronomy, Case Western Reserve University, 10900 Euclid Avenue, Cleveland, OH 44106, USA
+e-mail: stacy.mcgaugh@case.edu
+
+arXiv:2402.12016v1 [astro-ph.GA] 19 Feb 2024
+
+2
+
+Received xxx; accepted xxx
+ABSTRACT
+
+Recent studies reveal a radial acceleration relation (RAR) in galaxies, which illustrates a tight empirical correlation connecting the
+observational acceleration and the baryonic acceleration with a characteristic acceleration scale. However, a distinct RAR has been
+revealed on BCG-cluster scales with a seventeen times larger acceleration scale by the gravitational lensing effect. In this work, we
+systematically explored the acceleration and mass correlations between dynamical and baryonic components in 50 Brightest Cluster
+Galaxies (BCGs). To investigate the dynamical RAR in BCGs, we derived their dynamical accelerations from the stellar kinematics
+using the Jeans equation through Abel inversion and adopted the baryonic mass from the SDSS photometry. We explored the spatially
+resolved kinematic profiles with the largest integral field spectroscopy (IFS) data mounted by the Mapping Nearby Galaxies at Apache
+Point Observatory (MaNGA) survey. Our results demonstrate that the dynamical RAR in BCGs is consistent with the lensing RAR
+on BCG-cluster scales as well as a larger acceleration scale. This finding may imply that BCGs and galaxy clusters have fundamental
+differences from field galaxies. We also find a mass correlation, but it is less tight than the acceleration correlation.
+Key words. Galaxy: kinematics and dynamics – galaxies: clusters: general –Galaxies: elliptical and lenticular, cD – dark matter
+
+1. Introduction
+Tight empirical scaling relations are pivotal in physics and astronomy, particularly in the exploration of new fundamental concepts. A prominent example is the dark matter (DM) problem,
+manifested through the discrepancy between observed gravitational effects (inferred mass) and the mass calculated from luminosity (baryonic matter). However, an intriguing perspective
+arises when examining the empirical acceleration relation in
+galaxies. This perspective focuses on the discrepancy between
+the baryonic acceleration gbar ≡ GMbar (< r)/r2 and the observed
+acceleration gobs , ascertained through methods like gravitational
+lensing, rotation curve analysis, or the Jeans equation. This inquiry into galactic accelerations uncovers a significant empirical
+scaling relation, which includes the identification of a characteristic acceleration scale, a key parameter in understanding these
+dynamics.
+Recent discoveries have unveiled a tight empirical radial acceleration relation (RAR; McGaugh et al. 2016; Lelli et al. 2017)
+in spiral galaxies, providing a fresh perspective on the dark matter problem. The correlation can be parameterized between gobs
+and gbar as
+gbar
+gobs =
+,
+(1)
+√
+1 − e− gbar /g†
+which exhibits a characteristic acceleration scale g† = (1.20 ±
+0.02) × 10−10 m s−2 (McGaugh et al. 2016; Lelli et al. 2017; Li
+⋆
+⋆⋆
+
+Corresponding author
+Humboldt fellow.
+
+et al. 2018). Additionally, the low acceleration limit (gbar ≪ g† )
+recovers the baryonic Tully-Fisher relation (BTFR; McGaugh
+et al. 2000; Verheijen 2001; McGaugh 2011; Lelli et al. 2016,
+2019), v4f = GMbar g† , which relates the flat rotation velocity vf
+and the baryonic mass Mbar . Subsequent studies of the RAR in
+elliptical galaxies have yielded consistent results, not only in dynamics (Lelli et al. 2017; Chae et al. 2019, 2020) but also in gravitational lensing effects (Tian & Ko 2019; Brouwer et al. 2021).
+In elliptical galaxies, replacing vf with the velocity dispersion σ
+yields the baryonic Faber-Jackson relation (BFJR; Sanders 2010;
+Famaey & McGaugh 2012), stating that σ4 ∝ GMbar g† . These
+findings further emphasize the importance of the RAR in understanding the fundamental concepts behind the observed acceleration discrepancies in galaxies. Coincidentally, the RAR has been
+predicted by MOdified Newtonian Dynamics (MOND; Milgrom
+1983) four decades ago.
+In addition to galaxies, the “missing mass” problem has also
+been observed in galaxy clusters (Zwicky 1933; Famaey & McGaugh 2012; Overzier 2016; Rines et al. 2016; Umetsu 2020),
+which represent the largest gravitational bound systems in the
+universe. Within the strong gravitational potential of galaxy clusters, the brightest cluster galaxy (BCG) is typically located at the
+center. However, even when accounting for the baryonic mass in
+the form of X-ray gas, the calculated mass remains insufficient
+when determining gravity using dynamics or gravitational lensing effects.
+Upon examining the acceleration discrepancy on BCGcluster scales, recent studies have revealed a more significant
+offset from the RAR in galaxy clusters (Chan & Del Popolo
+Article number, page 1 of 10
+
+A&A proofs: manuscript no. RAR_BCG
+
+2020; Tian et al. 2020; Pradyumna et al. 2021; Eckert et al. 2022;
+Tam et al. 2023; Liu et al. 2023; Li et al. 2023). In particular, a
+tight RAR (Tian et al. 2020) has been investigated in 20 massive
+galaxy clusters from the Cluster Lensing And Supernova survey
+with Hubble (CLASH) samples, referred to as the CLASH RAR,
+expressed as
+√
+gobs ≃ gbar g‡ ,
+(2)
+This relation features a larger acceleration scale, g‡ = (2.0 ±
+0.1) × 10−9 m s−2 , and a small lognormal intrinsic scatter of
+15+3
+−3 %. The CLASH RAR implies a parallel baryonic FaberJackson relation (BFJR) in galaxy clusters, given by σ4 ∝
+GMbar g‡ . More recent studies confirm this kinematic counterpart as the mass-velocity dispersion relation (MVDR; Tian et al.
+2021a,b), found in 29 galaxy clusters and 54 BCGs. The MVDR
+exhibits a consistent acceleration scale g‡ = (1.7 ± 0.7) ×
+10−9 m s−2 , with the CLASH samples and a small lognormal intrinsic scatter of 10+2
+−1 %.
+In this work, we investigate the dynamical RAR in BCGs to
+address the second acceleration scale, g‡ , on BCG-cluster scales.
+The confirmation of a distinct RAR necessitates a thorough examination of both gravitational mass and baryonic mass. To accomplish this, we employ integral field spectroscopy (IFS) for
+the internal kinematics of BCGs and model photometry for the
+stellar mass. It is intriguing to investigate both acceleration and
+mass correlations within the same sample. Moreover, by comparing dynamical and lensing samples, a universal acceleration
+scale can be scrutinized in galaxies, particularly for BCGs.
+
+2. Data and Methods
+Our primary objective is to investigate the correlation between
+the dynamical acceleration and the baryonic acceleration in
+BCGs, as well as their mass correlation. While the RAR in
+20 CLASH samples has been examined in gravitational lensing (Tian et al. 2020), the RAR of BCGs in dynamics has not
+been systematically explored. Furthermore, we assess the consistency of the dynamical and lensing RAR and compare the results between BCGs and clusters.
+Investigating the dynamical RAR requires spatially resolved
+velocity dispersion profiles and the estimation of baryonic mass
+for individual galaxies. In our BCG samples, we noted that most
+velocity dispersion profiles within our samples follow linear
+trends. This observation facilitates a simplified approach to analyzing galactic dynamics through the Jeans equation. Our primary objective is to derive the observed gravitational acceleration gobs with enhanced accuracy. To this end, we employed
+Abel’s inversion (Binney & Mamon 1982; Binney & Tremaine
+2008), an analytic formulation for linear velocity dispersion profiles. This technique, when combined with Bayesian statistics for
+fitting the velocity dispersion profiles, enables us to efficiently
+compute gobs using Abel’s inversion of the Jeans equation. On
+the other hand, gbar is calculated using the accumulated baryonic
+mass at the same radius, employing an empirical Sérsic profile.
+
+Digital Sky Survey (SDSS; Law et al. 2021). Also, MaNGA offers one of the most extensive samples of BCGs for IFS studies,
+presenting an unparalleled resource for in-depth analysis.
+BCGs are distinguished not only by their luminosity and
+mass but also by their unique morphological and kinematic characteristics, which set them apart from typical galaxies. Typically
+located at the centers of galaxy clusters, BCGs often exhibit elliptical or cD galaxy morphologies, characterized by extended,
+diffuse envelopes indicative of their evolutionary history marked
+by mergers and accretion within dense cluster environments.
+Kinematically, BCGs generally exhibit significant velocity dispersion with less pronounced rotational features.
+In this study, we investigate 50 MaNGA BCGs with complete IFS and photometry data for dynamical analysis, building
+upon the previous systematic exploration of their kinematics.
+The velocity dispersion of MaNGA BCGs has been systematically explored using IFS data (Tian et al. 2021a), so we further
+investigated these BCG samples for dynamic studies. Most of
+these BCGs were initially obtained from Yang’s catalog (Yang
+et al. 2007), which was developed using a halo-based group
+finder in the SDSS Data Release 4 (DR4). Hsu et al. (2021) reidentified them visually in color-magnitude diagrams with the
+corresponding memberships. From their 54 galaxy sample, one
+BCG ‘8943-9102’ is excluded due to its morphology being identified as a spiral galaxy. Because BCGs are generally classified
+as elliptical galaxies, identifying BCGs with spiral galaxy morphology may be considered a misclassification or misidentification. Additionally, three BCGs, ‘8613-12705’, ‘9042-3702’, and
+‘9044-12703’, are excluded due to uncertain stellar mass estimated from model photometry in SDSS. Ultimately, we utilized
+50 BCGs with complete IFS and photometry data, listed with
+their plateifu IDs in Table 1.
+To examine the baryonic mass contribution of BCGs, we
+carefully considered the total stellar and gas mass. In our study,
+the stellar mass within the MaNGA survey is estimated by utilizing photometric data from the SDSS, where galaxy luminosities are converted to stellar masses through a constant mass-tolight ratio (Law et al. 2021). Concurrently, the gas mass is ascertained primarily from the analysis of ionized gas emission lines,
+which are observed using MaNGA’s integral field spectroscopy
+(Bundy et al. 2015). The gas fraction in our samples accounts
+for less than 3.2% of the baryonic mass. However, MaNGA primarily studies ionized gas in galaxies using optical spectroscopy
+through emission lines like Hα, [NII], [OII], [OIII], and [SII],
+but it’s not designed for observing neutral atomic (HI) or molecular gas (H2) (Bundy et al. 2015). Its focus on optical wavelengths might miss regions with high dust or dominated by neutral or molecular gas, possibly underestimating total galaxy gas
+content. Because the RAR should be estimated at the same radius for both gobs and gbar , we compute the velocity dispersion
+measured up to approximately the effective radius and the accumulated baryonic mass based on the measured Sérsic profile
+at the same radius. Furthermore, we explored an alternative scenario regarding the possible gradient in the mass-to-light ratio in
+Appendix A. This analysis yields a stellar mass variation in the
+range of approximately 10% to 20%.
+
+2.1. Data
+
+Spatially resolved kinematic profiles in galaxies necessitate IFS
+to measure spectra for hundreds of points within each galaxy. At
+present, MaNGA provides an unprecedented sample of approximately 10,000 nearby galaxies to investigate the internal kinematic structure and composition of gas and stars (Bundy et al.
+2015). MaNGA is a core program in the fourth-generation Sloan
+Article number, page 2 of 10
+
+2.2. Velocity Dispersion Profile with Bayesian statistics
+
+We adopted the line-of-sight (los) one-dimensional velocity dispersion of 50 MaNGA BCGs (Tian et al. 2021a) and employed
+the profile with a linear fit by Bayesian statistics. Tian et al.
+(2021a) compute the mean los stellar velocity dispersion of
+each circle relative to their centers, by Marvin developed in
+
+et al.: A Distinct Radial Acceleration Relation across Brightest Cluster Galaxies and Galaxy Clusters
+
+8331-12701
+300
+
+60
+
+9888-12703
+210
+204
+198
+192
+186
+180
+
+60
+
+290
+285
+
+20
+00
+
+20
+
+40
+spaxel
+
+60
+
+40
+20
+
+280
+275
+
+00
+
+345
+
+km s 1
+
+40
+
+spaxel
+
+km s 1
+
+spaxel
+
+295
+
+20
+
+8625-12704
+
+40
+spaxel
+
+40
+
+00
+
+60
+
+20
+
+0.5
+
+60
+
+285
+
+0.5
+
+0.5
+0.8
+
+40
+spaxel
+
+los/
+
+1.0
+
+los/
+
+1.0
+
+los/
+
+1.0
+
+0.6
+
+300
+
+9888-12703
+
+1.5
+
+0.4
+R/Re
+
+315
+
+8331-12701
+1.5
+
+0.2
+
+330
+
+20
+
+1.5
+
+0.0 0.0
+
+360
+
+60
+
+km s 1
+
+8625-12704
+
+spaxel
+
+Yong Tian
+
+0.0 0.0
+
+0.2
+
+0.4
+R/Re
+
+0.6
+
+0.8
+
+0.0 0.0
+
+0.2
+
+0.4
+R/Re
+
+0.6
+
+0.8
+
+Fig. 1 Three examples of MaNGA BCGs with the plateifu of ‘8554-6102’, ‘8331-12701’, and ‘9888-12703’. Upper panel: The two-dimensional
+map plot of Spaxel data for the stellar velocity dispersion. Lower panel: velocity dispersion profiles in terms of effective radius. The red circles
+represent the los velocity dispersion of concentric circles at different radii with the corresponding error bar. The solid blue lines represent the linear
+fit with the ODR MLE method.
+
+Python (Cherinka et al. 2019). Surprisingly, those velocity dispersion profiles demonstrate remarkably flat even at the innermost region for most cases (Tian et al. 2021a). Instead of the flat
+profile, we improved the fitting with a linear relation and estimated the error for each data point by implementing a Maximum
+likelihood Estimation with the orthogonal-distance-regression
+(ODR) method suggested in Lelli et al. (2019); Tian et al.
+(2021b,a) The linear relation with the ODR method
+P is adopted
+with the log-likelihood function as −2 ln L = i ln (2πσ2i ) +
+P 2 2
+2
+2
+2
+i ∆i /σi , with ∆i = (yi − m xi − b) /(m + 1) , where i runs over
+all data points, and σi includes the observational uncertainties
+(σ xi , σyi ) and the lognormal intrinsic scatter σint by
+m2 σ2xi
+
++
+
+σ2yi
+
++ σ2int .
+(3)
+m2 + 1 m2 + 1
+We model the one-dimensional velocity dispersion by two
+variables of y ≡ σ/⟨σ⟩ and x ≡ R/Re , which is normalized
+to mean velocity dispersion ⟨σ⟩ and effective radius Re . In our
+samples, only the uncertainty of velocity dispersion is obtained
+for fitting. The slopes and the intercepts with the ODR MLE are
+presented in Table 1 and illustrated for three examples in Fig. 1.
+
+σ2i =
+
+the projected velocity dispersion σI (R) in the form of an Abel integral equation with its inverse (Binney & Mamon 1982; Mamon
+& Łokas 2005; Binney & Tremaine 2008):
+Z
+−Υ ∞ dI(R)σ2I (R)
+dR
+,
+(5)
+ρσ2r =
+√
+π r
+dR
+R2 − r2
+where I(R) represents the surface density and Υ denotes the
+mass-to-light ratio, depending on R in general.. Then, we can
+conduct gobs through Abel inversion, deducing from Eq. (4) and
+Eq. (5) expressed as (Binney & Mamon 1982; Mamon & Łokas
+2005; Binney & Tremaine 2008)
+
+
+Z
+−σ2r dΥ rΥ ∞ d  dI(R)σ2I (R) 
+dR
+gobs (r) =
+. (6)
++
+
+ √
+Υ dr
+πρ r dR
+RdR
+R2 − r2
+In this study, we model σI (R) using a linear relation in the
+velocity dispersion profile due to mostly flat velocity dispersion profiles in our MaNGA BCG samples, see Fig. 1. Consequently, the total mass in Newtonian dynamics is defined as
+Mtot (< r) = r2 gobs (r)/G. Additionally, we estimate the deviation
+for the anisotropic models in Appendix B, resulting in at most
+6% (or a scatter of 0.02 dex) for gobs .
+
+2.3. Dynamical Mass Inferred by Abel Inversion
+
+In pressure-supported systems such as BCGs, the dynamics in
+equilibrium are governed by the Jeans equation in spherical coordinates (Binney & Mamon 1982; Binney & Tremaine 2008):
+d(ρσ2r ) 2β 2
++ ρσr = −ρ gobs .
+(4)
+dr
+r
+where β = 1 − (σ2t /σ2r ) represent the anisotropy parameter. For
+simplicity, we consider the isotropic case as β = 0 and express
+
+3. Results
+Our primary objective is to investigate the dynamical mass and
+the RAR in MaNGA BCGs and compare the results with the
+lensing RAR observed in CLASH BCGs and clusters. The observational acceleration is directly computed at the last data point
+using Abel’s inversion applied to the velocity dispersion profiles.
+On the other hand, the baryonic acceleration is estimated from
+the accumulated stellar mass, which is modeled with a Sérsic
+Article number, page 3 of 10
+
+A&A proofs: manuscript no. RAR_BCG
+
+profile. Both accelerations are measured independently and presented on different axes. Moreover, we employ Bayesian statistics to assess the tightness of the correlation and examine their
+residuals with four galactic and cluster properties. Additionally,
+we illustrate the relationship between dynamical and baryonic
+mass for comparative purposes.
+3.1. Radial Acceleration Relation & Mass Correlation
+
+We implemented an ODR Markov Chain Monte Carlo (MCMC)
+analysis, to explore the linear correlation evident in the RAR.
+Utilizing the python package (emcee; Foreman-Mackey 2016;
+Foreman-Mackey et al. 2019), we conducted an ODR MCMC
+analysis to estimate the slope m, intercept b, and intrinsic scatter σint with two variables of y ≡ log(gobs /ms−2 ) and x ≡
+log(gbar /ms−2 ). We employed non-informative flat priors for the
+slope and intercept within the range of [−100, 100], and for the
+intrinsic scatter with ln(σint ) ∈ [−10, 10]. The findings from our
+ODR MCMC analysis are illustrated in Fig. 2 for various samples.
+Our sample, consisting of 50 MaNGA BCGs, showed a lin+0.43
+ear correlation with a slope of y = 0.58+0.05
+−0.04 x − 3.62−0.42 , which
+dominated the higher acceleration region. When we combined
+MaNGA BCGs with the lensing result of 20 CLASH BCGs, the
+linear correlation presents a shallow slope of y = (0.54±0.03)x−
+(4.01 ± 0.29), which extended to a lower acceleration region.
+Finally, we performed a complete fit including all 50 MaNGA
+BCGs, 20 CLASH BCGs, and 64 clusters data, which resulted
+in the following equation:
+g 
+ g 
+obs
+bar
+log
+= 0.52+0.01
+− 4.19+0.15
+(7)
+−0.01 log
+−0.15 ,
+−2
+ms
+ms−2
+with a tiny uncertainty lognormal intrinsic scatter of (4.9±0.9)%,
+corresponding to 0.02 dex. The related triangle diagrams of the
+regression parameters are presented in Appendix C.
+In further analysis, we employed the same vertical MCMC
+method used in the CLASH RAR study (Tian et al. 2020). This
+approach yielded a shallow slope represented by the relation y =
+(0.50 ± 0.01)x − (4.30 ± 0.15), along with a similar uncertainty
+in the lognormal intrinsic scatter of (5.6 ± 1.0)%, corresponding
+to 0.02 dex. While the fitting result may vary slightly depending
+on the methods employed, the differences remain minor and are
+consistent with their respective uncertainties.
+We subsequently analyzed the mass correlation in a logarithmic diagram between the accumulated total mass Mtot and
+baryonic mass Mbar , as shown in the right panel of Fig. 2.
+Using the ODR MCMC method for the entire sample to establish a linear correlation, the result yielded log(Mtot /M⊙ ) =
+(1.20 ± 0.02) log(Mbar /M⊙ ) − (1.74 ± 0.24) with a larger uncertainty in the lognormal intrinsic scatter of (19 ± 2)%. Unlike the
+consistency observed in acceleration correlation, CLASH BCGs
+and MaNGA BCGs dominate the same mass range but exhibit a
+larger scatter in mass correlation when combined.
+3.2. Residuals
+
+To investigate correlations of the residuals, we compute the
+orthogonal distance between Eq. (7) and each individual data
+against four global quantities of BCGs and clusters: the observational acceleration, radius, baryonic mass surface density, and
+redshift, see Fig. 3. The residuals of all samples are distributed
+within a tiny range from −0.22 to 0.23 dex. No significant correlations were observed in the residuals diagram, except for a
+slight correlation of cluster data concerning the outer radius.
+Article number, page 4 of 10
+
+3.3. Mimicking Baryonic Tully-Fisher Relation
+
+Although the approach may seem conceptual, it is enlightening
+to analyze the BTFR as the kinematic analog of the tight dynamical scaling
+√ relation in this context. Defining the circular velocity
+as V ≡ gobs r, we can correspond V using the total acceleration
+of both BCG and cluster samples. The BTFR can be investigated
+with both V and the baryonic mass Mbar . One of the main benefits
+of examining the BTFR is the expansion of the dynamic range
+of the distinct RAR concerning the baryonic mass. This range
+spans approximately 3.5 orders of magnitude in our samples, as
+illustrated in Fig. 4.
+Because our samples demonstrate a linear correlation, we
+adopted the ORD MCMC again for analysis. The resulting
+BTFR presents a tight relation with uncertainty in the lognormal intrinsic scatter of (11 ± 2)%, equivalent to 0.05 dex, and
+can be expressed as
+!
+!
+Mbar
+V
++0.07
+log
+= 3.97−0.07 log
++ 0.67+0.21
+(8)
+−0.21 .
+M⊙
+kms−1
+The slope of this relation closely aligns with that observed in
+spiral galaxies (Lelli et al. 2019), being nearly parallel with a
+value close to four. However, a deviation is noted in the intercept, suggesting a larger acceleration scale. By assuming a fixed
+slope of four for g‡ , the relation simplifies to log(Mbar /M⊙ ) =
+4 log(V/kms−1 ) + (0.57 ± 0.02), maintaining the intrinsic scatter of 0.05 dex. Because Equation (2) induced a parallel BTFR,
+represented as V 4 = GMbar g‡ , we are able to determine g‡ =
+(2.0 ± 0.1) × 10−9 ms−2 . This value aligns consistently with the g‡
+obtained from the distinct RAR.
+
+4. Discussions and Summary
+In this study, we report four key discoveries that significantly
+enhance our understanding of the RAR and its implications for
+BCGs and clusters. Our main findings are as follows: (1) We
+identified a linear correlation between MaNGA BCGs, CLASH
+BCGs, and clusters in RAR; (2) The acceleration scale g‡ was
+found to be valid across a range spanning over two orders of
+magnitude in baryonic acceleration, suggesting the RAR to hold
+on even larger scales than previously considered; (3) The distribution of residuals within a narrow range highlights a tight
+correlation between the dynamical and baryonic components in
+BCGs and clusters; and (4) There is no significant accumulated
+mass correlation on BCG-cluster scales.
+The distinct RAR on BCG-cluster scales provides a fresh
+perspective on the residual missing mass of MOND in galaxy
+clusters (Sanders 1999, 2003; Angus et al. 2008; Milgrom 2008;
+Angus et al. 2010; Famaey & McGaugh 2012), recasting it as an
+acceleration-dependent residual mass issue. Although MOND
+successfully explained the missing mass problem in galactic
+systems (Banik & Zhao 2022), it has been reported that additional mass, such as missing baryons (Sanders 1999, 2003; Milgrom 2008) or sterile neutrinos (Angus et al. 2010; Famaey &
+McGaugh 2012), is required in galaxy clusters, a phenomenon
+known as the residual missing mass. When examining the RAR
+within the context of the MOND framework, we can compute
+the residual missing mass by comparing it with two RARs, as
+described below. Here, gbar represents the baryonic acceleration
+estimated by the baryonic mass in our samples, while gM denotes
+the MONDian mass necessary to reproduce a distinct RAR. One
+can define a missing mass ratio Q = gM /gbar = M M /Mbar in
+MOND when considering the same observational acceleration.
+
+Yong Tian
+
+8.0
+8.5
+
+et al.: A Distinct Radial Acceleration Relation across Brightest Cluster Galaxies and Galaxy Clusters
+
+15
+
++0.15
+y = 0.52+0.01
+0.01x 4.18 0.15
+RAR (McGaugh et al. 16)
+line of unity
+50 MaNGA BCGs (this work)
+20 CLASH BCGs (Tian et al. 20)
+64 CLASH Clusters data (Tian et al. 20)
+
++0.24
+y = 1.20+0.02
+0.02x 1.74 0.24
+line of unity
+50 MaNGA BCGs (this work)
+20 CLASH BCGs (Tian et al. 20)
+64 CLASH Clusters data (Tian et al. 20)
+
+14
+
+40
+
+10.0
+10.5
+11.0
+11.5
+11.5
+
+30
+
+11
+
+10
+0.2
+
+0.0
+
+10.0
+
+9.5
+
+log(gbar)[ms 2]
+
+9.0
+
+8.5
+
+30
+20
+10
+0
+
+0.2
+
+Residuals [Dex]
+
+10.5
+
+40
+12
+
+20
+
+0
+11.0
+
+13
+
+Measurements
+
+log(Mtot)[M ]
+
+9.5
+
+Measurements
+
+log(gobs)[ms 2]
+
+9.0
+
+8.0
+
+0.4 0.2 0.0 0.2 0.4
+
+Residuals [Dex]
+
+10
+10
+
+11
+
+12
+
+13
+
+log(Mbar)[M ]
+
+14
+
+15
+
+Fig. 2 The RAR and mass correlation of both BCGs and clusters are presented. Left panel: Black and green diamonds represent 50 MaNGA and
+20 CLASH BCGs, while blue circles indicate 64 CLASH galaxy cluster data. The black solid line illustrates the resulting RAR of all samples:
+−2
++0.15
+log(gobs /ms−2 ) = 0.52+0.01
+−0.01 log(gbar /ms ) − 4.18−0.15 . The orange shaded area illustrates the 1σ error of the best fit with the ODR MCMC method.
+The inset panel demonstrates the histograms of the orthogonal residuals of a whole sample (blue). For comparison, the galactic RAR is depicted
+by the dot-dashed line, while the dotted line represents the line of unity. Right panel: The black solid line represents the mass correlation of all
++0.24
+samples: log(Mtot /M⊙ ) = 1.20+0.02
+−0.02 log(Mbar /M⊙ ) − 1.74−0.24 . All symbols are the same as those in the left panel.
+
+To explore the possibility of compensating for the distinct RAR
+with missing mass, we connect the RAR as fitted in McGaugh
+et al. (2016) to the same observed acceleration gobs by
+gM
+√
+.
+(9)
+gbar g‡ ≈
+√
+1 − e− gM /g†
+Using Eq. (9), we can compute the factor Q for a given gbar . For
+example, with a median logarithm of baryonic acceleration in 50
+BCGs at log(gbar ) = −9.5, we find Q = 2.2. However, the value
+of Q exhibits significant variability with gbar : for the highest acceleration in our MaNGA BCG samples, log(gbar ) = −8.9, Q
+decreases to 1.2, while for the lowest acceleration, log(gbar ) =
+−10.4, Q increases to 4.9. This variability indicates that a systematic constant offset in the mass-to-light ratio is insufficient to
+address the discrepancy. Consequently, it appears that the residual missing mass is correlated with the baryonic acceleration
+gbar .
+In this study, we also evaluated the mass-to-light ratio Υ to
+validate the choice of using total stellar mass calculated from
+SDSS model photometry. For 50 MaNGA BCGs, we calculated
+Υ across the five SDSS bands: u, g, r, i, and z. The average values
+for these bands are (Υu , Υg , Υr , Υi , Υz ) = (9.6, 5.5, 3.1, 2.3, 1.9).
+Our results indicate that the potential underestimation of the stellar mass is a serious concern. The residual missing mass would
+be other forms rather than the stellar mass, such as the underestimation of gas mass or sterile neutrinos.
+Besides the residual mass on BCG-cluster scales, other possibility can be further investigated within the framework of relativistic MOND theories. Interestingly, given the consistency
+between our MaNGA BCGs and the CLASH samples measured by gravitational lensing, relativistic MOND offers a variety of results that extend beyond the standard MOND formulation. One particularly intriguing interpretation involves the ac-
+
+celeration scale being contingent on the depth of the potential
+well (eMOND; Zhao & Famaey 2012; Hodson & Zhao 2017).
+In BCGs and galaxy clusters, eMOND implied a stronger observational acceleration that deviates from the RAR suggested by
+the initial MOND. Moreover, recent advancements in relativistic
+MOND theories (Skordis & Złośnik 2021; Verwayen et al. 2023)
+also suggest the feasibility of an enhancement in galaxy clusters.
+Investigating the mass consistency in MaNGA BCGs reveals
+implications for the dark matter distribution in galaxy clusters.
+Some MaNGA BCGs exhibit a consistent mass between dynamical and baryonic mass, suggesting insufficient dark matter
+within one effective radius. This finding poses a challenge to the
+merger model in the CDM paradigm, where one would expect a
+significant amount of dark matter at the center of galaxy clusters
+due to dynamical friction. To fully comprehend this issue, further
+analysis of these specific BCG samples is necessary, especially
+compared with computer simulations such as TNG (Springel
+et al. 2018; Nelson et al. 2019b,a), EAGLE (Schaye et al. 2015;
+Crain et al. 2015), and BAHAMAS (McCarthy et al. 2017), etc.
+Investigating the RAR in the context of BCGs and galaxy
+clusters is key to understanding the dark matter problem, particularly in relation to the residual missing mass. MOND, which accurately predicts the RAR’s slope of 0.5, indicates a correlation
+between the residual missing mass and baryonic acceleration,
+warranting further exploration. Additionally, the RAR’s application to BCG-cluster scales is crucial for assessing different dark
+matter theories, where it notably challenges the self-interacting
+dark matter model, especially in light of the BAHAMAS simulation results (Tam et al. 2023). Although our current dynamical
+RAR studies in BCGs would benefit from improved stellar mass
+estimation methods that are model-independent and enhanced
+dynamical mass evaluations using numerical models (Li et al.
+2023), these initial findings broaden the scope of baryonic acArticle number, page 5 of 10
+
+A&A proofs: manuscript no. RAR_BCG
+
+0.6
+
+Residuals[dex]
+
+0.4
+
+0.4
+
+0.2
+
+0.2
+
+0.0
+
+0.0
+
+0.2
+
+0.2
+
+0.4
+
+0.4
+
+0.6
+
+Residuals[dex]
+
+0.6
+
+50 MaNGA BCGs (this work)
+20 CLASH BCGs (Tian et al. 20)
+64 CLASH Clusters data (Tian et al. 20)
+
+10.00 9.75
+
+9.50
+
+9.25
+
+log(gobs)[ms 2]
+
+9.00
+
+8.75
+
+0.6
+
+0.6
+
+0.6
+
+0.4
+
+0.4
+
+0.2
+
+0.2
+
+0.0
+
+0.0
+
+0.2
+
+0.2
+
+0.4
+
+0.4
+
+0.6
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+
+log( Bar)[MSunpc 2]
+
+4.0
+
+0.6
+
+0.5
+
+0.0
+
+1.0
+
+0.2
+
+1.5
+
+2.0
+
+log(R)[kpc]
+
+0.4
+
+Redshift
+
+2.5
+
+0.6
+
+3.0
+
+0.8
+
+Fig. 3 The orthogonal residuals against four global quantities of galaxies and galaxy clusters: the observational acceleration gobs (upper-left),
+radius R (upper-right), baryonic mass surface density ΣBar (lower-left), and redshift (lower-right). The plot displays the residuals for 50 MaNGA
+BCGs (black diamonds), 20 CLASH BCGs (green diamonds), and 64 data points from CLASH clusters (blue circles), with the dashed line
+representing zero difference.
+celeration research and establish a foundation for more detailed
+future investigations.
+Acknowledgements. We sincerely appreciate the referee’s constructive suggestions and valuable comments, which have significantly contributed to enhancing the clarity and overall quality of our work. YT is supported by the Taiwan
+National Science and Technology Council NSTC 110-2112-M-008-015-MY3.
+CMK and SLP are supported by the Taiwan NSTC 111-2112-M-008-013 and
+NSTC 112-2112-M-008-032. PL is supported by the Alexander von Humboldt
+Foundation. SSM is supported in part by NASA ADAP grant 80NSSC19k0570
+and also acknowledges support from NSF PHY-1911909.
+
+References
+Angus, G. W., Famaey, B., & Buote, D. A. 2008, MNRAS, 387, 1470
+Angus, G. W., Famaey, B., & Diaferio, A. 2010, MNRAS, 402, 395
+Banik, I. & Zhao, H. 2022, Symmetry, 14, 1331
+Bernardi, M., Sheth, R. K., Dominguez-Sanchez, H., et al. 2018, MNRAS, 477,
+2560
+Binney, J. & Mamon, G. A. 1982, MNRAS, 200, 361
+Binney, J. & Tremaine, S. 2008, Galactic Dynamics: Second Edition (Princeton
+University Press)
+Brouwer, M. M., Oman, K. A., Valentijn, E. A., et al. 2021, A&A, 650, A113
+Bundy, K., Bershady, M. A., Law, D. R., et al. 2015, ApJ, 798, 7
+Carlberg, R. G., Yee, H. K. C., Ellingson, E., et al. 1997, ApJ, 485, L13
+Chae, K.-H., Bernardi, M., Domínguez Sánchez, H., & Sheth, R. K. 2020, ApJ,
+903, L31
+Chae, K.-H., Bernardi, M., Sheth, R. K., & Gong, I.-T. 2019, ApJ, 877, 18
+Chan, M. H. & Del Popolo, A. 2020, MNRAS, 492, 5865
+Cherinka, B., Andrews, B. H., Sánchez-Gallego, J., et al. 2019, AJ, 158, 74
+Colín, P., Klypin, A. A., & Kravtsov, A. V. 2000, ApJ, 539, 561
+Crain, R. A., Schaye, J., Bower, R. G., et al. 2015, MNRAS, 450, 1937
+
+Article number, page 6 of 10
+
+Dekel, A., Stoehr, F., Mamon, G. A., et al. 2005, Nature, 437, 707
+Eckert, D., Ettori, S., Pointecouteau, E., van der Burg, R. F. J., & Loubser, S. I.
+2022, A&A, 662, A123
+Famaey, B. & McGaugh, S. S. 2012, Living Reviews in Relativity, 15, 10
+Foreman-Mackey, D. 2016, The Journal of Open Source Software, 1, 24
+Foreman-Mackey, D., Farr, W., Sinha, M., et al. 2019, The Journal of Open
+Source Software, 4, 1864
+Hodson, A. O. & Zhao, H. 2017, A&A, 598, A127
+Hsu, Y.-H., Lin, Y.-T., Huang, S., et al. 2021, arXiv e-prints, arXiv:2112.10805
+Law, D. R., Westfall, K. B., Bershady, M. A., et al. 2021, AJ, 161, 52
+Lelli, F., McGaugh, S. S., & Schombert, J. M. 2016, ApJ, 816, L14
+Lelli, F., McGaugh, S. S., Schombert, J. M., Desmond, H., & Katz, H. 2019,
+MNRAS, 484, 3267
+Lelli, F., McGaugh, S. S., Schombert, J. M., & Pawlowski, M. S. 2017, ApJ, 836,
+152
+Li, P., Lelli, F., McGaugh, S., & Schombert, J. 2018, A&A, 615, A3
+Li, P., Tian, Y., Júlio, M. P., et al. 2023, Measuring galaxy cluster mass profiles
+into low acceleration regions with galaxy kinematics
+Liu, A., Bulbul, E., Ramos-Ceja, M. E., et al. 2023, A&A, 670, A96
+Mamon, G. A. & Łokas, E. L. 2005, MNRAS, 363, 705
+McCarthy, I. G., Schaye, J., Bird, S., & Le Brun, A. M. C. 2017, MNRAS, 465,
+2936
+McGaugh, S. S. 2011, Phys. Rev. Lett., 106, 121303
+McGaugh, S. S., Lelli, F., & Schombert, J. M. 2016, Phys. Rev. Lett., 117,
+201101
+McGaugh, S. S., Schombert, J. M., Bothun, G. D., & de Blok, W. J. G. 2000,
+ApJ, 533, L99
+Milgrom, M. 1983, ApJ, 270, 365
+Milgrom, M. 2008, New A Rev., 51, 906
+Nelson, D., Pillepich, A., Springel, V., et al. 2019a, MNRAS, 490, 3234
+Nelson, D., Springel, V., Pillepich, A., et al. 2019b, Computational Astrophysics
+and Cosmology, 6, 2
+Overzier, R. A. 2016, A&A Rev., 24, 14
+
+Yong Tian
+
+14.0
+
+et al.: A Distinct Radial Acceleration Relation across Brightest Cluster Galaxies and Galaxy Clusters
+Verheijen, M. A. W. 2001, ApJ, 563, 694
+Verwayen, P., Skordis, C., & Bœhm, C. 2023, arXiv e-prints, arXiv:2304.05134
+Yang, X., Mo, H. J., van den Bosch, F. C., et al. 2007, ApJ, 671, 153
+Zhao, H. & Famaey, B. 2012, Phys. Rev. D, 86, 067301
+Zwicky, F. 1933, Helvetica Physica Acta, 6, 110
+
++0.21
+y = 3.97+0.07
+0.07x + 0.67 0.21
+y = 3.85x + 1.99 (BTFR in spirals)
+50 MaNGA BCGs data
+20 CLASH BCGs data
+64 CLASH Clusters data
+
+13.5
+
+log10(Mbar)[M ]
+
+13.0
+12.5
+12.0
+
+Measurements
+
+11.5
+11.0
+10.5
+2.0
+
+40
+20
+0
+0.05 0.00
+
+0.05
+
+Residuals [Dex]
+
+2.5
+
+3.0
+
+3.5
+2
+log10(V)[kms ]
+
+4.0
+
+Fig. 4 The black solid line illustrates the fitting BTFR of all samples:
+
+log(Mbar /M⊙ ) = (3.97 ± 0.07) log(V/ms−1 ) − (0.67 ± 0.21). The orange
+shaded area illustrates the 1σ error of the best fit with the ODR MCMC
+method. The inset panel demonstrates the histograms of the orthogonal residuals of a whole sample (blue). For comparison, the galactic
+BTFR (Lelli et al. 2019) is depicted by the red dotted line. The plot displays the residuals for 50 MaNGA BCGs (black diamonds), 20 CLASH
+BCGs (green diamonds), and 64 data points from CLASH clusters (blue
+circles).
+
+Pradyumna, S., Gupta, S., Seeram, S., & Desai, S. 2021, Physics of the Dark
+Universe, 31, 100765
+Rines, K. J., Geller, M. J., Diaferio, A., & Hwang, H. S. 2016, ApJ, 819, 63
+Sanders, R. H. 1999, ApJ, 512, L23
+Sanders, R. H. 2003, MNRAS, 342, 901
+Sanders, R. H. 2010, MNRAS, 407, 1128
+Schaye, J., Crain, R. A., Bower, R. G., et al. 2015, MNRAS, 446, 521
+Skordis, C. & Złośnik, T. 2021, Phys. Rev. Lett., 127, 161302
+Springel, V., Pakmor, R., Pillepich, A., et al. 2018, MNRAS, 475, 676
+Tam, S.-I., Umetsu, K., Robertson, A., & McCarthy, I. G. 2023, ApJ, 953, 169
+Tian, Y., Cheng, H., McGaugh, S. S., Ko, C.-M., & Hsu, Y.-H. 2021a, ApJ, 917,
+L24
+Tian, Y. & Ko, C.-M. 2019, MNRAS, 488, L41
+Tian, Y., Umetsu, K., Ko, C.-M., Donahue, M., & Chiu, I. N. 2020, ApJ, 896, 70
+Tian, Y., Yu, P.-C., Li, P., McGaugh, S. S., & Ko, C.-M. 2021b, ApJ, 910, 56
+Umetsu, K. 2020, A&A Rev., 28, 7
+
+Article number, page 7 of 10
+
+A&A proofs: manuscript no. RAR_BCG
+
+Table 1.
+
+Properties and Results of 50 MaNGA BCGs
+
+plateifu
+
+z(a)
+
+NSérsic
+
+Reff
+[kpc]
+
+rlast (b)
+Reff
+
+m(c)
+
+b(c)
+
+log(Mbar )(d)
+[M⊙ ]
+
+⟨σlos ⟩(e)
+[km/s]
+
+log(gbar )
+[m/s2 ]
+
+log(gobs )
+[m/s2 ]
+
+8625-12704∗
+9181-12702∗
+9492-9101
+8258-3703
+8331-12701
+8600-12703∗
+8977-3703∗
+8591-3704
+8591-6102
+8335-6103
+9888-12703
+9043-3704∗
+8613-6102
+9002-3703
+8939-6104
+8455-12703∗
+9025-9101
+8239-6103
+9486-6103
+9000-9101
+8447-3702
+9891-9101
+8466-6104
+9891-3701
+8081-3701
+8131-3703
+9891-12701
+9085-6102
+9506-6103∗
+8943-3704
+9490-9102
+9043-9101
+8725-12704
+8989-12704
+8989-12703
+8728-3703
+9865-12703
+8717-1901
+8991-6102
+8555-3702
+8554-6103
+8995-6103
+8720-12705
+8615-12704
+8554-6102
+8616-12703
+8616-3702
+8247-9102∗
+9888-6104
+8725-6104
+
+0.027
+0.041
+0.053
+0.059
+0.061
+0.061
+0.074
+0.075
+0.076
+0.082
+0.083
+0.084
+0.086
+0.088
+0.088
+0.092
+0.096
+0.097
+0.098
+0.105
+0.109
+0.111
+0.113
+0.114
+0.115
+0.119
+0.120
+0.120
+0.120
+0.124
+0.125
+0.127
+0.129
+0.129
+0.130
+0.131
+0.131
+0.131
+0.133
+0.133
+0.133
+0.133
+0.135
+0.135
+0.136
+0.138
+0.138
+0.140
+0.147
+0.148
+
+4.6
+4.9
+4.0
+4.5
+6.0
+6.0
+4.1
+6.0
+6.0
+6.0
+6.0
+6.0
+6.0
+6.0
+6.0
+4.7
+5.2
+6.0
+6.0
+6.0
+6.0
+5.8
+6.0
+6.0
+6.0
+6.0
+6.0
+2.9
+6.0
+6.0
+5.0
+6.0
+6.0
+5.3
+6.0
+6.0
+6.0
+6.0
+6.0
+6.0
+6.0
+6.0
+6.0
+5.1
+5.6
+4.0
+6.0
+4.5
+6.0
+6.0
+
+9.7
+13.0
+18.0
+5.3
+11.0
+10.9
+7.2
+11.9
+8.2
+11.5
+13.5
+8.9
+10.3
+9.1
+5.3
+15.0
+17.9
+9.5
+11.5
+8.8
+9.8
+15.2
+13.1
+16.8
+8.2
+8.1
+18.3
+12.8
+12.3
+8.7
+16.1
+24.2
+29.5
+20.3
+13.2
+12.0
+11.5
+16.1
+13.1
+6.3
+14.5
+9.0
+23.6
+18.0
+12.7
+14.2
+12.5
+18.2
+13.8
+17.1
+
+0.86
+0.84
+0.84
+0.73
+0.86
+0.84
+0.73
+0.76
+0.81
+0.74
+0.86
+0.73
+0.78
+0.73
+0.73
+0.84
+0.81
+0.81
+0.81
+0.72
+0.76
+0.81
+0.74
+0.73
+0.73
+0.73
+0.81
+0.74
+0.78
+0.73
+0.84
+0.78
+0.84
+0.81
+0.78
+0.81
+0.73
+0.65
+0.78
+0.76
+0.74
+0.62
+0.78
+0.81
+0.74
+0.78
+0.76
+0.78
+0.77
+0.67
+
+-0.114
+-0.154
+-0.124
+-0.401
+-0.261
+0.029
+0.040
+-0.075
+-0.235
+0.127
+0.038
+-0.254
+-0.016
+-0.152
+-0.682
+-0.087
+0.318
+-0.543
+-0.030
+-0.309
+-0.375
+0.171
+-0.350
+-0.118
+-0.208
+-0.362
+0.482
+0.344
+-0.087
+-0.519
+0.035
+0.615
+0.655
+0.083
+0.491
+-0.360
+0.053
+-0.013
+-0.083
+-0.339
+0.001
+-0.315
+-0.250
+1.095
+0.044
+0.135
+-0.072
+0.355
+-0.081
+0.140
+
+1.046
+1.039
+1.048
+1.138
+1.108
+0.985
+0.976
+1.010
+1.097
+0.934
+0.976
+1.091
+0.989
+1.048
+1.123
+1.043
+0.860
+1.152
+1.014
+1.112
+1.153
+0.877
+1.129
+1.041
+1.075
+1.133
+0.853
+0.890
+1.025
+1.195
+0.972
+0.785
+0.770
+0.872
+0.832
+1.142
+1.018
+0.995
+1.024
+1.137
+0.974
+1.086
+0.950
+0.538
+0.965
+0.923
+1.033
+0.859
+1.030
+0.933
+
+11.541 ± 0.077
+11.622 ± 0.086
+11.785 ± 0.085
+11.246 ± 0.096
+11.231 ± 0.086
+11.332 ± 0.086
+11.475 ± 0.086
+11.506 ± 0.106
+11.435 ± 0.089
+11.575 ± 0.086
+11.542 ± 0.089
+11.473 ± 0.091
+11.807 ± 0.083
+11.171 ± 0.092
+11.309 ± 0.086
+11.559 ± 0.091
+11.813 ± 0.077
+11.361 ± 0.088
+11.401 ± 0.078
+11.225 ± 0.088
+11.596 ± 0.106
+11.609 ± 0.101
+11.552 ± 0.087
+11.462 ± 0.091
+11.556 ± 0.094
+11.592 ± 0.084
+11.442 ± 0.095
+11.702 ± 0.092
+11.578 ± 0.087
+11.697 ± 0.082
+11.619 ± 0.088
+11.582 ± 0.092
+12.068 ± 0.086
+11.758 ± 0.094
+11.644 ± 0.124
+11.596 ± 0.09
+11.498 ± 0.083
+11.493 ± 0.081
+11.654 ± 0.099
+11.457 ± 0.089
+11.594 ± 0.088
+11.458 ± 0.096
+11.236 ± 0.096
+11.572 ± 0.081
+11.775 ± 0.115
+11.884 ± 0.089
+11.581 ± 0.089
+11.734 ± 0.084
+11.729 ± 0.087
+11.614 ± 0.083
+
+293 ± 11
+265 ± 10
+293 ± 12
+192 ± 18
+197 ± 14
+219 ± 10
+248 ± 12
+283 ± 10
+262 ± 16
+321 ± 25
+307 ± 18
+225 ± 15
+334 ± 13
+200 ± 1
+267 ± 47
+212 ± 11
+284 ± 34
+245 ± 36
+243 ± 9
+203 ± 16
+251 ± 24
+268 ± 29
+211 ± 19
+209 ± 12
+281 ± 16
+277 ± 30
+303 ± 47
+315 ± 23
+293 ± 22
+269 ± 37
+284 ± 20
+338 ± 44
+499 ± 76
+300 ± 61
+284 ± 48
+234 ± 25
+218 ± 12
+272 ± 8
+264 ± 15
+238 ± 25
+305 ± 27
+213 ± 19
+230 ± 54
+495 ± 125
+312 ± 23
+309 ± 13
+287 ± 17
+334 ± 28
+273 ± 11
+287 ± 35
+
+-9.45 ± 0.08
+-9.57 ± 0.09
+-9.72 ± 0.09
+-8.97 ± 0.10
+-9.85 ± 0.09
+-9.70 ± 0.09
+-9.02 ± 0.09
+-9.46 ± 0.11
+-9.29 ± 0.09
+-9.32 ± 0.09
+-9.72 ± 0.09
+-9.17 ± 0.09
+-9.06 ± 0.08
+-9.49 ± 0.09
+-8.89 ± 0.09
+-9.76 ± 0.09
+-9.61 ± 0.08
+-9.51 ± 0.09
+-9.62 ± 0.08
+-9.39 ± 0.09
+-9.20 ± 0.11
+-9.67 ± 0.10
+-9.46 ± 0.09
+-9.73 ± 0.09
+-9.02 ± 0.09
+-8.97 ± 0.08
+-9.99 ± 0.10
+-9.35 ± 0.09
+-9.45 ± 0.09
+-8.93 ± 0.08
+-9.76 ± 0.09
+-10.04 ± 0.09
+-9.83 ± 0.09
+-9.77 ± 0.09
+-9.45 ± 0.12
+-9.47 ± 0.09
+-9.37 ± 0.08
+-9.49 ± 0.08
+-9.43 ± 0.10
+-8.96 ± 0.09
+-9.50 ± 0.09
+-8.95 ± 0.10
+-10.37 ± 0.10
+-9.85 ± 0.08
+-9.21 ± 0.12
+-9.30 ± 0.09
+-9.43 ± 0.09
+-9.66 ± 0.08
+-9.38 ± 0.09
+-9.47 ± 0.08
+
+-8.97 ± 0.03
+-9.17 ± 0.03
+-9.23 ± 0.04
+-8.92 ± 0.08
+-9.35 ± 0.06
+-9.25 ± 0.04
+-8.87 ± 0.04
+-8.99 ± 0.03
+-8.92 ± 0.05
+-8.87 ± 0.07
+-9.08 ± 0.05
+-9.00 ± 0.06
+-8.81 ± 0.03
+-9.13 ± 0.04
+-8.73 ± 0.15
+-9.41 ± 0.05
+-9.26 ± 0.10
+-9.10 ± 0.13
+-9.15 ± 0.03
+-9.07 ± 0.07
+-8.97 ± 0.08
+-9.26 ± 0.09
+-9.24 ± 0.08
+-9.35 ± 0.05
+-8.78 ± 0.05
+-8.77 ± 0.09
+-9.18 ± 0.13
+-8.98 ± 0.06
+-8.99 ± 0.07
+-8.82 ± 0.12
+-9.21 ± 0.06
+-9.22 ± 0.11
+-9.01 ± 0.13
+-9.32 ± 0.18
+-9.09 ± 0.15
+-9.18 ± 0.09
+-9.13 ± 0.05
+-9.02 ± 0.03
+-9.10 ± 0.05
+-8.83 ± 0.09
+-9.00 ± 0.08
+-8.92 ± 0.08
+-9.60 ± 0.20
+-8.98 ± 0.22
+-8.93 ± 0.06
+-9.06 ± 0.04
+-8.98 ± 0.05
+-9.10 ± 0.07
+-9.08 ± 0.03
+-9.05 ± 0.11
+
+Note. — (a) Redshift from MaNGA Pipe3D; (b) The last data point in terms of effective radius; (c) The slope m and intercept b
+fitted in the normalized velocity dispersion profile; (d) The baryonic mass including total stellar mass estimated by model photometry
+in SDSS DR15 and the measured gas mass in MaNGA marked with ∗ on the plateifu ID; (e) The average los velocity dispersion
+from MaNGA IFS.
+
+Article number, page 8 of 10
+
+et al.: A Distinct Radial Acceleration Relation across Brightest Cluster Galaxies and Galaxy Clusters
+
+Appendix A: The Gradient in the Mass-to-Light
+Ratio
+
+Appendix B: Scatters estimated by the Anisotropic
+Parameter
+In our exploration of potential sources of uncertainty, we diligently assessed the influence of anisotropy. We adopted the
+anisotropic model given by β = 0.5r/(r+ra ) as introduced by Mamon & Łokas (2005). Additionally, to represent our BCG samples, we utilized a Sérsic profile with Sérsic indices n spanning
+from 2 to 6.
+For systems exhibiting anisotropy, we aimed to emulate a
+nearly flat projected velocity dispersion (within 2%) to mirror
+the observed VD profiles of our BCG samples. While the observed VD profiles remain flat up to one effective radius in observations, we made an assumption of this flatness extending up
+to two effective radii. Using the parameter ra = 0.18rv = 14Re
+for β = 0.03 at one effective radius Re recommended by Mamon & Łokas (2005), where rv represents the virial radius, the
+resulting gobs deviates from the isotropic counterpart by less than
+1.2% (or a scatter of 0.005 dex) within one effective radius for
+all Sérsic indices in the range 2 ≤ n ≤ 6. For an extreme case
+with ra = 1.4Re for β = 0.21 at 1Re (Mamon & Łokas 2005;
+Dekel et al. 2005), the gobs deviates by at most 6% (or a scatter
+of 0.025 dex) within the same radius for all such n values.
+Considering alternative anisotropic models, such as β =
+1.3ra r/(r2 + ra2 ) from (Carlberg et al. 1997; Colín et al. 2000; Ma-
+
+8.5
+
++0.14
+y = 0.48+0.01
+0.01x 4.53 0.14
+RAR (McGaugh et al. 16)
+line of unity
+50 MaNGA BCGs (this work)
+20 CLASH BCGs (Tian et al. 20)
+64 CLASH Clusters data (Tian et al. 20)
+
+9.0
+
+log(gobs)[ms 2]
+
+To refine our analysis, we incorporated the gradient in the massto-light ratio, Υ∗ , within the inner regions of BCGs. Commonly,
+analyses employing SDSS model photometry operate under the
+assumption of a constant mass-to-light ratio, Υ. However, taking into consideration the variation of Υ∗ within BCGs can
+have implications. We therefore utilized the mass-to-light gradient (Salpeter-Chabrier model) as presented in Bernardi et al.
+(2018), expressed as Υ∗ (R) = Υ(1 + 1.29 − 3.33R/Re ), valid for
+R/Re ≤ 1.29/3.33, with the ratio remaining constant thereafter.
+This modification led to an increase in the stellar mass of approximately 10% to 20% across our sample. We conducted a separate
+analysis of this effect to illustrate the nuances it introduces to our
+findings.
+Upon meticulous examination of the mass-to-light ratio gradient, our observations indicated an absence of any pronounced
+enhancement in the dynamical acceleration within our BCG
+sample. This can be attributed to the fact that the mass-to-light
+ratio tends to stabilize as a constant when R/Re is sufficiently
+large. Delving into the Jeans equation, it becomes apparent that
+the gravitational acceleration gobs at a given radius R is contingent upon densities and velocity dispersions beyond that radius.
+Consequently, for gobs in the vicinity of 1Re , variations in the
+mass-to-light ratio within R < 0.39Re have a negligible influence.
+In analyzing the mass-to-light ratio gradient, we also examined the RAR to understand the influence of an increased baryonic acceleration in our sample. This enhancement principally
+appears as a horizontal shift in logarithmic space of around 0.04
+to 0.08 dex. Employing ODR with MCMC, we found that this
+shift gives rise to a shallower slope, represented by the relation
++0.14
+y = 0.48+0.01
+−0.01 x − 4.53−0.14 , see Fig. A.1. It is noteworthy that
+this enhancement leads to a small difference between the accumulative dynamical mass and stellar mass in some of the BCG
+samples, which poses challenges due to the implied deficiency
+in dark matter.
+
+8.0
+
+9.5
+10.0
+
+Measurements
+
+Yong Tian
+
+10.5
+11.0
+
+40
+30
+20
+10
+0
+
+0.2 0.0
+
+0.2
+
+9.0
+
+8.5
+
+Residuals [Dex]
+11.5
+11.5
+
+11.0
+
+10.5
+
+10.0
+
+9.5
+
+log(gbar)[ms 2]
+
+8.0
+
+Fig. A.1 The RAR of both BCGs and clusters is presented when
+considering the mass-to-light ratio gradient for 50 MaNGA BCGs.
+All symbols are the same as those in Fig. 2. The black solid
+line illustrates the resulting RAR of all samples: log(gobs /ms−2 ) =
+−2
++0.14
+0.48+0.01
+−0.01 log(gbar /ms ) − 4.53−0.14 . For comparison, the galactic RAR
+is depicted by the dot-dashed line, while the dotted line represents the
+line of unity.
+
+mon & Łokas 2005), and using ra = 2rv ≈ 156Re for β = 0.008 at
+1Re (Mamon & Łokas 2005), the derived gobs lies within a 0.3%
+deviation (or 0.001 dex scatter) for all Sérsic indices in the given
+range, when measured within one effective radius. The uncertainties stemming from anisotropy closely match the error bars
+from the measured velocity dispersion. As a result, our RAR calculations under the isotropy assumption emerge as remarkably
+robust.
+
+Appendix C: Triangle Diagrams of the MCMC
+Method
+In our analysis, we employed the MCMC method to investigate
+the tight correlations. The triangle diagrams depicting the regression parameters are presented in Fig. C.1 for four distinct scenarios: (1) the ODR MCMC for the RAR; (2) the vertical MCMC
+for the RAR; (3) the ODR MCMC for the mass correlation; and
+(4) the ODR MCMC for the RAR with a fixed slope m = 0.5.
+
+Article number, page 9 of 10
+
+A&A proofs: manuscript no. RAR_BCG
+
+Fig. C.1 The MCMC method in 70 BCGs and 64 CLASH cluster data. Upper-right panel: Triangle diagrams of the regression parameters in
+
++0.15
+the ODR MCMC method for the RAR, y = 0.52+0.01
+−0.01 x − 4.19−0.15 , with marginalized one-dimensional (histograms) and two-dimensional posterior
+distributions. Black contours represent 1σ and 2σ confidence regions. Upper-left panel: Triangle diagrams of the regression parameters in the
++0.15
+vertical MCMC method for the RAR, y = 0.50+0.01
+−0.01 x − 4.30−0.15 . Lower-right panel: Triangle diagrams of the regression parameters in the ODR
++0.24
+MCMC method for the mass correlation, y = 1.20+0.02
+x
+−
+1.74
+−0.02
+−0.24 . Lower-left panel: Triangle diagrams of the regression parameters in the ODR
+MCMC method for the RAR with a fixed slope m = 0.5.
+
+Article number, page 10 of 10
+
+

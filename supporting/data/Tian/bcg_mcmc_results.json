@@ -1,0 +1,13 @@
+{
+  "bcg_data": {
+    "n": 50,
+    "median_g_plus": 1.3124344927151868e-09,
+    "log_g_plus_median": -8.881922364236141,
+    "log_g_plus_std": 0.37168756036142164,
+    "log_g_plus_16pct": -9.276758807697636,
+    "log_g_plus_84pct": -8.572788053548802
+  },
+  "tian_2024_g_plus": 1.7e-09,
+  "sparc_galaxy_g_plus": 1e-10,
+  "ratio_cluster_galaxy": 13.124344927151867
+}
