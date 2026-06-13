@@ -1,0 +1,492 @@
+[
+  {
+    "name": "CamB",
+    "L": 0.075,
+    "Rdisk": 0.47,
+    "Vflat": 0.0,
+    "f_active": 0.001,
+    "r_core_frac": 0.3,
+    "scale": 1.0,
+    "resid": 0.250132401367741
+  },
+  {
+    "name": "D564-8",
+    "L": 0.033,
+    "Rdisk": 0.61,
+    "Vflat": 0.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.7159224632856844
+  },
+  {
+    "name": "D631-7",
+    "L": 0.196,
+    "Rdisk": 0.7,
+    "Vflat": 57.7,
+    "f_active": 0.2,
+    "r_core_frac": 0.1,
+    "scale": 1.0,
+    "resid": 0.6105347341544525
+  },
+  {
+    "name": "DDO064",
+    "L": 0.157,
+    "Rdisk": 0.69,
+    "Vflat": 46.1,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.6356669065124949
+  },
+  {
+    "name": "DDO154",
+    "L": 0.053,
+    "Rdisk": 0.37,
+    "Vflat": 47.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.7620876755591646
+  },
+  {
+    "name": "DDO161",
+    "L": 0.548,
+    "Rdisk": 1.22,
+    "Vflat": 66.3,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.4564799257989144
+  },
+  {
+    "name": "DDO168",
+    "L": 0.191,
+    "Rdisk": 1.02,
+    "Vflat": 53.4,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.5529556338745154
+  },
+  {
+    "name": "DDO170",
+    "L": 0.543,
+    "Rdisk": 1.95,
+    "Vflat": 60.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.6110363893974476
+  },
+  {
+    "name": "ESO079-G014",
+    "L": 51.733,
+    "Rdisk": 5.08,
+    "Vflat": 175.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.4763757731407347
+  },
+  {
+    "name": "ESO116-G012",
+    "L": 4.292,
+    "Rdisk": 1.51,
+    "Vflat": 109.1,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.5863320435457513
+  },
+  {
+    "name": "ESO444-G084",
+    "L": 0.071,
+    "Rdisk": 0.46,
+    "Vflat": 0.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.786833644450076
+  },
+  {
+    "name": "ESO563-G021",
+    "L": 311.177,
+    "Rdisk": 5.45,
+    "Vflat": 314.6,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.4234089538870405
+  },
+  {
+    "name": "F565-V2",
+    "L": 0.559,
+    "Rdisk": 2.17,
+    "Vflat": 0.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.8804322338207173
+  },
+  {
+    "name": "F568-3",
+    "L": 8.346,
+    "Rdisk": 4.99,
+    "Vflat": 0.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.6766698726034288
+  },
+  {
+    "name": "F568-V1",
+    "L": 3.825,
+    "Rdisk": 2.85,
+    "Vflat": 112.3,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.9360831921872012
+  },
+  {
+    "name": "F571-8",
+    "L": 10.164,
+    "Rdisk": 3.56,
+    "Vflat": 139.7,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.5169393845720036
+  },
+  {
+    "name": "F574-1",
+    "L": 6.537,
+    "Rdisk": 4.46,
+    "Vflat": 97.8,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.758174178140182
+  },
+  {
+    "name": "F583-1",
+    "L": 0.986,
+    "Rdisk": 2.36,
+    "Vflat": 85.8,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.9399576859313027
+  },
+  {
+    "name": "F583-4",
+    "L": 1.715,
+    "Rdisk": 1.93,
+    "Vflat": 0.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.6265068781213545
+  },
+  {
+    "name": "IC2574",
+    "L": 1.016,
+    "Rdisk": 2.78,
+    "Vflat": 66.4,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.6084334367306191
+  },
+  {
+    "name": "IC4202",
+    "L": 179.749,
+    "Rdisk": 4.78,
+    "Vflat": 242.6,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.24669592311109878
+  },
+  {
+    "name": "KK98-251",
+    "L": 0.085,
+    "Rdisk": 1.34,
+    "Vflat": 33.7,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.39376824816696016
+  },
+  {
+    "name": "NGC0024",
+    "L": 3.889,
+    "Rdisk": 1.34,
+    "Vflat": 106.3,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.6118003267015488
+  },
+  {
+    "name": "NGC0055",
+    "L": 4.628,
+    "Rdisk": 6.11,
+    "Vflat": 85.6,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.4592076281690011
+  },
+  {
+    "name": "NGC0100",
+    "L": 3.232,
+    "Rdisk": 1.66,
+    "Vflat": 88.1,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.566810175933747
+  },
+  {
+    "name": "NGC0247",
+    "L": 7.332,
+    "Rdisk": 3.74,
+    "Vflat": 104.9,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.5934959002548521
+  },
+  {
+    "name": "NGC0289",
+    "L": 72.065,
+    "Rdisk": 6.74,
+    "Vflat": 163.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.5461879911407599
+  },
+  {
+    "name": "NGC0300",
+    "L": 2.922,
+    "Rdisk": 1.75,
+    "Vflat": 93.3,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.6911220776189598
+  },
+  {
+    "name": "NGC0801",
+    "L": 312.57,
+    "Rdisk": 8.72,
+    "Vflat": 220.1,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.2119708181464272
+  },
+  {
+    "name": "NGC0891",
+    "L": 138.34,
+    "Rdisk": 2.55,
+    "Vflat": 216.1,
+    "f_active": 0.2,
+    "r_core_frac": 0.2,
+    "scale": 1.0,
+    "resid": 0.16903142790689174
+  },
+  {
+    "name": "NGC1003",
+    "L": 6.82,
+    "Rdisk": 1.61,
+    "Vflat": 109.8,
+    "f_active": 0.001,
+    "r_core_frac": 0.5,
+    "scale": 1.0,
+    "resid": 0.7002633146995629
+  },
+  {
+    "name": "NGC1090",
+    "L": 72.045,
+    "Rdisk": 3.53,
+    "Vflat": 164.4,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.341554415803461
+  },
+  {
+    "name": "NGC2403",
+    "L": 10.041,
+    "Rdisk": 1.39,
+    "Vflat": 131.2,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.35740407199253843
+  },
+  {
+    "name": "NGC2683",
+    "L": 80.415,
+    "Rdisk": 2.18,
+    "Vflat": 154.0,
+    "f_active": 0.001,
+    "r_core_frac": 0.5,
+    "scale": 1.0,
+    "resid": 0.4087048349046029
+  },
+  {
+    "name": "NGC2841",
+    "L": 188.121,
+    "Rdisk": 3.64,
+    "Vflat": 284.8,
+    "f_active": 0.001,
+    "r_core_frac": 0.5,
+    "scale": 1.0,
+    "resid": 0.36669430963367855
+  },
+  {
+    "name": "NGC2903",
+    "L": 81.863,
+    "Rdisk": 2.33,
+    "Vflat": 184.6,
+    "f_active": 0.001,
+    "r_core_frac": 0.1,
+    "scale": 1.0,
+    "resid": 0.326918240019718
+  },
+  {
+    "name": "NGC2915",
+    "L": 0.641,
+    "Rdisk": 0.55,
+    "Vflat": 83.5,
+    "f_active": 0.001,
+    "r_core_frac": 0.5,
+    "scale": 1.0,
+    "resid": 1.099270592495842
+  },
+  {
+    "name": "NGC2955",
+    "L": 319.422,
+    "Rdisk": 18.76,
+    "Vflat": 0.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.09410108207283355
+  },
+  {
+    "name": "NGC2976",
+    "L": 3.371,
+    "Rdisk": 1.01,
+    "Vflat": 85.4,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.22923655946345864
+  },
+  {
+    "name": "NGC2998",
+    "L": 150.902,
+    "Rdisk": 6.2,
+    "Vflat": 209.9,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.43234091469712754
+  },
+  {
+    "name": "NGC3109",
+    "L": 0.194,
+    "Rdisk": 1.56,
+    "Vflat": 66.2,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.8835827912427653
+  },
+  {
+    "name": "NGC3198",
+    "L": 38.279,
+    "Rdisk": 3.14,
+    "Vflat": 150.1,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.38111808749157194
+  },
+  {
+    "name": "NGC3521",
+    "L": 84.836,
+    "Rdisk": 2.4,
+    "Vflat": 213.7,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.0903642071694485
+  },
+  {
+    "name": "NGC3726",
+    "L": 70.234,
+    "Rdisk": 3.4,
+    "Vflat": 168.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.2138144232716868
+  },
+  {
+    "name": "NGC3741",
+    "L": 0.028,
+    "Rdisk": 0.2,
+    "Vflat": 50.1,
+    "f_active": 0.001,
+    "r_core_frac": 0.5,
+    "scale": 1.0,
+    "resid": 0.9866979966883905
+  },
+  {
+    "name": "NGC3769",
+    "L": 18.679,
+    "Rdisk": 3.38,
+    "Vflat": 118.6,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.4619784736434571
+  },
+  {
+    "name": "NGC3877",
+    "L": 72.535,
+    "Rdisk": 2.53,
+    "Vflat": 168.4,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.17886510388419896
+  },
+  {
+    "name": "NGC3893",
+    "L": 58.525,
+    "Rdisk": 2.38,
+    "Vflat": 174.0,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.3373254679272859
+  },
+  {
+    "name": "NGC3917",
+    "L": 21.966,
+    "Rdisk": 2.63,
+    "Vflat": 135.9,
+    "f_active": 0.2,
+    "r_core_frac": 0.05,
+    "scale": 1.0,
+    "resid": 0.46272662911766316
+  }
+]
