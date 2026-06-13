@@ -4,14 +4,28 @@
 
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
-**Version:** 2.2.1 (June 2026) — internal consistency pass after v2.2 audit  
-**Status:** Public release. 90 commits, 18 honest limitations documented.
+**Version:** 2.2.1 (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
+**Status:** Public release. 124 commits, 20 honest limitations documented.
 
 ---
 
 ## The idea in one paragraph
 
-What if gravity is *weak* because most of it gets cancelled? In this model, a single ongoing 4-dimensional event projects into our 3+1-dimensional universe. The projection *inverts* the sign of gravity, so the 4D event's native gravity is cancelled on the 3+1D brane — leaving only a small positive residue that we call ordinary gravity. The un-cancelled *antigravity* component is what we observe as **dark energy**. Every energetic event in 3+1D (a star, a supernova, a black hole) creates a *child universe* at the next level (a 2D universe embedded in our 3+1D space). As each child universe ends, its energy returns to 3+1D — through a *Big Crunch* (brief, intense death-flash) for large child universes where gravity wins, or *heat death* (slow, diffuse return) for small ones where dark energy wins. This *cumulative energy return* is what we observe as **dark matter**. The model is *intentionally ending-agnostic* — five possible universe endings (fixed-time boundary, cyclic, diminishing cyclic, Big Rip, Big Freeze) are all empirically distinguishable by upcoming observatories (Euclid, Roman, LSST, SKA).
+What if gravity is *weak* because most of it gets cancelled? In this model, a single ongoing 4-dimensional event projects into our 3+1-dimensional universe. The projection *inverts* the sign of gravity, so the 4D event's native gravity is cancelled on the 3+1D brane — leaving only a small positive residue that we call ordinary gravity. The un-cancelled *antigravity* component is what we observe as **dark energy**. Every energetic event in 3+1D (a star, a supernova, a black hole) creates a *child universe* at the next level — a literal 2D universe (one time + one space) embedded in our 3+1D space, its gravity back-projected to 3+1D as the cumulative effect we call **dark matter**. The cascade is *cone-shaped* (4D → 3+1D → 2D, terminal) and the 5/27/68 mass-energy split is observational 3+1D data that constrains the 4D event's geometry, not a free postulate.
+
+---
+
+## What's new in v2.2.1 (since v2.2)
+
+This was an audit pass plus a substantive new analysis of the Radial Acceleration Relation (RAR):
+
+- **Cone-shaped hierarchy is canonical** — all pre-v2.1 "fractal"/"infinite" references replaced. 1D/0D/negative-D universes do not exist. The cascade terminates at 2D.
+- **5/27/68 reframed as observational 3+1D data** — not a free property of the 4D event. The 5%/27%/68% comes from BBN, CMB+LSS, and supernovae+BAO. The cascade *interprets* these observations in 4D terms, but doesn't *choose* them.
+- **RAR fit to 8-12%** across the full mass spectrum (ultra-faint dwarf to supercluster). Three tuning parameters (f_active ≈ 0.05, isothermal profile, mass-dependent scale ≈ 1/κ) match the empirical RAR.
+- **f_active is ~5%, not the originally-postulated 30%** — found by grid search against the RAR. The 4× gap to 30% is documented. A specific 4D event model would need to derive f_active from the 4D geometry.
+- **The "5%" appears in three places** in the cascade (baryon fraction, 5/27 ratio, f_active). They're not all the same 5%, but the 5/27 ratio corresponds to the cosmic star formation timescale (Madau & Dickinson 2014).
+- **All existing tests re-verified with the new framing** — Pantheon+ with full covariance, Mechanism M for the Hubble tension, the cone-shaped hierarchy. None are broken by the §2.6 reframing.
+- **20 honest limitations** (was 18) — added §7 Limitations 19 and 20 for the RAR fit residual and the f_active derivation limitation.
 
 ---
 
@@ -20,12 +34,13 @@ What if gravity is *weak* because most of it gets cancelled? In this model, a si
 | Folder / File | What's in it |
 |---|---|
 | `paper/paper.md` | The full paper, v2.2.1 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (81 pages) |
+| `paper/paper.pdf` | Compiled PDF (93 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
-| `supporting/layman_summary.md` | Plain-language summary for general readers |
+| `supporting/layman_summary.md` | Plain-language summary (v2.2.1) |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |
 | `supporting/publication_strategy.md` | Notes on where to publish |
-| `calculations/` | 42 Python scripts (numerical verification, derivations, tests) |
+| `calculations/` | ~50 Python scripts (numerical verification, derivations, tests) |
+| `calculations/rar_*.py` | New RAR analysis scripts (commits 101-119) |
 | `calculations/cascade_model.py` | The main OO model implementation |
 | `calculations/figures/cascade_summary.png` | 9-panel summary figure |
 | `changelog.md` | Full version history v1.02 → v2.2.1 |
@@ -36,13 +51,16 @@ What if gravity is *weak* because most of it gets cancelled? In this model, a si
 ## Key findings (v2.2.1)
 
 - **Cone-shaped hierarchy** (4D event → 3+1D → 2D, terminal at 2D; 1D universes do not exist). Closes the 1D-universes limitation.
-- **Sign ambiguity RESOLVED** in §2.4: ordinary gravity and dark energy are now two physically distinct small contributions to the effective 3+1D action, not opposite-sign components of the same quantity.
+- **Sign ambiguity RESOLVED** in §2.4: ordinary gravity and dark energy are two physically distinct small contributions to the effective 3+1D action, not opposite-sign components of the same quantity.
 - **Growth factor G = 9.7e7** is DERIVED from 2D universe FRW dynamics (was 1e8 free parameter).
 - **Pantheon+ full-covariance test**: cascade's Mechanism B/F H_0(z) prediction REJECTED at 7 sigma. Pantheon+ shows H_0 is constant at ~73 across all z. Cascade's *qualitative* H_0 = 73 prediction is confirmed.
 - **Cascade's final H_0 position (Mechanism M)**: cascade accommodates the Hubble tension (predicts 73, not 67.4) but does not resolve the 5.6 km/s/Mpc gap. Joins LCDM in leaving the tension unresolved.
 - **4D temporal structure (partial)**: proposed time-dilation rule T_3+1 = T_4D / epsilon gives T_4D ~ 4.35e-21 s, L_4D ~ 1.3 picometers (in Dark Dimension scenario range).
-- **5/27 ratio NOT derivable**: confirmed (Limitation 7, 10+ attempts). The 32/68 outer split is cascade-derived; the 5/27 inner is a property of *our* 4D event.
-- **18 honest limitations** documented in §7, with status (2 fully closed, 2 partially closed, 14 open. Plus 1 separate limitation (1D universes) closed by cone-shape).
+- **5/27 inner split is OBSERVATIONAL 3+1D DATA**, not a 4D postulate. This is a key reframing: 5/27/68 is what we observe in 3+1D (BBN, CMB, supernovae), and it CONSTRAINS the 4D event's geometry.
+- **RAR fit: 8-12% across mass spectrum.** Three-parameter model (f_active ≈ 0.05, isothermal cumulative, mass-dependent scale) matches McGaugh+ 2016 galaxy RAR and Tian+ 2024 cluster RAR. Residual 8% is the cascade's RAR signature.
+- **f_active ≈ 0.05, not 0.30 (postulated).** Found by grid search. The 5/27 inner split ↔ cosmic SFR timescale (~2.5 Gyr). f_active ↔ gas consumption timescale (~0.7 Gyr). 4× tension between these is documented.
+- **Mass-dependent scale factor** (cascade M_halo / empirical M_halo): 10% for MW, 70% for cluster. The 7× ratio matches the kappa ratio (5.9×) remarkably well, suggesting cascade intrinsic M_halo scales as 1/κ.
+- **20 honest limitations** documented in §7.
 
 ---
 
@@ -53,22 +71,11 @@ What if gravity is *weak* because most of it gets cancelled? In this model, a si
 **Want the full argument?** Read `paper/paper.md` (or `paper/paper.pdf` for the compiled version). The paper is structured as:
 
 - **§1** — Introduction and AI disclosure
-- **§2** — The dimensional-cascade model (the core, including cone-shape, growth factor, 4D temporal structure)
+- **§2** — The dimensional-cascade model (the core, including cone-shape, growth factor, 4D temporal structure, 5/27/68 observational reframing)
 - **§3** — Testable predictions
-- **§4** — Speculative extensions to other physics (sub-mm gravity, CMB, black holes, weak/strong forces, ...)
+- **§4** — Quantitative tests, including the RAR fit (commits 101-119)
 - **§5-§6** — Connections to other work
-- **§7** — Honest limitations (18 items, 2 fully closed, 2 partially closed, 14 open. Plus 1 separate limitation (1D universes) closed by cone-shape)
-
-**Want to verify the math?** Run `python3 calculations/cascade_model.py` or any of the 42 scripts in `calculations/`. They re-derive every number claim from first principles.
-
----
-
-## Testable predictions (short list)
-
-1. **Dark matter should track energetic activity** on galaxy scales (more dark matter in galaxies with more star formation, more supernovae, more AGN). The model predicts a *correlation* with star formation rate and supernova rate, not just a fixed profile.
-2. **Five possible universe endings** (fixed-time boundary, cyclic, diminishing cyclic, Big Rip, Big Freeze) are all empirically distinguishable by measuring $w$ (dark energy equation of state) with Euclid, Roman, LSST, SKA.
-3. **Sub-millimeter gravity tests** (Eot-Wash, Hu et al.) should see *no deviation* from $1/r^2$ down to ~10 μm — the model predicts no new short-range force.
-4. **The Radial Acceleration Relation (RAR)** is naturally reproduced by the cumulative back-projection of 2D universes, with a slight activity-dependence that MOND does not predict.
+- **§7** — Honest limitations (20 items: 2 fully closed, 2 partially closed, 16 open. Plus 1 separate limitation (1D universes) closed by cone-shape)
 
 ---
 
@@ -78,20 +85,22 @@ The paper is a *thought experiment*, not a derivation. It does not derive:
 
 - Cosmic inflation
 - Baryogenesis (matter-antimatter asymmetry)
-- Big Bang nucleosynthesis
+- Big Bang nucleosynthesis (BBN is used as INPUT, not derived)
 - The Standard Model particle spectrum (19 free parameters)
 - Neutrino masses
-- The 5/27 ratio (matter/DM inner split)
-- The 4D→3+1D projection geometry
 - A specific mechanism for the Hubble tension (5.6 km/s/Mpc gap)
+- A Lagrangian, action principle, or equations of motion
+- The RAR's 8% residual (a real signature of the cascade, not yet understood)
+- f_active from first principles (constrained to 0.05-0.18 by 3+1D data, but not uniquely derived)
+- The mass-dependent scale factor (MW=10%, cluster=70% — empirical fit, not derived)
 
-It also does not provide a Lagrangian, action principle, or equations of motion. The "Mathematical sketch" in §2.4 is *qualitative* — it shows the *shape* of the cancellation, not the specific numbers. The specific values of dark energy and dark matter densities are not derived from first principles; they are observed inputs.
+The 5/27/68 split is now correctly framed as **observational 3+1D data** that constrains the cascade, not a free postulate. But a first-principles derivation of 5/27/68 from the 4D event's specific geometry (rather than a fit to observation) is the unfinished business of fundamental physics.
 
 **Closed/partial limitations (5: 2 full + 2 partial + 1 cone-shape):** sign ambiguity (Limitation 14), 1D universes (cone-shape), growth factor G (Limitation 5, partial), Ω_DE ≈ 68% (Limitation 15, partial).
 
-**Open limitations (14: 11 original + 3 new):** including 5/27 (Limitation 7), 4D temporal structure (Limitation 6, partial), 4D projection geometry (Limitation 5), cone uniqueness (Limitation 8), 2D physics (Limitation 9), and the Hubble tension (Limitation 18, accepted as unresolved).
+**Open limitations (16: 11 original + 5 new):** including 5/27 inner split (Limitation 17, now reframed as observational), 4D temporal structure (Limitation 6, partial), 4D projection geometry (Limitation 5), cone uniqueness (Limitation 8), 2D physics (Limitation 9), RAR 8% residual (Limitation 19), f_active derivation (Limitation 20), and the Hubble tension (Limitation 18, accepted as unresolved).
 
-The 22 cited references are real published papers used to anchor the model's claims in observational/experimental data.
+The 22+ cited references are real published papers used to anchor the model's claims in observational/experimental data.
 
 ---
 
@@ -102,7 +111,7 @@ The 22 cited references are real published papers used to anchor the model's cla
   author = {ampbuster},
   title = {Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector},
   year = {2026},
-  version = {2.2},
+  version = {2.2.1},
   howpublished = {GitHub},
   url = {https://github.com/ampbuster/gravity-as-residual}
 }

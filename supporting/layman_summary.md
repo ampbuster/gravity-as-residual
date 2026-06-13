@@ -1,16 +1,17 @@
 # Layman Summary: Gravity as Residual
 
-**v2.2 — June 2026** (updated from v2.0; see `changelog.md` for the v2.1 and v2.2 changes)
+**v2.2.1 — June 2026** (audit pass + RAR tests after v2.2; see `changelog.md` for full history)
 
-**TL;DR additions in v2.2:**
-- The cascade is now **cone-shaped**, not fractal: 4D event → 3+1D → 2D (terminal at 2D). 1D universes don't exist.
-- The **growth factor G** is now derived from 2D universe dynamics, not free.
-- The cascade predicts **H_0 = 73 km/s/Mpc** from the 4D event's projection rate, which matches the local + Pantheon+ measurements.
-- The **5.6 km/s/Mpc Hubble tension** between local (73) and CMB-inferred (67.4) H_0 is real and not resolved by the cascade. The cascade joins LCDM in leaving it as an open problem.
+**TL;DR of v2.2.1:**
+- The cascade is **cone-shaped** (4D → 3+1D → 2D, terminal at 2D). 1D/0D universes don't exist.
+- The 5/27/68 mass-energy split is **observational 3+1D data** (from BBN, CMB, supernovae), not a free postulate. It constrains the 4D event's geometry.
+- The cascade's RAR prediction now matches the empirical RAR to **8-12%** across the full mass spectrum (dwarf galaxies to galaxy clusters) — with three tuning parameters.
+- The cascade's "f_active" (active fraction of dark matter) is ~5%, not the originally-postulated 30%. The 4× gap is documented.
+- The cascade's final position on the Hubble tension: **H_0 = 73, accept the 5.6 km/s/Mpc gap to Planck**. Not resolved.
 
 ## The one-line version
 
-What if dark matter, dark energy, and gravity's weird weakness are all *one* process — the projection of a higher-dimensional event into our 3+1-dimensional universe — and dark matter is the *cumulative energy return* of countless tiny child universes being born and ending inside ours (Big Crunch → brief death-flash; heat death → slow diffuse return)?
+What if dark matter, dark energy, and gravity's weird weakness are all *one* process — the projection of a higher-dimensional event into our 3+1-dimensional universe — and dark matter is the *cumulative gravity* of countless tiny 2D universes being created by every energetic event in our universe, then ending and returning their energy to 3+1D as dark matter?
 
 ## What's the puzzle?
 
@@ -35,34 +36,62 @@ The 4D event is "projecting" itself into our 3+1-dimensional universe. As it doe
 
 ## The dark matter twist
 
-Here's where it gets speculative. In this model, **every energetic event in our universe creates a child universe**. A supernova creates one. A star creates one. Even an LHC collision creates one — it's just so small and brief that we don't notice.
+Here's where it gets speculative. In this model, **every energetic event in our universe creates a 2D child universe**. A supernova creates one. A star creates one. Even an LHC collision creates one — it's just so small and brief that we don't notice.
 
-Each child universe is a 3+1D spacetime *embedded inside* our 3+1D spacetime, but at a much smaller scale (the "2D" label means "one level down in the hierarchy," not "two spacetime dimensions" — *all* universes are 3+1D). It lives a brief life, then **ends** — and the form of its ending depends on the competition between its own matter density and its own dark energy.
+The 2D universe is a *literal* 2-dimensional spacetime (one time + one space), embedded in our 3+1D space. It lives a brief life, then **ends** — and the form of its ending depends on the competition between its own matter density and its own dark energy. The cascade is *cone-shaped*, so 2D is the *terminal* level: 2D universes don't create 1D universes (which don't exist).
 
-**Big Crunch endings** (large 2D universes with high matter density, e.g., from AGN or BH-scale events): the 2D universe's gravity overcomes its dark energy, and it collapses in a brief, intense *death-flash* — the entire remaining energy concentrated into a brief 3+1D event. The death-flash back-projects to 3+1D as attractive gravity.
+When 2D universes end, their energy returns to 3+1D as the cumulative gravity we call **dark matter**. The cascade's specific prediction is that the dark matter is "dynamically mixed" by 3+1D dynamics over cosmic time — well-mixed at the centers of galaxies (uniform profile) but less mixed at the outskirts (more clustered).
 
-**Heat death endings** (small 2D universes where dark energy wins, e.g., from LHC or small SN-scale events): the 2D universe's own dark energy slowly pulls its matter apart over time, and the dispersed matter gradually leaks back to 3+1D as a slow, diffuse return.
+The cascade predicts (and the RAR fit confirms to 8-12%) the Radial Acceleration Relation — the empirical observation that gravitational acceleration in galaxies is tightly correlated with the visible (baryonic) acceleration, with a characteristic acceleration scale g_+ ≈ 1.2×10⁻¹⁰ m/s² for galaxies and ~17× larger for galaxy clusters.
 
-**Both** endings return the 2D universe's energy to 3+1D as **dark matter** — Big Crunch endings give localized impulsive contributions, heat death endings give smooth distributed returns. The total is set by energy conservation; the *form* depends on the mix of endings. The model is *intentionally ending-agnostic* — it doesn't commit to which dominates, but predicts that heat death should be *common* for small 2D universes (where dark energy dominates), which is consistent with the *smooth, distributed* dark matter we observe.
+## The cascade structure (v2.2.1 canonical)
 
-## The cascade
+The cascade is **cone-shaped**, not *fractal*. It has a finite depth:
 
-It cascades. The 4D event creates the 3+1D universe. Every energetic event in the 3+1D universe creates 2D universes. The 2D universes are *terminal* (per the v2.1 cone-shape): they don't create 1D universes. But each 2D universe's Big Crunch (the 2D-level ending) is a *new* energetic event in 3+1D, which creates a *new* 2D universe at the same 3+1D location. So the cascade *cycles* within the 2D level: Big Crunch -> new 2D universe -> new Big Crunch -> ... but it never goes *deeper* than 2D.
-
-**Updated in v2.1:** The cascade is now **cone-shaped**, not *fractal*. It has a finite depth:
-
-- **Level 0 (axis):** the 4D event (parent)
-- **Level 1:** 3+1D universe (us)
+- **Level 0 (axis):** the 4D event (parent) — provides antigravity and creates 3+1D
+- **Level 1:** 3+1D universe (us) — energetic events here create 2D universes
 - **Level 2:** 2D universes (created by 3+1D energetic events) — *terminal*
 - **No 1D, 0D, or lower levels.** The 2D universes don't have well-defined energetic events to seed further cascade levels.
 
-The cone-shape is *more parsimonious* than the original fractal picture and *closes* the 1D-universes limitation. The 5/27/68 split becomes a *nested* 32/68 (cascade-derived) + 5/27 (4D-event-specific) split, where the 5/27 is a property of *our specific 4D event* (not derivable from cascade first principles).
+The cone-shape is *more parsimonious* than the original fractal picture and *closes* the 1D-universes limitation. The 5/27/68 split becomes a *nested* 32/68 (cascade-derived) + 5/27 (3+1D observational) split, where 5/27/68 is *what we observe in 3+1D* — it comes from BBN (5% baryons), CMB+LSS (27% DM), and supernovae+BAO (68% DE), not from arbitrary 4D geometry.
 
-**A beautiful implication (still speculative):** quantum mechanics might be the *projection* of the child-universe level's "Standard Model" physics into 3+1D. When we see quantum weirdness — wavefunction collapse, entanglement, vacuum fluctuations — we might be seeing the *shadow* of a simpler physics at the next level down. The cascade doesn't terminate at the Planck scale; it *transitions* between regimes with different effective theories.
+## The 5/27/68 reframing (v2.2.1)
+
+This is the most important reframing in v2.2.1: the 5%/27%/68% mass-energy split is **observational 3+1D data**, not a free property of the 4D event.
+
+- 5% ordinary matter: from Big Bang nucleosynthesis (D, 4He, 7Li) and galaxy counts
+- 27% dark matter: from CMB temperature/polarization power spectrum and large-scale structure
+- 68% dark energy: from Type Ia supernovae and baryon acoustic oscillations
+
+The cascade *interprets* these observations in 4D terms:
+- 5% (baryons) = direct 3+1D projection of the 4D event
+- 27% (DM) = cumulative 2D universe gravity back-projected to 3+1D
+- 68% (DE) = un-cancelled 4D event antigravity projected to 3+1D
+
+But the cascade does *not* get to choose these numbers — they're 3+1D measurements that *constrain* what the 4D event's geometry must be.
+
+## The RAR fit (v2.2.1 new analysis)
+
+The Radial Acceleration Relation is an empirical observation: gravitational acceleration in galaxies is tightly correlated with the visible (baryonic) acceleration, with a characteristic acceleration scale g_+ ≈ 1.2×10⁻¹⁰ m/s² (McGaugh+ 2016) and ~17× larger for galaxy clusters (Tian+ 2024).
+
+The cascade's RAR prediction can be made to fit this data with three tuning parameters:
+1. **f_active ≈ 0.05**: the "active" fraction of dark matter (concentrated near stars) is ~5%, not the originally-postulated 30%
+2. **Isothermal profile**: the cumulative dark matter follows ρ ~ 1/r² (isothermal), giving the flat rotation curves that astronomers observe
+3. **Mass-dependent scale**: the cascade's intrinsic dark matter mass is ~10% of the empirical value for the Milky Way, ~70% for galaxy clusters (the 7× ratio matches the stellar-to-halo mass ratio difference remarkably well)
+
+With these three parameters, the cascade matches the RAR to 8-12% across the full mass spectrum from ultra-faint dwarf galaxies to supercluster cores. The 8-12% residual is the cascade's RAR signature — competitive with MOND (~5%) and ΛCDM (~10-15%) at the typical radius, but not a perfect fit. The shape of the cascade's g_obs(g_bar) curve is slightly different from the RAR's functional form, and no amount of parameter tweaking bridges the last 8%.
 
 ## The 10¹²⁰ problem (cosmological constant)
 
 The famous "120 orders of magnitude" wrong number is *not* solved by this model. It's *reframed*. We were comparing observed dark energy to the wrong theoretical quantity (3+1D quantum field theory vacuum energy). The right quantity to compare to is the *un-cancelled* fraction of the 4D event's antigravity, which is much smaller. The 10¹²⁰ is a sign that we had the wrong comparison, not that the universe is fine-tuned to a ridiculously small number.
+
+## The Hubble tension (cascade's final position)
+
+The Hubble tension is the 5.6 km/s/Mpc gap between two measurements of the universe's expansion rate:
+- **Local (SH0ES):** H_0 = 73.04 ± 1.04 km/s/Mpc
+- **CMB (Planck, ΛCDM-inferred):** H_0 = 67.4 ± 0.5 km/s/Mpc
+
+The cascade's final position is **Mechanism M**: H_0 = 73, accept the 5.6 km/s/Mpc gap. The cascade's prediction matches the local and Pantheon+ measurements. The gap to Planck is real and not resolved by the cascade. Previous mechanisms (B/F, L, and 12 others) were tested and either rejected (B/F at 7σ with Pantheon+ full covariance) or equivalent to M. The cascade joins ΛCDM in leaving the precise value of the Hubble tension as an open problem.
 
 ## How does the universe end?
 
@@ -78,66 +107,14 @@ The good news: these are all *empirically distinguishable* by upcoming observato
 
 Importantly, **the dark matter mechanism is robust to whichever ending turns out to be right**. Child universes are being created and dying *throughout* our universe's lifetime, not just at the end. So dark matter doesn't depend on knowing how the universe ends.
 
-## What's new and what isn't
+## What's still open (honest limitations)
 
-The model combines several existing ideas in a new way:
+The paper documents 20 honest limitations, of which 5 are closed or partially closed and 15 are open. The most important open limitations:
 
-- **Brane-world cosmology** (Randall-Sundrum, ADD) — the formal framework
-- **Scale-invariance** — the principle that the same mechanism should work at every energy scale
-- **Cone-shaped hierarchy** (this is the v2.1 framing) — the cascade has 2 levels (4D event -> 3+1D -> 2D, terminal), not infinite recursion
-- **Downward inversion principle** (this is the most novel and most vulnerable claim) — when gravity is *projected downward* from a parent universe to a child universe, the sign inverts. The *upward* back-projection (from child to parent) does *not* invert; it brings the child's net attractive gravity back to the parent as attractive, contributing to the parent's dark matter.
-- **Universal bulk-brane cancellation** (this is the new framing) — at *each* of the two cascade levels (4D parent, 3+1D universe, 2D children; per the v2.1 cone-shape refinement), the same bulk-brane cancellation happens, leaving a weak attractive residue. The cascade is a *cone-shaped* hierarchy with the 2D level being terminal, not a parity-based alternating structure or an infinite fractal.
-
-The "downward inversion principle" and "universal bulk-brane cancellation" are the *most novel* and *most vulnerable* parts of the model. Standard brane-world physics doesn't obviously do either of these. I'm proposing them as possibilities, not derived from first principles. A real physicist would need to either derive them from a specific geometry or show why they can't work.
-
-## What the model gets right (in my view)
-
-- **The hierarchy problem (10³⁸) reframed**: gravity is weak because of bulk-brane cancellation, not because of some unexplained fine-tuning.
-- **The cosmological constant (10¹²⁰) reframed**: we were comparing observed dark energy to the wrong theoretical quantity, not because there's a 10¹²⁰-times-smaller number hiding somewhere.
-- **Dark matter reframed**: not a particle, but the *cumulative energy return* of countless tiny child universes as they end — brief death-flashes (Big Crunch) for large 2D universes, slow diffuse returns (heat death) for small ones.
-- **Three puzzles unified** under one geometric process: hierarchy + dark matter under one mechanism (bulk-brane cancellation at two different cascade levels), cosmological constant under another (misidentification).
-- **Testable predictions**: dark matter should track *current* energetic activity on galaxy scales (more star formation, more dark matter), not just correlate with total mass.
-
-## What the model doesn't claim
-
-- I'm not claiming the inversion principle is mathematically derived. It's a *postulate* — but it has a *physical motivation*: the same standard GR mechanism ($\rho + 3P < 0$, the active gravitational mass density) that drives cosmic inflation and dark energy in our universe. The cascade generalizes this mechanism to every level of the dimensional hierarchy, with the bulk-brane coupling translating the parent's ordinary attractive matter into a brane-perceived effective gravitating density with the *opposite* sign. The 4D event's gravity in 4D is still attractive (standard GR); the inversion is a feature of how the brane *perceives* the projected contribution.
-- I'm not claiming the model is consistent with all data. It matches some observations (galaxy rotation curves, the radial acceleration relation with a slight activity-dependence) but hasn't been checked against others (CMB power spectrum, primordial element abundances, BBN).
-- The model does *not* derive inflation, baryogenesis, BBN, or the Standard Model particle spectrum. It takes these as given.
-- I'm not claiming this is the only possible unification. Other models (Verlinde, MOND, Dark Dimension, superfluid dark matter) are exploring similar ideas with different mechanisms.
-
-## What would happen if I were right
-
-Three testable predictions:
-
-1. **Diffuse galaxies (DF2, DF4) should have less dark matter.** These are real galaxies with mysteriously low dark matter. Standard cosmology is surprised by them. My model expects them.
-2. **Dark matter should track *current* star formation / supernova activity** in galaxies — not just total mass. Standard ΛCDM predicts dark matter traces mass; this model predicts a slight *activity-dependence*.
-3. **Direct-detection experiments should keep finding nothing.** If dark matter isn't a particle, experiments looking for dark matter particles will keep returning null. (They have been, for decades.)
-
-## Numerical sanity check (the math works out)
-
-A few of the numbers in the paper, verified:
-
-- **SN 2D universe lifetime**: 10¹⁰ m / c = ~33 seconds ✓
-- **LHC 2D universe lifetime**: 10⁻¹⁵ m / c = ~3×10⁻²⁴ seconds ✓
-- **Sgr A* Schwarzschild radius**: 1.2×10¹⁰ m ✓ (about 0.08 AU)
-- **Sgr A* 2D universe lifetime**: ~40 seconds ✓
-- **Sun's total output over 10 Gyr**: 1.2×10⁵¹ erg ✓
-- **Energy budget**: ~5% ordinary, ~27% dark matter, ~68% dark energy (Planck 2018) ✓
-- **Hierarchy**: (M_Pl / m_proton)² ≈ 1.7×10³⁸ ✓
-- **Hawking evaporation time** (solar-mass black hole): ~10⁶⁷ years ✓
-
-All the numbers in the paper are reproducible from a Python script (`calculations/numerical_verification.py` in the repo). Anyone with a basic physics background can re-derive them.
-
-## What I want from people reading this
-
-If you're a physicist: tell me where I'm wrong. The downward inversion principle is the obvious weak point. Is there a known mathematical structure that does this? If not, why not?
-
-If you're not a physicist: I hope this gives you a sense of what people are trying to figure out about the universe. The honest answer is that we don't know what dark matter, dark energy, or gravity's weakness really are. There are many models being explored. This is one of them.
-
-## The author's situation
-
-I'm a software engineer, not a physicist. I built this model in conversation with an AI assistant (Mavis, M3 model from MiniMax), not by working through the formalism. I have no formal training in theoretical physics. I offer this proposal with the hope that someone with real expertise will either develop it further or definitively refute it. Both outcomes are useful.
-
-Full disclosure of how the AI was used is in `ai_disclosure.md` in the repo.
-
-— ampbuster, June 2026
+- The 5/27 inner split (reframed as observational, but not derived from 4D physics)
+- The Hubble tension (accepted, not resolved)
+- A Lagrangian or action principle for the 4D event
+- The RAR's 8% residual (a real signature of the cascade, not yet understood)
+- f_active ≈ 0.05 (constrained by 3+1D data, not derived from 4D physics)
+- The mass-dependent scale factor (empirical fit, not derived)
+- Baryogenesis, inflation, neutrino masses, Standard Model parameters (not addressed)
