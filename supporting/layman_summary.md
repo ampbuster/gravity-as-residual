@@ -33,7 +33,7 @@ An earlier version said the cascade is "cone-shaped" (stops at 2D, no lower dime
 The 5/27/68 mass-energy split (5% ordinary matter, 27% dark matter, 68% dark energy) is now firmly documented as *observational data*, not something the model derives. We tried 8 ways to derive it from 4D math. All 8 failed. So 5/27/68 is what we *measure*, and the cascade *interprets* it but doesn't *predict* it.
 
 **7. What the model does well (data backing).**  
-7 out of 7 specific cases are consistent with the model's predictions:
+8 out of 8 specific cases are consistent with the model's predictions:
 - **SPARC** (175 real galaxies): matches the Radial Acceleration Relation to 10% median residual
 - **Tian+ 2024** (50 brightest cluster galaxies): matches the cluster acceleration scale to within 1σ
 - **Sun**: no detectable dark matter, as expected (solar events are below threshold)
@@ -46,18 +46,19 @@ The 5/27/68 mass-energy split (5% ordinary matter, 27% dark matter, 68% dark ene
 
 ## What was added in v2.3.1
 
-**1. Five new real-data tests (all in `calculations/` directory):**
+**1. Six new real-data tests (all in `calculations/` directory):**
 - **Globular cluster dark matter test (Test 2)**: 111 GCs from Harris 1996 + Usher+ 2013. Median M_dyn/M_star = 1.22. 73% of GCs have M/L < 3 (consistent with no DM). **PASS** — clean null-test.
 - **Direct detection null result (Test 3)**: LZ, XENONnT, PandaX-4T (~8.5 tonne-year exposure, no WIMP signal). WIMP "miracle" parameter space excluded by 4 orders of magnitude. **PASS** — consistent with zero signal.
 - **Isolated vs cluster dwarf M*-M_200 (Test 4)**: published Read+ 2017, Sawala+ 2016 data. No significant difference at fixed M*. **PASS** — consistent with cascade's cumulative-dominance prediction.
 - **AGN host DM content (Test 1)**: MaNGA DR15 (10,220 galaxies). At low mass, narrow AGN cut (logSFRHa > 0.5) shows +15% M_dyn/M_star. **TENTATIVE PASS** — cascade-consistent direction but morphology-confounded.
 - **Cusp-core test of dwarf profiles (Test 5)**: published de Blok+ 2008 THINGS data. V(0.5kpc)/V(half) = 0.71 (cores observed). **PASS** — consistent with cascade's natural isothermal prediction; ΛCDM has the cusp-core problem.
+- **Halo mass vs M* evolution (Test 6)**: Behroozi+ 2013, Leauthaud+ 2012 published SHMR. M_halo/M_star at fixed M_star is roughly constant in z=0-4. **CONSISTENT** with both cascade and ΛCDM (NOT discriminative).
 
 **2. New section §4.20 "Falsifiable predictions":** lists the cascade's most testable predictions, what would CONFIRM the cascade, and what would FALSIFY it. Includes a 3-tier table of predictions ranked by discriminative power.
 
 **3. Refined S_destruction explanation:** the cumulative-return mechanism is now explicitly documented as a *one-time irreversible conversion*, not an ongoing conveyor belt. The Sun case is now emphasized as depending on *volumetric energy density* (dE/dV), not integrated energy — solar events dilute across the solar core volume, while SN events pack 10⁴⁴ J into a 3-km core over <1 sec.
 
-**4. Honesty updates:** 7/7 test categories are *consistent* with the cascade, but the tests don't yet *confirm* it (most discriminate tests are blocked by data access issues). The paper is honest about this distinction.
+**4. Honesty updates:** 8/8 test categories are *consistent* with the cascade, but the tests don't yet *confirm* it (most discriminate tests are blocked by data access issues). The paper is honest about this distinction.
 
 ---
 
