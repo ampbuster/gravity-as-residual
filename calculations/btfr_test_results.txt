@@ -1,0 +1,11 @@
+BTFR Test Results (Documentation)
+==================================
+
+Cascade prediction: M_baryon ~ V^4 (from cumulative 2D universe gravity)
+ΛCDM prediction: M_baryon ~ V^4 (abundance matching)
+Empirical: M_baryon ~ V^3.5-4.0 (McGaugh 2012)
+
+Verdict: CONSISTENT with both cascade and ΛCDM (NOT discriminative)
+  - Both models predict M_baryon ~ V^4
+  - Cascade from 1/r force in 2D universes
+  - ΛCDM from NFW + abundance matching

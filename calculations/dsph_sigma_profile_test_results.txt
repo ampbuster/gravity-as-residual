@@ -1,0 +1,17 @@
+Dwarf Spheroidal Velocity Dispersion Profile Test Results
+==========================================================
+
+Cascade prediction: FLAT sigma(r) profile (isothermal)
+ΛCDM prediction: RISING sigma(r) profile (NFW cusp)
+Observation: FLAT to slightly DECREASING sigma(r)
+
+Published data (Walker+ 2007, 2009; Battaglia+ 2008):
+  Fornax: sigma(r) = 11.7 ± 1.2 km/s (flat)
+  Sculptor: sigma(r) = 9.2 ± 1.4 km/s (flat)
+  Draco: sigma(r) = 9.1 ± 1.2 km/s (flat)
+  Carina: sigma(r) = 6.7 ± 1.0 km/s (flat)
+  Sextans: sigma(r) = 7.9 ± 1.3 km/s (flat)
+
+Verdict: CONSISTENT with cascade
+  - Cascade naturally predicts flat sigma(r)
+  - ΛCDM needs fine-tuned feedback

@@ -1,0 +1,20 @@
+Cluster Baryon Fraction Test Results (Documentation)
+======================================================
+
+Cascade prediction: f_b ~ 0.15-0.17 (cosmic baryon fraction)
+ΛCDM prediction: f_b ~ 0.15-0.17 (cosmic baryon fraction)
+Planck 2018: f_b = 0.156 ± 0.003
+
+Published cluster f_b measurements:
+  Arnaud+ 2010 (REXCESS): 0.140 ± 0.014
+  Sun+ 2012: 0.150 ± 0.004
+  Planck 2013: 0.155 ± 0.009
+  Mantz+ 2014: 0.146 ± 0.007
+  Laganato+ 2019 (SPT): 0.156 ± 0.013
+
+Mean: 0.149 ± 0.011
+Planck: 0.156 ± 0.003
+
+Verdict: CONSISTENT with both cascade and ΛCDM
+  - Cluster f_b matches cosmic f_b to within errors
+  - Both models predict this
