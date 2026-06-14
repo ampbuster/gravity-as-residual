@@ -1,24 +1,79 @@
-Time-Scale Invariance Test of SIDC via JWST High-z UV Luminosity Function
-======================================================================
+Time-Scale Invariance Test v4: CORRECTED with (1+z)^4 in the integral
+=============================================================================
 
-Question: does the bright-end of z=4-8 UV LF match SIDC's prediction
-(time-cumulative DM) or ΛCDM's prediction (static-relic DM)?
+Date: 2026-06-14
+Bug: v2/v3 had (1+z) in denominator; correct formula has (1+z)^4
+Author: Mavis + user catch of (1+z)^2 vs H_0=73 coincidence
 
-z     SIDC/ΛCDM    χ²(ΛCDM)/N      χ²(SIDC)/N      Winner
-----------------------------------------------------------------------
-4     0.0347       5571501679.73   31722827422.03  ΛCDM
-5     0.0158       23402553553.56  192424663616.67 ΛCDM
-6     0.0080       197152608852.00 1961463863590.59 ΛCDM
-7     0.0044       211734678505.75 2160676455391.42 ΛCDM
-8     0.0026       342250293534.53 2715114734854.96 ΛCDM
-----------------------------------------------------------------------
-TOTAL -            7684992731806.5 70084522068531.0
+THE BUG
+-------
+Previous calcs (v2, v3) had:
+  integrand = rate / (E * (1+z))
 
-Honest verdict: ΛCDM FITS BETTER (time-scale invariance is NOT supported by data; this is the JWST early-galaxy problem hitting SIDC)
+The CORRECT formula for non-relativistic fossils:
+  integrand = rate / (E * (1+z)^4)
 
-Interpretation:
-  - If SIDC wins: the cascade's time-cumulative DM is consistent with the bright-end of the z=4-8 UV LF
-  - If ΛCDM wins: the cascade's prediction of LESS DM at high z is INCONSISTENT with the observed bright galaxies
-  - This is a real falsifiable prediction of time-scale invariance
-  - The JWST 'early galaxy problem' (more bright galaxies at z>10 than ΛCDM predicts) is the relevant context
-  - SIDC's prediction of LESS DM at high z makes this problem WORSE for SIDC
+The (1+z)^4 comes from combining (1+z)^3 (volume effect) and (1+z) 
+(time effect: dt = dz/(H(1+z))).
+
+With the bug, the integral ∫_0^15 (1+z)^2/E dz happened to be ~73 in 
+arbitrary code units, making r(z=6) at F_p=1 come out to 0.73. 
+Coincidentally similar to H_0 = 73. NOT a meaningful physical connection.
+
+CORRECTED RESULTS
+-----------------
+With the correct (1+z)^4 formula, r(z=6) for various F_p:
+
+F_p    r(z=6)     Constraint
+0.0    8.5e-05    FAILS (essentially no DM at z=6)
+0.1    9.9e-05    FAILS
+0.3    1.3e-04    FAILS
+0.5    1.6e-04    FAILS
+0.7    1.8e-04    FAILS
+0.9    2.1e-04    FAILS
+1.0    2.3e-04    FAILS
+
+ALL F_p fail. The cascade predicts essentially no DM at z=6 regardless
+of the primordial fraction.
+
+INTERPRETATION
+--------------
+The cascade's time-lag is a REAL, QUANTITATIVE falsification. With the
+correct (1+z)^4 formula:
+- The cascade predicts ~10,000x LESS DM at z=6 than ΛCDM
+- This is much more severe than v2/v3 documented (which said ~100x)
+- The Δχ²=+650 CMB penalty is now UNDERESTIMATED
+
+To save the cascade, the primordial rate R_p would need to scale as (1+z)^4.
+This would cancel the (1+z)^4 in the integral, making r(z=6) order unity.
+
+What physics gives R_p ∝ (1+z)^4?
+  (a) Vacuum decay rate ~ H^4
+  (b) PBH Hawking evaporation rate
+  (c) Some other quantum gravity process
+None of these are derived from the cascade's current framework.
+
+FALSIFIABLE PREDICTIONS
+-----------------------
+If the cascade's naive formulation is correct, then:
+1. Bright-end of z>8 UV LF should be SUPPRESSED by ~10000x vs ΛCDM
+2. Reionization should be MUCH LATER than ΛCDM (z_reion << 7)
+3. 21cm signal at z=8-15 should be DRAMATICALLY different from ΛCDM
+4. Strong lensing at z>1 should be ESSENTIALLY ABSENT
+5. The CMB power spectrum should be DRAMATICALLY different (worse than Δχ²=+650)
+
+HONEST SCIENTIFIC POSITION
+---------------------------
+The cascade is FALSIFIED at high-z in the naive formulation. A specific
+R_p(z) scaling (∝ (1+z)^4) is required to save it, and this scaling is
+not derived from the cascade's current framework.
+
+This is a meaningful negative result. The previous v2/v3 analysis was
+based on a bug and over-stated the cascade's consistency with high-z data.
+
+To be honest about this in the paper:
+- §4.47 (time-scale invariance) should be updated with the correct formula
+- §4.48 (primordial Lagrangian) should be reframed as a "FALSIFIED at high-z 
+  unless R_p ∝ (1+z)^4" result, not a "F_p ~ 0.7 saves the cascade" result
+- Limitation 31 should be updated: cascade's time-lag is even more severe
+- The cascade's high-z predictions should be flagged as a major open problem

@@ -2988,35 +2988,35 @@ Per the paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created
 **Engineering architecture.** The emulator is a 4-module Python package (`calculations/sidc_phenomenological_emulator.py`, 722 lines) with strict module separation. Each module exposes a small API and can be unit-tested independently:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│ Part 1: Historical Energy Ledger (compute_historical_energy_ledger)│
-│   Input:  SFH times + rates (Gyr, M_sun/yr)                 │
-│   Compute: ∫ SFR(t) · dt = M_total_formed                  │
-│           ∫ SFR(t) · IMF(>8 M_sun) · E_CCSN dt = E_total   │
-│           N_CCSN = E_total / E_CCSN                         │
-│   Output: ledger dict (M_total, E_total, N_CCSN, rate_50Myr)│
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────┐
-│ Part 2: Gaussian Instanton (gaussian_instanton, fossil_amp)│
-│   Compute: g(τ) = (1/τ_{2D}√π) exp(-τ²/τ_{2D}²)            │
-│           amplitude = σ · c/24π · R^(2) · 0.1 (calibration)│
-│   Output: fossil amplitude (per unit event)                 │
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────┐
-│ Part 3: Smooth Potential Field (smooth_potential_field)    │
-│   Compute: g_obs = g_bar / (1 - exp(-√(g_bar/g_+)))        │
-│           σ(r) = √(r · g_total(r))                          │
-│   Output: velocity dispersion profile, V_flat prediction    │
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────┐
-│ Part 4: Testing Harness (run_emulator_test)                │
-│   AGC 114905 → expected M_dyn/M_b = 1.36                    │
-│   KKR 25    → expected M_dyn/M_b = 299.19                   │
-│   Bifurcation metric: 820× ledger shift → 219× M_dyn shift  │
-└─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+| Part 1: Historical Energy Ledger (compute_historical_energy)|
+|   Input:  SFH times + rates (Gyr, M_sun/yr)                 |
+|   Compute: integral SFR(t) dt = M_total_formed              |
+|            integral SFR(t) * IMF(>8 M_sun) * E_CCSN dt = E   |
+|            N_CCSN = E_total / E_CCSN                         |
+|   Output: ledger dict (M_total, E_total, N_CCSN, rate_50Myr)|
++-------------------------------------------------------------+
+                              v
++-------------------------------------------------------------+
+| Part 2: Gaussian Instanton (gaussian_instanton, fossil_amp) |
+|   Compute: g(tau) = (1/tau_{2D}*sqrt(pi)) exp(-tau^2/tau_2D^2)|
+|            amplitude = sigma * c/24pi * R^(2) * 0.1 (calib) |
+|   Output: fossil amplitude (per unit event)                 |
++-------------------------------------------------------------+
+                              v
++-------------------------------------------------------------+
+| Part 3: Smooth Potential Field (smooth_potential_field)    |
+|   Compute: g_obs = g_bar / (1 - exp(-sqrt(g_bar/g_+)))      |
+|            sigma(r) = sqrt(r * g_total(r))                   |
+|   Output: velocity dispersion profile, V_flat prediction    |
++-------------------------------------------------------------+
+                              v
++-------------------------------------------------------------+
+| Part 4: Testing Harness (run_emulator_test)                |
+|   AGC 114905 -> expected M_dyn/M_b = 1.36                   |
+|   KKR 25    -> expected M_dyn/M_b = 299.19                  |
+|   Bifurcation metric: 820x ledger shift -> 219x M_dyn shift |
++-------------------------------------------------------------+
 ```
 
 **Raw numerical results — Test 1: AGC 114905 (UDG, DM-poor).**
@@ -3260,6 +3260,103 @@ The cascade ACCEPTS that the CMB-era DM is some F_s fraction less than today's v
 
 **File added:** `calculations/primordial_lagrangian_test.py` (~280 lines, trial-and-error search).
 **Result files:** `calculations/primordial_lagrangian_results.json` and `calculations/primordial_lagrangian_results.txt`.
+
+---
+
+### 4.49 Bug Fix: The (1+z)^4 Dilution Factor (v2.4) — A User-Caught Bug and the Deeper Falsification
+
+*Per user direction, this subsection documents a bug in §4.47 (§4.48, `time_scale_invariance_test_v3.py`, `primordial_lagrangian_test.py`) where the integrand had `(1+z)` in the denominator instead of `(1+z)^4`. The user caught the bug because the trial-and-error result r(z=6) = 0.73 at F_p=1 happened to coincide with H_0 = 73 km/s/Mpc — a flag for a numerical artifact. The correct formula gives r(z=6) ~ 10⁻⁴, which is **a much more severe falsification** than §4.47 documented.*
+
+**The bug.** The integrand for the cascade's comoving DM density was:
+
+$$\text{(BUGGY)}: \quad \rho_{\text{DM}}^{\text{SIDC}}(z) = (1+z)^3 \int_z^{z_{\max}} \frac{R(z')}{E(z')(1+z')} dz'$$
+
+$$\text{(CORRECT)}: \quad \rho_{\text{DM}}^{\text{SIDC}}(z) = (1+z)^3 \int_z^{z_{\max}} \frac{R(z')}{E(z')(1+z')^4} dz'$$
+
+The `(1+z)^4` comes from combining `(1+z)^3` (volume effect: V_proper = a³ V_com with a = 1/(1+z)) and `(1+z)` (time effect: dt = dz/(H(1+z))). For non-relativistic fossils (which is what the cascade's T^fossil_μν is, per §4.44), the correct factor is `(1+z)^4`.
+
+**The numerical coincidence.** With the bug, the integral $\int_0^{15} (1+z)^2 / E(z) dz$ came out to **73.93** in the arbitrary code units. The r(z=6) at F_p=1 then came out to 0.73, which is suspiciously close to H_0 = 73 (SH0ES / cascade's H_0). The user caught this as a flag for a numerical artifact — and they were right. With the correct `(1+z)^4` formula, r(z=6) is 0.0002, not 0.73.
+
+**The corrected r(z) values.**
+
+For the stellar-only channel (F_p = 0):
+
+| z | r(z) (buggy v3) | r(z) (corrected v4) | Factor difference |
+|---|---|---|---|
+| 4 | 0.034 | 0.0001 | 300× worse |
+| 6 | 0.008 | 0.0001 | 80× worse |
+| 8 | 0.0026 | 0.00003 | 80× worse |
+| 10 | 0.0009 | 0.000009 | 100× worse |
+
+For the two-component model with F_p ~ 0.7:
+
+| F_p | r(z=6) (buggy v3) | r(z=6) (corrected v4) | Verdict |
+|---|---|---|---|
+| 0.0 | 0.008 | 0.0001 | FAILS |
+| 0.3 | 0.36 | 0.0001 | FAILS |
+| 0.5 | 0.47 | 0.0002 | FAILS |
+| 0.7 | 0.57 | 0.0002 | FAILS |
+| 1.0 | 0.73 | 0.0002 | FAILS |
+
+**ALL F_p values fail to satisfy r(z=6) > 0.3 in the corrected calculation.**
+
+**Honest scientific position.**
+
+With the correct `(1+z)^4` formula, the cascade predicts essentially **no DM at z=6** regardless of F_p. This is a much more severe falsification than §4.47's Δχ²=+650 documented:
+- The cascade predicts ~10,000× LESS DM at z=6 than ΛCDM
+- This is INCOMPATIBLE with observed high-z structure formation
+- The JWST "early galaxy problem" is dramatically worse for SIDC than for ΛCDM
+- The cascade's reionization prediction would be MUCH later than ΛCDM
+- The 21cm signal at z=8-15 would be dramatically different
+
+The Δχ²=+650 from §4.41 (CMB power spectrum) is a specific instance of this general failure. The actual penalty for the full high-z structure formation is much larger.
+
+**What would save the cascade.**
+
+For the cascade to have full DM at z=6, the primordial rate R_p would need to scale as `R_p ∝ (1+z)^4`. This would cancel the `(1+z)^4` in the formula, making r(z=6) order unity. What physics would give this? Possibilities:
+
+1. **Vacuum decay rate** ~ H^4 (speculative)
+2. **PBH Hawking evaporation rate** (speculative; the rate depends on PBH mass spectrum)
+3. **Some other quantum gravity process** (highly speculative)
+
+None of these are derived from the cascade's current framework. The 2D CFT expert (Limitation 26) would need to derive the 2D universe creation rate R_p(z) from first principles.
+
+**Limitation update.** Limitation 31 (time-lag of cascade DM at CMB epoch) is now OPEN (was PARTIALLY ADDRESSED in §4.48 with the buggy formula). The two-component model with F_p ~ 0.7 does NOT save the cascade in the corrected calculation. The cascade's time-lag is a real, severe, quantitative falsification.
+
+**What this subsection does:**
+
+- ✓ *Documents* the user-caught bug in the (1+z) factor
+- ✓ *Reports* the corrected r(z) values
+- ✓ *Acknowledges* the deeper falsification
+- ✓ *Identifies* what R_p(z) form would save the cascade
+- ✓ *Updates* Limitation 31 to OPEN
+- ✓ *Provides* the corrected Python script (`time_scale_invariance_test_v4.py`)
+
+**What this subsection does NOT do:**
+
+- ✗ Does not derive R_p(z) ∝ (1+z)^4 from the cascade (requires Limitation 26)
+- ✗ Does not save the cascade from the high-z falsification
+- ✗ Does not provide a positive test result
+
+**Files added/corrected:**
+- `calculations/time_scale_invariance_test_v4.py` (~280 lines, with `(1+z)^4`)
+- `calculations/time_scale_invariance_results.json` (corrected)
+- `calculations/time_scale_invariance_results.txt` (corrected)
+
+**Falsifiable predictions of the corrected cascade:**
+
+If the cascade is honestly tested with the corrected formula:
+1. The bright-end of the z>8 UV LF should be SUPPRESSED by ~10,000× relative to ΛCDM
+2. The reionization epoch should be MUCH later (z_reion << 7) than ΛCDM
+3. The 21cm signal at z=8-15 should be DRAMATICALLY different from ΛCDM
+4. Strong lensing at z>1 should be ESSENTIALLY ABSENT (no DM to lens)
+5. The CMB power spectrum penalty should be LARGER than Δχ²=+650
+
+If any of these are NOT observed (i.e., high-z structure is consistent with ΛCDM), the cascade is **FALSIFIED** at high-z. The current best-fit cosmology (ΛCDM with H_0=67.4 Planck or 73 SH0ES) is consistent with the high-z structure; the cascade is not.
+
+**Honest verdict:** The cascade is FALSIFIED at high-z in the naive formulation. The Δχ²=+650 from §4.41 is a specific instance of this general failure. A specific R_p(z) ∝ (1+z)^4 scaling is required to save the cascade, and this scaling is not derived from the cascade's current framework.
+
+This is a meaningful negative result. The previous v2/v3 analysis was based on a bug and over-stated the cascade's consistency with high-z data. The cascade is now documented as a candidate model with significant open issues, not as a model that "passes 17/17 test categories" as the executive summary previously suggested.
 
 ---
 

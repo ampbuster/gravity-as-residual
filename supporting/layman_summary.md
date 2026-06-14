@@ -17,6 +17,8 @@ Five refactors move the framework from "geometric sketch" to "structurally compl
 
 7. **§4.48 (NEW): Primordial Lagrangian — two-component DM with F_p ~ 0.7.** A natural follow-up: can we *design* a primordial phase for the Lagrangian that populates the early DM ledger? Yes, and trial-and-error shows the cascade REQUIRES F_p ~ 0.7 (primordial, from the 4D event's internal activity) + F_s ~ 0.3 (stellar/AGN) to match the observed bright-end of the z=6 UV LF. The 4D event is NOT a one-time big bang; it's an ongoing energetic process whose internal activity creates 2D universes throughout cosmic history. This is the cascade's hidden parameter that explains why high-z structure forms at all.
 
+8. **§4.49 (NEW): Bug fix — user caught a numerical coincidence.** I had a bug in §4.47-§4.48 where the integrand had `(1+z)` in the denominator when it should have been `(1+z)^4`. The user noticed that the trial-and-error result r(z=6) = 0.73 at F_p=1 happened to coincide with H_0 = 73 km/s/Mpc — a flag for a numerical artifact. With the correct formula, r(z=6) is ~10⁻⁴, not 0.73. **The cascade's time-lag is a much more severe falsification than I documented.** The cascade predicts essentially no DM at z=6 in the naive formulation, which is inconsistent with observed high-z structure. To save the cascade, the primordial rate would need to scale as R_p ∝ (1+z)^4 (highly speculative). The cascade is now honest about this: Limitation 31 is REVERTED to OPEN, and the cascade's high-z predictions are flagged as a major open problem.
+
 **v2.3.2 — June 2026** (PATCH: 5 new tests + formal tensor construction) — HISTORICAL
 
 ## What changed in v2.3 (in plain language)
