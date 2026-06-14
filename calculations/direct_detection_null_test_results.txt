@@ -1,0 +1,29 @@
+Direct Detection Null Test Results
+==================================
+
+Cascade prediction: ZERO direct-detection signal at all cross sections.
+DM is geometric gravity (cascade back-projection), not a particle.
+No WIMP-nucleon coupling exists; no Standard Model coupling to 2D universes.
+
+Published experimental limits (90% CL, spin-independent WIMP-nucleon):
+  LZ (2024, 280 days): σ_SI < 9.20e-48 cm² at 36 GeV
+    Exposure: 5.5 tonne-year, Ref: J. Aalbers+ (LZ), PRL 131 (2023) 041002; updated 2024
+  XENONnT (2023, Science): σ_SI < 2.10e-47 cm² at 30 GeV
+    Exposure: 1.16 tonne-year, Ref: E. Aprile+ (XENONnT), PRL 131 (2023) 041004
+  PandaX-4T (2024): σ_SI < 3.30e-47 cm² at 40 GeV
+    Exposure: 1.0 tonne-year, Ref: Y. Meng+ (PandaX-4T), PRL 131 (2024) 191001
+  XENON1T (legacy, 2018): σ_SI < 1.00e-46 cm² at 30 GeV
+    Exposure: 0.279 tonne-year, Ref: E. Aprile+ (XENON1T), PRL 121 (2018) 111302
+  LUX (legacy, 2017): σ_SI < 1.10e-46 cm² at 50 GeV
+    Exposure: 0.335 tonne-year, Ref: D. Akerib+ (LUX), PRL 118 (2017) 021303
+  DEAP-3600 (Ar, 2022): σ_SI < 3.90e-45 cm² at 100 GeV
+    Exposure: 0.231 tonne-year, Ref: R. Ajaj+ (DEAP), PRD 100 (2019) 022004
+
+Total exposure: ~8.5 tonne-year
+
+Standard WIMP 'miracle' prediction: σ_SI ~ 10^-44 cm²
+Current best limit: σ_SI < 9.2e-48 cm² (LZ)
+WIMP 'miracle' parameter space: RULED OUT by ~10^4
+
+Verdict: CONSISTENT with cascade (no detection observed)
+Caveat: A future detection would falsify the cascade
