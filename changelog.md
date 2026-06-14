@@ -1,4 +1,4 @@
-## v2.3.0 (June 2026) — Current
+## v2.3.0 (June 2026) — Action functional + g_+ derivation
 
 **Paper version bumped from v2.2.1 to v2.3.0** for the major theoretical contribution: a concrete action functional S for the cascade, plus a first-principles derivation of the g_+ acceleration scale.
 
@@ -75,11 +75,11 @@ Following extensive real-data testing, the paper now reports **17 test categorie
 
 **7/7 specific cases** (SPARC, Tian+ 2024, Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) remain consistent.
 
-**Paper length:** 129 pages, 650 KB. 229 commits. 28 honest limitations.
+**Paper length:** 129 pages, 650 KB. 231 commits. 28 honest limitations.
 
 ---
 
-## v2.2 (June 2026) — Current
+## v2.2 (June 2026) — Pantheon+ Hubble tension test
 
 **Paper version bumped from v2.1 to v2.2** for the definitive Pantheon+ full-covariance Hubble tension test + honest position on Mechanism M.
 
@@ -224,7 +224,7 @@ Internal iteration history, not publicly released. Key milestones:
 - v1.58 - Numerical errors caught and fixed
 - v2.0 - This release
 
-## v2.2.1 (June 2026) — Paper audit pass
+## v2.2.1 (June 2026) — Paper audit pass (initial v2.2.1, superseded by v2.3.0/v2.3.1)
 
 **Internal consistency pass after v2.2.** After the v2.2 refactor (B/F rejected, L busted, M as final position, cone-shape, RAR reframing, etc.), a slow paper audit found several pre-v2.1 *fractal* references that were not fully updated when the v2.1 cone-shape was introduced. This commit brings all the v2.0 text into consistency with the cone-shape.
 

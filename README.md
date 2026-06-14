@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.3.1 (patch: cascade direction default + abstract strengthened) (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 229 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
+**Status:** Public release. 231 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
 
 ---
 
@@ -84,7 +84,7 @@ This is a **polish + real-data test** patch:
 - **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
 - **28 honest limitations** (numbered 1-28) plus Limitation 11.5 (architectural choice, v2.3.1 addition); 29 distinct limitation entries total. (Limitation 14 is RESOLVED.)
 
-Total commits: 229. PDF: 129 pages, 650 KB.
+Total commits: 231. PDF: 129 pages, 650 KB.
 
 ## What's new in v2.3.0 (since v2.2.1)
 
