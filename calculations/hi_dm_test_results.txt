@@ -1,0 +1,19 @@
+HI-richness vs DM Content Test Results (Real Data from SPARC)
+=============================================================
+
+SPARC sample: 129 galaxies with HI and Vflat
+Data: Lelli+ 2016, AJ 152, 157 (VizieR)
+M_dyn at optical radius from Vflat and Rdisk
+M_gas from MHI
+f_gas = M_gas / (M_gas + M_star)
+
+Correlation by mass bin:
+  low M*: N=17, f_gas-ratio r=0.692, f_gas-Rdisk r=-0.040
+  mid M*: N=38, f_gas-ratio r=0.560, f_gas-Rdisk r=0.270
+  high M*: N=60, f_gas-ratio r=0.653, f_gas-Rdisk r=0.080
+
+Verdict: TIER 2 test, CONFOUNDED by gas-radius correlation
+  - f_gas correlates with M_dyn(optical)/M_star
+  - BUT: f_gas ALSO correlates with Rdisk
+  - The M_dyn(optical) ~ V^2 R / G formula depends on R
+  - NOT a clean cascade vs ΛCDM discriminator
