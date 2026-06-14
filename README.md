@@ -4,14 +4,39 @@
 
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
-**Version:** 2.3.0 (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 186 commits, 30 honest limitations documented.
+**Version:** 2.3.1 (patch: cascade direction default + abstract strengthened) (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
+**Status:** Public release. 192 commits, 31 honest limitations documented.
 
 ---
 
 ## The idea in one paragraph
 
-What if gravity is *weak* because most of it gets cancelled? In this model, a single ongoing 4-dimensional event projects into our 3+1-dimensional universe. The projection *inverts* the sign of gravity, so the 4D event's native gravity is cancelled on the 3+1D brane — leaving only a small positive residue that we call ordinary gravity. The un-cancelled *antigravity* component is what we observe as **dark energy**. Every energetic event in 3+1D (a star, a supernova, a black hole) creates a *child universe* at the next level — a literal 2D universe (one time + one space) embedded in our 3+1D space, its gravity back-projected to 3+1D as the cumulative effect we call **dark matter**. The cascade is *cone-shaped* (4D → 3+1D → 2D, terminal) and the 5/27/68 mass-energy split is observational 3+1D data that constrains the 4D event's geometry, not a free postulate.
+What if gravity is *weak* because most of it gets cancelled? In this model, a single ongoing 4-dimensional event projects into our 3+1-dimensional universe. The projection *inverts* the sign of gravity, so the 4D event's native gravity is cancelled on the 3+1D brane — leaving only a small positive residue that we call ordinary gravity. The un-cancelled *antigravity* component is what we observe as **dark energy**. Every energetic event in 3+1D (a star, a supernova, a black hole) creates a *child universe* at the next level — a literal 2D universe (one time + one space) embedded in our 3+1D space, its gravity back-projected to 3+1D as the cumulative effect we call **dark matter**. The cascade is *scale-invariant by default* (4D → 3+1D → 2D → 1D-like → ...) with *cone-shape* (early termination at 2D) as a viable alternative — the choice is architectural, not empirical. The 5/27/68 mass-energy split is observational 3+1D data that constrains the 4D event's geometry, not a free postulate.
+
+---
+
+## What the model gets right (data backing)
+
+The cascade has been tested against multiple independent observations. **7/7 specific cases are consistent** with the model's predictions:
+
+| System | Test | Result | Status |
+|---|---|---|---|
+| **SPARC** (175 galaxies) | Radial Acceleration Relation | 10% median residual | ✓ Consistent |
+| **Tian+ 2024** (50 BCGs) | Cluster-scale $g_+$ | 14% median residual, $g_+ = 1.3\times 10^{-9}$ within 1σ of Tian+ 2024's $1.7 \times 10^{-9}$ | ✓ Consistent |
+| **Sun** (null test) | DM detection | 1e-17 of galaxy's DM, undetectable | ✓ Consistent |
+| **DF2 / DF4** | DM-rich vs DM-poor | DM-poor, old stellar pop (no SN) | ✓ Consistent |
+| **FCC 224** | DM-rich vs DM-poor | DM-poor, old stellar pop | ✓ Consistent |
+| **AGC 114905** (anomaly) | Phase-transition test | DM-poor, low-mass SF below $E_{\text{crit}} \sim 10^{30}$ J | ✓ Consistent (anomaly resolved) |
+| **KKR 25** (positive case) | Active dwarf | DM-rich, active history | ✓ Consistent |
+
+**Other data backing:**
+
+- **Hubble constant:** $H_0 = 73$ km/s/Mpc, matches SH0ES ($73.04 \pm 1.04$) and Pantheon+ ($73.00$, within 1σ of diagonal-error range). 5.6 km/s/Mpc gap to Planck CMB ($67.4$) accepted as a separate open problem.
+- **Cosmic energy budget:** 5% ordinary / 27% DM / 68% DE (Planck 2018) — consistent with cascade's projection picture. The 32%/68% outer split is derivable from projection kinematics; the 5:27 inner split is observational 3+1D data, not derived.
+- **Cluster $g_+$ enhancement:** $1.2\times 10^{-9}$ m/s² (cascade's $V_{\text{local}}$) vs Tian+ 2024's $1.7 \times 10^{-9}$ m/s² — within 1σ, naturally explained as the MOND external field effect.
+- **MCMC posterior on $f_{\text{active}}$:** $0.0513^{+0.0070}_{-0.0073}$ (1σ) from RAR fit, strongly preferred over the originally-postulated 0.30.
+- **Concrete action functional** (§2.5.1): rare for thought experiments — a Lagrangian-level skeleton a mathematical physicist can work with. Reduces to standard RS-II brane-world as $\alpha \to 0$.
+- **First-principles $g_+$ derivation** (§4.17): $g_+ = k \cdot \int \text{(event rate)} \cdot E_{\text{event}} \cdot \tau_{\text{2D}} / L_{\text{2D}}\, dt$ — equivalent to empirical $g_+ \propto \int \rho_{\text{events}} / M_b\, dt$ scaling.
 
 ---
 
@@ -72,7 +97,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 | Folder / File | What's in it |
 |---|---|
 | `paper/paper.md` | The full paper, v2.3.0 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (110 pages) |
+| `paper/paper.pdf` | Compiled PDF (112 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary (v2.3.0) |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |
