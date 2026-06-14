@@ -7,8 +7,9 @@ Five refactors transition the v2.3.2 framework to a "structurally complete field
 3. **§4.44: J_bulk=0 boundary junction condition injected directly into T^eff_μν construction** (f_back now derived, not postulated)
 4. **§7.0 updated to v2.4:** 30 limitations (added Limitation 30), L15/L17 OPEN→PARTIAL, L29 linked to c bounds
 5. **Appendix refactored: Open-Source Scientific Collaboration** (formal call-to-action to theoretical physicists)
+6. **§4.47 (NEW): Time-scale invariance test** (calculations/time_scale_invariance_test_v3.py): cascade is NOT strictly time-scale-invariant. r(z=6) = 0.008 (SIDC has 130× less DM than ΛCDM). F_stellar ~ 1 predicted by cascade's own energetics. JWST early-galaxy problem is STRONGER for SIDC. Limitation 31 added.
 
-Final v2.4 state: 166 pages, 794 KB PDF, 271 commits, 30 limitations, 2-3 free parameters.
+Final v2.4 state: 168 pages, 803 KB PDF, 272 commits, 31 limitations, 2-3 free parameters.
 
 ## v2.3.2 (June 2026, PATCH) — Five new tests + formal tensor construction (HISTORICAL)
 

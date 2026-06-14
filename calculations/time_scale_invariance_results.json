@@ -1,0 +1,32 @@
+{
+  "principle": "SIDC predicts time-cumulative DM, which at z>0 is LESS than \u039bCDM if 2D universe creation is dominated by stellar/AGN activity (F_stellar ~ 1)",
+  "calculation": "r(z) = \u03c1_DM^SIDC(z) / \u03c1_DM^\u039bCDM(z)",
+  "stellar_only": {
+    "z=0": 2.4490241187421155e+32,
+    "z=4": 8.471068516357766e+30,
+    "z=6": 1.9268163510699208e+30,
+    "z=8": 6.0483860683311984e+29,
+    "z=10": 2.1968688363166233e+29
+  },
+  "energetic_analysis": {
+    "inflation_energy_per_Hubble": "10^60+ J (z>10^25)",
+    "EW_phase_transition_energy": "10^47 J at horizon (z~10^15)",
+    "QCD_phase_transition_energy": "10^47 J at horizon (z~10^12)",
+    "pre_stellar_total_in_observable": "~10^47 * (10^26/10^-5) = ~10^78 J (rough)",
+    "todays_DM_total": "~10^70 J",
+    "pre_stellar_to_today_ratio": "~10^8 (pre-stellar exceeds today by 10^8x if NOT diluted)",
+    "BUT_pre_stellar_dilution": "pre-stellar DM has diluted with (1+z)^3 over cosmic time",
+    "after_dilution": "~10^-20 of todays DM (negligible)",
+    "F_pre_cascade_prediction": "< 10^-20 (negligible)",
+    "F_stellar_cascade_prediction": "> 0.99999 (essentially 1)"
+  },
+  "conclusion": "The cascade is NOT time-scale-invariant in the strict sense. Stellar/AGN activity dominates 2D universe creation. F_stellar ~ 1, F_pre ~ 0.",
+  "falsifiable_predictions": [
+    "Bright-end of z>8 UV LF should be SUPPRESSED relative to \u039bCDM",
+    "Reionization epoch should be LATER than \u039bCDM predicts",
+    "21cm signal at z=8-15 should be MODIFIED",
+    "Strong lensing at z>1 should be LESS common than \u039bCDM",
+    "ISW effect should be DIFFERENT from \u039bCDM (less DM to grow structures)"
+  ],
+  "JWST_implication": "The JWST 'early galaxy problem' (more bright galaxies at z>10 than \u039bCDM predicts) is a STRONGER problem for SIDC than for \u039bCDM. SIDC's prediction of LESS DM at z=6-8 makes the JWST observations even harder to explain in SIDC."
+}

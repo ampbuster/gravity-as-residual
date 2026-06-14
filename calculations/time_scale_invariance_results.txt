@@ -1,0 +1,24 @@
+Time-Scale Invariance Test of SIDC via JWST High-z UV Luminosity Function
+======================================================================
+
+Question: does the bright-end of z=4-8 UV LF match SIDC's prediction
+(time-cumulative DM) or ΛCDM's prediction (static-relic DM)?
+
+z     SIDC/ΛCDM    χ²(ΛCDM)/N      χ²(SIDC)/N      Winner
+----------------------------------------------------------------------
+4     0.0347       5571501679.73   31722827422.03  ΛCDM
+5     0.0158       23402553553.56  192424663616.67 ΛCDM
+6     0.0080       197152608852.00 1961463863590.59 ΛCDM
+7     0.0044       211734678505.75 2160676455391.42 ΛCDM
+8     0.0026       342250293534.53 2715114734854.96 ΛCDM
+----------------------------------------------------------------------
+TOTAL -            7684992731806.5 70084522068531.0
+
+Honest verdict: ΛCDM FITS BETTER (time-scale invariance is NOT supported by data; this is the JWST early-galaxy problem hitting SIDC)
+
+Interpretation:
+  - If SIDC wins: the cascade's time-cumulative DM is consistent with the bright-end of the z=4-8 UV LF
+  - If ΛCDM wins: the cascade's prediction of LESS DM at high z is INCONSISTENT with the observed bright galaxies
+  - This is a real falsifiable prediction of time-scale invariance
+  - The JWST 'early galaxy problem' (more bright galaxies at z>10 than ΛCDM predicts) is the relevant context
+  - SIDC's prediction of LESS DM at high z makes this problem WORSE for SIDC

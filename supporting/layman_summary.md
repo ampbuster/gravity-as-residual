@@ -11,6 +11,9 @@ Five refactors move the framework from "geometric sketch" to "structurally compl
 3. **The bulk-leakage free parameter is eliminated.** A boundary condition (no energy leaks through the 3+1D brane into the AdS$_5$ bulk) makes the "staying fraction" 1 by construction, not by assumption.
 4. **The limitations table is updated.** Two limitations move from "open" to "partial" (they're now anchored by the v2.4 framework, but their *full* derivation still needs a 2D CFT expert). One new limitation is added (the topological eigenvalue requires a 2D expert to verify the zero-mode counting).
 5. **The Author's Note is replaced by an Open-Source Collaboration section.** This is a formal invitation to theoretical physicists, with 5 specific research problems listed and code reproducibility terms.
+6. **§4.47 (NEW): The cascade is NOT time-scale-invariant.** A natural follow-up question: is the cascade scale-invariant in TIME as well as space? The answer is *no*. The cascade's own energetics predict that stellar/AGN activity (F_stellar ~ 1) dominates 2D universe creation, with pre-stellar phase transitions (electroweak, QCD, inflation, primordial black holes) contributing <10⁻²⁰ of today's DM density. The cascade therefore predicts *time-lagged DM*: at z=6, SIDC has ~1% of ΛCDM's DM density. This is the Δχ²=+650 CMB penalty (§4.41) in physical terms. The cascade is honest about this and accepts the time-lag as a real prediction.
+
+**What this means for the JWST "early galaxy problem":** JWST has found more bright galaxies at z>10 than ΛCDM predicts. In SIDC, this problem is *worse*, because SIDC has even less DM at high z. The cascade is honest that this is a real tension, not a solved problem.
 
 **v2.3.2 — June 2026** (PATCH: 5 new tests + formal tensor construction) — HISTORICAL
 

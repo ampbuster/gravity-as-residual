@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
 **Version:** 2.4 (hardening: 5 manuscript refactors + 5/27 anchored as topological eigenvalue) (June 2026)
-**Status:** Public release. 271 commits, 30 honest limitations documented.
+**Status:** Public release. 272 commits, 31 honest limitations documented.
 
 ---
 
@@ -101,7 +101,7 @@ Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive im
    - Limitation 26 FURTHER PARTIALLY ADDRESSED
 
 **Version state:**
-- 270 commits, 166 pages, 794 KB PDF (after §4.45 emulator + §7.0 update + cross-references)
+- 270 commits, 168 pages, 803 KB PDF (after §4.45 emulator + §7.0 update + cross-references)
 - 16/17 test categories pass (no change from v2.3.1; new tests are at the qualitative level)
 - 7/7 specific cases pass (no change)
 - 28 honest limitations: 3 closed, 6 partial, 17 open, 2 falsified, 2 reverted
