@@ -1,0 +1,21 @@
+Halo Mass vs M* Evolution Test Results (Documentation)
+========================================================
+
+Cascade prediction analysis:
+  Cascade DM = active (current SFR) + cumulative (integrated past)
+  Net: complex, but ~constant M_halo/M_star
+
+ΛCDM prediction: M_halo/M_star ~ constant at fixed M*
+
+Published data:
+  Leauthaud+ 2012 (z=0-1): M_halo/M_star ~ constant
+  Behroozi+ 2013 (z=0-4): M_halo/M_star ~ constant to within 0.2 dex
+
+Verdict: CONSISTENT with both (NOT discriminative)
+  Both models predict ~constant M_halo/M_star at fixed M*
+  Cascade's two-component structure can accommodate this
+
+To make discriminative:
+  - Better z-resolution data
+  - More sophisticated cascade calculation including SFH
+  - Precise prediction for z-dependence
