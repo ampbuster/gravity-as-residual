@@ -17,7 +17,7 @@ The biggest conceptual addition. The model used to say "every energetic event cr
 - Why the **Sun** has no detectable dark matter (solar events are below threshold)
 - Why **DF2 and DF4** (ancient galaxies with no recent supernovae) are dark-matter-poor
 - Why **AGC 114905** (a weird galaxy that seemed to falsify the model) is dark-matter-poor (its stars are too small to produce threshold-crossing events)
-- Why **KKR 25** (a dwarf spheroidal with intermediate-age SF, *TENSION for the cascade*) is dark-matter-rich for its mass
+- Why **KKR 25** (a dwarf spheroidal with intermediate-age SF, *consistent via cumulative-return*) is dark-matter-rich for its mass
 
 That's 5 out of 5 specific cases consistent. The model now handles *all* the awkward cases.
 
@@ -38,7 +38,7 @@ The 5/27/68 mass-energy split (5% ordinary matter, 27% dark matter, 68% dark ene
 - **Tian+ 2024** (50 brightest cluster galaxies): matches the cluster acceleration scale to within 1σ
 - **Sun**: no detectable dark matter, as expected (solar events are below threshold)
 - **DF2/DF4, FCC 224, AGC 114905** (DM-poor dwarfs): explained by lack of recent high-energy events
-- **KKR 25** (DM-rich dwarf): explained by its active history
+- **KKR 25** (DM-rich dSph): explained by its 1-4 Gyr past burst (cumulative return)
 - **Hubble constant** (local measurements): the cascade predicts H_0 = 73, matching SH0ES to within 1σ
 - **Energy budget** (Planck 2018): the cascade is consistent with 5% / 27% / 68% (the 32% / 68% outer split is derivable from projection kinematics)
 
