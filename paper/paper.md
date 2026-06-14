@@ -2698,6 +2698,54 @@ See `calculations/cosmic_shear_cascade.py` and `calculations/cosmic_shear_cascad
 
 ---
 
+### 4.44 Coordinate-Invariant Tensor Construction (v2.3.1, supporting document)
+
+A formal, coordinate-invariant modified stress-energy tensor $T_{\mu\nu}^{\text{eff}}$ for SIDC is constructed in the supporting document `supporting/T_tensor_construction.md`. The full derivation is there; this section summarizes the result.
+
+**The key result.** The effective 3+1D stress-energy tensor that enters the Einstein field equations is:
+
+$$T_{\mu\nu}^{\text{eff}} = T_{\mu\nu}^{\text{SM}} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + \frac{1}{8\pi G_4} \mathcal{E}_{\mu\nu} + T_{\mu\nu}^{\text{fossil}}$$
+
+where:
+- $T_{\mu\nu}^{\text{SM}}$: standard model matter (fully known)
+- $S_{\mu\nu}$: quadratic high-energy correction (RS-II Maeda-Sasaki form), the cascade's threshold trigger
+- $\mathcal{E}_{\mu\nu}$: bulk Weyl projection, the cascade's "Weyl shadow" / geometric DM candidate
+- $T_{\mu\nu}^{\text{fossil}}$: the cascade's *specific* contribution, localized at 2D universe deaths
+
+**The novel piece.** The fossil's amplitude is NOT a free parameter — it is *derived* from the 2D worldsheet's quantum dynamics via the Polyakov-Liouville trace anomaly:
+
+$$T^{\mu\nu}_{\text{fossil}}(\mathbf{x}) = f_{\text{back}} \int d^2\xi \sqrt{-\gamma} \, \frac{c}{24\pi} R^{(2)} \cdot \gamma^{ab} \partial_a X^\mu \partial_b X^\nu \, \delta^4(x - X(\xi))$$
+
+This is the cascade's *coordinate-invariant* way of localizing a 2D universe's death energy onto the 3+1D brane. The factor $\gamma^{ab} \partial_a X^\mu \partial_b X^\nu$ is the standard "induced metric" projector from 2D to 4D — it's the unique covariant way to lift a 2D scalar ($\sigma$) to a 4D rank-2 tensor.
+
+**Covariant conservation proof.** The total $T_{\mu\nu}^{\text{eff}}$ is covariantly conserved in the bulk-minimization limit ($f_{\text{back}} = 1$):
+
+$$\nabla^\mu T_{\mu\nu}^{\text{eff}} = 0 \quad \text{(in the } f_{\text{back}} = 1 \text{ limit)}$$
+
+The proof is given in `supporting/T_tensor_construction.md` §4.4. Each term is separately conserved (SM, $S_{\mu\nu}$, $T_{\mu\nu}^{\text{fossil}}$), and the bulk leakage $\nabla^\mu \mathcal{E}_{\mu\nu} \to 0$ in the cascade's bulk-minimization limit (the 5D Codazzi equation gives this when the 2D universe's energy fully returns to 3+1D).
+
+**Verification against physical constraints** (all PASS, see `calculations/verify_tensor_pipeline.py`):
+
+1. **UV / high-energy limit**: at $T_{\mu\nu} \geq E_{\text{crit}} \sim 10^{30}$ J, the quadratic term $S_{\mu\nu}$ dominates the linear $T_{\mu\nu}$, providing the threshold trigger for 2D universe creation.
+2. **2D vacuum limit**: in regions without energetic events (Sun, voids), $R^{(2)} = 0 \implies T_{\mu\nu}^{\text{fossil}} = 0$, ensuring no un-derived DM accumulation. The Sun has zero cascade DM (matches observation).
+3. **Bulk leakage**: in the $f_{\text{back}} = 1$ limit, the 2D universe's full energy returns to 3+1D, so $\nabla^\mu \mathcal{E}_{\mu\nu} = 0$ and the total is exactly conserved.
+
+**Comparison to §2.5.1 skeleton.** The §2.5.1 action has 5+ free parameters. This construction reduces them by deriving the fossil's amplitude from the 2D CFT (replacing the free $\sigma$ with the central charge $c$). The remaining free parameters are: $G_5$ (5D Newton's constant), $\alpha$ (cascade coupling), $f_{\text{back}}$ (staying fraction, set to 1 by cascade postulate), and $c$ (2D central charge, depends on 2D theory choice).
+
+**Status.** This construction is a *first-pass formal derivation* by a software developer, not a theoretical physicist. An expert in brane-world gravity, CFT, and differential geometry would need to:
+1. Verify the central charge $c$ (Liouville vs Polyakov, $c=1$ vs $c=26$)
+2. Verify the 5D bulk geometry (AdS$_5$ vs other)
+3. Verify the $\alpha$ coupling calibration
+4. Verify the conservation proof in the $f_{\text{back}} < 1$ case
+
+**Limitation update**: **Limitation 26 (full Lagrangian)** is now PARTIALLY ADDRESSED. The cascade's tensor pipeline is *formally constructed* (action + field equations + conservation proof), with the geometry and the bulk leakage limit specified. The remaining open work is the *specific 2D theory* (central charge, brane action) and the *5D bulk geometry*. This is a concrete invitation to theoretical physicists to complete the cascade.
+
+**Files added:**
+- `supporting/T_tensor_construction.md` (full derivation, 367 lines)
+- `calculations/verify_tensor_pipeline.py` (verification script, 5 checks all pass)
+
+---
+
 
 
 
