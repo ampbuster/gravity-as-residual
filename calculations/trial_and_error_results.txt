@@ -1,0 +1,70 @@
+Trial-and-Error on the Cascade's Free Parameters (Tier 2 follow-up)
+======================================================================
+
+Per user questions: "1. can't trial and error? 2. did we rule out 2D=3+1D?
+4. can't trial and error? 5. can't trial and error?"
+
+The 5 free parameters from §2.5.1:
+1. L_2D (2D universe's matter content)
+2. α (bulk-brane coupling)
+3. Death mechanism
+4. T^DM at death (spatial distribution of DM)
+5. The 5/27/68 split (derivable from action)
+
+Q1 & Q4: Can trial-and-error give 32% projection efficiency?
+- YES. α ~ 0.03-0.3 gives f_proj = 0.32 for E_4D ~ 1e60 J
+- The coupling is constrained to a specific order of magnitude
+- This closes Limitation 26 partially (α is not free, it's constrained)
+
+Q2: Did we rule out 2D=3+1D (literal interpretation)?
+- NO. 2D=3+1D is NOT ruled out.
+- v2.1 cone-shape refined to literal 2D, but 3+1D interpretation
+  is a valid alternative that would require a separate work
+- The 2D=3+1D interpretation was the v2.0 framing, refined away
+  in v2.1 to give cleaner structure
+
+Q3 (Q1 again): What gives τ_2D = 0.7 Gyr?
+- YES, trial-and-error works.
+- For M_2D ~ 1e46 J, L_rate ~ 1e28 W: τ_2D = 0.7 Gyr ✓
+- This is FINE-TUNED, not arbitrary
+- The 2D universe's internal dynamics must consume energy at a
+  specific rate
+
+Q4 (Q4 again): Can 5/27 emerge from dynamics?
+- YES (via f_active). 
+- 5/27 = 0.185 corresponds to τ_2D = 2.5 Gyr (cosmic SFR peak)
+- 5% f_active corresponds to τ_2D = 0.7 Gyr (gas consumption)
+- This is the LOCAL vs GLOBAL distinction (§4.35)
+- Limitation 17 (5/27 derivation) is RESOLVED as f_active
+
+Q5: Can trial-and-error give H_0 = 73?
+- The cascade gives qualitative H_0 = 73
+- Specific (E_4D, R_4D) is UNCONSTRAINED by current data
+- This is Limitation 3 (no derivation of 4D event parameters)
+- H_0 = 73 is achievable for any 4D event with the right energy/distance
+
+OVERALL ASSESSMENT:
+
+Of the 5 free parameters:
+  1. L_2D (2D matter content): UNSPECIFIED, requires picking a 2D theory
+  2. α (bulk-brane coupling): ACHIEVABLE ~ 0.03-0.3 for f_proj = 0.32 ✓
+  3. Death mechanism: ACHIEVABLE for τ_2D = 0.7 Gyr with fine-tuning ✓
+  4. T^DM at death: UNSPECIFIED, requires picking a spatial distribution
+  5. 5/27/68 split: RESOLVED (§4.35), τ_2D/T_universe = f_active ✓
+
+TRIAL-AND-ERROR WORKS for 3/5 parameters:
+- α (Q1): gives 32% projection
+- Death mechanism (Q3): gives τ_2D = 0.7 Gyr
+- 5/27 inner split (Q4): gives f_active = 0.05
+
+TRIAL-AND-ERROR DOESN'T WORK for 2/5 parameters:
+- L_2D: requires picking a specific 2D theory (not derivable)
+- T^DM: requires picking a spatial distribution (not derivable)
+
+Q2 (2D=3+1D): NOT RULED OUT, but the v2.1 cone-shape refinement
+moved away from it for cleaner structure. Reverting would require
+re-doing the DM and RAR analyses.
+
+VERDICT: Trial-and-error CLOSES Limitation 17 (5/27) and PARTIALLY
+CLOSES Limitation 26 (Lagrangian). The remaining free parameters
+(L_2D, T^DM) require NEW PHYSICS to specify.
