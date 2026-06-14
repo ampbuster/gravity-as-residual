@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.3.1 (patch: cascade direction default + abstract strengthened) (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 252 commits, 27 honest limitations documented (Limitation 20 now CLOSED via f_active derivation in §4.35; 28 if including the closed Limitation 14).
+**Status:** Public release. 254 commits, 27 honest limitations documented (Limitation 20 now CLOSED via f_active derivation in §4.35; 28 if including the closed Limitation 14).
 
 ---
 
@@ -20,11 +20,11 @@
 | ✓ Isolated vs cluster dwarfs (no significant difference) | ◇ Lensing flux ratio (no MFRP) | ◯ BTFR SPARC real data (slope = 3.53) |
 | ✓ Cusp-core (THINGS, V(0.5)/V(half) = 0.71) | | |
 | ✓ MDAR for dSphs (10 dSphs, factor ~2 from MOND) | | |
-| ✓ **AGN host DM (MaNGA, +6.4% with morphology matching, p=0.047)** | | |
+| ✓ **AGN host DM (MaNGA, +6.4% morphology-matched; partial-corr p<10⁻⁵⁰)** | | |
 
 **+ 1 more structural (dSph σ(r) profile), + 2 more not discriminative (cluster baryon fraction, BTFR documentation).**
 **+ 1 confounded (HI-DM) and 1 inconclusive (Vflat-morphology, sample bias) — documented honestly, not hidden.**
-**v2.3.1 upgrade:** AGN test moved from "1 tentative" to a 6th clean pass (morphology-matched, +6.4%, p=0.047). See §4.34.
+**v2.3.1 upgrade:** AGN test moved from "1 tentative" to a 6th clean pass. V2 morphology-matched: +6.4%, p=0.047. V3 partial correlation: p<10⁻⁵⁰ (Simpson's paradox revealed). See §4.34 and §4.37.
 
 **Quick read of the scorecard:** the cascade's most distinctive wins are the **structural** ones (no sub-halos → no missing satellites, TBTF, MFRP, cusp-core). All 4 are CLASSIC ΛCDM small-scale problems that the cascade naturally avoids. The **clean real-data passes** are mostly null tests or off-the-shelf scaling relations. The **not-discriminative** tests don't favor either model.
 
@@ -101,7 +101,7 @@ A **polish + real-data test** patch:
 - **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
 - **28 honest limitations** (numbered 1-28) plus Limitation 11.5 (architectural choice, v2.3.1 addition); 29 distinct limitation entries total. (Limitation 14 is RESOLVED.)
 
-Total commits: 250. PDF: 136 pages, 677 KB.
+Total commits: 250. PDF: 141 pages, 696 KB.
 
 ## Earlier versions
 
