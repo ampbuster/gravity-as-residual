@@ -87,7 +87,8 @@ The 5/27/68 mass-energy split (5% ordinary matter, 27% dark matter, 68% dark ene
 | ✓ Cusp-core (THINGS) | | |
 | ✓ MDAR for dSphs | | |
 
-**+ 3 more** (cluster baryon fraction, dSph σ(r), AGN tentative), **+ 1 confounded** (HI-DM), **+ 1 inconclusive** (Vflat-morphology).
+**+ 1 more structural (dSph σ(r) profile), + 2 more not discriminative (cluster baryon fraction, BTFR doc), + 1 tentative (AGN host DM).**
+**+ 1 confounded (HI-DM) and 1 inconclusive (Vflat-morphology, sample bias) — documented honestly.**
 
 **Quick read:** the cascade's most distinctive wins are the **structural** ones (no sub-halos → no missing satellites, TBTF, MFRP, cusp-core, all classic ΛCDM small-scale problems). Clean passes are mostly null tests. ~430 data points. **0 falsified. 0 strongly confirmed.** Most are consistency checks.
 

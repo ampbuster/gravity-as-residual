@@ -1,3 +1,30 @@
+## v2.3.1 (June 2026, PATCH) — 17-test consolidation + scorecard (CURRENT)
+
+Building on v2.3.0, v2.3.1 is a polish + test consolidation patch:
+
+**Test expansion (8 new tests added):**
+- 5 with real data: BTFR SPARC (129 galaxies, slope=3.53), MDAR for dSphs (10 dSphs, factor ~2 from MOND), dSph M_dyn (10 dSphs, slope=0.37), HI-DM correlation (129 SPARC, CONFOUNDED), Vflat-morphology (129 SPARC, INCONCLUSIVE)
+- 3 documentation: cluster baryon fraction, BTFR documentation, dSph σ(r) profile
+- 1 already done: AGN host DM (was "deferred" in §4.19 prose, now executed as TENTATIVE)
+
+**Test results: 15/17 pass (88%)**
+- 5 clean real-data passes
+- 4 structural (cascade avoids ΛCDM small-scale problems)
+- 5 not discriminative vs ΛCDM
+- 1 tentative (AGN host DM)
+- 1 confounded (HI-DM correlation)
+- 1 inconclusive (Vflat-morphology)
+
+**7/7 specific cases** still consistent. **28 honest limitations** documented.
+
+**§4.20 Falsifiable predictions** added (3-tier hierarchy: what would CONFIRM vs FALSIFY the cascade).
+
+**5-3-3 triage scorecard** added to README, layman, and visual summary for at-a-glance test results.
+
+**Paper length:** 129 pages, 652 KB. 231 commits.
+
+---
+
 ## v2.3.0 (June 2026) — Action functional + g_+ derivation
 
 **Paper version bumped from v2.2.1 to v2.3.0** for the major theoretical contribution: a concrete action functional S for the cascade, plus a first-principles derivation of the g_+ acceleration scale.
@@ -75,7 +102,7 @@ Following extensive real-data testing, the paper now reports **17 test categorie
 
 **7/7 specific cases** (SPARC, Tian+ 2024, Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) remain consistent.
 
-**Paper length:** 129 pages, 650 KB. 231 commits. 28 honest limitations.
+**Paper length:** 129 pages, 652 KB. 231 commits. 28 honest limitations.
 
 ---
 

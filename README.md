@@ -21,7 +21,7 @@
 | ✓ Cusp-core (THINGS, V(0.5)/V(half) = 0.71) | | |
 | ✓ MDAR for dSphs (10 dSphs, factor ~2 from MOND) | | |
 
-**+ 3 more cluster-baryon-fraction, dSph σ(r), AGN host DM (tentative).**
+**+ 1 more structural (dSph σ(r) profile), + 2 more not discriminative (cluster baryon fraction, BTFR documentation), + 1 tentative (AGN host DM).**
 **+ 1 confounded (HI-DM) and 1 inconclusive (Vflat-morphology, sample bias) — documented honestly, not hidden.**
 
 **Quick read of the scorecard:** the cascade's most distinctive wins are the **structural** ones (no sub-halos → no missing satellites, TBTF, MFRP, cusp-core). All 4 are CLASSIC ΛCDM small-scale problems that the cascade naturally avoids. The **clean real-data passes** are mostly null tests or off-the-shelf scaling relations. The **not-discriminative** tests don't favor either model.
@@ -84,7 +84,7 @@ This is a **polish + real-data test** patch:
 - **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
 - **28 honest limitations** (numbered 1-28) plus Limitation 11.5 (architectural choice, v2.3.1 addition); 29 distinct limitation entries total. (Limitation 14 is RESOLVED.)
 
-Total commits: 231. PDF: 129 pages, 650 KB.
+Total commits: 231. PDF: 129 pages, 652 KB.
 
 ## What's new in v2.3.0 (since v2.2.1)
 
