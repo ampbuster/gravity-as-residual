@@ -1,0 +1,75 @@
+CMB Power Spectrum Test for the Cascade (v2.3.1)
+===================================================
+
+QUESTION: Does the cascade's H_0 = 73 give a CMB power spectrum
+consistent with Planck 2018?
+
+KEY RESULT: H_0 = 73 is IN TENSION with Planck CMB peak positions
+(Δχ² = +650 for same-density case, +75 for ω_c-lowered case).
+
+PEAK POSITIONS (CAMB output, 4 acoustic peaks):
+
+  Peak    Planck 2018    Planck ΛCDM    Cascade H_0=73   Cascade+ω_c↓
+  Peak 1  220.0 ± 0.5    220 (0σ)       217 (-6σ)         218 (-4σ)
+  Peak 2  537.5 ± 0.7    536 (-2σ)      528 (-14σ)        533 (-6σ)
+  Peak 3  810.8 ± 0.7    813 (+3σ)      801 (-14σ)        810 (-1σ)
+  Peak 4  1128.0 ± 1.2   1126 (-2σ)     1109 (-16σ)       1121 (-6σ)
+
+χ² (peak positions, 4 peaks):
+  Planck ΛCDM (H_0=67.4):       χ² = 17.25
+  Cascade (H_0=73):            χ² = 666.88  (Δχ² = +649.63)
+  Cascade + dark rad (ΔN_eff=+1): χ² = 694.61  (Δχ² = +677.37)
+  Cascade + ω_c lowered:        χ² = 92.66  (Δχ² = +75.41)
+
+DERIVED QUANTITIES (CAMB):
+  Planck ΛCDM: z_*=1090, r_s=144.4 Mpc, θ_*=1.0411, age=13.79 Gyr
+  Cascade H_0=73: z_*=1090, r_s=144.4 Mpc, θ_*=1.0576, age=13.31 Gyr
+  Cascade +dark rad: z_*=1091, r_s=139.7 Mpc, θ_*=1.0237, age=13.31 Gyr
+  Cascade +ω_c lowered: z_*=1089, r_s=147.1 Mpc, θ_*=1.0467, age=13.58 Gyr
+
+KEY FINDINGS:
+1. H_0 = 73 with SAME densities (cascade's "no modification" case)
+   shifts peaks to LOWER ℓ, contradicting Planck
+2. Adding +1 neutrino (dark radiation from 5D Weyl) overshoots — peaks
+   move to HIGHER ℓ, overshooting Planck in the other direction
+3. Lowering ω_c (to compensate for higher H_0) gets closer but not enough
+4. The cascade's H_0 = 73 CANNOT match Planck CMB peaks with
+   simple density modifications
+
+WHY: θ_* = r_s/D_A must match Planck's measurement of 0.01041.
+With H_0 = 73 and same ω_b, ω_c:
+- r_s stays roughly the same (slight increase)
+- D_A decreases significantly
+- θ_* = r_s/D_A INCREASES (peaks move to LOWER ℓ)
+- Contradicts Planck
+
+To match θ_* = 0.01041 with H_0 = 73, you need:
+- r_s to decrease significantly (less time for oscillations)
+- This requires EARLY-UNIVERSE modifications (early dark energy,
+  modified recombination, etc.)
+- None of these are part of the cascade's current framework
+
+HONEST VERDICT: The cascade's H_0 = 73 is the LOCAL value (4D
+antigravity output rate). The cascade's physics at z~1100 is
+identical to ΛCDM (Mechanism N analysis, commit 256). Therefore,
+the cascade CANNOT explain the Hubble tension — it joins ΛCDM
+and other cosmological models in leaving the precise 5.6 km/s/Mpc
+gap unresolved.
+
+This CMB test is INDEPENDENT of the cascade's other predictions
+(g_+, RAR, AGN). It is the cascade's prediction for the EARLY
+UNIVERSE (z>1000) tested against Planck data.
+
+The fact that H_0 = 73 + same densities is BAD for Planck is
+NOT a surprise — it is the DEFINITION of the Hubble tension.
+The cascade's H_0 = 73 is REJECTED at high statistical significance
+by the CMB power spectrum peak positions, in the same way that
+ΛCDM is rejected at high significance by the local H_0 measurements.
+
+This is a NEGATIVE RESULT for the cascade, but a CONSISTENT one:
+the cascade accepts Mechanism M (accept the tension) and is
+honest about not resolving the Hubble tension.
+
+Files added:
+- calculations/cmb_cascade_prediction.py (CAMB-based test)
+- This results file

@@ -2525,6 +2525,64 @@ See `calculations/hubble_mechanism_N.py` and `calculations/hubble_mechanism_N_re
 
 ---
 
+### 4.41 CMB Power Spectrum Test: H_0 = 73 vs Planck (v2.3.1)
+
+**The highest-value test we hadn't done:** does the cascade's H_0 = 73 give a CMB power spectrum consistent with Planck 2018? This is the ESSENCE of the Hubble tension, tested with a Boltzmann-solver-level analysis.
+
+**Approach.** Use CAMB (CAMB v1.6.6) to compute the CMB TT power spectrum for four models:
+- (a) Planck ΛCDM best-fit (H_0 = 67.4)
+- (b) Cascade (H_0 = 73, same densities)
+- (c) Cascade + extra N_eff (dark radiation from 5D Weyl)
+- (d) Cascade + ω_c lowered to compensate
+
+Compare peak positions to Planck 2018 measurements: ℓ_1 = 220.0 ± 0.5, ℓ_2 = 537.5 ± 0.7, ℓ_3 = 810.8 ± 0.7, ℓ_4 = 1128.0 ± 1.2.
+
+**Key Result.** The cascade's H_0 = 73 with SAME DENSITIES is IN TENSION with Planck CMB peak positions:
+
+| Model | Peak 1 (220) | Peak 2 (537) | Peak 3 (810) | Peak 4 (1128) | χ² (4 peaks) |
+|-------|------|------|------|------|-------|
+| Planck ΛCDM (H_0=67.4) | 220 (0σ) | 536 (-2σ) | 813 (+3σ) | 1126 (-2σ) | 17.25 |
+| **Cascade (H_0=73)** | **217 (-6σ)** | **528 (-14σ)** | **801 (-14σ)** | **1109 (-16σ)** | **666.88** |
+| Cascade + dark rad | 221 (+2σ) | 542 (+6σ) | 826 (+22σ) | 1144 (+13σ) | 694.61 |
+| Cascade + ω_c lowered | 218 (-4σ) | 533 (-6σ) | 810 (-1σ) | 1121 (-6σ) | 92.66 |
+
+**The tension is at Δχ² = +650 for the same-density case.** This is a HARD falsification at the level of CMB peak positions, but a CONSISTENT one with Mechanism M: the cascade accepts the Hubble tension, and now we have a Boltzmann-solver-level confirmation of that acceptance.
+
+**Why H_0 = 73 fails:** The angular acoustic scale θ_* = r_s/D_A is fixed by Planck at 0.01041. With H_0 = 73 and same ω_b, ω_c:
+- r_s stays roughly the same (slight increase: 144.4 vs 144.4 Mpc)
+- D_A decreases significantly (more rapidly expanding universe at late times)
+- θ_* = r_s/D_A INCREASES (1.058 vs 1.041)
+- Peaks shift to LOWER ℓ (217 vs 220)
+- This CONTRADICTS Planck
+
+**Adding extra N_eff makes it worse**, not better: dark radiation INCREASES H(z) at high z, which DECREASES r_s, which DECREASES θ_*, which moves peaks to HIGHER ℓ. The cascade's "+1 neutrino from 5D Weyl" overshoots in the other direction.
+
+**Lowering ω_c helps partially** (χ² = 92.66 vs 666.88), but still has 4-6σ residual tension. The cascade's "DM" cannot be both 27% (today) and have a low ω_c to satisfy Planck CMB at H_0 = 73.
+
+**The honest verdict.** The cascade's H_0 = 73 is the LOCAL value (the 4D event's antigravity output rate). The cascade's physics at z~1100 is identical to ΛCDM (per Mechanism N analysis, §4.40). Therefore, the cascade CANNOT explain the Hubble tension — it joins ΛCDM and other cosmological models in leaving the precise 5.6 km/s/Mpc gap unresolved.
+
+This test is INDEPENDENT of the cascade's other predictions (g_+, RAR, AGN). It is the cascade's prediction for the EARLY UNIVERSE (z>1000) tested against Planck data at the Boltzmann-solver level.
+
+**The CMB test confirms Mechanism M's honesty.** The cascade does not pretend to resolve the Hubble tension. The CMB peak positions are STRONG evidence for H_0 = 67.4 (under ΛCDM). The cascade's H_0 = 73 is the local value, which is in 5.6 km/s/Mpc tension with the CMB. The cascade accepts this.
+
+**What this means for the cascade's "DM":** the cascade's "DM" being cumulative 2D universe gravity gives the SAME CMB power spectrum as ΛCDM's CDM, because the Einstein-Boltzmann equations only depend on total energy density. The CMB is a test of H_0 (and other early-universe parameters), not of the specific DM microphysics. So the cascade's "DM is geometric" claim is NOT tested by the CMB.
+
+**What this means for the cascade's "DE":** the cascade's DE (4D event's antigravity) is w = -1 EXACTLY (constant antigravity output). This is the same as ΛCDM's cosmological constant. The CMB is consistent with w = -1 (Planck: w = -1 ± 0.03), so the cascade's DE prediction is consistent with CMB.
+
+**What this means for the cascade's "5/27/68":** the CMB-inferred values of ω_b, ω_c are 0.0224 and 0.120. Converting to density fractions: Ω_b = 0.0493, Ω_c = 0.265, Ω_DE = 0.686. The cascade's 5/27/68 matches Ω_b (5%), Ω_c (27%), Ω_DE (68%) to within 0.5% — this is the cascade's GOOD fit to observation.
+
+**Status.** This is a NEGATIVE result for the cascade's CMB-era physics, but a CONSISTENT one with Mechanism M. The cascade's strong empirical wins are at LOCAL scales (g_+, RAR, AGN, dwarf galaxies). The CMB is a known weak point, and the cascade is honest about it.
+
+**Limitation update:** Limitation 18 (Hubble tension) is now DOCUMENTED at the Boltzmann-solver level. The cascade's H_0 = 73 fails the CMB peak position test at Δχ² = +650, confirming that the cascade does not resolve the Hubble tension.
+
+**Limitation update:** Limitation 6 (no CMB power spectrum derivation) is now PARTIALLY ADDRESSED — we have a CAMB-based test of the cascade's prediction, and it fails (as expected per Mechanism M).
+
+**Limitation update:** Limitation 17 (5/27/68) is CONFIRMED consistent with CMB: the cascade's 5%/27%/68% match the Planck-inferred Ω_b/Ω_c/Ω_DE to within 0.5%. This is observational consistency, not derivation.
+
+See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_prediction_results.txt` for the full numerical analysis.
+
+---
+
 
 
 
