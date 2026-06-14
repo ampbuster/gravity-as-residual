@@ -11,6 +11,12 @@
 - **NEW**: §3.7 cascade-MOND positioning updated — the cascade-MOND hybrid is a *complement* to MOND (cascade provides geometry, MOND provides functional form), not a competitor.
 - **NEW**: One-page visual summary (HTML + PNG) at `supporting/visual_summary.html` and `supporting/cascade_visual_summary.png`.
 - **NEW**: Phase-transition threshold principle (Gemini's insight). 2D universe creation is a NON-LINEAR PHASE TRANSITION with critical event energy E_crit ~ 10^30 J. Below threshold, zero cascade. Above, full cascade. This **resolves the AGC 114905 anomaly** (which appeared to falsify the cascade): the dwarf's ongoing SF is at energies BELOW threshold, so no 2D universes are created. Sun also explained (solar flares < threshold). 5/5 specific cases now consistent (was 4/5 + 1 challenge).
+
+**Note: the RAR is still in play.** The cascade-MOND hybrid (not pure cascade) matches the Radial Acceleration Relation to 10% median residual on 175 SPARC galaxies. The phase-transition principle answers a DIFFERENT question: which events create 2D universes in the first place. Three layers:
+1. **Threshold**: phase transition at E_crit ~ 10^30 J (which events count)
+2. **g_+ at a point**: V_local formula + MOND EFE (what's the local acceleration scale)
+3. **RAR functional form**: g_obs = g_bar / (1 - exp(-sqrt(g_bar/g_+))) — MOND's interpolation
+All three are active in the paper. The threshold is the new addition; the RAR was always there (via cascade-MOND hybrid).
 - **NEW**: Limitation 22 (energy-deposition threshold) refined by the phase-transition principle. The threshold is no longer just "energy deposited in 3+1D" but specifically "energy deposited above rho_crit." This is a QUANTITATIVE threshold (~10^30 J per event), not a magic number.
 - **NEW (failed)**: 5/27/68 derivation attempt v2 with 4D graph theory. Tested 8 approaches (K_4 eigenvalues, hypergraphs, projections, K_{3,1}, etc.). ALL FAILED — 5/27/68 is observational 3+1D data, not derivable from 4D geometry alone. Limitation 17 unchanged.
 - The cascade is **cone-shaped** (4D → 3+1D → 2D, terminal at 2D). 1D/0D universes don't exist.
