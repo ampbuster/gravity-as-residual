@@ -80,7 +80,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 
 | Competitor | Main weakness | SIDC advantage |
 |------------|---------------|-----------------|
-| **$\Lambda$CDM** | 4 unresolved small-scale crises (cusp-core, missing sats, TBTF, MFRP); requires WIMP + $\Lambda$ + 20+ feedback params | DM is geometric → no sub-halos → all 4 crises collapse by construction |
+| **ΛCDM** | 4 unresolved small-scale crises (cusp-core, missing sats, TBTF, MFRP); requires WIMP + $\Lambda$ + 20+ feedback params | DM is geometric → no sub-halos → all 4 crises collapse by construction |
 | **MOND** | Fails in cluster cores ($g_+$ ~17× too low) | Phase-transition scales $g_+$ naturally to cluster regime |
 | **ADD/RS brane-worlds** | Static bulk; no native dark-sector explanation | Dynamic cascade: dims are spawned, dark sector falls out as transactional debt |
 | **Verlinde (entropic)** | No historical clock → can't explain different-DM identical-baryon galaxies | Stellar Age Lifecycle ledger explains AGC 114905 vs KKR 25 timing |
