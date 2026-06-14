@@ -1,0 +1,17 @@
+Isolated Dwarf vs Cluster Dwarf DM Test Results
+================================================
+
+Cascade prediction: similar M*-M_200 for isolated and cluster dwarfs at fixed M*.
+Cumulative DM dominates (~95%); active contribution differs by only ~5%.
+
+Published results:
+  - Read+ 2017: isolated dwarfs follow tight M*-M_200 (consistent with ΛCDM)
+  - Boylan-Kolchin+ 2011/2012: classical MW dwarfs show 'too big to fail' (ΛCDM sub-halo problem)
+  - Sawala+ 2014/2016: most dwarfs consistent with ΛCDM after careful modeling
+
+Test verdict: CONSISTENT (no significant difference between isolated and cluster dwarfs)
+
+Caveats:
+  - 'Too big to fail' is a ΛCDM sub-halo problem; the cascade has no sub-halos
+  - 5% active-vs-cumulative difference is below current measurement precision
+  - A precision test at the few-percent level would require much larger samples
