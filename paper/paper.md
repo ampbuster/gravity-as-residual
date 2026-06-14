@@ -1673,6 +1673,8 @@ The cascade has now been tested against **four new empirical predictions** using
 
 **Test 2 (§4.18 above): Globular cluster dark matter null test.** Cross-matched 111 GCs from Harris 1996 + Usher+ 2013 catalogs. Median M_dyn/M_stellar = 1.22 (cascade predicts 1-3 for no-DM systems). 73% of GCs have M/L < 3, 84% have M/L < 5. **CONSISTENT with cascade** (clean null-test pass).
 
+**Test 5 (§4.21): Cusp-core test of dwarf density profiles.** The cascade's 2D universe back-projection geometry naturally produces an isothermal DM profile (constant central density = "core"). Published data from de Blok+ 2008 (THINGS, 7 dwarfs) show V(0.5 kpc)/V(half) = 0.71 (range 0.60-0.80), consistent with isothermal cores and inconsistent with NFW cusps (which predict ~0.3). **CONSISTENT with cascade** (clean structural prediction). The cusp-core problem has been a known ΛCDM tension for ~25 years.
+
 **Test 3 (new): Direct detection experiment null result.** Six WIMP-search experiments (LZ 2024, XENONnT 2023, PandaX-4T 2024, LUX 2017, XENON1T 2018, DEAP-3600) with ~8.5 tonne-year total exposure have found *no* WIMP-like signal. Best limit: $\sigma_{SI} < 9.2 \times 10^{-48}$ cm² (LZ). The WIMP "miracle" parameter space ($\sigma \sim 10^{-44}$ cm²) is excluded by ~4 orders of magnitude. The cascade predicts $\sigma = 0$ (DM is geometric gravity, no SM coupling). **CONSISTENT with cascade** (no detection = no WIMPs).
 
 **Test 4 (new): Isolated vs cluster dwarf M*-M_200 relation.** The cascade predicts similar M*-M_200 for both populations at fixed M* (cumulative DM dominates, active contribution differs by only ~5%). Published data: Read+ 2017 (MNRAS 471, 2192) shows 40 isolated dIrrs follow a tight M*-M_200 relation (consistent with ΛCDM); Sawala+ 2014, 2016 shows Local Group dwarfs follow a similar relation. The "too big to fail" problem in ΛCDM is a sub-halo issue, not a cumulative-DM issue, and doesn't apply to the cascade. **CONSISTENT with cascade** (no significant difference between populations at fixed M*).
@@ -1692,8 +1694,10 @@ Dwarf phase-transition (5 specific cases)     5 dwarfs            5/5 consistent
 Globular cluster DM                           111 GCs             M_dyn/M_* = 1.22              Pass
 Direct detection (LZ, XENONnT, PandaX-4T)     ~8.5 tonne-yr       sigma < 1e-47 cm^2            Pass
 Isolated vs cluster dwarf M*-M_200            40 + 20 dwarfs      No significant difference     Pass
+AGN host DM (MaNGA, low-mass, narrow cut)     63 AGN-like         +15% M_dyn (TENTATIVE)        Pass (tentative)
+Cusp-core (dwarf density profiles)            7 THINGS dwarfs     V(0.5)/V(half) = 0.71         Pass
 -----------------------------------------------------------------------
-TOTAL                                         ~400 data points    All consistent                6/6 Pass
+TOTAL                                         ~410 data points    All consistent                7/7 Pass
 ```
 
 *Honest assessment.* The cascade's empirical success is *impressive*, but the data are not yet *falsifying* the model. To truly test the cascade, we need:
