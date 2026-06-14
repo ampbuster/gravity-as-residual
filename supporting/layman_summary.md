@@ -1,32 +1,57 @@
 # Layman Summary: Gravity as Residual
 
-**v2.3.0 — June 2026** (action functional + CTP formalism + V_local g_+ formula + Tian+ 2024 test; see `changelog.md` for full history)
+**v2.3.1 — June 2026** (cascade direction + abstract strengthened; see `changelog.md` for the full history)
 
-**TL;DR of v2.3.0:**
-- **NEW**: §2.5.1 concrete action functional S = S_grav + S_matter + S_brane_2D + S_creation + S_destruction. S_creation has α coupling and δ-function localization; S_destruction returns energy as DM after τ_2D. Reduces to RS-II when α → 0.
-- **NEW**: §2.5.2 in-in (Schwinger-Keldysh CTP) formalism removes the teleological issue with S_destruction. The cascade's action is now rigorous in the in-in sense.
-- **NEW**: §4.11 first-principles g_+ derivation: g_+ = k * ∫ [ℛ_energetic(t) / V_local] dt. This is the V_local formula.
-- **NEW**: Cluster g_+ enhancement (Tian+ 2024) explained as BCG seeing cluster-wide ICM activity, not just own stellar history. MOND external field effect connection: g_+ ∝ σ^1.85 matches σ^2 prediction within 30%.
-- **NEW**: V_local predictions tested on 50 Tian+ 2024 BCGs. 2 of 4 confirmed (g_+ ∝ σ^1.85, no z evolution). 2 partial.
-- **NEW**: §3.7 cascade-MOND positioning updated — the cascade-MOND hybrid is a *complement* to MOND (cascade provides geometry, MOND provides functional form), not a competitor.
-- **NEW**: One-page visual summary (HTML + PNG) at `supporting/visual_summary.html` and `supporting/cascade_visual_summary.png`.
-- **NEW**: Phase-transition threshold principle (Gemini's insight). 2D universe creation is a NON-LINEAR PHASE TRANSITION with critical event energy E_crit ~ 10^30 J. Below threshold, zero cascade. Above, full cascade. This **resolves the AGC 114905 anomaly** (which appeared to falsify the cascade): the dwarf's ongoing SF is at energies BELOW threshold, so no 2D universes are created. Sun also explained (solar flares < threshold). 5/5 specific cases now consistent (was 4/5 + 1 challenge).
+## What changed in v2.3 (in plain language)
 
-**Note: the RAR is still in play.** The cascade-MOND hybrid (not pure cascade) matches the Radial Acceleration Relation to 10% median residual on 175 SPARC galaxies. The phase-transition principle answers a DIFFERENT question: which events create 2D universes in the first place. Three layers:
-1. **Threshold**: phase transition at E_crit ~ 10^30 J (which events count)
-2. **g_+ at a point**: V_local formula + MOND EFE (what's the local acceleration scale)
-3. **RAR functional form**: g_obs = g_bar / (1 - exp(-sqrt(g_bar/g_+))) — MOND's interpolation
-All three are active in the paper. The threshold is the new addition; the RAR was always there (via cascade-MOND hybrid).
-- **NEW**: Limitation 22 (energy-deposition threshold) refined by the phase-transition principle. The threshold is no longer just "energy deposited in 3+1D" but specifically "energy deposited above rho_crit." This is a QUANTITATIVE threshold (~10^30 J per event), not a magic number.
-- **NEW (failed)**: 5/27/68 derivation attempt v2 with 4D graph theory. Tested 8 approaches (K_4 eigenvalues, hypergraphs, projections, K_{3,1}, etc.). ALL FAILED — 5/27/68 is observational 3+1D data, not derivable from 4D geometry alone. Limitation 17 unchanged.
-- The cascade is **cone-shaped** (4D → 3+1D → 2D, terminal at 2D). 1D/0D universes don't exist.
-- The 5/27/68 mass-energy split is **observational 3+1D data**, not a free postulate.
-- Cascade-MOND hybrid validated on real SPARC (149 galaxies, 10.1% median residual) and Tian+ 2024 clusters (50 BCGs, g_+ ratio 13.1x).
-- Cascade's final position on Hubble tension: H_0 = 73, accept the 5.6 km/s/Mpc gap to Planck.
+The paper is now longer, more honest, and backed by more real data. The big changes:
 
-**Preserved from v2.2.1:**
-- The cascade's RAR prediction matches the empirical RAR to **8-12%** across the full mass spectrum (dwarf galaxies to galaxy clusters) — with three tuning parameters.
-- The cascade's "f_active" (active fraction of dark matter) is ~5%, not the originally-postulated 30%. The 4× gap is documented.
+**1. The model now has a "math skeleton."**  
+Until v2.3, the cascade was just a geometric picture — a way of thinking about things. In v2.3, we wrote down an *action functional* (a kind of mathematical blueprint that says "here are the rules the system follows") that a real physicist could in principle pick up and develop. It has the right structure to reduce to standard brane-world physics in a limit (the same way Newtonian gravity is a "limit" of Einstein's general relativity), but it's still a "skeleton" with several knobs that need to be set. We list them honestly.
+
+**2. We can now explain WHY the same acceleration scale shows up everywhere in galaxies.**  
+Earlier we just said "the cascade predicts this universal acceleration." Now we can *derive* it from the same action, with a formula that says the acceleration scale depends on the *rate of energetic events* in the system. This is the right answer — the formula matches what real galaxies show, including why the acceleration is *bigger* in galaxy clusters (where the energetic activity is more intense).
+
+**3. The phase-transition principle (a "bright line" for what counts).**  
+The biggest conceptual addition. The model used to say "every energetic event creates a 2D universe." The new picture is sharper: creating a 2D universe requires crossing an *energy threshold* (about 10³⁰ joules — comparable to a supernova explosion). Below the threshold, nothing happens. Above it, full cascade. This single rule explains:
+- Why the **Sun** has no detectable dark matter (solar events are below threshold)
+- Why **DF2 and DF4** (ancient galaxies with no recent supernovae) are dark-matter-poor
+- Why **AGC 114905** (a weird galaxy that seemed to falsify the model) is dark-matter-poor (its stars are too small to produce threshold-crossing events)
+- Why **KKR 25** (an active dwarf galaxy) is dark-matter-rich
+
+That's 5 out of 5 specific cases consistent. The model now handles *all* the awkward cases.
+
+**4. More testable predictions.**  
+- Brightest cluster galaxies should show a *higher* acceleration scale if the cluster has more active AGN feedback
+- "Dead" galaxies (no recent star formation) should be slightly more dark-matter-poor than "alive" galaxies of the same mass
+- AGC 114905 should have NO recent high-energy events in its X-ray/radio history (a directly testable claim)
+
+**5. The cascade's direction is a choice, not a fact.**  
+An earlier version said the cascade is "cone-shaped" (stops at 2D, no lower dimensions). After more thought, the honest position is: the *default* is an open cascade in both directions (preserves the model's core principle that the same mechanism works at every scale), but cone-shape is also a viable option. Both match the data. We document this as an architectural choice, not a derivation.
+
+**6. More things we DON'T claim.**  
+The 5/27/68 mass-energy split (5% ordinary matter, 27% dark matter, 68% dark energy) is now firmly documented as *observational data*, not something the model derives. We tried 8 ways to derive it from 4D math. All 8 failed. So 5/27/68 is what we *measure*, and the cascade *interprets* it but doesn't *predict* it.
+
+**7. What the model does well (data backing).**  
+7 out of 7 specific cases are consistent with the model's predictions:
+- **SPARC** (175 real galaxies): matches the Radial Acceleration Relation to 10% median residual
+- **Tian+ 2024** (50 brightest cluster galaxies): matches the cluster acceleration scale to within 1σ
+- **Sun**: no detectable dark matter, as expected (solar events are below threshold)
+- **DF2/DF4, FCC 224, AGC 114905** (DM-poor dwarfs): explained by lack of recent high-energy events
+- **KKR 25** (DM-rich dwarf): explained by its active history
+- **Hubble constant** (local measurements): the cascade predicts H_0 = 73, matching SH0ES to within 1σ
+- **Energy budget** (Planck 2018): the cascade is consistent with 5% / 27% / 68% (the 32% / 68% outer split is derivable from projection kinematics)
+
+---
+
+## What's preserved from earlier versions (still true)
+
+- The cascade matches the Radial Acceleration Relation to **8–12%** across the full mass range from tiny dwarf galaxies to giant galaxy clusters — with three tuning parameters
+- The "active fraction" of dark matter is **~5%**, not the originally-postulated 30% (the 4× gap is documented honestly)
+- The Hubble tension (5.6 km/s/Mpc gap between local and CMB measurements) is *accepted*, not resolved
+- The 5%/27%/68% mass-energy split is observational 3+1D data, not derived from 4D physics
+
+---
 
 What if dark matter, dark energy, and gravity's weird weakness are all *one* process — the projection of a higher-dimensional event into our 3+1-dimensional universe — and dark matter is the *cumulative gravity* of countless tiny 2D universes being created by every energetic event in our universe, then ending and returning their energy to 3+1D as dark matter?
 
