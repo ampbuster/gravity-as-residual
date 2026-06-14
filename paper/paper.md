@@ -13,7 +13,7 @@
 - **§4.17 NEW**: First-principles g_+ derivation: g_+ = k * ∫ event rate * E_event * τ_2D / L_2D dt. This is the cascade's formula for g_+, equivalent to Gemini's scaling relation g_+ ∝ ∫ ρ_events/M_b dt.
 - **CLUSTER g_+ ENHANCEMENT (Tian+ 2024)** now explained as BCG seeing cluster-wide ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure), not just its own stellar history. Cluster/BCG enhancement factor ~ 14× (Tian+ 2024: 1.7e-9 m/s² for BCGs vs 1.2e-10 m/s² for SPARC galaxies, ratio ~ 14), matching the MOND external field effect scaling sqrt(M_cluster/M_galaxy) = sqrt(100) ~ 10 (within 30%).
 - **4 testable predictions**: (1) BCG g_+ correlates with cluster ICM activity, (2) dwarf g_+ correlates with recent SFR not M_*, (3) g_+ ratio matches event rate ratio, (4) partial correlation test (TENSION: §4.7 found SFR signal entirely mediated by M_b).
-- **123 pages** (was 97 in v2.2.1), 630 KB.
+- **123 pages** (was 97 in v2.2.1), 633 KB.
 
 
 - **Mechanism B/F (Hubble tension) TESTED with Pantheon+** (§2.6 *Hubble tension: status of the cascade's explanation*; §7 Limitation 16, 18): the cascade's specific H_0(z) = H_0_CMB^2 + (H_0_local^2 - H_0_CMB^2) / (1+z)^(2/3) prediction is rejected by Pantheon+ with full statistical+systematic covariance matrix (1701 SNe, 1701x1701 matrix, M fixed at SH0ES value -19.253 from 113 Cepheid calibrators). Best-fit LCDM gives H_0 = 73.00 with chi^2 = 1439.4; cascade's B/F gives chi^2 = 1488.3. **Delta chi^2 = +48.9 (~7 sigma, LCDM WINS).** Pantheon+ shows H_0 is *roughly constant* at ~73 across all z bins, not decreasing with z as B/F predicted. **The cascade's *qualitative* H_0 prediction (73) is consistent with data; Mechanism B/F's specific quantitative form is not.** The cascade does not currently provide a specific mechanism that resolves the 5.6 km/s/Mpc gap between local/Pantheon+ (73) and Planck CMB-inferred (67.4) H_0. This is consistent with the cascade's *qualitative* compatibility with the Hubble tension without a specific quantitative resolution. Many cosmological models (including LCDM) leave the precise value of the Hubble tension unresolved.
@@ -2185,6 +2185,34 @@ The model is not a finished theory. It is a thought experiment intended to invit
 - Developing the physics of 2D universes created by 3+1 dimensional events
 
 We are not specialists in theoretical physics. We offer this proposal with the hope that it may be useful, and with the appropriate humility about its status as a thought experiment rather than a developed theory.
+
+---
+
+## Data and code availability
+
+**Code.** All Python code used in the analysis is in the `calculations/` directory of this paper's GitHub repository (https://github.com/ampbuster/gravity-as-residual). Each calculation has a corresponding `.py` file (the script) and a `_results.txt` file (the output), with detailed inline comments explaining the cascade's predictions and the comparison to data. The code is intentionally written in plain Python (numpy, scipy, matplotlib, astropy) without proprietary dependencies; it can be re-run by anyone with a standard scientific Python environment.
+
+**Data.** All observational data used in this paper is from publicly-available catalogs:
+- SPARC database (Lelli+ 2016, AJ 152, 157): https://astroweb.cwru.edu/SPARC/
+- Tian+ 2024 BCGs (50 brightest cluster galaxies): published in A&A
+- Harris 1996 GC catalog: VizieR J/AJ/112/1487
+- Usher+ 2013 GC catalog: VizieR J/MNRAS/431/1707
+- LZ 2024 direct detection: arXiv:2410.17036
+- XENONnT 2023: arXiv:2303.14729
+- PandaX-4T 2024: arXiv:2408.00664
+- Read+ 2017 isolated dwarfs: MNRAS 471, 2192
+- Sawala+ 2014/2016 cluster dwarfs: MNRAS 448, L33 / ApJ 819, L20
+- de Blok+ 2008 THINGS: ApJ 679, 1323
+- MaNGA DR15 (Sanchez+ 2018): via SDSS
+- Planck 2018 cosmological parameters: arXiv:1807.06209
+- SH0ES Cepheid calibration: arXiv:2112.04510
+- Pantheon+ SNe: https://github.com/PantheonPlusSH0ES
+
+All derived quantities (M_dyn, M_halo, M_star, g_obs, etc.) are computed in the corresponding calculation scripts, with full statistical methodology (covariance matrices, MCMC posteriors, etc.) documented inline.
+
+**Reproducibility.** The paper's repository includes a `requirements.txt` file listing the exact Python package versions used. Each calculation script can be re-run with `python calculations/<script>.py` to reproduce the corresponding `_results.txt` file. The paper's main PDF (`paper/paper.pdf`) is built from `paper/paper.md` using `pandoc`; the build is deterministic.
+
+**Correspondence.** The author's correspondence details are at the end of this paper; comments and critiques are welcome.
 
 ---
 
