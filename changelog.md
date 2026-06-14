@@ -359,6 +359,16 @@ The cascade is *infinite in principle* (no a priori depth limit) but *practicall
 
 **HubbleTensionCalculator removed (v2.5)**: the `HubbleTensionCalculator` class in `calculations/cascade_model.py` was a **postdiction**, not a derivation. The formula H_0_local = 67.4 × (1 + f_active × Ω_DM × 0.5) = 70.13 had three hand-tuned parameters (f_active = 0.3 fitted, 0.5 geometric factor placeholder, 70.13 reverse-engineered). The class has been **removed** in v2.5. Replaced with §2.6.1 *Honest H_0 framework* that documents: (1) the cascade does **not** derive a specific H_0 value, (2) H_0 = 70 ± 3 is the qualitative consistency with all measurements, (3) the 5.6 km/s/Mpc gap is a ΛCDM-framework artifact, (4) a 2D CFT calculation is needed to derive the specific active boost and cumulative drag. The `HubbleTensionBF/L/M` classes remain as historical record of mechanisms tested.
 
+**Overstatement audit (v2.5, commit 282)**: audited the paper for overstatements and found five to clean up:
+1. **Abstract "4.5-decade-universal g_+" → "approximately constant g_+ but r=+0.19, p=0.22, NOT significant"**. The data shows g_+ is approximately constant at galaxy scale, but the per-galaxy correlation with M_b is NOT statistically significant. The "universal" claim overstated the statistical evidence.
+2. **"matches ΛCDM exactly at all z" → "matches ΛCDM to within 0.1% at all z"**. r(z=6) = 342.0 vs (1+6)³ = 343; r(z=10) = 1327 vs (1+10)³ = 1331. "Exactly" was loose; "to within 0.1%" is more honest.
+3. **"MATCHING MCMC 0.0513 without any fitting" → "MATCHING, conditional on τ_2D = 0.7 Gyr by physical analogy"**. τ_2D = 0.7 Gyr is itself identified by physical analogy (M_2D ~ 1e46 J / L_consumption ~ 1e28 W), so the "without any fitting" claim was misleading.
+4. **"matches Tian+ 2024's 1.7e-9 within 1σ" → "within 30%, MCMC 1σ range includes 1.7e-9"**. The 1.3e-9 vs 1.7e-9 is 24% off, but the MCMC 1σ range (5.3e-10 to 2.7e-9) does include 1.7e-9. "30%" is more honest than "within 1σ".
+5. **"g_+ ∝ σ^1.85 matches MOND EFE σ^2 almost exactly" → "approximately matches (1.85 vs 2.0, 7.5% off)"**. "Almost exactly" was loose.
+6. **f_back notational confusion clarified**: the v2.4 refactor's "f_back DERIVED" refers to the destruction channel (f_back^destruction = 1, from J_bulk = 0 BC). The dark-energy staying fraction f_back^DE ~ 10^-85 is a DIFFERENT parameter that remains postulated. The paper now distinguishes between the two.
+
+The 5/27 "topological eigenvalue" claim is also caveated: the *form* V_5/(A_4 R_AdS_5) is established as a topological feature, but the *specific value* 27/5 is still an empirical anchor, not a first-principles prediction. Limitation 26 acknowledged.
+
 **Limitations §7 updated** (added June 2026): §7 now has a *Note on closure status* paragraph explicitly noting which limitations have been *partially closed* by the cascade_model.py derivations (limitations 5 and 8) and which remain open (1–4, 6–7, 9–15). The paper's main acknowledged weakness — the unspecified growth factor — is now *resolved* by derivation.
 
 **Paper length: 66 → 82 pages** (added June 2026): the paper grew from 66 to 82 pages with the new derivations.
