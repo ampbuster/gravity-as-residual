@@ -91,7 +91,7 @@ A **five-tests + formal-construction** patch:
 
 **Test results: 16/17 test categories pass + 3 new qualitative tests at the Boltzmann-solver / cross-survey / theoretical-derivation level.**
 
-**Version state:** 262 commits, 154 pages, 739 KB PDF.
+**Version state:** 262 commits, 157 pages, 751 KB PDF.
 
 **Honest framing:**
 - 0 strongly confirmed, 0 falsified
@@ -123,7 +123,7 @@ A **polish + real-data test** patch:
 - **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
 - **28 honest limitations** (numbered 1-28) plus Limitation 11.5 (architectural choice, v2.3.1 addition); 29 distinct limitation entries total. (Limitation 14 is RESOLVED.)
 
-Total commits: 250. PDF: 154 pages, 737 KB.
+Total commits: 265. PDF: 157 pages, 751 KB.
 
 ## Earlier versions
 
@@ -143,7 +143,7 @@ For the full commit-by-commit history, see `changelog.md` (commits 1-247).
 | Folder / File | What's in it |
 |---|---|
 | `paper/paper.md` | The full paper, v2.3.2 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (154 pages) |
+| `paper/paper.pdf` | Compiled PDF (157 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary (v2.3.2) |
 | `supporting/how-did-we-get-here.md` | Conversation history: how the cascade was developed |

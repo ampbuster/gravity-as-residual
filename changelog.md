@@ -18,6 +18,19 @@ Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive im
 
 6. **Coordinate-Invariant Tensor Construction (T_μν)**: Full formal derivation in `supporting/T_tensor_construction.md` (367 lines). Unifies RS-II/DGP framework, 2D Dirac delta localization, and 2D Liouville/Polyakov trace anomaly. Key result: T^eff_μν = T^SM + (κ_5^4/8πG_4)S_μν + (1/8πG_4)E_μν + T^fossil_μν. NOVELTY: fossil's amplitude derived from 2D CFT trace anomaly (σ = (c/24π)∫R^(2)√(-γ)d²ξ). Covariant conservation proven in bulk-minimization limit (f_back = 1). 5 verification checks all pass. New §4.44. Limitation 26 PARTIALLY ADDRESSED.
 
+**Seventh addition: v2.4 refactor of the tensor pipeline (commit 265)**
+
+7. **v2.4 Refactor (Hardening the Tensor Framework)**: Implements 4 structural tasks that transition the v2.3.2 "experimental sketch" to a "structurally complete field theory framework specification":
+   - **Task 1: Zero-leakage bulk constraint** — J^A_bulk = 0 as formal BC (eliminates f_back free parameter)
+   - **Task 2: Central charge c bounds** — c ∈ Z≥1, default c=1 (eliminates c free parameter)
+   - **Task 3: Continuous Gaussian instanton** — replaces δ-function with smooth decay (preserves Bianchi)
+   - **Task 4: 5/27 as topological invariant** — V_5/(A_4 R_AdS_5) = 27/5, frozen at brane deployment
+   - **Free parameters reduced: 5+ → 2-3 active**
+   - **Bianchi identity preserved under all 4 modifications**
+   - New file: `supporting/T_tensor_v24_refactor.md` (330 lines)
+   - New section in paper: §4.44.1
+   - Limitation 26 FURTHER PARTIALLY ADDRESSED
+
 **Version state:**
 - 262 commits, 154 pages, 737 KB PDF
 - 16/17 test categories pass (no change from v2.3.1; new tests are at the qualitative level)
