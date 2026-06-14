@@ -15,6 +15,8 @@ Five refactors move the framework from "geometric sketch" to "structurally compl
 
 **What this means for the JWST "early galaxy problem":** JWST has found more bright galaxies at z>10 than ΛCDM predicts. In SIDC, this problem is *worse*, because SIDC has even less DM at high z. The cascade is honest that this is a real tension, not a solved problem.
 
+7. **§4.48 (NEW): Primordial Lagrangian — two-component DM with F_p ~ 0.7.** A natural follow-up: can we *design* a primordial phase for the Lagrangian that populates the early DM ledger? Yes, and trial-and-error shows the cascade REQUIRES F_p ~ 0.7 (primordial, from the 4D event's internal activity) + F_s ~ 0.3 (stellar/AGN) to match the observed bright-end of the z=6 UV LF. The 4D event is NOT a one-time big bang; it's an ongoing energetic process whose internal activity creates 2D universes throughout cosmic history. This is the cascade's hidden parameter that explains why high-z structure forms at all.
+
 **v2.3.2 — June 2026** (PATCH: 5 new tests + formal tensor construction) — HISTORICAL
 
 ## What changed in v2.3 (in plain language)

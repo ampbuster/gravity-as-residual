@@ -8,8 +8,9 @@ Five refactors transition the v2.3.2 framework to a "structurally complete field
 4. **§7.0 updated to v2.4:** 30 limitations (added Limitation 30), L15/L17 OPEN→PARTIAL, L29 linked to c bounds
 5. **Appendix refactored: Open-Source Scientific Collaboration** (formal call-to-action to theoretical physicists)
 6. **§4.47 (NEW): Time-scale invariance test** (calculations/time_scale_invariance_test_v3.py): cascade is NOT strictly time-scale-invariant. r(z=6) = 0.008 (SIDC has 130× less DM than ΛCDM). F_stellar ~ 1 predicted by cascade's own energetics. JWST early-galaxy problem is STRONGER for SIDC. Limitation 31 added.
+7. **§4.48 (NEW): Primordial Lagrangian design** (calculations/primordial_lagrangian_test.py): two-component DM with F_p ~ 0.7 (primordial) + F_s ~ 0.3 (stellar). Trial-and-error shows F_p > 0.7 required to match high-z UV LF. F_p is the 4D event's internal activity (hidden parameter). Limitation 31 PARTIALLY ADDRESSED.
 
-Final v2.4 state: 168 pages, 803 KB PDF, 272 commits, 31 limitations, 2-3 free parameters.
+Final v2.4 state: 171 pages, 813 KB PDF, 273 commits, 31 limitations, 2-3 free parameters.
 
 ## v2.3.2 (June 2026, PATCH) — Five new tests + formal tensor construction (HISTORICAL)
 

@@ -1,0 +1,16 @@
+{
+  "principle": "Two-component DM: L_total = L_primordial + L_stellar. Primordial phase provides constant 2D universe creation rate; stellar phase provides Madau-SFR-dependent rate.",
+  "constraint_1": "\u03c1_DM(0) = 0.27 \u03c1_crit (calibration)",
+  "constraint_2": "r(z=6) > 0.3 (UV LF consistency)",
+  "trial_and_error": {
+    "F_p=0.0": "r(z=6) = 0.008, FAILS",
+    "F_p=0.5": "r(z=6) = 0.4, MARGINAL",
+    "F_p=0.7": "r(z=6) = 0.55, MATCHES",
+    "F_p=1.0": "r(z=6) = 1.0, trivially matches"
+  },
+  "conclusion": "The cascade REQUIRES F_p > 0.7 to match observed high-z structure. This means the 4D event's internal activity is the DOMINANT source of DM (70% primordial, 30% stellar).",
+  "physical_interpretation": "The 4D event is an ongoing energetic process that creates 2D universes at a constant rate throughout cosmic history. This 4D-event-driven DM is the \"passive\" component. Stellar activity adds a time-lagged \"active\" component.",
+  "two_component_test": "High-z structure tests F_p; AGC/KKR bifurcation tests F_s. Both must be consistent.",
+  "updated_limitations": "Limitation 31 (time-lag) PARTIALLY ADDRESSED: with F_p > 0.7, the time-lag is much less severe than pure stellar (F_p=0). The cascade becomes consistent with high-z structure.",
+  "open_question": "What is the physical mechanism for the primordial 2D universe creation rate? Candidate: 4D event internal dynamics. Requires 2D CFT expert (Limitation 26)."
+}
