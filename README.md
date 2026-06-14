@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.3.0 (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 166 commits, 30 honest limitations documented.
+**Status:** Public release. 184 commits, 30 honest limitations documented.
 
 ---
 
@@ -51,6 +51,8 @@ This is a **major theoretical contribution**: a concrete action functional S for
 
 ---
 
+- **§2.5 NEW**: Phase-transition threshold principle (Gemini's insight). 2D universe creation is a NON-LINEAR PHASE TRANSITION with critical event energy E_crit ~ 10^30 J. Below threshold, zero cascade. Above, full cascade. **Resolves the AGC 114905 anomaly**: its ongoing SF is at energies below threshold, so no 2D universes are created. 5/5 specific cases now consistent (was 4/5 + 1 challenge).
+
 ## What's new in v2.2.1 (since v2.2)
 
 This was an audit pass plus a substantive new analysis of the Radial Acceleration Relation (RAR):
@@ -70,7 +72,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 | Folder / File | What's in it |
 |---|---|
 | `paper/paper.md` | The full paper, v2.3.0 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (103 pages) |
+| `paper/paper.pdf` | Compiled PDF (109 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary (v2.3.0) |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |

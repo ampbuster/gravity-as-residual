@@ -10,6 +10,8 @@
 - **NEW**: V_local predictions tested on 50 Tian+ 2024 BCGs. 2 of 4 confirmed (g_+ ∝ σ^1.85, no z evolution). 2 partial.
 - **NEW**: §3.7 cascade-MOND positioning updated — the cascade-MOND hybrid is a *complement* to MOND (cascade provides geometry, MOND provides functional form), not a competitor.
 - **NEW**: One-page visual summary (HTML + PNG) at `supporting/visual_summary.html` and `supporting/cascade_visual_summary.png`.
+- **NEW**: Phase-transition threshold principle (Gemini's insight). 2D universe creation is a NON-LINEAR PHASE TRANSITION with critical event energy E_crit ~ 10^30 J. Below threshold, zero cascade. Above, full cascade. This **resolves the AGC 114905 anomaly** (which appeared to falsify the cascade): the dwarf's ongoing SF is at energies BELOW threshold, so no 2D universes are created. Sun also explained (solar flares < threshold). 5/5 specific cases now consistent (was 4/5 + 1 challenge).
+- **NEW**: Limitation 22 (energy-deposition threshold) refined by the phase-transition principle. The threshold is no longer just "energy deposited in 3+1D" but specifically "energy deposited above rho_crit." This is a QUANTITATIVE threshold (~10^30 J per event), not a magic number.
 - **NEW (failed)**: 5/27/68 derivation attempt v2 with 4D graph theory. Tested 8 approaches (K_4 eigenvalues, hypergraphs, projections, K_{3,1}, etc.). ALL FAILED — 5/27/68 is observational 3+1D data, not derivable from 4D geometry alone. Limitation 17 unchanged.
 - The cascade is **cone-shaped** (4D → 3+1D → 2D, terminal at 2D). 1D/0D universes don't exist.
 - The 5/27/68 mass-energy split is **observational 3+1D data**, not a free postulate.

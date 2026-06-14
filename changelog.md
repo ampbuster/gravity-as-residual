@@ -2,6 +2,14 @@
 
 **Paper version bumped from v2.2.1 to v2.3.0** for the major theoretical contribution: a concrete action functional S for the cascade, plus a first-principles derivation of the g_+ acceleration scale.
 
+**Audit fixes (commit 184):** Several inconsistencies caught and fixed:
+1. "Limitation 22 update" reference in §2.5 body text was incorrect (Limitation 22 in §7 is about isothermal profile). Renamed to "Energy-deposition threshold (v2.2.1) refined by the phase-transition principle (v2.3.0)".
+2. Page count in v2.3.0 highlight: 103 → 109 pages. File size: 528 → 563 KB.
+3. README page count updated to 109 pages.
+4. README commit count: 173 → 184.
+5. Layman summary updated with phase-transition principle (most important recent addition).
+6. §4.8 (Diffuse galaxies) updated with AGC 114905 + phase-transition note. The UDG case count is now 5/5 consistent (was 4/5 + 1 challenge).
+
 **§2.5.1 NEW: Concrete action functional S (commit 163).** Per the gap identified by Gemini and the user, replaced the cascade's geometric narrative with a concrete action functional that a mathematical physicist can work with:
 
 $$S = S_{\text{grav, 3+1D}} + S_{\text{matter, 3+1D}} + S_{\text{brane, 2D}} + S_{\text{creation}} + S_{\text{destruction}}$$
