@@ -2498,5 +2498,7 @@ If you are a physicist reading this and finding it interesting: please work on i
 
 ---
 
-*Manuscript date: 2026-06-10*
+*Manuscript date: 2026-06-14 (v2.3.1 final)*
 *Correspondence: open*
+
+*How this paper came to be:* The cascade emerged from a series of plain-language intuitions in conversation between a non-physicist (the author) and an AI assistant (Mavis / MiniMax-M3). The original intuitions — dark matter as "like a neutrino," as a wind on paper, as a cancelling-through-dimensions effect — are preserved verbatim in `supporting/how-did-we-get-here.md`. The model was developed by progressively making those intuitions mathematically precise and testing them against observational data. The paper at v2.3.1 is the artifact; the conversation is the origin story.

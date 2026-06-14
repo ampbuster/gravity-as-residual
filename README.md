@@ -146,6 +146,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 | `paper/paper.pdf` | Compiled PDF (129 pages, includes 11 new tests since v2.3.0) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary (v2.3.0) |
+| `supporting/how-did-we-get-here.md` | Conversation history: how the cascade was developed |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |
 | `supporting/publication_strategy.md` | Notes on where to publish |
 | `calculations/` | ~50 Python scripts (numerical verification, derivations, tests) |
@@ -176,6 +177,8 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 ## How to read
 
 **New to the idea?** Start with `supporting/layman_summary.md`. It walks through the model without equations.
+
+**Curious how we got here?** Read `supporting/how-did-we-get-here.md` for the conversation history — a non-physicist's plain-language intuitions, and how they developed into the cascade model.
 
 **Want the full argument?** Read `paper/paper.md` (or `paper/paper.pdf` for the compiled version). The paper is structured as:
 
