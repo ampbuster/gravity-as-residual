@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.3.0 (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 184 commits, 30 honest limitations documented.
+**Status:** Public release. 186 commits, 30 honest limitations documented.
 
 ---
 
@@ -72,7 +72,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 | Folder / File | What's in it |
 |---|---|
 | `paper/paper.md` | The full paper, v2.3.0 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (109 pages) |
+| `paper/paper.pdf` | Compiled PDF (110 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary (v2.3.0) |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |

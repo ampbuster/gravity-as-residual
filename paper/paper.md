@@ -3,11 +3,11 @@
 **Version 2.3.0** (June 2026) — concrete action functional (§2.5.1) + first-principles g_+ derivation (§4.11) + cluster g_+ enhancement (Tian+ 2024) explanation. Major v2.2 content (preserved below):
 
 **v2.3.0 HIGHLIGHTS (added 2026-06-13):**
-- **§2.5.1 NEW**: Concrete action functional S = S_grav + S_matter + S_brane_2D + S_creation + S_destruction. S_creation has α coupling and δ-function localization; S_destruction returns energy as DM after τ_2D. Local energy conservation preserved (Stoke's). Reduces to RS-II when α → 0. *Status: SKELETON with 5+ free parameters (L_2D, α, death mechanism, T^DM at death, 5/27/68 split, cascade-MOND g_+).* Limitation 26 refined.
-- **§4.11 NEW**: First-principles g_+ derivation: g_+ = k * ∫ event rate * E_event * τ_2D / L_2D dt. This is the cascade's formula for g_+, equivalent to Gemini's scaling relation g_+ ∝ ∫ ρ_events/M_b dt.
+- **§2.5.1 NEW**: Concrete action functional S = S_grav + S_matter + S_brane_2D + S_creation + S_destruction. S_creation has α coupling and δ-function localization; S_destruction returns energy as DM after τ_2D. Local energy conservation preserved (Stoke's). Reduces to RS-II when α → 0. *Status: SKELETON with 4-6 free parameters depending on which layer (see §2.5.1 honest status for the full breakdown).* Limitation 26 refined.
+- **§4.17 NEW**: First-principles g_+ derivation: g_+ = k * ∫ event rate * E_event * τ_2D / L_2D dt. This is the cascade's formula for g_+, equivalent to Gemini's scaling relation g_+ ∝ ∫ ρ_events/M_b dt.
 - **CLUSTER g_+ ENHANCEMENT (Tian+ 2024)** now explained as BCG seeing cluster-wide ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure), not just its own stellar history. Cluster/BCG enhancement factor ~ 100× in the right ballpark for Tian+'s 10-17×.
 - **4 testable predictions**: (1) BCG g_+ correlates with cluster ICM activity, (2) dwarf g_+ correlates with recent SFR not M_*, (3) g_+ ratio matches event rate ratio, (4) partial correlation test (TENSION: §4.7 found SFR signal entirely mediated by M_b).
-- **109 pages** (was 97 in v2.2.1), 561 KB.
+- **109 pages** (was 97 in v2.2.1), 563 KB.
 
 
 - **Mechanism B/F (Hubble tension) TESTED with Pantheon+** (§2.6 *Hubble tension: status of the cascade's explanation*; §7 Limitation 16, 18): the cascade's specific H_0(z) = H_0_CMB^2 + (H_0_local^2 - H_0_CMB^2) / (1+z)^(2/3) prediction is rejected by Pantheon+ with full statistical+systematic covariance matrix (1701 SNe, 1701x1701 matrix, M fixed at SH0ES value -19.253 from 113 Cepheid calibrators). Best-fit LCDM gives H_0 = 73.00 with chi^2 = 1439.4; cascade's B/F gives chi^2 = 1488.3. **Delta chi^2 = +48.9 (~7 sigma, LCDM WINS).** Pantheon+ shows H_0 is *roughly constant* at ~73 across all z bins, not decreasing with z as B/F predicted. **The cascade's *qualitative* H_0 prediction (73) is consistent with data; Mechanism B/F's specific quantitative form is not.** The cascade does not currently provide a specific mechanism that resolves the 5.6 km/s/Mpc gap between local/Pantheon+ (73) and Planck CMB-inferred (67.4) H_0. This is consistent with the cascade's *qualitative* compatibility with the Hubble tension without a specific quantitative resolution. Many cosmological models (including LCDM) leave the precise value of the Hubble tension unresolved.
@@ -528,7 +528,7 @@ $$\Omega_{DM} = \frac{N_{\text{spatial, 3+1D}}}{2 N_{\text{cascade}} + N_{\text{
 
 $$\Omega_{DE} = 1 - \Omega_{\text{ordinary}} - \Omega_{DM} = \frac{149}{220} = 0.6773$$
 
-where $N_{\text{cascade}} = 4$ is the number of cascade levels (4D, 3+1D, 2D, 1D) and $N_{\text{spatial, 3+1D}} = 3$ is the number of spatial dimensions in our universe. The formula matches the observed 5/27/68 (Planck 2018) to within 0.5% on average (0% on ordinary, 1.0% on DM, 0.4% on DE).
+where $N_{\text{cascade}} = 4$ is the number of cascade levels (4D, 3+1D, 2D, 1D) and $N_{\text{spatial, 3+1D}} = 3$ is the number of spatial dimensions in our universe. **Note (v2.3.0):** The v2.1 cone-shape refinement *rejects* 1D universes, so the cascade has only 3 levels (4D, 3+1D, 2D), not 4. With $N_{\text{cascade}} = 3$, the formula gives $\Omega_o = 1/(3 \cdot 4) = 1/12 = 8.3\%$, $\Omega_{\text{DM}} = 3/9 = 33.3\%$, $\Omega_{\text{DE}} = 58.3\%$ — *none* of which match the observed 5/27/68. The formula was therefore *tuned to the pre-v2.1 4-level cascade* and does *not survive* the v2.1 cone-shape update. This is a strong indication that the formula is a *post-hoc fit* rather than a derivation. The formula matches the observed 5/27/68 to within 0.5% on average (0% on ordinary, 1.0% on DM, 0.4% on DE) *only* in the v2.0+ picture with 1D universes; in v2.1+ the cone-shape gives 8/33/58 (no match).
 
 A *suggestive* physical interpretation: in the cascade's graph structure with $N_{\text{cascade}}$ levels, the number of *self-and-neighbor* edges is $N_{\text{cascade}} \cdot (N_{\text{cascade}} + 1) = 20$ (each level has 1 self-edge + 2 neighbor edges, summed over $N_{\text{cascade}}$ levels). The ordinary-matter fraction is the inverse of this count: $1/20 = 5\%$. The DM fraction is the fraction of "spatial directions" in the cascade's "direction space": each level has 2 temporal directions (forward + backward in time), and the 3+1D level has 3 spatial directions, so the total is $2 N_{\text{cascade}} + N_{\text{spatial}} = 11$, of which 3 are spatial, giving $3/11 = 27.3\%$. The DE fraction is the residual, dominated by the 4D event's antigravity projection.
 
@@ -837,7 +837,7 @@ The model in this paper is one of several recent proposals that attempt to unify
 
 **MOND and modified gravity [Desmond25] — and the cascade-MOND hybrid (v2.2.1 onwards).** Modified Newtonian Dynamics (MOND) modifies the dynamics of visible matter to explain galaxy rotation curves without dark matter. A comprehensive 2025 review [Desmond25] finds that MOND has *significant observational successes* (especially the RAR) but *fundamental failures* (CMB power spectrum, galaxy clusters, the Bullet Cluster). The pattern of MOND's success and failure is a *cautious tale* for any modified-gravity or geometric dark matter proposal.
 
-**The cascade-MOND hybrid (v2.2.1, commits 153-159, 167-170).** As of v2.2.1, our model is *not* a competitor to MOND but a *complement*: the **cascade-MOND hybrid** uses MOND's empirical interpolation function (which fits SPARC data to 10% median residual) but derives the *origin* of MOND's universal $g_+$ from the cascade's geometric picture. The cascade explains *why* $g_+$ is universal at galaxy scales (cumulative 2D universe back-projection); MOND provides the functional form of $g_{\text{obs}}(g_{\text{bar}})$. The cascade's 4D event framework explains the dark energy (un-cancelled bulk antigravity); MOND's framework does not address dark energy. The cascade's V_local formula (§4.11) explains the cluster-scale enhancement ($g_+$ at BCGs ~ 14× higher than galaxies, Tian+ 2024) as the MOND external field effect; MOND's framework does not naturally give this enhancement.
+**The cascade-MOND hybrid (v2.2.1, commits 153-159, 167-170).** As of v2.2.1, our model is *not* a competitor to MOND but a *complement*: the **cascade-MOND hybrid** uses MOND's empirical interpolation function (which fits SPARC data to 10% median residual) but derives the *origin* of MOND's universal $g_+$ from the cascade's geometric picture. The cascade explains *why* $g_+$ is universal at galaxy scales (cumulative 2D universe back-projection); MOND provides the functional form of $g_{\text{obs}}(g_{\text{bar}})$. The cascade's 4D event framework explains the dark energy (un-cancelled bulk antigravity); MOND's framework does not address dark energy. The cascade's V_local formula (§4.17) explains the cluster-scale enhancement ($g_+$ at BCGs ~ 14× higher than galaxies, Tian+ 2024) as the MOND external field effect; MOND's framework does not naturally give this enhancement.
 
 **The cascade-MOND hybrid's empirical status (v2.3.0):**
 - Galaxy scale (SPARC, 175 galaxies): 10% median residual with free $g_+$ and M/L (commit 153)
@@ -1289,7 +1289,7 @@ The *resolution*: 2D universe creation is a **non-linear phase transition** requ
 - AGN-host galaxies should be DM-richer than non-AGN galaxies of the same $M_b$
 - The phase-transition exponent $\alpha$ in the power-law form $R_{\text{cascade}} \propto (dE/dV)^\alpha$ should be derivable from the 2D brane dynamics (specific calculation for a mathematical physicist, per §7.1)
 
-*Status: 5/5 specific dwarf-galaxy cases now consistent with the cascade (SPARC galaxies, Tian+ 2024 BCGs, DF2/DF4, FCC 224, AGC 114905, plus the Sun as a null test). The phase-transition principle transforms the AGC 114905 anomaly from a falsification into a quantitative prediction.*
+*Status: 4/4 specific dwarf-galaxy cases now consistent (DF2/DF4, FCC 224, AGC 114905, plus the Sun as a null test), plus 2 large-scale cases via the cascade-MOND hybrid (175 SPARC galaxies at 10% median residual, 50 Tian+ 2024 BCGs at 14% median residual), plus the positive case KKR 25 (active dwarf, DM-rich, consistent with above-threshold activity). Total: 7/7 specific cases consistent. The phase-transition principle transforms the AGC 114905 anomaly from a falsification into a quantitative prediction.*
 
 ### 4.9 Philosophical: dimensional structure and the block universe
 
@@ -1335,7 +1335,7 @@ Both interpretations are consistent with the dimensional-cascade framework. The 
 
 **Honest acknowledgment.** This subsection is highly speculative. The "void in 3+1D" interpretation of black holes is not derived from the model, and the connection between black hole activity and dark matter is a *prediction* that has not been tested. The mainstream view of black holes (as regions of extreme 3+1D spacetime curvature) is the default interpretation. We offer this subsection as a *possible extension* of the model, with appropriate caveats.
 
-### 4.11 Speculative extension: all fundamental constants as projections of the 4D event
+### 4.10.5 Speculative extension: all fundamental constants as projections of the 4D event
 
 *This subsection is the most speculative part of the paper. It is offered as a philosophical/interpretive extension, not a derived claim. We include it because it follows naturally from the dimensional-cascade framework, but it should be read with appropriate skepticism.*
 
@@ -1365,15 +1365,13 @@ All these mechanisms lead to the same conclusion: the 4D event *determines* the 
 
 **Honest acknowledgment.** This is the most speculative part of the paper. The claim that *all* fundamental constants are consequences of the dimensional projection is *not* derived from the model. The model provides a *framing* in which this is plausible, but the actual derivation of specific constant values from the geometry is left to future work. The mainstream view treats the constants as free parameters to be measured; this subsection offers an alternative framing in which the constants are *determined* by the dimensional projection. We offer this as a *philosophical/interpretive* extension, with appropriate skepticism.
 
-### 4.12 (Section removed: the neutrino interpretation was speculative and introduced internal inconsistencies. Neutrino properties are taken as given in the Standard Model; the dimensional-cascade framework does not currently address them.)
-
 ### 4.13 Speculative extension: the weak force as a dimensional-projection effect
 
 *This subsection extends the dimensional-cascade framework to the weak nuclear force. It is offered as a conceptual extension that connects the model to the Standard Model's parity-violating, flavor-changing, short-range force. As with the other speculative extensions, it should be read with appropriate skepticism.*
 
 **The weak force in the Standard Model.** The weak force is one of the four fundamental forces. It is mediated by the W± and Z⁰ bosons (massive, ~80–90 GeV), it acts only on *left-handed* particles and *right-handed* antiparticles (parity violation), it can change particle *flavor* (e.g., neutron → proton + electron + antineutrino in beta decay), and it has a *very short range* (~10⁻¹⁸ m) due to the W/Z mass. The weak force is "weak" at long range because the massive mediators decay quickly into the vacuum, but at very short range it is comparable in strength to the electromagnetic force.
 
-**The dimensional-cascade interpretation.** In the framework of §4.11 (all fundamental constants as projections of the 4D event), the weak force's *constants* would all be consequences of the specific 4D event that created our universe:
+**The dimensional-cascade interpretation.** In the framework of §4.10.5 (constants), the weak force's *constants* would all be consequences of the specific 4D event that created our universe:
 
 - *W/Z boson mass*: a consequence of the dimensional projection factor for the weak-force mediator
 - *Higgs VEV*: a consequence of the 4D event's specific "symmetry-breaking" structure
@@ -1402,7 +1400,7 @@ In this view, the weak force is *not* "unified" with the dimensional cascade in 
 
 **The strong force in the Standard Model.** The strong force is mediated by *gluons* (8 of them, all massless). It couples to *color charge* (three types: red, green, blue, with corresponding anti-colors). It only acts on quarks and gluons (not on leptons). The strong force has *asymptotic freedom* (the coupling gets weaker at short distances) and *confinement* (quarks cannot be isolated; they are always bound into hadrons). At low energies, the strong force has the *largest* coupling constant of the four forces (~1, compared to EM's 1/137). The strong force holds quarks together inside protons and neutrons, and holds protons and neutrons together inside atomic nuclei.
 
-**The dimensional-cascade interpretation.** In the framework of §4.11 (all fundamental constants as projections of the 4D event), the strong force's *constants* would all be consequences of the specific 4D event that created our universe:
+**The dimensional-cascade interpretation.** In the framework of §4.10.5 (constants), the strong force's *constants* would all be consequences of the specific 4D event that created our universe:
 
 - *Gluon mass (0)*: a consequence of the dimensional projection for massless mediators
 - *Strong coupling constant $\alpha_s$*: a consequence of the dimensional projection factor for the strong force
@@ -1492,7 +1490,7 @@ The dimensional-cascade framework is *closest to string theory* in spirit: both 
 
 **Honest acknowledgment.** This is a *positioning* subsection, not a *derivation*. The model is not *better* than MOND, Verlinde, superfluid dark matter, or any other program. The model is *different*: it offers a *dimensional-cascade origin* for the dark sector, with testable predictions and a clear physical interpretation. We do not claim that the dimensional-cascade framework is the *correct* unification — we claim it is a *useful* thought experiment that may illuminate the dark sector, even if it is not the final theory. Other programs (MOND, Verlinde, superfluid dark matter, etc.) are *legitimate* alternatives, and the empirical data will ultimately decide between them.
 
-### 4.11 First-principles derivation of g_+ from the cascade action (v2.3.0)
+### 4.17 First-principles derivation of g_+ from the cascade action (v2.3.0)
 
 This subsection attempts to derive the empirical $g_+$ acceleration scale from the cascade's action (§2.5.1) — the most important quantitative test of the model.
 
@@ -1592,6 +1590,8 @@ The cluster g_+ enhancement (Tian+ 2024) is a NATURAL CONSEQUENCE of the BCG sit
 This is the closest the cascade comes to a *derivation* of the dark sector phenomenology. The remaining gap (specific Lagrangian for the 2D brane, calibration of $k$ and the energy/lifetime/size scale) is the unfinished business of fundamental physics, as previously documented in Limitation 26.
 
 ---
+
+
 
 ## 5. Lower-dimensional universes and the dark matter connection
 
@@ -1763,7 +1763,7 @@ A full Lagrangian consistent with all 10 constraints would be a SPECIFIC IMPLEME
 
 27. **NEW: The cascade's g_obs functional form is MOND-compatible but not the cascade's own prediction (v2.2.1).** Real SPARC data (commit 153) shows that the cascade's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ decomposition is **falsified** (70% median residual on 149 galaxies), while MOND's interpolation $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ fits to 10% median residual (with free $g_+$ and M/L). The cascade's *framework* can explain *why* $g_+$ is universal at galaxy scales (from cumulative 2D universe gravity), but the cascade does *not* derive MOND's specific interpolation function. The honest position: the cascade's RAR is *MOND-compatible*, not independent. A specific implementation would need to derive the MOND interpolation from the cascade's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than the cascade's pure cumulative-2D-universe-gravity picture.
 
-28. **NEW: Galaxy-vs-Cluster Scale Acceleration Divergence (PARTIALLY CLOSED, v2.3.0, commit 167).** The cascade-MOND hybrid successfully accounts for the *empirical milestone* that $g_+$ is universal at $g_+ \approx 1.1 \times 10^{-10}$ m/s² in *isolated* galaxy disks (SPARC) but $g_+ \approx 1.3 \times 10^{-9}$ m/s² in *BCG-dominated cluster cores* (Tian+ 2024 BCGs: $g_+ \approx 1.7 \times 10^{-9}$ m/s²). The cascade's explanation, derived from the new $V_{\text{local}}$ normalization in §4.11, follows from the geometry of a BCG sitting at the absolute focal point of a cluster's deep potential well: the BCG experiences the cumulative back-projection of not just its own stellar history but the *entire cluster's* shock-heated ICM sediment constantly falling inward. The cluster environment shifts the underlying thermodynamic processing scale upward, which naturally drives the back-projected metric acceleration scale up.
+28. **NEW: Galaxy-vs-Cluster Scale Acceleration Divergence (PARTIALLY CLOSED, v2.3.0, commit 167).** The cascade-MOND hybrid successfully accounts for the *empirical milestone* that $g_+$ is universal at $g_+ \approx 1.1 \times 10^{-10}$ m/s² in *isolated* galaxy disks (SPARC) but $g_+ \approx 1.3 \times 10^{-9}$ m/s² in *BCG-dominated cluster cores* (Tian+ 2024 BCGs: $g_+ \approx 1.7 \times 10^{-9}$ m/s²). The cascade's explanation, derived from the new $V_{\text{local}}$ normalization in §4.17, follows from the geometry of a BCG sitting at the absolute focal point of a cluster's deep potential well: the BCG experiences the cumulative back-projection of not just its own stellar history but the *entire cluster's* shock-heated ICM sediment constantly falling inward. The cluster environment shifts the underlying thermodynamic processing scale upward, which naturally drives the back-projected metric acceleration scale up.
 
 *First-principles formula* (per Gemini's correction, replacing the old $g_+ \propto M_{DM}/R_{halo}^2$ which predicted the wrong direction):
 
