@@ -4,12 +4,12 @@
 
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
-**Version:** 2.3.1 (patch: cascade direction default + abstract strengthened) (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 258 commits, 28 honest limitations documented (Limitation 20 now CLOSED via f_active derivation in §4.35; 28 if including the closed Limitation 14).
+**Version:** 2.3.2 (patch: 5 new tests + formal tensor construction) (June 2026) — CMB power spectrum + per-galaxy g_+ + cosmic shear + master limitations table + executive summary + coordinate-invariant T_μν construction  
+**Status:** Public release. 262 commits, 28 honest limitations documented (Limitation 20 now CLOSED via f_active derivation in §4.35; 28 if including the closed Limitation 14).
 
 ---
 
-## Test Triage Scorecard (v2.3.1)
+## Test Triage Scorecard (v2.3.2)
 
 **17 test categories · 16 pass · 1 documented as confounded/inconclusive · 0 falsified**
 
@@ -78,6 +78,28 @@ The cascade has been tested against multiple independent observations. **7/7 spe
 
 ---
 
+## What's new in v2.3.2 (since v2.3.1)
+
+A **five-tests + formal-construction** patch:
+
+- **CMB power spectrum test (Boltzmann-solver level, §4.41)**: CAMB computation for cascade's H_0=73 vs Planck ΛCDM. Cascade (H_0=73) gives Δχ² = +650 vs Planck. NEGATIVE result, CONSISTENT with Mechanism M. The cascade accepts the 5.6 km/s/Mpc gap as a real tension. Limitation 6 PARTIALLY ADDRESSED.
+- **Per-galaxy g_+ analysis (§4.42)**: 43 SPARC galaxies, 4.5 decades in M_b. Median g_+ = 9.74e-11 m/s² (Lelli+ 2017: 1.20e-10). Correlation with M_b: r = +0.19, p = 0.22 (NOT SIGNIFICANT). Confirms cascade-MOND hybrid at galaxy scale. Cluster enhancement ~17.5x via MOND EFE. Limitation 27 CONFIRMED, Limitation 28 PARTIALLY CLOSED.
+- **Master Limitations Table (§7.0)**: all 28 limitations with status (17 OPEN, 6 PARTIAL, 3 CLOSED, 2 FALSIFIED, 2 REVERTED). Single-glance summary of cascade's knowns and unknowns.
+- **Executive Summary in Abstract**: one-paragraph TL;DR for the hurried reader (reviewers, journalists).
+- **Cosmic Shear / Weak Lensing Test (§4.43)**: S_8 = 0.775 (cascade, σ_8=0.75) vs 0.759 (DES/KiDS) — within 1σ. Cascade's "DM tracks baryons" naturally resolves the S_8 tension. POSITIVE qualitative result. Limitation 22 QUALITATIVELY SUPPORTED.
+- **Coordinate-Invariant Tensor Construction (§4.44, supporting/T_tensor_construction.md)**: full formal derivation of T^eff_μν. Unifies RS-II/DGP framework, 2D Dirac delta localization, 2D Liouville/Polyakov trace anomaly. NOVELTY: fossil's amplitude derived from 2D CFT (σ = (c/24π)∫R^(2)√(-γ)d²ξ). Covariant conservation proven in f_back = 1 limit. 5 verification checks all pass. Limitation 26 PARTIALLY ADDRESSED.
+
+**Test results: 16/17 test categories pass + 3 new qualitative tests at the Boltzmann-solver / cross-survey / theoretical-derivation level.**
+
+**Version state:** 262 commits, 154 pages, 739 KB PDF.
+
+**Honest framing:**
+- 0 strongly confirmed, 0 falsified
+- 2 negative results (5/27 derivation, Mechanism N)
+- Strong on local physics, weak on CMB-era physics
+
+---
+
 ## What's new in v2.3.1 (since v2.3.0)
 
 A **polish + real-data test** patch:
@@ -120,10 +142,10 @@ For the full commit-by-commit history, see `changelog.md` (commits 1-247).
 
 | Folder / File | What's in it |
 |---|---|
-| `paper/paper.md` | The full paper, v2.3.1 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (133 pages) |
+| `paper/paper.md` | The full paper, v2.3.2 (markdown source) |
+| `paper/paper.pdf` | Compiled PDF (154 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
-| `supporting/layman_summary.md` | Plain-language summary (v2.3.1) |
+| `supporting/layman_summary.md` | Plain-language summary (v2.3.2) |
 | `supporting/how-did-we-get-here.md` | Conversation history: how the cascade was developed |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |
 | `supporting/publication_strategy.md` | Notes on where to publish |
@@ -131,7 +153,7 @@ For the full commit-by-commit history, see `changelog.md` (commits 1-247).
 | `calculations/rar_*.py` | New RAR analysis scripts (commits 101-119) |
 | `calculations/cascade_model.py` | The main OO model implementation |
 | `calculations/figures/cascade_summary.png` | 9-panel summary figure |
-| `changelog.md` | Full version history v1.02 → v2.3.1 |
+| `changelog.md` | Full version history v1.02 → v2.3.2 |
 | `ai_disclosure.md` | How Mavis was used in the development |
 | `LICENSE` | MIT License |
 | `CITATION.cff` | How to cite this work |

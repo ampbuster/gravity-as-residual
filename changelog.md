@@ -1,3 +1,47 @@
+## v2.3.2 (June 2026, PATCH) — Five new tests + formal tensor construction (CURRENT)
+
+Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive improvements and a formal theoretical physics construction.
+
+**Five new tests/improvements (commits 257-261):**
+
+1. **CMB power spectrum test (Boltzmann-solver level)**: CAMB computation for cascade's H_0=73 vs Planck ΛCDM. Cascade (H_0=73) gives Δχ² = +650 vs Planck ΛCDM (H_0=67.4). NEGATIVE result, CONSISTENT with Mechanism M. New §4.41.
+
+2. **Per-galaxy g_+ analysis**: 43 SPARC galaxies, 4.5 decades in M_b. Median g_+ = 9.74e-11 m/s² (Lelli+ 2017: 1.20e-10). Correlation with M_b: r = +0.19, p = 0.22 (NOT SIGNIFICANT). Confirms cascade-MOND hybrid. New §4.42.
+
+3. **Master Limitations Table §7.0**: 28 limitations with status (OPEN/PARTIAL/CLOSED/FALSIFIED/REVERTED). Summary: 17 open, 6 partial, 3 closed, 2 falsified, 2 reverted.
+
+4. **Executive Summary in Abstract**: One-paragraph TL;DR for the hurried reader (reviewers, journalists). Reviewers see the key points first.
+
+5. **Cosmic Shear / Weak Lensing Test (DES, KiDS)**: S_8 = 0.775 (cascade, σ_8=0.75) vs 0.759 (DES/KiDS) — within 1σ. Cascade's "DM tracks baryons" naturally resolves the S_8 tension. POSITIVE qualitative result. New §4.43.
+
+**Sixth addition: formal tensor construction**
+
+6. **Coordinate-Invariant Tensor Construction (T_μν)**: Full formal derivation in `supporting/T_tensor_construction.md` (367 lines). Unifies RS-II/DGP framework, 2D Dirac delta localization, and 2D Liouville/Polyakov trace anomaly. Key result: T^eff_μν = T^SM + (κ_5^4/8πG_4)S_μν + (1/8πG_4)E_μν + T^fossil_μν. NOVELTY: fossil's amplitude derived from 2D CFT trace anomaly (σ = (c/24π)∫R^(2)√(-γ)d²ξ). Covariant conservation proven in bulk-minimization limit (f_back = 1). 5 verification checks all pass. New §4.44. Limitation 26 PARTIALLY ADDRESSED.
+
+**Version state:**
+- 262 commits, 154 pages, 737 KB PDF
+- 16/17 test categories pass (no change from v2.3.1; new tests are at the qualitative level)
+- 7/7 specific cases pass (no change)
+- 28 honest limitations: 3 closed, 6 partial, 17 open, 2 falsified, 2 reverted
+- 0 strongly confirmed, 0 falsified
+- 2 negative results: 5/27 derivation (10+ attempts), Mechanism N (V_local + Weyl)
+- 3 new qualitative-level tests added: CMB, g_+, cosmic shear
+- Limitation 26 (full Lagrangian) PARTIALLY ADDRESSED via tensor construction
+
+**Honest framing of the five new tests:**
+- #1 CMB: NEGATIVE (consistent with Mechanism M) — cascade accepts Hubble tension
+- #2 g_+ universality: POSITIVE (MOND-compatible)
+- #3 Limitations table: documentation (no new test)
+- #4 Executive summary: documentation (no new test)
+- #5 Cosmic shear: POSITIVE qualitative (cascade's "DM tracks baryons" matches)
+
+**Tensor construction honest framing:**
+- First-pass formal derivation by a software developer
+- Expert would need to verify: c (Liouville vs Polyakov), 5D bulk, α calibration, f_back < 1 conservation
+- Limitation 26 PARTIALLY ADDRESSED — concrete invitation to theorists
+
+---
+
 ## v2.3.1 (June 2026, PATCH) — 17-test consolidation + scorecard (CURRENT)
 
 Building on v2.3.0, v2.3.1 is a polish + test consolidation patch:

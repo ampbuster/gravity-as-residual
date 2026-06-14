@@ -1,6 +1,8 @@
 # Layman Summary: Gravity as Residual
 
-**v2.3.1 — June 2026** (Tier 1 #1 AGN morphology-matched test + Tier 1 #2 f_active derivation; see `changelog.md` for the full history)
+**v2.3.2 — June 2026** (PATCH: 5 new tests + formal tensor construction; see `changelog.md` for the full history)
+
+**v2.3.1 — June 2026** (Tier 1 #1 AGN morphology-matched test + Tier 1 #2 f_active derivation)
 
 ## What changed in v2.3 (in plain language)
 

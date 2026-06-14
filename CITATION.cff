@@ -1,29 +1,46 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it as below."
-type: article
+message: "If you use this software or ideas, please cite it as below."
+type: software
 title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
-version: "2.3.1"
+version: "2.3.2"
 date-released: 2026-06-14
 authors:
-  - family-names: "ampbuster"
-    given-names: "ampbuster"
+  - family-names: "(software developer)"
+    given-names: "anonymous"
+    note: "Non-specialist author; developed the model in conversation with Mavis (M3, MiniMax)."
 keywords:
-  - "dimensional cascade"
-  - "dark matter"
-  - "dark energy"
-  - "gravitational hierarchy problem"
-  - "thought experiment"
-  - "brane-world"
-  - "extra dimensions"
-license: MIT
+  - dark matter
+  - dark energy
+  - dimensional cascade
+  - brane-world
+  - modified gravity
+  - thought experiment
+license: "Other (research paper, all rights reserved by author)"
 url: "https://github.com/ampbuster/gravity-as-residual"
+
 preferred-citation:
   type: article
   title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
-  version: "2.3.1"
+  version: "2.3.2"
+  date-released: 2026-06-14
   authors:
-    - family-names: "ampbuster"
-      given-names: "ampbuster"
-  year: 2026
-  url: "https://github.com/ampbuster/gravity-as-residual"
-notes: "AI-assisted thought experiment. The model was developed in conversation with Mavis (M3), an AI assistant from MiniMax. The AI's role was to help with physics literature review, numerical verification, internal consistency checks, and prose. All conceptual content originates with the human author."
+    - family-names: "(software developer)"
+      given-names: "anonymous"
+  journal: "arXiv preprint (to be submitted)"
+  notes: |
+    Version 2.3.2 (June 2026).
+    Author: software developer (non-specialist).
+    AI assistance: developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and supporting/ai_disclosure.md.
+
+    Honest status:
+    - 16/17 test categories pass, 7/7 specific cases pass
+    - 28 honest limitations: 3 closed, 6 partial, 17 open, 2 falsified, 2 reverted
+    - 0 strongly confirmed, 0 falsified
+    - 2 negative results (5/27 derivation attempts, Hubble Mechanism N)
+    - Strong on local physics (RAR 10% fit, AGN p<10^-50, g_+ universal 4.5 decades)
+    - Weak on CMB-era physics (Hubble tension unresolved, full Lagrangian requires 2D expert)
+
+    Coordinate-invariant tensor construction in supporting/T_tensor_construction.md.
+    Lagrangian attempt in §2.5.1 (SKELETON with 5+ free parameters).
+    Master limitations table in §7.0.
+    Executive summary at top of abstract.

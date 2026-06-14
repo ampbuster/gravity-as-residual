@@ -130,4 +130,4 @@ That honesty is the actual contribution. A non-physicist who had a *connected* s
 
 The most important move: at every step, the user (and Mavis) asked "is this actually right?" instead of "does this sound good?" When the answer was "no" or "we don't know" or "this is confounded," that was documented, not hidden.
 
-The paper at v2.3.1 is the artifact. This conversation is the origin story.
+The paper at v2.3.2 is the artifact. This conversation is the origin story.
