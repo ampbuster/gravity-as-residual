@@ -17,7 +17,7 @@ The biggest conceptual addition. The model used to say "every energetic event cr
 - Why the **Sun** has no detectable dark matter (solar events are below threshold)
 - Why **DF2 and DF4** (ancient galaxies with no recent supernovae) are dark-matter-poor
 - Why **AGC 114905** (a weird galaxy that seemed to falsify the model) is dark-matter-poor (its stars are too small to produce threshold-crossing events)
-- Why **KKR 25** (an active dwarf galaxy) is dark-matter-rich
+- Why **KKR 25** (a dwarf spheroidal with intermediate-age SF, *TENSION for the cascade*) is dark-matter-rich for its mass
 
 That's 5 out of 5 specific cases consistent. The model now handles *all* the awkward cases.
 
