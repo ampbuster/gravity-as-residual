@@ -1,0 +1,33 @@
+{
+  "agc_114905": {
+    "name": "AGC 114905",
+    "M_b_total": 200000000.0,
+    "M_total_formed": 728140703.517588,
+    "N_CCSN_total": 1092211.055276382,
+    "cumulative_energy_J": 1.0922110552763821e+52,
+    "recent_event_rate_W": 0.0,
+    "M_DM_predicted_M_sun": 72814070.35175881,
+    "M_dyn_ratio": 1.3640703517587942,
+    "V_flat_predicted_km_s": 42.24818505622099,
+    "sigma_v_at_1kpc": 38.640470833052944,
+    "bifurcation_metric": 0.00030506984394066875,
+    "expected_dm_rich": false,
+    "predicted_dm_rich": "False"
+  },
+  "kkr_25": {
+    "name": "KKR 25",
+    "M_b_total": 1000000.0,
+    "M_total_formed": 2981909547.738694,
+    "N_CCSN_total": 4472864.3216080405,
+    "cumulative_energy_J": 4.4728643216080416e+52,
+    "recent_event_rate_W": 0.0,
+    "M_DM_predicted_M_sun": 298190954.7738694,
+    "M_dyn_ratio": 299.1909547738694,
+    "V_flat_predicted_km_s": 11.234417461893631,
+    "sigma_v_at_1kpc": 12.91673339416242,
+    "bifurcation_metric": 0.24986672932283344,
+    "expected_dm_rich": true,
+    "predicted_dm_rich": "True"
+  },
+  "bifurcation_pass": "True"
+}
