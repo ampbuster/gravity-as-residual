@@ -328,3 +328,44 @@ These are the **fundamental** parameters of the cascade. A 2D expert would speci
 
 **Bottom line:** v2.4 is a meaningful step forward in framework formalization. It does not close all limitations, but it does eliminate three of the v2.3.2 "free parameters" by recasting them as boundary conditions or discrete choices. The cascade is now closer to a complete field theory specification, ready for a theorist to fill in the remaining gaps.
 
+
+---
+
+## §9. v2.3.2 vs v2.4 Framework Comparison (At-a-Glance)
+
+For reviewers who want a one-page summary of what changed between v2.3.2 and v2.4:
+
+| Feature | v2.3.2 | v2.4 | What changed |
+|---------|--------|------|--------------|
+| Bulk channel | Postulated f_back = 1 | **DERIVED** as J_bulk = 0 BC | f_back eliminated |
+| 2D central charge c | Free parameter | **Discrete set** c ∈ Z≥1, default 1 | c eliminated |
+| 2D universe death | δ-function at τ = τ_2D | **Gaussian instanton** a_2D(τ) = a_0 exp(-τ²/τ_2D²) | Physical smooth death |
+| 5/27 inner split | Free / fit | **Topological invariant** V_5/(A_4 R_AdS) = 27/5 | Repositioned as BC |
+| Free parameters | 5+ active | **2-3 active** | Reduced by 3 |
+| Bianchi identity | Preserved (in f_back = 1 limit) | **Preserved** (in J_bulk = 0 BC) | Same guarantee |
+| 2D CFT base | Polyakov-Liouville | **Same** (no change) | — |
+| Bulk geometry | AdS_5 (assumed) | **Same** (still assumed) | — |
+| Field equations | Modified 4D Einstein | **Same form** (only BCs and source changed) | — |
+| Conservation proof | Pointwise (away from δ) | **Distributional** (Gaussian is C∞) | Cleaner |
+
+**The fundamental 2-3 parameters that REMAIN free (need a 2D expert):**
+
+1. **α** (cascade coupling): the bulk-brane coupling strength. Requires specific bulk-brane geometry to derive.
+2. **G_5** (5D Newton's constant): related to the AdS radius R_AdS_5. Requires specific 5D bulk construction.
+3. **ℒ_2D** (2D matter content): the 2D universe's Lagrangian. Requires a 2D field theory expert.
+4. **τ_2D** (death timescale): the dimensional postulate τ_2D = L_event/c. Consistent but not derived.
+
+These 2-3 (or 4, depending on how you count) parameters define the SPECIFIC cascade model. Everything else is a boundary condition or a discrete choice.
+
+**For a theoretical physicist picking this up:**
+
+The framework is now EXPRESSIBLE in standard form. To complete the cascade, the physicist would:
+1. Pick ℒ_2D from a standard 2D CFT (e.g., c=1 minimal model, c=26 bosonic string, c=15/2 supersymmetric, etc.)
+2. Compute α from the bulk-brane junction conditions (Israel + Z2 symmetry)
+3. Derive G_5 from the specific AdS_5 geometry (RS-II gives G_5 ~ 1/M_5^3 with M_5 ~ TeV)
+4. Verify τ_2D = L_event/c from the 2D CFT dynamics
+
+These are 4 well-posed sub-problems in brane-world + CFT physics. A specialist could solve them in ~6 months.
+
+**Limitation 26 status:** PARTIALLY ADDRESSED (twice — once in v2.3.2, once in v2.4). The cascade's framework is structurally complete; the specific Lagrangian requires a 2D expert to specify.
+
