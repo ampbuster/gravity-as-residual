@@ -101,7 +101,7 @@ A **polish + real-data test** patch:
 - **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
 - **28 honest limitations** (numbered 1-28) plus Limitation 11.5 (architectural choice, v2.3.1 addition); 29 distinct limitation entries total. (Limitation 14 is RESOLVED.)
 
-Total commits: 250. PDF: 148 pages, 719 KB.
+Total commits: 250. PDF: 150 pages, 723 KB.
 
 ## Earlier versions
 

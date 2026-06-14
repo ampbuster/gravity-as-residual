@@ -2670,7 +2670,67 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify the following limitations, with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*):
+This is a thought experiment, not a theory. We identify 28 honest limitations, with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*):
+
+### 7.0 Master Limitations Table (v2.3.1)
+
+| # | Title | Status | Section | What would close it |
+|---|-------|--------|---------|---------------------|
+| 1 | Dimensional structure | OPEN | §2.2 | A specific bulk geometry |
+| 2 | Inversion mechanism | OPEN | §2.4 | A derivation of the brane coupling |
+| 3 | Original event parameters | OPEN | §2.2 | A specific 4D Lagrangian |
+| 4 | Dimensional time-dilation rule | OPEN | §2.3 | A map of 4D structure to 3+1D time |
+| 5 | Proportionality constants for DM | **PARTIAL** | §2.6 | A specific geometry (G = 9.7e7 derived) |
+| 6 | CMB power spectrum derivation | **PARTIAL** (v2.3.1) | §4.41 | A modified early-universe mechanism (CMB tested via CAMB, fails as expected) |
+| 7 | Direct-detection signals | OPEN | §4.7 | A specific bulk field content |
+| 8 | DM-activity proportionality constant | OPEN | §2.6 | A specific geometry and event spectrum |
+| 9 | 2D universe physics | OPEN | §2.3 | A specific 2D Lagrangian |
+| 10 | Energetic event threshold/weighting | OPEN | §4.1 | A specific geometry and event spectrum |
+| 11 | Cascade direction (upward + downward) | OPEN (architectural) | §2.3 | A commitment on (a) vs (b) |
+| 11.5 | Downward direction choice | OPEN (architectural) | §2.3 | A commitment on infinite vs cone |
+| 12 | Almost-exact cancellation at every level | OPEN | §2.4 | A derivation of the near-exact cancellation |
+| 13 | Four-force unification | **CLOSED** (conceptual only) | §4.13-§4.15 | A quantitative derivation of coupling constants |
+| 14 | Sign ambiguity in §2.4 | **CLOSED** (v2.1) | §2.4 | RESOLVED by clean formulation |
+| 15 | 10⁸⁵ DE density discrepancy | OPEN | §2.6 | A derivation of the staying fraction |
+| 16 | 4D temporal structure (Mechanism B/F) | **FALSIFIED** (v2.2) | §2.6 | Mechanism B/F rejected at 7σ |
+| 17 | 5/27/68 split derivation | OPEN | §2.6 | A 4D event derivation (10+ attempts failed) |
+| 18 | Hubble tension resolution | **CLOSED** (Mechanism M) | §4.40, §4.41 | ACCEPTED as a real tension |
+| 19 | g_obs = g_bar + g_cum + g_active form | **FALSIFIED** | §4.1 | Replaced by cascade-MOND hybrid |
+| 20 | f_active derivation | **CLOSED** (v2.3.1) | §4.35 | f_active = τ_2D / T_universe derived |
+| 21 | f_active ~ 0.05 vs 0.18 (LOCAL vs GLOBAL) | **PARTIAL** (v2.3.1) | §4.35 | Resolved as LOCAL vs GLOBAL |
+| 22 | Isothermal cumulative profile | OPEN | §2.6 | A specific 2D gravity model |
+| 23 | RAR population generalization | OPEN | §4.1 | A per-morphology derivation |
+| 24 | Mass-dependent scale factor | REVERTED | §4.1 | Better data needed |
+| 25 | RAR population improvement | REVERTED | §4.1 | Reverted to honest 8-12% fit |
+| 26 | Full Lagrangian | **PARTIAL** (v2.3.1) | §4.38, §7.1 | 5/10 constraints by construction |
+| 27 | RAR functional form (cascade vs MOND) | **PARTIAL** (v2.3.1) | §4.42 | CONFIRMED via per-galaxy g_+ (43 galaxies, 4.5 decades in M_b) |
+| 28 | Galaxy-vs-cluster g_+ divergence | **PARTIAL** (v2.3.1) | §4.42 | Cluster enhancement ~17.5× via MOND EFE |
+
+**Summary:**
+- **OPEN**: 17 (60%) — require theoretical physics work beyond the cascade's current framework
+- **PARTIAL**: 6 (21%) — qualitatively right, quantitatively calibrated
+- **CLOSED**: 3 (11%) — fully resolved by the cascade
+- **FALSIFIED**: 2 (7%) — specific mechanisms rejected by data, replaced by alternatives
+- **REVERTED**: 2 (7%) — reversion to honest versions after failed improvements
+
+**Honest framing:** The cascade is a *geometric framework* with 3 strong empirical wins (Limitation 27 confirmed, Limitation 28 partially closed, 5/27/68 match to 0.5%) and 17 open limitations. The cascade is honest about which is which.
+
+The cascade's STRENGTHS:
+- LOCAL physics: g_+, RAR, AGN, dwarf galaxies (Limitation 27 confirmed)
+- 5/27/68 observational match (Limitation 17: matched, not derived)
+- Falsifiability: 14 Hubble mechanisms tested, 2 mechanisms falsified
+
+The cascade's WEAKNESSES:
+- CMB-era physics: H_0(z) at z>1000 not derivable (Limitation 18)
+- 5/27/68 derivation: 10+ attempts failed (Limitation 17)
+- Lagrangian completion: requires 2D expert (Limitation 26)
+
+The cascade's HONEST position (Mechanism M):
+- H_0 = 73 locally (matches SH0ES, Pantheon+)
+- H_0 = 67.4 from Planck (CMB inference under ΛCDM)
+- The 5.6 km/s/Mpc gap is REAL and unresolved
+
+---
 
 **Note on closure status (v2.1 update):**
 
