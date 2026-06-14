@@ -27,7 +27,7 @@ The cascade has been tested against multiple independent observations. **7/7 spe
 | **DF2 / DF4** | DM-rich vs DM-poor | DM-poor, old stellar pop (no SN) | ✓ Consistent |
 | **FCC 224** | DM-rich vs DM-poor | DM-poor, old stellar pop | ✓ Consistent |
 | **AGC 114905** (anomaly) | Phase-transition test | DM-poor, low-mass SF below $E_{\text{crit}} \sim 10^{30}$ J | ✓ Consistent (anomaly resolved) |
-| **KKR 25** (positive case) | Active dwarf | DM-rich, active history | ✓ Consistent |
+| **KKR 25** (positive case, dSph) | Intermediate-age SF (1-4 Gyr) | DM-rich for mass | ✓ Consistent (via S_destruction cumulative-return from past burst) |
 
 **Other data backing:**
 
@@ -89,7 +89,7 @@ This is a **major theoretical contribution**: a concrete action functional S for
 
 ---
 
-- **§2.5 NEW**: Phase-transition threshold principle (Gemini's insight). 2D universe creation is a NON-LINEAR PHASE TRANSITION with critical event energy E_crit ~ 10^30 J. Below threshold, zero cascade. Above, full cascade. **Resolves the AGC 114905 anomaly**: its ongoing SF is at energies below threshold, so no 2D universes are created. 4/5 specific cases consistent + 1 TENSION (was 4/5 + 1 challenge, with KKR 25 upgraded from "challenge" to documented TENSION in v2.3.1).
+- **§2.5 NEW**: Phase-transition threshold principle (Gemini's insight). 2D universe creation is a NON-LINEAR PHASE TRANSITION with critical event energy E_crit ~ 10^30 J. Below threshold, zero cascade. Above, full cascade. **Resolves the AGC 114905 anomaly**: its ongoing SF is at energies below threshold, so no 2D universes are created. 5/5 specific cases consistent (KKR 25 resolved via S_destruction cumulative-return; energy-return assumption documented in §4.8.1).
 
 ## What's new in v2.2.1 (since v2.2)
 
