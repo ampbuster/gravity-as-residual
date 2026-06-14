@@ -112,31 +112,7 @@ Five specific research problems are listed in §7.1 of the paper for theoretical
 
 ---
 
-# What changed in v2.4 (chronological)
-
-1. **§4.41 CMB test (Boltzmann-solver level)**: CAMB computation for cascade's H_0=73 vs Planck ΛCDM. Δχ² = +650. Mechanism M as final position. (commit 257)
-
-2. **§4.42 g_+ per-galaxy analysis**: 43 SPARC galaxies, 4.5 decades in M_b. Median g_+ = 9.74e-11 m/s² (Lelli+ 2017: 1.20e-10). Correlation with M_b: r = +0.19, p = 0.22 (NOT SIGNIFICANT). Confirms cascade-MOND hybrid. (commit 258)
-
-3. **§4.43 cosmic shear (DES, KiDS)**: S_8 = 0.775 (cascade, σ_8=0.75) vs 0.759 (DES/KiDS) — within 1σ. (commit 261)
-
-4. **§4.44 T_μν construction**: coordinate-invariant tensor, 5/10 constraints by construction. Limitation 26 PARTIALLY ADDRESSED. (commits 262-264)
-
-5. **§4.44.1 v2.4 refactor**: 4 structural tasks (zero-leakage bulk, central charge bounds, continuous Gaussian instanton, 5/27 as topological eigenvalue V_5/(A_4 R_AdS_5) = 27/5). Free parameters: 5+ → 2-3. (commit 265)
-
-6. **§4.45 AGC/KKR bifurcation emulator (commit 269)**: 722-line Python pipeline reproduces the 820× → 219× bifurcation from SFH alone. **Smoking gun #1.**
-
-7. **§4.47 time-scale invariance test (commit 272)**: r(z=6) with stellar-only R(z) gives 0.008 — apparent time-lag. Honest negative result.
-
-8. **§4.48 primordial Lagrangian (commit 273)**: two-component DM with F_p ~ 0.7 required to match high-z UV LF.
-
-9. **§4.49 bug fix (commit 274)**: (1+z)⁴ dilution factor (user-caught). r(z=6) ~ 10⁻⁴ with stellar-only.
-
-10. **§4.50 audit (commit 275)**: f_active inconsistency (0.05 vs 0.3, 6×) flagged as a real limitation.
-
-11. **§4.51 baryon plasma refinement (commit 276)**: broader principle (Thomson + recombination). First result: r(z=6) = 0.66 — but it turned out to be a happy accident (wrong temperature bug).
-
-13. **§4.51-§4.53 three bug fixes (commit 277)**: v4 missing (1+z)³, v2 wrong temperature, matter-radiation transition. With all fixes: **r(z) ≈ (1+z)³, matching ΛCDM at all z**. Limitation 31 CLOSED. f_active renamed. CMB re-derived. **Smoking guns #2 and #3.**
+**For full version history and change list, see [`changelog.md`](../changelog.md) in the repo root.**
 
 ---
 

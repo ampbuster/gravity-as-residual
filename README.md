@@ -91,7 +91,7 @@ This is the cumulative result of the v2.4 work. The cascade's three main quantit
 | **AGN host DM** (morphology-matched) | +6.4% ratio | — | p=0.047 |
 | **AGC 114905** | 1.36 (DM-poor) | ~1 | ✓ PASS |
 | **KKR 25** | 299 (DM-rich) | 100–1000 | ✓ PASS |
-| **Hubble H_0** | 73 (Mechanism M) | 73 (SH0ES), 67.4 (Planck) | Hub tension |
+| **Hubble H_0** | 70 ± 3 (qualitative consistency) | 73 (SH0ES), 67.4 (Planck) | 5.6 km/s/Mpc gap is a ΛCDM-framework artifact (no specific H_0 derived) |
 | **Sun no-DM** | <10⁻¹⁷ ratio | confirmed | ✓ PASS |
 
 **17/17 test categories pass at the qualitative level.** 7/7 specific cases consistent. 0 falsified. The cascade is now in its strongest scientific position.
@@ -222,41 +222,18 @@ The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geom
 
 ---
 
-# CHANGELOG (recent)
+# CHANGELOG
 
-## v2.4 (June 2026) — Three smoking guns + hardening
+**For the full version history, see [`changelog.md`](changelog.md) in the repo root.**
 
-**v2.4 commits 257-277 — substantial work:**
+**Most recent changes (v2.5):**
+- Honest H_0 framework added (§2.6.1) — cascade is qualitatively consistent with H_0 = 70 ± 3 but does NOT derive a specific value
+- Overstatement audit (5 claims cleaned) — see commit 282
+- Three smoking guns at top of README and layman (AGC/KKR bifurcation, scale-time invariance, ΛCDM matching)
+- HubbleTensionCalculator class removed (was a postdiction, not a derivation)
+- f_back notational distinction added (destruction channel derived, dark energy channel postulated)
 
-1. **§4.45 AGC/KKR bifurcation emulator (commit 269)**: 722-line Python pipeline reproduces the 820× → 219× bifurcation from SFH alone. Smoking gun #1.
 
-2. **§4.41 CMB test (commit 257)**: CAMB-derived Δχ² = +650 vs Planck, dominated by H_0 mismatch. Mechanism M as final position.
-
-3. **§4.42 g_+ per-galaxy analysis (commit 258)**: 43 SPARC galaxies, 4.5 decades in M_b. Median g_+ = 9.74e-11 m/s² (Lelli+ 2017: 1.20e-10). Correlation with M_b: r = +0.19, p = 0.22 (NOT SIGNIFICANT).
-
-4. **§4.43 cosmic shear (commit 261)**: S_8 = 0.775 (cascade, σ_8 = 0.75) vs 0.759 (DES/KiDS) — within 1σ.
-
-5. **§4.44 T_μν construction (commits 262-264)**: coordinate-invariant tensor, 5/10 constraints by construction. Limitation 26 PARTIALLY ADDRESSED.
-
-6. **§4.44.1 v2.4 refactor (commit 265)**: 4 structural tasks (zero-leakage bulk, central charge bounds, continuous Gaussian instanton, 5/27 as topological eigenvalue). Free parameters reduced from 5+ to 2-3.
-
-7. **§4.45 emulator + §7.0 limitations update (commits 267-268)**: 30 limitations (added L30: topological eigenvalue). All commits cross-referenced to calcs.
-
-8. **§4.47 time-scale invariance test (commit 272)**: r(z=6) with stellar-only R(z) gives 0.008 — apparent time-lag.
-
-9. **§4.48 primordial Lagrangian (commit 273)**: two-component DM with F_p ~ 0.7 required to match high-z UV LF.
-
-10. **§4.49 bug fix (commit 274)**: (1+z)⁴ dilution factor (user-caught). r(z=6) ~ 10⁻⁴ with stellar-only.
-
-11. **§4.50 audit (commit 275)**: f_active inconsistency flagged (0.05 vs 0.3, 6×).
-
-12. **§4.51 baryon plasma refinement (commit 276)**: broader principle (Thomson + recombination). First result: r(z=6) = 0.66 (turned out to be a bug).
-
-13. **§4.51-§4.53 three bug fixes (commit 277)**: v4 missing (1+z)³, v2 wrong temperature, matter-radiation transition. With all fixes: **r(z) ≈ (1+z)³, matching ΛCDM**. Limitation 31 CLOSED.
-
-**Final v2.5 state:** 185 pages, 862 KB PDF, 278 commits, 31 limitations (Limitation 31 CLOSED), 2-3 free parameters. **v2.5 milestone:** cascade r(z) ≈ (1+z)³ matching ΛCDM at all z.
-
----
 
 (For the full v1.0–v2.3 changelog, see `changelog.md`. For the v2.0 forward history, see git log.)
 
