@@ -74,7 +74,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Radial Acceleration Relation (SPARC, 175 galaxies):** the cascade-MOND hybrid matches the RAR to a 10% median residual, comparable to MOND itself. MCMC posterior: $f_{\text{active}} = 0.0513^{+0.0070}_{-0.0073}$ (1σ), the fraction of cumulative 2D universe back-projection that is "active" at any moment. **NOW DERIVABLE**: $f_{\text{active}} = \tau_{2D} / T_{\text{universe}} = 0.7/13.8 = 0.051$ with $\tau_{2D} \sim 0.7$ Gyr (gas consumption timescale). See §4.35.
 - **Cluster scale (Tian+ 2024, 50 BCGs):** the cluster $g_+$ enhancement to $\sim 1.3 \times 10^{-9}$ m/s² is naturally explained as the MOND external field effect ($V_{\text{local}}$ formula), matching Tian+ 2024's $1.7 \times 10^{-9}$ within 1σ.
 - **Phase-transition principle (5 dwarf-galaxy tests):** the critical-energy threshold $E_{\text{crit}} \sim 10^{30}$ J correctly predicts: Sun (no detectable DM, as expected), DF2/DF4 (DM-poor, no recent energetic events), FCC 224 (DM-poor), AGC 114905 (DM-poor, low-mass SF below threshold), and KKR 25 (consistent via the S_destruction cumulative-return pathway: intermediate-age SF at 1-4 Gyr produced 2D universes whose energy has been returned to 3+1D as DM per the action's S_destruction). 5/5 specific dwarf cases consistent. The S_destruction energy-return mechanism is a model assumption, not a derivation; if the 2D universe's death energy instead escapes the 3+1D brane, KKR 25 would revert to a TENSION.
-- **Hubble constant:** predicts $H_0 = 73$ km/s/Mpc, matching SH0ES ($73.04 \pm 1.04$) and Pantheon+ ($73.00$, within 1σ of $60{-}80$ km/s/Mpc diagonal-error range). Accepts the 5.6 km/s/Mpc gap to Planck CMB-inferred $H_0 = 67.4$ as a separate open problem (Mechanism M, not a specific cascade mechanism).
+- **Hubble constant:** the cascade is **qualitatively consistent** with $H_0 = 70 \pm 3$ across all measurements (SH0ES $73.04 \pm 1.04$, TRGB $69.6$, Planck CMB $67.4$, standard sirens $70 \pm 12$). The cascade does **not** derive a specific $H_0$ value — earlier multiplicative boost formula ($H_0 = 70.13$) was a postdiction, removed in v2.5. The 5.6 km/s/Mpc gap to Planck CMB-inferred $H_0 = 67.4$ is a **ΛCDM-framework artifact**, not a cascade prediction. See §2.6.1 (Honest H_0 framework) and Limitation 26.
 - **Cosmic energy budget:** the cascade is consistent with the observed 5% ordinary / 27% dark matter / 68% dark energy split (Planck 2018), with the 32% / 68% outer split *derivable* from projection kinematics and the 5:27 inner split *interpretable* as direct vs back-projected 3+1D content.
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{\text{grav}} + S_{\text{matter}} + S_{\text{brane 2D}} + S_{\text{creation}} + S_{\text{destruction}}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles $g_+$ derivation (§4.17):** $g_+ = k \cdot \int \text{(event rate)} \cdot E_{\text{event}} \cdot \tau_{\text{2D}} / L_{\text{2D}}\, dt$, the cascade's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{\text{events}} / M_b\, dt$ scaling.
@@ -819,6 +819,35 @@ This is the *holographic* statement: the cumulative 2D universe gravity (DM, 27%
 **Cross-references.** This subsection anchors the 5/27 ratio in §4.44.1 *v2.4 Refactor* Task 4, §4.44 *Coordinate-Invariant Tensor Construction* T^fossil_μν component, and the central charge $c$ bound in §4.44.1 Task 2 (the $c$ in the Liouville/Polyakov trace anomaly $\sigma = (c/24\pi) \int R^{(2)} \sqrt{-\gamma} d^2\xi$ is the *number* of zero-modes in the bulk, which sets the 5 in the numerator). The 0.1 calibration coefficient in the §4.45 phenomenological emulator is a *phenomenological* stand-in for this topological eigenvalue at the galaxy-scale phenomenology level (see §7.0 Master Limitations Table, v2.4 update).
 
 **Verification:** the calculation `calculations/verify_v24_refactor.py` Check D (geometric consistency under all 4 v2.4 modifications) covers the 5/27 eigenvalue ratio; the supporting document `supporting/T_tensor_v24_refactor.md` §3.4 derives the ratio from the bulk-brane Dirac operator.
+
+### 2.6.1 Honest H_0 framework (v2.5)
+
+The cascade does **not** currently derive a specific H_0 value. Earlier drafts of this paper (v2.3–v2.4) attempted to derive H_0 = 70.13 km/s/Mpc from a multiplicative boost formula:
+
+$$H_0^{\text{local}} = H_0^{\text{CMB}} \times (1 + f_{\text{active}} \times \Omega_{DM} \times 0.5) = 67.4 \times 1.04 = 70.13$$
+
+where $f_{\text{active}} = 0.3$ is the volume-averaged active DM fraction, $\Omega_{DM} = 0.27$ is the cosmic DM density, and 0.5 is a geometric factor. **This is a postdiction, not a derivation:**
+
+- $f_{\text{active}} = 0.3$ is **fitted**, not derived from 2D CFT
+- The 0.5 geometric factor is a **placeholder**, not derived from projection geometry
+- 70.13 is the result of hand-tuning three parameters to match data
+
+The earlier `HubbleTensionCalculator` class that implemented this formula has been **removed** from `calculations/cascade_model.py` in v2.5.
+
+**What the cascade is consistent with:** the data shows H_0 values clustered around three camps:
+
+| Cluster | Methods | H_0 (km/s/Mpc) |
+|---|---|---|
+| Cluster 1 (local) | SH0ES, H0LiCOW, megamasers, SBF, Miras, Tully-Fisher | ~73 |
+| TRGB | Tip of Red Giant Branch (Freedman+, JWST) | 69.6 |
+| CMB | Planck, ACT, SPT, BAO+BBN | ~67–68 |
+| Standard sirens | Gravitational waves (LIGO/Virgo) | 70 ± 12 |
+
+The cascade's principle (4D event antigravity as uniform contribution + 2D universe gravity as local active/cumulative balance) is **qualitatively consistent with H_0 = 70 ± 3 across all measurements**, but the specific active boost and cumulative drag require a 2D CFT calculation to derive from first principles.
+
+**Honest finding:** the 5.6 km/s/Mpc gap between the local Cluster 1 (73) and the CMB (67) is a **ΛCDM-framework artifact** (CMB H_0 is inferred from the angular size of the sound horizon, not directly measured). The cascade does not currently resolve this tension. See Limitation 26 (2D CFT needed).
+
+**Cross-references:** the `HubbleTensionBF/L/M` classes remain in `calculations/cascade_model.py` as **historical record** of mechanisms tested (B/F, L, M); none derive a specific H_0 value.
 
 ### 2.7 The products
 
@@ -2427,7 +2456,7 @@ where:
 | 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | ✓ SATISFIED (RS-II gives ε~1e-38) |
 | 5 | f_active = 0.0513 ± 0.0073 | ? OPEN: requires τ_2D/T_universe (done in §4.35) |
 | 6 | Spatial distribution: isothermal cumulative | ✓ SATISFIED (2D 1/r gravity gives isothermal) |
-| 7 | H_0 = 73 km/s/Mpc | ? OPEN: requires 4D event's antigravity output |
+| 7 | H_0 = 70 ± 3 (qualitative consistency) | ? OPEN: requires 2D CFT for specific value |
 | 8 | RAR shape: g_obs = g_bar + g_cum + g_active | ? OPEN: requires back-projection analysis |
 | 9 | w = -1 (cosmological constant behavior) | ✓ SATISFIED (constant antigravity output) |
 | 10 | Cone-shape: 2 levels, terminal at 2D | ✓ SATISFIED (action terminates at 2D worldsheets) |

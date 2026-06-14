@@ -73,8 +73,9 @@ Annihilation, and the Origin of the Dark Sector"**.
     from its own FRW dynamics (matter era, DE era, lifetime)
   - `HierarchyUnificationCalculator` — shows hierarchy, DE, and DM
     all follow from the same cascade formula
-  - `HubbleTensionCalculator` — predicts H_0_local > H_0_CMB from
-    active vs cumulative DM in local region
+  - `HubbleTensionBF/L/M` — Mechanism B/F, L, M history for the
+    Hubble tension. None currently derive a specific H_0 value
+    (see §2.6.1 honest H_0 framework)
 
   Key methods on Universe:
   - `gravity_coupling_own()` / `_effective()` — native and effective G

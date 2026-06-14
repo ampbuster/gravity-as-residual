@@ -163,12 +163,17 @@ observed tension (5.6 km/s/Mpc), though smaller in magnitude.
 The remainder could come from additional local-bias effects
 (sample variance, anisotropy, etc.).
 
-**Numerical check:** `HubbleTensionCalculator.predict_h0_tension()`
-returns 2.73 km/s/Mpc tension.
+**Honest framing (v2.5):** The earlier `HubbleTensionCalculator`
+returned 2.73 km/s/Mpc tension from a multiplicative boost formula
+(H_0 = 67.4 × 1.04 = 70.13). This was a **postdiction**, not a
+derivation: f_active = 0.3 is fitted, the 0.5 geometric factor is
+a placeholder, and 70.13 is the result of hand-tuning three
+parameters to match data. The class has been removed.
 
-**Falsifiable prediction:** A measurement of H_0 in a region
-of *low* energetic activity (e.g., a galaxy cluster with few
-recent SNe) should yield H_0 closer to the CMB value.
+The cascade is qualitatively consistent with H_0 = 70 ± 3 across
+all measurements, but a 2D CFT calculation is needed to derive the
+specific active boost and cumulative drag from first principles.
+See §2.6.1 (Honest H_0 framework) and Limitation 26.
 
 ## D6. 2D universe lifetime in our frame (§2.2)
 

@@ -72,7 +72,7 @@ In our 3+1D universe, *every* energetic event above a threshold (about 10³⁰ J
 
 The 5/27/68 mass-energy split is *set by geometry*: 5% ordinary matter is the cascade-derived 1/20 from the dimensional-projection kinematics; 27% DM and 68% DE are anchored as V_5/(A_4 R_AdS_5) = 27/5, a topological eigenvalue of the AdS₅ bulk / 3+1D boundary geometry. This makes the 5/27 ratio a *consequence* of the cascade's bulk-brane structure, not a free parameter.
 
-The Hubble tension (H_0 = 73 from SH0ES Cepheids vs 67.4 from Planck CMB) is *real*, and the cascade's prediction is 73 — so the cascade accepts the local value and the discrepancy with Planck. The cascade's Mechanism M is "the 4D event's antigravity output is what we measure as H_0 = 73." This is host-type-independent and consistent with the SH0ES data.
+The Hubble tension (H_0 = 73 from SH0ES Cepheids vs 67.4 from Planck CMB) is *real*. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements (SH0ES 73.04, TRGB 69.6, Planck 67.4, standard sirens 70 ± 12) but does **not** derive a specific H_0 value. Earlier multiplicative boost formula (H_0 = 70.13) was a postdiction, removed in v2.5. The 5.6 km/s/Mpc gap to Planck CMB is a **ΛCDM-framework artifact** (CMB H_0 is inferred, not directly measured), not a cascade prediction. See §2.6.1 (Honest H_0 framework) and Limitation 26.
 
 ---
 
@@ -100,7 +100,7 @@ The cascade is honest about what it does *not* explain:
 
 4. **Stellar-only time-scale invariance: FALSIFIED at high z.** With the narrow (stellar-only) interpretation, r(z=6) = 0.029 — the cascade predicts 35× less DM at z=6 than ΛCDM. The cascade's broader principle (Thomson-dominated at z > 4) resolves this. Without the broader principle, the cascade is falsified at high z.
 
-5. **Hubble tension: not resolved.** The cascade accepts H_0 = 73 as its prediction and acknowledges the 5.6 km/s/Mpc gap with Planck. Mechanism M is "the cascade has a real prediction, the data confirms it locally, and the CMB is in tension."
+5. **Hubble tension: not resolved.** The cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements but does not derive a specific H_0 value. The 5.6 km/s/Mpc gap to Planck CMB is a ΛCDM-framework artifact, not a cascade prediction. A 2D CFT calculation is needed to derive the specific active boost and cumulative drag from first principles (Limitation 26).
 
 ---
 

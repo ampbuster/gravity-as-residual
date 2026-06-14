@@ -367,78 +367,22 @@ class HierarchyUnificationCalculator:
 
 
 # ============================================================
-# HubbleTensionCalculator — predict H_0_local > H_0_CMB
+# Hubble tension: HONEST FRAMING (see §2.6.1)
 # ============================================================
-class HubbleTensionCalculator:
-    """
-    Predict the Hubble tension (H_0_local > H_0_CMB) from the cascade.
-
-    The cascade model predicts that local measurements of H_0
-    (Cepheid-calibrated SNe Ia, TRGB) systematically over-estimate
-    H_0 compared to CMB-inferred values, because:
-
-    1. Local measurements are made in regions of *active* cascade
-       activity (where energetic events are creating 2D universes
-       that contribute extra antigravity to 3+1D).
-    2. The extra antigravity from currently-active children adds
-       to the local expansion rate, biasing H_0 upward.
-    3. CMB-inferred H_0 is the *cosmic average*, which includes
-       regions of *cumulative* return (already-collapsed 2D
-       universes) and is not biased.
-
-    This predicts a specific tension of order 5-10%, consistent
-    with the observed ~9% tension (73 vs 67 km/s/Mpc).
-    """
-
-    def __init__(self, n_local_events: float = 1e8):
-        """
-        n_local_events: number of active energetic events in the
-        local ~50 Mpc volume (used as a reference).
-        """
-        self.n_local_events = n_local_events
-
-    def local_antigravity_boost(self) -> float:
-        """
-        Fractional increase in expansion rate from active children.
-        """
-        # Average active DM density in our region ~ 0.3 * rho_DM
-        # (rest is cumulative return)
-        # The active fraction contributes to local H_0
-        # Excess H_0 ~ active_fraction * (rho_DM / rho_crit) * 0.5
-        active_fraction = 0.3
-        Omega_DM = 0.27
-        boost = active_fraction * Omega_DM * 0.5
-        return boost
-
-    def predict_h0_tension(self) -> dict:
-        """
-        Predict H_0_local - H_0_CMB in km/s/Mpc.
-        """
-        h_cmb = 67.4
-        boost = self.local_antigravity_boost()
-        h_local = h_cmb * (1 + boost)
-        h_local_rounded = 73.0  # observed
-        return {
-            "H_0_CMB": h_cmb,
-            "H_0_local_predicted": h_local,
-            "H_0_local_observed": h_local_rounded,
-            "tension_predicted": h_local - h_cmb,
-            "tension_observed": h_local_rounded - h_cmb,
-        }
-
-    def describe(self) -> str:
-        t = self.predict_h0_tension()
-        return (
-            f"HubbleTensionCalculator:\n"
-            f"  H_0_CMB = {t['H_0_CMB']} km/s/Mpc\n"
-            f"  H_0_local predicted = {t['H_0_local_predicted']:.2f} km/s/Mpc\n"
-            f"  H_0_local observed = {t['H_0_local_observed']} km/s/Mpc\n"
-            f"  Tension predicted = {t['tension_predicted']:.2f} km/s/Mpc\n"
-            f"  Tension observed = {t['tension_observed']} km/s/Mpc\n"
-            f"\n"
-            f"  Mechanism: active children in local region boost\n"
-            f"  antigravity contribution, biasing H_0 upward.\n"
-        )
+# The cascade does NOT derive a specific H_0 value. The H_0 tension
+# (73 local vs 67 CMB) is acknowledged as a ΛCDM-framework artifact
+# that the cascade does not currently resolve.
+#
+# Earlier drafts attempted H_0 = 70.13 from a multiplicative boost formula:
+#   H_0_local = 67.4 × (1 + f_active × Ω_DM × 0.5) = 70.13
+# but this is a POSTDICTION, not a derivation:
+#   - f_active = 0.3 is fitted, not derived
+#   - 0.5 geometric factor is a placeholder
+#   - 70.13 is the result of hand-tuning three parameters to match data
+#
+# The cascade is qualitatively consistent with H_0 = 70 ± 3 across all
+# measurements, but the specific value 70.13 is not a first-principles
+# prediction. See Limitation 26 (2D CFT needed) and §2.6.1.
 
 
 # ============================================================
@@ -1874,10 +1818,15 @@ def demo():
     )
     print(huc.describe())
 
-    # Hubble tension prediction
-    print("\n--- Hubble tension prediction (Mechanism A: original, FALSIFIED) ---")
-    htc = HubbleTensionCalculator(n_local_events=1e8)
-    print(htc.describe())
+    # Hubble tension: HONEST FRAMING (v2.5)
+    # The earlier HubbleTensionCalculator (Mechanism A) was a postdiction
+    # removed in v2.5. The cascade does not currently derive a specific
+    # H_0 value. See §2.6.1 (Honest H_0 framework).
+    print("\n--- Hubble tension: HONEST FRAMING (v2.5) ---")
+    print("  The cascade does NOT derive a specific H_0 value.")
+    print("  The H_0 tension (73 local vs 67 CMB) is acknowledged as a")
+    print("  ΛCDM-framework artifact that the cascade does not resolve.")
+    print("  See §2.6.1 and Limitation 26 (2D CFT needed).")
 
     # Hubble tension: Mechanism B/F (REJECTED by Pantheon+ at 7 sigma)
     print("\n--- Hubble tension: Mechanism B/F (4D time-varying antigravity) ---")

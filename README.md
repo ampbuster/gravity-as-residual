@@ -177,14 +177,13 @@ The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geom
 - 17/17 test categories consistent
 - 5/27/68 anchored as topological eigenvalue (V_5/(A_4 R_AdS_5) = 27/5)
 - Action functional S with 5/10 constraints by construction
-- Hubble H_0 = 73 derived from 4D event's antigravity output
 - Honest about open work: 2D CFT expert needed for f_active and Thomson rate
 
 **What the cascade does NOT do:**
 - Derive 2D CFT Lagrangian (Limitation 26 OPEN, requires theoretical physicist)
 - Derive Thomson rate from first principles (Limitation 26 OPEN)
 - Specify R(z) at z > 2000 (reionization era)
-- Resolve the Hubble tension (cascade accepts H_0 = 73; tension is real)
+- **Derive a specific H_0 value** (the cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements; the earlier H_0 = 70.13 multiplicative boost was a postdiction, removed in v2.5; see §2.6.1 Honest H_0 framework)
 
 **Two negative results, documented honestly:**
 - 5/27 derivation: 10+ attempts failed; the 5/27 is empirical (now anchored as topological eigenvalue, but full derivation needs 2D CFT expert)

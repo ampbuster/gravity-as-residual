@@ -13,7 +13,7 @@ Derivations implemented (matching paper §2.6):
   D2. Dark energy density — rho_DE = epsilon * f_back * rho_Pl
   D3. Dark matter per galaxy — M_DM = 6.4 * G * M_event * N_events
   D4. Growth factor from 2D FRW — G = 20 * V_growth
-  D5. Hubble tension — H_0_local > H_0_CMB from active/cumulative DM
+  D5. Hubble tension — HONEST FRAMING (no specific H_0 derived; see §2.6.1)
   D6. 2D universe lifetime — tau_2D = l_event / c
   D7. Universal-split (5/27/68) — from dimensional projection
 """
@@ -25,7 +25,7 @@ sys.path.insert(0, ".")
 from cascade_model import (
     Constants, CascadeParams, Ending,
     StandardModel_L1_3plus1D,
-    GrowthFactorCalculator, HierarchyUnificationCalculator, HubbleTensionCalculator,
+    GrowthFactorCalculator, HierarchyUnificationCalculator,
     our_3plus1d_universe,
     simulate_galaxy_events,
 )
@@ -207,27 +207,43 @@ def derivation_D4_growth_factor():
 def derivation_D5_hubble_tension():
     header("D5. HUBBLE TENSION (paper §2.6 NEW, §2.5, §4.2)")
 
-    htc = HubbleTensionCalculator(n_local_events=1e8)
-    pred = htc.predict_h0_tension()
-    boost = htc.local_antigravity_boost()
+    # NOTE: Earlier drafts attempted to derive H_0 = 70.13 from a multiplicative
+    # boost formula. That formula was a POSTDICTION (f_active = 0.3 is fitted,
+    # geometric factor 0.5 is a placeholder). It has been removed in v2.5.
+    # The cascade does NOT currently derive a specific H_0 value. The H_0 tension
+    # (73 local vs 67 CMB) is acknowledged as a ΛCDM-framework artifact that the
+    # cascade does not resolve. See §2.6.1 (Honest H_0 framework) and Limitation 26
+    # (2D CFT needed).
+    #
+    # The H_0 measurement cluster structure remains relevant:
+    # - Cluster 1 (~73): SH0ES, H0LiCOW, megamasers, SBF, Miras, Tully-Fisher
+    # - TRGB (69.6): independent, lower
+    # - CMB (~67-68): Planck, ACT, SPT, BAO+BBN
+    # - Standard sirens (70 ± 12): too early to discriminate
+    #
+    # The cascade is qualitatively consistent with H_0 = 70 ± 3 across all
+    # measurements, but a 2D CFT calculation is needed to derive the specific
+    # active boost and cumulative drag from first principles.
 
-    print(f"\n  Mechanism: active 2D universe children in local region contribute")
-    print(f"  extra antigravity to 3+1D expansion. Local H_0 measurements (Cepheids,")
-    print(f"  TRGB) sample this active excess. CMB H_0 is the cosmic average over")
-    print(f"  all regions (active + cumulative return), so is *not* biased upward.")
+    print(f"\n  HONEST H_0 FRAMING (v2.5):")
+    print(f"  The cascade does NOT derive a specific H_0 value.")
+    print(f"  Earlier multiplicative boost formula (H_0 = 70.13) was a postdiction:")
+    print(f"    H_0_local = 67.4 × (1 + f_active × Ω_DM × 0.5) = 70.13")
+    print(f"    - f_active = 0.3 is fitted, not derived")
+    print(f"    - 0.5 geometric factor is a placeholder")
+    print(f"    - 70.13 is the result of hand-tuning three parameters")
     print()
-    print(f"  Local active fraction of DM: ~30% (from simulate_galaxy_events)")
-    print(f"  Boost factor = f_active * Omega_DM * 0.5 = {boost:.4f}")
+    print(f"  MEASUREMENT CLUSTERS (the data):")
+    print(f"    Cluster 1 (~73): SH0ES, H0LiCOW, megamasers, SBF, Miras, Tully-Fisher")
+    print(f"    TRGB (69.6): independent, lower")
+    print(f"    CMB (~67-68): Planck, ACT, SPT, BAO+BBN")
+    print(f"    Standard sirens (70 ± 12): too early to discriminate")
     print()
-    print(f"  H_0_CMB      = {pred['H_0_CMB']:.1f} km/s/Mpc")
-    print(f"  H_0_local    = {pred['H_0_local_predicted']:.2f} km/s/Mpc (predicted)")
-    print(f"  H_0_local    = {pred['H_0_local_observed']:.1f} km/s/Mpc (observed)")
-    print(f"  Tension      = {pred['tension_predicted']:.2f} km/s/Mpc (predicted)")
-    print(f"  Tension      = {pred['tension_observed']:.2f} km/s/Mpc (observed)")
-    print()
-    print(f"  Sign: {'CORRECT' if (pred['tension_predicted'] > 0) == (pred['tension_observed'] > 0) else 'WRONG'}")
-    print(f"  Magnitude: predicted/observed = {pred['tension_predicted'] / pred['tension_observed']:.2f}")
-    print(f"  -> Hubble tension is a *natural consequence* of the active/cumulative DM split.")
+    print(f"  CASCADE POSITION:")
+    print(f"    The cascade is qualitatively consistent with H_0 = 70 ± 3")
+    print(f"    across all measurements. A 2D CFT calculation is needed to")
+    print(f"    derive the specific active boost and cumulative drag.")
+    print(f"  -> See §2.6.1 (Honest H_0 framework) and Limitation 26.")
 
 
 # ============================================================
@@ -305,7 +321,7 @@ def main():
     print("  D2. DE density:     0.1% (6.21e-10 J/m^3 = Planck 2018)")
     print("  D3. DM per galaxy:  13%  (1.0e58 J vs observed 8.9e57)")
     print("  D4. Growth factor:  3%   (9.7e7 vs trial-and-error 1e8)")
-    print("  D5. Hubble tension: sign correct, magnitude ~50% (2.7 vs 5.6 km/s/Mpc)")
+    print("  D5. Hubble tension: HONEST FRAMING (no specific H_0 derived; see §2.6.1)")
     print("  D6. 2D lifetime:    derived (tau = l/c)")
     print("  D7. Universal-split: exact (5/27/68 = Planck 2018)")
     hr()
