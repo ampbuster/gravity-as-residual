@@ -4,48 +4,74 @@ AGN Host Galaxy DM Test Results (MaNGA DR15)
 Sample: MaNGA DR15 (10,220 galaxies, 9,705 with valid data)
 DM indicator: M_dyn / M_star (Wolf+ 2010)
 AGN indicator: log SFR(Halpha) (logSFRHa)
-Cascade prediction: AGN/control = 1.05 (i.e., +5% from active contribution)
+Cascade prediction: AGN/control = 1.05 (+5% from active contribution)
 ΛCDM prediction: AGN/control ~ 1.00 (no correlation)
 
-KEY FINDINGS:
+PER-GALAXY M/L ANALYSIS (matched M_star bins):
 
-The result is highly sensitive to the AGN cut:
+log M* = 9.5-10.0: N_AGN=  5, N_Ctrl=586, M/L = 0.15 vs 0.33 = 0.46 (-54%)
+log M* = 10.0-10.3: N_AGN=  8, N_Ctrl=199, M/L = 0.76 vs 0.64 = 1.19 (+19%)
+log M* = 10.3-10.5: N_AGN= 50, N_Ctrl=119, M/L = 0.56 vs 0.76 = 0.74 (-27%)
+log M* = 10.5-10.7: N_AGN=118, N_Ctrl=126, M/L = 0.52 vs 0.99 = 0.53 (-47%)
+log M* = 10.7-11.0: N_AGN=307, N_Ctrl=308, M/L = 0.77 vs 1.13 = 0.68 (-32%)
+log M* = 11.0-11.3: N_AGN=347, N_Ctrl=349, M/L = 0.90 vs 1.26 = 0.71 (-29%)
 
-logSFRHa > -0.5 (broad, N=1941 low-mass): AGN/Ctrl = 0.658 (-34.2%)
-  → Many of these are strong SF galaxies, not AGN
+INTERPRETATION:
 
-logSFRHa > 0 (N=706 low-mass): AGN/Ctrl = 0.653 (-34.7%)
-  → Mixed AGN + strong SF
+The test is HEAVILY CONFOUNDED by morphology:
+- High logSFRHa galaxies (whether AGN or strong SF) are predominantly
+  LATE-TYPE (spiral, irregular)
+- Late-type galaxies have INTRINSICALLY lower M_dyn/M_star at fixed M*
+  (the morphology-DM relation)
+- The "control" (low logSFRHa) is dominated by QUESCENT galaxies,
+  which are mostly EARLY-TYPE
+- Early-type galaxies have INTRINSICALLY higher M_dyn/M_star at fixed M*
+- So the test mostly measures "late vs early type", not "AGN vs not AGN"
 
-logSFRHa > 0.5 (N=63 low-mass): AGN/Ctrl = 1.148 (+14.8%)
-  → Closest to "true AGN-like" sample
-  → CONSISTENT with cascade prediction (+5%) at the +15% level
+This is NOT a clean falsification of the cascade, because:
+1. Many "AGN-like" galaxies are actually strong SF (not true AGN)
+2. The morphology difference dominates the signal
+3. A proper test needs BPT-classified AGN AND morphology matching
 
-logSFRHa > 1.0 (N=6 low-mass): AGN/Ctrl = 0.923 (-7.7%)
-  → Very small sample, statistically meaningless
+WHAN-LIKE REFINED ANALYSIS (separating AGN from SF by sigma):
 
-At higher masses (log M* > 10.5), the test is confounded by the
-morphology-DM relation: the control sample (low logSFRHa) is biased
-toward early-type galaxies with intrinsically high M_dyn/M_star.
+WHAN AGN (logSFRHa > 0, sigma > 80): N=151, M/L = 1.53
+Strong SF (logSFRHa > 0, sigma < 80): N=555, M/L = 0.18
+Reference (logSFRHa in [-1.5, -0.5]): N=904, M/L = 0.52
 
-VERDICT:
-- The cascade's prediction is TENTATIVELY consistent with the data at
-  low mass (log M* = 9.5-10.5) for the narrow AGN cut (logSFRHa > 0.5)
-- The broader cuts show the opposite, but these include strong SF
-  galaxies that are not AGN
-- The cascade does NOT predict stronger SF galaxies to have more DM
-  (cascade predicts AGN specifically, not all high-SFR galaxies)
-- A cleaner test would use a proper AGN sample (BPT diagram or X-ray)
-  but those catalogs are not easily accessible in this analysis
+WHAN AGN vs Reference: +197% (BUT this is a self-fulfilling signal because
+M_dyn ∝ sigma², and high-sigma galaxies have high M_dyn by construction)
 
-CAVEATS:
-1. logSFRHa is a noisy AGN indicator; BPT-classified AGN would be cleaner
-2. Vdispsc is dominated by disk dynamics for late-type, not pure DM
-3. A proper test would use Vrot (rotation velocity) for late-type galaxies
-4. The narrow AGN cut has only 63 galaxies (low statistical power)
-5. AGN and SF are hard to separate without spectroscopic BPT
+The narrow AGN cut (logSFRHa > 0.5, N=835) at low mass is the closest
+proxy for "true AGN-like" sample, but is still contaminated by strong SF.
 
-CONCLUSION: TENTATIVE positive result. The cascade's +5% prediction is
-within the error bars of the narrow AGN cut result (+15% at log M* = 9.5-10.5,
-logSFRHa > 0.5, N=63). A larger AGN sample with proper BPT classification
-would be needed to confirm or refute this prediction with confidence.
+CAVEATS (CRITICAL):
+1. logSFRHa is a NOISY AGN indicator. Many "AGN-like" galaxies are
+   actually strong SF galaxies. Without BPT ([OIII]/Hbeta vs [NII]/Halpha)
+   or X-ray detection, we cannot cleanly separate AGN from SF.
+2. Vdispsc is dominated by stellar disk dynamics for late-type galaxies,
+   not pure DM halo. The proper DM indicator for late-type is rotation
+   velocity (Vrot), not velocity dispersion.
+3. Morphology is a major confound. A proper test would match AGN hosts
+   to control galaxies at fixed M* AND fixed morphology (e.g., only
+   compare late-type AGN to late-type non-AGN).
+4. The sample size of confirmed AGN is too small for robust statistics.
+5. The +5% cascade prediction is small compared to the morphology effect.
+
+CONCLUSION: INCONCLUSIVE.
+
+The current test cannot distinguish cascade from ΛCDM because:
+- The test is dominated by morphology confound
+- The cascade's +5% prediction is below the morphology effect (~30%)
+- The AGN classification is too noisy (no BPT available)
+
+A definitive test would require:
+1. BPT-classified AGN (N > 1000)
+2. Morphology-matched control (matched on Hubble type, not just M*)
+3. Vrot measurements (not just sigma) for late-type galaxies
+4. Ideally X-ray-confirmed AGN (removes SF contamination)
+
+This is a CLEAR example of a test that COULD distinguish cascade from
+ΛCDM, but requires better data than is easily accessible.
+
+The cascade's prediction remains UNT TESTED, not FALSIFIED, by this analysis.
