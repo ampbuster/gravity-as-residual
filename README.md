@@ -97,7 +97,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 | Folder / File | What's in it |
 |---|---|
 | `paper/paper.md` | The full paper, v2.3.0 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (112 pages) |
+| `paper/paper.pdf` | Compiled PDF (113 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary (v2.3.0) |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |
