@@ -1,4 +1,4 @@
-# arXiv Submission Preparation (v2.3.2)
+# arXiv Submission Preparation (v2.4)
 
 > **Status:** READY for submission. This document collects all
 > materials needed for an arXiv submission. The author (a software
@@ -42,7 +42,7 @@
 
 ### Recommended
 - [x] **Layman summary**: `supporting/layman_summary.md`
-- [x] **Changelog**: `changelog.md` (full history v1.02 → v2.3.2)
+- [x] **Changelog**: `changelog.md` (full history v1.02 → v2.4)
 - [x] **Conversation history**: `supporting/how-did-we-get-here.md`
 - [x] **Test triage scorecard**: in `README.md` and `supporting/visual_summary.html`
 - [x] **§9 SIDC vs competitors**: architectural comparison with ΛCDM, MOND, ADD/RS, Verlinde
@@ -166,7 +166,7 @@ This is consistent with the AI-assisted thought experiment being shared openly f
 
 ## Final Note
 
-At v2.3.2 with 154 pages, 16/17 tests pass, 28 limitations, and full AI disclosure, the paper is in a defensible state for arXiv submission. The honest scorecard (16/17 pass, 0 falsified, 0 strongly confirmed) is a *strength*, not a weakness — it shows the work has been stress-tested.
+At v2.4 with 166 pages, 16/17 tests pass, 30 limitations, and full AI disclosure, the paper is in a defensible state for arXiv submission. The honest scorecard (16/17 pass, 0 falsified, 0 strongly confirmed) is a *strength*, not a weakness — it shows the work has been stress-tested.
 
 The cascade's most distinctive prediction (AGN host DM) now has strong statistical support (p < 10⁻⁵⁰ in partial correlation), and f_active is now derivable from first principles (§4.35). The action skeleton (§4.38) is internally consistent. The §9 architectural comparison to ΛCDM, MOND, ADD/RS, and Verlinde is honest about the tradeoffs.
 

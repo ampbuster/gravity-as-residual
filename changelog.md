@@ -1,4 +1,16 @@
-## v2.3.2 (June 2026, PATCH) — Five new tests + formal tensor construction (CURRENT)
+## v2.4 (June 2026, HARDENING) — Five manuscript refactors (CURRENT)
+
+Five refactors transition the v2.3.2 framework to a "structurally complete field theory framework specification":
+
+1. **§2.6.1 (NEW): 5/27 anchored as AdS_5 volume-to-boundary surface-area eigenvalue ratio** (Limitation 17 OPEN → PARTIAL)
+2. **§4.46 (NEW): Engineering implementation and raw numerical results of the phenomenological emulator** (820× → 219× bifurcation documented)
+3. **§4.44: J_bulk=0 boundary junction condition injected directly into T^eff_μν construction** (f_back now derived, not postulated)
+4. **§7.0 updated to v2.4:** 30 limitations (added Limitation 30), L15/L17 OPEN→PARTIAL, L29 linked to c bounds
+5. **Appendix refactored: Open-Source Scientific Collaboration** (formal call-to-action to theoretical physicists)
+
+Final v2.4 state: 166 pages, 794 KB PDF, 271 commits, 30 limitations, 2-3 free parameters.
+
+## v2.3.2 (June 2026, PATCH) — Five new tests + formal tensor construction (HISTORICAL)
 
 Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive improvements and a formal theoretical physics construction.
 

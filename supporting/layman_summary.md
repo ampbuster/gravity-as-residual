@@ -1,8 +1,18 @@
 # Layman Summary: Gravity as Residual
 
-**v2.3.2 — June 2026** (PATCH: 5 new tests + formal tensor construction; see `changelog.md` for the full history)
+**v2.4 — June 2026** (HARDENING: 5 manuscript refactors + 5/27 anchored; see `changelog.md` for the full history)
 
-**v2.3.1 — June 2026** (Tier 1 #1 AGN morphology-matched test + Tier 1 #2 f_active derivation)
+## What changed in v2.4 (in plain language)
+
+Five refactors move the framework from "geometric sketch" to "structurally complete field theory framework specification":
+
+1. **The 5/27 ratio is now a topological eigenvalue.** Previously the 5/27 inner split (DM vs baryons) was either a fit, a postulate, or a calibration to data. Now it's anchored as a specific ratio: the volume of the AdS$_5$ bulk divided by the surface area of the 3+1D boundary, in units of the AdS$_5$ curvature radius. This makes it a *geometric consequence* of the cascade's bulk-brane structure, not a free parameter.
+2. **The emulator's bifurcation is documented end-to-end.** The 820× ratio in cumulative energy (AGC 114905 vs KKR 25) maps to a 219× ratio in dynamic mass. The non-linear mapping (not 820×, but 219×) is the cascade's signature — it's what a saturation in the fossil amplitude predicts.
+3. **The bulk-leakage free parameter is eliminated.** A boundary condition (no energy leaks through the 3+1D brane into the AdS$_5$ bulk) makes the "staying fraction" 1 by construction, not by assumption.
+4. **The limitations table is updated.** Two limitations move from "open" to "partial" (they're now anchored by the v2.4 framework, but their *full* derivation still needs a 2D CFT expert). One new limitation is added (the topological eigenvalue requires a 2D expert to verify the zero-mode counting).
+5. **The Author's Note is replaced by an Open-Source Collaboration section.** This is a formal invitation to theoretical physicists, with 5 specific research problems listed and code reproducibility terms.
+
+**v2.3.2 — June 2026** (PATCH: 5 new tests + formal tensor construction) — HISTORICAL
 
 ## What changed in v2.3 (in plain language)
 

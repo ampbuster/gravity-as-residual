@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software or ideas, please cite it as below."
 type: software
 title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
-version: "2.3.2"
+version: "2.4"
 date-released: 2026-06-14
 authors:
   - family-names: "(software developer)"
@@ -28,7 +28,7 @@ preferred-citation:
       given-names: "anonymous"
   journal: "arXiv preprint (to be submitted)"
   notes: |
-    Version 2.3.2 (June 2026).
+    Version 2.4 (June 2026).
     Author: software developer (non-specialist).
     AI assistance: developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and supporting/ai_disclosure.md.
 
