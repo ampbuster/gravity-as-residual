@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
 **Version:** 2.3.2 (patch: 5 new tests + formal tensor construction + emulator) (June 2026)
-**Status:** Public release. 268 commits, 29 honest limitations documented.
+**Status:** Public release. 270 commits, 29 honest limitations documented.
 
 ---
 
@@ -47,6 +47,24 @@ The proportionality constant (0.1) is *calibrated* to dSph observations (Limitat
 
 See `calculations/sidc_phenomenological_emulator.py` (full 4-part Python pipeline) and `paper/paper.md` §4.45 (paper documentation).
 
+### Key Calculation Files
+
+| File | Purpose | Paper section |
+|------|---------|---------------|
+| `calculations/sidc_phenomenological_emulator.py` (722 lines) | 4-part Python pipeline (AGC/KKR bifurcation) | §4.45 |
+| `calculations/sidc_emulator_results.json` | Machine-readable emulator output | §4.45 |
+| `calculations/sidc_emulator_results.txt` | Human-readable bifurcation summary | §4.45 |
+| `calculations/cmb_cascade_prediction.py` | CAMB power spectrum test (Δχ² = +650) | §4.41 |
+| `calculations/cmb_cascade_prediction_results.txt` | CMB test results | §4.41 |
+| `calculations/rar_per_galaxy_gplus_v3.py` | 43-galaxy per-galaxy g_+ analysis | §4.42 |
+| `calculations/rar_per_galaxy_gplus_v3_results.txt` | g_+ analysis results | §4.42 |
+| `calculations/cosmic_shear_cascade.py` | S_8 weak lensing test (within 1σ of DES/KiDS) | §4.43 |
+| `calculations/cosmic_shear_cascade_results.txt` | Cosmic shear results | §4.43 |
+| `calculations/verify_tensor_pipeline.py` | 5-check verification of T^eff_μν | §4.44 |
+| `calculations/verify_v24_refactor.py` | 4-check verification of v2.4 refactor | §4.44.1 |
+| `supporting/T_tensor_construction.md` (367 lines) | Full T^eff_μν formal derivation | §4.44 |
+| `supporting/T_tensor_v24_refactor.md` (371 lines) | v2.4 framework specification | §4.44.1 |
+
 ---
 
 ## v2.3.2 (June 2026, PATCH) — Five new tests + formal tensor construction (CURRENT)
@@ -83,7 +101,7 @@ Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive im
    - Limitation 26 FURTHER PARTIALLY ADDRESSED
 
 **Version state:**
-- 268 commits, 159 pages, 762 KB PDF (after §4.45 emulator + §7.0 update)
+- 270 commits, 160 pages, 764 KB PDF (after §4.45 emulator + §7.0 update + cross-references)
 - 16/17 test categories pass (no change from v2.3.1; new tests are at the qualitative level)
 - 7/7 specific cases pass (no change)
 - 28 honest limitations: 3 closed, 6 partial, 17 open, 2 falsified, 2 reverted

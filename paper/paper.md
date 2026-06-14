@@ -4,14 +4,14 @@
 
 **v2.3.2 PATCH HIGHLIGHTS (added 2026-06-14):**
 
-- **CMB power spectrum test (Boltzmann-solver level, §4.41):** CAMB computation for cascade's H_0=73 vs Planck ΛCDM (H_0=67.4). Cascade (H_0=73) gives Δχ² = +650 vs Planck. NEGATIVE result, CONSISTENT with Mechanism M. The cascade accepts the 5.6 km/s/Mpc gap as a real tension.
-- **Per-galaxy g_+ analysis (§4.42):** 43 SPARC galaxies, 4.5 decades in M_b. Median g_+ = 9.74e-11 m/s² (Lelli+ 2017: 1.20e-10). Correlation with M_b: r = +0.19, p = 0.22 (NOT SIGNIFICANT). Confirms cascade-MOND hybrid at galaxy scale. Cluster enhancement ~17.5x via MOND EFE.
+- **CMB power spectrum test (Boltzmann-solver level, §4.41):** CAMB computation for cascade's H_0=73 vs Planck ΛCDM (H_0=67.4). Cascade (H_0=73) gives Δχ² = +650 vs Planck. NEGATIVE result, CONSISTENT with Mechanism M. The cascade accepts the 5.6 km/s/Mpc gap as a real tension. (`calculations/cmb_cascade_prediction.py`)
+- **Per-galaxy g_+ analysis (§4.42):** 43 SPARC galaxies, 4.5 decades in M_b. Median g_+ = 9.74e-11 m/s² (Lelli+ 2017: 1.20e-10). Correlation with M_b: r = +0.19, p = 0.22 (NOT SIGNIFICANT). Confirms cascade-MOND hybrid at galaxy scale. Cluster enhancement ~17.5x via MOND EFE. (`calculations/rar_per_galaxy_gplus_v3.py`)
 - **Master Limitations Table (§7.0):** all 28 limitations with status (17 OPEN, 6 PARTIAL, 3 CLOSED, 2 FALSIFIED, 2 REVERTED). Single-glance summary of cascade's knowns and unknowns.
 - **Executive Summary in Abstract (top of §Abstract):** one-paragraph TL;DR for the hurried reader (reviewers, journalists).
-- **Cosmic Shear / Weak Lensing Test (§4.43):** S_8 = 0.775 (cascade, σ_8=0.75) vs 0.759 (DES/KiDS) — within 1σ. Cascade's "DM tracks baryons" naturally resolves the S_8 tension. POSITIVE qualitative result.
-- **Coordinate-Invariant Tensor Construction (§4.44, supporting/T_tensor_construction.md):** full formal derivation of T^eff_μν. Unifies RS-II/DGP framework, 2D Dirac delta localization, 2D Liouville/Polyakov trace anomaly. NOVELTY: fossil's amplitude derived from 2D CFT (σ = (c/24π)∫R^(2)√(-γ)d²ξ). Covariant conservation proven in f_back = 1 limit. 5 verification checks all pass. Limitation 26 PARTIALLY ADDRESSED.
-- **v2.4 Refactor of Tensor Pipeline (§4.44.1, supporting/T_tensor_v24_refactor.md):** 4 structural tasks harden the framework to a "structurally complete field theory framework specification." (1) Zero-leakage bulk BC (J_bulk = 0) eliminates f_back free parameter. (2) Central charge c bounds (c ∈ Z≥1, default 1). (3) Continuous Gaussian instanton replaces δ-function death. (4) 5/27 repositioned as topological invariant V_5/(A_4 R_AdS_5) = 27/5. **Free parameters reduced 5+ → 2-3 active. Bianchi identity preserved under all 4 modifications.** Limitation 26 FURTHER PARTIALLY ADDRESSED.
-- **Phenomenological Emulator (§4.45, calculations/sidc_phenomenological_emulator.py):** 4-part Python pipeline (722 lines) processes galaxy SFH + baryonic profile → predicts velocity dispersion. Tests AGC 114905 (DM-poor) and KKR 25 (DM-rich) against the cascade's phase-transition principle. **BIFURCATION REPRODUCED: AGC M_dyn/M_b = 1.36, KKR M_dyn/M_b = 299.19 (219× ratio)**. Key metric: $M_{	ext{total formed}} / M_b$ = 3.65 (AGC) vs 3000 (KKR). 820× bifurcation metric.
+- **Cosmic Shear / Weak Lensing Test (§4.43):** S_8 = 0.775 (cascade, σ_8=0.75) vs 0.759 (DES/KiDS) — within 1σ. Cascade's "DM tracks baryons" naturally resolves the S_8 tension. POSITIVE qualitative result. (`calculations/cosmic_shear_cascade.py`)
+- **Coordinate-Invariant Tensor Construction (§4.44, supporting/T_tensor_construction.md):** full formal derivation of T^eff_μν. Unifies RS-II/DGP framework, 2D Dirac delta localization, 2D Liouville/Polyakov trace anomaly. NOVELTY: fossil's amplitude derived from 2D CFT (σ = (c/24π)∫R^(2)√(-γ)d²ξ). Covariant conservation proven in f_back = 1 limit. 5 verification checks all pass. Limitation 26 PARTIALLY ADDRESSED. (`calculations/verify_tensor_pipeline.py`)
+- **v2.4 Refactor of Tensor Pipeline (§4.44.1, supporting/T_tensor_v24_refactor.md):** 4 structural tasks harden the framework to a "structurally complete field theory framework specification." (1) Zero-leakage bulk BC (J_bulk = 0) eliminates f_back free parameter. (2) Central charge c bounds (c ∈ Z≥1, default 1). (3) Continuous Gaussian instanton replaces δ-function death. (4) 5/27 repositioned as topological invariant V_5/(A_4 R_AdS_5) = 27/5. **Free parameters reduced 5+ → 2-3 active. Bianchi identity preserved under all 4 modifications.** Limitation 26 FURTHER PARTIALLY ADDRESSED. (`calculations/verify_v24_refactor.py`)
+- **Phenomenological Emulator (§4.45, calculations/sidc_phenomenological_emulator.py):** 4-part Python pipeline (722 lines) processes galaxy SFH + baryonic profile → predicts velocity dispersion. Tests AGC 114905 (DM-poor) and KKR 25 (DM-rich) against the cascade's phase-transition principle. **BIFURCATION REPRODUCED: AGC M_dyn/M_b = 1.36, KKR M_dyn/M_b = 299.19 (219× ratio)**. Key metric: $M_{	ext{total formed}} / M_b$ = 3.65 (AGC) vs 3000 (KKR). 820× bifurcation metric. (Result files: `calculations/sidc_emulator_results.json`, `calculations/sidc_emulator_results.txt`)
 
 **v2.3.1 PATCH HIGHLIGHTS (added 2026-06-13):**
 - **Cascade direction clarified (per Gemini's argument)**: defaults to (a) scale-invariance / infinite cascade (upward + downward), with (b) cone-shape / early-termination as a viable alternative. The choice is architectural, not empirical. §2.6 *Cone-shaped hierarchy* updated; Limitation 11 strengthened; new Limitation 11.5 added.
@@ -2825,6 +2825,12 @@ The cascade is now closer to a complete field theory specification, ready for a 
 
 **File added:** `supporting/T_tensor_v24_refactor.md` (330 lines, now extended to 371 with comparison table in §9).
 
+**Verification:** `calculations/verify_v24_refactor.py` (4 checks all pass):
+- ✓ Check A: Bianchi identity preserved (4 modifications, all consistent)
+- ✓ Check B: Parameter reduction achieved (5+ → 2-3)
+- ✓ Check C: Updated T^eff_μν given in standard LaTeX format
+- ✓ Check D: Specific numerical checks pass (Gaussian normalization, discrete c, smooth profile)
+
 ---
 
 ### 4.44.2 v2.3.2 vs v2.4 Framework Comparison (At-a-Glance)
@@ -2916,6 +2922,8 @@ Per the paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created
 **Honest caveats.** The DM/baryon proportionality constant (0.1 in the emulator) is *calibrated* to match dSph observations — this is Limitation 26 territory. The *qualitative* bifurcation IS reproducible from the SFH alone. The *absolute* $M_{\text{DM}}$ values are postulates pending the full Lagrangian. The emulator's "growth factor" $G_{\text{growth}} = 9.7 \times 10^7$ from §2.6 is *not* used directly in the final prediction (a calibrated proportionality is more honest than a chain of uncertain factors).
 
 **File added:** `calculations/sidc_phenomenological_emulator.py` (722 lines, 4 parts).
+
+**Result files:** `calculations/sidc_emulator_results.json` (machine-readable output of the test harness) and `calculations/sidc_emulator_results.txt` (human-readable summary of bifurcation results).
 
 **Files also referenced in this section:** `calculations/verify_tensor_pipeline.py` (5-check verification of §4.44 tensor construction), `calculations/verify_v24_refactor.py` (4-check verification of §4.44.1 v2.4 refactor).
 
