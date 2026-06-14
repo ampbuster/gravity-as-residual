@@ -45,9 +45,9 @@ The cascade has been tested against multiple independent observations. **7/7 spe
 This is a **major theoretical contribution**: a concrete action functional S for the cascade, plus a first-principles derivation of the g_+ acceleration scale.
 
 - **§2.5.1 NEW: Concrete action functional S** (commit 163). Per the gap identified by Gemini and the user, replaced the cascade's geometric narrative with a concrete action functional a mathematical physicist can work with:
-  - S = S_grav + S_matter + S_brane_2D + S_creation + S_destruction
-  - S_creation has α coupling and δ-function localization of 2D brane at 3+1D event
-  - S_destruction returns energy to 3+1D as DM after τ_2D
+  - S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}
+  - S_{creation} has α coupling and δ-function localization of 2D brane at 3+1D event
+  - S_{destruction} returns energy to 3+1D as DM after τ_2D
   - Local energy conservation preserved (Stoke's theorem)
   - Reduces to standard RS-II brane-world when α → 0
 
