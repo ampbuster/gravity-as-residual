@@ -12,7 +12,7 @@
 - **§4.17 NEW**: First-principles g_+ derivation: g_+ = k * ∫ event rate * E_event * τ_2D / L_2D dt. This is the cascade's formula for g_+, equivalent to Gemini's scaling relation g_+ ∝ ∫ ρ_events/M_b dt.
 - **CLUSTER g_+ ENHANCEMENT (Tian+ 2024)** now explained as BCG seeing cluster-wide ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure), not just its own stellar history. Cluster/BCG enhancement factor ~ 100× in the right ballpark for Tian+'s 10-17×.
 - **4 testable predictions**: (1) BCG g_+ correlates with cluster ICM activity, (2) dwarf g_+ correlates with recent SFR not M_*, (3) g_+ ratio matches event rate ratio, (4) partial correlation test (TENSION: §4.7 found SFR signal entirely mediated by M_b).
-- **114 pages** (was 97 in v2.2.1), 584 KB.
+- **114 pages** (was 97 in v2.2.1), 586 KB.
 
 
 - **Mechanism B/F (Hubble tension) TESTED with Pantheon+** (§2.6 *Hubble tension: status of the cascade's explanation*; §7 Limitation 16, 18): the cascade's specific H_0(z) = H_0_CMB^2 + (H_0_local^2 - H_0_CMB^2) / (1+z)^(2/3) prediction is rejected by Pantheon+ with full statistical+systematic covariance matrix (1701 SNe, 1701x1701 matrix, M fixed at SH0ES value -19.253 from 113 Cepheid calibrators). Best-fit LCDM gives H_0 = 73.00 with chi^2 = 1439.4; cascade's B/F gives chi^2 = 1488.3. **Delta chi^2 = +48.9 (~7 sigma, LCDM WINS).** Pantheon+ shows H_0 is *roughly constant* at ~73 across all z bins, not decreasing with z as B/F predicted. **The cascade's *qualitative* H_0 prediction (73) is consistent with data; Mechanism B/F's specific quantitative form is not.** The cascade does not currently provide a specific mechanism that resolves the 5.6 km/s/Mpc gap between local/Pantheon+ (73) and Planck CMB-inferred (67.4) H_0. This is consistent with the cascade's *qualitative* compatibility with the Hubble tension without a specific quantitative resolution. Many cosmological models (including LCDM) leave the precise value of the Hubble tension unresolved.
@@ -925,13 +925,15 @@ The cascade's prediction across these scales (see `calculations/rar_across_scale
 
 ```
 Object              M_DM (M_sun)   R (kpc)    g_+ cascade       g_+ obs           ratio
-Dwarf (EDGE 2025)   1e9            5          9.3e-13           > 1.2e-10         0.008
+Dwarf (EDGE 2025)   1e9            5          9.3e-13           1.5e-10 *         0.006
 Small spiral        1e10           10         2.3e-12           1.2e-10           0.02
 Milky Way           1e12           30         2.6e-11           1.2e-10           0.22
 Large spiral        5e12           50         4.7e-11           1.2e-10           0.39
-Cluster (Tian 2024) 1e14           500        9.3e-12           2.0e-9            0.005
-Supercluster        1e15           3000       2.6e-12           2.0e-9            0.001
+Cluster (Tian 2024) 1e14           500        9.3e-12           1.7e-9            0.005
+Supercluster        1e15           3000       2.6e-12           ~1.7e-9 (extrap.) 0.0015
 ```
+
+*Note: The EDGE 2025 dwarf g_+ is the McGaugh+ 2016 RAR value *increased* by the EDGE finding (low-mass dwarfs lie systematically *above* the McGaugh RAR, by ~25%). The cascade's g_+ at all scales is *systematically too small* (ratios 0.005 to 0.39) — this is the M_DM / R_halo² dependence the cascade predicts, but the *observed* g_+ is approximately universal. This is a *TENSION*: the cascade's g_+ formula g_+ = (3/4) * G * f_cum * M_DM / (π R_halo²) gives the right *shape* (M_DM/R_halo² scaling) but wrong *normalization* (off by 2.5-200×). A specific implementation of the cascade would need to either (a) calibrate the formula's prefactor (currently 0.75 * f_cum = 0.525) up by 2.5-200×, or (b) re-derive the formula from first principles (Limitation 26).
 
 
 *Honest finding:* the cascade's $g_+$ prediction is in the *right ballpark* for galaxy scales (0.22x the empirical value for the Milky Way) but is *off by orders of magnitude* at both ends of the mass spectrum. The cascade *under-predicts* $g_+$ for dwarfs (off by ~100x) and for clusters (off by ~200x, and in the *wrong direction* — the cascade predicts $g_+$ *decreases* with mass, but empirically it *increases* for clusters).
@@ -1221,6 +1223,8 @@ These are *honest* gaps in the current model. The cascade is a *framework* that 
 This is a target for theoretical development.
 
 ### 4.6 (Section removed: neutrino mass is a Standard Model physics question, not addressed by this model.)
+
+*This section was removed in v2.3.0.* An earlier draft of this paper (v2.0) included a subsection on neutrino mass as a possible test of the cascade (via the $\epsilon \sim 10^{-38}$ bulk-brane coupling). On reflection, this was out of scope: neutrino mass is a Standard Model question (Dirac vs. Majorana, seesaw mechanism, etc.) that the cascade does not currently address. The cascade *takes* neutrino masses as given (per §2.6) and does not derive them. The 4D graph-theory approach to derive neutrino masses from the cascade's structure failed (commit 173); a more honest framing is that the cascade is *agnostic* on neutrino mass. We retain the section number 4.6 here for backward compatibility with earlier drafts and to document the removal explicitly.
 
 ### 4.7 Dark matter density should correlate with energetic event rates — on galaxy scales
 
@@ -1809,7 +1813,7 @@ A full Lagrangian consistent with all 10 constraints would be a SPECIFIC IMPLEME
 
 27. **NEW: The cascade's g_obs functional form is MOND-compatible but not the cascade's own prediction (v2.2.1).** Real SPARC data (commit 153) shows that the cascade's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ decomposition is **falsified** (70% median residual on 149 galaxies), while MOND's interpolation $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ fits to 10% median residual (with free $g_+$ and M/L). The cascade's *framework* can explain *why* $g_+$ is universal at galaxy scales (from cumulative 2D universe gravity), but the cascade does *not* derive MOND's specific interpolation function. The honest position: the cascade's RAR is *MOND-compatible*, not independent. A specific implementation would need to derive the MOND interpolation from the cascade's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than the cascade's pure cumulative-2D-universe-gravity picture.
 
-28. **NEW: Galaxy-vs-Cluster Scale Acceleration Divergence (PARTIALLY CLOSED, v2.3.0, commit 167).** The cascade-MOND hybrid successfully accounts for the *empirical milestone* that $g_+$ is universal at $g_+ \approx 1.1 \times 10^{-10}$ m/s² in *isolated* galaxy disks (SPARC) but $g_+ \approx 1.3 \times 10^{-9}$ m/s² in *BCG-dominated cluster cores* (Tian+ 2024 BCGs: $g_+ \approx 1.7 \times 10^{-9}$ m/s²). The cascade's explanation, derived from the new $V_{\text{local}}$ normalization in §4.17, follows from the geometry of a BCG sitting at the absolute focal point of a cluster's deep potential well: the BCG experiences the cumulative back-projection of not just its own stellar history but the *entire cluster's* shock-heated ICM sediment constantly falling inward. The cluster environment shifts the underlying thermodynamic processing scale upward, which naturally drives the back-projected metric acceleration scale up.
+28. **NEW: Galaxy-vs-Cluster Scale Acceleration Divergence (PARTIALLY CLOSED, v2.3.0, commit 167).** The cascade-MOND hybrid successfully accounts for the *empirical milestone* that $g_+$ is universal at $g_+ \approx 1.2 \times 10^{-10}$ m/s² in *isolated* galaxy disks (SPARC) but $g_+ \approx 1.3 \times 10^{-9}$ m/s² in *BCG-dominated cluster cores* (Tian+ 2024 BCGs: $g_+ \approx 1.7 \times 10^{-9}$ m/s²). The cascade's explanation, derived from the new $V_{\text{local}}$ normalization in §4.17, follows from the geometry of a BCG sitting at the absolute focal point of a cluster's deep potential well: the BCG experiences the cumulative back-projection of not just its own stellar history but the *entire cluster's* shock-heated ICM sediment constantly falling inward. The cluster environment shifts the underlying thermodynamic processing scale upward, which naturally drives the back-projected metric acceleration scale up.
 
 *First-principles formula* (per Gemini's correction, replacing the old $g_+ \propto M_{DM}/R_{halo}^2$ which predicted the wrong direction):
 

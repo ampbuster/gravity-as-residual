@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.3.1 (patch: cascade direction default + abstract strengthened) (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 187 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
+**Status:** Public release. 192 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
 
 ---
 
@@ -49,9 +49,9 @@ This is a **polish + real-data test** patch:
 - **Real-data test of phase-transition principle (NEW, §4.8)**: 5/5 specific dwarf-galaxy cases tested with REAL observational data (not synthesized). AGC 114905, DF2/DF4, FCC 224, KKR 25, and the Sun. Each case uses published stellar population age to compute maximum surviving stellar mass, then checks if it's above the 8 M☉ SN threshold (which determines if events cross E_crit). Result: 5/5 consistent. AGC 114905 anomaly RESOLVED by the specific stellar population age (0.5-2 Gyr → only A-type stars survive → no SN progenitors → no events above E_crit → no DM contribution). KKR 25 consistent via cumulative-return: cascade is not active NOW (no current SN), but the 1-4 Gyr past burst produced 2D universes whose cumulative return contributes to present-day DM.
 - **Abstract strengthened**: now leads with the data backing (7/7 specific cases, MCMC f_active, g_+ derivation, action functional) rather than starting with "we propose" / "we reframe".
 - **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
-- **28 honest limitations** (was 30 in v2.3.0; corrected count after re-audit. Limitation 11.5 was already counted in v2.3.0.)
+- **28 honest limitations** (numbered 1-28) plus Limitation 11.5 (architectural choice, v2.3.1 addition); 29 distinct limitation entries total. (Limitation 14 is RESOLVED.)
 
-Total commits: 196. PDF: 114 pages, 581 KB.
+Total commits: 196. PDF: 114 pages, 586 KB.
 
 ## What's new in v2.3.0 (since v2.2.1)
 
