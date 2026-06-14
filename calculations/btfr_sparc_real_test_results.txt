@@ -1,0 +1,21 @@
+BTFR Test Results (Real Data from SPARC)
+==========================================
+
+SPARC sample: 129 galaxies (quality 1-2, Vflat > 30 km/s)
+Data: Lelli+ 2016, AJ 152, 157 (VizieR J/AJ/152/157)
+M_star from L3.6 with M/L_3.6 = 0.5
+M_gas from MHI
+M_baryon = M_star + M_gas
+
+BTFR fit (all): M_baryon ~ V^3.53
+Expected: M_baryon ~ V^3.5-4.5
+Scatter (1-sigma): 0.25 dex
+
+BTFR slope by morphology:
+  Early (T<=3): N=26, slope=2.55
+  Int (T=4-6): N=47, slope=3.85
+  Late (T>=7): N=56, slope=2.84
+
+Verdict: CONSISTENT with both cascade and ΛCDM (NOT discriminative)
+  - BTFR is a tight scaling relation
+  - Both models predict M_baryon ~ V^4
