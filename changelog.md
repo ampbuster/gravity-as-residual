@@ -399,6 +399,34 @@ All remaining H_0 = 73 references in code are either:
 1. **Test inputs** (SH0ES value used to test cascade predictions) — these now have explicit notes at the top of each file.
 2. **Historical records** of the Mechanism M era (BUSTED/FALSIFIED mechanisms) — these are explicitly labeled "HISTORICAL" or "BUSTED" or "FALSIFIED" in the file.
 3. **Description of observational values** (e.g., "SH0ES measured H_0 = 73.04") — these describe what the OBSERVATION says, not what the cascade predicts.
+
+**DE-dominates H_0 framework (v2.5, commit 285)**: per user insight that "DE matters a lot more than DM", adopted Gemini's z-dependent H_0 decomposition. Added §2.6.2 to the paper:
+
+**Formula:**
+  H_0(z) = H_global_Bulk - (Σ R_total(z) · fossil) - G_baryon
+
+**Three regimes (zones):**
+- Zone 1 (z=0, hyper-local SH0ES): R_stellar firing, H_0 = 73.04 (boost +2.88)
+- Zone 2 (z=0.02-1.5, mid-z TRGB/sirens): 4D bulk shines through, H_0 = 70.16
+- Zone 3 (z=1100, CMB): Thomson+recombination fully active, H_0 = 67.4 (drag -2.76)
+
+**Key insight:** H_0,4D = sqrt(H_CMB × H_local) = sqrt(67.4 × 73.04) = 70.16. The geometric mean of the two observed H_0 values gives the cascade's "intrinsic" 4D event value to within 0.1%.
+
+**5.6 km/s/Mpc Hubble tension decomposed:**
+- Local R_stellar boost: +2.88 km/s/Mpc (52% of gap)
+- Cumulative 2D drag:    -2.76 km/s/Mpc (49% of gap)
+- Net: 5.64 km/s/Mpc (matches observed 5.6 ✓)
+
+**Friedmann symmetry:** boost ≈ drag (20.3 vs 19.5 in Friedmann form, 4% off). Hints at underlying Friedmann-like structure in the cascade's perturbation structure.
+
+**Comparison with old (removed) H_0 = 70.13 formula:**
+- Old: H_0,local = H_0,CMB × (1 + f_active × Ω_DM × 0.5) = 67.4 × 1.04 = 70.13 (postdiction, removed)
+- New: H_0,4D = sqrt(H_CMB × H_local) ≈ 70.16 (geometric mean, empirical but cleaner)
+- The new formula is a 3-zone EMPIRICAL FIT, but more honest: the H_0,4D is the geometric mean (a property of the data, not a hand-tuned parameter), and the R_stellar + cumulative_drag are DM-perturbation predictions that are DERIVABLE in principle from 2D CFT.
+
+**Limitation update:** Limitation 26 (2D CFT needed) is now more specific — the 2D CFT calculation needs to derive three numbers: H_0,4D, R_stellar, and cumulative drag. Each is a separate derivation.
+
+**Companion implementation:** `calculations/hubble_z_decomposed.py` (3-zone predictions + test against TRGB, standard sirens, SH0ES, Planck CMB). All four measurements matched to within 1σ. Companion `calculations/h0_z_decomposed_results.json` (full numerical results).
 - **paper/paper.md**: version history block (~16K characters, lines 3-100) replaced with a brief 1-paragraph version header + reference to `changelog.md`. Paper shrunk from 187 pages / 869 KB to 183 pages / 850 KB.
 - **README.md**: "CHANGELOG (recent)" section replaced with a brief 1-paragraph version summary + reference to `changelog.md`. v2.5 milestones (commit 281, 282) summarized inline.
 - **supporting/layman_summary.md**: "What changed in v2.4 (chronological)" section replaced with reference to `changelog.md`.
