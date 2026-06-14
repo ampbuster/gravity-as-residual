@@ -13,7 +13,7 @@
 - **§4.17 NEW**: First-principles g_+ derivation: g_+ = k * ∫ event rate * E_event * τ_2D / L_2D dt. This is the cascade's formula for g_+, equivalent to Gemini's scaling relation g_+ ∝ ∫ ρ_events/M_b dt.
 - **CLUSTER g_+ ENHANCEMENT (Tian+ 2024)** now explained as BCG seeing cluster-wide ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure), not just its own stellar history. Cluster/BCG enhancement factor ~ 14× (Tian+ 2024: 1.7e-9 m/s² for BCGs vs 1.2e-10 m/s² for SPARC galaxies, ratio ~ 14), matching the MOND external field effect scaling sqrt(M_cluster/M_galaxy) = sqrt(100) ~ 10 (within 30%).
 - **4 testable predictions**: (1) BCG g_+ correlates with cluster ICM activity, (2) dwarf g_+ correlates with recent SFR not M_*, (3) g_+ ratio matches event rate ratio, (4) partial correlation test (TENSION: §4.7 found SFR signal entirely mediated by M_b).
-- **122 pages** (was 97 in v2.2.1), 626 KB.
+- **123 pages** (was 97 in v2.2.1), 630 KB.
 
 
 - **Mechanism B/F (Hubble tension) TESTED with Pantheon+** (§2.6 *Hubble tension: status of the cascade's explanation*; §7 Limitation 16, 18): the cascade's specific H_0(z) = H_0_CMB^2 + (H_0_local^2 - H_0_CMB^2) / (1+z)^(2/3) prediction is rejected by Pantheon+ with full statistical+systematic covariance matrix (1701 SNe, 1701x1701 matrix, M fixed at SH0ES value -19.253 from 113 Cepheid calibrators). Best-fit LCDM gives H_0 = 73.00 with chi^2 = 1439.4; cascade's B/F gives chi^2 = 1488.3. **Delta chi^2 = +48.9 (~7 sigma, LCDM WINS).** Pantheon+ shows H_0 is *roughly constant* at ~73 across all z bins, not decreasing with z as B/F predicted. **The cascade's *qualitative* H_0 prediction (73) is consistent with data; Mechanism B/F's specific quantitative form is not.** The cascade does not currently provide a specific mechanism that resolves the 5.6 km/s/Mpc gap between local/Pantheon+ (73) and Planck CMB-inferred (67.4) H_0. This is consistent with the cascade's *qualitative* compatibility with the Hubble tension without a specific quantitative resolution. Many cosmological models (including LCDM) leave the precise value of the Hubble tension unresolved.
@@ -1696,8 +1696,9 @@ Direct detection (LZ, XENONnT, PandaX-4T)     ~8.5 tonne-yr       sigma < 1e-47 
 Isolated vs cluster dwarf M*-M_200            40 + 20 dwarfs      No significant difference     Pass
 AGN host DM (MaNGA, low-mass, narrow cut)     63 AGN-like         +15% M_dyn (TENTATIVE)        Pass (tentative)
 Cusp-core (dwarf density profiles)            7 THINGS dwarfs     V(0.5)/V(half) = 0.71         Pass
+Halo M/M* vs z (Leauthaud+ 2012, Behroozi+ 2013)  z=0-4 sample   M_halo/M_* ~ constant         Pass (not discriminative)
 -----------------------------------------------------------------------
-TOTAL                                         ~410 data points    All consistent                7/7 Pass
+TOTAL                                         ~410 data points    All consistent                8/8 Pass (1 not discriminative)
 ```
 
 *Honest assessment.* The cascade's empirical success is *impressive*, but the data are not yet *falsifying* the model. To truly test the cascade, we need:
@@ -1848,6 +1849,35 @@ The cascade's cumulative 2D universe back-projection produces a specific density
 *Caveats.* (a) The ΛCDM community has proposed several feedback solutions (Governato+ 2012, Di Cintio+ 2014, etc.) that produce cores. These are not yet fully validated but represent plausible alternatives. (b) The "core size" in ΛCDM simulations is set by stellar mass and feedback strength, not by the cascade's geometry; the core sizes are similar in magnitude, but the *physical mechanism* differs. (c) The published V(0.5)/V(half) measurements are from small samples (~7-25 galaxies); larger samples (e.g., the SPARC full sample) would tighten the test.
 
 See `calculations/cusp_core_test.py` for the full analysis. This is a documentation test using published results; no new observations are required.
+
+### 4.22 Halo mass vs M* evolution with redshift (v2.3.1)
+
+The cascade's two-component DM structure (active + cumulative) leads to a specific prediction for how the stellar-to-halo mass ratio (SHMR) should evolve with redshift at fixed M*. This test documents the published SHMR results and compares them to the cascade's prediction.
+
+*Cascade prediction analysis.* The cascade's DM has two contributions:
+- *Active* (proportional to current SFR): peaks at z~2 (Madau & Dickinson 2014 cosmic SFR history)
+- *Cumulative* (integrated past activity): for galaxies at z=4, less time has elapsed; galaxies at z=4 are typically YOUNGER (formed later) with potentially different SFHs
+
+For a galaxy at fixed M* observed at different z, the cascade predicts ~constant M_halo/M_star, because the active contribution is HIGHER at z~2 (compensating the LOWER cumulative contribution). This is structurally similar to ΛCDM's prediction.
+
+*Standard ΛCDM prediction.* M_halo/M_star at fixed M* is ~ constant, with weak z-evolution (~0.1 dex, mild "downsizing"). Halo mass is set at formation, not affected by subsequent activity.
+
+*Published data (Behroozi+ 2013, ApJ 770, 57; Leauthaud+ 2012, ApJ 746, 95):*
+- z = 0: M_halo ~ 10^12 M_sun at M* = 10^10 M_sun
+- z = 1: M_halo ~ 10^12 M_sun (slightly higher)
+- z = 4: M_halo ~ 1.3 x 10^12 M_sun (mild downsizing)
+- Pattern: M_halo/M_star is roughly constant to within 0.2 dex scatter
+
+*Verdict.* CONSISTENT with both cascade and ΛCDM. This is **NOT a discriminative test**—both models predict ~constant M_halo/M_star at fixed M*, matching the data to within the 0.2 dex scatter. The cascade's two-component structure (active + cumulative) can naturally accommodate this constancy.
+
+*To make this discriminative.* Would need:
+- Better z-resolution data (sub-redshift bins)
+- A precise cascade calculation including SFH as a function of z
+- A specific prediction for the EXACT z-dependence (e.g., M_halo/M_star slightly HIGHER at z~2 where cosmic SFR peaks, with a specific shape)
+
+The current test is consistent with cascade but doesn't discriminate cascade from ΛCDM. This is honest: consistency ≠ confirmation.
+
+See `calculations/halo_mass_evolution_test.py` for the full analysis.
 
 ---
 

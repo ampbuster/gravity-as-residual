@@ -51,7 +51,7 @@ This is a **polish + real-data test** patch:
 - **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
 - **28 honest limitations** (numbered 1-28) plus Limitation 11.5 (architectural choice, v2.3.1 addition); 29 distinct limitation entries total. (Limitation 14 is RESOLVED.)
 
-Total commits: 196. PDF: 122 pages, 626 KB.
+Total commits: 196. PDF: 123 pages, 630 KB.
 
 ## What's new in v2.3.0 (since v2.2.1)
 
@@ -110,7 +110,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 | Folder / File | What's in it |
 |---|---|
 | `paper/paper.md` | The full paper, v2.3.0 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (122 pages) |
+| `paper/paper.pdf` | Compiled PDF (123 pages) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary (v2.3.0) |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |
