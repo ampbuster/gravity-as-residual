@@ -182,9 +182,10 @@ print()
 
 # Step 1: Define 4D event output profile
 # Assumption 1: 4D event output is approximately CONSTANT (no strong burst)
-# Rationale: H_0 = 73 is constant, the cosmic expansion is steady,
-#            the dark energy density is constant. No strong time variation
-#            in the 4D event over the 13.8 Gyr universe lifetime.
+# Rationale: H_0 is qualitatively consistent with 70 ± 3 across all measurements
+#            (the historical H_0 = 73 was a borrowed value, not derived; see §2.6.1).
+#            The cosmic expansion is steady, the dark energy density is constant.
+#            No strong time variation in the 4D event over the 13.8 Gyr universe lifetime.
 
 # Step 2: The 2D universe lifetime τ_2D determines the "active" population
 # In the cascade, every 2D universe ends by returning its energy to 3+1D.
@@ -206,8 +207,8 @@ print()
 print("Cascade derivation of f_active:")
 print()
 print("1. 4D event output R(t) is approximately CONSTANT over T_universe")
-print("   (Justification: H_0 = 73 is constant, dark energy is constant,")
-print("    no time variation in cascade's core predictions.)")
+print("   (Justification: H_0 is qualitatively consistent with 70 ± 3,")
+print("    dark energy is constant, no time variation in cascade's core predictions.)")
 print()
 print("2. Active 2D universe population at time t_now:")
 print("   N_active = R(t_now) × τ_2D")

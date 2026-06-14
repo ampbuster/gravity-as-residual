@@ -12,7 +12,7 @@ In ΛCDM, the S_8 tension is a mild (~2-3σ) disagreement between:
 - KiDS-1000: S_8 = 0.759 ± 0.025 (consistent with DES)
 
 The cascade's prediction depends on:
-1. The cascade's H_0 = 73 (different from Planck's 67.4)
+1. The cascade's H_0 = 70 ± 3 (qualitative consistency, see §2.6.1; SH0ES gives 73, Planck gives 67.4)
 2. The cascade's Ω_m = 0.32 (same as Planck)
 3. The cascade's "DM" clustering properties (cumulative 2D universe gravity)
 
@@ -51,7 +51,7 @@ sigma_8_planck = 0.8111  # S_8 = σ_8 * sqrt(Ω_m/0.3)
 # S_8 = 0.832, sqrt(0.3153/0.3) = 1.025, σ_8 = 0.832/1.025 = 0.8117
 
 # Cascade's Ω_m = 0.32 (same as Planck)
-# Cascade's H_0 = 73 (different from Planck's 67.4)
+# Cascade's H_0 = 70 ± 3 (qualitative consistency; SH0ES gives 73, Planck gives 67.4)
 # 
 # The cascade's σ_8 depends on the growth rate of structure
 # 

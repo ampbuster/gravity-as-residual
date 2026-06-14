@@ -1,17 +1,27 @@
 #!/usr/bin/env python3
 """
-CMB Power Spectrum Test for the Cascade (v2.3.1)
+CMB Power Spectrum Test for the Cascade (v2.3.1, updated v2.5)
 
-The cascade predicts H_0 = 73. In ΛCDM, the CMB acoustic scale θ_* = r_s/D_A
-is fit by Planck to give H_0 = 67.4. This is the Hubble tension.
+Historical note: this test was written when the cascade's Mechanism M era
+claimed H_0 = 73 (a value borrowed from SH0ES, not derived by the cascade).
+The test compares the cascade's CMB prediction at H_0 = 73 (test input) against
+Planck's H_0 = 67.4. In v2.5 (commit 281), the HubbleTensionCalculator was
+removed and §2.6.1 (Honest H_0 framework) added: the cascade is qualitatively
+consistent with H_0 = 70 ± 3 across all measurements but does NOT derive a
+specific H_0 value. This file is preserved for historical record of the
+H_0 = 73 era CMB test, but the H_0 = 73 should be understood as a TEST INPUT
+borrowed from SH0ES, not a cascade prediction.
 
-Question: does the cascade's H_0 = 73 give a CMB power spectrum that's
-consistent with Planck? Or does it require modifications to early-universe
+In ΛCDM, the CMB acoustic scale θ_* = r_s/D_A is fit by Planck to give
+H_0 = 67.4. This is the Hubble tension.
+
+Question (historical): does the cascade's H_0 = 73 give a CMB power spectrum
+that's consistent with Planck? Or does it require modifications to early-universe
 physics (extra N_eff, etc.)?
 
 This test computes the CMB TT spectrum with CAMB for:
 - (a) Planck best-fit ΛCDM (H_0 = 67.4)
-- (b) Cascade (H_0 = 73, same densities)
+- (b) Cascade (H_0 = 73 borrowed from SH0ES, same densities)
 - (c) Cascade + extra N_eff (dark radiation from 5D Weyl)
 - (d) Cascade with adjusted ω_b, ω_c
 

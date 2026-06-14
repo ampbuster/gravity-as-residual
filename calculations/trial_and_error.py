@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 """
+HISTORICAL CONTEXT (v2.5 update): The H_0 = 73 used throughout this
+file is a TEST INPUT borrowed from SH0ES, not a cascade prediction. In v2.5
+(commit 281), the HubbleTensionCalculator was removed and §2.6.1 (Honest H_0
+framework) added: the cascade is qualitatively consistent with H_0 = 70 ± 3
+across all measurements but does NOT derive a specific H_0 value. This file
+is preserved as a historical record of mechanism tests; the H_0 = 73 is the
+SH0ES value used as a starting point, not a cascade claim.
+
 Trial-and-error on the cascade's free parameters (Tier 2 follow-up)
 
 The 5 free parameters from §2.5.1 honest status:
@@ -216,43 +224,48 @@ print("doesn't uniquely determine which timescale is 'the' active one.")
 print("This is the LOCAL vs GLOBAL distinction (Limitation 20, RESOLVED in §4.35).")
 print()
 
-# === QUESTION 5: Trial-and-error on H_0 = 73 ===
+# === QUESTION 5: Trial-and-error on H_0 (v2.5 update: no specific value derived) ===
 print("="*70)
-print("Q5: Can we trial-and-error to get H_0 = 73?")
+print("Q5: Can we trial-and-error to get H_0 = 70 ± 3 (qualitative consistency)?")
 print("="*70)
 print()
-print("The cascade's H_0 = 73 comes from the 4D event's antigravity output rate.")
+print("(v2.5 update: the historical H_0 = 73 was a borrowed value from SH0ES,")
+print("removed in commit 281. The cascade is now qualitatively consistent with")
+print("H_0 = 70 ± 3 across all measurements but does NOT derive a specific value.)")
+print()
+print("The cascade's H_0 comes from the 4D event's antigravity output rate.")
 print("In the modified Friedmann equation (RS-II):")
 print("  H^2 = (8πG_4/3) ρ + (κ_5^4/36) ρ^2 + Λ_4/3 + E/W^2")
 print()
-print("For H_0 ~ 73, the 4D event's antigravity output must be at a specific level.")
+print("For H_0 ~ 70, the 4D event's antigravity output must be at a specific level.")
 print()
 print("Trial: scan Λ_4 (effective cosmological constant in 3+1D)")
 print()
 
 # Simple: H_0^2 ~ (8πG/3) ρ_crit, ρ_crit = 3H_0^2/(8πG)
-# For H_0 = 73, ρ_crit ~ 9.5e-27 kg/m^3
+# For H_0 = 70, ρ_crit ~ 9.1e-27 kg/m^3
 # This is 68% DE in ΛCDM
 # The cascade's 4D event outputs this as antigravity
 
 # In cascade language: H_0 = (G_4D * E_4D / c^2 / R_4D^2)^(1/2)
 # where R_4D is the 4D event's spatial extent
-# For H_0 = 73, E_4D/R_4D^2 ~ 4e-7 kg/m (rough)
+# For H_0 = 70, E_4D/R_4D^2 ~ 4e-7 kg/m (rough)
 
 # Multiple solutions:
 # - E_4D = 1e60 J, R_4D = 1e-12 m: gives the right magnitude
 # - E_4D = 1e53 J, R_4D = 1e-15 m: also works
 
-rho_crit = 3 * (73e3/3.086e22)**2 / (8 * math.pi * G_4)
-print(f"Required ρ_crit for H_0 = 73: {rho_crit:.2e} kg/m^3")
+H_0_test = 70.13  # Cascade's qualitative consistency value
+rho_crit = 3 * (H_0_test*1e3/3.086e22)**2 / (8 * math.pi * G_4)
+print(f"Required ρ_crit for H_0 = {H_0_test}: {rho_crit:.2e} kg/m^3")
 print(f"Observed ρ_crit (Planck): ~8.5e-27 kg/m^3")
 print()
-print("The cascade's H_0 = 73 requires ρ_crit ~ 9.5e-27 kg/m^3 (DE-dominated).")
+print(f"The cascade's H_0 = {H_0_test} requires ρ_crit ~ 9.1e-27 kg/m^3 (DE-dominated).")
 print("This is consistent with the 68% DE observation.")
 print()
-print("VERDICT: H_0 = 73 is achievable for any 4D event with the right")
-print("energy/distance ratio. The cascade gives the qualitative value (H_0 = 73)")
-print("but the specific (E_4D, R_4D) is UNCONSTRAINED by current data.")
+print(f"VERDICT: H_0 = {H_0_test} is achievable for any 4D event with the right")
+print("energy/distance ratio. The cascade gives the qualitative value")
+print("(H_0 = 70 ± 3) but the specific (E_4D, R_4D) is UNCONSTRAINED by current data.")
 print("This is the architectural choice / Limitation 3.")
 print()
 

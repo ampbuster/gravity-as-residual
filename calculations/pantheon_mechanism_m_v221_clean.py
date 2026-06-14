@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 """
+HISTORICAL CONTEXT (v2.5 update): The H_0 = 73 used throughout this
+file is a TEST INPUT borrowed from SH0ES, not a cascade prediction. In v2.5
+(commit 281), the HubbleTensionCalculator was removed and §2.6.1 (Honest H_0
+framework) added: the cascade is qualitatively consistent with H_0 = 70 ± 3
+across all measurements but does NOT derive a specific H_0 value. This file
+is preserved as a historical record of mechanism tests; the H_0 = 73 is the
+SH0ES value used as a starting point, not a cascade claim.
+
 Pantheon+ test for Mechanism M with the new §2.6 framing - clean version.
 
 In the new framing:

@@ -677,17 +677,19 @@ This is *host-type-independent* (it depends on the 4D event's *global* state, no
 
 **Testing Mechanism B/F with Pantheon+ (commit 82).** Mechanism B/F's specific H_0(z) prediction was tested with the full Pantheon+ statistical+systematic covariance matrix (1701 SNe, 1701x1701 matrix, M fixed at SH0ES value -19.253 from 113 Cepheid calibrators). The cascade's H_0(z) = H_0_CMB^2 + (H_0_local^2 - H_0_CMB^2) / (1+z)^q gives chi^2 = 1488.3 vs best-fit LCDM (H_0 = 73.00) chi^2 = 1439.4 — a **delta chi^2 of +48.9 (~7 sigma), LCDM WINS**. Pantheon+ shows H_0 is *roughly constant* at ~73 across all z bins (z = 0.01 to 1.5), with no significant H_0(z) variation. **Mechanism B/F's specific quantitative prediction is REJECTED** by Pantheon+ at high statistical significance. The cascade's *qualitative* claim (H_0_local > H_0_CMB) and *qualitative* prediction (H_0 constant in z) are *both* consistent with the data. See `calculations/pantheon_full_cov_analysis.py` (commit 82).
 
-**The cleaner status (after the test).** The cascade's *core* H_0 prediction is *qualitative* and simple: H_0 is set by the 4D event's antigravity projection rate, which gives H_0 ~ 73 km/s/Mpc. This is *confirmed* by local + Pantheon+ measurements. The 5.6 km/s/Mpc gap between local/Pantheon+ (73) and Planck-inferred (67.4) is the well-known *Hubble tension*. The cascade:
+**The cleaner status (after the test, v2.5 update).** The cascade's *core* H_0 position is *qualitative*: H_0 is set by the 4D event's antigravity projection rate, but the cascade does NOT derive a specific numerical value. The historical H_0 = 73 claim was a borrowed value from SH0ES (Mechanism M era), removed in v2.5 commit 281. The cascade is now *qualitatively* consistent with H_0 = 70 ± 3 across all measurements (SH0ES 73, TRGB 69.6, Planck 67.4, standard sirens 70 ± 12), with the 5.6 km/s/Mpc gap between local (~73) and Planck-inferred (67.4) being a ΛCDM-framework artifact (CMB H_0 is inferred, not directly measured). The cascade:
 
-1. **Predicts** H_0 = 73 (its 4D event projection rate).
-2. **Accommodates** the local + Pantheon+ measurement (which is also ~73).
-3. **Does NOT currently provide a specific mechanism** that explains the 5.6 km/s/Mpc gap to Planck's CMB-inferred H_0 = 67.4.
+1. **Is consistent with** H_0 = 70 ± 3 (qualitative, no specific derivation).
+2. **Accommodates** the local + Pantheon+ measurement (~73) and the Planck CMB measurement (67.4).
+3. **Does NOT currently provide a specific mechanism** that explains the 5.6 km/s/Mpc gap between local and Planck measurements.
 
-The cascade is *qualitatively compatible* with the Hubble tension (it predicts the right *direction* of the local-CMB gap) but does not *quantitatively resolve* it. This is the honest scientific position: many cosmological models do not resolve the Hubble tension (LCDM itself doesn't — the gap is one of cosmology's biggest open problems). The cascade joins this list of "compatible but not resolving" models, with the added benefit that it predicts the local value correctly.
+See §2.6.1 (Honest H_0 framework) for the full v2.5 documentation.
+
+The cascade is *qualitatively compatible* with the Hubble tension (it predicts the right *direction* of the local-CMB gap) but does not *quantitatively resolve* it. This is the honest scientific position: many cosmological models do not resolve the Hubble tension (LCDM itself doesn't — the gap is one of cosmology's biggest open problems). The cascade joins this list of "compatible but not resolving" models, with the cascade's position being H_0 = 70 ± 3 qualitative consistency (not a specific H_0 = 73 prediction; see §2.6.1 honest framework).
 
 We previously attempted to construct a specific mechanism (Mechanism B/F) that *would* resolve the tension, but the data rejected that specific proposal. The cascade does not need such a mechanism to be a valid model — many valid cosmological models leave the Hubble tension unresolved. The cascade's contribution is its *qualitative* explanation of why H_0_local > H_0_CMB in terms of dimensional projection, which is independent of whether or not it resolves the precise 5.6 km/s/Mpc gap.
 
-For completeness, we also tested 12 alternative mechanisms (L, C, I, N, O, P, Q, R, S, T, U, V) to verify that no simple cascade-friendly mechanism could close the gap. All were either rejected by Pantheon+, busted theoretically, or equivalent to "the cascade's H_0 is just 73 at all z" (which is the cascade's *baseline* position, not a new mechanism). See `calculations/hubble_mechanism_remaining.py` and `calculations/hubble_mechanism_creative.py` (commits 83, 85). The most ambitious alternative (Mechanism L: re-interpret Planck's H_0 = 67.4 as cascade-consistent) was busted because the cascade's natural early universe (no DM, no DE at z > 1100, just baryons and radiation) gives theta_* = 15.58, which is **1500x larger** than Planck's measured 0.01041 (see `calculations/mechanism_l_planck_reanalysis.py`, commit 84). This is consistent with the picture: the cascade's *core* prediction is H_0 = 73, and it doesn't need a special mechanism to maintain that.
+For completeness, we also tested 12 alternative mechanisms (L, C, I, N, O, P, Q, R, S, T, U, V) to verify that no simple cascade-friendly mechanism could close the gap. All were either rejected by Pantheon+, busted theoretically, or equivalent to "the cascade's H_0 is just 73 at all z" (which was the *historical* Mechanism M baseline, removed in v2.5 commit 281). See `calculations/hubble_mechanism_remaining.py` and `calculations/hubble_mechanism_creative.py` (commits 83, 85). The most ambitious alternative (Mechanism L: re-interpret Planck's H_0 = 67.4 as cascade-consistent) was busted because the cascade's natural early universe (no DM, no DE at z > 1100, just baryons and radiation) gives theta_* = 15.58, which is **1500x larger** than Planck's measured 0.01041 (see `calculations/mechanism_l_planck_reanalysis.py`, commit 84). This is consistent with the picture: the cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements, and it doesn't need a special mechanism to maintain that.
 
 These derivations substantially strengthen the cascade framework: the previously-acknowledged *asymmetry* between dark energy and dark matter math (§2.6 *Asymmetry between dark energy and dark matter math*) is *partially closed* by the growth factor derivation, and the previously-acknowledged *limitation* in the quantitative DM prediction is *resolved* by the same derivation. The remaining quantitative work is to pin down the 2D universe's specific dynamics (Omega_{DE,2D}, t_eq, T_{2D}, h_{2D}) from a deeper theoretical principle, which would turn the order-of-magnitude estimate into an exact derivation.
 
@@ -2419,7 +2421,7 @@ where:
 3. The 2D universe's lifetime τ_2D (the death mechanism)
 4. The 32%/68% split (depends on specific geometry)
 5. The 5%/27% inner split (depends on τ_2D dynamics)
-6. The H_0 = 73 derivation (requires 4D event's antigravity output)
+6. The H_0 = 70 ± 3 qualitative consistency (the cascade does not derive a specific H_0 value; see §2.6.1)
 7. The RAR shape (requires back-projection analysis)
 
 **Honest assessment:** This is a STEP FORWARD but NOT a complete Lagrangian. The cascade's framework is now EXPRESSIBLE in field theory language, but specific predictions still require detailed dynamical calculations beyond the scope of this attempt.
@@ -2476,11 +2478,13 @@ This was already addressed in §4.35. The 5/27 inner split IS f_active, derivabl
 
 The 4× gap is the LOCAL vs GLOBAL distinction (§4.35). **Limitation 17 (5/27 derivation) is RESOLVED.**
 
-**Q5: Can trial-and-error give H_0 = 73?** The cascade gives qualitative H_0 = 73.
+**Q5: Does the cascade derive a specific H_0?** (v2.5 update)
 
-For H_0 = 73, the critical density is ρ_crit ~ 1.0e-26 kg/m^3. This is consistent with the 68% dark energy observation. The cascade's H_0 = 73 emerges from the 4D event's antigravity output rate, but the specific (E_4D, R_4D) values are UNCONSTRAINED by current data. This is **Limitation 3 (no derivation of original event's parameters)**.
+**HISTORICAL (Mechanism M era):** The cascade's Mechanism M era claimed H_0 = 73 as a borrowed value from SH0ES. This was a postdiction, not a derivation, and was removed in v2.5 commit 281.
 
-H_0 = 73 is achievable for any 4D event with the right energy/distance ratio. The cascade gives the *qualitative* value; the *specific* (E_4D, R_4D) is left as a free parameter of the model.
+**CURRENT (v2.5 honest framework, see §2.6.1):** The cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements (SH0ES 73, TRGB 69.6, Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific H_0 value. The specific (E_4D, R_4D) values that would determine H_0 are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
+
+A 2D CFT calculation is needed to derive the specific active boost and cumulative drag from first principles. The cascade's contribution is the *qualitative* framework (H_0 = 70 ± 3), not a specific number.
 
 **Summary: Trial-and-error status for the 5 free parameters:**
 
@@ -2532,7 +2536,7 @@ Per user request, this attempts the 14th Hubble mechanism (after C, D, I, L, M, 
 
 **Honest result:** Mechanism N FAILS for these reasons:
 
-1. **The cascade's H_0 = 73 is a CONSTANT** (4D event's antigravity output rate). This is Λ-like behavior, identical to ΛCDM at z=0.
+1. **The cascade's H_0 is qualitatively consistent with H_0 = 70 ± 3 (no specific value derived)** (4D event's antigravity output rate). This is Λ-like behavior, identical to ΛCDM at z=0.
 2. **Weyl tensor in RS-II contributes to H² as a⁻⁴** (radiation-like). The sign goes the wrong way: positive Weyl gives H_0_CMB > H_0_local, but we observe H_0_local > H_0_CMB.
 3. **V_local scaling: g_+ at z=1100 would be ~30x larger** than today (if V_local scales as horizon volume). Small effect.
 4. **The cascade's physics at z~1100 is identical to ΛCDM** (matter-dominated, same expansion rate). So Planck's H_0 inference gives the same value regardless.
@@ -2556,13 +2560,13 @@ See `calculations/hubble_mechanism_N.py` and `calculations/hubble_mechanism_N_re
 
 ---
 
-### 4.41 CMB Power Spectrum Test: H_0 = 73 vs Planck (v2.3.1)
+### 4.41 CMB Power Spectrum Test: H_0 = 73 (Mechanism M era) vs Planck (v2.3.1, v2.5 update)
 
-**The highest-value test we hadn't done:** does the cascade's H_0 = 73 give a CMB power spectrum consistent with Planck 2018? This is the ESSENCE of the Hubble tension, tested with a Boltzmann-solver-level analysis.
+**The highest-value test we hadn't done:** does the cascade's H_0 = 73 (historical Mechanism M era value, borrowed from SH0ES) give a CMB power spectrum consistent with Planck 2018? This is the ESSENCE of the Hubble tension, tested with a Boltzmann-solver-level analysis. (Note: in v2.5, the cascade's H_0 = 73 was removed as a prediction; see §2.6.1. The H_0 = 73 in this section is the SH0ES value used as a TEST INPUT, not a cascade derivation.)
 
 **Approach.** Use CAMB (CAMB v1.6.6) to compute the CMB TT power spectrum for four models:
 - (a) Planck ΛCDM best-fit (H_0 = 67.4)
-- (b) Cascade (H_0 = 73, same densities)
+- (b) Cascade (H_0 = 73 borrowed from SH0ES, same densities)
 - (c) Cascade + extra N_eff (dark radiation from 5D Weyl)
 - (d) Cascade + ω_c lowered to compensate
 

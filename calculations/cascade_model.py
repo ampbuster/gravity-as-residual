@@ -468,7 +468,10 @@ class HubbleTensionL:
     MECHANISM: Re-analyze Planck with cascade's model:
     - Early universe: cascade has no DM, no DE at z > 1100 (just baryons
       and radiation)
-    - Late universe: cascade has H_0 = 73 and Omega_m_eff = 0.32, Omega_DE_eff = 0.68
+    - Late universe: cascade has H_0 ~ 73 (borrowed from SH0ES) and Omega_m_eff = 0.32, Omega_DE_eff = 0.68
+      [Note: H_0 = 73 here is the SH0ES value, used as a TEST INPUT to see if
+      the cascade's late-universe picture is consistent. The cascade does not
+      actually derive H_0 = 73; see §2.6.1 honest framework.]
 
     TEST: Re-derive Planck's theta_* measurement in the cascade's model.
     Planck measures theta_* = r_s(z_*) / D_A(z_*) = 0.01041.

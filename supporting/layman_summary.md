@@ -42,7 +42,7 @@ With this broader principle, plus three bug fixes (one in the original analysis,
 
 **Why Thomson scattering does the heavy lifting:** At z > 1100, the photon-baryon plasma is fully ionized and tightly coupled. Thomson scattering deposits energy at a *huge* rate (R ≈ 10⁶² J/yr/Mpc³ at z=1100). In proper units, R_Thomson scales as (1+z)⁷. With the (1+z)⁴ fossil-dilution factor in the integral, the integrand scales as (1+z)³. The integral from z to z_max naturally gives ρ(z) ∝ (1+z)³. The cascade's broader principle gives the right (1+z)³ scaling from Thomson alone.
 
-**Why this is a smoking gun:** The cascade's narrow interpretation (stellar-only) was falsified at high z (r(z=6) = 0.029, 35× under ΛCDM). The cascade's broader interpretation (Thomson-dominated at z > 4) is *consistent* with ΛCDM at all z. The Hubble tension (H_0 = 73 vs 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a cascade-specific failure.
+**Why this is a smoking gun:** The cascade's narrow interpretation (stellar-only) was falsified at high z (r(z=6) = 0.029, 35× under ΛCDM). The cascade's broader interpretation (Thomson-dominated at z > 4) is *consistent* with ΛCDM at all z. The Hubble tension (local ~73 vs Planck CMB 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a cascade-specific failure. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements but does not derive a specific H_0 value (see §2.6.1).
 
 ## Smoking Gun #3: The cascade matches ΛCDM in cumulative results
 

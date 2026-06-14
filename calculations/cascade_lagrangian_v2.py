@@ -18,7 +18,7 @@ The 10 constraints:
 4. Near-exact cancellation: ordinary gravity and DE both << 4D scale
 5. Active fraction: f_active = 0.0513 ± 0.0073 (MCMC)
 6. Spatial distribution: isothermal cumulative
-7. Hubble constant: H_0 = 73 km/s/Mpc
+7. Hubble constant: cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements (no specific value derived; honest framework §2.6.1)
 8. RAR shape: g_obs = g_bar + g_cum + g_active
 9. Time dependence: w = -1
 10. Cone-shape: 2 levels, terminal at 2D
@@ -179,7 +179,7 @@ constraints = [
     ("4. Near-exact cancellation", "✓ SATISFIED: bulk-brane coupling naturally gives ε~1e-38"),
     ("5. f_active = 0.0513 ± 0.0073", "? OPEN: requires τ_2D/T_universe calculation"),
     ("6. Isothermal spatial distribution", "✓ SATISFIED: 2D universe 1/r gravity gives isothermal"),
-    ("7. H_0 = 73 km/s/Mpc", "? OPEN: requires 4D event's antigravity output to be computed"),
+    ("7. H_0 = 70 ± 3 (qualitative consistency, no specific value derived)", "? OPEN: requires 2D CFT calculation; the historical H_0 = 73 was a borrowed value, not a cascade prediction"),
     ("8. RAR shape (g_obs = g_bar + g_cum + g_active)", "? OPEN: requires back-projection analysis"),
     ("9. w = -1", "✓ SATISFIED: 4D event's constant antigravity gives w=-1"),
     ("10. Cone-shape (2 levels)", "✓ SATISFIED: action terminates at 2D worldsheets"),
@@ -203,7 +203,7 @@ print()
 print("This Lagrangian attempt provides a FRAMEWORK that is")
 print("internally consistent with the cascade's 10 constraints.")
 print("It does NOT derive the specific numerical values (5/27/68,")
-print("H_0 = 73, etc.) from first principles - those still require")
+print("H_0 = 73 (borrowed from SH0ES, not derived), etc.) from first principles - those still require")
 print("detailed dynamical calculations.")
 print()
 print("Specifically:")

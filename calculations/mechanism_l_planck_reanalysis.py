@@ -2,6 +2,15 @@
 """
 Mechanism L: Model-dependent interpretation of the Hubble tension
 
+HISTORICAL CONTEXT (v2.5 update): This file was written when the cascade's
+Mechanism M era claimed H_0 = 73 (a value borrowed from SH0ES, not derived
+by the cascade). The file tests whether the cascade's picture is consistent
+with the SH0ES value. The H_0 = 73 used here is a TEST INPUT, not a cascade
+prediction. In v2.5 (commit 281), the HubbleTensionCalculator was removed
+and §2.6.1 (Honest H_0 framework) added: the cascade is qualitatively
+consistent with H_0 = 70 ± 3 across all measurements but does NOT derive a
+specific H_0 value.
+
 CLAIM: The CMB-inferred H_0 = 67.4 is an ARTIFACT of assuming LCDM.
        In the cascade's model, CMB analysis would give H_0 ~ 73.
 

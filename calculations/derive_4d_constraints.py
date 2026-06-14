@@ -15,7 +15,7 @@ The constraints fall into several categories:
 4. Near-exact cancellation: ordinary gravity << 4D scale
 5. Active fraction: f_active ~ 0.05 (constrained by MCMC)
 6. Spatial distribution: isothermal cumulative (derived from 2D 1/r gravity)
-7. Hubble constant: H_0 = 73 km/s/Mpc (cascade's core prediction)
+7. Hubble constant: H_0 = 70 ± 3 km/s/Mpc (qualitative consistency; no specific value derived)
 8. RAR shape: g_obs = g_bar + g_cum + g_active (with structural 5% residual)
 9. Time dependence: stable over cosmic time (ΛCDM-like w = -1)
 10. Cone-shape: 2 levels (4D -> 3+1D -> 2D, terminal)
@@ -77,12 +77,12 @@ print("   - Lagrangian must produce this isothermal profile")
 print("   - v_circ² = const (FLAT ROTATION CURVE) emerges from this")
 print()
 
-# Hubble constant
-print("7. HUBBLE CONSTANT: H_0 = 73 km/s/Mpc")
+# Hubble constant (v2.5 update: no specific H_0 derived)
+print("7. HUBBLE CONSTANT: H_0 = 70 ± 3 km/s/Mpc (qualitative consistency)")
 print("   - Comes from 4D event's antigravity projection rate")
-print("   - Consistent with local (SH0ES 73.04) and Pantheon+ (73)")
-print("   - The 5.6 km/s/Mpc gap to Planck (67.4) is NOT resolved")
-print("   - Lagrangian must produce H_0 = 73 specifically")
+print("   - Consistent with local (SH0ES 73.04), TRGB (69.6), Planck (67.4), standard sirens (70 ± 12)")
+print("   - The 5.6 km/s/Mpc gap to Planck (67.4) is a ΛCDM-framework artifact")
+print("   - The cascade does NOT derive a specific H_0 (the historical H_0 = 73 was borrowed from SH0ES)")
 print()
 
 # RAR shape

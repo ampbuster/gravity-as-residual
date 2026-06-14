@@ -98,7 +98,7 @@ This is the cumulative result of the v2.4 work. The cascade's three main quantit
 
 ### Why these matches matter
 
-The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geometry of the 4D event and the dynamics of 2D CFT. The user-identified gap ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?") led to the broader principle that gives the cascade's R(z) the right scaling to match ΛCDM at all z. The Hubble tension (H_0 = 73 vs 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a cascade-specific failure.
+The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geometry of the 4D event and the dynamics of 2D CFT. The user-identified gap ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?") led to the broader principle that gives the cascade's R(z) the right scaling to match ΛCDM at all z. The Hubble tension (local ~73 vs CMB 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a cascade-specific failure. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements but does not derive a specific H_0 value (see §2.6.1).
 
 ---
 
@@ -159,7 +159,7 @@ The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geom
 
 2. **§4.47–§4.48 Time-scale invariance test (commit 272)**: r(z=6) with stellar-only R(z) gives 0.008 — apparent time-lag. Honest negative result documented.
 
-3. **§4.49 Bug fix (commit 274)**: user caught r(z=6) = 0.73 at F_p=1 ≈ H_0 = 73 (suspicious coincidence). Found that integrand should have (1+z)⁴ in denominator, not (1+z). With bug fix: r(z=6) ~ 10⁻⁴ — even more severe falsification. Limitation 31 REVERTED to OPEN.
+3. **§4.49 Bug fix (commit 274)**: user caught r(z=6) = 0.73 at F_p=1 (a numerical coincidence that, in the postdiction-era paper, was *suspiciously* close to H_0 = 73 km/s/Mpc). Found that integrand should have (1+z)⁴ in denominator, not (1+z). With bug fix: r(z=6) ~ 10⁻⁴ — even more severe falsification. Limitation 31 REVERTED to OPEN. (Note: the H_0 = 73 framing was later removed in v2.5 commit 281; the cascade does not actually predict H_0 = 73.)
 
 4. **§4.50 Audit (commit 275)**: f_active inconsistency (0.05 vs 0.3, 6×) flagged as a real limitation.
 
