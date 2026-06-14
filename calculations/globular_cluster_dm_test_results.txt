@@ -1,0 +1,25 @@
+Globular Cluster DM Test Results
+================================
+
+Sample size: 111 GCs (cross-matched from Harris 1996 + Usher+ 2013)
+Assumed r_h: 3.5 pc (fixed median; real r_h varies 1-10 pc)
+Assumed M/L_V_stellar: 2.0 (typical for old metal-poor GCs)
+
+M_V range: -9.89 to 1.76
+M_dyn median: 9.90e+04 M_sun
+L/L_sun median: 3.96e+04
+M_stellar median: 7.92e+04 M_sun
+M_dyn/M_stellar ratio (median): 1.22
+M_dyn/M_stellar ratio (16-84 percentile): 0.37 - 5.00
+Frac with ratio > 3: 27.0%
+Frac with ratio > 5: 16.2%
+Frac with ratio > 10: 10.8%
+
+Verdict: CONSISTENT with cascade (no DM)
+
+Sensitivity to r_h:
+  r_h = 1.5 pc: median = 0.52
+  r_h = 2.5 pc: median = 0.87
+  r_h = 3.5 pc: median = 1.22
+  r_h = 5.0 pc: median = 1.74
+  r_h = 7.0 pc: median = 2.44
