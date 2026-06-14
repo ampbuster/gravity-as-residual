@@ -10,8 +10,10 @@ Five refactors transition the v2.3.2 framework to a "structurally complete field
 6. **§4.47 (NEW): Time-scale invariance test** (calculations/time_scale_invariance_test_v3.py): cascade is NOT strictly time-scale-invariant. r(z=6) = 0.008 (SIDC has 130× less DM than ΛCDM). F_stellar ~ 1 predicted by cascade's own energetics. JWST early-galaxy problem is STRONGER for SIDC. Limitation 31 added.
 7. **§4.48 (NEW): Primordial Lagrangian design** (calculations/primordial_lagrangian_test.py): two-component DM with F_p ~ 0.7 (primordial) + F_s ~ 0.3 (stellar). Trial-and-error shows F_p > 0.7 required to match high-z UV LF. F_p is the 4D event's internal activity (hidden parameter). Limitation 31 PARTIALLY ADDRESSED.
 8. **§4.49 (NEW): Bug fix — (1+z)^4 dilution factor (user-caught)** (calculations/time_scale_invariance_test_v4.py): previous calcs had (1+z) in denominator; correct is (1+z)^4. With corrected formula, r(z=6) ~ 10⁻⁴ for all F_p, meaning cascade predicts essentially no DM at z=6. Cascade is FALSIFIED at high-z in naive formulation. Limitation 31 REVERTED to OPEN.
+9. **§4.49 reframed: Local-vs-Global distinction** (per user follow-up). The cascade's *local* principle (energy-scale-invariance) IS preserved; the *global* predictions (epoch-invariance of consequences) are falsified. The cascade can be scale-invariant but not time-invariant. To save the cascade, R_p(z) ∝ (1+z)^4 is required (highly speculative).
+10. **§4.50 (NEW): Audit of additional calculations.** 10+ calculations audited. Most are honest and correct. Most significant finding: `f_active` parameter inconsistency (0.05 vs 0.3, 6× difference). Other findings: AGN p=4e-57 verified, CMB Δχ²=+650 verified, all other calcs honest. Limitation 19 partial close.
 
-Final v2.4 state: 173 pages, 823 KB PDF, 274 commits, 31 limitations, 2-3 free parameters.
+Final v2.4 state: 177 pages, 837 KB PDF, 275 commits, 31 limitations, 2-3 free parameters.
 
 ## v2.3.2 (June 2026, PATCH) — Five new tests + formal tensor construction (HISTORICAL)
 
