@@ -72,6 +72,8 @@ Three of the most persistent open problems in fundamental physics are:
 
 3. **Dark energy.** Roughly 68% of the universe's mass-energy budget is in a form driving the accelerated expansion of space. The most economical explanation (the cosmological constant, or vacuum energy) is off from quantum-field-theoretic predictions by approximately 120 orders of magnitude, an embarrassment known as the cosmological constant problem.
 
+*(The remaining ~5% is ordinary baryonic matter, well accounted for by the Standard Model of particle physics and Big Bang nucleosynthesis.)*
+
 These problems are typically treated as independent. They may not be.
 
 This paper proposes a single geometric process that, in principle, accounts for all three as different manifestations of the same underlying mechanism: a *dimensional inversion* of gravity that takes place when a higher-dimensional event projects its gravitational influence into our 3+1 dimensional brane.
