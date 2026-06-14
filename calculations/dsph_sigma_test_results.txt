@@ -1,0 +1,29 @@
+Dwarf Spheroidal M_dyn Test Results (Real Data)
+==================================================
+
+Sample: 10 MW dSphs with measured sigma, r_h, M_V
+Mass estimator: Wolf+ 2010 (M_1/2 = 4.5 sigma^2 r_1/2 / G)
+M/L_V: 2 (conservative)
+
+Results:
+Name                    sigma    r_h    M_V      M_dyn     M_star  M_dyn/M_star
+------------------------------------------------------------------------------------------
+  Draco                  9.1    196   -8.7   2.26e+07   5.16e+05        43.8
+  Ursa Minor             9.5    181   -8.5   2.28e+07   4.30e+05        53.0
+  Sculptor               9.2    260  -10.8   3.07e+07   3.57e+06         8.6
+  Sextans                7.9    682   -9.5   5.94e+07   1.08e+06        55.0
+  Carina                 6.7    241   -9.0   1.51e+07   6.81e+05        22.2
+  Fornax                11.7    668  -13.2   1.28e+08   3.26e+07         3.9
+  Leo I                  9.2    251  -11.9   2.96e+07   9.84e+06         3.0
+  Leo II                 6.7    151   -9.6   9.45e+06   1.18e+06         8.0
+  Sagittarius           11.0   1500  -13.5   2.53e+08   4.30e+07         5.9
+  CVn I                  7.6    564   -7.9   4.54e+07   2.47e+05       183.8
+
+M_dyn-M_star relation slope: 0.37
+
+Cascade interpretation:
+  - M_dyn correlates with M_star (slope < 1)
+  - Both cascade and ΛCDM predict this relation
+  - NOT a discriminative test
+
+VERDICT: CONSISTENT with both cascade and ΛCDM (NOT discriminative)

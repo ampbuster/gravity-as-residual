@@ -1,0 +1,22 @@
+Too-Big-To-Fail Test Results (Documentation)
+==============================================
+
+Cascade prediction: NO sub-halos, NO TBTF problem
+ΛCDM prediction: ~10 massive sub-halos that should host bright satellites
+Observation: MW's brightest satellites too small for predicted sub-halo v_max
+
+Boylan-Kolchin+ 2011, 2012 (Aquarius simulations):
+  ~10 sub-halos with v_max > 25 km/s in MW-like halos
+  Predicted to host Fornax-like or Leo I-like galaxies
+  Observed: Fornax (v_max ~ 18 km/s), Leo I (v_max ~ 17 km/s)
+  Discrepancy: ~3-5 in v_max
+
+Cascade's natural solution: No particles, no sub-halos, no TBTF problem
+
+Verdict: CONSISTENT with cascade (no TBTF problem)
+
+Caveats:
+  1. Cascade satellite count depends on 2D universe model
+  2. Modern ΛCDM simulations reduce TBTF (but don't fully resolve)
+  3. TBTF is a CLASSIC ΛCDM problem
+  4. Cascade's solution is structural, not 'explanatory'
