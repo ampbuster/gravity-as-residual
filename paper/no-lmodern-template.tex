@@ -16,6 +16,7 @@
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{calc}
 \usepackage{multirow}
 \usepackage{graphicx}
 \usepackage{enumitem}
@@ -34,12 +35,12 @@
   urlcolor=blue
 }
 
+% Define \real for xelatex (colortbl's command for longtable)
+\providecommand{\real}[1]{#1}
+
 \providecommand{\tightlist}{}
 \begin{document}
 
 $body$
 
 \end{document}
-
-% Define \real for xelatex (colortbl's command for longtable)
-\providecommand{\real}[1]{#1}

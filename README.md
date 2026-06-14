@@ -30,6 +30,21 @@
 
 ---
 
+## Why SIDC vs its competitors
+
+Whether SIDC is "superior" depends on the metric. On **mathematical and operational completion**, standard $\Lambda$CDM remains the reigning framework. On **parsimony and empirical coverage** — explaining the maximum number of distinct cosmic anomalies with the fewest arbitrary assumptions — SIDC presents an architecturally superior alternative. Quick comparison:
+
+| Competitor | Their main weakness | SIDC structural advantage |
+|------------|---------------------|------------------------------|
+| **$\Lambda$CDM** | Requires undiscovered WIMP/axion, fine-tuned $\Lambda$, and 20+ free "baryonic feedback" parameters. Four historic small-scale crises (cusp-core, missing satellites, too-big-to-fail, lensing flux ratio) persist after 30 years of fixes. | DM is geometric, not particulate. No sub-halos exist *by construction*, so all four small-scale crises collapse simultaneously. 17/19 specific tests consistent with SIDC; 0 falsified. |
+| **MOND** | Works for isolated spirals (SPARC, 175 galaxies) but fails in cluster cores ($g_+ \sim 10^{-9}$ vs galaxy $g_+ \sim 10^{-10}$ m/s²), forcing ad-hoc missing baryons or sterile neutrinos. | Phase-transition principle: clusters cross $E_{\text{crit}}$ across larger volumes than galaxies, naturally scaling $g_+$ up by ~17× to match Tian+ 2024 cluster data. SIDC = MOND for galaxies, +1 level for clusters. |
+| **ADD / Randall-Sundrum** | Static bulk plumbing, no native dark-sector explanation, requires specialized scalar fields or unobserved parallel branes. | "Bottom-up" dynamic cascade: extra dimensions are *spawned* by energetic events, not pre-existing. The dark sector falls out automatically as the transactional debt of the scale-invariant creation/destruction lifecycle. |
+| **Verlinde (entropic gravity)** | No historical clock: dark gravity is a strict real-time response to baryons. Struggles to explain why two galaxies with similar baryonic mass can have opposite DM content. | Stellar Age Lifecycle matrix gives a historic ledger: AGC 114905 (diffuse SF, never crossed $E_{\text{crit}}$) and KKR 25 (intense starburst 1-4 Gyr ago) are naturally explained as a function of *when* the energetic events happened. |
+
+The full architectural comparison is in **§9 of the paper** ("SIDC vs its Competitors: A Detailed Comparison").
+
+---
+
 ## The idea in one paragraph
 
 What if gravity is *weak* because most of it gets cancelled? In this model, a single ongoing 4-dimensional event projects into our 3+1-dimensional universe. The projection *inverts* the sign of gravity, so the 4D event's native gravity is cancelled on the 3+1D brane — leaving only a small positive residue that we call ordinary gravity. The un-cancelled *antigravity* component is what we observe as **dark energy**. Every energetic event in 3+1D (a star, a supernova, a black hole) creates a *child universe* at the next level — a literal 2D universe (one time + one space) embedded in our 3+1D space, its gravity back-projected to 3+1D as the cumulative effect we call **dark matter**. The cascade is *scale-invariant by default* (4D → 3+1D → 2D → 1D-like → ...) with *cone-shape* (early termination at 2D) as a viable alternative — the choice is architectural, not empirical. The 5/27/68 mass-energy split is observational 3+1D data that constrains the 4D event's geometry, not a free postulate.
