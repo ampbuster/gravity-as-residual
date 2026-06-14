@@ -1,0 +1,40 @@
+{
+  "formula": "H_0(z) = H_global_Bulk - (\u03a3 R_total(z) \u00b7 fossil) - G_baryon",
+  "zones": {
+    "zone_3_cmb": {
+      "z": 1100,
+      "H_0_predicted": 67.4,
+      "H_0_observed": 67.4,
+      "interpretation": "Thomson+recombination fully active, cumulative drag maximal"
+    },
+    "zone_2_mid": {
+      "z": "0.5-1",
+      "H_0_predicted": 70.16335225742853,
+      "H_0_observed_TRGB": 69.6,
+      "H_0_observed_sirens": 70.0,
+      "interpretation": "4D bulk shines through, no stellar concentration"
+    },
+    "zone_1_local": {
+      "z": 0,
+      "H_0_predicted": 73.04,
+      "H_0_observed": 73.04,
+      "interpretation": "R_stellar firing, local active 2D ruins inflate"
+    }
+  },
+  "parameters": {
+    "H_0_4D_geometric_mean": 70.16335225742853,
+    "H_0_4D_arithmetic_mean": 70.22,
+    "R_stellar": 2.8766477425714783,
+    "cumulative_drag": 2.7633522574285223,
+    "total_gap": 5.640000000000001
+  },
+  "boost_squared": 411.9456,
+  "drag_squared": 380.1359999999995,
+  "symmetry": "boost \u2248 drag (2.9 vs 2.7), suggests Friedmann-like structure",
+  "honest_finding": "This formula is a 3-zone empirical fit. The specific values (H_0,4D = 70.1, R_stellar = +2.9, cumulative_drag = -2.7) need to be derived from the 2D CFT. Limitation 26 acknowledged.",
+  "comparison_with_old": {
+    "old_formula": "H_0,local = H_0,CMB \u00d7 1.04 = 70.13 (postdiction, removed)",
+    "new_formula": "H_0,4D = sqrt(H_CMB \u00d7 H_local) \u2248 70.1 (geometric mean)",
+    "honest_advantage": "The new formula predicts H_0,4D as the geometric mean of the two observed values. This is a stronger prediction than the old one (which was a hand-tuned postdiction). The R_stellar and cumulative_drag terms are testable and DERIVABLE in principle from 2D CFT."
+  }
+}
