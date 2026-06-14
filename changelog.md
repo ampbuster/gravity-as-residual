@@ -32,7 +32,7 @@ Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive im
    - Limitation 26 FURTHER PARTIALLY ADDRESSED
 
 **Version state:**
-- 266 commits, 158 pages, 755 KB PDF (after §4.44.1 v2.4 refactor)
+- 268 commits, 159 pages, 762 KB PDF (after §4.45 emulator + §7.0 update)
 - 16/17 test categories pass (no change from v2.3.1; new tests are at the qualitative level)
 - 7/7 specific cases pass (no change)
 - 28 honest limitations: 3 closed, 6 partial, 17 open, 2 falsified, 2 reverted
