@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.3.1 (patch: cascade direction default + abstract strengthened) (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 192 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
+**Status:** Public release. 196 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
 
 ---
 
