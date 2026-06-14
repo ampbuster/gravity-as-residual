@@ -1,0 +1,63 @@
+4D MATH AUDIT: Does the scale-invariant cascade make sense?
+=============================================================
+
+Question: the cascade is scale-invariant by default (v2.3.1). Does
+the 4D math actually work when applied consistently at every level?
+
+ASSESSMENT: The 4D math is INTERNALLY CONSISTENT, with caveats.
+
+1. HIERARCHY CONCENTRATION AT 4D->3+1D
+   - Observed: 1e-38 (Planck hierarchy)
+   - Per scale-invariance: should distribute across all levels
+     (e.g., 1e-19 per level for 2 levels, 2e-13 for 3 levels)
+   - The cascade POSTULATES the hierarchy is at 4D->3+1D
+   - This is an ARCHITECTURAL CHOICE, not derived
+   - Defensible: "the hierarchy is a property of one level,
+     not a property of the cascade as a whole"
+
+2. TIME DIRECTION
+   - T_4D ~ 1e-21 s, L_4D ~ 1e-12 m (Dark Dimension scale)
+   - The cascade's time-dilation rule T_3+1D = T_4D / epsilon works
+   - The 4D event is BRIEF, the 3+1D universe is its long aftermath
+   - Consistent with current observational constraints on extra dims
+
+3. ENERGY CONSERVATION
+   - 32% projects to 3+1D (5% direct + 27% DM)
+   - 68% "un-cancelled" is the 3+1D's DE
+   - Self-consistent under careful interpretation
+   - Energy is conserved (Stoke's theorem in the action)
+
+4. OPEN UPWARD (5D, 6D, ...)
+   - Mathematically OK
+   - 4D event can be a child of a 5D process
+   - Strict scale-invariance requires ~1e-19 hierarchy at each level
+   - We can't identify "the" hierarchy-generating level
+
+5. INFINITE REGRESS
+   - Physics doesn't require a "first cause"
+   - Each level is self-consistent
+   - The cascade doesn't claim a "first event"
+
+VERDICT: 4D math is self-consistent, but it has limitations:
+
+1. The hierarchy being concentrated at 4D->3+1D is a POSTULATE,
+   not derived. The cascade doesn't say WHY 4D is special.
+2. The "4D event" in the cascade is a specific level in a chain
+   (per scale-invariance) or the "top" (per cone-shape). Both
+   are valid; the choice is architectural (Limitation 11).
+3. The 4D event's specific physics (energy, duration, profile)
+   is UNSPECIFIED. The cascade has 5+ free parameters (Limitation 26).
+4. The cascade doesn't explain WHY 4D is the "top" or why 2D is
+   the "bottom" (per cone-shape). These are architectural choices.
+
+BOTTOM LINE: 4D math works, but it's GEOMETRY, not full physics.
+The cascade gives the framework; the specific Lagrangian is the
+unfinished business (Limitation 26).
+
+OPEN QUESTIONS:
+- Is the 4D->3+1D hierarchy "concentrated" or "distributed"?
+- Is the 4D event the "top" of the cascade, or a node in a chain?
+- What is the 4D event's specific Lagrangian (L_4D)?
+- Why is the 3+1D->2D step hierarchy "1" while 4D->3+1D is "1e-38"?
+
+These are all documented in §7 Limitations (1, 5, 6, 11, 26).

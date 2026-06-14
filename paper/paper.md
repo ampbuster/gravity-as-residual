@@ -2245,6 +2245,44 @@ See `calculations/derive_4d_factive_v2.py` and `calculations/derive_4d_factive_v
 
 ---
 
+### 4.36 4D Math Audit: Is the scale-invariant cascade self-consistent? (v2.3.1)
+
+The cascade is **scale-invariant by default** (per v2.3.1), meaning the same dimensional-projection mechanism should apply at *every* level: 4D event → 3+1D → 2D → 1D-like → ..., and (going upward) the 4D event itself may be a projection of a 5D process. This raises a critical question: **does the 4D math actually work when applied consistently?**
+
+This section audits 5 specific concerns about the 4D math. Full numerical analysis is in `calculations/audit_4d_math.py` and `calculations/audit_4d_math_results.txt`.
+
+**(1) Hierarchy concentration at 4D→3+1D.** Strict scale-invariance would distribute the observed Planck hierarchy (1e-38) across all cascade levels (e.g., ~1e-19 per level for 2 levels, ~2e-13 for 3 levels). The cascade **POSTULATES** that the hierarchy is concentrated at the 4D→3+1D level, not distributed. This is an **architectural choice**, not a derivation. The cascade does not currently say *why* 4D is the special hierarchy-generating level — this is Limitation 1 (no derivation of the dimensional structure).
+
+**(2) Time direction.** The cascade's time-dilation rule T_3+1D = T_4D / ε_3+1D with ε_3+1D ~ 1e-38 gives T_4D ~ 1e-21 s and L_4D ~ 1e-12 m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. The cascade is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
+
+**(3) Energy conservation.** The cascade's energy budget: 32% of E_4D projects to 3+1D (5% direct matter + 27% cumulative 2D universe DM), and 68% remains as 4D antigravity (which we observe as 3+1D's dark energy). This is self-consistent under careful interpretation of "projection" — the 68% DE in 3+1D is the *back-projected antigravity* of the 4D event, not the 68% of E_4D that didn't project. Total energy is conserved via Stoke's theorem in the action (§2.5.1).
+
+**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires ~1e-19 hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. The cascade's default is to leave this open (Limitation 11).
+
+**(5) Infinite regress.** In strict scale-invariance, the cascade has no "top" or "bottom" — it extends infinitely in both directions. Physics does not require a "first cause" (e.g., eternal inflation has no first moment). Each level is self-consistent. Energy is conserved at every level (Stoke's theorem). The cascade is OK with infinite regress, but the v2.1 cone-shape alternative (terminal at 2D) avoids the question by fiat. Both are valid; the choice is architectural (Limitation 11.5).
+
+**VERDICT: 4D math is self-consistent, with limitations:**
+
+✓ Hierarchy is concentrated at 4D→3+1D (matches observation, but is a postulate)
+✓ Time direction works (T_4D ~ 1e-21 s, L_4D ~ 1e-12 m, Dark Dimension scale)
+✓ Energy conservation is consistent
+✓ Open upward is mathematically OK
+✓ Infinite regress is physically acceptable
+
+**Caveats:**
+1. The hierarchy being concentrated at 4D→3+1D is a **POSTULATE**, not derived. Why is 4D special? Unknown (Limitation 1).
+2. The "4D event" in the cascade is a specific level in a chain (per scale-invariance) or the "top" (per cone-shape). Both are valid; choice is architectural (Limitation 11).
+3. The 4D event's specific Lagrangian (L_4D) is UNSPECIFIED. The cascade has 5+ free parameters (Limitation 26).
+4. The cascade doesn't explain WHY 4D is the "top" or why 2D is the "bottom" (per cone-shape). These are architectural choices.
+
+**Bottom line:** 4D math works, but it's **GEOMETRY, not full physics**. The cascade gives the framework; the specific Lagrangian is the unfinished business of fundamental physics (Limitation 26).
+
+This audit does not falsify the cascade, but it does clarify the scope of what's derived vs postulated. The cascade's *core* claims (DM is geometric, DE is 4D antigravity, hierarchy is 4D→3+1D) are all self-consistent in the scale-invariant picture. The *specific* 4D event physics is open (Limitation 26).
+
+See `calculations/audit_4d_math.py` and `calculations/audit_4d_math_results.txt` for the full numerical analysis.
+
+---
+
 
 
 The full development of the lower-dimensional universe picture — including the dimensional time-dilation rule, the energy-budget implications, the neutrino discussion, the Sun-vs-galaxy distinction, and the dark-matter-as-cumulative-energy-return argument — is presented in §2.3 (*Scale-invariance: every energetic event creates its own universe*). This section is *intentionally brief*: it exists as a narrative marker for readers who want to see the dark matter connection in one place, but the substantive content (and all numerical claims) is in §2.3. We retain this section heading rather than removing it entirely so the table of contents and cross-references remain stable for readers who arrived at the paper via §5.
