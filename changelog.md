@@ -370,6 +370,35 @@ The cascade is *infinite in principle* (no a priori depth limit) but *practicall
 The 5/27 "topological eigenvalue" claim is also caveated: the *form* V_5/(A_4 R_AdS_5) is established as a topological feature, but the *specific value* 27/5 is still an empirical anchor, not a first-principles prediction. Limitation 26 acknowledged.
 
 **Version history consolidated to changelog (v2.5, commit 283)**: per user request, all version history content moved to `changelog.md`. The paper, README, and layman no longer duplicate this content:
+
+- **paper/paper.md**: version history block (~16K characters, lines 3-100) replaced with a brief 1-paragraph version header + reference to `changelog.md`. Paper shrunk from 187 pages / 869 KB to 183 pages / 850 KB.
+- **README.md**: "CHANGELOG (recent)" section replaced with a brief 1-paragraph version summary + reference to `changelog.md`. H_0 row updated from "73 (Mechanism M)" to "70 ± 3 (qualitative consistency)".
+- **supporting/layman_summary.md**: "What changed in v2.4 (chronological)" section replaced with reference to `changelog.md`.
+
+README and layman also updated to match the paper's overstatement audit (commit 282):
+- **README.md**: H_0 row updated from "73 (Mechanism M)" to "70 ± 3 (qualitative consistency)" with note that 5.6 km/s/Mpc gap is a ΛCDM-framework artifact.
+- **supporting/layman_summary.md**: H_0 framing was already updated in commit 281; no further changes needed.
+
+**H_0 = 73 cleanup in code/README/layman (v2.5, commit 284)**: per user request that "there are still cmd tests that say h_0=73 and it's shown in the readme", cleaned up all remaining H_0 = 73 references in the README, layman, and code outputs:
+
+- **README.md**: line 101 (Hubble tension explanation) updated to "local ~73 vs Planck CMB 67.4" with note that cascade is qualitatively consistent with H_0 = 70 ± 3. Line 162 (historical bug-fix note about r(z=6) = 0.73) updated to clarify the H_0 = 73 framing was removed in commit 281.
+- **supporting/layman_summary.md**: line 45 (smoking gun narrative) updated similarly.
+- **paper/paper.md**: 5 historical claims updated to v2.5 framing (Mechanism M era is now historical, not current).
+- **calculations/trial_and_error.py**: Q5 section updated to test H_0 = 70.13 (qualitative consistency) instead of H_0 = 73. The output now reads "H_0 = 70.13 requires ρ_crit ~ 9.24e-27 kg/m^3" with note that the historical H_0 = 73 was borrowed from SH0ES.
+- **calculations/derive_4d_constraints.py**: point 7 (HUBBLE CONSTANT) updated to "H_0 = 70 ± 3 km/s/Mpc (qualitative consistency)" with full honest framing.
+- **calculations/derive_4d_factive_v2.py**: Step 1 (4D event output profile) and Justification updated to "H_0 is qualitatively consistent with 70 ± 3".
+- **calculations/consistency_check_v221.py**: point 5 (Hubble mechanism) updated to v2.5 framing.
+- **calculations/cosmic_shear_cascade.py**: docstring updated.
+- **calculations/cmb_cascade_prediction.py**: docstring updated to clarify the H_0 = 73 is a TEST INPUT (SH0ES value), not a cascade prediction.
+- **calculations/cascade_lagrangian_v2.py**: constraint list updated.
+- **calculations/cascade_model.py**: Mechanism L docstring updated.
+- **calculations/mechanism_l_planck_reanalysis.py**: top-of-file note added explaining the H_0 = 73 is a TEST INPUT.
+- **calculations/hubble_mechanism_*.py, pantheon_mechanism_m_v221_*.py**: top-of-file note added to all 8 mechanism test files explaining the H_0 = 73 is the SH0ES value used as a starting point for mechanism tests, not a cascade prediction.
+
+All remaining H_0 = 73 references in code are either:
+1. **Test inputs** (SH0ES value used to test cascade predictions) — these now have explicit notes at the top of each file.
+2. **Historical records** of the Mechanism M era (BUSTED/FALSIFIED mechanisms) — these are explicitly labeled "HISTORICAL" or "BUSTED" or "FALSIFIED" in the file.
+3. **Description of observational values** (e.g., "SH0ES measured H_0 = 73.04") — these describe what the OBSERVATION says, not what the cascade predicts.
 - **paper/paper.md**: version history block (~16K characters, lines 3-100) replaced with a brief 1-paragraph version header + reference to `changelog.md`. Paper shrunk from 187 pages / 869 KB to 183 pages / 850 KB.
 - **README.md**: "CHANGELOG (recent)" section replaced with a brief 1-paragraph version summary + reference to `changelog.md`. v2.5 milestones (commit 281, 282) summarized inline.
 - **supporting/layman_summary.md**: "What changed in v2.4 (chronological)" section replaced with reference to `changelog.md`.
