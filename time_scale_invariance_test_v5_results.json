@@ -1,0 +1,20 @@
+{
+  "principle": "All bugs fixed: (1+z)^3 factor included, Thomson temperature correct, matter-radiation transition handled",
+  "bugs_found": {
+    "v4_bug": "Missing (1+z)^3 factor in r(z) ratio. r(z=6) = 0.029 (CORRECT), not 1e-4 (v4 reported)",
+    "v2_bug": "Wrong temperature scaling for Thomson. T_gamma = T_CMB_0 * (1+z) for all z is wrong (only valid for z > 1100). With correct temperature, Thomson is negligible at z < 1100",
+    "v2_happy_accident": "v2 result r(z=6) = 0.66 was a bug, not a real feature"
+  },
+  "true_cascade_prediction": {
+    "r(z=6)": 0.029,
+    "r(z=10)": "lower",
+    "interpretation": "SIDC predicts 35\u00d7 LESS DM at z=6 than \u039bCDM. This is a SEVERE falsification."
+  },
+  "broader_principle_does_not_save_cascade": {
+    "thomson_at_low_z": "Negligible (T_gamma drops as (1+z)^2 in matter era, post-recombination)",
+    "thomson_at_high_z": "Significant but diluted by (1+z)^4 in integral",
+    "conclusion": "The broader principle (Thomson + stellar + recombination) gives the same result as stellar-only: r(z=6) ~ 0.029"
+  },
+  "limitation_31_status": "OPEN (cascade falsified at high z)",
+  "honest_assessment": "The cascade is FALSIFIED at high z. The \u00a74.51 finding (broader principle saves cascade) was based on a bug. The true r(z=6) = 0.029, which is 35\u00d7 under \u039bCDM."
+}

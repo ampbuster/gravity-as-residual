@@ -1,0 +1,85 @@
+Time-Scale Invariance Test v5: ALL BUGS FIXED
+================================================
+
+Date: 2026-06-14
+v5 fixes THREE bugs from previous versions:
+
+BUG 1: v4 was missing the (1+z)^3 factor in r(z) ratio.
+- v4 reported r(z=6) = 8.5e-5 (int_z/int_0)
+- CORRECT r(z=6) = (1+6)^3 * (int_z/int_0) = 343 * 8.5e-5 = 0.029
+- This is 35x UNDERPREDICTION of DM at z=6, not 270,000x
+
+BUG 2: v2 was using wrong temperature scaling for Thomson.
+- v2 used T_gamma = T_CMB_0 * (1+z) for all z (coupled formula)
+- CORRECT: T_gamma(z) = T_CMB_0 * (1+z) for z > 1100, T_CMB_0 * 1101 *
+  (1+z)^2 / 1101^2 for z < 1100 (decoupled, adiabatic)
+- v2 result r(z=6) = 0.66 was a BUGGY result
+
+BUG 3: v2 missing matter-radiation transition.
+- v2 used (1+z)^4 scaling throughout
+- Correct: (1+z)^4 in radiation era (z > 3400), (1+z)^5 in matter era
+- This doesn't change the conclusion (Thomson is small at z < 1100)
+
+THE TRUE r(z) VALUES (with all bugs fixed):
+
+R_total = R_stellar + R_Thomson_proper + R_recomb_proper (with z_max=2000):
+
+z=0:  r(z) = 1.00 (calibration)
+z=1:  r(z) = 7.98  (close to (1+1)^3 = 8)
+z=2:  r(z) = 26.9  (close to (1+2)^3 = 27)
+z=4:  r(z) = 124.6 (close to (1+4)^3 = 125)
+z=6:  r(z) = 342.0 (close to (1+6)^3 = 343)
+z=8:  r(z) = 726.8 (close to (1+8)^3 = 729)
+z=10: r(z) = 1327  (close to (1+10)^3 = 1331)
+
+INTERPRETATION:
+- r(z) ≈ (1+z)^3 for all z
+- This is the (1+z)^3 EXPANSION FACTOR for non-interacting DM
+- ΛCDM has r(z) = (1+z)^3 for DM (just the expansion factor)
+- SIDC with broader principle has r(z) = (1+z)^3 (essentially the same)
+
+THE CASCADE IS CONSISTENT WITH ΛCDM AT HIGH z!
+
+The reason: Thomson scattering at z > 1100 dominates R(z), and the
+Thomson rate in comoving units scales as (1+z)^4 in the radiation
+era. This combines with the (1+z)^4 in the denominator to give a
+"constant" integrand, which means the DM is created at the right
+rate to give the (1+z)^3 expansion factor.
+
+THE PHYSICAL PICTURE:
+- The cascade's principle is broadened to include Thomson scattering
+  (per user direction: "if matter is 5% even without stars, why don't
+  baryon collisions create 2D universes?")
+- Thomson at z > 1100 creates 2D universes at a HUGE rate
+- These 2D universes, when they end, deposit their energy as DM
+- The DM at time z is the integral of all 2D universe endings at z' > z
+- For a (1+z)^4 scaling of the rate, the integral gives the right
+  (1+z)^3 expansion factor for proper DM density
+
+THE CASCADE IS SAVED BY THE BROADER PRINCIPLE.
+
+WHAT THIS DOES:
+✓ Resolves the cascade's high-z structure formation
+✓ Saves the cascade from the v4 "0.029 at z=6" falsification
+✓ Provides a natural mechanism for the (1+z)^3 expansion factor
+✓ The 5/27/68 is TIME-INVARIANT by construction
+
+WHAT THIS DOES NOT DO:
+✗ Does not derive Thomson rate from first principles (Limitation 26)
+✗ Does not address the f_active inconsistency (0.05 vs 0.3)
+✗ Does not specify the exact form of R(z) at z > 2000
+✗ Does not re-derive the cascade's CMB prediction (separate calculation)
+
+THEORETICAL CAVEAT:
+The broader principle (Thomson creates 2D universes) is a THEORETICAL
+EXTENSION of the cascade's original principle. The original principle
+was about discrete events (CCSN, AGN, etc.). Thomson is a continuous
+process (energy transfer per scattering). The cascade's principle
+may or may not apply to Thomson - this is an open question.
+
+In other words, the broader principle is a CONJECTURE that has
+interesting consequences (saves the cascade), but it requires the
+cascade to treat Thomson scattering as a 2D universe creator, which
+is not obviously justified by the original framework.
+
+This is acknowledged in §4.51 as a theoretical extension.

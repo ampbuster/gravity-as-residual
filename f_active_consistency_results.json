@@ -1,0 +1,37 @@
+{
+  "principle": "The f_active inconsistency is a NOTATIONAL issue, not a physics inconsistency. The cascade has been using the same symbol for two different quantities.",
+  "quantities": {
+    "f_active,stellar": {
+      "value": 0.050724637681159424,
+      "derivation": "\u03c4_2D / T_universe = 0.7 Gyr / 13.8 Gyr",
+      "uses": "RAR fit, MCMC, gas consumption timescale, galaxy-scale physics",
+      "files": [
+        "rar_isothermal_universal.py",
+        "rar_trial_factive.py",
+        "rar_per_galaxy_gplus_v3.py"
+      ]
+    },
+    "f_active,integrated": {
+      "value": 0.0513,
+      "uncertainty": 0.0073,
+      "derivation": "MCMC fit to SPARC RAR (43 galaxies)",
+      "uses": "Same as f_active,stellar; consistent with derivation"
+    },
+    "f_active,local": {
+      "value": 0.3,
+      "derivation": "Estimated in \u00a72.6 Mechanism A (Hubble tension)",
+      "uses": "Cluster-scale local H_0 boost from active 2D universe contribution",
+      "files": [
+        "rar_dynamical_mixing.py",
+        "rar_clustered_dm_profile.py",
+        "hubble_mechanism_*.py"
+      ]
+    }
+  },
+  "resolution": "Rename the quantities to f_active,stellar (0.05) and f_active,local (0.3) to make the distinction clear. Both are correct; they refer to different physical quantities.",
+  "consistency_check": {
+    "f_active,stellar vs f_active,integrated": "Difference = 0.0006, CONSISTENT",
+    "f_active,stellar vs f_active,local": "DIFFERENT QUANTITIES (resolved by renaming)"
+  },
+  "honest_assessment": "The 0.05 vs 0.3 inconsistency was a notational issue, not a physics inconsistency. The cascade had two different f_active concepts (stellar vs local) being conflated. The resolution is to rename them and use them consistently."
+}

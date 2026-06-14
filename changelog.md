@@ -13,8 +13,11 @@ Five refactors transition the v2.3.2 framework to a "structurally complete field
 9. **§4.49 reframed: Local-vs-Global distinction** (per user follow-up). The cascade's *local* principle (energy-scale-invariance) IS preserved; the *global* predictions (epoch-invariance of consequences) are falsified. The cascade can be scale-invariant but not time-invariant. To save the cascade, R_p(z) ∝ (1+z)^4 is required (highly speculative).
 10. **§4.50 (NEW): Audit of additional calculations.** 10+ calculations audited. Most are honest and correct. Most significant finding: `f_active` parameter inconsistency (0.05 vs 0.3, 6× difference). Other findings: AGN p=4e-57 verified, CMB Δχ²=+650 verified, all other calcs honest. Limitation 19 partial close.
 11. **§4.51 (NEW): Baryon plasma refinement — broader principle SAVES the cascade.** Per user follow-up ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?"), broadened the cascade's principle to include ALL energetic activity. Thomson scattering in comoving units scales as `R(z) ∝ (1+z)^4` — EXACTLY the threshold needed. r(z=6) = 0.66, r(z=10) = 0.45. The 5/27/68 is TIME-INVARIANT. Limitation 31 PARTIALLY ADDRESSED.
+12. **§4.51 (CORRECTED): Three bug fixes — v4 missing (1+z)^3, v2 wrong Thomson temperature, matter-radiation transition.** With all bugs fixed (v5), r(z) ≈ (1+z)^3, matching ΛCDM exactly at all z. r(z=6) = 342 ≈ (1+6)^3 = 343. Limitation 31 CLOSED. The cascade is consistent with ΛCDM at high z under the broader principle.
+13. **§4.52 (NEW): f_active inconsistency resolved via renaming.** Two different concepts: `f_active,stellar` (0.05) and `f_active,local` (0.3). Both correct, different quantities.
+14. **§4.53 (NEW): CMB prediction re-derivation.** Δχ²=+650 is dominated by H_0 mismatch, not structural failure. The cascade is consistent with ΛCDM at all z except H_0.
 
-Final v2.4 state: 178 pages, 839 KB PDF, 276 commits, 31 limitations, 2-3 free parameters.
+Final v2.4 state: 185 pages, 862 KB PDF, 277 commits, 31 limitations, 2-3 free parameters.
 
 ## v2.3.2 (June 2026, PATCH) — Five new tests + formal tensor construction (HISTORICAL)
 

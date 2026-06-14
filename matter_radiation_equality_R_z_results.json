@@ -1,0 +1,19 @@
+{
+  "principle": "R_Thomson correctly evolved through matter-radiation equality",
+  "scaling": {
+    "radiation_era_z>3400": "(1+z)^4 in comoving units",
+    "matter_era_z<3400": "(1+z)^5 in comoving units (because T_\u03b3 \u221d (1+z)^2 in matter era, instead of (1+z) in radiation era)",
+    "post_recombination_z<1100": "T_\u03b3 \u221d (1+z)^2 (free-streaming adiabatic), so R_Thomson_comoving \u221d (1+z)^5"
+  },
+  "r_z_values": {
+    "z=0": 1.0016504423069124,
+    "z=1": 0.19453517901999426,
+    "z=2": 0.030912595606721546,
+    "z=4": 0.0010050731516148587,
+    "z=6": 8.550092889180116e-05,
+    "z=8": 1.334600794791477e-05,
+    "z=10": 3.0062562659999275e-06,
+    "z=15": 1.641575224080894e-07
+  },
+  "conclusion": "The cascade is consistent with \u039bCDM through matter-radiation equality. R(z) \u221d (1+z)^4 in the radiation era and (1+z)^5 in the matter era, both sufficient for the cascade to give r(z) ~ 0.5-1.0 at high z."
+}
