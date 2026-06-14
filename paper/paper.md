@@ -1896,7 +1896,7 @@ The cascade is *unusually well-positioned* for theorists to contribute because:
 ### Who would be a good fit for this
 
 Mainstream theorists working in:
-- **Randall-Sundrum II brane-worlds**: the cascade's S = S_grav + S_matter + S_brane + S_creation + S_destruction is structurally a RS-II action with a 2D brane (instead of 3-brane) and a creation operator. A RS-II expert would recognize the framework immediately.
+- **Randall-Sundrum II brane-worlds**: the cascade's S = S_grav + S_matter + S_brane_2D + S_creation + S_destruction is structurally a RS-II action with a 2D brane (instead of 3-brane) and a creation operator. A RS-II expert would recognize the framework immediately.
 - **DGP brane-worlds**: the cascade's $\alpha$ coupling is analogous to DGP's brane-bulk coupling. The 2D universe's "self-gravity" in 2D is analogous to DGP's self-accelerating branch.
 - **Analog gravity**: the cascade's 2D universe is conceptually similar to acoustic black holes or other analog systems. An analog gravity expert would see the structure.
 - **Schwinger-Keldysh / in-in QFT**: the §2.5.2 CTP formulation is a standard tool in non-equilibrium QFT. A CTP expert could derive the EOMs and the 2x2 propagator matrix for the cascade.
