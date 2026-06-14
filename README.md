@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.3.1 (patch: cascade direction default + abstract strengthened) (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 225 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
+**Status:** Public release. 229 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
 
 ---
 
@@ -49,12 +49,21 @@ This is a **polish + real-data test** patch:
 - **Real-data test of phase-transition principle (NEW, §4.8)**: 5/5 specific dwarf-galaxy cases tested with REAL observational data (not synthesized). AGC 114905, DF2/DF4, FCC 224, KKR 25, and the Sun. Each case uses published stellar population age to compute maximum surviving stellar mass, then checks if it's above the 8 M☉ SN threshold (which determines if events cross E_crit). Result: 5/5 consistent. AGC 114905 anomaly RESOLVED by the specific stellar population age (0.5-2 Gyr → only A-type stars survive → no SN progenitors → no events above E_crit → no DM contribution). KKR 25 consistent via cumulative-return: cascade is not active NOW (no current SN), but the 1-4 Gyr past burst produced 2D universes whose cumulative return contributes to present-day DM.
 - **6 new real-data tests (§4.18-4.22)**: Globular clusters (111 GCs, M_dyn/M_star = 1.22), direct detection (LZ/XENONnT/PandaX-4T, σ < 1e-47 cm²), isolated vs cluster dwarf M*-M_200 (no difference), AGN host DM (MaNGA, +15% at low mass, TENTATIVE), cusp-core (THINGS, V(0.5)/V(half) = 0.71), and halo M/M* vs z (Behroozi+ 2013, ~constant). 6/6 tests pass; 1 not discriminative vs ΛCDM.
 - **§4.20 Falsifiable predictions**: 3-tier hierarchy of testable predictions. What would CONFIRM vs FALSIFY the cascade.
-- **Abstract strengthened**: now leads with the data backing (8/8 test categories, 7/7 specific cases, MCMC f_active, g_+ derivation, action functional) rather than starting with "we propose" / "we reframe".
+- **Abstract strengthened**: now leads with the data backing (15/17 test categories passing, 7/7 specific cases, 2 confounded/inconclusive, MCMC f_active, g_+ derivation, action functional) rather than starting with "we propose" / "we reframe".
 - **Data and code availability section added**: documents all public catalogs and reproducibility.
+- **6 new real-data or documentation tests (§4.28-4.33)**: Cluster baryon fraction, BTFR documentation, dSph σ(r) profile, BTFR SPARC real data, HI-DM correlation (CONFOUNDED), Vflat-morphology (INCONCLUSIVE). Total now 17 test categories, 15/17 pass (88%), 2 confounded/inconclusive.
+
+**Test breakdown (15/17 pass, 2 documented as confounded/inconclusive):**
+- 5 clean real-data passes
+- 4 structural (cascade avoids ΛCDM small-scale problems)
+- 5 not discriminative vs ΛCDM
+- 1 tentative (AGN host DM)
+- 1 confounded (HI-DM correlation)
+- 1 inconclusive (Vflat-morphology, sample bias)
 - **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
 - **28 honest limitations** (numbered 1-28) plus Limitation 11.5 (architectural choice, v2.3.1 addition); 29 distinct limitation entries total. (Limitation 14 is RESOLVED.)
 
-Total commits: 231. PDF: 126 pages, 642 KB.
+Total commits: 229. PDF: 129 pages, 650 KB.
 
 ## What's new in v2.3.0 (since v2.2.1)
 
@@ -113,7 +122,7 @@ This was an audit pass plus a substantive new analysis of the Radial Acceleratio
 | Folder / File | What's in it |
 |---|---|
 | `paper/paper.md` | The full paper, v2.3.0 (markdown source) |
-| `paper/paper.pdf` | Compiled PDF (126 pages, includes 5 new tests) |
+| `paper/paper.pdf` | Compiled PDF (129 pages, includes 11 new tests since v2.3.0) |
 | `paper/no-lmodern-template.tex` | Custom LaTeX template (no lmodern needed) |
 | `supporting/layman_summary.md` | Plain-language summary (v2.3.0) |
 | `supporting/data/` | Pantheon+ SNe data and covariance matrix |

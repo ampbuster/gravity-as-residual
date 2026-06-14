@@ -33,7 +33,7 @@ An earlier version said the cascade is "cone-shaped" (stops at 2D, no lower dime
 The 5/27/68 mass-energy split (5% ordinary matter, 27% dark matter, 68% dark energy) is now firmly documented as *observational data*, not something the model derives. We tried 8 ways to derive it from 4D math. All 8 failed. So 5/27/68 is what we *measure*, and the cascade *interprets* it but doesn't *predict* it.
 
 **7. What the model does well (data backing).**  
-11 out of 11 test categories are consistent with the model's predictions:
+15 out of 17 test categories are consistent with the model's predictions:
 - **SPARC** (175 real galaxies): matches the Radial Acceleration Relation to 10% median residual
 - **Tian+ 2024** (50 brightest cluster galaxies): matches the cluster acceleration scale to within 1σ
 - **Sun**: no detectable dark matter, as expected (solar events are below threshold)
@@ -46,7 +46,7 @@ The 5/27/68 mass-energy split (5% ordinary matter, 27% dark matter, 68% dark ene
 
 ## What was added in v2.3.1
 
-**1. Eleven new tests (8 with real data, 3 documentation):**
+**1. Seventeen test categories (15 pass, 2 documented as confounded/inconclusive):**
 - **Globular cluster dark matter test (Test 2)**: 111 GCs from Harris 1996 + Usher+ 2013. Median M_dyn/M_star = 1.22. 73% of GCs have M/L < 3 (consistent with no DM). **PASS** — clean null-test.
 - **Direct detection null result (Test 3)**: LZ, XENONnT, PandaX-4T (~8.5 tonne-year exposure, no WIMP signal). WIMP "miracle" parameter space excluded by 4 orders of magnitude. **PASS** — consistent with zero signal.
 - **Isolated vs cluster dwarf M*-M_200 (Test 4)**: published Read+ 2017, Sawala+ 2016 data. No significant difference at fixed M*. **PASS** — consistent with cascade's cumulative-dominance prediction.
@@ -58,14 +58,20 @@ The 5/27/68 mass-energy split (5% ordinary matter, 27% dark matter, 68% dark ene
 - **dSph M_dyn (Test 9)**: 10 MW dSphs (Wolf+ 2010 mass estimator). M_dyn-M_star slope 0.37 (matches NFW abundance matching). **CONSISTENT** with both cascade and ΛCDM (NOT discriminative).
 - **MDAR for dSphs (Test 10)**: 10 MW dSphs. dSphs follow MDAR to factor ~2. **PASS** — consistent with cascade-MOND hybrid.
 - **Lensing flux ratio (Test 11)**: no MFRP (no sub-halos). **PASS** — MFRP resolved (CLASSIC ΛCDM problem).
+- **Cluster baryon fraction (Test 12)**: published cluster f_b ~ 0.15 (matches cosmic Planck). **CONSISTENT** with both cascade and ΛCDM (NOT discriminative).
+- **BTFR documentation (Test 13)**: M_baryon ~ V^3.5-4. **CONSISTENT** with both (NOT discriminative).
+- **dSph σ(r) profile (Test 14)**: published Walker+ 2007, 2009 data. Flat σ(r) to r ~ 1 kpc for all 5 dSphs. **PASS** — consistent with cascade's isothermal prediction; another classic ΛCDM cusp-core problem.
+- **BTFR SPARC real (Test 15)**: 129 SPARC galaxies. Slope = 3.53. **CONSISTENT** with both (NOT discriminative).
+- **HI-DM correlation (Test 16)**: 129 SPARC galaxies. r=0.86 but **CONFOUNDED** by gas-radius correlation.
+- **Vflat-morphology (Test 17)**: 129 SPARC galaxies. **INCONCLUSIVE** due to sample selection bias (SPARC early-types all at logM* > 9.8).
 
-**3 of the 11 tests are not discriminative vs ΛCDM** (they pass the cascade but ΛCDM can also explain them). **3 are structural** (cascade avoids the problem by construction; no sub-halos). **5 are clean passes** with real data.
+**Test breakdown:** 5 clean real-data passes (GC, DD, isolated vs cluster, cusp-core, MDAR dSph), 4 structural passes (missing satellites, TBTF, lensing flux ratio, dSph σ(r) profile — cascade avoids ΛCDM small-scale problems by having no sub-halos), 5 not discriminative vs ΛCDM (halo M/M* vs z, dSph M_dyn, cluster baryon fraction, BTFR doc, BTFR SPARC), 1 tentative pass (AGN host DM), 1 confounded (HI-DM correlation, gas-radius dominates), 1 inconclusive (Vflat-morphology, sample selection bias). **15/17 pass overall (88%).**
 
 **2. New section §4.20 "Falsifiable predictions":** lists the cascade's most testable predictions, what would CONFIRM the cascade, and what would FALSIFY it. Includes a 3-tier table of predictions ranked by discriminative power.
 
 **3. Refined S_destruction explanation:** the cumulative-return mechanism is now explicitly documented as a *one-time irreversible conversion*, not an ongoing conveyor belt. The Sun case is now emphasized as depending on *volumetric energy density* (dE/dV), not integrated energy — solar events dilute across the solar core volume, while SN events pack 10⁴⁴ J into a 3-km core over <1 sec.
 
-**4. Honesty updates:** 11/11 test categories are *consistent* with the cascade, but the tests don't yet *confirm* it (most discriminate tests are blocked by data access issues). The paper is honest about this distinction.
+**4. Honesty updates:** 15/17 test categories are *consistent* with the cascade, but the tests don't yet *confirm* it (most discriminate tests are blocked by data access issues). The paper is honest about this distinction.
 
 ---
 

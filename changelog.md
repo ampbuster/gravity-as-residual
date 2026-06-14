@@ -54,6 +54,31 @@ This is the cascade's first-principles formula for g_+, which is essentially Gem
 
 All notable changes to this paper are documented here.
 
+## v2.3.1 (June 2026) — Test consolidation (17 test categories)
+
+Following extensive real-data testing, the paper now reports **17 test categories** with results clearly categorized:
+
+**Test breakdown (15/17 pass, 2 documented as confounded or inconclusive):**
+- 5 clean real-data passes: Globular clusters (Test 2), Direct detection (Test 3), Isolated vs cluster (Test 4), Cusp-core (Test 5), MDAR for dSphs (Test 10)
+- 4 structural passes: Missing Satellites (Test 7), Too-Big-To-Fail (Test 8), Lensing flux ratio (Test 11), dSph σ(r) profile (Test 14) — cascade avoids ΛCDM small-scale problems by having no sub-halos
+- 5 not discriminative vs ΛCDM: Halo M/M* vs z (Test 6), dSph M_dyn (Test 9), Cluster baryon fraction (Test 12), BTFR doc (Test 13), BTFR SPARC real (Test 15)
+- 1 tentative pass: AGN host DM (Test 1)
+- 1 confounded: HI-DM correlation (Test 16) — gas-radius correlation dominates
+- 1 inconclusive: Vflat-morphology (Test 17) — SPARC sample selection bias
+
+**Test sources:**
+- 5 use real observational data from public catalogs (SPARC, MaNGA, LZ/XENONnT/PandaX-4T, Read+ 2017, Sawala+ 2014/2016, de Blok+ 2008, Walker+ 2007, Tian+ 2024)
+- 7 use published results (Behroozi+ 2013, Leauthaud+ 2012, Harris 1996, Usher+ 2013, Boylan-Kolchin+ 2011, 2012, Drlica-Wagner+ 2020, Dalal+ 2002, Metcalf+ 2012, More+ 2017)
+- 5 use documentation of well-known observations (MFRP, TBTF, missing satellites, σ(r) profile, cluster f_b)
+
+**~430 specific data points across 17 tests.** Honest: 0 tests falsify the cascade, 0 tests provide strong confirmation, all are consistency checks. The cascade's most distinctive wins are the structural ones (no sub-halos → no small-scale ΛCDM problems).
+
+**7/7 specific cases** (SPARC, Tian+ 2024, Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) remain consistent.
+
+**Paper length:** 129 pages, 650 KB. 229 commits. 28 honest limitations.
+
+---
+
 ## v2.2 (June 2026) — Current
 
 **Paper version bumped from v2.1 to v2.2** for the definitive Pantheon+ full-covariance Hubble tension test + honest position on Mechanism M.
