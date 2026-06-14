@@ -5,7 +5,7 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.3.1 (patch: cascade direction default + abstract strengthened) (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 248 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
+**Status:** Public release. 250 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
 
 ---
 
@@ -36,7 +36,7 @@ Whether SIDC is "superior" depends on the metric. On **mathematical and operatio
 
 | Competitor | Their main weakness | SIDC structural advantage |
 |------------|---------------------|------------------------------|
-| **ΛCDM** | Requires undiscovered WIMP/axion, fine-tuned Λ, and 20+ free "baryonic feedback" parameters. Four historic small-scale crises (cusp-core, missing satellites, too-big-to-fail, lensing flux ratio) persist after 30 years of fixes. | DM is geometric, not particulate. No sub-halos exist *by construction*, so all four small-scale crises collapse simultaneously. 17/19 specific tests consistent with SIDC; 0 falsified. |
+| **ΛCDM** | Requires undiscovered WIMP/axion, fine-tuned Λ, and 20+ free "baryonic feedback" parameters. Four historic small-scale crises (cusp-core, missing satellites, too-big-to-fail, lensing flux ratio) persist after 30 years of fixes. | DM is geometric, not particulate. No sub-halos exist *by construction*, so all four small-scale crises collapse simultaneously. 15/17 test categories consistent with SIDC (2 confounded/inconclusive); 0 falsified. |
 | **MOND** | Works for isolated spirals (SPARC, 175 galaxies) but fails in cluster cores ($g_+ \sim 10^{-9}$ vs galaxy $g_+ \sim 10^{-10}$ m/s²), forcing ad-hoc missing baryons or sterile neutrinos. | Phase-transition principle: clusters cross $E_{\text{crit}}$ across larger volumes than galaxies, naturally scaling $g_+$ up by ~17× to match Tian+ 2024 cluster data. SIDC = MOND for galaxies, +1 level for clusters. |
 | **ADD / Randall-Sundrum** | Static bulk plumbing, no native dark-sector explanation, requires specialized scalar fields or unobserved parallel branes. | "Bottom-up" dynamic cascade: extra dimensions are *spawned* by energetic events, not pre-existing. The dark sector falls out automatically as the transactional debt of the scale-invariant creation/destruction lifecycle. |
 | **Verlinde (entropic gravity)** | No historical clock: dark gravity is a strict real-time response to baryons. Struggles to explain why two galaxies with similar baryonic mass can have opposite DM content. | Stellar Age Lifecycle matrix gives a historic ledger: AGC 114905 (diffuse SF, never crossed $E_{\text{crit}}$) and KKR 25 (intense starburst 1-4 Gyr ago) are naturally explained as a function of *when* the energetic events happened. |
@@ -99,7 +99,7 @@ A **polish + real-data test** patch:
 - **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
 - **28 honest limitations** (numbered 1-28) plus Limitation 11.5 (architectural choice, v2.3.1 addition); 29 distinct limitation entries total. (Limitation 14 is RESOLVED.)
 
-Total commits: 248. PDF: 133 pages, 666 KB.
+Total commits: 250. PDF: 133 pages, 666 KB.
 
 ## Earlier versions
 

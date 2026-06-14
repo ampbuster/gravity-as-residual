@@ -110,6 +110,7 @@ After this exchange, the conversations moved from *intuition* to *model-building
 - **Real-data testing**: Pantheon+ for H₀, SPARC for RAR, MaNGA for AGN, LZ/XENONnT for direct detection, de Blok for cusp-core, Read+ 2017 for isolated dwarfs, Tian+ 2024 for cluster g_+, Walker+ 2007 for dSph kinematics
 - **Honest limitations**: 28 documented, including the 5/27/68 derivation being a fit, f_active being constrained but not derived, the Hubble tension being accommodated but not resolved
 - **Stress-testing**: the model went through a Gemini review, multiple consistency audits, and a 5-3-3 scorecard showing 15/17 tests passing honestly
+- **The 17 test categories are documented in §4.19 of the paper**, with the architectural comparison to ΛCDM, MOND, ADD/RS, and Verlinde in §9
 
 The early intuitions — the wind on paper, the negative mass, the lensing inversion, the cancellation — are still in the paper. They're just dressed up in math, in real-data tests, and in honest acknowledgments of what isn't yet derived.
 

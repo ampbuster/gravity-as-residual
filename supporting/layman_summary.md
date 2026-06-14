@@ -306,6 +306,10 @@ If you read "0 strongly confirmed" carefully, you might think "then this model i
 
 ## How SIDC compares to its competitors: Success and Failure for each (plain language)
 
+> **Where to find this in the paper:** the full architectural comparison is in **§9** ("SIDC vs its Competitors: A Detailed Comparison") with 5 detailed subsections and 7-dimension assessment. What's below is the plain-language version with a focus on what the *competitor* does well vs poorly, not just SIDC's wins.
+
+
+
 There are 4 main competing frameworks for the dark sector. Here's how each one does on the same tests, in plain terms.
 
 ### SIDC vs ΛCDM (Standard Cosmology)
