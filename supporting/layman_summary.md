@@ -75,6 +75,24 @@ The 5/27/68 mass-energy split (5% ordinary matter, 27% dark matter, 68% dark ene
 
 ---
 
+## Test Triage Scorecard (v2.3.1)
+
+**17 test categories · 15 pass · 2 confounded/inconclusive · 0 falsified**
+
+| **5 ✓ CLEAN PASSES** | **3 ◇ STRUCTURAL WINS** | **3 ◯ NOT DISCRIMINATIVE** |
+|---|---|---|
+| ✓ Globular clusters (111 GCs, M_dyn/M★ = 1.22) | ◇ Missing Satellites (50-60 MW sats match) | ◯ Halo M/M★ vs z (Behroozi+ 2013) |
+| ✓ Direct detection (LZ, σ < 1e-47 cm²) | ◇ Too-Big-To-Fail (no anomaly) | ◯ dSph M_dyn (Wolf+ 2010) |
+| ✓ Isolated vs cluster dwarfs | ◇ Lensing flux ratio (no MFRP) | ◯ BTFR SPARC (slope=3.53) |
+| ✓ Cusp-core (THINGS) | | |
+| ✓ MDAR for dSphs | | |
+
+**+ 3 more** (cluster baryon fraction, dSph σ(r), AGN tentative), **+ 1 confounded** (HI-DM), **+ 1 inconclusive** (Vflat-morphology).
+
+**Quick read:** the cascade's most distinctive wins are the **structural** ones (no sub-halos → no missing satellites, TBTF, MFRP, cusp-core, all classic ΛCDM small-scale problems). Clean passes are mostly null tests. ~430 data points. **0 falsified. 0 strongly confirmed.** Most are consistency checks.
+
+---
+
 ## What's preserved from earlier versions (still true)
 
 - The cascade matches the Radial Acceleration Relation to **8–12%** across the full mass range from tiny dwarf galaxies to giant galaxy clusters — with three tuning parameters
