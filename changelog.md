@@ -21,7 +21,7 @@ Building on v2.3.0, v2.3.1 is a polish + test consolidation patch:
 
 **5-3-3 triage scorecard** added to README, layman, and visual summary for at-a-glance test results.
 
-**Paper length:** 129 pages, 652 KB. 231 commits.
+**Paper length:** 129 pages, 652 KB. 233 commits.
 
 ---
 
@@ -102,7 +102,7 @@ Following extensive real-data testing, the paper now reports **17 test categorie
 
 **7/7 specific cases** (SPARC, Tian+ 2024, Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) remain consistent.
 
-**Paper length:** 129 pages, 652 KB. 231 commits. 28 honest limitations.
+**Paper length:** 129 pages, 652 KB. 233 commits. 28 honest limitations.
 
 ---
 
