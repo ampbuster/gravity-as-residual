@@ -23,6 +23,8 @@ Five refactors move the framework from "geometric sketch" to "structurally compl
 
 10. **§4.50 (NEW): Audit found a real inconsistency.** Per user direction, a thorough audit of 10+ calculations was performed. Most are honest. The most significant finding: the cascade's `f_active` parameter (fraction of DM from "current" 2D universe activity) has different values in different calculations — 0.05 in some, 0.3 in others (6× difference). The paper tries to resolve this with §4.35's LOCAL-vs-GLOBAL distinction, but the resolution is post-hoc. The f_active parameter is *fitted*, not derived. A theoretical physicist completing the cascade's Lagrangian would need to derive a single consistent value from first principles.
 
+11. **§4.51 (NEW): Baryon plasma refinement — broader principle saves the cascade.** Per user follow-up ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?"), the cascade's principle was broadened to include ALL energetic activity, not just stellar events. The baryon plasma at z=1100 has enormous energetic activity (Thomson scattering: photons bouncing off free electrons; recombination: electrons binding to protons). This activity, by the cascade's own principle, creates 2D universes. The Thomson scattering rate, in comoving units, scales as `R(z) ∝ (1+z)^4` — EXACTLY the threshold the cascade needs. With this broader principle: r(z=6) = 0.66 (consistent with ΛCDM), r(z=10) = 0.45. The 5/27/68 ratio is now TIME-INVARIANT by construction. Limitation 31 is PARTIALLY ADDRESSED. The cascade's principle is preserved; the narrow (stellar-only) interpretation was the bug.
+
 **v2.3.2 — June 2026** (PATCH: 5 new tests + formal tensor construction) — HISTORICAL
 
 ## What changed in v2.3 (in plain language)

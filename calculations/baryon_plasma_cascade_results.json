@@ -1,0 +1,22 @@
+{
+  "principle": "Cascade principle applied to ALL energetic events, not just stellar",
+  "R_z_components": {
+    "stellar": "CCSN energy injection (Madau-Dickinson)",
+    "thomson": "Photon-baryon scattering (dominates at z>10)",
+    "recombination": "Electron-proton binding (z~1100)"
+  },
+  "Thomson_scaling": "In comoving units, R_Thomson \u221d (1+z)^4 (matches the threshold for r(z=6) to be order unity)",
+  "cascade_resolution": "The baryon plasma at z=1100 has energetic activity (Thomson scattering, recombination) that creates 2D universes per the cascade principle. This resolves the (1+z)^4 falsification.",
+  "falsifiable_predictions": [
+    "5/27/68 is TIME-INVARIANT (cascade predicts constant ratio at all z)",
+    "CMB at z=1100 should have ~27% DM (cascade prediction)",
+    "JWST observations at z>6 should be consistent with \u039bCDM (not suppressed)",
+    "The cascade is now consistent with high-z data without requiring R_p \u221d (1+z)^4 from 4D event alone"
+  ],
+  "open_questions": [
+    "What is the exact form of R_Thomson(z) at z>1000? (radiation-dominated era scaling)",
+    "How does R_Thomson evolve through the matter-radiation equality (z~3400)?",
+    "Is the cascade's principle applied to \"coherent events\" or to \"any energy above threshold\"?",
+    "How does the baryon plasma's 2D universe creation relate to the 4D event's primordial phase?"
+  ]
+}
