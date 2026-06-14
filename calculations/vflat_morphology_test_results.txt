@@ -1,0 +1,14 @@
+Vflat at Fixed M_star, Split by Morphology (Real Data from SPARC)
+================================================================
+
+SPARC sample: 129 galaxies
+
+Mass distribution by morphology:
+  Early (T<=3): N=26, logM* range 9.8 - 11.4
+  Intermediate (T=4-6): N=47, logM* range 8.8 - 11.3
+  Late (T>=7): N=56, logM* range 6.8 - 9.9
+
+Verdict: TIER 2 test, INCONCLUSIVE due to sample selection bias
+  - SPARC early-types are ALL at logM* > 9.8
+  - Late-types span 7-11
+  - NOT a clean test
