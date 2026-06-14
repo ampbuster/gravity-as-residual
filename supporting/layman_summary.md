@@ -1,6 +1,6 @@
 # Layman Summary: Gravity as Residual
 
-**v2.4 — June 2026** (Three smoking guns, all bugs fixed)
+**v2.5 — June 2026** (*cascade matches ΛCDM at all z*, three smoking guns, all bugs fixed)
 
 This is a plain-language summary of the paper. For the math, see `paper/paper.md`. For the code, see `calculations/`.
 
@@ -136,7 +136,7 @@ Five specific research problems are listed in §7.1 of the paper for theoretical
 
 11. **§4.51 baryon plasma refinement (commit 276)**: broader principle (Thomson + recombination). First result: r(z=6) = 0.66 — but it turned out to be a happy accident (wrong temperature bug).
 
-12. **§4.51-§4.53 three bug fixes (commit 277)**: v4 missing (1+z)³, v2 wrong temperature, matter-radiation transition. With all fixes: **r(z) ≈ (1+z)³, matching ΛCDM at all z**. Limitation 31 CLOSED. f_active renamed. CMB re-derived. **Smoking guns #2 and #3.**
+13. **§4.51-§4.53 three bug fixes (commit 277)**: v4 missing (1+z)³, v2 wrong temperature, matter-radiation transition. With all fixes: **r(z) ≈ (1+z)³, matching ΛCDM at all z**. Limitation 31 CLOSED. f_active renamed. CMB re-derived. **Smoking guns #2 and #3.**
 
 ---
 

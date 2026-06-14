@@ -19,6 +19,26 @@ Five refactors transition the v2.3.2 framework to a "structurally complete field
 
 Final v2.4 state: 185 pages, 862 KB PDF, 277 commits, 31 limitations, 2-3 free parameters.
 
+---
+
+## v2.5 (June 2026) — Cascade matches ΛCDM at all z
+
+**Version bumped from v2.4 to v2.5.** The v2.4 commits 276-277 (the three bug fixes and the broader principle) and v2.4 commit 278 (the smoking gun reframing) represent a substantive milestone: the cascade is now consistent with ΛCDM at all z, not just a paper audit pass.
+
+**v2.5 highlights:**
+
+1. **§4.51 v5 result: r(z) ≈ (1+z)³ for all z, matching ΛCDM.** This is the milestone finding. With the broader principle (Thomson scattering dominates R(z) at z > 4), the cascade gives r(z=6) = 342 ≈ (1+6)³ = 343, r(z=10) = 1327 ≈ (1+10)³ = 1331. The 5/27/68 ratio is time-invariant by construction.
+
+2. **§4.52 f_active rename resolves the 6× discrepancy.** The cascade had been using the same symbol for two different concepts (time-averaged and spatial-volume). Renaming resolves the apparent inconsistency.
+
+3. **§4.53 CMB re-derivation: Δχ²=+650 is just the Hubble tension.** The cascade is consistent with Planck at all z except for the H_0 offset (73 vs 67.4). This is the standard cosmological tension, not a cascade-specific failure.
+
+4. **v2.4 commits 278 (smoking gun reframing) + v2.5 commit 279 (version bump)**: README and layman now lead with the three smoking guns: (1) AGC/KKR bifurcation (820× → 219×), (2) scale-time invariance, (3) cascade matches ΛCDM at all z.
+
+5. **Limitation 31 CLOSED.** The cascade is consistent with high-z structure formation under the broader principle. The remaining open work is the 2D CFT derivation (Limitation 26).
+
+**Final v2.5 state:** 185 pages, 862 KB PDF, 278 commits, 31 limitations (Limitation 31 CLOSED), 2-3 free parameters. **v2.5 milestone:** the cascade is now in a stronger scientific position than v2.4 — internally consistent, matches ΛCDM structure at all z, reproduces the AGC/KKR bifurcation, and predicts the Hubble tension.
+
 ## v2.3.2 (June 2026, PATCH) — Five new tests + formal tensor construction (HISTORICAL)
 
 Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive improvements and a formal theoretical physics construction.

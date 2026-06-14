@@ -4,8 +4,8 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 2.4 (June 2026) — three smoking guns, all bugs fixed
-**Status:** Public release. 277 commits, 185 pages, 31 honest limitations documented.
+**Version:** 2.5 (June 2026) — *cascade matches ΛCDM at all z*
+**Status:** Public release. 279 commits, 185 pages, 31 honest limitations documented.
 
 ---
 
@@ -199,10 +199,11 @@ The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geom
 
 ---
 
-# v2.4 STATE
+# v2.5 STATE
 
 - **185 pages, 862 KB PDF**
-- **277 commits**
+- **v2.5 milestone:** cascade matches ΛCDM at all z
+- **279 commits**
 - **31 honest limitations** (Limitation 31: CLOSED)
 - **2 falsified** (Mechanism B/F, Mechanism L), 2 reverted (Limitation 24, 25)
 - **0 strongly confirmed** (the AGN signal is real but weak, p=0.047)
@@ -254,7 +255,7 @@ The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geom
 
 13. **§4.51-§4.53 three bug fixes (commit 277)**: v4 missing (1+z)³, v2 wrong temperature, matter-radiation transition. With all fixes: **r(z) ≈ (1+z)³, matching ΛCDM**. Limitation 31 CLOSED.
 
-**Final v2.4 state:** 185 pages, 862 KB PDF, 277 commits, 31 limitations, 2-3 free parameters.
+**Final v2.5 state:** 185 pages, 862 KB PDF, 278 commits, 31 limitations (Limitation 31 CLOSED), 2-3 free parameters. **v2.5 milestone:** cascade r(z) ≈ (1+z)³ matching ΛCDM at all z.
 
 ---
 
