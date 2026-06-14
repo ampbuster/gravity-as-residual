@@ -1,0 +1,34 @@
+f_active per-morphology crude test (Tier 1 #2, prediction #1)
+=============================================================
+
+Cascade prediction: f_active is UNIVERSAL across galaxy types
+(τ_2D is a property of the 2D universe, not the host galaxy).
+
+Crude test: for each SPARC galaxy (175 total, Lelli+ 2016), compute
+g_obs/g_bar at R_disk using the empirical RAR (MOND interpolation,
+g_+ = 1.2e-10 m/s², fixed M/L_L = 0.5).
+
+Results by morphology (Hubble Type T):
+- Early (S0-Sb, T=0-3): N=2, median g_obs/g_bar = 28.0, median g_bar = 1.6e-13 m/s²
+- Intermediate (Sbc-Scd, T=4-6): N=14, median g_obs/g_bar = 25.8, median g_bar = 1.9e-13 m/s²
+- Late (Sd-Im, T=7-11): N=37, median g_obs/g_bar = 22.4, median g_bar = 2.5e-13 m/s²
+
+Spread across morphologies: 5.6 (in g_obs/g_bar)
+g_bar spread: 1.6x (early vs late)
+
+VERDICT: VARIES (expected from RAR g_bar dependence)
+The ratio spread is largely explained by g_bar differences
+(lower g_bar → higher g_obs/g_bar from RAR's functional form).
+This is not a clear test of f_active universality.
+
+Caveats:
+- Early-type has only N=2 (too few to be meaningful)
+- M/L_L is galaxy-type-dependent (not captured here)
+- The cascade's prediction is about f_active at FIXED g_bar
+- A proper per-morphology MCMC fit is needed for a definitive test
+
+Status: the f_active universality prediction is DOCUMENTED in
+§4.35 of the paper but NOT definitively tested here.
+
+A proper per-morphology MCMC (joint fit of f_active, M/L, g_+ for
+each morphology bin) is left for future work.

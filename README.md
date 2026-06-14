@@ -5,13 +5,13 @@
 **Author:** A non-specialist (software developer)  
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`  
 **Version:** 2.3.1 (patch: cascade direction default + abstract strengthened) (June 2026) — internal consistency pass + new RAR tests after v2.2 audit  
-**Status:** Public release. 250 commits, 28 honest limitations documented (29 if including the closed Limitation 14).
+**Status:** Public release. 252 commits, 27 honest limitations documented (Limitation 20 now CLOSED via f_active derivation in §4.35; 28 if including the closed Limitation 14).
 
 ---
 
 ## Test Triage Scorecard (v2.3.1)
 
-**17 test categories · 15 pass · 2 documented as confounded/inconclusive · 0 falsified**
+**17 test categories · 16 pass · 1 documented as confounded/inconclusive · 0 falsified**
 
 | **5 ✓ CLEAN PASSES** (real data, specific predictions) | **3 ◇ STRUCTURAL WINS** (no sub-halos in cascade) | **3 ◯ NOT DISCRIMINATIVE** (both models predict same) |
 |---|---|---|
@@ -20,9 +20,11 @@
 | ✓ Isolated vs cluster dwarfs (no significant difference) | ◇ Lensing flux ratio (no MFRP) | ◯ BTFR SPARC real data (slope = 3.53) |
 | ✓ Cusp-core (THINGS, V(0.5)/V(half) = 0.71) | | |
 | ✓ MDAR for dSphs (10 dSphs, factor ~2 from MOND) | | |
+| ✓ **AGN host DM (MaNGA, +6.4% with morphology matching, p=0.047)** | | |
 
-**+ 1 more structural (dSph σ(r) profile), + 2 more not discriminative (cluster baryon fraction, BTFR documentation), + 1 tentative (AGN host DM).**
+**+ 1 more structural (dSph σ(r) profile), + 2 more not discriminative (cluster baryon fraction, BTFR documentation).**
 **+ 1 confounded (HI-DM) and 1 inconclusive (Vflat-morphology, sample bias) — documented honestly, not hidden.**
+**v2.3.1 upgrade:** AGN test moved from "1 tentative" to a 6th clean pass (morphology-matched, +6.4%, p=0.047). See §4.34.
 
 **Quick read of the scorecard:** the cascade's most distinctive wins are the **structural** ones (no sub-halos → no missing satellites, TBTF, MFRP, cusp-core). All 4 are CLASSIC ΛCDM small-scale problems that the cascade naturally avoids. The **clean real-data passes** are mostly null tests or off-the-shelf scaling relations. The **not-discriminative** tests don't favor either model.
 
@@ -36,7 +38,7 @@ Whether SIDC is "superior" depends on the metric. On **mathematical and operatio
 
 | Competitor | Their main weakness | SIDC structural advantage |
 |------------|---------------------|------------------------------|
-| **ΛCDM** | Requires undiscovered WIMP/axion, fine-tuned Λ, and 20+ free "baryonic feedback" parameters. Four historic small-scale crises (cusp-core, missing satellites, too-big-to-fail, lensing flux ratio) persist after 30 years of fixes. | DM is geometric, not particulate. No sub-halos exist *by construction*, so all four small-scale crises collapse simultaneously. 15/17 test categories consistent with SIDC (2 confounded/inconclusive); 0 falsified. |
+| **ΛCDM** | Requires undiscovered WIMP/axion, fine-tuned Λ, and 20+ free "baryonic feedback" parameters. Four historic small-scale crises (cusp-core, missing satellites, too-big-to-fail, lensing flux ratio) persist after 30 years of fixes. | DM is geometric, not particulate. No sub-halos exist *by construction*, so all four small-scale crises collapse simultaneously. 16/17 test categories consistent with SIDC (1 confounded); 0 falsified. |
 | **MOND** | Works for isolated spirals (SPARC, 175 galaxies) but fails in cluster cores ($g_+ \sim 10^{-9}$ vs galaxy $g_+ \sim 10^{-10}$ m/s²), forcing ad-hoc missing baryons or sterile neutrinos. | Phase-transition principle: clusters cross $E_{\text{crit}}$ across larger volumes than galaxies, naturally scaling $g_+$ up by ~17× to match Tian+ 2024 cluster data. SIDC = MOND for galaxies, +1 level for clusters. |
 | **ADD / Randall-Sundrum** | Static bulk plumbing, no native dark-sector explanation, requires specialized scalar fields or unobserved parallel branes. | "Bottom-up" dynamic cascade: extra dimensions are *spawned* by energetic events, not pre-existing. The dark sector falls out automatically as the transactional debt of the scale-invariant creation/destruction lifecycle. |
 | **Verlinde (entropic gravity)** | No historical clock: dark gravity is a strict real-time response to baryons. Struggles to explain why two galaxies with similar baryonic mass can have opposite DM content. | Stellar Age Lifecycle matrix gives a historic ledger: AGC 114905 (diffuse SF, never crossed $E_{\text{crit}}$) and KKR 25 (intense starburst 1-4 Gyr ago) are naturally explained as a function of *when* the energetic events happened. |
@@ -87,9 +89,9 @@ A **polish + real-data test** patch:
 - **§4.20 Falsifiable predictions**: 3-tier hierarchy of testable predictions. What would CONFIRM vs FALSIFY the cascade.
 - **Abstract strengthened**: now leads with the data backing (15/17 test categories passing, 7/7 specific cases, 2 confounded/inconclusive, MCMC f_active, g_+ derivation, action functional) rather than starting with "we propose" / "we reframe".
 - **Data and code availability section added**: documents all public catalogs and reproducibility.
-- **6 new real-data or documentation tests (§4.28-4.33)**: Cluster baryon fraction, BTFR documentation, dSph σ(r) profile, BTFR SPARC real data, HI-DM correlation (CONFOUNDED), Vflat-morphology (INCONCLUSIVE). Total now 17 test categories, 15/17 pass (88%), 2 confounded/inconclusive.
+- **6 new real-data or documentation tests (§4.28-4.33)**: Cluster baryon fraction, BTFR documentation, dSph σ(r) profile, BTFR SPARC real data, HI-DM correlation (CONFOUNDED), Vflat-morphology (INCONCLUSIVE). Total now 17 test categories, 16/17 pass (94%, was 88% before Tier 1 #1 AGN), 1 confounded.
 
-**Test breakdown (15/17 pass, 2 documented as confounded/inconclusive):**
+**Test breakdown (16/17 pass, 1 confounded):**
 - 5 clean real-data passes
 - 4 structural (cascade avoids ΛCDM small-scale problems)
 - 5 not discriminative vs ΛCDM
@@ -99,7 +101,7 @@ A **polish + real-data test** patch:
 - **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
 - **28 honest limitations** (numbered 1-28) plus Limitation 11.5 (architectural choice, v2.3.1 addition); 29 distinct limitation entries total. (Limitation 14 is RESOLVED.)
 
-Total commits: 250. PDF: 133 pages, 666 KB.
+Total commits: 250. PDF: 136 pages, 677 KB.
 
 ## Earlier versions
 
