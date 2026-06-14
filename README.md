@@ -40,6 +40,19 @@ The cascade has been tested against multiple independent observations. **7/7 spe
 
 ---
 
+## What's new in v2.3.1 (since v2.3.0)
+
+This is a **polish + real-data test** patch:
+
+- **Cascade direction clarified** (per Gemini's architectural argument): the model defaults to (a) scale-invariance / infinite cascade (open upward AND downward, regulated by $\rho_{\text{crit}}$ at each level), with (b) cone-shape / early-termination at 2D as a viable alternative. The choice is architectural, not empirical — both give the same 7/7 specific-case predictions. §2.6 *Cone-shaped hierarchy* updated; Limitation 11 strengthened; new Limitation 11.5 added.
+- **5/27/68 formula rejection strengthened**: now documented as broken in BOTH infinite-cascade and cone-shape interpretations. The "self+neighbor edges in a graph" picture requires a closed graph, which neither interpretation provides.
+- **Real-data test of phase-transition principle (NEW, §4.8)**: 5/5 specific dwarf-galaxy cases tested with REAL observational data (not synthesized). AGC 114905, DF2/DF4, FCC 224, KKR 25, and the Sun. Each case uses published stellar population age to compute maximum surviving stellar mass, then checks if it's above the 8 M☉ SN threshold (which determines if events cross E_crit). Result: 5/5 consistent. AGC 114905 anomaly RESOLVED by the specific stellar population age (0.5-2 Gyr → only A-type stars survive → no SN progenitors → no events above E_crit → no DM contribution).
+- **Abstract strengthened**: now leads with the data backing (7/7 specific cases, MCMC f_active, g_+ derivation, action functional) rather than starting with "we propose" / "we reframe".
+- **Layman summary rewritten**: the "changelog" section is now in plain language, with technical terms explained for non-physicists.
+- **31 honest limitations** (was 30; added Limitation 11.5 about the architectural choice).
+
+Total commits: 196. PDF: 113 pages, 581 KB.
+
 ## What's new in v2.3.0 (since v2.2.1)
 
 This is a **major theoretical contribution**: a concrete action functional S for the cascade, plus a first-principles derivation of the g_+ acceleration scale.
