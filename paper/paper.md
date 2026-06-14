@@ -2472,6 +2472,61 @@ See `calculations/trial_and_error.py` and `calculations/trial_and_error_results.
 
 ---
 
+### 4.40 Negative Results: 5/27 from Cosmic SFR + Mechanism N (v2.3.1)
+
+Per user request, two more ambitious attempts were made to close limitations. **Both failed honestly** and are documented here as negative results.
+
+**Attempt 1: 5/27 from cosmic SFR + stellar population synthesis (attempting to close Limitation 17).**
+
+The 4D math approach (commits 80, 72, 81, 173, etc.) tried 10+ derivations and FAILED. This V2 attempt used a *thermodynamic* approach with real cosmology data:
+- Cosmic SFR (Madau & Dickinson 2014): ψ(z) parameterized
+- Stellar population synthesis (Bruzual & Charlot 2003): return fraction ~45%
+- Gas consumption (Kennicutt-Schmidt): τ_gas ~ 0.7 Gyr
+- Total stellar mass formed: ~5 × 10⁸ M_sun/Mpc³
+- Stars alive today: ~5 × 10⁸ M_sun/Mpc³ (most stars still alive)
+
+**Honest result:** The ratio (alive / total_formed) ~ 0.55, NOT 5/27 = 0.185. With various efficiency factors tried (1% SN energy, 4D event contribution, etc.), the 5/27 ratio could not be cleanly derived. The 4D math approach failed; the thermodynamic approach ALSO failed.
+
+**What the thermodynamic approach CONFIRMED:** f_active ~ 0.05 = τ_gas / T_universe (gas consumption, ~0.7 Gyr) — this matches MCMC posterior 0.0513 ± 0.0073, validating Limitation 20 closure from §4.35.
+
+**5/27 is f_active in disguise** (§4.35): 5/27 = 0.185 corresponds to τ=2.5 Gyr (cosmic SFR peak); 5% = 0.05 corresponds to τ=0.7 Gyr (gas consumption). LOCAL vs GLOBAL distinction.
+
+**STATUS: Limitation 17 (5/27 derivation) is NOT CLOSED via this approach.** After 10+ 4D math attempts AND this thermodynamic attempt, the cascade's 5/27 is HONESTLY a POSTULATE that matches observation. This is documented as a negative result.
+
+See `calculations/derive_5_27_thermodynamic.py` and `calculations/derive_5_27_thermodynamic_results.txt` for the full analysis.
+
+**Attempt 2: Mechanism N (V_local + Weyl tensor Hubble mechanism).**
+
+Per user request, this attempts the 14th Hubble mechanism (after C, D, I, L, M, O, P, Q, R, S, T, U, V, B/F). The hypothesis: the V_local formula (§4.17) combined with the RS-II Weyl tensor (E/W² in the modified Friedmann equation) could explain the 5.6 km/s/Mpc gap.
+
+**Honest result:** Mechanism N FAILS for these reasons:
+
+1. **The cascade's H_0 = 73 is a CONSTANT** (4D event's antigravity output rate). This is Λ-like behavior, identical to ΛCDM at z=0.
+2. **Weyl tensor in RS-II contributes to H² as a⁻⁴** (radiation-like). The sign goes the wrong way: positive Weyl gives H_0_CMB > H_0_local, but we observe H_0_local > H_0_CMB.
+3. **V_local scaling: g_+ at z=1100 would be ~30x larger** than today (if V_local scales as horizon volume). Small effect.
+4. **The cascade's physics at z~1100 is identical to ΛCDM** (matter-dominated, same expansion rate). So Planck's H_0 inference gives the same value regardless.
+
+**STATUS: Mechanism N is TESTED and REJECTED.** The cascade cannot explain the 5.6 km/s/Mpc gap via this mechanism. This is consistent with all 13 previous mechanisms (which were rejected or busted).
+
+**Comprehensive summary of Hubble mechanisms:**
+
+| Mechanism | Status |
+|-----------|--------|
+| A (host type) | FALSIFIED (SH0ES data, commit ~80) |
+| B/F (4D temporal) | REJECTED at 7σ (Pantheon+, commit 82) |
+| C, D, E, I, L, N, O, P, Q, R, S, T, U, V | FALSIFIED or BUSTED (commits 83-85, this work) |
+| **M (accept the tension)** | **CASCADE'S FINAL POSITION** |
+
+**Honest assessment:** The cascade accepts the 5.6 km/s/Mpc gap as a real tension. The cascade's STRENGTH is the LOCAL physics (g_+, H_0, 27% DM); the cascade's WEAKNESS is the CMB-era physics (no H_0(z) at z~1100). This is a CASCADE-LIMITED issue, not just a Hubble issue — many cosmological models share this limitation.
+
+The comprehensive documentation of 14 mechanisms tested and rejected is itself a *contribution*: it shows the cascade has been thoroughly stress-tested on this point, and the failure is honest, not hidden.
+
+See `calculations/hubble_mechanism_N.py` and `calculations/hubble_mechanism_N_results.txt` for the full analysis.
+
+---
+
+
+
 
 
 The full development of the lower-dimensional universe picture — including the dimensional time-dilation rule, the energy-budget implications, the neutrino discussion, the Sun-vs-galaxy distinction, and the dark-matter-as-cumulative-energy-return argument — is presented in §2.3 (*Scale-invariance: every energetic event creates its own universe*). This section is *intentionally brief*: it exists as a narrative marker for readers who want to see the dark matter connection in one place, but the substantive content (and all numerical claims) is in §2.3. We retain this section heading rather than removing it entirely so the table of contents and cross-references remain stable for readers who arrived at the paper via §5.

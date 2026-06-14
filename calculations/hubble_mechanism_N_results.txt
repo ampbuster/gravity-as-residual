@@ -1,0 +1,36 @@
+Hubble Mechanism N: V_local + Weyl tensor (v2.3.1)
+=====================================================
+
+Tested: 14th mechanism (after C, D, I, L, M, O, P, Q, R, S, T, U, V, B/F).
+Hypothesis: V_local + Weyl tensor combination explains the 5.6 km/s/Mpc
+H_0 gap between SH0ES (73) and Planck (67.4).
+
+KEY FINDING: MECHANISM N FAILS.
+
+Reasons:
+1. The cascade's H_0 = 73 is a CONSTANT (4D event's antigravity output).
+   This is Λ-like behavior, identical to ΛCDM at z=0.
+2. Weyl tensor in RS-II contributes to H^2 as a^(-4) (radiation-like).
+   The sign goes the wrong way: positive Weyl gives H_0_CMB > H_0_local,
+   but we observe H_0_local > H_0_CMB.
+3. V_local scaling: g_+ at z=1100 would be ~30x larger than today
+   (if V_local scales as horizon volume). Small effect.
+4. The cascade's physics at z~1100 is identical to ΛCDM
+   (matter-dominated, same expansion rate). So Planck's H_0 inference
+   gives the same value regardless.
+
+VERDICT: Mechanism N (V_local + Weyl) is TESTED and REJECTED.
+The cascade cannot explain the 5.6 km/s/Mpc gap via this mechanism.
+
+This is consistent with all 13 previous mechanisms (which were
+rejected or busted). The cascade accepts the gap as a real
+tension (Mechanism M, established v2.2).
+
+ADDITIONAL OBSERVATION:
+- The cascade's STRENGTH is the LOCAL physics (g_+, H_0, 27% DM)
+- The cascade's WEAKNESS is the CMB-era physics (no H_0(z) at z~1100)
+- This is a CASCADE-LIMITED issue, not just a Hubble issue.
+- Many cosmological models share this limitation.
+
+STATUS: 14 Hubble mechanisms now tested. Only M (accept the tension)
+remains the cascade's final position on the Hubble tension.

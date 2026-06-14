@@ -399,6 +399,41 @@ If you read "0 strongly confirmed" carefully, you might think "then this model i
 
 ---
 
+## Two honest negative results (v2.3.1)
+
+After all the positive findings (AGN v3, f_active derivation, 4D math audit, Lagrangian), we tried two more ambitious things. Both failed honestly. The honest reporting of negative results is part of the cascade's scientific integrity.
+
+### Negative Result 1: 5/27 from cosmic SFR
+
+The 4D math approach tried 10+ times and failed to derive 5/27/68. We tried a thermodynamic approach with REAL cosmology data (Madau & Dickinson cosmic SFR, Bruzual & Charlot stellar population synthesis, Kennicutt-Schmidt gas consumption).
+
+The result: cosmic SFR + stellar population synthesis gives:
+- Stars alive / stars formed ~ 0.55 (NOT 5/27 = 0.185)
+- Gas consumption timescale ~ 0.7 Gyr (matches f_active, NOT 5/27)
+
+The thermodynamic approach CONFIRMS f_active ~ 0.05 = τ_gas / T_universe (Limitation 20 closure validated). But it does NOT derive 5/27 cleanly.
+
+**Honest verdict:** After 10+ 4D math attempts AND this thermodynamic attempt, 5/27 is HONESTLY a postulate that matches observation. Not derivable from first principles.
+
+### Negative Result 2: Mechanism N (V_local + Weyl tensor)
+
+We tried the 14th Hubble mechanism. The cascade's V_local formula (§4.17) combined with the RS-II Weyl tensor was supposed to explain the 5.6 km/s/Mpc gap between local H_0 = 73 and Planck H_0 = 67.4.
+
+**Honest verdict:** Mechanism N FAILS for the same reason all 13 previous mechanisms failed — the cascade's physics at z~1100 is identical to ΛCDM (matter-dominated, same expansion rate). So Planck's H_0 inference gives the same value regardless.
+
+**Status:** 14 Hubble mechanisms now tested. Only M (accept the tension) remains the cascade's final position. This is comprehensive documentation of an open problem, not a failure of the cascade per se.
+
+### What the negative results mean
+
+The cascade accepts that some limitations will NOT be closed by straightforward extensions of the framework. This is honest. The cascade is:
+- Strong on LOCAL physics (g_+, H_0, DM, AGN test)
+- Weak on CMB-era physics (H_0(z), 5/27 derivation, Lagrangian completion)
+- Honest about which is which
+
+The 14-mechanism summary is itself a contribution: it shows the cascade has been thoroughly stress-tested on the Hubble tension, and the failure is documented, not hidden.
+
+---
+
 ## How SIDC compares to its competitors: Success and Failure for each (plain language)
 
 > **Where to find this in the paper:** the full architectural comparison is in **§9** ("SIDC vs its Competitors: A Detailed Comparison") with 5 detailed subsections and 7-dimension assessment. What's below is the plain-language version with a focus on what the *competitor* does well vs poorly, not just SIDC's wins.

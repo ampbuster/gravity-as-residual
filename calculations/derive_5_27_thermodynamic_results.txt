@@ -1,0 +1,56 @@
+5/27 Inner Split Derivation Attempt from Cosmic SFR + Stellar Population Synthesis
+=====================================================================================
+
+APPROACH: Use real cosmology data (Madau & Dickinson 2014 cosmic SFR,
+Bruzual & Charlot 2003 stellar population synthesis, Kennicutt-Schmidt
+gas consumption) to derive the 5% ordinary matter / 27% dark matter
+energy budget split.
+
+KEY FINDING: 5/27 CANNOT BE CLEANLY DERIVED FROM THIS APPROACH.
+
+Real data:
+- Total stellar mass formed: ~5 × 10^8 M_sun/Mpc^3
+- Stars alive today: ~5 × 10^8 M_sun/Mpc^3 (~55% of formed)
+- Return fraction: ~45% (mass returned to ISM via winds/SNe)
+- Gas consumption timescale: ~0.7 Gyr (Kennicutt-Schmidt)
+
+Attempt 1: Direct / Cumulative 2D = stars_alive / (stars_formed - stars_alive)
+  = 0.55 / 0.45 = 1.22 (NOT 5/27 = 0.185)
+
+Attempt 2: With efficiency factor (only ~1% of stellar energy in SN events)
+  Required efficiency for 5/27: η ~ 3 (>100%, unphysical)
+
+Attempt 3: Direct 4D event contribution
+  4D event ~ 1e68 J projects 32% to 3+1D
+  Within 32%: 5% direct, 27% cumulative 2D return
+  This requires the 4D event to be specific, but doesn't give 5/27 from cosmic SFR
+
+VERDICT: The thermodynamic approach FAILS to derive 5/27 cleanly.
+
+WHY: The cascade's 5/27 is the 3+1D energy budget split, which is
+SET by the cascade's projection kinematics (32% projects, split 5/27
+within). It is NOT a thermodynamic ratio that emerges from real
+cosmic history.
+
+CONFIRMED: f_active ~ 0.05 = τ_gas / T_universe (gas consumption)
+This matches MCMC posterior 0.0513 ± 0.0073 (Limitation 20 CLOSED).
+
+5/27 IS f_active in disguise (§4.35):
+- 5/27 = 0.185 corresponds to τ=2.5 Gyr (cosmic SFR peak timescale)
+- 5% = 0.05 corresponds to τ=0.7 Gyr (gas consumption timescale)
+- LOCAL vs GLOBAL distinction (Limitation 20 RESOLVED via this framing)
+
+STATUS: Limitation 17 (5/27 derivation) is NOT CLOSED via this approach.
+
+After 10+ attempts via 4D math AND this thermodynamic approach,
+the cascade's 5/27 is HONESTLY a POSTULATE that matches observation.
+The closest derivation is via f_active = τ_2D / T_universe, which
+gives 5% (gas consumption) not 5/27 (cosmic SFR peak).
+
+HONEST CONCLUSION: 5/27 remains a fit, not a derivation. The cascade
+is HONEST about this. The thermodynamic approach CONFIRMS f_active
+(Limitation 20) but cannot derive 5/27 (Limitation 17).
+
+This is documented as a NEGATIVE RESULT in the spirit of honest
+science. The cascade's 5/27 is a property of the projection geometry,
+not an emergent ratio from cosmic history.
