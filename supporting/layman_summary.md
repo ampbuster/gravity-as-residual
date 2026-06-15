@@ -14,13 +14,13 @@ This is a plain-language summary of the paper. For the math, see `paper/paper.md
 
 ---
 
-# The three smoking guns, in plain language
+# The smoking gun, and ΛCDM consistency
 
-The cascade is built on a single idea: **every energetic event creates a 2-dimensional universe whose eventual energy return becomes dark matter.** From this one rule, three concrete, quantitative predictions follow. All three have been tested against data and match.
+The cascade is built on a single idea: **every energetic event creates a 2-dimensional universe whose eventual energy return becomes dark matter.** From this one rule, ONE concrete, quantitative, **unique** prediction follows — and it matches observation. A wide range of additional tests show the cascade is **consistent with ΛCDM** (which is already huge, because ΛCDM is widely studied and has the most accurate math).
 
-## Smoking Gun #1: The AGC 114905 vs KKR 25 bifurcation (820× → 219×)
+## THE Smoking Gun: The AGC 114905 vs KKR 25 bifurcation (820× → 219×)
 
-This is the cascade's most distinctive prediction. Two galaxies with similar amounts of *current* ordinary matter but different *star formation histories* should have dramatically different amounts of dark matter — because the cascade says *past* energetic activity is what fills the DM ledger.
+This is the cascade's most distinctive and **unique** prediction. Two galaxies with similar amounts of *current* ordinary matter but different *star formation histories* should have dramatically different amounts of dark matter — because the cascade says *past* energetic activity is what fills the DM ledger.
 
 **The prediction in plain language:**
 
@@ -31,7 +31,7 @@ The ratio of these ratios is **820×**. The cascade says this 820× shift in the
 
 **Why this is a smoking gun:** MOND and ΛCDM both struggle with the AGC 114905 case (it has too little DM for its baryons). The cascade explains it naturally: AGC 114905 simply hasn't had enough past activity to fill its DM ledger. The bifurcation is a *qualitative prediction* that the cascade gets right.
 
-## Smoking Gun #2: The cascade matches ΛCDM at all z
+## #1 (Consistency, not a smoking gun): The cascade matches ΛCDM at all z
 
 The cascade's principle was questioned: is the cascade "scale-invariant in time" as well as in space? An honest test was performed, and the answer was *no* — at first. With stellar activity alone, the cascade predicts way too little DM at high z. But then a user asked: "if matter is 5% even without stars, why don't baryon collisions create 2D universes?" That prompted a broader interpretation: the cascade's principle applies to *all* energetic activity, not just stellar events. Thomson scattering (photons bouncing off free electrons in the early plasma) is a huge energetic process, and by the cascade's own principle it should create 2D universes too.
 
@@ -50,11 +50,11 @@ With this broader principle, plus three bug fixes (one in the original analysis,
 
 **Why Thomson scattering does the heavy lifting:** At z > 1100, the photon-baryon plasma is fully ionized and tightly coupled. Thomson scattering deposits energy at a *huge* rate (R ≈ 10⁶² J/yr/Mpc³ at z=1100). In proper units, R_Thomson scales as (1+z)⁷. With the (1+z)⁴ fossil-dilution factor in the integral, the integrand scales as (1+z)³. The integral from z to z_max naturally gives ρ(z) ∝ (1+z)³. The cascade's broader principle gives the right (1+z)³ scaling from Thomson alone.
 
-**Why this is a smoking gun:** The cascade's narrow interpretation (stellar-only) was falsified at high z (r(z=6) = 0.029, 35× under ΛCDM). The cascade's broader interpretation (Thomson-dominated at z > 4) is *consistent* with ΛCDM at all z. The Hubble tension (local ~73 vs Planck CMB 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a cascade-specific failure. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements but does not derive a specific H_0 value (see §2.6.1).
+**Why this is a consistency check (not a smoking gun):** The cascade's r(z) = (1+z)³ is **automatic from comoving DM conservation** in an expanding universe, not a unique cascade prediction. The cascade just provides the interpretation that DM is 2D universe deaths. The slight deviations (1-5%) are second-order. The Hubble tension (local ~73 vs Planck CMB 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a cascade-specific failure. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements but does not derive a specific H_0 value (see §2.6.1).
 
-## Smoking Gun #3: The cascade matches ΛCDM in cumulative results
+## #2 (Consistency, not a smoking gun): The cascade matches ΛCDM in cumulative results
 
-This is the cumulative result of the v2.4 work. The cascade's three main quantitative predictions now all line up with ΛCDM:
+This is the cumulative result of the v2.4 work. The cascade's main quantitative predictions all line up with ΛCDM:
 
 | Test | Cascade prediction | ΛCDM | Verdict |
 |---|---|---|---|
