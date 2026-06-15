@@ -1015,3 +1015,57 @@ M_dyn values. The cascade's value remains **interpretive** and
   section (lines 50, 67) updated
 
 Pushed: github.com/ampbuster/gravity-as-residual (commit pending)
+
+---
+
+## v2.7.3+ late 2025-2026 constraints update (June 2026)
+
+Continued web research (June 2026) found 5 NEW external constraints
+from 2025-2026 datasets not previously catalogued. The total external
+constraint count is now **35** (up from 30).
+
+**5 NEW 2025-2026 CONSTRAINTS:**
+- 31. JWST MoM-z14 (Naidu+ 2025, arXiv:2505.11263) — confirmed
+  z=14.44 galaxy, 280 Myr after Big Bang. QUALITATIVELY CONSISTENT
+  (cascade's broader principle gives early DM in lockstep with early SF)
+- 32. DESI DR2 BAO (Adame+ 2025, arXiv:2503.14738, 14M galaxies) —
+  DR1 confirmed, 3.5σ evolving DE. QUALITATIVELY CONSISTENT
+  (cascade's DE is 4D event antigravity, qualitative only)
+- 33. LZ 4.2 tonne-years (Jellema+ 2025, arXiv:2410.17036) —
+  σ_SI < 9.2e-48 cm² at 40 GeV. INAPPLICABLE (cascade 2D universes
+  are NOT WIMPs)
+- 34. XENONnT 3.1 tonne-years (Aprile+ 2025, arXiv:2502.18005) —
+  σ_SI < 1.7e-47 cm² at 30 GeV, now at solar neutrino floor.
+  INAPPLICABLE (cascade 2D universes are NOT WIMPs)
+- 35. LIGO-Virgo-KAGRA O4 catalog (LVK 2025) — 218+ confident BBH
+  detections. QUALITATIVELY CONSISTENT (BBH mergers are energetic
+  events in cascade; 2D universe contribution is sub-dominant
+  but testable in principle via GW+DM cross-correlations)
+
+**Supplementary update (June 2026):**
+- UMa3/U1 revisited (Rostami-Shirazi+ 2025, arXiv:2508.10543) —
+  classification as DM-dwarf vs self-gravitating cluster remains
+  unresolved. Cascade's m_3+1D bound is robust to this ambiguity.
+
+**Files changed:**
+- `paper/paper.md`: §8.1.8 added (5 new constraints + 1 supplementary)
+- `README.md`: version header updated to 35, "5 LATE 2025-2026
+  CONSTRAINTS" section added, "Key finding 3" updated to 35
+- `supporting/layman_summary.md`: version updated to 35 with late
+  2025-2026 update
+- `calculations/v27_2025_2026_late_constraints.py`: new calculation
+  script with all 5 new constraints analyzed
+
+**FINAL v2.7.3+ STATE:**
+- 35 EXTERNAL CONSTRAINTS catalogued
+- 24 CONSISTENT (qualitatively or quantitatively)
+- 6 INAPPLICABLE (cascade 2D universes are NOT particles)
+- 1 NEW CASCADE PREDICTION (2D universe birth GW background)
+- 2 REMAINING FREE PARAMETERS (μ, m₃₊₁D)
+- 32 honest limitations documented (unchanged)
+
+**KEY FINDING (unchanged):**
+- TRGB H_0 = 69.8 ± 1.9 is 0.2σ from cascade H_0,4D = 70.16
+- (KILLER MATCH — closest single external measurement)
+
+Pushed: github.com/ampbuster/gravity-as-residual
