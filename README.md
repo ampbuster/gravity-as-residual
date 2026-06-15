@@ -379,6 +379,8 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - **45 external constraints** (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 5 late 2025-2026, 5 extended 2025-2026, 5 round 8, 1 new cascade prediction)
 - **🎯 47 TUC TEST (§11):** PREDICTION (not yet a result). Near-term, low-cost, high-leverage falsification test in the context of Rubin/LSST DP1 (2025). Cascade predicts M_dyn ≈ M_stars (no local DM); particle DM predicts M_dyn > M_stars. Differentiates cascade from particle DM. **Awaits DR1 (2027) or Y10 (2034).**
 - **🧪 11/11 GALAXY-ZOO TESTS PASS (§12):** consistency check from EXISTING data (not DP1). 47 Tuc, AGC 114905, KKR 25, MW, NGC 1052-DF2, Tucana dSph, Bullet Cluster, Omega Cen, M82, NGC 1275, Dragonfly 44. Necessary condition for cascade, not sufficient.
+- **⚠️ CMB GAP (§13):** HONEST LIMITATION. The cascade's mechanism predicts Ω_DM(z=1100) ~ 0 (no energetic events before stars), but Planck 2018 requires Ω_DM = 0.265 at z = 1100. The cascade needs an early-DM mechanism. Real fundamental gap.
+- **📊 MCMC RAR FIT (§13.7):** cascade's RAR fit to 175 SPARC galaxies: a_0 = 2.34e-10 ± 1.54e-10 m/s^2, consistent with Li+ 2018 (1.20e-10). Cascade's RAR is statistically equivalent to MOND; the differentiator is the 47 Tuc test.
 - **Killer match:** TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H₀,4D = 70.16 (CLOSEST single measurement to cascade prediction)
 - **Theoretical foundation:** c=1 string theory matrix model = exact solution of 2D quantum gravity; cascade's 2D CFT framework = unique exactly solvable 2D QG
 - **2 remaining free parameters:** μ (2D cosmological constant) + m₃₊₁D (effective DM mass) — require 2D CFT expert
