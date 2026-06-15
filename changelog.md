@@ -1226,3 +1226,62 @@ prediction. The cascade is silent on the specific H_0 value
 (Mechanism M is geometric, not dynamical for H_0).
 
 Pushed: github.com/ampbuster/gravity-as-residual
+
+---
+
+## v2.7.3+ §10 End-of-Universe Signatures (June 2026)
+
+New speculative section derived from web-research rounds of v2.7.3+.
+Adds three significant cascade extensions:
+
+1. **Energy-scaling ladder** — T_{D-1} = 33s × (E_D / 10^44 J)^1.29,
+   calibrated to the 33s Type Ia SN 2D universe. Extrapolates to
+   2×10^26 yr for the 4D cosmological event creating our 3D universe.
+
+2. **Relativistic-particle analogy** — 2D universes behave like
+   relativistic particles with mass-dependent time dilation. Smaller
+   events create 'lighter' (D-1)-universes with more time dilation.
+   Our 3D universe is one of the 'heaviest' (D-1)-universes.
+
+3. **M_Pl,4 ≥ 887 GeV floor** — derived from requirement that the 3D
+   universe be alive at 13.8 Gyr. Matches the electroweak scale, the
+   ADD-model prediction. The cascade independently arrives at
+   TeV-scale M_Pl,4 from the energy-scaling + 3D-alive constraint.
+
+4. **End-of-universe picture** — if M_Pl,4 ~ TeV (ADD), the 3D
+   universe's INTERNAL lifespan is only 14-28 Gyr. We're at 50-99%
+   of our life. The 4D sees us as 2×10^26 yr (10^-33 of 4D's
+   own 10^59-yr predicted life), but OUR clock is running out.
+
+5. **Testable signatures** — DESI DR2 evolving DE (3.5σ) could be
+   the first hint. Declining cosmic SFR density (peaked at z~2).
+   Decreasing DE density over cosmic time (LSST Y1, Euclid Q3 test).
+   Declining GW background. Shortened BNS-merger 2D universe echoes.
+
+6. **Falsifiable** — if DE is a perfect cosmological constant AND the
+   cosmic SFR decline is not accelerating, the end-of-universe
+   picture is falsified.
+
+Section is marked SPECULATIVE because:
+- Energy-scaling is a fit to one data point
+- M_Pl,4 could be much larger (end-of-universe irrelevant)
+- DESI could have other explanations
+- 'Particle analogy' is heuristic, not rigorous
+
+Files changed:
+- paper/paper.md: new §10 added (~2 pages)
+- calculations/v27_end_of_universe_briefness.py: briefness calculation
+- calculations/v27_lifespan_energy_scaling.py: energy-scaling ladder
+- calculations/v27_2025_round8_constraints.py: round 8 constraints
+
+Pushed: github.com/ampbuster/gravity-as-residual (commit 0af3668)
+
+KEY INSIGHT: 2D universes and our 3D universe are the SAME KIND OF
+OBJECT in the cascade, differing only in the energy of the creating
+event. The cascade's '33 s' is one data point on a smooth ladder from
+10^-37 μs (1 ton TNT) to 10^26 yr (4D cosmological event). Our 3D
+universe is one of the largest, hence it lives 2×10^26 yr in 4D view.
+
+If M_Pl,4 ~ TeV (ADD model), the 3D universe is at the end of its
+life in 3D internal time. This is testable with DESI Y5, LSST Y1,
+Euclid Q3 in the 2027-2030 window.

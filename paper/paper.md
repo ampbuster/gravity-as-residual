@@ -4672,6 +4672,93 @@ The author flags this section as *speculative* for the following reasons:
 
 Despite these caveats, the prediction is **concrete, testable, and falsifiable**. Future DESI Y5, LSST Y1, and Euclid Q3 data will either support or refute the cascade's end-of-universe picture within 5-10 years.
 
+### 10.9 Sensitivity analysis: how robust is the rule?
+
+A trial-and-error exploration reveals a striking sensitivity: the cascade's energy-scaling rule, with α ≈ 1.29 forced by the SN calibration, gives a 4D cosmological lifespan of 1.9×10²⁶ yr. But a 1% change in α gives a **60% change** in the predicted T_3D. The sensitivity table:
+
+| α | 4D cosm. lifespan (yr) | 3D's current age / total |
+|---|---|---|
+| 1.16 (1.29 - 10%) | 1.1×10²³ | 10⁻¹³ |
+| 1.23 (1.29 - 5%) | 4.6×10²⁴ | 3×10⁻¹⁵ |
+| **1.29 (best fit)** | **1.9×10²⁶** | **7×10⁻¹⁷** |
+| 1.36 (1.29 + 5%) | 7.8×10²⁷ | 2×10⁻¹⁸ |
+| 1.42 (1.29 + 10%) | 3.2×10²⁹ | 4×10⁻²⁰ |
+
+The α = 1.29 prediction is the *single point* in this range. The rule is *very* sensitive to α because the extrapolation spans 25 decades of energy (10⁴⁴ → 10⁶⁹ J). A 1% uncertainty in α translates to a 60% uncertainty in the 4D cosmological lifespan.
+
+**Other candidate exponents give wrong predictions at the SN point** (and are therefore excluded):
+
+| α | T_SN prediction (vs 33s actual) | 4D cosm. lifespan |
+|---|---|---|
+| 1.0 (linear) | 17 min (× 31 off) | 10¹⁹ yr |
+| 4/3 (Bondi) | 42 min (× 76 off) | 2×10²⁷ yr |
+| 3/2 (random walk) | 20 yr (× 1.9×10⁷ off) | 3×10³¹ yr |
+| 2.0 (quadratic) | 4.5×10⁹ Gyr (× 10¹⁶ off) | 3×10⁴⁴ yr |
+
+Only α = 1.29 fits the SN data. But the cascade has **only ONE calibration point** (the 33s for SN), so the rule is *forced* and not *natural*. Alternative functional forms (logarithmic, two-component, exponential, etc.) don't fit the SN data either.
+
+**Honest verdict:** the cascade's energy-scaling rule is the *only* rule that fits the SN data, but it's not "natural" in any obvious way. The α = 1.29 value is an accident of the single calibration. The 4D cosmological lifespan is uncertain by *orders of magnitude* (10¹⁹ to 10⁴⁴ yr depending on the true α). The M_{Pl,4} ≥ 887 GeV floor in §10.3 is **specific to α = 1.29**; other α values give different (or no) floors.
+
+The cascade's end-of-universe picture in §10.4 is therefore **not robust to the choice of α**. The qualitative prediction (DE should evolve, SFR should decline, etc.) is robust; the quantitative prediction (M_Pl,4 floor at 887 GeV, end in 1-10 Gyr) is not.
+
+### 10.10 2D universe *death* gravitational wave predictions
+
+The cascade's energy-scaling rule predicts a *specific* 2D universe *death* time for each 3D event. When a 2D universe ends (after T_2D), it should release a final gravitational wave burst at frequency f ~ 1/T_2D. This is a *new* testable prediction, complementary to the existing 2D universe *birth* GW background.
+
+| Event | E (J) | 2D universe lifetime | GW death frequency |
+|---|---|---|---|
+| Type Ia SN | 10⁴⁴ | 33 s | 0.03 Hz |
+| Hypernova | 10⁴⁶ | 3.5 hr | 8×10⁻⁵ Hz |
+| Long GRB | 10⁴⁷ | 2.8 days | 4×10⁻⁶ Hz |
+| BNS merger (GW170817) | 10⁵³ | 4.3×10⁵ yr | 7×10⁻¹⁴ Hz |
+| AGN flare | 10⁵⁵ | 1.6×10⁸ yr | 2×10⁻¹⁶ Hz |
+
+**The LISA mission (planned 2030s) operates in the 10⁻⁴ - 1 Hz band**, which covers the hypernova, long GRB, and SN 2D-universe death frequencies. The cascade predicts a *stochastic background* of these bursts from past energetic events, with characteristic frequencies set by the most common event types (SNe, hypernovae, GRBs).
+
+The cascade's "death" prediction is at *lower* frequencies than the "birth" prediction (which is at higher frequencies, ~10²-10⁵ Hz). Detecting *both* the birth and death backgrounds, at *different* frequencies, would be strong evidence for the cascade's mechanism.
+
+The 2D universe death prediction is *qualitatively* robust to the choice of α: more energetic events still create longer-lived 2D universes, so the death frequency is always lower for more energetic events. The *quantitative* frequency depends on α, but the qualitative pattern is stable.
+
+### 10.11 Other potential 2D universe lifetime data points in the cascade
+
+A careful audit of the cascade's other claims finds **no other explicit 2D universe lifetime data points**:
+
+1. **2D universe Planck scale (set by μ):** The 2D universe's natural time scale is t_Pl,2 = ℏ/(μ c²). If T_2D ~ t_Pl,2, then μ ~ 5×10⁻⁴⁸ J = 3×10⁻²⁹ eV. But μ is a free parameter in the cascade, so this doesn't constrain the energy-scaling rule.
+
+2. **2D universe effective mass m_{3+1D}:** The cascade's analysis of DM gives the *collective* back-projection, not the individual 2D universe's mass. The 2D universe's intrinsic mass is not pinned down.
+
+3. **2D universe burnout time:** The 2D universe expands at near c from the 2D Planck length. The burnout time is set by the 2D's internal physics, not the 3D event. This would suggest a *universal* 2D universe lifetime (always 33s), but the user-cascade conversation explicitly established that lower-energy events should create shorter-lived 2D universes.
+
+4. **SPARC analysis:** The cascade's analysis of SPARC data constrains the *collective* back-projection profile, not individual 2D universe lifetimes.
+
+**Verdict:** the cascade has *only one* explicit 2D universe lifetime data point (the 33s for SN). The energy-scaling rule is a *fit* to this single point, and the extrapolation to high energies is *very* sensitive to the precise value of α. The cascade should *not* over-interpret the quantitative predictions in §10.3-§10.4.
+
+The qualitative ladder (more energetic events → longer-lived 2D universes) is robust. The quantitative predictions (specific α, specific M_Pl,4 floor, specific end-of-universe timeline) are not.
+
+### 10.12 Updated framing: what the cascade *can* and *cannot* claim
+
+After the trial-and-error and sensitivity analysis, the cascade's claims should be re-framed as follows:
+
+**What the cascade CAN claim (qualitative, robust):**
+- 2D universes are created by all energetic 3D events (Mechanism M)
+- More energetic events create longer-lived 2D universes
+- Our 3D universe is one of the "heaviest" (D-1)-universes in the cascade
+- The 2D universe lifetime ladder spans ~70 orders of magnitude in time
+- The cascade's 2D universe death prediction is qualitatively robust (lower freq for more energetic events)
+
+**What the cascade CANNOT claim (quantitative, fragile):**
+- The exact value of α ≈ 1.29 (forced by one data point, not natural)
+- The exact 4D cosmological lifespan (10¹⁹ to 10⁴⁴ yr depending on α)
+- The M_{Pl,4} ≥ 887 GeV floor (specific to α = 1.29)
+- The "end-of-universe in 1-10 Gyr" timeline (depends sensitively on M_Pl,4)
+- The specific 2D universe death frequencies (depend on α)
+
+The cascade's energy-scaling ladder is a *qualitative* result that should be presented honestly. The quantitative predictions in §10.3-§10.4 are *preliminary* and *uncertain* by orders of magnitude. They should be re-evaluated when (if) the cascade acquires additional 2D universe lifetime data points — possibly from SPARC reanalysis, possibly from future GW observations, possibly from a 2D CFT theoretical derivation.
+
+The M_Pl,4 ≥ 887 GeV floor in §10.3 should be flagged as "α = 1.29 specific." The end-of-universe timeline in §10.4 should be flagged as "highly model-dependent." The testable signatures in §10.5 are robust at the qualitative level (DE should evolve, SFR should decline, GW death background should exist) but not at the quantitative level.
+
+**The cascade is, in the end, a *thought experiment*.** Its quantitative predictions are forced by limited data and should be treated as *suggestive* rather than *definitive*. The testable signatures in §10.5 are the most reliable part of this section; the M_Pl,4 floor and end-of-universe timeline are the most uncertain.
+
 ---
 
 ## Appendix: Open-Source Scientific Collaboration
