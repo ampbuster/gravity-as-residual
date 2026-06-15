@@ -1,0 +1,42 @@
+{
+  "test": "Force-fit cascade to Jacobson (1995) framework",
+  "options_analyzed": 5,
+  "options": {
+    "1_f_back_E_dependent": {
+      "works": true,
+      "free_params_added": 1,
+      "f_back_variation_orders": 10,
+      "verdict": "Adds free param f_back(E) = (E/E_Pl)^0.29"
+    },
+    "2_modify_entropy": {
+      "works": false,
+      "verdict": "Only rescales linear coefficient, cannot get power law"
+    },
+    "3_multimodal_T_H": {
+      "works": false,
+      "free_params_added": "2-3+",
+      "verdict": "Adds unmotivated free parameters"
+    },
+    "4_non_equilibrium_current": {
+      "works_honestly": true,
+      "verdict": "Cascade's current stance, \u03b1 remains phenomenological"
+    },
+    "5_combination": {
+      "works": true,
+      "free_params_added": 1,
+      "verdict": "f_back(E) + non-equilibrium, 2-3 free params total"
+    }
+  },
+  "what_breaks": [
+    "f_back is no longer constant 10^-85, becomes E-dependent",
+    "1 free param (\u03b1) becomes 2-3 free params (\u03b1 + f_back function + others)",
+    "LHC vs SN 2D universe signatures become different (E^0.29 factor)",
+    "Cumulative DM calculation needs E-dependent f_back"
+  ],
+  "what_remains": [
+    "2D universes are 1+1D spacetimes with finite lifetime",
+    "2D universe back-projection contributes to DM",
+    "Cascade is non-equilibrium (not in thermodynamic equilibrium)"
+  ],
+  "conclusion": "Force-fitting to Jacobson adds free parameters without physical motivation. The cascade's current stance (Option 4) is the most parsimonious. A future CGHS-with-back-reaction or D1-brane-nucleation calculation yielding \u03b1=1.29 from dynamics would close the gap."
+}

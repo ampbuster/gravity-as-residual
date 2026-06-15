@@ -1111,14 +1111,75 @@ Furthermore, Jacobson's framework predicts *linear* τ_2D ~ E (from M_2D = τ_2D
 | Padmanabhan (2015) | ✗ | ✗ | ✓ (DM as missing entropy) | ✓ | **Yes** (info interpretation) |
 | Horava-Witten (1996) | △ (D1-brane p=1-3) | ✗ | ✓ (D1-brane) | — | **Yes** (more predictive than HW) |
 | Jacobson (1995) | ✗ (linear, not power law) | ✗ | △ (consistency check) | △ (thermodynamic) | **Tension** (α not derived) |
+| Ryu-Takayanagi (2006) | ✗ (=Jacobson) | ✗ | ✓ (DM as missing bulk entanglement) | ✓ | **Yes** (info interpretation, complements Padmanabhan) |
+| Kaluza-Klein (1921) | ✗ | ✗ | △ (historical prototype) | — | **Framing** (cascade = generalization of KK) |
 
 The honest summary: *none* of these frameworks derive the cascade's α = 1.29 from first principles. The α is a phenomenological fit to data. But:
 - **CGHS** is the strongest match: α = 1.29 is in the CGHS back-reaction range, and a specific calculation yielding α = 1.29 would be a first-principles derivation
-- **Padmanabhan** gives cascade DM an information-theoretic interpretation
+- **Padmanabhan** and **Ryu-Takayanagi** give cascade DM an information-theoretic interpretation as missing bulk entanglement
 - **HW** shows the cascade is more predictive than standard M-theory
+- **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.6: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.7: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+
+**3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
+
+The RT formula [Ryu06] is the central tool of holographic entanglement entropy in AdS/CFT: S_A = Area(γ_A) / (4 G_N), where γ_A is the minimal surface in the bulk that is homologous to the boundary region A. This formula has been proven in many contexts (Casini-Huerta-Myers 2011) and is the basis for the AdS/CFT connection between bulk geometry and boundary entanglement.
+
+**What RT gives the cascade:**
+- A *concrete* information-theoretic interpretation of cascade DM as missing bulk entanglement entropy: 2D universe = bulk region with area A_2D = 4π(cτ_2D)², and the cascade's 3+1D back-projection of 2D universe gravity is structurally identical to the RT formula's area-entropy relation
+- A *consistency check* on the cascade's f_back: the RT formula gives the same M_2D = τ_2D / (2G) as Jacobson's first law (since RT + Bekenstein-Hawking + Unruh = Jacobson derivation). This means RT, Jacobson, and Padmanabhan all give the same LINEAR τ_2D ~ M_2D, not the cascade's power law
+- An *additional anchor* for the cascade's bulk-brane picture: the 2D universe's "boundary" in 3+1D (a 2-sphere of radius cτ_2D) has area A_2D that grows quadratically with τ_2D, and the entanglement entropy of the 2D universe's contents is S_2D = A_2D / (4G) = π(τ_2D)² (in Planck units)
+
+**What RT does NOT give the cascade:**
+- A *derivation* of α = 1.29. RT is mathematically equivalent to the Jacobson derivation (both give M_2D = τ_2D / (2G), linear scaling). The cascade's power law τ_2D ~ E^1.29 is a dynamical parameter, not from RT
+- A derivation of f_back ~ 10^-85
+- A derivation of the inversion mechanism
+- A derivation of the 5/27/68 split (observational input, not from RT)
+
+**Quantitative check.** For the cascade's SN-calibrated 2D universe of τ_2D = 33 s, RT gives:
+- R_2D = c × τ_2D = 9.9 × 10⁹ m (about 70 × Earth-Moon distance)
+- A_2D = 4π R_2D² = 1.2 × 10²¹ m²
+- S_2D = A_2D / (4 l_P²) ≈ 10⁹⁰ (in natural units)
+
+This is an enormous entanglement entropy. The 2D universe is "small" in its intrinsic 1+1D spacetime, but its boundary in 3+1D is a 2-sphere of radius ~10¹⁰ m. The RT formula gives this boundary area a holographic content of 10⁹⁰ dimensionless units. This is consistent with the cascade's claim that 2D universes can carry "missing bulk entropy" that back-projects to 3+1D as DM.
+
+**The RT-Jacobson-Padmanabhan equivalence.** A subtle but important point: RT + Bekenstein-Hawking + Unruh = Jacobson. All four give the same M_2D = τ_2D / (2G) linear relation. This is *good* for the cascade (multiple independent derivations agree), but it means they all FAIL to derive α = 1.29 (they all predict linear, not power law). The cascade's α = 1.29 is genuinely beyond what these thermodynamic frameworks can derive.
+
+**Status:** RT provides an additional information-theoretic anchor for the cascade's DM-as-missing-bulk-entanglement picture (complementing Padmanabhan). It does NOT derive α = 1.29, f_back, or the inversion. The RT-Jacobson-Padmanabhan trio all give the same linear τ_2D scaling, reinforcing that the cascade's power law is a dynamical parameter. See `calculations/v27_ruyu_takayanagi.py` for the full analysis.
+
+**3.8.7 Kaluza-Klein (1921) 5D unification: the cascade as a generalization.**
+
+Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity and electromagnetism. The key result: starting from 5D Einstein-Hilbert action and compactifying one extra dimension on S^1 of radius R, the 5D metric decomposes into:
+- g_μν (4D graviton)
+- A_μ = G_μ4 (4D EM vector potential, from off-diagonal metric)
+- φ = G_44 (4D dilaton scalar)
+
+5D Einstein equations → 4D Einstein + 4D Maxwell + 4D dilaton dynamics. This was a remarkable result: 5D gravity naturally contains 4D EM.
+
+**The cascade as a generalization of KK.** The cascade's 4D event → 3+1D projection is a *generalization* of KK's 5D → 4D, with different assumptions:
+- KK's extra dim is COMPACT (S^1 of radius R)
+- Cascade's 4D event is SPATIALLY EXTENDED (per §2.4, extent ~ 10³⁶ m from §3.8.2 Padmanabhan estimate)
+- KK derives EM from geometry (the off-diagonal metric = EM potential)
+- Cascade does NOT derive the SM from geometry (the SM is taken as given)
+- KK preserves the sign of gravity (4D gravity is attractive, same as 5D)
+- Cascade has an INVERSION: 4D gravity is attractive in 4D, but the projected 3+1D component is repulsive (this is the cascade's DE)
+
+**What KK gives the cascade:**
+- A *historical prototype* for dimensional reduction. The cascade is a more general framework that includes KK as a special case (5D → 4D is a 1-step cascade; the cascade's 4D → 3+1D → 2D is a 2-step cascade)
+- A *gravity-weakening analog*: KK gives G_4 = G_5 / (2πR) (weakening by compactification volume), cascade gives G_3+1D = f_split × G_4 (weakening by 0.47 from 5/27/68)
+- *Validation* that dimensional reduction is a viable physical framework: the cascade's 4D → 3+1D is a generalization, but the basic idea (5D gravity → 4D effective theory with new physics) is established
+
+**What KK does NOT give the cascade:**
+- A derivation of α = 1.29, f_back, f_split, or the inversion
+- A derivation of the SM (KK derives EM, but not the full SM gauge group; the cascade doesn't derive the SM at all)
+- A specific compactification scale for the cascade's 4D event (KK has R as a free parameter, cascade has τ_4D as a free parameter)
+- A sign-change mechanism (KK preserves the sign of gravity; the cascade's inversion is a separate postulate)
+
+**The cascade's relation to the KK program.** The cascade is in the SPIRIT of the KK program but differs in specifics. KK's spirit: higher-dimensional gravity gives rise to lower-dimensional forces and structures. Cascade's spirit: a 4D event gives rise to a 3+1D universe with DM, DE, and 2D children. The cascade's specific innovations (inversion, 2D universe children, spatially extended parent) are NOT in KK.
+
+**Status:** KK is a historical prototype for dimensional reduction, useful as a framing reference. The cascade is a generalization of KK, but the cascade's specific phenomenology (α, f_back, inversion, 2D children) is NOT derived from KK. KK validates the general idea of dimensional reduction but does not derive any of the cascade's specific predictions. See `calculations/v27_kaluza_klein.py` for the full analysis.
 
 ---
 
@@ -4778,6 +4839,10 @@ All derived quantities (M_dyn, M_halo, M_star, g_obs, etc.) are computed in the 
 [Gibbons96] G. W. Gibbons, "D-branes and topology change," Class. Quantum Grav. 13 (1996) 1-7.
 
 [Polchinski95] J. Polchinski, "Dirichlet Branes and Ramond-Ramond Charges," Phys. Rev. Lett. 75 (1995) 4724-4727.
+
+[Ryu06] S. Ryu, T. Takayanagi, "Holographic derivation of entanglement entropy from AdS/CFT," Phys. Rev. Lett. 96 (2006) 181602.
+
+[Kaluza21] T. Kaluza, "Zum Unitätsproblem der Physik," Sitzungsber. Preuss. Akad. Wiss. Berlin (Math. Phys.) 1921 (1921) 966-972.
 
 [Verlinde16] E. P. Verlinde, "Emergent Gravity and the Dark Universe," SciPost Phys. 2 (2016) 016.
 

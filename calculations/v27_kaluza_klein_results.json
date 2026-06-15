@@ -1,0 +1,24 @@
+{
+  "test": "Kaluza-Klein (1921) 5D unification vs cascade 4D \u2192 3+1D structure",
+  "KK_formula": "G_4 = G_5 / (2\u03c0 R), with R = compactification radius",
+  "KK_features": {
+    "extra_dim": "COMPACT (S^1 of radius R)",
+    "EM_derivation": "From off-diagonal metric G_\u03bc4",
+    "gravity_weakening": "By factor 1/(2\u03c0R)",
+    "sign_change": "NO (4D gravity attractive)"
+  },
+  "cascade_features": {
+    "extra_dim": "SPATIALLY EXTENDED (4D event, extent ~ 10^36 m)",
+    "SM_derivation": "NOT derived (assumed given)",
+    "gravity_weakening": "By factor 0.47 (empirical 5/27/68)",
+    "sign_change": "YES (cascade DE = inverted 4D gravity)"
+  },
+  "verdict": {
+    "structural_prototype": true,
+    "cascade_generalization": true,
+    "EM_derivation_in_cascade": false,
+    "inversion_in_KK": false,
+    "scales_different": true
+  },
+  "conclusion": "KK is the historical prototype for dimensional reduction, but the cascade's 4D event \u2192 3+1D differs significantly: extended (not compact), no SM derivation, has inversion. KK is a useful framing reference, not a derivation."
+}

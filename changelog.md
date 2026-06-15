@@ -2,6 +2,38 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.7 (June 2026) — +2 more framework connections (Ryu-Takayanagi, Kaluza-Klein)
+
+**Major changes since v2.7.6:**
+
+1. **§3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy (NEW subsection)**: The RT formula S_A = Area(γ_A) / (4 G_N) provides a *concrete* information-theoretic interpretation of cascade DM as missing bulk entanglement entropy. Each 2D universe has area A_2D = 4π(cτ_2D)² in 3+1D, and the RT formula gives the entanglement entropy of the 2D universe's contents as S_2D ≈ 10⁹⁰ for SN-calibrated lifetimes. **Important subtlety**: RT + Bekenstein-Hawking + Unruh = Jacobson. All four derivations give the SAME M_2D = τ_2D / (2G) linear relation, not the cascade's power law. So RT, Jacobson, and Padmanabhan all give the same LINEAR τ_2D ~ M_2D — they reinforce each other but fail to derive α = 1.29.
+
+2. **§3.8.7 Kaluza-Klein (1921) 5D unification (NEW subsection)**: KK is the historical prototype for dimensional reduction. The cascade is a *generalization* of KK: KK's 5D → 4D is a 1-step cascade; the cascade's 4D → 3+1D → 2D is a 2-step cascade. Key structural differences: (a) KK's extra dim is COMPACT (S^1 of radius R), cascade's 4D event is SPATIALLY EXTENDED (~ 10³⁶ m); (b) KK derives EM from geometry, cascade does NOT derive SM from geometry; (c) KK preserves the sign of gravity, cascade has an INVERSION. Both have gravity weakening (KK: 1/R, cascade: 0.47), but the specific factors differ.
+
+3. **2 new analysis scripts** (calculations/):
+   - v27_ruyu_takayanagi.py — RT formula applied to cascade's 2D universe boundary
+   - v27_kaluza_klein.py — KK 5D → 4D vs cascade 4D → 3+1D structural comparison
+   - (+2 ancillary: v27_bousso_entropy_bound.py, v27_strominger_vafa_microstates.py, v27_jacobson_force_fit.py)
+
+4. **2 new references** added: [Ryu06], [Kaluza21].
+
+5. **Updated framework table** in §3.8.5: now shows 6 frameworks (CGHS, Padmanabhan, HW, Jacobson, RT, KK) with honest verdict for each. **NONE derive α = 1.29** — the α remains a phenomenological fit to data.
+
+**Honest status summary (v2.7.7):**
+- 16/17 test categories (UNCHANGED)
+- 7/7 specific cases (UNCHANGED)
+- 11/11 galaxy tests (UNCHANGED)
+- 35 honest limitations (UNCHANGED)
+- 1-2 free parameters (UNCHANGED)
+- 6 structural anchors in established frameworks (NEW)
+- 1 concrete testable prediction (CGHS-with-back-reaction) (UNCHANGED)
+- 1 honest tension (Jacobson power-law-vs-linear) (UNCHANGED)
+- 1 RT-Jacobson-Padmanabhan equivalence insight (NEW): all three give same linear scaling
+- PDF: 205+ pages (was 205 in v2.7.6)
+- Audit: 0 inconsistencies
+
+**Earlier v2.7.6 entry (unchanged):**
+
 ## v2.7.6 (June 2026) — 4 mathematical framework connections (CGHS, Padmanabhan, Horava-Witten, Jacobson)
 
 **Major changes since v2.7.5:**

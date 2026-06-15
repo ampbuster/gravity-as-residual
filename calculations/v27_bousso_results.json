@@ -1,0 +1,19 @@
+{
+  "test": "Bousso (1999) covariant entropy bound vs cascade",
+  "bousso_bound": "S[L(B)] \u2264 A(B) / (4 G_N)",
+  "S_2D_max_SN": 1.1767852955661766e+90,
+  "S_2D_max_LHC": 1.3237483811465257e-40,
+  "S_CGHS_SN": 2.870355661854168e+39,
+  "S_CGHS_LHC": 1.6056011581935441e-18,
+  "S_DM_cascade": 6.448620744175541e+91,
+  "S_max_horizon_Bousso": 2.2326671970762787e+122,
+  "ratio_S_DM_to_S_max": 2.8883036184793396e-31,
+  "verdict": {
+    "bound_satisfied": true,
+    "bound_tight": false,
+    "alpha_derived": false,
+    "f_back_derived": false,
+    "inversion_derived": false
+  },
+  "conclusion": "Bousso bound is satisfied (cascade doesn't violate it), but it's a consistency check, not a derivation. Doesn't add new physics to the cascade."
+}

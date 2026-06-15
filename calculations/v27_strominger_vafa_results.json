@@ -1,0 +1,15 @@
+{
+  "test": "Strominger-Vafa (1996) microstate counting vs cascade 2D universe entropy",
+  "SV_formula": "S = 2\u03c0 \u221a(N_1 N_2 N_3 N_4 N_5 N_6) for 5D extremal BH",
+  "SV_scaling": "S ~ M^3 (full D1-D5 with all moduli)",
+  "cascade_required_scaling": "S ~ M^2.29 (to give \u03c4_2D ~ M^1.29)",
+  "verdict": {
+    "structural_match": true,
+    "SV_extremal_BH_scaling": "M^3 (CGHS original p=3)",
+    "cascade_scaling": "M^2.29",
+    "in_between": true,
+    "alpha_derived": false,
+    "f_back_derived": false
+  },
+  "conclusion": "Strominger-Vafa provides microstate counting framework, cascade's S~M^2.29 is between SV extremes. Useful anchor but not a derivation."
+}

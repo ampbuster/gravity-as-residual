@@ -1,0 +1,20 @@
+{
+  "test": "Ryu-Takayanagi (2006) holographic entanglement entropy vs cascade",
+  "rt_formula": "S_A = Area(\u03b3_A) / (4 G_N)",
+  "cascade_2D_universe_area_in_3plus1D": {
+    "tau_2D_SN_s": 33.0,
+    "R_2D_m": 9893400000.0,
+    "R_2D_ly": 1.0457034140154318e-06,
+    "A_2D_m^2": 1.229988357992562e+21,
+    "S_2D": 1.1767852955661766e+90
+  },
+  "rt_jacobson_consistency": "RT + Bekenstein-Hawking + Unruh = Jacobson. All give linear \u03c4 = 2M, not power law \u03c4 ~ M^1.29",
+  "verdict": {
+    "structural_match": true,
+    "DM_as_missing_bulk_entropy": true,
+    "alpha_derived": false,
+    "inversion_derived": false,
+    "linear_scaling_only": true
+  },
+  "conclusion": "RT provides structural match for cascade DM as missing bulk entanglement entropy, but does NOT derive \u03b1=1.29, f_split, or the inversion. RT + BH + Unruh = Jacobson = linear scaling, not power law."
+}
