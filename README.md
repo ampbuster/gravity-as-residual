@@ -62,7 +62,7 @@ The cascade's r(z) = ρ_DM^DC(z) / ρ_DM^DC(0) at high z is the test of whether 
 | 8 | **726.8** | 729 | ✓ MATCHES |
 | 10 | **1327** | 1331 | ✓ MATCHES |
 
-**r(z) ≈ (1+z)³ for all z.** The cascade is consistent with ΛCDM at every redshift. The 5/27/68 ratio is time-invariant by construction.
+**r(z) ≈ (1+z)³ for all z.** The cascade is consistent with ΛCDM at every redshift. The 5/27/68 split is observational data (Planck 2018) with a qualitative cascade interpretation, not a time-invariant cascade prediction.
 
 ### Why Thomson scattering does the heavy lifting
 
