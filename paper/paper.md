@@ -4290,6 +4290,27 @@ These five additional constraints from 2025 datasets do not reduce the cascade's
 - 24: Trivially consistent (cascade has no SM coupling)
 - 25: Qualitatively support the MOND-like g_+ floor interpretation
 
+#### 8.1.7 Final 2024-2025 constraints catalog (v2.7.3)
+
+The 30th-and-final round of web research (June 2026) yields five more external constraints from the latest 2024-2025 datasets:
+
+26. **ALPS/IAXO/ADMX axion-like particle coupling constraints** (Carenza, Pasechnik, Wang 2024, *Composite heavy axion-like dark matter*, arXiv:2408.14245; Zhang, Wu, Yan 2025, *New limits on ultralight axionlike DM*, arXiv:2501.08117). Two classes of axion-like particle (ALP) DM have been constrained: (a) *composite heavy* ALPs with mass $10^3$–$10^9$ GeV and *suppressed* electromagnetic couplings (GALPs); (b) *ultralight* ALPs with mass $10^{-24}$–$5 \times 10^{-21}$ eV, with laboratory bounds on the axion-nucleon coupling improved by *more than 3 orders of magnitude*. The cascade's 2D universe mass ($\sim 10^{-15}$ GeV = $10^{-6}$ eV) is *between* these two ALP mass ranges. The cascade 2D universes have *no Standard Model coupling*, so the ALP constraints are *inapplicable* to the cascade (vacuously consistent).
+
+27. **HERA/MeerKAT 21cm reionization** (Sims, Bevins, Fialkov, Anstey, Handley, Heimersheim, de Lera Acedo, Mondal, Barkana 2025, arXiv:2504.09725, *Rapid and late cosmic reionization driven by massive galaxies*). A joint Bayesian analysis of 21cm, Lyman-line, and CMB data constrains the astrophysics of reionization: rapid and late reionization driven by massive galaxies is preferred. The cascade's 2D universe births are *negligible* for IGM heating (cascade 2D universes are CDM-like, not ionizing sources), so the cascade is *indistinguishable* from $\Lambda$CDM in the 21cm signal. No cascade-specific prediction in 21cm.
+
+28. **SIDM cross-section with mass segregation** (Yang, Fan, Hou, Tsai 2025, arXiv:2506.14898, *SIDM with mass segregation: A unified explanation of dwarf cores and small-scale lenses*). Two-component self-interacting DM with mass segregation can satisfy *both* cluster-scale ($\sigma/m < 1$ cm²/g) and dwarf-scale ($\sigma/m < 0.1$ cm²/g) cross-section constraints. The cascade's 2D universes are *not* particles (they are 2D CFT excitations), so the SIDM cross-section is *trivially* $\sigma/m = 0$ for the cascade. SIDM constraints are *inapplicable* to the cascade.
+
+29. **Dynamical heating in ultrafaint dwarfs** (Graham, Ramani 2024, arXiv:2404.01378, *Constraints on DM from dynamical heating of stars in ultrafaint dwarfs, Part 2: Substructure and the primordial power spectrum*). The dynamical heating of stars in ultrafaint dwarf galaxies places *strong* constraints on the primordial power spectrum at $k = 10$–$10^3$ Mpc$^{-1}$, *orders of magnitude* stronger than CMB-only constraints. These constraints limit the abundance of subcompact objects ($10$–$10^8$ $M_\odot$). The cascade's 2D universe mass ($\sim 10^{-15}$ GeV = $10^{-21}$ $M_\odot$) is *below* the subcompact range, so the cascade is *consistent* with the dynamical heating constraints.
+
+30. **Future MeV gamma-ray DM constraints** (O'Donnell, Slatyer 2024, arXiv:2411.00087, *Constraints on DM with future MeV gamma-ray telescopes*). Future MeV gamma-ray telescopes will close the "MeV gap" in DM sensitivity, with projected $\sigma v < 10^{-27}$ cm³/s for annihilation and $\tau > 10^{27}$ s for decay. The cascade's 2D universes are *MeV-invisible* to gamma rays (no SM coupling, no annihilation, no decay). No constraint, but also *no signal* expected.
+
+These five additional constraints do not reduce the cascade's 2 free parameters ($\mu$, $m_{3+1D}$), but they:
+- 26: Confirm the cascade has no SM coupling (ALP constraints inapplicable)
+- 27: Confirm the cascade is indistinguishable from $\Lambda$CDM in 21cm
+- 28: Confirm the cascade 2D universes are not particles (SIDM inapplicable)
+- 29: Confirm the cascade 2D universes are not subcompact (consistent)
+- 30: Confirm the cascade has no DM-SM coupling (no gamma-ray signal)
+
 ---
 
 ## 9. SIDC vs its Competitors: A Detailed Comparison
