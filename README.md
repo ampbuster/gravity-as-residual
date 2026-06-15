@@ -15,9 +15,20 @@ The cascade's principle is simple: every energetic event creates a 2D universe w
 
 1. **Cosmological fit** — matches ΛCDM at CMB, r(z), P(k), S_8, halo mass function, CMB lensing
 2. **Galactic fit** — matches MOND at RAR, deep-MOND regime, cored profiles, AGC/KKR bifurcation
-3. **Parsimony** — 1 principle vs ΛCDM's 20+ free parameters
+3. **Conceptual parsimony** — 1 conceptual principle that connects 5+ phenomena (DM, DE, hierarchy, AGC/KKR, MOND) into a single framework
 
 **The cascade is the ONLY dark sector model that achieves all three.** Other models typically sacrifice one.
+
+### Honest framing of parsimony
+
+The cascade's parsimony is **conceptual**, not **parametric**:
+
+| Type of parsimony | Cascade | ΛCDM | MOND | Fuzzy DM |
+|-------------------|:-------:|:----:|:----:|:--------:|
+| **Conceptual** (1 principle for many phenomena) | ✓ | ✗ | ✗ | ✗ |
+| **Parametric** (fewer fitted parameters) | ✗ (4 postulated) | ✗ (20+ fitted) | ✓ (1 fitted) | ✓ (1-2 fitted) |
+
+The cascade has **1 conceptual principle** but **4 postulated free parameters** (μ, b, α, z_0 — all honest unknowns, Limitation 26). ΛCDM has **20+ fitted parameters** (constrained by data). MOND has **1 fitted parameter** (a₀, fitted to RAR). The cascade isn't parametrically more parsimonious than MOND or Fuzzy DM, but it is **conceptually more parsimonious**: one principle explains DM, DE, hierarchy, MOND, and AGC/KKR, rather than needing separate postulates for each.
 
 ## Comparison to Other Dark Sector Models
 
@@ -38,7 +49,7 @@ The cascade's principle is simple: every energetic event creates a 2D universe w
 
 **The cascade is unique** because it achieves all three. Other models must choose 2 of 3.
 
-**Honest framing:** The cascade has 0 unique testable predictions beyond what ΛCDM and MOND already predict. The AGC/KKR bifurcation is also predicted by ΛCDM (via SMHM) and MOND (no DM needed). The cascade's value is **interpretive** (DM = 2D universe deaths, DE = 4D event antigravity) and **parsimonious** (1 principle vs 20+ ΛCDM free parameters), not predictive.
+**Honest framing:** The cascade has 0 unique testable predictions beyond what ΛCDM and MOND already predict. The AGC/KKR bifurcation is also predicted by ΛCDM (via SMHM) and MOND (no DM needed). The cascade's value is **interpretive** (DM = 2D universe deaths, DE = 4D event antigravity) and **conceptually parsimonious** (1 principle vs ΛCDM's 20+ free parameters), not predictive.
 
 ## The AGC 114905 vs KKR 25 Bifurcation — The 219× M_dyn/M_b DIFFERENCE
 

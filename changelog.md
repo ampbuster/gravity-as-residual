@@ -76,18 +76,28 @@ The cascade is the ONLY dark sector model that achieves ALL THREE of:
   2. Galactic fit (matches MOND)
   3. Parsimony (1 principle vs 20+ ΛCDM parameters)
 
+**PARSIMONY REFRAMED (v2.7.1+):** The cascade's parsimony is
+**CONCEPTUAL**, not **PARAMETRIC**. The cascade has 1 conceptual
+principle but 4 postulated free parameters (μ, b, α, z_0 — honest
+unknowns, Limitation 26). The cascade isn't parametrically more
+parsimonious than MOND (1 fitted param) or Fuzzy DM (1-2 fitted
+params), but it is CONCEPTUALLY more parsimonious: 1 principle
+explains DM, DE, hierarchy, MOND, and AGC/KKR, rather than needing
+separate postulates for each.
+
 This is the cascade's UNIQUE SELLING POINT. Other models typically
 sacrifice 1-2 (see comparison table in README and layman_summary).
 The cascade achieves the trifecta because it's a HYBRID:
   - Cosmological: borrows from CDM (2D universes are CDM-like)
   - Galactic: borrows from MOND (memory effect at low acceleration)
-  - Parsimony: 1 principle explains both
+  - Parsimony (conceptual): 1 principle explains both
 
 **Decision rationale:** The paper is a thought experiment, and the
-cascade's value is its interpretive framework + parsimony (1 principle
-vs 20+ ΛCDM parameters). Adding all these negative results to the paper
-would obscure the cascade's main message. They are documented honestly
-in calculations/ and changelog for future reference.
+cascade's value is its interpretive framework + conceptual parsimony
+(1 principle vs 20+ ΛCDM parameters). Adding all these negative
+results to the paper would obscure the cascade's main message. They
+are documented honestly in calculations/ and changelog for future
+reference.
 
 ---
 
