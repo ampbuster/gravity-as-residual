@@ -351,6 +351,18 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - **0 strongly confirmed, 0 falsified, 16 pass, 1 confounded** (out of 17 test categories)
 - **Smoking guns: 3 reproducible**, including the (1+z)³ expansion factor match
 
+# v2.7.3+ §11 — 47 TUC TEST FOR RUBIN/LSST
+
+A new section §11 anchors the cascade's DM mechanism to a **near-term, low-cost, high-leverage falsification test**: the 47 Tucanae (NGC 104) globular cluster in the context of Rubin/LSST DP1 (released June 30, 2025).
+
+- **47 Tuc is the cleanest test:** no current SN, no massive star formation, ~10^6 old low-mass stars
+- **Cascade prediction:** M_dyn ≈ M_stars (no local DM enhancement), 5 tidal tails fit Galactic potential
+- **Testable predictions:** DP1 (2025), DR1 (2027), Y10 (~2034)
+- **Falsification:** M_dyn > 2x M_stars at 3σ → cascade's DM mechanism falsified for this object
+- **Generalization:** cascade's "no current activity → no local DM" rule applies to all quiescent systems (old GCs, dwarf spheroidals, halo stars, Magellanic Cloud outer regions)
+
+The 47 Tuc test does NOT depend on the speculative end-of-universe extension in §10. It tests the **core** of the cascade: the link between *energetic activity* and *local DM enhancement*. If that link is wrong, the cascade's DM mechanism is wrong.
+
 # §10 SPECULATIVE EXTENSION: End-of-Universe Signatures (June 2026)
 
 A new section §10 derives speculative but *testable* end-of-universe signatures from the cascade's energy-scaling ladder:
@@ -362,6 +374,27 @@ A new section §10 derives speculative but *testable* end-of-universe signatures
 - **Testable signatures:** DESI DR3 evolving DE (3.5σ), LSST Y1 DE-density decrease, declining cosmic SFR, GW background
 - **LISA detection prospects (§10.17):** cascade's SN death GW at 0.03 Hz is **6-14 orders below LISA noise** for any reasonable ε_GW. A NULL LISA result is consistent with (not contradictory to) the cascade. The cascade's high-energy death GW (BNS, AGN) is detectable by **PTAs** (NANOGrav, EPTA, SKA-MPG) at nHz frequencies, not LISA.
 - **Testable window:** 2026 (DESI DR3) to 2034 (LISA launch) is the critical 5-10 year window.
+
+# §11 TESTABLE PREDICTIONS FOR CURRENT AND UPCOMING SURVEYS (2026-2034)
+
+A new section §11 consolidates the cascade's *near-term, low-cost, high-leverage* testable predictions, anchored to the **47 Tucanae (NGC 104) test case** in the context of the **Rubin/LSST DP1** (released June 30, 2025).
+
+**47 Tuc is the CLEANEST test of the cascade's DM mechanism** because:
+- No current massive star formation
+- No current core-collapse or Type Ia supernovae
+- Only ~20 millisecond pulsars (energetic but microsecond-scale 2D universes)
+- ~10⁶ old, low-mass stars
+
+**Cascade prediction:** M_dyn ≈ M_stars (no local DM enhancement). 5 known tidal tails should be consistent with the *Galactic* DM potential, not any local 47 Tuc contribution. See `calculations/v27_47_tuc_cascade.py` for the full calculation.
+
+**Testable predictions for Rubin/LSST:**
+- **DP1 (June 2025):** 47 Tuc's CMD is consistent with PARSEC/BaSTI 12 Gyr single-population isochrones
+- **DR1 (Y1, 2027):** proper motion + 5 tidal tails fit the Galactic potential; no local-DM perturbation
+- **Y10 (~2034):** no "dark star" component; all stars are normal
+
+**Falsification:** if M_dyn > 2× M_stars at 3σ, or asymmetric tidal tails, or "DM-modified" mass function — cascade's DM mechanism is falsified for this object.
+
+**Generalization:** the cascade's "no current activity → no local DM" rule applies to all quiescent systems: old globular clusters, dwarf spheroidals with no current star formation, the Galactic bulge outer regions, the Magellanic Cloud outer regions, halo stars. All should be *tracers* of the Galactic DM halo, not DM hosts.
 
 **Data availability (June 2026):**
 - LISA: adopted Jan 2024, **launch 2034**
@@ -385,6 +418,8 @@ A new section §10 derives speculative but *testable* end-of-universe signatures
 - §8.1.1–§8.1.10 External constraints catalog (45 constraints from 2024-2026 web research)
 - §10 Speculative extension: End-of-Universe Signatures (energy-scaling ladder, M_Pl,4 floor, LISA/PTA predictions)
 - §10.1–§10.17 sub-sections (lifespan, M_Pl,4, end-of-universe, sensitivity, 2D CFT, death GW, LISA detection prospects)
+- §11 Testable predictions for current and upcoming surveys (47 Tuc test for Rubin/LSST DP1/DR1/Y10)
+- §11.1–§11.7 sub-sections (cascade DM mechanism, 47 Tuc calculation, falsifiability matrix)
 
 ---
 
@@ -403,8 +438,13 @@ A new section §10 derives speculative but *testable* end-of-universe signatures
   - 3D universe at end of life (if M_Pl,4 ~ TeV)
   - LISA detection prospects: cascade's SN death GW is **6-14 orders below LISA noise**; cascade's BNS/AGN death GW is detectable by PTAs in 2030s
   - Testable window 2026-2034 (DESI DR3 → LISA launch)
+- **§11 TESTABLE PREDICTIONS added (June 2026):** Near-term testable predictions for current/upcoming surveys
+  - **47 Tucanae (NGC 104) test case** in context of Rubin/LSST DP1 (June 30, 2025)
+  - Cascade prediction: M_dyn ≈ M_stars (no local DM), 5 tidal tails fit Galactic potential
+  - Testable with DP1 (2025), DR1 (2027), Y10 (~2034)
+  - Falsification: M_dyn > 2× M_stars at 3σ would kill cascade's DM mechanism for this object
 - **§2.3 inconsistency FIXED:** Earlier spatial-extent rule (τ_2D ~ ℓ_event/c) replaced with energy-scaling rule (τ_2D ~ (E)^1.29); SN 33s calibration point unchanged, but LHC and other event lifetimes are now consistent with "lower-energy → shorter-lived 2D universes"
-- 7 new v27_*.py calculation scripts added to calculations/ (lifespan, sensitivity, 2D CFT, death GW spectrum, LISA sensitivity check)
+- 7 new v27_*.py calculation scripts added to calculations/ (lifespan, sensitivity, 2D CFT, death GW spectrum, LISA sensitivity check, 47 Tuc cascade)
 
 **v2.7.1 changes:**
 - 5/27/68 honest framing: 5/27 inner split (5% "active" vs 27% "cumulative") dropped as separate postulate
