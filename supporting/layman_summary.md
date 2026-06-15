@@ -47,7 +47,13 @@ The cascade has **1 conceptual principle** and **2 remaining free parameters** (
 | SIDM                 |   ✓   |  ✓  |   ✗    | σ/m cross-section                                  |
 | WIMP / Axion / Sterile ν | ✓ |  ✗  |   ✗    | Cusps, multiple params                             |
 
-**Honest framing:** The cascade has 0 unique testable predictions beyond what ΛCDM and MOND already predict. The bifurcation is also predicted by ΛCDM (via SMHM) and MOND (no DM needed). The cascade's value is **interpretive** (DM = 2D universe deaths) and **parsimonious** (1 principle vs 20+ ΛCDM parameters), not predictive.
+**Honest framing (sharpened v2.7.3):** The cascade has 0 unique testable predictions, but the *accommodation* by each competitor is asymmetric:
+
+- **ΛCDM** predicts *similar* halos for AGC 114905 and KKR 25 via the SMHM relation (both have M* ~ 10⁶⁻⁷ M☉, so SMHM gives them similar halo masses by construction). To get the observed 219× M_dyn/M_b split, ΛCDM must invoke 3-4σ stochastic outliers in feedback/spin parameters. That's an *outlier*, not a *prediction*.
+- **MOND** is deterministic from baryonic mass and *fails on AGC 114905 specifically*. MOND should give a strong gravitational boost to this ultra-diffuse, low-surface-brightness, isolated galaxy — but observations show Newtonian rotation curves. The MOND boost is missing, and the EFE has no external field to draw on for an isolated field galaxy.
+- **The cascade** explains the bifurcation *deterministically from SFH* (no 2D universe creation below E_crit, no stochastic outliers), but the proportionality constant is *calibrated* to dSph observations (Limitation 29) — so only the *qualitative* bifurcation and *direction* of the shift are cascade-derived.
+
+Net: the cascade is *better positioned* than ΛCDM (no 3-4σ outliers) and MOND (no MOND-boost conflict) *specifically*, but with calibration caveats. The cascade's value is **interpretive** (DM = 2D universe deaths) and **parsimonious** (1 principle vs 20+ ΛCDM parameters), not predictively unique.
 
 ## The AGC 114905 vs KKR 25 bifurcation (820× → 219×)
 
@@ -60,7 +66,7 @@ This is the cascade's most distinctive prediction. Two galaxies with similar amo
 
 The ratio of these ratios is **820×**. The cascade says this 820× shift in the cumulative energy budget maps to a **219× shift** in the *dynamic mass* (the actual mass you measure from how fast stars orbit). The emulator (`sidc_phenomenological_emulator.py`, 722 lines) reproduces this from first principles — given only the star formation history, the cascade predicts the right DM content for both galaxies, including the bifurcation.
 
-**Why this is the cascade's strongest test (but not unique):** The cascade naturally reproduces the bifurcation. MOND explains both galaxies from baryons alone (no DM). ΛCDM predicts it via SMHM relation. The cascade's value is the interpretive mechanism (SFH energy ledger) and parsimony (1 principle vs 20+ ΛCDM free parameters), not a unique prediction.
+**Why this is the cascade's strongest test (better positioned, but not unique):** The cascade's mechanism is *deterministic from SFH alone* (no stochastic outliers, no 3-4σ feedback variance, no MOND-boost-vs-Newtonian conflict on AGC 114905). ΛCDM must invoke 3-4σ SMHM outliers to accommodate the split; MOND fails on AGC 114905 specifically (Newtonian rotation curve where MOND predicts a strong boost). The cascade's mechanism is *better positioned* than either competitor *specifically* — but the proportionality constant is calibrated to dSph observations (Limitation 29), so only the *qualitative* bifurcation and *direction* of the shift are cascade-derived, not the absolute M_dyn values. The cascade's value is the interpretive mechanism (SFH energy ledger) and parsimony (1 principle vs 20+ ΛCDM free parameters), not a unique prediction.
 
 ## #1 (Consistency with ΛCDM): The cascade matches ΛCDM at all z
 

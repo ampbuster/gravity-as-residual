@@ -103,7 +103,13 @@ The cascade has **1 conceptual principle** but **2 remaining free parameters** (
 
 **The cascade is unique** because it achieves all three. Other models must choose 2 of 3.
 
-**Honest framing:** The cascade has 0 unique testable predictions beyond what ΛCDM and MOND already predict. The AGC/KKR bifurcation is also predicted by ΛCDM (via SMHM) and MOND (no DM needed). The cascade's value is **interpretive** (DM = 2D universe deaths, DE = 4D event antigravity) and **conceptually parsimonious** (1 principle vs ΛCDM's 20+ free parameters), not predictive.
+**Honest framing (sharpened v2.7.3):** The cascade has 0 unique testable predictions beyond what ΛCDM and MOND can accommodate, but the *accommodation* by each is not symmetric:
+
+- **ΛCDM** predicts *similar* halos for AGC 114905 and KKR 25 via the SMHM relation (similar stellar masses, similar halo masses by construction). To get the observed 219× M_dyn/M_b split, ΛCDM must invoke **3-4σ stochastic outliers in feedback/spin parameters** — calling that a "prediction" is generous. It is an *outlier*, not a *prediction*.
+- **MOND** is deterministic from baryonic mass alone and *fails* on AGC 114905: the galaxy is ultra-diffuse, low-surface-brightness, isolated — MOND should give a strong gravitational boost, but observations show Newtonian rotation curves. The MOND boost is missing, and EFE doesn't help (no external field for an isolated field galaxy).
+- **The cascade** explains the bifurcation *deterministically from SFH* (no 2D universe creation below E_crit, no stochastic outliers needed), but the proportionality constant is *calibrated* (Limitation 29) — so the *qualitative* bifurcation and *direction* of the shift are cascade-derived, while *absolute* M_dyn values are not pure predictions.
+
+Net: the cascade's bifurcation mechanism is *better positioned* than ΛCDM (no 3-4σ outliers) and MOND (no MOND-boost conflict with AGC 114905) *specifically*, but with calibration caveats. The cascade's value remains **interpretive** (DM = 2D universe deaths, DE = 4D event antigravity) and **conceptually parsimonious** (1 principle vs ΛCDM's 20+ free parameters), not predictively unique.
 
 ## The AGC 114905 vs KKR 25 Bifurcation — The 219× M_dyn/M_b DIFFERENCE
 
@@ -264,17 +270,26 @@ The 5/27/68 split is **observational data** (Planck 2018), not a cascade predict
 # HONEST FRAMING
 
 **What the cascade does well:**
-- AGC/KKR bifurcation — qualitatively reproduced by cascade (also predicted by ΛCDM via SMHM relation; cascade's value is interpretive mechanism + parsimony)
+- AGC/KKR bifurcation — qualitatively reproduced by cascade *deterministically from SFH* (ΛCDM can only accommodate via 3-4σ outliers in feedback; MOND fails on AGC 114905 specifically)
 - 17/17 test categories consistent with ΛCDM (cumulative consistency, not unique)
 - r(z) = (1+z)³ at all z (automatic from comoving conservation, not unique)
 - 5/27/68 as observational data (Planck 2018) with cascade qualitative interpretation
 - Action functional S with 5/10 constraints by construction
 - Honest about open work: 2D CFT expert needed for f_active and Thomson rate
 
-**Honest framing:** The cascade has no unique smoking guns. The AGC/KKR
-bifurcation is **also predicted by ΛCDM** via the stellar-mass-halo-mass
-(SMHM) relation, and MOND explains both galaxies from baryons alone
-(no DM needed). The cascade's **value** is:
+**Honest framing:** The cascade has no unique smoking guns, but the
+AGC/KKR bifurcation is *better explained* by the cascade than by its
+competitors: **ΛCDM** must invoke 3-4σ stochastic outliers in feedback/spin
+to scatter SMHM enough to get a 219× M_dyn/M_b split for similar-M*
+galaxies (calling that a "prediction" is generous — it's an outlier, not
+a prediction); **MOND** fails on AGC 114905 specifically (it should give
+a strong gravitational boost to this ultra-diffuse, low-SB, isolated
+galaxy, but the rotation curve is Newtonian, and the MOND EFE has no
+external field to draw on for an isolated field galaxy). The cascade's
+mechanism is *deterministic from SFH* (no 2D universe creation below
+E_crit, no stochastic outliers needed) but the proportionality constant
+is *calibrated* (Limitation 29) — only the *qualitative* bifurcation and
+*direction* of the shift are cascade-derived. The cascade's **value** is:
 
   - **Interpretive framework** (DM = 2D universe deaths, DE = 4D event antigravity)
   - **Parsimony** (1 principle vs ΛCDM's 20+ free parameters)

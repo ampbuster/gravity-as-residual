@@ -968,3 +968,50 @@ Pushed: github.com/ampbuster/gravity-as-residual (commit f6777f1)
 - Legacy development scripts preserved in calculations/legacy_tempcalc/
 
 Pushed: github.com/ampbuster/gravity-as-residual (commit pending)
+
+---
+
+## v2.7.3 sharpening (June 2026) — AGC/KKR competitor framing
+
+**External critique (Gemini Flash 2.5, June 2026):** The cascade's
+previous framing — that the AGC/KKR bifurcation is "also predicted
+by ΛCDM via SMHM" and "MOND, no DM needed" — was too generous to
+the competitors:
+
+- **ΛCDM via SMHM**: Both AGC 114905 and KKR 25 have similar stellar
+  masses (M* ~ 10⁶⁻⁷ M☉), so SMHM predicts *similar* halos for them
+  by construction. To get the observed 219× M_dyn/M_b split, ΛCDM
+  must invoke 3-4σ stochastic outliers in feedback/spin parameters.
+  Calling that a "prediction" is generous — it's an *outlier*, not
+  a *prediction*.
+
+- **MOND (no DM needed)**: MOND is deterministic from baryonic mass
+  alone, and *fails* on AGC 114905 specifically. The galaxy is
+  ultra-diffuse, low-surface-brightness, isolated — MOND should give
+  a strong gravitational boost, but the rotation curve is Newtonian
+  (the MOND boost is missing). The EFE has no external field to
+  draw on for an isolated field galaxy.
+
+**Honest correction (v2.7.3+):** The cascade's bifurcation mechanism
+is *better positioned* than either competitor *specifically*:
+- The cascade is *deterministic from SFH* (no 2D universe creation
+  below E_crit, no stochastic outliers)
+- No MOND-boost-vs-Newtonian conflict on AGC 114905
+- No 3-4σ SMHM outlier requirement
+
+But the cascade's proportionality constant is *calibrated* to dSph
+observations (Limitation 29), so only the *qualitative* bifurcation
+and *direction* of the shift are cascade-derived — not the absolute
+M_dyn values. The cascade's value remains **interpretive** and
+**parsimonious**, not predictively unique.
+
+**Files changed:**
+- `paper/paper.md` §8.1: sharpened from "0 unique predictions" to
+  "better positioned than ΛCDM or MOND specifically, with calibration
+  caveats"
+- `README.md`: honest framing block (lines 105-118) updated
+- `README.md` HONEST FRAMING section (lines 270-290) updated
+- `supporting/layman_summary.md`: comparison table note + bifurcation
+  section (lines 50, 67) updated
+
+Pushed: github.com/ampbuster/gravity-as-residual (commit pending)
