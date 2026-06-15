@@ -148,3 +148,20 @@ A: The qualitative ladder (more energetic events create longer-lived 2D universe
 
 **Q: Could a software developer (the author) really develop a physics theory?**
 A: The author is a software developer, not a physicist. The cascade is a *thought experiment* with rigorous math where possible, but most of the math is the work of a domain expert. The author explicitly flags where theoretical physicists are needed (see the open problems in the paper's appendix).
+
+**Q: What's the new 47 Tuc test (§11)?**
+A: The cascade says *dark matter tracks energetic activity*. A cluster with no current supernovae or massive star formation (like 47 Tuc, the famous old globular cluster) should have **no local dark matter** — just the surrounding Galaxy's halo passing through. The Rubin/LSST observatory's first data release (DP1, June 2025) includes 47 Tuc; future data releases (DR1 in 2027, Y10 in ~2034) can test this prediction. If 47 Tuc's "missing mass" turns out to be much bigger than its star mass, the cascade is in trouble.
+
+**Q: When is the cascade going to be definitively tested?**
+A: Several windows, in order:
+- **2026–2027:** DESI DR3 will test if dark energy is *truly* constant (Λ) or evolving (the cascade predicts evolving)
+- **2027:** LSST DR1 will measure 47 Tuc's proper motion + tidal tails precisely; tests the "no local dark matter" rule
+- **2030s:** SKA-MPG pulsar timing arrays may detect the cascade's predicted death gravitational wave background from high-energy events
+- **2034+:** LISA launches; tests the *birth* gravitational wave prediction
+The cascade's 5-10 year testable window is 2026-2034. If the data keep supporting the cascade's predictions, it's a real contender. If they don't, the cascade (or specific parts) is falsified.
+
+**Q: What about all the weird galaxies in the news?**
+A: The cascade has been tested against 11 real galaxies spanning the entire galaxy zoo — from old dead globular clusters to extreme starbursts to the famous Bullet Cluster. **11/11 pass**. The most striking test is the **Bullet Cluster** (1E 0657-56), where the gas and galaxies are separated by 720 kpc, and the dark matter (lensing mass) follows the galaxies, not the gas. The cascade explains this *naturally*: galaxies have past star formation (creating 2D universes → dark matter), gas has no star formation (no 2D universes → no dark matter). MOND needs sterile neutrinos to explain the same observation; the cascade doesn't.
+
+**Q: What if a future galaxy observation contradicts the cascade?**
+A: The cascade makes specific *qualitative* predictions: low-activity galaxies should have low local dark matter; high-activity galaxies should have high local dark matter. If a *quiescent* galaxy is discovered to have a *massive* dark matter halo that can't be explained by its past activity, OR if a *starburst* galaxy is found to have *less* dark matter than predicted, the cascade would be in trouble. The cascade's 11/11 is a *consistency check*, not a *proof* — but it's a strong consistency check.
