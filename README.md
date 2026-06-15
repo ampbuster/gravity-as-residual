@@ -9,11 +9,13 @@
 
 ---
 
-# 🏆 THE SMOKING GUN (and ΛCDM consistency)
+# 🏆 THE AGC/KKR BIFURCATION (Cascade vs Other Models)
 
-The cascade's principle is simple: every energetic event creates a 2D universe whose eventual energy return becomes dark matter. From this single rule, ONE concrete, quantitative, **unique** prediction follows — and it matches observation. A wide range of additional tests show the cascade is **consistent with ΛCDM**.
+The cascade's principle is simple: every energetic event creates a 2D universe whose eventual energy return becomes dark matter. From this single rule, the cascade predicts the **AGC 114905 vs KKR 25 bifurcation** (219× difference in M_dyn/M_b) — and it matches observation. A wide range of additional tests show the cascade is **consistent with ΛCDM**.
 
-## THE Smoking Gun: AGC 114905 vs KKR 25 — The 219× BIFURCATION
+**Honest framing:** The bifurcation is also predicted by ΛCDM (via SMHM relation) and MOND (no DM needed). The cascade's **value** is the **interpretive mechanism** (SFH energy ledger) and **parsimony** (1 principle vs ΛCDM's 20+ free parameters), not a unique prediction.
+
+## The AGC 114905 vs KKR 25 Bifurcation — The 219× M_dyn/M_b DIFFERENCE
 
 Two dwarf galaxies with similar baryonic content but very different **star formation histories** should have **dramatically different dark matter content** — because the cascade says *past* energetic activity is what fills the DM ledger.
 
@@ -43,7 +45,7 @@ $$\text{Bifurcation Metric} = \frac{M_{\text{total formed}}}{M_b\text{ (current)
 
 ---
 
-## #1 (Consistency with ΛCDM, not a smoking gun): Energy-scale-invariant in law, epoch-dependent in state
+## #1 (Consistency with ΛCDM): Energy-scale-invariant in law, epoch-dependent in state
 
 The cascade's principle is **energy-scale-invariant in law**: every energetic event above E_crit creates a 2D universe, regardless of when it happens. The *consequences* are epoch-dependent: the *rate* of 2D universe creation depends on what's going on at that epoch.
 
@@ -74,7 +76,7 @@ This is what the "scale-time invariance" means: the cascade is *energy-scale-inv
 
 ---
 
-## #2 (Consistency with ΛCDM, not a smoking gun): The cascade MATCHES ΛCDM at all z
+## #2 (Consistency with ΛCDM): The cascade MATCHES ΛCDM at all z
 
 This is the cumulative result of the v2.4 work. The cascade's three main quantitative predictions now all line up with ΛCDM:
 
@@ -153,7 +155,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a cascade predict
 
 ---
 
-# THE STORY (How the smoking guns were found)
+# THE STORY (How the bifurcation was found)
 
 1. **§4.45 AGC/KKR bifurcation (commit 269)**: cascade's **SMOKING GUN** — that SFH determines DM — quantitatively reproduced by a 722-line Python emulator. 820× → 219× bifurcation. This is the cascade's only **unique, cascade-specific** prediction that matches observation.
 
@@ -172,23 +174,26 @@ The 5/27/68 split is **observational data** (Planck 2018), not a cascade predict
 # HONEST FRAMING
 
 **What the cascade does well:**
-- AGC/KKR bifurcation (THE Smoking Gun) — qualitatively reproduced, **unique cascade prediction**
+- AGC/KKR bifurcation — qualitatively reproduced by cascade (also predicted by ΛCDM via SMHM relation; cascade's value is interpretive mechanism + parsimony)
 - 17/17 test categories consistent with ΛCDM (cumulative consistency, not unique)
 - r(z) = (1+z)³ at all z (automatic from comoving conservation, not unique)
 - 5/27/68 as observational data (Planck 2018) with cascade qualitative interpretation
 - Action functional S with 5/10 constraints by construction
 - Honest about open work: 2D CFT expert needed for f_active and Thomson rate
 
-**Honest framing:** The cascade has ONE smoking gun (AGC/KKR bifurcation).
-The other 17 tests show **consistency with ΛCDM**, which is significant
-(ΛCDM is widely studied and has the most accurate math) but not cascade-specific.
+**Honest framing:** The cascade has no unique smoking guns. The AGC/KKR
+bifurcation is **also predicted by ΛCDM** via the stellar-mass-halo-mass
+(SMHM) relation, and MOND explains both galaxies from baryons alone
+(no DM needed). The cascade's **value** is:
 
-**Even the AGC/KKR bifurcation is NOT unique to the cascade** — ΛCDM
-also predicts it via the stellar-mass-halo-mass (SMHM) relation, and
-MOND explains both galaxies from baryons alone (no DM). The cascade's
-**value** is the **interpretive mechanism** (SFH energy ledger) and
-**parsimony** (1 principle vs ΛCDM's 20+ free parameters), not a
-unique prediction. See `tempcalc/agc_kkr_other_models.py` for details.
+  - **Interpretive framework** (DM = 2D universe deaths, DE = 4D event antigravity)
+  - **Parsimony** (1 principle vs ΛCDM's 20+ free parameters)
+  - **Naturally reproduces the AGC/KKR bifurcation** without ad hoc feedback
+
+The other 17 tests show **consistency with ΛCDM** (which is significant —
+ΛCDM is widely studied and has the most accurate math) but not cascade-specific.
+
+See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 
 **What the cascade does NOT do:**
 - Derive 2D CFT Lagrangian (Limitation 26 OPEN, requires theoretical physicist)
@@ -240,7 +245,7 @@ unique prediction. See `tempcalc/agc_kkr_other_models.py` for details.
 **Most recent changes (v2.5):**
 - Honest H_0 framework added (§2.6.1) — cascade is qualitatively consistent with H_0 = 70 ± 3 but does NOT derive a specific value
 - Overstatement audit (5 claims cleaned) — see commit 282
-- One smoking gun + ΛCDM consistency (v2.7.1 honest reframe) — AGC/KKR bifurcation is the only unique cascade prediction; the others are ΛCDM consistency checks
+- AGC/KKR bifurcation reframed (v2.7.1) — also predicted by ΛCDM via SMHM; cascade's value is interpretive framework + parsimony, not unique prediction
 - HubbleTensionCalculator class removed (was a postdiction, not a derivation)
 - f_back notational distinction added (destruction channel derived, dark energy channel postulated)
 
