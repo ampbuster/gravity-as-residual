@@ -8,7 +8,7 @@
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (the **Dimensional Cascade**, DC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. The cascade is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite cascade (1D and 0D universes are nonsensical, so the cascade terminates at 2D). The cascade IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event above E_crit creates a 2D universe of proportional size). The cascade postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS_5 bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** (g_obs = g_bar + g_cum + g_active functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that the cascade has since replaced (cascade-MOND hybrid for RAR; Mechanism M for Hubble tension), not the cascade's framework. The cascade's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p<10⁻⁵⁰ partial correlation, g_+ approximately constant at galaxy scale across 4.5 decades in M_b but the correlation is not statistically significant, r=+0.19, p=0.22). The cascade's WEAKNESS is CMB-era physics (Hubble tension ACCEPTED as real tension, H_0,4D = 70.16 is a geometric-mean property but specific H_0 values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). The cascade documents 32 honest limitations with status. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (the **Dimensional Cascade**, DC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. The cascade is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite cascade (1D and 0D universes are nonsensical, so the cascade terminates at 2D). The cascade IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event above E_crit creates a 2D universe of proportional size). The cascade postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS_5 bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** (g_obs = g_bar + g_cum + g_active functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that the cascade has since replaced (cascade-MOND hybrid for RAR; Mechanism M for Hubble tension), not the cascade's framework. The cascade's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p<10⁻⁵⁰ partial correlation, g_+ approximately constant at galaxy scale across 4.5 decades in M_b but the correlation is not statistically significant, r=+0.19, p=0.22). The cascade's WEAKNESS is CMB-era physics (Hubble tension ACCEPTED as real tension, H_0,4D = 70.16 is a geometric-mean property but specific H_0 values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). The cascade documents 33 honest limitations with status. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete**.
 
 **5/27/68 honest framing (v2.7.1).** The 5/27/68 split is **observational data** (Planck 2018), not a cascade prediction. The cascade's qualitative interpretation is: 5% = baryons (real 3+1D), 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity. **The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped in v2.7.1 as a separate postulate** that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). The 5:27 inner split was a post-hoc fit, and the "three 5%" coincidence was a confusion. f_active is now a free parameter, not derived.
 
@@ -28,7 +28,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{\text{grav}} + S_{\text{matter}} + S_{\text{brane 2D}} + S_{\text{creation}} + S_{\text{destruction}}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles $g_+$ derivation (§4.17):** $g_+ = k \cdot \int \text{(event rate)} \cdot E_{\text{event}} \cdot \tau_{\text{2D}} / L_{\text{2D}}\, dt$, the cascade's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{\text{events}} / M_b\, dt$ scaling.
 
-**What the model is honest about (limitations).** The cascade is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{\text{active}} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon \sim 10^{-38}$, $f_{\text{back}} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. The cascade's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents 32 honest limitations across all major claims (see §7.0 Master Table; Limitation 14 was resolved by the v2.1 mathematical sketch; Limitation 32 was removed in v2.7 as data fitting).
+**What the model is honest about (limitations).** The cascade is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{\text{active}} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon \sim 10^{-38}$, $f_{\text{back}} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. The cascade's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents 33 honest limitations across all major claims (see §7.0 Master Table; Limitation 14 was resolved by the v2.1 mathematical sketch; Limitation 32 was removed in v2.7 as data fitting; Limitation 34 was added in v2.7.4 for E_primordial).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** The cascade is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so the cascade terminates at 2D). The earlier framing of "scale-invariance / infinite cascade" with a $\rho_{\text{crit}}$ regulator has been removed — the 2D floor is a structural limit, not a choice. The cascade IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event above E_crit creates a 2D universe of proportional size. This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a cascade to lower dimensions.
 
@@ -2261,9 +2261,9 @@ See `calculations/agn_host_dm_v2.py` and `calculations/agn_host_dm_v2_results.tx
 
 ---
 
-### 4.35 f_active Derivation from 4D Event Dynamics (Tier 1 #2, v2.3.1)
+### 4.35 f_active Derivation from 4D Event Dynamics (Tier 1 #2, v2.3.1) — REVERTED in v2.7.1
 
-The V1 status (commit 121) was that f_active was constrained to 0.05-0.18 by 3+1D data, with a 4× gap DOCUMENTED as Limitation 20. This V2 derives f_active from first principles using a 4D event energetics argument.
+The V1 status (commit 121) was that f_active was constrained to 0.05-0.18 by 3+1D data, with a 4× gap DOCUMENTED as Limitation 20. This V2 derives f_active from first principles using a 4D event energetics argument. **v2.7.1 update:** the identification τ_2D ~ 0.7 Gyr (gas consumption timescale, Bigiel+ 2008, Kennicutt-Schmidt law) is a SEPARATE POSTULATE identified by physical analogy, not a first-principles derivation. The "derivation" f_active = τ_2D / T_universe is REVERTED in v2.7.1: f_active is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). The numerical coincidence (0.051 from the postulate matches 0.0513 from MCMC) is striking but does not constitute a derivation. Limitation 20 status: PARTIAL → REVERTED (see §7.0).
 
 **The derivation:**
 
@@ -2679,7 +2679,7 @@ See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_predi
 
 | Quantity | Value | Reference |
 |----------|-------|-----------|
-| Median per-galaxy g_+ | 9.74 × 10⁻¹¹ m/s² | Lelli+ 2017: 1.20 × 10⁻¹¹ m/s² |
+| Median per-galaxy g_+ | 9.74 × 10⁻¹¹ m/s² | Lelli+ 2017: 1.20 × 10⁻¹⁰ m/s² |
 | Std (log g_+) | 0.57 dex | M/L noise dominates |
 | Correlation (log M_b, log g_+) | r = +0.19, p = 0.22 | NOT SIGNIFICANT |
 | Cluster enhancement (Tian+ 2024 / SPARC) | 17.5× | Cascade V_local prediction |
@@ -2774,7 +2774,7 @@ This is a **qualitative-level positive result.** It does not require any free pa
 
 **Testable prediction (new).** The cascade predicts a SPECIFIC relationship between the cosmic shear signal and the underlying baryon distribution. ΛCDM predicts σ_8(tot) is dominated by CDM; the cascade predicts σ_8(tot) is closer to σ_8(baryons). With cross-correlations between weak lensing and baryon tracers (HI, Hα, X-ray), future surveys (LSST, Euclid) can distinguish these.
 
-**Status.** The cascade's "DM tracks baryons" picture passes the cosmic shear test at the qualitative level. This is a NEW empirical success for the cascade (not in the 16/17 scorecard, since we don't have direct DES/KiDS data, but a theoretical prediction that matches observations). The cascade's scorecard is now effectively **17/17 with one new qualitative test** (CMB power spectrum, per-galaxy g_+, cosmic shear all consistent at the qualitative level).
+**Status.** The cascade's "DM tracks baryons" picture passes the cosmic shear test at the qualitative level. This is a NEW empirical success for the cascade (not in the 16/17 scorecard, since we don't have direct DES/KiDS data, but a theoretical prediction that matches observations). The cascade's scorecard is effectively 16/17 with additional *qualitative* tests (CMB power spectrum, per-galaxy g_+, cosmic shear all consistent at the qualitative level).
 
 See `calculations/cosmic_shear_cascade.py` and `calculations/cosmic_shear_cascade_results.txt` for the full numerical analysis.
 
@@ -3553,7 +3553,7 @@ The cascade is now INTERNALLY CONSISTENT under the broader principle. The CMB at
 - This is internally consistent: the same physics operates locally at every epoch, but the *consequences* (global DM density) depend on the cosmic SFR at each epoch
 - This is similar to standard cosmology: the laws of physics are time-translation invariant, but the *state* of the universe changes with time
 
-This is a meaningful distinction. The previous v2/v3 analysis was based on a bug and over-stated the cascade's consistency with high-z data, but the bug doesn't change the cascade's principle. The cascade is now documented as a candidate model with significant open issues at high-z (specifically, the 4D event's activity profile R_p(z) is unconstrained), not as a model that "passes 17/17 test categories" in the naive global formulation.
+This is a meaningful distinction. The previous v2/v3 analysis was based on a bug and over-stated the cascade's consistency with high-z data, but the bug doesn't change the cascade's principle. The cascade is now documented as a candidate model with significant open issues at high-z (specifically, the 4D event's activity profile R_p(z) is unconstrained), not as a model that "passes 16/17 test categories" in the naive global formulation.
 
 ---
 
@@ -3839,7 +3839,7 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify 32 honest limitations, with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*):
+This is a thought experiment, not a theory. We identify 33 honest limitations, with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*):
 
 ### 7.0 Master Limitations Table (v2.4)
 
@@ -3865,7 +3865,7 @@ This is a thought experiment, not a theory. We identify 32 honest limitations, w
 | 17 | 5/27/68 split derivation | **PARTIAL** (v2.4) | §2.6, §2.6.1, §4.44.1 | NOW ANCHORED as AdS$_5$ volume-to-boundary eigenvalue ratio (§2.6.1); specific zero-mode counting requires 2D CFT expert |
 | 18 | Hubble tension resolution | **CLOSED** (Mechanism M) | §4.40, §4.41 | ACCEPTED as a real tension |
 | 19 | g_obs = g_bar + g_cum + g_active form | **FALSIFIED** | §4.1 | Replaced by cascade-MOND hybrid |
-| 20 | f_active derivation | **CLOSED** (v2.3.1) | §4.35 | f_active = τ_2D / T_universe derived |
+| 20 | f_active derivation | **PARTIAL → REVERTED (v2.7.1)** | §4.35 | The v2.3.1 "derivation" f_active = τ_2D / T_universe used τ_2D ~ 0.7 Gyr (gas consumption timescale) as a SEPARATE POSTULATE identified by physical analogy. The empirical 33 s lifetime gives f_active ~ 10⁻¹⁷, NOT 0.05. The "derivation" is REVERTED in v2.7.1: f_active is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). A first-principles derivation remains OPEN. |
 | 21 | f_active ~ 0.05 vs 0.18 (LOCAL vs GLOBAL) | **PARTIAL** (v2.3.1) | §4.35 | Resolved as LOCAL vs GLOBAL |
 | 22 | Isothermal cumulative profile | OPEN | §2.6 | A specific 2D gravity model |
 | 23 | RAR population generalization | OPEN | §4.1 | A per-morphology derivation |
@@ -3881,12 +3881,12 @@ This is a thought experiment, not a theory. We identify 32 honest limitations, w
 | 33 (NEW) | Ω_DM = 0.27 as input postulate | OPEN (v2.6) | §2.5, §2.6 | The cascade postulates that all observed DM is 2D universe mass, time-compressed; the specific 27% value is an INPUT from Planck 2018, not a derivation; closing this would require a 2D CFT calculation that yields 27% as a numerical output |
 | 34 (NEW v2.7.4) | E_primordial (per-event energy of primordial 2D universes) | OPEN (v2.7.4) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* F_p, but does NOT specify the per-event energy E_primordial. The 2D universe lifetime τ_2D, growth factor G, and cumulative energy all depend on E_primordial. The cascade treats E_primordial as a FREE PARAMETER. Closing requires a derivation of E_primordial from the 4D event's internal dynamics. |
 
-**Summary (v2.7):**
+**Summary (v2.7.4):**
 - **OPEN**: 16 (48%) — require theoretical physics work beyond the cascade's current framework (L31, L33, L34 retained; L32 removed)
-- **PARTIAL**: 10 (31%) — qualitatively right, quantitatively calibrated
-- **CLOSED**: 4 (13%) — fully resolved by the cascade (L13 conceptual; L14, L18, L20)
+- **PARTIAL**: 10 (30%) — qualitatively right, quantitatively calibrated
+- **CLOSED**: 3 (9%) — fully resolved by the cascade (L13 conceptual; L14, L18)
 - **FALSIFIED**: 2 (6%) — specific mechanisms rejected by data, replaced by alternatives (L16, L19)
-- **REVERTED**: 2 (6%) — reversion to honest versions after failed improvements (L24, L25)
+- **REVERTED**: 3 (9%) — reversion to honest versions after failed improvements (L20 f_active "derivation" reverted in v2.7.1; L24, L25)
 - **Total**: 33 limitations (was 34 in v2.6; L32 removed in v2.7, L34 added in v2.7.4)
 
 **v2.7 update highlights (delta from v2.6):**
@@ -5329,8 +5329,8 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 
 **Status of the framework.** The framework is *structurally complete* as a geometric specification, with these confirmed state markers (v2.4):
 - **16/17 test categories pass** (16 pass, 1 confounded) on real observational data (SPARC, MaNGA, Pantheon+, Planck, Tian+ 2024, AGC 114905, KKR 25).
-- **0 strongly confirmed, 0 falsified** — the framework is *consistent* with current data without being *established* by it.
-- **33 honest limitations documented** (4 closed, 10 partial, 16 open, 2 falsified, 2 reverted; L32 removed in v2.7 as data fitting, L34 added in v2.7.4 for E_primordial), with specific closure criteria.
+- **0 strongly confirmed, 2 components falsified** (g_obs = g_bar + g_cum + g_active functional form in v2.2; Mechanism A Hubble in commit ~80) — both *specific functional forms*, since replaced by the cascade-MOND hybrid and Mechanism M, respectively. The cascade's *framework* (4D event → 3+1D → 2D) is NOT falsified; only the specific implementations that the cascade has since improved. The framework is *consistent* with current data without being *established* by it.
+- **33 honest limitations documented** (3 closed, 10 partial, 16 open, 2 falsified, 3 reverted; L32 removed in v2.7 as data fitting, L34 added in v2.7.4 for E_primordial, L20 reverted in v2.7.1 as f_active "derivation" was a phenomenological fit not a derivation), with specific closure criteria.
 - **2-3 active free parameters** in the v2.4 tensor framework: $G_5$ (5D Newton's constant), $\alpha$ (cascade coupling), and $\tau_{2D}$ (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., $f_{\text{back}} = 1$ from $J^A_{\text{bulk}} = 0$ BC) or *bounded* (e.g., $c \in \mathbb{Z}_{\geq 1}$, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 (μ, b, α, z_0) to 2 (μ, m₃₊₁D)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
 - **Coordinate-invariant stress-energy tensor** $T_{\mu\nu}^{\text{eff}}$ explicitly constructed in §4.44 with 5 verification checks all passing.
 
