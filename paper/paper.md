@@ -1,3 +1,5 @@
+**Version 2.7.1** (June 2026) — *5/27/68 honest framing: 5/27 inner split is observational data, not derived. The 5:27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped as a separate postulate that conflicts with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). The 5/27/68 split is treated as observational data (Planck 2018) with the cascade providing a qualitative interpretation (5% = baryons, 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity). The §2.6.1 "5/27 as topological eigenvalue" section is removed as a post-hoc fit. The "three 5% coincidence" section is removed as a confusion. f_active is now a FREE PARAMETER, not derived. The cascade documents 32 honest limitations. The 7/7 specific-case predictions are UNCHANGED (rename is framing, not physics).
+
 **Version 2.7** (June 2026) — *Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed.* The cascade's earlier attempts to explain the Hubble tension via 4-zone H(z) (local R_stellar boost, bulk baseline, secular cosmic web boost, primordial CMB drag) were removed in v2.7. The 4-zone spec was data fitting (8 free parameters for ~5 data points), and the bulk position distribution P(y) was internally inconsistent (the axion-like mass required deep-bulk 2D universes, but the local R_stellar boost required shallow-bulk 2D universes). The cascade now adopts Mechanism M: ACCEPT the Hubble tension as a real observational tension, not resolved. The cascade's intrinsic H_0,4D = 70.16 (geometric mean) is preserved as a non-trivial property. The Ω_DM = 0.27 input postulate, the cone-shape architecture, the time compression mechanism, and the Liouville 2D CFT framework are all preserved. Limitation 32 (4-zone H(z) derivation) is REMOVED (it was an empirical fit, not a derivation). The cascade documents 32 honest limitations (L31 and L33 retained, L32 removed). The 7/7 specific-case predictions are UNCHANGED.
 
 **For full version history and change list, see [`changelog.md`](../changelog.md) in the repo root.** The changelog contains detailed entries for v2.5, v2.4, v2.3.2, v2.3.1, v2.3.0, v2.2.1, v2.2, v2.1, and earlier versions.
@@ -5,6 +7,8 @@
 ## Abstract
 
 **EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (the **Dimensional Cascade**, DC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. The cascade is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite cascade (1D and 0D universes are nonsensical, so the cascade terminates at 2D). The cascade IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event above E_crit creates a 2D universe of proportional size). The cascade postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS_5 bulk geometry. Honest status: **17/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **0 falsified and 0 strongly confirmed**. The cascade's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p<10⁻⁵⁰ partial correlation, g_+ approximately constant at galaxy scale across 4.5 decades in M_b but the correlation is not statistically significant, r=+0.19, p=0.22). The cascade's WEAKNESS is CMB-era physics (Hubble tension ACCEPTED as real tension, H_0,4D = 70.16 is a geometric-mean property but specific H_0 values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). The cascade documents 32 honest limitations with status. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete**.
+
+**5/27/68 honest framing (v2.7.1).** The 5/27/68 split is **observational data** (Planck 2018), not a cascade prediction. The cascade's qualitative interpretation is: 5% = baryons (real 3+1D), 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity. **The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped in v2.7.1 as a separate postulate** that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). The 5:27 inner split was a post-hoc fit, and the "three 5%" coincidence was a confusion. f_active is now a free parameter, not derived.
 
 **Hubble tension position (v2.7, Mechanism M).** The cascade adopts Mechanism M: the Hubble tension is **ACCEPTED as a real observational tension**, not resolved. The cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements (SH0ES 73, TRGB 69.6, Planck 67.4, standard sirens 70 ± 12). The cascade's intrinsic H_0,4D = sqrt(H_CMB × H_local) = 70.16 is a non-trivial property of the data. The 5.6 km/s/Mpc gap between local and Planck-inferred H_0 is a ΛCDM-framework artifact, not a cascade problem. Earlier 4-zone H(z) attempts were removed in v2.7 (they were data fitting with 8 free parameters for ~5 data points, and the P(y) problem made them internally inconsistent).
 
@@ -14,11 +18,11 @@ We propose a unifying interpretation of three open problems in fundamental physi
 
 **What the model does well (data backing).** The cascade has been tested against multiple independent observations. **16/17 test categories** (RAR, cluster g_+, dwarf phase-transition, globular cluster DM, direct detection, isolated vs cluster dwarf, AGN host DM, halo M/M* vs z, missing satellites, too-big-to-fail, dSph M_dyn, MDAR, lensing flux ratio, cluster baryon fraction, BTFR, dSph σ(r) profile, BTFR SPARC, HI-DM correlation, Vflat-morphology; ~430 data points) are consistent with the cascade; **1/17 is confounded** (HI-DM correlation confounded by gas-radius correlation; the Vflat-morphology test, previously inconclusive, is now documented as inconclusive due to sample selection bias). Of the 16 passing tests, **6 are clean real-data passes (was 5; AGN host DM added in v2.3.1 with morphology matching, +6.4%, p=0.047), 4 are structural (cascade avoids ΛCDM problems by having no sub-halos), 5 are not discriminative vs ΛCDM, and 1 is qualitatively consistent (AGN host DM).** **7/7 specific cases** (SPARC, Tian+ 2024, Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) are also consistent.
 
-- **Radial Acceleration Relation (SPARC, 175 galaxies):** the cascade-MOND hybrid matches the RAR to a 10% median residual, comparable to MOND itself. MCMC posterior: $f_{\text{active}} = 0.0513^{+0.0070}_{-0.0073}$ (1σ), the fraction of cumulative 2D universe back-projection that is "active" at any moment. **DERIVABLE (conditional):** $f_{\text{active}} = \tau_{2D} / T_{\text{universe}} = 0.7/13.8 = 0.051$ with $\tau_{2D} \sim 0.7$ Gyr (gas consumption timescale). **Caveat:** τ_2D ~ 0.7 Gyr is identified by physical analogy, not from first principles. See §4.35.
+- **Radial Acceleration Relation (SPARC, 175 galaxies):** the cascade-MOND hybrid matches the RAR to a 10% median residual, comparable to MOND itself. MCMC posterior: $f_{\text{active}} = 0.0513^{+0.0070}_{-0.0073}$ (1σ), the fraction of cumulative 2D universe back-projection that is "active" at any moment. **CAVEAT (v2.7.1):** f_active ~ 0.05 is a phenomenological RAR fit, NOT derived from cascade first principles. The cascade's "derivation" f_active = τ_2D/T_universe = 0.7/13.8 = 0.051 used τ_2D ~ 0.7 Gyr (gas consumption timescale) as a SEPARATE POSTULATE, identified by physical analogy. The empirical 33 s lifetime gives f_active ~ 10^-17, not 0.05. f_active is a FREE PARAMETER. See §4.35.
 - **Cluster scale (Tian+ 2024, 50 BCGs):** the cluster $g_+$ enhancement to $\sim 1.3 \times 10^{-9}$ m/s² is naturally explained as the MOND external field effect ($V_{\text{local}}$ formula), matching Tian+ 2024's $1.7 \times 10^{-9}$ to within 30% (the cascade's MCMC 1σ range is 5.3e-10 to 2.7e-9, which does include 1.7e-9).
 - **Phase-transition principle (5 dwarf-galaxy tests):** the critical-energy threshold $E_{\text{crit}} \sim 10^{30}$ J correctly predicts: Sun (no detectable DM, as expected), DF2/DF4 (DM-poor, no recent energetic events), FCC 224 (DM-poor), AGC 114905 (DM-poor, low-mass SF below threshold), and KKR 25 (consistent via the S_destruction cumulative-return pathway: intermediate-age SF at 1-4 Gyr produced 2D universes whose energy has been returned to 3+1D as DM per the action's S_destruction). 5/5 specific dwarf cases consistent. The S_destruction energy-return mechanism is a model assumption, not a derivation; if the 2D universe's death energy instead escapes the 3+1D brane, KKR 25 would revert to a TENSION.
 - **Hubble constant:** the cascade is **qualitatively consistent** with $H_0 = 70 \pm 3$ across all measurements (SH0ES $73.04 \pm 1.04$, TRGB $69.6$, Planck CMB $67.4$, standard sirens $70 \pm 12$). The cascade does **not** derive a specific $H_0$ value — earlier multiplicative boost formula ($H_0 = 70.13$) was a postdiction, removed in v2.5. The 5.6 km/s/Mpc gap to Planck CMB-inferred $H_0 = 67.4$ is a **ΛCDM-framework artifact**, not a cascade prediction. See §2.6.1 (Honest H_0 framework) and Limitation 26.
-- **Cosmic energy budget:** the cascade is consistent with the observed 5% ordinary / 27% dark matter / 68% dark energy split (Planck 2018), with the 32% / 68% outer split *derivable* from projection kinematics and the 5:27 inner split *interpretable* as direct vs back-projected 3+1D content.
+- **Cosmic energy budget:** the cascade is consistent with the observed 5% ordinary / 27% dark matter / 68% dark energy split (Planck 2018). These values are **observational data**, not cascade predictions. The cascade provides a qualitative INTERPRETATION: 5% = baryons (real 3+1D energy), 27% = DM (cumulative 2D universe back-projection), 68% = DE (4D event antigravity). The 32%/68% outer split is "interpretable" from projection kinematics. **The 5:27 inner split (5% "active" vs 27% "cumulative") is dropped in v2.7.1 as a separate postulate that conflicts with the empirical 33 s lifetime** (which gives f_active ~ 10^-17, not 0.05).
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{\text{grav}} + S_{\text{matter}} + S_{\text{brane 2D}} + S_{\text{creation}} + S_{\text{destruction}}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles $g_+$ derivation (§4.17):** $g_+ = k \cdot \int \text{(event rate)} \cdot E_{\text{event}} \cdot \tau_{\text{2D}} / L_{\text{2D}}\, dt$, the cascade's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{\text{events}} / M_b\, dt$ scaling.
 
@@ -516,9 +520,12 @@ The cascade is a *cone* (one parent, many children, terminal at the children's l
 
 1. **Cone-shape is the default, not an alternative.** The cascade terminates at 2D by physical necessity. No $\rho_{\text{crit}}$ regulator is needed. The 1D-universes limitation is *closed*: 1D universes simply do not exist.
 
-2. **5/27/68 is a NESTED 2-way split, with 27% as a POSTULATE not a derivation.** The observed 5/27/68 has *three* numbers, but the cascade's framework interprets it as a *nested* 32/68 + 5/27 split. Critically, 5/27/68 is what we *observe* in 3+1D (Planck 2018) — this is *observational data* that *constrains* the 4D event's geometry, not a free property of the 4D event. The cascade *interprets* this 3+1D observational split in terms of its 4D physics:
-   - **Outer split (32% / 68%):** 32% of the 4D event's energy projects to 3+1D as the *energetic* content (matter + DM); 68% remains as the *vacuum residue* (4D event's antigravity = our DE). The 32/68 split is *derivable* from the cascade's dimensional-projection kinematics.
-   - **Inner split (5% / 27% within the 32%):** within the energetic 3+1D, 5% is ordinary matter (direct 3+1D projection) and 27% is dark matter (back-projection of 2D universes, time-compressed). The 5:27 ratio is a *postulate* of the cascade: we assume that ALL of the observed $\Omega_{\text{DM}} = 0.27$ is 2D universe mass, time-compressed via the 5D AdS_5 bulk geometry. This is an input to the cascade, not a derivation.
+2. **5/27/68 is OBSERVATIONAL DATA, not derived.** The 5/27/68 split is *observational* (Planck 2018) and *constrains* the 4D event's geometry, not a free property of the cascade. The cascade's qualitative interpretation is:
+   - **5% ordinary matter:** baryons (real energy in 3+1D).
+   - **27% dark matter:** cumulative 2D universe back-projection (geometric effect).
+   - **68% dark energy:** 4D event antigravity (geometric effect).
+   - **Outer split (32% / 68%):** 32% of the 4D event's energy projects to 3+1D as the energetic content (matter + DM); 68% remains as vacuum residue (DE). The 32/68 split is "interpretable" from projection kinematics.
+   - **5/27 INNER SPLIT IS DROPPED (v2.7.1).** The earlier attempt to interpret 5% as "active 2D universes" and 27% as "cumulative deaths" was a SEPARATE POSTULATE that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). The cascade now treats 27% as the cumulative 2D universe effect without further breakdown into active/deaths.
    - **The cascade postulates that all DM is 2D universe mass, time-compressed.** The observed $\Omega_{\text{DM}} = 0.27$ is used as an INPUT to constrain the cascade's free parameters (specifically, the time compression factor $e^{-ky}$ and the 2D universe creation rate). The cascade does NOT derive 27% from the Liouville 2D CFT; it uses the observed value as a constraint on the 2D-3+1D conversion.
 
 3. **The cascade is more parsimonious.** A cone has 1 parameter (depth = 2), whereas a fractal has infinite depth. The cone-shaped cascade has *fewer* free parameters and a *cleaner* structure: 1 parent (4D event), 1 child level (3+1D universe), 1 grandchild level (2D universes), and *terminal*. The 1D-universe "limitation" in §7 is *closed* by the cone-shape: 1D universes simply *do not exist* in this refinement.
@@ -574,36 +581,24 @@ This formula is *empirical* (a fit to observation) and *suggestive* (it has a gr
 
 In the cascade's framework, these 3+1D observables *constrain* the 4D event:
 - The **32/68 split** (5 + 27 vs 68) measures the cascade's projection efficiency: what fraction of the 4D event's energy lands on the 3+1D brane (32%) vs. remains as 4D antigravity (68%). This is a *measurement* of the bulk-brane coupling.
-- The **5/27 inner split** (within the 32%) measures the direct-vs-back-projected ratio: 5% is the 3+1D content directly deposited by the 4D event; 27% is the cumulative 2D universe gravity back-projected to 3+1D. This ratio is set by the 4D event's energy distribution over time (and the resulting star formation history in 3+1D).
-- The **5/27 = 0.185 ratio** can be related to a *timescale ratio*: in a steady-state cascade, the cumulative 2D universe gravity scales with the *integrated* past star formation, while direct 3+1D content scales with the *current* star formation. The ratio T_universe/t_current ≈ 13.8/2.55 ≈ 5.4 ≈ 27/5 corresponds to a "current" timescale of ~2.5 Gyr — consistent with the cosmic star formation rate density (Madau & Dickinson 2014), which peaks at z~2 (3.3 Gyr after the Big Bang) and declines over the subsequent ~3 Gyr.
+- The **5/27 inner split** is DROPPED in v2.7.1 (see below). Earlier attempts to interpret 5% as "direct 3+1D content" and 27% as "cumulative 2D universe deaths" were separate postulates, not derived. The 27% is now treated as the cumulative 2D universe effect without further breakdown.
 
-So the cascade is not as "unfalsifiable" as it might first appear: its 4D event's geometry is *constrained* by 3+1D observations (5/27/68 from cosmology, f_active from cosmic star formation history). A specific implementation of the cascade would need to *derive* these observational constraints from the 4D event's specific physics, which is the future-work item.
+So the cascade is not as "unfalsifiable" as it might first appear: its 4D event's geometry is *constrained* by 3+1D observations (5/27/68 from cosmology). A specific implementation of the cascade would need to *derive* these observational constraints from the 4D event's specific physics, which is the future-work item.
 
-*A curious coincidence: the "5%" appearing in three places.* The number 5% appears prominently in three different parts of the cascade:
+*The "three 5%" coincidence was a confusion (REMOVED in v2.7.1).* The cascade's previous framework conflated three different "5%" numbers:
 
-1. **5% baryon fraction (ordinary matter, from BBN).** This is the fraction of the universe's total energy density in ordinary matter, measured by Big Bang nucleosynthesis (D, 4He, 7Li abundances) and CMB + large-scale structure.
+1. **5% baryon fraction (ordinary matter, from BBN/CMB).** This is observational (Planck 2018) — the fraction of the universe's total energy density in ordinary matter. This is a *real* measurement.
 
-2. **5% / 27% ratio (cascade's direct / cumulative 2D universe gravity).** In the cascade's framework, the 5% is the "direct 3+1D" content (ordinary matter) and the 27% is the "cumulative 2D universe gravity" (dark matter). The 5/27 = 0.185 ratio is set by the 4D event's projection efficiency.
+2. **5% / 27% ratio (cascade's direct / cumulative 2D universe gravity).** This was a SEPARATE POSTULATE (5:27 inner split) that was DROPPED in v2.7.1 because it was a post-hoc fit that conflicted with the empirical 33 s lifetime. The 5/27 ratio is no longer a cascade prediction.
 
-3. **f_active ≈ 0.05 (active fraction of dark matter, from RAR fit).** In the cascade, f_active is the fraction of dark matter that is "current activity" (concentrated near stars, follows stellar profile). The RAR fit (commits 113-114, 119) found f_active ≈ 0.05 gives the best match to the empirical RAR for the Milky Way.
+3. **f_active ≈ 0.05 (active fraction of dark matter, from RAR fit).** This was a phenomenological fit to the RAR (MCMC gave 0.0513 ± 0.0073) with τ_2D = 0.7 Gyr (gas consumption timescale) as a separate postulate. The empirical 33 s lifetime gives f_active ~ 10^-17, NOT 0.05.
 
-**Are these three 5% related?** In the cascade's framework, they might be — through the cosmic star formation rate (SFR) timescale:
+These are three *different* numbers with three *different* sources. The cascade conflated them by trying to derive all three from a single τ_2D = 0.7 Gyr timescale. After v2.7.1, the conflation is dropped:
+- 5% baryon fraction: observational (Planck)
+- 5/27 inner split: DROPPED (was a separate postulate)
+- f_active ~ 0.05: phenomenological RAR fit, not derived
 
-- The cosmic SFR density (Madau & Dickinson 2014) peaked at z~2 (~3.3 Gyr after the Big Bang) and has been declining since. The "current" timescale for star formation in galaxies is ~2-3 Gyr (gas consumption timescale in spirals, similar to the cosmic SFR decline timescale).
-- The 5/27 ratio = T_universe / t_current = 13.8 Gyr / 2.5 Gyr ≈ 5.5, close to 27/5 = 5.4.
-- f_active = t_current / T_universe = 0.05 (with t_current ~ 0.7 Gyr) — though this is a *shorter* timescale than the cosmic SFR.
-
-**Honest assessment:**
-- The 5% baryon fraction and the 5/27 cascade ratio are connected through the cosmic SFR timescale (t_current ~ 2.5 Gyr).
-- The f_active ~ 0.05 corresponds to a *different* timescale (t_current ~ 0.7 Gyr, the gas consumption timescale), which is a *shorter* timescale than the cosmic SFR peak.
-- In the cascade, f_active should be the *active* fraction of dark matter — the 2D universes currently being created. If we identify this with the cosmic SFR (peaked at z~2, declining since), then t_current ~ 2.5 Gyr and f_active should be ~0.18, not 0.05.
-- The 4x discrepancy between f_active ~ 0.05 (RAR fit) and f_active ~ 0.18 (cosmic SFR timescale) is a real tension in the cascade. **[RESOLVED in §4.35]: this is a LOCAL vs GLOBAL distinction (gas consumption vs cosmic SFR peak), not a contradiction.**
-
-**Possible resolution:** The cascade's "current activity" might refer to a shorter timescale than the cosmic SFR peak. The 0.7 Gyr timescale is the gas consumption timescale in spiral galaxies (Bigiel et al. 2011), which is the time over which the current gas reservoir will be converted to stars. This is a *shorter* timescale than the cosmic SFR peak (~2.5 Gyr).
-
-So the three 5% are not a perfect coincidence, but they are not all the same 5% either. The 5% baryon fraction ↔ cosmic SFR timescale, while f_active ~ 0.05 ↔ gas consumption timescale. The cascade's specific implementation would need to specify which timescale is the "active" one.
-
-This is left as a future-work item for a specific cascade implementation.
+**Honest v2.7.1 position:** the cascade is consistent with H_0 = 70 ± 3 and 5/27/68 (Planck 2018), but it does NOT derive these values. The 5% baryon fraction is observational; the 27% DM is observed; the cascade INTERPRETS the 27% as cumulative 2D universe back-projection, but the specific 2D universe parameters (m_2D, e^{-ky}, τ_2D) are free postulates. The "three 5%" coincidence was a confusion that has been resolved by dropping the 5:27 inner split derivation.
 
 *Deriving the growth factor from 2D universe dynamics.* The above self-consistency picture uses the growth factor as a *postulate* in the 10⁵–10¹⁰ range, with the *specific* value left unspecified. We can, however, *derive* the growth factor from the 2D universe's own Friedmann–Robertson–Walker (FRW) dynamics, using only the universal-split assumption and a physically reasonable 2D universe equation-of-state. This closes the limitation noted in the *A quantitative attempt at the DM calculation* paragraph above, by showing that the growth factor is *not* a free parameter of the model — it is a *consequence* of the 2D universe's own physics.
 
@@ -757,44 +752,31 @@ Given these constraints, the three possibilities for the boundary become:
 
 The model does *not* currently specify which of these is correct, but the *gravity-flip* constraint is now explicit: the antigravity boundary is *abrupt*, not gradual. The matter boundary can be either abrupt (option 1) or gradual (option 2, Big Freeze) or transformative (option 3). A specific implementation would need to specify the *exact* nature of the matter boundary, which is left to future work. We note that *option 2* (gradual matter fade-out with abrupt antigravity stop) is the most *natural* and *observationally consistent* interpretation, and combines the cascade's antigravity constraint with the standard Big Freeze picture.
 
-#### 2.6.1 The 5/27 split as an AdS_5 volume-to-boundary surface-area eigenvalue ratio (v2.4)
+#### 2.6.1 The 5/27 inner split — REMOVED in v2.7.1 (was a separate postulate)
 
-*This subsection elevates the 5/27 inner split (previously mentioned in §2.6 *Cone-shaped hierarchy* and §4.44.1 *v2.4 Refactor*) to a formally anchored topological invariant.* In the v2.4 hardening of the tensor framework (§4.44.1, Task 4), the 5/27 ratio is repositioned not as a free parameter and not as a fit, but as a *topological eigenvalue* of the bulk geometry — the ratio of the AdS_5 bulk volume to the 3+1D brane boundary surface area. This subsection makes the anchoring explicit.
+*This subsection was REMOVED in v2.7.1.* The earlier v2.4 attempt to elevate the 5/27 inner split to a "topological eigenvalue" of the AdS_5 bulk-to-boundary map was a separate postulate, not derived from the cascade's first principles. The specific problems were:
 
-**Geometric setup.** Following the v2.4 specification (`supporting/T_tensor_v24_refactor.md` §3 and §7), the cascade's bulk is taken to be a slice of AdS_5 with curvature radius $R_{\text{AdS}_5}$ (the standard Randall-Sundrum extra dimension, stabilized by a Goldberger-Wise scalar in the original construction, though the specific stabilization mechanism is *not* required for the topological argument below). The 3+1D brane sits at the conformal boundary of this AdS_5 slice. The bulk volume is:
+1. **5/27 was a fit, not a derivation.** The formula 5/27 = V_5/(A_4 R_AdS_5) was a *post-hoc fit* that required specific choices (N_cascade = 3, V_5/A_4 ratio = 27). The honest finding: a Monte Carlo test of 50+ formula families showed that random formulas find similar matches ~92% of the time, so the 5/27 fit is not statistically significant.
 
-$$V_5 = \int_{\text{AdS}_5 \text{ slice}} \sqrt{-G_5}\, d^5 x = \text{(finite, cutoff-regulated)}$$
+2. **The "eigenvalue" interpretation required the pre-v2.1 4-level cascade.** The formula used N_cascade = 3 (4D, 3+1D, 2D levels) plus 1D, but v2.1+ uses cone-shape with 1D excluded. With N_cascade = 3 (the v2.1+ count), the formula gives Ω_o = 1/12 = 8.3%, Ω_DM = 3/9 = 33.3%, Ω_DE = 58.3% — *none* of which match the observed 5/27/68. The formula was *tuned to a model that no longer exists*.
 
-The 3+1D boundary surface area at radius $r_c$ (the IR brane in RS-II language, or the brane position in the cascade's projection picture) is:
+3. **The 5% "active" interpretation is INCONSISTENT with the empirical 33 s lifetime.** The cascade's earlier interpretation of 5% as "active 2D universes" required f_active = 0.05, but the empirical 33 s lifetime gives f_active ~ 10^-17. The 5:27 inner split was a *post-hoc rationalization* based on a f_active fit to the RAR (MCMC gave 0.0513 ± 0.0073), with τ_2D = 0.7 Gyr (gas consumption timescale) as a separate postulate.
 
-$$A_4(r_c) = \int_{r = r_c} \sqrt{-g_4}\, d^4 x = V_3 \cdot r_c^{-1} \cdot (\text{regulated})$$
+4. **The "three 5%" coincidence was a confusion.** The cascade's previous framework conflated three different "5%" numbers:
+   - 5% baryon fraction (Planck 2018 observational)
+   - 5/27 cascade ratio (postulated inner split)
+   - f_active ~ 0.05 (RAR MCMC phenomenological fit)
+   These are three *different* numbers with three *different* sources. The cascade conflated them by trying to derive all three from a single τ_2D = 0.7 Gyr timescale.
 
-**The 5/27 as a holographic eigenvalue ratio.** The 5/27 inner split is *not* a free parameter, *not* a fit, and *not* a calibration to data. It is the *topological eigenvalue* of the bulk-to-boundary map:
-
-$$\boxed{\frac{\Omega_{\text{DM}}}{\Omega_{\text{ordinary}}} = \frac{27}{5} = \frac{V_5}{A_4 \cdot R_{\text{AdS}_5}}}$$
-
-This is the *holographic* statement: the cumulative 2D universe gravity (DM, 27%) divided by the direct 3+1D projection (ordinary matter, 5%) equals the AdS_5 bulk volume divided by the 3+1D boundary area, in natural units of $R_{\text{AdS}_5}$. The 3+1D observer at the boundary measures the *integrated* effect of the 5D bulk (the 27% DM contribution) vs. the *direct* 3+1D content (the 5% ordinary matter), and this ratio is *geometrically determined* by the bulk-to-boundary map.
-
-**Why this is topological.** The ratio $V_5 / A_4$ is a *topological invariant* of the bulk-boundary system in the following sense:
-1. *It is independent of the cutoff* $r_c$: as $r_c \to 0$ (UV limit), $V_5$ grows as $r_c^{-1}$ (the AdS_5 volume divergence) and $A_4$ also grows as $r_c^{-1}$, so the ratio is finite and cutoff-independent.
-2. *It is independent of the 4D metric on the boundary*: the ratio is *bulk* data projected onto the boundary, so any conformal rescaling of the boundary metric cancels.
-3. *It is the unique ratio* that is *both* (a) a 5D integral (extensive) and (b) a 4D boundary area (intensive), and (c) dimensionless. By dimensional analysis of the AdS_5/CFT_4 correspondence, the unique such ratio in a holographic setup with $N_{\text{cascade}}$ levels is $V_5 / A_4 \cdot R_{\text{AdS}_5}^{-1} = N_{\text{cascade}}^3 - 1 = 27$ for $N_{\text{cascade}} = 3$ (the 4D, 3+1D, and 2D levels, with 5/27 representing the *partition* of the boundary content).
-
-**Eigenvalue interpretation.** In the language of spectral geometry (Connes 1995, Chamseddine-Connes 1996), the ratio $V_5 / A_4$ is an *eigenvalue* of the Dirac-like operator on the AdS_5 bulk restricted to the boundary. The 27 in the denominator is the *smallest* such eigenvalue (the *zero-mode* of the bulk-brane coupling, in Kaluza-Klein language), and the 5 in the numerator is the *count* of zero-modes that are *not* projected back. The 5/27 ratio is therefore the *zero-mode count* of the bulk-to-boundary Dirac operator, normalized by its first non-zero eigenvalue.
-
-**Connection to observations.** The 27% DM / 5% baryon ratio is a *direct* measurement of $V_5 / A_4 R_{\text{AdS}_5}$. In the cascade, this means:
-- 3+1D observers can *infer* the AdS_5 bulk volume from the DM fraction.
-- 3+1D observers can *infer* the boundary area from the baryon fraction.
-- The 5/27 ratio is a *holographic observable* of the cascade, not a free parameter.
-
-**What this subsection does and does not establish.**
-- ✓ *Established*: the 5/27 ratio is *anchored* as a topological eigenvalue *of form* V_5/(A_4 R_AdS_5). It is no longer a *free dynamical parameter*; it is repositioned as a *topological feature* of the bulk geometry. **Caveat:** the specific numerical value 27/5 is *not yet derived* — it requires a 2D CFT calculation of the zero-mode counting. The anchoring is *structural* (the 5/27 has the form of a topological invariant), not *quantitative* (the specific value 27/5 is still an empirical anchor, not a first-principles prediction).
-- ✗ *Not established*: the *specific* value $V_5 / A_4 R_{\text{AdS}_5} = 27/5$ is *required* by holographic consistency (counting zero-modes of the bulk-brane Dirac operator), but the *derivation* of this specific counting (why the 4D event has 1 zero-mode and the 3+1D has 5) requires a specific implementation of the 2D CFT and its zero-mode structure. This is left to the *2D CFT expert* (Limitation 26).
-- ✗ *Not established*: the *stability* of this ratio under cosmological evolution. The current treatment assumes the bulk geometry is *static* (eternal AdS_5 slice); a more complete treatment would derive the ratio in a time-dependent bulk geometry (e.g., a cosmological AdS_5 with rolling radion). This is also left to future work.
-
-**Cross-references.** This subsection anchors the 5/27 ratio in §4.44.1 *v2.4 Refactor* Task 4, §4.44 *Coordinate-Invariant Tensor Construction* T^fossil_μν component, and the central charge $c$ bound in §4.44.1 Task 2 (the $c$ in the Liouville/Polyakov trace anomaly $\sigma = (c/24\pi) \int R^{(2)} \sqrt{-\gamma} d^2\xi$ is the *number* of zero-modes in the bulk, which sets the 5 in the numerator). The 0.1 calibration coefficient in the §4.45 phenomenological emulator is a *phenomenological* stand-in for this topological eigenvalue at the galaxy-scale phenomenology level (see §7.0 Master Limitations Table, v2.4 update).
-
-**Verification:** the calculation `calculations/verify_v24_refactor.py` Check D (geometric consistency under all 4 v2.4 modifications) covers the 5/27 eigenvalue ratio; the supporting document `supporting/T_tensor_v24_refactor.md` §3.4 derives the ratio from the bulk-brane Dirac operator.
+**What this section REPLACES (v2.7.1 honest framing):**
+- 5/27/68 is OBSERVED DATA (Planck 2018), not a cascade prediction.
+- The cascade's qualitative interpretation:
+  - 5% ordinary = baryonic matter (real 3+1D energy)
+  - 27% DM = 2D universe back-projection (geometric effect)
+  - 68% DE = 4D event antigravity (geometric effect)
+- The 5/27 INNER SPLIT is DROPPED. The 27% is treated as the cumulative 2D universe effect without further breakdown into active/deaths.
+- f_active is a FREE PARAMETER, not derived.
+- The cascade's 5D framework (RS-II) provides the structure, but the specific 2D universe parameters (m_2D, e^{-ky}, τ_2D) are postulates.
 
 ### 2.6.1 Honest H_0 framework (v2.5)
 
@@ -2531,13 +2513,13 @@ The cascade's f_active = τ_2D / T_universe = 0.7/13.8 = 0.051 requires τ_2D = 
 
 This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with M_2D ~ 1e46 J and gas consumption rate ~ 1e28 W would naturally have a 0.7 Gyr lifetime.
 
-**Q4 (Q4 again): Can the 5/27 inner split emerge from dynamics?** YES, via f_active.
+**Q4 (Q4 again): Can the 5/27 inner split emerge from dynamics?** NO, the 5/27 inner split was DROPPED in v2.7.1.
 
-This was already addressed in §4.35. The 5/27 inner split IS f_active, derivable from τ_2D / T_universe for different τ_2D values:
+The 5/27 inner split was previously claimed to be derivable from f_active = τ_2D / T_universe:
 - τ_2D = 0.7 Gyr → f_active = 0.05 (gas consumption timescale, matches MCMC)
 - τ_2D = 2.5 Gyr → f_active = 0.18 (cosmic SFR peak timescale, matches 5/27 ratio)
 
-The 4× gap is the LOCAL vs GLOBAL distinction (§4.35). **Limitation 17 (5/27 derivation) is RESOLVED.**
+But the empirical 33 s lifetime gives f_active ~ 10^-17, NOT 0.05. The 5/27 inner split was a SEPARATE POSTULATE based on a phenomenological RAR MCMC fit, and it conflicted with the empirical 33 s lifetime. In v2.7.1, the 5/27 inner split is DROPPED. **Limitation 17 (5/27 derivation) is reopened as NOT DERIVED.**
 
 **Q5: Does the cascade derive a specific H_0?** (v2.5 update)
 

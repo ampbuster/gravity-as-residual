@@ -1,3 +1,42 @@
+## v2.7.1 (June 2026) — 5/27/68 honest framing: 5/27 inner split is observational, not derived
+
+**MAJOR HONEST CLEANUP (5/27/68 inner split removed).**
+
+The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a SEPARATE POSTULATE that conflicted with the empirical 33 s lifetime. In v2.7.1:
+
+**What was REMOVED:**
+1. **§2.6.1 "5/27 as topological eigenvalue" section.** The earlier v2.4 attempt to elevate the 5/27 ratio to a topological invariant of the AdS_5 bulk-to-boundary map was a post-hoc fit, not derived. The formula required N_cascade = 3 (4D, 3+1D, 2D), but the v2.1+ cone-shape has only 2 transitions, and the formula gives wrong values (8.3%/33.3%/58.3%, not 5%/27%/68%).
+
+2. **"Three 5% coincidence" section.** The cascade's previous framework conflated three different "5%" numbers (5% baryon fraction, 5/27 cascade ratio, f_active ~ 0.05) and tried to derive all from τ_2D = 0.7 Gyr. The conflation is dropped.
+
+3. **f_active = 0.05 as "derivable" from τ_2D/T_universe.** The empirical 33 s lifetime gives f_active ~ 10^-17, not 0.05. f_active is now a FREE PARAMETER.
+
+**What was PRESERVED:**
+1. **5/27/68 as observational data (Planck 2018).** The cascade provides a qualitative interpretation:
+   - 5% ordinary = baryons (real 3+1D energy)
+   - 27% DM = cumulative 2D universe back-projection
+   - 68% DE = 4D event antigravity
+2. **32%/68% outer split** is "interpretable" from projection kinematics.
+3. **Ω_DM = 0.27 input postulate (L33).**
+4. **All v2.6 and v2.7 features preserved** (cone-shape, time compression, Mechanism M, etc.)
+
+**What this v2.7.1 is:**
+- A HONEST position on 5/27/68 (observational data, not cascade prediction)
+- A CLEANUP of post-hoc rationalizations (5/27 fit, three 5% coincidence, f_active derivation)
+- A preservation of the qualitative interpretation (DM = 2D universes, DE = 4D event)
+
+**What this v2.7.1 is NOT:**
+- Not a derivation of 5/27/68 from first principles
+- Not a claim that the cascade predicts specific H_0 or DM fraction
+- Not a refinement of the cascade's 2D universe parameters
+
+**Files modified:**
+- `paper/paper.md`: version header, executive summary, §2.6 cone-shape hierarchy, §2.6.1 5/27 removed, "three 5%" section removed
+- `changelog.md`: this entry
+- (to be added: tempcalc/5_27_68_honest_framing.md, tempcalc/why_5pct_active.md)
+
+---
+
 ## v2.7 (June 2026) — Hubble tension accepted (Mechanism M), 4-zone H(z) attempts REMOVED
 
 **MAJOR SIMPLIFICATION (cleaner framework).** The cascade adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved.

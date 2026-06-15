@@ -1,5 +1,9 @@
 # Layman Summary: Gravity as Residual
 
+**v2.7.1 — June 2026** (*5/27/68 honest framing: 5/27 inner split is observational, not derived*)
+
+The cascade's 5/27/68 split is treated as observational data (Planck 2018) with the cascade providing a qualitative interpretation (5% = baryons, 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity). The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped as a separate postulate that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). f_active is now a FREE PARAMETER. The §2.6.1 "5/27 as topological eigenvalue" section and the "three 5% coincidence" section are removed.
+
 **v2.7 — June 2026** (*Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed*)
 
 The cascade accepts the Hubble tension as a real observational tension, not resolved. The cascade's intrinsic H_0,4D = 70.16 (geometric mean of H_CMB × H_local) is a non-trivial property of the data. The 4-zone H(z) attempts were removed because they were data fitting (8 free parameters for ~5 data points) and the P(y) problem made them internally inconsistent.

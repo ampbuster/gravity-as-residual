@@ -4,8 +4,8 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 2.7 (June 2026) — *Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed*
-**Status:** Public release. The cascade accepts the Hubble tension as a real observational tension, not resolved. Earlier 4-zone H(z) attempts were data fitting (8 free parameters for ~5 data points) and the P(y) problem made them internally inconsistent. They are removed in v2.7.
+**Version:** 2.7.1 (June 2026) — *5/27/68 honest framing: 5/27 inner split is observational, not derived. The 5:27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped as a separate postulate that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05).*
+**Status:** Public release. 5/27/68 is treated as observational data (Planck 2018) with the cascade providing a qualitative interpretation. Earlier 4-zone H(z) attempts (v2.7) and the 5/27 inner split (v2.7.1) are removed as post-hoc fits.
 
 ---
 
