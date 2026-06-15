@@ -21,6 +21,7 @@ These calculations are from the v2.7 era of the cascade, focused on:
 | `v27_2d_universe_population_spectrum.py` | 26 event types (SN, AGN, BH, NS, GRBs, X-ray bursts, etc.) with Ω_DM contribution |
 | `v27_cascade_g_plus_derivation.py` | 5 approaches to derive g_+ from cascade (c × H_0/2π, galaxy properties, 2D universe population, 2D CFT, natural scales) |
 | `v27_cascade_cmb_anisotropy.py` | 4 CMB questions (2D universe population at z=1100, acoustic peak, damping tail, specific predictions) |
+| `v27_boltzmann_liouville_rsii_smoking_guns.py` | 10 cross-framework smoking gun tests (CMB pol, ISW, lensing, structure formation, P(k), BBN, reionization, B-modes, SZ, 21cm) |
 
 ## Key Findings
 
@@ -68,6 +69,18 @@ These calculations are from the v2.7 era of the cascade, focused on:
 - Damping tail: same as ΛCDM (no DM-photon coupling)
 - Cascade does NOT predict: N_eff, H_0 at z=1100, τ_reion, f_NL
 - HONEST: cascade is consistent with ΛCDM but adds no new CMB predictions
+
+### From Boltzmann + Liouville + RS-II smoking gun search
+- Tested 10 cross-framework predictions
+- Cascade's 2D universes are CDM-like, so they don't affect CMB, BBN,
+  reionization, 21cm, or ISW differently from ΛCDM
+- The cascade does NOT have new smoking guns beyond the 3 existing ones
+- POSSIBLE EXCEPTIONS (require more work):
+  - 2D universe annihilation signals
+  - Bulk graviton mass from RS-II
+  - 2D universe population statistics
+  - Modified CMB-cold-spot correlation
+  - Cross-correlations between 2D universe events and GW signals
 
 ## What the cascade can claim
 
