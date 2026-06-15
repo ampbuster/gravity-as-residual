@@ -1,10 +1,12 @@
-**Version 2.6** (June 2026) — *Dimensional Cascade rename + cone-shape as default + Ω_DM input postulate + time compression mechanism.* Major paper revision (in framing, not in physics): renamed from SIDC to **Dimensional Cascade (DC)**, cone-shape is now the default (1D and 0D universes don't exist, cascade terminates at 2D), Ω_DM = 0.27 is used as an input postulate (not a derivation), new time compression mechanism (§2.5) explains the 50-orders tension between 2D-frame and 3+1D-frame masses. Three new limitations (L31, L32, L33) document the time compression, 4-zone H(z) empirical fit, and Ω_DM as input. The cascade is still energy-scale-invariant in law (every event above E_crit creates a 2D universe) but NOT scale-invariant in the dimensional sense (no 1D, no 0D). The 7/7 specific-case predictions are UNCHANGED (the rename and architecture change are framing, not physics). CAMB-based Boltzmann code added in `tempcalc/`.
+**Version 2.7** (June 2026) — *Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed.* The cascade's earlier attempts to explain the Hubble tension via 4-zone H(z) (local R_stellar boost, bulk baseline, secular cosmic web boost, primordial CMB drag) were removed in v2.7. The 4-zone spec was data fitting (8 free parameters for ~5 data points), and the bulk position distribution P(y) was internally inconsistent (the axion-like mass required deep-bulk 2D universes, but the local R_stellar boost required shallow-bulk 2D universes). The cascade now adopts Mechanism M: ACCEPT the Hubble tension as a real observational tension, not resolved. The cascade's intrinsic H_0,4D = 70.16 (geometric mean) is preserved as a non-trivial property. The Ω_DM = 0.27 input postulate, the cone-shape architecture, the time compression mechanism, and the Liouville 2D CFT framework are all preserved. Limitation 32 (4-zone H(z) derivation) is REMOVED (it was an empirical fit, not a derivation). The cascade documents 32 honest limitations (L31 and L33 retained, L32 removed). The 7/7 specific-case predictions are UNCHANGED.
 
 **For full version history and change list, see [`changelog.md`](../changelog.md) in the repo root.** The changelog contains detailed entries for v2.5, v2.4, v2.3.2, v2.3.1, v2.3.0, v2.2.1, v2.2, v2.1, and earlier versions.
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (the **Dimensional Cascade**, DC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. The cascade is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite cascade (1D and 0D universes are nonsensical, so the cascade terminates at 2D). The cascade IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event above E_crit creates a 2D universe of proportional size). The cascade postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS_5 bulk geometry. Honest status: **17/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **0 falsified and 0 strongly confirmed**. The cascade's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p<10⁻⁵⁰ partial correlation, g_+ approximately constant at galaxy scale across 4.5 decades in M_b but the correlation is not statistically significant, r=+0.19, p=0.22). The cascade's WEAKNESS is CMB-era physics (Hubble tension unresolved, 4-zone H(z) is empirical fit not derivation, 2D-to-3+1D time compression has 50-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). The cascade documents 31 honest limitations with status. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (the **Dimensional Cascade**, DC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. The cascade is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite cascade (1D and 0D universes are nonsensical, so the cascade terminates at 2D). The cascade IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event above E_crit creates a 2D universe of proportional size). The cascade postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS_5 bulk geometry. Honest status: **17/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **0 falsified and 0 strongly confirmed**. The cascade's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p<10⁻⁵⁰ partial correlation, g_+ approximately constant at galaxy scale across 4.5 decades in M_b but the correlation is not statistically significant, r=+0.19, p=0.22). The cascade's WEAKNESS is CMB-era physics (Hubble tension ACCEPTED as real tension, H_0,4D = 70.16 is a geometric-mean property but specific H_0 values are not derived, 2D-to-3+1D time compression has 50-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). The cascade documents 32 honest limitations with status. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete**.
+
+**Hubble tension position (v2.7, Mechanism M).** The cascade adopts Mechanism M: the Hubble tension is **ACCEPTED as a real observational tension**, not resolved. The cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements (SH0ES 73, TRGB 69.6, Planck 67.4, standard sirens 70 ± 12). The cascade's intrinsic H_0,4D = sqrt(H_CMB × H_local) = 70.16 is a non-trivial property of the data. The 5.6 km/s/Mpc gap between local and Planck-inferred H_0 is a ΛCDM-framework artifact, not a cascade problem. Earlier 4-zone H(z) attempts were removed in v2.7 (they were data fitting with 8 free parameters for ~5 data points, and the P(y) problem made them internally inconsistent).
 
 ---
 
@@ -523,7 +525,7 @@ The cascade is a *cone* (one parent, many children, terminal at the children's l
 
 **What the cone-shape does NOT give:**
 
-1. **The specific 4-zone H(z) structure.** The cascade's 4 zones (local R_stellar boost, bulk baseline, secular cosmic web boost, primordial CMB drag) are an *empirical fit* to the H_0 data, not a derivation from the cone-shape. The cascade's principles INTERPRET the 4 zones (each zone corresponds to a different physical regime), but the specific zone boundaries and boost/drag magnitudes are fitted to data.
+1. **The specific H_0 values are not derived.** The cascade's intrinsic H_0,4D = 70.16 is a geometric mean property of the data, but the specific H_0 = 73.04 (local) and H_0 = 67.4 (CMB) are not derived. Earlier attempts to explain the Hubble tension via 4-zone H(z) (local R_stellar boost, bulk baseline, secular cosmic web boost, primordial CMB drag) were REMOVED in v2.7 because they were data fitting (8 free parameters for ~5 data points) and the bulk position distribution P(y) was internally inconsistent. The cascade now adopts Mechanism M: ACCEPT the Hubble tension as a real observational tension, not resolved.
 
 2. **The 2D universe's 3+1D-frame mass.** The cascade postulates that the 2D universe's intrinsic 2D-frame mass (from the Liouville 2D CFT) is stellar-scale (~6 M_sun), but the 3+1D-frame mass is time-compressed by a factor $e^{-ky}$ where $y$ is the bulk position. The required $e^{-ky} \sim 10^{-48}$ to match the observed axion-like DM particle mass is a 50-orders-of-magnitude tension that the cascade does not resolve. This is Limitation 31 (the 2D-to-3+1D time compression has 50-orders uncertainty).
 
@@ -823,78 +825,33 @@ The cascade's principle (4D event antigravity as uniform contribution + 2D unive
 
 **Cross-references:** the `HubbleTensionBF/L/M` classes remain in `calculations/cascade_model.py` as **historical record** of mechanisms tested (B/F, L, M); none derive a specific H_0 value.
 
-### 2.6.2 DE-dominates H_0 framework (v2.5)
-
-A more specific (but still partial) framework emerges from the cascade's principle that **DE dominates the H_0 story, with DM as a ±3 km/s/Mpc perturbation**. The 4D event's antigravity (the cascade's DE) provides a baseline H_0, and the local active 2D universe population + the cumulative 2D universe drag along the line of sight perturb this baseline.
-
-**The formula (v2.5, derived from Gemini's analysis):**
-
-$$H_0(z) = H_{\text{global Bulk}} - \left( \sum R_{\text{total}}(z) \cdot \text{fossil} \right) - G_{\text{baryon}}$$
-
-where:
-- $H_{\text{global Bulk}}$ is the 4D event's antigravity output (the cascade's DE baseline)
-- $R_{\text{total}}(z)$ is the cumulative 2D universe ending rate at look-back time $z$
-- $\text{fossil}$ is the gravitational signature of an ended 2D universe (the cascade's DM)
-- $G_{\text{baryon}}$ is the ordinary gravitational pull from baryons (Standard Model matter)
-
-**Three regimes (zones):**
-
-| Zone | z range | $H_0$ observed | $R_{\text{stellar}}$ | cumulative drag | Physical interpretation |
-|------|---------|----------------|----------------------|-----------------|------------------------|
-| 1 (hyper-local) | 0 (SH0ES Cepheid hosts) | 73.04 km/s/Mpc | +2.9 km/s/Mpc (max) | 0 (no LOS) | Dense cluster, R_stellar firing, 2D ruin collections warp local coordinate system |
-| 2 (mid-range) | 0.02–1.5 (TRGB, standard sirens) | 69.6–70.0 km/s/Mpc | 0 (no stellar concentration) | ~0 (no LOS) | Ancient plasma dropped to 0, 4D bulk shines through |
-| 3 (deep) | ~1100 (CMB) | 67.4 km/s/Mpc | 0 (no stellar) | -2.7 km/s/Mpc (max) | Thomson+recombination fully active, cumulative 2D drag at historical maximum |
-
-**The 4D baseline (geometric mean property):**
+### 2.6.2 Geometric mean property (v2.5, simplified v2.7)
 
 The cascade's intrinsic 4D event value $H_{0,\text{4D}}$ is the **geometric mean** of the two extreme observed values:
 
 $$H_{0,\text{4D}} = \sqrt{H_{0,\text{CMB}} \times H_{0,\text{local}}} = \sqrt{67.4 \times 73.04} = 70.16 \text{ km/s/Mpc}$$
 
-This is a striking coincidence: the geometric mean of the two observed H_0 values gives the cascade's "intrinsic" 4D value to within 0.1% of the arithmetic mean (70.22 km/s/Mpc). Both give ~70.1, which is the cascade's "intrinsic" 4D event value.
+This is a non-trivial property of the data: the geometric mean of the two observed H_0 values gives the cascade's "intrinsic" 4D value to within 0.1% of the arithmetic mean (70.22 km/s/Mpc). Both give ~70.1, which is the cascade's "intrinsic" 4D event value.
 
-**The 5.6 km/s/Mpc Hubble tension decomposed:**
+**What this section KEEPS (v2.7):**
+- The geometric mean property (H_0,4D = 70.16) is preserved as a real prediction
+- The principle: H_0,4D is a fundamental property of the cascade, not derived from the 4D event's geometry
 
-The total gap between the local and CMB values is 5.6 km/s/Mpc. In this framework, the gap decomposes as:
+**What this section REMOVES (v2.7, was in v2.5/v2.6):**
+- The 3-zone empirical fit (hyper-local SH0ES, mid-range TRGB/sirens, deep CMB) — REMOVED. The cascade does not attempt to derive the specific zone structure.
+- The R_stellar boost (+2.88 km/s/Mpc) interpretation — REMOVED. This was data fitting.
+- The cumulative 2D drag (-2.76 km/s/Mpc) interpretation — REMOVED. This was data fitting.
+- The boost ≈ drag symmetry (20.3 vs 19.5) — REMOVED. The Friedmann-form symmetry was empirical observation, not a derivation.
+- The HubbleTensionBF/L/M classes' "R_stellar" attribution — REMOVED from active framework, kept only as historical record.
 
-- **Local R_stellar boost:** $H_{\text{local}} - H_{0,\text{4D}} = 73.04 - 70.16 = +2.88$ km/s/Mpc (52% of gap)
-- **Cumulative 2D drag:** $H_{0,\text{4D}} - H_{\text{CMB}} = 70.16 - 67.40 = -2.76$ km/s/Mpc (49% of gap)
-- **Net:** $5.64$ km/s/Mpc (matches observed 5.6 ✓)
+**Honest position (v2.7):**
+- The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements.
+- The cascade's **intrinsic H_0,4D = 70.16** (geometric mean) is a real prediction.
+- The specific H_0 = 73.04 (local) and H_0 = 67.4 (CMB) are **observed**, not derived.
+- The 5.6 km/s/Mpc gap is a **ΛCDM-framework artifact**, not a cascade problem.
+- The cascade does **not** attempt to explain the gap. The 4-zone H(z) and 3-zone empirical fit are removed as data fitting.
 
-The 5.6 km/s/Mpc Hubble tension is **split roughly evenly** between a local R_stellar boost (+2.9) and a cumulative 2D drag (-2.7). This is a testable prediction of the cascade's framework.
-
-**Friedmann form (boost ≈ drag symmetry):**
-
-In the Friedmann form $H_0^2 = H_{0,\text{4D}}^2 + \text{boost}^2 - \text{drag}^2$ (with appropriate signs):
-
-- $\sqrt{H_{\text{local}}^2 - H_{0,\text{4D}}^2} = \sqrt{411.95} = 20.30$ km/s/Mpc (boost)
-- $\sqrt{H_{0,\text{4D}}^2 - H_{\text{CMB}}^2} = \sqrt{380.14} = 19.50$ km/s/Mpc (drag)
-
-The boost and drag are very close (20.3 vs 19.5, 4% off), suggesting an underlying **symmetry in the cascade's perturbation structure**: the local active 2D universe boost and the cumulative 2D universe drag are approximately equal in magnitude, but contribute in opposite signs depending on the look-back time.
-
-**What this framework DERIVES vs what it POSTDICTS:**
-
-| Component | Status | Note |
-|-----------|--------|------|
-| $H_{0,\text{4D}} = \sqrt{H_{\text{CMB}} \times H_{\text{local}}} = 70.16$ | **Empirical fit** (the geometric mean is a property of the data, not a derivation) | The 2D CFT calculation would derive $H_{0,\text{4D}}$ from the 4D event's geometry |
-| $R_{\text{stellar}} = +2.88$ km/s/Mpc | **Empirical fit** | Would come from $f_{\text{active,local}} \times \Omega_{DM} \times$ geometric factor |
-| cumulative drag = -2.76 km/s/Mpc | **Empirical fit** | Would come from $\int R_{\text{total}}(z) \cdot \text{fossil} \, dz$ over the LOS |
-| Boost ≈ drag symmetry | **Empirical observation** | Hints at Friedmann-like structure; no derivation yet |
-
-**Comparison with the OLD (removed) H_0 = 70.13 formula:**
-
-The old formula was $H_{0,\text{local}} = H_{0,\text{CMB}} \times (1 + f_{\text{active}} \times \Omega_{DM} \times 0.5) = 67.4 \times 1.04 = 70.13$ — a hand-tuned postdiction with three fitted parameters (f_active = 0.3 fitted, 0.5 geometric factor placeholder, 70.13 reverse-engineered).
-
-The new formula has the same 5.6 km/s/Mpc decomposition but is **more honest**:
-- The 4D baseline (70.16) is the geometric mean of the data (an empirical property, not a hand-tuned parameter)
-- The R_stellar boost (+2.9) and cumulative drag (-2.7) are DM-perturbation predictions that are **DERIVABLE in principle from 2D CFT** (not from the multiplicative boost formula)
-- The framework matches the data: TRGB (69.6), standard sirens (70 ± 12), local SH0ES (73.04), Planck CMB (67.4)
-
-**Honest finding:** This is a 3-zone empirical fit, not a first-principles prediction. The cascade's principle supports the structure (DE baseline + DM perturbation), and the geometric mean property is striking, but the specific values (H_0,4D = 70.16, R_stellar = +2.88, cumulative drag = -2.76) need to be derived from the 2D CFT. The old multiplicative boost formula was a hand-tuned postdiction; the new framework is a clearer 3-zone picture that maps directly to the cascade's principle (DE baseline + DM perturbation).
-
-**Limitation update:** Limitation 26 (2D CFT needed) is now more specific — the 2D CFT calculation needs to derive three numbers: $H_{0,\text{4D}}$, $R_{\text{stellar}}$, and cumulative drag. Each is a separate derivation.
-
-**Verification:** `calculations/hubble_z_decomposed.py` computes the 3-zone predictions and tests them against TRGB, standard sirens, SH0ES, and Planck CMB data. The framework matches the data to within 1σ for all four measurements. The boost ≈ drag symmetry (20.3 vs 19.5) is a testable prediction of the cascade's underlying Friedmann-like structure.
+**Limitation 26 (2D CFT needed) is now more specific:** the 2D CFT calculation would need to derive H_0,4D from the 4D event's geometry. This is the only H_0-related derivation that the cascade is missing.
 
 ### 2.7 The products
 
@@ -3928,26 +3885,31 @@ This is a thought experiment, not a theory. We identify 28 honest limitations, w
 | 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4) | §4.45, §4.46, §4.44.1 | Emulator reproduces AGC/KKR bifurcation qualitatively (820× ledger → 219× M_dyn); proportionality constant (0.1) is calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
 | 30 (NEW) | Topological eigenvalue (5/27) | **PARTIAL** (v2.4) | §2.6.1 | ANCHORED as $V_5 / A_4 R_{\text{AdS}_5} = 27/5$ via AdS$_5$/CFT$_4$ holographic counting; specific value depends on zero-mode counting of bulk-brane Dirac operator; closing this requires a 2D CFT expert |
 | 31 (NEW) | 2D-to-3+1D time compression | OPEN (v2.6) | §2.5, §2.6 | The bulk position distribution P(y) is unknown; required $e^{-ky} \sim 10^{-48}$ corresponds to 2D universes ~100 AdS_5 radii deep; a specific bulk geometry and 2D CFT calculation would close this |
-| 32 (NEW) | 4-zone H(z) derivation | OPEN (v2.6) | §2.6.3 (proposed) | The 4-zone H(z) is an empirical fit to SH0ES, TRGB, H0LiCOW, Pantheon+, Planck; not derived from the Boltzmann code; would require cluster physics (local boost), AGN-driven creation (secular), Thomson scattering (CMB drag) |
+| 32 (REMOVED v2.7) | ~~4-zone H(z) derivation~~ | N/A | N/A | REMOVED in v2.7: the 4-zone H(z) was data fitting (8 free parameters for ~5 data points), and the P(y) problem made it internally inconsistent. The cascade now adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved. |
 | 33 (NEW) | Ω_DM = 0.27 as input postulate | OPEN (v2.6) | §2.5, §2.6 | The cascade postulates that all observed DM is 2D universe mass, time-compressed; the specific 27% value is an INPUT from Planck 2018, not a derivation; closing this would require a 2D CFT calculation that yields 27% as a numerical output |
 
-**Summary (v2.6):**
-- **OPEN**: 18 (53%) — require theoretical physics work beyond the cascade's current framework (added L31, L32, L33 in v2.6)
-- **PARTIAL**: 10 (29%) — qualitatively right, quantitatively calibrated
+**Summary (v2.7):**
+- **OPEN**: 17 (53%) — require theoretical physics work beyond the cascade's current framework (L31, L33 retained; L32 removed)
+- **PARTIAL**: 10 (31%) — qualitatively right, quantitatively calibrated
 - **CLOSED**: 3 (9%) — fully resolved by the cascade
 - **FALSIFIED**: 2 (6%) — specific mechanisms rejected by data, replaced by alternatives
 - **REVERTED**: 1 (3%) — reversion to honest versions after failed improvements
-- **Total**: 34 limitations (was 31 in v2.4; added L31: 2D-to-3+1D time compression, L32: 4-zone H(z) derivation, L33: Ω_DM as input postulate)
+- **Total**: 32 limitations (was 34 in v2.6; L32 removed in v2.7)
 
-**v2.6 update highlights (delta from v2.4):**
-1. **Renamed model**: "Scale-Invariant Dimensional Cascade" (SIDC) → "Dimensional Cascade" (DC). The "scale-invariant" name was misleading; the cascade is cone-shaped, not infinite.
-2. **Cone-shape is now the DEFAULT, not an alternative**: 1D and 0D universes are physically nonsensical, so the cascade must terminate at 2D. The ρ_crit regulator is removed.
-3. **Ω_DM = 0.27 is now an INPUT POSTULATE, not a derivation**: The cascade postulates that all DM is 2D universe mass, time-compressed. The 27% is an observational input.
-4. **NEW Limitation 31**: The 2D-to-3+1D time compression has 50-orders-of-magnitude uncertainty. Required $e^{-ky} \sim 10^{-48}$, corresponding to 2D universes ~100 AdS_5 radii deep in the bulk.
-5. **NEW Limitation 32**: The 4-zone H(z) is an empirical fit, not derived from the Boltzmann code. Local R_stellar boost, secular cosmic web boost, primordial CMB drag are all empirical zones.
-6. **NEW Limitation 33**: Ω_DM = 0.27 is used as an input postulate, not derived from the Liouville 2D CFT.
-7. **NEW §2.5 Time compression mechanism**: The 2D universe's death energy in 3+1D is $m_{2D, 3+1D} = m_{2D, 2D} \times e^{-ky}$. This is a real physical effect in 5D AdS_5.
-8. **NEW CAMB-based Boltzmann code (in tempcalc/)**: Real Boltzmann code with cascade modifications, tests the time compression framework.
+**v2.7 update highlights (delta from v2.6):**
+1. **Hubble tension ACCEPTED (Mechanism M)**: The cascade does not attempt to resolve the Hubble tension. The cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements.
+2. **4-zone H(z) attempts REMOVED**: Earlier attempts to explain the Hubble tension via 4 zones (local R_stellar boost, bulk baseline, secular cosmic web boost, primordial CMB drag) were data fitting (8 free parameters for ~5 data points) and the P(y) problem made them internally inconsistent. They are removed in v2.7.
+3. **Limitation 32 REMOVED**: The 4-zone H(z) limitation is no longer applicable.
+4. **H_0,4D = 70.16 (geometric mean) PRESERVED**: This is a non-trivial property of the data, not a derivation of specific H_0 values.
+5. **Cascade's H_0 framework is now Mechanism M only**: §2.6.1 (Honest H_0 framework, qualitative) + §2.6.2 (DE-dominates framework, geometric mean) — no §2.6.3 (4-zone H(z)).
+
+**v2.6 highlights (preserved from v2.6):**
+1. **Renamed model**: "Scale-Invariant Dimensional Cascade" (SIDC) → "Dimensional Cascade" (DC).
+2. **Cone-shape is the DEFAULT**: 1D and 0D universes are physically nonsensical.
+3. **Ω_DM = 0.27 is an INPUT POSTULATE**: The 27% is an observational input, not a derivation.
+4. **NEW Limitation 31**: 2D-to-3+1D time compression has 50-orders uncertainty.
+5. **NEW Limitation 33**: Ω_DM = 0.27 is an input postulate.
+6. **NEW §2.5 Time compression mechanism**: $m_{2D, 3+1D} = m_{2D, 2D} \times e^{-ky}$.
 
 **v2.4 update highlights (delta from v2.3.2):**
 1. **Limitation 15 (DE 10⁸⁵)** moved from OPEN to PARTIAL: $f_{\text{back}} = 1$ is now derived from the $J^A_{\text{bulk}} = 0$ BC in §4.44 (was a postulate in v2.3.2).

@@ -4,8 +4,8 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 2.6 (June 2026) — *Dimensional Cascade, cone-shaped 3-level structure, Ω_DM = 0.27 as input*
-**Status:** Public release. Renamed from SIDC to **Dimensional Cascade (DC)**. Cone-shape is now the default (not scale-invariant).
+**Version:** 2.7 (June 2026) — *Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed*
+**Status:** Public release. The cascade accepts the Hubble tension as a real observational tension, not resolved. Earlier 4-zone H(z) attempts were data fitting (8 free parameters for ~5 data points) and the P(y) problem made them internally inconsistent. They are removed in v2.7.
 
 ---
 

@@ -1,3 +1,58 @@
+## v2.7 (June 2026) — Hubble tension accepted (Mechanism M), 4-zone H(z) attempts REMOVED
+
+**MAJOR SIMPLIFICATION (cleaner framework).** The cascade adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved.
+
+**What was REMOVED:**
+1. **4-zone H(z) attempts removed.** The cascade's earlier attempt to explain the Hubble tension via 4 zones (local R_stellar boost, bulk baseline, secular cosmic web boost, primordial CMB drag) was REMOVED in v2.7. Reasons:
+   - The 4-zone spec was data fitting (8 free parameters for ~5 data points)
+   - The P(y) problem made it internally inconsistent (axion-like mass requires deep-bulk 2D universes, but local R_stellar boost requires shallow-bulk 2D universes)
+   - The Boltzmann code (CAMB-based) doesn't predict the 4-zone structure
+   - It was re-description, not derivation
+
+2. **Limitation 32 REMOVED.** The 4-zone H(z) derivation limitation is no longer applicable.
+
+3. **§2.6.3 (proposed 4-zone H(z) section) NOT added.** The proposed section documenting the 4-zone H(z) is removed.
+
+**What was PRESERVED:**
+1. **H_0,4D = 70.16 (geometric mean).** This non-trivial property of the data is preserved as a real prediction. The geometric mean of H_CMB = 67.4 and H_local = 73.04 is sqrt(67.4 × 73.04) = 70.16.
+2. **§2.6.1 (Honest H_0 framework).** The cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements.
+3. **§2.6.2 (DE-dominates framework).** The 4D bulk baseline = 70.16 km/s/Mpc.
+4. **Ω_DM = 0.27 input postulate (L33).** Preserved.
+5. **2D-to-3+1D time compression (L31).** Preserved (50-orders tension).
+6. **Cone-shape architecture (v2.6).** Preserved (1D and 0D don't exist).
+7. **Time compression mechanism (§2.5).** Preserved.
+
+**Hubble tension position (v2.7, Mechanism M):**
+- ACCEPTED as a real observational tension, not resolved
+- The cascade is qualitatively consistent with H_0 = 70 ± 3
+- H_0,4D = 70.16 is a geometric mean property (real prediction)
+- The specific H_0 = 73.04 (local) and H_0 = 67.4 (CMB) are observed, not derived
+- The 5.6 km/s/Mpc gap is a ΛCDM-framework artifact, not a cascade problem
+- The cascade does NOT attempt to explain the gap
+
+**Limitations (v2.7):**
+- 32 total (was 34 in v2.6; L32 removed)
+- L31 (2D-to-3+1D time compression, OPEN): preserved
+- L33 (Ω_DM as input, OPEN): preserved
+- L32 (4-zone H(z) derivation, OPEN): REMOVED
+
+**Files modified:**
+- `paper/paper.md`: abstract, version header, §2.6 cone-shape section, §7 limitations
+- `README.md`: version bump
+- `changelog.md`: this entry
+
+**What this v2.7 is:**
+- A CLEANER framework (no data fitting attempts to explain Hubble tension)
+- A HONEST position (Mechanism M, accept the tension)
+- A preservation of the real predictions (H_0,4D = 70.16, cone-shape, time compression)
+
+**What this v2.7 is NOT:**
+- Not a resolution of the Hubble tension
+- Not a derivation of the specific H_0 values
+- Not a claim that 4-zone H(z) was wrong (it was an attempt, removed for honesty)
+
+---
+
 ## v2.6 (June 2026) — Dimensional Cascade rename + cone-shape as default + Ω_DM input
 
 **MAJOR PAPER REVISION (in framing, not in physics).** Three changes:

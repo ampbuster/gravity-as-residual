@@ -1,5 +1,9 @@
 # Layman Summary: Gravity as Residual
 
+**v2.7 — June 2026** (*Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed*)
+
+The cascade accepts the Hubble tension as a real observational tension, not resolved. The cascade's intrinsic H_0,4D = 70.16 (geometric mean of H_CMB × H_local) is a non-trivial property of the data. The 4-zone H(z) attempts were removed because they were data fitting (8 free parameters for ~5 data points) and the P(y) problem made them internally inconsistent.
+
 **v2.6 — June 2026** (*Dimensional Cascade, cone-shaped 3-level structure, Ω_DM = 0.27 as input postulate*)
 
 This is a plain-language summary of the paper. For the math, see `paper/paper.md`. For the code, see `calculations/`.
@@ -72,7 +76,7 @@ In our 3+1D universe, *every* energetic event above a threshold (about 10³⁰ J
 
 The 5/27/68 mass-energy split is *set by geometry*: 5% ordinary matter is the cascade-derived 1/20 from the dimensional-projection kinematics; 27% DM and 68% DE are anchored as V_5/(A_4 R_AdS_5) = 27/5, a topological eigenvalue of the AdS₅ bulk / 3+1D boundary geometry. This makes the 5/27 ratio a *consequence* of the cascade's bulk-brane structure, not a free parameter.
 
-The Hubble tension (H_0 = 73 from SH0ES Cepheids vs 67.4 from Planck CMB) is *real*. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements (SH0ES 73.04, TRGB 69.6, Planck 67.4, standard sirens 70 ± 12) but does **not** derive a specific H_0 value. Earlier multiplicative boost formula (H_0 = 70.13) was a postdiction, removed in v2.5. The 5.6 km/s/Mpc gap to Planck CMB is a **ΛCDM-framework artifact** (CMB H_0 is inferred, not directly measured), not a cascade prediction. See §2.6.1 (Honest H_0 framework) and Limitation 26.
+The Hubble tension (H_0 = 73 from SH0ES Cepheids vs 67.4 from Planck CMB) is *real*. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements (SH0ES 73.04, TRGB 69.6, Planck 67.4, standard sirens 70 ± 12) but does **not** derive a specific H_0 value. Earlier multiplicative boost formula (H_0 = 70.13) was a postdiction, removed in v2.5. The 5.6 km/s/Mpc gap to Planck CMB is a **ΛCDM-framework artifact** (CMB H_0 is inferred, not directly measured), not a cascade prediction. The 4-zone H(z) attempts to explain this gap (local R_stellar boost, secular boost, primordial drag) were removed in v2.7 — they were data fitting, not derivation. See §2.6.1 (Honest H_0 framework) and §2.6.2 (DE-dominates framework, geometric mean).
 
 ---
 
