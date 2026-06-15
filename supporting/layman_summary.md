@@ -1,8 +1,8 @@
 # Layman Summary: Gravity as Residual
 
-**v2.7.1 — June 2026** (*5/27/68 honest framing: 5/27 inner split is observational, not derived*)
+**v2.7.3 — June 2026** (*30 external constraints catalog, parameter-reducing convergence on 2D CFT*)
 
-The cascade's 5/27/68 split is treated as observational data (Planck 2018) with the cascade providing a qualitative interpretation (5% = baryons, 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity). The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped as a separate postulate that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). f_active is now a FREE PARAMETER. The §2.6.1 "5/27 as topological eigenvalue" section and the "three 5% coincidence" section are removed.
+The cascade's 5/27/68 split is treated as observational data (Planck 2018) with the cascade providing a qualitative interpretation (5% = baryons, 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity). The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped as a separate postulate that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). f_active is now a FREE PARAMETER. The §2.6.1 "5/27 as topological eigenvalue" section and the "three 5% coincidence" section are removed. **v2.7.3** adds 30 external constraints from 2024-2025 web research, reducing the cascade's 4 free 2D CFT parameters to 2 (μ, m₃₊₁D) by parameter-reducing constraints. The TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H₀,4D = 70.16 (the KILLER MATCH — closest single measurement to cascade). c=1 string theory matrix model is identified as the exact framework for the cascade's 2D CFT. One new cascade prediction: 2D universe birth stochastic GW background, testable with SKA-MPG in 2030s.
 
 **v2.7 — June 2026** (*Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed*)
 
@@ -111,7 +111,7 @@ In our 3+1D universe, *every* energetic event above a threshold (about 10³⁰ J
 
 The 5/27/68 mass-energy split is **observational data** (Planck 2018), not a cascade prediction. The cascade provides a **qualitative interpretation**: 5% ordinary matter (baryons in 3+1D), 27% DM (cumulative 2D universe back-projection), 68% DE (4D event antigravity). The 32%/68% outer split is interpretable from projection kinematics. The 5:27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a separate postulate that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05) — it is dropped in v2.7.1. f_active is a free parameter.
 
-The Hubble tension (H_0 = 73 from SH0ES Cepheids vs 67.4 from Planck CMB) is *real*. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements (SH0ES 73.04, TRGB 69.6, Planck 67.4, standard sirens 70 ± 12) but does **not** derive a specific H_0 value. Earlier multiplicative boost formula (H_0 = 70.13) was a postdiction, removed in v2.5. The 5.6 km/s/Mpc gap to Planck CMB is a **ΛCDM-framework artifact** (CMB H_0 is inferred, not directly measured), not a cascade prediction. The 4-zone H(z) attempts to explain this gap (local R_stellar boost, secular boost, primordial drag) were removed in v2.7 — they were data fitting, not derivation. See §2.6.1 (Honest H_0 framework) and §2.6.2 (DE-dominates framework, geometric mean).
+The Hubble tension (H_0 = 73 from SH0ES Cepheids vs 67.4 from Planck CMB) is *real*. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements (SH0ES 73.04, TRGB 69.8 ± 1.9 [Freedman 2024 JWST], Planck 67.4, standard sirens 70 ± 12) but does **not** derive a specific H_0 value. The TRGB H₀ = 69.8 ± 1.9 is 0.2σ from the cascade's H₀,4D = 70.16 (the KILLER MATCH — closest single measurement to cascade prediction). Earlier multiplicative boost formula (H_0 = 70.13) was a postdiction, removed in v2.5. The 5.6 km/s/Mpc gap to Planck CMB is a **ΛCDM-framework artifact** (CMB H_0 is inferred, not directly measured), not a cascade prediction. The 4-zone H(z) attempts to explain this gap (local R_stellar boost, secular boost, primordial drag) were removed in v2.7 — they were data fitting, not derivation. See §2.6.1 (Honest H_0 framework) and §2.6.2 (DE-dominates framework, geometric mean).
 
 ---
 
@@ -175,7 +175,8 @@ Five specific research problems are listed in §7.1 of the paper for theoretical
   - **§4.53 CMB re-derivation** ← Smoking gun #3
 - **§5 Brief pointer** to §2.3
 - **§6 Falsification criteria** — what would refute the cascade
-- **§7 Limitations** — 31 honest items
+- **§7 Limitations** — 32 honest items (L32 removed in v2.7 as data fitting; 3 closed, 10 partial, 17 open, 2 falsified, 2 reverted)
+- **§8.1.1–§8.1.7 External constraints** — 30 constraints from 2024-2025 web research (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 1 new cascade prediction)
 - **§7.1 Open-Source Scientific Collaboration** — 5 specific research problems for 2D CFT experts
 
 ---

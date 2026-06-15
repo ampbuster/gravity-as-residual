@@ -21,7 +21,8 @@ These calculations are from the v2.7 era of the cascade, focused on:
 | `v27_2d_universe_population_spectrum.py` | 26 event types (SN, AGN, BH, NS, GRBs, X-ray bursts, etc.) with Ω_DM contribution |
 | `v27_cascade_g_plus_derivation.py` | 5 approaches to derive g_+ from cascade (c × H_0/2π, galaxy properties, 2D universe population, 2D CFT, natural scales) |
 | `v27_cascade_cmb_anisotropy.py` | 4 CMB questions (2D universe population at z=1100, acoustic peak, damping tail, specific predictions) |
-| `v27_boltzmann_liouville_rsii_smoking_guns.py` | 10 cross-framework smoking gun tests (CMB pol, ISW, lensing, structure formation, P(k), BBN, reionization, B-modes, SZ, 21cm) |
+| `v27_boltzmann_liouville_rsii_smoking_guns.py` | 10 cross-framework smoking gun tests (CMB pol, ISW, lensing, structure formation, P(k), BBN, reionization, B-modes, SZ, 21cm) — all NOT smoking guns (cascade is consistent with ΛCDM) |
+| `v27_agc_kkr_other_models.py` | 6-model analysis of AGC/KKR bifurcation (ΛCDM, MOND, SIDM, Fuzzy DM, Baryonic feedback, Cascade) — bifurcation is also predicted by ΛCDM via SMHM, not unique to cascade |
 
 ## Key Findings
 
@@ -74,7 +75,7 @@ These calculations are from the v2.7 era of the cascade, focused on:
 - Tested 10 cross-framework predictions
 - Cascade's 2D universes are CDM-like, so they don't affect CMB, BBN,
   reionization, 21cm, or ISW differently from ΛCDM
-- The cascade does NOT have new smoking guns beyond the 3 existing ones
+- The cascade does NOT have new smoking guns
 - POSSIBLE EXCEPTIONS (require more work):
   - 2D universe annihilation signals
   - Bulk graviton mass from RS-II
@@ -115,7 +116,10 @@ These calculations are from the v2.7 era of the cascade, focused on:
 
 These calculations were first created in `tempcalc/` (untracked) and then
 copied to `calculations/` with v27_ prefix. The tempcalc/ versions are
-preserved as research artifacts.
+preserved as research artifacts in `calculations/legacy_tempcalc/`. As of
+v2.7.3, the `tempcalc/` directory at the repo root has been deleted, and
+all 74 historical files (71 .py/.md + 3 .json) have been moved to
+`calculations/legacy_tempcalc/`.
 
 ## Usage
 

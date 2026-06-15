@@ -1,0 +1,8 @@
+{
+  "date": "2026-06-15T00:39:56.467754",
+  "cascade_version": "v2.6",
+  "Q1_R_times_m": 1.1243889190657252e-43,
+  "Q2_tau_2d": 0.70794,
+  "Q3_total_resid": 2.073600017094474,
+  "conclusion": "Cascade parameters are consistent with observations but postulated, not derived"
+}

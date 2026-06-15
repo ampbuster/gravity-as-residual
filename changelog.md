@@ -1,7 +1,7 @@
 ## v2.7.1 (June 2026) — Honest findings (kept in calculations/, NOT in paper)
 
 **Per user decision (June 2026)**, the following findings are documented
-in `calculations/`, `tempcalc/`, and agent memory, but NOT added to
+in `calculations/`, `calculations/legacy_tempcalc/` (preserved development-process scripts), and agent memory, but NOT added to
 `paper.md`. The paper remains focused on the cascade's interpretive
 framework and parsimony claims; the more specific quantitative analyses
 are kept as honest research artifacts.
@@ -136,7 +136,7 @@ The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a
 **Files modified:**
 - `paper/paper.md`: version header, executive summary, §2.6 cone-shape hierarchy, §2.6.1 5/27 removed, "three 5%" section removed
 - `changelog.md`: this entry
-- (to be added: tempcalc/5_27_68_honest_framing.md, tempcalc/why_5pct_active.md)
+- (now in: calculations/legacy_tempcalc/5_27_68_honest_framing.md, calculations/legacy_tempcalc/why_5pct_active.md)
 
 ---
 
@@ -230,12 +230,12 @@ The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a
 - Corresponds to 2D universe at bulk depth y ~ 100 AdS_5 radii
 - Resolves the 50-orders-of-magnitude tension between 2D-frame and 3+1D-frame masses (Limitation 31)
 
-**CAMB-based Boltzmann code (NEW in v2.6, in tempcalc/)**
+**CAMB-based Boltzmann code (NEW in v2.6, now in calculations/legacy_tempcalc/)**
 - Real Boltzmann code using CAMB 1.6.6
 - Adds cascade 2D universe contribution to the Friedmann equation
 - Computes H(z) including all standard physics + cascade modifications
 - Tests the time compression framework
-- See `tempcalc/cascade_camb.py`, `tempcalc/cascade_camb_time_compressed.py`, `tempcalc/cascade_camb_no_zones.py`
+- See `calculations/legacy_tempcalc/cascade_camb.py`, `calculations/legacy_tempcalc/cascade_camb_time_compressed.py`, `calculations/legacy_tempcalc/cascade_camb_no_zones.py` (canonical: `calculations/v27_cascade_camb_full.py`)
 
 **Limitations updated (NEW in v2.6):**
 - Limitation 31 (NEW): 2D-to-3+1D time compression has 50-orders uncertainty (bulk position distribution unknown)
@@ -873,7 +873,7 @@ The matrix model IS the framework; only the specific values of
 
 Files:
 - calculations/v27_jt_karch_randall.py
-- tempcalc/v27_jt_karch_randall.py
+- calculations/legacy_tempcalc/v27_jt_karch_randall.py (preserved as duplicate)
 - paper/paper.md §8.1.4 added
 - README.md updated to 15 constraints
 
@@ -917,3 +917,45 @@ Final 5 external constraints added (26-30), bringing the total to 30:
 - 1 CASCADE PREDICTION (2D universe birth GW)
 
 Pushed: github.com/ampbuster/gravity-as-residual (commit f6777f1)
+
+---
+
+## v2.7.3 cleanup (June 2026) — Audit, sync, tempcalc deletion
+
+### Final cleanup pass
+
+**Audit and consistency fixes:**
+- Fixed inconsistent limitations count (28 / 30 / 31 / 32) → unified to **32 honest limitations** (3 closed, 10 partial, 17 open, 2 falsified, 2 reverted; L32 removed in v2.7 as data fitting)
+- Fixed TRGB H₀ value (was 69.6 in some places) → unified to **TRGB H₀ = 69.8 ± 1.9** (Freedman 2024, JWST) — 0.2σ from cascade H₀,4D = 70.16 (KILLER MATCH)
+- Updated paper version header from v2.7.1 → v2.7.3 with new 30-constraints milestone
+- Updated README version from v2.7.1 → v2.7.3 with all 30 external constraints expanded (was only 15)
+- Updated layman_summary.md version to v2.7.3 with 30 constraints summary
+- Updated abstract §32 honest limitations count from 28 / 30 to 32
+
+**tempcalc/ → calculations/legacy_tempcalc/:**
+- 74 historical files moved (71 .py/.md + 3 .json) to `calculations/legacy_tempcalc/`
+- Created `calculations/legacy_tempcalc/README.md` with file mapping
+- 13 duplicate .py files (renamed to v27_*.py in parent `calculations/`) preserved as duplicates for audit
+- 7 v27_*.py duplicates (already in parent `calculations/`) preserved as duplicates for audit
+- Updated all references in `paper/paper.md`, `changelog.md`, `calculations/v27_README.md`, `calculations/trial_and_error_v26.py`
+- Deleted `tempcalc/` directory at repo root
+
+**Files changed:**
+- `paper/paper.md`: version header (v2.7.3 entry), abstract limitations count, §7 lead-in, §8 status, all TRGB 69.6 → 69.8, tempcalc references → calculations/
+- `README.md`: version (v2.7.3), 30 external constraints expanded (was 15), v2.5 STATE → v2.7.3 STATE, CHANGELOG section
+- `supporting/layman_summary.md`: version (v2.7.3), TRGB 69.6 → 69.8, §7 limitations updated to 32, §8.1.1–§8.1.7 added
+- `changelog.md`: this entry, all `tempcalc/` references → `calculations/legacy_tempcalc/`
+- `calculations/legacy_tempcalc/`: 74 files (new directory)
+- `calculations/legacy_tempcalc/README.md`: file mapping (new file)
+- `calculations/v27_README.md`: tempcalc deletion note added
+- `calculations/trial_and_error_v26.py`: tempcalc path → calculations/legacy_tempcalc/
+
+**Final state:**
+- 32 honest limitations documented (consistent across all files)
+- 30 external constraints catalogued (consistent across paper §8.1.1-8.1.7, README, layman)
+- TRGB H₀ = 69.8 ± 1.9 (KILLER MATCH) consistent
+- Version 2.7.3 consistent across all files
+- All references to tempcalc/ removed from active code
+- Legacy development scripts preserved in calculations/legacy_tempcalc/
+
+Pushed: github.com/ampbuster/gravity-as-residual (commit pending)

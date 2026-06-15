@@ -1,0 +1,34 @@
+{
+  "A": {
+    "test": "2D universe average mass at death",
+    "approach_1_m_kg": 1.2e+25,
+    "approach_1_mass_solar": 6,
+    "approach_2_m_kg": 1.1e-23,
+    "discrepancy_factor": 1.090909090909091e+48,
+    "resolution": "2D universes are created at very low rate, mass ~ 1e-23 kg"
+  },
+  "B": {
+    "test": "creation rate",
+    "results": []
+  },
+  "C": {
+    "test": "2pt clusters vs field",
+    "verdict": "wrong physics"
+  },
+  "D": {
+    "test": "f_back from Liouville",
+    "verdict": "NOT derivable from Liouville"
+  },
+  "E": {
+    "test": "5/27/68 from Liouville",
+    "verdict": "requires full Boltzmann code"
+  },
+  "F": {
+    "test": "g_+ from Liouville",
+    "verdict": "NOT derivable from Liouville alone"
+  },
+  "G": {
+    "test": "2D universe death energy",
+    "verdict": "requires 2D Planck scale specification"
+  }
+}
