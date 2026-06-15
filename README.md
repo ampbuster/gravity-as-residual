@@ -215,9 +215,20 @@ The cascade's r(z) = ρ_DM^DC(z) / ρ_DM^DC(0) at high z is the test of whether 
 
 **r(z) ≈ (1+z)³ for all z.** The cascade is consistent with ΛCDM at every redshift. The 5/27/68 split is observational data (Planck 2018) with a qualitative cascade interpretation, not a time-invariant cascade prediction.
 
-### Why Thomson scattering does the heavy lifting
+### Why Thomson scattering does NOT do the heavy lifting (honest update v2.7.4)
 
-At z > 1100, the photon-baryon plasma is fully ionized and tightly coupled. Thomson scattering (photons bouncing off free electrons) deposits energy at a *huge* rate: R_Thomson(1100) ≈ 1.4 × 10⁶² J/yr/Mpc³, vastly larger than stellar activity at that epoch. In proper units, R_Thomson ∝ (1+z)⁷. With the (1+z)⁴ fossil-dilution factor in the integral, the integrand scales as (1+z)³ — and the integral from z to z_max naturally gives ρ(z) ∝ (1+z)³. **The cascade's broader principle gives the right (1+z)³ scaling from Thomson alone.**
+**The smooth function changes the picture.** Per the v2.7.4 smooth creation function C(E) = E^(1+α) (paper §2.5.3), Thomson scattering per-event contribution is *negligible* compared to SN:
+
+| Event | E per event (J) | C(E) = E^2.29 | C(E)/C(SN) |
+|-------|----------------|----------------|-------------|
+| Thomson scattering (CMB photon at z=1100) | 10^19 | 10^-43 | 10^-145 |
+| Type Ia SN | 10^44 | 10^101 | 1.0 |
+
+Even though Thomson has a *much higher rate* (~10^67 events/s/Mpc^3 vs SN's 10^-12/s/Mpc^3), the per-event weight is so small (10^-145 of SN) that the *net* Thomson contribution is ~10^-66 of SN — *negligible*.
+
+**The r(z) ≈ (1+z)³ match comes from F_p(z), NOT from Thomson.** With the v2.7.4 §4.48.1 smooth F_p(z) (Hill n=2, z_half=3), the primordial component F_p(z) → 1.0 at high z, meaning the *primordial* 2D universe contribution dominates. The Thomson + stellar contributions are at most 30% of total DM at any z (F_s ≤ 0.3), and Thomson is a small fraction of F_s.
+
+**Honest framing.** The original v3 README analysis (which said "Thomson does the heavy lifting") was based on a pre-smooth-function code that used raw energy density (R_Thomson ≈ 1.4 × 10⁶² J/yr/Mpc³) without applying the E^(1+α) per-event weight. The cascade's *actual* E^(1+α) weighting makes Thomson's per-event contribution negligible. The r(z) ≈ (1+z)³ result is now explained by the **smooth F_p(z) primordial component** (paper §4.48.1), not by Thomson.
 
 This is what the "scale-time invariance" means: the cascade is *energy-scale-invariant* in its law (every event creates a 2D universe weighted by a smooth E^(1+alpha) function, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. The cascade is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 3+1D-frame lifetime of ~33 s for SN-scale events, set by the event size ℓ/c) is a *local* phenomenon preserved at every epoch. (Earlier 30 Gyr in 2D was a guess, dropped in v2.7.1; the 33 s is empirical, from the ℓ/c mapping, but it's SN-specific, not universal.)
 
