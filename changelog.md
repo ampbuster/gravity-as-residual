@@ -878,3 +878,42 @@ Files:
 - README.md updated to 15 constraints
 
 Pushed: github.com/ampbuster/gravity-as-residual
+
+## v2.7.3 (June 2026) — 30 External Constraints Final Catalog
+
+Final 5 external constraints added (26-30), bringing the total to 30:
+
+26. **ALPS/IAXO/ADMX axion-like DM coupling constraints** (Carenza 2024, Zhang 2025)
+    - Composite heavy ALP: 1 TeV - 10^9 GeV, suppressed coupling
+    - Ultralight ALP: 10^-24 to 5×10^-21 eV, lab bounds >3 orders better
+    - Cascade 2D universe mass (10^-15 GeV) is BETWEEN these ranges
+    - Cascade has NO SM coupling, ALP constraints INAPPLICABLE
+
+27. **HERA/MeerKAT 21cm reionization** (Sims 2025, arXiv:2504.09725)
+    - Joint 21cm + Lyman + CMB analysis
+    - Cascade 2D universe births NEGLIGIBLE for IGM heating
+    - Cascade INDISTINGUISHABLE from ΛCDM in 21cm
+
+28. **SIDM cross-section with mass segregation** (Yang 2025, arXiv:2506.14898)
+    - σ/m < 1 cm²/g (cluster), < 0.1 cm²/g (dwarf)
+    - Cascade 2D universes NOT particles, SIDM INAPPLICABLE
+
+29. **Dynamical heating in ultrafaint dwarfs** (Graham 2024, arXiv:2404.01378)
+    - Primordial power spectrum constraints at k=10-1000 Mpc⁻¹
+    - Cascade 2D universes lighter than subcompact, consistent
+
+30. **Future MeV gamma-ray DM** (O'Donnell 2024, arXiv:2411.00087)
+    - Forecast: σv < 10^-27 cm³/s, τ > 10^27 s (MeV gap)
+    - Cascade 2D universes 'MeV-invisible' (no SM coupling)
+    - No constraint, no signal expected
+
+**30 TOTAL EXTERNAL CONSTRAINTS** cataloged:
+- 4 PARAMETER-REDUCING (μ, b, α, z_0 → μ, m_3+1D)
+- 7 INTERPRETIVE - COSMOLOGICAL
+- 4 INTERPRETIVE - THEORETICAL FOUNDATION (JT = c=1 string)
+- 5 from v27_ultra_light_dm_limit (16-20)
+- 5 from v27_desi_act_2025 (21-25)
+- 5 from this round (26-30)
+- 1 CASCADE PREDICTION (2D universe birth GW)
+
+Pushed: github.com/ampbuster/gravity-as-residual (commit f6777f1)
