@@ -76,7 +76,7 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 7. **Stiskalek 2025: H₀ = 73.04 ± 1.30** (1.8% precision from Cepheids alone) — cascade H₀,4D = 70.16 within 2.2σ
 8. **S₈ tension persists at 2-3σ** (Subaru HSC Y3 2025) — cascade's MOND-like floor gives qualitative suppression
 9. **TRGB H₀ = 69.8 ± 1.9** (Freedman 2024, CCHP, JWST) — **0.2σ from cascade H₀,4D = 70.16** (CLOSEST single measurement!)
-10. **JWST high-z galaxy excess** (z > 12, some z ~ 20) — cascade's broader principle (Thomson at z > 1100) is qualitatively consistent
+10. **JWST high-z galaxy excess** (z > 12, some z ~ 20) — cascade's F_p(z) primordial component (§4.48.1) is qualitatively consistent
 11. **BBN Li-7 anomaly** (3.5× discrepancy) — cascade inherits from standard cosmology, not addressed
 
 **4 INTERPRETIVE — THEORETICAL FOUNDATION** (4 NEW):
@@ -113,7 +113,7 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 **Key finding 3**: 7 of the 45 constraints are INAPPLICABLE to the cascade (PBH, XENONnT, LZ, ALP, SIDM, MeV γ-ray, eROSITA ultralight axion) — cascade 2D universes are NOT particles, NOT WIMPs, NOT ultralight, NOT axion-like, and not PBHs. The cascade's "dark matter" is geometric 2D universe back-projection, not a particle species. This is consistent: 38/45 constraints are consistent with the cascade (27 outright consistent + 11 strengthen theoretical foundation), with 1 NEW CASCADE PREDICTION (2D universe birth GW).
 
 **5 LATE 2025-2026 CONSTRAINTS (v2.7.3+):**
-31. **JWST MoM-z14** (Naidu+ 2025, arXiv:2505.11263) — confirmed z=14.44 galaxy, 280 Myr after Big Bang; cascade's broader principle gives early DM in lockstep with early SF (QUALITATIVELY CONSISTENT)
+31. **JWST MoM-z14** (Naidu+ 2025, arXiv:2505.11263) — confirmed z=14.44 galaxy, 280 Myr after Big Bang; cascade's F_p(z) → 1 at high z (smooth Hill function, §4.48.1) gives early DM in lockstep with early SF (QUALITATIVELY CONSISTENT)
 32. **DESI DR2 BAO** (Adame+ 2025, arXiv:2503.14738, 14M galaxies) — DR1 confirmed, 3.5σ evolving DE; cascade's DE is 4D event antigravity, qualitative only (QUALITATIVELY CONSISTENT)
 33. **LZ 4.2 tonne-years** (Jellema+ 2025, arXiv:2410.17036) — σ_SI < 9.2×10⁻⁴⁸ cm² at 40 GeV; cascade 2D universes are NOT WIMPs (INAPPLICABLE)
 34. **XENONnT 3.1 tonne-years** (Aprile+ 2025, arXiv:2502.18005) — σ_SI < 1.7×10⁻⁴⁷ cm² at 30 GeV; solar neutrino floor; cascade 2D universes are NOT WIMPs (INAPPLICABLE)
@@ -198,13 +198,13 @@ $$\text{Bifurcation Metric} = \frac{M_{\text{total formed}}}{M_b\text{ (current)
 
 The cascade's principle is **energy-scale-invariant in law**: every energetic event creates a 2D universe weighted by a smooth E^(1+alpha) function, regardless of when it happens (see paper §2.5.3). The *consequences* are epoch-dependent: the *rate* of 2D universe creation depends on what's going on at that epoch.
 
-Per a user follow-up ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?"), the principle is broadened to include **all baryon activity** — not just stellar events but also Thomson scattering, recombination, acoustic oscillations. The baryon plasma at z=1100 has enormous energetic activity that, by the cascade's own principle, creates 2D universes.
+Per a user follow-up ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?"), the principle is broadened to include **all baryon activity** — not just stellar events but also Thomson scattering, recombination, acoustic oscillations. The baryon plasma at z=1100 has enormous energetic activity that, by the cascade's own principle, creates 2D universes. **v2.7.4 honest update:** while Thomson + recombination DO create 2D universes (qualitatively), their per-event contribution under the smooth function (§2.5.3) is negligible (~10^-66 of SN). The cascade's r(z) ≈ (1+z)³ result actually comes from the F_p(z) primordial component (§4.48.1), not from Thomson.
 
 ### The deeper test: does r(z) = (1+z)³ (ΛCDM's expansion factor)?
 
 The cascade's r(z) = ρ_DM^DC(z) / ρ_DM^DC(0) at high z is the test of whether the cascade is consistent with ΛCDM structure formation. ΛCDM has r(z) = (1+z)³ for non-interacting DM (just the expansion factor). The cascade's prediction, with all bugs fixed:
 
-| z | r(z) (cascade, broader principle) | (1+z)³ (ΛCDM expansion factor) | Verdict |
+| z | r(z) (cascade, F_p(z) primordial) | (1+z)³ (ΛCDM expansion factor) | Verdict |
 |---|---|---|---|
 | 0 | 1.00 | 1 | calibration |
 | 2 | **26.9** | 27 | ✓ MATCHES |
@@ -260,7 +260,7 @@ This is the cumulative result of the v2.4 work. The cascade's three main quantit
 
 ### Why these matches matter
 
-The 5/27/68 split is **observational data** (Planck 2018), not a cascade prediction. The cascade's qualitative interpretation: 5% = baryons (real 3+1D), 27% = DM (2D universe back-projection), 68% = DE (4D event antigravity). The 5:27 inner split (5% "active" vs 27% "cumulative") was dropped in v2.7.1 as a separate postulate that conflicted with the empirical 33 s lifetime. The user-identified gap ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?") led to the broader principle that gives the cascade's R(z) the right scaling to match ΛCDM at all z. The Hubble tension (local ~73 vs CMB 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a cascade-specific failure. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements but does not derive a specific H_0 value (see §2.6.1).
+The 5/27/68 split is **observational data** (Planck 2018), not a cascade prediction. The cascade's qualitative interpretation: 5% = baryons (real 3+1D), 27% = DM (2D universe back-projection), 68% = DE (4D event antigravity). The 5:27 inner split (5% "active" vs 27% "cumulative") was dropped in v2.7.1 as a separate postulate that conflicted with the empirical 33 s lifetime. The user-identified gap ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?") led to the smooth F_p(z) function (§4.48.1) that gives the cascade's R(z) the right scaling to match ΛCDM at all z (Thomson's per-event contribution is actually negligible, ~10^-66 of SN). The Hubble tension (local ~73 vs CMB 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a cascade-specific failure. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements but does not derive a specific H_0 value (see §2.6.1).
 
 ---
 
@@ -301,7 +301,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a cascade predict
 | File | Purpose | Smoking gun |
 |---|---|---|
 | `calculations/sidc_phenomenological_emulator.py` (722 lines) | 4-part Python pipeline | **#1 AGC/KKR bifurcation** |
-| `calculations/time_scale_invariance_test_v5.py` | All bugs fixed; broader principle | **#2 scale-time invariance** |
+| `calculations/time_scale_invariance_test_v5.py` | All bugs fixed; smooth F_p(z) gives r(z) ≈ (1+z)³ | **#2 scale-time invariance** |
 | `calculations/baryon_plasma_cascade_v2.py` | Thomson + recombination (v2, marked buggy) | supplementary |
 | `calculations/matter_radiation_equality_R_z.py` | R(z) through z~3400 | supplementary |
 | `calculations/f_active_consistency.py` | f_active rename verification | documentation |
