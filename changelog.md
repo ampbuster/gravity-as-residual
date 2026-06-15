@@ -85,6 +85,15 @@ params), but it is CONCEPTUALLY more parsimonious: 1 principle
 explains DM, DE, hierarchy, MOND, and AGC/KKR, rather than needing
 separate postulates for each.
 
+**PARSIMONY UPDATED (v2.7.3+):** The v2.7.3 web-research constraints
+reduce the 4 free parameters to 2 (μ, m₃₊₁D): b = i is forced by c = 1
+(single scalar 2D CFT, IHES Vargas 2024), α is fixed by Ω_DM = 0.27
+(Planck 2018), and z₀ collapses into m₃₊₁D (the bulk position is
+degenerate with the 2D universe mass in the 3+1D-frame effective mass).
+Limitation 26 is reduced from "4 free params" to "2 honest unknowns
+mapping onto Λ and m_DM." The c=1 string theory matrix model is the
+exact framework, with only the specific values of μ and m₃₊₁D unknown.
+
 This is the cascade's UNIQUE SELLING POINT. Other models typically
 sacrifice 1-2 (see comparison table in README and layman_summary).
 The cascade achieves the trifecta because it's a HYBRID:

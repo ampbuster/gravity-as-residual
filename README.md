@@ -26,7 +26,7 @@ The cascade's parsimony is **conceptual**, not **parametric**:
 | Type of parsimony | Cascade | ΛCDM | MOND | Fuzzy DM |
 |-------------------|:-------:|:----:|:----:|:--------:|
 | **Conceptual** (1 principle for many phenomena) | ✓ | ✗ | ✗ | ✗ |
-| **Parametric** (fewer fitted parameters) | ✗ (4 postulated) | ✗ (20+ fitted) | ✓ (1 fitted) | ✓ (1-2 fitted) |
+| **Parametric** (fewer fitted parameters) | ✗ (2 postulated: μ, m₃₊₁D) | ✗ (20+ fitted) | ✓ (1 fitted) | ✓ (1-2 fitted) |
 
 ### 30 external constraints from web research (June 2026)
 

@@ -53,8 +53,11 @@ Annihilation, and the Origin of the Dark Sector"**.
   Key classes:
   - `Universe` — a universe at any level of the cascade (parent +
     children, gravity couplings, lifetime, ending, etc.)
-  - `CascadeParams` — the 4 free parameters of the model (epsilon,
-    f_back, f_deliver, cumulative_back_projection)
+  - `CascadeParams` — the 5 free parameters of the model (epsilon,
+    f_back, f_deliver, cumulative_back_projection, growth_factor);
+    these are the cascade's *action* parameters (calibrated to data),
+    distinct from the 2D CFT parameters (μ, b, α, z₀) of which 2 remain
+    free (μ, m₃₊₁D) after v2.7.3 web-research constraints
   - `Cascade` — top-level orchestrator (params, rules, root universe)
   - `StandardModel` (abstract) — the physics at a given level
   - `StandardModel_L0_4D` — abstract 4D SM (unknown)

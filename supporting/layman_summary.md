@@ -31,9 +31,9 @@ The cascade's parsimony is **conceptual**, not **parametric**:
 | Type of parsimony | Cascade | ΛCDM | MOND | Fuzzy DM |
 |-------------------|:-------:|:----:|:----:|:--------:|
 | **Conceptual** (1 principle for many phenomena) | ✓ | ✗ | ✗ | ✗ |
-| **Parametric** (fewer fitted parameters) | ✗ (4 postulated) | ✗ (20+ fitted) | ✓ (1 fitted) | ✓ (1-2 fitted) |
+| **Parametric** (fewer fitted parameters) | ✗ (2 postulated: μ, m₃₊₁D) | ✗ (20+ fitted) | ✓ (1 fitted) | ✓ (1-2 fitted) |
 
-The cascade has **1 conceptual principle** but **4 postulated free parameters** (μ, b, α, z_0 — all honest unknowns, Limitation 26). ΛCDM has **20+ fitted parameters** (constrained by data). MOND has **1 fitted parameter** (a₀, fitted to RAR). The cascade isn't parametrically more parsimonious than MOND or Fuzzy DM, but it is **conceptually more parsimonious**: one principle explains DM, DE, hierarchy, MOND, and AGC/KKR, rather than needing separate postulates for each.
+The cascade has **1 conceptual principle** and **2 remaining free parameters** (μ, m₃₊₁D — honest unknowns, Limitation 26 reduced from 4 to 2 by the v2.7.3 web-research constraints). b = i is forced by c = 1, α is fixed by Ω_DM = 0.27 (Planck 2018), and z₀ collapses into m₃₊₁D. ΛCDM has **20+ fitted parameters** (constrained by data). MOND has **1 fitted parameter** (a₀, fitted to RAR). The cascade isn't parametrically more parsimonious than MOND or Fuzzy DM, but it is **conceptually more parsimonious**: one principle explains DM, DE, hierarchy, MOND, and AGC/KKR, rather than needing separate postulates for each.
 
 ## Comparison to Other Models
 
