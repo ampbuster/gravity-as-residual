@@ -1,6 +1,6 @@
 # Layman Summary: Gravity as Residual
 
-**v2.5 — June 2026** (*cascade matches ΛCDM at all z*, three smoking guns, all bugs fixed)
+**v2.6 — June 2026** (*Dimensional Cascade, cone-shaped 3-level structure, Ω_DM = 0.27 as input postulate*)
 
 This is a plain-language summary of the paper. For the math, see `paper/paper.md`. For the code, see `calculations/`.
 

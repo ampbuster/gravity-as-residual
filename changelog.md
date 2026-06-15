@@ -1,4 +1,74 @@
-## v2.4 (June 2026, HARDENING) — Five manuscript refactors (CURRENT)
+## v2.6 (June 2026) — Dimensional Cascade rename + cone-shape as default + Ω_DM input
+
+**MAJOR PAPER REVISION (in framing, not in physics).** Three changes:
+
+1. **Renamed model from "Scale-Invariant Dimensional Cascade" (SIDC) to "Dimensional Cascade" (DC)**
+   - The earlier "Scale-Invariant Dimensional Cascade" name implied dimensional scale-invariance (4D → 3+1D → 2D → 1D → 0D → ...)
+   - This is physically impossible (1D and 0D universes are nonsensical)
+   - The cascade is NOT scale-invariant in the dimensional sense
+   - It IS still scale-invariant in the energy/size sense (Liouville 2D CFT is conformally invariant, any event above E_crit creates a 2D universe of proportional size)
+   - The new name "Dimensional Cascade" drops the misleading "scale-invariant" claim
+   - The energy-scale invariance is preserved (it's just a different kind of scale invariance)
+
+2. **Cone-shape is now the DEFAULT, not an alternative**
+   - The earlier paper said "default is scale-invariance / infinite cascade, cone-shape is a viable alternative"
+   - This was wrong: cone-shape is FORCED by physics (1D and 0D are nonsensical)
+   - The ρ_crit regulator is REMOVED (no longer needed)
+   - The 1D-universes limitation is CLOSED (they don't exist)
+   - The cascade has 3 levels: 4D parent → 3+1D us → 2D children (terminal)
+
+3. **Ω_DM = 0.27 is now an INPUT POSTULATE, not a derivation**
+   - The cascade postulates that ALL observed DM is 2D universe mass, time-compressed via the 5D AdS_5 bulk
+   - The observed Ω_DM = 0.27 (Planck 2018) is used to constrain the cascade's free parameters (time compression factor e^{-ky}, 2D universe creation rate)
+   - This is more honest than claiming Ω_DM is a "real prediction" of the cascade
+   - The 32%/68% outer split is still "derivable from projection kinematics"
+   - The 5:27 inner split is now a POSTULATE (was "interpretable")
+   - The specific 27% value is an INPUT (was "empirical fit")
+
+**NEW: Time compression mechanism (§2.5)**
+- 2D universe lives in 2D frame (deep in 5D AdS_5 bulk)
+- Proper time: dτ_2D = e^{-ky} dt_4D where y is bulk position, k is AdS_5 curvature
+- 2D universe's death energy in 3+1D: m_{2D, 3+1D} = m_{2D, 2D} × e^{-ky}
+- Required e^{-ky} ~ 10^{-48} to match axion-like DM particle mass
+- Corresponds to 2D universe at bulk depth y ~ 100 AdS_5 radii
+- Resolves the 50-orders-of-magnitude tension between 2D-frame and 3+1D-frame masses (Limitation 31)
+
+**CAMB-based Boltzmann code (NEW in v2.6, in tempcalc/)**
+- Real Boltzmann code using CAMB 1.6.6
+- Adds cascade 2D universe contribution to the Friedmann equation
+- Computes H(z) including all standard physics + cascade modifications
+- Tests the time compression framework
+- See `tempcalc/cascade_camb.py`, `tempcalc/cascade_camb_time_compressed.py`, `tempcalc/cascade_camb_no_zones.py`
+
+**Limitations updated (NEW in v2.6):**
+- Limitation 31 (NEW): 2D-to-3+1D time compression has 50-orders uncertainty (bulk position distribution unknown)
+- Limitation 32 (NEW): 4-zone H(z) is empirical fit, not derived from the Boltzmann code
+- Limitation 33 (NEW): Ω_DM = 0.27 is used as input, not derived from Liouville
+- The 7/7 specific-case predictions are UNCHANGED (the rename and cone-shape are framing, not physics)
+
+**Files modified:**
+- `paper/paper.md`: abstract, §2.5, §2.6, §9 (renamed SIDC → DC throughout)
+- `README.md`: version bump, "scale-invariant" clarified as energy-scale only
+- `supporting/layman_summary.md`: version header updated
+- `changelog.md`: this entry
+
+**What this v2.6 is NOT:**
+- Not a change in physics (7/7 specific-case predictions unchanged)
+- Not a derivation of Ω_DM = 0.27 (it's an input)
+- Not a derivation of the 4-zone H(z) (it's empirical)
+- Not a resolution of the 50-orders tension (Limitation 31 documents the 50-orders)
+
+**What this v2.6 IS:**
+- A clearer name (Dimensional Cascade, not SIDC)
+- A correct architecture (cone-shape, not scale-invariant)
+- An honest framing of Ω_DM as an input postulate
+- A new time compression mechanism (§2.5)
+- A real Boltzmann code (CAMB-based)
+- A clearer distinction between dimensional and energy scale invariance
+
+---
+
+## v2.4 (June 2026, HARDENING) — Five manuscript refactors (SUPERSEDED by v2.6)
 
 Five refactors transition the v2.3.2 framework to a "structurally complete field theory framework specification":
 

@@ -4,8 +4,8 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 2.5 (June 2026) — *cascade matches ΛCDM at all z*
-**Status:** Public release. 279 commits, 185 pages, 31 honest limitations documented.
+**Version:** 2.6 (June 2026) — *Dimensional Cascade, cone-shaped 3-level structure, Ω_DM = 0.27 as input*
+**Status:** Public release. Renamed from SIDC to **Dimensional Cascade (DC)**. Cone-shape is now the default (not scale-invariant).
 
 ---
 
@@ -51,7 +51,7 @@ Per a user follow-up ("if matter is 5% even without stars, why don't baryon coll
 
 ### The deeper test: does r(z) = (1+z)³ (ΛCDM's expansion factor)?
 
-The cascade's r(z) = ρ_DM^SIDC(z) / ρ_DM^SIDC(0) at high z is the test of whether the cascade is consistent with ΛCDM structure formation. ΛCDM has r(z) = (1+z)³ for non-interacting DM (just the expansion factor). The cascade's prediction, with all bugs fixed:
+The cascade's r(z) = ρ_DM^DC(z) / ρ_DM^DC(0) at high z is the test of whether the cascade is consistent with ΛCDM structure formation. ΛCDM has r(z) = (1+z)³ for non-interacting DM (just the expansion factor). The cascade's prediction, with all bugs fixed:
 
 | z | r(z) (cascade, broader principle) | (1+z)³ (ΛCDM expansion factor) | Verdict |
 |---|---|---|---|
@@ -68,7 +68,7 @@ The cascade's r(z) = ρ_DM^SIDC(z) / ρ_DM^SIDC(0) at high z is the test of whet
 
 At z > 1100, the photon-baryon plasma is fully ionized and tightly coupled. Thomson scattering (photons bouncing off free electrons) deposits energy at a *huge* rate: R_Thomson(1100) ≈ 1.4 × 10⁶² J/yr/Mpc³, vastly larger than stellar activity at that epoch. In proper units, R_Thomson ∝ (1+z)⁷. With the (1+z)⁴ fossil-dilution factor in the integral, the integrand scales as (1+z)³ — and the integral from z to z_max naturally gives ρ(z) ∝ (1+z)³. **The cascade's broader principle gives the right (1+z)³ scaling from Thomson alone.**
 
-This is what the "scale-time invariance" means: the cascade is *scale-invariant* in its law (every event creates a 2D universe, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. The 2D time-dilation principle (a 2D universe's 30 Gyr lifetime in 2D maps to ~33 s in 3+1D) is a *local* phenomenon preserved at every epoch.
+This is what the "scale-time invariance" means: the cascade is *energy-scale-invariant* in its law (every event above E_crit creates a 2D universe, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. The cascade is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 30 Gyr lifetime in 2D maps to ~33 s in 3+1D) is a *local* phenomenon preserved at every epoch.
 
 **See:** `calculations/time_scale_invariance_test_v5.py`, `paper/paper.md` §4.47–§4.51
 
@@ -157,7 +157,7 @@ The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geom
 
 1. **§4.45 AGC/KKR bifurcation (commit 269)**: cascade's most distinctive prediction — that SFH determines DM — quantitatively reproduced by a 722-line Python emulator. 820× → 219× bifurcation.
 
-2. **§4.47–§4.48 Time-scale invariance test (commit 272)**: r(z=6) with stellar-only R(z) gives 0.008 — apparent time-lag. Honest negative result documented.
+2. **§4.47–§4.48 Time-scale invariance test (commit 272)**: r(z=6) with stellar-only R(z) gives 0.008 — apparent time-lag. Honest negative result documented. Note: "scale-time invariance" here refers to ENERGY-SCALE invariance, not dimensional scale invariance (which was removed in v2.6).
 
 3. **§4.49 Bug fix (commit 274)**: user caught r(z=6) = 0.73 at F_p=1 (a numerical coincidence that, in the postdiction-era paper, was *suspiciously* close to H_0 = 73 km/s/Mpc). Found that integrand should have (1+z)⁴ in denominator, not (1+z). With bug fix: r(z=6) ~ 10⁻⁴ — even more severe falsification. Limitation 31 REVERTED to OPEN. (Note: the H_0 = 73 framing was later removed in v2.5 commit 281; the cascade does not actually predict H_0 = 73.)
 
