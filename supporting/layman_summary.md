@@ -1,8 +1,8 @@
 # Layman Summary: Gravity as Residual
 
-**v2.7.3 — June 2026** (*35 external constraints catalog, parameter-reducing convergence on 2D CFT*)
+**v2.7.3 — June 2026** (*40 external constraints catalog, parameter-reducing convergence on 2D CFT*)
 
-The cascade's 5/27/68 split is treated as observational data (Planck 2018) with the cascade providing a qualitative interpretation (5% = baryons, 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity). The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped as a separate postulate that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). f_active is now a FREE PARAMETER. The §2.6.1 "5/27 as topological eigenvalue" section and the "three 5% coincidence" section are removed. **v2.7.3** adds 35 external constraints from 2024-2026 web research (including late 2025-2026 updates: JWST MoM-z14, DESI DR2 BAO, LZ 4.2 tonne-years, XENONnT 3.1 tonne-years, LIGO-Virgo-KAGRA O4 catalog), reducing the cascade's 4 free 2D CFT parameters to 2 (μ, m₃₊₁D) by parameter-reducing constraints. The TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H₀,4D = 70.16 (the KILLER MATCH — closest single measurement to cascade). c=1 string theory matrix model is identified as the exact framework for the cascade's 2D CFT. One new cascade prediction: 2D universe birth stochastic GW background, testable with SKA-MPG in 2030s.
+The cascade's 5/27/68 split is treated as observational data (Planck 2018) with the cascade providing a qualitative interpretation (5% = baryons, 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity). The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped as a separate postulate that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). f_active is now a FREE PARAMETER. The §2.6.1 "5/27 as topological eigenvalue" section and the "three 5% coincidence" section are removed. **v2.7.3** adds 40 external constraints from 2024-2026 web research (including late 2025-2026: JWST MoM-z14, DESI DR2 BAO, LZ 4.2 tonne-years, XENONnT 3.1 tonne-years, LIGO-Virgo-KAGRA O4 catalog, and extended 2025-2026: TDCOSMO 2025 H₀=71.6, TDCOSMO XXIV H₀=64.2, DES Y6 3x2pt S₈=0.833, JT gravity non-perturbative overlaps, Probabilistic Liouville), reducing the cascade's 4 free 2D CFT parameters to 2 (μ, m₃₊₁D) by parameter-reducing constraints. The TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H₀,4D = 70.16 (the KILLER MATCH — closest single measurement to cascade). c=1 string theory matrix model is identified as the exact framework for the cascade's 2D CFT, with rigorous DOZZ proof (Sept 2025). One new cascade prediction: 2D universe birth stochastic GW background, testable with SKA-MPG in 2030s.
 
 **v2.7 — June 2026** (*Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed*)
 
@@ -182,7 +182,7 @@ Five specific research problems are listed in §7.1 of the paper for theoretical
 - **§5 Brief pointer** to §2.3
 - **§6 Falsification criteria** — what would refute the cascade
 - **§7 Limitations** — 32 honest items (L32 removed in v2.7 as data fitting; 3 closed, 10 partial, 17 open, 2 falsified, 2 reverted)
-- **§8.1.1–§8.1.7 External constraints** — 30 constraints from 2024-2025 web research (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 1 new cascade prediction)
+- **§8.1.1–§8.1.9 External constraints** — 40 constraints from 2024-2026 web research (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 5 late 2025-2026, 5 extended 2025-2026, 1 new cascade prediction)
 - **§7.1 Open-Source Scientific Collaboration** — 5 specific research problems for 2D CFT experts
 
 ---
