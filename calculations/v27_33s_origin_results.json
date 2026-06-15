@@ -1,0 +1,25 @@
+{
+  "test": "Why 33 s? Why SN calibration?",
+  "33s_origin": "Phenomenological calibration, free parameter",
+  "33s_important_for": "absolute scale of cascade, NOT shape (\u03b1=1.29)",
+  "why_SN": [
+    "Goldilocks energy: at knee of smooth function (10^44 J)",
+    "\u03c4_2D = 33 s is in measurable range (not 10^-67 s like LHC)",
+    "Energetics well-measured (CCSN models)",
+    "DM contribution to galaxies well-observed (SPARC, RAR)",
+    "SN rate history well-known (SFRD)"
+  ],
+  "alternative_calibrations": {
+    "BNS": "\u03c4_2D(BNS) = 12,500 s = 3.5 hr (consistent with \u03b1=1.29)",
+    "AGN": "\u03c4_2D(AGN) = 1.6e8 yr (consistent with \u03b1=1.29)",
+    "LHC": "\u03c4_2D(LHC) = 3.3e-67 s (UNMEASURABLE, can't calibrate)"
+  },
+  "alpha_independent_of_calibration": "\u03b1 = 1.29 is SAME whether calibrate to SN, BNS, AGN",
+  "verdict": {
+    "33s_arbitrary": true,
+    "SN_right_calibration_point": true,
+    "alpha_testable": true,
+    "alpha_testable_by": "BNS/AGN GW background (2030s SKA-MPG)"
+  },
+  "conclusion": "33 s is a phenomenological fit (free parameter). SN is the right calibration point because of Goldilocks energy, measurable timescale, well-known energetics. The IMPORTANT parameter is \u03b1 = 1.29 (shape, not absolute scale). Other events give consistent predictions with same \u03b1."
+}

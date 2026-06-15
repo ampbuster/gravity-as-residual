@@ -1121,7 +1121,7 @@ The honest summary: *none* of these frameworks derive the cascade's α = 1.29 fr
 - **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.7: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.8: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
@@ -3392,9 +3392,9 @@ After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contri
 
 ---
 
-### 4.48 Primordial Lagrangian Design: Two-Component DM with Trial-and-Error (v2.4) + Smooth F(z) Refinement (v2.7.5)
+### 4.48 Smooth F(z) DM Design (v2.7.8+, supersedes the v2.4-v2.7.7 "Two-Component" picture)
 
-*Per user direction, this subsection designs a primordial, high-redshift phase for the cascade Lagrangian that initializes the background DM ledger before stars take over. The result is a two-component DM model with F_p ~ 0.7 (primordial) + F_s ~ 0.3 (stellar), and Limitation 31 is PARTIALLY ADDRESSED.*
+*Per user direction, this subsection designs a primordial, high-redshift phase for the cascade Lagrangian that initializes the background DM ledger before stars take over. **Historical framing (v2.4-v2.7.7):** the design was a "two-component" model with F_p ~ 0.7 (primordial, constant in z) + F_s ~ 0.3 (stellar, Madau-Dickinson SFR-weighted). **Current framing (v2.7.8+):** the two-component structure is replaced by a *single smooth function* F_p(z) = 0.7 + 0.3 × z²/(z_half² + z²) (Hill function, n=2, z_half ≈ 3, see §4.48.1). This smooth function supersedes the constant F_p because: (a) the 4D event's internal activity R_p(z) is unlikely to be a step function; (b) the smooth F(z) closes the CMB gap to < 1% (vs 30% off for constant F_p); (c) at high z, F_p → 1.0 (pure primordial), so the "two components" was really only a low-z feature. The "two-component" terminology is preserved in some legacy references but is no longer the primary framework. Limitation 31 is now FULLY ADDRESSED by the smooth F(z) framework.*
 
 **The design problem.** §4.47 documented that the cascade's *natural* prediction is time-lagged DM: at z=6, SIDC has only ~1% of ΛCDM's DM density because the cascade's energetics predict F_stellar ~ 1. This is the Δχ²=+650 CMB penalty in physical terms, and it makes the JWST "early galaxy problem" *worse* for SIDC than for ΛCDM.
 
@@ -3493,7 +3493,7 @@ The cascade ACCEPTS that the CMB-era DM is some F_s fraction less than today's v
 - ✓ Updates Limitation 31 to PARTIALLY ADDRESSED
 - ✓ Identifies 4 open questions for theoretical physicists
 
-#### 4.48.1 Smooth F(z) Refinement: A 1-Parameter Family That Closes the CMB Gap (v2.7.5)
+#### 4.48.1 Smooth F(z) Details: A 1-Parameter Family That Closes the CMB Gap (v2.7.5, promoted to primary framework in v2.7.8)
 
 **Motivation.** The v2.4 baseline (§4.48) uses a *constant* F_p = 0.7 (primordial fraction of DM). This is a *step function* in cosmic time: F_p is the same at z=1100 (CMB) as at z=0 (today). A step function is unphysical: the 4D event's internal activity R_p(z) is unlikely to be a step, and the Madau-Dickinson SFR drops *smoothly* with redshift, not in steps. A more honest cascade replaces the constant F_p with a *smooth function* F_p(z) that grows from F_p(0) = 0.7 to F_p(∞) = 1.0.
 
@@ -5625,7 +5625,7 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 
 5. **Generalize the 5/27 derivation to non-static bulks** (Limitation 17, §2.6.1). The current treatment assumes a static AdS$_5$ slice; cosmological evolution (rolling radion, time-dependent warp factor) would modify the 5/27 ratio. A specific calculation would track the ratio's evolution.
 
-**Reproducibility infrastructure.** All 34 limitations have explicit closure criteria in §7.0. The smooth F(z) refinement in §4.48.1 closes the v2.4 CMB gap (constant F_p = 0.7 was 30% off at z=1100; smooth Hill n=2 z_half=3 matches both anchors with gap < 1%). All 17 test categories have corresponding Python scripts in `calculations/`. The v2.4 tensor construction has 5 verification checks in `calculations/verify_tensor_pipeline.py`. The v2.4 refactor has 4 verification checks in `calculations/verify_v24_refactor.py`. A reviewer can re-run any test in <5 minutes on a standard scientific Python environment.
+**Reproducibility infrastructure.** All 34 limitations have explicit closure criteria in §7.0. The smooth F(z) refinement in §4.48.1 (now §4.48's primary framework as of v2.7.8) closes the v2.4 CMB gap (constant F_p = 0.7 was 30% off at z=1100; smooth Hill n=2 z_half=3 matches both anchors with gap < 1%). All 17 test categories have corresponding Python scripts in `calculations/`. The v2.4 tensor construction has 5 verification checks in `calculations/verify_tensor_pipeline.py`. The v2.4 refactor has 4 verification checks in `calculations/verify_v24_refactor.py`. A reviewer can re-run any test in <5 minutes on a standard scientific Python environment.
 
 **License and contribution terms.** The manuscript is released under CC-BY 4.0. The code is released under MIT. Contributions are welcome via pull request on GitHub. For substantial theoretical work (completing the Lagrangian, deriving the 5/27, etc.), the author is open to co-authorship on follow-up papers and is reachable through the GitHub repository's issue tracker.
 

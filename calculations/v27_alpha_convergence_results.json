@@ -1,0 +1,25 @@
+{
+  "test": "Why \u03b1 = 1.29? Convergence analysis",
+  "alpha_source": "Single SN calibration point",
+  "SN_alpha_calc": 1.2903694893933826,
+  "alpha_status": "ONE-POINT FIT, not derived from any framework",
+  "predictions": {
+    "LHC_pp_s": 1.366751382225849e-67,
+    "Sun_particle_s": 1.720638046688923e-80,
+    "BNS_merger_yr": 0.0003859690911294001,
+    "AGN_outburst_yr": 21210.579162128375
+  },
+  "theoretical_candidates": {
+    "9/7 (M-theory compactification)": 1.286,
+    "sqrt(5/3)": 1.291,
+    "no_clear_match": true
+  },
+  "verdict": {
+    "alpha_derived_from_first_principles": false,
+    "alpha_one_point_fit": true,
+    "alpha_in_CGHS_range": true,
+    "alpha_testable": true,
+    "alpha_testable_by": "BNS/AGN GW background (2030s SKA-MPG PTAs)"
+  },
+  "conclusion": "\u03b1 = 1.29 is a phenomenological fit from SN calibration. NOT derived from any framework, NOT a convergence of multiple lines of evidence, NOT a clear match to other physics constants. CGHS gives the range p=1-3 (\u03b1=1.29 is in this range), but no specific calculation yields 1.29. The honest status: \u03b1 is a parameter awaiting first-principles derivation. It will be TESTED by future BNS/AGN GW observations."
+}

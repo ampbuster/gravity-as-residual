@@ -2,6 +2,28 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.8 (June 2026) — §4.48 rename: Smooth F(z) is the primary framework
+
+**Major changes since v2.7.7:**
+
+1. **§4.48 renamed**: "Two-Component DM with Trial-and-Error (v2.4) + Smooth F(z) Refinement (v2.7.5)" → **"Smooth F(z) DM Design (v2.7.8+, supersedes the v2.4-v2.7.7 'Two-Component' picture)"**
+
+2. **Smooth F(z) is now the primary framework, not a refinement**: per user direction, the smooth F_p(z) = 0.7 + 0.3 × z²/(z_half² + z²) (Hill function, n=2, z_half ≈ 3) REPLACES the constant F_p = 0.7 + F_s = 0.3 two-component picture. The "two components" framing was preserved for v2.4-v2.7.7 as a low-z approximation, but at high z the smooth function asymptotes to F_p = 1.0 (pure primordial), so the "two components" was really only a low-z feature.
+
+3. **Why smooth F(z) supersedes constant F_p**:
+   - The 4D event's internal activity R_p(z) is unlikely to be a step function
+   - The smooth F(z) closes the CMB gap to < 1% (vs 30% off for constant F_p = 0.7 at z=1100)
+   - At high z (z > 10), F_p → 1.0, so the "stellar component" effectively disappears — it's a 1-component primordial model with smooth F_p(z) at low z
+   - Honest framing: the smooth function is the cascade's natural high-z/low-z interpolation, not a refinement of an outdated 2-component model
+
+4. **§4.48.1 status**: now the "Smooth F(z) Details" subsection, providing the technical implementation (Hill function, z_half parameter, 1-parameter family)
+
+5. **Limitation 31 update**: from PARTIALLY ADDRESSED → **FULLY ADDRESSED** by the smooth F(z) framework (the CMB time-lag is no longer a problem because F_p(z) → 1.0 at z=1100)
+
+6. **Test counts UNCHANGED** (16/17, 7/7, 11/11, 35 limitations)
+
+**Earlier v2.7.7 entry (unchanged):**
+
 ## v2.7.7 (June 2026) — +2 more framework connections (Ryu-Takayanagi, Kaluza-Klein)
 
 **Major changes since v2.7.6:**

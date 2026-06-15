@@ -1,0 +1,25 @@
+{
+  "test": "Is \u03b1 = 1.29 truly scale-invariant across energies?",
+  "cascade_assumption": "\u03b1 is constant (universal)",
+  "cascade_calibration": "\u03b1 = 1.29 from SN (E = 10^44 J)",
+  "predictions_under_constant_alpha": {
+    "LHC_pp_s": 1.366751382225849e-67,
+    "BNS_merger_yr": 413573.33237016544,
+    "AGN_outburst_yr": 157236195.56809604
+  },
+  "theoretical_motivation_for_running": [
+    "QFT couplings generally run with energy (RG flow)",
+    "CGHS back-reaction may be energy-dependent",
+    "String moduli have energy-dependent VEVs",
+    "Multi-scale physics in 2D universe creation"
+  ],
+  "verdict": {
+    "constant_alpha_derived": false,
+    "constant_alpha_motivated": "phenomenological only",
+    "constant_alpha_testable": true,
+    "testable_by": "BNS/AGN GW background in 2030s (SKA-MPG PTAs)",
+    "if_validated": "\u03b1 = 1.29 holds across 14+ orders of magnitude",
+    "if_falsified": "\u03b1 runs with energy, or \u03b1 = 1.29 is local fit only"
+  },
+  "conclusion": "\u03b1 = 1.29 is ASSUMED constant, not derived. The cascade's scale-invariance assumption is phenomenological, not theoretical. 2030s GW observations would distinguish constant-\u03b1 from running-\u03b1 scenarios."
+}
