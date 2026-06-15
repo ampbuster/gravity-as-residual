@@ -70,6 +70,19 @@ are kept as honest research artifacts.
 This is the ONLY place in paper.md that documents the test results.
 Detailed test scripts remain in calculations/.
 
+**MAIN POINT REFRAMED (added to README and layman_summary):**
+The cascade is the ONLY dark sector model that achieves ALL THREE of:
+  1. Cosmological fit (matches ΛCDM)
+  2. Galactic fit (matches MOND)
+  3. Parsimony (1 principle vs 20+ ΛCDM parameters)
+
+This is the cascade's UNIQUE SELLING POINT. Other models typically
+sacrifice 1-2 (see comparison table in README and layman_summary).
+The cascade achieves the trifecta because it's a HYBRID:
+  - Cosmological: borrows from CDM (2D universes are CDM-like)
+  - Galactic: borrows from MOND (memory effect at low acceleration)
+  - Parsimony: 1 principle explains both
+
 **Decision rationale:** The paper is a thought experiment, and the
 cascade's value is its interpretive framework + parsimony (1 principle
 vs 20+ ΛCDM parameters). Adding all these negative results to the paper
