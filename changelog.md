@@ -56,6 +56,20 @@ are kept as honest research artifacts.
    checks."** The cascade has 0 unique smoking guns. The AGC/KKR
    bifurcation is also predicted by ΛCDM (SMHM) and MOND (baryons).
 
+**EXCEPTION (added to paper.md §8.1):** A lightweight 1-paragraph
+"HONEST ASSESSMENT OF PREDICTIVE POWER" subsection was added to
+§8 Conclusion. This acknowledges:
+- The cascade's 0 unique testable predictions
+- The 9+ observational tests we ran (CMB, r(z), P(k), halo mass function,
+  CMB lensing, 21cm, RAR, MOND behavior, AGC/KKR)
+- The SPARC results (g_+ = 9.54e-11 within 20% of MOND; MOND behavior
+  at 2% level)
+- The 2D CFT FORM derived, PARAMETERS free
+- The cascade's value is interpretive + parsimonious, not predictive
+
+This is the ONLY place in paper.md that documents the test results.
+Detailed test scripts remain in calculations/.
+
 **Decision rationale:** The paper is a thought experiment, and the
 cascade's value is its interpretive framework + parsimony (1 principle
 vs 20+ ΛCDM parameters). Adding all these negative results to the paper

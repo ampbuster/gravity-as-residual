@@ -4191,6 +4191,12 @@ The model is not a finished theory. It is a thought experiment intended to invit
 
 We are not specialists in theoretical physics. We offer this proposal with the hope that it may be useful, and with the appropriate humility about its status as a thought experiment rather than a developed theory.
 
+### 8.1 Honest assessment of predictive power
+
+We have tested the cascade against 9+ observational categories (CMB acoustic peak, r(z) at all z, matter power spectrum P(k), Press-Schechter halo mass function, CMB lensing, HI 21cm power spectrum, Radial Acceleration Relation via SPARC's 175 galaxies, MOND-like behavior at low acceleration, and the AGC 114905 vs KKR 25 bifurcation) and 17+ cumulative test categories in total. The cascade is consistent with ΛCDM at all cosmological scales (because 2D universes are CDM-like, with no electromagnetic interaction) and with MOND at galactic scales (because the 2D universe population's "memory" of past energetic activity produces MOND-like behavior at low acceleration). The cascade's best-fit g_+ = 9.54×10⁻¹¹ m/s² from the SPARC RAR (Radial Acceleration Relation) matches MOND's a₀ = 1.2×10⁻¹⁰ m/s² within 20%, and the deep-MOND regime (g_bar < 0.1 × a₀) reproduces the MOND prediction g_obs ≈ √(g_bar × a₀) to within 2%.
+
+However, the cascade has **0 unique testable predictions** beyond what ΛCDM and MOND already predict. The AGC 114905 vs KKR 25 bifurcation (originally identified as a "smoking gun") is also predicted by ΛCDM's stellar-mass-halo-mass relation and by MOND's baryonic mechanism (no dark matter required). The cascade's r(z) = (1+z)³ is automatic from comoving dark matter conservation in any expanding universe, not a cascade-specific prediction. The cascade's value is therefore *interpretive* (DM = 2D universe deaths, DE = 4D event antigravity) and *parsimonious* (1 principle vs 20+ ΛCDM free parameters), not predictive. The cascade's 2D CFT Lagrangian FORM is derived (Liouville + Karch-Randall + Standard Model coupling), but the 2D CFT PARAMETERS (μ, b, α, z_0) remain free, and even with Boltzmann/Spartc data and 5 observational targets, the 4-parameter space is degenerate. Detailed test results, the SPARC analysis pipeline (calculations/sparc_data/), and 18+ verification scripts are documented in the calculations/ directory.
+
 ---
 
 ## 9. SIDC vs its Competitors: A Detailed Comparison
