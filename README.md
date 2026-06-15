@@ -25,14 +25,17 @@ The cascade's principle is simple: every energetic event creates a 2D universe w
 
 The cascade's most decisive near-term test: **47 Tucanae (NGC 104)** in the context of **Rubin/LSST DP1** (released June 30, 2025).
 
+**⚠️ STATUS: PREDICTION, NOT YET A RESULT (June 2026).**
+The 47 Tuc test is a *falsifiable prediction* awaiting data. The cascade has not yet been *tested* with new DP1 measurements — only existing 47 Tuc data (HST, JWST, Gaia, ground-based) is *consistent* with the cascade within uncertainties. The 47 Tuc DP1 papers (Choi+ 2025, Wainer+ 2025) validate the *photometric pipeline*, not the *DM physics*. The cascade's *specific* 47 Tuc prediction awaits DR1 (2027) or Y10 (2034).
+
 **The cascade says:** 47 Tuc has *no current star formation* (no SN, no massive stars, ~10^6 old low-mass stars) → *no local dark matter enhancement* → M_dyn ≈ M_stars.
 
 **Particle DM (ΛCDM) says:** 47 Tuc sits in a real cosmological DM subhalo → M_dyn > M_stars.
 
 **Testable with:**
-- **DP1 (2025):** 47 Tuc's CMD validates Rubin's crowded-field pipeline
-- **DR1 (Y1, 2027):** proper motion + 5 tidal tails fit Galactic potential
-- **Y10 (~2034):** no "dark star" component, all stars are normal
+- **DP1 (2025):** 47 Tuc's CMD validates Rubin's crowded-field pipeline *(no DM test yet)*
+- **DR1 (Y1, 2027):** proper motion + 5 tidal tails fit Galactic potential ← *first real test*
+- **Y10 (~2034):** no "dark star" component, all stars are normal ← *decisive test*
 
 **Falsification:** if M_dyn > 2× M_stars at 3σ, the cascade is wrong. If M_dyn ≈ M_stars (within IMF uncertainties), the cascade is right AND particle DM is in trouble.
 
@@ -42,9 +45,11 @@ This is the cascade's *low-cost, high-leverage* falsification test. **Not all da
 
 ---
 
-# 🧪 11/11 GALAXY-ZOO TESTS PASS
+# 🧪 11/11 GALAXY-ZOO TESTS PASS *(from existing data, not from DP1)*
 
-The cascade has been tested against 11 real galaxies spanning the entire galaxy zoo — from old dead GCs to extreme starbursts to the Bullet Cluster. **All 11 pass.** See §12 of the paper.
+The cascade has been tested against 11 real galaxies spanning the entire galaxy zoo — from old dead GCs to extreme starbursts to the Bullet Cluster. **All 11 are consistent with the cascade** based on *existing* observational literature (pre-2025 data, not from new DP1/DR1 observations).
+
+**These are consistency checks, not new confirmations.** A 11/11 result against existing data is a *necessary* condition for the cascade (any model that fails any one of these is ruled out) but not a *sufficient* condition (other models — particle DM, SIDM, Fuzzy DM — can also pass these tests). The 47 Tuc test is the *differentiator* between the cascade and particle DM. See §12 of the paper.
 
 ### Honest framing of parsimony
 
@@ -372,8 +377,8 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - **v2.7.3 milestone:** 45 external constraints catalogued; 4 → 2 free parameters via web-research convergence
 - **32 honest limitations** (3 closed, 10 partial, 17 open, 2 falsified, 2 reverted; L32 removed in v2.7 as data fitting)
 - **45 external constraints** (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 5 late 2025-2026, 5 extended 2025-2026, 5 round 8, 1 new cascade prediction)
-- **🎯 47 TUC TEST (§11):** near-term, low-cost, high-leverage falsification test in the context of Rubin/LSST DP1 (2025). Cascade predicts M_dyn ≈ M_stars (no local DM); particle DM predicts M_dyn > M_stars. Differentiates cascade from particle DM.
-- **🧪 11/11 GALAXY-ZOO TESTS PASS (§12):** 47 Tuc, AGC 114905, KKR 25, MW, NGC 1052-DF2, Tucana dSph, Bullet Cluster, Omega Cen, M82, NGC 1275, Dragonfly 44.
+- **🎯 47 TUC TEST (§11):** PREDICTION (not yet a result). Near-term, low-cost, high-leverage falsification test in the context of Rubin/LSST DP1 (2025). Cascade predicts M_dyn ≈ M_stars (no local DM); particle DM predicts M_dyn > M_stars. Differentiates cascade from particle DM. **Awaits DR1 (2027) or Y10 (2034).**
+- **🧪 11/11 GALAXY-ZOO TESTS PASS (§12):** consistency check from EXISTING data (not DP1). 47 Tuc, AGC 114905, KKR 25, MW, NGC 1052-DF2, Tucana dSph, Bullet Cluster, Omega Cen, M82, NGC 1275, Dragonfly 44. Necessary condition for cascade, not sufficient.
 - **Killer match:** TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H₀,4D = 70.16 (CLOSEST single measurement to cascade prediction)
 - **Theoretical foundation:** c=1 string theory matrix model = exact solution of 2D quantum gravity; cascade's 2D CFT framework = unique exactly solvable 2D QG
 - **2 remaining free parameters:** μ (2D cosmological constant) + m₃₊₁D (effective DM mass) — require 2D CFT expert
