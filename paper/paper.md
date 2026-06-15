@@ -3,7 +3,7 @@
 **Author:** ampbuster (software developer, not a physicist)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
 **Repository:** https://github.com/ampbuster/gravity-as-residual
-**Current version:** v2.7.4 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
+**Current version:** v2.7.5 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
 
 ---
 
@@ -454,11 +454,11 @@ Where $G_{++}$ is the time-ordered (Feynman) propagator for the brane's lifecycl
 *Limitation 26 update (v2.3.0):* The cascade now provides both the *geometry* AND the *CTP structure* of the action. The remaining gaps are *calibration parameters* ($\mathcal{L}_{2D}$, $\alpha$), not structural gaps. The framework is rigorous in the in-in sense; the parameters are empirical. A mathematical physicist can complete the cascade by specifying these parameters. The cascade's action is a *framework* ready to be parameterized.
 
 
-#### 2.5.3 The smooth creation function: a single E^(1+alpha) weight replaces the E_crit step (v2.7.4)
+#### 2.5.3 The smooth creation function: a single E^(1+alpha) weight replaces the E_crit step (v2.7.5)
 
 **The previous "phase-transition principle" used a hard threshold.** The v2.3.0 formulation postulated a *step function* for 2D universe creation: events with E > E_crit ~ 10^30 J create full 2D universes, events with E < E_crit create none. This step function was used to explain why the Sun has no DM, why AGC 114905 has no DM, and why KKR 25 does have DM (via cumulative return from past activity).
 
-**Problem with the step function.** The cascade *already has* a smooth energy-scaling rule for the 2D universe's lifetime: τ_2D = t_Pl × (E/E_Pl)^α with α = 1.29 (calibrated to the SN 33s point, §10.1). The phase-transition principle's hard threshold E_crit is *inconsistent* with this energy-scaling rule — it's an additional, separate postulate that introduces a discontinuity at E = E_crit. The hard threshold is *not derived* from the cascade's other principles; it's calibrated to data (a hidden free parameter, now removed in v2.7.4).
+**Problem with the step function.** The cascade *already has* a smooth energy-scaling rule for the 2D universe's lifetime: τ_2D = t_Pl × (E/E_Pl)^α with α = 1.29 (calibrated to the SN 33s point, §10.1). The phase-transition principle's hard threshold E_crit is *inconsistent* with this energy-scaling rule — it's an additional, separate postulate that introduces a discontinuity at E = E_crit. The hard threshold is *not derived* from the cascade's other principles; it's calibrated to data (a hidden free parameter, now removed in v2.7.5).
 
 **The smooth creation function.** The cascade's contribution to cumulative DM from a single event of energy E is:
 
@@ -3229,7 +3229,7 @@ After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contri
 
 ---
 
-### 4.48 Primordial Lagrangian Design: Two-Component DM with Trial-and-Error (v2.4) + Smooth F(z) Refinement (v2.7.4)
+### 4.48 Primordial Lagrangian Design: Two-Component DM with Trial-and-Error (v2.4) + Smooth F(z) Refinement (v2.7.5)
 
 *Per user direction, this subsection designs a primordial, high-redshift phase for the cascade Lagrangian that initializes the background DM ledger before stars take over. The result is a two-component DM model with F_p ~ 0.7 (primordial) + F_s ~ 0.3 (stellar), and Limitation 31 is PARTIALLY ADDRESSED.*
 
@@ -3330,7 +3330,7 @@ The cascade ACCEPTS that the CMB-era DM is some F_s fraction less than today's v
 - ✓ Updates Limitation 31 to PARTIALLY ADDRESSED
 - ✓ Identifies 4 open questions for theoretical physicists
 
-#### 4.48.1 Smooth F(z) Refinement: A 1-Parameter Family That Closes the CMB Gap (v2.7.4)
+#### 4.48.1 Smooth F(z) Refinement: A 1-Parameter Family That Closes the CMB Gap (v2.7.5)
 
 **Motivation.** The v2.4 baseline (§4.48) uses a *constant* F_p = 0.7 (primordial fraction of DM). This is a *step function* in cosmic time: F_p is the same at z=1100 (CMB) as at z=0 (today). A step function is unphysical: the 4D event's internal activity R_p(z) is unlikely to be a step, and the Madau-Dickinson SFR drops *smoothly* with redshift, not in steps. A more honest cascade replaces the constant F_p with a *smooth function* F_p(z) that grows from F_p(0) = 0.7 to F_p(∞) = 1.0.
 
@@ -3975,11 +3975,11 @@ This is a thought experiment, not a theory. We identify 35 honest limitations, w
 | 31 (NEW) | 2D-to-3+1D time compression | OPEN (v2.6) | §2.5, §2.6 | The bulk position distribution P(y) is unknown; required $e^{-ky} \sim 10^{-48}$ corresponds to 2D universes ~100 AdS_5 radii deep; a specific bulk geometry and 2D CFT calculation would close this |
 | 32 (REMOVED v2.7) | ~~4-zone H(z) derivation~~ | N/A | N/A | REMOVED in v2.7: the 4-zone H(z) was data fitting (8 free parameters for ~5 data points), and the P(y) problem made it internally inconsistent. The cascade now adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved. |
 | 33 (NEW) | Ω_DM = 0.27 as input postulate | OPEN (v2.6) | §2.5, §2.6 | The cascade postulates that all observed DM is 2D universe mass, time-compressed; the specific 27% value is an INPUT from Planck 2018, not a derivation; closing this would require a 2D CFT calculation that yields 27% as a numerical output |
-| 34 (NEW v2.7.4) | E_primordial (per-event energy of primordial 2D universes) | OPEN (v2.7.4) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* F_p, but does NOT specify the per-event energy E_primordial. The 2D universe lifetime τ_2D, growth factor G, and cumulative energy all depend on E_primordial. The cascade treats E_primordial as a FREE PARAMETER. Closing requires a derivation of E_primordial from the 4D event's internal dynamics. |
-| 35 (NEW v2.7.4) | z_half (smooth F_p transition redshift) | OPEN (v2.7.4) | §4.48.1 | Smooth F_p(z) = 0.7 + 0.3 * z^2/(z_half^2 + z^2) introduces free parameter z_half ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of z_half from 4D event dynamics. |
-| 36 (NEW v2.7.4) | E_crit (phase-transition threshold) | REVERTED (v2.7.4) | §2.5.3 | v2.3.0 E_crit ~ 10^30 J step-function threshold REMOVED in v2.7.4 in favor of smooth creation function C(E) = E^(1+alpha). The smooth function uses only existing alpha = 1.29, no new free parameters. All 5/5 dwarf cases still work. |
+| 34 (NEW v2.7.5) | E_primordial (per-event energy of primordial 2D universes) | OPEN (v2.7.5) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* F_p, but does NOT specify the per-event energy E_primordial. The 2D universe lifetime τ_2D, growth factor G, and cumulative energy all depend on E_primordial. The cascade treats E_primordial as a FREE PARAMETER. Closing requires a derivation of E_primordial from the 4D event's internal dynamics. |
+| 35 (NEW v2.7.5) | z_half (smooth F_p transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth F_p(z) = 0.7 + 0.3 * z^2/(z_half^2 + z^2) introduces free parameter z_half ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of z_half from 4D event dynamics. |
+| 36 (NEW v2.7.5) | E_crit (phase-transition threshold) | REVERTED (v2.7.5) | §2.5.3 | v2.3.0 E_crit ~ 10^30 J step-function threshold REMOVED in v2.7.4 in favor of smooth creation function C(E) = E^(1+alpha). The smooth function uses only existing alpha = 1.29, no new free parameters. All 5/5 dwarf cases still work. |
 
-**Summary (v2.7.4):**
+**Summary (v2.7.5):**
 - **OPEN**: 17 (50%) — require theoretical physics work beyond the cascade's current framework (L31, L33, L34, L35 retained; L32 removed)
 - **PARTIAL**: 10 (30%) — qualitatively right, quantitatively calibrated
 - **CLOSED**: 3 (9%) — fully resolved by the cascade (L13 conceptual; L14, L18)
@@ -5425,7 +5425,7 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 
 **Authorship and provenance.** The author is a software engineer, not a physicist. The framework emerged from iterative question-driven exploration, not from working through the formal mathematical machinery of brane-world gravity or 2D conformal field theory. This provenance is *honest transparency* about the framework's current state, not a disclaimer of its content. The framework's *geometric picture* (dimensional cascade, bulk-brane projection, 2D universe back-projection) is rigorous; the *mathematical formalism* (specific Lagrangian, 2D CFT central charge, 5D bulk geometry) is a *skeleton* awaiting completion by a domain expert.
 
-**Status of the framework.** The framework is *structurally complete* as a geometric specification, with these confirmed state markers (v2.7.4):
+**Status of the framework.** The framework is *structurally complete* as a geometric specification, with these confirmed state markers (v2.7.5):
 - **16/17 test categories pass** (16 pass, 1 confounded) on real observational data (SPARC, MaNGA, Pantheon+, Planck, Tian+ 2024, AGC 114905, KKR 25).
 - **0 strongly confirmed, 2 components falsified** (g_obs = g_bar + g_cum + g_active functional form in v2.2; Mechanism A Hubble in commit ~80) — both *specific functional forms*, since replaced by the cascade-MOND hybrid and Mechanism M, respectively. The cascade's *framework* (4D event → 3+1D → 2D) is NOT falsified; only the specific implementations that the cascade has since improved. The framework is *consistent* with current data without being *established* by it.
 - **35 honest limitations documented** (3 closed, 10 partial, 17 open, 2 falsified, 4 reverted; L32 removed v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED, L20 reverted v2.7.1), with specific closure criteria.

@@ -215,7 +215,7 @@ The cascade's r(z) = ρ_DM^DC(z) / ρ_DM^DC(0) at high z is the test of whether 
 
 **r(z) ≈ (1+z)³ for all z.** The cascade is consistent with ΛCDM at every redshift. The 5/27/68 split is observational data (Planck 2018) with a qualitative cascade interpretation, not a time-invariant cascade prediction.
 
-### Why Thomson scattering does NOT do the heavy lifting (honest update v2.7.4)
+### Why Thomson scattering does NOT do the heavy lifting (honest update v2.7.5)
 
 **The smooth function changes the picture.** Per the v2.7.4 smooth creation function C(E) = E^(1+α) (paper §2.5.3), Thomson scattering per-event contribution is *negligible* compared to SN:
 

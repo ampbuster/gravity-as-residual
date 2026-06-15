@@ -2,23 +2,29 @@
 
 This document contains the cascade's full version history. The most recent versions (v2.7+) are listed first. For the per-version analysis scripts and audit results, see `calculations/`.
 
-## v2.7.4 (June 2026) — Smooth F(z) closes the CMB gap; +L34 (E_primordial), +L35 (z_half), +L36 (E_crit REVERTED), L20 reverted; 10+ paper fixes, 1 new §2.5.3
+## v2.7.5 (June 2026) — Smooth F(z) framework + smooth creation function + paper structure cleanup
 
-8+ paper inconsistencies found and fixed via audit scripts:
-1. "0 falsified" → "2 components falsified" in executive summary AND §13 "Status of the framework"
-2. "17/17 test categories" → "16/17" (typo) in 3 places
-3. "32 honest limitations" → "33 honest limitations" → "34 honest limitations" in 3 current-state descriptions
-4. L20 "f_active derivation" status changed CLOSED → PARTIAL → REVERTED in v2.7.1
-5. F_p ~ 0.7 "good" → "best compromise" (table says MARGINAL)
-6. §4.48 E_primordial UNSPECIFIED note added, Limitation 34 added for the hidden free parameter
-7. f_proj notation overload resolved (renamed 32/68 ratio to f_split)
-8. "30th-and-final round" in §8.1.7 reframed as "Round 6" (acknowledges rounds 7-8)
-9. Lelli+ 2017 typo 1.20e-11 → 1.20e-10 m/s²
-10. f_active vs F_p distinction added (population ratio vs energy contribution ratio)
-11. **Smooth F(z) refinement in §4.48.1**: the v2.4 constant F_p = 0.7 is replaced with a smooth Hill function F_p(z) = 0.7 + 0.3 × z²/(z_half² + z²) with z_half ≈ 3. This 1-parameter family matches BOTH z=0 and z=1100 anchors with gap < 1%, CLOSING THE CMB GAP. The Hill form is preferred over exp/sigmoid because it stays below 1.0 at intermediate z (no over-prediction at z=2-6). L35 added for z_half free parameter.
-12. **Smooth creation function in §2.5.3 (NEW)**: the v2.3.0 E_crit phase-transition step threshold (E_crit ~ 10^30 J) is REPLACED with a single smooth function C(E) = E^(1+α) with α = 1.29 (the same α from the energy-scaling rule). The smooth function uses only the existing α parameter — no new free parameters. The 5/5 dwarf cases (Sun, DF2/DF4, FCC 224, AGC 114905) all still work: low-energy events contribute E^2.29/SN^2.29 ~ 10^-31 to 10^-41 of a SN, naturally negligible. L36 added for E_crit REVERTED status. **Parameter reduction: 2 free parameters (α + E_crit) → 1 free parameter (α).**
+**Major changes since v2.7.4:**
 
-The cascade now has 35 honest limitations (17 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED; L32 removed; L34, L35, L36 added). 7/7 specific cases UNCHANGED. 16/17 test categories UNCHANGED. **Total free parameters: 2 → 1 (E_crit removed via smooth creation function).**
+1. **§4.48.1 Smooth F(z) refinement (NEW subsection, ~3 pages)**: the v2.4 constant F_p = 0.7 (CMB gap: 30% off at z=1100) is replaced with a smooth Hill function F_p(z) = 0.7 + 0.3 × z²/(z_half² + z²) with z_half ≈ 3. This 1-parameter family matches BOTH z=0 and z=1100 anchors with gap < 1%, **CLOSING THE CMB GAP**. The Hill form is preferred over exp/sigmoid because it stays below 1.0 at intermediate z (no over-prediction at z=2-6). L35 added for z_half free parameter. Limitation 31 (CMB time-lag) status: PARTIALLY → **FULLY ADDRESSED**.
+
+2. **§2.5.3 Smooth creation function (NEW subsection, ~3 pages)**: the v2.3.0 E_crit step-function phase-transition threshold (E_crit ~ 10^30 J) is REPLACED with a single smooth function C(E) = E^(1+α) with α = 1.29 (the same α from the energy-scaling rule). The smooth function uses only the existing α parameter — no new free parameters. The 5/5 dwarf cases (Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) all still work: low-energy events contribute E^2.29/SN^2.29 ~ 10^-31 to 10^-41 of SN, naturally negligible. L36 added for E_crit REVERTED status. **Parameter reduction: 2 free parameters (α + E_crit) → 1 free parameter (α).**
+
+3. **Thomson tension resolution in README**: the v3 README claim that "Thomson does the heavy lifting" was incorrect under the smooth function. Thomson per-event contribution is ~10^-145 of SN (CMB photon energy × E^2.29 weight); even with Thomson's much higher rate (~10^67/s vs SN's 10^-12/s), net contribution is ~10^-66 of SN (negligible). The r(z) ≈ (1+z)³ match actually comes from the F_p(z) primordial component (§4.48.1), not from Thomson. README reframed to honest framing.
+
+4. **Paper structure cleanup**:
+   - Title + author + version + repo added to paper.md (was missing)
+   - 4 version announcements moved from paper.md to changelog.md (paper.md now references changelog.md)
+   - "32 honest limitations" → "33" → "34" → "35" (L34 E_primordial + L35 z_half + L36 E_crit REVERTED)
+   - 9+ paper inconsistencies found and fixed via audit scripts (calculations/v27_paper_inconsistency_audit.py, calculations/v27_paper_full_audit.py)
+
+5. **PDF regeneration**: paper.pdf now 201 pages (was 199), uses xelatex with DejaVu fonts to handle the 973 Unicode superscripts (10^-50, ², ³, etc.) that pdflatex cannot render. Build script: `paper/build_pdf.sh`.
+
+**Free parameters: 2 → 1** (E_crit removed via smooth creation function).
+
+**Total honest limitations: 35** (17 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED).
+
+7/7 specific cases UNCHANGED. 16/17 test categories UNCHANGED.
 
 **Version 2.7.3** (June 2026) — *30 external constraints catalog, parameter-reducing convergence on 2D CFT.* 30 external observational and theoretical constraints from 2024-2025 web research are catalogued: 4 parameter-reducing (μ, b, α, z₀ → μ, m₃₊₁D), 7 interpretive-cosmological (TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H₀,4D = 70.16 — the KILLER MATCH), 4 interpretive-theoretical (JT gravity = c=1 string limit; matrix model is exact 2D quantum gravity; Schwarzian spectrum), 10 from latest datasets (DESI DR2+ACT DR6 3.5σ evolving DE, Lyα WDM, XENONnT 2025, ACT DR6 lensing, HERA 21cm, SIDM, ALP, UFDs, MeV γ-ray, PBH), and 1 NEW CASCADE PREDICTION (2D universe birth stochastic GW background, testable with SKA-MPG in 2030s). The 4 free 2D CFT parameters (μ, b, α, z₀) are reduced to 2 (μ, m₃₊₁D) by external constraints, with the matrix model identified as the exact framework. §8.1.1–§8.1.7 added with all 30 constraints. Version 2.7.3 supersedes v2.7.1. The 7/7 specific-case predictions and 32 honest limitations are UNCHANGED.
 
@@ -26,7 +32,6 @@ The cascade now has 35 honest limitations (17 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALS
 
 **Version 2.7** (June 2026) — *Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed.* The cascade's earlier attempts to explain the Hubble tension via 4-zone H(z) (local R_stellar boost, bulk baseline, secular cosmic web boost, primordial CMB drag) were removed in v2.7. The 4-zone spec was data fitting (8 free parameters for ~5 data points), and the bulk position distribution P(y) was internally inconsistent (the axion-like mass required deep-bulk 2D universes, but the local R_stellar boost required shallow-bulk 2D universes). The cascade now adopts Mechanism M: ACCEPT the Hubble tension as a real observational tension, not resolved. The cascade's intrinsic H_0,4D = 70.16 (geometric mean) is preserved as a non-trivial property. The Ω_DM = 0.27 input postulate, the cone-shape architecture, the time compression mechanism, and the Liouville 2D CFT framework are all preserved. Limitation 32 (4-zone H(z) derivation) is REMOVED (it was an empirical fit, not a derivation). The cascade documents 32 honest limitations (L31 and L33 retained, L32 removed). The 7/7 specific-case predictions are UNCHANGED.
 
-**Version 2.7.4** (June 2026) — *Smooth F(z) closes the CMB gap; +L34 (E_primordial), +L35 (z_half), L20 reverted; 9+ paper fixes.* 8+ paper inconsistencies found and fixed via audit scripts (calculations/v27_paper_inconsistency_audit.py, calculations/v27_paper_full_audit.py, calculations/v27_session_inconsistency_audit.py): (1) "0 falsified" → "2 components falsified" in executive summary AND §13 "Status of the framework" section; (2) "17/17 test categories" → "16/17" (typo) in 3 places; (3) "32 honest limitations" → "33 honest limitations" in 3 current-state descriptions (executive summary, §7.0 intro, §13 status); (4) L20 "f_active derivation" status changed CLOSED → PARTIAL → REVERTED in v2.7.1 (the v2.3.1 "derivation" used τ_2D ~ 0.7 Gyr as a SEPARATE POSTULATE, not first-principles); (5) F_p ~ 0.7 "good" → "best compromise" (table says MARGINAL); (6) §4.48 E_primordial UNSPECIFIED note added, Limitation 34 added for the hidden free parameter; (7) f_proj notation overload resolved (renamed 32/68 ratio to f_split); (8) "30th-and-final round" in §8.1.7 reframed as "Round 6" (acknowledges rounds 7-8 added 15 more constraints for total 45); (9) Lelli+ 2017 typo 1.20e-11 → 1.20e-10 m/s²; (10) f_active vs F_p distinction added (population ratio vs energy contribution ratio). §13 Status of framework updated. (11) **Smooth F(z) refinement in §4.48.1**: the v2.4 constant F_p = 0.7 is replaced with a smooth Hill function F_p(z) = 0.7 + 0.3 × z²/(z_half² + z²) with z_half ≈ 3. This 1-parameter family matches BOTH z=0 and z=1100 anchors with gap < 1%, CLOSING THE CMB GAP. The Hill form is preferred over exp/sigmoid because it stays below 1.0 at intermediate z (no over-prediction at z=2-6). L35 added for z_half free parameter. The cascade now has 35 honest limitations (17 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED; L32 removed; L34, L35, L36 added). 7/7 specific cases UNCHANGED. 16/17 test categories UNCHANGED. **Total free parameters: 2 → 1 (E_crit removed via smooth creation function).**
 
 
 
