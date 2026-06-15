@@ -787,3 +787,49 @@ direction is right (cluster g_+ > galaxy g_+ > dwarf g_+), consistent with Tian+
 
 PDF: 86 pages, 450 KB.
 Total commits: 105.
+
+## v2.7.2 (June 2026) — 11 External Constraints on 2D CFT
+
+Web research in June 2026 yielded 11 external constraints on the cascade's
+2D CFT parameters and qualitative interpretation. These are documented in
+§8.1.1, §8.1.2, §8.1.3 of the paper, and in the calculations scripts.
+
+**v27_web_2d_cft_convergence.py** (4 PARAMETER-REDUCING constraints):
+1. b = i is natural for c = 1 (single scalar 2D CFT, IHES Vargas)
+2. m_3+1D > 8e-18 eV (Dalal & May 2025, arXiv:2509.02781)
+3. JT gravity on Karch-Randall brane (PRL 129, 231601)
+4. RAR extends to log g_bar ~ -12 (MIGHTEE-HI 2025, arXiv:2504.20857)
+
+Net result: 4 free parameters → 2 free parameters (μ, m_3+1D)
+
+**v27_more_external_constraints.py** (4 INTERPRETIVE constraints):
+5. JT gravity as universal near-extremal BH EFT (Castro, Iqbal 2025)
+6. DESI 2024+2025 ~3σ evidence for evolving DE (quintessence)
+7. Stiskalek 2025: H_0 = 73.04 ± 1.30 (1.8% Cepheid precision)
+8. S_8 tension persists at 2-3σ (Subaru HSC Y3 2025)
+
+**v27_final_external_constraints.py** (3 INTERPRETIVE constraints):
+9. TRGB H_0 = 69.8 ± 1.9 (Freedman 2024, CCHP, JWST) — **0.2σ from cascade H_0,4D = 70.16** (CLOSEST external measurement!)
+10. JWST high-z galaxy excess (z > 12, some z ~ 20) — qualitative cascade support
+11. BBN Li-7 anomaly (3.5× discrepancy) — cascade inherits from standard cosmology
+
+**Key finding**: The TRGB H_0 = 69.8 ± 1.9 sits in the *middle* of the
+Hubble tension and is the closest single external measurement to the
+cascade's H_0,4D = 70.16 (0.2σ match). This is a coincidence of the
+geometric mean, not a derivation, but it suggests the cascade's Mechanism M
+may be the *most consistent* single value across all H_0 methods.
+
+**Cascade's 2 remaining free parameters**:
+- μ (2D cosmological constant) — equivalent to "why Λ = ?"
+- m_3+1D (effective DM mass) — equivalent to "why m_DM = ?"
+
+Both require a 2D CFT theoretical physicist (Limitation 26 OPEN).
+
+Files:
+- calculations/v27_web_2d_cft_convergence.py
+- calculations/v27_more_external_constraints.py
+- calculations/v27_final_external_constraints.py
+- paper/paper.md §8.1.1, §8.1.2, §8.1.3 added
+- README.md updated with 11 external constraints summary
+
+Pushed: github.com/ampbuster/gravity-as-residual
