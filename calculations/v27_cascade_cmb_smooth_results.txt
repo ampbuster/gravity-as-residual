@@ -1,0 +1,77 @@
+================================================================================
+SMOOTH F(z) vs 2-ZONE F(z): CMB GAP ANALYSIS
+================================================================================
+
+§4.48 current model:
+  F_p = 0.7 (constant primordial)
+  F_s = 0.3 × SFR(z)/SFR(0) (Madau-SFR stellar, → 0 at high z)
+
+Cascade predicts: Omega_DM(z=1100) = 0.7 × Omega_DM(0)
+Observed (Planck): Omega_DM(z=1100) ≈ Omega_DM(0) = 0.265
+=> Gap: 30% under-prediction at z=1100
+
+--------------------------------------------------------------------------------
+MODEL COMPARISON
+--------------------------------------------------------------------------------
+
+Model                               z=0        z=1100       Gap@1100     Cost
+--------------------------------------------------------------------------------
+§4.48 constant F_p=0.7              1.0000     0.7000          -30.0%     0.1272
+§4.48 step F_p(z>4)=1.0             1.0000     1.0000           +0.0%     0.0000
+Sigmoid z_scale=4                   1.0054     1.0000           +0.0%     0.0000
+Sigmoid z_scale=2                   1.0054     1.0000           +0.0%     0.0000
+Sigmoid z_scale=1                   1.0054     1.0000           +0.0%     0.0000
+Sigmoid z_scale=0.5                 1.0054     1.0000           +0.0%     0.0000
+Exponential z_scale=2               1.0000     1.0000           +0.0%     0.0000
+Exponential z_scale=4               1.0000     1.0000           +0.0%     0.0000
+Exponential z_scale=10              1.0000     1.0000           +0.0%     0.0000
+Hill n=2 z_half=3                   1.0000     1.0000           -0.0%     0.0000
+Hill n=4 z_half=6                   1.0000     1.0000           -0.0%     0.0000
+tanh z_scale=2                      1.1500     1.0000           +0.0%     0.0195
+tanh z_scale=4                      1.1500     1.0000           +0.0%     0.0195
+
+--------------------------------------------------------------------------------
+FULL F(z) CURVES (best models)
+--------------------------------------------------------------------------------
+
+z        F_s(z)     F_p_const    F_p_sigmoid    F_p_exp      F_p_hill     Obs       
+--------------------------------------------------------------------------------
+0        0.3000     1.0000       1.0054         1.0000       1.0000       1.0000    
+1        0.2712     0.9712       0.9854         1.0892       1.0012       1.0000    
+2        0.1969     0.8969       0.9327         1.0866       0.9893       1.0000    
+4        0.0830     0.7830       0.9330         1.0424       0.9750       1.0000    
+6        0.0415     0.7415       1.0057         1.0266       0.9815       1.0000    
+8        0.0235     0.7235       1.0182         1.0181       0.9866       1.0000    
+10       0.0142     0.7142       1.0135         1.0122       0.9895       1.0000    
+20       0.0000     0.7000       1.0000         1.0000       0.9934       1.0000    
+50       0.0000     0.7000       1.0000         1.0000       0.9989       1.0000    
+100      0.0000     0.7000       1.0000         1.0000       0.9997       1.0000    
+200      0.0000     0.7000       1.0000         1.0000       0.9999       1.0000    
+500      0.0000     0.7000       1.0000         1.0000       1.0000       1.0000    
+1100     0.0000     0.7000       1.0000         1.0000       1.0000       1.0000    
+
+================================================================================
+CONCLUSIONS
+================================================================================
+
+1. CONSTANT F_p = 0.7 (§4.48 current) under-predicts Omega_DM(1100) by ~30%
+2. STEP FUNCTION (F_p jumps to 1.0 at z=4) gives a clean match at both anchors
+3. SMOOTH CURVES (sigmoid, exp, hill) can match both anchors if z_scale is right
+4. The 'gap' at z=1100 is bridged by ANY function that grows F_p from 0.7 to ~1.0
+
+PHYSICAL INTERPRETATION:
+  - F_p = 0.7 means 70% of DM came from the 4D event's steady activity
+  - F_p → 1.0 at high z means early DM was PRIMARILY primordial (no stellar)
+  - This is consistent with: 4D event's activity was higher in the past,
+    OR early 2D universes were more massive / longer-lived (different E)
+
+Smooth F(z) is more honest than step because:
+  - The 4D event's R_p(z) is unlikely to be a step function
+  - Stellar activity drops smoothly with z (Madau-SFR)
+  - The transition between F_p-dominated and F_s-dominated is gradual
+
+RECOMMENDATION: replace F_p = const with F_p(z) = 0.7 + 0.3 × (1 - exp(-z/z_scale))
+  with z_scale ~ 2-4 (transition over z = 0 to z = 8).
+
+This is a 1-parameter family (z_scale) that fits both anchors and provides
+a smooth, physically motivated transition.
