@@ -160,7 +160,7 @@ The cascade has **1 conceptual principle** but **2 remaining free parameters** (
 
 - **ΛCDM** predicts *similar* halos for AGC 114905 and KKR 25 via the SMHM relation (similar stellar masses, similar halo masses by construction). To get the observed 219× M_dyn/M_b split, ΛCDM must invoke **3-4σ stochastic outliers in feedback/spin parameters** — calling that a "prediction" is generous. It is an *outlier*, not a *prediction*.
 - **MOND** is deterministic from baryonic mass alone and *fails* on AGC 114905: the galaxy is ultra-diffuse, low-surface-brightness, isolated — MOND should give a strong gravitational boost, but observations show Newtonian rotation curves. The MOND boost is missing, and EFE doesn't help (no external field for an isolated field galaxy).
-- **The cascade** explains the bifurcation *deterministically from SFH* (no 2D universe creation below E_crit, no stochastic outliers needed), but the proportionality constant is *calibrated* (Limitation 29) — so the *qualitative* bifurcation and *direction* of the shift are cascade-derived, while *absolute* M_dyn values are not pure predictions.
+- **The cascade** explains the bifurcation *deterministically from SFH* (smooth E^(1+alpha) creation function naturally gives small contribution for low-E events (no stochastic outliers needed)), but the proportionality constant is *calibrated* (Limitation 29) — so the *qualitative* bifurcation and *direction* of the shift are cascade-derived, while *absolute* M_dyn values are not pure predictions.
 
 Net: the cascade's bifurcation mechanism is *better positioned* than ΛCDM (no 3-4σ outliers) and MOND (no MOND-boost conflict with AGC 114905) *specifically*, but with calibration caveats. The cascade's value remains **interpretive** (DM = 2D universe deaths, DE = 4D event antigravity) and **conceptually parsimonious** (1 principle vs ΛCDM's 20+ free parameters), not predictively unique.
 
@@ -188,7 +188,7 @@ $$\text{Bifurcation Metric} = \frac{M_{\text{total formed}}}{M_b\text{ (current)
 | **KKR 25** | **299** (DM-rich) | 100–1000 (DM-rich dSph) | ✓ PASS |
 | **Ratio (KKR / AGC)** | **219×** | ~100–1000× | ✓ BIFURCATION |
 
-**The 820× shift in the bifurcation metric maps to a 219× shift in M_dyn/M_b** through the cascade's phase-transition principle. Two galaxies with similar baryonic content but very different SFHs have very different DM content. The qualitative bifurcation is reproducible from SFH alone — this is a genuine prediction, not a fit. The proportionality constant (0.1) is calibrated, but the *direction* and *magnitude* of the shift come from the cascade.
+**The 820× shift in the bifurcation metric maps to a 219× shift in M_dyn/M_b** through the cascade's smooth creation function (E^(1+alpha), see paper §2.5.3). Two galaxies with similar baryonic content but very different SFHs have very different DM content. The qualitative bifurcation is reproducible from SFH alone — this is a genuine prediction, not a fit. The proportionality constant (0.1) is calibrated, but the *direction* and *magnitude* of the shift come from the cascade.
 
 **See:** `calculations/sidc_phenomenological_emulator.py` (722 lines), `paper/paper.md` §4.45
 
@@ -196,7 +196,7 @@ $$\text{Bifurcation Metric} = \frac{M_{\text{total formed}}}{M_b\text{ (current)
 
 ## #1 (Consistency with ΛCDM): Energy-scale-invariant in law, epoch-dependent in state
 
-The cascade's principle is **energy-scale-invariant in law**: every energetic event above E_crit creates a 2D universe, regardless of when it happens. The *consequences* are epoch-dependent: the *rate* of 2D universe creation depends on what's going on at that epoch.
+The cascade's principle is **energy-scale-invariant in law**: every energetic event creates a 2D universe weighted by a smooth E^(1+alpha) function, regardless of when it happens (see paper §2.5.3). The *consequences* are epoch-dependent: the *rate* of 2D universe creation depends on what's going on at that epoch.
 
 Per a user follow-up ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?"), the principle is broadened to include **all baryon activity** — not just stellar events but also Thomson scattering, recombination, acoustic oscillations. The baryon plasma at z=1100 has enormous energetic activity that, by the cascade's own principle, creates 2D universes.
 
@@ -219,7 +219,7 @@ The cascade's r(z) = ρ_DM^DC(z) / ρ_DM^DC(0) at high z is the test of whether 
 
 At z > 1100, the photon-baryon plasma is fully ionized and tightly coupled. Thomson scattering (photons bouncing off free electrons) deposits energy at a *huge* rate: R_Thomson(1100) ≈ 1.4 × 10⁶² J/yr/Mpc³, vastly larger than stellar activity at that epoch. In proper units, R_Thomson ∝ (1+z)⁷. With the (1+z)⁴ fossil-dilution factor in the integral, the integrand scales as (1+z)³ — and the integral from z to z_max naturally gives ρ(z) ∝ (1+z)³. **The cascade's broader principle gives the right (1+z)³ scaling from Thomson alone.**
 
-This is what the "scale-time invariance" means: the cascade is *energy-scale-invariant* in its law (every event above E_crit creates a 2D universe, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. The cascade is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 3+1D-frame lifetime of ~33 s for SN-scale events, set by the event size ℓ/c) is a *local* phenomenon preserved at every epoch. (Earlier 30 Gyr in 2D was a guess, dropped in v2.7.1; the 33 s is empirical, from the ℓ/c mapping, but it's SN-specific, not universal.)
+This is what the "scale-time invariance" means: the cascade is *energy-scale-invariant* in its law (every event creates a 2D universe weighted by a smooth E^(1+alpha) function, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. The cascade is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 3+1D-frame lifetime of ~33 s for SN-scale events, set by the event size ℓ/c) is a *local* phenomenon preserved at every epoch. (Earlier 30 Gyr in 2D was a guess, dropped in v2.7.1; the 33 s is empirical, from the ℓ/c mapping, but it's SN-specific, not universal.)
 
 **See:** `calculations/time_scale_invariance_test_v5.py`, `paper/paper.md` §4.47–§4.51
 
@@ -340,7 +340,7 @@ a strong gravitational boost to this ultra-diffuse, low-SB, isolated
 galaxy, but the rotation curve is Newtonian, and the MOND EFE has no
 external field to draw on for an isolated field galaxy). The cascade's
 mechanism is *deterministic from SFH* (no 2D universe creation below
-E_crit, no stochastic outliers needed) but the proportionality constant
+smooth E^(1+alpha) creation function, no stochastic outliers needed) but the proportionality constant
 is *calibrated* (Limitation 29) — only the *qualitative* bifurcation and
 *direction* of the shift are cascade-derived. The cascade's **value** is:
 

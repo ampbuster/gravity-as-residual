@@ -246,7 +246,7 @@ The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a
    - The earlier "Scale-Invariant Dimensional Cascade" name implied dimensional scale-invariance (4D → 3+1D → 2D → 1D → 0D → ...)
    - This is physically impossible (1D and 0D universes are nonsensical)
    - The cascade is NOT scale-invariant in the dimensional sense
-   - It IS still scale-invariant in the energy/size sense (Liouville 2D CFT is conformally invariant, any event above E_crit creates a 2D universe of proportional size)
+   - It IS still scale-invariant in the energy/size sense (Liouville 2D CFT is conformally invariant, any event creates a 2D universe of proportional size weighted by the smooth E^(1+alpha) creation function in paper §2.5.3)
    - The new name "Dimensional Cascade" drops the misleading "scale-invariant" claim
    - The energy-scale invariance is preserved (it's just a different kind of scale invariance)
 
@@ -1029,7 +1029,7 @@ the competitors:
 **Honest correction (v2.7.3+):** The cascade's bifurcation mechanism
 is *better positioned* than either competitor *specifically*:
 - The cascade is *deterministic from SFH* (no 2D universe creation
-  below E_crit, no stochastic outliers)
+  below the smooth-function threshold (E^(1+alpha) gives small contribution for low-E events), no stochastic outliers)
 - No MOND-boost-vs-Newtonian conflict on AGC 114905
 - No 3-4σ SMHM outlier requirement
 
