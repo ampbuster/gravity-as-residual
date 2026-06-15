@@ -103,7 +103,7 @@ This is a *scale-invariant* principle. The same mechanism operates at every ener
 
 This is a *speculative* extension of the model. The model does not currently require the existence of these other 3+1D universes; it only requires that *our* universe corresponds to the 4D event (or some part of it). But the scale-invariant principle, taken seriously, implies them.
 
-We emphasize that these smaller events do *not* re-create our universe. They create *separate* universes, in separate dimensional subspaces, with their own physics and their own lifetimes. From our 3+1 dimensional perspective, the 2D universes' lifetimes in *our* frame scale with the creating event's spatial extent, via the dimensional time-dilation rule τ_2D^our frame ∼ ℓ_event / c (per line 105 below). Working out specific examples: a small event (LHC collision, ~TeV scale, ℓ_event ~ 10⁻¹⁵ m) creates a 2D universe that lasts ~3 × 10⁻²⁴ seconds in our frame; a large event (supernova, ℓ_event ~ 10¹⁰ m for the expanding photosphere, ~10⁶⁰ eV of visible-light energy) creates a 2D universe that lasts ~33 seconds in our frame. Even larger events (AGN outbursts, ~10⁶² eV, ℓ_event ~ 10¹⁴-10¹⁶ m) create 2D universes that can last days to years in our frame. The 2D universes are *not* all "essentially instantaneous" in our frame — only the small ones are. From the perspective of each tiny universe, that brief moment in our frame is the entirety of *its* cosmic history. The dimensional time-dilation principle applies in both directions: a brief event in our frame can be a complete cosmic history in the lower-dimensional universe's frame.
+We emphasize that these smaller events do *not* re-create our universe. They create *separate* universes, in separate dimensional subspaces, with their own physics and their own lifetimes. From our 3+1 dimensional perspective, the 2D universes' lifetimes in *our* frame scale with the creating event's energy, via the *energy-scaling rule* $\tau_{2D}^{\text{our frame}} = t_{\text{Pl},3} \times (E_D / E_{\text{Pl},3})^\alpha$ with $\alpha \approx 1.29$ (calibrated to the SN 33s point; see §10.1 for the full derivation and §10.9 for sensitivity analysis). Working out specific examples: a small event (LHC collision, ~14 TeV $\sim 2.2 \times 10^{-6}$ J) creates a 2D universe that lasts $\sim 3 \times 10^{-63}$ seconds in our frame (essentially instantaneous); a large event (supernova, $E \sim 10^{44}$ J for the kinetic energy of the ejecta) creates a 2D universe that lasts $\sim 33$ seconds in our frame; even larger events (hypernova, $E \sim 10^{46}$ J) create 2D universes that last $\sim 3.5$ hours, long GRBs ($E \sim 10^{47}$ J) create 2D universes that last $\sim 2.8$ days, BNS mergers ($E \sim 10^{53}$ J) create 2D universes that last $\sim 4.3 \times 10^5$ years, and AGN outbursts ($E \sim 10^{55}$ J) create 2D universes that last $\sim 1.6 \times 10^8$ years. *Note*: an earlier version of this section used the simpler *spatial-extent* rule $\tau_{2D}^{\text{our frame}} \sim \ell_{\text{event}} / c$ (giving $\sim 3 \times 10^{-24}$ s for the LHC and $\sim 33$ s for the SN). This spatial rule and the energy rule give the *same* answer for the SN calibration point but *different* predictions for other events. The energy-scaling rule is preferred because (a) it correctly captures the qualitative principle "lower-energy events create shorter-lived 2D universes" (per the user-cascade conversation establishing the relativistic-particle analogy in §10.2), and (b) it provides a *quantitative* framework for extrapolating to cosmological-scale events (§10.4). The spatial-extent rule is a *first-order approximation* valid when $\ell_{\text{event}}$ and $E_{\text{event}}$ are correlated, but it fails for events where the two scales decouple (LHC: small $\ell$, high $E$; AGN: large $\ell$, high $E$). The energy-scaling rule in §10 supersedes the earlier spatial-extent example. The 2D universes are *not* all "essentially instantaneous" in our frame — only the very small ones are. From the perspective of each tiny universe, that brief moment in our frame is the entirety of *its* cosmic history. The dimensional time-dilation principle applies in both directions: a brief event in our frame can be a complete cosmic history in the lower-dimensional universe's frame.
 
 **Implication for dark matter.** Each of these tiny universes created by 3+1 dimensional events has its own gravity (a small replica of the same dimensional-projection mechanism that creates gravity in our universe). By the same logic as §2.4, the 3+1 dimensional event's gravity is *inverted* (antigravity) when projected into the 2D universe, and the un-cancelled fraction of this antigravity is the 2D universe's *internal* dark energy. The 2D universe's own *attractive* gravity, projected back into our 3+1 dimensional frame, is what we observe as *dark matter*. Dark matter, in this picture, is not a particle at all, but a *collective gravitational signature* of all the lower-dimensional universes (active + cumulative, per §2.5, §4.2). The 2D universe's *antigravity* is *internal* to the 2D universe (its own dark energy, in 2D), and does *not* project back to 3+1D as a separate effect. *Note*: dark energy in the *3+1D* frame is *separately* the 4D event's un-cancelled antigravity (§2.4), not the cumulative 2D universe antigravity. The dark matter and the 3+1D dark energy arise from *different* dimensional projections: dark matter from 2D → 3+1D back-projection, dark energy from 4D → 3+1D projection. The two are *distinct in their dimensional origin* but *complementary* in their effect on the 3+1D universe.
 
@@ -191,7 +191,7 @@ The cascade's *unique contribution*: it provides a *specific mechanism* for the 
 
 This formalization resolves the "where does the energy come from" question: the 2D universe channel is a small (~0.2%) but consistent part of every energetic event, and the integrated effect of all 2D universes is the observed 27% DM density.
 
-**Why the cumulative effect is significant.** At first glance, this proposal seems puzzling: how can the cumulative effect of 2D universes' gravity reach 27% of the universe's mass-energy budget, given that each 2D universe's contribution is small? The resolution comes from the dimensional time-dilation principle: from our 3+1 dimensional frame, the 2D universes are *compressed* into very brief moments (their full cosmic history takes only ~3 × 10⁻²⁴ seconds for a small event like an LHC collision, or ~33 seconds for a supernova, in our frame). Because all these brief 2D universes' gravitational contributions are *stacked* in our 3+1 dimensional frame at a high rate, the cumulative effect can be substantial — even though each individual 2D universe is weak in projection. The "compression" of 2D universes into brief 3+1 dimensional moments *amplifies* their cumulative gravitational contribution relative to what you'd expect from "each 2D universe contributes little" alone. This is a *feature* of the dimensional time-dilation principle: a brief event in one frame can be a complete cosmic history in another, and the gravitational contributions from many brief events can add up.
+**Why the cumulative effect is significant.** At first glance, this proposal seems puzzling: how can the cumulative effect of 2D universes' gravity reach 27% of the universe's mass-energy budget, given that each 2D universe's contribution is small? The resolution comes from the dimensional time-dilation principle: from our 3+1 dimensional frame, the 2D universes are *compressed* into brief moments whose duration scales with the creating event's energy via the energy-scaling rule (per §10.1; $\tau_{2D} = t_{\text{Pl},3} \times (E/E_{\text{Pl},3})^{1.29}$, with $\sim 3 \times 10^{-63}$ s for an LHC collision, $\sim 33$ s for a supernova, $\sim 3.5$ hr for a hypernova, $\sim 2.8$ days for a long GRB, and $\sim 4.3 \times 10^5$ yr for a BNS merger, in our frame). Because all these brief 2D universes' gravitational contributions are *stacked* in our 3+1 dimensional frame at a high rate, the cumulative effect can be substantial — even though each individual 2D universe is weak in projection. The "compression" of 2D universes into brief 3+1 dimensional moments *amplifies* their cumulative gravitational contribution relative to what you'd expect from "each 2D universe contributes little" alone. This is a *feature* of the dimensional time-dilation principle: a brief event in one frame can be a complete cosmic history in another, and the gravitational contributions from many brief events can add up. *Note (v2.7.3+):* an earlier version of this section used $\tau_{2D} \sim \ell_{\text{event}}/c$ (the spatial-extent rule, giving $\sim 3 \times 10^{-24}$ s for LHC). The energy-scaling rule supersedes this, with the same 33s for SN but a *much* shorter lifetime for the LHC, and longer lifetimes for higher-energy events. See §10 for the full derivation.
 
 *Quantitative sketch.* The cascade gives a *qualitative* picture (gravity is weak, dark energy is small, dark matter is cumulative), but the *quantitative* values depend on several free parameters. The cascade predicts the dark energy density is of order $\epsilon \cdot M_{Pl}^4 \sim 10^{-38} M_{Pl}^4$, which is $10^{85}$ *larger* than the observed $\sim 10^{-123} M_{Pl}^4$. To bridge this gap, we need a *staying fraction* $f_{back} \sim 10^{-85}$ (the fraction of cascade-produced antigravity that remains in 3+1D as observable dark energy, the rest going elsewhere or being cancelled). The $f_{back} = 10^{-85}$ is a *postulate* of the model, not derived. Similarly, the cascade predicts the dark matter is a *cumulative* effect of 2D universe gravity, with the cumulative contribution depending on the event rate, the 2D universe lifetime, the event energy, and the back-projection fraction. The model does *not* uniquely derive the *exact* values of the 5%/95% dark/ordinary split, the *absolute* dark energy density ($\sim 10^{-47}$ GeV⁴), or the *absolute* dark matter density. A specific implementation of the model would need to derive these from the geometry of dimensional projection, which is left to future work. The *qualitative* picture is *robust* (gravity is weak, dark energy is small, dark matter is cumulative); the *quantitative* picture is underdetermined.
 
@@ -4802,25 +4802,68 @@ The 2D universe's *internal* dynamics (set by μ) and its *effective* lifetime i
 
 The cascade predicts a stochastic GW background from 2D universe *death* events. Each 3D event creates a 2D universe of lifetime T_2D; the 2D universe dies with a GW burst at frequency f ~ 1/T_2D.
 
-For the cascade's α = 1.29 rule, the dominant signal in LISA's band (10⁻⁴ to 1 Hz) is from **Type Ia SN 2D universe deaths at f = 0.03 Hz** (just inside LISA's band). The cascade's energy-scaling rule predicts a *specific* background shape:
+For the cascade's α = 1.29 rule, the *death frequency* in our frame for each event class is:
 
-| Event | Death frequency | LISA detectable? |
-|---|---|---|
-| Type Ia SN | 0.03 Hz | ✓ (in band) |
-| Hypernova | 2.2×10⁻⁵ Hz | ✗ (just below band) |
-| Long GRB | 4.7×10⁻⁶ Hz | ✗ (below band) |
-| Short GRB | 1.55×10⁻³ Hz | ✓ (in band) |
-| Magnetar | 4.4×10³ Hz | ✗ (above LISA) |
-| BNS merger | 7.4×10⁻¹⁴ Hz | ✗ (way below) |
-| AGN flare | 1.9×10⁻¹⁶ Hz | ✗ (way below) |
+| Event | E (J) | Death frequency | LISA detectable? |
+|---|---|---|---|
+| Type Ia SN | 10⁴⁴ | 0.03 Hz | ✓ (in band) |
+| Core-collapse SN | 10⁴⁵ | 1.6×10⁻³ Hz | ✓ (in band) |
+| Short GRB | 10⁴⁶ | 8.2×10⁻⁵ Hz | ✗ (just below band) |
+| Hypernova | 10⁴⁶ | 8.2×10⁻⁵ Hz | ✗ (just below band) |
+| Long GRB | 10⁴⁷ | 4.2×10⁻⁶ Hz | ✗ (below band) |
+| Magnetar | 10⁴⁰ | 4.5×10³ Hz | ✗ (above LISA) |
+| LHC | 2.2×10⁻⁶ | 3.6×10⁶² Hz | ✗ (way above) |
+| BNS merger | 10⁴⁷→10⁵³ | 4.2×10⁻⁶ Hz (GRB) to 4×10⁻¹⁴ Hz (BNS) | ✗ (below) |
+| AGN flare | 10⁵⁵ | 7.7×10⁻¹⁴ Hz | ✗ (way below) |
 
-The SN and Short GRB death signals are in LISA's band. Hypernova and Long GRB are just below. The cascade predicts a *stochastic background* in this frequency range, dominated by SN 2D universe deaths at 0.03 Hz.
+The SN and Core-collapse SN death signals are in LISA's band (10⁻⁴ to 1 Hz). The Short GRB is just below LISA's band. The cascade predicts a *stochastic background* in this frequency range, dominated by SN 2D universe deaths at 0.03 Hz.
 
-The exact Ω_GW depends on the *rate* of past energetic events and the *energy per death*. A naive estimate (assuming E_per_death ~ 10⁶⁰ erg = 10⁵³ J, SN rate ~ 10⁻⁷ /Mpc³/yr) gives a *cumulative* energy density that is much higher than ρ_crit. The actual instantaneous Ω_GW is much smaller (most of the energy has propagated away). A more careful calculation is needed to get the exact Ω_GW.
+**Quantitative Ω_GW estimate (Phinney 2001 / Maggiore 2000):**
 
-The qualitative prediction: **LISA should detect a stochastic GW background in its 10⁻⁴ - 1 Hz band, peaking near 0.03 Hz, if the cascade's energy-scaling rule is correct.**
+For bursts of energy E_GW at rate r_local per m^3 per s, each at frequency f_obs with lifetime τ_2D, the spectral density at f_obs (delta function with bandwidth Δf ~ 1/τ_2D) is:
 
-Detecting this background in coincidence with the *birth* background (at higher frequencies, 10²-10⁵ Hz) would be strong evidence for the cascade's mechanism.
+$$\Omega_{GW}(f_{\text{obs}}) = \frac{E_{GW} \times n_{\text{rate}} \times \tau_{2D}}{\rho_c}$$
+
+where ρ_c = 7.7×10⁻¹⁰ J/m³ is the critical density.
+
+For the SN Ia 2D universe death (calibration point: E_SN = 10⁴⁴ J, τ_2D = 33 s, rate ~ 10⁴ /Mpc³/yr = 1.08×10⁻⁷¹ /m³/s):
+
+| ε_GW | Ω_GW at 0.03 Hz | LISA noise at 0.03 Hz | Detectable? |
+|---|---|---|---|
+| 10⁻⁸ (typical SN GW efficiency) | 4.5×10⁻²⁵ | ~5×10⁻¹¹ | ✗ |
+| 10⁻⁵ | 4.5×10⁻²² | ~5×10⁻¹¹ | ✗ |
+| 10⁻³ (optimistic) | 4.5×10⁻²⁰ | ~5×10⁻¹¹ | ✗ |
+| 1 (full conversion) | 4.5×10⁻¹⁷ | ~5×10⁻¹¹ | ✗ (still below!) |
+
+**KEY FINDING (v2.7.3+):** The cascade's 2D-universe death GW background at 0.03 Hz is **FAR BELOW LISA's noise floor**, even with ε_GW = 1 (100% of E_per_death radiated as GW). LISA's best sensitivity is Ω_GW ~ 10⁻¹² at ~3 mHz, while the cascade predicts Ω_GW ~ 10⁻¹⁷ for SN deaths with ε_GW = 1. The cascade's death GW is **NOT DETECTABLE BY LISA** for any reasonable ε_GW.
+
+**Caveat:** This analysis uses the *narrowband* assumption (delta-function bursts at f_obs = 1/τ_2D). For the *flat_lnf* model (energy spread uniformly in log-frequency), Ω_GW is ~10× higher per dex, but still far below LISA's noise.
+
+**For higher-energy events (BNS, AGN), the predicted Ω_GW is *larger*, but the death frequency is *lower* (below LISA's 10⁻⁴ Hz band):**
+
+| Event | f_obs (Hz) | Ω_GW (ε=1) | LISA band? |
+|---|---|---|---|
+| SN Ia | 0.03 | 4.5×10⁻¹⁷ | ✓ in band |
+| Short GRB | 8.2×10⁻⁵ | 1.7×10⁻¹³ | ✗ just below |
+| Long GRB | 4.2×10⁻⁶ | 3.3×10⁻¹¹ | ✗ below |
+| BNS merger (full E) | 4×10⁻¹⁴ | 0.018 | ✗ way below (PTA band) |
+| AGN flare | 7.7×10⁻¹⁴ | 18 | ✗ way below (PTA band) |
+
+The BNS-merger and AGN-flare death signals are *much* above LISA's noise at their respective death frequencies, but those frequencies are *below* LISA's band — they fall in the **PTA (pulsar timing array) band** (nHz to μHz). NANOGrav, EPTA, SKA-MPG could in principle detect the cascade's death GW background from these high-energy events, *if* ε_GW ~ 1. With ε_GW ~ 10⁻³, the BNS/AGN death GW is at Ω_GW ~ 10⁻⁵ to 10⁻², comparable to the PTA-detected stochastic background (Ω_GW ~ 10⁻⁹ to 10⁻⁸ at nHz, depending on interpretation).
+
+**LISA detection prospects (consolidated, v2.7.3+):**
+- **LISA will NOT detect the cascade's death GW background** for typical SN events, regardless of ε_GW.
+- LISA's *noise* at 0.03 Hz is ~10⁻¹¹, while the cascade predicts ~10⁻¹⁷ to 10⁻²⁵. A 6-14 order-of-magnitude gap.
+- A NULL result from LISA is **consistent with** the cascade, not contradictory.
+- LISA *might* detect the cascade's *birth* GW background (a separate prediction, not analyzed here) at higher frequencies, depending on birth-GW spectrum and ε_GW.
+
+**Falsifiability (updated, v2.7.3+):**
+- LISA detects Ω_GW ~ 10⁻⁶ at 0.03 Hz → ε_GW ~ 10¹¹ (physically impossible) → cascade falsified
+- LISA detects Ω_GW ~ 10⁻¹² at 0.03 Hz → ε_GW ~ 10⁵ (unphysical) → cascade falsified
+- LISA detects nothing at 0.03 Hz → ε_GW < 10⁻³, consistent with cascade
+- PTA detects Ω_GW ~ 10⁻⁹ at nHz → could be cascade's AGN/BNS death GW, suggestive
+
+The cascade's death-GW prediction is **NOT robustly testable by LISA** in the 2034+ timeframe, but it IS testable by PTAs in the 2030s-2040s (SKA-MPG) and by LISA in the *birth* GW channel (separately).
 
 ### 10.16 Final state of §10 (June 2026)
 
@@ -4852,6 +4895,68 @@ After the trial-and-error, sensitivity analysis, 2D CFT investigation, and death
 - Does the M_Pl,4 ≥ 887 GeV floor survive when α is allowed to vary?
 
 The cascade's §10 is now in a *mature* state: the qualitative claims are robust, the quantitative claims are honest about their uncertainty, and the open questions are clearly identified for future work. The end-of-universe picture in §10.4 should be re-evaluated when (if) the cascade acquires additional calibration data.
+
+### 10.17 LISA detection prospects (full sensitivity curve analysis)
+
+This section quantifies whether the cascade's death GW background can be detected by LISA (adopted Jan 2024, launch 2034+), using the Robson-Cornish (2019) LISA noise curve and the Phinney (2001) stochastic background formula. See `calculations/v27_lisa_sensitivity_check.py` for the full calculation.
+
+**LISA noise curve (Robson-Cornish 2019, arXiv:1903.04634):**
+- Frequency range: 10⁻⁴ to 1 Hz (best sensitivity at ~3 mHz)
+- Best strain sensitivity: h_c ~ 4.5×10⁻²² at f ~ 4 mHz
+- Best Omega_GW noise: ~ 2.8×10⁻¹² at f ~ 2.4 mHz
+- L_arm = 2.5×10⁹ m, laser noise S_x = (1.5×10⁻¹¹)², accel noise S_a = (3×10⁻¹⁵)²
+
+**Death GW background from cascade (Phinney/Maggiore formula, narrowband model):**
+
+For a population of bursts at rate n_rate (per m³/s) with energy E_GW per burst and lifetime τ_2D, each burst is a delta function with bandwidth Δf ~ 1/τ_2D. The spectral density at f_obs = 1/τ_2D is:
+
+$$\Omega_{GW}(f_{\text{obs}}) = \frac{E_{GW} \times n_{\text{rate}} \times \tau_{2D}}{\rho_c}$$
+
+where ρ_c = 7.7×10⁻¹⁰ J/m³.
+
+**For the SN Ia 2D universe death (calibration point: E_SN = 10⁴⁴ J, τ_2D = 33 s, rate ~ 10⁴ /Mpc³/yr = 1.08×10⁻⁷¹ /m³/s):**
+
+| ε_GW | Ω_GW at 0.03 Hz | LISA noise at 0.03 Hz | Ratio (SNR) | Detectable? |
+|---|---|---|---|---|
+| 10⁻⁸ (typical SN GW) | 4.5×10⁻²⁵ | ~5×10⁻¹¹ | 9×10⁻¹⁵ | NO |
+| 10⁻⁵ | 4.5×10⁻²² | ~5×10⁻¹¹ | 9×10⁻¹² | NO |
+| 10⁻³ (optimistic) | 4.5×10⁻²⁰ | ~5×10⁻¹¹ | 9×10⁻¹⁰ | NO |
+| 1 (full conversion) | 4.5×10⁻¹⁷ | ~5×10⁻¹¹ | 9×10⁻⁷ | NO (6 orders below) |
+
+**Conclusion: LISA will NOT detect the cascade's death GW background from typical SN events, regardless of ε_GW.** The cascade's predicted Ω_GW is 6-14 orders of magnitude below LISA's noise at 0.03 Hz.
+
+**For higher-energy events (which have higher Ω_GW but lower f_obs):**
+
+| Event | f_obs (Hz) | Ω_GW (ε=1) | LISA in band? |
+|---|---|---|---|
+| Core-collapse SN | 1.6×10⁻³ | 4.4×10⁻¹⁵ | yes (in band) |
+| Short GRB | 8.2×10⁻⁵ | 1.7×10⁻¹³ | NO (just below) |
+| BNS merger | 4×10⁻¹⁴ | 0.018 | NO (PTA band) |
+| AGN flare | 7.7×10⁻¹⁴ | 18 | NO (PTA band) |
+
+The BNS-merger and AGN-flare death signals are *loud* (Ω_GW ≫ LISA noise) but at frequencies *below* LISA's 10⁻⁴ Hz band. They fall in the **PTA band** (nHz to μHz), where NANOGrav, EPTA, IPTA, and SKA-MPG operate. The cascade's death GW from BNS/AGN events is detectable by *PTAs* (with ε_GW ~ 1), not by LISA.
+
+**Data availability (v2.7.3+, June 2026):**
+- LISA: adopted Jan 2024, **launch 2034** (mid-2030s, 4-year nominal mission)
+- DESI DR3: late 2026 / early 2027
+- DESI Y5 (DR5): 2027-2028
+- LSST/Rubin DP1: 2025 (47 Tuc early data)
+- LSST DR1 (Y1): 2027
+- SKA-MPG (PTA follow-up): 2030s
+
+**Testable window for the cascade:** 2026 (DESI DR3) to 2034+ (LISA launch) is the **5-10 year window** during which the cascade's evolving-DE prediction (§10.5) can be tested. The cascade's death-GW prediction is testable by *SKA-MPG PTAs in the 2030s* and by *LISA* in the *birth* GW channel (not analyzed here).
+
+**Falsifiability matrix (updated, v2.7.3+):**
+
+| Experiment | Timeframe | Cascade's prediction | Falsification criterion |
+|---|---|---|---|
+| DESI DR3 | 2026-2027 | w(z) shows 3σ+ evolution | If w = -1 ± 0.05 to z=2, cascade's end-of-universe picture is ruled out |
+| LSST Y1 | 2027 | DE density decreases with z | If DE is constant Λ to z=2, cascade is falsified |
+| SKA-MPG PTA | 2030s | Ω_GW ~ 10⁻⁹ at nHz from BNS/AGN death | If PTA sees Ω_GW << 10⁻⁹, ε_GW too small (consistent w/ cascade); if Ω_GW >> 10⁻⁸, need non-cascade explanation |
+| LISA | 2034+ | (Birth GW only) | Death GW at 0.03 Hz will be 6-14 orders below LISA noise regardless of ε_GW |
+| Direct M_Pl,4 measurement | 2030s+ (colliders) | M_Pl,4 ≥ 887 GeV | If M_Pl,4 measured at < 887 GeV, cascade's end-of-universe timeline is falsified; if at > 887 GeV, end-of-universe is irrelevant |
+
+The cascade's §10 is a *speculative extension* with clear, testable, falsifiable predictions. The energy-scaling rule, the M_Pl,4 floor, and the death-GW spectrum are *specific enough to be tested* but *fragile enough to be wrong*. The 5-10 year window from 2026 (DESI DR3) to 2034 (LISA launch) is the critical period for the cascade's §10 to be either confirmed, refined, or falsified.
 
 ---
 

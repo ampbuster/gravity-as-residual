@@ -351,6 +351,26 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - **0 strongly confirmed, 0 falsified, 16 pass, 1 confounded** (out of 17 test categories)
 - **Smoking guns: 3 reproducible**, including the (1+z)³ expansion factor match
 
+# §10 SPECULATIVE EXTENSION: End-of-Universe Signatures (June 2026)
+
+A new section §10 derives speculative but *testable* end-of-universe signatures from the cascade's energy-scaling ladder:
+
+- **Energy-scaling rule:** τ_{D-1} = t_Pl,3 × (E_D/E_Pl,3)^1.29, with α = 1.29 forced by SN 33s calibration
+- **Relativistic-particle analogy:** 2D universes are "particles" with mass-dependent time dilation; smaller (lower-E) events create "lighter" 2D universes with more time dilation
+- **M_Pl,4 ≥ 887 GeV floor:** derived from the 3D-alive constraint, coincides with ADD-model electroweak-scale prediction
+- **If M_Pl,4 ~ TeV:** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life)
+- **Testable signatures:** DESI DR3 evolving DE (3.5σ), LSST Y1 DE-density decrease, declining cosmic SFR, GW background
+- **LISA detection prospects (§10.17):** cascade's SN death GW at 0.03 Hz is **6-14 orders below LISA noise** for any reasonable ε_GW. A NULL LISA result is consistent with (not contradictory to) the cascade. The cascade's high-energy death GW (BNS, AGN) is detectable by **PTAs** (NANOGrav, EPTA, SKA-MPG) at nHz frequencies, not LISA.
+- **Testable window:** 2026 (DESI DR3) to 2034 (LISA launch) is the critical 5-10 year window.
+
+**Data availability (June 2026):**
+- LISA: adopted Jan 2024, **launch 2034**
+- DESI DR3: late 2026 / early 2027
+- DESI Y5 (DR5): 2027-2028
+- LSST/Rubin DP1: 2025 (47 Tuc early data)
+- LSST DR1 (Y1): 2027
+- SKA-MPG (PTA follow-up): 2030s
+
 # PAPER SECTIONS (Quick Map)
 
 - §1 Introduction (the dimensional inversion picture)
@@ -362,7 +382,9 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - §7 Limitations and open questions (32 items)
 - §7.1 Open-Source Scientific Collaboration
 - §8 Appendix
-- §8.1.1–§8.1.7 External constraints catalog (30 constraints from 2024-2025 web research)
+- §8.1.1–§8.1.10 External constraints catalog (45 constraints from 2024-2026 web research)
+- §10 Speculative extension: End-of-Universe Signatures (energy-scaling ladder, M_Pl,4 floor, LISA/PTA predictions)
+- §10.1–§10.17 sub-sections (lifespan, M_Pl,4, end-of-universe, sensitivity, 2D CFT, death GW, LISA detection prospects)
 
 ---
 
@@ -371,11 +393,18 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 **For the full version history, see [`changelog.md`](changelog.md) in the repo root.**
 
 **Most recent changes (v2.7.3):**
-- 30 external constraints catalogued (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 1 new cascade prediction)
+- 45 external constraints catalogued (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 5 late 2025-2026, 5 extended 2025-2026, 5 round 8, 1 new cascade prediction)
 - 4 → 2 free parameters via web-research convergence on 2D CFT
 - c=1 string theory matrix model identified as exact framework
 - 1 NEW CASCADE PREDICTION: 2D universe birth stochastic GW background, testable with SKA-MPG in 2030s
-- 7 new v27_*.py calculation scripts added to calculations/
+- **§10 SPECULATIVE EXTENSION added (June 2026):** End-of-Universe Signatures from energy-scaling ladder
+  - Energy-scaling rule (α=1.29 forced by SN 33s)
+  - M_Pl,4 ≥ 887 GeV floor (electroweak scale, ADD model)
+  - 3D universe at end of life (if M_Pl,4 ~ TeV)
+  - LISA detection prospects: cascade's SN death GW is **6-14 orders below LISA noise**; cascade's BNS/AGN death GW is detectable by PTAs in 2030s
+  - Testable window 2026-2034 (DESI DR3 → LISA launch)
+- **§2.3 inconsistency FIXED:** Earlier spatial-extent rule (τ_2D ~ ℓ_event/c) replaced with energy-scaling rule (τ_2D ~ (E)^1.29); SN 33s calibration point unchanged, but LHC and other event lifetimes are now consistent with "lower-energy → shorter-lived 2D universes"
+- 7 new v27_*.py calculation scripts added to calculations/ (lifespan, sensitivity, 2D CFT, death GW spectrum, LISA sensitivity check)
 
 **v2.7.1 changes:**
 - 5/27/68 honest framing: 5/27 inner split (5% "active" vs 27% "cumulative") dropped as separate postulate
