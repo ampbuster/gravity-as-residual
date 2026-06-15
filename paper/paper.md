@@ -5134,15 +5134,21 @@ The 7 outlier tests complement the 4 standard tests by probing *extreme* cases:
 
 **Dragonfly 44 (UDG with disputed high DM):** an ultra-diffuse galaxy in the Coma cluster. Originally claimed to have M_dyn/M_b ~ 3000 (van Dokkum+ 2016), revised to M_dyn/M_b ~ 300 (later studies). 74 globular clusters suggest past major star formation activity. The cascade's interpretation: as a Coma cluster member, DF44 has had significant past activity (the 74 GCs are evidence), leading to accumulated 2D universe DM. The cascade does *not* require the original 2016 extreme M_dyn/M_b value; the revised value is consistent. **Cascade CONSISTENT**.
 
-### 12.3 The Bullet Cluster: cascade's smoking gun
+### 12.3 The Bullet Cluster: cascade's smoking gun — *and its limits*
 
-The Bullet Cluster is the most striking empirical test of any dark matter model. In the standard LCDM + particle DM picture, the gas-galaxy separation is *expected*: gas collides and slows, galaxies are collisionless, DM is collisionless and follows galaxies. But the *cascade* has a *different mechanism* for DM — the cumulative 2D universe back-projection — and the cascade makes a *specific prediction*:
+The Bullet Cluster is the most striking empirical test of any dark matter model. In the standard ΛCDM + particle DM picture, the gas-galaxy separation is *expected*: gas collides and slows, galaxies are collisionless, DM is collisionless and follows galaxies. But the *cascade* has a *different mechanism* for DM — the cumulative 2D universe back-projection — and the cascade makes a *specific prediction*:
 
 > The DM (lensing mass) should follow the *galaxies* (the loci of past star formation) and not the *gas* (no star formation, no 2D universe creation).
 
 This is exactly what is observed in the Bullet Cluster. The cascade *naturally* explains the gas-galaxy separation as a consequence of the link between *energetic activity* and *DM production*. MOND, in contrast, struggles to explain the Bullet Cluster without adding sterile neutrinos (which MOND otherwise doesn't require).
 
 The JWST strong + weak lensing analysis (Cha+ 2025, arXiv:2503.21870) confirms the original result with much higher resolution: 146 strong lensing constraints, 398 sources/arcmin² weak lensing, three distinct halos resolved. The cascade's prediction stands.
+
+**HONEST CAVEAT (v2.7.3+):** the Bullet Cluster is *not* a unique test of the cascade. **All particle DM models** (ΛCDM + WIMP/axion/sterile ν/PBH/Fuzzy DM/SIDM, etc.) trivially explain the gas-galaxy separation: their DM particles are collisionless, so they pass through with the galaxies. The Bullet Cluster is a *necessary* test for any DM model (it kills pure modified gravity), but it is *not* a *sufficient* test for the cascade over particle DM.
+
+The cascade's specific *additional* prediction beyond particle DM: the lensing mass tracks the *star-formation history* of the galaxies, not just their collisionless nature. The cascade and particle DM both predict the Bullet Cluster; they differ in predictions for **objects with no current activity but real DM subhalos** (47 Tuc test, §11), where the cascade predicts no local DM and particle DM predicts a real cosmological subhalo.
+
+**The cascade's smoking-gun test against particle DM is therefore the 47 Tuc test, not the Bullet Cluster.** A confirmation of the cascade requires a future observation showing that 47 Tuc has *no* local DM (within Rubin/LSST DR1 sensitivity), which would disfavor particle DM and support the cascade.
 
 ### 12.4 What 11/11 means (and doesn't mean)
 
