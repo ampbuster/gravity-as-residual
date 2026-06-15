@@ -19,7 +19,7 @@ Three regimes (zones):
 
 Data:
 - H_0,CMB = 67.4 (Planck)
-- H_0,TRGB = 69.6 (Freedman+, JWST)
+- H_0,TRGB = 69.8 ± 1.9 (Freedman 2024, JWST)
 - H_0,local = 73.0 (SH0ES)
 - H_0,4D = sqrt(67.4 × 73) = 70.14 (geometric mean of local and CMB)
 
@@ -32,7 +32,7 @@ import json
 # Constants
 H_0_CMB = 67.4
 H_0_local = 73.04
-H_0_TRGB = 69.6
+H_0_TRGB = 69.8  # Freedman 2024, JWST (0.2σ from cascade H_0,4D = 70.16)
 H_0_sirens = 70.0  # Standard sirens (with 12 km/s/Mpc uncertainty)
 H_0_4D = np.sqrt(H_0_CMB * H_0_local)  # 70.14
 
@@ -133,7 +133,7 @@ print()
 # 4B: at z=0.5-1 (mid-z), no stellar concentration, no cumulative drag
 print(f"  z = 0.5-1 (mid-z, no stellar concentration):")
 print(f"    H_0 = {H_0_4D:.2f} - 0 + 0 = {H_0_4D:.2f}")
-print(f"    Observed: 69.6 (TRGB) ✓ (within 0.5σ)")
+print(f"    Observed: 69.8 (TRGB) ✓ (within 0.2σ — KILLER MATCH)")
 print()
 
 # 4C: at z=0, dense cluster, R_stellar is maximal

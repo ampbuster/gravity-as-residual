@@ -3266,7 +3266,7 @@ The cascade ACCEPTS that the CMB-era DM is some F_s fraction less than today's v
 
 2. *Why is F_p ~ 0.7 specifically?* The "right" value is whatever matches data, but a derivation from the 4D event's dynamics would be a major theoretical advance.
 
-3. *Is F_p related to other cascade parameters?* F_p might be related to the 32%/68% split (cascade's outer ratio from §2.6) or to the topological eigenvalue V_5/A_4 R_AdS_5 = 27/5 from §2.6.1. This would be a deep internal consistency check.
+3. *Is F_p related to other cascade parameters?* F_p might be related to the 32%/68% split (cascade's outer ratio from §2.6). The earlier attempt to anchor the 5/27 inner split as the topological eigenvalue V_5/A_4 R_AdS_5 = 27/5 (§2.6.1, removed in v2.7.1) was a separate postulate; the cascade now treats 5/27/68 as observational data without deriving the specific ratio. A deep internal consistency check would re-derive this from the 4D event's dynamics.
 
 4. *How does F_p evolve with cosmic time?* If the 4D event is constant, F_p is constant. If the 4D event is winding down (e.g., the antigravity is the "running out" of the 4D event), F_p decreases. This is a *new* observational window into the 4D event's physics.
 

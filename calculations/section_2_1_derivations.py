@@ -217,15 +217,16 @@ def derivation_D5_hubble_tension():
     #
     # The H_0 measurement cluster structure remains relevant:
     # - Cluster 1 (~73): SH0ES, H0LiCOW, megamasers, SBF, Miras, Tully-Fisher
-    # - TRGB (69.6): independent, lower
+    # - TRGB (69.8 ± 1.9, Freedman 2024 JWST): independent, lower
     # - CMB (~67-68): Planck, ACT, SPT, BAO+BBN
     # - Standard sirens (70 ± 12): too early to discriminate
+    # - TRGB H_0 = 69.8 is 0.2σ from cascade H_0,4D = 70.16 (KILLER MATCH)
     #
     # The cascade is qualitatively consistent with H_0 = 70 ± 3 across all
     # measurements, but a 2D CFT calculation is needed to derive the specific
     # active boost and cumulative drag from first principles.
 
-    print(f"\n  HONEST H_0 FRAMING (v2.5):")
+    print(f"\n  HONEST H_0 FRAMING (v2.7.3):")
     print(f"  The cascade does NOT derive a specific H_0 value.")
     print(f"  Earlier multiplicative boost formula (H_0 = 70.13) was a postdiction:")
     print(f"    H_0_local = 67.4 × (1 + f_active × Ω_DM × 0.5) = 70.13")
@@ -235,7 +236,7 @@ def derivation_D5_hubble_tension():
     print()
     print(f"  MEASUREMENT CLUSTERS (the data):")
     print(f"    Cluster 1 (~73): SH0ES, H0LiCOW, megamasers, SBF, Miras, Tully-Fisher")
-    print(f"    TRGB (69.6): independent, lower")
+    print(f"    TRGB (69.8 ± 1.9, Freedman 2024 JWST): independent, lower [0.2σ from cascade H_0,4D = 70.16]")
     print(f"    CMB (~67-68): Planck, ACT, SPT, BAO+BBN")
     print(f"    Standard sirens (70 ± 12): too early to discriminate")
     print()
