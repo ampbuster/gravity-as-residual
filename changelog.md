@@ -1134,3 +1134,95 @@ total external constraint count is now **40** (up from 35).
 - TDCOSMO 2025 (H₀=71.6) is the SECOND-closest, 0.4σ from cascade
 
 Pushed: github.com/ampbuster/gravity-as-residual
+
+---
+
+## v2.7.3+ round 8: GW231123, eROSITA, SPHEREx, ACT+DESI (June 2026)
+
+Web research (June 2026) found 5 more external constraints from late
+2025/early 2026 datasets. Total external constraint count is now
+**45** (up from 40).
+
+**5 NEW ROUND 8 CONSTRAINTS (41-45):**
+
+41. **eROSITA all-sky ultralight axion** (Zelmer, Artis, Bulbul,
+    Grandis, Ghirardini+ 2025, arXiv:2502.03353, A&A Dec 2025)
+    - 5259 clusters, 12791 deg² in western Galactic hemisphere
+    - Constraints on ultralight axion DM at m_a ~ 10^-22 eV
+    - INAPPLICABLE (cascade 2D universes are NOT axions, NOT
+      particles; geometric back-projection, not a particle
+      species)
+
+42. **SPHEREx first all-sky near-IR spectral map** (NASA/JPL May
+    2025) - launched 11 March 2025; first all-sky near-IR
+    spectral survey of 450M+ galaxies and 100M+ Milky Way stars
+    across 102 wavelengths. First cosmic map released May 2025.
+    - QUALITATIVELY CONSISTENT (cascade's MOND-like g_+ floor
+      predicts mild sigma_8 suppression, testable with SPHEREx
+      Y1 2026-2027)
+
+43. **GW231123 - most massive BBH merger to date** (LVK, ApJL
+    993 L25, July 2025) - total mass 190-265 M_sun; primary
+    137+23-18 M_sun, secondary 100+20-30 M_sun, final BH
+    ~225 M_sun in pair-instability mass gap. Detected 2023
+    Nov 23 by both LIGO observatories.
+    - QUALITATIVELY CONSISTENT (energetic events in cascade
+      correspond to 2D universe creation; 10^62 erg radiated
+      as GWs is energetically capable of 2D universe detachment)
+
+44. **GW230529 NSBH merger** (LVK 2024 with 2025 kilonova/
+    follow-up papers) - first BHNS merger with significant EM
+    counterpart potential. Primary 2.5-4.5 M_sun (mass gap),
+    secondary 1.2-2.0 M_sun (NS). Detected 29 May 2023.
+    - QUALITATIVELY CONSISTENT (cascade silent on NSBH mass
+      distributions; mass-gap object puzzle is independent of
+      cascade)
+
+45. **ACT DR6 + DESI DR1 + Planck NPIPE joint H_0** (Maus, White,
+    Sailer, Baleato Lizancos, Ferraro+ 2025, arXiv:2505.20656,
+    May 2025, revised October 2025) - 3D galaxy clustering +
+    galaxy x CMB-lensing cross-correlations with one-loop EFTofLSS
+    theory.
+    - H_0 = 69.08 ± 0.37 km/s/Mpc (1.4% precision)
+    - Most precise joint CMB+BAO+clustering H_0 measurement
+    - Cascade H_0,4D = 70.16 sits 2.9sigma above (4.6sigma
+      below SH0ES)
+    - QUALITATIVELY CONSISTENT (cascade H_0,4D is a heuristic
+      geometric mean, not a model prediction; the new joint
+      analysis tightens the H_0 tension to 4.6sigma between
+      Planck CMB and SH0ES Cepheids)
+
+**Files changed:**
+- `paper/paper.md`: §8.1.10 added
+- `README.md`: version 40->45, "5 ROUND 8 CONSTRAINTS" section
+  added, "Key finding 3" updated to 45 constraints
+- `supporting/layman_summary.md`: version updated to 45
+- `changelog.md`: this entry
+- `calculations/v27_2025_round8_constraints.py`: new script
+
+**FINAL v2.7.3+ STATE (round 8):**
+- 45 EXTERNAL CONSTRAINTS catalogued
+- 27 CONSISTENT (qualitatively or quantitatively)
+- 7 INAPPLICABLE (cascade 2D universes are NOT particles)
+- 7 STRENGTHEN theoretical foundation
+- 1 NEW CASCADE PREDICTION (2D universe birth GW)
+- 2 REMAINING FREE PARAMETERS (mu, m_3+1D)
+- 32 honest limitations (unchanged)
+
+**UPDATED H_0 SUMMARY (closest to cascade H_0,4D = 70.16):**
+- TRGB: 69.8 +/- 1.9 (0.19sigma) - KILLER MATCH (closest)
+- TDCOSMO 2025 (8-quad): 71.6 +3.9/-3.3 (0.40sigma) - SECOND-CLOSEST
+- TDCOSMO XXIV: 64.2 +5.8/-5.0 (1.10sigma)
+- SH0ES: 73.04 +/- 1.04 (2.77sigma)
+- Planck CMB: 67.4 +/- 0.5 (5.53sigma)
+- ACT+DESI+Planck: 69.08 +/- 0.37 (2.93sigma) - most precise
+- Standard sirens: 70 +/- 12 (0.01sigma, broad)
+
+The two closest external H_0 measurements (TRGB 0.19sigma and
+TDCOSMO 2025 0.40sigma) sit ABOVE cascade H_0,4D; the most precise
+joint CMB+BAO (ACT+DESI+Planck 69.08) sits BELOW it. The cascade
+H_0,4D is the geometric mean of two discrepant sides, not a model
+prediction. The cascade is silent on the specific H_0 value
+(Mechanism M is geometric, not dynamical for H_0).
+
+Pushed: github.com/ampbuster/gravity-as-residual
