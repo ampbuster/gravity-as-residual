@@ -68,7 +68,7 @@ The cascade's r(z) = ρ_DM^DC(z) / ρ_DM^DC(0) at high z is the test of whether 
 
 At z > 1100, the photon-baryon plasma is fully ionized and tightly coupled. Thomson scattering (photons bouncing off free electrons) deposits energy at a *huge* rate: R_Thomson(1100) ≈ 1.4 × 10⁶² J/yr/Mpc³, vastly larger than stellar activity at that epoch. In proper units, R_Thomson ∝ (1+z)⁷. With the (1+z)⁴ fossil-dilution factor in the integral, the integrand scales as (1+z)³ — and the integral from z to z_max naturally gives ρ(z) ∝ (1+z)³. **The cascade's broader principle gives the right (1+z)³ scaling from Thomson alone.**
 
-This is what the "scale-time invariance" means: the cascade is *energy-scale-invariant* in its law (every event above E_crit creates a 2D universe, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. The cascade is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 30 Gyr lifetime in 2D maps to ~33 s in 3+1D) is a *local* phenomenon preserved at every epoch.
+This is what the "scale-time invariance" means: the cascade is *energy-scale-invariant* in its law (every event above E_crit creates a 2D universe, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. The cascade is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 3+1D-frame lifetime of ~33 s for SN-scale events, set by the event size ℓ/c) is a *local* phenomenon preserved at every epoch. (Earlier 30 Gyr in 2D was a guess, dropped in v2.7.1; the 33 s is empirical, from the ℓ/c mapping, but it's SN-specific, not universal.)
 
 **See:** `calculations/time_scale_invariance_test_v5.py`, `paper/paper.md` §4.47–§4.51
 
@@ -98,7 +98,7 @@ This is the cumulative result of the v2.4 work. The cascade's three main quantit
 
 ### Why these matches matter
 
-The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geometry of the 4D event and the dynamics of 2D CFT. The user-identified gap ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?") led to the broader principle that gives the cascade's R(z) the right scaling to match ΛCDM at all z. The Hubble tension (local ~73 vs CMB 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a cascade-specific failure. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements but does not derive a specific H_0 value (see §2.6.1).
+The 5/27/68 split is **observational data** (Planck 2018), not a cascade prediction. The cascade's qualitative interpretation: 5% = baryons (real 3+1D), 27% = DM (2D universe back-projection), 68% = DE (4D event antigravity). The 5:27 inner split (5% "active" vs 27% "cumulative") was dropped in v2.7.1 as a separate postulate that conflicted with the empirical 33 s lifetime. The user-identified gap ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?") led to the broader principle that gives the cascade's R(z) the right scaling to match ΛCDM at all z. The Hubble tension (local ~73 vs CMB 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a cascade-specific failure. The cascade is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements but does not derive a specific H_0 value (see §2.6.1).
 
 ---
 
@@ -130,7 +130,7 @@ The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geom
 
 # WHAT IS THE CASCADE?
 
-(One-paragraph version, for the curious.) Imagine a single energetic event in 4D — call it the "4D event" — that creates our 3+1-dimensional universe as a kind of projection. Every energetic event *in our 3+1D universe* (supernovae, AGN, even the scattering of photons off free electrons in the early plasma) creates a 2-dimensional universe as a "byproduct." The 2D universe has its own ~30 Gyr lifetime (mapping to ~33 s in 3+1D via dimensional time dilation). When 2D universes end, their energy returns to 3+1D as **dark matter**. The cumulative gravity of all the 2D universes currently ending is what we measure as DM. The bulk of the 4D event's projected gravity is canceled by the brane-localized contribution (this is why gravity is weak), but a small uncanceled fraction manifests as **dark energy**. The 5/27/68 ratio (5% ordinary matter, 27% dark matter, 68% dark energy) is set by the geometry of the AdS₅ bulk and the 3+1D boundary — specifically, V_5/(A_4 R_AdS_5) = 27/5 is a topological eigenvalue, frozen at brane deployment.
+(One-paragraph version, for the curious.) Imagine a single energetic event in 4D — call it the "4D event" — that creates our 3+1-dimensional universe as a kind of projection. Every energetic event *in our 3+1D universe* (supernovae, AGN, even the scattering of photons off free electrons in the early plasma) creates a 2-dimensional universe as a "byproduct." The 2D universe's 3+1D-frame lifetime is set by the event's spatial extent via ℓ/c (33 s for supernova-scale events, longer for larger events, shorter for smaller). When 2D universes end, their energy returns to 3+1D as **dark matter**. The cumulative gravity of all the 2D universes ever created is what we measure as DM. The bulk of the 4D event's projected gravity is canceled by the brane-localized contribution (this is why gravity is weak), but a small uncanceled fraction manifests as **dark energy**. The 5/27/68 split is **observational data** (Planck 2018), not a cascade prediction. The cascade provides a qualitative interpretation: 5% ordinary matter is baryons, 27% DM comes from 2D universe back-projection, 68% DE comes from 4D event antigravity. The 5:27 inner split (5% "active" vs 27% "cumulative") was a separate postulate that was dropped in v2.7.1 because it conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05).
 
 ---
 
@@ -175,7 +175,7 @@ The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geom
 - AGC/KKR bifurcation (Smoking Gun #1) — qualitatively reproduced
 - ΛCDM-matching r(z) at all z (Smoking Guns #2 and #3) — broader principle
 - 17/17 test categories consistent
-- 5/27/68 anchored as topological eigenvalue (V_5/(A_4 R_AdS_5) = 27/5)
+- 5/27/68 as observational data (Planck 2018) with cascade qualitative interpretation
 - Action functional S with 5/10 constraints by construction
 - Honest about open work: 2D CFT expert needed for f_active and Thomson rate
 
@@ -186,7 +186,7 @@ The 5/27/68 ratio is a *time-invariant property* of the cascade, set by the geom
 - **Derive a specific H_0 value** (the cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements; the earlier H_0 = 70.13 multiplicative boost was a postdiction, removed in v2.5; see §2.6.1 Honest H_0 framework)
 
 **Two negative results, documented honestly:**
-- 5/27 derivation: 10+ attempts failed; the 5/27 is empirical (now anchored as topological eigenvalue, but full derivation needs 2D CFT expert)
+- 5/27 inner split NOT derived (v2.7.1): the 5:27 inner split was dropped as a separate postulate that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). The 5/27/68 split is treated as observational data.
 - Mechanism B/F: rejected at 7σ by Pantheon+ full covariance
 - Mechanism L (re-interpret Planck H_0): busted, 1500× off in θ_*
 
