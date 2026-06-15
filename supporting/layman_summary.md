@@ -105,7 +105,7 @@ This is the cumulative result of the v2.4 work. The cascade's main quantitative 
 | KKR 25 M_dyn/M_b | 299 (DM-rich) | 100–1000 | ✓ PASS |
 | Sun no-DM | <10⁻¹⁷ ratio | confirmed | ✓ PASS |
 
-**17/17 test categories consistent.** 7/7 specific cases. 0 falsified.
+**17/17 test categories consistent (16 pass + 1 confounded).** 7/7 specific cases. 0 falsified.
 
 ---
 

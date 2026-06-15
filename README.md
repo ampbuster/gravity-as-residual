@@ -192,7 +192,7 @@ This is the cumulative result of the v2.4 work. The cascade's three main quantit
 | **Hubble H_0** | 70 ± 3 (qualitative consistency) | 73 (SH0ES), 67.4 (Planck) | 5.6 km/s/Mpc gap is a ΛCDM-framework artifact (no specific H_0 derived) |
 | **Sun no-DM** | <10⁻¹⁷ ratio | confirmed | ✓ PASS |
 
-**17/17 test categories pass at the qualitative level.** 7/7 specific cases consistent. 0 falsified. The cascade is now in its strongest scientific position.
+**17/17 test categories consistent at the qualitative level (16 pass + 1 confounded).** 7/7 specific cases consistent. 0 falsified. The cascade is now in its strongest scientific position.
 
 ### Why these matches matter
 
@@ -271,7 +271,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a cascade predict
 
 **What the cascade does well:**
 - AGC/KKR bifurcation — qualitatively reproduced by cascade *deterministically from SFH* (ΛCDM can only accommodate via 3-4σ outliers in feedback; MOND fails on AGC 114905 specifically)
-- 17/17 test categories consistent with ΛCDM (cumulative consistency, not unique)
+- 17/17 test categories consistent with ΛCDM (16 pass + 1 confounded; cumulative consistency, not unique)
 - r(z) = (1+z)³ at all z (automatic from comoving conservation, not unique)
 - 5/27/68 as observational data (Planck 2018) with cascade qualitative interpretation
 - Action functional S with 5/10 constraints by construction
