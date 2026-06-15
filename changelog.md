@@ -1,3 +1,69 @@
+## v2.7.1 (June 2026) — Honest findings (kept in calculations/, NOT in paper)
+
+**Per user decision (June 2026)**, the following findings are documented
+in `calculations/`, `tempcalc/`, and agent memory, but NOT added to
+`paper.md`. The paper remains focused on the cascade's interpretive
+framework and parsimony claims; the more specific quantitative analyses
+are kept as honest research artifacts.
+
+1. **AGC/KKR is NOT unique to the cascade.** Also predicted by ΛCDM
+   (SMHM relation) and MOND (baryons alone). The cascade's value is
+   interpretive (SFH energy ledger) and parsimonious (1 principle vs
+   20+ ΛCDM params), not predictive.
+   See `calculations/v27_agc_kkr_other_models.py`.
+
+2. **r(z) = (1+z)³ is automatic from comoving DM conservation.** Not a
+   cascade-specific prediction. The cascade's R(z) just sets the
+   normalization, not the shape.
+   See `calculations/v27_cascade_rz_deep_test.py`.
+
+3. **"Smoking gun" terminology removed from README and layman.** The
+   cascade has 0 unique smoking guns. Replaced with "AGC/KKR bifurcation
+   (Cascade vs Other Models)" + 2 consistency checks.
+
+4. **2D CFT Lagrangian FORM is derived, PARAMETERS are not.** The
+   Lagrangian is Liouville + Karch-Randall + SM coupling, but μ, b, α, z_0
+   remain free. Even with Boltzmann inverse problem, the 4 parameters are
+   degenerate. SPARC constrains only the effective g_+, not the
+   underlying 2D CFT. See:
+   - `calculations/v27_derive_2d_cft_lagrangian.py`
+   - `calculations/v27_boltzmann_2d_cft_inverse_problem.py`
+   - `calculations/v27_2d_cft_constrained.py`
+
+5. **Boltzmann + Liouville + RS-II smoking gun search: 10/10 NOT smoking
+   guns.** The cascade's 2D universes are CDM-like (no EM interaction),
+   so they don't affect CMB, BBN, reionization, 21cm, or ISW differently
+   from ΛCDM.
+   See `calculations/v27_boltzmann_liouville_rsii_smoking_guns.py`.
+
+6. **SPARC database analysis (175 galaxies, 3378 RAR data points):**
+   - RAR fit: g_+ = 9.54e-11 m/s² (within 20% of MOND's a_0)
+   - Deep MOND regime: g_obs/g_MOND = 1.02 (within 2% of MOND)
+   - 5 bifurcation pairs found (max V_max ratio 3.5×, vs AGC/KKR 219×)
+   - 4-parameter 2D CFT degeneracy confirmed
+   See `calculations/v27_sparc_*.py` (5 scripts).
+
+7. **"5/27/68 is time-invariant by construction" — DROPPED.** The
+   5/27/68 split is observational data, not derived. Time-invariance is
+   no longer a cascade claim. See README and paper.md updates.
+
+8. **"30 Gyr in 2D maps to 33 s in 3+1D" — REPLACED.** 30 Gyr was a
+   guess (dropped). 33 s is empirical, from the ℓ/c mapping, but it's
+   SN-specific, not universal. The 2D universe population is a MIX of
+   event types. See `calculations/v27_2d_universe_population_spectrum.py`.
+
+9. **"Three smoking guns" → "AGC/KKR bifurcation + 2 ΛCDM consistency
+   checks."** The cascade has 0 unique smoking guns. The AGC/KKR
+   bifurcation is also predicted by ΛCDM (SMHM) and MOND (baryons).
+
+**Decision rationale:** The paper is a thought experiment, and the
+cascade's value is its interpretive framework + parsimony (1 principle
+vs 20+ ΛCDM parameters). Adding all these negative results to the paper
+would obscure the cascade's main message. They are documented honestly
+in calculations/ and changelog for future reference.
+
+---
+
 ## v2.7.1 (June 2026) — 5/27/68 honest framing: 5/27 inner split is observational, not derived
 
 **MAJOR HONEST CLEANUP (5/27/68 inner split removed).**
