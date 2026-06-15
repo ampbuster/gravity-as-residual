@@ -183,6 +183,13 @@ The 5/27/68 split is **observational data** (Planck 2018), not a cascade predict
 The other 17 tests show **consistency with ΛCDM**, which is significant
 (ΛCDM is widely studied and has the most accurate math) but not cascade-specific.
 
+**Even the AGC/KKR bifurcation is NOT unique to the cascade** — ΛCDM
+also predicts it via the stellar-mass-halo-mass (SMHM) relation, and
+MOND explains both galaxies from baryons alone (no DM). The cascade's
+**value** is the **interpretive mechanism** (SFH energy ledger) and
+**parsimony** (1 principle vs ΛCDM's 20+ free parameters), not a
+unique prediction. See `tempcalc/agc_kkr_other_models.py` for details.
+
 **What the cascade does NOT do:**
 - Derive 2D CFT Lagrangian (Limitation 26 OPEN, requires theoretical physicist)
 - Derive Thomson rate from first principles (Limitation 26 OPEN)
