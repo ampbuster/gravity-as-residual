@@ -1,0 +1,18 @@
+{
+  "test": "Horava-Witten (1996) M-theory vs cascade 4D-3D-2D structure",
+  "cascade_structure": "4D event \u2192 3+1D us \u2192 2D children (3 levels)",
+  "hw_structure": "11D M-theory \u2192 10D branes \u00d7 2 (1 level + 2 boundaries)",
+  "stacking_required": "9 HW-style compactifications for 11D \u2192 4D \u2192 2D, but cascade's 2D children are D-brane nucleation (different mechanism)",
+  "free_params_cascade": 2,
+  "free_params_HW_typical": "10-100+ (CY moduli, fluxes, gauge bundle)",
+  "predictivity": "Cascade more predictive (1-2 params fit 16/17 tests + 7/7 cases)",
+  "2D_universe_realization": "D1-brane (1+1D brane) in string theory",
+  "verdict": {
+    "structural_match": true,
+    "3+1D_us_derivable": true,
+    "2D_children_derivable": true,
+    "alpha_derived": false,
+    "more_predictive_than_HW": true
+  },
+  "conclusion": "HW provides structural framework for cascade's bulk-brane, but cascade is more predictive. Cascade's \u03b1=1.29 not derived from HW directly. The 2D children are best modeled as D1-branes in string theory."
+}

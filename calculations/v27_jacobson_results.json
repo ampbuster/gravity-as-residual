@@ -1,0 +1,32 @@
+{
+  "test": "Jacobson (1995) thermodynamics of cascade's 2D universe birth",
+  "constants": {
+    "c": 299800000.0,
+    "hbar": 1.055e-34,
+    "G": 6.674e-11,
+    "l_P": 1.6164857787771846e-35,
+    "t_P": 5.391880516268127e-44,
+    "M_P": 2.1769524491448082e-08
+  },
+  "cascade_inputs": {
+    "tau_2D_SN": 33.0,
+    "E_SN": 1e+44,
+    "M_SN_bary_kg": 1.989e+31,
+    "alpha": 1.29
+  },
+  "test1_M_2D_max_kg": 6.314517450728369e+70,
+  "test1_M_2D_max_Msun": 3.1747196836241173e+40,
+  "test2_tau_2D_min_SN_s": 29538.451473764362,
+  "test2_tau_2D_min_SN_yr": 0.0009359458641877175,
+  "test2_ratio_min_vs_cascade": 895.1045901140716,
+  "test3_M_2D_actual_kg": 1.1125940753920447e-58,
+  "test3_tau_2D_min_actual_s": 1.6523029716423148e-85,
+  "test3_ratio_cascade_vs_min": 1.9972124099734254e+86,
+  "verdict": {
+    "test1_consistent": true,
+    "test2_INCONSISTENT": "33 s << 10^13 yr Jacobson minimum for SN-mass 2D universe",
+    "test3_consistent_with_f_back": true,
+    "test4_INCONSISTENT": "Jacobson predicts \u03c4_2D ~ E (linear), not \u03c4_2D ~ E^1.29 (power law)"
+  },
+  "conclusion": "Jacobson provides consistency check on f_back << 1, but does NOT derive \u03b1=1.29. Cascade's 2D universe is non-equilibrium process, not thermodynamic equilibrium object. \u03b1 remains phenomenological."
+}

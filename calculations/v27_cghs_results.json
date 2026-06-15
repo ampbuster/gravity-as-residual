@@ -1,0 +1,58 @@
+{
+  "test": "CGHS (1992) vs cascade 2D universe lifetime scaling",
+  "cascade_inputs": {
+    "alpha": 1.29,
+    "tau_SN": 33.0,
+    "E_SN": 1e+44
+  },
+  "cghs_variants": {
+    "RST_p=1": "Russo-Susskind-Thorlacius 1993",
+    "CGHS_orig_p=3": "Callan-Giddings-Harvey-Strominger 1992",
+    "cascade_p=1.29": "phenomenological fit to SN"
+  },
+  "lifetime_predictions": {
+    "LHC pp": {
+      "E_J": 1e-09,
+      "tau_RST_s": 3.3e-52,
+      "tau_CGHS_orig_s": 3.3000000000000006e-158,
+      "tau_cascade_s": 1.4077124120452497e-67
+    },
+    "Sun particle": {
+      "E_J": 1e-19,
+      "tau_RST_s": 3.2999999999999996e-62,
+      "tau_CGHS_orig_s": 3.2999999999999996e-188,
+      "tau_cascade_s": 1.772204928021825e-80
+    },
+    "SN": {
+      "E_J": 1e+44,
+      "tau_RST_s": 33.0,
+      "tau_CGHS_orig_s": 33.0,
+      "tau_cascade_s": 33.0
+    },
+    "Hypernova": {
+      "E_J": 1e+46,
+      "tau_RST_s": 3299.9999999999995,
+      "tau_CGHS_orig_s": 32999999.999999985,
+      "tau_cascade_s": 12546.25007857852
+    },
+    "BNS merger": {
+      "E_J": 1e+46,
+      "tau_RST_s": 3299.9999999999995,
+      "tau_CGHS_orig_s": 32999999.999999985,
+      "tau_cascade_s": 12546.25007857852
+    },
+    "AGN outburst": {
+      "E_J": 1e+52,
+      "tau_RST_s": 3299999999.9999995,
+      "tau_CGHS_orig_s": 3.299999999999999e+25,
+      "tau_cascade_s": 689467723181.8334
+    }
+  },
+  "verdict": {
+    "structural_match": true,
+    "exponent_derived": false,
+    "exponent_in_cghs_range": true,
+    "testable_prediction": "If a CGHS variant yields \u03b1=1.29, cascade's \u03b1 is derived from first principles"
+  },
+  "conclusion": "CGHS provides structural framework but does not directly derive \u03b1=1.29. The \u03b1 remains phenomenological but is consistent with CGHS family."
+}

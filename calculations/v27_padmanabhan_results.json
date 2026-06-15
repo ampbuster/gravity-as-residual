@@ -1,0 +1,26 @@
+{
+  "test": "Padmanabhan (2015) entropic gravity vs cascade bulk-brane coupling",
+  "cascade_features": {
+    "weak_gravity": "G_3+1D << G_4D, attributed to many boundary DoF",
+    "DM": "2D universe cumulative back-projection",
+    "DE": "inverted 4D gravity (repulsive on 3+1D)",
+    "inversion": "4D attractive \u2192 3+1D repulsive"
+  },
+  "padmanabhan_matches": {
+    "weak_gravity": true,
+    "DM_as_missing_entropy": true,
+    "DE": false,
+    "inversion": false,
+    "alpha_1.29": false,
+    "f_split": false
+  },
+  "tau_4D_for_universe_mass": 2.797463558380024e+35,
+  "tau_4D_yr": 8.863952973320735e+27,
+  "verdict": {
+    "structural_match": true,
+    "cascade_DM_info_theoretic": true,
+    "inversion_derived": false,
+    "alpha_derived": false
+  },
+  "conclusion": "Padmanabhan provides info-theoretic interpretation of cascade DM as missing bulk entropy, but does NOT derive \u03b1=1.29, f_split, or the inversion. Inversion remains a cascade-specific postulate."
+}
