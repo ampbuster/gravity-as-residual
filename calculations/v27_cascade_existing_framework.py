@@ -168,9 +168,9 @@ def main():
 
     rho_total, rho_live, rho_deaths, E_SN, E_pp = cascade_dm_prediction(0)
     Omega_m = Omega_b + Omega_c
-    H_z_0 = H_0 * np.sqrt(Omega_m)
-    rho_crit_0 = 3 * H_z_0**2 / (8 * math.pi * G) / c**2
-    rho_DM_obs_0 = Omega_c * rho_crit_0 * c**2
+    H_z_0 = H_0  # at z=0, H(0) = H_0 (Lambda + matter)
+    rho_crit_0 = 3 * H_z_0**2 / (8 * math.pi * G)  # mass density, kg/m^3
+    rho_DM_obs_0 = Omega_c * rho_crit_0 * c**2  # energy density, J/m^3
 
     print(f"  Live contribution:    {rho_live:.3e} J/m^3")
     print(f"  Death contribution:   {rho_deaths:.3e} J/m^3")
@@ -197,9 +197,9 @@ def main():
     print()
 
     rho_total_1100, rho_live_1100, rho_deaths_1100, E_SN_1100, E_pp_1100 = cascade_dm_prediction(1100)
-    H_z_1100 = H_0 * np.sqrt(Omega_b + Omega_c * 1101**3)
-    rho_crit_1100 = 3 * H_z_1100**2 / (8 * math.pi * G) / c**2
-    rho_DM_obs_1100 = Omega_c * rho_crit_1100 * c**2
+    H_z_1100 = H_0 * np.sqrt(Omega_m * 1101**3 + Omega_Lambda)
+    rho_crit_1100 = 3 * H_z_1100**2 / (8 * math.pi * G)  # mass density, kg/m^3
+    rho_DM_obs_1100 = Omega_c * rho_crit_1100 * c**2  # energy density, J/m^3
 
     print(f"  At z = 1100:")
     print(f"    Live contribution:  {rho_live_1100:.3e} J/m^3 (negligible)")
