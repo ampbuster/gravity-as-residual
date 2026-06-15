@@ -4,6 +4,8 @@
 
 **Version 2.7** (June 2026) — *Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed.* The cascade's earlier attempts to explain the Hubble tension via 4-zone H(z) (local R_stellar boost, bulk baseline, secular cosmic web boost, primordial CMB drag) were removed in v2.7. The 4-zone spec was data fitting (8 free parameters for ~5 data points), and the bulk position distribution P(y) was internally inconsistent (the axion-like mass required deep-bulk 2D universes, but the local R_stellar boost required shallow-bulk 2D universes). The cascade now adopts Mechanism M: ACCEPT the Hubble tension as a real observational tension, not resolved. The cascade's intrinsic H_0,4D = 70.16 (geometric mean) is preserved as a non-trivial property. The Ω_DM = 0.27 input postulate, the cone-shape architecture, the time compression mechanism, and the Liouville 2D CFT framework are all preserved. Limitation 32 (4-zone H(z) derivation) is REMOVED (it was an empirical fit, not a derivation). The cascade documents 32 honest limitations (L31 and L33 retained, L32 removed). The 7/7 specific-case predictions are UNCHANGED.
 
+**Version 2.7.4** (June 2026) — *Paper inconsistency audit fixes + L34 (E_primordial) + L20 reverted.* 8+ paper inconsistencies found and fixed via audit scripts (calculations/v27_paper_inconsistency_audit.py, calculations/v27_paper_full_audit.py, calculations/v27_session_inconsistency_audit.py): (1) "0 falsified" → "2 components falsified" in executive summary AND §13 "Status of the framework" section; (2) "17/17 test categories" → "16/17" (typo) in 3 places; (3) "32 honest limitations" → "33 honest limitations" in 3 current-state descriptions (executive summary, §7.0 intro, §13 status); (4) L20 "f_active derivation" status changed CLOSED → PARTIAL → REVERTED in v2.7.1 (the v2.3.1 "derivation" used τ_2D ~ 0.7 Gyr as a SEPARATE POSTULATE, not first-principles); (5) F_p ~ 0.7 "good" → "best compromise" (table says MARGINAL); (6) §4.48 E_primordial UNSPECIFIED note added, Limitation 34 added for the hidden free parameter; (7) f_proj notation overload resolved (renamed 32/68 ratio to f_split); (8) "30th-and-final round" in §8.1.7 reframed as "Round 6" (acknowledges rounds 7-8 added 15 more constraints for total 45); (9) Lelli+ 2017 typo 1.20e-11 → 1.20e-10 m/s²; (10) f_active vs F_p distinction added (population ratio vs energy contribution ratio). §13 Status of framework updated. The cascade now has 33 honest limitations (16 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 3 REVERTED; L32 removed; L34 added). 7/7 specific cases UNCHANGED. 16/17 test categories UNCHANGED.
+
 **For full version history and change list, see [`changelog.md`](../changelog.md) in the repo root.** The changelog contains detailed entries for v2.5, v2.4, v2.3.2, v2.3.1, v2.3.0, v2.2.1, v2.2, v2.1, and earlier versions.
 
 ## Abstract
@@ -2293,7 +2295,7 @@ These are TWO DIFFERENT physical processes:
 
 Both are real, both are ~1-3 Gyr, but they're not the same. The "5% in three places" mystery (commit 121) is now explained: **gas consumption (0.7 Gyr) is the relevant LOCAL timescale, not the cosmic SFR peak (2.5 Gyr).**
 
-**Closed limitation:** Limitation 20 (f_active derivation limitation) is now **CLOSED** by this derivation. f_active is no longer a "fit" but a "derivation" from τ_2D / T_universe, with τ_2D identified by physical analogy with gas consumption.
+**Closed limitation (v2.3.1, REVERTED v2.7.1):** Limitation 20 (f_active derivation limitation) was **CLOSED** by this derivation in v2.3.1. f_active was no longer a "fit" but a "derivation" from τ_2D / T_universe, with τ_2D identified by physical analogy with gas consumption. **v2.7.1 update:** the identification τ_2D ~ 0.7 Gyr is a SEPARATE POSTULATE, not a first-principles derivation. The "CLOSED" status is REVERTED in v2.7.1; f_active is a FREE PARAMETER (see §7.0 L20 and the §4.35 header).
 
 **Predictions of this derivation:**
 1. f_active should be **UNIVERSAL across galaxy types** (τ_2D is a property of the 2D universe, not the host galaxy).
@@ -2323,7 +2325,7 @@ A definitive test requires per-morphology MCMC fitting (joint fit of f_active, M
 
 See `calculations/derive_4d_factive_v2_test.py` and `calculations/derive_4d_factive_v2_test_results.txt` for the full preliminary analysis. **Status: prediction #1 documented but not definitively tested.**
 
-**Verdict:** f_active is now derivable from 4D event physics. Limitation 20 is CLOSED. The 4× gap is reframed as a feature (LOCAL vs GLOBAL). The paper can update from "f_active constrained but not derived" to "f_active derived from τ_2D / T_universe = 0.05, with τ_2D ~ 0.7 Gyr (gas consumption) by physical analogy."
+**Verdict (v2.3.1, REVERTED v2.7.1):** f_active was *claimed* to be derivable from 4D event physics in v2.3.1; Limitation 20 was *claimed* to be CLOSED. The 4× gap was reframed as a feature (LOCAL vs GLOBAL). **v2.7.1 update:** the "derivation" used τ_2D ~ 0.7 Gyr as a SEPARATE POSTULATE (gas consumption timescale, identified by physical analogy), not a first-principles derivation. The numerical match (0.051 vs 0.0513) is striking but does not constitute a derivation. L20 status is REVERTED in v2.7.1; f_active is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC.
 
 See `calculations/derive_4d_factive_v2.py` and `calculations/derive_4d_factive_v2_results.txt` for full analysis.
 
@@ -5169,7 +5171,7 @@ The cascade's specific *additional* prediction beyond particle DM: the lensing m
 **11/11 does NOT mean:**
 - The cascade is *uniquely* confirmed. LCDM + particle DM can also accommodate most of these tests (with the addition of baryonic feedback to explain the "no DM" UDGs).
 - The cascade's specific quantitative predictions (the *exact* M_dyn/M_b for each galaxy) are derived from first principles. They are *qualitative* predictions calibrated to the data.
-- The cascade has *no free parameters*. The 2 free parameters (μ, m_3+1D) plus the calibrated f_proj and growth factor are not yet derived from first principles.
+- The cascade has *no free parameters*. The 2 free parameters (μ, m_3+1D) plus the calibrated f_split (32/68 projection ratio) and growth factor are not yet derived from first principles.
 
 **The honest framing:** 11/11 is a *consistency check*, not a *confirmation*. The cascade is a *geometric framework* that is *consistent* with the galaxy zoo, awaiting theoretical completion (2D CFT Lagrangian, bulk-brane geometry derivation).
 
