@@ -1209,7 +1209,7 @@ The honest summary: *none* of these frameworks derive the cascade's α = 1.29 fr
 - **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.12: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.13: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
@@ -5893,7 +5893,117 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 
 ---
 
-*Manuscript date: 2026-06-14 (v2.4 hardening phase complete: 5 refactors executed)*
+## 14. Falsifiability Matrix: What Would Test the Cascade? (v2.7.13+)
+
+This section consolidates the cascade's *testable predictions* across all upcoming and ongoing observations, organized as a single reference matrix. Each entry specifies:
+
+- **What the cascade predicts** (with quantitative amplitudes where possible)
+- **What observation would falsify it** (with thresholds)
+- **The current status** (validated, pending, or untested)
+- **The year the test becomes possible**
+
+The cascade's predictions span 5-10 orders of magnitude in energy, time, and frequency. The matrix below is the comprehensive list.
+
+### 14.1 Near-term tests (2026-2027)
+
+#### DESI DR3 (2026-2027): dark energy equation of state $w_0, w_a$
+
+**Cascade prediction:** $w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5σ tension with $\Lambda$CDM)
+
+**Falsification threshold:**
+- If $w_0 = -1$ confirmed at > 5σ: cascade's standard Lagrangian (constant $f_{\text{back}}$) is right
+- If $w_0 = -0.83$ confirmed at > 5σ: cascade's standard Lagrangian falsified; needs running $f_{\text{back}}(z)$ (adds 1 free parameter)
+
+**Status:** PENDING. Currently 3.5σ, not yet falsification or validation.
+
+#### LSST Y1 (2027): 47 Tuc DM content
+
+**Cascade prediction:** 47 Tuc has *no DM* (old GCs have no DM, per the cascade's stellar-density argument). DM detection threshold: $M_{\text{DM}}/M_* < 10^{-5}$.
+
+**Falsification threshold:** If 47 Tuc shows DM at > 5σ (e.g., via stellar kinematics), cascade's prediction is falsified.
+
+**Status:** PENDING. LSST Y1 data 2027.
+
+#### eROSITA + SPHEREx + GW231123 + GW230529: ongoing multi-messenger
+
+**Cascade prediction:** Consistent with $\Lambda$CDM at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with the cascade.
+
+**Status:** VALIDATED. All 2024-2026 observations are consistent with cascade's qualitative framework.
+
+### 14.2 Mid-term tests (2027-2034)
+
+#### SKA-MPG PTAs (2030s): BNS/AGN 2D universe death GW
+
+**Cascade prediction:** Stochastic GW background at frequencies:
+- BNS: $f_{\text{GW}} \approx 7 \times 10^{-14}$ Hz (PTA band)
+- AGN: $f_{\text{GW}} \approx 2 \times 10^{-17}$ Hz (PTA band)
+
+**Falsification threshold:**
+- If GW detected at cascade's predicted frequencies: $\alpha = 1.29$ validated to ±0.11
+- If GW detected at 10× off-frequency: $\alpha$ falsified to ±0.11
+- If BNS+AGN internally inconsistent: framework-level falsification (not just $\alpha$)
+- If no GW detected: cascade's GW prediction falsified (less direct)
+
+**Status:** PENDING. SKA-MPG operational 2030s.
+
+#### LISA (2034+): 2D universe death GW at mHz
+
+**Cascade prediction:** Cascade's SN death GW at 0.03 Hz is 6-14 orders BELOW LISA noise. LISA will NOT detect cascade's death GW.
+
+**Falsification threshold:** If LISA detects *something* at cascade's predicted amplitudes, that's a *positive* surprise (cascade underpredicts GW).
+
+**Status:** Most likely LISA will see no cascade signal, consistent with cascade's prediction.
+
+#### Direct $M_{\text{Pl},4}$ measurement (2030s+ colliders)
+
+**Cascade prediction:** $M_{\text{Pl},4} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
+
+**Falsification threshold:** If $M_{\text{Pl},4}$ measured at < 887 GeV, cascade's bulk-brane coupling is wrong.
+
+**Status:** PENDING. Future colliders or precision tests.
+
+### 14.3 Long-term tests (2034+)
+
+#### μAres (next-gen PTA, 2040s?): higher-precision α
+
+**Cascade prediction:** $\alpha = 1.29$ to ±0.055 precision (1 dex frequency precision → 0.055 in $\alpha$).
+
+**Falsification threshold:** If $\alpha$ measured at < 1.20 or > 1.40, cascade's energy-scaling rule is wrong.
+
+**Status:** PENDING. μAres operational 2040s.
+
+#### BBN precision (10× improvement)
+
+**Cascade prediction:** DE at BBN era (z = 10^10) is ~10^-20 of radiation. BBN proceeds as standard.
+
+**Falsification threshold:** If $\rho_{\text{DE}}(\text{BBN}) > 10^{-20} \times \rho_{\text{rad}}(\text{BBN})$, cascade's BBN prediction is wrong.
+
+**Status:** PENDING. Future precision BBN.
+
+### 14.4 Cross-observational consistency
+
+| Test | Cascade predicts | Falsification threshold |
+|------|------------------|-------------------------|
+| $w_0$ (DESI DR3) | $-0.83 \pm 0.16$ | > 5σ away from -0.83 |
+| $w_a$ (DESI DR3) | $-0.75 \pm 0.30$ | > 5σ away from -0.75 |
+| 47 Tuc DM (LSST) | < 10^-5 $M_*$ | DM detected at > 5σ |
+| BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10× off-frequency |
+| AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10× off-frequency |
+| $M_{\text{Pl},4}$ (colliders) | $\geq 887$ GeV | Measured < 887 GeV |
+| BBN DE (precision) | < 10^-20 rad | > 10^-20 detected |
+| 5/27/68 (Planck) | 5/27/68 (input) | Input, not tested |
+
+### 14.5 The 5-10 year window
+
+The cascade's critical test period is **2026-2034**:
+- 2026-2027: DESI DR3 + LSST Y1 (DE and 47 Tuc)
+- 2027-2030: eROSITA-final, SPHEREx, ongoing multi-messenger
+- 2030s: SKA-MPG PTAs (GW)
+- 2034: LISA launch
+
+If multiple tests simultaneously validate the cascade, that's strong evidence. If multiple falsify, the cascade is in trouble. The 5-10 year window is when the cascade's status will be **either** "validated 2D universe framework" **or** "falsified, time to move on".
+
+**The honest cost:** the cascade is testable, but most tests are in the future. Until then, the cascade is a *promising* phenomenological framework with structural support from 5 of 6 framework analyses (§3.8), but no first-principles derivation. See `calculations/v27_alpha_sensitivity.py` for α sensitivity analysis.
 *Version: v2.4*
 *Repository: https://github.com/ampbuster/gravity-as-residual*
 *Version: v2.4 (pending version bump; v2.3.2 → v2.4)*

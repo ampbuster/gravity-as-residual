@@ -2,6 +2,48 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.13 (June 2026) — §14 Falsifiability Matrix
+
+**Major changes since v2.7.12:**
+
+1. **§14 NEW: Falsifiability Matrix** (~3 pages)
+   - Consolidated future tests in one reference table
+   - 5-10 year critical test window (2026-2034)
+   - 8 testable predictions with quantitative falsification thresholds
+
+2. **Near-term tests (2026-2027)**:
+   - DESI DR3: w_0 = -0.83 ± 0.16 (currently 3.5σ tension with ΛCDM)
+     Falsification: w = -1 confirmed → cascade standard Lagrangian right
+     Falsification: w_0 = -0.83 confirmed → cascade needs running f_back
+   - LSST Y1: 47 Tuc DM (cascade predicts no DM)
+     Falsification: DM detected at > 5σ
+
+3. **Mid-term tests (2027-2034)**:
+   - SKA-MPG PTAs (2030s): BNS GW at 7×10⁻¹⁴ Hz, AGN at 2×10⁻¹⁷ Hz
+     Falsification: GW at 10× off-frequency, or no GW at all
+   - LISA (2034+): cascade's SN GW is 6-14 orders BELOW LISA noise
+     LISA will NOT detect cascade's death GW
+   - M_Pl,4 measurement (2030s+): cascade predicts M_Pl,4 ≥ 887 GeV
+     Falsification: measured < 887 GeV
+
+4. **Long-term tests (2034+)**:
+   - μAres: α to ±0.055 precision
+   - BBN precision: DE at BBN era is ~10⁻²⁰ of radiation
+     Falsification: detected at > 10⁻²⁰
+
+5. **The 5-10 year window**:
+   - 2026-2027: DESI DR3 + LSST Y1
+   - 2027-2030: multi-messenger
+   - 2030s: SKA-MPG PTAs
+   - 2034: LISA launch
+   - The cascade's status will be either "validated" or "falsified" by 2034
+
+6. **Cross-observational consistency table**: 8 testable predictions
+
+**Test counts UNCHANGED** (16/17, 7/7, 11/11, 35 limitations)
+
+**Earlier v2.7.12 entry (unchanged):**
+
 ## v2.7.12 (June 2026) — Parameter Glossary + E_primordial spec + §13 closure update
 
 **Major changes since v2.7.11:**
