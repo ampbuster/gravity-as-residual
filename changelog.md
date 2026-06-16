@@ -2,6 +2,41 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.45 (June 2026) — TDG honest framing with 2023-2025 literature
+
+**Major changes since v2.7.44:**
+
+1. **TDG section updated with 2023-2025 literature**
+   - Old framing: "DISPUTED, unresolved 20 years"
+   - New framing: "MIXED EVIDENCE, SHIFTING TOWARD DM-POOR"
+   - 7+ new papers catalogued
+
+2. **New TDG papers (2023-2025):**
+   - **Zaragoza-Cardiel+ 2024 (arXiv:2406.05179)**: 7 detached
+     TDGs, 5/7 with high metallicities (tidal origin confirmed)
+   - **AJ 2023** ("Catching TDGs at a Later Evolutionary Stage"):
+     AGC 229398 and AGC 333576 — DM-poor candidates
+   - **Ivleva+ 2024 (arXiv:2402.09060)**: simulations show TDGs
+     CAN become DM-free in clusters
+   - **Sánchez+ 2022**: M82 Nascent TDG, currently forming
+   - **Mancera Piña 2022**: AGC 114905 as possible TDG
+   - **VCC 2062**: old TDG in Virgo cluster, DM-poor
+   - **Triton Station 2025 blog**: non-equilibrium dynamics
+
+3. **Honest framing**: the TDG field is in flux
+   - Gentile 2007's 3 DM-rich TDGs have NOT been replicated
+   - Emerging 2023-2025 picture is more consistent with cascade
+   - The cascade is "currently leaning toward supported"
+   - If more DM-rich TDGs are found, cascade is challenged
+
+4. **Net: 0 new pages, README honesty only**
+   - Total paper: 264 pages (no change)
+   - 50 honest limitations (no change)
+   - 1 free parameter (z_half only)
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.44 entry (unchanged):**
+
 ## v2.7.44 (June 2026) — Bullet Cluster honest framing
 
 **Major changes since v2.7.43:**

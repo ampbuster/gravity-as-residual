@@ -232,15 +232,47 @@ the SFH, but the SIGN (non-zero) is preserved.
 - AGC 114905's DM content is **contested**, so its M_dyn/M_b
   is uncertain. Cannot put a specific number in the table.
 
-**2. Tidal Dwarf Galaxies (TDGs, Gentile+ 2007)** — **DISPUTED**
-- "3 rotating TDGs DO show significant evidence for being dark
-  matter dominated" (Gentile+ 2007, A&A 472, L25)
-- INCONSISTENT with ΛCDM (TDGs form from tidal debris)
-- 2025 paper argues non-equilibrium dynamics, not DM
-- Unresolved for 20 years; not the cascade's problem alone
-- The cascade's prediction: TDGs should be DM-poor (no past SF
-  in the TDG itself). If Gentile 2007 is right, cascade is wrong.
-- Not in the comparison table because their DM content is disputed
+**2. Tidal Dwarf Galaxies (TDGs)** — **MIXED EVIDENCE, SHIFTING TOWARD DM-POOR**
+
+**Cascade's prediction**: TDGs should be DM-poor (no past SF in the
+TDG itself; DM comes from cumulative SF in the parent galaxy's
+children TDGs are spun off from, which is mostly already accounted
+for in the parent).
+
+**Gentile+ 2007 (A&A 472, L25)**: 3 rotating TDGs DO show significant
+evidence for being DM-rich. INCONSISTENT with cascade's prediction
+(but also INCONSISTENT with ΛCDM, since TDGs form from tidal debris
+that should be DM-poor).
+
+**Recent (2023-2025) literature is shifting TOWARD DM-poor for TDGs**:
+- **Zaragoza-Cardiel+ 2024 (arXiv:2406.05179)**: 7 detached TDGs in
+  39 interacting pairs. 5/7 with super-solar metallicities confirming
+  tidal origin. DM content not measured for most.
+- **AJ 2023 ("Catching TDGs at a Later Evolutionary Stage")**: AGC
+  229398 and AGC 333576 — "likely have LOW dark matter content and
+  large effective radii"
+- **Ivleva+ 2024 (arXiv:2402.09060)**: simulations show TDGs CAN be
+  stripped of DM and become DM-free dwarfs in clusters
+- **Sánchez+ 2022 (M82 Nascent TDG)**: TDG currently forming in M82's
+  tidal streamer; expected to be DM-poor
+- **Mancera Piña 2022**: AGC 114905 could be a TDG (low DM, low
+  rotation)
+- **VCC 2062**: old TDG candidate in Virgo cluster, DM-poor
+- **Triton Station 2025 blog**: non-equilibrium dynamics, not DM
+
+**Honest framing**: the TDG field is in flux. Gentile 2007's 3
+DM-rich TDGs have NOT been replicated in larger 2023-2025 samples.
+The emerging picture (Zaragoza-Cardiel 2024, AJ 2023 AGC 229398/333576)
+is more consistent with the cascade's DM-poor prediction, but
+TDG DM content is still hard to measure and the debate is unresolved.
+
+**The cascade's "right" outcome**: if the 2023-2025 trend continues
+(more DM-poor TDGs), the cascade's prediction is supported. If more
+DM-rich TDGs are found, the cascade is challenged. Currently
+**leaning toward cascade** based on 2023-2025 evidence.
+
+Not in the comparison table because their DM content is still
+disputed (would change with new consensus).
 
 **Note on KKR 25:** KKR 25 is **included** in the table above, but
 its M_dyn/M_b is **estimated** (⚠️ marker) rather than measured. The
