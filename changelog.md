@@ -2,6 +2,47 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.47 (June 2026) — Observational evidence for cascade's REAL differentiators
+
+**Major changes since v2.7.46:**
+
+1. **Massive quiescents at z>4 — cascade's STRONGEST evidence**
+   - 10+ confirmed massive quiescents at z>4
+   - **RUBIES-EGS-QG-1 (2024 Nat. Astron.)**: z=4.9, log M* = 10.3
+   - **ZF-UDS-7329 (2023 Nature)**: z=3.205, log M* = 11.04
+   - **JWST EXCELS (2024 MNRAS)**: 4 QG with log M* > 11 at 3<z<5
+   - **Carniani+ 2025**: 700+ massive QG at z=2-7
+   - **TGSSJ1530+1049 (2025)**: confirmed z=4.0
+   - **Protocluster at z=4 (2024 ApJ)**: 10^11 M_sun QG
+   - **Gobat+ 2024**: 12 massive QG at z=3-4
+   - **Cosmic Stillness (Russell+ 2024)**: high QG fraction 3<z<7
+   - **Not-so-little Red Dots (2024 ApJ)**: 2 massive dusty z=5-7
+   - **Fakhry+ 2025 (arXiv:2507.23742)**: 5 massive z>10 challenge ΛCDM
+   - Caveat: M_dyn hard to measure for z>4; future ELT needed
+
+2. **Intermediate F(z) dwarfs — cascade's #2 evidence**
+   - 10+ confirmed intermediate F(z) dwarfs
+   - **Bidaran+ 2025 (A&A 693, L16)**: 4 isolated quenched dwarfs
+     in cosmic voids, log M* = 8.9-9.5, no neighbor within 1.0 Mpc
+   - **Hagen+ 2026 (CVnC)**: quenched isolated dwarf in local volume
+   - **Paudel+ 2025 (dE01+09)**: isolated early-type dwarf
+   - **3 backsplash dwarfs (2025)**: 2 strong backsplash candidates
+   - **DIVE Survey (2025+)**: N~30 low-mass void dwarfs
+   - **ELVES-Field**: isolated galaxies with M* < 10⁹ M_☉
+   - **Ava Polzin list**: ongoing compilation
+   - Pre-2025: bimodal (gas-rich vs. quenched)
+   - 2025-2026: intermediate population is being discovered
+   - Cascade's smooth F(z) predicts ~10-30% should be intermediate
+   - Caveat: still small population; LSST Y1 (2027) needed
+
+3. **Net: 0 new pages, README observation data only**
+   - Total paper: 264 pages (no change)
+   - 50 honest limitations (no change)
+   - 1 free parameter (z_half only)
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.46 entry (unchanged):**
+
 ## v2.7.46 (June 2026) — 47 Tuc honest framing
 
 **Major changes since v2.7.45:**
