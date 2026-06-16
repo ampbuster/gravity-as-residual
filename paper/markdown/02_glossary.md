@@ -393,7 +393,7 @@ The §2.5.1 action is a **starting skeleton, not a complete theory**. It has the
 3. **Death mechanism**: What causes $\tau_{2D} = L_{event}/c$? Is it brane tension, 2D gravity, 2D heat death, Big Crunch, or something else? NOT specified.
 4. **$T^{DM}$ at death**: The spatial and temporal distribution of DM appearing at the 2D brane's death is NOT specified.
 5. **The 5/27/68 split**: NOT derived from the action. The numerical values are postulates, not outputs.
-6. **The cascade-MOND hybrid g₊**: The action should derive g₊ \sim 10^{-10} m/s² from first principles, but does NOT.
+6. **The cascade-MOND hybrid g₊**: The action should derive $g_+ \sim 10^{-10}$ m/s² from first principles, but does NOT.
 
 *Honest structural issue: the action is "teleological."* The $S_{destruction}$ term includes $\delta(t - \tau_{2D})$ which references the *future* death of the 2D brane. This is mathematically acceptable (integrate over all time in the action), but conceptually weird — the action "knows" that 2D branes created at $t=0$ will die at $t = \tau_{2D}$. The proper resolution is the **in-in formalism (Schwinger-Keldysh CTP)**: the action has two time contours (forward for creation, backward for destruction), which is the standard way to handle particle creation/annihilation in QFT.
 

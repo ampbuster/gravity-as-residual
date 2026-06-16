@@ -273,7 +273,7 @@ The cascade's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ functional form is **fa
 
 *The cascade-MOND hybrid proposal.* The cascade's framework is not falsified by this test; only its specific RAR *functional form* is. A more honest proposal:
 
-- **Cascade provides the WHY**: the 2D universe cumulative gravity creates a universal acceleration scale g₊ \sim 1.2 \times 10^{-10} m/s². The cascade's 4D event physics explains *why* there's a universal g₊ at all (per the cascade's framework: it's a property of the cumulative 2D universe gravity at galaxy scales).
+- **Cascade provides the WHY**: the 2D universe cumulative gravity creates a universal acceleration scale $g_+ \sim 1.2 \times 10^{-10}$ m/s². The cascade's 4D event physics explains *why* there's a universal g₊ at all (per the cascade's framework: it's a property of the cumulative 2D universe gravity at galaxy scales).
 - **MOND provides the HOW**: $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ is the correct functional form for the relationship between $g_{obs}$ and $g_{bar}$ in real galaxies.
 - **Cascade-MOND synthesis**: the cascade's RAR prediction is **MOND-compatible**, not its own independent prediction. The cascade's contribution to the RAR is the *geometric origin of g₊, not the form of $g_{obs}(g_{bar})$*.
 
@@ -702,7 +702,7 @@ For a Milky Way-like galaxy with $M_b \sim 6 \times 10^{10} M_\odot$ and $\dot{n
 - Integrated $\dot{n} \cdot T \sim 10^{-12} \times 10^{10}$ yr $= 10^{-2}$ events/$M_\odot$
 - g₊ = $k \cdot 10^{-2} \cdot E_{event} \cdot \tau_{2D}/L_{2D}$
 
-For the empirical g₊ \sim 1.2 \times 10^{-10} m/s², we need $k \cdot E_{event} \cdot \tau_{2D}/L_{2D} \sim 10^{-8}$ in natural units. This is a *calibration* — the cascade does not derive $k$ from first principles, but the *structure* of the formula is correct.
+For the empirical $g_+ \sim 1.2 \times 10^{-10}$ m/s², we need $k \cdot E_{event} \cdot \tau_{2D}/L_{2D} \sim 10^{-8}$ in natural units. This is a *calibration* — the cascade does not derive $k$ from first principles, but the *structure* of the formula is correct.
 
 *Critical prediction: the cluster-scale g₊ enhancement (Tian+ 2024).*
 
