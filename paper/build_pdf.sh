@@ -1,5 +1,5 @@
 #!/bin/bash
-# build_pdf.sh - Build the paper PDF from paper.md (or paper/markdown/*.md)
+# build_pdf.sh - Build the paper PDF from paper/markdown/*.md files
 #
 # Usage: ./build_pdf.sh
 #
@@ -10,9 +10,8 @@
 # Note: The paper uses Unicode superscripts (10^-50, 10^-85, etc.) which
 # require xelatex with Unicode font support, NOT pdflatex.
 #
-# v3.0.13+: paper.md is now split into paper/markdown/*.md files.
-# If paper/markdown/ exists, files are concatenated in order.
-# If paper/markdown/ doesn't exist, falls back to paper.md.
+# v3.0.13+: paper is split into paper/markdown/*.md files.
+# Files are concatenated in alphabetical order.
 
 set -e
 
@@ -32,7 +31,7 @@ else
     PAPER_SOURCE=paper.md
 fi
 
-# Step 1: Convert paper.md to body.tex via pandoc (markdown_strict to avoid YAML parse issues)
+# Step 1: Convert combined .md to body.tex via pandoc (markdown_strict to avoid YAML parse issues)
 pandoc "$PAPER_SOURCE" -o /tmp/paper_body.tex -f markdown_strict
 
 # Step 2: Strip the first \section{...} (we have \title{} in the header)

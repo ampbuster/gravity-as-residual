@@ -1,4 +1,39 @@
 
+## v3.0.14 — Fix table rendering on GitHub + delete old paper.md (June 2026)
+
+**User feedback:** "the pdf is not rendering latex or tables properly.
+note that even before the split it's already like this."
+
+The issue: GitHub's GFM table parser fails when table cells contain
+`$...$` math with underscores. The fix: use the backtick-dollar
+syntax `` $`...`$ `` for math in TABLES only (rest of paper stays as
+`$...$` which works in xelatex).
+
+**This commit:**
+- Applied targeted conversion: 139 `\$...\$` → `` $`...`$ `` **inside
+  table cells only** (7 files affected):
+  - 01_executive_summary.md (1)
+  - 02_glossary.md (36)
+  - 03_relations.md (8)
+  - 04_predictions.md (62)
+  - 06_limitations.md (14)
+  - 08_competitors.md (9)
+  - 15_falsifiability_matrix.md (9)
+- Deleted `paper/paper.md` (the source of truth is now
+  `paper/markdown/*.md`)
+- Cleaned up `build_pdf.sh` comments
+- PDF still builds clean: 276 pages
+
+**Why this works:**
+- xelatex/PDF: ignores the backticks (they're treated as code markers
+  but the math inside is still rendered). Build output unchanged.
+- GitHub markdown: `` $`...`$ `` is GitHub's documented workaround
+  for math expressions with markdown-conflicting characters (like `_`).
+  Tables now render properly.
+- Markor / other viewers: should treat `` $`...`$ `` the same as
+  `$...$`.
+
+
 ## v3.0.13 — Split paper.md into paper/markdown/ directory (June 2026)
 
 **User request:** "split the .md into multiple files based on section

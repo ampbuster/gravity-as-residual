@@ -46,7 +46,7 @@ For a Milky Way-like galaxy ($M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, $f
 
 The cascade's prediction across these scales (see `calculations/rar_across_scales_v2.py`):
 
-| Object | $M_{DM}$ ($M_\odot$) | $R_{halo}$ (kpc) | g₊ (cascade) | g₊ (obs) | ratio |
+| Object | $`M_{DM}`$ ($`M_\odot`$) | $`R_{halo}`$ (kpc) | g₊ (cascade) | g₊ (obs) | ratio |
 
 ```
 Object              M_DM (M_sun)   R (kpc)    g_+ cascade       g_+ obs           ratio
@@ -237,9 +237,9 @@ This is now the cascade's best candidate RAR model: small $f_{active}$ (5%), iso
 
 | Object | r (kpc) | N_orbits | f_mix | g_obs/g_bar | Effective g_+ |
 | --- | --- | --- | --- | --- | --- |
-| Milky Way (2$R_d$) | 8 | 130 | 1.00 | 6.4 | 2.7×10⁻⁹ m/s² |
-| Dwarf (2$R_d$) | 2 | 39 | 0.98 | 40 | 3.3×10⁻¹⁰ m/s² |
-| Cluster (2$R_d$) | 60 | 73 | 1.00 | 33 | 2.4×10⁻⁸ m/s² |
+| Milky Way (2$`R_d`$) | 8 | 130 | 1.00 | 6.4 | 2.7×10⁻⁹ m/s² |
+| Dwarf (2$`R_d`$) | 2 | 39 | 0.98 | 40 | 3.3×10⁻¹⁰ m/s² |
+| Cluster (2$`R_d`$) | 60 | 73 | 1.00 | 33 | 2.4×10⁻⁸ m/s² |
 
 *Honest assessment of the full dynamical-mixing model:*
 - The mixing-fraction formalism is correct: the cumulative return is *naturally* between fully clustered and fully uniform, with the mixing fraction depending on radius and halo mass.
@@ -1906,14 +1906,14 @@ with the four v2.4 modifications:
 
 | Parameter | v2.3.2 | v2.4 |
 |-----------|--------|------|
-| $f_{back}^{destruction}$ | Free, set to 1 | **DERIVED** as $J_{bulk} = 0$ BC |
-| $c$ | Free, any value | Discrete set, default $c=1$ |
+| $`f_{back}^{destruction}`$ | Free, set to 1 | **DERIVED** as $`J_{bulk} = 0`$ BC |
+| $`c`$ | Free, any value | Discrete set, default $`c=1`$ |
 | 5/27 split | Free / Fit | **TOPOLOGICAL INVARIANT** (specific value 27/5 not derived) |
-| $\alpha$ | Free | Free (requires 2D expert) |
-| $G_5$ | Free | Free (requires bulk geometry) |
-| $L_{2D}$ | Free | Free (requires 2D expert) |
-| $\tau_{2D}$ | Postulated | Postulated (Gaussian width) |
-| $f_{back}^{DE}$ | Postulated $10^{-85}$ | **STILL POSTULATED** (different from $f_{back}^{destruction}$) |
+| $`\alpha`$ | Free | Free (requires 2D expert) |
+| $`G_5`$ | Free | Free (requires bulk geometry) |
+| $`L_{2D}`$ | Free | Free (requires 2D expert) |
+| $`\tau_{2D}`$ | Postulated | Postulated (Gaussian width) |
+| $`f_{back}^{DE}`$ | Postulated $`10^{-85}`$ | **STILL POSTULATED** (different from $`f_{back}^{destruction}`$) |
 
 **Free parameters: 5+ → 2-3 active (counting only the destruction channel).** The remaining open parameters ($\alpha$, $G_5$, $L_{2D}$, $\tau_{2D}$, $f_{back}^{DE}$) are the **fundamental** parameters of the cascade\'s framework. The v2.4 refactor anchors the destruction channel as a boundary condition but does **not** derive the dark-energy staying fraction.
 
@@ -2099,15 +2099,15 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Quantity | Value | Units | Source |
 |----------|-------|-------|--------|
-| $M_b$ (current baryon mass) | $2.0 \times 10^8$ | $M_\odot$ | Mancera Piña+ 2024 |
-| $SFR_{peak}$ | 0.5 | $M_\odot/yr$ | Same |
-| $SFH$ window | [0.5, 2.0] | Gyr (lookback) | "A-type stars only" |
-| $M_{total formed}$ | $7.3 \times 10^8$ | $M_\odot$ | ∫ SFR dt = 0.5 × 1.5 Gyr |
-| $E_{total injected}$ | $1.1 \times 10^{51}$ | J | $N_{CCSN} \times E_{CCSN}$ |
-| $N_{CCSN, total}$ | $1.1 \times 10^6$ | events | 15% IMF + E_CCSN |
+| $`M_b`$ (current baryon mass) | $`2.0 \times 10^8`$ | $`M_\odot`$ | Mancera Piña+ 2024 |
+| $`SFR_{peak}`$ | 0.5 | $`M_\odot/yr`$ | Same |
+| $`SFH`$ window | [0.5, 2.0] | Gyr (lookback) | "A-type stars only" |
+| $`M_{total formed}`$ | $`7.3 \times 10^8`$ | $`M_\odot`$ | ∫ SFR dt = 0.5 × 1.5 Gyr |
+| $`E_{total injected}`$ | $`1.1 \times 10^{51}`$ | J | $`N_{CCSN} \times E_{CCSN}`$ |
+| $`N_{CCSN, total}`$ | $`1.1 \times 10^6`$ | events | 15% IMF + E_CCSN |
 | Recent event rate (50 Myr) | 0 | events/Myr | "no current SN progenitors" |
-| **Cascade $M_{dyn}/M_b$** | **1.36** | dimensionless | emulator output |
-| **Observed $M_{dyn}/M_b$** | $\sim$1–2 | dimensionless | Mancera Piña+ 2024 |
+| **Cascade $`M_{dyn}/M_b`$** | **1.36** | dimensionless | emulator output |
+| **Observed $`M_{dyn}/M_b`$** | $`\sim`$1–2 | dimensionless | Mancera Piña+ 2024 |
 
 **Result: AGC 114905 is DM-POOR, matching observation. PASS.**
 
@@ -2115,15 +2115,15 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Quantity | Value (old) | Value (revised) | Units | Source |
 |----------|-------------|-----------------|-------|--------|
-| $M_b$ (current baryon mass) | $1.0 \times 10^6$ | $3.0 \times 10^6$ | $M_\odot$ | Makarov+ 2012 |
-| $SFR_{peak}$ | 1.0 | $4 \times 10^{-4}$ | $M_\odot/yr$ | Same (revised) |
-| $SFH$ window | [1.0, 4.0] | [1.0, 4.0] | Gyr (lookback) | "intermediate-age SF" |
-| $M_{total formed}$ | $3.0 \times 10^9$ | $1.2 \times 10^6$ | $M_\odot$ | ∫ SFR dt (revised) |
-| $E_{total injected}$ | $4.5 \times 10^{51}$ | $1.8 \times 10^{49}$ | J | 0.15% IMF + E_CCSN |
-| $N_{CCSN, total}$ | $4.5 \times 10^6$ | $1.8 \times 10^3$ | events | (revised) |
+| $`M_b`$ (current baryon mass) | $`1.0 \times 10^6`$ | $`3.0 \times 10^6`$ | $`M_\odot`$ | Makarov+ 2012 |
+| $`SFR_{peak}`$ | 1.0 | $`4 \times 10^{-4}`$ | $`M_\odot/yr`$ | Same (revised) |
+| $`SFH`$ window | [1.0, 4.0] | [1.0, 4.0] | Gyr (lookback) | "intermediate-age SF" |
+| $`M_{total formed}`$ | $`3.0 \times 10^9`$ | $`1.2 \times 10^6`$ | $`M_\odot`$ | ∫ SFR dt (revised) |
+| $`E_{total injected}`$ | $`4.5 \times 10^{51}`$ | $`1.8 \times 10^{49}`$ | J | 0.15% IMF + E_CCSN |
+| $`N_{CCSN, total}`$ | $`4.5 \times 10^6`$ | $`1.8 \times 10^3`$ | events | (revised) |
 | Recent event rate (50 Myr) | 0 | 0 | events/Myr | "no current SN progenitors" |
-| **Cascade $M_{dyn}/M_b$** | **299.19** | **1-4** | dimensionless | emulator output (revised) |
-| **Observed $M_{dyn}/M_b$** | $\sim$100–1000 | $\sim$1-4 | dimensionless | dSph typical (revised) |
+| **Cascade $`M_{dyn}/M_b`$** | **299.19** | **1-4** | dimensionless | emulator output (revised) |
+| **Observed $`M_{dyn}/M_b`$** | $`\sim`$100–1000 | $`\sim`$1-4 | dimensionless | dSph typical (revised) |
 
 **Result: KKR 25 has M_dyn/M_b ~ 1-4 (REVISED v2.7.33+), consistent with dSph observations of typical values. PASS (revised).**
 
@@ -2131,9 +2131,9 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Metric | AGC 114905 | KKR 25 (old) | KKR 25 (revised) | Ratio (old) | Ratio (revised) |
 |--------|-----------|---------------|-------------------|-------------|------------------|
-| $M_{total formed} / M_b$ (energy ledger) | 3.65 | 3000 | 0.4 | **820×** | **0.11×** (reverses) |
-| Predicted $M_{dyn}/M_b$ (cascade emulator) | 1.36 | 299.19 | 1-4 | **219×** | **0.7-3×** |
-| Energy injection $E_{total}$ (J) | $1.1 \times 10^{51}$ | $4.5 \times 10^{51}$ | $1.8 \times 10^{49}$ | 4.1× | 0.016× |
+| $`M_{total formed} / M_b`$ (energy ledger) | 3.65 | 3000 | 0.4 | **820×** | **0.11×** (reverses) |
+| Predicted $`M_{dyn}/M_b`$ (cascade emulator) | 1.36 | 299.19 | 1-4 | **219×** | **0.7-3×** |
+| Energy injection $`E_{total}`$ (J) | $`1.1 \times 10^{51}`$ | $`4.5 \times 10^{51}`$ | $`1.8 \times 10^{49}`$ | 4.1× | 0.016× |
 
 **Honest finding (v2.7.33+):** The cascade's 820× → 219× bifurcation was based on a 1000× error in KKR 25's M_b. The corrected bifurcation is much smaller (0.7-3×) and may even REVERSE for some metrics (M_total_formed/M_b = 0.11×). The cascade's qualitative interpretation (intermediate SF → DM) is preserved; the quantitative prediction is much weaker. See §3.27 for the full self-correction.
 
