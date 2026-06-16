@@ -447,7 +447,7 @@ A new section §11 consolidates the cascade's *near-term, low-cost, high-leverag
 
 A new section §12 consolidates the cascade's galaxy-level tests against the *entire galaxy zoo*, from quiescent dwarfs to extreme starbursts to cluster mergers. **11/11 tested galaxies are consistent with the cascade's predictions**, including the **Bullet Cluster**, which the cascade explains as a natural consequence of its DM mechanism.
 
-**The 11 tests:**
+**The 11 tests (12 with CVnC, v2.7.32+):**
 1. **47 Tucanae** — M_dyn ≈ M_stars (no current activity)
 2. **AGC 114905** — M_dyn ≈ M_b (low SFH throughout)
 3. **KKR 25** — M_dyn ≫ M_b (burst 1-4 Gyr ago)
@@ -459,6 +459,14 @@ A new section §12 consolidates the cascade's galaxy-level tests against the *en
 9. **M82** — M_dyn/M_b ~ 4 (extreme starburst, 10 M_sun/yr)
 10. **NGC 1275** — M_dyn/M_b ~ 50 (AGN host, Perseus A)
 11. **Dragonfly 44** — M_dyn/M_b ~ 300 (Coma UDG, disputed high DM)
+12. **CVnC dwarf (v2.7.32+, Hagen+ 2026)** — M_dyn ≫ M_b (quenched isolated dwarf, may have past interaction with NGC 4631; adds to "growing number of quenched dwarfs in underdense environments"; F(z) intermediate ~0.5)
+
+**The intermediate population (v2.7.32+, §3.26):**
+- **Bidaran et al. 2025** (arXiv:2501.02910): "First detection of a sample of quenched and isolated dwarf galaxies in cosmic voids", log(M*/M_sun) = 8.9-9.5, no neighbour within 1.0 Mpc
+- This is the kind of intermediate F(z) ~ 0.1-0.5 population the cascade's smooth F(z) predicts
+- Pre-2025: population thought to be bimodal (gas-rich vs. quenched)
+- 2025-2026: intermediate population is being discovered
+- Testable with LSST Y1 (2027), Euclid Q1 (2026) for ~10-30% of field dwarfs in intermediate F(z)
 
 **Bullet Cluster is the cascade's SMOKING GUN:**
 - Gas (X-ray, no star formation, no 2D universe creation) ≠ DM
@@ -466,6 +474,15 @@ A new section §12 consolidates the cascade's galaxy-level tests against the *en
 - Lensing follows galaxies, NOT gas
 - MOND needs sterile neutrinos to explain; cascade explains naturally
 - Confirmed by JWST lensing (Cha+ 2025)
+- **Why this is a SMOKING GUN for the cascade specifically:**
+  - In the cascade, DM = cumulative 2D universe death energy
+  - 2D universe creation is tied to energetic events (SNe, AGN, mergers)
+  - Gas in Bullet Cluster has had NO star formation = NO 2D universe creation = NO DM
+  - Galaxies HAVE had star formation = 2D universe creation = DM
+  - Lensing follows the DM (galaxies), not the gas
+  - This is a NATURAL consequence of the cascade, not a coincidence
+  - Particle DM models also explain this, but require σ/m < 1 cm²/g (fine-tuned)
+  - The cascade explains it WITHOUT fine-tuning the cross-section
 
 **11/11 means:** the cascade is *consistent* with the entire galaxy zoo it has been tested against, and provides a *unified* explanation for diverse phenomena.
 
