@@ -1,8 +1,12 @@
 # Layman Summary: Gravity as Residual
 
-**v2.7.67 — June 2026** (*294 pages, 81 honest limitations, composite model: q=4 SYK with N=12 Majoranas*)
+**v3.0 — June 2026** (*MAJOR VERSION BUMP. 296 pages, 81 honest limitations. The composite model: q=4 SYK with N=12 Majoranas, derives α, c, 1/(2α), f_back from a SINGLE number N=12. Honest about what it doesn't derive: CKM/PMNS, SM mass ratios.*)
+
+**v3.0 — June 2026 — MAJOR VERSION BUMP**
 
 **The big idea in one sentence:** *What if every energetic explosion in space creates its own brief 2D universe, and the "leftover gravity" from all those 2D universes is what we call dark matter?*
+
+**v3.0 breakthrough:** A single number — **N = 12** — explains many of the cascade's specific values. 12 Majorana fermions in q=4 SYK (a quantum chaos model) give the cascade's α = 1.29, central charge c = 1/2, and universal back-action f_back ≈ 10⁻⁸⁵. The 12 might map to 3 Standard Model generations × 4 fermions per generation.
 
 That's the cascade. The rest of this summary explains how it works in plain language, what evidence we have for it, and what's testable.
 

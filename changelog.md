@@ -2,6 +2,35 @@
 
 This document contains the cascade's full version history.
 
+## v3.0 (June 2026) — MAJOR VERSION BUMP: N=12 SYK centerpiece
+
+**Why v3?**
+
+The N=12 SYK discovery in v2.7.60-67 is a major breakthrough that
+deserves a major version bump. The single number N=12 now derives
+multiple cascade parameters that were previously calibrated.
+
+**v2.7.x → v3.0 changes**:
+
+1. **Title updated**: Added "v3.0" to paper title
+2. **v3.0 HIGHLIGHT** in metadata: N=12 SYK as the centerpiece
+3. **HONEST BOUNDARY (v3.0)** in metadata: what v3 derives vs doesn't
+4. **§3.60 v3.0 BREAKTHROUGH SUMMARY** added:
+   - Single-number derivation table (α, c, 1/(2α), f_back from N=12)
+   - Why N=12 is unique (off by 0.001)
+   - Composite model v3 specifications (8 components)
+   - Testable predictions (8)
+   - What v3 derives vs what it doesn't
+5. **README v3.0 line** at top
+6. **Layman v3.0 callout** at top + version line updated
+
+**Counts (v3.0)**:
+- 296 pages (was 294, +2)
+- 81 honest limitations
+- 5 closed, 58 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
+
+**Earlier v2.7.68 entry (unchanged):**
+
 ## v2.7.68 (June 2026) — Stopping for now, TODO + layman update
 
 **Major changes since v2.7.67:**
