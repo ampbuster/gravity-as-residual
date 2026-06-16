@@ -1,0 +1,28 @@
+{
+  "description": "REVISED F_p(z) analysis with correct formula and f_back removed",
+  "user_corrections": [
+    "F_p(z) = 0.7 + 0.3 * z\u00b2/(z\u00b2 + z_half\u00b2), not z\u00b2/(z\u00b2 + z_half\u00b2). F_p(0) = 0.7, not 0.",
+    "v2.7.11 deaths-only DM: f_back removed, all 2D universe death energy comes back as DM"
+  ],
+  "method": "With f_back=1, DM per SN = E_SN/c\u00b2. Cumulative DM = N_SN \u00d7 E_SN/c\u00b2.",
+  "cascade_F_p_formula": "F_p(z) = 0.7 + 0.3 \u00d7 z^n/(z^n + z_half^n), n=2, z_half=3",
+  "cumulative_dm_per_SN_M_sun": 0.000559,
+  "cumulative_dm_MW_M_sun": 280000.0,
+  "expected_dm_from_Fs_0.3_M_sun": 300000000000.0,
+  "inconsistency_factor": 1070000.0,
+  "revised_F_p_required": {
+    "F_p_0_required": 0.9999997203,
+    "F_s_0_required": 2.8e-07,
+    "interpretation": "Cascade F_p(z) should be ~1.0 at z=0 (almost all DM is primordial), not 0.7 (with 30% cumulative). The 30% cumulative cannot be supported by SN deaths alone."
+  },
+  "revised_L50": {
+    "old_L50_v2.7.49": "F_p(0) = 0 makes cascade predict \u03a9_DM(z=0) \u2248 0 (WRONG FORMULA)",
+    "revised_L50_v2.7.50": "Cascade F_p(0) = 0.7 (70% primordial) implies F_s(0) = 0.3 (30% cumulative). But SN deaths can only produce 2.8e5 M_\u2609 cumulative, not 3e11 M_\u2609 required. Off by 10^6. Either F_p(0) should be ~1.0 (almost all primordial), or the cumulative mechanism needs revision."
+  },
+  "implications": {
+    "option_1": "F_p(0) \u2192 1.0: Almost all DM is primordial (from 4D event). Cumulative component is negligible. This is consistent with SN death calculations.",
+    "option_2": "Cumulative mechanism is more efficient than f_back \u00d7 E_SN: e.g., AGN, BNS, GRB deaths are much more efficient DM producers than SN. Need to re-derive cumulative DM with all event types.",
+    "option_3": "Primordial component is not just from 4D event: there are also early-universe 2D universe deaths (e.g., from inflation-era events) that contribute to primordial DM. This could lower the F_s required."
+  },
+  "honest_finding": "The user identified a real issue with v2.7.49 (wrong F_p formula). The corrected F_p(z) = 0.7 + 0.3\u00d7z\u00b2/(z\u00b2+9) does have F_p(0) = 0.7, so v2.7.49 was over-stating the issue. But the F_s(0) = 0.3 component is still inconsistent with SN death calculations by a factor of 10^6. The cascade should revise F_p(0) to be closer to 1.0, or account for the cumulative component with additional event types."
+}

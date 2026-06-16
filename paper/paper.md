@@ -4039,85 +4039,96 @@ and the testable F_p(z) DM evolution.
 
 ---
 
-### 3.38 User-identified F_p(z) inconsistency (v2.7.49, CRITICAL)
+### 3.38 F_p(z) analysis — corrected (v2.7.50)
 
-**Discovery**: A simple observational question ("has DE changed since
-the beginning of the universe?") revealed a **real inconsistency** in
-the cascade's F_p(z) model.
+**Background (v2.7.49)**: User asked "has DE changed since the
+beginning of the universe?" This led to a deeper analysis of the
+cascade's F_p(z) model, which appeared to have a major inconsistency.
+v2.7.49 reported an inconsistency of ~10^90.
 
-**The cascade's F_p(z) model (v2.7.5+)**:
-- F_p(z) = z^n / (z^n + z_half^n), n=2, z_half=3
-- F_s(z) = 1 - F_p(z)
-- r(z) = (1+z)^3 × F_p(z) + F_s(z) [ratio of DM density at z to today]
-- "Primordial" component: F_p × DM_primordial_density
-- "Recent" component: F_s × f_back × SN_death_energy
+**User corrections (v2.7.50)**: Two important corrections:
+1. The cascade's actual F_p(z) formula is
+   **F_p(z) = 0.7 + 0.3 × z^n / (z_half^n + z^n)** (with n=2, z_half=3),
+   NOT F_p(z) = z^n / (z_half^n + z^n). So **F_p(0) = 0.7, not 0**.
+   (70% of DM is primordial even at z=0.)
+2. v2.7.11 adopted "deaths-only DM" — **f_back has been removed**.
+   All 2D universe death energy comes back as DM (no f_back loss factor).
 
-**The inconsistency**:
+**Recomputed analysis (v2.7.50)**:
 
-At z=0:
-- F_p(0) = 0 (primordial fraction is ZERO)
-- F_s(0) = 1 (all DM is "recent")
-- But "recent" DM = f_back × cumulative SN deaths = 10^-85 × 10^59 J / c^2
-- = 10^-86 × M_☉ for the entire Milky Way (5e8 SN over 10 Gyr)
-- Compared to observed M_DM ~ 10^12 M_☉
-- **Cascade predicts Ω_DM(z=0) ≈ 10^-90, observation gives 0.265**
-- **INCONSISTENCY: cascade is off by ~10^90!**
+The cascade's F_p(z) function values:
+- F_p(0) = 0.70 (70% primordial at z=0)
+- F_p(0.5) = 0.71
+- F_p(1) = 0.73
+- F_p(2) = 0.79
+- F_p(3) = 0.85 (transition redshift)
+- F_p(5) = 0.92
+- F_p(10) = 0.975
+- F_p(1100) = 1.0 (100% primordial at CMB)
 
-**The user's observational question**:
+Cumulative DM from SN deaths (no f_back, all energy comes back):
+- DM per SN = E_SN / c² = 5.6×10^-4 M_☉
+- For MW (5×10^8 SN over 10 Gyr): M_DM_cumulative = 2.8×10^5 M_☉
+- For observable universe (1.75×10^18 SN): M_DM_cumulative = 9.8×10^14 M_☉
+- F_s(0) = 0.3 implies 30% of DM should be cumulative
+- Expected cumulative (MW): 0.3 × 10^12 = 3×10^11 M_☉
+- Expected cumulative (universe): 0.3 × 1.26×10^22 = 3.78×10^21 M_☉
 
-"Since the beginning of the universe, has there been any change in DE?"
+**Inconsistency at BOTH scales**:
+- MW: 3×10^11 expected vs 2.8×10^5 calculated → off by 10^6
+- Universe: 3.78×10^21 expected vs 9.8×10^14 calculated → off by 10^6
 
-The honest answer is yes:
-- DE density (J/m³) appears approximately constant (consistent with ΛCDM w=-1)
-- Ω_DE grew from ~0 at z=1100 to 0.685 at z=0 (because total energy diluted)
-- DM/matter density (J/m³) was MUCH higher at z>3 (∝ (1+z)³)
-- Ω_DM is roughly constant at 0.265 across all z (Planck 2018)
+For consistency, F_s(0) should be ~10^-7 and F_p(0) should be ~1.0.
+
+**The actual inconsistency (CORRECTED v2.7.50)**:
+
+The cascade's F_p(0) = 0.7 (70% primordial) is INCONSISTENT with
+SN death calculations by a factor of 10^6. The cascade's claim that
+30% of DM is from cumulative SN deaths is wrong — SN deaths can
+only produce 0.00003% of observed DM.
 
 **Three possible fixes**:
 
-1. **F_p(z=0) = ε floor (constant primordial component)**:
-   - F_p(z) = ε + (1-ε) × z^n / (z^n + z_half^n)
-   - Most DM at z=0 is primordial (ε ~ 0.5-0.9)
-   - **Ad hoc, not derived from first principles**
+1. **F_p(0) → 1.0 (essentially all DM is primordial)**:
+   - Almost all DM is from the 4D event / early-universe 2D universe deaths
+   - Cumulative component is negligible
+   - **This is the cleanest fix** — makes F_p(0) ~ 1.0 instead of 0.7
+   - But the cascade's §4.48 was calibrated to F_p(0) = 0.7
 
-2. **Recent DM is much larger than f_back × SN deaths**:
-   - f_back ~ 10^-85 might be wrong
-   - Or there's a different mechanism for "recent" DM
-   - **But f_back is well-calibrated from SN 33s lifetime (L9)**
+2. **Cumulative DM from other event types** (AGN, BNS, GRB):
+   - These have E_event ~ 10^47-10^50 J, much larger than SN
+   - Per event, DM ~ 5.6×10^-4 to 5.6×10^-1 M_☉
+   - But their event rates are much lower (1 per galaxy per Myr)
+   - Total contribution still small compared to 30% of DM
 
-3. **Add a third (constant) DM component**:
-   - DM = F_p × DM_primordial + F_s × DM_recent + DM_constant
-   - DM_constant ~ 0.265 (today, constant in absolute terms)
-   - **Hidden parameter, not derived**
+3. **Primordial component is more than just 4D event**:
+   - Inflation-era 2D universe deaths could contribute
+   - Other early-universe events could contribute
+   - This would lower F_s required at z=0
 
-**The honest finding**:
-
-The cascade F_p(z) model has an internal inconsistency. The model
-needs revision. The user identified this by asking a simple
-observational question.
-
-**Limitations added**:
-- **L50**: F_p(z) model predicts Ω_DM(z=0) ≈ 10^-90, but observation
-  gives 0.265. The model needs a constant primordial component (ε floor
-  or DM_constant), but this is currently an ad hoc addition, not derived
-  from first principles. This was identified by user observation
-  question in v2.7.49.
+**Limitations updated**:
+- **L50 (REVISED v2.7.50)**: F_p(0) = 0.7 (70% primordial) implies
+  F_s(0) = 0.3 (30% cumulative). But SN deaths can only produce
+  ~10^-7 of observed DM, not 30%. Off by factor of 10^6. The cascade
+  should either: (a) revise F_p(0) to ~1.0, or (b) identify a more
+  efficient cumulative DM mechanism, or (c) include additional
+  primordial components (e.g., inflation-era 2D universe deaths).
 
 **Implications for the cascade**:
 
 This is a **REAL problem** that the cascade should acknowledge
-honestly. The F_p(z) model was introduced in v2.7.5 to match Planck
-2018's Ω_DM = 0.265 at z=1100. But the same model fails at z=0.
+honestly. The F_p(0) = 0.7 calibration in §4.48 was an *ad hoc* choice
+to match UV LF data, but it's INCONSISTENT with the SN death
+calculation.
 
-The fix requires:
-1. A new parameter (F_p(0) floor or DM_constant)
-2. A physical interpretation (what is this constant component?)
-3. A first-principles derivation (currently missing)
+The fix: revise F_p(0) to be closer to 1.0, OR identify what
+mechanism produces the 30% cumulative component (the 0.3 × 0.265 =
+0.08 in Ω units is not from SN deaths alone).
 
-This is now a TOP PRIORITY for the cascade. Until L50 is resolved,
+**This is a TOP PRIORITY** for the cascade. Until L50 is resolved,
 the cascade's F_p(z) model is internally inconsistent.
 
-See `calculations/v27_fp_z_problem.py` for the full analysis.
+See `calculations/v27_fp_z_v2.py` for the corrected analysis.
 
 
 ---

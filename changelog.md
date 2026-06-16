@@ -2,6 +2,44 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.50 (June 2026) — CORRECTED F_p(z) analysis with user feedback
+
+**Major changes since v2.7.49:**
+
+1. **User corrections to v2.7.49 analysis**:
+   - (1) The cascade's actual F_p(z) is F_p(z) = 0.7 + 0.3×z²/(z²+9)
+     NOT F_p(z) = z²/(z²+9). So F_p(0) = 0.7, NOT 0.
+   - (2) f_back was removed in v2.7.11 (deaths-only DM). All 2D
+     universe death energy comes back as DM.
+
+2. **v2.7.49 inconsistency was over-stated**:
+   - v2.7.49 said: cascade predicts Ω_DM(z=0) ≈ 0 (off by 10^90)
+   - Actually: F_p(0) = 0.7 means 70% primordial, 30% cumulative
+   - With correct F_p formula, the 10^90 inconsistency goes away
+
+3. **REVISED L50 (v2.7.50)**:
+   - F_p(0) = 0.7 implies F_s(0) = 0.3 (30% cumulative)
+   - SN deaths (no f_back) give M_DM_cumulative = 2.8×10^5 M_☉ (MW)
+   - F_s(0) × M_DM_total = 3×10^11 M_☉ expected
+   - **Inconsistency: off by 10^6, not 10^90**
+   - Same conclusion at cosmological scale: off by 10^6
+
+4. **For consistency**:
+   - F_p(0) should be ~1.0 (almost all DM is primordial)
+   - F_s(0) should be ~10^-7 (negligible cumulative)
+   - OR identify a more efficient cumulative DM mechanism
+   - OR include additional primordial components (e.g., inflation-era)
+
+5. **§3.38 REVISED** with corrected analysis
+
+6. **Net: 0 new pages, 1 corrected analysis, 1 revised L**
+   - Total paper: 269 pages (no change)
+   - 51 honest limitations (L50 revised)
+   - 1 free parameter (z_half only) — but F_p(0) is now hidden too
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.49 entry (unchanged):**
+
 ## v2.7.49 (June 2026) — CRITICAL: User-identified F_p(z) inconsistency
 
 **Major changes since v2.7.48:**
