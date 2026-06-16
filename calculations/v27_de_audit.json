@@ -1,0 +1,72 @@
+{
+  "description": "4D/DE/gravity cancellation audit (v2.7.55)",
+  "method": "Audit the OTHER half of the cascade (4D event, DE, gravity cancellation) with similar rigor to the 2D universe audit (v2.7.49-54).",
+  "4D_event": {
+    "claim": "4D event created our 3+1D universe",
+    "E_4D": "UNSPECIFIED (L34)",
+    "spatial_extent": "~Planck scale or larger (L51, partially addressed)",
+    "duration_tau_4D_yr": "~10^28 (from Padmanabhan equipartition)",
+    "dimensionality": "4D (1 time + 3 space)",
+    "calibration_status": "Mostly UNSPECIFIED, some derived (\u03c4_4D)"
+  },
+  "DE": {
+    "claim": "4D \u2192 3+1D dimensional inversion is repulsive",
+    "w_z": "w = -1 (constant, see \u00a73.34)",
+    "rho_DE": "constant (does not dilute)",
+    "DESI_DR1_hints": "w_0 = -0.45, w_a = -1.79 (would rule out cascade)",
+    "calibration_status": "w = -1 matches \u039bCDM (no differentiator)",
+    "indistinguishable_from_LCDM": true
+  },
+  "gravity_cancellation": {
+    "claim": "\u03b5 ~ 10^-38 bulk-brane coupling",
+    "value": 1e-38,
+    "gravity_hierarchy": "1/\u03b5 = 10^38",
+    "calibration_status": "CALIBRATED from gravity observation, not derived (L26)"
+  },
+  "vacuum_energy_problem": {
+    "QFT_prediction": "\u03c1_vacuum ~ M_Pl^4 ~ 10^76 GeV^4",
+    "observed": "\u03c1_DE ~ 10^-47 GeV^4",
+    "discrepancy": "10^120",
+    "cascade_approach": "Reframes the problem; DE is un-cancelled antigravity residue",
+    "f_back_removed": true,
+    "unspecified_factor_10_-85": "The cascade needs SOME factor of 10^-85 to match DE. Was f_back, now UNSPECIFIED (L52 REVISED)."
+  },
+  "connections": {
+    "4D_event": "E_4D \u2192 3+1D universe (energy source)",
+    "4D_to_3plus1D_projection": "produces gravity (\u03b5) + DE (w=-1)",
+    "3plus1D_universe": "5% baryons, 27% DM (F_p + F_s), 68% DE",
+    "3plus1D_to_2D_projection": "produces 2D universes (cumulative DM)",
+    "2D_universe_deaths": "return energy as DM"
+  },
+  "calibrated_postulates": {
+    "4D_side": {
+      "epsilon": "10^-38 (calibrated from gravity)",
+      "4D_event_properties": "UNSPECIFIED",
+      "w_DE": "-1 (assumed)",
+      "suppression_factor_10_-85": "UNSPECIFIED (L52 REVISED)"
+    },
+    "2D_side": {
+      "F_p_0": 0.9993,
+      "A_event": 1,
+      "z_half": 3.0
+    }
+  },
+  "derived_parameters": {
+    "alpha_1.29": "from democratic cosmology (v2.7.24)",
+    "F_p_0_0.9993": "from cumulative DM analysis (v2.7.52)",
+    "tau_4D_10^28_yr": "from Padmanabhan equipartition (\u00a73.8.2)"
+  },
+  "honest_assessment": {
+    "DE_indistinguishable_from_LCDM": true,
+    "gravity_cancellation_calibrated_not_derived": true,
+    "4D_event_properties_unspecified": true,
+    "10_-85_suppression_unspecified": true,
+    "overall": "Cascade is a useful qualitative framework, but specific quantitative predictions are either indistinguishable from \u039bCDM (DE), calibrated from observation (\u03b5, F_p, z_half), or UNSPECIFIED (4D event, 10^-85 factor)."
+  },
+  "new_limitation_L52_REVISED": "The 10^-85 suppression factor is back in disguise. The cascade needs SOME factor of 10^-85 to match DE. Was f_back (v2.7.11 removed), now UNSPECIFIED.",
+  "recommendations": [
+    "Re-introduce f_back or equivalent parameter to suppress DE",
+    "Accept DE has different origin (4D \u2192 3+1D inversion, separate from \u03b5)",
+    "Derive the 10^-85 factor from first principles"
+  ]
+}

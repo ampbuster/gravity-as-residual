@@ -4563,6 +4563,162 @@ This is a healthy trend toward fewer calibrated parameters, but
 
 See `calculations/v27_calibrated_check.py` for the full audit.
 
+---
+
+### 3.45 4D/DE/gravity cancellation audit (v2.7.55, the OTHER half)
+
+The cascade has TWO halves:
+1. **DM side**: 2D universe creation/death → DM (audited v2.7.49-54)
+2. **DE side**: 4D event → 3+1D universe → DE + gravity cancellation (audit now)
+
+This section audits the DE side with similar rigor to the DM side.
+
+**3.45.1 The 4D event.**
+
+Cascade claim: A specific 4D event created our 3+1D universe.
+- 4D event has finite spatial extent in 4D
+- Projection of 4D spatial extent → 3+1D temporal extent (our universe lifetime)
+- 4D event is "ongoing" but localized
+- Our universe is a "brief slice" of the 4D event's full duration
+
+Properties:
+- E_4D: UNSPECIFIED (L34) — not derived, not calibrated
+- Spatial extent: ~Planck scale or larger (L51, partially addressed v2.7.53)
+- Duration: τ_4D ~ 10^28 yr (from Padmanabhan equipartition, §3.8.2)
+- Dimensionality: 4D (1 time + 3 space)
+
+**3.45.2 DE from 4D → 3+1D inversion.**
+
+Cascade claim: 4D gravity projected to 3+1D inverts to repulsive = DE.
+
+Properties:
+- w(z) = -1 (constant) — see §3.34
+- ρ_DE = constant (does not dilute with expansion)
+- Source: 4D → 3+1D dimensional inversion
+
+Calibration status: w = -1 matches ΛCDM by construction.
+DESI DR1 (2024) hints at evolving DE (w_0 = -0.45, w_a = -1.79). If
+DESI DR3 confirms, cascade is RULED OUT on DE.
+
+**Cascade's DE is INDISTINGUISHABLE from ΛCDM on this point.**
+The cascade's differentiator is the DM mechanism (F_p(0) = 0.9993),
+not DE.
+
+**3.45.3 Gravity cancellation (ε ~ 10^-38).**
+
+Cascade claim: 4D event's gravity projected to 3+1D is suppressed by ε.
+
+Properties:
+- ε ~ 10^-38 (calibrated from gravity hierarchy)
+- 1/ε ~ 10^38 (gravity hierarchy)
+- ε is the bulk-brane coupling
+
+**Calibration status: ε is CALIBRATED from observed gravity
+strength in 3+1D. Not derived from first principles (L26).**
+
+The cascade says ε ~ 10^-38 because gravity is 10^-38 of native
+strength. But WHY ε is 10^-38 is NOT explained.
+
+**3.45.4 The 10^120 vacuum energy problem.**
+
+Standard physics: QFT predicts ρ_vacuum ~ M_Pl^4 ~ 10^76 GeV^4
+Observed: ρ_DE ~ 10^-47 GeV^4
+Discrepancy: 10^120 (the "worst prediction in physics")
+
+Cascade's approach: reframes the problem.
+- "3+1D QFT vacuum energy is the wrong quantity to compare"
+- "Cascade's DE is the un-cancelled antigravity residue"
+- "Modulated by ε and (formerly) f_back"
+
+After f_back removal (v2.7.11 + v2.7.54):
+- DE_cascade = ε × (other factor) × M_Pl^4
+- ε = 10^-38 (calibrated)
+- DE_observed = 10^-123 M_Pl^4
+- Required: ε × (other) = 10^-123 → (other) = 10^-85
+
+**PROBLEM (L52 REVISED v2.7.55)**: The 10^-85 factor is back in
+disguise! The cascade needs SOME factor of 10^-85 to match DE.
+This factor was f_back, but f_back is removed. Now the cascade's
+DE formula has an UNSPECIFIED factor of 10^-85.
+
+Current cascade answer (v2.7.6+): DE = 4D → 3+1D dimensional
+inversion (constant, w = -1), SEPARATE from ε × f_back × M_Pl^4.
+
+**3.45.5 Connections between 4D/DE/gravity/DM.**
+
+Cascade framework:
+- 4D event: creates 3+1D universe (E_4D)
+- 4D → 3+1D projection: produces gravity (ε) + DE (w=-1)
+- 3+1D universe: 5% baryons, 27% DM (F_p + F_s), 68% DE
+- 3+1D → 2D projection: produces 2D universes (cumulative DM)
+- 2D universe deaths: return energy as DM
+
+Energy budget:
+- 4D event: E_4D (UNSPECIFIED)
+- 3+1D universe: M_universe c^2 = Ω_b × ρ_crit × V + DM + DE
+- DE: 4D event antigravity residue (constant)
+- DM: 2D universe deaths (F_p × primordial + F_s × cumulative)
+
+**3.45.6 Calibrated postulates on the 4D/DE side:**
+
+| Parameter | Value | Status |
+|-----------|-------|--------|
+| ε | 10^-38 | CALIBRATED from gravity hierarchy |
+| 4D event E_4D | UNSPECIFIED | L34 |
+| 4D event spatial extent | UNSPECIFIED | L51 partial |
+| τ_4D | 10^28 yr | DERIVED from Padmanabhan equipartition |
+| w_DE | -1 | ASSUMED (matches ΛCDM) |
+| 10^-85 suppression factor | UNSPECIFIED | L52 REVISED v2.7.55 |
+
+**3.45.7 Calibrated postulates on the 2D/DM side (from v2.7.54):**
+
+| Parameter | Value | Status |
+|-----------|-------|--------|
+| F_p(0) | 0.9993 | REVISED v2.7.52 |
+| A_event | 1 | REVISED v2.7.54 |
+| z_half | 3 | CALIBRATED |
+
+**Total calibrated postulates: ~6-7** (depending on counting):
+- 4D side: ε, E_4D, spatial extent, 10^-85 factor (4)
+- 2D side: F_p(0), A_event, z_half (3)
+
+**3.45.8 Honest assessment.**
+
+The cascade's DE side is LESS developed than the DM side:
+- DE is INDISTINGUISHABLE from ΛCDM (w = -1)
+- Gravity cancellation is calibrated, not derived
+- 4D event properties are largely UNSPECIFIED
+- 10^-85 suppression factor is back in disguise (L52)
+
+The cascade's DM side is MORE developed:
+- F_p(0) = 0.9993 is consistent with observation
+- A_event = 1 (simplest assumption)
+- 22 wide-range galaxies pass qualitative test
+- 4D event energy is consistent with 4D event at galaxy-cluster scale (L51)
+
+**L52 REVISED (v2.7.55)**: The 10^-85 suppression factor is back in
+disguise. The cascade needs SOME factor of 10^-85 to match DE.
+Was f_back (v2.7.11 removed), now UNSPECIFIED.
+
+**Recommendations for the cascade's DE side**:
+1. Re-introduce f_back or equivalent parameter (with clear meaning)
+2. Accept DE has different origin (4D → 3+1D inversion, separate from ε)
+3. Derive the 10^-85 factor from first principles
+4. Document the 10^-85 factor explicitly (not hidden)
+
+**Overall**: the cascade is a USEFUL QUALITATIVE FRAMEWORK but
+its specific quantitative predictions are either:
+(a) indistinguishable from ΛCDM (DE, w = -1)
+(b) calibrated from observation (ε, F_p(0), z_half)
+(c) UNSPECIFIED (4D event properties, 10^-85 factor)
+
+The cascade's STRONGEST evidence remains the qualitative pattern
+across the galaxy zoo (36/36 tests pass) and the testable F_p(z)
+DM evolution. The DE side is essentially "ΛCDM + a story about why."
+
+See `calculations/v27_de_audit.py` for the full audit.
+
+
 
 
 

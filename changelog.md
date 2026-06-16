@@ -2,6 +2,57 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.55 (June 2026) — 4D/DE/gravity cancellation audit
+
+**Major changes since v2.7.54:**
+
+1. **Audit of the OTHER half of the cascade**
+   - Previous audits (v2.7.49-54) focused on 2D universe creation (DM)
+   - v2.7.55 audits 4D event, DE, gravity cancellation
+   - Similar rigor: calibrated vs derived vs UNSPECIFIED
+
+2. **4D event properties (mostly UNSPECIFIED)**:
+   - E_4D: UNSPECIFIED (L34)
+   - Spatial extent: UNSPECIFIED (L51, partially addressed)
+   - Duration: τ_4D ~ 10^28 yr (derived from Padmanabhan)
+   - Dimensionality: 4D (1+3)
+
+3. **DE from 4D → 3+1D inversion (INDISTINGUISHABLE from ΛCDM)**:
+   - w(z) = -1 (constant)
+   - ρ_DE = constant
+   - DESI DR1 hints at evolving DE; if confirmed, cascade RULED OUT
+   - Cascade's differentiator is DM, not DE
+
+4. **Gravity cancellation (ε ~ 10^-38, CALIBRATED not derived)**:
+   - Bulk-brane coupling
+   - 1/ε = 10^38 (gravity hierarchy)
+   - L26: ε is calibrated from observation
+
+5. **10^120 vacuum energy problem (PARTIALLY reframed)**:
+   - Cascade says QFT vacuum energy is the "wrong quantity"
+   - DE is "un-cancelled antigravity residue"
+   - But the 10^-85 suppression factor is back in disguise (L52 REVISED)
+
+6. **L52 REVISED (v2.7.55)**:
+   - The 10^-85 factor was f_back (removed v2.7.11)
+   - Now it's back in disguise as "inversion strength"
+   - Cascade needs SOME 10^-85 factor to match DE observation
+   - This factor is currently UNSPECIFIED
+
+7. **Total calibrated postulates: 6-7**:
+   - 4D side: ε, E_4D, spatial extent, 10^-85 factor (4)
+   - 2D side: F_p(0), A_event, z_half (3)
+   - Plus 1 derived (α from democratic cosmology)
+
+8. **§3.45 added** with full audit
+
+9. **Net: +1 page, 1 L revised (L52), 1 new section**
+   - Total paper: 276 pages (was 275)
+   - 53 honest limitations (L52 REVISED)
+   - 4 closed, 32 open, 10 partial, 2 falsified, 4 reverted, 1 discarded
+
+**Earlier v2.7.54 entry (unchanged):**
+
 ## v2.7.54 (June 2026) — Calibrated postulates audit (user feedback)
 
 **Major changes since v2.7.53:**
