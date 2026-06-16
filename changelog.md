@@ -2,6 +2,37 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.23 (June 2026) — Audit cleanup: limitation count fix
+
+**Major changes since v2.7.22:**
+
+1. **Limitation count corrected: 40 → 37**
+   - Master table: 36 entries (L1-L29 + L11.5 + L30-L36 except L32)
+   - L9_ext DISCARDED in v2.7.20: +1
+   - Total: 36 + 1 = 37
+   - Was incorrectly stated as 40 in v2.7.21-22
+
+2. **§7.0 categorical summary table corrected:**
+   - 17 OPEN (was 18 — removed A_event, which is a parameter not a limitation)
+   - 10 PARTIAL (was 10) ✓
+   - 3 CLOSED (was 7 — corrected from master table)
+   - 2 FALSIFIED (was 2) ✓
+   - 4 REVERTED (was 2 — corrected from master table)
+   - 1 DISCARDED (was 1) ✓
+   - Total: 37
+
+3. **L9 double-counting fixed:**
+   - L9 was listed in BOTH "Dimensional structure" (4 OPEN) and "2D universe physics" (3 OPEN)
+   - L9 is actually "2D universe physics" — moved to correct category
+   - Dimensional structure: L1, L3, L4 = 3 OPEN (was 4)
+   - 2D universe physics: L9, L22, L23 = 3 OPEN (unchanged)
+
+4. **§7.0 title updated:** v2.4-v2.7.20 → v2.4-v2.7.23
+5. **§7.0 honest summary updated:** 7 CLOSED → 3 CLOSED
+6. **§0 'What changed' table updated:** v2.7.12-v2.7.20 → v2.7.12-v2.7.23
+
+**Earlier v2.7.22 entry (unchanged):**
+
 ## v2.7.22 (June 2026) — §3.16 Meta + §0/§7.0 updates
 
 **Major changes since v2.7.21:**
