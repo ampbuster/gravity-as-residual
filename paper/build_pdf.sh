@@ -10,6 +10,41 @@
 # the full documentation of what was tried, what failed, and why.
 #
 # ---------------------------------------------------------------------
+# 0. CRITICAL GOTCHAS (read these first!)
+# ---------------------------------------------------------------------
+#
+# This section is a TL;DR of the most damaging silent failures in this
+# build pipeline. Each one produces a broken PDF with NO LaTeX error
+# and NO warning. If you see weird PDF output, check this section first.
+#
+# GOTCHA #1: $...$ math with parens inside a table cell (section 4.4)
+#   SYMPTOM: column widths printed as text in the table
+#   EXAMPLE: | GeV DM (cascade's mass) | $E_{decay}/p_F \sim 10^{21}$ | FAILS |
+#   FIX: drop parens, use \[...\] or \(...\), or remove math from cell
+#   SECTION: 3 (full analysis) and 4.4 (workarounds)
+#
+# GOTCHA #2: `---` (horizontal rule) immediately after a table (section 4.2)
+#   SYMPTOM: all content after the `---` is wrapped in a 1-column narrow
+#            table (0.0556 of page width, ~0.4 inches), text wraps one
+#            character per line
+#   EXAMPLE:
+#     | col1 | col2 |        <- table ends here
+#     |------|------|
+#     | data | data |
+#     ---                    <- DON'T! Pandoc reads this as table continuation
+#     # Next Section         <- this gets wrapped in 1-column table
+#   FIX: remove the `---`, use blank line + blank line instead
+#   SECTION: 4.2 (full analysis)
+#
+# GOTCHA #3: raw LaTeX in markdown needs raw_tex option (section 1)
+#   SYMPTOM: \begin{align}... shows as literal text, not compiled
+#   FIX: raw_tex is already enabled in our pandoc options, just use it
+#
+# GOTCHA #4: First line "---" gets parsed as YAML (section 1)
+#   SYMPTOM: parse error on the first line
+#   FIX: -yaml_metadata_block is already in our options
+#
+# ---------------------------------------------------------------------
 # 1. THE PANDOC OPTIONS
 # ---------------------------------------------------------------------
 #
@@ -324,8 +359,22 @@
 #
 # IF TABLES ARE BROKEN (column widths printed as text):
 #   1. Check if any cells have parens or $...$ math
-#   2. Use option (a), (b), or (c) from section 4.3 above
+#   2. Use option (a), (b), or (c) from section 4.4 above
 #   3. Or simply remove the math from the cell and use prose
+#   (See section 3 above for the full \dimexpr bug analysis)
+#
+# IF CONTENT IS WRAPPED IN A 1-COLUMN NARROW TABLE (text one char/line):
+#   1. Check if there's a `---` (horizontal rule) immediately after a table
+#   2. The `---` is being interpreted by Pandoc as a table row separator
+#   3. ALL content after the `---` is being wrapped in a longtable with
+#      a single column of width 0.0556 of the page (~0.4 inches)
+#   4. FIX: Remove the `---` separator. Use a blank line instead.
+#   (See section 4.2 above for the full analysis)
+#   Diagnostic command:
+#     grep -n "^---$" paper/markdown/*.md
+#   Then look at what's directly above each `---`:
+#     sed -n 'N-3,N+3p' paper/markdown/FILENAME.md
+#   If line N-1 starts with `|`, that's the problem.
 #
 # IF THE BUILD IS SLOW (multi-minute xelatex):
 #   1. Check for runaway regex in post-processors
