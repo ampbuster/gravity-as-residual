@@ -3394,18 +3394,18 @@ time-compression ratios and see if any give the cascade's f_back ~ 10^-85.
 
 **Trials performed**:
 
-| Trial | Formula | Value | Off from 10^-85 |
-|-------|---------|-------|-----------------|
-| 1 | τ_3+1D / τ_4D | 10^-18 | 67 orders |
-| 2 | (t_Pl,4 / t_Pl,3)^α | (10^x)^1.29 | depends on x |
-| 3 | L_3+1D / L_4D | 10^-x | depends on x |
-| 4 | exp(-α × ΔD) | depends on α | depends |
-| 5 | (E_SN / E_Pl,3)^-1 | 10^-35 | 50 orders |
-| 6 | E_SN / E_4D | 10^-25 | 60 orders |
-| 7 | (τ_SN / τ_4D)^α | 10^-47 | 38 orders |
-| 8 | (t_Pl,3 / τ_4D) × (τ_SN / τ_universe) | 10^-95 | 10 orders (closest!) |
-| 9 | Combined geometry + time + energy | 10^-72 | 13 orders |
-| 10 | (E_4D / E_SN)^-α × other | 10^-50 | 35 orders |
+| Trial | Formula | Value | Off from $10^{-85}$ |
+|-------|---------|-------|---------------------|
+| 1 | $\tau_{3+1D} / \tau_{4D}$ | $10^{-18}$ | 67 orders |
+| 2 | $(t_{Pl,4} / t_{Pl,3})^\alpha$ | $(10^x)^{1.29}$ | depends on x |
+| 3 | $L_{3+1D} / L_{4D}$ | $10^{-x}$ | depends on x |
+| 4 | $\exp(-\alpha \times \Delta D)$ | depends on $\alpha$ | depends |
+| 5 | $(E_{SN} / E_{Pl,3})^{-1}$ | $10^{-35}$ | 50 orders |
+| 6 | $E_{SN} / E_{4D}$ | $10^{-25}$ | 60 orders |
+| 7 | $(\tau_{SN} / \tau_{4D})^\alpha$ | $10^{-47}$ | 38 orders |
+| 8 | $(t_{Pl,3} / \tau_{4D}) \times (\tau_{SN} / \tau_{universe})$ | $10^{-95}$ | 10 orders (closest!) |
+| 9 | Combined geometry + time + energy | $10^{-72}$ | 13 orders |
+| 10 | $(E_{4D} / E_{SN})^{-\alpha} \times$ other | $10^{-50}$ | 35 orders |
 
 **Closest result**: Trial 8 gave 10^-95 (off by 10 orders).
 - t_Pl,3 / τ_4D = 1.71 × 10^-79 (3+1D Planck time vs 4D event duration)

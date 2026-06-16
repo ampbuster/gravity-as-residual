@@ -19,6 +19,7 @@ pandoc "$SOURCE" -o /tmp/paper_body.tex -f markdown+grid_tables+pipe_tables+raw_
 
 # Post-process: wrap p{(\\columnwidth - X\\tabcolsep) * N} in \\dimexpr
 python3 /tmp/wrap_dimexpr.py
+python3 /workspace/github-repo/paper/use_linewidth.py
 
 # Post-process: fix \\$N--N\\$ → \\$N-N\\$
 python3 /tmp/fix_dashes.py
