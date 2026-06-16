@@ -4225,7 +4225,7 @@ which led to checking the cascade's math at z=0.
 
 **The cascade's overall state (v2.7.53)**:
 - 52 honest limitations
-- 5 closed, 34 open, 10 partial, 2 falsified, 4 reverted, 1 discarded
+- 4 closed, 34 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
 - 16/17 test categories
 - 7/7 specific cases
 - 36/36 galaxy tests pass
@@ -4926,6 +4926,109 @@ This is a significant step toward first-principles.
 
 See `calculations/v27_bulk_geometry_fback.py` and
 `calculations/v27_fback_one_over_2alpha.json` for details.
+
+---
+
+### 3.48 f_back formula is SN-specific (v2.7.59, user feedback)
+
+**User feedback (v2.7.59)**: "why only supernova?"
+
+The v2.7.58 formula was tested against multiple event types. The
+formula gives DIFFERENT f_back values for different events:
+
+| Event | f_back | Off from 10⁻⁸⁵ |
+|-------|--------|-----------------|
+| **SN (calibration)** | 8.6e-86 | **0.07 orders** ✓ |
+| LHC | 1.4e-130 | 44.86 orders |
+| Hypernova | 5.5e-84 | 1.74 orders |
+| Long GRB | 4.3e-83 | 2.64 orders |
+| BNS merger | 1.2e-77 | 8.06 orders |
+| AGN outburst | 7.2e-76 | 9.86 orders |
+
+**HONEST FINDING**: The formula is SN-SPECIFIC, not a general derivation.
+
+**Why the formula is SN-specific**:
+
+The formula has:
+- τ_event (2D universe lifetime, depends on event)
+- E_event (event energy, depends on event)
+
+These are related via the energy-scaling rule:
+τ_event = (E_event / E_Pl,3)^α × t_Pl,3
+
+For the formula to be EVENT-INDEPENDENT, we need:
+α - 1/(2α) = 0 → α² = 1/2 → α = 1/√2 ≈ 0.707
+
+But the cascade's α = 1.29 (calibrated from SN 33s lifetime).
+
+So with cascade's α = 1.29, the formula CANNOT be event-independent.
+The formula is FUNDAMENTALLY SN-specific.
+
+**L52 STATUS REVISED (v2.7.59)**: L52 "RESOLVED" in v2.7.58 was
+PREMATURE. The formula works for SN (by construction) but does
+not generalize to other event types.
+
+**L52 should be RE-OPENED as PARTIAL**:
+- L52: f_back has an empirical formula (SN-specific, 0.07 orders off)
+- L52 partial: formula does NOT generalize to other event types
+- L52 not fully closed: needs a different approach for general derivation
+
+**What the formula ACTUALLY shows**:
+1. With SN's specific (E_SN, τ_SN) values, you can GET 10⁻⁸⁵ using 1/(2α)
+2. The formula has the right "shape" for SN (matches within 0.07 orders)
+3. But it doesn't generalize to other event types
+
+**Implications for the cascade**:
+
+The v2.7.58 "breakthrough" was REAL for SN but not a general derivation.
+The cascade's f_back remains:
+- Calibrated from SN 33s lifetime (L9-related)
+- Has an SN-specific formula (this section)
+- Does NOT generalize to other events (this section)
+
+**Three possible interpretations**:
+1. **f_back is SN-specific by nature**: the cascade's DE model is
+   fundamentally tied to SN calibration, not a general property
+2. **f_back needs a different formula**: the cascade might need a
+   different approach to get an event-independent f_back
+3. **The cascade's framework is incomplete**: there may be additional
+   physics needed to make f_back event-independent
+
+**Honest framing (v2.7.59)**:
+
+The user has caught another real issue with the cascade. The f_back
+formula:
+- WORKS for SN (calibration point)
+- DOES NOT WORK for other events
+- IS fundamentally tied to SN's specific parameters
+
+This means the cascade's DE model is more SN-calibrated than we
+previously acknowledged. The "empirical formula" is really a
+"SN-specific formula."
+
+**L57 NEW (v2.7.59)**: f_back formula is SN-specific. Does not
+generalize to other event types. Either accept this, find a
+different formula, or revise the cascade's framework.
+
+**Updated calibrated postulates (v2.7.59)**:
+- F_p(0) = 0.9993 (revised v2.7.52, L51 partial)
+- A_event = 1 (revised v2.7.54)
+- ε = 10^-38 (still calibrated from gravity)
+- z_half = 3 (still calibrated)
+- **f_back ~ 10⁻⁸⁵ (SN-specific formula, NOT general)** ← L52 PARTIAL
+- α = 1.29 (calibrated from SN 33s, L37 still open)
+
+The cascade has moved from:
+- v2.7.55: "f_back is back in disguise" (no formula)
+- v2.7.58: "f_back is derived from formula" (SN-specific)
+- v2.7.59: "f_back formula is SN-specific" (honest acknowledgment)
+
+This is more honest, but the cascade is also more SN-calibrated
+than previously stated.
+
+See `calculations/v27_fback_multi_event.py` for the full
+multi-event test.
+
 
 
 

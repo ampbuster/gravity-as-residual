@@ -2,6 +2,47 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.59 (June 2026) — f_back formula is SN-specific (user feedback)
+
+**Major changes since v2.7.58:**
+
+1. **User feedback: "why only supernova?"**
+   - Tested v2.7.58 formula against 6 event types
+   - Result: formula is SN-SPECIFIC
+
+2. **Multi-event test results**:
+   - SN (calibration): f_back = 8.6e-86 (off 0.07 orders) ✓
+   - LHC: f_back = 1.4e-130 (off 44.86 orders) ✗
+   - Hypernova: f_back = 5.5e-84 (off 1.74 orders) ✗
+   - Long GRB: f_back = 4.3e-83 (off 2.64 orders) ✗
+   - BNS merger: f_back = 1.2e-77 (off 8.06 orders) ✗
+   - AGN outburst: f_back = 7.2e-76 (off 9.86 orders) ✗
+
+3. **L52 REVISED to PARTIAL (v2.7.59)**:
+   - v2.7.58 "RESOLVED" was PREMATURE
+   - Formula is SN-specific, not general derivation
+   - L52: f_back has SN-specific formula (0.07 orders off)
+   - L52 partial: formula does NOT generalize to other events
+   - L52 not fully closed
+
+4. **Why formula is SN-specific**:
+   - For event-independence: α - 1/(2α) = 0 → α = 1/√2 ≈ 0.707
+   - But cascade's α = 1.29 (calibrated from SN 33s)
+   - FUNDAMENTAL: with α=1.29, formula cannot be event-independent
+
+5. **L57 NEW (v2.7.59)**: f_back formula is SN-specific.
+   Does not generalize. Either accept this, find a different
+   formula, or revise cascade's framework.
+
+6. **§3.48 added** with full multi-event test
+
+7. **Net: +1 page, L52 REVISED (closed → partial), L57 NEW**
+   - Total paper: 280 pages (was 279)
+   - 56 honest limitations (was 55)
+   - 4 closed, 34 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
+
+**Earlier v2.7.58 entry (unchanged):**
+
 ## v2.7.58 (June 2026) — BREAKTHROUGH: Empirical f_back formula discovered
 
 **Major changes since v2.7.56:**

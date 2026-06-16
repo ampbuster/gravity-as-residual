@@ -1,0 +1,68 @@
+{
+  "description": "Test empirical f_back formula against multiple event types",
+  "method": "Apply the v2.7.58 formula to 6 different event types and see if it gives 10^-85 for all",
+  "finding": "The formula is SN-SPECIFIC. Different events give f_back values that differ by 10s to 100s of orders of magnitude.",
+  "L52_REVISED_AGAIN": "The v2.7.58 \"RESOLVED\" was premature. The formula works for SN by construction but does not generalize.",
+  "events_tested": [
+    {
+      "event": "SN (calibration)",
+      "E": 1e+44,
+      "tau_2D": 33,
+      "f_back": 8.604894975211844e-86,
+      "off_orders": 0.06525442597143183
+    },
+    {
+      "event": "LHC",
+      "E": 2.2e-06,
+      "tau_2D": 3e-63,
+      "f_back": 1.3818976579956295e-130,
+      "off_orders": 44.85952411920027
+    },
+    {
+      "event": "Hypernova",
+      "E": 1e+46,
+      "tau_2D": 12600.0,
+      "f_back": 5.513258818746228e-84,
+      "off_orders": 1.7414083808186263
+    },
+    {
+      "event": "Long GRB",
+      "E": 1e+47,
+      "tau_2D": 241919.99999999997,
+      "f_back": 4.336233999206036e-83,
+      "off_orders": 2.637112710297373
+    },
+    {
+      "event": "BNS merger",
+      "E": 1e+53,
+      "tau_2D": 13570800000000.0,
+      "f_back": 1.1493835871401672e-77,
+      "off_orders": 8.060464991244388
+    },
+    {
+      "event": "AGN outburst",
+      "E": 1e+55,
+      "tau_2D": 5049600000000000.0,
+      "f_back": 7.176665753952521e-76,
+      "off_orders": 9.855922719871117
+    }
+  ],
+  "event_independence_analysis": {
+    "for_event_independent_f_back_need": "\u03b1 - 1/(2\u03b1) = 0 \u2192 \u03b1 = 1/\u221a2 \u2248 0.707",
+    "cascade_alpha": 1.29,
+    "difference": 0.583,
+    "conclusion": "With cascade \u03b1=1.29, formula CANNOT be event-independent"
+  },
+  "alternative_formula": {
+    "p_new": "\u03b1 = 1.29",
+    "f_back": 6.180191953499683e-63,
+    "off_from_target": 22.791001964255656
+  },
+  "implications": [
+    "L52 RESOLVED (v2.7.58) was premature",
+    "Formula is SN-calibrated, not general derivation",
+    "User has caught another real issue",
+    "Need to either accept f_back is SN-specific or find a different formula"
+  ],
+  "honest_finding": "The v2.7.58 breakthrough was real for SN but did not generalize. The cascade f_back remains semi-calibrated (SN-specific formula exists, but it does not extend to other event types)."
+}
