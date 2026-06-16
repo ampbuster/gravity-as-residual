@@ -4225,7 +4225,7 @@ which led to checking the cascade's math at z=0.
 
 **The cascade's overall state (v2.7.53)**:
 - 52 honest limitations
-- 4 closed, 31 open, 10 partial, 2 falsified, 4 reverted, 1 discarded
+- 4 closed, 32 open, 10 partial, 2 falsified, 4 reverted, 1 discarded
 - 16/17 test categories
 - 7/7 specific cases
 - 36/36 galaxy tests pass
@@ -4447,6 +4447,122 @@ The cascade's calibrated parameters should be checked at multiple
 energy scales (similar to the F_p(0) revision in v2.7.52).
 
 See `calculations/v27_alpha_derivation.py` for the full analysis.
+
+---
+
+### 3.44 Calibrated postulates check (v2.7.54, user feedback)
+
+**User correction (v2.7.54)**: "f_back is no more no?" — f_back was
+removed in v2.7.11 (deaths-only DM). The cascade's v2.7.53 list
+incorrectly included f_back as a "calibrated parameter to check."
+
+**This section re-audits the actual calibrated postulates**:
+
+| Parameter | Value | Status | Notes |
+|-----------|-------|--------|-------|
+| F_p(0) | 0.9993 | REVISED v2.7.52 | L50 resolved, L51 partially addressed |
+| **A_event** | **1.0** | **REVISED v2.7.54 (was 67)** | **Was 67 with old F_p=0.7, should be 1 with new F_p=0.9993** |
+| ε | 10^-38 | still calibrated | L52: f_back assumption removed, DE connection broken |
+| z_half | 3.0 | still calibrated | L37-related: needs first-principles derivation |
+
+**Removed parameters**:
+- f_back: REMOVED v2.7.11 (deaths-only DM) — user correctly identified
+- α: DERIVED v2.7.24 (democratic cosmology time dilation) — no longer free
+- f_active: DROPPED v2.7.1 (conflicted with SN 33s lifetime)
+
+**A_event reassessment**:
+
+A_event = 67 was introduced in v2.7.16 to explain how 5% baryons
+can produce 27% DM (a 5× ratio). The math: per-event amplification
+of 67× + cumulative growth → 5% → 27%.
+
+With NEW F_p(0) = 0.9993 (most DM is primordial, not cumulative),
+the 67× amplification is no longer needed. The cascade should
+revise A_event = 1 (no amplification), meaning the 2D universe
+mass at death = SN energy / c^2. This is the simplest assumption,
+consistent with deaths-only DM (v2.7.11).
+
+**L51 REVISED (v2.7.54)**: A_event = 1 is the correct value with
+F_p(0) = 0.9993. The 67× amplification was a band-aid for the
+OLD F_p(0) = 0.7. With the revised F_p(0), no amplification is
+needed.
+
+**ε reassessment**:
+
+ε ~ 10^-38 was calibrated FROM the gravity hierarchy (G_eff / G_native
+= 10^-38). This part is unchanged.
+
+However, the DE formula was ε × f_back × M_Pl^4, which used f_back.
+With f_back removed, the DE connection is broken. The cascade's
+current answer is: DE = 4D → 3+1D dimensional inversion (constant,
+w = -1), SEPARATE from ε. This is the v2.7.6+ framework.
+
+**L52 NEW (v2.7.54)**: ε ~ 10^-38 was calibrated WITH f_back
+assumption for DE. With f_back removed, the DE connection is broken.
+The cascade should either:
+(a) introduce a new factor (replaces f_back),
+(b) accept that DE has a different origin (4D → 3+1D inversion),
+(c) revise ε.
+
+Currently (b) is the cascade's answer: DE = dimensional inversion,
+ε = bulk-brane coupling. These are SEPARATE physical effects.
+
+**z_half check**:
+
+z_half = 3, calibrated to match the smooth transition of F_p(z)
+from 99.93% primordial at z=0 to 100% primordial at z=1100.
+
+Hill function: F_p(z) = 0.9993 + 0.0007 × z²/(z² + 9)
+- At z=0: F_p = 0.9993 ✓
+- At z=3: F_p = 0.99965 (half-transition)
+- At z=1100: F_p = 1.0 ✓
+
+L37-related: z_half is calibrated, not derived. A first-principles
+derivation requires a model of the 4D event and how it transitions
+from creating 2D universes (high z) to not creating them (low z).
+
+**Updated summary of cascade parameters (v2.7.54)**:
+
+- **Calibrated postulates**: 4 (F_p(0), A_event, ε, z_half)
+  - F_p(0) = 0.9993 (revised v2.7.52)
+  - A_event = 1 (revised v2.7.54)
+  - ε = 10^-38 (calibrated from gravity hierarchy)
+  - z_half = 3 (smooth F_p transition)
+
+- **Free parameters**: 1 (z_half, if we count it as a free parameter
+  rather than calibrated postulate)
+  - Actually, the cascade has been inconsistent about whether z_half
+    is "free" or "calibrated". It's calibrated to match observations.
+
+- **Derived parameters**: 1 (α = 1.29, from democratic cosmology
+  time dilation in v2.7.24)
+
+- **Removed parameters**: 3
+  - f_back: removed v2.7.11
+  - f_active: dropped v2.7.1
+  - (α was a free parameter until v2.7.24)
+
+- **New limitations**:
+  - L51: F_p(0) derivation (partially addressed in §3.40)
+  - L52: ε and DE connection (f_back assumption removed)
+  - L37: α = 1.29 derivation (still open after §3.43)
+  - z_half: needs first-principles derivation (L37-related)
+
+**Honest finding**:
+
+The cascade has been slowly removing/deriving calibrated parameters
+over many versions:
+- v2.7.1: dropped f_active (was 0.05)
+- v2.7.11: removed f_back (deaths-only DM)
+- v2.7.24: derived α (democratic cosmology)
+- v2.7.52: revised F_p(0) (0.7 → 0.9993)
+- v2.7.54: revised A_event (67 → 1)
+
+This is a healthy trend toward fewer calibrated parameters, but
+ε and z_half still need first-principles derivations. L52 is new.
+
+See `calculations/v27_calibrated_check.py` for the full audit.
+
 
 
 

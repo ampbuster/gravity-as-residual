@@ -1,0 +1,53 @@
+{
+  "description": "Check remaining calibrated postulates after F_p(0) revision and f_back removal",
+  "user_correction": "f_back is no longer in the model (removed v2.7.11).",
+  "calibrated_postulates": {
+    "F_p(0)": {
+      "value": 0.9993,
+      "status": "REVISED v2.7.52",
+      "notes": "L50 resolved, L51 partially addressed"
+    },
+    "A_event": {
+      "value": 1.0,
+      "status": "REVISED v2.7.54 (was 67)",
+      "notes": "was 67 with old F_p=0.7, should be 1 with new F_p=0.9993"
+    },
+    "epsilon": {
+      "value": 1e-38,
+      "status": "still calibrated",
+      "notes": "L52: f_back assumption removed, DE connection broken"
+    },
+    "z_half": {
+      "value": 3.0,
+      "status": "still calibrated",
+      "notes": "L37-related, needs first-principles derivation"
+    }
+  },
+  "removed_parameters": {
+    "f_back": "REMOVED v2.7.11 (deaths-only DM)",
+    "alpha": "DERIVED v2.7.24 (democratic cosmology time dilation)",
+    "f_active": "DROPPED v2.7.1 (conflicted with SN 33s)"
+  },
+  "new_limitation_L52": "\u03b5 ~ 10^-38 was calibrated WITH f_back assumption for DE. With f_back removed, the DE connection is broken. Either: (a) introduce new factor, (b) revise \u03b5, (c) accept DE has different origin.",
+  "A_event_reassessment": {
+    "old_value": 67,
+    "new_value": 1,
+    "reason": "A_event = 67 was a band-aid for OLD F_p(0) = 0.7. With NEW F_p(0) = 0.9993, no amplification is needed. Most DM is primordial, not cumulative.",
+    "honest_finding": "A_event = 1 means 2D universe mass at death = SN energy / c^2. This is the simplest assumption and is consistent with deaths-only DM (v2.7.11)."
+  },
+  "epsilon_reassessment": {
+    "value": 1e-38,
+    "calibration": "gravity hierarchy (G_eff/G_native = 10^-38)",
+    "DE_connection": "BROKEN \u2014 was \u03b5 \u00d7 f_back \u00d7 M_Pl^4, but f_back removed",
+    "options": [
+      "Keep \u03b5 = 10^-38, but DE has different origin (4D\u21923+1D inversion)",
+      "Revise \u03b5 to ~10^-123 (matches DE directly, but breaks hierarchy)",
+      "Introduce new factor (replaces f_back)"
+    ],
+    "current_cascade_answer": "DE = 4D \u2192 3+1D dimensional inversion (constant, w=-1). \u03b5 is separate."
+  },
+  "overall_calibrated_postulates_count": 4,
+  "free_parameters_count": 1,
+  "derived_parameters_count": 1,
+  "removed_parameters_count": 3
+}

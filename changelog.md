@@ -2,6 +2,45 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.54 (June 2026) — Calibrated postulates audit (user feedback)
+
+**Major changes since v2.7.53:**
+
+1. **User feedback: "f_back is no more no?"**
+   - Confirmed: f_back was removed in v2.7.11 (deaths-only DM)
+   - v2.7.53 list incorrectly included f_back — corrected
+
+2. **A_event REVISED from 67 to 1** (was 67 with old F_p=0.7)
+   - A_event = 67 was a band-aid for OLD F_p(0) = 0.7
+   - With NEW F_p(0) = 0.9993, no amplification needed
+   - 2D universe mass at death = SN energy / c^2 (simplest assumption)
+   - Consistent with deaths-only DM (v2.7.11)
+
+3. **L52 NEW**: ε ~ 10^-38 was calibrated WITH f_back assumption
+   - DE formula was ε × f_back × M_Pl^4
+   - With f_back removed, DE connection is broken
+   - Cascade's current answer: DE = 4D→3+1D dimensional inversion
+   - ε = bulk-brane coupling (separate from DE)
+
+4. **z_half check**: still calibrated to 3
+   - Matches F_p(0)=0.9993 to F_p(z=1100)=1.0 transition
+   - L37-related: needs first-principles derivation
+
+5. **Updated parameter summary**:
+   - Calibrated postulates: 4 (F_p(0), A_event, ε, z_half)
+   - Derived parameters: 1 (α = 1.29, v2.7.24 democratic cosmology)
+   - Removed parameters: 3 (f_back, f_active, α-as-free)
+   - Free parameters: 0 or 1 (depending on counting z_half)
+
+6. **§3.44 added** with full audit
+
+7. **Net: +2 pages, 1 new limitation (L52), 1 parameter revised (A_event)**
+   - Total paper: 275 pages (was 273)
+   - 53 honest limitations (was 52)
+   - Breakdown: 4 closed, 32 open, 10 partial, 2 falsified, 4 reverted, 1 discarded
+
+**Earlier v2.7.53 entry (unchanged):**
+
 ## v2.7.53 (June 2026) — 5 new sections: lessons, L51, M_dyn, PT, L37
 
 **Major changes since v2.7.52:**
