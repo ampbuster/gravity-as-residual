@@ -2,7 +2,7 @@
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **50 honest limitations** (v2.7.30+), with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*). The full status: 23 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism, see §3.14-§3.15 for the discard process). L37 added v2.7.30 for α=1.29 CGHS derivation.
+This is a thought experiment, not a theory. We identify **37 honest limitations** (v2.7.30+), with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*). The full status: 17 OPEN (including 1 architectural), 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED (including 1 PARTIAL→REVERTED), 1 DISCARDED (§3.13 mechanism, see §3.14-§3.15 for the discard process). L37 added v2.7.30 for α=1.29 CGHS derivation.
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 

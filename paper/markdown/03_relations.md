@@ -3838,7 +3838,7 @@ scale invariance.
 
 **Net: +1 page, +4 limitations (L85-88)**
 - Total: 297 pages
-- 85 honest limitations
+- 37 honest limitations
 - 5 closed, 62 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
 
 See `calculations/v27_dimensional_scale_invariance.py` for the
