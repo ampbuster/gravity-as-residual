@@ -1,4 +1,28 @@
 
+## v3.0.16 — Wrap \cdot/\int in $...$ to fix LaTeX errors (June 2026)
+
+**User feedback:** "some markdown incorrect. this is pdf, not md. md is fine"
+
+Found 3 lines with `\cdot`/`\int` outside of `$...$` delimiters,
+which were causing xelatex to fail. The text was rendering as raw
+LaTeX in the PDF.
+
+**Fixed (3 lines):**
+- `paper/markdown/01_executive_summary.md` line 23: g₊ = k \cdot \int...
+  → wrap in `$...$`
+- `paper/markdown/04_predictions.md` line 252: g₊ = (3/4) \cdot G...
+  → wrap in `$...$`
+- `paper/markdown/04_predictions.md` line 703: g₊ = k \cdot 10^{-2}...
+  → wrap in `$...$`
+
+**Also fixed:** build script typo `\usepackage{fontsec}` →
+`\usepackage{fontspec}` (was causing build to fail).
+
+**Result:** PDF builds clean (276 pages), math now renders in those
+specific lines. Most other math in the PDF was already working
+(only these 3 lines had un-delimited math operators).
+
+
 ## v3.0.15 — Revert to markdown_strict (June 2026)
 
 **User feedback:** "use the original markdown syntax. it's fine, probably

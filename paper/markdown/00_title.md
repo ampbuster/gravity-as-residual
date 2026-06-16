@@ -11,4 +11,4 @@
 
 **HONEST BOUNDARY (v3.0):** The composite model derives α, c, 1/(2α), f_back from N = 12. It does NOT derive: specific CKM/PMNS values (CKM = Cabibbo-Kobayashi-Maskawa matrix for quark mixing; PMNS = Pontecorvo-Maki-Nakagawa-Sakata matrix for neutrino mixing), SM mass hierarchy, specific BLG (bilayer graphene) magic angle, or specific dS_2 topology details. These require additional dynamics not yet derived. The cascade remains a **geometric framing with a strongly specified backbone**, not a fully derived Lagrangian (a closed-form mathematical description of the dynamics).
 
----
+<!-- end of title -->

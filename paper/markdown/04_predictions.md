@@ -249,7 +249,7 @@ This is now the cascade's best candidate RAR model: small $f_{active}$ (5%), iso
 
 This dynamical-mixing naturally gives the *intermediate* spatial distribution needed to match the data:
 
-- **Galaxy scale**: cumulative is mostly well-mixed (close to uniform). The cascade's original g₊ = (3/4) \cdot G \cdot f_{cumulative} \cdot M_{DM} / (\pi R_{halo}^2) formula is *approximately* right, explaining why the cascade's g₊ is in the right ballpark for galaxies (0.22x empirical).
+- **Galaxy scale**: cumulative is mostly well-mixed (close to uniform). The cascade's original g₊ = $(3/4) \cdot G$ \cdot f_{cumulative} \cdot M_{DM} / (\pi R_{halo}^2) formula is *approximately* right, explaining why the cascade's g₊ is in the right ballpark for galaxies (0.22x empirical).
 
 - **Dwarf scale (EDGE 2025)**: cumulative is well-mixed (close to uniform) at small r, but the *total* DM is small because dwarf galaxies have low activity rates. The cascade under-predicts the dwarf DM not because of the *spatial* distribution, but because of the *amplitude* — there must be additional activity-driven DM contributions in dwarfs that the cascade's simple SN+stellar event spectrum underestimates.
 
@@ -700,7 +700,7 @@ This is the *Gemini scaling relation* (per the user's prompt): g₊ \propto \int
 
 For a Milky Way-like galaxy with $M_b \sim 6 \times 10^{10} M_\odot$ and $\dot{n} \sim 10^{-12}$ events/$M_\odot$/yr (1 SN per century, $10^{11}$ stars):
 - Integrated $\dot{n} \cdot T \sim 10^{-12} \times 10^{10}$ yr $= 10^{-2}$ events/$M_\odot$
-- g₊ = k \cdot 10^{-2} \cdot E_{event} \cdot \tau_{2D}/L_{2D}
+- g₊ = $k \cdot 10^{-2} \cdot E_{event} \cdot \tau_{2D}/L_{2D}$
 
 For the empirical g₊ \sim 1.2 \times 10^{-10} m/s², we need $k \cdot E_{event} \cdot \tau_{2D}/L_{2D} \sim 10^{-8}$ in natural units. This is a *calibration* — the cascade does not derive $k$ from first principles, but the *structure* of the formula is correct.
 

@@ -1,50 +1,35 @@
 #!/bin/bash
 # build_pdf.sh - Build the paper PDF from paper/markdown/*.md files
-#
-# Usage: ./build_pdf.sh
-#
-# Requires: pandoc, xelatex (TeX Live with fontspec)
-#
-# Output: paper.pdf (in same directory)
-#
-# Note: The paper uses Unicode superscripts (10^-50, 10^-85, etc.) which
-# require xelatex with Unicode font support, NOT pdflatex.
-#
-# v3.0.13+: paper is split into paper/markdown/*.md files.
-# Files are concatenated in alphabetical order.
 
 set -e
 
-# Resolve script's own directory
 PAPER_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$PAPER_DIR"
 
-# Step 0: If paper/markdown/ exists, combine into a single file
+# Step 0: Combine markdown files
 if [ -d "markdown" ]; then
-    echo "Combining markdown/*.md into combined source..."
     cat markdown/*.md > /tmp/paper_combined.md
     SOURCE=/tmp/paper_combined.md
 else
     SOURCE=paper.md
 fi
 
-# Step 1: Convert combined .md to body.tex via pandoc (markdown_strict to avoid YAML parse issues)
+# Step 1: Convert with markdown_strict (original setting)
 pandoc "$SOURCE" -o /tmp/paper_body.tex -f markdown_strict
 
-# Step 2: Strip the first \section{...} (we have \title{} in the header)
-python3 - << 'PYEOF'
+# Step 2: Strip the first \section{...}
+python3 -c "
 import re
 with open('/tmp/paper_body.tex', 'r') as f:
     body = f.read()
-m = re.search(r'\\section\{[^}]+\}\s*\n\n', body)
+m = re.search(r'\\\\section\\{[^}]+\\}\\s*\\n\\n', body)
 if m:
     body = body[m.end():]
 with open('/tmp/paper_body_clean.tex', 'w') as f:
     f.write(body)
-print(f"Body length after stripping: {len(body)} chars")
-PYEOF
+"
 
-# Step 3: Create header.tex with Unicode support
+# Step 3: Create header
 cat > /tmp/paper_header.tex << 'HEADEREOF'
 \documentclass[10pt]{article}
 \usepackage{amsmath, amssymb}
@@ -64,7 +49,7 @@ cat > /tmp/paper_header.tex << 'HEADEREOF'
 \providecommand{\tightlist}{}
 \title{Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector}
 \author{ampbuster (software developer, not a physicist) \\ \small AI assistance: Mavis (M3, MiniMax)}
-\date{v3.0.14 (June 2026) \\ \small \url{https://github.com/ampbuster/gravity-as-residual}}
+\date{v3.0.15 (June 2026) \\ \small \url{https://github.com/ampbuster/gravity-as-residual}}
 \begin{document}
 \maketitle
 \tableofcontents
@@ -75,23 +60,18 @@ HEADEREOF
 cat /tmp/paper_header.tex /tmp/paper_body_clean.tex > /tmp/paper_full.tex
 echo '\end{document}' >> /tmp/paper_full.tex
 
-# Compile with xelatex (Unicode support for superscripts)
 cd /tmp
 xelatex -interaction=nonstopmode -halt-on-error paper_full.tex > /tmp/xelatex1.log 2>&1 || {
     echo "First xelatex run failed. Tail of log:"
     tail -30 /tmp/xelatex1.log
     exit 1
 }
-
-# Second run for table of contents
 xelatex -interaction=nonstopmode -halt-on-error paper_full.tex > /tmp/xelatex2.log 2>&1 || {
     echo "Second xelatex run failed. Tail of log:"
     tail -30 /tmp/xelatex2.log
     exit 1
 }
 
-# Copy result back
 cp /tmp/paper_full.pdf "${PAPER_DIR}/paper.pdf"
-echo ""
-echo "✓ Paper PDF built: ${PAPER_DIR}/paper.pdf"
+echo "Paper PDF built: ${PAPER_DIR}/paper.pdf"
 ls -la "${PAPER_DIR}/paper.pdf"
