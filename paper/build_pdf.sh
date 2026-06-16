@@ -114,7 +114,41 @@
 # Pipes in cell content: ESCAPE them with backslash:
 #   | text \| more text |
 #
-# ---- 4.2 MATH IN TEXT ----
+# ---- 4.2 HORIZONTAL RULES AND TABLE SEPARATORS ----
+#
+# AVOID: `---` (horizontal rule) immediately after a table.
+#
+# Pandoc can misinterpret `---` as a table row separator, causing
+# the following content to be wrapped in a single narrow column
+# (e.g., 0.0556\linewidth) with text wrapped one character per line.
+#
+# Example of what breaks:
+#   | col1 | col2 |
+#   |------|------|
+#   | data | data |
+#
+#   ---     <-- DON'T DO THIS
+#
+#   # Next Section
+#   This content will be wrapped in a 1-column narrow table.
+#
+# WORKAROUND: use blank line + blank line, or no separator at all.
+#   | col1 | col2 |
+#   |------|------|
+#   | data | data |
+#
+#   (blank line)
+#
+#   # Next Section
+#   This content renders normally.
+#
+# This is a Pandoc ambiguity: `---` can be a horizontal rule, a
+# Setext header underline, or (in some contexts) a table separator.
+# In the context of a markdown file with `pipe_tables` enabled,
+# Pandoc tends to interpret it as table continuation, which is
+# almost never what you want.
+
+# ---- 4.3 MATH IN TEXT ----
 #
 # INLINE MATH in a sentence, use $...$:
 #   The mass is $m = 10^{21}$ kg.
@@ -136,7 +170,7 @@
 #     &= h\nu
 #   \end{align}
 #
-# ---- 4.3 TABLE CELLS WITH MATH ----
+# ---- 4.4 TABLE CELLS WITH MATH ----
 #
 # AVOID: $...$ math mode with PARENS inside a TABLE CELL.
 # Example that breaks the table:
@@ -158,7 +192,7 @@
 # For long equations, consider rewriting them as display math OUTSIDE
 # the table rather than inside it.
 #
-# ---- 4.4 SPECIAL CHARACTERS ----
+# ---- 4.5 SPECIAL CHARACTERS ----
 #
 # In LaTeX text mode, several characters need escaping:
 #
@@ -178,7 +212,7 @@
 # In MARKDOWN paragraphs: Pandoc handles most escaping automatically.
 # Use $...$ for math, not escaped dollar signs.
 #
-# ---- 4.5 GREEK LETTERS AND SYMBOLS ----
+# ---- 4.6 GREEK LETTERS AND SYMBOLS ----
 #
 # GREEK: use LaTeX commands: \alpha, \beta, \gamma, \delta, etc.
 # (NOT Unicode α unless you want to test font support)
@@ -193,7 +227,7 @@
 #
 # Always wrap math in $...$ even in tables.
 #
-# ---- 4.6 SECTION HEADERS ----
+# ---- 4.7 SECTION HEADERS ----
 #
 # Pandoc's ATX-style headers work (preferred):
 #   # Top-level
@@ -207,7 +241,7 @@
 # already in the LaTeX header (from paper_header.tex). So don't put
 # important content in the first section header.
 #
-# ---- 4.7 CODE, FILENAMES, URLs ----
+# ---- 4.8 CODE, FILENAMES, URLs ----
 #
 # Inline code: `code` → \texttt{code} in PDF
 #
@@ -222,31 +256,31 @@
 # URLs: <https://example.com> or just bare https://example.com
 # Both work; Pandoc makes them clickable in PDF.
 #
-# ---- 4.8 CROSS-REFERENCES ----
+# ---- 4.9 CROSS-REFERENCES ----
 #
 # Section refs: §3.15, §2.5.3, etc. (just type the § character)
 #
 # Reference to specific section: \S 3.15 in LaTeX, or just §3.15 in
 # markdown. (Don't use $...$ around § or you'll get errors.)
 #
-# ---- 4.9 LISTS ----
+# ---- 4.10 LISTS ----
 #
 # Use `-` or `*` for unordered lists, `1.` for ordered.
 # Indent nested lists with 2 or 4 spaces.
 #
-# ---- 4.10 EMPHASIS ----
+# ---- 4.11 EMPHASIS ----
 #
 # *italic*   → \emph{italic} in PDF
 # **bold**   → \textbf{bold} in PDF
 # ***bold italic*** → \textbf{\emph{...}} in PDF
 #
-# ---- 4.11 STRIKETHROUGH ----
+# ---- 4.12 STRIKETHROUGH ----
 #
 # Pandoc's ~~strikethrough~~ doesn't work with markdown_strict but
 # does work with our pandoc options. However, it sometimes produces
 # strange output. Prefer (\emph{rejected text}) for emphasis instead.
 #
-# ---- 4.12 AVOID THESE ----
+# ---- 4.13 AVOID THESE ----
 #
 # ❌ DON'T use raw HTML in markdown (won't render in PDF)
 # ❌ DON'T use <br> for line breaks (use double-space at end of line)
@@ -259,7 +293,7 @@
 #    testing (use ---, --, \ldots, \times in LaTeX)
 # ❌ DON'T use $...$ for full sentences (only short math expressions)
 #
-# ---- 4.13 COMMON PATTERNS THAT WORK ----
+# ---- 4.14 COMMON PATTERNS THAT WORK ----
 #
 # Inline math:  $E = mc^2$           ✅
 # Display math: \[E = mc^2\]         ✅
