@@ -12,13 +12,13 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 **Quantitative comparison:**
 
-| Small-scale test | $`\Lambda`$CDM | SIDC |
+| Small-scale test | $\Lambda$CDM | SIDC |
 |------------------|--------------|------|
 | Cusp-core | Needs ad-hoc feedback | Naturally isothermal |
 | Missing satellites | Discrepancy with N-body | No sub-halos to be missing |
 | Too-big-to-fail | Brightest sats too dense | No sub-halos to be too big |
 | Lensing flux ratio | Quad anomalies from substructure | No sub-halos to lens |
-| Direct detection | No WIMP up to $`9.2 \times 10^{-48}`$ cm² | No particle → trivially consistent |
+| Direct detection | No WIMP up to $9.2 \times 10^{-48}$ cm² | No particle → trivially consistent |
 
 ### 9.2 SIDC vs MOND (Modified Newtonian Dynamics)
 
@@ -30,9 +30,9 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 | System | Empirical g₊ | MOND | SIDC | Best |
 |--------|------------------|------|------|------|
-| Isolated spiral (SPARC) | $`1.2 \times 10^{-10}`$ | **[PASS]** | **[PASS]** | Tie |
-| Massive cluster (Tian+ 2024) | $`1.7 \times 10^{-9}`$ | **[FAIL]** | **[PASS]** | SIDC |
-| Dwarf galaxy | Variable | Fail (low SB) | **[PASS]** (via $`E_{crit}`$) | SIDC |
+| Isolated spiral (SPARC) | $1.2 \times 10^{-10}$ | **[PASS]** | **[PASS]** | Tie |
+| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}$ | **[FAIL]** | **[PASS]** | SIDC |
+| Dwarf galaxy | Variable | Fail (low SB) | **[PASS]** (via $E_{crit}$) | SIDC |
 
 SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling baked in as a consequence of the phase-transition principle.
 
@@ -47,7 +47,7 @@ SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling
 | Property | ADD/RS (top-down) | SIDC (bottom-up) |
 |----------|---------------------|------------------|
 | Hierarchy problem | Solved (in principle) **[PASS]** | Solved **[PASS]** |
-| Dark matter | Requires added scalar fields | Emerges as $`S_{destruction}`$ return |
+| Dark matter | Requires added scalar fields | Emerges as $S_{destruction}$ return |
 | Dark energy | Requires added potential | Emerges as 4D event antigravity |
 | Phase transitions | Static | Active (event-driven) |
 | Empirical fit (SPARC) | Not native | 10% median residual |
@@ -88,9 +88,9 @@ However, it is not yet superior in its mathematical maturity. $\Lambda$CDM has a
 | Small-scale crisis | SIDC | 4 problems collapse to 0 by construction |
 | Cluster g₊ scaling | SIDC | Phase-transition + MOND EFE |
 | Historical DM differences | SIDC | Stellar Age Lifecycle ledger |
-| Mathematical maturity | $`\Lambda`$CDM | 30 years of formal work |
-| Coordinate-invariant GR | $`\Lambda`$CDM | SIDC has action skeleton only |
-| Simulation pipeline | $`\Lambda`$CDM | SIDC needs new infrastructure |
+| Mathematical maturity | $\Lambda$CDM | 30 years of formal work |
+| Coordinate-invariant GR | $\Lambda$CDM | SIDC has action skeleton only |
+| Simulation pipeline | $\Lambda$CDM | SIDC needs new infrastructure |
 
 **Bottom line.** SIDC is a beautifully architected *software design pattern* for the universe — it proves that the data structures fit real-world observations flawlessly across 17 distinct test categories. The open task now isn't to find more data; it is to write the underlying mathematical field equations to turn this elegant architecture into an unassailable, fully compiled physical theory.
 

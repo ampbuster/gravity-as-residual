@@ -1,4 +1,21 @@
 
+## v3.0.15 — Revert to markdown_strict (June 2026)
+
+**User feedback:** "use the original markdown syntax. it's fine, probably
+gfm breaks if .md is too long. now that it's split, it works fine."
+
+After experimenting with `gfm` and `markdown+pipe_tables` for proper
+table rendering, reverted to `markdown_strict` (original setting).
+The `gfm` mode caused pandoc to escape `$...$` math to `\$...\$`
+and `\textbackslash{}...` which broke LaTeX rendering. With
+`markdown_strict`, the build is clean (276 pages).
+
+Tables in the PDF remain as raw text (same as v3.0.8) — a known
+pre-existing limitation. Tables render properly on GitHub's
+per-file view (one file at a time) which is no longer affected by
+the file-size issue (now split into 16 files of 6-300KB each).
+
+
 ## v3.0.14 — Fix table rendering on GitHub + delete old paper.md (June 2026)
 
 **User feedback:** "the pdf is not rendering latex or tables properly.

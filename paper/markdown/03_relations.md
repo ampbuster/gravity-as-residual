@@ -292,7 +292,7 @@ The transformed action has additional scalar-field-like terms, but the *sign* of
 
 | Mechanism | Math works? | Specific postulate needed? |
 |-----------|-------------|---------------------------|
-| **Negative brane tension (Israel)** | **[PASS]** YES | Why $`T_{4D} < 0`$? |
+| **Negative brane tension (Israel)** | **[PASS]** YES | Why $T_{4D} < 0$? |
 | **DGP self-accelerating branch** | **[PASS]** YES (with ghost) | Ghost-free implementation |
 | **KKLT anti-D3 uplift** | **[PASS]** YES | Specific anti-brane mechanism |
 | **Conformal transformation** | **[FAIL]** NO | — |
@@ -357,12 +357,12 @@ The cascade currently has no constraint on this. The 4D's own universe creation 
 
 If 4D has its own universe creation (with some ratio $r_4D$), the cascade's structure becomes:
 
-| Level | Bulk (parent) | Brane | Children | $`r_{children}`$ | Energy return to parent |
+| Level | Bulk (parent) | Brane | Children | $r_{children}$ | Energy return to parent |
 |-------|---------------|-------|----------|----------------------|--------------------------|
-| 5D (hypothetical) | 6D | 5D | 4D universes | $`r_{5D}`$ | 5D's DM |
-| 4D (parent) | 5D | 4D | 3+1D universes | $`r_{4D}`$ | 4D's DM |
-| 3+1D (us) | 4D | 3+1D | 2D universes | $`r_{3+1D} = 0.27`$ | 3+1D's DM |
-| 2D (terminal) | 3+1D | 2D | (none, terminal) | $`r_{2D} = 0`$ | — |
+| 5D (hypothetical) | 6D | 5D | 4D universes | $r_{5D}$ | 5D's DM |
+| 4D (parent) | 5D | 4D | 3+1D universes | $r_{4D}$ | 4D's DM |
+| 3+1D (us) | 4D | 3+1D | 2D universes | $r_{3+1D} = 0.27$ | 3+1D's DM |
+| 2D (terminal) | 3+1D | 2D | (none, terminal) | $r_{2D} = 0$ | — |
 
 The 3+1D sees:
 - 4D's *projected* contribution: $(1 - r_{4D})$ of 4D's energy, projected to 3+1D as DE
@@ -618,7 +618,7 @@ This is a *testable* framework:
 
 The cascade predicts:
 
-| Redshift | $`F_p(z)`$ | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
+| Redshift | $F_p(z)$ | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
 |----------|----------|---------------------|------------------------------|------------------------------|
 | 1100 (CMB) | 1.000 | 0.000 | 5.40 | 3.80 |
 | 6 | 0.946 | 0.054 | 5.40 | 4.06 |
@@ -1032,7 +1032,7 @@ The §3.13 mechanism is **double-broken**:
 
 | Failure mode | Problem | Verdict |
 |--------------|---------|---------|
-| GeV DM (cascade's required mass) | Pauli blocking INEFFECTIVE ($`E_{decay}/p_F \sim 10^{21}`$) | MECHANISM FAILS |
+| GeV DM (cascade's required mass) | Pauli blocking INEFFECTIVE ($E_{decay}/p_F \sim 10^{21}$) | MECHANISM FAILS |
 | Sub-eV DM (where Pauli blocking works) | HDM, not CDM (no small-scale structure) | DM IS WRONG TYPE |
 | Sterile neutrino specifically | X-ray constraints (3.5 keV line weakened in 2024) | DM CANDIDATE SQUEEZED |
 

@@ -22,29 +22,23 @@ cd "$PAPER_DIR"
 # Step 0: If paper/markdown/ exists, combine into a single file
 if [ -d "markdown" ]; then
     echo "Combining markdown/*.md into combined source..."
-    # Concatenate all .md files in alphabetical order (00_, 01_, ...).
-    # The <!-- comments at the top of each file are HTML comments and
-    # are stripped by pandoc automatically.
     cat markdown/*.md > /tmp/paper_combined.md
-    PAPER_SOURCE=/tmp/paper_combined.md
+    SOURCE=/tmp/paper_combined.md
 else
-    PAPER_SOURCE=paper.md
+    SOURCE=paper.md
 fi
 
 # Step 1: Convert combined .md to body.tex via pandoc (markdown_strict to avoid YAML parse issues)
-pandoc "$PAPER_SOURCE" -o /tmp/paper_body.tex -f markdown_strict
+pandoc "$SOURCE" -o /tmp/paper_body.tex -f markdown_strict
 
 # Step 2: Strip the first \section{...} (we have \title{} in the header)
-python3 << 'PYEOF'
+python3 - << 'PYEOF'
 import re
 with open('/tmp/paper_body.tex', 'r') as f:
     body = f.read()
-
-# Remove first \section{...} block (the H1 title)
 m = re.search(r'\\section\{[^}]+\}\s*\n\n', body)
 if m:
     body = body[m.end():]
-
 with open('/tmp/paper_body_clean.tex', 'w') as f:
     f.write(body)
 print(f"Body length after stripping: {len(body)} chars")
@@ -70,7 +64,7 @@ cat > /tmp/paper_header.tex << 'HEADEREOF'
 \providecommand{\tightlist}{}
 \title{Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector}
 \author{ampbuster (software developer, not a physicist) \\ \small AI assistance: Mavis (M3, MiniMax)}
-\date{v2.7.4 (June 2026) \\ \small \url{https://github.com/ampbuster/gravity-as-residual}}
+\date{v3.0.14 (June 2026) \\ \small \url{https://github.com/ampbuster/gravity-as-residual}}
 \begin{document}
 \maketitle
 \tableofcontents
