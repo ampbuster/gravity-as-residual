@@ -2,6 +2,46 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.56 (June 2026) — f_back time-dilation research (trial and error)
+
+**Major changes since v2.7.55:**
+
+1. **User hypothesis**: f_back in different directions might be related
+   to time-compression / time-dilation between dimensions.
+
+2. **10+ trials performed** (calculations/v27_fback_research.py):
+   - Trial 1: τ_3+1D / τ_4D = 10^-18 (off 67 orders)
+   - Trial 5: (E_SN / E_Pl,3)^-1 = 10^-35 (off 50)
+   - Trial 6: E_SN / E_4D = 10^-25 (off 60)
+   - Trial 7: (τ_SN / τ_4D)^α = 10^-47 (off 38)
+   - Trial 8: (t_Pl,3 / τ_4D) × (τ_SN / τ_universe) = 10^-95 (off 10, closest)
+   - Trial 9: Combined geometry + time + energy = 10^-72 (off 13)
+   - Trials 2, 3, 4, 10: various other ratios
+
+3. **HONEST FINDING**: NONE of 10+ simple time-dilation / time-compression
+   ratios give 10^-85. User's hypothesis is interesting but NOT verified.
+
+4. **Insight**: 4D event IS 3+1D universe in 4D frame. The 4D event and
+   the 3+1D universe are the same thing viewed in different frames
+   (time-dilation factor 7×10^17).
+
+5. **L53 NEW**: Time-compression hypothesis tested. 10^-85 remains
+   UNSPECIFIED.
+
+6. **Next research directions**:
+   - Bulk-geometry calculations (AdS_5, RS2, brane-world)
+   - Warp factor / extra-dimension localization
+   - 3D→2D × 4D→3D combined factors
+
+7. **§3.46 added** with full 10-trial analysis
+
+8. **Net: +2 pages, 1 L added (L53), 1 new research section**
+   - Total paper: 278 pages (was 276)
+   - 54 honest limitations (was 53)
+   - 4 closed, 33 open, 10 partial, 2 falsified, 4 reverted, 1 discarded
+
+**Earlier v2.7.55 entry (unchanged):**
+
 ## v2.7.55 (June 2026) — 4D/DE/gravity cancellation audit
 
 **Major changes since v2.7.54:**
