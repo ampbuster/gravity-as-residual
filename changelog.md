@@ -2,6 +2,38 @@
 
 This document contains the cascade's full version history.
 
+## v3.0.1 (June 2026) — AGC/KKR README cleanup
+
+**Major changes since v3.0:**
+
+1. **User feedback**: README still mentioned AGC/KKR in ways that
+   implied they were "smoking gun" tests/predictions of the cascade.
+   But after v2.7.36+ bifurcation removal and v2.7.45+ honest
+   framing, AGC/KKR are NOT the cascade's differentiators.
+
+2. **Updated lines**:
+   - Removed "AGC/KKR" from "5+ phenomena" in conceptual parsimony
+   - Updated "individual galaxy tests" to "12/12 + 22 wide-range"
+   - Updated "smoking gun" line: "The cascade's smoking gun is
+     its overall framework (47 Tuc is the real differentiator)"
+   - Updated test results table:
+     * AGC 114905: "1.36 (DM-poor)" → "contested" (DISPUTED)
+     * KKR 25: "1-4 (DM-poor to moderate)" → "~1 (est.)" (REVISED v2.7.33+)
+   - Updated Galaxy-Zoo Test Suite:
+     * AGC 114905: "M_dyn ≈ M_b (low SFH throughout)" → "(DISPUTED, contested data)"
+     * KKR 25: "M_dyn ≫ M_b (burst 1-4 Gyr ago)" → "(REVISED v2.7.33+, bifurcation removed v2.7.36+)"
+
+3. **What AGC/KKR claims remain in README**:
+   - DISPUTED section (honest framing of contested data) ✓
+   - Mixed evidence section (TDG shift toward DM-poor) ✓
+   - Estimated markers (KKR 25 ⚠️ est.) ✓
+   - No "smoking gun" or "cascade predicts" claims ✓
+
+4. **No new research**, just README consistency with paper's
+   v2.7.36+ and v2.7.45+ honest framing.
+
+**Earlier v3.0 entry (unchanged):**
+
 ## v3.0 (June 2026) — MAJOR VERSION BUMP: N=12 SYK centerpiece
 
 **Why v3?**

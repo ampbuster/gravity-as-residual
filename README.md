@@ -16,8 +16,8 @@
 The cascade's principle is simple: every energetic event creates a 2D universe whose eventual energy return becomes dark matter. From this single rule, the cascade achieves ALL THREE of these simultaneously:
 
 1. **Cosmological fit** — matches ΛCDM at CMB, r(z), P(k), S_8, halo mass function, CMB lensing
-2. **Galactic fit** — matches MOND at RAR, deep-MOND regime, cored profiles, individual galaxy tests (AGC 114905, KKR 25 each tested independently)
-3. **Conceptual parsimony** — 1 conceptual principle that connects 5+ phenomena (DM, DE, hierarchy, AGC/KKR, MOND) into a single framework
+2. **Galactic fit** — matches MOND at RAR, deep-MOND regime, cored profiles, individual galaxy tests (12/12 + 22 wide-range, see §12)
+3. **Conceptual parsimony** — 1 conceptual principle that connects 5+ phenomena (DM, DE, hierarchy, MOND, galaxy rotation curves) into a single framework
 
 **The cascade is the ONLY dark sector model that achieves all three.** Other models typically sacrifice one.
 
@@ -379,8 +379,8 @@ This is the cumulative result of the v2.4 work. The cascade's three main quantit
 | **BTFR slope** (129 SPARC) | 3.53 (predicted 4) | 3.53 | within 1σ |
 | **MDAR for dSphs** (10 dSphs) | factor ~2 from MOND | factor ~2 from MOND | ✓ MATCHES |
 | **AGN host DM** (morphology-matched) | +6.4% ratio | — | p=0.047 |
-| **AGC 114905** | 1.36 (DM-poor) | ~1 | ✓ PASS |
-| **KKR 25** | 1-4 (DM-poor to moderate) | 1-4 (typical dSph with intermediate-age SF) | ✓ PASS (REVISED v2.7.33+) |
+| **AGC 114905** | contested (Mancera Piña 2022: ~1, Sellwood 2022: ~2-3) | ~1-3 | ✓ PASS (DISPUTED, §3.45+) |
+| **KKR 25** ⚠️ | ~1 (est.) | ~1 (est., no published velocity dispersion) | ✓ PASS (est., v2.7.42+) |
 | **Hubble H_0** | 70 ± 3 (qualitative consistency) | 73 (SH0ES), 67.4 (Planck) | 5.6 km/s/Mpc gap is a ΛCDM-framework artifact (no specific H_0 derived) |
 | **Sun no-DM** | <10⁻¹⁷ ratio | confirmed | ✓ PASS |
 
@@ -580,8 +580,8 @@ A new section §12 consolidates the cascade's galaxy-level tests against the *en
 
 **The 11 tests (12 with CVnC, v2.7.32+):**
 1. **47 Tucanae** — M_dyn ≈ M_stars (no current activity)
-2. **AGC 114905** — M_dyn ≈ M_b (low SFH throughout)
-3. **KKR 25** — M_dyn ≫ M_b (burst 1-4 Gyr ago)
+2. **AGC 114905** — M_dyn ≈ M_b (DISPUTED, low SFH throughout, contested data)
+3. **KKR 25** — M_dyn ≈ M_b (REVISED v2.7.33+, M_dyn estimated, original bifurcation removed v2.7.36+)
 4. **Milky Way** — M_dyn/M_b ~ 30 (normal spiral)
 5. **NGC 1052-DF2** — M_dyn ≈ M_b (UDG, claimed no DM, cascade explains naturally)
 6. **Tucana dSph** — M_dyn ≈ M_b (isolated, quenched 6+ Gyr)
