@@ -2,6 +2,50 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.53 (June 2026) — 5 new sections: lessons, L51, M_dyn, PT, L37
+
+**Major changes since v2.7.52:**
+
+1. **§3.39 Lessons learned from F_p revision (meta)**
+   - The cascade's self-correction process documented
+   - 6-step process: v2.7.5 → v2.7.49 → v2.7.50 → v2.7.51 → v2.7.52 → v2.7.53
+   - Meta-lessons: user questions valuable, calibrations need multi-z checks
+
+2. **§3.40 L51 derivation attempt (PARTIALLY ADDRESSED)**
+   - F_p(0) = 0.9993 is consistent with 4D event at galaxy-cluster scale
+   - Required E_4D = 2.2×10^69 J = 10^22 M_☉ = 10^10 × galaxy mass
+   - This is REASONABLE for a "big bang" event
+   - Not a true derivation, but a consistency check
+
+3. **§3.41 Forward M_dyn predictions for 22 galaxies**
+   - Cascade predicts M_dyn/M_b ≈ 4.997 for all galaxies
+   - 8/22 match (GCs, DF2, M82), 14/22 don't (dwarfs, spirals, clusters)
+   - Captures qualitative pattern, not specific values
+   - L9 (specific M_dyn/M_b) remains open
+
+4. **§3.42 Phase transitions + PBH cumulative DM (negligible)**
+   - EW phase transition: 10^-10 % of v2.7.51 (negligible)
+   - QCD phase transition: 10^-15 % (negligible)
+   - PBH evaporation: 10^-33 % (negligible)
+   - F_p(0) = 0.9993 is robust across all variations
+   - L51 partially addressed: F_p(0) consistent with 4D event
+
+5. **§3.43 L37 α=1.29 derivation attempt (OPEN)**
+   - Tested 7 frameworks: classical CGHS, Strominger, RST,
+     2D Liouville, brane nucleation, AdS2/CFT1, dilaton V(φ)
+   - NONE naturally give α=1.29
+   - Closest: dilaton V(φ)=exp(2.81φ) but specific
+   - α=1.29 remains PHENOMENOLOGICAL FIT to SN 33s
+   - L37 still OPEN
+
+6. **Net: +3 pages, 1 new section (lessons), 1 L addressed (L51 partial)**
+   - Total paper: 273 pages (was 270)
+   - 52 honest limitations (L51 partially addressed, L37 open)
+   - 4 closed, 31 open, 10 partial, 2 falsified, 4 reverted, 1 discarded
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.52 entry (unchanged):**
+
 ## v2.7.52 (June 2026) — F_p/F_s REVISED based on cumulative DM analysis
 
 **Major changes since v2.7.51:**

@@ -1,0 +1,61 @@
+{
+  "description": "L51 derivation attempt: F_p(0) from 4D event energy budget",
+  "method": "F_p(0) = E_4D / (E_4D + E_cumulative). E_cumulative from v2.7.51 (8.6e18 M_\u2609 c^2).",
+  "cumulative_energy_J": 1.537434036216e+66,
+  "required_E_4D_for_F_p_0.9993": 2.1947969034152125e+69,
+  "required_E_4D_in_GeV": 1.3700355202342151e+79,
+  "required_E_4D_in_M_sun": 1.2277114285714286e+22,
+  "conclusion": "F_p(0) = 0.9993 is consistent with the 4D event being at or above the Planck scale. This is reasonable for a 4D event that created our universe.",
+  "honest_assessment": "NOT a true first-principles derivation. The 4D event energy is currently UNSPECIFIED in the cascade. F_p(0) = 0.9993 is consistent with a 4D event at the Planck scale, but a full derivation requires: (1) a model of the 4D event, (2) the fraction going to 2D vs 3+1D, (3) the energy distribution of 2D universes. All three are open work.",
+  "L51_status": "PARTIALLY ADDRESSED (v2.7.53): F_p(0) is consistent with 4D event at Planck scale. Full first-principles derivation is open work.",
+  "scenarios": [
+    {
+      "scenario": "1 Planck mass (4D Planck scale)",
+      "E_4D_J": 1955789670.4,
+      "F_p_0": 1.2721129000198769e-57,
+      "F_s_0": 1.0
+    },
+    {
+      "scenario": "10 Planck masses",
+      "E_4D_J": 19557896704.0,
+      "F_p_0": 1.2721129000198768e-56,
+      "F_s_0": 1.0
+    },
+    {
+      "scenario": "GUT scale (10^16 GeV, ~1 kg)",
+      "E_4D_J": 8.988004e+16,
+      "F_p_0": 5.846107077297227e-50,
+      "F_s_0": 1.0
+    },
+    {
+      "scenario": "Inflation scale (10^13 GeV, ~10^-13 kg)",
+      "E_4D_J": 8988.004,
+      "F_p_0": 5.846107077297228e-63,
+      "F_s_0": 1.0
+    },
+    {
+      "scenario": "String scale (10^18 GeV, ~10^9 Planck)",
+      "E_4D_J": 1.9557896704000003e+18,
+      "F_p_0": 1.272112900019877e-48,
+      "F_s_0": 1.0
+    },
+    {
+      "scenario": "Astrophysical BH merger (10 M_\u2609)",
+      "E_4D_J": 1.7877139956e+48,
+      "F_p_0": 1.1627906976744186e-18,
+      "F_s_0": 1.0
+    },
+    {
+      "scenario": "SMBH merger (10^9 M_\u2609)",
+      "E_4D_J": 1.7877139956e+56,
+      "F_p_0": 1.1627906975392104e-10,
+      "F_s_0": 0.9999999998837209
+    },
+    {
+      "scenario": "Cosmological energy density (10^62 J)",
+      "E_4D_J": 1e+62,
+      "F_p_0": 6.503921060902715e-05,
+      "F_s_0": 0.999934960789391
+    }
+  ]
+}

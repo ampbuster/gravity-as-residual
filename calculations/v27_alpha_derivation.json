@@ -1,0 +1,62 @@
+{
+  "description": "L37 \u2014 \u03b1=1.29 derivation attempt across 5+ frameworks",
+  "method": "Test classical CGHS, Strominger back-reaction, RST exact, 2D Liouville, brane nucleation, AdS2/CFT1, dilaton potential V=exp(\u03b2\u03c6).",
+  "cascade_alpha": 1.29,
+  "SN_calibration": {
+    "E_SN_J": 1e+44,
+    "tau_SN_obs_s": 33,
+    "tau_pred_with_alpha_1.29_s": 32.03977973592182,
+    "matches_calibration": true
+  },
+  "frameworks_tested": [
+    {
+      "name": "Classical CGHS (no back-reaction)",
+      "alpha": 1.0,
+      "notes": "p=1 linear"
+    },
+    {
+      "name": "Strominger back-reaction",
+      "alpha": 1.5,
+      "notes": "p=1.5 with quantum corrections"
+    },
+    {
+      "name": "CGHS with all corrections",
+      "alpha": 3.0,
+      "notes": "p=3"
+    },
+    {
+      "name": "RST exact",
+      "alpha": 1.0,
+      "notes": "p=1"
+    },
+    {
+      "name": "2D Liouville (Polyakov)",
+      "alpha": 0.5,
+      "notes": "p=0.5"
+    },
+    {
+      "name": "Brane nucleation",
+      "alpha": "exponential",
+      "notes": "not power law"
+    },
+    {
+      "name": "AdS2/CFT1 (SYK)",
+      "alpha": 0.5,
+      "notes": "p=0.5 for chaotic"
+    },
+    {
+      "name": "Dilaton V=exp(\u03b2\u03c6)",
+      "alpha": 1.29,
+      "beta": 2.81,
+      "notes": "specific coupling required"
+    },
+    {
+      "name": "Cascade (phenomenological)",
+      "alpha": 1.29,
+      "notes": "calibrated to SN 33s"
+    }
+  ],
+  "honest_finding": "After testing 5+ theoretical frameworks, NONE naturally give \u03b1 = 1.29. The cascade \u03b1 is a phenomenological fit, not a first-principles derivation. L37 remains OPEN.",
+  "L37_status": "OPEN (v2.7.53). \u03b1=1.29 is in CGHS RANGE [1, 3] but cannot be uniquely derived. A specific CGHS-with-back-reaction or 2D CFT calculation that yields p=1.29 would be a major step.",
+  "implications_for_cascade": "The cascade should be honest that \u03b1=1.29 is a calibrated parameter, not derived. This is consistent with the cascade being a phenomenological model."
+}

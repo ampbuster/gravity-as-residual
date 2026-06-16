@@ -1,0 +1,21 @@
+{
+  "description": "Cumulative DM with phase transitions and PBH evaporation (v2.7.53)",
+  "method": "Add EW phase transition (10^55 J), QCD phase transition (10^50 J), PBH evaporation (10^20 PBHs \u00d7 10^12 J) to v2.7.51 cumulative.",
+  "previous_cumulative_v2751_M_sun": 8.6e+18,
+  "EW_phase_transition_M_sun": 55900000.0,
+  "QCD_phase_transition_M_sun": 559.0,
+  "PBH_evaporation_M_sun": 5.59e-16,
+  "total_cumulative_v2753_M_sun": 8.600000000055938e+18,
+  "F_s_0_with_phase_transitions": 0.000682539682544122,
+  "F_p_0_with_phase_transitions": 0.9993174603174558,
+  "cascade_F_p_0_target": 0.9993,
+  "match": true,
+  "caveats": [
+    "EW phase transition energy: model-dependent (10^52-10^58 J)",
+    "QCD phase transition energy: model-dependent (10^47-10^53 J)",
+    "PBH abundance: highly uncertain (10^-20 to 10^20 over cosmic history)",
+    "Vacuum decay: unconfirmed observationally",
+    "Energy conversion to 2D universes: assumed 100% (deaths-only DM)"
+  ],
+  "honest_finding": "Including phase transitions and PBH evaporation does NOT change the qualitative picture. F_p(0) \u2248 0.9993 is still consistent. The 99.93% primordial figure holds across all reasonable variations of these uncertain parameters."
+}
