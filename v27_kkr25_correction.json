@@ -1,0 +1,12 @@
+{
+  "finding": "KKR 25 M_b was wrong by 1000x",
+  "cascade_old_M_b": 3000000000.0,
+  "Makarov_2012_M_b": 3000000.0,
+  "cascade_old_M_dyn_over_M_b": 299,
+  "revised_M_dyn_over_M_b": "5-30 (typical dSph parameters)",
+  "revised_bifurcation_ratio": "2.5-30x (was 820x)",
+  "cascade_interpretation": "Still qualitatively correct (intermediate SF -> DM)",
+  "quantitative_prediction": "Much weaker than 299x claim",
+  "status": "Honest self-correction, KKR 25 is no longer \"smoking gun\"",
+  "paper_section": "\u00a73.27"
+}

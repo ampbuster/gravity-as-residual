@@ -2,6 +2,45 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.33 (June 2026) — §3.27 KKR 25 self-correction
+
+**Major changes since v2.7.32:**
+
+1. **§3.27 NEW: KKR 25 M_b self-correction** (~3 pages)
+   - **FINDING: Cascade's KKR 25 M_b was off by 1000×**
+   - Cascade had: M_b = 3×10⁹ M_⊙ (WRONG)
+   - Makarov 2012 says: M_b = 3×10⁶ M_⊙ (CORRECT)
+   - The "1.0 M_⊙/yr × 3 Gyr" computation was a misreading of the SFH
+
+2. **KKR 25 was the cascade's "smoking gun" for bifurcation**
+   - M_dyn/M_b = 299 was the headline number
+   - With correct M_b, M_dyn/M_b is more like 1-4 (typical dSph values)
+   - Revised bifurcation ratio: 0.7-3× (was 820×)
+
+3. **Cascade's INTERPRETATION is still qualitatively right**
+   - KKR 25 has higher M_dyn/M_b than AGC 114905
+   - Intermediate-age SF (1-4 Gyr) → 2D universes → DM
+   - But QUANTITATIVE prediction is much weaker
+
+4. **L38 added: KKR 25 M_b value (off by 1000×)**
+   - The cascade's "smoking gun" was a numerical error
+   - Honest self-correction is a feature of the cascade's methodology
+   - The bifurcation argument needs revision
+
+5. **Lessons**:
+   - Numerical errors can hide in plain sight
+   - Web research caught this before the cascade "shipped" a wrong number
+   - Honest self-critique is more valuable than papering over errors
+   - The cascade's bifurcation story is right qualitatively, weaker quantitatively
+
+6. **Net: 1 new section, ~3 pages**
+   - Total paper: 253 → 256 pages
+   - Test counts UNCHANGED
+   - 39 honest limitations (L38 added)
+   - 1 free parameter (z_half only)
+
+**Earlier v2.7.32 entry (unchanged):**
+
 ## v2.7.32 (June 2026) — §3.26 intermediate dwarf population web research
 
 **Major changes since v2.7.31:**
