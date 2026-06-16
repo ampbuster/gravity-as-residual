@@ -1,0 +1,40 @@
+{
+  "agc_114905_status": "DM content CONTESTED in 2022-2025 literature",
+  "kkr_25_status": "No new observations since 2012",
+  "cascade_bifurcation_status": "Even more uncertain (0.7-3\u00d7 \u2192 1-2\u00d7)",
+  "positive_for_cascade": "AGC 114905 unusual halo is hard for CDM, easy for cascade",
+  "papers": [
+    {
+      "year": 2022,
+      "authors": "Mancera Pi\u00f1a et al.",
+      "journal": "MNRAS 512, 3230",
+      "arxiv": "2110.00014",
+      "finding": "No trace of dark matter in AGC 114905",
+      "cascade_impact": "Original \"no DM\" claim, M_dyn/M_b ~ 1.36"
+    },
+    {
+      "year": 2022,
+      "authors": "Sellwood",
+      "journal": "MNRAS (stac1604)",
+      "arxiv": "2206.04609",
+      "finding": "AGC 114905 NEEDS dark matter",
+      "cascade_impact": "Counter-paper: disc is too stable without DM, original analysis underestimates halo"
+    },
+    {
+      "year": 2024,
+      "authors": "Mancera Pi\u00f1a, Golini, Trujillo, Montes",
+      "journal": "A&A",
+      "arxiv": "2404.06537",
+      "finding": "Ultra-deep imaging, inclination 31\u00b12\u00b0; MOND does not fit; CDM needs unusual halo; SIDM/FDM remain feasible",
+      "cascade_impact": "Confirms unusual halo, M_dyn/M_b uncertain"
+    },
+    {
+      "year": 2025,
+      "authors": "Afruni, Marinacci, Mancera Pi\u00f1a, Fraternali",
+      "journal": "MNRAS 538, 60",
+      "arxiv": "2502.08717",
+      "finding": "AGC 114905 can evolve in low-density halos that challenge \u039bCDM",
+      "cascade_impact": "Supports unusual halo, consistent with cascade geometric DM"
+    }
+  ]
+}

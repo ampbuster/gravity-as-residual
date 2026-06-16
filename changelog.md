@@ -2,6 +2,49 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.35 (June 2026) — §3.29 recent papers on AGC/KKR
+
+**Major changes since v2.7.34:**
+
+1. **§3.29 NEW: Recent papers on AGC 114905 and KKR 25** (~2 pages)
+   - **AGC 114905 DM content is CONTESTED in 2022-2025 literature:**
+     * Mancera Piña+ 2022 (MNRAS 512, 3230): "No trace of DM"
+     * Sellwood 2022 (MNRAS, stac1604): "AGC 114905 NEEDS DM"
+     * Mancera Piña+ 2024 (A&A, arXiv:2404.06537): Ultra-deep imaging,
+       inclination 31±2°, MOND doesn't fit, CDM needs unusual halo,
+       SIDM/FDM remain feasible
+     * Afruni+ 2025 (MNRAS 538, 60, arXiv:2502.08717): AGC 114905 can
+       evolve in low-density halos that challenge ΛCDM
+
+2. **KKR 25 has NO new observations since 2012**
+   - No published velocity dispersion
+   - The 2012 Makarov paper remains the only detailed study
+   - M_dyn is still estimated, not measured
+
+3. **Bifurcation is even more uncertain**
+   - Old: 219× (numerical error, fixed)
+   - v2.7.33+: 0.7-3× (estimate)
+   - v2.7.35+: 1-3× or LESS (if AGC 114905 has more DM than assumed)
+
+4. **POSITIVE for the cascade:**
+   - AGC 114905's unusual halo is HARD for standard CDM
+   - SIDM/FDM (similar to cascade's geometric DM) remain feasible
+   - The cascade doesn't need "usual" halos
+   - The cascade can accommodate unusual halo properties
+
+5. **L40-42 added**:
+   - L40: AGC 114905 DM content is contested in 2022-2025
+   - L41: KKR 25 has no new observations in 2024-2026
+   - L42: Cascade's bifurcation is now even more uncertain
+
+6. **Net: 1 new section, ~2 pages**
+   - Total paper: 256 → 258 pages
+   - Test counts UNCHANGED
+   - 43 honest limitations (L40-42 added)
+   - 1 free parameter (z_half only)
+
+**Earlier v2.7.34 entry (unchanged):**
+
 ## v2.7.34 (June 2026) — §3.28 10-year data gap methodological concern
 
 **Major changes since v2.7.33:**
