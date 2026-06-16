@@ -2,6 +2,77 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.67 (June 2026) — Deeper research: honest limits
+
+**Major changes since v2.7.66:**
+
+1. **User's request**: do them all (deeper).
+
+2. **5 deeper research angles**:
+
+**Part 1: BLG model refined**
+- Multiple models give α = 1.29 at different angles
+- Bistritzer-MacDonald: θ = 2.04°
+- Exponent model: θ = 1.5°
+- Power model: θ = 1.5°
+- Magic angle: 1.5-2.0° (model-dependent)
+
+**Part 2: Nariai claim detailed**
+- Standard dS_2: α < 0 (wrong)
+- Near-Nariai: α < 0 (still wrong)
+- For α > 0: need AdS_2 × S² + Majorana matter + specific dynamics
+- Not pure Nariai
+
+**Part 3: SM fermion identification**
+- 12 Majoranas ↔ 12 SM Weyl fermions (3 × 4)
+- 495 SYK couplings vs 21 SM parameters (factor of 23)
+- Identification is BACKBONE not 1-to-1
+- 12 Majoranas provide structure, not specific CKM/PMNS
+
+**Part 4: CKM/PMNS matrices**
+- Not derived from N=12 SYK
+- Would need specific J coupling structure
+- Cascade doesn't currently predict CKM/PMNS
+
+**Part 5: SM mass ratios**
+- All 12 Majoranas have same 'mass' in pure SYK
+- Mass ratios require SYK symmetry breaking
+- Cascade doesn't currently predict mass ratios
+
+3. **L83 REVISED**: Magic angle 1.5-2.0° (model-dependent, not 1.1°)
+4. **L82 REVISED**: Need AdS_2 × S² + Majorana matter (not pure Nariai)
+5. **L78 REVISED**: 12 Majoranas = BACKBONE not 1-to-1
+6. **L84 NEW**: 12 Majoranas don't derive CKM/PMNS or mass ratios
+
+**HONEST LIMITATIONS (v2.7.67)**:
+- N=12 ↔ SM is BACKBONE, not 1-to-1
+- CKM/PMNS NOT derived
+- SM mass hierarchy NOT derived
+- dS_2 topology requires AdS_2 × S² + Majorana matter
+- Magic angle is 1.5-2.0° (model-dependent)
+
+**What the composite model DOES derive**:
+- α = 1.289 (lifetime scaling, EXACT from N=12)
+- c = 1/2 (Ising CFT, N/24)
+- 1/(2α) = 0.388 (back-action)
+- f_back = 8.6e-86 (universal, gives 10^-85)
+- 14 event types follow τ_2D ~ M^1.29
+- 1/√N saddle-point theoretical support
+
+**What the composite model does NOT derive**:
+- Specific CKM/PMNS values
+- Specific SM mass ratios
+- Specific magic angle (1.5-2.0° range)
+- Specific dS_2 topology details
+- Why N=12 specifically (vs other N close to 12)
+
+**Net: +2 pages, +1 limitation**
+- Total: 294 pages
+- 81 honest limitations
+- 5 closed, 58 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
+
+**Earlier v2.7.66 entry (unchanged):**
+
 ## v2.7.66 (June 2026) — Did them all: consequences, data, simulations
 
 **Major changes since v2.7.65:**

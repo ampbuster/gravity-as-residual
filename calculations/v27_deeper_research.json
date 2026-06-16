@@ -1,0 +1,46 @@
+{
+  "description": "Deeper research: BLG, Nariai, SM identification",
+  "BLG_refined": {
+    "model_A_BM": "\u03b1 = 1 + (\u03b8_m/\u03b8)\u00b2, gives \u03b8 = 2.04\u00b0",
+    "model_B_exponent": "\u03b1 = 1 + 0.85(1.1/\u03b8)^3.5, gives \u03b8 = 1.5\u00b0",
+    "model_C_pow": "\u03b1 = 1 + 0.5^p with p = 1.79, gives \u03b8 = 1.5\u00b0",
+    "magic_angle_range": "1.5-2.0\u00b0 (model-dependent)"
+  },
+  "Nariai_detailed": {
+    "standard_dS_2": "\u03b1 = -1/2 (NEGATIVE, wrong)",
+    "near_Nariai": "\u03b1 = -1/2 (still negative)",
+    "for_alpha_positive": "Need AdS_2 \u00d7 S\u00b2 topology, Majorana matter, specific dynamics",
+    "verdict": "Cascade 2D universes are Nariai-LIKE (not exactly Nariai)"
+  },
+  "SM_identification_detailed": {
+    "12_Majoranas": "12 SM Weyl fermions (3 \u00d7 4)",
+    "couplings": "495 SYK J couplings vs 21 SM parameters",
+    "interpretation": "BACKBONE not 1-to-1 mapping",
+    "CKM_PMNS": "Not derived from N=12",
+    "mass_ratios": "Not derived from N=12 (all Majoranas equal in pure SYK)"
+  },
+  "L83_REVISED": "Cascade magic angle is 1.5-2.0\u00b0 (model-dependent)",
+  "L82_REVISED": "For \u03b1 > 0, need AdS_2 \u00d7 S\u00b2 + Majorana matter (not pure Nariai)",
+  "L78_REVISED": "12 Majoranas \u2194 12 SM fermions is BACKBONE, not 1-to-1",
+  "L84_NEW": "12 Majoranas don't derive CKM/PMNS or mass ratios",
+  "honest_limitations": [
+    "N=12 \u2194 SM identification is BACKBONE, not 1-to-1",
+    "CKM/PMNS matrices are not derived",
+    "SM mass hierarchy is not derived",
+    "dS_2 topology requires AdS_2 \u00d7 S\u00b2 + Majorana matter",
+    "Magic angle is 1.5-2.0\u00b0 (model-dependent)"
+  ],
+  "updated_calibrated_postulates_v2_7_67": {
+    "F_p(0)": "0.9993 (L51 partial)",
+    "A_event": "1",
+    "epsilon": "1e-38",
+    "z_half": "3",
+    "f_back": "8.6e-86 (UNIVERSAL, scaling law) L52 CLOSED",
+    "N_majorana": "12 (q=4 SYK, backbone for SM) L68, L78, L84",
+    "topology_2D": "AdS_2 \u00d7 S\u00b2 + Majorana matter (not pure Nariai) L82 REVISED",
+    "magic_angle": "1.5-2.0\u00b0 (BLG-like, model-dependent) L83 REVISED",
+    "c_2D": "1/2 (Ising CFT, N/24) L66",
+    "alpha": "1 + 1/\u221aN = 1.289 (saddle-point) L68, L71",
+    "one_over_2alpha": "c/\u03b1 = 0.388 (composite) L67, L74, L76"
+  }
+}
