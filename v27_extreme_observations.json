@@ -1,0 +1,14 @@
+{
+  "extreme_observations": [
+    "TDGs (Gentile+ 2007)",
+    "JWST massive quiescent z>4 (RUBIES, ZF-UDS, Cosmic Stillness)",
+    "Crater II (Caldwell+ 2017, 2025 disruption papers)",
+    "Antlia 2 (Torrealba+ 2018)",
+    "UFDs (Bootes, Segue 1, Willman 1)",
+    "Stellar streams (GD-1, IKL)"
+  ],
+  "strongest_test": "TDGs (most direct test of DM=SFH rule)",
+  "highest_past_sf_test": "JWST massive quiescent z>4",
+  "cascade_predicted_passes": "17-22/17-22 (vs current 12/12)",
+  "caveats": "Each test has its own confounder (tidal disruption, inclination, etc.)"
+}

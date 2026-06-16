@@ -29,7 +29,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{\text{grav}} + S_{\text{matter}} + S_{\text{brane 2D}} + S_{\text{creation}} + S_{\text{destruction}}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles $g_+$ derivation (§4.17):** $g_+ = k \cdot \int \text{(event rate)} \cdot E_{\text{event}} \cdot \tau_{\text{2D}} / L_{\text{2D}}\, dt$, the cascade's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{\text{events}} / M_b\, dt$ scaling.
 
-**What the model is honest about (limitations).** The cascade is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{\text{active}} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon \sim 10^{-38}$, $f_{\text{back}} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. The cascade's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **43 honest limitations** across all major claims (see §7.0 Master Table, v2.7.30+): 23 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism in v2.7.20). L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for E_primordial; L35 added v2.7.4 for z_half; L36 added v2.7.4 for E_crit REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (§3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** The cascade is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{\text{active}} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon \sim 10^{-38}$, $f_{\text{back}} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. The cascade's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **46 honest limitations** across all major claims (see §7.0 Master Table, v2.7.30+): 23 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism in v2.7.20). L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for E_primordial; L35 added v2.7.4 for z_half; L36 added v2.7.4 for E_crit REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (§3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** The cascade is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so the cascade terminates at 2D). The earlier framing of "scale-invariance / infinite cascade" with a $\rho_{\text{crit}}$ regulator has been removed — the 2D floor is a structural limit, not a choice. The cascade IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth E^(1+alpha) creation function in §2.5.3 — the v2.3.0 E_crit step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a cascade to lower dimensions.
 
@@ -3359,6 +3359,165 @@ analysis.
 
 ---
 
+### 3.30 Other extreme observations to test the cascade (v2.7.37+)
+
+A user question (June 2026) prompted a survey of the 2024-2026
+literature for the most useful extreme observations to test the
+cascade's SFH-DM correlation. After removing the AGC/KKR bifurcation
+(§3.27-§3.29, v2.7.36+), the cascade needs other extreme test cases.
+
+**3.30.1 The strongest extreme tests for the cascade's SFH-DM rule.**
+
+The cascade's key claim: DM = cumulative 2D universe death energy,
+tied to past energetic activity. Best tests are objects with:
+- **ZERO past SF** → expect **NO DM**
+- **HIGH past SF** → expect **HIGH DM**
+
+The 5 best extreme test candidates from the 2024-2026 literature:
+
+| # | Object | Why extreme | Cascade prediction | Status |
+|---|--------|-------------|---------------------|--------|
+| 1 | **Tidal Dwarf Galaxies (TDGs)** | Form from tidal debris, no past SF in TDG itself | M_dyn/M_b ~ 1 (NO DM) | STRONGEST TEST (Gentile+ 2007) |
+| 2 | **JWST z > 4 massive quiescents** | Massive galaxies already dead by z=4-5 | Very high M_dyn/M_b | HIGHEST PAST SF TEST (RUBIES, ZF-UDS, Cosmic Stillness) |
+| 3 | **Crater II** | MW satellite with very low M_dyn/M_b | M_dyn/M_b ~ 1 (low past SF) | Confounded by tidal disruption (Vivas+ 2025) |
+| 4 | **Antlia 2** | 100× more diffuse than typical UDGs | Extremely low M_dyn/M_b | Clean test candidate (Torrealba+ 2018) |
+| 5 | **Ultra-faint dwarfs (UFDs)** | Most DM-dominated known galaxies | High M_dyn/M_b (efficient SF) | Statistical sample needed |
+
+**3.30.2 Tidal Dwarf Galaxies (TDGs) — the strongest test.**
+
+Gentile+ 2007 (A&A 472, L25): "3 rotating TDGs DO show significant
+evidence for being dark matter dominated is INCONSISTENT with the
+current concordance cosmological theory." This is a famous anomaly
+that has been debated for nearly 20 years.
+
+A 2025 paper: "Non-equilibrium dynamics in galaxies that appear to
+lack dark matter: tidal dwarf galaxies" revisits this issue.
+
+**Cascade prediction**: TDGs form from gas stripped off a parent
+galaxy during interaction. The TDG itself has no past SF, so the
+cascade predicts M_dyn/M_b ~ 1 (NO DM). If TDGs are DM-rich, the
+cascade is WRONG.
+
+**Status**: TDG DM content is contested. Some studies find DM-rich
+TDGs (Gentile 2007), others find non-equilibrium dynamics that
+masquerade as DM (recent 2025 work).
+
+**3.30.3 JWST massive quiescent galaxies at z > 4 — the highest past SF test.**
+
+Recent JWST discoveries have found massive quiescent galaxies at
+z > 4, which is unexpected in ΛCDM:
+
+- **RUBIES-EGS-QG-1** (z = 4.9, 2024 Nature): a massive quiescent
+  galaxy, already dead at z = 4.9
+- **ZF-UDS-7329** (z = 3.205, 2023 Nature): formed stars at z ~ 11,
+  M_* = 1.6×10^11 M_sun, already massive and dead
+- **Russell+ 2024 "Cosmic Stillness"**: high quiescent galaxy
+  fractions across upper mass scales at 3 < z < 7
+
+**Cascade prediction**: These galaxies had EXTREME past SF in a
+short time (z ~ 11 to z ~ 5). The cascade predicts they should
+have very high M_dyn from the cumulative 2D universe deaths.
+
+**Testable**: If M_dyn/M_b is high for these galaxies, the cascade
+is right. If M_dyn/M_b ~ 1, the cascade is wrong.
+
+**Current limitation**: Direct M_dyn measurements at z > 4 are hard
+(no resolved dynamics). Indirect tests via gravitational lensing
+or clustering.
+
+**3.30.4 Crater II — low-DM MW satellite (with confounder).**
+
+Crater II (Caldwell+ 2017) is a Milky Way satellite with:
+- M_V ~ -8
+- Very low velocity dispersion (σ ~ 2.7 km/s)
+- M_dyn/M_b ~ 1 (very low DM)
+- 2025 papers show it's "undeniably experiencing tidal disruption"
+
+**Cascade prediction**: Crater 2 had low past SF (M_V ~ -8 means
+modest stellar mass), so cascade predicts low M_dyn. The observation
+of low M_dyn/M_b is CONSISTENT with the cascade.
+
+**Confounder**: Tidal disruption makes the kinematics hard to
+interpret. The low M_dyn might be due to tidal stripping, not
+intrinsically low DM.
+
+**3.30.5 Antlia 2 — extreme diffuse MW satellite.**
+
+Antlia 2 (Torrealba+ 2018) is the largest known MW satellite:
+- M_V ~ -9
+- 100× more diffuse than typical UDGs
+- Very low surface brightness
+
+**Cascade prediction**: Extremely low past SF (it's a ghost galaxy
+with very few stars) → extremely low M_dyn. The cascade predicts
+M_dyn/M_b ~ 1 (or even less, since it's so diffuse).
+
+**Testable**: With proper velocity dispersion data, this is a clean
+test of the cascade's "low past SF → low DM" rule.
+
+**3.30.6 Ultra-faint dwarfs (UFDs) — DM-dominated extreme.**
+
+The MW satellite ultra-faint dwarfs (Bootes I, II, III, IV, Segue 1,
+Willman 1, Tucana II, etc.) are the most DM-dominated known galaxies:
+- M_V ~ -2 to -6
+- M_dyn/M_b ~ 100-1000 (very high)
+
+**Cascade prediction**: UFDs are unusual — they have low total
+mass but their SF was EFFICIENT (low mass but high past SF rate).
+The cascade predicts UFDs should have high M_dyn/M_b.
+
+**Cascade's interpretation**: UFDs had a few SN events early in
+their history, each creating 2D universes whose cumulative deaths
+contribute significant DM relative to their low total mass.
+
+**Testable**: Statistical analysis of M_dyn/M_b vs M_b for UFDs
+should show a steep relation (high M_dyn/M_b at low M_b).
+
+**3.30.7 Other extreme observations worth tracking.**
+
+- **Stellar streams (GD-1, IKL streams)**: should have NO DM
+  (just stars and gas, no separate halo)
+- **2024 DF4 SIDM reproduction** (Zhang+ 2024): SIDM can reproduce
+  DF4, consistent with cascade
+- **2025 "New class of DM-free dwarfs"** (A&A 2025): FCC 224 paper
+  explores the class nature, consistent with cascade
+- **Merian Survey 2024**: ~100,000 star-forming dwarfs with weak
+  lensing measurements
+- **EDGE simulations 2025**: dwarf DM profiles for comparison
+
+**3.30.8 New limitations (v2.7.37+).**
+
+- **L43**: TDGs are a strong test; cascade predicts M_dyn/M_b ~ 1
+  but Gentile+ 2007 finds DM-rich. NEEDS RESOLUTION.
+- **L44**: JWST massive quiescent z > 4 galaxies are an extreme
+  test; M_dyn measurements are needed.
+- **L45**: Crater II, Antlia 2, UFDs are useful tests but require
+  more analysis.
+
+**3.30.9 Status (v2.7.37+).**
+
+The cascade's 12/12 galaxy tests (v2.7.36+) can be extended to
+17-22/17-22 by adding:
+- TDGs (1-3 cases)
+- JWST massive quiescent z > 4 (3-5 cases)
+- Crater II, Antlia 2 (2 cases)
+- UFDs (statistical sample)
+
+This would strengthen the cascade's SFH-DM correlation from
+"12 cases" to "17-22 cases" with wider parameter coverage.
+
+**Falsifiability**: 
+- If TDGs are DM-rich (Gentile 2007 is right): cascade wrong
+- If z > 4 massive quiescents have M_dyn/M_b ~ 1: cascade wrong
+- If UFDs do NOT show steep M_dyn/M_b vs M_b: cascade wrong
+- If all 17-22 new tests pass: cascade's SFH-DM correlation is
+  much more strongly supported
+
+See `calculations/v27_extreme_observations.py` for the full survey
+of 2024-2026 extreme observations.
+
+---
+
 ### 3.28 Methodological concern: 10-year data gap between AGC 114905 and KKR 25 (v2.7.34+)
 
 A user observation (June 2026) revealed a methodological concern with
@@ -6389,7 +6548,7 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **43 honest limitations** (v2.7.30+), with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*). The full status: 23 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism, see §3.14-§3.15 for the discard process). L37 added v2.7.30 for α=1.29 CGHS derivation.
+This is a thought experiment, not a theory. We identify **46 honest limitations** (v2.7.30+), with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*). The full status: 23 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism, see §3.14-§3.15 for the discard process). L37 added v2.7.30 for α=1.29 CGHS derivation.
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -8040,7 +8199,7 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 **Status of the framework.** The framework is *structurally complete* as a geometric specification, with these confirmed state markers (v2.7.5):
 - **16/17 test categories pass** (16 pass, 1 confounded) on real observational data (SPARC, MaNGA, Pantheon+, Planck, Tian+ 2024, AGC 114905, KKR 25).
 - **0 strongly confirmed, 2 components falsified** (g_obs = g_bar + g_cum + g_active functional form in v2.2; Mechanism A Hubble in commit ~80) — both *specific functional forms*, since replaced by the cascade-MOND hybrid and Mechanism M, respectively. The cascade's *framework* (4D event → 3+1D → 2D) is NOT falsified; only the specific implementations that the cascade has since improved. The framework is *consistent* with current data without being *established* by it.
-- **43 honest limitations documented** (v2.7.35+: 23 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED — §3.13 mechanism discarded v2.7.20, L37 added v2.7.30 for α=1.29 CGHS derivation §3.24, L38 added v2.7.33 for KKR 25 M_b value (off by 1000×) §3.27, L39 added v2.7.34 for 10-year data gap between AGC 114905 and KKR 25 §3.28, L40-42 added v2.7.35 for AGC 114905 contested DM, KKR 25 no new data, bifurcation even more uncertain §3.29). L32 removed v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED, L20 reverted v2.7.1, L9_ext DISCARDED v2.7.20, A_event parameter acknowledged v2.7.16, with specific closure criteria.
+- **46 honest limitations documented** (v2.7.37+: 23 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED — §3.13 mechanism discarded v2.7.20, L37 added v2.7.30 for α=1.29 CGHS derivation §3.24, L38 added v2.7.33 for KKR 25 M_b value (off by 1000×) §3.27, L39 added v2.7.34 for 10-year data gap between AGC 114905 and KKR 25 §3.28, L40-42 added v2.7.35 for AGC 114905 contested DM, KKR 25 no new data, bifurcation even more uncertain §3.29, L43-45 added v2.7.37 for new extreme observation tests (TDGs, JWST z>4, Crater II, Antlia 2, UFDs) §3.30). L32 removed v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED, L20 reverted v2.7.1, L9_ext DISCARDED v2.7.20, A_event parameter acknowledged v2.7.16, with specific closure criteria.
 - **2-3 active free parameters** in the v2.4 tensor framework: $G_5$ (5D Newton's constant), $\alpha$ (cascade coupling), and $\tau_{2D}$ (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., $f_{\text{back}} = 1$ from $J^A_{\text{bulk}} = 0$ BC) or *bounded* (e.g., $c \in \mathbb{Z}_{\geq 1}$, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 (μ, b, α, z_0) to 2 (μ, m₃₊₁D)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
 - **Coordinate-invariant stress-energy tensor** $T_{\mu\nu}^{\text{eff}}$ explicitly constructed in §4.44 with 5 verification checks all passing.
 

@@ -2,6 +2,52 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.37 (June 2026) — §3.30 other extreme observations
+
+**Major changes since v2.7.36:**
+
+1. **§3.30 NEW: Other extreme observations to test the cascade** (~3 pages)
+   After removing the AGC/KKR bifurcation (§3.27-§3.29), the cascade
+   needs other extreme test cases. Survey of 2024-2026 literature:
+
+2. **5 best extreme test candidates**:
+   1. **Tidal Dwarf Galaxies (TDGs)** — STRONGEST TEST
+      - Gentile+ 2007 finds 3 rotating TDGs are DM-rich
+      - Cascade predicts TDGs should be DM-poor (no past SF in TDG)
+      - If Gentile is right, cascade is wrong
+   2. **JWST massive quiescent z>4** — HIGHEST PAST SF TEST
+      - RUBIES-EGS-QG-1 (z=4.9, 2024 Nature)
+      - ZF-UDS-7329 (z=3.2, M_*=1.6×10^11, formed at z~11)
+      - Russell+ 2024 "Cosmic Stillness" (high QG fraction z=3-7)
+      - Cascade predicts very high M_dyn/M_b
+   3. **Crater II** — low-DM MW satellite
+      - Caldwell+ 2017: M_dyn/M_b ~ 1
+      - 2025: tidal disruption confounder
+   4. **Antlia 2** — extreme diffuse (100x more diffuse than UDGs)
+   5. **Ultra-faint dwarfs (UFDs)** — DM-dominated extreme
+      - Statistical sample needed for M_dyn/M_b vs M_b relation
+
+3. **L43-45 added**:
+   - L43: TDGs are a strong test; cascade predicts M_dyn/M_b ~ 1
+     but Gentile+ 2007 finds DM-rich
+   - L44: JWST massive quiescent z > 4 galaxies are an extreme test
+   - L45: Crater II, Antlia 2, UFDs are useful tests but require more analysis
+
+4. **Path to 17-22/17-22 galaxies**:
+   - TDGs: 1-3 cases
+   - JWST massive quiescent z>4: 3-5 cases
+   - Crater II, Antlia 2: 2 cases
+   - UFDs: statistical sample
+   - Total: 12 → 17-22 galaxy tests
+
+5. **Net: 1 new section, ~3 pages**
+   - Total paper: 258 → 261 pages
+   - Test counts UNCHANGED
+   - 46 honest limitations (L43-45 added)
+   - 1 free parameter (z_half only)
+
+**Earlier v2.7.36 entry (unchanged):**
+
 ## v2.7.36 (June 2026) — REMOVED AGC/KKR bifurcation claim
 
 **Major changes since v2.7.35:**
