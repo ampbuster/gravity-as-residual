@@ -1,0 +1,24 @@
+{
+  "pauli_blocking_ineffective": {
+    "p_F_eV": 4.546209495983109e-13,
+    "E_decay_eV": 500000000.0,
+    "ratio": 1.0998173323112026e+21
+  },
+  "neutrino_flux_too_high": {
+    "cascade_prediction": 3325.9187771194725,
+    "super_k_limit": 0.0001,
+    "tension_factor": 33259187.771194723
+  },
+  "sterile_neutrino_constraints": {
+    "m_s_assumed_GeV": 1.0,
+    "sin2_2theta_required": 0.00010071208381280652,
+    "verdict": "m_s ~ 1 GeV sterile neutrino is heavily constrained"
+  },
+  "alternative_mechanisms": [
+    "stable WIMP (no decay)",
+    "axion-like particle (no decay)",
+    "primordial black hole DM (no decay)",
+    "geometric DM (no particle, no decay)"
+  ],
+  "cascade_honest_claim": "The cascade DM is geometric (cumulative effect of 2D universe deaths), not committed to a specific particle. The user hypothesis (sterile neutrino decay) is one option, but the Pauli blocking mechanism does not work as described."
+}
