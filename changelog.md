@@ -1,4 +1,23 @@
 
+## v3.0.17 — Wrap raw LaTeX in $...$ delimiters (June 2026)
+
+**User feedback:** "some markdown still incorrect"
+
+Found 3 lines in 10_end_universe.md with raw LaTeX (`T_{D-1}`,
+`M_{Pl,4}`, `E_D^1.29`) outside of `$...$` delimiters. These were
+being interpreted by the markdown parser as italic/subscript and
+showing as raw text on the phone viewer.
+
+**Fixed:**
+- `T_{D-1} ∝ E_D^1.29` → `$T_{D-1} \propto E_D^{1.29}$`
+- `M_{Pl,4} ≥ 887 GeV` → `$M_{Pl,4} \geq 887$ GeV`
+- `2×10²⁶ yr` → `$2 \times 10^{26}$ yr`
+- `T ∝ E^1, T ∝ E²` → `$T \propto E^1$, $T \propto E^2$`
+- `M_{Pl,3}` → `$M_{Pl,3}$`
+
+PDF still builds clean (276 pages).
+
+
 ## v3.0.16 — Wrap \cdot/\int in $...$ to fix LaTeX errors (June 2026)
 
 **User feedback:** "some markdown incorrect. this is pdf, not md. md is fine"
