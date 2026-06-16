@@ -2,6 +2,33 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.43 (June 2026) — README CMB GAP cleanup
+
+**Major changes since v2.7.42:**
+
+1. **Removed stale "CMB GAP (§13)" reference**
+   - The CMB gap was actually closed in v2.7.5+
+   - The §4.48.1 smooth F_p(z) (Hill n=2, z_half=3) primordial
+     component gives r(z) ≈ (1+z)³ at high z
+   - This matches Planck 2018's Ω_DM = 0.265 at z=1100
+   - The cascade's mechanism does NOT need an early-DM component
+   - Old "⚠️ CMB GAP" line in README was a v2.7.3-era statement
+
+2. **Updated limitations count in README**
+   - Old: 32 (v2.7.3 STATE)
+   - New: 50 (v2.7.42+)
+   - L34-L49 added across v2.7.4-v2.7.42
+   - Breakdown: 30 open, 10 partial, 3 closed, 2 falsified,
+     4 reverted, 1 discarded
+
+3. **Net: 0 new pages, README cleanup only**
+   - Total paper: 264 pages (no change)
+   - 50 honest limitations (no change)
+   - 1 free parameter (z_half only)
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.42 entry (unchanged):**
+
 ## v2.7.42 (June 2026) — KKR 25 added to wide-range table (estimated)
 
 **Major changes since v2.7.41:**
