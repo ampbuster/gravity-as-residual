@@ -7,11 +7,11 @@
 **Version:** 3.0.2 (June 2026) — *Paper content: v3.0.2 (dimensional scale invariance, SIDC naming restored, §3.61). Build: v3.0.21 (limitations count fixed to 37, table syntax documented, all tables rendering properly). 328 pages.*
 
 **v3.0.2 PARAMETER CLEANUP**: 0 calibrated postulates (was 3 in v2.7.x, 5 in v2.7.16). All values now DERIVED from the cascade structure:
-- f_back = ε × (E_4D/M_Pl^4) — bulk-brane coupling × 4D event energy ratio
-- ε = e^{-kL} — RS-II bulk-brane coupling (from bulk geometry μ, m_3+1D)
-- F_p(0) = 0.9993 — calculated from cumulative DM over 14+ event types (§3.40)
+- **f_back** = ε × (E₄D / M_Pl⁴) — bulk-brane coupling × 4D event energy ratio
+- **ε** = exp(−kL) — RS-II bulk-brane coupling (from bulk geometry μ, m₃₊₁D)
+- **F_p(0)** = 0.9993 — calculated from cumulative DM over 14+ event types (§3.40)
 
-**The only free parameters are μ and m_3+1D** (the standard brane-world parameters). All 5 observational inputs (5/27/68, H_0, E_SN, Ω's, g_+) are taken from data. Everything else follows from the cascade structure (N=12 SYK backbone).
+**The only free parameters are μ and m₃₊₁D** (the standard brane-world parameters). All 5 observational inputs (5/27/68, H₀, E_SN, Ω's, g₊) are taken from data. Everything else follows from the cascade structure (N=12 SYK backbone).
 
 **What is SIDC?** The model is called **SIDC — Scale-Invariant Dimensional Cascade**. The original v2.3.2 name was "Scale-Invariant Dimensional Cascade" (SIDC), shortened to "the cascade" in v2.4-2.7, and now restored as SIDC in v3.0.2 to emphasize the scale-invariance aspect. (The historical "Dimensional Cascade" / DC label is now deprecated.)
 
@@ -177,7 +177,7 @@ This is SIDC's central quantitative claim. One formula works across all 14 energ
 
 **The single formula:**
 
-$$\tau_{2D} \sim E^{1.29} \text{ (in our frame)}$$
+**τ_2D ~ E^1.29 (in our frame)**
 
 A 2D universe created by an event of energy E lives for a time proportional to E^1.29 in 3+1D view. The exponent 1.29 comes from SIDC's N=12 SYK backbone (α = 1 + 1/√12 = 1.289).
 
@@ -201,7 +201,7 @@ A 2D universe created by an event of energy E lives for a time proportional to E
 **The competition can't match this:**
 
 - **ΛCDM**: works on cosmological scales, fails at galaxy scales (cusp-core, missing satellites, too-big-to-fail)
-- **MOND**: works at galaxy scales, fails at cluster scales (cluster g_+ is 14× higher than the galaxy value, Tian+ 2024)
+- **MOND**: works at galaxy scales, fails at cluster scales (cluster g₊ is 14× higher than the galaxy value, Tian+ 2024)
 - **UDM / Chaplygin gas**: works on cosmological scales, but the unified fluid has c_s² ~ 1 → suppresses all small-scale structure
 - **Verlinde / entropic gravity**: static — can't distinguish "same mass, different history" cases (AGC 114905 vs KKR 25)
 
@@ -447,22 +447,22 @@ This is the cumulative result of the v2.4 work. SIDC's three main quantitative p
 | **r(z=2)** (proper DM density, relative) | 26.9 | 27 | ✓ MATCHES |
 | **r(z=6)** (proper DM density, relative) | 342.0 | 343 | ✓ MATCHES |
 | **r(z=10)** (proper DM density, relative) | 1327 | 1331 | ✓ MATCHES |
-| **Δχ² CMB** | +650 vs Planck (H_0 mismatch) | — | Hub tension only |
+| **Δχ² CMB** | +650 vs Planck (H₀ mismatch) | — | Hub tension only |
 | **S_8** (cosmic shear) | 0.775 (σ_8=0.75) | 0.759 (DES/KiDS) | within 1σ |
-| **g_+ per galaxy** (43 SPARC) | 9.74e-11 m/s² | 1.20e-10 (Lelli+ 2017) | within 1σ |
+| **g₊ per galaxy** (43 SPARC) | 9.74e-11 m/s² | 1.20e-10 (Lelli+ 2017) | within 1σ |
 | **BTFR slope** (129 SPARC) | 3.53 (predicted 4) | 3.53 | within 1σ |
 | **MDAR for dSphs** (10 dSphs) | factor ~2 from MOND | factor ~2 from MOND | ✓ MATCHES |
 | **AGN host DM** (morphology-matched) | +6.4% ratio | — | p=0.047 |
 | **AGC 114905** | contested (Mancera Piña 2022: ~1, Sellwood 2022: ~2-3) | ~1-3 | ✓ PASS (DISPUTED, §3.45+) |
 | **KKR 25** ⚠️ | ~1 (est.) | ~1 (est., no published velocity dispersion) | ✓ PASS (est., v2.7.42+) |
-| **Hubble H_0** | 70 ± 3 (qualitative consistency) | 73 (SH0ES), 67.4 (Planck) | 5.6 km/s/Mpc gap is a ΛCDM-framework artifact (no specific H_0 derived) |
+| **Hubble H₀** | 70 ± 3 (qualitative consistency) | 73 (SH0ES), 67.4 (Planck) | 5.6 km/s/Mpc gap is a ΛCDM-framework artifact (no specific H₀ derived) |
 | **Sun no-DM** | <10⁻¹⁷ ratio | confirmed | ✓ PASS |
 
 **17/17 test categories consistent at the qualitative level (16 pass + 1 confounded).** 7/7 specific cases consistent. 0 falsified. SIDC is now in its strongest scientific position.
 
 ### Why these matches matter
 
-The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction. SIDC's qualitative interpretation: 5% = baryons (real 3+1D), 27% = DM (2D universe back-projection), 68% = DE (4D event antigravity). The 5:27 inner split (5% "active" vs 27% "cumulative") was dropped in v2.7.1 as a separate postulate that conflicted with the empirical 33 s lifetime. The user-identified gap ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?") led to the smooth F_p(z) function (§4.48.1) that gives SIDC's R(z) the right scaling to match ΛCDM at all z (Thomson's per-event contribution is actually negligible, ~10^-66 of SN). The Hubble tension (local ~73 vs CMB 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a SIDC-specific failure. SIDC is **qualitatively consistent** with H_0 = 70 ± 3 across all measurements but does not derive a specific H_0 value (see §2.6.1).
+The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction. SIDC's qualitative interpretation: 5% = baryons (real 3+1D), 27% = DM (2D universe back-projection), 68% = DE (4D event antigravity). The 5:27 inner split (5% "active" vs 27% "cumulative") was dropped in v2.7.1 as a separate postulate that conflicted with the empirical 33 s lifetime. The user-identified gap ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?") led to the smooth F_p(z) function (§4.48.1) that gives SIDC's R(z) the right scaling to match ΛCDM at all z (Thomson's per-event contribution is actually negligible, ~10^-66 of SN). The Hubble tension (local ~73 vs CMB 67.4) is the only CMB disagreement, and it's the standard cosmological tension — not a SIDC-specific failure. SIDC is **qualitatively consistent** with H₀ = 70 ± 3 across all measurements but does not derive a specific H₀ value (see §2.6.1).
 
 ---
 
@@ -509,7 +509,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 | `calculations/f_active_consistency.py` | f_active rename verification | documentation |
 | `calculations/cmb_cascade_prediction.py` | CAMB CMB test (Δχ²=+650) | #3 (Hubble tension) |
 | `calculations/cosmic_shear_cascade.py` | S_8 within 1σ of DES/KiDS | #3 |
-| `calculations/rar_per_galaxy_gplus_v3.py` | 43-galaxy per-galaxy g_+ | #3 |
+| `calculations/rar_per_galaxy_gplus_v3.py` | 43-galaxy per-galaxy g₊ | #3 |
 | `calculations/verify_tensor_pipeline.py` | 5-check T^eff_μν verification | structural |
 | `calculations/verify_v24_refactor.py` | 4-check v2.4 refactor | structural |
 | `supporting/T_tensor_construction.md` (367 lines) | T^eff_μν formal derivation | structural |
@@ -523,7 +523,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 
 2. **§4.47–§4.48 Energy-scale-invariance test (commit 272)**: r(z=6) with stellar-only R(z) gives 0.008 — apparent time-lag. Honest negative result documented. Note: "scale-time invariance" here refers to ENERGY-SCALE invariance, not dimensional scale invariance (which was removed in v2.6). SIDC's r(z) = (1+z)³ is **automatic from comoving DM conservation**, not a new SIDC prediction.
 
-3. **§4.49 Bug fix (commit 274)**: user caught r(z=6) = 0.73 at F_p=1 (a numerical coincidence that, in the postdiction-era paper, was *suspiciously* close to H_0 = 73 km/s/Mpc). Found that integrand should have (1+z)⁴ in denominator, not (1+z). With bug fix: r(z=6) ~ 10⁻⁴ — even more severe falsification. Limitation 31 REVERTED to OPEN. (Note: the H_0 = 73 framing was later removed in v2.5 commit 281; SIDC does not actually predict H_0 = 73.)
+3. **§4.49 Bug fix (commit 274)**: user caught r(z=6) = 0.73 at F_p=1 (a numerical coincidence that, in the postdiction-era paper, was *suspiciously* close to H₀ = 73 km/s/Mpc). Found that integrand should have (1+z)⁴ in denominator, not (1+z). With bug fix: r(z=6) ~ 10⁻⁴ — even more severe falsification. Limitation 31 REVERTED to OPEN. (Note: the H₀ = 73 framing was later removed in v2.5 commit 281; SIDC does not actually predict H₀ = 73.)
 
 4. **§4.50 Audit (commit 275)**: f_active inconsistency (0.05 vs 0.3, 6×) flagged as a real limitation.
 
@@ -573,12 +573,12 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - Derive 2D CFT Lagrangian (Limitation 26 OPEN, requires theoretical physicist)
 - Derive Thomson rate from first principles (Limitation 26 OPEN)
 - Specify R(z) at z > 2000 (reionization era)
-- **Derive a specific H_0 value** (SIDC is qualitatively consistent with H_0 = 70 ± 3 across all measurements; the earlier H_0 = 70.13 multiplicative boost was a postdiction, removed in v2.5; see §2.6.1 Honest H_0 framework)
+- **Derive a specific H₀ value** (SIDC is qualitatively consistent with H₀ = 70 ± 3 across all measurements; the earlier H₀ = 70.13 multiplicative boost was a postdiction, removed in v2.5; see §2.6.1 Honest H₀ framework)
 
 **Two negative results, documented honestly:**
 - 5/27 inner split NOT derived (v2.7.1): the 5:27 inner split was dropped as a separate postulate that conflicted with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). The 5/27/68 split is treated as observational data.
 - Mechanism B/F: rejected at 7σ by Pantheon+ full covariance
-- Mechanism L (re-interpret Planck H_0): busted, 1500× off in θ_*
+- Mechanism L (re-interpret Planck H₀): busted, 1500× off in θ_*
 
 **Two negative v2.4 results, also documented honestly:**
 - §4.47 stellar-only time-scale invariance: r(z=6) ~ 0.029 (SIDC is FALSIFIED at high z in narrow interpretation)
@@ -803,7 +803,7 @@ The full simulation: `python3 calculations/cascade_model.py --outliers`
 - §1 Introduction (the dimensional inversion picture)
 - §2.1–§2.8 SIDC framework (the model)
 - §3 Tests (17 categories)
-- §4 Detailed results (4.1 RAR, 4.41 CMB, 4.42 g_+, 4.43 S_8, 4.45 AGC/KKR, 4.47–4.51 time-scale, 4.52 f_active, 4.53 CMB re-derivation)
+- §4 Detailed results (4.1 RAR, 4.41 CMB, 4.42 g₊, 4.43 S_8, 4.45 AGC/KKR, 4.47–4.51 time-scale, 4.52 f_active, 4.53 CMB re-derivation)
 - §5 Brief pointer to §2.3
 - §6 Falsification criteria
 - §7 Limitations and open questions (32 items)
