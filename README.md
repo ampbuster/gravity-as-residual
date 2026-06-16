@@ -4,6 +4,8 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
+**Version:** 3.0.2 (June 2026) — *Paper content: v3.0.2 (dimensional scale invariance, SIDC naming restored, §3.61). Build: v3.0.21 (limitations count fixed to 37, table syntax documented, all tables rendering properly). 341 pages.*
+
 **Version:** 3.0.21 (June 2026) — *Fixed broken tables: replaced \dimexpr with \linewidth syntax. Tables with parens or math mode in cells (like the §3.15.7 'Honest verdict' table) now render properly. 353 pages.*
 
 **Version:** 3.0.20 (June 2026) — *Tables now render in PDF (was raw text in v3.0.17). Switched pandoc to markdown+grid_tables+pipe_tables+raw_tex. Added post-processors for LaTeX escaping issues. 409 pages.*

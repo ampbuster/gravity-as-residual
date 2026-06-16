@@ -97,10 +97,10 @@ The full table follows:
 **Summary (v2.7.5):**
 - **OPEN**: 17 (50%) — require theoretical physics work beyond the cascade's current framework (L31, L33, L34, L35 retained; L32 removed)
 - **PARTIAL**: 10 (30%) — qualitatively right, quantitatively calibrated
-- **CLOSED**: 3 (9%) — fully resolved by the cascade (L13 conceptual; L14, L18)
-- **FALSIFIED**: 2 (6%) — specific mechanisms rejected by data, replaced by alternatives (L16, L19)
-- **REVERTED**: 4 (12%) — reversion to honest versions after failed improvements (L20 f_active "derivation" reverted v2.7.1; L24, L25; L36 E_crit phase-transition removed v2.7.4 in favor of smooth creation function)
-- **Total**: 35 limitations (was 34 in v2.6; L32 removed in v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED)
+- **CLOSED**: 3 (8%) — fully resolved by the cascade (L13 conceptual; L14, L18)
+- **FALSIFIED**: 2 (5%) — specific mechanisms rejected by data, replaced by alternatives (L16, L19)
+- **REVERTED**: 4 (11%) — reversion to honest versions after failed improvements (L20 f_active "derivation" reverted v2.7.1; L24, L25; L36 E_crit phase-transition removed v2.7.4 in favor of smooth creation function)
+- **Total**: 37 limitations (was 36 in v2.7, now 37 with L9_ext DISCARDED); L32 removed in v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED)
 
 **v2.7 update highlights (delta from v2.6):**
 1. **Hubble tension ACCEPTED (Mechanism M)**: The cascade does not attempt to resolve the Hubble tension. The cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements.

@@ -5,7 +5,7 @@
 **Author:** ampbuster (software developer, not a physicist)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
 **Repository:** https://github.com/ampbuster/gravity-as-residual
-**Current version:** v3.0 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
+**Current version:** v3.0.2 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
 
 **v3.0 HIGHLIGHT:** The composite model is now **strongly specified** by a single number N = 12. The cascade's α = 1.29, central charge c = 1/2 (Ising CFT), back-action f_back ≈ 10⁻⁸⁵, and 14 event-type lifetimes all follow from **q = 4 SYK (Sachdev-Ye-Kitaev, a model of quantum chaos) with N = 12 Majorana fermions (fermions that are their own antiparticle)**, in AdS_2 × S² topology (2D anti-de Sitter space cross a 2-sphere, a specific curved geometry with positive lifetime scaling). N = 12 is uniquely determined (off by 0.001 from α = 1.29). The 12 Majoranas might provide a "backbone" for the 12 Standard Model Weyl fermions (massless chiral fermions, 3 generations × 4 per generation). See **§3.60 v3.0 breakthrough summary** for the full picture.
 
