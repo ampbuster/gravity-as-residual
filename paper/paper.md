@@ -2911,7 +2911,7 @@ The democratic cosmology (§3.17-§3.18) gives specific testable predictions. Th
 
 The democratic cosmology says all 2D universes have the same proper lifetime (t_Pl,3). The 3+1D-frame lifetime is τ_2D_3+1D = γ_2D × t_Pl,3 = (E/E_Pl,3)^1.29 × t_Pl,3. The death rate in 3+1D frame is:
 
-$$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D}^{3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3})^{-1.29} \times \frac{1}{t_{Pl,3}}$$
+$$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D}^{3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3}})^{-1.29} \times \frac{1}{t_{Pl,3}}$$
 
 **Counter-intuitive:** smaller events (low E) have HIGHER 2D universe death rates in 3+1D frame, because their time dilation γ_2D is smaller (so they "tick" faster in 3+1D view).
 

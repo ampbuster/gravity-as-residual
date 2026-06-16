@@ -2,6 +2,34 @@
 
 This document contains the cascade's full version history.
 
+## v3.0.7 (June 2026) — Fixed missing brace in death rate formula
+
+**Major changes since v3.0.6:**
+
+1. **User feedback**: "Missing close brace" in the death rate formula:
+   `$$\frac{dN_{2D death}}{dt_{3+1D}} = ... = R(E) \times (\frac{E}{E_{Pl,3})^{-1.29} \times \frac{1}{t_{Pl,3}}$$`
+
+2. **Bug**: `(\frac{E}{E_{Pl,3})^{-1.29}` was missing one closing `}`.
+   The fraction `\frac{E}{E_{Pl,3}}` had an opening `{` for the numerator
+   but only one `}` at the end of `E_{Pl,3}` (which closes E_{Pl,3}'s brace),
+   leaving the denominator's closing brace missing.
+
+3. **Fix**: Changed to `(\frac{E}{E_{Pl,3}})^{-1.29}` — now the `}` after
+   `E_{Pl,3}` closes the fraction's numerator, the `)` closes the fraction,
+   and the `^{-1.29}` applies to the whole fraction.
+
+4. **Verification**:
+   - 115 block math expressions: all balanced
+   - 1913 inline math expressions: all balanced
+   - The death rate formula now renders correctly in the PDF
+
+5. **Counts**:
+   - 288 pages (unchanged)
+   - 1 brace fixed
+   - 0 other unbalanced math expressions
+
+**Earlier v3.0.6 entry (unchanged):**
+
 ## v3.0.6 (June 2026) — Surgical fix to v3.0.3 + targeted 	ext removal
 
 **Major changes since v3.0.5:**
