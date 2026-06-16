@@ -342,7 +342,98 @@
 #     &= h\nu
 #   \end{align}
 #
+
+# ---- 4.3.1 HOW TO WRITE MATH FOR ALL TARGETS (PDF, github.com, Markor) ----
+#
+# THE PAPER.MD FILES use the LaTeX build pipeline (xelatex) which handles
+# LaTeX correctly. But the README.md and layman_summary.md are public-facing
+# and render on github.com (mobile + desktop) and in Markor. These have
+# DIFFERENT requirements for math.
+#
+# GITHUB.COM MOBILE HAS STRICT REQUIREMENTS:
+#
+#   1. WHITESPACE around $...$ is REQUIRED:
+#      WRONG:  M_dyn > 2$\times$ M_stars   (no spaces)
+#      RIGHT:  M_dyn > 2 $\times$ M_stars   (with spaces)
+#      The $...$ must have whitespace (or other non-letter characters) on
+#      both sides. Without spaces, github mobile shows literal "$...$" text.
+#
+#   2. USE PROPER LATEX, NOT UNICODE SUBSCRIPTS/SUPERSCRIPTS:
+#      WRONG:  10¹²  (Unicode superscript, may not render)
+#      WRONG:  H₀       (Unicode subscript, may not render)
+#      RIGHT:  $10^{12}$    (LaTeX math mode)
+#      RIGHT:  $H_0$        (LaTeX math mode)
+#
+#   3. KEEP MATH EXPRESSIONS WHOLE IN $...$:
+#      WRONG:  $\sim$10^55   (\sim in math, 10^55 outside)
+#      WRONG:  $\sim$10³$\times$ (three separate math segments)
+#      RIGHT:  $\sim 10^{55}$  (whole expression in math)
+#      RIGHT:  $\sim 10^{3} \times$  (whole expression in math)
+#
+#   4. AVOID SPACES INSIDE $...$ DELIMITERS:
+#      WRONG:  $\epsilon $     (space inside closing $)
+#      WRONG:  $ \epsilon$     (space inside opening $)
+#      WRONG:  $ \epsilon $    (space inside both)
+#      RIGHT:  $\epsilon$      (no spaces inside $...$)
+#
+#   5. AVOID DUPLICATE $ DELIMITERS:
+#      WRONG:  $\sim$$10^{55}$  (two $ adjacent)
+#      RIGHT:  $\sim 10^{55}$   (single $ wrapping the whole)
+#
+# COMMON PATTERNS AND THEIR FIXES:
+#
+#   Pattern                    | Fix
+#   ---------------------------|----------------------------------------
+#   10^19 (plain text)         | $10^{19}$
+#   10^-43 (negative)          | $10^{-43}$
+#   10⁴ (⁴ = superscript 4)| $10^{4}$
+#   H_0 (plain text)           | $H_0$
+#   M_Pl^4 (mixed)             | $M_{Pl}^4$
+#   E_{4D} (curly braces)      | $E_{4D}$
+#   \times                    | $\times$
+#   \sim                      | $\sim$
+#   \to                       | $\to$
+#   \pm                       | $\pm$
+#   \approx                   | $\approx$
+#   \geq / \leq              | $\geq$ / $\leq$
+#   \propto                   | $\propto$
+#
+# LATEX COMMANDS (Greek letters, operators, etc.):
+#
+#   \alpha -> α     \beta -> β     \gamma -> γ
+#   \delta -> δ     \epsilon -> ε   \zeta -> ζ
+#   \eta -> η       \theta -> θ     \iota -> ι
+#   \kappa -> κ     \lambda -> λ   \mu -> μ
+#   \nu -> ν         \xi -> ξ       \pi -> π
+#   \rho -> ρ        \sigma -> σ     \tau -> τ
+#   \phi -> φ        \chi -> χ      \psi -> ψ
+#   \omega -> ω      \Gamma -> Γ     \Delta -> Δ
+#   \Theta -> Θ      \Lambda -> Λ   \Xi -> Ξ
+#   \Pi -> Π         \Sigma -> Σ    \Phi -> Φ
+#   \Psi -> Ψ        \Omega -> Ω
+#
+# WHY THREE TARGETS HAVE DIFFERENT RULES:
+#
+#   - PAPER.MD -> PDF: xelatex handles all LaTeX correctly. $...$ and
+#     $$...$$ work. \alpha, \beta etc. all render. Whitespace inside
+#     $...$ is fine.
+#
+#   - README.MD/LAYMAN -> github.com desktop: MathJax renders $...$
+#     math. Requires whitespace around $...$ for proper recognition.
+#     Most LaTeX commands work.
+#
+#   - README.MD/LAYMAN -> github.com MOBILE: Same MathJax, but the
+#     MOBILE renderer is more strict. WITHOUT WHITESPACE, $...$ shows
+#     as literal text. Some complex LaTeX commands may not render.
+#
+#   - README.MD/LAYMAN -> Markor: Renders LaTeX natively. $...$ works.
+#     Slightly more permissive than github.com mobile.
+#
+# RULE OF THUMB: If your math renders correctly in github.com MOBILE,
+# it will render correctly everywhere else.
+#
 # ---- 4.4 TABLE CELLS WITH MATH ----
+
 #
 # AVOID: $...$ math mode with PARENS inside a TABLE CELL.
 # Example that breaks the table:
