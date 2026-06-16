@@ -1,0 +1,38 @@
+{
+  "description": "CGHS + Z\u2082 composite exponent model that gives \u03b1 \u00d7 p = 1/2",
+  "composite_exponent": {
+    "formula": "1/(2\u03b1) = (1/2 from 2D structure) / (\u03b1 from CGHS-with-back-reaction)",
+    "value": 0.38759689922480617,
+    "verification": "f_back = 8.60e-86 (off by 0.0653 orders)"
+  },
+  "components": {
+    "A_5D_AdS_Z2": "5D AdS_5 bulk with Z\u2082 orbifold, 1/2 from half-bulk",
+    "B_brane": "3+1D brane at y=0 (our universe)",
+    "C_2D_CFT": "2D CFT on the brane (CGHS-like, \u03b1_BR = 1.29)"
+  },
+  "possible_origins_of_one_half": [
+    "Z\u2082 orbifold (bulk is half)",
+    "2D space-time (1 space + 1 time)",
+    "\u210f/2 in quantum mechanics",
+    "SYK S\u2080 = N/2",
+    "2D area = 1D",
+    "2D Euler characteristic \u03c7 = 2"
+  ],
+  "most_likely_origin": "2D space-time structure (1 space + 1 time)",
+  "L64_NEW": "Composite exponent 1/(2\u03b1) = (1/2 from 2D structure) / (\u03b1 from CGHS). The 1/2 has multiple possible origins, with 2D dimensional structure being most natural.",
+  "L65_NEW": "Composite model has 3 components: A) 5D AdS with Z\u2082, B) 3+1D brane, C) 2D CFT (CGHS-like).",
+  "limitations": [
+    "The 1/2 origin is suggestive, not rigorously derived",
+    "Other origins (Z\u2082, \u210f/2, SYK) also give 1/2",
+    "The specific origin is most natural but not unique"
+  ],
+  "updated_calibrated_postulates_v2_7_63": {
+    "F_p(0)": "0.9993 (L51 partial)",
+    "A_event": "1",
+    "epsilon": "1e-38",
+    "z_half": "3",
+    "f_back": "8.6e-86 (UNIVERSAL, scaling law) L52 CLOSED",
+    "alpha": "1.29 (CGHS-with-back-reaction) L37 OPEN",
+    "one_over_2alpha": "0.388 (composite: 1/2 from 2D structure / \u03b1 from CGHS) L59 PARTIAL \u2192 L64-65 NEW"
+  }
+}

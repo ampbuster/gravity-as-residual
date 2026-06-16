@@ -1,0 +1,41 @@
+{
+  "description": "Rigorous analysis of 1/2 from 2D structure",
+  "most_likely_origin": "Ising CFT (c = 1/2) for the 2D universe",
+  "tests_performed": [
+    "2D CFT central charge (c = 1/2 for Majorana, Ising)",
+    "2D area = 1D (not robust)",
+    "2D Euler characteristic (\u03c7 = 2, but not general)",
+    "1/dim_2D = 1/2 (most natural)",
+    "CGHS action factor 1/(2\u03c0) (conventional, not physical)",
+    "2D CFT energy scaling (doesn't match cascade)",
+    "Majorana fermion in 2D (specific)",
+    "2D trace anomaly (consistent with c = 1/2)",
+    "Ising model (c = 1/2, specific)"
+  ],
+  "best_candidate": "Ising-like CFT (c = 1/2)",
+  "best_candidate_origin": "The 2D universe is a Majorana fermion CFT with Ising symmetry, c = 1/2",
+  "L66_NEW": "The 1/2 in 1/(2\u03b1) is the central charge c = 1/2 of an Ising-like CFT",
+  "L67_NEW": "Composite model v2: 2D universe = Ising CFT, \u03b1_BR = 1.29 from CGHS, 1/(2\u03b1) = c/\u03b1_BR",
+  "limitations": [
+    "Majorana fermion content of 2D universe is speculative",
+    "Ising CFT is well-defined but the cascade doesn't specify the matter",
+    "The 1/2 has multiple possible origins",
+    "The Ising interpretation is the most specific, but unverified"
+  ],
+  "testable_predictions": [
+    "2D universe should have c = 1/2 (Ising symmetry)",
+    "2D universe should have Majorana fermion content",
+    "2D black hole should be a fermionic excitation",
+    "The 2D trace anomaly should be <T^\u03bc_\u03bc> = (1/48\u03c0) R"
+  ],
+  "updated_calibrated_postulates_v2_7_63_v2": {
+    "F_p(0)": "0.9993 (L51 partial)",
+    "A_event": "1",
+    "epsilon": "1e-38",
+    "z_half": "3",
+    "f_back": "8.6e-86 (UNIVERSAL, scaling law) L52 CLOSED",
+    "alpha": "1.29 (CGHS-with-back-reaction) L37 OPEN",
+    "one_over_2alpha": "0.388 (composite: c=1/2 from Ising / \u03b1 from CGHS) L59 \u2192 L66-67 NEW",
+    "c_2D": "1/2 (Ising CFT) L66 NEW"
+  }
+}

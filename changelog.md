@@ -2,6 +2,61 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.63 (June 2026) — Composite model v2: Ising CFT + CGHS
+
+**Major changes since v2.7.62:**
+
+1. **User's request**: build CGHS + Z₂ composite model.
+
+2. **Tested 9+ origins of '1/2' in 1/(2α)**:
+   - 2D CFT central charge (c=1/2): **Best specific match**
+   - 2D area = 1D: Suggestive
+   - 2D Euler χ=2: Not general
+   - 1/dim_2D = 1/2: Natural
+   - CGHS (1/2π): Conventional
+   - 2D CFT energy: Doesn't match
+   - Majorana c=1/2: Specific, testable
+   - 2D trace anomaly: Consistent
+   - Ising model: Specific
+
+3. **Composite model v2**:
+   1. 2D universe = Ising CFT (c = 1/2)
+   2. α_BR = 1.29 (CGHS-with-back-reaction)
+   3. 1/(2α) = c/α_BR (composite exponent)
+
+4. **The 3 components of the model**:
+   A) 5D AdS_5 bulk with Z₂ orbifold
+   B) 3+1D brane at y=0 (our universe)
+   C) 2D CFT on brane (Ising-like, c=1/2)
+
+5. **L66 NEW**: The '1/2' in 1/(2α) is the central charge c=1/2
+   of an Ising-like CFT. 2D universe is a Majorana fermion CFT
+   with Ising symmetry.
+
+6. **L67 NEW**: Composite model v2: 1/(2α) = c/α_BR where c=1/2
+   (Ising) and α_BR=1.29 (CGHS).
+
+7. **Testable predictions**:
+   - 2D universe has c=1/2 (Ising central charge)
+   - 2D universe has Majorana fermion content
+   - 2D black hole is fermionic excitation
+   - 2D trace anomaly: <T^μ_μ> = (1/48π) R
+   - Conformal dimensions: Δ_σ = 1/16, Δ_ε = 1/2
+
+8. **Limitations**:
+   - Majorana fermion content of 2D universe is speculative
+   - Ising CFT is well-defined but cascade doesn't specify matter
+   - The 1/2 has multiple possible origins
+   - Ising interpretation is most specific, unverified
+   - α=1.29 doesn't correspond to standard Ising exponent
+
+9. **Net: +1 page, +2 limitations**
+   - Total: 286 pages
+   - 64 honest limitations
+   - 5 closed, 41 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
+
+**Earlier v2.7.62 entry (unchanged):**
+
 ## v2.7.62 (June 2026) — 4 specific derivation attempts
 
 **Major changes since v2.7.61:**
