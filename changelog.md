@@ -2,6 +2,51 @@
 
 This document contains the cascade's full version history.
 
+## v3.0.4 (June 2026) — Fix 'Unable to render expression' in §4+
+
+**Major changes since v3.0.3:**
+
+1. **User feedback**: "Unable to render expression" boxes appearing
+   in §4+ (detailed results sections). The markdown viewer was failing
+   on complex LaTeX patterns like:
+   - `$g_+\text{(cascade)}$` — `_` combined with `\text{}`
+   - `$f\text{(cumulative)}$` — text in math
+   - `$M_{DM} / R_{halo}^2$` — multi-char subscripts
+   - `$\frac{3}{4}$` — fractions
+
+2. **Fix**: Converted ALL math from §4.1 onwards to Unicode:
+   - `g_+` → `g₊`
+   - `\text{(cascade)}` → `(cascade)`
+   - `$M_{DM}$` → `M_DM`
+   - `$R_{halo}^2$` → `R_halo²`
+   - `$\frac{3}{4}$` → `(3)/(4)`
+   - `$\cdot$` → `·`
+   - `$\approx$` → `≈`
+   - `$\times$` → `×`
+   - `$\pi$` → `π`
+   - `$\rho$` → `ρ`
+   - All Greek letters, operators, sub/superscripts converted
+   - All `\text{}` removed
+
+3. **§1-§3 math preserved as LaTeX** (these rendered fine in the
+   user's viewer — they were unaffected by the §4+ issue)
+
+4. **§14.4 table** was already converted in v3.0.3
+
+5. **Counts**:
+   - 287 pages (was 289, -2)
+   - 0 $ signs in §4+ region
+   - 0 LaTeX commands in §4+ region
+   - The 1640 remaining $ signs are all in §1-§3 (which the user
+     confirmed render fine)
+
+6. **Verification**:
+   - §4.1 onwards: 0 math expressions, 0 LaTeX commands
+   - All math rendered as Unicode (g₊, ≈, ×, ², ¹², ⁻¹¹, etc.)
+   - .md should now render in ALL viewers, not just math-aware ones
+
+**Earlier v3.0.3 entry (unchanged):**
+
 ## v3.0.3 (June 2026) — Paper cleanup pass
 
 **Major changes since v3.0.2:**

@@ -5631,21 +5631,21 @@ At *fixed visible mass*, the model predicts that the *small* scatter in the RAR 
 
 **Why dark matter is only observable on galaxy scales.** The RAR's existence reinforces why dark matter is not directly detectable in stellar-scale or sub-stellar-scale environments. In the model, dark matter is the cumulative gravitational effect of 2D universes being created throughout a region of space. For a galaxy-sized region, this cumulative effect is substantial (it produces the observed rotation curves). For a stellar-sized or planetary-sized region, the cumulative effect is too small to detect — because the local activity (e.g., solar fusion, geothermal activity) is dwarfed by the cumulative activity of the surrounding galaxy. The dark matter density at the Sun's location, in our model, is set by the *galaxy's* rate of large-event creation (supernovae, AGN), not the Sun's rate of small-event creation. The Sun's own activity adds a perturbation that is far below any detectable level. This is why direct-detection experiments (looking for dark matter particles) have all returned null results: the dark matter is "smeared out" by the cumulative activity of the entire galaxy, with no locally-detectable signature at any specific location. The RAR is the *only* scale on which dark matter becomes measurable, because galaxy scales are where the cumulative effect is large enough to be observable.
 
-**A specific RAR floor test (v2.2.1).** A specific calculation (see `calculations/rar_floor_from_cumulative.py`) derives the cascade's prediction for the empirical RAR floor $g_+$ from the cumulative-return contribution:
+**A specific RAR floor test (v2.2.1).** A specific calculation (see `calculations/rar_floor_from_cumulative.py`) derives the cascade's prediction for the empirical RAR floor g_+ from the cumulative-return contribution:
 
-$$g_+\text{(cascade)} = \frac{3}{4} \cdot G \cdot f\text{(cumulative)} \cdot M_{DM} / (\pi R_{halo}^2)$$
+g_+(cascade) = (3)/(4) · G · f(cumulative) · M_DM / (π R_halo²)
 
-For a Milky Way-like galaxy ($M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, $f\text{(cumulative)} = 0.7$ from the cascade's 30%/70% active/cumulative split), this gives $g_+\text{(cascade)} \approx 2.6 \times 10^{-11}$ m/s², which is ~0.22x the empirical McGaugh+ 2016 value of $1.2 \times 10^{-10}$ m/s² — within a factor of 5, in the right ballpark.
+For a Milky Way-like galaxy (M_DM = 10^¹² M_odot, R_halo = 30 kpc, f(cumulative) = 0.7 from the cascade's 30%/70% active/cumulative split), this gives g_+(cascade) ≈ 2.6 × 10^⁻¹¹ m/s², which is ~0.22x the empirical McGaugh+ 2016 value of 1.2 × 10^⁻¹⁰ m/s² — within a factor of 5, in the right ballpark.
 
-*Critical test of the cascade:* the empirical $g_+$ is *constant* across galaxy types, but the cascade's $g_+$ depends on $M_{DM}/R_{halo}^2$. For $g_+$ to be constant, the cascade would require $M_{DM} \propto R_{halo}^2$ (a baryonic Tully-Fisher-like relation, but for $M_{DM}$ rather than $M_{bar}$). This is a *testable* prediction of the cascade. If future high-precision observations confirm the empirical constancy of $g_+$ across all galaxy types (with no variation in $M_{DM}/R_{halo}^2$ at fixed $g_+$), the cascade is in tension with the data. If $g_+$ shows *small* variations correlated with $M_{DM}/R_{halo}^2$, the cascade is *qualitatively* consistent. The current precision of $g_+$ measurements is at the ~0.1 dex level, which is *just* sensitive to the cascade's prediction — future observations (e.g., with Rubin Observatory / LSST) could resolve this question.
+*Critical test of the cascade:* the empirical g_+ is *constant* across galaxy types, but the cascade's g_+ depends on M_DM/R_halo². For g_+ to be constant, the cascade would require M_DM propto R_halo² (a baryonic Tully-Fisher-like relation, but for M_DM rather than M_bar). This is a *testable* prediction of the cascade. If future high-precision observations confirm the empirical constancy of g_+ across all galaxy types (with no variation in M_DM/R_halo² at fixed g_+), the cascade is in tension with the data. If g_+ shows *small* variations correlated with M_DM/R_halo², the cascade is *qualitatively* consistent. The current precision of g_+ measurements is at the ~0.1 dex level, which is *just* sensitive to the cascade's prediction — future observations (e.g., with Rubin Observatory / LSST) could resolve this question.
 
-*Implication:* the cascade's RAR is *not* a perfect universal function; it predicts a *slight* galaxy-type dependence via $M_{DM}/R_{halo}^2$. This is *consistent* with recent findings (e.g., the EDGE collaboration's low-mass dwarf deviation, BCGs on a different relation) that the RAR is not perfectly universal. The cascade's prediction is in the *ballpark* of these observed deviations.
+*Implication:* the cascade's RAR is *not* a perfect universal function; it predicts a *slight* galaxy-type dependence via M_DM/R_halo². This is *consistent* with recent findings (e.g., the EDGE collaboration's low-mass dwarf deviation, BCGs on a different relation) that the RAR is not perfectly universal. The cascade's prediction is in the *ballpark* of these observed deviations.
 
-**The RAR across mass scales: cascade vs. observations (v2.2.1).** A more stringent test of the cascade's $g_+$ prediction comes from comparing the cascade to recent observations across the *full* mass spectrum. Three recent observational results are particularly relevant:
+**The RAR across mass scales: cascade vs. observations (v2.2.1).** A more stringent test of the cascade's g_+ prediction comes from comparing the cascade to recent observations across the *full* mass spectrum. Three recent observational results are particularly relevant:
 
-1. **McGaugh+ 2016 (galaxies)**: $g_+ = 1.2 \times 10^{-10}$ m/s² (a tight, approximately universal relation for spiral galaxies with $M_{bar} \sim 10^8 - 10^{11} M_\odot$).
+1. **McGaugh+ 2016 (galaxies)**: g_+ = 1.2 × 10^⁻¹⁰ m/s² (a tight, approximately universal relation for spiral galaxies with M_bar ~ 10⁸ - 10^¹¹ M_odot).
 
-2. **Júlio+ 2025 (EDGE, dwarfs)**: 12 nearby dwarf galaxies with $M_{bar} \sim 10^4 - 10^{7.5} M_\odot$ lie *systematically above* the low-mass extrapolation of the McGaugh+ 2016 RAR. Each galaxy traces a multi-valued locus in RAR space (the same baryonic acceleration can correspond to different observed accelerations). The conclusion: *"the RAR does not apply to low-mass dwarf galaxies"* [Júlio+ 2025, A&A 704, A330].
+2. **Júlio+ 2025 (EDGE, dwarfs)**: 12 nearby dwarf galaxies with M_bar ~ 10⁴ - 10^⁷.⁵ M_odot lie *systematically above* the low-mass extrapolation of the McGaugh+ 2016 RAR. Each galaxy traces a multi-valued locus in RAR space (the same baryonic acceleration can correspond to different observed accelerations). The conclusion: *"the RAR does not apply to low-mass dwarf galaxies"* [Júlio+ 2025, A&A 704, A330].
 
 3. **Tian+ 2024 (BCGs and clusters)**: 50 BCGs and galaxy clusters have a *distinct* RAR with an acceleration scale *17x larger* than the galaxy-scale RAR [Tian+ 2024, A&A 683, A221]. This is not a continuation of the McGaugh+ 2016 RAR but a *separate* relation.
 
@@ -5666,31 +5666,31 @@ Supercluster        1e15           3000       2.6e-12           ~1.7e-9 (extrap.
 *Note: The EDGE 2025 dwarf g_+ is the McGaugh+ 2016 RAR value *increased* by the EDGE finding (low-mass dwarfs lie systematically *above* the McGaugh RAR, by ~25%). The cascade's g_+ at all scales is *systematically too small* (ratios 0.005 to 0.39) — this is the M_DM / R_halo² dependence the cascade predicts, but the *observed* g_+ is approximately universal. This is a *TENSION*: the cascade's g_+ formula g_+ = (3/4) * G * f_cum * M_DM / (π R_halo²) gives the right *shape* (M_DM/R_halo² scaling) but wrong *normalization* (off by 2.5-200×). A specific implementation of the cascade would need to either (a) calibrate the formula's prefactor (currently 0.75 * f_cum = 0.525) up by 2.5-200×, or (b) re-derive the formula from first principles (Limitation 26).
 
 
-*Honest finding:* the cascade's $g_+$ prediction is in the *right ballpark* for galaxy scales (0.22x the empirical value for the Milky Way) but is *off by orders of magnitude* at both ends of the mass spectrum. The cascade *under-predicts* $g_+$ for dwarfs (off by ~100x) and for clusters (off by ~200x, and in the *wrong direction* — the cascade predicts $g_+$ *decreases* with mass, but empirically it *increases* for clusters).
+*Honest finding:* the cascade's g_+ prediction is in the *right ballpark* for galaxy scales (0.22x the empirical value for the Milky Way) but is *off by orders of magnitude* at both ends of the mass spectrum. The cascade *under-predicts* g_+ for dwarfs (off by ~100x) and for clusters (off by ~200x, and in the *wrong direction* — the cascade predicts g_+ *decreases* with mass, but empirically it *increases* for clusters).
 
 *Implications for the cascade:*
 - The cascade's *galaxy-scale* RAR is consistent with observations to within a factor of 5, which is encouraging.
-- The cascade's *dwarf-scale* and *cluster-scale* $g_+$ predictions are *quantitatively wrong*. The cascade would need significant additional physics (baryonic feedback at low masses, ICM physics at high masses) to match the full mass spectrum.
-- The cascade's *scaling* $g_+ \propto M_{DM}/R_{halo}^2$ is the *opposite direction* of the empirical cluster RAR (which has $g_+$ increasing with mass for clusters).
-- The cascade's qualitative picture — $g_+$ depends on local environment — is correct, but the *quantitative* $g_+$ scaling across mass scales is *not* simply $M_{DM}/R_{halo}^2$. A more sophisticated implementation of the cascade (e.g., including baryonic feedback, ICM physics, halo concentration dependence) would be needed to match the full data.
+- The cascade's *dwarf-scale* and *cluster-scale* g_+ predictions are *quantitatively wrong*. The cascade would need significant additional physics (baryonic feedback at low masses, ICM physics at high masses) to match the full mass spectrum.
+- The cascade's *scaling* g_+ propto M_DM/R_halo² is the *opposite direction* of the empirical cluster RAR (which has g_+ increasing with mass for clusters).
+- The cascade's qualitative picture — g_+ depends on local environment — is correct, but the *quantitative* g_+ scaling across mass scales is *not* simply M_DM/R_halo². A more sophisticated implementation of the cascade (e.g., including baryonic feedback, ICM physics, halo concentration dependence) would be needed to match the full data.
 
-*Status:* the cascade's RAR prediction is *partially* consistent with the data. The qualitative picture (smooth RAR, activity-driven, cumulative-return floor) is right, but the quantitative $g_+$ scaling across mass scales is *open* and would require a specific implementation to fully resolve. This is consistent with the §7 limitations: the *qualitative* RAR picture is preserved, but the *quantitative* $g_+$ scaling is a *calculation to do* (now better framed as a *specific* calculation that's *partially* consistent with data).
+*Status:* the cascade's RAR prediction is *partially* consistent with the data. The qualitative picture (smooth RAR, activity-driven, cumulative-return floor) is right, but the quantitative g_+ scaling across mass scales is *open* and would require a specific implementation to fully resolve. This is consistent with the §7 limitations: the *qualitative* RAR picture is preserved, but the *quantitative* g_+ scaling is a *calculation to do* (now better framed as a *specific* calculation that's *partially* consistent with data).
 
-**A dynamical-mixing resolution of the clustered/uniform tension (v2.2.1).** The above analysis assumes the *cumulative* return is uniform, but by the cascade's own logic, the cumulative return should follow the activity profile (clustered, not uniform). A natural physical mechanism for the *intermediate* profile between fully clustered and fully uniform is **dynamical mixing**: the cumulative dark matter is gravitationally scattered and mixed by 3+1D dynamics over cosmic time. The degree of mixing depends on the local dynamical time $t_{dyn} = 2\pi r / v_{circ}$ relative to the Hubble time (see `calculations/rar_dynamical_mixing.py`).
+**A dynamical-mixing resolution of the clustered/uniform tension (v2.2.1).** The above analysis assumes the *cumulative* return is uniform, but by the cascade's own logic, the cumulative return should follow the activity profile (clustered, not uniform). A natural physical mechanism for the *intermediate* profile between fully clustered and fully uniform is **dynamical mixing**: the cumulative dark matter is gravitationally scattered and mixed by 3+1D dynamics over cosmic time. The degree of mixing depends on the local dynamical time t_dyn = 2π r / v_circ relative to the Hubble time (see `calculations/rar_dynamical_mixing.py`).
 
 The mixing fraction is parameterized as:
 
-$$f_{mix}(r) = 1 - \exp(-N_{orbits}(r) / N_{crit})$$
+f_mix(r) = 1 - exp(-N_orbits(r) / N_crit)
 
-where $N_{orbits}(r) = t_{Hubble} / t_{dyn}(r)$ is the number of dynamical times elapsed since formation, and $N_{crit}$ is a critical number of orbits for "effective" mixing. The full model is then:
+where N_orbits(r) = t_Hubble / t_dyn(r) is the number of dynamical times elapsed since formation, and N_crit is a critical number of orbits for "effective" mixing. The full model is then:
 
-$$\rho_{DM}(r) = f_{mix}(r) \cdot \rho_{uniform} + (1 - f_{mix}(r)) \cdot \rho_{clustered} + f_{active} \cdot \rho_{clustered}$$
+rho_DM(r) = f_mix(r) · rho_uniform + (1 - f_mix(r)) · rho_clustered + f_active · rho_clustered
 
-This gives a *naturally intermediate* profile that smoothly transitions from fully clustered (where $N_{orbits} \ll N_{crit}$) to fully uniform (where $N_{orbits} \gg N_{crit}$), with the transition radius depending on halo mass.
+This gives a *naturally intermediate* profile that smoothly transitions from fully clustered (where N_orbits ll N_crit) to fully uniform (where N_orbits gg N_crit), with the transition radius depending on halo mass.
 
-For a Milky Way-like galaxy (v_circ ~ 250-380 km/s), the inner galaxy (r < 5 kpc) has $t_{dyn} < 0.1$ Gyr and the cumulative dark matter has had ~100-1000 dynamical times to mix — it is *very well-mixed*, close to uniform. The outer halo (r ~ 30-100 kpc) has $t_{dyn} \sim 1-3$ Gyr and is only partially mixed. For a galaxy cluster (r ~ 500 kpc, v_circ ~ 900 km/s), the inner region (r < 30 kpc) is well-mixed but the outer halo (r ~ 200-500 kpc) is *barely mixed* (only a few dynamical times over cosmic history).
+For a Milky Way-like galaxy (v_circ ~ 250-380 km/s), the inner galaxy (r < 5 kpc) has t_dyn < 0.1 Gyr and the cumulative dark matter has had ~100-1000 dynamical times to mix — it is *very well-mixed*, close to uniform. The outer halo (r ~ 30-100 kpc) has t_dyn ~ 1-3 Gyr and is only partially mixed. For a galaxy cluster (r ~ 500 kpc, v_circ ~ 900 km/s), the inner region (r < 30 kpc) is well-mixed but the outer halo (r ~ 200-500 kpc) is *barely mixed* (only a few dynamical times over cosmic history).
 
-*Parameter search (commit 107, v2.2.1).* Per the question of whether the cascade's RAR can be fit better with different parameter choices, I performed a trial-and-error grid search over $f_{active}$ and $N_{crit}$ (in `calculations/rar_parameter_fit.py`). The best-fit parameters (minimizing log-error to the empirical targets: MW g_obs/g_bar=2.5/g_+=1.2×10⁻¹⁰, EDGE 2025 dwarf 20/1.5×10⁻¹⁰, Tian 2024 cluster 50/17× galaxy) are:
+*Parameter search (commit 107, v2.2.1).* Per the question of whether the cascade's RAR can be fit better with different parameter choices, I performed a trial-and-error grid search over f_active and N_crit (in `calculations/rar_parameter_fit.py`). The best-fit parameters (minimizing log-error to the empirical targets: MW g_obs/g_bar=2.5/g_+=1.2×10⁻¹⁰, EDGE 2025 dwarf 20/1.5×10⁻¹⁰, Tian 2024 cluster 50/17× galaxy) are:
 
   f_active = 0.08, N_crit = 25 (log_err = 0.76)
 
@@ -5718,127 +5718,127 @@ With these parameters:
 
 This tension requires either a different spatial distribution for the active contribution, a smaller f_active (cascade's postulate is off by ~5x), or a different cascade g_+. The cascade's g_+ might not be 1.2×10⁻¹⁰ m/s² (McGaugh+ 2016) but rather closer to 2×10⁻⁹ m/s² (Tian+ 2024 cluster value) — which would be a genuinely different prediction of the cascade that conflicts with the galaxy RAR. This is left as an open question for further theoretical work (Limitation 19).
 
-*Full mass spectrum test (commit 111, v2.2.1).* I tested the cascade's RAR prediction across 9 systems from ultra-faint dwarf ($M_{halo} = 10^7 M_\odot$) to supercluster core ($M_{halo} = 5 \times 10^{14} M_\odot$), in `calculations/rar_extremes.py`. Key findings:
+*Full mass spectrum test (commit 111, v2.2.1).* I tested the cascade's RAR prediction across 9 systems from ultra-faint dwarf (M_halo = 10⁷ M_odot) to supercluster core (M_halo = 5 × 10^¹⁴ M_odot), in `calculations/rar_extremes.py`. Key findings:
 
-1. **The "lies on RAR" pattern is non-monotonic with mass.** The cascade's $g_{obs}/g_{bar}$ at $2R_d$:
-   - Ultra-faint dwarf ($M_{halo} = 10^7$): 342 (over-predicts, beyond cluster RAR)
-   - Classical dwarf ($10^9$): 38 (transition)
-   - Small spiral ($10^{10}$): 4.16 (on galaxy RAR)
-   - MW-like ($10^{12}$): 2.9 (matches well at $2R_d$)
-   - Large spiral ($5 \times 10^{12}$): 3.6 (transition)
-   - Compact group ($10^{13}$): 9.3 (transition)
-   - Small cluster ($5 \times 10^{13}$): 14 (beyond cluster RAR)
-   - Massive cluster ($10^{14}$): 29 (beyond cluster RAR)
-   - Supercluster core ($5 \times 10^{14}$): 31 (beyond cluster RAR)
+1. **The "lies on RAR" pattern is non-monotonic with mass.** The cascade's g_obs/g_bar at 2R_d:
+   - Ultra-faint dwarf (M_halo = 10⁷): 342 (over-predicts, beyond cluster RAR)
+   - Classical dwarf (10⁹): 38 (transition)
+   - Small spiral (10^¹⁰): 4.16 (on galaxy RAR)
+   - MW-like (10^¹²): 2.9 (matches well at 2R_d)
+   - Large spiral (5 × 10^¹²): 3.6 (transition)
+   - Compact group (10^¹³): 9.3 (transition)
+   - Small cluster (5 × 10^¹³): 14 (beyond cluster RAR)
+   - Massive cluster (10^¹⁴): 29 (beyond cluster RAR)
+   - Supercluster core (5 × 10^¹⁴): 31 (beyond cluster RAR)
 
-2. **The cascade's MW model TRANSITIONS from "on galaxy RAR" at small r to "on cluster RAR" at large r:** at $r=0.5$ kpc, the cascade matches the galaxy RAR (5% off); at $r=30$ kpc, it matches the cluster RAR (18% off). This radial transition is a generic feature of the uniform-cumulative profile: at small r, $g_{active}$ dominates (clustered, follows stellar, gives $g_{obs} \sim g_{bar}$); at large r, $g_{cum}$ dominates (uniform, gives $g_{obs} \sim \text{const}$, MOND-like).
+2. **The cascade's MW model TRANSITIONS from "on galaxy RAR" at small r to "on cluster RAR" at large r:** at r=0.5 kpc, the cascade matches the galaxy RAR (5% off); at r=30 kpc, it matches the cluster RAR (18% off). This radial transition is a generic feature of the uniform-cumulative profile: at small r, g_active dominates (clustered, follows stellar, gives g_obs ~ g_bar); at large r, g_cum dominates (uniform, gives g_obs ~ const, MOND-like).
 
-3. **At the cluster scale, the cascade over-predicts by 1.4-2.5x even with $f_{active} = 0$.** This means the CUMULATIVE-ONLY contribution is too much. The cluster's empirical $M_{halo}$ would need to be 1.6-1.7x smaller to match the cluster RAR.
+3. **At the cluster scale, the cascade over-predicts by 1.4-2.5x even with f_active = 0.** This means the CUMULATIVE-ONLY contribution is too much. The cluster's empirical M_halo would need to be 1.6-1.7x smaller to match the cluster RAR.
 
-4. **The cascade's $M_{halo}$ is too large for the RAR fit:**
-   - MW: 4.6x too large (compared to the MOND-implied $M_{halo}$ from $g_+ = 1.2 \times 10^{-10}$)
-   - Cluster: 1.65x too large (compared to the MOND-implied $M_{halo}$ from $g_+ = 2 \times 10^{-9}$)
+4. **The cascade's M_halo is too large for the RAR fit:**
+   - MW: 4.6x too large (compared to the MOND-implied M_halo from g_+ = 1.2 × 10^⁻¹⁰)
+   - Cluster: 1.65x too large (compared to the MOND-implied M_halo from g_+ = 2 × 10^⁻⁹)
    - The "too large" factor is *mass-dependent* (4.6x for MW, 1.65x for cluster)
 
 **Honest interpretation of the full mass spectrum:**
 - The cascade's qualitative RAR picture is correct (extra gravity from dark matter exists, scales with mass).
 - The quantitative mass-dependence is off by factors of 2-5 at the extremes.
-- The cascade's $g_+$ is naturally closer to the *cluster* value ($2 \times 10^{-9}$) than the *galaxy* value ($1.2 \times 10^{-10}$). This could be a genuinely new cascade prediction that conflicts with the McGaugh+ 2016 RAR.
-- A specific implementation would need either (a) mass-dependent $M_{halo}$ scaling, (b) a different spatial distribution that flattens the cumulative at large masses, or (c) a sub-dominant active contribution ($f_{active} < 0.06$).
+- The cascade's g_+ is naturally closer to the *cluster* value (2 × 10^⁻⁹) than the *galaxy* value (1.2 × 10^⁻¹⁰). This could be a genuinely new cascade prediction that conflicts with the McGaugh+ 2016 RAR.
+- A specific implementation would need either (a) mass-dependent M_halo scaling, (b) a different spatial distribution that flattens the cumulative at large masses, or (c) a sub-dominant active contribution (f_active < 0.06).
 
 This is consistent with the recent findings (EDGE 2025, Tian 2024) that the RAR is not perfectly universal, and the cascade's specific implementation would need additional physics to match the full mass spectrum.
 
-*Trial-and-error search on f_active (commit 113, v2.2.1).* I performed a focused grid search on $f_{active}$ to find the value that makes the cascade's $g_{obs}(g_{bar})$ match the empirical RAR (in `calculations/rar_trial_factive.py`):
+*Trial-and-error search on f_active (commit 113, v2.2.1).* I performed a focused grid search on f_active to find the value that makes the cascade's g_obs(g_bar) match the empirical RAR (in `calculations/rar_trial_factive.py`):
 
-**For MW (at $r = 2R_d = 8$ kpc, $g_{bar} = 7.76 \times 10^{-11}$, RAR $g_{obs} = 1.41 \times 10^{-10}$):**
-- $f_{active} = 0$ (cumulative only): $g_{obs} = 1.25 \times 10^{-10}$ (11% under)
-- $f_{active} = 0.01$: $g_{obs} = 1.38 \times 10^{-10}$ (2% under, **excellent**)
-- $f_{active} = 0.02$: $g_{obs} = 1.50 \times 10^{-10}$ (7% over, good)
-- $f_{active} = 0.05$: $g_{obs} = 1.88 \times 10^{-10}$ (34% over)
-- $f_{active} = 0.10$: $g_{obs} = 2.50 \times 10^{-10}$ (78% over)
-- $f_{active} = 0.30$ (cascade postulate): $g_{obs} = 5.01 \times 10^{-10}$ (257% over)
+**For MW (at r = 2R_d = 8 kpc, g_bar = 7.76 × 10^⁻¹¹, RAR g_obs = 1.41 × 10^⁻¹⁰):**
+- f_active = 0 (cumulative only): g_obs = 1.25 × 10^⁻¹⁰ (11% under)
+- f_active = 0.01: g_obs = 1.38 × 10^⁻¹⁰ (2% under, **excellent**)
+- f_active = 0.02: g_obs = 1.50 × 10^⁻¹⁰ (7% over, good)
+- f_active = 0.05: g_obs = 1.88 × 10^⁻¹⁰ (34% over)
+- f_active = 0.10: g_obs = 2.50 × 10^⁻¹⁰ (78% over)
+- f_active = 0.30 (cascade postulate): g_obs = 5.01 × 10^⁻¹⁰ (257% over)
 
-**Best MW fit (full-curve):** $f_{active} = 0.02$, $N_{crit} = 0.1$ — matches RAR to 1-3% at $r = 0.5-8$ kpc. But fails at $r > 10$ kpc (over-predicts by 10-114%).
+**Best MW fit (full-curve):** f_active = 0.02, N_crit = 0.1 — matches RAR to 1-3% at r = 0.5-8 kpc. But fails at r > 10 kpc (over-predicts by 10-114%).
 
-**Best cluster fit (full-curve, with $g_+ = 17\times$):** $f_{active} = 0.1$, $N_{crit} = 5$ — matches cluster RAR to 1-9% at $r = 100-200$ kpc. But fails at $r = 10-30$ kpc and $r > 300$ kpc.
+**Best cluster fit (full-curve, with g_+ = 17×):** f_active = 0.1, N_crit = 5 — matches cluster RAR to 1-9% at r = 100-200 kpc. But fails at r = 10-30 kpc and r > 300 kpc.
 
-**Best UNIVERSAL fit (joint MW + cluster):** $f_{active} = 0.05$, $N_{crit} = 10$ — gives 28-67% off at MW inner, 4-20% off at cluster typical. A reasonable compromise.
+**Best UNIVERSAL fit (joint MW + cluster):** f_active = 0.05, N_crit = 10 — gives 28-67% off at MW inner, 4-20% off at cluster typical. A reasonable compromise.
 
 **Honest interpretation:**
-- The cascade's postulate of $f_{active} = 0.3$ is **6-15x too large**. The "true" $f_{active}$ for the cascade to match the RAR is $\sim 0.05$ (5% active, 95% cumulative), not 30%.
-- The cascade's $f_{active}$ appears to be slightly mass-dependent: MW fits best with $f_{active} = 0.02$, cluster with $f_{active} = 0.1$. This is consistent with a scale-dependent cascade fraction (different mass scales have different proportions of current vs cumulative dark matter).
+- The cascade's postulate of f_active = 0.3 is **6-15x too large**. The "true" f_active for the cascade to match the RAR is ~ 0.05 (5% active, 95% cumulative), not 30%.
+- The cascade's f_active appears to be slightly mass-dependent: MW fits best with f_active = 0.02, cluster with f_active = 0.1. This is consistent with a scale-dependent cascade fraction (different mass scales have different proportions of current vs cumulative dark matter).
 - The cascade's MW model matches the cluster RAR better than the galaxy RAR (a real testable tension, not a fudge).
-- A specific implementation would need $f_{active} \sim 0.05$ (or scale-dependent $f_{active}$), with the additional understanding that the cascade's $g_+$ may be closer to the cluster value ($2 \times 10^{-9}$) than the galaxy value ($1.2 \times 10^{-10}$).
+- A specific implementation would need f_active ~ 0.05 (or scale-dependent f_active), with the additional understanding that the cascade's g_+ may be closer to the cluster value (2 × 10^⁻⁹) than the galaxy value (1.2 × 10^⁻¹⁰).
 
-This refinement updates the cascade's "postulates" to be more quantitative: $f_{active}$ is much smaller than originally conjectured, and the spatial distribution of the cumulative dark matter is closer to uniform than to NFW (with some radial dependence from dynamical mixing).
+This refinement updates the cascade's "postulates" to be more quantitative: f_active is much smaller than originally conjectured, and the spatial distribution of the cumulative dark matter is closer to uniform than to NFW (with some radial dependence from dynamical mixing).
 
-*Isothermal cumulative + small f_active + scale factor (commit 115, v2.2.1).* I tested the combination of isothermal cumulative profile ($\rho_{cum} \sim 1/r^2$ at large r) with small $f_{active}$ and a scaling factor on $M_{halo}$. The isothermal profile gives $g_{cum} \sim 1/r$ at large r (the MOND-like behavior needed for the RAR), while small $f_{active}$ reduces the inner-galaxy over-prediction, and the scaling factor accounts for the discrepancy between the cascade's intrinsic $M_{halo}$ and the empirical $M_{halo}$.
+*Isothermal cumulative + small f_active + scale factor (commit 115, v2.2.1).* I tested the combination of isothermal cumulative profile (rho_cum ~ 1/r² at large r) with small f_active and a scaling factor on M_halo. The isothermal profile gives g_cum ~ 1/r at large r (the MOND-like behavior needed for the RAR), while small f_active reduces the inner-galaxy over-prediction, and the scaling factor accounts for the discrepancy between the cascade's intrinsic M_halo and the empirical M_halo.
 
 **Best MW fit:**
-- $f_{active} = 0.01$
-- $r_{core}/R_{halo} = 0.2$ (small core, ~6 kpc for MW)
-- Scale on $M_{halo}$: 0.2 (cascade $M_{halo}$ is 1/5 of empirical)
+- f_active = 0.01
+- r_core/R_halo = 0.2 (small core, ~6 kpc for MW)
+- Scale on M_halo: 0.2 (cascade M_halo is 1/5 of empirical)
 - log error: 0.009 (essentially a perfect fit)
 
 The cascade matches the RAR to 5-13% across all radii from 0.5 to 30 kpc:
-- 0.5 kpc: $-10\%$ (under)
-- 4 kpc: $-5\%$
-- 8 kpc: $+12\%$
-- 15 kpc: $+12\%$
-- 30 kpc: $+9\%$
+- 0.5 kpc: -10\% (under)
+- 4 kpc: -5\%
+- 8 kpc: +12\%
+- 15 kpc: +12\%
+- 30 kpc: +9\%
 
 **Best universal fit (MW + cluster, joint):**
-- $f_{active} = 0.05$, $r_{core}/R_{halo} = 0.3$, scale = 0.3
+- f_active = 0.05, r_core/R_halo = 0.3, scale = 0.3
 - log error: 0.17
-- The cluster needs slightly larger scale; $f_{active}$ is a compromise.
+- The cluster needs slightly larger scale; f_active is a compromise.
 
 **The cascade needs three ingredients to match the RAR:**
-1. **Small $f_{active}$** ($\sim$1-5%, not 30%): controls the inner galaxy, prevents the active contribution from inflating $g_{obs}$ at high $g_{bar}$.
-2. **Isothermal spatial distribution** ($\rho \sim 1/r^2$): gives $g_{cum} \sim 1/r$ at large r, which is the MOND-like behavior required by the RAR.
-3. **$M_{halo}$ is 1/3 to 1/5 of empirical**: the empirical $M_{halo}$ includes things beyond the cascade's "cumulative 2D universe gravity" (possibly baryons, gas, MACHOs, or other components).
+1. **Small f_active** (~1-5%, not 30%): controls the inner galaxy, prevents the active contribution from inflating g_obs at high g_bar.
+2. **Isothermal spatial distribution** (ρ ~ 1/r²): gives g_cum ~ 1/r at large r, which is the MOND-like behavior required by the RAR.
+3. **M_halo is 1/3 to 1/5 of empirical**: the empirical M_halo includes things beyond the cascade's "cumulative 2D universe gravity" (possibly baryons, gas, MACHOs, or other components).
 
-This last point is meaningful: the cascade predicts $M_{halo}$ from first principles (the 4D event's projection rate integrated over cosmic history). The empirical $M_{halo}$ is an observed quantity from rotation curves and gravitational lensing. The 3-5x gap between the cascade's intrinsic $M_{halo}$ and the empirical $M_{halo}$ is a *testable prediction* of the cascade.
+This last point is meaningful: the cascade predicts M_halo from first principles (the 4D event's projection rate integrated over cosmic history). The empirical M_halo is an observed quantity from rotation curves and gravitational lensing. The 3-5x gap between the cascade's intrinsic M_halo and the empirical M_halo is a *testable prediction* of the cascade.
 
 Possible explanations for the 3-5x gap:
-- The empirical $M_{halo}$ includes baryons, gas, MACHOs, and other components the cascade does not count
-- The cascade's $M_{halo}$ calculation needs a different normalization (the "30% active, 70% cumulative" postulate may be wrong)
+- The empirical M_halo includes baryons, gas, MACHOs, and other components the cascade does not count
+- The cascade's M_halo calculation needs a different normalization (the "30% active, 70% cumulative" postulate may be wrong)
 - The cascade's 4D event is parameterized differently than the standard 5/27/68 fit suggests
 
-This combination of small $f_{active}$ + isothermal profile + scale factor is a real candidate model for the cascade. A specific implementation of the cascade would need to derive these three parameters from the 4D event's physics (rather than fitting them to the RAR). This is left as a future work item (Limitation 20).
+This combination of small f_active + isothermal profile + scale factor is a real candidate model for the cascade. A specific implementation of the cascade would need to derive these three parameters from the 4D event's physics (rather than fitting them to the RAR). This is left as a future work item (Limitation 20).
 
-*Universal cascade RAR with mass-dependent scale (commit 117, v2.2.1).* A key test: can ONE set of $(f_{active}, r_{core}/R_{halo})$ fit BOTH the MW and the cluster RAR simultaneously, with just a mass-dependent scale factor?
+*Universal cascade RAR with mass-dependent scale (commit 117, v2.2.1).* A key test: can ONE set of (f_active, r_core/R_halo) fit BOTH the MW and the cluster RAR simultaneously, with just a mass-dependent scale factor?
 
-**Best universal fit:** $f_{active} = 0.05$, $r_{core}/R_{halo} = 0.2$ (universal), with mass-dependent scale:
-- **MW:** scale = 0.1 (cascade $M_{halo}$ ~ 10% of empirical), log error = 0.05
-- **Cluster:** scale = 0.7 (cascade $M_{halo}$ ~ 70% of empirical), log error = 0.02
+**Best universal fit:** f_active = 0.05, r_core/R_halo = 0.2 (universal), with mass-dependent scale:
+- **MW:** scale = 0.1 (cascade M_halo ~ 10% of empirical), log error = 0.05
+- **Cluster:** scale = 0.7 (cascade M_halo ~ 70% of empirical), log error = 0.02
 
 **Detailed fit:**
 
 MW (scale = 0.1):
 - At r = 15 kpc: 6% off
-- At r = 20 kpc: $-4\%$ off
-- At r = 30 kpc: $-17\%$ off
+- At r = 20 kpc: -4\% off
+- At r = 30 kpc: -17\% off
 - (within 6-40% across 0.5-30 kpc)
 
 Cluster (scale = 0.7):
-- At r = 10 kpc: $+2\%$ off (essentially perfect)
-- At r = 100 kpc: $-12\%$ off
-- At r = 200 kpc: $+7\%$ off
+- At r = 10 kpc: +2\% off (essentially perfect)
+- At r = 100 kpc: -12\% off
+- At r = 200 kpc: +7\% off
 - (within 2-21% across 10-500 kpc)
 
 **Interpretation of the mass-dependent scale:**
-- The cascade's intrinsic $M_{halo}$ is 10% of empirical for MW, 70% for cluster.
+- The cascade's intrinsic M_halo is 10% of empirical for MW, 70% for cluster.
 - The 7x difference between MW and cluster scales could be explained by:
-  1. The $\kappa$ ratio: cluster $\kappa = 100$, MW $\kappa = 17$, ratio = 5.9x (matches the 7x difference well!)
+  1. The κ ratio: cluster κ = 100, MW κ = 17, ratio = 5.9x (matches the 7x difference well!)
   2. Baryonic effects: more gas/dust in clusters
-  3. Star formation history: cluster's stars formed earlier (different $f_{active}$)
-  4. Selection effects: empirical $M_{halo}$ measures different things at different mass scales
+  3. Star formation history: cluster's stars formed earlier (different f_active)
+  4. Selection effects: empirical M_halo measures different things at different mass scales
 
-**This is a testable prediction:** the cascade's intrinsic $M_{halo}$ (from cumulative 2D universe gravity) should be a specific calculable fraction of the empirical $M_{halo}$ (from rotation curves and gravitational lensing), with this fraction depending on mass in a calculable way. The kappa ratio of 5.9x matches the scale ratio of 7x remarkably well, suggesting the cascade's intrinsic $M_{halo}$ scales with $\kappa$ in a specific way (perhaps $M_{cascade} \propto M_{halo}/\kappa$ or similar).
+**This is a testable prediction:** the cascade's intrinsic M_halo (from cumulative 2D universe gravity) should be a specific calculable fraction of the empirical M_halo (from rotation curves and gravitational lensing), with this fraction depending on mass in a calculable way. The kappa ratio of 5.9x matches the scale ratio of 7x remarkably well, suggesting the cascade's intrinsic M_halo scales with κ in a specific way (perhaps M_cascade propto M_halo/κ or similar).
 
-This is now the cascade's best candidate RAR model: small $f_{active}$ (5%), isothermal cumulative (1/r²), and a mass-dependent scale that follows approximately $1/\kappa$. A specific implementation would need to derive these from the 4D event's physics.
+This is now the cascade's best candidate RAR model: small f_active (5%), isothermal cumulative (1/r²), and a mass-dependent scale that follows approximately 1/κ. A specific implementation would need to derive these from the 4D event's physics.
 
-*Numerical results* (computing the full model with $N_{crit} = 10$, $f_{active} = 0.3$, $f_{cumulative} = 0.7$):
+*Numerical results* (computing the full model with N_crit = 10, f_active = 0.3, f_cumulative = 0.7):
 
 | Object | r (kpc) | N_orbits | f_mix | g_obs/g_bar | Effective g_+ |
 | --- | --- | --- | --- | --- | --- |
@@ -5848,23 +5848,23 @@ This is now the cascade's best candidate RAR model: small $f_{active}$ (5%), iso
 
 *Honest assessment of the full dynamical-mixing model:*
 - The mixing-fraction formalism is correct: the cumulative return is *naturally* between fully clustered and fully uniform, with the mixing fraction depending on radius and halo mass.
-- However, the *amplitude* of the model's prediction for $g_+$ at galaxy and cluster scales is now *too large* (the model over-predicts g_obs/g_bar by ~2-3x for MW, dwarfs, and clusters compared to the empirical RAR).
+- However, the *amplitude* of the model's prediction for g_+ at galaxy and cluster scales is now *too large* (the model over-predicts g_obs/g_bar by ~2-3x for MW, dwarfs, and clusters compared to the empirical RAR).
 - The *direction* of the mass dependence is right: cluster g_+ > galaxy g_+ > dwarf g_+, consistent with the empirical trend (Tian+ 2024 finds cluster g_+ is 17x galaxy g_+).
 - The model is *qualitatively correct* (the spatial distribution is right) but *quantitatively off* by a factor of a few at each scale. A specific implementation would need to also adjust the active/cumulative split, the kappa factor, or the N_crit parameter to match the data.
 
 This dynamical-mixing naturally gives the *intermediate* spatial distribution needed to match the data:
 
-- **Galaxy scale**: cumulative is mostly well-mixed (close to uniform). The cascade's original $g_+ = (3/4) \cdot G \cdot f_{cumulative} \cdot M_{DM} / (\pi R_{halo}^2)$ formula is *approximately* right, explaining why the cascade's $g_+$ is in the right ballpark for galaxies (0.22x empirical).
+- **Galaxy scale**: cumulative is mostly well-mixed (close to uniform). The cascade's original g_+ = (3/4) · G · f_cumulative · M_DM / (π R_halo²) formula is *approximately* right, explaining why the cascade's g_+ is in the right ballpark for galaxies (0.22x empirical).
 
 - **Dwarf scale (EDGE 2025)**: cumulative is well-mixed (close to uniform) at small r, but the *total* DM is small because dwarf galaxies have low activity rates. The cascade under-predicts the dwarf DM not because of the *spatial* distribution, but because of the *amplitude* — there must be additional activity-driven DM contributions in dwarfs that the cascade's simple SN+stellar event spectrum underestimates.
 
-- **Cluster scale (Tian+ 2024)**: cumulative is *barely* mixed in the cluster outskirts — essentially clustered, following the activity. The cluster $g_+$ is much higher than the galaxy $g_+$ because the cumulative is *not* uniform at cluster scales. The cascade's original $g_+$ formula assumed uniform $\rho_{cum}$, which is wrong for clusters where mixing is slow.
+- **Cluster scale (Tian+ 2024)**: cumulative is *barely* mixed in the cluster outskirts — essentially clustered, following the activity. The cluster g_+ is much higher than the galaxy g_+ because the cumulative is *not* uniform at cluster scales. The cascade's original g_+ formula assumed uniform rho_cum, which is wrong for clusters where mixing is slow.
 
-The *dynamical-mixing* picture reconciles the cascade's apparently inconsistent claims ("active is clustered" vs "cumulative is approximately uniform") by showing that the *cumulative* is *not* a delta function (clustered) but is also not perfectly uniform — it is *dynamically mixed* by 3+1D gravity, with the mixing fraction depending on radius and halo mass. The cascade's $g_+$ prediction is therefore *radius-dependent* and *mass-dependent*, and the simple $g_+ \propto M_{DM}/R_{halo}^2$ formula is only a *first-order* approximation valid for the *inner* regions of galaxies (where dynamical mixing is fast and the cumulative is well-mixed).
+The *dynamical-mixing* picture reconciles the cascade's apparently inconsistent claims ("active is clustered" vs "cumulative is approximately uniform") by showing that the *cumulative* is *not* a delta function (clustered) but is also not perfectly uniform — it is *dynamically mixed* by 3+1D gravity, with the mixing fraction depending on radius and halo mass. The cascade's g_+ prediction is therefore *radius-dependent* and *mass-dependent*, and the simple g_+ propto M_DM/R_halo² formula is only a *first-order* approximation valid for the *inner* regions of galaxies (where dynamical mixing is fast and the cumulative is well-mixed).
 
-*Implication*: the cascade's qualitative RAR picture is preserved (smooth RAR, activity-driven, cumulative floor), but the quantitative $g_+$ scaling requires a *dynamical-mixing model* that includes the local dynamical time, halo concentration, and activity-time correlation. A specific implementation of this model would be a *calculation to do*, not a fundamental limitation.
+*Implication*: the cascade's qualitative RAR picture is preserved (smooth RAR, activity-driven, cumulative floor), but the quantitative g_+ scaling requires a *dynamical-mixing model* that includes the local dynamical time, halo concentration, and activity-time correlation. A specific implementation of this model would be a *calculation to do*, not a fundamental limitation.
 
-**A cascade-MOND hybrid on real SPARC data (v2.2.1).** The cascade's original RAR prediction ($g_{obs} = g_{bar} + g_{cum} + g_{active}$, with isothermal cumulative profile) was tested against the real SPARC database (175 galaxies with measured rotation curves, Lelli/McGaugh/Schombert 2016) in `calculations/rar_sparc_real.py` and `calculations/sparc_mond_fit.py` (commits 151-153). The result is a *partial* vindication: the cascade's *framework* is consistent with the data, but its specific *functional form* for $g_{obs}$ is not.
+**A cascade-MOND hybrid on real SPARC data (v2.2.1).** The cascade's original RAR prediction (g_obs = g_bar + g_cum + g_active, with isothermal cumulative profile) was tested against the real SPARC database (175 galaxies with measured rotation curves, Lelli/McGaugh/Schombert 2016) in `calculations/rar_sparc_real.py` and `calculations/sparc_mond_fit.py` (commits 151-153). The result is a *partial* vindication: the cascade's *framework* is consistent with the data, but its specific *functional form* for g_obs is not.
 
 *Real SPARC test (149 high-quality galaxies, Q≤2, Inc>30°, L>0):*
 
@@ -5874,26 +5874,26 @@ The *dynamical-mixing* picture reconciles the cascade's apparently inconsistent 
 | **MOND (g_+ = 1.0 times 10^{-10}, M/L=0.5)** | 20.2% | 49.7% |
 | **MOND (free g_+, free M/L)** | **10.1%** | **87.6%** |
 
-The cascade's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ functional form is **falsified** on real data (70% median residual). MOND's interpolation function $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ fits the real data to 10% when $g_+$ and M/L are allowed to vary per galaxy. The empirical $g_+$ is **universal** at $\sim 1.0{-}1.2 \times 10^{-10}$ m/s² across 149 galaxies (per-galaxy best fit: $9.1 \times 10^{-11}$ median, $1.2 \times 10^{-10}$ mean, 0.42 dex scatter, consistent with the McGaugh+ 2016 measurement of $1.2 \times 10^{-10}$).
+The cascade's g_obs = g_bar + g_cum + g_active functional form is **falsified** on real data (70% median residual). MOND's interpolation function g_obs = g_bar / (1 - exp(-sqrt{g_bar/g_+})) fits the real data to 10% when g_+ and M/L are allowed to vary per galaxy. The empirical g_+ is **universal** at ~ 1.0{-}1.2 × 10^⁻¹⁰ m/s² across 149 galaxies (per-galaxy best fit: 9.1 × 10^⁻¹¹ median, 1.2 × 10^⁻¹⁰ mean, 0.42 dex scatter, consistent with the McGaugh+ 2016 measurement of 1.2 × 10^⁻¹⁰).
 
 *The cascade-MOND hybrid proposal.* The cascade's framework is not falsified by this test; only its specific RAR *functional form* is. A more honest proposal:
 
-- **Cascade provides the WHY**: the 2D universe cumulative gravity creates a universal acceleration scale $g_+ \sim 1.2 \times 10^{-10}$ m/s². The cascade's 4D event physics explains *why* there's a universal $g_+$ at all (per the cascade's framework: it's a property of the cumulative 2D universe gravity at galaxy scales).
-- **MOND provides the HOW**: $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ is the correct functional form for the relationship between $g_{obs}$ and $g_{bar}$ in real galaxies.
-- **Cascade-MOND synthesis**: the cascade's RAR prediction is **MOND-compatible**, not its own independent prediction. The cascade's contribution to the RAR is the *geometric origin of $g_+$, not the form of $g_{obs}(g_{bar})$*.
+- **Cascade provides the WHY**: the 2D universe cumulative gravity creates a universal acceleration scale g_+ ~ 1.2 × 10^⁻¹⁰ m/s². The cascade's 4D event physics explains *why* there's a universal g_+ at all (per the cascade's framework: it's a property of the cumulative 2D universe gravity at galaxy scales).
+- **MOND provides the HOW**: g_obs = g_bar / (1 - exp(-sqrt{g_bar/g_+})) is the correct functional form for the relationship between g_obs and g_bar in real galaxies.
+- **Cascade-MOND synthesis**: the cascade's RAR prediction is **MOND-compatible**, not its own independent prediction. The cascade's contribution to the RAR is the *geometric origin of g_+, not the form of g_obs(g_bar)*.
 
-This is a *completion* of the cascade's RAR story, not a falsification. The cascade's 4D event framework explains why there's a universal $g_+$ at galaxy scales. MOND's interpolation function explains how $g_{obs}$ depends on $g_{bar}$ within a galaxy. The cluster deviation ($g_+ \sim 17\times$ higher per Tian+ 2024) is a separate puzzle not addressed by either model.
+This is a *completion* of the cascade's RAR story, not a falsification. The cascade's 4D event framework explains why there's a universal g_+ at galaxy scales. MOND's interpolation function explains how g_obs depends on g_bar within a galaxy. The cluster deviation (g_+ ~ 17× higher per Tian+ 2024) is a separate puzzle not addressed by either model.
 
 *Testable predictions of the cascade-MOND hybrid:*
-1. $g_+$ is universal at galaxy scales (consistent with MOND's $a_0$). The cascade's framework predicts this universality from the 2D universe gravity.
+1. g_+ is universal at galaxy scales (consistent with MOND's a₀). The cascade's framework predicts this universality from the 2D universe gravity.
 2. The RAR scatter should correlate with M/L ratio variations (which is what the per-galaxy fit reveals).
-3. At cluster scales, the cascade's framework predicts a *different* $g_+$ (modified by 4D-cluster-physics, not just galaxy MOND). This is consistent with Tian+ 2024's 17× enhancement.
-4. The RAR functional form is MOND's interpolation, not a sum of components. The cascade's $g_{cum}$ and $g_{active}$ components are *conceptual* (geometric origin of $g_+$), not *computational* ($g_{obs} = g_{bar} + g_{cum} + g_{active}$).
+3. At cluster scales, the cascade's framework predicts a *different* g_+ (modified by 4D-cluster-physics, not just galaxy MOND). This is consistent with Tian+ 2024's 17× enhancement.
+4. The RAR functional form is MOND's interpolation, not a sum of components. The cascade's g_cum and g_active components are *conceptual* (geometric origin of g_+), not *computational* (g_obs = g_bar + g_cum + g_active).
 
 The cascade's RAR story now has THREE parts:
-- *Framework* (cascade's 2D universe gravity provides the origin of $g_+$) - **viable**
-- *Functional form* (MOND's interpolation $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$) - **MOND-compatible**
-- *Mass-dependence* (cluster $g_+ \sim 17\times$ galaxy $g_+$) - **Tian+ 2024 consistent, mechanism unspecified**
+- *Framework* (cascade's 2D universe gravity provides the origin of g_+) - **viable**
+- *Functional form* (MOND's interpolation g_obs = g_bar / (1 - exp(-sqrt{g_bar/g_+}))) - **MOND-compatible**
+- *Mass-dependence* (cluster g_+ ~ 17× galaxy g_+) - **Tian+ 2024 consistent, mechanism unspecified**
 
 ### 4.2 Dark matter as cumulative collective gravity, not a relic
 
@@ -5925,9 +5925,9 @@ This is *similar* to standard ΛCDM in its observable consequences: dark energy 
 
 The model does not currently specify how the dark energy *density* would evolve over time, because the model does not specify how the 4D event's antigravity output evolves over its full duration. The 4D event's antigravity output could be *increasing* over its full duration (the 4D event "intensifies" in 4D), *decreasing* ("fades" in 4D), or *constant* — the model does not specify. A specific implementation of the model would need to derive the temporal profile of the 4D event's antigravity output. The key observation is that *in our 3+1 dimensional frame*, the dark energy density appears *approximately constant* regardless of the 4D event's long-term behavior — because our universe's lifetime is a brief slice of the 4D event's full duration, during which any 4D-side variation is too slow to detect. If the 4D event's output is *exactly* constant over its full duration, the dark energy density in our frame is exactly constant (matching ΛCDM). If the 4D event's output *varies* slowly over its full duration, the dark energy density would vary *slowly* (correspondingly, in our frame), but the effect would be much smaller than what we can detect during our brief slice.
 
-**Why we do not derive the absolute dark energy density.** A natural question: given the cascade, can we derive the *absolute* value of the dark energy density (≈ 10⁻⁴⁷ GeV⁴)? The honest answer is *no* — at least not without further input. The cascade gives a *qualitative* explanation of why the dark energy is small (it's a near-cancellation residue), and it gives a *quantitative* prediction modulo the staying fraction $f_{back}$ (§2.6): $\rho_{DE} \sim f_{back} \cdot \epsilon \cdot M_{Pl}^4$, where $\epsilon \sim 10^{-38}$ is the bulk-brane cancellation factor and $f_{back} \sim 10^{-85}$ is the staying fraction. The product matches observation: $f_{back} \cdot \epsilon \cdot M_{Pl}^4 \sim 10^{-85} \cdot 10^{-38} \cdot M_{Pl}^4 \sim 10^{-123} M_{Pl}^4 \sim 10^{-47}$ GeV⁴. The *individual* values of $\epsilon$ and $f_{back}$ are *postulates* of the model, not derivations. A complete implementation of the model would derive $\epsilon$ and $f_{back}$ from the geometry of the dimensional projection, which would in turn predict the absolute dark energy density from first principles. We do *not* claim to have done this derivation in the present paper. We note that the dark energy density is *consistent* with the cascade-plus-staying-fraction picture for the specific values $\epsilon \sim 10^{-38}$ and $f_{back} \sim 10^{-85}$, but these values are *not predicted* by the model. The *threshold mechanism* (a previous attempt to derive the dark energy density from a *dimensional transition threshold* $\lambda_{th}$) was attempted and *removed* because it failed for internal-numerical reasons (the threshold value that matches dark energy, $\lambda_{th} \sim 10^{-4}$ m, was inconsistent with the Sun-neutrino constraint that defined the threshold range). The threshold mechanism is no longer part of the model, and the dark energy density is *not* derived. We acknowledge this as a *limitation* of the current model: it is *qualitatively* consistent with observations and provides a *unified* geometric framework for the dark sector, but it does not yet *quantitatively derive* the absolute value of the dark energy density. The qualitative picture is *robust*; the quantitative value is set by the cascade + staying fraction postulate.
+**Why we do not derive the absolute dark energy density.** A natural question: given the cascade, can we derive the *absolute* value of the dark energy density (≈ 10⁻⁴⁷ GeV⁴)? The honest answer is *no* — at least not without further input. The cascade gives a *qualitative* explanation of why the dark energy is small (it's a near-cancellation residue), and it gives a *quantitative* prediction modulo the staying fraction f_back (§2.6): rho_DE ~ f_back · ε · M_Pl⁴, where ε ~ 10^⁻³⁸ is the bulk-brane cancellation factor and f_back ~ 10^⁻⁸⁵ is the staying fraction. The product matches observation: f_back · ε · M_Pl⁴ ~ 10^⁻⁸⁵ · 10^⁻³⁸ · M_Pl⁴ ~ 10^⁻¹²³ M_Pl⁴ ~ 10^⁻⁴⁷ GeV⁴. The *individual* values of ε and f_back are *postulates* of the model, not derivations. A complete implementation of the model would derive ε and f_back from the geometry of the dimensional projection, which would in turn predict the absolute dark energy density from first principles. We do *not* claim to have done this derivation in the present paper. We note that the dark energy density is *consistent* with the cascade-plus-staying-fraction picture for the specific values ε ~ 10^⁻³⁸ and f_back ~ 10^⁻⁸⁵, but these values are *not predicted* by the model. The *threshold mechanism* (a previous attempt to derive the dark energy density from a *dimensional transition threshold* lambda_th) was attempted and *removed* because it failed for internal-numerical reasons (the threshold value that matches dark energy, lambda_th ~ 10^⁻⁴ m, was inconsistent with the Sun-neutrino constraint that defined the threshold range). The threshold mechanism is no longer part of the model, and the dark energy density is *not* derived. We acknowledge this as a *limitation* of the current model: it is *qualitatively* consistent with observations and provides a *unified* geometric framework for the dark sector, but it does not yet *quantitatively derive* the absolute value of the dark energy density. The qualitative picture is *robust*; the quantitative value is set by the cascade + staying fraction postulate.
 
-**A note on the Hubble tension.** The Hubble tension is the *statistically significant* disagreement (currently ~5σ) between the Hubble constant $H_0$ measured locally ($H_0 \approx 73$ km/s/Mpc, from Cepheids and supernovae) and the value inferred from the cosmic microwave background using ΛCDM ($H_0 \approx 67$ km/s/Mpc, from Planck). The local measurement is *higher* than the early-universe extrapolation, even after accounting for the known accelerating expansion (which is built into ΛCDM via dark energy with $w = -1$). This tension is one of the most active puzzles in modern cosmology. The dimensional-cascade framework offers a *potential* connection: if the 4D event's antigravity output *varies* over its full duration (per the acknowledgment above), then the *early-universe* antigravity and the *late-universe* antigravity could be *slightly* different. The dimensional time-dilation principle (§2.3) says the projection from 4D to 3+1D is not a simple linear time translation, so the *effective* $H_0$ at different cosmic times could differ from the ΛCDM-extrapolated $H_0$ in a way that *reduces* the tension. Specifically, if the 4D event's antigravity output was *slightly* higher in the early universe than now, the CMB-inferred $H_0$ would shift upward, *reducing* the gap with the local measurement. This is a *speculative* extension of the model — the §4.3 already acknowledges that the antigravity output *could* vary, but the *specific* temporal profile (and whether it would explain the *magnitude* of the Hubble tension, ~6 km/s/Mpc) is not derived. A specific implementation of the model would need to (a) derive the temporal profile of the 4D event's antigravity, and (b) check that the resulting shift in $H_0$ matches the observed tension. The dimensional-cascade framework is therefore *qualitatively compatible* with a Hubble tension resolution via time-varying antigravity, but the *quantitative details* are left to future work. We note that this is a *natural* connection that could distinguish the model from standard ΛCDM: ΛCDM predicts a *strictly* constant dark energy (no time variation), while the dimensional-cascade model *allows* (and may *require*) slight time variation over the 4D event's full duration, which would be a *qualitatively different* prediction.
+**A note on the Hubble tension.** The Hubble tension is the *statistically significant* disagreement (currently ~5σ) between the Hubble constant H₀ measured locally (H₀ ≈ 73 km/s/Mpc, from Cepheids and supernovae) and the value inferred from the cosmic microwave background using ΛCDM (H₀ ≈ 67 km/s/Mpc, from Planck). The local measurement is *higher* than the early-universe extrapolation, even after accounting for the known accelerating expansion (which is built into ΛCDM via dark energy with w = -1). This tension is one of the most active puzzles in modern cosmology. The dimensional-cascade framework offers a *potential* connection: if the 4D event's antigravity output *varies* over its full duration (per the acknowledgment above), then the *early-universe* antigravity and the *late-universe* antigravity could be *slightly* different. The dimensional time-dilation principle (§2.3) says the projection from 4D to 3+1D is not a simple linear time translation, so the *effective* H₀ at different cosmic times could differ from the ΛCDM-extrapolated H₀ in a way that *reduces* the tension. Specifically, if the 4D event's antigravity output was *slightly* higher in the early universe than now, the CMB-inferred H₀ would shift upward, *reducing* the gap with the local measurement. This is a *speculative* extension of the model — the §4.3 already acknowledges that the antigravity output *could* vary, but the *specific* temporal profile (and whether it would explain the *magnitude* of the Hubble tension, ~6 km/s/Mpc) is not derived. A specific implementation of the model would need to (a) derive the temporal profile of the 4D event's antigravity, and (b) check that the resulting shift in H₀ matches the observed tension. The dimensional-cascade framework is therefore *qualitatively compatible* with a Hubble tension resolution via time-varying antigravity, but the *quantitative details* are left to future work. We note that this is a *natural* connection that could distinguish the model from standard ΛCDM: ΛCDM predicts a *strictly* constant dark energy (no time variation), while the dimensional-cascade model *allows* (and may *require*) slight time variation over the 4D event's full duration, which would be a *qualitatively different* prediction.
 
 ### 4.4 Sub-millimeter gravity tests
 
@@ -5945,9 +5945,9 @@ A *specific* implementation of the 4D event scenario must reproduce these observ
 - The standard ΛCDM cosmology (with inflation) is in excellent agreement with current CMB data. The 4D event scenario must do at least as well, with any deviations being a target for observational test. The model does not currently explain the *origin* of the primordial perturbations (the inflationary quantum-fluctuation picture is one possibility; another is that the 4D event had its own small-scale structure that projects as the seed perturbations).
 
 **Inflation, matter-antimatter asymmetry, and other open issues.** The dimensional-cascade framework does *not* currently derive:
-- *Cosmic inflation* — the near-exponential expansion in the very early universe (~$10^{-36}$ to $10^{-32}$ seconds after the Big Bang) that solves the horizon, flatness, and monopole problems. In the cascade, the 4D event's projection could in principle provide an inflation-like phase (if the 4D event had a *spatially* localized region of intense energy near the projection's origin — corresponding to the 4D event's "early" region in the 4D-spatial direction that maps to 3+1D time, per the dimensional time-dilation principle of §2.2), but this is *not* derived in the current model. A specific implementation would need to derive the inflationary phase from the 4D event's *spatial* profile (the mapping of 4D-spatial intensity onto 3+1D-temporal early-universe intensity), and check that the resulting primordial perturbation spectrum matches observations (nearly scale-invariant, $n_s \approx 0.965$, with no detectable tensor modes at current sensitivity). The cascade's *temporal* profile of the 4D event (intensity vs 4D time) maps to 3+1D's *spatial* profile (intensity vs 3+1D position at a given 3+1D time), so the "brief, intense early phase" in the inflationary sense would correspond to a *spatially localized* intense region in the 4D event, not a temporally early phase in 4D time.
-- *Matter-antimatter asymmetry* — the observed fact that our universe has *more matter than antimatter* (baryon-to-photon ratio $\eta \sim 6 \times 10^{-10}$). The cascade does *not* currently explain this asymmetry. In standard cosmology, the asymmetry is generated by *baryogenesis* (Sakharov conditions: baryon number violation, C and CP violation, out-of-equilibrium processes). In the cascade, the 4D event could in principle generate the asymmetry (if the 4D event's projection preferentially created matter over antimatter, or if the dimensional projection inherently violates C and CP), but this is *not* derived. A specific implementation would need to address why the projected 3+1D universe is matter-dominated.
-- *Big Bang nucleosynthesis (BBN)* — the observed light element abundances (D, ³He, ⁴He, ⁷Li) at ~$10^{-2}$ to $10^3$ seconds after the Big Bang, which constrain the baryon-to-photon ratio and the number of relativistic species. The cascade does *not* currently derive the BBN predictions from the 4D event; the model takes the standard BBN picture as given and notes that the 4D event scenario must be *consistent* with the observed light element abundances.
+- *Cosmic inflation* — the near-exponential expansion in the very early universe (~10^⁻³⁶ to 10^⁻³² seconds after the Big Bang) that solves the horizon, flatness, and monopole problems. In the cascade, the 4D event's projection could in principle provide an inflation-like phase (if the 4D event had a *spatially* localized region of intense energy near the projection's origin — corresponding to the 4D event's "early" region in the 4D-spatial direction that maps to 3+1D time, per the dimensional time-dilation principle of §2.2), but this is *not* derived in the current model. A specific implementation would need to derive the inflationary phase from the 4D event's *spatial* profile (the mapping of 4D-spatial intensity onto 3+1D-temporal early-universe intensity), and check that the resulting primordial perturbation spectrum matches observations (nearly scale-invariant, n_s ≈ 0.965, with no detectable tensor modes at current sensitivity). The cascade's *temporal* profile of the 4D event (intensity vs 4D time) maps to 3+1D's *spatial* profile (intensity vs 3+1D position at a given 3+1D time), so the "brief, intense early phase" in the inflationary sense would correspond to a *spatially localized* intense region in the 4D event, not a temporally early phase in 4D time.
+- *Matter-antimatter asymmetry* — the observed fact that our universe has *more matter than antimatter* (baryon-to-photon ratio η ~ 6 × 10^⁻¹⁰). The cascade does *not* currently explain this asymmetry. In standard cosmology, the asymmetry is generated by *baryogenesis* (Sakharov conditions: baryon number violation, C and CP violation, out-of-equilibrium processes). In the cascade, the 4D event could in principle generate the asymmetry (if the 4D event's projection preferentially created matter over antimatter, or if the dimensional projection inherently violates C and CP), but this is *not* derived. A specific implementation would need to address why the projected 3+1D universe is matter-dominated.
+- *Big Bang nucleosynthesis (BBN)* — the observed light element abundances (D, ³He, ⁴He, ⁷Li) at ~10^⁻² to 10³ seconds after the Big Bang, which constrain the baryon-to-photon ratio and the number of relativistic species. The cascade does *not* currently derive the BBN predictions from the 4D event; the model takes the standard BBN picture as given and notes that the 4D event scenario must be *consistent* with the observed light element abundances.
 - *Primordial black holes, topological defects, cosmic strings* — other features of standard cosmology that are not currently addressed by the cascade.
 
 These are *honest* gaps in the current model. The cascade is a *framework* that addresses the dark sector (dark matter, dark energy, gravity's weakness) but does *not* yet derive the full set of standard cosmological predictions. A *complete* implementation of the cascade would need to address all of these issues, but the current paper focuses on the *core* dimensional-cascade model and the dark sector, leaving the broader cosmological implications for future work.
@@ -5956,7 +5956,7 @@ This is a target for theoretical development.
 
 ### 4.6 (Section removed: neutrino mass is a Standard Model physics question, not addressed by this model.)
 
-*This section was removed in v2.3.0.* An earlier draft of this paper (v2.0) included a subsection on neutrino mass as a possible test of the cascade (via the $\epsilon \sim 10^{-38}$ bulk-brane coupling). On reflection, this was out of scope: neutrino mass is a Standard Model question (Dirac vs. Majorana, seesaw mechanism, etc.) that the cascade does not currently address. The cascade *takes* neutrino masses as given (per §2.6) and does not derive them. The 4D graph-theory approach to derive neutrino masses from the cascade's structure failed (commit 173); a more honest framing is that the cascade is *agnostic* on neutrino mass. We retain the section number 4.6 here for backward compatibility with earlier drafts and to document the removal explicitly.
+*This section was removed in v2.3.0.* An earlier draft of this paper (v2.0) included a subsection on neutrino mass as a possible test of the cascade (via the ε ~ 10^⁻³⁸ bulk-brane coupling). On reflection, this was out of scope: neutrino mass is a Standard Model question (Dirac vs. Majorana, seesaw mechanism, etc.) that the cascade does not currently address. The cascade *takes* neutrino masses as given (per §2.6) and does not derive them. The 4D graph-theory approach to derive neutrino masses from the cascade's structure failed (commit 173); a more honest framing is that the cascade is *agnostic* on neutrino mass. We retain the section number 4.6 here for backward compatibility with earlier drafts and to document the removal explicitly.
 
 ### 4.7 Dark matter density should correlate with energetic event rates — on galaxy scales
 
@@ -6034,13 +6034,13 @@ In each case, the *energetic activity* of the system (collision rate, star forma
 
 **AGC 114905 and the smooth creation function (v2.7.4, supersedes v2.3.0 phase-transition).** A *particularly important* test of the activity-DM correlation is the gas-rich ultra-diffuse dwarf AGC 114905 [Mancera Piña+ 2024], which appears to have very little dark matter (less than 1/10 of the standard ΛCDM expectation) despite ongoing star formation. Under the simple "current activity = current DM" reading of our model, this would be a *falsifying case* — a star-forming galaxy should have cumulative 2D universe activity, hence high DM.
 
-The *resolution*: 2D universe creation follows the *smooth creation function* $C(E) = E^{1+\alpha}$ (per §2.5.3, where $\alpha = 1.29$ from the energy-scaling rule). AGC 114905's ongoing star formation produces low-energy events ($E \sim 10^{28-32}$ J), which contribute $E^{2.29} / \text{SN}^{2.29} \sim 10^{-31}$ of a supernova's contribution — *negligible*. The galaxy remains DM-poor. This is the same principle that explains why the Sun has no detectable DM (solar events are $10^{-41}$ of SN contribution). The smooth function is *qualitatively equivalent* to a phase transition in the limit of a sharp threshold, but is continuous and uses only $\alpha = 1.29$ (the same parameter as the energy-scaling rule). It predicts a *power-law* ordering of DM contributions by event energy, with SN-scale events dominating over SF-scale events by ~30 orders of magnitude.
+The *resolution*: 2D universe creation follows the *smooth creation function* C(E) = E^¹⁺α (per §2.5.3, where α = 1.29 from the energy-scaling rule). AGC 114905's ongoing star formation produces low-energy events (E ~ 10^²⁸⁻³² J), which contribute E^².²⁹ / SN^².²⁹ ~ 10^⁻³¹ of a supernova's contribution — *negligible*. The galaxy remains DM-poor. This is the same principle that explains why the Sun has no detectable DM (solar events are 10^⁻⁴¹ of SN contribution). The smooth function is *qualitatively equivalent* to a phase transition in the limit of a sharp threshold, but is continuous and uses only α = 1.29 (the same parameter as the energy-scaling rule). It predicts a *power-law* ordering of DM contributions by event energy, with SN-scale events dominating over SF-scale events by ~30 orders of magnitude.
 
 **Testable predictions of the phase-transition principle:**
-- AGC 114905 should have NO massive O/B stars, NO recent SN remnants, NO high-energy events above $10^{30}$ J
-- Galaxies with KNOWN recent SN should be DM-richer than quiescent galaxies of the same $M_b$
-- AGN-host galaxies should be DM-richer than non-AGN galaxies of the same $M_b$
-- The phase-transition exponent $\alpha$ in the power-law form $R_{\text{cascade}} \propto (dE/dV)^\alpha$ should be derivable from the 2D brane dynamics (specific calculation for a mathematical physicist, per §7.1)
+- AGC 114905 should have NO massive O/B stars, NO recent SN remnants, NO high-energy events above 10^³⁰ J
+- Galaxies with KNOWN recent SN should be DM-richer than quiescent galaxies of the same M_b
+- AGN-host galaxies should be DM-richer than non-AGN galaxies of the same M_b
+- The phase-transition exponent α in the power-law form R_{cascade} propto (dE/dV)^α should be derivable from the 2D brane dynamics (specific calculation for a mathematical physicist, per §7.1)
 
 *Status: 5/5 specific dwarf-galaxy cases now consistent (DF2/DF4, FCC 224, AGC 114905, plus the Sun as a null test, plus the positive case KKR 25 (dSph) with DM-rich content from 1-4 Gyr past activity, resolved via S_destruction cumulative-return), plus 2 large-scale cases via the cascade-MOND hybrid (175 SPARC galaxies at 10% median residual, 50 Tian+ 2024 BCGs at 14% median residual). Total: 7/7 specific cases consistent. The phase-transition principle transforms the AGC 114905 anomaly from a falsification into a quantitative prediction, and is now tested with REAL observational data (see §4.8.1 below).*
 
@@ -6049,21 +6049,21 @@ The *resolution*: 2D universe creation follows the *smooth creation function* $C
 **The phase-transition principle's prediction** is now tested against *real observational data* (not synthesized or qualitative), using published measurements of stellar populations, X-ray activity, and DM content for 5 specific systems. The full data processing is in `calculations/phase_transition_real_data_test.py` and `supporting/data/UDG/udg_audit.json`.
 
 The key physical insight: the cascade's threshold is on *event energy*, not on *stellar mass*. A galaxy's DM content should depend on the *maximum event energy* its stellar population has produced in its recent history, not just the total stellar mass or the *current* star formation rate. Specifically:
-- A stellar population with age < ~50 Myr contains O/B stars (which produce core-collapse SN at $E \sim 10^{44}$ J, well above $E_{\text{crit}}$) → 2D universe creation active → DM-rich
-- A stellar population with age 0.5-2 Gyr contains only A-type and lower stars (no SN progenitors) → no events above $E_{\text{crit}}$ → DM-poor
-- A stellar population with age > 5 Gyr contains only K/M dwarfs → no events above $E_{\text{crit}}$ → DM-poor
+- A stellar population with age < ~50 Myr contains O/B stars (which produce core-collapse SN at E ~ 10^⁴⁴ J, well above E_{crit}) → 2D universe creation active → DM-rich
+- A stellar population with age 0.5-2 Gyr contains only A-type and lower stars (no SN progenitors) → no events above E_{crit} → DM-poor
+- A stellar population with age > 5 Gyr contains only K/M dwarfs → no events above E_{crit} → DM-poor
 
 *Empirical data for the 5 cases (from published observational papers):*
 
-- **AGC 114905** [Mancera Piña+ 2024, A&A 689, A344; arXiv:2404.06537]: Distance 78.7 Mpc, $M_{\text{HI}} = 1.04 \times 10^9 M_\odot$, $M_* = 9 \times 10^7 M_\odot$, gas fraction 0.94. **Stellar population ages 0.5-2 Gyr** (per Vazdekis+ 2015 E-MILES tracks on the GTC optical imaging). Maximum surviving stellar mass: 2.5 $M_\odot$ (A-type). NO SN progenitors. NO X-ray sources detected. CASCADE PREDICTION: DM-poor. OBSERVED: DM-poor. ****[PASS]** CONSISTENT.**
-- **DF2/DF4** [van Dokkum+ 2018, Nature 555, 629; van Dokkum+ 2019, ApJ 880, 91]: Old stellar populations (~10 Gyr). Maximum surviving stellar mass: 1 $M_\odot$ (K/M dwarfs). NO SN progenitors. NO X-ray. CASCADE PREDICTION: DM-poor. OBSERVED: DM-poor (factor 1/400 of ΛCDM). ****[PASS]** CONSISTENT.**
-- **FCC 224** [Ferguson et al. 2024, "UDG sample"]: Quiescent UDG in the Fosbury-Carter-Cannon catalog. Age ~8 Gyr. Maximum surviving mass: 1.1 $M_\odot$ (K dwarf, per the lifetime $\propto M^{-2.5}$ scaling). NO SN. CASCADE PREDICTION: DM-poor. OBSERVED: DM-poor. ****[PASS]** CONSISTENT.** *Note: The "Ferguson+ 2024" reference is a placeholder for a paper in the UDG-survey literature; the specific paper was not independently verified during this audit. FCC 224 is a known UDG; the qualitative claim (DM-poor, quiescent) is consistent with the broader UDG literature.*
-- **KKR 25** [Makarov et al. 2012, MNRAS 425, 709, "A unique isolated dwarf spheroidal galaxy at D = 1.9 Mpc"]: A *nearby* (D = 1.9 Mpc) isolated dwarf spheroidal (dSph) galaxy with intermediate-age star formation (1-4 Gyr ago, per Lick indices). 60% of total stellar mass was formed in this single burst event. Maximum surviving mass in the *current* 1-4 Gyr population: ~2.5-3 $M_\odot$ (A-type). **NO current SN progenitors alive** (phase-transition threshold not crossed by current activity). **HOWEVER**, the 1-4 Gyr population *was* active at the time of the burst, with O/B stars that produced core-collapse SN ($\sim 10^{44}$ J, well above $E_{\text{crit}}$). Those SN seeded 2D universes with $\tau_{2D} \sim 33$ seconds (per the dimensional time-dilation rule). The 2D universes have since died (33 seconds after creation), and per the §2.5.1 action\'s S_destruction, the energy was *returned to 3+1D as a permanent DM contribution*. **CASCADE PREDICTION**: cascade NOT active *now* (no current SN), but cumulative return from the 1-4 Gyr burst\'s SN contributes to present-day DM. **OBSERVED**: KKR 25 is DM-rich for its mass. **RESOLVED** via the S_destruction pathway (energy-return assumption). *Honest caveat*: the S_destruction mechanism is a model assumption (encoded in the action but not derived from first principles). If the 2D universe\'s death energy instead *escapes* the 3+1D brane (e.g., radiates into the 4D bulk), then the cumulative return would NOT contribute to 3+1D DM, and KKR 25 would be a real TENSION. X-ray follow-up observations and a more rigorous derivation of S_destruction\'s energetics are needed to confirm.
-- **Sun (null test)**: $M = 1 M_\odot$, age 4.6 Gyr. *Key physical point — the phase-transition threshold is on VOLUMETRIC ENERGY DENSITY (dE/dV), not on total integrated energy.* Main-sequence solar fusion releases $\sim 3.8 \times 10^{26}$ W continuously, totaling $\sim 5 \times 10^{43}$ J over the Sun's 4.6 Gyr lifetime — a number that *vastly* exceeds a single supernova's $\sim 10^{44}$ J. A naive integrated-energy ledger would predict the Sun to be surrounded by a massive micro-halo. The cascade's principle *explicitly avoids* this conclusion by computing the *local volumetric energy density* dE/dV at the event site. Solar fusion packs $\sim 10^{23-26}$ J per event (MeV-scale per reaction) into a *huge spatial volume* (the solar core, $\sim 0.25 R_\odot \sim 1.7 \times 10^8$ m), giving dE/dV per event of $\sim 10^{23-26} / (1.7 \times 10^8)^3 \sim 10^{-2}$ J/m³ — many orders of magnitude below $\rho_{\text{crit}}$. By contrast, a supernova packs $\sim 10^{44}$ J into a *stellar core* ($\sim 3 \times 10^3$ m radius) over a fraction of a second, giving dE/dV $\sim 10^{44} / (3 \times 10^3)^3 \sim 10^{33}$ J/m³ — *many orders of magnitude above* $\rho_{\text{crit}}$. The *maximum single-event* energy is also below threshold: solar flares peak at $\sim 10^{23-26}$ J, well below $E_{\text{crit}} = 10^{30}$ J (5-7 orders of magnitude below), so the cascade initialization script ($R_{\text{cascade}} = f_{\text{deliver}} \cdot E$ for $\rho_E \geq \rho_{\text{crit}}$) never fires. White-dwarf formation in ~5 Gyr will produce $\sim 10^{40}$ J in a compact planetary-nebula-scale volume, above threshold, but this is a *future* event that has not yet happened. CASCADE PREDICTION: No DM now. OBSERVED: No DM detection ($< 10^{-17}$ of galactic). ****[PASS]** CONSISTENT.**
+- **AGC 114905** [Mancera Piña+ 2024, A&A 689, A344; arXiv:2404.06537]: Distance 78.7 Mpc, M_{HI} = 1.04 × 10⁹ M_odot, M_* = 9 × 10⁷ M_odot, gas fraction 0.94. **Stellar population ages 0.5-2 Gyr** (per Vazdekis+ 2015 E-MILES tracks on the GTC optical imaging). Maximum surviving stellar mass: 2.5 M_odot (A-type). NO SN progenitors. NO X-ray sources detected. CASCADE PREDICTION: DM-poor. OBSERVED: DM-poor. ****[PASS]** CONSISTENT.**
+- **DF2/DF4** [van Dokkum+ 2018, Nature 555, 629; van Dokkum+ 2019, ApJ 880, 91]: Old stellar populations (~10 Gyr). Maximum surviving stellar mass: 1 M_odot (K/M dwarfs). NO SN progenitors. NO X-ray. CASCADE PREDICTION: DM-poor. OBSERVED: DM-poor (factor 1/400 of ΛCDM). ****[PASS]** CONSISTENT.**
+- **FCC 224** [Ferguson et al. 2024, "UDG sample"]: Quiescent UDG in the Fosbury-Carter-Cannon catalog. Age ~8 Gyr. Maximum surviving mass: 1.1 M_odot (K dwarf, per the lifetime propto M^⁻².⁵ scaling). NO SN. CASCADE PREDICTION: DM-poor. OBSERVED: DM-poor. ****[PASS]** CONSISTENT.** *Note: The "Ferguson+ 2024" reference is a placeholder for a paper in the UDG-survey literature; the specific paper was not independently verified during this audit. FCC 224 is a known UDG; the qualitative claim (DM-poor, quiescent) is consistent with the broader UDG literature.*
+- **KKR 25** [Makarov et al. 2012, MNRAS 425, 709, "A unique isolated dwarf spheroidal galaxy at D = 1.9 Mpc"]: A *nearby* (D = 1.9 Mpc) isolated dwarf spheroidal (dSph) galaxy with intermediate-age star formation (1-4 Gyr ago, per Lick indices). 60% of total stellar mass was formed in this single burst event. Maximum surviving mass in the *current* 1-4 Gyr population: ~2.5-3 M_odot (A-type). **NO current SN progenitors alive** (phase-transition threshold not crossed by current activity). **HOWEVER**, the 1-4 Gyr population *was* active at the time of the burst, with O/B stars that produced core-collapse SN (~ 10^⁴⁴ J, well above E_{crit}). Those SN seeded 2D universes with tau_₂D ~ 33 seconds (per the dimensional time-dilation rule). The 2D universes have since died (33 seconds after creation), and per the §2.5.1 action\'s S_destruction, the energy was *returned to 3+1D as a permanent DM contribution*. **CASCADE PREDICTION**: cascade NOT active *now* (no current SN), but cumulative return from the 1-4 Gyr burst\'s SN contributes to present-day DM. **OBSERVED**: KKR 25 is DM-rich for its mass. **RESOLVED** via the S_destruction pathway (energy-return assumption). *Honest caveat*: the S_destruction mechanism is a model assumption (encoded in the action but not derived from first principles). If the 2D universe\'s death energy instead *escapes* the 3+1D brane (e.g., radiates into the 4D bulk), then the cumulative return would NOT contribute to 3+1D DM, and KKR 25 would be a real TENSION. X-ray follow-up observations and a more rigorous derivation of S_destruction\'s energetics are needed to confirm.
+- **Sun (null test)**: M = 1 M_odot, age 4.6 Gyr. *Key physical point — the phase-transition threshold is on VOLUMETRIC ENERGY DENSITY (dE/dV), not on total integrated energy.* Main-sequence solar fusion releases ~ 3.8 × 10^²⁶ W continuously, totaling ~ 5 × 10^⁴³ J over the Sun's 4.6 Gyr lifetime — a number that *vastly* exceeds a single supernova's ~ 10^⁴⁴ J. A naive integrated-energy ledger would predict the Sun to be surrounded by a massive micro-halo. The cascade's principle *explicitly avoids* this conclusion by computing the *local volumetric energy density* dE/dV at the event site. Solar fusion packs ~ 10^²³⁻²⁶ J per event (MeV-scale per reaction) into a *huge spatial volume* (the solar core, ~ 0.25 R_odot ~ 1.7 × 10⁸ m), giving dE/dV per event of ~ 10^²³⁻²⁶ / (1.7 × 10⁸)³ ~ 10^⁻² J/m³ — many orders of magnitude below rho_{crit}. By contrast, a supernova packs ~ 10^⁴⁴ J into a *stellar core* (~ 3 × 10³ m radius) over a fraction of a second, giving dE/dV ~ 10^⁴⁴ / (3 × 10³)³ ~ 10^³³ J/m³ — *many orders of magnitude above* rho_{crit}. The *maximum single-event* energy is also below threshold: solar flares peak at ~ 10^²³⁻²⁶ J, well below E_{crit} = 10^³⁰ J (5-7 orders of magnitude below), so the cascade initialization script (R_{cascade} = f_{deliver} · E for rho_E ≥ rho_{crit}) never fires. White-dwarf formation in ~5 Gyr will produce ~ 10^⁴⁰ J in a compact planetary-nebula-scale volume, above threshold, but this is a *future* event that has not yet happened. CASCADE PREDICTION: No DM now. OBSERVED: No DM detection (< 10^⁻¹⁷ of galactic). ****[PASS]** CONSISTENT.**
 
-*Result: 5/5 specific cases consistent with the cascade's phase-transition principle using real observational data (KKR 25 via the S_destruction cumulative-return pathway).* The AGC 114905 anomaly is *resolved* by the specific stellar population age (0.5-2 Gyr), which means no O/B stars survive to produce SN, which means no events above $E_{\text{crit}}$, which means no 2D universe creation, which means no DM contribution from the cascade. The same principle explains all 5 cases: 4 directly (DM-poor with no current high-energy events) and KKR 25 via the S_destruction cumulative-return pathway (past activity contributes to present-day DM).
+*Result: 5/5 specific cases consistent with the cascade's phase-transition principle using real observational data (KKR 25 via the S_destruction cumulative-return pathway).* The AGC 114905 anomaly is *resolved* by the specific stellar population age (0.5-2 Gyr), which means no O/B stars survive to produce SN, which means no events above E_{crit}, which means no 2D universe creation, which means no DM contribution from the cascade. The same principle explains all 5 cases: 4 directly (DM-poor with no current high-energy events) and KKR 25 via the S_destruction cumulative-return pathway (past activity contributes to present-day DM).
 
-*Methodology limitations (honest).* This test uses published measurements from each paper's own data, not raw archival data we re-reduced ourselves. The stellar age estimates depend on stellar population synthesis models (E-MILES, Vazdekis+ 2015), which have systematic uncertainties at the 0.1-0.3 dex level. The "max surviving mass" calculation uses an approximate scaling relation (lifetime $\propto M^{-2.5}$), not detailed stellar evolution tracks. The X-ray non-detections are upper limits, not confirmed null detections — deeper observations could reveal faint X-ray sources that are still below the threshold but might change the qualitative picture. The test is *qualitative* (DM-rich vs DM-poor) rather than *quantitative* (predicting specific DM halo masses), and depends on the cascade's predicted threshold $E_{\text{crit}} \sim 10^{30}$ J (a postulate, not a derivation; see Limitation 22). A more rigorous test would: (a) derive $E_{\text{crit}}$ from the action's $\alpha$ coupling (Limitation 26), (b) use full stellar evolution tracks (MIST, PARSEC) instead of the approximate scaling, (c) cross-match against Chandra/XMM-Newton archive for actual X-ray upper limits on each galaxy, (d) include X-ray binary luminosity predictions for the active case (KKR 25). All of these are open work items.
+*Methodology limitations (honest).* This test uses published measurements from each paper's own data, not raw archival data we re-reduced ourselves. The stellar age estimates depend on stellar population synthesis models (E-MILES, Vazdekis+ 2015), which have systematic uncertainties at the 0.1-0.3 dex level. The "max surviving mass" calculation uses an approximate scaling relation (lifetime propto M^⁻².⁵), not detailed stellar evolution tracks. The X-ray non-detections are upper limits, not confirmed null detections — deeper observations could reveal faint X-ray sources that are still below the threshold but might change the qualitative picture. The test is *qualitative* (DM-rich vs DM-poor) rather than *quantitative* (predicting specific DM halo masses), and depends on the cascade's predicted threshold E_{crit} ~ 10^³⁰ J (a postulate, not a derivation; see Limitation 22). A more rigorous test would: (a) derive E_{crit} from the action's α coupling (Limitation 26), (b) use full stellar evolution tracks (MIST, PARSEC) instead of the approximate scaling, (c) cross-match against Chandra/XMM-Newton archive for actual X-ray upper limits on each galaxy, (d) include X-ray binary luminosity predictions for the active case (KKR 25). All of these are open work items.
 
 ### 4.9 Philosophical: dimensional structure and the block universe
 
@@ -6091,9 +6091,9 @@ Both interpretations are consistent with the dimensional-cascade framework. The 
 
 **Time dilation as a dimensional effect.** The *gravitational time dilation* observed near black holes (well-established in general relativity) is given a *new interpretation* in this view: the time-dilation is because the clock near the black hole is *partially* in 4D space, where its *causal structure* is different from the 3+1D causal structure outside the event horizon. A clock near a black hole ticks slower in our 3+1D frame because part of its causal structure is in 4D, and the 4D-side dynamics are not fully projected into 3+1D. This is consistent with the *dimensional time-dilation principle* of §2.3: a brief moment in one frame can correspond to a vast duration in another, because the dimensional projection maps a *short* 4D duration to a *long* 3+1D duration (or vice versa, depending on the projection factor). The black hole's *interior* (4D) and *exterior* (3+1D) experience *different* effective time scales, with the 4D interior's *physical processes* appearing in 3+1D as *vastly dilated* (i.e., the 4D process completes in brief 4D time, but projects to a very long 3+1D time). It is because the *rate* of 4D-side processes, as observed from our 3+1D frame, is *vastly* slower than the rate of the same processes in 4D itself. The dimensional time-dilation factor between 4D and 3+1D is *huge*, which is why black hole evaporation takes ~10⁶⁷ years for a solar-mass black hole: from the 4D frame, the evaporation is *fast* (relative to the 4D event's full duration), but from our 3+1D frame, it is *vastly slow* because the dimensional time-dilation between 4D and 3+1D is *vast*.
 
-**Hawking radiation as diluted 4D energy.** A natural extension: Hawking radiation is *not* a curved-spacetime quantum tunneling effect (as in standard semiclassical QFT on curved spacetime); it is *actual 4D energy leaking through the dimensional boundary*, but *dilated* by the dimensional time-dilation factor. Specifically, the "true" 4D energy of the black hole is some value $E_4$, and we observe a *fraction* $E_3 = E_4 \cdot k$ where $k$ is the dimensional projection factor. In the dimensional time-dilation picture (§2.3), the 4D event that contains the black hole is a *spatially extended* process with a *finite duration* in 4D time. From our 3+1D frame, we see only a *brief slice* of the 4D duration. A "fast" process in 4D (one that completes in brief 4D time) projects to a *complete cosmic history* in 3+1D (because the 4D duration is *long* compared to the 3+1D slice), and a "slow" process in 4D (one that takes much of the 4D duration) appears as a *very slow* 3+1D process (because the 3+1D slice is brief compared to the 4D duration). For Hawking radiation, the underlying 4D process is *fast* (relative to the 4D event's full duration) but appears in 3+1D as a *very slow* process (the famous $10^{67}$ years for solar-mass black hole evaporation) because the *rate* of the underlying 4D process, *as seen from our brief 3+1D slice*, is *vastly* slower than the rate the 4D process would have if observed from a longer 3+1D slice. The information paradox is *resolved* in this view: the information is in 4D, and Hawking radiation is the *slow leak* of that information back to 3+1D, not a thermal emission that destroys information. The temperature of Hawking radiation is set by the dimensional time-dilation factor, not by the surface gravity in 3+1D alone. (We acknowledge that this is a *speculative* extension; the standard semiclassical derivation of Hawking radiation is well-established, and our 4D-energy-leakage interpretation is offered as a *possible* alternative rather than a *replacement*.)
+**Hawking radiation as diluted 4D energy.** A natural extension: Hawking radiation is *not* a curved-spacetime quantum tunneling effect (as in standard semiclassical QFT on curved spacetime); it is *actual 4D energy leaking through the dimensional boundary*, but *dilated* by the dimensional time-dilation factor. Specifically, the "true" 4D energy of the black hole is some value E₄, and we observe a *fraction* E₃ = E₄ · k where k is the dimensional projection factor. In the dimensional time-dilation picture (§2.3), the 4D event that contains the black hole is a *spatially extended* process with a *finite duration* in 4D time. From our 3+1D frame, we see only a *brief slice* of the 4D duration. A "fast" process in 4D (one that completes in brief 4D time) projects to a *complete cosmic history* in 3+1D (because the 4D duration is *long* compared to the 3+1D slice), and a "slow" process in 4D (one that takes much of the 4D duration) appears as a *very slow* 3+1D process (because the 3+1D slice is brief compared to the 4D duration). For Hawking radiation, the underlying 4D process is *fast* (relative to the 4D event's full duration) but appears in 3+1D as a *very slow* process (the famous 10^⁶⁷ years for solar-mass black hole evaporation) because the *rate* of the underlying 4D process, *as seen from our brief 3+1D slice*, is *vastly* slower than the rate the 4D process would have if observed from a longer 3+1D slice. The information paradox is *resolved* in this view: the information is in 4D, and Hawking radiation is the *slow leak* of that information back to 3+1D, not a thermal emission that destroys information. The temperature of Hawking radiation is set by the dimensional time-dilation factor, not by the surface gravity in 3+1D alone. (We acknowledge that this is a *speculative* extension; the standard semiclassical derivation of Hawking radiation is well-established, and our 4D-energy-leakage interpretation is offered as a *possible* alternative rather than a *replacement*.)
 
-**Black holes as dominant dark matter contributors.** In the dimensional-cascade framework, every energetic event creates a 2D universe. Black holes are the *most* energetic events in our universe. By the dimensional time-dilation rule (§2.3), a black hole with $\ell_{event} \sim 3 \times 10^3$ m (stellar mass, Schwarzschild radius ~3 km, or ~2.95 km for a solar-mass BH) creates a 2D universe that lasts $\sim 10^{-5}$ seconds in our frame, while a supermassive black hole with $\ell_{event} \sim 1.2 \times 10^{10}$ m (Sagittarius A* mass, $\sim 4.3 \times 10^6$ M$_\odot$, Schwarzschild radius $\sim 1.18 \times 10^{10}$ m) creates a 2D universe that lasts $\sim 40$ seconds in our frame. The 2D universes created by black holes are *more energetic*, *longer-lived* (in our frame), and *more gravitationally significant* than those created by photon emissions or atomic transitions. Therefore, *if* black holes are still actively creating 2D universes in a galaxy (e.g., during AGN outbursts or stellar black hole formation events), those 2D universes would contribute disproportionately to the *current* dark matter in that galaxy. The *spatial variation* in dark matter is dominated by the *active* population (per §4.2, §2.5): the 2D universes being created *now* dominate the *current* dark matter density, weighted by their individual energies. Historical black hole activity contributes only via the *current* event rate (which depends on the current AGN activity, the current rate of stellar black hole formation, etc.) — the *cumulative return* from historical activity is approximately uniform spatially (per §4.2). The model predicts that galaxies with *active* black holes should have somewhat higher dark matter content (per unit stellar mass) than galaxies with quiescent black holes, holding all other factors fixed.
+**Black holes as dominant dark matter contributors.** In the dimensional-cascade framework, every energetic event creates a 2D universe. Black holes are the *most* energetic events in our universe. By the dimensional time-dilation rule (§2.3), a black hole with ell_event ~ 3 × 10³ m (stellar mass, Schwarzschild radius ~3 km, or ~2.95 km for a solar-mass BH) creates a 2D universe that lasts ~ 10^⁻⁵ seconds in our frame, while a supermassive black hole with ell_event ~ 1.2 × 10^¹⁰ m (Sagittarius A* mass, ~ 4.3 × 10⁶ M_odot, Schwarzschild radius ~ 1.18 × 10^¹⁰ m) creates a 2D universe that lasts ~ 40 seconds in our frame. The 2D universes created by black holes are *more energetic*, *longer-lived* (in our frame), and *more gravitationally significant* than those created by photon emissions or atomic transitions. Therefore, *if* black holes are still actively creating 2D universes in a galaxy (e.g., during AGN outbursts or stellar black hole formation events), those 2D universes would contribute disproportionately to the *current* dark matter in that galaxy. The *spatial variation* in dark matter is dominated by the *active* population (per §4.2, §2.5): the 2D universes being created *now* dominate the *current* dark matter density, weighted by their individual energies. Historical black hole activity contributes only via the *current* event rate (which depends on the current AGN activity, the current rate of stellar black hole formation, etc.) — the *cumulative return* from historical activity is approximately uniform spatially (per §4.2). The model predicts that galaxies with *active* black holes should have somewhat higher dark matter content (per unit stellar mass) than galaxies with quiescent black holes, holding all other factors fixed.
 
 **A note on the event horizon vs. the black hole itself.** Throughout this subsection, when we say "black holes create 2D universes," we mean *the event horizon creates 2D universes*, not the black hole *interior*. The black hole *interior* (the singularity, the content that has fallen in) is in 4D, per the framing of §4.10. The *event horizon* is the 3+1D boundary — a real 3+1D structure that exists in our universe. The 2D universe creation is a *boundary effect* at the event horizon, not an *interior effect* at the singularity. This is consistent with the §2.3 principle that "every energetic event in our 3+1 dimensional universe creates a 2D universe": the event horizon is a 3+1D structure, and its energetic processes (the extreme curvature and quantum effects at the horizon) create 2D universes. The black hole *interior* (4D) does not directly create 2D universes; the black hole *event horizon* (3+1D) does.
 
@@ -6103,9 +6103,9 @@ Both interpretations are consistent with the dimensional-cascade framework. The 
 
 **The 4D event as the energy reservoir of the universe.** In the dimensional-cascade framework, the 4D event is the *parent* of our 3+1D universe. The 4D event's total energy is our universe's total mass-energy (per the energy conservation of §2.2). The 4D event's "true" energy is the *integrated* energy over its *full* 4D duration, which is *vastly* larger than the energy in our 3+1D frame (because we only see a brief slice of the 4D event). The "concentration" of this 4D energy at a black hole (a "tear" to 4D) could explain why black hole time dilation is so extreme: a black hole is connected to the *entire* 4D energy reservoir of the universe via the dimensional transition, which makes the local gravitational effect much stronger than the local 3+1D mass concentration alone would suggest.
 
-**Speculation: the speed of light as a dimensional projection.** In standard brane-world physics, the *fundamental* speed is the higher-D speed, and the 3+1D speed of light $c$ is the *effective* speed on the brane — a *projection* of the higher-D causality. In this model, our 3+1D speed of light $c$ would be the *projection* of the 4D event's causal structure into 3+1D. Specifically, $c$ in 3+1D might be $c \approx c_4 \cdot k$ for some dimensionless projection factor $k$ (where $c_4$ is the "natural" 4D speed). The value of $c$ in our universe is then *not* a fundamental constant but a *consequence* of the dimensional projection. The model does not currently derive the value of $k$ from the geometry, but the framing is consistent with brane-world physics. If the dimensional cascade continues (4D → 3+1D → 2D → ...), the effective "speed of light" might differ at each level of the cascade. This is speculative but testable in principle: in a 2D universe created by an energetic event, the "speed of light" might differ from our 3+1D $c$ by a factor related to the dimensional projection. Of course, we cannot directly observe 2D universes, so this prediction is not directly testable.
+**Speculation: the speed of light as a dimensional projection.** In standard brane-world physics, the *fundamental* speed is the higher-D speed, and the 3+1D speed of light c is the *effective* speed on the brane — a *projection* of the higher-D causality. In this model, our 3+1D speed of light c would be the *projection* of the 4D event's causal structure into 3+1D. Specifically, c in 3+1D might be c ≈ c₄ · k for some dimensionless projection factor k (where c₄ is the "natural" 4D speed). The value of c in our universe is then *not* a fundamental constant but a *consequence* of the dimensional projection. The model does not currently derive the value of k from the geometry, but the framing is consistent with brane-world physics. If the dimensional cascade continues (4D → 3+1D → 2D → ...), the effective "speed of light" might differ at each level of the cascade. This is speculative but testable in principle: in a 2D universe created by an energetic event, the "speed of light" might differ from our 3+1D c by a factor related to the dimensional projection. Of course, we cannot directly observe 2D universes, so this prediction is not directly testable.
 
-**The 4D event's causal structure and the speed of light.** The 4D event is not a *moving* object — it is a *spatially extended* event with a *finite duration* in 4D time. The "4D speed" $c_4$ is the *conversion factor* between 4D spatial extent and 4D temporal duration: a 4D event with spatial extent $\ell_{4D}$ has a *full duration* $\Delta t_{4D} = \ell_{4D}/c_4$ in 4D time (per §2.2). The 3+1D speed of light $c$ is a *property of the dimensional projection mechanism itself*: the projection from 4D to 3+1D maps 4D causal structure to 3+1D causal structure, and the *ratio* of the projected causal speed to the native 3+1D speed is set by the projection factor $k$ (with $c = c_4 \cdot k$). The 3+1D sees a *maximum* causal speed $c$ in its frame, set by the projection. The 4D event itself is *not* moving at any speed in 4D — it is a *localized* energetic process in 4D, with a *finite spatial extent* and *finite duration*, that *projects* into 3+1D as a *spatially extended universe* with a *finite lifetime*. The "speed of light" $c$ in 3+1D is a property of the projection, not a property of the 4D event's motion.
+**The 4D event's causal structure and the speed of light.** The 4D event is not a *moving* object — it is a *spatially extended* event with a *finite duration* in 4D time. The "4D speed" c₄ is the *conversion factor* between 4D spatial extent and 4D temporal duration: a 4D event with spatial extent ell_₄D has a *full duration* Δ t_₄D = ell_₄D/c₄ in 4D time (per §2.2). The 3+1D speed of light c is a *property of the dimensional projection mechanism itself*: the projection from 4D to 3+1D maps 4D causal structure to 3+1D causal structure, and the *ratio* of the projected causal speed to the native 3+1D speed is set by the projection factor k (with c = c₄ · k). The 3+1D sees a *maximum* causal speed c in its frame, set by the projection. The 4D event itself is *not* moving at any speed in 4D — it is a *localized* energetic process in 4D, with a *finite spatial extent* and *finite duration*, that *projects* into 3+1D as a *spatially extended universe* with a *finite lifetime*. The "speed of light" c in 3+1D is a property of the projection, not a property of the 4D event's motion.
 
 **Honest acknowledgment.** This subsection is highly speculative. The "void in 3+1D" interpretation of black holes is not derived from the model, and the connection between black hole activity and dark matter is a *prediction* that has not been tested. The mainstream view of black holes (as regions of extreme 3+1D spacetime curvature) is the default interpretation. We offer this subsection as a *possible extension* of the model, with appropriate caveats.
 
@@ -6113,16 +6113,16 @@ Both interpretations are consistent with the dimensional-cascade framework. The 
 
 *This subsection is the most speculative part of the paper. It is offered as a philosophical/interpretive extension, not a derived claim. We include it because it follows naturally from the dimensional-cascade framework, but it should be read with appropriate skepticism.*
 
-**The puzzle of the constants.** Standard physics leaves many *constants* unexplained. The electron has a specific mass (~511 keV/$c^2$). The speed of light has a specific value ($c \approx 3 \times 10^8$ m/s). Planck's constant has a specific value. The fine structure constant is ~1/137. The proton-to-electron mass ratio is ~1836. The cosmological constant has a specific (small) value. Absolute zero is exactly 0 K. The list goes on. These constants are *measured*, not *derived*. We use them in our equations, but we don't have a *theory* of why they have the values they do.
+**The puzzle of the constants.** Standard physics leaves many *constants* unexplained. The electron has a specific mass (~511 keV/c²). The speed of light has a specific value (c ≈ 3 × 10⁸ m/s). Planck's constant has a specific value. The fine structure constant is ~1/137. The proton-to-electron mass ratio is ~1836. The cosmological constant has a specific (small) value. Absolute zero is exactly 0 K. The list goes on. These constants are *measured*, not *derived*. We use them in our equations, but we don't have a *theory* of why they have the values they do.
 
 **The dimensional-cascade interpretation.** In the dimensional-cascade framework, all of these constants would be *consequences* of the *specific 4D event* that created our 3+1D universe. The 4D event has specific properties: a specific energy, a specific spatial structure, a specific duration, a specific set of internal dynamics. The dimensional projection of *that specific event* into 3+1D gives a *specific* set of constants. Different 4D events would give different 3+1D universes with different constants.
 
 In this view:
 - The *electron mass* is a consequence of the 4D event's specific energy spectrum, projected into 3+1D
-- The *speed of light* $c$ is a consequence of the 4D event's causal structure, projected into 3+1D
-- The *Planck constant* $\hbar$ is a consequence of the 4D event's "action scale," projected into 3+1D
-- The *fine structure constant* $\alpha \approx 1/137$ is a consequence of the dimensional projection factor for the electromagnetic coupling
-- The *gravitational constant* $G$ is a consequence of the bulk-brane cancellation factor $\epsilon$ (§2.4, §2.6)
+- The *speed of light* c is a consequence of the 4D event's causal structure, projected into 3+1D
+- The *Planck constant* ℏ is a consequence of the 4D event's "action scale," projected into 3+1D
+- The *fine structure constant* α ≈ 1/137 is a consequence of the dimensional projection factor for the electromagnetic coupling
+- The *gravitational constant* G is a consequence of the bulk-brane cancellation factor ε (§2.4, §2.6)
 - The *cosmological constant* (dark energy density) is the un-cancelled fraction of the inverted 4D gravity (§2.4)
 
 **Two mechanisms for "constants are determined by the 4D event."** Note that the phrase "constants are determined by the 4D event" can mean *different things* for different classes of quantities:
@@ -6150,8 +6150,8 @@ All these mechanisms lead to the same conclusion: the 4D event *determines* the 
 - *W/Z boson mass*: a consequence of the dimensional projection factor for the weak-force mediator
 - *Higgs VEV*: a consequence of the 4D event's specific "symmetry-breaking" structure
 - *CKM and PMNS mixing angles*: consequences of 4D mixing structures projected into 3+1D
-- *Weak coupling constant $g_W$*: a consequence of the dimensional projection factor for the weak force
-- *Range of the weak force ($r \sim \hbar/(m_W c)$)*: a consequence of the W/Z mass
+- *Weak coupling constant g_W*: a consequence of the dimensional projection factor for the weak force
+- *Range of the weak force (r ~ ℏ/(m_W c))*: a consequence of the W/Z mass
 - *Strength at short range*: a consequence of the coupling constant
 
 In this view, the weak force is *not* "unified" with the dimensional cascade in a new way — it is *described* by the dimensional cascade in the same way as the other forces. The dimensional cascade doesn't *add* new forces; it gives a *deeper origin* for the existing ones.
@@ -6177,9 +6177,9 @@ In this view, the weak force is *not* "unified" with the dimensional cascade in 
 **The dimensional-cascade interpretation.** In the framework of §4.10.5 (constants), the strong force's *constants* would all be consequences of the specific 4D event that created our universe:
 
 - *Gluon mass (0)*: a consequence of the dimensional projection for massless mediators
-- *Strong coupling constant $\alpha_s$*: a consequence of the dimensional projection factor for the strong force
+- *Strong coupling constant alpha_s*: a consequence of the dimensional projection factor for the strong force
 - *Color charge (3 types)*: the number 3 might be related to the 3 spatial dimensions of 3+1D, but this is *not* derived from the dimensional cascade
-- *Confinement scale $\Lambda_{QCD} \sim 200$ MeV*: a consequence of the dimensional projection factor
+- *Confinement scale Lambda_QCD ~ 200 MeV*: a consequence of the dimensional projection factor
 - *Asymptotic freedom*: a consequence of gluon-loop anti-screening in 3+1D, which is *not* directly addressed by the dimensional cascade
 
 In this view, the strong force is *not* "unified" with the dimensional cascade in a new way — it is *described* by the dimensional cascade in the same way as the other forces.
@@ -6232,7 +6232,7 @@ The dimensional-cascade framework is *closest to string theory* in spirit: both 
 
 **The broader landscape of unification attempts.** String theory is the most famous unification attempt, but it is not the only one. Other major programs include: (1) *Loop Quantum Gravity* (LQG), which quantizes 3+1D spacetime using loops and spin networks, but does not include the Standard Model forces; (2) *Causal Set Theory*, which treats spacetime as a discrete set of causally-related events, addressing the quantum gravity problem but with limited contact to particle physics; (3) *Causal Dynamical Triangulations* (CDT), a numerical approach that builds spacetime from simplices and has shown 4D spacetime *emerges* from the construction; (4) *Asymptotic Safety*, which proposes that gravity has a "fixed point" at high energies, making it renormalizable without new structures; (5) *Twistor Theory* (Penrose), a mathematical reformulation of spacetime that has yielded real results in scattering amplitudes; (6) *Noncommutative Geometry* (Connes), which replaces continuous spacetime with noncommutative algebra and has reproduced the Standard Model + gravity in some versions; (7) *Kaluza-Klein Theory*, the original 5D unification of gravity and EM, whose principles live on in string theory; and (8) *Brane-World Scenarios* (Randall-Sundrum, ADD), which place our universe on a 3+1D brane in a higher-D bulk, and are *conceptually closest* to the dimensional-cascade framework.
 
-**Positioning within this landscape.** The dimensional-cascade framework is *closest* to brane-world scenarios (Randall-Sundrum, ADD), which are referenced in §2.1 and §2.4. Both rely on a higher-D bulk and a 3+1D brane projection. The *key difference* is the *downward perceptual inversion principle* (per §2.4): the dimensional-cascade framework postulates that the bulk's gravity is *perceived* as inverted by the child universe's brane (the projected contribution is repulsive from the brane's perspective), while the *underlying* gravity in the bulk remains attractive (standard GR). The *physical mechanism* for this perceptual inversion is *grounded* in the standard GR $\rho + 3P < 0$ mechanism for negative effective gravitating density (per §2.4): the bulk-brane coupling translates the bulk's ordinary attractive matter into a brane-perceived effective gravitating density with the opposite sign, in the same way that an inflaton field or the cosmological constant has negative effective gravitating density in our universe. The *upward* back-projection (child → parent) does *not* invert the perception; the parent perceives the child's net attractive gravity as attractive = dark matter. Standard brane-world models do *not* make this perceptual-inversion claim; they describe the brane's effective gravity as *suppressed* by geometric dilution (ADD) or *warping* (RS), but with the *same* sign as the bulk. The cascade's claim is that the specific bulk-brane coupling produces a negative effective gravitating density on the brane (via the standard $\rho + 3P < 0$ mechanism), which is a stronger (more specific) version of standard brane-world models. The dimensional-cascade framework is also distinct from LQG (which works in 3+1D, not 4D projection), causal set theory (discrete vs. continuous), and the various algebraic reformulations (noncommutative geometry, twistor theory). The model is *not* a *replacement* for any of these programs; it is a *thought experiment* that offers a different *interpretation* of the dark sector and the four forces, with testable predictions that other programs do not currently make.
+**Positioning within this landscape.** The dimensional-cascade framework is *closest* to brane-world scenarios (Randall-Sundrum, ADD), which are referenced in §2.1 and §2.4. Both rely on a higher-D bulk and a 3+1D brane projection. The *key difference* is the *downward perceptual inversion principle* (per §2.4): the dimensional-cascade framework postulates that the bulk's gravity is *perceived* as inverted by the child universe's brane (the projected contribution is repulsive from the brane's perspective), while the *underlying* gravity in the bulk remains attractive (standard GR). The *physical mechanism* for this perceptual inversion is *grounded* in the standard GR ρ + 3P < 0 mechanism for negative effective gravitating density (per §2.4): the bulk-brane coupling translates the bulk's ordinary attractive matter into a brane-perceived effective gravitating density with the opposite sign, in the same way that an inflaton field or the cosmological constant has negative effective gravitating density in our universe. The *upward* back-projection (child → parent) does *not* invert the perception; the parent perceives the child's net attractive gravity as attractive = dark matter. Standard brane-world models do *not* make this perceptual-inversion claim; they describe the brane's effective gravity as *suppressed* by geometric dilution (ADD) or *warping* (RS), but with the *same* sign as the bulk. The cascade's claim is that the specific bulk-brane coupling produces a negative effective gravitating density on the brane (via the standard ρ + 3P < 0 mechanism), which is a stronger (more specific) version of standard brane-world models. The dimensional-cascade framework is also distinct from LQG (which works in 3+1D, not 4D projection), causal set theory (discrete vs. continuous), and the various algebraic reformulations (noncommutative geometry, twistor theory). The model is *not* a *replacement* for any of these programs; it is a *thought experiment* that offers a different *interpretation* of the dark sector and the four forces, with testable predictions that other programs do not currently make.
 
 **What is unique about the dimensional-cascade framework.** Among all these unification attempts, the dimensional-cascade framework has several *unique* features: (1) *scale-invariant cascade* — every energetic event creates lower-D universes, not just the original "Big Bang"; (2) *downward perceptual inversion principle* — downward dimensional projection is *perceived* by the child as inverted (the underlying gravity in the bulk remains attractive; the inversion is a feature of the projection mechanism, not a violation of GR), upward back-projection is not perceived as inverted; (3) *dark sector as direct consequence* — dark matter and dark energy are *direct* consequences of the cascade, not added assumptions; (4) *testable predictions now* — the model makes specific testable predictions (RAR, DF2/DF4, no direct detection, activity-dependence) without requiring new physics; (5) *conceptual simplicity* — the framework is intuitive (dimensional cascade, energy conservation, scale-invariance, directional perceptual inversion), not mathematically heavy. These features distinguish the model from string theory (which is mathematically heavy but not testable *now*), LQG (which is mathematically rigorous but limited to gravity), and the other unification programs. We do not claim the dimensional-cascade framework is *better* than these programs; we claim it is *different*, with a focus on the *dark sector* and *testable predictions* rather than on mathematical rigor or unification of all forces.
 
@@ -6266,102 +6266,102 @@ The dimensional-cascade framework is *closest to string theory* in spirit: both 
 
 ### 4.17 First-principles derivation of g_+ from the cascade action (v2.3.0)
 
-This subsection attempts to derive the empirical $g_+$ acceleration scale from the cascade's action (§2.5.1) — the most important quantitative test of the model.
+This subsection attempts to derive the empirical g_+ acceleration scale from the cascade's action (§2.5.1) — the most important quantitative test of the model.
 
-*Starting point: the action's $\alpha$ coupling and the back-projected 2D universe gravity.*
+*Starting point: the action's α coupling and the back-projected 2D universe gravity.*
 
-From $S_{\text{creation}} = -\alpha \int d^4x \sqrt{-g} T^{SM}_{\mu\nu} \int d^2\sigma \sqrt{-\gamma} \eta^{\mu\nu} \delta^{(4)}(x - X(\sigma))$:
+From S_{creation} = -α ∫ d⁴x sqrt{-g} T^SM_μν ∫ d²σ sqrt{-γ} η^μν δ^(⁴)(x - X(σ)):
 
-A single 3+1D energetic event with stress-energy $T^{SM}_{\mu\nu}(x) = \rho_{event} \delta^{(3)}(x - x_{event})$ creates a 2D brane at $X(\sigma)$ with energy:
-$$E_{2D} = \alpha \cdot E_{event}$$
+A single 3+1D energetic event with stress-energy T^SM_μν(x) = rho_event δ^(³)(x - x_event) creates a 2D brane at X(σ) with energy:
+E_₂D = α · E_event
 
-The 2D brane's back-projected gravitational field in 3+1D (at distance $r$ from the event) is:
-$$\delta g_+(r) = \frac{G_{2D} \cdot E_{2D} / c^2}{L_{2D} \cdot r}$$
-(2D universe has line density $\lambda_{2D} = E_{2D}/(L_{2D} c^2)$, producing 1/r force in 3+1D after back-projection)
+The 2D brane's back-projected gravitational field in 3+1D (at distance r from the event) is:
+δ g_+(r) = (G_₂D · E_₂D / c²)/(L_₂D · r)
+(2D universe has line density lambda_₂D = E_₂D/(L_₂D c²), producing 1/r force in 3+1D after back-projection)
 
-*Total back-projected g_+ at a point $x_0$ from all 2D universes:*
+*Total back-projected g_+ at a point x₀ from all 2D universes:*
 
-$$g_+(x_0) = \frac{G_{2D}}{c^2 L_{2D}} \int d^3x \int dt \, \rho_{events}(x, t) \cdot E_{event} \cdot \frac{1}{|x - x_0|}$$
+g_+(x₀) = (G_₂D)/(c² L_₂D) ∫ d³x ∫ dt rho_events(x, t) · E_event · (1)/(|x - x₀|)
 
-The $\rho_{events}$ is the energetic event rate density (events per unit volume per unit time).
+The rho_events is the energetic event rate density (events per unit volume per unit time).
 
-*For a system with baryonic mass $M_b$ and event rate $\dot{N}(t)$:*
+*For a system with baryonic mass M_b and event rate dot{N}(t):*
 
-The event rate per unit baryonic mass is $\dot{n}(t) = \dot{N}(t)/M_b$ (specific event rate).
+The event rate per unit baryonic mass is dot{n}(t) = dot{N}(t)/M_b (specific event rate).
 
-The integrated $g_+$ at the center of the system is:
-$$g_+ = k \int_{t_{form}}^{t_0} \dot{n}(t) \cdot E_{event} \cdot \frac{\tau_{2D}}{L_{2D}} \, dt$$
+The integrated g_+ at the center of the system is:
+g_+ = k int_{t_form}^t_⁰ dot{n}(t) · E_event · (tau_₂D)/(L_₂D) dt
 
-where $k = G_{2D}/c^2$ is a coupling constant with appropriate units. This is the cascade's first-principles formula for $g_+$.
+where k = G_₂D/c² is a coupling constant with appropriate units. This is the cascade's first-principles formula for g_+.
 
 *Connection to Gemini's scaling relation:*
 
-If we interpret $\dot{n}(t) = \rho_{events}(t)/M_b$ (specific event rate, with units of 1/time per unit mass), then:
-$$g_+ \propto \int_{t_{form}}^{t_0} \frac{\rho_{events}(t)}{M_b} \cdot \frac{E_{event} \cdot \tau_{2D}}{L_{2D}} \, dt$$
+If we interpret dot{n}(t) = rho_events(t)/M_b (specific event rate, with units of 1/time per unit mass), then:
+g_+ propto int_{t_form}^t_⁰ (rho_events(t))/(M_b) · (E_event · tau_₂D)/(L_₂D) dt
 
-This is the *Gemini scaling relation* (per the user's prompt): $g_+ \propto \int \rho_{events}/M_b \, dt$, with the $E_{event} \cdot \tau_{2D}/L_{2D}$ being a fixed coupling factor.
+This is the *Gemini scaling relation* (per the user's prompt): g_+ propto ∫ rho_events/M_b dt, with the E_event · tau_₂D/L_₂D being a fixed coupling factor.
 
 *Numerical estimates:*
 
-For a Milky Way-like galaxy with $M_b \sim 6 \times 10^{10} M_\odot$ and $\dot{n} \sim 10^{-12}$ events/$M_\odot$/yr (1 SN per century, $10^{11}$ stars):
-- Integrated $\dot{n} \cdot T \sim 10^{-12} \times 10^{10}$ yr $= 10^{-2}$ events/$M_\odot$
-- $g_+ = k \cdot 10^{-2} \cdot E_{event} \cdot \tau_{2D}/L_{2D}$
+For a Milky Way-like galaxy with M_b ~ 6 × 10^¹⁰ M_odot and dot{n} ~ 10^⁻¹² events/M_odot/yr (1 SN per century, 10^¹¹ stars):
+- Integrated dot{n} · T ~ 10^⁻¹² × 10^¹⁰ yr = 10^⁻² events/M_odot
+- g_+ = k · 10^⁻² · E_event · tau_₂D/L_₂D
 
-For the empirical $g_+ \sim 1.2 \times 10^{-10}$ m/s², we need $k \cdot E_{event} \cdot \tau_{2D}/L_{2D} \sim 10^{-8}$ in natural units. This is a *calibration* — the cascade does not derive $k$ from first principles, but the *structure* of the formula is correct.
+For the empirical g_+ ~ 1.2 × 10^⁻¹⁰ m/s², we need k · E_event · tau_₂D/L_₂D ~ 10^⁻⁸ in natural units. This is a *calibration* — the cascade does not derive k from first principles, but the *structure* of the formula is correct.
 
-*Critical prediction: the cluster-scale $g_+$ enhancement (Tian+ 2024).*
+*Critical prediction: the cluster-scale g_+ enhancement (Tian+ 2024).*
 
 A BCG sits at the *absolute bottom* of a cluster's potential well. It experiences the cumulative back-projection of *not just its own stellar history, but the entire cluster's shock-heated ICM sediment falling inward*. The cluster-wide energetic event rate is dominated by:
-1. **AGN feedback**: bubbles blown across hundreds of kpc, $P \sim 10^{44}$ erg/s per BCG
-2. **Cluster mergers**: $P \sim 10^{45}$ erg/s during major mergers
-3. **ICM thermal bremsstrahlung**: $P \sim 10^{43}$ erg/s (passive, but contributes to back-projection if energetic events result)
-4. **Ram pressure stripping**: galaxies falling in, $P \sim 10^{42}$ erg/s per infalling galaxy
+1. **AGN feedback**: bubbles blown across hundreds of kpc, P ~ 10^⁴⁴ erg/s per BCG
+2. **Cluster mergers**: P ~ 10^⁴⁵ erg/s during major mergers
+3. **ICM thermal bremsstrahlung**: P ~ 10^⁴³ erg/s (passive, but contributes to back-projection if energetic events result)
+4. **Ram pressure stripping**: galaxies falling in, P ~ 10^⁴² erg/s per infalling galaxy
 
-The BCG sees the SUM of all these cluster-wide events, not just its own. If we parameterize the cluster-wide rate as $\dot{N}_{cluster} \sim 100 \times \dot{N}_{BCG}$ (cluster is $\sim 100\times$ more massive), the cascade predicts:
-$$g_+(BCG) \sim 100 \times g_+(isolated\ galaxy) \times \frac{E_{event,cluster}}{E_{event,galaxy}} \times \frac{\tau_{2D,cluster}}{\tau_{2D,galaxy}} \times \frac{L_{2D,galaxy}}{L_{2D,cluster}}$$
+The BCG sees the SUM of all these cluster-wide events, not just its own. If we parameterize the cluster-wide rate as dot{N}_cluster ~ 100 × dot{N}_BCG (cluster is ~ 100× more massive), the cascade predicts:
+g_+(BCG) ~ 100 × g_+(isolated galaxy) × (E_event,cluster)/(E_event,galaxy) × (tau_₂D,cluster)/(tau_₂D,galaxy) × (L_₂D,galaxy)/(L_₂D,cluster)
 
-If cluster events have $\sim 10\times$ the energy and $\sim 10\times$ the size of galactic events, the ratio is $\sim 100 \times 10 / 10 = 100$. This is in the right ballpark for the Tian+ 2024 enhancement (10-17x).
+If cluster events have ~ 10× the energy and ~ 10× the size of galactic events, the ratio is ~ 100 × 10 / 10 = 100. This is in the right ballpark for the Tian+ 2024 enhancement (10-17x).
 
 *Refined formula (V_local normalization, v2.3.0):*
 
 The cascade's first-principles formula for g_+ can be written more transparently as:
 
-$$g_+ \propto \int_{t_{form}}^{t_0} \frac{\mathscr{R}_{\text{energetic}}(t)}{V_{\text{local}}} \, dt$$
+g_+ propto int_{t_form}^t_⁰ frac{mathscr{R}_{energetic}(t)}{V_{local}} dt
 
 Where:
-- $\mathscr{R}_{\text{energetic}}(t)$ is the total energetic power at the observer's location (W)
-- $V_{\text{local}}$ is the *local* sphere of influence (m³)
+- mathscr{R}_{energetic}(t) is the total energetic power at the observer's location (W)
+- V_{local} is the *local* sphere of influence (m³)
 - The integral has units of energy density (J/m³) after integration
 
-For a galaxy's center, $V_{\text{local}} \sim R_{halo}^3$ and $\mathscr{R}_{\text{energetic}} = \text{SFR} \cdot c^2 \cdot 0.007$ (nucleosynthesis power).
-For a BCG at the bottom of a cluster, $V_{\text{local}} \sim R_{BCG}^3$ (BCG's sphere of influence, NOT the cluster volume) and $\mathscr{R}_{\text{energetic}} = P_{\text{ICM}} + P_{\text{mergers}} + P_{\text{AGN feedback}}$ (the entire cluster's energetic output).
+For a galaxy's center, V_{local} ~ R_halo³ and mathscr{R}_{energetic} = SFR · c² · 0.007 (nucleosynthesis power).
+For a BCG at the bottom of a cluster, V_{local} ~ R_BCG³ (BCG's sphere of influence, NOT the cluster volume) and mathscr{R}_{energetic} = P_{ICM} + P_{mergers} + P_{AGN feedback} (the entire cluster's energetic output).
 
-This is the **specific energetic power density** integrated over cosmic time, and it is the cascade's resolution of the cluster-scale enhancement (Tian+ 2024). The old formula $g_+ \propto M_{DM}/R_{halo}^2$ predicted the wrong direction; the new formula with V_local normalization predicts the correct direction and order of magnitude (see Limitation 28).
+This is the **specific energetic power density** integrated over cosmic time, and it is the cascade's resolution of the cluster-scale enhancement (Tian+ 2024). The old formula g_+ propto M_DM/R_halo² predicted the wrong direction; the new formula with V_local normalization predicts the correct direction and order of magnitude (see Limitation 28).
 
 *Testable predictions of the cascade's g_+ formula:*
 
-1. **$g_+$ at a BCG correlates with the cluster's INTEGRATED energetic output**, not just BCG's SFR. A BCG in a cooling-flow cluster (high ICM activity) should have HIGHER $g_+$ than a BCG in a non-cooling-flow cluster (low ICM activity), all else equal.
+1. **g_+ at a BCG correlates with the cluster's INTEGRATED energetic output**, not just BCG's SFR. A BCG in a cooling-flow cluster (high ICM activity) should have HIGHER g_+ than a BCG in a non-cooling-flow cluster (low ICM activity), all else equal.
 
-2. **$g_+$ at a dwarf galaxy correlates with its RECENT star formation rate**, not its total stellar mass. A quiescent dwarf should have $g_+$ consistent with its past-averaged activity, while a starbursting dwarf should have elevated $g_+$.
+2. **g_+ at a dwarf galaxy correlates with its RECENT star formation rate**, not its total stellar mass. A quiescent dwarf should have g_+ consistent with its past-averaged activity, while a starbursting dwarf should have elevated g_+.
 
-3. **The $g_+$ M-CDM ratio depends on the EVENT RATE RATIO at the relevant scale.** If we measure $g_+$ at a galactic Center and at the LMC, the ratio should match the SFR ratio, not the $M_b$ ratio.
+3. **The g_+ M-CDM ratio depends on the EVENT RATE RATIO at the relevant scale.** If we measure g_+ at a galactic Center and at the LMC, the ratio should match the SFR ratio, not the M_b ratio.
 
-4. **Direct observational test: SFR-$\dot{M}_{*}$ correlation with g_+ in the SPARC sample.** Per §4.7, the cascade predicts that g_+ should correlate with SFR at fixed $M_*$ (which the partial correlation test in commit 145 found to be ENTIRELY MEDIATED BY $M_b$, not independent — this is a TENSION for the cascade's specific g_+ formula).
+4. **Direct observational test: SFR-dot{M}_* correlation with g_+ in the SPARC sample.** Per §4.7, the cascade predicts that g_+ should correlate with SFR at fixed M_* (which the partial correlation test in commit 145 found to be ENTIRELY MEDIATED BY M_b, not independent — this is a TENSION for the cascade's specific g_+ formula).
 
 *Status of this derivation:*
 
-The cascade provides a *first-principles formula* for g_+ (per §2.5.1's action and the $\alpha$ coupling), but the formula has *free parameters* ($k$, $E_{event}$, $\tau_{2D}$, $L_{2D}$) that need to be calibrated. The formula's STRUCTURE is:
-- $g_+$ is proportional to integrated energetic event rate
-- $g_+$ depends on the event's typical energy, lifetime, and size
-- $g_+$ at a BCG sees cluster-wide events, not just BCG's own
+The cascade provides a *first-principles formula* for g_+ (per §2.5.1's action and the α coupling), but the formula has *free parameters* (k, E_event, tau_₂D, L_₂D) that need to be calibrated. The formula's STRUCTURE is:
+- g_+ is proportional to integrated energetic event rate
+- g_+ depends on the event's typical energy, lifetime, and size
+- g_+ at a BCG sees cluster-wide events, not just BCG's own
 
 This is QUALITATIVELY CONSISTENT with the data (galaxies g_+ ~ constant, BCGs g_+ ~ 10-17x higher), but the EXACT scaling is a calculation that requires the cascade's specific parameters.
 
 The cluster g_+ enhancement (Tian+ 2024) is a NATURAL CONSEQUENCE of the BCG sitting at the cluster's potential bottom, seeing the cumulative back-projection of all cluster-wide 2D universes. This is the cascade's *explanation* for the cluster deviation from the universal RAR, and it is a *testable prediction* (different clusters should show different g_+ depending on their ICM activity).
 
-*Limitation status:* The derivation is *qualitative*, not quantitative. The exact coefficients ($k$, $E_{event} \cdot \tau_{2D}/L_{2D}$) are free parameters. A specific implementation would need to derive these from the 2D brane's internal dynamics (Limitation 26). The current status is: a *first-principles formula* exists, with the right *structure* to match the data, but the *coefficients* are calibrated, not derived.
+*Limitation status:* The derivation is *qualitative*, not quantitative. The exact coefficients (k, E_event · tau_₂D/L_₂D) are free parameters. A specific implementation would need to derive these from the 2D brane's internal dynamics (Limitation 26). The current status is: a *first-principles formula* exists, with the right *structure* to match the data, but the *coefficients* are calibrated, not derived.
 
-This is the closest the cascade comes to a *derivation* of the dark sector phenomenology. The remaining gap (specific Lagrangian for the 2D brane, calibration of $k$ and the energy/lifetime/size scale) is the unfinished business of fundamental physics, as previously documented in Limitation 26.
+This is the closest the cascade comes to a *derivation* of the dark sector phenomenology. The remaining gap (specific Lagrangian for the 2D brane, calibration of k and the energy/lifetime/size scale) is the unfinished business of fundamental physics, as previously documented in Limitation 26.
 
 ### 4.18 Globular cluster dark matter test — a clean null-test PASS (v2.3.1)
 
@@ -6373,24 +6373,24 @@ The cascade's phase-transition principle (§2.5, §4.8) makes a clean *negative*
 
 The cascade prediction: **M_dyn / M_stellar ~ 1-3** (consistent with a pure old, metal-poor stellar population and no DM halo contribution). If the cascade is wrong — if DM is a particle that is *not* related to energetic events — then GCs might or might not have DM (depending on whether GCs are surrounded by DM sub-halos from cosmological structure formation).
 
-*Test method.* I cross-matched the Harris 1996 catalog (146 GCs with V-band magnitudes and Galactocentric distances) with the Usher+ 2013 catalog (143 GCs with measured velocity dispersions from integrated-light spectra), obtaining 111 GCs with both. For each GC, I computed the *dynamical mass* via the Wolf+ 2010 estimator: $M_{\rm dyn} = 4.5 \, \sigma^2 r_h / G$, with the half-light radius $r_h$ set to 3.5 pc (the median value from Baumgardt+ 2019). I computed the *stellar mass* from the V-band luminosity using $M_{\rm stellar} = 2.0 \, L_V$ (typical M/L_V for old metal-poor GCs). The *ratio* $M_{\rm dyn} / M_{\rm stellar}$ is a direct DM indicator: values near 1-2 mean no DM, values >3 mean significant DM excess. See `calculations/globular_cluster_dm_test.py` for the full calculation.
+*Test method.* I cross-matched the Harris 1996 catalog (146 GCs with V-band magnitudes and Galactocentric distances) with the Usher+ 2013 catalog (143 GCs with measured velocity dispersions from integrated-light spectra), obtaining 111 GCs with both. For each GC, I computed the *dynamical mass* via the Wolf+ 2010 estimator: M_rm dyn = 4.5 σ² r_h / G, with the half-light radius r_h set to 3.5 pc (the median value from Baumgardt+ 2019). I computed the *stellar mass* from the V-band luminosity using M_rm stellar = 2.0 L_V (typical M/L_V for old metal-poor GCs). The *ratio* M_rm dyn / M_rm stellar is a direct DM indicator: values near 1-2 mean no DM, values >3 mean significant DM excess. See `calculations/globular_cluster_dm_test.py` for the full calculation.
 
-*Result.* The median $M_{\rm dyn} / M_{\rm stellar}$ across the 111 GCs is **1.22** (16-84 percentile: 0.37 - 5.00). **73% of GCs have M_dyn/M_stellar < 3** (within the pure-stellar range), and 89% have M/L < 10. The 11% of GCs with M_dyn/M_stellar > 10 are mostly small/faint GCs (M_V > -5) with large fractional uncertainties in their measured velocity dispersions, unresolved binary contamination, and individual $r_h$ that may be larger than the median 3.5 pc assumed here. The trend with Galactocentric distance is *opposite* to the DM-halo expectation: GCs in the inner Galaxy (R_gc < 3 kpc) have *higher* M_dyn/M_stellar (median 3.25) than GCs in the outer halo (R_gc > 15 kpc, median 0.37). This is consistent with central GCs having larger $r_h$ (which scales with Galactocentric distance for tidally-limited clusters, see Harris 1996), not with a DM halo contribution (which would be larger for inner-halo GCs).
+*Result.* The median M_rm dyn / M_rm stellar across the 111 GCs is **1.22** (16-84 percentile: 0.37 - 5.00). **73% of GCs have M_dyn/M_stellar < 3** (within the pure-stellar range), and 89% have M/L < 10. The 11% of GCs with M_dyn/M_stellar > 10 are mostly small/faint GCs (M_V > -5) with large fractional uncertainties in their measured velocity dispersions, unresolved binary contamination, and individual r_h that may be larger than the median 3.5 pc assumed here. The trend with Galactocentric distance is *opposite* to the DM-halo expectation: GCs in the inner Galaxy (R_gc < 3 kpc) have *higher* M_dyn/M_stellar (median 3.25) than GCs in the outer halo (R_gc > 15 kpc, median 0.37). This is consistent with central GCs having larger r_h (which scales with Galactocentric distance for tidally-limited clusters, see Harris 1996), not with a DM halo contribution (which would be larger for inner-halo GCs).
 
-*Sensitivity test.* The result is robust to the assumed $r_h$ over a factor of ~5:
-* $r_h = 1.5$ pc: median M_dyn/M_stellar = 0.52
-* $r_h = 2.5$ pc: median 0.87
-* $r_h = 3.5$ pc: median 1.22 (baseline)
-* $r_h = 5.0$ pc: median 1.74
-* $r_h = 7.0$ pc: median 2.44
+*Sensitivity test.* The result is robust to the assumed r_h over a factor of ~5:
+* r_h = 1.5 pc: median M_dyn/M_stellar = 0.52
+* r_h = 2.5 pc: median 0.87
+* r_h = 3.5 pc: median 1.22 (baseline)
+* r_h = 5.0 pc: median 1.74
+* r_h = 7.0 pc: median 2.44
 
-Even at the *most extreme* $r_h = 7$ pc (larger than any known GC), the median M_dyn/M_stellar is 2.44 — well within the pure-stellar range of 1-3. The cascade's prediction is **robustly satisfied**.
+Even at the *most extreme* r_h = 7 pc (larger than any known GC), the median M_dyn/M_stellar is 2.44 — well within the pure-stellar range of 1-3. The cascade's prediction is **robustly satisfied**.
 
 *Verdict.* **[PASS]** **CONSISTENT with the cascade**. The 111 GCs in our cross-matched sample have M_dyn/M_stellar ratios consistent with a pure old, metal-poor stellar population, *with no significant dark matter halo contribution*. This is a clean null-test *pass* for the cascade's prediction that old stellar systems without high-energy events do not accumulate DM.
 
-*Caveats.* (a) The assumed $r_h = 3.5$ pc is a single value for all GCs; individual $r_h$ measurements (from HST imaging, available for ~80 GCs) would tighten the test by a factor of ~2. (b) The assumed M/L_V = 2 is the median for old metal-poor GCs; the real range is 1.5-2.5, which propagates to a factor of ~1.5 uncertainty in the M_dyn/M_stellar ratio. (c) Unresolved binary stars can inflate the measured $\sigma$ by 10-30% in some GCs, biasing M_dyn high. (d) The Wolf+ 2010 mass estimator assumes a spherical, isotropic system; some GCs may have anisotropy. (e) The test is *qualitative* (presence/absence of DM) rather than *quantitative* (DM density profile). All caveats push in the same direction: with more precise $r_h$ and accounting for binaries, the M_dyn/M_stellar ratio would *decrease*, not increase, making the cascade's prediction even more clearly satisfied.
+*Caveats.* (a) The assumed r_h = 3.5 pc is a single value for all GCs; individual r_h measurements (from HST imaging, available for ~80 GCs) would tighten the test by a factor of ~2. (b) The assumed M/L_V = 2 is the median for old metal-poor GCs; the real range is 1.5-2.5, which propagates to a factor of ~1.5 uncertainty in the M_dyn/M_stellar ratio. (c) Unresolved binary stars can inflate the measured σ by 10-30% in some GCs, biasing M_dyn high. (d) The Wolf+ 2010 mass estimator assumes a spherical, isotropic system; some GCs may have anisotropy. (e) The test is *qualitative* (presence/absence of DM) rather than *quantitative* (DM density profile). All caveats push in the same direction: with more precise r_h and accounting for binaries, the M_dyn/M_stellar ratio would *decrease*, not increase, making the cascade's prediction even more clearly satisfied.
 
-*Implications for the cascade.* This is a *new* prediction test that doesn't appear elsewhere in the cascade's empirical work (§4.1-§4.17 all use galactic or cluster scales, not individual old stellar systems). The GCs provide the cleanest null-test in the cascade's empirical basis: they are old, small, and DM-free, as predicted. The cascade's framework naturally explains this: no high-energy events → no 2D universe creation → no cumulative DM return. A $\Lambda$CDM particle-DM model, by contrast, would need to explain why GCs *don't* retain their cosmological DM sub-halos (the "GC survival" problem in $\Lambda$CDM simulations; e.g., Contenta+ 2018 reports M_dyn/M_stellar > 2 for some GCs, while others have values consistent with no DM). The cascade's *deterministic* prediction (no events → no DM) is a sharper test than the *statistical* prediction of $\Lambda$CDM sub-halo survival.
+*Implications for the cascade.* This is a *new* prediction test that doesn't appear elsewhere in the cascade's empirical work (§4.1-§4.17 all use galactic or cluster scales, not individual old stellar systems). The GCs provide the cleanest null-test in the cascade's empirical basis: they are old, small, and DM-free, as predicted. The cascade's framework naturally explains this: no high-energy events → no 2D universe creation → no cumulative DM return. A ΛCDM particle-DM model, by contrast, would need to explain why GCs *don't* retain their cosmological DM sub-halos (the "GC survival" problem in ΛCDM simulations; e.g., Contenta+ 2018 reports M_dyn/M_stellar > 2 for some GCs, while others have values consistent with no DM). The cascade's *deterministic* prediction (no events → no DM) is a sharper test than the *statistical* prediction of ΛCDM sub-halo survival.
 
 ### 4.19 Summary of new real-data tests (v2.3.1)
 
@@ -6400,7 +6400,7 @@ The cascade has now been tested against **seventeen test categories** using publ
 
 **Test 5 (§4.21): Cusp-core test of dwarf density profiles.** The cascade's 2D universe back-projection geometry naturally produces an isothermal DM profile (constant central density = "core"). Published data from de Blok+ 2008 (THINGS, 7 dwarfs) show V(0.5 kpc)/V(half) = 0.71 (range 0.60-0.80), consistent with isothermal cores and inconsistent with NFW cusps (which predict ~0.3). **CONSISTENT with cascade** (clean structural prediction). The cusp-core problem has been a known ΛCDM tension for ~25 years.
 
-**Test 3 (new): Direct detection experiment null result.** Six WIMP-search experiments (LZ 2024, XENONnT 2023, PandaX-4T 2024, LUX 2017, XENON1T 2018, DEAP-3600) with ~8.5 tonne-year total exposure have found *no* WIMP-like signal. Best limit: $\sigma_{SI} < 9.2 \times 10^{-48}$ cm² (LZ). The WIMP "miracle" parameter space ($\sigma \sim 10^{-44}$ cm²) is excluded by ~4 orders of magnitude. The cascade predicts $\sigma = 0$ (DM is geometric gravity, no SM coupling). **CONSISTENT with cascade** (no detection = no WIMPs).
+**Test 3 (new): Direct detection experiment null result.** Six WIMP-search experiments (LZ 2024, XENONnT 2023, PandaX-4T 2024, LUX 2017, XENON1T 2018, DEAP-3600) with ~8.5 tonne-year total exposure have found *no* WIMP-like signal. Best limit: sigma_SI < 9.2 × 10^⁻⁴⁸ cm² (LZ). The WIMP "miracle" parameter space (σ ~ 10^⁻⁴⁴ cm²) is excluded by ~4 orders of magnitude. The cascade predicts σ = 0 (DM is geometric gravity, no SM coupling). **CONSISTENT with cascade** (no detection = no WIMPs).
 
 **Test 4 (new): Isolated vs cluster dwarf M*-M_200 relation.** The cascade predicts similar M*-M_200 for both populations at fixed M* (cumulative DM dominates, active contribution differs by only ~5%). Published data: Read+ 2017 (MNRAS 471, 2192) shows 40 isolated dIrrs follow a tight M*-M_200 relation (consistent with ΛCDM); Sawala+ 2014, 2016 shows Local Group dwarfs follow a similar relation. The "too big to fail" problem in ΛCDM is a sub-halo issue, not a cumulative-DM issue, and doesn't apply to the cascade. **CONSISTENT with cascade** (no significant difference between populations at fixed M*).
 
@@ -6897,12 +6897,12 @@ The V1 status (commit 121) was that f_active was constrained to 0.05-0.18 by 3+1
 
 For a 4D event with approximately constant output R(t) over the universe's lifetime T_universe = 13.8 Gyr, and a 2D universe lifetime τ_2D:
 
-$$f_{active} = \frac{N_{active}}{N_{cumulative}} = \frac{R \cdot \tau_{2D}}{R \cdot T_{universe}} = \frac{\tau_{2D}}{T_{universe}}$$
+f_active = (N_active)/(N_cumulative) = (R · tau_₂D)/(R · T_universe) = (tau_₂D)/(T_universe)
 
 **Identifying τ_2D:** The 2D universe's lifetime is set by its internal dynamics — the time for the 2D universe to consume its fuel and return energy to 3+1D via S_destruction. By physical analogy with our universe's gas consumption timescale (Bigiel+ 2008, Kennicutt-Schmidt law): **τ_2D ~ 0.7 Gyr**.
 
 **Result:**
-$$f_{active} = \frac{0.7 \text{ Gyr}}{13.8 \text{ Gyr}} = 0.051$$
+f_active = (0.7 Gyr)/(13.8 Gyr) = 0.051
 
 This **MATCHES the MCMC posterior f_active = 0.0513 +0.0070/-0.0073** without any fitting!
 
@@ -7410,56 +7410,56 @@ See `calculations/cosmic_shear_cascade.py` and `calculations/cosmic_shear_cascad
 
 ### 4.44 Coordinate-Invariant Tensor Construction (v2.3.1, supporting document)
 
-A formal, coordinate-invariant modified stress-energy tensor $T_{\mu\nu}^{\text{eff}}$ for SIDC is constructed in the supporting document `supporting/T_tensor_construction.md`. The full derivation is there; this section summarizes the result.
+A formal, coordinate-invariant modified stress-energy tensor T_μν^{eff} for SIDC is constructed in the supporting document `supporting/T_tensor_construction.md`. The full derivation is there; this section summarizes the result.
 
 **The key result.** The effective 3+1D stress-energy tensor that enters the Einstein field equations is:
 
-$$T_{\mu\nu}^{\text{eff}} = T_{\mu\nu}^{\text{SM}} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + \frac{1}{8\pi G_4} \mathcal{E}_{\mu\nu} + T_{\mu\nu}^{\text{fossil}}$$
+T_μν^{eff} = T_μν^{SM} + (kappa₅⁴)/(8π G₄) S_μν + (1)/(8π G₄) mathcal{E}_μν + T_μν^{fossil}
 
 where:
-- $T_{\mu\nu}^{\text{SM}}$: standard model matter (fully known)
-- $S_{\mu\nu}$: quadratic high-energy correction (RS-II Maeda-Sasaki form), the cascade's threshold trigger
-- $\mathcal{E}_{\mu\nu}$: bulk Weyl projection, the cascade's "Weyl shadow" / geometric DM candidate
-- $T_{\mu\nu}^{\text{fossil}}$: the cascade's *specific* contribution, localized at 2D universe deaths
+- T_μν^{SM}: standard model matter (fully known)
+- S_μν: quadratic high-energy correction (RS-II Maeda-Sasaki form), the cascade's threshold trigger
+- mathcal{E}_μν: bulk Weyl projection, the cascade's "Weyl shadow" / geometric DM candidate
+- T_μν^{fossil}: the cascade's *specific* contribution, localized at 2D universe deaths
 
-**Boundary junction condition (v2.4 hardening).** The effective stress-energy tensor $T_{\mu\nu}^{\text{eff}}$ is constrained at the 3+1D brane hypersurface $\Sigma$ (the $y=0$ slice in the AdS$_5$ bulk, with $n^A$ the outward unit normal to $\Sigma$) by the *zero-leakage bulk constraint*:
+**Boundary junction condition (v2.4 hardening).** The effective stress-energy tensor T_μν^{eff} is constrained at the 3+1D brane hypersurface Σ (the y=0 slice in the AdS₅ bulk, with n^A the outward unit normal to Σ) by the *zero-leakage bulk constraint*:
 
-$$\boxed{J^A_{\text{bulk}} \Big|_{\Sigma} = T^{AB}_{\text{bulk}} \, n_B \Big|_{y=0} = 0}$$
+boxed{J^A_{bulk} Big|_Σ = T^AB_{bulk} n_B Big|_y=₀ = 0}
 
-This is a **Neumann-Dirichlet hybrid boundary condition** (also called a *reflective* or *Z$_2$-symmetric* BC) on the bulk energy-momentum flux. Its interpretation:
+This is a **Neumann-Dirichlet hybrid boundary condition** (also called a *reflective* or *Z₂-symmetric* BC) on the bulk energy-momentum flux. Its interpretation:
 
-- **$J^A_{\text{bulk}} = 0$ at $\Sigma$** means: the bulk energy flux through the 3+1D brane hypersurface is *identically zero*. No energy leaks from the 3+1D brane into the AdS$_5$ bulk, and no bulk energy leaks onto the 3+1D brane except via the fossil term $T_{\mu\nu}^{\text{fossil}}$.
-- **Israel junction condition** (Israel 1966): the jump in extrinsic curvature $K_{\mu\nu}$ across the brane is fixed by the brane-localized stress-energy. With $J^A_{\text{bulk}} = 0$, the junction is *geometrically locked*: the bulk channel is non-propagating for the $S_{\text{destruction}}$ payload, and the fossil's energy is *fully deposited* on the 3+1D brane.
-- **Physical meaning:** the 2D universe's death energy ($S_{\text{destruction}} \sim 10^{45}$ J per event) is *not* allowed to leak into the bulk. 100% of it must return to 3+1D. This is the *staying fraction* $f_{\text{back}} = 1$ promoted from a postulate (v2.3.2) to a *derived consequence* of the BC (v2.4).
-- **What this BC eliminates:** the $f_{\text{back}}$ free parameter is now *derived* (set to 1 by the BC), not *postulated*. The free-parameter count in the v2.3.2 framework (5+) drops to 2-3 active parameters in v2.4 (the remaining are $G_5$, $\alpha$, and the dimensional $\tau_{2D}$ postulate; see §4.44.1 Task 1 and the §4.44.2 framework comparison).
-- **What this BC requires:** the bulk AdS$_5$ geometry must be *Z$_2$-symmetric* across $\Sigma$ (the standard Randall-Sundrum II / DGP assumption). A more general bulk geometry (e.g., a non-Z$_2$ asymmetric warp) would require a *modified* BC, which is left to future work.
-- **Verification:** the $J^A_{\text{bulk}} = 0$ BC is implemented and verified in `calculations/verify_v24_refactor.py` Check A (Bianchi identity preserved under the BC) and Check B (parameter reduction achieved). See `supporting/T_tensor_v24_refactor.md` §3.1 for the full derivation.
+- **J^A_{bulk} = 0 at Σ** means: the bulk energy flux through the 3+1D brane hypersurface is *identically zero*. No energy leaks from the 3+1D brane into the AdS₅ bulk, and no bulk energy leaks onto the 3+1D brane except via the fossil term T_μν^{fossil}.
+- **Israel junction condition** (Israel 1966): the jump in extrinsic curvature K_μν across the brane is fixed by the brane-localized stress-energy. With J^A_{bulk} = 0, the junction is *geometrically locked*: the bulk channel is non-propagating for the S_{destruction} payload, and the fossil's energy is *fully deposited* on the 3+1D brane.
+- **Physical meaning:** the 2D universe's death energy (S_{destruction} ~ 10^⁴⁵ J per event) is *not* allowed to leak into the bulk. 100% of it must return to 3+1D. This is the *staying fraction* f_{back} = 1 promoted from a postulate (v2.3.2) to a *derived consequence* of the BC (v2.4).
+- **What this BC eliminates:** the f_{back} free parameter is now *derived* (set to 1 by the BC), not *postulated*. The free-parameter count in the v2.3.2 framework (5+) drops to 2-3 active parameters in v2.4 (the remaining are G₅, α, and the dimensional tau_₂D postulate; see §4.44.1 Task 1 and the §4.44.2 framework comparison).
+- **What this BC requires:** the bulk AdS₅ geometry must be *Z₂-symmetric* across Σ (the standard Randall-Sundrum II / DGP assumption). A more general bulk geometry (e.g., a non-Z₂ asymmetric warp) would require a *modified* BC, which is left to future work.
+- **Verification:** the J^A_{bulk} = 0 BC is implemented and verified in `calculations/verify_v24_refactor.py` Check A (Bianchi identity preserved under the BC) and Check B (parameter reduction achieved). See `supporting/T_tensor_v24_refactor.md` §3.1 for the full derivation.
 
 **The novel piece.** The fossil's amplitude is NOT a free parameter — it is *derived* from the 2D worldsheet's quantum dynamics via the Polyakov-Liouville trace anomaly:
 
-$$T^{\mu\nu}_{\text{fossil}}(\mathbf{x}) = f_{\text{back}} \int d^2\xi \sqrt{-\gamma} \, \frac{c}{24\pi} R^{(2)} \cdot \gamma^{ab} \partial_a X^\mu \partial_b X^\nu \, \delta^4(x - X(\xi))$$
+T^μν_{fossil}(mathbf{x}) = f_{back} ∫ d²ξ sqrt{-γ} (c)/(24π) R^(²) · γ^ab partial_a X^μ partial_b X^ν δ⁴(x - X(ξ))
 
-This is the cascade's *coordinate-invariant* way of localizing a 2D universe's death energy onto the 3+1D brane. The factor $\gamma^{ab} \partial_a X^\mu \partial_b X^\nu$ is the standard "induced metric" projector from 2D to 4D — it's the unique covariant way to lift a 2D scalar ($\sigma$) to a 4D rank-2 tensor.
+This is the cascade's *coordinate-invariant* way of localizing a 2D universe's death energy onto the 3+1D brane. The factor γ^ab partial_a X^μ partial_b X^ν is the standard "induced metric" projector from 2D to 4D — it's the unique covariant way to lift a 2D scalar (σ) to a 4D rank-2 tensor.
 
-**Covariant conservation proof.** The total $T_{\mu\nu}^{\text{eff}}$ is covariantly conserved in the bulk-minimization limit ($f_{\text{back}} = 1$):
+**Covariant conservation proof.** The total T_μν^{eff} is covariantly conserved in the bulk-minimization limit (f_{back} = 1):
 
-$$\nabla^\mu T_{\mu\nu}^{\text{eff}} = 0 \quad \text{(in the } f_{\text{back}} = 1 \text{ limit)}$$
+∇^μ T_μν^{eff} = 0 quad (in the f_{back} = 1 limit)
 
-The proof is given in `supporting/T_tensor_construction.md` §4.4. Each term is separately conserved (SM, $S_{\mu\nu}$, $T_{\mu\nu}^{\text{fossil}}$), and the bulk leakage $\nabla^\mu \mathcal{E}_{\mu\nu} \to 0$ in the cascade's bulk-minimization limit (the 5D Codazzi equation gives this when the 2D universe's energy fully returns to 3+1D).
+The proof is given in `supporting/T_tensor_construction.md` §4.4. Each term is separately conserved (SM, S_μν, T_μν^{fossil}), and the bulk leakage ∇^μ mathcal{E}_μν → 0 in the cascade's bulk-minimization limit (the 5D Codazzi equation gives this when the 2D universe's energy fully returns to 3+1D).
 
 **Verification against physical constraints** (all PASS, see `calculations/verify_tensor_pipeline.py`):
 
-1. **UV / high-energy limit**: at $T_{\mu\nu} \geq E_{\text{crit}} \sim 10^{30}$ J, the quadratic term $S_{\mu\nu}$ dominates the linear $T_{\mu\nu}$, providing the threshold trigger for 2D universe creation.
-2. **2D vacuum limit**: in regions without energetic events (Sun, voids), $R^{(2)} = 0 \implies T_{\mu\nu}^{\text{fossil}} = 0$, ensuring no un-derived DM accumulation. The Sun has zero cascade DM (matches observation).
-3. **Bulk leakage**: in the $f_{\text{back}} = 1$ limit, the 2D universe's full energy returns to 3+1D, so $\nabla^\mu \mathcal{E}_{\mu\nu} = 0$ and the total is exactly conserved.
+1. **UV / high-energy limit**: at T_μν ≥ E_{crit} ~ 10^³⁰ J, the quadratic term S_μν dominates the linear T_μν, providing the threshold trigger for 2D universe creation.
+2. **2D vacuum limit**: in regions without energetic events (Sun, voids), R^(²) = 0 implies T_μν^{fossil} = 0, ensuring no un-derived DM accumulation. The Sun has zero cascade DM (matches observation).
+3. **Bulk leakage**: in the f_{back} = 1 limit, the 2D universe's full energy returns to 3+1D, so ∇^μ mathcal{E}_μν = 0 and the total is exactly conserved.
 
-**Comparison to §2.5.1 skeleton.** The §2.5.1 action has 5+ free parameters. This construction reduces them by deriving the fossil's amplitude from the 2D CFT (replacing the free $\sigma$ with the central charge $c$). The remaining free parameters are: $G_5$ (5D Newton's constant), $\alpha$ (cascade coupling), $f_{\text{back}}$ (staying fraction, set to 1 by cascade postulate), and $c$ (2D central charge, depends on 2D theory choice).
+**Comparison to §2.5.1 skeleton.** The §2.5.1 action has 5+ free parameters. This construction reduces them by deriving the fossil's amplitude from the 2D CFT (replacing the free σ with the central charge c). The remaining free parameters are: G₅ (5D Newton's constant), α (cascade coupling), f_{back} (staying fraction, set to 1 by cascade postulate), and c (2D central charge, depends on 2D theory choice).
 
 **Status.** This construction is a *first-pass formal derivation* by a software developer, not a theoretical physicist. An expert in brane-world gravity, CFT, and differential geometry would need to:
-1. Verify the central charge $c$ (Liouville vs Polyakov, $c=1$ vs $c=26$)
-2. Verify the 5D bulk geometry (AdS$_5$ vs other)
-3. Verify the $\alpha$ coupling calibration
-4. Verify the conservation proof in the $f_{\text{back}} < 1$ case
+1. Verify the central charge c (Liouville vs Polyakov, c=1 vs c=26)
+2. Verify the 5D bulk geometry (AdS₅ vs other)
+3. Verify the α coupling calibration
+4. Verify the conservation proof in the f_{back} < 1 case
 
 **Limitation update**: **Limitation 26 (full Lagrangian)** is now PARTIALLY ADDRESSED. The cascade's tensor pipeline is *formally constructed* (action + field equations + conservation proof), with the geometry and the bulk leakage limit specified. The remaining open work is the *specific 2D theory* (central charge, brane action) and the *5D bulk geometry*. This is a concrete invitation to theoretical physicists to complete the cascade.
 
@@ -7473,39 +7473,39 @@ The proof is given in `supporting/T_tensor_construction.md` §4.4. Each term is 
 
 The v2.3.2 tensor pipeline is an "experimental sketch." The v2.4 refactor implements 4 structural tasks that transition it to a "structurally complete field theory framework specification." The full refactor is in `supporting/T_tensor_v24_refactor.md`; this section summarizes the 4 tasks and their results.
 
-**Task 1: Zero-leakage bulk constraint.** Codify the assumption "100% of $S_{\text{destruction}}$ energy deposits on the 3+1D brane" as a formal boundary condition. The bulk energy flux vector $J^A_{\text{bulk}} = T^{AB}_{\text{bulk}} n_B$ is constrained to be **identically zero** at the brane hypersurface:
+**Task 1: Zero-leakage bulk constraint.** Codify the assumption "100% of S_{destruction} energy deposits on the 3+1D brane" as a formal boundary condition. The bulk energy flux vector J^A_{bulk} = T^AB_{bulk} n_B is constrained to be **identically zero** at the brane hypersurface:
 
-$$J^A_{\text{bulk}} \Big|_{\text{Hypersurface}} = T^{AB}_{\text{bulk}} n_B \Big|_{y=0} = 0$$
+J^A_{bulk} Big|_{Hypersurface} = T^AB_{bulk} n_B Big|_y=₀ = 0
 
-This is a Neumann/Dirichlet hybrid BC that makes the bulk *reflective* (Z2-symmetric). The Israel junction is geometrically locked such that the bulk channel is non-propagating for the $S_{\text{destruction}}$ payload. **Result: $f_{\text{back}}^{\text{destruction}}$ (the fraction of $S_{\text{destruction}}$ energy that returns to the 3+1D brane as DM) is now DERIVED as 1 from the bulk BC, not postulated. NOTE: this is a *different* $f_{\text{back}}$ than the dark-energy staying fraction $f_{\text{back}}^{\text{DE}} \sim 10^{-85}$ in §2.6, which remains a postulate. The two are not the same parameter; the paper's use of $f_{\text{back}}$ for both is a notational overload that should be cleaned up in a future revision.**
+This is a Neumann/Dirichlet hybrid BC that makes the bulk *reflective* (Z2-symmetric). The Israel junction is geometrically locked such that the bulk channel is non-propagating for the S_{destruction} payload. **Result: f_{back}^{destruction} (the fraction of S_{destruction} energy that returns to the 3+1D brane as DM) is now DERIVED as 1 from the bulk BC, not postulated. NOTE: this is a *different* f_{back} than the dark-energy staying fraction f_{back}^{DE} ~ 10^⁻⁸⁵ in §2.6, which remains a postulate. The two are not the same parameter; the paper's use of f_{back} for both is a notational overload that should be cleaned up in a future revision.**
 
-**Task 2: Central charge $c$ bounds.** Type-sign $c$ with explicit bounds:
+**Task 2: Central charge c bounds.** Type-sign c with explicit bounds:
 
-$$c = \sum_{\text{bosons}} c_b + \frac{1}{2}\sum_{\text{fermions}} c_f, \quad c \ge 1$$
+c = sum_{bosons} c_b + (1)/(2)sum_{fermions} c_f, quad c ≥ 1
 
-with the discrete matrix: $c = 1$ (minimal scalar), $c = 2$ (graviton + scalar), ..., $c = 26$ (bosonic string critical), $c = 3/2$ (single Majorana fermion), etc. The cascade\'s default is $c = 1$ (minimal 2D metric, no additional matter). **Result: $c$ is no longer a free parameter (it has a discrete allowed set with $c = 1$ as default).**
+with the discrete matrix: c = 1 (minimal scalar), c = 2 (graviton + scalar), ..., c = 26 (bosonic string critical), c = 3/2 (single Majorana fermion), etc. The cascade\'s default is c = 1 (minimal 2D metric, no additional matter). **Result: c is no longer a free parameter (it has a discrete allowed set with c = 1 as default).**
 
-**Task 3: Continuous metric decay (Gaussian instanton).** Replace the abrupt $\delta(\tau - \tau_{2D})$ death with a smooth Gaussian profile:
+**Task 3: Continuous metric decay (Gaussian instanton).** Replace the abrupt δ(τ - tau_₂D) death with a smooth Gaussian profile:
 
-$$a_{2D}(\tau) = a_0 \exp\left(-\frac{\tau^2}{\tau_{2D}^2}\right)$$
+a_₂D(τ) = a₀ exp(-(τ²)/(tau_₂D²))
 
-The 2D volume element $\sqrt{-\gamma} \propto a_{2D}(\tau)$ smoothly drives to zero as $\tau \to \infty$. The fossil localization is distributed over a Gaussian window $g(\tau) = \frac{1}{\tau_{2D}\sqrt{\pi}} \exp(-\tau^2/\tau_{2D}^2)$ (normalized: $\int g d\tau = 1$). **Result: smooth, physical death instead of mathematical $\delta$-function. Bianchi identity preserved (Gaussian is smooth).**
+The 2D volume element sqrt{-γ} propto a_₂D(τ) smoothly drives to zero as τ → ∞. The fossil localization is distributed over a Gaussian window g(τ) = frac{1}{tau_₂Dsqrt{π}} exp(-τ²/tau_₂D²) (normalized: ∫ g dτ = 1). **Result: smooth, physical death instead of mathematical δ-function. Bianchi identity preserved (Gaussian is smooth).**
 
 **Task 4: 5/27 as topological invariant.** Reposition the 5/27 inner split as a *frozen topological invariant* of the 5D bulk geometry, not a dynamical ratio:
 
-$$\frac{\Omega_{\text{DM}}}{\Omega_{\text{SM}}} = \frac{27}{5} = \frac{V_5}{A_4 R_{\text{AdS}_5}}$$
+frac{Omega_{DM}}{Omega_{SM}} = (27)/(5) = frac{V₅}{A₄ R_{AdS₅}}
 
-This is a **volume-to-surface-area ratio** of the higher-dimensional geometry, frozen at the moment of brane deployment (the inflationary phase transition) and decoupled from late-stage stellar histories. **Result: 5/27 is repositioned as a topological boundary condition of $S_{\text{grav, 5D}}$, not a free dynamical parameter. Limitation 17 conceptually advanced (still not derived, but now recognized as a topological feature, not a dynamical ratio).**
+This is a **volume-to-surface-area ratio** of the higher-dimensional geometry, frozen at the moment of brane deployment (the inflationary phase transition) and decoupled from late-stage stellar histories. **Result: 5/27 is repositioned as a topological boundary condition of S_{grav, 5D}, not a free dynamical parameter. Limitation 17 conceptually advanced (still not derived, but now recognized as a topological feature, not a dynamical ratio).**
 
 **Updated effective stress-energy tensor (v2.4):**
 
-$$T_{\mu\nu}^{\text{eff}} = T_{\mu\nu}^{\text{SM}} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + \frac{1}{8\pi G_4} \mathcal{E}_{\mu\nu} + T_{\mu\nu}^{\text{fossil, v24}}$$
+T_μν^{eff} = T_μν^{SM} + (kappa₅⁴)/(8π G₄) S_μν + (1)/(8π G₄) mathcal{E}_μν + T_μν^{fossil, v24}
 
 with the four v2.4 modifications:
-1. Bulk BC: $J^A_{\text{bulk}}|_{\text{brane}} = 0$
-2. Central charge: $c \in \mathbb{Z}_{\ge 1}$ (default $c=1$)
-3. Fossil localization: Gaussian instanton $g(\tau)$ (not $\delta$)
-4. 5/27 invariant: $V_5/(A_4 R_{\text{AdS}_5}) = 27/5$
+1. Bulk BC: J^A_{bulk}|_{brane} = 0
+2. Central charge: c ∈ mathbb{Z}_≥ ₁ (default c=1)
+3. Fossil localization: Gaussian instanton g(τ) (not δ)
+4. 5/27 invariant: V₅/(A₄ R_{AdS₅}) = 27/5
 
 **Parameter reduction (5+ → 2-3 active):**
 
@@ -7520,17 +7520,17 @@ with the four v2.4 modifications:
 | tau_{2D} | Postulated | Postulated (Gaussian width) |
 | f_{back}^{DE} | Postulated 10^{-85} | **STILL POSTULATED** (different from f_{back}^{destruction}) |
 
-**Free parameters: 5+ → 2-3 active (counting only the destruction channel).** The remaining open parameters ($\alpha$, $G_5$, $\mathcal{L}_{2D}$, $\tau_{2D}$, $f_{\text{back}}^{\text{DE}}$) are the **fundamental** parameters of the cascade\'s framework. The v2.4 refactor anchors the destruction channel as a boundary condition but does **not** derive the dark-energy staying fraction.
+**Free parameters: 5+ → 2-3 active (counting only the destruction channel).** The remaining open parameters (α, G₅, mathcal{L}_₂D, tau_₂D, f_{back}^{DE}) are the **fundamental** parameters of the cascade\'s framework. The v2.4 refactor anchors the destruction channel as a boundary condition but does **not** derive the dark-energy staying fraction.
 
 **Verification (per spec\'s Output Verification Rules):**
 
-- **[PASS]** Bianchi identity preserved: continuous Gaussian is smooth, bulk BC eliminates leakage, discrete $c$ is unitary, topological invariant is constant. $\nabla^\mu T_{\mu\nu}^{\text{eff}} = 0$.
+- **[PASS]** Bianchi identity preserved: continuous Gaussian is smooth, bulk BC eliminates leakage, discrete c is unitary, topological invariant is constant. ∇^μ T_μν^{eff} = 0.
 - **[PASS]** Parameter reduction achieved: 5+ → 2-3.
-- **[PASS]** Updated $T_{\mu\nu}^{\text{eff}}$ given in standard LaTeX format.
+- **[PASS]** Updated T_μν^{eff} given in standard LaTeX format.
 
 **Limitation updates:**
 
-- **Limitation 26 (full Lagrangian)**: PARTIALLY ADDRESSED (further). The cascade\'s framework is now a *structurally complete field theory framework specification* with explicit boundary conditions, type signatures, and continuous profiles. The remaining open work is the specific 2D matter content $\mathcal{L}_{2D}$, the bulk AdS radius $R_{\text{AdS}_5}$, the cascade coupling $\alpha$, and the death timescale $\tau_{2D}$.
+- **Limitation 26 (full Lagrangian)**: PARTIALLY ADDRESSED (further). The cascade\'s framework is now a *structurally complete field theory framework specification* with explicit boundary conditions, type signatures, and continuous profiles. The remaining open work is the specific 2D matter content mathcal{L}_₂D, the bulk AdS radius R_{AdS₅}, the cascade coupling α, and the death timescale tau_₂D.
 
 **Honest framing.** The v2.4 refactor is a meaningful step forward in framework formalization. It does not close all limitations, but it does eliminate three of the v2.3.2 "free parameters" by recasting them as boundary conditions (Tasks 1, 4) or discrete choices (Task 2). The continuous instanton (Task 3) makes the death mechanism physical.
 
@@ -7597,24 +7597,24 @@ The one-sentence summary: *every* energetic event in our 3+1 dimensional univers
 
 A Python-based phenomenological emulator has been built to verify the cascade's phase-transition principle against two canonical dwarf-galaxy cases. The emulator is a 4-part pipeline (`calculations/sidc_phenomenological_emulator.py`, 722 lines):
 
-**Part 1: Historical Energy Ledger.** `compute_historical_energy_ledger(sfh_times, sfh_rates)` integrates the Star Formation History against the cascade's phase-transition threshold $E_{\text{crit}} = 10^{30}$ J. Uses a Kroupa IMF with ~15% of stellar mass going into M > 8 M_sun (CCSN progenitors) and $E_{\text{CCSN}} = 10^{46}$ J per SN. Returns the total energy injected by all past events above $E_{\text{crit}}$ over cosmic history, plus the recent event rate (last 50 Myr).
+**Part 1: Historical Energy Ledger.** `compute_historical_energy_ledger(sfh_times, sfh_rates)` integrates the Star Formation History against the cascade's phase-transition threshold E_{crit} = 10^³⁰ J. Uses a Kroupa IMF with ~15% of stellar mass going into M > 8 M_sun (CCSN progenitors) and E_{CCSN} = 10^⁴⁶ J per SN. Returns the total energy injected by all past events above E_{crit} over cosmic history, plus the recent event rate (last 50 Myr).
 
-**Part 2: Gaussian Instanton.** `gaussian_instanton(τ) = a_0 \exp(-τ^2/τ_{2D}^2)` implements the v2.4 Task 3 smooth decay profile for the 2D universe's scale factor. The normalized window $g(τ) = (1/τ_{2D}\sqrt{π}) \exp(-τ^2/τ_{2D}^2)$ localizes the fossil payload with $\int g dτ = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24π) R^{(2)}$ (v2.4 Task 2, with $c = 1$ default).
+**Part 2: Gaussian Instanton.** `gaussian_instanton(τ) = a_0 \exp(-τ^2/τ_{2D}^2)` implements the v2.4 Task 3 smooth decay profile for the 2D universe's scale factor. The normalized window g(τ) = (1/τ_₂Dsqrt{π}) exp(-τ²/τ_₂D²) localizes the fossil payload with ∫ g dτ = 1 (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly σ = (c/24π) R^(²) (v2.4 Task 2, with c = 1 default).
 
-**Part 3: Smooth Potential Field.** `smooth_potential_field(r, M_b_profile)` builds the cascade-MOND hybrid potential: $g_{\text{obs}} = g_{\text{bar}} / (1 - \exp(-\sqrt{g_{\text{bar}}/g_+}))$, with $g_+ = 1.2 \times 10^{-10}$ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\text{total}}(r)}$ and a BTFR-predicted $V_{\text{flat}} = (G M_b g_+)^{1/4}$.
+**Part 3: Smooth Potential Field.** `smooth_potential_field(r, M_b_profile)` builds the cascade-MOND hybrid potential: g_{obs} = g_{bar} / (1 - exp(-sqrt{g_{bar}/g_+})), with g_+ = 1.2 × 10^⁻¹⁰ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile σ(r) = sqrt{r · g_{total}(r)} and a BTFR-predicted V_{flat} = (G M_b g_+)^¹/⁴.
 
 **Part 4: Testing Harness (independent dwarf-galaxy cases).** The emulator runs two INDEPENDENT dwarf-galaxy cases (AGC 114905 and KKR 25) and verifies that the cascade's SFH-DM correlation is qualitatively consistent with observations for each.
 
 **Test 1: AGC 114905 (UDG, Mancera Piña+ 2022).**
 
 Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type stars alive, no SN progenitors in the recent past). The emulator's SFH is:
-- $\text{SFR}(t) = 0.5\,M_\odot/\text{yr}$ for $t \in [0.5, 2.0]$ Gyr (lookback)
-- $M_b$ (current) = $7.3 \times 10^8\,M_\odot$ (REVISED v2.7.33+: was $2 \times 10^8$ — cascade's M_b was wrong)
-- $M_{\text{total formed}} = 7.3 \times 10^8\,M_\odot$ (1.5 Gyr of SF)
-- $N_{\text{CCSN, total}} = 1.1 \times 10^6$
+- SFR(t) = 0.5 M_odot/yr for t ∈ [0.5, 2.0] Gyr (lookback)
+- M_b (current) = 7.3 × 10⁸ M_odot (REVISED v2.7.33+: was 2 × 10⁸ — cascade's M_b was wrong)
+- M_{total formed} = 7.3 × 10⁸ M_odot (1.5 Gyr of SF)
+- N_{CCSN, total} = 1.1 × 10⁶
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
-**Cascade prediction:** $M_{\text{dyn}}/M_b = 1.36$ (DM-poor). **[PASS]** matches Mancera Piña 2022.
+**Cascade prediction:** M_{dyn}/M_b = 1.36 (DM-poor). **[PASS]** matches Mancera Piña 2022.
 
 **Caveats (v2.7.35+, §3.29):**
 - DM content is CONTESTED in 2022-2025 literature (Mancera Piña 2022 vs Sellwood 2022)
@@ -7623,14 +7623,14 @@ Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type st
 
 **Test 2: KKR 25 (dSph, Makarov+ 2012).**
 
-Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created 2D universes whose energy was returned to 3+1D as DM via the $S_{\text{destruction}}$ cumulative-return pathway. The emulator's SFH is:
-- $\text{SFR}(t) = 4 \times 10^{-4}\,M_\odot/\text{yr}$ for $t \in [1.0, 4.0]$ Gyr (lookback) (REVISED v2.7.33+: was 1.0 M_⊙/yr, off by 2500×)
-- $M_b$ (current) = $3.0 \times 10^6\,M_\odot$ (REVISED v2.7.33+: was $10^6$, Makarov 2012)
-- $M_{\text{total formed}} = 1.2 \times 10^6\,M_\odot$ (REVISED v2.7.33+: was $3.0 \times 10^9$, off by 2500×)
-- $N_{\text{CCSN, total}} = 1.8 \times 10^3$ (REVISED v2.7.33+: was $4.5 \times 10^6$, off by 2500×)
+Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created 2D universes whose energy was returned to 3+1D as DM via the S_{destruction} cumulative-return pathway. The emulator's SFH is:
+- SFR(t) = 4 × 10^⁻⁴ M_odot/yr for t ∈ [1.0, 4.0] Gyr (lookback) (REVISED v2.7.33+: was 1.0 M_⊙/yr, off by 2500×)
+- M_b (current) = 3.0 × 10⁶ M_odot (REVISED v2.7.33+: was 10⁶, Makarov 2012)
+- M_{total formed} = 1.2 × 10⁶ M_odot (REVISED v2.7.33+: was 3.0 × 10⁹, off by 2500×)
+- N_{CCSN, total} = 1.8 × 10³ (REVISED v2.7.33+: was 4.5 × 10⁶, off by 2500×)
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
-**Cascade prediction:** $M_{\text{dyn}}/M_b \sim 1-4$ (REVISED v2.7.33+: was 299.19, see §3.27 for the correction).
+**Cascade prediction:** M_{dyn}/M_b ~ 1-4 (REVISED v2.7.33+: was 299.19, see §3.27 for the correction).
 
 **Caveats (v2.7.34+, §3.28):**
 - KKR 25 has NO published velocity dispersion
@@ -7650,7 +7650,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 - **[X]** A quantitative prediction of M_dyn/M_b from SFH alone
 - **[X]** A pairwise comparison between galaxies measured in different decades
 
-**Honest caveats.** The DM/baryon proportionality constant (0.1 in the emulator) is *calibrated* to match dSph observations — this is Limitation 26 territory. The *qualitative* SFH-DM correlation IS reproducible from the SFH alone. The *absolute* $M_{\text{DM}}$ values are postulates pending the full Lagrangian. The emulator's "growth factor" $G_{\text{growth}} = 9.7 \times 10^7$ from §2.6 is *not* used directly in the final prediction (a calibrated proportionality is more honest than a chain of uncertain factors).
+**Honest caveats.** The DM/baryon proportionality constant (0.1 in the emulator) is *calibrated* to match dSph observations — this is Limitation 26 territory. The *qualitative* SFH-DM correlation IS reproducible from the SFH alone. The *absolute* M_{DM} values are postulates pending the full Lagrangian. The emulator's "growth factor" G_{growth} = 9.7 × 10⁷ from §2.6 is *not* used directly in the final prediction (a calibrated proportionality is more honest than a chain of uncertain factors).
 
 **The original 219× bifurcation was a numerical error, not a physical prediction.** See §3.27, §3.28, §3.29 for the self-corrections that led to the bifurcation removal.
 
@@ -7747,11 +7747,11 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 **Honest engineering caveats.**
 1. The proportionality constant (0.1) in the fossil amplitude is *calibrated* to match dSph observations, not derived from first principles. The 0.1 is a stand-in for the full Lagrangian's prefactor (Limitation 26, Limitation 29).
 2. The IMF Kroupa fraction (15% for M > 8 M_sun) is a *standard* assumption, not cascade-specific.
-3. The $E_{\text{CCSN}} = 10^{46}$ J per SN is a *standard* assumption (Nomoto+ 2006), not cascade-specific.
-4. The $E_{\text{crit}} = 10^{30}$ J threshold for "phase-transition" events is a *postulate* of the cascade, calibrated to match the LMC SN 1987A event's energy (the lowest-energy event known to have created an observable 2D universe signature, per the cascade's narrative).
-5. The Gaussian instanton width $\tau_{2D}$ is a *free parameter* (dimensional postulate, see v2.4 framework, §4.44.1 Task 3). The emulator uses $\tau_{2D} = 0.7$ Gyr (gas consumption timescale, per §4.35).
+3. The E_{CCSN} = 10^⁴⁶ J per SN is a *standard* assumption (Nomoto+ 2006), not cascade-specific.
+4. The E_{crit} = 10^³⁰ J threshold for "phase-transition" events is a *postulate* of the cascade, calibrated to match the LMC SN 1987A event's energy (the lowest-energy event known to have created an observable 2D universe signature, per the cascade's narrative).
+5. The Gaussian instanton width tau_₂D is a *free parameter* (dimensional postulate, see v2.4 framework, §4.44.1 Task 3). The emulator uses tau_₂D = 0.7 Gyr (gas consumption timescale, per §4.35).
 
-**The bifurcation prediction is robust to all 5 of the above.** REVISED v2.7.33+: Reasonable variations of the IMF, $E_{\text{CCSN}}$, $E_{\text{crit}}$, and $\tau_{2D}$ preserve the *qualitative* 0.7-3× M_dyn/M_b shift (was 219×) between AGC 114905 and KKR 25 (see `calculations/sidc_phenomenological_emulator.py` for sensitivity tests). The *absolute* M_dyn values shift, but the *ratio* is preserved to within a factor of ~2.
+**The bifurcation prediction is robust to all 5 of the above.** REVISED v2.7.33+: Reasonable variations of the IMF, E_{CCSN}, E_{crit}, and tau_₂D preserve the *qualitative* 0.7-3× M_dyn/M_b shift (was 219×) between AGC 114905 and KKR 25 (see `calculations/sidc_phenomenological_emulator.py` for sensitivity tests). The *absolute* M_dyn values shift, but the *ratio* is preserved to within a factor of ~2.
 
 **Engineering reproducibility.** A reviewer can reproduce this subsection in <2 minutes:
 ```
@@ -7775,7 +7775,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 **The cascade's prediction (time-cumulative DM).** In the cascade, the DM density at redshift z is the *integrated past* 2D universe creation:
 
-$$\rho_{\text{DM}}^{\text{SIDC}}(z) = (1+z)^3 \int_z^{z_{\max}} \frac{\text{rate}(z')}{E(z')(1+z')} dz'$$
+rho_{DM}^{SIDC}(z) = (1+z)³ int_z^z_max (rate(z'))/(E(z')(1+z')) dz'
 
 where the rate is the *energetic event rate* at epoch z' (weighted by the smooth E^(1+alpha) function per event, §2.5.3). This is the *time-cumulative* DM density: it grows with cosmic time as past activity accumulates.
 
@@ -7845,23 +7845,23 @@ The user asked: can we *design* a primordial phase for the Lagrangian that initi
 
 **The design: two-component Lagrangian.**
 
-$$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{primordial}} + \mathcal{L}_{\text{stellar}}$$
+mathcal{L}_{total} = mathcal{L}_{primordial} + mathcal{L}_{stellar}
 
 where:
-- $\mathcal{L}_{\text{primordial}}$ creates 2D universes at a *constant* rate $R_p$ (free parameter), representing the 4D event's ongoing internal activity
-- $\mathcal{L}_{\text{stellar}}$ creates 2D universes at the *Madau-Dickinson SFR-dependent* rate $R_s(z)$, representing stellar/AGN activity
+- mathcal{L}_{primordial} creates 2D universes at a *constant* rate R_p (free parameter), representing the 4D event's ongoing internal activity
+- mathcal{L}_{stellar} creates 2D universes at the *Madau-Dickinson SFR-dependent* rate R_s(z), representing stellar/AGN activity
 
 The two-component DM density is:
 
-$$\rho_{\text{DM}}^{\text{SIDC}}(z) = (1+z)^3 \left[ F_p \cdot C_p(z) + F_s \cdot C_s(z) \right]$$
+rho_{DM}^{SIDC}(z) = (1+z)³ [ F_p · C_p(z) + F_s · C_s(z) ]
 
-where $F_p + F_s = 1$ are the fractional contributions to today's DM density, and $C_p(z), C_s(z)$ are the cumulative integrals of the two phases. The primordial phase integral is $C_p(z) = \int_z^{z_{\max}} R_p / (E(z')(1+z')^4) dz' \propto$ (constant in z for $R_p$ = const), and the stellar phase integral is $C_s(z) = \int_z^{z_{\max}} R_s(z') / (E(z')(1+z')^4) dz'$ (steeply declining with z).
+where F_p + F_s = 1 are the fractional contributions to today's DM density, and C_p(z), C_s(z) are the cumulative integrals of the two phases. The primordial phase integral is C_p(z) = int_z^z_max R_p / (E(z')(1+z')⁴) dz' propto (constant in z for R_p = const), and the stellar phase integral is C_s(z) = int_z^z_max R_s(z') / (E(z')(1+z')⁴) dz' (steeply declining with z).
 
 **Trial-and-error results.**
 
 The constraints are:
-1. $\rho_{\text{DM}}(0) = 0.27 \rho_{\text{crit}}$ (calibration to today's DM density)
-2. $r(z=6) > 0.3$ (consistency with observed bright-end of z=6 UV LF, Bouwens+ 2021, Harikane+ 2022)
+1. rho_{DM}(0) = 0.27 rho_{crit} (calibration to today's DM density)
+2. r(z=6) > 0.3 (consistency with observed bright-end of z=6 UV LF, Bouwens+ 2021, Harikane+ 2022)
 
 | F_p | r(z=6) | Constraint |
 |-------|----------|------------|
@@ -7880,10 +7880,10 @@ The constraints are:
 If F_p ~ 0.7 is required by data, the cascade's DM is DOMINATED by a primordial phase. The natural physical interpretation:
 
 - The 4D event is NOT a one-time big bang; it's an *ongoing energetic process* with internal activity
-- The 4D event's INTERNAL energetic processes create 2D universes at a constant rate $R_p$
+- The 4D event's INTERNAL energetic processes create 2D universes at a constant rate R_p
 - These 2D universes back-project to our 3+1D as DM
-- The 4D event's contribution is $F_p \sim 0.7$ of today's DM
-- Stellar/AGN activity contributes $F_s \sim 0.3$ (the time-lagged, "active" component)
+- The 4D event's contribution is F_p ~ 0.7 of today's DM
+- Stellar/AGN activity contributes F_s ~ 0.3 (the time-lagged, "active" component)
 
 This is a **major cascade refinement**:
 - The 4D event has STRUCTURE (internal activity, not just a single event)
@@ -7898,7 +7898,7 @@ The two-component model makes specific, testable predictions:
 
 *High-z tests (probe F_p ~ 0.7):*
 1. Bright-end of z=6-8 UV LF should match observed (Bouwens+, Harikane+, Donnan+)
-2. Reionization should match ΛCDM's $z_{\text{reion}} \sim 7\text{-}8$ (because F_p provides DM)
+2. Reionization should match ΛCDM's z_{reion} ~ 7-8 (because F_p provides DM)
 3. 21cm signal at z=8-15 should be consistent with ΛCDM
 4. Strong lensing at z>1 should match ΛCDM
 
@@ -7917,7 +7917,7 @@ The cascade ACCEPTS that the CMB-era DM is some F_s fraction less than today's v
 
 **Open questions for theoretical physicists (Limitation 26).**
 
-1. *What is the 4D event's internal activity?* Steady state? Slow decline? Episodic? A specific 4D model would specify the rate $R_p$ and its time evolution.
+1. *What is the 4D event's internal activity?* Steady state? Slow decline? Episodic? A specific 4D model would specify the rate R_p and its time evolution.
 
 2. *Why is F_p ~ 0.7 specifically?* The "right" value is whatever matches data, but a derivation from the 4D event's dynamics would be a major theoretical advance.
 
@@ -7927,25 +7927,25 @@ The cascade ACCEPTS that the CMB-era DM is some F_s fraction less than today's v
 
 **E_primordial specification (v2.7.12+, partially addresses L34).** The cascade's 4D event has an internal energy density:
 
-$$\rho_{4D} = \epsilon \cdot M_{\text{Pl},4}^4$$
+rho_₄D = ε · M_{Pl,4}⁴
 
-with $\epsilon \sim 10^{-38}$ (the bulk-brane cancellation parameter) and $M_{\text{Pl},4} \geq 887$ GeV (cascade's floor from §10.3). Primordial 2D universes are local excitations in this 4D bulk, with per-event energy:
+with ε ~ 10^⁻³⁸ (the bulk-brane cancellation parameter) and M_{Pl,4} ≥ 887 GeV (cascade's floor from §10.3). Primordial 2D universes are local excitations in this 4D bulk, with per-event energy:
 
-$$E_{\text{primordial}} = \rho_{4D} \cdot V_{2D} \cdot f_{\text{primordial}}$$
+E_{primordial} = rho_₄D · V_₂D · f_{primordial}
 
-where $V_{2D} = c \cdot \tau_{2D,\text{primordial}}$ is the 2D universe's spatial extent (in 1+1D) and $f_{\text{primordial}}$ is an *efficiency factor* (fraction of 4D event's local energy density that goes into a primordial 2D universe).
+where V_₂D = c · tau_{2D,primordial} is the 2D universe's spatial extent (in 1+1D) and f_{primordial} is an *efficiency factor* (fraction of 4D event's local energy density that goes into a primordial 2D universe).
 
 **What the cascade specifies:**
 
-- **Functional form** of E_primordial: $E_{\text{primordial}} = \rho_{4D} \cdot c \cdot \tau_{2D,\text{primordial}} \cdot f_{\text{primordial}}$
-- **Range of E_primordial**: between Planck-scale ($E_{\text{primordial}} \sim 10^{-65}$ J for $\tau_{2D} = t_{Pl}$) and 4D-event-scale ($E_{\text{primordial}} \sim 10^{14}$ J for $\tau_{2D} = \tau_{4D} \sim 10^{28}$ yr)
-- **Efficiency $f_{\text{primordial}}$**: DERIVED from observations. The 70% primordial DM fraction gives a specific value of $f_{\text{primordial}}$ from the data: $f_{\text{primordial}} = \rho_{DM,\text{primordial}} / \rho_{4D}$ where $\rho_{DM,\text{primordial}} = 0.7 \times 0.27 \times \rho_{\text{crit}}$ and $\rho_{4D} = \epsilon \times M_{\text{Pl},4}^4$.
+- **Functional form** of E_primordial: E_{primordial} = rho_₄D · c · tau_{2D,primordial} · f_{primordial}
+- **Range of E_primordial**: between Planck-scale (E_{primordial} ~ 10^⁻⁶⁵ J for tau_₂D = t_Pl) and 4D-event-scale (E_{primordial} ~ 10^¹⁴ J for tau_₂D = tau_₄D ~ 10^²⁸ yr)
+- **Efficiency f_{primordial}**: DERIVED from observations. The 70% primordial DM fraction gives a specific value of f_{primordial} from the data: f_{primordial} = rho_{DM,primordial} / rho_₄D where rho_{DM,primordial} = 0.7 × 0.27 × rho_{crit} and rho_₄D = ε × M_{Pl,4}⁴.
 
 **What remains free:**
 
-- **The typical primordial 2D universe lifetime $\tau_{2D,\text{primordial}}$**: this is a free parameter. The cascade postulates a specific value (e.g., $\tau_{2D,\text{primordial}}$ between $t_{Pl}$ and $\tau_{4D}$), but a complete theory would derive it from the 4D event's specific internal structure.
+- **The typical primordial 2D universe lifetime tau_{2D,primordial}**: this is a free parameter. The cascade postulates a specific value (e.g., tau_{2D,primordial} between t_Pl and tau_₄D), but a complete theory would derive it from the 4D event's specific internal structure.
 
-**Limitation 34 status (v2.7.12+):** PARTIALLY ADDRESSED. The functional form is specified ($\rho_{4D} \cdot V_{2D} \cdot f_{\text{primordial}}$), and the efficiency $f_{\text{primordial}}$ is derived from data. The remaining open question is the specific value of $\tau_{2D,\text{primordial}}$. A complete derivation would specify the 4D event's internal structure and compute $\tau_{2D,\text{primordial}}$ from first principles. See `calculations/v27_e_primordial.py` for the full analysis.
+**Limitation 34 status (v2.7.12+):** PARTIALLY ADDRESSED. The functional form is specified (rho_₄D · V_₂D · f_{primordial}), and the efficiency f_{primordial} is derived from data. The remaining open question is the specific value of tau_{2D,primordial}. A complete derivation would specify the 4D event's internal structure and compute tau_{2D,primordial} from first principles. See `calculations/v27_e_primordial.py` for the full analysis.
 
 4. *How does F_p evolve with cosmic time?* If the 4D event is constant, F_p is constant. If the 4D event is winding down (e.g., the antigravity is the "running out" of the 4D event), F_p decreases. This is a *new* observational window into the 4D event's physics.
 
@@ -7964,13 +7964,13 @@ where $V_{2D} = c \cdot \tau_{2D,\text{primordial}}$ is the 2D universe's spatia
 
 **The smooth F_p parameterization.** The cascade's F_p(z) is parameterized as a Hill function (n=2, z_half free):
 
-$$F_p(z) = 0.7 + 0.3 \cdot \frac{z^n}{z_{\text{half}}^n + z^n} \quad (n=2)$$
+F_p(z) = 0.7 + 0.3 · frac{z^n}{z_{half}^n + z^n} quad (n=2)
 
 This gives:
-- $F_p(z \to 0) = 0.7$ (matches the v2.4 baseline at z=0)
-- $F_p(z \to \infty) = 1.0$ (no stellar DM at high z; all DM is primordial)
-- $F_p(z = z_{\text{half}}) = 0.85$ (midpoint of the transition)
-- $F_p$ is smooth and differentiable everywhere (no step discontinuity)
+- F_p(z → 0) = 0.7 (matches the v2.4 baseline at z=0)
+- F_p(z → ∞) = 1.0 (no stellar DM at high z; all DM is primordial)
+- F_p(z = z_{half}) = 0.85 (midpoint of the transition)
+- F_p is smooth and differentiable everywhere (no step discontinuity)
 
 The cascade's full F(z) = F_p(z) + F_s(z), where F_s(z) = 0.3 × (Madau-SFR cumulative from z to z=20), gives the total DM fraction as a function of cosmic epoch.
 
@@ -7988,10 +7988,10 @@ The cascade's full F(z) = F_p(z) + F_s(z), where F_s(z) = 0.3 × (Madau-SFR cumu
 | 1100| 0.000    | **0.700** **[FAIL]** (30% gap)   | **1.000** **[PASS]**              | 1.000    |
 
 **The CMB gap is CLOSED.** With the smooth Hill F_p(z) (n=2, z_half=3):
-- $F_{\text{total}}(z=0) = 1.000$ (calibration **[PASS]**)
-- $F_{\text{total}}(z=1100) = 1.000$ (Planck CMB **[PASS]**, was 0.700 in v2.4)
-- $F_{\text{total}}(z=2) = 0.989$ (within 1.1% of Lyman-α constraint **[PASS]**)
-- $F_{\text{total}}(z=4) = 0.975$ (within 2.5% of z=4-6 UV LF **[PASS]**)
+- F_{total}(z=0) = 1.000 (calibration **[PASS]**)
+- F_{total}(z=1100) = 1.000 (Planck CMB **[PASS]**, was 0.700 in v2.4)
+- F_{total}(z=2) = 0.989 (within 1.1% of Lyman-α constraint **[PASS]**)
+- F_{total}(z=4) = 0.975 (within 2.5% of z=4-6 UV LF **[PASS]**)
 - Maximum deviation from observations: < 2.5% at any z
 
 Compare to the v2.4 constant F_p = 0.7: at z=4, the cascade PREDICTS only 78% of the observed DM (FAIL), and at z=1100 only 70% (30% gap, the CMB penalty).
@@ -8003,9 +8003,9 @@ Compare to the v2.4 constant F_p = 0.7: at z=4, the cascade PREDICTS only 78% of
 **Limitation 31 update.** With the smooth F_p(z) (Hill n=2, z_half=3), the CMB penalty (Δχ² = +650 in the constant F_p = 0.7 model) is *fully resolved*. Limitation 31 (time-lag of cascade DM at CMB epoch) is now **FULLY ADDRESSED** (was PARTIALLY ADDRESSED in v2.4 with constant F_p = 0.7). The smooth F_p is a 1-parameter improvement (z_half) over the 0-parameter constant.
 
 **Alternative smooth forms.** The cascade also supports:
-- $F_p(z) = 0.7 + 0.3 \cdot (1 - e^{-z/z_{\text{scale}}})$ (exponential, z_scale ~ 2-4)
-- $F_p(z) = 0.7 + 0.3 \cdot \tanh(z/z_{\text{scale}})$ (hyperbolic tangent, z_scale ~ 1-2)
-- $F_p(z) = 0.7 + 0.3 \cdot (1 + \text{erf}(z/z_{\text{scale}}))/2$ (error function, z_scale ~ 1-2)
+- F_p(z) = 0.7 + 0.3 · (1 - e^{-z/z_{scale}}) (exponential, z_scale ~ 2-4)
+- F_p(z) = 0.7 + 0.3 · tanh(z/z_{scale}) (hyperbolic tangent, z_scale ~ 1-2)
+- F_p(z) = 0.7 + 0.3 · (1 + erf(z/z_{scale}))/2 (error function, z_scale ~ 1-2)
 
 All of these give the same quality of fit (gap < 1% at all z) but with different *z_half* or *z_scale* values. The Hill form is preferred because it stays *below* F(z) = 1.0 at intermediate z (no over-prediction), while exp and tanh tend to overshoot 1.0 at z = 1-3 (the cascade would over-predict DM density at cosmic noon).
 
@@ -8028,13 +8028,13 @@ All of these give the same quality of fit (gap < 1% at all z) but with different
 
 **The bug.** The integrand for the cascade's comoving DM density was:
 
-$$\text{(BUGGY)}: \quad \rho_{\text{DM}}^{\text{SIDC}}(z) = (1+z)^3 \int_z^{z_{\max}} \frac{R(z')}{E(z')(1+z')} dz'$$
+(BUGGY): quad rho_{DM}^{SIDC}(z) = (1+z)³ int_z^z_max (R(z'))/(E(z')(1+z')) dz'
 
-$$\text{(CORRECT)}: \quad \rho_{\text{DM}}^{\text{SIDC}}(z) = (1+z)^3 \int_z^{z_{\max}} \frac{R(z')}{E(z')(1+z')^4} dz'$$
+(CORRECT): quad rho_{DM}^{SIDC}(z) = (1+z)³ int_z^z_max (R(z'))/(E(z')(1+z')⁴) dz'
 
 The `(1+z)^4` comes from combining `(1+z)^3` (volume effect: V_proper = a³ V_com with a = 1/(1+z)) and `(1+z)` (time effect: dt = dz/(H(1+z))). For non-relativistic fossils (which is what the cascade's T^fossil_μν is, per §4.44), the correct factor is `(1+z)^4`.
 
-**The numerical coincidence.** With the bug, the integral $\int_0^{15} (1+z)^2 / E(z) dz$ came out to **73.93** in the arbitrary code units. The r(z=6) at F_p=1 then came out to 0.73, which is suspiciously close to H_0 = 73 (SH0ES / cascade's H_0). The user caught this as a flag for a numerical artifact — and they were right. With the correct `(1+z)^4` formula, r(z=6) is 0.0002, not 0.73.
+**The numerical coincidence.** With the bug, the integral int₀^¹⁵ (1+z)² / E(z) dz came out to **73.93** in the arbitrary code units. The r(z=6) at F_p=1 then came out to 0.73, which is suspiciously close to H_0 = 73 (SH0ES / cascade's H_0). The user caught this as a flag for a numerical artifact — and they were right. With the correct `(1+z)^4` formula, r(z=6) is 0.0002, not 0.73.
 
 **The corrected r(z) values.**
 
@@ -8676,14 +8676,14 @@ The full table follows:
 3. **Ω_DM = 0.27 is an INPUT POSTULATE**: The 27% is an observational input, not a derivation.
 4. **NEW Limitation 31**: 2D-to-3+1D time compression has 54-orders uncertainty (reduced to ~15 orders via Karch-Randall 2+1D Planck scale).
 5. **NEW Limitation 33**: Ω_DM = 0.27 is an input postulate.
-6. **NEW §2.5 Time compression mechanism**: $m_{2D, 3+1D} = m_{2D, 2D} \times e^{-ky}$.
+6. **NEW §2.5 Time compression mechanism**: m_₂D, ₃+₁D = m_₂D, ₂D × e^⁻ky.
 
 **v2.4 update highlights (delta from v2.3.2):**
-1. **Limitation 15 (DE 10⁸⁵)** moved from OPEN to PARTIAL: $f_{\text{back}} = 1$ is now derived from the $J^A_{\text{bulk}} = 0$ BC in §4.44 (was a postulate in v2.3.2).
+1. **Limitation 15 (DE 10⁸⁵)** moved from OPEN to PARTIAL: f_{back} = 1 is now derived from the J^A_{bulk} = 0 BC in §4.44 (was a postulate in v2.3.2).
 2. **Limitation 17 (5/27/68)** moved from OPEN to PARTIAL: the 5/27 inner ratio is now ANCHORED as a topological eigenvalue (§2.6.1, new subsection). The 32/68 outer ratio remains observational.
-3. **Limitation 26 (Full Lagrangian)** updated to reflect v2.4 BC: free parameters reduced to 2-3 ($G_5$, $\alpha$, $\tau_{2D}$); all other parameters either derived or bounded.
-4. **Limitation 29 (Phase-transition calibration)** now linked to $c$: the 0.1 emulator proportionality coefficient is *understood* as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ in the 2D CFT Liouville/Polyakov trace anomaly. The 0.1 is what a $c=1$ CFT (free boson) gives, with no running coupling and no gravitational dressing.
-5. **NEW Limitation 30 (Topological eigenvalue)**: the 5/27 ratio is now formally anchored as $V_5 / A_4 R_{\text{AdS}_5}$ but the *derivation* of the specific counting (why 5/27 and not 3/11 or 7/20) requires a 2D CFT expert to compute the zero-mode structure of the bulk-brane Dirac operator.
+3. **Limitation 26 (Full Lagrangian)** updated to reflect v2.4 BC: free parameters reduced to 2-3 (G₅, α, tau_₂D); all other parameters either derived or bounded.
+4. **Limitation 29 (Phase-transition calibration)** now linked to c: the 0.1 emulator proportionality coefficient is *understood* as a phenomenological stand-in for the unconstrained bounds of the central charge c in the 2D CFT Liouville/Polyakov trace anomaly. The 0.1 is what a c=1 CFT (free boson) gives, with no running coupling and no gravitational dressing.
+5. **NEW Limitation 30 (Topological eigenvalue)**: the 5/27 ratio is now formally anchored as V₅ / A₄ R_{AdS₅} but the *derivation* of the specific counting (why 5/27 and not 3/11 or 7/20) requires a 2D CFT expert to compute the zero-mode structure of the bulk-brane Dirac operator.
 
 **Honest framing:** The cascade is a *geometric framework* with 3 strong empirical wins (Limitation 27 confirmed, Limitation 28 partially closed, 5/27/68 match to 0.5%) and 15 open limitations (down from 17 in v2.3.2). The cascade is honest about which is which.
 
@@ -8691,7 +8691,7 @@ The cascade's STRENGTHS:
 - LOCAL physics: g_+, RAR, AGN, dwarf galaxies (Limitation 27 confirmed)
 - 5/27/68 observational match (Limitation 17: now anchored as eigenvalue)
 - Falsifiability: 14 Hubble mechanisms tested, 2 mechanisms falsified
-- v2.4 tensor pipeline: $J^A_{\text{bulk}} = 0$ BC + 5/27 anchored + 2-3 free params
+- v2.4 tensor pipeline: J^A_{bulk} = 0 BC + 5/27 anchored + 2-3 free params
 
 The cascade's WEAKNESSES:
 - CMB-era physics: H_0(z) at z>1000 not derivable (Limitation 18)
@@ -8759,21 +8759,21 @@ The cascade's HONEST position (Mechanism M):
 
 11. **The cascade's UPWARD direction is OPEN; the DOWNWARD direction is also open in principle (with cone-shape as a viable early-termination alternative).** The model assumes the 4D event is an *ongoing* energetic process with some total energy budget E_4D (per §2.2). The model does *not* specify where this energy comes from. It is possible (and the model does not exclude) that the 4D event is itself a *projection* from a 5D (or 6D, 7D, ..., ND) process, in which case the cascade continues *upward indefinitely*. **There is no reason to think 4D is the top.** For the *downward* direction, two architectural choices are consistent with all data:
 
-(a) **Scale-invariance / infinite cascade (the principled default).** Every energetic event creates a child universe, regardless of scale. The cascade is open in *both* directions. Lower-D universes (1D, 0D, etc.) are interpreted either as literal-but-rare (regulated by $\rho_{\text{crit}}$ at each level) or as 2D-like with one spatial direction hugely compressed (braneworld picture).
+(a) **Scale-invariance / infinite cascade (the principled default).** Every energetic event creates a child universe, regardless of scale. The cascade is open in *both* directions. Lower-D universes (1D, 0D, etc.) are interpreted either as literal-but-rare (regulated by rho_{crit} at each level) or as 2D-like with one spatial direction hugely compressed (braneworld picture).
 
 (b) **Cone-shape / early termination (v2.1 simplification).** The cascade terminates at 2D because literal lower-D universes are not physically meaningful. This was the v2.1 refinement.
 
-The data does not currently distinguish (a) from (b): both give the same 7/7 specific-case predictions (Sun, SPARC, Tian+, DF2/DF4, FCC 224, AGC 114905, KKR 25). The choice is a matter of *architectural taste*, not empirical evidence. This paper **defaults to (a) scale-invariance** as the more principled position (preserves the model's core axiom) but **acknowledges (b) cone-shape** as a viable simplification. *The cascade's upward direction is open in BOTH interpretations*. **Implication for the 5/27/68 formula:** the formula's $N_{\text{cascade}} = 4$ assumed a *closed* cascade with 4 levels (4D, 3+1D, 2D, 1D). With the cascade being open in both directions (interpretation a) or open-up/closed-down (interpretation b), the formula's "self+neighbor edges in a graph" interpretation has *no natural formulation* in either case — there's no closed graph with 4 levels. The 5/27/68 cannot be derived from the cascade's structure alone.
+The data does not currently distinguish (a) from (b): both give the same 7/7 specific-case predictions (Sun, SPARC, Tian+, DF2/DF4, FCC 224, AGC 114905, KKR 25). The choice is a matter of *architectural taste*, not empirical evidence. This paper **defaults to (a) scale-invariance** as the more principled position (preserves the model's core axiom) but **acknowledges (b) cone-shape** as a viable simplification. *The cascade's upward direction is open in BOTH interpretations*. **Implication for the 5/27/68 formula:** the formula's N_{cascade} = 4 assumed a *closed* cascade with 4 levels (4D, 3+1D, 2D, 1D). With the cascade being open in both directions (interpretation a) or open-up/closed-down (interpretation b), the formula's "self+neighbor edges in a graph" interpretation has *no natural formulation* in either case — there's no closed graph with 4 levels. The 5/27/68 cannot be derived from the cascade's structure alone.
 
-11.5. **The cascade's downward direction is an architectural choice, not a derivation.** The choice between (a) scale-invariance / infinite cascade and (b) cone-shape / early termination at 2D is a matter of *architectural taste* and *interpretive framing*, not of empirical evidence. The data does not currently distinguish (a) from (b). The argument *for* (a) is the model's core axiom (scale-invariance: every energetic event creates a universe, regardless of scale). The argument *for* (b) is parsimony and the conceptual difficulty of literal 1D/0D spacetimes. **Both positions are defensible.** This paper *defaults to (a)* because it honors the core axiom, but *acknowledges (b)* as a viable simplification. The choice is a free parameter of the model — not in the sense of an arbitrary number, but in the sense of a *binary structural choice*. A specific implementation of the cascade would need to either (a) commit to infinite downward cascade (and address the literal-1D issue via compressed-2D interpretation or $\rho_{\text{crit}}$ regulation) or (b) commit to cone-shape termination (and explain why 2D is special in a way that doesn't violate scale-invariance). The cascade as currently framed is *agnostic* between these two options, with a default of (a) but explicit acknowledgment of (b). A future empirical test that distinguishes (a) from (b) would be: a measurable 1D-like universe signature in any 2D-universe back-projected gravity (which would support (a)) vs. an *exact* 2D-terminality in the cumulative back-projected gravity (which would support (b)). The current data is consistent with both.
+11.5. **The cascade's downward direction is an architectural choice, not a derivation.** The choice between (a) scale-invariance / infinite cascade and (b) cone-shape / early termination at 2D is a matter of *architectural taste* and *interpretive framing*, not of empirical evidence. The data does not currently distinguish (a) from (b). The argument *for* (a) is the model's core axiom (scale-invariance: every energetic event creates a universe, regardless of scale). The argument *for* (b) is parsimony and the conceptual difficulty of literal 1D/0D spacetimes. **Both positions are defensible.** This paper *defaults to (a)* because it honors the core axiom, but *acknowledges (b)* as a viable simplification. The choice is a free parameter of the model — not in the sense of an arbitrary number, but in the sense of a *binary structural choice*. A specific implementation of the cascade would need to either (a) commit to infinite downward cascade (and address the literal-1D issue via compressed-2D interpretation or rho_{crit} regulation) or (b) commit to cone-shape termination (and explain why 2D is special in a way that doesn't violate scale-invariance). The cascade as currently framed is *agnostic* between these two options, with a default of (a) but explicit acknowledgment of (b). A future empirical test that distinguishes (a) from (b) would be: a measurable 1D-like universe signature in any 2D-universe back-projected gravity (which would support (a)) vs. an *exact* 2D-terminality in the cumulative back-projected gravity (which would support (b)). The current data is consistent with both.
 
 12. **The cascade is *almost exact* at every level — a new form of fine-tuning.** The downward perceptual inversion principle (downward projection is perceived as inverted, upward back-projection is not, and the downward perceptual inversion almost-cancels with the native gravity) requires the cancellation to be *almost exact* at every level (per §2.4 and §2.6). This is *fine-tuning* in a new form: not fine-tuning of a single parameter, but fine-tuning of the *structure* of the dimensional cascade such that the cancellation is almost (but not quite) exact at every level. The model does not currently derive *why* the cascade should be almost-cancelling rather than completely cancelling (which would give no observable effects at all) or weakly cancelling (which would give effects much larger than observed). A specific implementation would need to derive the near-exact cancellation from a more fundamental principle, which is left to future work.
 
 13. **The four-force unification is conceptual, not quantitative.** §4.13–§4.15 attempt to unify gravity, electromagnetism, the weak force, and the strong force within the dimensional-cascade framework. The connections are *conceptual* — all four forces' properties are reframed as consequences of the 4D event. The connections are *not quantitative* — the model does not derive the specific values of the coupling constants, the mass ratios of force carriers, the color charge structure, or the asymptotic freedom of the strong force. The "unification" is at the level of *interpretation* (all four forces are projections of the same 4D event) rather than at the level of *prediction* (the model does not compute force strengths from first principles). A specific implementation of the model would need to derive these quantitative features from the geometry, which is left to future work.
 
-14. **[RESOLVED in v2.1] The mathematical sketch of the cascade had a sign ambiguity.** The "Mathematical sketch" in §2.4 (in v2.0) presented the cascade as $G_{D-1}^{total} = G_{D-1}^{native} - k \cdot G_D$, with the ordinary gravity as the *small positive residue* and the dark energy as a "small un-cancelled antigravity." In a *strict* algebraic interpretation, these two quantities would have *opposite* signs (one is $G_{native} - G_{proj}$, the other is $-(G_{proj} - G_{native})$), which would imply they *cancel*. **This ambiguity is resolved in v2.1 by the clean mathematical formulation in §2.4**: the *ordinary attractive gravity* and the *dark energy* are now treated as **two physically distinct small contributions** to the $D-1$ dimensional effective theory. The ordinary gravity is a *force on matter* (entering the Einstein equation's stress-energy coupling) and is *small* because $\epsilon = 1 - k G_D / G_{D-1}^{native} \ll 1$. The dark energy is a *vacuum energy* (entering the cosmological-constant term $\Lambda g_{\mu\nu}$) and is *small* because $f_{back} \ll 1$. The two contributions are *different terms in the effective action* and are *not* required to have any algebraic sign relationship; both are small because of the *near-cancellation* of the projected contribution, but with different physical roles. The v2.1 formulation is *consistent*: the sign ambiguity is no longer present.
+14. **[RESOLVED in v2.1] The mathematical sketch of the cascade had a sign ambiguity.** The "Mathematical sketch" in §2.4 (in v2.0) presented the cascade as G_D-₁^total = G_D-₁^native - k · G_D, with the ordinary gravity as the *small positive residue* and the dark energy as a "small un-cancelled antigravity." In a *strict* algebraic interpretation, these two quantities would have *opposite* signs (one is G_native - G_proj, the other is -(G_proj - G_native)), which would imply they *cancel*. **This ambiguity is resolved in v2.1 by the clean mathematical formulation in §2.4**: the *ordinary attractive gravity* and the *dark energy* are now treated as **two physically distinct small contributions** to the D-1 dimensional effective theory. The ordinary gravity is a *force on matter* (entering the Einstein equation's stress-energy coupling) and is *small* because ε = 1 - k G_D / G_D-₁^native ll 1. The dark energy is a *vacuum energy* (entering the cosmological-constant term Λ g_μν) and is *small* because f_back ll 1. The two contributions are *different terms in the effective action* and are *not* required to have any algebraic sign relationship; both are small because of the *near-cancellation* of the projected contribution, but with different physical roles. The v2.1 formulation is *consistent*: the sign ambiguity is no longer present.
 
-15. **The dimensional analysis requires a *staying fraction* postulate to bridge the 10¹²⁰ gap.** The §2.6 "Dimensional analysis of the cascade" presents a *qualitative* sketch where the cascade suppression $\epsilon \sim 10^{-38}$ at the 3+1D level explains the 10³⁸ hierarchy. The cascade's *raw* prediction for the dark energy is $\sim 10^{-38} \cdot M_{Pl}^4 \sim 10^{38}$ GeV⁴, which is $10^{85}$ *larger* than the observed $\sim 10^{-47}$ GeV⁴. To bridge this gap, the §2.6 introduces a *staying fraction* $f_{back} \sim 10^{-85}$ (the fraction of cascade-produced antigravity that remains in 3+1D as observable dark energy), giving the math $10^{-38} \times 10^{-85} = 10^{-123}$ in natural units, equivalent to $\sim 10^{-47}$ GeV⁴. The *staying fraction* is a *postulate* of the model, and is not derived from the cascade geometry. The model *qualitatively* claims that the dark energy is small because of the dimensional-cascade cancellation, but the *quantitative* value (the $10^{-85}$ staying fraction) is a postulate, not a derivation. A complete implementation of the model would need to derive the staying fraction from first principles, which would in turn give a *predictive* derivation of the absolute dark energy density. The $10^{85}$ discrepancy between the cascade's raw prediction and the observed dark energy remains *unbridged* in the current model (the staying fraction is exactly the post-hoc factor that makes the math work, but it is not derived from the cascade geometry).
+15. **The dimensional analysis requires a *staying fraction* postulate to bridge the 10¹²⁰ gap.** The §2.6 "Dimensional analysis of the cascade" presents a *qualitative* sketch where the cascade suppression ε ~ 10^⁻³⁸ at the 3+1D level explains the 10³⁸ hierarchy. The cascade's *raw* prediction for the dark energy is ~ 10^⁻³⁸ · M_Pl⁴ ~ 10^³⁸ GeV⁴, which is 10^⁸⁵ *larger* than the observed ~ 10^⁻⁴⁷ GeV⁴. To bridge this gap, the §2.6 introduces a *staying fraction* f_back ~ 10^⁻⁸⁵ (the fraction of cascade-produced antigravity that remains in 3+1D as observable dark energy), giving the math 10^⁻³⁸ × 10^⁻⁸⁵ = 10^⁻¹²³ in natural units, equivalent to ~ 10^⁻⁴⁷ GeV⁴. The *staying fraction* is a *postulate* of the model, and is not derived from the cascade geometry. The model *qualitatively* claims that the dark energy is small because of the dimensional-cascade cancellation, but the *quantitative* value (the 10^⁻⁸⁵ staying fraction) is a postulate, not a derivation. A complete implementation of the model would need to derive the staying fraction from first principles, which would in turn give a *predictive* derivation of the absolute dark energy density. The 10^⁸⁵ discrepancy between the cascade's raw prediction and the observed dark energy remains *unbridged* in the current model (the staying fraction is exactly the post-hoc factor that makes the math work, but it is not derived from the cascade geometry).
 
 16. **NEW: The 4D event's specific temporal structure (Mechanism B/F) is not derived.** The 8% "burst" amplitude is empirical, not predicted. The cascade does not currently explain *why* the 4D event's antigravity output would have this specific time-dependence. *Status: FALSIFIED* by Pantheon+ at 7σ (commit 82) — the cascade's specific quantitative H_0(z) ~ 1/(1+z)^(2/3) prediction is rejected. The cascade's *qualitative* H_0 = 73 prediction is consistent with data, but Mechanism B/F's specific form is not.
 
@@ -8788,9 +8788,9 @@ The data does not currently distinguish (a) from (b): both give the same 7/7 spe
 - The synthetic tests (commits 128, 138-148) were self-deceptive: I was generating synthetic galaxies with a specific RAR functional form, then fitting with my model — of course it worked
 - Real SPARC data follows a different shape than the cascade's g_cum + g_active model can match
 
-**BUT** the cascade's *framework* is MOND-compatible: MOND's interpolation function $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ fits the real data to 10% median residual on 149 SPARC galaxies (commit 153, `calculations/sparc_joint_fit.py`). The empirical $g_+ \sim 1.0{-}1.2 \times 10^{-10}$ m/s² is universal across the population (0.42 dex scatter, consistent with M/L noise). The cascade's 4D event physics could explain *why* $g_+$ is universal (from cumulative 2D universe gravity), even though the cascade's *specific g_obs formula* is wrong.
+**BUT** the cascade's *framework* is MOND-compatible: MOND's interpolation function g_obs = g_bar / (1 - exp(-sqrt{g_bar/g_+})) fits the real data to 10% median residual on 149 SPARC galaxies (commit 153, `calculations/sparc_joint_fit.py`). The empirical g_+ ~ 1.0{-}1.2 × 10^⁻¹⁰ m/s² is universal across the population (0.42 dex scatter, consistent with M/L noise). The cascade's 4D event physics could explain *why* g_+ is universal (from cumulative 2D universe gravity), even though the cascade's *specific g_obs formula* is wrong.
 
-**The cascade-MOND hybrid (see §4.1 new subsection):** cascade's framework + MOND's functional form. The cascade provides the geometric origin of $g_+$ (why it's universal at galaxy scales); MOND provides the g_obs(g_bar) interpolation (how g_obs depends on g_bar). This is a *completion* of the cascade's RAR story, not a falsification of the cascade's framework.
+**The cascade-MOND hybrid (see §4.1 new subsection):** cascade's framework + MOND's functional form. The cascade provides the geometric origin of g_+ (why it's universal at galaxy scales); MOND provides the g_obs(g_bar) interpolation (how g_obs depends on g_bar). This is a *completion* of the cascade's RAR story, not a falsification of the cascade's framework.
 
 20. **[CLOSED in v2.3.1, §4.35] f_active is now derivable from 4D event dynamics.** Per the user's request and the Tier 1 #2 priority, the 4× gap between f_active ~ 0.05 (MCMC) and f_active ~ 0.18 (5/27 ratio) is RESOLVED in §4.35 by a first-principles derivation:
 
@@ -8804,18 +8804,18 @@ The data does not currently distinguish (a) from (b): both give the same 7/7 spe
 
     Caveat: the τ_2D ~ 0.7 Gyr identification is by PHYSICAL ANALOGY, not first-principles. A full Lagrangian would derive τ_2D from L_2D (Limitation 26).
 
-*Pantheon+ verification of Mechanism M with the new §2.6 framing (commit 124, v2.2.1).* I re-ran the Pantheon+ test specifically for Mechanism M (the cascade's final position on the Hubble tension: $H_0 = 73$ km/s/Mpc, accept the 5.6 km/s/Mpc gap to Planck), in `calculations/pantheon_mechanism_m_v221_final.py`. Results:
+*Pantheon+ verification of Mechanism M with the new §2.6 framing (commit 124, v2.2.1).* I re-ran the Pantheon+ test specifically for Mechanism M (the cascade's final position on the Hubble tension: H₀ = 73 km/s/Mpc, accept the 5.6 km/s/Mpc gap to Planck), in `calculations/pantheon_mechanism_m_v221_final.py`. Results:
 
-- **Pantheon+ best-fit (with $M$ marginalized):** $H_0 = 70.71$ (1-sigma range: 60.00-80.00 — flat chi² surface)
-- **Cascade (Mechanism M):** $H_0 = 73$ (within 1-sigma of Pantheon+ best-fit)
-- **Local (SH0ES):** $H_0 = 73.04$ (matches cascade)
-- **CMB (Planck LCDM):** $H_0 = 67.4$ (also within 1-sigma of Pantheon+ best-fit, but in tension with local)
+- **Pantheon+ best-fit (with M marginalized):** H₀ = 70.71 (1-sigma range: 60.00-80.00 — flat chi² surface)
+- **Cascade (Mechanism M):** H₀ = 73 (within 1-sigma of Pantheon+ best-fit)
+- **Local (SH0ES):** H₀ = 73.04 (matches cascade)
+- **CMB (Planck LCDM):** H₀ = 67.4 (also within 1-sigma of Pantheon+ best-fit, but in tension with local)
 
-**Honest interpretation:** Pantheon+ with diagonal errors has a *flat* chi² surface in $H_0$ — the diagonal errors are not tight enough to distinguish $H_0 = 67.4$ from $H_0 = 73$. The full covariance matrix (commit 82, 7σ rejection of Mechanism B/F) was the rigorous test, and Mechanism M is the cascade's final position after B/F was rejected.
+**Honest interpretation:** Pantheon+ with diagonal errors has a *flat* chi² surface in H₀ — the diagonal errors are not tight enough to distinguish H₀ = 67.4 from H₀ = 73. The full covariance matrix (commit 82, 7σ rejection of Mechanism B/F) was the rigorous test, and Mechanism M is the cascade's final position after B/F was rejected.
 
-**Effect of the 5/27 inner split on $H_0$:** None. In the new framing, $H_0$ comes from the 4D event's antigravity output (the 68% DE fraction), and the 5/27 inner split is about the 3+1D energetic content (the 32% projected fraction). These are *different* parts of the cascade's energy budget. $H_0$ is *independent* of the 5/27 inner split. This was verified explicitly: changing 5/27 does not change the $H_0 = 73$ prediction.
+**Effect of the 5/27 inner split on H₀:** None. In the new framing, H₀ comes from the 4D event's antigravity output (the 68% DE fraction), and the 5/27 inner split is about the 3+1D energetic content (the 32% projected fraction). These are *different* parts of the cascade's energy budget. H₀ is *independent* of the 5/27 inner split. This was verified explicitly: changing 5/27 does not change the H₀ = 73 prediction.
 
-**Conclusion:** The new §2.6 framing (5/27/68 is observational 3+1D data) is fully consistent with all the Hubble tension tests. Mechanism M ($H_0 = 73$, accept the tension) is the cascade's final position, supported by Pantheon+ and local measurements. The Planck $H_0 = 67.4$ is the outlier (5.6 km/s/Mpc tension), accepted but not resolved by the cascade.
+**Conclusion:** The new §2.6 framing (5/27/68 is observational 3+1D data) is fully consistent with all the Hubble tension tests. Mechanism M (H₀ = 73, accept the tension) is the cascade's final position, supported by Pantheon+ and local measurements. The Planck H₀ = 67.4 is the outlier (5.6 km/s/Mpc tension), accepted but not resolved by the cascade.
 
 21. **NEW: f_active ~ 0.05 is preferred by MCMC at >2σ over f_active ~ 0.18 (Option B+8).** A proper Bayesian MCMC fit (commit 127, `calculations/rar_mcmc.py`) gives f_active = 0.0513 +0.0070/-0.0073 (1σ), with f_active = 0.18 (cosmic SFR interpretation) OUTSIDE the 2σ range. The MCMC data STRONGLY PREFERS the gas-consumption interpretation (t_current ~ 0.7 Gyr) over the cosmic-SFR interpretation (t_current ~ 2.5 Gyr). This RESOLVES the 4× tension from commit 121: the gas consumption timescale wins by >2σ. The 5% appearing in three places (baryon fraction, 5/27 ratio, f_active) is therefore likely a coincidence in the 5%/27% value, but f_active is well-constrained to be ~5%, not ~18%.
 
@@ -8849,42 +8849,42 @@ The data does not currently distinguish (a) from (b): both give the same 7/7 spe
 
 A full Lagrangian consistent with all 10 constraints would be a SPECIFIC IMPLEMENTATION of the cascade. The Lagrangian is not derivable from the cascade's framework alone — the cascade specifies the CONSTRAINT SET, not the SOLUTION. Potential approaches (not pursued here): AdS/CFT-style brane-world, Kaluza-Klein tower, holographic entanglement, or string theory compactification. The central open question is whether such a Lagrangian exists.
 
-27. **NEW: The cascade's g_obs functional form is MOND-compatible but not the cascade's own prediction (v2.2.1).** Real SPARC data (commit 153) shows that the cascade's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ decomposition is **falsified** (70% median residual on 149 galaxies), while MOND's interpolation $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ fits to 10% median residual (with free $g_+$ and M/L). The cascade's *framework* can explain *why* $g_+$ is universal at galaxy scales (from cumulative 2D universe gravity), but the cascade does *not* derive MOND's specific interpolation function. The honest position: the cascade's RAR is *MOND-compatible*, not independent. A specific implementation would need to derive the MOND interpolation from the cascade's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than the cascade's pure cumulative-2D-universe-gravity picture.
+27. **NEW: The cascade's g_obs functional form is MOND-compatible but not the cascade's own prediction (v2.2.1).** Real SPARC data (commit 153) shows that the cascade's g_obs = g_bar + g_cum + g_active decomposition is **falsified** (70% median residual on 149 galaxies), while MOND's interpolation g_obs = g_bar / (1 - exp(-sqrt{g_bar/g_+})) fits to 10% median residual (with free g_+ and M/L). The cascade's *framework* can explain *why* g_+ is universal at galaxy scales (from cumulative 2D universe gravity), but the cascade does *not* derive MOND's specific interpolation function. The honest position: the cascade's RAR is *MOND-compatible*, not independent. A specific implementation would need to derive the MOND interpolation from the cascade's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than the cascade's pure cumulative-2D-universe-gravity picture.
 
-28. **NEW: Galaxy-vs-Cluster Scale Acceleration Divergence (PARTIALLY CLOSED, v2.3.0, commit 167).** The cascade-MOND hybrid successfully accounts for the *empirical milestone* that $g_+$ is universal at $g_+ \approx 1.2 \times 10^{-10}$ m/s² in *isolated* galaxy disks (SPARC) but $g_+ \approx 1.3 \times 10^{-9}$ m/s² in *BCG-dominated cluster cores* (Tian+ 2024 BCGs: $g_+ \approx 1.7 \times 10^{-9}$ m/s²). The cascade's explanation, derived from the new $V_{\text{local}}$ normalization in §4.17, follows from the geometry of a BCG sitting at the absolute focal point of a cluster's deep potential well: the BCG experiences the cumulative back-projection of not just its own stellar history but the *entire cluster's* shock-heated ICM sediment constantly falling inward. The cluster environment shifts the underlying thermodynamic processing scale upward, which naturally drives the back-projected metric acceleration scale up.
+28. **NEW: Galaxy-vs-Cluster Scale Acceleration Divergence (PARTIALLY CLOSED, v2.3.0, commit 167).** The cascade-MOND hybrid successfully accounts for the *empirical milestone* that g_+ is universal at g_+ ≈ 1.2 × 10^⁻¹⁰ m/s² in *isolated* galaxy disks (SPARC) but g_+ ≈ 1.3 × 10^⁻⁹ m/s² in *BCG-dominated cluster cores* (Tian+ 2024 BCGs: g_+ ≈ 1.7 × 10^⁻⁹ m/s²). The cascade's explanation, derived from the new V_{local} normalization in §4.17, follows from the geometry of a BCG sitting at the absolute focal point of a cluster's deep potential well: the BCG experiences the cumulative back-projection of not just its own stellar history but the *entire cluster's* shock-heated ICM sediment constantly falling inward. The cluster environment shifts the underlying thermodynamic processing scale upward, which naturally drives the back-projected metric acceleration scale up.
 
-*First-principles formula* (per Gemini's correction, replacing the old $g_+ \propto M_{DM}/R_{halo}^2$ which predicted the wrong direction):
+*First-principles formula* (per Gemini's correction, replacing the old g_+ propto M_DM/R_halo² which predicted the wrong direction):
 
-$$g_+ \propto \int_{t_{form}}^{t_0} \frac{\mathscr{R}_{\text{energetic}}(t)}{V_{\text{local}}} \, dt$$
+g_+ propto int_{t_form}^t_⁰ frac{mathscr{R}_{energetic}(t)}{V_{local}} dt
 
-Where $\mathscr{R}_{\text{energetic}}$ is the total energetic power at the location (SFR + SN for a galaxy; $P_{\text{ICM}}$ + mergers + AGN feedback for a cluster BCG) and $V_{\text{local}}$ is the *local* volume of the observer's sphere of influence (NOT the cluster volume for a BCG, but the BCG's own ~10 kpc). This is the **specific energetic power density** integrated over cosmic time.
+Where mathscr{R}_{energetic} is the total energetic power at the location (SFR + SN for a galaxy; P_{ICM} + mergers + AGN feedback for a cluster BCG) and V_{local} is the *local* volume of the observer's sphere of influence (NOT the cluster volume for a BCG, but the BCG's own ~10 kpc). This is the **specific energetic power density** integrated over cosmic time.
 
 *Numerical check:*
 
-- **Galaxy:** $\mathscr{R}_{\text{energetic}} \sim 10^{37}$ W (SFR), $V_{\text{local}} \sim (30 \, \text{kpc})^3 \sim 10^{63}$ m³, $\mathscr{R}/V \sim 10^{-26}$ W/m³
-- **BCG (cluster):** $\mathscr{R}_{\text{energetic}} \sim 10^{37}$ W ($P_{\text{ICM}}$), $V_{\text{local}} \sim (10 \, \text{kpc})^3 \sim 10^{61}$ m³, $\mathscr{R}/V \sim 10^{-24}$ W/m³
-- **Predicted ratio:** 100× (cluster/galaxy $\mathscr{R}/V$)
+- **Galaxy:** mathscr{R}_{energetic} ~ 10^³⁷ W (SFR), V_{local} ~ (30 kpc)³ ~ 10^⁶³ m³, mathscr{R}/V ~ 10^⁻²⁶ W/m³
+- **BCG (cluster):** mathscr{R}_{energetic} ~ 10^³⁷ W (P_{ICM}), V_{local} ~ (10 kpc)³ ~ 10^⁶¹ m³, mathscr{R}/V ~ 10^⁻²⁴ W/m³
+- **Predicted ratio:** 100× (cluster/galaxy mathscr{R}/V)
 - **Empirical ratio (Tian+ 2024):** 14×
 
-Order-of-magnitude agreement: 100× predicted vs 14× observed (within a factor of 7). The cascade's $V_{\text{local}}$ normalization *naturally produces the cluster enhancement* that the old $M_{DM}/R_{halo}^2$ formula got backwards.
+Order-of-magnitude agreement: 100× predicted vs 14× observed (within a factor of 7). The cascade's V_{local} normalization *naturally produces the cluster enhancement* that the old M_DM/R_halo² formula got backwards.
 
 *Status: PARTIALLY CLOSED* — the formula structure correctly predicts the direction and order of magnitude.
 
-**Refined scaling (v2.3.0, commit 168):** The empirical relationship $a_0 \propto M^{0.57}$ from Tian+ 2024 (14× enhancement from $M = 10^{12}$ to $M = 10^{14}$) is exactly the *MOND external field effect* scaling: $a_0(M) = a_0(M_\text{galaxy}) \times \sqrt{M_\text{cluster}/M_\text{galaxy}} = 1.2 \times 10^{-10} \times \sqrt{100} = 1.2 \times 10^{-9}$ m/s², matching Tian+ 2024's $1.7 \times 10^{-9}$ to within 30%.
+**Refined scaling (v2.3.0, commit 168):** The empirical relationship a₀ propto M^⁰.⁵⁷ from Tian+ 2024 (14× enhancement from M = 10^¹² to M = 10^¹⁴) is exactly the *MOND external field effect* scaling: a₀(M) = a₀(M_galaxy) × sqrt{M_cluster/M_galaxy} = 1.2 × 10^⁻¹⁰ × sqrt{100} = 1.2 × 10^⁻⁹ m/s², matching Tian+ 2024's 1.7 × 10^⁻⁹ to within 30%.
 
-The cascade's $V_{\text{local}}$ formula and MOND's external field effect are the **same physics viewed from different frameworks**: the cascade says the BCG sees cluster-wide energetic events through its own local sphere of influence; MOND says the BCG sees the cluster's tidal field. The 30% residual is the *specific calculation* that requires the 2D brane's detailed dynamics (Limitation 26).
+The cascade's V_{local} formula and MOND's external field effect are the **same physics viewed from different frameworks**: the cascade says the BCG sees cluster-wide energetic events through its own local sphere of influence; MOND says the BCG sees the cluster's tidal field. The 30% residual is the *specific calculation* that requires the 2D brane's detailed dynamics (Limitation 26).
 
-**Limitation 28 can be UPGRADED to PARTIALLY CLOSED with quantitative agreement**: the cluster $g_+$ enhancement is now a *derivable consequence* of the cascade's $V_{\text{local}}$ geometry (consistent with MOND's external field effect), with the exact coefficient (1.2 vs 1.7 × 10⁻⁹) being a *specific calculation* rather than a fundamental limitation. The cascade-MOND hybrid now provides a *coherent picture* of $g_+$ across 1.5 orders of magnitude in halo mass.
+**Limitation 28 can be UPGRADED to PARTIALLY CLOSED with quantitative agreement**: the cluster g_+ enhancement is now a *derivable consequence* of the cascade's V_{local} geometry (consistent with MOND's external field effect), with the exact coefficient (1.2 vs 1.7 × 10⁻⁹) being a *specific calculation* rather than a fundamental limitation. The cascade-MOND hybrid now provides a *coherent picture* of g_+ across 1.5 orders of magnitude in halo mass.
 
-**Direct test of V_local predictions on Tian+ 2024 data (v2.3.0, commit 170).** Per the cascade's 4 testable predictions, I performed a direct correlation analysis on the Tian+ 2024 BCGs (50 BCGs, computed per-galaxy $g_+$ from the deep MOND limit $g_+ \approx g_{\text{obs}}^2 / g_{\text{bar}}$). Key results:
+**Direct test of V_local predictions on Tian+ 2024 data (v2.3.0, commit 170).** Per the cascade's 4 testable predictions, I performed a direct correlation analysis on the Tian+ 2024 BCGs (50 BCGs, computed per-galaxy g_+ from the deep MOND limit g_+ ≈ g_{obs}² / g_{bar}). Key results:
 
-- **$g_+ \propto M_b$ (MOND-like):** observed slope = 0.23, expected ~0.5-0.6. **NO** — $g_+$ depends on DYNAMICAL mass, not baryonic
-- **$g_+ \propto \sigma$ (MOND EFE):** observed slope = 1.85, expected ~2. **YES (almost exact!)**
-- **$g_+$ vs $z$ (no cosmic evolution):** r = 0.089, expected ~0. **YES**
-- **$g_+$ vs $R_{\text{eff}}$ (BCG size):** slope = 0.23, expected weakly negative. NO (mild positive)
+- **g_+ propto M_b (MOND-like):** observed slope = 0.23, expected ~0.5-0.6. **NO** — g_+ depends on DYNAMICAL mass, not baryonic
+- **g_+ propto σ (MOND EFE):** observed slope = 1.85, expected ~2. **YES (almost exact!)**
+- **g_+ vs z (no cosmic evolution):** r = 0.089, expected ~0. **YES**
+- **g_+ vs R_{eff} (BCG size):** slope = 0.23, expected weakly negative. NO (mild positive)
 - **Core vs non-core BCGs:** ratio = 1.10, expected >1. weak (no strong morphology effect)
 
-**The KEY finding:** $g_+ \propto \sigma^{1.85}$ approximately matches the MOND external field effect $g_+ \propto \sigma^2 / R$ (exponent 1.85 vs 2.0, 7.5% off). This is consistent with the cluster's $g_+$ being set by the dynamical mass (velocity dispersion, which traces the cluster's total mass), not the baryonic mass alone. This is consistent with the cascade's V_local picture: the BCG sees the cumulative 2D universe back-projection from the entire cluster, with the cluster's dynamical mass setting the relevant scale.
+**The KEY finding:** g_+ propto σ^¹.⁸⁵ approximately matches the MOND external field effect g_+ propto σ² / R (exponent 1.85 vs 2.0, 7.5% off). This is consistent with the cluster's g_+ being set by the dynamical mass (velocity dispersion, which traces the cluster's total mass), not the baryonic mass alone. This is consistent with the cascade's V_local picture: the BCG sees the cumulative 2D universe back-projection from the entire cluster, with the cluster's dynamical mass setting the relevant scale.
 
 **The M_b slope discrepancy (0.23 vs 0.5-0.6) is meaningful:** the cascade's V_local formula P_energetic / V_local is NOT simply proportional to M_b. P_energetic depends on the cluster's ICM activity (AGN feedback, cooling flows), which is NOT a simple function of M_b. This is a *specific calculation* that requires modeling the cluster's energy budget — left for future work (Limitation 26).
 
@@ -8902,23 +8902,23 @@ This subsection is a *direct invitation* to mathematical physicists working in b
 
 To fully mature this framework, the scale-invariant dimensional cascade requires an explicit mapping to a modified stress-energy tensor:
 
-$$T_{\mu\nu}^{\text{total}} = T_{\mu\nu}^{\text{standard}} + T_{\mu\nu}^{\text{cascade}}$$
+T_μν^{total} = T_μν^{standard} + T_μν^{cascade}
 
-The open theoretical challenge is to define a **scalar field** $\phi$ or an **auxiliary metric tensor** on a bounded 2D sub-manifold such that local energy-momentum conservation ($\nabla_\mu T^{\mu\nu} = 0$) is preserved on the 3+1D brane via a time-dilated boundary junction during the lifetime $\tau_{2D} = L_{\text{event}}/c$.
+The open theoretical challenge is to define a **scalar field** φ or an **auxiliary metric tensor** on a bounded 2D sub-manifold such that local energy-momentum conservation (nabla_μ T^μν = 0) is preserved on the 3+1D brane via a time-dilated boundary junction during the lifetime tau_₂D = L_{event}/c.
 
 ### Specific sub-problems ready for formalization
 
 The cascade's action in §2.5.1 (with its CTP extension in §2.5.2) provides the **boundary conditions** for a formal derivation. The missing pieces, in order of tractability:
 
-1. **Specify $\mathcal{L}_{2D}$ (the 2D brane Lagrangian).** The cascade says "every energetic event creates a 2D universe," but does not specify the 2D universe's matter content. Candidate choices: 2D CFT, 2D dilaton gravity, 2D string worldsheet. Each gives a different $\mathcal{L}_{2D}$, a different $\tau_{2D}$ dynamics, and a different $\alpha$ coupling calibration. A mathematical physicist can pick the most physically motivated choice and derive the consequences.
+1. **Specify mathcal{L}_₂D (the 2D brane Lagrangian).** The cascade says "every energetic event creates a 2D universe," but does not specify the 2D universe's matter content. Candidate choices: 2D CFT, 2D dilaton gravity, 2D string worldsheet. Each gives a different mathcal{L}_₂D, a different tau_₂D dynamics, and a different α coupling calibration. A mathematical physicist can pick the most physically motivated choice and derive the consequences.
 
-2. **Compute $\alpha$ from first principles.** The cascade's $\alpha$ coupling in $S_{\text{creation}}$ is currently calibrated to observations. A derivation would require the bulk-brane coupling geometry (the Israel junction conditions applied to the 2D/3+1D boundary). This is the *cleanest* sub-problem because it can be done in standard brane-world formalism.
+2. **Compute α from first principles.** The cascade's α coupling in S_{creation} is currently calibrated to observations. A derivation would require the bulk-brane coupling geometry (the Israel junction conditions applied to the 2D/3+1D boundary). This is the *cleanest* sub-problem because it can be done in standard brane-world formalism.
 
-3. **Derive the death mechanism.** The cascade postulates $\tau_{2D} = L_{\text{event}}/c$ but does not derive it. A brane-world expert can compute the lifetime of a 2D brane embedded in a 3+1D bulk, using the brane's tension and bulk viscosity. This is a *specific calculation* that requires the $\mathcal{L}_{2D}$ from item 1.
+3. **Derive the death mechanism.** The cascade postulates tau_₂D = L_{event}/c but does not derive it. A brane-world expert can compute the lifetime of a 2D brane embedded in a 3+1D bulk, using the brane's tension and bulk viscosity. This is a *specific calculation* that requires the mathcal{L}_₂D from item 1.
 
-4. **Derive the 5/27/68 split from the 4D event.** The cascade's honest position (§2.6, Limitation 17) is that 5/27/68 is *observational 3+1D data*, not a free postulate. But a 4D event with specific $\mathcal{L}_{4D}$ would *predict* a specific projection efficiency, which in turn gives a specific matter content. This is the *deepest* sub-problem and the one most likely to either validate or falsify the cascade.
+4. **Derive the 5/27/68 split from the 4D event.** The cascade's honest position (§2.6, Limitation 17) is that 5/27/68 is *observational 3+1D data*, not a free postulate. But a 4D event with specific mathcal{L}_₄D would *predict* a specific projection efficiency, which in turn gives a specific matter content. This is the *deepest* sub-problem and the one most likely to either validate or falsify the cascade.
 
-5. **Derive the cascade-MOND interpolation.** The cascade's g_obs functional form is *MOND-compatible* (10% residual on SPARC with free M/L), but the cascade does not derive MOND's specific interpolation function $g_{\text{obs}} = g_{\text{bar}} / (1 - \exp(-\sqrt{g_{\text{bar}}/g_+}))$. A theoretical physicist could derive this from the 2D universe's back-projected gravity at the observation point, which depends on the spatial distribution of 2D universe endings (a function of $\mathcal{L}_{2D}$).
+5. **Derive the cascade-MOND interpolation.** The cascade's g_obs functional form is *MOND-compatible* (10% residual on SPARC with free M/L), but the cascade does not derive MOND's specific interpolation function g_{obs} = g_{bar} / (1 - exp(-sqrt{g_{bar}/g_+})). A theoretical physicist could derive this from the 2D universe's back-projected gravity at the observation point, which depends on the spatial distribution of 2D universe endings (a function of mathcal{L}_₂D).
 
 ### Why this is open-source physics
 
@@ -8933,7 +8933,7 @@ The cascade is *unusually well-positioned* for theorists to contribute because:
 
 Mainstream theorists working in:
 - **Randall-Sundrum II brane-worlds**: the cascade's S = S_grav + S_matter + S_brane_2D + S_creation + S_destruction is structurally a RS-II action with a 2D brane (instead of 3-brane) and a creation operator. A RS-II expert would recognize the framework immediately.
-- **DGP brane-worlds**: the cascade's $\alpha$ coupling is analogous to DGP's brane-bulk coupling. The 2D universe's "self-gravity" in 2D is analogous to DGP's self-accelerating branch.
+- **DGP brane-worlds**: the cascade's α coupling is analogous to DGP's brane-bulk coupling. The 2D universe's "self-gravity" in 2D is analogous to DGP's self-accelerating branch.
 - **Analog gravity**: the cascade's 2D universe is conceptually similar to acoustic black holes or other analog systems. An analog gravity expert would see the structure.
 - **Schwinger-Keldysh / in-in QFT**: the §2.5.2 CTP formulation is a standard tool in non-equilibrium QFT. A CTP expert could derive the EOMs and the 2x2 propagator matrix for the cascade.
 
@@ -8941,7 +8941,7 @@ Mainstream theorists working in:
 
 The cascade is a *geometric framework* with *empirical constraints*. The action functional in §2.5.1 is a *skeleton* with the right structure. The free parameters (L_2D, α, death mechanism) are *calibration parameters*, not derivable from the cascade's geometric picture alone. A theoretical physicist who formalizes these would be doing *foundational work*, not just *parameter fitting*.
 
-This is the open-source ticket. The cascade's author is a software developer, not a theoretical physicist. The mathematical derivation of the EOMs, the propagation of the 2x2 CTP matrix, and the derivation of 5/27/68 from the 4D event's specific $\mathcal{L}_{4D}$ are *not* in scope for the current paper. They are *invited contributions* from the theoretical physics community.
+This is the open-source ticket. The cascade's author is a software developer, not a theoretical physicist. The mathematical derivation of the EOMs, the propagation of the 2x2 CTP matrix, and the derivation of 5/27/68 from the 4D event's specific mathcal{L}_₄D are *not* in scope for the current paper. They are *invited contributions* from the theoretical physics community.
 
 If you are a brane-world expert, a DGP specialist, an analog gravity theorist, or a CTP practitioner, and this subsection makes the cascade's missing piece *tractable* for you, please reach out. The framework is ready to be formalized.
 
@@ -9002,15 +9002,15 @@ The cascade's mechanism is *deterministic from SFH* (smooth E^(1+alpha) function
 
 A web research survey (June 2026) of Liouville CFT theory, Karch-Randall braneworld, ultra-light dark matter constraints, and 2024–2025 Radial Acceleration Relation data yields four *external constraints* that converge on the cascade's 2D CFT parameters and reduce the free-parameter count from 4 to 2:
 
-1. **The Liouville coupling is naturally *b = i* for a single-scalar 2D CFT** (IHES lecture notes, Vargas; Komatsu 2019, arXiv:1908.03219). The Liouville central charge is $c = 1 + 6(b + 1/b)^2$; for a single scalar field ($c = 1$), we require $b + 1/b = 0$, so $b = \pm i$. This is *quantum* Liouville theory ($c \leq 1$), which is well-defined (though distinct from the classical $c \geq 25$ regime) and gives the simplest possible 2D CFT for a single 2D universe. The cascade's single-scalar choice therefore *naturally* sits in the quantum Liouville regime.
+1. **The Liouville coupling is naturally *b = i* for a single-scalar 2D CFT** (IHES lecture notes, Vargas; Komatsu 2019, arXiv:1908.03219). The Liouville central charge is c = 1 + 6(b + 1/b)²; for a single scalar field (c = 1), we require b + 1/b = 0, so b = ± i. This is *quantum* Liouville theory (c ≤ 1), which is well-defined (though distinct from the classical c ≥ 25 regime) and gives the simplest possible 2D CFT for a single 2D universe. The cascade's single-scalar choice therefore *naturally* sits in the quantum Liouville regime.
 
-2. **The effective 3+1D dark-matter mass is bounded below by $m_{3+1D} > 8 \times 10^{-18}$ eV** (Dalal & May 2025, arXiv:2509.02781, from ultra-faint dwarf galaxy kinematics with the Ursa Major III/UNIONS I confirmation, an improvement of over an order of magnitude over previous bounds). The cascade's nominal $m_{3+1D} \sim 10^{-15}$ GeV = $10^{-6}$ eV is $\sim 10^{11} \times$ ABOVE this bound, so the cascade 2D universes are *heavy* (cold dark matter–like, de Broglie wavelength $\lambda_{dB} \sim 10^{-24}$ pc at $v = 100$ km/s) and *not* in the ultralight fuzzy dark matter regime that is currently under pressure from dwarf-galaxy and Lyman-α data. The cascade is therefore consistent with the latest ultra-light dark matter bounds.
+2. **The effective 3+1D dark-matter mass is bounded below by m_₃+₁D > 8 × 10^⁻¹⁸ eV** (Dalal & May 2025, arXiv:2509.02781, from ultra-faint dwarf galaxy kinematics with the Ursa Major III/UNIONS I confirmation, an improvement of over an order of magnitude over previous bounds). The cascade's nominal m_₃+₁D ~ 10^⁻¹⁵ GeV = 10^⁻⁶ eV is ~ 10^¹¹ × ABOVE this bound, so the cascade 2D universes are *heavy* (cold dark matter–like, de Broglie wavelength lambda_dB ~ 10^⁻²⁴ pc at v = 100 km/s) and *not* in the ultralight fuzzy dark matter regime that is currently under pressure from dwarf-galaxy and Lyman-α data. The cascade is therefore consistent with the latest ultra-light dark matter bounds.
 
-3. **Jackiw–Teitelboim (JT) gravity is the natural realization of the cascade 2D universe on a Karch–Randall brane** (Pingleton, Sully, Thorlacius 2022, PRL 129, 231601; see also the AdS₂ quantum gravity review by Chen, Gorbenko, Sperber 2022, JHEP 09(2022)024). JT gravity is 2D dilaton gravity with action $S = (1/16\pi G_2) \int d^2x \sqrt{-g}\, (\Phi R + 2\Phi_0)$. It is the simplest 2D quantum gravity theory, and the Karch-Randall brane embedding in AdS₃ naturally supports it. The cascade's 2D universe is therefore not exotic: it is a JT-gravity excitation localized on a Karch–Randall end-of-the-world brane. The 2D Planck mass follows from the RS-II natural scales as $M_{2D} = M_5^{3/2} k^{1/2} \sim 10^{38}$ GeV.
+3. **Jackiw–Teitelboim (JT) gravity is the natural realization of the cascade 2D universe on a Karch–Randall brane** (Pingleton, Sully, Thorlacius 2022, PRL 129, 231601; see also the AdS₂ quantum gravity review by Chen, Gorbenko, Sperber 2022, JHEP 09(2022)024). JT gravity is 2D dilaton gravity with action S = (1/16π G₂) ∫ d²x sqrt{-g} (Φ R + 2Phi₀). It is the simplest 2D quantum gravity theory, and the Karch-Randall brane embedding in AdS₃ naturally supports it. The cascade's 2D universe is therefore not exotic: it is a JT-gravity excitation localized on a Karch–Randall end-of-the-world brane. The 2D Planck mass follows from the RS-II natural scales as M_₂D = M₅^³/² k^¹/² ~ 10^³⁸ GeV.
 
-4. **The Radial Acceleration Relation now extends to $\log g_{\rm bar} \sim -12$ m/s²** (Vărăşteanu et al. 2025, MIGHTEE-HI, arXiv:2504.20857, 19 galaxies with resolved HI kinematics and resolved stellar masses; and Júlio et al. 2025, EDGE, arXiv:2510.06905, 12 nearby dwarf galaxies with $10^4 < M_{\rm bar}/M_\odot < 10^{7.5}$). The cascade's $g_+ = cH_0/(2\pi) = 1.09 \times 10^{-10}$ m/s² (within 10% of MOND's $a_0 = 1.2 \times 10^{-10}$ m/s²) predicts $g_{\rm obs} \approx \sqrt{g_{\rm bar} \times g_+}$ in the deep-MOND regime, which is now testable down to $\log g_{\rm bar} \sim -12$ with the new data. The cascade's MOND-like behavior is therefore testable with current observations; the consistency at the lowest accelerations would be a positive signal for the cascade (or for MOND).
+4. **The Radial Acceleration Relation now extends to log g_rm bar ~ -12 m/s²** (Vărăşteanu et al. 2025, MIGHTEE-HI, arXiv:2504.20857, 19 galaxies with resolved HI kinematics and resolved stellar masses; and Júlio et al. 2025, EDGE, arXiv:2510.06905, 12 nearby dwarf galaxies with 10⁴ < M_rm bar/M_odot < 10^⁷.⁵). The cascade's g_+ = cH₀/(2π) = 1.09 × 10^⁻¹⁰ m/s² (within 10% of MOND's a₀ = 1.2 × 10^⁻¹⁰ m/s²) predicts g_rm obs ≈ sqrt{g_rm bar × g_+} in the deep-MOND regime, which is now testable down to log g_rm bar ~ -12 with the new data. The cascade's MOND-like behavior is therefore testable with current observations; the consistency at the lowest accelerations would be a positive signal for the cascade (or for MOND).
 
-Together these four external constraints reduce the cascade's 2D CFT free-parameter count from 4 to **2**: the Liouville cosmological constant $\mu$ (setting the 2D universe mass scale) and the effective 3+1D dark-matter mass $m_{3+1D}$ (setting the Karch–Randall brane location $z_0$). These are the cascade's two *honest unknowns* — equivalent to "why $\Lambda = ?$" and "why $m_{\rm DM} = ?$" — and correspond to Limitation 26. Deriving them from first principles requires a 2D CFT theoretical physicist and is beyond the scope of this thought experiment. The web-research script that consolidates these four constraints is `calculations/v27_web_2d_cft_convergence.py`.
+Together these four external constraints reduce the cascade's 2D CFT free-parameter count from 4 to **2**: the Liouville cosmological constant μ (setting the 2D universe mass scale) and the effective 3+1D dark-matter mass m_₃+₁D (setting the Karch–Randall brane location z₀). These are the cascade's two *honest unknowns* — equivalent to "why Λ = ?" and "why m_rm DM = ?" — and correspond to Limitation 26. Deriving them from first principles requires a 2D CFT theoretical physicist and is beyond the scope of this thought experiment. The web-research script that consolidates these four constraints is `calculations/v27_web_2d_cft_convergence.py`.
 
 #### 8.1.2 Further external constraints (v2.7.2)
 
@@ -9018,53 +9018,53 @@ Continued web research (June 2026) yields four *additional* external constraints
 
 5. **JT gravity as a near-extremal black hole EFT** (Castro, Iqbal 2025, arXiv:2512.20500; Saad 2019 review). JT gravity is the *universal low-energy effective theory* for near-extremal black holes of any dimension, obtained by dimensional reduction to the near-horizon (nearly AdS₂) region. The dilaton is identified with the s-wave of the transverse dimensions. This makes JT gravity a *generic feature* of any theory with black holes, not a special exotic choice. The cascade 2D universe as a JT excitation is therefore a *natural* low-energy effective theory for the gravitational backreaction of an energetic 3+1D event.
 
-6. **DESI 2024 + 2025 evidence for evolving dark energy (or quintessence)** (Adame et al. 2024, DESI Collaboration, arXiv:2404.13590; Calderon et al. 2024, arXiv:2405.04216; Ye et al. 2024, arXiv:2407.15832; Gialamas et al. 2025, arXiv:2506.21542). The Dark Energy Spectroscopic Instrument (DESI) DR1 + DR2 baryon acoustic oscillation (BAO) data, when combined with the Pantheon+, Union3, and DES-SN5YR supernova compilations and the Planck CMB, shows a **~3σ preference for a time-evolving dark energy equation of state** $w(a) = w_0 + (1-a)w_a$ with best-fit $(w_0, w_a)$ consistent with $w_0 > -1$ and $w_a < 0$, i.e. **quintessence-like behavior** (dark energy DECAYS in the late universe). The cosmological constant $w = -1$ lies outside the 95% confidence interval for several data combinations. The cascade's DE = 4D event antigravity is a *qualitative* match: a 4D event's antigravity output can in principle evolve with the event's "lifetime" (currently 13.8 Gyr elapsed), providing a natural framework for $w \neq -1$. The cascade's specific $w(z)$ is *not* predicted; this is honest Limitation 33.
+6. **DESI 2024 + 2025 evidence for evolving dark energy (or quintessence)** (Adame et al. 2024, DESI Collaboration, arXiv:2404.13590; Calderon et al. 2024, arXiv:2405.04216; Ye et al. 2024, arXiv:2407.15832; Gialamas et al. 2025, arXiv:2506.21542). The Dark Energy Spectroscopic Instrument (DESI) DR1 + DR2 baryon acoustic oscillation (BAO) data, when combined with the Pantheon+, Union3, and DES-SN5YR supernova compilations and the Planck CMB, shows a **~3σ preference for a time-evolving dark energy equation of state** w(a) = w₀ + (1-a)w_a with best-fit (w₀, w_a) consistent with w₀ > -1 and w_a < 0, i.e. **quintessence-like behavior** (dark energy DECAYS in the late universe). The cosmological constant w = -1 lies outside the 95% confidence interval for several data combinations. The cascade's DE = 4D event antigravity is a *qualitative* match: a 4D event's antigravity output can in principle evolve with the event's "lifetime" (currently 13.8 Gyr elapsed), providing a natural framework for w ≠ -1. The cascade's specific w(z) is *not* predicted; this is honest Limitation 33.
 
-7. **Stiskalek et al. 2025 (arXiv:2509.09665): 1.8% $H_0$ from Cepheids alone**, with $H_0 = 73.04 \pm 1.30$ km/s/Mpc (1.8% precision), confirming the SH0ES local distance ladder result. The cascade's *Mechanism M* (accept the Hubble tension, $H_0 = 70 \pm 3$ km/s/Mpc as the cascade's intrinsic 4D value) is *qualitatively* consistent with this precise local measurement.
+7. **Stiskalek et al. 2025 (arXiv:2509.09665): 1.8% H₀ from Cepheids alone**, with H₀ = 73.04 ± 1.30 km/s/Mpc (1.8% precision), confirming the SH0ES local distance ladder result. The cascade's *Mechanism M* (accept the Hubble tension, H₀ = 70 ± 3 km/s/Mpc as the cascade's intrinsic 4D value) is *qualitatively* consistent with this precise local measurement.
 
-8. **The $S_8$ tension persists at 2-3σ** (Terasawa, Takada, Kurita, Sugiyama 2025, arXiv:2505.09176, using Subaru HSC Y3 cosmic shear). $S_8 \equiv \sigma_8 \sqrt{\Omega_m / 0.3}$ inferred from weak lensing is consistently 2-3σ *lower* than the Planck CMB value, suggesting late-time suppression of structure growth on small scales. The cascade's interpretation: 2D universes (CDM-like) plus a MOND-like acceleration scale at $g_+ \sim 10^{-10}$ m/s² (which acts as a "soft floor" on small-scale structure formation) is qualitatively consistent with suppressed small-scale growth. The cascade's specific $\sigma_8(z)$ is *not* uniquely predicted; this is honest Limitation 28.
+8. **The S₈ tension persists at 2-3σ** (Terasawa, Takada, Kurita, Sugiyama 2025, arXiv:2505.09176, using Subaru HSC Y3 cosmic shear). S₈ ≡ sigma₈ sqrt{Omega_m / 0.3} inferred from weak lensing is consistently 2-3σ *lower* than the Planck CMB value, suggesting late-time suppression of structure growth on small scales. The cascade's interpretation: 2D universes (CDM-like) plus a MOND-like acceleration scale at g_+ ~ 10^⁻¹⁰ m/s² (which acts as a "soft floor" on small-scale structure formation) is qualitatively consistent with suppressed small-scale growth. The cascade's specific sigma₈(z) is *not* uniquely predicted; this is honest Limitation 28.
 
-These additional constraints do not reduce the cascade's free-parameter count further, but they *strengthen the cascade's qualitative interpretation*: the 2D universe framework (JT gravity), the cascade's DE interpretation (consistent with DESI 2024/2025 evidence for evolving dark energy), the cascade's local $H_0$ prediction (within 2% of SH0ES), and the cascade's MOND-like structure formation (consistent with $S_8$ suppression). The cascade remains honest about *which specific values are derived* vs *which are interpreted*: the cascade interprets the qualitative structure of these observations, but the specific numerical values (e.g., $w_0$, $w_a$, $S_8$ suppression scale) are not first-principles predictions of the cascade.
+These additional constraints do not reduce the cascade's free-parameter count further, but they *strengthen the cascade's qualitative interpretation*: the 2D universe framework (JT gravity), the cascade's DE interpretation (consistent with DESI 2024/2025 evidence for evolving dark energy), the cascade's local H₀ prediction (within 2% of SH0ES), and the cascade's MOND-like structure formation (consistent with S₈ suppression). The cascade remains honest about *which specific values are derived* vs *which are interpreted*: the cascade interprets the qualitative structure of these observations, but the specific numerical values (e.g., w₀, w_a, S₈ suppression scale) are not first-principles predictions of the cascade.
 
 #### 8.1.3 Additional H_0 measurements and JWST high-z tensions (v2.7.2)
 
 Continued web research (June 2026) yields three *further* external constraints that refine the cascade's relationship to current data:
 
-9. **TRGB $H_0$ = 69.8 ± 1.9 km/s/Mpc** (Freedman et al. 2024, CCHP, arXiv:2408.06153, JWST data; Freedman 2021, arXiv:2106.15656). The Tip of the Red Giant Branch distance ladder, calibrated with JWST observations, gives $H_0 = 69.8 \pm 1.9$ km/s/Mpc — *almost exactly* the cascade's $H_{0,4D} = 70.16$ km/s/Mpc (geometric mean of SH0ES and Planck). The TRGB measurement *sits in the middle of the Hubble tension*, in contrast to SH0ES ($73.04 \pm 1.04$) and Planck ($67.4 \pm 0.5$). The cascade's $H_{0,4D} = 70.16$ is the *single closest point estimate* to the TRGB measurement (within $0.2\sigma$). The cascade's honest position (Mechanism M) is that this is a *coincidence of the geometric mean with the TRGB measurement*, not a derivation, but the *internal consistency* of the three $H_0$ measurements (SH0ES, TRGB, Planck) with the cascade's $H_{0,4D}$ is suggestive.
+9. **TRGB H₀ = 69.8 ± 1.9 km/s/Mpc** (Freedman et al. 2024, CCHP, arXiv:2408.06153, JWST data; Freedman 2021, arXiv:2106.15656). The Tip of the Red Giant Branch distance ladder, calibrated with JWST observations, gives H₀ = 69.8 ± 1.9 km/s/Mpc — *almost exactly* the cascade's H_₀,₄D = 70.16 km/s/Mpc (geometric mean of SH0ES and Planck). The TRGB measurement *sits in the middle of the Hubble tension*, in contrast to SH0ES (73.04 ± 1.04) and Planck (67.4 ± 0.5). The cascade's H_₀,₄D = 70.16 is the *single closest point estimate* to the TRGB measurement (within 0.2σ). The cascade's honest position (Mechanism M) is that this is a *coincidence of the geometric mean with the TRGB measurement*, not a derivation, but the *internal consistency* of the three H₀ measurements (SH0ES, TRGB, Planck) with the cascade's H_₀,₄D is suggestive.
 
-10. **JWST high-z galaxy excess (z > 10)** (Lu, Frenk, Bose, Lacey, Cole, Baugh, Helly 2024, arXiv:2406.02672; multiple JWST observational programs). JWST has revealed an *abundance* of bright galaxies at $z \gtrsim 12$ (and some candidates at $z \sim 20$) that exceeds $\Lambda$CDM pre-existing predictions. This is a *tension* for $\Lambda$CDM (more structure earlier than expected). For the cascade, the interpretation depends on the 2D universe creation mechanism: if the cascade's "broader principle" (Thomson scattering at $z > 1100$) is correct, then 2D universe creation was *already active* in the pre-stellar era, and the high-z DM abundance could be *higher* than $\Lambda$CDM predicts (consistent with JWST). The cascade's specific prediction for $n(z > 10)$ is *not* derived; this is honest Limitation 31 (formerly OPEN, now PARTIALLY ADDRESSED in §4.51).
+10. **JWST high-z galaxy excess (z > 10)** (Lu, Frenk, Bose, Lacey, Cole, Baugh, Helly 2024, arXiv:2406.02672; multiple JWST observational programs). JWST has revealed an *abundance* of bright galaxies at z gtrsim 12 (and some candidates at z ~ 20) that exceeds ΛCDM pre-existing predictions. This is a *tension* for ΛCDM (more structure earlier than expected). For the cascade, the interpretation depends on the 2D universe creation mechanism: if the cascade's "broader principle" (Thomson scattering at z > 1100) is correct, then 2D universe creation was *already active* in the pre-stellar era, and the high-z DM abundance could be *higher* than ΛCDM predicts (consistent with JWST). The cascade's specific prediction for n(z > 10) is *not* derived; this is honest Limitation 31 (formerly OPEN, now PARTIALLY ADDRESSED in §4.51).
 
-11. **BBN lithium-7 anomaly remains a 3-5× discrepancy** (Singh, Bhowmick, Basu 2023, arXiv:2304.08032; Makki, El Eid, Mathews 2024, arXiv:2402.17871). The primordial $^7$Li abundance predicted by standard BBN is 3-5× higher than observed in metal-poor halo stars. This is a *long-standing anomaly* unresolved by nuclear physics updates. The cascade's 2D universe creation mechanism (energetic events → 2D universes) does *not* affect BBN directly (BBN is at $T \sim 1$ MeV, $t \sim 1$ s, well before 2D universe creation becomes significant). The cascade therefore does *not* explain the lithium-7 anomaly, but is also *not in tension* with it. The lithium-7 anomaly is acknowledged as an *unresolved* problem in standard cosmology, and the cascade inherits this limitation honestly.
+11. **BBN lithium-7 anomaly remains a 3-5× discrepancy** (Singh, Bhowmick, Basu 2023, arXiv:2304.08032; Makki, El Eid, Mathews 2024, arXiv:2402.17871). The primordial ⁷Li abundance predicted by standard BBN is 3-5× higher than observed in metal-poor halo stars. This is a *long-standing anomaly* unresolved by nuclear physics updates. The cascade's 2D universe creation mechanism (energetic events → 2D universes) does *not* affect BBN directly (BBN is at T ~ 1 MeV, t ~ 1 s, well before 2D universe creation becomes significant). The cascade therefore does *not* explain the lithium-7 anomaly, but is also *not in tension* with it. The lithium-7 anomaly is acknowledged as an *unresolved* problem in standard cosmology, and the cascade inherits this limitation honestly.
 
-These three further constraints refine but do not further reduce the cascade's 2 free parameters ($\mu$, $m_{3+1D}$). The TRGB $H_0 = 69.8 \pm 1.9$ is the *closest single external measurement* to the cascade's $H_{0,4D} = 70.16$ (a $0.2\sigma$ match). The JWST high-z excess is *qualitatively consistent* with the cascade's "broader principle" but is not a quantitative prediction. The lithium-7 anomaly is inherited from standard cosmology and is not addressed by the cascade.
+These three further constraints refine but do not further reduce the cascade's 2 free parameters (μ, m_₃+₁D). The TRGB H₀ = 69.8 ± 1.9 is the *closest single external measurement* to the cascade's H_₀,₄D = 70.16 (a 0.2σ match). The JWST high-z excess is *qualitatively consistent* with the cascade's "broader principle" but is not a quantitative prediction. The lithium-7 anomaly is inherited from standard cosmology and is not addressed by the cascade.
 
 #### 8.1.4 Even further external constraints (v2.7.2, continued)
 
 Continued web research (June 2026) yields four *more* external constraints that further support the cascade's framework:
 
-12. **JT gravity as a noncritical string (Suzuki & Takayanagi 2021, JHEP 11(2021)137, arXiv:2108.12096; Mertens, Turiaci 2023, *Solvable models of quantum black holes*, RevModPhys)**. JT gravity can be *derived* as the low-energy limit of the noncritical $c < 1$ string theory, with Liouville CFT as the worldsheet theory. The worldsheet action is the time-like Liouville CFT coupled to matter, and the spacetime JT gravity emerges in the classical limit (large central charge). This provides a *string-theoretic foundation* for the cascade's framework: the 2D universe (energetic 3+1D event) is not just a 2D CFT excitation, but a *noncritical string worldsheet* itself. The cascade's "2D universe as Liouville CFT" is then a *consequence* of the noncritical string interpretation, not an arbitrary postulate. This is a STRONGER result than the PRL 129, 231601 result (which only showed that JT gravity is *natural* on a KR brane); the Suzuki-Takayanagi result shows that JT gravity is *the low-energy limit* of a well-defined 2D quantum gravity theory.
+12. **JT gravity as a noncritical string (Suzuki & Takayanagi 2021, JHEP 11(2021)137, arXiv:2108.12096; Mertens, Turiaci 2023, *Solvable models of quantum black holes*, RevModPhys)**. JT gravity can be *derived* as the low-energy limit of the noncritical c < 1 string theory, with Liouville CFT as the worldsheet theory. The worldsheet action is the time-like Liouville CFT coupled to matter, and the spacetime JT gravity emerges in the classical limit (large central charge). This provides a *string-theoretic foundation* for the cascade's framework: the 2D universe (energetic 3+1D event) is not just a 2D CFT excitation, but a *noncritical string worldsheet* itself. The cascade's "2D universe as Liouville CFT" is then a *consequence* of the noncritical string interpretation, not an arbitrary postulate. This is a STRONGER result than the PRL 129, 231601 result (which only showed that JT gravity is *natural* on a KR brane); the Suzuki-Takayanagi result shows that JT gravity is *the low-energy limit* of a well-defined 2D quantum gravity theory.
 
-13. **c = 1 string theory (Dijkgraaf, McGuane 2017; Klebanov, Maldacena 2024 review)**. The $c = 1$ noncritical string theory is the *unique* quantum theory of 2D gravity in 1+1D coupled to a single scalar. The matrix model formulation gives an *exact* non-perturbative definition of the theory. The c = 1 string is the *only* quantum theory of gravity for which an *exact* matrix-model solution is known (away from c = 25 critical bosonic string). The cascade's choice of $c = 1$ (single scalar 2D CFT) is therefore the *exactly solvable* case of 2D quantum gravity, not a generic choice. The matrix model gives explicit formulas for correlators, free energy, and the 2D universe spectrum. **Implication for cascade**: the matrix model can in principle give the *exact* 2D universe creation rate, lifetime distribution, and mass spectrum, but this requires a theoretical physicist to translate the matrix model result into the cascade's brane-world language. Limitation 26 remains OPEN, but the *theoretical infrastructure* (matrix model) is *exactly known*.
+13. **c = 1 string theory (Dijkgraaf, McGuane 2017; Klebanov, Maldacena 2024 review)**. The c = 1 noncritical string theory is the *unique* quantum theory of 2D gravity in 1+1D coupled to a single scalar. The matrix model formulation gives an *exact* non-perturbative definition of the theory. The c = 1 string is the *only* quantum theory of gravity for which an *exact* matrix-model solution is known (away from c = 25 critical bosonic string). The cascade's choice of c = 1 (single scalar 2D CFT) is therefore the *exactly solvable* case of 2D quantum gravity, not a generic choice. The matrix model gives explicit formulas for correlators, free energy, and the 2D universe spectrum. **Implication for cascade**: the matrix model can in principle give the *exact* 2D universe creation rate, lifetime distribution, and mass spectrum, but this requires a theoretical physicist to translate the matrix model result into the cascade's brane-world language. Limitation 26 remains OPEN, but the *theoretical infrastructure* (matrix model) is *exactly known*.
 
-14. **A direct connection between the c = 1 matrix model and dark matter (unexplored, but possible)**. The matrix model's *eigenvalue distribution* is the density of 2D universes in a 2D universe ensemble. In the cascade's interpretation, this is the *distribution of 2D universe masses* (weighted by 2D CFT parameters $\mu, b$). The matrix model's thermodynamic limit gives an *extensive* (in the number of 2D universes) free energy, which can be related to the cascade's $S_{\text{destruction}}$ action. This is a *possible* future direction for the cascade, but it requires a 2D CFT theoretical physicist to make the connection explicit. Not pursued in this thought experiment.
+14. **A direct connection between the c = 1 matrix model and dark matter (unexplored, but possible)**. The matrix model's *eigenvalue distribution* is the density of 2D universes in a 2D universe ensemble. In the cascade's interpretation, this is the *distribution of 2D universe masses* (weighted by 2D CFT parameters μ, b). The matrix model's thermodynamic limit gives an *extensive* (in the number of 2D universes) free energy, which can be related to the cascade's S_{destruction} action. This is a *possible* future direction for the cascade, but it requires a 2D CFT theoretical physicist to make the connection explicit. Not pursued in this thought experiment.
 
-15. **The "Schwarzian" limit of Liouville CFT (Schiller 2018, Stanford, Yang 2018, Mertens 2018)**. In the JT gravity limit, the Liouville CFT action reduces to a "Schwarzian" action: $S \sim \int dt \{F(t), t\}$ where $\{F, t\}$ is the Schwarzian derivative. This is the *universal* low-energy effective action for nearly AdS$_2$ geometries. The Schwarzian action has a *continuous spectrum* in the classical limit, but a *discrete spectrum* in the quantum theory (the "Schwarzian QM"). The cascade's 2D universe spectrum is therefore a *discrete set* of energies (the Schwarzian QM spectrum), not a continuum. The density of 2D universes is given by the partition function of Schwarzian QM, which is known exactly. **Implication for cascade**: the 2D universe population has a *discrete* mass spectrum with known asymptotic density (the "DOZZ spectral density"), which is an additional constraint on the cascade's 2D universe mass function $P(m_{2D})$. The cascade does not derive the specific value of $m_{2D}$ (Limitation 26 OPEN), but the *form* of the mass function is now known: $P(m_{2D}) \sim \sinh(2\pi \sqrt{2 m_{2D} E_0})$ for the lowest-lying states.
+15. **The "Schwarzian" limit of Liouville CFT (Schiller 2018, Stanford, Yang 2018, Mertens 2018)**. In the JT gravity limit, the Liouville CFT action reduces to a "Schwarzian" action: S ~ ∫ dt \{F(t), t\} where \{F, t\} is the Schwarzian derivative. This is the *universal* low-energy effective action for nearly AdS₂ geometries. The Schwarzian action has a *continuous spectrum* in the classical limit, but a *discrete spectrum* in the quantum theory (the "Schwarzian QM"). The cascade's 2D universe spectrum is therefore a *discrete set* of energies (the Schwarzian QM spectrum), not a continuum. The density of 2D universes is given by the partition function of Schwarzian QM, which is known exactly. **Implication for cascade**: the 2D universe population has a *discrete* mass spectrum with known asymptotic density (the "DOZZ spectral density"), which is an additional constraint on the cascade's 2D universe mass function P(m_₂D). The cascade does not derive the specific value of m_₂D (Limitation 26 OPEN), but the *form* of the mass function is now known: P(m_₂D) ~ sinh(2π sqrt{2 m_₂D E₀}) for the lowest-lying states.
 
 #### 8.1.5 Latest 2024-2025 constraints (v2.7.2+)
 
 Continued web research in June 2026 yields five more external constraints:
 
-16. **Torsion balance ultra-light vector DM search (Ross, Shaw, Gettings, Apple, Paulson, Gundlach 2025, arXiv:2510.21764)**. The Eot-Wash group has set new limits on ultra-light vector DM coupled to baryon-minus-lepton number. The search covers $1.3 \times 10^{-22}$ to $1.9 \times 10^{-18}$ eV, with peak sensitivity $g_{B-L} \leq 9 \times 10^{-26}$. The cascade's 2D universe mass ($\sim 10^{-15}$ GeV = $10^{-6}$ eV) is $\sim 10^{12} \times$ ABOVE the search range — the cascade 2D universes are *heavy* (CDM-like), not ultra-light. The torsion balance constraint is *vacuously consistent* with the cascade (cascade 2D universes have no Standard Model coupling, so $g_{B-L} = 0$ by construction).
+16. **Torsion balance ultra-light vector DM search (Ross, Shaw, Gettings, Apple, Paulson, Gundlach 2025, arXiv:2510.21764)**. The Eot-Wash group has set new limits on ultra-light vector DM coupled to baryon-minus-lepton number. The search covers 1.3 × 10^⁻²² to 1.9 × 10^⁻¹⁸ eV, with peak sensitivity g_B-L ≤ 9 × 10^⁻²⁶. The cascade's 2D universe mass (~ 10^⁻¹⁵ GeV = 10^⁻⁶ eV) is ~ 10^¹² × ABOVE the search range — the cascade 2D universes are *heavy* (CDM-like), not ultra-light. The torsion balance constraint is *vacuously consistent* with the cascade (cascade 2D universes have no Standard Model coupling, so g_B-L = 0 by construction).
 
-17. **NANOGrav 15-year stochastic GW background (Agazie et al. 2023; confirmed by EPTA, PPTA, CPTA 2024-2025)**. Multiple pulsar timing array experiments have detected evidence for a stochastic GW background at nanohertz frequencies, with $h_c \sim 2.4 \times 10^{-15}$ at $f_{\rm yr} = 1/{\rm year}$. Possible origins include supermassive black hole binaries (SMBHB), cosmological sources (phase transitions, cosmic strings, scalar-induced GWs), or new physics. The cascade's 2D universe births could contribute a stochastic GW background at the cascade's rate: total power $\sim 10^{60-62}$ erg/s/Mpc³, which is $\sim 10^3 \times$ below current PTA sensitivity. The cascade's predicted 2D universe birth GW background is *not yet detectable* but is *testable* with future SKA-MPG (2030s).
+17. **NANOGrav 15-year stochastic GW background (Agazie et al. 2023; confirmed by EPTA, PPTA, CPTA 2024-2025)**. Multiple pulsar timing array experiments have detected evidence for a stochastic GW background at nanohertz frequencies, with h_c ~ 2.4 × 10^⁻¹⁵ at f_rm yr = 1/{rm year}. Possible origins include supermassive black hole binaries (SMBHB), cosmological sources (phase transitions, cosmic strings, scalar-induced GWs), or new physics. The cascade's 2D universe births could contribute a stochastic GW background at the cascade's rate: total power ~ 10^⁶⁰⁻⁶² erg/s/Mpc³, which is ~ 10³ × below current PTA sensitivity. The cascade's predicted 2D universe birth GW background is *not yet detectable* but is *testable* with future SKA-MPG (2030s).
 
-18. **JT gravity boundary conditions classified (Anous, Kruthoff, Mahajan 2021, JHEP 04(2021)069)**. The possible boundary conditions in JT gravity have been classified into a one-parameter family of "energy-branes" (or $\alpha$-branes) and End-of-the-World (EOW) branes. The cascade's 2D universe population corresponds to a *multi-brane* JT gravity configuration, with each 2D universe being an EOW brane at a specific dilaton value. The partition function of multi-brane JT gravity is given by a multi-matrix integral. Specific predictions for the cascade require explicit calculation, but the *framework* (multi-brane JT) is well-established.
+18. **JT gravity boundary conditions classified (Anous, Kruthoff, Mahajan 2021, JHEP 04(2021)069)**. The possible boundary conditions in JT gravity have been classified into a one-parameter family of "energy-branes" (or α-branes) and End-of-the-World (EOW) branes. The cascade's 2D universe population corresponds to a *multi-brane* JT gravity configuration, with each 2D universe being an EOW brane at a specific dilaton value. The partition function of multi-brane JT gravity is given by a multi-matrix integral. Specific predictions for the cascade require explicit calculation, but the *framework* (multi-brane JT) is well-established.
 
-19. **DES Year 6 3x2pt analysis + DESI 2024/2025 (Abbott et al. 2025, DES Collaboration; Adame et al. 2024, DESI Collaboration)**. The DES Y6 3x2pt analysis (cosmic shear + galaxy-galaxy lensing + galaxy clustering) finds a $2.2\sigma$ deviation from $\Lambda$CDM in a *single experiment*. Combined with DESI BAO 2024, the deviation is $2.3\sigma$. Combined with the Pantheon+ supernova dataset, the deviation grows to $\sim 3\sigma$, with best-fit $w_0 = -0.84 \pm 0.16$, $w_a = -0.65 \pm 0.30$ (quintessence-like). The cascade's DE = 4D event antigravity is *qualitatively* consistent with quintessence-like behavior, but the cascade does *not* derive specific $w_0$ or $w_a$ values (Limitation 33 OPEN).
+19. **DES Year 6 3x2pt analysis + DESI 2024/2025 (Abbott et al. 2025, DES Collaboration; Adame et al. 2024, DESI Collaboration)**. The DES Y6 3x2pt analysis (cosmic shear + galaxy-galaxy lensing + galaxy clustering) finds a 2.2σ deviation from ΛCDM in a *single experiment*. Combined with DESI BAO 2024, the deviation is 2.3σ. Combined with the Pantheon+ supernova dataset, the deviation grows to ~ 3σ, with best-fit w₀ = -0.84 ± 0.16, w_a = -0.65 ± 0.30 (quintessence-like). The cascade's DE = 4D event antigravity is *qualitatively* consistent with quintessence-like behavior, but the cascade does *not* derive specific w₀ or w_a values (Limitation 33 OPEN).
 
-20. **Cascade prediction: 2D universe birth stochastic GW background**. The cascade predicts a *specific* stochastic GW background from 2D universe creation events. The total power in 2D universe births is $\sim 10^{60-62}$ erg/s/Mpc³ (comoving), which is $\sim 10^3 \times$ below current PTA sensitivity but could be detected with future SKA-MPG (2030s). This is a *testable* prediction of the cascade that distinguishes it from ΛCDM (which predicts no such background) and MOND (which also does not predict it). The detection (or non-detection) of this specific stochastic GW background would be a *new* test of the cascade.
+20. **Cascade prediction: 2D universe birth stochastic GW background**. The cascade predicts a *specific* stochastic GW background from 2D universe creation events. The total power in 2D universe births is ~ 10^⁶⁰⁻⁶² erg/s/Mpc³ (comoving), which is ~ 10³ × below current PTA sensitivity but could be detected with future SKA-MPG (2030s). This is a *testable* prediction of the cascade that distinguishes it from ΛCDM (which predicts no such background) and MOND (which also does not predict it). The detection (or non-detection) of this specific stochastic GW background would be a *new* test of the cascade.
 
-These five additional constraints do not reduce the cascade's 2 free parameters ($\mu$, $m_{3+1D}$) further, but they:
+These five additional constraints do not reduce the cascade's 2 free parameters (μ, m_₃+₁D) further, but they:
 - 16: Confirm the cascade 2D universe is heavy (CDM-like, not ultra-light)
 - 17, 20: Suggest a new testable prediction (2D universe birth GW background)
 - 18: Strengthen the JT/multi-brane framework
@@ -9074,18 +9074,18 @@ These five additional constraints do not reduce the cascade's 2 free parameters 
 
 Continued web research in June 2026 yields five more external constraints from the most recent 2025 datasets:
 
-21. **DESI DR2 + ACT DR6 + Planck combined** (Garcia-Quintero et al. 2025, arXiv:2504.18464). The DESI Year-2 BAO data (March 2025, Adame et al.) confirms and strengthens the DESI Year-1 result. Combined with ACT DR6 (Naokawa et al. 2025, arXiv:2503.14452) and Planck CMB, the combined best-fit dark energy parameters are $w_0 = -0.83 \pm 0.10$, $w_a = -0.75 \pm 0.20$ — a $3.5\sigma$ preference for evolving dark energy. The cascade's DE = 4D event antigravity is *qualitatively* consistent with quintessence-like ($w_0 > -1$, $w_a < 0$) behavior, but the cascade does not derive specific $w_0$ or $w_a$ values (Limitation 33 OPEN).
+21. **DESI DR2 + ACT DR6 + Planck combined** (Garcia-Quintero et al. 2025, arXiv:2504.18464). The DESI Year-2 BAO data (March 2025, Adame et al.) confirms and strengthens the DESI Year-1 result. Combined with ACT DR6 (Naokawa et al. 2025, arXiv:2503.14452) and Planck CMB, the combined best-fit dark energy parameters are w₀ = -0.83 ± 0.10, w_a = -0.75 ± 0.20 — a 3.5σ preference for evolving dark energy. The cascade's DE = 4D event antigravity is *qualitatively* consistent with quintessence-like (w₀ > -1, w_a < 0) behavior, but the cascade does not derive specific w₀ or w_a values (Limitation 33 OPEN).
 
-22. **Ly$\alpha$ forest WDM constraints** (Garcia-Gallego, Iršič, Haehnelt, Viel, Bolton 2025, arXiv:2504.06367). New Ly$\alpha$ forest flux power spectrum measurements from the Sherwood-Relics suite constrain warm dark matter (WDM) to $m_{\rm WDM} > 3$ keV (95% CL). The cascade's 2D universe mass ($\sim 10^{-15}$ GeV = $10^{-6}$ eV = 1 GeV) is *vastly heavier* than this WDM bound, so the cascade is *trivially consistent* with the Ly$\alpha$ forest WDM constraint.
+22. **Lyα forest WDM constraints** (Garcia-Gallego, Iršič, Haehnelt, Viel, Bolton 2025, arXiv:2504.06367). New Lyα forest flux power spectrum measurements from the Sherwood-Relics suite constrain warm dark matter (WDM) to m_rm WDM > 3 keV (95% CL). The cascade's 2D universe mass (~ 10^⁻¹⁵ GeV = 10^⁻⁶ eV = 1 GeV) is *vastly heavier* than this WDM bound, so the cascade is *trivially consistent* with the Lyα forest WDM constraint.
 
-23. **Primordial black hole constraints 2024-2025** (Tan & Xia 2024, arXiv:2402.17871, X-ray background; Green 2025, arXiv:2501.02610, microlensing; Crispim Romao et al. 2025, arXiv:2506.20709, LSST forecasts). The PBH mass spectrum is constrained across many orders of magnitude: X-ray background (10$^{16}$–5×10$^{18}$ g), microlensing (10$^{-9}$–10$^4$ M$_\odot$), and CMB accretion ($>$100 M$_\odot$). The cascade's 2D universe mass is $\sim 10^{-21}$ M$_\odot$, which is *below* the X-ray background window. However, the cascade's 2D universes are *not* black holes (they're 2D CFT excitations, not gravitational collapse products), so PBH constraints are *inapplicable* to the cascade.
+23. **Primordial black hole constraints 2024-2025** (Tan & Xia 2024, arXiv:2402.17871, X-ray background; Green 2025, arXiv:2501.02610, microlensing; Crispim Romao et al. 2025, arXiv:2506.20709, LSST forecasts). The PBH mass spectrum is constrained across many orders of magnitude: X-ray background (10^¹⁶–5×10^¹⁸ g), microlensing (10^⁻⁹–10⁴ M_odot), and CMB accretion (>100 M_odot). The cascade's 2D universe mass is ~ 10^⁻²¹ M_odot, which is *below* the X-ray background window. However, the cascade's 2D universes are *not* black holes (they're 2D CFT excitations, not gravitational collapse products), so PBH constraints are *inapplicable* to the cascade.
 
-24. **XENONnT 2025 final WIMP result** (XENON Collaboration 2025, *Phys. Rev. Lett.* 135, 221003). The XENONnT experiment reports a 3.1 tonne-year exposure analysis, setting a 90% CL upper limit on the spin-independent WIMP-nucleon cross-section of $\sigma_{\rm SI} < 1.7 \times 10^{-47}$ cm$^2$ at $m_{\rm WIMP} = 30$ GeV/$c^2$, with best median sensitivity $\sigma_{\rm SI} = 1.4 \times 10^{-47}$ cm$^2$ at $m_{\rm WIMP} = 41$ GeV/$c^2$. The cascade's 2D universes have *no Standard Model coupling* (CDM-like), so the XENONnT cross-section is $\sigma = 0$ for the cascade. The constraint is *trivially satisfied* (vacuously consistent), but also *uninformative* about the cascade.
+24. **XENONnT 2025 final WIMP result** (XENON Collaboration 2025, *Phys. Rev. Lett.* 135, 221003). The XENONnT experiment reports a 3.1 tonne-year exposure analysis, setting a 90% CL upper limit on the spin-independent WIMP-nucleon cross-section of sigma_rm SI < 1.7 × 10^⁻⁴⁷ cm² at m_rm WIMP = 30 GeV/c², with best median sensitivity sigma_rm SI = 1.4 × 10^⁻⁴⁷ cm² at m_rm WIMP = 41 GeV/c². The cascade's 2D universes have *no Standard Model coupling* (CDM-like), so the XENONnT cross-section is σ = 0 for the cascade. The constraint is *trivially satisfied* (vacuously consistent), but also *uninformative* about the cascade.
 
-25. **ACT DR6 CMB lensing** (Farren, Krolewski, Qu et al. 2024, arXiv:2409.02109). The ACT DR6 CMB lensing power spectrum, combined with Planck PR4 and unWISE galaxies, gives $S_8 = 0.840 \pm 0.014$ — *slightly higher* than the Planck CMB-only value ($S_8 = 0.832 \pm 0.013$), and *significantly higher* than weak-lensing values ($S_8 = 0.769 \pm 0.030$ from HSC Y3, $S_8 = 0.759 \pm 0.025$ from DES Y3). The $S_8$ tension persists at $2$–$3\sigma$ in 2025 data. The cascade's interpretation: a MOND-like $g_+$ floor at $g \sim 10^{-10}$ m/s$^2$ suppresses small-scale structure formation in the late universe, giving a *qualitative* match to the $S_8$ suppression. The cascade does *not* predict the specific $S_8$ value (Limitation 28 OPEN).
+25. **ACT DR6 CMB lensing** (Farren, Krolewski, Qu et al. 2024, arXiv:2409.02109). The ACT DR6 CMB lensing power spectrum, combined with Planck PR4 and unWISE galaxies, gives S₈ = 0.840 ± 0.014 — *slightly higher* than the Planck CMB-only value (S₈ = 0.832 ± 0.013), and *significantly higher* than weak-lensing values (S₈ = 0.769 ± 0.030 from HSC Y3, S₈ = 0.759 ± 0.025 from DES Y3). The S₈ tension persists at 2–3σ in 2025 data. The cascade's interpretation: a MOND-like g_+ floor at g ~ 10^⁻¹⁰ m/s² suppresses small-scale structure formation in the late universe, giving a *qualitative* match to the S₈ suppression. The cascade does *not* predict the specific S₈ value (Limitation 28 OPEN).
 
-These five additional constraints from 2025 datasets do not reduce the cascade's 2 free parameters ($\mu$, $m_{3+1D}$) further, but they:
-- 21: Strengthen the qualitative DE interpretation (3.5$\sigma$ evolving DE, quintessence-like)
+These five additional constraints from 2025 datasets do not reduce the cascade's 2 free parameters (μ, m_₃+₁D) further, but they:
+- 21: Strengthen the qualitative DE interpretation (3.5σ evolving DE, quintessence-like)
 - 22: Confirm cascade is heavy (CDV-like, not WDM)
 - 23: Confirm cascade 2D universes are not PBHs (different physics)
 - 24: Trivially consistent (cascade has no SM coupling)
@@ -9095,19 +9095,19 @@ These five additional constraints from 2025 datasets do not reduce the cascade's
 
 The 6th round of web research (June 2026, total 30 constraints across rounds 1-6) yields five more external constraints from the latest 2024-2025 datasets. Rounds 7-8 (15 additional constraints, total 45) are documented in §8.1.8–§8.1.10.
 
-26. **ALPS/IAXO/ADMX axion-like particle coupling constraints** (Carenza, Pasechnik, Wang 2024, *Composite heavy axion-like dark matter*, arXiv:2408.14245; Zhang, Wu, Yan 2025, *New limits on ultralight axionlike DM*, arXiv:2501.08117). Two classes of axion-like particle (ALP) DM have been constrained: (a) *composite heavy* ALPs with mass $10^3$–$10^9$ GeV and *suppressed* electromagnetic couplings (GALPs); (b) *ultralight* ALPs with mass $10^{-24}$–$5 \times 10^{-21}$ eV, with laboratory bounds on the axion-nucleon coupling improved by *more than 3 orders of magnitude*. The cascade's 2D universe mass ($\sim 10^{-15}$ GeV = $10^{-6}$ eV) is *between* these two ALP mass ranges. The cascade 2D universes have *no Standard Model coupling*, so the ALP constraints are *inapplicable* to the cascade (vacuously consistent).
+26. **ALPS/IAXO/ADMX axion-like particle coupling constraints** (Carenza, Pasechnik, Wang 2024, *Composite heavy axion-like dark matter*, arXiv:2408.14245; Zhang, Wu, Yan 2025, *New limits on ultralight axionlike DM*, arXiv:2501.08117). Two classes of axion-like particle (ALP) DM have been constrained: (a) *composite heavy* ALPs with mass 10³–10⁹ GeV and *suppressed* electromagnetic couplings (GALPs); (b) *ultralight* ALPs with mass 10^⁻²⁴–5 × 10^⁻²¹ eV, with laboratory bounds on the axion-nucleon coupling improved by *more than 3 orders of magnitude*. The cascade's 2D universe mass (~ 10^⁻¹⁵ GeV = 10^⁻⁶ eV) is *between* these two ALP mass ranges. The cascade 2D universes have *no Standard Model coupling*, so the ALP constraints are *inapplicable* to the cascade (vacuously consistent).
 
-27. **HERA/MeerKAT 21cm reionization** (Sims, Bevins, Fialkov, Anstey, Handley, Heimersheim, de Lera Acedo, Mondal, Barkana 2025, arXiv:2504.09725, *Rapid and late cosmic reionization driven by massive galaxies*). A joint Bayesian analysis of 21cm, Lyman-line, and CMB data constrains the astrophysics of reionization: rapid and late reionization driven by massive galaxies is preferred. The cascade's 2D universe births are *negligible* for IGM heating (cascade 2D universes are CDM-like, not ionizing sources), so the cascade is *indistinguishable* from $\Lambda$CDM in the 21cm signal. No cascade-specific prediction in 21cm.
+27. **HERA/MeerKAT 21cm reionization** (Sims, Bevins, Fialkov, Anstey, Handley, Heimersheim, de Lera Acedo, Mondal, Barkana 2025, arXiv:2504.09725, *Rapid and late cosmic reionization driven by massive galaxies*). A joint Bayesian analysis of 21cm, Lyman-line, and CMB data constrains the astrophysics of reionization: rapid and late reionization driven by massive galaxies is preferred. The cascade's 2D universe births are *negligible* for IGM heating (cascade 2D universes are CDM-like, not ionizing sources), so the cascade is *indistinguishable* from ΛCDM in the 21cm signal. No cascade-specific prediction in 21cm.
 
-28. **SIDM cross-section with mass segregation** (Yang, Fan, Hou, Tsai 2025, arXiv:2506.14898, *SIDM with mass segregation: A unified explanation of dwarf cores and small-scale lenses*). Two-component self-interacting DM with mass segregation can satisfy *both* cluster-scale ($\sigma/m < 1$ cm²/g) and dwarf-scale ($\sigma/m < 0.1$ cm²/g) cross-section constraints. The cascade's 2D universes are *not* particles (they are 2D CFT excitations), so the SIDM cross-section is *trivially* $\sigma/m = 0$ for the cascade. SIDM constraints are *inapplicable* to the cascade.
+28. **SIDM cross-section with mass segregation** (Yang, Fan, Hou, Tsai 2025, arXiv:2506.14898, *SIDM with mass segregation: A unified explanation of dwarf cores and small-scale lenses*). Two-component self-interacting DM with mass segregation can satisfy *both* cluster-scale (σ/m < 1 cm²/g) and dwarf-scale (σ/m < 0.1 cm²/g) cross-section constraints. The cascade's 2D universes are *not* particles (they are 2D CFT excitations), so the SIDM cross-section is *trivially* σ/m = 0 for the cascade. SIDM constraints are *inapplicable* to the cascade.
 
-29. **Dynamical heating in ultrafaint dwarfs** (Graham, Ramani 2024, arXiv:2404.01378, *Constraints on DM from dynamical heating of stars in ultrafaint dwarfs, Part 2: Substructure and the primordial power spectrum*). The dynamical heating of stars in ultrafaint dwarf galaxies places *strong* constraints on the primordial power spectrum at $k = 10$–$10^3$ Mpc$^{-1}$, *orders of magnitude* stronger than CMB-only constraints. These constraints limit the abundance of subcompact objects ($10$–$10^8$ $M_\odot$). The cascade's 2D universe mass ($\sim 10^{-15}$ GeV = $10^{-21}$ $M_\odot$) is *below* the subcompact range, so the cascade is *consistent* with the dynamical heating constraints.
+29. **Dynamical heating in ultrafaint dwarfs** (Graham, Ramani 2024, arXiv:2404.01378, *Constraints on DM from dynamical heating of stars in ultrafaint dwarfs, Part 2: Substructure and the primordial power spectrum*). The dynamical heating of stars in ultrafaint dwarf galaxies places *strong* constraints on the primordial power spectrum at k = 10–10³ Mpc^⁻¹, *orders of magnitude* stronger than CMB-only constraints. These constraints limit the abundance of subcompact objects (10–10⁸ M_odot). The cascade's 2D universe mass (~ 10^⁻¹⁵ GeV = 10^⁻²¹ M_odot) is *below* the subcompact range, so the cascade is *consistent* with the dynamical heating constraints.
 
-30. **Future MeV gamma-ray DM constraints** (O'Donnell, Slatyer 2024, arXiv:2411.00087, *Constraints on DM with future MeV gamma-ray telescopes*). Future MeV gamma-ray telescopes will close the "MeV gap" in DM sensitivity, with projected $\sigma v < 10^{-27}$ cm³/s for annihilation and $\tau > 10^{27}$ s for decay. The cascade's 2D universes are *MeV-invisible* to gamma rays (no SM coupling, no annihilation, no decay). No constraint, but also *no signal* expected.
+30. **Future MeV gamma-ray DM constraints** (O'Donnell, Slatyer 2024, arXiv:2411.00087, *Constraints on DM with future MeV gamma-ray telescopes*). Future MeV gamma-ray telescopes will close the "MeV gap" in DM sensitivity, with projected σ v < 10^⁻²⁷ cm³/s for annihilation and τ > 10^²⁷ s for decay. The cascade's 2D universes are *MeV-invisible* to gamma rays (no SM coupling, no annihilation, no decay). No constraint, but also *no signal* expected.
 
-These five additional constraints do not reduce the cascade's 2 free parameters ($\mu$, $m_{3+1D}$), but they:
+These five additional constraints do not reduce the cascade's 2 free parameters (μ, m_₃+₁D), but they:
 - 26: Confirm the cascade has no SM coupling (ALP constraints inapplicable)
-- 27: Confirm the cascade is indistinguishable from $\Lambda$CDM in 21cm
+- 27: Confirm the cascade is indistinguishable from ΛCDM in 21cm
 - 28: Confirm the cascade 2D universes are not particles (SIDM inapplicable)
 - 29: Confirm the cascade 2D universes are not subcompact (consistent)
 - 30: Confirm the cascade has no DM-SM coupling (no gamma-ray signal)
@@ -9117,17 +9117,17 @@ These five additional constraints do not reduce the cascade's 2 free parameters 
 
 Continued web research (June 2026) yields five additional external constraints from the most current 2025-2026 datasets. The total external constraint catalog is now **35 constraints** (the most extensively tested thought-experiment model).
 
-31. **JWST MoM-z14 confirmed z=14.44 galaxy** (Naidu, Oesch, Brammer, Weibel, Li, Matthee, et al. 2025, arXiv:2505.11263, *A Cosmic Miracle: A Remarkably Luminous Galaxy at $z_{\rm spec}=14.44$ Confirmed with JWST*). The most distant spectroscopically confirmed galaxy: $z_{\rm spec} = 14.44$, existing at 280 Myr after the Big Bang. Luminosity is 100× higher than $\Lambda$CDM theoretical predictions; high nitrogen abundance (globular-cluster-like). This is the *newest* high-z galaxy record, beating JADES-GS-z14-0 at $z=14.18$ (Carniani+ 2024). **Cascade analysis:** at $z=14.44$, $(1+z)^4 = 1.9 \times 10^6 \times$ the present-day Thomson+energetic event rate. The cascade's $R_{2D}(z=14.44)$ is very high (under the broader Thomson-dominant principle, §4.51–§4.53). The cascade's predicted DM density at $z=14.44$ matches $\Lambda$CDM to $\sim 10\%$. The MoM-z14 brightness is driven by efficient early star formation, which in the cascade would also create many 2D universes, giving early DM — qualitatively consistent with JWST observations. **Status: QUALITATIVELY CONSISTENT** (cascade's broader principle predicts early DM in lockstep with early SF, which is needed to form such bright early galaxies).
+31. **JWST MoM-z14 confirmed z=14.44 galaxy** (Naidu, Oesch, Brammer, Weibel, Li, Matthee, et al. 2025, arXiv:2505.11263, *A Cosmic Miracle: A Remarkably Luminous Galaxy at z_rm spec=14.44 Confirmed with JWST*). The most distant spectroscopically confirmed galaxy: z_rm spec = 14.44, existing at 280 Myr after the Big Bang. Luminosity is 100× higher than ΛCDM theoretical predictions; high nitrogen abundance (globular-cluster-like). This is the *newest* high-z galaxy record, beating JADES-GS-z14-0 at z=14.18 (Carniani+ 2024). **Cascade analysis:** at z=14.44, (1+z)⁴ = 1.9 × 10⁶ × the present-day Thomson+energetic event rate. The cascade's R_₂D(z=14.44) is very high (under the broader Thomson-dominant principle, §4.51–§4.53). The cascade's predicted DM density at z=14.44 matches ΛCDM to ~ 10\%. The MoM-z14 brightness is driven by efficient early star formation, which in the cascade would also create many 2D universes, giving early DM — qualitatively consistent with JWST observations. **Status: QUALITATIVELY CONSISTENT** (cascade's broader principle predicts early DM in lockstep with early SF, which is needed to form such bright early galaxies).
 
-32. **DESI DR2 BAO (March 2025)** (Adame, Aguilar, Ahlen, et al. 2025, arXiv:2503.14738, *DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations*; Lodha, Calderon, Matthewson, et al. 2025, arXiv:2503.14743, *Extended Dark Energy analysis using DESI DR2 BAO measurements*). 14 million galaxies and quasars give the best BAO measurements to date. DR1 result (2024) **confirmed**: $3.5\sigma$ preference for evolving DE, with $w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (combined with SNe). The cosmological constant $\Lambda$ is *outside* the 95% confidence interval for $w_0$–$w_a$. $\Lambda$CDM is in $\sim 3.5\sigma$ tension with this preference. **Cascade analysis:** the cascade's DE is the 4D event's un-cancelled antigravity; the cascade *qualitatively* predicts evolving DE (the 4D event's antigravity output is not necessarily perfectly constant in 4D time). The cascade does *not* predict the specific $w_0$, $w_a$ values (Limitation 33). The DR2 result is **QUALITATIVELY CONSISTENT** with the cascade (DE evolves) but specific values are not derived from first principles.
+32. **DESI DR2 BAO (March 2025)** (Adame, Aguilar, Ahlen, et al. 2025, arXiv:2503.14738, *DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations*; Lodha, Calderon, Matthewson, et al. 2025, arXiv:2503.14743, *Extended Dark Energy analysis using DESI DR2 BAO measurements*). 14 million galaxies and quasars give the best BAO measurements to date. DR1 result (2024) **confirmed**: 3.5σ preference for evolving DE, with w₀ = -0.83 ± 0.16, w_a = -0.75 ± 0.30 (combined with SNe). The cosmological constant Λ is *outside* the 95% confidence interval for w₀–w_a. ΛCDM is in ~ 3.5σ tension with this preference. **Cascade analysis:** the cascade's DE is the 4D event's un-cancelled antigravity; the cascade *qualitatively* predicts evolving DE (the 4D event's antigravity output is not necessarily perfectly constant in 4D time). The cascade does *not* predict the specific w₀, w_a values (Limitation 33). The DR2 result is **QUALITATIVELY CONSISTENT** with the cascade (DE evolves) but specific values are not derived from first principles.
 
-33. **LZ 4.2 tonne-years** (Jellema, et al. 2025, arXiv:2410.17036, *Dark Matter Search Results from 4.2 Tonne-Years of Exposure of the LUX-ZEPLIN (LZ) Experiment*; LZ Collaboration, PRL 135, 2025). The most stringent published WIMP-nucleon spin-independent cross-section limits: $\sigma_{\rm SI} < 9.2 \times 10^{-48}$ cm² at $m_{\rm WIMP} = 40$ GeV/c² (90% CL), based on 280 live days from March 2023 to April 2025. No significant excess above background. **Cascade analysis:** cascade 2D universes have *no Standard Model coupling* — they are not WIMPs, not particles, not nucleon-scattering. LZ's null result is **INAPPLICABLE** to cascade DM, but it confirms the cascade framework's distinction between *dark matter* and *particle dark matter*.
+33. **LZ 4.2 tonne-years** (Jellema, et al. 2025, arXiv:2410.17036, *Dark Matter Search Results from 4.2 Tonne-Years of Exposure of the LUX-ZEPLIN (LZ) Experiment*; LZ Collaboration, PRL 135, 2025). The most stringent published WIMP-nucleon spin-independent cross-section limits: sigma_rm SI < 9.2 × 10^⁻⁴⁸ cm² at m_rm WIMP = 40 GeV/c² (90% CL), based on 280 live days from March 2023 to April 2025. No significant excess above background. **Cascade analysis:** cascade 2D universes have *no Standard Model coupling* — they are not WIMPs, not particles, not nucleon-scattering. LZ's null result is **INAPPLICABLE** to cascade DM, but it confirms the cascade framework's distinction between *dark matter* and *particle dark matter*.
 
-34. **XENONnT 3.1 tonne-years** (Aprile, Aalbers, Abe, et al. 2025, arXiv:2502.18005, *WIMP Dark Matter Search using a 3.1 Tonne-Year Exposure of the XENONnT Experiment*; PRL 135, 2025). Independent confirmation of best WIMP limits, combining the first and second XENONnT science campaigns. $\sigma_{\rm SI} < 1.7 \times 10^{-47}$ cm² at $m_{\rm WIMP} = 30$ GeV/c² (90% CL); best median sensitivity $1.4 \times 10^{-47}$ cm² at 41 GeV/c². Improves the SR0 result by a factor $\sim 2$. No significant excess; the search is now **limited by the Solar neutrino floor**. **Cascade analysis:** same as LZ (#33) — cascade 2D universes are not WIMPs, and the Solar neutrino floor is an "irreducible background" for any particle DM with standard weak couplings, but not for the cascade's geometric DM. **Status: INAPPLICABLE** (cascade 2D universes $\neq$ WIMPs).
+34. **XENONnT 3.1 tonne-years** (Aprile, Aalbers, Abe, et al. 2025, arXiv:2502.18005, *WIMP Dark Matter Search using a 3.1 Tonne-Year Exposure of the XENONnT Experiment*; PRL 135, 2025). Independent confirmation of best WIMP limits, combining the first and second XENONnT science campaigns. sigma_rm SI < 1.7 × 10^⁻⁴⁷ cm² at m_rm WIMP = 30 GeV/c² (90% CL); best median sensitivity 1.4 × 10^⁻⁴⁷ cm² at 41 GeV/c². Improves the SR0 result by a factor ~ 2. No significant excess; the search is now **limited by the Solar neutrino floor**. **Cascade analysis:** same as LZ (#33) — cascade 2D universes are not WIMPs, and the Solar neutrino floor is an "irreducible background" for any particle DM with standard weak couplings, but not for the cascade's geometric DM. **Status: INAPPLICABLE** (cascade 2D universes ≠ WIMPs).
 
-35. **LIGO-Virgo-KAGRA O4 catalog (November 2025)** (LVK Collaboration, LIGO Caltech announcement 2025-11-18, *LIGO–Virgo–KAGRA Complete Fourth Observing Run*). The O4 observing ran May 2023 to October 2025 (29 months), with 218+ confident gravitational wave detections through August 2025 (the 200th O4 detection was announced March 2025, doubling the total from O1+O2+O3 combined which was 90). The events are predominantly BBH, with smaller numbers of BNS, NSBH, and asymmetric mass mergers. O5 begins $\sim 2027$ with enhanced detectors. **Cascade analysis:** O4 BBH events are themselves *energetic events above $E_{\rm crit}$* in the cascade's framework, and should create 2D universes at the merger site. The 2D universe contribution to local DM from BBH mergers is *sub-dominant* to the cumulative contribution from SN, AGN, and other more frequent events. A potential testable signature: cross-correlation of GWTC events with weak-lensing maps (negligible S/N with current data; future direction). **Status: QUALITATIVELY CONSISTENT** (BBH mergers are energetic events in the cascade; 2D universe contribution to DM is sub-dominant but testable in principle).
+35. **LIGO-Virgo-KAGRA O4 catalog (November 2025)** (LVK Collaboration, LIGO Caltech announcement 2025-11-18, *LIGO–Virgo–KAGRA Complete Fourth Observing Run*). The O4 observing ran May 2023 to October 2025 (29 months), with 218+ confident gravitational wave detections through August 2025 (the 200th O4 detection was announced March 2025, doubling the total from O1+O2+O3 combined which was 90). The events are predominantly BBH, with smaller numbers of BNS, NSBH, and asymmetric mass mergers. O5 begins ~ 2027 with enhanced detectors. **Cascade analysis:** O4 BBH events are themselves *energetic events above E_rm crit* in the cascade's framework, and should create 2D universes at the merger site. The 2D universe contribution to local DM from BBH mergers is *sub-dominant* to the cumulative contribution from SN, AGN, and other more frequent events. A potential testable signature: cross-correlation of GWTC events with weak-lensing maps (negligible S/N with current data; future direction). **Status: QUALITATIVELY CONSISTENT** (BBH mergers are energetic events in the cascade; 2D universe contribution to DM is sub-dominant but testable in principle).
 
-**Supplementary (late update, June 2026):** UMa3/U1 revisited (Rostami-Shirazi, Haghi, Hasani Zonoozi, Kroupa 2025, arXiv:2508.10543, *Dark Star Clusters or Ultra-Faint Dwarf galaxies? Revisiting UMa3/U1*). The Ursa Major III/UNIONS 1 object (Smith+ 2024) — which Dalal & May 2025 used to set the $m > 8 \times 10^{-18}$ eV lower bound (constraint #2 in v2.7.2) — has been revisited. Rostami-Shirazi+ 2025 confirm: UMa3/U1 has $M_{\rm dyn}/L \sim 10^3$ (DM-dominated) but is cluster-like in compactness; classification as DM-dwarf vs self-gravitating cluster *remains unresolved*. The cascade's $m_{3+1D} = 10^{-15}$ GeV is $1.25 \times 10^{11} \times$ above the $8 \times 10^{-18}$ eV bound; this bound is robust to UMa3/U1 classification ambiguity (other dSphs set the same bound). **Status: CONSISTENT** (cascade's $m_{3+1D}$ bound is unchanged).
+**Supplementary (late update, June 2026):** UMa3/U1 revisited (Rostami-Shirazi, Haghi, Hasani Zonoozi, Kroupa 2025, arXiv:2508.10543, *Dark Star Clusters or Ultra-Faint Dwarf galaxies? Revisiting UMa3/U1*). The Ursa Major III/UNIONS 1 object (Smith+ 2024) — which Dalal & May 2025 used to set the m > 8 × 10^⁻¹⁸ eV lower bound (constraint #2 in v2.7.2) — has been revisited. Rostami-Shirazi+ 2025 confirm: UMa3/U1 has M_rm dyn/L ~ 10³ (DM-dominated) but is cluster-like in compactness; classification as DM-dwarf vs self-gravitating cluster *remains unresolved*. The cascade's m_₃+₁D = 10^⁻¹⁵ GeV is 1.25 × 10^¹¹ × above the 8 × 10^⁻¹⁸ eV bound; this bound is robust to UMa3/U1 classification ambiguity (other dSphs set the same bound). **Status: CONSISTENT** (cascade's m_₃+₁D bound is unchanged).
 
 **Cascade's total record (v2.7.3+ with this update):**
 
@@ -9135,23 +9135,23 @@ Continued web research (June 2026) yields five additional external constraints f
 - **24 CONSISTENT** (qualitatively or quantitatively)
 - **6 INAPPLICABLE** (cascade 2D universes are NOT particles: WIMP, SIDM, ALP, PBH, UFD, MeV γ-ray constraints)
 - **1 NEW CASCADE PREDICTION** (2D universe birth stochastic GW background, testable with SKA-MPG in 2030s)
-- **2 REMAINING FREE PARAMETERS** (μ, $m_{3+1D}$) — require 2D CFT theoretical physicist (Limitation 26 reduced)
+- **2 REMAINING FREE PARAMETERS** (μ, m_₃+₁D) — require 2D CFT theoretical physicist (Limitation 26 reduced)
 
-**KEY FINDING (unchanged):** TRGB $H_0 = 69.8 \pm 1.9$ is $0.2\sigma$ from cascade $H_{0,4D} = 70.16$ (KILLER MATCH — closest single external measurement). c=1 string theory matrix model is the exact solution of 2D quantum gravity (Limitation 26 reduced from "no framework" to "parameter values").
+**KEY FINDING (unchanged):** TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H_₀,₄D = 70.16 (KILLER MATCH — closest single external measurement). c=1 string theory matrix model is the exact solution of 2D quantum gravity (Limitation 26 reduced from "no framework" to "parameter values").
 
 #### 8.1.9 Extended 2025-2026 constraints catalog (v2.7.3+, round 7)
 
 Continued web research (June 2026) yields five more external constraints from 2025 datasets and theoretical developments. The total external constraint catalog is now **40 constraints**.
 
-36. **TDCOSMO 2025 strong lensing time-delay cosmography** (Birrer, Buckley-Geer, Cappellari, Courbin, Dux, Fassnacht, Frieman, Galan, Gilman, et al. 2025, arXiv:2506.03023, *TDCOSMO 2025: Cosmological constraints from strong lensing time delays*; published A&A December 2025, v4). Strong lensing time-delay cosmography using 8 strongly lensed quasars (the TDCOSMO-2025 sample), incorporating new JWST, Keck, and VLT stellar velocity dispersion measurements. Combined with Pantheon+ SNe for $\Omega_m$ prior, the result is $H_0 = 71.6^{+3.9}_{-3.3}$ km/s/Mpc in flat $\Lambda$CDM. **Cascade analysis:** cascade's $H_{0,4D} = 70.16$ (geometric mean of SH0ES 73.04 and Planck CMB 67.4) is $0.4\sigma$ from the TDCOSMO 2025 result, sitting between SH0ES ($73.04$, $0.4\sigma$ above) and Planck CMB ($67.4$, $1.0\sigma$ below). The cascade does not derive a specific $H_0$ value (Mechanism M); the TDCOSMO 2025 result is **QUALITATIVELY CONSISTENT** with the cascade's $H_{0,4D} = 70.16$ being a real property of the data.
+36. **TDCOSMO 2025 strong lensing time-delay cosmography** (Birrer, Buckley-Geer, Cappellari, Courbin, Dux, Fassnacht, Frieman, Galan, Gilman, et al. 2025, arXiv:2506.03023, *TDCOSMO 2025: Cosmological constraints from strong lensing time delays*; published A&A December 2025, v4). Strong lensing time-delay cosmography using 8 strongly lensed quasars (the TDCOSMO-2025 sample), incorporating new JWST, Keck, and VLT stellar velocity dispersion measurements. Combined with Pantheon+ SNe for Omega_m prior, the result is H₀ = 71.6^⁺³.⁹_-₃.₃ km/s/Mpc in flat ΛCDM. **Cascade analysis:** cascade's H_₀,₄D = 70.16 (geometric mean of SH0ES 73.04 and Planck CMB 67.4) is 0.4σ from the TDCOSMO 2025 result, sitting between SH0ES (73.04, 0.4σ above) and Planck CMB (67.4, 1.0σ below). The cascade does not derive a specific H₀ value (Mechanism M); the TDCOSMO 2025 result is **QUALITATIVELY CONSISTENT** with the cascade's H_₀,₄D = 70.16 being a real property of the data.
 
-37. **TDCOSMO XXIV doubly lensed quasar HE1104-1805** (Paic, Courbin, Fassnacht, Galan, Millon, Sluse, Williams, Birrer, et al. 2025, arXiv:2512.03178, *TDCOSMO. XXIV. Measurement of the Hubble constant from the doubly lensed quasar HE1104-1805*). The first major TDCOSMO result on a doubly lensed system, with $H_0 = 64.2^{+5.8}_{-5.0}$ km/s/Mpc ($\lambda_{\rm int} = 1$ prior on the external shear). **Cascade analysis:** TDCOSMO XXIV is $1.0\sigma$ BELOW cascade $H_{0,4D} = 70.16$, while TDCOSMO 2025 (8-quad sample) is $0.4\sigma$ ABOVE. The range $[64.2, 71.6]$ from TDCOSMO 2025 (8-quad + 4-quad) brackets the cascade's $H_{0,4D} = 70.16$ prediction. The TDCOSMO 2025 8-quad sample is the *second* closest single external measurement to the cascade (after TRGB $0.2\sigma$). **Status: QUALITATIVELY CONSISTENT** (cascade $H_{0,4D}$ within the TDCOSMO 2025 range).
+37. **TDCOSMO XXIV doubly lensed quasar HE1104-1805** (Paic, Courbin, Fassnacht, Galan, Millon, Sluse, Williams, Birrer, et al. 2025, arXiv:2512.03178, *TDCOSMO. XXIV. Measurement of the Hubble constant from the doubly lensed quasar HE1104-1805*). The first major TDCOSMO result on a doubly lensed system, with H₀ = 64.2^⁺⁵.⁸_-₅.₀ km/s/Mpc (lambda_rm int = 1 prior on the external shear). **Cascade analysis:** TDCOSMO XXIV is 1.0σ BELOW cascade H_₀,₄D = 70.16, while TDCOSMO 2025 (8-quad sample) is 0.4σ ABOVE. The range [64.2, 71.6] from TDCOSMO 2025 (8-quad + 4-quad) brackets the cascade's H_₀,₄D = 70.16 prediction. The TDCOSMO 2025 8-quad sample is the *second* closest single external measurement to the cascade (after TRGB 0.2σ). **Status: QUALITATIVELY CONSISTENT** (cascade H_₀,₄D within the TDCOSMO 2025 range).
 
-38. **DES Y6 3$\times$2pt analysis with EFTofLSS** (D'Amico, Refregier, Senatore, Zhang 2025, arXiv:2510.24878, *The cosmological analysis of DES 3$\times$2pt data from the Effective Field Theory of Large-Scale Structure*, October 2025). Re-analysis of the DES Year 3 3$\times$2pt data (galaxy clustering + galaxy-galaxy lensing + cosmic shear) using one-loop EFTofLSS predictions, validated against numerical simulations. Result: $S_8 = 0.833 \pm 0.032$ (68% CL), with $3.8\%$ uncertainty. **Cascade analysis:** $S_8 = 0.833$ sits between CMB-inferred $S_8 = 0.840$ (ACT DR6) and weak-lensing $S_8 = 0.776$ (HSC Y3), and $0.78$ (KiDS-Legacy). The cascade predicts a *mild suppression* of $S_8$ relative to CMB-inferred values (cascade's MOND-like $g_+$ floor; $\S 4.43$). The DES Y6 3$\times$2pt result of $0.833$ is consistent with this prediction: it is $0.2\sigma$ below ACT DR6 ($0.840$, consistent within error), and the small difference supports a *mild* $S_8$ suppression. The tension with HSC Y3 ($0.776$) is $\sim 1.8\sigma$ — persistent, but reduced compared to earlier estimates. **Status: QUALITATIVELY CONSISTENT** (cascade's MOND-like floor interpretation supported by the new EFTofLSS-analyzed $S_8 = 0.833$).
+38. **DES Y6 3×2pt analysis with EFTofLSS** (D'Amico, Refregier, Senatore, Zhang 2025, arXiv:2510.24878, *The cosmological analysis of DES 3×2pt data from the Effective Field Theory of Large-Scale Structure*, October 2025). Re-analysis of the DES Year 3 3×2pt data (galaxy clustering + galaxy-galaxy lensing + cosmic shear) using one-loop EFTofLSS predictions, validated against numerical simulations. Result: S₈ = 0.833 ± 0.032 (68% CL), with 3.8\% uncertainty. **Cascade analysis:** S₈ = 0.833 sits between CMB-inferred S₈ = 0.840 (ACT DR6) and weak-lensing S₈ = 0.776 (HSC Y3), and 0.78 (KiDS-Legacy). The cascade predicts a *mild suppression* of S₈ relative to CMB-inferred values (cascade's MOND-like g_+ floor; S 4.43). The DES Y6 3×2pt result of 0.833 is consistent with this prediction: it is 0.2σ below ACT DR6 (0.840, consistent within error), and the small difference supports a *mild* S₈ suppression. The tension with HSC Y3 (0.776) is ~ 1.8σ — persistent, but reduced compared to earlier estimates. **Status: QUALITATIVELY CONSISTENT** (cascade's MOND-like floor interpretation supported by the new EFTofLSS-analyzed S₈ = 0.833).
 
-39. **JT gravity non-perturbative overlaps and baby universe effects** (March 2025, arXiv:2502.12266, JHEP 06(2025)251, *Non-perturbative overlaps in JT gravity: from spectral form factor to generating functions of complexity*). This work investigates non-perturbative overlaps in Jackiw-Teitelboim (JT) gravity, uncovering universal signatures of quantum chaos and quantum complexity. The "baby universe effect" — non-perturbative contributions from multi-brane 2D universe creation/annihilation events — is now characterized rigorously. **Cascade analysis:** the JT gravity multi-brane sector is the *mathematical foundation* for the cascade's 2D universe population (constraint #18 in $\S 8.1.4$, *JT gravity boundary conditions*). This 2025 work validates that multi-brane JT gravity is well-defined non-perturbatively, and the baby-universe corrections to the spectral form factor match the cascade's predicted $P(m_{2D})$ form. Combined with the earlier Suzuki-Takayanagi 2021 result (constraint #12) that JT gravity is the LOW-ENERGY LIMIT of non-critical string, and the c=1 matrix model being the *unique* exactly solvable 2D QG (constraint #13), the cascade's framework is now rigorously confirmed. **Status: STRENGTHENS theoretical foundation** (JT = c=1 string, matrix model = exact framework, non-perturbative multi-brane 2D universe physics confirmed).
+39. **JT gravity non-perturbative overlaps and baby universe effects** (March 2025, arXiv:2502.12266, JHEP 06(2025)251, *Non-perturbative overlaps in JT gravity: from spectral form factor to generating functions of complexity*). This work investigates non-perturbative overlaps in Jackiw-Teitelboim (JT) gravity, uncovering universal signatures of quantum chaos and quantum complexity. The "baby universe effect" — non-perturbative contributions from multi-brane 2D universe creation/annihilation events — is now characterized rigorously. **Cascade analysis:** the JT gravity multi-brane sector is the *mathematical foundation* for the cascade's 2D universe population (constraint #18 in S 8.1.4, *JT gravity boundary conditions*). This 2025 work validates that multi-brane JT gravity is well-defined non-perturbatively, and the baby-universe corrections to the spectral form factor match the cascade's predicted P(m_₂D) form. Combined with the earlier Suzuki-Takayanagi 2021 result (constraint #12) that JT gravity is the LOW-ENERGY LIMIT of non-critical string, and the c=1 matrix model being the *unique* exactly solvable 2D QG (constraint #13), the cascade's framework is now rigorously confirmed. **Status: STRENGTHENS theoretical foundation** (JT = c=1 string, matrix model = exact framework, non-perturbative multi-brane 2D universe physics confirmed).
 
-40. **Two Decades of Probabilistic Approach to Liouville Conformal Field Theory** (Ghosal, Remy, Sun, Yi Sun, and others 2025, arXiv:2509.21053, *Two Decades of Probabilistic Approach to Liouville Conformal Field Theory*, September 2025). A review of the rigorous mathematical construction of Liouville CFT using probabilistic methods (Gaussian Multiplicative Chaos). The DOZZ formula (Dorn-Otto-Zamolodchikov-Zamolodchikov, the 3-point structure constant) now has a fully rigorous probabilistic proof. The conclusion: "A rigorous path integral construction can be turned into a complete bootstrap program." **Cascade analysis:** the cascade's choice of $b = i$ giving $c = 1$ (single scalar Liouville CFT) is now *mathematically exact* — the only Liouville CFT with a closed-form matrix model solution. Combined with the earlier constraints (#12 JT as c<1 string, #13 c=1 matrix model, #15 Schwarzian limit), the cascade's framework is now *fully solved* at the theoretical level. The only unknowns are the *specific values* of $\mu$ and $m_{3+1D}$ — not the framework itself. **Limitation 26 is FURTHER reduced** from "specific values of a framework" to "specific values of a fully solved framework" (no framework, no Lagrangian, no central charge, no matrix model specification remain as unknowns). **Status: STRENGTHENS theoretical foundation** (Liouville CFT is now mathematically rigorous; cascade's choice of c=1 is the unique exactly solvable case; the only remaining unknowns are $\mu$ and $m_{3+1D}$, both of which are the 2 honest free parameters mapping onto the cosmological-constant and dark-matter-mass questions).
+40. **Two Decades of Probabilistic Approach to Liouville Conformal Field Theory** (Ghosal, Remy, Sun, Yi Sun, and others 2025, arXiv:2509.21053, *Two Decades of Probabilistic Approach to Liouville Conformal Field Theory*, September 2025). A review of the rigorous mathematical construction of Liouville CFT using probabilistic methods (Gaussian Multiplicative Chaos). The DOZZ formula (Dorn-Otto-Zamolodchikov-Zamolodchikov, the 3-point structure constant) now has a fully rigorous probabilistic proof. The conclusion: "A rigorous path integral construction can be turned into a complete bootstrap program." **Cascade analysis:** the cascade's choice of b = i giving c = 1 (single scalar Liouville CFT) is now *mathematically exact* — the only Liouville CFT with a closed-form matrix model solution. Combined with the earlier constraints (#12 JT as c<1 string, #13 c=1 matrix model, #15 Schwarzian limit), the cascade's framework is now *fully solved* at the theoretical level. The only unknowns are the *specific values* of μ and m_₃+₁D — not the framework itself. **Limitation 26 is FURTHER reduced** from "specific values of a framework" to "specific values of a fully solved framework" (no framework, no Lagrangian, no central charge, no matrix model specification remain as unknowns). **Status: STRENGTHENS theoretical foundation** (Liouville CFT is now mathematically rigorous; cascade's choice of c=1 is the unique exactly solvable case; the only remaining unknowns are μ and m_₃+₁D, both of which are the 2 honest free parameters mapping onto the cosmological-constant and dark-matter-mass questions).
 
 **Cascade's total record (v2.7.3+ with this update):**
 
@@ -9160,23 +9160,23 @@ Continued web research (June 2026) yields five more external constraints from 20
 - **6 INAPPLICABLE** (cascade 2D universes are NOT particles)
 - **1 NEW CASCADE PREDICTION** (2D universe birth stochastic GW background, testable with SKA-MPG in 2030s)
 - **7 STRENGTHEN theoretical foundation** (c=1 string, JT gravity, matrix model, DOZZ, Schwarzian, Probabilistic Liouville, Non-perturbative overlaps)
-- **2 REMAINING FREE PARAMETERS** ($\mu$, $m_{3+1D}$) — require 2D CFT theoretical physicist (Limitation 26 *further* reduced)
+- **2 REMAINING FREE PARAMETERS** (μ, m_₃+₁D) — require 2D CFT theoretical physicist (Limitation 26 *further* reduced)
 
-**KEY FINDING (unchanged):** TRGB $H_0 = 69.8 \pm 1.9$ is $0.2\sigma$ from cascade $H_{0,4D} = 70.16$ (KILLER MATCH — closest single external measurement). c=1 string theory matrix model is the exact solution of 2D quantum gravity (Limitation 26 reduced from "no framework" to "parameter values", *further* reduced to "specific values of a fully solved framework").
+**KEY FINDING (unchanged):** TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H_₀,₄D = 70.16 (KILLER MATCH — closest single external measurement). c=1 string theory matrix model is the exact solution of 2D quantum gravity (Limitation 26 reduced from "no framework" to "parameter values", *further* reduced to "specific values of a fully solved framework").
 
 #### 8.1.10 Round 8 constraints: GW, eROSITA, SPHEREx, ACT+DESI (v2.7.3+, June 2026)
 
 Five more 2025-2026 results from gravitational-wave catalogs, all-sky X-ray surveys, near-IR cosmology missions, and joint CMB+BAO+H₀ analyses. Total external constraint catalog: **45 constraints**.
 
-41. **eROSITA all-sky ultralight axion constraints** (Zelmer, Artis, Bulbul, Grandis, Ghirardini, et al. 2025, arXiv:2502.03353, A&A December 2025). The SRG/eROSITA All-Sky Survey constraints on ultralight axion dark matter using galaxy cluster number counts (5259 clusters, 12791 deg² in the western Galactic hemisphere). The result constrains the axion mass in the range $m_a \sim 10^{-22}$ eV (the ultralight fuzzy DM regime), excluding axion fractions above ~1% at $m_a \sim 10^{-22}$ eV. **Cascade analysis:** the cascade's "dark matter" is *geometric* (2D universe back-projection), NOT a particle species. The ultralight axion is one of several proposed fuzzy-DM-like particle species. The cascade does not propose an axion. **Status: INAPPLICABLE** (cascade 2D universes are NOT particles; the constraint rules out *axion* DM, not geometric DM).
+41. **eROSITA all-sky ultralight axion constraints** (Zelmer, Artis, Bulbul, Grandis, Ghirardini, et al. 2025, arXiv:2502.03353, A&A December 2025). The SRG/eROSITA All-Sky Survey constraints on ultralight axion dark matter using galaxy cluster number counts (5259 clusters, 12791 deg² in the western Galactic hemisphere). The result constrains the axion mass in the range m_a ~ 10^⁻²² eV (the ultralight fuzzy DM regime), excluding axion fractions above ~1% at m_a ~ 10^⁻²² eV. **Cascade analysis:** the cascade's "dark matter" is *geometric* (2D universe back-projection), NOT a particle species. The ultralight axion is one of several proposed fuzzy-DM-like particle species. The cascade does not propose an axion. **Status: INAPPLICABLE** (cascade 2D universes are NOT particles; the constraint rules out *axion* DM, not geometric DM).
 
-42. **SPHEREx first all-sky near-IR spectral map** (NASA/JPL May 2025, *SPHEREx Observatory Completes First Cosmic Map*). SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer) launched March 11, 2025, and completed its first all-sky near-IR spectral survey by May 2025, imaging 450+ million galaxies and 100+ million Milky Way stars across 102 wavelengths. The first cosmic map was released June 2025. **Cascade analysis:** SPHEREx will measure the large-scale structure power spectrum to ~1% precision and constrain inflation through the running of the spectral index ($\sigma_8$ vs $f_{\rm NL}$). The cascade's MOND-like $g_+$ floor ($\S 4.43$) predicts a *mild suppression* of $\sigma_8$ relative to CMB-inferred values, which SPHEREx will test at the cosmic-web scale. SPHEREx Y1 (2026-2027) will provide the first precision test of the cascade's LSS prediction. **Status: QUALITATIVELY CONSISTENT** (first data; full analysis 2026-2027).
+42. **SPHEREx first all-sky near-IR spectral map** (NASA/JPL May 2025, *SPHEREx Observatory Completes First Cosmic Map*). SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer) launched March 11, 2025, and completed its first all-sky near-IR spectral survey by May 2025, imaging 450+ million galaxies and 100+ million Milky Way stars across 102 wavelengths. The first cosmic map was released June 2025. **Cascade analysis:** SPHEREx will measure the large-scale structure power spectrum to ~1% precision and constrain inflation through the running of the spectral index (sigma₈ vs f_rm NL). The cascade's MOND-like g_+ floor (S 4.43) predicts a *mild suppression* of sigma₈ relative to CMB-inferred values, which SPHEREx will test at the cosmic-web scale. SPHEREx Y1 (2026-2027) will provide the first precision test of the cascade's LSS prediction. **Status: QUALITATIVELY CONSISTENT** (first data; full analysis 2026-2027).
 
-43. **GW231123 — most massive binary black hole merger to date** (LIGO-Virgo-KAGRA Collaboration, announced July 15, 2025, *ApJL* 993, L25; arXiv:2507.08254, July 2025). Gravitational-wave signal detected November 23, 2023 by both LIGO observatories. Source masses: $137^{+23}_{-18}\,M_\odot$ and $100^{+20}_{-30}\,M_\odot$, total mass $190$–$265\,M_\odot$, final black hole ~$225\,M_\odot$. The final BH is in the *pair-instability mass gap* — the standard stellar-evolution channel cannot produce BHs in this mass range. **Cascade analysis:** high-mass BBH events in the cascade are *energetic events* that create 2D universes (Mechanism M, $\S 3.2$). A 225 $M_\odot$ final BH implies ~$10^{62}$ erg radiated as GWs — energetically capable of "detaching" a 2D universe from a 4D event. GW231123 confirms that BBH populations extend beyond standard stellar-progenitor formation; the cascade's "energetic events create 2D universes" framework provides a *natural energy scale* for 2D universe creation. **Status: QUALITATIVELY CONSISTENT** (energetic events in the cascade correspond to 2D universe creation; GW231123 confirms a high-mass BBH population).
+43. **GW231123 — most massive binary black hole merger to date** (LIGO-Virgo-KAGRA Collaboration, announced July 15, 2025, *ApJL* 993, L25; arXiv:2507.08254, July 2025). Gravitational-wave signal detected November 23, 2023 by both LIGO observatories. Source masses: 137^⁺²³_-₁₈ M_odot and 100^⁺²⁰_-₃₀ M_odot, total mass 190–265 M_odot, final black hole ~225 M_odot. The final BH is in the *pair-instability mass gap* — the standard stellar-evolution channel cannot produce BHs in this mass range. **Cascade analysis:** high-mass BBH events in the cascade are *energetic events* that create 2D universes (Mechanism M, S 3.2). A 225 M_odot final BH implies ~10^⁶² erg radiated as GWs — energetically capable of "detaching" a 2D universe from a 4D event. GW231123 confirms that BBH populations extend beyond standard stellar-progenitor formation; the cascade's "energetic events create 2D universes" framework provides a *natural energy scale* for 2D universe creation. **Status: QUALITATIVELY CONSISTENT** (energetic events in the cascade correspond to 2D universe creation; GW231123 confirms a high-mass BBH population).
 
-44. **GW230529 — neutron-star–black-hole merger with mass-gap primary** (LIGO-Virgo-KAGRA Collaboration, 2024, with 2025 follow-ups including arXiv:2503.17872, *Possible binary neutron star merger history of the primary of GW230529*, March 2025; and kilonova search results, November 2025). GW230529 was detected by LIGO Livingston on May 29, 2023. Source masses: primary $2.5$–$4.5\,M_\odot$ (in the *mass gap* between heaviest neutron stars and lightest stellar black holes), secondary $1.2$–$2.0\,M_\odot$ (neutron star). The first BHNS merger with a *significant* potential for electromagnetic counterpart and kilonova emission. **Cascade analysis:** mass-gap object formation is a CHALLENGE for stellar-evolution-only formation channels. The cascade does NOT predict specific NSBH mass distributions; the cascade's "DM" is geometric, not a compact object population. GW230529 is an *observational* puzzle for stellar astrophysics, not a direct cascade test. **Status: QUALITATIVELY CONSISTENT** (cascade is silent on mass-gap formation; the mass-gap object puzzle is independent of the cascade).
+44. **GW230529 — neutron-star–black-hole merger with mass-gap primary** (LIGO-Virgo-KAGRA Collaboration, 2024, with 2025 follow-ups including arXiv:2503.17872, *Possible binary neutron star merger history of the primary of GW230529*, March 2025; and kilonova search results, November 2025). GW230529 was detected by LIGO Livingston on May 29, 2023. Source masses: primary 2.5–4.5 M_odot (in the *mass gap* between heaviest neutron stars and lightest stellar black holes), secondary 1.2–2.0 M_odot (neutron star). The first BHNS merger with a *significant* potential for electromagnetic counterpart and kilonova emission. **Cascade analysis:** mass-gap object formation is a CHALLENGE for stellar-evolution-only formation channels. The cascade does NOT predict specific NSBH mass distributions; the cascade's "DM" is geometric, not a compact object population. GW230529 is an *observational* puzzle for stellar astrophysics, not a direct cascade test. **Status: QUALITATIVELY CONSISTENT** (cascade is silent on mass-gap formation; the mass-gap object puzzle is independent of the cascade).
 
-45. **ACT DR6 + DESI DR1 + Planck NPIPE joint H₀ determination** (Maus, White, Sailer, Baleato Lizancos, Ferraro, Chen, DeRose, et al. 2025, *A joint analysis of 3D clustering and galaxy × CMB-lensing cross-correlations with DESI DR1 galaxies*, arXiv:2505.20656, May 2025, revised October 2025). Joint analysis of 3D galaxy clustering from DESI DR1 Luminous Red Galaxies (LRGs) and Emission Line Galaxies (ELGs), combined with CMB lensing measurements from ACT DR6 and Planck PR4 (NPIPE), using one-loop EFTofLSS theory. Result: $H_0 = 69.08 \pm 0.37$ km/s/Mpc (1.4% precision), with $\Omega_m = 0.2973 \pm 0.0086$. **Cascade analysis:** $H_0 = 69.08 \pm 0.37$ is the *most precise* joint CMB + BAO + clustering + lensing H₀ measurement to date, sitting between Planck CMB ($67.4$, $4.6\sigma$ below) and SH0ES ($73.04$, $10.7\sigma$ above). Cascade's $H_{0,4D} = 70.16$ (geometric mean of Planck and SH0ES) is $2.9\sigma$ above this ACT+DESI+Planck result, which is *the* most precise H₀ measurement that does NOT use Cepheid/Trigonometric distance anchors. The cascade does not derive a specific H₀ value (Mechanism M is geometric, not dynamical for H₀); the ACT+DESI+Planck result is QUALITATIVELY CONSISTENT in that it sits between the two extremes that the cascade H₀,4D averages. **Status: QUALITATIVELY CONSISTENT** (cascade H₀,4D is a heuristic geometric mean, not a model prediction; the new joint analysis tightens the H₀ tension to 4.6σ between Planck and SH0ES).
+45. **ACT DR6 + DESI DR1 + Planck NPIPE joint H₀ determination** (Maus, White, Sailer, Baleato Lizancos, Ferraro, Chen, DeRose, et al. 2025, *A joint analysis of 3D clustering and galaxy × CMB-lensing cross-correlations with DESI DR1 galaxies*, arXiv:2505.20656, May 2025, revised October 2025). Joint analysis of 3D galaxy clustering from DESI DR1 Luminous Red Galaxies (LRGs) and Emission Line Galaxies (ELGs), combined with CMB lensing measurements from ACT DR6 and Planck PR4 (NPIPE), using one-loop EFTofLSS theory. Result: H₀ = 69.08 ± 0.37 km/s/Mpc (1.4% precision), with Omega_m = 0.2973 ± 0.0086. **Cascade analysis:** H₀ = 69.08 ± 0.37 is the *most precise* joint CMB + BAO + clustering + lensing H₀ measurement to date, sitting between Planck CMB (67.4, 4.6σ below) and SH0ES (73.04, 10.7σ above). Cascade's H_₀,₄D = 70.16 (geometric mean of Planck and SH0ES) is 2.9σ above this ACT+DESI+Planck result, which is *the* most precise H₀ measurement that does NOT use Cepheid/Trigonometric distance anchors. The cascade does not derive a specific H₀ value (Mechanism M is geometric, not dynamical for H₀); the ACT+DESI+Planck result is QUALITATIVELY CONSISTENT in that it sits between the two extremes that the cascade H₀,4D averages. **Status: QUALITATIVELY CONSISTENT** (cascade H₀,4D is a heuristic geometric mean, not a model prediction; the new joint analysis tightens the H₀ tension to 4.6σ between Planck and SH0ES).
 
 **Cascade's total record (v2.7.3+ with this update):**
 
@@ -9185,19 +9185,19 @@ Five more 2025-2026 results from gravitational-wave catalogs, all-sky X-ray surv
 - **7 INAPPLICABLE** (cascade 2D universes are NOT particles)
 - **1 NEW CASCADE PREDICTION** (2D universe birth stochastic GW background, testable with SKA-MPG in 2030s)
 - **7 STRENGTHEN theoretical foundation** (c=1 string, JT gravity, matrix model, DOZZ, Schwarzian, Probabilistic Liouville, Non-perturbative overlaps)
-- **2 REMAINING FREE PARAMETERS** ($\mu$, $m_{3+1D}$) — require 2D CFT theoretical physicist (Limitation 26 *further* reduced)
+- **2 REMAINING FREE PARAMETERS** (μ, m_₃+₁D) — require 2D CFT theoretical physicist (Limitation 26 *further* reduced)
 
-**KEY FINDING (unchanged):** TRGB $H_0 = 69.8 \pm 1.9$ is $0.2\sigma$ from cascade $H_{0,4D} = 70.16$ (KILLER MATCH — closest single external measurement). The new ACT DR6 + DESI DR1 + Planck NPIPE $H_0 = 69.08 \pm 0.37$ (May 2025) is the *most precise* joint H₀ measurement to date; the cascade H₀,4D sits *above* this ($2.9\sigma$) but *below* SH0ES Cepheid $73.04$ ($2.8\sigma$), occupying the middle of the [67.4, 73.04] tension.
+**KEY FINDING (unchanged):** TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H_₀,₄D = 70.16 (KILLER MATCH — closest single external measurement). The new ACT DR6 + DESI DR1 + Planck NPIPE H₀ = 69.08 ± 0.37 (May 2025) is the *most precise* joint H₀ measurement to date; the cascade H₀,4D sits *above* this (2.9σ) but *below* SH0ES Cepheid 73.04 (2.8σ), occupying the middle of the [67.4, 73.04] tension.
 
 ## 9. SIDC vs its Competitors: A Detailed Comparison
 
-Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" to existing models depends entirely on the evaluation metric. If the metric is *mathematical and operational completion*, standard cosmology ($\Lambda$CDM) remains the reigning framework, with 30 years of formal calculations, coordinate-invariant field theory, and fluid-dynamics simulation pipelines. If the metric is *parsimony and empirical coverage* — explaining the maximum number of distinct cosmic anomalies with the fewest arbitrary assumptions — SIDC presents a profoundly elegant, architecturally superior alternative. This section walks through the literal "engineering tradeoffs" of SIDC versus each major paradigm.
+Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" to existing models depends entirely on the evaluation metric. If the metric is *mathematical and operational completion*, standard cosmology (ΛCDM) remains the reigning framework, with 30 years of formal calculations, coordinate-invariant field theory, and fluid-dynamics simulation pipelines. If the metric is *parsimony and empirical coverage* — explaining the maximum number of distinct cosmic anomalies with the fewest arbitrary assumptions — SIDC presents a profoundly elegant, architecturally superior alternative. This section walks through the literal "engineering tradeoffs" of SIDC versus each major paradigm.
 
-### 9.1 SIDC vs Standard Cosmology ($\Lambda$CDM)
+### 9.1 SIDC vs Standard Cosmology (ΛCDM)
 
-**$\Lambda$CDM's burden.** $\Lambda$CDM requires accepting an increasingly messy and bloated "codebase" to explain new telescope data. It assumes (1) an undiscovered physical particle (WIMPs, axions, or sterile neutrinos) for dark matter, (2) a fine-tuned cosmological constant ($\Lambda$) for dark energy, and (3) a highly complex web of adjustable "baryonic feedback" parameters to reconcile simulations with observations. The small-scale failures are the most visible: because $\Lambda$CDM assumes dark matter is made of physical, collisionless particles, gravity inherently clumps at small scales, producing the cusp-core problem, the missing satellites problem, too-big-to-fail, and lensing flux ratio anomalies.
+**ΛCDM's burden.** ΛCDM requires accepting an increasingly messy and bloated "codebase" to explain new telescope data. It assumes (1) an undiscovered physical particle (WIMPs, axions, or sterile neutrinos) for dark matter, (2) a fine-tuned cosmological constant (Λ) for dark energy, and (3) a highly complex web of adjustable "baryonic feedback" parameters to reconcile simulations with observations. The small-scale failures are the most visible: because ΛCDM assumes dark matter is made of physical, collisionless particles, gravity inherently clumps at small scales, producing the cusp-core problem, the missing satellites problem, too-big-to-fail, and lensing flux ratio anomalies.
 
-**SIDC's structural advantage.** In the SIDC framework, dark matter is a smooth, localized metric back-projection resulting from the $S_{\text{destruction}}$ action parameter. Because it is not a physical particle, clumpy sub-halos do not exist *by construction*. By replacing physical particles with a geometric projection, those four historic small-scale crises collapse simultaneously. SIDC achieves massive parsimony where $\Lambda$CDM requires endless parametric fine-tuning.
+**SIDC's structural advantage.** In the SIDC framework, dark matter is a smooth, localized metric back-projection resulting from the S_{destruction} action parameter. Because it is not a physical particle, clumpy sub-halos do not exist *by construction*. By replacing physical particles with a geometric projection, those four historic small-scale crises collapse simultaneously. SIDC achieves massive parsimony where ΛCDM requires endless parametric fine-tuning.
 
 **Quantitative comparison:**
 
@@ -9211,9 +9211,9 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 ### 9.2 SIDC vs MOND (Modified Newtonian Dynamics)
 
-**MOND's strength and weakness.** MOND elegantly eliminates the need for dark matter in individual spiral galaxies by modifying Newton's law of gravity at a universal acceleration floor ($a_0 \sim 1.2 \times 10^{-10}$ m/s²). It works beautifully for isolated spiral galaxies (the SPARC dataset, 175 galaxies). But it fails fundamentally in massive galaxy clusters: the observed acceleration scale in cluster cores is an order of magnitude higher ($\sim 10^{-9}$ m/s², Tian+ 2024), forcing MOND proponents to awkwardly introduce unseen baryonic gas or hypothetical sterile neutrinos to make the math work.
+**MOND's strength and weakness.** MOND elegantly eliminates the need for dark matter in individual spiral galaxies by modifying Newton's law of gravity at a universal acceleration floor (a₀ ~ 1.2 × 10^⁻¹⁰ m/s²). It works beautifully for isolated spiral galaxies (the SPARC dataset, 175 galaxies). But it fails fundamentally in massive galaxy clusters: the observed acceleration scale in cluster cores is an order of magnitude higher (~ 10^⁻⁹ m/s², Tian+ 2024), forcing MOND proponents to awkwardly introduce unseen baryonic gas or hypothetical sterile neutrinos to make the math work.
 
-**SIDC's hybrid advantage.** The cascade behaves like MOND in quiet, low-density spiral arms because the 2D universe projection establishes a non-linear acceleration floor. However, because the model tracks integrated historical energetic events, massive galaxy clusters — which are filled with violent, space-time-compressing plasma shocks — consistently blow past the $E_{\text{crit}}$ phase-transition threshold across massive spatial volumes. This naturally scales the apparent acceleration up to match the Tian+ 2024 cluster data, seamlessly bridging the gap that leaves MOND stranded.
+**SIDC's hybrid advantage.** The cascade behaves like MOND in quiet, low-density spiral arms because the 2D universe projection establishes a non-linear acceleration floor. However, because the model tracks integrated historical energetic events, massive galaxy clusters — which are filled with violent, space-time-compressing plasma shocks — consistently blow past the E_{crit} phase-transition threshold across massive spatial volumes. This naturally scales the apparent acceleration up to match the Tian+ 2024 cluster data, seamlessly bridging the gap that leaves MOND stranded.
 
 **Quantitative comparison:**
 
@@ -9229,7 +9229,7 @@ SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling
 
 **The "top-down" complexity failure.** Large Extra Dimension (ADD) and Warped Extra Dimension (Randall-Sundrum) models are "top-down" architectures. They posit a massive, static higher-dimensional "bulk" space to dilute gravity and solve the Hierarchy Problem. These theories excel at mathematical string-theory formalisms, but they treat the extra dimensions as permanent, passive plumbing. They do not natively explain the dark sector or specific galactic evolutionary anomalies without adding highly specialized scalar fields or assuming unobserved parallel branes.
 
-**SIDC's dynamic advantage.** SIDC is a *dynamic, bottom-up* fractal cascade. Extra dimensions aren't a static background; our universe actively spawns lower-dimensional spaces (3+1D → 2D) when localized energy density passes a critical threshold ($E_{\text{crit}}$). The dark sector is reframed as the dynamic, time-delayed transactional debt of this scale-invariant lifecycle. The model uses dimensions to solve the Hierarchy Problem while simultaneously outputting the exact galactic dark profiles observed in nature.
+**SIDC's dynamic advantage.** SIDC is a *dynamic, bottom-up* fractal cascade. Extra dimensions aren't a static background; our universe actively spawns lower-dimensional spaces (3+1D → 2D) when localized energy density passes a critical threshold (E_{crit}). The dark sector is reframed as the dynamic, time-delayed transactional debt of this scale-invariant lifecycle. The model uses dimensions to solve the Hierarchy Problem while simultaneously outputting the exact galactic dark profiles observed in nature.
 
 **Quantitative comparison:**
 
@@ -9250,8 +9250,8 @@ SIDC inherits the hierarchy-problem solution of brane-world models while extendi
 
 **SIDC's temporal advantage.** By introducing the Stellar Age Lifecycle matrix (Limitation 24), the SIDC model possesses a historic ledger system. It flawlessly accounts for:
 
-- **AGC 114905** (DM-poor, ~$10^{9}$ M$_\odot$ baryons): diffuse star formation that *never crossed* $E_{\text{crit}}$.
-- **KKR 25** (REVISED v2.7.33+, DM-rich dSph, M_b = 3×10⁶ M_⊙): an intense historical starburst 1-4 Gyr ago whose $S_{\text{destruction}}$ energy remains permanently cached on our brane as a stable gravitational fossil. The cascade's previous M_b (3×10⁹) was 1000× too high vs. Makarov 2012; the M_dyn/M_b ~ 1-4 (was 299) is still consistent with dSph typical values.
+- **AGC 114905** (DM-poor, ~10^⁹ M_odot baryons): diffuse star formation that *never crossed* E_{crit}.
+- **KKR 25** (REVISED v2.7.33+, DM-rich dSph, M_b = 3×10⁶ M_⊙): an intense historical starburst 1-4 Gyr ago whose S_{destruction} energy remains permanently cached on our brane as a stable gravitational fossil. The cascade's previous M_b (3×10⁹) was 1000× too high vs. Makarov 2012; the M_dyn/M_b ~ 1-4 (was 299) is still consistent with dSph typical values.
 
 The distinction is *when* the energetic events happened, not just how much mass is there now. Entropic gravity cannot make this distinction; SIDC does.
 
@@ -9267,7 +9267,7 @@ The distinction is *when* the energetic events happened, not just how much mass 
 
 SIDC is conceptually superior in its parsimony, its handling of small-scale galactic anomalies, its natural scaling from galaxies to clusters, and its radical intellectual honesty. It unifies dark matter, dark energy, and the hierarchy problem under a single, elegant geometric process rather than treating them as separate, disconnected problems.
 
-However, it is not yet superior in its mathematical maturity. $\Lambda$CDM has a 30-year head start on formal calculations, coordinate-invariant general-relativistic tensors, and fluid-dynamics simulation pipelines.
+However, it is not yet superior in its mathematical maturity. ΛCDM has a 30-year head start on formal calculations, coordinate-invariant general-relativistic tensors, and fluid-dynamics simulation pipelines.
 
 **Honest assessment of where SIDC wins and loses:**
 
@@ -9387,7 +9387,7 @@ This section is a *speculative* extension of the cascade that emerged from the w
 
 The cascade's most distinctive new quantitative claim is the *energy-scaling rule* for (D-1)-universe lifetimes:
 
-$$T_{D-1}\big|_{\text{in }D\text{-view}} \;=\; 33\,\text{s} \times \left(\frac{E_D}{10^{44}\,\text{J}}\right)^{\!\alpha}, \qquad \alpha \approx 1.29$$
+T_D-₁big|_{in D-view} \;=\; 33 s × ((E_D)/(10^⁴⁴ J))^α, qquad α ≈ 1.29
 
 calibrated to a Type Ia supernova (E ≈ 10⁴⁴ J) creating a 2D universe that lives 33 s in 3+1D view. The same rule extrapolates to:
 
@@ -9419,9 +9419,9 @@ This is a **unification**: 2D universes from supernovae and our 3D universe are 
 
 For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using the cascade's time-dilation identity T₃D' = T₃D × (t_{Pl,3} / t_{Pl,4}) and the energy-scaling result T₃D = 2×10²⁶ yr:
 
-$$\frac{t_{\text{Pl},3}}{t_{\text{Pl},4}} \geq \frac{13.8\,\text{Gyr}}{2\times10^{26}\,\text{yr}} = 7\times10^{-17}$$
+frac{t_{Pl,3}}{t_{Pl,4}} ≥ (13.8 Gyr)/(2times10^²⁶ yr) = 7times10^⁻¹⁷
 
-$$\Rightarrow M_{\text{Pl},4} \geq 887\,\text{GeV}$$
+⇒ M_{Pl,4} ≥ 887 GeV
 
 **This is a *floor* on the 4D Planck mass.** It is the electroweak scale. It is also exactly the **ADD-model prediction** for large extra dimensions (Arkani-Hamed, Dimopoulos, Dvali 1998): the fundamental higher-dimensional Planck mass sits at the TeV scale, with large extra dimensions "diluting" gravity to its observed 3+1D strength.
 
@@ -9597,7 +9597,7 @@ These are the cascade's **testable predictions**. A measurement of the 2D univer
 
 The cascade's 2D CFT is the c=1 matrix model (Kazakov-Kostov-Kutasov), with Lagrangian:
 
-$$S = \int d^2\sigma \sqrt{g}\left[\frac{1}{2} (\partial\phi)^2 + \mu e^{2b\phi} + T(\phi) + \frac{R}{4\pi}\phi\right]$$
+S = ∫ d²σ sqrt{g}[(1)/(2) (partialφ)² + μ e^²bφ + T(φ) + (R)/(4π)φ]
 
 The 2D universe's lifetime T_2D should be derivable from this Lagrangian. Candidate derivations:
 
@@ -9637,7 +9637,7 @@ The SN and Core-collapse SN death signals are in LISA's band (10⁻⁴ to 1 Hz).
 
 For bursts of energy E_GW at rate r_local per m^3 per s, each at frequency f_obs with lifetime τ_2D, the spectral density at f_obs (delta function with bandwidth Δf ~ 1/τ_2D) is:
 
-$$\Omega_{GW}(f_{\text{obs}}) = \frac{E_{GW} \times n_{\text{rate}} \times \tau_{2D}}{\rho_c}$$
+Omega_GW(f_{obs}) = frac{E_GW × n_{rate} × tau_₂D}{rho_c}
 
 where ρ_c = 7.7×10⁻¹⁰ J/m³ is the critical density.
 
@@ -9725,7 +9725,7 @@ This section quantifies whether the cascade's death GW background can be detecte
 
 For a population of bursts at rate n_rate (per m³/s) with energy E_GW per burst and lifetime τ_2D, each burst is a delta function with bandwidth Δf ~ 1/τ_2D. The spectral density at f_obs = 1/τ_2D is:
 
-$$\Omega_{GW}(f_{\text{obs}}) = \frac{E_{GW} \times n_{\text{rate}} \times \tau_{2D}}{\rho_c}$$
+Omega_GW(f_{obs}) = frac{E_GW × n_{rate} × tau_₂D}{rho_c}
 
 where ρ_c = 7.7×10⁻¹⁰ J/m³.
 
@@ -9791,7 +9791,7 @@ A change of Δα = 0.20 gives a **factor of 10-100x** change in τ_2D prediction
 
 **Precision required for future BNS/AGN GW detection.** The GW frequency from 2D universe death is f_GW = 1/τ_2D ∝ E^(-α). Taking the derivative:
 
-$$\Delta\alpha = \frac{\Delta f_{\text{GW}}}{f_{\text{GW}} \cdot \log(E/E_{\text{SN}})}$$
+Deltaα = frac{Δ f_{GW}}{f_{GW} · log(E/E_{SN})}
 
 For BNS (E/E_SN = 10⁹): log = 9.
 
@@ -10079,9 +10079,9 @@ The full simulation is in `calculations/cascade_model.py` (run with `--outliers`
 
 ## 13. The Cascade's CMB Gap: an Honest Limitation (June 2026) — *UPDATED v2.7.5+: CLOSED*
 
-**v2.7.5+ update (see §4.48.1).** The CMB gap is now **CLOSED**. The v2.7.5 introduction of the smooth $F_p(z) = 0.7 + 0.3 \cdot z^2/(z_{\text{half}}^2 + z^2)$ (Hill function, n=2, $z_{\text{half}} \approx 3$) replaces the v2.4 constant $F_p = 0.7$ that was 30% off at $z = 1100$. The smooth function matches **both anchors** (local $z=0$ AND CMB $z=1100$) with gap < 1%. Limitation 31 (CMB time-lag) is now **FULLY ADDRESSED**. The remaining subsections (§13.1-§13.5) are kept for historical context but describe a now-resolved issue. The cascade's current state: the CMB-era DM is **pure primordial** ($F_p \to 1$ at $z=1100$, per the smooth function), so CMB predictions match standard $\Lambda$CDM to within 1%.
+**v2.7.5+ update (see §4.48.1).** The CMB gap is now **CLOSED**. The v2.7.5 introduction of the smooth F_p(z) = 0.7 + 0.3 · z²/(z_{half}² + z²) (Hill function, n=2, z_{half} ≈ 3) replaces the v2.4 constant F_p = 0.7 that was 30% off at z = 1100. The smooth function matches **both anchors** (local z=0 AND CMB z=1100) with gap < 1%. Limitation 31 (CMB time-lag) is now **FULLY ADDRESSED**. The remaining subsections (§13.1-§13.5) are kept for historical context but describe a now-resolved issue. The cascade's current state: the CMB-era DM is **pure primordial** (F_p → 1 at z=1100, per the smooth function), so CMB predictions match standard ΛCDM to within 1%.
 
-**Historical framing (v2.4-v2.7.4).** The cascade's earlier (v2.4-v2.7.4) version of the CMB gap was an honest limitation. The current section is preserved for historical context — it documents the cascade's progression from "tension" to "closed" via the smooth $F(z)$ refinement.
+**Historical framing (v2.4-v2.7.4).** The cascade's earlier (v2.4-v2.7.4) version of the CMB gap was an honest limitation. The current section is preserved for historical context — it documents the cascade's progression from "tension" to "closed" via the smooth F(z) refinement.
 
 This section acknowledges a **fundamental tension** between the cascade's current mechanism and the observed CMB angular power spectrum.
 
@@ -10215,20 +10215,20 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 - **16/17 test categories pass** (16 pass, 1 confounded) on real observational data (SPARC, MaNGA, Pantheon+, Planck, Tian+ 2024, AGC 114905, KKR 25).
 - **0 strongly confirmed, 2 components falsified** (g_obs = g_bar + g_cum + g_active functional form in v2.2; Mechanism A Hubble in commit ~80) — both *specific functional forms*, since replaced by the cascade-MOND hybrid and Mechanism M, respectively. The cascade's *framework* (4D event → 3+1D → 2D) is NOT falsified; only the specific implementations that the cascade has since improved. The framework is *consistent* with current data without being *established* by it.
 - **50 honest limitations documented** (v2.7.41+: 23 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED — §3.13 mechanism discarded v2.7.20, L37 added v2.7.30 for α=1.29 CGHS derivation §3.24, L38 added v2.7.33 for KKR 25 M_b value (off by 1000×) §3.27, L39 added v2.7.34 for 10-year data gap between AGC 114905 and KKR 25 §3.28, L40-42 added v2.7.35 for AGC 114905 contested DM, KKR 25 no new data, bifurcation even more uncertain §3.29, L43-45 added v2.7.37 for new extreme observation tests (TDGs, JWST z>4, Crater II, Antlia 2, UFDs) §3.30, L46-48 added v2.7.38 for 6 new testable galaxies (consensus data only), L49 added v2.7.41 for cascade pass criterion being qualitative). L32 removed v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED, L20 reverted v2.7.1, L9_ext DISCARDED v2.7.20, A_event parameter acknowledged v2.7.16, with specific closure criteria.
-- **2-3 active free parameters** in the v2.4 tensor framework: $G_5$ (5D Newton's constant), $\alpha$ (cascade coupling), and $\tau_{2D}$ (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., $f_{\text{back}} = 1$ from $J^A_{\text{bulk}} = 0$ BC) or *bounded* (e.g., $c \in \mathbb{Z}_{\geq 1}$, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 (μ, b, α, z_0) to 2 (μ, m₃₊₁D)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
-- **Coordinate-invariant stress-energy tensor** $T_{\mu\nu}^{\text{eff}}$ explicitly constructed in §4.44 with 5 verification checks all passing.
+- **2-3 active free parameters** in the v2.4 tensor framework: G₅ (5D Newton's constant), α (cascade coupling), and tau_₂D (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., f_{back} = 1 from J^A_{bulk} = 0 BC) or *bounded* (e.g., c ∈ mathbb{Z}_≥ ₁, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 (μ, b, α, z_0) to 2 (μ, m₃₊₁D)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
+- **Coordinate-invariant stress-energy tensor** T_μν^{eff} explicitly constructed in §4.44 with 5 verification checks all passing.
 
 **Specific call-to-action: theoretical physicists.** The following items are *concrete, well-defined research problems* that would each constitute a publishable contribution:
 
-1. **Derive the 5/27 zero-mode counting from a specific 2D CFT** (Limitation 30, §2.6.1). The 5/27 is now anchored as the topological eigenvalue $V_5 / A_4 R_{\text{AdS}_5}$, but the specific value 27 in the denominator depends on the zero-mode structure of the bulk-brane Dirac operator, which requires a specific 2D CFT (e.g., $c=1$ free boson, $c=6$ free fermion, $c=26$ critical Polyakov) to compute.
+1. **Derive the 5/27 zero-mode counting from a specific 2D CFT** (Limitation 30, §2.6.1). The 5/27 is now anchored as the topological eigenvalue V₅ / A₄ R_{AdS₅}, but the specific value 27 in the denominator depends on the zero-mode structure of the bulk-brane Dirac operator, which requires a specific 2D CFT (e.g., c=1 free boson, c=6 free fermion, c=26 critical Polyakov) to compute.
 
-2. **Complete the 2D CFT Lagrangian** (Limitation 9, §2.3). The cascade's 2D universe needs a specific Lagrangian $\mathcal{L}_{2D}$ (Liouville, Polyakov, or other) with specified central charge, target space, and boundary conditions. The Gaussian instanton in §4.44.1 Task 3 is a *phenomenological* stand-in; the full $\mathcal{L}_{2D}$ would pin down the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$.
+2. **Complete the 2D CFT Lagrangian** (Limitation 9, §2.3). The cascade's 2D universe needs a specific Lagrangian mathcal{L}_₂D (Liouville, Polyakov, or other) with specified central charge, target space, and boundary conditions. The Gaussian instanton in §4.44.1 Task 3 is a *phenomenological* stand-in; the full mathcal{L}_₂D would pin down the fossil amplitude σ = (c/24π) R^(²).
 
-3. **Compute the central charge $c$ in the emulator's proportionality coefficient** (Limitation 29, §4.45-§4.46). The 0.1 in the emulator is *understood* as the $c=1$ CFT value. A 2D expert could compute the *exact* proportionality for $c=6, c=26$, or other, and replace the calibrated 0.1 with a *derived* value.
+3. **Compute the central charge c in the emulator's proportionality coefficient** (Limitation 29, §4.45-§4.46). The 0.1 in the emulator is *understood* as the c=1 CFT value. A 2D expert could compute the *exact* proportionality for c=6, c=26, or other, and replace the calibrated 0.1 with a *derived* value.
 
-4. **Stabilize the AdS$_5$ bulk** (Limitation 1, §2.2). The Goldberger-Wise mechanism stabilizes the RS-II radion; a specific cascade implementation would need a *cascade-specific* stabilization that preserves the 5/27 ratio under cosmological evolution.
+4. **Stabilize the AdS₅ bulk** (Limitation 1, §2.2). The Goldberger-Wise mechanism stabilizes the RS-II radion; a specific cascade implementation would need a *cascade-specific* stabilization that preserves the 5/27 ratio under cosmological evolution.
 
-5. **Generalize the 5/27 derivation to non-static bulks** (Limitation 17, §2.6.1). The current treatment assumes a static AdS$_5$ slice; cosmological evolution (rolling radion, time-dependent warp factor) would modify the 5/27 ratio. A specific calculation would track the ratio's evolution.
+5. **Generalize the 5/27 derivation to non-static bulks** (Limitation 17, §2.6.1). The current treatment assumes a static AdS₅ slice; cosmological evolution (rolling radion, time-dependent warp factor) would modify the 5/27 ratio. A specific calculation would track the ratio's evolution.
 
 **Reproducibility infrastructure.** All 34 limitations have explicit closure criteria in §7.0. The smooth F(z) refinement in §4.48.1 (now §4.48's primary framework as of v2.7.8) closes the v2.4 CMB gap (constant F_p = 0.7 was 30% off at z=1100; smooth Hill n=2 z_half=3 matches both anchors with gap < 1%). All 17 test categories have corresponding Python scripts in `calculations/`. The v2.4 tensor construction has 5 verification checks in `calculations/verify_tensor_pipeline.py`. The v2.4 refactor has 4 verification checks in `calculations/verify_v24_refactor.py`. A reviewer can re-run any test in <5 minutes on a standard scientific Python environment.
 
@@ -10251,19 +10251,19 @@ The cascade's predictions span 5-10 orders of magnitude in energy, time, and fre
 
 ### 14.1 Near-term tests (2026-2027)
 
-#### DESI DR3 (2026-2027): dark energy equation of state $w_0, w_a$
+#### DESI DR3 (2026-2027): dark energy equation of state w₀, w_a
 
-**Cascade prediction:** $w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5σ tension with $\Lambda$CDM)
+**Cascade prediction:** w₀ = -0.83 ± 0.16, w_a = -0.75 ± 0.30 (DESI+ACT+Planck 2024-25, currently 3.5σ tension with ΛCDM)
 
 **Falsification threshold:**
-- If $w_0 = -1$ confirmed at > 5σ: cascade's standard Lagrangian (constant $f_{\text{back}}$) is right
-- If $w_0 = -0.83$ confirmed at > 5σ: cascade's standard Lagrangian falsified; needs running $f_{\text{back}}(z)$ (adds 1 free parameter)
+- If w₀ = -1 confirmed at > 5σ: cascade's standard Lagrangian (constant f_{back}) is right
+- If w₀ = -0.83 confirmed at > 5σ: cascade's standard Lagrangian falsified; needs running f_{back}(z) (adds 1 free parameter)
 
 **Status:** PENDING. Currently 3.5σ, not yet falsification or validation.
 
 #### LSST Y1 (2027): 47 Tuc DM content
 
-**Cascade prediction:** 47 Tuc has *no DM* (old GCs have no DM, per the cascade's stellar-density argument). DM detection threshold: $M_{\text{DM}}/M_* < 10^{-5}$.
+**Cascade prediction:** 47 Tuc has *no DM* (old GCs have no DM, per the cascade's stellar-density argument). DM detection threshold: M_{DM}/M_* < 10^⁻⁵.
 
 **Falsification threshold:** If 47 Tuc shows DM at > 5σ (e.g., via stellar kinematics), cascade's prediction is falsified.
 
@@ -10271,7 +10271,7 @@ The cascade's predictions span 5-10 orders of magnitude in energy, time, and fre
 
 #### eROSITA + SPHEREx + GW231123 + GW230529: ongoing multi-messenger
 
-**Cascade prediction:** Consistent with $\Lambda$CDM at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with the cascade.
+**Cascade prediction:** Consistent with ΛCDM at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with the cascade.
 
 **Status:** VALIDATED. All 2024-2026 observations are consistent with cascade's qualitative framework.
 
@@ -10280,13 +10280,13 @@ The cascade's predictions span 5-10 orders of magnitude in energy, time, and fre
 #### SKA-MPG PTAs (2030s): BNS/AGN 2D universe death GW
 
 **Cascade prediction:** Stochastic GW background at frequencies:
-- BNS: $f_{\text{GW}} \approx 7 \times 10^{-14}$ Hz (PTA band)
-- AGN: $f_{\text{GW}} \approx 2 \times 10^{-17}$ Hz (PTA band)
+- BNS: f_{GW} ≈ 7 × 10^⁻¹⁴ Hz (PTA band)
+- AGN: f_{GW} ≈ 2 × 10^⁻¹⁷ Hz (PTA band)
 
 **Falsification threshold:**
-- If GW detected at cascade's predicted frequencies: $\alpha = 1.29$ validated to ±0.11
-- If GW detected at 10× off-frequency: $\alpha$ falsified to ±0.11
-- If BNS+AGN internally inconsistent: framework-level falsification (not just $\alpha$)
+- If GW detected at cascade's predicted frequencies: α = 1.29 validated to ±0.11
+- If GW detected at 10× off-frequency: α falsified to ±0.11
+- If BNS+AGN internally inconsistent: framework-level falsification (not just α)
 - If no GW detected: cascade's GW prediction falsified (less direct)
 
 **Status:** PENDING. SKA-MPG operational 2030s.
@@ -10299,11 +10299,11 @@ The cascade's predictions span 5-10 orders of magnitude in energy, time, and fre
 
 **Status:** Most likely LISA will see no cascade signal, consistent with cascade's prediction.
 
-#### Direct $M_{\text{Pl},4}$ measurement (2030s+ colliders)
+#### Direct M_{Pl,4} measurement (2030s+ colliders)
 
-**Cascade prediction:** $M_{\text{Pl},4} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
+**Cascade prediction:** M_{Pl,4} ≥ 887 GeV (derived from T_₃D' ≥ 13.8 Gyr).
 
-**Falsification threshold:** If $M_{\text{Pl},4}$ measured at < 887 GeV, cascade's bulk-brane coupling is wrong.
+**Falsification threshold:** If M_{Pl,4} measured at < 887 GeV, cascade's bulk-brane coupling is wrong.
 
 **Status:** PENDING. Future colliders or precision tests.
 
@@ -10311,9 +10311,9 @@ The cascade's predictions span 5-10 orders of magnitude in energy, time, and fre
 
 #### μAres (next-gen PTA, 2040s?): higher-precision α
 
-**Cascade prediction:** $\alpha = 1.29$ to ±0.055 precision (1 dex frequency precision → 0.055 in $\alpha$).
+**Cascade prediction:** α = 1.29 to ±0.055 precision (1 dex frequency precision → 0.055 in α).
 
-**Falsification threshold:** If $\alpha$ measured at < 1.20 or > 1.40, cascade's energy-scaling rule is wrong.
+**Falsification threshold:** If α measured at < 1.20 or > 1.40, cascade's energy-scaling rule is wrong.
 
 **Status:** PENDING. μAres operational 2040s.
 
@@ -10321,7 +10321,7 @@ The cascade's predictions span 5-10 orders of magnitude in energy, time, and fre
 
 **Cascade prediction:** DE at BBN era (z = 10^10) is ~10^-20 of radiation. BBN proceeds as standard.
 
-**Falsification threshold:** If $\rho_{\text{DE}}(\text{BBN}) > 10^{-20} \times \rho_{\text{rad}}(\text{BBN})$, cascade's BBN prediction is wrong.
+**Falsification threshold:** If rho_{DE}(BBN) > 10^⁻²⁰ × rho_{rad}(BBN), cascade's BBN prediction is wrong.
 
 **Status:** PENDING. Future precision BBN.
 
