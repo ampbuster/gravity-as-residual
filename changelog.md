@@ -2,6 +2,38 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.34 (June 2026) — §3.28 10-year data gap methodological concern
+
+**Major changes since v2.7.33:**
+
+1. **§3.28 NEW: Methodological concern about AGC/KKR comparison** (~2 pages)
+   - User observation: AGC 114905 (Mancera Piña 2022) and KKR 25 (Makarov 2012)
+     data is 10 years apart
+   - Different measurement techniques, systematics, stellar mass estimates
+   - KKR 25 has NO published velocity dispersion → M_dyn is estimated, not measured
+   - The cascade's bifurcation is measurement-vs-estimation, not
+     measurement-vs-measurement
+
+2. **L39 added: 10-year data gap**
+   - Comparing galaxies measured in different decades is methodologically risky
+   - The cascade's bifurcation argument needs measured KKR 25 σ
+   - Until then, the "bifurcation" is an estimate, not a measurement
+
+3. **Implications for the cascade**:
+   - The 10-year gap is a real concern for direct comparisons
+   - Modern vs 2012-era data: factor 2-3× uncertainty in M_b alone
+   - Distance moduli revised by Gaia DR3 (10-20% change possible)
+   - Different HI survey sensitivities
+   - Unmeasured quantity (KKR 25 σ) used in cascade's prediction
+
+4. **Net: 1 new section, ~2 pages**
+   - Total paper: 255 → 257 pages
+   - Test counts UNCHANGED
+   - 40 honest limitations (L39 added)
+   - 1 free parameter (z_half only)
+
+**Earlier v2.7.33 entry (unchanged):**
+
 ## v2.7.33 (June 2026) — §3.27 KKR 25 self-correction
 
 **Major changes since v2.7.32:**

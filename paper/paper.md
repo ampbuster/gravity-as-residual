@@ -29,7 +29,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{\text{grav}} + S_{\text{matter}} + S_{\text{brane 2D}} + S_{\text{creation}} + S_{\text{destruction}}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles $g_+$ derivation (§4.17):** $g_+ = k \cdot \int \text{(event rate)} \cdot E_{\text{event}} \cdot \tau_{\text{2D}} / L_{\text{2D}}\, dt$, the cascade's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{\text{events}} / M_b\, dt$ scaling.
 
-**What the model is honest about (limitations).** The cascade is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{\text{active}} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon \sim 10^{-38}$, $f_{\text{back}} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. The cascade's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **39 honest limitations** across all major claims (see §7.0 Master Table, v2.7.30+): 19 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism in v2.7.20). L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for E_primordial; L35 added v2.7.4 for z_half; L36 added v2.7.4 for E_crit REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (§3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** The cascade is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{\text{active}} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon \sim 10^{-38}$, $f_{\text{back}} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. The cascade's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **40 honest limitations** across all major claims (see §7.0 Master Table, v2.7.30+): 20 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism in v2.7.20). L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for E_primordial; L35 added v2.7.4 for z_half; L36 added v2.7.4 for E_crit REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (§3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** The cascade is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so the cascade terminates at 2D). The earlier framing of "scale-invariance / infinite cascade" with a $\rho_{\text{crit}}$ regulator has been removed — the 2D floor is a structural limit, not a choice. The cascade IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth E^(1+alpha) creation function in §2.5.3 — the v2.3.0 E_crit step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a cascade to lower dimensions.
 
@@ -3273,6 +3273,78 @@ analysis.
 
 ---
 
+### 3.28 Methodological concern: 10-year data gap between AGC 114905 and KKR 25 (v2.7.34+)
+
+A user observation (June 2026) revealed a methodological concern with
+the cascade's bifurcation analysis: the data for AGC 114905 and KKR 25
+were collected a decade apart.
+
+**3.28.1 The 10-year gap.**
+
+| Galaxy | Reference | Data year | Methods |
+|--------|-----------|-----------|---------|
+| KKR 25 | Makarov et al. 2012 (MNRAS 425, 709) | 2012 | HST/WFPC2 photometry, ground-based spectroscopy, 2012-era SPS |
+| AGC 114905 | Mancera Piña et al. 2022 | 2022 | 21cm VLA HI data, modern analysis pipeline, possibly JWST-era reduction |
+
+**3.28.2 What the 10-year gap means.**
+
+- **Stellar mass estimates**: IMF and M/L conversion assumptions changed significantly between 2012 and 2022 (factor 2-3× uncertainty)
+- **Distance moduli**: Gaia DR3 has revised many nearby galaxy distances (10-20% change possible)
+- **Kinematic analysis methods**: 2012-era velocity dispersion extraction is less robust than 2022 methods
+- **Systematic error treatment**: Modern papers include detailed systematics; older papers often don't
+- **HI gas content**: Different surveys (HIPASS, ALFALFA, VLA) have different sensitivities
+
+**3.28.3 The bigger problem: KKR 25's M_dyn/M_b isn't actually measured.**
+
+The cascade's M_dyn/M_b = 1-4 (revised) for KKR 25 is **estimated**,
+not measured. The Wolf+ 2010 mass estimator requires velocity
+dispersion σ and half-light radius r_h. A literature search in June 2026
+found:
+- KKR 25 has no published velocity dispersion
+- KKR 25 has a half-light radius from Makarov 2012 (~0.5-1 kpc)
+- Without σ, M_dyn cannot be directly computed
+
+The cascade's M_dyn/M_b for KKR 25 is therefore a **postulated range**
+based on typical dSph parameters, not a measurement.
+
+**3.28.4 What the bifurcation comparison actually shows.**
+
+The cascade's AGC 114905 vs KKR 25 comparison is:
+- AGC 114905: **modern measurement** (M_dyn/M_b ~ 1.36, 2022)
+- KKR 25: **cascade estimation** (M_dyn/M_b ~ 1-4, 2025+)
+
+This is not a measurement-vs-measurement comparison. It's a
+measurement-vs-estimation comparison. The "bifurcation" may be an
+artifact of:
+1. Different measurement techniques (10-year gap)
+2. Different systematics in stellar mass estimates
+3. Different treatments of gas content
+4. Use of an unmeasured quantity (M_dyn for KKR 25)
+
+**3.28.5 Status (v2.7.34+).**
+
+- The 10-year data gap is a real methodological concern
+- The cascade's bifurcation comparison is not apples-to-apples
+- KKR 25's M_dyn/M_b is estimated, not measured
+- Future work: obtain KKR 25 velocity dispersion to make this a
+  measurement-vs-measurement comparison
+- L39 added: "10-year data gap between AGC 114905 and KKR 25
+  measurements; KKR 25's M_dyn/M_b is estimated, not measured"
+
+**3.28.6 Lessons.**
+
+1. Comparing data from different decades is methodologically risky
+2. The cascade should require same-epoch measurements for direct
+   comparisons
+3. Unmeasured quantities should be flagged, not assumed
+4. The cascade's bifurcation argument needs **measured** KKR 25 σ
+   to be a real test
+
+See `calculations/v27_kkr25_correction.py` for the full numerical
+analysis.
+
+---
+
 ## 4. Predictions and distinguishing features
 
 If the model is correct, several observable consequences follow.
@@ -6211,7 +6283,7 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **39 honest limitations** (v2.7.30+), with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*). The full status: 19 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism, see §3.14-§3.15 for the discard process). L37 added v2.7.30 for α=1.29 CGHS derivation.
+This is a thought experiment, not a theory. We identify **40 honest limitations** (v2.7.30+), with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*). The full status: 20 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism, see §3.14-§3.15 for the discard process). L37 added v2.7.30 for α=1.29 CGHS derivation.
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -7854,7 +7926,7 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 **Status of the framework.** The framework is *structurally complete* as a geometric specification, with these confirmed state markers (v2.7.5):
 - **16/17 test categories pass** (16 pass, 1 confounded) on real observational data (SPARC, MaNGA, Pantheon+, Planck, Tian+ 2024, AGC 114905, KKR 25).
 - **0 strongly confirmed, 2 components falsified** (g_obs = g_bar + g_cum + g_active functional form in v2.2; Mechanism A Hubble in commit ~80) — both *specific functional forms*, since replaced by the cascade-MOND hybrid and Mechanism M, respectively. The cascade's *framework* (4D event → 3+1D → 2D) is NOT falsified; only the specific implementations that the cascade has since improved. The framework is *consistent* with current data without being *established* by it.
-- **39 honest limitations documented** (v2.7.33+: 19 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED — §3.13 mechanism discarded v2.7.20, L37 added v2.7.30 for α=1.29 CGHS derivation §3.24, L38 added v2.7.33 for KKR 25 M_b value (off by 1000×) §3.27). L32 removed v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED, L20 reverted v2.7.1, L9_ext DISCARDED v2.7.20, A_event parameter acknowledged v2.7.16, with specific closure criteria.
+- **40 honest limitations documented** (v2.7.34+: 20 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED — §3.13 mechanism discarded v2.7.20, L37 added v2.7.30 for α=1.29 CGHS derivation §3.24, L38 added v2.7.33 for KKR 25 M_b value (off by 1000×) §3.27, L39 added v2.7.34 for 10-year data gap between AGC 114905 and KKR 25 §3.28). L32 removed v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED, L20 reverted v2.7.1, L9_ext DISCARDED v2.7.20, A_event parameter acknowledged v2.7.16, with specific closure criteria.
 - **2-3 active free parameters** in the v2.4 tensor framework: $G_5$ (5D Newton's constant), $\alpha$ (cascade coupling), and $\tau_{2D}$ (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., $f_{\text{back}} = 1$ from $J^A_{\text{bulk}} = 0$ BC) or *bounded* (e.g., $c \in \mathbb{Z}_{\geq 1}$, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 (μ, b, α, z_0) to 2 (μ, m₃₊₁D)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
 - **Coordinate-invariant stress-energy tensor** $T_{\mu\nu}^{\text{eff}}$ explicitly constructed in §4.44 with 5 verification checks all passing.
 
