@@ -4039,6 +4039,89 @@ and the testable F_p(z) DM evolution.
 
 ---
 
+### 3.38 User-identified F_p(z) inconsistency (v2.7.49, CRITICAL)
+
+**Discovery**: A simple observational question ("has DE changed since
+the beginning of the universe?") revealed a **real inconsistency** in
+the cascade's F_p(z) model.
+
+**The cascade's F_p(z) model (v2.7.5+)**:
+- F_p(z) = z^n / (z^n + z_half^n), n=2, z_half=3
+- F_s(z) = 1 - F_p(z)
+- r(z) = (1+z)^3 × F_p(z) + F_s(z) [ratio of DM density at z to today]
+- "Primordial" component: F_p × DM_primordial_density
+- "Recent" component: F_s × f_back × SN_death_energy
+
+**The inconsistency**:
+
+At z=0:
+- F_p(0) = 0 (primordial fraction is ZERO)
+- F_s(0) = 1 (all DM is "recent")
+- But "recent" DM = f_back × cumulative SN deaths = 10^-85 × 10^59 J / c^2
+- = 10^-86 × M_☉ for the entire Milky Way (5e8 SN over 10 Gyr)
+- Compared to observed M_DM ~ 10^12 M_☉
+- **Cascade predicts Ω_DM(z=0) ≈ 10^-90, observation gives 0.265**
+- **INCONSISTENCY: cascade is off by ~10^90!**
+
+**The user's observational question**:
+
+"Since the beginning of the universe, has there been any change in DE?"
+
+The honest answer is yes:
+- DE density (J/m³) appears approximately constant (consistent with ΛCDM w=-1)
+- Ω_DE grew from ~0 at z=1100 to 0.685 at z=0 (because total energy diluted)
+- DM/matter density (J/m³) was MUCH higher at z>3 (∝ (1+z)³)
+- Ω_DM is roughly constant at 0.265 across all z (Planck 2018)
+
+**Three possible fixes**:
+
+1. **F_p(z=0) = ε floor (constant primordial component)**:
+   - F_p(z) = ε + (1-ε) × z^n / (z^n + z_half^n)
+   - Most DM at z=0 is primordial (ε ~ 0.5-0.9)
+   - **Ad hoc, not derived from first principles**
+
+2. **Recent DM is much larger than f_back × SN deaths**:
+   - f_back ~ 10^-85 might be wrong
+   - Or there's a different mechanism for "recent" DM
+   - **But f_back is well-calibrated from SN 33s lifetime (L9)**
+
+3. **Add a third (constant) DM component**:
+   - DM = F_p × DM_primordial + F_s × DM_recent + DM_constant
+   - DM_constant ~ 0.265 (today, constant in absolute terms)
+   - **Hidden parameter, not derived**
+
+**The honest finding**:
+
+The cascade F_p(z) model has an internal inconsistency. The model
+needs revision. The user identified this by asking a simple
+observational question.
+
+**Limitations added**:
+- **L50**: F_p(z) model predicts Ω_DM(z=0) ≈ 10^-90, but observation
+  gives 0.265. The model needs a constant primordial component (ε floor
+  or DM_constant), but this is currently an ad hoc addition, not derived
+  from first principles. This was identified by user observation
+  question in v2.7.49.
+
+**Implications for the cascade**:
+
+This is a **REAL problem** that the cascade should acknowledge
+honestly. The F_p(z) model was introduced in v2.7.5 to match Planck
+2018's Ω_DM = 0.265 at z=1100. But the same model fails at z=0.
+
+The fix requires:
+1. A new parameter (F_p(0) floor or DM_constant)
+2. A physical interpretation (what is this constant component?)
+3. A first-principles derivation (currently missing)
+
+This is now a TOP PRIORITY for the cascade. Until L50 is resolved,
+the cascade's F_p(z) model is internally inconsistent.
+
+See `calculations/v27_fp_z_problem.py` for the full analysis.
+
+
+---
+
 ### 3.28 Methodological concern: 10-year data gap between AGC 114905 and KKR 25 (v2.7.34+)
 
 A user observation (June 2026) revealed a methodological concern with

@@ -1,0 +1,19 @@
+{
+  "description": "User-identified inconsistency in cascade F_p(z) model",
+  "method": "Cascade F_p(z) = z^n/(z^n+z_half^n), n=2, z_half=3. r(z) = (1+z)^3 * F_p + F_s. At z=0, F_p(0)=0, F_s(0)=1.",
+  "problem": "Cascade predicts \u03a9_DM(z=0) \u2248 0 (since F_s component is f_back \u00d7 SN deaths \u2248 10^-91 \u00d7 M_b), but observation gives \u03a9_DM(z=0) = 0.265. INCONSISTENCY of ~10^90.",
+  "problem_alt": "Alternative interpretation: r(z) gives ratio of DM density to today. At z=1100, r=1.33e9, so DM(1100)/DM(0) = 1.33e9. But if DM(0) = 0.265 (absolute), then DM(1100) = 3.5e8, which is more than total density at z=1100. UNPHYSICAL.",
+  "three_possible_fixes": {
+    "fix_1_constant_floor": "F_p(z=0) = \u03b5 \u2248 0.5-0.9 (constant primordial floor). Ad hoc, not derived.",
+    "fix_2_recent_larger": "Recent DM is much larger than f_back \u00d7 SN. But f_back is calibrated from SN 33s lifetime.",
+    "fix_3_third_component": "Add constant DM component (DM_constant ~ 0.265). Hidden parameter, not derived."
+  },
+  "honest_finding": "The cascade F_p(z) model has a real inconsistency. The model needs revision. This is a new honest limitation (L50).",
+  "implications_for_observation": {
+    "observed_DE_density": "Approximately constant (consistent with \u039bCDM w=-1)",
+    "observed_DM_density": "Approximately (1+z)^3 \u00d7 \u03a9_DM_0 (matter-like dilution)",
+    "observed_\u03a9_DM": "Constant at 0.265 across all z (Planck 2018)",
+    "cascade_match": "Cascade agrees with observation qualitatively (DM dilutes as (1+z)^3, \u03a9_DM ~ constant) but quantitatively wrong at z=0 (predicts ~0 instead of 0.265)."
+  },
+  "next_steps": "L50 added: cascade F_p(z) model has internal inconsistency. The user identified this by asking a simple observational question. The fix requires a new parameter (F_p(0) floor or constant DM component) that the cascade should derive from first principles."
+}

@@ -2,6 +2,46 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.49 (June 2026) — CRITICAL: User-identified F_p(z) inconsistency
+
+**Major changes since v2.7.48:**
+
+1. **User asked "has DE changed since the beginning?"**
+   - Honest answer: DE density (J/m³) ~ constant, but Ω_DE grew
+     as total energy diluted
+   - User then noted: if DE constant and DM changed, matter must
+     have changed too — and asked if this is consistent
+   - This led to deeper analysis of F_p(z) model
+
+2. **REAL INCONSISTENCY DISCOVERED in F_p(z) model:**
+   - At z=0: F_p(0) = 0 (primordial fraction is ZERO)
+   - At z=0: F_s(0) = 1 (all DM is "recent")
+   - But "recent" DM = f_back × SN deaths ≈ 10^-91 × M_b
+   - CASCADE PREDICTS Ω_DM(z=0) ≈ 10^-90
+   - OBSERVATION: Ω_DM(z=0) = 0.265
+   - INCONSISTENCY: off by ~10^90
+
+3. **§3.38 added** with full analysis of the issue
+   - 3 possible fixes discussed
+   - All require a new parameter (ad hoc, not derived)
+   - L50 added: F_p(z) model has internal inconsistency
+   - v27_fp_z_problem.py created
+
+4. **Limitations updated**: 50 → 51
+   - L50: F_p(z) inconsistency (user-identified)
+   - 31 open, 10 partial, 3 closed, 2 falsified, 4 reverted, 1 discarded
+
+5. **Net: +1 page, +1 critical limitation, +1 honest finding**
+   - Total paper: 269 pages (was 268)
+   - 51 honest limitations (was 50)
+   - 1 free parameter (z_half only) — but F_p(0) is now hidden too
+   - 36/36 galaxy tests pass
+
+**This is a TOP PRIORITY**: the F_p(z) model needs to be fixed.
+The cascade cannot proceed honestly without addressing L50.
+
+**Earlier v2.7.48 entry (unchanged):**
+
 ## v2.7.48 (June 2026) — 4 new calculations: JWST M_dyn, DESI w(z), GW background, PPN
 
 **Major changes since v2.7.47:**
