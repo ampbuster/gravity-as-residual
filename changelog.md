@@ -2,6 +2,39 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.15 (June 2026) — §3.10 Extending the cascade upward
+
+**Major changes since v2.7.14:**
+
+1. **§3.10 NEW: Extending the cascade upward** (~3 pages)
+   - **Motivation:** 3+1D sees a projection of 4D, not 4D's full structure
+   - **5/27/68 is 3+1D's view, not 4D's**
+     - 3+1D's 27% is 3+1D's own universe creation rate (to 2D)
+     - 3+1D's 68% DE is 4D's projection (downward)
+     - 3+1D's 5% baryons is 3+1D's own content
+   - **If 4D has its own universe creation:**
+     - 4D's "DM" (from 4D universe deaths) is NOT in 3+1D's budget
+     - 4D's universe creation rate r_4D ≈ 0.32 (if 4D's projection accounts for all of 3+1D's 68% DE)
+     - The 27%/73% is NOT a universal constant
+   - **The 27% might not be universal** (3+1D-specific, 4D-specific, or level-dependent)
+   - **Universal bulk-brane cancellation applied to 4D:** every level has same structure as 3+1D
+   - **Predictions and falsifiability:** 4D's ratio is ~32% (or different), not 27%
+   - **Honest gap:** cascade currently has 4D as top (cone-shape), 4D's own dynamics undefined
+   - **Two versions:**
+     - **Default (cone-shape):** 4D as top, r_4D = 0, no parents
+     - **Ambitious (extended):** 4D has its own universe creation, requires specific 5D Lagrangian
+
+2. **Limitation 11 (L11) now has explicit treatment** in §3.10
+   - Was: "upward direction left open"
+   - Now: explicit treatment of what 4D's own DM/DE budget would look like
+
+3. **Connection to E_primordial (L34) and universal bulk-brane cancellation (§2.4)**
+   - 4D's "perceivable" 73% projects to 3+1D as DE (the 68%)
+   - 4D's "children" 32% (or whatever ratio) is 4D's own DM
+   - 3+1D sees only 4D's *projected* contribution, not 4D's full structure
+
+**Earlier v2.7.14 entry (unchanged):**
+
 ## v2.7.14 (June 2026) — §7.0 categorical summary + cleanup
 
 **Major changes since v2.7.13:**

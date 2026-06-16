@@ -1209,7 +1209,7 @@ The honest summary: *none* of these frameworks derive the cascade's α = 1.29 fr
 - **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.14: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.15: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
@@ -1349,6 +1349,121 @@ The cascade's inversion has **structural support in 3 of 4 tested mechanisms**. 
 This is a **major conceptual advance** for the cascade. The inversion is no longer a "pure postulate" — it has 3 plausible derivations from existing physics. The cascade's specific implementation is a *choice* among these 3 (or another), not a free invention. See `calculations/v27_inversion_5d_projection.py` for the full analysis.
 
 **New references added:** [KKLT03], [DGP00], [Koyama07]
+
+---
+
+### 3.10 Extending the cascade upward: 4D's own DM/DE budget (v2.7.15+)
+
+The cascade's cone-shape (per v2.1, §2.6) terminates at 2D downward and at 4D upward. The 4D event is treated as the *parent*, with no parents of its own. But this is an *architectural choice*, not a derivation. This section makes the upward extension explicit, asking: **what would 4D look like if it had its own universe creation?**
+
+**3.10.1 The 5/27/68 is 3+1D's view, not 4D's.**
+
+The observed 5/27/68 split (Planck 2018) is a *3+1D* measurement. In the cascade's framework, the 3+1D energy budget is:
+
+$$\underbrace{5\%}_{\text{baryons}} + \underbrace{27\%}_{\text{DM, from 2D deaths}} + \underbrace{68\%}_{\text{DE, from 4D projection}} = 100\%$$
+
+But this budget is a *sum* of two sources:
+- **3+1D's own dynamics (32%):** 5% baryons (real 3+1D) + 27% to 2D universe creation (returns as DM)
+- **4D's projection (68%):** 4D event's antigravity, projected *down* to 3+1D as DE
+
+The 27% in 3+1D is *3+1D's own universe creation rate*. It is a *3+1D-specific* value, not a universal constant.
+
+**3.10.2 If 4D has its own universe creation, 4D's "DM" is not in 3+1D's budget.**
+
+Per the *universal bulk-brane cancellation* (§2.4, line 359), every level has the same structure as 3+1D: bulk above, brane itself, weak attractive gravity, dark energy, and an ending that returns energy to the parent as DM. Applied to 4D, this means:
+
+- 4D's *bulk* is a hypothetical 5D event (5D grandparent)
+- 4D's *brane* is itself
+- 4D has its own *attractive gravity* (4D gravity in 4D, standard GR)
+- 4D has its own *DE* (5D's antigravity projected down, gives 4D's 68%)
+- 4D has its own *DM* (4D universe deaths from 4D's 27% going to 4D-universe creation)
+
+**Critical implication:** 4D's DM (from 4D universe deaths) is *internal* to 4D. It contributes to 4D's gravitational dynamics but is **NOT in 3+1D's observable budget**. 3+1D sees only 4D's *projected* 68% (the part that projects down), not 4D's full 100%.
+
+In this extended picture, 3+1D's 5/27/68 is a *projection* of a 4D structure that itself has 4D's own 5%/27%/68% (or whatever ratio 4D's universe creation rate is). The 4D's "perceivable" 73% (or different ratio) projects to 3+1D as the 68% DE.
+
+**3.10.3 The 27% might not be universal.**
+
+In the cascade's current framework, the 27% is a *3+1D-specific* value (Planck observational input). It is the fraction of 3+1D's energy that goes to 2D universe creation. There is no derivation that this is the same at 4D, 5D, or any other level.
+
+The 27% could be:
+- **Universal:** all levels create children at 27% of their energy
+- **3+1D-specific:** 4D's ratio is different (could be 0%, 27%, 50%, etc.)
+- **Energy-dependent:** the ratio depends on the parent's energy (large events create children at different rates than small events)
+- **Level-dependent:** each level has its own characteristic ratio
+
+The cascade currently has no constraint on this. The 4D's own universe creation rate is **a free parameter** if the cascade is extended upward, or **undefined** (effectively 0%) if the cascade terminates at 4D.
+
+**3.10.4 What would extending the cascade upward predict?**
+
+If 4D has its own universe creation (with some ratio $r_4D$), the cascade's structure becomes:
+
+| Level | Bulk (parent) | Brane | Children | $r_{\text{children}}$ | Energy return to parent |
+|-------|---------------|-------|----------|----------------------|--------------------------|
+| 5D (hypothetical) | 6D | 5D | 4D universes | $r_{5D}$ | 5D's DM |
+| 4D (parent) | 5D | 4D | 3+1D universes | $r_{4D}$ | 4D's DM |
+| 3+1D (us) | 4D | 3+1D | 2D universes | $r_{3+1D} = 0.27$ | 3+1D's DM |
+| 2D (terminal) | 3+1D | 2D | (none, terminal) | $r_{2D} = 0$ | — |
+
+The 3+1D sees:
+- 4D's *projected* contribution: $(1 - r_{4D})$ of 4D's energy, projected to 3+1D as DE
+- 3+1D's *own* contribution: $r_{3+1D} = 0.27$ of 3+1D's energy, going to 2D universe creation
+- 3+1D's *baryons*: the remaining 5% of 3+1D's energy
+
+For 3+1D's DE to be 68%: $(1 - r_{4D}) = 0.68$, so $r_{4D} = 0.32$.
+
+Wait — that would mean 4D's universe creation rate is 32%, not 27%! Let me re-derive.
+
+3+1D's energy = 4D's projected contribution + 3+1D's own dynamics = 68% + 32% = 100%
+3+1D's own dynamics = 5% baryons + 27% 2D deaths = 32%
+
+If 4D's *projected* fraction is 68%, then 4D's *unprojected* fraction is 32% (the part that stays in 4D, including 4D's own DM and 4D's own baryons).
+
+So in this extended picture:
+- 4D's universe creation rate $r_{4D}$ (going to 3+1D + 4D's own children) ≈ 0.32 if 4D's projection to 3+1D accounts for all of 3+1D's DE
+- Alternatively, $r_{4D}$ could be different if 4D has multiple channels
+
+The 32% vs 27% is a *small* difference (5 percentage points), but it's *not* a coincidence. The 27% (3+1D's universe creation) and the 32% (4D's universe creation, if it projects to all of 3+1D's DE) are *different* values at *different* levels.
+
+**3.10.5 Predictions and falsifiability.**
+
+If the cascade is extended upward, the following becomes testable:
+
+1. **Direct:** 4D's universe creation rate is $\sim 32\%$, not $27\%$. This is consistent with 3+1D's 68% DE coming entirely from 4D's projection.
+2. **Indirect:** The cascade's "27%" is *not* a universal constant. Future observations of 4D's structure (if accessible) would show a different ratio.
+3. **Testable today:** The 5/27/68 in 3+1D is consistent with *either* (a) a universal 27% (with 4D's $r = 0.27$ and 4D's $1-r = 0.73$, of which 68% projects to 3+1D and 5% is 4D's baryons), or (b) 4D-specific ratios. The current data cannot distinguish.
+4. **Falsifiability:** If a future calculation derives $r = 27\%$ from first principles (e.g., from a specific brane-world Lagrangian), then the cascade is *predicted* to have $r = 27\%$ at all levels. If $r$ turns out to be level-dependent, the cascade's "universal" reading is wrong.
+
+**3.10.6 The honest gap.**
+
+The cascade does *not* currently derive the 27% from first principles. The 27% is an *observational input* (Planck 2018). If the cascade is extended upward:
+
+- 4D's universe creation rate is a *free parameter* (or *zero* if 4D is the top)
+- 5D's universe creation rate is *undefined* (no 5D in current cascade)
+- The "27% universal" claim is *not* derivable from current cascade framework
+
+The cascade's *current* framework treats 4D as the *top* of the hierarchy (cone-shape, §2.6). The 4D event is the *first* level of the cascade, with no parents. This is an *architectural choice*, not a derivation. The cascade acknowledges this in **Limitation 11**: "upward direction left open."
+
+**3.10.7 Why this matters for the cascade's honesty.**
+
+This section makes explicit what was implicit in §2.4 and §2.6:
+
+1. **3+1D sees a projection of 4D, not 4D's full structure.** 3+1D's 5/27/68 is a *partial* view of the 4D event.
+2. **4D's own DM (if it exists) is invisible to 3+1D.** The cascade's cone-shape is asymmetric: downward cascade is *visible* (DM and DE in 3+1D), upward cascade is *invisible* (4D's "DM" is in 4D's frame, not 3+1D's).
+3. **The 27% is 3+1D-specific.** It is the fraction of 3+1D's energy that goes to 2D universe creation. It is *not* a universal constant, and there is no derivation that it should be the same at 4D or 5D.
+
+The cascade is honest: the *current* framework has 4D as the top, with 4D's own dynamics undefined. **Extending the cascade upward is a v2.7.15+ candidate**, requiring:
+- A specific 5D Lagrangian (to derive 4D's universe creation rate)
+- A specific 4D universe Lagrangian (to derive 4D's "DM" mechanism)
+- A new test: 4D's ratio is consistent with $\sim 32\%$ (if 3+1D's DE is entirely from 4D's projection) or different (if 4D has additional channels)
+
+The simplest version: **the cascade's 4D event is the top of the hierarchy, 4D has no own universe creation ($r_{4D} = 0$), and the cone-shape is preserved.** This is the cascade's current default. The 27% is a 3+1D-specific value, and 4D's "structure" is undefined (4D is treated as a parent process, not a child universe).
+
+A more ambitious version: **the cascade extends upward, 4D has its own universe creation ($r_{4D} \sim 0.32$ or different), and 3+1D sees a projection of 4D's structure.** This would require a specific 5D Lagrangian and would be a major extension of the framework.
+
+**Cascade's status (v2.7.15+):** the cone-shape (4D as top, no parents) is the *default*. The upward extension is *left open* (Limitation 11) but now made explicit. Future work could close this by deriving $r_{4D}$ from a specific 5D Lagrangian or by deriving 4D's "DM" mechanism from 4D universe dynamics.
+
+See `calculations/v27_e_primordial.py` for the E_primordial specification, which is part of the same "extending the cascade" thread.
 
 ---
 
