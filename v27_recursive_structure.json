@@ -1,0 +1,8 @@
+{
+  "pattern": "Same \u03b1 = 1.29 at every level",
+  "proper_lifetime_rule": "Each level = next-dim Planck time",
+  "levels_analyzed": 7,
+  "extension": "Cascade naturally extends to N dimensions",
+  "cone_shape_default": "4D is the top by default, but \u00a73.10/\u00a73.21 allow extension",
+  "implication": "Cascade is a general framework, not specific to 4D-3+1D-2D"
+}

@@ -1,0 +1,13 @@
+{
+  "alpha_1.29_derivability": "NOT derived from first principles",
+  "closest_derivation": "CGHS-with-back-reaction (\u03b1 in [1, 3])",
+  "alternatives": [
+    "Same projection geometry",
+    "Liouville 2D CFT scale invariance",
+    "Time-dilation mechanism is dimension-independent",
+    "RS-II bulk geometry",
+    "CGHS-with-back-reaction"
+  ],
+  "status": "Phenomenological fit, not first-principles derivation",
+  "future_work": "CGHS-with-back-reaction calculation yielding \u03b1 = 1.29"
+}

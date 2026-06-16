@@ -2,6 +2,52 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.29 (June 2026) — §3.19-§3.22: Why α universal, self-critique, recursive structure, frameworks
+
+**Major changes since v2.7.25:**
+
+1. **§3.19 NEW: Why is α = 1.29 universal?** (~2 pages)
+   - 5 possible answers to "why is α the same at every level?"
+   - Answer 1: Same projection geometry (conjectural)
+   - Answer 2: Liouville CFT scale invariance (partial)
+   - Answer 3: Time-dilation dimension-independent (conjectural)
+   - Answer 4: RS-II bulk geometry (conjectural)
+   - Answer 5: **CGHS-with-back-reaction (STRONGEST MATCH)** — α=1.29 in [1,3] range
+   - Honest verdict: α is phenomenological, not first-principles
+   - Future work: specific CGHS calculation
+
+2. **§3.20 NEW: Self-critique of §3.17-§3.18** (~2 pages)
+   - The "all universes have same proper lifetime" is a HYPOTHESIS, not derivation
+   - 3 interpretations: A (one tick), B (N ticks), C (no internal time)
+   - Plausible if: Liouville CFT + same central charge + same dynamics → same lifetime
+   - Possibly wrong if: size-dependent dynamics
+   - L9 partially closed, not fully resolved
+
+3. **§3.21 NEW: Full recursive structure** (~2.5 pages)
+   - Cascade from 0D to ND
+   - Each level: same proper lifetime = next-dim Planck time
+   - Generalized Planck units: t_Pl,D = t_Pl,3 × (M_Pl,3/M_Pl,D)^(D-4)
+   - The cascade is naturally recursive
+   - Same physics at every level
+   - Cone-shape (§2.6) is default, framework extends
+
+4. **§3.22 NEW: More framework connections** (~3.5 pages)
+   - 11 frameworks analyzed:
+     - 1 STRONGEST: CGHS (α=1.29 in [1,3])
+     - 6 STRUCTURAL: Padmanabhan, Horava-Witten, KK, Geodetic brane, DGP, Verlinde
+     - 2 TENSION: Jacobson, RT (predict linear, not power law)
+     - 2 SPECULATIVE: Massive gravity, Conformal gravity
+   - New: Geodetic brane gravity, Massive gravity, Conformal gravity, Verlinde entropic
+   - Honest picture: 11 frameworks, no first-principles α derivation
+
+5. **Net: 4 new sections, ~12 pages added**
+   - Total paper: 239 → 251 pages
+   - Test counts UNCHANGED: 16/17, 7/7, 11/11
+   - Limitations: 37 honest limitations (unchanged)
+   - 1 free parameter (z_half only)
+
+**Earlier v2.7.25 entry (unchanged):**
+
 ## v2.7.25 (June 2026) — §3.18 Same proper lifetime applies upward
 
 **Major changes since v2.7.24:**

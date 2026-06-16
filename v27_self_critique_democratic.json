@@ -1,0 +1,11 @@
+{
+  "hypothesis": "All 2D universes have tau_proper = t_Pl,3 (in 2D frame)",
+  "status": "PLAUSIBLE HYPOTHESIS, NOT DERIVATION",
+  "requires": "Liouville 2D CFT (scale-invariant) + same central charge",
+  "alternatives": [
+    "B. N ticks interpretation: N_2D = f(E)",
+    "C. No internal time interpretation: same as A"
+  ],
+  "L9_status": "Partially closed (proper lifetime specified), but not fully resolved",
+  "future_work": "Derive from specific 2D Lagrangian"
+}
