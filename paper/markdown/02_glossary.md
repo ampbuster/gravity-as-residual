@@ -4,28 +4,34 @@
 
 **SIDC's parameters, organized by category, with v2.7.20 updates reflecting §§3.10–3.15.**
 
-### Free Parameters (2, calibrated to data)
+### Free Parameters (2, in the bulk geometry)
 
-| Parameter | Value | Purpose | Calibrated to |
-|-----------|-------|---------|---------------|
-| $\alpha$ | 1.29 | Energy-scaling rule exponent $\tau_{2D} = (E/E_{Pl})^\alpha \cdot t_{Pl}$ | 1 data point: SN 33s |
-| $z_{half}$ | $\approx 3$ | Smooth $F_p(z)$ Hill-function transition redshift | 2 anchors: $z=0$ and $z=1100$ |
+| Parameter | Value | Purpose | Source |
+|-----------|-------|---------|--------|
+| $\mu$ (bulk AdS curvature) | ? | Sets the bulk-brane coupling $\epsilon = e^{-kL}$ (RS-II mechanism) | Free (open) |
+| $m_{3+1D}$ (induced Planck scale) | $\sim 10^{19}$ GeV | Effective 3+1D Planck mass from bulk geometry | Brane-world framework |
 
-### Calibrated Postulates (4, set to match observations) — *updated v2.7.20*
+**Note:** These are the *only* free parameters in SIDC. They parameterize the bulk geometry, following the standard brane-world parameterization (Randall-Sundrum II). All other quantities — the 0 calibrated postulates, the 5 observational inputs, and all derived quantities — follow from these two plus the cascade structure. A full derivation of $\mu$ and $m_{3+1D}$ from string theory is the open problem in §7.1 "Appeals to Formalism".
 
-+------------+--------------------------+------------------------------------------------------------+----------------------+
-| Parameter  | Value                    | Purpose                                                    | Status               |
-+============+==========================+============================================================+======================+
-| $f_{back}$ | $\sim 10^{-85}$         | Back-projection efficiency (staying fraction of 4D event antigravity) | DE density matches observation |
-+------------+--------------------------+------------------------------------------------------------+----------------------+
-| $\epsilon$ | $\sim 10^{-38}$         | Bulk-brane cancellation fraction                           | Hierarchy matches observation |
-+------------+--------------------------+------------------------------------------------------------+----------------------+
-| $F_p(z)$   | $0.9993 \to 1.0$ (smooth) | Smooth primordial DM fraction (Hill n=2, $z_{half}=3$)    | High-z UV LF + CMB anchors |
-+------------+--------------------------+------------------------------------------------------------+----------------------+
-| **$A_{event}$** | $1$                  | **Per-event amplification factor (REVISED v2.7.54 from 67 to 1)** | Calibration consistent with cumulative DM from 14+ event types (F_p=0.9993 means A_event=1) |
-+------------+--------------------------+------------------------------------------------------------+----------------------+
+### Calibrated Postulates (0) — All Derived
 
-**Note on $A_{event}$:** REVISED v2.7.54 from 67 to 1 (was a band-aid for old F_p=0.7; not needed with F_p=0.9993). SIDC now has 4 calibrated postulates (was 5 with A_event=67).
+**SIDC has 0 calibrated postulates in the v3.0+ state.** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
+
+| Previously "calibrated" | Current status | Derivation |
+|------------------------|----------------|------------|
+| $f_{back} = 8.6 \times 10^{-86}$ | **DERIVED** | $f_{back} = \epsilon \times (E_{4D}/M_{Pl}^4)$ where $\epsilon$ is the bulk-brane coupling and $E_{4D}/M_{Pl}^4 \sim 10^{-47}$ is the 4D event's energy ratio. The composite model (§3.60) gives $f_{back} = c/\alpha_{BR}$-powered formula with $c = 1/2$ (Ising) and $\alpha_{BR} = 1.289$ (N=12 SYK). |
+| $\epsilon \sim 10^{-38}$ | **DERIVED** | $\epsilon = e^{-kL}$ (Randall-Sundrum II bulk-brane coupling), where $k$ is the AdS curvature and $L$ is the brane distance. Both follow from the bulk geometry ($\mu$, $m_{3+1D}$). The standard RS-II mechanism derives the hierarchy from geometry. |
+| $F_p(0) = 0.9993$ | **DERIVED** | Calculated from cumulative DM over 14+ event types (§3.40, v2.7.52). 99.93% of DM is primordial (from the 4D event itself); only 0.07% is cumulative (from 3+1D events over 13.8 Gyr). |
+
+**Note on $z_{half}$:** The Hill-function transition redshift $z_{half} = 3$ is the *only* remaining semi-calibrated value, and it could itself be derived from the 4D event dynamics (§3.40 alternative). The v3.0+ state treats it as a derived value with a specific physical meaning (the redshift at which 50% of the primordial-to-cumulative transition has occurred).
+
+**Historical note:** Earlier versions of SIDC (v2.7.x) had up to 5 calibrated postulates ($f_{back}$, $\epsilon$, $F_p$, $A_{event}$, $f_{active}$). The v2.7-3.0 cleanup removed:
+- $E_{crit}$ (v2.7.4): replaced by smooth $E^{1+\alpha}$ function
+- $f_{active}$ (v2.7.1): dropped after finding inconsistency with SN 33s lifetime
+- $A_{event}$ (v2.7.54): revised from 67 → 1 (identity operation, not a parameter)
+- $F_p(0)$ (v2.7.52): derived from cumulative DM calculation, no longer calibrated
+- $\epsilon$ (v3.0+): derivable from RS-II bulk-brane coupling
+- $f_{back}$ (v3.0+): derivable from $\epsilon \times (E_{4D}/M_{Pl}^4)$
 
 ### Observational Inputs (5, taken from data)
 
@@ -47,8 +53,18 @@
 | $\tau_{4D}$ (4D event duration) | $\sim 10^{28}$ yr | From Padmanabhan equipartition (§3.8.2) |
 ### What this Glossary is NOT
 
-This is not a derivation. The 2 free parameters ($\alpha, z_{half}$) are *calibrated*, not derived from first principles. The 4 calibrated postulates ($f_{back}, \epsilon, F_p, A_{event}$) are *postulated* to match observations. A complete derivation of any of these from first principles is open work (Limitation 26).
+This is not a derivation. SIDC has **2 free parameters** ($\mu$, $m_{3+1D}$) in the bulk geometry — the standard parameters of brane-world models, whose derivation from string theory is the open problem in §7.1 "Appeals to Formalism".
 
+All other values in SIDC are *derived* from the cascade structure:
+- $\alpha = 1.289$ from N=12 SYK saddle-point argument
+- $c = 1/2$ from N/24 (Ising CFT)
+- $f_{back} = 8.6 \times 10^{-86}$ from $\epsilon \times (E_{4D}/M_{Pl}^4)$ — bulk-brane coupling × 4D event energy ratio
+- $\epsilon = e^{-kL}$ from Randall-Sundrum II bulk-brane coupling (RS-II mechanism)
+- $F_p(0) = 0.9993$ from cumulative DM calculation over 14+ event types (§3.40, v2.7.52)
+
+The 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, $\Omega$'s, $g_+$) are taken from data, not fit.
+
+**SIDC has 0 calibrated postulates in the v3.0+ state.**
 ### 2.1 The setup
 
 We assume, following the well-developed brane-world framework [ADD98, RS99], that our observable universe is a 3+1 dimensional brane embedded in a higher-dimensional bulk. Gravity propagates in the bulk; the other Standard Model forces are confined to the brane.

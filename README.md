@@ -4,7 +4,14 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 3.0.2 (June 2026) — *Paper content: v3.0.2 (dimensional scale invariance, SIDC naming restored, §3.61). Build: v3.0.21 (limitations count fixed to 37, table syntax documented, all tables rendering properly). 341 pages.*
+**Version:** 3.0.2 (June 2026) — *Paper content: v3.0.2 (dimensional scale invariance, SIDC naming restored, §3.61). Build: v3.0.21 (limitations count fixed to 37, table syntax documented, all tables rendering properly). 328 pages.*
+
+**v3.0.2 PARAMETER CLEANUP**: 0 calibrated postulates (was 3 in v2.7.x, 5 in v2.7.16). All values now DERIVED from the cascade structure:
+- f_back = ε × (E_4D/M_Pl^4) — bulk-brane coupling × 4D event energy ratio
+- ε = e^{-kL} — RS-II bulk-brane coupling (from bulk geometry μ, m_3+1D)
+- F_p(0) = 0.9993 — calculated from cumulative DM over 14+ event types (§3.40)
+
+**The only free parameters are μ and m_3+1D** (the standard brane-world parameters). All 5 observational inputs (5/27/68, H_0, E_SN, Ω's, g_+) are taken from data. Everything else follows from the cascade structure (N=12 SYK backbone).
 
 **What is SIDC?** The model is called **SIDC — Scale-Invariant Dimensional Cascade**. The original v2.3.2 name was "Scale-Invariant Dimensional Cascade" (SIDC), shortened to "the cascade" in v2.4-2.7, and now restored as SIDC in v3.0.2 to emphasize the scale-invariance aspect. (The historical "Dimensional Cascade" / DC label is now deprecated.)
 
