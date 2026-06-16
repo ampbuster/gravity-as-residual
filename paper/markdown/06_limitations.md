@@ -82,7 +82,7 @@ The full table follows:
 | 24 | Mass-dependent scale factor | REVERTED | §4.1 | Better data needed |
 | 25 | RAR population improvement | REVERTED | §4.1 | Reverted to honest 8-12% fit |
 | 26 | Full Lagrangian | **PARTIAL** (v2.4, v2.7.3) | §4.38, §4.44, §4.44.1, §4.44, §7.1, §8.1.4 | 5/10 constraints by construction + T^eff_μν derived + J_bulk=0 BC in §4.44 + v2.4 refactor (2-3 free action params: $G_5$, $\alpha$, $\tau_{2D}$) + v2.7.3 web-research reduction of 4 free 2D CFT params (μ, b, α, z_0) to 2 free (μ, m₃₊₁D); remaining is 2D CFT expert |
-| 27 | RAR functional form (SIDC vs MOND) | **PARTIAL** (v2.3.1) | §4.42 | CONFIRMED via per-galaxy g_+ (43 galaxies, 4.5 decades in M_b) |
+| 27 | RAR functional form (SIDC vs MOND) | **PARTIAL** (v2.3.1) | §4.42 | CONFIRMED via per-galaxy g_+ (43 galaxies, 4.5 decades in $M_{b}$) |
 | 28 | Galaxy-vs-cluster g_+ divergence | **PARTIAL** (v2.3.1) | §4.42 | Cluster enhancement ~17.5× via MOND EFE |
 | 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219× bifurcation was a numerical error (§3.27). The 0.7-3× revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
 | 30 (NEW) | Topological eigenvalue (5/27) | **PARTIAL** (v2.4) | §2.6.1 | ANCHORED as $V_5 / A_4 R_{AdS_5} = 27/5$ via AdS$_5$/CFT$_4$ holographic counting; specific value depends on zero-mode counting of bulk-brane Dirac operator; closing this requires a 2D CFT expert |
@@ -317,7 +317,7 @@ SIDC's $V_{local}$ formula and MOND's external field effect are the **same physi
 
 **Direct test of V_local predictions on Tian+ 2024 data (v2.3.0, commit 170).** Per SIDC's 4 testable predictions, I performed a direct correlation analysis on the Tian+ 2024 BCGs (50 BCGs, computed per-galaxy g₊ from the deep MOND limit $g_+ \approx g_{obs}^2 / g_{bar}$). Key results:
 
-- **$g_+ \propto M_b$ (MOND-like):** observed slope = 0.23, expected ~0.5-0.6. **NO** — g₊ depends on DYNAMICAL mass, not baryonic
+- **$g_+ \propto $M_{b}$$ (MOND-like):** observed slope = 0.23, expected ~0.5-0.6. **NO** — g₊ depends on DYNAMICAL mass, not baryonic
 - **$g_+ \propto \sigma$ (MOND EFE):** observed slope = 1.85, expected ~2. **YES (almost exact!)**
 - **g₊ vs $z$ (no cosmic evolution):** r = 0.089, expected ~0. **YES**
 - **g₊ vs $R_{eff}$ (BCG size):** slope = 0.23, expected weakly negative. NO (mild positive)
@@ -325,9 +325,9 @@ SIDC's $V_{local}$ formula and MOND's external field effect are the **same physi
 
 **The KEY finding:** $g_+ \propto \sigma^{1.85}$ approximately matches the MOND external field effect $g_+ \propto \sigma^2 / R$ (exponent 1.85 vs 2.0, 7.5% off). This is consistent with the cluster's g₊ being set by the dynamical mass (velocity dispersion, which traces the cluster's total mass), not the baryonic mass alone. This is consistent with SIDC's V_local picture: the BCG sees the cumulative 2D universe back-projection from the entire cluster, with the cluster's dynamical mass setting the relevant scale.
 
-**The M_b slope discrepancy (0.23 vs 0.5-0.6) is meaningful:** SIDC's V_local formula P_energetic / V_local is NOT simply proportional to M_b. P_energetic depends on the cluster's ICM activity (AGN feedback, cooling flows), which is NOT a simple function of M_b. This is a *specific calculation* that requires modeling the cluster's energy budget — left for future work (Limitation 26).
+**The $M_{b}$ slope discrepancy (0.23 vs 0.5-0.6) is meaningful:** SIDC's V_local formula P_energetic / V_local is NOT simply proportional to $M_{b}$. P_energetic depends on the cluster's ICM activity (AGN feedback, cooling flows), which is NOT a simple function of $M_{b}$. This is a *specific calculation* that requires modeling the cluster's energy budget — left for future work (Limitation 26).
 
-*Status: 2 of 4 V_local predictions confirmed (g_+ ∝ σ² and g_+ constant with z). 2 partially confirmed (g_+ ∝ M_b has wrong slope, g_+ vs Reff has unexpected sign). SIDC's V_local picture is QUALITATIVELY CORRECT but the EXACT coefficients require the 2D brane dynamics (Limitation 26).*
+*Status: 2 of 4 V_local predictions confirmed (g_+ ∝ σ² and g_+ constant with z). 2 partially confirmed (g_+ ∝ $M_{b}$ has wrong slope, g_+ vs Reff has unexpected sign). SIDC's V_local picture is QUALITATIVELY CORRECT but the EXACT coefficients require the 2D brane dynamics (Limitation 26).*
 
 These limitations are not unusual for a thought experiment. They are the natural next steps for theoretical development. They are the natural next steps for theoretical development.
 

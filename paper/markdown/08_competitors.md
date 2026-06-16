@@ -62,7 +62,7 @@ SIDC inherits the hierarchy-problem solution of brane-world models while extendi
 **SIDC's temporal advantage.** By introducing the Stellar Age Lifecycle matrix (Limitation 24), the SIDC model possesses a historic ledger system. It flawlessly accounts for:
 
 - **AGC 114905** (DM-poor, ~$10^{9}$ M$_\odot$ baryons): diffuse star formation that *never crossed* $E_{crit}$.
-- **KKR 25** (REVISED v2.7.33+, DM-rich dSph, M_b = 3×10⁶ M_⊙): an intense historical starburst 1-4 Gyr ago whose $S_{destruction}$ energy remains permanently cached on our brane as a stable gravitational fossil. SIDC's previous M_b (3×10⁹) was 1000× too high vs. Makarov 2012; the M_dyn/M_b ~ 1-4 (was 299) is still consistent with dSph typical values.
+- **KKR 25** (REVISED v2.7.33+, DM-rich dSph, $M_{b}$ = 3×10⁶ M_⊙): an intense historical starburst 1-4 Gyr ago whose $S_{destruction}$ energy remains permanently cached on our brane as a stable gravitational fossil. SIDC's previous $M_{b}$ (3×10⁹) was 1000× too high vs. Makarov 2012; the $M_{dyn}$/$M_{b}$ ~ 1-4 (was 299) is still consistent with dSph typical values.
 
 The distinction is *when* the energetic events happened, not just how much mass is there now. Entropic gravity cannot make this distinction; SIDC does.
 

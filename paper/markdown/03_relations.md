@@ -758,9 +758,9 @@ This Pauli-blocked equilibrium model makes several testable predictions:
    - Much less than standard relic neutrinos (336/cm³), but at higher energy
 
 4. **Time evolution of DM/baryon ratio:**
-   - At early times: ratio is lower (less cumulative DM, no decay yet)
-   - At late times: ratio approaches equilibrium 5.4x
-   - At future times: ratio stabilizes at 5.4x (or slightly higher if $R_{add}$ continues)
+   - At early t\times: ratio is lower (less cumulative DM, no decay yet)
+   - At late t\times: ratio approaches equilibrium 5.4x
+   - At future t\times: ratio stabilizes at 5.4x (or slightly higher if $R_{add}$ continues)
    - SIDC predicts: at $z=0$, ratio is $\sim 90\%$ of equilibrium value
 
 5. **Cosmic structure formation:**
@@ -813,7 +813,7 @@ The user's insight is a major conceptual advance for SIDC. It provides:
 - DM decays slowly via $\nu_s \to \nu_a + \gamma$
 - Decay is suppressed in halos by Pauli blocking
 - DM/baryon ratio is constant at 5.4x (equilibrium)
-- "Approximately conserved" total DM is now DERIVED, not postulated
+- "A\approximately conserved" total DM is now DERIVED, not postulated
 - This is a major advancement from the v2.7.17 status (postulated)
 
 **Limitations remaining:**
@@ -979,7 +979,7 @@ Several 2024 papers study Pauli blocking as a DM stability mechanism:
 
 **3.15.2 SIDC's mass problem.**
 
-SIDC's §3.13 mechanism required $m_s \sim 1$ GeV (from the equilibrium decay rate calculation). This is **$10^5$ times heavier** than the Batell-Yin bound:
+SIDC's §3.13 mechanism required $m_s \sim 1$ GeV (from the equilibrium decay rate calculation). This is **$10^5$ t\times heavier** than the Batell-Yin bound:
 
 $$\frac{m_s^{SIDC}}{m_{DM}^{Batell-Yin}} = \frac{1  GeV}{10  meV} = 10^5$$
 
@@ -1021,7 +1021,7 @@ GeV-scale DM **can** be stable, but requires different mechanisms:
 
 - **WIMP:** Z₂ symmetry (R-parity in SUSY, KK parity in extra dimensions)
 - **Neutralino:** SUSY R-parity
-- **Sterile neutrino:** approximate lepton number conservation
+- **Sterile neutrino:** approximatelyimate lepton number conservation
 - **Stable scalar:** Z₂ or Z₃ symmetry
 
 These are well-motivated and consistent with observations. But they don't provide the "more clustered = slower decay" mechanism the §3.13 hypothesis wanted.
@@ -1591,7 +1591,7 @@ If M_Pl,D = 887 GeV (SIDC's floor) for all D ≥ 4:
 - t_Pl,6 = 1.0×10⁻¹¹ s (much longer)
 - ...
 
-**Higher dimensions have longer Planck times.** This is because the Planck scale is determined by the bulk-brane geometry, which is the same at every level.
+**Higher dimensions have longer Planck t\times.** This is because the Planck scale is determined by the bulk-brane geometry, which is the same at every level.
 
 **3.21.3 SIDC's natural extension.**
 
@@ -2084,21 +2084,21 @@ full analysis and the Bidaran 2025 reference.
 
 ---
 
-### 3.27 KKR 25 self-correction: M_b was off by 1000× (v2.7.33+)
+### 3.27 KKR 25 self-correction: $M_{b}$ was off by 1000× (v2.7.33+)
 
 A web search for the actual Makarov 2012 KKR 25 paper
 (arXiv:1206.5545) reveals a major numerical inconsistency in the
 SIDC's KKR 25 entry. SIDC had:
 
 $$M_b = 3.0 \times 10^9   M_\odot \quad (SIDC, WRONG)$$
-$$M_{\rm dyn}/M_b = 299 \quad (SIDC)$$
+$$M_{\rm dyn}/$M_{b}$ = 299 \quad (SIDC)$$
 
 But Makarov 2012 reports:
 
 $$M_b = 3.0 \pm 0.3 \times 10^6   M_\odot \quad (Makarov 2012)$$
 $$M_V = -10.9 \quad mag (Makarov 2012)$$
 
-**SIDC's M_b is 1000× higher than the published value.** This is
+**SIDC's $M_{b}$ is 1000× higher than the published value.** This is
 a significant error. SIDC's interpretation of "1.0 M_⊙/yr × 3 Gyr
 = 3×10⁹ M_⊙" was based on a misreading of the SFH.
 
@@ -2107,7 +2107,7 @@ a significant error. SIDC's interpretation of "1.0 M_⊙/yr × 3 Gyr
 KKR 25 (Makarov et al. 2012):
 - D = 1.9 Mpc
 - M_V = -10.9 mag
-- **M_b = 3.0 ± 0.3 × 10⁶ M_⊙ (total stellar mass)**
+- **$M_{b}$ = 3.0 ± 0.3 × 10⁶ M_⊙ (total stellar mass)**
 - SFH: 60% from old population (12.6-13.7 Gyr ago)
 - SFH: 40% from intermediate-age population (1-4 Gyr ago)
 - No current star formation
@@ -2118,13 +2118,13 @@ The intermediate-age burst (1-4 Gyr ago) corresponds to:
 - 1.2 × 10⁶ M_⊙ total mass formed
 - Average SFR: 1.2×10⁶/3×10⁹ = 4×10⁻⁴ M_⊙/yr (extremely low)
 
-**3.27.2 Revised M_dyn/M_b estimates.**
+**3.27.2 Revised $M_{dyn}$/$M_{b}$ estimates.**
 
-The Wolf+ 2010 mass estimator: M_dyn = 5 σ² r_h / G
+The Wolf+ 2010 mass estimator: $M_{dyn}$ = 5 σ² r_h / G
 
 For typical dSph parameters (σ = 5-15 km/s, r_h = 300-1000 pc):
 
-| σ (km/s) | r_h (pc) | M_dyn (M_⊙) | M_dyn/M_b |
+| σ (km/s) | r_h (pc) | $M_{dyn}$ (M_⊙) | $M_{dyn}$/$M_{b}$ |
 |----------|----------|-------------|-----------|
 | 5 | 300 | 1.7×10⁵ | 0.06 |
 | 10 | 500 | 2.8×10⁶ | 0.9 |
@@ -2136,22 +2136,22 @@ For typical dSph parameters (σ = 5-15 km/s, r_h = 300-1000 pc):
 | 30 | 1000 | 5.1×10⁷ | 17 |
 
 For typical values (σ ~ 10-15 km/s, r_h ~ 500-1000 pc):
-- M_dyn ~ 3×10⁶ to 1.3×10⁷ M_⊙
-- **M_dyn/M_b ~ 1 to 4**
+- $M_{dyn}$ ~ 3×10⁶ to 1.3×10⁷ M_⊙
+- **$M_{dyn}$/$M_{b}$ ~ 1 to 4**
 
 **3.27.3 Revised bifurcation ratio.**
 
-If M_dyn/M_b for KKR 25 is actually ~1-4 (not 299), and AGC 114905 has
-M_dyn/M_b ~ 1.36, the bifurcation ratio is much smaller:
+If $M_{dyn}$/$M_{b}$ for KKR 25 is actually ~1-4 (not 299), and AGC 114905 has
+$M_{dyn}$/$M_{b}$ ~ 1.36, the bifurcation ratio is much smaller:
 
-- KKR 25: M_dyn/M_b ~ 1-4
-- AGC 114905: M_dyn/M_b ~ 1.36
+- KKR 25: $M_{dyn}$/$M_{b}$ ~ 1-4
+- AGC 114905: $M_{dyn}$/$M_{b}$ ~ 1.36
 - Revised bifurcation ratio: 0.7-3× (was claimed 820×)
 
 **3.27.4 SIDC's interpretation is still qualitatively right.**
 
 SIDC's qualitative prediction is still valid:
-- KKR 25 has higher M_dyn/M_b than AGC 114905
+- KKR 25 has higher $M_{dyn}$/$M_{b}$ than AGC 114905
 - KKR 25's intermediate-age SF (1-4 Gyr) created 2D universes whose
   cumulative deaths contribute DM
 - AGC 114905's low SF throughout means less DM
@@ -2161,19 +2161,19 @@ The bifurcation exists, but it's much smaller than SIDC claimed.
 **3.27.5 Status update (v2.7.33+).**
 
 - KKR 25 was SIDC's "smoking gun" for bifurcation
-- The 299× M_dyn/M_b was based on a M_b that was 1000× too high
-- The actual M_dyn/M_b is probably ~1-4 (not 299)
+- The 299× $M_{dyn}$/$M_{b}$ was based on a $M_{b}$ that was 1000× too high
+- The actual $M_{dyn}$/$M_{b}$ is probably ~1-4 (not 299)
 - The bifurcation ratio is much smaller: 0.7-3× (was 820×)
 - SIDC's INTERPRETATION is still qualitatively correct
 - The QUANTITATIVE prediction is much weaker
 - This is an honest self-correction
 
-**3.27.6 L38 added: KKR 25 M_b value.**
+**3.27.6 L38 added: KKR 25 $M_{b}$ value.**
 
-Limitation 38: KKR 25 M_b was off by 1000× in SIDC (v2.7.33+).
+Limitation 38: KKR 25 $M_{b}$ was off by 1000× in SIDC (v2.7.33+).
 SIDC's "1.0 M_⊙/yr × 3 Gyr" computation was a misreading of
-the SFH. Makarov 2012 gives M_b = 3.0 × 10⁶ M_⊙, not 3.0 × 10⁹.
-This means the M_dyn/M_b = 299 claim is not supported by the data.
+the SFH. Makarov 2012 gives $M_{b}$ = 3.0 × 10⁶ M_⊙, not 3.0 × 10⁹.
+This means the $M_{dyn}$/$M_{b}$ = 299 claim is not supported by the data.
 SIDC's interpretation is still qualitatively right (intermediate
 SF → DM), but the quantitative prediction is much weaker.
 
@@ -2184,7 +2184,7 @@ SF → DM), but the quantitative prediction is much weaker.
 3. The quantitative prediction is much weaker
 4. SIDC's documentation of this error is honest
 5. SIDC's bifurcation argument needs revision
-6. Future work: get KKR 25 velocity dispersion σ to constrain M_dyn
+6. Future work: get KKR 25 velocity dispersion σ to constrain $M_{dyn}$
 
 See `calculations/v27_kkr25_correction.py` for the full numerical
 analysis.
@@ -2203,9 +2203,9 @@ The "no DM" claim from Mancera Piña+ 2022 has been challenged:
 
 | Year | Authors | Finding | SIDC impact |
 |------|---------|---------|----------------|
-| 2022 | Mancera Piña+ (MNRAS 512, 3230) | "No trace of DM in AGC 114905" | Original claim, M_dyn/M_b ~ 1.36 |
+| 2022 | Mancera Piña+ (MNRAS 512, 3230) | "No trace of DM in AGC 114905" | Original claim, $M_{dyn}$/$M_{b}$ ~ 1.36 |
 | 2022 | Sellwood (MNRAS, stac1604, arXiv:2206.04609) | "AGC 114905 NEEDS DM" | Counter-paper: disc is too stable without DM, original analysis underestimates halo |
-| 2024 | Mancera Piña+ (A&A, arXiv:2404.06537) | Ultra-deep imaging, inclination 31±2°; MOND does not fit; CDM needs unusual halo; SIDM/FDM remain feasible | Confirms unusual halo, M_dyn/M_b uncertain |
+| 2024 | Mancera Piña+ (A&A, arXiv:2404.06537) | Ultra-deep imaging, inclination 31±2°; MOND does not fit; CDM needs unusual halo; SIDM/FDM remain feasible | Confirms unusual halo, $M_{dyn}$/$M_{b}$ uncertain |
 | 2025 | Afruni+ (MNRAS 538, 60, arXiv:2502.08717) | AGC 114905 can evolve in low-density halos that challenge ΛCDM | Supports unusual halo, consistent with SIDC geometric DM |
 
 **The 2022-2025 literature converges on**: AGC 114905 has SOME DM, but
@@ -2220,13 +2220,13 @@ A targeted search of 2024-2026 literature found:
 - No published velocity dispersion
 - The 2012 Makarov paper remains the only detailed study
 
-This means KKR 25's M_dyn is **still estimated, not measured**. The
-SIDC's M_dyn/M_b ~ 1-4 is a range based on assumed σ, not an
+This means KKR 25's $M_{dyn}$ is **still estimated, not measured**. The
+SIDC's $M_{dyn}$/$M_{b}$ ~ 1-4 is a range based on assumed σ, not an
 observation.
 
 **3.29.3 SIDC's bifurcation is now even more uncertain.**
 
-| Version | AGC 114905 M_dyn/M_b | KKR 25 M_dyn/M_b | Ratio |
+| Version | AGC 114905 $M_{dyn}$/$M_{b}$ | KKR 25 $M_{dyn}$/$M_{b}$ | Ratio |
 |---------|---------------------|-------------------|-------|
 | SIDC original | 1.36 (DM-poor) | 299 (DM-rich) | 219× |
 | v2.7.33+ revised | 1.36 (DM-poor) | 1-4 (DM-poor to moderate) | 0.7-3× |
@@ -2234,8 +2234,8 @@ observation.
 
 If AGC 114905 actually has more DM than SIDC assumed (per
 Sellwood 2022), the bifurcation is even smaller:
-- AGC 114905: M_dyn/M_b ~ 2-3 (per Sellwood, needs DM)
-- KKR 25: M_dyn/M_b ~ 1-4 (estimated)
+- AGC 114905: $M_{dyn}$/$M_{b}$ ~ 2-3 (per Sellwood, needs DM)
+- KKR 25: $M_{dyn}$/$M_{b}$ ~ 1-4 (estimated)
 - Bifurcation: 0.3-4× (could be UNITY)
 
 **3.29.4 What this means for SIDC.**
@@ -2250,7 +2250,7 @@ Sellwood 2022), the bifurcation is even smaller:
 **Negative:**
 - The bifurcation is now even weaker than v2.7.33+ claimed
 - AGC 114905 DM content is contested
-- KKR 25's M_dyn is estimated, not measured
+- KKR 25's $M_{dyn}$ is estimated, not measured
 - The "qualitative direction" of SIDC is preserved; the
   quantitative prediction is much weaker
 
@@ -2258,14 +2258,14 @@ Sellwood 2022), the bifurcation is even smaller:
 
 - **L40**: AGC 114905 DM content is contested in 2022-2025 literature
   (Mancera Piña 2022 vs Sellwood 2022 vs Mancera Piña 2024 vs Afruni 2025)
-- **L41**: KKR 25 has no new observations in 2024-2026; M_dyn still estimated
+- **L41**: KKR 25 has no new observations in 2024-2026; $M_{dyn}$ still estimated
 - **L42**: SIDC's bifurcation is now even more uncertain (0.7-3× → 1-3× or less)
 
 **3.29.6 Status (v2.7.35+).**
 
 - SIDC's AGC/KKR bifurcation comparison is methodologically weak
 - AGC 114905: contested DM (2022-2025)
-- KKR 25: unmeasured M_dyn (2012)
+- KKR 25: unmeasured $M_{dyn}$ (2012)
 - Bifurcation: 0.7-3× or LESS (was 219×, then 0.7-3×)
 - SIDC's qualitative interpretation is preserved
 - The quantitative prediction is much weaker
@@ -2295,11 +2295,11 @@ The 5 best extreme test candidates from the 2024-2026 literature:
 
 | # | Object | Why extreme | SIDC prediction | Status |
 |---|--------|-------------|---------------------|--------|
-| 1 | **Tidal Dwarf Galaxies (TDGs)** | Form from tidal debris, no past SF in TDG itself | M_dyn/M_b ~ 1 (NO DM) | STRONGEST TEST (Gentile+ 2007) |
-| 2 | **JWST z > 4 massive quiescents** | Massive galaxies already dead by z=4-5 | Very high M_dyn/M_b | HIGHEST PAST SF TEST (RUBIES, ZF-UDS, Cosmic Stillness) |
-| 3 | **Crater II** | MW satellite with very low M_dyn/M_b | M_dyn/M_b ~ 1 (low past SF) | Confounded by tidal disruption (Vivas+ 2025) |
-| 4 | **Antlia 2** | 100× more diffuse than typical UDGs | Extremely low M_dyn/M_b | Clean test candidate (Torrealba+ 2018) |
-| 5 | **Ultra-faint dwarfs (UFDs)** | Most DM-dominated known galaxies | High M_dyn/M_b (efficient SF) | Statistical sample needed |
+| 1 | **Tidal Dwarf Galaxies (TDGs)** | Form from tidal debris, no past SF in TDG itself | $M_{dyn}$/$M_{b}$ ~ 1 (NO DM) | STRONGEST TEST (Gentile+ 2007) |
+| 2 | **JWST z > 4 massive quiescents** | Massive galaxies already dead by z=4-5 | Very high $M_{dyn}$/$M_{b}$ | HIGHEST PAST SF TEST (RUBIES, ZF-UDS, Cosmic Stillness) |
+| 3 | **Crater II** | MW satellite with very low $M_{dyn}$/$M_{b}$ | $M_{dyn}$/$M_{b}$ ~ 1 (low past SF) | Confounded by tidal disruption (Vivas+ 2025) |
+| 4 | **Antlia 2** | 100× more diffuse than typical UDGs | Extremely low $M_{dyn}$/$M_{b}$ | Clean test candidate (Torrealba+ 2018) |
+| 5 | **Ultra-faint dwarfs (UFDs)** | Most DM-dominated known galaxies | High $M_{dyn}$/$M_{b}$ (efficient SF) | Statistical sample needed |
 
 **3.30.2 Tidal Dwarf Galaxies (TDGs) — the strongest test.**
 
@@ -2313,7 +2313,7 @@ lack dark matter: tidal dwarf galaxies" revisits this issue.
 
 **SIDC prediction**: TDGs form from gas stripped off a parent
 galaxy during interaction. The TDG itself has no past SF, so the
-SIDC predicts M_dyn/M_b ~ 1 (NO DM). If TDGs are DM-rich, the
+SIDC predicts $M_{dyn}$/$M_{b}$ ~ 1 (NO DM). If TDGs are DM-rich, the
 SIDC is WRONG.
 
 **Status**: TDG DM content is contested. Some studies find DM-rich
@@ -2334,12 +2334,12 @@ z > 4, which is unexpected in ΛCDM:
 
 **SIDC prediction**: These galaxies had EXTREME past SF in a
 short time (z ~ 11 to z ~ 5). SIDC predicts they should
-have very high M_dyn from the cumulative 2D universe deaths.
+have very high $M_{dyn}$ from the cumulative 2D universe deaths.
 
-**Testable**: If M_dyn/M_b is high for these galaxies, SIDC
-is right. If M_dyn/M_b ~ 1, SIDC is wrong.
+**Testable**: If $M_{dyn}$/$M_{b}$ is high for these galaxies, SIDC
+is right. If $M_{dyn}$/$M_{b}$ ~ 1, SIDC is wrong.
 
-**Current limitation**: Direct M_dyn measurements at z > 4 are hard
+**Current limitation**: Direct $M_{dyn}$ measurements at z > 4 are hard
 (no resolved dynamics). Indirect tests via gravitational lensing
 or clustering.
 
@@ -2348,15 +2348,15 @@ or clustering.
 Crater II (Caldwell+ 2017) is a Milky Way satellite with:
 - M_V ~ -8
 - Very low velocity dispersion (σ ~ 2.7 km/s)
-- M_dyn/M_b ~ 1 (very low DM)
+- $M_{dyn}$/$M_{b}$ ~ 1 (very low DM)
 - 2025 papers show it's "undeniably experiencing tidal disruption"
 
 **SIDC prediction**: Crater 2 had low past SF (M_V ~ -8 means
-modest stellar mass), so SIDC predicts low M_dyn. The observation
-of low M_dyn/M_b is CONSISTENT with SIDC.
+modest stellar mass), so SIDC predicts low $M_{dyn}$. The observation
+of low $M_{dyn}$/$M_{b}$ is CONSISTENT with SIDC.
 
 **Confounder**: Tidal disruption makes the kinematics hard to
-interpret. The low M_dyn might be due to tidal stripping, not
+interpret. The low $M_{dyn}$ might be due to tidal stripping, not
 intrinsically low DM.
 
 **3.30.5 Antlia 2 — extreme diffuse MW satellite.**
@@ -2367,8 +2367,8 @@ Antlia 2 (Torrealba+ 2018) is the largest known MW satellite:
 - Very low surface brightness
 
 **SIDC prediction**: Extremely low past SF (it's a ghost galaxy
-with very few stars) → extremely low M_dyn. SIDC predicts
-M_dyn/M_b ~ 1 (or even less, since it's so diffuse).
+with very few stars) → extremely low $M_{dyn}$. SIDC predicts
+$M_{dyn}$/$M_{b}$ ~ 1 (or even less, since it's so diffuse).
 
 **Testable**: With proper velocity dispersion data, this is a clean
 test of SIDC's "low past SF → low DM" rule.
@@ -2378,18 +2378,18 @@ test of SIDC's "low past SF → low DM" rule.
 The MW satellite ultra-faint dwarfs (Bootes I, II, III, IV, Segue 1,
 Willman 1, Tucana II, etc.) are the most DM-dominated known galaxies:
 - M_V ~ -2 to -6
-- M_dyn/M_b ~ 100-1000 (very high)
+- $M_{dyn}$/$M_{b}$ ~ 100-1000 (very high)
 
 **SIDC prediction**: UFDs are unusual — they have low total
 mass but their SF was EFFICIENT (low mass but high past SF rate).
-SIDC predicts UFDs should have high M_dyn/M_b.
+SIDC predicts UFDs should have high $M_{dyn}$/$M_{b}$.
 
 **SIDC's interpretation**: UFDs had a few SN events early in
 their history, each creating 2D universes whose cumulative deaths
 contribute significant DM relative to their low total mass.
 
-**Testable**: Statistical analysis of M_dyn/M_b vs M_b for UFDs
-should show a steep relation (high M_dyn/M_b at low M_b).
+**Testable**: Statistical analysis of $M_{dyn}$/$M_{b}$ vs $M_{b}$ for UFDs
+should show a steep relation (high $M_{dyn}$/$M_{b}$ at low $M_{b}$).
 
 **3.30.7 Other extreme observations worth tracking.**
 
@@ -2405,10 +2405,10 @@ should show a steep relation (high M_dyn/M_b at low M_b).
 
 **3.30.8 New limitations (v2.7.37+).**
 
-- **L43**: TDGs are a strong test; SIDC predicts M_dyn/M_b ~ 1
+- **L43**: TDGs are a strong test; SIDC predicts $M_{dyn}$/$M_{b}$ ~ 1
   but Gentile+ 2007 finds DM-rich. NEEDS RESOLUTION.
 - **L44**: JWST massive quiescent z > 4 galaxies are an extreme
-  test; M_dyn measurements are needed.
+  test; $M_{dyn}$ measurements are needed.
 - **L45**: Crater II, Antlia 2, UFDs are useful tests but require
   more analysis.
 
@@ -2426,8 +2426,8 @@ This would strengthen SIDC's SFH-DM correlation from
 
 **Falsifiability**: 
 - If TDGs are DM-rich (Gentile 2007 is right): SIDC wrong
-- If z > 4 massive quiescents have M_dyn/M_b ~ 1: SIDC wrong
-- If UFDs do NOT show steep M_dyn/M_b vs M_b: SIDC wrong
+- If z > 4 massive quiescents have $M_{dyn}$/$M_{b}$ ~ 1: SIDC wrong
+- If UFDs do NOT show steep $M_{dyn}$/$M_{b}$ vs $M_{b}$: SIDC wrong
 - If all 17-22 new tests pass: SIDC's SFH-DM correlation is
   much more strongly supported
 
@@ -2446,68 +2446,68 @@ disputed ones (TDGs, AGC 114905, KKR 25) for future work.
 
 SIDC's key claim: DM = cumulative 2D universe death energy,
 tied to past energetic activity. Best tests are objects with:
-- LOW past SF → LOW M_dyn (in absolute terms)
-- HIGH past SF → HIGH M_dyn (in absolute terms)
-- UFDs are special: low M_b but efficient SF → high M_dyn/M_b
+- LOW past SF → LOW $M_{dyn}$ (in absolute terms)
+- HIGH past SF → HIGH $M_{dyn}$ (in absolute terms)
+- UFDs are special: low $M_{b}$ but efficient SF → high $M_{dyn}$/$M_{b}$
 
-We use the Wolf+ 2010 mass estimator (M_dyn = 5 σ² r_h / G) for
+We use the Wolf+ 2010 mass estimator ($M_{dyn}$ = 5 σ² r_h / G) for
 each galaxy. SIDC's pass criterion is QUALITATIVE: galaxies
-with non-trivial past SF should have non-zero M_dyn.
+with non-trivial past SF should have non-zero $M_{dyn}$.
 
 **3.31.2 Results: 6 testable galaxies (consensus data).**
 
-| Galaxy | M_b (M_o) | σ (km/s) | r_h (pc) | M_dyn (M_o) | M_dyn/M_b | SIDC |
+| Galaxy | $M_{b}$ (M_o) | σ (km/s) | r_h (pc) | $M_{dyn}$ (M_o) | $M_{dyn}$/$M_{b}$ | SIDC |
 |--------|-----------|----------|----------|-------------|-----------|---------|
-| **Crater II** | 3.0×10⁵ | 2.7 | 700 | 5.9×10⁶ | **19.8** | PASS (low M_dyn/M_b, but DM is non-zero) |
-| **Antlia 2** | 5.0×10⁵ | 5.0 | 2900 | 8.4×10⁷ | **168.6** | PASS (high M_dyn/M_b, consistent with SIDC) |
-| **Boötes I** | 3.0×10⁴ | 5.0 | 230 | 6.7×10⁶ | **222.9** | PASS (high M_dyn/M_b, consistent with SIDC) |
-| **Segue 1** | 6.0×10² | 3.7 | 30 | 4.8×10⁵ | **796.1** | PASS (very high M_dyn/M_b, consistent with SIDC) |
+| **Crater II** | 3.0×10⁵ | 2.7 | 700 | 5.9×10⁶ | **19.8** | PASS (low $M_{dyn}$/$M_{b}$, but DM is non-zero) |
+| **Antlia 2** | 5.0×10⁵ | 5.0 | 2900 | 8.4×10⁷ | **168.6** | PASS (high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
+| **Boötes I** | 3.0×10⁴ | 5.0 | 230 | 6.7×10⁶ | **222.9** | PASS (high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
+| **Segue 1** | 6.0×10² | 3.7 | 30 | 4.8×10⁵ | **796.1** | PASS (very high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
 | **Willman 1** | 1.0×10⁴ | 4.0 | 25 | 4.7×10⁵ | **46.5** | PASS (DM is non-zero, consistent with SIDC) |
-| **Tucana II** | 2.3×10³ | 4.5 | 165 | 3.9×10⁶ | **1689.6** | PASS (very high M_dyn/M_b, consistent with SIDC) |
+| **Tucana II** | 2.3×10³ | 4.5 | 165 | 3.9×10⁶ | **1689.6** | PASS (very high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
 
 **ALL 6 GALAXIES PASS THE QUALITATIVE TEST.** SIDC's picture
 is: DM is non-zero for any galaxy with non-trivial past SF.
 
 **3.31.3 Per-galaxy analysis.**
 
-**Crater II (M_dyn/M_b = 19.8)**: low M_dyn in absolute terms
-(5.9×10⁶ M_o), consistent with low past SF. M_dyn/M_b = 19.8 is
+**Crater II ($M_{dyn}$/$M_{b}$ = 19.8)**: low $M_{dyn}$ in absolute terms
+(5.9×10⁶ M_o), consistent with low past SF. $M_{dyn}$/$M_{b}$ = 19.8 is
 moderate. SIDC predicts Crater II to have relatively low
 DM. **CAVEAT**: tidal disruption may have stripped some DM
 (Vivas+ 2025).
 
-**Antlia 2 (M_dyn/M_b = 168.6)**: high M_dyn (8.4×10⁷ M_o) and high
-M_dyn/M_b. This was historically interpreted as evidence for an
+**Antlia 2 ($M_{dyn}$/$M_{b}$ = 168.6)**: high $M_{dyn}$ (8.4×10⁷ M_o) and high
+$M_{dyn}$/$M_{b}$. This was historically interpreted as evidence for an
 unusual DM halo (Torrealba+ 2018, 2019), but SIDC says this
 is consistent with the galaxy's extended tidal history (which may
 have included more past activity than the current "ghost" appearance
 suggests).
 
-**Boötes I (M_dyn/M_b = 222.9)**: classic UFD with high M_dyn/M_b.
+**Boötes I ($M_{dyn}$/$M_{b}$ = 222.9)**: classic UFD with high $M_{dyn}$/$M_{b}$.
 SIDC's prediction: Boötes I had efficient SF early in its
-history (per unit stellar mass), so M_dyn is high. **CONSISTENT.**
+history (per unit stellar mass), so $M_{dyn}$ is high. **CONSISTENT.**
 
-**Segue 1 (M_dyn/M_b = 796.1)**: the most extreme UFD with M_b ~ 600 M_o
-but M_dyn ~ 5×10⁵ M_o. SIDC's prediction: Segue 1 had
-extremely efficient SF (per unit stellar mass), so M_dyn is very
+**Segue 1 ($M_{dyn}$/$M_{b}$ = 796.1)**: the most extreme UFD with $M_{b}$ ~ 600 M_o
+but $M_{dyn}$ ~ 5×10⁵ M_o. SIDC's prediction: Segue 1 had
+extremely efficient SF (per unit stellar mass), so $M_{dyn}$ is very
 high. **CONSISTENT.**
 
-**Willman 1 (M_dyn/M_b = 46.5)**: lower M_dyn/M_b than other UFDs
+**Willman 1 ($M_{dyn}$/$M_{b}$ = 46.5)**: lower $M_{dyn}$/$M_{b}$ than other UFDs
 (46 vs 200-1700). SIDC's prediction: Willman 1's SFH was
-less efficient, so M_dyn is moderate. **CONSISTENT (caveat:**
-SIDC's specific M_dyn prediction is uncertain).
+less efficient, so $M_{dyn}$ is moderate. **CONSISTENT (caveat:**
+SIDC's specific $M_{dyn}$ prediction is uncertain).
 
-**Tucana II (M_dyn/M_b = 1689.6)**: very high M_dyn/M_b. The
+**Tucana II ($M_{dyn}$/$M_{b}$ = 1689.6)**: very high $M_{dyn}$/$M_{b}$. The
 SIDC's prediction: Tucana II had efficient SF early. **CONSISTENT.**
 
 **3.31.4 The pattern across UFDs and extreme cases.**
 
 SIDC's picture is:
-- Galaxies with high past SF (relative to M_b) have high M_dyn/M_b
-- Galaxies with low past SF (relative to M_b) have low M_dyn/M_b
-- This is a CORRELATION between past SF efficiency and M_dyn/M_b
+- Galaxies with high past SF (relative to $M_{b}$) have high $M_{dyn}$/$M_{b}$
+- Galaxies with low past SF (relative to $M_{b}$) have low $M_{dyn}$/$M_{b}$
+- This is a CORRELATION between past SF efficiency and $M_{dyn}$/$M_{b}$
 
-The data CONSISTENTLY shows M_dyn/M_b > 1 for all 6 galaxies,
+The data CONSISTENTLY shows $M_{dyn}$/$M_{b}$ > 1 for all 6 galaxies,
 supporting SIDC's qualitative claim that DM is non-zero for
 galaxies with non-trivial past SF.
 
@@ -2516,14 +2516,14 @@ galaxies with non-trivial past SF.
 The JWST discoveries (ZF-UDS-7329, RUBIES-EGS-QG-1) are extreme
 "high past SF" cases:
 
-| Galaxy | z | M_b (M_o) | SIDC prediction | Status |
+| Galaxy | z | $M_{b}$ (M_o) | SIDC prediction | Status |
 |--------|---|-----------|---------------------|--------|
-| **ZF-UDS-7329** | 3.205 | 1.6×10¹¹ | VERY HIGH M_dyn/M_b (extreme early SF) | M_dyn not measured yet |
-| **RUBIES-EGS-QG-1** | 4.9 | 1.0×10¹⁰ | VERY HIGH M_dyn/M_b (extreme early SF) | M_dyn not measured yet |
+| **ZF-UDS-7329** | 3.205 | 1.6×10¹¹ | VERY HIGH $M_{dyn}$/$M_{b}$ (extreme early SF) | $M_{dyn}$ not measured yet |
+| **RUBIES-EGS-QG-1** | 4.9 | 1.0×10¹⁰ | VERY HIGH $M_{dyn}$/$M_{b}$ (extreme early SF) | $M_{dyn}$ not measured yet |
 
 These galaxies formed their stars at z ~ 11 (only 350 Myr after the
 Big Bang) and were already massive and dead by z ~ 5. SIDC
-predicts they should have VERY HIGH M_dyn from the cumulative
+predicts they should have VERY HIGH $M_{dyn}$ from the cumulative
 2D universe deaths. **Testable with future gravitational lensing
 or resolved dynamics measurements.**
 
@@ -2541,22 +2541,22 @@ or resolved dynamics measurements.**
 
 SIDC's SFH-DM correlation is supported by 6 additional
 extreme cases (Crater II, Antlia 2, Boötes I, Segue 1, Willman 1,
-Tucana II), all with consensus M_dyn measurements. The 2 JWST
+Tucana II), all with consensus $M_{dyn}$ measurements. The 2 JWST
 massive quiescents are qualitative tests that can be made
-quantitative with future M_dyn measurements.
+quantitative with future $M_{dyn}$ measurements.
 
 **3.31.8 New limitations (v2.7.38+).**
 
-- **L46**: SIDC's specific M_dyn prediction for individual
-  galaxies is qualitative. The Wolf+ 2010 mass estimator gives M_dyn
+- **L46**: SIDC's specific $M_{dyn}$ prediction for individual
+  galaxies is qualitative. The Wolf+ 2010 mass estimator gives $M_{dyn}$
   to within ~50% uncertainty. SIDC's pass criterion is
-  "DM is non-zero", which is much weaker than a specific M_dyn/M_b
+  "DM is non-zero", which is much weaker than a specific $M_{dyn}$/$M_{b}$
   prediction.
 - **L47**: The 6 new tests are all consistent with SIDC,
-  but SIDC's M_dyn prediction for each is "qualitative pass"
+  but SIDC's $M_{dyn}$ prediction for each is "qualitative pass"
   not "quantitative match". A specific Lagrangian (L9 closed) is
   needed for quantitative predictions.
-- **L48**: Willman 1 has M_dyn/M_b = 47, lower than other UFDs
+- **L48**: Willman 1 has $M_{dyn}$/$M_{b}$ = 47, lower than other UFDs
   (200-1700). SIDC's specific prediction for Willman 1 is
   uncertain. Future work: detailed SFH of Willman 1.
 
@@ -2573,10 +2573,10 @@ quantitative with future M_dyn measurements.
 **3.31.10 Caveats and limitations.**
 
 - SIDC's PASS is qualitative ("DM is non-zero"), not
-  quantitative (specific M_dyn/M_b value)
+  quantitative (specific $M_{dyn}$/$M_{b}$ value)
 - The Wolf+ 2010 mass estimator has ~50% uncertainty
-- Willman 1's lower M_dyn/M_b (47) is a minor tension
-- The JWST galaxies need M_dyn measurements to be quantitative
+- Willman 1's lower $M_{dyn}$/$M_{b}$ (47) is a minor tension
+- The JWST galaxies need $M_{dyn}$ measurements to be quantitative
 - SIDC's specific quantitative prediction requires L9 closed
 
 **3.31.11 Path forward.**
@@ -2585,11 +2585,11 @@ To make these tests more quantitative:
 1. Close L9: derive specific 2D universe death energy return
 2. Close L26: derive full SIDC Lagrangian
 3. Apply to the 6 extreme cases with measured SFHs
-4. Make a specific M_dyn prediction for each, with uncertainties
+4. Make a specific $M_{dyn}$ prediction for each, with uncertainties
 5. Compare with measurements
 
 Until then, SIDC's test is qualitative: galaxies with
-non-trivial past SF should have non-zero M_dyn. This is consistent
+non-trivial past SF should have non-zero $M_{dyn}$. This is consistent
 with all 6 new extreme cases.
 
 See `calculations/v27_testable_extreme_galaxies.py` for the full
@@ -2606,10 +2606,10 @@ massive galaxies, and galaxy clusters (not just dwarfs).
 **3.32.1 The wide-range comparison table.**
 
 SIDC's qualitative SFH-DM correlation is tested against
-**21 galaxies with consensus M_dyn measurements** spanning 10
-orders of magnitude in M_b (from GCs at 10⁵ to clusters at 10¹⁴):
+**21 galaxies with consensus $M_{dyn}$ measurements** spanning 10
+orders of magnitude in $M_{b}$ (from GCs at 10⁵ to clusters at 10¹⁴):
 
-| Galaxy | M_b (M_o) | M_dyn (M_o) | M_dyn/M_b | Type | SIDC |
+| Galaxy | $M_{b}$ (M_o) | $M_{dyn}$ (M_o) | $M_{dyn}$/$M_{b}$ | Type | SIDC |
 |--------|-----------|-------------|-----------|------|---------|
 | M15 (NGC 7078) | 5.0×10⁵ | 5.0×10⁵ | 1.0 | GC | **[PASS]** |
 | 47 Tucanae | 1.0×10⁶ | 1.0×10⁶ | 1.0 | GC | **[PASS]** |
@@ -2634,44 +2634,44 @@ orders of magnitude in M_b (from GCs at 10⁵ to clusters at 10¹⁴):
 | Coma Cluster | 5.0×10¹³ | 5.0×10¹⁴ | 10.0 | Cluster | **[PASS]** |
 | Perseus Cluster | 1.0×10¹⁴ | 1.5×10¹⁵ | 15.0 | Cluster | **[PASS]** |
 
-**22/22 galaxies pass the qualitative test** (DM is non-zero). KKR 25 included with [!]️ marker for estimated M_dyn.
+**22/22 galaxies pass the qualitative test** (DM is non-zero). KKR 25 included with [!]️ marker for estimated $M_{dyn}$.
 
 **3.32.2 The pattern across 10 orders of magnitude.**
 
-The M_dyn/M_b ratio varies systematically with galaxy type:
+The $M_{dyn}$/$M_{b}$ ratio varies systematically with galaxy type:
 
-- **Globular clusters (10⁵-10⁷ M_o)**: M_dyn/M_b ~ 1 (no current activity)
-- **Dwarf galaxies (10⁵-10⁸ M_o)**: M_dyn/M_b ~ 1-1700 (huge spread)
-- **UFDs (10²-10⁴ M_o)**: M_dyn/M_b ~ 50-1700 (extreme)
-- **Irregular galaxies (10⁸-10⁹ M_o)**: M_dyn/M_b ~ 6-7
-- **Normal spirals (10¹⁰-10¹¹ M_o)**: M_dyn/M_b ~ 14-30
-- **AGN hosts (10¹² M_o)**: M_dyn/M_b ~ 50
-- **Galaxy clusters (10¹³-10¹⁴ M_o)**: M_dyn/M_b ~ 10-50
+- **Globular clusters (10⁵-10⁷ M_o)**: $M_{dyn}$/$M_{b}$ ~ 1 (no current activity)
+- **Dwarf galaxies (10⁵-10⁸ M_o)**: $M_{dyn}$/$M_{b}$ ~ 1-1700 (huge spread)
+- **UFDs (10²-10⁴ M_o)**: $M_{dyn}$/$M_{b}$ ~ 50-1700 (extreme)
+- **Irregular galaxies (10⁸-10⁹ M_o)**: $M_{dyn}$/$M_{b}$ ~ 6-7
+- **Normal spirals (10¹⁰-10¹¹ M_o)**: $M_{dyn}$/$M_{b}$ ~ 14-30
+- **AGN hosts (10¹² M_o)**: $M_{dyn}$/$M_{b}$ ~ 50
+- **Galaxy clusters (10¹³-10¹⁴ M_o)**: $M_{dyn}$/$M_{b}$ ~ 10-50
 
 SIDC's qualitative picture: galaxies with non-trivial past SF
-have non-zero M_dyn. The specific value of M_dyn/M_b depends on
+have non-zero $M_{dyn}$. The specific value of $M_{dyn}$/$M_{b}$ depends on
 the SFH, but the SIGN (non-zero) is preserved.
 
 **3.32.3 Why some galaxies are NOT in the table (per user request).**
 
 **1. KKR 25 (Makarov 2012)** — **NOT MEASURED**
-- M_b = 3.0×10⁶ M_o is measured
+- $M_{b}$ = 3.0×10⁶ M_o is measured
 - **No published velocity dispersion** for KKR 25
-- M_dyn/M_b is **estimated**, not measured
+- $M_{dyn}$/$M_{b}$ is **estimated**, not measured
 - 2024-2026 literature has no new KKR 25 observations
 - KKR 25 is still in SIDC's 12/12 test suite (paper §12)
   but cannot be in the comparison table without a measured σ
 
 **2. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
-- M_b ~ 7.3×10⁸ M_o is measured
-- M_dyn/M_b ~ 1.36 (Mancera Piña 2022) vs ~2-3 (Sellwood 2022)
+- $M_{b}$ ~ 7.3×10⁸ M_o is measured
+- $M_{dyn}$/$M_{b}$ ~ 1.36 (Mancera Piña 2022) vs ~2-3 (Sellwood 2022)
 - 2022-2025 literature has **two contradictory conclusions**:
   - Mancera Piña 2022: "No trace of dark matter"
   - Sellwood 2022: "AGC 114905 NEEDS dark matter"
   - Mancera Piña 2024: ultra-deep imaging, inclination 31±2°,
     MOND doesn't fit, CDM needs unusual halo
   - Afruni+ 2025: "long life in low-density halos"
-- DM content is **contested**, so M_dyn/M_b is uncertain
+- DM content is **contested**, so $M_{dyn}$/$M_{b}$ is uncertain
 
 **3. Tidal Dwarf Galaxies (TDGs, Gentile+ 2007)** — **DISPUTED**
 - "3 rotating TDGs DO show significant evidence for being dark
@@ -2684,10 +2684,10 @@ the SFH, but the SIGN (non-zero) is preserved.
 **3.32.4 What this means for SIDC.**
 
 - **21/21 wide-range galaxies pass the qualitative test** (DM is
-  non-zero across 10 orders of magnitude in M_b)
+  non-zero across 10 orders of magnitude in $M_{b}$)
 - SIDC's **strongest evidence**: this wide-range table plus
   the RAR (16/17 test categories) plus 11 framework connections
-- SIDC's **weakest evidence**: specific M_dyn/M_b values
+- SIDC's **weakest evidence**: specific $M_{dyn}$/$M_{b}$ values
   (SIDC can't predict without L9 closed) and disputed cases
 
 **3.32.5 Total galaxy test count (v2.7.41+).**
@@ -2695,12 +2695,12 @@ the SFH, but the SIGN (non-zero) is preserved.
 - 12/12 in §12 (original)
 - 21/21 in wide-range table (new, v2.7.41+)
 - 2/2 qualitative (JWST z>4 massive quiescents)
-- = **36/36 galaxy tests pass** (KKR 25 added with estimated M_dyn, v2.7.42+)
+- = **36/36 galaxy tests pass** (KKR 25 added with estimated $M_{dyn}$, v2.7.42+)
 
 **3.32.6 New limitations (v2.7.41+).**
 
 - **L49**: SIDC's pass criterion is qualitative (DM is
-  non-zero), not a specific M_dyn/M_b value. Quantitative prediction
+  non-zero), not a specific $M_{dyn}$/$M_{b}$ value. Quantitative prediction
   requires L9 closed.
 
 See `calculations/v27_wide_range_comparison.py` for the full
@@ -2708,29 +2708,29 @@ See `calculations/v27_wide_range_comparison.py` for the full
 
 ---
 
-### 3.33 SIDC M_dyn prediction for JWST massive quiescents at z>4 (v2.7.48+)
+### 3.33 SIDC $M_{dyn}$ prediction for JWST massive quiescents at z>4 (v2.7.48+)
 
 **Motivation (v2.7.32-47)**: 10+ massive quiescent galaxies at z>4
 have been confirmed with JWST spectroscopy. SIDC predicts
-that galaxies with very high past SF should have very high M_dyn/M_b
+that galaxies with very high past SF should have very high $M_{dyn}$/$M_{b}$
 (cumulative 2D universe deaths). This is SIDC's STRONGEST
 observational test.
 
 **Methodology**: For each massive quiescent, we use the measured
 SFH (formation redshift, duration, current mass) to compute:
-- N_SN = M_b / 100 (Salpeter IMF, M>8 M_o SN progenitors ~1% of mass)
+- N_SN = $M_{b}$ / 100 (Salpeter IMF, M>8 M_o SN progenitors ~1% of mass)
 - E_SN_total = N_SN × E_CCSN (E_CCSN = 10^44 J)
-- M_dyn = F_p(z) × M_dyn_primordial + F_s(z) × M_dyn_recent
+- $M_{dyn}$ = F_p(z) × M_dyn_primordial + F_s(z) × M_dyn_recent
 
 Where:
-- M_dyn_primordial ~ 5 × M_b (primordial 2D universe death halo)
+- M_dyn_primordial ~ 5 × $M_{b}$ (primordial 2D universe death halo)
 - M_dyn_recent = f_back × E_SN_total / c^2 (cumulative SN deaths)
 - F_p(z) = z^n / (z^n + z_half^n), n=2, z_half=3 (Hill function)
 - f_back = 10^-85 (SIDC calibrated from SN 33s lifetime)
 
-**Key finding (v2.7.48, REVISED v2.7.52)**: With F_p(0) = 0.9993 (revised), SIDC predicts M_dyn/M_b ~ 4.97 for these galaxies, dominated by the F_p(z) primordial component. The recent (SN-driven) component is **negligible** (~10^-91).
+**Key finding (v2.7.48, REVISED v2.7.52)**: With F_p(0) = 0.9993 (revised), SIDC predicts $M_{dyn}$/$M_{b}$ ~ 4.97 for these galaxies, dominated by the F_p(z) primordial component. The recent (SN-driven) component is **negligible** (~10^-91).
 
-| Galaxy | z | log M* | F_p(z) | SIDC M_dyn/M_b |
+| Galaxy | z | log M* | F_p(z) | SIDC $M_{dyn}$/$M_{b}$ |
 |--------|---|--------|--------|---------------------|
 | RUBIES-EGS-QG-1 | 4.90 | 10.3 | 0.9995 | 4.99 |
 | ZF-UDS-7329 | 3.21 | 11.04 | 0.9994 | 4.99 |
@@ -2744,19 +2744,19 @@ Where:
 | Not-So-Little-RD-1 | 6.0 | 11.0 | 0.9995 | 4.99 |
 | Fakhry-QG-z11 | 11.0 | 10.5 | 0.9996 | 4.99 |
 
-**Honest finding**: SIDC predicts M_dyn/M_b ~ 3-5, similar
+**Honest finding**: SIDC predicts $M_{dyn}$/$M_{b}$ ~ 3-5, similar
 to ΛCDM. SIDC **CANNOT distinguish itself from ΛCDM** on
-these galaxies alone — both predict M_dyn ~ 5×M_b at z>3.
+these galaxies alone — both predict $M_{dyn}$ ~ 5×$M_{b}$ at z>3.
 
 **What WOULD distinguish SIDC from ΛCDM**: precise measurement of
-M_dyn/M_b EVOLUTION with z. ΛCDM predicts M_dyn/M_b ~ constant (~5×)
-at all z. SIDC predicts M_dyn/M_b ∝ F_p(z), with stronger
+$M_{dyn}$/$M_{b}$ EVOLUTION with z. ΛCDM predicts $M_{dyn}$/$M_{b}$ ~ constant (~5×)
+at all z. SIDC predicts $M_{dyn}$/$M_{b}$ ∝ F_p(z), with stronger
 primordial component at higher z. The predicted difference is
 small (~1.5-2× across z=3-11), but testable with future ELT (2030+)
 IFU observations.
 
 **Caveats**:
-- M_dyn for z>4 galaxies is hard to measure (need σ from absorption
+- $M_{dyn}$ for z>4 galaxies is hard to measure (need σ from absorption
   lines, only possible with very deep JWST/NIRSpec or ELT IFU)
 - f_back ~ 10^-85 is calibrated from SN 33s lifetime (L9)
 - F_p(z) Hill function (n=2, z_half=3) is phenomenological
@@ -2922,11 +2922,11 @@ See `calculations/v27_ppn_test.py` for full calculations.
 
 ### 3.37 Summary of v2.7.48 predictions (honest findings)
 
-The v2.7.48 calculations (JWST M_dyn, DESI w(z), GW background, PPN)
+The v2.7.48 calculations (JWST $M_{dyn}$, DESI w(z), GW background, PPN)
 yield **mixed honest findings**:
 
 **Positive for SIDC (testable predictions)**:
-- JWST massive quiescents: SIDC predicts M_dyn/M_b ~ 3-5 with
+- JWST massive quiescents: SIDC predicts $M_{dyn}$/$M_{b}$ ~ 3-5 with
   specific z-evolution (F_p(z)). Testable with future ELT (2030+).
 - DM evolution F_p(z): SIDC predicts (1+z)^3 × F_p(z) DM density
   at high z, matching Planck 2018. Testable with future data.
@@ -2940,10 +2940,10 @@ yield **mixed honest findings**:
 **SIDC's REAL differentiators are**:
 1. F_p(z) primordial component at z>3 (testable with future data)
 2. Intermediate F(z) dwarf population ~10-30% (testable with LSST Y1 2027)
-3. Qualitative pattern across 10 orders of magnitude in M_b (already 36/36 PASS)
+3. Qualitative pattern across 10 orders of magnitude in $M_{b}$ (already 36/36 PASS)
 
 **SIDC's WEAKEST claims**:
-- Specific M_dyn/M_b values (L9 open, requires Lagrangian derivation)
+- Specific $M_{dyn}$/$M_{b}$ values (L9 open, requires Lagrangian derivation)
 - 2D universe death GW (undetectable, cannot be tested)
 - w(z) ≠ -1 (SIDC does NOT predict evolving DE)
 
@@ -2980,23 +2980,23 @@ and the testable F_p(z) DM evolution.
 | KKR 25 (est.) | 5.00 | 1.0 | **[PASS]** |
 
 **Summary**:
-- 8/22 galaxies MATCH SIDC's M_dyn/M_b ≈ 5 (GCs, DF2, M82, etc.)
-- 14/22 galaxies have M_dyn/M_b > 5 (dwarfs, spirals, clusters)
+- 8/22 galaxies MATCH SIDC's $M_{dyn}$/$M_{b}$ ≈ 5 (GCs, DF2, M82, etc.)
+- 14/22 galaxies have $M_{dyn}$/$M_{b}$ > 5 (dwarfs, spirals, clusters)
 
 **Honest interpretation**:
 - SIDC captures the QUALITATIVE pattern (DM is non-zero)
-- SIDC does NOT predict the SPECIFIC M_dyn/M_b values for
+- SIDC does NOT predict the SPECIFIC $M_{dyn}$/$M_{b}$ values for
   DM-rich galaxies (14/22)
-- This is L9 (open): specific M_dyn/M_b values require a Lagrangian
+- This is L9 (open): specific $M_{dyn}$/$M_{b}$ values require a Lagrangian
   derivation that SIDC doesn't have
 
 **Implication for SIDC**:
-- The 5×M_b baseline is from ΛCDM-like primordial halo
-- SIDC's "DM = past SF" should give MORE M_dyn for galaxies
+- The 5×$M_{b}$ baseline is from ΛCDM-like primordial halo
+- SIDC's "DM = past SF" should give MORE $M_{dyn}$ for galaxies
   with more past SF, but F_s is too small to account for the observed
   excess (see v2.7.50 inconsistency analysis)
 - SIDC needs an ADDITIONAL mechanism to produce the specific
-  M_dyn/M_b values for DM-rich galaxies
+  $M_{dyn}$/$M_{b}$ values for DM-rich galaxies
 
 This is consistent with SIDC's overall picture: the
 qualitative pattern is captured (DM is non-zero), but the specific
@@ -3220,7 +3220,7 @@ Tested against full observational data:
 
 - **14 event types**: τ_2D ~ M^1.29 confirmed for all 14
   (SN, Hypernova, GRBs, BNS, NS-BH, AGN, TDE, etc.)
-- **47 Tuc test**: M_dyn ≈ M_stars (SIDC differentiator from ΛCDM) **[PASS]**
+- **47 Tuc test**: $M_{dyn}$ ≈ $M_{stars}$ (SIDC differentiator from ΛCDM) **[PASS]**
 - **Massive quiescents z>4**: 10+ confirmed (RUBIES, EXCELS, etc.) **[PASS]**
 - **Intermediate F(z) dwarfs**: 10+ confirmed (Bidaran+ 2025, etc.) **[PASS]**
 - **TDG**: 7+ studies, picture SHIFTING toward DM-poor **[PASS]**
@@ -3303,7 +3303,7 @@ above BLG's 1.1°).
 6. α = 1 + 1/√N = 1.289 (saddle-point fluctuation)
 7. 1/(2α) = c/α_BR = 0.388 (composite)
 8. S₀ = 12 × log(2) (zero-temp entropy)
-9. **Testable**: M_dyn/M_b for 22+ galaxies, massive quiescents z>4,
+9. **Testable**: $M_{dyn}$/$M_{b}$ for 22+ galaxies, massive quiescents z>4,
    intermediate F(z) dwarfs, TDG, 47 Tuc, DESI w(z), LISA death GW
 
 **Updated calibrated postulates (v2.7.66)**:
@@ -3487,24 +3487,24 @@ were collected a decade apart.
 - **Systematic error treatment**: Modern papers include detailed systematics; older papers often don't
 - **HI gas content**: Different surveys (HIPASS, ALFALFA, VLA) have different sensitivities
 
-**3.28.3 The bigger problem: KKR 25's M_dyn/M_b isn't actually measured.**
+**3.28.3 The bigger problem: KKR 25's $M_{dyn}$/$M_{b}$ isn't actually measured.**
 
-SIDC's M_dyn/M_b = 1-4 (revised) for KKR 25 is **estimated**,
+SIDC's $M_{dyn}$/$M_{b}$ = 1-4 (revised) for KKR 25 is **estimated**,
 not measured. The Wolf+ 2010 mass estimator requires velocity
 dispersion σ and half-light radius r_h. A literature search in June 2026
 found:
 - KKR 25 has no published velocity dispersion
 - KKR 25 has a half-light radius from Makarov 2012 (~0.5-1 kpc)
-- Without σ, M_dyn cannot be directly computed
+- Without σ, $M_{dyn}$ cannot be directly computed
 
-SIDC's M_dyn/M_b for KKR 25 is therefore a **postulated range**
+SIDC's $M_{dyn}$/$M_{b}$ for KKR 25 is therefore a **postulated range**
 based on typical dSph parameters, not a measurement.
 
 **3.28.4 What the bifurcation comparison actually shows.**
 
 SIDC's AGC 114905 vs KKR 25 comparison is:
-- AGC 114905: **modern measurement** (M_dyn/M_b ~ 1.36, 2022)
-- KKR 25: **SIDC estimation** (M_dyn/M_b ~ 1-4, 2025+)
+- AGC 114905: **modern measurement** ($M_{dyn}$/$M_{b}$ ~ 1.36, 2022)
+- KKR 25: **SIDC estimation** ($M_{dyn}$/$M_{b}$ ~ 1-4, 2025+)
 
 This is not a measurement-vs-measurement comparison. It's a
 measurement-vs-estimation comparison. The "bifurcation" may be an
@@ -3512,17 +3512,17 @@ artifact of:
 1. Different measurement techniques (10-year gap)
 2. Different systematics in stellar mass estimates
 3. Different treatments of gas content
-4. Use of an unmeasured quantity (M_dyn for KKR 25)
+4. Use of an unmeasured quantity ($M_{dyn}$ for KKR 25)
 
 **3.28.5 Status (v2.7.34+).**
 
 - The 10-year data gap is a real methodological concern
 - SIDC's bifurcation comparison is not apples-to-apples
-- KKR 25's M_dyn/M_b is estimated, not measured
+- KKR 25's $M_{dyn}$/$M_{b}$ is estimated, not measured
 - Future work: obtain KKR 25 velocity dispersion to make this a
   measurement-vs-measurement comparison
 - L39 added: "10-year data gap between AGC 114905 and KKR 25
-  measurements; KKR 25's M_dyn/M_b is estimated, not measured"
+  measurements; KKR 25's $M_{dyn}$/$M_{b}$ is estimated, not measured"
 
 **3.28.6 Lessons.**
 

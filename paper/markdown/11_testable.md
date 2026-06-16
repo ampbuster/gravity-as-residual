@@ -25,7 +25,7 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
 |---|---|---|
 | Distance from Sun | 4.52 ± 0.03 kpc | Gaia DR3 |
 | Galactocentric distance | 7.4 kpc | from Sun distance + Galactic center |
-| Current mass (M_dyn) | 7×10⁵ M_sun | σ_v = 11.7 km/s |
+| Current mass ($M_{dyn}$) | 7×10⁵ M_sun | σ_v = 11.7 km/s |
 | Half-mass radius | 6.0 pc | literature |
 | Velocity dispersion | 11.7 km/s | literature |
 | M/L_V (observed) | ~1.7 | literature |
@@ -48,7 +48,7 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
    - 47 Tuc's *average* density (within r_h = 6 pc): **ρ_avg ≈ 0.029 GeV/cm³** — ½× the Galaxy's local DM
    - **47 Tuc is a dense stellar system embedded in a sparse DM halo.** The Galaxy's DM halo *passes through* 47 Tuc but is locally overwhelmed by 47 Tuc's baryonic concentration.
 
-4. **Mass budget:** M_dyn ≈ 7×10⁵ M_sun; M_stars (from CMD + IMF) ≈ 5.5×10⁵ M_sun. The "missing" 1.5×10⁵ M_sun (21% of M_dyn) is **within the 20-30% uncertainty** of IMF, mass segregation, binary fraction, and velocity anisotropy. Consistent with **no local DM enhancement**.
+4. **Mass budget:** $M_{dyn}$ ≈ 7×10⁵ M_sun; $M_{stars}$ (from CMD + IMF) ≈ 5.5×10⁵ M_sun. The "missing" 1.5×10⁵ M_sun (21% of $M_{dyn}$) is **within the 20-30% uncertainty** of IMF, mass segregation, binary fraction, and velocity anisotropy. Consistent with **no local DM enhancement**.
 
 5. **Central BH (≤ 578 M_sun):** the BH formation event ~12 Gyr ago released E_BH ~ 10⁴⁹ J, creating a 2D universe with τ_2D ~ 3 yr (energy-scaling rule). The 2D universe died long ago; energy was returned to 3+1D. With f_back ~ 10⁻⁸⁵, the BH's DM contribution is **~10⁻⁸⁴ M_sun** — zero. The BH's gravitational influence on 47 Tuc is via standard GR (it acts as a point mass), not via 2D universe back-projection.
 
@@ -82,7 +82,7 @@ SIDC's prediction for 47 Tuc is *falsifiable* by the following observations:
 
 | Observation | SIDC prediction | Falsification criterion |
 |---|---|---|
-| M_dyn / M_stars ratio | 1.0 ± 0.3 (IMF + anisotropy) | If M_dyn / M_stars > 2 at 3σ, local DM detected → SIDC falsified |
+| $M_{dyn}$ / $M_{stars}$ ratio | 1.0 ± 0.3 (IMF + anisotropy) | If $M_{dyn}$ / $M_{stars}$ > 2 at 3σ, local DM detected → SIDC falsified |
 | Tidal tail symmetry in cluster rest frame | Symmetric (within orbit projection) | If tails are anomalously asymmetric, requires local DM → SIDC falsified |
 | CMD vs PARSEC isochrones | Matches 12 Gyr single-population | If systematic offset in mass function, "DM-modified" stars → SIDC falsified |
 | Central BH mass | ≤ 10⁴ M_sun (consistent with no local DM spike) | If BH > 10⁴ M_sun detected, would create real local DM spike → SIDC testable but not falsified |
@@ -95,7 +95,7 @@ The 47 Tuc test is a *direct* test of SIDC's core claim (§2.4–2.7): **DM is t
 
 SIDC's prediction is *quantitatively* clean: the SN energy from 47 Tuc's formation would have created 2D universes, but the f_back ~ 10⁻⁸⁵ suppression means the DM contribution is ~10⁻⁸⁵ M_sun — effectively zero. The 47 Tuc test therefore isolates the *Galactic* DM halo from any *local* 2D universe contribution.
 
-If 47 Tuc's dynamical mass significantly exceeds its stellar mass (M_dyn / M_stars > 2 at 3σ), this would imply a local DM component that SIDC cannot explain. This would be a **strong falsification** of SIDC's "no current activity → no local DM" prediction, though it would not necessarily falsify SIDC as a whole (the *Galactic* DM contribution would still be consistent).
+If 47 Tuc's dynamical mass significantly exceeds its stellar mass ($M_{dyn}$ / $M_{stars}$ > 2 at 3σ), this would imply a local DM component that SIDC cannot explain. This would be a **strong falsification** of SIDC's "no current activity → no local DM" prediction, though it would not necessarily falsify SIDC as a whole (the *Galactic* DM contribution would still be consistent).
 
 Conversely, if 47 Tuc's dynamical mass matches its stellar mass within IMF uncertainties (SIDC's prediction), this would be a **strong confirmation** of SIDC's DM mechanism, supporting the link between *energetic activity* and *local DM enhancement* that SIDC proposes.
 
@@ -103,15 +103,15 @@ Conversely, if 47 Tuc's dynamical mass matches its stellar mass within IMF uncer
 
 The 47 Tuc test is one specific case. SIDC's DM mechanism makes related predictions for other low-activity systems:
 
-1. **Other old, quiescent globular clusters** (e.g., M92, NGC 6397): should have M_dyn / M_stars ~ 1, with the *cluster* as a tracer of the *Galactic* DM halo.
+1. **Other old, quiescent globular clusters** (e.g., M92, NGC 6397): should have $M_{dyn}$ / $M_{stars}$ ~ 1, with the *cluster* as a tracer of the *Galactic* DM halo.
 
 2. **Dwarf spheroidal galaxies with no current star formation** (e.g., Tucana, Draco, Sextans): SIDC predicts that *most* of their DM is the *Galactic* halo contribution plus the cumulative 2D universe contribution from their *past* star formation (which was significant in early epochs). The KKR 25 case (1-4 Gyr ago starburst) is the *opposite* extreme.
 
-3. **The Galactic bulge:** should have M_dyn / M_bulge_stars ~ 1 (or slightly above due to nuclear star formation history). SIDC predicts that the bulge's "DM" is mostly the *Galactic* halo DM, with some 2D universe contribution from the bulge's past activity.
+3. **The Galactic bulge:** should have $M_{dyn}$ / M_bulge_stars ~ 1 (or slightly above due to nuclear star formation history). SIDC predicts that the bulge's "DM" is mostly the *Galactic* halo DM, with some 2D universe contribution from the bulge's past activity.
 
 4. **The Galactic halo's old, metal-poor stars (halo stars):** should not be associated with any local DM enhancement beyond the smooth halo. SIDC's prediction is consistent with the standard picture: halo stars are tracers of the Galactic potential, not DM hosts.
 
-5. **The Magellanic Clouds:** should have M_dyn / M_stars ~ 1 in their *outer* regions (no current activity beyond tidal interactions) and possibly higher in their *inner* regions (where past star formation created local 2D universe DM).
+5. **The Magellanic Clouds:** should have $M_{dyn}$ / $M_{stars}$ ~ 1 in their *outer* regions (no current activity beyond tidal interactions) and possibly higher in their *inner* regions (where past star formation created local 2D universe DM).
 
 These are *all* testable with current and upcoming data (Gaia, LSST, DESI, 4MOST, WEAVE), and SIDC's predictions are *specific enough to be falsified* if the data demand.
 
@@ -121,9 +121,9 @@ SIDC's DM mechanism — DM is the cumulative 2D universe back-projection from en
 
 - **DP1 (2025):** validates Rubin's crowded-field pipeline; SIDC predicts standard 12 Gyr single-population CMD.
 - **DR1 (2027):** 47 Tuc's proper motion + 5 tidal tails should fit the Galactic potential; no local DM needed.
-- **Y10 (2034):** no "dark star" component; all stars are normal, M_dyn ≈ M_stars.
+- **Y10 (2034):** no "dark star" component; all stars are normal, $M_{dyn}$ ≈ $M_{stars}$.
 
-**Falsification:** M_dyn > 2× M_stars at 3σ, or asymmetric tidal tails, or DM-modified mass function — any of these would require local 47 Tuc DM that SIDC cannot produce.
+**Falsification:** $M_{dyn}$ > 2× $M_{stars}$ at 3σ, or asymmetric tidal tails, or DM-modified mass function — any of these would require local 47 Tuc DM that SIDC cannot produce.
 
 The 47 Tuc test is a **near-term, low-cost, high-leverage falsification test** for SIDC. It does not depend on the speculative end-of-universe extension in §10. It tests the **core** of SIDC: the link between *energetic activity* and *local DM enhancement*. If the link is wrong, SIDC's DM mechanism is wrong.
 

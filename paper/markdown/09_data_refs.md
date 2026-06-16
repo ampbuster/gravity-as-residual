@@ -20,7 +20,7 @@
 - SH0ES Cepheid calibration: arXiv:2112.04510
 - Pantheon+ SNe: https://github.com/PantheonPlusSH0ES
 
-All derived quantities (M_dyn, M_halo, M_star, g_obs, etc.) are computed in the corresponding calculation scripts, with full statistical methodology (covariance matrices, MCMC posteriors, etc.) documented inline.
+All derived quantities ($M_{dyn}$, M_halo, M_star, g_obs, etc.) are computed in the corresponding calculation scripts, with full statistical methodology (covariance matrices, MCMC posteriors, etc.) documented inline.
 
 **Reproducibility.** The paper's repository includes a `requirements.txt` file listing the exact Python package versions used. Each calculation script can be re-run with `python calculations/<script>.py` to reproduce the corresponding `_results.txt` file. The paper's main PDF (`paper/paper.pdf`) is built from `paper/paper.md` using `pandoc`; the build is deterministic.
 
