@@ -6,13 +6,10 @@
 
 ### Free Parameters (2, calibrated to data)
 
-+----------+-------+----------------------------------------------+-----------------------+
-| Parameter | Value | Purpose                                      | Calibrated to         |
-+==========+=======+==============================================+=======================+
-| $\alpha$ | 1.29  | Energy-scaling rule exponent $\tau_{2D} = (E/E_{Pl})^\alpha \cdot t_{Pl}$ | 1 data point: SN 33s  |
-+----------+-------+----------------------------------------------+-----------------------+
+| Parameter | Value | Purpose | Calibrated to |
+|-----------|-------|---------|---------------|
+| $\alpha$ | 1.29 | Energy-scaling rule exponent $\tau_{2D} = (E/E_{Pl})^\alpha \cdot t_{Pl}$ | 1 data point: SN 33s |
 | $z_{half}$ | $\approx 3$ | Smooth $F_p(z)$ Hill-function transition redshift | 2 anchors: $z=0$ and $z=1100$ |
-+----------+-------+----------------------------------------------+-----------------------+
 
 ### Calibrated Postulates (4, set to match observations) — *updated v2.7.20*
 
@@ -32,32 +29,22 @@
 
 ### Observational Inputs (5, taken from data)
 
-+-------------------+---------------------------------+--------------------------------+
-| Quantity          | Value                           | Source                          |
-+===================+=================================+================================+
-| 5/27/68 split     | $0.05/0.27/0.68$                | Planck 2018                     |
-+-------------------+---------------------------------+--------------------------------+
-| $H_0$             | $67.4$ km/s/Mpc                 | Planck 2018                     |
-+-------------------+---------------------------------+--------------------------------+
-| $E_{SN}$ (kinetic)| $10^{44}$ J                     | Standard CCSN model             |
-+-------------------+---------------------------------+--------------------------------+
-| $\Omega_m, \Omega_b, \Omega_\Lambda$ | $0.315, 0.049, 0.685$ | Planck 2018                     |
-+-------------------+---------------------------------+--------------------------------+
-| g₊ (MOND accel)   | $1.2 \times 10^{-10}$ m/s²     | SPARC RAR fit (adopted in SIDC-MOND hybrid) |
-+-------------------+---------------------------------+--------------------------------+
+| Quantity | Value | Source |
+|----------|-------|--------|
+| 5/27/68 split | $0.05/0.27/0.68$ | Planck 2018 |
+| $H_0$ | $67.4$ km/s/Mpc | Planck 2018 |
+| $E_{SN}$ (kinetic) | $10^{44}$ J | Standard CCSN model |
+| $\Omega_m, \Omega_b, \Omega_\Lambda$ | $0.315, 0.049, 0.685$ | Planck 2018 |
+| g₊ (MOND accel) | $1.2 \times 10^{-10}$ m/s² | SPARC RAR fit (adopted in SIDC-MOND hybrid) |
 
 ### Derived Quantities (not free, derived from data + framework)
 
-+-----------------------------+--------------------------------+----------------------------------------------------------------+
-| Quantity                    | Value                          | Derivation                                                      |
-+=============================+================================+================================================================+
-| $M_{Pl,4}$ floor            | $\geq 887$ GeV                | From $T_{3D}' \geq 13.8$ Gyr (our universe exists) + SIDC's $T_{3D} = 2 \times 10^{26}$ yr |
-+-----------------------------+--------------------------------+----------------------------------------------------------------+
-| $f_{primordial}$ (efficiency) | $\sim 10^{-49}$             | From $\rho_{DM,primordial} / \rho_{4D}$ (data + SIDC framework) |
-+-----------------------------+--------------------------------+----------------------------------------------------------------+
+| Quantity | Value | Derivation |
+|----------|-------|------------|
+| $M_{Pl,4}$ floor | $\geq 887$ GeV | From $T_{3D}' \geq 13.8$ Gyr + SIDC's $T_{3D} = 2 \times 10^{26}$ yr |
+| $f_{primordial}$ (efficiency) | $\sim 10^{-49}$ | From $\rho_{DM,primordial} / \rho_{4D}$ (data + SIDC framework) |
 | $H_{0,4D}$ (geometric mean) | $70.16$ km/s/Mpc | From $\sqrt{H_{CMB} \times H_{local}}$ |
 | $\tau_{4D}$ (4D event duration) | $\sim 10^{28}$ yr | From Padmanabhan equipartition (§3.8.2) |
-
 ### What this Glossary is NOT
 
 This is not a derivation. The 2 free parameters ($\alpha, z_{half}$) are *calibrated*, not derived from first principles. The 4 calibrated postulates ($f_{back}, \epsilon, F_p, A_{event}$) are *postulated* to match observations. A complete derivation of any of these from first principles is open work (Limitation 26).
