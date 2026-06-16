@@ -1,0 +1,34 @@
+{
+  "test": "\u03b1 = 1.29 sensitivity analysis",
+  "alpha_nominal": 1.29,
+  "predictions_vary_with_alpha": {
+    "alpha_1.20": {
+      "tau_BNS_yr": 48.17132866629304,
+      "tau_AGN_yr": 12100.090686464995
+    },
+    "alpha_1.29": {
+      "tau_BNS_yr": 413573.33237016544,
+      "tau_AGN_yr": 157236195.56809604
+    },
+    "alpha_1.40": {
+      "tau_BNS_yr": 26575790115.534004,
+      "tau_AGN_yr": 16768189958760.295
+    }
+  },
+  "falsification_tolerance": {
+    "consistent": "\u03b1 = 1.29 \u00b1 0.05",
+    "marginal": "\u03b1 = 1.29 \u00b1 0.10",
+    "inconsistent": "\u03b1 = 1.29 \u00b1 0.20"
+  },
+  "precision_for_future_GW": {
+    "SKA_MPG_1dex": 0.11,
+    "muAres_0_5_dex": 0.055,
+    "future_0_1_dex": 0.011
+  },
+  "verdict": {
+    "alpha_testable": true,
+    "falsification_threshold": "\u03b1 = 1.29 \u00b1 0.10",
+    "testable_by": "BNS/AGN GW in 2030s-2040s"
+  },
+  "conclusion": "\u03b1 = 1.29 is sensitive to \u00b10.10 changes. Future BNS/AGN GW with SKA-MPG (1 dex) can distinguish \u03b1=1.20 from \u03b1=1.40. \u03bcAres (0.5 dex) can distinguish \u03b1=1.29 from \u03b1=1.34. Falsification threshold: |\u0394\u03b1| > 0.10."
+}

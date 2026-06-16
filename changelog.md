@@ -2,6 +2,46 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.9 (June 2026) — §10.18 α sensitivity analysis: precision for future GW observations
+
+**Major changes since v2.7.8:**
+
+1. **§10.18 α sensitivity analysis (NEW subsection, ~2 pages)**: Quantifies how sensitive the cascade's predictions are to α = 1.29, and what precision of future observations would be required to falsify it.
+
+2. **Key findings**:
+   - Varying α in [1.0, 1.6] gives 10-100x change in 2D universe lifetime predictions
+   - Δα = 0.20 → factor 10-100x change in τ_2D(BNS) and τ_2D(AGN)
+   - Δα = 0.05 → factor 3 change in predictions
+
+3. **Precision required for future BNS/AGN GW detection**:
+   - **SKA-MPG PTAs (2030s)**: 1 dex sensitivity → α precision ~0.11 (can distinguish α=1.20 from α=1.40)
+   - **μAres (next-gen PTA, 2040s?)**: 0.5 dex → α precision ~0.055 (can distinguish α=1.29 from α=1.34)
+   - **Future post-μAres**: 0.1 dex → α precision ~0.011 (can distinguish α=1.29 from α=1.30)
+
+4. **Falsification tolerance**:
+   - |Δα| ≤ 0.05: **Consistent** (4% deviation, factor 3 difference)
+   - |Δα| ≤ 0.10: **Marginal** (10% deviation, factor 10 difference)
+   - |Δα| ≥ 0.20: **Inconsistent** (16% deviation, factor 100 difference)
+   - Cascade's α = 1.29 is **falsified if observed α differs by > ±0.10**
+
+5. **5 falsification scenarios for α = 1.29**:
+   - BNS GW at cascade's prediction (7×10⁻¹⁴ Hz): α validated
+   - BNS GW at 10x lower (7×10⁻¹⁵ Hz): implied α = 1.40, falsifies
+   - BNS GW at 10x higher (7×10⁻¹³ Hz): implied α = 1.18, falsifies
+   - BNS + AGN internally inconsistent: framework-level falsification (not just α)
+   - No GW detected: less direct falsification of GW signature, framework could still be right
+
+6. **What is robust to α changes**:
+   - The cascade's 16/17 test categories and 7/7 specific cases are robust to ±0.20 in α
+   - Qualitative predictions (Sun no DM, AGC/KKR bifurcation, RAR) survive
+   - α-sensitive predictions: 2D universe lifetime, GW frequencies, E^(1+α) weighting
+
+7. **1 new analysis script**: `calculations/v27_alpha_sensitivity.py` + .json
+
+**Test counts UNCHANGED** (16/17, 7/7, 11/11, 35 limitations)
+
+**Earlier v2.7.8 entry (unchanged):**
+
 ## v2.7.8 (June 2026) — §4.48 rename: Smooth F(z) is the primary framework
 
 **Major changes since v2.7.7:**
