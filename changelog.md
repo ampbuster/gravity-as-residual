@@ -2,6 +2,38 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.12 (June 2026) — Parameter Glossary + E_primordial spec + §13 closure update
+
+**Major changes since v2.7.11:**
+
+1. **§0 NEW: Parameter Glossary (quick reference table)** at the start of the paper
+   - 2 truly free parameters: α = 1.29, z_half ≈ 3
+   - 3 calibrated postulates: f_back ~ 10^-85, ε ~ 10^-38, F_p ~ 0.7
+   - 5 observational inputs: 5/27/68, H_0, E_SN, etc.
+   - 4 derived quantities: M_Pl,4 floor, f_primordial, H_0,4D, τ_4D
+   - Recent removals: E_crit, λ_th, f_active (cleaned up over versions)
+
+2. **E_primordial specification (L34 partially addressed)** in §4.48:
+   - Functional form: E_primordial = ρ_4D × V_2D × f_primordial
+   - ρ_4D = ε × M_Pl,4^4 (4D event's energy density)
+   - V_2D = c × τ_2D_primordial (2D universe's spatial extent)
+   - f_primordial = ρ_DM_primordial / ρ_4D (DERIVED from observations)
+   - Remaining free: τ_2D_primordial (typical primordial 2D universe lifetime)
+   - L34: PARTIALLY ADDRESSED (form specified, efficiency derived, exact value remains free)
+
+3. **§13 update at top**: "UPDATED v2.7.5+: CLOSED" — the CMB gap is now closed
+   - Smooth F_p(z) closes CMB gap to < 1%
+   - L31 (CMB time-lag) FULLY ADDRESSED
+   - Historical §13.1-§13.5 kept for context
+
+4. **1 new analysis script**: v27_e_primordial.py
+
+**Test counts UNCHANGED** (16/17, 7/7, 11/11, 35 limitations)
+**Free parameters UNCHANGED** (2: α, z_half)
+**Calibrated postulates UNCHANGED** (3)
+
+**Earlier v2.7.11 entry (unchanged):**
+
 ## v2.7.11 (June 2026) — §2.5.4 Deaths-only DM: 2D universe invisible during life
 
 **Major changes since v2.7.10:**
