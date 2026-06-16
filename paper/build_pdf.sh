@@ -14,8 +14,8 @@ else
     SOURCE=paper.md
 fi
 
-# Step 1: Convert with markdown+grid_tables+raw_tex-yaml_metadata_block (original setting)
-pandoc "$SOURCE" -o /tmp/paper_body.tex -f markdown+grid_tables+raw_tex-yaml_metadata_block
+# Step 1: Convert with markdown+grid_tables+pipe_tables+raw_tex-yaml_metadata_block (original setting)
+pandoc "$SOURCE" -o /tmp/paper_body.tex -f markdown+grid_tables+pipe_tables+raw_tex-yaml_metadata_block
 
 # Post-process: wrap p{(\\columnwidth - X\\tabcolsep) * N} in \\dimexpr
 python3 /tmp/wrap_dimexpr.py
