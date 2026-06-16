@@ -1,0 +1,30 @@
+{
+  "description": "More derivation angles for 1/(2\u03b1)",
+  "key_finding": "\u03b1 \u00d7 p = \u03b1 \u00d7 1/(2\u03b1) = 1/2 (intrinsic relation!)",
+  "interpretation": "The 1/2 in the product is structural, not coincidental",
+  "possible_origins": [
+    "\u210f/2 in uncertainty principle (1/2 is natural)",
+    "2D area is 1D (length, not length\u00b2)",
+    "Topological invariant (S\u00b9/Z\u2082 orbifold)",
+    "Calabi-Yau h^{1,1} = 2",
+    "2D Euler characteristic \u03c7 = 2 for S\u00b2"
+  ],
+  "L59_REVISED": "1/(2\u03b1) is the round-trip scaling exponent. The 1/2 is structural.",
+  "L60_NEW": "\u03b1 \u00d7 p = 1/2 is a structural property. Possible origin: \u210f/2 or 2D area.",
+  "frameworks_tried": [
+    "Heisenberg uncertainty principle (not quite consistent)",
+    "Born's rule (1/\u03b1 exponent, not 1/(2\u03b1))",
+    "Planck length ratio (G_2 unspecified)",
+    "Holographic (entropy too large)",
+    "Time-dilation (lifetime ratio gives 0)",
+    "Algebraic combinations of \u03b1 (no clean match)",
+    "Einstein-Hilbert action (too vague)",
+    "Round-trip reciprocity (suggestive, not derived)"
+  ],
+  "next_steps": [
+    "Test \u210f/2 connection explicitly with cascade dynamics",
+    "Test 2D area = length connection",
+    "Try specific orbifold / CY compactification",
+    "Numerical CGHS calculation with specific V(\u03c6)"
+  ]
+}

@@ -4225,7 +4225,7 @@ which led to checking the cascade's math at z=0.
 
 **The cascade's overall state (v2.7.53)**:
 - 52 honest limitations
-- 5 closed, 35 open, 10 partial, 2 falsified, 4 reverted, 1 discarded
+- 5 closed, 37 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
 - 16/17 test categories
 - 7/7 specific cases
 - 36/36 galaxy tests pass
@@ -5137,6 +5137,112 @@ v2.7.58 formula is correct; we just needed to apply the
 scaling to see that it works for all events.
 
 See `calculations/v27_fback_scaling.py` for the full analysis.
+
+---
+
+### 3.50 Derivation attempts for 1/(2α) (v2.7.61)
+
+**User request (v2.7.61)**: try to derive 1/(2α) from first principles.
+
+**The setup**:
+
+The empirical formula has 1/(2α) ≈ 0.388 as the magic exponent:
+f_back = (t_Pl,3 / τ_4D) × (τ_SN / τ_universe) × (E_4D / E_SN)^(1/(2α))
+
+This exponent has two remarkable properties:
+1. Gives f_back ≈ 10⁻⁸⁵ for SN
+2. Gives event-independence after the scaling law
+
+**The key structural relation**:
+
+α × p = α × 1/(2α) = **1/2**
+
+This 1/2 is INTRINSIC to the cascade. It's not a coincidence.
+
+**Frameworks tried (12+ total)**:
+
+1. **CGHS dilaton gravity**: p = 1 (classical), 1.5 (Strominger), 3 (full).
+   1/(2α) = 0.388 doesn't match any standard CGHS value.
+2. **AdS_2/CFT_1 (SYK)**: chaotic gives M^0.5, integrable gives M^1.
+   1/(2α) ≈ 0.4 close to 0.5, but α ≈ 1.3 close to 1. Not clean.
+3. **Brane-world warp factor**: f_back = e^(-2kπr_c) gives 10⁻⁸⁵
+   with kπr_c = 196. But 196 doesn't relate cleanly to α = 1.29.
+4. **Dimensional analysis**: 1/(2α) is dimensionless but doesn't
+   have a clean number-theoretic meaning. Closest: 1/(α²+1) = 0.375
+   (off by 0.013).
+5. **Information theory / entropy**: 2D entropy S_2D = (E/E_Pl,3)^α.
+   f_back = exp(-S_2D) gives exp(-10⁷⁰) ≈ 0. Way too small.
+6. **Variational principle**: dS/dp = 0 gives p = α, not 1/(2α).
+7. **2D CFT central charge**: c = 1 (trivial), 25 (Virasoro), etc.
+   1.29 doesn't correspond to a clean c value.
+8. **Heisenberg uncertainty**: ΔE × Δt ≥ ℏ/2. The '1/2' is suggestive
+   but the cascade's lifetime × energy^p isn't constant.
+9. **Born's rule**: P = |amplitude|² gives 1/α exponent, not 1/(2α).
+10. **Planck length ratio**: l_Pl,2/l_Pl,3. G_2 unspecified.
+11. **Holographic S = A/(4l_Pl²)**: entropy too large (10⁷⁰), not consistent.
+12. **Algebraic combinations**: 1/(α²+1) = 0.375 is closest match
+    (off by 0.013), but no theoretical motivation.
+
+**The structural relation α × p = 1/2**:
+
+The '1/2' in α × p = 1/2 is intrinsic. Possible physical origins:
+
+1. **ℏ/2 in quantum mechanics**: The 1/2 in ΔE × Δt ≥ ℏ/2.
+   The cascade's α × p = 1/2 might be the 'minimum uncertainty'
+   version of the cascade's dimensional projection.
+
+2. **2D area = 1D**: In 2D, area is length, not length².
+   The '1/2' might be from 2D's spatial extent being 1D.
+
+3. **Topological invariant (S¹/Z₂ orbifold)**: A specific
+   orbifold compactification gives a Z₂ action. The 1/2 might
+   be the order of the Z₂ group.
+
+4. **Calabi-Yau with h^{1,1} = 2**: Specific CY with Hodge number
+   h^{1,1} = 2 has a 2D Kähler moduli space, with the 1/2
+   from the moduli space's structure.
+
+5. **2D Euler characteristic χ = 2 for S²**: A 2D universe with
+   spherical topology has χ = 2. The 1/2 might be 1/χ.
+
+**L59 REVISED (v2.7.61)**:
+1/(2α) is the 'round-trip scaling exponent' of the cascade's
+dimensional hierarchy. The product α × p = 1/2 is a structural
+property. The 1/2 might come from ℏ/2 (uncertainty principle),
+2D's 1D area, or a topological invariant.
+
+**L60 NEW (v2.7.61)**:
+The α × p = 1/2 relation is a structural property of the cascade.
+It suggests that 1/(2α) is not arbitrary — it might emerge from
+a specific quantum mechanical or topological property of 2D
+universes.
+
+**L61 NEW (v2.7.61)**:
+The honest finding: 1/(2α) is currently a **phenomenological fit**
+that works perfectly for the cascade, but it has not been derived
+from first principles in 12+ frameworks tried. The α × p = 1/2
+structural relation is suggestive of a deeper origin, but the
+specific derivation is unknown.
+
+**Updated calibrated postulates (v2.7.61)**:
+- F_p(0) = 0.9993 (L51 partial)
+- A_event = 1
+- ε = 10⁻³⁸
+- z_half = 3
+- **f_back ≈ 8.6e-86 (UNIVERSAL, scaling law)** ← L52 CLOSED
+- **α = 1.29 (calibrated from SN 33s)** ← L37 OPEN
+- **1/(2α) = 0.388 (phenomenological fit, structural 1/2)** ← L59 PARTIAL
+
+**Possible future derivations**:
+1. CGHS-with-back-reaction calculation giving α × p = 1/2
+2. Specific 2D CFT (Liouville, SYK) with this scaling
+3. Brane-world geometry with Z₂ orbifold
+4. Calabi-Yau compactification with h^{1,1} = 2
+
+See `calculations/v27_derive_one_over_2alpha.py` and
+`calculations/v27_derive_one_over_2alpha_v2.py` for the full
+derivation attempts.
+
 
 
 

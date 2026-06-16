@@ -1,0 +1,31 @@
+{
+  "description": "Try to derive 1/(2\u03b1) from first principles",
+  "method": "Trial and error across 9 theoretical frameworks",
+  "target": 0.38759689922480617,
+  "alpha": 1.29,
+  "frameworks_tried": [
+    "CGHS dilaton gravity (no match)",
+    "AdS_2/CFT_1 (no match)",
+    "Brane-world warp factor (close, no derivation)",
+    "Dimensional analysis (no clean match)",
+    "Information theory (no derivation)",
+    "Variational principle (saddle point at p=\u03b1, not 1/(2\u03b1))",
+    "2D CFT central charge (no clean match)",
+    "Specific dilaton potential V(\u03c6)=exp(\u03b2\u03c6) (no match)",
+    "Natural combinations (5/13 \u2248 0.385 close, no derivation)"
+  ],
+  "closest_matches": {
+    "2/5 = 0.400": "natural fraction",
+    "5/13 = 0.385": "close to 1/(2\u03b1) = 0.388",
+    "7/18 = 0.389": "very close",
+    "1/\u221a(2\u03c0) = 0.399": "natural but no derivation"
+  },
+  "honest_finding": "NONE of 9 frameworks derive 1/(2\u03b1) cleanly. The exponent is a phenomenological fit that works perfectly to give 10^-85 and event-independence, but it doesn't have a first-principles derivation.",
+  "L59_NEW": "1/(2\u03b1) is a phenomenological fit, not derived. May emerge from a specific bulk-geometry or 2D CFT calculation, but no such derivation found.",
+  "next_steps": [
+    "Detailed CGHS-with-back-reaction calculation",
+    "Specific 2D CFT with this scaling",
+    "Brane-world geometry with specific warp factor",
+    "Accept 1/(2\u03b1) as a phenomenological parameter"
+  ]
+}
