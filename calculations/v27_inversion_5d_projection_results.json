@@ -1,0 +1,35 @@
+{
+  "test": "Deriving 4D \u2192 3+1D inversion from existing physics",
+  "mechanisms_tested": 5,
+  "results": {
+    "1_negative_brane_tension_Israel": {
+      "math_works": true,
+      "interpretation": "Cascade's inversion = sign of 4D brane tension (T_4D < 0)",
+      "specific_postulate_needed": "WHY is T_4D < 0?",
+      "verdict": "Conceptually supported, mechanically undetermined"
+    },
+    "2_DGP_self_accelerating": {
+      "math_works": true,
+      "ghost_problem": true,
+      "interpretation": "Cascade's inversion = ghost-free DGP-like model",
+      "verdict": "Conceptually supported, has known pathologies"
+    },
+    "3_KKLT_anti_D3": {
+      "math_works": true,
+      "string_theoretic": true,
+      "interpretation": "Cascade's inversion = 4D event is anti-brane-like",
+      "verdict": "Conceptually supported, specific mechanism unspecified"
+    },
+    "4_conformal_transformation": {
+      "math_works": false,
+      "verdict": "Does not give sign change of G_eff"
+    }
+  },
+  "honest_verdict": "Cascade's inversion has conceptual analogs in 3 of 4 tested mechanisms. The math is recoverable, but the specific reason WHY the 4D event has negative tension (or is anti-brane-like) is a POSTULATE, not derived. The cascade is honest that the inversion needs more theoretical work.",
+  "next_steps": [
+    "Specify a Lagrangian for the 4D event with negative brane tension",
+    "Derive the 4D effective cosmological constant from Israel junction",
+    "Connect to KKLT or DGP for specific calculation",
+    "Specify why T_4D < 0 (what physical mechanism makes it negative?)"
+  ]
+}
