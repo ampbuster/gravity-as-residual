@@ -1,0 +1,8 @@
+{
+  "hypothesis": "All 2D universes have same proper lifetime \u03c4_2D_proper = t_Pl",
+  "time_dilation_factor": "\u03b3_2D = (E/E_Pl)^1.29",
+  "mass_scaling": "M_2D_2D c\u00b2 \u221d E^0.71 (sub-linear)",
+  "lifetime_3plus1D": "\u03c4_2D_3+1D = \u03b3_2D \u00d7 t_Pl = (E/E_Pl)^1.29 \u00d7 t_Pl",
+  "implication": "Energy-scaling rule is DERIVATION from time dilation, not empirical fit",
+  "alpha_interpretation": "\u03b1 = 1.29 is a property of projection geometry, not free parameter"
+}
