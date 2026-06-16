@@ -1,0 +1,22 @@
+{
+  "description": "Dimensional scale invariance analysis",
+  "short_answer": "YES structurally, NO parametrically",
+  "structural_invariance": "The cascade's LOGIC works for any dimension n",
+  "parametric_invariance": "Specific \u03b1, c, N, f_back depend on n",
+  "3_plus_1D_case": {
+    "N": 12,
+    "alpha": 1.289,
+    "c": 0.5,
+    "one_over_2alpha": 0.388,
+    "f_back": 8.6e-86
+  },
+  "4D_hypothetical": {
+    "note": "Cascade structure works, but specific values would differ",
+    "transition": "4D event \u2192 3D universe (us) \u2192 2D universes (DM)"
+  },
+  "analogy": "Russian nesting doll \u2014 pattern same at every level, numbers differ",
+  "implication": "Cascade is a UNIVERSAL framework, not 3+1D-specific",
+  "L85_NEW": "Cascade has dimensional scale invariance: structural YES, parametric NO",
+  "L86_NEW": "If we were in 4D, the cascade structure still works (lower-D universe deaths = DM)",
+  "L87_NEW": "Specific values (\u03b1, c, N, f_back) depend on the dimensional transition"
+}

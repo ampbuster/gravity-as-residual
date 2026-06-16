@@ -2,6 +2,47 @@
 
 This document contains the cascade's full version history.
 
+## v3.0.2 (June 2026) — SIDC naming restored, dimensional scale invariance
+
+**Major changes since v3.0.1:**
+
+1. **User's question**: "is the cascade back to being scale-invariant?"
+   / "if we were in 4D, would the model work still?"
+
+2. **Dimensional scale invariance finding**:
+   - Structural scale invariance: YES (cascade works at any n)
+   - Parametric scale invariance: NO (specific values depend on n)
+   - The cascade is dimension-AGNOSTIC in structure
+   - Specific α, c, N, f_back are dimension-DEPENDENT
+
+3. **SIDC naming restored**:
+   - v2.3.2 had SIDC = Scale-Invariant Dimensional Cascade
+   - v2.4-2.7 dropped it in favor of "cascade"
+   - v3.0.2 RESTORES it with proper justification
+   - The "scale-invariance" refers to structural pattern, not specific values
+   - Similar to how CFT is structurally conformally invariant
+
+4. **Paper title updated**:
+   - "Gravity as Residual (SIDC — Scale-Invariant Dimensional Cascade)"
+   - Now properly identifies the model by its full name
+
+5. **§3.61 added** with full dimensional scale invariance analysis:
+   - Two levels of scale invariance (structural vs parametric)
+   - Restored SIDC naming with justification
+   - Updated nomenclature (SIDC, cascade, 3+1D SIDC, 4D SIDC, nD SIDC)
+   - L85-88 NEW
+
+6. **Counts**:
+   - 298 pages (was 296, +2)
+   - 85 honest limitations (was 81, +4)
+   - 5 closed, 62 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
+
+**Layman updated** with new section "The cascade's 'secret symmetry':
+dimensional self-similarity" explaining the dimensional self-similarity
+and the SIDC naming restoration in plain language.
+
+**Earlier v3.0.1 entry (unchanged):**
+
 ## v3.0.1 (June 2026) — AGC/KKR README cleanup
 
 **Major changes since v3.0:**

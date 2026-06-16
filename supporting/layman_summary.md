@@ -1,6 +1,6 @@
 # Layman Summary: Gravity as Residual
 
-**v3.0 — June 2026** (*MAJOR VERSION BUMP. 296 pages, 81 honest limitations. The composite model: q=4 SYK with N=12 Majoranas, derives α, c, 1/(2α), f_back from a SINGLE number N=12. Honest about what it doesn't derive: CKM/PMNS, SM mass ratios.*)
+**v3.0.2 — June 2026** (*SIDC naming RESTORED. 298 pages, 85 honest limitations. The cascade = SIDC (Scale-Invariant Dimensional Cascade). Works at any dimension: 5D→4D, 4D→3+1D (us), 3D→2D. Structural scale invariance, parametric dim-dependence.*)
 
 **v3.0 — June 2026 — MAJOR VERSION BUMP**
 
