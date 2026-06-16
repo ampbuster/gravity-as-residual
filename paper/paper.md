@@ -49,8 +49,8 @@ We propose a unifying interpretation of three open problems in fundamental physi
 
 | Competitor | Main weakness | Dimensional Cascade advantage |
 |------------|---------------|-----------------|
-| **ΛCDM** | 4 unresolved small-scale crises (cusp-core, missing sats, TBTF, MFRP); requires WIMP + $\Lambda$ + 20+ feedback params | DM is geometric → no sub-halos → all 4 crises collapse by construction |
-| **MOND** | Fails in cluster cores ($g_+$ ~17× too low) | Phase-transition scales $g_+$ naturally to cluster regime |
+| **ΛCDM** | 4 unresolved small-scale crises (cusp-core, missing sats, TBTF, MFRP); requires WIMP + Lambda + 20+ feedback params | DM is geometric → no sub-halos → all 4 crises collapse by construction |
+| **MOND** | Fails in cluster cores (g_+ ~17× too low) | Phase-transition scales g_+ naturally to cluster regime |
 | **ADD/RS brane-worlds** | Static bulk; no native dark-sector explanation | Dynamic cascade: dims are spawned, dark sector falls out as transactional debt |
 | **Verlinde (entropic)** | No historical clock → can't explain different-DM identical-baryon galaxies | Stellar Age Lifecycle ledger explains AGC 114905 vs KKR 25 timing |
 
@@ -136,17 +136,17 @@ The cascade is a **geometric framing with a strongly specified backbone**, not a
 
 | Parameter | Value | Purpose | Calibrated to |
 |-----------|-------|---------|---------------|
-| $\alpha$ | 1.29 | Energy-scaling rule exponent $\tau_{2D} = (E/E_{Pl})^\alpha \cdot t_{Pl}$ | 1 data point: SN 33s lifetime |
-| $z_{\text{half}}$ | $\approx 3$ | Smooth $F_p(z)$ Hill-function transition redshift | 2 anchors: $z=0$ and $z=1100$ |
+| alpha | 1.29 | Energy-scaling rule exponent tau_{2D} = (E/Epl)^alpha cdot tpl | 1 data point: SN 33s lifetime |
+| z_{half} | approx 3 | Smooth F_p(z) Hill-function transition redshift | 2 anchors: z=0 and z=1100 |
 
 ### Calibrated Postulates (4, set to match observations) — *updated v2.7.20*
 
 | Parameter | Value | Purpose | Status |
 |-----------|-------|---------|--------|
-| $f_{\text{back}}$ | $\sim 10^{-85}$ | Back-projection efficiency (staying fraction of 4D event antigravity) | DE density matches observation |
-| $\epsilon$ | $\sim 10^{-38}$ | Bulk-brane cancellation fraction | Hierarchy matches observation |
-| $F_p(z)$ | $0.7 \to 1.0$ (smooth) | Smooth primordial DM fraction (Hill n=2, $z_{\text{half}}=3$) | High-z UV LF + CMB anchors |
-| **$A_{\text{event}}$** | $\sim 67$ | **Per-event amplification factor (2D universe 3+1D-frame mass / SN energy)** — *NEW in v2.7.16* | §3.11: cumulative SN energy is 8% of baryons, so 67x amplification is required for 5% → 27% ratio |
+| f_{back} | sim 10^{-85} | Back-projection efficiency (staying fraction of 4D event antigravity) | DE density matches observation |
+| epsilon | sim 10^{-38} | Bulk-brane cancellation fraction | Hierarchy matches observation |
+| F_p(z) | 0.7 to 1.0 (smooth) | Smooth primordial DM fraction (Hill n=2, z_{half}=3) | High-z UV LF + CMB anchors |
+| **A_{event}** | sim 67 | **Per-event amplification factor (2D universe 3+1D-frame mass / SN energy)** — *NEW in v2.7.16* | §3.11: cumulative SN energy is 8% of baryons, so 67x amplification is required for 5% → 27% ratio |
 
 **Note on $A_{\text{event}}$:** this is a phenomenological fit, not a derivation. The cascade acknowledges (§3.11) that the 67x amplification is a free parameter, with 4 possible explanations documented (per-event amplification, time accumulation, multiple event types, DE as energy source).
 
@@ -154,20 +154,20 @@ The cascade is a **geometric framing with a strongly specified backbone**, not a
 
 | Quantity | Value | Source |
 |----------|-------|--------|
-| 5/27/68 split | $0.05/0.27/0.68$ | Planck 2018 |
-| $H_0$ | $67.4$ km/s/Mpc | Planck 2018 |
-| $E_{\text{SN}}$ (kinetic) | $10^{44}$ J | Standard CCSN model |
-| $\Omega_m, \Omega_b, \Omega_\Lambda$ | $0.315, 0.049, 0.685$ | Planck 2018 |
-| $g_+$ (MOND accel) | $1.2 \times 10^{-10}$ m/s² | SPARC RAR fit (adopted in cascade-MOND hybrid) |
+| 5/27/68 split | 0.05/0.27/0.68 | Planck 2018 |
+| H₀ | 67.4 km/s/Mpc | Planck 2018 |
+| E_{SN} (kinetic) | 10⁴⁴ J | Standard CCSN model |
+| Omega_m, Omega_b, Omega_Lambda | 0.315, 0.049, 0.685 | Planck 2018 |
+| g_+ (MOND accel) | 1.2 times 10^{-10} m/s² | SPARC RAR fit (adopted in cascade-MOND hybrid) |
 
 ### Derived Quantities (not free, derived from data + framework)
 
 | Quantity | Value | Derivation |
 |----------|-------|-----------|
-| $M_{\text{Pl},4}$ floor | $\geq 887$ GeV | From $T_{3D}' \geq 13.8$ Gyr (our universe exists) + cascade's $T_{3D} = 2 \times 10^{26}$ yr |
-| $f_{\text{primordial}}$ (efficiency) | $\sim 10^{-49}$ | From $\rho_{DM,\text{primordial}} / \rho_{4D}$ (data + cascade framework) |
-| $H_{0,4D}$ (geometric mean) | $70.16$ km/s/Mpc | From $\sqrt{H_{\text{CMB}} \times H_{\text{local}}}$ |
-| $\tau_{4D}$ (4D event duration) | $\sim 10^{28}$ yr | From Padmanabhan equipartition (§3.8.2) |
+| M_{Pl,4} floor | geq 887 GeV | From T_{3D}' geq 13.8 Gyr (our universe exists) + cascade's T_{3D} = 2 times 10²⁶ yr |
+| f_{primordial} (efficiency) | sim 10^{-49} | From rho_{DM,primordial} / rho_{4D} (data + cascade framework) |
+| H_{0,4D} (geometric mean) | 70.16 km/s/Mpc | From sqrt{H_{CMB} times H_{local}} |
+| tau_{4D} (4D event duration) | sim 10²⁸ yr | From Padmanabhan equipartition (§3.8.2) |
 
 ### What this Glossary is NOT
 
@@ -1448,7 +1448,7 @@ The transformed action has additional scalar-field-like terms, but the *sign* of
 
 | Mechanism | Math works? | Specific postulate needed? |
 |-----------|-------------|---------------------------|
-| **Negative brane tension (Israel)** | **[PASS]** YES | Why $T_{4D} < 0$? |
+| **Negative brane tension (Israel)** | **[PASS]** YES | Why T_{4D} < 0? |
 | **DGP self-accelerating branch** | **[PASS]** YES (with ghost) | Ghost-free implementation |
 | **KKLT anti-D3 uplift** | **[PASS]** YES | Specific anti-brane mechanism |
 | **Conformal transformation** | **[FAIL]** NO | — |
@@ -1513,12 +1513,12 @@ The cascade currently has no constraint on this. The 4D's own universe creation 
 
 If 4D has its own universe creation (with some ratio $r_4D$), the cascade's structure becomes:
 
-| Level | Bulk (parent) | Brane | Children | $r_{\text{children}}$ | Energy return to parent |
+| Level | Bulk (parent) | Brane | Children | r_{children} | Energy return to parent |
 |-------|---------------|-------|----------|----------------------|--------------------------|
-| 5D (hypothetical) | 6D | 5D | 4D universes | $r_{5D}$ | 5D's DM |
-| 4D (parent) | 5D | 4D | 3+1D universes | $r_{4D}$ | 4D's DM |
-| 3+1D (us) | 4D | 3+1D | 2D universes | $r_{3+1D} = 0.27$ | 3+1D's DM |
-| 2D (terminal) | 3+1D | 2D | (none, terminal) | $r_{2D} = 0$ | — |
+| 5D (hypothetical) | 6D | 5D | 4D universes | r_{5D} | 5D's DM |
+| 4D (parent) | 5D | 4D | 3+1D universes | r_{4D} | 4D's DM |
+| 3+1D (us) | 4D | 3+1D | 2D universes | r_{3+1D} = 0.27 | 3+1D's DM |
+| 2D (terminal) | 3+1D | 2D | (none, terminal) | r_{2D} = 0 | — |
 
 The 3+1D sees:
 - 4D's *projected* contribution: $(1 - r_{4D})$ of 4D's energy, projected to 3+1D as DE
@@ -1774,7 +1774,7 @@ This is a *testable* framework:
 
 The cascade predicts:
 
-| Redshift | $F_p(z)$ | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
+| Redshift | F_p(z) | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
 |----------|----------|---------------------|------------------------------|------------------------------|
 | 1100 (CMB) | 1.000 | 0.000 | 5.40 | 3.80 |
 | 6 | 0.946 | 0.054 | 5.40 | 4.06 |
@@ -2188,7 +2188,7 @@ The §3.13 mechanism is **double-broken**:
 
 | Failure mode | Problem | Verdict |
 |--------------|---------|---------|
-| GeV DM (cascade's required mass) | Pauli blocking INEFFECTIVE ($E_{\text{decay}}/p_F \sim 10^{21}$) | MECHANISM FAILS |
+| GeV DM (cascade's required mass) | Pauli blocking INEFFECTIVE (E_{decay}/p_F sim 10²¹) | MECHANISM FAILS |
 | Sub-eV DM (where Pauli blocking works) | HDM, not CDM (no small-scale structure) | DM IS WRONG TYPE |
 | Sterile neutrino specifically | X-ray constraints (3.5 keV line weakened in 2024) | DM CANDIDATE SQUEEZED |
 
@@ -2765,8 +2765,10 @@ The cascade's cone-shape (§2.6) terminates at 4D as the "top". But §3.10 (exte
 At every level, the parent dimension sees vastly different child lifetimes:
 - 3+1D sees 2D universes: 10⁻⁶³ s (LHC) to 10⁸ yr (AGN)
 - 4D sees 3+1D universes: 10⁻¹⁹ s (tiny 4D) to 10⁴⁰ yr (huge 4D)
-- 5D sees 4D universes: ??? to ???
+- 5D sees 4D universes: 10²⁵ s (tiny 5D) to 10⁷² yr (huge 5D) [extrapolated; not yet calculated]
 - Each parent is in awe of its children's lifespans
+
+*Note: 5D values are extrapolated from the 3+1D→4D pattern (each level adds ~10⁴⁴ s to the min and ~10³² yr to the max). They are not calculated from first principles — would require a 5D Planck energy which the cascade doesn't yet specify.*
 
 **3.21.5 Implications.**
 
@@ -5649,7 +5651,7 @@ For a Milky Way-like galaxy ($M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, $f
 
 The cascade's prediction across these scales (see `calculations/rar_across_scales_v2.py`):
 
-| Object | $M_{DM}$ ($M_\odot$) | $R_{halo}$ (kpc) | $g_+$ (cascade) | $g_+$ (obs) | ratio |
+| Object | M_DM (M_☉) | R_halo (kpc) | g₊ (cascade) | g₊ (obs) | ratio |
 
 ```
 Object              M_DM (M_sun)   R (kpc)    g_+ cascade       g_+ obs           ratio
@@ -5840,9 +5842,9 @@ This is now the cascade's best candidate RAR model: small $f_{active}$ (5%), iso
 
 | Object | r (kpc) | N_orbits | f_mix | g_obs/g_bar | Effective g_+ |
 | --- | --- | --- | --- | --- | --- |
-| Milky Way (2$R_d$) | 8 | 130 | 1.00 | 6.4 | 2.7×10⁻⁹ m/s² |
-| Dwarf (2$R_d$) | 2 | 39 | 0.98 | 40 | 3.3×10⁻¹⁰ m/s² |
-| Cluster (2$R_d$) | 60 | 73 | 1.00 | 33 | 2.4×10⁻⁸ m/s² |
+| Milky Way (2R_d) | 8 | 130 | 1.00 | 6.4 | 2.7×10⁻⁹ m/s² |
+| Dwarf (2R_d) | 2 | 39 | 0.98 | 40 | 3.3×10⁻¹⁰ m/s² |
+| Cluster (2R_d) | 60 | 73 | 1.00 | 33 | 2.4×10⁻⁸ m/s² |
 
 *Honest assessment of the full dynamical-mixing model:*
 - The mixing-fraction formalism is correct: the cumulative return is *naturally* between fully clustered and fully uniform, with the mixing fraction depending on radius and halo mass.
@@ -5869,8 +5871,8 @@ The *dynamical-mixing* picture reconciles the cascade's apparently inconsistent 
 | Model | Median residual | Within 20% of RAR |
 |-------|----------------|-------------------|
 | **Cascade (pure, MW-tuned)** | 70.5% | 22.8% |
-| **MOND ($g_+ = 1.0 \times 10^{-10}$, M/L=0.5)** | 20.2% | 49.7% |
-| **MOND (free $g_+$, free M/L)** | **10.1%** | **87.6%** |
+| **MOND (g_+ = 1.0 times 10^{-10}, M/L=0.5)** | 20.2% | 49.7% |
+| **MOND (free g_+, free M/L)** | **10.1%** | **87.6%** |
 
 The cascade's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ functional form is **falsified** on real data (70% median residual). MOND's interpolation function $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ fits the real data to 10% when $g_+$ and M/L are allowed to vary per galaxy. The empirical $g_+$ is **universal** at $\sim 1.0{-}1.2 \times 10^{-10}$ m/s² across 149 galaxies (per-galaxy best fit: $9.1 \times 10^{-11}$ median, $1.2 \times 10^{-10}$ mean, 0.42 dex scatter, consistent with the McGaugh+ 2016 measurement of $1.2 \times 10^{-10}$).
 
@@ -7509,14 +7511,14 @@ with the four v2.4 modifications:
 
 | Parameter | v2.3.2 | v2.4 |
 |-----------|--------|------|
-| $f_{\text{back}}^{\text{destruction}}$ | Free, set to 1 | **DERIVED** as $J_{\text{bulk}} = 0$ BC |
-| $c$ | Free, any value | Discrete set, default $c=1$ |
+| f_{back}^{destruction} | Free, set to 1 | **DERIVED** as J_{bulk} = 0 BC |
+| c | Free, any value | Discrete set, default c=1 |
 | 5/27 split | Free / Fit | **TOPOLOGICAL INVARIANT** (specific value 27/5 not derived) |
-| $\alpha$ | Free | Free (requires 2D expert) |
-| $G_5$ | Free | Free (requires bulk geometry) |
-| $\mathcal{L}_{2D}$ | Free | Free (requires 2D expert) |
-| $\tau_{2D}$ | Postulated | Postulated (Gaussian width) |
-| $f_{\text{back}}^{\text{DE}}$ | Postulated $10^{-85}$ | **STILL POSTULATED** (different from $f_{\text{back}}^{\text{destruction}}$) |
+| alpha | Free | Free (requires 2D expert) |
+| G₅ | Free | Free (requires bulk geometry) |
+| mathcal{L}_{2D} | Free | Free (requires 2D expert) |
+| tau_{2D} | Postulated | Postulated (Gaussian width) |
+| f_{back}^{DE} | Postulated 10^{-85} | **STILL POSTULATED** (different from f_{back}^{destruction}) |
 
 **Free parameters: 5+ → 2-3 active (counting only the destruction channel).** The remaining open parameters ($\alpha$, $G_5$, $\mathcal{L}_{2D}$, $\tau_{2D}$, $f_{\text{back}}^{\text{DE}}$) are the **fundamental** parameters of the cascade\'s framework. The v2.4 refactor anchors the destruction channel as a boundary condition but does **not** derive the dark-energy staying fraction.
 
@@ -7702,15 +7704,15 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Quantity | Value | Units | Source |
 |----------|-------|-------|--------|
-| $M_b$ (current baryon mass) | $2.0 \times 10^8$ | $M_\odot$ | Mancera Piña+ 2024 |
-| $\text{SFR}_{\text{peak}}$ | 0.5 | $M_\odot/\text{yr}$ | Same |
-| $\text{SFH}$ window | [0.5, 2.0] | Gyr (lookback) | "A-type stars only" |
-| $M_{\text{total formed}}$ | $7.3 \times 10^8$ | $M_\odot$ | ∫ SFR dt = 0.5 × 1.5 Gyr |
-| $E_{\text{total injected}}$ | $1.1 \times 10^{51}$ | J | $N_{\text{CCSN}} \times E_{\text{CCSN}}$ |
-| $N_{\text{CCSN, total}}$ | $1.1 \times 10^6$ | events | 15% IMF + E_CCSN |
+| M_b (current baryon mass) | 2.0 times 10⁸ | M_odot | Mancera Piña+ 2024 |
+| SFR_{peak} | 0.5 | M_odot/yr | Same |
+| SFH window | [0.5, 2.0] | Gyr (lookback) | "A-type stars only" |
+| M_{total formed} | 7.3 times 10⁸ | M_odot | ∫ SFR dt = 0.5 × 1.5 Gyr |
+| E_{total injected} | 1.1 times 10⁵¹ | J | N_{CCSN} times E_{CCSN} |
+| N_{CCSN, total} | 1.1 times 10⁶ | events | 15% IMF + E_CCSN |
 | Recent event rate (50 Myr) | 0 | events/Myr | "no current SN progenitors" |
-| **Cascade $M_{\text{dyn}}/M_b$** | **1.36** | dimensionless | emulator output |
-| **Observed $M_{\text{dyn}}/M_b$** | $\sim$1–2 | dimensionless | Mancera Piña+ 2024 |
+| **Cascade M_{dyn}/M_b** | **1.36** | dimensionless | emulator output |
+| **Observed M_{dyn}/M_b** | sim1–2 | dimensionless | Mancera Piña+ 2024 |
 
 **Result: AGC 114905 is DM-POOR, matching observation. PASS.**
 
@@ -7718,15 +7720,15 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Quantity | Value (old) | Value (revised) | Units | Source |
 |----------|-------------|-----------------|-------|--------|
-| $M_b$ (current baryon mass) | $1.0 \times 10^6$ | $3.0 \times 10^6$ | $M_\odot$ | Makarov+ 2012 |
-| $\text{SFR}_{\text{peak}}$ | 1.0 | $4 \times 10^{-4}$ | $M_\odot/\text{yr}$ | Same (revised) |
-| $\text{SFH}$ window | [1.0, 4.0] | [1.0, 4.0] | Gyr (lookback) | "intermediate-age SF" |
-| $M_{\text{total formed}}$ | $3.0 \times 10^9$ | $1.2 \times 10^6$ | $M_\odot$ | ∫ SFR dt (revised) |
-| $E_{\text{total injected}}$ | $4.5 \times 10^{51}$ | $1.8 \times 10^{49}$ | J | 0.15% IMF + E_CCSN |
-| $N_{\text{CCSN, total}}$ | $4.5 \times 10^6$ | $1.8 \times 10^3$ | events | (revised) |
+| M_b (current baryon mass) | 1.0 times 10⁶ | 3.0 times 10⁶ | M_odot | Makarov+ 2012 |
+| SFR_{peak} | 1.0 | 4 times 10^{-4} | M_odot/yr | Same (revised) |
+| SFH window | [1.0, 4.0] | [1.0, 4.0] | Gyr (lookback) | "intermediate-age SF" |
+| M_{total formed} | 3.0 times 10⁹ | 1.2 times 10⁶ | M_odot | ∫ SFR dt (revised) |
+| E_{total injected} | 4.5 times 10⁵¹ | 1.8 times 10⁴⁹ | J | 0.15% IMF + E_CCSN |
+| N_{CCSN, total} | 4.5 times 10⁶ | 1.8 times 10³ | events | (revised) |
 | Recent event rate (50 Myr) | 0 | 0 | events/Myr | "no current SN progenitors" |
-| **Cascade $M_{\text{dyn}}/M_b$** | **299.19** | **1-4** | dimensionless | emulator output (revised) |
-| **Observed $M_{\text{dyn}}/M_b$** | $\sim$100–1000 | $\sim$1-4 | dimensionless | dSph typical (revised) |
+| **Cascade M_{dyn}/M_b** | **299.19** | **1-4** | dimensionless | emulator output (revised) |
+| **Observed M_{dyn}/M_b** | sim100–1000 | sim1-4 | dimensionless | dSph typical (revised) |
 
 **Result: KKR 25 has M_dyn/M_b ~ 1-4 (REVISED v2.7.33+), consistent with dSph observations of typical values. PASS (revised).**
 
@@ -7734,9 +7736,9 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Metric | AGC 114905 | KKR 25 (old) | KKR 25 (revised) | Ratio (old) | Ratio (revised) |
 |--------|-----------|---------------|-------------------|-------------|------------------|
-| $M_{\text{total formed}} / M_b$ (energy ledger) | 3.65 | 3000 | 0.4 | **820×** | **0.11×** (reverses) |
-| Predicted $M_{\text{dyn}}/M_b$ (cascade emulator) | 1.36 | 299.19 | 1-4 | **219×** | **0.7-3×** |
-| Energy injection $E_{\text{total}}$ (J) | $1.1 \times 10^{51}$ | $4.5 \times 10^{51}$ | $1.8 \times 10^{49}$ | 4.1× | 0.016× |
+| M_{total formed} / M_b (energy ledger) | 3.65 | 3000 | 0.4 | **820×** | **0.11×** (reverses) |
+| Predicted M_{dyn}/M_b (cascade emulator) | 1.36 | 299.19 | 1-4 | **219×** | **0.7-3×** |
+| Energy injection E_{total} (J) | 1.1 times 10⁵¹ | 4.5 times 10⁵¹ | 1.8 times 10⁴⁹ | 4.1× | 0.016× |
 
 **Honest finding (v2.7.33+):** The cascade's 820× → 219× bifurcation was based on a 1000× error in KKR 25's M_b. The corrected bifurcation is much smaller (0.7-3×) and may even REVERSE for some metrics (M_total_formed/M_b = 0.11×). The cascade's qualitative interpretation (intermediate SF → DM) is preserved; the quantitative prediction is much weaker. See §3.27 for the full self-correction.
 
@@ -7861,7 +7863,7 @@ The constraints are:
 1. $\rho_{\text{DM}}(0) = 0.27 \rho_{\text{crit}}$ (calibration to today's DM density)
 2. $r(z=6) > 0.3$ (consistency with observed bright-end of z=6 UV LF, Bouwens+ 2021, Harikane+ 2022)
 
-| $F_p$ | $r(z=6)$ | Constraint |
+| F_p | r(z=6) | Constraint |
 |-------|----------|------------|
 | 0.00 | 0.20 | FAILS (too suppressed) |
 | 0.10 | 0.26 | FAILS |
@@ -7974,7 +7976,7 @@ The cascade's full F(z) = F_p(z) + F_s(z), where F_s(z) = 0.3 × (Madau-SFR cumu
 
 **Best-fit z_half and the gap closure.** The smooth F_p(z) with z_half = 3 matches BOTH the z=0 and z=1100 anchors with **gap < 1%** at all z, and stays BELOW 1.0 at intermediate z (no over-prediction). The results:
 
-| $z$ | $F_s(z)$ | F_total (const F_p=0.7) | F_total (Hill z_half=3) | OBSERVED |
+| z | F_s(z) | F_total (const F_p=0.7) | F_total (Hill z_half=3) | OBSERVED |
 |-----|----------|--------------------------|--------------------------|----------|
 | 0   | 0.300    | **1.000** **[PASS]**              | **1.000** **[PASS]**              | 1.000    |
 | 1   | 0.272    | 0.971                    | 1.001 **[PASS]**                  | 1.000    |
@@ -8629,29 +8631,29 @@ The full table follows:
 | 12 | Almost-exact cancellation at every level | OPEN | §2.4 | A derivation of the near-exact cancellation |
 | 13 | Four-force unification | **CLOSED** (conceptual only) | §4.13-§4.15 | A quantitative derivation of coupling constants |
 | 14 | Sign ambiguity in §2.4 | **CLOSED** (v2.1) | §2.4 | RESOLVED by clean formulation |
-| 15 | 10⁸⁵ DE density discrepancy | **PARTIAL** (v2.4) | §2.6, §4.44 | $f_{\text{back}} = 1$ now derived from $J^A_{\text{bulk}} = 0$ BC (§4.44); 10⁸⁵-yr vacuum-energy cancellation mechanism still open |
+| 15 | 10⁸⁵ DE density discrepancy | **PARTIAL** (v2.4) | §2.6, §4.44 | f_{back} = 1 now derived from J^A_{bulk} = 0 BC (§4.44); 10⁸⁵-yr vacuum-energy cancellation mechanism still open |
 | 16 | 4D temporal structure (Mechanism B/F) | **FALSIFIED** (v2.2) | §2.6 | Mechanism B/F rejected at 7σ |
-| 17 | 5/27/68 split derivation | **PARTIAL** (v2.4) | §2.6, §2.6.1, §4.44.1 | NOW ANCHORED as AdS$_5$ volume-to-boundary eigenvalue ratio (§2.6.1); specific zero-mode counting requires 2D CFT expert |
+| 17 | 5/27/68 split derivation | **PARTIAL** (v2.4) | §2.6, §2.6.1, §4.44.1 | NOW ANCHORED as AdS₅ volume-to-boundary eigenvalue ratio (§2.6.1); specific zero-mode counting requires 2D CFT expert |
 | 18 | Hubble tension resolution | **CLOSED** (Mechanism M) | §4.40, §4.41 | ACCEPTED as a real tension |
 | 19 | g_obs = g_bar + g_cum + g_active form | **FALSIFIED** | §4.1 | Replaced by cascade-MOND hybrid |
-| 20 | f_active derivation | **PARTIAL → REVERTED (v2.7.1)** | §4.35 | The v2.3.1 "derivation" f_active = τ_2D / T_universe used τ_2D ~ 0.7 Gyr (gas consumption timescale) as a SEPARATE POSTULATE identified by physical analogy. The empirical 33 s lifetime gives f_active ~ 10⁻¹⁷, NOT 0.05. The "derivation" is REVERTED in v2.7.1: f_active is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). A first-principles derivation remains OPEN. |
+| 20 | f_active derivation | **PARTIAL → REVERTED (v2.7.1)** | §4.35 | The v2.3.1 "derivation" f_active = τ₂D / T_universe used τ₂D ~ 0.7 Gyr (gas consumption timescale) as a SEPARATE POSTULATE identified by physical analogy. The empirical 33 s lifetime gives f_active ~ 10⁻¹⁷, NOT 0.05. The "derivation" is REVERTED in v2.7.1: f_active is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). A first-principles derivation remains OPEN. |
 | 21 | f_active ~ 0.05 vs 0.18 (LOCAL vs GLOBAL) | **PARTIAL** (v2.3.1) | §4.35 | Resolved as LOCAL vs GLOBAL |
 | 22 | Isothermal cumulative profile | OPEN | §2.6 | A specific 2D gravity model |
 | 23 | RAR population generalization | OPEN | §4.1 | A per-morphology derivation |
 | 24 | Mass-dependent scale factor | REVERTED | §4.1 | Better data needed |
 | 25 | RAR population improvement | REVERTED | §4.1 | Reverted to honest 8-12% fit |
-| 26 | Full Lagrangian | **PARTIAL** (v2.4, v2.7.3) | §4.38, §4.44, §4.44.1, §4.44, §7.1, §8.1.4 | 5/10 constraints by construction + T^eff_μν derived + J_bulk=0 BC in §4.44 + v2.4 refactor (2-3 free action params: $G_5$, $\alpha$, $\tau_{2D}$) + v2.7.3 web-research reduction of 4 free 2D CFT params (μ, b, α, z_0) to 2 free (μ, m₃₊₁D); remaining is 2D CFT expert |
+| 26 | Full Lagrangian | **PARTIAL** (v2.4, v2.7.3) | §4.38, §4.44, §4.44.1, §4.44, §7.1, §8.1.4 | 5/10 constraints by construction + T^eff_μν derived + J_bulk=0 BC in §4.44 + v2.4 refactor (2-3 free action params: G₅, alpha, tau_{2D}) + v2.7.3 web-research reduction of 4 free 2D CFT params (μ, b, α, z₀) to 2 free (μ, m₃₊₁D); remaining is 2D CFT expert |
 | 27 | RAR functional form (cascade vs MOND) | **PARTIAL** (v2.3.1) | §4.42 | CONFIRMED via per-galaxy g_+ (43 galaxies, 4.5 decades in M_b) |
 | 28 | Galaxy-vs-cluster g_+ divergence | **PARTIAL** (v2.3.1) | §4.42 | Cluster enhancement ~17.5× via MOND EFE |
-| 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219× bifurcation was a numerical error (§3.27). The 0.7-3× revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
-| 30 (NEW) | Topological eigenvalue (5/27) | **PARTIAL** (v2.4) | §2.6.1 | ANCHORED as $V_5 / A_4 R_{\text{AdS}_5} = 27/5$ via AdS$_5$/CFT$_4$ holographic counting; specific value depends on zero-mode counting of bulk-brane Dirac operator; closing this requires a 2D CFT expert |
-| 31 (NEW) | 2D-to-3+1D time compression | OPEN (v2.6) | §2.5, §2.6 | The bulk position distribution P(y) is unknown; required $e^{-ky} \sim 10^{-48}$ corresponds to 2D universes ~100 AdS_5 radii deep; a specific bulk geometry and 2D CFT calculation would close this |
+| 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219× bifurcation was a numerical error (§3.27). The 0.7-3× revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge c (v2.4 Task 2, c in mathbb{Z}_{geq 1}, default 1)** — varying c shifts the fossil amplitude sigma = (c/24pi) R^{(2)} and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
+| 30 (NEW) | Topological eigenvalue (5/27) | **PARTIAL** (v2.4) | §2.6.1 | ANCHORED as V₅ / A₄ R_{AdS₅} = 27/5 via AdS₅/CFT₄ holographic counting; specific value depends on zero-mode counting of bulk-brane Dirac operator; closing this requires a 2D CFT expert |
+| 31 (NEW) | 2D-to-3+1D time compression | OPEN (v2.6) | §2.5, §2.6 | The bulk position distribution P(y) is unknown; required e^{-ky} sim 10^{-48} corresponds to 2D universes ~100 AdS₅ radii deep; a specific bulk geometry and 2D CFT calculation would close this |
 | 32 (REMOVED v2.7) | ~~4-zone H(z) derivation~~ | N/A | N/A | REMOVED in v2.7: the 4-zone H(z) was data fitting (8 free parameters for ~5 data points), and the P(y) problem made it internally inconsistent. The cascade now adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved. |
 | 33 (NEW) | Ω_DM = 0.27 as input postulate | OPEN (v2.6) | §2.5, §2.6 | The cascade postulates that all observed DM is 2D universe mass, time-compressed; the specific 27% value is an INPUT from Planck 2018, not a derivation; closing this would require a 2D CFT calculation that yields 27% as a numerical output |
-| 34 (NEW v2.7.5) | E_primordial (per-event energy of primordial 2D universes) | OPEN (v2.7.5) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* F_p, but does NOT specify the per-event energy E_primordial. The 2D universe lifetime τ_2D, growth factor G, and cumulative energy all depend on E_primordial. The cascade treats E_primordial as a FREE PARAMETER. Closing requires a derivation of E_primordial from the 4D event's internal dynamics. |
-| 35 (NEW v2.7.5) | z_half (smooth F_p transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth F_p(z) = 0.7 + 0.3 * z^2/(z_half^2 + z^2) introduces free parameter z_half ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of z_half from 4D event dynamics. |
-| 36 (NEW v2.7.5) | E_crit (phase-transition threshold) | REVERTED (v2.7.5) | §2.5.3 | v2.3.0 E_crit ~ 10^30 J step-function threshold REMOVED in v2.7.4 in favor of smooth creation function C(E) = E^(1+alpha). The smooth function uses only existing alpha = 1.29, no new free parameters. All 5/5 dwarf cases still work. |
-| 37 (NEW v2.7.30) | α = 1.29 CGHS derivation | OPEN (v2.7.30) | §3.19, §3.24 | The cascade's §3.19 claimed α = 1.29 is in the CGHS back-reaction range [1, 3]. §3.24 self-critique: no standard CGHS scaling gives constant τ_2D_proper. A specific CGHS-with-back-reaction calculation yielding p = 1.29 is needed to close this. This is a research challenge, not a derivation. Future work: specific CGHS calculation. |
+| 34 (NEW v2.7.5) | E_primordial (per-event energy of primordial 2D universes) | OPEN (v2.7.5) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* F_p, but does NOT specify the per-event energy E_primordial. The 2D universe lifetime τ₂D, growth factor G, and cumulative energy all depend on E_primordial. The cascade treats E_primordial as a FREE PARAMETER. Closing requires a derivation of E_primordial from the 4D event's internal dynamics. |
+| 35 (NEW v2.7.5) | z_half (smooth F_p transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth F_p(z) = 0.7 + 0.3 * z²/(z_half² + z²) introduces free parameter z_half ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of z_half from 4D event dynamics. |
+| 36 (NEW v2.7.5) | E_crit (phase-transition threshold) | REVERTED (v2.7.5) | §2.5.3 | v2.3.0 E_crit ~ 10³0 J step-function threshold REMOVED in v2.7.4 in favor of smooth creation function C(E) = E^(1+alpha). The smooth function uses only existing alpha = 1.29, no new free parameters. All 5/5 dwarf cases still work. |
+| 37 (NEW v2.7.30) | α = 1.29 CGHS derivation | OPEN (v2.7.30) | §3.19, §3.24 | The cascade's §3.19 claimed α = 1.29 is in the CGHS back-reaction range [1, 3]. §3.24 self-critique: no standard CGHS scaling gives constant τ₂D_proper. A specific CGHS-with-back-reaction calculation yielding p = 1.29 is needed to close this. This is a research challenge, not a derivation. Future work: specific CGHS calculation. |
 
 **Summary (v2.7.5):**
 - **OPEN**: 17 (50%) — require theoretical physics work beyond the cascade's current framework (L31, L33, L34, L35 retained; L32 removed)
@@ -9199,13 +9201,13 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 **Quantitative comparison:**
 
-| Small-scale test | $\Lambda$CDM | SIDC |
+| Small-scale test | LambdaCDM | SIDC |
 |------------------|--------------|------|
 | Cusp-core | Needs ad-hoc feedback | Naturally isothermal |
 | Missing satellites | Discrepancy with N-body | No sub-halos to be missing |
 | Too-big-to-fail | Brightest sats too dense | No sub-halos to be too big |
 | Lensing flux ratio | Quad anomalies from substructure | No sub-halos to lens |
-| Direct detection | No WIMP up to $9.2 \times 10^{-48}$ cm² | No particle → trivially consistent |
+| Direct detection | No WIMP up to 9.2 times 10^{-48} cm² | No particle → trivially consistent |
 
 ### 9.2 SIDC vs MOND (Modified Newtonian Dynamics)
 
@@ -9215,11 +9217,11 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 **Quantitative comparison:**
 
-| System | Empirical $g_+$ | MOND | SIDC | Best |
+| System | Empirical g_+ | MOND | SIDC | Best |
 |--------|------------------|------|------|------|
-| Isolated spiral (SPARC) | $1.2 \times 10^{-10}$ | **[PASS]** | **[PASS]** | Tie |
-| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}$ | **[FAIL]** | **[PASS]** | SIDC |
-| Dwarf galaxy | Variable | Fail (low SB) | **[PASS]** (via $E_{\text{crit}}$) | SIDC |
+| Isolated spiral (SPARC) | 1.2 times 10^{-10} | **[PASS]** | **[PASS]** | Tie |
+| Massive cluster (Tian+ 2024) | 1.7 times 10^{-9} | **[FAIL]** | **[PASS]** | SIDC |
+| Dwarf galaxy | Variable | Fail (low SB) | **[PASS]** (via E_{crit}) | SIDC |
 
 SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling baked in as a consequence of the phase-transition principle.
 
@@ -9234,11 +9236,11 @@ SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling
 | Property | ADD/RS (top-down) | SIDC (bottom-up) |
 |----------|---------------------|------------------|
 | Hierarchy problem | Solved (in principle) **[PASS]** | Solved **[PASS]** |
-| Dark matter | Requires added scalar fields | Emerges as $S_{\text{destruction}}$ return |
+| Dark matter | Requires added scalar fields | Emerges as S_{destruction} return |
 | Dark energy | Requires added potential | Emerges as 4D event antigravity |
 | Phase transitions | Static | Active (event-driven) |
 | Empirical fit (SPARC) | Not native | 10% median residual |
-| Cluster $g_+$ | Not native | Naturally scaled |
+| Cluster g_+ | Not native | Naturally scaled |
 
 SIDC inherits the hierarchy-problem solution of brane-world models while extending it to cover the entire dark sector.
 
@@ -9273,11 +9275,11 @@ However, it is not yet superior in its mathematical maturity. $\Lambda$CDM has a
 |-----------|--------|--------|
 | Parsimony | SIDC | DM is geometric, no particle parameters |
 | Small-scale crisis | SIDC | 4 problems collapse to 0 by construction |
-| Cluster $g_+$ scaling | SIDC | Phase-transition + MOND EFE |
+| Cluster g_+ scaling | SIDC | Phase-transition + MOND EFE |
 | Historical DM differences | SIDC | Stellar Age Lifecycle ledger |
-| Mathematical maturity | $\Lambda$CDM | 30 years of formal work |
-| Coordinate-invariant GR | $\Lambda$CDM | SIDC has action skeleton only |
-| Simulation pipeline | $\Lambda$CDM | SIDC needs new infrastructure |
+| Mathematical maturity | LambdaCDM | 30 years of formal work |
+| Coordinate-invariant GR | LambdaCDM | SIDC has action skeleton only |
+| Simulation pipeline | LambdaCDM | SIDC needs new infrastructure |
 
 **Bottom line.** SIDC is a beautifully architected *software design pattern* for the universe — it proves that the data structures fit real-world observations flawlessly across 17 distinct test categories. The open task now isn't to find more data; it is to write the underlying mathematical field equations to turn this elegant architecture into an unassailable, fully compiled physical theory.
 
@@ -10327,13 +10329,13 @@ The cascade's predictions span 5-10 orders of magnitude in energy, time, and fre
 
 | Test | Cascade predicts | Falsification threshold |
 |------|------------------|-------------------------|
-| $w_0$ (DESI DR3) | $-0.83 \pm 0.16$ | > 5σ away from -0.83 |
-| $w_a$ (DESI DR3) | $-0.75 \pm 0.30$ | > 5σ away from -0.75 |
-| 47 Tuc DM (LSST) | < 10^-5 $M_*$ | DM detected at > 5σ |
-| BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10× off-frequency |
-| AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10× off-frequency |
-| $M_{\text{Pl},4}$ (colliders) | $\geq 887$ GeV | Measured < 887 GeV |
-| BBN DE (precision) | < 10^-20 rad | > 10^-20 detected |
+| w₀ (DESI DR3) | -0.83 ± 0.16 | > 5σ away from -0.83 |
+| wₐ (DESI DR3) | -0.75 ± 0.30 | > 5σ away from -0.75 |
+| 47 Tuc DM (LSST) | < 10⁻⁵ M★ | DM detected at > 5σ |
+| BNS GW (SKA-MPG) | f ≈ 7 × 10⁻¹⁴ Hz | 10× off-frequency |
+| AGN GW (SKA-MPG) | f ≈ 2 × 10⁻¹⁷ Hz | 10× off-frequency |
+| M_Pl,4 (colliders) | ≥ 887 GeV | Measured < 887 GeV |
+| BBN DE (precision) | < 10⁻²⁰ rad | > 10⁻²⁰ detected |
 | 5/27/68 (Planck) | 5/27/68 (input) | Input, not tested |
 
 ### 14.5 The 5-10 year window
