@@ -27,29 +27,24 @@ The cascade's principle is simple: every energetic event creates a 2D universe w
 
 **The cascade is the ONLY dark sector model that achieves all three.** Other models typically sacrifice one.
 
-**The closed loop: DE and DM as two sides of one mechanism.**
+**The closed loop: why DE and DM are the same thing.**
 
-The cascade is unique because it derives **both** dark energy and dark matter from a single geometric process. The closed-loop picture:
+The cascade has a unique feature that other dark sector models don't have: **it explains both dark energy and dark matter with the same mechanism**. Most models treat them as two separate puzzles. The cascade says they're two views of the same picture.
 
-```
-        4D event (parent)
-             ↓ antigravity projection
-        3+1D universe (us)
-             ↓ energetic events
-        2D universes (children)
-             ↓ gravitational back-projection
-        DM in 3+1D
-```
+Here's the loop, in plain language:
 
-The 4D event's antigravity → **DE** in 3+1D. The 2D universes' back-projection → **DM** in 3+1D. Both are geometric effects of the same dimensional projection. Most models treat DE and DM as separate problems requiring separate postulates; the cascade derives them from one process.
+1. A huge energetic event in a higher dimension (the "4D event") created our 3+1 dimensional universe. The 4D event was the "Big Bang."
+2. The 4D event's gravity, projected into our 3+1D universe, has a *repulsive* component. We measure this as **dark energy**.
+3. In our universe, energetic events (supernovae, black hole mergers) create tiny 2D universes.
+4. The cumulative gravitational back-projection of all those 2D universes is what we measure as **dark matter**.
+5. **The loop is closed:** the 4D event gives us DE; the 2D universes (created by events in our universe) give us DM. The same geometric process — *dimensional projection* — explains both.
 
-**The closed-loop function** (in a single equation):
+**The takeaway:** DE and DM are not two separate mysteries. They're two effects of the same projection:
 
-$$\rho_{\text{total}}(z) = \underbrace{\Lambda_{\text{eff}}}_{\text{DE (4D antigravity)}} + \underbrace{\rho_{\text{baryon}}(1+z)^3}_{\text{ordinary matter}} + \underbrace{\int dE \, N(E,z) \cdot E/c^2 \cdot f_{\text{back}}(E)}_{\text{DM (2D universe back-projection)}}$$
+- **Dark energy** = the "upstairs" view (gravity from the 4D event that made us)
+- **Dark matter** = the "downstairs" view (gravity from the 2D universes our explosions keep creating)
 
-One geometric process, three observational effects. **DE and DM are not two separate mysteries; they're two views of one geometric fact: we live in the projection of a 4D event.**
-
----
+Other models need to *postulate* DE and DM as two unrelated things. The cascade says they're two sides of one geometric fact: **we live in the projection of a 4D event**. The 4D's antigravity is DE, the 2D universes' back-projection is DM, the bulk-brane cancellation is gravity's weakness. One geometric process, three observational effects.
 
 # 🎯 47 TUC TEST: the cascade's SMOKING GUN against particle DM
 

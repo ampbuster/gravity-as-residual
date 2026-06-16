@@ -41,47 +41,39 @@ From this one rule, the cascade *automatically* explains:
 
 
 
-## The closed loop: DE and DM as two sides of one mechanism
+## The closed loop: why DE and DM are the same thing
 
-The cascade is unique because it derives **both** dark energy and dark matter from a single geometric process. The closed-loop picture:
+The cascade has a unique feature that other dark sector models don't have: **it explains both dark energy and dark matter with the same mechanism**. Most models treat them as two separate puzzles. The cascade says they're two views of the same picture.
 
-```
-        4D event (parent)
-             ↓ antigravity projection
-        3+1D universe (us)
-             ↓ energetic events
-        2D universes (children)
-             ↓ gravitational back-projection
-        DM in 3+1D
-```
+Here's the loop, in plain language:
 
-**The loop closes like this:**
+1. **Something big happened a long time ago.** A huge energetic event in a higher dimension (we're calling it the "4D event") created our 3+1 dimensional universe. The 4D event was the "Big Bang."
 
-1. A 4D event releases energy into 3+1D (this is the "Big Bang")
-2. The 3+1D universe hosts energetic events (supernovae, star collisions, AGN)
-3. Each energetic event creates a 2D universe
-4. The 2D universe's gravitational back-projection contributes to **dark matter** in 3+1D
-5. Meanwhile, the original 4D event's gravity, projected into 3+1D, has a *repulsive* component — this is **dark energy**
-6. The loop continues: any 3+1D energetic event is, in 4D's view, also a "small 4D event" that creates a 3+1D universe elsewhere — the cascade is recursive
+2. **That event left a trace.** The 4D event's gravity, projected into our 3+1D universe, has a *repulsive* component. We measure this as **dark energy** — the thing making the universe expand faster over time.
 
-**The closed-loop function** (in a single equation):
+3. **In our universe, things keep exploding.** Stars explode as supernovae. Black holes form and merge. Galaxies collide. Every one of these energetic events creates a tiny 2-dimensional universe, like a soap bubble in spacetime.
 
-$$\rho_{\text{total}}(z) = \underbrace{\Lambda_{\text{eff}}}_{\text{DE (4D antigravity)}} + \underbrace{\rho_{\text{baryon}}(1+z)^3}_{\text{ordinary matter}} + \underbrace{\int dE \, N(E,z) \cdot E/c^2 \cdot f_{\text{back}}(E)}_{\text{DM (2D universe back-projection)}}$$
+4. **Those 2D universes leave their own trace.** Each 2D universe, while it exists, has a gravitational "back-projection" into our 3+1D universe. When you add them all up — the countless 2D universes created by every explosion in cosmic history — the cumulative gravity is what we measure as **dark matter**.
 
-Where:
-- $\Lambda_{\text{eff}}$ = effective dark energy density (from 4D event's antigravity, ~constant in 3+1D frame)
-- $N(E,z)$ = number of energetic events per unit volume at energy E and redshift z
-- $f_{\text{back}}(E)$ = back-action fraction (how much 2D universe energy returns as 3+1D DM)
+5. **The loop is closed.** The 4D event gives us dark energy. The 2D universes (created by energetic events in our universe) give us dark matter. The same geometric process — *dimensional projection* — explains both.
 
-**Why this matters:** Most dark sector models treat DE and DM as **separate** problems requiring separate postulates. The cascade derives both from a single geometric process — **dimensional projection of a 4D event**. The same mechanism that makes gravity weak (bulk-brane cancellation) also makes DM (2D universe back-projection) and DE (4D antigravity). They're not separate problems; they're three views of the same projection.
+**The takeaway:** DE and DM are not two separate mysteries. They're two effects of the same projection:
 
-**Testable consequences of the closed loop:**
+- **Dark energy** = the "upstairs" view (gravity from the 4D event that made us)
+- **Dark matter** = the "downstairs" view (gravity from the 2D universes our explosions keep creating)
 
-- DE should be **slowly evolving** (not a perfect cosmological constant) because it's tied to the 4D event's structure, which itself evolves
-- DM should **track energetic activity** (more star formation = more 2D universes = more DM)
-- The DE/DM ratio should be **predictable** from the cascade's 2D CFT parameters (μ, m₃₊₁D), not a coincidence
+The cascade says: the universe is the projection of a single 4D event, and the dark sector is what that projection looks like from inside. Both DE and DM fall out of the geometry.
 
-**The bottom line:** DE and DM are not two separate mysteries. They're two views of one geometric fact: **we live in the projection of a 4D event**. The 4D's antigravity is DE, the 2D universes' back-projection is DM, and the bulk-brane cancellation is gravity's weakness. One geometric process, three observational effects.
+**Why this is powerful:** Other models need to *postulate* dark energy (as a cosmological constant, or a quintessence field) AND *postulate* dark matter (as particles, or as modified gravity) as two unrelated things. The cascade says they're not unrelated — they're two sides of one geometric fact.
+
+**Why you can't see the loop from inside:** The 4D event is "above" us (one dimension up), and the 2D universes are "below" us (one dimension down). We can only measure their *projections* into 3+1D — which look like dark energy and dark matter, respectively.
+
+**The bigger pattern:** This is what the cascade calls the "cone shape" — 4D at the top, 3+1D (us) in the middle, 2D at the bottom. Each level creates the next, and each level's projection contributes to what we observe. The dark sector is the visible signature of a dimensional cascade we can't directly see.
+
+**Testable in the next 5-10 years:** If the closed loop is right, then:
+- DE should be *slowly* evolving (not perfectly constant), because it's tied to the 4D event's structure
+- DM should *track* energetic activity (more star formation → more 2D universes → more DM)
+- The ratio of DE to DM shouldn't be a coincidence — it should follow from the cascade's geometry
 
 ## The lifetime ladder: 33 seconds to 10²⁶ years
 
