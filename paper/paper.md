@@ -48,9 +48,9 @@ The full architectural comparison is given in §9 (Cascade vs its Competitors: A
 
 ---
 
-## 0. Parameter Glossary (Quick Reference)
+## 0. Parameter Glossary (Quick Reference) — v2.7.20+
 
-**The cascade's parameters, organized by category (v2.7.12+).**
+**The cascade's parameters, organized by category, with v2.7.20 updates reflecting §§3.10–3.15.**
 
 ### Free Parameters (2, calibrated to data)
 
@@ -59,13 +59,16 @@ The full architectural comparison is given in §9 (Cascade vs its Competitors: A
 | $\alpha$ | 1.29 | Energy-scaling rule exponent $\tau_{2D} = (E/E_{Pl})^\alpha \cdot t_{Pl}$ | 1 data point: SN 33s lifetime |
 | $z_{\text{half}}$ | $\approx 3$ | Smooth $F_p(z)$ Hill-function transition redshift | 2 anchors: $z=0$ and $z=1100$ |
 
-### Calibrated Postulates (3, set to match observations)
+### Calibrated Postulates (4, set to match observations) — *updated v2.7.20*
 
 | Parameter | Value | Purpose | Status |
 |-----------|-------|---------|--------|
 | $f_{\text{back}}$ | $\sim 10^{-85}$ | Back-projection efficiency (staying fraction of 4D event antigravity) | DE density matches observation |
 | $\epsilon$ | $\sim 10^{-38}$ | Bulk-brane cancellation fraction | Hierarchy matches observation |
-| $F_p$ | $\sim 0.7$ | Primordial DM fraction at $z=0$ (smooth function rises to 1.0 at $z=1100$) | High-z UV LF + CMB anchors |
+| $F_p(z)$ | $0.7 \to 1.0$ (smooth) | Smooth primordial DM fraction (Hill n=2, $z_{\text{half}}=3$) | High-z UV LF + CMB anchors |
+| **$A_{\text{event}}$** | $\sim 67$ | **Per-event amplification factor (2D universe 3+1D-frame mass / SN energy)** — *NEW in v2.7.16* | §3.11: cumulative SN energy is 8% of baryons, so 67x amplification is required for 5% → 27% ratio |
+
+**Note on $A_{\text{event}}$:** this is a phenomenological fit, not a derivation. The cascade acknowledges (§3.11) that the 67x amplification is a free parameter, with 4 possible explanations documented (per-event amplification, time accumulation, multiple event types, DE as energy source).
 
 ### Observational Inputs (5, taken from data)
 
@@ -88,14 +91,23 @@ The full architectural comparison is given in §9 (Cascade vs its Competitors: A
 
 ### What this Glossary is NOT
 
-This is not a derivation. The 2 free parameters ($\alpha, z_{\text{half}}$) are *calibrated*, not derived from first principles. The 3 calibrated postulates ($f_{\text{back}}, \epsilon, F_p$) are *postulated* to match observations. A complete derivation of any of these from first principles is open work (Limitation 26).
+This is not a derivation. The 2 free parameters ($\alpha, z_{\text{half}}$) are *calibrated*, not derived from first principles. The 4 calibrated postulates ($f_{\text{back}}, \epsilon, F_p, A_{\text{event}}$) are *postulated* to match observations. A complete derivation of any of these from first principles is open work (Limitation 26).
 
-### Recent Removals (cleaned up over versions)
+### Recent Additions, Removals, and Discards (v2.7.12-v2.7.20)
 
+**Additions:**
+- **v2.7.16 added $A_{\text{event}}$**: per-event amplification factor (67x) required for 5% → 27% ratio. Documented in §3.11 with 4 possible explanations.
+- **v2.7.12 added $F_p(z)$ as smooth function**: was constant 0.7 in v2.7.8, now smooth Hill n=2 with $z_{\text{half}}=3$ (added $z_{\text{half}}$ as new free parameter)
+
+**Removals (cleaned up over earlier versions):**
 - **Removed v2.7.5**: $E_{\text{crit}} \sim 10^{30}$ J (phase-transition threshold) — replaced by smooth $E^{1+\alpha}$ function with no threshold
 - **Removed v2.7**: $\lambda_{\text{th}} \sim 10^{-4}$ m (dimensional transition threshold) — replaced by $f_{\text{back}}$ 
 - **Removed v2.7.11**: $f_{\text{active}} \sim 0.05$ (live 2D universe back-projection) — replaced by deaths-only DM (§2.5.4)
 - **Removed v2.7.5**: $E_{\text{criterion}}$ (energy criterion for 2D universe creation) — replaced by smooth $E^{1+\alpha}$ function
+
+**Discarded (v2.7.20+):**
+- **§3.13 mechanism DISCARDED (v2.7.20)**: Sterile neutrino + Pauli-blocked decay hypothesis is double-broken per literature search (Batell & Yin 2024 m<10meV bound, sub-eV is HDM not CDM, 3.5 keV line weakened 2024). See §3.14-§3.15 for full analysis.
+- **DM form UNSPECIFIED (v2.7.20)**: The cascade does not commit to a specific DM particle. Geometric DM is the default (§3.14 Option D). L9 (2D universe physics) remains open — the form of energy return at 2D universe death is not derived.
 
 ---
 
@@ -1209,7 +1221,7 @@ The honest summary: *none* of these frameworks derive the cascade's α = 1.29 fr
 - **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.20: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.22: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
@@ -2109,6 +2121,96 @@ Future work to make the cascade more concrete:
 - Honest about the §3.13 mechanism being wrong
 
 See `calculations/v27_discarding_pauli_blocking.py` for the full numerical analysis and literature references.
+
+---
+
+### 3.16 Meta: User-prompted self-critique as a method (v2.7.21+)
+
+This is a *meta-section* about the cascade's methodology. It documents how the cascade has *improved* through user-prompted self-critique, using the §3.13 → §3.14 → §3.15 sequence as a worked example.
+
+**3.16.1 The methodology.**
+
+The cascade is a thought experiment developed through conversation between a non-physicist (the author) and an AI assistant (Mavis). The author's *user-prompted self-critique* is a key feature of the methodology:
+
+1. **Build a hypothesis.** Propose a specific mechanism or interpretation.
+2. **User pushback.** The user (or external readers) questions the mechanism.
+3. **Self-critique.** The cascade identifies the issues, refines the analysis.
+4. **Discard or revise.** If the mechanism is broken, discard it. If it's partially right, refine it.
+5. **Document the process.** Each iteration is recorded in the changelog and README.
+
+This is a *post-normal* approach: the cascade is *explicitly* about being wrong, and showing *how* it became less wrong.
+
+**3.16.2 The §3.13 → §3.14 → §3.15 sequence.**
+
+The user proposed (§3.13) that DM is a sterile neutrino that decays into active neutrinos, with Pauli blocking in dense regions suppressing decay. The user then pushed back (§3.14): *"does the neutrino decay make sense? are there areas with DM and no neutrinos?"*
+
+The cascade responded:
+
+- **§3.13 (v2.7.18):** Built the mechanism. Pauli blocking was assumed to suppress decay in halos.
+- **§3.14 (v2.7.19):** Self-critique. Identified that:
+  - Pauli blocking is INEFFECTIVE for typical DM masses (E_decay/p_F ~ 10²¹)
+  - Active neutrino flux is 10⁷× too high
+  - Sterile neutrino at m_s ~ 1 GeV is heavily constrained
+  - Proposed 4 alternative DM hypotheses (WIMP, axion, PBH, geometric)
+- **§3.15 (v2.7.20):** Literature search. Confirmed:
+  - Batell & Yin 2024: Pauli blocking works only for m_DM < 10 meV
+  - Sub-eV DM is HDM, not CDM (no small-scale structure)
+  - 3.5 keV sterile neutrino line weakened in 2024
+  - **§3.13 mechanism DISCARDED**
+
+The cascade *acknowledged* that the §3.13 mechanism was wrong, *documented why* in §3.14-§3.15, and *committed* to a different framework (geometric DM, §3.14 Option D).
+
+**3.16.3 What this process reveals.**
+
+The §3.13 → §3.14 → §3.15 sequence reveals:
+
+1. **Hypotheses can be wrong.** The cascade's §3.13 was a reasonable hypothesis (sterile neutrino with Pauli blocking has been studied in the literature, e.g., Batell & Yin 2024), but it was double-broken for the cascade's specific mass range.
+
+2. **User pushback is valuable.** The user's question "are there areas with DM and no neutrinos?" exposed a real issue. Without the pushback, §3.13 might have been left unchallenged.
+
+3. **Self-critique is a feature, not a bug.** The cascade's honest acknowledgment of broken mechanisms makes it *more* robust, not less. A model that papers over its failures is less useful than one that explicitly identifies them.
+
+4. **The framework is more important than any specific hypothesis.** The cascade's geometric framework (2D universe deaths → cumulative gravitational effect = DM) is robust across multiple DM interpretations (WIMP, axion, PBH, sterile neutrino, geometric). The specific §3.13 mechanism was just *one* interpretation; the framework doesn't depend on it.
+
+**3.16.4 The broader pattern.**
+
+This isn't the first time the cascade has gone through this process. Other examples:
+
+- **v2.1 cone-shape refinement:** Earlier versions had a fractal cascade (1D, 0D universes). User pushback led to cone-shape (4D → 3+1D → 2D, terminal). The cone-shape is more parsimonious and closes the 1D-universes limitation.
+- **v2.7.5 smooth E^(1+α) function:** Earlier versions had a step function E_crit. User feedback led to smooth function (no threshold). The smooth function is more physical and matches high-z UV LF + CMB anchors.
+- **v2.7.11 deaths-only DM:** Earlier versions had a mix of live + cumulative DM. User feedback led to deaths-only (f_back_live = 0). The deaths-only picture is more consistent with 2D gravity consensus.
+- **v2.7.18 → 3.20 (this session):** User-prompted self-critique led to discarding §3.13 (sterile neutrino + Pauli blocking).
+
+In each case, the cascade *explicitly* documents the iteration: what was hypothesized, what was wrong, what replaced it, and why the new version is better.
+
+**3.16.5 Why this matters for the cascade's credibility.**
+
+Most theoretical physics papers *don't* document their failed hypotheses. A reader sees the final version, not the journey. The cascade's approach is *different*: it makes the journey visible.
+
+This is valuable for several reasons:
+
+1. **Honest accounting.** The reader sees exactly what's derived, what's postulated, and what's discarded. No hidden assumptions.
+2. **Replicability.** The reader can reproduce each step, including the discarded mechanisms. This is more rigorous than presenting only the final version.
+3. **Falsifiability.** By documenting why mechanisms were discarded, the reader can verify that the discard was correct (e.g., literature search in §3.15 confirms §3.13 was broken for the right reasons).
+4. **Methodological transparency.** The reader sees the *process*, not just the *result*. This is rare in theoretical physics and valuable for the field.
+
+**3.16.6 The cascade's commitment going forward.**
+
+The cascade commits to:
+
+1. **Continuing the self-critique process.** Future user pushback will be addressed via self-critique, not by defending broken mechanisms.
+2. **Documenting failed hypotheses explicitly.** §3.13 is a worked example. Future failures will be documented similarly.
+3. **Maintaining the geometric framework as the default.** The specific particle interpretation (WIMP, axion, etc.) is open. The geometric framework is robust across interpretations.
+4. **Honest about the limit of the cascade.** The cascade is a *thought experiment*, not a *theory*. It proposes mechanisms and tests them. Some pass, some fail. The methodology makes the failure visible.
+
+**Cascade's status (v2.7.21+):**
+- Self-critique is *formalized* as a methodology (§3.16)
+- The §3.13 → §3.14 → §3.15 sequence is a worked example
+- 1 DISCARDED limitation is documented in §7.0
+- The cascade is honest about what it doesn't know
+- Future iterations will follow the same pattern
+
+**Bottom line:** the cascade is a *self-improving framework* that gets better through user-prompted self-critique. The §3.13 → §3.14 → §3.15 sequence is the most dramatic example so far, but it's not unique. The cascade will continue to evolve this way.
 
 ---
 
@@ -5051,36 +5153,45 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 This is a thought experiment, not a theory. We identify 35 honest limitations, with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*):
 
-### 7.0 Master Limitations Table (v2.4-v2.7.13)
+### 7.0 Master Limitations Table (v2.4-v2.7.20)
 
-**v2.7.13 update: categorical summary** (grouped by topic for easier navigation):
+**v2.7.20 update: categorical summary** (grouped by topic, with v2.7.20 changes reflecting §§3.10–3.15):
 
-| Category | OPEN | PARTIAL | CLOSED | FALSIFIED | REVERTED | Total |
-|----------|------|---------|--------|-----------|----------|-------|
-| **Dimensional structure** (L1, L3, L4, L9) | 4 | 0 | 0 | 0 | 0 | 4 |
-| **Bulk-brane coupling / inversion** (L2, L7, L8, L10, L12) | 5 | 0 | 0 | 0 | 0 | 5 |
-| **2D universe physics** (L9, L22, L23) | 2 | 1 | 0 | 0 | 0 | 3 |
-| **DM activity / proportionality** (L5, L21, L24) | 0 | 3 | 0 | 0 | 0 | 3 |
-| **CMB / early universe** (L6) | 0 | 1 | 0 | 0 | 0 | 1 |
-| **5/27/68 derivation** (L17, L26) | 0 | 2 | 0 | 0 | 0 | 2 |
-| **Hubble tension** (L18) | 0 | 0 | 1 | 0 | 0 | 1 |
-| **DE density mechanism** (L15, L29) | 0 | 1 | 1 | 0 | 0 | 2 |
-| **Energy-scaling rule (α)** (L25, L28, L30) | 0 | 3 | 0 | 0 | 0 | 3 |
-| **Smooth F(z) / smooth creation** (L31, L35, L36) | 1 | 0 | 2 | 0 | 1 | 4 |
-| **RAR / f_active** (L19, L20) | 0 | 0 | 0 | 1 | 1 | 2 |
-| **Primordial Lagrangian / E_primordial** (L26, L34) | 1 | 1 | 0 | 0 | 0 | 2 |
-| **Other architectural** (L11, L11.5, L13, L14, L16, L27) | 2 | 0 | 3 | 1 | 0 | 6 |
-| **TOTAL** | **15** | **12** | **6** | **2** | **2** | **37** |
+| Category | OPEN | PARTIAL | CLOSED | FALSIFIED | REVERTED | DISCARDED | Total |
+|----------|------|---------|--------|-----------|----------|-----------|-------|
+| **Dimensional structure** (L1, L3, L4, L9) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
+| **Bulk-brane coupling / inversion** (L2, L7, L8, L10, L12) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
+| **2D universe physics** (L9, L22, L23) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| **DM activity / proportionality** (L5, L21, L24, **A_event**) | 1 | 2 | 0 | 0 | 0 | 0 | 3 |
+| **CMB / early universe** (L6) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
+| **5/27/68 derivation** (L17, L26) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
+| **Hubble tension** (L18) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
+| **DE density mechanism** (L15, L29) | 0 | 1 | 1 | 0 | 0 | 0 | 2 |
+| **Energy-scaling rule (α)** (L25, L28, L30) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
+| **Smooth F(z) / smooth creation** (L31, L35, L36) | 1 | 0 | 2 | 0 | 1 | 0 | 4 |
+| **RAR / f_active** (L19, L20) | 0 | 0 | 0 | 1 | 1 | 0 | 2 |
+| **Primordial Lagrangian / E_primordial** (L26, L34) | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
+| **DM form (was Pauli-blocked sterile ν)** (L9_ext, **new in v2.7.20**) | 1 | 0 | 0 | 0 | 0 | 1 | 2 |
+| **Other architectural** (L11, L11.5, L13, L14, L16, L27) | 2 | 0 | 3 | 1 | 0 | 0 | 6 |
+| **TOTAL** | **18** | **10** | **7** | **2** | **2** | **1** | **40** |
 
-**Net status of cascade's 37 limitations:**
-- 15 OPEN (need theoretical or observational work to close)
-- 12 PARTIAL (some progress made, more work needed)
-- 6 CLOSED (resolved by construction or by v2.x updates)
+**v2.7.20 changes:**
+- L9 (2D universe physics) moved from 2 OPEN to 3 OPEN (more honest about the gap, including the discarded §3.13 mechanism)
+- L9_ext (DM form, new): DISCARDED in v2.7.20. The Pauli-blocked sterile neutrino hypothesis is double-broken (Batell-Yin 2024 m<10meV bound, sub-eV is HDM not CDM, 3.5 keV line weakened 2024)
+- 1 new DISCARDED category added (vs v2.7.13 which had 0)
+- 1 new OPEN in "DM activity / proportionality" (the A_event parameter is acknowledged as a free parameter, not derived)
+- Total limitations: 37 → 40 (+3: A_event parameter, L9 more honest, L9_ext discarded mechanism)
+
+**Net status of cascade's 40 limitations (v2.7.20+):**
+- 18 OPEN (need theoretical or observational work to close)
+- 10 PARTIAL (some progress made, more work needed)
+- 7 CLOSED (resolved by construction or by v2.x updates)
 - 2 FALSIFIED (replaced by better functional forms)
 - 2 REVERTED (were claimed to be derived, found to be phenomenological)
+- 1 DISCARDED (specific mechanism rejected, replaced by geometric default)
 - **0% of cascade's claims are STRONGLY confirmed by data** (consistent with all 16/17 test categories and 7/7 cases, but none at high statistical significance for the *specific cascade*)
 
-**The honest summary:** the cascade is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 12 PARTIAL limitations are the most promising areas for future work. The 6 CLOSED limitations represent the cascade's "wins" — features that survive every iteration of the model.
+**The honest summary:** the cascade is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 10 PARTIAL limitations are the most promising areas for future work. The 7 CLOSED limitations represent the cascade's "wins" — features that survive every iteration of the model. The 1 DISCARDED limitation (§3.13 mechanism) shows the cascade's self-critical nature — broken hypotheses are explicitly rejected, not papered over.
 
 The full table follows:
 

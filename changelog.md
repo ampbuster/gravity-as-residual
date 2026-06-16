@@ -2,6 +2,37 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.22 (June 2026) — §3.16 Meta + §0/§7.0 updates
+
+**Major changes since v2.7.21:**
+
+1. **§0 Parameter Glossary updated (v2.7.21)**:
+   - 4 calibrated postulates (was 3) — added A_event ~ 67 per-event amplification
+   - F_p(z) now smooth function (was constant 0.7)
+   - New "Discarded" section (§3.13 mechanism)
+   - New "What changed in v2.7.12-v2.7.20" table
+
+2. **§7.0 categorical summary updated (v2.7.21)**:
+   - 40 limitations (was 37): +1 A_event param, +1 L9 honest, +1 L9_ext discarded
+   - 18 OPEN (was 15), 10 PARTIAL (was 12), 7 CLOSED (was 6), 2 FALSIFIED, 2 REVERTED, **1 DISCARDED (NEW)**
+   - New "DM form (was Pauli-blocked sterile ν)" category
+   - L9 (2D universe physics) moved from 2 OPEN to 3 OPEN
+
+3. **§3.16 NEW: Meta-section on user-prompted self-critique as a method** (v2.7.22)
+   - Documents the §3.13 → §3.14 → §3.15 sequence as worked example
+   - The methodology formalized: build → pushback → self-critique → discard/revise → document
+   - Broader pattern: cone-shape (v2.1), smooth E^(1+α) (v2.7.5), deaths-only (v2.7.11), Pauli-block discard (v2.7.20)
+   - Why this matters: honest accounting, replicability, falsifiability, methodological transparency
+   - Cascade commits to continuing this process
+
+4. **Cascade's commitment going forward (v2.7.22+)**:
+   - Continue self-critique process
+   - Document failed hypotheses explicitly
+   - Maintain geometric framework as default
+   - Be honest about limits
+
+**Earlier v2.7.20 entry (unchanged):**
+
 ## v2.7.20 (June 2026) — §3.15 DISCARDING §3.13 (literature search)
 
 **Major changes since v2.7.19:**
