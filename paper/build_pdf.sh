@@ -44,6 +44,26 @@
 #   SYMPTOM: parse error on the first line
 #   FIX: -yaml_metadata_block is already in our options
 #
+# GOTCHA #5: Missing blank line between heading and table (section 4.1)
+#   SYMPTOM: table is rendered as inline text with literal |---| separators
+#   EXAMPLE:
+#     **Comparison**:
+#     | col1 | col2 |        <- NO BLANK LINE ABOVE!
+#     |------|------|
+#     | data | data |
+#   FIX: add a blank line between the **Heading**: and the |
+#   SECTION: 4.1 (table syntax)
+#
+# GOTCHA #6: Pipe table with unbalanced column lengths (section 4.1)
+#   SYMPTOM: short content in wide columns, long content overflowing narrow
+#            columns, awkward text wrapping at column boundaries
+#   EXAMPLE: Parameter | Value | Purpose | Calibrated to
+#            The 'Purpose' column has long math content but Pandoc
+#            allocates width based on header text length, not content
+#   FIX: convert to GRID TABLE with explicit column widths
+#        (use longer |---| for wider columns)
+#   SECTION: 4.1 (table syntax, "PIPE TABLES: WHEN TO ESCAPE TO GRID TABLES")
+#
 # ---------------------------------------------------------------------
 # 1. THE PANDOC OPTIONS
 # ---------------------------------------------------------------------
@@ -130,24 +150,141 @@
 #
 # ---- 4.1 TABLES ----
 #
-# Use PIPE TABLES (GitHub-style, |---|---|) NOT grid tables.
-# Both work in Pandoc but pipe tables render more reliably.
+# Two table formats work in this build: PIPE TABLES and GRID TABLES.
+# Each has tradeoffs. Choose based on what you need.
 #
-# CORRECT:
+# === PIPE TABLES (default, GitHub-style) ===
+#
+# Format:
 #   | Column 1 | Column 2 | Column 3 |
 #   |----------|----------|----------|
 #   | data 1   | data 2   | data 3   |
 #   | data 4   | data 5   | data 6   |
 #
-# WRONG (avoid grid tables in this build):
-#   +-------+-------+-------+
-#   | A     | B     | C     |
-#   +=======+=======+=======+
-#   | 1     | 2     | 3     |
-#   +-------+-------+-------+
+# PROS:
+#   - Easy to type and maintain
+#   - Renders well on GitHub.com
+#   - Pandoc's default markdown table format
+#
+# CONS:
+#   - Column widths are AUTO-ALLOCATED by Pandoc based on HEADER text
+#     length, NOT content length
+#   - This often produces bad proportions:
+#     * Short headers get narrow columns with overflowing content
+#     * Long headers get wide columns with short content
+#   - You have NO direct control over column widths
+#
+# USE PIPE TABLES when:
+#   - All columns have similar content lengths
+#   - You don't care about exact column proportions
+#   - Content is short (e.g., values, numbers, short labels)
+#
+# EXAMPLE (good fit for pipe tables):
+#   | Galaxy | M_b (M_o) | σ (km/s) | Type  |
+#   |--------|-----------|----------|-------|
+#   | M31    | 1.5e11    | 160      | Sb    |
+#   | MW     | 6e10      | 120      | Sbc   |
+#
+# === GRID TABLES (explicit column widths) ===
+#
+# Format:
+#   +---------+---------+----------------+----------------+
+#   | Column 1| Column 2| Column 3       | Column 4       |
+#   +=========+=========+================+================+
+#   | data 1  | data 2  | long content   | more content   |
+#   +---------+---------+----------------+----------------+
+#   | data 3  | data 4  | more long      | more content   |
+#   +---------+---------+----------------+----------------+
+#
+# PROS:
+#   - EXPLICIT control over column widths
+#   - Use longer |---| for wider columns
+#   - Use shorter |---| for narrower columns
+#   - The = signs in the header separator mark it as a grid table
+#
+# CONS:
+#   - More verbose to type and maintain
+#   - Doesn't render as nicely on GitHub.com (shows as literal text)
+#   - Harder to add/remove columns (need to update all separators)
+#
+# USE GRID TABLES when:
+#   - You have very different content lengths across columns
+#   - Long content (math, prose) is in one column, short in another
+#   - You want specific column proportions
+#   - The pipe table version looks bad
+#
+# WIDTH CALCULATION: Pandoc uses the |---| separator lengths to
+# determine column width ratios. The actual lengths don't matter
+# (e.g., 8 chars vs 24 chars), only the RATIO between them.
+#
+# EXAMPLE (good fit for grid tables):
+#   +----------+-------+----------------------------------------------+-----------------------+
+#   | Parameter | Value | Purpose                                      | Calibrated to         |
+#   +==========+=======+==============================================+=======================+
+#   | α        | 1.29  | Energy-scaling rule exponent τ_2D = ...     | 1 data point: SN 33s  |
+#   +----------+-------+----------------------------------------------+-----------------------+
+#   | z_half   | ≈ 3   | Smooth F_p(z) Hill-function transition       | 2 anchors: z=0 and z=1100 |
+#   +----------+-------+----------------------------------------------+-----------------------+
+#
+# === PIPE TABLES: WHEN TO ESCAPE TO GRID TABLES ===
+#
+# Convert pipe tables to grid tables when you see:
+#   - Long content overflowing narrow columns
+#   - Short content in overly wide columns
+#   - Text wrapping awkwardly at column boundaries
+#   - A specific column needs to be wider for readability
+#
+# EXAMPLE of problematic pipe table:
+#   | Parameter | Value | Purpose | Calibrated to |
+#   |-----------|-------|---------|---------------|
+#   | α         | 1.29  | Energy-scaling rule exponent τ_2D = (E/E_Pl)^α · t_Pl | 1 data point: SN 33s lifetime |
+# The 'Purpose' column is too narrow for the math, and 'Calibrated to'
+# is too wide for the short text.
+#
+# SOLUTION: grid table with explicit proportions
+#   (the |---| lengths directly control the column widths)
+#
+# === SYNTAX GOTCHAS ===
 #
 # Pipes in cell content: ESCAPE them with backslash:
 #   | text \| more text |
+#
+# Empty cells: just leave the area between pipes empty:
+#   | cell1 |  | cell3 |
+#   | cell4 |  | cell6 |
+#
+# Line breaks within cells: use <br> in pipe tables:
+#   | line 1<br>line 2 |
+#
+# In GRID tables, you can use literal newlines in cells:
+#   +-------+----+
+#   | A     | B  |
+#   +=======+====+
+#   | line1 | x  |
+#   | line2 |    |
+#   +-------+----+
+#
+# BUT: in pipe tables, multi-line cells are tricky. Use <br>.
+#
+# === BLANK LINE BEFORE TABLE (REQUIRED) ===
+#
+# ALWAYS put a blank line between a heading and a table. Without it,
+# Pandoc may not recognize the table.
+#
+# BREAKS:
+#   **Comparison**:
+#   | col1 | col2 |
+#   |------|------|
+#   | data | data |
+#
+# WORKS:
+#   **Comparison**:
+#
+#   | col1 | col2 |
+#   |------|------|
+#   | data | data |
+#
+# (See section 4.2 for the related `---` gotcha.)
 #
 # ---- 4.2 HORIZONTAL RULES AND TABLE SEPARATORS ----
 #
