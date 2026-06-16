@@ -2957,6 +2957,97 @@ See `calculations/v27_cghs_alpha_derivation.py` for the full numerical analysis.
 
 ---
 
+### 3.25 Web research result: α = 1.29 is NOT a CGHS prediction (v2.7.31+)
+
+To close L9, the author attempted a systematic web search for any
+CGHS-with-back-reaction calculation that yields α = 1.29. The result
+is a clear negative: **no existing paper derives α = 1.29 from CGHS
+back-reaction or any related 2D dilaton gravity framework**.
+
+**3.25.1 What the literature actually says.**
+
+The CGHS (Callan-Giddings-Harvey-Strominger 1992) 2D black hole has a
+Hawking temperature:
+
+$$T_H \sim \left(\frac{M_{\text{BH}}}{\lambda_0}\right)^{1/2}$$
+
+which is SQUARE ROOT, not linear. The 2D-frame lifetime of the black
+hole is:
+
+$$\tau_{\text{BH}}^{2D} \sim 4M_{\text{BH}}$$
+
+This is **LINEAR** in M_BH (in 2D Planck units), giving p = 1.0.
+This is the Frolov-Zelnikov / Strominger-Thorlacius result.
+
+The RST (Russo-Susskind-Thorlacius 1992) model with back-reaction
+has a critical mass M_c above which a black hole forms. Below M_c,
+the matter disperses without forming a horizon. The lifetime for
+M_BH > M_c is again approximately:
+
+$$\tau_{\text{BH}}^{2D} \sim 4M_{\text{BH}} \quad (\text{linear})$$
+
+Various extensions (Bardeen-like, regular, JT gravity, etc.) modify
+the inner structure but generally preserve the LINEAR lifetime scaling.
+
+**3.25.2 Search for "1.29" in CGHS-related papers.**
+
+A targeted web search for "α = 1.29", "1.29", "exponent 1.29" in
+combination with "CGHS", "2D dilaton gravity", "RST", "back-reaction"
+yields **no specific paper** that derives this value from first
+principles. The exponent in any CGHS variant is model-dependent and
+generally p = 1 (linear).
+
+**3.25.3 The cascade's claim is OVERSTATED.**
+
+The cascade's §3.19 stated that "α = 1.29 is in the CGHS back-reaction
+range [1, 3]". This is an OVERSTATED claim. While 1.29 is numerically
+in the interval [1, 3], the [1, 3] range is a phenomenological
+observation, not a CGHS theoretical prediction. CGHS-with-back-reaction
+gives p = 1.0 (linear), which does NOT match p = 1.29.
+
+**3.25.4 Honest status (v2.7.31+).**
+
+- α = 1.29 is a PHENOMENOLOGICAL fit to the SN 33s lifetime calibration
+- It is NOT derived from CGHS-with-back-reaction
+- It is NOT derived from any established 2D dilaton gravity calculation
+- It is NOT in the natural CGHS back-reaction range (CGHS gives p = 1.0)
+- A specific calculation yielding γ_2D = (E/E_Pl,3)^1.29 is needed
+- This is a research challenge, not a derivation
+
+**3.25.5 What web research can NOT do.**
+
+Web research can:
+- Confirm what CGHS/RST does and doesn't predict ✓
+- Find related 2D gravity models ✓
+- Identify open research questions ✓
+- Document the current state of the literature ✓
+
+Web research CANNOT:
+- Derive a new physical formula ✗
+- Calculate γ_2D = (E/E_Pl)^1.29 from first principles ✗
+- Solve the CGHS-with-back-reaction equations for new scaling ✗
+
+**3.25.6 Future work needed to close L9.**
+
+1. A specific 2D gravity model with back-reaction that gives
+   τ_BH ∝ M_BH^p with p ≈ 1.29
+2. A geometric argument for γ_2D = (E/E_Pl,3)^1.29
+3. A theoretical framework connecting the cascade's projection geometry
+   to CGHS 2D dilaton gravity
+
+**3.25.7 Cascade's commitment (v2.7.31+).**
+
+- α = 1.29 is HONESTLY a phenomenological fit
+- The "CGHS back-reaction range [1, 3]" was overstatement
+- L37 is updated: "α = 1.29 is phenomenological, not first-principles"
+- Closing L9 requires new theoretical work, not web research
+- The cascade commits to honest documentation of this gap
+
+See `calculations/v27_cghs_web_research.py` for the full web
+research methodology and findings.
+
+---
+
 ## 4. Predictions and distinguishing features
 
 If the model is correct, several observable consequences follow.

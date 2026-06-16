@@ -2,6 +2,35 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.31 (June 2026) — §3.25 web research honest verdict
+
+**Major changes since v2.7.30:**
+
+1. **§3.25 NEW: Web research result** (~3 pages)
+   - Systematic web search for CGHS-with-back-reaction papers with α = 1.29
+   - **FINDING: No existing paper derives α = 1.29 from CGHS**
+   - CGHS-with-back-reaction gives p = 1.0 (LINEAR scaling), not p = 1.29
+   - The "range [1, 3]" is a phenomenological observation, not a CGHS prediction
+
+2. **§3.19 correction: claim was OVERSTATED**
+   - Original §3.19: "α = 1.29 is in CGHS back-reaction range [1, 3]"
+   - Honest correction: 1.29 is numerically in [1, 3] but the [1, 3] range
+     is not a CGHS theoretical prediction
+   - L37 updated: "α = 1.29 is phenomenological, not first-principles"
+
+3. **What web research can and cannot do**:
+   - CAN: confirm what CGHS does/doesn't predict, find related models
+   - CANNOT: derive new physical formulas or solve field equations
+   - Closing L9 requires NEW theoretical work, not web research
+
+4. **Net: 1 new section, ~3 pages**
+   - Total paper: 249 → 252 pages
+   - Test counts UNCHANGED
+   - 38 honest limitations (L37 updated)
+   - 1 free parameter (z_half only)
+
+**Earlier v2.7.30 entry (unchanged):**
+
 ## v2.7.30 (June 2026) — §3.23-3.24 + abstract/§0 updates
 
 **Major changes since v2.7.29:**
