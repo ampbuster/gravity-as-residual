@@ -1,0 +1,35 @@
+<!-- 14_appendix.md - part of paper.md split (v3.0.13) -->
+
+## Appendix: Open-Source Scientific Collaboration
+
+**A formal invitation.** This manuscript is released as an open-source scientific framework. The code, calculations, and supporting documents are publicly available at https://github.com/ampbuster/gravity-as-residual under a permissive license. The framework is offered for rigorous development, testing, refutation, and extension by the theoretical physics community.
+
+**Authorship and provenance.** The author is a software engineer, not a physicist. The framework emerged from iterative question-driven exploration, not from working through the formal mathematical machinery of brane-world gravity or 2D conformal field theory. This provenance is *honest transparency* about the framework's current state, not a disclaimer of its content. The framework's *geometric picture* (dimensional cascade, bulk-brane projection, 2D universe back-projection) is rigorous; the *mathematical formalism* (specific Lagrangian, 2D CFT central charge, 5D bulk geometry) is a *skeleton* awaiting completion by a domain expert.
+
+**Status of the framework.** The framework is *structurally complete* as a geometric specification, with these confirmed state markers (v2.7.5):
+- **16/17 test categories pass** (16 pass, 1 confounded) on real observational data (SPARC, MaNGA, Pantheon+, Planck, Tian+ 2024, AGC 114905, KKR 25).
+- **0 strongly confirmed, 2 components falsified** (g_obs = g_bar + g_cum + g_active functional form in v2.2; Mechanism A Hubble in commit ~80) — both *specific functional forms*, since replaced by the cascade-MOND hybrid and Mechanism M, respectively. The cascade's *framework* (4D event → 3+1D → 2D) is NOT falsified; only the specific implementations that the cascade has since improved. The framework is *consistent* with current data without being *established* by it.
+- **50 honest limitations documented** (v2.7.41+: 23 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED — §3.13 mechanism discarded v2.7.20, L37 added v2.7.30 for α=1.29 CGHS derivation §3.24, L38 added v2.7.33 for KKR 25 M_b value (off by 1000×) §3.27, L39 added v2.7.34 for 10-year data gap between AGC 114905 and KKR 25 §3.28, L40-42 added v2.7.35 for AGC 114905 contested DM, KKR 25 no new data, bifurcation even more uncertain §3.29, L43-45 added v2.7.37 for new extreme observation tests (TDGs, JWST z>4, Crater II, Antlia 2, UFDs) §3.30, L46-48 added v2.7.38 for 6 new testable galaxies (consensus data only), L49 added v2.7.41 for cascade pass criterion being qualitative). L32 removed v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED, L20 reverted v2.7.1, L9_ext DISCARDED v2.7.20, A_event parameter acknowledged v2.7.16, with specific closure criteria.
+- **2-3 active free parameters** in the v2.4 tensor framework: $G_5$ (5D Newton's constant), $\alpha$ (cascade coupling), and $\tau_{2D}$ (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., $f_{back} = 1$ from $J^A_{bulk} = 0$ BC) or *bounded* (e.g., $c \in \mathbb{Z}_{\geq 1}$, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 (μ, b, α, z_0) to 2 (μ, m₃₊₁D)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
+- **Coordinate-invariant stress-energy tensor** $T_{\mu\nu}^{eff}$ explicitly constructed in §4.44 with 5 verification checks all passing.
+
+**Specific call-to-action: theoretical physicists.** The following items are *concrete, well-defined research problems* that would each constitute a publishable contribution:
+
+1. **Derive the 5/27 zero-mode counting from a specific 2D CFT** (Limitation 30, §2.6.1). The 5/27 is now anchored as the topological eigenvalue $V_5 / A_4 R_{AdS_5}$, but the specific value 27 in the denominator depends on the zero-mode structure of the bulk-brane Dirac operator, which requires a specific 2D CFT (e.g., $c=1$ free boson, $c=6$ free fermion, $c=26$ critical Polyakov) to compute.
+
+2. **Complete the 2D CFT Lagrangian** (Limitation 9, §2.3). The cascade's 2D universe needs a specific Lagrangian $L_{2D}$ (Liouville, Polyakov, or other) with specified central charge, target space, and boundary conditions. The Gaussian instanton in §4.44.1 Task 3 is a *phenomenological* stand-in; the full $L_{2D}$ would pin down the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$.
+
+3. **Compute the central charge $c$ in the emulator's proportionality coefficient** (Limitation 29, §4.45-§4.46). The 0.1 in the emulator is *understood* as the $c=1$ CFT value. A 2D expert could compute the *exact* proportionality for $c=6, c=26$, or other, and replace the calibrated 0.1 with a *derived* value.
+
+4. **Stabilize the AdS$_5$ bulk** (Limitation 1, §2.2). The Goldberger-Wise mechanism stabilizes the RS-II radion; a specific cascade implementation would need a *cascade-specific* stabilization that preserves the 5/27 ratio under cosmological evolution.
+
+5. **Generalize the 5/27 derivation to non-static bulks** (Limitation 17, §2.6.1). The current treatment assumes a static AdS$_5$ slice; cosmological evolution (rolling radion, time-dependent warp factor) would modify the 5/27 ratio. A specific calculation would track the ratio's evolution.
+
+**Reproducibility infrastructure.** All 34 limitations have explicit closure criteria in §7.0. The smooth F(z) refinement in §4.48.1 (now §4.48's primary framework as of v2.7.8) closes the v2.4 CMB gap (constant F_p = 0.7 was 30% off at z=1100; smooth Hill n=2 z_half=3 matches both anchors with gap < 1%). All 17 test categories have corresponding Python scripts in `calculations/`. The v2.4 tensor construction has 5 verification checks in `calculations/verify_tensor_pipeline.py`. The v2.4 refactor has 4 verification checks in `calculations/verify_v24_refactor.py`. A reviewer can re-run any test in <5 minutes on a standard scientific Python environment.
+
+**License and contribution terms.** The manuscript is released under CC-BY 4.0. The code is released under MIT. Contributions are welcome via pull request on GitHub. For substantial theoretical work (completing the Lagrangian, deriving the 5/27, etc.), the author is open to co-authorship on follow-up papers and is reachable through the GitHub repository's issue tracker.
+
+**Bottom line.** The framework is a *geometric design pattern* for the dark sector, with reproducible code, honest limitations, and a clear path forward. The next step is *not* more data — it is more theory. Theoretical physicists interested in the dimensional-cascade approach to the dark sector are invited to engage with this framework, complete its open formalisms, test its predictions, or definitively refute it. The framework's value is in *enabling* such engagement, not in being the final word.
+
+---
+

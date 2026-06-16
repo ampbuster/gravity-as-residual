@@ -1,4 +1,39 @@
 
+## v3.0.13 — Split paper.md into paper/markdown/ directory (June 2026)
+
+**User request:** "split the .md into multiple files based on section
+(create a markdown directory). then the build pdf sh should combine it"
+
+**Changes:**
+- Created `paper/markdown/` directory with 16 files split by section:
+  - 00_title.md (title, v3.0 highlight)
+  - 01_executive_summary.md (Abstract, What is the cascade, etc.)
+  - 02_glossary.md (§0 Parameter Glossary)
+  - 03_relations.md (§3 Relation to existing work)
+  - 04_predictions.md (§4 Predictions and distinguishing features)
+  - 05_falsification.md (§6 Falsification)
+  - 06_limitations.md (§7 Limitations and open questions, §7.1)
+  - 07_conclusion.md (§8 Conclusion)
+  - 08_competitors.md (§9 SIDC vs Competitors)
+  - 09_data_refs.md (Data and code availability, References)
+  - 10_end_universe.md (§10 Speculative Extension)
+  - 11_testable.md (§11 Testable Predictions)
+  - 12_galaxy_zoo.md (§12 Galaxy-Zoo Test Suite)
+  - 13_cmb_gap.md (§13 CMB Gap)
+  - 14_appendix.md (Appendix)
+  - 15_falsifiability_matrix.md (§14 Falsifiability Matrix)
+
+- Updated `build_pdf.sh`: if `paper/markdown/` exists, concatenates all
+  .md files (alphabetical order) and runs pandoc. Falls back to
+  paper.md if directory doesn't exist.
+- `paper.md` is now redundant but kept for git history
+- Build verified: 276 pages, matches v3.0.11
+
+**Edit workflow:** To edit a section, open the corresponding file
+(e.g., `paper/markdown/03_relations.md`). Re-run `./build_pdf.sh`
+to rebuild the PDF.
+
+
 ## v3.0.11 — Restore v3.0.8 LaTeX + keep legacy move + glossary updates (June 2026)
 
 **User feedback:** "go back to the original LaTeX first. we'll fix
