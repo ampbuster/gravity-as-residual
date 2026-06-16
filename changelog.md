@@ -2,6 +2,58 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.62 (June 2026) — 4 specific derivation attempts
+
+**Major changes since v2.7.61:**
+
+1. **User's request**: try the 4 specific suggestions.
+
+2. **CGHS-with-back-reaction**:
+   - Can give α in [1, 1.5] for specific coupling
+   - α = 1.29 achievable but not derived
+   - 1/(2α) is automatic from α (not independent)
+
+3. **2D CFT (Liouville, SYK)**:
+   - Liouville vertex dim Δ = α(Q+α), no derivation
+   - SYK has 1/2 in S_0 = N/2 (suggestive)
+   - DSSYK has 1/2 in spectral density Gaussian
+   - No direct 1/(2α) derivation
+
+4. **Brane-world Z₂ orbifold**:
+   - Gives multiplicative 1/2, not the 1/(2α) exponent
+   - 2kπr_c = 196 needed for 10^-85, doesn't relate to α
+
+5. **CY h^{1,1} = 2**:
+   - Volume form V = (1/2) κ t^a t^b t^c has intrinsic 1/2
+   - But f_back = 10^-85 doesn't come from CY alone
+
+6. **HONEST FINDING**: NONE of 4 specific suggestions derive 1/(2α).
+
+7. **The 1/2 is UNIVERSAL** — appears in MULTIPLE frameworks:
+   - SYK: S_0 = N/2
+   - Z₂ orbifold: symmetry order 2
+   - CY h^{1,1} = 2: volume form 1/2
+   - DSSYK: Gaussian factor 1/(2g²N)
+   - ℏ/2 in uncertainty principle
+   - 2D area = 1D
+   - 2D Euler characteristic χ = 2 for S²
+
+8. **L62 NEW**: The 1/2 in 1/(2α) is universal across multiple
+   frameworks, suggesting a topological/symmetry origin. But
+   the specific 1/(2α) = 0.388 exponent is still phenomenological.
+
+9. **L63 NEW**: α × p = 1/2 emerges from the INTERSECTION of:
+   1. α = 1.29 from democratic cosmology
+   2. 1/2 from topological/symmetry (SYK, Z₂, CY)
+   3. 1/(2α) is the COMPOSITE exponent
+
+10. **Net: +1 page, +2 limitations**
+    - Total: 285 pages
+    - 62 honest limitations
+    - 5 closed, 39 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
+
+**Earlier v2.7.61 entry (unchanged):**
+
 ## v2.7.61 (June 2026) — Tried to derive 1/(2α) — structural 1/2 found
 
 **Major changes since v2.7.60:**

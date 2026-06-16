@@ -1,0 +1,39 @@
+{
+  "description": "Try 4 specific suggestions for deriving 1/(2\u03b1)",
+  "target": 0.38759689922480617,
+  "alpha_cascade": 1.29,
+  "attempts": [
+    {
+      "name": "CGHS-with-back-reaction",
+      "result": "Can give \u03b1 in [1, 1.5] for specific coupling. \u03b1 = 1.29 achievable but not derived. 1/(2\u03b1) is automatic from \u03b1.",
+      "verdict": "No first-principles derivation"
+    },
+    {
+      "name": "2D CFT (Liouville, SYK)",
+      "result": "SYK has 1/2 in S_0 = N/2 (suggestive). DSSYK has 1/2 in spectral density Gaussian. Liouville vertex op dim \u0394 = \u03b1(Q+\u03b1) gives various \u0394 values but not 1/(2\u03b1).",
+      "verdict": "No direct derivation, but 1/2 has suggestive origins"
+    },
+    {
+      "name": "Brane-world Z\u2082 orbifold",
+      "result": "Z\u2082 gives multiplicative 1/2 (not exponent). 2k\u03c0r_c = 196 needed for 10^-85, but 196 doesn't relate cleanly to \u03b1.",
+      "verdict": "No derivation"
+    },
+    {
+      "name": "CY with h^{1,1} = 2",
+      "result": "Volume form V = (1/2) \u03ba t^a t^b t^c has intrinsic 1/2. But f_back = 10^-85 doesn't come from CY alone.",
+      "verdict": "No derivation, but 1/2 is intrinsic"
+    }
+  ],
+  "L62_NEW": "The 1/2 in 1/(2\u03b1) appears in multiple frameworks (SYK S_0 = N/2, Z\u2082 symmetry order 2, CY volume form 1/2), suggesting a universal topological/symmetry origin. But 1/(2\u03b1) = 0.388 is still phenomenological.",
+  "L63_NEW": "The \u03b1 \u00d7 p = 1/2 relation might emerge from the INTERSECTION of multiple cascade principles: \u03b1 from democratic cosmology, 1/2 from topological/symmetry. The 1/(2\u03b1) is then the COMPOSITE exponent.",
+  "final_honest": "NONE of the 4 specific suggestions derive 1/(2\u03b1) cleanly. The 1/2 has suggestive origins in multiple frameworks (SYK, Z\u2082, CY), but the specific 1/(2\u03b1) = 0.388 exponent is still a phenomenological fit.",
+  "updated_calibrated_postulates_v2_7_62": {
+    "F_p(0)": "0.9993 (L51 partial)",
+    "A_event": "1",
+    "epsilon": "1e-38",
+    "z_half": "3",
+    "f_back": "8.6e-86 (UNIVERSAL, scaling law) L52 CLOSED",
+    "alpha": "1.29 (calibrated from SN 33s) L37 OPEN",
+    "one_over_2alpha": "0.388 (phenomenological, structural 1/2 from multiple frameworks) L59 PARTIAL"
+  }
+}
