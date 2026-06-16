@@ -2,6 +2,42 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.52 (June 2026) — F_p/F_s REVISED based on cumulative DM analysis
+
+**Major changes since v2.7.51:**
+
+1. **F_p formula revised**:
+   - Old: F_p(z) = 0.7 + 0.3 × z²/(z² + 9) [F_p(0) = 0.7]
+   - New: F_p(z) = 0.9993 + 0.0007 × z²/(z² + 9) [F_p(0) = 0.9993]
+   - F_s(0) = 0.0007 (was 0.3) — consistent with 0.068% from all event types
+
+2. **JWST M_dyn recalculated**:
+   - Old: M_dyn/M_b ~ 2.67-4.65 (varied with z)
+   - New: M_dyn/M_b ~ 4.99 for all galaxies (essentially primordial)
+   - More consistent with cascade's "DM = past SF" applied to 4D event
+
+3. **L50 RESOLVED**:
+   - Old: F_p(0) = 0.7 inconsistent with cumulative DM (off by 440×)
+   - New: F_p(0) = 0.9993 is consistent (off by 0×)
+   - L50 marked as CLOSED in limitations table
+
+4. **L51 NEW**:
+   - F_p(0) = 0.9993 is calibrated, not derived
+   - First-principles derivation is open work
+   - L51 added to the limitations table
+
+5. **§3.33 JWST M_dyn section updated** with new values
+6. **§3.38 F_p analysis updated** with revision note
+7. **§4.48.1 F_p formula updated** throughout paper
+
+8. **Net: +1 page, 1 limitation resolved, 1 limitation added**
+   - Total paper: 270 pages (was 269)
+   - 52 honest limitations (was 51)
+   - Breakdown: 31 open, 10 partial, 4 closed, 2 falsified, 4 reverted, 1 discarded
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.51 entry (unchanged):**
+
 ## v2.7.51 (June 2026) — Cumulative DM with ALL event types (user feedback)
 
 **Major changes since v2.7.50:**

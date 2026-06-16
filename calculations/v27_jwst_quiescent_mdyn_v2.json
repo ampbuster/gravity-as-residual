@@ -1,0 +1,9 @@
+{
+  "description": "JWST M_dyn prediction with REVISED F_p (v2.7.52+)",
+  "method": "F_p(0) revised from 0.7 to 0.9993. M_dyn = F_p \u00d7 5\u00d7M_b + F_s \u00d7 f_back\u00d7E_SN/c^2.",
+  "new_F_p_formula": "F_p(z) = 0.9993 + 0.0007 \u00d7 z^2/(z^2 + 9)",
+  "F_p_0_new": 0.9993,
+  "F_s_0_new": 0.0007000000000000339,
+  "result_summary": "M_dyn/M_b ~ 4.99 for all JWST massive quiescents (was 2.67-4.65 with F_p=0.7). Almost all DM is primordial.",
+  "interpretation": "With F_p(0) = 0.9993, the cascade predicts M_dyn/M_b is essentially the primordial ratio (5\u00d7M_b), with a negligible cumulative contribution. This is more consistent with the cascade's \"DM = past SF\" rule applied at the 4D event (primordial SFH)."
+}
