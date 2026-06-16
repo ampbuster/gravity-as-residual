@@ -2,6 +2,54 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.36 (June 2026) — REMOVED AGC/KKR bifurcation claim
+
+**Major changes since v2.7.35:**
+
+1. **REMOVED the AGC 114905 vs KKR 25 bifurcation entirely**
+   - The cascade's "smoking gun" is GONE
+   - AGC 114905 and KKR 25 are now INDEPENDENT galaxy tests
+   - The bifurcation framing was based on:
+     1. 1000× error in KKR 25 M_b (§3.27)
+     2. 10-year data gap (§3.28)
+     3. Contested AGC 114905 DM content 2022-2025 (§3.29)
+
+2. **Sections updated**:
+   - §4.45: Rewrote as "AGC 114905 + KKR 25 individual galaxy tests"
+   - §4.46: Removed bifurcation framing in engineering implementation
+   - §11/§12: Updated galaxy-zoo test list
+   - §7.0 L29: Updated to reflect bifurcation removal
+   - Executive summary: Updated "0 unique testable predictions" line
+   - §3.13 explanation: Updated to remove bifurcation framing
+
+3. **What the cascade commits to (v2.7.36+)**:
+   - AGC 114905: M_dyn/M_b ~ 1.36 (consistent with Mancera Piña 2022)
+   - KKR 25: M_dyn/M_b ~ 1-4 (estimated, consistent with typical dSph)
+   - SFH-DM correlation is preserved (intermediate SF → DM)
+   - PAIRWISE COMPARISON (bifurcation) is REMOVED
+
+4. **What the cascade does NOT commit to (v2.7.36+)**:
+   - A specific M_dyn/M_b ratio between AGC 114905 and KKR 25
+   - A "bifurcation metric" or "smoking gun" claim
+   - A quantitative prediction of M_dyn/M_b from SFH alone
+   - A pairwise comparison between galaxies measured in different decades
+
+5. **What this means for the cascade's status**:
+   - 12/12 galaxy tests still pass (each tested independently)
+   - The cascade's "smoking gun" is no longer AGC/KKR
+   - The cascade's strongest evidence is now: RAR (16/17 test categories),
+     12 individual galaxies, 11 frameworks
+   - The cascade's weakest evidence is now: pairwise comparisons,
+     quantitative M_dyn/M_b predictions
+
+6. **Net: no new pages, 1 new version**
+   - Total paper: 258 pages (no change in length)
+   - Test counts UNCHANGED
+   - 43 honest limitations (no new L, L29 updated)
+   - 1 free parameter (z_half only)
+
+**Earlier v2.7.35 entry (unchanged):**
+
 ## v2.7.35 (June 2026) — §3.29 recent papers on AGC/KKR
 
 **Major changes since v2.7.34:**

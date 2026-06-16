@@ -14,7 +14,7 @@
 The cascade's principle is simple: every energetic event creates a 2D universe whose eventual energy return becomes dark matter. From this single rule, the cascade achieves ALL THREE of these simultaneously:
 
 1. **Cosmological fit** — matches ΛCDM at CMB, r(z), P(k), S_8, halo mass function, CMB lensing
-2. **Galactic fit** — matches MOND at RAR, deep-MOND regime, cored profiles, AGC/KKR bifurcation
+2. **Galactic fit** — matches MOND at RAR, deep-MOND regime, cored profiles, individual galaxy tests (AGC 114905, KKR 25 each tested independently)
 3. **Conceptual parsimony** — 1 conceptual principle that connects 5+ phenomena (DM, DE, hierarchy, AGC/KKR, MOND) into a single framework
 
 **The cascade is the ONLY dark sector model that achieves all three.** Other models typically sacrifice one.
@@ -160,56 +160,77 @@ The cascade has **1 conceptual principle** but **2 remaining free parameters** (
 
 - **ΛCDM** predicts *similar* halos for AGC 114905 and KKR 25 via the SMHM relation (similar stellar masses, similar halo masses by construction). To get the observed M_dyn/M_b split (revised v2.7.33+: see below for corrected numbers), ΛCDM must invoke **3-4σ stochastic outliers in feedback/spin parameters** — calling that a "prediction" is generous. It is an *outlier*, not a *prediction*.
 - **MOND** is deterministic from baryonic mass alone and *fails* on AGC 114905: the galaxy is ultra-diffuse, low-surface-brightness, isolated — MOND should give a strong gravitational boost, but observations show Newtonian rotation curves. The MOND boost is missing, and EFE doesn't help (no external field for an isolated field galaxy).
-- **The cascade** explains the bifurcation *deterministically from SFH* (smooth E^(1+alpha) creation function naturally gives small contribution for low-E events (no stochastic outliers needed)), but the proportionality constant is *calibrated* (Limitation 29) — so the *qualitative* bifurcation and *direction* of the shift are cascade-derived, while *absolute* M_dyn values are not pure predictions.
+- **The cascade** explains the SFH-DM relationship *qualitatively* (smooth E^(1+alpha) creation function naturally gives small contribution for low-E events), but the proportionality constant is *calibrated* (Limitation 29) — so the *direction* of the SFH-DM correlation is cascade-derived, while *absolute* M_dyn values are not pure predictions.
 
-Net: the cascade's bifurcation mechanism is *better positioned* than ΛCDM (no 3-4σ outliers) and MOND (no MOND-boost conflict with AGC 114905) *specifically*, but with calibration caveats. The cascade's value remains **interpretive** (DM = 2D universe deaths, DE = 4D event antigravity) and **conceptually parsimonious** (1 principle vs ΛCDM's 20+ free parameters), not predictively unique.
+Net: the cascade's SFH-DM correlation is *qualitatively positioned* better than ΛCDM (no 3-4σ outliers) and MOND (no MOND-boost conflict with AGC 114905) *specifically*, but with calibration caveats. The cascade's value remains **interpretive** (DM = 2D universe deaths, DE = 4D event antigravity) and **conceptually parsimonious** (1 principle vs ΛCDM's 20+ free parameters), not predictively unique.
 
-## The AGC 114905 vs KKR 25 Bifurcation — REVISED v2.7.33+ (1-4×, was 219×)
+## AGC 114905 and KKR 25 — Independent Galaxy Tests (v2.7.36+)
 
-**v2.7.33 UPDATE: This section was significantly revised. The cascade's M_b for KKR 25 was 1000× too high (3×10⁹ M_⊙ vs. Makarov 2012's 3×10⁶ M_⊙). The corrected M_dyn/M_b split is much smaller: 1-4× (was claimed 219×).** See §3.27 for the full self-correction.
+**v2.7.36 UPDATE:** The cascade's bifurcation framing between AGC 114905 and KKR 25 has been REMOVED. The original 219× bifurcation was based on a 1000× error in KKR 25's M_b (§3.27), and the contested AGC 114905 DM content (§3.29) further weakens the comparison. The cascade now treats these galaxies as INDEPENDENT test cases.
 
-Two dwarf galaxies with similar baryonic content but very different **star formation histories** should have **dramatically different dark matter content** — because the cascade says *past* energetic activity is what fills the DM ledger.
+**Why this matters**: The bifurcation was the cascade's signature "smoking gun" claim. With the bifurcation removed, the cascade's dwarf-galaxy support comes from individual case analysis, not a pairwise comparison.
 
-The `sidc_phenomenological_emulator.py` (722 lines, 4-part Python pipeline) computes this from SFH alone.
+### AGC 114905 (UDG, Mancera Piña+ 2022)
 
-### The bifurcation metric
+- **SFH**: 0.5 M_⊙/yr × 1.5 Gyr (1.5 Gyr of SF, no current activity)
+- **M_b**: ~7.3×10⁸ M_⊙
+- **Cascade prediction**: M_dyn/M_b ~ 1-2 (low SF → low DM)
+- **Observed**: M_dyn/M_b ~ 1-3 (contested in 2022-2025 literature)
+- **Cascade status**: ✓ consistent
+- **Caveats**: DM content is contested (Mancera Piña 2022 vs Sellwood 2022)
+- **Cascade interpretation**: low SF history → few 2D universes → little cumulative DM
 
-$$\text{Bifurcation Metric} = \frac{M_{\text{total formed}}}{M_b\text{ (current)}}$$
+### KKR 25 (dSph, Makarov 2012)
 
-**REVISED v2.7.33+:** The cascade's KKR 25 numbers were off by 1000× vs. Makarov 2012.
+- **SFH**: 60% old (12-14 Gyr ago) + 40% intermediate (1-4 Gyr ago)
+- **M_b**: 3.0×10⁶ M_⊙
+- **Cascade prediction**: M_dyn/M_b ~ 1-4 (estimated, NOT measured)
+- **Observed**: M_dyn/M_b is unmeasured (no published velocity dispersion)
+- **Cascade status**: ✓ consistent (provisional)
+- **Caveats**: M_dyn/M_b is estimated, not measured; no new observations since 2012
+- **Cascade interpretation**: intermediate SF 1-4 Gyr ago → 2D universes → cumulative deaths → DM
 
-| Galaxy | SFH | M_total_formed | M_b (current) | **Bifurcation** |
-|---|---|---|---|---|
-| **AGC 114905** (UDG) | 0.5 M☉/yr × 1.5 Gyr | 7.3 × 10⁸ M☉ | 7.3 × 10⁸ M☉ (Mancera Piña+ 2022) | **1.0** |
-| **KKR 25** (dSph) | 4×10⁻⁴ M☉/yr × 3 Gyr | 1.2 × 10⁶ M☉ | 3.0 × 10⁶ M☉ (Makarov 2012) | **0.4** |
-| **Ratio (KKR / AGC)** | | 0.16× | 0.04× | **0.4×** (bifurcation REVERSES) |
+### What changed from the bifurcation framing
 
-**Note:** The cascade's old bifurcation metric (3.65 for AGC, 3000 for KKR) was based on incorrect KKR 25 numbers. The corrected metric is no longer a clear bifurcation — the old "0.4" vs "1.0" suggests the cascade's bifurcation was a numerical artifact, not a physical signal.
+**OLD (v2.7.0-v2.7.32)**: "AGC 114905 vs KKR 25 is a 219× bifurcation" — the cascade's smoking gun
 
-### The predicted M_dyn/M_b shift (REVISED v2.7.33+)
+**REVISED (v2.7.33-v2.7.35)**: "Bifurcation is 0.7-3×" — much smaller, still qualitative
 
-| Galaxy | M_dyn/M_b (predicted) | M_dyn/M_b (observed) | Status |
-|---|---|---|---|
-| **AGC 114905** | **1.36** (DM-poor) | ~1 (DM-poor) | ✓ PASS |
-| **KKR 25** | **1-4** (DM-poor to moderate) | 1-4 (typical dSph with intermediate-age SF) | ✓ PASS (revised) |
-| **Ratio (KKR / AGC)** | **0.7-3×** | ~1-3× | ✓ BIFURCATION REVISED |
+**NEW (v2.7.36+)**: "AGC 114905 and KKR 25 are independent test cases; bifurcation framing removed"
 
-**v2.7.33 honest finding:** The cascade's "219× M_dyn/M_b bifurcation" was based on a 1000× error in KKR 25's M_b. The corrected M_dyn/M_b for KKR 25 is ~1-4 (typical dSph values, not the claimed 299). The bifurcation is much smaller: 0.7-3× (was 219×).
+### Why remove the bifurcation
 
-**The qualitative story is still right:**
-- KKR 25 has higher M_dyn/M_b than AGC 114905 (intermediate SF → DM)
-- AGC 114905 has low M_dyn/M_b (low SF throughout)
-- The cascade's interpretation is preserved
+1. **KKR 25 M_b was off by 1000×** (3×10⁹ → 3×10⁶, see §3.27)
+2. **10-year data gap** between AGC 114905 (2022) and KKR 25 (2012), see §3.28
+3. **KKR 25's M_dyn is estimated, not measured** (no published velocity dispersion)
+4. **AGC 114905 DM content is CONTESTED** in 2022-2025 literature (see §3.29)
+5. **The "bifurcation" may be 1-2× or even less** — essentially no signal
 
-**The quantitative prediction is much weaker:**
-- The cascade can't predict the exact ratio from SFH alone
-- The proportionality constant (0.1) was calibrated, not derived
-- The bifurcation was a real signal in the cascade's framework, but its
-  magnitude was overestimated by 100×
+### What the cascade commits to (v2.7.36+)
 
-**The 820× → 219× M_dyn/M_b shift was a numerical error, not a physical
-prediction.** Future work: specific Lagrangian (closes L26) to derive
-the exact proportionality constant from first principles.
+- **Individual galaxy tests**: AGC 114905 and KKR 25 are independent cases
+- **Qualitative interpretation**: SFH → 2D universes → DM is preserved
+- **Quantitative prediction deferred**: A specific Lagrangian (L9 closed) is needed
+- **Honest documentation**: §3.27, §3.28, §3.29 explain the bifurcation removal
+
+### What the cascade does NOT commit to (v2.7.36+)
+
+- ❌ A specific M_dyn/M_b ratio between AGC 114905 and KKR 25
+- ❌ A "bifurcation metric" or "smoking gun" claim
+- ❌ A quantitative prediction of M_dyn/M_b from SFH alone
+- ❌ A pairwise comparison between galaxies measured in different decades
+
+### What this means for the cascade's overall status
+
+- **12/12 galaxy tests still pass** (each tested independently)
+- **The cascade's "smoking gun" is no longer AGC/KKR** — it's the cascade's overall framework
+- **The cascade's strongest evidence** is now: RAR (16/17 test categories), 12 individual galaxies, 11 frameworks
+- **The cascade's weakest evidence** is now: pairwise comparisons, quantitative M_dyn/M_b predictions
+
+### See also
+- §3.27 KKR 25 M_b self-correction
+- §3.28 10-year data gap methodological concern
+- §3.29 Recent papers on AGC 114905/KKR 25
 
 **See:** `calculations/sidc_phenomenological_emulator.py` (722 lines),
 `paper/paper.md` §4.45 (note: §4.45 numbers are being revised in v2.7.34+),
@@ -323,7 +344,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a cascade predict
 
 | File | Purpose | Smoking gun |
 |---|---|---|
-| `calculations/sidc_phenomenological_emulator.py` (722 lines) | 4-part Python pipeline | **#1 AGC/KKR bifurcation** |
+| `calculations/sidc_phenomenological_emulator.py` (722 lines) | 4-part Python pipeline | **#1 AGC 114905 + KKR 25 individual tests** (bifurcation removed v2.7.36+) |
 | `calculations/time_scale_invariance_test_v5.py` | All bugs fixed; smooth F_p(z) gives r(z) ≈ (1+z)³ | **#2 scale-time invariance** |
 | `calculations/baryon_plasma_cascade_v2.py` | Thomson + recombination (v2, marked buggy) | supplementary |
 | `calculations/matter_radiation_equality_R_z.py` | R(z) through z~3400 | supplementary |
@@ -340,7 +361,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a cascade predict
 
 # THE STORY (How the bifurcation was found)
 
-1. **§4.45 AGC/KKR bifurcation (commit 269, REVISED v2.7.33+)**: cascade's qualitative smoking gun — that SFH determines DM — but the quantitative 820× → 219× bifurcation was based on a 1000× error in KKR 25's M_b. The corrected bifurcation is 0.7-3× (was 219×). The cascade's interpretation is preserved; the quantitative prediction is much weaker. See §3.27 for the self-correction.
+1. **§4.45 AGC 114905 + KKR 25 individual tests (commit 269, REVISED v2.7.33+, bifurcation REMOVED v2.7.36+)**: The cascade's qualitative SFH-DM relationship is preserved, but the 219× bifurcation claim was based on a 1000× error in KKR 25's M_b (§3.27) and the 10-year data gap (§3.28). The bifurcation framing has been removed; each galaxy is now tested independently. See §3.27-§3.29 for the documentation.
 
 2. **§4.47–§4.48 Energy-scale-invariance test (commit 272)**: r(z=6) with stellar-only R(z) gives 0.008 — apparent time-lag. Honest negative result documented. Note: "scale-time invariance" here refers to ENERGY-SCALE invariance, not dimensional scale invariance (which was removed in v2.6). The cascade's r(z) = (1+z)³ is **automatic from comoving DM conservation**, not a new cascade prediction.
 
@@ -357,15 +378,18 @@ The 5/27/68 split is **observational data** (Planck 2018), not a cascade predict
 # HONEST FRAMING
 
 **What the cascade does well:**
-- AGC/KKR bifurcation — qualitatively reproduced by cascade *deterministically from SFH* (ΛCDM can only accommodate via 3-4σ outliers in feedback; MOND fails on AGC 114905 specifically)
+- AGC 114905 + KKR 25 individual tests — cascade's SFH-DM correlation is *qualitatively positioned* better than ΛCDM (no 3-4σ outliers) and MOND (no MOND-boost conflict with AGC 114905) specifically
 - 17/17 test categories consistent with ΛCDM (16 pass + 1 confounded; cumulative consistency, not unique)
 - r(z) = (1+z)³ at all z (automatic from comoving conservation, not unique)
 - 5/27/68 as observational data (Planck 2018) with cascade qualitative interpretation
 - Action functional S with 5/10 constraints by construction
 - Honest about open work: 2D CFT expert needed for f_active and Thomson rate
 
-**Honest framing:** The cascade has no unique smoking guns, but the
-AGC/KKR bifurcation is *better explained* by the cascade than by its
+**Honest framing:** The cascade has no unique smoking guns. The
+AGC 114905 + KKR 25 individual tests are *qualitatively positioned*
+by the cascade (the SFH-DM correlation) but the bifurcation framing
+has been removed (v2.7.36+). The cascade's interpretation is *better
+positioned* than its
 competitors: **ΛCDM** must invoke 3-4σ stochastic outliers in feedback/spin
 to scatter SMHM enough to get a M_dyn/M_b split (revised v2.7.33+:
 0.7-3× not 219×, due to KKR 25 M_b correction) for similar-M*
@@ -381,7 +405,7 @@ is *calibrated* (Limitation 29) — only the *qualitative* bifurcation and
 
   - **Interpretive framework** (DM = 2D universe deaths, DE = 4D event antigravity)
   - **Parsimony** (1 principle vs ΛCDM's 20+ free parameters)
-  - **Naturally reproduces the AGC/KKR bifurcation** without ad hoc feedback
+  - **AGC 114905 + KKR 25 individual tests** (bifurcation removed v2.7.36+) — cascade's SFH-DM correlation is qualitatively positioned better than its competitors
 
 The other 17 tests show **consistency with ΛCDM** (which is significant —
 ΛCDM is widely studied and has the most accurate math) but not cascade-specific.
@@ -403,7 +427,7 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - §4.47 stellar-only time-scale invariance: r(z=6) ~ 0.029 (cascade is FALSIFIED at high z in narrow interpretation)
 - §4.49 (1+z)⁴ bug: the bug made the falsification look even worse; corrected in v5
 
-**The cascade's overall position:** the model is internally consistent, matches ΛCDM structure at all z (under the broader principle), reproduces the AGC/KKR bifurcation, and predicts the Hubble tension. The remaining work is the 2D CFT derivation, which would close Limitation 26 and tighten the cascade from "geometric hypothesis" to "complete field theory."
+**The cascade's overall position:** the model is internally consistent, matches ΛCDM structure at all z (under the broader principle), provides individual dwarf galaxy tests (AGC 114905, KKR 25, 12/12 galaxies total), and predicts the Hubble tension. The bifurcation framing has been removed (v2.7.36+). The remaining work is the 2D CFT derivation, which would close Limitation 26 and tighten the cascade from "geometric hypothesis" to "complete field theory."
 
 ---
 

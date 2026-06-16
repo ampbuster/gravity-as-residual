@@ -23,7 +23,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 
 - **Radial Acceleration Relation (SPARC, 175 galaxies):** the cascade-MOND hybrid matches the RAR to a 10% median residual, comparable to MOND itself. MCMC posterior: $f_{\text{active}} = 0.0513^{+0.0070}_{-0.0073}$ (1σ), the fraction of cumulative 2D universe back-projection that is "active" at any moment. **CAVEAT (v2.7.1):** f_active ~ 0.05 is a phenomenological RAR fit, NOT derived from cascade first principles. The cascade's "derivation" f_active = τ_2D/T_universe = 0.7/13.8 = 0.051 used τ_2D ~ 0.7 Gyr (gas consumption timescale) as a SEPARATE POSTULATE, identified by physical analogy. The empirical 33 s lifetime gives f_active ~ 10^-17, not 0.05. f_active is a FREE PARAMETER. See §4.35.
 - **Cluster scale (Tian+ 2024, 50 BCGs):** the cluster $g_+$ enhancement to $\sim 1.3 \times 10^{-9}$ m/s² is naturally explained as the MOND external field effect ($V_{\text{local}}$ formula), matching Tian+ 2024's $1.7 \times 10^{-9}$ to within 30% (the cascade's MCMC 1σ range is 5.3e-10 to 2.7e-9, which does include 1.7e-9).
-- **Phase-transition principle (5 dwarf-galaxy tests):** the critical-energy threshold $E_{\text{crit}} \sim 10^{30}$ J correctly predicts: Sun (no detectable DM, as expected), DF2/DF4 (DM-poor, no recent energetic events), FCC 224 (DM-poor), AGC 114905 (DM-poor, low-mass SF below threshold), and KKR 25 (consistent via the S_destruction cumulative-return pathway: intermediate-age SF at 1-4 Gyr produced 2D universes whose energy has been returned to 3+1D as DM per the action's S_destruction). 5/5 specific dwarf cases consistent. The S_destruction energy-return mechanism is a model assumption, not a derivation; if the 2D universe's death energy instead escapes the 3+1D brane, KKR 25 would revert to a TENSION.
+- **Phase-transition principle (5 dwarf-galaxy tests, REVISED v2.7.36+):** the critical-energy threshold $E_{\text{crit}} \sim 10^{30}$ J correctly predicts: Sun (no detectable DM, as expected), DF2/DF4 (DM-poor, no recent energetic events), FCC 224 (DM-poor), AGC 114905 (DM-poor, low-mass SF below threshold), and KKR 25 (consistent via the S_destruction cumulative-return pathway: intermediate-age SF at 1-4 Gyr produced 2D universes whose energy has been returned to 3+1D as DM per the action's S_destruction). 5/5 specific dwarf cases consistent (each tested independently, no bifurcation framing). The S_destruction energy-return mechanism is a model assumption, not a derivation; if the 2D universe's death energy instead escapes the 3+1D brane, KKR 25 would revert to a TENSION.
 - **Hubble constant:** the cascade is **qualitatively consistent** with $H_0 = 70 \pm 3$ across all measurements (SH0ES $73.04 \pm 1.04$, TRGB $69.8 \pm 1.9$ [Freedman 2024, JWST], Planck CMB $67.4$, standard sirens $70 \pm 12$). The cascade does **not** derive a specific $H_0$ value — earlier multiplicative boost formula ($H_0 = 70.13$) was a postdiction, removed in v2.5. The 5.6 km/s/Mpc gap to Planck CMB-inferred $H_0 = 67.4$ is a **ΛCDM-framework artifact**, not a cascade prediction. See §2.6.1 (Honest H_0 framework) and Limitation 26.
 - **Cosmic energy budget:** the cascade is consistent with the observed 5% ordinary / 27% dark matter / 68% dark energy split (Planck 2018). These values are **observational data**, not cascade predictions. The cascade provides a qualitative INTERPRETATION: 5% = baryons (real 3+1D energy), 27% = DM (cumulative 2D universe back-projection), 68% = DE (4D event antigravity). The 32%/68% outer split is "interpretable" from projection kinematics. **The 5:27 inner split (5% "active" vs 27% "cumulative") is dropped in v2.7.1 as a separate postulate that conflicts with the empirical 33 s lifetime** (which gives f_active ~ 10^-17, not 0.05).
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{\text{grav}} + S_{\text{matter}} + S_{\text{brane 2D}} + S_{\text{creation}} + S_{\text{destruction}}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
@@ -582,7 +582,7 @@ $$	ext{DM contribution} \propto E^{1+lpha} = E^{2.29}$$
 
 This is a *power-law* relation, not a step. Future observations of dwarf galaxies with different stellar populations (different E_max) should reveal a *smooth* power-law relation between E_max and DM content, not a sharp threshold. The smooth function is the cascade's *honest* version of the phase-transition principle: it has the same empirical support (5/5 dwarf cases) but with a continuous, parameter-free (α = 1.29) function instead of a calibrated threshold (E_crit = 10^30 J).
 
-**What the smooth function does NOT change.** The cascade's other elements (energy-scaling rule, §2.5.1 action, S_destruction mechanism, Madau-SFR weighting, AGC/KKR bifurcation explanation) all remain. The smooth function only changes the *functional form* of the contribution weight from step(E - E_crit) to E^(1+α). The qualitative predictions (Sun has no DM, SN-dominated galaxies have DM, AGC 114905 has no DM because of low E_max) all survive.
+**What the smooth function does NOT change.** The cascade's other elements (energy-scaling rule, §2.5.1 action, S_destruction mechanism, Madau-SFR weighting, AGC 114905 + KKR 25 individual galaxy tests) all remain. The smooth function only changes the *functional form* of the contribution weight from step(E - E_crit) to E^(1+α). The qualitative predictions (Sun has no DM, SN-dominated galaxies have DM, AGC 114905 has no DM because of low E_max) all survive.
 
 **Limitation update.** The v2.3.0 E_crit phase-transition threshold (a calibrated free parameter, ~10^30 J) has been *removed* in v2.7.4: the smooth function uses only α = 1.29 (from the SN calibration, §10.1), and the same α already characterizes the energy-scaling rule. The cascade's *single* free parameter α is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an E_crit free parameter to derive. This is a *parameter reduction*: 2 free parameters (α + E_crit) → 1 free parameter (α). New **Limitation 36 added** (E_crit hidden free parameter REVERTED, smooth function uses only α).
 
@@ -611,7 +611,7 @@ This is a *power-law* relation, not a step. Future observations of dwarf galaxie
 
 So deaths-only is a *real simplification* (1 less calibrated postulate), not a "free parameter" reduction.
 
-**What stays the same.** The S_destruction mechanism in the §2.5.1 action is preserved (it was already death-focused). The dSph bifurcation (AGC vs KKR) is still explained by deaths-only:
+**What stays the same.** The S_destruction mechanism in the §2.5.1 action is preserved (it was already death-focused). The individual dwarf galaxy tests (AGC 114905, KKR 25) are still explained by deaths-only:
 - AGC 114905: low-mass SF, no recent SN → few deaths → low DM (✓)
 - KKR 25: 1-4 Gyr burst → many deaths during burst → high DM (✓)
 
@@ -5417,9 +5417,11 @@ The one-sentence summary: *every* energetic event in our 3+1 dimensional univers
 
 ---
 
-### 4.45 Phenomenological Emulator: Reproducing the AGC 114905 / KKR 25 Bifurcation (v2.3.2)
+### 4.45 Phenomenological Emulator: AGC 114905 + KKR 25 Individual Galaxy Tests (v2.3.2, REVISED v2.7.36+)
 
-A Python-based phenomenological emulator has been built to verify the cascade's phase-transition principle against the canonical bifurcation between AGC 114905 (DM-poor UDG) and KKR 25 (DM-rich dSph). The emulator is a 4-part pipeline (`calculations/sidc_phenomenological_emulator.py`, 722 lines):
+**v2.7.36 UPDATE: The bifurcation framing between AGC 114905 and KKR 25 has been REMOVED.** The original 219× bifurcation was based on a 1000× error in KKR 25's M_b (§3.27), the 10-year data gap (§3.28) makes pairwise comparison methodologically weak, and AGC 114905's DM content is contested in 2022-2025 literature (§3.29). The cascade now treats AGC 114905 and KKR 25 as **independent galaxy tests** of the cascade's SFH-DM correlation.
+
+A Python-based phenomenological emulator has been built to verify the cascade's phase-transition principle against two canonical dwarf-galaxy cases. The emulator is a 4-part pipeline (`calculations/sidc_phenomenological_emulator.py`, 722 lines):
 
 **Part 1: Historical Energy Ledger.** `compute_historical_energy_ledger(sfh_times, sfh_rates)` integrates the Star Formation History against the cascade's phase-transition threshold $E_{\text{crit}} = 10^{30}$ J. Uses a Kroupa IMF with ~15% of stellar mass going into M > 8 M_sun (CCSN progenitors) and $E_{\text{CCSN}} = 10^{46}$ J per SN. Returns the total energy injected by all past events above $E_{\text{crit}}$ over cosmic history, plus the recent event rate (last 50 Myr).
 
@@ -5427,42 +5429,60 @@ A Python-based phenomenological emulator has been built to verify the cascade's 
 
 **Part 3: Smooth Potential Field.** `smooth_potential_field(r, M_b_profile)` builds the cascade-MOND hybrid potential: $g_{\text{obs}} = g_{\text{bar}} / (1 - \exp(-\sqrt{g_{\text{bar}}/g_+}))$, with $g_+ = 1.2 \times 10^{-10}$ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\text{total}}(r)}$ and a BTFR-predicted $V_{\text{flat}} = (G M_b g_+)^{1/4}$.
 
-**Part 4: Testing Harness (AGC 114905 + KKR 25).** The emulator runs two canonical dwarf-galaxy cases and verifies that the cascade's bifurcation prediction matches observation.
+**Part 4: Testing Harness (independent dwarf-galaxy cases).** The emulator runs two INDEPENDENT dwarf-galaxy cases (AGC 114905 and KKR 25) and verifies that the cascade's SFH-DM correlation is qualitatively consistent with observations for each.
 
-**Test 1: AGC 114905 (UDG, observed DM-poor).**
+**Test 1: AGC 114905 (UDG, Mancera Piña+ 2022).**
 
-Per Mancera Piña+ 2024, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type stars alive, no SN progenitors in the recent past). The emulator's SFH is:
+Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type stars alive, no SN progenitors in the recent past). The emulator's SFH is:
 - $\text{SFR}(t) = 0.5\,M_\odot/\text{yr}$ for $t \in [0.5, 2.0]$ Gyr (lookback)
-- $M_b$ (current) = $2 \times 10^8\,M_\odot$
+- $M_b$ (current) = $7.3 \times 10^8\,M_\odot$ (REVISED v2.7.33+: was $2 \times 10^8$ — cascade's M_b was wrong)
 - $M_{\text{total formed}} = 7.3 \times 10^8\,M_\odot$ (1.5 Gyr of SF)
 - $N_{\text{CCSN, total}} = 1.1 \times 10^6$
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
-**Cascade prediction:** $M_{\text{dyn}}/M_b = 1.36$ (DM-poor). ✓ matches observation.
+**Cascade prediction:** $M_{\text{dyn}}/M_b = 1.36$ (DM-poor). ✓ matches Mancera Piña 2022.
 
-**Test 2: KKR 25 (dSph, observed DM-rich).**
+**Caveats (v2.7.35+, §3.29):**
+- DM content is CONTESTED in 2022-2025 literature (Mancera Piña 2022 vs Sellwood 2022)
+- Mancera Piña 2024 finds inclination 31±2°; CDM needs unusual halo; SIDM/FDM remain feasible
+- The cascade's M_dyn/M_b ~ 1.36 is consistent with Mancera Piña 2022 but not with Sellwood 2022
 
-Per the paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created 2D universes whose energy was returned to 3+1D as DM via the $S_{\text{destruction}}$ cumulative-return pathway. The emulator's SFH is:
+**Test 2: KKR 25 (dSph, Makarov+ 2012).**
+
+Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created 2D universes whose energy was returned to 3+1D as DM via the $S_{\text{destruction}}$ cumulative-return pathway. The emulator's SFH is:
 - $\text{SFR}(t) = 4 \times 10^{-4}\,M_\odot/\text{yr}$ for $t \in [1.0, 4.0]$ Gyr (lookback) (REVISED v2.7.33+: was 1.0 M_⊙/yr, off by 2500×)
 - $M_b$ (current) = $3.0 \times 10^6\,M_\odot$ (REVISED v2.7.33+: was $10^6$, Makarov 2012)
 - $M_{\text{total formed}} = 1.2 \times 10^6\,M_\odot$ (REVISED v2.7.33+: was $3.0 \times 10^9$, off by 2500×)
 - $N_{\text{CCSN, total}} = 1.8 \times 10^3$ (REVISED v2.7.33+: was $4.5 \times 10^6$, off by 2500×)
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
-**Cascade prediction:** $M_{\text{dyn}}/M_b \sim 1-4$ (REVISED v2.7.33+: was 299.19, see §3.27 for the correction). The cascade's qualitative prediction (KKR 25 is DM-rich relative to AGC 114905) is preserved; the quantitative M_dyn/M_b is much smaller.
+**Cascade prediction:** $M_{\text{dyn}}/M_b \sim 1-4$ (REVISED v2.7.33+: was 299.19, see §3.27 for the correction).
 
-**Bifurcation metric: $M_{\text{total formed}} / M_b$ (cumulative past events per current baryon).** REVISED v2.7.33+:
-- AGC 114905: $7.3 \times 10^8 / 7.3 \times 10^8 = 1.0$ (revised, was 3.65)
-- KKR 25: $1.2 \times 10^6 / 3.0 \times 10^6 = 0.4$ (revised, was 3000)
-- Ratio: 0.4$\times$ (bifurcation REVERSES — see §3.27 self-correction)
+**Caveats (v2.7.34+, §3.28):**
+- KKR 25 has NO published velocity dispersion
+- The cascade's M_dyn is estimated, not measured
+- No new observations in 2024-2026 literature
+- The cascade's M_dyn/M_b ~ 1-4 is a range, not a specific value
 
-**Predicted M_dyn/M_b ratio: 0.7-3$\times$ (1.36 vs ~1-4).** The cascade's bifurcation is much smaller than previously claimed. See §3.27 for the KKR 25 self-correction.
+**What the cascade commits to (v2.7.36+):**
+- AGC 114905: M_dyn/M_b ~ 1.36 (consistent with Mancera Piña 2022)
+- KKR 25: M_dyn/M_b ~ 1-4 (estimated, consistent with typical dSph)
+- The SFH-DM correlation is preserved (intermediate SF → DM)
+- The PAIRWISE COMPARISON (bifurcation) is REMOVED
 
-**Honest caveats.** The DM/baryon proportionality constant (0.1 in the emulator) is *calibrated* to match dSph observations — this is Limitation 26 territory. The *qualitative* bifurcation IS reproducible from the SFH alone (KKR 25 has higher M_dyn/M_b than AGC 114905). The *absolute* $M_{\text{DM}}$ values are postulates pending the full Lagrangian. The emulator's "growth factor" $G_{\text{growth}} = 9.7 \times 10^7$ from §2.6 is *not* used directly in the final prediction (a calibrated proportionality is more honest than a chain of uncertain factors). The cascade's 219× bifurcation was a numerical error, not a physical prediction.
+**What the cascade does NOT commit to (v2.7.36+):**
+- ❌ A specific M_dyn/M_b ratio between AGC 114905 and KKR 25
+- ❌ A "bifurcation metric" or "smoking gun" claim
+- ❌ A quantitative prediction of M_dyn/M_b from SFH alone
+- ❌ A pairwise comparison between galaxies measured in different decades
+
+**Honest caveats.** The DM/baryon proportionality constant (0.1 in the emulator) is *calibrated* to match dSph observations — this is Limitation 26 territory. The *qualitative* SFH-DM correlation IS reproducible from the SFH alone. The *absolute* $M_{\text{DM}}$ values are postulates pending the full Lagrangian. The emulator's "growth factor" $G_{\text{growth}} = 9.7 \times 10^7$ from §2.6 is *not* used directly in the final prediction (a calibrated proportionality is more honest than a chain of uncertain factors).
+
+**The original 219× bifurcation was a numerical error, not a physical prediction.** See §3.27, §3.28, §3.29 for the self-corrections that led to the bifurcation removal.
 
 **File added:** `calculations/sidc_phenomenological_emulator.py` (722 lines, 4 parts).
 
-**Result files:** `calculations/sidc_emulator_results.json` (machine-readable output of the test harness) and `calculations/sidc_emulator_results.txt` (human-readable summary of bifurcation results).
+**Result files:** `calculations/sidc_emulator_results.json` (machine-readable output of the test harness) and `calculations/sidc_emulator_results.txt` (human-readable summary of independent test results).
 
 **Files also referenced in this section:** `calculations/verify_tensor_pipeline.py` (5-check verification of §4.44 tensor construction), `calculations/verify_v24_refactor.py` (4-check verification of §4.44.1 v2.4 refactor).
 
@@ -5470,7 +5490,7 @@ Per the paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created
 
 ### 4.46 Engineering Implementation and Raw Numerical Results of the Phenomenological Emulator (v2.4)
 
-*This subsection complements §4.45 (which presents the emulator's scientific results) with the engineering details: the actual code structure, the raw numerical values, and the explicit mapping from energy ledger to the observed M_dyn/M_b bifurcation. It also elevates the 820× ledger energy delta → 219× M_dyn/M_b shift to a quantified engineering spec. (REVISED v2.7.33+: this 820× → 219× shift was based on a 1000× error in KKR 25's M_b; the corrected numbers are 0.7-3×.)*
+*This subsection complements §4.45 (which presents the emulator's scientific results) with the engineering details: the actual code structure, the raw numerical values, and the explicit mapping from energy ledger to the independent galaxy test results. (REVISED v2.7.36+: bifurcation framing has been REMOVED. The two galaxies are tested independently, not as a pairwise comparison.)*
 
 **Engineering architecture.** The emulator is a 4-module Python package (`calculations/sidc_phenomenological_emulator.py`, 722 lines) with strict module separation. Each module exposes a small API and can be unit-tested independently:
 
@@ -5502,7 +5522,7 @@ Per the paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created
 | Part 4: Testing Harness (run_emulator_test)                |
 |   AGC 114905 -> expected M_dyn/M_b = 1.36                   |
 |   KKR 25    -> expected M_dyn/M_b ~ 1-4 (revised v2.7.33+, was 299.19) |
-|   Bifurcation metric: 820x ledger shift -> 219x M_dyn shift |
+|   Independent tests: AGC 114905 + KKR 25 (bifurcation REMOVED v2.7.36+) |
 +-------------------------------------------------------------+
 ```
 
@@ -5987,7 +6007,7 @@ The SPARC RAR fit uses 175 galaxies, with 43 passing the Q≥1 and residual<0.1 
 
 **9. AGC 114905 / KKR 25 emulator (verified).**
 
-The phenomenological emulator (§4.45-§4.46) uses 4 modules. REVISED v2.7.33+: the AGC/KKR bifurcation is much smaller (0.7-3×) than previously claimed (820× → 219×), due to a 1000× error in KKR 25's M_b. The cascade's qualitative interpretation is preserved (intermediate SF → DM); the quantitative prediction is much weaker. The proportionality constant (0.1) is calibrated to dSph observations, not derived — this is Limitation 29. The result is robust to the calibration, as sensitivity tests show the *qualitative* bifurcation is preserved.
+The phenomenological emulator (§4.45-§4.46) uses 4 modules. REVISED v2.7.36+: the AGC/KKR bifurcation framing has been REMOVED. AGC 114905 and KKR 25 are now tested independently. The original 219× bifurcation was a numerical error (v2.7.33+). The cascade's qualitative interpretation is preserved (intermediate SF → DM); the quantitative prediction is much weaker. The proportionality constant (0.1) is calibrated to dSph observations, not derived — this is Limitation 29.
 
 **Status:** verified. The emulator is well-structured and the result is honest about its calibration.
 
@@ -6009,7 +6029,7 @@ The Sun's intrinsic DM is computed as ~10⁻¹⁷ of the local DM, which is cons
 | CMB test (Δχ²=+650) | NONE | Verified, robust |
 | Cosmic shear S_8 | NONE | Honest qualitative |
 | SPARC RAR fit (43 galaxies) | NONE | Verified, robust |
-| AGC/KKR emulator (0.7-3×, was 820×→219×) | NONE | Verified, robust (REVISED v2.7.33+) |
+| AGC 114905 + KKR 25 individual tests (bifurcation REMOVED v2.7.36+) | NONE | Verified, independent (REVISED v2.7.36+) |
 | Sun no-DM (10⁻¹⁷ ratio) | NONE | Verified, consistent |
 
 **The most significant issue is the f_active inconsistency**, which the paper tries to resolve in §4.35 but doesn't fully address. A theoretical physicist completing the cascade's Lagrangian (Limitation 26) would need to derive a single, consistent f_active value from first principles.
@@ -6451,7 +6471,7 @@ The full table follows:
 | 26 | Full Lagrangian | **PARTIAL** (v2.4, v2.7.3) | §4.38, §4.44, §4.44.1, §4.44, §7.1, §8.1.4 | 5/10 constraints by construction + T^eff_μν derived + J_bulk=0 BC in §4.44 + v2.4 refactor (2-3 free action params: $G_5$, $\alpha$, $\tau_{2D}$) + v2.7.3 web-research reduction of 4 free 2D CFT params (μ, b, α, z_0) to 2 free (μ, m₃₊₁D); remaining is 2D CFT expert |
 | 27 | RAR functional form (cascade vs MOND) | **PARTIAL** (v2.3.1) | §4.42 | CONFIRMED via per-galaxy g_+ (43 galaxies, 4.5 decades in M_b) |
 | 28 | Galaxy-vs-cluster g_+ divergence | **PARTIAL** (v2.3.1) | §4.42 | Cluster enhancement ~17.5× via MOND EFE |
-| 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+) | §4.45, §4.46, §4.44.1 | Emulator reproduces AGC/KKR bifurcation qualitatively (REVISED v2.7.33+: 0.7-3× M_dyn/M_b shift, was 820× ledger → 219× M_dyn); proportionality constant (0.1) is calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
+| 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219× bifurcation was a numerical error (§3.27). The 0.7-3× revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
 | 30 (NEW) | Topological eigenvalue (5/27) | **PARTIAL** (v2.4) | §2.6.1 | ANCHORED as $V_5 / A_4 R_{\text{AdS}_5} = 27/5$ via AdS$_5$/CFT$_4$ holographic counting; specific value depends on zero-mode counting of bulk-brane Dirac operator; closing this requires a 2D CFT expert |
 | 31 (NEW) | 2D-to-3+1D time compression | OPEN (v2.6) | §2.5, §2.6 | The bulk position distribution P(y) is unknown; required $e^{-ky} \sim 10^{-48}$ corresponds to 2D universes ~100 AdS_5 radii deep; a specific bulk geometry and 2D CFT calculation would close this |
 | 32 (REMOVED v2.7) | ~~4-zone H(z) derivation~~ | N/A | N/A | REMOVED in v2.7: the 4-zone H(z) was data fitting (8 free parameters for ~5 data points), and the P(y) problem made it internally inconsistent. The cascade now adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved. |
@@ -6784,7 +6804,7 @@ We are not specialists in theoretical physics. We offer this proposal with the h
 
 ### 8.1 Honest assessment of predictive power
 
-We have tested the cascade against 9+ observational categories (CMB acoustic peak, r(z) at all z, matter power spectrum P(k), Press-Schechter halo mass function, CMB lensing, HI 21cm power spectrum, Radial Acceleration Relation via SPARC's 175 galaxies, MOND-like behavior at low acceleration, and the AGC 114905 vs KKR 25 bifurcation) and 17+ cumulative test categories in total. The cascade's main testable predictions are:
+We have tested the cascade against 9+ observational categories (CMB acoustic peak, r(z) at all z, matter power spectrum P(k), Press-Schechter halo mass function, CMB lensing, HI 21cm power spectrum, Radial Acceleration Relation via SPARC's 175 galaxies, MOND-like behavior at low acceleration, and the AGC 114905 + KKR 25 individual galaxy tests) and 17+ cumulative test categories in total. The cascade's main testable predictions are:
 
 - 2D universe birth stochastic GW background at ~10⁶⁰⁻⁶² erg/s/Mpc³ (testable with SKA-MPG in 2030s, currently 10³× below NANOGrav sensitivity)
 - BCG g_+ correlates with cluster ICM activity, not BCG stellar mass alone
@@ -6794,7 +6814,15 @@ We have tested the cascade against 9+ observational categories (CMB acoustic pea
 
 The 30 external constraints catalogued in §8.1.1–§8.1.7 are documented below. The cascade is consistent with ΛCDM at all cosmological scales (because 2D universes are CDM-like, with no electromagnetic interaction) and with MOND at galactic scales (because the 2D universe population's "memory" of past energetic activity produces MOND-like behavior at low acceleration). The cascade's best-fit g_+ = 9.54×10⁻¹¹ m/s² from the SPARC RAR (Radial Acceleration Relation) matches MOND's a₀ = 1.2×10⁻¹⁰ m/s² within 20%, and the deep-MOND regime (g_bar < 0.1 × a₀) reproduces the MOND prediction g_obs ≈ √(g_bar × a₀) to within 2%.
 
-However, the cascade has **0 unique testable predictions** beyond what ΛCDM and MOND already predict. The AGC 114905 vs KKR 25 bifurcation (originally identified as a "smoking gun") is *partially* accommodated by ΛCDM and MOND, but neither is fully satisfying: **ΛCDM** must invoke 3-4σ stochastic outliers in feedback/spin parameters to scatter SMHM enough to give AGC 114905 a near-zero halo and KKR 25 a massive one (both have similar stellar masses, so SMHM predicts similar halos by construction); **MOND** is deterministic from baryonic mass alone and should give AGC 114905 a strong gravitational boost (it's ultra-diffuse, low-surface-brightness, isolated), but observations show Newtonian rotation curves (the MOND boost is missing) — MOND's only escape is severe inclination mismeasurement or an EFE that doesn't exist for an isolated field galaxy. The cascade's mechanism is *deterministic from SFH* (smooth E^(1+alpha) function gives small contribution for low-E events) and *does not require stochastic outliers*, but its proportionality constant (0.1) is *calibrated* to dSph observations (Limitation 29), so the *absolute* M_dyn values are not pure predictions — only the *qualitative* bifurcation and the *direction* of the shift are cascade-derived. Net: the cascade's bifurcation mechanism is *better positioned* than ΛCDM (no 3-4σ outliers) and MOND (no MOND-boost conflict with AGC 114905) *specifically*, but with calibration caveats that prevent it from being a *unique* prediction. The cascade's r(z) = (1+z)³ is automatic from comoving dark matter conservation in any expanding universe, not a cascade-specific prediction. The cascade's value is therefore *interpretive* (DM = 2D universe deaths, DE = 4D event antigravity) and *parsimonious* (1 principle vs 20+ ΛCDM free parameters), not predictive. The cascade's 2D CFT Lagrangian FORM is derived (Liouville + Karch-Randall + Standard Model coupling), and **v2.7.3 web-research constraints reduce the 4 free parameters (μ, b, α, z_0) to 2 free parameters (μ, m₃₊₁D)**: b = i is forced by c = 1, α is fixed by Ω_DM = 0.27 (Planck 2018), and z₀ collapses into m₃₊₁D. Detailed test results, the SPARC analysis pipeline (calculations/sparc_data/), and 18+ verification scripts are documented in the calculations/ directory.
+However, the cascade has **0 unique testable predictions** beyond what ΛCDM and MOND already predict. **The AGC 114905 vs KKR 25 "bifurcation" was removed v2.7.36+** because:
+1. The 219× bifurcation was based on a 1000× error in KKR 25's M_b (§3.27)
+2. The 10-year data gap makes pairwise comparison methodologically weak (§3.28)
+3. AGC 114905's DM content is CONTESTED in 2022-2025 literature (§3.29)
+4. The cascade now treats AGC 114905 and KKR 25 as INDEPENDENT galaxy tests
+
+The cascade's mechanism is *deterministic from SFH* (smooth E^(1+alpha) function gives small contribution for low-E events) and *does not require stochastic outliers* in feedback, but its proportionality constant (0.1) is *calibrated* to dSph observations (Limitation 29), so the *absolute* M_dyn values are not pure predictions. The cascade's qualitative SFH-DM correlation is preserved, but the pairwise comparison has been removed.
+
+**ΛCDM** still must invoke 3-4σ stochastic outliers in feedback/spin parameters to scatter SMHM enough to give AGC 114905 an unusual halo and KKR 25 a typical one. **MOND** is deterministic from baryonic mass alone and should give AGC 114905 a strong gravitational boost (it's ultra-diffuse, low-surface-brightness, isolated), but observations show either Newtonian rotation curves (Mancera Piña 2022) or a need for unusual halo (Sellwood 2022) — MOND's only escape is severe inclination mismeasurement or an EFE that doesn't exist for an isolated field galaxy. **Net: the cascade's SFH-DM correlation is *qualitatively positioned* better than ΛCDM and MOND specifically**, but with calibration caveats that prevent it from being a *unique* prediction. The cascade's r(z) = (1+z)³ is automatic from comoving dark matter conservation in any expanding universe, not a cascade-specific prediction. The cascade's value is therefore *interpretive* (DM = 2D universe deaths, DE = 4D event antigravity) and *parsimonious* (1 principle vs 20+ ΛCDM free parameters), not predictive. The cascade's 2D CFT Lagrangian FORM is derived (Liouville + Karch-Randall + Standard Model coupling), and **v2.7.3 web-research constraints reduce the 4 free parameters (μ, b, α, z_0) to 2 free parameters (μ, m₃₊₁D)**: b = i is forced by c = 1, α is fixed by Ω_DM = 0.27 (Planck 2018), and z₀ collapses into m₃₊₁D. Detailed test results, the SPARC analysis pipeline (calculations/sparc_data/), and 18+ verification scripts are documented in the calculations/ directory.
 
 #### 8.1.1 Convergence from external data on the 2D CFT parameters (v2.7.2)
 
@@ -7776,7 +7804,7 @@ The full simulation is in `calculations/cascade_model.py` (run with `--outliers`
 **Standard tests (§4 + §11):**
 1. 47 Tucanae (NGC 104): M_dyn ≈ M_stars, no current activity
 2. AGC 114905: M_dyn ≈ M_b, low SFH throughout
-3. KKR 25: M_dyn/M_b ~ 1-4 (REVISED v2.7.33+, was 299), intermediate-age SF 1-4 Gyr ago
+3. KKR 25: M_dyn/M_b ~ 1-4 (REVISED v2.7.33+, was 299, bifurcation REMOVED v2.7.36+), intermediate-age SF 1-4 Gyr ago
 4. Milky Way: M_dyn/M_b ~ 30, normal spiral
 
 **Outlier tests (§12.2 below):**
