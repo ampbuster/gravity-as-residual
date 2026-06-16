@@ -2783,6 +2783,7 @@ w(z) = -1.000 (constant) for all z.
 - w_a =  0.000 ± 0.005 (no evolution)
 
 **Comparison**:
+
 | Model | w_0 | w_a |
 |-------|-----|-----|
 | ΛCDM | -1.000 ± 0.020 | 0.000 ± 0.10 |
@@ -2819,6 +2820,7 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz-μHz band.
 **Energy scaling rule**: τ_2D = (E/E_Pl,3)^1.29 × t_Pl,3
 
 **Frequencies for different events**:
+
 | Event | E (J) | τ_2D (s) | f_2D (Hz) | Detector |
 |-------|-------|----------|-----------|----------|
 | Core-collapse SN | 10^44 | 33 | 0.03 | LISA |
@@ -3516,6 +3518,7 @@ Where:
 - **Match: 0.065 orders of magnitude off!**
 
 **Sensitivity to α**:
+
 | α | 1/(2α) | f_back | Off from 10^-85 |
 |---|--------|--------|-----------------|
 | 1.27 | 0.394 | 1.23e-85 | 0.09 orders |
