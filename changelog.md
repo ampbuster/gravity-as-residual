@@ -2,6 +2,51 @@
 
 This document contains the cascade's full version history.
 
+## v3.0.3 (June 2026) — Paper cleanup pass
+
+**Major changes since v3.0.2:**
+
+1. **User's request**: Cleanup paper, avoid double-mentions/
+   inconsistencies/irrelevant stuff, keep clean, assert main points,
+   fix 'Unable to render expression' errors.
+
+2. **Fixed 362 missing character errors**:
+   - 184 '✓' (check mark) → '**[PASS]**'
+   - 82 '✗' (cross mark) → '**[FAIL]**'
+   - 30 '★' (star) → '*'
+   - 40 '☉' (sun) → 'o'
+   - 4 '❌' (red x) → '**[X]**'
+   - 15 'ℓ' (script l) → 'l'
+   - 3 'ℒ' (script L) → 'L'
+   - 2 '⚠' (warning) → '[!]'
+   - 2 '≫' (much greater than) → '>>'
+   - All ✓/✗ symbols were appearing as 'Unable to render' in the PDF
+
+3. **Fixed 2 unbalanced $ signs** (lines 8497-8498 in commands)
+
+4. **Added "Main Points (TL;DR)" section at the top of the paper**:
+   - What is the cascade?
+   - What does v3.0 actually derive?
+   - What does the cascade predict (and what doesn't)?
+   - What is the cascade's "secret symmetry"?
+   - The cascade's honest stance
+   - These 5 main points are now the FIRST thing the reader sees
+
+5. **Consolidated §3.48-§3.59 (v2.7.59-67 research)**:
+   - 11 pages of v2.7.60-67 research path (30,664 chars)
+   - → 1 single "Research path to v3.0" summary (2,643 chars)
+   - Preserved key insights (scaling law, 1/2 origin, N=12 discovery)
+   - Removed redundant detail (full derivations, intermediate findings)
+   - Net: -11 pages, cleaner narrative
+
+6. **Counts (v3.0.3)**:
+   - 289 pages (was 300, -11)
+   - 85 honest limitations preserved
+   - 0 missing characters in PDF (was 362)
+   - 0 unbalanced $ signs (was 2)
+
+**Earlier v3.0.2 entry (unchanged):**
+
 ## v3.0.2 (June 2026) — SIDC naming restored, dimensional scale invariance
 
 **Major changes since v3.0.1:**
