@@ -1,4 +1,28 @@
 
+## v3.0.11 — Restore v3.0.8 LaTeX + keep legacy move + glossary updates (June 2026)
+
+**User feedback:** "go back to the original LaTeX first. we'll fix
+the .md later."
+
+After multiple iterations trying to fix the mobile markdown rendering
+issue with standalone `$f_{back}$` and `$\epsilon$` patterns, the
+cleanest approach is to restore the original v3.0.8 LaTeX verbatim
+and address the .md rendering issue separately later.
+
+**This commit:**
+- Restored v3.0.8 paper.md (288 → 276 pages after legacy move)
+- Kept legacy text moved to legacy_paper.md (§3.38, §3.39, §4.48,
+  "Recent Additions...")
+- Kept §0 Parameter Glossary updates (F_p(z) = 0.9993, A_event = 1)
+- All `$f_{back}$`, `$\epsilon$`, `$\lambda_{th}$` are LaTeX
+  (not unicode) — same as v3.0.8
+
+**Known issue (deferred):** The mobile markdown viewer fails on
+specific standalone math expressions like `$f_{back}$` and
+`$\epsilon$` in certain positions. Workaround deferred to a future
+.md cleanup pass.
+
+
 ## v3.0.9 — Legacy text cleanup (June 2026)
 
 User: "maybe only keep current text in the paper. move legacy text to

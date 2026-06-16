@@ -1,4 +1,4 @@
-# Legacy paper content — historical narrative (moved from paper.md v3.0.8+)
+# Legacy paper content — historical narrative (moved from paper.md v3.0.9+)
 
 This file contains historical narrative sections that were moved
 from the main `paper/paper.md` to keep the main paper clean with
@@ -8,8 +8,6 @@ The git history (git log) also preserves all historical changes.
 
 **Original paper.md version: v3.0.8**
 **Move date: June 2026**
-
----
 
 
 
@@ -160,7 +158,60 @@ See `calculations/v27_all_events_dm.py` for the full 14-event analysis.
 
 ---
 
+### 3.39 Lessons learned from F_p revision (v2.7.52, meta)
 
+The F_p(0) revision in v2.7.52 (from 0.7 to 0.9993) was triggered by
+a user observational question ("has DE changed since the beginning?")
+which led to checking the cascade's math at z=0.
+
+**The cascade's self-correction process**:
+1. v2.7.5 introduced F_p(z) = 0.7 + 0.3 × z²/(z²+9) to match Planck
+   2018's Ω_DM = 0.265 at z=1100.
+2. v2.7.49 (user feedback): checked F_p at z=0, found a 10^90
+   inconsistency.
+3. v2.7.50 (user correction): I had used the wrong F_p formula.
+   Actual F_p(0) = 0.7, not 0. The 10^90 was over-stated.
+4. v2.7.51 (user feedback): checked only SNe, not all event types.
+   Including all 14+ types reduced the inconsistency to 440×.
+5. v2.7.52 (user direction): revised F_p(0) to 0.9993 to be
+   consistent with cumulative DM from all event types.
+6. v2.7.53: closed L50 (RESOLVED), added L51 (F_p(0) calibrated).
+
+**Meta-lessons**:
+1. **User questions are valuable**: a simple observational question
+   caught a real internal inconsistency.
+2. **Calibrations should be checked at multiple z**: the F_p(z)
+   function was calibrated at z=1100 but failed at z=0.
+3. **Ad hoc parameters need first-principles support**: F_p(0) = 0.7
+   was calibrated to UV LF data, but the math says it should be
+   closer to 1.0.
+4. **Cumulative DM from all event types matters**: 14+ event types
+   are needed to get the cumulative contribution.
+5. **Honest framing helps**: documenting the inconsistency (L50)
+   forced the revision.
+
+**Implication for the cascade's other calibrations**:
+- α = 1.29 (calibrated to SN 33s): should be checked at multiple
+  event energies (BNS, AGN, etc.). See §3.43.
+- F_p(0) = 0.9993 (calibrated to cumulative DM): should be
+  derivable from the 4D event's energy. See §3.40.
+- z_half = 3 (smooth F_p transition): should be derivable from
+  the 4D event's dynamics. Currently L37.
+- Other calibrated postulates (f_back, ε, A_event): need similar
+  multi-scale checks.
+
+**The cascade's overall state (v2.7.53)**:
+- 81 honest limitations
+- 5 closed, 62 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
+- 16/17 test categories
+- 7/7 specific cases
+- 36/36 galaxy tests pass
+- 11 framework connections
+- F_p(0) = 0.9993 (revised, L50 resolved)
+- α = 1.29 (calibrated, L37 open)
+- 1 free parameter (z_half only)
+
+---
 
 ---
 
@@ -222,20 +273,10 @@ which led to checking the cascade's math at z=0.
 
 ---
 
-
-
 ---
 
 
----
-
-## §4.48 Smooth F(z) DM Design (v2.7.8+, historical) — moved from paper.md
-
-This section was the main F_p(z) historical design section. The
-CURRENT values are: F_p(0) = 0.9993, F_s(0) = 0.0007, F_p(z) =
-0.9993 + 0.0007 × z²/(z²+9). See the main paper for current text.
-
-### Legacy content:
+## §4.48 Smooth F(z) DM Design (v2.7.8+, historical)
 
 ### 4.48 Smooth F(z) DM Design (v2.7.8+, supersedes the v2.4-v2.7.7 "Two-Component" picture)
 
@@ -517,17 +558,10 @@ If any of these are NOT observed (i.e., high-z structure is consistent with ΛCD
 
 ---
 
-
-
-
 ---
 
-## Recent Additions, Removals, and Discards (v2.7.12-v2.7.29) — moved from paper.md
 
-This section listed all additions, removals, and discards through
-v2.7.29. The CHANGELOG.md has the same information in a more
-structured format, and the git history preserves all version-by-version
-changes.
+## Recent Additions, Removals, and Discards (v2.7.12-v2.7.29)
 
 ### Recent Additions, Removals, and Discards (v2.7.12-v2.7.29)
 
@@ -592,4 +626,4 @@ The proposal is not a fully developed theory. It is a thought experiment intende
 
 ## 2. The Proposal
 
-
+---
