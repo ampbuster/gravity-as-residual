@@ -2,6 +2,44 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.51 (June 2026) — Cumulative DM with ALL event types (user feedback)
+
+**Major changes since v2.7.50:**
+
+1. **User asked: "why only supernovas?"**
+   - The cascade says ANY energetic event creates a 2D universe
+   - All event types should contribute to cumulative DM
+   - I was being narrow (only SNe in v2.7.50 analysis)
+
+2. **Recomputed cumulative DM with 14+ event types**:
+   - Core-collapse SN, Type Ia SN, BNS, NS-BH, LGRB, SGRB
+   - AGN luminous + weak, TDE, stellar-mass BH, supermassive BH
+   - Eta Car eruptions, pair instability SN, magnetar giant flares
+   - Result: total cumulative DM = 8.6×10^18 M_☉
+
+3. **KEY FINDING: Supermassive BH mergers DOMINATE (90% of cumulative)**
+   - 10 SMBH mergers/yr × 10^55 J each = 7.7×10^18 M_☉
+   - More than all other event types combined
+   - This is a NEW cascade claim
+
+4. **Updated inconsistency**:
+   - With all events: 0.07% of observed (not 0.0001% from SNe only)
+   - Off by factor: 440× (not 10^6)
+   - Closer to F_s(0) = 0.3 but still inconsistent
+
+5. **L50 REVISED (v2.7.51)**:
+   - F_s(0) should be ~0.001 to 0.01 (0.1%-1% cumulative)
+   - F_p(0) should be ~0.99 to 0.999 (almost all primordial)
+   - 70/30 split is wrong; ~99/1 to 99.9/0.1 is more accurate
+
+6. **Net: 0 new pages, 1 major correction, 1 new finding**
+   - Total paper: 269 pages (no change)
+   - 51 honest limitations (L50 revised twice)
+   - 1 free parameter
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.50 entry (unchanged):**
+
 ## v2.7.50 (June 2026) — CORRECTED F_p(z) analysis with user feedback
 
 **Major changes since v2.7.49:**

@@ -4039,7 +4039,7 @@ and the testable F_p(z) DM evolution.
 
 ---
 
-### 3.38 F_p(z) analysis — corrected (v2.7.50)
+### 3.38 F_p(z) analysis — corrected (v2.7.50, REVISED v2.7.51)
 
 **Background (v2.7.49)**: User asked "has DE changed since the
 beginning of the universe?" This led to a deeper analysis of the
@@ -4129,6 +4129,55 @@ mechanism produces the 30% cumulative component (the 0.3 × 0.265 =
 the cascade's F_p(z) model is internally inconsistent.
 
 See `calculations/v27_fp_z_v2.py` for the corrected analysis.
+
+**v2.7.51 update (user feedback)**: User asked "why only supernovas?"
+The cascade says ANY energetic event creates a 2D universe, so all
+event types should be included in the cumulative DM calculation.
+
+**REVISED cumulative DM with ALL energetic event types**:
+
+The cascade's full event catalog includes 14+ event types
+(CCSN, Type Ia, BNS, NS-BH, LGRB, SGRB, AGN luminous/weak, TDE,
+stellar-mass BH, supermassive BH, eta Car, pair instability SN,
+magnetar giant flares, etc.).
+
+**Result with all event types**:
+- Total cumulative DM: 8.6×10^18 M_☉
+- Total observed DM: 1.26×10^22 M_☉
+- **Ratio: 6.8×10^-4 (0.07%)**
+- F_s(0) = 0.3 requires 30% = 3.78×10^21 M_☉
+- **Off by factor: 440× (NOT 10^6)**
+
+**Key finding**: **Supermassive black hole mergers dominate
+(90% of cumulative DM)**. They contribute 7.7×10^18 M_☉, more than
+all other event types combined. This is a NEW cascade claim
+that wasn't in the original analysis.
+
+**Updated limitations**:
+- **L50 (REVISED v2.7.51)**: F_p(0) = 0.7 (70% primordial) implies
+  F_s(0) = 0.3 (30% cumulative). With ALL energetic event types
+  (14+ categories), cumulative DM is 0.07% of observed, NOT 30%.
+  Off by 440× (down from 10^6 when only SNe were considered).
+  The cascade should either:
+  (a) Revise F_p(0) to ~0.999 (consistent with all event types),
+  (b) Include additional sources (phase transitions, primordial
+      BH evaporation, inflation-era 2D deaths),
+  (c) Revise F_s(0) to ~0.001 to match all-event-type calculation.
+
+**Honest finding**: The cascade's F_s(0) = 0.3 was over-stated.
+A more realistic F_s(0) from all event types is ~0.001 to 0.01
+(0.1% to 1% cumulative). This means F_p(0) should be ~0.99 to 0.999
+(almost all DM is primordial), with SMBH mergers as the dominant
+cumulative contributor.
+
+**Implications for the cascade**:
+- The cascade's qualitative picture is unchanged (most DM is primordial)
+- The specific 70/30 split is wrong (should be ~99/1 or 99.9/0.1)
+- SMBH mergers are an important new DM source (90% of cumulative)
+- The cascade should revise F_p(0) for consistency
+
+See `calculations/v27_all_events_dm.py` for the full 14-event analysis.
+
 
 
 ---

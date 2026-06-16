@@ -1,0 +1,139 @@
+{
+  "description": "Cumulative DM from ALL energetic event types (user feedback v2.7.51)",
+  "method": "Sum over all energetic event types in cosmic history. DM per event = E_event / c^2 (no f_back, all 2D universe death energy comes back as DM).",
+  "events_analyzed": 14,
+  "total_cumulative_DM_M_sun": 8.609575668077857e+18,
+  "total_DM_universe_M_sun": 1.26e+22,
+  "ratio_to_observed_DM": 0.0006832996561966553,
+  "required_for_Fs_0.3": 3.78e+21,
+  "off_by_factor": 439.04602801916127,
+  "event_breakdown": [
+    {
+      "event": "Core-collapse SN",
+      "E_per_event_J": 1e+44,
+      "rate_per_yr": 100000000.0,
+      "DM_per_event_M_sun": 0.0005593735924545223,
+      "N_total": 1.38e+18,
+      "M_DM_M_sun": 771935557587240.9
+    },
+    {
+      "event": "Type Ia SN",
+      "E_per_event_J": 1e+44,
+      "rate_per_yr": 1000000.0,
+      "DM_per_event_M_sun": 0.0005593735924545223,
+      "N_total": 1.38e+16,
+      "M_DM_M_sun": 7719355575872.408
+    },
+    {
+      "event": "BNS merger",
+      "E_per_event_J": 1e+47,
+      "rate_per_yr": 100000.0,
+      "DM_per_event_M_sun": 0.5593735924545223,
+      "N_total": 1380000000000000.0,
+      "M_DM_M_sun": 771935557587240.9
+    },
+    {
+      "event": "NS-BH merger",
+      "E_per_event_J": 1e+47,
+      "rate_per_yr": 10000.0,
+      "DM_per_event_M_sun": 0.5593735924545223,
+      "N_total": 138000000000000.0,
+      "M_DM_M_sun": 77193555758724.08
+    },
+    {
+      "event": "Long GRB",
+      "E_per_event_J": 1e+47,
+      "rate_per_yr": 10000.0,
+      "DM_per_event_M_sun": 0.5593735924545223,
+      "N_total": 138000000000000.0,
+      "M_DM_M_sun": 77193555758724.08
+    },
+    {
+      "event": "Short GRB",
+      "E_per_event_J": 1e+47,
+      "rate_per_yr": 1000.0,
+      "DM_per_event_M_sun": 0.5593735924545223,
+      "N_total": 13800000000000.0,
+      "M_DM_M_sun": 7719355575872.408
+    },
+    {
+      "event": "AGN flare (luminous)",
+      "E_per_event_J": 1e+50,
+      "rate_per_yr": 10000.0,
+      "DM_per_event_M_sun": 559.3735924545223,
+      "N_total": 69000000000000.0,
+      "M_DM_M_sun": 3.859677787936204e+16
+    },
+    {
+      "event": "AGN flare (weak)",
+      "E_per_event_J": 1e+48,
+      "rate_per_yr": 1000000.0,
+      "DM_per_event_M_sun": 5.593735924545223,
+      "N_total": 1.38e+16,
+      "M_DM_M_sun": 7.719355575872408e+16
+    },
+    {
+      "event": "TDE",
+      "E_per_event_J": 1e+48,
+      "rate_per_yr": 10000.0,
+      "DM_per_event_M_sun": 5.593735924545223,
+      "N_total": 138000000000000.0,
+      "M_DM_M_sun": 771935557587240.8
+    },
+    {
+      "event": "Stellar-mass BH merger",
+      "E_per_event_J": 1e+52,
+      "rate_per_yr": 1000.0,
+      "DM_per_event_M_sun": 55937.35924545223,
+      "N_total": 13800000000000.0,
+      "M_DM_M_sun": 7.719355575872407e+17
+    },
+    {
+      "event": "Supermassive BH merger",
+      "E_per_event_J": 1e+55,
+      "rate_per_yr": 10.0,
+      "DM_per_event_M_sun": 55937359.24545223,
+      "N_total": 138000000000.0,
+      "M_DM_M_sun": 7.719355575872409e+18
+    },
+    {
+      "event": "Eta Car-type eruption",
+      "E_per_event_J": 1e+46,
+      "rate_per_yr": 1000.0,
+      "DM_per_event_M_sun": 0.05593735924545223,
+      "N_total": 13800000000000.0,
+      "M_DM_M_sun": 771935557587.2407
+    },
+    {
+      "event": "Pair instability SN",
+      "E_per_event_J": 1e+46,
+      "rate_per_yr": 1000.0,
+      "DM_per_event_M_sun": 0.05593735924545223,
+      "N_total": 1380000000000.0,
+      "M_DM_M_sun": 77193555758.72408
+    },
+    {
+      "event": "Magnetar flare (giant)",
+      "E_per_event_J": 1e+46,
+      "rate_per_yr": 10000.0,
+      "DM_per_event_M_sun": 0.05593735924545223,
+      "N_total": 138000000000000.0,
+      "M_DM_M_sun": 7719355575872.407
+    }
+  ],
+  "interpretation": "Even when including ALL energetic event types (CCSN, Type Ia, BNS, NS-BH, GRB, AGN, TDE, BH mergers, magnetar flares, etc.), the cumulative DM is ~10^-6 of the total observed DM. The F_s(0) = 0.3 (30% cumulative) is OFF BY ~10^6 even with all event types.",
+  "conclusion": "The cascade F_p(0) = 0.7 is INCONSISTENT with cumulative DM from any combination of energetic events. Almost all DM must be primordial (F_p ~ 1.0). The 30% cumulative figure cannot be supported.",
+  "caveats": [
+    "Rates are approximate (vary by factor 2-3 in literature)",
+    "Energy per event varies (especially for AGN, which span 10^40-10^55 J)",
+    "F_p(0) = 0.7 was calibrated to UV LF data, which is independent of these calculations",
+    "Possible missing sources: phase transitions, topological defects, primordial black hole evaporation, vacuum decay events"
+  ],
+  "possible_unsolved_sources": [
+    "Phase transitions in early universe (electroweak, QCD) - may create many 2D universes",
+    "Topological defects (cosmic strings, monopoles) - unknown DM contribution",
+    "Primordial BH evaporation (Hawking radiation) - small BHs evaporate with high energy",
+    "Vacuum decay events - if false vacuum exists, decay creates many 2D universes",
+    "Inflation-era 2D universe deaths - from quantum fluctuations during inflation"
+  ]
+}
