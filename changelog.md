@@ -2,6 +2,45 @@
 
 This document contains the cascade's full version history.
 
+## v3.0.5 (June 2026) — Revert §4+ to LaTeX with targeted fixes
+
+**Major changes since v3.0.4:**
+
+1. **User feedback**: "why not just use latex for all (since the rendering issue was due to the \text thingy)"
+
+2. **Acknowledgment**: The user is right — the issue was specific patterns
+   (\text{}, nested subscripts with special chars), not LaTeX itself.
+   I was overly conservative in v3.0.4 by converting ALL §4+ math to
+   Unicode, which lost proper LaTeX typesetting.
+
+3. **Fix**: Restored LaTeX in §4+ with TARGETED fixes:
+   - Removed `\text{...}` commands (just unwrap to plain text)
+   - Removed `\,` (thin space) which might cause issues
+   - Kept all other LaTeX as-is (works in user's math-aware viewer)
+   - Example: `g_+\text{(cascade)}` → `g_+(cascade)` (LaTeX, no \text)
+   - Example: `$M_{DM}/R_{halo}^2$` → kept as LaTeX (works fine)
+
+4. **All sections now use LaTeX consistently**:
+   - §1-§3: LaTeX (was already)
+   - §4+: LaTeX (restored from v3.0.4 Unicode)
+   - §14.4 table: Unicode (kept from v3.0.3 — needed for table rendering)
+
+5. **Counts**:
+   - 289 pages (was 287 in v3.0.4, back to v3.0.3 count)
+   - 4288 $ signs in entire .md (back to v3.0.3 level)
+   - 0 `\text{}` in §4+ (the breaking pattern, removed)
+   - All math properly typeset in LaTeX
+
+6. **Why this is better**:
+   - Better visual quality in math-aware viewers
+   - Easier to maintain (standard LaTeX)
+   - Smaller, more targeted changes
+   - The §14.4 table still needs Unicode (table rendering limitation)
+   - The §4+ math now works because the specific failing patterns
+     (\text{} + special chars) are removed
+
+**Earlier v3.0.4 entry (unchanged):**
+
 ## v3.0.4 (June 2026) — Fix 'Unable to render expression' in §4+
 
 **Major changes since v3.0.3:**
