@@ -1,0 +1,29 @@
+{
+  "description": "Empirical f_back formula found via trial and error",
+  "formula": "f_back = (t_Pl,3 / \u03c4_4D) \u00d7 (\u03c4_SN / \u03c4_universe) \u00d7 (E_4D / E_SN)^0.4",
+  "value": 1.7744762720699302e-85,
+  "target": 1e-85,
+  "match_quality": "1.77e-85 vs 1e-85, off by 0.25 orders",
+  "factors": {
+    "t_Pl_3_s": 5.391880516268127e-44,
+    "tau_4D_s": 3.156e+35,
+    "tau_SN_s": 33,
+    "tau_universe_s": 4.35528e+17,
+    "E_4D_J": 2.2e+69,
+    "E_SN_J": 1e+44,
+    "power": 0.4
+  },
+  "power_sensitivity": {
+    "p_0.3": 5.2e-89,
+    "p_0.4": 1.77e-85,
+    "p_0.5": 6.1e-83
+  },
+  "physical_meaning_of_p_0.4": "Unknown. p = 0.4 is fitted, not derived. Does not correspond to simple \u03b1=1.29 ratios.",
+  "L52_status": "REVISED (v2.7.58): 10^-85 is now derivable from an empirical formula, but the 0.4 power remains UNSPECIFIED.",
+  "L55_NEW": "Empirical formula discovered. 0.4 power is fitted, not derived.",
+  "next_steps": [
+    "Try to derive the 0.4 power from a specific bulk-geometry calculation",
+    "Try to fit with other powers and see if any natural one works",
+    "Check if the formula is consistent with other observations"
+  ]
+}

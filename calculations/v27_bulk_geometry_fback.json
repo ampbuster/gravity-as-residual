@@ -1,0 +1,21 @@
+{
+  "description": "f_back bulk-geometry research: 3 directions",
+  "method": "Trial and error with AdS_5/RS2/brane-world/warp-factor/combined-factors",
+  "target": 1e-85,
+  "direction_1_bulk_geometry": {
+    "RS1_hierarchy": "k\u03c0r_c = 87 for \u03b5 = 10^-38 \u2713",
+    "f_back_in_RS1": "would need k\u03c0r_c = 196, inconsistent"
+  },
+  "direction_2_warp_factor": {
+    "ADD_models": "do not give 10^-85 for natural R",
+    "localization": "no direct derivation"
+  },
+  "direction_3_combined": {
+    "closest": "Trial 8 product: 10^-95 (off by 10 orders)",
+    "various_multiplications": "do not bridge 10-order gap"
+  },
+  "most_promising_lead": "f_back = e^(-k\u03c0r_c) in RS1 with k\u03c0r_c = 196. Requires non-standard RS1 geometry (different warp factor for hierarchy vs DE).",
+  "honest_finding": "10^-85 STILL UNSPECIFIED after 3 more research directions.",
+  "L52_status": "REVISED AGAIN (v2.7.57)",
+  "L54_NEW": "Warp factor lead identified but not yet a derivation."
+}

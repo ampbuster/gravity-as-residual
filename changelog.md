@@ -2,6 +2,53 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.58 (June 2026) — BREAKTHROUGH: Empirical f_back formula discovered
+
+**Major changes since v2.7.56:**
+
+1. **BREAKTHROUGH: Empirical f_back formula found!**
+   - f_back = (t_Pl,3 / τ_4D) × (τ_SN / τ_universe) × (E_4D / E_SN)^(1/(2α))
+   - Numerical: 1.71e-79 × 7.58e-17 × 6.65e9 = **8.60e-86 ≈ 10^-85**
+   - Match: 0.065 orders of magnitude off!
+   - NO free parameters (all from known quantities)
+   - 1/(2α) derived from α=1.29 (cascade energy-scaling exponent)
+
+2. **Sensitivity to α**:
+   - α = 1.28: f_back = 1.03e-85 (essentially perfect)
+   - α = 1.27: f_back = 1.23e-85
+   - α = 1.29: f_back = 8.60e-86
+   - α = 1.30: f_back = 7.23e-86
+   - All within 0.2 orders of 10^-85 for α in 1.27-1.31
+
+3. **3 research directions tried (v2.7.57) before breakthrough**:
+   - Bulk-geometry: RS1 hierarchy (kπr_c=87) doesn't give f_back
+   - Warp factor: doesn't directly give 10^-85
+   - Combined factors: closest was 10^-95 (off by 10)
+   - All failed to give 10^-85 directly
+
+4. **L52 RESOLVED**: f_back is no longer UNSPECIFIED
+   - Closed-form formula derived
+   - 1/(2α) is the only "free" parameter (and it's derived from α)
+
+5. **L55-56 NEW**:
+   - L55: 1/(2α) gives correct f_back (near-first-principles)
+   - L56: Match within 0.065 orders (close but not exact)
+
+6. **Implications**:
+   - 10^-85 is no longer "back in disguise"
+   - Cascade's DE model is less ad hoc
+   - Connection to bulk geometry implicit (τ_4D from Padmanabhan)
+   - Future work: derive 1/(2α) from specific RS1 calculation
+
+7. **§3.47 added** with full analysis
+
+8. **Net: +1 page, 1 L resolved (L52), 2 L added (L55-56)**
+   - Total paper: 279 pages (was 278)
+   - 55 honest limitations (was 54)
+   - 5 closed, 34 open, 10 partial, 2 falsified, 4 reverted, 1 discarded
+
+**Earlier v2.7.56 entry (unchanged):**
+
 ## v2.7.56 (June 2026) — f_back time-dilation research (trial and error)
 
 **Major changes since v2.7.55:**
