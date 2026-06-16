@@ -1,3 +1,43 @@
+
+## v3.0.9 — Legacy text cleanup (June 2026)
+
+User: "maybe only keep current text in the paper. move legacy text to
+legacy_paper.md or the changelog. confusing. the diff will keep
+history anyway."
+
+Moved historical narrative out of paper.md to legacy_paper.md:
+
+1. **§3.38 F_p(z) analysis — corrected (v2.7.50, REVISED v2.7.51)**
+   (6,574 chars) — moved
+2. **§3.39 Lessons learned from F_p revision (v2.7.52, meta)**
+   (2,330 chars) — moved
+3. **§4.48 Smooth F(z) DM Design (v2.7.8+, historical)**
+   (21,874 chars) — moved
+4. **Recent Additions, Removals, and Discards (v2.7.12-v2.7.29)**
+   (5,748 chars) — moved
+
+Also updated Parameter Glossary §0:
+- F_p(z) = 0.7 → 0.9993 in Calibrated Postulates table
+- A_event = 67 → 1 with revised note
+
+Total moved: ~36,500 chars
+paper.md: 1,015,354 → 978,689 chars (288 → 277 pages)
+
+**Phone/markdown viewer rendering fix:**
+- Converted 86 standalone LaTeX expressions to Unicode:
+  - `$f_{back}$` (10x) → `f_back`
+  - `$\epsilon$` (22x) → `ε`
+  - `$\rho$` (2x) → `ρ`
+  - `$\sigma$` (4x) → `σ`
+  - `$\tau$` (1x) → `τ`
+  - `$\mu$` (9x) → `μ`
+  - `$\alpha$` (34x) → `α`
+  - `$\delta$` (3x) → `δ`
+  - `$\phi$` (1x) → `φ`
+- Fixes "Unable to render expression" errors in some markdown viewers
+
+Legacy content preserved in legacy_paper.md, git history, and changelog.md.
+
 # Changelog: Version History and Change List
 
 This document contains the cascade's full version history.
