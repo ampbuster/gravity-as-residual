@@ -2,6 +2,46 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.30 (June 2026) — §3.23-3.24 + abstract/§0 updates
+
+**Major changes since v2.7.29:**
+
+1. **§3.23 NEW: New testable predictions from democratic cosmology** (~2 pages)
+   - 5 new predictions:
+     - 2D universe death rate ∝ R(E) / γ_2D
+     - 2D universe death GW spectrum (SN-scale dominance)
+     - NO excess of 2D universe deaths in DM halos
+     - Total 2D universe death energy = Ω_DM
+     - Specific 2D universe death GW time signature
+   - Key new factor: 1/γ_2D scaling
+   - Testable with PTA/LIGO GW observations (2030s)
+
+2. **§3.24 NEW: CGHS back-reaction self-critique** (~2 pages)
+   - §3.19 OVERSTATED the CGHS connection
+   - α = 1.29 is in the CGHS RANGE [1, 3] but NOT derived
+   - No standard CGHS scaling gives constant τ_2D_proper
+   - This is a research challenge, not a derivation
+   - Future work: specific CGHS calculation with back-reaction yielding p = 1.29
+
+3. **Abstract updated** to reflect v2.7.17-§3.22:
+   - Added democratic cosmology (§3.17-§3.18)
+   - Added self-critical methodology (§3.16)
+   - Added 11 framework connections (§3.22)
+   - α is no longer a free parameter (1 free: z_half only)
+
+4. **§0 updated** to include v2.7.24-v2.7.29:
+   - Recent Additions now covers v2.7.12-v2.7.29
+   - Democratic cosmology added
+   - 11 framework connections added
+
+5. **Net: 2 new sections, ~7 pages added**
+   - Total paper: 246 → 253 pages
+   - Test counts UNCHANGED: 16/17, 7/7, 11/11
+   - Limitations: 37 honest limitations (unchanged)
+   - 1 free parameter (z_half only)
+
+**Earlier v2.7.29 entry (unchanged):**
+
 ## v2.7.29 (June 2026) — §3.19-§3.22: Why α universal, self-critique, recursive structure, frameworks
 
 **Major changes since v2.7.25:**

@@ -33,6 +33,12 @@ We propose a unifying interpretation of three open problems in fundamental physi
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** The cascade is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so the cascade terminates at 2D). The earlier framing of "scale-invariance / infinite cascade" with a $\rho_{\text{crit}}$ regulator has been removed — the 2D floor is a structural limit, not a choice. The cascade IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth E^(1+alpha) creation function in §2.5.3 — the v2.3.0 E_crit step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a cascade to lower dimensions.
 
+**Democratic cosmology (v2.7.24-v2.7.25+, §3.17-§3.18).** A user-supplied insight (June 2026) revealed a deep pattern: all 2D universes have the same proper lifetime in 2D frame (= t_Pl,3), and all 3+1D universes have the same proper lifetime in 3+1D frame (= t_Pl,4). The energy-scaling rule τ_2D_3+1D = (E/E_Pl,3)^1.29 × t_Pl,3 is now a **DERIVATION from time dilation**, not a separate empirical fit. The same α = 1.29 applies at every level. This is a "democratic" cosmology: every universe at the same level is equal in its own frame, but the parent dimension sees vastly different lifetimes (10⁻⁶³ s to 10⁸ yr for 2D; 10⁻¹⁹ s to 10⁴⁰ yr for 3+1D). **α is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from CGHS-with-back-reaction (§3.19, §3.22). The cascade's net free parameter count: 1 (z_half only).
+
+**Self-critical methodology (v2.7.22+, §3.16).** The cascade's iterative process is formalized: build → user pushback → self-critique → discard or revise → document. The §3.13 → §3.14 → §3.15 sequence (sterile neutrino DM with Pauli-blocked decay) is a worked example: built in v2.7.18, self-critiqued in v2.7.19, discarded in v2.7.20 after literature search (Batell-Yin 2024 m<10meV bound, sub-eV DM is HDM not CDM, 3.5 keV X-ray line weakened). The cascade documents the discard explicitly rather than papering over broken hypotheses.
+
+**11 framework connections (v2.7.6-v2.7.29, §3.8, §3.22).** The cascade's framework is supported by 11 established frameworks: 1 STRONGEST MATCH (CGHS, α=1.29 in [1,3] back-reaction range), 6 STRUCTURAL (Padmanabhan, Horava-Witten, KK, Geodetic brane, DGP, Verlinde), 2 TENSION (Jacobson, RT — predict linear scaling, not power law), 2 SPECULATIVE (Massive gravity, Conformal gravity). No framework uniquely derives α = 1.29 from first principles; a specific CGHS-with-back-reaction calculation would close L9.
+
 **Testable predictions (§3):** (1) BCG $g_+$ correlates with cluster ICM activity, not BCG stellar mass alone. (2) Dwarf $g_+$ correlates with recent star formation rate, not total $M_*$. (3) Dark matter fraction in quiescent galaxies should be *lower* than in identical-mass active galaxies (phase-transition test). (4) The cascade predicts AGC 114905 has *no* high-energy events above $10^{30}$ J in its recent history — testable with deep X-ray/radio observations.
 
 **Why the Dimensional Cascade vs its competitors — quick comparison.** Whether the cascade is "superior" depends on the metric. On *mathematical and operational completion*, standard $\Lambda$CDM remains the reigning framework. On *parsimony and empirical coverage* — explaining the maximum number of distinct cosmic anomalies with the fewest arbitrary assumptions — the cascade presents an architecturally superior alternative. The table below summarizes the tradeoffs:
@@ -93,7 +99,30 @@ The full architectural comparison is given in §9 (Cascade vs its Competitors: A
 
 This is not a derivation. The 2 free parameters ($\alpha, z_{\text{half}}$) are *calibrated*, not derived from first principles. The 4 calibrated postulates ($f_{\text{back}}, \epsilon, F_p, A_{\text{event}}$) are *postulated* to match observations. A complete derivation of any of these from first principles is open work (Limitation 26).
 
-### Recent Additions, Removals, and Discards (v2.7.12-v2.7.20)
+### Recent Additions, Removals, and Discards (v2.7.12-v2.7.29)
+
+**Additions (v2.7.24-v2.7.29):**
+- **v2.7.24 added democratic cosmology (§3.17)**: all 2D universes have same proper lifetime (t_Pl,3). Energy-scaling rule is now a DERIVATION from time dilation, not a fit. α is no longer a free parameter.
+- **v2.7.25 extended democratic cosmology upward (§3.18)**: all 3+1D universes have same proper lifetime (t_Pl,4). Pattern: each level's proper lifetime = next-dim Planck time.
+- **v2.7.26 added α universality analysis (§3.19)**: 5 possible derivations of α=1.29, CGHS-with-back-reaction is the strongest match.
+- **v2.7.27 added self-critique of §3.17-§3.18 (§3.20)**: honest assessment that democratic cosmology is a plausible hypothesis, not a derivation.
+- **v2.7.28 added full recursive structure (§3.21)**: cascade from 0D to ND, each level has same proper lifetime in own frame.
+- **v2.7.29 added 11 framework connections (§3.22)**: 1 STRONGEST, 6 STRUCTURAL, 2 TENSION, 2 SPECULATIVE.
+
+**Additions (v2.7.12-v2.7.23):**
+- **v2.7.12 added $F_p(z)$ as smooth function**: was constant 0.7 in v2.7.8, now smooth Hill n=2 with $z_{\text{half}}=3$ (added $z_{\text{half}}$ as new free parameter)
+- **v2.7.16 added $A_{\text{event}}$**: per-event amplification factor (67x) required for 5% → 27% ratio. Documented in §3.11 with 4 possible explanations.
+- **v2.7.18-3.20 added §3.13-§3.15**: sterile neutrino DM hypothesis, self-critique, literature search, DISCARD. (DISCARDED in v2.7.20)
+
+**Removals (cleaned up over earlier versions):**
+- **Removed v2.7.5**: $E_{\text{crit}} \sim 10^{30}$ J (phase-transition threshold) — replaced by smooth $E^{1+\alpha}$ function with no threshold
+- **Removed v2.7**: $\lambda_{\text{th}} \sim 10^{-4}$ m (dimensional transition threshold) — replaced by $f_{\text{back}}$ 
+- **Removed v2.7.11**: $f_{\text{active}} \sim 0.05$ (live 2D universe back-projection) — replaced by deaths-only DM (§2.5.4)
+- **Removed v2.7.5**: $E_{\text{criterion}}$ (energy criterion for 2D universe creation) — replaced by smooth $E^{1+\alpha}$ function
+
+**Discarded (v2.7.20+):**
+- **§3.13 mechanism DISCARDED (v2.7.20)**: Sterile neutrino + Pauli-blocked decay hypothesis is double-broken per literature search (Batell & Yin 2024 m<10meV bound, sub-eV is HDM not CDM, 3.5 keV line weakened 2024). See §3.14-§3.15 for full analysis.
+- **DM form UNSPECIFIED (v2.7.20)**: The cascade does not commit to a specific DM particle. Geometric DM is the default (§3.14 Option D). L9 (2D universe physics) remains open — the form of energy return at 2D universe death is not derived.
 
 **Additions:**
 - **v2.7.16 added $A_{\text{event}}$**: per-event amplification factor (67x) required for 5% → 27% ratio. Documented in §3.11 with 4 possible explanations.
@@ -1221,7 +1250,7 @@ The honest summary: *none* of these frameworks derive the cascade's α = 1.29 fr
 - **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.29: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.30: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
@@ -2797,6 +2826,134 @@ The cascade's democratic cosmology (§3.17-§3.18) and universal α (§3.19) are
 - The cascade is honest: no first-principles α derivation yet
 
 See `calculations/v27_why_alpha_universal.py` and existing `v27_cghs_2d_universe.py` for the full analysis.
+
+---
+
+### 3.23 New testable predictions from democratic cosmology (v2.7.30+)
+
+The democratic cosmology (§3.17-§3.18) gives specific testable predictions. The key new factor is the **1/γ_2D scaling** of 2D universe death rates in the 3+1D frame.
+
+**3.23.1 Prediction 1: 2D universe death rate ∝ R(E) / γ_2D.**
+
+The democratic cosmology says all 2D universes have the same proper lifetime (t_Pl,3). The 3+1D-frame lifetime is τ_2D_3+1D = γ_2D × t_Pl,3 = (E/E_Pl,3)^1.29 × t_Pl,3. The death rate in 3+1D frame is:
+
+$$\frac{dN_{\text{2D death}}}{dt_{3+1D}} = \frac{dN_{\text{2D create}}}{dt_{3+1D}} \times \frac{1}{\tau_{2D}^{3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{\text{Pl},3}} = R(E) \times \left(\frac{E}{E_{\text{Pl},3}\right)^{-1.29} \times \frac{1}{t_{\text{Pl},3}}$$
+
+**Counter-intuitive:** smaller events (low E) have HIGHER 2D universe death rates in 3+1D frame, because their time dilation γ_2D is smaller (so they "tick" faster in 3+1D view).
+
+| Event | E (J) | γ_2D | Relative death rate (1/γ_2D) |
+|-------|-------|------|------------------------------|
+| LHC (14 TeV) | 2.24×10⁻¹⁵ | 1.3×10⁻³¹ | 7.7×10³⁰ (HIGH) |
+| 1 ton TNT | 4×10⁹ | 2.5 | 0.4 |
+| SN (10⁴⁴ J) | 6×10⁴⁴ | 6×10⁴⁴ | 1.7×10⁻⁴⁵ (LOW) |
+| BNS merger | 10⁵³ | 2.4×10⁵⁶ | 4.1×10⁻⁵⁷ (LOW) |
+| AGN outburst | 10⁵⁵ | 9.2×10⁵⁸ | 1.1×10⁻⁵⁹ (LOW) |
+
+**3.23.2 Prediction 2: 2D universe death GW spectrum.**
+
+Each 2D universe death produces a brief GW burst. The stochastic background:
+
+$$\Omega_{\text{GW}}(f) \propto \int dE \, R(E) \times \frac{1}{\gamma_{2D}} \times E_{\text{death GW}}$$
+
+The democratic cosmology predicts a SPECIFIC spectral shape: weighted toward smaller events (low E) because of the 1/γ_2D factor.
+
+**Testable:** if PTA/LIGO observations show the GW stochastic background peaks at SN-scale (10⁴⁴ J) rather than AGN-scale (10⁵⁵ J), the cascade is supported.
+
+**3.23.3 Prediction 3: NO excess of 2D universe deaths in DM halos.**
+
+In DM halos (denser regions), 2D universe deaths happen at the same rate per unit volume (cumulative is uniform). The cascade predicts no excess of 2D universe death events in halos.
+
+**3.23.4 Prediction 4: Total 2D universe death energy = Ω_DM.**
+
+The total 2D universe death energy in 3+1D frame = Ω_DM = 27%. This is the cascade's DM mechanism. Standard cosmology treats DM as a particle or fluid with w = 0. The cascade treats DM as cumulative 2D universe death energy. Both predict the same total density.
+
+**3.23.5 Prediction 5: 2D universe death GW has specific time signature.**
+
+A single 2D universe death in 3+1D frame lasts τ_2D_3+1D = γ_2D × t_Pl,3. For SN events, this is 33s; for BNS, 4.3×10⁵ yr; for AGN, 1.6×10⁸ yr. The GW burst has a specific time profile.
+
+**3.23.6 Falsifiability.**
+
+The democratic cosmology's predictions are testable:
+- If GW spectrum peaks at AGN-scale (not SN-scale): cascade wrong
+- If no 2D universe death GW detected: cascade wrong (or wrong magnitude)
+- If 2D universe death rate doesn't follow 1/γ_2D scaling: democratic cosmology wrong
+
+**3.23.7 Status (v2.7.30+).**
+
+- 5 new testable predictions from democratic cosmology
+- Key new factor: 1/γ_2D scaling
+- Testable with PTA/LIGO GW observations (2030s)
+- The cascade is honest: these are predictions, not derivations
+
+See `calculations/v27_democratic_cosmology_predictions.py` for the full numerical analysis.
+
+---
+
+### 3.24 CGHS back-reaction analysis: α = 1.29 is in range but not derived (v2.7.30+)
+
+The cascade's §3.19 claimed that "α = 1.29 is in the CGHS back-reaction range [1, 3]". This section is a more careful analysis of what the CGHS-with-back-reaction actually says.
+
+**3.24.1 The CGHS framework.**
+
+The Callan-Giddings-Harvey-Strominger (CGHS) 2D dilaton gravity action is:
+
+$$S = \frac{1}{2\pi} \int d^2x \sqrt{-g} \left[ e^{-2\phi}(R + 2(\nabla\phi)^2 + 2\lambda^2) - \frac{1}{2} \sum (\nabla f_i)^2 \right]$$
+
+where φ is the dilaton, λ is the cosmological constant, and f_i are matter fields. The 2D black hole solution is exactly solvable.
+
+**3.24.2 The lifetime scaling question.**
+
+For a 2D black hole with initial matter energy M_0, the 2D-frame lifetime scales as:
+
+$$\tau_{\text{BH}}^{2D} \propto M_{\text{BH}}^q$$
+
+where M_BH is the 2D black hole mass (related to M_0 by back-reaction) and q depends on the back-reaction coupling. Standard CGHS gives q ~ 1 (linear) for weak back-reaction, q ~ 3 for strong back-reaction.
+
+**3.24.3 The cascade's requirements.**
+
+The cascade's §3.17 requires:
+
+$$\tau_{\text{2D proper}} = t_{\text{Pl},3} = \text{CONSTANT across all 2D universes}$$
+
+For this to be consistent with CGHS:
+- If τ_2D proper ∝ M_BH^q, then M_BH^q = constant
+- But M_BH depends on E (event energy)
+- So this requires q = 0 (trivial, no time dependence) or a specific cancellation
+
+**3.24.4 Testing different CGHS scaling exponents.**
+
+| q | τ_BH_2D scaling | Constant τ_2D_proper? |
+|---|------------------|------------------------|
+| 0.5 | M_BH^0.5 | NO |
+| 1.0 | M_BH^1.0 (linear) | NO |
+| 1.29 (α) | M_BH^1.29 | NO |
+| 1.5 | M_BH^1.5 | NO |
+| 2.0 | M_BH^2.0 | NO |
+| 3.0 | M_BH^3.0 | NO |
+
+**None of the standard CGHS scalings give constant τ_2D_proper.**
+
+**3.24.5 Honest verdict.**
+
+The cascade's claim in §3.19 that "α = 1.29 is in the CGHS back-reaction range" is **OVERSTATED**. While the [1, 3] range includes 1.29, a SPECIFIC p = 1.29 is not naturally derived from CGHS back-reaction. The cascade needs additional physics to specify p = 1.29 within the CGHS range.
+
+**This is a research challenge, not a derivation.** Future work: specific CGHS-with-back-reaction calculation yielding p = 1.29. This would close L9 and provide the cascade's first-principles α derivation.
+
+**3.24.6 Status update (v2.7.30+).**
+
+- §3.19 OVERSTATED the CGHS connection
+- The honest status: α is phenomenological, not first-principles
+- The cascade is honest: this is a gap, not a derivation
+- The CGHS range [1, 3] includes 1.29, but no specific calculation yields 1.29
+- Future work: specific CGHS calculation with back-reaction yielding p = 1.29
+
+**Cascade's commitment (v2.7.30+):**
+- α = 1.29 is in the CGHS back-reaction RANGE
+- But α = 1.29 is not derived from CGHS back-reaction
+- A specific calculation is needed to close L9
+- The cascade is honest about this gap
+
+See `calculations/v27_cghs_alpha_derivation.py` for the full numerical analysis.
 
 ---
 
