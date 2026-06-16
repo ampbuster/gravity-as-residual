@@ -663,7 +663,7 @@ The full simulation: `python3 calculations/cascade_model.py --outliers`
 - §11 Testable predictions for current and upcoming surveys (47 Tuc test for Rubin/LSST DP1/DR1/Y10)
 - §11.1–§11.7 sub-sections (cascade DM mechanism, 47 Tuc calculation, falsifiability matrix)
 - §12 Galaxy-Zoo Test Suite: 11/11 pass on real data
-- §12.1–§12.6 sub-sections (NGC 1052-DF2, Tucana, Bullet Cluster [smoking gun], Omega Cen, M82, NGC 1275, DF44)
+- §12.1–§12.6 sub-sections (NGC 1052-DF2, Tucana, Bullet Cluster [consistency check], Omega Cen, M82, NGC 1275, DF44)
 
 ---
 

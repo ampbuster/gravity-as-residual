@@ -2,6 +2,36 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.46 (June 2026) — 47 Tuc honest framing
+
+**Major changes since v2.7.45:**
+
+1. **47 Tuc is NOT a smoking gun** — it's a "real differentiator
+   from particle DM" but a "consistency test" for the cascade
+   - Distinguishes cascade from particle DM (ΛCDM): YES
+   - Distinguishes cascade from MOND: NO (both predict no DM)
+   - Falsification test: YES (if M_dyn > M_stars, cascade ruled out)
+   - Unique confirmation: NO (MOND also passes)
+
+2. **Cascade's REAL differentiators** (from ALL competitors including MOND):
+   - 2D universe death GW (LISA 2034+, PTA 2030s)
+   - α=1.29 universal scaling
+   - Smooth F_p(z) primordial component at z>10
+   - Massive quiescent galaxies at z>4 (very high past SF)
+   - Intermediate F(z) dwarf population (~10-30%)
+
+3. **Fixed legacy "smoking gun" reference**:
+   - Old: "§12.1–§12.6 sub-sections (..., Bullet Cluster [smoking gun], ...)"
+   - New: "§12.1–§12.6 sub-sections (..., Bullet Cluster [consistency check], ...)"
+
+4. **Net: 0 new pages, README honesty only**
+   - Total paper: 264 pages (no change)
+   - 50 honest limitations (no change)
+   - 1 free parameter (z_half only)
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.45 entry (unchanged):**
+
 ## v2.7.45 (June 2026) — TDG honest framing with 2023-2025 literature
 
 **Major changes since v2.7.44:**
