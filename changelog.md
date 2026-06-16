@@ -2,6 +2,69 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.20 (June 2026) — §3.15 DISCARDING §3.13 (literature search)
+
+**Major changes since v2.7.19:**
+
+1. **§3.15 NEW: Discarding §3.13 mechanism** (~3 pages)
+
+2. **Literature search (2024-2025) findings:**
+   - **Batell & Yin 2024** (arXiv:2406.17028, PRD 110.075038): "Cosmic Stability of DM from Pauli Blocking"
+     - Pauli blocking CAN stabilize DM, BUT only for m < 10 meV (sub-eV)
+   - **Cho, Choi, Joh, Seto 2024** (arXiv:2407.08229, v2 Jun 2025): QFT generalization
+     - Same mass bound: sub-eV only
+   - **3.5 keV sterile neutrino line weakened** (Simons Foundation 2024-08-19)
+     - Initial 2014 detection has weakened in reanalysis
+     - Minimal sterile neutrino DM at keV is HEAVILY constrained
+   - **νSMEFT** (arXiv:2405.00119) can evade X-ray but requires new physics
+
+3. **§3.13 is DOUBLE-BROKEN:**
+
+   **Failure mode 1: GeV DM has no Pauli blocking**
+   - Cascade's m_s ~ 1 GeV is 10^5x heavier than 10 meV bound
+   - Pauli blocking INEFFECTIVE (E_decay/p_F ~ 10^21)
+   - Decay product energy 21 orders of magnitude > Fermi momentum
+
+   **Failure mode 2: Sub-eV DM is HDM, not CDM**
+   - For Pauli blocking to work, DM must be sub-eV
+   - But sub-eV DM is HOT dark matter (relativistic)
+   - Doesn't form small-scale structure (dwarf galaxies, Lyman-α)
+   - Conflicts with cascade's CDM-like behavior requirement
+
+4. **Sterile neutrino specifically constrained:**
+   - 3.5 keV line signal weakened in 2024 reanalysis
+   - Beam dump (CHARM, NA62) constraints
+   - BBN N_eff constraints
+   - LHC direct production constraints
+   - Cascade's m_s = 1 GeV is beyond standard sterile neutrino regime
+
+5. **Conclusion: §3.13 DISCARDED**
+   - The Pauli-blocked sterile neutrino mechanism is not viable
+   - Cascade's framework (geometric DM from 2D universe deaths) remains robust
+   - 4 alternative particle hypotheses remain possible (WIMP, axion, PBH, geometric)
+   - DM stability must come from discrete symmetries, not Pauli blocking
+
+6. **Cascade's commitment (v2.7.20+):**
+   - **DM is GEOMETRIC by default** (Option D in §3.14)
+   - "DM" is cumulative gravitational signature of 2D universe deaths
+   - No particle, no decay, no neutrino
+   - "More clustered = slower decay" not needed (no decay!)
+   - L9 (2D universe physics) remains open
+
+7. **What stands from previous sections:**
+   - §3.13 (v2.7.18): DISCARDED
+   - §3.14 (v2.7.19): STANDS (4 alternatives, geometric default)
+   - §3.11 (v2.7.16): STANDS (5% → 27% amplification)
+   - §3.12 (v2.7.17): STANDS (DM/baryon growth question)
+
+8. **Honest verdict:**
+   - User was RIGHT to push on §3.13
+   - Mechanism was double-broken (mass wrong, type wrong)
+   - Cascade framework robust (geometric DM)
+   - Honest about specific particle interpretation being uncertain
+
+**Earlier v2.7.19 entry (unchanged):**
+
 ## v2.7.19 (June 2026) — §3.14 SELF-CRITIQUE of §3.13 (user correction)
 
 **Major changes since v2.7.18:**

@@ -1,0 +1,16 @@
+{
+  "pauli_blocking_mass_bound_eV": 0.01,
+  "cascade_required_mass_GeV": 1.0,
+  "mass_ratio": 99999.99999999999,
+  "pauli_blocking_ineffective_at_GeV": true,
+  "sub_eV_is_HDM": true,
+  "cascade_requires_CDM": true,
+  "verdict": "DISCARD \u00a73.13 - Pauli blocking mechanism is double-broken",
+  "alternative": "Cascade should commit to geometric DM framework (Option D in \u00a73.14)",
+  "literature_support": [
+    "Batell & Yin 2024 (arXiv:2406.17028, PRD 110.075038)",
+    "Cho, Choi, Joh, Seto 2024 (arXiv:2407.08229)",
+    "Boyarsky et al. 2019 (X-ray constraints review)",
+    "Simons Foundation 2024 (3.5 keV line weakened)"
+  ]
+}

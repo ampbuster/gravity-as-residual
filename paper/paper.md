@@ -1209,7 +1209,7 @@ The honest summary: *none* of these frameworks derive the cascade's α = 1.29 fr
 - **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.19: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.20: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
@@ -1999,6 +1999,116 @@ The cascade is honest: this section identifies the issues and discusses alternat
 - If the cascade's geometric framework is right, no specific particle detection is expected (the DM is a geometric effect)
 
 See `calculations/v27_cascade_dm_self_critique.py` for the full numerical analysis.
+
+---
+
+### 3.15 DISCARDING §3.13: Pauli blocking is double-broken (v2.7.20+)
+
+A literature search (2024-2025) reveals that the §3.13 mechanism is **double-broken** and should be **discarded**.
+
+**3.15.1 Recent literature on Pauli blocking and DM stability.**
+
+Several 2024 papers study Pauli blocking as a DM stability mechanism:
+
+- **Batell & Yin (arXiv:2406.17028, PRD 110, 075038):** "Cosmic Stability of Dark Matter from Pauli Blocking." Shows that scalar DM can be stable against decay via Pauli blocking, **provided it is lighter than about 10 meV**.
+
+- **Cho, Choi, Joh, Seto (arXiv:2407.08229, v2 Jun 2025):** "Stable dark matter from Pauli blocking in the degenerate fermion background with Quantum Field Theory." Generalizes the mechanism to a QFT treatment, applies to neutrino DM. **Same mass bound: sub-eV DM only.**
+
+- **Earlier work (2010 PhRvD):** "Dark matter decaying into a Fermi sea of neutrinos." Shows that Pauli blocking controls DM decay into a neutrino Fermi sea.
+
+**Key finding:** Pauli blocking CAN stabilize DM, **but only for sub-eV masses** (specifically $m_{\text{DM}} < 10$ meV per Batell & Yin 2024).
+
+**3.15.2 The cascade's mass problem.**
+
+The cascade's §3.13 mechanism required $m_s \sim 1$ GeV (from the equilibrium decay rate calculation). This is **$10^5$ times heavier** than the Batell-Yin bound:
+
+$$\frac{m_s^{\text{cascade}}}{m_{\text{DM}}^{\text{Batell-Yin}}} = \frac{1 \text{ GeV}}{10 \text{ meV}} = 10^5$$
+
+The cascade's sterile neutrino is **way too heavy** for Pauli blocking to work.
+
+**3.15.3 Failure mode 1: GeV-scale DM has no Pauli blocking.**
+
+For $m_s = 1$ GeV sterile neutrino in a typical DM halo ($\rho_{\text{DM}} \sim 0.3$ GeV/cm³):
+- Number density: $n_{\text{DM}} \sim 0.3 / \text{cm}^3$
+- Fermi momentum: $p_F \sim 5 \times 10^{-13}$ eV
+- Decay product energy: $E_{\text{decay}} = m_s/2 \sim 500$ MeV
+- **Ratio: $E_{\text{decay}} / p_F \sim 10^{21}$**
+
+Pauli blocking is completely ineffective for GeV-scale DM. The decay product energy is 21 orders of magnitude larger than the Fermi momentum.
+
+**3.15.4 Failure mode 2: Sub-eV DM is HDM, not CDM.**
+
+For Pauli blocking to actually work, DM must be sub-eV (m < 10 meV). But sub-eV DM is **hot dark matter (HDM)**, not cold dark matter (CDM). HDM:
+- Particles move relativistically
+- Free-stream out of small-scale structure
+- Cannot form dwarf galaxies, subhalos, or the Lyman-alpha forest
+- Conflicts with observations of small-scale structure
+
+The cascade's framework requires CDM-like behavior (slow particles, structure formation at all scales). Sub-eV DM fails this requirement.
+
+**3.15.5 The 3.5 keV sterile neutrino signal has weakened.**
+
+A specific test: the 3.5 keV X-ray line, which was proposed in 2014 (Bulbul et al., Boyarsky et al.) as evidence for $m_s = 7$ keV sterile neutrino DM:
+- **2014:** Initial detection in galaxy clusters (Chandra, XMM-Newton)
+- **2024 reanalysis:** Signal has weakened in updated analysis (Simons Foundation, August 2024)
+- **Current:** Minimal sterile neutrino DM at keV is heavily constrained by X-ray non-detection
+- **νSMEFT extensions** (arXiv:2405.00119) can evade X-ray constraints, but require new physics (higher-dimensional operators)
+
+**The cascade's required $m_s = 1$ GeV is beyond the standard sterile neutrino regime** and faces strong constraints from beam dump (CHARM, NA62), BBN $N_{\text{eff}}$, and LHC direct production.
+
+**3.15.6 Alternative stable DM at GeV scale: discrete symmetries.**
+
+GeV-scale DM **can** be stable, but requires different mechanisms:
+
+- **WIMP:** Z₂ symmetry (R-parity in SUSY, KK parity in extra dimensions)
+- **Neutralino:** SUSY R-parity
+- **Sterile neutrino:** approximate lepton number conservation
+- **Stable scalar:** Z₂ or Z₃ symmetry
+
+These are well-motivated and consistent with observations. But they don't provide the "more clustered = slower decay" mechanism the §3.13 hypothesis wanted.
+
+**3.15.7 Honest verdict: §3.13 should be DISCARDED.**
+
+The §3.13 mechanism is **double-broken**:
+
+| Failure mode | Problem | Verdict |
+|--------------|---------|---------|
+| GeV DM (cascade's required mass) | Pauli blocking INEFFECTIVE ($E_{\text{decay}}/p_F \sim 10^{21}$) | MECHANISM FAILS |
+| Sub-eV DM (where Pauli blocking works) | HDM, not CDM (no small-scale structure) | DM IS WRONG TYPE |
+| Sterile neutrino specifically | X-ray constraints (3.5 keV line weakened in 2024) | DM CANDIDATE SQUEEZED |
+
+**The cascade's honest commitment:**
+
+1. **§3.13 is DISCARDED.** The Pauli-blocked sterile neutrino mechanism is not viable.
+2. **The cascade's framework remains:** 2D universe deaths contribute to DM (cumulative gravitational effect). DM is approximately stable on cosmological timescales.
+3. **DM is GEOMETRIC by default** (Option D in §3.14): the "DM" is the cumulative gravitational signature of 2D universe deaths, not a specific particle. No particle, no decay, no neutrino. "More clustered = slower decay" is not needed.
+4. **Particle interpretations remain possible** (WIMP, axion, stable scalar), but stability must come from discrete symmetries, not Pauli blocking.
+5. **L9 (2D universe physics) remains open** — the form of the energy return at 2D universe death is unspecified.
+
+**3.15.8 What this means for the cascade's other sections.**
+
+- **§3.13 (v2.7.18):** DISCARDED. The specific mechanism (sterile neutrino + Pauli blocking) doesn't work.
+- **§3.14 (v2.7.19):** STANDS. The 4 alternative hypotheses (WIMP, axion, PBH, geometric) are still valid. The cascade is committed to "geometric DM" as the default.
+- **§3.11 (v2.7.16):** STANDS. The 5% → 27% amplification analysis is independent of the specific DM form.
+- **§3.12 (v2.7.17):** STANDS. The DM/baryon ratio growth question is independent of Pauli blocking.
+
+**3.15.9 Falsifiability and future work.**
+
+The cascade's geometric DM framework is **not falsifiable by particle detection** — the DM is a geometric effect, not a particle. This is both a strength (no need to detect a specific particle) and a weakness (no specific particle to look for).
+
+Future work to make the cascade more concrete:
+- **Derive the 2D universe's death return form** from a specific 2D Lagrangian (closes L9)
+- **Specify the geometric mechanism** that gives 27% DM (currently phenomenological)
+- **Test the geometric framework** against observations of DM clustering, lensing, and dynamics
+
+**Cascade's status (v2.7.20+):**
+- §3.13 mechanism DISCARDED
+- Cascade framework ROBUST (geometric DM from 2D universe deaths)
+- 4 alternative particle hypotheses remain possible (WIMP, axion, PBH, geometric)
+- L9 remains open — the form of DM is UNSPECIFIED
+- Honest about the §3.13 mechanism being wrong
+
+See `calculations/v27_discarding_pauli_blocking.py` for the full numerical analysis and literature references.
 
 ---
 
