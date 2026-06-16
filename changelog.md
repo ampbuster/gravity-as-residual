@@ -2,6 +2,57 @@
 
 This document contains the cascade's full version history.
 
+## v3.0.6 (June 2026) — Surgical fix to v3.0.3 + targeted 	ext removal
+
+**Major changes since v3.0.5:**
+
+1. **User's suggestion**: "wait, how about just git checkout to before you changed
+   it to unicode, then just edit out the complex 	ext"
+
+2. **Approach**: Reverted paper.md to v3.0.3 (commit bc460a5) via git checkout.
+   This restored the proper LaTeX in §4+ that v3.0.4-5 had converted to Unicode.
+
+3. **Then made SURGICAL fixes** to only the problematic patterns:
+   - 645 `\text{...}` removed (the specific pattern that broke the viewer's math)
+   - 30 `\mathcal{...}` removed (similar formatting issues)
+   - 57 `\,` (thin space) removed
+   - 1 `\!` (negative thin space) removed
+   - 1 `\mathbf{...}` removed
+   - `\left(...)` / `\right)` → `(...)` (size delimiters, viewer-fragile)
+   - Fixed `\bar{\nu}e$` → `\bar{\nu}_e$` (missing brace)
+
+4. **Kept all other LaTeX intact**:
+   - Greek letters (α, β, γ, etc.) ✓
+   - Subscripts/superscripts (x_{abc}, x^n) ✓
+   - Fractions (\frac{a}{b}) ✓
+   - Operators (\pm, \times, \cdot, \approx) ✓
+   - Special symbols (ℏ, ℓ, √, ∫, Σ) ✓
+   - All other LaTeX ✓
+
+5. **Caveat update**: Updated the §10.1 Caveat about E_primordial UNSPECIFIED
+   to reflect v2.7.65 L51 work:
+   - Was: "E_primordial is UNSPECIFIED (see Limitation 34)"
+   - Now: "E_primordial was UNSPECIFIED in v2.7.4-64 (L34). The v2.7.65
+     §3.40 L51 derivation attempt constrained E_primordial to ~10^22 M_☉
+     (E_4D at the 4D event scale, galaxy-cluster level), but the per-event
+     energy of primordial 2D universes is still partially OPEN (L51 PARTIAL)"
+
+6. **Counts**:
+   - 288 pages (was 287, +1; v3.0.3 was 289)
+   - 0 `\text{}` patterns
+   - 0 `\mathcal{}` patterns
+   - 0 thin spaces `\,`
+   - 4288 $ signs (all proper LaTeX math)
+   - 1 remaining `\left` (handled safely)
+
+7. **Why this is the cleanest approach**:
+   - All the LaTeX math is preserved (proper typesetting in PDF)
+   - Only the specific patterns that broke the viewer's math are removed
+   - The .md is cleaner than v3.0.3 (had `\text{}` everywhere)
+   - The .md is cleaner than v3.0.4-5 (had Unicode instead of LaTeX)
+
+**Earlier v3.0.5 entry (unchanged):**
+
 ## v3.0.5 (June 2026) — Revert §4+ to LaTeX with targeted fixes
 
 **Major changes since v3.0.4:**
