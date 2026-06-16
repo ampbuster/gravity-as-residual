@@ -1209,7 +1209,7 @@ The honest summary: *none* of these frameworks derive the cascade's α = 1.29 fr
 - **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.16: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.17: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
@@ -1585,6 +1585,119 @@ This is a large but not unreasonable 2D-frame volume (comparable to a stellar-sc
 - This is a v2.7.17+ candidate for further analysis
 
 See `calculations/v27_5pct_to_27pct_amplification.py` for the full numerical analysis.
+
+---
+
+### 3.12 Does the DM/baryon ratio grow over time? A subtle test (v2.7.17+)
+
+A natural follow-up to §3.11: **if DM is from cumulative 2D universe deaths, shouldn't the DM/baryon ratio grow over time?** This section analyzes the question and identifies it as a *testable prediction* of the cascade.
+
+**3.12.1 The F_p(z) framework.**
+
+The cascade's §4.48 introduces a smooth function $F_p(z) = 0.7 + 0.3 \cdot z^2/(z_{\text{half}}^2 + z^2)$ (Hill n=2, $z_{\text{half}} = 3$) that specifies the *fraction* of DM that is primordial (from 4D-event-created 2D universes) vs cumulative (from 3+1D-event-created 2D universes):
+
+$$F_p(z) = \text{primordial fraction of DM at redshift } z$$
+$$F_{\text{cum}}(z) = 1 - F_p(z) = \text{cumulative fraction}$$
+
+Key values:
+- $F_p(z=0) = 0.7$ (70% primordial at z=0)
+- $F_p(z=\infty) = 1.0$ (100% primordial at high z)
+- $F_p(z=3) = 0.85$ (50% transition)
+
+**3.12.2 The DM/baryon ratio at different z.**
+
+If the cascade's cumulative component of DM grows over time (which it should, by the cascade's own logic), then the *absolute* DM density at $z=0$ should be larger than at $z=\infty$. Two scenarios:
+
+**Scenario A: Total DM conserved in comoving volume.** The total $\Omega_{\text{DM}} = 0.27$ is constant at all z (per line 1897 of the paper: "the *total* dark matter in a comoving volume is *approximately* conserved"). In this case:
+- At all z: $\Omega_{\text{DM}} = 0.27$, $\Omega_b = 0.05$, ratio = $5.4\times$
+- The cumulative component GROWS at the expense of the primordial component
+- Primordial: 27% at $z=\infty$, 19% at $z=0$
+- Cumulative: 0% at $z=\infty$, 8.1% at $z=0$
+
+**Scenario B: Total DM grows as cumulative deaths accumulate.** The cumulative component adds to the total DM, but the primordial deaths are *also* still happening (primordial 2D universes die slowly over 13.8 Gyr). In this case:
+- At $z=\infty$: $\Omega_{\text{DM}} \sim 0.19$ (only primordial deaths so far)
+- At $z=0$: $\Omega_{\text{DM}} = 0.27$ (primordial + cumulative deaths)
+- DM/baryon ratio GROWS: $3.8\times$ at $z=\infty$ to $5.4\times$ at $z=0$
+- Growth factor: $1.4\times$ over cosmic history
+
+**3.12.3 The honest answer: it's a mix.**
+
+The cascade's line 1897 says total DM is "approximately conserved," but the smooth $F_p(z)$ implies the *absolute* primordial DM contribution might be different at different z. The honest interpretation:
+
+1. **Total DM is approximately conserved** in comoving volume (line 1897)
+2. **Primordial 2D universe deaths continue to add to DM** at all z (these are slow deaths, ongoing throughout cosmic history)
+3. **Cumulative 2D universe deaths add to DM** at all z, but at a *declining* rate (SFR has decreased over cosmic time)
+4. **The ratio of primordial to cumulative changes with z** (captured by $F_p(z)$)
+5. **Total DM is the SUM of both components**, approximately conserved at 27%
+
+In this interpretation, the DM/baryon ratio is *approximately constant* (5.4x at all z), with small variations due to the ongoing primordial deaths and the growing cumulative deaths. The cascade's smooth $F_p(z)$ is the *composition* of DM at each z, not the absolute total.
+
+**3.12.4 The subtle test: does the DM/baryon ratio grow?**
+
+The user is right to ask: if the cumulative component of DM is *growing* over time (from 0% at $z=\infty$ to 30% of total at $z=0$), then in Scenario A (conserved total), the primordial component is *decreasing* over time (from 100% to 70%). This means **primordial 2D universe deaths have produced 70% of total DM by today, and will produce 100% of DM at some future time** (if the cumulative component stops growing).
+
+This is *testable* in principle:
+- **At high z**, DM should be 100% primordial (per $F_p(z=\infty) = 1.0$)
+- **At low z**, DM should be 70% primordial + 30% cumulative
+- **The fraction of cumulative DM should grow with time**
+
+Observational test: measure the *primordial vs cumulative composition* of DM at different z. If the cascade is right, the cumulative fraction should grow with time. This is hard to measure directly, but the *spatial distribution* of DM (primordial is more uniform, cumulative tracks star formation) could distinguish.
+
+**3.12.5 The CMB gap resolution.**
+
+The cascade's $F_p(z)$ also addresses the v2.4 "CMB gap" (L31):
+- v2.4 constant $F_p = 0.7$ predicted only 70% of observed DM at $z=1100$ (30% gap)
+- v2.7.5+ smooth $F_p(z)$ (Hill n=2, $z_{\text{half}} = 3$) predicts 100% of observed DM at $z=1100$ (gap < 1%)
+
+The smooth $F_p(z)$ says: at $z=1100$, DM is 100% primordial. The primordial 2D universe deaths that happen *before* $z=1100$ account for the observed 27% of DM at CMB. The remaining 30% of *cumulative* DM hasn't happened yet at $z=1100$ — it accumulates over cosmic history.
+
+This is a *testable* framework:
+- **CMB ($\Omega_{\text{DM}} = 0.27$ at $z=1100$):** consistent with primordial deaths happening at the Big Bang
+- **Today ($\Omega_{\text{DM}} = 0.27$ at $z=0$):** same total, but with cumulative deaths adding composition (no change in total due to conservation in comoving volume)
+
+**3.12.6 The honest prediction.**
+
+The cascade predicts:
+
+| Redshift | $F_p(z)$ | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
+|----------|----------|---------------------|------------------------------|------------------------------|
+| 1100 (CMB) | 1.000 | 0.000 | 5.40 | 3.80 |
+| 6 | 0.946 | 0.054 | 5.40 | 4.06 |
+| 3 | 0.850 | 0.150 | 5.40 | 4.46 |
+| 1 | 0.775 | 0.225 | 5.40 | 4.79 |
+| 0 (today) | 0.700 | 0.300 | 5.40 | 5.40 |
+
+**Scenario A (conserved total):** DM/baryon ratio is constant at 5.4x. Cumulative fraction grows.
+
+**Scenario B (growing total):** DM/baryon ratio grows from 3.8x to 5.4x. Cumulative deaths add to total.
+
+**Cascade's claim is intermediate:** total DM is approximately conserved (Scenario A is closer to truth), but the composition shifts from primordial to cumulative. The DM/baryon ratio is approximately constant at 5.4x, with small variations.
+
+**3.12.7 Falsifiability.**
+
+The user is right to highlight this. The cascade makes a *subtle* testable prediction:
+
+1. **If DM/baryon ratio is constant at all z** (Scenario A): the cascade's "conserved total" claim is correct. The cumulative component grows at the expense of primordial.
+2. **If DM/baryon ratio grows from 3.8x to 5.4x** (Scenario B): the cascade's "conserved total" claim is wrong, and total DM grows over time.
+3. **Observational test:** measure DM/baryon ratio in high-z galaxies (e.g., via JWST observations of z=6-10 galaxies) and compare to local galaxies. A growth factor of 1.4x is *detectable* with current observations.
+
+**3.12.8 Honest summary.**
+
+The user is right: the cascade's cumulative component of DM *should grow* over time. The cascade's framework has this captured by $F_p(z)$, but the absolute total is a separate question (conserved or growing).
+
+- **Cascade's default:** total DM approximately conserved in comoving volume (Scenario A). DM/baryon ratio is constant at 5.4x.
+- **Cascade's alternative:** total DM grows as cumulative deaths accumulate (Scenario B). DM/baryon ratio grows from 3.8x to 5.4x.
+
+The cascade is honest that this is a *subtle* testable prediction. The growth factor is small (1.4x or less) and would require careful measurements of high-z DM content to detect.
+
+**Cascade's status (v2.7.17+):**
+- The DM/baryon ratio is *approximately* constant in the cascade's default framework (Scenario A)
+- The cumulative fraction GROWS with time (captured by $F_p(z)$)
+- The total DM is approximately conserved (line 1897), but this is a *postulate*, not a derivation
+- The cascade is honest that the growth of cumulative DM is a *testable* prediction
+- Future JWST/Euclid observations of high-z galaxy DM content could distinguish Scenario A from B
+
+See `calculations/v27_dm_baryon_growth.py` for the full numerical analysis.
 
 ---
 

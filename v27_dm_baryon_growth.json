@@ -1,0 +1,101 @@
+[
+  {
+    "z": 1100,
+    "F_p": 0.9999977686116384,
+    "F_cum": 2.23138836163983e-06,
+    "primordial_DM": 0.26999939752514235,
+    "cumulative_DM": 6.024748576427541e-07,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  },
+  {
+    "z": 100,
+    "F_p": 0.9997302427814967,
+    "F_cum": 0.00026975721850330814,
+    "primordial_DM": 0.2699271655510041,
+    "cumulative_DM": 7.28344489958932e-05,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  },
+  {
+    "z": 30,
+    "F_p": 0.997029702970297,
+    "F_cum": 0.002970297029702973,
+    "primordial_DM": 0.2691980198019802,
+    "cumulative_DM": 0.0008019801980198027,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  },
+  {
+    "z": 10,
+    "F_p": 0.9752293577981651,
+    "F_cum": 0.02477064220183489,
+    "primordial_DM": 0.2633119266055046,
+    "cumulative_DM": 0.006688073394495421,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  },
+  {
+    "z": 6,
+    "F_p": 0.94,
+    "F_cum": 0.06000000000000005,
+    "primordial_DM": 0.2538,
+    "cumulative_DM": 0.016200000000000016,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  },
+  {
+    "z": 3,
+    "F_p": 0.85,
+    "F_cum": 0.15000000000000002,
+    "primordial_DM": 0.2295,
+    "cumulative_DM": 0.04050000000000001,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  },
+  {
+    "z": 2,
+    "F_p": 0.7923076923076923,
+    "F_cum": 0.20769230769230773,
+    "primordial_DM": 0.21392307692307694,
+    "cumulative_DM": 0.056076923076923094,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  },
+  {
+    "z": 1,
+    "F_p": 0.73,
+    "F_cum": 0.27,
+    "primordial_DM": 0.1971,
+    "cumulative_DM": 0.0729,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  },
+  {
+    "z": 0.5,
+    "F_p": 0.7081081081081081,
+    "F_cum": 0.2918918918918919,
+    "primordial_DM": 0.1911891891891892,
+    "cumulative_DM": 0.07881081081081082,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  },
+  {
+    "z": 0.1,
+    "F_p": 0.7003329633740288,
+    "F_cum": 0.29966703662597116,
+    "primordial_DM": 0.1890899001109878,
+    "cumulative_DM": 0.08091009988901222,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  },
+  {
+    "z": 0,
+    "F_p": 0.7,
+    "F_cum": 0.30000000000000004,
+    "primordial_DM": 0.189,
+    "cumulative_DM": 0.08100000000000002,
+    "total_DM": 0.27,
+    "DM_baryon_ratio": 5.4
+  }
+]

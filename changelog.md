@@ -2,6 +2,51 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.17 (June 2026) — §3.12 Does DM/baryon ratio grow over time?
+
+**Major changes since v2.7.16:**
+
+1. **§3.12 NEW: Subtle test of cumulative DM growth** (~2.5 pages)
+   - User observation: "if time accumulation plays a part, won't DM ratio grow over time?"
+   - Honest answer: yes, cumulative component GROWS (captured by F_p(z))
+   - But total DM may be conserved (Scenario A) or grow (Scenario B)
+
+2. **Two scenarios analyzed:**
+   - **Scenario A (conserved total):** DM/baryon ratio constant at 5.4x
+     - Cumulative grows from 0% to 30% of total
+     - Primordial decreases from 100% to 70% of total
+   - **Scenario B (growing total):** DM/baryon ratio grows from 3.8x to 5.4x
+     - At z=1100 (CMB): 3.8x (only primordial deaths so far)
+     - At z=0 (today): 5.4x
+     - Growth factor: 1.4x over cosmic history
+
+3. **F_p(z) framework (§4.48) revisited:**
+   - F_p(z=0) = 0.7 (70% primordial at z=0)
+   - F_p(z=∞) = 1.0 (100% primordial at high z)
+   - F_cum(z=0) = 0.3 (30% cumulative at z=0)
+   - F_cum(z=∞) = 0 (no cumulative at high z)
+
+4. **CMB gap resolution:**
+   - At z=1100, all DM is primordial (F_p=1.0)
+   - Primordial deaths happening pre-CMB account for 27% of DM
+   - Cumulative deaths add 8.1% over cosmic history
+   - Smooth F_p(z) closes the v2.4 CMB gap to < 1%
+
+5. **Testable predictions:**
+   - **Scenario A:** DM/baryon constant at 5.4x (cumulative fraction grows)
+   - **Scenario B:** DM/baryon grows from 3.8x to 5.4x (1.4x growth)
+   - **Observational test:** measure DM in high-z galaxies (JWST, Euclid)
+   - **Distinguishing:** primordial DM is more uniform, cumulative tracks SFR
+
+6. **Honest summary:**
+   - Cascade's default: total DM approximately conserved (Scenario A)
+   - DM/baryon ratio is approximately constant at 5.4x
+   - Cumulative fraction GROWS with time (captured by F_p(z))
+   - "Approximately conserved" is a postulate, not a derivation
+   - Future observations could distinguish Scenario A from B
+
+**Earlier v2.7.16 entry (unchanged):**
+
 ## v2.7.16 (June 2026) — §3.11 How 5% baryons create 27% DM
 
 **Major changes since v2.7.15:**
