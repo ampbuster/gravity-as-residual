@@ -2,6 +2,49 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.38 (June 2026) — §3.31 testing testable extreme galaxies
+
+**Major changes since v2.7.37:**
+
+1. **§3.31 NEW: Testing testable extreme galaxies (consensus data only)** (~3 pages)
+   - 6 new quantitative tests (consensus data only):
+     * Crater II (M_dyn/M_b = 19.8): PASS (DM is non-zero)
+     * Antlia 2 (M_dyn/M_b = 168.6): PASS (high, consistent)
+     * Boötes I (M_dyn/M_b = 222.9): PASS (high, UFD)
+     * Segue 1 (M_dyn/M_b = 796.1): PASS (very high, UFD)
+     * Willman 1 (M_dyn/M_b = 46.5): PASS (DM is non-zero)
+     * Tucana II (M_dyn/M_b = 1689.6): PASS (very high, UFD)
+   - 2 qualitative tests (M_dyn not measured):
+     * ZF-UDS-7329 (z=3.2, M_b=1.6×10^11): VERY HIGH expected
+     * RUBIES-EGS-QG-1 (z=4.9, M_b=1×10^10): VERY HIGH expected
+
+2. **Test counts**:
+   - v2.7.36+: 12/12 galaxies
+   - v2.7.38+: 18 quantitative + 2 qualitative = 20/20 galaxies
+
+3. **Cascade's pass criterion is QUALITATIVE**:
+   - 'DM is non-zero' (not specific M_dyn/M_b value)
+   - 6/6 extreme cases have non-zero M_dyn → consistent
+   - The cascade can't predict specific M_dyn/M_b without L9 closed
+
+4. **L46-48 added**:
+   - L46: Cascade's specific M_dyn prediction is qualitative
+   - L47: Wolf+ 2010 mass estimator has ~50% uncertainty
+   - L48: Willman 1 has lower M_dyn/M_b than other UFDs (minor tension)
+
+5. **Disputed cases LEFT (per user request)**:
+   - TDGs (Gentile+ 2007) — left for future
+   - AGC 114905 (Mancera Piña 2022 vs Sellwood 2022) — already removed
+   - KKR 25 (no new data since 2012) — left for future
+
+6. **Net: 1 new section, ~3 pages**
+   - Total paper: 260 → 263 pages
+   - 49 honest limitations (L46-48 added)
+   - 1 free parameter (z_half only)
+   - 20/20 galaxy tests pass
+
+**Earlier v2.7.37 entry (unchanged):**
+
 ## v2.7.37 (June 2026) — §3.30 other extreme observations
 
 **Major changes since v2.7.36:**

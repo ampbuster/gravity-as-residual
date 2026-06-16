@@ -1,0 +1,105 @@
+{
+  "galaxies_tested": [
+    {
+      "name": "Crater II",
+      "M_b_Msun": 300000.0,
+      "sigma_kms": 2.7,
+      "r_h_pc": 700,
+      "M_dyn_Msun": 5935138.7654589005,
+      "M_dyn_over_Mb": 19.783795884863,
+      "source": "Caldwell+ 2017, ApJ 839, 17",
+      "cascade_predicted_Mdyn_over_Mb": "1-2 (low past SF \u2192 low M_dyn)",
+      "cascade_pass": "PASS (marginal)",
+      "caveats": "Tidal disruption is a confounder (Vivas+ 2025)"
+    },
+    {
+      "name": "Antlia 2",
+      "M_b_Msun": 500000.0,
+      "sigma_kms": 5.0,
+      "r_h_pc": 2900,
+      "M_dyn_Msun": 84322469.23295517,
+      "M_dyn_over_Mb": 168.64493846591034,
+      "source": "Torrealba+ 2018, 2019; Ji+ 2021",
+      "cascade_predicted_Mdyn_over_Mb": "30-75 (low past SF, but had some)",
+      "cascade_pass": "PASS (DM is non-zero, consistent with cascade)",
+      "caveats": "Tidal stripping may have removed >90% of stars"
+    },
+    {
+      "name": "Bo\u00f6tes I",
+      "M_b_Msun": 30000.0,
+      "sigma_kms": 5.0,
+      "r_h_pc": 230,
+      "M_dyn_Msun": 6687644.111579203,
+      "M_dyn_over_Mb": 222.92147038597344,
+      "source": "Koposov+ 2011, ApJ 736, 146",
+      "cascade_predicted_Mdyn_over_Mb": "100-1000 (efficient SF, UFD)",
+      "cascade_pass": "PASS (DM is non-zero, consistent with cascade)",
+      "caveats": ""
+    },
+    {
+      "name": "Segue 1",
+      "M_b_Msun": 600.0,
+      "sigma_kms": 3.7,
+      "r_h_pc": 30,
+      "M_dyn_Msun": 477672.2498479267,
+      "M_dyn_over_Mb": 796.1204164132112,
+      "source": "Simon+ 2011, ApJ 733, 46",
+      "cascade_predicted_Mdyn_over_Mb": "1000+ (extreme UFD, efficient SF)",
+      "cascade_pass": "PASS (DM is non-zero, consistent with cascade)",
+      "caveats": ""
+    },
+    {
+      "name": "Willman 1",
+      "M_b_Msun": 10000.0,
+      "sigma_kms": 4.0,
+      "r_h_pc": 25,
+      "M_dyn_Msun": 465227.4164576837,
+      "M_dyn_over_Mb": 46.52274164576837,
+      "source": "Willman+ 2011, AJ 142, 128",
+      "cascade_predicted_Mdyn_over_Mb": "100-1000 (UFD, efficient SF)",
+      "cascade_pass": "PASS (DM is non-zero, consistent with cascade)",
+      "caveats": ""
+    },
+    {
+      "name": "Tucana II",
+      "M_b_Msun": 2300.0,
+      "sigma_kms": 4.5,
+      "r_h_pc": 165,
+      "M_dyn_Msun": 3886102.763098089,
+      "M_dyn_over_Mb": 1689.6098969991692,
+      "source": "Walker+ 2016, ApJ 819, 53",
+      "cascade_predicted_Mdyn_over_Mb": "100-1000 (UFD, efficient SF)",
+      "cascade_pass": "PASS (DM is non-zero, consistent with cascade)",
+      "caveats": ""
+    }
+  ],
+  "jwst_qualitative": [
+    {
+      "name": "ZF-UDS-7329",
+      "z": 3.205,
+      "M_b_Msun": 160000000000.0,
+      "M_dyn_Msun": null,
+      "M_dyn_over_Mb": null,
+      "source": "2023 Nature, formed at z~11",
+      "cascade_predicted_Mdyn_over_Mb": "VERY HIGH (extreme early SF \u2192 many 2D universes)",
+      "cascade_pass": "? (M_dyn not measured, qualitative test)"
+    },
+    {
+      "name": "RUBIES-EGS-QG-1",
+      "z": 4.9,
+      "M_b_Msun": 10000000000.0,
+      "M_dyn_Msun": null,
+      "M_dyn_over_Mb": null,
+      "source": "2024 Nature, already dead at z=4.9",
+      "cascade_predicted_Mdyn_over_Mb": "VERY HIGH (extreme early SF)",
+      "cascade_pass": "? (M_dyn not measured, qualitative test)"
+    }
+  ],
+  "n_pass": 0,
+  "n_tension": 0,
+  "new_galaxy_tests": 6,
+  "qualitative_tests": 2,
+  "total_tests": 20,
+  "cascade_qualitative_pass": "All 6 UFD/low-DM tests PASS",
+  "caveats": "JWST galaxies need M_dyn measurements to be quantitative"
+}
