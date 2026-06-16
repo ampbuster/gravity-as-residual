@@ -45,7 +45,6 @@ We propose a unifying interpretation of three open problems in fundamental physi
 
 The full architectural comparison is given in §9 (Cascade vs its Competitors: A Detailed Comparison).
 
----
 # Main Points (TL;DR)
 
 If you read nothing else, read this section.
