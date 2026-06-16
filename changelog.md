@@ -2,6 +2,34 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.44 (June 2026) — Bullet Cluster honest framing
+
+**Major changes since v2.7.43:**
+
+1. **README honesty: Bullet Cluster is not a unique smoking gun**
+   - Old framing: "Bullet Cluster is the cascade's SMOKING GUN"
+   - New framing: "consistency check, not unique smoking gun"
+   - Every DM model (ΛCDM, SIDM, FDM, cascade) predicts the same result
+   - The Bullet Cluster supports DM in general, not the cascade specifically
+
+2. **Cascade's REAL differentiators** (would distinguish from particle DM):
+   - 47 Tuc test: M_dyn ≈ M_stars (no local DM)
+   - Intermediate F(z) population (~10-30% of dwarfs)
+   - Massive quiescent galaxies at z > 4 (very high past SF)
+   - Tidal Dwarf Galaxies (DISPUTED, Gentile 2007)
+
+3. **Cascade's strongest evidence**: the wide-range 22-galaxy
+   comparison table (10 orders of magnitude in M_b, all PASS
+   qualitative test)
+
+4. **Net: 0 new pages, README honesty only**
+   - Total paper: 264 pages (no change)
+   - 50 honest limitations (no change)
+   - 1 free parameter (z_half only)
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.43 entry (unchanged):**
+
 ## v2.7.43 (June 2026) — README CMB GAP cleanup
 
 **Major changes since v2.7.42:**

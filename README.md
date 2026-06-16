@@ -542,7 +542,7 @@ A new section §11 consolidates the cascade's *near-term, low-cost, high-leverag
 
 # §12 GALAXY-ZOO TEST SUITE: 11/11 PASS (June 2026)
 
-A new section §12 consolidates the cascade's galaxy-level tests against the *entire galaxy zoo*, from quiescent dwarfs to extreme starbursts to cluster mergers. **11/11 tested galaxies are consistent with the cascade's predictions**, including the **Bullet Cluster**, which the cascade explains as a natural consequence of its DM mechanism.
+A new section §12 consolidates the cascade's galaxy-level tests against the *entire galaxy zoo*, from quiescent dwarfs to extreme starbursts to cluster mergers. **11/11 tested galaxies are consistent with the cascade's predictions**, including the **Bullet Cluster**, which the cascade explains as a natural consequence of its DM mechanism (but is not a unique smoking gun — see note below).
 
 **The 11 tests (12 with CVnC, v2.7.32+):**
 1. **47 Tucanae** — M_dyn ≈ M_stars (no current activity)
@@ -551,7 +551,7 @@ A new section §12 consolidates the cascade's galaxy-level tests against the *en
 4. **Milky Way** — M_dyn/M_b ~ 30 (normal spiral)
 5. **NGC 1052-DF2** — M_dyn ≈ M_b (UDG, claimed no DM, cascade explains naturally)
 6. **Tucana dSph** — M_dyn ≈ M_b (isolated, quenched 6+ Gyr)
-7. **Bullet Cluster (1E 0657-56)** — 720 kpc gas-galaxy separation **= CASCADE SMOKING GUN**
+7. **Bullet Cluster (1E 0657-56)** — 720 kpc gas-galaxy separation (consistency check, not unique smoking gun)
 8. **Omega Centauri** — M_dyn ≈ M_b (massive GC, 8200 M_sun IMBH)
 9. **M82** — M_dyn/M_b ~ 4 (extreme starburst, 10 M_sun/yr)
 10. **NGC 1275** — M_dyn/M_b ~ 50 (AGN host, Perseus A)
@@ -565,20 +565,39 @@ A new section §12 consolidates the cascade's galaxy-level tests against the *en
 - 2025-2026: intermediate population is being discovered
 - Testable with LSST Y1 (2027), Euclid Q1 (2026) for ~10-30% of field dwarfs in intermediate F(z)
 
-**Bullet Cluster is the cascade's SMOKING GUN:**
+**Bullet Cluster — honest framing:**
+
+The Bullet Cluster is the cascade's **consistency check**, not a unique
+smoking gun. The observation is consistent with the cascade, but
+also with ΛCDM (collisionless DM) and MOND + sterile neutrinos.
+
+**What the cascade says:**
 - Gas (X-ray, no star formation, no 2D universe creation) ≠ DM
 - Galaxies (past star formation, 2D universe creation) = DM
 - Lensing follows galaxies, NOT gas
-- MOND needs sterile neutrinos to explain; cascade explains naturally
-- Confirmed by JWST lensing (Cha+ 2025)
-- **Why this is a SMOKING GUN for the cascade specifically:**
-  - In the cascade, DM = cumulative 2D universe death energy
-  - 2D universe creation is tied to energetic events (SNe, AGN, mergers)
-  - Gas in Bullet Cluster has had NO star formation = NO 2D universe creation = NO DM
-  - Galaxies HAVE had star formation = 2D universe creation = DM
-  - Lensing follows the DM (galaxies), not the gas
-  - This is a NATURAL consequence of the cascade, not a coincidence
-  - Particle DM models also explain this, but require σ/m < 1 cm²/g (fine-tuned)
+- Confirmed by JWST lensing (Cha+ 2025, arXiv:2503.21870)
+
+**Honest caveat: this is NOT a unique smoking gun for the cascade.**
+Every DM model (ΛCDM, SIDM, FDM, cascade) predicts the same result.
+The Bullet Cluster supports the EXISTENCE of DM, not the cascade
+specifically.
+
+**The cascade's REAL differentiators** (would distinguish from
+particle DM):
+- **47 Tuc test**: M_dyn ≈ M_stars (no local DM) — particle DM
+  predicts M_dyn > M_stars
+- **Tidal Dwarf Galaxies (TDGs)**: cascade predicts DM-poor, but
+  Gentile 2007 finds DM-rich (DISPUTED, unresolved 20 years)
+- **Intermediate F(z) population** (~10-30% of dwarfs at intermediate
+  F(z)): testable with LSST Y1 (2027) and Euclid Q1 (2026)
+- **Massive quiescent galaxies at z > 4**: cascade predicts very
+  high M_dyn (extreme past SF)
+
+**Cascade's claim is**: the Bullet Cluster is consistent with the
+cascade's framework, not that it uniquely supports the cascade.
+The cascade's strongest evidence is the **wide-range 22-galaxy
+comparison table** (10 orders of magnitude in M_b, all PASS
+qualitative test).
   - The cascade explains it WITHOUT fine-tuning the cross-section
 
 **11/11 means:** the cascade is *consistent* with the entire galaxy zoo it has been tested against, and provides a *unified* explanation for diverse phenomena.
