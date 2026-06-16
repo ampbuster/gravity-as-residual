@@ -449,7 +449,7 @@ SIDC's α = 1.29 is **falsified if observed α differs by more than ±0.10** (i.
 **What is robust to α changes.** SIDC's 16/17 test categories and 7/7 specific cases are robust to ±0.20 in α. The qualitative predictions (Sun has no DM, AGC 114905 has no DM, KKR 25 is DM-rich, RAR holds, etc.) survive because they depend on the *order-of-magnitude* hierarchy of event energies, not on the precise value of α. The α-sensitive predictions are specifically:
 - 2D universe lifetime for BNS, AGN, GRB
 - 2D universe death GW frequency
-- Cumulative DM calculations (E^(1+α) weighting changes the relative contributions of different event types)
+- Cumulative DM calculations ($E^{1+α}$ weighting changes the relative contributions of different event types)
 
 **The honest summary:** α = 1.29 is a phenomenological fit from one data point, but it's **testable to ±0.05 by future BNS/AGN GW observations** (μAres) and **falsifiable to ±0.10** if observations are off by a factor of 10. SIDC is honest: α is not derived from first principles, but it's constrained by current data (1 SN point + 16/17 tests) and falsifiable by future data. See `calculations/v27_alpha_sensitivity.py` for the full analysis.
 

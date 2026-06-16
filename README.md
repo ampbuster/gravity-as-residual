@@ -177,9 +177,9 @@ This is SIDC's central quantitative claim. One formula works across all 14 energ
 
 **The single formula:**
 
-**τ_2D $\sim$ E^1.29 (in our frame)**
+**τ_2D $\sim E^{1.29}$ (in our frame)**
 
-A 2D universe created by an event of energy E lives for a time proportional to E^1.29 in 3+1D view. The exponent 1.29 comes from SIDC's N=12 SYK backbone ($\alpha$ = 1 + 1/√12 = 1.289).
+A 2D universe created by an event of energy E lives for a time proportional to $E^{1.29}$ in 3+1D view. The exponent 1.29 comes from SIDC's N=12 SYK backbone ($\alpha$ = 1 + 1/√12 = 1.289).
 
 **It works for 14 event types $\sim 30 orders of magnitude in energy):**
 
@@ -236,7 +236,7 @@ See §2.3 (energy-scaling rule), §3.55 (consequences + data tests), and §10 (e
 
 - **ΛCDM** predicts *similar* halos for AGC 114905 and KKR 25 via the SMHM relation (similar stellar masses, similar halo masses by construction). To get the observed $M_{dyn}/M_b$ split (revised v2.7.33+: see below for corrected numbers), ΛCDM must invoke **3-4σ stochastic outliers in feedback/spin parameters** — calling that a "prediction" is generous. It is an *outlier*, not a *prediction*.
 - **MOND** is deterministic from baryonic mass alone and *fails* on AGC 114905: the galaxy is ultra-diffuse, low-surface-brightness, isolated — MOND should give a strong gravitational boost, but observations show Newtonian rotation curves. The MOND boost is missing, and EFE doesn't help (no external field for an isolated field galaxy).
-- **SIDC** explains the SFH-DM relationship *qualitatively* (smooth E^(1+alpha) creation function naturally gives small contribution for low-E events), but the proportionality constant is *calibrated* (Limitation 29) — so the *direction* of the SFH-DM correlation is SIDC-derived, while *absolute* M_dyn values are not pure predictions.
+- **SIDC** explains the SFH-DM relationship *qualitatively* (smooth $E^{1+\alpha}$ creation function naturally gives small contribution for low-E events), but the proportionality constant is *calibrated* (Limitation 29) — so the *direction* of the SFH-DM correlation is SIDC-derived, while *absolute* M_dyn values are not pure predictions.
 
 Net: SIDC's SFH-DM correlation is *qualitatively positioned* better than ΛCDM (no 3-4σ outliers) and MOND (no MOND-boost conflict with AGC 114905) *specifically*, but with calibration caveats. SIDC's value remains **interpretive** (DM = 2D universe deaths, DE = 4D event antigravity) and **conceptually parsimonious** (1 principle vs ΛCDM's 20+ free parameters), not predictively unique.
 
@@ -398,7 +398,7 @@ observations, testing, wide range), and `paper/paper.md` §12
 
 ## #1 (Consistency with ΛCDM): Energy-scale-invariant in law, epoch-dependent in state
 
-SIDC's principle is **energy-scale-invariant in law**: every energetic event creates a 2D universe weighted by a smooth E^(1+alpha) function, regardless of when it happens (see paper §2.5.3). The *consequences* are epoch-dependent: the *rate* of 2D universe creation depends on what's going on at that epoch.
+SIDC's principle is **energy-scale-invariant in law**: every energetic event creates a 2D universe weighted by a smooth $E^{1+\alpha}$ function, regardless of when it happens (see paper §2.5.3). The *consequences* are epoch-dependent: the *rate* of 2D universe creation depends on what's going on at that epoch.
 
 Per a user follow-up ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?"), the principle is broadened to include **all baryon activity** — not just stellar events but also Thomson scattering, recombination, acoustic oscillations. The baryon plasma at z=1100 has enormous energetic activity that, by SIDC's own principle, creates 2D universes. **v2.7.4 honest update:** while Thomson + recombination DO create 2D universes (qualitatively), their per-event contribution under the smooth function (§2.5.3) is negligible $\sim 10^{-66}$ of SN). SIDC's r(z) $\approx$ (1+z)³ result actually comes from the F_p(z) primordial component (§4.48.1), not from Thomson.
 
@@ -419,9 +419,9 @@ SIDC's r(z) = ρ_DM^DC(z) / ρ_DM^DC(0) at high z is the test of whether SIDC is
 
 ### Why Thomson scattering does NOT do the heavy lifting (honest update v2.7.5)
 
-**The smooth function changes the picture.** Per the v2.7.4 smooth creation function C(E) = E^(1+ $\alpha$ (paper §2.5.3), Thomson scattering per-event contribution is *negligible* compared to SN:
+**The smooth function changes the picture.** Per the v2.7.4 smooth creation function C(E) = $E^{1+\alpha}$ (paper §2.5.3), Thomson scattering per-event contribution is *negligible* compared to SN:
 
-| Event | E per event (J) | C(E) = E^2.29 | C(E)/C(SN) |
+| Event | E per event (J) | C(E) = $E^{2.29}$ | C(E)/C(SN) |
 |-------|----------------|----------------|-------------|
 | Thomson scattering (CMB photon at z=1100) | $10^{19}$ | $10^{-43}$ | $10^{-145}$ |
 | Type Ia SN | $10^{44}$ | $10^{101}$ | 1.0 |
@@ -430,9 +430,9 @@ Even though Thomson has a *much higher rate* $\sim 10^{67}$ events/s/Mpc^3 vs SN
 
 **The r(z) $\approx$ (1+z)³ match comes from F_p(z), NOT from Thomson.** With the v2.7.4 §4.48.1 smooth F_p(z) (Hill n=2, z_half=3), the primordial component F_p(z) $\to$ 1.0 at high z, meaning the *primordial* 2D universe contribution dominates. The Thomson + stellar contributions are at most 30% of total DM at any z (F_s $\leq$ 0.3), and Thomson is a small fraction of F_s.
 
-**Honest framing.** The original v3 README analysis (which said "Thomson does the heavy lifting") was based on a pre-smooth-function code that used raw energy density (R_Thomson $\approx$ 1.4 $\times$ $10^{62}$ J/yr/Mpc³) without applying the E^(1+ $\alpha$ per-event weight. SIDC's *actual* E^(1+ $\alpha$ weighting makes Thomson's per-event contribution negligible. The r(z) $\approx$ (1+z)³ result is now explained by the **smooth F_p(z) primordial component** (paper §4.48.1), not by Thomson.
+**Honest framing.** The original v3 README analysis (which said "Thomson does the heavy lifting") was based on a pre-smooth-function code that used raw energy density (R_Thomson $\approx$ 1.4 $\times$ $10^{62}$ J/yr/Mpc³) without applying the $E^{1+\alpha}$ per-event weight. SIDC's *actual* $E^{1+\alpha}$ weighting makes Thomson's per-event contribution negligible. The r(z) $\approx$ (1+z)³ result is now explained by the **smooth F_p(z) primordial component** (paper §4.48.1), not by Thomson.
 
-This is what the "scale-time invariance" means: SIDC is *energy-scale-invariant* in its law (every event creates a 2D universe weighted by a smooth E^(1+alpha) function, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. SIDC is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 3+1D-frame lifetime of $\sim 33 s for SN-scale events, set by the event size ℓ/c) is a *local* phenomenon preserved at every epoch. (Earlier 30 Gyr in 2D was a guess, dropped in v2.7.1; the 33 s is empirical, from the ℓ/c mapping, but it's SN-specific, not universal.)
+This is what the "scale-time invariance" means: SIDC is *energy-scale-invariant* in its law (every event creates a 2D universe weighted by a smooth $E^{1+\alpha}$ function, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. SIDC is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 3+1D-frame lifetime of $\sim 33 s for SN-scale events, set by the event size ℓ/c) is a *local* phenomenon preserved at every epoch. (Earlier 30 Gyr in 2D was a guess, dropped in v2.7.1; the 33 s is empirical, from the ℓ/c mapping, but it's SN-specific, not universal.)
 
 **See:** `calculations/time_scale_invariance_test_v5.py`, `paper/paper.md` §4.47–§4.51
 
@@ -556,7 +556,7 @@ a strong gravitational boost to this ultra-diffuse, low-SB, isolated
 galaxy, but the rotation curve is Newtonian, and the MOND EFE has no
 external field to draw on for an isolated field galaxy). SIDC's
 mechanism is *deterministic from SFH* (no 2D universe creation below
-smooth E^(1+alpha) creation function, no stochastic outliers needed) but the proportionality constant
+smooth $E^{1+\alpha}$ creation function, no stochastic outliers needed) but the proportionality constant
 is *calibrated* (Limitation 29) — only the *qualitative* SFH-DM correlation and
 *direction* of the shift are SIDC-derived. SIDC's **value** is:
 

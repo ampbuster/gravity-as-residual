@@ -144,7 +144,7 @@ Jacobson [Jacobson95] derives Einstein's equations from the local Unruh temperat
 
 A consistency check on SIDC: a 2D universe with M_2D = M_SN_bary = 10 M_sun (the SN's baryonic mass) has a Jacobson minimum lifetime τ_2D ≥ 2 G M_2D / c² ~ 10¹³ yr, *not* SIDC's 33 s. SIDC's 33 s is only consistent with Jacobson if the 2D universe has mass f_back × M_SN ~ 10⁻⁸⁵ × M_SN (i.e., a tiny fraction of the SN's energy, not the SN's full baryonic mass). This is a *consistency check on f_back*, not a derivation of SIDC's α.
 
-Furthermore, Jacobson's framework predicts *linear* τ_2D ~ E (from M_2D = τ_2D / (2G) and M_2D ~ E), not SIDC's *power law* τ_2D ~ E^1.29. The α = 1.29 is NOT derived from thermodynamic first principles.
+Furthermore, Jacobson's framework predicts *linear* τ_2D ~ E (from M_2D = τ_2D / (2G) and M_2D ~ E), not SIDC's *power law* τ_2D $\sim E^{1.29}$. The α = 1.29 is NOT derived from thermodynamic first principles.
 
 **Resolution:** SIDC's 2D universes are *non-equilibrium processes* (formed by energetic events, not thermodynamic equilibrium objects). Jacobson's derivation applies to *equilibrium* thermodynamic systems (black holes, Rindler horizons) and does not directly apply to dynamically formed 2D spacetimes. SIDC's 2D universes are more accurately modeled as *non-equilibrium* objects (CGHS-like 2D black holes, D1-branes) than as equilibrium thermodynamic systems.
 
@@ -180,7 +180,7 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 - An *additional anchor* for SIDC's bulk-brane picture: the 2D universe's "boundary" in 3+1D (a 2-sphere of radius cτ_2D) has area A_2D that grows quadratically with τ_2D, and the entanglement entropy of the 2D universe's contents is S_2D = A_2D / (4G) = π(τ_2D)² (in Planck units)
 
 **What RT does NOT give SIDC:**
-- A *derivation* of α = 1.29. RT is mathematically equivalent to the Jacobson derivation (both give M_2D = τ_2D / (2G), linear scaling). SIDC's power law τ_2D ~ E^1.29 is a dynamical parameter, not from RT
+- A *derivation* of α = 1.29. RT is mathematically equivalent to the Jacobson derivation (both give M_2D = τ_2D / (2G), linear scaling). SIDC's power law τ_2D $\sim E^{1.29}$ is a dynamical parameter, not from RT
 - A derivation of f_back ~ 10^-85
 - A derivation of the inversion mechanism
 - A derivation of the 5/27/68 split (observational input, not from RT)
@@ -1124,7 +1124,7 @@ The §3.13 → §3.14 → §3.15 sequence reveals:
 This isn't the first time SIDC has gone through this process. Other examples:
 
 - **v2.1 cone-shape refinement:** Earlier versions had a fractal SIDC (1D, 0D universes). User pushback led to cone-shape (4D → 3+1D → 2D, terminal). The cone-shape is more parsimonious and closes the 1D-universes limitation.
-- **v2.7.5 smooth E^(1+α) function:** Earlier versions had a step function E_crit. User feedback led to smooth function (no threshold). The smooth function is more physical and matches high-z UV LF + CMB anchors.
+- **v2.7.5 smooth $E^{1+α}$ function:** Earlier versions had a step function E_crit. User feedback led to smooth function (no threshold). The smooth function is more physical and matches high-z UV LF + CMB anchors.
 - **v2.7.11 deaths-only DM:** Earlier versions had a mix of live + cumulative DM. User feedback led to deaths-only (f_back_live = 0). The deaths-only picture is more consistent with 2D gravity consensus.
 - **v2.7.18 → 3.20 (this session):** User-prompted self-critique led to discarding §3.13 (sterile neutrino + Pauli blocking).
 
@@ -1192,7 +1192,7 @@ $$\boxed{\gamma_{2D} = (\frac{E}{E_{Pl}})^{1.29}}$$
 
 The time-dilation factor scales with event energy as $E^{1.29}$. This is a **derivation** of the energy-scaling rule from the time-dilation framework, not a separate empirical fit.
 
-**3.17.3 Mass scaling: M_2D_2D ∝ E^0.71.**
+**3.17.3 Mass scaling: M_2D_2D ∝ $E^{0.71}$.**
 
 In special relativity, $\gamma = E_{rel} / (m_0 c^2)$. If the 2D universe's "relativistic energy" $\sim E$ and "rest mass" $\sim M_{2D,2D}$:
 $$\gamma_{2D} = \frac{E}{M_{2D,2D} c^2}$$
@@ -1229,7 +1229,7 @@ SIDC's energy-scaling rule is **equivalent** to "all 2D universes have proper li
 
 This is consistent with:
 - **§10.2 Relativistic particle analogy:** "a 2D universe is to a 3D event as a relativistic particle is to its rest frame"
-- **§2.5.3 Smooth creation function C(E) = E^(1+α):** the (1+α) = 2.29 power is the energy-scaling of 2D universe creation rate, which includes the time-dilation factor γ_2D
+- **§2.5.3 Smooth creation function C(E) = $E^{1+α}$:** the (1+α) = 2.29 power is the energy-scaling of 2D universe creation rate, which includes the time-dilation factor γ_2D
 - **§10.7 End-of-universe picture:** the 3D universe's *internal* time T₃D' is its proper time, the 3D ends in its own clock first, then in 4D's view
 
 **3.17.6 The deeper implication: α = 1.29 is a property of the projection geometry.**
@@ -1527,7 +1527,7 @@ It is **POSSIBLY WRONG** if:
 L9 (2D universe physics) is:
 - Properly lifetime: t_Pl,3 (specified in §3.17) — *plausible*
 - Time-dilation factor: γ_2D = (E/E_Pl,3)^1.29 (specified in §3.17) — *phenomenological*
-- Mass scaling: M_2D_2D ∝ E^0.71 (specified in §3.17) — *derived*
+- Mass scaling: M_2D_2D ∝ $E^{0.71}$ (specified in §3.17) — *derived*
 - Internal dynamics: Liouville CFT (plausible, not derived) — *open*
 
 L9 is **partially closed** but not fully resolved. The "same proper lifetime" hypothesis is a *plausible choice*, not a *derivation*.

@@ -96,7 +96,7 @@ This is the part that makes SIDC different from every other dark sector model.
 
 **The single formula:**
 
-> A 2D universe created by an event of energy E lives for a time **τ_2D ~ E^1.29** in our frame.
+> A 2D universe created by an event of energy E lives for a time **τ_2D $\sim E^{1.29}$** in our frame.
 
 That's it. One formula. The "1.29" comes from the cascade's N=12 backbone ($\alpha$ = 1 + 1/√12 = 1.289).
 

@@ -449,7 +449,7 @@ Where $G_{++}$ is the time-ordered (Feynman) propagator for the brane's lifecycl
 *Limitation 26 update (v2.3.0):* SIDC now provides both the *geometry* AND the *CTP structure* of the action. The remaining gaps are *calibration parameters* ($L_{2D}$, $\alpha$), not structural gaps. The framework is rigorous in the in-in sense; the parameters are empirical. A mathematical physicist can complete SIDC by specifying these parameters. SIDC's action is a *framework* ready to be parameterized.
 
 
-#### 2.5.3 The smooth creation function: a single E^(1+alpha) weight replaces the E_crit step (v2.7.5)
+#### 2.5.3 The smooth creation function: a single $E^{1+\alpha}$ weight replaces the E_crit step (v2.7.5)
 
 **The previous "phase-transition principle" used a hard threshold.** The v2.3.0 formulation postulated a *step function* for 2D universe creation: events with E > E_crit ~ 10^30 J create full 2D universes, events with E < E_crit create none. This step function was used to explain why the Sun has no DM, why AGC 114905 has no DM, and why KKR 25 does have DM (via cumulative return from past activity).
 
@@ -459,11 +459,11 @@ Where $G_{++}$ is the time-ordered (Feynman) propagator for the brane's lifecycl
 
 $$C(E) = E^{1+lpha}$$
 
-where α = 1.29 from the energy-scaling rule. The E^1 factor is from the event's energy content; the E^α factor is from the 2D universe's lifetime. The combined weight is E^2.29 — a *smooth, continuous* function with no threshold, no step, no discontinuity. Lower-energy events contribute negligibly (because of the steep E^2.29 weighting); higher-energy events dominate.
+where α = 1.29 from the energy-scaling rule. The $E^1$ factor is from the event's energy content; the $E^{\alpha}$ factor is from the 2D universe's lifetime. The combined weight is $E^{2.29}$ — a *smooth, continuous* function with no threshold, no step, no discontinuity. Lower-energy events contribute negligibly (because of the steep $E^{2.29}$ weighting); higher-energy events dominate.
 
-**Test: does E^(1+α) naturally explain the dwarf cases?** The v2.3.0 step function explained 5/5 dwarf cases. The smooth function does the same, with *no discontinuity*:
+**Test: does $E^{1+α}$ naturally explain the dwarf cases?** The v2.3.0 step function explained 5/5 dwarf cases. The smooth function does the same, with *no discontinuity*:
 
-| Event | E (J) | E^2.29 / SN^2.29 | Old step (E < E_crit?) | Result |
+| Event | E (J) | $E^{2.29}$ / $E_{SN}^{2.29}$ | Old step (E < E_crit?) | Result |
 |-------|-------|------------------|------------------------|--------|
 | Solar flare (max) | 10^26 | 10^-41 | BELOW (no SIDC) | negligible **[PASS]** |
 | AGC 114905 SF | 10^30 | 10^-31 | BELOW (no SIDC) | negligible **[PASS]** |
@@ -485,7 +485,7 @@ $$	ext{DM contribution} \propto E^{1+lpha} = E^{2.29}$$
 
 This is a *power-law* relation, not a step. Future observations of dwarf galaxies with different stellar populations (different E_max) should reveal a *smooth* power-law relation between E_max and DM content, not a sharp threshold. The smooth function is SIDC's *honest* version of the phase-transition principle: it has the same empirical support (5/5 dwarf cases) but with a continuous, parameter-free (α = 1.29) function instead of a calibrated threshold (E_crit = 10^30 J).
 
-**What the smooth function does NOT change.** SIDC's other elements (energy-scaling rule, §2.5.1 action, S_destruction mechanism, Madau-SFR weighting, AGC 114905 + KKR 25 individual galaxy tests) all remain. The smooth function only changes the *functional form* of the contribution weight from step(E - E_crit) to E^(1+α). The qualitative predictions (Sun has no DM, SN-dominated galaxies have DM, AGC 114905 has no DM because of low E_max) all survive.
+**What the smooth function does NOT change.** SIDC's other elements (energy-scaling rule, §2.5.1 action, S_destruction mechanism, Madau-SFR weighting, AGC 114905 + KKR 25 individual galaxy tests) all remain. The smooth function only changes the *functional form* of the contribution weight from step(E - E_crit) to $E^{1+α}$. The qualitative predictions (Sun has no DM, SN-dominated galaxies have DM, AGC 114905 has no DM because of low E_max) all survive.
 
 **Limitation update.** The v2.3.0 E_crit phase-transition threshold (a calibrated free parameter, ~10^30 J) has been *removed* in v2.7.4: the smooth function uses only α = 1.29 (from the SN calibration, §10.1), and the same α already characterizes the energy-scaling rule. SIDC's *single* free parameter α is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an E_crit free parameter to derive. This is a *parameter reduction*: 2 free parameters (α + E_crit) → 1 free parameter (α). New **Limitation 36 added** (E_crit hidden free parameter REVERTED, smooth function uses only α).
 
@@ -591,7 +591,7 @@ SIDC is a *cone* (one parent, many children, terminal at the children's level), 
 
 **The cone-shape is FORCED, not a choice.** Going below 2D (to 1D or 0D universes) is *physically nonsensical*: 1D universes have no stable orbits, no chemistry, no complex structure; 0D universes are just points, not universes. SIDC *must* terminate at 2D, which is the natural floor (2D CFTs are exactly solvable, the highest dimension where quantum gravity is "easy"). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been REMOVED in v2.6 — the 2D floor is a structural limit, not a choice.
 
-**SIDC IS still scale-invariant in the energy/size sense within the 2D level.** The Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth E^(1+alpha) creation function in §2.5.3). The RAR is observed across 4-5 decades in galaxy mass. This is a *different* kind of scale invariance — not dimensional (no 1D, no 0D), but energy-scale (2D universes can be any size, with the smooth E^(1+alpha) weighting naturally emphasizing high-E events) — and it does not require a SIDC to lower dimensions. The new name SIDC preserves this distinction.
+**SIDC IS still scale-invariant in the energy/size sense within the 2D level.** The Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3). The RAR is observed across 4-5 decades in galaxy mass. This is a *different* kind of scale invariance — not dimensional (no 1D, no 0D), but energy-scale (2D universes can be any size, with the smooth $E^{1+\alpha}$ weighting naturally emphasizing high-E events) — and it does not require a SIDC to lower dimensions. The new name SIDC preserves this distinction.
 
 **What the cone-shape gives:**
 

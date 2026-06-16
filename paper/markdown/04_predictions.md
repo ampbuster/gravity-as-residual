@@ -763,7 +763,7 @@ This is the closest SIDC comes to a *derivation* of the dark sector phenomenolog
 SIDC's phase-transition principle (§2.5, §4.8) makes a clean *negative* prediction for old stellar systems with no high-energy events: **no dark matter should accumulate around them**. Globular clusters (GCs) are the ideal laboratory for this test:
 
 * **Old stellar systems**: GCs have ages of 10-13 Gyr (essentially the age of the universe). Their stellar populations are ancient, with no ongoing star formation.
-* **No high-energy events above the smooth-function threshold**: The most energetic events in a typical GC are novae and X-ray binaries, both well below the SN scale (novae ~ 10^38 J, but only the smallest GCs have them; LMXBs ~ 10^30 J, just at the threshold). The smooth E^(1+alpha) creation function gives them negligible contribution to DM. No supernovae, no AGN, no ICM shocks.
+* **No high-energy events above the smooth-function threshold**: The most energetic events in a typical GC are novae and X-ray binaries, both well below the SN scale (novae ~ 10^38 J, but only the smallest GCs have them; LMXBs ~ 10^30 J, just at the threshold). The smooth $E^{1+\alpha}$ creation function gives them negligible contribution to DM. No supernovae, no AGN, no ICM shocks.
 * **Massive enough to test**: GCs have masses 10^4-10^6 M_sun, large enough to have measurable velocity dispersions (~5-15 km/s).
 
 SIDC prediction: **M_dyn / M_stellar ~ 1-3** (consistent with a pure old, metal-poor stellar population and no DM halo contribution). If SIDC is wrong — if DM is a particle that is *not* related to energetic events — then GCs might or might not have DM (depending on whether GCs are surrounded by DM sub-halos from cosmological structure formation).
@@ -1235,7 +1235,7 @@ See `calculations/vflat_morphology_test.py` for the full analysis.
 
 The V1 AGN test (§4.19, commit 230) was confounded by morphology: high-logSFRHa galaxies are mostly late-type (with intrinsically lower M_dyn/M_star), so the test measured "late vs early type" more than "AGN vs not AGN." This V2 addresses that confound by matching AGN vs control galaxies in **(M_star, sigma)** cells, where sigma is a proxy for morphology (high sigma = early-type, low sigma = late-type).
 
-**SIDC prediction:** AGN hosts have ~5-15% more M_dyn/M_star than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth E^(1+alpha) creation function (~10^25 times SN contribution per event).
+**SIDC prediction:** AGN hosts have ~5-15% more M_dyn/M_star than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function (~10^25 times SN contribution per event).
 
 **Data:** MaNGA DR15 (Sanchez+ 2018, J/ApJS/262/36), 10,220 galaxies. WHAN diagram classification (Cid Fernandes+ 2010):
 - 1,655 WHAN AGN (logSFRHa > 0, sigma > 80)
@@ -2166,13 +2166,13 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 *A quantitative test of whether SIDC is scale-invariant in time as well as space, using JWST-era high-z UV luminosity function data. The result is a NEGATIVE result for time-scale invariance but a POSITIVE result for SIDC's own consistency.*
 
-**The question.** SIDC's scale-invariance principle (every energetic event creates a 2D universe weighted by the smooth E^(1+alpha) function, §2.5.3) is *spatially* scale-invariant (any size event). Is it also *temporally* scale-invariant (any *epoch* event)? If so, then 2D universe creation at z=10⁻³⁶ s (inflation), z=10⁻¹² s (electroweak phase transition), z=10⁻⁶ s (QCD phase transition), z~10-100 (primordial black holes), and z<10 (stellar/AGN activity) should all contribute.
+**The question.** SIDC's scale-invariance principle (every energetic event creates a 2D universe weighted by the smooth $E^{1+\alpha}$ function, §2.5.3) is *spatially* scale-invariant (any size event). Is it also *temporally* scale-invariant (any *epoch* event)? If so, then 2D universe creation at z=10⁻³⁶ s (inflation), z=10⁻¹² s (electroweak phase transition), z=10⁻⁶ s (QCD phase transition), z~10-100 (primordial black holes), and z<10 (stellar/AGN activity) should all contribute.
 
 **SIDC's prediction (time-cumulative DM).** In SIDC, the DM density at redshift z is the *integrated past* 2D universe creation:
 
 $$\rho_{DM}^{SIDC}(z) = (1+z)^3 \int_z^{z_{\max}} \frac{rate(z')}{E(z')(1+z')} dz'$$
 
-where the rate is the *energetic event rate* at epoch z' (weighted by the smooth E^(1+alpha) function per event, §2.5.3). This is the *time-cumulative* DM density: it grows with cosmic time as past activity accumulates.
+where the rate is the *energetic event rate* at epoch z' (weighted by the smooth $E^{1+\alpha}$ function per event, §2.5.3). This is the *time-cumulative* DM density: it grows with cosmic time as past activity accumulates.
 
 **The ratio r(z) = ρ_DM^SIDC(z) / ρ_DM^ΛCDM(z).**
 
@@ -2216,7 +2216,7 @@ After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contri
 - **[PASS]** *Established*: SIDC's DM is time-lagged, with ~1% of ΛCDM's value at z=6
 - **[FAIL]** *Not established*: the *specific* ratio r(z=6) = 0.008 (depends on the SFR-energy calibration)
 - **[FAIL]** *Not established*: the *survival* of pre-stellar 2D universe fossils through cosmic dilution (the energetic analysis assumes they don't survive; this is a model assumption)
-- **[FAIL]** *Not established*: whether SIDC's smooth E^(1+alpha) creation function (§2.5.3) applies equally to phase transitions, PBHs, and stellar events (each has different physics; the smooth function uses alpha = 1.29 from SN calibration, which may not apply to other event types)
+- **[FAIL]** *Not established*: whether SIDC's smooth $E^{1+\alpha}$ creation function (§2.5.3) applies equally to phase transitions, PBHs, and stellar events (each has different physics; the smooth function uses alpha = 1.29 from SN calibration, which may not apply to other event types)
 
 **What this test does:**
 - **[PASS]** *Documents* the time-lag problem quantitatively (r(z) at z=4-10)
@@ -2352,7 +2352,7 @@ SIDC is internally consistent: it is energy-scale-invariant in its law, epoch-de
 
 The v4 calculation used R(z) = R_stellar(z) only, which is a *narrow* interpretation of SIDC's principle. Per a user follow-up, SIDC's principle should apply to ALL energetic activity, not just stellar events.
 
-SIDC's principle (§2.3, §2.5.3) says: *every energetic event creates a 2D universe weighted by the smooth E^(1+alpha) function*. At z=1100, the baryon plasma has enormous energetic activity (Thomson scattering, recombination) that, by SIDC's own principle, should create 2D universes.
+SIDC's principle (§2.3, §2.5.3) says: *every energetic event creates a 2D universe weighted by the smooth $E^{1+\alpha}$ function*. At z=1100, the baryon plasma has enormous energetic activity (Thomson scattering, recombination) that, by SIDC's own principle, should create 2D universes.
 
 **However, the v2 calculation (`baryon_plasma_cascade_v2.py`) had a bug:** it used T_gamma = T_CMB_0 * (1+z) for all z, which is the COUPLED temperature (valid only for z > 1100). The correct temperature for z < 1100 is T_gamma(z) = T_CMB_0 * 1101 * (1+z)^2 / 1101^2 (adiabatic cooling of decoupled photons). With this bug, the v2 result of r(z=6) = 0.66 was a HAPPY ACCIDENT (the wrong temperature inflated the Thomson rate at z=6 by 157x).
 
