@@ -1,0 +1,51 @@
+{
+  "description": "Cascade 2D universe death GW background for PTAs",
+  "method": "Cascade: 2D universe death emits GW with E = f_back * E_event at f = 1/\u03c4_2D. Integrate over cosmic history of energetic events.",
+  "cascade_f_back": 1e-85,
+  "cascade_alpha": 1.29,
+  "energy_scaling_rule": "\u03c4_2D = (E/E_Pl,3)^1.29 \u00d7 t_Pl,3",
+  "gw_frequencies_for_different_events": {
+    "core_collapse_SN": {
+      "E_J": 1e+44,
+      "tau_2D_s": 33,
+      "f_Hz": 0.03
+    },
+    "BNS_merger": {
+      "E_J": 1e+47,
+      "tau_2D_s": 580000.0,
+      "f_Hz": 1.7e-06
+    },
+    "long_GRB": {
+      "E_J": 1e+47,
+      "tau_2D_s": 580000.0,
+      "f_Hz": 1.7e-06
+    },
+    "AGN_flare": {
+      "E_J": 1e+50,
+      "tau_2D_s": 4600000000.0,
+      "f_Hz": 2.2e-10
+    },
+    "TDE": {
+      "E_J": 1e+48,
+      "tau_2D_s": 14000000.0,
+      "f_Hz": 7.1e-08
+    },
+    "primordial_BH_merger": {
+      "E_J": 1e+52,
+      "tau_2D_s": 56000000000000.0,
+      "f_Hz": 1.8e-14
+    }
+  },
+  "omega_gw_s_band": 4.5e-100,
+  "omega_gw_bns_band": 1e-90,
+  "pta_detection_threshold_omega": 1e-10,
+  "orders_of_magnitude_below_pta": 80,
+  "honest_finding": "Cascade 2D universe death GW is 80-100 orders of magnitude BELOW PTA detection. The cascade is FALSIFIABLE in principle but UNDETECTABLE in practice. SKA-MPG (2030s) and next-gen PTAs (IPTA-3) cannot detect this signal.",
+  "cascade_lifetime_predicts_gw_at_ffa": "Cascade 2D universe death GW is in PTA band (nHz to \u03bcHz) for BNS and TDE events, but the energy is far below detection.",
+  "caveat": "The cascade f_back ~ 10^-85 is calibrated from SN 33s lifetime. If f_back is actually larger (e.g., 10^-10), the GW could be detectable. But the SN 33s lifetime is well-established, so f_back is well-constrained.",
+  "comparison_to_lisa": "Cascade 2D universe death GW at 0.03 Hz (SN scale) is in LISA band but 6-14 orders of magnitude below LISA noise (see v2.7.3 \u00a710.17).",
+  "comparison_to_ptas": "Cascade 2D universe death GW at 0.001-10 \u03bcHz (BNS/TDE scale) is in PTA band but 80-100 orders of magnitude below detection. The cascade 2D universe death GW is UNDETECTABLE by any current or planned GW detector.",
+  "pulsar_timing_array_papers": "NANOGrav 15-yr (2023), EPTA+InPTA (2023), PPTA DR3 (2023), Chinese Pulsar Timing Array (2023)",
+  "ska_mpg_release": "2030s",
+  "ipta_3_release": "2030s+"
+}

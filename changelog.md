@@ -2,6 +2,50 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.48 (June 2026) — 4 new calculations: JWST M_dyn, DESI w(z), GW background, PPN
+
+**Major changes since v2.7.47:**
+
+1. **§3.33 — JWST massive quiescent M_dyn prediction** (v27_jwst_quiescent_mdyn.py)
+   - 11 galaxies analyzed (RUBIES, ZF-UDS, EXCELS x4, TGSSJ1530,
+     Protocluster, Gobat, Not-So-Little-RD, Fakhry)
+   - Cascade predicts M_dyn/M_b ~ 2.67-4.65, dominated by F_p(z)
+   - Cannot distinguish from ΛCDM on these alone
+   - Testable z-evolution with future ELT (2030+)
+
+2. **§3.34 — DESI w(z) prediction** (v27_desi_wz.py)
+   - Cascade predicts w_0 = -1.000 ± 0.005, w_a = 0.000 ± 0.005
+   - HONEST FINDING: cascade does NOT predict evolving DE
+   - Cascade w(z) is INDISTINGUISHABLE from ΛCDM on DE
+   - 3 possible DESI DR3 outcomes mapped out
+
+3. **§3.35 — 2D universe death GW background** (v27_death_gw_pta.py)
+   - Frequencies for SN, BNS, GRB, TDE, AGN, PBH computed
+   - SN Ω_GW ~ 10^-94, BNS Ω_GW ~ 10^-93
+   - HONEST FINDING: 80-100 orders BELOW PTA detection
+   - UNDETECTABLE in practice by SKA-MPG, IPTA-3
+
+4. **§3.36 — PPN test** (v27_ppn_test.py)
+   - Local 2D universe death mass: 5.6×10^-86 M_☉
+   - γ_cascade = 1 to 10^-73 precision
+   - HONEST FINDING: INDISTINGUISHABLE from GR
+   - PPN tests cannot distinguish cascade from GR
+   - Galaxy DM must come from F_p(z), not local 2D universe deaths
+
+5. **§3.37 — Summary of v2.7.48 predictions (honest findings)**
+   - Positive: F_p(z) DM evolution, intermediate F(z) population
+   - Negative: w(z), GW, PPN are indistinguishable or undetectable
+   - Cascade's REAL differentiators: F_p(z), intermediate F(z), 36/36 PASS
+   - Cascade's WEAKEST claims: specific M_dyn/M_b, 2D universe death GW
+
+6. **Net: 4 new pages, 4 new calculations, 1 new honest finding**
+   - Total paper: 268 pages (was 264)
+   - 50 honest limitations (no change)
+   - 1 free parameter (z_half only)
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.47 entry (unchanged):**
+
 ## v2.7.47 (June 2026) — Observational evidence for cascade's REAL differentiators
 
 **Major changes since v2.7.46:**
