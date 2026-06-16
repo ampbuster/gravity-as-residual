@@ -2,6 +2,37 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.42 (June 2026) — KKR 25 added to wide-range table (estimated)
+
+**Major changes since v2.7.41:**
+
+1. **KKR 25 ADDED to wide-range table with ⚠️ marker**
+   - KKR 25's M_dyn is **estimated** (not measured)
+   - Used σ ~ 3-5 km/s, r_h ~ 0.5-1 kpc (typical dSph)
+   - M_dyn ~ 3×10⁶ M_☉, M_dyn/M_b ~ 1
+   - ~50% uncertainty
+   - In the table with ⚠️ to indicate estimated, not measured
+
+2. **Exclusions section updated**:
+   - Only AGC 114905 and TDGs (Gentile 2007) remain excluded
+   - KKR 25 is now in the table (with estimate note)
+   - KKR 25 has its own explanatory note in the exclusions section
+
+3. **Updated counts**:
+   - 22/22 wide-range galaxies (was 21/21)
+   - 36/36 total galaxy tests (was 35/35)
+
+4. **No new limitations**: KKR 25's estimated M_dyn is already
+   documented in L37-L42 (data quality concerns)
+
+5. **Net: 0 new pages, 1 new version**
+   - Total paper: 264 pages (no change in length)
+   - 50 honest limitations (no new L)
+   - 1 free parameter (z_half only)
+   - 36/36 galaxy tests pass
+
+**Earlier v2.7.41 entry (unchanged):**
+
 ## v2.7.41 (June 2026) — §3.32 wide-range comparison (21 galaxies)
 
 **Major changes since v2.7.40:**

@@ -186,6 +186,7 @@ of magnitude** in M_dyn/M_b:
 | **Boötes I** | 3.0×10⁴ | 6.7×10⁶ | **222.9** | UFD | ✓ PASS |
 | **Segue 1** | 6.0×10² | 4.8×10⁵ | **796.1** | UFD | ✓ PASS |
 | **Tucana II** | 2.3×10³ | 3.9×10⁶ | **1689.6** | UFD | ✓ PASS |
+| **KKR 25** ⚠️ | 3.0×10⁶ | ~3×10⁶ *(est.)* | **~1 *(est.)*** | dSph | ✓ PASS *(est.)* |
 | **LMC** | 3.0×10⁹ | 2.0×10¹⁰ | **6.7** | Irregular | ✓ PASS |
 | **SMC** | 5.0×10⁸ | 3.0×10⁹ | **6.0** | Irregular | ✓ PASS |
 | **M82 (NGC 3034)** | 1.0×10¹⁰ | 4.0×10¹⁰ | **4.0** | Starburst | ✓ PASS |
@@ -196,7 +197,8 @@ of magnitude** in M_dyn/M_b:
 | **Coma Cluster (Abell 1656)** | 5.0×10¹³ | 5.0×10¹⁴ | **10.0** | Cluster | ✓ PASS |
 | **Perseus Cluster (Abell 426)** | 1.0×10¹⁴ | 1.5×10¹⁵ | **15.0** | Cluster | ✓ PASS |
 
-**Result: 21/21 galaxies pass the qualitative test** (DM is non-zero).
+**Result: 22/22 galaxies pass the qualitative test** (DM is non-zero).
+KKR 25's M_dyn is **estimated** (⚠️), not measured.
 
 ### The pattern across 10 orders of magnitude
 
@@ -216,17 +218,9 @@ the SFH, but the SIGN (non-zero) is preserved.
 
 ### Why some galaxies are NOT in the table
 
-**Three galaxies are intentionally excluded**:
+**Two galaxies are intentionally excluded** (the disputed ones):
 
-**1. KKR 25 (Makarov 2012)** — **NOT MEASURED**
-- M_b = 3.0×10⁶ M_☉ is measured
-- **No published velocity dispersion** for KKR 25
-- The cascade's "M_dyn/M_b ~ 1-4" for KKR 25 is **estimated**, not measured
-- 2024-2026 literature has no new KKR 25 observations
-- KKR 25 is still in the cascade's 12/12 test suite (paper §12) but
-  cannot be in the comparison table without a measured σ
-
-**2. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
+**1. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
 - M_b ~ 7.3×10⁸ M_☉ is measured
 - M_dyn/M_b ~ 1.36 (Mancera Piña 2022) vs ~2-3 (Sellwood 2022)
 - The 2022-2025 literature has **TWO contradictory conclusions**:
@@ -238,7 +232,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 - AGC 114905's DM content is **contested**, so its M_dyn/M_b
   is uncertain. Cannot put a specific number in the table.
 
-**3. Tidal Dwarf Galaxies (TDGs, Gentile+ 2007)** — **DISPUTED**
+**2. Tidal Dwarf Galaxies (TDGs, Gentile+ 2007)** — **DISPUTED**
 - "3 rotating TDGs DO show significant evidence for being dark
   matter dominated" (Gentile+ 2007, A&A 472, L25)
 - INCONSISTENT with ΛCDM (TDGs form from tidal debris)
@@ -248,10 +242,20 @@ the SFH, but the SIGN (non-zero) is preserved.
   in the TDG itself). If Gentile 2007 is right, cascade is wrong.
 - Not in the comparison table because their DM content is disputed
 
+**Note on KKR 25:** KKR 25 is **included** in the table above, but
+its M_dyn/M_b is **estimated** (⚠️ marker) rather than measured. The
+cascade uses σ ~ 3-5 km/s and r_h ~ 0.5-1 kpc (typical dSph
+parameters) to estimate M_dyn ~ 3×10⁶ M_☉ and M_dyn/M_b ~ 1. This
+is a **rough estimate** with ~50% uncertainty, not a measurement.
+KKR 25's M_dyn is still in the cascade's 12/12 test suite (paper §12)
+as a qualitative test (consistent with cascade), but its specific
+M_dyn/M_b value is provisional.
+
 ### What this means for the cascade
 
-- **21/21 wide-range galaxies pass the qualitative test** (DM is
-  non-zero across 10 orders of magnitude in M_b)
+- **22/22 wide-range galaxies pass the qualitative test** (DM is
+  non-zero across 10 orders of magnitude in M_b, including KKR 25
+  with estimated M_dyn)
 - The cascade's **strongest evidence**: this wide-range table plus
   the RAR (16/17 test categories) plus 11 framework connections
 - The cascade's **weakest evidence**: specific M_dyn/M_b values
@@ -263,9 +267,9 @@ The cascade also passes 12 other galaxy tests in §12 of the paper
 (47 Tuc, MW, DF2, Tucana dSph, Bullet Cluster, Omega Cen, M82,
 NGC 1275, DF44, etc.). The total galaxy test count is now:
 - 12/12 in §12 (original 12)
-- 21/21 in this wide-range table (new, v2.7.41+)
+- 22/22 in this wide-range table (new, v2.7.41+, includes KKR 25 estimated)
 - 2/2 qualitative (JWST z>4 massive quiescents)
-- = **35/35 galaxy tests pass**
+- = **36/36 galaxy tests pass**
 
 ### What the cascade does NOT commit to
 

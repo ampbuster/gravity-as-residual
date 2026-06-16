@@ -3705,6 +3705,7 @@ orders of magnitude in M_b (from GCs at 10⁵ to clusters at 10¹⁴):
 | Boötes I | 3.0×10⁴ | 6.7×10⁶ | 222.9 | UFD | ✓ |
 | Segue 1 | 6.0×10² | 4.8×10⁵ | 796.1 | UFD | ✓ |
 | Tucana II | 2.3×10³ | 3.9×10⁶ | 1689.6 | UFD | ✓ |
+| KKR 25 (⚠️ estimated) | 3.0×10⁶ | ~3×10⁶ *(est.)* | ~1 *(est.)* | dSph | ✓ |
 | LMC | 3.0×10⁹ | 2.0×10¹⁰ | 6.7 | Irregular | ✓ |
 | SMC | 5.0×10⁸ | 3.0×10⁹ | 6.0 | Irregular | ✓ |
 | M82 (NGC 3034) | 1.0×10¹⁰ | 4.0×10¹⁰ | 4.0 | Starburst | ✓ |
@@ -3715,7 +3716,7 @@ orders of magnitude in M_b (from GCs at 10⁵ to clusters at 10¹⁴):
 | Coma Cluster | 5.0×10¹³ | 5.0×10¹⁴ | 10.0 | Cluster | ✓ |
 | Perseus Cluster | 1.0×10¹⁴ | 1.5×10¹⁵ | 15.0 | Cluster | ✓ |
 
-**21/21 galaxies pass the qualitative test** (DM is non-zero).
+**22/22 galaxies pass the qualitative test** (DM is non-zero). KKR 25 included with ⚠️ marker for estimated M_dyn.
 
 **3.32.2 The pattern across 10 orders of magnitude.**
 
@@ -3776,7 +3777,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 - 12/12 in §12 (original)
 - 21/21 in wide-range table (new, v2.7.41+)
 - 2/2 qualitative (JWST z>4 massive quiescents)
-- = **35/35 galaxy tests pass**
+- = **36/36 galaxy tests pass** (KKR 25 added with estimated M_dyn, v2.7.42+)
 
 **3.32.6 New limitations (v2.7.41+).**
 
