@@ -2,6 +2,21 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.14 (June 2026) — §7.0 categorical summary + cleanup
+
+**Major changes since v2.7.13:**
+
+1. **§7.0 categorical summary (NEW)**: 37 limitations grouped by 13 categories
+   - 15 OPEN, 12 PARTIAL, 6 CLOSED, 2 FALSIFIED, 2 REVERTED
+   - Easy navigation by topic (dimensional structure, bulk-brane, 2D universe, etc.)
+   - Net status: cascade is qualitatively right (16/17 + 7/7 + 11/11) but quantitatively underdetermined
+   - The 12 PARTIAL limitations are the most promising areas for future work
+   - 6 CLOSED limitations are the cascade's "wins" — features surviving every iteration
+
+2. **Versioning consistency**: paper.md, README.md, changelog.md all at v2.7.14
+
+**Earlier v2.7.13 entry (unchanged):**
+
 ## v2.7.13 (June 2026) — §14 Falsifiability Matrix
 
 **Major changes since v2.7.12:**

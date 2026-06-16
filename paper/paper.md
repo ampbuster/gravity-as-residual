@@ -1209,7 +1209,7 @@ The honest summary: *none* of these frameworks derive the cascade's α = 1.29 fr
 - **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.13: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.14: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
@@ -4291,7 +4291,38 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 This is a thought experiment, not a theory. We identify 35 honest limitations, with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*):
 
-### 7.0 Master Limitations Table (v2.4)
+### 7.0 Master Limitations Table (v2.4-v2.7.13)
+
+**v2.7.13 update: categorical summary** (grouped by topic for easier navigation):
+
+| Category | OPEN | PARTIAL | CLOSED | FALSIFIED | REVERTED | Total |
+|----------|------|---------|--------|-----------|----------|-------|
+| **Dimensional structure** (L1, L3, L4, L9) | 4 | 0 | 0 | 0 | 0 | 4 |
+| **Bulk-brane coupling / inversion** (L2, L7, L8, L10, L12) | 5 | 0 | 0 | 0 | 0 | 5 |
+| **2D universe physics** (L9, L22, L23) | 2 | 1 | 0 | 0 | 0 | 3 |
+| **DM activity / proportionality** (L5, L21, L24) | 0 | 3 | 0 | 0 | 0 | 3 |
+| **CMB / early universe** (L6) | 0 | 1 | 0 | 0 | 0 | 1 |
+| **5/27/68 derivation** (L17, L26) | 0 | 2 | 0 | 0 | 0 | 2 |
+| **Hubble tension** (L18) | 0 | 0 | 1 | 0 | 0 | 1 |
+| **DE density mechanism** (L15, L29) | 0 | 1 | 1 | 0 | 0 | 2 |
+| **Energy-scaling rule (α)** (L25, L28, L30) | 0 | 3 | 0 | 0 | 0 | 3 |
+| **Smooth F(z) / smooth creation** (L31, L35, L36) | 1 | 0 | 2 | 0 | 1 | 4 |
+| **RAR / f_active** (L19, L20) | 0 | 0 | 0 | 1 | 1 | 2 |
+| **Primordial Lagrangian / E_primordial** (L26, L34) | 1 | 1 | 0 | 0 | 0 | 2 |
+| **Other architectural** (L11, L11.5, L13, L14, L16, L27) | 2 | 0 | 3 | 1 | 0 | 6 |
+| **TOTAL** | **15** | **12** | **6** | **2** | **2** | **37** |
+
+**Net status of cascade's 37 limitations:**
+- 15 OPEN (need theoretical or observational work to close)
+- 12 PARTIAL (some progress made, more work needed)
+- 6 CLOSED (resolved by construction or by v2.x updates)
+- 2 FALSIFIED (replaced by better functional forms)
+- 2 REVERTED (were claimed to be derived, found to be phenomenological)
+- **0% of cascade's claims are STRONGLY confirmed by data** (consistent with all 16/17 test categories and 7/7 cases, but none at high statistical significance for the *specific cascade*)
+
+**The honest summary:** the cascade is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 12 PARTIAL limitations are the most promising areas for future work. The 6 CLOSED limitations represent the cascade's "wins" — features that survive every iteration of the model.
+
+The full table follows:
 
 | # | Title | Status | Section | What would close it |
 |---|-------|--------|---------|---------------------|
