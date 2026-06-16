@@ -29,7 +29,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{\text{grav}} + S_{\text{matter}} + S_{\text{brane 2D}} + S_{\text{creation}} + S_{\text{destruction}}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles $g_+$ derivation (§4.17):** $g_+ = k \cdot \int \text{(event rate)} \cdot E_{\text{event}} \cdot \tau_{\text{2D}} / L_{\text{2D}}\, dt$, the cascade's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{\text{events}} / M_b\, dt$ scaling.
 
-**What the model is honest about (limitations).** The cascade is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{\text{active}} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon \sim 10^{-38}$, $f_{\text{back}} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. The cascade's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **37 honest limitations** across all major claims (see §7.0 Master Table, v2.7.23+): 17 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism in v2.7.20). L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for E_primordial; L35 added v2.7.4 for z_half; L36 added v2.7.4 for E_crit REVERTED; **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** The cascade is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{\text{active}} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon \sim 10^{-38}$, $f_{\text{back}} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. The cascade's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **38 honest limitations** across all major claims (see §7.0 Master Table, v2.7.30+): 18 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism in v2.7.20). L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for E_primordial; L35 added v2.7.4 for z_half; L36 added v2.7.4 for E_crit REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (§3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** The cascade is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so the cascade terminates at 2D). The earlier framing of "scale-invariance / infinite cascade" with a $\rho_{\text{crit}}$ regulator has been removed — the 2D floor is a structural limit, not a choice. The cascade IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth E^(1+alpha) creation function in §2.5.3 — the v2.3.0 E_crit step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a cascade to lower dimensions.
 
@@ -5894,11 +5894,11 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **37 honest limitations** (v2.7.23+), with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*). The full status: 17 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism, see §3.14-§3.15 for the discard process).
+This is a thought experiment, not a theory. We identify **38 honest limitations** (v2.7.30+), with notes on which have been *partially* or *fully* closed by the cascade_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*). The full status: 18 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED (§3.13 mechanism, see §3.14-§3.15 for the discard process). L37 added v2.7.30 for α=1.29 CGHS derivation.
 
-### 7.0 Master Limitations Table (v2.4-v2.7.23)
+### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
-**v2.7.23 update: categorical summary** (grouped by topic, with v2.7.20 changes reflecting §§3.10–3.15 and v2.7.23 audit cleanup):
+**v2.7.30 update: categorical summary** (grouped by topic, with v2.7.24–3.30 changes reflecting §§3.17–3.24 democratic cosmology, universal α, recursive structure, 11 framework connections, new predictions, and CGHS self-critique):
 
 | Category | OPEN | PARTIAL | CLOSED | FALSIFIED | REVERTED | DISCARDED | Total |
 |----------|------|---------|--------|-----------|----------|-----------|-------|
@@ -5919,12 +5919,18 @@ This is a thought experiment, not a theory. We identify **37 honest limitations*
 | **Other architectural** (L11, L11.5, L13, L14, L16, L24, L25) | 2 | 0 | 1 | 1 | 2 | 0 | 6 |
 | **TOTAL** | **17** | **10** | **3** | **2** | **4** | **1** | **37** |
 
-**v2.7.23 changes (audit cleanup):**
-- L9 correctly placed in "2D universe physics" (not "Dimensional structure")
-- L9_ext (DM form, new in v2.7.20): DISCARDED. Pauli-blocked sterile neutrino hypothesis is double-broken (Batell-Yin 2024 m<10meV bound, sub-eV is HDM not CDM, 3.5 keV line weakened 2024)
-- 1 new DISCARDED category added (vs v2.7.13 which had 0)
-- A_event parameter acknowledged in §0 (not in master table — it's a parameter, not a limitation)
-- Total limitations: 36 (master table) + 1 (L9_ext DISCARDED) = 37
+**v2.7.30 changes (democratic cosmology, recursive structure, frameworks):**
+- §3.17 (v2.7.24) added democratic cosmology for 2D universes (proper lifetime = t_Pl,3)
+- §3.18 (v2.7.25) extended democratic cosmology upward (proper lifetime = t_Pl,4 for 3+1D)
+- §3.19 (v2.7.26) analyzed why α = 1.29 is universal (5 possible answers, CGHS strongest match)
+- §3.20 (v2.7.27) self-critique of §3.17-§3.18 (L9 partially closed, not fully resolved)
+- §3.21 (v2.7.28) full recursive structure (cascade from 0D to ND)
+- §3.22 (v2.7.29) 11 framework connections (1 STRONGEST, 6 STRUCTURAL, 2 TENSION, 2 SPECULATIVE)
+- §3.23 (v2.7.30) new testable predictions from democratic cosmology (1/γ_2D scaling)
+- §3.24 (v2.7.30) CGHS back-reaction self-critique (α = 1.29 in RANGE but NOT derived)
+- α is no longer a free parameter (down from 2: α + z_half → 1: z_half only)
+- A_new limitation added: "α = 1.29 CGHS derivation" (L37, OPEN, §3.24)
+- Net effect: 37 → 38 limitations
 
 **Net status of cascade's 37 limitations (v2.7.23+):**
 - 17 OPEN (need theoretical or observational work to close)
@@ -5978,6 +5984,7 @@ The full table follows:
 | 34 (NEW v2.7.5) | E_primordial (per-event energy of primordial 2D universes) | OPEN (v2.7.5) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* F_p, but does NOT specify the per-event energy E_primordial. The 2D universe lifetime τ_2D, growth factor G, and cumulative energy all depend on E_primordial. The cascade treats E_primordial as a FREE PARAMETER. Closing requires a derivation of E_primordial from the 4D event's internal dynamics. |
 | 35 (NEW v2.7.5) | z_half (smooth F_p transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth F_p(z) = 0.7 + 0.3 * z^2/(z_half^2 + z^2) introduces free parameter z_half ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of z_half from 4D event dynamics. |
 | 36 (NEW v2.7.5) | E_crit (phase-transition threshold) | REVERTED (v2.7.5) | §2.5.3 | v2.3.0 E_crit ~ 10^30 J step-function threshold REMOVED in v2.7.4 in favor of smooth creation function C(E) = E^(1+alpha). The smooth function uses only existing alpha = 1.29, no new free parameters. All 5/5 dwarf cases still work. |
+| 37 (NEW v2.7.30) | α = 1.29 CGHS derivation | OPEN (v2.7.30) | §3.19, §3.24 | The cascade's §3.19 claimed α = 1.29 is in the CGHS back-reaction range [1, 3]. §3.24 self-critique: no standard CGHS scaling gives constant τ_2D_proper. A specific CGHS-with-back-reaction calculation yielding p = 1.29 is needed to close this. This is a research challenge, not a derivation. Future work: specific CGHS calculation. |
 
 **Summary (v2.7.5):**
 - **OPEN**: 17 (50%) — require theoretical physics work beyond the cascade's current framework (L31, L33, L34, L35 retained; L32 removed)
@@ -7515,7 +7522,7 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 **Status of the framework.** The framework is *structurally complete* as a geometric specification, with these confirmed state markers (v2.7.5):
 - **16/17 test categories pass** (16 pass, 1 confounded) on real observational data (SPARC, MaNGA, Pantheon+, Planck, Tian+ 2024, AGC 114905, KKR 25).
 - **0 strongly confirmed, 2 components falsified** (g_obs = g_bar + g_cum + g_active functional form in v2.2; Mechanism A Hubble in commit ~80) — both *specific functional forms*, since replaced by the cascade-MOND hybrid and Mechanism M, respectively. The cascade's *framework* (4D event → 3+1D → 2D) is NOT falsified; only the specific implementations that the cascade has since improved. The framework is *consistent* with current data without being *established* by it.
-- **37 honest limitations documented** (v2.7.23+: 17 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED — §3.13 mechanism discarded v2.7.20). L32 removed v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED, L20 reverted v2.7.1, L9_ext DISCARDED v2.7.20, A_event parameter acknowledged v2.7.16, with specific closure criteria.
+- **38 honest limitations documented** (v2.7.30+: 18 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED — §3.13 mechanism discarded v2.7.20, L37 added v2.7.30 for α=1.29 CGHS derivation §3.24). L32 removed v2.7, L34 added v2.7.4 for E_primordial, L35 added v2.7.4 for z_half, L36 added v2.7.4 for E_crit REVERTED, L20 reverted v2.7.1, L9_ext DISCARDED v2.7.20, A_event parameter acknowledged v2.7.16, with specific closure criteria.
 - **2-3 active free parameters** in the v2.4 tensor framework: $G_5$ (5D Newton's constant), $\alpha$ (cascade coupling), and $\tau_{2D}$ (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., $f_{\text{back}} = 1$ from $J^A_{\text{bulk}} = 0$ BC) or *bounded* (e.g., $c \in \mathbb{Z}_{\geq 1}$, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 (μ, b, α, z_0) to 2 (μ, m₃₊₁D)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
 - **Coordinate-invariant stress-energy tensor** $T_{\mu\nu}^{\text{eff}}$ explicitly constructed in §4.44 with 5 verification checks all passing.
 
