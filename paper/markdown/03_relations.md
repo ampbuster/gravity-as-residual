@@ -51,7 +51,7 @@ The model in this paper is one of several recent proposals that attempt to unify
 **The cascade-MOND hybrid's empirical status (v2.3.0):**
 - Galaxy scale (SPARC, 175 galaxies): 10% median residual with free g₊ and M/L (commit 153)
 - Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC g_+ = 1.3e-9 (1σ: 5.3e-10 to 2.7e-9), matches Tian+ 2024's 1.7e-9 within 1σ (commit 159)
-- V_local predictions test (commit 170): g₊ \propto \sigma^{1.85} matches MOND EFE (g₊ \propto \sigma^2) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
+- V_local predictions test (commit 170): $g_+ \propto \sigma^{1.85}$ matches MOND EFE ($g_+ \propto \sigma^2$) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
 
 **The cascade-MOND hybrid is a *completion* of the cascade's RAR story, not a falsification of the cascade's framework.** The cascade's pure prediction (g_obs = g_bar + g_cum + g_active) was falsified by real SPARC (commit 152, Limitation 19). The cascade's *framework* (4D event → 3+1D → 2D, with cumulative 2D universe gravity) survives because the cascade-MOND hybrid is a *natural completion*: the cascade provides the *geometric origin* of g_+, MOND provides the *functional form* of g_obs(g_bar). The hybrid model is a *prediction* of the cascade (Limitation 27), and it's *consistent* with the cluster-scale data (Limitation 28). A specific implementation of the cascade would need to derive MOND's interpolation function from the cascade's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than the cascade's pure cumulative-2D-universe-gravity picture (Limitation 27).
 
@@ -3140,7 +3140,7 @@ of 67× + cumulative growth → 5% → 27%.
 With NEW F_p(0) = 0.9993 (most DM is primordial, not cumulative),
 the 67× amplification is no longer needed. The cascade should
 revise A_event = 1 (no amplification), meaning the 2D universe
-mass at death = SN energy / c^2. This is the simplest assumption,
+mass at death = $E_{SN} / c^2$. This is the simplest assumption,
 consistent with deaths-only DM (v2.7.11).
 
 **L51 REVISED (v2.7.54)**: A_event = 1 is the correct value with

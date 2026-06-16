@@ -30,7 +30,7 @@ At *fixed visible mass*, the model predicts that the *small* scatter in the RAR 
 
 $g₊ (cascade) = \frac{3}{4} \cdot G \cdot f(cumulative) \cdot M_{DM} / (\pi R_{halo}^2)$
 
-For a Milky Way-like galaxy ($M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, $f(cumulative) = 0.7$ from the cascade's 30%/70% active/cumulative split), this gives g₊ (cascade) \approx 2.6 \times 10^{-11} m/s², which is ~0.22x the empirical McGaugh+ 2016 value of $1.2 \times 10^{-10}$ m/s² — within a factor of 5, in the right ballpark.
+For a Milky Way-like galaxy ($M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, $f(cumulative) = 0.7$ from the cascade's 30%/70% active/cumulative split), this gives $g_+ (cascade) \approx 2.6 \times 10^{-11}$ m/s², which is ~0.22x the empirical McGaugh+ 2016 value of $1.2 \times 10^{-10}$ m/s² — within a factor of 5, in the right ballpark.
 
 *Critical test of the cascade:* the empirical g₊ is *constant* across galaxy types, but the cascade's g₊ depends on $M_{DM}/R_{halo}^2$. For g₊ to be constant, the cascade would require $M_{DM} \propto R_{halo}^2$ (a baryonic Tully-Fisher-like relation, but for $M_{DM}$ rather than $M_{bar}$). This is a *testable* prediction of the cascade. If future high-precision observations confirm the empirical constancy of g₊ across all galaxy types (with no variation in $M_{DM}/R_{halo}^2$ at fixed g₊), the cascade is in tension with the data. If g₊ shows *small* variations correlated with $M_{DM}/R_{halo}^2$, the cascade is *qualitatively* consistent. The current precision of g₊ measurements is at the ~0.1 dex level, which is *just* sensitive to the cascade's prediction — future observations (e.g., with Rubin Observatory / LSST) could resolve this question.
 
@@ -38,7 +38,7 @@ For a Milky Way-like galaxy ($M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, $f
 
 **The RAR across mass scales: cascade vs. observations (v2.2.1).** A more stringent test of the cascade's g₊ prediction comes from comparing the cascade to recent observations across the *full* mass spectrum. Three recent observational results are particularly relevant:
 
-1. **McGaugh+ 2016 (galaxies)**: g₊ = 1.2 \times 10^{-10} m/s² (a tight, approximately universal relation for spiral galaxies with $M_{bar} \sim 10^8 - 10^{11} M_\odot$).
+1. **McGaugh+ 2016 (galaxies)**: $g_+ = 1.2 \times 10^{-10}$ m/s² (a tight, approximately universal relation for spiral galaxies with $M_{bar} \sim 10^8 - 10^{11} M_\odot$).
 
 2. **Júlio+ 2025 (EDGE, dwarfs)**: 12 nearby dwarf galaxies with $M_{bar} \sim 10^4 - 10^{7.5} M_\odot$ lie *systematically above* the low-mass extrapolation of the McGaugh+ 2016 RAR. Each galaxy traces a multi-valued locus in RAR space (the same baryonic acceleration can correspond to different observed accelerations). The conclusion: *"the RAR does not apply to low-mass dwarf galaxies"* [Júlio+ 2025, A&A 704, A330].
 
@@ -66,7 +66,7 @@ Supercluster        1e15           3000       2.6e-12           ~1.7e-9 (extrap.
 *Implications for the cascade:*
 - The cascade's *galaxy-scale* RAR is consistent with observations to within a factor of 5, which is encouraging.
 - The cascade's *dwarf-scale* and *cluster-scale* g₊ predictions are *quantitatively wrong*. The cascade would need significant additional physics (baryonic feedback at low masses, ICM physics at high masses) to match the full mass spectrum.
-- The cascade's *scaling* g₊ \propto M_{DM}/R_{halo}^2 is the *opposite direction* of the empirical cluster RAR (which has g₊ increasing with mass for clusters).
+- The cascade's *scaling* $g_+ \propto M_{DM}/R_{halo}^2$ is the *opposite direction* of the empirical cluster RAR (which has g₊ increasing with mass for clusters).
 - The cascade's qualitative picture — g₊ depends on local environment — is correct, but the *quantitative* g₊ scaling across mass scales is *not* simply $M_{DM}/R_{halo}^2$. A more sophisticated implementation of the cascade (e.g., including baryonic feedback, ICM physics, halo concentration dependence) would be needed to match the full data.
 
 *Status:* the cascade's RAR prediction is *partially* consistent with the data. The qualitative picture (smooth RAR, activity-driven, cumulative-return floor) is right, but the quantitative g₊ scaling across mass scales is *open* and would require a specific implementation to fully resolve. This is consistent with the §7 limitations: the *qualitative* RAR picture is preserved, but the *quantitative* g₊ scaling is a *calculation to do* (now better framed as a *specific* calculation that's *partially* consistent with data).
@@ -131,8 +131,8 @@ This tension requires either a different spatial distribution for the active con
 3. **At the cluster scale, the cascade over-predicts by 1.4-2.5x even with $f_{active} = 0$.** This means the CUMULATIVE-ONLY contribution is too much. The cluster's empirical $M_{halo}$ would need to be 1.6-1.7x smaller to match the cluster RAR.
 
 4. **The cascade's $M_{halo}$ is too large for the RAR fit:**
-   - MW: 4.6x too large (compared to the MOND-implied $M_{halo}$ from g₊ = 1.2 \times 10^{-10})
-   - Cluster: 1.65x too large (compared to the MOND-implied $M_{halo}$ from g₊ = 2 \times 10^{-9})
+   - MW: 4.6x too large (compared to the MOND-implied $M_{halo}$ from $g_+ = 1.2 \times 10^{-10}$)
+   - Cluster: 1.65x too large (compared to the MOND-implied $M_{halo}$ from $g_+ = 2 \times 10^{-9}$)
    - The "too large" factor is *mass-dependent* (4.6x for MW, 1.65x for cluster)
 
 **Honest interpretation of the full mass spectrum:**
@@ -155,7 +155,7 @@ This is consistent with the recent findings (EDGE 2025, Tian 2024) that the RAR 
 
 **Best MW fit (full-curve):** $f_{active} = 0.02$, $N_{crit} = 0.1$ — matches RAR to 1-3% at $r = 0.5-8$ kpc. But fails at $r > 10$ kpc (over-predicts by 10-114%).
 
-**Best cluster fit (full-curve, with g₊ = 17\times):** $f_{active} = 0.1$, $N_{crit} = 5$ — matches cluster RAR to 1-9% at $r = 100-200$ kpc. But fails at $r = 10-30$ kpc and $r > 300$ kpc.
+**Best cluster fit (full-curve, with $g_+ = 17\times$):** $f_{active} = 0.1$, $N_{crit} = 5$ — matches cluster RAR to 1-9% at $r = 100-200$ kpc. But fails at $r = 10-30$ kpc and $r > 300$ kpc.
 
 **Best UNIVERSAL fit (joint MW + cluster):** $f_{active} = 0.05$, $N_{crit} = 10$ — gives 28-67% off at MW inner, 4-20% off at cluster typical. A reasonable compromise.
 
@@ -188,7 +188,7 @@ The cascade matches the RAR to 5-13% across all radii from 0.5 to 30 kpc:
 - The cluster needs slightly larger scale; $f_{active}$ is a compromise.
 
 **The cascade needs three ingredients to match the RAR:**
-1. **Small $f_{active}$** ($\sim$1-5%, not 30%): controls the inner galaxy, prevents the active contribution from inflating $g_{obs}$ at high $g_{bar}$.
+1. **Small $f_{active}$** (~1-5%, not 30%): controls the inner galaxy, prevents the active contribution from inflating $g_{obs}$ at high $g_{bar}$.
 2. **Isothermal spatial distribution** ($\rho \sim 1/r^2$): gives $g_{cum} \sim 1/r$ at large r, which is the MOND-like behavior required by the RAR.
 3. **$M_{halo}$ is 1/3 to 1/5 of empirical**: the empirical $M_{halo}$ includes things beyond the cascade's "cumulative 2D universe gravity" (possibly baryons, gas, MACHOs, or other components).
 
@@ -249,13 +249,13 @@ This is now the cascade's best candidate RAR model: small $f_{active}$ (5%), iso
 
 This dynamical-mixing naturally gives the *intermediate* spatial distribution needed to match the data:
 
-- **Galaxy scale**: cumulative is mostly well-mixed (close to uniform). The cascade's original g₊ = $(3/4) \cdot G$ \cdot f_{cumulative} \cdot M_{DM} / (\pi R_{halo}^2) formula is *approximately* right, explaining why the cascade's g₊ is in the right ballpark for galaxies (0.22x empirical).
+- **Galaxy scale**: cumulative is mostly well-mixed (close to uniform). The cascade's original $g_+ = (3/4) \cdot G \cdot f_{cumulative} \cdot M_{DM} / (\pi R_{halo}^2)$ formula is *approximately* right, explaining why the cascade's g₊ is in the right ballpark for galaxies (0.22x empirical).
 
 - **Dwarf scale (EDGE 2025)**: cumulative is well-mixed (close to uniform) at small r, but the *total* DM is small because dwarf galaxies have low activity rates. The cascade under-predicts the dwarf DM not because of the *spatial* distribution, but because of the *amplitude* — there must be additional activity-driven DM contributions in dwarfs that the cascade's simple SN+stellar event spectrum underestimates.
 
 - **Cluster scale (Tian+ 2024)**: cumulative is *barely* mixed in the cluster outskirts — essentially clustered, following the activity. The cluster g₊ is much higher than the galaxy g₊ because the cumulative is *not* uniform at cluster scales. The cascade's original g₊ formula assumed uniform $\rho_{cum}$, which is wrong for clusters where mixing is slow.
 
-The *dynamical-mixing* picture reconciles the cascade's apparently inconsistent claims ("active is clustered" vs "cumulative is approximately uniform") by showing that the *cumulative* is *not* a delta function (clustered) but is also not perfectly uniform — it is *dynamically mixed* by 3+1D gravity, with the mixing fraction depending on radius and halo mass. The cascade's g₊ prediction is therefore *radius-dependent* and *mass-dependent*, and the simple g₊ \propto M_{DM}/R_{halo}^2 formula is only a *first-order* approximation valid for the *inner* regions of galaxies (where dynamical mixing is fast and the cumulative is well-mixed).
+The *dynamical-mixing* picture reconciles the cascade's apparently inconsistent claims ("active is clustered" vs "cumulative is approximately uniform") by showing that the *cumulative* is *not* a delta function (clustered) but is also not perfectly uniform — it is *dynamically mixed* by 3+1D gravity, with the mixing fraction depending on radius and halo mass. The cascade's g₊ prediction is therefore *radius-dependent* and *mass-dependent*, and the simple $g_+ \propto M_{DM}/R_{halo}^2$ formula is only a *first-order* approximation valid for the *inner* regions of galaxies (where dynamical mixing is fast and the cumulative is well-mixed).
 
 *Implication*: the cascade's qualitative RAR picture is preserved (smooth RAR, activity-driven, cumulative floor), but the quantitative g₊ scaling requires a *dynamical-mixing model* that includes the local dynamical time, halo concentration, and activity-time correlation. A specific implementation of this model would be a *calculation to do*, not a fundamental limitation.
 
@@ -266,10 +266,10 @@ The *dynamical-mixing* picture reconciles the cascade's apparently inconsistent 
 | Model | Median residual | Within 20% of RAR |
 |-------|----------------|-------------------|
 | **Cascade (pure, MW-tuned)** | 70.5% | 22.8% |
-| **MOND (g₊ = 1.0 \times 10^{-10}, M/L=0.5)** | 20.2% | 49.7% |
+| **MOND ($g_+ = 1.0 \times 10^{-10}$, M/L=0.5)** | 20.2% | 49.7% |
 | **MOND (free g₊, free M/L)** | **10.1%** | **87.6%** |
 
-The cascade's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ functional form is **falsified** on real data (70% median residual). MOND's interpolation function $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ fits the real data to 10% when g₊ and M/L are allowed to vary per galaxy. The empirical g₊ is **universal** at $\sim 1.0{-}1.2 \times 10^{-10}$ m/s² across 149 galaxies (per-galaxy best fit: $9.1 \times 10^{-11}$ median, $1.2 \times 10^{-10}$ mean, 0.42 dex scatter, consistent with the McGaugh+ 2016 measurement of $1.2 \times 10^{-10}$).
+The cascade's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ functional form is **falsified** on real data (70% median residual). MOND's interpolation function $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ fits the real data to 10% when g₊ and M/L are allowed to vary per galaxy. The empirical g₊ is **universal** at $\sim 1.0-1.2 \times 10^{-10}$ m/s² across 149 galaxies (per-galaxy best fit: $9.1 \times 10^{-11}$ median, $1.2 \times 10^{-10}$ mean, 0.42 dex scatter, consistent with the McGaugh+ 2016 measurement of $1.2 \times 10^{-10}$).
 
 *The cascade-MOND hybrid proposal.* The cascade's framework is not falsified by this test; only its specific RAR *functional form* is. A more honest proposal:
 
@@ -277,7 +277,7 @@ The cascade's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ functional form is **fa
 - **MOND provides the HOW**: $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$ is the correct functional form for the relationship between $g_{obs}$ and $g_{bar}$ in real galaxies.
 - **Cascade-MOND synthesis**: the cascade's RAR prediction is **MOND-compatible**, not its own independent prediction. The cascade's contribution to the RAR is the *geometric origin of g₊, not the form of $g_{obs}(g_{bar})$*.
 
-This is a *completion* of the cascade's RAR story, not a falsification. The cascade's 4D event framework explains why there's a universal g₊ at galaxy scales. MOND's interpolation function explains how $g_{obs}$ depends on $g_{bar}$ within a galaxy. The cluster deviation (g₊ \sim 17\times higher per Tian+ 2024) is a separate puzzle not addressed by either model.
+This is a *completion* of the cascade's RAR story, not a falsification. The cascade's 4D event framework explains why there's a universal g₊ at galaxy scales. MOND's interpolation function explains how $g_{obs}$ depends on $g_{bar}$ within a galaxy. The cluster deviation ($g_+ \sim 17\times$ higher per Tian+ 2024) is a separate puzzle not addressed by either model.
 
 *Testable predictions of the cascade-MOND hybrid:*
 1. g₊ is universal at galaxy scales (consistent with MOND's $a_0$). The cascade's framework predicts this universality from the 2D universe gravity.
@@ -288,7 +288,7 @@ This is a *completion* of the cascade's RAR story, not a falsification. The casc
 The cascade's RAR story now has THREE parts:
 - *Framework* (cascade's 2D universe gravity provides the origin of g₊) - **viable**
 - *Functional form* (MOND's interpolation $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$) - **MOND-compatible**
-- *Mass-dependence* (cluster g₊ \sim 17\times galaxy g₊) - **Tian+ 2024 consistent, mechanism unspecified**
+- *Mass-dependence* (cluster $g_+ \sim 17\times$ galaxy $g_+$) - **Tian+ 2024 consistent, mechanism unspecified**
 
 ### 4.2 Dark matter as cumulative collective gravity, not a relic
 
@@ -691,10 +691,10 @@ where $k = G_{2D}/c^2$ is a coupling constant with appropriate units. This is th
 
 *Connection to Gemini's scaling relation:*
 
-If we interpret $\dot{n}(t) = \rho_{events}(t)/M_b$ (specific event rate, with units of 1/time per unit mass), then:
-$g₊ \propto \int_{t_{form}}^{t_0} \frac{\rho_{events}(t)}{M_b} \cdot \frac{E_{event} \cdot \tau_{2D}}{L_{2D}}   dt$
+If we interpret $\dot{n}(t) = \rho_{events}(t)/M_{b}$ (specific event rate, with units of 1/time per unit mass), then:
+$g_+ \propto \int_{t_{form}}^{t_0} \frac{\rho_{events}(t)}{M_{b}} \cdot \frac{E_{event} \cdot \tau_{2D}}{L_{2D}}   dt$
 
-This is the *Gemini scaling relation* (per the user's prompt): g₊ \propto \int \rho_{events}/M_b   dt, with the $E_{event} \cdot \tau_{2D}/L_{2D}$ being a fixed coupling factor.
+This is the *Gemini scaling relation* (per the user's prompt): $g_+ \propto \int \rho_{events}/M_{b}   dt$, with the $E_{event} \cdot \tau_{2D}/L_{2D}$ being a fixed coupling factor.
 
 *Numerical estimates:*
 
@@ -721,7 +721,7 @@ If cluster events have $\sim 10\times$ the energy and $\sim 10\times$ the size o
 
 The cascade's first-principles formula for g_+ can be written more transparently as:
 
-$g₊ \propto \int_{t_{form}}^{t_0} \frac{\mathscr{R}_{energetic}(t)}{V_{local}}   dt$
+$g_+ \propto \int_{t_{form}}^{t_0} \frac{\mathscr{R}_{energetic}(t)}{V_{local}}   dt$
 
 Where:
 - $\mathscr{R}_{energetic}(t)$ is the total energetic power at the observer's location (W)
@@ -731,7 +731,7 @@ Where:
 For a galaxy's center, $V_{local} \sim R_{halo}^3$ and $\mathscr{R}_{energetic} = SFR \cdot c^2 \cdot 0.007$ (nucleosynthesis power).
 For a BCG at the bottom of a cluster, $V_{local} \sim R_{BCG}^3$ (BCG's sphere of influence, NOT the cluster volume) and $\mathscr{R}_{energetic} = P_{ICM} + P_{mergers} + P_{AGN feedback}$ (the entire cluster's energetic output).
 
-This is the **specific energetic power density** integrated over cosmic time, and it is the cascade's resolution of the cluster-scale enhancement (Tian+ 2024). The old formula g₊ \propto M_{DM}/R_{halo}^2 predicted the wrong direction; the new formula with V_local normalization predicts the correct direction and order of magnitude (see Limitation 28).
+This is the **specific energetic power density** integrated over cosmic time, and it is the cascade's resolution of the cluster-scale enhancement (Tian+ 2024). The old formula $g_+ \propto M_{DM}/R_{halo}^2$ predicted the wrong direction; the new formula with V_local normalization predicts the correct direction and order of magnitude (see Limitation 28).
 
 *Testable predictions of the cascade's g_+ formula:*
 
@@ -1996,7 +1996,7 @@ A Python-based phenomenological emulator has been built to verify the cascade's 
 
 **Part 2: Gaussian Instanton.** `gaussian_instanton(τ) = a_0 \exp(-τ^2/τ_{2D}^2)` implements the v2.4 Task 3 smooth decay profile for the 2D universe's scale factor. The normalized window $g(τ) = (1/τ_{2D}\sqrt{π}) \exp(-τ^2/τ_{2D}^2)$ localizes the fossil payload with $\int g dτ = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24π) R^{(2)}$ (v2.4 Task 2, with $c = 1$ default).
 
-**Part 3: Smooth Potential Field.** `smooth_potential_field(r, M_b_profile)` builds the cascade-MOND hybrid potential: $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$, with g₊ = 1.2 \times 10^{-10} m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{total}(r)}$ and a BTFR-predicted $V_{flat} = (G M_b g_+)^{1/4}$.
+**Part 3: Smooth Potential Field.** `smooth_potential_field(r, M_b_profile)` builds the cascade-MOND hybrid potential: $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/g_+}))$, with $g_+ = 1.2 \times 10^{-10}$ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{total}(r)}$ and a BTFR-predicted $V_{flat} = (G M_b g_+)^{1/4}$.
 
 **Part 4: Testing Harness (independent dwarf-galaxy cases).** The emulator runs two INDEPENDENT dwarf-galaxy cases (AGC 114905 and KKR 25) and verifies that the cascade's SFH-DM correlation is qualitatively consistent with observations for each.
 
@@ -2107,7 +2107,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 | $N_{CCSN, total}$ | $1.1 \times 10^6$ | events | 15% IMF + E_CCSN |
 | Recent event rate (50 Myr) | 0 | events/Myr | "no current SN progenitors" |
 | **Cascade $M_{dyn}/M_b$** | **1.36** | dimensionless | emulator output |
-| **Observed $M_{dyn}/M_b$** | $\sim$1–2 | dimensionless | Mancera Piña+ 2024 |
+| **Observed $M_{dyn}/M_b$** | ~1-2 | dimensionless | Mancera Piña+ 2024 |
 
 **Result: AGC 114905 is DM-POOR, matching observation. PASS.**
 
@@ -2123,7 +2123,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 | $N_{CCSN, total}$ | $4.5 \times 10^6$ | $1.8 \times 10^3$ | events | (revised) |
 | Recent event rate (50 Myr) | 0 | 0 | events/Myr | "no current SN progenitors" |
 | **Cascade $M_{dyn}/M_b$** | **299.19** | **1-4** | dimensionless | emulator output (revised) |
-| **Observed $M_{dyn}/M_b$** | $\sim$100–1000 | $\sim$1-4 | dimensionless | dSph typical (revised) |
+| **Observed $M_{dyn}/M_b$** | ~100-1000 | ~1-4 | dimensionless | dSph typical (revised) |
 
 **Result: KKR 25 has M_dyn/M_b ~ 1-4 (REVISED v2.7.33+), consistent with dSph observations of typical values. PASS (revised).**
 

@@ -14,8 +14,20 @@ else
     SOURCE=paper.md
 fi
 
-# Step 1: Convert with markdown_strict (original setting)
-pandoc "$SOURCE" -o /tmp/paper_body.tex -f markdown_strict
+# Step 1: Convert with markdown+grid_tables+raw_tex-yaml_metadata_block (original setting)
+pandoc "$SOURCE" -o /tmp/paper_body.tex -f markdown+grid_tables+raw_tex-yaml_metadata_block
+
+# Post-process: wrap p{(\\columnwidth - X\\tabcolsep) * N} in \\dimexpr
+python3 /tmp/wrap_dimexpr.py
+
+# Post-process: fix \\$N--N\\$ → \\$N-N\\$
+python3 /tmp/fix_dashes.py
+
+# Post-process: fix \\^{}{N} and \\sigma\\^{}{N} patterns
+python3 /tmp/fix_sigma.py
+
+# Post-process: wrap p{(\columnwidth - X\tabcolsep) * N} in \dimexpr
+
 
 # Step 2: Strip the first \section{...}
 python3 -c "
@@ -33,6 +45,7 @@ with open('/tmp/paper_body_clean.tex', 'w') as f:
 cat > /tmp/paper_header.tex << 'HEADEREOF'
 \documentclass[10pt]{article}
 \usepackage{amsmath, amssymb}
+\usepackage{mathrsfs}
 \usepackage{fontspec}
 \usepackage{hyperref}
 \usepackage{geometry}
