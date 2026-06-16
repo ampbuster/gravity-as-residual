@@ -780,5 +780,84 @@ The full simulation: `python3 calculations/cascade_model.py --outliers`
 
 
 
+---
+
+## 📋 TODO / Open Research Questions
+
+This section lists open questions for future research. Updated at v2.7.67.
+
+### Composite model (N=12 SYK) — what to do next
+
+**High priority:**
+
+1. **Derive 1/√N scaling rigorously** (L71 partially supported)
+   - The α = 1 + 1/√N formula is suggestive but not rigorously derived
+   - Need: specific SYK saddle-point calculation giving 1/√N
+   - Status: theoretical support from random matrix structure of J
+
+2. **Test CKM/PMNS derivation** (L84 NEW)
+   - 12 Majoranas provide a backbone, but specific CKM/PMNS values NOT derived
+   - Need: specific J coupling breaking pattern
+   - Status: 495 SYK couplings vs 21 SM parameters — factor of 23 mismatch
+
+3. **Derive SM mass ratios** (L84 NEW)
+   - All 12 Majoranas have same "mass" in pure SYK (no breaking)
+   - Need: specific J coupling breaking pattern
+   - Status: requires SYK symmetry breaking
+
+**Medium priority:**
+
+4. **Refine BLG model for magic angle** (L83 REVISED)
+   - Multiple models give 1.5-2.0° (model-dependent)
+   - Need: specific Bistritzer-MacDonald calculation
+   - Status: cascade's "magic angle" is 1.5-2.0°, not 1.1°
+
+5. **Establish AdS_2 × S² topology** (L82 REVISED)
+   - For α > 0, need AdS_2 × S² (not pure dS_2)
+   - Need: Majorana fermion matter in dS_2 calculation
+   - Status: Nariai-LIKE but not exactly Nariai
+
+6. **Why N=12 specifically?** (L68 NEW)
+   - N=12 uniquely gives α = 1.289 (vs other N close to 12)
+   - Need: first-principles reason for N=12
+   - Status: SM = 3×4 connection is suggestive
+
+**Lower priority:**
+
+7. **Numerical simulation of q=4 SYK with N=12** (L81 NEW)
+   - 1000-event sim confirms scaling, but full SYK simulation needed
+   - Need: explicit J coupling distribution, G(τ) calculation
+   - Status: Monte Carlo done, full SYK not yet
+
+8. **Test 2D universe Hawking radiation spectrum** (L82)
+   - Nariai-like: T = 0, no Hawking radiation
+   - Need: explicit spectrum calculation
+   - Status: claimed but not derived
+
+9. **Connect α = 1.29 to DSSYK** (L68-78)
+   - DSSYK has q-parameter, might give specific α
+   - Need: explicit DSSYK calculation with N=12
+   - Status: suggestive but not derived
+
+10. **Check if 12 = 24/2 Leech connection holds** (L75)
+    - Leech lattice has 24 dimensions, /2 for Majorana = 12
+    - Need: explicit connection to bosonic string / vertex operator algebra
+    - Status: suggestive but not derived
+
+### Open data tests
+
+11. **DESI DR3 (2026-2027)**: tests evolving w(z) — cascade predicts w = -1 (consistent with ΛCDM)
+12. **LSST Y1 (2027)**: tests 47 Tuc M_dyn, intermediate dwarf population
+13. **SKA-MPG (2030s)**: tests α = 1.29 precision via PTA stochastic background
+14. **LISA (2034+)**: tests 2D universe death GW (cascade predicts below detection, NULL is consistent)
+
+### See also
+
+- `changelog.md` for full version history
+- `supporting/layman_summary.md` for plain-language summary
+- `paper/paper.md` for the full paper with all sections
+
+---
+
 (For the full v1.0–v2.3 changelog, see `changelog.md`. For the v2.0 forward history, see git log.)
 

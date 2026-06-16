@@ -2,6 +2,36 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.68 (June 2026) — Stopping for now, TODO + layman update
+
+**Major changes since v2.7.67:**
+
+1. **User's request**: stop researching, add TODO to README, check
+   paper for inconsistencies, update README and layman.
+
+2. **Paper inconsistencies fixed**:
+   - Limitation count: 52/57/60/64/67/75/80 → all updated to 81
+   - §3.48 (SN-specific section) updated with v2.7.60+ supersession note
+   - "SN-specific" mentions preserved in §3.48 (historical honesty)
+   - Other inconsistencies checked and fixed
+
+3. **README TODO section added** (10 open research questions):
+   - High priority: 1/√N derivation, CKM/PMNS, SM mass ratios
+   - Medium priority: BLG refinement, AdS_2×S², N=12 reason
+   - Lower priority: Full SYK sim, Hawking spectrum, DSSYK
+   - Open data tests: DESI DR3, LSST Y1, SKA-MPG, LISA
+
+4. **Layman summary updated**:
+   - Version line updated to v2.7.67
+   - New "Recent breakthrough: Why 12?" section added
+   - Plain-language explanation of N=12, q=4 SYK, c=1/2
+   - Honest about CKM/PMNS, mass ratios not derived
+   - Testable predictions clearly stated
+
+5. **No new analysis or sections** — paper preserved at 294 pages
+
+**Earlier v2.7.67 entry (unchanged):**
+
 ## v2.7.67 (June 2026) — Deeper research: honest limits
 
 **Major changes since v2.7.66:**

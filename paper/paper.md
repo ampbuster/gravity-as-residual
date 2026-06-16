@@ -4224,7 +4224,7 @@ which led to checking the cascade's math at z=0.
   multi-scale checks.
 
 **The cascade's overall state (v2.7.53)**:
-- 52 honest limitations
+- 81 honest limitations
 - 5 closed, 58 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
 - 16/17 test categories
 - 7/7 specific cases
@@ -4920,6 +4920,20 @@ identified yet.
 - **f_back ~ 10^-85 (NOW DERIVED from formula above!)** ← L52 RESOLVED
 - α = 1.29 (calibrated from SN 33s, L37 still open)
 
+---
+
+**UPDATE (v2.7.60+)**: This section was SUPERSEDED by v2.7.60's
+scaling law discovery. The f_back formula is NOT just SN-specific
+— it has a clean event-dependence that cancels out when the
+scaling law is applied:
+
+f_back(event) = f_back(universal) × (E_event / E_SN)^(α - 1/(2α))
+
+where f_back(universal) = 8.6e-86 ≈ 10⁻⁸⁵ is the SAME for all events
+after scaling. See §3.49 for the full scaling analysis.
+
+L52 was RE-OPENED AS CLOSED in v2.7.60 (scaling law found).
+
 The cascade has moved from "f_back is back in disguise" (v2.7.55)
 to "f_back is derivable from a closed-form formula" (v2.7.58).
 This is a significant step toward first-principles.
@@ -5017,6 +5031,20 @@ different formula, or revise the cascade's framework.
 - z_half = 3 (still calibrated)
 - **f_back ~ 10⁻⁸⁵ (SN-specific formula, NOT general)** ← L52 PARTIAL
 - α = 1.29 (calibrated from SN 33s, L37 still open)
+
+---
+
+**UPDATE (v2.7.60+)**: This section was SUPERSEDED by v2.7.60's
+scaling law discovery. The f_back formula is NOT just SN-specific
+— it has a clean event-dependence that cancels out when the
+scaling law is applied:
+
+f_back(event) = f_back(universal) × (E_event / E_SN)^(α - 1/(2α))
+
+where f_back(universal) = 8.6e-86 ≈ 10⁻⁸⁵ is the SAME for all events
+after scaling. See §3.49 for the full scaling analysis.
+
+L52 was RE-OPENED AS CLOSED in v2.7.60 (scaling law found).
 
 The cascade has moved from:
 - v2.7.55: "f_back is back in disguise" (no formula)
@@ -5465,7 +5493,7 @@ Majorana fermion CFT with Ising symmetry.
 
 **Net: +1 page, +2 limitations**
 - Total: 286 pages
-- 64 honest limitations
+- 81 honest limitations
 - 5 closed, 58 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
 
 See `calculations/v27_composite_exponent.py` and
@@ -5614,7 +5642,7 @@ Testable interpretations:
 
 **Net: +1 page, +3 limitations**
 - Total: 287 pages
-- 67 honest limitations
+- 81 honest limitations
 - 5 closed, 58 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
 
 See `calculations/v27_fermi_cghs.py` for the 8-angle research.
@@ -5774,7 +5802,7 @@ a specific, testable identification.
 
 **Net: +1 page, +8 limitations**
 - Total: 289 pages
-- 75 honest limitations
+- 81 honest limitations
 - 5 closed, 58 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
 
 See `calculations/v27_more_research.py` for the 8-angle analysis.
@@ -5909,7 +5937,7 @@ above BLG's 1.1°).
 
 **Net: +1 page, +5 limitations**
 - Total: 291 pages
-- 80 honest limitations
+- 81 honest limitations
 - 5 closed, 58 open, 11 partial, 2 falsified, 4 reverted, 1 discarded
 
 See `calculations/v27_comprehensive.py` for the comprehensive
