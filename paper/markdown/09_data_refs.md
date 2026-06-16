@@ -2,7 +2,7 @@
 
 ## Data and code availability
 
-**Code.** All Python code used in the analysis is in the `calculations/` directory of this paper's GitHub repository (https://github.com/ampbuster/gravity-as-residual). Each calculation has a corresponding `.py` file (the script) and a `_results.txt` file (the output), with detailed inline comments explaining the cascade's predictions and the comparison to data. The code is intentionally written in plain Python (numpy, scipy, matplotlib, astropy) without proprietary dependencies; it can be re-run by anyone with a standard scientific Python environment.
+**Code.** All Python code used in the analysis is in the `calculations/` directory of this paper's GitHub repository (https://github.com/ampbuster/gravity-as-residual). Each calculation has a corresponding `.py` file (the script) and a `_results.txt` file (the output), with detailed inline comments explaining SIDC's predictions and the comparison to data. The code is intentionally written in plain Python (numpy, scipy, matplotlib, astropy) without proprietary dependencies; it can be re-run by anyone with a standard scientific Python environment.
 
 **Data.** All observational data used in this paper is from publicly-available catalogs:
 - SPARC database (Lelli+ 2016, AJ 152, 157): https://astroweb.cwru.edu/SPARC/

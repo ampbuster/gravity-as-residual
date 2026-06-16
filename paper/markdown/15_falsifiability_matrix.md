@@ -1,71 +1,71 @@
 <!-- 15_falsifiability_matrix.md - part of paper.md split (v3.0.13) -->
 
-## 14. Falsifiability Matrix: What Would Test the Cascade? (v2.7.13+)
+## 14. Falsifiability Matrix: What Would Test SIDC? (v2.7.13+)
 
-This section consolidates the cascade's *testable predictions* across all upcoming and ongoing observations, organized as a single reference matrix. Each entry specifies:
+This section consolidates SIDC's *testable predictions* across all upcoming and ongoing observations, organized as a single reference matrix. Each entry specifies:
 
-- **What the cascade predicts** (with quantitative amplitudes where possible)
+- **What SIDC predicts** (with quantitative amplitudes where possible)
 - **What observation would falsify it** (with thresholds)
 - **The current status** (validated, pending, or untested)
 - **The year the test becomes possible**
 
-The cascade's predictions span 5-10 orders of magnitude in energy, time, and frequency. The matrix below is the comprehensive list.
+SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency. The matrix below is the comprehensive list.
 
 ### 14.1 Near-term tests (2026-2027)
 
 #### DESI DR3 (2026-2027): dark energy equation of state $w_0, w_a$
 
-**Cascade prediction:** $w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5σ tension with $\Lambda$CDM)
+**SIDC prediction:** $w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5σ tension with $\Lambda$CDM)
 
 **Falsification threshold:**
-- If $w_0 = -1$ confirmed at > 5σ: cascade's standard Lagrangian (constant $f_{back}$) is right
-- If $w_0 = -0.83$ confirmed at > 5σ: cascade's standard Lagrangian falsified; needs running $f_{back}(z)$ (adds 1 free parameter)
+- If $w_0 = -1$ confirmed at > 5σ: SIDC's standard Lagrangian (constant $f_{back}$) is right
+- If $w_0 = -0.83$ confirmed at > 5σ: SIDC's standard Lagrangian falsified; needs running $f_{back}(z)$ (adds 1 free parameter)
 
 **Status:** PENDING. Currently 3.5σ, not yet falsification or validation.
 
 #### LSST Y1 (2027): 47 Tuc DM content
 
-**Cascade prediction:** 47 Tuc has *no DM* (old GCs have no DM, per the cascade's stellar-density argument). DM detection threshold: $M_{DM}/M_* < 10^{-5}$.
+**SIDC prediction:** 47 Tuc has *no DM* (old GCs have no DM, per SIDC's stellar-density argument). DM detection threshold: $M_{DM}/M_* < 10^{-5}$.
 
-**Falsification threshold:** If 47 Tuc shows DM at > 5σ (e.g., via stellar kinematics), cascade's prediction is falsified.
+**Falsification threshold:** If 47 Tuc shows DM at > 5σ (e.g., via stellar kinematics), SIDC's prediction is falsified.
 
 **Status:** PENDING. LSST Y1 data 2027.
 
 #### eROSITA + SPHEREx + GW231123 + GW230529: ongoing multi-messenger
 
-**Cascade prediction:** Consistent with $\Lambda$CDM at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with the cascade.
+**SIDC prediction:** Consistent with $\Lambda$CDM at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with SIDC.
 
-**Status:** VALIDATED. All 2024-2026 observations are consistent with cascade's qualitative framework.
+**Status:** VALIDATED. All 2024-2026 observations are consistent with SIDC's qualitative framework.
 
 ### 14.2 Mid-term tests (2027-2034)
 
 #### SKA-MPG PTAs (2030s): BNS/AGN 2D universe death GW
 
-**Cascade prediction:** Stochastic GW background at frequencies:
+**SIDC prediction:** Stochastic GW background at frequencies:
 - BNS: $f_{GW} \approx 7 \times 10^{-14}$ Hz (PTA band)
 - AGN: $f_{GW} \approx 2 \times 10^{-17}$ Hz (PTA band)
 
 **Falsification threshold:**
-- If GW detected at cascade's predicted frequencies: $\alpha = 1.29$ validated to ±0.11
+- If GW detected at SIDC's predicted frequencies: $\alpha = 1.29$ validated to ±0.11
 - If GW detected at 10× off-frequency: $\alpha$ falsified to ±0.11
 - If BNS+AGN internally inconsistent: framework-level falsification (not just $\alpha$)
-- If no GW detected: cascade's GW prediction falsified (less direct)
+- If no GW detected: SIDC's GW prediction falsified (less direct)
 
 **Status:** PENDING. SKA-MPG operational 2030s.
 
 #### LISA (2034+): 2D universe death GW at mHz
 
-**Cascade prediction:** Cascade's SN death GW at 0.03 Hz is 6-14 orders BELOW LISA noise. LISA will NOT detect cascade's death GW.
+**SIDC prediction:** SIDC's SN death GW at 0.03 Hz is 6-14 orders BELOW LISA noise. LISA will NOT detect SIDC's death GW.
 
-**Falsification threshold:** If LISA detects *something* at cascade's predicted amplitudes, that's a *positive* surprise (cascade underpredicts GW).
+**Falsification threshold:** If LISA detects *something* at SIDC's predicted amplitudes, that's a *positive* surprise (SIDC underpredicts GW).
 
-**Status:** Most likely LISA will see no cascade signal, consistent with cascade's prediction.
+**Status:** Most likely LISA will see no SIDC signal, consistent with SIDC's prediction.
 
 #### Direct $M_{Pl,4}$ measurement (2030s+ colliders)
 
-**Cascade prediction:** $M_{Pl,4} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
+**SIDC prediction:** $M_{Pl,4} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
 
-**Falsification threshold:** If $M_{Pl,4}$ measured at < 887 GeV, cascade's bulk-brane coupling is wrong.
+**Falsification threshold:** If $M_{Pl,4}$ measured at < 887 GeV, SIDC's bulk-brane coupling is wrong.
 
 **Status:** PENDING. Future colliders or precision tests.
 
@@ -73,23 +73,23 @@ The cascade's predictions span 5-10 orders of magnitude in energy, time, and fre
 
 #### μAres (next-gen PTA, 2040s?): higher-precision α
 
-**Cascade prediction:** $\alpha = 1.29$ to ±0.055 precision (1 dex frequency precision → 0.055 in $\alpha$).
+**SIDC prediction:** $\alpha = 1.29$ to ±0.055 precision (1 dex frequency precision → 0.055 in $\alpha$).
 
-**Falsification threshold:** If $\alpha$ measured at < 1.20 or > 1.40, cascade's energy-scaling rule is wrong.
+**Falsification threshold:** If $\alpha$ measured at < 1.20 or > 1.40, SIDC's energy-scaling rule is wrong.
 
 **Status:** PENDING. μAres operational 2040s.
 
 #### BBN precision (10× improvement)
 
-**Cascade prediction:** DE at BBN era (z = 10^10) is ~10^-20 of radiation. BBN proceeds as standard.
+**SIDC prediction:** DE at BBN era (z = 10^10) is ~10^-20 of radiation. BBN proceeds as standard.
 
-**Falsification threshold:** If $\rho_{DE}(BBN) > 10^{-20} \times \rho_{rad}(BBN)$, cascade's BBN prediction is wrong.
+**Falsification threshold:** If $\rho_{DE}(BBN) > 10^{-20} \times \rho_{rad}(BBN)$, SIDC's BBN prediction is wrong.
 
 **Status:** PENDING. Future precision BBN.
 
 ### 14.4 Cross-observational consistency
 
-| Test | Cascade predicts | Falsification threshold |
+| Test | SIDC predicts | Falsification threshold |
 |------|------------------|-------------------------|
 | $w_0$ (DESI DR3) | $-0.83 \pm 0.16$ | > 5σ away from -0.83 |
 | $w_a$ (DESI DR3) | $-0.75 \pm 0.30$ | > 5σ away from -0.75 |
@@ -102,15 +102,15 @@ The cascade's predictions span 5-10 orders of magnitude in energy, time, and fre
 
 ### 14.5 The 5-10 year window
 
-The cascade's critical test period is **2026-2034**:
+SIDC's critical test period is **2026-2034**:
 - 2026-2027: DESI DR3 + LSST Y1 (DE and 47 Tuc)
 - 2027-2030: eROSITA-final, SPHEREx, ongoing multi-messenger
 - 2030s: SKA-MPG PTAs (GW)
 - 2034: LISA launch
 
-If multiple tests simultaneously validate the cascade, that's strong evidence. If multiple falsify, the cascade is in trouble. The 5-10 year window is when the cascade's status will be **either** "validated 2D universe framework" **or** "falsified, time to move on".
+If multiple tests simultaneously validate SIDC, that's strong evidence. If multiple falsify, SIDC is in trouble. The 5-10 year window is when SIDC's status will be **either** "validated 2D universe framework" **or** "falsified, time to move on".
 
-**The honest cost:** the cascade is testable, but most tests are in the future. Until then, the cascade is a *promising* phenomenological framework with structural support from 5 of 6 framework analyses (§3.8), but no first-principles derivation. See `calculations/v27_alpha_sensitivity.py` for α sensitivity analysis.
+**The honest cost:** SIDC is testable, but most tests are in the future. Until then, SIDC is a *promising* phenomenological framework with structural support from 5 of 6 framework analyses (§3.8), but no first-principles derivation. See `calculations/v27_alpha_sensitivity.py` for α sensitivity analysis.
 *Version: v2.4*
 *Repository: https://github.com/ampbuster/gravity-as-residual*
 *Version: v2.4 (pending version bump; v2.3.2 → v2.4)*
@@ -118,5 +118,5 @@ If multiple tests simultaneously validate the cascade, that's strong evidence. I
 *License: CC-BY 4.0 (manuscript), MIT (code)*
 *Correspondence: GitHub issues*
 
-*How this paper came to be:* The cascade emerged from a series of plain-language intuitions in conversation between a non-physicist (the author) and an AI assistant (Mavis / MiniMax-M3). The original intuitions — dark matter as "like a neutrino," as a wind on paper, as a cancelling-through-dimensions effect — are preserved verbatim in `supporting/how-did-we-get-here.md`. The model was developed by progressively making those intuitions mathematically precise and testing them against observational data. The paper at v2.3.1 is the artifact; the conversation is the origin story.
+*How this paper came to be:* SIDC emerged from a series of plain-language intuitions in conversation between a non-physicist (the author) and an AI assistant (Mavis / MiniMax-M3). The original intuitions — dark matter as "like a neutrino," as a wind on paper, as a cancelling-through-dimensions effect — are preserved verbatim in `supporting/how-did-we-get-here.md`. The model was developed by progressively making those intuitions mathematically precise and testing them against observational data. The paper at v2.3.1 is the artifact; the conversation is the origin story.
 

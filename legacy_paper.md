@@ -627,3 +627,67 @@ The proposal is not a fully developed theory. It is a thought experiment intende
 ## 2. The Proposal
 
 ---
+
+
+---
+
+## §3.48-3.59 Research path to v3.0 (v2.7.59-v2.7.67) — moved from paper.md v3.0.2+
+
+This section was moved to legacy because it summarizes the research path that LED to v3.0.
+The current v3.0+ content is in §3.60 and §3.61 of the main paper.
+
+### 3.48-3.59 Research path to v3.0 (v2.7.59-v2.7.67, summarized)
+
+This section summarizes the research path that led to v3.0. For full details, see
+the individual calculation scripts and JSON results in `calculations/v27_*.py`.
+
+**v2.7.58-59: Initial empirical formula (SN-specific concern raised)**
+- v2.7.58: Found empirical formula f_back ~ (1/(2α))-powered, matches 10⁻⁸⁵ for SN within 0.07 orders
+- v2.7.59: User feedback "why only supernova?" — formula tested against 6 event types
+- Verdict: Formula is SN-specific (1.7-45 orders off for other events), L52 → PARTIAL
+
+**v2.7.60: Scaling law discovery (user intuition)**
+- User asked: "can we get a scaling factor of these different cases and apply it to the formula?"
+- DISCOVERED: f_back(event) = f_back(universal) × (E/E_SN)^(α - 1/(2α))
+- ALL 6 events give the same f_back ≈ 8.6e-86 ≈ 10⁻⁸⁵ after scaling!
+- L52 RE-OPENED AS CLOSED, L58 NEW
+- The 1/(2α) is the exact power that gives event-independence
+
+**v2.7.61-67: Multiple research angles to derive 1/(2α)**
+- Tried 12+ frameworks: CGHS, AdS_2/CFT_1, brane-world, ℏ/2, SYK, CY, etc.
+- **The "1/2" in 1/(2α) appears universally**: SYK S₀ = N/2, Z₂ symmetry, CY volume form, ℏ/2
+- Found α × p = 1/2 (structural relation), L59-67
+- Tested 4 specific derivations: CGHS-with-back-reaction, Liouville/SYK, Z₂ orbifold, CY h^{1,1}=2
+- Verdict: 1/(2α) is composite (c/α_BR) with structural 1/2 origin
+
+**v2.7.63: Composite model v2 (Ising CFT c=1/2)**
+- Best specific origin of "1/2": central charge c = 1/2 of Ising-like CFT
+- 1/(2α) = c/α_BR = 0.5/1.29 = 0.388 (composite)
+- L66-67 NEW (Ising CFT, composite model)
+
+**v2.7.64-65: N=12 SYK BREAKTHROUGH**
+- **q=4 SYK with N=12 Majoranas gives EXACT match for α=1.29**
+- c = N/24 = 12/24 = 1/2 (Ising CFT) ✓
+- α = 1 + 1/√N = 1 + 1/√12 = 1.289 ≈ 1.29 (off by 0.001) ✓
+- N=12 is uniquely determined (other N give worse match)
+- 1/√N from saddle-point fluctuation around strong-coupling saddle
+- L68-70 NEW (N=12 SYK, dS_2 topology, BLG analogy)
+
+**v2.7.66-67: Comprehensive + deeper + honest limits**
+- All SIDC consequences from N=12
+- 14 event types tested
+- Numerical simulations confirm scaling
+- Honest about what N=12 doesn't derive (CKM/PMNS, mass ratios)
+- 12 Majoranas ↔ 12 SM Weyl fermions is BACKBONE not 1-to-1
+- L79-87 NEW
+
+**The full details of each version are in git log (commits ee9bc64 → eed25b3 → d74e955 → 2f58f6f → ...).**
+
+**Key insights preserved**:
+- 1/(2α) = c/α_BR where c = 1/2 (Ising) and α_BR = 1.289 (N=12 SYK)
+- The "1/2" is structural (SYK, Z₂, CY, ℏ/2 all give 1/2)
+- The α × p = 1/2 relation is intrinsic
+- N=12 is uniquely determined by α=1.29
+
+---
+
