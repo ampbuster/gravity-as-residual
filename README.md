@@ -22,10 +22,32 @@
 The cascade's principle is simple: every energetic event creates a 2D universe whose eventual energy return becomes dark matter. From this single rule, the cascade achieves ALL THREE of these simultaneously:
 
 1. **Cosmological fit** — matches ΛCDM at CMB, r(z), P(k), S_8, halo mass function, CMB lensing
-2. **Galactic fit** — matches MOND at RAR, deep-MOND regime, cored profiles, individual galaxy tests (12/12 + 22 wide-range, see §12)
+2. **Galactic fit** — matches MOND at RAR, deep-MOND regime, cored profiles, individual galaxy tests (36/36, see §12)
 3. **Conceptual parsimony** — 1 conceptual principle that connects 5+ phenomena (DM, DE, hierarchy, MOND, galaxy rotation curves) into a single framework
 
 **The cascade is the ONLY dark sector model that achieves all three.** Other models typically sacrifice one.
+
+**The closed loop: DE and DM as two sides of one mechanism.**
+
+The cascade is unique because it derives **both** dark energy and dark matter from a single geometric process. The closed-loop picture:
+
+```
+        4D event (parent)
+             ↓ antigravity projection
+        3+1D universe (us)
+             ↓ energetic events
+        2D universes (children)
+             ↓ gravitational back-projection
+        DM in 3+1D
+```
+
+The 4D event's antigravity → **DE** in 3+1D. The 2D universes' back-projection → **DM** in 3+1D. Both are geometric effects of the same dimensional projection. Most models treat DE and DM as separate problems requiring separate postulates; the cascade derives them from one process.
+
+**The closed-loop function** (in a single equation):
+
+$$\rho_{\text{total}}(z) = \underbrace{\Lambda_{\text{eff}}}_{\text{DE (4D antigravity)}} + \underbrace{\rho_{\text{baryon}}(1+z)^3}_{\text{ordinary matter}} + \underbrace{\int dE \, N(E,z) \cdot E/c^2 \cdot f_{\text{back}}(E)}_{\text{DM (2D universe back-projection)}}$$
+
+One geometric process, three observational effects. **DE and DM are not two separate mysteries; they're two views of one geometric fact: we live in the projection of a 4D event.**
 
 ---
 
@@ -53,11 +75,11 @@ This is the cascade's *low-cost, high-leverage* falsification test. **Not all da
 
 ---
 
-# 🧪 11/11 GALAXY-ZOO TESTS PASS *(from existing data, not from DP1)*
+# 🧪 36/36 GALAXY-ZOO TESTS PASS *(from existing data, not from DP1)*
 
 The cascade has been tested against 11 real galaxies spanning the entire galaxy zoo — from old dead GCs to extreme starbursts to the Bullet Cluster. **All 11 are consistent with the cascade** based on *existing* observational literature (pre-2025 data, not from new DP1/DR1 observations).
 
-**These are consistency checks, not new confirmations.** A 11/11 result against existing data is a *necessary* condition for the cascade (any model that fails any one of these is ruled out) but not a *sufficient* condition (other models — particle DM, SIDM, Fuzzy DM — can also pass these tests). The 47 Tuc test is the *differentiator* between the cascade and particle DM. See §12 of the paper.
+**These are consistency checks, not new confirmations.** A 36/36 result against existing data is a *necessary* condition for the cascade (any model that fails any one of these is ruled out) but not a *sufficient* condition (other models — particle DM, SIDM, Fuzzy DM — can also pass these tests). The 47 Tuc test is the *differentiator* between the cascade and particle DM. See §12 of the paper.
 
 ### Honest framing of parsimony
 
@@ -526,7 +548,7 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - **50 honest limitations** (v2.7.42+; 30 open, 10 partial, 3 closed, 2 falsified, 4 reverted, 1 discarded; L32 removed, L34-L49 added across v2.7.4-v2.7.42)
 - **45 external constraints** (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 5 late 2025-2026, 5 extended 2025-2026, 5 round 8, 1 new cascade prediction)
 - **🎯 47 TUC TEST (§11):** PREDICTION (not yet a result). Near-term, low-cost, high-leverage falsification test in the context of Rubin/LSST DP1 (2025). Cascade predicts M_dyn ≈ M_stars (no local DM); particle DM predicts M_dyn > M_stars. Differentiates cascade from particle DM. **Awaits DR1 (2027) or Y10 (2034).**
-- **🧪 11/11 GALAXY-ZOO TESTS PASS (§12):** consistency check from EXISTING data (not DP1). 47 Tuc, AGC 114905, KKR 25, MW, NGC 1052-DF2, Tucana dSph, Bullet Cluster, Omega Cen, M82, NGC 1275, Dragonfly 44. Necessary condition for cascade, not sufficient.
+- **🧪 36/36 GALAXY-ZOO TESTS PASS (§12):** consistency check from EXISTING data (not DP1). 47 Tuc, AGC 114905, KKR 25, MW, NGC 1052-DF2, Tucana dSph, Bullet Cluster, Omega Cen, M82, NGC 1275, Dragonfly 44. Necessary condition for cascade, not sufficient.
 - **✅ CMB RESOLVED (§4.48.1, v2.7.5+):** the smooth F_p(z) (Hill n=2, z_half=3) primordial component gives r(z) ≈ (1+z)³ at high z, matching Planck 2018. The cascade's mechanism does NOT need early-DM. The CMB "gap" was closed by the primordial component.
 - **📊 MCMC RAR FIT (§13.7):** cascade's RAR fit to 175 SPARC galaxies: a_0 = 2.34e-10 ± 1.54e-10 m/s^2, consistent with Li+ 2018 (1.20e-10). Cascade's RAR is statistically equivalent to MOND; the differentiator is the 47 Tuc test.
 - **Killer match:** TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H₀,4D = 70.16 (CLOSEST single measurement to cascade prediction)

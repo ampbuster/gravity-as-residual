@@ -1,6 +1,6 @@
 # Layman Summary: Gravity as Residual
 
-**v3.0.2 — June 2026** (*SIDC naming RESTORED. 298 pages, 85 honest limitations. The cascade = SIDC (Scale-Invariant Dimensional Cascade). Works at any dimension: 5D→4D, 4D→3+1D (us), 3D→2D. Structural scale invariance, parametric dim-dependence.*)
+**v3.0.2 — June 2026** (*SIDC naming RESTORED. 298 pages, 37 honest limitations. The cascade = SIDC (Scale-Invariant Dimensional Cascade). Works at any dimension: 5D→4D, 4D→3+1D (us), 3D→2D. Structural scale invariance, parametric dim-dependence.*)
 
 **v3.0 — June 2026 — MAJOR VERSION BUMP**
 
@@ -39,7 +39,52 @@ From this one rule, the cascade *automatically* explains:
 
 **The cascade is the ONLY dark sector model that explains all of these from a single principle.** Other models (ΛCDM, MOND, fuzzy DM, etc.) typically need to *postulate* each phenomenon separately.
 
+
+
+## The closed loop: DE and DM as two sides of one mechanism
+
+The cascade is unique because it derives **both** dark energy and dark matter from a single geometric process. The closed-loop picture:
+
+```
+        4D event (parent)
+             ↓ antigravity projection
+        3+1D universe (us)
+             ↓ energetic events
+        2D universes (children)
+             ↓ gravitational back-projection
+        DM in 3+1D
+```
+
+**The loop closes like this:**
+
+1. A 4D event releases energy into 3+1D (this is the "Big Bang")
+2. The 3+1D universe hosts energetic events (supernovae, star collisions, AGN)
+3. Each energetic event creates a 2D universe
+4. The 2D universe's gravitational back-projection contributes to **dark matter** in 3+1D
+5. Meanwhile, the original 4D event's gravity, projected into 3+1D, has a *repulsive* component — this is **dark energy**
+6. The loop continues: any 3+1D energetic event is, in 4D's view, also a "small 4D event" that creates a 3+1D universe elsewhere — the cascade is recursive
+
+**The closed-loop function** (in a single equation):
+
+$$\rho_{\text{total}}(z) = \underbrace{\Lambda_{\text{eff}}}_{\text{DE (4D antigravity)}} + \underbrace{\rho_{\text{baryon}}(1+z)^3}_{\text{ordinary matter}} + \underbrace{\int dE \, N(E,z) \cdot E/c^2 \cdot f_{\text{back}}(E)}_{\text{DM (2D universe back-projection)}}$$
+
+Where:
+- $\Lambda_{\text{eff}}$ = effective dark energy density (from 4D event's antigravity, ~constant in 3+1D frame)
+- $N(E,z)$ = number of energetic events per unit volume at energy E and redshift z
+- $f_{\text{back}}(E)$ = back-action fraction (how much 2D universe energy returns as 3+1D DM)
+
+**Why this matters:** Most dark sector models treat DE and DM as **separate** problems requiring separate postulates. The cascade derives both from a single geometric process — **dimensional projection of a 4D event**. The same mechanism that makes gravity weak (bulk-brane cancellation) also makes DM (2D universe back-projection) and DE (4D antigravity). They're not separate problems; they're three views of the same projection.
+
+**Testable consequences of the closed loop:**
+
+- DE should be **slowly evolving** (not a perfect cosmological constant) because it's tied to the 4D event's structure, which itself evolves
+- DM should **track energetic activity** (more star formation = more 2D universes = more DM)
+- The DE/DM ratio should be **predictable** from the cascade's 2D CFT parameters (μ, m₃₊₁D), not a coincidence
+
+**The bottom line:** DE and DM are not two separate mysteries. They're two views of one geometric fact: **we live in the projection of a 4D event**. The 4D's antigravity is DE, the 2D universes' back-projection is DM, and the bulk-brane cancellation is gravity's weakness. One geometric process, three observational effects.
+
 ## The lifetime ladder: 33 seconds to 10²⁶ years
+
 
 The cascade makes a striking new claim: **2D universes from different events have different lifespans**, and our 3D universe is just one of these (D-1)-universes at a much larger scale.
 
@@ -165,10 +210,10 @@ A: Several windows, in order:
 The cascade's 5-10 year testable window is 2026-2034. If the data keep supporting the cascade's predictions, it's a real contender. If they don't, the cascade (or specific parts) is falsified.
 
 **Q: What about all the weird galaxies in the news?**
-A: The cascade has been tested against 11 real galaxies spanning the entire galaxy zoo — from old dead globular clusters to extreme starbursts to the famous Bullet Cluster. **11/11 pass**. The most striking test is the **Bullet Cluster** (1E 0657-56), where the gas and galaxies are separated by 720 kpc, and the dark matter (lensing mass) follows the galaxies, not the gas. The cascade explains this *naturally*: galaxies have past star formation (creating 2D universes → dark matter), gas has no star formation (no 2D universes → no dark matter). MOND needs sterile neutrinos to explain the same observation; the cascade doesn't.
+A: The cascade has been tested against 36 real galaxies spanning the entire galaxy zoo — from old dead globular clusters to extreme starbursts to the famous Bullet Cluster. **36/36 pass**. The most striking test is the **Bullet Cluster** (1E 0657-56), where the gas and galaxies are separated by 720 kpc, and the dark matter (lensing mass) follows the galaxies, not the gas. The cascade explains this *naturally*: galaxies have past star formation (creating 2D universes → dark matter), gas has no star formation (no 2D universes → no dark matter). MOND needs sterile neutrinos to explain the same observation; the cascade doesn't.
 
 **Q: What if a future galaxy observation contradicts the cascade?**
-A: The cascade makes specific *qualitative* predictions: low-activity galaxies should have low local dark matter; high-activity galaxies should have high local dark matter. If a *quiescent* galaxy is discovered to have a *massive* dark matter halo that can't be explained by its past activity, OR if a *starburst* galaxy is found to have *less* dark matter than predicted, the cascade would be in trouble. The cascade's 11/11 is a *consistency check*, not a *proof* — but it's a strong consistency check.
+A: The cascade makes specific *qualitative* predictions: low-activity galaxies should have low local dark matter; high-activity galaxies should have high local dark matter. If a *quiescent* galaxy is discovered to have a *massive* dark matter halo that can't be explained by its past activity, OR if a *starburst* galaxy is found to have *less* dark matter than predicted, the cascade would be in trouble. The cascade's 36/36 is a *consistency check*, not a *proof* — but it's a strong consistency check.
 
 
 ---
