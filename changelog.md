@@ -4231,3 +4231,38 @@ universe is one of the largest, hence it lives 2×10^26 yr in 4D view.
 If M_Pl,4 ~ TeV (ADD model), the 3D universe is at the end of its
 life in 3D internal time. This is testable with DESI Y5, LSST Y1,
 Euclid Q3 in the 2027-2030 window.
+
+## v3.0.19-v3.0.20 (June 2026) — Tables now render in PDF
+
+**Major milestone**: PDF tables now render properly (was raw text in v3.0.17).
+
+Changes:
+- **pandoc options**: `markdown_strict` → `markdown+grid_tables+pipe_tables+raw_tex-yaml_metadata_block`
+- **mathrsfs package** added to header for `\mathscr` support
+- **Post-processors** in /tmp/:
+  - `wrap_dimexpr.py`: wraps `p{(\columnwidth - X\tabcolsep) * \real{N}}` in `\dimexpr(...)*N\relax` (the `real` package not in TeX Live)
+  - `fix_sigma.py`: fixes `\sigma\^{}{N}` and `\sigma\^{}N` patterns (escaped braces from pandoc)
+  - `fix_dashes.py`: fixes pandoc's `1--2` (en-dash) → `1-2` in math cells
+- **~20 specific LaTeX issues fixed in markdown**:
+  - `g₊` in text mode → wrap in `$g_+$`
+  - `τ_2D_3+1D` raw → wrap in `$\tau_{2D_{3+1D}} = ...$`
+  - `M_b` in text mode → `$M_{b}$`
+  - Various `\propto`, `\sim`, `\approx` patterns
+  - Table cell math (`\sim\$1-2` → `~1-2`)
+  - Double-dash ranges (`1--2` → `1-2`)
+  - Strikethrough (`~~text~~` → `text`)
+  - `\S` → `§`
+  - `3\times\$2pt` → `3×2pt` (table cell escaping)
+
+Build: 409 pages (was 276 in v3.0.18). The increase is from tables
+that were previously raw text in the markdown but now render with
+proper column widths and rows. The table content is very wide for
+the page, but the tables are now readable in the PDF (vs raw text).
+
+Pushed: github.com/ampbuster/gravity-as-residual (commits 08e2de0, 5531d0b)
+
+KEY INSIGHT: The cascade paper was using `markdown_strict` which
+doesn't support tables. Switching to `markdown+grid_tables+pipe_tables`
+enables both grid tables (|---|---|) and pipe tables (|---|---|).
+The post-processors handle the LaTeX issues that pandoc generates
+when converting markdown tables to LaTeX longtables.
