@@ -1,12 +1,12 @@
 # Layman Summary: Gravity as Residual
 
-**v3.0.2 — June 2026** (*SIDC naming RESTORED. 298 pages, 37 honest limitations. SIDC = Scale-Invariant Dimensional Cascade. Works at any dimension: 5D→4D, 4D→3+1D (us), 3D→2D. Structural scale invariance, parametric dim-dependence.*)
+**v3.0.2 — June 2026** (*SIDC naming RESTORED. 298 pages, 37 honest limitations. SIDC = Scale-Invariant Dimensional Cascade. Works at any dimension: 5D$\to$4D, 4D$\to$3+1D (us), 3D$\to$2D. Structural scale invariance, parametric dim-dependence.*)
 
 **v3.0 — June 2026 — MAJOR VERSION BUMP**
 
 **The big idea in one sentence:** *What if every energetic explosion in space creates its own brief 2D universe, and the "leftover gravity" from all those 2D universes is what we call dark matter?*
 
-**v3.0 breakthrough:** A single number — **N = 12** — explains many of SIDC's specific values. 12 Majorana fermions in q=4 SYK (a quantum chaos model) give SIDC's α = 1.29, central charge c = 1/2, and universal back-action f_back ≈ 10⁻⁸⁵. The 12 might map to 3 Standard Model generations × 4 fermions per generation.
+**v3.0 breakthrough:** A single number — **N = 12** — explains many of SIDC's specific values. 12 Majorana fermions in q=4 SYK (a quantum chaos model) give SIDC's $\alpha$ = 1.29, central charge c = 1/2, and universal back-action f_back $\approx$ 10⁻⁸⁵. The 12 might map to 3 Standard Model generations $\times$ 4 fermions per generation.
 
 That's SIDC. The rest of this summary explains how it works in plain language, what evidence we have for it, and what's testable.
 
@@ -72,7 +72,7 @@ SIDC says: the universe is the projection of a single 4D event, and the dark sec
 
 **Testable in the next 5-10 years:** If the closed loop is right, then:
 - DE should be *slowly* evolving (not perfectly constant), because it's tied to the 4D event's structure
-- DM should *track* energetic activity (more star formation → more 2D universes → more DM)
+- DM should *track* energetic activity (more star formation $\to$ more 2D universes $\to$ more DM)
 - The ratio of DE to DM shouldn't be a coincidence — it should follow from SIDC's geometry
 
 ## The lifetime ladder: 33 seconds to 10²⁶ years
@@ -98,7 +98,7 @@ This is the part that makes SIDC different from every other dark sector model.
 
 > A 2D universe created by an event of energy E lives for a time **τ_2D ~ E^1.29** in our frame.
 
-That's it. One formula. The "1.29" comes from the cascade's N=12 backbone (α = 1 + 1/√12 = 1.289).
+That's it. One formula. The "1.29" comes from the cascade's N=12 backbone ($\alpha$ = 1 + 1/√12 = 1.289).
 
 **It works for 14 different kinds of energetic events:**
 
@@ -124,7 +124,7 @@ The scaling law is the **quantitative core** of the closed loop. It's what makes
 **The competition can't do this:**
 
 - **ΛCDM** works on cosmological scales but fails at galaxy scales (cusp-core, missing satellites, too-big-to-fail)
-- **MOND** works at galaxy scales but fails at cluster scales (Tian+ 2024 shows cluster g_+ is 14× higher)
+- **MOND** works at galaxy scales but fails at cluster scales (Tian+ 2024 shows cluster g_+ is 14$\times$ higher)
 - **UDM / Chaplygin gas** works at cosmological scales but the unified fluid has c_s² ~ 1, suppressing all small-scale structure
 - **Verlinde / entropic gravity** is static — it can't distinguish "same mass, different history" cases
 
@@ -132,7 +132,7 @@ SIDC's M^1.29 scaling is the **only proposed dark sector mechanism that works at
 
 **The honest limit:**
 
-The 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty (Limitation 31, reduced to ~15 orders via Karch-Randall). The "1.29" is calibrated from the SN 33s lifetime — it's not derived from first principles, even though the N=12 backbone gives a structural reason for α ≈ 1.29.
+The 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty (Limitation 31, reduced to ~15 orders via Karch-Randall). The "1.29" is calibrated from the SN 33s lifetime — it's not derived from first principles, even though the N=12 backbone gives a structural reason for $\alpha$ $\approx$ 1.29.
 
 **Bottom line:** One formula, fourteen event types, all scales. If the scaling holds up under future tests, SIDC has explained dark matter and dark energy across the entire observable universe with a single geometric process.
 
@@ -151,7 +151,7 @@ SIDC makes a striking prediction: **if the 4D's fundamental Planck mass is at th
 
 This depends on two unknowns:
 - **The exact form of the energy-scaling rule** (SIDC's rule fits one data point, with the exponent uncertain by ~1%, which translates to ~60% uncertainty in the universe's total lifespan)
-- **The 4D Planck mass** (SIDC derives a *floor* of M_Pl,4 ≥ 887 GeV, but the actual value could be anywhere from 887 GeV to 10¹⁹ GeV)
+- **The 4D Planck mass** (SIDC derives a *floor* of M_Pl,4 $\geq$ 887 GeV, but the actual value could be anywhere from 887 GeV to 10¹⁹ GeV)
 
 **Testable signatures:**
 - DESI's detection of evolving dark energy (3.5σ) could be the first hint
@@ -163,9 +163,9 @@ This depends on two unknowns:
 SIDC has been tested against **45 external constraints** from real observational data, gathered from web research through June 2026:
 
 - **Type Ia supernovae** (cosmic expansion history)
-- **TRGB H₀ = 69.8 ± 1.9** — 0.2σ from SIDC's predicted H₀,4D = 70.16 (the closest single measurement!)
+- **TRGB $H_0$ = 69.8 $\pm$ 1.9** — 0.2σ from SIDC's predicted $H_0$,4D = 70.16 (the closest single measurement!)
 - **JWST high-z galaxies** (z > 12, more than expected)
-- **DESI BAO + ACT lensing** (joint H₀ = 69.08 ± 0.37, most precise)
+- **DESI BAO + ACT lensing** (joint $H_0$ = 69.08 $\pm$ 0.37, most precise)
 - **LIGO-Virgo-KAGRA BBH catalog** (218+ black hole mergers)
 - **SPARC galaxy rotation curves** (175 galaxies, gives the "c=1" calibration)
 - **eROSITA cluster number counts** (X-ray survey)
@@ -228,7 +228,7 @@ A: SIDC postulates a 4D event that created our 3D universe. The 4D itself is jus
 A: MOND explains galaxy rotation but fails at cosmic scales. ΛCDM explains cosmology but requires dark matter particles. SIDC does *both* with a single mechanism.
 
 **Q: What's the killer evidence for SIDC?**
-A: There isn't one yet. The TRGB H₀ = 69.8 ± 1.9 is the *closest* single measurement to SIDC (0.2σ from H₀,4D = 70.16), but that's not a confirmation. SIDC needs future data (DESI Y5, LSST Y1, LISA) to be tested.
+A: There isn't one yet. The TRGB $H_0$ = 69.8 $\pm$ 1.9 is the *closest* single measurement to SIDC (0.2σ from $H_0$,4D = 70.16), but that's not a confirmation. SIDC needs future data (DESI Y5, LSST Y1, LISA) to be tested.
 
 **Q: What if SIDC is wrong?**
 A: The qualitative ladder (more energetic events create longer-lived 2D universes) would be wrong, and we'd need a different mechanism for the dark sector. The c=1 string theory result is independent of SIDC and would still stand as a theoretical result.
@@ -241,14 +241,14 @@ A: SIDC says *dark matter tracks energetic activity*. A cluster with no current 
 
 **Q: When is SIDC going to be definitively tested?**
 A: Several windows, in order:
-- **2026–2027:** DESI DR3 will test if dark energy is *truly* constant (Λ) or evolving (SIDC predicts evolving)
+- **2026–2027:** DESI DR3 will test if dark energy is *truly* constant ($\Lambda$) or evolving (SIDC predicts evolving)
 - **2027:** LSST DR1 will measure 47 Tuc's proper motion + tidal tails precisely; tests the "no local dark matter" rule
 - **2030s:** SKA-MPG pulsar timing arrays may detect SIDC's predicted death gravitational wave background from high-energy events
 - **2034+:** LISA launches; tests the *birth* gravitational wave prediction
 SIDC's 5-10 year testable window is 2026-2034. If the data keep supporting SIDC's predictions, it's a real contender. If they don't, SIDC (or specific parts) is falsified.
 
 **Q: What about all the weird galaxies in the news?**
-A: SIDC has been tested against 36 real galaxies spanning the entire galaxy zoo — from old dead globular clusters to extreme starbursts to the famous Bullet Cluster. **36/36 pass**. The most striking test is the **Bullet Cluster** (1E 0657-56), where the gas and galaxies are separated by 720 kpc, and the dark matter (lensing mass) follows the galaxies, not the gas. SIDC explains this *naturally*: galaxies have past star formation (creating 2D universes → dark matter), gas has no star formation (no 2D universes → no dark matter). MOND needs sterile neutrinos to explain the same observation; SIDC doesn't.
+A: SIDC has been tested against 36 real galaxies spanning the entire galaxy zoo — from old dead globular clusters to extreme starbursts to the famous Bullet Cluster. **36/36 pass**. The most striking test is the **Bullet Cluster** (1E 0657-56), where the gas and galaxies are separated by 720 kpc, and the dark matter (lensing mass) follows the galaxies, not the gas. SIDC explains this *naturally*: galaxies have past star formation (creating 2D universes $\to$ dark matter), gas has no star formation (no 2D universes $\to$ no dark matter). MOND needs sterile neutrinos to explain the same observation; SIDC doesn't.
 
 **Q: What if a future galaxy observation contradicts SIDC?**
 A: SIDC makes specific *qualitative* predictions: low-activity galaxies should have low local dark matter; high-activity galaxies should have high local dark matter. If a *quiescent* galaxy is discovered to have a *massive* dark matter halo that can't be explained by its past activity, OR if a *starburst* galaxy is found to have *less* dark matter than predicted, SIDC would be in trouble. SIDC's 36/36 is a *consistency check*, not a *proof* — but it's a strong consistency check.
@@ -262,13 +262,13 @@ In v2.7.60-67, SIDC made a striking discovery: **a single number — 12 — expl
 
 **What 12 does:**
 
-- 12 = 3 × 4 = 3 generations of Standard Model fermions × 4 fermions per generation (e_L, ν_L, u_L, d_L)
+- 12 = 3 $\times$ 4 = 3 generations of Standard Model fermions $\times$ 4 fermions per generation (e_L, ν_L, u_L, d_L)
 - 12 Majoranas in q=4 SYK (a specific quantum chaos model) give:
   - Central charge c = 1/2 (Ising CFT, a 2D conformal field theory)
-  - Lifetime scaling α = 1.289 ≈ 1.29 (SIDC's calibration value)
-  - Universal back-action f_back ≈ 10⁻⁸⁵
+  - Lifetime scaling $\alpha$ = 1.289 $\approx$ 1.29 (SIDC's calibration value)
+  - Universal back-action f_back $\approx$ 10⁻⁸⁵
 - The "1/2" in SIDC's back-action formula comes from c = 1/2
-- The "1.29" comes from α = 1 + 1/√12 = 1.289
+- The "1.29" comes from $\alpha$ = 1 + 1/√12 = 1.289
 
 **What this means in plain language:**
 
@@ -287,19 +287,19 @@ This is a specific, testable claim. If true, it would mean SIDC and the Standard
 
 **Why N=12 specifically?**
 
-The number 12 is uniquely determined by SIDC's α = 1.29. For other values of N:
-- N=10: α = 1.316 (off by 0.026)
-- N=11: α = 1.302 (off by 0.012)
-- **N=12: α = 1.289 (off by 0.001) ← EXACT**
-- N=13: α = 1.277 (off by 0.013)
+The number 12 is uniquely determined by SIDC's $\alpha$ = 1.29. For other values of N:
+- N=10: $\alpha$ = 1.316 (off by 0.026)
+- N=11: $\alpha$ = 1.302 (off by 0.012)
+- **N=12: $\alpha$ = 1.289 (off by 0.001) ← EXACT**
+- N=13: $\alpha$ = 1.277 (off by 0.013)
 
-So if SIDC's α is correct, then N = 12 is uniquely determined.
+So if SIDC's $\alpha$ is correct, then N = 12 is uniquely determined.
 
 **What this predicts:**
 
 - 2D universes have 12 Majorana fermion "degrees of freedom"
-- The 12 might map to 3 SM generations × 4 fermions per generation
-- 2D universes might be in "AdS_2 × S²" topology (a specific 2D geometry with positive lifetime scaling)
+- The 12 might map to 3 SM generations $\times$ 4 fermions per generation
+- 2D universes might be in "AdS_2 $\times$ S²" topology (a specific 2D geometry with positive lifetime scaling)
 - 2D universes might be bilayer-graphene-like at "magic angle" of ~1.5-2.0°
 
 These are all specific, testable predictions — but they require more theoretical work to derive them rigorously.
