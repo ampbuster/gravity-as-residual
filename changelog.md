@@ -2,6 +2,52 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.11 (June 2026) — §2.5.4 Deaths-only DM: 2D universe invisible during life
+
+**Major changes since v2.7.10:**
+
+1. **§2.5.4 NEW subsection (~1.5 pages)**: The cascade adopts the *deaths-only DM* framework: 2D universe is invisible to 3+1D during its 33s lifetime, DM = cumulative deaths only.
+
+2. **The simplification**:
+   - **Before**: 2D universe has live back-projection (f_back_live ~ 0.05, REVERTED in v2.7.1) + cumulative death return
+   - **After**: 2D universe is invisible during life, all DM from cumulative deaths
+   - f_back_live = 0 (POSTULATE, replaces the calibrated f_back_live ~ 0.05)
+
+3. **Why deaths-only is cleaner**:
+   - Aligns with 5 of 6 framework analyses (CGHS, Padmanabhan, HW, RT, Jacobson)
+   - All 5 frameworks describe 2D objects that EVAPORATE/DECAY at end of life
+   - The cascade's previous f_back_live ~ 0.05 was NOT in standard 2D gravity
+   - The "live back-projection" was a phenomenological fit (REVERTED in v2.7.1)
+
+4. **Parameter impact (HONEST)**:
+   - Truly free parameters: 2 (α, z_half) — UNCHANGED
+   - Calibrated postulates: 3 (was 4) — f_active ~ 0.05 removed
+   - 1 less calibrated postulate (NOT a "free parameter" reduction)
+
+5. **What stays the same**:
+   - S_destruction mechanism preserved (already death-focused)
+   - dSph bifurcation (AGC vs KKR) still explained
+   - 16/17 test categories UNCHANGED
+   - 7/7 specific cases UNCHANGED
+   - 35 limitations (with f_active removed)
+   - DE = 4D event antigravity (still requires inversion per §3.9)
+
+6. **What is removed**:
+   - Live 2D universe back-projection (~5% of total DM)
+   - f_active ~ 0.05 calibrated MCMC fit to SPARC
+   - "Population ratio of live vs dead" interpretation
+
+7. **What is added**:
+   - Clearer statement: "2D universe is elsewhere during life, becomes visible at death"
+   - Spatial distribution: ρ_DM(r) = ∫ dt × R_SN(r,t) × E_per_SN_to_2D / c²
+   - DM traces out SN (or energetic event) history at any point
+
+8. **1 new analysis script**: `calculations/v27_deaths_only_dm.py` + .json
+
+**Test counts UNCHANGED** (16/17, 7/7, 11/11, 35 limitations)
+
+**Earlier v2.7.10 entry (unchanged):**
+
 ## v2.7.10 (June 2026) — §3.9 The 4D → 3+1D inversion: 3 derivations from existing physics
 
 **Major changes since v2.7.9:**

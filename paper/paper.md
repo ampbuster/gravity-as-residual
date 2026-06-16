@@ -494,6 +494,43 @@ This is a *power-law* relation, not a step. Future observations of dwarf galaxie
 
 **Limitation update.** The v2.3.0 E_crit phase-transition threshold (a calibrated free parameter, ~10^30 J) has been *removed* in v2.7.4: the smooth function uses only α = 1.29 (from the SN calibration, §10.1), and the same α already characterizes the energy-scaling rule. The cascade's *single* free parameter α is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an E_crit free parameter to derive. This is a *parameter reduction*: 2 free parameters (α + E_crit) → 1 free parameter (α). New **Limitation 36 added** (E_crit hidden free parameter REVERTED, smooth function uses only α).
 
+#### 2.5.4 The 2D universe is "invisible" during life: deaths-only DM (v2.7.11+)
+
+**Adopting deaths-only DM.** A simplification proposed and adopted in v2.7.11: the cascade's 2D universe is *invisible* to 3+1D during its 33s lifetime. Dark matter is contributed *only* at the moment of death, when the 2D universe's energy is delivered to 3+1D as a permanent, non-luminous mass-energy contribution. There is **no live 2D universe back-projection** (i.e., $f_{\text{back,live}} = 0$).
+
+**Why this is the cleaner framework.** The previous cascade had two DM contributions: (1) live 2D universe back-projection (with $f_{\text{back,live}} \sim 0.05$ from the SPARC MCMC fit, REVERTED in v2.7.1 to phenomenological), and (2) cumulative deaths (via the S_destruction mechanism, $\sim 95\%$). The deaths-only framework collapses these into a single mechanism: **all DM comes from cumulative deaths**.
+
+**Alignment with 2D gravity consensus.** The 2D gravity community's standard picture is that 2D black holes EVAPORATE at the end of their lifetime, returning their energy to the parent spacetime. This is exactly the deaths-only mechanism. The cascade's earlier live back-projection ($f_{\text{back,live}} \sim 0.05$) was a phenomenological fit that was *not* in standard 2D gravity. The deaths-only framework aligns cascade with 5 of 6 framework analyses:
+
+| Framework | Supports deaths-only? |
+|-----------|----------------------|
+| CGHS (1992) | ✓ (2D BH evaporates at end) |
+| Padmanabhan (2015) | ✓ (missing bulk entropy = death-time return) |
+| Horava-Witten (1996) | ✓ (D1-brane decays at end) |
+| Ryu-Takayanagi (2006) | ✓ (entanglement entropy visible at death) |
+| Jacobson (1995) | ✓ (2D BH horizon evaporates) |
+| Kaluza-Klein (1921) | (silent on the question) |
+
+**Parameter impact.** Deaths-only removes $f_{\text{back,live}} \sim 0.05$ as a *calibrated postulate* (REVERTED in v2.7.1, no longer needed). The cascade's parameter count:
+
+- **Truly free parameters**: 2 (α = 1.29, z_half ≈ 3) — UNCHANGED
+- **Calibrated postulates**: 3 (f_back, ε, F_p) — was 4 (now without f_active ~ 0.05)
+- **Observational inputs**: 5 (5/27/68, H_0, SN energy, etc.) — UNCHANGED
+
+So deaths-only is a *real simplification* (1 less calibrated postulate), not a "free parameter" reduction.
+
+**What stays the same.** The S_destruction mechanism in the §2.5.1 action is preserved (it was already death-focused). The dSph bifurcation (AGC vs KKR) is still explained by deaths-only:
+- AGC 114905: low-mass SF, no recent SN → few deaths → low DM (✓)
+- KKR 25: 1-4 Gyr burst → many deaths during burst → high DM (✓)
+
+The 16/17 test categories and 7/7 specific cases are preserved. The cascade's phenomenological successes are unchanged.
+
+**What is removed.** The 2D universe's *active* back-projection (the "live" component). The cascade no longer posits that 2D universes are visible to 3+1D during their 33s lifetime. They are "elsewhere" (in 2D) and only become visible (to 3+1D) at the moment of death.
+
+**The "f_active" parameter.** Previously $f_{\text{active}} \sim 0.05$ was the *fraction* of cumulative 2D universe back-projection that is "active" (live) at any moment. In deaths-only, this parameter is *removed* and replaced by a simpler statement: the DM density at any point is the time-integrated death rate at that point, $\rho_{\text{DM}}(r) = \int dt \, R_{\text{SN}}(r, t) \cdot E_{\text{per SN to 2D}} / c^2$. The spatial distribution of DM traces out the SN (or more generally, energetic event) history.
+
+**Honest verdict.** Deaths-only is *more parsimonious* and *better aligned with 2D gravity consensus* than the previous framework. It is a real simplification that the cascade adopts as v2.7.11. See `calculations/v27_deaths_only_dm.py` for the full analysis.
+
 
 ### 2.6 The energy budget, the cosmological constant, and the bulk-brane cascade
 
@@ -1121,7 +1158,7 @@ The honest summary: *none* of these frameworks derive the cascade's α = 1.29 fr
 - **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.10: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.11: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
