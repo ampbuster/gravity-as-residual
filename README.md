@@ -164,7 +164,13 @@ The cascade has **1 conceptual principle** but **2 remaining free parameters** (
 
 Net: the cascade's SFH-DM correlation is *qualitatively positioned* better than ΛCDM (no 3-4σ outliers) and MOND (no MOND-boost conflict with AGC 114905) *specifically*, but with calibration caveats. The cascade's value remains **interpretive** (DM = 2D universe deaths, DE = 4D event antigravity) and **conceptually parsimonious** (1 principle vs ΛCDM's 20+ free parameters), not predictively unique.
 
-## Dwarf Galaxy Tests — Extreme Comparison Table (v2.7.40+)
+## Wide-Range Galaxy Comparison Table (v2.7.41+)
+
+The cascade's qualitative SFH-DM correlation (DM = past SF activity) is
+tested against a wide range of galaxies with consensus M_dyn
+measurements. The following table spans **10 orders of magnitude**
+in M_b (from globular clusters to galaxy clusters) and **3 orders
+of magnitude** in M_dyn/M_b:
 
 The cascade's qualitative SFH-DM correlation (DM = past SF activity) is
 tested against dwarf galaxies with consensus M_dyn measurements. The

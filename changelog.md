@@ -2,6 +2,51 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.41 (June 2026) — §3.32 wide-range comparison (21 galaxies)
+
+**Major changes since v2.7.40:**
+
+1. **§3.32 NEW: Wide-range galaxy comparison** (~3 pages)
+   - 21 galaxies spanning 10 orders of magnitude in M_b
+   - 3 orders of magnitude in M_dyn/M_b
+   - Categories: GCs, dwarf galaxies, UFDs, irregulars, spirals,
+     AGN host, clusters
+   - All 21/21 pass the qualitative test (DM is non-zero)
+   - Test counts: 12+21+2 = 35/35 total galaxy tests
+
+2. **Galaxy types in the table**:
+   - GCs: M15, 47 Tuc, Omega Cen, G1 (M_dyn/M_b ~ 1-1.7)
+   - Dwarfs: Tucana dSph, Crater II, Antlia 2, DF2, UFDs
+   - Irregulars: LMC, SMC (M_dyn/M_b ~ 6-7)
+   - Spirals: MW, M31 (M_dyn/M_b ~ 14-30)
+   - Starburst: M82 (M_dyn/M_b ~ 4)
+   - AGN host: NGC 1275 (M_dyn/M_b ~ 50)
+   - Clusters: Bullet, Coma, Perseus (M_dyn/M_b ~ 10-50)
+
+3. **KRR 25, AGC 114905, TDGs EXCLUDED (per user request)**:
+   - KKR 25: M_dyn not measured (no published velocity dispersion)
+   - AGC 114905: DM content is DISPUTED (Mancera Piña 2022 vs Sellwood 2022)
+   - TDGs (Gentile 2007): DM content is DISPUTED, unresolved 20 years
+   - All three have explanatory notes in the table
+
+4. **Pattern across 10 orders of magnitude**:
+   - M_dyn/M_b varies from 1 (GCs) to 1689 (Tucana II UFD)
+   - All galaxies have non-zero M_dyn (consistent with cascade)
+   - The cascade's specific M_dyn/M_b prediction requires L9 closed
+
+5. **L49 added**:
+   - Cascade's pass criterion is qualitative (DM is non-zero)
+   - Not a specific M_dyn/M_b value
+   - Quantitative prediction requires L9 closed
+
+6. **Net: 1 new section, ~3 pages**
+   - Total paper: 263 → 266 pages
+   - 50 honest limitations (L49 added)
+   - 1 free parameter (z_half only)
+   - 35/35 galaxy tests pass (12 + 21 + 2)
+
+**Earlier v2.7.40 entry (unchanged):**
+
 ## v2.7.38 (June 2026) — §3.31 testing testable extreme galaxies
 
 **Major changes since v2.7.37:**

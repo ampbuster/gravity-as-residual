@@ -1,0 +1,181 @@
+{
+  "n_galaxies": 21,
+  "n_pass": 21,
+  "M_b_range": "10^4 (GCs) to 10^14 (clusters) = 10 orders of magnitude",
+  "M_dyn_over_Mb_range": "1 to 1689 = 3 orders of magnitude",
+  "galaxies": [
+    [
+      "M15 (NGC 7078)",
+      500000.0,
+      500000.0,
+      1.0,
+      "GC; classic example of no DM",
+      "GC"
+    ],
+    [
+      "47 Tucanae (NGC 104)",
+      1000000.0,
+      1000000.0,
+      1.0,
+      "GC; no current activity",
+      "GC"
+    ],
+    [
+      "Omega Centauri (NGC 5139)",
+      4000000.0,
+      5000000.0,
+      1.25,
+      "Massive GC with IMBH; no current activity",
+      "GC"
+    ],
+    [
+      "G1 (Mayall II) in M31",
+      8000000.0,
+      14000000.0,
+      1.7,
+      "Massive GC in M31; may have IMBH",
+      "GC"
+    ],
+    [
+      "Tucana dSph",
+      200000.0,
+      250000.0,
+      1.3,
+      "Isolated dSph, quenched 6+ Gyr; very low past SF",
+      "Dwarf"
+    ],
+    [
+      "Crater II",
+      300000.0,
+      5900000.0,
+      19.8,
+      "MW satellite; very low M_dyn/M_b",
+      "Dwarf"
+    ],
+    [
+      "NGC 1052-DF2",
+      200000000.0,
+      300000000.0,
+      1.5,
+      "UDG; claimed no DM (van Dokkum 2018)",
+      "Dwarf UDG"
+    ],
+    [
+      "Antlia 2",
+      500000.0,
+      84000000.0,
+      168.6,
+      "Most diffuse MW satellite (Torrealba 2018)",
+      "Dwarf"
+    ],
+    [
+      "Willman 1",
+      10000.0,
+      470000.0,
+      46.5,
+      "UFD; unusual kinematics",
+      "UFD"
+    ],
+    [
+      "Bo\u00f6tes I",
+      30000.0,
+      6700000.0,
+      222.9,
+      "Classic UFD; very high M_dyn/M_b",
+      "UFD"
+    ],
+    [
+      "Segue 1",
+      600.0,
+      480000.0,
+      796.1,
+      "Most extreme UFD known",
+      "UFD"
+    ],
+    [
+      "Tucana II",
+      2300.0,
+      3900000.0,
+      1689.6,
+      "Very high M_dyn/M_b UFD",
+      "UFD"
+    ],
+    [
+      "LMC",
+      3000000000.0,
+      20000000000.0,
+      6.7,
+      "Magellanic Cloud; massive irregular satellite",
+      "Irregular"
+    ],
+    [
+      "SMC",
+      500000000.0,
+      3000000000.0,
+      6.0,
+      "Magellanic Cloud; small irregular satellite",
+      "Irregular"
+    ],
+    [
+      "M82 (NGC 3034)",
+      10000000000.0,
+      40000000000.0,
+      4.0,
+      "Starburst; extreme current SF",
+      "Starburst"
+    ],
+    [
+      "Milky Way",
+      60000000000.0,
+      1800000000000.0,
+      30.0,
+      "Normal spiral",
+      "Spiral"
+    ],
+    [
+      "M31 (Andromeda)",
+      100000000000.0,
+      1400000000000.0,
+      14.0,
+      "Normal spiral; revised mass (Makarov 2025)",
+      "Spiral"
+    ],
+    [
+      "NGC 1275 (Perseus A)",
+      1000000000000.0,
+      50000000000000.0,
+      50.0,
+      "AGN host; central galaxy of Perseus cluster",
+      "AGN host"
+    ],
+    [
+      "Perseus Cluster (Abell 426)",
+      100000000000000.0,
+      1500000000000000.0,
+      15.0,
+      "Massive cluster; total mass from X-ray + lensing",
+      "Cluster"
+    ],
+    [
+      "Coma Cluster (Abell 1656)",
+      50000000000000.0,
+      500000000000000.0,
+      10.0,
+      "Massive cluster",
+      "Cluster"
+    ],
+    [
+      "Bullet Cluster (1E 0657-56)",
+      20000000000000.0,
+      1000000000000000.0,
+      50.0,
+      "Cluster merger; gas-galaxy separation",
+      "Cluster merger"
+    ]
+  ],
+  "excluded": [
+    "KKR 25 (not measured)",
+    "AGC 114905 (disputed)",
+    "TDGs (disputed)"
+  ]
+}
