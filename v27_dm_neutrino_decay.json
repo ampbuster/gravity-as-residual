@@ -1,0 +1,10 @@
+{
+  "R_add": 6.199843267962186e-19,
+  "Gamma_equilibrium": 2.296238247393402e-18,
+  "tau_equilibrium": 4.3549488e+17,
+  "m_DM_GeV_assumed": 1.0,
+  "p_F_MeV_in_halo": 4.0860891411158265e-11,
+  "Xray_energy_keV": 500000.0,
+  "n_active_nu_per_cm3": 1.2919198268321343e-06,
+  "verdict": "cascade DM is fermion (sterile neutrino), decays into active \u03bd + \u03b3, Pauli-blocked in halos"
+}

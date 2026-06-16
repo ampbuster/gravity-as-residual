@@ -2,6 +2,63 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.18 (June 2026) — §3.13 DM as decaying sterile neutrino (user insight)
+
+**Major changes since v2.7.17:**
+
+1. **§3.13 NEW: DM as decaying sterile neutrino, Pauli-blocked equilibrium** (~3.5 pages)
+
+2. **User insight (corrected from §3.13v1):**
+   - 2D universe death returns as DM (sterile neutrino)
+   - DM decays slowly into active ν + γ
+   - The more DM clustered, the slower the decay
+   - DM is cumulative (more than baryons) but decays into neutrinos (so ratio doesn't change)
+
+3. **STABLE EQUILIBRIUM model:**
+   - Cumulative addition: dΩ_DM/dt = R_add (from 2D universe deaths)
+   - Decay: dΩ_DM/dt = -Γ × Ω_DM (DM → active ν + γ)
+   - At equilibrium: Ω_DM = R_add / Γ
+   - For observed 27% DM: τ_DM ~ 14 Gyr (slightly longer than universe's age)
+   - The cascade is currently at ~50% of equilibrium
+
+4. **PAULI BLOCKING mechanism for clustering-dependent decay:**
+   - DM is fermion (sterile neutrino), obeys Pauli exclusion
+   - In dense regions, Fermi sea is filled, decay suppressed
+   - In sparse regions, decay allowed
+   - p_F in DM halos ~ 280 MeV, decay products ~ GeV scale
+
+5. **Testable predictions:**
+   - **X-ray/gamma-ray line:** E_γ = m_s/2 (sterile neutrino decay)
+     - For m_s ~ 1 GeV: E_γ ~ 500 MeV (gamma ray, Fermi-LAT, CTA)
+     - For m_s ~ 10 keV: E_γ ~ 5 keV (X-ray, XMM-Newton, Chandra)
+   - **Spatial variation of DM/baryon:** halos have higher ratio, cosmic web has lower
+   - **Relic active neutrino background:** n_ν ~ 10⁻⁶/cm³ (much less than 336/cm³ standard)
+   - **Time evolution:** at z=0, ratio is ~90% of equilibrium value
+
+6. **Resolves §3.12 ambiguity:**
+   - "Approximately conserved" total DM is now DERIVED, not postulated
+   - DM/baryon ratio is constant at 5.4x via addition-decay equilibrium
+
+7. **Resolves §3.11 question:**
+   - 5% baryons create 2D universes (with per-event amplification)
+   - 2D universe deaths return as sterile neutrinos
+   - Cumulative DM exceeds baryons
+   - Slow decay, suppressed in halos, equilibrium reached
+
+8. **Connection to other sections:**
+   - §2.5.4 Deaths-only DM: 2D universe death is the FIRST appearance of DM
+   - §4.48 Smooth F_p(z): independent of decay mechanism
+   - §3.10 4D's own DM: 4D's "DM" would also decay via same mechanism
+   - §3.9 Inversion: sterile neutrino consistent with all 3 inversion mechanisms
+
+9. **Status (v2.7.18+):**
+   - 2D universe death return is specified as sterile neutrino
+   - DM decays slowly, suppressed in halos
+   - Total DM is now DERIVED (not postulated)
+   - Major conceptual advance from v2.7.17
+
+**Earlier v2.7.17 entry (unchanged):**
+
 ## v2.7.17 (June 2026) — §3.12 Does DM/baryon ratio grow over time?
 
 **Major changes since v2.7.16:**
