@@ -2,6 +2,55 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.25 (June 2026) — §3.18 Same proper lifetime applies upward
+
+**Major changes since v2.7.24:**
+
+1. **§3.18 NEW: Same proper lifetime extends UPWARD** (~2.5 pages)
+   - User insight: "could it apply upwards in dimensions too?"
+   - User is right! The §3.17 logic generalizes to 3+1D universes (and beyond)
+
+2. **The pattern: each level's proper lifetime = next-dim Planck time**
+   - 2D universe: t_Pl,3 in 2D frame
+   - 3+1D universe: t_Pl,4 in 3+1D frame
+   - 4D universe: t_Pl,5 (if §3.10 extension)
+   - Each level is "democratic" in its own frame
+
+3. **4D event → 3+1D universe lifetime table:**
+   - tiny 4D (10^30 J): τ_3+1D_4D ~ 10^-19 s
+   - SN-scale (10^44 J): τ_3+1D_4D ~ 10^-6 s
+   - AGN-scale (10^55 J): τ_3+1D_4D ~ 10^8 yr
+   - our Big Bang (10^69 J): τ_3+1D_4D ~ 2×10^26 yr ✓ matches paper
+   - huge 4D (10^80 J): τ_3+1D_4D ~ 10^40 yr
+
+4. **Our universe verification:**
+   - E_4D = 10^69 J
+   - γ_3+1D = 10^77 (time dilation factor)
+   - T_3D = 1.8×10^26 yr (matches paper)
+   - τ_3+1D_proper = t_Pl,4 = 5.39×10^-44 s
+
+5. **The "awe" of the parent dimension:**
+   - From 3+1D's perspective, 2D universes span 10^-63 s (LHC) to 10^8 yr (AGN)
+   - From 4D's perspective, 3+1D universes span 10^-19 s to 10^40 yr
+   - Each parent is in awe of how short-lived some children are, and how long-lived others
+
+6. **The democratic cosmology extends to every level:**
+   - §3.17: 2D universes (downward)
+   - §3.18: 3+1D universes (upward, this section)
+   - Pattern continues if §3.10 extension holds: 4D universes
+
+7. **Falsifiability:**
+   - If child universe lifetimes cluster around preferred values: hypothesis wrong
+   - If child lifetimes are smooth across 25 orders of magnitude: hypothesis right
+
+8. **L9 (2D universe physics) further closed:**
+   - Proper lifetime: t_Pl,4 (specified)
+   - Time dilation factor: γ_3+1D = (E_4D/E_Pl,4)^1.29 (specified)
+   - Mass scaling: M_3+1D_4D ∝ E^0.71 (specified)
+   - Internal dynamics: still unspecified (the only remaining gap)
+
+**Earlier v2.7.24 entry (unchanged):**
+
 ## v2.7.24 (June 2026) — §3.17 All 2D universes have same proper lifetime
 
 **Major changes since v2.7.23:**
