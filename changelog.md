@@ -4266,3 +4266,35 @@ doesn't support tables. Switching to `markdown+grid_tables+pipe_tables`
 enables both grid tables (|---|---|) and pipe tables (|---|---|).
 The post-processors handle the LaTeX issues that pandoc generates
 when converting markdown tables to LaTeX longtables.
+
+## v3.0.21 (June 2026) — Fixed broken tables (\dimexpr → \linewidth)
+
+**Major fix**: Tables with certain content (parens in cells, math mode)
+were being rendered with the column widths printed as text, breaking
+the table layout.
+
+**Root cause**: The `\dimexpr(\\columnwidth - N\\tabcolsep)*X\\relax`
+syntax has a LaTeX bug where, when combined with specific cell content,
+the column widths are printed as text instead of being used as
+dimensions.
+
+**The fix**: Replace the complex `\dimexpr` syntax with simpler
+`\linewidth` syntax:
+- `p{\\dimexpr(\\columnwidth - 4\\tabcolsep)*0.4375\\relax}`
+- becomes: `p{0.4375\\linewidth}`
+
+**Implementation**: Added `paper/use_linewidth.py` post-processor that
+runs after `wrap_dimexpr.py` in the build pipeline.
+
+**Tested**:
+- §3.15.7 "Honest verdict" table now renders properly with all 3 columns
+  ("Failure mode", "Problem", "Verdict") and content is readable
+- Previously, the column widths (0.4375, 0.2812, 0.2812) were being
+  printed as text, making the table unreadable
+- Page count: 353 (down from 408 with broken tables taking extra space)
+
+Pushed: github.com/ampbuster/gravity-as-residual (commit c39a5d3)
+
+KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
+`\tabcolsep`) but has rendering bugs in some cases. The simpler
+`\linewidth` syntax is more reliable and works for all our tables.
