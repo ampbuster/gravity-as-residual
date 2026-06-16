@@ -1,0 +1,34 @@
+{
+  "per_event_amplification": {
+    "SN_energy_Msun_c2": 0.0005586280096084019,
+    "required_2D_3plus1D_mass_Msun": 3.7e-05,
+    "amplification_factor_per_SN": 67.5,
+    "e_to_minus_ky_required": 6.2e-06,
+    "cascade_stated_e_to_minus_ky": 1e-54,
+    "discrepancy_orders_of_magnitude": 49,
+    "L31_uncertainty_orders": 54,
+    "consistent_with_L31": true
+  },
+  "time_accumulation": {
+    "cumulative_SN_MW": 8709897600000000.0,
+    "cumulative_SN_energy_Msun": 4865592760180.996,
+    "ratio_to_MW_baryons": 81.09321266968327,
+    "amplification_required_per_SN": 67.5
+  },
+  "multiple_events": {
+    "cumulative_energy_MW_Msun": 2.4352291779302662e+22,
+    "ratio_to_baryons": 405871529655.0444,
+    "amplification_required_per_event": 54
+  },
+  "DE_arena": {
+    "effect_on_event_rates": 0.3,
+    "effect_on_amplification": 1.3,
+    "verdict": "modest contribution, not the main mechanism"
+  },
+  "DE_energy_source": {
+    "required_2D_intrinsic_mass_Msun": 6.0,
+    "SN_baryonic_contribution_Msun": 5.6e-07,
+    "DE_contribution_required_Msun": 6.0,
+    "verdict": "plausible if V_birth is large, requires specific calculation"
+  }
+}

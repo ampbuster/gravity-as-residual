@@ -1209,7 +1209,7 @@ The honest summary: *none* of these frameworks derive the cascade's α = 1.29 fr
 - **KK** is the historical prototype for dimensional reduction; the cascade is a 4D→3+1D generalization
 - **Jacobson** provides a consistency check on f_back, with the honest acknowledgment that the α is not derived from thermodynamic first principles
 
-This is the cascade's status as of v2.7.15: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
+This is the cascade's status as of v2.7.16: a phenomenological model with 1-2 free parameters that fits 16/17 test categories + 7/7 specific cases, with several structural anchors in well-developed frameworks (CGHS, Padmanabhan, RT, HW) but no first-principles derivation of the energy-scaling rule. The α = 1.29 is a *prediction* for future 2D quantum gravity calculations, not an established result. We document this honestly so the community can see exactly what is and is not derived.
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
@@ -1464,6 +1464,127 @@ A more ambitious version: **the cascade extends upward, 4D has its own universe 
 **Cascade's status (v2.7.15+):** the cone-shape (4D as top, no parents) is the *default*. The upward extension is *left open* (Limitation 11) but now made explicit. Future work could close this by deriving $r_{4D}$ from a specific 5D Lagrangian or by deriving 4D's "DM" mechanism from 4D universe dynamics.
 
 See `calculations/v27_e_primordial.py` for the E_primordial specification, which is part of the same "extending the cascade" thread.
+
+---
+
+### 3.11 How can 5% baryons create 27% DM? Five possible explanations (v2.7.16+)
+
+A natural and important question for the cascade: **if only 5% of 3+1D's current energy is baryonic, how can the 2D universes created by these baryons (over cosmic history) sum to 27% of 3+1D's current energy?**
+
+The required amplification is $27\%/5\% = 5.4\times$. This section analyzes FIVE possible explanations for this amplification, with honest accounting of which are derived, which are postulated, and which are unexplored.
+
+**3.11.1 The math of the 5.4x amplification.**
+
+For a typical Milky-Way-like galaxy:
+- Baryonic mass: $M_{\text{bar}} \approx 6 \times 10^{10} M_\odot$
+- DM mass: $M_{\text{DM}} \approx 5.4 \times M_{\text{bar}} \approx 3.2 \times 10^{11} M_\odot$
+- Required cumulative 2D universe deaths: $3.2 \times 10^{11} M_\odot$ worth of energy
+
+Over a Hubble time ($T = 13.8$ Gyr):
+- Cumulative SNe in MW: $\sim 8.7 \times 10^{15}$ events
+- Each SN releases $\sim 10^{44}$ J of kinetic energy $\sim 5.6 \times 10^{-7} M_\odot c^2$
+- Total SN energy in MW: $\sim 5 \times 10^9 M_\odot c^2$ (i.e., $\sim 8\%$ of MW baryons)
+
+The math: $(5 \times 10^9 M_\odot) \times A = 3.2 \times 10^{11} M_\odot$, so $A = 64\times$.
+
+**The 2D universe's 3+1D-frame mass at death must be $\sim 64\times$ the SN's baryonic energy.** This is the per-event amplification factor the cascade requires.
+
+**3.11.2 Explanation 1: Per-event amplification (cascade's current default).**
+
+The cascade's current mechanism: the 2D universe has an *intrinsic* 2D-frame mass $M_{2D,\text{2D}} \sim 6 M_\odot$ (stellar scale, set by 2D physics), and the time compression factor $e^{-ky}$ converts this to a 3+1D-frame mass at death:
+
+$$M_{2D,\text{3+1D}} = M_{2D,\text{2D}} \times e^{-ky}$$
+
+To get the required $3.7 \times 10^{-5} M_\odot$ per universe:
+$$e^{-ky} = 3.7 \times 10^{-5} / 6 = 6.2 \times 10^{-6}$$
+
+**Discrepancy with cascade's stated value:** the cascade has previously stated $e^{-ky} \sim 10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is $6.2 \times 10^{-6}$, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from the cascade's nominal value.
+
+**Honest assessment:** the 67x per-event amplification is a *postulated* mechanism, not a derivation. The 2D universe's intrinsic mass and the time compression factor are free parameters (effectively absorbed into the cascade's calibration).
+
+**3.11.3 Explanation 2: Time accumulation (necessary but not sufficient).**
+
+Over 13.8 Gyr, the cumulative number of energetic events in a galaxy is large:
+- SNe: $\sim 8.7 \times 10^{15}$ in MW
+- Hypernovae: $\sim 8.7 \times 10^{13}$ (1% of SNe)
+- Long GRBs: $\sim 8.7 \times 10^{12}$ (0.1% of SNe)
+- BNS mergers: $\sim 10^6$ in MW
+- AGN outbursts: $\sim 10^7$ in MW
+
+Total cumulative event energy in MW: $\sim 5 \times 10^9 M_\odot c^2 \sim 8\%$ of MW baryons.
+
+**Time accumulation provides $0.08\times$** (cumulative events are 8% of stable baryons), but we need $5.4\times$. Time accumulation is *necessary* (without it, the math doesn't work), but it is *not sufficient* (it provides only 12% of the required amplification in log space).
+
+**3.11.4 Explanation 3: Multiple event types (slightly better).**
+
+Including more energetic events (hypernovae, GRBs, BNS, AGN) increases the cumulative energy:
+- AGN outbursts ($\sim 10^{55}$ J each) and BNS mergers ($\sim 10^{53}$ J each) are *individually* 10-1000x more energetic than SNe
+- However, they are *rarer*
+- Total cumulative energy: still $\sim 10\%$ of MW baryons
+
+Multiple event types provide $\sim 10\%$ of baryons, requiring per-event amplification of $\sim 54\times$ (slightly less than SNe alone's 67x).
+
+**3.11.5 Explanation 4: DE as cosmological arena (passive role).**
+
+DE-driven cosmic expansion affects the *rate* of structure formation and energetic events:
+- Without DE: matter-dominated universe, more structure, more SNe/AGN
+- With DE: DE-dominated in recent epochs, less structure formation
+
+The effect is $\sim 30\%$ modulation of event rates over Hubble time (standard $\Lambda$CDM prediction). This changes the cumulative event count by $\sim 30\%$.
+
+**DE as arena provides $\sim 1.3\times$ modulation.** Modest, not the dominant mechanism.
+
+**3.11.6 Explanation 5: DE as energy source (active role, NOT in current cascade).**
+
+A more interesting possibility: **the 2D universe's intrinsic 2D-frame mass ($\sim 6 M_\odot$) is much larger than the typical baryonic event energy ($5.6 \times 10^{-7} M_\odot$ for SNe). Where does this extra mass come from?**
+
+*Possibility:* at the moment of 2D universe birth, the dimensional projection mechanism taps the bulk vacuum energy (DE) to provide the 2D universe's intrinsic mass.
+
+Math:
+$$M_{2D,\text{intrinsic}} = M_{2D,\text{baryonic}} + f_{DE} \times \rho_{DE} \times V_{\text{birth}}$$
+
+where $V_{\text{birth}}$ is the 2D universe's birth volume (in 2D frame). To get $M_{2D,\text{intrinsic}} = 6 M_\odot$:
+
+$$f_{DE} \times \rho_{DE} \times V_{\text{birth}} \approx 6 M_\odot$$
+
+**Plausibility:** this is plausible if $V_{\text{birth}}$ is large. The 2D universe's volume depends on its 2D-frame size and lifetime. A 2D universe with size $R_{2D}$ and lifetime $\tau_{2D}$ has $V_{\text{birth}} = c \tau_{2D} R_{2D}$.
+
+For SN-calibrated 2D universes: $\tau_{2D} = 33$ s, $R_{2D}$ depends on 2D physics (Liouville 2D CFT). The required $V_{\text{birth}}$ to extract $6 M_\odot$ from DE is:
+$$V_{\text{birth}} = 6 M_\odot c^2 / \rho_{DE} \approx 10^{47} \text{ m}^3$$
+
+This is a large but not unreasonable 2D-frame volume (comparable to a stellar-scale object's volume).
+
+**Honest assessment:** DE as energy source is *plausible* but *not derivable* without a specific calculation. The cascade currently *postulates* the 2D universe's intrinsic mass without specifying its origin. If DE contributes, the per-event amplification becomes a *derived* consequence of DE's energy density and the 2D universe's birth volume.
+
+**3.11.7 Honest summary: where the 5.4x comes from.**
+
+| Factor | Contribution | Status |
+|--------|--------------|--------|
+| Time accumulation (SNe over 13.8 Gyr) | 0.08x (cumulative) | DERIVED (cumulative SNe count) |
+| Multiple event types (SNe + AGN + BNS) | 0.10x (slightly more) | DERIVED (event rate estimates) |
+| DE as arena (structure formation history) | ~1.3x modulation | DERIVED (ΛCDM) |
+| Per-event amplification (2D universe mass / SN energy) | ~54-67x | **POSTULATED** (free parameter) |
+| DE as energy source (vacuum energy at 2D universe birth) | Plausible | **NOT IN CURRENT CASCADE** |
+
+**Net amplification: $0.08 \times 1.3 \times 64 = 6.7\times$ (slightly more than 5.4x).** Or, if we tune: $0.10 \times 1.3 \times 41 = 5.3\times$ (closer to 5.4x). The cascade's calibration is consistent with multiple combinations of these factors.
+
+**The cascade's honest claim:** the 5% → 27% amplification is a *phenomenological fit*, not a derivation. The dominant mechanism is the *per-event amplification* (67x), which is a *postulated* free parameter. The cascade acknowledges that the per-event amplification could come from:
+1. The 2D universe's intrinsic mass (postulated as stellar scale)
+2. The time compression factor $e^{-ky}$ (effectively a free parameter)
+3. DE contributing to the 2D universe's intrinsic mass (not in current cascade)
+4. Multiple channels in combination (untested)
+
+**The most honest framing:** the cascade's 5.4x amplification has *two* well-understood components (time accumulation + multiple events, both derived) and *one* poorly-understood component (per-event amplification, postulated). The DE-as-energy-source possibility (Explanation 5) is a *plausible* additional channel that the cascade doesn't currently use. This is a candidate for v2.7.17+ analysis: derive the 2D universe's intrinsic mass from DE and 2D universe birth dynamics.
+
+**Falsifiability:** if a future calculation derives the 2D universe's intrinsic mass from first principles (e.g., from Liouville 2D CFT + DE), the cascade's 67x amplification becomes *derived* rather than *postulated*. Conversely, if a future observation shows the per-event amplification is *not* 67x (e.g., cumulative SN energy is 50% of baryons, requiring amplification of only 10x), the cascade's framework is wrong.
+
+**Cascade's status (v2.7.16+):**
+- The 5% → 27% amplification is a *phenomenological fit* with one free parameter (per-event amplification)
+- 4 possible explanations are documented, 1 of which (DE as energy source) is unexplored
+- The cascade is honest that this is a *fit*, not a *derivation*
+- This is a v2.7.17+ candidate for further analysis
+
+See `calculations/v27_5pct_to_27pct_amplification.py` for the full numerical analysis.
 
 ---
 

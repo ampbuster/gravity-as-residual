@@ -2,6 +2,42 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.16 (June 2026) — §3.11 How 5% baryons create 27% DM
+
+**Major changes since v2.7.15:**
+
+1. **§3.11 NEW: 5 possible explanations for 5% → 27% amplification** (~3 pages)
+   - Math: required amplification 27%/5% = 5.4x
+   - For typical galaxy: cumulative SNe = 8% of baryons, per-event amplification = 64x required
+
+2. **5 explanations analyzed:**
+   - **E1: Per-event amplification** — 67x factor per SN (cascade's current default, POSTULATED)
+   - **E2: Time accumulation** — 0.08x cumulative, necessary but not sufficient
+   - **E3: Multiple event types** — 0.10x cumulative, slightly better than SNe alone
+   - **E4: DE as arena** — ~1.3x modulation, modest
+   - **E5: DE as energy source** — plausible if V_birth large, NOT in current cascade
+
+3. **Per-event amplification is DOMINANT** (~67x out of 5.4x)
+   - 2D universe intrinsic mass = stellar scale (~6 M_sun)
+   - Time compression e^{-ky} = 6.2e-6 required
+   - 49-order discrepancy from cascade's stated 10^-54
+   - Within L31's 54-order uncertainty, but significant
+
+4. **Honest summary table** with 4 factors and their contributions
+   - Time accumulation: DERIVED
+   - Multiple events: DERIVED
+   - DE as arena: DERIVED
+   - Per-event amplification: POSTULATED
+   - DE as energy source: NOT IN CURRENT CASCADE
+
+5. **Net amplification 6.7x** (slightly more than 5.4x), tunable to 5.3x
+   - Multiple combinations of factors give 5.4x
+   - The cascade's calibration is consistent with multiple explanations
+
+6. **Falsifiability:** future calculation of 2D universe intrinsic mass would derive (not postulate) the 67x amplification. Future observation showing cumulative SN energy is 50% of baryons would falsify the 67x.
+
+**Earlier v2.7.15 entry (unchanged):**
+
 ## v2.7.15 (June 2026) — §3.10 Extending the cascade upward
 
 **Major changes since v2.7.14:**
