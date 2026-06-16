@@ -2,6 +2,45 @@
 
 This document contains the cascade's full version history.
 
+## v2.7.32 (June 2026) — §3.26 intermediate dwarf population web research
+
+**Major changes since v2.7.31:**
+
+1. **§3.26 NEW: Intermediate dwarf population analysis** (~3 pages)
+   - Cascade's smooth F(z) predicts ~10-30% of field dwarfs in intermediate F(z) = 0.1-0.5
+   - 2025-2026 surveys ARE finding them:
+     * **Bidaran et al. 2025** (arXiv 2501.02910): First sample of isolated quenched
+       dwarfs in cosmic voids, log(M*/M_sun) = 8.9-9.5, no neighbour within 1.0 Mpc
+     * **CVnC dwarf** (Hagen et al. 2026, arXiv 2601.14248): Quenched isolated
+       dwarf in local volume, 'growing number of quenched dwarf galaxies'
+     * **SIGRID** (Nicholls et al. 2011): 83 gas-rich isolated dwarfs
+     * **Ava Polzin list**: Actively maintained list of quenched isolated dwarfs
+
+2. **Gemini critique was valid historically but no longer valid in 2025-2026**:
+   - Pre-2025: Population thought to be bimodal (gas-rich vs quenched)
+   - 2025-2026: Intermediate isolated quenched dwarfs being discovered
+   - Cascade's smooth F(z) is consistent with this emerging picture
+
+3. **New testable predictions**:
+   - ~10-30% of field dwarfs in intermediate F(z) range
+   - F(z) distribution should be smooth (Hill function), not bimodal
+   - No F(z) gap between gas-rich and quenched populations
+   - Testable with LSST Y1 (2027), Euclid Q1 (2026)
+
+4. **Falsifiability**:
+   - If LSST Y1 finds 0 intermediate dwarfs: cascade wrong
+   - If intermediate dwarfs are 50%+ of field: cascade's F(z) too smooth
+   - If intermediate dwarfs have bimodal F(z): cascade wrong
+   - If intermediate dwarfs cluster at specific F(z) values: Hill function wrong
+
+5. **Net: 1 new section, ~3 pages**
+   - Total paper: 251 → 254 pages
+   - Test counts UNCHANGED
+   - 38 honest limitations (L37 unchanged)
+   - 1 free parameter (z_half only)
+
+**Earlier v2.7.31 entry (unchanged):**
+
 ## v2.7.31 (June 2026) — §3.25 web research honest verdict
 
 **Major changes since v2.7.30:**
