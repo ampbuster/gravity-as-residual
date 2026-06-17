@@ -123,6 +123,23 @@ bash paper/build_pdf.sh --dry-run FILE.md  # check specific files
 
 **v3.0.21 update**: §3.62.1 added — SIDC IS structurally Karch-Randall + JT gravity (Deng et al. arXiv:2211.13415). Z_SIDC = Z_JT × Z_Liouville × Z_SYK is in principle tractable. Lagrangian v13 attempted combined Z computation; α = 1.289 NOT cleanly recovered from Z alone in tested β ranges. L91 (holographic reduction framing) and L92 (3D→2D gravity inversion prior art) added to limitations.
 
+
+**v3.0.21 update 2**: §3.62.2 + L93-L97 summarize 5 more attempts (v14-v19).
+- v14: M^1.29 universality across 14 events — works for HIGH-E events only
+- v15: Variational Liouville + DOZZ — μ is NOT structural in c=1 Liouville
+- v16: 2D theory comparison — α = 1.289 = 1 (SR) + 1/√12 (N=12 finite-N)
+- v17: Large-N extrapolation of SYK — pure SYK q=4 N=12 gives α ~ 1, not 1.289
+- v18: Replica trick for f_back — f_back is NOT exp(-S_2D)
+- v19: Direct brute-force α extraction — α is CROSS-SECTOR EMERGENT, not from Z
+
+
+**HONEST VERDICT (v14-v19)**: L41, L42, L43 cannot be closed by more brute force.
+They require STRUCTURAL INPUT: 5D matching (L41, L42) or cross-coupling terms
++ correct observable identification (L43). Pure 2D partition function doesn't
+give α = 1.289 directly.
+
+**Total Lagrangian attempts**: v1-v19 = 19 attempts. Closed: 3. Partial: 3. Honest negatives: 13.
+
 ---
 
 ## 7. Key conventions (DO NOT BREAK)
