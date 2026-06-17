@@ -108,7 +108,7 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 5. **JT gravity as universal BH EFT** (Castro, Iqbal 2025) — SIDC 2D universe = standard 2D EFT for highly curved space-times
 6. **DESI 2024+2025 $\sim 3\sigma$ evidence for evolving DE** (w₀ = -0.84, wₐ = -0.65, quintessence-like) — SIDC DE = 4D event antigravity is qualitatively consistent
 7. **Stiskalek 2025: $H_0 = 73.04$ $\pm$ 1.30** (1.8% precision from Cepheids alone) — SIDC $H_{0,4D} = 70.16$ within 2.2σ
-8. **S₈ tension persists at 2-3σ** (Subaru HSC Y3 2025) — SIDC's MOND-like floor gives qualitative suppression
+8. **S₈ tension persists at 2–3σ** (Subaru HSC Y3 2025) — SIDC's MOND-like floor gives qualitative suppression
 9. **TRGB $H_0 = 69.8 \pm 1.9$** (Freedman 2024, CCHP, JWST) — **0.2σ from SIDC $H_{0,4D} = 70.16$** (CLOSEST single measurement!)
 10. **JWST high-z galaxy excess** (z > 12, some z $\sim 20) — SIDC's $F_p(z)$ primordial component (§4.48.1) is qualitatively consistent
 11. **BBN Li-7 anomaly** (3.5 $\times$ discrepancy) — SIDC inherits from standard cosmology, not addressed
@@ -131,7 +131,7 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 22. **Lyα forest WDM** (Garcia-Gallego 2025, arXiv:2504.06367) — m_WDM > 3 keV, SIDC 2D universe ($10^{-6}$ eV = 1 GeV) way heavier
 23. **Primordial Black Holes 2024-2025** (Tan 2024, Crispim Romao 2025) — X-ray and microlensing windows; SIDC 2D universes are NOT black holes (INAPPLICABLE)
 24. **XENONnT 2025** (PRL 135, 221003) — $\sigma_{\rm SI}$ < 1.7 $\times$ $10^{-47}$ ${\rm cm}^2$ (30 GeV); SIDC has no SM coupling (INAPPLICABLE)
-25. **ACT DR6 CMB lensing** (Farren 2024, arXiv:2409.02109) — S₈ = 0.840 $\pm$ 0.014, 2-3σ tension PERSISTS; SIDC MOND-like floor: QUALITATIVE support
+25. **ACT DR6 CMB lensing** (Farren 2024, arXiv:2409.02109) — S₈ = 0.840 $\pm$ 0.014, 2–3σ tension PERSISTS; SIDC MOND-like floor: QUALITATIVE support
 
 **5 FINAL 2024-2025 CONSTRAINTS (v2.7.3)**:
 26. **ALPS/IAXO/ADMX axion-like DM coupling** (Carenza 2024, arXiv:2408.14245, Zhang 2025, arXiv:2501.08117) — composite and ultralight ALP bounds; SIDC 2D universe mass BETWEEN ranges, no SM coupling (INAPPLICABLE)
