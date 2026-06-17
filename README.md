@@ -706,8 +706,8 @@ at z $\sim 10$--$12$.
 
 **SIDC's interpretation**: these galaxies are SIDC's
 **strongest observational evidence**. They have:
-- Very high past SF ($10^{9}$--$10^{10}$ $M_\odot$ in $\sim 200$ Myr at $z \sim 10$--$12$)
-- Many SN events ($10^{6}$--$10^{7}$ CCSN per galaxy)
+- Very high past SF ($10^{9}--10^{10}\,M_\odot$ in $\sim 200$ Myr at $z \sim 10$--$12$)
+- Many SN events ($10^{6}--10^{7}$ CCSN per galaxy)
 - Total SN energy $\sim 10^{55}$--$10^{56}$ J per galaxy
 - SIDC prediction: $M_{dyn}/M_b$ should be VERY HIGH (consistent
   with SIDC's SFH-DM correlation)
