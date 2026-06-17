@@ -7,7 +7,7 @@
 **Version:** 3.0.2 (June 2026) — *Paper content: v3.0.2 (dimensional scale invariance, SIDC naming restored, §3.61). Build: v3.0.21 (limitations count fixed to 37, table syntax documented, all tables rendering properly). 328 pages.*
 
 **v3.0.2 PARAMETER CLEANUP**: 0 calibrated postulates (was 3 in v2.7.x, 5 in v2.7.16). All values now DERIVED from the cascade structure:
-- **$f_{\rm back}$** = $\epsilon$ $\times$ ($E_{4D}$ / $M_{\rm Pl}^4$) — bulk-brane coupling $\times$ 4D event energy ratio
+- **$f_{\rm back}$** = $\epsilon$ $\times$ ( $E_{4D}$ / $M_{\rm Pl}^4$) — bulk-brane coupling $\times$ 4D event energy ratio
 - **$\epsilon$** = $e^{-kL}$ — RS-II bulk-brane coupling (from bulk geometry $\mu$, $m_{3+1D}$)
 - **$F_p(0)$** = 0.9993 — calculated from cumulative DM over 14+ event types (§3.40)
 
@@ -179,7 +179,7 @@ This is SIDC's central quantitative claim. One formula works across all 14 energ
 
 **$\tau_{2D}$ $\sim E^{1.29}$ (in our frame)**
 
-A 2D universe created by an event of energy E lives for a time proportional to $E^{1.29}$ in 3+1D view. The exponent 1.29 comes from SIDC's N=12 SYK backbone ($\alpha$ = 1 + 1/√12 = 1.289).
+A 2D universe created by an event of energy E lives for a time proportional to $E^{1.29}$ in 3+1D view. The exponent 1.29 comes from SIDC's N=12 SYK backbone ( $\alpha$ = 1 + 1/√12 = 1.289).
 
 **It works for 14 event types $\sim 30$ orders of magnitude in energy):**
 
@@ -248,7 +248,7 @@ measurements. The following table spans **10 orders of magnitude**
 in $M_{b}$ (from globular clusters to galaxy clusters) and **3 orders
 of magnitude** in $M_{dyn}/M_b$:
 
-| Galaxy | $M_{b}$ ($M_\odot$) | $M_{dyn}$ ($M_\odot$) | $M_{dyn}/M_b$ | Type | SIDC |
+| Galaxy | $M_{b}$ ( $M_\odot$) | $M_{dyn}$ ( $M_\odot$) | $M_{dyn}/M_b$ | Type | SIDC |
 |--------|-----------|-------------|-----------|------|---------|
 | **M15 (NGC 7078)** | 5.0 $\times$ $10^{5}$ | 5.0 $\times$ $10^{5}$ | **1.0** | GC | ✓ PASS |
 | **47 Tucanae (NGC 104)** | 1.0 $\times$ $10^{6}$ | 1.0 $\times$ $10^{6}$ | **1.0** | GC | ✓ PASS |
@@ -280,13 +280,13 @@ KKR 25's $M_{dyn}$ is **estimated** (⚠️), not measured.
 
 The $M_{dyn}/M_b$ ratio varies systematically with galaxy type:
 
-- **Globular clusters ($10^{5}$--$10^{7}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 1$ (no current activity)
-- **Dwarf galaxies ($10^{5}$--$10^{8}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 1$--$1700$ (huge spread)
-- **UFDs ($10^{2}$--$10^{4}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 50$--$1700$ (extreme)
-- **Irregular galaxies ($10^{8}$--$10^{9}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 6$--$7
-- **Normal spirals ($10^{10}$--$10^{11}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 14$--$30
-- **AGN hosts ($10^{12}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 50
-- **Galaxy clusters ($10^{13}$--$10^{14}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 10$--$50$
+- **Globular clusters** — $10^{5}$--$10^{7}\,M_\odot$: $M_{dyn}/M_b \sim 1$ (no current activity)
+- **Dwarf galaxies** — $10^{5}$--$10^{8}\,M_\odot$: $M_{dyn}/M_b \sim 1$--$1700$ (huge spread)
+- **UFDs** — $10^{2}$--$10^{4}\,M_\odot$: $M_{dyn}/M_b \sim 50$--$1700$ (extreme)
+- **Irregular galaxies** — $10^{8}$--$10^{9}\,M_\odot$: $M_{dyn}/M_b \sim 6$--$7
+- **Normal spirals** — $10^{10}$--$10^{11}\,M_\odot$: $M_{dyn}/M_b \sim 14$--$30
+- **AGN hosts** — $10^{12}\,M_\odot$: $M_{dyn}/M_b \sim 50$
+- **Galaxy clusters** — $10^{13}$--$10^{14}\,M_\odot$: $M_{dyn}/M_b \sim 10$--$50$
 
 SIDC's qualitative picture: galaxies with non-trivial past SF
 have non-zero $M_{dyn}$. The specific value of $M_{dyn}/M_b$ depends on
@@ -428,7 +428,7 @@ SIDC's r(z) = $\rho_{\rm DM}^{\rm DC}(z) / \rho_{\rm DM}^{\rm DC}(0)$ at high z 
 
 Even though Thomson has a *much higher rate* $\sim 10^{67}$ events/s/${\rm Mpc}^3$ vs SN's $10^{-12}$/s/${\rm Mpc}^3$), the per-event weight is so small ($10^{-145}$ of SN) that the *net* Thomson contribution is $\sim 10^{-66}$ of SN — *negligible*.
 
-**The r(z) $\approx$ (1+z)³ match comes from $F_p(z)$, NOT from Thomson.** With the v2.7.4 §4.48.1 smooth $F_p(z)$ (Hill n=2, $z_{\rm half}$=3), the primordial component $F_p(z)$ $\to$ 1.0 at high z, meaning the *primordial* 2D universe contribution dominates. The Thomson + stellar contributions are at most 30% of total DM at any z ($F_s$ $\leq$ 0.3), and Thomson is a small fraction of $F_s$.
+**The r(z) $\approx$ (1+z)³ match comes from $F_p(z)$, NOT from Thomson.** With the v2.7.4 §4.48.1 smooth $F_p(z)$ (Hill n=2, $z_{\rm half}$=3), the primordial component $F_p(z)$ $\to$ 1.0 at high z, meaning the *primordial* 2D universe contribution dominates. The Thomson + stellar contributions are at most 30% of total DM at any z ( $F_s$ $\leq$ 0.3), and Thomson is a small fraction of $F_s$.
 
 **Honest framing.** The original v3 README analysis (which said "Thomson does the heavy lifting") was based on a pre-smooth-function code that used raw energy density (R_Thomson $\approx$ 1.4 $\times$ $10^{62}$ J/yr/${\rm Mpc}^3$) without applying the $E^{1+\alpha}$ per-event weight. SIDC's *actual* $E^{1+\alpha}$ weighting makes Thomson's per-event contribution negligible. The r(z) $\approx$ (1+z)³ result is now explained by the **smooth $F_p(z)$ primordial component** (paper §4.48.1), not by Thomson.
 
@@ -447,8 +447,8 @@ This is the cumulative result of the v2.4 work. SIDC's three main quantitative p
 | **r(z=2)** (proper DM density, relative) | 26.9 | 27 | ✓ MATCHES |
 | **r(z=6)** (proper DM density, relative) | 342.0 | 343 | ✓ MATCHES |
 | **r(z=10)** (proper DM density, relative) | 1327 | 1331 | ✓ MATCHES |
-| **$\Delta\chi^2$ CMB** | +650 vs Planck ($H_0$ mismatch) | — | Hub tension only |
-| **$S_8$** (cosmic shear) | 0.775 ($\sigma_8$ = 0.75) | 0.759 (DES/KiDS) | within 1σ |
+| **$\Delta\chi^2$ CMB** | +650 vs Planck ( $H_0$ mismatch) | — | Hub tension only |
+| **$S_8$** (cosmic shear) | 0.775 ( $\sigma_8$ = 0.75) | 0.759 (DES/KiDS) | within 1σ |
 | **$g_+$ per galaxy** (43 SPARC) | $9.74 \times 10^{-11}$ m/s² | $1.20 \times 10^{-10}$ (Lelli+ 2017) | within 1σ |
 | **BTFR slope** (129 SPARC) | 3.53 (predicted 4) | 3.53 | within 1σ |
 | **MDAR for dSphs** (10 dSphs) | factor $\sim 2$ from MOND | factor $\sim 2$ from MOND | ✓ MATCHES |
@@ -507,7 +507,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 | `calculations/baryon_plasma_cascade_v2.py` | Thomson + recombination (v2, marked buggy) | supplementary |
 | `calculations/matter_radiation_equality_R_z.py` | R(z) through z $\sim 3400$ | supplementary |
 | `calculations/f_active_consistency.py` | $f_{\rm active}$ rename verification | documentation |
-| `calculations/cmb_cascade_prediction.py` | CAMB CMB test ($\Delta\chi^2$=+650) | #3 (Hubble tension) |
+| `calculations/cmb_cascade_prediction.py` | CAMB CMB test ( $\Delta\chi^2$=+650) | #3 (Hubble tension) |
 | `calculations/cosmic_shear_cascade.py` | $S_8$ within 1σ of DES/KiDS | #3 |
 | `calculations/rar_per_galaxy_gplus_v3.py` | 43-galaxy per-galaxy $g_+$ | #3 |
 | `calculations/verify_tensor_pipeline.py` | 5-check T^eff_μν verification | structural |
@@ -596,7 +596,7 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - **🎯 47 TUC TEST (§11):** PREDICTION (not yet a result). Near-term, low-cost, high-leverage falsification test in the context of Rubin/LSST DP1 (2025). SIDC predicts $M_{dyn} \approx M_{stars}$ (no local DM); particle DM predicts $M_{dyn} > M_{stars}$. Differentiates SIDC from particle DM. **Awaits DR1 (2027) or Y10 (2034).**
 - **🧪 36/36 GALAXY-ZOO TESTS PASS (§12):** consistency check from EXISTING data (not DP1). 47 Tuc, AGC 114905, KKR 25, MW, NGC 1052-DF2, Tucana dSph, Bullet Cluster, Omega Cen, M82, NGC 1275, Dragonfly 44. Necessary condition for SIDC, not sufficient.
 - **✅ CMB RESOLVED (§4.48.1, v2.7.5+):** the smooth $F_p(z)$ (Hill n=2, $z_{\rm half}$=3) primordial component gives r(z) $\approx$ (1+z)³ at high z, matching Planck 2018. SIDC's mechanism does NOT need early-DM. The CMB "gap" was closed by the primordial component.
-- **📊 MCMC RAR FIT (§13.7):** SIDC's RAR fit to 175 SPARC galaxies: $a_0$ = $2.34 \times 10^{-10}$ $\pm$ $1.54 \times 10^{-10}$ m/s^2, consistent with Li+ 2018 ($1.20 \times 10^{-10}$). SIDC's RAR is statistically equivalent to MOND; the differentiator is the 47 Tuc test.
+- **📊 MCMC RAR FIT (§13.7):** SIDC's RAR fit to 175 SPARC galaxies: $a_0$ = $2.34 \times 10^{-10}$ $\pm$ $1.54 \times 10^{-10}$ m/s^2, consistent with Li+ 2018 ( $1.20 \times 10^{-10}$). SIDC's RAR is statistically equivalent to MOND; the differentiator is the 47 Tuc test.
 - **Killer match:** TRGB $H_0$ = 69.8 $\pm$ 1.9 is 0.2σ from SIDC $H_{0,4D}$ = 70.16 (CLOSEST single measurement to SIDC prediction)
 - **Theoretical foundation:** c=1 string theory matrix model = exact solution of 2D quantum gravity; SIDC's 2D CFT framework = unique exactly solvable 2D QG
 - **2 remaining free parameters:** $\mu$ (2D cosmological constant) + $m_{3+1D}$ (effective DM mass) — require 2D CFT expert
@@ -839,7 +839,7 @@ The full simulation: `python3 calculations/cascade_model.py --outliers`
   - SIDC prediction: $M_{dyn} \approx M_{stars}$ (no local DM), 5 tidal tails fit Galactic potential
   - Testable with DP1 (2025), DR1 (2027), Y10 $\sim 2034)
   - Falsification: $M_{dyn} > 2 \times M_{stars}$ at 3σ would kill SIDC's DM mechanism for this object
-- **§2.3 inconsistency FIXED:** Earlier spatial-extent rule ($\tau_{2D}$ $\sim \ell_{event}/c$) replaced with energy-scaling rule ($\tau_{2D}$ $\sim (E)^{1.29}$); SN 33s calibration point unchanged, but LHC and other event lifetimes are now consistent with "lower-energy $\to$ shorter-lived 2D universes"
+- **§2.3 inconsistency FIXED:** Earlier spatial-extent rule ( $\tau_{2D}$ $\sim \ell_{event}/c$) replaced with energy-scaling rule ( $\tau_{2D}$ $\sim (E)^{1.29}$); SN 33s calibration point unchanged, but LHC and other event lifetimes are now consistent with "lower-energy $\to$ shorter-lived 2D universes"
 - 7 new v27_*.py calculation scripts added to calculations/ (lifespan, sensitivity, 2D CFT, death GW spectrum, LISA sensitivity check, 47 Tuc SIDC)
 
 **v2.7.1 changes:**
