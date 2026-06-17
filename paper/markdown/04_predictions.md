@@ -16,7 +16,7 @@ In the scale-invariant version of this model, dark matter is the collective grav
 - [Mercado24] found that the RAR has subtle "hooks and bends" in its shape, not a single smooth function.
 - [Tian24] found that Brightest Cluster Galaxies (BCGs) follow a *different* RAR from typical spirals.
 
-These results show that the RAR is *approximately* tight, but *not perfectly universal* across all galaxy types and mass ranges. The RAR's tightness at intermediate masses ($10^{9}--10^{11}\,M_\odot$) is the most robust feature; deviations at low masses and in BCGs are now well-established.
+These results show that the RAR is *approximately* tight, but *not perfectly universal* across all galaxy types and mass ranges. The RAR's tightness at intermediate masses ($10^{9}\text{--}10^{11}\,M_\odot$) is the most robust feature; deviations at low masses and in BCGs are now well-established.
 
 **Implications for our model.** Our model is *qualitatively consistent* with the RAR's tightness at intermediate masses: more visible mass → more activity on average → more dark matter. The model's *additional* prediction is that the *small* scatter in the RAR at fixed visible mass should correlate with *current* activity, which is testable but not yet definitively tested. The recent *deviations* from a single universal RAR (dwarfs above the extrapolation, BCGs on a different relation) are *not* directly predicted by the model in its current form — but the model could potentially accommodate them by allowing the proportionality between activity and dark matter to vary with galaxy type or mass. A *specific* implementation of the model would need to derive the RAR's exact shape and the source of its deviations to be a quantitative match to the data.
 
