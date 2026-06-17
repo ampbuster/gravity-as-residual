@@ -922,7 +922,7 @@ This section lists open questions for future research. Updated at v2.7.67.
 
 ### Open data tests
 
-11. **DESI DR3 (2026-2027)**: tests evolving w(z) — SIDC predicts w = -1 (consistent with ΛCDM)
+11. **DESI DR3 (2026-2027)**: tests evolving w(z) — SIDC predicts w = −1 (consistent with ΛCDM)
 12. **LSST Y1 (2027)**: tests 47 Tuc $M_{dyn}$, intermediate dwarf population
 13. **SKA-MPG (2030s)**: tests $\alpha = 1.29$ precision via PTA stochastic background
 14. **LISA (2034+)**: tests 2D universe death GW (SIDC predicts below detection, NULL is consistent)
