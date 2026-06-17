@@ -116,8 +116,8 @@ This tension requires either a different spatial distribution for the active con
 *Full mass spectrum test (commit 111, v2.2.1).* I tested SIDC's RAR prediction across 9 systems from ultra-faint dwarf ($M_{halo} = 10^{7}$ M_\odot$) to supercluster core ($M_{halo} = 5 \times 10^{14} M_\odot$), in `calculations/rar_extremes.py`. Key findings:
 
 1. **The "lies on RAR" pattern is non-monotonic with mass.** SIDC's $g_{obs}/g_{bar}$ at $2R_d$:
-   - Ultra-faint dwarf ($M_{halo} = 10^7$): 342 (over-predicts, beyond cluster RAR)
-   - Classical dwarf ($10^9$): 38 (transition)
+   - Ultra-faint dwarf ($M_{halo} = 10^{7}$): 342 (over-predicts, beyond cluster RAR)
+   - Classical dwarf ($10^{9}$): 38 (transition)
    - Small spiral ($10^{10}$): 4.16 (on galaxy RAR)
    - MW-like ($10^{12}$): 2.9 (matches well at $2R_d$)
    - Large spiral ($5 \times 10^{12}$): 3.6 (transition)
@@ -1655,7 +1655,7 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 | SIDC + dark rad | 221 (+2σ) | 542 (+6σ) | 826 (+22σ) | 1144 (+13σ) | 694.61 |
 | SIDC + ω_c lowered | 218 (-4σ) | 533 (-6σ) | 810 (-1σ) | 1121 (-6σ) | 92.66 |
 
-**The tension is at $\Delta\chi^2$ = +650 for the same-density case.** This is a HARD falsification at the level of CMB peak positions, but a CONSISTENT one with Mechanism M: SIDC accepts the Hubble tension, and now we have a Boltzmann-solver-level confirmation of that acceptance.
+**The tension is at $\Delta\chi^2 = $+650 for the same-density case.** This is a HARD falsification at the level of CMB peak positions, but a CONSISTENT one with Mechanism M: SIDC accepts the Hubble tension, and now we have a Boltzmann-solver-level confirmation of that acceptance.
 
 **Why $H_0$ = 73 fails:** The angular acoustic scale θ_* = r_s/D_A is fixed by Planck at 0.01041. With $H_0$ = 73 and same ω_b, ω_c:
 - r_s stays roughly the same (slight increase: 144.4 vs 144.4 Mpc)
@@ -1682,7 +1682,7 @@ This test is INDEPENDENT of SIDC's other predictions ($g_+$, RAR, AGN). It is SI
 
 **Status.** This is a NEGATIVE result for SIDC's CMB-era physics, but a CONSISTENT one with Mechanism M. SIDC's strong empirical wins are at LOCAL scales ($g_+$, RAR, AGN, dwarf galaxies). The CMB is a known weak point, and SIDC is honest about it.
 
-**Limitation update:** Limitation 18 (Hubble tension) is now DOCUMENTED at the Boltzmann-solver level. SIDC's $H_0$ = 73 fails the CMB peak position test at $\Delta\chi^2$ = +650, confirming that SIDC does not resolve the Hubble tension.
+**Limitation update:** Limitation 18 (Hubble tension) is now DOCUMENTED at the Boltzmann-solver level. SIDC's $H_0$ = 73 fails the CMB peak position test at $\Delta\chi^2 = $+650, confirming that SIDC does not resolve the Hubble tension.
 
 **Limitation update:** Limitation 6 (no CMB power spectrum derivation) is now PARTIALLY ADDRESSED — we have a CAMB-based test of SIDC's prediction, and it fails (as expected per Mechanism M).
 
@@ -2278,7 +2278,7 @@ The AGN host DM partial correlation (r = +0.367, p = $4 \times 10^{-57}$) uses a
 
 **6. CMB test (verified).**
 
-The CMB power spectrum test ($\Delta\chi^2$ = +650 for SIDC's $H_0$=73 vs Planck) uses CAMB (v1.6.6), a well-tested Boltzmann solver. The result is robust and well-documented in §4.41.
+The CMB power spectrum test ($\Delta\chi^2 = $+650 for SIDC's $H_0$=73 vs Planck) uses CAMB (v1.6.6), a well-tested Boltzmann solver. The result is robust and well-documented in §4.41.
 
 **Status:** verified. The $\Delta\chi^2$=+650 is a real, quantitative signature of SIDC's time-lag.
 
@@ -2585,7 +2585,7 @@ The calculation verifies:
 
 **The original CMB prediction (§4.41).**
 
-SIDC's CMB prediction was computed using `calculations/cmb_cascade_prediction.py` (using CAMB v1.6.6). The result was $\Delta\chi^2$ = +650 between SIDC's prediction ($H_0$ = 73) and Planck ($H_0$ = 67.4). This was interpreted as a significant falsification.
+SIDC's CMB prediction was computed using `calculations/cmb_cascade_prediction.py` (using CAMB v1.6.6). The result was $\Delta\chi^2 = $+650 between SIDC's prediction ($H_0$ = 73) and Planck ($H_0$ = 67.4). This was interpreted as a significant falsification.
 
 **The re-derivation under the broader principle.**
 

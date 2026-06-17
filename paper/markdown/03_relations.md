@@ -254,7 +254,7 @@ The DGP model is a 5D Minkowski bulk with a 4D brane, gravity localized by a bra
 
 $$H^2 - \epsilon \frac{H}{r_c} = \frac{8\pi G}{3} \rho + \frac{\Lambda_4}{3}$
 
-where $r_c = $G_5$ / G_4$ is the crossover scale. For the **self-accelerating branch** ($\epsilon = -1$, the *negative* sign):
+where $r_c = G_5/G_4$ is the crossover scale. For the **self-accelerating branch** ($\epsilon = -1$, the *negative* sign):
 
 $$H^2 + \frac{H}{r_c} = \frac{8\pi G}{3} \rho$$
 
@@ -441,10 +441,10 @@ For a typical Milky-Way-like galaxy:
 
 Over a Hubble time ($T = 13.8$ Gyr):
 - Cumulative SNe in MW: $\sim 8.7 \times 10^{15}$ events
-- Each SN releases $\sim 10^{44}$ J of kinetic energy $\sim 5.6 \times 10^{-7} $M_\odot c^2$
-- Total SN energy in MW: $\sim 5 \times $10^{9}$ $M_\odot c^2$ (i.e., $\sim 8\%$ of MW baryons)
+- Each SN releases $\sim 10^{44}$ J of kinetic energy $\sim 5.6 \times 10^{-7} M_\odot c^2$
+- Total SN energy in MW: $\sim 5 \times 10^{9} M_\odot c^2$ (i.e., $\sim 8\%$ of MW baryons)
 
-The math: $(5 \times $10^{9}$ $M_\odot$) \times A = 3.2 \times 10^{11} M_\odot$, so $A = 64\times$.
+The math: $(5 \times 10^{9} M_\odot)$ \times A = 3.2 \times 10^{11} M_\odot$, so $A = 64\times$.
 
 **The 2D universe's 3+1D-frame mass at death must be $\sim 64\times$ the SN's baryonic energy.** This is the per-event amplification factor SIDC requires.
 
@@ -509,7 +509,7 @@ $$f_{DE} \times \rho_{DE} \times V_{birth} \approx 6 M_\odot$$
 **Plausibility:** this is plausible if $V_{birth}$ is large. The 2D universe's volume depends on its 2D-frame size and lifetime. A 2D universe with size $R_{2D}$ and lifetime $\tau_{2D}$ has $V_{birth} = c \tau_{2D} R_{2D}$.
 
 For SN-calibrated 2D universes: $\tau_{2D} = 33$ s, $R_{2D}$ depends on 2D physics (Liouville 2D CFT). The required $V_{birth}$ to extract $6 M_\odot$ from DE is:
-$$V_{birth} = 6 $M_\odot c^2$ / \rho_{DE} \approx $10^{47}$  m^3$$
+$$V_{birth} = 6 M_\odot c^2 / \rho_{DE} \approx 10^{47}\,\text{m}^3$$
 
 This is a large but not unreasonable 2D-frame volume (comparable to a stellar-scale object's volume).
 

@@ -63,7 +63,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### Direct $M_{\rm Pl,4}$ measurement (2030s+ colliders)
 
-**SIDC prediction:** $M_{\rm Pl,4D} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
+**SIDC prediction:** $M_{\rm Pl,4D} \geq 887$ GeV (derived from $T_{3D}'$ \geq 13.8$ Gyr).
 
 **Falsification threshold:** If $M_{\rm Pl,4}$ measured at < 887 GeV, SIDC's bulk-brane coupling is wrong.
 
