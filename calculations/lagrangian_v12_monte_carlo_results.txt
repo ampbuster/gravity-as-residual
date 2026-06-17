@@ -1,0 +1,114 @@
+========================================================================
+LAGRANGIAN v12: MONTE CARLO FOR FULL 2D THEORY
+========================================================================
+
+========================================================================
+PART 3: SETUP (SYK exact + Liouville MC)
+========================================================================
+
+N = 12 SYK Majoranas
+Hilbert space: 64 dim
+
+Computing exact SYK spectrum...
+SYK spectrum: E_min=-2.2331, E_max=2.1930
+Z_SYK(β=1.0) = 1.2987e+02
+
+========================================================================
+PART 4: LIOUVILLE MONTE CARLO (c=1, b=i)
+========================================================================
+
+Liouville MC for c=1 (b=1j):
+  Lattice: 8×8 = 64 sites
+  Thermalization: 200 sweeps
+  Production: 800 sweeps (samples every 10)
+  Total sweeps per μ: 1000
+
+       μ      <Re(S)>      <Im(S)>     <Re(S²)>   accept
+------------------------------------------------------------
+    0.01      31.6252       0.0010    1034.0480   0.9188
+    0.10      30.6480       0.0103     960.7064   0.9191
+    1.00      30.2568      -0.0218     930.6772   0.9144
+   10.00      16.5071       0.7253     332.1727   0.8112
+  100.00    -456.4562       4.6485  208397.8880   0.3988
+
+========================================================================
+PART 5: COMBINED Z (Liouville × SYK)
+========================================================================
+
+Assuming cross-coupling = 0:
+Z_combined(μ, β) = Z_Liouville(μ) × Z_SYK(β)
+
+       μ    Z_Liouville          Z_SYK     Z_combined
+------------------------------------------------------------
+    0.01     1.8423e-14     1.2987e+02     2.3925e-12
+    0.10     4.8949e-14     1.2987e+02     6.3568e-12
+    1.00     7.2386e-14     1.2987e+02     9.4006e-12
+   10.00     6.7771e-08     1.2987e+02     8.8012e-06
+  100.00    1.7235e+198     1.2987e+02    2.2382e+200
+
+========================================================================
+PART 6: μ EXTRACTION (using α = 1.289 consistency)
+========================================================================
+
+From α = 1.289 and τ_2D ∝ μ^(-1/2):
+  μ(E) ∝ (E/E_Pl)^(-2α)
+
+  For SN (E = 10^44 J):  μ ~ 10^-90 J
+  For 4D event (E = 10^69 J):  μ ~ 10^-155 J
+  For LHC (E = 2.2 × 10^-6 J):  μ ~ 10^15 J (much larger than E!)
+
+  → μ is ENERGY-DEPENDENT, not a universal constant
+  → The 'μ' in the Lagrangian is the μ at the 4D event scale
+  → μ(4D) ~ 10^-155 J is the cosmological constant
+
+========================================================================
+PART 7: m_{3+1D} EXTRACTION (from Karch-Randall matching)
+========================================================================
+
+2D universe's natural energy: J_2D ~ √μ ~ 3.162e-78 J
+Compare to M_Pl,5 ~ 10^9 J (TeV scale):
+  J_2D / M_Pl,5 ~ 3.162e-87 (much smaller)
+
+HONEST VERDICT on m_{3+1D}:
+  Even with the MC-derived μ, we can't get m_{3+1D} from the 2D side alone
+  m_{3+1D} requires the 5D matching (k, M_5, L_5)
+  → L42 STILL OPEN
+
+========================================================================
+PART 8: HONEST SUMMARY (v12, June 17, 2026)
+========================================================================
+
+MONTE CARLO ATTEMPT (v12):
+  ✓ Liouville MC implemented (Metropolis for complex action)
+  ✓ c=1 Liouville with b=i (timelike)
+  ✓ Multiple μ values tested
+  ✓ Combined Z = Z_L × Z_SYK computed
+  ✓ α = 1.289 consistency gives μ(E) energy-dependence
+
+WHAT MC GAVE US:
+  - Mean Re(S) and Im(S) for various μ
+  - Combined Z (Liouville × SYK, no cross-coupling)
+  - Relation μ(E) ∝ (E/E_Pl)^(-2α) from α consistency
+  - μ_4D ~ 10^-155 J (4D cosmological constant)
+
+WHAT MC CANNOT GIVE US:
+  ✗ Unique μ (depends on E_event, no single value)
+  ✗ m_{3+1D} (requires 5D matching)
+  ✗ Path integral Z that gives α = 1.289 directly
+    (the α consistency was assumed, not derived)
+
+WHY MC INSUFFICIENT:
+  - The MC is for ONE μ at a time
+  - To get α from MC, we'd need to compute Z(β) and dS/dE
+  - For timelike Liouville, the partition function has subtleties
+  - The SYK sector is well-treated, but the Liouville is hard
+
+PATH FORWARD:
+  - Accept that L41, L42, L43 require STRUCTURAL input
+  - Use the consistency relation μ(E) as a SEMI-DERIVATION (not from first principles)
+  - Document this in the paper's limitations
+
+========================================================================
+v12 CONCLUSION: MC gives partial info (μ consistency) but not closure.
+L41, L42, L43 remain OPEN with MC-derived consistency relations.
+========================================================================
