@@ -1,0 +1,124 @@
+========================================================================
+LAGRANGIAN v13: HOLOGRAPHIC CONNECTION (JT + LIOUVILLE + SYK)
+========================================================================
+
+Building N=12 SYK Hamiltonian...
+Hilbert space: 2^6 = 64 dim
+
+========================================================================
+PART 4: Z vs BETA (each sector + combined)
+========================================================================
+
+      beta           Z_JT            Z_L          Z_SYK        Z_total
+------------------------------------------------------------------------
+     0.100     1.4651e+40     8.6495e+00     5.1079e+01     6.4731e+42
+     0.127     1.7221e+31     8.3407e+00     4.8201e+01     6.9233e+33
+     0.161     1.7054e+24     7.9771e+00     4.4854e+01     6.1019e+26
+     0.204     5.5596e+18     7.5565e+00     4.1045e+01     1.7244e+21
+     0.259     2.8452e+14     7.0807e+00     3.6825e+01     7.4187e+16
+     0.329     1.2751e+11     6.5564e+00     3.2298e+01     2.7001e+13
+     0.418     3.1594e+08     5.9956e+00     2.7626e+01     5.2331e+10
+     0.530     3.0123e+06     5.4158e+00     2.3015e+01     3.7547e+08
+     0.672     8.3056e+04     4.8375e+00     1.8686e+01     7.5078e+06
+     0.853     5.2879e+03     4.2808e+00     1.4834e+01     3.3579e+05
+     1.083     6.5103e+02     3.7615e+00     1.1583e+01     2.8365e+04
+     1.374     1.3478e+02     3.2887e+00     8.9671e+00     3.9746e+03
+     1.743     4.2024e+01     2.8646e+00     6.9375e+00     8.3516e+02
+     2.212     1.8094e+01     2.4871e+00     5.3992e+00     2.4297e+02
+     2.807     1.0047e+01     2.1517e+00     4.2454e+00     9.1778e+01
+     3.562     6.8168e+00     1.8540e+00     3.3785e+00     4.2698e+01
+     4.520     5.4164e+00     1.5897e+00     2.7163e+00     2.3388e+01
+     5.736     4.8742e+00     1.3550e+00     2.1912e+00     1.4473e+01
+     7.279     4.8384e+00     1.1468e+00     1.7515e+00     9.7180e+00
+     9.237     5.1887e+00     9.6186e-01     1.3634e+00     6.8044e+00
+    11.721     5.9139e+00     7.9772e-01     1.0130e+00     4.7792e+00
+    14.874     7.0719e+00     6.5201e-01     7.0343e-01     3.2435e+00
+    18.874     8.7827e+00     5.2267e-01     4.4652e-01     2.0497e+00
+    23.950     1.1237e+01     4.0790e-01     2.5301e-01     1.1597e+00
+    30.392     1.4720e+01     3.0637e-01     1.2450e-01     5.6147e-01
+    38.566     1.9642e+01     2.1772e-01     5.1467e-02     2.2010e-01
+    48.939     2.6595e+01     1.4308e-01     1.7144e-02     6.5240e-02
+    62.102     3.6426e+01     8.4556e-02     4.3618e-03     1.3434e-02
+    78.805     5.0344e+01     4.3480e-02     7.8954e-04     1.7283e-03
+   100.000     7.0080e+01     1.8707e-02     9.2535e-05     1.2131e-04
+
+========================================================================
+PART 5: EFFECTIVE EXPONENT alpha(Z_total)
+========================================================================
+
+          beta range   d(log Z)/d(log beta)  alpha_eff
+------------------------------------------------------------
+   0.100 -  0.259               -62.3357    62.3357
+   0.127 -  0.329               -49.0419    49.0419
+   0.161 -  0.418               -38.6074    38.6074
+   0.204 -  0.530               -30.4265    30.4265
+   0.259 -  0.672               -24.0182    24.0182
+   0.329 -  0.853               -18.9988    18.9988
+   0.418 -  1.083               -15.0611    15.0611
+   0.530 -  1.374               -11.9608    11.9608
+   0.672 -  1.743                -9.5065     9.5065
+   0.853 -  2.212                -7.5516     7.5516
+   1.083 -  2.807                -5.9874     5.9874
+   1.374 -  3.562                -4.7336     4.7336
+   1.743 -  4.520                -3.7320     3.7320
+   2.212 -  5.736                -2.9423     2.9423
+   2.807 -  7.279                -2.3395     2.3395
+   3.562 -  9.237                -1.9108     1.9108
+   4.520 - 11.721                -1.6502     1.6502
+   5.736 - 14.874                -1.5537     1.5537
+   7.279 - 18.874                -1.6178     1.6178
+   9.237 - 23.950                -1.8410     1.8410
+  11.721 - 30.392                -2.2298     2.2298
+  14.874 - 38.566                -2.8025     2.8025
+  18.874 - 48.939                -3.5922     3.5922
+  23.950 - 62.102                -4.6469     4.6469
+  30.392 - 78.805                -6.0299     6.0299
+
+========================================================================
+PART 6: COMPARISON WITH alpha = 1.289
+========================================================================
+
+Theoretical expectations:
+  alpha_JT (density of states) = 3/2 (Schwarzian)
+  alpha_SYK (low-T) = 1/q = 1/4
+  alpha_SYK (high-T Schwarzian) = 1/2
+  alpha_Liouville (marginal, c=1) ~ 1/2 (oscillation)
+  alpha_combined ~ 1.5 + 0.5 + 0.5 = 2.5? or different
+  SIDC target: alpha = 1.289
+
+========================================================================
+PART 7: HONEST VERDICT (v13, June 17, 2026)
+========================================================================
+
+HOLOGRAPHIC CONNECTION (v13):
+  + Z_JT x Z_Liouville x Z_SYK computed explicitly
+  + Energy scaling extracted from log-log slope
+  + Framework is consistent with Deng et al. 2022 (JT from holographic reduction)
+
+WHAT v13 SHOWS:
+  - The partition function Z_SIDC is in principle tractable
+  - The combined Z has a power-law dependence on beta (energy)
+  - The exponent depends on beta range (no single universal alpha)
+
+WHAT v13 DOES NOT SHOW:
+  - alpha = 1.289 is NOT cleanly recovered from Z_SIDC alone
+  - The combination of JT (3/2) + SYK (1/2) + Liouville (1/2)
+    gives an effective exponent > 1.289 in the regimes we tested
+  - To recover alpha = 1.289 exactly, we would need to:
+    (a) include cross-couplings (UNKNOWN)
+    (b) compute Z_Liouville exactly (not rough n^2/(8 pi mu))
+    (c) match the beta range to the SN regime (33s observation)
+
+CONNECTION TO L41-L43:
+  - L43 (full Lagrangian) is now partially addressed:
+    Z = Z_JT x Z_Liouville x Z_SYK is computed, alpha partially extracted
+  - L41 (mu): still requires first-principles derivation
+  - L42 (m_3+1D): still requires 5D matching
+  - L91 NEW: SIDC = holographic reduction program [Deng22]
+  - L92 NEW: 3D-to-2D gravity inversion framing supported by prior art
+
+PATH FORWARD:
+  - Refine Z_Liouville computation (exact DOZZ instead of rough)
+  - Include cross-coupling terms in the Lagrangian
+  - Compute alpha at SN beta (33 s corresponds to a specific beta)
+

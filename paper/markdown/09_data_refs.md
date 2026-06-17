@@ -92,5 +92,19 @@ All derived quantities ($M_{dyn}$, $M_{\rm halo}$, $M_\star$, $g_{\rm obs}$, etc
 
 [Borah25] D. Borah, N. Das, R. Roshan, "Evolving Dark Sector and the Dark Dimension Scenario," arXiv:2507.03090 (2025).
 
+[Deng22] Y. Deng, F. Deng, J. Yang, "JT gravity from holographic reduction of 3D asymptotically flat spacetime," arXiv:2211.13415 (2022).
+
+[Karch00] A. Karch, L. Randall, "Locally localized gravity," JHEP 05 (2001) 008; arXiv:hep-th/0011156 (2000).
+
+[Randall99] L. Randall, R. Sundrum, "An alternative to compactification," Phys. Rev. Lett. 83 (1999) 4690-4693; arXiv:hep-th/9906064.
+
+[Teitelboim83] C. Teitelboim, "Gravitation and Hamiltonian Structure in Two Space-Time Dimensions," Phys. Lett. B 126 (1983) 41-45.
+
+[Jackiw85] R. Jackiw, "Lower Dimensional Gravity," Nucl. Phys. B 252 (1985) 343-356.
+
+[DOZZ94] H. Dorn, H.-J. Otto, "Two and three-point functions in Liouville theory," Nucl. Phys. B 429 (1994) 375-388; A. Zamolodchikov, Al. Zamolodchikov, "Structure constants and conformal bootstrap in Liouville field theory," arXiv:hep-th/0506138.
+
+[Meunier24] J. Meunier, B. Gallet, "Effective transport by 2D turbulence: Vortex-gas theory vs. scale-invariant inverse cascade," arXiv:2412.17431 (2024); Phys. Rev. Lett. 134 (2025) 074101.
+
 ---
 
