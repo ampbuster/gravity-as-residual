@@ -1,0 +1,117 @@
+========================================================================
+LAGRANGIAN v14: M^1.29 UNIVERSALITY CHECK ACROSS 14 SIDC EVENTS
+========================================================================
+
+alpha = 1.289 = 1 + 1/sqrt(12)
+t_Pl = 5.391e-44 s
+E_Pl = 1.956e+09 J = M_Pl c^2
+
+  #                                    Event      E (J)    tau_obs (s)
+------------------------------------------------------------------------
+  1       Supernova neutrino burst (SN1987A)    1.0e+44      3.300e+01
+  2    Binary neutron star merger (GW170817)    1.0e+45      1.000e+02
+  3             Black hole merger (GW150914)    1.0e+47      1.000e-01
+  4               Big Bang (early inflation)    1.0e+69      1.000e-32
+  5             Reheating (end of inflation)    1.0e+63      1.000e-32
+  6                LHC high-energy collision    2.2e-06      1.000e-25
+  7           BBN (Big Bang nucleosynthesis)    1.0e-12      1.000e+00
+  8   Cosmic microwave background decoupling    1.0e+15      1.000e+13
+  9           Vacuum decay bubble nucleation    1.0e+46      3.600e+03
+ 10                Gamma-ray burst (typical)    1.0e+44      1.000e-03
+ 11              Active galactic nucleus jet    1.0e+48      1.000e+08
+ 12                              Solar flare    1.0e+25      1.000e+03
+ 13              Earthquake (energy release)    1.0e+17      1.000e+01
+ 14      Planck brane collision (big crunch)    1.0e+69      4.350e+17
+
+========================================================================
+PART 2: PREDICTED tau_2D_proper = gamma * t_Pl
+========================================================================
+
+  #                                    Event          gamma  tau_2D_proper        tau_obs      ratio
+----------------------------------------------------------------------------------------------------
+  1       Supernova neutrino burst (SN1987A)      5.489e+44      2.959e+01      3.300e+01  1.115e+00
+  2    Binary neutron star merger (GW170817)      1.068e+46      5.756e+02      1.000e+02  1.737e-01
+  3             Black hole merger (GW150914)      4.041e+48      2.178e+05      1.000e-01  4.590e-07
+  4               Big Bang (early inflation)      9.215e+76      4.968e+33      1.000e-32  2.013e-66
+  5             Reheating (end of inflation)      1.700e+69      9.165e+25      1.000e-32  1.091e-58
+  6                LHC high-energy collision      5.381e-20      2.901e-63      1.000e-25  3.447e+37
+  7           BBN (Big Bang nucleosynthesis)      3.593e-28      1.937e-71      1.000e+00  5.162e+70
+  8   Cosmic microwave background decoupling      2.283e+07      1.231e-36      1.000e+13  8.125e+48
+  9           Vacuum decay bubble nucleation      2.077e+47      1.120e+04      3.600e+03  3.215e-01
+ 10                Gamma-ray burst (typical)      5.489e+44      2.959e+01      1.000e-03  3.379e-05
+ 11              Active galactic nucleus jet      7.861e+49      4.238e+06      1.000e+08  2.360e+01
+ 12                              Solar flare      1.772e+20      9.553e-24      1.000e+03  1.047e+26
+ 13              Earthquake (energy release)      8.639e+09      4.658e-34      1.000e+01  2.147e+34
+ 14      Planck brane collision (big crunch)      9.215e+76      4.968e+33      4.350e+17  8.757e-17
+
+========================================================================
+PART 3: UNIVERSALITY CHECK
+========================================================================
+
+tau_2D_proper across 14 events:
+  Min:    1.937e-71 s
+  Max:    4.968e+33 s
+  Mean:   7.097e+32 s
+  Median: 3.026e+02 s
+  Std:    1.738e+33 s
+  t_Pl:   5.391e-44 s
+  Median / t_Pl: 5613394066731535064250874873266591219117457408.000
+
+========================================================================
+PART 4: PREDICTION ACCURACY (tau_obs vs tau_2D_proper)
+========================================================================
+
+Ratio = tau_obs / tau_2D_proper:
+  Min:    2.013e-66
+  Max:    5.162e+70
+  Mean:   3.687e+69
+  Median: 7.183e-01
+  Std:    1.330e+70
+
+  Within 1 dex:  3/14 = 21%
+  Within 3 dex:  4/14 = 29%
+
+========================================================================
+PART 5: BEST-FIT alpha ACROSS 14 EVENTS
+========================================================================
+
+  #                                    Event  alpha_implied
+------------------------------------------------------------------------
+  1       Supernova neutrino burst (SN1987A)         1.2904
+  2    Binary neutron star merger (GW170817)         1.2677
+  3             Black hole merger (GW150914)         1.1209
+  4               Big Bang (early inflation)         0.1887
+  5             Reheating (end of inflation)         0.2098
+  6                LHC high-energy collision        -1.2221
+  7           BBN (Big Bang nucleosynthesis)        -2.0322
+  8   Cosmic microwave background decoupling         9.8566
+  9           Vacuum decay bubble nucleation         1.2756
+ 10                Gamma-ray burst (typical)         1.1602
+ 11              Active galactic nucleus jet         1.3245
+ 12                              Solar flare         2.9454
+ 13              Earthquake (energy release)         5.7427
+ 14      Planck brane collision (big crunch)         1.0201
+
+Implied alpha across 14 events:
+  Min:    -2.0322
+  Max:    9.8566
+  Mean:   1.7249
+  Median: 1.2139
+  Std:    2.8430
+  SIDC:   1.2890
+
+========================================================================
+PART 6: VERDICT
+========================================================================
+
+- M^1.29 universality is MARGINAL
+  Implied alpha has std = 2.843 (too large)
+  Different events imply DIFFERENT alphas
+  Possible: alpha is not universal, or my E/tau_obs values are imprecise
+
+========================================================================
+HONEST VERDICT (v14):
+  + Direct numerical check of M^1.29 across 14 events
+  + Computes the implied alpha for each event
+  + Tests universality assumption
+========================================================================

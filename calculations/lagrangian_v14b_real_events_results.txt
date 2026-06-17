@@ -1,0 +1,64 @@
+========================================================================
+LAGRANGIAN v14b: REFINED M^1.29 CHECK (only high-E events)
+========================================================================
+
+  #                                    Event      E (J)    tau_obs (s)         type
+------------------------------------------------------------------------------------------
+  1                   SN1987A neutrino burst    1.0e+44      3.300e+01     creation
+  2              GW170817 BNS merger (chirp)    1.0e+45      1.000e+02     creation
+  3              GW150914 BBH merger (chirp)    1.0e+47      1.000e-01     creation
+  4               SGR 1806-20 magnetar flare    1.0e+39      5.000e-01     creation
+  5                      X-class solar flare    1.0e+25      1.000e+03     creation
+  6                      AGN flare (typical)    1.0e+45      1.000e+07  destruction
+  7                      Short GRB (typical)    1.0e+44      1.000e-03     creation
+  8                       Long GRB (typical)    1.0e+44      1.000e+02     creation
+  9            Cosmic ray shower (highest E)    1.0e+08      1.000e-03     creation
+ 10              Type Ia SN light curve peak    1.0e+43      2.000e+01     creation
+
+========================================================================
+IMPLIED ALPHA (creation events only)
+========================================================================
+
+                                   Event      E (J)    tau_obs (s)      alpha
+--------------------------------------------------------------------------------
+                  SN1987A neutrino burst    1.0e+44      3.300e+01     1.2904
+             GW170817 BNS merger (chirp)    1.0e+45      1.000e+02     1.2677
+             GW150914 BBH merger (chirp)    1.0e+47      1.000e-01     1.1209
+              SGR 1806-20 magnetar flare    1.0e+39      5.000e-01     1.4463
+                     X-class solar flare    1.0e+25      1.000e+03     2.9454
+                     Short GRB (typical)    1.0e+44      1.000e-03     1.1602
+                      Long GRB (typical)    1.0e+44      1.000e+02     1.3042
+           Cosmic ray shower (highest E)    1.0e+08      1.000e-03   -31.1838
+             Type Ia SN light curve peak    1.0e+43      2.000e+01     1.3222
+
+Implied alpha (creation events):
+  Min:    -31.1838
+  Max:    2.9454
+  Mean:   -2.1474
+  Median: 1.2904
+  Std:    10.2795
+  SIDC:   1.289
+
+========================================================================
+BEST-FIT alpha (least-squares over creation events)
+========================================================================
+
+Linear fit: log(tau) = 0.0497 * log(E) + -3.6632
+Slope = alpha_fit = 0.0497
+SIDC alpha = 1.289
+Difference = 1.2393
+
+========================================================================
+VERDICT (v14b)
+========================================================================
+
+- M^1.29 universality NOT confirmed
+  Fit alpha = 0.0497, SIDC = 1.289
+  Need to refine the event list or alpha
+
+========================================================================
+KEY INSIGHT (v14b):
+  The SIDC event list in §3.17 may be too broad.
+  Only HIGH-ENERGY, WELL-DEFINED creation events should be tested.
+  Earthquakes, solar flares, etc. are NOT 4D brane-tearing events.
+========================================================================
