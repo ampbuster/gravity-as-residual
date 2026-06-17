@@ -262,7 +262,7 @@ of magnitude** in $M_{dyn}/M_b$:
 | **Boötes I** | 3.0 × $10^{4}$ | 6.7 × $10^{6}$ | **222.9** | UFD | ✓ PASS |
 | **Segue 1** | 6.0 × $10^{2}$ | 4.8 × $10^{5}$ | **796.1** | UFD | ✓ PASS |
 | **Tucana II** | 2.3 × $10^{3}$ | 3.9 × $10^{6}$ | **1689.6** | UFD | ✓ PASS |
-| **KKR 25** ⚠️ | 3.0 × $10^{6}$ | ~ $3 \times 10^{6}$ *(est.)* | ** ~ $1$ *(est.)*** | dSph | ✓ PASS *(est.)* |
+| **KKR 25** ⚠️ | $3.0 \times 10^{6}$ | ~ $3 \times 10^{6}$ *(est.)* | ** ~ $1$ *(est.)*** | dSph | ✓ PASS *(est.)* |
 | **LMC** | 3.0 × $10^{9}$ | 2.0 × $10^{10}$ | **6.7** | Irregular | ✓ PASS |
 | **SMC** | 5.0 × $10^{8}$ | 3.0 × $10^{9}$ | **6.0** | Irregular | ✓ PASS |
 | **M82 (NGC 3034)** | 1.0 × $10^{10}$ | 4.0 × $10^{10}$ | **4.0** | Starburst | ✓ PASS |
@@ -353,7 +353,7 @@ disputed (would change with new consensus).
 **Note on KKR 25:** KKR 25 is **included** in the table above, but
 its $M_{dyn}/M_b$ is **estimated** (⚠️ marker) rather than measured. The
 SIDC uses σ ~ $3–5$ km/s and $r_h$ ~ $0.5--1$ kpc (typical dSph
-parameters) to estimate $M_{dyn}$ ~ $3 \times 10^{6}$ $M_\odot$ and $M_{dyn}/M_b$ ~ $1$. This
+parameters) to estimate $M_{dyn} \sim 3 \times 10^{6}\,M_\odot$ and $M_{dyn}/M_b$ ~ $1$. This
 is a **rough estimate** with ~ $50\%$ uncertainty, not a measurement.
 KKR 25's $M_{dyn}$ is still in SIDC's 12/12 test suite (paper §12)
 as a qualitative test (consistent with SIDC), but its specific
