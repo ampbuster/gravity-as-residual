@@ -313,7 +313,7 @@ Order-of-magnitude agreement: 100$\times$ predicted vs 14$\times$ observed (with
 
 SIDC's $V_{local}$ formula and MOND's external field effect are the **same physics viewed from different frameworks**: SIDC says the BCG sees cluster-wide energetic events through its own local sphere of influence; MOND says the BCG sees the cluster's tidal field. The 30% residual is the *specific calculation* that requires the 2D brane's detailed dynamics (Limitation 26).
 
-**Limitation 28 can be UPGRADED to PARTIALLY CLOSED with quantitative agreement**: the cluster g₊ enhancement is now a *derivable consequence* of SIDC's $V_{local}$ geometry (consistent with MOND's external field effect), with the exact coefficient (1.2 vs 1.7 $\times$ $10^{-9}$) being a *specific calculation* rather than a fundamental limitation. The SIDC-MOND hybrid now provides a *coherent picture* of g₊ across 1.5 orders of magnitude in halo mass.
+**Limitation 28 can be UPGRADED to PARTIALLY CLOSED with quantitative agreement**: the cluster g₊ enhancement is now a *derivable consequence* of SIDC's $V_{local}$ geometry (consistent with MOND's external field effect), with the exact coefficient (1.2 vs $1.7 \times 10^{-9}$) being a *specific calculation* rather than a fundamental limitation. The SIDC-MOND hybrid now provides a *coherent picture* of g₊ across 1.5 orders of magnitude in halo mass.
 
 **Direct test of $V_{\rm local}$ predictions on Tian+ 2024 data (v2.3.0, commit 170).** Per SIDC's 4 testable predictions, I performed a direct correlation analysis on the Tian+ 2024 BCGs (50 BCGs, computed per-galaxy g₊ from the deep MOND limit $g_+ \approx g_{obs}^2 / g_{bar}$). Key results:
 
