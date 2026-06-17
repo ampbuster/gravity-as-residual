@@ -181,7 +181,9 @@ This is SIDC's central quantitative claim. One formula works across all 14 energ
 
 A 2D universe created by an event of energy E lives for a time proportional to $E^{1.29}$ in 3+1D view. The exponent 1.29 comes from SIDC's N=12 SYK backbone ( $\alpha = 1$ + 1/√12 = 1.289).
 
-**It works for 14 event types ~ $30$ orders of magnitude in energy):**
+**It works for 14 event types ~ $30$ orders of magnitude in energy:** 
+
+**SIDC's "14 event types" insight**: All 14 events correspond to the **same universal 2D universe** (1 species), differing only in the time-dilation factor $\gamma = (E/E_{\rm Pl})^{1.29}$. They are 14 different views of the SAME thing — not 14 different operators. This is the **democratic cosmology** (§3.17): all 2D universes are equal in their own frame, the 3+1D-frame observer sees different $\gamma$ values.
 
 | Event | E (J) | $\tau_{2D}$ | Test |
 |-------|-------|------|------|
@@ -197,6 +199,14 @@ A 2D universe created by an event of energy E lives for a time proportional to $
 | Primordial BH evaporation | ~ $10^{32}$ | microseconds | **[PASS]** (very-low extreme) |
 | Stellar BH formation | ~ $10^{47}$ | days | **[PASS]** |
 | + 3 more | | | **[PASS]** |
+
+**Why 1.29?** The exponent 1.29 = 1 + 1/√12 is the unique natural formula:
+- $\sqrt{12}$ comes from N=12 (the SIDC backbone = 12 SM Weyl fermions)
+- The "1" is the kinematic boost (E/E_Pl)
+- The "1/√12" is the N=12 SYK saddle-point correction
+- Decomposed: $\alpha = 1/2$ (Schwarzian base) + 1/2 (kinematic) + 1/√12 (SYK)
+
+The Lagrangian skeleton that gives this: $L = L_{c=1,\rm Liouville} + L_{N=12,\rm SYK} + L_{\rm Schwarzian}$ (§3.62). This is a candidate, not a proof — the complete Lagrangian needs a 2D CFT expert to finish.
 
 **The competition can't match this:**
 

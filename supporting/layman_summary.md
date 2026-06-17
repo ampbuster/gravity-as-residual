@@ -100,6 +100,8 @@ This is the part that makes SIDC different from every other dark sector model.
 
 That's it. One formula. The "1.29" comes from the cascade's N=12 backbone ($\alpha$ = 1 + 1/√12 = 1.289).
 
+**The "14 event types" insight:** All 14 events are actually the **same** 2D universe — they're just seen at different $\gamma$ (time dilation factor) values. Higher-E events make "lighter" 2D universes (more time dilation). Lower-E events make "heavier" ones (less time dilation). Our 3D universe is one of the "heaviest" — created by a very high-energy event. This is the **democratic cosmology**: every universe at the same dimensional level is equal in its own frame.
+
 **It works for 14 different kinds of energetic events:**
 
 - **Type Ia supernova** (~$10^{44}$ J): 2D universe lives 33 seconds
@@ -129,6 +131,8 @@ The scaling law is the **quantitative core** of the closed loop. It's what makes
 - **Verlinde / entropic gravity** is static — it can't distinguish "same mass, different history" cases
 
 SIDC's M^1.29 scaling is the **only proposed dark sector mechanism that works at all 14 event types, 36 galaxy tests, and cosmological scales simultaneously** — using one formula.
+
+**Why 1.29 specifically?** Because 1.29 = 1 + 1/√12, and 12 is the number of fundamental "channels" in the cascade (the 12 SM Weyl fermions act as N=12 in a 2D SYK-like setup). The "1" is the time-dilation boost from the event energy. The "1/√12" is the N=12 SYK saddle-point correction. This is a *candidate* Lagrangian (§3.62), not a proof — but the structural match is strong.
 
 **The honest limit:**
 

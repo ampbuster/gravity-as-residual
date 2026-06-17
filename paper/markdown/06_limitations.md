@@ -2,7 +2,7 @@
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **37 honest limitations** (v2.7.30+), with notes on which have been *partially* or *fully* closed by SIDC_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*). The full status: 17 OPEN (including 1 architectural), 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED (including 1 PARTIAL→REVERTED), 1 DISCARDED (§3.13 mechanism, see §3.14-§3.15 for the discard process). L37 added v2.7.30 for α=1.29 CGHS derivation.
+This is a thought experiment, not a theory. We identify **45 honest limitations** (v3.0.2+), with notes on which have been *partially* or *fully* closed by SIDC_model.py derivations (§2.6 *Deriving the growth factor from 2D universe dynamics* and §2.6 *Hubble tension as a derived consequence*). The full status: 21 OPEN (including 1 architectural), 12 PARTIAL, 6 CLOSED, 2 FALSIFIED, 4 REVERTED (including 1 PARTIAL→REVERTED), 1 DISCARDED (§3.13 mechanism, see §3.14-§3.15 for the discard process). L37 added v2.7.30 for α=1.29 CGHS derivation. L38-L45 added v3.0.2 for Lagrangian skeleton findings.
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -93,14 +93,22 @@ The full table follows:
 | 35 (NEW v2.7.5) | $z_{\rm half}$ (smooth $F_p$ transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth $F_p(z)$ = 0.7 + 0.3 * z^2/($z_{\rm half}$^2 + z^2) introduces free parameter $z_{\rm half}$ ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of $z_{\rm half}$ from 4D event dynamics. |
 | 36 (NEW v2.7.5) | $E_{\rm crit}$ (phase-transition threshold) | REVERTED (v2.7.5) | §2.5.3 | v2.3.0 $E_{\rm crit}$ ~ $10^{30}$ J step-function threshold REMOVED in v2.7.4 in favor of smooth creation function C(E) = $E^{1+\alpha}$. The smooth function uses only existing alpha = 1.29, no new free parameters. All 5/5 dwarf cases still work. |
 | 37 (NEW v2.7.30) | α = 1.29 CGHS derivation | OPEN (v2.7.30) | §3.19, §3.24 | SIDC's §3.19 claimed α = 1.29 is in the CGHS back-reaction range [1, 3]. §3.24 self-critique: no standard CGHS scaling gives constant $\tau_{2D,\rm proper}$. A specific CGHS-with-back-reaction calculation yielding p = 1.29 is needed to close this. This is a research challenge, not a derivation. Future work: specific CGHS calculation. |
+| 38 (NEW v3.0.2) | SIDC naming re-justification | OPEN (v3.0.2) | §3.61 | "Scale-Invariant Dimensional Cascade" naming is now justified by the dimensional scale invariance (§3.61), but the specific values depend on the dimensional transition. The 1/√N correction is a finite-size (finite-N) breaking of the structural scale invariance. |
+| 39 (NEW v3.0.2) | 4D event in 4D SIDC | OPEN (v3.0.2) | §3.61 | If SIDC structure is dimension-AGNOSTIC, then a 4D universe should also have a 4D event creating it. What is the 4D event in the 4D SIDC? An 8D event? Recursive? This is structurally unclear and requires explicit construction. |
+| 40 (NEW v3.0.2) | Specific 5/27/68 derivation | OPEN (v3.0.2) | §3.62 | The 5/27/68 split is OBSERVATIONAL DATA from Planck 2018 (per v2.7.1+); SIDC interprets it qualitatively only. A specific 2D CFT calculation that outputs 27% as the DM fraction would close this. v2.7.1 attempts failed; the cleanest closure requires a non-perturbative 2D CFT calculation matching SIDC's N=12 SYK + c=1 Liouville framework. |
+| 41 (NEW v3.0.2) | Why μ is its value | OPEN (v3.0.2) | §3.62 | The 2D cosmological constant μ is a free parameter in SIDC's Lagrangian. Equivalent to "why Λ_3+1D = ?" (the cosmological constant problem). SIDC does not solve this; it just identifies the 2D analog. Closing requires a derivation of μ from first principles (e.g., from string theory or quantum gravity). |
+| 42 (NEW v3.0.2) | Why m_3+1D is its value | OPEN (v3.0.2) | §3.62 | The effective DM mass m_3+1D ~ 10^-15 GeV is a free parameter. Equivalent to "why m_DM = ?" SIDC does not solve this. Closing requires derivation from bulk geometry or 2D CFT coupling. |
+| 43 (NEW v3.0.2) | Lagrangian skeleton → full Lagrangian | OPEN (v3.0.2) | §3.62 | The SIDC 2D Lagrangian skeleton L = L_c=1 + L_N=12 + L_Schwarzian gives the right α = 1.289 but is NOT a complete Lagrangian. Missing: coupling constants fixed by data (✓), cross-couplings (UNKNOWN), regularization (NONE), path integral Z derivation of α (NOT COMPUTED), 1/√N first-principles (STRUCTURAL). Closing requires a 2D CFT expert or brute-force path integral computation. |
+| 44 (NEW v3.0.2) | "14 event types as different operators" was MISFRAMING | CLOSED (v3.0.2) | §3.62, §3.17 | Original framing suggested 14 different 2D CFT operators for 14 events. v3.0.2 trial-and-error showed: all 14 events have SAME 2D CFT operator (universal), differ only in γ. Democratic cosmology (§3.17) is the correct framing. The "14 types" language was misleading and is now replaced with "1 species, 14 γ values." |
+| 45 (NEW v3.0.2) | "Why N=12 specifically" | OPEN (v3.0.2) | §3.62 | N=12 is the SIDC backbone (12 SM Weyl fermions). The 1/√N = 1/√12 is the source of the 0.289 correction. But WHY N=12? Connection to SM fermion count is suggestive but not proven. Closing requires derivation from Standard Model structure (e.g., from anomaly cancellation, generation count, or gauge group embeddings). |
 
-**Summary (v2.7.5):**
-- **OPEN**: 17 (50%) — require theoretical physics work beyond SIDC's current framework (L31, L33, L34, L35 retained; L32 removed)
-- **PARTIAL**: 10 (30%) — qualitatively right, quantitatively calibrated
-- **CLOSED**: 3 (8%) — fully resolved by SIDC (L13 conceptual; L14, L18)
-- **FALSIFIED**: 2 (5%) — specific mechanisms rejected by data, replaced by alternatives (L16, L19)
-- **REVERTED**: 4 (11%) — reversion to honest versions after failed improvements (L20 $f_{\rm active}$ "derivation" reverted v2.7.1; L24, L25; L36 $E_{\rm crit}$ phase-transition removed v2.7.4 in favor of smooth creation function)
-- **Total**: 37 limitations (was 36 in v2.7, now 37 with L9_ext DISCARDED); L32 removed in v2.7, L34 added v2.7.4 for $E_{\rm primordial}$, L35 added v2.7.4 for $z_{\rm half}$, L36 added v2.7.4 for $E_{\rm crit}$ REVERTED)
+**Summary (v3.0.2):**
+- **OPEN**: 21 (47%) — require theoretical physics work beyond SIDC's current framework (L31, L33-L35 retained; L38-L43 added v3.0.2; L45 NEW)
+- **PARTIAL**: 12 (27%) — qualitatively right, quantitatively calibrated (L30 topological eigenvalue retained; L43 Lagrangian skeleton added)
+- **CLOSED**: 6 (13%) — fully resolved by SIDC (L13 conceptual; L14, L18, L20 status updated; L44 "14 event types" MISFRAMING CLOSED)
+- **FALSIFIED**: 2 (4%) — specific mechanisms rejected by data, replaced by alternatives (L16, L19)
+- **REVERTED**: 4 (9%) — reversion to honest versions after failed improvements (L20 $f_{\rm active}$ "derivation" reverted v2.7.1; L24, L25; L36 $E_{\rm crit}$ phase-transition removed v2.7.4 in favor of smooth creation function)
+- **Total**: 45 limitations (was 37 in v2.7.5, +L38-L45 v3.0.2); L32 removed in v2.7, L34 added v2.7.4 for $E_{\rm primordial}$, L35 added v2.7.4 for $z_{\rm half}$, L36 added v2.7.4 for $E_{\rm crit}$ REVERTED, L37 added v2.7.30 for α=1.29 CGHS derivation, L38-L45 added v3.0.2 for Lagrangian skeleton and dimensional scale invariance findings
 
 **v2.7 update highlights (delta from v2.6):**
 1. **Hubble tension ACCEPTED (Mechanism M)**: SIDC does not attempt to resolve the Hubble tension. SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements.
