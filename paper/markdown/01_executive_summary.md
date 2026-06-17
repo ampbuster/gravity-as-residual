@@ -26,9 +26,13 @@ $$\boxed{\tau_{2D,\,\text{our frame}} = 33\,\text{s} \times \left(\frac{E_{\text
 
 **The same $\alpha = 1.289$ also governs the backward (back-action) direction, closing the loop between 4D event and 3D event:**
 
-$$\boxed{f_{\text{back}} = \left(\frac{t_{\text{Pl,3}}}{\tau_{\text{4D}}}\right) \times \left(\frac{\tau_{\text{SN,obs}}}{\tau_{\text{universe}}}\right) \times \left(\frac{E_{\text{4D}}}{E_{\text{SN}}}\right)^{1/(2 \alpha)}}$$
+**NOTE (v3.0.22)**: The closed loop expression (formula) DERIVES the value
+$f_{\text{back}} \approx 10^{-85}$. The expression IS $f_{\text{back}}$ — the
+number 10^{-85} is its numerical evaluation.
 
-- **$f_{\text{back}} \approx 10^{-85}$** is the back-projection efficiency of the 2D universe's gravity to 3+1D.
+$$\boxed{f_{\text{back}} \equiv \left(\frac{t_{\text{Pl,3}}}{\tau_{\text{4D}}}\right) \times \left(\frac{\tau_{\text{SN,obs}}}{\tau_{\text{universe}}}\right) \times \left(\frac{E_{\text{4D}}}{E_{\text{SN}}}\right)^{1/(2\alpha)} \approx 10^{-85}}$$
+
+- **$f_{\text{back}} \approx 10^{-85}$** is the back-projection efficiency of the 2D universe's gravity to 3+1D (the numerical VALUE of the closed loop expression).
 - **The composite exponent $1/(2\alpha) = c/\alpha = (1/2)/1.289 = 0.388$** where $c = 1/2 = N/24$ (Ising CFT).
 - **Three independent derivations of 1/2** (Schwarzian $E^{1/2}$, DOZZ $b^2 = 1/2$, $N/24 = 1/2$) confirm the exponent.
 - **The closed loop closes**: $\alpha \times 1/(2\alpha) = 1/2$ (round-trip loss from $Z_2$ orbifold).

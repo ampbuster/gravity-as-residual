@@ -9,10 +9,10 @@ PART 1: ALL SIDC STRENGTHS (12 main quantitative claims)
   ID                       Strength                                                Formula/Value
 ----------------------------------------------------------------------------------------------------
   S1                    Scaling law                              τ_2D = 33 s × (E/10^44 J)^1.289
-  S2                    Closed loop f_back = (t_Pl/τ_4D) × (τ_SN/τ_universe) × (E_4D/E_SN)^(1/(2
+  S2                    Closed loop FORMULA for f_back: (t_Pl/τ_4D) × (τ_SN/τ_universe) × (E_4D/
   S3                      α = 1.289                                  α = 1 + 1/√12 from N=12 SYK
   S4                        c = 1/2                               N/24 = 12/24 = 1/2 (Ising CFT)
-  S5                f_back ≈ 10^-85                                     Bridges the 10^85 DE gap
+  S5         f_back value (≈10^-85)                  Numerical value of S2; bridges 10^85 DE gap
   S6              M_Pl,4D ≥ 887 GeV                     4D Planck mass floor (electroweak scale)
   S7        g_+ ≈ 1.2 × 10^-10 m/s²                               Universal acceleration (SPARC)
   S8       Cluster g_+ ≈ 14× galaxy                             Cluster enhancement (Tian+ 2024)
@@ -31,7 +31,7 @@ S1-  S3          DIRECT                         Scaling law uses α = 1.289
 S2-  S3          DIRECT               Closed loop uses α = 1.289 in 1/(2α)
 S3-  S4          DIRECT                α = 1.289 from N=12, c = N/24 = 1/2
 S3- S12          DIRECT                  Single number N=12 → α → all else
-S5-  S2          DIRECT          f_back ≈ 10^-85 IS the closed loop result
+S5-  S2        IDENTITY   S5 is the NUMERICAL VALUE of S2 (same parameter)
 S5- S10         DERIVED            f_back bridges the 10^85 DE density gap
 S6-  S2      STRUCTURAL                      Both involve 5D bulk geometry
 S7- S11          DIRECT            g_+ IS the SIDC origin of MOND-like RAR
@@ -184,7 +184,7 @@ Number of links per strength:
   S2                    Closed loop          5 █████
   S3                      α = 1.289          4 ████
   S4                        c = 1/2          1 █
-  S5                f_back ≈ 10^-85          3 ███
+  S5         f_back value (≈10^-85)          3 ███
   S6              M_Pl,4D ≥ 887 GeV          3 ███
   S7        g_+ ≈ 1.2 × 10^-10 m/s²          2 ██
   S8       Cluster g_+ ≈ 14× galaxy          3 ███

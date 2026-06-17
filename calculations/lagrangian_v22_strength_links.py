@@ -72,10 +72,10 @@ print("="*72)
 
 strengths = [
     ("S1", "Scaling law", "τ_2D = 33 s × (E/10^44 J)^1.289", "§10.1"),
-    ("S2", "Closed loop", "f_back = (t_Pl/τ_4D) × (τ_SN/τ_universe) × (E_4D/E_SN)^(1/(2α))", "§3.60.1"),
+    ("S2", "Closed loop", "FORMULA for f_back: (t_Pl/τ_4D) × (τ_SN/τ_universe) × (E_4D/E_SN)^(1/(2α))", "§3.60.1"),
     ("S3", "α = 1.289", "α = 1 + 1/√12 from N=12 SYK", "§3.60"),
     ("S4", "c = 1/2", "N/24 = 12/24 = 1/2 (Ising CFT)", "§3.60"),
-    ("S5", "f_back ≈ 10^-85", "Bridges the 10^85 DE gap", "§2.4, §3.60"),
+    ("S5", "f_back value (≈10^-85)", "Numerical value of S2; bridges 10^85 DE gap", "§2.4, §3.60"),
     ("S6", "M_Pl,4D ≥ 887 GeV", "4D Planck mass floor (electroweak scale)", "§10.3"),
     ("S7", "g_+ ≈ 1.2 × 10^-10 m/s²", "Universal acceleration (SPARC)", "§4.17"),
     ("S8", "Cluster g_+ ≈ 14× galaxy", "Cluster enhancement (Tian+ 2024)", "§4.17"),
@@ -104,7 +104,7 @@ links = [
     ("S2", "S3", "DIRECT", "Closed loop uses α = 1.289 in 1/(2α)"),
     ("S3", "S4", "DIRECT", "α = 1.289 from N=12, c = N/24 = 1/2"),
     ("S3", "S12", "DIRECT", "Single number N=12 → α → all else"),
-    ("S5", "S2", "DIRECT", "f_back ≈ 10^-85 IS the closed loop result"),
+    ("S5", "S2", "IDENTITY", "S5 is the NUMERICAL VALUE of S2 (same parameter)"),
     ("S5", "S10", "DERIVED", "f_back bridges the 10^85 DE density gap"),
     ("S6", "S2", "STRUCTURAL", "Both involve 5D bulk geometry"),
     ("S7", "S11", "DIRECT", "g_+ IS the SIDC origin of MOND-like RAR"),

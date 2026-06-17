@@ -42,10 +42,14 @@ $$\boxed{\tau_{2D,\,\text{our frame}} = 33\,\text{s} \times \left(\frac{E_{\text
 
 ## Main Point #2: The Closed Loop (§3.60.1)
 
-$$\boxed{f_{\rm back} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^\frac{1}{2 \alpha}}$$
+**NOTE (v3.0.22)**: The closed loop expression (formula) DERIVES the value
+$f_{\rm back} \approx 10^{-85}$. The expression IS $f_{\rm back}$ — the
+number 10^{-85} is its numerical evaluation.
+
+$$\boxed{f_{\rm back} \equiv \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)} \approx 10^{-85}}$$
 
 - The same $\alpha = 1.289$ governs the **backward (back-action) direction**, closing the loop between 4D event and 3D event.
-- **Numerical value**: $f_{\rm back} \approx 10^{-85}$ — the back-projection efficiency.
+- **Numerical value**: $f_{\rm back} \approx 10^{-85}$ — the back-projection efficiency (RESULT of the closed loop expression).
 - **Composite exponent** $1/(2\alpha) = 0.388 = c/\alpha$ where $c = 1/2 = N/24$ (Ising CFT).
 - **Three independent derivations of 1/2** (Schwarzian, DOZZ, $N/24$) confirm the exponent.
 - **$\alpha \times 1/(2\alpha) = 1/2$** (round-trip loss, Z₂ orbifold).

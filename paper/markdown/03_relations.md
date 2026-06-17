@@ -3094,12 +3094,23 @@ See `changelog.md` for v2.7.x → v3.0 history.
 
 ---
 
-### 3.60.1 Closed loop expression for $f_{\rm back}$ (v3.0.21)
+### 3.60.1 Closed loop expression for $f_{\rm back}$ (v3.0.21, revised v3.0.22)
 
-The **closed loop composite expression** for $f_{\rm back}$ from
+**IMPORTANT CLARIFICATION (v3.0.22)**: "$f_{\rm back} \approx 10^{-85}$" is the
+NUMERICAL VALUE of $f_{\rm back}$. The **closed loop expression** is the
+FORMULA that derives this value. They are the same parameter — the value
+is what the formula gives.
+
+$$\boxed{f_{\rm back} \equiv \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)} \approx 10^{-85}}$$
+
+The closed loop expression (formula on the left) equals the numerical value
+$\approx 10^{-85}$ (on the right). They are the SAME parameter — the value
+is what the formula evaluates to.
+
+The closed loop composite expression for $f_{\rm back}$ from
 the v10 calculation (`calculations/lagrangian_v10_fback_from_alpha.py`):
 
-$$\boxed{f_{\rm back} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^\frac{1}{2 \alpha}}$$
+$$f_{\rm back} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)}$$
 
 where:
 - $t_{\rm Pl,3}$ = 3+1D Planck time = $5.39 \times 10^{-44}$ s
@@ -3136,7 +3147,7 @@ This matches the §3.60 claim of $f_{\rm back} \approx 10^{-85}$ to 0.4 orders.
 $\gamma = (E/E_{\rm Pl})^\alpha$ (the scaling law, §10.1)
 
 **The backward direction (back-action)**:
-$f_{\rm back} \sim (E_{\rm 4D}/E_{\rm SN})^\frac{1}{2 \alpha}$ (the closed loop, this section)
+$f_{\rm back} \sim (E_{\rm 4D}/E_{\rm SN})^{1/(2\alpha)}$ (the closed loop, this section)
 
 **BOTH use the SAME $\alpha = 1.289$**, derived from $N = 12$ SYK.
 This is what makes it a "closed loop" — the forward and backward
