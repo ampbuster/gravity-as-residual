@@ -677,6 +677,19 @@
 # or using Unicode is more reliable.
 # Found in README line 24, 65, 101, 593, 828, 836, etc.
 #
+# GITHUB MOBILE/DESKTOP GOTCHA #5: math inside italic (*...*) may
+# render as literal text on github desktop. The fix is to split the
+# italic range so math is OUTSIDE the *...* markers:
+#   *incl. $A_{event}$ ~ 67* → *incl.* $A_{event}$ *~ 67*
+#   *with $F_p(z)$ as smooth* → *with* $F_p(z)$ *as smooth*
+# Why: github's markdown parser processes inline markdown (italic,
+# bold) BEFORE math. When math is INSIDE *...*, the $ delimiters
+# may not be recognized as math boundaries in some renderers.
+# Splitting the italic so math is between markers (not inside) makes
+# the parser happy.
+# Found in README line 24. This is a generic gotcha for any math
+# inside italic text - check all *.+\$.+\$.+* patterns.
+#
 # APPROXIMATELY EQUAL:
 #   WRONG:  ≈ (Unicode)
 #   WRONG:  ~ (tilde, not typeset)
