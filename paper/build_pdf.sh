@@ -606,6 +606,16 @@
 #   ($10^{5}$--$10^{7}\,M_\odot$): → ($10^{5}\text{--}10^{7}\,M_\odot$)
 #   $M_{dyn}/M_b \sim 1$--$1700$ → $M_{dyn}/M_b \sim 1\text{--}1700$
 #
+# GITHUB MOBILE GOTCHA #2: $X$ immediately after '(' is sometimes EATEN.
+# Even with parens inside math like $(X\text{--}Y)$, github mobile
+# can fail to render correctly. The first '$' gets eaten and the
+# whole block falls back to plain text. SAFER alternatives:
+#   - Remove the parens entirely and use a colon:
+#     **Name:** $X\text{--}Y$\text{ }unit
+#   - Use a different separator (em-dash, hyphen, etc.)
+#   - Put the parens deep inside the math: \text{(}X\text{)}
+# This pattern was found in README galaxy bullets (lines 283-289).
+#
 # APPROXIMATELY EQUAL:
 #   WRONG:  ≈ (Unicode)
 #   WRONG:  ~ (tilde, not typeset)
