@@ -621,6 +621,21 @@
 #   - Put the parens deep inside the math: \text{(}X\text{)}
 # This pattern was found in README galaxy bullets (lines 283-289).
 #
+# GITHUB MOBILE/DESKTOP GOTCHA #3: '-' (hyphen-minus) inside math AFTER
+# '=' or '~' is sometimes rendered as an en-dash ('–') by GitHub's
+# KaTeX rendering. This affects:
+#   $b^2 = -1$       → renders as "b² = – 1" (wrong!)
+#   $\sim -12$     → renders as "~ – 12" (wrong!)
+#   $w = -1$        → renders as "w = – 1" (wrong!)
+# FIX: use Unicode minus (U+2212 '−') instead of hyphen-minus:
+#   $b^2 = −1$     → renders as "b² = −1" (correct)
+#   $\sim −12$   → renders as "~ −12" (correct)
+#   w = −1 (plain)  → renders as "w = −1" (correct)
+# Why this happens: KaTeX might treat "= -N" as a list of items with
+# spacing, and the '-' gets interpreted as a separator. The Unicode
+# minus is unambiguous.
+# This was found in README line 102, 105, 109, 925.
+#
 # APPROXIMATELY EQUAL:
 #   WRONG:  ≈ (Unicode)
 #   WRONG:  ~ (tilde, not typeset)
