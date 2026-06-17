@@ -15,7 +15,7 @@
 
 **What is SIDC?** The model is called **SIDC — Scale-Invariant Dimensional Cascade**. The original v2.3.2 name was "Scale-Invariant Dimensional Cascade" (SIDC), shortened to "the cascade" in v2.4-2.7, and now restored as SIDC in v3.0.2 to emphasize the scale-invariance aspect. (The historical "Dimensional Cascade" / DC label is now deprecated.)
 
-**Version:** 3.0.21 (June 2026) — *Fixed broken tables: replaced \dimexpr with \linewidth syntax. Tables with parens or math mode in cells (like the §3.15.7 'Honest verdict' table) now render properly. 353 pages.*
+**Version:** 3.0.21 (June 2026) — *Build infrastructure refactor: 4 post-processors moved into `paper/build_tools/` (tracked in git); intermediate files in `paper/.build/` (gitignored); no more `/tmp/` dependency. +Build state self-contained inside repo. 330 pages.*
 
 **Version:** 3.0.20 (June 2026) — *Tables now render in PDF (was raw text in v3.0.17). Switched pandoc to markdown+grid_tables+pipe_tables+raw_tex. Added post-processors for LaTeX escaping issues. 409 pages.*
 
@@ -831,6 +831,34 @@ The full simulation: `python3 calculations/cascade_model.py --outliers`
 - §11.1–§11.7 sub-sections (SIDC DM mechanism, 47 Tuc calculation, falsifiability matrix)
 - §12 Galaxy-Zoo Test Suite: 11/11 pass on real data
 - §12.1–§12.6 sub-sections (NGC 1052-DF2, Tucana, Bullet Cluster [consistency check], Omega Cen, M82, NGC 1275, DF44)
+
+---
+
+# 🔨 BUILDING THE PAPER
+
+If you want to rebuild `paper/paper.pdf` from the markdown sources:
+
+```bash
+bash paper/build_pdf.sh
+pdfinfo paper/paper.pdf | grep Pages
+```
+
+**Required:** `pandoc`, `xelatex` (TeX Live with DejaVu fonts), Python 3.
+
+**Pipeline overview:**
+1. Concatenate `paper/markdown/*.md` → `paper/.build/paper_combined.md`
+2. Pandoc converts to LaTeX → `paper/.build/paper_body.tex`
+3. Four post-processors in `paper/build_tools/` fix Pandoc's LaTeX quirks
+   (`wrap_dimexpr.py`, `use_linewidth.py`, `fix_dashes.py`, `fix_sigma.py`)
+4. Header prepended, full document assembled, xelatex runs twice for cross-refs
+5. Final PDF copied to `paper/paper.pdf`
+
+**All build state is inside the repo:**
+- `paper/build_tools/` — post-processor scripts (tracked in git, persist across sessions)
+- `paper/.build/` — intermediate files (gitignored, but kept for debugging)
+- `paper/build_pdf.sh` — orchestrator (extensively commented; ~1100 lines, includes LaTeX gotchas, table syntax rules, math notation rules, troubleshooting)
+
+**Last build:** 330 pages (June 17, 2026, after v3.0.2 Lagrangian section + L38–L45).
 
 ---
 
