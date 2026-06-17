@@ -78,7 +78,7 @@ N = 12 is **uniquely determined** by α = 1.29 (off by 0.001; for N = 10, 11, 13
 2. **Intermediate F(z) dwarfs**: 10-30% of dwarfs are DM-poor (consistent with Bidaran+ 2025 etc.)
 3. **Massive quiescent galaxies at z > 4**: very high $M_{dyn}$ (consistent with RUBIES, EXCELS etc.)
 4. **Tidal dwarf galaxies**: shifting toward DM-poor (consistent with Zaragoza-Cardiel+ 2024 etc.)
-5. **14 event-type lifetimes**: all follow $\tau_{2D}$ ~ M^1.29 (SN, GRB, BNS, AGN, etc.)
+5. **14 event-type lifetimes**: all follow $\tau_{2D} \sim M^{1.29}$ (SN, GRB, BNS, AGN, etc.)
 
 **Indistinguishable from ΛCDM or below detection** (currently):
 

@@ -3055,7 +3055,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 5. α = 1 + 1/√N scaling is universal
 6. c = 1/2 Ising CFT (specific)
 7. $f_{\rm back}$ = $8.6 \times 10^{-86}$ universal
-8. 14 event types follow $\tau_{2D}$ ~ M^1.29
+8. 14 event types follow $\tau_{2D} \sim M^{1.29}$
 
 **What v3 derives (NEW)**:
 
@@ -3063,7 +3063,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 - c = 1/2 (Ising CFT, N/24)
 - 1/(2α) = 0.388 (back-action)
 - $f_{\rm back}$ = $8.6 \times 10^{-86}$ (universal, gives $10^{-85}$)
-- 14 event types follow $\tau_{2D}$ ~ M^1.29
+- 14 event types follow $\tau_{2D} \sim M^{1.29}$
 - 1/√N saddle-point theoretical support
 
 **What v3 does NOT derive (honest bounds)**:
@@ -3218,7 +3218,7 @@ All SIDC parameters now derived from a single number N = 12:
 
 Tested against full observational data:
 
-- **14 event types**: $\tau_{2D}$ ~ M^1.29 confirmed for all 14
+- **14 event types**: $\tau_{2D} \sim M^{1.29}$ confirmed for all 14
   (SN, Hypernova, GRBs, BNS, NS-BH, AGN, TDE, etc.)
 - **47 Tuc test**: $M_{dyn}$ ≈ $M_{stars}$ (SIDC differentiator from ΛCDM) **[PASS]**
 - **Massive quiescents z>4**: 10+ confirmed (RUBIES, EXCELS, etc.) **[PASS]**
@@ -3226,7 +3226,7 @@ Tested against full observational data:
 - **TDG**: 7+ studies, picture SHIFTING toward DM-poor **[PASS]**
 - **DESI w(z)**: w ≈ -1, consistent with SIDC **[PASS]**
 
-**L80 NEW**: 14 event types tested, $\tau_{2D}$ ~ M^1.29 confirmed.
+**L80 NEW**: 14 event types tested, $\tau_{2D} \sim M^{1.29}$ confirmed.
 
 **Part 3: Numerical simulations**
 
@@ -3416,7 +3416,7 @@ The composite model is honest about its limits:
 - c = 1/2 (Ising CFT, N/24)
 - 1/(2α) = 0.388 (back-action)
 - $f_{\rm back}$ = $8.6 \times 10^{-86}$ (universal, gives $10^{-85}$)
-- 14 event types follow $\tau_{2D}$ ~ M^1.29
+- 14 event types follow $\tau_{2D} \sim M^{1.29}$
 - 1/√N saddle-point theoretical support
 
 **What the composite model does NOT derive**:
