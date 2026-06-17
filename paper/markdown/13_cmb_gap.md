@@ -10,12 +10,12 @@ This section acknowledges a **fundamental tension** between SIDC's current mecha
 
 ### 13.1 The CMB requirement
 
-The CMB angular power spectrum (Planck 2018 results V, A&A 641, A5; arXiv:1907.12875) requires a matter density of **Ω_m = 0.315** at the recombination epoch (z = 1100), of which **Ω_c = 0.265** is cold dark matter. Without this DM, the acoustic peaks are at the wrong positions:
-- First peak (l ~ 220): controlled by sound horizon, **shifts** if Ω_m changes
-- Second peak (l ~ 540): baryon-to-photon ratio, **changes** with Ω_m
+The CMB angular power spectrum (Planck 2018 results V, A&A 641, A5; arXiv:1907.12875) requires a matter density of **$\Omega_m$ = 0.315** at the recombination epoch (z = 1100), of which **Ω_c = 0.265** is cold dark matter. Without this DM, the acoustic peaks are at the wrong positions:
+- First peak (l ~ 220): controlled by sound horizon, **shifts** if $\Omega_m$ changes
+- Second peak (l ~ 540): baryon-to-photon ratio, **changes** with $\Omega_m$
 - Third peak (l ~ 810): matter-to-radiation, **depends on Ω_c**
 
-This is **not a small effect**: the difference between baryon-only (Ω_m ~ 0.049) and the observed Ω_m = 0.315 corresponds to a factor of ~6.4 in total matter density, which moves the acoustic peaks by 10-20% in l.
+This is **not a small effect**: the difference between baryon-only ($\Omega_m$ ~ 0.049) and the observed $\Omega_m$ = 0.315 corresponds to a factor of ~6.4 in total matter density, which moves the acoustic peaks by 10-20% in l.
 
 ### 13.2 SIDC's prediction at z = 1100
 
@@ -25,19 +25,19 @@ SIDC's mechanism (per §2.4-2.7) is:
 
 SIDC's first "energetic events" in our universe are the **first stars (Population III)** forming at z ~ 20-30, and the first core-collapse supernovae at z ~ 15-20. Before this, there are essentially no energetic events in SIDC's sense.
 
-Therefore, SIDC predicts: **Ω_DM(z > 20) ~ 0**. SIDC's predicted Ω_m(z = 1100) is approximately the **baryon-only** value: Ω_m(z = 1100) ~ Ω_b = 0.049.
+Therefore, SIDC predicts: **$\Omega_{\rm DM}$(z > 20) ~ 0**. SIDC's predicted $\Omega_m$(z = 1100) is approximately the **baryon-only** value: $\Omega_m$(z = 1100) ~ Ω_b = 0.049.
 
 **Importantly, SIDC's *baryon* prediction is correct at z = 1100.** The 5% baryons are present at all z, including z = 1100, in plasma form (ionized hydrogen and helium — the medium that emits and absorbs the CMB). They are "visible" via their interaction with CMB photons, even though no stars or galaxies have formed yet.
 
 SIDC's failure is specifically in the **27% dark matter**, not the 5% baryons. SIDC predicts:
 - Ω_b(z = 1100) = 0.049 **[PASS]** (matches Planck)
-- Ω_DM(z = 1100) = 0 **[FAIL]** (SIDC's specific failure)
-- Ω_m(z = 1100) = 0.049 **[FAIL]** (factor of 6.4 below Planck's 0.315)
+- $\Omega_{\rm DM}$(z = 1100) = 0 **[FAIL]** (SIDC's specific failure)
+- $\Omega_m$(z = 1100) = 0.049 **[FAIL]** (factor of 6.4 below Planck's 0.315)
 
 ### 13.3 The tension
 
 The CMB acoustic peaks depend on:
-- **First peak (l ~ 220):** sound horizon (depends on total Ω_m, weakly on Ω_c)
+- **First peak (l ~ 220):** sound horizon (depends on total $\Omega_m$, weakly on Ω_c)
 - **Second peak (l ~ 540):** baryon-to-photon ratio (depends on Ω_b, mostly correct in SIDC)
 - **Third peak (l ~ 810):** matter-to-radiation ratio (depends on Ω_c, **missing in SIDC**)
 
@@ -91,27 +91,27 @@ This is **future work**, not a v2.7.3+ deliverable. SIDC's current framework is 
 
 To complement the qualitative picture, SIDC has been fit to the **SPARC database** (175 galaxies, 3383 radial data points) using MCMC (emcee). See `calculations/v27_cascade_mcmc_rar.py` for the full calculation.
 
-**SIDC RAR model:** g_obs = g_bar / (1 - exp(-sqrt(g_bar / a_0)))
+**SIDC RAR model:** $g_{\rm obs}$ = $g_{\rm bar}$ / (1 - exp(-sqrt($g_{\rm bar}$ / $a_0$)))
 
-This is the standard interpolating function that smoothly transitions from Newtonian (g_bar >> a_0) to MOND (g_bar << a_0).
+This is the standard interpolating function that smoothly transitions from Newtonian ($g_{\rm bar}$ >> $a_0$) to MOND ($g_{\rm bar}$ << $a_0$).
 
 **MCMC result (this run):**
-- a_0 = 2.34e-10 ± 1.54e-10 m/s^2
+- $a_0$ = 2.34e-10 ± 1.54e-10 m/s^2
 - sigma_int = 0.089 ± 0.040 dex
 - Reduced chi^2 ≈ 0 (model is "over-fit" given the wide error bars)
 
 **Literature comparison (Li+ 2018, arXiv:1803.00022):**
-- a_0 = 1.20e-10 ± 0.02 m/s^2
+- $a_0$ = 1.20e-10 ± 0.02 m/s^2
 - sigma_int = 0.057 ± 0.002 dex
 - Reduced chi^2 = 1.0 (good fit)
 
-SIDC's a_0 is consistent with the literature (within 1-2 sigma). SIDC's RAR is statistically equivalent to standard MOND. SIDC adds *geometric unification* (a_0 emerges from 2D universe back-projection) but does not *uniquely* beat MOND via the RAR.
+SIDC's $a_0$ is consistent with the literature (within 1-2 sigma). SIDC's RAR is statistically equivalent to standard MOND. SIDC adds *geometric unification* ($a_0$ emerges from 2D universe back-projection) but does not *uniquely* beat MOND via the RAR.
 
 **The 47 Tuc test is SIDC's true differentiator** (from MOND and from particle DM). The RAR fit is a *consistency check* on SIDC's phenomenological prediction, not a new confirmation.
 
 ### 13.8 Summary
 
-SIDC has a **real CMB gap**: SIDC's mechanism predicts Ω_DM(z = 1100) ~ 0, but the observed Planck 2018 value is Ω_DM = 0.265. Without an early-DM mechanism, SIDC's CMB prediction fails.
+SIDC has a **real CMB gap**: SIDC's mechanism predicts $\Omega_{\rm DM}$(z = 1100) ~ 0, but the observed Planck 2018 value is $\Omega_{\rm DM}$ = 0.265. Without an early-DM mechanism, SIDC's CMB prediction fails.
 
 SIDC is **consistent** with:
 - Galaxy-zoo tests (z < 4, 11/11 pass on real data)

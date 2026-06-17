@@ -20,8 +20,8 @@ The full simulation is in `calculations/cascade_model.py` (run with `--outliers`
 5. NGC 1052-DF2: $M_{dyn}$ ≈ $M_{b}$, claimed no DM (UDG)
 6. Tucana dSph: $M_{dyn}$ ≈ $M_{b}$, isolated + quenched 6+ Gyr
 7. Bullet Cluster (1E 0657-56): gas-galaxy separation, 720 kpc **= SIDC SMOKING GUN**
-8. Omega Centauri (NGC 5139): $M_{dyn}$ ≈ $M_{b}$, IMBH 8200 M_sun
-9. M82 (NGC 3034): $M_{dyn}$/$M_{b}$ ~ 4, extreme starburst (10 M_sun/yr)
+8. Omega Centauri (NGC 5139): $M_{dyn}$ ≈ $M_{b}$, IMBH 8200 $M_\odot$
+9. M82 (NGC 3034): $M_{dyn}$/$M_{b}$ ~ 4, extreme starburst (10 $M_\odot$/yr)
 10. NGC 1275 (Perseus A): $M_{dyn}$/$M_{b}$ ~ 50, AGN host
 11. Dragonfly 44: $M_{dyn}$/$M_{b}$ ~ 300 (revised), Coma cluster member
 
@@ -32,7 +32,7 @@ The full simulation is in `calculations/cascade_model.py` (run with `--outliers`
 
 The 7 outlier tests complement the 4 standard tests by probing *extreme* cases:
 
-**NGC 1052-DF2 (UDG, claimed no DM, van Dokkum+ 2018):** an ultra-diffuse galaxy in the NGC 1052 group with a claimed absence of dark matter. SIDC's interpretation: NGC 1052-DF2's low past star formation rate (SFR ~ 0.005 M_sun/yr peak) means few 2D universes were ever created, so the local DM is negligible. $M_{dyn}$/$M_{b}$ ~ 1.5 is the expected level. **SIDC CONSISTENT**, and SIDC *explains* the original "no DM" claim naturally.
+**NGC 1052-DF2 (UDG, claimed no DM, van Dokkum+ 2018):** an ultra-diffuse galaxy in the NGC 1052 group with a claimed absence of dark matter. SIDC's interpretation: NGC 1052-DF2's low past star formation rate (SFR ~ 0.005 $M_\odot$/yr peak) means few 2D universes were ever created, so the local DM is negligible. $M_{dyn}$/$M_{b}$ ~ 1.5 is the expected level. **SIDC CONSISTENT**, and SIDC *explains* the original "no DM" claim naturally.
 
 **Tucana dSph (isolated, quenched 6+ Gyr):** an isolated dwarf spheroidal with no current star formation for >6 Gyr. SIDC's interpretation: Tucana is a pure stellar tracer of the Local Group potential, with no local DM enhancement from past activity (low past SFR). $M_{dyn}$/$M_{b}$ ~ 1.3 is the expected level. **SIDC CONSISTENT**.
 
@@ -50,11 +50,11 @@ The 7 outlier tests complement the 4 standard tests by probing *extreme* cases:
 - The cross-section doesn't need to be tuned — DM is geometric, not particle
 - This is why SIDC's DM mechanism doesn't conflict with Bullet Cluster even without sterile neutrinos or self-interacting DM
 
-**Omega Centauri (NGC 5139, massive GC with 8200 M_sun IMBH):** the most massive Milky Way globular cluster, with at least 14 stellar populations (Clontz+ 2025) and a recently-confirmed intermediate-mass black hole (Haberle+ 2024, Nature). $M_{dyn}$/$M_{b}$ ~ 1.25 indicates mostly stellar dynamics. SIDC's interpretation: no current activity, the IMBH is a point mass (standard GR), not a 2D universe effect, and the multi-population structure reflects a complex past SFH but no current 2D universe creation. **SIDC CONSISTENT**.
+**Omega Centauri (NGC 5139, massive GC with 8200 $M_\odot$ IMBH):** the most massive Milky Way globular cluster, with at least 14 stellar populations (Clontz+ 2025) and a recently-confirmed intermediate-mass black hole (Haberle+ 2024, Nature). $M_{dyn}$/$M_{b}$ ~ 1.25 indicates mostly stellar dynamics. SIDC's interpretation: no current activity, the IMBH is a point mass (standard GR), not a 2D universe effect, and the multi-population structure reflects a complex past SFH but no current 2D universe creation. **SIDC CONSISTENT**.
 
-**M82 (NGC 3034, Cigar Galaxy, extreme starburst):** a starburst galaxy with SFR ~ 10 M_sun/yr, a SN every ~10 years, and a dynamical mass ~ 4× the stellar mass. SIDC's interpretation: the extreme current activity creates many 2D universes, leading to a *moderate* local DM component. $M_{dyn}$/$M_{b}$ ~ 4 is the predicted level. **SIDC CONSISTENT**.
+**M82 (NGC 3034, Cigar Galaxy, extreme starburst):** a starburst galaxy with SFR ~ 10 $M_\odot$/yr, a SN every ~10 years, and a dynamical mass ~ 4× the stellar mass. SIDC's interpretation: the extreme current activity creates many 2D universes, leading to a *moderate* local DM component. $M_{dyn}$/$M_{b}$ ~ 4 is the predicted level. **SIDC CONSISTENT**.
 
-**NGC 1275 (Perseus A, AGN host):** the central galaxy of the Perseus cluster, with an active AGN (FR I radio galaxy, L_AGN ~ 10^37 W), high star formation (SFR ~ 30 M_sun/yr), and a dynamical mass ~ 50× the stellar mass. SIDC's interpretation: the high AGN luminosity and cluster-infall activity create many 2D universes, leading to high local DM. $M_{dyn}$/$M_{b}$ ~ 50 is the predicted level. **SIDC CONSISTENT**.
+**NGC 1275 (Perseus A, AGN host):** the central galaxy of the Perseus cluster, with an active AGN (FR I radio galaxy, L_AGN ~ 10^37 W), high star formation (SFR ~ 30 $M_\odot$/yr), and a dynamical mass ~ 50× the stellar mass. SIDC's interpretation: the high AGN luminosity and cluster-infall activity create many 2D universes, leading to high local DM. $M_{dyn}$/$M_{b}$ ~ 50 is the predicted level. **SIDC CONSISTENT**.
 
 **Dragonfly 44 (UDG with disputed high DM):** an ultra-diffuse galaxy in the Coma cluster. Originally claimed to have $M_{dyn}$/$M_{b}$ ~ 3000 (van Dokkum+ 2016), revised to $M_{dyn}$/$M_{b}$ ~ 300 (later studies). 74 globular clusters suggest past major star formation activity. SIDC's interpretation: as a Coma cluster member, DF44 has had significant past activity (the 74 GCs are evidence), leading to accumulated 2D universe DM. SIDC does *not* require the original 2016 extreme $M_{dyn}$/$M_{b}$ value; the revised value is consistent. **SIDC CONSISTENT**.
 

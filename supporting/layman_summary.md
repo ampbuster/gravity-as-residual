@@ -6,7 +6,7 @@
 
 **The big idea in one sentence:** *What if every energetic explosion in space creates its own brief 2D universe, and the "leftover gravity" from all those 2D universes is what we call dark matter?*
 
-**v3.0 breakthrough:** A single number — **N = 12** — explains many of SIDC's specific values. 12 Majorana fermions in q=4 SYK (a quantum chaos model) give SIDC's $\alpha$ = 1.29, central charge c = 1/2, and universal back-action f_back $\approx$ 10⁻⁸⁵. The 12 might map to 3 Standard Model generations $\times$ 4 fermions per generation.
+**v3.0 breakthrough:** A single number — **N = 12** — explains many of SIDC's specific values. 12 Majorana fermions in q=4 SYK (a quantum chaos model) give SIDC's $\alpha$ = 1.29, central charge c = 1/2, and universal back-action $f_{\rm back}$ $\approx$ 10⁻⁸⁵. The 12 might map to 3 Standard Model generations $\times$ 4 fermions per generation.
 
 That's SIDC. The rest of this summary explains how it works in plain language, what evidence we have for it, and what's testable.
 
@@ -96,7 +96,7 @@ This is the part that makes SIDC different from every other dark sector model.
 
 **The single formula:**
 
-> A 2D universe created by an event of energy E lives for a time **τ_2D $\sim E^{1.29}$** in our frame.
+> A 2D universe created by an event of energy E lives for a time **$\tau_{2D}$ $\sim E^{1.29}$** in our frame.
 
 That's it. One formula. The "1.29" comes from the cascade's N=12 backbone ($\alpha$ = 1 + 1/√12 = 1.289).
 
@@ -124,7 +124,7 @@ The scaling law is the **quantitative core** of the closed loop. It's what makes
 **The competition can't do this:**
 
 - **ΛCDM** works on cosmological scales but fails at galaxy scales (cusp-core, missing satellites, too-big-to-fail)
-- **MOND** works at galaxy scales but fails at cluster scales (Tian+ 2024 shows cluster g_+ is 14$\times$ higher)
+- **MOND** works at galaxy scales but fails at cluster scales (Tian+ 2024 shows cluster $g_+$ is 14$\times$ higher)
 - **UDM / Chaplygin gas** works at cosmological scales but the unified fluid has c_s² ~ 1, suppressing all small-scale structure
 - **Verlinde / entropic gravity** is static — it can't distinguish "same mass, different history" cases
 
@@ -151,7 +151,7 @@ SIDC makes a striking prediction: **if the 4D's fundamental Planck mass is at th
 
 This depends on two unknowns:
 - **The exact form of the energy-scaling rule** (SIDC's rule fits one data point, with the exponent uncertain by ~1%, which translates to ~60% uncertainty in the universe's total lifespan)
-- **The 4D Planck mass** (SIDC derives a *floor* of M_Pl,4 $\geq$ 887 GeV, but the actual value could be anywhere from 887 GeV to 10¹⁹ GeV)
+- **The 4D Planck mass** (SIDC derives a *floor* of $M_{\rm Pl}$,4 $\geq$ 887 GeV, but the actual value could be anywhere from 887 GeV to 10¹⁹ GeV)
 
 **Testable signatures:**
 - DESI's detection of evolving dark energy (3.5σ) could be the first hint
@@ -194,7 +194,7 @@ SIDC's *most distinctive testable predictions*:
 SIDC is a **thought experiment**, not a derivation from first principles. The honest caveats:
 
 - **The 2D CFT (c=1 matrix model) doesn't directly give the energy-scaling rule.** The rule is a *fit* to one data point (the 33-second 2D universe from a supernova), not a first-principles derivation.
-- **The exact value of the 4D Planck mass is unknown.** SIDC derives a *floor* of 887 GeV (electroweak scale), but the actual M_Pl,4 could be anywhere from 887 GeV to 10¹⁹ GeV.
+- **The exact value of the 4D Planck mass is unknown.** SIDC derives a *floor* of 887 GeV (electroweak scale), but the actual $M_{\rm Pl}$,4 could be anywhere from 887 GeV to 10¹⁹ GeV.
 - **The "end-of-universe in 1-10 Gyr" timeline is fragile.** It depends sensitively on both the energy-scaling exponent and the 4D Planck mass. With different assumptions, the 3D could live forever (no end) or already be at the very end.
 - **SIDC has 0 strongly confirmed, 0 falsified predictions.** It's *consistent* with current data without being *established* by it.
 
@@ -266,7 +266,7 @@ In v2.7.60-67, SIDC made a striking discovery: **a single number — 12 — expl
 - 12 Majoranas in q=4 SYK (a specific quantum chaos model) give:
   - Central charge c = 1/2 (Ising CFT, a 2D conformal field theory)
   - Lifetime scaling $\alpha$ = 1.289 $\approx$ 1.29 (SIDC's calibration value)
-  - Universal back-action f_back $\approx$ 10⁻⁸⁵
+  - Universal back-action $f_{\rm back}$ $\approx$ 10⁻⁸⁵
 - The "1/2" in SIDC's back-action formula comes from c = 1/2
 - The "1.29" comes from $\alpha$ = 1 + 1/√12 = 1.289
 
@@ -299,7 +299,7 @@ So if SIDC's $\alpha$ is correct, then N = 12 is uniquely determined.
 
 - 2D universes have 12 Majorana fermion "degrees of freedom"
 - The 12 might map to 3 SM generations $\times$ 4 fermions per generation
-- 2D universes might be in "AdS_2 $\times$ S²" topology (a specific 2D geometry with positive lifetime scaling)
+- 2D universes might be in "$\AdS_2$ $\times$ S²" topology (a specific 2D geometry with positive lifetime scaling)
 - 2D universes might be bilayer-graphene-like at "magic angle" of ~1.5-2.0°
 
 These are all specific, testable predictions — but they require more theoretical work to derive them rigorously.
