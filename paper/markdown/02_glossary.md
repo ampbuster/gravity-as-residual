@@ -849,7 +849,7 @@ The model does *not* currently specify which of these is correct, but the *gravi
    - **$f_{\rm active}$ ~ 0.05** = (active 2D universe population) / (total cumulative 2D universe population) — the MCMC RAR fit, the *instantaneous* fraction of 2D universes that are alive at any given moment
    - **$F_p$ ~ 0.7** = (primordial DM contribution) / (total DM) — the §4.48 trial-and-error to match high-z UV LF, the *time-integrated* fraction of total DM that came from primordial events
 
-   These are NOT interchangeable. $f_{\rm active}$ is a *population* ratio; $F_p$ is an *energy-contribution* ratio. They could be related (active is mostly stellar-created 2D universes, and stellar $F_s = $0.3 of total DM), but the relationship is not constrained by current data.
+   These are NOT interchangeable. $f_{\rm active}$ is a *population* ratio; $F_p$ is an *energy-contribution* ratio. They could be related (active is mostly stellar-created 2D universes, and stellar $F_s = 0.3$ of total DM), but the relationship is not constrained by current data.
 
 **What this section REPLACES (v2.7.1 honest framing):**
 - 5/27/68 is OBSERVED DATA (Planck 2018), not a SIDC prediction.

@@ -12,7 +12,7 @@ In the scale-invariant version of this model, dark matter is the collective grav
 
 **Recent RAR results (2024–2025).** The RAR has been confirmed and extended by several recent studies. MIGHTEE-HI [Vărăşteanu25] confirmed the RAR with a large new sample using resolved stellar mass measurements. [Mistele24] combined kinematic and weak-lensing data to extend the RAR over a large dynamic range, with consistent results. However, *recent* studies have also identified *deviations* from a single universal RAR:
 
-- The EDGE collaboration [Júlio25] found that low-mass dwarf galaxies ($M_b$ar ~ $10^{8}$ $M_o$) lie *systematically above* the low-mass extrapolation of the RAR — meaning the RAR is *not* a single universal function at low masses.
+- The EDGE collaboration [Júlio25] found that low-mass dwarf galaxies ($M_{bar}$ ~ $10^{8}$ $M_o$) lie *systematically above* the low-mass extrapolation of the RAR — meaning the RAR is *not* a single universal function at low masses.
 - [Mercado24] found that the RAR has subtle "hooks and bends" in its shape, not a single smooth function.
 - [Tian24] found that Brightest Cluster Galaxies (BCGs) follow a *different* RAR from typical spirals.
 
@@ -1996,7 +1996,7 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 **Part 2: Gaussian Instanton.** `gaussian_instanton(τ) = $a_0$ \exp(-τ^2/τ_{2D}^2)` implements the v2.4 Task 3 smooth decay profile for the 2D universe's scale factor. The normalized window $g(τ) = (1/τ_{2D}\sqrt{π}) \exp(-τ^2/τ_{2D}^2)$ localizes the fossil payload with $\int g dτ = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24π) R^{(2)}$ (v2.4 Task 2, with $c = 1$ default).
 
-**Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_b$_profile)` builds the SIDC-MOND hybrid potential: $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/$g_+$}))$, with $g_+ = 1.2 \times 10^{-10}$ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{total}(r)}$ and a BTFR-predicted $V_{flat} = (G $M_{b}$ $g_+$)^{1/4}$.
+**Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_{b}$ profile)` builds the SIDC-MOND hybrid potential: $g_{obs} = g_{bar} / (1 - \exp(-\sqrt{g_{bar}/$g_+$}))$, with $g_+ = 1.2 \times 10^{-10}$ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{total}(r)}$ and a BTFR-predicted $V_{flat} = (G $M_{b}$ $g_+$)^{1/4}$.
 
 **Part 4: Testing Harness (independent dwarf-galaxy cases).** The emulator runs two INDEPENDENT dwarf-galaxy cases (AGC 114905 and KKR 25) and verifies that SIDC's SFH-DM correlation is qualitatively consistent with observations for each.
 
@@ -2186,7 +2186,7 @@ For stellar-only 2D universe creation (Madau & Dickinson 2014 cosmic SFR, CCSN r
 | 8 | 0.0026 | SIDC has 400× LESS DM |
 | 10 | 0.0009 | SIDC has 1100× LESS DM |
 
-**The energetic analysis: what $F_s$tellar does SIDC's own physics predict?**
+**The energetic analysis: what $F_{\rm stellar}$ does SIDC's own physics predict?**
 
 SIDC's own energetics predict that *stellar/AGN activity dominates* 2D universe creation:
 - Inflation (z>$10^{25}$): $10^{60}$+ J per Hubble volume, but in only ~$10^{180}$ m^3 of space
@@ -2195,7 +2195,7 @@ SIDC's own energetics predict that *stellar/AGN activity dominates* 2D universe 
 - Primordial black hole formation (z~10-100): $10^{40}$ J per event
 - **Stellar CCSN (z<10): $10^{46}$ J per event, ~$10^{60}$ events over cosmic history**
 
-After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contribute <$10^{-20}$ of today's DM density. SIDC's own physics predicts **$F_s$tellar ~ 1** (essentially all of today's DM is from stellar/AGN activity).
+After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contribute <$10^{-20}$ of today's DM density. SIDC's own physics predicts **$F_{\rm stellar}$ ~ 1** (essentially all of today's DM is from stellar/AGN activity).
 
 **SIDC is therefore NOT time-scale-invariant in the strict sense.** SIDC predicts **time-lagged DM**: at z>0, SIDC has LESS DM than ΛCDM. At z=6, SIDC has ~1% of ΛCDM's DM density.
 
@@ -2210,7 +2210,7 @@ After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contri
 
 **Comparison to JWST observations.** The JWST "early galaxy problem" (more bright galaxies at z>10 than ΛCDM predicts, Donnan+ 2024, Harikane+ 2022) is a *stronger* problem for SIDC than for ΛCDM. If SIDC has 1000× less DM at z=10, the bright galaxies JWST sees are even harder to explain in SIDC. This is a *real* tension.
 
-**Honest verdict.** Time-scale invariance in the strict sense FAILS. SIDC is dominated by stellar/AGN activity, $F_s$tellar ~ 1, and predicts time-lagged DM. The Δχ²=+650 CMB penalty is the *quantitative* signature of this time-lag. SIDC is honest about this:
+**Honest verdict.** Time-scale invariance in the strict sense FAILS. SIDC is dominated by stellar/AGN activity, $F_{\rm stellar}$ ~ 1, and predicts time-lagged DM. The Δχ²=+650 CMB penalty is the *quantitative* signature of this time-lag. SIDC is honest about this:
 
 - **[PASS]** *Established*: SIDC is NOT strictly time-scale-invariant; stellar/AGN activity dominates
 - **[PASS]** *Established*: SIDC's DM is time-lagged, with ~1% of ΛCDM's value at z=6

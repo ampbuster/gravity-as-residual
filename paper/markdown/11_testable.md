@@ -107,7 +107,7 @@ The 47 Tuc test is one specific case. SIDC's DM mechanism makes related predicti
 
 2. **Dwarf spheroidal galaxies with no current star formation** (e.g., Tucana, Draco, Sextans): SIDC predicts that *most* of their DM is the *Galactic* halo contribution plus the cumulative 2D universe contribution from their *past* star formation (which was significant in early epochs). The KKR 25 case (1-4 Gyr ago starburst) is the *opposite* extreme.
 
-3. **The Galactic bulge:** should have $M_{dyn}$ / $M_b$ulge_stars ~ 1 (or slightly above due to nuclear star formation history). SIDC predicts that the bulge's "DM" is mostly the *Galactic* halo DM, with some 2D universe contribution from the bulge's past activity.
+3. **The Galactic bulge:** should have $M_{dyn}$ / $M_{\rm bulge,\star}$ ~ 1 (or slightly above due to nuclear star formation history). SIDC predicts that the bulge's "DM" is mostly the *Galactic* halo DM, with some 2D universe contribution from the bulge's past activity.
 
 4. **The Galactic halo's old, metal-poor stars (halo stars):** should not be associated with any local DM enhancement beyond the smooth halo. SIDC's prediction is consistent with the standard picture: halo stars are tracers of the Galactic potential, not DM hosts.
 
