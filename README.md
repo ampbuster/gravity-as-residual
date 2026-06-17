@@ -426,7 +426,7 @@ SIDC's r(z) = $\rho_{\rm DM}^{\rm DC}(z) / \rho_{\rm DM}^{\rm DC}(0)$ at high z 
 | Thomson scattering (CMB photon at z=1100) | $10^{19}$ | $10^{-43}$ | $10^{-145}$ |
 | Type Ia SN | $10^{44}$ | $10^{101}$ | 1.0 |
 
-Even though Thomson has a *much higher rate* $\sim 10^{67}$ events/s/${\rm Mpc}^3$ vs SN's $10^{-12}$/s/${\rm Mpc}^3$), the per-event weight is so small ($10^{-145}$ of SN) that the *net* Thomson contribution is $\sim 10^{-66}$ of SN — *negligible*.
+Even though Thomson has a *much higher rate* $\sim 10^{67}$ events/s/Mpc$^3$ vs SN's $\sim 10^{-12}$ events/s/Mpc$^3$), the per-event weight is so small ($10^{-145}$ of SN) that the *net* Thomson contribution is $\sim 10^{-66}$ of SN — *negligible*.
 
 **The r(z) $\approx$ (1+z)³ match comes from $F_p(z)$, NOT from Thomson.** With the v2.7.4 §4.48.1 smooth $F_p(z)$ (Hill n=2, $z_{\rm half}$=3), the primordial component $F_p(z)$ $\to$ 1.0 at high z, meaning the *primordial* 2D universe contribution dominates. The Thomson + stellar contributions are at most 30% of total DM at any z ( $F_s$ $\leq$ 0.3), and Thomson is a small fraction of $F_s$.
 
@@ -708,7 +708,7 @@ at z $\sim 10--12$.
 **strongest observational evidence**. They have:
 - Very high past SF: $10^{9}–10^{10}\,M_\odot$ in $\sim 200$ Myr at $z \sim 10--12$
 - Many SN events: $10^{6}–10^{7}$ CCSN per galaxy
-- Total SN energy $\sim 10^{55}$--$10^{56}$ J per galaxy
+- Total SN energy $\sim 10^{55}–10^{56}$ J per galaxy
 - SIDC prediction: $M_{dyn}/M_b$ should be VERY HIGH (consistent
   with SIDC's SFH-DM correlation)
 
