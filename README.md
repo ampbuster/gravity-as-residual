@@ -875,19 +875,27 @@ number reference. Use this to find broken math/LaTeX in supporting docs.
 
 ---
 
+# 📌 PROJECT MEMORY
+
+For a quick-reference summary of SIDC's current state, the 3 ε's, the
+f_back/γ closed loop, the Lagrangian skeleton, build infrastructure,
+conventions, and open work items, see **[`persistent_memory.md`](persistent_memory.md)**
+in the repo root. This is the "what to remember across sessions" file.
+
+For full version history, see **[`changelog.md`](changelog.md)** below.
+
+---
+
 # CHANGELOG
 
 **For the full version history, see [`changelog.md`](changelog.md) in the repo root.**
 
-**Most recent changes (v2.7.3):**
-- 45 external constraints catalogued (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 5 late 2025-2026, 5 extended 2025-2026, 5 round 8, 1 new SIDC prediction)
-- 4 → 2 free parameters via web-research convergence on 2D CFT
-- c=1 string theory matrix model identified as exact framework
-- 1 NEW SIDC PREDICTION: 2D universe birth stochastic GW background, testable with SKA-MPG in 2030s
-- **§10 SPECULATIVE EXTENSION added (June 2026):** End-of-Universe Signatures from energy-scaling ladder
-  - Energy-scaling rule α =1.29 forced by SN 33s)
-  - $M_{\rm Pl,4D}$ ≥ 887 GeV floor (electroweak scale, ADD model)
-  - 3D universe at end of life (if $M_{\rm Pl,4D}$ ~ ${\rm TeV}$)
+**Most recent changes (v3.0.2 / v3.0.21, June 17, 2026):**
+- **Build infrastructure refactored (v3.0.21)**: post-processors in `paper/build_tools/`, scratch in `paper/.build/`, no `/tmp/` dependency. Added `--dry-run` mode for fast LaTeX checking.
+- **Lagrangian skeleton (§3.62)**: L = L_c=1 + L_N=12 + L_Schwarzian. α = 1.289 = 1 + 1/√12.
+- **Democratic cosmology (§3.17)**: 14 event types = 1 species at 14 different γ values. All have proper lifetime t_Pl.
+- **Closed loop closes for f_back (Lagrangian v10)**: f_back = (E_4D/E)^(1/(2α)) from same α as time dilation. 1/(2α) = c/α = (1/2)/1.289.
+- **45 honest limitations** (37 → 45 across v3.0.2), 45 external constraints catalogued.
   - LISA detection prospects: SIDC's SN death GW is **6-14 orders below LISA noise**; SIDC's BNS/AGN death GW is detectable by PTAs in 2030s
   - Testable window 2026-2034 (DESI DR3 → LISA launch)
 - **§11 TESTABLE PREDICTIONS added (June 2026):** Near-term testable predictions for current/upcoming surveys
