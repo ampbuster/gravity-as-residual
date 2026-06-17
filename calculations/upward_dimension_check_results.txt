@@ -1,0 +1,141 @@
+========================================================================
+UPWARD DIMENSION CHECK: scaling law + closed loop at every level
+========================================================================
+
+========================================================================
+PART 1: SIDC HIERARCHY (cone-shaped, 4 levels)
+========================================================================
+
+SIDC hierarchy:
+  Level 5: 5D event → 4D universe (hypothetical, beyond our universe)
+  Level 4: 4D event → 3+1D universe (us) — SPECULATIVE extrapolation
+  Level 3: 3D event → 2D universe — CALIBRATED at SN 33s
+  Level 2: 2D universe is TERMINAL (cone-shape stops)
+
+========================================================================
+PART 2: SCALING LAW at each level
+========================================================================
+
+At level D-1, the scaling law says:
+  τ_{D-1, D-view} = 33 s × (E_D / 10^44 J)^α
+  where E_D is the parent level's event energy
+
+Level 4 (4D → 3D, our universe):
+  E_4D = 1.00e+69 J
+  Predicted τ_3D (4D-view) = 5.540e+33 s = 1.755e+26 yr
+  Paper says 2 × 10^26 yr = 6.312e+33 s
+  Ratio: 0.878
+
+Level 5 (5D → 4D, hypothetical):
+  For τ_4D = 1e+10 yr: E_5D = 2.499e+56 J
+  For τ_4D = 1e+20 yr: E_5D = 1.431e+64 J
+  For τ_4D = 1e+30 yr: E_5D = 8.196e+71 J
+  For τ_4D = 1e+40 yr: E_5D = 4.694e+79 J
+  For τ_4D = 1e+50 yr: E_5D = 2.688e+87 J
+
+========================================================================
+PART 3: CLOSED LOOP at each level
+========================================================================
+
+Closed loop formula at each level:
+  Level 3 (3D → 2D):
+    Forward γ_3 = (E_3D/E_Pl,3)^α
+    Backward f_back_3 = (E_4D/E_3D)^(1/(2α)) × prefactors_3
+    Closed: γ_3 × f_back_3 = constant
+
+  Level 4 (4D → 3D):
+    Forward γ_4 = (E_4D/E_Pl,4)^α
+    Backward f_back_4 = (E_5D/E_4D)^(1/(2α)) × prefactors_4
+    Need E_5D to evaluate f_back_4
+
+========================================================================
+PART 4: WHAT WE CAN VERIFY UPWARD
+========================================================================
+
+Level 4 scaling prediction (using α = 1.289):
+  τ_3D = 5.540e+33 s = 1.755e+26 yr
+  Paper: 2 × 10^26 yr = 6.312e+33 s
+  Ratio: 0.878
+  WITHIN FACTOR 1.6 → scaling law works at level 4 ✓
+
+Sensitivity: if α changes by ±1% at level 4:
+  α = 1.239: τ_3D = 9.871e+24 yr, ratio = 0.049
+  α = 1.269: τ_3D = 5.551e+25 yr, ratio = 0.278
+  α = 1.279: τ_3D = 9.871e+25 yr, ratio = 0.494
+  α = 1.289: τ_3D = 1.755e+26 yr, ratio = 0.878
+  α = 1.299: τ_3D = 3.122e+26 yr, ratio = 1.561
+  α = 1.309: τ_3D = 5.551e+26 yr, ratio = 2.776
+  α = 1.339: τ_3D = 3.122e+27 yr, ratio = 15.608
+
+========================================================================
+PART 5: CLOSED LOOP at level 4 (with hypothetical E_5D)
+========================================================================
+
+At level 3 (calibrated): f_back = 3.224e-84 ≈ 10^-85 ✓
+
+Hypothetical level 5: τ_5D = 9.301e+65 s = 2.947e+58 yr
+
+At level 4 (with E_5D = 10^94 J, hypothetical):
+  f_back_4 = 3.636e-116
+
+Comparison:
+  f_back at level 3: 3.224e-84
+  f_back at level 4 (hypothetical): 3.636e-116
+  Ratio: 1.128e-32
+
+========================================================================
+PART 6: KEY QUESTION — IS α UNIVERSAL?
+========================================================================
+
+For the scaling law + closed loop to work at EVERY upward level,
+we need α = 1.289 to be UNIVERSAL across levels.
+
+Evidence for α being universal:
+1. N = 12 SYK is the SAME at every level (the 12 SM Weyl fermions are fixed)
+2. The composite exponent 1/(2α) = c/α = (1/2)/1.289 = 0.388 depends on c = N/24
+   which is universal
+3. The scaling law at level 4 (4D → 3D) matches the paper within 12% using α = 1.289
+
+Evidence against α being universal:
+1. We don't have direct tests of α at levels above our own
+2. The 4D → 3D level is "speculative extrapolation" (not calibrated)
+3. If α depends on the brane-tension (which may differ at each level),
+   then α could vary
+
+VERDICT:
+- At level 3 (3D → 2D), α = 1.289 is CALIBRATED.
+- At level 4 (4D → 3D), α = 1.289 is PLAUSIBLE (consistent within 12%).
+- At level 5 (5D → 4D), we CANNOT TEST (no data).
+
+For the framework to be fully upward-extendable, we need α to be universal.
+This is a CLAIM in SIDC, supported by structural arguments (N = 12 is fixed),
+but not directly verified at higher levels.
+
+
+========================================================================
+PART 7: SUMMARY
+========================================================================
+
+SCALING LAW at every upward level:
+- Level 3 (3D → 2D): CALIBRATED at SN 33s. Works for 8/8 events within 1.6x.
+- Level 4 (4D → 3D): EXTRAPOLATED using α = 1.289. Matches paper within 12%.
+- Level 5 (5D → 4D): UNKNOWN (no data).
+
+CLOSED LOOP at every upward level:
+- Level 3 (3D → 2D): VERIFIED. f_back ≈ 10^-85.
+- Level 4 (4D → 3D): SPECULATIVE (depends on E_5D, which we don't know).
+- Level 5 (5D → 4D): CANNOT EVALUATE.
+
+REQUIREMENTS for upward extension:
+1. α = 1.289 must be universal (supported by N = 12 being fixed)
+2. Closed loop prefactors must work at each level (need consistent t_Pl, τ_D)
+3. The "33 s" calibration at each level must be consistent
+
+CONCLUSION:
+The scaling law WORKS at level 3 (calibrated) and is PLAUSIBLE at level 4.
+The closed loop WORKS at level 3 but REQUIRES HYPOTHETICAL INPUT at level 4+
+(E_5D, t_Pl,4, etc.).
+
+SIDC's upward extendability is a CLAIM, supported by structural arguments,
+but not directly verified above our own hierarchy level.
+
