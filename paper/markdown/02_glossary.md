@@ -47,7 +47,7 @@
 
 | Quantity | Value | Derivation |
 |----------|-------|------------|
-| $M_{\rm Pl,4}$ floor | $\geq 887$ GeV | From $T_{3D}'$ \geq 13.8$ Gyr + SIDC's $T_{3D} = 2 \times 10^{26}$ yr |
+| $M_{\rm Pl,4}$ floor | $\geq 887$ GeV | From $T_{3D}' \geq 13.8$ Gyr + SIDC's $T_{3D} = 2 \times 10^{26}$ yr |
 | $f_{primordial}$ (efficiency) | $\sim 10^{-49}$ | From $\rho_{DM,primordial} / \rho_{4D}$ (data + SIDC framework) |
 | $H_{0,4D}$ (geometric mean) | $70.16$ km/s/Mpc | From $\sqrt{H_{CMB} \times H_{local}}$ |
 | $\tau_{4D}$ (4D event duration) | $\sim 10^{28}$ yr | From Padmanabhan equipartition (§3.8.2) |
