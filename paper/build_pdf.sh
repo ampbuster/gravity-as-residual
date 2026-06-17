@@ -637,13 +637,26 @@
 # in $...$), so it renders as a normal minus. To make SIDC's math
 # render correctly:
 # 
-# FIX #1: Use plain text instead of $...$ math:
-#   b² = −1        (renders as proper minus)
-#   log g_bar ~ −12     (renders as proper minus)
+# FIX #1 (PREFERRED for single-line expressions): Use plain text
+# with hyphen-minus (or with .0 for integers to match decimal style).
+#   b² = -1.0      (renders as proper minus, matches -0.84 style)
+#   log g_bar ~ -12.0   (renders as proper minus, matches -0.84 style)
+#   w₀ = -0.84      (plain text, no $ delimiters)
 # 
-# FIX #2: Use Unicode minus (U+2212 '−') instead of hyphen-minus:
+# The reason: GitHub's KaTeX rendering intentionally shows math minus
+# as en-dash (per official docs). Plain text bypasses this and renders
+# as a normal minus sign.
+# 
+# Use this for SHORT expressions (a single line of math/equation).
+# Example: "b² = -1.0" or "log g_bar ~ -12.0"
+# 
+# FIX #2: Use Unicode minus (U+2212 '−') inside $...$ math:
 #   $b^2 = −1$     (renders as proper minus)
 #   $\sim −12$   (renders as proper minus)
+# 
+# Use this for LONGER expressions that need to be in math mode for
+# other reasons (subscripts, superscripts, fractions, etc.)
+# Example: "$g_\\rm bar = 10^{-12}$ m/s²" (MUST be in math)
 # 
 # Both fixes produce proper minus on github mobile AND desktop.
 # This was found in README line 102, 105, 109, 925.
