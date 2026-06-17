@@ -317,7 +317,7 @@ SIDC's $V_{local}$ formula and MOND's external field effect are the **same physi
 
 **Direct test of $V_{\rm local}$ predictions on Tian+ 2024 data (v2.3.0, commit 170).** Per SIDC's 4 testable predictions, I performed a direct correlation analysis on the Tian+ 2024 BCGs (50 BCGs, computed per-galaxy g₊ from the deep MOND limit $g_+ \approx g_{obs}^2 / g_{bar}$). Key results:
 
-- **$g_+ \propto $M_{b}$$ (MOND-like):** observed slope = 0.23, expected ~0.5-0.6. **NO** — g₊ depends on DYNAMICAL mass, not baryonic
+- **$g_+ \propto $M_{b}$ (MOND-like):** observed slope = 0.23, expected ~0.5-0.6. **NO** — g₊ depends on DYNAMICAL mass, not baryonic
 - **$g_+ \propto \sigma$ (MOND EFE):** observed slope = 1.85, expected ~2. **YES (almost exact!)**
 - **g₊ vs $z$ (no cosmic evolution):** r = 0.089, expected ~0. **YES**
 - **g₊ vs $R_{eff}$ (BCG size):** slope = 0.23, expected weakly negative. NO (mild positive)
@@ -341,7 +341,7 @@ This subsection is a *direct invitation* to mathematical physicists working in b
 
 To fully mature this framework, the scale-invariant dimensional SIDC requires an explicit mapping to a modified stress-energy tensor:
 
-$$T_{\mu\nu}^{total} = T_{\mu\nu}^{standard} + T_{\mu\nu}^{SIDC}$$
+$$T_{\mu\nu}^{total} = T_{\mu\nu}^{standard} + T_{\mu\nu}^{SIDC}$
 
 The open theoretical challenge is to define a **scalar field** $\phi$ or an **auxiliary metric tensor** on a bounded 2D sub-manifold such that local energy-momentum conservation ($\nabla_\mu T^{\mu\nu} = 0$) is preserved on the 3+1D brane via a time-dilated boundary junction during the lifetime $\tau_{2D} = L_{event}/c$.
 

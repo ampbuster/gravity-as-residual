@@ -236,7 +236,7 @@ SIDC's most distinctive claim is the **inversion**: 4D event gravity is attracti
 
 The Israel junction conditions for a thin brane in a 5D bulk are:
 
-$$\Delta K_{\mu\nu} - \Delta K   g_{\mu\nu} = -\kappa_5   T_{\mu\nu}$$
+$$\Delta K_{\mu\nu} - \Delta K   g_{\mu\nu} = -\kappa_5   T_{\mu\nu}$
 
 where $K_{\mu\nu}$ is the extrinsic curvature and $T_{\mu\nu}$ is the brane stress-energy (with $T$ being the brane tension). For a brane with **negative tension** $T_{4D} < 0$:
 
@@ -252,7 +252,7 @@ where $K_{\mu\nu}$ is the extrinsic curvature and $T_{\mu\nu}$ is the brane stre
 
 The DGP model is a 5D Minkowski bulk with a 4D brane, gravity localized by a brane-bulk kinetic mixing term. The 4D effective Friedmann equation on the brane is:
 
-$$H^2 - \epsilon \frac{H}{r_c} = \frac{8\pi G}{3} \rho + \frac{\Lambda_4}{3}$$
+$$H^2 - \epsilon \frac{H}{r_c} = \frac{8\pi G}{3} \rho + \frac{\Lambda_4}{3}$
 
 where $r_c = $G_5$ / G_4$ is the crossover scale. For the **self-accelerating branch** ($\epsilon = -1$, the *negative* sign):
 
@@ -442,9 +442,9 @@ For a typical Milky-Way-like galaxy:
 Over a Hubble time ($T = 13.8$ Gyr):
 - Cumulative SNe in MW: $\sim 8.7 \times 10^{15}$ events
 - Each SN releases $\sim 10^{44}$ J of kinetic energy $\sim 5.6 \times 10^{-7} M_\odot c^2$
-- Total SN energy in MW: $\sim 5 \times $$10^{9}$$ M_\odot c^2$ (i.e., $\sim 8\%$ of MW baryons)
+- Total SN energy in MW: $\sim 5 \times $10^{9}$ M_\odot c^2$ (i.e., $\sim 8\%$ of MW baryons)
 
-The math: $(5 \times $$10^{9}$$ M_\odot) \times A = 3.2 \times 10^{11} M_\odot$, so $A = 64\times$.
+The math: $(5 \times $10^{9}$ M_\odot) \times A = 3.2 \times 10^{11} M_\odot$, so $A = 64\times$.
 
 **The 2D universe's 3+1D-frame mass at death must be $\sim 64\times$ the SN's baryonic energy.** This is the per-event amplification factor SIDC requires.
 
@@ -452,10 +452,10 @@ The math: $(5 \times $$10^{9}$$ M_\odot) \times A = 3.2 \times 10^{11} M_\odot$,
 
 SIDC's current mechanism: the 2D universe has an *intrinsic* 2D-frame mass $M_{2D,2D} \sim 6 M_\odot$ (stellar scale, set by 2D physics), and the time compression factor $e^{-ky}$ converts this to a 3+1D-frame mass at death:
 
-$$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$$
+$$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$
 
 To get the required $3.7 \times 10^{-5} M_\odot$ per universe:
-$$e^{-ky} = 3.7 \times $10^{-5}$ / 6 = 6.2 \times $10^{-6}$$$
+$$e^{-ky} = 3.7 \times $10^{-5}$ / 6 = 6.2 \times $10^{-6}$$
 
 **Discrepancy with SIDC's stated value:** SIDC has previously stated $e^{-ky} \sim 10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is $6.2 \times 10^{-6}$, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
 
@@ -470,7 +470,7 @@ Over 13.8 Gyr, the cumulative number of energetic events in a galaxy is large:
 - BNS mergers: $\sim 10^6$ in MW
 - AGN outbursts: $\sim 10^7$ in MW
 
-Total cumulative event energy in MW: $\sim 5 \times $$10^{9}$$ M_\odot c^2 \sim 8\%$ of MW baryons.
+Total cumulative event energy in MW: $\sim 5 \times $10^{9}$ M_\odot c^2 \sim 8\%$ of MW baryons.
 
 **Time accumulation provides $0.08\times$** (cumulative events are 8% of stable baryons), but we need $5.4\times$. Time accumulation is *necessary* (without it, the math doesn't work), but it is *not sufficient* (it provides only 12% of the required amplification in log space).
 
@@ -500,7 +500,7 @@ A more interesting possibility: **the 2D universe's intrinsic 2D-frame mass ($\s
 *Possibility:* at the moment of 2D universe birth, the dimensional projection mechanism taps the bulk vacuum energy (DE) to provide the 2D universe's intrinsic mass.
 
 Math:
-$$M_{2D,intrinsic} = M_{2D,baryonic} + f_{DE} \times \rho_{DE} \times V_{birth}$$
+$$M_{2D,intrinsic} = M_{2D,baryonic} + f_{DE} \times \rho_{DE} \times V_{birth}$
 
 where $V_{birth}$ is the 2D universe's birth volume (in 2D frame). To get $M_{2D,intrinsic} = 6 M_\odot$:
 
@@ -673,7 +673,7 @@ This is a STABLE EQUILIBRIUM model that combines:
 
 SIDC's DM obeys a simple differential equation:
 
-$$\frac{d\Omega_{DM}}{dt} = R_{add} - \Gamma \times \Omega_{DM}$$
+$$\frac{d\Omega_{DM}}{dt} = R_{add} - \Gamma \times \Omega_{DM}$
 
 where:
 - $R_{add}$ = cumulative DM addition rate from 2D universe deaths
@@ -681,7 +681,7 @@ where:
 
 At equilibrium, $d\Omega_{DM}/dt = 0$:
 
-$$\Omega_{DM}^{eq} = \frac{R_{add}}{\Gamma}$$
+$$\Omega_{DM}^{eq} = \frac{R_{add}}{\Gamma}$
 
 For the observed 27% DM:
 - $R_{add} = 0.27 / 13.8  Gyr \sim 6 \times 10^{-19} /s$
@@ -981,7 +981,7 @@ Several 2024 papers study Pauli blocking as a DM stability mechanism:
 
 SIDC's §3.13 mechanism required $m_s \sim 1$ GeV (from the equilibrium decay rate calculation). This is **$10^5$ t\times heavier** than the Batell-Yin bound:
 
-$$\frac{$m_s$^{SIDC}}{m_{DM}^{Batell-Yin}} = \frac{1  GeV}{10  meV} = $10^{5}$$$
+$$\frac{$m_s$^{SIDC}}{m_{DM}^{Batell-Yin}} = \frac{1  GeV}{10  meV} = $10^{5}$$
 
 SIDC's sterile neutrino is **way too heavy** for Pauli blocking to work.
 
@@ -1170,7 +1170,7 @@ Yes — the paper has this in §10.2 (the relativistic particle analogy), but th
 **3.17.1 The hypothesis.**
 
 SIDC's energy-scaling rule is:
-$$\tau_{2D}^{3+1D} = (\frac{E}{E_{Pl}})^{1.29} \times t_{Pl}$$
+$$\tau_{2D}^{3+1D} = (\frac{E}{E_{Pl}})^{1.29} \times t_{Pl}$
 
 This gives a 3+1D-frame lifetime that varies by 54 orders of magnitude across event energies (LHC to AGN).
 
@@ -1178,30 +1178,30 @@ This gives a 3+1D-frame lifetime that varies by 54 orders of magnitude across ev
 $$\tau_{2D}^{proper} = t_{Pl} = 5.39 \times $10^{-44}$  s$$
 
 The 3+1D-frame lifetime is then:
-$$\tau_{2D}^{3+1D} = \gamma_{2D} \times \tau_{2D}^{proper}$$
+$$\tau_{2D}^{3+1D} = \gamma_{2D} \times \tau_{2D}^{proper}$
 
 where $\gamma_{2D}$ is the time-dilation factor for the 2D universe.
 
 **3.17.2 Derivation of α = 1.29 from time dilation.**
 
 Combining the two equations:
-$$\gamma_{2D} = \frac{\tau_{2D}^{3+1D}}{\tau_{2D}^{proper}} = (\frac{E}{E_{Pl}})^{1.29} \times \frac{t_{Pl}}{\tau_{2D}^{proper}}$$
+$$\gamma_{2D} = \frac{\tau_{2D}^{3+1D}}{\tau_{2D}^{proper}} = (\frac{E}{E_{Pl}})^{1.29} \times \frac{t_{Pl}}{\tau_{2D}^{proper}}$
 
 If $\tau_{2D}^{proper} = t_{Pl}$, then:
-$$\boxed{\gamma_{2D} = (\frac{E}{E_{Pl}})^{1.29}}$$
+$$\boxed{\gamma_{2D} = (\frac{E}{E_{Pl}})^{1.29}}$
 
 The time-dilation factor scales with event energy as $E^{1.29}$. This is a **derivation** of the energy-scaling rule from the time-dilation framework, not a separate empirical fit.
 
 **3.17.3 Mass scaling: $M_{2D}$_2D ∝ $E^{0.71}$.**
 
 In special relativity, $\gamma = E_{rel} / (m_0 c^2)$. If the 2D universe's "relativistic energy" $\sim E$ and "rest mass" $\sim M_{2D,2D}$:
-$$\gamma_{2D} = \frac{E}{M_{2D,2D} c^2}$$
+$$\gamma_{2D} = \frac{E}{M_{2D,2D} c^2}$
 
 Solving:
-$$M_{2D,2D} c^2 = \frac{E}{\gamma_{2D}} = \frac{E}{(E/E_{Pl})^{1.29}} = E_{Pl} \times (\frac{E}{E_{Pl}})^{0.71}$$
+$$M_{2D,2D} c^2 = \frac{E}{\gamma_{2D}} = \frac{E}{(E/E_{Pl})^{1.29}} = E_{Pl} \times (\frac{E}{E_{Pl}})^{0.71}$
 
 So the 2D universe's rest mass scales **sub-linearly** with event energy:
-$$M_{2D,2D} c^2 \propto E^{0.71}$$
+$$M_{2D,2D} c^2 \propto E^{0.71}$
 
 Interpretation:
 - Smaller 2D universe (low E): less rest mass per unit energy, **more** time dilation
@@ -1244,7 +1244,7 @@ This means α = 1.29 is **derivable** from the projection geometry, not a free p
 **3.17.7 Connection to Liouville 2D CFT central charge.**
 
 If the 2D universe is described by a Liouville 2D CFT, the natural time scale is set by the central charge $c_{2D}$:
-$$\tau_{2D}^{proper} = c_{2D} \times t_{Pl}$$
+$$\tau_{2D}^{proper} = c_{2D} \times t_{Pl}$
 
 For the proper lifetime to be constant across all 2D universes, we would need $c_{2D}$ to be **constant** (i.e., all 2D universes have the same central charge, regardless of size). This is consistent with the Liouville 2D CFT's conformal invariance: a 2D CFT's central charge is a property of the *theory*, not the *state*.
 
@@ -1583,7 +1583,7 @@ Each level of SIDC has the same structure:
 **3.21.2 Generalized Planck units in N dimensions.**
 
 In D dimensions, the Planck time scales as:
-$$t_{Pl,D} = t_{Pl,3} \times (\frac{M_{Pl,3}}{M_{Pl,D}})^{D-4}$$
+$$t_{Pl,D} = t_{Pl,3} \times (\frac{M_{Pl,3}}{M_{Pl,D}})^{D-4}$
 
 If $M_{\rm Pl}$,D = 887 GeV (SIDC's floor) for all D ≥ 4:
 - $t_{\rm Pl}$,4 = $t_{\rm Pl}$,3 = 5.39×$10^{-44}$ s
@@ -1755,7 +1755,7 @@ The democratic cosmology (§3.17-§3.18) gives specific testable predictions. Th
 
 The democratic cosmology says all 2D universes have the same proper lifetime ($t_{\rm Pl}$,3). The 3+1D-frame lifetime is $\tau_{2D}$_3+1D = $\gamma_{2D}$ × $t_{\rm Pl}$,3 = (E/$E_{\rm Pl}$,3)^1.29 × $t_{\rm Pl}$,3. The death rate in 3+1D frame is:
 
-$$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D}^{3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3}})^{-1.29} \times \frac{1}{t_{Pl,3}}$$
+$$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D}^{3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3}})^{-1.29} \times \frac{1}{t_{Pl,3}}$
 
 **Counter-intuitive:** smaller events (low E) have HIGHER 2D universe death rates in 3+1D frame, because their time dilation $\gamma_{2D}$ is smaller (so they "tick" faster in 3+1D view).
 
@@ -1771,7 +1771,7 @@ $$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \fra
 
 Each 2D universe death produces a brief GW burst. The stochastic background:
 
-$$\Omega_{GW}(f) \propto \int dE   R(E) \times \frac{1}{\gamma_{2D}} \times E_{death GW}$$
+$$\Omega_{GW}(f) \propto \int dE   R(E) \times \frac{1}{\gamma_{2D}} \times E_{death GW}$
 
 The democratic cosmology predicts a SPECIFIC spectral shape: weighted toward smaller events (low E) because of the 1/$\gamma_{2D}$ factor.
 
@@ -1887,12 +1887,12 @@ back-reaction or any related 2D dilaton gravity framework**.
 The CGHS (Callan-Giddings-Harvey-Strominger 1992) 2D black hole has a
 Hawking temperature:
 
-$$T_H \sim (\frac{M_{BH}}{\lambd$a_0$})^{1/2}$$
+$$T_H \sim (\frac{M_{BH}}{\lambd$a_0$})^{1/2}$
 
 which is SQUARE ROOT, not linear. The 2D-frame lifetime of the black
 hole is:
 
-$$\tau_{BH}^{2D} \sim 4M_{BH}$$
+$$\tau_{BH}^{2D} \sim 4M_{BH}$
 
 This is **LINEAR** in $M_{\rm BH}$ (in 2D Planck units), giving p = 1.0.
 This is the Frolov-Zelnikov / Strominger-Thorlacius result.
@@ -1982,7 +1982,7 @@ intermediate isolated quenched dwarfs.
 
 SIDC uses a smooth Hill function:
 
-$$F(z) = \frac{1}{1 + (z/z_{half})^{-n}}$$
+$$F(z) = \frac{1}{1 + (z/z_{half})^{-n}}$
 
 with $z_{\rm half}$ = 3, n = 2. This is a CONTINUOUS function, not a step.
 For low-z dwarfs (z = 0-0.1), F(z) ≈ 1. For moderate-z dwarfs
