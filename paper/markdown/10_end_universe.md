@@ -10,7 +10,7 @@ SIDC's most distinctive new quantitative claim is the *energy-scaling rule* for 
 
 $$T_{D-1}\big|_{in D-view} \;=\; 33 s \times (\frac{E_D}{10^{44}\,\text{J}})^{\alpha}, \qquad \alpha \approx 1.29$$
 
-calibrated to a Type Ia supernova (E $\approx$ $10^{44}$ J) creating a 2D universe that lives 33 s in 3+1D view. The same rule extrapolates to:
+calibrated to a Type Ia supernova (E ≈ $10^{44}$ J) creating a 2D universe that lives 33 s in 3+1D view. The same rule extrapolates to:
 
 | D-event | Energy (J) | (D−1)-universe lifespan in D-view |
 |---|---|---|
@@ -38,7 +38,7 @@ This is a **unification**: 2D universes from supernovae and our 3D universe are 
 
 ### 10.3 The 4D Planck mass has a floor: M_{Pl,4} ≥ 887 GeV
 
-For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D $\times$ (t_{Pl,3} / t_{Pl,4}) and the energy-scaling result T₃D = $2 \times 10^{26}$ yr:
+For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × (t_{Pl,3} / t_{Pl,4}) and the energy-scaling result T₃D = $2 \times 10^{26}$ yr:
 
 $$\frac{t_{Pl,3}}{t_{Pl,4}} \geq \frac{13.8 Gyr}{2\times$10^{26}$ yr} = 7\times$10^{-17}$$
 
@@ -110,7 +110,7 @@ Despite these caveats, the prediction is **concrete, testable, and falsifiable**
 
 ### 10.9 Sensitivity analysis: how robust is the rule?
 
-A trial-and-error exploration reveals a striking sensitivity: SIDC's energy-scaling rule, with α $\approx$ 1.29 forced by the SN calibration, gives a 4D cosmological lifespan of $1.9 \times 10^{26}$ yr. But a 1% change in α gives a **60% change** in the predicted T_3D. The sensitivity table:
+A trial-and-error exploration reveals a striking sensitivity: SIDC's energy-scaling rule, with α ≈ 1.29 forced by the SN calibration, gives a 4D cosmological lifespan of $1.9 \times 10^{26}$ yr. But a 1% change in α gives a **60% change** in the predicted T_3D. The sensitivity table:
 
 | α | 4D cosm. lifespan (yr) | 3D's current age / total |
 |---|---|---|
@@ -126,10 +126,10 @@ The α = 1.29 prediction is the *single point* in this range. The rule is *very*
 
 | α | T_SN prediction (vs 33s actual) | 4D cosm. lifespan |
 |---|---|---|
-| 1.0 (linear) | 17 min ($\times$ 31 off) | $10^{19}$ yr |
-| 4/3 (Bondi) | 42 min ($\times$ 76 off) | $2 \times 10^{27}$ yr |
-| 3/2 (random walk) | 20 yr ($\times$ $1.9 \times 10^{7}$ off) | $3 \times 10^{31}$ yr |
-| 2.0 (quadratic) | $4.5 \times 10^{9}$ Gyr ($\times$ $10^{16}$ off) | $3 \times 10^{44}$ yr |
+| 1.0 (linear) | 17 min (× 31 off) | $10^{19}$ yr |
+| 4/3 (Bondi) | 42 min (× 76 off) | $2 \times 10^{27}$ yr |
+| 3/2 (random walk) | 20 yr (× $1.9 \times 10^{7}$ off) | $3 \times 10^{31}$ yr |
+| 2.0 (quadratic) | $4.5 \times 10^{9}$ Gyr (× $10^{16}$ off) | $3 \times 10^{44}$ yr |
 
 Only α = 1.29 fits the SN data. But SIDC has **only ONE calibration point** (the 33s for SN), so the rule is *forced* and not *natural*. Alternative functional forms (logarithmic, two-component, exponential, etc.) don't fit the SN data either.
 
@@ -151,7 +151,7 @@ SIDC's energy-scaling rule predicts a *specific* 2D universe *death* time for ea
 
 **The LISA mission (planned 2030s) operates in the $10^{-4}$ - 1 Hz band**, which covers the hypernova, long GRB, and SN 2D-universe death frequencies. SIDC predicts a *stochastic background* of these bursts from past energetic events, with characteristic frequencies set by the most common event types (SNe, hypernovae, GRBs).
 
-SIDC's "death" prediction is at *lower* frequencies than the "birth" prediction (which is at higher frequencies, $\sim 10^{2}$--$10^{5}$ Hz). Detecting *both* the birth and death backgrounds, at *different* frequencies, would be strong evidence for SIDC's mechanism.
+SIDC's "death" prediction is at *lower* frequencies than the "birth" prediction (which is at higher frequencies, ~ $10^{2}$--$10^{5}$ Hz). Detecting *both* the birth and death backgrounds, at *different* frequencies, would be strong evidence for SIDC's mechanism.
 
 The 2D universe death prediction is *qualitatively* robust to the choice of α: more energetic events still create longer-lived 2D universes, so the death frequency is always lower for more energetic events. The *quantitative* frequency depends on α, but the qualitative pattern is stable.
 
@@ -183,7 +183,7 @@ After the trial-and-error and sensitivity analysis, SIDC's claims should be re-f
 - SIDC's 2D universe death prediction is qualitatively robust (lower freq for more energetic events)
 
 **What SIDC CANNOT claim (quantitative, fragile):**
-- The exact value of α $\approx$ 1.29 (forced by one data point, not natural)
+- The exact value of α ≈ 1.29 (forced by one data point, not natural)
 - The exact 4D cosmological lifespan ($10^{19}$ to $10^{44}$ yr depending on α)
 - The M_{Pl,4} ≥ 887 GeV floor (specific to α = 1.29)
 - The "end-of-universe in 1-10 Gyr" timeline (depends sensitively on $M_{\rm Pl,4D}$)
@@ -226,7 +226,7 @@ The 2D universe's lifetime $T_{2D}$ should be derivable from this Lagrangian. Ca
 
 2. **2D universe burnout time:** t_burnout ~ 1/√μ (set by 2D Hubble rate). For $T_{2D} = 33$ s: μ = $6 \times 10^{-18}$ eV. **Inconsistent with the Planck-scale anchor by 12 orders of magnitude.**
 
-3. **2D universe expansion time:** t_exp ~ $\ell_{\rm Pl}$,2 / c. For $T_{2D} = 33$ s, the final size is c $\times$ 33 s = $10^{10}$ m. Natural, but doesn't give μ directly.
+3. **2D universe expansion time:** t_exp ~ $\ell_{\rm Pl}$,2 / c. For $T_{2D} = 33$ s, the final size is c × 33 s = $10^{10}$ m. Natural, but doesn't give μ directly.
 
 4. **2D universe "effective mass" m_{3+1D}:** From DM abundance (27% of ρ_crit), each 2D universe has m_{2D} ~ $10^{-40}$ GeV/c². This is a "natural" mass scale, but not a *lifetime* anchor.
 
@@ -273,7 +273,7 @@ For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2
 
 **KEY FINDING (v2.7.3+):** SIDC's 2D-universe death GW background at 0.03 Hz is **FAR BELOW LISA's noise floor**, even with $\epsilon_{\rm GW}$ = 1 (100% of E_per_death radiated as GW). LISA's best sensitivity is $\Omega_{\rm GW}$ ~ $10^{-12}$ at ~3 mHz, while SIDC predicts $\Omega_{\rm GW}$ ~ $10^{-17}$ for SN deaths with $\epsilon_{\rm GW}$ = 1. SIDC's death GW is **NOT DETECTABLE BY LISA** for any reasonable $\epsilon_{\rm GW}$.
 
-**Caveat:** This analysis uses the *narrowband* assumption (delta-function bursts at f_obs = 1/$\tau_{2D}$). For the *flat_lnf* model (energy spread uniformly in log-frequency), $\Omega_{\rm GW}$ is ~10$\times$ higher per dex, but still far below LISA's noise.
+**Caveat:** This analysis uses the *narrowband* assumption (delta-function bursts at f_obs = 1/$\tau_{2D}$). For the *flat_lnf* model (energy spread uniformly in log-frequency), $\Omega_{\rm GW}$ is ~10× higher per dex, but still far below LISA's noise.
 
 **For higher-energy events (BNS, AGN), the predicted $\Omega_{\rm GW}$ is *larger*, but the death frequency is *lower* (below LISA's $10^{-4}$ Hz band):**
 
@@ -316,7 +316,7 @@ After the trial-and-error, sensitivity analysis, 2D CFT investigation, and death
 - The $M_{\rm Pl,4D}$ ≥ 887 GeV floor (α = 1.29 specific) is consistent with the ADD model
 
 **Fragile claims:**
-- The exact value of α $\approx$ 1.29 (forced by one data point)
+- The exact value of α ≈ 1.29 (forced by one data point)
 - The exact 4D cosmological lifespan ($1.9 \times 10^{26}$ yr for α = 1.29)
 - The $M_{\rm Pl,4D}$ ≥ 887 GeV floor (specific to α = 1.29)
 - The "end-of-universe in 1-10 Gyr" timeline (specific to $M_{\rm Pl,4D}$ ~ TeV)
@@ -396,7 +396,7 @@ SIDC's §10 is a *speculative extension* with clear, testable, falsifiable predi
 
 ### 10.18 α sensitivity analysis: how precisely is α = 1.29 constrained? (v2.7.9+)
 
-SIDC's energy-scaling rule $\tau_{2D}$ = $(E/E_{\rm Pl})^{α}$ $\times$ $t_{\rm Pl}$ with α = 1.29 is calibrated to ONE data point (the SN 33s lifetime at E_SN = $10^{44}$ J). This section quantifies how sensitive SIDC's predictions are to α, and what precision of future observations would be required to falsify α = 1.29.
+SIDC's energy-scaling rule $\tau_{2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl}$ with α = 1.29 is calibrated to ONE data point (the SN 33s lifetime at E_SN = $10^{44}$ J). This section quantifies how sensitive SIDC's predictions are to α, and what precision of future observations would be required to falsify α = 1.29.
 
 **Sensitivity of $\tau_{2D}$ predictions to α.** For SIDC's 2D universe lifetime formula, varying α in the range [1.0, 1.6] gives:
 
@@ -436,11 +436,11 @@ SIDC's α = 1.29 is **falsified if observed α differs by more than ±0.10** (i.
 
 **Falsification scenarios for α = 1.29:**
 
-1. **BNS GW detected at SIDC's predicted frequency (f $\approx$ $7 \times 10^{-14}$ Hz):** α = 1.29 validated. Precision ±0.11 from SKA-MPG.
+1. **BNS GW detected at SIDC's predicted frequency (f ≈ $7 \times 10^{-14}$ Hz):** α = 1.29 validated. Precision ±0.11 from SKA-MPG.
 
-2. **BNS GW detected at 10x lower frequency (f $\approx$ $7 \times 10^{-15}$ Hz):** implied α = 1.40 (factor 10 longer lifetime). Falsifies α = 1.29 to ±0.11.
+2. **BNS GW detected at 10x lower frequency (f ≈ $7 \times 10^{-15}$ Hz):** implied α = 1.40 (factor 10 longer lifetime). Falsifies α = 1.29 to ±0.11.
 
-3. **BNS GW detected at 10x higher frequency (f $\approx$ $7 \times 10^{-13}$ Hz):** implied α = 1.18 (factor 10 shorter lifetime). Falsifies α = 1.29 to ±0.11.
+3. **BNS GW detected at 10x higher frequency (f ≈ $7 \times 10^{-13}$ Hz):** implied α = 1.18 (factor 10 shorter lifetime). Falsifies α = 1.29 to ±0.11.
 
 4. **BNS + AGN GW both detected, but with internally inconsistent α:** If BNS gives α = 1.30 and AGN gives α = 1.50, the energy-scaling rule is NOT a single power law. SIDC is **falsified at a deeper level** (not just the specific α, but the framework of universal power-law scaling).
 

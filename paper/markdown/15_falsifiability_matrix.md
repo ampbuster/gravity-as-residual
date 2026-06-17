@@ -15,7 +15,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### DESI DR3 (2026-2027): dark energy equation of state $w_0, w_a$
 
-**SIDC prediction:** $w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5σ tension with $\Lambda$CDM)
+**SIDC prediction:** $w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5σ tension with ΛCDM)
 
 **Falsification threshold:**
 - If $w_0 = -1$ confirmed at > 5σ: SIDC's standard Lagrangian (constant $f_{back}$) is right
@@ -33,7 +33,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### eROSITA + SPHEREx + GW231123 + GW230529: ongoing multi-messenger
 
-**SIDC prediction:** Consistent with $\Lambda$CDM at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with SIDC.
+**SIDC prediction:** Consistent with ΛCDM at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with SIDC.
 
 **Status:** VALIDATED. All 2024-2026 observations are consistent with SIDC's qualitative framework.
 
@@ -47,8 +47,8 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 **Falsification threshold:**
 - If GW detected at SIDC's predicted frequencies: $\alpha = 1.29$ validated to ±0.11
-- If GW detected at 10$\times$ off-frequency: $\alpha$ falsified to ±0.11
-- If BNS+AGN internally inconsistent: framework-level falsification (not just $\alpha$)
+- If GW detected at 10× off-frequency: α falsified to ±0.11
+- If BNS+AGN internally inconsistent: framework-level falsification (not just α)
 - If no GW detected: SIDC's GW prediction falsified (less direct)
 
 **Status:** PENDING. SKA-MPG operational 2030s.
@@ -73,13 +73,13 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### μAres (next-gen PTA, 2040s?): higher-precision α
 
-**SIDC prediction:** $\alpha = 1.29$ to ±0.055 precision (1 dex frequency precision → 0.055 in $\alpha$).
+**SIDC prediction:** $\alpha = 1.29$ to ±0.055 precision (1 dex frequency precision → 0.055 in α).
 
-**Falsification threshold:** If $\alpha$ measured at < 1.20 or > 1.40, SIDC's energy-scaling rule is wrong.
+**Falsification threshold:** If α measured at < 1.20 or > 1.40, SIDC's energy-scaling rule is wrong.
 
 **Status:** PENDING. μAres operational 2040s.
 
-#### BBN precision (10$\times$ improvement)
+#### BBN precision (10× improvement)
 
 **SIDC prediction:** DE at BBN era (z = $10^{10}$) is ~$10^{-20}$ of radiation. BBN proceeds as standard.
 
@@ -94,8 +94,8 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 | $w_0$ (DESI DR3) | $-0.83 \pm 0.16$ | > 5σ away from -0.83 |
 | $w_a$ (DESI DR3) | $-0.75 \pm 0.30$ | > 5σ away from -0.75 |
 | 47 Tuc DM (LSST) | < $10^{-5}$ $M_*$ | DM detected at > 5σ |
-| BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10$\times$ off-frequency |
-| AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10$\times$ off-frequency |
+| BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10× off-frequency |
+| AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10× off-frequency |
 | $M_{\rm Pl,4}$ (colliders) | $\geq 887$ GeV | Measured < 887 GeV |
 | BBN DE (precision) | < $10^{-20}$ rad | > $10^{-20}$ detected |
 | 5/27/68 (Planck) | 5/27/68 (input) | Input, not tested |
