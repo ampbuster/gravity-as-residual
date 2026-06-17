@@ -431,7 +431,222 @@
 #
 # RULE OF THUMB: If your math renders correctly in github.com MOBILE,
 # it will render correctly everywhere else.
+
+# ---- 4.3.2 NOTATION RULES (numbers, quantities, ratios) ----
 #
+# BEYOND the 5 categories of broken LaTeX above, there are NOTATION
+# RULES that apply to ALL targets (PDF, github.com, Markor). These
+# rules make the paper and docs consistent.
+#
+# ============================================================
+# RULE 1: ALL POWERS OF 10 -> LaTeX math form
+# ============================================================
+#
+#   WRONG:  10^44 J            (plain text "10^44" with caret)
+#   WRONG:  10⁵                (Unicode superscript, doesn't render reliably)
+#   WRONG:  2.4e-15            (e-notation in body text, informal)
+#   WRONG:  $10^44             (no braces, may not render correctly)
+#   RIGHT:  $10^{44}$ J        (LaTeX math mode with braces)
+#   RIGHT:  $2.4 \times 10^{-15}$ (e-notation converted to math)
+#
+# ALWAYS use $10^{N}$ (with braces!) for any power of 10 in body text.
+# The braces are REQUIRED for multi-digit exponents ($10^{44}$ not $10^44$).
+#
+# EXCEPTIONS:
+#   - CODE BLOCKS: e-notation is natural in code (e.g. `2.4e-15`)
+#   - TABLE CELLS (when there's no math context): e-notation is OK
+#     (e.g. `9.74e-11`), but prefer $9.74 \times 10^{-11}$ for
+#     consistency.
+#
+# ============================================================
+# RULE 2: PHYSICAL QUANTITIES -> math mode with proper subscripts
+# ============================================================
+#
+# ANY quantity with a subscript or superscript MUST be in $...$ math.
+# Plain text with underscores or Unicode subscripts is INCONSISTENT.
+#
+#   WRONG:  H_0 = 73.04         (H_0 in plain text)
+#   WRONG:  M_dyn ≈ M_b        (underscores in plain text)
+#   WRONG:  f_back = ε × ...   (f_back in plain text)
+#   WRONG:  Hₐ = 73.04          (Unicode subscript)
+#   RIGHT:  $H_0$ = 73.04
+#   RIGHT:  $M_{dyn} \approx M_b$
+#   RIGHT:  $f_{\rm back} = \epsilon \times ...$
+#
+# Common physics quantities to ALWAYS put in math:
+#
+#   Cosmology:
+#     H_0, H_{0,4D}, H_0_CMB, H_0_local
+#     Ω_m, Ω_DM, Ω_GW
+#     σ_8, S_8, w_0, w_a, a_0
+#     z_half
+#
+#   Mass and energy:
+#     M_b, M_halo, M_Pl, M_stars, M_sun (use $M_\odot$ for solar mass),
+#     M_dyn, M_baryon, M_stellar, M_BH, M_o, M_2D, M_star
+#     E_Pl, E_4D, E_crit, E_primordial
+#     t_Pl
+#     l_Pl (or $\ell_{\rm Pl}$)
+#
+#   Acceleration and force:
+#     g_+, g_bar, g_obs, g_cum, g_active
+#     F_p, F_s
+#
+#   Fractions and ratios:
+#     f_back, f_active
+#     ε, ε_GW
+#
+#   Spacetime topology:
+#     AdS_2, AdS_5, dS_2 (use $\AdS_2$ etc.)
+#     τ_2D, γ_2D, T_2D
+#
+#   GW and strain:
+#     h_c, Ω_GW
+#
+#   Velocity and length:
+#     V_local, r_h, p_F
+#     m_s
+#
+#   Cross sections / couplings:
+#     G_5, G_D, L_V
+#
+# SUBSCRIPT NAMING CONVENTION:
+#   - Single letter/number subscripts: $H_0$, $M_b$, $E_4D$
+#   - Multi-letter subscripts: use {\rm ...} for roman text:
+#     $f_{\rm back}$, $f_{\rm active}$, $M_{\rm Pl}$, $E_{\rm crit}$
+#   - Numbers stay as plain subscripts: $H_0$, $E_4D$
+#
+# ============================================================
+# RULE 3: RATIOS -> math mode with fraction or division
+# ============================================================
+#
+# RATIOS of two quantities should be in math with proper subscripts.
+#
+#   WRONG:  M_dyn/M_b ~ 14-30  (plain text with / and underscores)
+#   WRONG:  τ_2D/E^1.29       (mixed)
+#   RIGHT:  $M_{dyn}/M_b \sim 14$--$30$  (math with en-dash for range)
+#   RIGHT:  $E^{1+\alpha}$    (creation function, in math)
+#
+# The slash `/` is fine in math: $M_{dyn}/M_b$ renders as expected.
+# For en-dash ranges in math: use `--` (e.g. $1$--$1700$).
+#
+# ============================================================
+# RULE 4: $E^{N}$ vs $E^N$ -- ALWAYS use braces
+# ============================================================
+#
+# LaTeX power notation: ALWAYS use `^{N}` with braces, not `^N` without.
+#
+#   WRONG:  $E^1.29$           (no braces, LaTeX may misinterpret)
+#   WRONG:  $E^(1+alpha)$       (parentheses, not braces)
+#   WRONG:  $E^{1+alpha}        (missing closing brace if typed manually)
+#   RIGHT:  $E^{1.29}$          (braces, single exponent)
+#   RIGHT:  $E^{1+\alpha}$      (braces, expression in exponent)
+#   RIGHT:  $E^{2.29}$          (braces, multi-character exponent)
+#
+# For the lifetime scaling law:
+#   - Lifetime:  $\tau_{2D} \sim E^{1.29}$ (uses E for energy, not M)
+#   - Creation:  $C(E) = E^{1+\alpha} = E^{2.29}$ (general form, evaluated)
+#   - Mass:      $M_{2D,2D} \propto E^{0.71}$ (derived)
+#
+# ============================================================
+# RULE 5: M^1.29 vs E^1.29 -- name vs physics
+# ============================================================
+#
+# `M^1.29` is the CANONICAL NAME for the scaling law (in headers, titles,
+# emphasis). It refers to "the 1.29-th power of the event's mass-equivalent".
+#
+# `E^1.29` is the PROPER PHYSICS NOTATION (lifetime vs event energy).
+# Since E=Mc², M^1.29 ∝ E^1.29, dimensionally equivalent.
+#
+# USE:
+#   - `M^1.29` in section titles and emphasis ("the M^1.29 scaling law")
+#   - `E^1.29` in physics formulas and equations
+#   - Both are acceptable in body text where context makes the meaning clear
+#
+# ============================================================
+# RULE 6: e-notation handling
+# ============================================================
+#
+# e-notation (1.5e10, 2.4e-15) is a CALCULATOR format, not typesetting.
+# In body text, ALWAYS convert to math form:
+#
+#   WRONG:  h_c = 2.4e-15 at f_yr
+#   WRONG:  a_0 = 1.20e-10 m/s²
+#   RIGHT:  $h_c = 2.4 \times 10^{-15}$ at $f_{yr}$
+#   RIGHT:  $a_0 = 1.20 \times 10^{-10}$ m/s²
+#
+# EXCEPTIONS (e-notation OK):
+#   - CODE BLOCKS: code is code, keep e-notation
+#   - TABLE CELLS: e-notation is compact and readable
+#     (but prefer $N \times 10^{M}$ for cross-document consistency)
+#
+# ============================================================
+# RULE 7: Symbol conventions
+# ============================================================
+#
+# SOLAR MASS: use $\odot$ (LaTeX), not Unicode ☉ or M_sun plain text
+#   WRONG:  M_sun, M_☉, M☉
+#   RIGHT:  $M_\odot$
+#
+# EM-DASH / EN-DASH:
+#   - EM-DASH (—): for breaks in text, plain Unicode OK
+#   - EN-DASH (--): for RANGES in text or math
+#     WRONG:  10^5-10^7
+#     WRONG:  $10^5$-$10^7$
+#     RIGHT:  $10^{5}$--$10^{7}$  (en-dash in math)
+#     RIGHT:  10^5 to 10^7        (in text)
+#
+# APPROXIMATELY EQUAL:
+#   WRONG:  ≈ (Unicode)
+#   WRONG:  ~ (tilde, not typeset)
+#   RIGHT:  $\approx$
+#   RIGHT:  $\sim$ (for "of order" / "approximately", different from $\approx$)
+#
+# MULTIPLICATION:
+#   WRONG:  × (Unicode)
+#   WRONG:  * (asterisk)
+#   WRONG:  2.2 x 10^{-6}
+#   RIGHT:  $\times$
+#   RIGHT:  \cdot (for "dot product" / "concatenation")
+#
+# PLUS/MINUS:
+#   WRONG:  ± (Unicode)
+#   RIGHT:  $\pm$
+#
+# ============================================================
+# RULE 8: Greek letters -- ALWAYS use \alpha not α
+# ============================================================
+#
+#   WRONG:  α, β, γ (Unicode)
+#   WRONG:  alpha, beta (plain English)
+#   RIGHT:  $\alpha$, $\beta$, $\gamma$ (LaTeX)
+#
+# Common Greek letters in this paper:
+#   α, β, γ, δ, ε, ζ, η, θ, ι, κ, λ, μ, ν, ξ, π, ρ, σ, τ, φ, χ, ψ, ω
+#   Γ, Δ, Θ, Λ, Ξ, Π, Σ, Φ, Ψ, Ω
+#
+# ============================================================
+# SUMMARY: the 8 rules
+# ============================================================
+#
+#   RULE 1: ALL powers of 10 -> $10^{N}$ (no Unicode, no e-notation in body)
+#   RULE 2: Physical quantities -> $X_{...}$ in math (no plain H_0)
+#   RULE 3: Ratios -> $X/Y$ in math
+#   RULE 4: $E^{N}$ always with braces
+#   RULE 5: M^1.29 (name) vs E^1.29 (physics) -- both OK in context
+#   RULE 6: e-notation -> $\times 10^{...}$ in body text
+#   RULE 7: ☉ for solar mass, -- for ranges, \approx for ≈
+#   RULE 8: Greek letters always as \alpha not α
+#
+# CHECK BEFORE COMMITTING:
+#   - Run: grep -nE '(^|[^$])[A-Za-z]+_[A-Za-z]+' paper/markdown/*.md
+#     (find plain-text X_Y that should be in math)
+#   - Run: grep -nE '(^|[^$])10\^[0-9]' paper/markdown/*.md
+#     (find plain-text 10^N that should be in math)
+#   - Run: grep -nE '[0-9]e[-+][0-9]' paper/markdown/*.md
+#     (find e-notation in body text)
+#
+
 # ---- 4.4 TABLE CELLS WITH MATH ----
 
 #
