@@ -1,0 +1,169 @@
+========================================================================
+LAGRANGIAN v9: f_back FROM THE CLOSED LOOP (REVISED)
+========================================================================
+
+========================================================================
+PART 1: WHAT THE CLOSED LOOP CLAIMS
+========================================================================
+
+SIDC's closed loop: three "ε"s from one geometric process
+
+  ε_1 = bulk-brane coupling (gravity hierarchy):
+       M_Pl,4² = M_Pl,5³ × L_5
+       where L_5 = ε_1/k (the "extra dim size" in units of AdS_5 curvature)
+       For ADD model: ε_1 = (M_Pl,5/M_Pl,4)² × L_5 × k
+
+  ε_2 = un-cancelled vacuum energy (DE):
+       ρ_DE = ε_2 × M_Pl,4⁴  (M_Pl,4⁴ in units of J/m³)
+       where M_Pl,4⁴ = M_Pl,4 c² / L_Pl,4³ ≈ 3.5e141 J/m³
+
+  ε_3 = per-event back-projection (DM f_back):
+       f_back = ε_3  (per 2D universe)
+       where ε_3 = e^{-kL} for the 2D universe's depth L
+
+  CLOSED LOOP CLAIM: ε_1 = ε_2 = ε_3 = ONE parameter
+
+  Let's see if this is true.
+
+
+========================================================================
+PART 2: COMPUTE EACH ε FROM OBSERVATIONS
+========================================================================
+ε_1 (gravity hierarchy):
+  From M_Pl,5 ~ TeV:  ε_1 ~ (TeV/M_Pl,4)² ~ 6.72e-33
+  From M_Pl,5 ~ M_GUT: ε_1 ~ (M_GUT/M_Pl,4)² ~ 6.72e-07
+  -> ε_1 ranges 10^-32 to 10^-38, with conventional value 10^-38
+
+ε_2 (DE density):
+  ρ_DE = 6.210e-10 J/m³ (Planck 2018)
+  M_Pl,4⁴ / L_Pl,4³ = 4.634e+113 J/m³ (Planck energy density)
+  ε_2 = ρ_DE / ρ_Pl,4 = 1.340e-123
+
+ε_3 (per 2D universe f_back):
+  f_back (SN) = 1e-85
+  -> ε_3 = 1e-85
+
+========================================
+COMPARISON:
+  ε_1 ~ 10^-38 (gravity)
+  ε_2 ~ 1.34e-123 (DE)
+  ε_3 = 10^-85 (f_back)
+
+DIFFERENT BY 47 ORDERS OF MAGNITUDE!
+The closed loop does NOT literally have ONE ε.
+========================================
+
+========================================================================
+PART 3: WHAT THE CLOSED LOOP ACTUALLY SAYS
+========================================================================
+
+The closed loop claim is more nuanced than "all three are equal."
+
+The closed loop says:
+  - The SAME geometric process (dimensional projection) underlies all three
+  - The three "ε"s are related by the SAME physical mechanism
+  - But they are NOT necessarily numerically equal
+
+The mechanism: bulk-brane cancellation
+  - 4D gravity projected into 3+1D has cancellation
+  - The un-cancelled fraction is what we see as gravity (small, ε_1)
+  - The un-cancelled antigravity is what we see as DE (small, ε_2)
+  - The back-projection of 2D universes is what we see as DM f_back (small, ε_3)
+
+All three are "small" because of the cancellation, but the CANCELLATION
+FRACTION depends on the specific physical situation:
+  - ε_1: how much 5D gravity makes it through the brane (depends on kL_5)
+  - ε_2: how much vacuum energy is un-cancelled (depends on tension matching)
+  - ε_3: how much 2D universe energy returns (depends on kL for the 2D universe)
+
+These are RELATED but not equal.
+
+
+========================================================================
+PART 4: HOW THE THREE ε's ARE RELATED
+========================================================================
+
+========================================================================
+PART 5: DOES THE CLOSED LOOP CONSTRAIN ε_2 AND ε_3?
+========================================================================
+
+========================================================================
+PART 6: DERIVED vs CALIBRATED (the honest assessment)
+========================================================================
+
+WHAT'S DERIVED FROM THE CLOSED LOOP:
+  - The qualitative picture: DE, DM, gravity weakness all from projection
+  - The structural relationship: f_back is the back-projection fraction
+  - The conceptual unity: one geometric process
+
+WHAT'S STILL CALIBRATED:
+  - The numerical value of f_back = 10^-85 (L31, L41)
+  - The exact ε_1, ε_2, ε_3 values
+  - The bulk geometry (k, L, M_Pl,5)
+
+The closed loop gives the FORM of the relationships but not the NUMBERS.
+The numbers are calibrated to match observations.
+
+IMPLICATION FOR THE LAGRANGIAN:
+  - The Lagrangian has 1 conceptual parameter (ε or kL)
+  - But this parameter APPEARS DIFFERENTLY in different places
+  - So effectively, there are MULTIPLE parameters
+  - Or: there is ONE parameter, but with depth-dependent values
+
+CLEANER FRAMING (v9):
+  - The closed loop is REAL and important (single mechanism)
+  - The mechanism is "bulk-brane cancellation with event-dependent depth"
+  - The Lagrangian should have a 2D universe depth y_2D(E_event) as a function
+  - This function gives f_back per event
+  - f_back(SN) = 10^-85 is a CALIBRATION POINT for this function
+
+
+========================================================================
+PART 7: y_2D(E_event) — THE MISSING FUNCTION
+========================================================================
+Candidate functions for y_2D(E_event):
+  Linear: y_2D ~ E                   : y_2D = y_0 × (E/E_Pl)
+  Sqrt: y_2D ~ E^0.5                 : y_2D = y_0 × (E/E_Pl)^0.5
+  Same as time-dilation: y_2D ~ E^1.29: y_2D = y_0 × (E/E_Pl)^1.29
+  Energy/area: y_2D ~ E/M_Pl,4²      : y_2D = y_0 × (E/E_Pl,4²)
+
+========================================================================
+PART 8: v9 SUMMARY
+========================================================================
+
+KEY FINDING (v9, June 2026, user insight):
+The closed loop says "all three are one geometric process" — TRUE.
+The closed loop says "all three are the same ε" — FALSE (or misleading).
+
+The three "ε"s are:
+  ε_1 (gravity) ~ 10^-38 — bulk-brane coupling
+  ε_2 (DE)     ~ 10^-151 — un-cancelled vacuum
+  ε_3 (f_back) ~ 10^-85  — per 2D universe back-projection
+
+These are RELATED (same mechanism: bulk-brane cancellation) but
+DIFFERENT (different physical situations give different ε).
+
+The closed loop is best stated as:
+  "DE, DM, and gravity weakness all derive from dimensional projection
+   via the bulk-brane cancellation mechanism. The cancellation FRACTION
+   depends on the specific physical situation, but the MECHANISM is one."
+
+WHAT THIS MEANS FOR THE LAGRANGIAN:
+  - L should have ONE bulk-cancellation parameter (ε or kL)
+  - This parameter is event-dependent in its value
+  - f_back = ε(E_event) where ε is a function, not a number
+  - The function ε(E_event) is what needs to be derived from the Lagrangian
+
+WHAT'S STILL CALIBRATED (L48 NEW):
+  - The function ε(E_event) at the SN calibration point
+  - The exact relationship between ε_1, ε_2, ε_3
+
+LIMITATION UPDATE (L48):
+f_back is NOT a free parameter (it IS the closed-loop ε).
+But the numerical value 10^-85 is still calibrated.
+The closed loop CONSTRAINS the form, not the value.
+
+NEXT STEP (v10):
+  Derive the function ε(E_event) from the Lagrangian
+  (likely: y_2D ~ Schwarzschild radius in AdS_5 ~ (E/M_Pl,4²)^0.5 × 1/k)
+
