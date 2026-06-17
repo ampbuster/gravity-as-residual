@@ -27,6 +27,8 @@ __pycache__/
 
 # Paper build scratch (kept inside the repo, but gitignored)
 paper/.build/
+paper/paper_combined.md
+paper/dry_combined.md
 
 # Local-only
 /private/
