@@ -25,7 +25,7 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
 |---|---|---|
 | Distance from Sun | 4.52 ± 0.03 kpc | Gaia DR3 |
 | Galactocentric distance | 7.4 kpc | from Sun distance + Galactic center |
-| Current mass ($M_{dyn}$) | 7$\times$$10^{5}$ $M_\odot$ | σ_v = 11.7 km/s |
+| Current mass ($M_{dyn}$) | $7 \times 10^{5}$ $M_\odot$ | σ_v = 11.7 km/s |
 | Half-mass radius | 6.0 pc | literature |
 | Velocity dispersion | 11.7 km/s | literature |
 | M/$L_V$ (observed) | ~1.7 | literature |
@@ -39,7 +39,7 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
 1. **Current 2D universe creation rate:** essentially **ZERO** in 47 Tuc. No current SN. The most energetic current events are ms-pulsar giant flares (~$10^{40}$ J, ~$10^{-3}$ /yr, $\tau_{2D}$ ~ 230 μs) and recurrent novae (~$10^{39}$ J, ~$10^{-3}$ /yr, $\tau_{2D}$ ~ 11 μs). All of these are microsecond-scale 2D universes that die essentially instantly and contribute negligible DM.
 
 2. **Cumulative 2D universe contribution over 12 Gyr:** at formation, 47 Tuc had ~$10^{4}$ O/B stars, each producing a SN at ~$10^{44}$ J. Total SN energy ~ $10^{48}$ J. With SIDC's $f_{\rm back}$ ~ $10^{-85}$, the resulting DM contribution is:
-   - E_DM = $10^{48}$ $\times$ $10^{-85}$ = $10^{-37}$ J = **5.6$\times$$10^{-85}$ $M_\odot$**
+   - E_DM = $10^{48}$ $\times$ $10^{-85}$ = $10^{-37}$ J = **$5.6 \times 10^{-85}$ $M_\odot$**
    - **Completely negligible.** The SN energy that did become 2D universe mass contributes essentially zero to 47 Tuc's local DM.
 
 3. **Density comparison (47 Tuc vs Galaxy's halo DM):**
@@ -48,11 +48,11 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
    - 47 Tuc's *average* density (within $r_h = $6 pc): **$\rho_{\rm avg} \approx$ 0.029 GeV/${\rm cm}^3$** — ½$\times$ the Galaxy's local DM
    - **47 Tuc is a dense stellar system embedded in a sparse DM halo.** The Galaxy's DM halo *passes through* 47 Tuc but is locally overwhelmed by 47 Tuc's baryonic concentration.
 
-4. **Mass budget:** $M_{dyn}$ $\approx$ 7$\times$$10^{5}$ $M_\odot$; $M_{stars}$ (from CMD + IMF) $\approx$ 5.5$\times$$10^{5}$ $M_\odot$. The "missing" 1.5$\times$$10^{5}$ $M_\odot$ (21% of $M_{dyn}$) is **within the 20-30% uncertainty** of IMF, mass segregation, binary fraction, and velocity anisotropy. Consistent with **no local DM enhancement**.
+4. **Mass budget:** $M_{dyn}$ $\approx$ $7 \times 10^{5}$ $M_\odot$; $M_{stars}$ (from CMD + IMF) $\approx$ $5.5 \times 10^{5}$ $M_\odot$. The "missing" $1.5 \times 10^{5}$ $M_\odot$ (21% of $M_{dyn}$) is **within the 20-30% uncertainty** of IMF, mass segregation, binary fraction, and velocity anisotropy. Consistent with **no local DM enhancement**.
 
 5. **Central BH (≤ 578 $M_\odot$):** the BH formation event ~12 Gyr ago released E_BH ~ $10^{49}$ J, creating a 2D universe with $\tau_{2D}$ ~ 3 yr (energy-scaling rule). The 2D universe died long ago; energy was returned to 3+1D. With $f_{\rm back}$ ~ $10^{-85}$, the BH's DM contribution is **~$10^{-84}$ $M_\odot$** — zero. The BH's gravitational influence on 47 Tuc is via standard GR (it acts as a point mass), not via 2D universe back-projection.
 
-6. **Mass loss over 12 Gyr:** dM/dt from 2-body relaxation is ~2$\times$$10^{-6}$ $M_\odot$/yr (negligible). Stellar evolution mass loss is ~30% of initial mass. Total: ~3$\times$$10^{5}$ $M_\odot$ lost, leaving the observed 7$\times$$10^{5}$ $M_\odot$. The 5 known tidal tails (Shipp+ 2021, Ibata+ 2024, Boldrini+ 2024) contain ~0.5% of the cluster mass and are consistent with Galactic tidal stripping + 47 Tuc's complex orbit.
+6. **Mass loss over 12 Gyr:** dM/dt from 2-body relaxation is ~$2 \times 10^{-6}$ $M_\odot$/yr (negligible). Stellar evolution mass loss is ~30% of initial mass. Total: ~$3 \times 10^{5}$ $M_\odot$ lost, leaving the observed $7 \times 10^{5}$ $M_\odot$. The 5 known tidal tails (Shipp+ 2021, Ibata+ 2024, Boldrini+ 2024) contain ~0.5% of the cluster mass and are consistent with Galactic tidal stripping + 47 Tuc's complex orbit.
 
 ### 11.3 Testable predictions for Rubin/LSST DP1, DR1, and Y10
 

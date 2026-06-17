@@ -85,14 +85,14 @@ This gives a *naturally intermediate* profile that smoothly transitions from ful
 
 For a Milky Way-like galaxy (v_circ ~ 250-380 km/s), the inner galaxy (r < 5 kpc) has $t_{dyn} < 0.1$ Gyr and the cumulative dark matter has had ~100-1000 dynamical t\times to mix — it is *very well-mixed*, close to uniform. The outer halo (r ~ 30-100 kpc) has $t_{dyn} \sim 1-3$ Gyr and is only partially mixed. For a galaxy cluster (r ~ 500 kpc, v_circ ~ 900 km/s), the inner region (r < 30 kpc) is well-mixed but the outer halo (r ~ 200-500 kpc) is *barely mixed* (only a few dynamical t\times over cosmic history).
 
-*Parameter search (commit 107, v2.2.1).* Per the question of whether SIDC's RAR can be fit better with different parameter choices, I performed a trial-and-error grid search over $f_{active}$ and $N_{crit}$ (in `calculations/rar_parameter_fit.py`). The best-fit parameters (minimizing log-error to the empirical targets: MW $g_{\rm obs}$/$g_{\rm bar}$=2.5/$g_+$=$1.2 \times 10^{-10}$, EDGE 2025 dwarf 20/1.5$\times$$10^{-10}$, Tian 2024 cluster 50/17$\times$ galaxy) are:
+*Parameter search (commit 107, v2.2.1).* Per the question of whether SIDC's RAR can be fit better with different parameter choices, I performed a trial-and-error grid search over $f_{active}$ and $N_{crit}$ (in `calculations/rar_parameter_fit.py`). The best-fit parameters (minimizing log-error to the empirical targets: MW $g_{\rm obs}$/$g_{\rm bar}$=2.5/$g_+$=$1.2 \times 10^{-10}$, EDGE 2025 dwarf 20/$1.5 \times 10^{-10}$, Tian 2024 cluster 50/17$\times$ galaxy) are:
 
   $f_{\rm active}$ = 0.08, N_crit = 25 (log_err = 0.76)
 
 With these parameters:
-  - MW: $g_{\rm obs}$/$g_{\rm bar}$ = 2.9, $g_+$ = 4.3$\times$$10^{-10}$ (16% off)
-  - Dwarf: $g_{\rm obs}$/$g_{\rm bar}$ = 38, $g_+$ = 2.9$\times$$10^{-10}$ (90% off)
-  - Cluster: $g_{\rm obs}$/$g_{\rm bar}$ = 28, $g_+$ = 1.8$\times$$10^{-8}$ (44% off)
+  - MW: $g_{\rm obs}$/$g_{\rm bar}$ = 2.9, $g_+$ = $4.3 \times 10^{-10}$ (16% off)
+  - Dwarf: $g_{\rm obs}$/$g_{\rm bar}$ = 38, $g_+$ = $2.9 \times 10^{-10}$ (90% off)
+  - Cluster: $g_{\rm obs}$/$g_{\rm bar}$ = 28, $g_+$ = $1.8 \times 10^{-8}$ (44% off)
 
 *Honest assessment of the parameter search:*
 - Galaxy scale: the model matches within 16% (good).
@@ -111,7 +111,7 @@ With these parameters:
 
 *The fundamental issue:* SIDC's active contribution (clustered, follows stellar) makes the inner $g_{\rm obs}$ too large. The empirical RAR requires $g_{\rm obs}$ ~ $g_{\rm bar}$ at high $g_{\rm bar}$ (no DM excess at high stellar surface density), but SIDC's active contribution gives $g_{\rm obs}$ = $g_{\rm bar}$ * (1 + $f_{\rm active}$ * kappa), which is 5-6x $g_{\rm bar}$ for $f_{\rm active}$=0.2, kappa=17. To match the RAR at 2R_d for MW, $f_{\rm active}$ * kappa must be < 1, requiring $f_{\rm active}$ < 0.06 — which is 5x smaller than SIDC's postulate of $f_{\rm active}$=0.3.
 
-This tension requires either a different spatial distribution for the active contribution, a smaller $f_{\rm active}$ (SIDC's postulate is off by ~5x), or a different SIDC $g_+$. SIDC's $g_+$ might not be $1.2 \times 10^{-10}$ m/s² (McGaugh+ 2016) but rather closer to 2$\times$$10^{-9}$ m/s² (Tian+ 2024 cluster value) — which would be a genuinely different prediction of SIDC that conflicts with the galaxy RAR. This is left as an open question for further theoretical work (Limitation 19).
+This tension requires either a different spatial distribution for the active contribution, a smaller $f_{\rm active}$ (SIDC's postulate is off by ~5x), or a different SIDC $g_+$. SIDC's $g_+$ might not be $1.2 \times 10^{-10}$ m/s² (McGaugh+ 2016) but rather closer to $2 \times 10^{-9}$ m/s² (Tian+ 2024 cluster value) — which would be a genuinely different prediction of SIDC that conflicts with the galaxy RAR. This is left as an open question for further theoretical work (Limitation 19).
 
 *Full mass spectrum test (commit 111, v2.2.1).* I tested SIDC's RAR prediction across 9 systems from ultra-faint dwarf ($M_{halo} = 10^{7}$ M_\odot$) to supercluster core ($M_{halo} = 5 \times 10^{14} M_\odot$), in `calculations/rar_extremes.py`. Key findings:
 
@@ -237,9 +237,9 @@ This is now SIDC's best candidate RAR model: small $f_{active}$ (5%), isothermal
 
 | Object | r (kpc) | N_orbits | f_mix | $g_{\rm obs}$/$g_{\rm bar}$ | Effective $g_+$ |
 | --- | --- | --- | --- | --- | --- |
-| Milky Way (2$R_d$) | 8 | 130 | 1.00 | 6.4 | 2.7$\times$$10^{-9}$ m/s² |
-| Dwarf (2$R_d$) | 2 | 39 | 0.98 | 40 | 3.3$\times$$10^{-10}$ m/s² |
-| Cluster (2$R_d$) | 60 | 73 | 1.00 | 33 | 2.4$\times$$10^{-8}$ m/s² |
+| Milky Way (2$R_d$) | 8 | 130 | 1.00 | 6.4 | $2.7 \times 10^{-9}$ m/s² |
+| Dwarf (2$R_d$) | 2 | 39 | 0.98 | 40 | $3.3 \times 10^{-10}$ m/s² |
+| Cluster (2$R_d$) | 60 | 73 | 1.00 | 33 | $2.4 \times 10^{-8}$ m/s² |
 
 *Honest assessment of the full dynamical-mixing model:*
 - The mixing-fraction formalism is correct: the cumulative return is *naturally* between fully clustered and fully uniform, with the mixing fraction depending on radius and halo mass.
@@ -856,7 +856,7 @@ This section lists SIDC's most specific, testable predictions, the corresponding
 **2. Direct detection of particle DM.**
 - *SIDC prediction*: Zero signal at all cross sections. DM is geometric, not a particle. There is NO WIMP-nucleon coupling.
 - *ΛCDM WIMP prediction*: $\sigma_{\rm SI}$ ~ $10^{-44}$ to $10^{-46}$ ${\rm cm}^2$ (WIMP "miracle" cross section).
-- *Current data*: LZ 2024 gives $\sigma_{\rm SI}$ < 9.2$\times$$10^{-48}$ ${\rm cm}^2$ (best limit), with no detection across ~8.5 tonne-year of exposure. WIMP "miracle" parameter space excluded by ~4 orders of magnitude. Status: **consistent with SIDC; would be falsified by ANY future detection.** Sub-threshold WIMPs remain a logical escape for ΛCDM until G3-class experiments reach $\sigma_{\rm SI}$ ~ $10^{-50}$ ${\rm cm}^2$.
+- *Current data*: LZ 2024 gives $\sigma_{\rm SI}$ < $9.2 \times 10^{-48}$ ${\rm cm}^2$ (best limit), with no detection across ~8.5 tonne-year of exposure. WIMP "miracle" parameter space excluded by ~4 orders of magnitude. Status: **consistent with SIDC; would be falsified by ANY future detection.** Sub-threshold WIMPs remain a logical escape for ΛCDM until G3-class experiments reach $\sigma_{\rm SI}$ ~ $10^{-50}$ ${\rm cm}^2$.
 
 **3. Halo mass vs M* evolution with redshift.**
 - *SIDC prediction*: $M_{\rm halo}$/M* at fixed M* should DECREASE with z (the cumulative return from past activity is LESS at high z because less time has elapsed for the integrated event history).
@@ -1398,20 +1398,20 @@ This V3 follow-up adds two improvements:
 
 **1. Stricter pure-Seyfert cut.** The Tier 1 #1 test used logSFRHa > 0 + sigma > 80 (broad WHAN AGN). V3 uses logSFRHa > 0.5 + sigma > 100 (stricter pure Seyfert, lower contamination from LINERs). Result: 5/5 cells with N ≥ 5 have ratio > 1.0; **median ratio = 1.106 (+10.6%, in SIDC's predicted +5-15% range)**.
 
-**2. Partial correlation analysis (Simpson's paradox).** This is the strongest finding. The naive correlation between AGN status and M/L is **NEGATIVE** (r = -0.067, p = 5$\times$$10^{-3}$) — opposite of SIDC's prediction! Why? Because AGN are preferentially low-mass late-type galaxies, which have intrinsically lower $M_{dyn}$/$M_\star$. The $M_{b}$ is the dominant mediator.
+**2. Partial correlation analysis (Simpson's paradox).** This is the strongest finding. The naive correlation between AGN status and M/L is **NEGATIVE** (r = -0.067, p = $5 \times 10^{-3}$) — opposite of SIDC's prediction! Why? Because AGN are preferentially low-mass late-type galaxies, which have intrinsically lower $M_{dyn}$/$M_\star$. The $M_{b}$ is the dominant mediator.
 
-**When we control for $M_{b}$ (and other variables), the correlation INVERTS to POSITIVE (r = +0.367, p = 4$\times$$10^{-57}$)** — exactly the direction SIDC predicts. This is a **Simpson's paradox**: the marginal correlation is opposite to the partial correlation.
+**When we control for $M_{b}$ (and other variables), the correlation INVERTS to POSITIVE (r = +0.367, p = $4 \times 10^{-57}$)** — exactly the direction SIDC predicts. This is a **Simpson's paradox**: the marginal correlation is opposite to the partial correlation.
 
 | Control variables | Partial r (AGN vs M/L) | p-value |
 |---|---|---|
-| None (uncontrolled) | **-0.067** | 5$\times$$10^{-3}$ |
-| \| $M_{b}$ | **+0.367** | 4$\times$$10^{-57}$ |
-| \| sigma | +0.348 | 5$\times$$10^{-51}$ |
-| \| $M_{b}$, sigma, logSFR | +0.325 | 2$\times$$10^{-44}$ |
+| None (uncontrolled) | **-0.067** | $5 \times 10^{-3}$ |
+| \| $M_{b}$ | **+0.367** | $4 \times 10^{-57}$ |
+| \| sigma | +0.348 | $5 \times 10^{-51}$ |
+| \| $M_{b}$, sigma, logSFR | +0.325 | $2 \times 10^{-44}$ |
 
 **This is a MUCH stronger result than the V2 (Tier 1 #1) test alone:**
 - V2 (per-cell morphology matching): Wilcoxon p = 0.047 (marginally significant)
-- V3 (partial correlation): p = 4$\times$$10^{-57}$ (very strong, many orders of magnitude)
+- V3 (partial correlation): p = $4 \times 10^{-57}$ (very strong, many orders of magnitude)
 
 **Interpretation:** SIDC's prediction — AGN hosts have +5-15% more DM than matched non-AGN hosts — is **strongly supported** by the partial correlation analysis, but the *simple* (uncontrolled) test misses the signal because AGN are preferentially low-mass galaxies. Once you control for $M_{b}$, the AGN-specific DM contribution emerges clearly.
 
@@ -1750,8 +1750,8 @@ See `calculations/rar_per_galaxy_gplus_v3.py` and `calculations/rar_per_galaxy_g
 | Survey | $S_8$ | $\sigma_8$ | Method |
 |--------|-----|-----|--------|
 | Planck CMB (PR3) | 0.832 ± 0.013 | 0.811 | Primary CMB + ΛCDM inference |
-| DES Y3 | 0.759 ± 0.025 | ~0.74 | Cosmic shear (3$\times$2pt) |
-| KiDS-1000 | 0.759 ± 0.025 | ~0.74 | Cosmic shear (3$\times$2pt) |
+| DES Y3 | 0.759 ± 0.025 | ~0.74 | Cosmic shear ($3 \times 2$pt) |
+| KiDS-1000 | 0.759 ± 0.025 | ~0.74 | Cosmic shear ($3 \times 2$pt) |
 | Combined LSS | 0.759 ± 0.018 | ~0.74 | Average of DES + KiDS |
 
 **The $S_8$ tension:** Planck-inferred $S_8$ is ~2-3σ HIGHER than LSS-inferred $S_8$. This is the "lesser Hubble tension" — same direction as the $H_0$ tension (CMB prefers higher "stuff" than LSS).

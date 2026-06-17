@@ -1214,14 +1214,14 @@ For different event energies, the time-dilation factors and rest-mass ratios:
 
 | Event | E (J) | $\gamma_{2D}$ | $\tau_{2D}$_3+1D (s) | $M_{2D}$_2D c²/E |
 |-------|-------|------|---------------|--------------|
-| LHC (14 TeV) | 2.24$\times$$10^{-15}$ | 1.3$\times$$10^{-31}$ | 7$\times$$10^{-75}$ | 8.8$\times$$10^{6}$ |
-| 1 ton TNT | 4$\times$$10^{9}$ | 2.5 | 1.4$\times$$10^{-43}$ | 0.81 |
-| SN ($10^{44}$ J) | $10^{44}$ | 5.9$\times$$10^{44}$ | 32 | ~0 |
-| hypernova | $10^{46}$ | 2.3$\times$$10^{47}$ | 1.2$\times$$10^{4}$ | ~0 |
-| long GRB | $10^{47}$ | 4.4$\times$$10^{48}$ | 2.4$\times$$10^{5}$ | ~0 |
-| BNS merger | $10^{53}$ | 2.4$\times$$10^{56}$ | 1.3$\times$$10^{13}$ | ~0 |
-| AGN outburst | $10^{55}$ | 9.2$\times$$10^{58}$ | 5$\times$$10^{15}$ | ~0 |
-| 4D event (3+1D universe) | $10^{69}$ | $10^{77}$ | 5.7$\times$$10^{33}$ | ~0 |
+| LHC (14 TeV) | $2.24 \times 10^{-15}$ | $1.3 \times 10^{-31}$ | $7 \times 10^{-75}$ | $8.8 \times 10^{6}$ |
+| 1 ton TNT | $4 \times 10^{9}$ | 2.5 | $1.4 \times 10^{-43}$ | 0.81 |
+| SN ($10^{44}$ J) | $10^{44}$ | $5.9 \times 10^{44}$ | 32 | ~0 |
+| hypernova | $10^{46}$ | $2.3 \times 10^{47}$ | $1.2 \times 10^{4}$ | ~0 |
+| long GRB | $10^{47}$ | $4.4 \times 10^{48}$ | $2.4 \times 10^{5}$ | ~0 |
+| BNS merger | $10^{53}$ | $2.4 \times 10^{56}$ | $1.3 \times 10^{13}$ | ~0 |
+| AGN outburst | $10^{55}$ | $9.2 \times 10^{58}$ | $5 \times 10^{15}$ | ~0 |
+| 4D event (3+1D universe) | $10^{69}$ | $10^{77}$ | $5.7 \times 10^{33}$ | ~0 |
 
 SIDC's energy-scaling rule is **equivalent** to "all 2D universes have proper lifetime = $t_{\rm Pl}$, but experience different time dilations".
 
@@ -1321,8 +1321,8 @@ By the same logic, **all 3+1D universes have the same proper lifetime** ($t_{\rm
 
 | Level | Proper lifetime | Higher-dim Planck time | Time dilation | 4D-frame lifetime |
 |-------|-----------------|-------------------------|---------------|---------------------|
-| 2D universe | $t_{\rm Pl,3+1D}$ = 5.39$\times$$10^{-44}$ s | 3+1D Planck time | $\gamma_{2D}$ = (E/$E_{\rm Pl,3+1D}$)^1.29 | (E/$E_{\rm Pl,3+1D}$)^1.29 $\times$ $t_{\rm Pl,3+1D}$ |
-| 3+1D universe | $t_{\rm Pl,4D}$ = 5.39$\times$$10^{-44}$ s | 4D Planck time | γ_3+1D = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 | ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 $\times$ $t_{\rm Pl,4D}$ |
+| 2D universe | $t_{\rm Pl,3+1D}$ = $5.39 \times 10^{-44}$ s | 3+1D Planck time | $\gamma_{2D}$ = (E/$E_{\rm Pl,3+1D}$)^1.29 | (E/$E_{\rm Pl,3+1D}$)^1.29 $\times$ $t_{\rm Pl,3+1D}$ |
+| 3+1D universe | $t_{\rm Pl,4D}$ = $5.39 \times 10^{-44}$ s | 4D Planck time | γ_3+1D = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 | ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 $\times$ $t_{\rm Pl,4D}$ |
 | 4D universe* | $t_{\rm Pl,5D}$ (if §3.10 extension) | 5D Planck time | γ_4D = (E_5D/$E_{\rm Pl,5D}$)^1.29 | (E_5D/$E_{\rm Pl,5D}$)^1.29 $\times$ $t_{\rm Pl,5D}$ |
 
 *SIDC's cone-shape (§2.6) currently terminates at 4D as the "top". But §3.10 (extending upward) allows 4D to be a child of 5D, in which case the pattern continues.
@@ -1333,13 +1333,13 @@ For different 4D event energies, the 3+1D universe's 4D-frame lifetime:
 
 | 4D event | γ_3+1D | τ_3+1D_4D (yr) | τ_3+1D_proper (s) |
 |----------|--------|------------------|-------------------|
-| tiny 4D ($10^{30}$ J) | 4$\times$$10^{25}$ | 7$\times$$10^{-19}$ | 5.39$\times$$10^{-44}$ |
-| 1 ton TNT equivalent (4$\times$$10^{9}$ J) | 2.5 | 1.4$\times$$10^{-36}$ | 5.39$\times$$10^{-44}$ |
-| SN-scale ($10^{44}$ J) | 5.9$\times$$10^{44}$ | 1.0$\times$$10^{-6}$ | 5.39$\times$$10^{-44}$ |
-| AGN-scale ($10^{55}$ J) | 9.2$\times$$10^{58}$ | 1.6$\times$$10^{8}$ | 5.39$\times$$10^{-44}$ |
-| our Big Bang ($10^{69}$ J) | 1.1$\times$$10^{77}$ | 1.8$\times$$10^{26}$ | 5.39$\times$$10^{-44}$ |
-| big-bang 2 ($10^{75}$ J) | 5.8$\times$$10^{84}$ | 1.0$\times$$10^{34}$ | 5.39$\times$$10^{-44}$ |
-| huge 4D ($10^{80}$ J) | 1.6$\times$$10^{91}$ | 2.8$\times$$10^{40}$ | 5.39$\times$$10^{-44}$ |
+| tiny 4D ($10^{30}$ J) | $4 \times 10^{25}$ | $7 \times 10^{-19}$ | $5.39 \times 10^{-44}$ |
+| 1 ton TNT equivalent ($4 \times 10^{9}$ J) | 2.5 | $1.4 \times 10^{-36}$ | $5.39 \times 10^{-44}$ |
+| SN-scale ($10^{44}$ J) | $5.9 \times 10^{44}$ | $1.0 \times 10^{-6}$ | $5.39 \times 10^{-44}$ |
+| AGN-scale ($10^{55}$ J) | $9.2 \times 10^{58}$ | $1.6 \times 10^{8}$ | $5.39 \times 10^{-44}$ |
+| our Big Bang ($10^{69}$ J) | $1.1 \times 10^{77}$ | $1.8 \times 10^{26}$ | $5.39 \times 10^{-44}$ |
+| big-bang 2 ($10^{75}$ J) | $5.8 \times 10^{84}$ | $1.0 \times 10^{34}$ | $5.39 \times 10^{-44}$ |
+| huge 4D ($10^{80}$ J) | $1.6 \times 10^{91}$ | $2.8 \times 10^{40}$ | $5.39 \times 10^{-44}$ |
 
 All 3+1D universes have the **same proper lifetime** ($t_{\rm Pl,4D}$ in 4D frame), but 4D sees them as having **vastly different lifetimes** depending on the 4D event's energy.
 
@@ -1347,11 +1347,11 @@ All 3+1D universes have the **same proper lifetime** ($t_{\rm Pl,4D}$ in 4D fram
 
 For our 3+1D universe:
 - 4D event energy: $E_{4D}$ = $10^{69}$ J
-- Time dilation factor: γ_3+1D = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 = 1.1$\times$$10^{77}$
-- 4D-frame lifetime: T_3D = γ_3+1D $\times$ $t_{\rm Pl,4D}$ = 1.8$\times$$10^{26}$ yr (matches paper's 2$\times$$10^{26}$ yr **[PASS]**)
-- 3+1D proper lifetime: τ_3+1D_proper = $t_{\rm Pl,4D}$ = 5.39$\times$$10^{-44}$ s
+- Time dilation factor: γ_3+1D = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 = $1.1 \times 10^{77}$
+- 4D-frame lifetime: T_3D = γ_3+1D $\times$ $t_{\rm Pl,4D}$ = $1.8 \times 10^{26}$ yr (matches paper's $2 \times 10^{26}$ yr **[PASS]**)
+- 3+1D proper lifetime: τ_3+1D_proper = $t_{\rm Pl,4D}$ = $5.39 \times 10^{-44}$ s
 
-**Interpretation:** In our universe's own frame, the universe lives for 1 Planck time (in 4D's Planck units). In 4D's view, the universe lives for 2$\times$$10^{26}$ yr. The ratio is the time dilation factor γ = $10^{77}$.
+**Interpretation:** In our universe's own frame, the universe lives for 1 Planck time (in 4D's Planck units). In 4D's view, the universe lives for $2 \times 10^{26}$ yr. The ratio is the time dilation factor γ = $10^{77}$.
 
 **3.18.5 The "democratic" cosmology extends to every level.**
 
@@ -1575,8 +1575,8 @@ Each level of SIDC has the same structure:
 | 0D | 0 | — | none | — | — |
 | 1D | 1 | varies | 1 Planck time in 1D | γ_1D | varies |
 | 2D | 2 | varies | $t_{\rm Pl,3+1D}$ in 2D frame | $\gamma_{2D}$ = (E/$E_{\rm Pl}$,2)^1.29 | $10^{-63}$ s to $10^{8}$ yr |
-| 3+1D | 4 | 5.39$\times$$10^{-44}$ | $t_{\rm Pl,4D}$ in 3+1D frame | γ_3+1D = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 | 2$\times$$10^{26}$ yr (ours) |
-| 4D | 5 | 7.4$\times$$10^{-28}$ | $t_{\rm Pl,5D}$ in 4D frame | γ_4D = (E_5D/$E_{\rm Pl,5D}$)^1.29 | varies |
+| 3+1D | 4 | $5.39 \times 10^{-44}$ | $t_{\rm Pl,4D}$ in 3+1D frame | γ_3+1D = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 | $2 \times 10^{26}$ yr (ours) |
+| 4D | 5 | $7.4 \times 10^{-28}$ | $t_{\rm Pl,5D}$ in 4D frame | γ_4D = (E_5D/$E_{\rm Pl,5D}$)^1.29 | varies |
 | 5D | 6 | varies | $t_{\rm Pl}$,6 in 5D frame | γ_5D = (E_6D/$E_{\rm Pl}$,6)^1.29 | varies |
 | ... | N | $t_{\rm Pl}$,N | $t_{\rm Pl}$,(N+1) in N-D frame | γ_N | varies |
 
@@ -1586,9 +1586,9 @@ In D dimensions, the Planck time scales as:
 $$t_{Pl,D} = t_{Pl,3} \times (\frac{M_{Pl,3}}{M_{Pl,D}})^{D-4}$
 
 If $M_{\rm Pl}$,D = 887 GeV (SIDC's floor) for all D ≥ 4:
-- $t_{\rm Pl,4D}$ = $t_{\rm Pl,3+1D}$ = 5.39$\times$$10^{-44}$ s
-- $t_{\rm Pl,5D}$ = 7.4$\times$$10^{-28}$ s (longer!)
-- $t_{\rm Pl}$,6 = 1.0$\times$$10^{-11}$ s (much longer)
+- $t_{\rm Pl,4D}$ = $t_{\rm Pl,3+1D}$ = $5.39 \times 10^{-44}$ s
+- $t_{\rm Pl,5D}$ = $7.4 \times 10^{-28}$ s (longer!)
+- $t_{\rm Pl}$,6 = $1.0 \times 10^{-11}$ s (much longer)
 - ...
 
 **Higher dimensions have longer Planck t\times.** This is because the Planck scale is determined by the bulk-brane geometry, which is the same at every level.
@@ -1761,11 +1761,11 @@ $$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \fra
 
 | Event | E (J) | $\gamma_{2D}$ | Relative death rate (1/$\gamma_{2D}$) |
 |-------|-------|------|------------------------------|
-| LHC (14 TeV) | 2.24$\times$$10^{-15}$ | 1.3$\times$$10^{-31}$ | 7.7$\times$$10^{30}$ (HIGH) |
-| 1 ton TNT | 4$\times$$10^{9}$ | 2.5 | 0.4 |
-| SN ($10^{44}$ J) | 6$\times$$10^{44}$ | 6$\times$$10^{44}$ | 1.7$\times$$10^{-45}$ (LOW) |
-| BNS merger | $10^{53}$ | 2.4$\times$$10^{56}$ | 4.1$\times$$10^{-57}$ (LOW) |
-| AGN outburst | $10^{55}$ | 9.2$\times$$10^{58}$ | 1.1$\times$$10^{-59}$ (LOW) |
+| LHC (14 TeV) | $2.24 \times 10^{-15}$ | $1.3 \times 10^{-31}$ | $7.7 \times 10^{30}$ (HIGH) |
+| 1 ton TNT | $4 \times 10^{9}$ | 2.5 | 0.4 |
+| SN ($10^{44}$ J) | $6 \times 10^{44}$ | $6 \times 10^{44}$ | $1.7 \times 10^{-45}$ (LOW) |
+| BNS merger | $10^{53}$ | $2.4 \times 10^{56}$ | $4.1 \times 10^{-57}$ (LOW) |
+| AGN outburst | $10^{55}$ | $9.2 \times 10^{58}$ | $1.1 \times 10^{-59}$ (LOW) |
 
 **3.23.2 Prediction 2: 2D universe death GW spectrum.**
 
@@ -1787,7 +1787,7 @@ The total 2D universe death energy in 3+1D frame = $\Omega_{\rm DM}$ = 27%. This
 
 **3.23.5 Prediction 5: 2D universe death GW has specific time signature.**
 
-A single 2D universe death in 3+1D frame lasts $\tau_{2D}$_3+1D = $\gamma_{2D}$ $\times$ $t_{\rm Pl,3+1D}$. For SN events, this is 33s; for BNS, 4.3$\times$$10^{5}$ yr; for AGN, 1.6$\times$$10^{8}$ yr. The GW burst has a specific time profile.
+A single 2D universe death in 3+1D frame lasts $\tau_{2D}$_3+1D = $\gamma_{2D}$ $\times$ $t_{\rm Pl,3+1D}$. For SN events, this is 33s; for BNS, $4.3 \times 10^{5}$ yr; for AGN, $1.6 \times 10^{8}$ yr. The GW burst has a specific time profile.
 
 **3.23.6 Falsifiability.**
 
@@ -2100,7 +2100,7 @@ $$M_V = -10.9 \quad mag (Makarov 2012)$$
 
 **SIDC's $M_{b}$ is 1000$\times$ higher than the published value.** This is
 a significant error. SIDC's interpretation of "1.0 $M_\odot$/yr $\times$ 3 Gyr
-= 3$\times$$10^{9}$ $M_\odot$" was based on a misreading of the SFH.
+= $3 \times 10^{9}$ $M_\odot$" was based on a misreading of the SFH.
 
 **3.27.1 The actual KKR 25 measurements.**
 
@@ -2116,7 +2116,7 @@ KKR 25 (Makarov et al. 2012):
 
 The intermediate-age burst (1-4 Gyr ago) corresponds to:
 - 1.2 $\times$ $10^{6}$ $M_\odot$ total mass formed
-- Average SFR: 1.2$\times$$10^{6}$/3$\times$$10^{9}$ = 4$\times$$10^{-4}$ $M_\odot$/yr (extremely low)
+- Average SFR: $1.2 \times 10^{6}$/$3 \times 10^{9}$ = $4 \times 10^{-4}$ $M_\odot$/yr (extremely low)
 
 **3.27.2 Revised $M_{dyn}$/$M_{b}$ estimates.**
 
@@ -2126,17 +2126,17 @@ For typical dSph parameters (σ = 5-15 km/s, $r_h = $300-1000 pc):
 
 | σ (km/s) | $r_h$ (pc) | $M_{dyn}$ ($M_\odot$) | $M_{dyn}$/$M_{b}$ |
 |----------|----------|-------------|-----------|
-| 5 | 300 | 1.7$\times$$10^{5}$ | 0.06 |
-| 10 | 500 | 2.8$\times$$10^{6}$ | 0.9 |
-| 10 | 1000 | 5.6$\times$$10^{6}$ | 1.9 |
-| 15 | 500 | 6.3$\times$$10^{6}$ | 2.1 |
-| 15 | 1000 | 1.3$\times$$10^{7}$ | 4.3 |
-| 20 | 500 | 1.1$\times$$10^{7}$ | 3.8 |
-| 20 | 1000 | 2.3$\times$$10^{7}$ | 7.5 |
-| 30 | 1000 | 5.1$\times$$10^{7}$ | 17 |
+| 5 | 300 | $1.7 \times 10^{5}$ | 0.06 |
+| 10 | 500 | $2.8 \times 10^{6}$ | 0.9 |
+| 10 | 1000 | $5.6 \times 10^{6}$ | 1.9 |
+| 15 | 500 | $6.3 \times 10^{6}$ | 2.1 |
+| 15 | 1000 | $1.3 \times 10^{7}$ | 4.3 |
+| 20 | 500 | $1.1 \times 10^{7}$ | 3.8 |
+| 20 | 1000 | $2.3 \times 10^{7}$ | 7.5 |
+| 30 | 1000 | $5.1 \times 10^{7}$ | 17 |
 
 For typical values (σ ~ 10-15 km/s, $r_h$ ~ 500-1000 pc):
-- $M_{dyn}$ ~ 3$\times$$10^{6}$ to 1.3$\times$$10^{7}$ $M_\odot$
+- $M_{dyn}$ ~ $3 \times 10^{6}$ to $1.3 \times 10^{7}$ $M_\odot$
 - **$M_{dyn}$/$M_{b}$ ~ 1 to 4**
 
 **3.27.3 Revised bifurcation ratio.**
@@ -2328,7 +2328,7 @@ z > 4, which is unexpected in ΛCDM:
 - **RUBIES-EGS-QG-1** (z = 4.9, 2024 Nature): a massive quiescent
   galaxy, already dead at z = 4.9
 - **ZF-UDS-7329** (z = 3.205, 2023 Nature): formed stars at z ~ 11,
-  M_* = 1.6$\times$$10^{11}$ $M_\odot$, already massive and dead
+  M_* = $1.6 \times 10^{11}$ $M_\odot$, already massive and dead
 - **Russell+ 2024 "Cosmic Stillness"**: high quiescent galaxy
   fractions across upper mass scales at 3 < z < 7
 
@@ -2458,12 +2458,12 @@ with non-trivial past SF should have non-zero $M_{dyn}$.
 
 | Galaxy | $M_{b}$ ($M_\odot$) | σ (km/s) | $r_h$ (pc) | $M_{dyn}$ ($M_\odot$) | $M_{dyn}$/$M_{b}$ | SIDC |
 |--------|-----------|----------|----------|-------------|-----------|---------|
-| **Crater II** | 3.0$\times$$10^{5}$ | 2.7 | 700 | 5.9$\times$$10^{6}$ | **19.8** | PASS (low $M_{dyn}$/$M_{b}$, but DM is non-zero) |
-| **Antlia 2** | 5.0$\times$$10^{5}$ | 5.0 | 2900 | 8.4$\times$$10^{7}$ | **168.6** | PASS (high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
-| **Boötes I** | 3.0$\times$$10^{4}$ | 5.0 | 230 | 6.7$\times$$10^{6}$ | **222.9** | PASS (high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
-| **Segue 1** | 6.0$\times$$10^{2}$ | 3.7 | 30 | 4.8$\times$$10^{5}$ | **796.1** | PASS (very high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
-| **Willman 1** | 1.0$\times$$10^{4}$ | 4.0 | 25 | 4.7$\times$$10^{5}$ | **46.5** | PASS (DM is non-zero, consistent with SIDC) |
-| **Tucana II** | 2.3$\times$$10^{3}$ | 4.5 | 165 | 3.9$\times$$10^{6}$ | **1689.6** | PASS (very high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
+| **Crater II** | $3.0 \times 10^{5}$ | 2.7 | 700 | $5.9 \times 10^{6}$ | **19.8** | PASS (low $M_{dyn}$/$M_{b}$, but DM is non-zero) |
+| **Antlia 2** | $5.0 \times 10^{5}$ | 5.0 | 2900 | $8.4 \times 10^{7}$ | **168.6** | PASS (high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
+| **Boötes I** | $3.0 \times 10^{4}$ | 5.0 | 230 | $6.7 \times 10^{6}$ | **222.9** | PASS (high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
+| **Segue 1** | $6.0 \times 10^{2}$ | 3.7 | 30 | $4.8 \times 10^{5}$ | **796.1** | PASS (very high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
+| **Willman 1** | $1.0 \times 10^{4}$ | 4.0 | 25 | $4.7 \times 10^{5}$ | **46.5** | PASS (DM is non-zero, consistent with SIDC) |
+| **Tucana II** | $2.3 \times 10^{3}$ | 4.5 | 165 | $3.9 \times 10^{6}$ | **1689.6** | PASS (very high $M_{dyn}$/$M_{b}$, consistent with SIDC) |
 
 **ALL 6 GALAXIES PASS THE QUALITATIVE TEST.** SIDC's picture
 is: DM is non-zero for any galaxy with non-trivial past SF.
@@ -2471,12 +2471,12 @@ is: DM is non-zero for any galaxy with non-trivial past SF.
 **3.31.3 Per-galaxy analysis.**
 
 **Crater II ($M_{dyn}$/$M_{b}$ = 19.8)**: low $M_{dyn}$ in absolute terms
-(5.9$\times$$10^{6}$ $M_\odot$), consistent with low past SF. $M_{dyn}$/$M_{b}$ = 19.8 is
+($5.9 \times 10^{6}$ $M_\odot$), consistent with low past SF. $M_{dyn}$/$M_{b}$ = 19.8 is
 moderate. SIDC predicts Crater II to have relatively low
 DM. **CAVEAT**: tidal disruption may have stripped some DM
 (Vivas+ 2025).
 
-**Antlia 2 ($M_{dyn}$/$M_{b}$ = 168.6)**: high $M_{dyn}$ (8.4$\times$$10^{7}$ $M_\odot$) and high
+**Antlia 2 ($M_{dyn}$/$M_{b}$ = 168.6)**: high $M_{dyn}$ ($8.4 \times 10^{7}$ $M_\odot$) and high
 $M_{dyn}$/$M_{b}$. This was historically interpreted as evidence for an
 unusual DM halo (Torrealba+ 2018, 2019), but SIDC says this
 is consistent with the galaxy's extended tidal history (which may
@@ -2488,7 +2488,7 @@ SIDC's prediction: Boötes I had efficient SF early in its
 history (per unit stellar mass), so $M_{dyn}$ is high. **CONSISTENT.**
 
 **Segue 1 ($M_{dyn}$/$M_{b}$ = 796.1)**: the most extreme UFD with $M_{b}$ ~ 600 $M_o$
-but $M_{dyn}$ ~ 5$\times$$10^{5}$ $M_o$. SIDC's prediction: Segue 1 had
+but $M_{dyn}$ ~ $5 \times 10^{5}$ $M_o$. SIDC's prediction: Segue 1 had
 extremely efficient SF (per unit stellar mass), so $M_{dyn}$ is very
 high. **CONSISTENT.**
 
@@ -2518,8 +2518,8 @@ The JWST discoveries (ZF-UDS-7329, RUBIES-EGS-QG-1) are extreme
 
 | Galaxy | z | $M_{b}$ ($M_\odot$) | SIDC prediction | Status |
 |--------|---|-----------|---------------------|--------|
-| **ZF-UDS-7329** | 3.205 | 1.6$\times$$10^{11}$ | VERY HIGH $M_{dyn}$/$M_{b}$ (extreme early SF) | $M_{dyn}$ not measured yet |
-| **RUBIES-EGS-QG-1** | 4.9 | 1.0$\times$$10^{10}$ | VERY HIGH $M_{dyn}$/$M_{b}$ (extreme early SF) | $M_{dyn}$ not measured yet |
+| **ZF-UDS-7329** | 3.205 | $1.6 \times 10^{11}$ | VERY HIGH $M_{dyn}$/$M_{b}$ (extreme early SF) | $M_{dyn}$ not measured yet |
+| **RUBIES-EGS-QG-1** | 4.9 | $1.0 \times 10^{10}$ | VERY HIGH $M_{dyn}$/$M_{b}$ (extreme early SF) | $M_{dyn}$ not measured yet |
 
 These galaxies formed their stars at z ~ 11 (only 350 Myr after the
 Big Bang) and were already massive and dead by z ~ 5. SIDC
@@ -2611,28 +2611,28 @@ orders of magnitude in $M_{b}$ (from GCs at $10^{5}$ to clusters at $10^{14}$):
 
 | Galaxy | $M_{b}$ ($M_\odot$) | $M_{dyn}$ ($M_\odot$) | $M_{dyn}$/$M_{b}$ | Type | SIDC |
 |--------|-----------|-------------|-----------|------|---------|
-| M15 (NGC 7078) | 5.0$\times$$10^{5}$ | 5.0$\times$$10^{5}$ | 1.0 | GC | **[PASS]** |
-| 47 Tucanae | 1.0$\times$$10^{6}$ | 1.0$\times$$10^{6}$ | 1.0 | GC | **[PASS]** |
-| Omega Centauri | 4.0$\times$$10^{6}$ | 5.0$\times$$10^{6}$ | 1.2 | Massive GC | **[PASS]** |
-| G1 (Mayall II) in M31 | 8.0$\times$$10^{6}$ | 1.4$\times$$10^{7}$ | 1.7 | Massive GC | **[PASS]** |
-| Tucana dSph | 2.0$\times$$10^{5}$ | 2.5$\times$$10^{5}$ | 1.3 | dSph | **[PASS]** |
-| Crater II | 3.0$\times$$10^{5}$ | 5.9$\times$$10^{6}$ | 19.8 | MW satellite | **[PASS]** |
-| NGC 1052-DF2 | 2.0$\times$$10^{8}$ | 3.0$\times$$10^{8}$ | 1.5 | UDG | **[PASS]** |
-| Antlia 2 | 5.0$\times$$10^{5}$ | 8.4$\times$$10^{7}$ | 168.6 | MW satellite | **[PASS]** |
-| Willman 1 | 1.0$\times$$10^{4}$ | 4.7$\times$$10^{5}$ | 46.5 | UFD | **[PASS]** |
-| Boötes I | 3.0$\times$$10^{4}$ | 6.7$\times$$10^{6}$ | 222.9 | UFD | **[PASS]** |
-| Segue 1 | 6.0$\times$$10^{2}$ | 4.8$\times$$10^{5}$ | 796.1 | UFD | **[PASS]** |
-| Tucana II | 2.3$\times$$10^{3}$ | 3.9$\times$$10^{6}$ | 1689.6 | UFD | **[PASS]** |
-| KKR 25 ([!]️ estimated) | 3.0$\times$$10^{6}$ | ~3$\times$$10^{6}$ *(est.)* | ~1 *(est.)* | dSph | **[PASS]** |
-| LMC | 3.0$\times$$10^{9}$ | 2.0$\times$$10^{10}$ | 6.7 | Irregular | **[PASS]** |
-| SMC | 5.0$\times$$10^{8}$ | 3.0$\times$$10^{9}$ | 6.0 | Irregular | **[PASS]** |
-| M82 (NGC 3034) | 1.0$\times$$10^{10}$ | 4.0$\times$$10^{10}$ | 4.0 | Starburst | **[PASS]** |
-| Milky Way | 6.0$\times$$10^{10}$ | 1.8$\times$$10^{12}$ | 30.0 | Spiral | **[PASS]** |
-| M31 (Andromeda) | 1.0$\times$$10^{11}$ | 1.4$\times$$10^{12}$ | 14.0 | Spiral | **[PASS]** |
-| NGC 1275 (Perseus A) | 1.0$\times$$10^{12}$ | 5.0$\times$$10^{13}$ | 50.0 | AGN host | **[PASS]** |
-| Bullet Cluster | 2.0$\times$$10^{13}$ | 1.0$\times$$10^{15}$ | 50.0 | Cluster merger | **[PASS]** |
-| Coma Cluster | 5.0$\times$$10^{13}$ | 5.0$\times$$10^{14}$ | 10.0 | Cluster | **[PASS]** |
-| Perseus Cluster | 1.0$\times$$10^{14}$ | 1.5$\times$$10^{15}$ | 15.0 | Cluster | **[PASS]** |
+| M15 (NGC 7078) | $5.0 \times 10^{5}$ | $5.0 \times 10^{5}$ | 1.0 | GC | **[PASS]** |
+| 47 Tucanae | $1.0 \times 10^{6}$ | $1.0 \times 10^{6}$ | 1.0 | GC | **[PASS]** |
+| Omega Centauri | $4.0 \times 10^{6}$ | $5.0 \times 10^{6}$ | 1.2 | Massive GC | **[PASS]** |
+| G1 (Mayall II) in M31 | $8.0 \times 10^{6}$ | $1.4 \times 10^{7}$ | 1.7 | Massive GC | **[PASS]** |
+| Tucana dSph | $2.0 \times 10^{5}$ | $2.5 \times 10^{5}$ | 1.3 | dSph | **[PASS]** |
+| Crater II | $3.0 \times 10^{5}$ | $5.9 \times 10^{6}$ | 19.8 | MW satellite | **[PASS]** |
+| NGC 1052-DF2 | $2.0 \times 10^{8}$ | $3.0 \times 10^{8}$ | 1.5 | UDG | **[PASS]** |
+| Antlia 2 | $5.0 \times 10^{5}$ | $8.4 \times 10^{7}$ | 168.6 | MW satellite | **[PASS]** |
+| Willman 1 | $1.0 \times 10^{4}$ | $4.7 \times 10^{5}$ | 46.5 | UFD | **[PASS]** |
+| Boötes I | $3.0 \times 10^{4}$ | $6.7 \times 10^{6}$ | 222.9 | UFD | **[PASS]** |
+| Segue 1 | $6.0 \times 10^{2}$ | $4.8 \times 10^{5}$ | 796.1 | UFD | **[PASS]** |
+| Tucana II | $2.3 \times 10^{3}$ | $3.9 \times 10^{6}$ | 1689.6 | UFD | **[PASS]** |
+| KKR 25 ([!]️ estimated) | $3.0 \times 10^{6}$ | ~$3 \times 10^{6}$ *(est.)* | ~1 *(est.)* | dSph | **[PASS]** |
+| LMC | $3.0 \times 10^{9}$ | $2.0 \times 10^{10}$ | 6.7 | Irregular | **[PASS]** |
+| SMC | $5.0 \times 10^{8}$ | $3.0 \times 10^{9}$ | 6.0 | Irregular | **[PASS]** |
+| M82 (NGC 3034) | $1.0 \times 10^{10}$ | $4.0 \times 10^{10}$ | 4.0 | Starburst | **[PASS]** |
+| Milky Way | $6.0 \times 10^{10}$ | $1.8 \times 10^{12}$ | 30.0 | Spiral | **[PASS]** |
+| M31 (Andromeda) | $1.0 \times 10^{11}$ | $1.4 \times 10^{12}$ | 14.0 | Spiral | **[PASS]** |
+| NGC 1275 (Perseus A) | $1.0 \times 10^{12}$ | $5.0 \times 10^{13}$ | 50.0 | AGN host | **[PASS]** |
+| Bullet Cluster | $2.0 \times 10^{13}$ | $1.0 \times 10^{15}$ | 50.0 | Cluster merger | **[PASS]** |
+| Coma Cluster | $5.0 \times 10^{13}$ | $5.0 \times 10^{14}$ | 10.0 | Cluster | **[PASS]** |
+| Perseus Cluster | $1.0 \times 10^{14}$ | $1.5 \times 10^{15}$ | 15.0 | Cluster | **[PASS]** |
 
 **22/22 galaxies pass the qualitative test** (DM is non-zero). KKR 25 included with [!]️ marker for estimated $M_{dyn}$.
 
@@ -2655,7 +2655,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 **3.32.3 Why some galaxies are NOT in the table (per user request).**
 
 **1. KKR 25 (Makarov 2012)** — **NOT MEASURED**
-- $M_{b}$ = 3.0$\times$$10^{6}$ $M_\odot$ is measured
+- $M_{b}$ = $3.0 \times 10^{6}$ $M_\odot$ is measured
 - **No published velocity dispersion** for KKR 25
 - $M_{dyn}$/$M_{b}$ is **estimated**, not measured
 - 2024-2026 literature has no new KKR 25 observations
@@ -2663,7 +2663,7 @@ the SFH, but the SIGN (non-zero) is preserved.
   but cannot be in the comparison table without a measured σ
 
 **2. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
-- $M_{b}$ ~ 7.3$\times$$10^{8}$ $M_\odot$ is measured
+- $M_{b}$ ~ $7.3 \times 10^{8}$ $M_\odot$ is measured
 - $M_{dyn}$/$M_{b}$ ~ 1.36 (Mancera Piña 2022) vs ~2-3 (Sellwood 2022)
 - 2022-2025 literature has **two contradictory conclusions**:
   - Mancera Piña 2022: "No trace of dark matter"
@@ -2746,7 +2746,7 @@ Where:
 
 **Honest finding**: SIDC predicts $M_{dyn}$/$M_{b}$ ~ 3-5, similar
 to ΛCDM. SIDC **CANNOT distinguish itself from ΛCDM** on
-these galaxies alone — both predict $M_{dyn}$ ~ 5$\times$$M_{b}$ at z>3.
+these galaxies alone — both predict $M_{dyn}$ ~ $5 \times M_{b}$ at z>3.
 
 **What WOULD distinguish SIDC from ΛCDM**: precise measurement of
 $M_{dyn}$/$M_{b}$ EVOLUTION with z. ΛCDM predicts $M_{dyn}$/$M_{b}$ ~ constant (~5$\times$)
@@ -2825,20 +2825,20 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz-μHz band.
 |-------|-------|----------|-----------|----------|
 | Core-collapse SN | $10^{44}$ | 33 | 0.03 | LISA |
 | Type Ia SN | $10^{44}$ | 33 | 0.03 | LISA |
-| BNS merger | $10^{47}$ | 2.4$\times$$10^{5}$ | 4.2$\times$$10^{-6}$ | PTA |
-| Long GRB | $10^{47}$ | 2.4$\times$$10^{5}$ | 4.2$\times$$10^{-6}$ | PTA |
-| TDE | $10^{48}$ | 4.6$\times$$10^{6}$ | 2.2$\times$$10^{-7}$ | PTA |
-| AGN flare | $10^{50}$ | 1.8$\times$$10^{9}$ | 5.7$\times$$10^{-10}$ | PTA |
-| Primordial BH merger | $10^{52}$ | 6.7$\times$$10^{11}$ | 1.5$\times$$10^{-12}$ | PTA |
+| BNS merger | $10^{47}$ | $2.4 \times 10^{5}$ | $4.2 \times 10^{-6}$ | PTA |
+| Long GRB | $10^{47}$ | $2.4 \times 10^{5}$ | $4.2 \times 10^{-6}$ | PTA |
+| TDE | $10^{48}$ | $4.6 \times 10^{6}$ | $2.2 \times 10^{-7}$ | PTA |
+| AGN flare | $10^{50}$ | $1.8 \times 10^{9}$ | $5.7 \times 10^{-10}$ | PTA |
+| Primordial BH merger | $10^{52}$ | $6.7 \times 10^{11}$ | $1.5 \times 10^{-12}$ | PTA |
 
 **Cumulative GW energy density**: For each event type, integrate
 over cosmic history:
 - SN: N_SN ~ $10^{18}$ over cosmic history, E_per_SN_GW = $f_{\rm back}$ $\times$ $10^{44}$ = $10^{-41}$ J
-- Total SN GW energy density: ρ_GW_SN = $10^{18}$ $\times$ $10^{-41}$ / 4$\times$$10^{80}$ m^3 = $10^{-103}$ J/m^3
-- $\Omega_{\rm GW}$_SN = ρ_GW_SN / ρ_crit = $10^{-103}$ / 7.6$\times$$10^{-10}$ = **$10^{-94}$**
+- Total SN GW energy density: ρ_GW_SN = $10^{18}$ $\times$ $10^{-41}$ / $4 \times 10^{80}$ m^3 = $10^{-103}$ J/m^3
+- $\Omega_{\rm GW}$_SN = ρ_GW_SN / ρ_crit = $10^{-103}$ / $7.6 \times 10^{-10}$ = **$10^{-94}$**
 
-- BNS: N_BNS ~ 3$\times$$10^{3}$/${\rm Mpc}^3$, E_per_BNS_GW = $f_{\rm back}$ $\times$ $10^{47}$ = $10^{-38}$ J
-- Total BNS GW energy density: ρ_GW_BNS = 3$\times$$10^{3}$ $\times$ $10^{-38}$ / 2.9$\times$$10^{67}$ = $10^{-102}$ J/m^3
+- BNS: N_BNS ~ $3 \times 10^{3}$/${\rm Mpc}^3$, E_per_BNS_GW = $f_{\rm back}$ $\times$ $10^{47}$ = $10^{-38}$ J
+- Total BNS GW energy density: ρ_GW_BNS = $3 \times 10^{3}$ $\times$ $10^{-38}$ / $2.9 \times 10^{67}$ = $10^{-102}$ J/m^3
 - $\Omega_{\rm GW}$_BNS = **$10^{-93}$**
 
 **PTA detection threshold**: $\Omega_{\rm GW}$ ~ $10^{-10}$ to $10^{-9}$ (NANOGrav 15-yr,
@@ -2875,15 +2875,15 @@ measurements) is the cleanest Solar System test of modified gravity.
 **Local 2D universe death mass** (within 100 pc):
 - Local stellar mass: $10^{5}$ $M_o$
 - SN events: $10^{3}$ (over 10 Gyr)
-- $M_{2D}$_local = $f_{\rm back}$ $\times$ $10^{3}$ $\times$ $10^{44}$ J / c^2 = 5.6$\times$$10^{-86}$ $M_o$
+- $M_{2D}$_local = $f_{\rm back}$ $\times$ $10^{3}$ $\times$ $10^{44}$ J / c^2 = $5.6 \times 10^{-86}$ $M_o$
 
 **Galaxy-integrated 2D universe death mass** (within 10 kpc):
-- N_SN_MW = 5$\times$$10^{8}$ (over 10 Gyr)
-- $M_{2D}$_MW = 5.6$\times$$10^{-80}$ $M_o$
+- N_SN_MW = $5 \times 10^{8}$ (over 10 Gyr)
+- $M_{2D}$_MW = $5.6 \times 10^{-80}$ $M_o$
 
 **PPN γ prediction**:
-- γ_cascade - 1 ~ $M_{2D}$_local / M_Sun = 5.6$\times$$10^{-86}$
-- Cassini 2003: |γ - 1| < 2.3$\times$$10^{-5}$
+- γ_cascade - 1 ~ $M_{2D}$_local / M_Sun = $5.6 \times 10^{-86}$
+- Cassini 2003: |γ - 1| < $2.3 \times 10^{-5}$
 - SIDC is **80 orders of magnitude BELOW Cassini precision**
 - **γ_cascade = 1.00000000 (indistinguishable from GR)**
 
@@ -2991,7 +2991,7 @@ and the testable $F_p(z)$ DM evolution.
   derivation that SIDC doesn't have
 
 **Implication for SIDC**:
-- The 5$\times$$M_{b}$ baseline is from ΛCDM-like primordial halo
+- The $5 \times M_{b}$ baseline is from ΛCDM-like primordial halo
 - SIDC's "DM = past SF" should give MORE $M_{dyn}$ for galaxies
   with more past SF, but $F_s$ is too small to account for the observed
   excess (see v2.7.50 inconsistency analysis)
