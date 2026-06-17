@@ -103,7 +103,7 @@ This is the standard interpolating function that smoothly transitions from Newto
 **Literature comparison (Li+ 2018, arXiv:1803.00022):**
 - $a_0$ = $1.20 \times 10^{-10}$ ± 0.02 m/s^2
 - sigma_int = 0.057 ± 0.002 dex
-- Reduced $\$\chi^2 = $ $1.0 (good fit)
+- Reduced $\chi^2 = 1.0$ (good fit)
 
 SIDC's $a_0$ is consistent with the literature (within 1-2 sigma). SIDC's RAR is statistically equivalent to standard MOND. SIDC adds *geometric unification* ($a_0$ emerges from 2D universe back-projection) but does not *uniquely* beat MOND via the RAR.
 
