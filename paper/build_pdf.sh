@@ -647,8 +647,11 @@
 # as en-dash (per official docs). Plain text bypasses this and renders
 # as a normal minus sign.
 # 
-# Use this for SHORT expressions (a single line of math/equation).
-# Example: "b² = -1.0" or "log g_bar ~ -12.0"
+# Use this for INLINE expressions (within a larger sentence/text).
+# When the expression is part of other prose, use plain text. Examples:
+#   "b = i is natural ... — b² = -1.0, $Q = 0$, $c = 1 ✓"
+#   "RAR extends to log $g_\\rm bar$ ~ -12.0 (MIGHTEE-HI 2025)"
+# The expressions are INLINE with other text, not standalone.
 # 
 # FIX #2: Use Unicode minus (U+2212 '−') inside $...$ math:
 #   $b^2 = −1$     (renders as proper minus)
