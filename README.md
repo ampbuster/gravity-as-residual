@@ -672,7 +672,7 @@ A new section §12 consolidates SIDC's galaxy-level tests against the *entire ga
 12. **CVnC dwarf (v2.7.32+, Hagen+ 2026)** — $M_{dyn}$ ≫ $M_{b}$ (quenched isolated dwarf, may have past interaction with NGC 4631; adds to "growing number of quenched dwarfs in underdense environments"; F(z) intermediate ~ $0.5$)
 
 **The intermediate population (v2.7.32+, §3.26):**
-- **Bidaran et al. 2025** (arXiv:2501.02910): "First detection of a sample of quenched and isolated dwarf galaxies in cosmic voids", log(M*/$M_\odot$) = 8.9-9.5, no neighbour within 1.0 Mpc
+- **Bidaran et al. 2025** (arXiv:2501.02910): "First detection of a sample of quenched and isolated dwarf galaxies in cosmic voids", $\log(M_*/M_\odot) = 8.9-9.5$, no neighbour within 1.0 Mpc
 - This is the kind of intermediate F(z) ~ $0.1--0.5$ population SIDC's smooth F(z) predicts
 - Pre-2025: population thought to be bimodal (gas-rich vs. quenched)
 - 2025-2026: intermediate population is being discovered
