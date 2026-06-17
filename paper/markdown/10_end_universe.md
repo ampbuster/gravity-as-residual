@@ -396,7 +396,7 @@ SIDC's §10 is a *speculative extension* with clear, testable, falsifiable predi
 
 ### 10.18 α sensitivity analysis: how precisely is α = 1.29 constrained? (v2.7.9+)
 
-SIDC's energy-scaling rule $\tau_{2D}$ = (E/$E_{\rm Pl}$)^α $\times$ $t_{\rm Pl}$ with α = 1.29 is calibrated to ONE data point (the SN 33s lifetime at E_SN = $10^{44}$ J). This section quantifies how sensitive SIDC's predictions are to α, and what precision of future observations would be required to falsify α = 1.29.
+SIDC's energy-scaling rule $\tau_{2D}$ = $(E/E_{\rm Pl})^{α}$ $\times$ $t_{\rm Pl}$ with α = 1.29 is calibrated to ONE data point (the SN 33s lifetime at E_SN = $10^{44}$ J). This section quantifies how sensitive SIDC's predictions are to α, and what precision of future observations would be required to falsify α = 1.29.
 
 **Sensitivity of $\tau_{2D}$ predictions to α.** For SIDC's 2D universe lifetime formula, varying α in the range [1.0, 1.6] gives:
 

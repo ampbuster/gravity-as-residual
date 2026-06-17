@@ -453,7 +453,7 @@ Where $G_{++}$ is the time-ordered (Feynman) propagator for the brane's lifecycl
 
 **The previous "phase-transition principle" used a hard threshold.** The v2.3.0 formulation postulated a *step function* for 2D universe creation: events with E > $E_{\rm crit}$ ~ $10^{30}$ J create full 2D universes, events with E < $E_{\rm crit}$ create none. This step function was used to explain why the Sun has no DM, why AGC 114905 has no DM, and why KKR 25 does have DM (via cumulative return from past activity).
 
-**Problem with the step function.** SIDC *already has* a smooth energy-scaling rule for the 2D universe's lifetime: $\tau_{2D}$ = $t_{\rm Pl}$ $\times$ (E/$E_{\rm Pl}$)^α with α = 1.29 (calibrated to the SN 33s point, §10.1). The phase-transition principle's hard threshold $E_{\rm crit}$ is *inconsistent* with this energy-scaling rule — it's an additional, separate postulate that introduces a discontinuity at E = $E_{\rm crit}$. The hard threshold is *not derived* from SIDC's other principles; it's calibrated to data (a hidden free parameter, now removed in v2.7.5).
+**Problem with the step function.** SIDC *already has* a smooth energy-scaling rule for the 2D universe's lifetime: $\tau_{2D}$ = $t_{\rm Pl}$ $\times$ $(E/E_{\rm Pl})^{α}$ with α = 1.29 (calibrated to the SN 33s point, §10.1). The phase-transition principle's hard threshold $E_{\rm crit}$ is *inconsistent* with this energy-scaling rule — it's an additional, separate postulate that introduces a discontinuity at E = $E_{\rm crit}$. The hard threshold is *not derived* from SIDC's other principles; it's calibrated to data (a hidden free parameter, now removed in v2.7.5).
 
 **The smooth creation function.** SIDC's contribution to cumulative DM from a single event of energy E is:
 

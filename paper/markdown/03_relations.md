@@ -83,7 +83,7 @@ The CGHS model [CGHS92] is a 1+1-dimensional dilaton gravity theory that is *exa
 - A specific 2D black hole mass-radius relation tied to SIDC's $f_{\rm back}$ = $10^{-85}$
 - A derivation of SIDC's birth/death GW spectrum (per §10)
 
-**Quantitative check.** SIDC's lifetime $\tau_{2D}$ = (E/$E_{\rm Pl}$)^1.29 $\times$ $t_{\rm Pl}$, calibrated to τ(SN) = 33 s, predicts:
+**Quantitative check.** SIDC's lifetime $\tau_{2D}$ = $(E/E_{\rm Pl})^{1.29}$ $\times$ $t_{\rm Pl}$, calibrated to τ(SN) = 33 s, predicts:
 - τ(LHC pp) = 3.5 $\times$ $10^{-64}$ s for E_pp = $10^{-9}$ J
 - τ(BNS merger) = 4.3 $\times$ $10^{5}$ yr for E_BNS = $10^{46}$ J
 - τ(AGN outburst) = 1.6 $\times$ $10^{8}$ yr for E_AGN = $10^{52}$ J
@@ -1234,7 +1234,7 @@ This is consistent with:
 
 **3.17.6 The deeper implication: α = 1.29 is a property of the projection geometry.**
 
-In SIDC's framework, the energy-scaling rule $\tau_{2D}$_3+1D = (E/$E_{\rm Pl}$)^1.29 $\times$ $t_{\rm Pl}$ was previously an empirical fit to the SN 33s calibration (§10.1). This new analysis shows that:
+In SIDC's framework, the energy-scaling rule $\tau_{2D}$_3+1D = $(E/E_{\rm Pl})^{1.29}$ $\times$ $t_{\rm Pl}$ was previously an empirical fit to the SN 33s calibration (§10.1). This new analysis shows that:
 
 - **If all 2D universes have the same proper lifetime** (a natural assumption for a Liouville-type 2D CFT), then
 - **The energy-scaling rule is automatically implied** by time dilation, with α = 1.29 being a property of the projection geometry (the relationship between event energy and time-dilation factor).
@@ -1313,7 +1313,7 @@ The user is right! The §3.17 logic generalizes upward in a beautiful way. The "
 
 **3.18.1 The upward extension.**
 
-§3.17 showed: all 2D universes have the same proper lifetime ($t_{\rm Pl,3+1D}$) in 2D frame, with 3+1D-frame lifetime $\gamma_{2D}$ $\times$ $t_{\rm Pl,3+1D}$ = (E/$E_{\rm Pl,3+1D}$)^1.29 $\times$ $t_{\rm Pl,3+1D}$.
+§3.17 showed: all 2D universes have the same proper lifetime ($t_{\rm Pl,3+1D}$) in 2D frame, with 3+1D-frame lifetime $\gamma_{2D}$ $\times$ $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ $\times$ $t_{\rm Pl,3+1D}$.
 
 By the same logic, **all 3+1D universes have the same proper lifetime** ($t_{\rm Pl,4D}$) in 3+1D frame, with 4D-frame lifetime γ_3+1D $\times$ $t_{\rm Pl,4D}$ = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 $\times$ $t_{\rm Pl,4D}$.
 
@@ -1321,7 +1321,7 @@ By the same logic, **all 3+1D universes have the same proper lifetime** ($t_{\rm
 
 | Level | Proper lifetime | Higher-dim Planck time | Time dilation | 4D-frame lifetime |
 |-------|-----------------|-------------------------|---------------|---------------------|
-| 2D universe | $t_{\rm Pl,3+1D}$ = $5.39 \times 10^{-44}$ s | 3+1D Planck time | $\gamma_{2D}$ = (E/$E_{\rm Pl,3+1D}$)^1.29 | (E/$E_{\rm Pl,3+1D}$)^1.29 $\times$ $t_{\rm Pl,3+1D}$ |
+| 2D universe | $t_{\rm Pl,3+1D}$ = $5.39 \times 10^{-44}$ s | 3+1D Planck time | $\gamma_{2D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ | $(E/E_{\rm Pl,3+1D})^{1.29}$ $\times$ $t_{\rm Pl,3+1D}$ |
 | 3+1D universe | $t_{\rm Pl,4D}$ = $5.39 \times 10^{-44}$ s | 4D Planck time | γ_3+1D = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 | ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 $\times$ $t_{\rm Pl,4D}$ |
 | 4D universe* | $t_{\rm Pl,5D}$ (if §3.10 extension) | 5D Planck time | γ_4D = (E_5D/$E_{\rm Pl,5D}$)^1.29 | (E_5D/$E_{\rm Pl,5D}$)^1.29 $\times$ $t_{\rm Pl,5D}$ |
 
@@ -1412,7 +1412,7 @@ See `calculations/v27_3d_universes_same_proper_lifetime.py` for the full numeric
 
 ### 3.19 Why is α = 1.29 universal? (v2.7.26+)
 
-§3.17 and §3.18 established that the time-dilation factor γ = (E/$E_{\rm Pl}$)^1.29 is the **same at every level** of SIDC. The natural next question: **why is α the same at every level?**
+§3.17 and §3.18 established that the time-dilation factor γ = $(E/E_{\rm Pl})^{1.29}$ is the **same at every level** of SIDC. The natural next question: **why is α the same at every level?**
 
 This section analyzes 5 possible answers, rated by derivability.
 
@@ -1425,7 +1425,7 @@ The bulk-brane projection in $\AdS_5$ is the same at every level. The 4D→3+1D 
 The 2D universe is described by a Liouville 2D CFT, which is scale-invariant. The 2D CFT's central charge is a property of the *theory*, not the *state*. All 2D universes (regardless of size) have the same dynamics. The lifetime scaling is set by the projection, not the 2D CFT. **Derivability:** PARTIAL — scale invariance is established, but does it imply same lifetime?
 
 **Answer 3: Time-dilation mechanism is dimension-independent.**
-SIDC's time-dilation formula γ = (E/$E_{\rm Pl}$)^1.29 is the analog of the SR Lorentz factor γ = (1-v²/c²)^(-1/2). The SR formula is the same in any dimension. SIDC's analog should also be dimension-independent. **Derivability:** CONJECTURAL — the analog is suggestive but no specific derivation.
+SIDC's time-dilation formula γ = $(E/E_{\rm Pl})^{1.29}$ is the analog of the SR Lorentz factor γ = (1-v²/c²)^(-1/2). The SR formula is the same in any dimension. SIDC's analog should also be dimension-independent. **Derivability:** CONJECTURAL — the analog is suggestive but no specific derivation.
 
 **Answer 4: RS-II bulk geometry.**
 The $\AdS_5$ curvature scale k is the same in 4D bulk and 3+1D bulk (if 4D has its own bulk). The time compression e^{-ky} has the same form at every level. The energy scaling α = 1.29 is a function of k and the projection. **Derivability:** CONJECTURAL — depends on specific bulk geometry.
@@ -1526,7 +1526,7 @@ It is **POSSIBLY WRONG** if:
 
 L9 (2D universe physics) is:
 - Properly lifetime: $t_{\rm Pl,3+1D}$ (specified in §3.17) — *plausible*
-- Time-dilation factor: $\gamma_{2D}$ = (E/$E_{\rm Pl,3+1D}$)^1.29 (specified in §3.17) — *phenomenological*
+- Time-dilation factor: $\gamma_{2D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ (specified in §3.17) — *phenomenological*
 - Mass scaling: $M_{2D}$_2D ∝ $E^{0.71}$ (specified in §3.17) — *derived*
 - Internal dynamics: Liouville CFT (plausible, not derived) — *open*
 
@@ -1567,14 +1567,14 @@ See `calculations/v27_self_critique_democratic.py` for the full self-critical an
 
 Each level of SIDC has the same structure:
 - Proper lifetime = next-dim Planck time
-- Time dilation factor γ = (E/$E_{\rm Pl}$)^1.29
+- Time dilation factor γ = $(E/E_{\rm Pl})^{1.29}$
 - 3+1D-frame lifetime = γ $\times$ $t_{\rm Pl}$
 
 | Level | D | $t_{\rm Pl}$,D (s) | Proper lifetime | Time dilation | Frame lifetime |
 |-------|---|------------|------------------|---------------|----------------|
 | 0D | 0 | — | none | — | — |
 | 1D | 1 | varies | 1 Planck time in 1D | γ_1D | varies |
-| 2D | 2 | varies | $t_{\rm Pl,3+1D}$ in 2D frame | $\gamma_{2D}$ = (E/$E_{\rm Pl}$,2)^1.29 | $10^{-63}$ s to $10^{8}$ yr |
+| 2D | 2 | varies | $t_{\rm Pl,3+1D}$ in 2D frame | $\gamma_{2D}$ = $(E/E_{\rm Pl,2})^{1.29}$ | $10^{-63}$ s to $10^{8}$ yr |
 | 3+1D | 4 | $5.39 \times 10^{-44}$ | $t_{\rm Pl,4D}$ in 3+1D frame | γ_3+1D = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 | $2 \times 10^{26}$ yr (ours) |
 | 4D | 5 | $7.4 \times 10^{-28}$ | $t_{\rm Pl,5D}$ in 4D frame | γ_4D = (E_5D/$E_{\rm Pl,5D}$)^1.29 | varies |
 | 5D | 6 | varies | $t_{\rm Pl}$,6 in 5D frame | γ_5D = (E_6D/$E_{\rm Pl}$,6)^1.29 | varies |
@@ -1599,7 +1599,7 @@ SIDC's cone-shape (§2.6) terminates at 4D as the "top". But §3.10 (extending u
 
 - Each level is similar to 3+1D (universal bulk-brane cancellation, §2.4)
 - Each level has the same proper lifetime in its own frame (democratic cosmology, §3.17-§3.18)
-- Each level has the same time-dilation factor γ = (E/$E_{\rm Pl}$)^1.29 (universal α, §3.19)
+- Each level has the same time-dilation factor γ = $(E/E_{\rm Pl})^{1.29}$ (universal α, §3.19)
 - Each level is created by events in the higher dimension
 
 **SIDC is naturally recursive.** The same physics applies at every level.
@@ -1624,7 +1624,7 @@ At every level, the parent dimension sees vastly different child lifetimes:
 
 - SIDC is naturally recursive to N dimensions
 - Each level has the same proper lifetime in its own frame
-- Each level has the same time-dilation factor γ = (E/$E_{\rm Pl}$)^1.29
+- Each level has the same time-dilation factor γ = $(E/E_{\rm Pl})^{1.29}$
 - The "democratic cosmology" extends to every level
 - SIDC's framework is general, not specific
 
@@ -1753,7 +1753,7 @@ The democratic cosmology (§3.17-§3.18) gives specific testable predictions. Th
 
 **3.23.1 Prediction 1: 2D universe death rate ∝ R(E) / $\gamma_{2D}$.**
 
-The democratic cosmology says all 2D universes have the same proper lifetime ($t_{\rm Pl,3+1D}$). The 3+1D-frame lifetime is $\tau_{2D}$_3+1D = $\gamma_{2D}$ $\times$ $t_{\rm Pl,3+1D}$ = (E/$E_{\rm Pl,3+1D}$)^1.29 $\times$ $t_{\rm Pl,3+1D}$. The death rate in 3+1D frame is:
+The democratic cosmology says all 2D universes have the same proper lifetime ($t_{\rm Pl,3+1D}$). The 3+1D-frame lifetime is $\tau_{2D}$_3+1D = $\gamma_{2D}$ $\times$ $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ $\times$ $t_{\rm Pl,3+1D}$. The death rate in 3+1D frame is:
 
 $$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D}^{3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3}})^{-1.29} \times \frac{1}{t_{Pl,3}}$
 
@@ -1929,7 +1929,7 @@ gives p = 1.0 (linear), which does NOT match p = 1.29.
 - It is NOT derived from CGHS-with-back-reaction
 - It is NOT derived from any established 2D dilaton gravity calculation
 - It is NOT in the natural CGHS back-reaction range (CGHS gives p = 1.0)
-- A specific calculation yielding $\gamma_{2D}$ = (E/$E_{\rm Pl,3+1D}$)^1.29 is needed
+- A specific calculation yielding $\gamma_{2D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ is needed
 - This is a research challenge, not a derivation
 
 **3.25.5 What web research can NOT do.**
@@ -1942,14 +1942,14 @@ Web research can:
 
 Web research CANNOT:
 - Derive a new physical formula **[FAIL]**
-- Calculate $\gamma_{2D}$ = (E/$E_{\rm Pl}$)^1.29 from first principles **[FAIL]**
+- Calculate $\gamma_{2D}$ = $(E/E_{\rm Pl})^{1.29}$ from first principles **[FAIL]**
 - Solve the CGHS-with-back-reaction equations for new scaling **[FAIL]**
 
 **3.25.6 Future work needed to close L9.**
 
 1. A specific 2D gravity model with back-reaction that gives
    τ_BH ∝ $M_{\rm BH}$^p with p $\approx$ 1.29
-2. A geometric argument for $\gamma_{2D}$ = (E/$E_{\rm Pl,3+1D}$)^1.29
+2. A geometric argument for $\gamma_{2D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$
 3. A theoretical framework connecting SIDC's projection geometry
    to CGHS 2D dilaton gravity
 
@@ -2814,10 +2814,10 @@ See `calculations/v27_desi_wz.py` for full calculations.
 
 **Motivation**: SIDC's 2D universe death events release
 gravitational wave energy. The 2D universe lifetime $\tau_{2D}$ =
-(E/$E_{\rm Pl,3+1D}$)^1.29 $\times$ $t_{\rm Pl,3+1D}$ sets the GW frequency. This is potentially
+$(E/E_{\rm Pl,3+1D})^{1.29}$ $\times$ $t_{\rm Pl,3+1D}$ sets the GW frequency. This is potentially
 detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz-μHz band.
 
-**Energy scaling rule**: $\tau_{2D}$ = (E/$E_{\rm Pl,3+1D}$)^1.29 $\times$ $t_{\rm Pl,3+1D}$
+**Energy scaling rule**: $\tau_{2D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ $\times$ $t_{\rm Pl,3+1D}$
 
 **Frequencies for different events**:
 
