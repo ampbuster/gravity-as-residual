@@ -637,7 +637,7 @@
 # in $...$), so it renders as a normal minus. To make SIDC's math
 # render correctly:
 # 
-# FIX #1 (PREFERRED for single-line expressions): Use plain text
+# FIX #1 (PREFERRED for in-line expressions): Use plain text
 # with hyphen-minus (or with .0 for integers to match decimal style).
 #   b² = -1.0      (renders as proper minus, matches -0.84 style)
 #   log g_bar ~ -12.0   (renders as proper minus, matches -0.84 style)
