@@ -444,7 +444,7 @@ Over a Hubble time ($T = 13.8$ Gyr):
 - Each SN releases ~ $10^{44}$ J of kinetic energy ~ $5.6 \times 10^{-7} M_\odot c^2$
 - Total SN energy in MW: ~ $5 \times 10^{9} M_\odot c^2$ (i.e., ~ $8\%$ of MW baryons)
 
-The math: $(5 \times 10^{9} M_\odot)$ \times A = 3.2 \times 10^{11} M_\odot$, so $A = 64\times$.
+The math: $(5 \times 10^{9} M_\odot) \times A = 3.2 \times 10^{11} M_\odot$, so $A = 64\times$.
 
 **The 2D universe's 3+1D-frame mass at death must be ~ $64\times$ the SN's baryonic energy.** This is the per-event amplification factor SIDC requires.
 
@@ -455,7 +455,7 @@ SIDC's current mechanism: the 2D universe has an *intrinsic* 2D-frame mass $M_{2
 $$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$
 
 To get the required $3.7 \times 10^{-5} M_\odot$ per universe:
-$$e^{-ky} = 3.7 \times $10^{-5}$ / 6 = 6.2 \times $10^{-6}$$
+$$e^{-ky} = 3.7 \times 10^{-5} / 6 = 6.2 \times 10^{-6}$$
 
 **Discrepancy with SIDC's stated value:** SIDC has previously stated $e^{-ky}$ ~ $10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is $6.2 \times 10^{-6}$, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
 
@@ -556,7 +556,7 @@ A natural follow-up to §3.11: **if DM is from cumulative 2D universe deaths, sh
 SIDC's §4.48 introduces a smooth function $F_p(z) = 0.9993 + 0.0007 \cdot z^2/(z_{half}^2 + z^2)$ (Hill n=2, $z_{half} = 3$, v2.7.52+ revision) that specifies the *fraction* of DM that is primordial (from 4D-event-created 2D universes) vs cumulative (from 3+1D-event-created 2D universes):
 
 $$F_p(z) = primordial fraction of DM at redshift  z$$
-$$F_{cum}(z) = 1 - $F_p(z)$ = cumulative fraction$$
+$$F_{cum}(z) = 1 - F_p(z) = \text{cumulative fraction}$$
 
 Key values:
 - $F_p(z=0) = 0.7$ (70% primordial at z=0)
@@ -731,8 +731,8 @@ The Pauli-blocked decay model works if DM is a **fermion**, with sterile neutrin
 
 - **Mass:** $m_s$ ~ $1$ GeV (from equilibrium decay rate calculation)
 - **Decay mode:** $\nu_s \to \nu_a + \gamma$ (standard sterile neutrino decay)
-- **Decay rate:** Γ ~ $G_F^2 $m_s$^5 \sin^2(2\theta) / (192 \pi^3)$
-- **X-ray/gamma-ray signature:** $E_\gamma = $m_s$/2$ ~ $500$ MeV (for 1 GeV sterile)
+- **Decay rate:** $\Gamma \sim G_F^2 m_s^5 \sin^2(2\theta) / (192 \pi^3)$
+- **X-ray/gamma-ray signature:** $E_\gamma = m_s/2 \sim 500$ MeV (for 1 GeV sterile)
 - **Current constraints:** $m_s > 4$ keV from dwarf galaxy X-ray non-detection
 
 **Alternative candidates:** any fermionic DM (WIMP, neutralino, etc.) with appropriate decay rate and Pauli-blocking physics.
@@ -741,7 +741,7 @@ The Pauli-blocked decay model works if DM is a **fermion**, with sterile neutrin
 
 This Pauli-blocked equilibrium model makes several testable predictions:
 
-1. **X-ray/gamma-ray line at $E_\gamma = $m_s$/2$** from accumulated DM decay in low-density regions. Detectable by:
+1. **X-ray/gamma-ray line at $E_\gamma = m_s/2$** from accumulated DM decay in low-density regions. Detectable by:
    - **XMM-Newton, Chandra, eROSITA** (keV X-rays for $m_s \sim$ keV)
    - **Fermi-LAT, HESS, CTA** (MeV-GeV gamma rays for $m_s \sim$ MeV-GeV)
    - **Current non-detection** constrains $m_s > 4$ keV (sterile neutrino lower bound)
@@ -753,14 +753,14 @@ This Pauli-blocked equilibrium model makes several testable predictions:
 
 3. **Relic active neutrino background:**
    - From accumulated DM decay over cosmic history
-   - Energy: $E_\nu \sim $m_s$/2$ (sterile neutrino mass half)
-   - Number density: $n_\nu$ ~ $\Omega_{DM} \rho_{crit} / $m_s$ $ ~ $10^{-6} / cm^3$ (for 1 GeV)
+   - Energy: $E_\nu \sim m_s/2$ (sterile neutrino mass half)
+   - Number density: $n_\nu \sim \Omega_{DM} \rho_{crit} / m_s \sim 10^{-6} / \text{cm}^3$ (for 1 GeV)
    - Much less than standard relic neutrinos (336/${\rm cm}^3$), but at higher energy
 
 4. **Time evolution of DM/baryon ratio:**
-   - At early t\times: ratio is lower (less cumulative DM, no decay yet)
-   - At late t\times: ratio approaches equilibrium 5.4x
-   - At future t\times: ratio stabilizes at 5.4x (or slightly higher if $R_{add}$ continues)
+   - At early times: ratio is lower (less cumulative DM, no decay yet)
+   - At late times: ratio approaches equilibrium 5.4x
+   - At future times: ratio stabilizes at 5.4x (or slightly higher if $R_{add}$ continues)
    - SIDC predicts: at $z=0$, ratio is ~ $90\%$ of equilibrium value
 
 5. **Cosmic structure formation:**
@@ -813,7 +813,7 @@ The user's insight is a major conceptual advance for SIDC. It provides:
 - DM decays slowly via $\nu_s \to \nu_a + \gamma$
 - Decay is suppressed in halos by Pauli blocking
 - DM/baryon ratio is constant at 5.4x (equilibrium)
-- "A\approximately conserved" total DM is now DERIVED, not postulated
+- "Approximately conserved" total DM is now DERIVED, not postulated
 - This is a major advancement from the v2.7.17 status (postulated)
 
 **Limitations remaining:**
@@ -954,7 +954,7 @@ SIDC is honest: this section identifies the issues and discusses alternative mec
 
 **Falsifiability:**
 - If a future observation detects an anomalous neutrino flux at MeV-GeV energies, SIDC's "stable DM" hypothesis is wrong
-- If a future observation detects an X-ray line at $E_\gamma = $m_s$/2$, SIDC's "sterile neutrino" hypothesis is right
+- If a future observation detects an X-ray line at $E_\gamma = m_s/2$, SIDC's "sterile neutrino" hypothesis is right
 - If SIDC's geometric framework is right, no specific particle detection is expected (the DM is a geometric effect)
 
 See `calculations/v27_cascade_dm_self_critique.py` for the full numerical analysis.
@@ -979,9 +979,9 @@ Several 2024 papers study Pauli blocking as a DM stability mechanism:
 
 **3.15.2 SIDC's mass problem.**
 
-SIDC's §3.13 mechanism required $m_s$ ~ $1$ GeV (from the equilibrium decay rate calculation). This is **$10^5$ t\times heavier** than the Batell-Yin bound:
+SIDC's §3.13 mechanism required $m_s$ ~ $1$ GeV (from the equilibrium decay rate calculation). This is **$10^5$ times heavier** than the Batell-Yin bound:
 
-$$\frac{$m_s$^{SIDC}}{m_{DM}^{Batell-Yin}} = \frac{1  GeV}{10  meV} = $10^{5}$$
+$$\frac{m_s^{SIDC}}{m_{DM}^{Batell-Yin}} = \frac{1 \text{ GeV}}{10 \text{ meV}} = 10^{5}$$
 
 SIDC's sterile neutrino is **way too heavy** for Pauli blocking to work.
 
@@ -1175,7 +1175,7 @@ $$\tau_{2D}^{3+1D} = (\frac{E}{E_{Pl}})^{1.29} \times t_{Pl}$
 This gives a 3+1D-frame lifetime that varies by 54 orders of magnitude across event energies (LHC to AGN).
 
 **Hypothesis:** All 2D universes have the **same proper lifetime** in their own 2D frame:
-$$\tau_{2D}^{proper} = t_{Pl} = 5.39 \times $10^{-44}$  s$$
+$$\tau_{2D}^{proper} = t_{Pl} = 5.39 \times 10^{-44} \text{ s}$$
 
 The 3+1D-frame lifetime is then:
 $$\tau_{2D}^{3+1D} = \gamma_{2D} \times \tau_{2D}^{proper}$
@@ -1195,13 +1195,13 @@ The time-dilation factor scales with event energy as $E^{1.29}$. This is a **der
 **3.17.3 Mass scaling: $M_{2D}$_2D ∝ $E^{0.71}$.**
 
 In special relativity, $\gamma = E_{rel} / (m_0 c^2)$. If the 2D universe's "relativistic energy" ~ $E$ and "rest mass" ~ $M_{2D,2D}$:
-$$\gamma_{2D} = \frac{E}{$M_{2D,2D} c^2$}$
+$$\gamma_{2D} = \frac{E}{M_{2D,2D} c^2}$$
 
 Solving:
-$$$M_{2D,2D} c^2$ = \frac{E}{\gamma_{2D}} = \frac{E}{(E/E_{Pl})^{1.29}} = E_{Pl} \times (\frac{E}{E_{Pl}})^{0.71}$
+$$M_{2D,2D} c^2 = \frac{E}{\gamma_{2D}} = \frac{E}{(E/E_{Pl})^{1.29}} = E_{Pl} \times \left(\frac{E}{E_{Pl}}\right)^{0.71}$$
 
 So the 2D universe's rest mass scales **sub-linearly** with event energy:
-$$$M_{2D,2D} c^2$ \propto E^{0.71}$
+$$M_{2D,2D} c^2 \propto E^{0.71}$$
 
 Interpretation:
 - Smaller 2D universe (low E): less rest mass per unit energy, **more** time dilation
@@ -1591,7 +1591,7 @@ If $M_{\rm Pl}$,D = 887 GeV (SIDC's floor) for all D ≥ 4:
 - $t_{\rm Pl}$,6 = $1.0 \times 10^{-11}$ s (much longer)
 - ...
 
-**Higher dimensions have longer Planck t\times.** This is because the Planck scale is determined by the bulk-brane geometry, which is the same at every level.
+**Higher dimensions have longer Planck times.** This is because the Planck scale is determined by the bulk-brane geometry, which is the same at every level.
 
 **3.21.3 SIDC's natural extension.**
 
@@ -1887,12 +1887,12 @@ back-reaction or any related 2D dilaton gravity framework**.
 The CGHS (Callan-Giddings-Harvey-Strominger 1992) 2D black hole has a
 Hawking temperature:
 
-$$T_H$ ~ $(\frac{M_{BH}}{\lambd$a_0$})^{1/2}$
+$$T_H \sim \left(\frac{M_{BH}}{\lambda a_0}\right)^{1/2}$$
 
 which is SQUARE ROOT, not linear. The 2D-frame lifetime of the black
 hole is:
 
-$$\tau_{BH}^{2D}$ ~ $4M_{BH}$
+$$\tau_{BH}^{2D} \sim 4M_{BH}$$
 
 This is **LINEAR** in $M_{\rm BH}$ (in 2D Planck units), giving p = 1.0.
 This is the Frolov-Zelnikov / Strominger-Thorlacius result.
@@ -1902,7 +1902,7 @@ has a critical mass M_c above which a black hole forms. Below M_c,
 the matter disperses without forming a horizon. The lifetime for
 $M_{\rm BH}$ > M_c is again approximately:
 
-$$\tau_{BH}^{2D}$ ~ $4M_{BH} \quad (linear)$$
+$$\tau_{BH}^{2D} \sim 4M_{BH} \quad (\text{linear})$$
 
 Various extensions (Bardeen-like, regular, JT gravity, etc.) modify
 the inner structure but generally preserve the LINEAR lifetime scaling.
@@ -2090,12 +2090,12 @@ A web search for the actual Makarov 2012 KKR 25 paper
 (arXiv:1206.5545) reveals a major numerical inconsistency in the
 SIDC's KKR 25 entry. SIDC had:
 
-$$M_b = 3.0 \times $10^{9}$   M_\odot \quad (SIDC, WRONG)$$
-$$M_{\rm dyn}/$M_{b} = 299$ \quad (SIDC)$$
+$$M_b = 3.0 \times 10^{9} \, M_\odot \quad (\text{SIDC, WRONG})$$
+$$M_{\rm dyn}/M_{b} = 299 \quad (\text{SIDC})$$
 
 But Makarov 2012 reports:
 
-$$M_b = 3.0 \pm 0.3 \times $10^{6}$   M_\odot \quad (Makarov 2012)$$
+$$M_b = 3.0 \pm 0.3 \times 10^{6} \, M_\odot \quad (\text{Makarov 2012})$$
 $$M_V = -10.9 \quad mag (Makarov 2012)$$
 
 **SIDC's $M_{b}$ is 1000× higher than the published value.** This is
@@ -3247,7 +3247,7 @@ operators, just 1 universal 2D universe seen at 14 different $\gamma$.
 
 **Test of this insight**: For each of 11 SIDC events,
 $\tau_{\rm proper} = \tau_{\rm obs} \times (E/E_{\rm Pl})^{-1.29}$
-should equal $t_{\rm Pl}$. The values span $\sim$30% scatter around
+should equal $t_{\rm Pl}$. The values span $\sim 30\%$ scatter around
 $t_{\rm Pl}$ — consistent with democratic cosmology.
 
 **Mass scaling** (forced by data): $M_{2D,3+1D} = M_{\rm Pl} \times (E_{\rm Pl}/E)^{0.29}$.

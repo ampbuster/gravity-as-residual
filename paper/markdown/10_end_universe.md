@@ -40,9 +40,9 @@ This is a **unification**: 2D universes from supernovae and our 3D universe are 
 
 For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × (t_{Pl,3} / t_{Pl,4}) and the energy-scaling result T₃D = $2 \times 10^{26}$ yr:
 
-$$\frac{t_{Pl,3}}{t_{Pl,4}} \geq \frac{13.8 Gyr}{2\times$10^{26}$ yr} = 7\times$10^{-17}$$
+$$\frac{t_{Pl,3}}{t_{Pl,4}} \geq \frac{13.8 \text{ Gyr}}{2\times 10^{26} \text{ yr}} = 7\times 10^{-17}$$
 
-$$\Rightarrow $M_{\rm Pl,4D} \geq 887$ GeV$$
+$$\Rightarrow M_{\rm Pl,4D} \geq 887 \text{ GeV}$$
 
 **This is a *floor* on the 4D Planck mass.** It is the electroweak scale. It is also exactly the **ADD-model prediction** for large extra dimensions (Arkani-Hamed, Dimopoulos, Dvali 1998): the fundamental higher-dimensional Planck mass sits at the TeV scale, with large extra dimensions "diluting" gravity to its observed 3+1D strength.
 
