@@ -624,7 +624,7 @@ The 47 Tuc test does NOT depend on the speculative end-of-universe extension in 
 
 A new section §10 derives speculative but *testable* end-of-universe signatures from SIDC's energy-scaling ladder:
 
-- **Energy-scaling rule:** τ_{D-1} = $t_{\rm Pl,3+1D}$ × (E_D/$E_{\rm Pl,3+1D}$)^1.29, with $\alpha = 1.29$ forced by SN 33s calibration
+- **Energy-scaling rule:** $\tau_{D-1} = t_{\rm Pl,3+1D} \times (E_D/E_{\rm Pl,3+1D})^{1.29}$, with $\alpha = 1.29$ forced by SN 33s calibration
 - **Relativistic-particle analogy:** 2D universes are "particles" with mass-dependent time dilation; smaller (lower-E) events create "lighter" 2D universes with more time dilation
 - **$M_{\rm Pl,4D}$ ≥ 887 GeV floor:** derived from the 3D-alive constraint, coincides with ADD-model electroweak-scale prediction
 - **If $M_{\rm Pl,4D}$ ~ ${\rm TeV}$:** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life)
