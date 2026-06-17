@@ -99,10 +99,10 @@ SIDC's parsimony is **conceptual**, not **parametric**:
 Continued web research in June 2026 yielded **45 external constraints** (in 9 categories) that converge on SIDC's 2D CFT parameters, refine its interpretation, and provide one new testable prediction:
 
 **4 PARAMETER-REDUCING** (reduce 4 free $\to$ 2 free parameters $\mu$, $m_{3+1D}$):
-1. **b = i** is natural for c = 1 (single scalar 2D CFT, IHES Vargas) — $b^2 = −1$, $Q = 0$, $c = 1$ ✓
+1. **b = i** is natural for c = 1 (single scalar 2D CFT, IHES Vargas) — b² = −1, $Q = 0$, $c = 1$ ✓
 2. **$m_{3+1D}$ > 8 $\times$ $10^{-18}$ eV** (Dalal & May 2025, ultra-faint dwarf kinematics) — SIDC $10^{-15}$ GeV is 1.25 $\times$ $10^{11}$ ABOVE bound ✓
 3. **JT gravity on Karch-Randall brane** (PRL 129, 231601) — SIDC 2D universe = JT excitation, $M_{2D} = 10^{38}$ GeV
-4. **RAR extends to log $g_{\rm bar}$ $\sim −12$** (MIGHTEE-HI 2025, arXiv:2504.20857) — SIDC's MOND behavior testable to lowest accelerations
+4. **RAR extends to log $g_{\rm bar}$ ~ −12** (MIGHTEE-HI 2025, arXiv:2504.20857) — SIDC's MOND behavior testable to lowest accelerations
 
 **7 INTERPRETIVE — COSMOLOGICAL** (strengthen qualitative SIDC framework):
 5. **JT gravity as universal BH EFT** (Castro, Iqbal 2025) — SIDC 2D universe = standard 2D EFT for highly curved space-times
@@ -922,7 +922,7 @@ This section lists open questions for future research. Updated at v2.7.67.
 
 ### Open data tests
 
-11. **DESI DR3 (2026-2027)**: tests evolving w(z) — SIDC predicts w = −1 (consistent with ΛCDM)
+11. **DESI DR3 (2026-2027)**: tests evolving w(z) — SIDC predicts w = -1 (consistent with ΛCDM)
 12. **LSST Y1 (2027)**: tests 47 Tuc $M_{dyn}$, intermediate dwarf population
 13. **SKA-MPG (2030s)**: tests $\alpha = 1.29$ precision via PTA stochastic background
 14. **LISA (2034+)**: tests 2D universe death GW (SIDC predicts below detection, NULL is consistent)
