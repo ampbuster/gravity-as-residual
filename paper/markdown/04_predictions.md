@@ -12,11 +12,11 @@ In the scale-invariant version of this model, dark matter is the collective grav
 
 **Recent RAR results (2024–2025).** The RAR has been confirmed and extended by several recent studies. MIGHTEE-HI [Vărăşteanu25] confirmed the RAR with a large new sample using resolved stellar mass measurements. [Mistele24] combined kinematic and weak-lensing data to extend the RAR over a large dynamic range, with consistent results. However, *recent* studies have also identified *deviations* from a single universal RAR:
 
-- The EDGE collaboration [Júlio25] found that low-mass dwarf galaxies ($M_{bar}$ ~ $10^{8}$ $M_o$) lie *systematically above* the low-mass extrapolation of the RAR — meaning the RAR is *not* a single universal function at low masses.
+- The EDGE collaboration [Júlio25] found that low-mass dwarf galaxies ($M_{bar} \sim 10^{8}$ $M_o$) lie *systematically above* the low-mass extrapolation of the RAR — meaning the RAR is *not* a single universal function at low masses.
 - [Mercado24] found that the RAR has subtle "hooks and bends" in its shape, not a single smooth function.
 - [Tian24] found that Brightest Cluster Galaxies (BCGs) follow a *different* RAR from typical spirals.
 
-These results show that the RAR is *approximately* tight, but *not perfectly universal* across all galaxy types and mass ranges. The RAR's tightness at intermediate masses ($10^{9}$ – $10^{11}$ $M_o$) is the most robust feature; deviations at low masses and in BCGs are now well-established.
+These results show that the RAR is *approximately* tight, but *not perfectly universal* across all galaxy types and mass ranges. The RAR's tightness at intermediate masses ($10^{9}$--$10^{11}$ $M_o$) is the most robust feature; deviations at low masses and in BCGs are now well-established.
 
 **Implications for our model.** Our model is *qualitatively consistent* with the RAR's tightness at intermediate masses: more visible mass → more activity on average → more dark matter. The model's *additional* prediction is that the *small* scatter in the RAR at fixed visible mass should correlate with *current* activity, which is testable but not yet definitively tested. The recent *deviations* from a single universal RAR (dwarfs above the extrapolation, BCGs on a different relation) are *not* directly predicted by the model in its current form — but the model could potentially accommodate them by allowing the proportionality between activity and dark matter to vary with galaxy type or mass. A *specific* implementation of the model would need to derive the RAR's exact shape and the source of its deviations to be a quantitative match to the data.
 
@@ -38,7 +38,7 @@ For a Milky Way-like galaxy ($M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, $f
 
 **The RAR across mass scales: SIDC vs. observations (v2.2.1).** A more stringent test of SIDC's g₊ prediction comes from comparing SIDC to recent observations across the *full* mass spectrum. Three recent observational results are particularly relevant:
 
-1. **McGaugh+ 2016 (galaxies)**: $g_+ = 1.2 \times 10^{-10}$ m/s² (a tight, approximately universal relation for spiral galaxies with $M_{bar} \sim $10^{8}$ - 10^{11} M_\odot$).
+1. **McGaugh+ 2016 (galaxies)**: $g_+ = 1.2 \times 10^{-10}$ m/s² (a tight, approximately universal relation for spiral galaxies with $M_{bar} \sim 10^{8}$ - 10^{11} M_\odot$).
 
 2. **Júlio+ 2025 (EDGE, dwarfs)**: 12 nearby dwarf galaxies with $M_{bar} \sim $10^{4}$ - 10^{7.5} M_\odot$ lie *systematically above* the low-mass extrapolation of the McGaugh+ 2016 RAR. Each galaxy traces a multi-valued locus in RAR space (the same baryonic acceleration can correspond to different observed accelerations). The conclusion: *"the RAR does not apply to low-mass dwarf galaxies"* [Júlio+ 2025, A&A 704, A330].
 
@@ -508,7 +508,7 @@ Both interpretations are consistent with the dimensional-SIDC framework. The "vo
 
 *This subsection is the most speculative part of the paper. It is offered as a philosophical/interpretive extension, not a derived claim. We include it because it follows naturally from the dimensional-SIDC framework, but it should be read with appropriate skepticism.*
 
-**The puzzle of the constants.** Standard physics leaves many *constants* unexplained. The electron has a specific mass (~511 keV/$c^2$). The speed of light has a specific value ($c \approx 3 \times 10^8$ m/s). Planck's constant has a specific value. The fine structure constant is ~1/137. The proton-to-electron mass ratio is ~1836. The cosmological constant has a specific (small) value. Absolute zero is exactly 0 K. The list goes on. These constants are *measured*, not *derived*. We use them in our equations, but we don't have a *theory* of why they have the values they do.
+**The puzzle of the constants.** Standard physics leaves many *constants* unexplained. The electron has a specific mass (~511 keV/$c^2$). The speed of light has a specific value ($c \approx 3 \times 10^{8}$ m/s). Planck's constant has a specific value. The fine structure constant is ~1/137. The proton-to-electron mass ratio is ~1836. The cosmological constant has a specific (small) value. Absolute zero is exactly 0 K. The list goes on. These constants are *measured*, not *derived*. We use them in our equations, but we don't have a *theory* of why they have the values they do.
 
 **The dimensional-SIDC interpretation.** In the dimensional-SIDC framework, all of these constants would be *consequences* of the *specific 4D event* that created our 3+1D universe. The 4D event has specific properties: a specific energy, a specific spatial structure, a specific duration, a specific set of internal dynamics. The dimensional projection of *that specific event* into 3+1D gives a *specific* set of constants. Different 4D events would give different 3+1D universes with different constants.
 
@@ -2004,7 +2004,7 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type stars alive, no SN progenitors in the recent past). The emulator's SFH is:
 - $SFR(t) = 0.5 M_\odot/yr$ for $t \in [0.5, 2.0]$ Gyr (lookback)
-- $M_b$ (current) = $7.3 \times $10^{8}$ M_\odot$ (REVISED v2.7.33+: was $2 \times 10^8$ — SIDC's $M_{b}$ was wrong)
+- $M_b$ (current) = $7.3 \times 10^{8}$ M_\odot$ (REVISED v2.7.33+: was $2 \times 10^{8}$ — SIDC's $M_{b}$ was wrong)
 - $M_{total formed} = 7.3 \times $10^{8}$ M_\odot$ (1.5 Gyr of SF)
 - $N_{CCSN, total} = 1.1 \times 10^6$
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
@@ -2104,7 +2104,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 | $SFH$ window | [0.5, 2.0] | Gyr (lookback) | "A-type stars only" |
 | $M_{total formed}$ | $7.3 \times 10^8$ | $M_\odot$ | ∫ SFR dt = 0.5 × 1.5 Gyr |
 | $E_{total injected}$ | $1.1 \times 10^{51}$ | J | $N_{CCSN} \times E_{CCSN}$ |
-| $N_{CCSN, total}$ | $1.1 \times 10^6$ | events | 15% IMF + E_CCSN |
+| $N_{CCSN, total}$ | $1.1 \times 10^{6}$ | events | 15% IMF + E_CCSN |
 | Recent event rate (50 Myr) | 0 | events/Myr | "no current SN progenitors" |
 | **SIDC $M_{dyn}/M_b$** | **1.36** | dimensionless | emulator output |
 | **Observed $M_{dyn}/M_b$** | ~1-2 | dimensionless | Mancera Piña+ 2024 |
