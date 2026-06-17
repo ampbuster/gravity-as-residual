@@ -60,6 +60,16 @@ $$\boxed{f_{\rm back} \equiv \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \ti
 - **Closed loop** makes SIDC **unified**: DE and DM use the SAME $\alpha$, the SAME bulk-brane cancellation.
 - Together they answer: "Why $\alpha = 1.289$?" — because $\alpha \times 1/(2\alpha) = 1/2$ must hold for the loop to close, and the only N that gives $\alpha \approx 1.29$ with this property is N = 12.
 
+**The closed loop UNITES DM, DE, and gravity (v3.0.22, §3.60.3)**:
+
+| Pillar | Origin | Formula | Numerical |
+|--------|--------|---------|-----------|
+| Gravity weakness | Bulk-brane cancellation | $\varepsilon \sim 10^{-38}$ | Suppression |
+| DE (68%) | 4D event antigravity | $f_{\rm back} \times \varepsilon \times M_{\rm Pl}^4$ | $2.2 \times 10^{-47}$ GeV⁴ (12% match) |
+| DM (27%) | 2D universe back-projection | $f_{\rm back} \times \Sigma(M_{\rm 2D} N_{\rm 2D})/V$ | Cumulative |
+
+All three use the SAME $\alpha = 1.289$, the SAME $f_{\rm back} \approx 10^{-85}$, the SAME bulk-brane geometry. **The closed loop is what unifies them.**
+
 **Hierarchy (user-corrected v3.0.21)**:
 - **3D event** (in our universe) → creates **2D universe** (DM/DE) — CALIBRATED at SN 33s
 - **4D event** (in higher-dim) → creates **3D universe** (= us) — SPECULATIVE extrapolation

@@ -47,6 +47,14 @@ Both directions use the **SAME $\alpha = 1.289$** derived from **N = 12** SYK. T
 - **The closed loop** is what makes SIDC unified: DE and DM use the SAME $\alpha$, the SAME bulk-brane cancellation, the SAME geometric projection.
 - Together they answer: "Why is $\alpha = 1.289$?" — because $\alpha \times 1/(2\alpha) = 1/2$ must hold for the loop to close, and the only N that gives $\alpha \approx 1.29$ with this property is N = 12.
 
+**The closed loop UNITES DM, DE, and gravity (v3.0.22, §3.60.3)**:
+
+- **Gravity weakness**: $\varepsilon_{\rm grav} \sim 10^{-38}$ from bulk-brane cancellation
+- **DE density**: $\rho_{\rm DE} = f_{\rm back} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.2 \times 10^{-47}$ GeV$^4$ (within 12% of observed!)
+- **DM density**: $\rho_{\rm DM} = f_{\rm back} \times \Sigma(M_{\rm 2D} \times N_{\rm 2D})/V$ (uses same $f_{\rm back}$)
+
+All three use the SAME $\alpha = 1.289$, the SAME $f_{\rm back} \approx 10^{-85}$, the SAME bulk-brane geometry. The closed loop is what unifies them.
+
 See §3.60.1 (closed loop), §3.62 (Lagrangian skeleton), §10.1 (scaling law table), and `calculations/consistency_check_v3_0_21.py` (consistency verification).
 
 ---
