@@ -19,7 +19,7 @@
 
 **Version:** 3.0.20 (June 2026) — *Tables now render in PDF (was raw text in v3.0.17). Switched pandoc to markdown+grid_tables+pipe_tables+raw_tex. Added post-processors for LaTeX escaping issues. 409 pages.*
 
-**Version:** 2.7.68 (June 2026) — *Stopping for now. Added TODO section to README with 10 open research questions (1/√N derivation, CKM/PMNS, SM mass ratios, BLG refinement, $\AdS_2$ × S², N=12 reason, full SYK sim, Hawking spectrum, DSSYK, Leech/2). Paper inconsistencies fixed (limitation count 81, §3.48 v2.7.60+ supersession note). Layman summary updated with 'Why 12?' section. No new research, paper preserved at 294 pages, 81 honest limitations.*
+**Version:** 2.7.68 (June 2026) — *Stopping for now. Added TODO section to README with 10 open research questions (1/√N derivation, CKM/PMNS, SM mass ratios, BLG refinement, AdS₂ × S², N=12 reason, full SYK sim, Hawking spectrum, DSSYK, Leech/2). Paper inconsistencies fixed (limitation count 81, §3.48 v2.7.60+ supersession note). Layman summary updated with 'Why 12?' section. No new research, paper preserved at 294 pages, 81 honest limitations.*
 
 **Version:** 2.7.22 (June 2026) — *+Updated §0 Parameter Glossary (4 calibrated postulates incl. $A_{event}$ ~ 67 per-event amplification, $F_p(z)$ as smooth function) +Updated §7.0 categorical summary (40 limitations: 18 OPEN, 10 PARTIAL, 7 CLOSED, 2 FALSIFIED, 2 REVERTED, 1 DISCARDED) +§3.16 NEW: meta-section on user-prompted self-critique as a method (formalized methodology, §3.13 → §3.14 → §3.15 worked example): user-prompted self-critique as a method.* 45 observational and theoretical constraints from 2024-2026 web research are catalogued: 4 parameter-reducing (4 free → 2 free parameters: μ, $m_{3+1D}$), 7 interpretive-cosmological (TRGB $H_0 = 69.8 \pm 1.9$ is 0.2σ from SIDC $H_{0,4D} = 70.16$ — the KILLER MATCH), 4 interpretive-theoretical (JT gravity = c=1 string limit; matrix model is exact 2D quantum gravity; Schwarzian spectrum), 15 from latest 2024-2025 datasets, 5 late 2025-2026, 5 extended 2025-2026, 5 round 8 (eROSITA ultralight axion, SPHEREx first map, GW231123 most massive BBH, GW230529 NSBH, ACT DR6 + DESI DR1 + Planck NPIPE $H_0$=69.08), and 1 NEW SIDC PREDICTION (2D universe birth stochastic GW background, testable with SKA-MPG in 2030s). The c=1 string theory matrix model is the unique exactly solvable 2D QG, with rigorous DOZZ proof (Sept 2025). §8.1.1–§8.1.10 added in paper.
 **Status:** Public release. 5/27/68 is treated as observational data (Planck 2018) with SIDC providing a qualitative interpretation. Earlier 4-zone H(z) attempts (v2.7) and the 5/27 inner split (v2.7.1) are removed as post-hoc fits.
@@ -888,9 +888,9 @@ This section lists open questions for future research. Updated at v2.7.67.
    - Need: specific Bistritzer-MacDonald calculation
    - Status: SIDC's "magic angle" is 1.5-2.0°, not 1.1°
 
-5. **Establish $\AdS_2$ × S² topology** (L82 REVISED)
-   - For α > 0, need $\AdS_2$ × S² (not pure $\dS_2$)
-   - Need: Majorana fermion matter in $\dS_2$ calculation
+5. **Establish AdS₂ × S² topology** (L82 REVISED)
+   - For α > 0, need AdS₂ × S² (not pure dS₂)
+   - Need: Majorana fermion matter in dS₂ calculation
    - Status: Nariai-LIKE but not exactly Nariai
 
 6. **Why N=12 specifically?** (L68 NEW)
