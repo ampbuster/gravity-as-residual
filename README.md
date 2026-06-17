@@ -280,13 +280,13 @@ KKR 25's $M_{dyn}$ is **estimated** (⚠️), not measured.
 
 The $M_{dyn}/M_b$ ratio varies systematically with galaxy type:
 
-- **Globular clusters** ($10^{5}\text{--}10^{7}\,M_\odot$): $M_{dyn}/M_b \sim 1$ (no current activity)
-- **Dwarf galaxies** ($10^{5}\text{--}10^{8}\,M_\odot$): $M_{dyn}/M_b \sim 1\text{--}1700$ (huge spread)
-- **UFDs** ($10^{2}\text{--}10^{4}\,M_\odot$): $M_{dyn}/M_b \sim 50\text{--}1700$ (extreme)
-- **Irregular galaxies** ($10^{8}\text{--}10^{9}\,M_\odot$): $M_{dyn}/M_b \sim 6\text{--}7$
-- **Normal spirals** ($10^{10}\text{--}10^{11}\,M_\odot$): $M_{dyn}/M_b \sim 14\text{--}30$
-- **AGN hosts** ($10^{12}\,M_\odot$): $M_{dyn}/M_b \sim 50$
-- **Galaxy clusters** ($10^{13}\text{--}10^{14}\,M_\odot$): $M_{dyn}/M_b \sim 10\text{--}50$
+- **Globular clusters** $(10^{5}\text{--}10^{7}\,M_\odot)$: $M_{dyn}/M_b \sim 1$ (no current activity)
+- **Dwarf galaxies** $(10^{5}\text{--}10^{8}\,M_\odot)$: $M_{dyn}/M_b \sim 1\text{--}1700$ (huge spread)
+- **UFDs** $(10^{2}\text{--}10^{4}\,M_\odot)$: $M_{dyn}/M_b \sim 50\text{--}1700$ (extreme)
+- **Irregular galaxies** $(10^{8}\text{--}10^{9}\,M_\odot)$: $M_{dyn}/M_b \sim 6\text{--}7$
+- **Normal spirals** $(10^{10}\text{--}10^{11}\,M_\odot)$: $M_{dyn}/M_b \sim 14\text{--}30$
+- **AGN hosts** $(10^{12}\,M_\odot)$: $M_{dyn}/M_b \sim 50$
+- **Galaxy clusters** $(10^{13}\text{--}10^{14}\,M_\odot)$: $M_{dyn}/M_b \sim 10\text{--}50$
 
 SIDC's qualitative picture: galaxies with non-trivial past SF
 have non-zero $M_{dyn}$. The specific value of $M_{dyn}/M_b$ depends on
@@ -706,8 +706,8 @@ at z $\sim 10\text{--}12$.
 
 **SIDC's interpretation**: these galaxies are SIDC's
 **strongest observational evidence**. They have:
-- Very high past SF ($10^{9}\text{--}10^{10}\,M_\odot$ in $\sim 200$ Myr at $z \sim 10\text{--}12$)
-- Many SN events ($10^{6}\text{--}10^{7}$ CCSN per galaxy)
+- Very high past SF $(10^{9}\text{--}10^{10}\,M_\odot$ in $\sim 200$ Myr at $z \sim 10\text{--}12$)
+- Many SN events $(10^{6}\text{--}10^{7}$ CCSN per galaxy)
 - Total SN energy $\sim 10^{55}$--$10^{56}$ J per galaxy
 - SIDC prediction: $M_{dyn}/M_b$ should be VERY HIGH (consistent
   with SIDC's SFH-DM correlation)
