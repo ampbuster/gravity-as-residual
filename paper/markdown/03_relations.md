@@ -3412,16 +3412,32 @@ for a numerical demonstration of $Z_{\rm SIDC} = Z_{\rm JT}
 After §3.62.1, we tried 5 more angles to close L41, L42, L43.
 Honest summary:
 
-**v14 (M^1.29 universality across 14 events)**: Direct check of
-the scaling law for 14 SIDC events. **FINDING**: High-energy events
-(E > 10^30 J: SN, BNS, BBH, GRB) all give $\alpha_{\rm implied}$
-= 1.12 to 1.45, consistent with $\alpha = 1.289$ within 10-15%
-scatter. Low-energy events (solar flare, earthquake, cosmic ray
-shower) give wildly different $\alpha$. **CONCLUSION**:
-M^1.29 is empirically supported for HIGH-ENERGY creation events
-but is NOT universal across all 14 events. Some events in §3.17
-list are NOT real 4D events creating 2D universes — this needs
-refinement of the democratic cosmology list.
+**v14 (M^1.29 universality across 14 events)**: Initial check
+of the scaling law by comparing $\tau_{\rm obs}$ with
+$\gamma \times t_{\rm Pl}$. User correctly pointed out (v3.0.21)
+that the scaling law IS the time dilation, so this isn't an
+independent check but a CONSEQUENCE of the framework.
+
+**v14c (CORRECTED v14, scaling law = time dilation)**: Properly
+checks the scaling by INVERTING: from observed $\tau_{\rm obs}$,
+compute implied $\gamma = \tau_{\rm obs}/t_{\rm Pl}$, then
+$\E_{\rm implied} = E_{\rm Pl} \times \gamma^{1/\alpha}$.
+Compare with natural energy of the event.
+
+**FINDING (v14c)**:
+- SN1987A: $E_{\rm implied} = 10^{44}$ J = natural $E$ (calibration) ✓
+- Long GRB, AGN, Type Ia SN, Short GRB: $E_{\rm implied}$ within 30x of natural ✓
+- GW170817 chirp (100 s): $E_{\rm implied} = 6 \times 10^{42}$ J, natural $= 10^{45}$ J (off by 200x)
+- GW150914 chirp (0.1 s): $E_{\rm implied} = 2 \times 10^{42}$ J, natural $= 10^{47}$ J (off by $3 \times 10^5$)
+- Low-E events (LHC, earthquake, cosmic ray): off by 10^30 to 10^50
+
+**CONCLUSION (v14c)**: The scaling law is the time dilation
+framework itself (§3.17, §3.18). It works to ~100x scatter
+for high-E events. For GW events, the chirp duration is
+not the relevant $\tau_{\rm obs}$ — the merger or ringdown
+timescale might be more appropriate. **The "E" in the scaling
+formula is EVENT-SPECIFIC**, not always the radiated energy.
+L93 REVISED to reflect this understanding.
 
 **v15 (Variational Liouville + DOZZ for $\mu$)**: Tried to derive
 $\mu$ from c=1 Liouville structure. **KEY FINDING**: In c=1
@@ -3481,6 +3497,8 @@ direct consequence of the 2D partition function.
   correct observable identification needed. Pure 2D partition
   function doesn't give $\alpha = 1.289$ directly.
 - L48 ($f_{\rm back}$): Form closed via §3.60; value calibrated.
+- L93 (REVISED): M^1.29 scaling IS the time dilation; works to ~100x
+  scatter for high-E events; "E" in formula is event-specific
 
 **Net new limitations**: L93-L97 added (one per v14-v19).
 
