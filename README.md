@@ -507,7 +507,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 | `calculations/baryon_plasma_cascade_v2.py` | Thomson + recombination (v2, marked buggy) | supplementary |
 | `calculations/matter_radiation_equality_R_z.py` | R(z) through z ~ $3400$ | supplementary |
 | `calculations/f_active_consistency.py` | $f_{\rm active}$ rename verification | documentation |
-| `calculations/cmb_cascade_prediction.py` | CAMB CMB test ( $\Delta\chi^2$=+650) | #3 (Hubble tension) |
+| `calculations/cmb_cascade_prediction.py` | CAMB CMB test ( $\Delta\chi^2 = +650$) | #3 (Hubble tension) |
 | `calculations/cosmic_shear_cascade.py` | $S_8$ within 1σ of DES/KiDS | #3 |
 | `calculations/rar_per_galaxy_gplus_v3.py` | 43-galaxy per-galaxy $g_+$ | #3 |
 | `calculations/verify_tensor_pipeline.py` | 5-check T^eff_μν verification | structural |
@@ -529,7 +529,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 
 5. **§4.51 Baryon plasma refinement (commit 276)**: user asked "if matter is 5% even without stars, why don't baryon collisions create 2D universes?" Broadened the principle to include Thomson scattering. First result: r(z=6) = 0.66 — but it turned out to be a happy accident (wrong temperature bug).
 
-6. **§4.51–§4.53 Three bug fixes (commit 277)**: deeper audit found three bugs (v4 missing (1+z)³ factor, v2 wrong Thomson temperature, matter-radiation transition). With all fixes: **r(z) ≈ (1+z)³, matching ΛCDM at all z**. Limitation 31 CLOSED. $f_{\rm active}$ inconsistency resolved via renaming. CMB re-derived: $\Delta\chi^2$=+650 is just the Hubble tension.
+6. **§4.51–§4.53 Three bug fixes (commit 277)**: deeper audit found three bugs (v4 missing (1+z)³ factor, v2 wrong Thomson temperature, matter-radiation transition). With all fixes: **r(z) ≈ (1+z)³, matching ΛCDM at all z**. Limitation 31 CLOSED. $f_{\rm active}$ inconsistency resolved via renaming. CMB re-derived: $\Delta\chi^2 = +650$ is just the Hubble tension.
 
 ---
 
