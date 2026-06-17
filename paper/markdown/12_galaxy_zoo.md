@@ -39,7 +39,7 @@ The 7 outlier tests complement the 4 standard tests by probing *extreme* cases:
 **Bullet Cluster (1E 0657-56):** a famous galaxy-cluster merger in which the X-ray gas (slowed by collisional interaction) is spatially separated from the galaxies (collisionless) by 720 kpc. Weak lensing shows that the *lensing mass* follows the *galaxies*, not the gas. SIDC's interpretation: the galaxies have had past star formation activity (creating 2D universes), so their cumulative 2D universe back-projection contributes to the lensing mass. The X-ray gas has no current or recent star formation, so it creates no 2D universes and contributes no DM. **SIDC SMOKING GUN**: the gas-galaxy separation is *exactly* what SIDC predicts. MOND struggles to explain this without sterile neutrinos; SIDC explains it naturally. (Updated JWST lensing analysis: Cha+ 2025, arXiv:2503.21870.)
 
 **Why Bullet Cluster is a SMOKING GUN for SIDC specifically (v2.7.32+):**
-- Particle DM models also explain this, but require σ/m < 1 cm²/g (fine-tuned)
+- Particle DM models also explain this, but require σ/m < 1 ${\rm cm}^2/{\rm g}$ (fine-tuned)
 - SIDC explains it WITHOUT fine-tuning the cross-section
 - In SIDC, DM = cumulative 2D universe death energy
 - 2D universe creation is tied to energetic events (SNe, AGN, mergers)
@@ -66,7 +66,7 @@ The Bullet Cluster is the most striking empirical test of any dark matter model.
 
 This is exactly what is observed in the Bullet Cluster. SIDC *naturally* explains the gas-galaxy separation as a consequence of the link between *energetic activity* and *DM production*. MOND, in contrast, struggles to explain the Bullet Cluster without adding sterile neutrinos (which MOND otherwise doesn't require).
 
-The JWST strong + weak lensing analysis (Cha+ 2025, arXiv:2503.21870) confirms the original result with much higher resolution: 146 strong lensing constraints, 398 sources/arcmin² weak lensing, three distinct halos resolved. SIDC's prediction stands.
+The JWST strong + weak lensing analysis (Cha+ 2025, arXiv:2503.21870) confirms the original result with much higher resolution: 146 strong lensing constraints, 398 sources/${\rm arcmin}^2$ weak lensing, three distinct halos resolved. SIDC's prediction stands.
 
 **HONEST CAVEAT (v2.7.3+):** the Bullet Cluster is *not* a unique test of SIDC. **All particle DM models** (ΛCDM + WIMP/axion/sterile ν/PBH/Fuzzy DM/SIDM, etc.) trivially explain the gas-galaxy separation: their DM particles are collisionless, so they pass through with the galaxies. The Bullet Cluster is a *necessary* test for any DM model (it kills pure modified gravity), but it is *not* a *sufficient* test for SIDC over particle DM.
 

@@ -18,7 +18,7 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 | Missing satellites | Discrepancy with N-body | No sub-halos to be missing |
 | Too-big-to-fail | Brightest sats too dense | No sub-halos to be too big |
 | Lensing flux ratio | Quad anomalies from substructure | No sub-halos to lens |
-| Direct detection | No WIMP up to $9.2 \times 10^{-48}$ cm² | No particle → trivially consistent |
+| Direct detection | No WIMP up to $9.2 \times 10^{-48}$ ${\rm cm}^2$ | No particle → trivially consistent |
 
 ### 9.2 SIDC vs MOND (Modified Newtonian Dynamics)
 

@@ -125,7 +125,7 @@ The scaling law is the **quantitative core** of the closed loop. It's what makes
 
 - **ΛCDM** works on cosmological scales but fails at galaxy scales (cusp-core, missing satellites, too-big-to-fail)
 - **MOND** works at galaxy scales but fails at cluster scales (Tian+ 2024 shows cluster $g_+$ is 14$\times$ higher)
-- **UDM / Chaplygin gas** works at cosmological scales but the unified fluid has c_s² ~ 1, suppressing all small-scale structure
+- **UDM / Chaplygin gas** works at cosmological scales but the unified fluid has $c_s^2 \sim 1$, suppressing all small-scale structure
 - **Verlinde / entropic gravity** is static — it can't distinguish "same mass, different history" cases
 
 SIDC's M^1.29 scaling is the **only proposed dark sector mechanism that works at all 14 event types, 36 galaxy tests, and cosmological scales simultaneously** — using one formula.
@@ -182,7 +182,7 @@ SIDC's *most distinctive testable predictions*:
 
 2. **DESI Y5 (expected 2027):** SIDC predicts that dark energy should be *slowly evolving* (not a perfect cosmological constant). DESI's first data (DR2) already shows a 3.5σ preference for this. If confirmed at >5σ, SIDC is supported.
 
-3. **LSST Y1 (expected 2026-2027):** SIDC predicts a slight *suppression* of σ₈ relative to CMB-inferred values, testable with the first year of LSST data.
+3. **LSST Y1 (expected 2026-2027):** SIDC predicts a slight *suppression* of $\sigma_8$ relative to CMB-inferred values, testable with the first year of LSST data.
 
 4. **End-of-universe signatures (Gyr timescale):** If the 3D universe is at the end of its life, we'd expect:
    - Slowly decreasing DE density

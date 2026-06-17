@@ -115,7 +115,7 @@ A trial-and-error exploration reveals a striking sensitivity: SIDC's energy-scal
 | α | 4D cosm. lifespan (yr) | 3D's current age / total |
 |---|---|---|
 | 1.16 (1.29 - 10%) | 1.1×$10^{23}$ | $10^{-13}$ |
-| 1.23 (1.29 - 5%) | 4.6×$10^{24}$ | 3×$10^{-15}$ |
+| 1.23 (1.29 - 5%) | 4.6×$10^{24}$ | $3 \times 10^{-15}$ |
 | **1.29 (best fit)** | **1.9×$10^{26}$** | **7×$10^{-17}$** |
 | 1.36 (1.29 + 5%) | 7.8×$10^{27}$ | 2×$10^{-18}$ |
 | 1.42 (1.29 + 10%) | 3.2×$10^{29}$ | 4×$10^{-20}$ |
@@ -340,7 +340,7 @@ This section quantifies whether SIDC's death GW background can be detected by LI
 - Frequency range: $10^{-4}$ to 1 Hz (best sensitivity at ~3 mHz)
 - Best strain sensitivity: $h_c$ ~ 4.5×$10^{-22}$ at f ~ 4 mHz
 - Best Omega_GW noise: ~ 2.8×$10^{-12}$ at f ~ 2.4 mHz
-- L_arm = 2.5×$10^{9}$ m, laser noise S_x = (1.5×$10^{-11}$)², accel noise S_a = (3×$10^{-15}$)²
+- L_arm = 2.5×$10^{9}$ m, laser noise S_x = ($1.5 \times 10^{-11}$)², accel noise $S_a$ = ($3 \times 10^{-15}$)²
 
 **Death GW background from SIDC (Phinney/Maggiore formula, narrowband model):**
 

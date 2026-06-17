@@ -61,11 +61,11 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 **Status:** Most likely LISA will see no SIDC signal, consistent with SIDC's prediction.
 
-#### Direct $M_{Pl,4}$ measurement (2030s+ colliders)
+#### Direct $M_{\rm Pl,4}$ measurement (2030s+ colliders)
 
 **SIDC prediction:** $M_{Pl,4} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
 
-**Falsification threshold:** If $M_{Pl,4}$ measured at < 887 GeV, SIDC's bulk-brane coupling is wrong.
+**Falsification threshold:** If $M_{\rm Pl,4}$ measured at < 887 GeV, SIDC's bulk-brane coupling is wrong.
 
 **Status:** PENDING. Future colliders or precision tests.
 
@@ -96,7 +96,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 | 47 Tuc DM (LSST) | < $10^{-5}$ $M_*$ | DM detected at > 5σ |
 | BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10× off-frequency |
 | AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10× off-frequency |
-| $M_{Pl,4}$ (colliders) | $\geq 887$ GeV | Measured < 887 GeV |
+| $M_{\rm Pl,4}$ (colliders) | $\geq 887$ GeV | Measured < 887 GeV |
 | BBN DE (precision) | < $10^{-20}$ rad | > $10^{-20}$ detected |
 | 5/27/68 (Planck) | 5/27/68 (input) | Input, not tested |
 

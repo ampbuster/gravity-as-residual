@@ -96,7 +96,7 @@ SIDC's 2D universes have Hawking temperatures T_H ~ $M_{\rm Pl}$ × ($E_{\rm Pl}
 
 **3.8.2 Padmanabhan (2015) entropic gravity and DM as missing bulk entropy.**
 
-Padmanabhan [Padmanabhan15] proposes that gravity emerges from the difference between bulk and boundary entanglement entropy: G_N ~ 1/N where N = A/l_P² is the number of boundary degrees of freedom. SIDC's bulk-brane coupling has a *natural* information-theoretic interpretation in this framework:
+Padmanabhan [Padmanabhan15] proposes that gravity emerges from the difference between bulk and boundary entanglement entropy: G_N ~ 1/N where N = A/$\ell_P^2$ is the number of boundary degrees of freedom. SIDC's bulk-brane coupling has a *natural* information-theoretic interpretation in this framework:
 
 - **3+1D brane** = boundary
 - **4D bulk** = bulk
@@ -120,7 +120,7 @@ This identification provides a *concrete* information-theoretic interpretation o
 
 **3.8.3 Horava-Witten (1996) M-theory and SIDC as 11D → 4D → 2D stacking.**
 
-Horava-Witten [HW96] is 11D M-theory compactified on S¹/Z₂ (orbifold), with two 10D branes at the orbifold fixed points. E8 gauge theory lives on each 10D brane, gravity propagates in the 11D bulk. SIDC's bulk-brane structure has a *natural* realization in HW:
+Horava-Witten [HW96] is 11D M-theory compactified on $S^1/\mathbb{Z}_2$ (orbifold), with two 10D branes at the orbifold fixed points. E8 gauge theory lives on each 10D brane, gravity propagates in the 11D bulk. SIDC's bulk-brane structure has a *natural* realization in HW:
 
 - **SIDC's 3+1D us** = 10D HW brane with 6D Calabi-Yau compactification (standard string phenomenology, gives N=1 SUSY, E6 → Standard Model gauge group, chiral fermions, etc.)
 - **SIDC's 2D children** = D1-branes (1+1D branes in string theory) nucleated on the 4D effective brane by energetic events
@@ -188,7 +188,7 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 **Quantitative check.** For SIDC's SN-calibrated 2D universe of $\tau_{2D}$ = 33 s, RT gives:
 - R_2D = c × $\tau_{2D}$ = 9.9 × $10^{9}$ m (about 70 × Earth-Moon distance)
 - A_2D = 4π R_2D² = 1.2 × $10^{21}$ m²
-- S_2D = A_2D / (4 l_P²) ≈ $10^{90}$ (in natural units)
+- S_2D = A_2D / (4 $\ell_P^2$) ≈ $10^{90}$ (in natural units)
 
 This is an enormous entanglement entropy. The 2D universe is "small" in its intrinsic 1+1D spacetime, but its boundary in 3+1D is a 2-sphere of radius ~$10^{10}$ m. The RT formula gives this boundary area a holographic content of $10^{90}$ dimensionless units. This is consistent with SIDC's claim that 2D universes can carry "missing bulk entropy" that back-projects to 3+1D as DM.
 
@@ -700,7 +700,7 @@ The user's key claim: **the more DM clustered, the slower the decay.** This is n
 - If that state is already occupied, decay is **suppressed**
 - In sparse regions, the state is empty, decay is **allowed**
 
-For a typical DM halo ($\rho_{DM} \sim 0.3$ GeV/cm³, $m_{DM} \sim 1$ GeV):
+For a typical DM halo ($\rho_{DM} \sim 0.3$ GeV/${\rm cm}^3$, $m_{DM} \sim 1$ GeV):
 - Number density: $n_{DM} \sim 0.3 / cm^3$
 - Fermi momentum: $p_F \sim 280$ MeV
 - Decay products (sterile ν → active ν + γ) have $E \sim m_{DM}/2 \sim 500$ MeV
@@ -749,13 +749,13 @@ This Pauli-blocked equilibrium model makes several testable predictions:
 2. **Spatial variation of DM/baryon ratio:**
    - **In DM halos:** ratio is *higher* than field average (Pauli blocking)
    - **In cosmic web:** ratio is *lower* than field average (decay allowed)
-   - **Quantitative prediction:** in dwarf galaxy centers ($\rho \sim 1$ GeV/cm³), decay suppression factor $\sim 10^{-3}$ (relative to sparse regions)
+   - **Quantitative prediction:** in dwarf galaxy centers ($\rho \sim 1$ GeV/${\rm cm}^3$), decay suppression factor $\sim 10^{-3}$ (relative to sparse regions)
 
 3. **Relic active neutrino background:**
    - From accumulated DM decay over cosmic history
    - Energy: $E_\nu \sim $m_s$/2$ (sterile neutrino mass half)
    - Number density: $n_\nu \sim \Omega_{DM} \rho_{crit} / $m_s$ \sim 10^{-6} / cm^3$ (for 1 GeV)
-   - Much less than standard relic neutrinos (336/cm³), but at higher energy
+   - Much less than standard relic neutrinos (336/${\rm cm}^3$), but at higher energy
 
 4. **Time evolution of DM/baryon ratio:**
    - At early t\times: ratio is lower (less cumulative DM, no decay yet)
@@ -842,7 +842,7 @@ The §3.13 mechanism relied on Pauli blocking to suppress DM decay in dense regi
 - Decay produces a final-state fermion with energy $E_{decay} = $m_s$/2$
 - If $E_{decay} < p_F$, decay is suppressed (Pauli blocking)
 
-For a typical DM halo ($\rho_{DM} \sim 0.3$ GeV/cm³, $m_s \sim 1$ GeV):
+For a typical DM halo ($\rho_{DM} \sim 0.3$ GeV/${\rm cm}^3$, $m_s \sim 1$ GeV):
 - Number density: $n_{DM} \sim 0.3 / cm^3$
 - Fermi momentum: $p_F \sim 5 \times 10^{-13}$ eV (calculated)
 - Decay product energy: $E_{decay} = $m_s$/2 \sim 500$ MeV
@@ -987,7 +987,7 @@ SIDC's sterile neutrino is **way too heavy** for Pauli blocking to work.
 
 **3.15.3 Failure mode 1: GeV-scale DM has no Pauli blocking.**
 
-For $m_s = 1$ GeV sterile neutrino in a typical DM halo ($\rho_{DM} \sim 0.3$ GeV/cm³):
+For $m_s = 1$ GeV sterile neutrino in a typical DM halo ($\rho_{DM} \sim 0.3$ GeV/${\rm cm}^3$):
 - Number density: $n_{DM} \sim 0.3 / cm^3$
 - Fermi momentum: $p_F \sim 5 \times 10^{-13}$ eV
 - Decay product energy: $E_{decay} = $m_s$/2 \sim 500$ MeV

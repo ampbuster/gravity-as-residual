@@ -7,7 +7,7 @@
 **Version:** 3.0.2 (June 2026) — *Paper content: v3.0.2 (dimensional scale invariance, SIDC naming restored, §3.61). Build: v3.0.21 (limitations count fixed to 37, table syntax documented, all tables rendering properly). 328 pages.*
 
 **v3.0.2 PARAMETER CLEANUP**: 0 calibrated postulates (was 3 in v2.7.x, 5 in v2.7.16). All values now DERIVED from the cascade structure:
-- **$f_{\rm back}$** = $\epsilon$ $\times$ ($E_{4D}$ / $M_{Pl}^4$) — bulk-brane coupling $\times$ 4D event energy ratio
+- **$f_{\rm back}$** = $\epsilon$ $\times$ ($E_{4D}$ / $M_{\rm Pl}^4$) — bulk-brane coupling $\times$ 4D event energy ratio
 - **$\epsilon$** = $e^{-kL}$ — RS-II bulk-brane coupling (from bulk geometry $\mu$, $m_{3+1D}$)
 - **$F_p(0)$** = 0.9993 — calculated from cumulative DM over 14+ event types (§3.40)
 
@@ -99,7 +99,7 @@ SIDC's parsimony is **conceptual**, not **parametric**:
 Continued web research in June 2026 yielded **45 external constraints** (in 9 categories) that converge on SIDC's 2D CFT parameters, refine its interpretation, and provide one new testable prediction:
 
 **4 PARAMETER-REDUCING** (reduce 4 free $\to$ 2 free parameters $\mu$, $m_{3+1D}$):
-1. **b = i** is natural for c = 1 (single scalar 2D CFT, IHES Vargas) — b² = -1, Q = 0, c = 1 ✓
+1. **b = i** is natural for c = 1 (single scalar 2D CFT, IHES Vargas) — $b^2 = -1$, $Q = 0$, $c = 1$ ✓
 2. **$m_{3+1D}$ > 8 $\times$ $10^{-18}$ eV** (Dalal & May 2025, ultra-faint dwarf kinematics) — SIDC $10^{-15}$ GeV is 1.25 $\times$ $10^{11}$ ABOVE bound ✓
 3. **JT gravity on Karch-Randall brane** (PRL 129, 231601) — SIDC 2D universe = JT excitation, $M_{2D}$ = $10^{38}$ GeV
 4. **RAR extends to log $g_{\rm bar}$ $\sim -12$** (MIGHTEE-HI 2025, arXiv:2504.20857) — SIDC's MOND behavior testable to lowest accelerations
@@ -130,14 +130,14 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 21. **DESI DR2 + ACT DR6 + Planck** (Garcia-Quintero 2025, arXiv:2504.18464) — 3.5σ evolving DE, w₀ = -0.83, wₐ = -0.75
 22. **Lyα forest WDM** (Garcia-Gallego 2025, arXiv:2504.06367) — m_WDM > 3 keV, SIDC 2D universe ($10^{-6}$ eV = 1 GeV) way heavier
 23. **Primordial Black Holes 2024-2025** (Tan 2024, Crispim Romao 2025) — X-ray and microlensing windows; SIDC 2D universes are NOT black holes (INAPPLICABLE)
-24. **XENONnT 2025** (PRL 135, 221003) — σ_SI < 1.7 $\times$ $10^{-47}$ cm² (30 GeV); SIDC has no SM coupling (INAPPLICABLE)
+24. **XENONnT 2025** (PRL 135, 221003) — $\sigma_{\rm SI}$ < 1.7 $\times$ $10^{-47}$ ${\rm cm}^2$ (30 GeV); SIDC has no SM coupling (INAPPLICABLE)
 25. **ACT DR6 CMB lensing** (Farren 2024, arXiv:2409.02109) — S₈ = 0.840 $\pm$ 0.014, 2-3σ tension PERSISTS; SIDC MOND-like floor: QUALITATIVE support
 
 **5 FINAL 2024-2025 CONSTRAINTS (v2.7.3)**:
 26. **ALPS/IAXO/ADMX axion-like DM coupling** (Carenza 2024, arXiv:2408.14245, Zhang 2025, arXiv:2501.08117) — composite and ultralight ALP bounds; SIDC 2D universe mass BETWEEN ranges, no SM coupling (INAPPLICABLE)
 27. **HERA/MeerKAT 21cm reionization** (Sims 2025, arXiv:2504.09725) — joint 21cm + Lyman + CMB; SIDC 2D universe births negligible for IGM heating (indistinguishable from ΛCDM)
-28. **SIDM cross-section with mass segregation** (Yang 2025, arXiv:2506.14898) — $\sigma$/m < 1 cm²/g cluster, < 0.1 cm²/g dwarf; SIDC 2D universes NOT particles (INAPPLICABLE)
-29. **Dynamical heating in ultrafaint dwarfs** (Graham 2024, arXiv:2404.01378) — primordial power spectrum constraints at k=10-1000 Mpc⁻¹; SIDC lighter than subcompact, consistent
+28. **SIDM cross-section with mass segregation** (Yang 2025, arXiv:2506.14898) — $\sigma$/m < 1 ${\rm cm}^2/{\rm g}$ cluster, < 0.1 ${\rm cm}^2/{\rm g}$ dwarf; SIDC 2D universes NOT particles (INAPPLICABLE)
+29. **Dynamical heating in ultrafaint dwarfs** (Graham 2024, arXiv:2404.01378) — primordial power spectrum constraints at k=10-1000 ${\rm Mpc}^{-1}$; SIDC lighter than subcompact, consistent
 30. **Future MeV gamma-ray DM** (O'Donnell 2024, arXiv:2411.00087) — forecast σv < $10^{-27}$ cm³/s, $\tau$ > $10^{27}$ s; SIDC 'MeV-invisible' (no SM coupling), no signal expected (INAPPLICABLE)
 
 **Key finding 1**: The TRGB $H_0$ = 69.8 $\pm$ 1.9 sits in the *middle* of the Hubble tension and is the **closest single external measurement to SIDC's $H_{0,4D}$ = 70.16** (0.2σ match). SIDC's honest position (Mechanism M) is that this is a *coincidence of the geometric mean*, not a derivation.
@@ -149,8 +149,8 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 **5 LATE 2025-2026 CONSTRAINTS (v2.7.3+):**
 31. **JWST MoM-z14** (Naidu+ 2025, arXiv:2505.11263) — confirmed z=14.44 galaxy, 280 Myr after Big Bang; SIDC's $F_p(z)$ $\to$ 1 at high z (smooth Hill function, §4.48.1) gives early DM in lockstep with early SF (QUALITATIVELY CONSISTENT)
 32. **DESI DR2 BAO** (Adame+ 2025, arXiv:2503.14738, 14M galaxies) — DR1 confirmed, 3.5σ evolving DE; SIDC's DE is 4D event antigravity, qualitative only (QUALITATIVELY CONSISTENT)
-33. **LZ 4.2 tonne-years** (Jellema+ 2025, arXiv:2410.17036) — σ_SI < 9.2 $\times$ $10^{-48}$ cm² at 40 GeV; SIDC 2D universes are NOT WIMPs (INAPPLICABLE)
-34. **XENONnT 3.1 tonne-years** (Aprile+ 2025, arXiv:2502.18005) — σ_SI < 1.7 $\times$ $10^{-47}$ cm² at 30 GeV; solar neutrino floor; SIDC 2D universes are NOT WIMPs (INAPPLICABLE)
+33. **LZ 4.2 tonne-years** (Jellema+ 2025, arXiv:2410.17036) — $\sigma_{\rm SI}$ < 9.2 $\times$ $10^{-48}$ ${\rm cm}^2$ at 40 GeV; SIDC 2D universes are NOT WIMPs (INAPPLICABLE)
+34. **XENONnT 3.1 tonne-years** (Aprile+ 2025, arXiv:2502.18005) — $\sigma_{\rm SI}$ < 1.7 $\times$ $10^{-47}$ ${\rm cm}^2$ at 30 GeV; solar neutrino floor; SIDC 2D universes are NOT WIMPs (INAPPLICABLE)
 35. **LIGO-Virgo-KAGRA O4 catalog** (LVK 2025, 218+ BBH detections) — BBH mergers are energetic events in SIDC; 2D universe contribution to DM is sub-dominant but testable (QUALITATIVELY CONSISTENT)
 
 **5 EXTENDED 2025-2026 CONSTRAINTS (v2.7.3+ round 7):**
@@ -161,8 +161,8 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 40. **Two Decades of Probabilistic Liouville** (Ghosal, Remy, Sun, Yi Sun+ 2025, arXiv:2509.21053) — DOZZ formula now rigorously proven; SIDC's c=1 is unique exactly solvable case; Limitation 26 FURTHER reduced (STRENGTHENS theoretical foundation)
 
 **5 ROUND 8 CONSTRAINTS (v2.7.3+ round 8, June 2026):**
-41. **eROSITA all-sky ultralight axion** (Zelmer+ 2025, arXiv:2502.03353, A&A Dec 2025) — 5259 clusters, 12791 deg²; ultralight axion DM constrained at m_a $\sim $10^{-22}$ eV; SIDC 2D universes are NOT axions (INAPPLICABLE)
-42. **SPHEREx first all-sky near-IR spectral map** (NASA/JPL May 2025) — launched 11 March 2025, 450M+ galaxies; SIDC's MOND-like $g_+$ floor predicts mild σ₈ suppression testable by SPHEREx Y1 2026-2027 (QUALITATIVELY CONSISTENT)
+41. **eROSITA all-sky ultralight axion** (Zelmer+ 2025, arXiv:2502.03353, A&A Dec 2025) — 5259 clusters, 12791 ${\rm deg}^2$; ultralight axion DM constrained at m_a $\sim $10^{-22}$ eV; SIDC 2D universes are NOT axions (INAPPLICABLE)
+42. **SPHEREx first all-sky near-IR spectral map** (NASA/JPL May 2025) — launched 11 March 2025, 450M+ galaxies; SIDC's MOND-like $g_+$ floor predicts mild $\sigma_8$ suppression testable by SPHEREx Y1 2026-2027 (QUALITATIVELY CONSISTENT)
 43. **GW231123** (LVK 2025, ApJL 993 L25, July 2025) — most massive BBH merger to date, 190-265 M☉ total, 225 M☉ final in pair-instability mass gap; energetic event in SIDC corresponds to 2D universe creation (QUALITATIVELY CONSISTENT)
 44. **GW230529 NSBH** (LVK 2024, with 2025 kilonova/follow-up papers) — mass-gap primary 2.5-4.5 M☉; SIDC silent on NSBH mass distributions (QUALITATIVELY CONSISTENT)
 45. **ACT DR6 + DESI DR1 + Planck NPIPE joint $H_0$** (Maus+ 2025, arXiv:2505.20656) — $H_0$ = 69.08 $\pm$ 0.37 km/s/Mpc (most precise joint CMB+BAO $H_0$); SIDC $H_{0,4D}$ = 70.16 sits between this and SH0ES (QUALITATIVELY CONSISTENT)
@@ -354,7 +354,7 @@ disputed (would change with new consensus).
 its $M_{dyn}/M_b$ is **estimated** (⚠️ marker) rather than measured. The
 SIDC uses $\sigma \sim 3$--$5$ km/s and $r_h \sim 0.5$--$1$ kpc (typical dSph
 parameters) to estimate $M_{dyn}$ $\sim 3 \times 10^{6}$ $M_\odot$ and $M_{dyn}/M_b$ $\sim 1. This
-is a **rough estimate** with $\sim 50% uncertainty, not a measurement.
+is a **rough estimate** with $\sim 50\%$ uncertainty, not a measurement.
 KKR 25's $M_{dyn}$ is still in SIDC's 12/12 test suite (paper §12)
 as a qualitative test (consistent with SIDC), but its specific
 $M_{dyn}/M_b$ value is provisional.
@@ -447,14 +447,14 @@ This is the cumulative result of the v2.4 work. SIDC's three main quantitative p
 | **r(z=2)** (proper DM density, relative) | 26.9 | 27 | ✓ MATCHES |
 | **r(z=6)** (proper DM density, relative) | 342.0 | 343 | ✓ MATCHES |
 | **r(z=10)** (proper DM density, relative) | 1327 | 1331 | ✓ MATCHES |
-| **Δχ² CMB** | +650 vs Planck ($H_0$ mismatch) | — | Hub tension only |
+| **$\Delta\chi^2$ CMB** | +650 vs Planck ($H_0$ mismatch) | — | Hub tension only |
 | **$S_8$** (cosmic shear) | 0.775 ($\sigma_8$ = 0.75) | 0.759 (DES/KiDS) | within 1σ |
 | **$g_+$ per galaxy** (43 SPARC) | $9.74 \times 10^{-11}$ m/s² | $1.20 \times 10^{-10}$ (Lelli+ 2017) | within 1σ |
 | **BTFR slope** (129 SPARC) | 3.53 (predicted 4) | 3.53 | within 1σ |
-| **MDAR for dSphs** (10 dSphs) | factor $\sim 2 from MOND | factor $\sim 2 from MOND | ✓ MATCHES |
+| **MDAR for dSphs** (10 dSphs) | factor $\sim 2$ from MOND | factor $\sim 2$ from MOND | ✓ MATCHES |
 | **AGN host DM** (morphology-matched) | +6.4% ratio | — | p=0.047 |
-| **AGC 114905** | contested (Mancera Piña 2022: $\sim 1, Sellwood 2022: $\sim 2-3) | $\sim 1-3 | ✓ PASS (DISPUTED, §3.45+) |
-| **KKR 25** ⚠️ | $\sim 1$ (est.) | $\sim 1 (est., no published velocity dispersion) | ✓ PASS (est., v2.7.42+) |
+| **AGC 114905** | contested (Mancera Piña 2022: $\sim 1$, Sellwood 2022: $\sim 2$--$3$) | $\sim 1$--$3$ | ✓ PASS (DISPUTED, §3.45+) |
+| **KKR 25** ⚠️ | $\sim 1$ (est.) | $\sim 1$ (est., no published velocity dispersion) | ✓ PASS (est., v2.7.42+) |
 | **Hubble $H_0$** | 70 $\pm$ 3 (qualitative consistency) | 73 (SH0ES), 67.4 (Planck) | 5.6 km/s/Mpc gap is a ΛCDM-framework artifact (no specific $H_0$ derived) |
 | **Sun no-DM** | <$10^{-17}$ ratio | confirmed | ✓ PASS |
 
@@ -479,7 +479,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 | 7 | Missing Satellites (no sub-halos) | ✓ structural | Sawala+ |
 | 8 | Too-Big-To-Fail (no sub-halos) | ✓ structural | Boylan-Kolchin |
 | 9 | dSph $M_{dyn}$ slope (Read+) | = ΛCDM | not discriminative |
-| 10 | MDAR for dSphs (factor $\sim 2 from MOND) | ✓ PASS | SPARC + dSph |
+| 10 | MDAR for dSphs (factor $\sim 2$ from MOND) | ✓ PASS | SPARC + dSph |
 | 11 | Lensing flux ratio (Dalal+Metcalf) | ✓ structural | Dalal+ 2002 |
 | 12 | Cluster baryon fraction | = ΛCDM | not discriminative |
 | 13 | BTFR doc (slope 3.53) | = ΛCDM | not discriminative |
@@ -507,7 +507,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 | `calculations/baryon_plasma_cascade_v2.py` | Thomson + recombination (v2, marked buggy) | supplementary |
 | `calculations/matter_radiation_equality_R_z.py` | R(z) through z $\sim 3400 | supplementary |
 | `calculations/f_active_consistency.py` | $f_{\rm active}$ rename verification | documentation |
-| `calculations/cmb_cascade_prediction.py` | CAMB CMB test (Δχ²=+650) | #3 (Hubble tension) |
+| `calculations/cmb_cascade_prediction.py` | CAMB CMB test ($\Delta\chi^2$=+650) | #3 (Hubble tension) |
 | `calculations/cosmic_shear_cascade.py` | $S_8$ within 1σ of DES/KiDS | #3 |
 | `calculations/rar_per_galaxy_gplus_v3.py` | 43-galaxy per-galaxy $g_+$ | #3 |
 | `calculations/verify_tensor_pipeline.py` | 5-check T^eff_μν verification | structural |
@@ -529,7 +529,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 
 5. **§4.51 Baryon plasma refinement (commit 276)**: user asked "if matter is 5% even without stars, why don't baryon collisions create 2D universes?" Broadened the principle to include Thomson scattering. First result: r(z=6) = 0.66 — but it turned out to be a happy accident (wrong temperature bug).
 
-6. **§4.51–§4.53 Three bug fixes (commit 277)**: deeper audit found three bugs (v4 missing (1+z)³ factor, v2 wrong Thomson temperature, matter-radiation transition). With all fixes: **r(z) $\approx$ (1+z)³, matching ΛCDM at all z**. Limitation 31 CLOSED. $f_{\rm active}$ inconsistency resolved via renaming. CMB re-derived: Δχ²=+650 is just the Hubble tension.
+6. **§4.51–§4.53 Three bug fixes (commit 277)**: deeper audit found three bugs (v4 missing (1+z)³ factor, v2 wrong Thomson temperature, matter-radiation transition). With all fixes: **r(z) $\approx$ (1+z)³, matching ΛCDM at all z**. Limitation 31 CLOSED. $f_{\rm active}$ inconsistency resolved via renaming. CMB re-derived: $\Delta\chi^2$=+650 is just the Hubble tension.
 
 ---
 
