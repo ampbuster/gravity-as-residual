@@ -955,9 +955,9 @@
 # ---------------------------------------------------------------------
 #
 # IF THE BUILD FAILS with a cryptic LaTeX error:
-#   1. Look at /tmp/xelatex1.log for the actual error
+#   1. Look at paper/.build/xelatex1.log for the actual error
 #   2. Find the LINE NUMBER in the error
-#   3. Look at /tmp/paper_full.tex at that line
+#   3. Look at paper/.build/paper_full.tex at that line
 #   4. Most errors are: $ in text mode, _ in text mode, mismatched braces
 #
 # IF TABLES ARE BROKEN (column widths printed as text):
@@ -981,7 +981,7 @@
 #
 # IF THE BUILD IS SLOW (multi-minute xelatex):
 #   1. Check for runaway regex in post-processors
-#   2. Look at /tmp/paper_full.tex size (should be < 2MB)
+#   2. Look at paper/.build/paper_full.tex size (should be < 2MB)
 #
 # IF TABLES ARE TOO WIDE (text wraps in tiny columns):
 #   1. The page is letter size, 6.5" wide content area
@@ -1007,58 +1007,66 @@ set -e
 PAPER_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$PAPER_DIR"
 
+# Build scratch dir: keep all intermediate files inside the paper/ folder
+# so they survive across sessions (unlike /tmp which is wiped).
+# Gitignored via .gitignore.
+BUILD_DIR="${PAPER_DIR}/.build"
+TOOLS_DIR="${PAPER_DIR}/build_tools"
+mkdir -p "$BUILD_DIR"
+
 # Step 0: Combine markdown files
 if [ -d "markdown" ]; then
-    cat markdown/*.md > /tmp/paper_combined.md
-    SOURCE=/tmp/paper_combined.md
+    cat markdown/*.md > "${BUILD_DIR}/paper_combined.md"
+    SOURCE="${BUILD_DIR}/paper_combined.md"
 else
     SOURCE=paper.md
 fi
 
 # Step 1: Convert with markdown+grid_tables+pipe_tables+raw_tex-yaml_metadata_block
 # See section 1 above for why these specific options.
-pandoc "$SOURCE" -o /tmp/paper_body.tex -f markdown+grid_tables+pipe_tables+raw_tex-yaml_metadata_block
+pandoc "$SOURCE" -o "${BUILD_DIR}/paper_body.tex" -f markdown+grid_tables+pipe_tables+raw_tex-yaml_metadata_block
 
 # Post-processor 1: wrap \real{N} in \dimexpr
 # Pandoc generates: p{(\columnwidth - 4\tabcolsep) * \real{0.4375}}
 # We want:         p{\dimexpr(\columnwidth - 4\tabcolsep)*0.4375\relax}
-# See /tmp/wrap_dimexpr.py for details.
-python3 /tmp/wrap_dimexpr.py
+# See build_tools/wrap_dimexpr.py for details.
+python3 "${TOOLS_DIR}/wrap_dimexpr.py" "$BUILD_DIR"
 
 # Post-processor 2: convert \dimexpr(...) to \linewidth
 # This is the v3.0.21 fix for the silent table-breaking bug.
 # See section 3 above for the full explanation.
-# See /workspace/github-repo/paper/use_linewidth.py for details.
-python3 /workspace/github-repo/paper/use_linewidth.py
+# See build_tools/use_linewidth.py for details.
+python3 "${TOOLS_DIR}/use_linewidth.py" "$BUILD_DIR"
 
 # Post-processor 3: fix en-dash in math mode
 # Pandoc converts "1-2" in math cells to "1--2" (en-dash).
 # This breaks math mode. Fix: "1--2" → "1-2" in math cells.
-# See /tmp/fix_dashes.py for details.
-python3 /tmp/fix_dashes.py
+# See build_tools/fix_dashes.py for details.
+python3 "${TOOLS_DIR}/fix_dashes.py" "$BUILD_DIR"
 
 # Post-processor 4: fix \sigma\^{}{N} patterns
 # Pandoc generates \sigma\^{}{N} (empty arg hat) which is invalid.
 # Fix: \sigma\^{}{N} → \sigma^{N}
-# See /tmp/fix_sigma.py for details.
-python3 /tmp/fix_sigma.py
+# See build_tools/fix_sigma.py for details.
+python3 "${TOOLS_DIR}/fix_sigma.py" "$BUILD_DIR"
 
 # Step 2: Strip the first \section{...}
 # The title is already in the LaTeX header, so we don't want it twice.
 python3 -c "
-import re
-with open('/tmp/paper_body.tex', 'r') as f:
+import re, sys
+build_dir = sys.argv[1]
+with open(f'{build_dir}/paper_body.tex', 'r') as f:
     body = f.read()
 m = re.search(r'\\\\section\\{[^}]+\\}\\s*\\n\\n', body)
 if m:
     body = body[m.end():]
-with open('/tmp/paper_body_clean.tex', 'w') as f:
+with open(f'{build_dir}/paper_body_clean.tex', 'w') as f:
     f.write(body)
-"
+" "$BUILD_DIR"
 
 # Step 3: Create header
 # The LaTeX preamble. The packages here are required - see section 1 above.
-cat > /tmp/paper_header.tex << 'HEADEREOF'
+cat > "${BUILD_DIR}/paper_header.tex" << 'HEADEREOF'
 \documentclass[10pt]{article}
 \usepackage{amsmath, amssymb}
 \usepackage{mathrsfs}
@@ -1086,22 +1094,22 @@ cat > /tmp/paper_header.tex << 'HEADEREOF'
 HEADEREOF
 
 # Step 4: Combine and compile
-cat /tmp/paper_header.tex /tmp/paper_body_clean.tex > /tmp/paper_full.tex
-echo '\end{document}' >> /tmp/paper_full.tex
+cat "${BUILD_DIR}/paper_header.tex" "${BUILD_DIR}/paper_body_clean.tex" > "${BUILD_DIR}/paper_full.tex"
+echo '\end{document}' >> "${BUILD_DIR}/paper_full.tex"
 
-cd /tmp
+cd "$BUILD_DIR"
 # Run xelatex TWICE: first to generate aux files, second to resolve cross-refs
-xelatex -interaction=nonstopmode -halt-on-error paper_full.tex > /tmp/xelatex1.log 2>&1 || {
+xelatex -interaction=nonstopmode -halt-on-error paper_full.tex > "${BUILD_DIR}/xelatex1.log" 2>&1 || {
     echo "First xelatex run failed. Tail of log:"
-    tail -30 /tmp/xelatex1.log
+    tail -30 "${BUILD_DIR}/xelatex1.log"
     exit 1
 }
-xelatex -interaction=nonstopmode -halt-on-error paper_full.tex > /tmp/xelatex2.log 2>&1 || {
+xelatex -interaction=nonstopmode -halt-on-error paper_full.tex > "${BUILD_DIR}/xelatex2.log" 2>&1 || {
     echo "Second xelatex run failed. Tail of log:"
-    tail -30 /tmp/xelatex2.log
+    tail -30 "${BUILD_DIR}/xelatex2.log"
     exit 1
 }
 
-cp /tmp/paper_full.pdf "${PAPER_DIR}/paper.pdf"
+cp "${BUILD_DIR}/paper_full.pdf" "${PAPER_DIR}/paper.pdf"
 echo "Paper PDF built: ${PAPER_DIR}/paper.pdf"
 ls -la "${PAPER_DIR}/paper.pdf"

@@ -25,6 +25,9 @@ __pycache__/
 *.blg
 *.synctex.gz
 
+# Paper build scratch (kept inside the repo, but gitignored)
+paper/.build/
+
 # Local-only
 /private/
 /scratch/
