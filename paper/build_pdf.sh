@@ -677,18 +677,30 @@
 # or using Unicode is more reliable.
 # Found in README line 24, 65, 101, 593, 828, 836, etc.
 #
-# GITHUB MOBILE/DESKTOP GOTCHA #5: math inside italic (*...*) may
-# render as literal text on github desktop. The fix is to split the
-# italic range so math is OUTSIDE the *...* markers:
-#   *incl. $A_{event}$ ~ 67* → *incl.* $A_{event}$ *~ 67*
-#   *with $F_p(z)$ as smooth* → *with* $F_p(z)$ *as smooth*
-# Why: github's markdown parser processes inline markdown (italic,
-# bold) BEFORE math. When math is INSIDE *...*, the $ delimiters
-# may not be recognized as math boundaries in some renderers.
-# Splitting the italic so math is between markers (not inside) makes
-# the parser happy.
-# Found in README line 24. This is a generic gotcha for any math
-# inside italic text - check all *.+\$.+\$.+* patterns.
+# GITHUB MOBILE/DESKTOP GOTCHA #5: math inside italic (*...*) AND
+# italic markers (*) adjacent to math ($...$) may render as literal
+# text on github desktop. There are TWO sub-issues:
+#
+# (a) Math INSIDE *...* italic:
+#     *incl. $A_{event}$ ~ 67*  → shows "$A_{event}$" as literal
+#     Reason: github's markdown parser processes inline markdown
+#     (italic, bold) BEFORE math. $ inside *...* is not recognized
+#     as math boundaries.
+#
+# (b) Italic markers * adjacent to math:
+#     *incl.* $A_{event}$ *~ 67*  → shows "*" as literal
+#     Reason: even after splitting, the * right next to $...$ is
+#     sometimes rendered as literal *.
+#
+# CLEANEST FIX: remove italic entirely from any line that has math.
+# The italic styling is not worth the rendering bugs. For L24 of
+# README, we removed the italic wrapper from the Version line.
+#
+# ALTERNATIVE: use HTML <em>text</em> instead of *text* for italic.
+# HTML tags are processed AFTER math, so they don't interfere.
+#
+# Found in README line 24 (Version line). This is a generic gotcha
+# for any math inside or adjacent to italic text.
 #
 # APPROXIMATELY EQUAL:
 #   WRONG:  ≈ (Unicode)
