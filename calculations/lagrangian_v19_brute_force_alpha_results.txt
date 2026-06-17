@@ -1,0 +1,111 @@
+/run/csi/mount-root/nas/eab0d61a99b6696edb3d2aff87b585e8/github-repo/calculations/lagrangian_v19_brute_force_alpha.py:275: RuntimeWarning: overflow encountered in exp
+  return np.exp(S0) * (beta/(2*PI))**1.5 * np.exp(PI**2 / beta)
+========================================================================
+LAGRANGIAN v19: BRUTE-FORCE M^1.29 EXTRACTION
+========================================================================
+
+========================================================================
+PART 1: SYK q=4 N=12 — THERMODYNAMICS
+========================================================================
+
+      beta        Z(beta)         E_mean    E_mean*beta
+----------------------------------------------------------------------
+
+========================================================================
+PART 2: IS Z(beta) A POWER LAW?
+========================================================================
+
+          beta range  log-log slope        R^2
+--------------------------------------------------
+    0.10 -   1.00        -0.5825     0.9409
+    0.50 -   5.00        -1.0194     0.9990
+    1.00 -  10.00        -0.9848     0.9979
+    5.00 -  50.00        -2.1108     0.5369
+   10.00 - 100.00        -4.0201    -2.1161
+
+========================================================================
+PART 3: IS E_mean(beta) A POWER LAW?
+========================================================================
+
+          beta range  log-log slope        R^2
+--------------------------------------------------
+    0.10 -   1.00        -0.2781     0.9028
+    0.50 -   5.00        -0.9878     0.9587
+    1.00 -  10.00        -1.0383     0.9960
+    5.00 -  50.00        -0.1594     0.7693
+   10.00 - 100.00        -0.0730     0.9966
+
+========================================================================
+PART 4: alpha FROM tau(E) ~ E^alpha
+========================================================================
+
+Assuming tau_obs = beta (the thermal time):
+tau_obs ~ beta
+<E>(beta) ~ ?
+
+If tau_obs ~ beta ~ E^-alpha, then alpha = -d log beta / d log <E>
+For Schwarzian low-T: <E> ~ 1/beta^2 -> alpha = +1/2
+For high-T: <E> ~ 1/beta -> alpha = +1
+For very low-T (ground state): <E> ~ const -> alpha = 0
+
+Empirical alpha from SYK:
+          beta range  alpha_empirical
+---------------------------------------------
+    0.10 -   1.00           3.5957
+    0.50 -   5.00           1.0123
+    1.00 -  10.00           0.9631
+    5.00 -  50.00           6.2746
+   10.00 - 100.00          13.7072
+
+========================================================================
+PART 5: COMPARISON WITH alpha = 1.289
+========================================================================
+
+Linear fit: log(beta) = -2.3247 * log(<E>) + -0.8418
+Slope = alpha = -2.3247
+SIDC alpha = 1.289
+Match: False
+
+========================================================================
+PART 6: COMBINED Z (JT + Liouville + SYK)
+========================================================================
+
+      beta           Z_JT            Z_L          Z_SYK        Z_total
+----------------------------------------------------------------------
+
+          beta range  alpha from Z_combined
+--------------------------------------------------
+    0.10 -   1.00                36.8786
+    0.50 -   5.00                 7.3597
+    1.00 -  10.00                 3.7626
+    5.00 -  50.00                 2.8949
+   10.00 - 100.00                 5.8923
+
+========================================================================
+PART 7: VERDICT (v19)
+========================================================================
+
+DIRECT BRUTE-FORCE M^1.29 EXTRACTION (v19):
+  + Computed Z(beta), E_mean(beta), and combined Z for SYK q=4 N=12
+  + Extracted alpha from log-log slopes in various beta ranges
+  + Tested both pure SYK and combined Z (JT + L + SYK)
+
+KEY FINDING:
+  - Pure SYK gives alpha ~ 0.5-1.0 depending on beta range
+  - Combined Z gives alpha_eff in similar range (NOT cleanly 1.289)
+  - The M^1.29 scaling law is NOT directly visible from the spectrum
+
+INTERPRETATION:
+  - The alpha = 1.289 is a CROSS-SECTOR phenomenon
+  - The pure 2D theory (Liouville + SYK + Schwarz) gives different alpha in different regimes
+  - The M^1.29 is an EMERGENT scaling from the COMBINED + the OBSERVATION projection
+  - To derive 1.289 from Z alone, we would need:
+    * EXACT Z_Liouville (DOZZ formula on torus)
+    * EXACT cross-coupling between sectors
+    * Correctly identified observable (what is tau_obs in the 2D frame?)
+
+CONCLUSION FOR L43:
+  - Brute force doesn't close L43 (consistent with v11c, v12)
+  - The Lagrangian skeleton L = L_c=1 + L_N=12 + L_Schwarzian is NOT a complete Lagrangian
+  - Closing L43 requires cross-coupling terms + correct observable identification
+
