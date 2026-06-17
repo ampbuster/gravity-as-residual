@@ -1,5 +1,7 @@
 <!-- 04_predictions.md - part of paper.md split (v3.0.13) -->
 
+**Note:** Sections §4.9-§4.15 were MOVED TO [paper/legacy/legacy_paper.md](../legacy/legacy_paper.md) as historical/trial-and-error content. They are superseded by the current Lagrangian work (§3.60-§3.69).
+
 ## 4. Predictions and distinguishing features
 
 If the model is correct, several observable consequences follow.

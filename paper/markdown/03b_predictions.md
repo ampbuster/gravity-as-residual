@@ -1,5 +1,7 @@
 <!-- 03b_predictions.md - part of paper.md split (v3.1, renamed from 03_predictions.md for sequential ordering) -->
 
+**Note:** Sections §3.17-§3.20, §3.24-§3.29, §3.55-§3.56 were MOVED TO [paper/legacy/legacy_paper.md](../legacy/legacy_paper.md) as historical/trial-and-error content. They are superseded by the current Lagrangian work (§3.60-§3.69).
+
 
 This is a *meta-section* about SIDC's methodology. It documents how SIDC has *improved* through user-prompted self-critique, using the §3.13 → §3.14 → §3.15 sequence as a worked example.
 

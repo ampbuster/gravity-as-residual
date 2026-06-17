@@ -1,5 +1,7 @@
 <!-- 03a_relations.md - part of paper.md split (v3.1, renamed from 03_relations.md for sequential ordering) -->
 
+**Note:** Sections §3.13-§3.16 were MOVED TO [paper/legacy/legacy_paper.md](../legacy/legacy_paper.md) as historical/trial-and-error content. They are superseded by the current Lagrangian work (§3.60-§3.69).
+
 <!-- 03_relations.md - part of paper.md split (v3.0.13) -->
 
 ## 3. Relation to existing work
