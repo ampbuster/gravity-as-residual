@@ -679,7 +679,7 @@ SIDC predicts that galaxies with very high past SF should have
 very high $M_{dyn}/M_b$ (their cumulative 2D universe deaths are massive).
 JWST is finding exactly this — massive quiescents at z>4 with
 spectroscopic confirmation of compact, evolved populations formed
-at z $\sim 10--12$.
+at z $\sim 10–12$.
 
 **Key observational papers (10+ confirmed massive quiescents at z>4):**
 - **RUBIES-EGS-QG-1 (2024 Nat. Astron., arXiv:2402.11082)**: spectroscopic
@@ -688,7 +688,7 @@ at z $\sim 10--12$.
 - **ZF-UDS-7329 (2023 Nature, arXiv:2308.05606)**: spectroscopic
   z=3.205, log M* = 11.04, formed at z $\sim 11$ — even more extreme past SF
 - **JWST EXCELS (2024 MNRAS, 534, 325)**: 4 quiescents with log M* > 11
-  at 3<z<5, formed over $\sim 200$ Myr at z $\sim 12--15$
+  at 3<z<5, formed over $\sim 200$ Myr at z $\sim 12–15$
 - **Carniani+ 2025 (arXiv:2510.xxxxx)**: 700+ massive quiescents at
   z=2-7 — large statistical sample
 - **TGSSJ1530+1049 (2025, arXiv:2511.13650)**: confirmed z=4.0, in a
