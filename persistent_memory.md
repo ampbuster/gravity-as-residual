@@ -121,6 +121,8 @@ bash paper/build_pdf.sh --dry-run FILE.md  # check specific files
 
 **Closing L41-L43 requires:** 2D CFT theoretical physicist or brute-force path integral computation. No plausible path within reach of current SIDC resources.
 
+**v3.0.21 update**: §3.62.1 added — SIDC IS structurally Karch-Randall + JT gravity (Deng et al. arXiv:2211.13415). Z_SIDC = Z_JT × Z_Liouville × Z_SYK is in principle tractable. Lagrangian v13 attempted combined Z computation; α = 1.289 NOT cleanly recovered from Z alone in tested β ranges. L91 (holographic reduction framing) and L92 (3D→2D gravity inversion prior art) added to limitations.
+
 ---
 
 ## 7. Key conventions (DO NOT BREAK)

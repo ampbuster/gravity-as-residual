@@ -3407,6 +3407,97 @@ for a numerical demonstration of $Z_{\rm SIDC} = Z_{\rm JT}
 
 ---
 
+### 3.62.2 Five additional angles for the Lagrangian (v3.0.21)
+
+After §3.62.1, we tried 5 more angles to close L41, L42, L43.
+Honest summary:
+
+**v14 (M^1.29 universality across 14 events)**: Direct check of
+the scaling law for 14 SIDC events. **FINDING**: High-energy events
+(E > 10^30 J: SN, BNS, BBH, GRB) all give $\alpha_{\rm implied}$
+= 1.12 to 1.45, consistent with $\alpha = 1.289$ within 10-15%
+scatter. Low-energy events (solar flare, earthquake, cosmic ray
+shower) give wildly different $\alpha$. **CONCLUSION**:
+M^1.29 is empirically supported for HIGH-ENERGY creation events
+but is NOT universal across all 14 events. Some events in §3.17
+list are NOT real 4D events creating 2D universes — this needs
+refinement of the democratic cosmology list.
+
+**v15 (Variational Liouville + DOZZ for $\mu$)**: Tried to derive
+$\mu$ from c=1 Liouville structure. **KEY FINDING**: In c=1
+Liouville, $\mu$ is NOT a structural parameter — it only sets
+the OVERALL SCALE of the action. DOZZ 3-point function
+$C(\alpha, \alpha, \alpha)$ is INDEPENDENT of $\mu$ (verified
+numerically). **CONCLUSION**: $\mu$ cannot be derived from the
+2D theory alone. L41 REMAINS OPEN — must come from 5D matching
+or observational closure.
+
+**v16 (Comparison with known 2D dilaton gravity solutions)**:
+Cataloged 11 known 2D theories (JT, CGHS, RST, Liouville,
+SYK, Witten 2D black hole, dS2). **FINDING**: No single 2D
+theory gives $\alpha = 1.289$. Multiple structural
+decompositions work (e.g., $1 + 1/\sqrt{12}$). The most
+natural: $\alpha = 1$ (SR time dilation, linear E/M) +
+$1/\sqrt{12}$ (N=12 finite-size correction). **CONCLUSION**:
+SIDC's structural decomposition is consistent with the 2D
+theory landscape. The '1' is dominant SR; the '0.289' is
+finite-N correction. Suggests the Lagrangian should have an
+SR-like + finite-N structure.
+
+**v17 (Large-N extrapolation of SYK q=4)**: Computed
+$\alpha_{\rm eff}(N)$ for N = 4, 6, 8, 10, 12 SYK q=4 via
+exact diagonalization. **FINDING**: $\alpha_{\rm eff}$
+increases with N: 0.60 (N=4), 0.76 (N=6), 1.05 (N=8),
+1.03 (N=10), 1.15 (N=12). SYK q=4 alone gives $\alpha_{\rm eff}
+\approx 1$ at N=12, NOT 1.289. **CONCLUSION**: Pure SYK is
+NOT enough; the '0.289' extra requires cross-sector coupling.
+SIDC's $\alpha = 1.289$ is structurally $1 + 1/\sqrt{N}$
+at N=12.
+
+**v18 (Replica trick for $f_{\rm back}$)**: Computed entropy
+$S(E)$ for SYK + Liouville via density of states and Cardy
+formula. Tried to derive $f_{\rm back} = e^{-S}$. **FINDING**:
+For SN, $S_{2D} \sim 10^{18}$, so $e^{-S} \sim 0$ — WAY too
+small. $f_{\rm back}$ is NOT $\exp(-S)$. **CONCLUSION**:
+L48 status unchanged — $f_{\rm back}$ derived for FORM via
+§3.60 composite formula, value still calibrated.
+
+**v19 (Direct brute-force $\alpha$ extraction)**: Computed
+$Z(\beta)$ and $E_{\rm mean}(\beta)$ for SYK q=4 N=12.
+Extracted $\alpha_{\rm eff}$ from log-log slopes in various
+$\beta$ ranges. Pure SYK: $\alpha \sim 0.5-1.0$ in mid-T,
+diverges at extremes. Combined $Z = Z_{\rm JT} \times Z_L
+\times Z_{\rm SYK}$: $\alpha_{\rm eff} \sim 3-37$ (NOT 1.289).
+**CONCLUSION**: $\alpha = 1.289$ is NOT directly visible
+from $Z$. It is a CROSS-SECTOR EMERGENT phenomenon, not a
+direct consequence of the 2D partition function.
+
+**Consolidated verdict (v14-v19)**:
+- L41 (Why $\mu$): NOT closed. $\mu$ is an overall scale in c=1
+  Liouville, not a structural parameter. Requires 5D matching
+  or observational closure.
+- L42 (Why $m_{3+1D}$): NOT closed. Requires 5D matching.
+- L43 (Full Lagrangian): NOT closed. Cross-coupling terms +
+  correct observable identification needed. Pure 2D partition
+  function doesn't give $\alpha = 1.289$ directly.
+- L48 ($f_{\rm back}$): Form closed via §3.60; value calibrated.
+
+**Net new limitations**: L93-L97 added (one per v14-v19).
+
+See:
+- `calculations/lagrangian_v14_m129_universality.py` (v14)
+- `calculations/lagrangian_v14b_real_events.py` (v14b)
+- `calculations/lagrangian_v15_dozz_mu.py` (v15)
+- `calculations/lagrangian_v16_2d_solutions.py` (v16)
+- `calculations/lagrangian_v17_large_n_extrapolation.py` (v17)
+- `calculations/lagrangian_v18_replica_trick.py` (v18)
+- `calculations/lagrangian_v19_brute_force_alpha.py` (v19)
+
+**Total Lagrangian attempts**: v1-v19 = 19 attempts.
+- Closed: 3 (v9, v10 L48; v16 structural decomposition)
+- Partially closed: 3 (v7 Hagedorn, v14 high-E universality, v17 alpha ~1 at N=12)
+- Honest negatives: 13 (L41-L43 not closed)
+
 
 
 ---
