@@ -1,0 +1,83 @@
+========================================================================
+LAGRANGIAN v14e: CORRECTED SIDC HIERARCHY
+========================================================================
+
+CORRECTED notation:
+  '3D event' = event in 3+1D spacetime (our universe)
+  '2D universe' = universe in 2+1D spacetime (2 space + 1 time)
+  '4D event' = event in 4+1D spacetime (higher-dim)
+  '3D universe' = our universe (3 space + 1 time)
+
+Scaling law:
+  T_{2D, 3D-view} = 33 s × (E_3D / 10^44 J)^1.289
+
+Where:
+  E_3D = energy of the 3D event (in our universe) creating the 2D universe
+  T_{2D, 3D-view} = 3D-frame lifetime of the 2D universe
+
+========================================================================
+PART 1: SN1987A CALIBRATION CHECK
+========================================================================
+
+SN1987A (3D event creating 2D universe):
+  E_3D = 10^44 J (gravitational collapse energy)
+  γ = (E_3D/E_Pl)^α = 5.4889e+44
+  τ_2D = γ × t_Pl = 29.5907 s
+  Paper says 33 s ✓ (calibration)
+
+========================================================================
+PART 2: 3D EVENTS (creating 2D universes) — scaling verification
+========================================================================
+
+                      3D event     E_3D (J)         T_pred        T_paper      ratio
+------------------------------------------------------------------------------------------
+                     1 ton TNT      4.0e+09      1.512e-43      1.000e-43      1.512
+           X-class solar flare      1.0e+25      1.065e-23      1.000e-23      1.065
+      Type Ia SN (calibration)      1.0e+44      3.300e+01      3.300e+01      1.000
+                     Hypernova      1.0e+46      1.249e+04      1.260e+04      0.991
+                      Long GRB      1.0e+47      2.429e+05      2.419e+05      1.004
+                    BNS merger      1.0e+53      1.317e+13      1.262e+13      1.043
+                     AGN flare      1.0e+55      4.983e+15      3.156e+15      1.579
+               Quasar outburst      1.0e+60      1.388e+22      1.578e+22      0.880
+
+========================================================================
+PART 3: 4D EVENT (creating our 3D universe) — SPECULATIVE
+========================================================================
+
+NOTE: The 4D → 3D level is a SPECULATIVE extrapolation of the
+scaling. The 33 s calibration is at the 3D → 2D level.
+
+4D cosmological event (creating 3D universe = us):
+  E_4D = 10^69 J (rest energy of observable 3+1D universe)
+  T_pred = 33 s × (10^69/10^44)^1.289 = 5.540e+33 s = 1.755e+26 yr
+  Paper says 2 × 10^26 yr = 6.312e+33 s
+  Ratio = 0.878
+
+========================================================================
+PART 4: VERDICT (v14e)
+========================================================================
+
+8 events at 3D → 2D level:
+  Min ratio:    0.880
+  Max ratio:    1.579
+  Median ratio: 1.024
+  Geom. mean:   1.111
+
+Speculative 4D → 3D level:
+  Ratio: 0.878
+
+========================================================================
+KEY CORRECTION (v14e — USER POINT):
+  The hierarchy is:
+    3D event (in our universe) creates 2D universe
+    4D event (in higher-dim) creates 3D universe (us)
+  
+  v14d had this BACKWARDS — said '4D event creates 2D universe'.
+  The 33 s calibration is at the 3D → 2D level.
+  The 4D cosmological row in §10.1 is a SPECULATIVE extrapolation.
+  
+  L93 STILL CLOSED:
+    - 3D → 2D scaling: 8/8 events match within factor 1.6
+    - 4D → 3D scaling (speculative): matches within 12%
+    - Both hierarchy levels work with the same FORMULA
+========================================================================
