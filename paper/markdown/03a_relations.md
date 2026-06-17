@@ -1,4 +1,4 @@
-<!-- 03_relations.md - part of paper.md split (v3.0.13, refactored v3.1) -->
+<!-- 03a_relations.md - part of paper.md split (v3.1, renamed from 03_relations.md for sequential ordering) -->
 
 <!-- 03_relations.md - part of paper.md split (v3.0.13) -->
 
