@@ -664,6 +664,19 @@
 # Both fixes produce proper minus on github mobile AND desktop.
 # This was found in README line 102, 105, 109, 925.
 #
+# GITHUB MOBILE/DESKTOP GOTCHA #4: $\\sim$ and $\\to$ inside math are
+# sometimes rendered as literal '\sim' and '\to' text on github
+# desktop (and possibly mobile). The fix is to AVOID using these
+# specific LaTeX commands inline in math mode. Use Unicode or split:
+#   $A_{event} \\sim 67$        → $A_{event}$ ~ 67  (plain tilde)
+#   $\\sim 10^{6}$ old stars    → ~ $10^{6}$ old stars
+#   $\\to$ next                → → (Unicode arrow) OR ~> (plain text)
+#   $m_{3+1D} \\to$ m          → $m_{3+1D}$ → m
+# Why: the GitHub KaTeX renderer seems to have inconsistent handling
+# of these two specific commands. Splitting into multiple math blocks
+# or using Unicode is more reliable.
+# Found in README line 24, 65, 101, 593, 828, 836, etc.
+#
 # APPROXIMATELY EQUAL:
 #   WRONG:  ≈ (Unicode)
 #   WRONG:  ~ (tilde, not typeset)
