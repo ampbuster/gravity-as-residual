@@ -222,11 +222,11 @@ $$S = \int d^2\sigma \sqrt{g}[\frac{1}{2} (\partial\phi)^2 + \mu e^{2b\phi} + T(
 
 The 2D universe's lifetime $T_{2D}$ should be derivable from this Lagrangian. Candidate derivations:
 
-1. **2D Planck scale (set by μ):** $T_{2D}$ ~ $t_{\rm Pl}$,2 = ℏ/(μ c²). For $T_{2D}$ = 33 s: μ = $5.3 \times 10^{-48}$ J = $3.3 \times 10^{-29}$ eV. This is a "dark energy"-like scale.
+1. **2D Planck scale (set by μ):** $T_{2D}$ ~ $t_{\rm Pl}$,2 = ℏ/(μ c²). For $T_{2D} = 33$ s: μ = $5.3 \times 10^{-48}$ J = $3.3 \times 10^{-29}$ eV. This is a "dark energy"-like scale.
 
-2. **2D universe burnout time:** t_burnout ~ 1/√μ (set by 2D Hubble rate). For $T_{2D}$ = 33 s: μ = $6 \times 10^{-18}$ eV. **Inconsistent with the Planck-scale anchor by 12 orders of magnitude.**
+2. **2D universe burnout time:** t_burnout ~ 1/√μ (set by 2D Hubble rate). For $T_{2D} = 33$ s: μ = $6 \times 10^{-18}$ eV. **Inconsistent with the Planck-scale anchor by 12 orders of magnitude.**
 
-3. **2D universe expansion time:** t_exp ~ $\ell_{\rm Pl}$,2 / c. For $T_{2D}$ = 33 s, the final size is c $\times$ 33 s = $10^{10}$ m. Natural, but doesn't give μ directly.
+3. **2D universe expansion time:** t_exp ~ $\ell_{\rm Pl}$,2 / c. For $T_{2D} = 33$ s, the final size is c $\times$ 33 s = $10^{10}$ m. Natural, but doesn't give μ directly.
 
 4. **2D universe "effective mass" m_{3+1D}:** From DM abundance (27% of ρ_crit), each 2D universe has m_{2D} ~ $10^{-40}$ GeV/c². This is a "natural" mass scale, but not a *lifetime* anchor.
 
@@ -262,7 +262,7 @@ $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$
 
 where ρ_c = $7.7 \times 10^{-10}$ J/m³ is the critical density.
 
-For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2D}$ = 33 s, rate ~ $10^{4}$ /${\rm Mpc}^3$/yr = $1.08 \times 10^{-71}$ /m³/s):
+For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2D} = 33$ s, rate ~ $10^{4}$ /${\rm Mpc}^3$/yr = $1.08 \times 10^{-71}$ /m³/s):
 
 | $\epsilon_{\rm GW}$ | $\Omega_{\rm GW}$ at 0.03 Hz | LISA noise at 0.03 Hz | Detectable? |
 |---|---|---|---|
@@ -350,7 +350,7 @@ $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$
 
 where ρ_c = $7.7 \times 10^{-10}$ J/m³.
 
-**For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2D}$ = 33 s, rate ~ $10^{4}$ /${\rm Mpc}^3$/yr = $1.08 \times 10^{-71}$ /m³/s):**
+**For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2D} = 33$ s, rate ~ $10^{4}$ /${\rm Mpc}^3$/yr = $1.08 \times 10^{-71}$ /m³/s):**
 
 | $\epsilon_{\rm GW}$ | $\Omega_{\rm GW}$ at 0.03 Hz | LISA noise at 0.03 Hz | Ratio (SNR) | Detectable? |
 |---|---|---|---|---|

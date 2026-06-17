@@ -204,8 +204,8 @@ This combination of small $f_{active}$ + isothermal profile + scale factor is a 
 *Universal SIDC RAR with mass-dependent scale (commit 117, v2.2.1).* A key test: can ONE set of $(f_{active}, r_{core}/R_{halo})$ fit BOTH the MW and the cluster RAR simultaneously, with just a mass-dependent scale factor?
 
 **Best universal fit:** $f_{active} = 0.05$, $r_{core}/R_{halo} = 0.2$ (universal), with mass-dependent scale:
-- **MW:** scale = 0.1 (SIDC $M_{halo}$ ~ 10% of empirical), log error = 0.05
-- **Cluster:** scale = 0.7 (SIDC $M_{halo}$ ~ 70% of empirical), log error = 0.02
+- **MW:** scale = 0.1 (SIDC $M_{halo} \sim 10$% of empirical), log error = 0.05
+- **Cluster:** scale = 0.7 (SIDC $M_{halo} \sim 70$% of empirical), log error = 0.02
 
 **Detailed fit:**
 
@@ -1286,7 +1286,7 @@ See `calculations/agn_host_dm_v2.py` and `calculations/agn_host_dm_v2_results.tx
 
 ### 4.35 $f_{\rm active}$ Derivation from 4D Event Dynamics (Tier 1 #2, v2.3.1) — REVERTED in v2.7.1
 
-The V1 status (commit 121) was that $f_{\rm active}$ was constrained to 0.05-0.18 by 3+1D data, with a 4$\times$ gap DOCUMENTED as Limitation 20. This V2 derives $f_{\rm active}$ from first principles using a 4D event energetics argument. **v2.7.1 update:** the identification $\tau_{2D}$ ~ 0.7 Gyr (gas consumption timescale, Bigiel+ 2008, Kennicutt-Schmidt law) is a SEPARATE POSTULATE identified by physical analogy, not a first-principles derivation. The "derivation" $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ is REVERTED in v2.7.1: $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). The numerical coincidence (0.051 from the postulate matches 0.0513 from MCMC) is striking but does not constitute a derivation. Limitation 20 status: PARTIAL → REVERTED (see §7.0).
+The V1 status (commit 121) was that $f_{\rm active}$ was constrained to 0.05-0.18 by 3+1D data, with a 4$\times$ gap DOCUMENTED as Limitation 20. This V2 derives $f_{\rm active}$ from first principles using a 4D event energetics argument. **v2.7.1 update:** the identification $\tau_{2D} \sim 0.7$ Gyr (gas consumption timescale, Bigiel+ 2008, Kennicutt-Schmidt law) is a SEPARATE POSTULATE identified by physical analogy, not a first-principles derivation. The "derivation" $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ is REVERTED in v2.7.1: $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). The numerical coincidence (0.051 from the postulate matches 0.0513 from MCMC) is striking but does not constitute a derivation. Limitation 20 status: PARTIAL → REVERTED (see §7.0).
 
 **The derivation:**
 
@@ -1294,7 +1294,7 @@ For a 4D event with approximately constant output R(t) over the universe's lifet
 
 $$f_{active} = \frac{N_{active}}{N_{cumulative}} = \frac{R \cdot \tau_{2D}}{R \cdot T_{universe}} = \frac{\tau_{2D}}{T_{universe}}$
 
-**Identifying $\tau_{2D}$:** The 2D universe's lifetime is set by its internal dynamics — the time for the 2D universe to consume its fuel and return energy to 3+1D via $S_{\rm destruction}$. By physical analogy with our universe's gas consumption timescale (Bigiel+ 2008, Kennicutt-Schmidt law): **$\tau_{2D}$ ~ 0.7 Gyr**.
+**Identifying $\tau_{2D}$:** The 2D universe's lifetime is set by its internal dynamics — the time for the 2D universe to consume its fuel and return energy to 3+1D via $S_{\rm destruction}$. By physical analogy with our universe's gas consumption timescale (Bigiel+ 2008, Kennicutt-Schmidt law): **$\tau_{2D} \sim 0.7$ Gyr**.
 
 **Result:**
 $$f_{active} = \frac{0.7  Gyr}{13.8  Gyr} = 0.051$$
@@ -1316,7 +1316,7 @@ These are TWO DIFFERENT physical processes:
 
 Both are real, both are ~1-3 Gyr, but they're not the same. The "5% in three places" mystery (commit 121) is now explained: **gas consumption (0.7 Gyr) is the relevant LOCAL timescale, not the cosmic SFR peak (2.5 Gyr).**
 
-**Closed limitation (v2.3.1, REVERTED v2.7.1):** Limitation 20 ($f_{\rm active}$ derivation limitation) was **CLOSED** by this derivation in v2.3.1. $f_{\rm active}$ was no longer a "fit" but a "derivation" from $\tau_{2D}$ / $T_{\rm universe}$, with $\tau_{2D}$ identified by physical analogy with gas consumption. **v2.7.1 update:** the identification $\tau_{2D}$ ~ 0.7 Gyr is a SEPARATE POSTULATE, not a first-principles derivation. The "CLOSED" status is REVERTED in v2.7.1; $f_{\rm active}$ is a FREE PARAMETER (see §7.0 L20 and the §4.35 header).
+**Closed limitation (v2.3.1, REVERTED v2.7.1):** Limitation 20 ($f_{\rm active}$ derivation limitation) was **CLOSED** by this derivation in v2.3.1. $f_{\rm active}$ was no longer a "fit" but a "derivation" from $\tau_{2D}$ / $T_{\rm universe}$, with $\tau_{2D}$ identified by physical analogy with gas consumption. **v2.7.1 update:** the identification $\tau_{2D} \sim 0.7$ Gyr is a SEPARATE POSTULATE, not a first-principles derivation. The "CLOSED" status is REVERTED in v2.7.1; $f_{\rm active}$ is a FREE PARAMETER (see §7.0 L20 and the §4.35 header).
 
 **Predictions of this derivation:**
 1. $f_{\rm active}$ should be **UNIVERSAL across galaxy types** ($\tau_{2D}$ is a property of the 2D universe, not the host galaxy).
@@ -1329,7 +1329,7 @@ Both are real, both are ~1-3 Gyr, but they're not the same. The "5% in three pla
 - MCMC posterior: 0.0513 ± 0.0073 — within 1σ of 0.051, no tension.
 
 **Honest caveats:**
-- The $\tau_{2D}$ ~ 0.7 Gyr identification is by PHYSICAL ANALOGY (gas consumption in our universe → 2D universe lifetime), not a first-principles derivation.
+- The $\tau_{2D} \sim 0.7$ Gyr identification is by PHYSICAL ANALOGY (gas consumption in our universe → 2D universe lifetime), not a first-principles derivation.
 - A full Lagrangian would derive $\tau_{2D}$ from L_2D (Limitation 26, "A full Lagrangian is the unfinished business of fundamental physics").
 - The "0.7 Gyr" is approximatelyimate; a more precise $\tau_{2D}$ would give a more precise $f_{\rm active}$.
 - But the **ORDER OF MAGNITUDE is right**, and the LOCAL vs GLOBAL distinction is a real, testable prediction.
@@ -1346,7 +1346,7 @@ A definitive test requires per-morphology MCMC fitting (joint fit of $f_{\rm act
 
 See `calculations/derive_4d_factive_v2_test.py` and `calculations/derive_4d_factive_v2_test_results.txt` for the full preliminary analysis. **Status: prediction #1 documented but not definitively tested.**
 
-**Verdict (v2.3.1, REVERTED v2.7.1):** $f_{\rm active}$ was *claimed* to be derivable from 4D event physics in v2.3.1; Limitation 20 was *claimed* to be CLOSED. The 4$\times$ gap was reframed as a feature (LOCAL vs GLOBAL). **v2.7.1 update:** the "derivation" used $\tau_{2D}$ ~ 0.7 Gyr as a SEPARATE POSTULATE (gas consumption timescale, identified by physical analogy), not a first-principles derivation. The numerical match (0.051 vs 0.0513) is striking but does not constitute a derivation. L20 status is REVERTED in v2.7.1; $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC.
+**Verdict (v2.3.1, REVERTED v2.7.1):** $f_{\rm active}$ was *claimed* to be derivable from 4D event physics in v2.3.1; Limitation 20 was *claimed* to be CLOSED. The 4$\times$ gap was reframed as a feature (LOCAL vs GLOBAL). **v2.7.1 update:** the "derivation" used $\tau_{2D} \sim 0.7$ Gyr as a SEPARATE POSTULATE (gas consumption timescale, identified by physical analogy), not a first-principles derivation. The numerical match (0.051 vs 0.0513) is striking but does not constitute a derivation. L20 status is REVERTED in v2.7.1; $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC.
 
 See `calculations/derive_4d_factive_v2.py` and `calculations/derive_4d_factive_v2_results.txt` for full analysis.
 
@@ -1461,7 +1461,7 @@ where:
    where the ρ² term is the high-energy correction, Λ_4 is the brane CC, and E is dark radiation from the 5D Weyl tensor.
 
 3. **2D universe lifetime (from brane tension):**
-   $\tau_{2D}$ = L_event / c (postulate), but SIDC's $f_{\rm active}$ ~ 0.05 requires $\tau_{2D}$ ~ 0.7 Gyr (gas consumption, see §4.35). Resolution: $\tau_{2D}$ is the 2D universe's MATTER consumption timescale, not its gravitational-collapse timescale.
+   $\tau_{2D}$ = L_event / c (postulate), but SIDC's $f_{\rm active}$ ~ 0.05 requires $\tau_{2D} \sim 0.7$ Gyr (gas consumption, see §4.35). Resolution: $\tau_{2D}$ is the 2D universe's MATTER consumption timescale, not its gravitational-collapse timescale.
 
 **Constraint check (10 SIDC constraints from §2.5.1):**
 
@@ -1473,7 +1473,7 @@ where:
 | 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε~$1 \times 10^{-38}$) |
 | 5 | $f_{\rm active}$ = 0.0513 ± 0.0073 | ? OPEN: requires $\tau_{2D}$/$T_{\rm universe}$ (done in §4.35) |
 | 6 | Spatial distribution: isothermal cumulative | **[PASS]** SATISFIED (2D 1/r gravity gives isothermal) |
-| 7 | $H_0$ = 70 ± 3 (qualitative consistency) | ? OPEN: requires 2D CFT for specific value |
+| 7 | $H_0 = 70$ ± 3 (qualitative consistency) | ? OPEN: requires 2D CFT for specific value |
 | 8 | RAR shape: $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ | ? OPEN: requires back-projection analysis |
 | 9 | w = -1 (cosmological constant behavior) | **[PASS]** SATISFIED (constant antigravity output) |
 | 10 | Cone-shape: 2 levels, terminal at 2D | **[PASS]** SATISFIED (action terminates at 2D worldsheets) |
@@ -1495,7 +1495,7 @@ where:
 3. The 2D universe's lifetime $\tau_{2D}$ (the death mechanism)
 4. The 32%/68% split (depends on specific geometry)
 5. The 5%/27% inner split (depends on $\tau_{2D}$ dynamics)
-6. The $H_0$ = 70 ± 3 qualitative consistency (SIDC does not derive a specific $H_0$ value; see §2.6.1)
+6. The $H_0 = 70$ ± 3 qualitative consistency (SIDC does not derive a specific $H_0$ value; see §2.6.1)
 7. The RAR shape (requires back-projection analysis)
 
 **Honest assessment:** This is a STEP FORWARD but NOT a complete Lagrangian. SIDC's framework is now EXPRESSIBLE in field theory language, but specific predictions still require detailed dynamical calculations beyond the scope of this attempt.
@@ -1511,7 +1511,7 @@ Per user question "can't we trial-and-error on the free parameters?", this secti
 **Q1 & Q4: Can trial-and-error give 32% projection efficiency?** YES.
 
 For f_split = 0.32 (SIDC's 32%/68% split between projected and antigravity, NOT to be confused with the back-projection efficiency f_proj used elsewhere in the paper), the bulk-brane coupling α must be at a specific order of magnitude:
-- For $E_{4D}$ ~ $1 \times 10^{60}$ J (rough 4D event total energy), N_events ~ $1 \times 10^{10}$ (total SN in 13.8 Gyr), E_event ~ $1 \times 10^{44}$ J, $\tau_{2D}$ ~ 0.7 Gyr:
+- For $E_{4D}$ ~ $1 \times 10^{60}$ J (rough 4D event total energy), N_events ~ $1 \times 10^{10}$ (total SN in 13.8 Gyr), E_event ~ $1 \times 10^{44}$ J, $\tau_{2D} \sim 0.7$ Gyr:
 - α ~ 0.03-0.3 gives f_split $\approx$ 0.32
 
 The coupling α is NOT free — it's constrained to α ~ 0.03-0.3 by the observed 68% dark energy. This **partially closes Limitation 26** by reducing the free parameters from 5 to 3.
@@ -1535,30 +1535,30 @@ Reverting to 2D=3+1D would require:
 
 **Status: 2D=3+1D is a valid alternative that the v2.3.1 SIDC does not explore.** It is left as a separate work to develop fully. This is a real architectural choice, not a derived feature (Limitation 11.5).
 
-**Q3: What gives $\tau_{2D}$ = 0.7 Gyr?** YES, with fine-tuning.
+**Q3: What gives $\tau_{2D} = 0.7$ Gyr?** YES, with fine-tuning.
 
-SIDC's $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ = 0.7/13.8 = 0.051 requires $\tau_{2D}$ = 0.7 Gyr (the gas consumption timescale). This is **not arbitrary** — it's a specific timescale that can be matched by:
+SIDC's $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ = 0.7/13.8 = 0.051 requires $\tau_{2D} = 0.7$ Gyr (the gas consumption timescale). This is **not arbitrary** — it's a specific timescale that can be matched by:
 - $M_{2D}$ ~ $1 \times 10^{46}$ J (2D universe's total energy)
 - L_consumption ~ $1 \times 10^{28}$ W (2D universe's energy consumption rate)
-- → $\tau_{2D}$ = $M_{2D}$ / L_consumption = 0.7 Gyr **[PASS]**
+- → $\tau_{2D} = M_{2D}$ / L_consumption = 0.7 Gyr **[PASS]**
 
 This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D}$ ~ $1 \times 10^{46}$ J and gas consumption rate ~ $1 \times 10^{28}$ W would naturally have a 0.7 Gyr lifetime.
 
 **Q4 (Q4 again): Can the 5/27 inner split emerge from dynamics?** NO, the 5/27 inner split was DROPPED in v2.7.1.
 
 The 5/27 inner split was previously claimed to be derivable from $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$:
-- $\tau_{2D}$ = 0.7 Gyr → $f_{\rm active}$ = 0.05 (gas consumption timescale, matches MCMC)
-- $\tau_{2D}$ = 2.5 Gyr → $f_{\rm active}$ = 0.18 (cosmic SFR peak timescale, matches 5/27 ratio)
+- $\tau_{2D} = 0.7$ Gyr → $f_{\rm active}$ = 0.05 (gas consumption timescale, matches MCMC)
+- $\tau_{2D} = 2.5$ Gyr → $f_{\rm active}$ = 0.18 (cosmic SFR peak timescale, matches 5/27 ratio)
 
 But the empirical 33 s lifetime gives $f_{\rm active}$ ~ $10^{-17}$, NOT 0.05. The 5/27 inner split was a SEPARATE POSTULATE based on a phenomenological RAR MCMC fit, and it conflicted with the empirical 33 s lifetime. In v2.7.1, the 5/27 inner split is DROPPED. **Limitation 17 (5/27 derivation) is reopened as NOT DERIVED.**
 
 **Q5: Does SIDC derive a specific $H_0$?** (v2.5 update)
 
-**HISTORICAL (Mechanism M era):** SIDC's Mechanism M era claimed $H_0$ = 73 as a borrowed value from SH0ES. This was a postdiction, not a derivation, and was removed in v2.5 commit 281.
+**HISTORICAL (Mechanism M era):** SIDC's Mechanism M era claimed $H_0 = 73$ as a borrowed value from SH0ES. This was a postdiction, not a derivation, and was removed in v2.5 commit 281.
 
-**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0$ = 70 ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is 0.2σ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
+**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is 0.2σ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
 
-A 2D CFT calculation is needed to derive the specific active boost and cumulative drag from first principles. SIDC's contribution is the *qualitative* framework ($H_0$ = 70 ± 3), not a specific number.
+A 2D CFT calculation is needed to derive the specific active boost and cumulative drag from first principles. SIDC's contribution is the *qualitative* framework ($H_0 = 70$ ± 3), not a specific number.
 
 **Summary: Trial-and-error status for the 5 free parameters:**
 
@@ -1566,7 +1566,7 @@ A 2D CFT calculation is needed to derive the specific active boost and cumulativ
 |---|-----------|------------------------|--------|
 | 1 | L_2D (2D matter content) | NO | Requires picking a specific 2D theory (not derivable) |
 | 2 | α (bulk-brane coupling) | YES | α ~ 0.03-0.3 for f_split = 0.32 **[PASS]** |
-| 3 | Death mechanism | YES | $M_{2D}$ ~ $1 \times 10^{46}$ J, L_rate ~ $1 \times 10^{28}$ W for $\tau_{2D}$ = 0.7 Gyr **[PASS]** |
+| 3 | Death mechanism | YES | $M_{2D}$ ~ $1 \times 10^{46}$ J, L_rate ~ $1 \times 10^{28}$ W for $\tau_{2D} = 0.7$ Gyr **[PASS]** |
 | 4 | T^DM at death (spatial) | NO | Requires picking a specific distribution (not derivable) |
 | 5 | 5/27/68 inner split | YES (resolved §4.35) | $f_{\rm active}$ = $\tau_{2D}$/$T_{\rm universe}$ = 0.051 **[PASS]** |
 
@@ -1610,7 +1610,7 @@ Per user request, this attempts the 14th Hubble mechanism (after C, D, I, L, M, 
 
 **Honest result:** Mechanism N FAILS for these reasons:
 
-1. **SIDC's $H_0$ is qualitatively consistent with $H_0$ = 70 ± 3 (no specific value derived)** (4D event's antigravity output rate). This is Λ-like behavior, identical to ΛCDM at z=0.
+1. **SIDC's $H_0$ is qualitatively consistent with $H_0 = 70$ ± 3 (no specific value derived)** (4D event's antigravity output rate). This is Λ-like behavior, identical to ΛCDM at z=0.
 2. **Weyl tensor in RS-II contributes to H² as a⁻⁴** (radiation-like). The sign goes the wrong way: positive Weyl gives $H_{0,\rm CMB}$ > $H_{0,\rm local}$, but we observe $H_{0,\rm local}$ > $H_{0,\rm CMB}$.
 3. **$V_{\rm local}$ scaling: $g_+$ at z=1100 would be ~30x larger** than today (if $V_{\rm local}$ scales as horizon volume). Small effect.
 4. **SIDC's physics at z~1100 is identical to ΛCDM** (matter-dominated, same expansion rate). So Planck's $H_0$ inference gives the same value regardless.
@@ -1634,19 +1634,19 @@ See `calculations/hubble_mechanism_N.py` and `calculations/hubble_mechanism_N_re
 
 ---
 
-### 4.41 CMB Power Spectrum Test: $H_0$ = 73 (Mechanism M era) vs Planck (v2.3.1, v2.5 update)
+### 4.41 CMB Power Spectrum Test: $H_0 = 73$ (Mechanism M era) vs Planck (v2.3.1, v2.5 update)
 
-**The highest-value test we hadn't done:** does SIDC's $H_0$ = 73 (historical Mechanism M era value, borrowed from SH0ES) give a CMB power spectrum consistent with Planck 2018? This is the ESSENCE of the Hubble tension, tested with a Boltzmann-solver-level analysis. (Note: in v2.5, SIDC's $H_0$ = 73 was removed as a prediction; see §2.6.1. The $H_0$ = 73 in this section is the SH0ES value used as a TEST INPUT, not a SIDC derivation.)
+**The highest-value test we hadn't done:** does SIDC's $H_0 = 73$ (historical Mechanism M era value, borrowed from SH0ES) give a CMB power spectrum consistent with Planck 2018? This is the ESSENCE of the Hubble tension, tested with a Boltzmann-solver-level analysis. (Note: in v2.5, SIDC's $H_0 = 73$ was removed as a prediction; see §2.6.1. The $H_0 = 73$ in this section is the SH0ES value used as a TEST INPUT, not a SIDC derivation.)
 
 **Approach.** Use CAMB (CAMB v1.6.6) to compute the CMB TT power spectrum for four models:
-- (a) Planck ΛCDM best-fit ($H_0$ = 67.4)
-- (b) SIDC ($H_0$ = 73 borrowed from SH0ES, same densities)
+- (a) Planck ΛCDM best-fit ($H_0 = 67.4$)
+- (b) SIDC ($H_0 = 73$ borrowed from SH0ES, same densities)
 - (c) SIDC + extra N_eff (dark radiation from 5D Weyl)
 - (d) SIDC + ω_c lowered to compensate
 
 Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 537.5 ± 0.7, l_3 = 810.8 ± 0.7, l_4 = 1128.0 ± 1.2.
 
-**Key Result.** SIDC's $H_0$ = 73 with SAME DENSITIES is IN TENSION with Planck CMB peak positions:
+**Key Result.** SIDC's $H_0 = 73$ with SAME DENSITIES is IN TENSION with Planck CMB peak positions:
 
 | Model | Peak 1 (220) | Peak 2 (537) | Peak 3 (810) | Peak 4 (1128) | χ² (4 peaks) |
 |-------|------|------|------|------|-------|
@@ -1657,7 +1657,7 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 
 **The tension is at $\Delta\chi^2 = $+650 for the same-density case.** This is a HARD falsification at the level of CMB peak positions, but a CONSISTENT one with Mechanism M: SIDC accepts the Hubble tension, and now we have a Boltzmann-solver-level confirmation of that acceptance.
 
-**Why $H_0$ = 73 fails:** The angular acoustic scale θ_* = r_s/D_A is fixed by Planck at 0.01041. With $H_0$ = 73 and same ω_b, ω_c:
+**Why $H_0 = 73$ fails:** The angular acoustic scale θ_* = r_s/D_A is fixed by Planck at 0.01041. With $H_0 = 73$ and same ω_b, ω_c:
 - r_s stays roughly the same (slight increase: 144.4 vs 144.4 Mpc)
 - D_A decreases significantly (more rapidly expanding universe at late t\times)
 - θ_* = r_s/D_A INCREASES (1.058 vs 1.041)
@@ -1666,13 +1666,13 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 
 **Adding extra N_eff makes it worse**, not better: dark radiation INCREASES H(z) at high z, which DECREASES r_s, which DECREASES θ_*, which moves peaks to HIGHER l. SIDC's "+1 neutrino from 5D Weyl" overshoots in the other direction.
 
-**Lowering ω_c helps partially** (χ² = 92.66 vs 666.88), but still has 4-6σ residual tension. SIDC's "DM" cannot be both 27% (today) and have a low ω_c to satisfy Planck CMB at $H_0$ = 73.
+**Lowering ω_c helps partially** (χ² = 92.66 vs 666.88), but still has 4-6σ residual tension. SIDC's "DM" cannot be both 27% (today) and have a low ω_c to satisfy Planck CMB at $H_0 = 73.$
 
-**The honest verdict.** SIDC's $H_0$ = 73 is the LOCAL value (the 4D event's antigravity output rate). SIDC's physics at z~1100 is identical to ΛCDM (per Mechanism N analysis, §4.40). Therefore, SIDC CANNOT explain the Hubble tension — it joins ΛCDM and other cosmological models in leaving the precise 5.6 km/s/Mpc gap unresolved.
+**The honest verdict.** SIDC's $H_0 = 73$ is the LOCAL value (the 4D event's antigravity output rate). SIDC's physics at z~1100 is identical to ΛCDM (per Mechanism N analysis, §4.40). Therefore, SIDC CANNOT explain the Hubble tension — it joins ΛCDM and other cosmological models in leaving the precise 5.6 km/s/Mpc gap unresolved.
 
 This test is INDEPENDENT of SIDC's other predictions ($g_+$, RAR, AGN). It is SIDC's prediction for the EARLY UNIVERSE (z>1000) tested against Planck data at the Boltzmann-solver level.
 
-**The CMB test confirms Mechanism M's honesty.** SIDC does not pretend to resolve the Hubble tension. The CMB peak positions are STRONG evidence for $H_0$ = 67.4 (under ΛCDM). SIDC's $H_0$ = 73 is the local value, which is in 5.6 km/s/Mpc tension with the CMB. SIDC accepts this.
+**The CMB test confirms Mechanism M's honesty.** SIDC does not pretend to resolve the Hubble tension. The CMB peak positions are STRONG evidence for $H_0 = 67.4$ (under ΛCDM). SIDC's $H_0 = 73$ is the local value, which is in 5.6 km/s/Mpc tension with the CMB. SIDC accepts this.
 
 **What this means for SIDC's "DM":** SIDC's "DM" being cumulative 2D universe gravity gives the SAME CMB power spectrum as ΛCDM's CDM, because the Einstein-Boltzmann equations only depend on total energy density. The CMB is a test of $H_0$ (and other early-universe parameters), not of the specific DM microphysics. So SIDC's "DM is geometric" claim is NOT tested by the CMB.
 
@@ -1682,7 +1682,7 @@ This test is INDEPENDENT of SIDC's other predictions ($g_+$, RAR, AGN). It is SI
 
 **Status.** This is a NEGATIVE result for SIDC's CMB-era physics, but a CONSISTENT one with Mechanism M. SIDC's strong empirical wins are at LOCAL scales ($g_+$, RAR, AGN, dwarf galaxies). The CMB is a known weak point, and SIDC is honest about it.
 
-**Limitation update:** Limitation 18 (Hubble tension) is now DOCUMENTED at the Boltzmann-solver level. SIDC's $H_0$ = 73 fails the CMB peak position test at $\Delta\chi^2 = $+650, confirming that SIDC does not resolve the Hubble tension.
+**Limitation update:** Limitation 18 (Hubble tension) is now DOCUMENTED at the Boltzmann-solver level. SIDC's $H_0 = 73$ fails the CMB peak position test at $\Delta\chi^2 = $+650, confirming that SIDC does not resolve the Hubble tension.
 
 **Limitation update:** Limitation 6 (no CMB power spectrum derivation) is now PARTIALLY ADDRESSED — we have a CAMB-based test of SIDC's prediction, and it fails (as expected per Mechanism M).
 
@@ -1696,7 +1696,7 @@ See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_predi
 
 **The question:** is SIDC's $g_+$ universal across galaxy masses, or does it have a mass dependence?
 
-**Approach.** Fit (M/L, $g_+$) per galaxy on the SPARC database (Lelli+ 2016c), using the MOND interpolation function. Use quality cuts (Q ≥ 1, residual < 0.1) to get 43 high-quality fits across 4.5 decades in baryonic mass ($M_{b}$ ~ 6.5 $\times$ $10^{6}$ to 2.5 $\times$ $10^{11}$ $M_\odot$).
+**Approach.** Fit (M/L, $g_+$) per galaxy on the SPARC database (Lelli+ 2016c), using the MOND interpolation function. Use quality cuts (Q ≥ 1, residual < 0.1) to get 43 high-quality fits across 4.5 decades in baryonic mass ($M_{b} \sim 6.5$ $\times$ $10^{6}$ to 2.5 $\times$ $10^{11}$ $M_\odot$).
 
 **Results.**
 
@@ -1745,7 +1745,7 @@ See `calculations/rar_per_galaxy_gplus_v3.py` and `calculations/rar_per_galaxy_g
 
 **The question:** does SIDC's "DM tracks baryons" picture give an $S_8$ consistent with DES Y3 and KiDS-1000 cosmic shear measurements?
 
-**Background.** $S_8$ = $\sigma_8$ $\times$ sqrt($\Omega_m$/0.3) is a key cosmological observable. Current measurements show a 2-3σ tension:
+**Background.** $S_8 = \sigma_8$ $\times$ sqrt($\Omega_m$/0.3) is a key cosmological observable. Current measurements show a 2-3σ tension:
 
 | Survey | $S_8$ | $\sigma_8$ | Method |
 |--------|-----|-----|--------|
@@ -1775,18 +1775,18 @@ This gives $S_8$(SIDC) ~ 0.775-0.815, which is:
 | Planck ΛCDM | 0.832 | +2.92σ | 0.00σ |
 | DES Y3 (observed) | 0.759 | 0.00σ | -5.62σ |
 | KiDS-1000 (observed) | 0.759 | 0.00σ | -5.62σ |
-| SIDC ($\sigma_8$ = 0.75) | 0.775 | +0.62σ | -4.42σ |
+| SIDC ($\sigma_8 = 0.75$) | 0.775 | +0.62σ | -4.42σ |
 | SIDC ($\sigma_8$=0.77) | 0.795 | +1.45σ | -2.83σ |
 | SIDC ($\sigma_8$=0.79) | 0.816 | +2.28σ | -1.24σ |
 
-**SIDC's predicted $S_8$ is closer to observations than ΛCDM.** Specifically, if $\sigma_8$(SIDC) ~ 0.75, SIDC's $S_8$ = 0.775 is within 1σ of DES/KiDS. This is a POSITIVE result for SIDC.
+**SIDC's predicted $S_8$ is closer to observations than ΛCDM.** Specifically, if $\sigma_8$(SIDC) ~ 0.75, SIDC's $S_8 = 0.775$ is within 1σ of DES/KiDS. This is a POSITIVE result for SIDC.
 
 **Honest verdict.** SIDC's "DM tracks baryons" picture NATURALLY resolves the $S_8$ tension between CMB and cosmic shear. SIDC is consistent with DES and KiDS, while ΛCDM has a 2-3σ tension.
 
 This is a **qualitative-level positive result.** It does not require any free parameters in SIDC — the "DM tracks baryons" follows directly from SIDC's picture of 2D universe creation. The exact $S_8$ value is not precisely derived (would require N-body simulation of SIDC DM, which is beyond the current paper's scope).
 
 **Caveats.**
-- SIDC's "$\sigma_8$ = 0.75-0.79" is a QUALITATIVE argument, not a quantitative prediction. The exact value depends on the spatial distribution of 2D universe back-projection, which is not derived (Limitation 9).
+- SIDC's "$\sigma_8 = 0.75$-0.79" is a QUALITATIVE argument, not a quantitative prediction. The exact value depends on the spatial distribution of 2D universe back-projection, which is not derived (Limitation 9).
 - The "SIDC DM tracks baryons" assumption is qualitative. In detail, 2D universes are created by energetic events, which are in galaxies, which are in clusters. SIDC's DM is a weighted integral of these, not a simple baryon tracer.
 - A proper test would require N-body simulation of SIDC DM, which is beyond the current paper's scope.
 
@@ -1968,7 +1968,7 @@ These 2-3 (or 4) parameters define the SPECIFIC SIDC model. Everything else is a
 The framework is now EXPRESSIBLE in standard form. To complete SIDC, the physicist would:
 1. Pick L_2D from a standard 2D CFT (e.g., c=1 minimal model, c=26 bosonic string, c=15/2 supersymmetric, etc.)
 2. Compute α from the bulk-brane junction conditions (Israel + Z2 symmetry)
-3. Derive $G_5$ from the specific $\AdS_5$ geometry (RS-II gives $G_5$ ~ 1/M_5^3 with M_5 ~ TeV)
+3. Derive $G_5$ from the specific $\AdS_5$ geometry (RS-II gives $G_5 \sim 1$/M_5^3 with M_5 ~ TeV)
 4. Verify $\tau_{2D}$ = L_event/c from the 2D CFT dynamics
 
 These are 4 well-posed sub-problems in brane-world + CFT physics. A specialist could solve them in ~6 months.
@@ -2014,7 +2014,7 @@ Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type st
 **Caveats (v2.7.35+, §3.29):**
 - DM content is CONTESTED in 2022-2025 literature (Mancera Piña 2022 vs Sellwood 2022)
 - Mancera Piña 2024 finds inclination 31±2°; CDM needs unusual halo; SIDM/FDM remain feasible
-- SIDC's $M_{dyn}$/$M_{b}$ ~ 1.36 is consistent with Mancera Piña 2022 but not with Sellwood 2022
+- SIDC's $M_{dyn}$/$M_{b} \sim 1.36$ is consistent with Mancera Piña 2022 but not with Sellwood 2022
 
 **Test 2: KKR 25 (dSph, Makarov+ 2012).**
 
@@ -2031,11 +2031,11 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 - KKR 25 has NO published velocity dispersion
 - SIDC's $M_{dyn}$ is estimated, not measured
 - No new observations in 2024-2026 literature
-- SIDC's $M_{dyn}$/$M_{b}$ ~ 1-4 is a range, not a specific value
+- SIDC's $M_{dyn}$/$M_{b} \sim 1$-4 is a range, not a specific value
 
 **What SIDC commits to (v2.7.36+):**
-- AGC 114905: $M_{dyn}$/$M_{b}$ ~ 1.36 (consistent with Mancera Piña 2022)
-- KKR 25: $M_{dyn}$/$M_{b}$ ~ 1-4 (estimated, consistent with typical dSph)
+- AGC 114905: $M_{dyn}$/$M_{b} \sim 1.36$ (consistent with Mancera Piña 2022)
+- KKR 25: $M_{dyn}$/$M_{b} \sim 1$-4 (estimated, consistent with typical dSph)
 - The SFH-DM correlation is preserved (intermediate SF → DM)
 - The PAIRWISE COMPARISON (bifurcation) is REMOVED
 
@@ -2089,8 +2089,8 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
                               v
 +-------------------------------------------------------------+
 | Part 4: Testing Harness (run_emulator_test)                |
-|   AGC 114905 -> expected $M_{dyn}$/$M_{b}$ = 1.36                   |
-|   KKR 25    -> expected $M_{dyn}$/$M_{b}$ ~ 1-4 (revised v2.7.33+, was 299.19) |
+|   AGC 114905 -> expected $M_{dyn}$/$M_{b} = 1.36$                   |
+|   KKR 25    -> expected $M_{dyn}$/$M_{b} \sim 1$-4 (revised v2.7.33+, was 299.19) |
 |   Independent tests: AGC 114905 + KKR 25 (bifurcation REMOVED v2.7.36+) |
 +-------------------------------------------------------------+
 ```
@@ -2125,7 +2125,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 | **SIDC $M_{dyn}/M_b$** | **299.19** | **1-4** | dimensionless | emulator output (revised) |
 | **Observed $M_{dyn}/M_b$** | ~100-1000 | ~1-4 | dimensionless | dSph typical (revised) |
 
-**Result: KKR 25 has $M_{dyn}$/$M_{b}$ ~ 1-4 (REVISED v2.7.33+), consistent with dSph observations of typical values. PASS (revised).**
+**Result: KKR 25 has $M_{dyn}$/$M_{b} \sim 1$-4 (REVISED v2.7.33+), consistent with dSph observations of typical values. PASS (revised).**
 
 **The 820$\times$ → 219$\times$ bifurcation in raw numbers.** REVISED v2.7.33+:
 
@@ -2135,7 +2135,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 | Predicted $M_{dyn}/M_b$ (SIDC emulator) | 1.36 | 299.19 | 1-4 | **219$\times$** | **0.7-3$\times$** |
 | Energy injection $E_{total}$ (J) | $1.1 \times 10^{51}$ | $4.5 \times 10^{51}$ | $1.8 \times 10^{49}$ | 4.1$\times$ | 0.016$\times$ |
 
-**Honest finding (v2.7.33+):** SIDC's 820$\times$ → 219$\times$ bifurcation was based on a 1000$\times$ error in KKR 25's $M_{b}$. The corrected bifurcation is much smaller (0.7-3$\times$) and may even REVERSE for some metrics (M_total_formed/$M_{b}$ = 0.11$\times$). SIDC's qualitative interpretation (intermediate SF → DM) is preserved; the quantitative prediction is much weaker. See §3.27 for the full self-correction.
+**Honest finding (v2.7.33+):** SIDC's 820$\times$ → 219$\times$ bifurcation was based on a 1000$\times$ error in KKR 25's $M_{b}$. The corrected bifurcation is much smaller (0.7-3$\times$) and may even REVERSE for some metrics (M_total_formed/$M_{b} = 0.11$$\times$). SIDC's qualitative interpretation (intermediate SF → DM) is preserved; the quantitative prediction is much weaker. See §3.27 for the full self-correction.
 
 **The non-linear mapping from 820$\times$ (energy) to 219$\times$ ($M_{dyn}$/$M_{b}$) is SIDC's signature.** REVISED v2.7.33+: The 820$\times$ → 219$\times$ shift was based on a 1000$\times$ error in KKR 25's $M_{b}$. The corrected numbers are 0.7-3$\times$. SIDC's non-linear saturation story is preserved qualitatively but the quantitative prediction is much weaker. A linear mapping would give 0.7-3$\times$ $M_{dyn}$/$M_{b}$; SIDC's saturation claim is no longer well-tested with these data.
 
@@ -2153,8 +2153,8 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 \$ cd calculations/
 \$ python3 sidc_phenomenological_emulator.py
 # → 0.7-3$\times$ bifurcation reproduced (REVISED v2.7.33+, was 219$\times$)
-# → AGC 114905: $M_{dyn}$/$M_{b}$ = 1.36
-# → KKR 25:    $M_{dyn}$/$M_{b}$ ~ 1-4 (REVISED v2.7.33+, was 299.19)
+# → AGC 114905: $M_{dyn}$/$M_{b} = 1.36$
+# → KKR 25:    $M_{dyn}$/$M_{b} \sim 1$-4 (REVISED v2.7.33+, was 299.19)
 ```
 
 **File added:** `calculations/sidc_phenomenological_emulator.py` (722 lines, 4 parts).
@@ -2284,7 +2284,7 @@ The CMB power spectrum test ($\Delta\chi^2 = $+650 for SIDC's $H_0$=73 vs Planck
 
 **7. Cosmic shear $S_8$ (qualitative, honest).**
 
-The cosmic shear test (§4.43) computes $S_8$ = 0.775 (SIDC) vs 0.759 (DES/KiDS) as a "within 1σ" match. The calculation is honest, but the underlying $\sigma_8$ = 0.75 is *qualitative* (SIDC's $\sigma_8$ is not derived). The paper documents this as a *qualitative* consistency, not a quantitative derivation.
+The cosmic shear test (§4.43) computes $S_8 = 0.775$ (SIDC) vs 0.759 (DES/KiDS) as a "within 1σ" match. The calculation is honest, but the underlying $\sigma_8 = 0.75$ is *qualitative* (SIDC's $\sigma_8$ is not derived). The paper documents this as a *qualitative* consistency, not a quantitative derivation.
 
 **Status:** verified. The paper is honest about the qualitative nature of the comparison.
 
@@ -2478,7 +2478,7 @@ The broader principle treats Thomson scattering (a continuous energy transfer pr
 
 1. SIDC predicts 5/27/68 ratio at all z, including z > 10 (testable with JWST, Roman, Euclid)
 2. SIDC predicts r(z) = (1+z)^3 for proper DM density (testable with growth rate measurements)
-3. SIDC's $H_0$ = 73 is the standard Hubble tension (testable with TRGB, Cepheid, megamaser distance ladder)
+3. SIDC's $H_0 = 73$ is the standard Hubble tension (testable with TRGB, Cepheid, megamaser distance ladder)
 4. SIDC predicts that $\Delta\chi^2$ in CMB likelihood is dominated by $H_0$ mismatch (not structural)
 5. SIDC's broader principle is a theoretical extension (requires 2D CFT derivation)
 
@@ -2585,7 +2585,7 @@ The calculation verifies:
 
 **The original CMB prediction (§4.41).**
 
-SIDC's CMB prediction was computed using `calculations/cmb_cascade_prediction.py` (using CAMB v1.6.6). The result was $\Delta\chi^2 = $+650 between SIDC's prediction ($H_0$ = 73) and Planck ($H_0$ = 67.4). This was interpreted as a significant falsification.
+SIDC's CMB prediction was computed using `calculations/cmb_cascade_prediction.py` (using CAMB v1.6.6). The result was $\Delta\chi^2 = $+650 between SIDC's prediction ($H_0 = 73$) and Planck ($H_0 = 67.4$). This was interpreted as a significant falsification.
 
 **The re-derivation under the broader principle.**
 
@@ -2602,7 +2602,7 @@ The CMB angular power spectrum depends on:
 - Baryon density Ω_b: set by primordial nucleosynthesis
 - $H_0$: the present-day expansion rate
 
-SIDC's $H_0$ = 73 is the only difference. All other parameters are the same as ΛCDM (because the broader principle makes SIDC's R(z) match ΛCDM's DM history).
+SIDC's $H_0 = 73$ is the only difference. All other parameters are the same as ΛCDM (because the broader principle makes SIDC's R(z) match ΛCDM's DM history).
 
 **The $\Delta\chi^2$=+650 is therefore the $\Delta\chi^2$ from changing $H_0$ from 67.4 to 73 in the CMB likelihood.** This is the standard Hubble tension: when you change $H_0$ in Planck's best-fit model, the CMB likelihood drops by 650 (in χ²). This is well-documented in the literature (Verde, Treu, Riess 2019; Di Valentino et al. 2021).
 
@@ -2610,7 +2610,7 @@ SIDC's $H_0$ = 73 is the only difference. All other parameters are the same as �
 
 SIDC is NOT structurally different from ΛCDM at the CMB. The only difference is $H_0$. The $\Delta\chi^2$=+650 is SIDC's $H_0$ mismatch, not a structural failure.
 
-SIDC's $H_0$ = 73 is SIDC's prediction from §2.6 Mechanism M (SIDC's 4D event's antigravity output). This is a real prediction of SIDC, and it's in tension with Planck's $H_0$ = 67.4.
+SIDC's $H_0 = 73$ is SIDC's prediction from §2.6 Mechanism M (SIDC's 4D event's antigravity output). This is a real prediction of SIDC, and it's in tension with Planck's $H_0 = 67.4$.
 
 **The Hubble tension as SIDC's only CMB problem:**
 
