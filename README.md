@@ -280,13 +280,13 @@ KKR 25's $M_{dyn}$ is **estimated** (⚠️), not measured.
 
 The $M_{dyn}/M_b$ ratio varies systematically with galaxy type:
 
-- **Globular clusters:** $10^{5}\text{--}10^{7}\,M_\odot$ — $M_{dyn}/M_b \sim 1$ (no current activity)
-- **Dwarf galaxies:** $10^{5}\text{--}10^{8}\,M_\odot$ — $M_{dyn}/M_b \sim 1\text{--}1700$ (huge spread)
-- **UFDs:** $10^{2}\text{--}10^{4}\,M_\odot$ — $M_{dyn}/M_b \sim 50\text{--}1700$ (extreme)
-- **Irregular galaxies:** $10^{8}\text{--}10^{9}\,M_\odot$ — $M_{dyn}/M_b \sim 6\text{--}7$
-- **Normal spirals:** $10^{10}\text{--}10^{11}\,M_\odot$ — $M_{dyn}/M_b \sim 14\text{--}30$
+- **Globular clusters:** $10^{5}–10^{7}\,M_\odot$ — $M_{dyn}/M_b \sim 1$ (no current activity)
+- **Dwarf galaxies:** $10^{5}–10^{8}\,M_\odot$ — $M_{dyn}/M_b \sim 1–1700$ (huge spread)
+- **UFDs:** $10^{2}–10^{4}\,M_\odot$ — $M_{dyn}/M_b \sim 50–1700$ (extreme)
+- **Irregular galaxies:** $10^{8}–10^{9}\,M_\odot$ — $M_{dyn}/M_b \sim 6–7$
+- **Normal spirals:** $10^{10}–10^{11}\,M_\odot$ — $M_{dyn}/M_b \sim 14–30$
 - **AGN hosts:** $10^{12}\,M_\odot$ — $M_{dyn}/M_b \sim 50$
-- **Galaxy clusters:** $10^{13}\text{--}10^{14}\,M_\odot$ — $M_{dyn}/M_b \sim 10\text{--}50$
+- **Galaxy clusters:** $10^{13}–10^{14}\,M_\odot$ — $M_{dyn}/M_b \sim 10–50$
 
 SIDC's qualitative picture: galaxies with non-trivial past SF
 have non-zero $M_{dyn}$. The specific value of $M_{dyn}/M_b$ depends on
@@ -298,7 +298,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 
 **1. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
 - $M_{b}$ $\sim 7.3 \times$ $10^{8}$ $M_\odot$ is measured
-- $M_{dyn}/M_b$ $\sim 1.36$ (Mancera Piña 2022) vs $\sim 2\text{--}3$ (Sellwood 2022)
+- $M_{dyn}/M_b$ $\sim 1.36$ (Mancera Piña 2022) vs $\sim 2--3$ (Sellwood 2022)
 - The 2022-2025 literature has **TWO contradictory conclusions**:
   - Mancera Piña 2022: "No trace of dark matter"
   - Sellwood 2022: "AGC 114905 NEEDS dark matter"
@@ -352,7 +352,7 @@ disputed (would change with new consensus).
 
 **Note on KKR 25:** KKR 25 is **included** in the table above, but
 its $M_{dyn}/M_b$ is **estimated** (⚠️ marker) rather than measured. The
-SIDC uses $\sigma \sim 3\text{--}5$ km/s and $r_h \sim 0.5\text{--}1$ kpc (typical dSph
+SIDC uses $\sigma \sim 3--5$ km/s and $r_h \sim 0.5--1$ kpc (typical dSph
 parameters) to estimate $M_{dyn}$ $\sim 3 \times 10^{6}$ $M_\odot$ and $M_{dyn}/M_b$ $\sim 1$. This
 is a **rough estimate** with $\sim 50\%$ uncertainty, not a measurement.
 KKR 25's $M_{dyn}$ is still in SIDC's 12/12 test suite (paper §12)
@@ -453,7 +453,7 @@ This is the cumulative result of the v2.4 work. SIDC's three main quantitative p
 | **BTFR slope** (129 SPARC) | 3.53 (predicted 4) | 3.53 | within 1σ |
 | **MDAR for dSphs** (10 dSphs) | factor $\sim 2$ from MOND | factor $\sim 2$ from MOND | ✓ MATCHES |
 | **AGN host DM** (morphology-matched) | +6.4% ratio | — | p=0.047 |
-| **AGC 114905** | contested (Mancera Piña 2022: $\sim 1$, Sellwood 2022: $\sim 2\text{--}3$) | $\sim 1\text{--}3$ | ✓ PASS (DISPUTED, §3.45+) |
+| **AGC 114905** | contested (Mancera Piña 2022: $\sim 1$, Sellwood 2022: $\sim 2--3$) | $\sim 1--3$ | ✓ PASS (DISPUTED, §3.45+) |
 | **KKR 25** ⚠️ | $\sim 1$ (est.) | $\sim 1$ (est., no published velocity dispersion) | ✓ PASS (est., v2.7.42+) |
 | **Hubble $H_0$** | 70 $\pm$ 3 (qualitative consistency) | 73 (SH0ES), 67.4 (Planck) | 5.6 km/s/Mpc gap is a ΛCDM-framework artifact (no specific $H_0$ derived) |
 | **Sun no-DM** | <$10^{-17}$ ratio | confirmed | ✓ PASS |
@@ -668,10 +668,10 @@ A new section §12 consolidates SIDC's galaxy-level tests against the *entire ga
 
 **The intermediate population (v2.7.32+, §3.26):**
 - **Bidaran et al. 2025** (arXiv:2501.02910): "First detection of a sample of quenched and isolated dwarf galaxies in cosmic voids", log(M*/$M_\odot$) = 8.9-9.5, no neighbour within 1.0 Mpc
-- This is the kind of intermediate F(z) $\sim 0.1\text{--}0.5$ population SIDC's smooth F(z) predicts
+- This is the kind of intermediate F(z) $\sim 0.1--0.5$ population SIDC's smooth F(z) predicts
 - Pre-2025: population thought to be bimodal (gas-rich vs. quenched)
 - 2025-2026: intermediate population is being discovered
-- Testable with LSST Y1 (2027), Euclid Q1 (2026) for $\sim 10\text{--}30\%$ of field dwarfs in intermediate F(z)
+- Testable with LSST Y1 (2027), Euclid Q1 (2026) for $\sim 10--30\%$ of field dwarfs in intermediate F(z)
 
 **Massive quiescent galaxies at z>4 (SIDC's strongest observational evidence):**
 
@@ -679,7 +679,7 @@ SIDC predicts that galaxies with very high past SF should have
 very high $M_{dyn}/M_b$ (their cumulative 2D universe deaths are massive).
 JWST is finding exactly this — massive quiescents at z>4 with
 spectroscopic confirmation of compact, evolved populations formed
-at z $\sim 10\text{--}12$.
+at z $\sim 10--12$.
 
 **Key observational papers (10+ confirmed massive quiescents at z>4):**
 - **RUBIES-EGS-QG-1 (2024 Nat. Astron., arXiv:2402.11082)**: spectroscopic
@@ -688,7 +688,7 @@ at z $\sim 10\text{--}12$.
 - **ZF-UDS-7329 (2023 Nature, arXiv:2308.05606)**: spectroscopic
   z=3.205, log M* = 11.04, formed at z $\sim 11$ — even more extreme past SF
 - **JWST EXCELS (2024 MNRAS, 534, 325)**: 4 quiescents with log M* > 11
-  at 3<z<5, formed over $\sim 200$ Myr at z $\sim 12\text{--}15$
+  at 3<z<5, formed over $\sim 200$ Myr at z $\sim 12--15$
 - **Carniani+ 2025 (arXiv:2510.xxxxx)**: 700+ massive quiescents at
   z=2-7 — large statistical sample
 - **TGSSJ1530+1049 (2025, arXiv:2511.13650)**: confirmed z=4.0, in a
@@ -706,8 +706,8 @@ at z $\sim 10\text{--}12$.
 
 **SIDC's interpretation**: these galaxies are SIDC's
 **strongest observational evidence**. They have:
-- Very high past SF: $10^{9}\text{--}10^{10}\,M_\odot$ in $\sim 200$ Myr at $z \sim 10\text{--}12$
-- Many SN events: $10^{6}\text{--}10^{7}$ CCSN per galaxy
+- Very high past SF: $10^{9}–10^{10}\,M_\odot$ in $\sim 200$ Myr at $z \sim 10--12$
+- Many SN events: $10^{6}–10^{7}$ CCSN per galaxy
 - Total SN energy $\sim 10^{55}$--$10^{56}$ J per galaxy
 - SIDC prediction: $M_{dyn}/M_b$ should be VERY HIGH (consistent
   with SIDC's SFH-DM correlation)
@@ -720,8 +720,8 @@ $M_{dyn}$ directly. Future IFU observations (JWST cycle 4-5, ELT
 **Intermediate F(z) dwarf population (SIDC's #2 evidence):**
 
 SIDC predicts a **smooth** F(z) distribution, not a bimodal
-(gas-rich vs. quenched) one. So $\sim 10\text{--}30\%$ of field dwarfs should be
-in the intermediate F(z) $\sim 0.1\text{--}0.5$ range.
+(gas-rich vs. quenched) one. So $\sim 10--30\%$ of field dwarfs should be
+in the intermediate F(z) $\sim 0.1--0.5$ range.
 
 **Key observational papers (10+ intermediate F(z) dwarfs confirmed):**
 - **Bidaran+ 2025 (A&A 693, L16, arXiv:2501.02910)**: 4 isolated
@@ -741,13 +741,13 @@ in the intermediate F(z) $\sim 0.1\text{--}0.5$ range.
 
 **SIDC's interpretation**: this is SIDC's #2 evidence.
 Pre-2025, dwarfs were thought bimodal (gas-rich star-forming vs.
-quenched). SIDC's smooth F(z) predicts $\sim 10\text{--}30\%$ should be
+quenched). SIDC's smooth F(z) predicts $\sim 10--30\%$ should be
 intermediate. The 2025-2026 discoveries are populating this gap,
 consistent with SIDC.
 
 **Caveat**: the population is still small $\sim 10$ confirmed). Larger
 statistical samples needed. LSST Y1 (2027) and Euclid Q1 (2026)
-will test the $\sim 10\text{--}30\%$ prediction more rigorously.
+will test the $\sim 10--30\%$ prediction more rigorously.
 
 **Bullet Cluster — honest framing:**
 
@@ -772,7 +772,7 @@ particle DM):
   predicts $M_{dyn} > M_{stars}$
 - **Tidal Dwarf Galaxies (TDGs)**: SIDC predicts DM-poor, but
   Gentile 2007 finds DM-rich (DISPUTED, unresolved 20 years)
-- **Intermediate F(z) population** $\sim 10\text{--}30\%$ of dwarfs at intermediate
+- **Intermediate F(z) population** $\sim 10--30\%$ of dwarfs at intermediate
   F(z)): testable with LSST Y1 (2027) and Euclid Q1 (2026)
 - **Massive quiescent galaxies at z > 4**: SIDC predicts very
   high $M_{dyn}$ (extreme past SF)
