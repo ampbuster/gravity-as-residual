@@ -280,13 +280,13 @@ KKR 25's $M_{dyn}$ is **estimated** (⚠️), not measured.
 
 The $M_{dyn}/M_b$ ratio varies systematically with galaxy type:
 
-- **Globular clusters** — $10^{5}$--$10^{7}\,M_\odot$: $M_{dyn}/M_b \sim 1$ (no current activity)
-- **Dwarf galaxies** — $10^{5}$--$10^{8}\,M_\odot$: $M_{dyn}/M_b \sim 1$--$1700$ (huge spread)
-- **UFDs** — $10^{2}$--$10^{4}\,M_\odot$: $M_{dyn}/M_b \sim 50$--$1700$ (extreme)
+- **Globular clusters** ($10^{5}--10^{7}\,M_\odot$): $M_{dyn}/M_b \sim 1$ (no current activity)
+- **Dwarf galaxies** ($10^{5}--10^{8}\,M_\odot$): $M_{dyn}/M_b \sim 1$--$1700$ (huge spread)
+- **UFDs** ($10^{2}--10^{4}\,M_\odot$): $M_{dyn}/M_b \sim 50$--$1700$ (extreme)
 - **Irregular galaxies** — $10^{8}$--$10^{9}\,M_\odot$: $M_{dyn}/M_b \sim 6$--$7
 - **Normal spirals** — $10^{10}$--$10^{11}\,M_\odot$: $M_{dyn}/M_b \sim 14$--$30
-- **AGN hosts** — $10^{12}\,M_\odot$: $M_{dyn}/M_b \sim 50$
-- **Galaxy clusters** — $10^{13}$--$10^{14}\,M_\odot$: $M_{dyn}/M_b \sim 10$--$50$
+- **AGN hosts** ($10^{12}\,M_\odot$): $M_{dyn}/M_b \sim 50$
+- **Galaxy clusters** ($10^{13}--10^{14}\,M_\odot$): $M_{dyn}/M_b \sim 10$--$50$
 
 SIDC's qualitative picture: galaxies with non-trivial past SF
 have non-zero $M_{dyn}$. The specific value of $M_{dyn}/M_b$ depends on
