@@ -590,13 +590,18 @@
 #
 # EM-DASH / EN-DASH:
 #   - EM-DASH (—): for breaks in text, plain Unicode OK
-#   - EN-DASH (--): for RANGES in text or math
+#   - EN-DASH (–): for RANGES in text or math
 #     WRONG:  10^5-10^7
 #     WRONG:  $10^5$-$10^7$
 #     WRONG:  $10^{5}$--$10^{7}$  (split math, breaks on github mobile)
-#     RIGHT:  $10^{5}$--$10^{7}$  (en-dash in math, PDF target)
-#     RIGHT:  $10^{5}\text{--}10^{7}$  (PREFERRED for github mobile)
+#     WRONG:  $10^{5}$\text{--}$10^{7}$  (text{--} is plain '--' on mobile)
+#     WRONG:  $10^{5}\text{--}10^{7}$  (\text{--} shows as '--' on github mobile)
+#     RIGHT:  $10^{5}$–$10^{7}$  (Unicode en-dash between two math blocks)
+#     RIGHT:  $10^{5}–10^{7}$  (Unicode en-dash inside single math block)
 #     RIGHT:  10^5 to 10^7        (in text)
+#
+# The Unicode en-dash character (–) is the most reliable for github mobile.
+# It renders correctly in: PDF (as en-dash), github desktop, github mobile, Markor.
 #
 # GITHUB MOBILE GOTCHA: split math ranges like $X$--$Y$ (separate
 # math blocks joined by '--') get rendered as plain text on github
