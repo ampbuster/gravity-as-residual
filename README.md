@@ -515,9 +515,9 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 | `calculations/cmb_cascade_prediction.py` | CAMB CMB test ( $\Delta\chi^2 = +650$) | #3 (Hubble tension) |
 | `calculations/cosmic_shear_cascade.py` | $S_8$ within 1σ of DES/KiDS | #3 |
 | `calculations/rar_per_galaxy_gplus_v3.py` | 43-galaxy per-galaxy $g_+$ | #3 |
-| `calculations/verify_tensor_pipeline.py` | 5-check T^eff_μν verification | structural |
+| `calculations/verify_tensor_pipeline.py` | 5-check $T^{eff}_{\mu\nu}$ verification | structural |
 | `calculations/verify_v24_refactor.py` | 4-check v2.4 refactor | structural |
-| `supporting/T_tensor_construction.md` (367 lines) | T^eff_μν formal derivation | structural |
+| `supporting/T_tensor_construction.md` (367 lines) | $T^{eff}_{\mu\nu}$ formal derivation | structural |
 | `supporting/T_tensor_v24_refactor.md` (371 lines) | v2.4 framework spec | structural |
 
 ---
