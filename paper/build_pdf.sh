@@ -593,8 +593,18 @@
 #   - EN-DASH (--): for RANGES in text or math
 #     WRONG:  10^5-10^7
 #     WRONG:  $10^5$-$10^7$
-#     RIGHT:  $10^{5}$--$10^{7}$  (en-dash in math)
+#     WRONG:  $10^{5}$--$10^{7}$  (split math, breaks on github mobile)
+#     RIGHT:  $10^{5}$--$10^{7}$  (en-dash in math, PDF target)
+#     RIGHT:  $10^{5}\text{--}10^{7}$  (PREFERRED for github mobile)
 #     RIGHT:  10^5 to 10^7        (in text)
+#
+# GITHUB MOBILE GOTCHA: split math ranges like $X$--$Y$ (separate
+# math blocks joined by '--') get rendered as plain text on github
+# mobile. The en-dash becomes ' - -' and the entire expression
+# displays as broken. Use $X\text{--}Y$ (single math block) instead.
+# This pattern was found in lines like:
+#   ($10^{5}$--$10^{7}\,M_\odot$): → ($10^{5}\text{--}10^{7}\,M_\odot$)
+#   $M_{dyn}/M_b \sim 1$--$1700$ → $M_{dyn}/M_b \sim 1\text{--}1700$
 #
 # APPROXIMATELY EQUAL:
 #   WRONG:  ≈ (Unicode)
