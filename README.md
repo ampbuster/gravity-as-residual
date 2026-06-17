@@ -99,7 +99,7 @@ SIDC's parsimony is **conceptual**, not **parametric**:
 Continued web research in June 2026 yielded **45 external constraints** (in 9 categories) that converge on SIDC's 2D CFT parameters, refine its interpretation, and provide one new testable prediction:
 
 **4 PARAMETER-REDUCING** (reduce 4 free → 2 free parameters μ, $m_{3+1D}$):
-1. **b = i** is natural for c = 1 (single scalar 2D CFT, IHES Vargas) — b² = -1.0, $Q = 0$, $c = 1$ ✓
+1. **b = i** is natural for c = 1 (single scalar 2D CFT, **Vincent Vargas**, ENS Paris, IHES lecture 2017, arXiv:1712.00829) — b² = -1.0, $Q = 0$, $c = 1$ ✓
 2. **$m_{3+1D}$ > 8 × $10^{-18}$ eV** (Dalal & May 2025, ultra-faint dwarf kinematics) — SIDC $10^{-15}$ GeV is 1.25 × $10^{11}$ ABOVE bound ✓
 3. **JT gravity on Karch-Randall brane** (PRL 129, 231601) — SIDC 2D universe = JT excitation, $M_{2D} = 10^{38}$ GeV
 4. **RAR extends to log $g_{\rm bar}$ ~ -12.0** (MIGHTEE-HI 2025, arXiv:2504.20857) — SIDC's MOND behavior testable to lowest accelerations
@@ -115,9 +115,9 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 
 **4 INTERPRETIVE — THEORETICAL FOUNDATION** (4 NEW):
 12. **JT gravity as noncritical c<1 string** (Suzuki, Takayanagi 2021, arXiv:2108.12096) — JT is the LOW-ENERGY LIMIT of Liouville CFT
-13. **c=1 string theory matrix model** (Dijkgraaf 2017, Klebanov-Maldacena 2024) — UNIQUE exactly solvable 2D QG, SIDC's framework = exactly solvable case
+13. **c=1 string theory matrix model** (**Robbert Dijkgraaf** 2017, **Igor Klebanov** & **Juan Maldacena** 2024) — UNIQUE exactly solvable 2D QG, SIDC's framework = exactly solvable case
 14. **Matrix model ↔ dark matter** (POSSIBLE future connection) — eigenvalues ↔ 2D universe mass spectrum
-15. **Schwarzian limit of Liouville CFT** (Stanford-Yang 2018, Mertens 2018) — discrete mass spectrum, $\rho(E)$ ~ $\sinh(2\pi\sqrt{2E/E_0})$
+15. **Schwarzian limit of Liouville CFT** (**Douglas Stanford** & **Zhenbin Yang** 2018, **Thomas Mertens** 2018) — discrete mass spectrum, $\rho(E)$ ~ $\sinh(2\pi\sqrt{2E/E_0})$
 
 **5 NEW + 1 PREDICTION (v2.7.2+)** — from 2024-2025 surveys:
 16. **Torsion balance ultra-light vector DM** (Ross et al. 2025, arXiv:2510.21764) — SIDC 2D universe is $10^{12}$ × above search range; consistent (vacuously, no SM coupling)
@@ -158,7 +158,7 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 37. **TDCOSMO XXIV HE1104-1805** (Paic+ 2025, arXiv:2512.03178, doubly lensed quasar) — $H_0 = 64.2$ (+5.8/-5.0); 1.0σ below SIDC, but the [64.2, 71.6] TDCOSMO 2025 range brackets SIDC $H_{0,4D}$ (QUALITATIVELY CONSISTENT)
 38. **DES Y6 3 × 2pt 2025** (D'Amico+ 2025, arXiv:2510.24878, EFTofLSS analysis) — S₈ = 0.833 ± 0.032; SIDC's MOND-like floor interpretation supported by mild S₈ suppression from CMB (QUALITATIVELY CONSISTENT)
 39. **JT gravity non-perturbative overlaps** (arXiv:2502.12266, JHEP 06(2025)251) — baby universe effects validate multi-brane 2D universe population; SIDC framework now rigorously confirmed (STRENGTHENS theoretical foundation)
-40. **Two Decades of Probabilistic Liouville** (Ghosal, Remy, Sun, Yi Sun+ 2025, arXiv:2509.21053) — DOZZ formula now rigorously proven; SIDC's c=1 is unique exactly solvable case; Limitation 26 FURTHER reduced (STRENGTHENS theoretical foundation)
+40. **Two Decades of Probabilistic Liouville** (**Promit Ghosal**, **Guillaume Remy**, **Xin Sun**, **Yi Sun**+ 2025, arXiv:2509.21053) — DOZZ formula now rigorously proven; SIDC's c=1 is unique exactly solvable case; Limitation 26 FURTHER reduced (STRENGTHENS theoretical foundation)
 
 **5 ROUND 8 CONSTRAINTS (v2.7.3+ round 8, June 2026):**
 41. **eROSITA all-sky ultralight axion** (Zelmer+ 2025, arXiv:2502.03353, A&A Dec 2025) — 5259 clusters, 12791 ${\rm deg}^2$; ultralight axion DM constrained at m_a ~ $10^{-22}$ eV; SIDC 2D universes are NOT axions (INAPPLICABLE)
