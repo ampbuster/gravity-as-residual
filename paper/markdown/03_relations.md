@@ -3159,6 +3159,88 @@ for the consistency verification.
 
 ---
 
+### 3.60.2 Upward extension: does the scaling law + closed loop work at every level? (v3.0.21)
+
+User question (v3.0.21): "does the scaling law and closed loop work
+for every upward dimension?"
+
+**Tested at each level in SIDC's cone-shaped hierarchy**:
+
+| Level | Direction | Status | α = 1.289 works? |
+|-------|-----------|--------|------------------|
+| 3 (3D → 2D) | DOWN | CALIBRATED at SN 33s | ✓ 8/8 events match within 1.6× |
+| 4 (4D → 3+1D) | UP | SPECULATIVE extrapolation | ✓ matches within 12% |
+| 5 (5D → 4D) | UP | UNKNOWN | ? cannot test (no data) |
+
+**Scaling law at each level**:
+
+For the scaling law τ = 33 s × (E/E_calibration)^α to work at every
+upward level, α must be the SAME at every level.
+
+Evidence for α being universal:
+1. **N = 12 SYK is fixed**: the 12 SM Weyl fermions (3 generations ×
+   4) don't change with hierarchy level.
+2. **The "1" in α = 1 + 1/√12**: comes from kinematic boost (E/E_Pl),
+   which is universal.
+3. **The "1/√12" comes from N = 12 finite-size correction**: depends
+   only on N, not on hierarchy level.
+4. **Closed loop structure α × 1/(2α) = 1/2**: holds for any α.
+
+**Evidence against α being universal**:
+1. The 4D → 3+1D level is a "speculative extrapolation" (not calibrated).
+2. Brane tension may differ at each level.
+3. Higher levels (5+, if they exist) are not directly testable.
+
+**Sensitivity test** (level 4, E_4D = 10^69 J):
+- α = 1.289 (SIDC): τ_3D = 1.76 × 10^26 yr (matches paper within 12%)
+- α = 1.279: τ_3D = 9.87 × 10^25 yr (off by factor 2)
+- α = 1.299: τ_3D = 3.12 × 10^26 yr (off by factor 1.6)
+- α = 1.239: τ_3D = 9.87 × 10^24 yr (off by factor 20)
+
+A 1% change in α gives a factor ~1.7 change in predicted lifetime.
+This is consistent with the 54-order-of-magnitude span of SIDC's
+scaling law predictions (§10.1).
+
+**Closed loop at each level**:
+
+The closed loop formula requires knowing BOTH the parent event
+energy (for forward γ) AND the grandparent event energy
+(for backward f_back).
+
+At level 3 (3D → 2D):
+- Forward: γ_3 = (E_3D/E_Pl,3)^α → τ_2D = γ_3 × t_Pl,3
+- Backward: f_back_3 = (E_4D/E_3D)^(1/(2α)) × prefactors → ≈ 10^-85 ✓
+
+At level 4 (4D → 3+1D):
+- Forward: γ_4 = (E_4D/E_Pl,4)^α → τ_3D = γ_4 × t_Pl,4
+- Backward: f_back_4 = (E_5D/E_4D)^(1/(2α)) × prefactors → requires E_5D
+
+At level 5+:
+- Need BOTH E_D and E_{D+1} for the closed loop
+- Without these, the closed loop CANNOT be evaluated
+
+**Conclusion (v3.0.21)**:
+
+The scaling law + closed loop work at the calibrated level (3D → 2D)
+and are plausible at the speculative level (4D → 3+1D). The framework's
+upward extendability is a CLAIM supported by the universality of
+N = 12, but not directly verified at higher levels.
+
+**L99 NEW (v3.0.21)**: SIDC's upward extendability (scaling law +
+closed loop working at every hierarchy level) is a CLAIM, supported
+by N = 12 universality, but not directly verified above level 4.
+The scaling law works at level 4 within 12% using α = 1.289; the
+closed loop requires E_5D which is not known.
+
+**Net: +0 pages, +1 limitation (L99)**
+- Total: 339 pages (unchanged)
+- 53 honest limitations (was 52; +L99 NEW v3.0.21)
+
+See `calculations/upward_dimension_check.py` for the full numerical
+analysis.
+
+---
+
 ### 3.61 Dimensional scale invariance — restoring SIDC naming — restoring SIDC naming (v3.0.2)
 
 **User question (v3.0.2)**: "is SIDC back to being

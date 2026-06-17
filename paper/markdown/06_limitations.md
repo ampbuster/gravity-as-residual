@@ -109,14 +109,15 @@ The full table follows:
 | 96 (NEW v3.0.21) | f_back is NOT exp(-S) entropy | OPEN (v3.0.21) | §3.62.2, v18 | Replica trick + Cardy formula attempted: for SN, S_2D ~ 10^18, exp(-S) ~ 0 — WAY too small. f_back is a STRUCTURAL RATIO (E_4D/E)^{1/2α}, not an entropy factor. L48 status unchanged. |
 | 97 (NEW v3.0.21) | alpha = 1.289 is NOT directly visible from Z | OPEN (v3.0.21) | §3.62.2, v19 | Direct brute-force extraction from Z(beta) for SYK q=4 N=12 gives alpha ~ 0.5-1.0 (pure SYK) or 3-37 (combined Z). The M^1.29 is NOT a direct consequence of the 2D partition function. It is a CROSS-SECTOR EMERGENT phenomenon. L43 cannot be closed by more brute force — requires structural input (cross-couplings, observable identification). |
 | 98 (NEW v3.0.21) | Closed loop expression for f_back (3D event → 2D universe) | PARTIAL (v3.0.21) | §3.60.1, v10 | Closed loop expression: f_back = (t_Pl,3/τ_4D) × (τ_SN,obs/τ_universe) × (E_4D/E_SN)^(1/2α). Gives f_back ~ 3.24e-84 ~ 10^-85 (matches §3.60 to 0.4 orders). Forward direction γ = (E/E_Pl)^α (scaling law) and backward direction f_back ~ (E_4D/E)^(1/2α) use the SAME α = 1.289. The closed loop closes for f_back via the composite exponent 1/(2α) = c/α where c = 1/2 = N/24 (Ising CFT). Three independent derivations of 1/2 (Schwarzian, DOZZ b^2 = 1/2, N/24) confirm the exponent. |
+| 99 (NEW v3.0.21) | SIDC upward extendability (scaling law + closed loop at every level) | PARTIAL (v3.0.21) | §3.60.2 | Scaling law + closed loop work at level 3 (3D→2D, calibrated at SN 33s, 8/8 events within 1.6×). Plausible at level 4 (4D→3D, matches within 12% using α = 1.289). Cannot verify at level 5+ (no data). α = 1.289 likely universal because N = 12 is fixed (12 SM Weyl fermions), but brane tension may differ at each level. Closed loop at level 4+ requires E_5D which is unknown. Upward extendability is a CLAIM supported by N=12 universality, not directly verified. |
 
 **Summary (v3.0.21):**
-- **OPEN**: 23 (44%) — require theoretical physics work beyond SIDC's current framework (L31, L33-L35 retained; L38-L43 added v3.0.2; L45 NEW; L91 NEW; L94, L96, L97 NEW v3.0.21)
-- **PARTIAL**: 16 (31%) — qualitatively right, quantitatively calibrated (L30 topological eigenvalue retained; L43 Lagrangian skeleton added; L92 NEW; L95 NEW; **L98 NEW** — closed loop expression for f_back documented)
+- **OPEN**: 23 (43%) — require theoretical physics work beyond SIDC's current framework (L31, L33-L35 retained; L38-L43 added v3.0.2; L45 NEW; L91 NEW; L94, L96, L97 NEW v3.0.21)
+- **PARTIAL**: 17 (32%) — qualitatively right, quantitatively calibrated (L30 topological eigenvalue retained; L43 Lagrangian skeleton added; L92 NEW; L95 NEW; L98 NEW — closed loop expression; **L99 NEW** — upward extendability)
 - **CLOSED**: 7 (13%) — fully resolved by SIDC (L13 conceptual; L14, L18, L20 status updated; L44 "14 event types" MISFRAMING CLOSED; **L93 CLOSED** — scaling law internally consistent)
 - **FALSIFIED**: 2 (4%) — specific mechanisms rejected by data, replaced by alternatives (L16, L19)
-- **REVERTED**: 4 (8%) — reversion to honest versions after failed improvements (L20 $f_{\rm active}$ "derivation" reverted v2.7.1; L24, L25; L36 $E_{\rm crit}$ phase-transition removed v2.7.4 in favor of smooth creation function)
-- **Total**: 52 limitations (was 51 in v3.0.21; **+L98 NEW** v3.0.21 — closed loop expression)
+- **REVERTED**: 4 (7%) — reversion to honest versions after failed improvements (L20 $f_{\rm active}$ "derivation" reverted v2.7.1; L24, L25; L36 $E_{\rm crit}$ phase-transition removed v2.7.4 in favor of smooth creation function)
+- **Total**: 53 limitations (was 52 in v3.0.21; **+L99 NEW** v3.0.21 — upward extendability)
 
 **v2.7 update highlights (delta from v2.6):**
 1. **Hubble tension ACCEPTED (Mechanism M)**: SIDC does not attempt to resolve the Hubble tension. SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements.
