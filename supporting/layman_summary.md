@@ -6,7 +6,7 @@
 
 **The big idea in one sentence:** *What if every energetic explosion in space creates its own brief 2D universe, and the "leftover gravity" from all those 2D universes is what we call dark matter?*
 
-**v3.0 breakthrough:** A single number — **N = 12** — explains many of SIDC's specific values. 12 Majorana fermions in q=4 SYK (a quantum chaos model) give SIDC's $\alpha$ = 1.29, central charge c = 1/2, and universal back-action $f_{\rm back}$ $\approx$ 10⁻⁸⁵. The 12 might map to 3 Standard Model generations $\times$ 4 fermions per generation.
+**v3.0 breakthrough:** A single number — **N = 12** — explains many of SIDC's specific values. 12 Majorana fermions in q=4 SYK (a quantum chaos model) give SIDC's $\alpha$ = 1.29, central charge c = 1/2, and universal back-action $f_{\rm back}$ $\approx$ $10^{-85}$. The 12 might map to 3 Standard Model generations $\times$ 4 fermions per generation.
 
 That's SIDC. The rest of this summary explains how it works in plain language, what evidence we have for it, and what's testable.
 
@@ -75,16 +75,16 @@ SIDC says: the universe is the projection of a single 4D event, and the dark sec
 - DM should *track* energetic activity (more star formation $\to$ more 2D universes $\to$ more DM)
 - The ratio of DE to DM shouldn't be a coincidence — it should follow from SIDC's geometry
 
-## The lifetime ladder: 33 seconds to 10²⁶ years
+## The lifetime ladder: 33 seconds to $10^{26}$ years
 
 
 SIDC makes a striking new claim: **2D universes from different events have different lifespans**, and our 3D universe is just one of these (D-1)-universes at a much larger scale.
 
 Think of it like this:
-- A ton of TNT creates a 2D universe that lives 10⁻³⁷ microseconds
+- A ton of TNT creates a 2D universe that lives $10^{-37}$ microseconds
 - A Type Ia supernova creates a 2D universe that lives 33 seconds
 - A black hole merger creates a 2D universe that lives ~100,000 years
-- The 4D event that created our 3D universe created a universe that lives 10²⁶ years in 4D view
+- The 4D event that created our 3D universe created a universe that lives $10^{26}$ years in 4D view
 
 SIDC says: **our 3D universe is just a "very large (D-1)-universe"** — same kind of object as the 33-second 2D universe from a supernova, just at a much bigger scale. The same physics applies, scaled up.
 
@@ -102,17 +102,17 @@ That's it. One formula. The "1.29" comes from the cascade's N=12 backbone ($\alp
 
 **It works for 14 different kinds of energetic events:**
 
-- **Type Ia supernova** (~10^44 J): 2D universe lives 33 seconds
-- **Core-collapse supernova** (~10^44 J): also 33 seconds (matches Ia — sanity check)
-- **Hypernova** (~10^46 J): 2D universe lives hours
-- **Short gamma-ray burst (BNS merger)** (~10^47 J): lives days
-- **Long GRB** (~10^47 J): lives days
-- **Neutron star-black hole merger** (~10^47 J): lives days
-- **Tidal disruption event (TDE)** (~10^38 J): lives milliseconds
-- **AGN flare** (~10^52 J): lives years
-- **Supermassive black hole merger** (~10^55 J): lives thousands of years
-- **Primordial black hole evaporation** (~10^32 J): lives microseconds
-- **Stellar black hole formation** (~10^47 J): same as BNS
+- **Type Ia supernova** (~$10^{44}$ J): 2D universe lives 33 seconds
+- **Core-collapse supernova** (~$10^{44}$ J): also 33 seconds (matches Ia — sanity check)
+- **Hypernova** (~$10^{46}$ J): 2D universe lives hours
+- **Short gamma-ray burst (BNS merger)** (~$10^{47}$ J): lives days
+- **Long GRB** (~$10^{47}$ J): lives days
+- **Neutron star-black hole merger** (~$10^{47}$ J): lives days
+- **Tidal disruption event (TDE)** (~$10^{38}$ J): lives milliseconds
+- **AGN flare** (~$10^{52}$ J): lives years
+- **Supermassive black hole merger** (~$10^{55}$ J): lives thousands of years
+- **Primordial black hole evaporation** (~$10^{32}$ J): lives microseconds
+- **Stellar black hole formation** (~$10^{47}$ J): same as BNS
 - **... + 4 more event types**
 
 That's ~30 orders of magnitude in event energy, all following the same scaling law. The cascade doesn't just match supernovae — it matches the entire zoo of energetic events.
@@ -139,9 +139,9 @@ The 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty (Limitati
 ## Why the 4D sees us as "brief"
 
 The user-SIDC conversation identified a key insight: **the 4D sees the 3D as a "brief" event**, but "brief" is relative:
-- The 4D's view of our universe: ~10²⁶ years
-- The 4D's *own* total lifespan (in the 5D's view): ~10⁵⁹ years
-- So our universe is 10⁻³³ of the 4D's own time
+- The 4D's view of our universe: ~$10^{26}$ years
+- The 4D's *own* total lifespan (in the 5D's view): ~$10^{59}$ years
+- So our universe is $10^{-33}$ of the 4D's own time
 
 This is the same way we (3D) see a 33-second 2D supernova universe: from our perspective, it's a brief event, even though it might "experience" a much longer time internally.
 
@@ -151,7 +151,7 @@ SIDC makes a striking prediction: **if the 4D's fundamental Planck mass is at th
 
 This depends on two unknowns:
 - **The exact form of the energy-scaling rule** (SIDC's rule fits one data point, with the exponent uncertain by ~1%, which translates to ~60% uncertainty in the universe's total lifespan)
-- **The 4D Planck mass** (SIDC derives a *floor* of $M_{\rm Pl}$,4 $\geq$ 887 GeV, but the actual value could be anywhere from 887 GeV to 10¹⁹ GeV)
+- **The 4D Planck mass** (SIDC derives a *floor* of $M_{\rm Pl}$,4 $\geq$ 887 GeV, but the actual value could be anywhere from 887 GeV to $10^{19}$ GeV)
 
 **Testable signatures:**
 - DESI's detection of evolving dark energy (3.5σ) could be the first hint
@@ -194,7 +194,7 @@ SIDC's *most distinctive testable predictions*:
 SIDC is a **thought experiment**, not a derivation from first principles. The honest caveats:
 
 - **The 2D CFT (c=1 matrix model) doesn't directly give the energy-scaling rule.** The rule is a *fit* to one data point (the 33-second 2D universe from a supernova), not a first-principles derivation.
-- **The exact value of the 4D Planck mass is unknown.** SIDC derives a *floor* of 887 GeV (electroweak scale), but the actual $M_{\rm Pl}$,4 could be anywhere from 887 GeV to 10¹⁹ GeV.
+- **The exact value of the 4D Planck mass is unknown.** SIDC derives a *floor* of 887 GeV (electroweak scale), but the actual $M_{\rm Pl}$,4 could be anywhere from 887 GeV to $10^{19}$ GeV.
 - **The "end-of-universe in 1-10 Gyr" timeline is fragile.** It depends sensitively on both the energy-scaling exponent and the 4D Planck mass. With different assumptions, the 3D could live forever (no end) or already be at the very end.
 - **SIDC has 0 strongly confirmed, 0 falsified predictions.** It's *consistent* with current data without being *established* by it.
 
@@ -266,7 +266,7 @@ In v2.7.60-67, SIDC made a striking discovery: **a single number — 12 — expl
 - 12 Majoranas in q=4 SYK (a specific quantum chaos model) give:
   - Central charge c = 1/2 (Ising CFT, a 2D conformal field theory)
   - Lifetime scaling $\alpha$ = 1.289 $\approx$ 1.29 (SIDC's calibration value)
-  - Universal back-action $f_{\rm back}$ $\approx$ 10⁻⁸⁵
+  - Universal back-action $f_{\rm back}$ $\approx$ $10^{-85}$
 - The "1/2" in SIDC's back-action formula comes from c = 1/2
 - The "1.29" comes from $\alpha$ = 1 + 1/√12 = 1.289
 
