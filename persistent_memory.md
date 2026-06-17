@@ -149,6 +149,21 @@ give α = 1.289 directly.
 
 **Total Lagrangian attempts**: v1-v19 = 19 attempts. Closed: 3. Partial: 3. Honest negatives: 13.
 
+**v3.0.21 GROUND TRUTHS (paper consistency, latest)**:
+1. **SCALING LAW** (§10.1): τ_2D = 33 s × (E_3D / 10^44 J)^1.29
+   - 3D event (in our universe) creates 2D universe — CALIBRATED at SN 33s
+   - 8/8 3D events match within factor 1.6 (median 1.024)
+2. **CLOSED LOOP** (§3.60.1 NEW): f_back = (t_Pl,3/τ_4D) × (τ_SN,obs/τ_universe) × (E_4D/E_SN)^(1/(2α))
+   - Gives f_back ~ 3.24e-84 ~ 10^-85 (matches §3.60 to 0.4 orders)
+   - Forward γ and backward f_back use SAME α = 1.289
+   - Composite exponent 1/(2α) = c/α = 0.388 (where c = 1/2 = N/24, Ising CFT)
+   - L98 NEW: closed loop expression documented
+3. **HIERARCHY** (user-corrected): 3D event → 2D universe (NOT 4D → 2D)
+   - Fixed §3.62 hierarchy table entry
+   - L93 CLOSED: scaling law internally consistent
+4. **LIMITATIONS**: 52 total (was 51; +L98 NEW v3.0.21)
+   - 23 OPEN, 16 PARTIAL, 7 CLOSED, 2 FALSIFIED, 4 REVERTED
+
 ---
 
 ## 7. Key conventions (DO NOT BREAK)
