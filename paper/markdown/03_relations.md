@@ -3023,7 +3023,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 | c (central charge) | 1/2 | N/24 = 12/24 = 1/2 (Ising CFT) |
 | α (lifetime scaling) | 1.289 | 1 + 1/√N (saddle-point fluctuation) |
 | 1/(2α) (back-action) | 0.388 | c/α (composite) |
-| $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$ | (1/(2α))-powered formula |
+| $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$ | (1/2α)-powered formula |
 
 **Why N = 12 is unique** (off by 0.001 from α = 1.29):
 
@@ -3099,7 +3099,7 @@ See `changelog.md` for v2.7.x → v3.0 history.
 The **closed loop composite expression** for $f_{\rm back}$ from
 the v10 calculation (`calculations/lagrangian_v10_fback_from_alpha.py`):
 
-$$\boxed{f_{\rm back} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)}}$$
+$$\boxed{f_{\rm back} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^\frac{1}{2 \alpha}}$$
 
 where:
 - $t_{\rm Pl,3}$ = 3+1D Planck time = $5.39 \times 10^{-44}$ s
@@ -3119,7 +3119,7 @@ where:
 Wait, this gives $10^{-77}$, not $10^{-85}$. Let me recheck.
 
 **Recheck using v10 result**:
-$f_{\rm back} = (t_{\rm Pl,3}/\tau_{\rm 4D) \times (\tau_{\rm SN,obs}/\tau_{\rm universe}) \times (E_{\rm 4D}/E_{\rm SN})^{1/(2\alpha)}$
+$f_{\rm back} = (t_{\rm Pl,3}/\tau_{\rm 4D}) \times (\tau_{\rm SN,obs}/\tau_{\rm universe}) \times (E_{\rm 4D}/E_{\rm SN})^{1/2α}$
 $= (5.39 \times 10^{-44} / 6.3 \times 10^{33}) \times (33 / 4.35 \times 10^{17}) \times (10^{69}/10^{44})^{0.388}$
 $= 8.55 \times 10^{-78} \times 7.59 \times 10^{-17} \times 10^{9.7}$
 $= 8.55 \times 10^{-78} \times 7.59 \times 10^{-17} \times 5.0 \times 10^{9}$
@@ -3136,7 +3136,7 @@ This matches the §3.60 claim of $f_{\rm back} \approx 10^{-85}$ to 0.4 orders.
 $\gamma = (E/E_{\rm Pl})^\alpha$ (the scaling law, §10.1)
 
 **The backward direction (back-action)**:
-$f_{\rm back} \sim (E_{\rm 4D}/E_{\rm SN})^{1/(2\alpha)}$ (the closed loop, this section)
+$f_{\rm back} \sim (E_{\rm 4D}/E_{\rm SN})^\frac{1}{2 \alpha}$ (the closed loop, this section)
 
 **BOTH use the SAME $\alpha = 1.289$**, derived from $N = 12$ SYK.
 This is what makes it a "closed loop" — the forward and backward
@@ -3622,7 +3622,7 @@ All SIDC parameters now derived from a single number N = 12:
 | α | 1.289 | 1 + 1/√N (N=12) |
 | c | 1/2 | N/24 = 12/24 |
 | 1/(2α) | 0.388 | c/α (composite) |
-| $f_{\rm back}$ | $8.6 \times 10^{-86}$ | (1/(2α))-powered formula |
+| $f_{\rm back}$ | $8.6 \times 10^{-86}$ | (1/2α)-powered formula |
 | All others | — | Functions of α, c |
 
 **L79 NEW**: All SIDC consequences follow from N=12 SYK.

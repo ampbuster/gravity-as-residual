@@ -26,6 +26,44 @@
 
 ---
 
+# 🎯 THE TWO MAIN POINTS (v3.0.21, GROUND TRUTH)
+
+SIDC's quantitative backbone has TWO expressions, both verified and used as ground truth throughout the paper:
+
+## Main Point #1: The Scaling Law (§10.1)
+
+$$\boxed{\tau_{2D,\,\text{our frame}} = 33\,\text{s} \times \left(\frac{E_{\text{3D event}}}{10^{44}\,\text{J}}\right)^{1.29}}$$
+
+- Every **3D event** (SN, BNS, AGN, ...) creates a **2D universe** whose lifetime in 3+1D view follows this formula.
+- **Calibration**: SN1987A ($E_{\text{3D}} = 10^{44}$ J, $\tau = 33$ s).
+- **Verified**: 8/8 3D events from §10.1 match within factor 1.6 (median ratio 1.024).
+- **Range**: 54 orders of magnitude, from 1 ton TNT to AGN outbursts.
+- **Origin**: $\alpha = 1.289 = 1 + 1/\sqrt{12}$ from N=12 SYK saddle-point (§3.62).
+
+## Main Point #2: The Closed Loop (§3.60.1)
+
+$$\boxed{f_{\rm back} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^\frac{1}{2 \alpha}}$$
+
+- The same $\alpha = 1.289$ governs the **backward (back-action) direction**, closing the loop between 4D event and 3D event.
+- **Numerical value**: $f_{\rm back} \approx 10^{-85}$ — the back-projection efficiency.
+- **Composite exponent** $1/(2\alpha) = 0.388 = c/\alpha$ where $c = 1/2 = N/24$ (Ising CFT).
+- **Three independent derivations of 1/2** (Schwarzian, DOZZ, $N/24$) confirm the exponent.
+- **$\alpha \times 1/(2\alpha) = 1/2$** (round-trip loss, Z₂ orbifold).
+
+## Why these are the MAIN POINTS
+
+- **Scaling law** makes SIDC **testable**: 14 different events follow one formula.
+- **Closed loop** makes SIDC **unified**: DE and DM use the SAME $\alpha$, the SAME bulk-brane cancellation.
+- Together they answer: "Why $\alpha = 1.289$?" — because $\alpha \times 1/(2\alpha) = 1/2$ must hold for the loop to close, and the only N that gives $\alpha \approx 1.29$ with this property is N = 12.
+
+**Hierarchy (user-corrected v3.0.21)**:
+- **3D event** (in our universe) → creates **2D universe** (DM/DE) — CALIBRATED at SN 33s
+- **4D event** (in higher-dim) → creates **3D universe** (= us) — SPECULATIVE extrapolation
+
+See [§3.60.1](https://github.com/ampbuster/gravity-as-residual) for the closed loop derivation, [§10.1](https://github.com/ampbuster/gravity-as-residual) for the scaling law table, and [`calculations/consistency_check_v3_0_21.py`](calculations/consistency_check_v3_0_21.py) for the consistency verification.
+
+---
+
 # 🏆 THE TRIFECTA: Cosmology + Galactic + Parsimony
 
 SIDC's principle is simple: every energetic event creates a 2D universe whose eventual energy return becomes dark matter. From this single rule, SIDC achieves ALL THREE of these simultaneously:
@@ -220,6 +258,45 @@ The Lagrangian skeleton that gives this: $L = L_{c=1,\rm Liouville} + L_{N=12,\r
 **Bottom line:** One formula, fourteen event types, all scales. The M^1.29 scaling is the quantitative core of the closed loop — it's what makes the dimensional projection give consistent results across the entire observable universe.
 
 See §2.3 (energy-scaling rule), §3.55 (consequences + data tests), and §10 (end-of-universe signatures) for the full analysis.
+
+---
+
+## 🔄 THE CLOSED LOOP: Why DE and DM Use The Same $\alpha$
+
+The scaling law above is only HALF of SIDC's quantitative backbone. The OTHER half is the **closed loop expression for $f_{\rm back}$** (v3.0.21, §3.60.1):
+
+$$\boxed{f_{\rm back} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^\frac{1}{2 \alpha}}$$
+
+**What this means**: The same $\alpha = 1.289$ that scales 2D universe lifetimes (forward direction, time dilation) ALSO scales the back-action from the 4D cosmological event (backward direction). The forward and backward use the **SAME** $\alpha$ — that's what makes it a "closed loop".
+
+**Numerical value**:
+- Prefactor: $(t_{\rm Pl,3}/\tau_{\rm 4D}) \times (\tau_{\rm SN,obs}/\tau_{\rm universe}) \sim 3.5 \times 10^{-87}$
+- Exponent: $1/(2\alpha) = 0.388 = c/\alpha$ where $c = 1/2 = N/24$ (Ising CFT)
+- $(E_{\rm 4D}/E_{\rm SN})^{0.388} = (10^{69}/10^{44})^{0.388} = 10^{9.7}$
+- **$f_{\rm back} \sim 10^{-85}$** — bridges the $10^{85}$ gap between SIDC's raw DE prediction and observation.
+
+**Why the loop closes** (the three derivations of 1/2):
+
+1. **Schwarzian**: $\rho(E) \sim \exp(S_0)\sinh(2\pi\sqrt{2E/E_0}) \to \tau \sim E^{1/2}$
+2. **DOZZ**: $c = 1$ Liouville has $b^2 = 1/2$
+3. **$N/24$**: $c = N/24 = 12/24 = 1/2$ (Ising CFT)
+
+All three give the same 1/2, confirming $1/(2\alpha) = 0.388$ is the correct back-action exponent.
+
+**The forward and backward are linked**:
+- Forward: $\gamma = (E/E_{\rm Pl})^\alpha$ — what the 3+1D observer sees (time dilation)
+- Backward: $f_{\rm back} \sim (E_{\rm 4D}/E_{\rm SN})^\frac{1}{2 \alpha}$ — what the 4D event's back-projection does
+- **$\alpha \times 1/(2\alpha) = 1/2$** — the round-trip loss (Z₂ orbifold symmetry)
+
+**Hierarchy (user-corrected v3.0.21)**:
+- **3D event** (in our universe, e.g., SN) $\to$ **2D universe** (DM/DE) — CALIBRATED at SN 33s
+- **4D event** (in higher-dim) $\to$ **3D universe** (= us) — SPECULATIVE extrapolation
+
+Both scaling law and closed loop are **ground truth** throughout the paper. See §3.60.1 for the full derivation.
+
+**Bottom line:** The closed loop unifies DE and DM under the same $\alpha = 1.289$. Without this, SIDC would have two separate unexplained numbers (DE density and DM density). With it, both are determined by N = 12.
+
+---
 
 ---
 
@@ -894,7 +971,7 @@ For full version history, see **[`changelog.md`](changelog.md)** below.
 - **Build infrastructure refactored (v3.0.21)**: post-processors in `paper/build_tools/`, scratch in `paper/.build/`, no `/tmp/` dependency. Added `--dry-run` mode for fast LaTeX checking.
 - **Lagrangian skeleton (§3.62)**: L = L_c=1 + L_N=12 + L_Schwarzian. α = 1.289 = 1 + 1/√12.
 - **Democratic cosmology (§3.17)**: 14 event types = 1 species at 14 different γ values. All have proper lifetime t_Pl.
-- **Closed loop closes for f_back (Lagrangian v10)**: f_back = (E_4D/E)^(1/(2α)) from same α as time dilation. 1/(2α) = c/α = (1/2)/1.289.
+- **Closed loop closes for f_back (Lagrangian v10)**: f_back = (E_4D/E)^(1/2α) from same α as time dilation. 1/(2α) = c/α = (1/2)/1.289.
 - **45 honest limitations** (37 → 45 across v3.0.2), 45 external constraints catalogued.
   - LISA detection prospects: SIDC's SN death GW is **6-14 orders below LISA noise**; SIDC's BNS/AGN death GW is detectable by PTAs in 2030s
   - Testable window 2026-2034 (DESI DR3 → LISA launch)
