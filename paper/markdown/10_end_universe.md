@@ -230,9 +230,9 @@ The 2D universe's lifetime $T_{2D}$ should be derivable from this Lagrangian. Ca
 
 4. **2D universe "effective mass" m_{3+1D}:** From DM abundance (27% of ρ_crit), each 2D universe has m_{2D} ~ $10^{-40}$ GeV/c². This is a "natural" mass scale, but not a *lifetime* anchor.
 
-**Verdict:** the c=1 matrix model does NOT directly give α = 1.29. The 2D universe's lifetime is set by μ (a free parameter), not by the 3D event's energy. SIDC's energy-scaling rule is therefore a *fit* to one data point, with no first-principles derivation from the 2D CFT. A 2D CFT expert would be needed to derive the relationship between E_3D and $T_{2D}$ rigorously.
+**Verdict:** the c=1 matrix model does NOT directly give α = 1.29. The 2D universe's lifetime is set by μ (a free parameter), not by the 3D event's energy. SIDC's energy-scaling rule is therefore a *fit* to one data point, with no first-principles derivation from the 2D CFT. A 2D CFT expert would be needed to derive the relationship between $E_{\rm 3D}$ and $T_{2D}$ rigorously.
 
-The 2D universe's *internal* dynamics (set by μ) and its *effective* lifetime in 3D view (set by E_3D) might be related but the relationship is not clear. This is an **open question** that SIDC's framework should acknowledge.
+The 2D universe's *internal* dynamics (set by μ) and its *effective* lifetime in 3D view (set by $E_{\rm 3D}$) might be related but the relationship is not clear. This is an **open question** that SIDC's framework should acknowledge.
 
 ### 10.15 Death GW background spectrum (LISA prediction)
 
@@ -262,7 +262,7 @@ $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$
 
 where ρ_c = $7.7 \times 10^{-10}$ J/m³ is the critical density.
 
-For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2D} = 33$ s, rate ~ $10^{4}$ /${\rm Mpc}^3$/yr = $1.08 \times 10^{-71}$ /m³/s):
+For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = $10^{44}$ J, $\tau_{2D} = 33$ s, rate ~ $10^{4}$ /${\rm Mpc}^3$/yr = $1.08 \times 10^{-71}$ /m³/s):
 
 | $\epsilon_{\rm GW}$ | $\Omega_{\rm GW}$ at 0.03 Hz | LISA noise at 0.03 Hz | Detectable? |
 |---|---|---|---|
@@ -348,9 +348,9 @@ For a population of bursts at rate n_rate (per m³/s) with energy E_GW per burst
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$
 
-where ρ_c = $7.7 \times 10^{-10}$ J/m³.
+where ρ_c = $7.7 \times $10^{-10}$$ J/m³.
 
-**For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2D} = 33$ s, rate ~ $10^{4}$ /${\rm Mpc}^3$/yr = $1.08 \times 10^{-71}$ /m³/s):**
+**For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = $10^{44}$ J, $\tau_{2D} = 33$ s, rate ~ $10^{4}$ /${\rm Mpc}^3$/yr = $1.08 \times $10^{-71}$$ /m³/s):**
 
 | $\epsilon_{\rm GW}$ | $\Omega_{\rm GW}$ at 0.03 Hz | LISA noise at 0.03 Hz | Ratio (SNR) | Detectable? |
 |---|---|---|---|---|
@@ -396,7 +396,7 @@ SIDC's §10 is a *speculative extension* with clear, testable, falsifiable predi
 
 ### 10.18 α sensitivity analysis: how precisely is α = 1.29 constrained? (v2.7.9+)
 
-SIDC's energy-scaling rule $\tau_{2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl}$ with α = 1.29 is calibrated to ONE data point (the SN 33s lifetime at E_SN = $10^{44}$ J). This section quantifies how sensitive SIDC's predictions are to α, and what precision of future observations would be required to falsify α = 1.29.
+SIDC's energy-scaling rule $\tau_{2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl}$ with α = 1.29 is calibrated to ONE data point (the SN 33s lifetime at $E_{\rm SN}$ = $10^{44}$ J). This section quantifies how sensitive SIDC's predictions are to α, and what precision of future observations would be required to falsify α = 1.29.
 
 **Sensitivity of $\tau_{2D}$ predictions to α.** For SIDC's 2D universe lifetime formula, varying α in the range [1.0, 1.6] gives:
 
@@ -414,7 +414,7 @@ A change of Δα = 0.20 gives a **factor of 10-100x** change in $\tau_{2D}$ pred
 
 $$\Delta\alpha = \frac{\Delta f_{GW}}{f_{GW} \cdot \log(E/E_{SN})}$
 
-For BNS (E/E_SN = $10^{9}$): log = 9.
+For BNS (E/$E_{\rm SN}$ = $10^{9}$): log = 9.
 
 | Detector | Δf_GW precision | Δα precision |
 |----------|-----------------|---------------|

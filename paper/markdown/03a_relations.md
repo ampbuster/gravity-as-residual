@@ -90,7 +90,7 @@ The CGHS model [CGHS92] is a 1+1-dimensional dilaton gravity theory that is *exa
 **Quantitative check.** SIDC's lifetime $\tau_{2D}$ = $(E/E_{\rm Pl})^{1.29}$ × $t_{\rm Pl}$, calibrated to τ(SN) = 33 s, predicts:
 - τ(LHC pp) = 3.5 × $10^{-64}$ s for E_pp = $10^{-9}$ J
 - τ(BNS merger) = 4.3 × $10^{5}$ yr for E_BNS = $10^{46}$ J
-- τ(AGN outburst) = 1.6 × $10^{8}$ yr for E_AGN = $10^{52}$ J
+- τ(AGN outburst) = 1.6 × $10^{8}$ yr for $E_{\rm AGN}$ = $10^{52}$ J
 
 CGHS original (p=3) gives τ(LHC pp) = 3.3 × $10^{-138}$ s (75 orders too short), and RST (p=1) gives τ(LHC pp) = 3.3 × $10^{-54}$ s (9 orders too long). SIDC's α = 1.29 is *between* these extremes, which is consistent with a CGHS-like 2D black hole with *intermediate* back-reaction. A CGHS-with-back-reaction calculation that yields exactly α = 1.29 would be a *first-principles derivation* of SIDC's energy-scaling rule. This is a concrete, testable prediction for 2D quantum gravity experts (a working calculation, not a vague hope).
 
@@ -113,7 +113,7 @@ This identification provides a *concrete* information-theoretic interpretation o
 **What Padmanabhan gives SIDC:**
 - An *information-theoretic foundation* for SIDC's bulk-brane coupling
 - A *concrete interpretation* of SIDC DM as missing bulk entropy
-- A *quantitative* prediction: the 3+1D mass M_3+1D ~ c τ_4D / (4π G) from equipartition on the boundary horizon, which gives τ_4D ~ $10^{28}$ yr for the 4D event's duration (a *very long-lived* 4D event)
+- A *quantitative* prediction: the 3+1D mass $M_{\rm 3+1D}$ ~ c τ_4D / (4π G) from equipartition on the boundary horizon, which gives τ_4D ~ $10^{28}$ yr for the 4D event's duration (a *very long-lived* 4D event)
 
 **What Padmanabhan does NOT give SIDC:**
 - The *inversion mechanism* (4D attractive → 3+1D repulsive). Padmanabhan's framework gives standard attractive gravity from entropy; SIDC's sign-change is a separate postulate
@@ -182,7 +182,7 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 **What RT gives SIDC:**
 - A *concrete* information-theoretic interpretation of SIDC DM as missing bulk entanglement entropy: 2D universe = bulk region with area A_2D = 4π(c$\tau_{2D}$)², and SIDC's 3+1D back-projection of 2D universe gravity is structurally identical to the RT formula's area-entropy relation
 - A *consistency check* on SIDC's $f_{\rm back}$: the RT formula gives the same $M_{2D} = \tau_{2D}$ / (2G) as Jacobson's first law (since RT + Bekenstein-Hawking + Unruh = Jacobson derivation). This means RT, Jacobson, and Padmanabhan all give the same LINEAR $\tau_{2D}$ ~ $M_{2D}$, not SIDC's power law
-- An *additional anchor* for SIDC's bulk-brane picture: the 2D universe's "boundary" in 3+1D (a 2-sphere of radius c$\tau_{2D}$) has area A_2D that grows quadratically with $\tau_{2D}$, and the entanglement entropy of the 2D universe's contents is S_2D = A_2D / (4G) = π($\tau_{2D}$)² (in Planck units)
+- An *additional anchor* for SIDC's bulk-brane picture: the 2D universe's "boundary" in 3+1D (a 2-sphere of radius c$\tau_{2D}$) has area A_2D that grows quadratically with $\tau_{2D}$, and the entanglement entropy of the 2D universe's contents is $S_{\rm 2D}$ = A_2D / (4G) = π($\tau_{2D}$)² (in Planck units)
 
 **What RT does NOT give SIDC:**
 - A *derivation* of α = 1.29. RT is mathematically equivalent to the Jacobson derivation (both give $M_{2D} = \tau_{2D}$ / (2G), linear scaling). SIDC's power law $\tau_{2D}$ ~ $E^{1.29}$ is a dynamical parameter, not from RT
@@ -193,7 +193,7 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 **Quantitative check.** For SIDC's SN-calibrated 2D universe of $\tau_{2D} = 33$ s, RT gives:
 - R_2D = c × $\tau_{2D} = 9.9$ × $10^{9}$ m (about 70 × Earth-Moon distance)
 - A_2D = 4π R_2D² = 1.2 × $10^{21}$ m²
-- S_2D = A_2D / (4 $\ell_P^2$) ≈ $10^{90}$ (in natural units)
+- $S_{\rm 2D}$ = A_2D / (4 $\ell_P^2$) ≈ $10^{90}$ (in natural units)
 
 This is an enormous entanglement entropy. The 2D universe is "small" in its intrinsic 1+1D spacetime, but its boundary in 3+1D is a 2-sphere of radius ~$10^{10}$ m. The RT formula gives this boundary area a holographic content of $10^{90}$ dimensionless units. This is consistent with SIDC's claim that 2D universes can carry "missing bulk entropy" that back-projects to 3+1D as DM.
 
@@ -258,7 +258,7 @@ User reference (v3.0.22): Kusuki 2024 (arXiv:2412.18307) "Modern Approach to 2D 
 2. **Hellerman bound connection**: SIDC's c_total = 3/2 EXCEEDS the unitary c ≤ 1 bound, but SIDC is **non-unitary** (Liouville is non-unitary, SYK q=4 is non-unitary at finite N) — this is consistent. The fact that c_total = 3/2 is a specific non-integer is what makes SIDC testable: it requires non-unitarity, not just non-integer c.
 
 3. **HHLL block** (Heavy-Heavy-Light-Light):
-   - Heavy: 4D event (h_H ~ E_4D × L_4D, very large)
+   - Heavy: 4D event (h_H ~ $E_{\rm 4D}$ × L_4D, very large)
    - Light: 2D universe (h_L ~ μ × L_2D, very small)
    - The block describes the 4D → 2D projection
    - **In heavy limit, block dominated by double-trace exchange, which IS SIDC's scaling law τ_2D ~ E^1.289**
@@ -277,7 +277,7 @@ User reference (v3.0.22): Kusuki 2024 (arXiv:2412.18307) "Modern Approach to 2D 
 
 **What Kusuki does NOT give SIDC**:
 - A specific formula for α = 1.289 (yet — would require a Kusuki-method calculation)
-- A derivation of f_back ≈ 10^-85
+- A derivation of $f_{\rm back}$ ≈ $10^{-85}$
 - A derivation of the 5/27/68 split
 
 **L104 NEW (v3.0.22)**: Kusuki 2024 (arXiv:2412.18307) is a useful FRAMEWORK for SIDC's 2D universe calculations. It provides modern ICFT methods (HHLL, monodromy, HKS, AdS_3/CFT_2) that could:
@@ -516,7 +516,7 @@ SIDC's current mechanism: the 2D universe has an *intrinsic* 2D-frame mass $M_{2
 $$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$
 
 To get the required $3.7 \times 10^{-5} M_\odot$ per universe:
-$$e^{-ky} = 3.7 \times 10^{-5} / 6 = 6.2 \times 10^{-6}$$
+$$e^{-ky} = 3.7 \times $10^{-5}$ / 6 = 6.2 \times $10^{-6}$$$
 
 **Discrepancy with SIDC's stated value:** SIDC has previously stated $e^{-ky}$ ~ $10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is $6.2 \times 10^{-6}$, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
 
@@ -612,17 +612,17 @@ See `calculations/v27_5pct_to_27pct_amplification.py` for the full numerical ana
 
 A natural follow-up to §3.11: **if DM is from cumulative 2D universe deaths, shouldn't the DM/baryon ratio grow over time?** This section analyzes the question and identifies it as a *testable prediction* of SIDC.
 
-**3.12.1 The $F_p(z)$ framework.**
+**3.12.1 The $$$F_p$$(z)$ framework.**
 
-SIDC's §4.48 introduces a smooth function $F_p(z) = 0.9993 + 0.0007 \cdot z^2/(z_{half}^2 + z^2)$ (Hill n=2, $z_{half} = 3$, v2.7.52+ revision) that specifies the *fraction* of DM that is primordial (from 4D-event-created 2D universes) vs cumulative (from 3+1D-event-created 2D universes):
+SIDC's §4.48 introduces a smooth function $$$F_p$$(z) = 0.9993 + 0.0007 \cdot z^2/(z_{half}^2 + z^2)$ (Hill n=2, $z_{half} = 3$, v2.7.52+ revision) that specifies the *fraction* of DM that is primordial (from 4D-event-created 2D universes) vs cumulative (from 3+1D-event-created 2D universes):
 
-$$F_p(z) = primordial fraction of DM at redshift  z$$
-$$F_{cum}(z) = 1 - F_p(z) = \text{cumulative fraction}$$
+$$$$F_p$$(z) = primordial fraction of DM at redshift  z$$
+$$F_{cum}(z) = 1 - $$F_p$$(z) = \text{cumulative fraction}$$
 
 Key values:
-- $F_p(z=0) = 0.7$ (70% primordial at z=0)
-- $F_p(z=\infty) = 1.0$ (100% primordial at high z)
-- $F_p(z=3) = 0.85$ (50% transition)
+- $$$F_p$$(z=0) = 0.7$ (70% primordial at z=0)
+- $$$F_p$$(z=\infty) = 1.0$ (100% primordial at high z)
+- $$$F_p$$(z=3) = 0.85$ (50% transition)
 
 **3.12.2 The DM/baryon ratio at different z.**
 
@@ -642,22 +642,22 @@ If SIDC's cumulative component of DM grows over time (which it should, by SIDC's
 
 **3.12.3 The honest answer: it's a mix.**
 
-SIDC's line 1897 says total DM is "approximately conserved," but the smooth $F_p(z)$ implies the *absolute* primordial DM contribution might be different at different z. The honest interpretation:
+SIDC's line 1897 says total DM is "approximately conserved," but the smooth $$$F_p$$(z)$ implies the *absolute* primordial DM contribution might be different at different z. The honest interpretation:
 
 1. **Total DM is approximately conserved** in comoving volume (line 1897)
 2. **Primordial 2D universe deaths continue to add to DM** at all z (these are slow deaths, ongoing throughout cosmic history)
 3. **Cumulative 2D universe deaths add to DM** at all z, but at a *declining* rate (SFR has decreased over cosmic time)
-4. **The ratio of primordial to cumulative changes with z** (captured by $F_p(z)$)
+4. **The ratio of primordial to cumulative changes with z** (captured by $$$F_p$$(z)$)
 5. **Total DM is the SUM of both components**, approximately conserved at 27%
 
-In this interpretation, the DM/baryon ratio is *approximately constant* (5.4x at all z), with small variations due to the ongoing primordial deaths and the growing cumulative deaths. SIDC's smooth $F_p(z)$ is the *composition* of DM at each z, not the absolute total.
+In this interpretation, the DM/baryon ratio is *approximately constant* (5.4x at all z), with small variations due to the ongoing primordial deaths and the growing cumulative deaths. SIDC's smooth $$$F_p$$(z)$ is the *composition* of DM at each z, not the absolute total.
 
 **3.12.4 The subtle test: does the DM/baryon ratio grow?**
 
 The user is right to ask: if the cumulative component of DM is *growing* over time (from 0% at $z=\infty$ to 30% of total at $z=0$), then in Scenario A (conserved total), the primordial component is *decreasing* over time (from 100% to 70%). This means **primordial 2D universe deaths have produced 70% of total DM by today, and will produce 100% of DM at some future time** (if the cumulative component stops growing).
 
 This is *testable* in principle:
-- **At high z**, DM should be 100% primordial (per $F_p(z=\infty) = 1.0$)
+- **At high z**, DM should be 100% primordial (per $$$F_p$$(z=\infty) = 1.0$)
 - **At low z**, DM should be 70% primordial + 30% cumulative
 - **The fraction of cumulative DM should grow with time**
 
@@ -665,11 +665,11 @@ Observational test: measure the *primordial vs cumulative composition* of DM at 
 
 **3.12.5 The CMB gap resolution.**
 
-SIDC's $F_p(z)$ also addresses the v2.4 "CMB gap" (L31):
-- v2.4 constant $F_p = 0.7$ predicted only 70% of observed DM at $z=1100$ (30% gap)
-- v2.7.5+ smooth $F_p(z)$ (Hill n=2, $z_{half} = 3$) predicts 100% of observed DM at $z=1100$ (gap < 1%)
+SIDC's $$$F_p$$(z)$ also addresses the v2.4 "CMB gap" (L31):
+- v2.4 constant $$$F_p$$ = 0.7$ predicted only 70% of observed DM at $z=1100$ (30% gap)
+- v2.7.5+ smooth $$$F_p$$(z)$ (Hill n=2, $z_{half} = 3$) predicts 100% of observed DM at $z=1100$ (gap < 1%)
 
-The smooth $F_p(z)$ says: at $z=1100$, DM is 100% primordial. The primordial 2D universe deaths that happen *before* $z=1100$ account for the observed 27% of DM at CMB. The remaining 30% of *cumulative* DM hasn't happened yet at $z=1100$ — it accumulates over cosmic history.
+The smooth $$$F_p$$(z)$ says: at $z=1100$, DM is 100% primordial. The primordial 2D universe deaths that happen *before* $z=1100$ account for the observed 27% of DM at CMB. The remaining 30% of *cumulative* DM hasn't happened yet at $z=1100$ — it accumulates over cosmic history.
 
 This is a *testable* framework:
 - **CMB ($\Omega_{DM} = 0.27$ at $z=1100$):** consistent with primordial deaths happening at the Big Bang
@@ -679,7 +679,7 @@ This is a *testable* framework:
 
 SIDC predicts:
 
-| Redshift | $F_p(z)$ | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
+| Redshift | $$$F_p$$(z)$ | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
 |----------|----------|---------------------|------------------------------|------------------------------|
 | 1100 (CMB) | 1.000 | 0.000 | 5.40 | 3.80 |
 | 6 | 0.946 | 0.054 | 5.40 | 4.06 |
@@ -703,7 +703,7 @@ The user is right to highlight this. SIDC makes a *subtle* testable prediction:
 
 **3.12.8 Honest summary.**
 
-The user is right: SIDC's cumulative component of DM *should grow* over time. SIDC's framework has this captured by $F_p(z)$, but the absolute total is a separate question (conserved or growing).
+The user is right: SIDC's cumulative component of DM *should grow* over time. SIDC's framework has this captured by $$$F_p$$(z)$, but the absolute total is a separate question (conserved or growing).
 
 - **SIDC's default:** total DM approximately conserved in comoving volume (Scenario A). DM/baryon ratio is constant at 5.4x.
 - **SIDC's alternative:** total DM grows as cumulative deaths accumulate (Scenario B). DM/baryon ratio grows from 3.8x to 5.4x.
@@ -712,7 +712,7 @@ SIDC is honest that this is a *subtle* testable prediction. The growth factor is
 
 **SIDC's status (v2.7.17+):**
 - The DM/baryon ratio is *approximately* constant in SIDC's default framework (Scenario A)
-- The cumulative fraction GROWS with time (captured by $F_p(z)$)
+- The cumulative fraction GROWS with time (captured by $$$F_p$$(z)$)
 - The total DM is approximately conserved (line 1897), but this is a *postulate*, not a derivation
 - SIDC is honest that the growth of cumulative DM is a *testable* prediction
 - Future JWST/Euclid observations of high-z galaxy DM content could distinguish Scenario A from B
@@ -745,8 +745,8 @@ At equilibrium, $d\Omega_{DM}/dt = 0$:
 $$\Omega_{DM}^{eq} = \frac{R_{add}}{\Gamma}$
 
 For the observed 27% DM:
-- $R_{add} = 0.27 / 13.8  Gyr$ ~ $6 \times 10^{-19} /s$
-- $\Gamma_{required}$ ~ $2.3 \times 10^{-18} /s$
+- $R_{add} = 0.27 / 13.8  Gyr$ ~ $6 \times $10^{-19}$ /s$
+- $\Gamma_{required}$ ~ $2.3 \times $10^{-18}$ /s$
 - $\tau_{DM} = 1/\Gamma$ ~ $14  Gyr$ (slightly longer than universe's age)
 
 **The equilibrium is APPROACHING but not fully reached.** SIDC is currently at ~50% of equilibrium DM (since 13.8 Gyr is close to τ). The DM/baryon ratio is approximately constant at 5.4x because addition and decay are nearly balanced.
@@ -815,7 +815,7 @@ This Pauli-blocked equilibrium model makes several testable predictions:
 3. **Relic active neutrino background:**
    - From accumulated DM decay over cosmic history
    - Energy: $E_\nu \sim m_s/2$ (sterile neutrino mass half)
-   - Number density: $n_\nu \sim \Omega_{DM} \rho_{crit} / m_s \sim 10^{-6} / \text{cm}^3$ (for 1 GeV)
+   - Number density: $n_\nu \sim \Omega_{DM} \rho_{crit} / m_s \sim $10^{-6}$ / \text{cm}^3$ (for 1 GeV)
    - Much less than standard relic neutrinos (336/${\rm cm}^3$), but at higher energy
 
 4. **Time evolution of DM/baryon ratio:**
@@ -853,7 +853,7 @@ This Pauli-blocked equilibrium model connects to:
 
 - **§2.5.4 Deaths-only DM** (v2.7.11+): the cumulative DM is from 2D universe deaths. The decay happens after death, so the 2D universe's death return is the *first* appearance of DM (sterile neutrino).
 
-- **§4.48 Smooth $F_p(z)$ DM Design** (v2.7.8+): the smooth $F_p(z)$ describes the fraction of DM that is primordial vs cumulative. The decay is independent of this fraction.
+- **§4.48 Smooth $$$F_p$$(z)$ DM Design** (v2.7.8+): the smooth $$$F_p$$(z)$ describes the fraction of DM that is primordial vs cumulative. The decay is independent of this fraction.
 
 - **§3.10 4D's own DM/DE budget**: if 4D has its own universe creation, 4D's "DM" (sterile neutrinos from 4D universe deaths) would also decay via the same mechanism, suppressed in 4D's "halos" (whatever that means in 4D).
 
@@ -905,7 +905,7 @@ The §3.13 mechanism relied on Pauli blocking to suppress DM decay in dense regi
 
 For a typical DM halo ($\rho_{DM}$ ~ $0.3$ GeV/${\rm cm}^3$, $m_s$ ~ $1$ GeV):
 - Number density: $n_{DM}$ ~ $0.3 / cm^3$
-- Fermi momentum: $p_F$ ~ $5 \times 10^{-13}$ eV (calculated)
+- Fermi momentum: $p_F$ ~ $5 \times $10^{-13}$$ eV (calculated)
 - Decay product energy: $E_{decay} = $m_s$/2$ ~ $500$ MeV
 - **Ratio: $E_{decay} / $p_F$ $ ~ $10^{21}$**
 
@@ -914,8 +914,8 @@ The decay product energy is **21 orders of magnitude larger** than the Fermi mom
 **3.14.2 Issue 2: Active neutrino flux prediction is too high.**
 
 If SIDC's DM is sterile neutrino ($m_s = 1$ GeV) and decays via $\nu_s \to \nu_a + \gamma$:
-- Number density of active neutrinos: $n_\nu$ ~ $1.4 \times 10^{-6} / cm^3$
-- Active neutrino flux at Earth: ~ $3 \times 10^3$ cm$^{-2}$ s$^{-1}$ sr$^{-1}$
+- Number density of active neutrinos: $n_\nu$ ~ $1.4 \times $10^{-6}$ / cm^3$
+- Active neutrino flux at Earth: ~ $3 \times $10^{3}$$ cm$^{-2}$ s$^{-1}$ sr$^{-1}$
 - Current Super-K limit at 500 MeV: ~ $10^{-4}$ cm$^{-2}$ s$^{-1}$ sr$^{-1}$
 
 **TENSION: SIDC overpredicts by a factor of ~ $10^7$.**
@@ -924,7 +924,7 @@ This is a real problem. SIDC's sterile neutrino decay model is inconsistent with
 
 **3.14.3 Issue 3: Sterile neutrino with $m_s$ ~ $1$ GeV is heavily constrained.**
 
-SIDC's required decay rate Γ ~ $2.3 \times 10^{-18}$ /s for $m_s = 1$ GeV requires a large mixing angle $\sin^2(2\theta)$ ~ $10^{-4}$. Sterile neutrinos at this mass face strong observational constraints:
+SIDC's required decay rate Γ ~ $2.3 \times $10^{-18}$$ /s for $m_s = 1$ GeV requires a large mixing angle $\sin^2(2\theta)$ ~ $10^{-4}$. Sterile neutrinos at this mass face strong observational constraints:
 - Beam dump experiments (CHARM, NA62)
 - BBN $N_{eff}$
 - Direct production at LHC
@@ -948,7 +948,7 @@ The user is right to push on this. SIDC's framework allows for multiple DM hypot
 - "DM and no neutrinos" by construction
 - Consistent with observations
 
-**Option C: Primordial black hole DM (no decay for $M > 10^{15}$ g).**
+**Option C: Primordial black hole DM (no decay for $M > $10^{15}$$ g).**
 - Stable on cosmological timescales
 - "DM and no neutrinos" by construction
 - Possible, but constrained by various observations

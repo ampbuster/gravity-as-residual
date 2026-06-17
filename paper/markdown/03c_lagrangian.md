@@ -194,11 +194,11 @@ Evidence for α being universal:
 2. Brane tension may differ at each level.
 3. Higher levels (5+, if they exist) are not directly testable.
 
-**Sensitivity test** (level 4, E_4D = 10^69 J):
-- α = 1.289 (SIDC): τ_3D = 1.76 × 10^26 yr (matches paper within 12%)
-- α = 1.279: τ_3D = 9.87 × 10^25 yr (off by factor 2)
-- α = 1.299: τ_3D = 3.12 × 10^26 yr (off by factor 1.6)
-- α = 1.239: τ_3D = 9.87 × 10^24 yr (off by factor 20)
+**Sensitivity test** (level 4, $E_{\rm 4D}$ = $10^{69}$ J):
+- α = 1.289 (SIDC): τ_3D = 1.76 × $10^{26}$ yr (matches paper within 12%)
+- α = 1.279: τ_3D = 9.87 × $10^{25}$ yr (off by factor 2)
+- α = 1.299: τ_3D = 3.12 × $10^{26}$ yr (off by factor 1.6)
+- α = 1.239: τ_3D = 9.87 × $10^{24}$ yr (off by factor 20)
 
 A 1% change in α gives a factor ~1.7 change in predicted lifetime.
 This is consistent with the 54-order-of-magnitude span of SIDC's
@@ -208,15 +208,15 @@ scaling law predictions (§10.1).
 
 The closed loop formula requires knowing BOTH the parent event
 energy (for forward γ) AND the grandparent event energy
-(for backward f_back).
+(for backward $f_{\rm back}$).
 
 At level 3 (3D → 2D):
-- Forward: γ_3 = (E_3D/E_Pl,3)^α → τ_2D = γ_3 × t_Pl,3
-- Backward: f_back_3 = (E_4D/E_3D)^(1/(2α)) × prefactors → ≈ 10^-85 ✓
+- Forward: γ_3 = ($E_{\rm 3D}$/E_Pl,3)^α → τ_2D = γ_3 × $t_{\rm Pl,3}$
+- Backward: f_back_3 = ($E_{\rm 4D}$/$E_{\rm 3D}$)^(1/(2α)) × prefactors → ≈ $10^{-85}$ ✓
 
 At level 4 (4D → 3+1D):
-- Forward: γ_4 = (E_4D/E_Pl,4)^α → τ_3D = γ_4 × t_Pl,4
-- Backward: f_back_4 = (E_5D/E_4D)^(1/(2α)) × prefactors → requires E_5D
+- Forward: γ_4 = ($E_{\rm 4D}$/E_Pl,4)^α → τ_3D = γ_4 × $t_{\rm Pl,4}$
+- Backward: f_back_4 = ($E_{\rm 5D}$/$E_{\rm 4D}$)^(1/(2α)) × prefactors → requires $E_{\rm 5D}$
 
 At level 5+:
 - Need BOTH E_D and E_{D+1} for the closed loop
@@ -233,7 +233,7 @@ N = 12, but not directly verified at higher levels.
 closed loop working at every hierarchy level) is a CLAIM, supported
 by N = 12 universality, but not directly verified above level 4.
 The scaling law works at level 4 within 12% using α = 1.289; the
-closed loop requires E_5D which is not known.
+closed loop requires $E_{\rm 5D}$ which is not known.
 
 **Net: +0 pages, +1 limitation (L99)**
 - Total: 339 pages (unchanged)
@@ -253,18 +253,18 @@ User question: "so it links dm / de and gravity?"
 | Pillar | Origin | Formula | Numerical value |
 |--------|--------|---------|-----------------|
 | Gravity weakness | Bulk-brane cancellation | ε_grav = 10^-38 | Suppression factor |
-| Dark matter (27%) | Cumulative 2D universe back-projection | f_back × Σ(M_2D × N) | Depends on N_2D |
-| Dark energy (68%) | 4D event un-cancelled antigravity | f_back × ε_grav × M_Pl^4 | 2.22 × 10^-47 GeV^4 |
+| Dark matter (27%) | Cumulative 2D universe back-projection | $f_{\rm back}$ × Σ($M_{\rm 2D}$ × N) | Depends on N_2D |
+| Dark energy (68%) | 4D event un-cancelled antigravity | $f_{\rm back}$ × ε_grav × $M_{\rm Pl}$^4 | 2.22 × 10^-47 GeV^4 |
 
 **Numerical check (DE density prediction)**:
 
-The closed loop gives f_back ≈ 10^-85. Combined with ε_grav ~ 10^-38:
+The closed loop gives $f_{\rm back}$ ≈ $10^{-85}$. Combined with ε_grav ~ $10^{-38}$:
 
-ρ_DE predicted = f_back × ε_grav × M_Pl,3^4
-              = 10^-85 × 10^-38 × (1.22 × 10^19 GeV)^4
-              = 2.22 × 10^-47 GeV^4
+ρ_DE predicted = $f_{\rm back}$ × ε_grav × $M_{\rm Pl,3}$^4
+              = $10^{-85}$ × $10^{-38}$ × (1.22 × $10^{19}$ GeV)^4
+              = 2.22 × $10^{-47}$ GeV^4
 
-ρ_DE observed (Planck 2018) = 2.5 × 10^-47 GeV^4
+ρ_DE observed (Planck 2018) = 2.5 × $10^{-47}$ GeV^4
 
 **Ratio: 0.89 — within 12%!**
 
@@ -273,7 +273,7 @@ For Ω_DE: predicted 0.593 vs observed 0.680 (within 13%).
 **The unification (graphically)**:
 
 ```
-                  ┌─ f_back = 10^-85 (closed loop)
+                  ┌─ $f_{\rm back}$ = 10^-85 (closed loop)
                   │
                   │  Same α = 1.289 in BOTH directions:
                   │
@@ -282,15 +282,15 @@ For Ω_DE: predicted 0.593 vs observed 0.680 (within 13%).
    ▼              ▼              ▼
 GRAVITY          DM             DE
 weakness      27%            68%
-ε~10^-38       Σ f_back       f_back × ε × M_Pl^4
-               × M_2D × N
+ε~10^-38       Σ $f_{\rm back}$       $f_{\rm back}$ × ε × $M_{\rm Pl}$^4
+               × $M_{\rm 2D}$ × N
 ```
 
 **Why this works**:
 
 The closed loop uses α = 1.289 in BOTH directions:
 - Forward: γ = (E/E_Pl)^α (time dilation, scaling law)
-- Backward: f_back ~ (E_4D/E)^(1/(2α)) (back-action)
+- Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)^(1/(2α)) (back-action)
 
 α × 1/(2α) = 1/2 (round-trip loss, Z_2 orbifold)
 
@@ -299,25 +299,25 @@ This is the STRUCTURAL link:
   back-projection (backward).
 - This same α is what makes the SCALING LAW work (M^1.29 across 14
   event types).
-- The same f_back (closed loop value) appears in BOTH DE and DM.
+- The same $f_{\rm back}$ (closed loop value) appears in BOTH DE and DM.
 
 **The 5/27/68 split emerges from this**:
 
-- 5% baryons: ordinary matter (no f_back needed)
-- 27% DM: f_back × Σ(M_2D × N_2D)/V (cumulative 2D universes)
-- 68% DE: f_back × ε × M_Pl^4 (4D event antigravity)
+- 5% baryons: ordinary matter (no $f_{\rm back}$ needed)
+- 27% DM: $f_{\rm back}$ × Σ($M_{\rm 2D}$ × N_2D)/V (cumulative 2D universes)
+- 68% DE: $f_{\rm back}$ × ε × $M_{\rm Pl}$^4 (4D event antigravity)
 
-All three quantities (α, f_back, ε) are linked by the SAME geometric
+All three quantities (α, $f_{\rm back}$, ε) are linked by the SAME geometric
 mechanism (5D AdS_5 bulk-brane projection).
 
 **L102 NEW (v3.0.22)**: The closed loop links DM, DE, and gravity via:
-- Same α = 1.289 (forward γ and backward f_back)
-- Same f_back ≈ 10^-85 (universal)
-- Same ε_grav ~ 10^-38 (bulk-brane)
+- Same α = 1.289 (forward γ and backward $f_{\rm back}$)
+- Same $f_{\rm back}$ ≈ $10^{-85}$ (universal)
+- Same ε_grav ~ $10^{-38}$ (bulk-brane)
 - Same N = 12 SYK backbone
 
 The numerical match for DE (within 12% of observed) is direct evidence
-that f_back × ε × M_Pl^4 IS the correct formula for DE density.
+that $f_{\rm back}$ × ε × $M_{\rm Pl}$^4 IS the correct formula for DE density.
 
 **Net: +1 section, +1 limitation (L102)**
 - Total: 342 pages (was 341; +1 from new section)
@@ -495,7 +495,7 @@ at high $\gamma$ experience more time dilation.
 $C = 1$. The 33s calibration + 1.29 exponent FIX all couplings.
 
 **Closed loop coupling** $f_{\rm back}$: $f_{\rm back} = 10^{-85} = e^{-195.5}$
-implying RS-II $kL \approx 195.5$. This is a STRUCTURAL choice from the
+implying RS-II $$kL$ \approx 195.5$. This is a STRUCTURAL choice from the
 bulk geometry, not a fitted parameter.
 
 **What's MISSING from a complete Lagrangian**:
@@ -667,7 +667,7 @@ to the **4D event → 3D universe** level using the same formula.
 
 3D events creating 2D universes (8 events from §10.1):
 
-| 3D event | E_3D (J) | T_pred (s) | T_paper (s) | ratio |
+| 3D event | $E_{\rm 3D}$ (J) | T_pred (s) | T_paper (s) | ratio |
 |----------|----------|------------|-------------|-------|
 | 1 ton TNT | 4e9 | 1.5e-43 | 1e-43 | 1.51 |
 | X-class solar flare | 1e25 | 1.1e-23 | 1e-23 | 1.07 |
@@ -681,7 +681,7 @@ to the **4D event → 3D universe** level using the same formula.
 All 8 match within factor 1.6 (median ratio 1.024).
 
 4D event creating 3D universe (1 event, SPECULATIVE extrapolation):
-- E_4D = 10^69 J, T_pred = 1.76e26 yr, T_paper = 2e26 yr, ratio = 0.88
+- $E_{\rm 4D}$ = 10^69 J, T_pred = 1.76e26 yr, T_paper = 2e26 yr, ratio = 0.88
 
 **CONCLUSION (v14e)**: The scaling law is internally consistent at
 the 3D → 2D level (8/8 events match within factor 1.6). The 4D → 3D
@@ -814,7 +814,7 @@ User question: "so alpha is the shape that links dimensions?"
 
 2. **Horizontal (forward + backward)**: α × 1/(2α) = 1/2
    - Forward: γ = (E/E_Pl)^α (scaling law)
-   - Backward: f_back ~ (E_4D/E)^(1/(2α)) (closed loop)
+   - Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)^(1/(2α)) (closed loop)
    - Product = 1/2 closes the loop
 
 3. **Origin (particle ↔ cosmos)**: α = 1 + 1/√12
@@ -886,8 +886,8 @@ but **eternal from our frame** (γ × τ_proper → ∞ as γ → ∞).
 **2. THE 2D PLANCK IS THE TIP (L113, L110, L114)**
 
 The cone looks like a black hole, with 2D Planck as the tip (the 2D
-floor). M_Pl,2D ~ 3 TeV (holographic estimate). 2D Planck time
-t_Pl,2D ~ 2 × 10⁻²⁸ s. 2D Planck temperature T_Pl,2D ~ 3 × 10²² K.
+floor). $M_{\rm Pl,2D}$ ~ 3 TeV (holographic estimate). 2D Planck time
+$t_{\rm Pl}$,2D ~ 2 × 10⁻²⁸ s. 2D Planck temperature T_Pl,2D ~ 3 × 10²² K.
 
 Cone depths in α units:
 - LHC p-p = −11.86 (BELOW 2D floor — impossible)
@@ -897,42 +897,42 @@ Cone depths in α units:
 LHC p-p collisions CANNOT create 2D universes — they're below the 2D
 floor in α units. This is why LHC is silent (L108, L111).
 
-**3. f_back VARIES WITH EVENT (L114)**
+**3. $f_{\rm back}$ VARIES WITH EVENT (L114)**
 
-f_back is NOT universal. It depends on event energy:
+$f_{\rm back}$ is NOT universal. It depends on event energy:
 
-- At 2D floor: f_back ~ 4.8 × 10⁻²⁴
-- At SN: f_back ~ 10⁻⁸⁵
-- For 4D event: f_back → 1 (the substrate is "fully back-projected")
+- At 2D floor: $f_{\rm back}$ ~ 4.8 × 10⁻²⁴
+- At SN: $f_{\rm back}$ ~ 10⁻⁸⁵
+- For 4D event: $f_{\rm back}$ → 1 (the substrate is "fully back-projected")
 
-Cone depths in α units determine f_back: deeper cone → larger f_back.
-The closed loop formula gives f_back as a function of event energy.
+Cone depths in α units determine $f_{\rm back}$: deeper cone → larger $f_{\rm back}$.
+The closed loop formula gives $f_{\rm back}$ as a function of event energy.
 
 **4. A LAGRANGIAN FOR SIDC (L116)**
 
-Proposed S_SIDC = S_4D_event + S_3+1D_brane + Σ_events S_2D_universe + S_projection:
+Proposed $S_{\rm SIDC}$ = $S_{\rm 4D,event}$ + $S_{\rm 3+1D,brane}$ + Σ_events $S_{\rm 2D,universe}$ + $S_{\rm projection}$:
 
 ```
-S_4D_event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
-             with M_Pl,4 = 887 GeV (SIDC's 4D Planck)
+$S_{\rm 4D,event}$ = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
+             with $M_{\rm Pl,4}$ = 887 GeV (SIDC's 4D Planck)
 
-S_3+1D_brane = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
-               with M_Pl,3 = 1.22 × 10¹⁹ GeV
-               Λ = f_back × ε × M_Pl,3² (SIDC's DE)
+$S_{\rm 3+1D,brane}$ = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
+               with $M_{\rm Pl,3}$ = 1.22 × 10¹⁹ GeV
+               Λ = $f_{\rm back}$ × ε × $M_{\rm Pl}$,3² (SIDC's DE)
 
-S_2D_universe = S_Liouville + S_Ising + S_SYK + S_FZZT
+$S_{\rm 2D,universe}$ = S_Liouville + S_Ising + S_SYK + S_FZZT
                 S_L = (1/4π) ∫ [(∂φ)² + μ e^(2φ)]
                 S_I = (1/4π) ∫ Σ [ψ_i ∂ψ_i + (m/2) ψ_i²]  ← 12 Majorana
                 S_SYK = Σ J_{ijkl} ψ_i ψ_j ψ_k ψ_l  ← N=12, q=4
                 S_bdy = (1/4π) ∫ [K + μ_B] ds  ← FZZT brane
 
-S_projection = -g_couple ∫ d⁴x d²z Φ_4D Φ_2D Θ(τ_2D - τ)
+$S_{\rm projection}$ = -g_couple ∫ d⁴x d²z Φ_4D Φ_2D Θ(τ_2D - τ)
               + g_couple ∫ d⁴x Φ_2D(τ_2D) E_2D Θ(τ - τ_2D)
-              with τ_2D = (E_3D/E_Pl,3)^α × t_Pl,3  ← TIME DILATION
+              with τ_2D = ($E_{\rm 3D}$/E_Pl,3)^α × $t_{\rm Pl,3}$  ← TIME DILATION
               α = 1.289 (universal)
 ```
 
-Closed loop: f_back = g_couple² × Z_2D(τ_2D) / E_3D².
+Closed loop: $f_{\rm back}$ = g_couple² × Z_2D(τ_2D) / E_3D².
 
 **5. THE c-VALUE RESOLUTION (L117)**
 
@@ -950,16 +950,16 @@ Only 2 free parameters remain in SIDC:
 
 | Param | Value | Meaning |
 |-------|-------|---------|
-| **L41: μ** | 9 × 10⁶ GeV² | 2D Liouville cosmological constant (= M_Pl,2D²) |
+| **L41: μ** | 9 × 10⁶ GeV² | 2D Liouville cosmological constant (= $M_{\rm Pl}$,2D²) |
 | **L42: m₃₊₁D** | 246 GeV | Higgs VEV (EW scale) |
 
 Everything else is derived from these + 2D CFT structure:
-- M_Pl,2D = √μ = 3 TeV (from L41)
+- $M_{\rm Pl,2D}$ = √μ = 3 TeV (from L41)
 - α = 1 + 1/√12 (from N=12)
-- τ_2D = (E_3D/E_Pl,3)^α × t_Pl,3 (time dilation)
-- f_back ~ 10⁻⁸⁵ for SN (closed loop)
+- τ_2D = ($E_{\rm 3D}$/E_Pl,3)^α × $t_{\rm Pl,3}$ (time dilation)
+- $f_{\rm back}$ ~ 10⁻⁸⁵ for SN (closed loop)
 
-Single-particle events (E_3D ~ v_Higgs) give τ_2D ~ 10⁻⁶⁵ s — BELOW
+Single-particle events ($E_{\rm 3D}$ ~ $v_{\rm Higgs}$) give τ_2D ~ 10⁻⁶⁵ s — BELOW
 2D Planck time. Only MACROSCOPIC events (SN, AGN, GW bursts) create
 2D universes. This is consistent with no observed 2D universes from
 particle physics.
@@ -968,13 +968,13 @@ particle physics.
 
 Closed loop formula:
 ```
-f_back = (t_Pl,3/τ_4D) × (τ_SN/τ_universe) × (E_4D/E_SN)^(1/(2α))
+$f_{\rm back}$ = ($t_{\rm Pl,3}$/τ_4D) × (τ_SN/τ_universe) × ($E_{\rm 4D}$/$E_{\rm SN}$)^(1/(2α))
 ```
 
 Numerical decomposition:
-- log₁₀(t_Pl,3/τ_4D) = −75.1
+- log₁₀($t_{\rm Pl,3}$/τ_4D) = −75.1
 - log₁₀(τ_SN/τ_universe) = −16.2
-- log₁₀((E_4D/E_SN)^(1/(2α))) = +6.98
+- log₁₀(($E_{\rm 4D}$/$E_{\rm SN}$)^(1/(2α))) = +6.98
 - Sum = −84.3 ≈ −85 ✓
 
 The 1/(2α) = 0.388 is Ising c (1/2) × inverse time dilation (1/α).
@@ -984,7 +984,7 @@ This is the only structural element derivable from the framework.
 - Why the multiplicative (not additive) structure
 - Why the 1/(2α) is the specific exponent (only matched)
 - Why τ_4D = 4.1 × 10³² s (eternal for our cosmic time)
-- Why g_2D = 3.2 × 10¹⁸ (not 1 or other)
+- Why $g_{\rm 2D}$ = 3.2 × 10¹⁸ (not 1 or other)
 
 A full derivation requires:
 - The complete 5D bulk action (S_5D_bulk is MISSING)
@@ -1023,7 +1023,7 @@ Honest documentation of failed derivations:
 | Double-Scaled SYK (v28) | E_n = (2n+1)/2 (constant) | NEGATIVE |
 | Brute force SYK (v29) | α_fit = 1.29 (artifact!) | REVISED (v30) |
 | v30 verification | α_fit = −0.06 ± 0.10 (constant) | CONFIRMED NEGATIVE |
-| LHC tests of M_Pl,2D (v33) | Invisible (f_back² suppressed) | NEGATIVE |
+| LHC tests of $M_{\rm Pl,2D}$ (v33) | Invisible (f_back² suppressed) | NEGATIVE |
 
 α = 1.289 remains a CALIBRATION from the SN lifetime fit, not
 derivable from 2D CFT alone. This is HONEST — the calibration works
@@ -1032,13 +1032,13 @@ across 14 event types but is not derived from first principles.
 **10. CONNECTION TO §3.62 LAGRANGIAN SKELETON**
 
 The v3.0.2 Lagrangian skeleton (L = L_c=1 + L_N=12 + L_Schwarzian)
-is now EMBEDDED in the full v3.0.22 Lagrangian as S_2D_universe.
+is now EMBEDDED in the full v3.0.22 Lagrangian as $S_{\rm 2D,universe}$.
 The skeleton was the starting point; the full Lagrangian adds:
 
-- 4D event action (S_4D_event, M_Pl,4 = 887 GeV)
-- 3+1D brane action with SM (S_3+1D_brane)
-- Projection mechanism with time dilation (S_projection)
-- Closed loop condition (f_back formula)
+- 4D event action ($S_{\rm 4D,event}$, $M_{\rm Pl,4}$ = 887 GeV)
+- 3+1D brane action with SM ($S_{\rm 3+1D,brane}$)
+- Projection mechanism with time dilation ($S_{\rm projection}$)
+- Closed loop condition ($f_{\rm back}$ formula)
 - Boundary state (FZZT brane with μ_B)
 
 The v3.0.2 skeleton's α decomposition (α = 1 + 1/√12) is preserved
@@ -1050,7 +1050,7 @@ and now has a CLEAR physical meaning:
 
 SIDC now has:
 - **14 external constraints** (26 consistent, 6 inapplicable, 7 strengthening)
-- **Closed loop expression** for f_back (L98)
+- **Closed loop expression** for $f_{\rm back}$ (L98)
 - **DE prediction** within 12% of observed (L102)
 - **Full Lagrangian** (L116, with caveats)
 - **Only 2 free parameters** (L41 μ, L42 m₃₊₁D)
@@ -1075,7 +1075,7 @@ What's still missing:
 
 If this speculation section survives peer review:
 
-1. **Derive the 5D bulk action** (S_5D_bulk with kL ~ 887 GeV / M_Pl,3)
+1. **Derive the 5D bulk action** (S_5D_bulk with $kL$ ~ 887 GeV / $M_{\rm Pl,3}$)
 2. **Specify the projection mechanism** (explicit mathematical form)
 3. **Compute the closed loop path integral** (with 5D bulk)
 4. **Test α = 1.289 against 14 events** (already done in v14d, all match)
@@ -1106,9 +1106,9 @@ See `calculations/lagrangian_v23_dm_de_gravity.py` through
 
 **The numerical coincidence**:
 
-The power-law extrapolation M_Pl,N = M_Pl,4 / α^(N-4) gives:
+The power-law extrapolation $M_{\rm Pl,N}$ = $M_{\rm Pl,4}$ / α^(N-4) gives:
 
-| Level | M_Pl (GeV) | Ratio to v_Higgs |
+| Level | $M_{\rm Pl}$ (GeV) | Ratio to $v_{\rm Higgs}$ |
 |-------|------------|------------------|
 | 4D | 887 | 3.6 |
 | 5D | 688 | 2.8 |
@@ -1118,13 +1118,13 @@ The power-law extrapolation M_Pl,N = M_Pl,4 / α^(N-4) gives:
 | **9D** | **249** | **1.013** |
 | 10D | 193 | 0.79 |
 
-**M_Pl,9D = 249 GeV ≈ v_Higgs = 246 GeV (within 1.3%)**
+**$M_{\rm Pl,9D}$ = 249 GeV ≈ $v_{\rm Higgs}$ = 246 GeV (within 1.3%)**
 
 This is not a coincidence — both numbers are FORCED:
 - 9D from α = 1.289 (SIDC's time dilation calibration)
 - 246 GeV from electroweak symmetry breaking (Standard Model)
 
-Their meeting point at M_Pl,9D is STRUCTURAL.
+Their meeting point at $M_{\rm Pl,9D}$ is STRUCTURAL.
 
 **Why 9D is special**:
 
@@ -1142,7 +1142,7 @@ string theory at level 9.
 
 **1. STRING THEORY EXISTS AT THE EW SCALE**
 
-M_string = v_Higgs = 246 GeV (not 10^19 GeV as conventionally assumed).
+$M_{\rm string}$ = $v_{\rm Higgs}$ = 246 GeV (not 10^19 GeV as conventionally assumed).
 
 This is a specific, testable prediction:
 - String excitations have mass ~ 246 GeV
@@ -1159,15 +1159,15 @@ The Higgs boson is the BRIDGE between two frameworks:
   4D event substrate, 5D-8D speculative substrates
 - **String theory** (at and above 9D): superstring, M-theory
 
-The EW scale (v_Higgs) is where SIDC meets string theory.
+The EW scale ($v_{\rm Higgs}$) is where SIDC meets string theory.
 
 **3. THE HIERARCHY PROBLEM IS SOLVED**
 
-Why is M_Pl,3 (10¹⁹ GeV) so much bigger than v_Higgs (246 GeV)?
+Why is $M_{\rm Pl,3}$ (10¹⁹ GeV) so much bigger than $v_{\rm Higgs}$ (246 GeV)?
 
 In SIDC's picture:
-- M_Pl,3 is the 3+1D Planck (3+1D universe's scale)
-- v_Higgs is the 9D Planck (= string scale)
+- $M_{\rm Pl,3}$ is the 3+1D Planck (3+1D universe's scale)
+- $v_{\rm Higgs}$ is the 9D Planck (= string scale)
 - They're at DIFFERENT levels of the cascade
 - No fine-tuning needed
 
@@ -1175,7 +1175,7 @@ This is the "**cascade solution**" to the hierarchy problem.
 
 **4. THE "STRING DESERT"**
 
-Between v_Higgs (246 GeV) and M_Pl,3 (10¹⁹ GeV), there is:
+Between $v_{\rm Higgs}$ (246 GeV) and $M_{\rm Pl,3}$ (10¹⁹ GeV), there is:
 - 3+1D Standard Model physics
 - No new physics (cascade is "done")
 - The "desert" is REAL
@@ -1186,8 +1186,8 @@ signatures) are CONSISTENT with SIDC's prediction.
 **5. PHYSICS HAS A NATURAL ENDPOINT**
 
 At 9D, the cascade terminates:
-- M_Pl,9 = v_Higgs (the asymptotic floor)
-- Above 9D: M_Pl < v_Higgs, no meaningful substrate
+- $M_{\rm Pl}$,9 = $v_{\rm Higgs}$ (the asymptotic floor)
+- Above 9D: $M_{\rm Pl}$ < $v_{\rm Higgs}$, no meaningful substrate
 - 10D, 11D (M-theory) might exist but unobservable
 
 The "end of physics" is at 9D (= string theory's critical dim).
@@ -1208,16 +1208,16 @@ The 1 surviving Ising mode has c = 1/2.
 If 9 of the 12 are "spatial" (gapped by string physics at 9D)
 and 3 are "generational" (the surviving modes), this would
 explain the 1 Ising survival:
-- 9 spatial Majorana → gapped at M_string = v_Higgs
+- 9 spatial Majorana → gapped at $M_{\rm string}$ = $v_{\rm Higgs}$
 - 3 generational Majorana → 1 Ising (c = 1/2)
 
 **7. THE SIDC + STRING THEORY UNIFICATION**
 
 | Framework | Domain | Scale |
 |-----------|--------|-------|
-| SIDC | 2D, 3+1D, 4D, 5D-8D | M_Pl,4 = 887 GeV |
-| String theory | 9D, 10D | M_string = v_Higgs = 246 GeV |
-| Higgs boson | Bridge | v_Higgs = 246 GeV |
+| SIDC | 2D, 3+1D, 4D, 5D-8D | $M_{\rm Pl,4}$ = 887 GeV |
+| String theory | 9D, 10D | $M_{\rm string}$ = $v_{\rm Higgs}$ = 246 GeV |
+| Higgs boson | Bridge | $v_{\rm Higgs}$ = 246 GeV |
 
 Together: a complete picture of physics from the lowest scales
 (2D universes, DM/DE) to the highest (string theory).
@@ -1226,17 +1226,17 @@ Together: a complete picture of physics from the lowest scales
 
 | Prediction | Test |
 |------------|------|
-| M_string = v_Higgs = 246 GeV | Precision Higgs physics |
+| $M_{\rm string}$ = $v_{\rm Higgs}$ = 246 GeV | Precision Higgs physics |
 | No new physics 246 GeV – 10¹⁹ GeV | LHC, future colliders |
 | 12 = 9 + 3 Majorana structure | Flavor physics, g-2 |
-| Cascade terminates at 9D | No new physics above v_Higgs |
+| Cascade terminates at 9D | No new physics above $v_{\rm Higgs}$ |
 | f_back² suppression | LHC null results |
 
 **What we can derive (CAN)**:
 
-✓ M_Pl,9D = v_Higgs (within 1.3%) from α extrapolation
+✓ $M_{\rm Pl,9D}$ = $v_{\rm Higgs}$ (within 1.3%) from α extrapolation
 ✓ 9D = string theory's critical dimension
-✓ M_string = v_Higgs (specific prediction)
+✓ $M_{\rm string}$ = $v_{\rm Higgs}$ (specific prediction)
 ✓ The cascade terminates at 9D
 ✓ The hierarchy problem is solved by cascade structure
 
@@ -1244,28 +1244,28 @@ Together: a complete picture of physics from the lowest scales
 
 ✗ Why α = 1.289 specifically (still calibrated)
 ✗ Why the cascade is power-law (vs exponential or other)
-✗ Why M_Pl,9D exactly = v_Higgs (within 1.3% is suspicious)
+✗ Why $M_{\rm Pl,9D}$ exactly = $v_{\rm Higgs}$ (within 1.3% is suspicious)
 ✗ Whether M-theory (10D, 11D) exists
-✗ Whether string physics is exactly at v_Higgs
+✗ Whether string physics is exactly at $v_{\rm Higgs}$
 
 **L121-L127 NEW (v3.0.22)**:
 
 - **L121**: Cone extends to 5D, 6D with same α
-- **L122**: M_Pl,9D = v_Higgs identifies 9D with string theory
+- **L122**: $M_{\rm Pl,9D}$ = $v_{\rm Higgs}$ identifies 9D with string theory
 - **L123**: String scale = Higgs VEV (testable)
 - **L124**: Higgs is the bridge between SIDC and string theory
-- **L125**: LHC null results explained by f_back suppression
+- **L125**: LHC null results explained by $f_{\rm back}$ suppression
 - **L126**: 12 = 9 + 3 SYK Majorana structure
 - **L127**: Hierarchy problem solved by cascade
 
 **Numerical evidence**:
 
 ```
-M_Pl,9D = M_Pl,4 / α^5 = 887 / 1.289^5 = 249.26 GeV
-v_Higgs = 246 GeV (PDG)
+$M_{\rm Pl,9D}$ = $M_{\rm Pl,4}$ / α^5 = 887 / 1.289^5 = 249.26 GeV
+$v_{\rm Higgs}$ = 246 GeV (PDG)
 Ratio: 1.013 (within 1.3%)
 
-M_Pl,4 = 887 GeV (SIDC §10.3)
+$M_{\rm Pl,4}$ = 887 GeV (SIDC §10.3)
 α = 1.289 (SN calibration, 14-event fit)
 
 These are TWO INDEPENDENT numbers that meet at 9D.
@@ -1276,18 +1276,18 @@ The agreement is too good to be coincidence.
 
 ```
                 STRING THEORY (9D, 10D, M-theory)
-                          M_string = v_Higgs = 246 GeV
+                          $M_{\rm string}$ = $v_{\rm Higgs}$ = 246 GeV
                                 ▲
                                 │ Higgs boson = bridge
                                 │
    SIDC CASCADE ────────────────┤
-   2D: M_Pl,2D ~ 3 TeV          │  M_Pl,N = M_Pl,4/α^(N-4)
-   3+1D: M_Pl,3 = 10^19 GeV    │  ↓
-   4D: M_Pl,4 = 887 GeV ────────┤  5D: 688 GeV
+   2D: $M_{\rm Pl,2D}$ ~ 3 TeV          │  $M_{\rm Pl,N}$ = $M_{\rm Pl,4}$/α^(N-4)
+   3+1D: $M_{\rm Pl,3}$ = 10^19 GeV    │  ↓
+   4D: $M_{\rm Pl,4}$ = 887 GeV ────────┤  5D: 688 GeV
    (SIDC's floor)                │  6D: 534 GeV
                                  │  7D: 414 GeV
                                  │  8D: 321 GeV
-                                 │  9D: 249 GeV ≈ v_Higgs ← STRING
+                                 │  9D: 249 GeV ≈ $v_{\rm Higgs}$ ← STRING
 ```
 
 The SIDC hierarchy is **continuous** with string theory at level 9D.
@@ -1295,11 +1295,11 @@ The Higgs boson is the physical manifestation of this connection.
 
 **Connection to L41 (μ) and L42 (m₃₊₁D)**:
 
-L42: m₃₊₁D = v_Higgs = 246 GeV = M_string = M_Pl,9D
+L42: m₃₊₁D = $v_{\rm Higgs}$ = 246 GeV = $M_{\rm string}$ = $M_{\rm Pl,9D}$
 
 This is the SAME parameter appearing at TWO levels:
 - As the 3+1D mass scale (m₃₊₁D)
-- As the 9D Planck mass (M_string)
+- As the 9D Planck mass ($M_{\rm string}$)
 
 This is a STRUCTURAL identification: the EW scale IS the
 9D Planck mass.
@@ -1308,7 +1308,7 @@ This is a STRUCTURAL identification: the EW scale IS the
 
 - New section: 9D = string theory connection
 - Status: SPECULATIVE but striking
-- Key finding: M_Pl,9D = v_Higgs within 1.3%
+- Key finding: $M_{\rm Pl,9D}$ = $v_{\rm Higgs}$ within 1.3%
 - 7 new limitations (L121-L127)
 - Deep implications: string theory, hierarchy problem, bridge
 
@@ -1326,10 +1326,10 @@ full numerical analysis.
 
 The Standard Model has:
 - 3 generations of fermions (e, μ, τ for leptons)
-- 4 Weyl fermions per generation (u_L, d_L, e_L, ν_L) plus singlets
+- 4 Weyl fermions per generation ($u_L$, $d_L$, $e_L$, ν_L) plus singlets
 - Gauge group SU(3) × SU(2) × U(1) = **8 + 3 + 1 = 12 generators**
 - Higgs doublet (4 real components)
-- v_Higgs = 246 GeV
+- $v_{\rm Higgs}$ = 246 GeV
 
 **KEY INSIGHT**: dim(SU(3) × SU(2) × U(1)) = 12 = N_SYK!
 
@@ -1342,10 +1342,10 @@ matching SIDC's 12 SYK Majorana.
 
 | Count | SIDC meaning | SM correspondence |
 |-------|--------------|-------------------|
-| **9** | Spatial Majorana (gapped at v_Higgs) | 9D compactification modes |
+| **9** | Spatial Majorana (gapped at $v_{\rm Higgs}$) | 9D compactification modes |
 | **3** | Generational Majorana (survive) | 3 generations of fermions |
 
-The 9 spatial Majorana are gapped at v_Higgs (= M_string = M_Pl,9D).
+The 9 spatial Majorana are gapped at $v_{\rm Higgs}$ (= $M_{\rm string}$ = $M_{\rm Pl,9D}$).
 They don't appear as light particles in the SM.
 The 3 generational Majorana survive and give the 3 generations.
 
@@ -1353,13 +1353,13 @@ The 3 generational Majorana survive and give the 3 generations.
 
 In SIDC's picture:
 
-1. **9D string theory compactifies to 4D at v_Higgs = 246 GeV**
+1. **9D string theory compactifies to 4D at $v_{\rm Higgs}$ = 246 GeV**
    - The 9 spatial Majorana are compactification modes
-   - They have mass ~ v_Higgs (KK masses)
+   - They have mass ~ $v_{\rm Higgs}$ (KK masses)
    - They don't appear in low-energy physics
 
 2. **W, Z bosons are KK modes of the gauge fields**
-   - Their masses are set by v_Higgs
+   - Their masses are set by $v_{\rm Higgs}$
    - m_W = g v/2 ~ 80 GeV
    - m_Z = √(g² + g'²) v/2 ~ 91 GeV
 
@@ -1368,7 +1368,7 @@ In SIDC's picture:
    - The 3 generations correspond to e, μ, τ (and quarks)
 
 4. **The Higgs doublet is the compactification mode that does EW breaking**
-   - Its VEV v_Higgs = 246 GeV is the compactification scale
+   - Its VEV $v_{\rm Higgs}$ = 246 GeV is the compactification scale
    - The Higgs mechanism IS the compactification
 
 **SIDC LINKS TO THE SM VIA**:
@@ -1376,20 +1376,20 @@ In SIDC's picture:
 | SM Feature | SIDC Origin |
 |------------|-------------|
 | 12 SYK Majorana | SU(3) × SU(2) × U(1) gauge generators (12 = 8+3+1) |
-| v_Higgs = 246 GeV | M_Pl,9D = M_string (9D Planck = string scale) |
+| $v_{\rm Higgs}$ = 246 GeV | $M_{\rm Pl,9D}$ = $M_{\rm string}$ (9D Planck = string scale) |
 | 3 generations | 3 surviving generational Majorana |
-| W, Z masses | KK modes at v_Higgs scale |
+| W, Z masses | KK modes at $v_{\rm Higgs}$ scale |
 | Higgs mechanism | 9D → 4D compactification |
-| Hierarchy M_Pl,3 vs v_Higgs | Different cascade levels (10¹⁹ vs 246 GeV) |
-| No new physics above v_Higgs | Cascade terminates at 9D |
+| Hierarchy $M_{\rm Pl,3}$ vs $v_{\rm Higgs}$ | Different cascade levels (10¹⁹ vs 246 GeV) |
+| No new physics above $v_{\rm Higgs}$ | Cascade terminates at 9D |
 
 **WHAT SIDC EXPLAINS**:
 
-✓ **Why v_Higgs = 246 GeV** (it's M_string = M_Pl,9D)
-✓ **The hierarchy problem** (M_Pl,3 >> v_Higgs because different levels)
+✓ **Why $v_{\rm Higgs}$ = 246 GeV** (it's $M_{\rm string}$ = $M_{\rm Pl,9D}$)
+✓ **The hierarchy problem** ($M_{\rm Pl,3}$ >> $v_{\rm Higgs}$ because different levels)
 ✓ **Why 12 SYK** (matches SM gauge group dim)
 ✓ **The 9 + 3 structure** (9 spatial + 3 generational)
-✓ **No new physics above v_Higgs** (cascade terminates at 9D)
+✓ **No new physics above $v_{\rm Higgs}$** (cascade terminates at 9D)
 
 **WHAT SIDC DOES NOT EXPLAIN** (honest):
 
@@ -1403,26 +1403,26 @@ In SIDC's picture:
 
 ```
                 STRING THEORY (9D, 10D)
-                M_string = v_Higgs = 246 GeV
+                $M_{\rm string}$ = $v_{\rm Higgs}$ = 246 GeV
                           ▲
                           │ Higgs mechanism = 9D→4D compactification
                           │
    SIDC CASCADE ──────────┤
-   2D: M_Pl,2D ~ 3 TeV    │   5D: 688 GeV
-   3+1D: M_Pl,3 = 10¹⁹ GeV│   6D: 534 GeV
-   4D: M_Pl,4 = 887 GeV ──┤   7D: 414 GeV
+   2D: $M_{\rm Pl,2D}$ ~ 3 TeV    │   5D: 688 GeV
+   3+1D: $M_{\rm Pl,3}$ = 10¹⁹ GeV│   6D: 534 GeV
+   4D: $M_{\rm Pl,4}$ = 887 GeV ──┤   7D: 414 GeV
                           │   8D: 321 GeV
-                          │   9D: 249 GeV ≈ v_Higgs ← STRING ← SM
+                          │   9D: 249 GeV ≈ $v_{\rm Higgs}$ ← STRING ← SM
                           │
                           ▼
                 STANDARD MODEL (SU(3) × SU(2) × U(1), 3 generations)
-                v_Higgs = 246 GeV sets all masses
+                $v_{\rm Higgs}$ = 246 GeV sets all masses
 ```
 
 **TESTABLE PREDICTIONS**:
 
-(1) M_string = v_Higgs = 246 GeV (NOT 10¹⁹ GeV)
-(2) No new physics between v_Higgs and M_Pl,3 (cascade desert)
+(1) $M_{\rm string}$ = $v_{\rm Higgs}$ = 246 GeV (NOT 10¹⁹ GeV)
+(2) No new physics between $v_{\rm Higgs}$ and $M_{\rm Pl,3}$ (cascade desert)
 (3) 3 generations from 3 surviving Majorana (no 4th generation)
 (4) Gauge bosons = KK modes of compactification
 (5) Proton decay suppressed (SIDC's SM structure)
@@ -1434,7 +1434,7 @@ In SIDC's picture:
 - **L130**: Higgs mechanism = 9D→4D compactification
 - **L131**: 3 generations from 3 surviving Majorana
 - **L132**: SU(3) × SU(2) × U(1) from SYK structure
-- **L133**: All SM masses set by v_Higgs (Yukawas free)
+- **L133**: All SM masses set by $v_{\rm Higgs}$ (Yukawas free)
 - **L134**: Alternative: 12 SYK = 12 gauge bosons
 - **L135**: 495 SYK couplings → 17 SM parameters? OPEN
 - **L136**: SIDC doesn't derive specific SM parameters
@@ -1452,9 +1452,9 @@ In SIDC's picture:
 **The deep picture**: The Higgs VEV is the BRIDGE between three frameworks:
 1. **SIDC's dimensional cascade** (2D, 3+1D, 4D, 5D-8D)
 2. **String theory** (9D, 10D)
-3. **The Standard Model** (SU(3) × SU(2) × U(1), 3 generations, v_Higgs)
+3. **The Standard Model** (SU(3) × SU(2) × U(1), 3 generations, $v_{\rm Higgs}$)
 
-All three are UNIFIED at v_Higgs = 246 GeV.
+All three are UNIFIED at $v_{\rm Higgs}$ = 246 GeV.
 
 See `calculations/lagrangian_v45_sm_connection.py` for the
 full numerical analysis and derivation.

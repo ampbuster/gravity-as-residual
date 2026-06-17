@@ -84,7 +84,7 @@ SIDC's specific *additional* prediction beyond particle DM: the lensing mass tra
 **11/11 does NOT mean:**
 - SIDC is *uniquely* confirmed. LCDM + particle DM can also accommodate most of these tests (with the addition of baryonic feedback to explain the "no DM" UDGs).
 - SIDC's specific quantitative predictions (the *exact* $M_{dyn}$/$M_{b}$ for each galaxy) are derived from first principles. They are *qualitative* predictions calibrated to the data.
-- SIDC has *no free parameters*. The 2 free parameters (μ, m_3+1D) plus the calibrated f_split (32/68 projection ratio) and growth factor are not yet derived from first principles.
+- SIDC has *no free parameters*. The 2 free parameters (μ, $m_{3+1D}$) plus the calibrated f_split (32/68 projection ratio) and growth factor are not yet derived from first principles.
 
 **The honest framing:** 11/11 is a *consistency check*, not a *confirmation*. SIDC is a *geometric framework* that is *consistent* with the galaxy zoo, awaiting theoretical completion (2D CFT Lagrangian, bulk-brane geometry derivation).
 

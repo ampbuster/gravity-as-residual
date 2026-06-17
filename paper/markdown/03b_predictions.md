@@ -105,7 +105,7 @@ $$\tau_{2D}^{3+1D} = (\frac{E}{E_{Pl}})^{1.29} \times t_{Pl}$
 This gives a 3+1D-frame lifetime that varies by 54 orders of magnitude across event energies (LHC to AGN).
 
 **Hypothesis:** All 2D universes have the **same proper lifetime** in their own 2D frame:
-$$\tau_{2D}^{proper} = t_{Pl} = 5.39 \times 10^{-44} \text{ s}$$
+$$\tau_{2D}^{proper} = t_{Pl} = 5.39 \times $10^{-44}$ \text{ s}$$
 
 The 3+1D-frame lifetime is then:
 $$\tau_{2D}^{3+1D} = \gamma_{2D} \times \tau_{2D}^{proper}$
@@ -516,9 +516,9 @@ In D dimensions, the Planck time scales as:
 $$t_{Pl,D} = t_{Pl,3} \times (\frac{M_{Pl,3}}{M_{Pl,D}})^{D-4}$
 
 If $M_{\rm Pl}$,D = 887 GeV (SIDC's floor) for all D ≥ 4:
-- $t_{\rm Pl,4D}$ = $t_{\rm Pl,3+1D}$ = $5.39 \times 10^{-44}$ s
-- $t_{\rm Pl,5D}$ = $7.4 \times 10^{-28}$ s (longer!)
-- $t_{\rm Pl}$,6 = $1.0 \times 10^{-11}$ s (much longer)
+- $t_{\rm Pl,4D}$ = $t_{\rm Pl,3+1D}$ = $5.39 \times $10^{-44}$$ s
+- $t_{\rm Pl,5D}$ = $7.4 \times $10^{-28}$$ s (longer!)
+- $t_{\rm Pl}$,6 = $1.0 \times $10^{-11}$$ s (much longer)
 - ...
 
 **Higher dimensions have longer Planck times.** This is because the Planck scale is determined by the bulk-brane geometry, which is the same at every level.
@@ -717,7 +717,7 @@ The total 2D universe death energy in 3+1D frame = $\Omega_{\rm DM}$ = 27%. This
 
 **3.23.5 Prediction 5: 2D universe death GW has specific time signature.**
 
-A single 2D universe death in 3+1D frame lasts $\tau_{2D}$_3+1D = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$. For SN events, this is 33s; for BNS, $4.3 \times 10^{5}$ yr; for AGN, $1.6 \times 10^{8}$ yr. The GW burst has a specific time profile.
+A single 2D universe death in 3+1D frame lasts $\tau_{2D}$_3+1D = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$. For SN events, this is 33s; for BNS, $4.3 \times $10^{5}$$ yr; for AGN, $1.6 \times $10^{8}$$ yr. The GW burst has a specific time profile.
 
 **3.23.6 Falsifiability.**
 
@@ -1020,12 +1020,12 @@ A web search for the actual Makarov 2012 KKR 25 paper
 (arXiv:1206.5545) reveals a major numerical inconsistency in the
 SIDC's KKR 25 entry. SIDC had:
 
-$$M_b = 3.0 \times 10^{9} \, M_\odot \quad (\text{SIDC, WRONG})$$
+$$$M_b$ = 3.0 \times $10^{9}$ \, M_\odot \quad (\text{SIDC, WRONG})$$
 $$M_{\rm dyn}/M_{b} = 299 \quad (\text{SIDC})$$
 
 But Makarov 2012 reports:
 
-$$M_b = 3.0 \pm 0.3 \times 10^{6} \, M_\odot \quad (\text{Makarov 2012})$$
+$$$M_b$ = 3.0 \pm 0.3 \times $10^{6}$ \, M_\odot \quad (\text{Makarov 2012})$$
 $$M_V = -10.9 \quad mag (Makarov 2012)$$
 
 **SIDC's $M_{b}$ is 1000× higher than the published value.** This is
@@ -2065,12 +2065,12 @@ Specific identification:
 
 | Majorana | SM Weyl fermion |
 |----------|-----------------|
-| 1 | e_L (gen 1) |
+| 1 | $e_L$ (gen 1) |
 | 2 | ν_L (gen 1) |
-| 3 | u_L (gen 1) |
-| 4 | d_L (gen 1) |
-| 5-8 | e_L, ν_L, u_L, d_L (gen 2) |
-| 9-12 | e_L, ν_L, u_L, d_L (gen 3) |
+| 3 | $u_L$ (gen 1) |
+| 4 | $d_L$ (gen 1) |
+| 5-8 | $e_L$, ν_L, $u_L$, $d_L$ (gen 2) |
+| 9-12 | $e_L$, ν_L, $u_L$, $d_L$ (gen 3) |
 
 This is a SPECIFIC, TESTABLE identification.
 
@@ -2180,7 +2180,7 @@ topology with Majorana fermion matter (not pure Nariai).
 The 12 Majoranas ↔ 12 SM Weyl fermions identification is
 suggestive, but:
 
-- 12 SM Weyl fermions: 3 generations × 4 (e_L, ν_L, u_L, d_L)
+- 12 SM Weyl fermions: 3 generations × 4 ($e_L$, ν_L, $u_L$, $d_L$)
 - 495 SYK J couplings (C(12,4) = 495)
 - 21 SM parameters (9 masses + 4 CKM + 4 PMNS + 3 phases + 1)
 - **495 couplings vs 21 parameters (factor of 23)**

@@ -28,7 +28,7 @@ $$\boxed{\tau_{2D,\,\text{our frame}} = 33\,\text{s} \times \left(\frac{E_{\text
 
 **NOTE (v3.0.22)**: The closed loop expression (formula) DERIVES the value
 $f_{\text{back}} \approx 10^{-85}$. The expression IS $f_{\text{back}}$ — the
-number 10^{-85} is its numerical evaluation.
+number $10^{-85}$ is its numerical evaluation.
 
 $$\boxed{f_{\text{back}} \equiv \left(\frac{t_{\text{Pl,3}}}{\tau_{\text{4D}}}\right) \times \left(\frac{\tau_{\text{SN,obs}}}{\tau_{\text{universe}}}\right) \times \left(\frac{E_{\text{4D}}}{E_{\text{SN}}}\right)^{1/(2\alpha)} \approx 10^{-85}}$$
 
