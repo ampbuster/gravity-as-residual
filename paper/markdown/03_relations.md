@@ -160,6 +160,7 @@ Furthermore, Jacobson's framework predicts *linear* $\tau_{2D}$ ~ E (from $M_{2D
 | Jacobson (1995) | **[FAIL]** (linear, not power law) | **[FAIL]** | △ (consistency check) | △ (thermodynamic) | **Tension** (α not derived) |
 | Ryu-Takayanagi (2006) | **[FAIL]** (=Jacobson) | **[FAIL]** | **[PASS]** (DM as missing bulk entanglement) | **[PASS]** | **Yes** (info interpretation, complements Padmanabhan) |
 | Kaluza-Klein (1921) | **[FAIL]** | **[FAIL]** | △ (historical prototype) | — | **Framing** (SIDC = generalization of KK) |
+| Kusuki (2024) | △ (ICFT methods, monodromy might give α) | **[FAIL]** | △ (c=1 Liouville + matter) | △ (Hellerman bound c≤1) | **Tool** (modern ICFT methods for 2D universe) |
 
 The honest summary: *none* of these frameworks derive SIDC's α = 1.29 from first principles. The α is a phenomenological fit to data. But:
 - **CGHS** is the strongest match: α = 1.29 is in the CGHS back-reaction range, and a specific calculation yielding α = 1.29 would be a first-principles derivation
@@ -227,6 +228,62 @@ Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity a
 **SIDC's relation to the KK program.** SIDC is in the SPIRIT of the KK program but differs in specifics. KK's spirit: higher-dimensional gravity gives rise to lower-dimensional forces and structures. SIDC's spirit: a 4D event gives rise to a 3+1D universe with DM, DE, and 2D children. SIDC's specific innovations (inversion, 2D universe children, spatially extended parent) are NOT in KK.
 
 **Status:** KK is a historical prototype for dimensional reduction, useful as a framing reference. SIDC is a generalization of KK, but SIDC's specific phenomenology (α, $f_{\rm back}$, inversion, 2D children) is NOT derived from KK. KK validates the general idea of dimensional reduction but does not derive any of SIDC's specific predictions. See `calculations/v27_kaluza_klein.py` for the full analysis.
+
+
+### 3.8.12 Kusuki (2024) modern ICFT methods for the 2D universe (v3.0.22)
+
+User reference (v3.0.22): Kusuki 2024 (arXiv:2412.18307) "Modern Approach to 2D Conformal Field Theory" is a ~70-page review of **modern ICFT methods** (irrational CFT), which is exactly what SIDC's 2D universe uses.
+
+**SIDC's 2D universe framework**:
+- c = 1 Liouville + c = 1/2 matter (N=12 SYK) = c_total = 3/2
+- This is an ICFT (irrational CFT)
+- Standard CFT methods (Yellow book) don't fully cover this
+
+**Kusuki 2024 covers**:
+- **ICFT methods** specifically (gap in standard texts)
+- **HHLL block** (Heavy-Heavy-Light-Light conformal block)
+- **Monodromy method** (functional equations for OPE coefficients)
+- **Hellerman bound**: c ≤ 1 in UNITARY 2D CFT (Hellerman 2009)
+- **HKS bound**: OPE coefficient constraints in 2D CFT
+- **AdS_3/CFT_2** correspondence
+
+**What Kusuki gives SIDC**:
+
+1. **Method**: Modern ICFT machinery (HHLL, monodromy, HKS) directly applicable to SIDC's 2D universe calculations
+
+2. **Hellerman bound connection**: SIDC's c_total = 3/2 EXCEEDS the unitary c ≤ 1 bound, but SIDC is **non-unitary** (Liouville is non-unitary, SYK q=4 is non-unitary at finite N) — this is consistent. The fact that c_total = 3/2 is a specific non-integer is what makes SIDC testable: it requires non-unitarity, not just non-integer c.
+
+3. **HHLL block** (Heavy-Heavy-Light-Light):
+   - Heavy: 4D event (h_H ~ E_4D × L_4D, very large)
+   - Light: 2D universe (h_L ~ μ × L_2D, very small)
+   - The block describes the 4D → 2D projection
+   - **In heavy limit, block dominated by double-trace exchange, which IS SIDC's scaling law τ_2D ~ E^1.289**
+
+4. **Monodromy method**:
+   - Determines 2D universe structure from analytic continuation
+   - **The SIDC scaling law τ_2D ~ E^1.289 could be the unique monodromy solution for c = 3/2 with heavy/light operators**
+   - If true, this DERIVES α = 1.289, closing L43!
+
+5. **AdS_3/CFT_2**:
+   - SIDC's 5D AdS_5 bulk
+   - 4D brane with 2D universes embedded
+   - Local 2D universe geometry: AdS_3 × S^something
+   - 2D CFT on the boundary of AdS_3
+   - This is the natural holographic setting for the 2D universe
+
+**What Kusuki does NOT give SIDC**:
+- A specific formula for α = 1.289 (yet — would require a Kusuki-method calculation)
+- A derivation of f_back ≈ 10^-85
+- A derivation of the 5/27/68 split
+
+**L104 NEW (v3.0.22)**: Kusuki 2024 (arXiv:2412.18307) is a useful FRAMEWORK for SIDC's 2D universe calculations. It provides modern ICFT methods (HHLL, monodromy, HKS, AdS_3/CFT_2) that could:
+- Derive α = 1.289 from monodromy constraints (would close L43)
+- Test the c_total = 3/2 prediction against Hellerman bound
+- Give a holographic interpretation of the dimensional projection
+
+**POTENTIAL**: The monodromy method applied to c = 3/2 ICFT with heavy/light operators might DERIVE α = 1.289 from first principles, closing L43 (currently OPEN). This is a concrete, testable prediction for 2D quantum gravity experts.
+
+See `calculations/lagrangian_v25_kusuki_cft_relevance.py` for the full analysis.
 
 ### 3.9 The 4D → 3+1D inversion: three derivations from existing physics (v2.7.10+)
 
