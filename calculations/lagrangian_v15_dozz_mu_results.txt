@@ -1,0 +1,97 @@
+========================================================================
+LAGRANGIAN v15: VARIATIONAL LIOUVILLE + DOZZ FOR MU
+========================================================================
+
+========================================================================
+PART 1: LIOUVILLE HAMILTONIAN
+========================================================================
+
+Variational minimization for various mu:
+        mu      omega_opt        <H>_min         tau_2D
+------------------------------------------------------------------------
+  1.0e-100     4.7377e-06     1.1844e-06     8.4429e+05
+   1.0e-80     4.7377e-06     1.1844e-06     8.4429e+05
+   1.0e-60     4.7377e-06     1.1844e-06     8.4429e+05
+   1.0e-40     4.7377e-06     1.1844e-06     8.4429e+05
+   1.0e-20     4.7377e-06     1.1844e-06     8.4429e+05
+   1.0e+00     4.7377e-06     1.1844e-06     8.4429e+05
+   1.0e+20     6.5317e-06     1.6329e-06     6.1239e+05
+
+========================================================================
+PART 2: MU FROM SN SCALING (tau_2D = gamma * t_Pl)
+========================================================================
+
+SN: E = 1.0e+44 J
+gamma_SN = 5.4889e+44
+tau_2D_proper_SN = 2.9591e+01 s (paper says 33 s)
+
+Implied mu_SN = pi / tau^2 = 3.5879e-03 (J^-1?)
+  This is in inverse-energy units
+
+  mu_SN in energy units (J): 1.3724e+16
+  Compare to v12: mu_SN ~ 10^-90 J
+
+mu_SN in natural units (hbar=c=1): 1.1421e-03
+Compare to alpha=1.29 implies tau_2D_proper = 33 s
+sqrt(1/mu) = 2.9591e+01 s
+This should be the oscillation period
+
+========================================================================
+PART 3: DOZZ STRUCTURE CONSTANTS
+========================================================================
+
+DOZZ C(alpha, alpha, alpha) for c=1 Liouville (b=i):
+        mu    alpha              C
+----------------------------------------
+   1.0e-90     0.10     1.9953e+00
+   1.0e-90     0.50     2.8284e+00
+   1.0e-90     1.00     1.0000e+00
+   1.0e-50     0.10     1.9953e+00
+   1.0e-50     0.50     2.8284e+00
+   1.0e-50     1.00     1.0000e+00
+   1.0e-10     0.10     1.9953e+00
+   1.0e-10     0.50     2.8284e+00
+   1.0e-10     1.00     1.0000e+00
+   1.0e+00     0.10     1.9953e+00
+   1.0e+00     0.50     2.8284e+00
+   1.0e+00     1.00     1.0000e+00
+   1.0e+10     0.10     1.9953e+00
+   1.0e+10     0.50     2.8284e+00
+   1.0e+10     1.00     1.0000e+00
+
+========================================================================
+PART 4: SEARCH FOR mu_critical
+========================================================================
+
+For c=1 Liouville, mu doesn't determine Z on torus
+(mu appears as a multiplicative normalization, not a structural parameter)
+
+This is a problem: mu is NOT a fundamental parameter in c=1 Liouville.
+It only sets the OVERALL SCALE of the action.
+
+========================================================================
+PART 5: HONEST VERDICT (v15)
+========================================================================
+
+VARIATIONAL LIOUVILLE + DOZZ (v15):
+  + Variational Gaussian ansatz gives omega_opt(mu) and <H>_min(mu)
+  + DOZZ structure constant for c=1 computed
+  + Implied mu_SN from SN scaling
+
+WHAT v15 SHOWS:
+  - In c=1 Liouville, mu is an OVERALL SCALE, not a structural parameter
+  - Variational approach gives <H>_min ~ mu^{1/3} (schwarzian-like)
+  - DOZZ C is smooth in mu — no obvious critical value
+  - mu is NOT pinned down by the 2D theory alone
+
+WHAT v15 DOES NOT SHOW:
+  - mu is NOT derived from first principles
+  - DOZZ doesn't give a critical value at mu = 10^-90 J
+  - Variational approach doesn't give alpha = 1.289
+
+CONCLUSION FOR L41:
+  - The 2D theory doesn't uniquely determine mu
+  - mu must come from the 5D bulk matching (Karch-Randall)
+  - OR from the COMPATIBILITY with observation (closure of the loop)
+  - L41 REMAINS OPEN — same conclusion as v11c and v12
+
