@@ -671,6 +671,52 @@
 #   - Run: grep -nE '[0-9]e[-+][0-9]' paper/markdown/*.md
 #     (find e-notation in body text)
 #
+#
+# ============================================================
+# HISTORICAL CONTEXT: math notation cleanup (June 2026)
+# ============================================================
+#
+# This section documents the JOURNEY of fixing math notation for
+# github mobile rendering. The issue: math that worked in PDF and
+# github desktop was BROKEN on github mobile. We went through 5
+# iterations before finding the right answer.
+#
+# ATTEMPT 1: $X$--$Y$ (split math blocks joined by en-dash)
+#   Issue: github mobile ate the first '$' after a '('
+#   Result: $10^{5}$ rendered as plain "10^5" text
+#   Lines affected: 283-289 in README (galaxy bullets)
+#
+# ATTEMPT 2: $(X$--$Y$) (parens inside math)
+#   Issue: still had the paren-eating bug
+#   Result: parens inside math didn't help
+#
+# ATTEMPT 3: $(X\text{--}Y)$ (use \text{--} in math)
+#   Issue: github mobile rendered \text{--} as literal '--' (double dash!)
+#   Result: still showed "--" instead of en-dash
+#   Verified broken: this is what was visible in the screenshot
+#
+# ATTEMPT 4: **Name:** $X$--$Y$ (remove parens, use colon)
+#   Issue: split math with '--' still showed double dash
+#   Result: first '$' was OK but '--' rendered as "--"
+#
+# ATTEMPT 5: $X$–$Y$ (Unicode en-dash between math blocks) ✓ WORKS!
+#   The Unicode en-dash character (U+2013) renders correctly EVERYWHERE:
+#   - PDF (as en-dash in math mode)
+#   - github desktop (as en-dash in math)
+#   - github mobile (as en-dash, the only reliable approach!)
+#   - Markor (as en-dash in math)
+#   Lines fixed: README 283-289, 709-710, paper 04:19
+#
+# FINAL RULES:
+#   - For RANGES in math: USE Unicode en-dash (–), NOT '--' or '\text{--}'
+#   - For RANGES in text: just write "10^5 to 10^7"
+#   - For RANGES in split math ($X$Y$): use en-dash BETWEEN blocks
+#   - For parens around math: put them INSIDE math: $(X)$
+#     OR avoid them entirely: use a colon separator instead
+#
+# LESSON: when in doubt, test on github MOBILE (the most restrictive
+# renderer). If it works there, it works everywhere.
+#
 
 # ---- 4.4 TABLE CELLS WITH MATH ----
 
