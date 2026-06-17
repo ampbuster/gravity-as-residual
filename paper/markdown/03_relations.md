@@ -441,10 +441,10 @@ For a typical Milky-Way-like galaxy:
 
 Over a Hubble time ($T = 13.8$ Gyr):
 - Cumulative SNe in MW: $\sim 8.7 \times 10^{15}$ events
-- Each SN releases $\sim 10^{44}$ J of kinetic energy $\sim 5.6 \times 10^{-7} M_\odot c^2$
-- Total SN energy in MW: $\sim 5 \times $10^{9}$ M_\odot c^2$ (i.e., $\sim 8\%$ of MW baryons)
+- Each SN releases $\sim 10^{44}$ J of kinetic energy $\sim 5.6 \times 10^{-7} $M_\odot c^2$
+- Total SN energy in MW: $\sim 5 \times $10^{9}$ $M_\odot c^2$ (i.e., $\sim 8\%$ of MW baryons)
 
-The math: $(5 \times $10^{9}$ M_\odot) \times A = 3.2 \times 10^{11} M_\odot$, so $A = 64\times$.
+The math: $(5 \times $10^{9}$ $M_\odot$) \times A = 3.2 \times 10^{11} M_\odot$, so $A = 64\times$.
 
 **The 2D universe's 3+1D-frame mass at death must be $\sim 64\times$ the SN's baryonic energy.** This is the per-event amplification factor SIDC requires.
 
@@ -470,7 +470,7 @@ Over 13.8 Gyr, the cumulative number of energetic events in a galaxy is large:
 - BNS mergers: $\sim 10^6$ in MW
 - AGN outbursts: $\sim 10^7$ in MW
 
-Total cumulative event energy in MW: $\sim 5 \times $10^{9}$ M_\odot c^2 \sim 8\%$ of MW baryons.
+Total cumulative event energy in MW: $\sim 5 \times 10^{9}$ $M_\odot c^2 \sim 8\%$ of MW baryons.
 
 **Time accumulation provides $0.08\times$** (cumulative events are 8% of stable baryons), but we need $5.4\times$. Time accumulation is *necessary* (without it, the math doesn't work), but it is *not sufficient* (it provides only 12% of the required amplification in log space).
 
@@ -509,7 +509,7 @@ $$f_{DE} \times \rho_{DE} \times V_{birth} \approx 6 M_\odot$$
 **Plausibility:** this is plausible if $V_{birth}$ is large. The 2D universe's volume depends on its 2D-frame size and lifetime. A 2D universe with size $R_{2D}$ and lifetime $\tau_{2D}$ has $V_{birth} = c \tau_{2D} R_{2D}$.
 
 For SN-calibrated 2D universes: $\tau_{2D} = 33$ s, $R_{2D}$ depends on 2D physics (Liouville 2D CFT). The required $V_{birth}$ to extract $6 M_\odot$ from DE is:
-$$V_{birth} = 6 M_\odot c^2 / \rho_{DE} \approx $10^{47}$  m^3$$
+$$V_{birth} = 6 $M_\odot c^2$ / \rho_{DE} \approx $10^{47}$  m^3$$
 
 This is a large but not unreasonable 2D-frame volume (comparable to a stellar-scale object's volume).
 
@@ -1096,7 +1096,7 @@ SIDC responded:
 - **§3.13 (v2.7.18):** Built the mechanism. Pauli blocking was assumed to suppress decay in halos.
 - **§3.14 (v2.7.19):** Self-critique. Identified that:
   - Pauli blocking is INEFFECTIVE for typical DM masses (E_decay/$p_F$ ~ $10^{21}$)
-  - Active neutrino flux is $10^{7}$$\times$ too high
+  - Active neutrino flux is $10^{7}\times$ too high
   - Sterile neutrino at $m_s$ ~ 1 GeV is heavily constrained
   - Proposed 4 alternative DM hypotheses (WIMP, axion, PBH, geometric)
 - **§3.15 (v2.7.20):** Literature search. Confirmed:
@@ -1195,13 +1195,13 @@ The time-dilation factor scales with event energy as $E^{1.29}$. This is a **der
 **3.17.3 Mass scaling: $M_{2D}$_2D ∝ $E^{0.71}$.**
 
 In special relativity, $\gamma = E_{rel} / (m_0 c^2)$. If the 2D universe's "relativistic energy" $\sim E$ and "rest mass" $\sim M_{2D,2D}$:
-$$\gamma_{2D} = \frac{E}{M_{2D,2D} c^2}$
+$$\gamma_{2D} = \frac{E}{$M_{2D,2D} c^2$}$
 
 Solving:
-$$M_{2D,2D} c^2 = \frac{E}{\gamma_{2D}} = \frac{E}{(E/E_{Pl})^{1.29}} = E_{Pl} \times (\frac{E}{E_{Pl}})^{0.71}$
+$$$M_{2D,2D} c^2$ = \frac{E}{\gamma_{2D}} = \frac{E}{(E/E_{Pl})^{1.29}} = E_{Pl} \times (\frac{E}{E_{Pl}})^{0.71}$
 
 So the 2D universe's rest mass scales **sub-linearly** with event energy:
-$$M_{2D,2D} c^2 \propto E^{0.71}$
+$$$M_{2D,2D} c^2$ \propto E^{0.71}$
 
 Interpretation:
 - Smaller 2D universe (low E): less rest mass per unit energy, **more** time dilation
@@ -2875,7 +2875,7 @@ measurements) is the cleanest Solar System test of modified gravity.
 **Local 2D universe death mass** (within 100 pc):
 - Local stellar mass: $10^{5}$ $M_o$
 - SN events: $10^{3}$ (over 10 Gyr)
-- $M_{2D}$_local = $f_{\rm back}$ $\times$ $10^{3}$ $\times$ $10^{44}$ J / c^2 = $5.6 \times 10^{-86}$ $M_o$
+- $M_{2D}$_local = $f_{\rm back}$ $\times$ $10^{3}$ $\times$ $10^{44}$ $J / c^2$ = $5.6 \times 10^{-86}$ $M_o$
 
 **Galaxy-integrated 2D universe death mass** (within 10 kpc):
 - N_SN_MW = $5 \times 10^{8}$ (over 10 Gyr)

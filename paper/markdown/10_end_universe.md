@@ -100,7 +100,7 @@ The author flags this section as *speculative* for the following reasons:
 
 1. The energy-scaling rule $T_{D-1} \propto E_D^{1.29}$ is a *fit* to a single data point (the 33 s supernova 2D universe). It is not derived from first principles. Alternative scalings (e.g., $T \propto E^1$, $T \propto E^2$, $T =$ constant) give different T₃D values.
 
-2. The $$M_{\rm Pl,4D} \geq 887$$ GeV floor is a *necessary* condition for the 3D to be alive, but it is not sufficient. The actual M_{Pl,4} could be much larger (up to $M_{Pl,3}$), in which case the 3D has $2 \times 10^{26}$ yr left and the end-of-universe picture is irrelevant on any practical timescale.
+2. The $M_{\rm Pl,4D} \geq 887$ GeV floor is a *necessary* condition for the 3D to be alive, but it is not sufficient. The actual M_{Pl,4} could be much larger (up to $M_{Pl,3}$), in which case the 3D has $2 \times 10^{26}$ yr left and the end-of-universe picture is irrelevant on any practical timescale.
 
 3. The connection between DESI's evolving DE and SIDC's end-of-universe picture is a *plausible* interpretation, not a *necessary* one. DESI's evolving DE could have other explanations (early dark energy, modified gravity, etc.) that do not involve the 3D approaching its end.
 
