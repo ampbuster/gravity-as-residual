@@ -1089,6 +1089,7 @@ if [ "$DRY_RUN" = true ]; then
 
     # Concatenate the requested files
     cat $DRY_FILES > "${BUILD_DIR}/dry_combined.md"
+    cat $DRY_FILES > "${PAPER_DIR}/dry_combined.md"
     SOURCE="${BUILD_DIR}/dry_combined.md"
 
     # Step 1: pandoc
@@ -1171,8 +1172,11 @@ fi
 
 
 # Step 0: Combine markdown files
+# Put paper_combined.md in the SAME directory as paper.pdf (paper/) for easy access.
+# Also keep a copy in .build/ for the build process.
 if [ -d "markdown" ]; then
     cat markdown/*.md > "${BUILD_DIR}/paper_combined.md"
+    cat markdown/*.md > "${PAPER_DIR}/paper_combined.md"
     SOURCE="${BUILD_DIR}/paper_combined.md"
 else
     SOURCE=paper.md
