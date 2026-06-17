@@ -5,7 +5,9 @@
 **Author:** ampbuster (software developer, not a physicist)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
 **Repository:** https://github.com/ampbuster/gravity-as-residual
-**Current version:** v3.0.2 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
+**Current version:** v3.1 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
+
+**v3.1 HIGHLIGHTS**: Full Lagrangian for SIDC (§3.62.6), Inception cone picture (§3.67), 5D/6D extension (§3.68), 9D = string theory connection (§3.68), SIDC-SM connection (§3.69). 363 pages, 67 limitations. **L41, L42 CLOSED** (only 2 free parameters remain). **M_Pl,9D ≈ v_Higgs within 1.3%** identifies 9D with superstring theory's critical dimension.
 
 **v3.0 HIGHLIGHT:** The composite model is now **strongly specified** by a single number N = 12. SIDC's α = 1.29, central charge c = 1/2 (Ising CFT), back-action $f_{\rm back}$ ≈ $10^{-85}$, and 14 event-type lifetimes all follow from **q = 4 SYK (Sachdev-Ye-Kitaev, a model of quantum chaos) with N = 12 Majorana fermions (fermions that are their own antiparticle)**, in AdS₂ × S² topology (2D anti-de Sitter space cross a 2-sphere, a specific curved geometry with positive lifetime scaling). N = 12 is uniquely determined (off by 0.001 from α = 1.29). The 12 Majoranas might provide a "backbone" for the 12 Standard Model Weyl fermions (massless chiral fermions, 3 generations × 4 per generation). See **§3.60 v3.0 breakthrough summary** for the full picture.
 

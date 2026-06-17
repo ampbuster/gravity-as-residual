@@ -4255,7 +4255,7 @@ analysis.
 ---
 
 
-### 3.67 SPECULATION: The Lagrangian, 2D Planck, and Inception cone (v3.0.22)
+### 3.67 SPECULATION: The Lagrangian, 2D Planck, and Inception cone (v3.1)
 
 > **STATUS: SPECULATIVE.** This section consolidates 17 new findings
 > from v3.0.22 (L102-L120) into a unified picture. Some are ESTABLISHED
@@ -4506,7 +4506,7 @@ See `calculations/lagrangian_v23_dm_de_gravity.py` through
 `calculations/lagrangian_v42_closed_loop_derivation.py` for the
 20 calculations supporting this section.
 
-### 3.68 SPECULATION: The 9D = String Theory Connection (v3.0.22)
+### 3.68 SPECULATION: The 9D = String Theory Connection (v3.1)
 
 > **STATUS: SPECULATIVE — but striking.** This section documents
 > the finding that SIDC's hierarchy converges to the Higgs VEV
@@ -4725,7 +4725,7 @@ See `calculations/lagrangian_v43_5d_6d_extension.py` and
 `calculations/lagrangian_v44_9d_string_theory.py` for the
 full numerical analysis.
 
-### 3.69 SPECULATION: How 9D and Higgs links to the Standard Model (v3.0.22)
+### 3.69 SPECULATION: How 9D and Higgs links to the Standard Model (v3.1)
 
 > **STATUS: SPECULATIVE — but provides a STRUCTURAL connection.**
 > The Standard Model emerges from SIDC's cascade via the

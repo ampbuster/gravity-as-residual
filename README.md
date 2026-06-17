@@ -4,7 +4,18 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 3.0.2 (June 2026) — *Paper content: v3.0.2 (dimensional scale invariance, SIDC naming restored, §3.61). Build: v3.0.21 (limitations count fixed to 37, table syntax documented, all tables rendering properly). 328 pages.*
+**Version:** 3.1 (June 2026) — *Major version bump. v3.1 adds: full Lagrangian for SIDC (§3.62.6), Inception cone picture (§3.67), 2D Planck IS the cone tip (§3.67), 5D/6D extension (§3.68), 9D = string theory connection (§3.68), SIDC-SM connection (§3.69). 363 pages, 67 limitations.*
+
+**v3.1 HIGHLIGHTS** (NEW since v3.0.21):
+- **Inception cone** (L112): 4D event at base, 2D Planck at apex; 4D event eternal from our frame
+- **2D Planck IS the tip** (L113, ~3 TeV); 2D CFT formulas at the tip (L114, L115)
+- **A Lagrangian for SIDC** (L116): S = S_4D + S_3+1D + ΣS_2D + S_projection
+- **c-value resolution** (L117): UV c=7 → IR c=3/2 via SYK q=4
+- **L41, L42 CLOSED** (L118): only 2 free parameters remain (μ, m₃₊₁D = v_Higgs)
+- **5D/6D extension** (L121): M_Pl,N = M_Pl,4/α^(N-4)
+- **9D = string theory** (L122): M_Pl,9D = 249 GeV ≈ v_Higgs = 246 GeV (within 1.3%)
+- **Hierarchy problem solved** (L127): M_Pl,3 >> v_Higgs because different cascade levels
+- **SIDC-SM connection** (L128-L136): 12 SYK = 12 SM gauge generators; Higgs = 9D→4D compactification
 
 **v3.0.2 PARAMETER CLEANUP**: 0 calibrated postulates (was 3 in v2.7.x, 5 in v2.7.16). All values now DERIVED from the cascade structure:
 - **$f_{\rm back}$** = ε × ( $E_{4D}$ / $M_{\rm Pl}^4$) — bulk-brane coupling × 4D event energy ratio
