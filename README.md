@@ -257,6 +257,7 @@ of magnitude** in $M_{dyn}/M_b$:
 | **Tucana dSph** | 2.0 × $10^{5}$ | 2.5 × $10^{5}$ | **1.3** | dSph | ✓ PASS |
 | **Crater II** | 3.0 × $10^{5}$ | 5.9 × $10^{6}$ | **19.8** | MW satellite | ✓ PASS |
 | **NGC 1052-DF2** | 2.0 × $10^{8}$ | 3.0 × $10^{8}$ | **1.5** | UDG | ✓ PASS |
+| **AGC 114905** ⚠️ | 7.3 × $10^{8}$ | $1.0 \times 10^{9}$ (Mancera) / $1.5–2.2 \times 10^{9}$ (Sellwood) | **1.4** (Mancera) / **2–3** (Sellwood) | UDG | ✓ PASS (DISPUTED) |
 | **Antlia 2** | 5.0 × $10^{5}$ | 8.4 × $10^{7}$ | **168.6** | MW satellite | ✓ PASS |
 | **Willman 1** | 1.0 × $10^{4}$ | 4.7 × $10^{5}$ | **46.5** | UFD | ✓ PASS |
 | **Boötes I** | 3.0 × $10^{4}$ | 6.7 × $10^{6}$ | **222.9** | UFD | ✓ PASS |
@@ -273,7 +274,7 @@ of magnitude** in $M_{dyn}/M_b$:
 | **Coma Cluster (Abell 1656)** | 5.0 × $10^{13}$ | 5.0 × $10^{14}$ | **10.0** | Cluster | ✓ PASS |
 | **Perseus Cluster (Abell 426)** | 1.0 × $10^{14}$ | 1.5 × $10^{15}$ | **15.0** | Cluster | ✓ PASS |
 
-**Result: 22/22 galaxies pass the qualitative test** (DM is non-zero).
+**Result: 23/23 galaxies pass the qualitative test** (DM is non-zero).
 KKR 25's $M_{dyn}$ is **estimated** (⚠️), not measured.
 
 ### The pattern across 10 orders of magnitude
@@ -294,9 +295,9 @@ the SFH, but the SIGN (non-zero) is preserved.
 
 ### Why some galaxies are NOT in the table
 
-**Two galaxies are intentionally excluded** (the disputed ones):
+**One galaxy is intentionally excluded** (Tidal Dwarf Galaxies, see below). AGC 114905 is now INCLUDED in the table with both cases shown:
 
-**1. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
+**AGC 114905 (Mancera Piña+ 2022, Sellwood 2022)** — **DISPUTED but INCLUDED**
 - $M_{b} \sim 7.3 \times 10^{8}\,M_\odot$ is measured
 - $M_{dyn}/M_b$ ~ $1.36$ (Mancera Piña 2022) vs ~ $2–3$ (Sellwood 2022)
 - The 2022-2025 literature has **TWO contradictory conclusions**:
@@ -305,10 +306,14 @@ the SFH, but the SIGN (non-zero) is preserved.
   - Mancera Piña 2024: ultra-deep imaging, inclination 31 ± 2°,
     MOND doesn't fit, CDM needs unusual halo
   - Afruni+ 2025: "long life in low-density halos"
-- AGC 114905's DM content is **contested**, so its $M_{dyn}/M_b$
-  is uncertain. Cannot put a specific number in the table.
+- **Both interpretations are shown in the table** with clear attribution
+- SIDC passes in BOTH cases: low-DM (~ 1.4) is consistent with isolated UDG
+  having no recent SF; high-DM (~ 2-3) is consistent with NGC 1052 group
+  tidal effects and past SF history
+- SIDC's value: this is a **DISPUTED test** - the model is qualitatively
+  consistent with both interpretations, but cannot discriminate
 
-**2. Tidal Dwarf Galaxies (TDGs)** — **MIXED EVIDENCE, SHIFTING TOWARD DM-POOR**
+**1. Tidal Dwarf Galaxies (TDGs)** — **MIXED EVIDENCE, SHIFTING TOWARD DM-POOR**
 
 **SIDC's prediction**: TDGs should be DM-poor (no past SF in the
 TDG itself; DM comes from cumulative SF in the parent galaxy's
@@ -361,7 +366,7 @@ $M_{dyn}/M_b$ value is provisional.
 
 ### What this means for SIDC
 
-- **22/22 wide-range galaxies pass the qualitative test** (DM is
+- **23/23 wide-range galaxies pass the qualitative test** (DM is
   non-zero across 10 orders of magnitude in $M_{b}$, including KKR 25
   with estimated $M_{dyn}$)
 - SIDC's **strongest evidence**: this wide-range table plus
@@ -375,7 +380,7 @@ SIDC also passes 12 other galaxy tests in §12 of the paper
 (47 Tuc, MW, DF2, Tucana dSph, Bullet Cluster, Omega Cen, M82,
 NGC 1275, DF44, etc.). The total galaxy test count is now:
 - 12/12 in §12 (original 12)
-- 22/22 in this wide-range table (new, v2.7.41+, includes KKR 25 estimated)
+- 23/23 in this wide-range table (new, v2.7.41+, includes KKR 25 estimated and AGC 114905 DISPUTED)
 - 2/2 qualitative (JWST z>4 massive quiescents)
 - = **36/36 galaxy tests pass**
 
