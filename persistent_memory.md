@@ -125,13 +125,16 @@ bash paper/build_pdf.sh --dry-run FILE.md  # check specific files
 
 
 **v3.0.21 update 2**: §3.62.2 + L93-L97 summarize 5 more attempts (v14-v19).
-- v14/v14c/v14d: scaling law IS the time dilation. ACTUAL formula from §10.1:
+- v14/v14c/v14d/v14e: scaling law IS the time dilation. ACTUAL formula from §10.1:
     T = 33 s × (E_D / 10^44 J)^1.29
+  - HIERARCHY (user-corrected v14e):
+    * 3D event (in our universe) creates 2D universe (DM/DE) — CALIBRATED
+    * 4D event (in higher-dim) creates 3D universe (= us) — SPECULATIVE
+  - 'D' in 'D-event' = dim of universe CONTAINING the event
   - E_D = D-event energy (NOT radiated energy)
-  - v14c was wrong (used radiated E instead of D-event E)
-  - v14d: all 9 events from §10.1 match within factor 1.6
-  - L93 CLOSED: scaling law internally consistent
-  - E_natural IS E_D (the event energy) — no mismatch
+  - v14c/v14d were confused (wrong E or wrong hierarchy)
+  - v14e: 8/8 3D events match within factor 1.6; 4D extrapolation matches within 12%
+  - L93 CLOSED: scaling law internally consistent at the 3D→2D level
 - v15: Variational Liouville + DOZZ — μ is NOT structural in c=1 Liouville
 - v16: 2D theory comparison — α = 1.289 = 1 (SR) + 1/√12 (N=12 finite-N)
 - v17: Large-N extrapolation of SYK — pure SYK q=4 N=12 gives α ~ 1, not 1.289

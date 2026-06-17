@@ -3415,47 +3415,52 @@ Honest summary:
 **v14 (M^1.29 universality across 14 events)**: Initial check
 of the scaling law. Multiple iterations: v14, v14c, v14d.
 
-**v14d (FINAL, ACTUAL scaling law from §10.1)**: Used the
-correct scaling law from §10.1:
+**v14e (FINAL, CORRECTED hierarchy from user)**: User correction:
+"3D event creates 2D universes, not 4D. read the paper properly."
 
-$$T_{D-1} = 33\,s \times (E_D / 10^{44}\,{\rm J})^{1.29}$$
+**CORRECTED hierarchy**:
+- **3D event** (event in 3+1D spacetime = our universe) creates **2D universe**
+- **4D event** (event in 4+1D spacetime = hypothetical higher-dim) creates **3D universe** (= us)
+- "D" in "D-event" notation = dimension of universe CONTAINING the event
+- "D-1" = dimension of universe CREATED
 
-where $E_D$ is the **D-event energy** (energy of the 4D event
-creating the 2D universe). This is NOT the radiated energy —
-it's the gravitational collapse / merger energy that DRIVES the
-4D event.
+The 33 s SN calibration is at the **3D event → 2D universe** level.
+The 4D cosmological event row in §10.1 is a SPECULATIVE extrapolation
+to the **4D event → 3D universe** level using the same formula.
 
-**Key insight from user**: $E_D$ IS the natural energy of the
-event. There is NO "E_implied vs E_natural" mismatch — they're
-the same quantity. My v14c was confused because I used radiated
-energy instead of D-event energy.
+**v14e verification**:
 
-**v14d verification** (all 9 events from §10.1 table):
+3D events creating 2D universes (8 events from §10.1):
 
-| D-event | E_D (J) | T_pred (s) | T_paper (s) | ratio |
-|---------|---------|------------|-------------|-------|
+| 3D event | E_3D (J) | T_pred (s) | T_paper (s) | ratio |
+|----------|----------|------------|-------------|-------|
 | 1 ton TNT | 4e9 | 1.5e-43 | 1e-43 | 1.51 |
 | X-class solar flare | 1e25 | 1.1e-23 | 1e-23 | 1.07 |
-| Type Ia SN | 1e44 | 33 | 33 | 1.00 |
+| Type Ia SN | 1e44 | 33 | 33 | 1.00 (calibration) |
 | Hypernova | 1e46 | 1.25e4 | 1.26e4 | 0.99 |
 | Long GRB | 1e47 | 2.43e5 | 2.42e5 | 1.00 |
 | BNS merger | 1e53 | 1.32e13 | 1.26e13 | 1.04 |
 | AGN flare | 1e55 | 4.98e15 | 3.16e15 | 1.58 |
 | Quasar outburst | 1e60 | 1.39e22 | 1.58e22 | 0.88 |
-| 4D cosmological event | 1e69 | 5.54e33 | 6.31e33 | 0.88 |
 
-All match within factor 1.6 (median ratio 1.004, geom. mean 1.082).
+All 8 match within factor 1.6 (median ratio 1.024).
 
-**CONCLUSION (v14d)**: The scaling law is **INTERNALLY CONSISTENT**.
-L93 CLOSED by v14d verification. The scaling law is not an
-independent check; it DEFINES the relationship between $E_D$
-(D-event energy) and $\tau_{\rm obs}$ (3+1D-frame lifetime).
+4D event creating 3D universe (1 event, SPECULATIVE extrapolation):
+- E_4D = 10^69 J, T_pred = 1.76e26 yr, T_paper = 2e26 yr, ratio = 0.88
 
-**What determines $\tau_{\rm obs}$**:
-$\tau_{\rm obs}$ is determined entirely by $E_D$ via
-$\tau_{\rm obs} = 33\,s \times (E_D / 10^{44}\,{\rm J})^{1.29}$.
-There is no additional freedom. The "natural energy" of the
-event IS the D-event energy $E_D$.
+**CONCLUSION (v14e)**: The scaling law is internally consistent at
+the 3D → 2D level (8/8 events match within factor 1.6). The 4D → 3D
+extrapolation is speculative but matches within 12%.
+
+L93 STILL CLOSED. The scaling law is not an independent check;
+it DEFINES the relationship between the event energy and the
+created universe's lifetime in the parent's frame.
+
+**Hierarchy clarification**:
+- 3D event (our universe) → 2D universe (DM/DE) — CALIBRATED at SN 33 s
+- 4D event (higher-dim) → 3D universe (= us) — SPECULATIVE extrapolation
+
+v14d had the hierarchy BACKWARDS. The user caught this.
 
 **v15 (Variational Liouville + DOZZ for $\mu$)**: Tried to derive
 $\mu$ from c=1 Liouville structure. **KEY FINDING**: In c=1
