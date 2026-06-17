@@ -10,21 +10,24 @@ INPUT = f'{BUILD_DIR}/paper_body.tex'
 with open(INPUT, 'r') as f:
     content = f.read()
 
-# Simpler pattern matching the literal text
-# p{(\columnwidth - 4\tabcolsep) * \real{0.2727}}
-pattern = r'p\{\((\\columnwidth) - (\d+)(\\tabcolsep)\) \* \\real\{([\d.]+)\}\}'
+# Pattern matches: p{(\columnwidth - N\tabcolsep) * \real{X}}
+# Optionally preceded by >{...} column prefix.
+# The opening `p{` may follow `>{...}` (a column specifier).
+pattern = r'(>?\{[^}]*\})?p\{\((\\columnwidth) - (\d+)(\\tabcolsep)\) \* \\real\{([\d.]+)\}\}'
 
 def replace_one(m):
-    columnwidth = m.group(1)
-    n = m.group(2)
-    tabcolsep = m.group(3)
-    x = m.group(4)
-    return f'p{{\\dimexpr({columnwidth} - {n}{tabcolsep})*{x}\\relax}}'
+    prefix = m.group(1) or ''
+    columnwidth = m.group(2)
+    n = m.group(3)
+    tabcolsep = m.group(4)
+    x = m.group(5)
+    return f'{prefix}p{{\\dimexpr({columnwidth} - {n}{tabcolsep})*{x}\\relax}}'
 
 new_content = re.sub(pattern, replace_one, content)
 
 with open(INPUT, 'w') as f:
     f.write(new_content)
 
+# Count actual replacements in the *original* content (before mutation)
 n_replaced = len(re.findall(pattern, content))
 print(f"Wrapped {n_replaced} dimexpr expressions in {INPUT}")

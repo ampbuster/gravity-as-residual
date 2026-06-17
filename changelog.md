@@ -18,7 +18,7 @@ showing as raw text on the phone viewer.
 PDF still builds clean (276 pages).
 
 
-## v3.0.16 — Wrap \cdot/\int in $...$ to fix LaTeX errors (June 2026)
+## v3.0.16 — Wrap cdot/int in $...$ to fix LaTeX errors (June 2026)
 
 **User feedback:** "some markdown incorrect. this is pdf, not md. md is fine"
 
@@ -27,11 +27,11 @@ which were causing xelatex to fail. The text was rendering as raw
 LaTeX in the PDF.
 
 **Fixed (3 lines):**
-- `paper/markdown/01_executive_summary.md` line 23: g₊ = k \cdot \int...
+- `paper/markdown/01_executive_summary.md` line 23: g₊ = k \\cdot \\int...
   → wrap in `$...$`
-- `paper/markdown/04_predictions.md` line 252: g₊ = (3/4) \cdot G...
+- `paper/markdown/04_predictions.md` line 252: g₊ = (3/4) \\cdot G...
   → wrap in `$...$`
-- `paper/markdown/04_predictions.md` line 703: g₊ = k \cdot 10^{-2}...
+- `paper/markdown/04_predictions.md` line 703: g₊ = k \\cdot 10^{-2}...
   → wrap in `$...$`
 
 **Also fixed:** build script typo `\usepackage{fontsec}` →
@@ -289,9 +289,9 @@ This document contains the cascade's full version history.
 
 4. **Kept all other LaTeX intact**:
    - Greek letters (α, β, γ, etc.) ✓
-   - Subscripts/superscripts (x_{abc}, x^n) ✓
-   - Fractions (\frac{a}{b}) ✓
-   - Operators (\pm, \times, \cdot, \approx) ✓
+   - Subscripts/superscripts (`x_{abc}`, `x^n`) ✓
+   - Fractions (`\frac{a}{b}`) ✓
+   - Operators (`\pm`, `\times`, `\cdot`, `\approx`) ✓
    - Special symbols (ℏ, ℓ, √, ∫, Σ) ✓
    - All other LaTeX ✓
 
@@ -4267,7 +4267,7 @@ enables both grid tables (|---|---|) and pipe tables (|---|---|).
 The post-processors handle the LaTeX issues that pandoc generates
 when converting markdown tables to LaTeX longtables.
 
-## v3.0.21 (June 2026) — Fixed broken tables (\dimexpr → \linewidth)
+## v3.0.21 (June 2026) — Fixed broken tables (dimexpr → linewidth)
 
 **Major fix**: Tables with certain content (parens in cells, math mode)
 were being rendered with the column widths printed as text, breaking

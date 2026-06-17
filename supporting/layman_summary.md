@@ -1,6 +1,6 @@
 # Layman Summary: Gravity as Residual
 
-**v3.0.2 — June 2026** (*SIDC naming RESTORED. 298 pages, 37 honest limitations. SIDC = Scale-Invariant Dimensional Cascade. Works at any dimension: 5D$\to$4D, 4D$\to$3+1D (us), 3D$\to$2D. Structural scale invariance, parametric dim-dependence.*)
+**v3.0.2 — June 2026** (SIDC naming RESTORED. 298 pages, 37 honest limitations. SIDC = Scale-Invariant Dimensional Cascade. Works at any dimension: 5D→4D, 4D→3+1D (us), 3D→2D. Structural scale invariance, parametric dim-dependence.)
 
 **v3.0 — June 2026 — MAJOR VERSION BUMP**
 
@@ -303,7 +303,7 @@ So if SIDC's $\alpha$ is correct, then N = 12 is uniquely determined.
 
 - 2D universes have 12 Majorana fermion "degrees of freedom"
 - The 12 might map to 3 SM generations $\times$ 4 fermions per generation
-- 2D universes might be in "$\AdS_2$ $\times$ S²" topology (a specific 2D geometry with positive lifetime scaling)
+- 2D universes might be in "$\mathrm{AdS}_2 \times S^2$" topology (a specific 2D geometry with positive lifetime scaling)
 - 2D universes might be bilayer-graphene-like at "magic angle" of ~1.5-2.0°
 
 These are all specific, testable predictions — but they require more theoretical work to derive them rigorously.

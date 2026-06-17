@@ -1004,6 +1004,62 @@
 
 set -e
 
+# =============================================================================
+# CLI options
+# =============================================================================
+DRY_RUN=false
+DRY_FILES=""
+
+usage() {
+    cat << 'USAGE_EOF'
+Usage: bash paper/build_pdf.sh [OPTIONS]
+
+Options:
+  --dry-run [FILE...]   Run pandoc + post-processors + xelatex on FILE...
+                        (default: README.md supporting/layman_summary.md)
+                        Skips the full paper build. Use this to find LaTeX
+                        issues in non-paper markdown files (README, layman
+                        summary, etc.) without doing a full 30-60s build.
+  --help, -h            Show this help.
+
+Examples:
+  bash paper/build_pdf.sh                       # full paper build
+  bash paper/build_pdf.sh --dry-run             # check README + layman
+  bash paper/build_pdf.sh --dry-run README.md   # check just README
+  bash paper/build_pdf.sh --dry-run \
+      README.md changelog.md                    # check multiple
+
+USAGE_EOF
+}
+
+# Parse args
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --dry-run)
+            DRY_RUN=true
+            shift
+            # Collect any file args after --dry-run
+            while [[ $# -gt 0 && "$1" != --* && "$1" != -* ]]; do
+                DRY_FILES="$DRY_FILES $1"
+                shift
+            done
+            # Default dry-run files
+            if [ -z "$DRY_FILES" ]; then
+                DRY_FILES="README.md supporting/layman_summary.md"
+            fi
+            ;;
+        --help|-h)
+            usage
+            exit 0
+            ;;
+        *)
+            echo "Unknown option: $1"
+            usage
+            exit 1
+            ;;
+    esac
+done
+
 PAPER_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$PAPER_DIR"
 
@@ -1013,6 +1069,106 @@ cd "$PAPER_DIR"
 BUILD_DIR="${PAPER_DIR}/.build"
 TOOLS_DIR="${PAPER_DIR}/build_tools"
 mkdir -p "$BUILD_DIR"
+
+# =============================================================================
+# DRY-RUN MODE
+# =============================================================================
+# Run pandoc + 4 post-processors + xelatex on a small set of files to find
+# LaTeX issues without doing the full paper build. Useful for README/layman.
+if [ "$DRY_RUN" = true ]; then
+    # In dry-run, change to the repo root (one above paper/) so we can find
+    # README.md, layman_summary.md, etc. that live at the top of the repo.
+    REPO_ROOT="$(cd "${PAPER_DIR}/.." && pwd)"
+    cd "$REPO_ROOT"
+
+    echo "[DRY-RUN mode]"
+    echo "[Files:$DRY_FILES]"
+    echo "[Repo root: $REPO_ROOT]"
+    echo "[Build dir: $BUILD_DIR]"
+    echo ""
+
+    # Concatenate the requested files
+    cat $DRY_FILES > "${BUILD_DIR}/dry_combined.md"
+    SOURCE="${BUILD_DIR}/dry_combined.md"
+
+    # Step 1: pandoc
+    # Use --no-highlight to skip code-block syntax highlighting (which would
+    # need minted/highlighting-kate/Highlight.js setup). Code blocks render
+    # as plain monospace, which is what we want for a dry-run check.
+    echo "[1/6] pandoc..."
+    pandoc "$SOURCE" -o "${BUILD_DIR}/paper_body.tex" \
+        -f markdown+grid_tables+pipe_tables+raw_tex-yaml_metadata_block \
+        --no-highlight || {
+        echo "    pandoc FAILED"
+        exit 1
+    }
+
+    # Steps 2-5: the 4 post-processors
+    echo "[2/6] wrap_dimexpr..."
+    python3 "${TOOLS_DIR}/wrap_dimexpr.py" "$BUILD_DIR" || true
+
+    echo "[3/6] use_linewidth..."
+    python3 "${TOOLS_DIR}/use_linewidth.py" "$BUILD_DIR" || true
+
+    echo "[4/6] fix_dashes..."
+    python3 "${TOOLS_DIR}/fix_dashes.py" "$BUILD_DIR" || true
+
+    echo "[5/6] fix_sigma..."
+    python3 "${TOOLS_DIR}/fix_sigma.py" "$BUILD_DIR" || true
+
+    # Step 6: xelatex (single run, halts on error so we see them)
+    echo "[6/6] xelatex..."
+    cat > "${BUILD_DIR}/paper_header.tex" << 'HDR_EOF'
+\documentclass[10pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{mathrsfs}
+\usepackage{fontspec}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{framed}   % for Shaded code-block env (from README/layman)
+\geometry{margin=1in}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+\providecommand{\tightlist}{}
+\title{[DRY-RUN: pre-build check]}
+\begin{document}
+\maketitle
+HDR_EOF
+
+    cat "${BUILD_DIR}/paper_header.tex" "${BUILD_DIR}/paper_body.tex" > "${BUILD_DIR}/dry_full.tex"
+    echo '\end{document}' >> "${BUILD_DIR}/dry_full.tex"
+
+    cd "$BUILD_DIR"
+    xelatex -interaction=nonstopmode -halt-on-error dry_full.tex > "${BUILD_DIR}/dry_xelatex.log" 2>&1 || {
+        echo ""
+        echo "=========================================="
+        echo "  XELATEX FAILED — here's the error:"
+        echo "=========================================="
+        grep -E "^!|^l\." "${BUILD_DIR}/dry_xelatex.log" | head -20
+        echo ""
+        echo "Full log: ${BUILD_DIR}/dry_xelatex.log"
+        echo "TeX file: ${BUILD_DIR}/dry_full.tex (find the line above)"
+        exit 1
+    }
+
+    echo ""
+    echo "=========================================="
+    echo "  DRY-RUN SUCCESS"
+    echo "=========================================="
+    echo "Output: ${BUILD_DIR}/dry_full.pdf"
+    echo "TeX:    ${BUILD_DIR}/dry_full.tex"
+    echo "Log:    ${BUILD_DIR}/dry_xelatex.log"
+    pdfinfo "${BUILD_DIR}/dry_full.pdf" | grep -E "Pages|Size" 2>/dev/null || true
+    exit 0
+fi
+
 
 # Step 0: Combine markdown files
 if [ -d "markdown" ]; then

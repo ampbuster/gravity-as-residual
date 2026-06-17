@@ -845,6 +845,19 @@ pdfinfo paper/paper.pdf | grep Pages
 
 **Required:** `pandoc`, `xelatex` (TeX Live with DejaVu fonts), Python 3.
 
+**Dry-run option** (find LaTeX issues in non-paper files without a full build):
+
+```bash
+bash paper/build_pdf.sh --dry-run                    # README + layman (default)
+bash paper/build_pdf.sh --dry-run README.md          # just README
+bash paper/build_pdf.sh --dry-run README.md \
+    supporting/layman_summary.md changelog.md        # multiple files
+```
+
+Dry-run runs pandoc + the 4 post-processors + xelatex on the specified files
+only (~5-15 sec). Halts on the first LaTeX error and prints it with a line
+number reference. Use this to find broken math/LaTeX in supporting docs.
+
 **Pipeline overview:**
 1. Concatenate `paper/markdown/*.md` → `paper/.build/paper_combined.md`
 2. Pandoc converts to LaTeX → `paper/.build/paper_body.tex`
