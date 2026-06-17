@@ -47,7 +47,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 **Falsification threshold:**
 - If GW detected at SIDC's predicted frequencies: $\alpha = 1.29$ validated to ±0.11
-- If GW detected at 10× off-frequency: $\alpha$ falsified to ±0.11
+- If GW detected at 10$\times$ off-frequency: $\alpha$ falsified to ±0.11
 - If BNS+AGN internally inconsistent: framework-level falsification (not just $\alpha$)
 - If no GW detected: SIDC's GW prediction falsified (less direct)
 
@@ -63,7 +63,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### Direct $M_{\rm Pl,4}$ measurement (2030s+ colliders)
 
-**SIDC prediction:** $M_{Pl,4} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
+**SIDC prediction:** $$M_{\rm Pl,4D} \geq 887$$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
 
 **Falsification threshold:** If $M_{\rm Pl,4}$ measured at < 887 GeV, SIDC's bulk-brane coupling is wrong.
 
@@ -79,7 +79,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 **Status:** PENDING. μAres operational 2040s.
 
-#### BBN precision (10× improvement)
+#### BBN precision (10$\times$ improvement)
 
 **SIDC prediction:** DE at BBN era (z = $10^{10}$) is ~$10^{-20}$ of radiation. BBN proceeds as standard.
 
@@ -94,8 +94,8 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 | $w_0$ (DESI DR3) | $-0.83 \pm 0.16$ | > 5σ away from -0.83 |
 | $w_a$ (DESI DR3) | $-0.75 \pm 0.30$ | > 5σ away from -0.75 |
 | 47 Tuc DM (LSST) | < $10^{-5}$ $M_*$ | DM detected at > 5σ |
-| BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10× off-frequency |
-| AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10× off-frequency |
+| BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10$\times$ off-frequency |
+| AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10$\times$ off-frequency |
 | $M_{\rm Pl,4}$ (colliders) | $\geq 887$ GeV | Measured < 887 GeV |
 | BBN DE (precision) | < $10^{-20}$ rad | > $10^{-20}$ detected |
 | 5/27/68 (Planck) | 5/27/68 (input) | Input, not tested |

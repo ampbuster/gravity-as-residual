@@ -28,8 +28,8 @@ This is a thought experiment, not a theory. We identify **37 honest limitations*
 | **TOTAL** | **17** | **10** | **3** | **2** | **4** | **1** | **37** |
 
 **v2.7.30 changes (democratic cosmology, recursive structure, frameworks):**
-- §3.17 (v2.7.24) added democratic cosmology for 2D universes (proper lifetime = $t_{\rm Pl}$,3)
-- §3.18 (v2.7.25) extended democratic cosmology upward (proper lifetime = $t_{\rm Pl}$,4 for 3+1D)
+- §3.17 (v2.7.24) added democratic cosmology for 2D universes (proper lifetime = $t_{\rm Pl,3+1D}$)
+- §3.18 (v2.7.25) extended democratic cosmology upward (proper lifetime = $t_{\rm Pl,4D}$ for 3+1D)
 - §3.19 (v2.7.26) analyzed why α = 1.29 is universal (5 possible answers, CGHS strongest match)
 - §3.20 (v2.7.27) self-critique of §3.17-§3.18 (L9 partially closed, not fully resolved)
 - §3.21 (v2.7.28) full recursive structure (SIDC from 0D to ND)
@@ -83,16 +83,16 @@ The full table follows:
 | 25 | RAR population improvement | REVERTED | §4.1 | Reverted to honest 8-12% fit |
 | 26 | Full Lagrangian | **PARTIAL** (v2.4, v2.7.3) | §4.38, §4.44, §4.44.1, §4.44, §7.1, §8.1.4 | 5/10 constraints by construction + T^eff_μν derived + J_bulk=0 BC in §4.44 + v2.4 refactor (2-3 free action params: $G_5$, $\alpha$, $\tau_{2D}$) + v2.7.3 web-research reduction of 4 free 2D CFT params (μ, b, α, z_0) to 2 free (μ, $m_{3+1D}$); remaining is 2D CFT expert |
 | 27 | RAR functional form (SIDC vs MOND) | **PARTIAL** (v2.3.1) | §4.42 | CONFIRMED via per-galaxy $g_+$ (43 galaxies, 4.5 decades in $M_{b}$) |
-| 28 | Galaxy-vs-cluster $g_+$ divergence | **PARTIAL** (v2.3.1) | §4.42 | Cluster enhancement ~17.5× via MOND EFE |
-| 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219× bifurcation was a numerical error (§3.27). The 0.7-3× revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
-| 30 (NEW) | Topological eigenvalue (5/27) | **PARTIAL** (v2.4) | §2.6.1 | ANCHORED as $V_5 / A_4 R_{$\AdS_5$} = 27/5$ via AdS$_5$/CFT$_4$ holographic counting; specific value depends on zero-mode counting of bulk-brane Dirac operator; closing this requires a 2D CFT expert |
+| 28 | Galaxy-vs-cluster $g_+$ divergence | **PARTIAL** (v2.3.1) | §4.42 | Cluster enhancement ~17.5$\times$ via MOND EFE |
+| 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219$\times$ bifurcation was a numerical error (§3.27). The 0.7-3$\times$ revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
+| 30 (NEW) | Topological eigenvalue (5/27) | **PARTIAL** (v2.4) | §2.6.1 | ANCHORED as $V_5 / A_4 $R_{\AdS_5} = 27/5$$ via AdS$_5$/CFT$_4$ holographic counting; specific value depends on zero-mode counting of bulk-brane Dirac operator; closing this requires a 2D CFT expert |
 | 31 (NEW) | 2D-to-3+1D time compression | OPEN (v2.6) | §2.5, §2.6 | The bulk position distribution P(y) is unknown; required $e^{-ky} \sim 10^{-48}$ corresponds to 2D universes ~100 $\AdS_5$ radii deep; a specific bulk geometry and 2D CFT calculation would close this |
 | 32 (REMOVED v2.7) | 4-zone H(z) derivation | N/A | N/A | REMOVED in v2.7: the 4-zone H(z) was data fitting (8 free parameters for ~5 data points), and the P(y) problem made it internally inconsistent. SIDC now adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved. |
 | 33 (NEW) | $\Omega_{\rm DM}$ = 0.27 as input postulate | OPEN (v2.6) | §2.5, §2.6 | SIDC postulates that all observed DM is 2D universe mass, time-compressed; the specific 27% value is an INPUT from Planck 2018, not a derivation; closing this would require a 2D CFT calculation that yields 27% as a numerical output |
 | 34 (NEW v2.7.5) | $E_{\rm primordial}$ (per-event energy of primordial 2D universes) | OPEN (v2.7.5) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* $F_p$, but does NOT specify the per-event energy $E_{\rm primordial}$. The 2D universe lifetime $\tau_{2D}$, growth factor G, and cumulative energy all depend on $E_{\rm primordial}$. SIDC treats $E_{\rm primordial}$ as a FREE PARAMETER. Closing requires a derivation of $E_{\rm primordial}$ from the 4D event's internal dynamics. |
 | 35 (NEW v2.7.5) | $z_{\rm half}$ (smooth $F_p$ transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth $F_p(z)$ = 0.7 + 0.3 * z^2/($z_{\rm half}$^2 + z^2) introduces free parameter $z_{\rm half}$ ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of $z_{\rm half}$ from 4D event dynamics. |
 | 36 (NEW v2.7.5) | $E_{\rm crit}$ (phase-transition threshold) | REVERTED (v2.7.5) | §2.5.3 | v2.3.0 $E_{\rm crit}$ ~ $10^{30}$ J step-function threshold REMOVED in v2.7.4 in favor of smooth creation function C(E) = $E^{1+\alpha}$. The smooth function uses only existing alpha = 1.29, no new free parameters. All 5/5 dwarf cases still work. |
-| 37 (NEW v2.7.30) | α = 1.29 CGHS derivation | OPEN (v2.7.30) | §3.19, §3.24 | SIDC's §3.19 claimed α = 1.29 is in the CGHS back-reaction range [1, 3]. §3.24 self-critique: no standard CGHS scaling gives constant $\tau_{2D}$_proper. A specific CGHS-with-back-reaction calculation yielding p = 1.29 is needed to close this. This is a research challenge, not a derivation. Future work: specific CGHS calculation. |
+| 37 (NEW v2.7.30) | α = 1.29 CGHS derivation | OPEN (v2.7.30) | §3.19, §3.24 | SIDC's §3.19 claimed α = 1.29 is in the CGHS back-reaction range [1, 3]. §3.24 self-critique: no standard CGHS scaling gives constant $\tau_{2D,\rm proper}$. A specific CGHS-with-back-reaction calculation yielding p = 1.29 is needed to close this. This is a research challenge, not a derivation. Future work: specific CGHS calculation. |
 
 **Summary (v2.7.5):**
 - **OPEN**: 17 (50%) — require theoretical physics work beyond SIDC's current framework (L31, L33, L34, L35 retained; L32 removed)
@@ -150,9 +150,9 @@ SIDC's HONEST position (Mechanism M):
 
 - **Limitation 14 (sign ambiguity in §2.4 mathematical sketch) is now FULLY CLOSED** by the clean formulation in §2.4. The ordinary attractive gravity and the dark energy are now treated as two *physically distinct small contributions* to the effective 3+1D action — a *force on matter* and a *vacuum energy*, respectively — not as opposite-sign components of the same quantity. The two contributions are not required to have any algebraic sign relationship.
 
-- **Limitation 5 (proportionality constants for dark matter) is PARTIALLY CLOSED** by the growth factor derivation (§2.6 *Deriving the growth factor from 2D universe dynamics*). G = 20 × V_growth is derived from 2D universe FRW dynamics (G = $9.7 \times 10^{7}$ from Omega_{DE,2D} = 0.999, t_eq = 1% of 2D lifetime, T_{2D} = 30 Gyr, h_{2D} ~ $H_0$_our), matching the trial-and-error value of $10^{8}$ within 3%. The growth factor is no longer a free parameter.
+- **Limitation 5 (proportionality constants for dark matter) is PARTIALLY CLOSED** by the growth factor derivation (§2.6 *Deriving the growth factor from 2D universe dynamics*). G = 20 $\times$ V_growth is derived from 2D universe FRW dynamics (G = $9.7 \times 10^{7}$ from Omega_{DE,2D} = 0.999, t_eq = 1% of 2D lifetime, T_{2D} = 30 Gyr, h_{2D} ~ $H_{0,\rm our}$), matching the trial-and-error value of $10^{8}$ within 3%. The growth factor is no longer a free parameter.
 
-- **Limitation 15 ($10^{85}$ discrepancy for DE density) is PARTIALLY CLOSED** by the *Empirical formula for the 5/27/68 split* (§2.6): the 27% DM fraction follows from the derived G (since M_DM = 6.4 × G × M_event × N_events). The 5% ordinary and 68% DE are still coupled via SIDC's bulk-brane coupling (epsilon) and the staying fraction ($f_{\rm back}$); these are *defined* by the observed hierarchy and DE density respectively, not derived.
+- **Limitation 15 ($10^{85}$ discrepancy for DE density) is PARTIALLY CLOSED** by the *Empirical formula for the 5/27/68 split* (§2.6): the 27% DM fraction follows from the derived G (since M_DM = 6.4 $\times$ G $\times$ M_event $\times$ N_events). The 5% ordinary and 68% DE are still coupled via SIDC's bulk-brane coupling (epsilon) and the staying fraction ($f_{\rm back}$); these are *defined* by the observed hierarchy and DE density respectively, not derived.
 
 - **The 1D-universes limitation is CLOSED by the cone-shaped hierarchy refinement** (§2.6 *Cone-shaped hierarchy*). Previously, SIDC assumed 2D universes themselves create 1D universes (via 2D energetic events), but the 1D universes were *not directly observable* in 3+1D. The cone-shaped refinement *rejects* this: SIDC is *cone-shaped* (4D event → 3+1D → 2D, terminal), not *fractal* (infinite downward). 2D universes are *abstract* in the framework, lacking well-defined energetic events to seed a 1D SIDC. Therefore, 1D universes do *not exist* in this refinement, closing the limitation. *Status: CLOSED.*
 
@@ -231,13 +231,13 @@ The data does not currently distinguish (a) from (b): both give the same 7/7 spe
 
 **The SIDC-MOND hybrid (see §4.1 new subsection):** SIDC's framework + MOND's functional form. SIDC provides the geometric origin of g₊ (why it's universal at galaxy scales); MOND provides the $g_{\rm obs}$($g_{\rm bar}$) interpolation (how $g_{\rm obs}$ depends on $g_{\rm bar}$). This is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.
 
-20. **[CLOSED in v2.3.1, §4.35] $f_{\rm active}$ is now derivable from 4D event dynamics.** Per the user's request and the Tier 1 #2 priority, the 4× gap between $f_{\rm active}$ ~ 0.05 (MCMC) and $f_{\rm active}$ ~ 0.18 (5/27 ratio) is RESOLVED in §4.35 by a first-principles derivation:
+20. **[CLOSED in v2.3.1, §4.35] $f_{\rm active}$ is now derivable from 4D event dynamics.** Per the user's request and the Tier 1 #2 priority, the 4$\times$ gap between $f_{\rm active}$ ~ 0.05 (MCMC) and $f_{\rm active}$ ~ 0.18 (5/27 ratio) is RESOLVED in §4.35 by a first-principles derivation:
 
     $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$
 
     where $\tau_{2D}$ is the 2D universe lifetime (identified with gas consumption timescale ~ 0.7 Gyr by physical analogy) and $T_{\rm universe}$ = 13.8 Gyr. This gives $f_{\rm active}$ = 0.051, matching the MCMC posterior 0.0513 ± 0.0073 without any fitting.
 
-    The 4× gap is reframed as a LOCAL vs GLOBAL distinction: $f_{\rm active}$ ~ 0.05 is the LOCAL 2D universe lifetime (gas consumption), while 5/27 ~ 0.18 is the GLOBAL cosmic SFR peak timescale. These are two different physical processes, both ~1-3 Gyr, but not the same.
+    The 4$\times$ gap is reframed as a LOCAL vs GLOBAL distinction: $f_{\rm active}$ ~ 0.05 is the LOCAL 2D universe lifetime (gas consumption), while 5/27 ~ 0.18 is the GLOBAL cosmic SFR peak timescale. These are two different physical processes, both ~1-3 Gyr, but not the same.
 
     **Status: CLOSED** by the §4.35 derivation. Limitation 20 is now PARTIALLY CLOSED (the qualitative identification is solid; a full Lagrangian would tighten the $\tau_{2D}$ value, which is left to Limitation 26).
 
@@ -256,7 +256,7 @@ The data does not currently distinguish (a) from (b): both give the same 7/7 spe
 
 **Conclusion:** The new §2.6 framing (5/27/68 is observational 3+1D data) is fully consistent with all the Hubble tension tests. Mechanism M ($H_0 = 73$, accept the tension) is SIDC's final position, supported by Pantheon+ and local measurements. The Planck $H_0 = 67.4$ is the outlier (5.6 km/s/Mpc tension), accepted but not resolved by SIDC.
 
-21. **NEW: $f_{\rm active}$ ~ 0.05 is preferred by MCMC at >2σ over $f_{\rm active}$ ~ 0.18 (Option B+8).** A proper Bayesian MCMC fit (commit 127, `calculations/rar_mcmc.py`) gives $f_{\rm active}$ = 0.0513 +0.0070/-0.0073 (1σ), with $f_{\rm active}$ = 0.18 (cosmic SFR interpretation) OUTSIDE the 2σ range. The MCMC data STRONGLY PREFERS the gas-consumption interpretation (t_current ~ 0.7 Gyr) over the cosmic-SFR interpretation (t_current ~ 2.5 Gyr). This RESOLVES the 4× tension from commit 121: the gas consumption timescale wins by >2σ. The 5% appearing in three places (baryon fraction, 5/27 ratio, $f_{\rm active}$) is therefore likely a coincidence in the 5%/27% value, but $f_{\rm active}$ is well-constrained to be ~5%, not ~18%.
+21. **NEW: $f_{\rm active}$ ~ 0.05 is preferred by MCMC at >2σ over $f_{\rm active}$ ~ 0.18 (Option B+8).** A proper Bayesian MCMC fit (commit 127, `calculations/rar_mcmc.py`) gives $f_{\rm active}$ = 0.0513 +0.0070/-0.0073 (1σ), with $f_{\rm active}$ = 0.18 (cosmic SFR interpretation) OUTSIDE the 2σ range. The MCMC data STRONGLY PREFERS the gas-consumption interpretation (t_current ~ 0.7 Gyr) over the cosmic-SFR interpretation (t_current ~ 2.5 Gyr). This RESOLVES the 4$\times$ tension from commit 121: the gas consumption timescale wins by >2σ. The 5% appearing in three places (baryon fraction, 5/27 ratio, $f_{\rm active}$) is therefore likely a coincidence in the 5%/27% value, but $f_{\rm active}$ is well-constrained to be ~5%, not ~18%.
 
 22. **NEW: The isothermal cumulative profile is DERIVABLE from 2D universe 1/r gravity (Option 7).** SIDC's 2D universe gravity is logarithmic in 2D (V_2D(r) = G_2D $M_{2D}$ log(r), giving g_2D(r) = G_2D $M_{2D}$ / r). For a 2D universe with finite gravity reach r_0, and a UNIFORM distribution of such universes, the cumulative 3+1D gravity is $g_{\rm cum}$(r) ~ 1/r for r > r_0. This gives $v_{\rm circ}^2 =$ $g_{\rm cum}$ * r = const, which is exactly the FLAT ROTATION CURVE. The isothermal profile (ρ ~ $1/r^2$) is therefore a NATURAL CONSEQUENCE of SIDC's 2D universe 1/r gravity, not just a fitting parameter. This is a real derivation (commit 126, `calculations/derive_isothermal_cum.py`).
 
@@ -302,18 +302,18 @@ Where $\mathscr{R}_{energetic}$ is the total energetic power at the location (SF
 
 - **Galaxy:** $\mathscr{R}_{energetic} \sim 10^{37}$ W (SFR), $V_{local} \sim (30   kpc)^3 \sim 10^{63}$ m³, $\mathscr{R}/V \sim 10^{-26}$ W/m³
 - **BCG (cluster):** $\mathscr{R}_{energetic} \sim 10^{37}$ W ($P_{ICM}$), $V_{local} \sim (10   kpc)^3 \sim 10^{61}$ m³, $\mathscr{R}/V \sim 10^{-24}$ W/m³
-- **Predicted ratio:** 100× (cluster/galaxy $\mathscr{R}/V$)
-- **Empirical ratio (Tian+ 2024):** 14×
+- **Predicted ratio:** 100$\times$ (cluster/galaxy $\mathscr{R}/V$)
+- **Empirical ratio (Tian+ 2024):** 14$\times$
 
-Order-of-magnitude agreement: 100× predicted vs 14× observed (within a factor of 7). SIDC's $V_{local}$ normalization *naturally produces the cluster enhancement* that the old $M_{DM}/R_{halo}^2$ formula got backwards.
+Order-of-magnitude agreement: 100$\times$ predicted vs 14$\times$ observed (within a factor of 7). SIDC's $V_{local}$ normalization *naturally produces the cluster enhancement* that the old $M_{DM}/R_{halo}^2$ formula got backwards.
 
 *Status: PARTIALLY CLOSED* — the formula structure correctly predicts the direction and order of magnitude.
 
-**Refined scaling (v2.3.0, commit 168):** The empirical relationship $a_0 \propto M^{0.57}$ from Tian+ 2024 (14× enhancement from $M = 10^{12}$ to $M = 10^{14}$) is exactly the *MOND external field effect* scaling: $a_0(M) = $a_0$(M_galaxy) \times \sqrt{M_cluster/M_galaxy} = 1.2 \times 10^{-10} \times \sqrt{100} = 1.2 \times 10^{-9}$ m/s², matching Tian+ 2024's $1.7 \times 10^{-9}$ to within 30%.
+**Refined scaling (v2.3.0, commit 168):** The empirical relationship $a_0 \propto M^{0.57}$ from Tian+ 2024 (14$\times$ enhancement from $M = 10^{12}$ to $M = 10^{14}$) is exactly the *MOND external field effect* scaling: $a_0(M) = $a_0$(M_galaxy) \times \sqrt{M_cluster/M_galaxy} = 1.2 \times 10^{-10} \times \sqrt{100} = 1.2 \times 10^{-9}$ m/s², matching Tian+ 2024's $1.7 \times 10^{-9}$ to within 30%.
 
 SIDC's $V_{local}$ formula and MOND's external field effect are the **same physics viewed from different frameworks**: SIDC says the BCG sees cluster-wide energetic events through its own local sphere of influence; MOND says the BCG sees the cluster's tidal field. The 30% residual is the *specific calculation* that requires the 2D brane's detailed dynamics (Limitation 26).
 
-**Limitation 28 can be UPGRADED to PARTIALLY CLOSED with quantitative agreement**: the cluster g₊ enhancement is now a *derivable consequence* of SIDC's $V_{local}$ geometry (consistent with MOND's external field effect), with the exact coefficient (1.2 vs 1.7 × $10^{-9}$) being a *specific calculation* rather than a fundamental limitation. The SIDC-MOND hybrid now provides a *coherent picture* of g₊ across 1.5 orders of magnitude in halo mass.
+**Limitation 28 can be UPGRADED to PARTIALLY CLOSED with quantitative agreement**: the cluster g₊ enhancement is now a *derivable consequence* of SIDC's $V_{local}$ geometry (consistent with MOND's external field effect), with the exact coefficient (1.2 vs 1.7 $\times$ $10^{-9}$) being a *specific calculation* rather than a fundamental limitation. The SIDC-MOND hybrid now provides a *coherent picture* of g₊ across 1.5 orders of magnitude in halo mass.
 
 **Direct test of $V_{\rm local}$ predictions on Tian+ 2024 data (v2.3.0, commit 170).** Per SIDC's 4 testable predictions, I performed a direct correlation analysis on the Tian+ 2024 BCGs (50 BCGs, computed per-galaxy g₊ from the deep MOND limit $g_+ \approx g_{obs}^2 / g_{bar}$). Key results:
 

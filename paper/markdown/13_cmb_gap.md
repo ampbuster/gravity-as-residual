@@ -98,7 +98,7 @@ This is the standard interpolating function that smoothly transitions from Newto
 **MCMC result (this run):**
 - $a_0$ = $2.34 \times 10^{-10}$ ± $1.54 \times 10^{-10}$ m/s^2
 - sigma_int = 0.089 ± 0.040 dex
-- Reduced chi^2 ≈ 0 (model is "over-fit" given the wide error bars)
+- Reduced chi^2 $\approx$ 0 (model is "over-fit" given the wide error bars)
 
 **Literature comparison (Li+ 2018, arXiv:1803.00022):**
 - $a_0$ = $1.20 \times 10^{-10}$ ± 0.02 m/s^2

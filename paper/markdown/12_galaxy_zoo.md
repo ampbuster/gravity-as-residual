@@ -11,16 +11,16 @@ SIDC makes a *qualitative* prediction: **the local dark matter content of a gala
 The full simulation is in `calculations/cascade_model.py` (run with `--outliers` or `--full`). The 11 tests are:
 
 **Standard tests (§4 + §11):**
-1. 47 Tucanae (NGC 104): $M_{dyn}$ ≈ $M_{stars}$, no current activity
-2. AGC 114905: $M_{dyn}$ ≈ $M_{b}$, low SFH throughout
+1. 47 Tucanae (NGC 104): $M_{dyn}$ $\approx$ $M_{stars}$, no current activity
+2. AGC 114905: $M_{dyn}$ $\approx$ $M_{b}$, low SFH throughout
 3. KKR 25: $M_{dyn}$/$M_{b}$ ~ 1-4 (REVISED v2.7.33+, was 299, bifurcation REMOVED v2.7.36+), intermediate-age SF 1-4 Gyr ago
 4. Milky Way: $M_{dyn}$/$M_{b}$ ~ 30, normal spiral
 
 **Outlier tests (§12.2 below):**
-5. NGC 1052-DF2: $M_{dyn}$ ≈ $M_{b}$, claimed no DM (UDG)
-6. Tucana dSph: $M_{dyn}$ ≈ $M_{b}$, isolated + quenched 6+ Gyr
+5. NGC 1052-DF2: $M_{dyn}$ $\approx$ $M_{b}$, claimed no DM (UDG)
+6. Tucana dSph: $M_{dyn}$ $\approx$ $M_{b}$, isolated + quenched 6+ Gyr
 7. Bullet Cluster (1E 0657-56): gas-galaxy separation, 720 kpc **= SIDC SMOKING GUN**
-8. Omega Centauri (NGC 5139): $M_{dyn}$ ≈ $M_{b}$, IMBH 8200 $M_\odot$
+8. Omega Centauri (NGC 5139): $M_{dyn}$ $\approx$ $M_{b}$, IMBH 8200 $M_\odot$
 9. M82 (NGC 3034): $M_{dyn}$/$M_{b}$ ~ 4, extreme starburst (10 $M_\odot$/yr)
 10. NGC 1275 (Perseus A): $M_{dyn}$/$M_{b}$ ~ 50, AGN host
 11. Dragonfly 44: $M_{dyn}$/$M_{b}$ ~ 300 (revised), Coma cluster member
@@ -52,9 +52,9 @@ The 7 outlier tests complement the 4 standard tests by probing *extreme* cases:
 
 **Omega Centauri (NGC 5139, massive GC with 8200 $M_\odot$ IMBH):** the most massive Milky Way globular cluster, with at least 14 stellar populations (Clontz+ 2025) and a recently-confirmed intermediate-mass black hole (Haberle+ 2024, Nature). $M_{dyn}$/$M_{b}$ ~ 1.25 indicates mostly stellar dynamics. SIDC's interpretation: no current activity, the IMBH is a point mass (standard GR), not a 2D universe effect, and the multi-population structure reflects a complex past SFH but no current 2D universe creation. **SIDC CONSISTENT**.
 
-**M82 (NGC 3034, Cigar Galaxy, extreme starburst):** a starburst galaxy with SFR ~ 10 $M_\odot$/yr, a SN every ~10 years, and a dynamical mass ~ 4× the stellar mass. SIDC's interpretation: the extreme current activity creates many 2D universes, leading to a *moderate* local DM component. $M_{dyn}$/$M_{b}$ ~ 4 is the predicted level. **SIDC CONSISTENT**.
+**M82 (NGC 3034, Cigar Galaxy, extreme starburst):** a starburst galaxy with SFR ~ 10 $M_\odot$/yr, a SN every ~10 years, and a dynamical mass ~ 4$\times$ the stellar mass. SIDC's interpretation: the extreme current activity creates many 2D universes, leading to a *moderate* local DM component. $M_{dyn}$/$M_{b}$ ~ 4 is the predicted level. **SIDC CONSISTENT**.
 
-**NGC 1275 (Perseus A, AGN host):** the central galaxy of the Perseus cluster, with an active AGN (FR I radio galaxy, L_AGN ~ $10^{37}$ W), high star formation (SFR ~ 30 $M_\odot$/yr), and a dynamical mass ~ 50× the stellar mass. SIDC's interpretation: the high AGN luminosity and cluster-infall activity create many 2D universes, leading to high local DM. $M_{dyn}$/$M_{b}$ ~ 50 is the predicted level. **SIDC CONSISTENT**.
+**NGC 1275 (Perseus A, AGN host):** the central galaxy of the Perseus cluster, with an active AGN (FR I radio galaxy, L_AGN ~ $10^{37}$ W), high star formation (SFR ~ 30 $M_\odot$/yr), and a dynamical mass ~ 50$\times$ the stellar mass. SIDC's interpretation: the high AGN luminosity and cluster-infall activity create many 2D universes, leading to high local DM. $M_{dyn}$/$M_{b}$ ~ 50 is the predicted level. **SIDC CONSISTENT**.
 
 **Dragonfly 44 (UDG with disputed high DM):** an ultra-diffuse galaxy in the Coma cluster. Originally claimed to have $M_{dyn}$/$M_{b}$ ~ 3000 (van Dokkum+ 2016), revised to $M_{dyn}$/$M_{b}$ ~ 300 (later studies). 74 globular clusters suggest past major star formation activity. SIDC's interpretation: as a Coma cluster member, DF44 has had significant past activity (the 74 GCs are evidence), leading to accumulated 2D universe DM. SIDC does *not* require the original 2016 extreme $M_{dyn}$/$M_{b}$ value; the revised value is consistent. **SIDC CONSISTENT**.
 

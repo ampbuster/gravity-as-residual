@@ -6,7 +6,7 @@
 
 **5/27/68 honest framing (v2.7.1).** The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction. SIDC's qualitative interpretation is: 5% = baryons (real 3+1D), 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity. **The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped in v2.7.1 as a separate postulate** that conflicted with the empirical 33 s lifetime (which gives $f_{\rm active}$ ~ $10^{-17}$, not 0.05). The 5:27 inner split was a post-hoc fit, and the "three 5%" coincidence was a confusion. $f_{\rm active}$ is now a free parameter, not derived.
 
-**Hubble tension position (v2.7, Mechanism M).** SIDC adopts Mechanism M: the Hubble tension is **ACCEPTED as a real observational tension**, not resolved. SIDC is qualitatively consistent with $H_0$ = 70 ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12). SIDC's intrinsic $H_0$,4D = sqrt(H_CMB × H_local) = 70.16 is a non-trivial property of the data. The 5.6 km/s/Mpc gap between local and Planck-inferred $H_0$ is a ΛCDM-framework artifact, not a SIDC problem. Earlier 4-zone H(z) attempts were removed in v2.7 (they were data fitting with 8 free parameters for ~5 data points, and the P(y) problem made them internally inconsistent).
+**Hubble tension position (v2.7, Mechanism M).** SIDC adopts Mechanism M: the Hubble tension is **ACCEPTED as a real observational tension**, not resolved. SIDC is qualitatively consistent with $H_0$ = 70 ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12). SIDC's intrinsic $H_0$,4D = sqrt(H_CMB $\times$ H_local) = 70.16 is a non-trivial property of the data. The 5.6 km/s/Mpc gap between local and Planck-inferred $H_0$ is a ΛCDM-framework artifact, not a SIDC problem. Earlier 4-zone H(z) attempts were removed in v2.7 (they were data fitting with 8 free parameters for ~5 data points, and the P(y) problem made them internally inconsistent).
 
 ---
 
@@ -26,7 +26,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
-**Democratic cosmology (v2.7.24-v2.7.25+, §3.17-§3.18).** A user-supplied insight (June 2026) revealed a deep pattern: all 2D universes have the same proper lifetime in 2D frame (= $t_{\rm Pl}$,3), and all 3+1D universes have the same proper lifetime in 3+1D frame (= $t_{\rm Pl}$,4). The energy-scaling rule $\tau_{2D_{3+1D}} = (E/E_{Pl,3})^{1.29} \times t_{Pl,3}$ is now a **DERIVATION from time dilation**, not a separate empirical fit. The same α = 1.29 applies at every level. This is a "democratic" cosmology: every universe at the same level is equal in its own frame, but the parent dimension sees vastly different lifetimes ($10^{-63}$ s to $10^{8}$ yr for 2D; $10^{-19}$ s to $10^{40}$ yr for 3+1D). **α is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from CGHS-with-back-reaction (§3.19, §3.22). SIDC's net free parameter count: 1 ($z_{\rm half}$ only).
+**Democratic cosmology (v2.7.24-v2.7.25+, §3.17-§3.18).** A user-supplied insight (June 2026) revealed a deep pattern: all 2D universes have the same proper lifetime in 2D frame (= $t_{\rm Pl,3+1D}$), and all 3+1D universes have the same proper lifetime in 3+1D frame (= $t_{\rm Pl,4D}$). The energy-scaling rule $\tau_{2D_{3+1D}} = (E/E_{Pl,3})^{1.29} \times t_{Pl,3}$ is now a **DERIVATION from time dilation**, not a separate empirical fit. The same α = 1.29 applies at every level. This is a "democratic" cosmology: every universe at the same level is equal in its own frame, but the parent dimension sees vastly different lifetimes ($10^{-63}$ s to $10^{8}$ yr for 2D; $10^{-19}$ s to $10^{40}$ yr for 3+1D). **α is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from CGHS-with-back-reaction (§3.19, §3.22). SIDC's net free parameter count: 1 ($z_{\rm half}$ only).
 
 **Self-critical methodology (v2.7.22+, §3.16).** SIDC's iterative process is formalized: build → user pushback → self-critique → discard or revise → document. The §3.13 → §3.14 → §3.15 sequence (sterile neutrino DM with Pauli-blocked decay) is a worked example: built in v2.7.18, self-critiqued in v2.7.19, discarded in v2.7.20 after literature search (Batell-Yin 2024 m<10meV bound, sub-eV DM is HDM not CDM, 3.5 keV X-ray line weakened). SIDC documents the discard explicitly rather than papering over broken hypotheses.
 
@@ -39,7 +39,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 | Competitor | Main weakness | SIDC advantage |
 |------------|---------------|-----------------|
 | **ΛCDM** | 4 unresolved small-scale crises (cusp-core, missing sats, TBTF, MFRP); requires WIMP + $\Lambda$ + 20+ feedback params | DM is geometric → no sub-halos → all 4 crises collapse by construction |
-| **MOND** | Fails in cluster cores (g₊ ~17× too low) | Phase-transition scales g₊ naturally to cluster regime |
+| **MOND** | Fails in cluster cores (g₊ ~17$\times$ too low) | Phase-transition scales g₊ naturally to cluster regime |
 | **ADD/RS brane-worlds** | Static bulk; no native dark-sector explanation | Dynamic SIDC: dims are spawned, dark sector falls out as transactional debt |
 | **Verlinde (entropic)** | No historical clock → can't explain different-DM identical-baryon galaxies | Stellar Age Lifecycle ledger explains AGC 114905 vs KKR 25 timing |
 
@@ -66,7 +66,7 @@ v3.0 made a **major breakthrough**: a single number — **N = 12** — derives m
 | α (lifetime scaling) | 1.289 | α = 1 + 1/√N (saddle-point fluctuation) |
 | c (central charge) | 1/2 | c = N/24 (Ising CFT) |
 | 1/(2α) (back-action) | 0.388 | c/α (composite) |
-| $f_{\rm back}$ (universal) | 8.6×$10^{-85}$ | (1/(2α))-powered formula |
+| $f_{\rm back}$ (universal) | 8.6$\times$$10^{-85}$ | (1/(2α))-powered formula |
 
 N = 12 is **uniquely determined** by α = 1.29 (off by 0.001; for N = 10, 11, 13, 14 the match is much worse).
 
@@ -74,7 +74,7 @@ N = 12 is **uniquely determined** by α = 1.29 (off by 0.001; for N = 10, 11, 13
 
 **Strong predictions** (testable, falsifiable):
 
-1. **47 Tucanae**: $M_{dyn}$ ≈ $M_{stars}$ (no local DM) — differentiator from particle DM
+1. **47 Tucanae**: $M_{dyn}$ $\approx$ $M_{stars}$ (no local DM) — differentiator from particle DM
 2. **Intermediate F(z) dwarfs**: 10-30% of dwarfs are DM-poor (consistent with Bidaran+ 2025 etc.)
 3. **Massive quiescent galaxies at z > 4**: very high $M_{dyn}$ (consistent with RUBIES, EXCELS etc.)
 4. **Tidal dwarf galaxies**: shifting toward DM-poor (consistent with Zaragoza-Cardiel+ 2024 etc.)

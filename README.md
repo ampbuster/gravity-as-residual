@@ -163,8 +163,8 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 **5 ROUND 8 CONSTRAINTS (v2.7.3+ round 8, June 2026):**
 41. **eROSITA all-sky ultralight axion** (Zelmer+ 2025, arXiv:2502.03353, A&A Dec 2025) — 5259 clusters, 12791 ${\rm deg}^2$; ultralight axion DM constrained at m_a $\sim 10^{-22}$ eV; SIDC 2D universes are NOT axions (INAPPLICABLE)
 42. **SPHEREx first all-sky near-IR spectral map** (NASA/JPL May 2025) — launched 11 March 2025, 450M+ galaxies; SIDC's MOND-like $g_+$ floor predicts mild $\sigma_8$ suppression testable by SPHEREx Y1 2026-2027 (QUALITATIVELY CONSISTENT)
-43. **GW231123** (LVK 2025, ApJL 993 L25, July 2025) — most massive BBH merger to date, 190-265 M☉ total, 225 M☉ final in pair-instability mass gap; energetic event in SIDC corresponds to 2D universe creation (QUALITATIVELY CONSISTENT)
-44. **GW230529 NSBH** (LVK 2024, with 2025 kilonova/follow-up papers) — mass-gap primary 2.5-4.5 M☉; SIDC silent on NSBH mass distributions (QUALITATIVELY CONSISTENT)
+43. **GW231123** (LVK 2025, ApJL 993 L25, July 2025) — most massive BBH merger to date, 190-265 $M_\odot$ total, 225 $M_\odot$ final in pair-instability mass gap; energetic event in SIDC corresponds to 2D universe creation (QUALITATIVELY CONSISTENT)
+44. **GW230529 NSBH** (LVK 2024, with 2025 kilonova/follow-up papers) — mass-gap primary 2.5-4.5 $M_\odot$; SIDC silent on NSBH mass distributions (QUALITATIVELY CONSISTENT)
 45. **ACT DR6 + DESI DR1 + Planck NPIPE joint $H_0$** (Maus+ 2025, arXiv:2505.20656) — $H_0$ = 69.08 $\pm$ 0.37 km/s/Mpc (most precise joint CMB+BAO $H_0$); SIDC $H_{0,4D}$ = 70.16 sits between this and SH0ES (QUALITATIVELY CONSISTENT)
 
 SIDC's **2 remaining free parameters** are $\mu$ (2D cosmological constant) and $m_{3+1D}$ (effective DM mass) — equivalent to "why $\Lambda$ = ?" and "why m_DM = ?" — and require a 2D CFT theoretical physicist to derive.
@@ -619,10 +619,10 @@ The 47 Tuc test does NOT depend on the speculative end-of-universe extension in 
 
 A new section §10 derives speculative but *testable* end-of-universe signatures from SIDC's energy-scaling ladder:
 
-- **Energy-scaling rule:** τ_{D-1} = $t_{\rm Pl}$,3 $\times$ (E_D/$E_{\rm Pl}$,3)^1.29, with $\alpha$ = 1.29 forced by SN 33s calibration
+- **Energy-scaling rule:** τ_{D-1} = $t_{\rm Pl,3+1D}$ $\times$ (E_D/$E_{\rm Pl,3+1D}$)^1.29, with $\alpha$ = 1.29 forced by SN 33s calibration
 - **Relativistic-particle analogy:** 2D universes are "particles" with mass-dependent time dilation; smaller (lower-E) events create "lighter" 2D universes with more time dilation
-- **$M_{\rm Pl}$,4 $\geq$ 887 GeV floor:** derived from the 3D-alive constraint, coincides with ADD-model electroweak-scale prediction
-- **If $M_{\rm Pl}$,4 $\sim {\rm TeV}$:** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life)
+- **$M_{\rm Pl,4D}$ $\geq$ 887 GeV floor:** derived from the 3D-alive constraint, coincides with ADD-model electroweak-scale prediction
+- **If $M_{\rm Pl,4D}$ $\sim {\rm TeV}$:** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life)
 - **Testable signatures:** DESI DR3 evolving DE (3.5σ), LSST Y1 DE-density decrease, declining cosmic SFR, GW background
 - **LISA detection prospects (§10.17):** SIDC's SN death GW at 0.03 Hz is **6-14 orders below LISA noise** for any reasonable $\epsilon_{\rm GW}$. A NULL LISA result is consistent with (not contradictory to) SIDC. SIDC's high-energy death GW (BNS, AGN) is detectable by **PTAs** (NANOGrav, EPTA, SKA-MPG) at nHz frequencies, not LISA.
 - **Testable window:** 2026 (DESI DR3) to 2034 (LISA launch) is the critical 5-10 year window.
@@ -706,7 +706,7 @@ at z $\sim 10$--$12$.
 
 **SIDC's interpretation**: these galaxies are SIDC's
 **strongest observational evidence**. They have:
-- Very high past SF ($10^{9}$--$10^{10}$ $M_\odot$ in $\sim 200 Myr at z $\sim 10-12)
+- Very high past SF ($10^{9}$--$10^{10}$ $M_\odot$ in $\sim 200$ Myr at $z \sim 10$--$12$)
 - Many SN events ($10^{6}$--$10^{7}$ CCSN per galaxy)
 - Total SN energy $\sim 10^{55}$--$10^{56}$ J per galaxy
 - SIDC prediction: $M_{dyn}/M_b$ should be VERY HIGH (consistent
@@ -810,8 +810,8 @@ The full simulation: `python3 calculations/cascade_model.py --outliers`
 - §7.1 Open-Source Scientific Collaboration
 - §8 Appendix
 - §8.1.1–§8.1.10 External constraints catalog (45 constraints from 2024-2026 web research)
-- §10 Speculative extension: End-of-Universe Signatures (energy-scaling ladder, $M_{\rm Pl}$,4 floor, LISA/PTA predictions)
-- §10.1–§10.17 sub-sections (lifespan, $M_{\rm Pl}$,4, end-of-universe, sensitivity, 2D CFT, death GW, LISA detection prospects)
+- §10 Speculative extension: End-of-Universe Signatures (energy-scaling ladder, $M_{\rm Pl,4D}$ floor, LISA/PTA predictions)
+- §10.1–§10.17 sub-sections (lifespan, $M_{\rm Pl,4D}$, end-of-universe, sensitivity, 2D CFT, death GW, LISA detection prospects)
 - §11 Testable predictions for current and upcoming surveys (47 Tuc test for Rubin/LSST DP1/DR1/Y10)
 - §11.1–§11.7 sub-sections (SIDC DM mechanism, 47 Tuc calculation, falsifiability matrix)
 - §12 Galaxy-Zoo Test Suite: 11/11 pass on real data
@@ -830,8 +830,8 @@ The full simulation: `python3 calculations/cascade_model.py --outliers`
 - 1 NEW SIDC PREDICTION: 2D universe birth stochastic GW background, testable with SKA-MPG in 2030s
 - **§10 SPECULATIVE EXTENSION added (June 2026):** End-of-Universe Signatures from energy-scaling ladder
   - Energy-scaling rule $\alpha$ =1.29 forced by SN 33s)
-  - $M_{\rm Pl}$,4 $\geq$ 887 GeV floor (electroweak scale, ADD model)
-  - 3D universe at end of life (if $M_{\rm Pl}$,4 $\sim {\rm TeV}$)
+  - $M_{\rm Pl,4D}$ $\geq$ 887 GeV floor (electroweak scale, ADD model)
+  - 3D universe at end of life (if $M_{\rm Pl,4D}$ $\sim {\rm TeV}$)
   - LISA detection prospects: SIDC's SN death GW is **6-14 orders below LISA noise**; SIDC's BNS/AGN death GW is detectable by PTAs in 2030s
   - Testable window 2026-2034 (DESI DR3 $\to$ LISA launch)
 - **§11 TESTABLE PREDICTIONS added (June 2026):** Near-term testable predictions for current/upcoming surveys

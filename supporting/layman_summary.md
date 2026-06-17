@@ -151,7 +151,7 @@ SIDC makes a striking prediction: **if the 4D's fundamental Planck mass is at th
 
 This depends on two unknowns:
 - **The exact form of the energy-scaling rule** (SIDC's rule fits one data point, with the exponent uncertain by ~1%, which translates to ~60% uncertainty in the universe's total lifespan)
-- **The 4D Planck mass** (SIDC derives a *floor* of $M_{\rm Pl}$,4 $\geq$ 887 GeV, but the actual value could be anywhere from 887 GeV to $10^{19}$ GeV)
+- **The 4D Planck mass** (SIDC derives a *floor* of $M_{\rm Pl,4D}$ $\geq$ 887 GeV, but the actual value could be anywhere from 887 GeV to $10^{19}$ GeV)
 
 **Testable signatures:**
 - DESI's detection of evolving dark energy (3.5σ) could be the first hint
@@ -194,7 +194,7 @@ SIDC's *most distinctive testable predictions*:
 SIDC is a **thought experiment**, not a derivation from first principles. The honest caveats:
 
 - **The 2D CFT (c=1 matrix model) doesn't directly give the energy-scaling rule.** The rule is a *fit* to one data point (the 33-second 2D universe from a supernova), not a first-principles derivation.
-- **The exact value of the 4D Planck mass is unknown.** SIDC derives a *floor* of 887 GeV (electroweak scale), but the actual $M_{\rm Pl}$,4 could be anywhere from 887 GeV to $10^{19}$ GeV.
+- **The exact value of the 4D Planck mass is unknown.** SIDC derives a *floor* of 887 GeV (electroweak scale), but the actual $M_{\rm Pl,4D}$ could be anywhere from 887 GeV to $10^{19}$ GeV.
 - **The "end-of-universe in 1-10 Gyr" timeline is fragile.** It depends sensitively on both the energy-scaling exponent and the 4D Planck mass. With different assumptions, the 3D could live forever (no end) or already be at the very end.
 - **SIDC has 0 strongly confirmed, 0 falsified predictions.** It's *consistent* with current data without being *established* by it.
 
