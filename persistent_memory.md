@@ -150,6 +150,23 @@ give α = 1.289 directly.
 **Total Lagrangian attempts**: v1-v19 = 19 attempts. Closed: 3. Partial: 3. Honest negatives: 13.
 
 **v3.0.21 GROUND TRUTHS (paper consistency, latest)**:
+
+
+**v3.0.21 GROUND TRUTHS PROMINENTLY FEATURED (paper AND README)**:
+
+Both ground truths are now featured in:
+- Paper: §01_executive_summary.md "🎯 TWO MAIN POINTS" section
+- README: top "🎯 THE TWO MAIN POINTS (v3.0.21, GROUND TRUTH)" section
+
+These are NOT buried in the body — they appear right after the abstract
+and before any other content. Reader sees:
+1. SCALING LAW (Main Point #1): τ_2D = 33 s × (E_3D / 10^44 J)^1.29
+2. CLOSED LOOP (Main Point #2): f_back = (t_Pl,3/τ_4D) × (τ_SN/τ_universe) × (E_4D/E_SN)^(1/2α)
+
+Both use SAME α = 1.289 from N = 12 SYK.
+
+NOTE on LaTeX escaping: pandoc struggles with `{1/(2α)}` (interprets
+the `{2α}` as LaTeX grouping). Use `(1/2α)` with Unicode α instead.
 1. **SCALING LAW** (§10.1): τ_2D = 33 s × (E_3D / 10^44 J)^1.29
    - 3D event (in our universe) creates 2D universe — CALIBRATED at SN 33s
    - 8/8 3D events match within factor 1.6 (median 1.024)
