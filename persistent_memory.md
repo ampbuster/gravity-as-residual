@@ -125,12 +125,13 @@ bash paper/build_pdf.sh --dry-run FILE.md  # check specific files
 
 
 **v3.0.21 update 2**: §3.62.2 + L93-L97 summarize 5 more attempts (v14-v19).
-- v14/v14c: M^1.29 scaling IS the time dilation (§3.17). v14c corrected check:
-  - Invert scaling to get E_implied from tau_obs
-  - SN1987A, Long GRB, AGN, Type Ia SN: within 30x of natural E ✓
-  - GW chirps: off by 200x to 3e5x (chirp duration not the right tau_obs)
-  - Low-E events: NOT 4D brane-tearing events
-  - L93 REVISED: scaling is the time dilation, not an independent check
+- v14/v14c/v14d: scaling law IS the time dilation. ACTUAL formula from §10.1:
+    T = 33 s × (E_D / 10^44 J)^1.29
+  - E_D = D-event energy (NOT radiated energy)
+  - v14c was wrong (used radiated E instead of D-event E)
+  - v14d: all 9 events from §10.1 match within factor 1.6
+  - L93 CLOSED: scaling law internally consistent
+  - E_natural IS E_D (the event energy) — no mismatch
 - v15: Variational Liouville + DOZZ — μ is NOT structural in c=1 Liouville
 - v16: 2D theory comparison — α = 1.289 = 1 (SR) + 1/√12 (N=12 finite-N)
 - v17: Large-N extrapolation of SYK — pure SYK q=4 N=12 gives α ~ 1, not 1.289
