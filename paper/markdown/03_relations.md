@@ -1990,7 +1990,7 @@ For low-z dwarfs (z = 0-0.1), F(z) ≈ 1. For moderate-z dwarfs
 
 SIDC predicts a continuous distribution of intermediate F(z)
 values, with ~10-30% of field dwarfs in the "intermediate" range
-F(z) = 0.1-0.5, corresponding to log(M*/$M_\odot$) ≈ 8.5-9.5.
+F(z) = 0.1-0.5, corresponding to $\log(M_*/M_\odot) ≈ 8.5-9.5.$
 
 **3.26.2 Web research: intermediate dwarfs ARE being found (2025-2026).**
 
@@ -2000,7 +2000,7 @@ dwarfs are being discovered in 2025-2026:
 **Bidaran et al. 2025** (arXiv:2501.02910): "The puzzle of isolated
 and quenched dwarf galaxies in cosmic voids" reports "the FIRST
 detection of a sample of quenched and isolated dwarf galaxies" with
-log(M*/$M_\odot$) = 8.9-9.5, in the least dense regions of the cosmic
+$\log(M_*/M_\odot) = 8.9-9.5$, in the least dense regions of the cosmic
 web, with no neighbour within 1.0 Mpc. This is exactly the kind of
 intermediate population SIDC predicts.
 
@@ -2042,7 +2042,7 @@ SIDC's smooth F(z) makes specific testable predictions:
 
 1. **Population fraction**: ~10-30% of field dwarfs should be in
    the "intermediate" F(z) range (0.1-0.5), corresponding to
-   log(M*/$M_\odot$) ≈ 8.5-9.5.
+   $\log(M_*/M_\odot) ≈ 8.5-9.5.$
 
 2. **Smooth distribution**: The F(z) distribution of isolated
    quenched dwarfs should follow the smooth Hill function, NOT

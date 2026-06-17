@@ -849,9 +849,9 @@ This section lists SIDC's most specific, testable predictions, the corresponding
 #### Tier 1: Most discriminative predictions (SIDC vs ΛCDM disagree)
 
 **1. AGN host galaxy DM content at fixed M*.**
-- *SIDC prediction*: AGN hosts have ~5% higher $M_{dyn}$/M* at fixed M* (the "active" contribution to DM scales with current energetic event rate, which is highest in AGN).
+- *SIDC prediction*: AGN hosts have ~5% higher $M_{dyn}/M_*$ at fixed M* (the "active" contribution to DM scales with current energetic event rate, which is highest in AGN).
 - *ΛCDM prediction*: No correlation between AGN activity and DM at fixed M* (DM is set at halo formation).
-- *Current data*: Test 1 (§4.19) using MaNGA DR15 finds the test is heavily *confounded by morphology* (high-SFR galaxies are mostly late-type with intrinsically low $M_{dyn}$/M*). SIDC's +5% is BELOW the morphology effect (~30%). A definitive test requires BPT-classified AGN (not just logSFRHa), morphology-matched controls, and Vrot measurements (not just velocity dispersion). Status: **untested, not falsified, but not yet confirmable with current data.**
+- *Current data*: Test 1 (§4.19) using MaNGA DR15 finds the test is heavily *confounded by morphology* (high-SFR galaxies are mostly late-type with intrinsically low $M_{dyn}/M_*$). SIDC's +5% is BELOW the morphology effect (~30%). A definitive test requires BPT-classified AGN (not just logSFRHa), morphology-matched controls, and Vrot measurements (not just velocity dispersion). Status: **untested, not falsified, but not yet confirmable with current data.**
 
 **2. Direct detection of particle DM.**
 - *SIDC prediction*: Zero signal at all cross sections. DM is geometric, not a particle. There is NO WIMP-nucleon coupling.
@@ -859,14 +859,14 @@ This section lists SIDC's most specific, testable predictions, the corresponding
 - *Current data*: LZ 2024 gives $\sigma_{\rm SI}$ < $9.2 \times 10^{-48}$ ${\rm cm}^2$ (best limit), with no detection across ~8.5 tonne-year of exposure. WIMP "miracle" parameter space excluded by ~4 orders of magnitude. Status: **consistent with SIDC; would be falsified by ANY future detection.** Sub-threshold WIMPs remain a logical escape for ΛCDM until G3-class experiments reach $\sigma_{\rm SI}$ ~ $10^{-50}$ ${\rm cm}^2$.
 
 **3. Halo mass vs M* evolution with redshift.**
-- *SIDC prediction*: $M_{\rm halo}$/M* at fixed M* should DECREASE with z (the cumulative return from past activity is LESS at high z because less time has elapsed for the integrated event history).
-- *ΛCDM prediction*: $M_{\rm halo}$/M* at fixed M* should be CONSTANT (halo mass set at formation, not affected by cosmic time).
+- *SIDC prediction*: $M_{\rm halo}/M_*$ at fixed M* should DECREASE with z (the cumulative return from past activity is LESS at high z because less time has elapsed for the integrated event history).
+- *ΛCDM prediction*: $M_{\rm halo}/M_*$ at fixed M* should be CONSTANT (halo mass set at formation, not affected by cosmic time).
 - *Current data*: Not yet tested. Requires high-z weak lensing surveys (ZFOURGE, CANDELS, 3D-HST) cross-matched with low-z control samples. Status: **not yet tested; a positive result would confirm SIDC's time-dependent cumulative-return picture.**
 
 **4. Gamma-ray burst (GRB) host galaxies DM content.**
-- *SIDC prediction*: GRB hosts have *notably* higher $M_{dyn}$/M* than non-GRB hosts (GRBs are the most extreme energetic events; their hosts should have the highest current event rates and thus the highest active DM contribution).
+- *SIDC prediction*: GRB hosts have *notably* higher $M_{dyn}/M_*$ than non-GRB hosts (GRBs are the most extreme energetic events; their hosts should have the highest current event rates and thus the highest active DM contribution).
 - *ΛCDM prediction*: No correlation between GRB activity and DM at fixed M*.
-- *Current data*: Not yet tested. GRB host catalogs (Savaglio+ 2009 with ~80 hosts) have measured $M_{dyn}$ from gas rotation curves, but no published comparison to a matched non-GRB control sample at fixed M* exists. Status: **not yet tested; would be a strong confirmation if GRB hosts show elevated $M_{dyn}$/M*.**
+- *Current data*: Not yet tested. GRB host catalogs (Savaglio+ 2009 with ~80 hosts) have measured $M_{dyn}$ from gas rotation curves, but no published comparison to a matched non-GRB control sample at fixed M* exists. Status: **not yet tested; would be a strong confirmation if GRB hosts show elevated $M_{dyn}/M_*$.**
 
 #### Tier 2: Suggestive tests (SIDC vs ΛCDM differ, but ΛCDM has workarounds)
 
@@ -921,16 +921,16 @@ BTF slope, RAR, w, CMB, BBN        Same                Same                  NOT
 
 A single clear falsification would be:
 1. A confirmed direct detection of WIMP-like DM (SIDC predicts zero, this would be inconsistent).
-2. A AGN host population with $M_{dyn}$/M* at fixed M* *significantly LESS* than SIDC's +5% prediction AND the morphology confound fully controlled (SIDC predicts positive, this would be inconsistent).
-3. A measured $M_{\rm halo}$/M* at fixed M* that is CONSTANT with z (SIDC predicts decreasing with z, this would be inconsistent).
-4. GRB hosts with $M_{dyn}$/M* at fixed M* NOT elevated compared to non-GRB (SIDC predicts elevated, this would be inconsistent).
+2. A AGN host population with $M_{dyn}/M_*$ at fixed M* *significantly LESS* than SIDC's +5% prediction AND the morphology confound fully controlled (SIDC predicts positive, this would be inconsistent).
+3. A measured $M_{\rm halo}/M_*$ at fixed M* that is CONSTANT with z (SIDC predicts decreasing with z, this would be inconsistent).
+4. GRB hosts with $M_{dyn}/M_*$ at fixed M* NOT elevated compared to non-GRB (SIDC predicts elevated, this would be inconsistent).
 
 #### What would CONFIRM SIDC?
 
 Confirmation would require:
-1. A precision AGN host test (with BPT classification, Vrot measurements, and morphology matching) showing $M_{dyn}$/M*_AGN = (1.05 ± 0.05) × $M_{dyn}$/M*_control at fixed M*.
-2. A measurement of $M_{\rm halo}$/M* at fixed M* decreasing by ~10-20% per unit redshift (z = 0 vs z = 1).
-3. A measurement of GRB hosts showing $M_{dyn}$/M*_GRB > $M_{dyn}$/M*_control by >10% at fixed M* (SIDC's most extreme prediction).
+1. A precision AGN host test (with BPT classification, Vrot measurements, and morphology matching) showing $M_{dyn}/M_*$_AGN = (1.05 ± 0.05) × $M_{dyn}/M_*$_control at fixed M*.
+2. A measurement of $M_{\rm halo}/M_*$ at fixed M* decreasing by ~10-20% per unit redshift (z = 0 vs z = 1).
+3. A measurement of GRB hosts showing $M_{dyn}/M_*$_GRB > $M_{dyn}/M_*$_control by >10% at fixed M* (SIDC's most extreme prediction).
 4. Continued null results in direct detection at the G3 experimental level (σ < $10^{-49}$ ${\rm cm}^2$ by 2030).
 
 #### Honest assessment of SIDC's empirical status
