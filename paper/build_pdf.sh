@@ -740,6 +740,14 @@
 #   RULE 3: Ratios -> $X/Y$ in math
 #   RULE 4: $E^{N}$ always with braces
 #   RULE 5: M^1.29 (name) vs E^1.29 (physics) -- both OK in context
+#     - 'M^1.29' as plain text is the CANONICAL NAME of the scaling law
+#       (e.g., headings: '## ⚖️ THE SCALING LAW: M^1.29 ACROSS ...')
+#     - 'M^{1.29}' in math is the PHYSICS expression (e.g., equations)
+#     - 'E^{1.29}' is the energy form (dimensionally equivalent via E=Mc²)
+#     - WRONG: 'τ_{2D} ~ M^1.29' in math → renders as M^{1}.29
+#       (only '1' is superscript, '.29' is plain text)
+#     - RIGHT: 'τ_{2D} ∼ M^{1.29}' in math
+#     Found in paper/01_executive_summary.md L81, paper/03_relations.md L3058/3066/3221/3229/3419
 #   RULE 6: e-notation -> $\times 10^{...}$ in body text
 #   RULE 7: ☉ for solar mass, -- for ranges, \approx for ≈
 #   RULE 8: Greek letters always as \alpha not α
