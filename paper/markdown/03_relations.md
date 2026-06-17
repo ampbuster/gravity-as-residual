@@ -50,7 +50,7 @@ The model in this paper is one of several recent proposals that attempt to unify
 
 **The SIDC-MOND hybrid's empirical status (v2.3.0):**
 - Galaxy scale (SPARC, 175 galaxies): 10% median residual with free g₊ and M/L (commit 153)
-- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = 1.3e-9 (1σ: 5.3e-10 to 2.7e-9), matches Tian+ 2024's 1.7e-9 within 1σ (commit 159)
+- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = $1.3 \times 10^{-9}$ (1σ: $5.3 \times 10^{-10}$ to $2.7 \times 10^{-9}$), matches Tian+ 2024's $1.7 \times 10^{-9}$ within 1σ (commit 159)
 - $V_{\rm local}$ predictions test (commit 170): $g_+ \propto \sigma^{1.85}$ matches MOND EFE ($g_+ \propto \sigma^2$) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
 
 **The SIDC-MOND hybrid is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.** SIDC's pure prediction ($g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$) was falsified by real SPARC (commit 152, Limitation 19). SIDC's *framework* (4D event → 3+1D → 2D, with cumulative 2D universe gravity) survives because the SIDC-MOND hybrid is a *natural completion*: SIDC provides the *geometric origin* of $g_+$, MOND provides the *functional form* of $g_{\rm obs}$($g_{\rm bar}$). The hybrid model is a *prediction* of SIDC (Limitation 27), and it's *consistent* with the cluster-scale data (Limitation 28). A specific implementation of SIDC would need to derive MOND's interpolation function from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture (Limitation 27).
@@ -3023,7 +3023,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 | c (central charge) | 1/2 | N/24 = 12/24 = 1/2 (Ising CFT) |
 | α (lifetime scaling) | 1.289 | 1 + 1/√N (saddle-point fluctuation) |
 | 1/(2α) (back-action) | 0.388 | c/α (composite) |
-| $f_{\rm back}$ (universal) | 8.6e-86 | (1/(2α))-powered formula |
+| $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$ | (1/(2α))-powered formula |
 
 **Why N = 12 is unique** (off by 0.001 from α = 1.29):
 
@@ -3054,7 +3054,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 4. q = 4 SYK with N = 12
 5. α = 1 + 1/√N scaling is universal
 6. c = 1/2 Ising CFT (specific)
-7. $f_{\rm back}$ = 8.6e-86 universal
+7. $f_{\rm back}$ = $8.6 \times 10^{-86}$ universal
 8. 14 event types follow $\tau_{2D}$ ~ M^1.29
 
 **What v3 derives (NEW)**:
@@ -3062,7 +3062,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 - α = 1.289 (lifetime scaling, EXACT from N=12)
 - c = 1/2 (Ising CFT, N/24)
 - 1/(2α) = 0.388 (back-action)
-- $f_{\rm back}$ = 8.6e-86 (universal, gives $10^{-85}$)
+- $f_{\rm back}$ = $8.6 \times 10^{-86}$ (universal, gives $10^{-85}$)
 - 14 event types follow $\tau_{2D}$ ~ M^1.29
 - 1/√N saddle-point theoretical support
 
@@ -3209,7 +3209,7 @@ All SIDC parameters now derived from a single number N = 12:
 | α | 1.289 | 1 + 1/√N (N=12) |
 | c | 1/2 | N/24 = 12/24 |
 | 1/(2α) | 0.388 | c/α (composite) |
-| $f_{\rm back}$ | 8.6e-86 | (1/(2α))-powered formula |
+| $f_{\rm back}$ | $8.6 \times 10^{-86}$ | (1/(2α))-powered formula |
 | All others | — | Functions of α, c |
 
 **L79 NEW**: All SIDC consequences follow from N=12 SYK.
@@ -3311,7 +3311,7 @@ above BLG's 1.1°).
 - A_event = 1
 - ε = $10^{-38}$
 - $z_{\rm half}$ = 3
-- **$f_{\rm back}$ ≈ 8.6e-86 (UNIVERSAL, scaling law)** ← L52 CLOSED
+- **$f_{\rm back}$ ≈ $8.6 \times 10^{-86}$ (UNIVERSAL, scaling law)** ← L52 CLOSED
 - **N_majorana = 12 (q=4 SYK)** ← L68 NEW
 - **12 = 12 SM Weyl fermions (3 × 4)** ← L72, L75, L78 NEW
 - **Topology: Nariai black hole (extremal $\dS_2$, T = 0)** ← L82 NEW
@@ -3415,7 +3415,7 @@ The composite model is honest about its limits:
 - α = 1.289 (lifetime scaling, EXACT from N=12)
 - c = 1/2 (Ising CFT, N/24)
 - 1/(2α) = 0.388 (back-action)
-- $f_{\rm back}$ = 8.6e-86 (universal, gives $10^{-85}$)
+- $f_{\rm back}$ = $8.6 \times 10^{-86}$ (universal, gives $10^{-85}$)
 - 14 event types follow $\tau_{2D}$ ~ M^1.29
 - 1/√N saddle-point theoretical support
 
@@ -3432,7 +3432,7 @@ The composite model is honest about its limits:
 - A_event = 1
 - ε = $10^{-38}$
 - $z_{\rm half}$ = 3
-- **$f_{\rm back}$ ≈ 8.6e-86 (UNIVERSAL)** ← L52 CLOSED
+- **$f_{\rm back}$ ≈ $8.6 \times 10^{-86}$ (UNIVERSAL)** ← L52 CLOSED
 - **N_majorana = 12 (q=4 SYK, BACKBONE for SM)** ← L68, L78, L84
 - **Topology: $\AdS_2$ × S² + Majorana matter** ← L82 REVISED
 - **Magic angle: 1.5-2.0° (BLG-like, model-dependent)** ← L83 REVISED

@@ -1078,10 +1078,10 @@ The Mass Discrepancy-Acceleration Relation (MDAR) for dSphs complements the SPAR
 
 *Data:* Same 10 MW dSphs as Test 9. Compute $g_{\rm bar}$ (from $M_\star$ and $r_h$) and $g_{\rm obs}$ (from sigma).
 
-*SIDC-MOND hybrid prediction:* $g_{\rm obs}$/$g_{\rm bar}$ = 1 + sqrt($g_+$/$g_{\rm bar}$) at low $g_{\rm bar}$. MOND scale $g_+$ = 1.2e-10 m/s^2.
+*SIDC-MOND hybrid prediction:* $g_{\rm obs}$/$g_{\rm bar}$ = 1 + sqrt($g_+$/$g_{\rm bar}$) at low $g_{\rm bar}$. MOND scale $g_+$ = $1.2 \times 10^{-10}$ m/s^2.
 
 *Results:*
-- Median $g_{\rm bar}$: 1.1e-12 m/s^2
+- Median $g_{\rm bar}$: $1.1 \times 10^{-12}$ m/s^2
 - Median $g_{\rm obs}$/$g_{\rm bar}$: 30.8
 - Median MOND prediction: 11.4
 - Median log residual: 0.47 dex (factor of ~2)
@@ -1358,20 +1358,20 @@ SIDC is **scale-invariant by default** (per v2.3.1), meaning the same dimensiona
 
 This section audits 5 specific concerns about the 4D math. Full numerical analysis is in `calculations/audit_4d_math.py` and `calculations/audit_4d_math_results.txt`.
 
-**(1) Hierarchy concentration at 4D→3+1D.** Strict scale-invariance would distribute the observed Planck hierarchy (1e-38) across all SIDC levels (e.g., ~1e-19 per level for 2 levels, ~2e-13 for 3 levels). SIDC **POSTULATES** that the hierarchy is concentrated at the 4D→3+1D level, not distributed. This is an **architectural choice**, not a derivation. SIDC does not currently say *why* 4D is the special hierarchy-generating level — this is Limitation 1 (no derivation of the dimensional structure).
+**(1) Hierarchy concentration at 4D→3+1D.** Strict scale-invariance would distribute the observed Planck hierarchy ($1 \times 10^{-38}$) across all SIDC levels (e.g., ~$1 \times 10^{-19}$ per level for 2 levels, ~$2 \times 10^{-13}$ for 3 levels). SIDC **POSTULATES** that the hierarchy is concentrated at the 4D→3+1D level, not distributed. This is an **architectural choice**, not a derivation. SIDC does not currently say *why* 4D is the special hierarchy-generating level — this is Limitation 1 (no derivation of the dimensional structure).
 
-**(2) Time direction.** SIDC's time-dilation rule T_3+1D = T_4D / ε_3+1D with ε_3+1D ~ 1e-38 gives T_4D ~ 1e-21 s and L_4D ~ 1e-12 m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
+**(2) Time direction.** SIDC's time-dilation rule T_3+1D = T_4D / ε_3+1D with ε_3+1D ~ $1 \times 10^{-38}$ gives T_4D ~ $1 \times 10^{-21}$ s and L_4D ~ $1 \times 10^{-12}$ m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
 
 **(3) Energy conservation.** SIDC's energy budget: 32% of $E_{4D}$ projects to 3+1D (5% direct matter + 27% cumulative 2D universe DM), and 68% remains as 4D antigravity (which we observe as 3+1D's dark energy). This is self-consistent under careful interpretation of "projection" — the 68% DE in 3+1D is the *back-projected antigravity* of the 4D event, not the 68% of $E_{4D}$ that didn't project. Total energy is conserved via Stoke's theorem in the action (§2.5.1).
 
-**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires ~1e-19 hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
+**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires ~$1 \times 10^{-19}$ hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
 
 **(5) Infinite regress.** In strict scale-invariance, SIDC has no "top" or "bottom" — it extends infinitely in both directions. Physics does not require a "first cause" (e.g., eternal inflation has no first moment). Each level is self-consistent. Energy is conserved at every level (Stoke's theorem). SIDC is OK with infinite regress, but the v2.1 cone-shape alternative (terminal at 2D) avoids the question by fiat. Both are valid; the choice is architectural (Limitation 11.5).
 
 **VERDICT: 4D math is self-consistent, with limitations:**
 
 **[PASS]** Hierarchy is concentrated at 4D→3+1D (matches observation, but is a postulate)
-**[PASS]** Time direction works (T_4D ~ 1e-21 s, L_4D ~ 1e-12 m, Dark Dimension scale)
+**[PASS]** Time direction works (T_4D ~ $1 \times 10^{-21}$ s, L_4D ~ $1 \times 10^{-12}$ m, Dark Dimension scale)
 **[PASS]** Energy conservation is consistent
 **[PASS]** Open upward is mathematically OK
 **[PASS]** Infinite regress is physically acceptable
@@ -1470,7 +1470,7 @@ where:
 | 1 | Dimensional structure: 4D bulk + 3+1D brane + 2D universes | **[PASS]** SATISFIED by construction |
 | 2 | Projection efficiency: 32% projected, 68% antigravity | ? OPEN: requires specific geometry |
 | 3 | Inner split: 5% direct, 27% cumulative 2D | ? OPEN: requires 2D lifetime analysis |
-| 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε~1e-38) |
+| 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε~$1 \times 10^{-38}$) |
 | 5 | $f_{\rm active}$ = 0.0513 ± 0.0073 | ? OPEN: requires $\tau_{2D}$/$T_{\rm universe}$ (done in §4.35) |
 | 6 | Spatial distribution: isothermal cumulative | **[PASS]** SATISFIED (2D 1/r gravity gives isothermal) |
 | 7 | $H_0$ = 70 ± 3 (qualitative consistency) | ? OPEN: requires 2D CFT for specific value |
@@ -1511,7 +1511,7 @@ Per user question "can't we trial-and-error on the free parameters?", this secti
 **Q1 & Q4: Can trial-and-error give 32% projection efficiency?** YES.
 
 For f_split = 0.32 (SIDC's 32%/68% split between projected and antigravity, NOT to be confused with the back-projection efficiency f_proj used elsewhere in the paper), the bulk-brane coupling α must be at a specific order of magnitude:
-- For $E_{4D}$ ~ 1e60 J (rough 4D event total energy), N_events ~ 1e10 (total SN in 13.8 Gyr), E_event ~ 1e44 J, $\tau_{2D}$ ~ 0.7 Gyr:
+- For $E_{4D}$ ~ $1 \times 10^{60}$ J (rough 4D event total energy), N_events ~ $1 \times 10^{10}$ (total SN in 13.8 Gyr), E_event ~ $1 \times 10^{44}$ J, $\tau_{2D}$ ~ 0.7 Gyr:
 - α ~ 0.03-0.3 gives f_split ≈ 0.32
 
 The coupling α is NOT free — it's constrained to α ~ 0.03-0.3 by the observed 68% dark energy. This **partially closes Limitation 26** by reducing the free parameters from 5 to 3.
@@ -1538,11 +1538,11 @@ Reverting to 2D=3+1D would require:
 **Q3: What gives $\tau_{2D}$ = 0.7 Gyr?** YES, with fine-tuning.
 
 SIDC's $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ = 0.7/13.8 = 0.051 requires $\tau_{2D}$ = 0.7 Gyr (the gas consumption timescale). This is **not arbitrary** — it's a specific timescale that can be matched by:
-- $M_{2D}$ ~ 1e46 J (2D universe's total energy)
-- L_consumption ~ 1e28 W (2D universe's energy consumption rate)
+- $M_{2D}$ ~ $1 \times 10^{46}$ J (2D universe's total energy)
+- L_consumption ~ $1 \times 10^{28}$ W (2D universe's energy consumption rate)
 - → $\tau_{2D}$ = $M_{2D}$ / L_consumption = 0.7 Gyr **[PASS]**
 
-This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D}$ ~ 1e46 J and gas consumption rate ~ 1e28 W would naturally have a 0.7 Gyr lifetime.
+This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D}$ ~ $1 \times 10^{46}$ J and gas consumption rate ~ $1 \times 10^{28}$ W would naturally have a 0.7 Gyr lifetime.
 
 **Q4 (Q4 again): Can the 5/27 inner split emerge from dynamics?** NO, the 5/27 inner split was DROPPED in v2.7.1.
 
@@ -1566,7 +1566,7 @@ A 2D CFT calculation is needed to derive the specific active boost and cumulativ
 |---|-----------|------------------------|--------|
 | 1 | L_2D (2D matter content) | NO | Requires picking a specific 2D theory (not derivable) |
 | 2 | α (bulk-brane coupling) | YES | α ~ 0.03-0.3 for f_split = 0.32 **[PASS]** |
-| 3 | Death mechanism | YES | $M_{2D}$ ~ 1e46 J, L_rate ~ 1e28 W for $\tau_{2D}$ = 0.7 Gyr **[PASS]** |
+| 3 | Death mechanism | YES | $M_{2D}$ ~ $1 \times 10^{46}$ J, L_rate ~ $1 \times 10^{28}$ W for $\tau_{2D}$ = 0.7 Gyr **[PASS]** |
 | 4 | T^DM at death (spatial) | NO | Requires picking a specific distribution (not derivable) |
 | 5 | 5/27/68 inner split | YES (resolved §4.35) | $f_{\rm active}$ = $\tau_{2D}$/$T_{\rm universe}$ = 0.051 **[PASS]** |
 
@@ -1775,7 +1775,7 @@ This gives $S_8$(SIDC) ~ 0.775-0.815, which is:
 | Planck ΛCDM | 0.832 | +2.92σ | 0.00σ |
 | DES Y3 (observed) | 0.759 | 0.00σ | -5.62σ |
 | KiDS-1000 (observed) | 0.759 | 0.00σ | -5.62σ |
-| SIDC ($\sigma_8$=0.75) | 0.775 | +0.62σ | -4.42σ |
+| SIDC ($\sigma_8$ = 0.75) | 0.775 | +0.62σ | -4.42σ |
 | SIDC ($\sigma_8$=0.77) | 0.795 | +1.45σ | -2.83σ |
 | SIDC ($\sigma_8$=0.79) | 0.816 | +2.28σ | -1.24σ |
 
@@ -2266,13 +2266,13 @@ The paper §4.42 claims "$g_+$ is approximately universal across 4.5 decades in 
 
 **4. Cluster $g_+$ discrepancy (minor).**
 
-The MCMC fit on Tian+ 2024 cluster data gives $g_+$ = 1.05e-9 m/s² (with 0.20 dex scatter). Tian+ 2024 reports 1.7e-9 m/s². The 0.62× discrepancy is documented in the bcg_mcmc_results.json. The paper's cluster/galaxy ratio of 17.5× is computed from SIDC's median $g_+$ (9.74e-11) divided into Tian+ 2024's 1.7e-9, but SIDC's *own* MCMC best fit gives 1.05e-9, which is a 14.2× ratio. The paper is somewhat inconsistent in which value it uses.
+The MCMC fit on Tian+ 2024 cluster data gives $g_+$ = $1.05 \times 10^{-9}$ m/s² (with 0.20 dex scatter). Tian+ 2024 reports $1.7 \times 10^{-9}$ m/s². The 0.62× discrepancy is documented in the bcg_mcmc_results.json. The paper's cluster/galaxy ratio of 17.5× is computed from SIDC's median $g_+$ ($9.74 \times 10^{-11}$) divided into Tian+ 2024's $1.7 \times 10^{-9}$, but SIDC's *own* MCMC best fit gives $1.05 \times 10^{-9}$, which is a 14.2× ratio. The paper is somewhat inconsistent in which value it uses.
 
 **Status:** not a bug; honest reporting of MCMC, but the cluster/galaxy ratio could be more carefully derived from SIDC's own fit.
 
 **5. AGN partial correlation (verified).**
 
-The AGN host DM partial correlation (r = +0.367, p = 4e-57) uses a custom implementation of partial Spearman correlation (rank-transform + linear regression of ranks + Spearman on residuals). This is a *standard* methodology for partial rank correlation, and the result is statistically real. The p-value of 4e-57 reflects the large N (1190 AGN + 566 control = 1756 galaxies) and the real correlation after controlling for $M_{b}$.
+The AGN host DM partial correlation (r = +0.367, p = $4 \times 10^{-57}$) uses a custom implementation of partial Spearman correlation (rank-transform + linear regression of ranks + Spearman on residuals). This is a *standard* methodology for partial rank correlation, and the result is statistically real. The p-value of $4 \times 10^{-57}$ reflects the large N (1190 AGN + 566 control = 1756 galaxies) and the real correlation after controlling for $M_{b}$.
 
 **Status:** verified. The methodology is standard, the result is statistically robust. The "p < $10^{-50}$" claim in the paper is supported.
 
@@ -2290,7 +2290,7 @@ The cosmic shear test (§4.43) computes $S_8$ = 0.775 (SIDC) vs 0.759 (DES/KiDS)
 
 **8. SPARC RAR fit (verified).**
 
-The SPARC RAR fit uses 175 galaxies, with 43 passing the Q≥1 and residual<0.1 quality cut. The fitted $g_+$ = 9.74e-11 m/s² is within 20% of the empirical McGaugh+ 2016 value (1.20e-10). The data is correctly parsed from the SPARC `_rotmod.dat` files in `supporting/data/SPARC/`. The median $g_+$ across 4.5 decades in $M_{b}$ is consistent with SIDC's universal $g_+$ prediction.
+The SPARC RAR fit uses 175 galaxies, with 43 passing the Q≥1 and residual<0.1 quality cut. The fitted $g_+$ = $9.74 \times 10^{-11}$ m/s² is within 20% of the empirical McGaugh+ 2016 value ($1.20 \times 10^{-10}$). The data is correctly parsed from the SPARC `_rotmod.dat` files in `supporting/data/SPARC/`. The median $g_+$ across 4.5 decades in $M_{b}$ is consistent with SIDC's universal $g_+$ prediction.
 
 **Status:** verified. The 43-galaxy cut is a reasonable quality filter; the result is statistically robust.
 
@@ -2314,7 +2314,7 @@ The Sun's intrinsic DM is computed as ~$10^{-17}$ of the local DM, which is cons
 | BTFR slope (3.53 vs "V⁴") | LOW | Within range, not a bug |
 | Per-galaxy $g_+$ scatter (0.57 dex) | LOW | Documented as "approximately universal" |
 | Cluster $g_+$ discrepancy (0.62×) | LOW | Documented in MCMC results |
-| AGN partial correlation (p=4e-57) | NONE | Verified, real result |
+| AGN partial correlation (p=$4 \times 10^{-57}$) | NONE | Verified, real result |
 | CMB test (Δχ²=+650) | NONE | Verified, robust |
 | Cosmic shear $S_8$ | NONE | Honest qualitative |
 | SPARC RAR fit (43 galaxies) | NONE | Verified, robust |
@@ -2359,7 +2359,7 @@ SIDC's principle (§2.3, §2.5.3) says: *every energetic event creates a 2D univ
 The v5 calculation (`time_scale_invariance_test_v5.py`) fixes ALL bugs and uses the correct temperature. The result:
 
 - R(z) = R_stellar(z) + R_Thomson_proper(z) + R_recomb_proper(z) (with z_max = 2000)
-- Thomson rate is dominant at z > 4 (R_Thomson(6) = 3.7e44, R_stellar(6) = 3.1e42)
+- Thomson rate is dominant at z > 4 (R_Thomson(6) = $3.7 \times 10^{44}$, R_stellar(6) = $3.1 \times 10^{42}$)
 - r(z=6) = 342 ≈ (1+6)^3 = 343 (the expansion factor)
 - r(z=10) = 1327 ≈ (1+10)^3 = 1331
 - r(z=2) = 27 ≈ (1+2)^3 = 27
@@ -2402,7 +2402,7 @@ This is a meaningful distinction. The previous v2/v3 analysis was based on a bug
 
 **The v4 bug (missing (1+z)^3 factor).**
 
-The v4 function `rho_DM_integral_correct` returned the *integral* `∫ R/(E*(1+z)^4) dz` without multiplying by (1+z)^3. The ratio r(z) = integral(z)/integral(0) was reported as "r(z)", but the actual r(z) = (1+z)^3 * integral(z)/integral(0). The corrected r(z=6) = 7^3 * 8.5e-5 = 0.029 (NOT 1e-4 as v4 reported).
+The v4 function `rho_DM_integral_correct` returned the *integral* `∫ R/(E*(1+z)^4) dz` without multiplying by (1+z)^3. The ratio r(z) = integral(z)/integral(0) was reported as "r(z)", but the actual r(z) = (1+z)^3 * integral(z)/integral(0). The corrected r(z=6) = 7^3 * $8.5 \times 10^{-5}$ = 0.029 (NOT $1 \times 10^{-4}$ as v4 reported).
 
 This is a NOTATIONAL bug: the v4 function returns integral ratio, not r(z). With the (1+z)^3 factor included, r(z=6) = 0.029 (35× underprediction of DM at z=6).
 

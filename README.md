@@ -281,10 +281,10 @@ KKR 25's $M_{dyn}$ is **estimated** (⚠️), not measured.
 The $M_{dyn}/M_b$ ratio varies systematically with galaxy type:
 
 - **Globular clusters ($$10^{5}$$--$$10^{7}$$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 1 (no current activity)
-- **Dwarf galaxies ($10^{5}$--$10^{8}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 1-1700 (huge spread)
-- **UFDs ($$10^{2}$$--$$10^{4}$$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 50-1700 (extreme)
-- **Irregular galaxies ($10^{8}$--$10^{9}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 6-7
-- **Normal spirals ($$10^{10}$$--$$10^{11}$$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 14-30
+- **Dwarf galaxies ($10^{5}$--$10^{8}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 1$--$1700$ (huge spread)
+- **UFDs ($$10^{2}$$--$$10^{4}$$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 50$--$1700$ (extreme)
+- **Irregular galaxies ($10^{8}$--$10^{9}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 6$--$7
+- **Normal spirals ($$10^{10}$$--$$10^{11}$$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 14$--$30
 - **AGN hosts ($10^{12}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 50
 - **Galaxy clusters ($$10^{13}$$--$$10^{14}$$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 10-50
 
@@ -298,7 +298,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 
 **1. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
 - $M_{b}$ $\sim 7.3 $\times$ $$10^{8}$$ $M_\odot$ is measured
-- $M_{dyn}/M_b$ $\sim 1.36 (Mancera Piña 2022) vs $\sim 2-3 (Sellwood 2022)
+- $M_{dyn}/M_b$ $\sim 1.36$ (Mancera Piña 2022) vs $\sim 2$--$3$ (Sellwood 2022)
 - The 2022-2025 literature has **TWO contradictory conclusions**:
   - Mancera Piña 2022: "No trace of dark matter"
   - Sellwood 2022: "AGC 114905 NEEDS dark matter"
@@ -432,7 +432,7 @@ Even though Thomson has a *much higher rate* $\sim 10^{67}$ events/s/Mpc^3 vs SN
 
 **Honest framing.** The original v3 README analysis (which said "Thomson does the heavy lifting") was based on a pre-smooth-function code that used raw energy density (R_Thomson $\approx$ 1.4 $\times$ $10^{62}$ J/yr/Mpc³) without applying the $E^{1+\alpha}$ per-event weight. SIDC's *actual* $E^{1+\alpha}$ weighting makes Thomson's per-event contribution negligible. The r(z) $\approx$ (1+z)³ result is now explained by the **smooth $F_p(z)$ primordial component** (paper §4.48.1), not by Thomson.
 
-This is what the "scale-time invariance" means: SIDC is *energy-scale-invariant* in its law (every event creates a 2D universe weighted by a smooth $E^{1+\alpha}$ function, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. SIDC is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 3+1D-frame lifetime of $\sim 33 s for SN-scale events, set by the event size ℓ/c) is a *local* phenomenon preserved at every epoch. (Earlier 30 Gyr in 2D was a guess, dropped in v2.7.1; the 33 s is empirical, from the ℓ/c mapping, but it's SN-specific, not universal.)
+This is what the "scale-time invariance" means: SIDC is *energy-scale-invariant* in its law (every event creates a 2D universe weighted by a smooth $E^{1+\alpha}$ function, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. SIDC is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 3+1D-frame lifetime of $\sim 33$ s for SN-scale events, set by the event size ℓ/c) is a *local* phenomenon preserved at every epoch. (Earlier 30 Gyr in 2D was a guess, dropped in v2.7.1; the 33 s is empirical, from the ℓ/c mapping, but it's SN-specific, not universal.)
 
 **See:** `calculations/time_scale_invariance_test_v5.py`, `paper/paper.md` §4.47–§4.51
 
@@ -448,13 +448,13 @@ This is the cumulative result of the v2.4 work. SIDC's three main quantitative p
 | **r(z=6)** (proper DM density, relative) | 342.0 | 343 | ✓ MATCHES |
 | **r(z=10)** (proper DM density, relative) | 1327 | 1331 | ✓ MATCHES |
 | **Δχ² CMB** | +650 vs Planck ($H_0$ mismatch) | — | Hub tension only |
-| **$S_8$** (cosmic shear) | 0.775 ($\sigma_8$=0.75) | 0.759 (DES/KiDS) | within 1σ |
-| **$g_+$ per galaxy** (43 SPARC) | 9.74e-11 m/s² | 1.20e-10 (Lelli+ 2017) | within 1σ |
+| **$S_8$** (cosmic shear) | 0.775 ($\sigma_8$ = 0.75) | 0.759 (DES/KiDS) | within 1σ |
+| **$g_+$ per galaxy** (43 SPARC) | $9.74 \times 10^{-11}$ m/s² | $1.20 \times 10^{-10}$ (Lelli+ 2017) | within 1σ |
 | **BTFR slope** (129 SPARC) | 3.53 (predicted 4) | 3.53 | within 1σ |
 | **MDAR for dSphs** (10 dSphs) | factor $\sim 2 from MOND | factor $\sim 2 from MOND | ✓ MATCHES |
 | **AGN host DM** (morphology-matched) | +6.4% ratio | — | p=0.047 |
 | **AGC 114905** | contested (Mancera Piña 2022: $\sim 1, Sellwood 2022: $\sim 2-3) | $\sim 1-3 | ✓ PASS (DISPUTED, §3.45+) |
-| **KKR 25** ⚠️ | $\sim 1 (est.) | $\sim 1 (est., no published velocity dispersion) | ✓ PASS (est., v2.7.42+) |
+| **KKR 25** ⚠️ | $\sim 1$ (est.) | $\sim 1 (est., no published velocity dispersion) | ✓ PASS (est., v2.7.42+) |
 | **Hubble $H_0$** | 70 $\pm$ 3 (qualitative consistency) | 73 (SH0ES), 67.4 (Planck) | 5.6 km/s/Mpc gap is a ΛCDM-framework artifact (no specific $H_0$ derived) |
 | **Sun no-DM** | <$10^{-17}$ ratio | confirmed | ✓ PASS |
 
@@ -596,7 +596,7 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - **🎯 47 TUC TEST (§11):** PREDICTION (not yet a result). Near-term, low-cost, high-leverage falsification test in the context of Rubin/LSST DP1 (2025). SIDC predicts $M_{dyn} \approx M_{stars}$ (no local DM); particle DM predicts $M_{dyn} > M_{stars}$. Differentiates SIDC from particle DM. **Awaits DR1 (2027) or Y10 (2034).**
 - **🧪 36/36 GALAXY-ZOO TESTS PASS (§12):** consistency check from EXISTING data (not DP1). 47 Tuc, AGC 114905, KKR 25, MW, NGC 1052-DF2, Tucana dSph, Bullet Cluster, Omega Cen, M82, NGC 1275, Dragonfly 44. Necessary condition for SIDC, not sufficient.
 - **✅ CMB RESOLVED (§4.48.1, v2.7.5+):** the smooth $F_p(z)$ (Hill n=2, $z_{\rm half}$=3) primordial component gives r(z) $\approx$ (1+z)³ at high z, matching Planck 2018. SIDC's mechanism does NOT need early-DM. The CMB "gap" was closed by the primordial component.
-- **📊 MCMC RAR FIT (§13.7):** SIDC's RAR fit to 175 SPARC galaxies: $a_0$ = 2.34e-10 $\pm$ 1.54e-10 m/s^2, consistent with Li+ 2018 (1.20e-10). SIDC's RAR is statistically equivalent to MOND; the differentiator is the 47 Tuc test.
+- **📊 MCMC RAR FIT (§13.7):** SIDC's RAR fit to 175 SPARC galaxies: $a_0$ = $2.34 \times 10^{-10}$ $\pm$ $1.54 \times 10^{-10}$ m/s^2, consistent with Li+ 2018 ($1.20 \times 10^{-10}$). SIDC's RAR is statistically equivalent to MOND; the differentiator is the 47 Tuc test.
 - **Killer match:** TRGB $H_0$ = 69.8 $\pm$ 1.9 is 0.2σ from SIDC $H_{0,4D}$ = 70.16 (CLOSEST single measurement to SIDC prediction)
 - **Theoretical foundation:** c=1 string theory matrix model = exact solution of 2D quantum gravity; SIDC's 2D CFT framework = unique exactly solvable 2D QG
 - **2 remaining free parameters:** $\mu$ (2D cosmological constant) + $m_{3+1D}$ (effective DM mass) — require 2D CFT expert
@@ -661,7 +661,7 @@ A new section §12 consolidates SIDC's galaxy-level tests against the *entire ga
 6. **Tucana dSph** — $M_{dyn} \approx M_b$ (isolated, quenched 6+ Gyr)
 7. **Bullet Cluster (1E 0657-56)** — 720 kpc gas-galaxy separation (consistency check, not unique smoking gun)
 8. **Omega Centauri** — $M_{dyn} \approx M_b$ (massive GC, 8200 $M_\odot$ IMBH)
-9. **M82** — $M_{dyn}/M_b$ $\sim 4 (extreme starburst, 10 $M_\odot$/yr)
+9. **M82** — $M_{dyn}/M_b$ $\sim 4$ (extreme starburst, 10 $M_\odot$/yr)
 10. **NGC 1275** — $M_{dyn}/M_b$ $\sim 50 (AGN host, Perseus A)
 11. **Dragonfly 44** — $M_{dyn}/M_b$ $\sim 300 (Coma UDG, disputed high DM)
 12. **CVnC dwarf (v2.7.32+, Hagen+ 2026)** — $M_{dyn}$ ≫ $M_{b}$ (quenched isolated dwarf, may have past interaction with NGC 4631; adds to "growing number of quenched dwarfs in underdense environments"; F(z) intermediate $\sim 0.5)

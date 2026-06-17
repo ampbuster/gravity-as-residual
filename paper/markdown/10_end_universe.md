@@ -207,10 +207,10 @@ A follow-up analysis asks: if a *second* 2D universe lifetime data point were av
 
 **A 2-point fit (SN + hypothetical 2nd point) gives α = 1.29 only if the 2nd point matches the predicted lifetime.** A *different* 2nd point would force a different α, and the 4D cosmological lifespan would change accordingly:
 
-- If 2nd point = (1e53 J, 1e3 s) [1000 s, way shorter than predicted]: α_refit = 0.16, T_3D = 1.4×$10^{-2}$ yr (3D would have ended immediately)
-- If 2nd point = (1e53 J, 1e6 s) [12 days, much shorter than predicted]: α_refit = 0.50, T_3D = 2.9×$10^{6}$ yr
-- If 2nd point = (1e53 J, 1e13 s) [4.3×$10^{5}$ yr, predicted value]: α_refit = 1.29, T_3D = 1.9×$10^{26}$ yr
-- If 2nd point = (1e53 J, 1e15 s) [3×$10^{7}$ yr, much longer than predicted]: α_refit = 1.74, T_3D = 3.4×$10^{37}$ yr
+- If 2nd point = ($1 \times 10^{53}$ J, $1 \times 10^{3}$ s) [1000 s, way shorter than predicted]: α_refit = 0.16, T_3D = 1.4×$10^{-2}$ yr (3D would have ended immediately)
+- If 2nd point = ($1 \times 10^{53}$ J, $1 \times 10^{6}$ s) [12 days, much shorter than predicted]: α_refit = 0.50, T_3D = 2.9×$10^{6}$ yr
+- If 2nd point = ($1 \times 10^{53}$ J, $1 \times 10^{13}$ s) [4.3×$10^{5}$ yr, predicted value]: α_refit = 1.29, T_3D = 1.9×$10^{26}$ yr
+- If 2nd point = ($1 \times 10^{53}$ J, $1 \times 10^{15}$ s) [3×$10^{7}$ yr, much longer than predicted]: α_refit = 1.74, T_3D = 3.4×$10^{37}$ yr
 
 These are SIDC's **testable predictions**. A measurement of the 2D universe death GW burst at the predicted time after a BNS merger, AGN flare, or hypernova would directly test the α = 1.29 rule. If the measured lifetime matches the prediction, α is confirmed. If not, the rule needs revision.
 
