@@ -2837,7 +2837,7 @@ over cosmic history:
 - Total SN GW energy density: ρ_GW_SN = $10^{18}$ × $10^{-41}$ / 4×$10^{80}$ m^3 = $10^{-103}$ J/m^3
 - $\Omega_{\rm GW}$_SN = ρ_GW_SN / ρ_crit = $10^{-103}$ / 7.6×$10^{-10}$ = **$10^{-94}$**
 
-- BNS: N_BNS ~ 3×$10^{3}$/Mpc^3, E_per_BNS_GW = $f_{\rm back}$ × $10^{47}$ = $10^{-38}$ J
+- BNS: N_BNS ~ 3×$10^{3}$/${\rm Mpc}^3$, E_per_BNS_GW = $f_{\rm back}$ × $10^{47}$ = $10^{-38}$ J
 - Total BNS GW energy density: ρ_GW_BNS = 3×$10^{3}$ × $10^{-38}$ / 2.9×$10^{67}$ = $10^{-102}$ J/m^3
 - $\Omega_{\rm GW}$_BNS = **$10^{-93}$**
 

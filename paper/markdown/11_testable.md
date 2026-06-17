@@ -43,7 +43,7 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
    - **Completely negligible.** The SN energy that did become 2D universe mass contributes essentially zero to 47 Tuc's local DM.
 
 3. **Density comparison (47 Tuc vs Galaxy's halo DM):**
-   - Galaxy's NFW DM density at 7.4 kpc Galactocentric: **ρ_DM,galaxy ≈ 0.061 GeV/cm³** (with ρ_s = 0.32 GeV/cm³, r_s = 21.5 kpc)
+   - Galaxy's NFW DM density at 7.4 kpc Galactocentric: **$\rho_{\rm DM,galaxy} \approx 0.061$ GeV/cm³** (with ρ_s = 0.32 GeV/cm³, r_s = 21.5 kpc)
    - 47 Tuc's *central* density (within r_core = 0.5 pc): **ρ_core ≈ 7.3 GeV/cm³** — ~120× the Galaxy's local DM
    - 47 Tuc's *average* density (within $r_h = $6 pc): **ρ_avg ≈ 0.029 GeV/cm³** — ½× the Galaxy's local DM
    - **47 Tuc is a dense stellar system embedded in a sparse DM halo.** The Galaxy's DM halo *passes through* 47 Tuc but is locally overwhelmed by 47 Tuc's baryonic concentration.

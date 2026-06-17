@@ -74,7 +74,7 @@ If M_{Pl,4} ~ TeV and the 3D universe is approaching its end in 3D internal time
 
 **(c) Decreasing DE density over cosmic time.** The DE equation of state w(z) should evolve: w(z=0) > w(z=1) > w(z=2) if the 4D's phase is slowly evolving. LSST Y1 (2027) and Euclid Q3 (2027) will measure w(z) to ~1% precision. A detection of *decreasing* DE density would directly support SIDC.
 
-**(d) Final 2D-universe creation bursts.** As the 3D universe approaches its end, the 2D universe creation rate should *drop*, not increase. SIDC's existing GW prediction (2D universe birth stochastic background, ~$10^{60}$-62 erg/s/Mpc³) predicts a *constant* GW background. A *declining* GW background on Gyr timescales would be evidence of the 3D approaching its end.
+**(d) Final 2D-universe creation bursts.** As the 3D universe approaches its end, the 2D universe creation rate should *drop*, not increase. SIDC's existing GW prediction (2D universe birth stochastic background, ~$10^{60}$-62 erg/s/${\rm Mpc}^3$) predicts a *constant* GW background. A *declining* GW background on Gyr timescales would be evidence of the 3D approaching its end.
 
 **(e) No new "BNS-merger 2D universe" echo expected soon.** SIDC's energy scaling predicts a 2D universe from a BNS merger ($10^{53}$ J) lives 4×$10^{5}$ yr in 3D view. If the 3D universe is at the end of its life, *new* 2D universes from current BNS mergers would *also* be short-lived (because the 3D's overall energetics are declining). A LIGO/Virgo search for post-merger GW echoes from BNS events in the next ~Gyr could test this.
 
@@ -262,7 +262,7 @@ $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$
 
 where ρ_c = 7.7×$10^{-10}$ J/m³ is the critical density.
 
-For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2D}$ = 33 s, rate ~ $10^{4}$ /Mpc³/yr = 1.08×$10^{-71}$ /m³/s):
+For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2D}$ = 33 s, rate ~ $10^{4}$ /${\rm Mpc}^3$/yr = 1.08×$10^{-71}$ /m³/s):
 
 | $\epsilon_{\rm GW}$ | $\Omega_{\rm GW}$ at 0.03 Hz | LISA noise at 0.03 Hz | Detectable? |
 |---|---|---|---|
@@ -350,7 +350,7 @@ $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$
 
 where ρ_c = 7.7×$10^{-10}$ J/m³.
 
-**For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2D}$ = 33 s, rate ~ $10^{4}$ /Mpc³/yr = 1.08×$10^{-71}$ /m³/s):**
+**For the SN Ia 2D universe death (calibration point: E_SN = $10^{44}$ J, $\tau_{2D}$ = 33 s, rate ~ $10^{4}$ /${\rm Mpc}^3$/yr = 1.08×$10^{-71}$ /m³/s):**
 
 | $\epsilon_{\rm GW}$ | $\Omega_{\rm GW}$ at 0.03 Hz | LISA noise at 0.03 Hz | Ratio (SNR) | Detectable? |
 |---|---|---|---|---|

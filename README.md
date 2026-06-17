@@ -102,11 +102,11 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 1. **b = i** is natural for c = 1 (single scalar 2D CFT, IHES Vargas) — b² = -1, Q = 0, c = 1 ✓
 2. **$m_{3+1D}$ > 8 $\times$ $10^{-18}$ eV** (Dalal & May 2025, ultra-faint dwarf kinematics) — SIDC $10^{-15}$ GeV is 1.25 $\times$ $10^{11}$ ABOVE bound ✓
 3. **JT gravity on Karch-Randall brane** (PRL 129, 231601) — SIDC 2D universe = JT excitation, $M_{2D}$ = $10^{38}$ GeV
-4. **RAR extends to log $g_{\rm bar}$ $\sim -12** (MIGHTEE-HI 2025, arXiv:2504.20857) — SIDC's MOND behavior testable to lowest accelerations
+4. **RAR extends to log $g_{\rm bar}$ $\sim -12$** (MIGHTEE-HI 2025, arXiv:2504.20857) — SIDC's MOND behavior testable to lowest accelerations
 
 **7 INTERPRETIVE — COSMOLOGICAL** (strengthen qualitative SIDC framework):
 5. **JT gravity as universal BH EFT** (Castro, Iqbal 2025) — SIDC 2D universe = standard 2D EFT for highly curved space-times
-6. **DESI 2024+2025 $\sim 3σ evidence for evolving DE** (w₀ = -0.84, wₐ = -0.65, quintessence-like) — SIDC DE = 4D event antigravity is qualitatively consistent
+6. **DESI 2024+2025 $\sim 3\sigma$ evidence for evolving DE** (w₀ = -0.84, wₐ = -0.65, quintessence-like) — SIDC DE = 4D event antigravity is qualitatively consistent
 7. **Stiskalek 2025: $H_0$ = 73.04 $\pm$ 1.30** (1.8% precision from Cepheids alone) — SIDC $H_{0,4D}$ = 70.16 within 2.2σ
 8. **S₈ tension persists at 2-3σ** (Subaru HSC Y3 2025) — SIDC's MOND-like floor gives qualitative suppression
 9. **TRGB $H_0$ = 69.8 $\pm$ 1.9** (Freedman 2024, CCHP, JWST) — **0.2σ from SIDC $H_{0,4D}$ = 70.16** (CLOSEST single measurement!)
@@ -124,7 +124,7 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 17. **NANOGrav 15-year stochastic GW background** (Agazie et al. 2023, EPTA/PPTA/CPTA 2024-2025) — $h_c \sim 2.4 \times 10^{-15}$ at $f_{yr}$; SIDC 2D universe births contribute $\sim 10^{3} \times$ below sensitivity
 18. **JT gravity boundary conditions** (Anous, Kruthoff, Mahajan 2021, JHEP 04(2021)069) — multi-brane JT ↔ 2D universe population
 19. **DES Y6 3x2pt + DESI 2024+2025 combined** (Abbott 2025, Adame 2024) — 3σ combined with Pantheon+; SIDC DE qualitatively consistent
-20. **2D universe birth stochastic GW (SIDC PREDICTION)** — $\sim 10^{60-62}$ erg/s/Mpc³, future SKA-MPG (2030s) may be sensitive
+20. **2D universe birth stochastic GW (SIDC PREDICTION)** — $\sim 10^{60-62}$ erg/s/${\rm Mpc}^3$, future SKA-MPG (2030s) may be sensitive
 
 **5 LATEST 2025 DATASETS (v2.7.2++)**:
 21. **DESI DR2 + ACT DR6 + Planck** (Garcia-Quintero 2025, arXiv:2504.18464) — 3.5σ evolving DE, w₀ = -0.83, wₐ = -0.75
@@ -181,7 +181,7 @@ This is SIDC's central quantitative claim. One formula works across all 14 energ
 
 A 2D universe created by an event of energy E lives for a time proportional to $E^{1.29}$ in 3+1D view. The exponent 1.29 comes from SIDC's N=12 SYK backbone ($\alpha$ = 1 + 1/√12 = 1.289).
 
-**It works for 14 event types $\sim 30 orders of magnitude in energy):**
+**It works for 14 event types $\sim 30$ orders of magnitude in energy):**
 
 | Event | E (J) | $\tau_{2D}$ | Test |
 |-------|-------|------|------|
@@ -205,7 +205,7 @@ A 2D universe created by an event of energy E lives for a time proportional to $
 - **UDM / Chaplygin gas**: works on cosmological scales, but the unified fluid has $c_s^2 \sim 1 \to$ suppresses all small-scale structure
 - **Verlinde / entropic gravity**: static — can't distinguish "same mass, different history" cases (AGC 114905 vs KKR 25)
 
-**Honest limit:** The 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty (Limitation 31, reduced to $\sim 15 orders via Karch-Randall). The "1.29" is calibrated from the SN 33s lifetime; the N=12 backbone provides a structural reason but doesn't derive it from first principles.
+**Honest limit:** The 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty (Limitation 31, reduced to $\sim 15$ orders via Karch-Randall). The "1.29" is calibrated from the SN 33s lifetime; the N=12 backbone provides a structural reason but doesn't derive it from first principles.
 
 **Bottom line:** One formula, fourteen event types, all scales. The M^1.29 scaling is the quantitative core of the closed loop — it's what makes the dimensional projection give consistent results across the entire observable universe.
 
@@ -262,7 +262,7 @@ of magnitude** in $M_{dyn}/M_b$:
 | **Boötes I** | 3.0 $\times$ $10^{4}$ | 6.7 $\times$ $10^{6}$ | **222.9** | UFD | ✓ PASS |
 | **Segue 1** | 6.0 $\times$ $10^{2}$ | 4.8 $\times$ $10^{5}$ | **796.1** | UFD | ✓ PASS |
 | **Tucana II** | 2.3 $\times$ $10^{3}$ | 3.9 $\times$ $10^{6}$ | **1689.6** | UFD | ✓ PASS |
-| **KKR 25** ⚠️ | 3.0 $\times$ $10^{6}$ | $\sim 3 $\times$ $10^{6}$ *(est.)* | ** $\sim 1 *(est.)*** | dSph | ✓ PASS *(est.)* |
+| **KKR 25** ⚠️ | 3.0 $\times$ $10^{6}$ | $\sim 3 \times 10^{6}$ *(est.)* | ** $\sim 1$ *(est.)*** | dSph | ✓ PASS *(est.)* |
 | **LMC** | 3.0 $\times$ $10^{9}$ | 2.0 $\times$ $10^{10}$ | **6.7** | Irregular | ✓ PASS |
 | **SMC** | 5.0 $\times$ $10^{8}$ | 3.0 $\times$ $10^{9}$ | **6.0** | Irregular | ✓ PASS |
 | **M82 (NGC 3034)** | 1.0 $\times$ $10^{10}$ | 4.0 $\times$ $10^{10}$ | **4.0** | Starburst | ✓ PASS |
@@ -280,13 +280,13 @@ KKR 25's $M_{dyn}$ is **estimated** (⚠️), not measured.
 
 The $M_{dyn}/M_b$ ratio varies systematically with galaxy type:
 
-- **Globular clusters ($10^{5}$--$10^{7}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 1 (no current activity)
+- **Globular clusters ($10^{5}$--$10^{7}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 1$ (no current activity)
 - **Dwarf galaxies ($10^{5}$--$10^{8}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 1$--$1700$ (huge spread)
 - **UFDs ($10^{2}$--$10^{4}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 50$--$1700$ (extreme)
 - **Irregular galaxies ($10^{8}$--$10^{9}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 6$--$7
 - **Normal spirals ($10^{10}$--$10^{11}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 14$--$30
 - **AGN hosts ($10^{12}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 50
-- **Galaxy clusters ($10^{13}$--$10^{14}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 10-50
+- **Galaxy clusters ($10^{13}$--$10^{14}$ $M_\odot$)**: $M_{dyn}/M_b$ $\sim 10$--$50$
 
 SIDC's qualitative picture: galaxies with non-trivial past SF
 have non-zero $M_{dyn}$. The specific value of $M_{dyn}/M_b$ depends on
@@ -297,7 +297,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 **Two galaxies are intentionally excluded** (the disputed ones):
 
 **1. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
-- $M_{b}$ $\sim 7.3 $\times$ $10^{8}$ $M_\odot$ is measured
+- $M_{b}$ $\sim 7.3 \times$ $10^{8}$ $M_\odot$ is measured
 - $M_{dyn}/M_b$ $\sim 1.36$ (Mancera Piña 2022) vs $\sim 2$--$3$ (Sellwood 2022)
 - The 2022-2025 literature has **TWO contradictory conclusions**:
   - Mancera Piña 2022: "No trace of dark matter"
@@ -352,8 +352,8 @@ disputed (would change with new consensus).
 
 **Note on KKR 25:** KKR 25 is **included** in the table above, but
 its $M_{dyn}/M_b$ is **estimated** (⚠️ marker) rather than measured. The
-SIDC uses $\sigma$ $\sim 3-5 km/s and $r_h$ $\sim 0.5-1 kpc (typical dSph
-parameters) to estimate $M_{dyn}$ $\sim 3 $\times$ $10^{6}$ $M_\odot$ and $M_{dyn}/M_b$ $\sim 1. This
+SIDC uses $\sigma \sim 3$--$5$ km/s and $r_h \sim 0.5$--$1$ kpc (typical dSph
+parameters) to estimate $M_{dyn}$ $\sim 3 \times 10^{6}$ $M_\odot$ and $M_{dyn}/M_b$ $\sim 1. This
 is a **rough estimate** with $\sim 50% uncertainty, not a measurement.
 KKR 25's $M_{dyn}$ is still in SIDC's 12/12 test suite (paper §12)
 as a qualitative test (consistent with SIDC), but its specific
@@ -404,7 +404,7 @@ Per a user follow-up ("if matter is 5% even without stars, why don't baryon coll
 
 ### The deeper test: does r(z) = (1+z)³ (ΛCDM's expansion factor)?
 
-SIDC's r(z) = ρ_DM^DC(z) / ρ_DM^DC(0) at high z is the test of whether SIDC is consistent with ΛCDM structure formation. ΛCDM has r(z) = (1+z)³ for non-interacting DM (just the expansion factor). SIDC's prediction, with all bugs fixed:
+SIDC's r(z) = $\rho_{\rm DM}^{\rm DC}(z) / \rho_{\rm DM}^{\rm DC}(0)$ at high z is the test of whether SIDC is consistent with ΛCDM structure formation. ΛCDM has r(z) = (1+z)³ for non-interacting DM (just the expansion factor). SIDC's prediction, with all bugs fixed:
 
 | z | r(z) (SIDC, $F_p(z)$ primordial) | (1+z)³ (ΛCDM expansion factor) | Verdict |
 |---|---|---|---|
@@ -426,11 +426,11 @@ SIDC's r(z) = ρ_DM^DC(z) / ρ_DM^DC(0) at high z is the test of whether SIDC is
 | Thomson scattering (CMB photon at z=1100) | $10^{19}$ | $10^{-43}$ | $10^{-145}$ |
 | Type Ia SN | $10^{44}$ | $10^{101}$ | 1.0 |
 
-Even though Thomson has a *much higher rate* $\sim 10^{67}$ events/s/Mpc^3 vs SN's $10^{-12}$/s/Mpc^3), the per-event weight is so small ($10^{-145}$ of SN) that the *net* Thomson contribution is $\sim 10^{-66}$ of SN — *negligible*.
+Even though Thomson has a *much higher rate* $\sim 10^{67}$ events/s/${\rm Mpc}^3$ vs SN's $10^{-12}$/s/${\rm Mpc}^3$), the per-event weight is so small ($10^{-145}$ of SN) that the *net* Thomson contribution is $\sim 10^{-66}$ of SN — *negligible*.
 
 **The r(z) $\approx$ (1+z)³ match comes from $F_p(z)$, NOT from Thomson.** With the v2.7.4 §4.48.1 smooth $F_p(z)$ (Hill n=2, $z_{\rm half}$=3), the primordial component $F_p(z)$ $\to$ 1.0 at high z, meaning the *primordial* 2D universe contribution dominates. The Thomson + stellar contributions are at most 30% of total DM at any z ($F_s$ $\leq$ 0.3), and Thomson is a small fraction of $F_s$.
 
-**Honest framing.** The original v3 README analysis (which said "Thomson does the heavy lifting") was based on a pre-smooth-function code that used raw energy density (R_Thomson $\approx$ 1.4 $\times$ $10^{62}$ J/yr/Mpc³) without applying the $E^{1+\alpha}$ per-event weight. SIDC's *actual* $E^{1+\alpha}$ weighting makes Thomson's per-event contribution negligible. The r(z) $\approx$ (1+z)³ result is now explained by the **smooth $F_p(z)$ primordial component** (paper §4.48.1), not by Thomson.
+**Honest framing.** The original v3 README analysis (which said "Thomson does the heavy lifting") was based on a pre-smooth-function code that used raw energy density (R_Thomson $\approx$ 1.4 $\times$ $10^{62}$ J/yr/${\rm Mpc}^3$) without applying the $E^{1+\alpha}$ per-event weight. SIDC's *actual* $E^{1+\alpha}$ weighting makes Thomson's per-event contribution negligible. The r(z) $\approx$ (1+z)³ result is now explained by the **smooth $F_p(z)$ primordial component** (paper §4.48.1), not by Thomson.
 
 This is what the "scale-time invariance" means: SIDC is *energy-scale-invariant* in its law (every event creates a 2D universe weighted by a smooth $E^{1+\alpha}$ function, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. SIDC is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 3+1D-frame lifetime of $\sim 33$ s for SN-scale events, set by the event size ℓ/c) is a *local* phenomenon preserved at every epoch. (Earlier 30 Gyr in 2D was a guess, dropped in v2.7.1; the 33 s is empirical, from the ℓ/c mapping, but it's SN-specific, not universal.)
 

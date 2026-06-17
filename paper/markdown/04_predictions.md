@@ -1591,8 +1591,8 @@ The 4D math approach (commits 80, 72, 81, 173, etc.) tried 10+ derivations and F
 - Cosmic SFR (Madau & Dickinson 2014): ψ(z) parameterized
 - Stellar population synthesis (Bruzual & Charlot 2003): return fraction ~45%
 - Gas consumption (Kennicutt-Schmidt): τ_gas ~ 0.7 Gyr
-- Total stellar mass formed: ~5 × $10^{8}$ $M_\odot$/Mpc³
-- Stars alive today: ~5 × $10^{8}$ $M_\odot$/Mpc³ (most stars still alive)
+- Total stellar mass formed: ~5 × $10^{8}$ $M_\odot$/${\rm Mpc}^3$
+- Stars alive today: ~5 × $10^{8}$ $M_\odot$/${\rm Mpc}^3$ (most stars still alive)
 
 **Honest result:** The ratio (alive / total_formed) ~ 0.55, NOT 5/27 = 0.185. With various efficiency factors tried (1% SN energy, 4D event contribution, etc.), the 5/27 ratio could not be cleanly derived. The 4D math approach failed; the thermodynamic approach ALSO failed.
 
@@ -2174,7 +2174,7 @@ $$\rho_{DM}^{SIDC}(z) = (1+z)^3 \int_z^{z_{\max}} \frac{rate(z')}{E(z')(1+z')} d
 
 where the rate is the *energetic event rate* at epoch z' (weighted by the smooth $E^{1+\alpha}$ function per event, §2.5.3). This is the *time-cumulative* DM density: it grows with cosmic time as past activity accumulates.
 
-**The ratio r(z) = ρ_DM^SIDC(z) / ρ_DM^ΛCDM(z).**
+**The ratio r(z) = $\rho_{\rm DM}^{\rm SIDC}(z) / \rho_{\rm DM}^{\Lambda\rm CDM}(z)$.**
 
 For stellar-only 2D universe creation (Madau & Dickinson 2014 cosmic SFR, CCSN rate scaled to 15% of stars above 8 $M_\odot$, E_CCSN = $10^{46}$ J per SN):
 
@@ -2589,7 +2589,7 @@ SIDC's CMB prediction was computed using `calculations/cmb_cascade_prediction.py
 
 **The re-derivation under the broader principle.**
 
-With the broader principle (§4.51), SIDC's R(z) is dominated by Thomson scattering at z > 1100. The DM is created at the rate needed to give ρ_DM(z) ∝ (1+z)^3, matching ΛCDM exactly. The CMB at z=1100 should have 27% DM, matching Planck.
+With the broader principle (§4.51), SIDC's R(z) is dominated by Thomson scattering at z > 1100. The DM is created at the rate needed to give $\rho_{\rm DM}(z) \propto (1+z)^3$, matching ΛCDM exactly. The CMB at z=1100 should have 27% DM, matching Planck.
 
 The remaining difference is the $H_0$: SIDC gives 73, Planck gives 67.4. This 5.6 km/s/Mpc gap is the standard HUBBLE TENSION, not a SIDC-specific failure.
 
