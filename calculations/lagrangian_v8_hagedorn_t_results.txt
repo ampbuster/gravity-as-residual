@@ -1,0 +1,75 @@
+========================================================================
+LAGRANGIAN v8: HAGEDORN TEMPERATURE FOR N=12 SYK
+========================================================================
+
+========================================================================
+PART 1: HAGEDORN FROM DENSITY OF STATES
+========================================================================
+
+========================================================================
+PART 2: SCHWARZIAN REGIME — IS THERE A T_H?
+========================================================================
+
+For N=12: S_0 = 2.789, C = 0.6079
+
+       E/J       S(E)       β(E)     T(E) (1/J)
+      0.01      3.279     24.495         0.0408
+      0.10      4.338      7.746         0.1291
+      1.00      7.688      2.449         0.4082
+     10.00     18.281      0.775         1.2910
+    100.00     51.779      0.245         4.0825
+   1000.00    157.708      0.077        12.9099
+  10000.00    492.687      0.024        40.8248
+
+========================================================================
+PART 3: MICROCANONICAL ANALYSIS (looking for spinodal point)
+========================================================================
+
+========================================================================
+PART 4: WHAT DETERMINES β_H?
+========================================================================
+
+From SN calibration: M_string = ℏc²/τ_SN
+  = 1.798e+00 eV
+  = 1.798e-09 GeV
+  = 1.473e-28 × M_Pl,4
+
+For comparison:
+  QCD scale: 200 MeV = 2e8 eV
+  EW scale:  246 GeV = 2.5e11 eV
+  GUT scale: 10^16 GeV = 10^25 eV
+  M_Pl,4:    1.22e19 GeV = 1.22e28 eV
+
+Natural units check:
+  E_SN = ℏ/τ_SN = 3.196e-36 J = 1.997e-17 eV
+  This is the ENERGY of the 2D universe at 'death'
+  (NOT its mass — mass × c² gives this much energy at temperature T)
+
+========================================================================
+PART 5: CGHS / RST 2D BLACK HOLE CONNECTION
+========================================================================
+
+CGHS string tension:
+  α' = (2π ℏ/τ_SN)² = 3.823e-36 m² × J
+  String length scale √α' = 1.904e-01 m
+
+========================================================================
+PART 6: 2D UNIVERSE MASS — DOES THE LAGRANGIAN PREDICT IT?
+========================================================================
+
+For SN calibration:
+  2D universe's 'SYK coupling' J ≈ ℏ/τ_SN = 3.196e-36 J
+  In eV: 1.997e-17 eV
+  This is the 2D energy scale
+
+If M_2D = N × J (12 fermions × coupling):
+  M_2D(SN) = 12 × J_SN = 3.835e-35 J
+  In eV: 2.397e-16 eV
+
+With f_back = 1e-85:
+  M_2D,3+1D(SN) = 3.835e-120 J
+Traceback (most recent call last):
+  File "/run/csi/mount-root/nas/eab0d61a99b6696edb3d2aff87b585e8/github-repo/calculations/lagrangian_v8_hagedorn_t.py", line 288, in <module>
+    print(f"  In kg: {M_2D_3PLUS1_SN/C**2:.3e} kg")
+                                     ^
+NameError: name 'C' is not defined
