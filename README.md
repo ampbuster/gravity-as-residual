@@ -69,7 +69,7 @@ The 47 Tuc test is a *falsifiable prediction* awaiting data. SIDC has not yet be
 **Testable with:**
 - **DP1 (2025):** 47 Tuc's CMD validates Rubin's crowded-field pipeline *(no DM test yet)*
 - **DR1 (Y1, 2027):** proper motion + 5 tidal tails fit Galactic potential ← *first real test*
-- **Y10 $\sim 2034):** no "dark star" component, all stars are normal ← *decisive test*
+- **Y10 (~2034):** no "dark star" component, all stars are normal ← *decisive test*
 
 **Falsification:** if $M_{dyn} > 2 \times M_{stars}$ at 3σ, SIDC is wrong. If $M_{dyn} \approx M_{stars}$ (within IMF uncertainties), SIDC is right AND particle DM is in trouble.
 
@@ -117,7 +117,7 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 12. **JT gravity as noncritical c<1 string** (Suzuki, Takayanagi 2021, arXiv:2108.12096) — JT is the LOW-ENERGY LIMIT of Liouville CFT
 13. **c=1 string theory matrix model** (Dijkgraaf 2017, Klebanov-Maldacena 2024) — UNIQUE exactly solvable 2D QG, SIDC's framework = exactly solvable case
 14. **Matrix model ↔ dark matter** (POSSIBLE future connection) — eigenvalues ↔ 2D universe mass spectrum
-15. **Schwarzian limit of Liouville CFT** (Stanford-Yang 2018, Mertens 2018) — discrete mass spectrum, $\rho$(E) $\sim$ sinh(2π√(2E/E₀))
+15. **Schwarzian limit of Liouville CFT** (Stanford-Yang 2018, Mertens 2018) — discrete mass spectrum, $\rho(E) \sim \sinh(2\pi\sqrt{2E/E_0})$
 
 **5 NEW + 1 PREDICTION (v2.7.2+)** — from 2024-2025 surveys:
 16. **Torsion balance ultra-light vector DM** (Ross et al. 2025, arXiv:2510.21764) — SIDC 2D universe is $10^{12}$ $\times$ above search range; consistent (vacuously, no SM coupling)
@@ -622,7 +622,7 @@ A new section §10 derives speculative but *testable* end-of-universe signatures
 - **Energy-scaling rule:** τ_{D-1} = $t_{\rm Pl}$,3 $\times$ (E_D/$E_{\rm Pl}$,3)^1.29, with $\alpha$ = 1.29 forced by SN 33s calibration
 - **Relativistic-particle analogy:** 2D universes are "particles" with mass-dependent time dilation; smaller (lower-E) events create "lighter" 2D universes with more time dilation
 - **$M_{\rm Pl}$,4 $\geq$ 887 GeV floor:** derived from the 3D-alive constraint, coincides with ADD-model electroweak-scale prediction
-- **If $M_{\rm Pl}$,4 $\sim$ TeV:** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life)
+- **If $M_{\rm Pl}$,4 $\sim {\rm TeV}$:** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life)
 - **Testable signatures:** DESI DR3 evolving DE (3.5σ), LSST Y1 DE-density decrease, declining cosmic SFR, GW background
 - **LISA detection prospects (§10.17):** SIDC's SN death GW at 0.03 Hz is **6-14 orders below LISA noise** for any reasonable $\epsilon_{\rm GW}$. A NULL LISA result is consistent with (not contradictory to) SIDC. SIDC's high-energy death GW (BNS, AGN) is detectable by **PTAs** (NANOGrav, EPTA, SKA-MPG) at nHz frequencies, not LISA.
 - **Testable window:** 2026 (DESI DR3) to 2034 (LISA launch) is the critical 5-10 year window.
@@ -642,7 +642,7 @@ A new section §11 consolidates SIDC's *near-term, low-cost, high-leverage* test
 **Testable predictions for Rubin/LSST:**
 - **DP1 (June 2025):** 47 Tuc's CMD is consistent with PARSEC/BaSTI 12 Gyr single-population isochrones
 - **DR1 (Y1, 2027):** proper motion + 5 tidal tails fit the Galactic potential; no local-DM perturbation
-- **Y10 $\sim 2034):** no "dark star" component; all stars are normal
+- **Y10 (~2034):** no "dark star" component; all stars are normal
 
 **Falsification:** if $M_{dyn} > 2 \times M_{stars}$ at 3σ, or asymmetric tidal tails, or "DM-modified" mass function — SIDC's DM mechanism is falsified for this object.
 
@@ -831,7 +831,7 @@ The full simulation: `python3 calculations/cascade_model.py --outliers`
 - **§10 SPECULATIVE EXTENSION added (June 2026):** End-of-Universe Signatures from energy-scaling ladder
   - Energy-scaling rule $\alpha$ =1.29 forced by SN 33s)
   - $M_{\rm Pl}$,4 $\geq$ 887 GeV floor (electroweak scale, ADD model)
-  - 3D universe at end of life (if $M_{\rm Pl}$,4 $\sim$ TeV)
+  - 3D universe at end of life (if $M_{\rm Pl}$,4 $\sim {\rm TeV}$)
   - LISA detection prospects: SIDC's SN death GW is **6-14 orders below LISA noise**; SIDC's BNS/AGN death GW is detectable by PTAs in 2030s
   - Testable window 2026-2034 (DESI DR3 $\to$ LISA launch)
 - **§11 TESTABLE PREDICTIONS added (June 2026):** Near-term testable predictions for current/upcoming surveys
@@ -839,7 +839,7 @@ The full simulation: `python3 calculations/cascade_model.py --outliers`
   - SIDC prediction: $M_{dyn} \approx M_{stars}$ (no local DM), 5 tidal tails fit Galactic potential
   - Testable with DP1 (2025), DR1 (2027), Y10 $\sim 2034)
   - Falsification: $M_{dyn} > 2 \times M_{stars}$ at 3σ would kill SIDC's DM mechanism for this object
-- **§2.3 inconsistency FIXED:** Earlier spatial-extent rule ($\tau_{2D}$ $\sim$ ℓ_event/c) replaced with energy-scaling rule ($\tau_{2D}$ $\sim$ (E)^1.29); SN 33s calibration point unchanged, but LHC and other event lifetimes are now consistent with "lower-energy $\to$ shorter-lived 2D universes"
+- **§2.3 inconsistency FIXED:** Earlier spatial-extent rule ($\tau_{2D}$ $\sim \ell_{event}/c$) replaced with energy-scaling rule ($\tau_{2D}$ $\sim (E)^{1.29}$); SN 33s calibration point unchanged, but LHC and other event lifetimes are now consistent with "lower-energy $\to$ shorter-lived 2D universes"
 - 7 new v27_*.py calculation scripts added to calculations/ (lifespan, sensitivity, 2D CFT, death GW spectrum, LISA sensitivity check, 47 Tuc SIDC)
 
 **v2.7.1 changes:**
