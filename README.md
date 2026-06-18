@@ -119,7 +119,7 @@ We RESTORE the two main results with appropriate caveats:
 
 ## Result 2: Closed-Loop Formula f_back = (M_Pl,N / E_event)^α
 
-**Universal at every dimensional transition**: The same formula gives the back-flow rate at 2D→3D AND 3D→4D, just with different M_Pl,N and E_event:
+**f_back itself is universal at every dimensional transition**: The same formula gives the back-flow rate at 2D→3D AND 3D→4D, just with different M_Pl,N and E_event:
 
 | Transition | M_Pl,N | E_event | f_back fraction |
 |---|---|---|---|
@@ -131,6 +131,14 @@ We RESTORE the two main results with appropriate caveats:
 - 3D→4D: continuous dominates NOW (DE is the 3+1D universe's continuous back-flow)
 
 This unifies DE and DM as the SAME mechanism at different timescales.
+
+**4π status** (v3.1.2-final, often confused):
+- ✓ KEPT at 3D→4D as the boundary projection factor (γ_4D = 4π × γ_sub, gives 1.7% match to DE)
+- ✗ REMOVED as universal factor (L149 RESOLVED: 4π is specific to 3D→4D only)
+- ✗ REMOVED as hidden in α (L142b RESOLVED: α = 1.258 with 4π hidden failed 13/14 events)
+- ✗ NOT derived from first principles (L142a OPEN: 4π is a geometric postulate, not derived)
+
+The 4π factor is the 3-sphere surface area (4πR²) at the 3D→4D continuous leakage boundary. It's empirically required to match DE at 1.7%, but it's not universal and not derived.
 
 **DE matching** (3D→4D): ρ_DE = f_back_4D × ε × M_Pl,3D^4 = 1.22×10⁻⁸⁵ × 10⁻³⁸ × (1.22×10¹⁹)⁴ = 2.7×10⁻⁴⁷ GeV⁴. Observed: 2.4×10⁻⁴⁷ GeV⁴. Match within **14%** (empirical, not derived).
 
