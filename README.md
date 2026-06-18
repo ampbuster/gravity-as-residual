@@ -126,11 +126,16 @@ We RESTORE the two main results with appropriate caveats:
 | 2D→3D (SN) | 1.22×10¹⁹ GeV | 10⁴⁴ J | 1.83×10⁻⁴⁵ |
 | 3D→4D | 887 GeV | 1.07×10⁵⁹ J | 1.22×10⁻⁸⁵ |
 
-**Continuous vs pulsed return** (KEY CLARIFICATION): f_back is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). The OBSERVABLE differs by level due to TIMESCALE:
-- 2D→3D: pulsed dominates (DM is the 2D universe's death return)
-- 3D→4D: continuous dominates NOW (DE is the 3+1D universe's continuous back-flow)
+**Continuous vs pulsed return** (KEY CLARIFICATION, user-formalized): f_back is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). The OBSERVABLE differs by level due to TIMESCALE (specifically, time dilation makes 3+1D's lifetime much longer than 2D's lifetime):
 
-This unifies DE and DM as the SAME mechanism at different timescales.
+| Boundary | Lifetime in lower-D frame | f_back rate | Continuous leakage | Pulsed at death | What dominates NOW? |
+|---|---|---|---|---|---|
+| 2D→3D (SN) | 33 s (short, no significant γ) | 1.6×10⁻⁴⁵/s | 33×10⁻⁴⁵ = **10⁻⁴⁴** (negligible) | 100% at 33s | **Pulsed (DM)** |
+| 3D→4D | 10³⁴ yr (γ ~ 10⁶² from 4D proper time 10⁻²⁰ s) | 1.22×10⁻⁸⁵/s | 10⁵¹×10⁻⁸⁵ = **O(1)** by heat death | 100% at 10³⁴ yr | **Continuous (DE)** |
+
+**Time dilation is the key**: 4D event's proper time is 10⁻²⁰ s, but 3+1D's clock sees it as 10³⁴ yr. This makes 3+1D's continuous leakage observable NOW (as DE). At 2D→3D, no such time dilation exists — 2D universe's 33s lifetime is short, so continuous leakage is invisible. Pulsed return at 33s (= DM) dominates.
+
+This unifies DE and DM as the SAME mechanism at different timescales, with **time dilation being what makes 3D→4D continuous leakage observable but 2D→3D continuous leakage invisible**.
 
 **4π status** (v3.1.2-final, often confused):
 - ✓ KEPT at 3D→4D as the boundary projection factor (γ_4D = 4π × γ_sub, gives 1.7% match to DE)
