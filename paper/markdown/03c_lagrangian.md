@@ -617,11 +617,13 @@ full analysis.
 
 ---
 
-### 3.62 SIDC 2D Lagrangian skeleton (v3.0.2)
+### 3.62 SIDC 2D Lagrangian skeleton (v3.0.2, v3.1.2-final REVISED)
 
 **User question (v3.0.2)**: "then trial and error the lagrangian
 again" / "isn't 1/2 also notable?" / "so we have a lagrangian
 now?" / "can't we trial and error them?"
+
+**v3.1.2-final REVISION**: This section originally motivated the Lagrangian decomposition α = 1/2 + 1/2 + 1/√12 from the Inception cone picture (cone slope = α, converging to 2D Planck). The cone picture is now SPECULATIVE / HISTORICAL (§3.67 v3.1.2-final REVISED). The Lagrangian remains a STRUCTURAL PROPOSAL, but its connection to α is now PURELY INTERPRETIVE. The Lagrangian is still useful for: (a) L41 (μ = M_Pl,2D² = 9×10⁶ GeV², closed v3.0.22), (b) L42 (m_3+1D = v_Higgs, closed), (c) c = 1 Liouville structure, (d) N = 12 SYK structure. It does NOT derive α.
 
 **Approach**: Trial-and-error of the 2D Lagrangian over 6
 separate calculations. Goal: identify the components that give
@@ -1037,14 +1039,24 @@ correction that makes α N=12-specific.
 See `calculations/lagrangian_v24_alpha_as_shape.py` for the full
 numerical analysis of all 4 shape interpretations.
 
-### 3.67 SPECULATION: The Lagrangian, 2D Planck, and Inception cone (v3.1)
+### 3.67 SPECULATION: The Lagrangian, 2D Planck, and Inception cone (v3.1, v3.1.2-final REVISED)
 
-> **STATUS: SPECULATIVE.** This section consolidates 17 new findings
+> **STATUS: SPECULATIVE / HISTORICAL.** This section consolidates 17 new findings
 > from v3.0.22 (L102-L120) into a unified picture. Some are ESTABLISHED
 > (L117 c-value resolution, L118 L41/L42 closed), some are PARTIAL
 > (L109, L110, L112, L113, L114, L115, L116), and some are NEGATIVE
 > (L105, L106, L107, L108, L111). The full Lagrangian (L116) is a
 > viable starting point (L120 audit: 73%) but not yet complete.
+
+**v3.1.2-final REVISION**: The Inception cone picture (cone slope = α = 1.289, "the angle at which the cone converges to the 2D Planck") was the ORIGINAL geometric justification for α = 1.289. However, v3.1.2-final replaced the cone framework with the closed-loop formula f_back = (M_Pl,N / E_event)^α. The cone is now a **VISUALIZATION** (kept here for historical context), not a foundation. The Lagrangian decomposition α = 1/2 + 1/2 + 1/√12 is now PURELY INTERPRETIVE (no geometric anchor).
+
+**What this means for the framework**:
+- α = 1.289 is CALIBRATED from the 14-event fit (SN, AGN, GRB, etc.)
+- The cone picture is consistent with α = 1.289 but does NOT derive it
+- The Lagrangian decomposition is suggestive but NOT a derivation
+- L43 (full Lagrangian → α) is OPEN: 5 brute-force attempts from Z(β) all failed (v15-v19, v26)
+- The closed-loop formula f_back = (M_Pl/E)^α works WITHOUT the cone, without the Lagrangian decomposition
+- **α = 1.289 is an empirical number, supported by structural hints, NOT a derived prediction**
 
 **What we found this session**:
 

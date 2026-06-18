@@ -324,6 +324,41 @@ The hierarchy CONVERGES to the EW scale at N ~ 9. This is the cascade's STRONGES
 
 ---
 
+## 7.6 LAGRANGIAN AND CONE: HISTORICAL CONTEXT (v3.1.2-final REVISED)
+
+**ORIGINAL (v3.1 and earlier)**: The Inception cone picture was the foundation of the framework:
+- Cone slope = α = 1.289
+- 1.289 = 1 + 1/√12 was the angle at which the cone converged to the 2D Planck (smallest energy level in 2D)
+- This was the geometric justification for why α = 1.289
+- The Lagrangian decomposition α = 1/2 + 1/2 + 1/√12 was tied to this cone picture
+  - 1/2 (Schwarzian) + 1/2 (kinematic SR) + 1/√12 (N=12 SYK)
+
+**v3.1.2-final**: The cone picture is now SPECULATIVE / HISTORICAL.
+- The closed-loop formula f_back = (M_Pl,N / E_event)^α replaced the cone as the main framework
+- The cone is still in §3.67 (Inception cone) but marked as visualization, not foundation
+- The Lagrangian decomposition is now PURELY INTERPRETIVE (no geometric anchor)
+- α = 1.289 is CALIBRATED from the 14-event fit, NOT derived from cone geometry
+- 5 brute-force attempts from Z(β) (v15-v19, v26) all failed to derive α
+
+**Lagrangian status (v3.1.2-final)**:
+- L = L_c=1,Liouville + L_N=12,SYK + L_Schwarzian is STILL a valid structural proposal
+- L41 (μ = M_Pl,2D² = 9×10⁶ GeV²) is CLOSED (v3.0.22)
+- L42 (m_3+1D = v_Higgs = 246 GeV) is CLOSED
+- L43 (full Lagrangian → α) is OPEN: structural, not derived
+- 5 brute-force attempts from Z failed (v15-v19, v26)
+- α = 1.289 is empirical, calibrated from 14 events
+
+**The Lagrangian is now important for**:
+- μ and m_3+1D identification (L41, L42)
+- c = 1 Liouville structure (L26 still OPEN)
+- N = 12 SYK structure
+- c-value resolution (L117 closed: UV c=7 → IR c=3/2)
+
+**The Lagrangian is no longer important for**:
+- Deriving α (this fails, L43 OPEN)
+- Geometric justification of α (cone gone, decomposition is interpretive)
+- Cone slope interpretation (no longer main picture)
+
 ## 7.5 v3.1.2 SCENARIO X — KEY CORRECTIONS (June 18, 2026)
 
 ### Three different M_Pl at three different levels (Scenario X)
