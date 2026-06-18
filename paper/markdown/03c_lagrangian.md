@@ -988,6 +988,79 @@ For the 4D event created by a 5D event of energy E_5D:
 
 ---
 
+### 3.67e v3.3 DE = TIME-DILATED SLICE of 4D's pulsed life (#22 user-correction)
+
+**User correction**: "DE is continuous because of time dilation. we only see a slice of the 4d time."
+
+**The key insight**:
+
+DE looks continuous to us **only because of time dilation**. We see a tiny slice of 4D's life.
+
+**In 4D's frame**: 4D event has finite proper lifetime τ_4D,proper = 1.4×10³⁴ yr. Its anti-gravity exists for that time, then stops (pulsed at 4D's death).
+
+**In 3D's frame**: 4D's lifetime is time-dilated to τ_4D,apparent = 1.83×10⁹⁸ yr. We (3D observers) are at t = 1.38×10¹⁰ yr, which is **7.5×10⁻⁸⁹** of 4D's apparent lifetime.
+
+We only see a **tiny slice** of 4D's life. In this slice, 4D's anti-gravity appears **constant** (continuous DE).
+
+**DE is fundamentally pulsed in 4D's frame, but appears continuous in 3D's frame due to time dilation.**
+
+**The picture**:
+
+```
+4D event proper time: 0 ─────────── 1.4×10³⁴ yr ── [death, anti-gravity stops]
+                          ↑
+                          4D's anti-gravity active here
+
+3D's view (time-dilated): 0 ─────────── 1.83×10⁹⁸ yr ── [death, anti-gravity stops]
+                              ↑
+                              We are here: t = 1.38×10¹⁰ yr
+                              (7.5×10⁻⁸⁹ of the way through)
+                              
+In our slice (1.38×10¹⁰ yr), 4D's anti-gravity looks CONSTANT.
+We don't see the start or end of 4D's life, just a tiny middle slice.
+```
+
+**What this means**:
+
+- DE is fundamentally pulsed in 4D's frame (anti-gravity stops at 4D's death)
+- DE appears continuous in 3D's frame (we only see a tiny slice of 4D's life)
+- The "continuity" is an artifact of time dilation + our brief observation window
+
+For all practical purposes (any cosmological time we'll ever observe), DE is constant. But in principle, it would change as 4D's life progresses:
+- **Early in 4D's life** (long after our universe ends): DE would be different
+- **Late in 4D's life** (long before our universe ends): DE would be different
+- **At 4D's death** (in 4D's frame): DE goes to zero suddenly
+
+We just happen to be in the middle of 4D's life, so DE looks constant.
+
+**Why this is consistent with the bilateral cascade**:
+
+The cascade has:
+- **Pulsed UP** (universal): 100% of universe mass returns to parent at death
+- **Pulsed DOWN** (4D's anti-gravity): 4D's anti-gravity stops at 4D's death (pulsed in 4D's frame)
+- **Continuous DOWN** (3D's view): 3D sees a slice of 4D's life, so anti-gravity looks continuous
+
+The "continuous DE" is just the **3D-frame projection** of a pulsed 4D phenomenon. Time dilation makes the pulse invisible to us.
+
+**Why this is the cleanest formulation**:
+
+All flows are pulsed in their own frame. The "continuous" appearance of DE in 3D's frame is a consequence of:
+- 4D's finite proper lifetime (1.4×10³⁴ yr)
+- γ_4D = 1.29×10⁶⁴ (huge time dilation)
+- 3D's observation window (1.38×10¹⁰ yr) being tiny compared to dilated 4D lifetime
+
+**The bilateral cascade (v3.3 final, all pulsed in own frame)**:
+
+- Pulsed UP at every transition: 100% of universe mass returns to parent
+- Pulsed DOWN in 4D: 4D's anti-gravity stops at 4D's death
+- Continuous DE in 3D: time-dilated slice of 4D's pulsed anti-gravity
+
+**Status**: All flows are pulsed in their own frame. DE's "continuity" in 3D is a time-dilation artifact. The bilateral cascade is fully pulsed; continuity is a 3D-frame observation of a tiny 4D-time slice.
+
+---
+
+---
+
 ### 3.66 v3.3 FRAME-DEPENDENT: 4D not eternal, only appears so from 3D (#16)**Status**: v3.3 has the simplest bilateral cascade. The (M_Pl/E)^α factor is the **growth factor** of 2D universes, not a continuous leak rate. The 5/27/68 split is now structurally clean.
 
 ---
