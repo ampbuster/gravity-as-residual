@@ -1773,3 +1773,37 @@ This unifies DE and DM under a single closed-loop picture, but with two distinct
 
 **New limitation L147**: DE-DM unification via two closed-loop mechanisms (continuous DE + pulsed DM) is a structural insight, but the "every level" claim for higher dimensions (4D↔5D, ...) is speculative without data.
 
+**The 4π asymmetry (USER-CAUGHT INCONSISTENCY)**:
+
+If f_back is universal (closed loop at every level), then the 4π geometric factor SHOULD also be universal. But:
+- 4π at 3D→4D: ✓ (closed loop continuous leakage, ~1.7% match)
+- 4π at 2D→3D: NO (M^1.29 has no explicit factor)
+- 4π at 4D→5D, ..., 8D→9D: Unknown
+
+This is **internally inconsistent** with the closed loop unification claim. Two interpretations:
+
+(A) **4π is specific to 3D→4D**: the continuous-leakage boundary factor for 4D bulk → 3D projection. Other transitions have their own factors (unknown).
+- α_cal = 1.289 = 1 + 1/√12 (preserves SM connection)
+- 9D = v_Higgs within 1.3% (preserved)
+- Asymmetric framework
+
+(B) **4π is universal but hidden in α at 2D→3D**: 
+- α_true = 1.258 (4π absorbed)
+- 9D = v_Higgs off by 14% (broken)
+- Symmetric framework (4π everywhere)
+
+**You cannot have BOTH** the closed loop at every level AND the 9D = v_Higgs tight match — they require DIFFERENT α values.
+
+This is a **real structural limitation** of the current framework. Resolving it requires either:
+- Accepting asymmetric 4π (Option A, current state)
+- Abandoning 9D = v_Higgs match (Option B)
+- Finding a deeper unifying principle (Option C, not yet found)
+
+**Updated status (honest)**:
+- §3.70 identifies a STRUCTURAL PATTERN (continuous + pulsed at every level)
+- The GEOMETRIC FACTORS may differ at each level
+- 4π is specifically the 3D→4D continuous leakage factor (empirically ~1.7% match)
+- Whether 4π is universal is **OPEN** (L149)
+
+**New limitation L149**: The closed loop unification (§3.70) implies f_back is universal, but the 4π geometric factor appears specifically at 3D→4D (verified ~1.7%) and is NOT explicitly at 2D→3D or higher transitions. This is internally inconsistent with the "closed loop at every level" claim. Either: (1) 4π is specific to 3D→4D (asymmetric framework), (2) 4π is universal but hidden in α at other transitions (breaks 9D = v_Higgs), or (3) a deeper unifying principle exists that gives 4π AND α = 1.289 (not yet found).
+
