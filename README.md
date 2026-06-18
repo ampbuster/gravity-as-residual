@@ -347,6 +347,38 @@ So we need ~6% of one 4D event's mass in primordial 2D universe deaths. Plausibl
 
 This is the **HONEST** closed-loop picture. The SN-driven 2D→3D path is real but quantitatively small. The dominant DM is primordial (from 4D event's 2D universe deaths).
 
+### F_p(z) is OLD and AGC/KKR problem (v3.2, user-caught)
+
+**User question**: "isn't F_p(z) old? also, if DM is mostly primordial, how to explain agc/kkr"
+
+**HONEST ANSWER**: Both concerns are valid.
+
+**F_p(z) is OLD (v2.7.52, pre-Lagrangian)**:
+- F_p(z) = 0.9993 + 0.0007 × z²/(z_half² + z²), z_half = 3
+- Introduced in v2.7.52, BEFORE the v3 Lagrangian era
+- Has NOT been updated for v3.x
+- The Lagrangian gives per-event creation C(E) = E^(1+α) and pulsed return at death
+- But F_p(z) z-evolution is STILL phenomenological
+
+**AGC/KKR inconsistency**:
+- If 99.93% of DM is primordial (F_p(0) = 0.9993), then per-galaxy DM variation CANNOT be explained by cumulative 0.07% alone
+- AGC 114905 (no DM) vs KKR 25 (DM-rich) variation is 100% (zero to significant)
+- But cumulative is only 0.07% of total DM
+- **The 5/5 dwarf cases test CUMULATIVE part only, not total DM**
+
+**Status**:
+- ✓ 5/5 cases are self-consistent for cumulative DM
+- ✗ Total DM variation (primordial + cumulative) is NOT addressed
+- ✗ F_p(z) functional form is a FIT, not derived
+- ✗ AGC 114905 'no DM' is for cumulative only, primordial should still be there
+
+**Closing requires** (L100 v3.2):
+1. F_p(z) derivation from Lagrangian
+2. Per-galaxy E_primordial distribution (L34 OPEN)
+3. N_p constraint (L144, N_p is FREE PARAM)
+
+The framework acknowledges this in L100 (REVISED v3.2). The 5/5 cases are valid for cumulative, but total DM variation is open.
+
 ---
 
 # 🏆 THE TRIFECTA: Cosmology + Galactic + Parsimony
