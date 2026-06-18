@@ -1831,9 +1831,9 @@ with α = 1.289 = 1 + 1/√12 (universal, from N=12 SM SYK).
 | Transition | E_event | M_Pl,N | τ | f_back (per s) |
 |---|---|---|---|---|
 | **2D→3D** | 10⁴⁴ J (SN) | 1.22×10¹⁹ GeV (3D Planck) | 29.6 s ≈ 33s ✓ | 1.6×10⁻⁴⁵ |
-| **4D→3+1D** | 10⁶⁹ J (4D event) | ~10¹³ GeV* (cascade 4D Planck) | 1.4×10³⁴ yr ✓ | 1.2×10⁻⁸⁵ |
+| **4D→3+1D** | 10⁷⁵ J (4D event) | 1.22×10¹⁹ GeV* (standard 4D Planck) | 1.4×10³⁴ yr ✓ | 1.2×10⁻⁸⁵ |
 
-*For the M^α law to be self-consistent at the 4D level, M_Pl,4 in the cascade is ~10¹³ GeV (NOT the standard 10¹⁹ GeV). EITHER M_Pl,4 ~ 10¹³ GeV with E_4D ~ 10⁶⁹ J, OR M_Pl,4 = 10¹⁹ GeV with E_4D ~ 10⁷⁵ J. Both give f_back_4D = 10⁻⁸⁵. This is a CALIBRATION, not a derivation.
+***SCENARIO B ADOPTED (v3.1.2)**: The cascade adopts M_Pl,4 = standard 4D Planck (1.22×10¹⁹ GeV) for the parent 4D event, NOT the cascade-specific ~10¹³ GeV from previous scenarios. With M_Pl,4 = 10¹⁹ GeV, the closed-loop formula gives E_4D = 10⁷⁵ J (universe-scale 4D event). The 14-event M^α fit and the DE matching are both satisfied (using M_Pl,3D = 10¹⁹ GeV for our universe). The TRADE-OFF: this DROPS the 9D = v_Higgs match (1.3% becomes coincidence) and the multi-universe = galaxy count (N_sub = 10¹⁸, not 10¹²). These were FRAGILE extrapolations; Scenario B preserves the ROBUST parts (M^α law, closed loop, DE matching) and gives up the speculative extrapolations.
 
 **Four-part closed loop** at every dimensional transition:
 
@@ -1861,10 +1861,12 @@ with α = 1.289 = 1 + 1/√12 (universal, from N=12 SM SYK).
 
 **What changes between levels**:
 Only TWO things:
-- **M_Pl,N**: 3D Planck (1.22×10¹⁹ GeV) vs 4D Planck (~10¹³ GeV in cascade)
-- **E_event,N**: 10⁴⁴ J (SN) vs 10⁶⁹ J (4D event)
+- **M_Pl,N**: 3D Planck (1.22×10¹⁹ GeV) vs 4D Planck (1.22×10¹⁹ GeV in Scenario B — same Planck, different dimensional level)
+- **E_event,N**: 10⁴⁴ J (SN, our 3+1D creating 2D universe) vs 10⁷⁵ J (4D event, parent creating our universe)
 
 The α is the same. The formula is the same. Closed loop.
+
+**Honest framing of the choice**: M_Pl,3D and M_Pl,4D being the SAME numerical value (both = 1.22×10¹⁹ GeV) reflects that our universe's gravity scale IS the standard 4D Planck. The "Planck mass" at different dimensional levels in the cascade refers to the local effective gravity scale at that level, not necessarily a different fundamental scale. In Scenario B, both our universe and the parent 4D event have STANDARD 4D Planck gravity. The 4D event's distinguishing feature is its HUGE energy (E_4D = 10⁷⁵ J = ~10²² M_sun, comparable to the total mass-energy of the observable universe).
 
 **The cleanest unification statement**:
 
@@ -1883,14 +1885,36 @@ The α is the same. The formula is the same. Closed loop.
 | L140 (ε = 10⁻³⁸ observed, not derived) | OPEN | UNCHANGED | Separate parameter (hierarchy) |
 | L141 (f_back only 3D→4D) | RESOLVED | **REINFORCED** | f_back universal: (M_Pl/E)^α |
 
-**Why M_Pl,4 in cascade is ~10¹³ GeV (not standard 10¹⁹ GeV)**:
+**Why M_Pl,4 = 1.22×10¹⁹ GeV (SCENARIO B adopted)**:
 
-In standard 4D quantum gravity, M_Pl,4 = 1.22×10¹⁹ GeV from G_4 = 1/M_Pl,4². The cascade's "effective M_Pl,4" at the 4D event horizon could be smaller if:
-- The 4D event is a localized excitation, not a homogeneous bulk
-- The bulk has additional structure (warped dimension, RS-II)
-- The 4D event sits on a brane with its own gravity scale
+In standard 4D quantum gravity, M_Pl,4 = 1.22×10¹⁹ GeV from G_4 = 1/M_Pl,4². The cascade adopts this as the M_Pl at the 4D event level too — both the parent 4D event and our 3+1D universe have standard 4D gravity.
 
-The cascade's M_Pl,4 ≥ 887 GeV floor (from previous analysis) is consistent with M_Pl,4 ~ 10¹³ GeV being a derived/calibrated value. The exact mechanism is OPEN (L138 PARTIAL).
+The 4D event's distinguishing feature is its ENORMOUS energy: E_4D = 10⁷⁵ J = 10⁵⁸ kg = ~10²² M_sun. This is comparable to the TOTAL mass-energy of the observable universe. Our universe is a tiny fraction (~10⁻¹⁰) of the 4D event.
 
-**Files**: `calculations/v31_closed_loop_fback.py` (new)
+**Why this scenario over alternatives (FRAGILE extrapolations dropped)**:
+
+The cascade previously claimed two "predictions" beyond the closed loop:
+1. **9D = v_Higgs match (1.3%)**: required M_Pl,4 = 887 GeV (from M^α scaling for M_Pl,N)
+2. **Multi-universe = galaxy count (N_sub = 10¹²)**: required E_4D = 10⁶⁹ J (from N_sub × E_sub)
+
+These required DIFFERENT M_Pl,4 values (887 GeV vs ~10¹³ GeV) and could not both be correct simultaneously. The 1.3% match to v_Higgs is suggestive but FRAGILE (single number match). The galaxy count identification is interpretive and FRAGILE.
+
+**SCENARIO B** trusts the ROBUST empirical anchors:
+- M^α law for 2D lifetimes (14 events, 8/8 within 1.6×) — calibrated
+- Closed-loop f_back formula — derived
+- DE matching with M_Pl,3D = 10¹⁹ GeV — calibrated from ρ_DE
+
+**and DROPS the fragile extrapolations**:
+- 9D = v_Higgs: 1.3% was coincidence
+- Multi-universe = galaxy count: sub-universes could be anything (not necessarily galaxies)
+- "887 GeV floor" for M_Pl,4: irrelevant under Scenario B
+- v10 α-symmetry: already reverted in v3.1.1-final (artifact)
+
+**Trade-off acknowledged**: Scenario B loses geometric elegance (no 9D = v_Higgs) and the multi-universe identification, but gains:
+- Standard 4D physics throughout (no exotic brane-world or RS-II required)
+- No new physics at colliders (LHC, future FCC) — testable
+- Simpler framework, fewer fragile assumptions
+- E_4D = 10⁷⁵ J has physical meaning (universe-scale event)
+
+**Files**: `calculations/v31_closed_loop_fback.py` (new), `calculations/v31_scenario_B.py` (verifies the choice)
 
