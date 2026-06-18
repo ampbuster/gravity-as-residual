@@ -1702,3 +1702,74 @@ All three are UNIFIED at $v_{\rm Higgs}$ = 246 GeV.
 See `calculations/lagrangian_v45_sm_connection.py` for the
 full numerical analysis and derivation.
 
+---
+
+### 3.70 Unified DE-DM from closed loops at every level (v3.1.2 NEW)
+
+**User insight (v3.1.2)**: "the backward mechanism is the same. we return 100% at our universe death."
+
+This unifies DE and DM under a single closed-loop picture, but with two distinct mechanisms at each transition.
+
+**At every level (N-1)D↔ND, there are TWO backward mechanisms**:
+
+1. **CONTINUOUS back-leakage from higher level**:
+   - Higher-D vacuum energy seeping into lower-D continuously
+   - Gives "DE" at the lower level
+   - Rate: $f_{\rm back} \times \epsilon \times M_{\rm Pl,N}^4$
+   - Timescale: continuous (over universe lifetime)
+   - For 3D universe: this is **our DE** ($\rho_{\rm DE} = 6 \times 10^{-10}$ J/m$^3$)
+   - Geometric factor: **4π** (3-sphere boundary of 4D bulk)
+
+2. **PULSED return at lower-D universe death**:
+   - Universe mass returns 100% to higher level at end of lifetime
+   - Gives "DM" at the higher level
+   - Rate: full mass at $\tau_{\rm universe}$ (pulse at end)
+   - Timescale: pulse at universe lifetime end
+   - For 3D universe: this is **our DM** (galactic dark matter from 2D universe deaths)
+   - No geometric factor (matter returns at center, not boundary)
+
+**The unified picture at every level**:
+
+| Level | Forward | Continuous backward | Pulsed backward |
+|---|---|---|---|
+| 2D↔3+1D | event → 2D | 2D "DE" (negligible) | 2D death → 3D DM (OUR DM!) |
+| 3+1D↔4D | 4D → 3+1D | 3D DE (OURS!) | 3D death → 4D "DM" |
+| 4D↔5D | 5D → 4D | 4D "DE" | 4D death → 5D "DM" |
+| ... | ... | ... | ... |
+| (N-1)D↔ND | ND → (N-1)D | (N-1)D "DE" | (N-1)D death → ND "DM" |
+
+**What we observe**: 
+- **OUR DE** = continuous back-leakage from 4D to 3D (with 4π factor)
+- **OUR DM** = pulsed return from 2D universe deaths to 3D
+
+**The 4π factor** is specifically the **continuous leakage factor** (geometric projection of higher-D vacuum onto lower-D boundary):
+- At 3D→4D continuous: 4π ✓ (verified)
+- At 2D→3D continuous: small/negligible (2D dies too fast for continuous leakage to matter)
+- At 4D→5D continuous: unknown (no data)
+- At pulsed returns at ANY level: 100% (no factor)
+
+**This is a structural improvement to SIDC**:
+
+| Aspect | Before v3.1.2 §3.70 | After |
+|---|---|---|
+| DE | closed loop, 4π at 3D→4D (one transition) | continuous leakage at EVERY level |
+| DM | 2D universe death return | pulsed return at EVERY level |
+| 4π | specific to 3D→4D | specific to continuous leakage (consistent at every level where it occurs) |
+| Dark sector | two separate explanations | unified under "closed loop at every level" |
+
+**What this gives us**:
+- DE and DM have **different mechanisms** within the SAME closed-loop picture
+- Continuous (DE) vs Pulsed (DM) — both come from dimensional cascade
+- 4π is the continuous leakage factor, not universal
+- The framework has a UNIFIED dark sector explanation
+
+**Status of L's after this unification**:
+- L102 (DE formula): now part of the unified picture (continuous leakage)
+- L100 (DM budget): now part of the unified picture (pulsed return)
+- L139 (f_back = 3D→4D): now "f_back = continuous leakage at every level where applicable"
+- L141 (f_back only 3D→4D leakage): REVISED — f_back applies to BOTH directions of closed loop
+
+**Files**: `calculations/v31_unified_dark_sector.py` (new)
+
+**New limitation L147**: DE-DM unification via two closed-loop mechanisms (continuous DE + pulsed DM) is a structural insight, but the "every level" claim for higher dimensions (4D↔5D, ...) is speculative without data.
+
