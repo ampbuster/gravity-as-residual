@@ -1835,6 +1835,8 @@ with α = 1.289 = 1 + 1/√12 (universal, from N=12 SM SYK).
 
 ***SCENARIO B ADOPTED (v3.1.2)**: The cascade adopts M_Pl,4 = standard 4D Planck (1.22×10¹⁹ GeV) for the parent 4D event, NOT the cascade-specific ~10¹³ GeV from previous scenarios. With M_Pl,4 = 10¹⁹ GeV, the closed-loop formula gives E_4D = 10⁷⁵ J (universe-scale 4D event). The 14-event M^α fit and the DE matching are both satisfied (using M_Pl,3D = 10¹⁹ GeV for our universe). The TRADE-OFF: this DROPS the 9D = v_Higgs match (1.3% becomes coincidence) and the multi-universe = galaxy count (N_sub = 10¹⁸, not 10¹²). These were FRAGILE extrapolations; Scenario B preserves the ROBUST parts (M^α law, closed loop, DE matching) and gives up the speculative extrapolations.
 
+***IMPORTANT CAVEAT (v3.1.2)**: M_Pl,3D = 1.22×10¹⁹ GeV IS MEASURED (via Newton's G in our universe). M_Pl,4D = 1.22×10¹⁹ GeV IS ASSUMED in Scenario B (the parent 4D event's gravity scale is NOT directly measured). Scenario B chooses M_Pl,4D = standard by OCCAM'S RAZOR (don't introduce exotic physics unless needed), NOT by direct measurement. The closed-loop formula constrains only the RATIO M_Pl,4D/E_4D = 10⁻⁶⁶ (one equation, two unknowns). E_4D = 10⁷⁵ J is then DERIVED from the assumed M_Pl,4D = 10¹⁹ GeV. If M_Pl,4D were different (e.g., 887 GeV from RS-II, or 10¹³ GeV from brane-world), E_4D would shift accordingly. Scenario B preserves standard physics; alternatives are possible but require exotic assumptions.
+
 **Four-part closed loop** at every dimensional transition:
 
 1. **LIFETIME** (M^α law): τ = (E/M_Pl)^α × t_Pl
