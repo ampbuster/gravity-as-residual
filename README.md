@@ -188,8 +188,51 @@ The 4π factor is the 3-sphere surface area (4πR²) at the 3D→4D continuous l
 | z_half (F_p transition redshift) | ✗ FREE PARAM (L35) — calibrated to cosmic SFR peak |
 | E_primordial (per-event energy of primordial 2D universes) | ✗ FREE PARAM (L34) — not derived |
 | E_crit (phase-transition threshold) | ✗ REVERTED v2.7.5 — replaced by smooth C(E) = E^(1+α) |
+| **Natural E_crit at M_Pl,2D = 3 TeV** | ✓ **DERIVED from Lagrangian** (L41) — 2D universe lifetime → 0 below this |
 
 **Honest framing**: The M^α scaling law and closed-loop formula are now EMPIRICALLY VALIDATED and STRUCTURALLY MOTIVATED. They are NOT first-principles DERIVED. The framework gives a consistent picture (same physics at every level, different energy scales) without claiming to derive α from Z(β). This is the **Equal-Universe Principle** in action.
+
+---
+
+## 🌡️ NATURAL E_crit AT M_Pl,2D = 3 TeV (v3.2, user-insight)
+
+**User question**: "are we still using the hill function or e_crit? i think with the lagrangian, we are back to e_crit? since we have a 2d planck?"
+
+**Answer**: PARTIALLY. There IS a natural E_crit implied by the Lagrangian, but it's at a DIFFERENT energy than the old E_crit.
+
+**The natural E_crit from the Lagrangian + 2D Planck**:
+
+The Lagrangian requires E_2D ≥ M_Pl,2D × c² = 3 TeV to create a 2D universe. Below this threshold:
+- 2D universe lifetime → essentially 0
+- Cannot form a sustained 2D universe
+- Effectively no 2D universe creation
+
+| E (J) | What happens | 2D lifetime (3+1D frame) |
+|---|---|---|
+| < 3 TeV = 4.8×10⁻¹⁰ J | No 2D universe (below Lagrangian threshold) | — |
+| 3 TeV | 2D universe at threshold, lifetime ≈ t_Pl,2D = 2.2×10⁻²⁸ s proper, 4×10⁻⁶⁴ s apparent | essentially zero |
+| 1 ton TNT = 4×10⁹ J | 2D universe barely sustained | 10⁻⁴³ s |
+| SN = 10⁴⁴ J | Full 2D universe | 33 s |
+
+**Comparison with old E_crit**:
+
+| Version | E_crit | Source | Status |
+|---|---|---|---|
+| v2.3.0 OLD | 10³⁰ J (Sun's total energy) | Calibrated to data | REVERTED v2.7.5 |
+| v3.2 NEW (implied) | 3 TeV (M_Pl,2D × c²) | DERIVED from Lagrangian (L41) | CURRENT |
+
+**Key differences**:
+- OLD E_crit was a STEP FUNCTION (no DM below threshold, full DM above)
+- NEW natural E_crit is a SMOOTH TRANSITION (smooth function C(E) = E^(1+α) applies, just becomes negligible below 3 TeV)
+- OLD E_crit was 40 orders of magnitude HIGHER than the new one
+- OLD E_crit was CALIBRATED; NEW natural E_crit is DERIVED from Lagrangian
+
+**Current picture**:
+- Below 3 TeV: no 2D universe (Lagrangian threshold, derived)
+- 3 TeV to ~10²⁵ J: smooth function, contribution small but non-zero
+- Above 10²⁵ J: smooth function dominates, contribution significant
+
+The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natural E_crit. But it's at M_Pl,2D = 3 TeV (derived), not at 10³⁰ J (calibrated, REVERTED). And it's a smooth transition (C(E) = E^(1+α) becomes negligible below), not a step function.
 
 ---
 
