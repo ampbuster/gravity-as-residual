@@ -28,7 +28,7 @@ Each level of SIDC has the same structure:
 In D dimensions, the Planck time scales as:
 $$t_{Pl,D} = t_{Pl,3} \times (\frac{M_{Pl,3}}{M_{Pl,D}})^{D-4}$
 
-If $M_{\rm Pl}$,D = 887 GeV (SIDC's floor) for all D ≥ 4:
+If $M_{\rm Pl}$,D = 4×10²³ GeV (SIDC's v3.3 value) for all D ≥ 4:
 - $t_{\rm Pl,4D}$ = $t_{\rm Pl,3+1D}$ = $5.39 \times 10^{-44}$ s
 - $t_{\rm Pl,5D}$ = $7.4 \times 10^{-28}$ s (longer!)
 - $t_{\rm Pl}$,6 = $1.0 \times 10^{-11}$ s (much longer)

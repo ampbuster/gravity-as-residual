@@ -65,7 +65,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 **SIDC prediction:** $M_{\rm Pl,4D} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
 
-**Falsification threshold:** If $M_{\rm Pl,4}$ measured at < 887 GeV, SIDC's bulk-brane coupling is wrong.
+**Falsification threshold:** If $M_{\rm Pl,4}$ measured at < 4×10²³ GeV, SIDC's bulk-brane coupling is wrong.
 
 **Status:** PENDING. Future colliders or precision tests.
 
@@ -96,7 +96,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 | 47 Tuc DM (LSST) | < $10^{-5}$ $M_*$ | DM detected at > 5σ |
 | BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10× off-frequency |
 | AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10× off-frequency |
-| $M_{\rm Pl,4}$ (colliders) | $\geq 887$ GeV | Measured < 887 GeV |
+| $M_{\rm Pl,4}$ (colliders) | $\geq 4×10^{23}$ GeV | Measured < 4×10²³ GeV |
 | BBN DE (precision) | < $10^{-20}$ rad | > $10^{-20}$ detected |
 | 5/27/68 (Planck) | 5/27/68 (input) | Input, not tested |
 
