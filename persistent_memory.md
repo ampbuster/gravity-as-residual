@@ -37,7 +37,9 @@ consequences of a single dimensional-projection mechanism:
 - **LIFETIME: UNKNOWN** — depends on E_sub = E_4D / N_sub, where N_sub is a FREE PARAMETER (4D-bulk dynamics unknown)
 - For N_sub = 1: τ_sub = τ_4D = 1.4×10³⁴ yr
 - For N_sub = 300: τ_sub = ~9×10³⁰ yr (was the ARBITRARY choice previously presented as derived)
-- For N_sub = 2×10¹⁹: τ_sub = 13.8 Gyr (lower bound, universe just alive)
+- For N_sub = 4.2×10¹⁸: τ_sub = 13.8 Gyr (lower bound, universe just alive, AUDIT-CORRECTED from 2×10¹⁹)
+- For N_sub = 10¹²: τ_sub = ~4.8×10¹⁸ yr (AUDIT-CORRECTED from ~10¹⁵ yr)
+- For N_sub = 10⁶: τ_sub = ~2.6×10²⁶ yr (AUDIT-CORRECTED from ~10²⁷ yr)
 - Constraint: τ_sub > 13.8 Gyr (universe still alive)
 - User caught this: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each"
 
@@ -291,13 +293,15 @@ The hierarchy CONVERGES to the EW scale at N ~ 9. This is the cascade's STRONGES
 
 **Why M_Pl,4D ≠ M_Pl,3D**: In brane-world physics (ADD since 1998, RS-I/II since 1999), the bulk Planck is INDEPENDENT of the brane Planck. The 4D bulk is a SEPARATE 4-dimensional spacetime with its OWN gravity scale, different from our universe's. M_Pl,3D = 10¹⁹ GeV is OUR universe's gravity (measured). M_Pl,4D = 887 GeV is the BULK's gravity (inferred, brane-world). The cascade's 2D universes (M_Pl,2D = 10³⁸ GeV) are also separate structures with their own gravity. Different levels, different gravity scales. The asymmetric Occam's razor is NOT applied.
 
-### AGE vs LIFETIME (v3.1.2-final, HONEST)
+### AGE vs LIFETIME (v3.1.2-final, HONEST, AUDIT-CORRECTED)
 - **AGE**: 13.8 Gyr = current age of our 3+1D universe (OBSERVED, the only firm value)
 - **LIFETIME: UNKNOWN** — depends on E_sub = E_4D / N_sub, where N_sub is a FREE PARAMETER
   - For N_sub = 1: τ_sub = τ_4D = 1.4×10³⁴ yr
   - For N_sub = 300: τ_sub = ~9×10³⁰ yr (was ARBITRARY choice presented as derived)
-  - For N_sub = 2×10¹⁹: τ_sub = 13.8 Gyr (lower bound)
-- Constraint: τ_sub > 13.8 Gyr (universe still alive)
+  - For N_sub = 4.2×10¹⁸: τ_sub = 13.8 Gyr (lower bound, AUDIT-CORRECTED from 2×10¹⁹)
+  - For N_sub = 10¹²: τ_sub = ~4.8×10¹⁸ yr (AUDIT-CORRECTED from ~10¹⁵ yr)
+  - For N_sub = 10⁶: τ_sub = ~2.6×10²⁶ yr (AUDIT-CORRECTED from ~10²⁷ yr)
+- Constraint: τ_sub > 13.8 Gyr (universe still alive) → N_sub < 4.2×10¹⁸
 - User caught this: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each"
 - AGE ≠ LIFETIME: the universe has not yet died, but its total lifetime is genuinely unknown
 

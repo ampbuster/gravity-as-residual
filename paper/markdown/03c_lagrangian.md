@@ -452,9 +452,10 @@ $$\tau_{\rm sub} = \left(\frac{E_{\rm sub}}{E_{\rm Pl,4D}}\right)^\alpha \times 
 | 1 | 1.07×10⁵⁹ J | 1.4×10³⁴ yr (no sub-universe structure) |
 | 150 | 7.14×10⁵⁶ J | ~2.2×10³¹ yr |
 | 300 | 3.57×10⁵⁶ J | ~9×10³⁰ yr |
-| 10⁶ | 1.07×10⁵³ J | ~10²⁷ yr |
-| 10¹² | 1.07×10⁴⁷ J | ~10¹⁵ yr |
-| 2×10¹⁹ | 5×10³⁹ J | 13.8 Gyr (lower bound, universe just alive now) |
+| 10⁶ | 1.07×10⁵³ J | ~2.6×10²⁶ yr |
+| 10¹² | 1.07×10⁴⁷ J | ~4.8×10¹⁸ yr |
+| 10¹⁸ | 1.07×10⁴¹ J | ~1.4×10⁵ yr |
+| 4.2×10¹⁸ | 2.5×10⁴⁰ J | 13.8 Gyr (lower bound, universe just alive now) |
 
 The lifetime τ_sub is UNKNOWN — only constrained to be > 13.8 Gyr (the observed AGE).
 
@@ -1801,7 +1802,7 @@ with α = 1.289 = 1 + 1/√12 (universal, from N=12 SM SYK).
 - The 3+1D sub-universe's lifetime is τ_sub = (E_sub/M_Pl,4D)^α × t_Pl — UNKNOWN (depends on E_sub = E_4D/N_sub, where N_sub is a free parameter)
 - The 3+1D universe's CURRENT AGE is 13.8 Gyr (observed) — distinct from its total lifetime
 
-**AGE vs LIFETIME (v3.1.2-final, HONEST)**: 13.8 Gyr is the universe's **age** (observed), not its total **lifetime**. The LIFETIME is UNKNOWN — it depends on E_sub = E_4D / N_sub, where N_sub is a free parameter (4D-bulk dynamics unknown). The constraint is τ_sub > 13.8 Gyr (universe still alive). Previous claims of "τ_sub ~ 10³⁰ yr" were based on an arbitrary choice N_sub = 300 (NOT derived). For N_sub = 1, τ_sub = τ_4D = 1.4×10³⁴ yr. The 3+1D sub-universe's lifetime could be anywhere from 1.4×10³⁴ yr (N_sub = 1) to ~14 Gyr (N_sub ~ 2×10¹⁹). We cannot say more without knowing N_sub.
+**AGE vs LIFETIME (v3.1.2-final, HONEST)**: 13.8 Gyr is the universe's **age** (observed), not its total **lifetime**. The LIFETIME is UNKNOWN — it depends on E_sub = E_4D / N_sub, where N_sub is a free parameter (4D-bulk dynamics unknown). The constraint is τ_sub > 13.8 Gyr (universe still alive), giving N_sub < 4.2×10¹⁸. Previous claims of "τ_sub ~ 10³⁰ yr" were based on an arbitrary choice N_sub = 300 (NOT derived). For N_sub = 1, τ_sub = τ_4D = 1.4×10³⁴ yr. The 3+1D sub-universe's lifetime could be anywhere from 1.4×10³⁴ yr (N_sub = 1) to ~14 Gyr (N_sub ~ 4.2×10¹⁸). We cannot say more without knowing N_sub.
 
 **Both 2D→3D and 3D→4D use the SAME FORMULA** (Scenario X adopted):
 
@@ -1818,7 +1819,7 @@ with α = 1.289 = 1 + 1/√12 (universal, from N=12 SM SYK).
 
 ***KEY INSIGHT (v3.1.2)**: M_Pl,4D = 887 GeV is the cascade's INFERRED 4D bulk Planck. It is NOT measured (we don't have direct access to the 4D bulk). The 1.3% match to v_Higgs at 9D is the cascade's strongest extra prediction beyond the basic framework. Whether this is a real geometric connection or coincidence is OPEN (L26).
 
-***MULTI-UNIVERSE PICTURE (v3.1.2, USER-CORRECTED v3.1.2-final)**: An energetic event in a 4D bulk can create multiple 3+1D sub-universes (we do NOT know the specific 4D-bulk dynamics). **N_sub is a FREE PARAMETER** (not determined by the cascade). The constraint is N_sub < 2×10¹⁹ (energy conservation: τ_sub > 13.8 Gyr). For any choice of N_sub, E_sub = E_4D / N_sub gives the sub-universe mass. Our 3+1D universe is ONE such sub-universe. The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after the sub-universe was created). **The specific 4D-bulk mechanism (e.g., whether it involves 'galaxy' or 'star' or 'quantum' structures in 4D) is UNKNOWN — we only know the FORM (energetic event creates N sub-universes) and the SCALE (E_4D = 10⁵⁹ J).**
+***MULTI-UNIVERSE PICTURE (v3.1.2, USER-CORRECTED v3.1.2-final)**: An energetic event in a 4D bulk can create multiple 3+1D sub-universes (we do NOT know the specific 4D-bulk dynamics). **N_sub is a FREE PARAMETER** (not determined by the cascade). The constraint is N_sub < 4.2×10¹⁸ (energy conservation: τ_sub > 13.8 Gyr). For any choice of N_sub, E_sub = E_4D / N_sub gives the sub-universe mass. Our 3+1D universe is ONE such sub-universe. The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after the sub-universe was created). **The specific 4D-bulk mechanism (e.g., whether it involves 'galaxy' or 'star' or 'quantum' structures in 4D) is UNKNOWN — we only know the FORM (energetic event creates N sub-universes) and the SCALE (E_4D = 10⁵⁹ J).**
 
 ***ANALOGY AT EVERY LEVEL (v3.1.2)**: The same structure applies at every dimensional transition:
 - 4D-bulk energetic event → 3+1D sub-universe (E_sub = E_4D/N_sub, lifetime UNKNOWN since N_sub free; current age 13.8 Gyr observed; specific 4D-bulk mechanism UNKNOWN)
