@@ -754,7 +754,7 @@ This is the cleanest bilateral formulation. The leak in 3D is at the natural rat
 
 | Quantity | Formula | Observed | Status |
 |---|---|---|---|
-| DE | 2.71×10⁻⁴⁷ GeV⁴ | 2.5×10⁻⁴⁷ GeV⁴ | **0.4% match** ✓ |
+| DE | 2.71×10⁻⁴⁷ GeV⁴ | 2.5×10⁻⁴⁷ GeV⁴ | **8.4% off** (was claimed 0.4%, was miscalculated) |
 | DM | 3.4× obs | 1.0× obs | **3.4× off** ✗ |
 | Baryons | (calibrated to BBNS) | 0.045 × ρ_crit | ✓ |
 | **Total** | **4.4× critical** | **1.0× critical** | **broken** |
@@ -779,13 +779,15 @@ The formula gives 91.8% of critical as DM, but observation is 27%. The framework
 |---|---|---|
 | AGN rate | 10⁻¹⁵ /m³/s | 3×10⁻¹⁶ /m³/s (within obs range) |
 | Cumulative DM | 3.4× obs | **1.0× obs** ✓ |
-| DE | unchanged | **0.4% match** ✓ |
+| DE | unchanged | **8.4% off (prediction from calibrated params)** |
 | Baryons | unchanged | 0.045× ρ_crit ✓ |
 | **Total** | 4.4× critical | **1.0× critical** ✓ |
 
 **What this means**:
 
 The framework's M^α law and per-event formula are correct. The event rate needs calibration to match the observed 27% DM. The calibrated AGN rate is within observational uncertainty (AGN luminosity function varies by 10× depending on selection).
+
+**Why DE is 8.4% off (not exact)**: framework's parameters (M_Pl,4D=887 GeV, ε=10⁻³⁸, M_Pl,3D=1.22×10¹⁹) are calibrated to OTHER observations (9D=v_Higgs match, hierarchy problem, measured Planck mass), not to DE. Independent calibrations don't perfectly intersect. To get exact DE would require adjusting M_Pl,4D to ~836 GeV, which worsens 9D=v_Higgs from 1.3% to 3.4%. The 8.4% is the framework's "calibration precision" — independent observations don't perfectly align. This is acceptable as a PREDICTION, not a fit.
 
 **The bilateral cascade (v3.3 final, calibrated)**:
 
