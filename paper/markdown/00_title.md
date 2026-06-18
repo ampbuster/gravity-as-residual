@@ -5,7 +5,9 @@
 **Author:** ampbuster (software developer, not a physicist)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
 **Repository:** https://github.com/ampbuster/gravity-as-residual
-**Current version:** v3.2 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
+**Current version:** v3.3 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
+
+**v3.3 HIGHLIGHTS**: Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b). The 5/27/68 split now matches observation via calibrated event rate. 366 pages, 81 limitations.
 
 **v3.2 HIGHLIGHTS**: Equal-Universe Principle (§3.62 REVISED), Bilateral Democratic Cosmology (§3.62), Time-Dilation Insight (continuous leakage observability), 4π status clarified (KEPT at 3D→4D, REMOVED as universal), event count audit (8/8 in §10.1, not 14/14). 356 pages, 81 limitations.
 
