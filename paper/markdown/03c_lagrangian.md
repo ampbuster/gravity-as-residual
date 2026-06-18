@@ -852,6 +852,62 @@ The 33s SN lifetime is preserved in the minimal framework. The 2D universe's int
 
 ---
 
+### 3.67l v3.3 4D EVENT UNIVERSE-SCALE: E_4D = 5×10⁷⁹ J, τ_3D,apparent = 9×10¹²⁴ yr (#33 user-insight)
+
+**User insight**: "the 4d event has to be universe scale from our perspective, otherwise, how would it create our universe? just like the 3d events that create the 2d universes"
+
+**The structural requirement**:
+- 3+1D event creating 2D universe: SN, E = 10⁴⁴ J (universe-scale for 2D)
+- 4D event creating 3+1D universe: should be universe-scale for 3+1D
+- Our universe's energy: ~10⁷¹ J (observable), ~10⁷²-10⁷⁵ J (full)
+- E_4D should be ≥ 10⁷² J
+
+**M^α law check with M_Pl,4D = 4×10²³ GeV and τ_4D = 1.51×10³⁴ yr**:
+
+$$E_{4D} = 7.94 \times 10^{65} \times M_{\rm Pl,4D} = 3.18 \times 10^{89} \text{ GeV} = 5.08 \times 10^{79} \text{ J}$$
+
+**This is 5×10⁷⁹ J = 10⁸× the observable universe's energy.** Universe-scale requirement satisfied ✓
+
+**γ_4D = (E_4D / M_Pl,3D)^α = (2.61×10⁷⁰)^1.289 = 6.03×10⁹⁰**
+
+**τ_3D,apparent = τ_4D × γ_4D = 1.51×10³⁴ × 6.03×10⁹⁰ = 9.10×10¹²⁴ yr**
+
+Universe is at 1.38×10¹⁰ / 9.10×10¹²⁴ = 1.52×10⁻¹⁵ of its lifetime (was 7.5×10⁻⁸⁹).
+
+**The honest minimal cascade (REVISED)**:
+
+| Parameter | Value | Source |
+|---|---|---|
+| M_Pl,2D | 3 TeV | Liouville CFT |
+| M_Pl,3D | 1.22×10¹⁹ GeV | measured |
+| M_Pl,4D | 4×10²³ GeV | α-weighted GM |
+| **E_4D** | **5×10⁷⁹ J** | M^α law (universe-scale ✓) |
+| α | 1.289 | N=12 SYK |
+| ε | 10⁻³⁸ | calibrated (hierarchy) |
+| τ_4D,proper | 1.51×10³⁴ yr | calibrated (DE) |
+| **γ_4D** | **6.03×10⁹⁰** | derived |
+| **τ_3D,apparent** | **9.10×10¹²⁴ yr** | τ_4D × γ_4D |
+| AGN rate | 3×10⁻¹⁶ /m³/s | calibrated (DM) |
+| N_sub | 4×10² | free |
+
+**What changes from previous framework**:
+- τ_3D,apparent: 1.83×10⁹⁸ yr → **9.10×10¹²⁴ yr** (5×10²⁷× longer)
+- E_4D: 10⁵⁹ J (galaxy-scale) → **5×10⁷⁹ J** (10⁸× universe)
+- γ_4D: 1.21×10⁶⁴ → **6.03×10⁹⁰**
+
+The 4D event is universe-scale, consistent with creating our universe (and many others). The 3+1D universe lives 9×10¹²⁴ yr.
+
+**What this means**:
+- The 4D event is 10⁸× larger than our observable universe
+- Most of the 4D event's energy goes to other sub-universes, the bulk, etc.
+- Our universe is a small fraction (~10⁻⁸) of the 4D event
+- The 3+1D universe lifetime is 10¹²⁵ yr (much longer than framework's previous 10⁹⁸ yr)
+- Universe is at 1.5×10⁻¹⁵ of its lifetime (was 7.5×10⁻⁸⁹)
+
+**Lesson**: User pointed out that the 4D event must be universe-scale, just like 3+1D events that create 2D universes are universe-scale from a 2D perspective. With M_Pl,4D = 4×10²³ GeV and τ_4D = 1.51×10³⁴ yr, the M^α law gives E_4D = 5×10⁷⁹ J (10⁸× universe). This is consistent with the structural requirement. The 3+1D universe's apparent lifetime is recalculated to 9×10¹²⁴ yr.
+
+---
+
 ### 3.67k v3.3 M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = 4×10²³ GeV (#32 user-request)
 
 **User request**: "hmm it can't be that low. what if we took 2d and 3d planck, and scaled with alpha, try to derive 4d planck"
