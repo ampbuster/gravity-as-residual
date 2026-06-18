@@ -1699,6 +1699,30 @@ full numerical analysis and derivation.
 
 This unifies DE and DM under a single closed-loop picture, but with two distinct mechanisms at each transition.
 
+**KEY SYMMETRY (v3.1.2 revised)**: At 2D→3D and 3D→4D, the STRUCTURE is identical — only the TIMESCALE differs.
+
+- **2D→3D (2D universe dies at 33s for SN)**:
+  - During 33s: continuous leakage back to 3+1D (10⁻⁴⁴ of E_2D, negligible)
+  - At 33s death: 100% pulsed return to 3+1D as DM (VISIBLE NOW)
+
+- **3D→4D (3+1D universe dies at heat death, ~10³⁴ yr future)**:
+  - During 13.8 Gyr so far: continuous leakage back to 4D (small per second, accumulates to give DE forward flow)
+  - At heat death: 100% pulsed return to 4D (FUTURE event, not yet observable)
+
+**The structural identity**: 2D→3D pulsed return ≡ 3D→4D pulsed return. Same mechanism, same 100% return, just different timescale.
+
+**The observable difference** (DM vs DE) is ENTIRELY due to TIMING:
+- 2D lifetimes are short (33s for SN) → deaths happen constantly → DM visible NOW
+- 3+1D lifetime is long (10³⁴ yr) → heat death in distant future → pulsed return not yet observable
+- The forward 4D→3+1D continuous leakage dominates NOW (gives DE)
+
+**Why DE and DM look so different** despite being the same mechanism at different levels:
+- DE = continuous back-leakage forward from 4D (slow trickle, vacuum-like, uniform)
+- DM = pulsed return from 2D deaths (instantaneous, matter-like, clumpy)
+- Same closed-loop structure, different timing creates different phenomenology
+
+This is the cleanest unification: **DE and DM are both back-flow energy, distinguished only by whether the return is continuous (DE) or pulsed at death (DM)**. The OBSERVABLE character (smooth vs clumpy) is a direct consequence of the TIMING of return.
+
 **At every level (N-1)D↔ND, there are TWO backward mechanisms**:
 
 1. **CONTINUOUS back-leakage from higher level**:

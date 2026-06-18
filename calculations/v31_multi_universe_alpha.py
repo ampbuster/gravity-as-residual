@@ -7,17 +7,16 @@ User insight (v3.1.2):
   - Apply alpha-power-law to each sub-universe's lifetime
 
 Result:
-  - Sub-universe mass: E_sub = 3.6e56 J (large galaxy) [alpha_cal version]
-                     or 2.67e10 M_sun (average galaxy) [alpha_true version]
+  - Sub-universe mass: E_sub = 3.6e56 J = 2e9 M_sun (small/dwarf galaxy)
   - Number of sub-universes: N = 3e12 (~galaxy count)
   - Sub-universe lifetime: tau_sub = 13.8 Gyr (matches!)
   - gamma_4D = 4pi × gamma_sub = 1.015e62 (within 1.5% of calibrated 10^62)
   - f_back_4D = 1.22e-85 (within 1.7% of calibrated 1.24e-85)
 
-DUAL FRAMING (v3.1.2 update):
-  - Interpretation A: alpha_cal = 1.289 (4pi at 3D->4D only)
-                      E_sub = small/dwarf galaxy, 9D = v_Higgs within 1.3%
-  - Interpretation B: alpha_true = 1.258 (4pi hidden in alpha at 2D->3D)
+v3.1.2 FINAL: alpha_cal = 1.289 (Interpretation A only)
+  - Interpretation B (alpha_true = 1.258 with 4pi hidden) was tested and
+    REJECTED by the 14-event M^1.29 fit. See §3.60.4 in paper for details.
+  - This script preserves the historical calculation for traceability.
                       E_sub = AVERAGE galaxy, 9D = v_Higgs off by 14%
 
 The 4pi factor can be placed in TWO ways. Both interpretations are presented.
