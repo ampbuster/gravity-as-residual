@@ -4,7 +4,7 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 3.1.2-final (June 2026) — *TWO MAIN RESULTS RESTORED: M^α scaling law + closed-loop formula. v3.1.2-final adds: (1) AGE vs LIFETIME distinct — 13.8 Gyr is universe AGE, predicted total LIFETIME UNKNOWN (N_sub free parameter); (2) FRAME OF REFERENCE distinct — M^α law gives apparent durations in lower-D frame, 4D event proper duration ~10⁻²⁰ s (γ ~ 10⁶²); (3) SCENARIO X ADOPTED — M_Pl,4D = 887 GeV (4D BULK Planck, separate from M_Pl,3D), M_Pl,2D = 3 TeV (from L41). Three different M_Pl at three different levels. 14-event M^1.29 fit verified (α = 1.258 REJECTED, 13/14 fail). Closed-loop formula f_back = (M_Pl,N/E_event)^α universal at every level. Bilateral M^α scaling: UP to 9D (v_Higgs, 1.3%) and DOWN to 2D (TeV, factor of 2 from L41). Equal-Universe Principle: 1 species at each level, multiple γ values. 356 pages, 81 limitations.*
+**Version:** 3.1.2-final (June 2026) — *TWO MAIN RESULTS RESTORED: M^α scaling law + closed-loop formula. v3.1.2-final adds: (1) AGE vs LIFETIME distinct — 13.8 Gyr is universe AGE, predicted total LIFETIME UNKNOWN (N_sub free parameter); (2) FRAME OF REFERENCE distinct — M^α law gives apparent durations in lower-D frame, 4D event proper duration ~10⁻²⁰ s (γ ~ 10⁶²); (3) SCENARIO X ADOPTED — M_Pl,4D = 887 GeV (4D BULK Planck, separate from M_Pl,3D), M_Pl,2D = 3 TeV (from L41). Three different M_Pl at three different levels. §10.1 8/8 events fit M^1.29 within 1.6× (α = 1.258 REJECTED, 14% off v_Higgs). Closed-loop formula f_back = (M_Pl,N/E_event)^α universal at every level. Bilateral M^α scaling: UP to 9D (v_Higgs, 1.3%) and DOWN to 2D (TeV, factor of 2 from L41). Equal-Universe Principle: 1 species at each level, multiple γ values. 356 pages, 81 limitations.* (Note: "14 events" and "11 events" appear in some v3.1.2-final text but the rigorous test set is §10.1's 8 events. The "13/14 fail" claim for α = 1.258 is paper text without rigorous documentation in v3.1.2 calculations.)
 
 **v3.1 HIGHLIGHTS** (NEW since v3.0.21):
 - **Inception cone** (L112): 4D event at base, 2D Planck at apex; 4D event eternal from our frame
@@ -79,23 +79,43 @@ We RESTORE the two main results with appropriate caveats:
 
 ## Result 1: M^α Scaling Law (τ = (E/M_Pl)^α × t_Pl, α = 1.289)
 
-**The 14-event empirical fit**: All SIDC event types (SN, AGN, GRB, TDE, BNS, magnetar, hypernova, solar flare, etc.) fit ONE power law:
+**The §10.1 8-event empirical fit** (the rigorous test set, all REAL events):
 
-$$\tau_{2D} = \left(\frac{E_{2D}}{M_{Pl,3D}}\right)^{1.289} \times t_{Pl,3D}$$
+| 3D event | E_3D (J) | τ_obs (s) | ratio (τ_pred/τ_obs) |
+|---|---|---|---|
+| 1 ton TNT | 4×10⁹ | 1×10⁻⁴³ | 1.51 |
+| X-class solar flare | 1×10²⁵ | 1×10⁻²³ | 1.07 |
+| Type Ia SN | 1×10⁴⁴ | 33 (calibration) | 1.00 |
+| Hypernova | 1×10⁴⁶ | 1.26×10⁴ | 0.99 |
+| Long GRB | 1×10⁴⁷ | 2.42×10⁵ | 1.00 |
+| BNS merger | 1×10⁵³ | 1.26×10¹³ | 1.04 |
+| AGN flare | 1×10⁵⁵ | 3.16×10¹⁵ | 1.58 |
+| Quasar outburst | 1×10⁶⁰ | 1.58×10²² | 0.88 |
 
-This is the **democratic cosmology**: 1 species (2D universe with N=12 SYK), 14 γ values (different energies). All 14 events give 8/8 within 1.6× tolerance. α = 1.258 has been **REJECTED** by the same test (13/14 events fail by up to 281%).
+**8/8 match within factor 1.6** (median ratio 1.024). Span: 10⁻⁴³ s to 10²² s = 65 orders of magnitude.
+
+**Honest note on event count**:
+- 8 events in §10.1 (RIGOROUS test set, all real astronomical/terrestrial events)
+- "14 events" appears in some v3.1.2-final text but is a legacy v14 claim mixing 8 real + 6 theoretical
+- "11 events" appears in partition function test (different count, different context)
+- "13/14 fail" for α = 1.258 is paper text without rigorous documentation in v3.1.2 calculations
+
+**Strongest empirical claim**: 8/8 real events match the formula within 1.6×.
+
+**α = 1.258 test** (paper §3.71): The alternative α = 1.258 (with 4π hidden in α) gives different E_sub and 9D = v_Higgs match within 14% (vs 1.3% for α = 1.289). Interpretation A (α = 1.289) is preferred because it gives N=12 (matches SM fermion count) and tighter v_Higgs match.
 
 **Structural decomposition** (interpretive, not derived): α = 1 + 1/√12 = 1/2 (Schwarzian) + 1/2 (kinematic SR) + 1/√12 (N=12 SYK). This is the framework's STRUCTURAL explanation for why α might be ~1.29. It is NOT a first-principles derivation (L43 OPEN: 5 brute-force attempts from Z(β) failed).
 
 **STRENGTHS**:
-- 14 events spanning 30+ orders of magnitude in energy all fit
-- α = 1.258 rejected by the same test
+- 8/8 real events fit within 1.6× (spanning 65 orders of magnitude)
+- α = 1.258 rejected by tighter v_Higgs match (1.3% vs 14%)
 - Structural hints from Lagrangian decomposition
 
 **WEAKNESSES**:
 - α = 1.289 is calibrated, not derived
 - "Why N=12" is unanswered
 - "1 species" claim is structural, not first-principles
+- "13/14 fail" for α = 1.258 is paper text without rigorous documentation
 
 ## Result 2: Closed-Loop Formula f_back = (M_Pl,N / E_event)^α
 
@@ -130,16 +150,19 @@ This unifies DE and DM as the SAME mechanism at different timescales.
 
 | Claim | Status |
 |---|---|
-| 14 events fit one power law | ✓ OBSERVED |
-| α = 1.289 is the same for all 14 | ✓ CALIBRATED |
-| Closed loop formula is universal | ✓ STRUCTURAL |
+| 8/8 real events fit M^α law | ✓ OBSERVED (§10.1) |
+| α = 1.289 calibrated at SN 33s | ✓ CALIBRATED |
+| Closed loop formula is universal at every level | ✓ STRUCTURAL |
 | DE-DM are the same mechanism | ✓ STRUCTURAL |
 | Bilateral M^α scaling (4D→9D, 4D→2D) | ✓ STRUCTURAL |
+| DE matching within 14% via f_back formula | ✓ EMPIRICAL |
 | α = 1.289 from first principles | ✗ OPEN (L43) |
 | f_back = 10⁻⁸⁵ from first principles | ✗ CALIBRATED |
 | 4π factor from first principles | ✗ OPEN (L142a) |
 | N_sub (number of sub-universes) | ✗ FREE PARAM |
 | Universe total LIFETIME | ✗ UNKNOWN (only AGE is observed) |
+| "14 events" all fit (vs §10.1's 8) | ✗ INCONSISTENT (legacy claim) |
+| "13/14 fail" for α = 1.258 (rigorously documented) | ✗ PAPER TEXT (not in calculations) |
 
 **Honest framing**: The M^α scaling law and closed-loop formula are now EMPIRICALLY VALIDATED and STRUCTURALLY MOTIVATED. They are NOT first-principles DERIVED. The framework gives a consistent picture (same physics at every level, different energy scales) without claiming to derive α from Z(β). This is the **Equal-Universe Principle** in action.
 
