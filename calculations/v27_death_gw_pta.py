@@ -242,6 +242,6 @@ output = {
     'ipta_3_release': '2030s+',
 }
 
-with open('calculations/v27_death_gw_pta.json', 'w') as f:
+with open('json/calculations/v27_death_gw_pta.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_death_gw_pta.json")

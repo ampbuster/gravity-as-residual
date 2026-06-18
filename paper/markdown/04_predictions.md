@@ -443,7 +443,7 @@ The *resolution*: 2D universe creation follows the *smooth creation function* $C
 
 #### 4.8.1 Real-data test of the phase-transition principle (v2.3.1)
 
-**The phase-transition principle's prediction** is now tested against *real observational data* (not synthesized or qualitative), using published measurements of stellar populations, X-ray activity, and DM content for 5 specific systems. The full data processing is in `calculations/phase_transition_real_data_test.py` and `supporting/data/UDG/udg_audit.json`.
+**The phase-transition principle's prediction** is now tested against *real observational data* (not synthesized or qualitative), using published measurements of stellar populations, X-ray activity, and DM content for 5 specific systems. The full data processing is in `calculations/phase_transition_real_data_test.py` and `json/data/UDG/udg_audit.json`.
 
 The key physical insight: SIDC's threshold is on *event energy*, not on *stellar mass*. A galaxy's DM content should depend on the *maximum event energy* its stellar population has produced in its recent history, not just the total stellar mass or the *current* star formation rate. Specifically:
 - A stellar population with age < ~50 Myr contains O/B stars (which produce core-collapse SN at $E$ ~ $10^{44}$ J, well above $E_{crit}$) → 2D universe creation active → DM-rich

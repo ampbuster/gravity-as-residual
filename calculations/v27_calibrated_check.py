@@ -181,6 +181,6 @@ output = {
     'removed_parameters_count': 3,  # f_back, alpha removed, f_active dropped
 }
 
-with open('calculations/v27_calibrated_check.json', 'w') as f:
+with open('json/calculations/v27_calibrated_check.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_calibrated_check.json")

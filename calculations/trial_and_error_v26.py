@@ -368,7 +368,7 @@ def main():
         'Q3_total_resid': resid,
         'conclusion': 'Cascade parameters are consistent with observations but postulated, not derived',
     }
-    with open('calculations/legacy_tempcalc/trial_and_error_v26_results.json', 'w') as f:
+    with open('json/calculations/legacy_tempcalc/trial_and_error_v26_results.json', 'w') as f:
         json.dump(results, f, indent=2, default=str)
 
     print("Results saved to calculations/legacy_tempcalc/trial_and_error_v26_results.json")

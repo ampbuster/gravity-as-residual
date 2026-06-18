@@ -95,6 +95,6 @@ output = {
     'caveat': 'The cascade\'s DE interpretation depends on the 4D→3+1D dimensional inversion model, which is the LEAST well-tested part of the cascade. If the inversion is not strictly constant, the w(z) could evolve slightly. This is a model-dependence, not a first-principles derivation.',
 }
 
-with open('calculations/v27_desi_wz.json', 'w') as f:
+with open('json/calculations/v27_desi_wz.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_desi_wz.json")

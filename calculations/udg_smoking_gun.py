@@ -194,12 +194,12 @@ audit = {
     "verdict_summary": "3/4 UDG cases consistent. AGC 114905 is a challenge requiring further investigation (recent SF vs cumulative)."
 }
 
-with open('supporting/data/UDG/udg_audit.json', 'w') as f:
+with open('json/data/UDG/udg_audit.json', 'w') as f:
     json.dump(audit, f, indent=2)
 
 import os
 os.makedirs('supporting/data/UDG', exist_ok=True)
-with open('supporting/data/UDG/udg_audit.json', 'w') as f:
+with open('json/data/UDG/udg_audit.json', 'w') as f:
     json.dump(audit, f, indent=2)
 
 print("Audit saved to supporting/data/UDG/udg_audit.json")

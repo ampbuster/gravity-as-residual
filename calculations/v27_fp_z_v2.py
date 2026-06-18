@@ -118,6 +118,6 @@ output = {
     'honest_finding': 'The user identified a real issue with v2.7.49 (wrong F_p formula). The corrected F_p(z) = 0.7 + 0.3×z²/(z²+9) does have F_p(0) = 0.7, so v2.7.49 was over-stating the issue. But the F_s(0) = 0.3 component is still inconsistent with SN death calculations by a factor of 10^6. The cascade should revise F_p(0) to be closer to 1.0, or account for the cumulative component with additional event types.',
 }
 
-with open('calculations/v27_fp_z_v2.json', 'w') as f:
+with open('json/calculations/v27_fp_z_v2.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_fp_z_v2.json")

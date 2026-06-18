@@ -171,6 +171,6 @@ output = {
     'implications_for_cascade': 'The cascade should be honest that α=1.29 is a calibrated parameter, not derived. This is consistent with the cascade being a phenomenological model.',
 }
 
-with open('calculations/v27_alpha_derivation.json', 'w') as f:
+with open('json/calculations/v27_alpha_derivation.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_alpha_derivation.json")

@@ -115,6 +115,6 @@ output = {
     'cascade_specific_test': 'What WOULD distinguish cascade from ΛCDM: precise measurement of M_dyn/M_b evolution with z. ΛCDM predicts M_dyn/M_b ~ constant (5x) at all z. Cascade predicts M_dyn/M_b ~ (1+z)^3 * (constant) due to F_p(z) at high z. This is testable with future ELT (2030+) IFU observations.',
 }
 
-with open('calculations/v27_jwst_quiescent_mdyn.json', 'w') as f:
+with open('json/calculations/v27_jwst_quiescent_mdyn.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_jwst_quiescent_mdyn.json")

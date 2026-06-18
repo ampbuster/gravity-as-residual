@@ -942,7 +942,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 **File added:** `calculations/sidc_phenomenological_emulator.py` (722 lines, 4 parts).
 
-**Result files:** `calculations/sidc_emulator_results.json` (machine-readable output of the test harness) and `calculations/sidc_emulator_results.txt` (human-readable summary of independent test results).
+**Result files:** `json/calculations/sidc_emulator_results.json` (machine-readable output of the test harness) and `calculations/sidc_emulator_results.txt` (human-readable summary of independent test results).
 
 **Files also referenced in this section:** `calculations/verify_tensor_pipeline.py` (5-check verification of §4.44 tensor construction), `calculations/verify_v24_refactor.py` (4-check verification of §4.44.1 v2.4 refactor).
 
@@ -1049,7 +1049,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 ```
 
 **File added:** `calculations/sidc_phenomenological_emulator.py` (722 lines, 4 parts).
-**Result files:** `calculations/sidc_emulator_results.json` (machine-readable) and `calculations/sidc_emulator_results.txt` (human-readable).
+**Result files:** `json/calculations/sidc_emulator_results.json` (machine-readable) and `calculations/sidc_emulator_results.txt` (human-readable).
 
 ---
 
@@ -1117,7 +1117,7 @@ After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contri
 - **[PASS]** *Closes* Limitation 31 (time-lag of SIDC DM at CMB epoch) — SIDC ACCEPTS the time-lag as a real prediction, not a problem to fix
 
 **File added:** `calculations/time_scale_invariance_test_v3.py` (~280 lines, 3 versions of the calculation).
-**Result files:** `calculations/time_scale_invariance_results.json` and `calculations/time_scale_invariance_results.txt`.
+**Result files:** `json/calculations/time_scale_invariance_results.json` and `calculations/time_scale_invariance_results.txt`.
 
 ---
 

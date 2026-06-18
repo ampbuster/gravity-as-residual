@@ -128,6 +128,6 @@ output = {
     'honest_finding': 'Including phase transitions and PBH evaporation does NOT change the qualitative picture. F_p(0) ≈ 0.9993 is still consistent. The 99.93% primordial figure holds across all reasonable variations of these uncertain parameters.',
 }
 
-with open('calculations/v27_phase_transitions.json', 'w') as f:
+with open('json/calculations/v27_phase_transitions.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_phase_transitions.json")

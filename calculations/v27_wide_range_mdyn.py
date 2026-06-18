@@ -116,6 +116,6 @@ output = {
     'caveat': 'The 5×M_b baseline is from ΛCDM-like primordial halo. The cascade\'s "DM = past SF" should give more M_dyn for galaxies with more past SF, but F_s is too small to account for the observed excess (see v2.7.50).',
 }
 
-with open('calculations/v27_wide_range_mdyn.json', 'w') as f:
+with open('json/calculations/v27_wide_range_mdyn.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_wide_range_mdyn.json")

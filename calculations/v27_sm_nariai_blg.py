@@ -498,6 +498,6 @@ output = {
     },
 }
 
-with open('calculations/v27_deeper_research.json', 'w') as f:
+with open('json/calculations/v27_deeper_research.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_deeper_research.json")

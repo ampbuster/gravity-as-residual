@@ -220,6 +220,6 @@ output = {
     'L87_NEW': 'Specific values (α, c, N, f_back) depend on the dimensional transition',
 }
 
-with open('calculations/v27_dimensional_scale_invariance.json', 'w') as f:
+with open('json/calculations/v27_dimensional_scale_invariance.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_dimensional_scale_invariance.json")

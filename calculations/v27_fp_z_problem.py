@@ -126,6 +126,6 @@ output = {
     'next_steps': 'L50 added: cascade F_p(z) model has internal inconsistency. The user identified this by asking a simple observational question. The fix requires a new parameter (F_p(0) floor or constant DM component) that the cascade should derive from first principles.',
 }
 
-with open('calculations/v27_fp_z_problem.json', 'w') as f:
+with open('json/calculations/v27_fp_z_problem.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_fp_z_problem.json")

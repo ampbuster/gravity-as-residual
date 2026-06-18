@@ -409,6 +409,11 @@ The hierarchy CONVERGES to the EW scale at N ~ 9. This is the cascade's STRONGES
 - `calculations/lagrangian_v[1-9]*.py` — Lagrangian trial-and-error
 - `calculations/v31_*.py` — v3.1.2 current (closed_loop_fback, scenario_X, multi_universe_alpha)
 - `calculations/legacy/*.py` — v3.1.1-v3.1.2 superseded (5 scripts, see README)
+- `json/calculations/` — 79 calculation result JSONs (machine-readable outputs)
+- `json/data/SPARC/` — 6 SPARC galaxy data files (observational)
+- `json/data/Tian/` — 4 Tian+ 2024 BCG data files (observational)
+- `json/data/UDG/` — 1 UDG data file (observational)
+- `json/README.md` — structure documentation
 
 ---
 

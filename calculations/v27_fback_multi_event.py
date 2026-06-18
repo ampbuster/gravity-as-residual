@@ -172,6 +172,6 @@ output = {
     'honest_finding': 'The v2.7.58 breakthrough was real for SN but did not generalize. The cascade f_back remains semi-calibrated (SN-specific formula exists, but it does not extend to other event types).',
 }
 
-with open('calculations/v27_fback_multi_event.json', 'w') as f:
+with open('json/calculations/v27_fback_multi_event.json', 'w') as f:
     json.dump(output, f, indent=2)
 print(f"\nSaved to calculations/v27_fback_multi_event.json")

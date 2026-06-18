@@ -584,7 +584,7 @@ def main():
         'kkr_25': {k: v for k, v in res_kkr.items() if k not in ['r', 'sigma_v', 'g_total']},
         'bifurcation_pass': bifurcation_pass,
     }
-    with open('calculations/sidc_emulator_results.json', 'w') as f:
+    with open('json/calculations/sidc_emulator_results.json', 'w') as f:
         json.dump(results, f, indent=2, default=str)
     print("Results saved to calculations/sidc_emulator_results.json")
     
