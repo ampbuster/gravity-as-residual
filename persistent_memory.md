@@ -5,190 +5,207 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.1.1 (paper content) / v3.0.21 (build) — 334 pages
+**Current version:** v3.1.1-final (paper) — 338 pages, 71 honest limitations
 **Last updated:** June 18, 2026
 
 ---
 
-## 1. The model in one paragraph
+## 1. The model in one paragraph (REVISED v3.1.1-final)
 
 SIDC proposes that gravity, dark matter, and dark energy are all
 consequences of a single dimensional-projection mechanism:
 
 - A 4D event created our 3+1D universe (the Big Bang)
-- That 4D event's gravity, projected into 3+1D, has a *repulsive* component → **dark energy**
-- In our universe, every energetic event (supernovae, BH mergers, GRBs, AGN flares, even LHC collisions) creates a tiny **2D universe**
-- The 2D universe sits deep in an AdS_5 bulk at depth y_2D set by the creating event's energy
-- The cumulative *gravitational back-projection* of all those 2D universes is what we measure as **dark matter**
-- The same bulk-brane cancellation that gives gravity its weakness (10⁻³⁸ hierarchy) also gives the un-cancelled antigravity (DE) and the small back-projection fraction (DM)
+- The 4D event's gravity **inverts to antigravity** when projected into 3+1D
+- This 4D antigravity **cancels** (1 - ε) of 3+1D's own gravity
+  - ε = 10⁻³⁸ is the residual = gravity weakness (hierarchy, observed)
+  - The un-cancelled fraction = DE = 10⁻¹²³ × M_Pl⁴ (cosmological CC, observed)
+- The 4D event is "practically eternal" from 3+1D frame (γ ~ 10⁶², τ_4D ~ 10³⁴ yr)
+- 3+1D leaks f_back = t_Pl/τ_4D ~ 10⁻⁸⁵ back to 4D during its lifetime
+- DE = f_back × ε × M_Pl⁴ (closed loop, frame-consistent with γ ~ 10⁶²)
+- In our universe, every energetic event (SNe, BH mergers, etc.) creates a 2D universe
+- 2D universe lives for τ_2D = (E/E_Pl)^1.29 × t_Pl (M^1.29 scaling law, 14 events)
+- 2D universe dies, **100% of energy returns to 3+1D as DM** (death return, not f_back)
+- DM is cumulative 2D universe deaths (Σ M_2D × N)
 
-**The closed loop:** one geometric process (dimensional projection through bulk-brane cancellation) explains three effects (gravity weakness, DE, DM).
-
----
-
-## 2. The 3 ε's (related through bulk-brane cancellation)
-
-| Symbol | Value | Meaning |
-|--------|-------|---------|
-| ε_1 | ~10⁻³⁸ | Bulk-brane coupling (gravity hierarchy) |
-| ε_2 | ~1.78×10⁻¹⁵¹ | Un-cancelled vacuum (ρ_DE / M_Pl,4⁴) |
-| ε_3 | ~10⁻⁸⁵ | Per-2D-universe back-projection fraction (f_back) |
-
-**Same mechanism, different L's** — different physical situations give different ε's because each entity sits at a different bulk depth:
-- L_5 (extra-dim size): fixed by 4D-5D Planck matching
-- L_2D (2D universe depth): event-dependent, set by E_event
-
-The closed loop is structural, not numerical.
+**Two distinct cross-dimensional stories:**
+- 4D ↔ 3+1D: CLOSED LOOP (f_back = 10⁻⁸⁵, governed by γ)
+- 3+1D → 2D: CREATION + DEATH RETURN (M^1.29 lifetime, governed by α)
 
 ---
 
-## 3. f_back and γ share the SAME α = 1.289
+## 2. The proper closed loop (REVISED v3.1.1-final)
 
-This was the key insight confirmed in **Lagrangian v10** (June 17, 2026):
+The closed loop is **specifically the 3+1D ↔ 4D cycle**:
 
-```
-Forward (time dilation):  γ = (E/E_Pl)^α       with α = 1.289
-Backward (back-action):   f_back = (E_4D/E)^(1/(2α)) × prefactors
-α × 1/(2α) = 1/2                              (round-trip loss)
-```
+$$f_{\rm back} = \frac{t_{\rm Pl,3}}{\tau_{\rm 4D}} = \frac{t_{\rm Pl,3}}{T_{\rm 4D,proper} \times \gamma}$$
 
-**The composite exponent 1/(2α) = c/α where c = 1/2 = N/24 = 12/24** (Ising central charge).
+For γ ~ 10⁶² (within cone picture's range 10⁶⁰-10¹⁰⁰):
+- τ_4D = 4.35×10⁴¹ s = 1.4×10³⁴ yr (10²⁴ × universe age, "practically eternal")
+- f_back = 5.4×10⁻⁴⁴ / 4.35×10⁴¹ = 1.2×10⁻⁸⁵
+- DE = f_back × ε × M_Pl⁴ = 1.2×10⁻⁸⁵ × 10⁻³⁸ × 2.22×10⁷⁶ = 2.7×10⁻⁴⁷ GeV⁴
+- Observed: 2.4×10⁻⁴⁷ GeV⁴ (within 14%)
 
-For SN: γ = 5.49×10⁴⁴, τ_obs = γ × t_Pl = 33 s ✓
-For SN: f_back = 8.76×10⁻⁸⁶ ≈ 10⁻⁸⁵ ✓ (off by 0.06 orders)
+**The closed loop is a CONSISTENCY CHECK** between γ, f_back, ε, and DE.
 
-**§3.60 has the formula.** L52 (closed in v2.7.66): "f_back ≈ 8.6×10⁻⁸⁶ UNIVERSAL, scaling law."
+**What changed in v3.1.1-final:**
+- v10 used f_back = (t_Pl/τ_4D) × (τ_SN/τ_universe) × (E_4D/E_SN)^(1/(2α))
+  - This required τ_4D = 10²⁸ yr (γ ~ 10⁵⁶, OUTSIDE cone picture range)
+  - The extra factors were artifact of v10's wrong 2D-to-3D interpretation
+- v3.1.1-final: f_back = t_Pl/τ_4D (single factor)
+  - τ_4D corresponds to γ ~ 10⁶² (within cone picture range)
+  - Frame-consistent
 
-After scaling by (E/E_SN)^(α - 1/(2α)), f_back is **universal** across all 14 event types.
+**f_back = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D leakage** (L141 RESOLVED):
+- 2D universe lifetime (33s for SN) is too short for while-alive f_back to matter
+- Per SN: f_back_2D = t_Pl/33 = 10⁻⁴⁵, leakage = 0.16 J (negligible)
+- 2D-3D story is: 100% death return as DM, not a while-alive f_back
 
 ---
 
-## 4. The Lagrangian skeleton (paper §3.62)
+## 3. The 2D universe story (M^1.29 scaling law, INDEPENDENT of closed loop)
 
-```
-L_SIDC = L_c=1,Liouville + L_N=12,SYK + L_Schwarzian
-```
+The M^1.29 scaling law is empirically validated across 14 event types:
 
-- **α = 1.289 = 1 + 1/√12** (N=12 SYK saddle, uniquely determined, off by 0.001 from α=1.29)
-- α = 1/2 + 1/2 + 1/√12 (Schwarzian + kinematic + SYK correction)
-- 1/2 in 2D papers: Schwarzian (τ~√E), DOZZ (b²=1/2), Calabrese-Cardy, etc.
-- 1/√12 = 1/(2√3): the 2 is 2D itself, √3 is 3 SM generations
-- N=12 = 4 Weyl × 3 generations (Standard Model "backbone")
+$$\tau_{2D} = \left(\frac{E}{E_{\rm Pl}}\right)^{\alpha} \times t_{\rm Pl}, \quad \alpha = 1.289$$
 
-**Democratic cosmology (§3.17):** all 14 events = SAME operator at different γ. 1 species, 14 γ values.
+- α = 1.289 = 1 + 1/√12 from N=12 SYK
+- N=12 = 12 SM Weyl fermions (dim(SU(3)×SU(2)×U(1)) = 8+3+1 = 12)
+- This is a 2D universe LIFETIME formula, independent of the closed loop
+- The 2D-3D story is: 2D universe dies, 100% energy returns to 3+1D as DM
+- NO while-alive f_back at 2D-3D level (lifetimes too short)
 
-**Status:**
-- ✓ Structure identified
-- ✓ Saddle-point derivation of α
+**α's role has NARROWED in v3.1.1-final:**
+- BEFORE: α-symmetry unifies forward and backward (α × 1/(2α) = 1/2)
+- AFTER: α governs 2D-3D lifetimes; γ (cone picture) governs 3D-4D closed loop
+- The "α-symmetry" claim of v10 was artifact of wrong interpretation
+
+**What α is used for NOW:**
+- 2D universe lifetime scaling (M^1.29 law, 14 event types) ✓
+- N=12 SM connection (structural) ✓
+- Lagrangian skeleton decomposition (α = 1 + 1/√12) ✓
+
+**What α is NOT used for NOW:**
+- Closed loop formula (uses γ, not α) ✗
+- α-symmetry (α × 1/(2α) = 1/2) ✗
+- "Three derivations of 1/2" as closed loop evidence ✗
+
+---
+
+## 4. The Lagrangian skeleton (RESCOPED v3.1.1-final)
+
+$$L_{\rm SIDC} = L_{c=1,\rm Liouville} + L_{N=12,\rm SYK} + L_{\rm Schwarzian}$$
+
+**This is now scoped as a CANDIDATE for 2D universe physics, NOT evidence for the closed loop.**
+
+- α = 1.289 = 1 + 1/√12 (N=12 SYK saddle)
+- α = 1/2 (Schwarzian) + 1/2 (kinematic) + 1/√12 (N=12 SYK)
+- 1/2 in 2D papers: Schwarzian (τ~√E), DOZZ (b²=1/2), Calabrese-Cardy
+- 1/√12: 2D × √3 generations (or N=12 finite-N)
+- N=12 = 12 SM Weyl fermions (Standard Model "backbone")
+
+**Status (revised):**
+- ✓ Structure identified (c=1 + N=12 + Schwarzian)
+- ✓ α = 1.289 matches M^1.29 law across 14 events
 - ✗ Full Lagrangian (couplings, cross-couplings, regularization, Z derivation)
 - ✗ First-principles derivation of 1/√N (structural match only)
+- ⚠️ NOT evidence for closed loop (closed loop uses γ, not α)
+
+**Democratic cosmology (§3.17):** all 14 events = SAME operator at different γ.
+1 species, 14 γ values.
 
 ---
 
-## 5. The build infrastructure (v3.0.21)
+## 5. The build infrastructure (v3.0.21 + v3.1.1)
 
 **Self-contained in repo:**
 - `paper/build_pdf.sh` — orchestrator (~1100 lines, documented)
-- `paper/build_tools/` — 4 post-processors (wrap_dimexpr, use_linewidth, fix_dashes, fix_sigma)
+- `paper/build_tools/` — 4 original + 5 new math cleanup scripts
 - `paper/.build/` — intermediate files (gitignored)
-- `paper/markdown/` — 16 source files
+- `paper/legacy/` — historical content (3289 lines moved)
+- `paper/markdown/` — 16+ source files (alphabetical order matters for PDF)
 
 **Build commands:**
 ```bash
-bash paper/build_pdf.sh                    # full build
-bash paper/build_pdf.sh --dry-run          # fast check (README + layman)
-bash paper/build_pdf.sh --dry-run FILE.md  # check specific files
+bash paper/build_pdf.sh                    # full build (337-338 pages)
+python3 paper/build_tools/cleanup_math.py  # run all math cleanup
+python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 ```
 
-**Last working build:** 330 pages (June 17, 2026).
+**Last working build:** 338 pages (June 18, 2026, v3.1.1-final).
 
-**Pre-build state (v3.0.21 commits):**
-- c7f6976: post-processors moved into paper/build_tools/
-- cc94e52: math fixes from post-3dbd6a7 rebuild
-- ee197ab: README "Building the paper" section
-- b41ea66: --dry-run mode
+**Build state:**
+- Paper PDF: `paper/paper.pdf` (1.2 MB, 338 pages)
+- paper_combined.md next to paper.pdf
+- All build infrastructure self-contained inside the repo
 
 ---
 
-## 6. Open work items (L41, L42, L43 still OPEN)
+## 6. Open work items (v3.1.1-final)
 
 | Limitation | Status | What needs to happen |
 |------------|--------|----------------------|
 | L41: Why μ is its value | OPEN | Derive 2D cosmological constant from first principles |
 | L42: Why m_{3+1D} is its value | OPEN | Derive induced 3+1D Planck mass from bulk geometry |
-| L43: Lagrangian skeleton → full L | OPEN | Path integral Z, regularization, cross-couplings |
-| L48 (REVISED): f_back derived from α | CLOSED for form | Numerical value still calibrated |
+| L43: Lagrangian skeleton → full L | OPEN, NARROWED | α for 2D-3D lifetimes only, not closed loop |
+| L100: F_p(z) Hill function | OPEN | Derive primordial vs cumulative DM ratio |
+| L138 (NEW) | f_back = 10⁻⁸⁵ is calibration, not derived | CONFIRMED honest |
+| L139 (REVISED) | Closed loop: f_back is 3D-to-4D leakage | PARTIAL, frame-consistent |
+| L140 (NEW) | ε = 10⁻³⁸ is observed, not derived | OPEN (hierarchy problem) |
+| L141 (NEW) | f_back = 10⁻⁸⁵ ONLY as 3D-to-4D leakage | RESOLVED |
+| L121-L127 (5D-9D) | SPECULATIVE, UNCERTAIN | α-power-law extrapolation may not hold |
 
-**Closing L41-L43 requires:** 2D CFT theoretical physicist or brute-force path integral computation. No plausible path within reach of current SIDC resources.
+**Closing L41-L43 requires:** 2D CFT theoretical physicist or brute-force path integral.
 
-**v3.0.21 update**: §3.62.1 added — SIDC IS structurally Karch-Randall + JT gravity (Deng et al. arXiv:2211.13415). Z_SIDC = Z_JT × Z_Liouville × Z_SYK is in principle tractable. Lagrangian v13 attempted combined Z computation; α = 1.289 NOT cleanly recovered from Z alone in tested β ranges. L91 (holographic reduction framing) and L92 (3D→2D gravity inversion prior art) added to limitations.
+**L43 status (REVISED v3.1.1-final):**
+- WAS: α derivation relevant to closed loop
+- NOW: α derivation relevant only to M^1.29 law (2D universe physics)
+- L43 stays OPEN, but scope is narrower
 
+**v3.0.21 update**: §3.62.1 added — SIDC IS structurally Karch-Randall + JT gravity (Deng et al. arXiv:2211.13415). Z_SIDC = Z_JT × Z_Liouville × Z_SYK is in principle tractable.
 
 **v3.0.21 update 2**: §3.62.2 + L93-L97 summarize 5 more attempts (v14-v19).
-- v14/v14c/v14d/v14e: scaling law IS the time dilation. ACTUAL formula from §10.1:
-    T = 33 s × (E_D / 10^44 J)^1.29
-  - HIERARCHY (user-corrected v14e):
-    * 3D event (in our universe) creates 2D universe (DM/DE) — CALIBRATED
-    * 4D event (in higher-dim) creates 3D universe (= us) — SPECULATIVE
-  - 'D' in 'D-event' = dim of universe CONTAINING the event
-  - E_D = D-event energy (NOT radiated energy)
-  - v14c/v14d were confused (wrong E or wrong hierarchy)
-  - v14e: 8/8 3D events match within factor 1.6; 4D extrapolation matches within 12%
-  - L93 CLOSED: scaling law internally consistent at the 3D→2D level
-- v15: Variational Liouville + DOZZ — μ is NOT structural in c=1 Liouville
-- v16: 2D theory comparison — α = 1.289 = 1 (SR) + 1/√12 (N=12 finite-N)
-- v17: Large-N extrapolation of SYK — pure SYK q=4 N=12 gives α ~ 1, not 1.289
-- v18: Replica trick for f_back — f_back is NOT exp(-S_2D)
-- v19: Direct brute-force α extraction — α is CROSS-SECTOR EMERGENT, not from Z
-
+- v14/v14c/v14d/v14e: scaling law IS the time dilation. STILL VALID.
+- v15: μ is NOT structural in c=1 Liouville
+- v16: α = 1.289 = 1 (SR) + 1/√12 (N=12 finite-N)
+- v17: pure SYK q=4 N=12 gives α ~ 1, not 1.289
+- v18: f_back is NOT exp(-S_2D)
+- v19: α is CROSS-SECTOR EMERGENT, not from Z
 
 **HONEST VERDICT (v14-v19)**: L41, L42, L43 cannot be closed by more brute force.
 They require STRUCTURAL INPUT: 5D matching (L41, L42) or cross-coupling terms
 + correct observable identification (L43). Pure 2D partition function doesn't
 give α = 1.289 directly.
 
-**Total Lagrangian attempts**: v1-v19 = 19 attempts. Closed: 3. Partial: 3. Honest negatives: 13.
+---
 
-**v3.0.21 GROUND TRUTHS (paper consistency, latest)**:
+## 7. The 5D/6D/9D extension (UNCERTAIN v3.1.1-final)
 
+The cascade extension to 5D-9D was based on a power-law extrapolation:
+$$M_{\rm Pl,N} = M_{\rm Pl,4} / \alpha^{(N-4)}$$
 
-**v3.0.21 GROUND TRUTHS PROMINENTLY FEATURED (paper AND README)**:
+This was SPECULATIVE (L121-L127) and is now UNCERTAIN in light of the closed loop revision:
+- L122: M_Pl,9D = 249 GeV ≈ v_Higgs (within 1.3%) — suggestive but extrapolation
+- L123: String scale = v_Higgs (M_string = 246 GeV) — testable but invisible
+- L124: Higgs = bridge between SIDC and string theory — structural
+- L125: LHC null via f_back² suppression — works
+- L126: 12 SYK Majorana = 9 spatial + 3 generational — speculative
+- L127: Hierarchy problem solved by cascade — structural, not derived
 
-Both ground truths are now featured in:
-- Paper: §01_executive_summary.md "🎯 TWO MAIN POINTS" section
-- README: top "🎯 THE TWO MAIN POINTS (v3.0.21, GROUND TRUTH)" section
-
-These are NOT buried in the body — they appear right after the abstract
-and before any other content. Reader sees:
-1. SCALING LAW (Main Point #1): τ_2D = 33 s × (E_3D / 10^44 J)^1.29
-2. CLOSED LOOP (Main Point #2): f_back = (t_Pl,3/τ_4D) × (τ_SN/τ_universe) × (E_4D/E_SN)^(1/2α)
-
-Both use SAME α = 1.289 from N = 12 SYK.
-
-NOTE on LaTeX escaping: pandoc struggles with `{1/(2α)}` (interprets
-the `{2α}` as LaTeX grouping). Use `(1/2α)` with Unicode α instead.
-1. **SCALING LAW** (§10.1): τ_2D = 33 s × (E_3D / 10^44 J)^1.29
-   - 3D event (in our universe) creates 2D universe — CALIBRATED at SN 33s
-   - 8/8 3D events match within factor 1.6 (median 1.024)
-2. **CLOSED LOOP** (§3.60.1 NEW): f_back = (t_Pl,3/τ_4D) × (τ_SN,obs/τ_universe) × (E_4D/E_SN)^(1/(2α))
-   - Gives f_back ~ 3.24e-84 ~ 10^-85 (matches §3.60 to 0.4 orders)
-   - Forward γ and backward f_back use SAME α = 1.289
-   - Composite exponent 1/(2α) = c/α = 0.388 (where c = 1/2 = N/24, Ising CFT)
-   - L98 NEW: closed loop expression documented
-3. **HIERARCHY** (user-corrected): 3D event → 2D universe (NOT 4D → 2D)
-   - Fixed §3.62 hierarchy table entry
-   - L93 CLOSED: scaling law internally consistent
-4. **LIMITATIONS**: 52 total (was 51; +L98 NEW v3.0.21)
-   - 23 OPEN, 16 PARTIAL, 7 CLOSED, 2 FALSIFIED, 4 REVERTED
+**v3.1.1-final status**: These SPECULATIVE claims rely on the α-power-law extrapolation.
+Since the closed loop no longer uses α, the structural support for these is weaker.
+They remain IN THE PAPER as speculative, but with the caveat that they require
+further justification beyond "α governs everything."
 
 ---
 
-## 7. Key conventions (DO NOT BREAK)
+## 8. Key conventions (DO NOT BREAK)
 
 ### Naming
 - Use **SIDC** (not "the cascade", "DC", "Dimensional Cascade")
 - **Majorana** fermions (not "Majorana fermions" with extra space)
 - **N=12** with explicit equals sign in math, N = 12 in prose
+- **f_back** (lowercase f, with underscore) — never "fback" or "f-back"
 
 ### Notation
 - NO Unicode subscripts/superscripts (use LaTeX: `M_{Pl}`, `E_{4D}`)
@@ -211,126 +228,171 @@ the `{2α}` as LaTeX grouping). Use `(1/2α)` with Unicode α instead.
 - NO `---` immediately after table
 - Use `\mathrm{}` for non-italic multi-letter subscripts (`\mathrm{AdS}` not `\AdS`)
 
+### f_back variable
+- f_back = t_Pl/τ_4D (3D-to-4D leakage) — the only meaningful f_back
+- f_back_2D = t_Pl/τ_2D — while-alive gravitational coupling, NEGLIGIBLE
+- f_back_death = 1 — 100% energy return at universe death
+
+### Closed loop
+- Forward (4D → 3+1D): f_back = 10⁻⁸⁵ (projection efficiency)
+- Backward (3+1D → 4D): f_back = 10⁻⁸⁵ (leakage rate)
+- DE = f_back × ε × M_Pl⁴
+- γ ~ 10⁶² (cone picture time dilation)
+- NEVER use the v10 formula with 1/(2α) factor — it's wrong
+
 ---
 
-## 8. Important files
+## 9. Important files
 
 **Paper structure:**
 - `paper/markdown/00_title.md` — title, v3.0 highlight, honest boundary
 - `paper/markdown/01_executive_summary.md` — summary, 17 tests score card
 - `paper/markdown/02_glossary.md` — §0 parameter glossary
-- `paper/markdown/03_relations.md` — main physics, includes §3.60, §3.62
-- `paper/markdown/04_predictions.md` — RAR, AGC/KKR, end-of-universe
-- `paper/markdown/06_limitations.md` — 45 honest limitations
-- `paper/markdown/07_conclusion.md` — 45 external constraints
+- `paper/markdown/03a_relations.md` — main physics, includes §3.60, §3.62
+- `paper/markdown/03b_predictions.md` — RAR, AGC/KKR, end-of-universe
+- `paper/markdown/03c_lagrangian.md` — Lagrangian, §3.60.3 (closed loop), §3.67, §3.68
+- `paper/markdown/06_limitations.md` — 71 honest limitations
+- `paper/markdown/07_conclusion.md` — 70+ external constraints
 - `paper/markdown/10_end_universe.md` — §10 energy-scaling ladder
 - `paper/markdown/15_falsifiability_matrix.md` — predictions vs observations
 
 **Supporting:**
-- `README.md` — public release with closed-loop intro
+- `README.md` — public release (closed-loop intro REMOVED v3.1.1)
 - `supporting/layman_summary.md` — 5-step layman version
 - `changelog.md` — version history
 - `ai_disclosure.md` — AI assistance disclosure
 - `calculations/v27_*.py` — 30+ constraint calculations
 - `calculations/lagrangian_v[1-9]*.py` — Lagrangian trial-and-error
+- `calculations/v31_*.py` — v3.1.1 revisions (closed loop, f_back, F_p)
 
 ---
 
-## 9. Recent session summary (June 17, 2026)
+## 10. Recent session summary (June 18, 2026 — v3.1.1-final)
 
-**This session's contributions:**
+**This session's contributions (REVISIONS to v3.1.1):**
 
-1. **Build infrastructure refactor (v3.0.21)**
-   - Moved 4 post-processors from /tmp/ to paper/build_tools/
-   - Moved intermediate files to paper/.build/ (gitignored)
-   - Added --dry-run mode for fast LaTeX checking
-   - Fixed ~30 LaTeX errors from post-3dbd6a7 commits
-   - Build: 330 pages
+1. **Honest f_back/closed loop revision (L138, L139, L140, L141)**
+   - v10's "closed loop" used τ_4D = 1e28 yr (γ ~ 10⁵⁶, OUTSIDE cone range)
+   - User reframing: f_back = 10⁻⁸⁵ is 3D-to-4D leakage, NOT 2D-to-3D
+   - Proper closed loop: f_back = t_Pl/τ_4D with γ ~ 10⁶² (within cone range)
+   - DE matches observation to within 14% (vs v10's 12% via tuning)
+   - 2D-3D story: 100% death return as DM, NOT a while-alive f_back
+   - 2D lifetimes too short (33s for SN) for while-alive coupling to matter
 
-2. **Lagrangian v7-v10 (4 calculations)**
-   - v7: Hagedorn, density of states, N=12 spectrum
-   - v8: Hagedorn T for N=12 SYK (no finite T_H in Schwarzian regime)
-   - v9: f_back from closed loop (3 ε's are RELATED but not equal)
-   - **v10: f_back from SAME α as time dilation** — KEY FINDING (re-confirmed §3.60)
+2. **α's role narrowed (no longer in closed loop)**
+   - α still works for 2D universe lifetimes (M^1.29 law, 14 events)
+   - α still has N=12 SM connection (structural)
+   - α does NOT appear in proper closed loop (uses γ, not α)
+   - "α-symmetry" (α × 1/(2α) = 1/2) was artifact of v10's wrong interpretation
+   - Lagrangian is structural proposal for 2D universe physics, not closed loop evidence
 
-3. **5 GitHub commits pushed**
-   - c7f6976, cc94e52, ee197ab (build)
-   - b41ea66 (--dry-run)
-   - f353942, 2cd554c, 39ff56c, 706e219 (Lagrangian v7-v10)
+3. **README "two main points" removed (v3.1.1)**
+   - "Closed loop" and "scaling law" as ground truth were overstated
+   - Replaced with ⚠️ STATUS NOTE pointing to L138-L141
+   - "The closed loop" → "The geometric picture" (with caveats)
 
-**Key insight:** the closed loop closes for f_back specifically — both γ and f_back use the same α = 1.289 from N=12 SYK. The composite exponent 1/(2α) = c/α = (1/2)/1.289 = 0.388 ties them together.
+4. **Files updated:**
+   - paper/markdown/03c_lagrangian.md — §3.60.3 rewritten honestly
+   - paper/markdown/06_limitations.md — L138, L139, L140, L141 added
+   - README.md — status note + softening of "closed loop" claims
+   - calculations/v31_F_p_consistency.py, v31_proper_closed_loop.py, v31_f_back_only_3d_to_4d.py
+   - paper/paper.pdf — rebuilt 338 pages
+
+5. **Key user insights this session:**
+   - f_back only makes sense as 3D-to-4D (2D lifetimes too short)
+   - 4D event is "practically eternal" not strictly eternal
+   - ε = 10⁻³⁸ is observed (hierarchy problem), not derived
+   - 10⁻⁸⁵ is the DE/Planck ratio divided by ε (calibration, not derivation)
+   - The Lagrangian is a structural proposal, not closed loop evidence
+
+6. **GitHub commits:**
+   - 7020b75: L138/L139/L140 honest limitations
+   - 9a44b34: Remove "two main points" from README
+   - f2092b1: Proper closed loop (user reframing)
+   - e202211: f_back only as 3D-to-4D leakage (L141)
 
 ---
 
-## 10. Things to NOT re-do
+## 11. Things to NOT re-do
 
+- **Don't claim f_back = 10⁻⁸⁵ is a derived physical fraction.** It's a calibration (= ρ_DE / (ε × M_Pl⁴)). See L138.
+- **Don't claim the closed loop closes numerically.** The v10 formula was tuned (τ_4D = 1e28 yr, outside cone range). The proper closed loop is a consistency check, not a derivation. See L139.
+- **Don't claim ε is derived.** It's observed (hierarchy problem). SIDC provides a geometric story but not a derivation. See L140.
+- **Don't claim f_back = 10⁻⁸⁵ is universal across levels.** It's only 3D-to-4D. The 2D-3D story uses 100% death return, not f_back. See L141.
 - **Don't try to derive α=1.29 from a single calculation.** It's a saddle-point result; structural matches to 1+1/√12 are the right framing.
 - **Don't add "free parameters" without justification.** Current count: μ, m_{3+1D} (the only 2 truly free). Everything else is derived or calibrated to a single observation.
 - **Don't promise "first-principles derivation" if it's structural.** Be honest about which pieces are derived vs structural matches.
 - **Don't break the c=1 Liouville convention.** It's set by the 2D universe having 1 scalar; b=i is forced.
 - **Don't reorder the 14 event types by lifetime.** They're 1 species at 14 different γ values (democratic cosmology).
+- **Don't reintroduce the 5D/6D/9D extrapolation as derived.** It's SPECULATIVE, even with the 9D = string theory match. The α-power-law is one of several possibilities.
 
 ---
 
-## 11. Useful commands
+## 12. Useful commands
 
 ```bash
 # Build
 bash paper/build_pdf.sh                    # full paper (30-60s)
 bash paper/build_pdf.sh --dry-run          # README + layman (5-15s)
 
+# Math cleanup
+python3 paper/build_tools/cleanup_math.py file.md  # single file
+python3 paper/build_tools/cleanup_math.py          # all files
+python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
+
+# v3.1.1 calculations
+python3 calculations/v31_F_p_consistency.py        # F_p = 0 check
+python3 calculations/v31_proper_closed_loop.py     # proper closed loop
+python3 calculations/v31_f_back_only_3d_to_4d.py   # 3D-4D leakage
+
 # Git
-git log --oneline | head -10               # recent commits
-git log -- paper/paper.pdf                 # PDF-only commits (finds last good build)
-git log --oneline <sha>..HEAD --stat       # changes since commit
+git log --oneline | head -10
+git log -- paper/paper.pdf                 # find last good build
 
 # Search
 grep -n "f_back\|fback" paper/markdown/02_glossary.md | head -5
-grep -rn "α\|\\\\alpha" paper/markdown/03_relations.md | head -5
-
-# Memory
-memory_append(scope="agent", content="...")  # NOT memory_append alone
+grep -rn "closed loop" paper/markdown/03c_lagrangian.md | head -5
 ```
 
 ---
 
-## 12. Memory cross-references
+## 13. Memory cross-references
 
-- Agent memory has the full v3.0.21 build_tools details and Lagrangian v9-v10 findings
-- Topic file `cascade-physics.md` has the older v2.x-era physics and v2.7.x history
-- This file is the **quick reference** for current state (v3.0.2)
+- Agent memory has full v3.0.21 build_tools details and Lagrangian v9-v10 findings
+- Topic file `cascade-physics.md` has older v2.x-era physics and v2.7.x history
+- This file is the **quick reference** for current state (v3.1.1-final)
 
 For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 
 ---
 
-## v3.1/v3.1.1 SPECULATIVE EXTENSIONS (Lagrangian + 9D + SM)
+## 14. v3.1.1-final at a glance
 
-**v3.1 (MAJOR, June 2026)** added:
-- **§3.67 — Inception cone**: 4D event is eternal substrate at BASE, 2D Planck at TIP
-  - γ ~ 10^60-10^100 makes 4D event look frozen from 3+1D
-  - f_back varies with event (4.8×10^-24 at floor → ~1 for 4D event)
-  - Full Lagrangian v3.0.22 (L = L_4D + L_3+1D + ΣL_2D + L_projection)
-  - c = 7 (UV) → c = 3/2 (IR) via c-theorem
-  - L41, L42 CLOSED (only 2 free params: μ and m_{3+1D})
-- **§3.68 — 9D = string theory**: M_Pl,N = M_Pl,4 / α^(N-4) extrapolation
-  - **M_Pl,9D = 249 GeV ≈ v_Higgs = 246 GeV (within 1.3%)**
-  - 9 spatial dim = critical dim of superstring
-  - String scale = EW scale
-  - Hierarchy problem solved by cascade structure
-- **§3.69 — SIDC-SM**: dim(SU(3)×SU(2)×U(1)) = 8+3+1 = 12 = N_SYK
-  - 9+3 structure (9 spatial + 3 generational)
-  - Higgs = 9D→4D compactification
-  - W, Z are KK modes at v_Higgs
+**Key claims that are STILL VALID:**
+- M^1.29 scaling law across 14 event types
+- 4D antigravity cancellation mechanism (geometric picture)
+- Lagrangian skeleton as structural proposal for 2D universe physics
+- L41, L42 (μ, m_{3+1D} identification)
+- N=12 SM connection
+- 2D universe → DM death return (cumulative 2D deaths)
 
-**v3.1.1 (June 2026)** cleaned up:
-- Moved 22 sections from main paper to paper/legacy/legacy_paper.md
-  (content was duplicated)
-- 03a: §3.13-§3.16 (DISCARDED sterile ν)
-- 03b: §3.16-§3.20 (time dilation), §3.24-§3.29 (CGHS), §3.55-§3.56
-- 04: §4.9-§4.15 (philosophical)
-- 85+ cross-references updated
-- Executive summary: 37 → 67 honest limitations
-- Page count: 390 → 334 (legacy content was duplicated)
-- Cleaned up pre-existing broken math patterns
+**Key claims that are REVISED:**
+- f_back = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D leakage
+- Closed loop is a CONSISTENCY CHECK (γ ~ 10⁶²), not a derivation
+- α's role narrowed: 2D-3D lifetime only, not closed loop
+- "α-symmetry" was artifact of v10's wrong interpretation
+- 5D/6D/9D extension is UNCERTAIN (relies on α power-law)
 
+**Key claims that are REJECTED:**
+- v10's closed loop formula (required unjustified τ_4D = 1e28 yr)
+- f_back as 2D-to-3D back-projection (lifetimes too short)
+- "α-symmetry bridges forward and backward" (no longer applicable)
+- "Three derivations of 1/2 close the loop" (now just structural interpretations)
+
+**Honest framing:**
+- SIDC is a geometric framework with empirical constraints
+- It provides a CONSISTENT PICTURE, not derivations
+- The closed loop is a CONSISTENCY CHECK, not a derivation
+- The Lagrangian is a STRUCTURAL PROPOSAL, not a complete theory
+- ε, f_back, and DE values are OBSERVED, not derived
+- The hierarchy and cosmological constant problems are NOT solved by SIDC
