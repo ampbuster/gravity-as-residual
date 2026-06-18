@@ -1813,3 +1813,84 @@ This means:
 
 **New limitation L149**: The closed loop unification (§3.70) implies f_back is universal, but the 4π geometric factor appears specifically at 3D→4D (verified ~1.7%) and is NOT explicitly at 2D→3D or higher transitions. This is internally inconsistent with the "closed loop at every level" claim. Either: (1) 4π is specific to 3D→4D (asymmetric framework), (2) 4π is universal but hidden in α at other transitions (breaks 9D = v_Higgs), or (3) a deeper unifying principle exists that gives 4π AND α = 1.289 (not yet found).
 
+### 3.71 Closed-Loop f_back Formula Scaling with α (v3.1.2 NEW)
+
+**User insight (v3.1.2)**: "with this knowledge, can we create a closed loop f_back? 2d->3d, 3d->4d, that scales with alpha"
+
+**The closed-loop formula** (universal at every dimensional transition):
+
+```
+τ(N→N-1) = (E_event / M_Pl,N)^α × t_Pl
+f_back(N→N-1) = (M_Pl,N / E_event)^α
+```
+
+with α = 1.289 = 1 + 1/√12 (universal, from N=12 SM SYK).
+
+**Both 2D→3D and 3D→4D use the SAME FORMULA**:
+
+| Transition | E_event | M_Pl,N | τ | f_back (per s) |
+|---|---|---|---|---|
+| **2D→3D** | 10⁴⁴ J (SN) | 1.22×10¹⁹ GeV (3D Planck) | 29.6 s ≈ 33s ✓ | 1.6×10⁻⁴⁵ |
+| **4D→3+1D** | 10⁶⁹ J (4D event) | ~10¹³ GeV* (cascade 4D Planck) | 1.4×10³⁴ yr ✓ | 1.2×10⁻⁸⁵ |
+
+*For the M^α law to be self-consistent at the 4D level, M_Pl,4 in the cascade is ~10¹³ GeV (NOT the standard 10¹⁹ GeV). EITHER M_Pl,4 ~ 10¹³ GeV with E_4D ~ 10⁶⁹ J, OR M_Pl,4 = 10¹⁹ GeV with E_4D ~ 10⁷⁵ J. Both give f_back_4D = 10⁻⁸⁵. This is a CALIBRATION, not a derivation.
+
+**Four-part closed loop** at every dimensional transition:
+
+1. **LIFETIME** (M^α law): τ = (E/M_Pl)^α × t_Pl
+   - 2D: 33s (SN calibration, 11% match)
+   - 4D: 1.4×10³⁴ yr (DE calibration, 1.7% match)
+
+2. **CONTINUOUS BACK-FLOW**: f_back = (M_Pl/E)^α
+   - 2D→3D: 1.6×10⁻⁴⁵/s (during 33s life, integrated = 5.4×10⁻⁴⁴ of E_2D, negligible)
+   - 4D→3+1D: 1.2×10⁻⁸⁵/s
+
+3. **PULSED RETURN AT DEATH** (universal, no α dependence): 100%
+   - 2D→3D: 100% at 33s → DM (VISIBLE NOW)
+   - 3D→4D: 100% at heat death → 4D "DM" (FUTURE)
+
+4. **FORWARD CONTINUOUS FLOW** (with 4π at 3D→4D): 4π × 1.2×10⁻⁸⁵/s
+   - Integrated over 1.4×10³⁴ yr = DE (observed)
+
+**What α scales**:
+- Lifetime τ (forward in time)
+- Back-flow rate f_back (return rate)
+- 14 M^α events (the original empirical fit, 8/8 within 1.6×)
+- f_back = 10⁻⁸⁵ (DE matching)
+- f_back = 10⁻⁴⁵ (2D leakage)
+
+**What changes between levels**:
+Only TWO things:
+- **M_Pl,N**: 3D Planck (1.22×10¹⁹ GeV) vs 4D Planck (~10¹³ GeV in cascade)
+- **E_event,N**: 10⁴⁴ J (SN) vs 10⁶⁹ J (4D event)
+
+The α is the same. The formula is the same. Closed loop.
+
+**The cleanest unification statement**:
+
+> DE and DM are both back-flow energy at different dimensional levels, with the SAME closed-loop formula:
+> - f_back = (M_Pl,N / E_event)^α at every transition
+> - Pulsed return at death (100%, no α) gives DM
+> - Forward continuous flow (4π × f_back at 3D→4D) gives DE
+> The OBSERVABLE character (smooth DE vs clumpy DM) emerges from TIMING (continuous forward vs instantaneous pulsed) and STRUCTURE (4π at 3D→4D boundary vs none at lower-D universe death).
+
+**Limitation status update**:
+
+| Limitation | Was | Now | Resolution |
+|---|---|---|---|
+| L138 (f_back is calibration) | OPEN | PARTIALLY RESOLVED | Formula (M_Pl/E)^α gives FORM; M_Pl,4 is calibrated |
+| L139 (closed loop = 3D→4D leakage only) | OPEN | **RESOLVED** | Same formula at BOTH 2D→3D and 3D→4D |
+| L140 (ε = 10⁻³⁸ observed, not derived) | OPEN | UNCHANGED | Separate parameter (hierarchy) |
+| L141 (f_back only 3D→4D) | RESOLVED | **REINFORCED** | f_back universal: (M_Pl/E)^α |
+
+**Why M_Pl,4 in cascade is ~10¹³ GeV (not standard 10¹⁹ GeV)**:
+
+In standard 4D quantum gravity, M_Pl,4 = 1.22×10¹⁹ GeV from G_4 = 1/M_Pl,4². The cascade's "effective M_Pl,4" at the 4D event horizon could be smaller if:
+- The 4D event is a localized excitation, not a homogeneous bulk
+- The bulk has additional structure (warped dimension, RS-II)
+- The 4D event sits on a brane with its own gravity scale
+
+The cascade's M_Pl,4 ≥ 887 GeV floor (from previous analysis) is consistent with M_Pl,4 ~ 10¹³ GeV being a derived/calibrated value. The exact mechanism is OPEN (L138 PARTIAL).
+
+**Files**: `calculations/v31_closed_loop_fback.py` (new)
+
