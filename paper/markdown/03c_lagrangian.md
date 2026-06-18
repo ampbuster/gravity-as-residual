@@ -439,45 +439,59 @@ See `calculations/v31_F_p_consistency.py` and `calculations/v31_F_p_result.md` f
 
 **User correction (v3.1.2, further revised v3.1.2-final)**: "An energetic event in a 4D bulk created our 3+1D universe" — we do NOT know what kind of event occurs in the 4D bulk (NOT necessarily 'galaxy collisions' as previously suggested; the 4D-bulk dynamics are UNKNOWN). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our universe was created, not related to whatever produced it).
 
-**Setup (Scenario X, current)**: 4D event (E_4D = 1.07×10⁵⁹ J, M_Pl,4D = 887 GeV) creates N 3+1D sub-universes of E_sub = E_4D / N each. Apply M^α law to each sub-universe's LIFETIME (not age):
+**Setup (Scenario X, current)**: 4D event (E_4D = 1.07×10⁵⁹ J, M_Pl,4D = 887 GeV) creates N_sub 3+1D sub-universes. Energy conservation: E_4D = N_sub × E_sub. The 4D-bulk dynamics are UNKNOWN, so N_sub is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so τ_sub > 13.8 Gyr.
 
-$$\tau_{\rm sub} = \left(\frac{E_{\rm sub}}{E_{\rm Pl,4D}}\right)^\alpha \times t_{\rm Pl} \approx 10^{30} \text{ yr}$$
+If we apply M^α law to a sub-universe of mass E_sub (in 3+1D's own frame):
 
-Note: τ_sub ~ 10³⁰ yr is the PREDICTED LIFETIME of the 3+1D sub-universe (in its own frame), NOT its current age. The current age of OUR 3+1D universe is 13.8 Gyr (observed) — distinct from its total lifetime.
+$$\tau_{\rm sub} = \left(\frac{E_{\rm sub}}{E_{\rm Pl,4D}}\right)^\alpha \times t_{\rm Pl}$$
 
-**Sub-universe mass from 4D event energy** (sub-universes are 3+1D universes created by an energetic 4D-bulk event):
+**HONEST v3.1.2-final correction**: N_sub is NOT fixed. Different N_sub give different E_sub and different τ_sub:
+
+| N_sub | E_sub | τ_sub (3+1D frame) |
+|---|---|---|
+| 1 | 1.07×10⁵⁹ J | 1.4×10³⁴ yr (no sub-universe structure) |
+| 150 | 7.14×10⁵⁶ J | ~2.2×10³¹ yr |
+| 300 | 3.57×10⁵⁶ J | ~9×10³⁰ yr |
+| 10⁶ | 1.07×10⁵³ J | ~10²⁷ yr |
+| 10¹² | 1.07×10⁴⁷ J | ~10¹⁵ yr |
+| 2×10¹⁹ | 5×10³⁹ J | 13.8 Gyr (lower bound, universe just alive now) |
+
+The lifetime τ_sub is UNKNOWN — only constrained to be > 13.8 Gyr (the observed AGE).
+
+**What we ACTUALLY know:**
+- E_4D = 1.07×10⁵⁹ J (from closed loop, given M_Pl,4D = 887 GeV)
+- M_Pl,4D = 887 GeV (Scenario X, inferred)
+- 13.8 Gyr is the universe's CURRENT AGE (observed directly)
+- 4D-bulk dynamics: UNKNOWN (N_sub, E_sub, τ_sub all undetermined)
+- f_back_4D = 1.2×10⁻⁸⁵/s (DE matching, doesn't depend on N_sub)
+- The universe has NOT yet died → τ_sub > 13.8 Gyr
+
+**Sub-universe mass (energy conservation)**:
 
 $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
-For N_sub = 300 (number of sub-universes per 4D event):
-$$E_{\rm sub} = \frac{1.07 \times 10^{59}}{300} = 3.57 \times 10^{56} \text{ J} = 9 \times 10^{18} \text{ M}_\odot$$
+**N_sub and E_sub are FREE PARAMETERS** linked by energy conservation. The choice N_sub = 300, E_sub = 3.57×10⁵⁶ J was an ARBITRARY choice (gives "small galaxy mass" sub-universes, but is not derived from the cascade). The user's correction: N_sub could be 150 with double-mass sub-universes, or N_sub = 1 with one universe, etc.
 
-This is a small galaxy mass. Each energetic 4D-bulk event creates a 3+1D sub-universe with this mass.
-
-**Number of sub-universes per 4D event**:
-
-$$N_{\rm sub} = \frac{E_{\rm 4D}}{E_{\rm sub}} = 300$$
-
-**This is the number of energetic 4D-bulk events per event, NOT the galaxy count in any 3+1D universe.**
+**Number of sub-universes per 4D event**: N_sub is UNKNOWN. The 4D-bulk dynamics that determine N_sub are open (L144).
 
 **Status of α as universal exponent (v3.1.2, REVISED)**: In the multi-universe picture, α is the universal exponent for cascade lifetimes:
 
-- 2D universe lifetime: τ = (E_event)^α = 33 s for SN ✓
-- 3+1D sub-universe lifetime: τ ~ 10³⁰ yr (predicted from M^α with M_Pl,4D = 887 GeV)
-- 3+1D universe CURRENT AGE: 13.8 Gyr (observed directly, distinct from lifetime)
-- f_back_4D derived from closed-loop formula: 1.2×10⁻⁸⁵/s (matches DE within 1.7%)
+- 2D universe lifetime: τ_2D = (E_event/M_Pl,3D)^α × t_Pl = 33 s for SN ✓
+- 3+1D sub-universe lifetime: τ_sub = (E_sub/M_Pl,4D)^α × t_Pl — UNKNOWN (depends on E_sub = E_4D/N_sub)
+- 3+1D universe CURRENT AGE: 13.8 Gyr (observed directly, the only firm value)
+- f_back_4D derived from closed-loop formula: 1.2×10⁻⁸⁵/s (matches DE within 1.7%, doesn't depend on N_sub)
 
-**Honest verdict (v3.1.2, Scenario X)**: The sub-universe mass E_sub = 3.57×10⁵⁶ J is **CALIBRATED** to N_sub = 300 (energetic 4D-bulk events per event), using α-power-law and the M_Pl,4D = 887 GeV floor. The 13.8 Gyr is the universe's CURRENT AGE (observed directly), distinct from the predicted total LIFETIME ~10³⁰ yr (M^α).
+**Honest verdict (v3.1.2-final)**: N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). E_sub = E_4D / N_sub is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to τ_sub > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice (N_sub = 300, E_sub = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
 
-**Age vs Lifetime (v3.1.2, KEY CORRECTION)**:
-- 13.8 Gyr = current AGE of our 3+1D universe (observed)
-- ~10³⁰ yr = predicted total LIFETIME of our 3+1D sub-universe (M^α)
-- Universe is at 1.4×10⁻²⁰ of its predicted lifetime — very young
+**Age vs Lifetime (v3.1.2-final, KEY CORRECTION)**:
+- 13.8 Gyr = current AGE of our 3+1D universe (OBSERVED, the only firm value)
+- LIFETIME: UNKNOWN, only constrained to > 13.8 Gyr (we observe the universe is still alive)
+- The universe is in early life (less than ~10⁻⁵ of any plausible lifetime)
 
 **Frame of Reference (v3.1.2, KEY CLARIFICATION)**:
 - The M^α law gives **apparent durations in the lower-D frame**, not proper times in the higher-D frame
 - 2D lifetime (33 s) is in the 3+1D frame
-- 3+1D sub-universe lifetime (~10³⁰ yr) is in the 3+1D's own frame
+- 3+1D sub-universe lifetime (UNKNOWN) is in the 3+1D's own frame
 - 4D event apparent duration (1.4×10³⁴ yr) is in the 3+1D frame, time-dilated from 4D proper time via γ ~ 10⁶²
 - 4D event proper duration: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 - 3+1D universe's current age (13.8 Gyr) is in the 3+1D's own frame
@@ -495,8 +509,8 @@ $$N_{\rm sub} = \frac{E_{\rm 4D}}{E_{\rm sub}} = 300$$
 The asymmetry is justified by their different physical roles: 2D brane-world, 3+1D standard, 4D bulk brane-world.
 
 **What remains uncertain** (limitations):
-- L143: Sub-universe identification — RESOLVED (energetic 4D-bulk events, not 3+1D galaxies)
-- L144: Why 300 energetic 4D-bulk events per event? (OPEN)
+- L143: Sub-universe identification — RESOLVED (energetic 4D-bulk events, not 3+1D galaxies; 4D-bulk mechanism UNKNOWN)
+- L144: N_sub and the universe's total LIFETIME are UNKNOWN (free parameters) — OPEN
 - L149: 4π asymmetry between 3D→4D and other transitions — RESOLVED (specific to 3D→4D)
 
 **Legacy content (removed from this section, archived to `paper/legacy/`)**: Earlier drafts had a "DUAL FRAMING" presenting α = 1.258 (with 4π hidden) as an alternative to α = 1.289. This was REMOVED because α = 1.258 fails the 14-event M^α fit (281% deviation for solar flares, 52% for AGN, etc.). Only α = 1.289 survives. See `paper/legacy/v31_60_4_old.md` for the historical draft.
@@ -1784,10 +1798,10 @@ with α = 1.289 = 1 + 1/√12 (universal, from N=12 SM SYK).
 - The CHILD universe's lifetime is measured in the PARENT'S frame (or equivalent)
 - For 2D→3D: τ_2D = 33 s is the 2D universe lifetime in the 3+1D frame
 - For 3D→4D: τ_4D = 1.4×10³⁴ yr is the 4D event's apparent duration in the 3+1D frame (time-dilated from the 4D proper time via γ ~ 10⁶²)
-- The 3+1D universe's own proper lifetime is T_3+1D ~ 10³⁰ yr (M^α prediction, in 3+1D's own frame)
+- The 3+1D sub-universe's lifetime is τ_sub = (E_sub/M_Pl,4D)^α × t_Pl — UNKNOWN (depends on E_sub = E_4D/N_sub, where N_sub is a free parameter)
 - The 3+1D universe's CURRENT AGE is 13.8 Gyr (observed) — distinct from its total lifetime
 
-**AGE vs LIFETIME (v3.1.2)**: 13.8 Gyr is the universe's **age** (observed), not its total **lifetime**. The predicted lifetime from M^α (applied to the sub-universe creation energy E_sub = 3.5×10⁵⁶ J with M_Pl,4D = 887 GeV) is τ_3+1D ~ 10³⁰ yr. The universe is currently at 1.4×10⁻²⁰ of its predicted lifetime — very young.
+**AGE vs LIFETIME (v3.1.2-final, HONEST)**: 13.8 Gyr is the universe's **age** (observed), not its total **lifetime**. The LIFETIME is UNKNOWN — it depends on E_sub = E_4D / N_sub, where N_sub is a free parameter (4D-bulk dynamics unknown). The constraint is τ_sub > 13.8 Gyr (universe still alive). Previous claims of "τ_sub ~ 10³⁰ yr" were based on an arbitrary choice N_sub = 300 (NOT derived). For N_sub = 1, τ_sub = τ_4D = 1.4×10³⁴ yr. The 3+1D sub-universe's lifetime could be anywhere from 1.4×10³⁴ yr (N_sub = 1) to ~14 Gyr (N_sub ~ 2×10¹⁹). We cannot say more without knowing N_sub.
 
 **Both 2D→3D and 3D→4D use the SAME FORMULA** (Scenario X adopted):
 
@@ -1804,10 +1818,10 @@ with α = 1.289 = 1 + 1/√12 (universal, from N=12 SM SYK).
 
 ***KEY INSIGHT (v3.1.2)**: M_Pl,4D = 887 GeV is the cascade's INFERRED 4D bulk Planck. It is NOT measured (we don't have direct access to the 4D bulk). The 1.3% match to v_Higgs at 9D is the cascade's strongest extra prediction beyond the basic framework. Whether this is a real geometric connection or coincidence is OPEN (L26).
 
-***MULTI-UNIVERSE PICTURE (v3.1.2, USER-CORRECTED v3.1.2-final)**: An energetic event in a 4D bulk can create multiple 3+1D sub-universes (we do NOT know the specific 4D-bulk dynamics). N_sub = 300 is the number of 3+1D sub-universes created per 4D event. Each 3+1D sub-universe has mass E_sub = E_4D / N_sub = 1.07×10⁵⁹ / 300 = 3.57×10⁵⁶ J = ~10¹⁹ M_sun (small galaxy mass). Our 3+1D universe is ONE of these 300 sub-universes. The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after the sub-universe was created). The identification "sub-universe = 3+1D galaxy" is RESTORED with the corrected understanding: sub-universes are 3+1D universes created by 4D-bulk energetic events, not our 3+1D galaxies. N_sub = 300 is the number of sub-universes per 4D event, NOT the galaxy count in any 3+1D universe. **The specific 4D-bulk mechanism (e.g., whether it involves 'galaxy' or 'star' or 'quantum' structures in 4D) is UNKNOWN — we only know the FORM (energetic event creates N sub-universes) and the SCALE (E_4D = 10⁵⁹ J).**
+***MULTI-UNIVERSE PICTURE (v3.1.2, USER-CORRECTED v3.1.2-final)**: An energetic event in a 4D bulk can create multiple 3+1D sub-universes (we do NOT know the specific 4D-bulk dynamics). **N_sub is a FREE PARAMETER** (not determined by the cascade). The constraint is N_sub < 2×10¹⁹ (energy conservation: τ_sub > 13.8 Gyr). For any choice of N_sub, E_sub = E_4D / N_sub gives the sub-universe mass. Our 3+1D universe is ONE such sub-universe. The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after the sub-universe was created). **The specific 4D-bulk mechanism (e.g., whether it involves 'galaxy' or 'star' or 'quantum' structures in 4D) is UNKNOWN — we only know the FORM (energetic event creates N sub-universes) and the SCALE (E_4D = 10⁵⁹ J).**
 
 ***ANALOGY AT EVERY LEVEL (v3.1.2)**: The same structure applies at every dimensional transition:
-- 4D-bulk energetic event → 3+1D sub-universe (E_sub ~ 10⁵⁶ J, **lifetime ~10³⁰ yr from M^α**, current age 13.8 Gyr observed; specific 4D-bulk mechanism UNKNOWN)
+- 4D-bulk energetic event → 3+1D sub-universe (E_sub = E_4D/N_sub, lifetime UNKNOWN since N_sub free; current age 13.8 Gyr observed; specific 4D-bulk mechanism UNKNOWN)
 - 3+1D-galactic event (SN/AGN) → 2D universe (m_2D ~ 10⁻³⁵ kg, lifetime 33s for SN)
 - 2D universe death → 3+1D DM (m_2D returned, pulsed)
 
@@ -1818,8 +1832,8 @@ At every level: parent-level event creates child-level universes, each child has
 1. **LIFETIME** (M^α law): τ = (E/M_Pl)^α × t_Pl (apparent in lower-D frame)
    - 2D→3D: τ_2D = 33 s (SN calibration, 11% match, in 3+1D frame)
    - 3D→4D: τ_4D = 1.4×10³⁴ yr (DE calibration, in 3+1D frame, time-dilated from 4D frame via γ ~ 10⁶²)
-   - 3+1D sub-universe: τ_3+1D ~ 10³⁰ yr (M^α prediction, in 3+1D's own frame)
-   - 3+1D universe CURRENT AGE: 13.8 Gyr (observed, distinct from lifetime)
+   - 3+1D sub-universe: τ_3+1D = (E_sub/M_Pl,4D)^α × t_Pl — UNKNOWN (depends on N_sub, free parameter)
+   - 3+1D universe CURRENT AGE: 13.8 Gyr (observed, distinct from lifetime, the only firm value)
 
 2. **CONTINUOUS BACK-FLOW**: f_back = (M_Pl/E)^α
    - 2D→3D: 1.6×10⁻⁴⁵/s (during 33 s life, integrated = 5.4×10⁻⁴⁴ of E_2D, negligible)
@@ -1827,7 +1841,7 @@ At every level: parent-level event creates child-level universes, each child has
 
 3. **PULSED RETURN AT DEATH** (universal, no α dependence): 100%
    - 2D→3D: 100% at 33 s → DM (VISIBLE NOW)
-   - 3+1D sub-universe: 100% at ~10³⁰ yr → 4D "DM" (FUTURE heat death)
+   - 3+1D sub-universe: 100% at τ_sub → 4D "DM" (FUTURE heat death; τ_sub UNKNOWN but > 13.8 Gyr)
 
 4. **FORWARD CONTINUOUS FLOW** (with 4π at 3D→4D): 4π × 1.2×10⁻⁸⁵/s
    - Integrated over 1.4×10³⁴ yr apparent = DE (observed)
@@ -1869,7 +1883,7 @@ The asymmetry is JUSTIFIED by their different physical roles: 2D universes are b
 > - Pulsed return at death (100%, no α) gives DM (visible when lifetimes are short, e.g., 2D→3D)
 > - Forward continuous flow (4π × f_back at 3D→4D) gives DE (vacuum-like, sustained over apparent durations)
 > The OBSERVABLE character (smooth DE vs clumpy DM) emerges from TIMING (continuous forward vs instantaneous pulsed) and STRUCTURE (4π at 3D→4D boundary vs none at lower-D universe death).
-> The 3+1D universe's CURRENT AGE is 13.8 Gyr; its predicted total LIFETIME is ~10³⁰ yr (M^α). Universe is at 1.4×10⁻²⁰ of its life — very young.
+> The 3+1D universe's CURRENT AGE is 13.8 Gyr (observed). Its predicted total LIFETIME is UNKNOWN — depends on N_sub (4D-bulk dynamics). Universe is in early life (<10⁻⁵ of any plausible lifetime).
 
 **Limitation status update**:
 

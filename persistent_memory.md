@@ -32,10 +32,14 @@ consequences of a single dimensional-projection mechanism:
 - 2D universe dies, **100% of energy returns to 3+1D as DM** (death return, not f_back)
 - DM is cumulative 2D universe deaths (Σ M_2D × N)
 
-**AGE vs LIFETIME (v3.1.2-final, KEY):**
-- 13.8 Gyr = universe **AGE** (observed)
-- ~10³⁰ yr = predicted total **LIFETIME** (M^α with M_Pl,4D = 887 GeV)
-- Universe is at 1.4×10⁻²⁰ of its predicted lifetime (very young)
+**AGE vs LIFETIME (v3.1.2-final, HONEST):**
+- 13.8 Gyr = universe **AGE** (observed, the only firm value)
+- **LIFETIME: UNKNOWN** — depends on E_sub = E_4D / N_sub, where N_sub is a FREE PARAMETER (4D-bulk dynamics unknown)
+- For N_sub = 1: τ_sub = τ_4D = 1.4×10³⁴ yr
+- For N_sub = 300: τ_sub = ~9×10³⁰ yr (was the ARBITRARY choice previously presented as derived)
+- For N_sub = 2×10¹⁹: τ_sub = 13.8 Gyr (lower bound, universe just alive)
+- Constraint: τ_sub > 13.8 Gyr (universe still alive)
+- User caught this: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each"
 
 **FRAME OF REFERENCE (v3.1.2-final, KEY):**
 - M^α law gives APPARENT durations in LOWER-D frame, NOT proper time
@@ -51,12 +55,13 @@ consequences of a single dimensional-projection mechanism:
 - Pulsed return at universe death: 100% (universal, no α dependence)
 - 4π at 3D→4D continuous leakage: verified ~1.7%, specific to that transition (NOT universal)
 
-**Multi-universe picture (v3.1.2-final, USER-CORRECTED TWICE):**
+**Multi-universe picture (v3.1.2-final, USER-CORRECTED TWICE, v3.1.2-final: N_sub is FREE):**
 - An ENERGETIC EVENT in a 4D BULK can create 3+1D sub-universes
 - The SPECIFIC 4D-bulk mechanism is UNKNOWN (NOT specifically '4D-galaxy collisions' — earlier version was too specific)
 - We only know the FORM: energetic event creates N_sub sub-universes
-- N_sub = 300 = number of sub-universes per 4D event (we don't know why 300)
-- Each 3+1D sub-universe has mass E_sub = E_4D / N_sub = 3.5×10⁵⁶ J (small galaxy mass)
+- **N_sub is a FREE PARAMETER** (not determined by the cascade)
+- For ANY N_sub: E_sub = E_4D / N_sub, τ_sub = (E_sub/M_Pl,4D)^α × t_Pl
+- Constraint: N_sub < 2×10¹⁹ (so τ_sub > 13.8 Gyr)
 - The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after sub-universe creation)
 
 ---
@@ -210,9 +215,9 @@ python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 | L142 | 4π within 1.7% of DE | PARTIAL |
 | L142a | 4π geometric factor needs derivation | OPEN |
 | L142b (RESOLVED) | α_true = 1.258 REJECTED by 14-event M^1.29 fit | RESOLVED |
-| L143 | Sub-universe = energetic 4D-bulk events (not 3+1D galaxies) | RESOLVED (USER-CORRECTED) |
-| L144 | N_sub = 300 (energetic 4D-bulk events per event) | OPEN (why 300?) |
-| L145 | AGE vs LIFETIME: 13.8 Gyr age vs ~10³⁰ yr lifetime | REVISED (KEY) |
+| L143 | Sub-universe = energetic 4D-bulk events (not 3+1D galaxies); 4D-bulk mechanism UNKNOWN | RESOLVED (USER-CORRECTED) |
+| L144 | N_sub is a FREE PARAMETER (4D-bulk dynamics unknown, NOT fixed at 300) | OPEN (what determines N_sub?) |
+| L145 | AGE vs LIFETIME: 13.8 Gyr age vs UNKNOWN lifetime (was "~10³⁰ yr" but based on arbitrary N_sub = 300) | REVISED (HONEST) |
 | L146 | 4π specific to 3D→4D, not universal | OPEN |
 | L147 | DE-DM unification via two closed-loop mechanisms | OPEN |
 | L148 | Pulsed vs continuous: why two mechanisms? | OPEN |
@@ -286,11 +291,15 @@ The hierarchy CONVERGES to the EW scale at N ~ 9. This is the cascade's STRONGES
 
 **Why M_Pl,4D ≠ M_Pl,3D**: In brane-world physics (ADD since 1998, RS-I/II since 1999), the bulk Planck is INDEPENDENT of the brane Planck. The 4D bulk is a SEPARATE 4-dimensional spacetime with its OWN gravity scale, different from our universe's. M_Pl,3D = 10¹⁹ GeV is OUR universe's gravity (measured). M_Pl,4D = 887 GeV is the BULK's gravity (inferred, brane-world). The cascade's 2D universes (M_Pl,2D = 10³⁸ GeV) are also separate structures with their own gravity. Different levels, different gravity scales. The asymmetric Occam's razor is NOT applied.
 
-### AGE vs LIFETIME (v3.1.2-final, KEY)
-- **AGE**: 13.8 Gyr = current age of our 3+1D universe (OBSERVED, Planck 2018, etc.)
-- **LIFETIME**: ~10³⁰ yr = predicted total lifetime of 3+1D sub-universe (M^α with M_Pl,4D = 887 GeV)
-- Universe is at 1.4×10⁻²⁰ of its predicted lifetime — very young
-- AGE ≠ LIFETIME: the universe has not yet died
+### AGE vs LIFETIME (v3.1.2-final, HONEST)
+- **AGE**: 13.8 Gyr = current age of our 3+1D universe (OBSERVED, the only firm value)
+- **LIFETIME: UNKNOWN** — depends on E_sub = E_4D / N_sub, where N_sub is a FREE PARAMETER
+  - For N_sub = 1: τ_sub = τ_4D = 1.4×10³⁴ yr
+  - For N_sub = 300: τ_sub = ~9×10³⁰ yr (was ARBITRARY choice presented as derived)
+  - For N_sub = 2×10¹⁹: τ_sub = 13.8 Gyr (lower bound)
+- Constraint: τ_sub > 13.8 Gyr (universe still alive)
+- User caught this: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each"
+- AGE ≠ LIFETIME: the universe has not yet died, but its total lifetime is genuinely unknown
 
 ### FRAME OF REFERENCE (v3.1.2-final, KEY)
 - M^α law gives **APPARENT durations in the LOWER-D frame**, not proper times in the higher-D frame
@@ -300,16 +309,17 @@ The hierarchy CONVERGES to the EW scale at N ~ 9. This is the cascade's STRONGES
 - **4D event proper duration**: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 - The 3+1D universe's current age (13.8 Gyr) is in the 3+1D's own frame
 
-### Multi-universe picture (v3.1.2-final, USER-CORRECTED TWICE)
+### Multi-universe picture (v3.1.2-final, USER-CORRECTED TWICE, v3.1.2-final: N_sub is FREE)
 - An ENERGETIC EVENT in a 4D BULK can create 3+1D sub-universes
 - The SPECIFIC 4D-bulk mechanism is UNKNOWN (NOT specifically '4D-galaxy collisions' — that earlier version was too specific)
 - We only know the FORM: energetic event creates N_sub sub-universes
-- N_sub = 300 = number of sub-universes per 4D event (we don't know why 300)
-- Each 3+1D sub-universe has mass E_sub = E_4D / N_sub = 3.57×10⁵⁶ J = 9×10¹⁸ M_sun (small galaxy mass)
+- **N_sub is a FREE PARAMETER** (not determined by the cascade, 4D-bulk dynamics unknown)
+- For ANY N_sub: E_sub = E_4D / N_sub, τ_sub = (E_sub/M_Pl,4D)^α × t_Pl
+- Constraint: N_sub < 2×10¹⁹ (so τ_sub > 13.8 Gyr, universe still alive)
+- The previous choice N_sub = 300, E_sub = 3.57×10⁵⁶ J (small galaxy mass) was ARBITRARY
+- User caught: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each"
 - The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after sub-universe creation)
-- 4D-bulk dynamics are an OPEN question (we only know E_4D and M_Pl,4D, not the mechanism)
-- Our 3+1D universe is ONE of these 300 sub-universes
-- The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after sub-universe creation)
+- Our 3+1D universe is ONE of these sub-universes (whatever N_sub is)
 
 ### Why M_Pl,4D = 887 GeV (motivation)
 - (a) Brane-world consistency: bulk Planck can be TeV-scale (ADD)
@@ -510,7 +520,8 @@ The hierarchy CONVERGES to the EW scale at N ~ 9. This is the cascade's STRONGES
 - **Don't claim the closed loop closes numerically with v10 formula.** v10's formula was tuned (τ_4D = 1e28 yr, outside cone range). Use v3.1.2-final formula: f_back = (M_Pl,N/E_event)^α universal at every level. See L139.
 - **Don't claim ε is derived.** It's observed (hierarchy problem). SIDC provides a geometric story but not a derivation. See L140.
 - **Don't claim f_back is the SAME VALUE at every level.** It's universal in FORM (M_Pl/E)^α, but VALUES differ because M_Pl,N and E_event differ. 2D→3D = 1.6×10⁻⁴⁵/s, 3D→4D = 1.2×10⁻⁸⁵/s. See L141.
-- **Don't conflate 13.8 Gyr with universe LIFETIME.** 13.8 Gyr is the universe's AGE (observed). Predicted total LIFETIME is ~10³⁰ yr (M^α). Universe is at 1.4×10⁻²⁰ of its life. See L145.
+- **Don't conflate 13.8 Gyr with universe LIFETIME.** 13.8 Gyr is the universe's AGE (observed, the only firm value). LIFETIME is UNKNOWN — depends on N_sub (free parameter). User caught: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each". See L145.
+- **Don't claim N_sub = 300 as if it were derived.** N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). E_4D = N_sub × E_sub is fixed, but the partition is undetermined. See L144.
 - **Don't ignore frame of reference.** M^α law gives APPARENT durations in LOWER-D frame, not proper time in higher-D frame. 4D event apparent duration (1.4×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time (~10⁻²⁰ s) via γ ~ 10⁶².
 - **Don't assume M_Pl,4D = M_Pl,3D.** In brane-world physics, bulk Planck is INDEPENDENT of brane Planck. The cascade has THREE different M_Pl: 2D = 10³⁸ GeV, 3D = 10¹⁹ GeV, 4D = 887 GeV. See L150.
 - **Don't identify sub-universe with 3+1D galaxies.** Sub-universes are 3+1D universes created by an ENERGETIC EVENT in a 4D BULK (specific 4D-bulk mechanism UNKNOWN — NOT specifically '4D-galaxy collisions'). N_sub = 300 (sub-universes per 4D event), NOT 3×10¹². See L143, L150.
