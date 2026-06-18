@@ -470,37 +470,64 @@ $$f_{\rm back, alpha} = \frac{t_{\rm Pl}}{\tau_{\rm universe} \times \epsilon \t
 - Ratio: f_back_alpha / f_back_cal = 12 (off by 1 order)
 - DE prediction: 12× observed (within 1 order, much better than naive α-power-law which is 10⁸ off)
 
-**Honest verdict (REVISED v3.1.2, FURTHER REVISED)**: The sub-universe mass E_sub = 3.6×10⁵⁶ J is **CALIBRATED** to match the observed universe age (13.8 Gyr) using α-power-law. It is NOT independently derived.
+**Honest verdict (REVISED v3.1.2, FURTHER REVISED, DUAL FRAMING)**: The sub-universe mass E_sub = 3.6×10⁵⁶ J is **CALIBRATED** to match the observed universe age (13.8 Gyr) using α-power-law. It is NOT independently derived.
 
 **The 4π breakthrough**: Without modification, multi-universe gives γ_4D = γ_sub = T_universe/t_Pl = 8.08×10⁶⁰. Required γ_4D for f_back = 10⁻⁸⁵ is 9.98×10⁶¹. The ratio is **12.36**, very close to **4π = 12.566** (within 1.7%).
 
 If **γ_4D = 4π × γ_sub** (4D→3D projection factor):
 - γ_4D = 4π × 8.08×10⁶⁰ = 1.015×10⁶² (within 1.5% of calibrated 10⁶²)
 - f_back_4D = t_Pl/(T_universe × ε × 4π × γ_sub) = 1.22×10⁻⁸⁵ (within 1.7% of calibrated 1.24×10⁻⁸⁵)
-- 4π = geometric projection factor from 4D to 3D
 
-**Result**: With 4π factor, the multi-universe picture gives f_back_4D within 1.7% of observation. The previous 12× discrepancy is RESOLVED by the geometric factor.
+**DUAL FRAMING — two interpretations of the 4π factor**:
 
-**Updated comparison**:
-| Approach | Formula | f_back_4D match |
+The 4π factor can be placed in TWO ways:
+
+**Interpretation A (α_cal = 1.289, 4π explicit at 3D→4D)**:
+- 2D→3D: τ = (E/E_Pl)^α_cal × t_Pl (no 4π in lifetime formula)
+- 3D→4D: γ_4D = 4π × γ_sub (4π factor explicit here)
+- α_cal = 1.289 (calibrated to SN 33s lifetime)
+- E_sub = 3.48×10⁵⁶ J = **2×10⁹ M_sun (small/dwarf galaxy)**
+- 9D = v_Higgs match: M_Pl,9 = 249 GeV (1.3% off v_Higgs = 246 GeV)
+
+**Interpretation B (α_true = 1.258, 4π hidden in α at 2D→3D)**:
+- 2D→3D: τ = 4π × (E/E_Pl)^α_true × t_Pl (4π absorbed into lifetime formula)
+- 3D→4D: γ_4D = 4π × γ_sub (4π factor also explicit here)
+- α_true = 1.258 (= α_cal − log(4π)/log(E_SN/E_Pl), accounting for 4π)
+- E_sub = 4.80×10⁵⁷ J = **2.67×10¹⁰ M_sun (AVERAGE galaxy)**
+- 9D = v_Higgs match: M_Pl,9 = 281 GeV (14% off v_Higgs)
+
+**Comparison of both interpretations**:
+
+| Property | Interpretation A (α_cal) | Interpretation B (α_true) |
 |---|---|---|
-| Standard SIDC | γ_4D = 10⁶² (calibrated) | 1.24×10⁻⁸⁵ (exact) |
-| Multi-universe + 4π | γ_4D = 4π × T_universe/t_Pl | 1.22×10⁻⁸⁵ (1.7%) |
-| Multi-universe alone | γ_4D = T_universe/t_Pl | 1.53×10⁻⁸⁴ (12%) |
-| Naive α-power-law | γ_4D = (E_4D/E_Pl)^α | 10⁻⁷⁷ (8 orders off) |
+| α value | 1.289 | 1.258 |
+| α = 1 + 1/√N? | N = 12 (matches!) | N = 15 (not clean) |
+| E_sub | 2×10⁹ M_sun (small galaxy) | 2.67×10¹⁰ M_sun (AVERAGE galaxy) |
+| 9D = v_Higgs | 1.3% off | 14% off |
+| f_back_4D match | 1.7% | 1.7% |
+| 4π at 2D→3D? | NO | YES (hidden) |
+| 4π at 3D→4D? | YES | YES |
+
+**Both interpretations are mathematically valid**. They differ in WHERE the 4π factor is placed (explicit at 3D→4D vs. absorbed into α at 2D→3D).
+
+**Interpretation A (α_cal = 1.289)** has the advantage:
+- α = 1 + 1/√N matches N = 12 SM SYK (structural match)
+- 9D = v_Higgs is a tight 1.3% match (suggestive of string theory connection)
+
+**Interpretation B (α_true = 1.258)** has the advantage:
+- Sub-universe mass matches AVERAGE galaxy mass (more natural identification)
+- 4π factor is consistent across both transitions (geometric consistency)
+- "Pure" α is the structural exponent without geometric correction
+
+**The trade-off**: Interpretation A optimizes for the 9D = v_Higgs match, Interpretation B optimizes for the average galaxy identification. The "true" α depends on which structural feature is more fundamental.
 
 **Where does 4π come from?**
 - Surface area of 3-sphere (4πR²) — the 3D boundary of a 4D region
 - 4× solid angle in 3D
-- Geometric projection factor from 4D to 3D
+- Geometric projection factor from 4D to 3D (or 2D to 3D)
 - Without explicit derivation, suggestive but not proven
 
-**New honest framing**: The multi-universe picture, supplemented with the 4π geometric factor, gives f_back_4D within 1.7% of observation. This is a real derivation (no calibration of γ_4D), but it requires:
-- α (calibrated to SN)
-- E_sub (calibrated to universe age)
-- 4π (geometric, not derived)
-
-Three "ingredients" give f_back_4D accurately. The 1.7% discrepancy is within typical theoretical precision.
+**Resolution**: Present BOTH interpretations in the paper. Be honest that the choice depends on which structural feature (9D = v_Higgs or average galaxy) is more fundamental. The 4π factor is the geometric signature; its placement is a structural choice.
 
 **What this restores**:
 
