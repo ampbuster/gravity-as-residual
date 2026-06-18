@@ -17,12 +17,15 @@
 - **Hierarchy problem solved** (L127): M_Pl,3 >> v_Higgs because different cascade levels
 - **SIDC-SM connection** (L128-L136): 12 SYK = 12 SM gauge generators; Higgs = 9D→4D compactification
 
-**v3.0.2 PARAMETER CLEANUP**: 0 calibrated postulates (was 3 in v2.7.x, 5 in v2.7.16). All values now DERIVED from the cascade structure:
+**v3.0.2 PARAMETER CLEANUP (REVISED v3.2)**: 0 calibrated postulates for per-event physics (was 3 in v2.7.x, 5 in v2.7.16). Most values now DERIVED from the cascade structure:
 - **$f_{\rm back}$** = ε × ( $E_{4D}$ / $M_{\rm Pl}^4$) — bulk-brane coupling × 4D event energy ratio
 - **ε** = $e^{-kL}$ — RS-II bulk-brane coupling (from bulk geometry μ, $m_{3+1D}$)
+- **$C(E) = E^{1+\alpha}$** — smooth creation function (per-event DM contribution, v2.7.5+ REPLACES E_crit which was REVERTED in v2.7.5)
 - **$F_p(0)$** = 0.9993 — calculated from cumulative DM over 14+ event types (§3.40)
 
-**The only free parameters are μ and $m_{3+1D}$** (the standard brane-world parameters). All 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, Ω's, $g_+$) are taken from data. Everything else follows from the cascade structure (N=12 SYK backbone).
+**HONEST (v3.2 clarification)**: F_p(z) FUNCTIONAL FORM is a FIT (Hill n=2, z_half=3, L100 PARTIAL). The value F_p(0) = 0.9993 is calculated, but the z-evolution is calibrated to cosmic SFR peak. E_primordial is a FREE PARAMETER (L34). z_half is a FREE PARAMETER (L35). These were not derived from the cascade.
+
+**The free parameters are**: μ, $m_{3+1D}$ (brane-world, from Lagrangian), plus $z_{\rm half}$ (F_p(z) calibration, L35) and $E_{\rm primordial}$ (per-event energy of primordial 2D universes, L34). All 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, Ω's, $g_+$) are taken from data. Everything else follows from the cascade structure (N=12 SYK backbone), but F_p(z) z-evolution is phenomenological.
 
 **What is SIDC?** The model is called **SIDC — Scale-Invariant Dimensional Cascade**. The original v2.3.2 name was "Scale-Invariant Dimensional Cascade" (SIDC), shortened to "the cascade" in v2.4-2.7, and now restored as SIDC in v3.0.2 to emphasize the scale-invariance aspect. (The historical "Dimensional Cascade" / DC label is now deprecated.)
 
@@ -181,6 +184,10 @@ The 4π factor is the 3-sphere surface area (4πR²) at the 3D→4D continuous l
 | Universe total LIFETIME | ✗ UNKNOWN (only AGE is observed) |
 | "14 events" all fit (vs §10.1's 8) | ✗ INCONSISTENT (legacy claim) |
 | "13/14 fail" for α = 1.258 (rigorously documented) | ✗ PAPER TEXT (not in calculations) |
+| F_p(z) functional form (Hill n=2) | ✗ FIT (L100 PARTIAL) — z-evolution is phenomenological |
+| z_half (F_p transition redshift) | ✗ FREE PARAM (L35) — calibrated to cosmic SFR peak |
+| E_primordial (per-event energy of primordial 2D universes) | ✗ FREE PARAM (L34) — not derived |
+| E_crit (phase-transition threshold) | ✗ REVERTED v2.7.5 — replaced by smooth C(E) = E^(1+α) |
 
 **Honest framing**: The M^α scaling law and closed-loop formula are now EMPIRICALLY VALIDATED and STRUCTURALLY MOTIVATED. They are NOT first-principles DERIVED. The framework gives a consistent picture (same physics at every level, different energy scales) without claiming to derive α from Z(β). This is the **Equal-Universe Principle** in action.
 
