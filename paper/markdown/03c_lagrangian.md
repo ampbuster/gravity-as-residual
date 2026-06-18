@@ -242,89 +242,124 @@ closed loop requires $E_{\rm 5D}$ which is not known.
 See `calculations/upward_dimension_check.py` for the full numerical
 analysis.
 
-### 3.60.3 Closed loop UNITES DM, DE, and gravity (v3.0.22)
+### 3.60.3 Closed loop UNITES DM, DE, and gravity (v3.0.22, REVISED v3.1.1)
 
 User question: "so it links dm / de and gravity?"
 
-**YES.** The closed loop is exactly what makes SIDC unified.
+**The closed loop provides a CONSISTENT GEOMETRIC PICTURE across DM, DE, and gravity — but it is a phenomenological matching, not a derivation.** All three observed quantities (gravity weakness 10⁻³⁸, DE density 10⁻¹²³, f_back 10⁻⁸⁵) are inputs, not derivations.
 
 **The three pillars of SIDC's dark sector + gravity**:
 
-| Pillar | Origin | Formula | Numerical value |
-|--------|--------|---------|-----------------|
-| Gravity weakness | Bulk-brane cancellation | ε_grav = 10^-38 | Suppression factor |
-| Dark matter (27%) | Cumulative 2D universe back-projection | $f_{\rm back}$ × Σ($M_{\rm 2D}$ × N) | Depends on N_2D |
-| Dark energy (68%) | 4D event un-cancelled antigravity | $f_{\rm back}$ × ε_grav × $M_{\rm Pl}$^4 | 2.22 × 10^-47 GeV^4 |
+| Pillar | Observation | Status | Mechanism |
+|--------|-------------|--------|-----------|
+| Gravity weakness | ε_grav = 10⁻³⁸ | **Observed** (hierarchy problem) | 4D antigravity cancellation of 3+1D gravity |
+| Dark energy (68%) | ρ_DE/ρ_Pl = 10⁻¹²³ | **Observed** (cosmological constant problem) | Un-cancelled fraction of 4D antigravity |
+| f_back = 10⁻⁸⁵ | Ratio of DE to (ε × M_Pl) | **Calibration** (= 10⁻¹²³ / 10⁻³⁸) | Phenomenological parameter |
+| Dark matter (27%) | Σ(M_2D × N)/V (cumulative) | **Observed** (Planck 2018) | Cumulative 2D universe deaths |
+
+**The mechanism (corrected v3.1.1)**:
+
+- 4D event's gravity **inverts** to antigravity when projected into 3+1D
+- The 4D antigravity **cancels** 3+1D's own gravity
+- The residual after cancellation = **ε = 10⁻³⁸** (gravity weakness, OBSERVED)
+- The un-cancelled fraction of 4D antigravity = **DE = 10⁻¹²³ × M_Pl⁴** (OBSERVED)
+- f_back = 10⁻⁸⁵ = (DE/Planck) / ε = **the un-cancelled/total ratio** (calibration)
 
 **Numerical check (DE density prediction)**:
 
-The closed loop gives $f_{\rm back}$ ≈ $10^{-85}$. Combined with ε_grav ~ $10^{-38}$:
+f_back ≈ 10⁻⁸⁵. Combined with ε_grav ~ 10⁻³⁸:
 
-ρ_DE predicted = $f_{\rm back}$ × ε_grav × $M_{\rm Pl,3}$^4
-              = $10^{-85}$ × $10^{-38}$ × (1.22 × $10^{19}$ GeV)^4
-              = 2.22 × $10^{-47}$ GeV^4
+ρ_DE predicted = f_back × ε_grav × M_Pl,3⁴
+              = 10⁻⁸⁵ × 10⁻³⁸ × (1.22 × 10¹⁹ GeV)⁴
+              = 2.22 × 10⁻⁴⁷ GeV⁴
 
-ρ_DE observed (Planck 2018) = 2.5 × $10^{-47}$ GeV^4
+ρ_DE observed (Planck 2018) = 2.5 × 10⁻⁴⁷ GeV⁴
 
-**Ratio: 0.89 — within 12%!**
+**Ratio: 0.89 — within 12%!** (But: this is a CALIBRATION MATCH, not a derivation.)
 
-For Ω_DE: predicted 0.593 vs observed 0.680 (within 13%).
-
-**The unification (graphically)**:
+**The unification (graphically, REVISED v3.1.1)**:
 
 ```
-                  ┌─ $f_{\rm back}$ = 10^-85 (closed loop)
-                  │
-                  │  Same α = 1.289 in BOTH directions:
-                  │
-   ┌──────────────┼──────────────┐
-   │              │              │
-   ▼              ▼              ▼
-GRAVITY          DM             DE
-weakness      27%            68%
-ε~10^-38       Σ $f_{\rm back}$       $f_{\rm back}$ × ε × $M_{\rm Pl}$^4
-               × $M_{\rm 2D}$ × N
+   ┌─────────────── OBSERVED ───────────────┐
+   │                                         │
+   │  ε = 10⁻³⁸ (gravity weakness)           │
+   │  ρ_DE/ρ_Pl = 10⁻¹²³ (cosmological CC)   │
+   │  f_back = 10⁻⁸⁵ = (10⁻¹²³ / 10⁻³⁸)    │
+   │                                         │
+   │  All three are observations.            │
+   │  f_back is DEFINED as the ratio.        │
+   └─────────────────────────────────────────┘
+
+   ┌──────────── SIDC MECHANISM ─────────────┐
+   │                                         │
+   │  4D gravity inverts → 4D antigravity   │
+   │  Antigravity cancels 3+1D gravity       │
+   │  Residual = ε (observed)                │
+   │  Un-cancelled = DE (observed)           │
+   │  Ratio = f_back (defined)               │
+   │                                         │
+   │  Mechanism explains the PICTURE,        │
+   │  not the VALUES.                        │
+   └─────────────────────────────────────────┘
 ```
 
-**Why this works**:
+**CRITICAL HONEST CAVEAT (v3.1.1)**: The closed loop formula from §3.60.1 gives a DIFFERENT number than the DE calibration.
 
-The closed loop uses α = 1.289 in BOTH directions:
+| Source | f_back value |
+|---|---|
+| Closed loop formula (v3.0.21 §3.60.1) | **4.6 × 10⁻⁶⁸** |
+| DE calibration (ρ_DE/(ε × M_Pl⁴)) | **1.1 × 10⁻⁸⁵** |
+| Ratio | **10¹⁸ apart** |
+
+The "closed loop" formula's f_back is **not** the same number as the DE-calibrated f_back. The closed loop is **NOT** a closed loop in the numerical sense — it is a consistent geometric picture that uses the **observed** f_back.
+
+**The forward/backward α symmetry DOES close** (L98, L103):
+
 - Forward: γ = (E/E_Pl)^α (time dilation, scaling law)
-- Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)^(1/(2α)) (back-action)
+- Backward: f_back ~ (E_4D/E)^(1/(2α)) (back-action)
+- α × 1/(2α) = 1/2 (round-trip loss, Z_2 orbifold)
 
-α × 1/(2α) = 1/2 (round-trip loss, Z_2 orbifold)
+The same α = 1.289 connects the time-dilated event (forward) to the
+back-projection (backward). This IS structural and IS derivable
+from the framework.
 
-This is the STRUCTURAL link:
-- The SAME α connects the time-dilated event (forward) to the
-  back-projection (backward).
-- This same α is what makes the SCALING LAW work (M^1.29 across 14
-  event types).
-- The same $f_{\rm back}$ (closed loop value) appears in BOTH DE and DM.
+**What is OBSERVED vs DERIVED**:
 
-**The 5/27/68 split emerges from this**:
+| Quantity | Status |
+|---|---|
+| α = 1.289 (time dilation shape) | **DERIVED** from N=12 SYK (1 + 1/√12) |
+| γ ~ 10⁶⁰-10¹⁰⁰ (4D time dilation) | **DERIVED** from α and E_4D |
+| ε = 10⁻³⁸ (gravity weakness) | **OBSERVED** (hierarchy problem) |
+| ρ_DE/ρ_Pl = 10⁻¹²³ | **OBSERVED** (cosmological CC problem) |
+| f_back = 10⁻⁸⁵ | **CALIBRATION** (= 10⁻¹²³/10⁻³⁸) |
+| M^1.29 scaling law across 14 events | **DERIVED** from 2D CFT + α |
+| 5/27/68 split | **OBSERVED** (Planck 2018) |
+| DM local variation | **EXPLAINED** by cumulative SFH |
 
-- 5% baryons: ordinary matter (no $f_{\rm back}$ needed)
-- 27% DM: $f_{\rm back}$ × Σ($M_{\rm 2D}$ × N_2D)/V (cumulative 2D universes)
-- 68% DE: $f_{\rm back}$ × ε × $M_{\rm Pl}$^4 (4D event antigravity)
+**SIDC's contribution is**:
+- A geometric PICTURE (4D antigravity cancellation, 2D universe creation)
+- A scaling LAW (M^1.29 across 14 event types — derived)
+- A consistency CHECK across observations
+- A vocabulary for the dark sector
 
-All three quantities (α, $f_{\rm back}$, ε) are linked by the SAME geometric
-mechanism (5D AdS_5 bulk-brane projection).
+**SIDC is NOT**:
+- A derivation of ε, f_back, or DE values
+- A solution to the hierarchy or cosmological constant problems
+- A "closed loop" in the numerical sense
 
-**L102 NEW (v3.0.22)**: The closed loop links DM, DE, and gravity via:
-- Same α = 1.289 (forward γ and backward $f_{\rm back}$)
-- Same $f_{\rm back}$ ≈ $10^{-85}$ (universal)
-- Same ε_grav ~ $10^{-38}$ (bulk-brane)
-- Same N = 12 SYK backbone
+**L102 REVISED (v3.1.1)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same α = 1.289 unifies forward time dilation and backward f_back. However, the values of ε (10⁻³⁸) and DE/Planck (10⁻¹²³) are both OBSERVED; f_back = 10⁻⁸⁵ is a CALIBRATION (10⁻¹²³/ε), not a derived physical fraction. The closed loop is **not** a numerical closure (the §3.60.1 formula gives 4.6e-68, not 10⁻⁸⁵).
 
-The numerical match for DE (within 12% of observed) is direct evidence
-that $f_{\rm back}$ × ε × $M_{\rm Pl}$^4 IS the correct formula for DE density.
+**L138 NEW (v3.1.1)**: f_back = 10⁻⁸⁵ is a CALIBRATION FACTOR, not a derived physical quantity. The "primordial back-projection fraction" is a misleading name; it is simply the ratio of observed DE to the ε-suppressed Planck density.
 
-**Net: +1 section, +1 limitation (L102)**
-- Total: 342 pages (was 341; +1 from new section)
-- 56 honest limitations (was 55; +L102 NEW v3.0.22)
+**L139 NEW (v3.1.1)**: The "closed loop" formula in §3.60.1 (f_back = (t_Pl/τ_4D) × (τ_SN/τ_universe) × (E_4D/E_SN)^(1/(2α)) ≈ 4.6e-68) and the DE calibration (f_back = 10⁻⁸⁵) differ by 10¹⁸ orders of magnitude. The closed loop is rhetorical, not numerical.
 
-See `calculations/lagrangian_v23_dm_de_gravity.py` for the full
-numerical analysis.
+**L140 NEW (v3.1.1)**: ε = 10⁻³⁸ is OBSERVED (gravity weakness vs other forces — the hierarchy problem). SIDC's mechanism (4D antigravity cancellation) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC.
+
+**Net (v3.1.1)**:
+- Total: 334 pages
+- 70 honest limitations (was 67; +L138, L139, L140 NEW v3.1.1)
+
+See `calculations/v31_F_p_consistency.py` and `calculations/v31_F_p_result.md` for the honest numerical check.
 
 
 ---
@@ -897,16 +932,26 @@ Cone depths in α units:
 LHC p-p collisions CANNOT create 2D universes — they're below the 2D
 floor in α units. This is why LHC is silent (L108, L111).
 
-**3. $f_{\rm back}$ VARIES WITH EVENT (L114)**
+**3. $f_{\rm back}$ VARIES WITH EVENT (L114, REVISED v3.1.1)**
 
 $f_{\rm back}$ is NOT universal. It depends on event energy:
 
 - At 2D floor: $f_{\rm back}$ ~ 4.8 × 10⁻²⁴
 - At SN: $f_{\rm back}$ ~ 10⁻⁸⁵
-- For 4D event: $f_{\rm back}$ → 1 (the substrate is "fully back-projected")
+- For 4D event: $f_{\rm back}$ = 1 (the substrate IS 3+1D — full projection)
+
+**SEMANTIC CLARIFICATION (v3.1.1)**: $f_{\rm back}$ has two distinct physical meanings:
+- **While alive** (gravitational coupling during lifetime): small, e.g., 10⁻⁸⁵ for SN
+- **At death** (energy return to parent dimension): 1, i.e., full return of M_2D
+
+**f_back_alive + f_back_death = 1** (energy conservation: total projection = complete).
+
+For SN: f_back_alive = 10⁻⁸⁵ (DM via gravity during 33s lifetime), f_back_death ≈ 1 (returns to 3+1D when 2D dies). For 4D event: f_back_death = 1 (3+1D IS the 4D event's full projection). These are DIFFERENT physical quantities that were conflated under the same name.
 
 Cone depths in α units determine $f_{\rm back}$: deeper cone → larger $f_{\rm back}$.
 The closed loop formula gives $f_{\rm back}$ as a function of event energy.
+
+**v3.1.1 note**: For 4D event, f_back = 1 means the 3+1D universe IS the 4D event's projection. This is the f_back_death meaning, NOT the f_back_alive meaning. The closed loop formula (§3.60.1) gives f_back_4D ~ 4.6e-68 in the alive-gravitational meaning — DIFFERENT from the death-projection meaning of 1.
 
 **4. A LAGRANGIAN FOR SIDC (L116)**
 
