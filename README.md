@@ -4,7 +4,7 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 3.1.2-final (June 2026) — *TWO MAIN RESULTS RESTORED: M^α scaling law + closed-loop formula. v3.1.2-final adds: (1) AGE vs LIFETIME distinct — 13.8 Gyr is universe AGE, predicted total LIFETIME UNKNOWN (N_sub free parameter); (2) FRAME OF REFERENCE distinct — M^α law gives apparent durations in lower-D frame, 4D event proper duration ~10⁻²⁰ s (γ ~ 10⁶²); (3) SCENARIO X ADOPTED — M_Pl,4D = 887 GeV (4D BULK Planck, separate from M_Pl,3D), M_Pl,2D = 3 TeV (from L41). Three different M_Pl at three different levels. §10.1 8/8 events fit M^1.29 within 1.6× (α = 1.258 REJECTED, 14% off v_Higgs). Closed-loop formula f_back = (M_Pl,N/E_event)^α universal at every level. Bilateral M^α scaling: UP to 9D (v_Higgs, 1.3%) and DOWN to 2D (TeV, factor of 2 from L41). Equal-Universe Principle: 1 species at each level, multiple γ values. 356 pages, 81 limitations.* (Note: "14 events" and "11 events" appear in some v3.1.2-final text but the rigorous test set is §10.1's 8 events. The "13/14 fail" claim for α = 1.258 is paper text without rigorous documentation in v3.1.2 calculations.)
+**Version:** 3.2 (June 2026) — *MAJOR VERSION BUMP: Three new structural principles + user-driven audits. v3.2 adds: (1) EQUAL-UNIVERSE PRINCIPLE — within each dimension, all universes have same physics, differ only in energy/state (1 species, multiple γ values); (2) BILATERAL DEMOCRATIC COSMOLOGY — 14 different 3D events → 14 different 2D universes with SAME physics, N_sub 3+1D sub-universes with SAME physics as ours; (3) TIME-DILATION INSIGHT — 4π continuous leakage is observable at 3D→4D (DE) because of γ ~ 10⁶² from 4D proper time 10⁻²⁰ s, but invisible at 2D→3D (2D universe is 33s, no time dilation); (4) TWO MAIN RESULTS RESTORED — scaling law + closed loop put back in README with v3.2 nuance. v3.1.2-final foundation: 8/8 events fit M^1.29 within 1.6×, Scenario X (M_Pl,4D = 887 GeV), closed-loop formula universal at every level, AGE vs LIFETIME distinct, frame of reference explicit. 356 pages, 81 limitations.* (Note: "14 events" and "11 events" appear in some v3.1.2-final text but the rigorous test set is §10.1's 8 events. The "13/14 fail" claim for α = 1.258 is paper text without rigorous documentation in v3.1.2 calculations.)
 
 **v3.1 HIGHLIGHTS** (NEW since v3.0.21):
 - **Inception cone** (L112): 4D event at base, 2D Planck at apex; 4D event eternal from our frame
@@ -37,19 +37,24 @@
 
 ---
 
-# ⚠️ STATUS NOTE (v3.1.1, June 2026, REVISED v3.1.2-final)
+# ⚠️ STATUS NOTE (v3.1.1, June 2026, REVISED v3.1.2-final, RESTORED v3.2)
 
 **v3.1.1 ORIGINAL**: The "two main points" framing (scaling law + closed loop) was **removed from this README pending review** due to a v10 closed-loop formula discrepancy (10¹⁸ orders of magnitude off from DE calibration).
 
-**v3.1.2-final RESTORATION**: After extensive audit (§3.71, calculations/v31_audit_v312final.py, v31_fback_both_levels.py), the two main results are now EMPIRICALLY VALIDATED and STRUCTURALLY MOTIVATED, with appropriate caveats. See the new section "TWO MAIN RESULTS: Scaling Law + Closed Loop" above for the full v3.1.2-final framing.
+**v3.1.2-final RESTORATION**: After extensive audit (§3.71, calculations/v31_audit_v312final.py, v31_fback_both_levels.py), the two main results are now EMPIRICALLY VALIDATED and STRUCTURALLY MOTIVATED, with appropriate caveats. See the new section "TWO MAIN RESULTS: Scaling Law + Closed Loop" above for the full v3.2 framing.
+
+**v3.2 STRUCTURAL PRINCIPLES**: Three new principles formalize the framework:
+- ✓ Equal-Universe Principle: within each dimension, all universes are equal (1 species, multiple γ)
+- ✓ Bilateral Democratic Cosmology: 1-species-at-each-level extends UP to 3+1D sub-universes
+- ✓ Time-Dilation Insight: γ ~ 10⁶² from 4D proper time makes 3D→4D continuous leakage observable (DE), 2D→3D invisible (2D is too short)
 
 **What changed**:
-- ✓ M^α scaling law validated against 14 events (8/8 within 1.6×, vs 11/14 in v3.1.1)
+- ✓ M^α scaling law validated against 8 events (8/8 within 1.6×)
 - ✓ α = 1.258 REJECTED (only α = 1.289 survives)
 - ✓ Closed-loop formula f_back = (M_Pl,N/E_event)^α is UNIVERSAL at every level
 - ✓ M^α scaling bilaterally: UP to 9D (v_Higgs, 1.3%) and DOWN to 2D (TeV, factor of 2)
 - ✓ Equal-Universe Principle (1 species at each level, multiple γ values)
-- ✓ DE-DM unified via continuous vs pulsed return (same mechanism, different timescales)
+- ✓ DE-DM unified via continuous vs pulsed return (same mechanism, time dilation determines observability)
 
 **What remains OPEN** (honest):
 - ✗ α = 1.289 derivation (L43 OPEN, 5 attempts failed)
@@ -58,7 +63,7 @@
 - ✗ DE formula derivation (ε is observed, L140 OPEN)
 - ✗ Sub-universe mechanism UNKNOWN
 
-**v3.1.2-final framing**: STRONGLY EMPIRICALLY SUPPORTED + STRUCTURALLY MOTIVATED, NOT first-principles DERIVED. The Equal-Universe Principle (1 species at each level, multiple γ values) is the cleanest statement of what the framework now achieves.
+**v3.2 framing**: STRONGLY EMPIRICALLY SUPPORTED + STRUCTURALLY MOTIVATED, NOT first-principles DERIVED. The Equal-Universe Principle (1 species at each level, multiple γ values) is the cleanest statement of what the framework now achieves.
 
 For honest limitations, see `paper/markdown/06_limitations.md` (81 total, including L138-L150 from v3.1.2).
 
@@ -984,7 +989,7 @@ only (~5-15 sec). Halts on the first LaTeX error and prints it with a line
 number reference. Use this to find broken math/LaTeX in supporting docs.
 
 **Pipeline overview:**
-1. Concatenate `paper/markdown/*.md` → `paper/.build/paper_combined.md`
+1. Concatenate `paper/markdown/*.md` → `paper/paper.md` (also kept in `paper/.build/paper.md`)
 2. Pandoc converts to LaTeX → `paper/.build/paper_body.tex`
 3. Four post-processors in `paper/build_tools/` fix Pandoc's LaTeX quirks
    (`wrap_dimexpr.py`, `use_linewidth.py`, `fix_dashes.py`, `fix_sigma.py`)

@@ -5,7 +5,8 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.1.2-final (paper) — 354 pages, 81 honest limitations
+**Current version:** v3.2 (paper) — 356 pages, 81 honest limitations
+**v3.2 = v3.1.2-final + Equal-Universe Principle + Bilateral Democratic Cosmology + Time-Dilation Insight**
 **Last updated:** June 18, 2026
 
 ---
@@ -239,8 +240,8 @@ python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 **Last working build:** 354 pages (June 18, 2026, v3.1.2-final, commit fcffc04).
 
 **Build state:**
-- Paper PDF: `paper/paper.pdf` (1.27 MB, 354 pages)
-- paper_combined.md next to paper.pdf
+- Paper PDF: `paper/paper.pdf` (1.28 MB, 356 pages, v3.2)
+- paper.md next to paper.pdf (concatenated markdown, 972KB)
 - All build infrastructure self-contained inside the repo
 
 ---

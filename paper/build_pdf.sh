@@ -1172,12 +1172,13 @@ fi
 
 
 # Step 0: Combine markdown files
-# Put paper_combined.md in the SAME directory as paper.pdf (paper/) for easy access.
+# Combine all paper/markdown/*.md files into a single paper.md
+# Output location: same directory as paper.pdf (paper/) for easy access.
 # Also keep a copy in .build/ for the build process.
 if [ -d "markdown" ]; then
-    cat markdown/*.md > "${BUILD_DIR}/paper_combined.md"
-    cat markdown/*.md > "${PAPER_DIR}/paper_combined.md"
-    SOURCE="${BUILD_DIR}/paper_combined.md"
+    cat markdown/*.md > "${BUILD_DIR}/paper.md"
+    cat markdown/*.md > "${PAPER_DIR}/paper.md"
+    SOURCE="${BUILD_DIR}/paper.md"
 else
     SOURCE=paper.md
 fi

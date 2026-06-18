@@ -1,3 +1,57 @@
+## v3.2 (June 2026) — Three structural principles + user-driven audits
+
+**Reason for major version bump:** Three new structural principles formalize the framework, plus user-driven audits and clarifications.
+
+**Three new structural principles (user-formalized)**:
+1. **Equal-Universe Principle**: within each dimension, all universes have same physics, differ only in energy/state (1 species, multiple γ values)
+2. **Bilateral Democratic Cosmology**: 14 different 3D events → 14 different 2D universes with SAME physics, N_sub 3+1D sub-universes with SAME physics as ours
+3. **Time-Dilation Insight**: γ ~ 10⁶² from 4D proper time 10⁻²⁰ s makes 3D→4D continuous leakage observable (DE), 2D→3D invisible (2D universe is 33s, no time dilation)
+
+**User-driven audits and corrections**:
+- ✓ Event count audit: 8/8 events in §10.1 fit M^1.29 within 1.6× (NOT 14/14 — that was legacy v14 inflated count)
+- ✓ 4π status clarification: KEPT at 3D→4D (1.7% match), REMOVED as universal (L149 RESOLVED)
+- ✓ Two main results RESTORED: scaling law + closed loop put back in README with appropriate caveats
+- ✓ "14 events" / "11 events" / "13/14 fail" inconsistencies acknowledged in README
+- ✓ JSON files all moved to `json/` directory (calculations + data)
+- ✓ Legacy content moved to `calculations/legacy/` and `paper/legacy/`
+
+**Files added**:
+- `calculations/v31_audit_v312final.py` (N_sub audit)
+- `calculations/v31_fback_both_levels.py` (f_back audit)
+- `calculations/v31_audit_lagrangian.py` (Lagrangian audit, M_Pl,2D = 3 TeV correction)
+- `json/README.md` (NEW)
+- `paper/legacy/README.md` (NEW)
+- `calculations/legacy/README.md` (NEW)
+- `calculations/v31_fback_audit_plot.png` (NEW, visual)
+
+**Files updated**:
+- `paper/markdown/03c_lagrangian.md` §3.62: added EQUAL-UNIVERSE PRINCIPLE
+- `paper/markdown/00_title.md`: v3.2 highlights
+- `README.md`: full v3.2 framing, restored two main results section
+- `persistent_memory.md`: §7.7 (M^α DOWN), §7.8 (Bilateral), §7.9 (Equal-Universe)
+
+**v3.1.2-final foundation preserved**:
+- 8/8 events fit M^1.29 within 1.6× (α = 1.258 REJECTED, 14% off v_Higgs)
+- Scenario X adopted: M_Pl,4D = 887 GeV (4D BULK Planck, separate from M_Pl,3D)
+- Three different M_Pl at three different levels (2D = 3 TeV, 3D = 10¹⁹ GeV, 4D = 887 GeV)
+- Closed-loop formula f_back = (M_Pl,N/E_event)^α universal at every level
+- AGE vs LIFETIME distinct: 13.8 Gyr is AGE, LIFETIME UNKNOWN
+- Frame of reference: 4D event proper 10⁻²⁰ s, apparent 10³⁴ yr (γ ~ 10⁶²)
+- N_sub = free parameter (4D-bulk dynamics unknown)
+
+**Page count**: 356 (no change in count from v3.1.2-final)
+
+**Build**: paper/build_pdf.sh clean, 356 pages, no errors.
+
+**Repository**: https://github.com/ampbuster/gravity-as-residual
+
+**Commits** (since v3.1.2-final):
+- 3d3892d: persistent memory updates
+- 9 commits with audits, clarifications, principle formalizations
+- Latest: 075b5be (4π status clarification), eb8c9fc (time-dilation insight)
+
+---
+
 ## v3.1.1 (June 2026) — Move superseded content to paper/legacy
 
 **Reason for update**: Cleanup after v3.1. Remove content that was
