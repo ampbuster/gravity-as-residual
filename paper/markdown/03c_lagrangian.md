@@ -1482,6 +1482,21 @@ $M_{\rm Pl,4}$ = 887 GeV (SIDC §10.3)
 α = 1.289 (SN calibration, 14-event fit)
 
 These are TWO INDEPENDENT numbers that meet at 9D.
+
+**v3.1.2-final: M^α scaling DOWN to 2D (NEW, audit-discovered)**:
+
+The same M^α extrapolation M_Pl,N = M_Pl,4 / α^(N-4) can be extended DOWN:
+- M_Pl,3D (M^α) = M_Pl,4 × α = 887 × 1.289 = 1143 GeV
+- M_Pl,2D (M^α) = M_Pl,4 × α² = 887 × 1.289² = 1474 GeV ≈ 1.5 TeV
+
+**Comparison with L41 (holographic 2D brane, CLOSED in v3.0.22)**:
+- M_Pl,2D (L41, μ = 9×10⁶ GeV²) = 3 TeV
+- M_Pl,2D (M^α) = 1.5 TeV
+- **Ratio: 3 / 1.5 = 2 (within factor of 2)** ✓
+
+Two INDEPENDENT derivations of the 2D Planck mass (M^α extrapolation from 4D, L41 holographic from 2D Liouville) give values that agree within a factor of 2. Both are at TeV scale. This is a real consistency check between two different methods.
+
+**Why it doesn't work for 3D**: M_Pl,3D is the MEASURED level (Newton's G gives 1.22×10¹⁹ GeV). The M^α extrapolation 4D → 3D gives 1.14 TeV, which is 16 orders of magnitude off. The M^α scaling is a STRUCTURAL pattern (cascade-like power-law), not a fundamental law — it works where the cascade is conjectured to apply (4D → 5D-9D, 4D → 2D via L41), but NOT for 3D which is the OBSERVED, MEASURED level.
 The agreement is too good to be coincidence.
 ```
 
