@@ -859,6 +859,21 @@ The framework's M^α law and per-event formula are correct. The event rate needs
 
 This is the leanest possible version of the bilateral cascade. All M^α predictions use M_Pl,3D. The 5/27/68 split still works via calibrated event rates.
 
+**NEXT STEP (user-driven)**: figure out the right M_Pl,2D
+
+User: "lets remove them first, then try to figure out the right 2d planck again"
+
+The minimal framework is the right starting point. M_Pl,2D can now be addressed separately:
+
+1. **Brane-world derivation** (M_Pl,3D → M_Pl,4D via V_extra, M_Pl,4D → M_Pl,2D via cascade): requires specific model
+2. **Direct calibration** (M_Pl,2D = 3 TeV from SN 33s lifetime): empirical, not structural
+3. **α^5 relation** (M_Pl,2D = M_Pl,4D × α^5): structural, gives 3 TeV (1% off), recovers SN 33s
+4. **2D CFT derivation** (μ = M_Pl,2D² from Liouville): requires 2D CFT expert (L26 OPEN)
+
+Recommended first try: option 3 (α^5 relation), which implicitly recovers the 33s SN calibration.
+
+Status: minimal cascade is structurally complete. M_Pl,2D is an open question to be addressed next.
+
 ---
 
 ### 3.67g v3.3 ADJUST τ_4D: framework now matches DE exactly (#26 user-suggestion)
