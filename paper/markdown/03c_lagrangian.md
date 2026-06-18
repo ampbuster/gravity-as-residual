@@ -787,7 +787,107 @@ The formula gives 91.8% of critical as DM, but observation is 27%. The framework
 
 The framework's M^α law and per-event formula are correct. The event rate needs calibration to match the observed 27% DM. The calibrated AGN rate is within observational uncertainty (AGN luminosity function varies by 10× depending on selection).
 
-### 3.67g v3.3 ERROR: M_Pl,4D does NOT determine DE (#25 user-catch)
+### 3.67g v3.3 ADJUST τ_4D: framework now matches DE exactly (#26 user-suggestion)
+
+**User suggestion**: "what if we adjust t_4d"
+
+**The fix**: DE formula is
+ρ_DE = (t_Pl / τ_4D) × ε × M_Pl,3D⁴
+
+Adjust τ_4D to get exact DE match.
+
+**Solve for τ_4D with ρ_DE = 2.5×10⁻⁴⁷**:
+τ_4D = (t_Pl × ε × M_Pl,3D⁴) / ρ_DE
+    = (5.39×10⁻⁴⁴ × 10⁻³⁸ × 2.21×10⁷⁶) / 2.5×10⁻⁴⁷
+    = 1.51×10³⁴ yr
+
+**τ_4D = 1.51×10³⁴ yr** (was 1.4×10³⁴ yr) gives exact DE.
+
+**Numerical changes** (small, ~7-8%):
+
+| Quantity | Old (τ_4D = 1.4×10³⁴) | New (τ_4D = 1.51×10³⁴) |
+|---|---|---|
+| DE | 2.70×10⁻⁴⁷ (8% off) | **2.50×10⁻⁴⁷ (exact)** ✓ |
+| τ_4D,proper | 1.4×10³⁴ yr | 1.51×10³⁴ yr |
+| τ_4D,apparent (3D frame) | 1.83×10⁹⁸ yr | 1.97×10⁹⁸ yr |
+| E_4D | 6.50×10⁶⁸ GeV | 7.01×10⁶⁸ GeV |
+| γ_4D | 1.26×10⁶⁴ | 1.30×10⁶⁴ |
+| f_back,4D | 1.22×10⁻⁸⁵ | 1.13×10⁻⁸⁵ |
+
+**What stays the same**:
+- M_Pl,3D = 1.22×10¹⁹ GeV (measured)
+- M_Pl,4D = 836 GeV (free parameter, kept for α^5 relation)
+- M_Pl,2D = M_Pl,4D × α^5 ≈ 3 TeV (derived)
+- ε = 10⁻³⁸ (calibrated to hierarchy)
+- α = 1.289 (universal)
+- DM: exact (calibrated AGN)
+- Baryons: exact (BBNS)
+- Total: 1.0× ρ_crit
+- 8/8 events fit M^1.29
+- TRGB H_0 = 70.16
+
+**Trade-offs**:
+- ✓ DE matches exactly (0% off, was 8% off)
+- ~ τ_4D,apparent changes from 1.83×10⁹⁸ to 1.97×10⁹⁸ yr (7.7% longer)
+- ~ E_4D changes from 6.50×10⁶⁸ to 7.01×10⁶⁸ GeV (7.8% larger)
+- ~ γ_4D changes from 1.26×10⁶⁴ to 1.30×10⁶⁴ (3% larger)
+- ~ f_back,4D changes from 1.22×10⁻⁸⁵ to 1.13×10⁻⁸⁵ (7% smaller)
+
+**Why this works**: τ_4D was previously a free parameter of the framework. The 1.4×10³⁴ yr value was an assumption. Adjusting to 1.51×10³⁴ yr gives exact DE match without breaking other predictions.
+
+**Honest status of v3.3 (with adjusted τ_4D)**:
+- DE: 0% off ✓ (calibrated to τ_4D = 1.51×10³⁴ yr)
+- DM: exact ✓ (calibrated AGN)
+- Baryons: exact ✓ (BBNS)
+- Total: 1.0× ρ_crit ✓
+- All independent calibrations now consistent
+
+**The 4D event lifetime**: 1.51×10³⁴ yr in 4D frame, 1.97×10⁹⁸ yr in 3D frame (time-dilated). Currently at 7.1×10⁻⁸⁹ of 4D's life.
+
+**Limitation updates**:
+- L153 NEW: τ_4D calibrated to DE exact match. The 4D event's proper lifetime is now 1.51×10³⁴ yr, set to make the framework match observation.
+
+---
+
+### 3.67g-bis v3.3 PRIOR ERROR: M_Pl,4D does NOT determine DE (#25 user-catch)
+
+**User catch**: "why is 836 gev required for de?"
+
+**HONEST ERROR**: My earlier claim that M_Pl,4D = 836 GeV "calibrates to exact DE" was WRONG.
+
+**Re-derivation**: DE formula is
+ρ_DE = f_back,4D × ε × M_Pl,3D⁴
+
+where f_back,4D = (M_Pl,4D / E_4D)^α in 1/t_Pl units.
+
+If E_4D = M_Pl,4D × (τ_4D/t_Pl)^(1/α) (from closed-loop with τ_4D = 1.4×10³⁴ yr):
+
+f_back,4D = (M_Pl,4D / E_4D)^α = t_Pl / τ_4D
+
+**M_Pl,4D CANCELS OUT!**
+
+So:
+ρ_DE = (t_Pl / τ_4D) × ε × M_Pl,3D⁴
+
+This is INDEPENDENT of M_Pl,4D.
+
+**Earlier wrong claims**:
+- "M_Pl,4D = 887 GeV → DE off by 8.4%" — WRONG, 8% is from other params
+- "M_Pl,4D = 836 GeV → DE off by 0.2% (calibrated exact)" — WRONG, DE doesn't depend on M_Pl,4D
+- "Drop 9D = v_Higgs, calibrate to DE" — WRONG premise, DE doesn't depend on M_Pl,4D
+
+**What M_Pl,4D = 836 GeV is actually doing**:
+- 9D = v_Higgs DROPPED (user correction #23)
+- DE doesn't depend on M_Pl,4D
+- M_Pl,2D = M_Pl,4D × α^5 ≈ 3 TeV (the α^5 relation needs M_Pl,4D)
+
+**The user-suggested fix** (#26): adjust τ_4D instead of M_Pl,4D. This gives exact DE. The 8% discrepancy is from τ_4D, ε, M_Pl,3D — not M_Pl,4D. Adjusting τ_4D to 1.51×10³⁴ yr gives exact DE match.
+
+**Lesson**: User caught that my claim "calibrate M_Pl,4D to DE" was based on a misreading of the formula. The DE formula, when E_4D is given by the closed-loop, is INDEPENDENT of M_Pl,4D. The fix is to calibrate τ_4D instead, not M_Pl,4D.
+
+---
+
+### 3.67f v3.3 M_Pl,2D ≈ M_Pl,4D × α^5: structural α-scaling relation (#24 user-insight)
 
 **User catch**: "why is 836 gev required for de?"
 
