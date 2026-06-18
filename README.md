@@ -234,6 +234,35 @@ The Lagrangian requires E_2D ≥ M_Pl,2D × c² = 3 TeV to create a 2D universe.
 
 The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natural E_crit. But it's at M_Pl,2D = 3 TeV (derived), not at 10³⁰ J (calibrated, REVERTED). And it's a smooth transition (C(E) = E^(1+α) becomes negligible below), not a step function.
 
+### What can produce 2D universes? (LHC analysis, v3.2 user-question)
+
+**User question**: "what can produce 2d universes then? lhc?"
+
+**Answer**: The LHC **can technically** create 2D universes (13.6 TeV > 3 TeV threshold), but they're **unmeasurable**. The framework has TWO thresholds:
+
+1. **Lagrangian threshold** (3 TeV, derived): Below this, no 2D universe
+2. **Observability threshold** (~10²⁸ J, empirical): Below this, 2D universe τ < 10⁻²⁰ s
+
+**Gap**: 17 orders of magnitude in energy between thresholds. LHC is in the gap.
+
+**LHC specifically**:
+- E = 13.6 TeV = 2.2×10⁻⁶ J
+- τ_2D (3+1D frame) = ~10⁻⁶³ s
+- 2D universe dies instantly, returning mass as undetectable pulse
+- C(LHC)/C(SN) = 10⁻¹¹⁴ (smooth function weighting)
+
+**Three regimes**:
+
+| Regime | E range | τ_2D range | DM contribution |
+|---|---|---|---|
+| Below threshold | < 3 TeV | No 2D universe created | 0 |
+| Gap (LHC, etc.) | 3 TeV to 10²⁸ J | < 10⁻²⁰ s (instantaneous) | Negligible (smooth function) |
+| **Observable** | 10²⁸ to 10⁶⁰ J | 10⁻²⁰ to 10²² s | Significant (testable, §10.1) |
+
+**§10.1 tested events**: 1 ton TNT (4×10⁹ J) to Quasar outburst (10⁶⁰ J). The 1 ton TNT is the **smallest tested event**, with τ_2D ~ 10⁻⁴³ s. This is the lower bound of what's testable.
+
+**Key takeaway**: The framework predicts 2D universe creation at LHC, but they're 20 orders of magnitude below the smallest tested event. The smooth function C(E) = E^(1+α) protects us — even if LHC creates 2D universes, their contribution to DM is 10¹¹⁴× smaller than SN. **Effectively zero.**
+
 ---
 
 # 🏆 THE TRIFECTA: Cosmology + Galactic + Parsimony
