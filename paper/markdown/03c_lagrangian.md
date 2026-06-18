@@ -617,6 +617,75 @@ full analysis.
 
 ---
 
+### 3.67 v3.3 SCALED LEAK: f_leak_3+1D = α × f_back × γ_4D^(1/α²) (user-suggested #17)
+
+**User suggestion**: "can you fit the leak to the required rate? scaled by alpha, so the leak in 4d is higher"
+
+**The required rate** to drain 3.4× DM over Hubble:
+$$f_{\rm leak,3+1D} \times t_H = 3.4 \Rightarrow f_{\rm leak} = 7.82 \times 10^{-18} \text{ s}^{-1}$$
+
+**The framework's f_back gives**:
+$$f_{\rm back,3+1D} = (M_{\rm Pl,3D}/E_{\rm 3+1D})^\alpha = 4.79 \times 10^{-57} \text{ s}^{-1}$$
+
+**Required enhancement factor**: $1.63 \times 10^{39}$ above f_back.
+
+**Best natural fit**: $\gamma_{\rm 4D}^{1/\alpha^2} = 3.89 \times 10^{38}$ (close to needed $1.63 \times 10^{39}$)
+
+**Proposed leak formula**:
+$$f_{\rm leak,3+1D} = \alpha \times f_{\rm back,3+1D} \times \gamma_{\rm 4D}^{1/\alpha^2}$$
+
+**Computation**:
+- $\gamma_{\rm 4D}^{1/\alpha^2} = (1.29 \times 10^{64})^{0.602} = 3.89 \times 10^{38}$
+- $f_{\rm leak} = 1.289 \times 4.79 \times 10^{-57} \times 3.89 \times 10^{38} = 2.40 \times 10^{-18}$ /s
+- Over Hubble: $f_{\rm leak} \times t_H = 1.04$ (close to 1, not 3.4)
+
+**For exact 3.4× match** (less natural):
+$$f_{\rm leak,3+1D}^{\rm exact} = \alpha \times f_{\rm back,3+1D} \times \gamma_{\rm 4D}^{0.61} = 7.59 \times 10^{-18} \text{ s}^{-1}$$
+- Over Hubble: 3.30 (matches 3.4 within 3%)
+- But 0.61 isn't natural (it's α/2.11, 2.11 isn't natural)
+
+**Structural interpretation**:
+
+The leak rate is enhanced by:
+- **α factor** (framework's scaling exponent, ~1.3)
+- **γ_4D^(1/α²) factor** (4D event's time dilation in 3D frame)
+
+Physically: the 4D event's time dilation (γ_4D ~ 10⁶⁴) amplifies the leak rate from 3D to 4D. The 4D event's "stretched time" in 3D's frame means more leakage events per 3D second.
+
+**Why 1/α² is natural**:
+- α is the framework's scaling exponent
+- 1/α² = 0.602 is a simple function of α
+- γ_4D^(1/α²) combines the 4D time dilation with the inverse square of the scaling exponent
+
+**Numerical fit**:
+- The fit gives 1.04 over Hubble (close to 1, not 3.4)
+- The 3.4× "overshoot" becomes ~3.3× (slight over-correction)
+- The fit is within an order of magnitude
+
+**Status of 3.4× issue**:
+
+With the new formula:
+- DM continuous gain from 2D: 3.2×10⁴⁵ J/s (SNe only) or higher with all events
+- DM continuous loss to 4D: f_leak × ρ_3+1D
+- Over Hubble: DM lost ≈ ρ_3+1D (1.04× the total mass)
+
+So the leak drains 1.04× of 3+1D's total mass over Hubble time. The 3.4× overshoot is reduced to:
+- 3.4× produced - 1.04× leaked = 2.36× remaining
+
+Better than 3.4× but not perfect. The framework now has a leak that significantly drains DM, but not enough to fully balance.
+
+**The bilateral cascade (v3.3 with scaled leak)**:
+
+| Flow | Formula | Rate |
+|---|---|---|
+| DE (4D→3+1D anti-gravity) | $\alpha \times f_{\rm back,4D} \times \varepsilon \times M_{\rm Pl,3D}^4 / \gamma_{\rm 4D}$ | matches obs ✓ |
+| DM continuous (2D→3+1D) | per 2D universe rate | small |
+| DM continuous (3+1D→4D) | $\alpha \times f_{\rm back,3+1D} \times \gamma_{\rm 4D}^{1/\alpha^2}$ | 2.40×10⁻¹⁸ /s |
+| DM pulsed (2D death→3+1D) | 100% at τ_2D | ~10⁴⁴ J per SN |
+| Matter pulsed (3+1D death→4D) | 100% at τ_3+1D | all baryons+DM |
+
+This is the most complete bilateral formulation. The 3.4× is reduced to ~2.4×, an improvement.
+
 ### 3.66 v3.3 FRAME-DEPENDENT: 4D not eternal, only appears so from 3D (#16)
 
 **User correction**: "dm continuously leaks as well. both from 2d->3d as well as 3d->4d. the pulse is from combined baryons plus dm remaining at end of 2d (in 3d) or 3d (in 4d). also 4d isn't eternal. it's only eternal from 3d frame of reference."
