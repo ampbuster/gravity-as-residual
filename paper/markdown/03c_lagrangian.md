@@ -470,7 +470,20 @@ $$f_{\rm back, alpha} = \frac{t_{\rm Pl}}{\tau_{\rm universe} \times \epsilon \t
 - Ratio: f_back_alpha / f_back_cal = 12 (off by 1 order)
 - DE prediction: 12× observed (within 1 order, much better than naive α-power-law which is 10⁸ off)
 
-**Honest verdict**: In the multi-universe picture, α-power-law gives γ_4D ~ 10⁶¹ (vs calibrated 10⁶²) and f_back_4D ~ 10⁻⁸⁴ (vs calibrated 10⁻⁸⁵). The 1-order discrepancy could be due to ε not being exactly 10⁻³⁸ or sub-universe mass not exactly 3.6×10⁵⁶ J.
+**Honest verdict (REVISED v3.1.2)**: The sub-universe mass E_sub = 3.6×10⁵⁶ J is **CALIBRATED** to match the observed universe age (13.8 Gyr) using α-power-law. It is NOT independently derived. The "α derives f_back_4D" claim requires TWO calibrations:
+1. α = 1.289 from SN 33s lifetime
+2. E_sub = 3.6×10⁵⁶ J from universe age 13.8 Gyr
+
+These two calibrations do NOT perfectly predict f_back_4D. The 12× discrepancy (f_back = 1.5×10⁻⁸⁴ vs calibrated 10⁻⁸⁵) is REAL. E_sub calibrated to f_back = 10⁻⁸⁵ gives 1.36×10¹⁰ M_sun (average galaxy), off by factor 7 from age-calibrated 2×10⁹ M_sun (small galaxy). E_sub cannot simultaneously satisfy universe age AND f_back with the same α.
+
+**Comparison of approaches**:
+| Approach | Calibrations used | f_back_4D prediction |
+|---|---|---|
+| Standard SIDC | γ_4D = 10⁶² | 10⁻⁸⁵ (exact, by calibration) |
+| Multi-universe | α + E_sub | 1.5×10⁻⁸⁴ (within factor 12) |
+| Naive α-power-law (E_4D = 10⁶⁹) | α alone | 10⁻⁷⁷ (off by 8 orders) |
+
+**What this means**: Multi-universe picture is BETWEEN standard and naive. It uses MORE observations (good) but gives LESS precise f_back (bad). The 1-order discrepancy is unexplained. This is honest framing, not a pure derivation of f_back from α.
 
 **What this restores**:
 
