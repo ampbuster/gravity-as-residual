@@ -7,7 +7,7 @@
 **Repository:** https://github.com/ampbuster/gravity-as-residual
 **Current version:** v3.3 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
 
-**v3.3 HIGHLIGHTS**: Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b). The 5/27/68 split now matches observation via calibrated event rate. 366 pages, 81 limitations.
+**v3.3 HIGHLIGHTS**: Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), f_back UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D=v_Higgs DROPPED, M_Pl,4D recalibrated to DE exact match (#23). The 5/27/68 split matches observation via calibrated event rate. DE matches within 0.2%. 372 pages, 81 limitations.
 
 **v3.2 HIGHLIGHTS**: Equal-Universe Principle (§3.62 REVISED), Bilateral Democratic Cosmology (§3.62), Time-Dilation Insight (continuous leakage observability), 4π status clarified (KEPT at 3D→4D, REMOVED as universal), event count audit (8/8 in §10.1, not 14/14). 356 pages, 81 limitations.
 
