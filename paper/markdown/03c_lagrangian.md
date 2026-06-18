@@ -721,6 +721,27 @@ not a proof.
 2D CFT operator at different $\gamma$ (1 species, 14 γ values).
 This is the democratic cosmology (legacy_paper.md §3.17) made concrete.
 
+**v3.1.2-final: EQUAL-UNIVERSE PRINCIPLE (user-formalized)**:
+
+Within the same dimension, all universes are EQUAL — they have the same internal physics. The 1-species-at-each-level principle is formalized as:
+
+**Within each dimension N, all universes share**:
+- Same Lagrangian (e.g., L_c=1,Liouville + L_N=12,SYK + L_Schwarzian for 2D)
+- Same constants (α = 1.289, M_Pl,N, central charge c)
+- Same particle content (e.g., 12 SM Weyl fermions for 3+1D)
+- Same internal structure (N=12 SYK backbone, Ising CFT)
+- **They differ ONLY in**: creation energy E, age, evolution stage, specific arrangement (like atoms)
+
+| Dimension | Same physics (all universes) | Different (per universe) |
+|---|---|---|
+| 2D | N=12 SYK, M_Pl,2D = 3 TeV, c=1, Schwarzian | E_2D, age, stage |
+| 3+1D | SM, M_Pl,3D = 10¹⁹ GeV, α = 1.289, N=12 | E_sub, age, stage, baryon asymmetry |
+| 4D (extrapolation) | M_Pl,4D = 887 GeV, N=12 | E_4D, age, stage |
+
+This is analogous to atoms: same physics, different states. The 14 SIDC events are 14 instances of the SAME 2D universe at 14 different energies. The N_sub 3+1D sub-universes (per §3.60.4) are N_sub instances of the SAME 3+1D universe at N_sub different energies.
+
+**Implication**: The M^α law and closed-loop formula are UNIVERSAL at each level (not 14 different laws, ONE law applied 14 times). This is what gives the framework its predictive power: one Lagrangian per level, not N different ones.
+
 **Net: +3 pages, +2 limitations (L89-90)**
 - Total: 330 pages (was 328)
 - 39 honest limitations (was 37)
