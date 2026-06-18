@@ -3495,6 +3495,55 @@ full analysis.
 
 ---
 
+### 3.64 v3.3 REVISED: f_back is continuous, pulse is baryons+DM (user-correction)
+
+**User correction**: "f_back shouldn't be the pulse at the end. the pulse at the end should be from baryons+dm remaining."
+
+**Two distinct mechanisms** (previously conflated):
+
+1. **Continuous gravity leakage** (f_back, slow, ongoing):
+   - Rate: f_back = (M_Pl/E)^α per unit Planck time
+   - Total over lifetime: f_back × τ = t_Pl ≈ 10⁻⁴³ s (negligible)
+   - Observed as: anti-gravity (DE) for 4D → 3+1D flow
+
+2. **Pulsed matter return at universe death** (sudden, 100%):
+   - At τ = (E/M_Pl)^α × t_Pl, universe dies
+   - ALL remaining baryons + DM return to parent dimension
+   - No α dependence, 100% return
+   - This is what creates DM in 3+1D (from 2D universe deaths)
+
+**Bilateral cascade (v3.3 REVISED)**:
+
+| Direction | Continuous (f_back) | Pulsed (at death) |
+|---|---|---|
+| 4D → 3+1D (DOWN) | Anti-gravity → DE ✓ | (4D event doesn't die) |
+| 3+1D → 4D (UP) | Mass leak (10⁻⁵⁷/s, negligible) | All baryons+DM → 4D (at τ_3+1D) |
+| 2D → 3+1D (UP) | Mass leak (t_Pl total, negligible) | All mass → 3+1D as DM (at τ_2D) |
+
+**For our universe (3+1D)**:
+
+Continuous (during 13.8 Gyr):
+- DE: 4D event's anti-gravity, ρ_DE = 2.71×10⁻⁴⁷ GeV⁴ ✓ (matches observed 2.5×10⁻⁴⁷)
+- Mass leak to 4D: 4.79×10⁻⁵⁷ /s (negligible)
+
+Pulsed (cumulative over 13.8 Gyr):
+- DM: cumulative from 2D universe deaths at ~32 SN/s
+- Total: 1.17×10¹¹ M_⊙/Mpc³ (3.4× observed Ω_DM)
+
+At 3+1D death (in ~10³⁰ yr):
+- All baryons (0.045 × ρ_crit) + DM (0.27 × ρ_crit) = 0.315 × ρ_crit × V_universe
+- Returns to 4D as a single pulsed event
+
+**DM/DE split explained**:
+- DE = continuous (4D's anti-gravity in 3+1D)
+- DM = pulsed (cumulative from 2D universe deaths)
+
+**Status**: DE matches observation; DM is 3.4× overshoot (open problem, L100).
+
+This correction separates the framework's two mechanisms cleanly. The bilateral cascade now has structural clarity:
+- Continuous flows: gravity (anti-gravity, mass leak)
+- Pulsed returns: matter (baryons+DM at universe death)
+
 ### 3.63 Equal-Universe Cascade Formula (v3.3 PROPOSAL, user-formalized)
 
 **User insight**: "change the formula. going upwards 2d to 3d should yield dm. going downwards should yield inverted gravity, which yields de after cancelling e(gravity). find a formula which fits."
