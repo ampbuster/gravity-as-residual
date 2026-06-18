@@ -4,7 +4,7 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 3.1.2-final (June 2026) — *Three corrections finalized: (1) AGE vs LIFETIME distinct — 13.8 Gyr is universe AGE, predicted total LIFETIME ~10³⁰ yr; (2) FRAME OF REFERENCE distinct — M^α law gives apparent durations in lower-D frame, 4D event proper duration ~10⁻²⁰ s (γ ~ 10⁶²); (3) SCENARIO X ADOPTED — M_Pl,4D = 887 GeV (4D BULK Planck, separate from M_Pl,3D), sub-universe = 4D-galaxy collision. Three different M_Pl at three different levels (2D = 10³⁸ GeV, 3D = 10¹⁹ GeV, 4D = 887 GeV). 14-event M^1.29 fit verified (α = 1.258 REJECTED, 13/14 fail). Closed-loop formula f_back = (M_Pl,N/E_event)^α universal at every level. 353 pages, 81 limitations.*
+**Version:** 3.1.2-final (June 2026) — *Three corrections finalized: (1) AGE vs LIFETIME distinct — 13.8 Gyr is universe AGE, predicted total LIFETIME ~10³⁰ yr; (2) FRAME OF REFERENCE distinct — M^α law gives apparent durations in lower-D frame, 4D event proper duration ~10⁻²⁰ s (γ ~ 10⁶²); (3) SCENARIO X ADOPTED — M_Pl,4D = 887 GeV (4D BULK Planck, separate from M_Pl,3D), sub-universe = energetic 4D-bulk event. Three different M_Pl at three different levels (2D = 10³⁸ GeV, 3D = 10¹⁹ GeV, 4D = 887 GeV). 14-event M^1.29 fit verified (α = 1.258 REJECTED, 13/14 fail). Closed-loop formula f_back = (M_Pl,N/E_event)^α universal at every level. 354 pages, 81 limitations.*
 
 **v3.1 HIGHLIGHTS** (NEW since v3.0.21):
 - **Inception cone** (L112): 4D event at base, 2D Planck at apex; 4D event eternal from our frame
