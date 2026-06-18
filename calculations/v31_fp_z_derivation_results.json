@@ -1,0 +1,24 @@
+{
+  "title": "F_p(z) derivation attempt in v3.1 cone depth picture (REVERTED)",
+  "version": "v3.1 (REVERTED June 18 2026)",
+  "date": "2026-06-18",
+  "status": "REVERTED",
+  "summary": "Initial calculation gave F_p(z) ~ 1, but this contradicts local DM observations. Reverted to honest 'cannot derive F_p from v3.1 framing'.",
+  "old_conclusion_REVERTED": {
+    "F_p(0)": 1.000000,
+    "claim": "Hill function can be replaced"
+  },
+  "current_status": {
+    "honest_conclusion": "F_p(z) CANNOT be derived from v3.1 framing as currently written",
+    "reason": "§3.67 f_back_4D = 1 is inconsistent with closed loop formula (gives 10^-75). The 'fully back-projected substrate' claim is ambiguous — what does f_back mean at the 4D-event level?",
+    "limitation_L137_NEW": "§3.67 f_back_4D = 1 vs closed loop formula gives f_back_4D ~ 10^-75. Cannot both be right."
+  },
+  "limitations_status": {
+    "L100": "STAYS OPEN (was PARTIAL)",
+    "L35": "STAYS OPEN ($z_half$ still calibrated)",
+    "L34": "CLOSED (v2.7.52)",
+    "L137": "NEW OPEN (§3.67 inconsistency)"
+  },
+  "key_insight": "The user caught that F_p = 1 (all primordial) is wrong because SIDC's whole point is that DM varies between galaxies based on local star formation history. F_p must allow for non-negligible cumulative contribution.",
+  "next_step": "Need to clarify what f_back_4D means before any F_p derivation. Either f_back_4D = 1 (substrate fully projects) is misinterpreted, or the closed loop formula needs extension to the 4D event."
+}
