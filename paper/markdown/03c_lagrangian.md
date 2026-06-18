@@ -280,6 +280,45 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr (γ ~ 10⁵⁶), which is OUT
 
 **The proper closed loop uses only ONE factor** (t_Pl/τ_4D) and is frame-consistent with the cone picture when γ ~ 10⁶².
 
+**SIDC has TWO distinct cross-dimensional stories** (v3.1.1 REVISED):
+
+1. **4D ↔ 3+1D (CLOSED LOOP)**:
+   - 4D event creates 3+1D (forward, f_back = 10⁻⁸⁵)
+   - 3+1D leaks back to 4D (backward, f_back = 10⁻⁸⁵)
+   - DE = f_back × ε × M_Pl⁴
+   - γ ~ 10⁶² makes 4D event "practically eternal" from 3+1D frame
+   - This is a CLOSED LOOP (same f_back in both directions)
+
+2. **3+1D → 2D (CREATION + DEATH RETURN, NOT a closed loop)**:
+   - 3+1D events create 2D universes (M^1.29 scaling law, 14 event types)
+   - 2D universes die, 100% energy returns to 3+1D as DM
+   - No while-alive f_back worth modeling (2D lifetimes too short: 33s for SN)
+   - DM = cumulative 2D universe deaths (Σ M_2D × N)
+
+**Why f_back = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D**:
+
+- 3+1D lifetime: 13.8 Gyr (long enough for f_back to be meaningful)
+- 4D event apparent duration (3+1D frame): 10³⁴ yr (γ ~ 10⁶²)
+- f_back_4D = t_Pl/τ_4D = 1.2×10⁻⁸⁵ ✓
+- DE matches observation (within 14%)
+
+- 2D universe lifetime: 33s (very short)
+- f_back_2D = t_Pl/τ_2D = 1.6×10⁻⁴⁵ (NOT 10⁻⁸⁵)
+- During 2D's lifetime, leakage is 0.16 J per SN (negligible)
+- 2D's contribution to 3+1D happens at DEATH (100% return), not while-alive
+
+**SIDC structure (clarified v3.1.1)**:
+
+| Cross-dimensional transition | Process | f_back | Mechanism |
+|---|---|---|---|
+| 4D → 3+1D (forward) | 4D event creates 3+1D | 10⁻⁸⁵ (closed loop) | Projection efficiency |
+| 3+1D → 4D (backward) | 3+1D leaks to 4D | 10⁻⁸⁵ (closed loop) | While-alive gravitational coupling |
+| 3+1D → 2D (forward) | 3+1D event creates 2D | 1 (at creation) | 2D universe formation |
+| 2D → 3+1D (backward) | 2D dies, returns to 3+1D | 1 (at death) | 100% energy return as DM |
+
+The 4D ↔ 3+1D transition is a CLOSED LOOP with f_back = 10⁻⁸⁵.
+The 3+1D → 2D transition is a CREATE-AND-DIE process, NOT a closed loop.
+
 **The three pillars of SIDC's dark sector + gravity**:
 
 | Pillar | Observation | Status | Mechanism |
