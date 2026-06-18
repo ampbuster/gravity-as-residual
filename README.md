@@ -37,55 +37,17 @@
 
 ---
 
-# 🎯 THE TWO MAIN POINTS (v3.0.21, GROUND TRUTH)
+# ⚠️ STATUS NOTE (v3.1.1, June 2026)
 
-SIDC's quantitative backbone has TWO expressions, both verified and used as ground truth throughout the paper:
+The "two main points" framing (scaling law + closed loop) has been **removed from this README pending review**. See `paper/markdown/06_limitations.md` L138-L140 and `calculations/v31_F_p_consistency.py`.
 
-## Main Point #1: The Scaling Law (§10.1)
+**Brief honest summary**:
 
-$$\boxed{\tau_{2D,\,\text{our frame}} = 33\,\text{s} \times \left(\frac{E_{\text{3D event}}}{10^{44}\,\text{J}}\right)^{1.29}}$$
+- The **M^1.29 scaling law** is a real empirical regularity across 14 event types, but its structural derivation from the 2D CFT framework is partial.
+- The **"closed loop"** for $f_{\rm back}$ was claimed to unify DM, DE, and gravity under one α. The closed loop formula (§3.60.1) gives $f_{\rm back} \sim 4.6 \times 10^{-68}$, but the DE calibration requires $f_{\rm back} \sim 1.1 \times 10^{-85}$. These differ by 10¹⁸. The "closed loop" is rhetorical, not numerical.
+- Both ε = 10⁻³⁸ (gravity weakness) and ρ_DE/M_Pl⁴ = 10⁻¹²³ are **observed**, not derived. SIDC provides a geometric picture, not derivations.
 
-- Every **3D event** (SN, BNS, AGN, ...) creates a **2D universe** whose lifetime in 3+1D view follows this formula.
-- **Calibration**: SN1987A ($E_{\text{3D}} = 10^{44}$ J, $\tau = 33$ s).
-- **Verified**: 8/8 3D events from §10.1 match within factor 1.6 (median ratio 1.024).
-- **Range**: 54 orders of magnitude, from 1 ton TNT to AGN outbursts.
-- **Origin**: $\alpha = 1.289 = 1 + 1/\sqrt{12}$ from N=12 SYK saddle-point (§3.62).
-
-## Main Point #2: The Closed Loop (§3.60.1)
-
-**NOTE (v3.0.22)**: The closed loop expression (formula) DERIVES the value
-$f_{\rm back} \approx 10^{-85}$. The expression IS $f_{\rm back}$ — the
-number 10^{-85} is its numerical evaluation.
-
-$$\boxed{f_{\rm back} \equiv \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)} \approx 10^{-85}}$$
-
-- The same $\alpha = 1.289$ governs the **backward (back-action) direction**, closing the loop between 4D event and 3D event.
-- **Numerical value**: $f_{\rm back} \approx 10^{-85}$ — the back-projection efficiency (RESULT of the closed loop expression).
-- **Composite exponent** $1/(2\alpha) = 0.388 = c/\alpha$ where $c = 1/2 = N/24$ (Ising CFT).
-- **Three independent derivations of 1/2** (Schwarzian, DOZZ, $N/24$) confirm the exponent.
-- **$\alpha \times 1/(2\alpha) = 1/2$** (round-trip loss, Z₂ orbifold).
-
-## Why these are the MAIN POINTS
-
-- **Scaling law** makes SIDC **testable**: 14 different events follow one formula.
-- **Closed loop** makes SIDC **unified**: DE and DM use the SAME $\alpha$, the SAME bulk-brane cancellation.
-- Together they answer: "Why $\alpha = 1.289$?" — because $\alpha \times 1/(2\alpha) = 1/2$ must hold for the loop to close, and the only N that gives $\alpha \approx 1.29$ with this property is N = 12.
-
-**The closed loop UNITES DM, DE, and gravity (v3.0.22, §3.60.3)**:
-
-| Pillar | Origin | Formula | Numerical |
-|--------|--------|---------|-----------|
-| Gravity weakness | Bulk-brane cancellation | $\varepsilon \sim 10^{-38}$ | Suppression |
-| DE (68%) | 4D event antigravity | $f_{\rm back} \times \varepsilon \times M_{\rm Pl}^4$ | $2.2 \times 10^{-47}$ GeV⁴ (12% match) |
-| DM (27%) | 2D universe back-projection | $f_{\rm back} \times \Sigma(M_{\rm 2D} N_{\rm 2D})/V$ | Cumulative |
-
-All three use the SAME $\alpha = 1.289$, the SAME $f_{\rm back} \approx 10^{-85}$, the SAME bulk-brane geometry. **The closed loop is what unifies them.**
-
-**Hierarchy (user-corrected v3.0.21)**:
-- **3D event** (in our universe) → creates **2D universe** (DM/DE) — CALIBRATED at SN 33s
-- **4D event** (in higher-dim) → creates **3D universe** (= us) — SPECULATIVE extrapolation
-
-See [§3.60.1](https://github.com/ampbuster/gravity-as-residual) for the closed loop derivation, [§10.1](https://github.com/ampbuster/gravity-as-residual) for the scaling law table, and [`calculations/consistency_check_v3_0_21.py`](calculations/consistency_check_v3_0_21.py) for the consistency verification.
+For honest limitations, see `paper/markdown/06_limitations.md` (70 total, including the new L138, L139, L140 from this revision).
 
 ---
 
@@ -99,24 +61,26 @@ SIDC's principle is simple: every energetic event creates a 2D universe whose ev
 
 **SIDC is the ONLY dark sector model that achieves all three.** Other models typically sacrifice one.
 
-**The closed loop: why DE and DM are the same thing.**
+**The geometric picture: why DE and DM might be related.**
 
-SIDC has a unique feature that other dark sector models don't have: **it explains both dark energy and dark matter with the same mechanism**. Most models treat them as two separate puzzles. SIDC says they're two views of the same picture.
+SIDC proposes that **dark energy and dark matter both arise from dimensional projection**, but the precise quantitative connection is incomplete.
 
-Here's the loop, in plain language:
+Here is the picture, in plain language (with appropriate caveats):
 
 1. A huge energetic event in a higher dimension (the "4D event") created our 3+1 dimensional universe. The 4D event was the "Big Bang."
-2. The 4D event's gravity, projected into our 3+1D universe, has a *repulsive* component. We measure this as **dark energy**.
+2. The 4D event's gravity, projected into our 3+1D universe, inverts to **antigravity** (repulsive). We measure this as **dark energy**.
 3. In our universe, energetic events (supernovae, black hole mergers) create tiny 2D universes.
 4. The cumulative gravitational back-projection of all those 2D universes is what we measure as **dark matter**.
-5. **The loop is closed:** the 4D event gives us DE; the 2D universes (created by events in our universe) give us DM. The same geometric process — *dimensional projection* — explains both.
+5. **The geometric picture is consistent** (4D event → DE; 2D universes → DM) — but the quantitative "loop" (same α connecting them, $f_{\rm back} = 10^{-85}$ as universal back-projection) is **incomplete** (see L138-L140).
 
-**The takeaway:** DE and DM are not two separate mysteries. They're two effects of the same projection:
+**The takeaway (revised):** DE and DM are related geometrically, but the quantitative connection is not yet established.
 
-- **Dark energy** = the "upstairs" view (gravity from the 4D event that made us)
-- **Dark matter** = the "downstairs" view (gravity from the 2D universes our explosions keep creating)
+- **Dark energy** = the "upstairs" view (antigravity from the 4D event that made us). **Observed**: ρ_DE/ρ_Pl = 10⁻¹²³.
+- **Dark matter** = the "downstairs" view (gravity from the 2D universes our explosions keep creating). **Observed**: Ω_DM = 0.27.
 
-Other models need to *postulate* DE and DM as two unrelated things. SIDC says they're two sides of one geometric fact: **we live in the projection of a 4D event**. The 4D's antigravity is DE, the 2D universes' back-projection is DM, the bulk-brane cancellation is gravity's weakness. One geometric process, three observational effects.
+Other models need to *postulate* DE and DM as two unrelated things. SIDC says they're two sides of one geometric fact: **we live in the projection of a 4D event**. The 4D's antigravity is DE, the 2D universes' back-projection is DM. But the geometric PICTURE is not yet a quantitative DERIVATION.
+
+> ⚠️ **Honest framing v3.1.1**: The values ε = 10⁻³⁸ (gravity weakness) and ρ_DE/ρ_Pl = 10⁻¹²³ are **observed**, not derived. The "closed loop" formula gives $f_{\rm back} \sim 4.6 \times 10^{-68}$, which differs from the DE calibration $f_{\rm back} \sim 1.1 \times 10^{-85}$ by 10¹⁸. SIDC provides the geometric picture but not the numerical derivation.
 
 # 🎯 47 TUC TEST: SIDC's SMOKING GUN against particle DM
 
@@ -236,96 +200,25 @@ SIDC has **1 conceptual principle** but **2 remaining free parameters** μ , $m_
 
 ## ⚖️ THE SCALING LAW: M^1.29 ACROSS 14 EVENT TYPES, ALL SCALES
 
-This is SIDC's central quantitative claim. One formula works across all 14 energetic event types, all 36 galaxy tests, and cosmological scales — without invoking a single undiscovered particle or a single scale-dependent parameter.
-
-**The single formula:**
-
-**$\tau_{2D}$ ~ $E^{1.29}$ (in our frame)**
-
-A 2D universe created by an event of energy E lives for a time proportional to $E^{1.29}$ in 3+1D view. The exponent 1.29 comes from SIDC's N=12 SYK backbone ( $\alpha = 1$ + 1/√12 = 1.289).
-
-**It works for 14 event types ~ $30$ orders of magnitude in energy:** 
-
-**SIDC's "14 event types" insight**: All 14 events correspond to the **same universal 2D universe** (1 species), differing only in the time-dilation factor $\gamma = (E/E_{\rm Pl})^{1.29}$. They are 14 different views of the SAME thing — not 14 different operators. This is the **democratic cosmology** (§3.17): all 2D universes are equal in their own frame, the 3+1D-frame observer sees different $\gamma$ values.
-
-| Event | E (J) | $\tau_{2D}$ | Test |
-|-------|-------|------|------|
-| Type Ia SN | ~ $10^{44}$ | 33 s | **[PASS]** (calibration anchor) |
-| Core-collapse SN | ~ $10^{44}$ | 33 s | **[PASS]** (matches Ia) |
-| Hypernova | ~ $10^{46}$ | hours | **[PASS]** |
-| Short GRB (BNS merger) | ~ $10^{47}$ | days | **[PASS]** |
-| Long GRB | ~ $10^{47}$ | days | **[PASS]** |
-| NS-BH merger | ~ $10^{47}$ | days | **[PASS]** |
-| TDE | ~ $10^{38}$ | milliseconds | **[PASS]** (low-energy extreme) |
-| AGN flare | ~ $10^{52}$ | years | **[PASS]** (high-energy extreme) |
-| SMBH merger | ~ $10^{55}$ | thousands of years | **[PASS]** |
-| Primordial BH evaporation | ~ $10^{32}$ | microseconds | **[PASS]** (very-low extreme) |
-| Stellar BH formation | ~ $10^{47}$ | days | **[PASS]** |
-| + 3 more | | | **[PASS]** |
-
-**Why 1.29?** The exponent 1.29 = 1 + 1/√12 is the unique natural formula:
-- $\sqrt{12}$ comes from N=12 (the SIDC backbone = 12 SM Weyl fermions)
-- The "1" is the kinematic boost (E/E_Pl)
-- The "1/√12" is the N=12 SYK saddle-point correction
-- Decomposed: $\alpha = 1/2$ (Schwarzian base) + 1/2 (kinematic) + 1/√12 (SYK)
-
-The Lagrangian skeleton that gives this: $L = L_{c=1,\rm Liouville} + L_{N=12,\rm SYK} + L_{\rm Schwarzian}$ (§3.62). This is a candidate, not a proof — the complete Lagrangian needs a 2D CFT expert to finish.
-
-**The competition can't match this:**
-
-- **ΛCDM**: works on cosmological scales, fails at galaxy scales (cusp-core, missing satellites, too-big-to-fail)
-- **MOND**: works at galaxy scales, fails at cluster scales (cluster $g_+$ is 14 × higher than the galaxy value, Tian+ 2024)
-- **UDM / Chaplygin gas**: works on cosmological scales, but the unified fluid has $c_s^2$ ~ $1 \to$ suppresses all small-scale structure
-- **Verlinde / entropic gravity**: static — can't distinguish "same mass, different history" cases (AGC 114905 vs KKR 25)
-
-**Honest limit:** The 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty (Limitation 31, reduced to ~ $15$ orders via Karch-Randall). The "1.29" is calibrated from the SN 33s lifetime; the N=12 backbone provides a structural reason but doesn't derive it from first principles.
-
-**Bottom line:** One formula, fourteen event types, all scales. The M^1.29 scaling is the quantitative core of the closed loop — it's what makes the dimensional projection give consistent results across the entire observable universe.
-
-See §2.3 (energy-scaling rule), §3.55 (consequences + data tests), and §10 (end-of-universe signatures) for the full analysis.
+> ⚠️ **REMOVED v3.1.1**: This section has been removed pending review.
+> See `paper/markdown/06_limitations.md` L138-L140 and `calculations/v31_F_p_consistency.py`
+> for the honest assessment. The scaling law IS a real empirical regularity
+> across 14 event types, but its derivation from the 2D CFT framework is
+> partial, and its role as "main point" was tied to the (now-discredited)
+> closed loop picture.
 
 ---
 
 ## 🔄 THE CLOSED LOOP: Why DE and DM Use The Same $\alpha$
 
-The scaling law above is only HALF of SIDC's quantitative backbone. The OTHER half is the **closed loop expression for $f_{\rm back}$** (v3.0.21, §3.60.1):
-
-$$\boxed{f_{\rm back} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^\frac{1}{2 \alpha}}$$
-
-**What this means**: The same $\alpha = 1.289$ that scales 2D universe lifetimes (forward direction, time dilation) ALSO scales the back-action from the 4D cosmological event (backward direction). The forward and backward use the **SAME** $\alpha$ — that's what makes it a "closed loop".
-
-**Numerical value**:
-- Prefactor: $(t_{\rm Pl,3}/\tau_{\rm 4D}) \times (\tau_{\rm SN,obs}/\tau_{\rm universe}) \sim 3.5 \times 10^{-87}$
-- Exponent: $1/(2\alpha) = 0.388 = c/\alpha$ where $c = 1/2 = N/24$ (Ising CFT)
-- $(E_{\rm 4D}/E_{\rm SN})^{0.388} = (10^{69}/10^{44})^{0.388} = 10^{9.7}$
-- **$f_{\rm back} \sim 10^{-85}$** — bridges the $10^{85}$ gap between SIDC's raw DE prediction and observation.
-
-**Why the loop closes** (the three derivations of 1/2):
-
-1. **Schwarzian**: $\rho(E) \sim \exp(S_0)\sinh(2\pi\sqrt{2E/E_0}) \to \tau \sim E^{1/2}$
-2. **DOZZ**: $c = 1$ Liouville has $b^2 = 1/2$
-3. **$N/24$**: $c = N/24 = 12/24 = 1/2$ (Ising CFT)
-
-All three give the same 1/2, confirming $1/(2\alpha) = 0.388$ is the correct back-action exponent.
-
-**The forward and backward are linked**:
-- Forward: $\gamma = (E/E_{\rm Pl})^\alpha$ — what the 3+1D observer sees (time dilation)
-- Backward: $f_{\rm back} \sim (E_{\rm 4D}/E_{\rm SN})^\frac{1}{2 \alpha}$ — what the 4D event's back-projection does
-- **$\alpha \times 1/(2\alpha) = 1/2$** — the round-trip loss (Z₂ orbifold symmetry)
-
-**Hierarchy (user-corrected v3.0.21)**:
-- **3D event** (in our universe, e.g., SN) $\to$ **2D universe** (DM/DE) — CALIBRATED at SN 33s
-- **4D event** (in higher-dim) $\to$ **3D universe** (= us) — SPECULATIVE extrapolation
-
-Both scaling law and closed loop are **ground truth** throughout the paper. See §3.60.1 for the full derivation.
-
-**Bottom line:** The closed loop unifies DE and DM under the same $\alpha = 1.289$. Without this, SIDC would have two separate unexplained numbers (DE density and DM density). With it, both are determined by N = 12.
+> ⚠️ **REMOVED v3.1.1**: This section has been removed pending review.
+> The closed loop formula (§3.60.1) gives $f_{\rm back} \sim 4.6 \times 10^{-68}$
+> while the DE calibration requires $f_{\rm back} \sim 1.1 \times 10^{-85}$.
+> These differ by 10¹⁸. The "closed loop" is rhetorical, not numerical.
+> See L138-L140 in `paper/markdown/06_limitations.md`.
 
 ---
 
----
-
-## Comparison to Other Dark Sector Models
 
 | Model                | Cosmo | Gal | Parsim | Comment                                            |
 |----------------------|:-----:|:---:|:------:|----------------------------------------------------|
@@ -979,9 +872,7 @@ number reference. Use this to find broken math/LaTeX in supporting docs.
 
 # 📌 PROJECT MEMORY
 
-For a quick-reference summary of SIDC's current state, the 3 ε's, the
-f_back/γ closed loop, the Lagrangian skeleton, build infrastructure,
-conventions, and open work items, see **[`persistent_memory.md`](persistent_memory.md)**
+For a quick-reference summary of SIDC's current state, the Lagrangian skeleton, build infrastructure, conventions, and open work items, see **[`persistent_memory.md`](persistent_memory.md)**. Note: the "closed loop" framing has been revised in v3.1.1 — see L138-L140 in `paper/markdown/06_limitations.md`.
 in the repo root. This is the "what to remember across sessions" file.
 
 For full version history, see **[`changelog.md`](changelog.md)** below.
