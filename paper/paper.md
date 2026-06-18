@@ -3732,7 +3732,65 @@ The 33s SN lifetime is preserved in the minimal framework. The 2D universe's int
 
 ---
 
-### 3.67h v3.3 MINIMAL: Remove M_Pl,2D and M_Pl,4D (#27 user-suggestion)
+### 3.67j v3.3 DROP α^5 relation: M_Pl,4D > M_Pl,3D, free parameter (#31 user-catch)
+
+**User catch**: "4d planck is supposed to be larger than 3d planck"
+
+**The problem with α^5 relation**:
+
+The framework's α^5 relation gave M_Pl,4D = 845 GeV (from M_Pl,2D / α^5). But this is **smaller** than M_Pl,3D = 1.22×10¹⁹ GeV. This is the ADD-like convention (bulk Planck is small due to large extra dimensions).
+
+The user is right: in the "fundamental 4D" convention, M_Pl,4D should be **larger** than M_Pl,3D. The α^5 relation was empirical (1% off) and likely a coincidence.
+
+**The contradiction**:
+
+If M_Pl,4D > M_Pl,3D AND α^5 relation (M_Pl,2D = M_Pl,4D × α^5):
+- M_Pl,2D > 1.22×10¹⁹ × α^5 = 4.3×10¹⁹ GeV
+- But Liouville gives M_Pl,2D = 3 TeV (much smaller)
+- **Contradiction!**
+
+**Resolution**: Drop the α^5 relation. It was:
+- Empirical (1% off)
+- Coincidence
+- Not structural
+
+**The honest minimal cascade (v3.3 with α^5 dropped)**:
+
+| Parameter | Value | Source | Used in |
+|---|---|---|---|
+| M_Pl,2D | 3 TeV | Liouville CFT (μ = 9×10⁶ GeV²) | 2D universe's internal CC |
+| M_Pl,3D | 1.22×10¹⁹ GeV | **measured** (Newton's G) | M^α lifetime (2D), DE formula |
+| M_Pl,4D | > 1.22×10¹⁹ GeV | free, no constraint | 4D bulk (abstract) |
+| α | 1.289 | structural (N=12 SYK) | M^α law |
+| ε | 10⁻³⁸ | calibrated (hierarchy) | DE formula |
+| τ_4D | 1.51×10³⁴ yr | calibrated (DE exact) | 4D event lifetime |
+| AGN rate | 3×10⁻¹⁶ /m³/s | calibrated (DM exact) | DM density |
+| N_sub | 4×10² | free | sub-universes |
+
+**What this gives**:
+- 1 measured Planck (M_Pl,3D)
+- 1 from 2D CFT (M_Pl,2D from Liouville)
+- 1 free Planck (M_Pl,4D, no constraint from predictions)
+- 4 calibrated (α, ε, τ_4D, AGN rate)
+- 1 free (N_sub)
+
+**Why M_Pl,4D doesn't affect predictions**:
+- DE formula: ρ_DE = (t_Pl / τ_4D) × ε × M_Pl,3D⁴ (uses τ_4D, not M_Pl,4D)
+- M^α lifetime: τ_2D = (E / M_Pl,3D)^α × t_Pl (uses M_Pl,3D)
+- DM density: calibrated via AGN rate
+- M_Pl,4D is decorative (no observable consequence in current framework)
+
+**Implications**:
+- α^5 relation is coincidence, not structural
+- M_Pl,4D is a free parameter, not derivable from M_Pl,2D or M_Pl,3D
+- The "fundamental 4D" convention is correct: M_Pl,4D > M_Pl,3D
+- M_Pl,2D = 3 TeV is from Liouville alone, not from α^5
+
+**Lesson**: User caught that the α^5 relation was empirical and likely coincidence. The framework's M_Pl,4D = 845 GeV was the ADD-like convention, which is wrong direction. The correct convention is M_Pl,4D > M_Pl,3D (fundamental 4D), and M_Pl,4D is a free parameter with no constraint from current observations. The α^5 relation is dropped.
+
+---
+
+### 3.67i v3.3 OPTIONS 3 and 4 TRIED: M_Pl,2D ≈ 3 TeV either way (#29 user-suggestion)
 
 **User suggestion**: "what if we remove 2d and 4d planck for now"
 
