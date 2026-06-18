@@ -38,7 +38,7 @@ consequences of a single dimensional-projection mechanism:
 - A energetic 4D-bulk event in a 4D BULK created our 3+1D universe
 - The 4D bulk has its own gravity scale: M_Pl,4D = 887 GeV (4D BULK Planck, INFERRED, brane-world, Scenario X)
 - Our universe's Planck: M_Pl,3D = 1.22×10¹⁹ GeV (MEASURED via Newton's G)
-- The 2D universes' Planck: M_Pl,2D = 10³⁸ GeV (brane-world, INFERRED)
+- The 2D universes' Planck: M_Pl,2D = 3 TeV (brane-world, from L41)
 - Three DIFFERENT M_Pl at three different levels (3D ≠ 4D, brane-world consistency)
 - The 4D event's gravity **inverts to antigravity** when projected into 3+1D
 - This 4D antigravity **cancels** (1 - ε) of 3+1D's own gravity
@@ -72,7 +72,7 @@ consequences of a single dimensional-projection mechanism:
 
 **Universal closed-loop formula (v3.1.2-final):**
 - f_back(N→N-1) = (M_Pl,N / E_event)^α — universal at EVERY dimensional transition
-- Three different M_Pl at three different levels: 2D = 10³⁸ GeV, 3D = 10¹⁹ GeV, 4D = 887 GeV
+- Three different M_Pl at three different levels: 2D = 3 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 887 GeV
 - α = 1.289 is the SAME at every level
 - Pulsed return at universe death: 100% (universal, no α dependence)
 - 4π at 3D→4D continuous leakage: verified ~1.7%, specific to that transition (NOT universal)
@@ -334,7 +334,10 @@ The hierarchy CONVERGES to the EW scale at N ~ 9. This is the cascade's STRONGES
 | 3+1D (us) | 1.22×10¹⁹ GeV | MEASURED (Newton's G) | - | AGE: 13.8 Gyr, LIFETIME: ~10³⁰ yr | - |
 | 4D bulk (parent) | 887 GeV | INFERRED (cascade, brane-world) | 1.07×10⁵⁹ J (4D event) | 1.4×10³⁴ yr (apparent) | 1.2×10⁻⁸⁵/s |
 
-**Why M_Pl,4D ≠ M_Pl,3D**: In brane-world physics (ADD since 1998, RS-I/II since 1999), the bulk Planck is INDEPENDENT of the brane Planck. The 4D bulk is a SEPARATE 4-dimensional spacetime with its OWN gravity scale, different from our universe's. M_Pl,3D = 10¹⁹ GeV is OUR universe's gravity (measured). M_Pl,4D = 887 GeV is the BULK's gravity (inferred, brane-world). The cascade's 2D universes (M_Pl,2D = 10³⁸ GeV) are also separate structures with their own gravity. Different levels, different gravity scales. The asymmetric Occam's razor is NOT applied.
+**Why M_Pl,4D ≠ M_Pl,3D**
+
+**AUDIT CORRECTION (v3.1.2-final)**: M_Pl,2D = 3 TeV (from L41 closed in v3.0.22, μ = 9×10⁶ GeV², holographic 2D brane). Earlier v3.1.2 drafts listed M_Pl,2D = 10³⁸ GeV — this was WRONG (35 orders of magnitude off, not corresponding to any physics scale, NEVER used in any formula). The correct value is 3 TeV from L41. (Note: M_Pl,2D is NOT used in the closed-loop formula at all — the formula uses M_Pl,N at the parent's level, not the child's. So M_Pl,2D only appears in the Lagrangian section, where L41 fixes it at 3 TeV.)
+: In brane-world physics (ADD since 1998, RS-I/II since 1999), the bulk Planck is INDEPENDENT of the brane Planck. The 4D bulk is a SEPARATE 4-dimensional spacetime with its OWN gravity scale, different from our universe's. M_Pl,3D = 10¹⁹ GeV is OUR universe's gravity (measured). M_Pl,4D = 887 GeV is the BULK's gravity (inferred, brane-world). The cascade's 2D universes (M_Pl,2D = 3 TeV) are also separate structures with their own gravity. Different levels, different gravity scales. The asymmetric Occam's razor is NOT applied.
 
 ### AGE vs LIFETIME (v3.1.2-final, HONEST, AUDIT-CORRECTED)
 - **AGE**: 13.8 Gyr = current age of our 3+1D universe (OBSERVED, the only firm value)
@@ -422,7 +425,7 @@ The hierarchy CONVERGES to the EW scale at N ~ 9. This is the cascade's STRONGES
 - f_back_2D (2D→3D) = (M_Pl,3D / E_SN)^α = 1.6×10⁻⁴⁵/s (during 33s, integrated = 5.4×10⁻⁴⁴ of E_2D, negligible)
 - f_back_4D (3D→4D) = (M_Pl,4D / E_4D)^α = 1.2×10⁻⁸⁵/s (during 1.4×10³⁴ yr, integrated = DE)
 - f_back_death = 1 — 100% energy return at universe death (universal, no α dependence)
-- DIFFERENT M_Pl at each level: 2D = 10³⁸ GeV, 3D = 10¹⁹ GeV, 4D = 887 GeV
+- DIFFERENT M_Pl at each level: 2D = 3 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 887 GeV
 
 ### Closed loop (v3.1.2-final)
 - Forward (4D → 3+1D): f_back = 1.2×10⁻⁸⁵/s (projection efficiency with 4π)
@@ -436,7 +439,7 @@ The hierarchy CONVERGES to the EW scale at N ~ 9. This is the cascade's STRONGES
 ### Scenario X (current adopted)
 - M_Pl,4D = 887 GeV (4D BULK Planck, INFERRED, brane-world)
 - E_4D = 1.07×10⁵⁹ J (galaxy-scale 4D event, ~10⁹ M_sun)
-- 3 different M_Pl: 2D = 10³⁸ GeV, 3D = 10¹⁹ GeV, 4D = 887 GeV
+- 3 different M_Pl: 2D = 3 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 887 GeV
 - 9D = v_H match (1.3% off) — fragile but suggestive
 - N_sub = 300 (energetic 4D-bulk events per event)
 
@@ -497,7 +500,7 @@ The hierarchy CONVERGES to the EW scale at N ~ 9. This is the cascade's STRONGES
 
 ### v3.1.2 SCENARIO X ADOPTED
 - M_Pl,4D = 887 GeV (4D BULK Planck, INFERRED, brane-world)
-- 3 different M_Pl at 3 different levels: 2D = 10³⁸ GeV, 3D = 10¹⁹ GeV, 4D = 887 GeV
+- 3 different M_Pl at 3 different levels: 2D = 3 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 887 GeV
 - E_4D = 1.07×10⁵⁹ J (galaxy-scale 4D event, ~10⁹ M_sun)
 - KEEPS: 9D = v_Higgs match (1.3% off v_H = 246 GeV), M^α M_Pl,N at 5-9D gives EW physics
 - DROPS: standard 4D Planck throughout, multi-universe = galaxy count
@@ -611,7 +614,7 @@ Build: 354 pages, commit f4328c8.
 - **Don't conflate 13.8 Gyr with universe LIFETIME.** 13.8 Gyr is the universe's AGE (observed, the only firm value). LIFETIME is UNKNOWN — depends on N_sub (free parameter). User caught: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each". See L145.
 - **Don't claim N_sub = 300 as if it were derived.** N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). E_4D = N_sub × E_sub is fixed, but the partition is undetermined. See L144.
 - **Don't ignore frame of reference.** M^α law gives APPARENT durations in LOWER-D frame, not proper time in higher-D frame. 4D event apparent duration (1.4×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time (~10⁻²⁰ s) via γ ~ 10⁶².
-- **Don't assume M_Pl,4D = M_Pl,3D.** In brane-world physics, bulk Planck is INDEPENDENT of brane Planck. The cascade has THREE different M_Pl: 2D = 10³⁸ GeV, 3D = 10¹⁹ GeV, 4D = 887 GeV. See L150.
+- **Don't assume M_Pl,4D = M_Pl,3D.** In brane-world physics, bulk Planck is INDEPENDENT of brane Planck. The cascade has THREE different M_Pl: 2D = 3 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 887 GeV. See L150.
 - **Don't identify sub-universe with 3+1D galaxies.** Sub-universes are 3+1D universes created by an ENERGETIC EVENT in a 4D BULK (specific 4D-bulk mechanism UNKNOWN — NOT specifically '4D-galaxy collisions'). N_sub = 300 (sub-universes per 4D event), NOT 3×10¹². See L143, L150.
 - **Don't present α = 1.258 as an alternative.** It's REJECTED by 14-event M^1.29 fit. Only α = 1.289 survives. See L142b.
 - **Don't claim 4π is universal across all transitions.** 4π is specific to 3D→4D continuous leakage (verified ~1.7%). It is NOT at 2D→3D or higher transitions. See L146, L149.
@@ -684,7 +687,7 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 
 **Key claims that are REVISED in v3.1.2-final:**
 - **Closed loop is now universal**: f_back = (M_Pl,N/E_event)^α at EVERY dimensional transition (was: only 3D→4D in v3.1.1-final)
-- **M_Pl,4D ≠ M_Pl,3D**: Three different M_Pl at three levels (2D = 10³⁸ GeV, 3D = 10¹⁹ GeV, 4D = 887 GeV)
+- **M_Pl,4D ≠ M_Pl,3D**: Three different M_Pl at three levels (2D = 3 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 887 GeV)
 - **Scenario X adopted**: M_Pl,4D = 887 GeV (4D BULK Planck, brane-world)
 - **Sub-universe = energetic 4D-bulk events**: N_sub = 300, not 3×10¹² (galaxies)
 - **AGE vs LIFETIME distinct**: 13.8 Gyr age, ~10³⁰ yr predicted lifetime

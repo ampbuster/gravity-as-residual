@@ -503,7 +503,7 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
 | Level | M_Pl | Status |
 |---|---|---|
-| 2D universes (children) | 10³⁸ GeV | brane-world, calibrated |
+| 2D universes (children) | 3 TeV | brane-world, from L41 (μ = 9×10⁶ GeV²) |
 | 3+1D universe (us) | 1.22×10¹⁹ GeV | MEASURED (Newton's G) |
 | 4D bulk (parent) | 887 GeV | INFERRED (cascade consistency) |
 
@@ -1813,7 +1813,7 @@ with α = 1.289 = 1 + 1/√12 (universal, from N=12 SM SYK).
 
 ***SCENARIO X (v3.1.2)**: The cascade adopts M_Pl,4D = 887 GeV (4D BULK Planck, brane-world), NOT the standard 4D Planck (10¹⁹ GeV) of our universe. The 4D bulk is a SEPARATE structure from our 3+1D universe — it is the parent 4-dimensional spacetime with its OWN gravity scale, INDEPENDENT of M_Pl,3D = 10¹⁹ GeV. Standard brane-world physics (ADD since 1998, RS-I/II since 1999) explicitly allows bulk Planck to differ from brane Planck. The closed-loop formula gives E_4D = 10⁵⁹ J (galaxy-scale 4D event, ~10⁹ M_sun). The 14-event M^α fit and the DE matching are both satisfied. KEEPS: 9D = v_Higgs match (1.3% off v_Higgs = 246 GeV), M^α scaling for M_Pl,N at 5-9D gives EW-scale physics (200-700 GeV range). DROPS: standard 4D Planck throughout (4D bulk has different gravity than our universe, but this is well-motivated), multi-universe = galaxy count (N_sub = 300, not 10¹²).
 
-***INTERPRETATION (v3.1.2)**: In Scenario X, the 4D BULK is a SEPARATE 4-dimensional spacetime (one dimension higher than our 3+1D universe), with its own gravity scale M_Pl,4D = 887 GeV. The 4D event is a process in this bulk that creates our universe. M_Pl,3D = 10¹⁹ GeV is OUR universe's gravity (measured). M_Pl,4D = 887 GeV is the BULK's gravity (inferred from cascade consistency, consistent with brane-world scenarios). These are INDEPENDENT quantities — there is no reason to assume they're equal. The cascade's 2D universes (M_Pl,2D = 10³⁸ GeV) are also separate structures with their own gravity. Different levels, different gravity scales.
+***INTERPRETATION (v3.1.2, AUDIT-CORRECTED)**: In Scenario X, the 4D BULK is a SEPARATE 4-dimensional spacetime (one dimension higher than our 3+1D universe), with its own gravity scale M_Pl,4D = 887 GeV. The 4D event is a process in this bulk that creates our universe. M_Pl,3D = 10¹⁹ GeV is OUR universe's gravity (measured). M_Pl,4D = 887 GeV is the BULK's gravity (inferred from cascade consistency, consistent with brane-world scenarios). These are INDEPENDENT quantities — there is no reason to assume they're equal. The cascade's 2D universes (M_Pl,2D = 3 TeV, from L41 closed in v3.0.22) are also separate structures with their own gravity. Different levels, different gravity scales.
 
 ***IMPORTANT CAVEAT (v3.1.2)**: M_Pl,3D = 10¹⁹ GeV IS MEASURED (via Newton's G in our universe). M_Pl,4D = 887 GeV IS CALIBRATED to give the 9D = v_Higgs match and the closed-loop formula consistency. The 887 GeV is also consistent with the cascade's M_Pl,4 ≥ 887 GeV floor (from previous observational analysis). The closed-loop formula constrains only the RATIO M_Pl,4D/E_4D = 10⁻⁶⁶ (one equation, two unknowns); E_4D = 10⁵⁹ J is DERIVED from the assumed M_Pl,4D = 887 GeV. The choice M_Pl,4D = 887 GeV is motivated by: (a) brane-world physics (bulk Planck can be TeV-scale), (b) the 9D = v_Higgs match (1.3% off, suggestive), (c) M^α scaling for M_Pl,N giving EW-scale physics at 5-9D, (d) the 887 GeV floor from previous work.
 
@@ -1855,7 +1855,7 @@ At every level: parent-level event creates child-level universes, each child has
 - f_back = 10⁻⁴⁵ (2D leakage)
 
 **What changes between levels**:
-- **M_Pl,N**: M_Pl,3D = 1.22×10¹⁹ GeV (3D, our universe) vs M_Pl,4D = 887 GeV (4D bulk) vs M_Pl,2D = 10³⁸ GeV (2D universes). Three DIFFERENT M_Pl at three different levels.
+- **M_Pl,N**: M_Pl,3D = 1.22×10¹⁹ GeV (3D, our universe) vs M_Pl,4D = 887 GeV (4D bulk) vs M_Pl,2D = 3 TeV (2D universes, from L41 v3.0.22 closed). Three DIFFERENT M_Pl at three different levels. (Note: the M_Pl,2D value is from L41 holographic 2D brane, NOT 10³⁸ GeV as a previous v3.1.2 draft stated — that value was a typo/placeholder and has been corrected.)
 - **E_event,N**: 10⁴⁴ J (SN, our 3+1D creating 2D universe) vs 10⁵⁹ J (4D event, parent creating our universe)
 
 The α is the same. The formula is the same. Closed loop.
@@ -1871,7 +1871,7 @@ In standard brane-world physics, the bulk Planck can be TeV-scale (ADD) or near 
 
 | Level | M_Pl | Status |
 |---|---|---|
-| 2D universes (children) | 10³⁸ GeV | brane-world, calibrated from 2D universe dynamics |
+| 2D universes (children) | 3 TeV | brane-world, from L41 (μ = 9×10⁶ GeV²) |
 | 3+1D universe (us) | 1.22×10¹⁹ GeV | MEASURED (Newton's G) |
 | 4D bulk (parent) | 887 GeV | INFERRED (cascade consistency, brane-world) |
 
