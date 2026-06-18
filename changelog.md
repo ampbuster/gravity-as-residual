@@ -1,3 +1,44 @@
+## v3.1.1 (June 2026) — Move superseded content to paper/legacy
+
+**Reason for update**: Cleanup after v3.1. Remove content that was
+already duplicated in paper/legacy/legacy_paper.md but was still
+present in the main paper.
+
+**Sections moved (from main to legacy, content already in legacy)**:
+- 03a_relations.md: §3.13-§3.16 (sterile neutrino DISCARDED + meta) -411 lines
+- 03b_predictions.md: §3.16-§3.20 (time dilation derivations) -398 lines
+- 03b_predictions.md: §3.24-§3.29 (CGHS analysis + AGC/KKR corrections) -540 lines
+- 03b_predictions.md: §3.55-§3.56 (comprehensive summary) -269 lines
+- 04_predictions.md: §4.9-§4.15 (philosophical/speculative) -177 lines
+
+**Reference updates**: 85+ cross-references to legacy sections updated
+to point to `paper/legacy/legacy_paper.md` instead of missing sections.
+
+**Executive summary updates**:
+- 37 honest limitations → 67 honest limitations (current count)
+- §3.13/§3.16 references → legacy_paper.md
+- v2.7.23+ → v3.1 (master table reference)
+- Status counts: 17 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED, 1 DISCARDED
+  → 25 OPEN, 21 PARTIAL, 8 CLOSED, 1 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE
+
+**Math notation fixes** (pre-existing broken patterns cleaned up):
+- `$$g_+$+$...$` patterns consolidated in 06_limitations.md
+- `$$F_p$(z)$` patterns in 06_limitations.md
+- `$$9.7 \times $10^{7}$$` patterns in 02_glossary.md
+- Various `$X$ \times $Y$` patterns consolidated to single math blocks
+
+**PAGE COUNT**:
+- Was: 390 (v3.1)
+- Now: **334 (v3.1.1)**
+
+The page count dropped because legacy content was duplicated. The
+main paper is now ~56 pages more compact while preserving all
+current content. The legacy paper is unchanged.
+
+**BUILD**: paper/build_pdf.sh clean, 334 pages, no errors.
+
+**REPOSITORY**: https://github.com/ampbuster/gravity-as-residual
+
 
 ## v3.1 — MAJOR VERSION BUMP: Full Lagrangian, Inception cone, 9D = String theory, SIDC-SM connection (June 2026)
 

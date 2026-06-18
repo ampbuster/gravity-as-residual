@@ -5,8 +5,8 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.0.2 (paper content) / v3.0.21 (build) — 330 pages
-**Last updated:** June 17, 2026
+**Current version:** v3.1.1 (paper content) / v3.0.21 (build) — 334 pages
+**Last updated:** June 18, 2026
 
 ---
 
@@ -301,3 +301,36 @@ memory_append(scope="agent", content="...")  # NOT memory_append alone
 - This file is the **quick reference** for current state (v3.0.2)
 
 For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
+
+---
+
+## v3.1/v3.1.1 SPECULATIVE EXTENSIONS (Lagrangian + 9D + SM)
+
+**v3.1 (MAJOR, June 2026)** added:
+- **§3.67 — Inception cone**: 4D event is eternal substrate at BASE, 2D Planck at TIP
+  - γ ~ 10^60-10^100 makes 4D event look frozen from 3+1D
+  - f_back varies with event (4.8×10^-24 at floor → ~1 for 4D event)
+  - Full Lagrangian v3.0.22 (L = L_4D + L_3+1D + ΣL_2D + L_projection)
+  - c = 7 (UV) → c = 3/2 (IR) via c-theorem
+  - L41, L42 CLOSED (only 2 free params: μ and m_{3+1D})
+- **§3.68 — 9D = string theory**: M_Pl,N = M_Pl,4 / α^(N-4) extrapolation
+  - **M_Pl,9D = 249 GeV ≈ v_Higgs = 246 GeV (within 1.3%)**
+  - 9 spatial dim = critical dim of superstring
+  - String scale = EW scale
+  - Hierarchy problem solved by cascade structure
+- **§3.69 — SIDC-SM**: dim(SU(3)×SU(2)×U(1)) = 8+3+1 = 12 = N_SYK
+  - 9+3 structure (9 spatial + 3 generational)
+  - Higgs = 9D→4D compactification
+  - W, Z are KK modes at v_Higgs
+
+**v3.1.1 (June 2026)** cleaned up:
+- Moved 22 sections from main paper to paper/legacy/legacy_paper.md
+  (content was duplicated)
+- 03a: §3.13-§3.16 (DISCARDED sterile ν)
+- 03b: §3.16-§3.20 (time dilation), §3.24-§3.29 (CGHS), §3.55-§3.56
+- 04: §4.9-§4.15 (philosophical)
+- 85+ cross-references updated
+- Executive summary: 37 → 67 honest limitations
+- Page count: 390 → 334 (legacy content was duplicated)
+- Cleaned up pre-existing broken math patterns
+
