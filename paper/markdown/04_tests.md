@@ -879,7 +879,7 @@ The one-sentence summary: *every* energetic event in our 3+1 dimensional univers
 
 ### 4.45 Phenomenological Emulator: AGC 114905 + KKR 25 Individual Galaxy Tests (v2.3.2, REVISED v2.7.36+)
 
-**v2.7.36 UPDATE: The bifurcation framing between AGC 114905 and KKR 25 has been REMOVED.** The original 219× bifurcation was based on a 1000× error in KKR 25's $M_{b}$ (§3.27), the 10-year data gap (§3.28) makes pairwise comparison methodologically weak, and AGC 114905's DM content is contested in 2022-2025 literature (§3.29). SIDC now treats AGC 114905 and KKR 25 as **independent galaxy tests** of SIDC's SFH-DM correlation.
+**v2.7.36 UPDATE: The bifurcation framing between AGC 114905 and KKR 25 has been REMOVED.** The original 219× bifurcation was based on a 1000× error in KKR 25's $M_{b}$ (legacy_paper.md legacy_paper.md §3.27), the 10-year data gap (legacy_paper.md legacy_paper.md §3.28) makes pairwise comparison methodologically weak, and AGC 114905's DM content is contested in 2022-2025 literature (legacy_paper.md legacy_paper.md §3.29). SIDC now treats AGC 114905 and KKR 25 as **independent galaxy tests** of SIDC's SFH-DM correlation.
 
 A Python-based phenomenological emulator has been built to verify SIDC's phase-transition principle against two canonical dwarf-galaxy cases. The emulator is a 4-part pipeline (`calculations/sidc_phenomenological_emulator.py`, 722 lines):
 
@@ -902,7 +902,7 @@ Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type st
 
 **SIDC prediction:** $M_{dyn}/M_{b}$ = 1.36$ (DM-poor). **[PASS]** matches Mancera Piña 2022.
 
-**Caveats (v2.7.35+, §3.29):**
+**Caveats (v2.7.35+, legacy_paper.md legacy_paper.md §3.29):**
 - DM content is CONTESTED in 2022-2025 literature (Mancera Piña 2022 vs Sellwood 2022)
 - Mancera Piña 2024 finds inclination 31±2°; CDM needs unusual halo; SIDM/FDM remain feasible
 - SIDC's $M_{dyn}$/$M_{b}$ ~ $1.36$ is consistent with Mancera Piña 2022 but not with Sellwood 2022
@@ -916,9 +916,9 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 - $N_{\rm CCSN, total} = 1.8 \times 10^{3}$ (REVISED v2.7.33+: was $4.5 \times 10^{6}$, off by 2500×)
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
-**SIDC prediction:** $M_{dyn}/M_{b}$ $ ~ $1-4$ (REVISED v2.7.33+: was 299.19, see §3.27 for the correction).
+**SIDC prediction:** $M_{dyn}/M_{b}$ $ ~ $1-4$ (REVISED v2.7.33+: was 299.19, see legacy_paper.md legacy_paper.md §3.27 for the correction).
 
-**Caveats (v2.7.34+, §3.28):**
+**Caveats (v2.7.34+, legacy_paper.md legacy_paper.md §3.28):**
 - KKR 25 has NO published velocity dispersion
 - SIDC's $M_{dyn}$ is estimated, not measured
 - No new observations in 2024-2026 literature
@@ -938,7 +938,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 **Honest caveats.** The DM/baryon proportionality constant (0.1 in the emulator) is *calibrated* to match dSph observations — this is Limitation 26 territory. The *qualitative* SFH-DM correlation IS reproducible from the SFH alone. The *absolute* $M_{DM}$ values are postulates pending the full Lagrangian. The emulator's "growth factor" $G_{growth} = 9.7 \times 10^7$ from §2.6 is *not* used directly in the final prediction (a calibrated proportionality is more honest than a chain of uncertain factors).
 
-**The original 219× bifurcation was a numerical error, not a physical prediction.** See §3.27, §3.28, §3.29 for the self-corrections that led to the bifurcation removal.
+**The original 219× bifurcation was a numerical error, not a physical prediction.** See legacy_paper.md legacy_paper.md §3.27, legacy_paper.md legacy_paper.md §3.28, legacy_paper.md legacy_paper.md §3.29 for the self-corrections that led to the bifurcation removal.
 
 **File added:** `calculations/sidc_phenomenological_emulator.py` (722 lines, 4 parts).
 
@@ -1026,7 +1026,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 | Predicted $M_{dyn}/M_b$ (SIDC emulator) | 1.36 | 299.19 | 1-4 | **219×** | **0.7-3×** |
 | Energy injection $E_{total}$ (J) | $1.1 \times 10^{51}$ | $4.5 \times 10^{51}$ | $1.8 \times 10^{49}$ | 4.1× | 0.016× |
 
-**Honest finding (v2.7.33+):** SIDC's 820× → 219× bifurcation was based on a 1000× error in KKR 25's $M_{b}$. The corrected bifurcation is much smaller (0.7-3×) and may even REVERSE for some metrics (M_total_formed/$M_{b} = 0.11$×). SIDC's qualitative interpretation (intermediate SF → DM) is preserved; the quantitative prediction is much weaker. See §3.27 for the full self-correction.
+**Honest finding (v2.7.33+):** SIDC's 820× → 219× bifurcation was based on a 1000× error in KKR 25's $M_{b}$. The corrected bifurcation is much smaller (0.7-3×) and may even REVERSE for some metrics (M_total_formed/$M_{b} = 0.11$×). SIDC's qualitative interpretation (intermediate SF → DM) is preserved; the quantitative prediction is much weaker. See legacy_paper.md legacy_paper.md §3.27 for the full self-correction.
 
 **The non-linear mapping from 820× (energy) to 219× ($M_{dyn}$/$M_{b}$) is SIDC's signature.** REVISED v2.7.33+: The 820× → 219× shift was based on a 1000× error in KKR 25's $M_{b}$. The corrected numbers are 0.7-3×. SIDC's non-linear saturation story is preserved qualitatively but the quantitative prediction is much weaker. A linear mapping would give 0.7-3× $M_{dyn}$/$M_{b}$; SIDC's saturation claim is no longer well-tested with these data.
 

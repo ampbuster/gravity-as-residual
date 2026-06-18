@@ -475,7 +475,7 @@ where:
 2. $L_{N=12,\rm SYK} = \frac{1}{2}\sum_{i=1}^{12}\chi_i\partial_t\chi_i + \frac{i^2}{4!}\sum_{i<j<k<l}J_{ijkl}\chi_i\chi_j\chi_k\chi_l$
 3. $L_{\rm Schwarzian} = -C\{F(t), t\}$ where $\{F,t\} = F'''/F' - (3/2)(F''/F')^2$
 
-**Democratic cosmology** (§3.17, §3.62): All 14 events correspond
+**Democratic cosmology** (legacy_paper.md §3.17, §3.62): All 14 events correspond
 to the SAME 2D universe operator. They differ only in $\gamma = (E/E_{\rm Pl})^{1.29}$.
 This is the **1-species, 14-γ-values** insight — not 14 different
 operators, just 1 universal 2D universe seen at 14 different $\gamma$.
@@ -495,7 +495,7 @@ at high $\gamma$ experience more time dilation.
 $C = 1$. The 33s calibration + 1.29 exponent FIX all couplings.
 
 **Closed loop coupling** $f_{\rm back}$: $f_{\rm back} = 10^{-85} = e^{-195.5}$
-implying RS-II $$kL$ \approx 195.5$. This is a STRUCTURAL choice from the
+implying RS-II $kL \approx 195.5$. This is a STRUCTURAL choice from the
 bulk geometry, not a fitted parameter.
 
 **What's MISSING from a complete Lagrangian**:
@@ -526,7 +526,7 @@ not a proof.
 
 **L90 NEW (v3.0.2)**: All 14 SIDC events correspond to the same
 2D CFT operator at different $\gamma$ (1 species, 14 γ values).
-This is the democratic cosmology (§3.17) made concrete.
+This is the democratic cosmology (legacy_paper.md §3.17) made concrete.
 
 **Net: +3 pages, +2 limitations (L89-90)**
 - Total: 330 pages (was 328)

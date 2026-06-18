@@ -26,7 +26,7 @@ The full simulation is in `calculations/cascade_model.py` (run with `--outliers`
 11. Dragonfly 44: $M_{dyn}$/$M_{b}$ ~ 300 (revised), Coma cluster member
 
 **New test (v2.7.32+):**
-12. **CVnC dwarf (Hagen+ 2026, arXiv:2601.14248)**: $M_{dyn}$ >> $M_{b}$, isolated quenched dwarf in the local volume, F(z) ~ 0.5 (intermediate). "Circumstantial evidence suggests CVnC may have quenched via past interactions with the L* galaxy NGC 4631." This is the first *single-galaxy* test of the intermediate F(z) population predicted by SIDC's smooth F(z) (§3.26). The 2025 Bidaran et al. sample of isolated quenched dwarfs in cosmic voids (log M* = 8.9-9.5) is the population context.
+12. **CVnC dwarf (Hagen+ 2026, arXiv:2601.14248)**: $M_{dyn}$ >> $M_{b}$, isolated quenched dwarf in the local volume, F(z) ~ 0.5 (intermediate). "Circumstantial evidence suggests CVnC may have quenched via past interactions with the L* galaxy NGC 4631." This is the first *single-galaxy* test of the intermediate F(z) population predicted by SIDC's smooth F(z) (legacy_paper.md §3.26). The 2025 Bidaran et al. sample of isolated quenched dwarfs in cosmic voids (log M* = 8.9-9.5) is the population context.
 
 ### 12.2 Outlier test details
 

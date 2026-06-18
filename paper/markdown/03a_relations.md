@@ -516,7 +516,7 @@ SIDC's current mechanism: the 2D universe has an *intrinsic* 2D-frame mass $M_{2
 $$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$
 
 To get the required $3.7 \times 10^{-5} M_\odot$ per universe:
-$$e^{-ky} = 3.7 \times $10^{-5}$ / 6 = 6.2 \times $10^{-6}$$$
+$$e^{-ky} = 3.7 \times 10^{-5} / 6 = 6.2 \times 10^{-6}$$
 
 **Discrepancy with SIDC's stated value:** SIDC has previously stated $e^{-ky}$ ~ $10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is $6.2 \times 10^{-6}$, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
 
@@ -612,17 +612,17 @@ See `calculations/v27_5pct_to_27pct_amplification.py` for the full numerical ana
 
 A natural follow-up to §3.11: **if DM is from cumulative 2D universe deaths, shouldn't the DM/baryon ratio grow over time?** This section analyzes the question and identifies it as a *testable prediction* of SIDC.
 
-**3.12.1 The $$$F_p$$(z)$ framework.**
+**3.12.1 The $F_p(z)$ framework.**
 
-SIDC's §4.48 introduces a smooth function $$$F_p$$(z) = 0.9993 + 0.0007 \cdot z^2/(z_{half}^2 + z^2)$ (Hill n=2, $z_{half} = 3$, v2.7.52+ revision) that specifies the *fraction* of DM that is primordial (from 4D-event-created 2D universes) vs cumulative (from 3+1D-event-created 2D universes):
+SIDC's §4.48 introduces a smooth function $F_p(z) = 0.9993 + 0.0007 \cdot z^2/(z_{half}^2 + z^2)$ (Hill n=2, $z_{half} = 3$, v2.7.52+ revision) that specifies the *fraction* of DM that is primordial (from 4D-event-created 2D universes) vs cumulative (from 3+1D-event-created 2D universes):
 
-$$$$F_p$$(z) = primordial fraction of DM at redshift  z$$
-$$F_{cum}(z) = 1 - $$F_p$$(z) = \text{cumulative fraction}$$
+$$F_p(z) = primordial fraction of DM at redshift z$$
+$$F_{cum}(z) = 1 - F_p(z) = \text{cumulative fraction}$$
 
 Key values:
-- $$$F_p$$(z=0) = 0.7$ (70% primordial at z=0)
-- $$$F_p$$(z=\infty) = 1.0$ (100% primordial at high z)
-- $$$F_p$$(z=3) = 0.85$ (50% transition)
+- $F_p(z=0) = 0.7$ (70% primordial at z=0)
+- $F_p(z=\infty) = 1.0$ (100% primordial at high z)
+- $F_p(z=3) = 0.85$ (50% transition)
 
 **3.12.2 The DM/baryon ratio at different z.**
 
@@ -642,22 +642,22 @@ If SIDC's cumulative component of DM grows over time (which it should, by SIDC's
 
 **3.12.3 The honest answer: it's a mix.**
 
-SIDC's line 1897 says total DM is "approximately conserved," but the smooth $$$F_p$$(z)$ implies the *absolute* primordial DM contribution might be different at different z. The honest interpretation:
+SIDC's line 1897 says total DM is "approximately conserved," but the smooth $$F_p$(z)$ implies the *absolute* primordial DM contribution might be different at different z. The honest interpretation:
 
 1. **Total DM is approximately conserved** in comoving volume (line 1897)
 2. **Primordial 2D universe deaths continue to add to DM** at all z (these are slow deaths, ongoing throughout cosmic history)
 3. **Cumulative 2D universe deaths add to DM** at all z, but at a *declining* rate (SFR has decreased over cosmic time)
-4. **The ratio of primordial to cumulative changes with z** (captured by $$$F_p$$(z)$)
+4. **The ratio of primordial to cumulative changes with z** (captured by $$F_p$(z)$)
 5. **Total DM is the SUM of both components**, approximately conserved at 27%
 
-In this interpretation, the DM/baryon ratio is *approximately constant* (5.4x at all z), with small variations due to the ongoing primordial deaths and the growing cumulative deaths. SIDC's smooth $$$F_p$$(z)$ is the *composition* of DM at each z, not the absolute total.
+In this interpretation, the DM/baryon ratio is *approximately constant* (5.4x at all z), with small variations due to the ongoing primordial deaths and the growing cumulative deaths. SIDC's smooth $$F_p$(z)$ is the *composition* of DM at each z, not the absolute total.
 
 **3.12.4 The subtle test: does the DM/baryon ratio grow?**
 
 The user is right to ask: if the cumulative component of DM is *growing* over time (from 0% at $z=\infty$ to 30% of total at $z=0$), then in Scenario A (conserved total), the primordial component is *decreasing* over time (from 100% to 70%). This means **primordial 2D universe deaths have produced 70% of total DM by today, and will produce 100% of DM at some future time** (if the cumulative component stops growing).
 
 This is *testable* in principle:
-- **At high z**, DM should be 100% primordial (per $$$F_p$$(z=\infty) = 1.0$)
+- **At high z**, DM should be 100% primordial (per $F_p(z=\infty) = 1.0$)
 - **At low z**, DM should be 70% primordial + 30% cumulative
 - **The fraction of cumulative DM should grow with time**
 
@@ -665,11 +665,11 @@ Observational test: measure the *primordial vs cumulative composition* of DM at 
 
 **3.12.5 The CMB gap resolution.**
 
-SIDC's $$$F_p$$(z)$ also addresses the v2.4 "CMB gap" (L31):
-- v2.4 constant $$$F_p$$ = 0.7$ predicted only 70% of observed DM at $z=1100$ (30% gap)
-- v2.7.5+ smooth $$$F_p$$(z)$ (Hill n=2, $z_{half} = 3$) predicts 100% of observed DM at $z=1100$ (gap < 1%)
+SIDC's $F_p(z)$ also addresses the v2.4 "CMB gap" (L31):
+- v2.4 constant $F_p = 0.7$ predicted only 70% of observed DM at $z=1100$ (30% gap)
+- v2.7.5+ smooth $$F_p$(z)$ (Hill n=2, $z_{half} = 3$) predicts 100% of observed DM at $z=1100$ (gap < 1%)
 
-The smooth $$$F_p$$(z)$ says: at $z=1100$, DM is 100% primordial. The primordial 2D universe deaths that happen *before* $z=1100$ account for the observed 27% of DM at CMB. The remaining 30% of *cumulative* DM hasn't happened yet at $z=1100$ — it accumulates over cosmic history.
+The smooth $F_p(z)$ says: at $z=1100$, DM is 100% primordial. The primordial 2D universe deaths that happen *before* $z=1100$ account for the observed 27% of DM at CMB. The remaining 30% of *cumulative* DM hasn't happened yet at $z=1100$ — it accumulates over cosmic history.
 
 This is a *testable* framework:
 - **CMB ($\Omega_{DM} = 0.27$ at $z=1100$):** consistent with primordial deaths happening at the Big Bang
@@ -679,7 +679,7 @@ This is a *testable* framework:
 
 SIDC predicts:
 
-| Redshift | $$$F_p$$(z)$ | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
+| Redshift | $$F_p$(z)$ | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
 |----------|----------|---------------------|------------------------------|------------------------------|
 | 1100 (CMB) | 1.000 | 0.000 | 5.40 | 3.80 |
 | 6 | 0.946 | 0.054 | 5.40 | 4.06 |
@@ -703,7 +703,7 @@ The user is right to highlight this. SIDC makes a *subtle* testable prediction:
 
 **3.12.8 Honest summary.**
 
-The user is right: SIDC's cumulative component of DM *should grow* over time. SIDC's framework has this captured by $$$F_p$$(z)$, but the absolute total is a separate question (conserved or growing).
+The user is right: SIDC's cumulative component of DM *should grow* over time. SIDC's framework has this captured by $$F_p$(z)$, but the absolute total is a separate question (conserved or growing).
 
 - **SIDC's default:** total DM approximately conserved in comoving volume (Scenario A). DM/baryon ratio is constant at 5.4x.
 - **SIDC's alternative:** total DM grows as cumulative deaths accumulate (Scenario B). DM/baryon ratio grows from 3.8x to 5.4x.
@@ -712,7 +712,7 @@ SIDC is honest that this is a *subtle* testable prediction. The growth factor is
 
 **SIDC's status (v2.7.17+):**
 - The DM/baryon ratio is *approximately* constant in SIDC's default framework (Scenario A)
-- The cumulative fraction GROWS with time (captured by $$$F_p$$(z)$)
+- The cumulative fraction GROWS with time (captured by $$F_p$(z)$)
 - The total DM is approximately conserved (line 1897), but this is a *postulate*, not a derivation
 - SIDC is honest that the growth of cumulative DM is a *testable* prediction
 - Future JWST/Euclid observations of high-z galaxy DM content could distinguish Scenario A from B
@@ -720,416 +720,3 @@ SIDC is honest that this is a *subtle* testable prediction. The growth factor is
 See `calculations/v27_dm_baryon_growth.py` for the full numerical analysis.
 
 ---
-
-### 3.13 DM as decaying sterile neutrino: Pauli-blocked equilibrium (v2.7.18+)
-
-A user-supplied insight resolves the §3.12 ambiguity: **2D universe death returns energy to 3+1D as DM (a fermion, e.g., sterile neutrino), but DM decays into active neutrinos over time. The more DM is clustered, the slower the decay. DM is cumulative (more than baryons), but decays into neutrinos (so the ratio doesn't change).**
-
-This is a STABLE EQUILIBRIUM model that combines:
-- **Cumulative addition** (from 2D universe deaths)
-- **Slow decay** (DM → active ν + γ)
-- **Clustering-dependent suppression** (Pauli blocking in dense regions)
-
-**3.13.1 The equilibrium picture.**
-
-SIDC's DM obeys a simple differential equation:
-
-$$\frac{d\Omega_{DM}}{dt} = R_{add} - \Gamma \times \Omega_{DM}$
-
-where:
-- $R_{add}$ = cumulative DM addition rate from 2D universe deaths
-- Γ = DM decay rate (sterile neutrino → active ν + photon)
-
-At equilibrium, $d\Omega_{DM}/dt = 0$:
-
-$$\Omega_{DM}^{eq} = \frac{R_{add}}{\Gamma}$
-
-For the observed 27% DM:
-- $R_{add} = 0.27 / 13.8  Gyr$ ~ $6 \times $10^{-19}$ /s$
-- $\Gamma_{required}$ ~ $2.3 \times $10^{-18}$ /s$
-- $\tau_{DM} = 1/\Gamma$ ~ $14  Gyr$ (slightly longer than universe's age)
-
-**The equilibrium is APPROACHING but not fully reached.** SIDC is currently at ~50% of equilibrium DM (since 13.8 Gyr is close to τ). The DM/baryon ratio is approximately constant at 5.4x because addition and decay are nearly balanced.
-
-**3.13.2 The user's insight: clustering-dependent decay.**
-
-The user's key claim: **the more DM clustered, the slower the decay.** This is naturally explained by **Pauli blocking**:
-
-- If DM is a **fermion** (e.g., sterile neutrino), it obeys the Pauli exclusion principle
-- In dense regions, all momentum states up to the Fermi momentum $p_F$ are filled
-- Decay produces a final-state fermion in a specific momentum state
-- If that state is already occupied, decay is **suppressed**
-- In sparse regions, the state is empty, decay is **allowed**
-
-For a typical DM halo ($\rho_{DM}$ ~ $0.3$ GeV/${\rm cm}^3$, $m_{DM}$ ~ $1$ GeV):
-- Number density: $n_{DM}$ ~ $0.3 / cm^3$
-- Fermi momentum: $p_F$ ~ $280$ MeV
-- Decay products (sterile ν → active ν + γ) have $E$ ~ $m_{DM}/2 \sim 500$ MeV
-- If $E > p_F$ (likely for GeV-scale DM), decay is allowed
-- If $E < p_F$ (likely for keV-scale DM), decay is suppressed
-
-**3.13.3 Why this explains observational features.**
-
-The Pauli-blocked decay model explains several observed features:
-
-1. **DM is stable on cosmological timescales** in halos (suppressed by Pauli blocking). This is consistent with DM being a long-lived particle.
-
-2. **DM decays in low-density regions** (cosmic web, intergalactic space). The decay products (active neutrinos, photons) are produced at the edges of halos, not in the centers.
-
-3. **The DM/baryon ratio is constant at 5.4x** because:
-   - Cumulative addition increases DM (from 2D universe deaths)
-   - Pauli-blocked decay in halos keeps DM stable
-   - Decay in low-density regions removes DM slowly
-   - The two effects approximately balance
-
-4. **The 27% DM is at near-equilibrium** because $\tau_{DM}$ ~ $14$ Gyr is close to the universe's age (13.8 Gyr).
-
-5. **Spatial variation in DM/baryon ratio:** in DM halos, ratio is higher (decay suppressed); in cosmic web, ratio is lower (decay allowed). This is a *testable* prediction.
-
-**3.13.4 The sterile neutrino as DM candidate.**
-
-The Pauli-blocked decay model works if DM is a **fermion**, with sterile neutrino being the most natural candidate:
-
-- **Mass:** $m_s$ ~ $1$ GeV (from equilibrium decay rate calculation)
-- **Decay mode:** $\nu_s \to \nu_a + \gamma$ (standard sterile neutrino decay)
-- **Decay rate:** $\Gamma \sim G_F^2 m_s^5 \sin^2(2\theta) / (192 \pi^3)$
-- **X-ray/gamma-ray signature:** $E_\gamma = m_s/2 \sim 500$ MeV (for 1 GeV sterile)
-- **Current constraints:** $m_s > 4$ keV from dwarf galaxy X-ray non-detection
-
-**Alternative candidates:** any fermionic DM (WIMP, neutralino, etc.) with appropriate decay rate and Pauli-blocking physics.
-
-**3.13.5 Testable predictions.**
-
-This Pauli-blocked equilibrium model makes several testable predictions:
-
-1. **X-ray/gamma-ray line at $E_\gamma = m_s/2$** from accumulated DM decay in low-density regions. Detectable by:
-   - **XMM-Newton, Chandra, eROSITA** (keV X-rays for $m_s \sim$ keV)
-   - **Fermi-LAT, HESS, CTA** (MeV-GeV gamma rays for $m_s \sim$ MeV-GeV)
-   - **Current non-detection** constrains $m_s > 4$ keV (sterile neutrino lower bound)
-
-2. **Spatial variation of DM/baryon ratio:**
-   - **In DM halos:** ratio is *higher* than field average (Pauli blocking)
-   - **In cosmic web:** ratio is *lower* than field average (decay allowed)
-   - **Quantitative prediction:** in dwarf galaxy centers (ρ ~ $1$ GeV/${\rm cm}^3$), decay suppression factor ~ $10^{-3}$ (relative to sparse regions)
-
-3. **Relic active neutrino background:**
-   - From accumulated DM decay over cosmic history
-   - Energy: $E_\nu \sim m_s/2$ (sterile neutrino mass half)
-   - Number density: $n_\nu \sim \Omega_{DM} \rho_{crit} / m_s \sim $10^{-6}$ / \text{cm}^3$ (for 1 GeV)
-   - Much less than standard relic neutrinos (336/${\rm cm}^3$), but at higher energy
-
-4. **Time evolution of DM/baryon ratio:**
-   - At early times: ratio is lower (less cumulative DM, no decay yet)
-   - At late times: ratio approaches equilibrium 5.4x
-   - At future times: ratio stabilizes at 5.4x (or slightly higher if $R_{add}$ continues)
-   - SIDC predicts: at $z=0$, ratio is ~ $90\%$ of equilibrium value
-
-5. **Cosmic structure formation:**
-   - Pauli-blocked DM in halos behaves like CDM (cold, stable)
-   - DM decaying in low-density regions provides active neutrinos that don't cluster
-   - Predicted: $\sigma_8$ and $S_8$ consistent with ΛCDM (small effect)
-
-**3.13.6 Why this is consistent with §3.12.**
-
-The §3.12 question (does DM/baryon grow over time?) is resolved by the decay equilibrium:
-- **Without decay:** DM grows cumulatively, ratio grows over time (Scenario B)
-- **With Pauli-blocked decay:** equilibrium reached, ratio is constant (Scenario A)
-- **SIDC's framework:** total DM is approximately conserved (line 1897) because addition and decay approximately balance
-
-SIDC's claim that "total DM is approximately conserved in comoving volume" is now **derived** from the equilibrium between addition and decay, not just postulated.
-
-**3.13.7 Why this is consistent with §3.11.**
-
-The §3.11 question (how can 5% baryons create 27% DM?) is also clarified:
-- 5% baryons create 2D universes
-- 2D universe deaths return energy as DM (sterile neutrino)
-- The cumulative DM exceeds baryons because 2D universe deaths are amplified (per-event factor ~67x, §3.11)
-- The DM decays slowly, but the decay is suppressed in halos (Pauli blocking)
-- Net result: 27% DM at equilibrium
-
-**3.13.8 Connection to other SIDC features.**
-
-This Pauli-blocked equilibrium model connects to:
-
-- **§2.5.4 Deaths-only DM** (v2.7.11+): the cumulative DM is from 2D universe deaths. The decay happens after death, so the 2D universe's death return is the *first* appearance of DM (sterile neutrino).
-
-- **§4.48 Smooth $$$F_p$$(z)$ DM Design** (v2.7.8+): the smooth $$$F_p$$(z)$ describes the fraction of DM that is primordial vs cumulative. The decay is independent of this fraction.
-
-- **§3.10 4D's own DM/DE budget**: if 4D has its own universe creation, 4D's "DM" (sterile neutrinos from 4D universe deaths) would also decay via the same mechanism, suppressed in 4D's "halos" (whatever that means in 4D).
-
-- **§3.9 Inversion mechanisms**: the sterile neutrino is consistent with all 3 inversion mechanisms (Israel negative brane tension, DGP self-accel, KKLT anti-D3). The DM is the projected result of 2D universe deaths, and decays via standard sterile neutrino physics.
-
-**3.13.9 Honest summary.**
-
-The user's insight is a major conceptual advance for SIDC. It provides:
-
-1. **A specific form for 2D universe death return:** sterile neutrino (or other fermion DM)
-2. **A physical mechanism for DM stability:** Pauli blocking in dense regions
-3. **A natural explanation for constant DM/baryon ratio:** addition-decay equilibrium
-4. **Testable predictions:** X-ray/gamma-ray line, spatial variation, relic neutrinos
-5. **A connection to standard DM physics:** sterile neutrino is a well-motivated DM candidate
-
-**SIDC's status (v2.7.18+):**
-- 2D universe death return is specified as sterile neutrino (or fermion DM)
-- DM decays slowly via $\nu_s \to \nu_a + \gamma$
-- Decay is suppressed in halos by Pauli blocking
-- DM/baryon ratio is constant at 5.4x (equilibrium)
-- "Approximately conserved" total DM is now DERIVED, not postulated
-- This is a major advancement from the v2.7.17 status (postulated)
-
-**Limitations remaining:**
-- L9 (2D universe physics) is partially addressed (the decay return is specified, but the 2D universe's internal dynamics are not)
-- L34 ($E_{\rm primordial}$ UNSPECIFIED) is still open
-- The sterile neutrino mass $m_s$ is not derived from first principles (consistent with SIDC's overall phenomenological approach)
-- The Pauli blocking mechanism is postulated (not derived from a specific 2D universe Lagrangian)
-
-**Falsifiability:** if a future observation detects the X-ray/gamma-ray line at the predicted energy, SIDC is validated. If the line is at a different energy, the sterile neutrino mass is wrong. If no line is detected in 10+ years, SIDC's sterile neutrino hypothesis is in trouble (but Pauli-blocked decay could still be consistent with other DM models).
-
-See `calculations/v27_dm_neutrino_decay.py` for the full numerical analysis.
-
----
-
-### 3.14 Honest re-examination: does the sterile neutrino decay work? (v2.7.19+)
-
-A user-supplied correction (§3.13 mechanism has issues): **"does the neutrino decay make sense? are there areas with DM and no neutrinos?"**
-
-This section is a *self-critical re-examination* of §3.13, identifying two real issues with SIDC's sterile neutrino decay hypothesis and discussing alternative mechanisms.
-
-**3.14.1 Issue 1: Pauli blocking is INEFFECTIVE for typical DM masses.**
-
-The §3.13 mechanism relied on Pauli blocking to suppress DM decay in dense regions. The mechanism:
-- DM is a fermion (e.g., sterile neutrino) with mass $m_s$
-- In dense regions, the Fermi sea is filled up to Fermi momentum $p_F$
-- Decay produces a final-state fermion with energy $E_{decay} = $m_s$/2$
-- If $E_{decay} < p_F$, decay is suppressed (Pauli blocking)
-
-For a typical DM halo ($\rho_{DM}$ ~ $0.3$ GeV/${\rm cm}^3$, $m_s$ ~ $1$ GeV):
-- Number density: $n_{DM}$ ~ $0.3 / cm^3$
-- Fermi momentum: $p_F$ ~ $5 \times $10^{-13}$$ eV (calculated)
-- Decay product energy: $E_{decay} = $m_s$/2$ ~ $500$ MeV
-- **Ratio: $E_{decay} / $p_F$ $ ~ $10^{21}$**
-
-The decay product energy is **21 orders of magnitude larger** than the Fermi momentum. Pauli blocking is completely ineffective for typical DM masses. The §3.13 "more clustered = slower decay via Pauli blocking" mechanism **does not work**.
-
-**3.14.2 Issue 2: Active neutrino flux prediction is too high.**
-
-If SIDC's DM is sterile neutrino ($m_s = 1$ GeV) and decays via $\nu_s \to \nu_a + \gamma$:
-- Number density of active neutrinos: $n_\nu$ ~ $1.4 \times $10^{-6}$ / cm^3$
-- Active neutrino flux at Earth: ~ $3 \times $10^{3}$$ cm$^{-2}$ s$^{-1}$ sr$^{-1}$
-- Current Super-K limit at 500 MeV: ~ $10^{-4}$ cm$^{-2}$ s$^{-1}$ sr$^{-1}$
-
-**TENSION: SIDC overpredicts by a factor of ~ $10^7$.**
-
-This is a real problem. SIDC's sterile neutrino decay model is inconsistent with current neutrino observations.
-
-**3.14.3 Issue 3: Sterile neutrino with $m_s$ ~ $1$ GeV is heavily constrained.**
-
-SIDC's required decay rate Γ ~ $2.3 \times $10^{-18}$$ /s for $m_s = 1$ GeV requires a large mixing angle $\sin^2(2\theta)$ ~ $10^{-4}$. Sterile neutrinos at this mass face strong observational constraints:
-- Beam dump experiments (CHARM, NA62)
-- BBN $N_{eff}$
-- Direct production at LHC
-- Inferred from meson decays
-
-A 1 GeV sterile neutrino with $\sin^2(2\theta)$ ~ $10^{-4}$ is **not ruled out by current data**, but the parameter space is squeezed.
-
-**3.14.4 Alternative mechanisms: SIDC is honest about options.**
-
-The user is right to push on this. SIDC's framework allows for multiple DM hypotheses:
-
-**Option A: Stable WIMP (no decay).**
-- DM is a stable particle (WIMP, neutralino, etc.)
-- "Cumulative" because added, not because decaying slowly
-- "DM and no neutrinos" by construction (no decay)
-- Consistent with observations
-- Most well-motivated DM candidate
-
-**Option B: Axion or axion-like particle (no decay).**
-- Stable, ultralight ($10^{-22}$ to $10^{-5}$ eV)
-- "DM and no neutrinos" by construction
-- Consistent with observations
-
-**Option C: Primordial black hole DM (no decay for $M > $10^{15}$$ g).**
-- Stable on cosmological timescales
-- "DM and no neutrinos" by construction
-- Possible, but constrained by various observations
-
-**Option D: Geometric DM (no particle at all).**
-- SIDC's framework is *geometric*, not particle-physics
-- "DM" is the cumulative gravitational effect of 2D universe deaths
-- No particle, no decay, no neutrino
-- "More clustered = slower decay" is not needed
-- SIDC's *default* framework
-
-**3.14.5 SIDC's honest claim.**
-
-SIDC's framework (§2, §3) is **geometric**: the "DM" is the cumulative gravitational signature of 2D universe deaths, not a specific particle. The 2D universe's death return is *unspecified* (L9: "2D universe physics — A specific 2D Lagrangian"). SIDC does not commit to a specific DM particle.
-
-The user's §3.13 hypothesis (sterile neutrino with Pauli-blocked decay) is one possible particle interpretation, but the specific mechanism has issues:
-- Pauli blocking is INEFFECTIVE for typical DM masses
-- Active neutrino flux prediction is too high
-- Sterile neutrino at $m_s$ ~ $1$ GeV is heavily constrained
-
-**3.14.6 What SIDC's framework does claim:**
-
-1. **2D universe deaths contribute to DM** (cumulative gravitational effect) — *robust*
-2. **DM/baryon ratio is 5.4x** (cumulative addition) — *robust* (per §3.11)
-3. **DM is approximately stable on cosmological timescales** — *postulated* (consistent with most DM models)
-4. **The specific form of DM (particle, geometric, other) is UNSPECIFIED** — *open* (L9)
-5. **"More clustered = slower decay" via Pauli blocking** — **WRONG** (per §3.14.1-2)
-
-**3.14.7 What SIDC's framework does NOT claim:**
-
-- That DM is a sterile neutrino (one option, not committed)
-- That DM decays into active neutrinos (issues identified)
-- That Pauli blocking is the mechanism (INEFFECTIVE)
-- That 2D universe deaths produce standard model particles (form unspecified)
-
-**3.14.8 Resolving the user's insight.**
-
-The user's intuition is *conceptually right*:
-- "DM is cumulative" **[PASS]** (consistent with SIDC)
-- "DM decays into neutrinos" — *partially right* (DM could be a decaying particle, but the specific mechanism is wrong)
-- "More clustered = slower decay" — *partially right* (could be true via some other mechanism, but Pauli blocking doesn't work)
-
-SIDC's framework can accommodate the user's insight via:
-- A stable DM particle (no decay, but "cumulative" from 2D universe deaths)
-- An unstable DM particle with non-Pauli clustering-dependence (e.g., self-interaction, threshold effects)
-- A geometric DM (no particle, SIDC's default)
-
-**3.14.9 Honest verdict.**
-
-SIDC's §3.13 (sterile neutrino + Pauli-blocked decay) is **partially wrong**:
-- The Pauli blocking mechanism doesn't work
-- The neutrino flux prediction is too high
-- The sterile neutrino mass is heavily constrained
-
-SIDC is honest: this section identifies the issues and discusses alternative mechanisms. SIDC's *core framework* (geometric DM from 2D universe deaths) is robust, but the *specific particle interpretation* in §3.13 is not.
-
-**SIDC's status (v2.7.19+):**
-- §3.13 is REVISED: sterile neutrino + Pauli blocking is wrong
-- SIDC's framework allows for multiple DM hypotheses
-- SIDC is committed to "geometric DM" as the default
-- Particle interpretations (WIMP, axion, sterile neutrino) are all consistent with the framework
-- L9 (2D universe physics) remains open — the form of DM at 2D universe death is unspecified
-- Future work: derive the specific form of DM from 2D universe dynamics
-
-**Falsifiability:**
-- If a future observation detects an anomalous neutrino flux at MeV-GeV energies, SIDC's "stable DM" hypothesis is wrong
-- If a future observation detects an X-ray line at $E_\gamma = m_s/2$, SIDC's "sterile neutrino" hypothesis is right
-- If SIDC's geometric framework is right, no specific particle detection is expected (the DM is a geometric effect)
-
-See `calculations/v27_cascade_dm_self_critique.py` for the full numerical analysis.
-
----
-
-### 3.15 DISCARDING §3.13: Pauli blocking is double-broken (v2.7.20+)
-
-A literature search (2024-2025) reveals that the §3.13 mechanism is **double-broken** and should be **discarded**.
-
-**3.15.1 Recent literature on Pauli blocking and DM stability.**
-
-Several 2024 papers study Pauli blocking as a DM stability mechanism:
-
-- **Batell & Yin (arXiv:2406.17028, PRD 110, 075038):** "Cosmic Stability of Dark Matter from Pauli Blocking." Shows that scalar DM can be stable against decay via Pauli blocking, **provided it is lighter than about 10 meV**.
-
-- **Cho, Choi, Joh, Seto (arXiv:2407.08229, v2 Jun 2025):** "Stable dark matter from Pauli blocking in the degenerate fermion background with Quantum Field Theory." Generalizes the mechanism to a QFT treatment, applies to neutrino DM. **Same mass bound: sub-eV DM only.**
-
-- **Earlier work (2010 PhRvD):** "Dark matter decaying into a Fermi sea of neutrinos." Shows that Pauli blocking controls DM decay into a neutrino Fermi sea.
-
-**Key finding:** Pauli blocking CAN stabilize DM, **but only for sub-eV masses** (specifically $m_{DM} < 10$ meV per Batell & Yin 2024).
-
-**3.15.2 SIDC's mass problem.**
-
-SIDC's §3.13 mechanism required $m_s$ ~ $1$ GeV (from the equilibrium decay rate calculation). This is **$10^5$ times heavier** than the Batell-Yin bound:
-
-$$\frac{m_s^{SIDC}}{m_{DM}^{Batell-Yin}} = \frac{1 \text{ GeV}}{10 \text{ meV}} = 10^{5}$$
-
-SIDC's sterile neutrino is **way too heavy** for Pauli blocking to work.
-
-**3.15.3 Failure mode 1: GeV-scale DM has no Pauli blocking.**
-
-For $m_s = 1$ GeV sterile neutrino in a typical DM halo ($\rho_{DM}$ ~ $0.3$ GeV/${\rm cm}^3$):
-- Number density: $n_{DM}$ ~ $0.3 / cm^3$
-- Fermi momentum: $p_F$ ~ $5 \times 10^{-13}$ eV
-- Decay product energy: $E_{decay} = $m_s$/2$ ~ $500$ MeV
-- **Ratio: $E_{decay} / $p_F$ $ ~ $10^{21}$**
-
-Pauli blocking is completely ineffective for GeV-scale DM. The decay product energy is 21 orders of magnitude larger than the Fermi momentum.
-
-**3.15.4 Failure mode 2: Sub-eV DM is HDM, not CDM.**
-
-For Pauli blocking to actually work, DM must be sub-eV (m < 10 meV). But sub-eV DM is **hot dark matter (HDM)**, not cold dark matter (CDM). HDM:
-- Particles move relativistically
-- Free-stream out of small-scale structure
-- Cannot form dwarf galaxies, subhalos, or the Lyman-alpha forest
-- Conflicts with observations of small-scale structure
-
-SIDC's framework requires CDM-like behavior (slow particles, structure formation at all scales). Sub-eV DM fails this requirement.
-
-**3.15.5 The 3.5 keV sterile neutrino signal has weakened.**
-
-A specific test: the 3.5 keV X-ray line, which was proposed in 2014 (Bulbul et al., Boyarsky et al.) as evidence for $m_s = 7$ keV sterile neutrino DM:
-- **2014:** Initial detection in galaxy clusters (Chandra, XMM-Newton)
-- **2024 reanalysis:** Signal has weakened in updated analysis (Simons Foundation, August 2024)
-- **Current:** Minimal sterile neutrino DM at keV is heavily constrained by X-ray non-detection
-- **νSMEFT extensions** (arXiv:2405.00119) can evade X-ray constraints, but require new physics (higher-dimensional operators)
-
-**SIDC's required $m_s = 1$ GeV is beyond the standard sterile neutrino regime** and faces strong constraints from beam dump (CHARM, NA62), BBN $N_{eff}$, and LHC direct production.
-
-**3.15.6 Alternative stable DM at GeV scale: discrete symmetries.**
-
-GeV-scale DM **can** be stable, but requires different mechanisms:
-
-- **WIMP:** Z₂ symmetry (R-parity in SUSY, KK parity in extra dimensions)
-- **Neutralino:** SUSY R-parity
-- **Sterile neutrino:** approximatelyimate lepton number conservation
-- **Stable scalar:** Z₂ or Z₃ symmetry
-
-These are well-motivated and consistent with observations. But they don't provide the "more clustered = slower decay" mechanism the §3.13 hypothesis wanted.
-
-**3.15.7 Honest verdict: §3.13 should be DISCARDED.**
-
-The §3.13 mechanism is **double-broken**:
-
-| Failure mode | Problem | Verdict |
-|--------------|---------|---------|
-| GeV DM (SIDC's required mass) | Pauli blocking INEFFECTIVE ($E_{decay}/$p_F$ $ ~ $10^{21}$) | MECHANISM FAILS |
-| Sub-eV DM (where Pauli blocking works) | HDM, not CDM (no small-scale structure) | DM IS WRONG TYPE |
-| Sterile neutrino specifically | X-ray constraints (3.5 keV line weakened in 2024) | DM CANDIDATE SQUEEZED |
-
-**SIDC's honest commitment:**
-
-1. **§3.13 is DISCARDED.** The Pauli-blocked sterile neutrino mechanism is not viable.
-2. **SIDC's framework remains:** 2D universe deaths contribute to DM (cumulative gravitational effect). DM is approximately stable on cosmological timescales.
-3. **DM is GEOMETRIC by default** (Option D in §3.14): the "DM" is the cumulative gravitational signature of 2D universe deaths, not a specific particle. No particle, no decay, no neutrino. "More clustered = slower decay" is not needed.
-4. **Particle interpretations remain possible** (WIMP, axion, stable scalar), but stability must come from discrete symmetries, not Pauli blocking.
-5. **L9 (2D universe physics) remains open** — the form of the energy return at 2D universe death is unspecified.
-
-**3.15.8 What this means for SIDC's other sections.**
-
-- **§3.13 (v2.7.18):** DISCARDED. The specific mechanism (sterile neutrino + Pauli blocking) doesn't work.
-- **§3.14 (v2.7.19):** STANDS. The 4 alternative hypotheses (WIMP, axion, PBH, geometric) are still valid. SIDC is committed to "geometric DM" as the default.
-- **§3.11 (v2.7.16):** STANDS. The 5% → 27% amplification analysis is independent of the specific DM form.
-- **§3.12 (v2.7.17):** STANDS. The DM/baryon ratio growth question is independent of Pauli blocking.
-
-**3.15.9 Falsifiability and future work.**
-
-SIDC's geometric DM framework is **not falsifiable by particle detection** — the DM is a geometric effect, not a particle. This is both a strength (no need to detect a specific particle) and a weakness (no specific particle to look for).
-
-Future work to make SIDC more concrete:
-- **Derive the 2D universe's death return form** from a specific 2D Lagrangian (closes L9)
-- **Specify the geometric mechanism** that gives 27% DM (currently phenomenological)
-- **Test the geometric framework** against observations of DM clustering, lensing, and dynamics
-
-**SIDC's status (v2.7.20+):**
-- §3.13 mechanism DISCARDED
-- SIDC framework ROBUST (geometric DM from 2D universe deaths)
-- 4 alternative particle hypotheses remain possible (WIMP, axion, PBH, geometric)
-- L9 remains open — the form of DM is UNSPECIFIED
-- Honest about the §3.13 mechanism being wrong
-
-See `calculations/v27_discarding_pauli_blocking.py` for the full numerical analysis and literature references.
-
----
-
-### 3.16 Meta: User-prompted self-critique as a method (v2.7.23+)
