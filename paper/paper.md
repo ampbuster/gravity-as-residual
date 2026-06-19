@@ -7942,6 +7942,31 @@ The "2 ×" is suspicious — it reverses the 1/2 to get back M_Pl,2D. A genuine 
 - Future work: find clean structural reason for μ = (2 × E_1st)² or some other form
 Source: `calculations/v35_why_factor_2.py`.
 
+**L308 NEW INTERPRETATION (v3.5.3)**: Tested 45 alternative formulas for μ. 12 give exact match but ALL are algebraically equivalent (reduce to μ = M_Pl,2D² using E_1st = M_Pl,2D/2). HOWEVER, one has a NEW STRUCTURAL interpretation:
+
+**Formula I: T = M_Pl,2D/(2π) → μ = (2π T)² = M_Pl,2D²**
+
+This says: if the 2D universe's BH has T_H = M_Pl,2D/(2π), then μ = M_Pl,2D².
+T_H = M_Pl,2D/(2π) is the MAXIMAL Hawking temperature in AdS_2 (= AdS curvature).
+This is the **"Planckian Hawking temperature"** — the boundary between BH and stable state.
+
+INTERPRETATION: μ = M_Pl,2D² corresponds to a "Planckian 2D universe" where the BH is at maximum T_H. This is the Hawking-Page transition temperature.
+
+Status: STRUCTURAL INTERPRETATION (not derivation). It still uses M_Pl,2D as input. But it provides a new physical reading of why μ = M_Pl,2D² (instead of μ = b² × M_Pl,2D² or other variants).
+
+**Other 11 exact matches are algebraic rearrangements**:
+- A (factor=2): μ = E_1st × M_Pl,2D × 2 = 2 E_1st M_Pl,2D
+- B (factor=4): μ = 4 × E_1st² = (2 E_1st)²
+- C (factor=2): μ = (2 E_1st)²
+- D, E, F (factor=9/4 or sum): μ = (E_1st + M_Pl,2D/2)²
+- G (b²=1): μ = 1 × M_Pl,2D² (requires changing CFT choice)
+- H (h=1/2): same as (2 E_1st)²
+- I (T = E_1st/π): μ = (2π × E_1st/π)² = (2 E_1st)²
+- J: E_BPS = M_Pl,2D or 2 E_1st
+
+None of these is a TRUE derivation. All reduce to μ = M_Pl,2D² (framework's choice).
+Source: `calculations/v35_other_formulas.py`.
+
 ---
 
 **v3.5 status**: 11 new attempts at μ first-principles, 5 new limitations (L304-L308).
