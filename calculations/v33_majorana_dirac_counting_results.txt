@@ -1,0 +1,144 @@
+================================================================================
+v3.3 MAJORANA/DIRAC FERMION COUNTING
+================================================================================
+
+FERMION COUNTING BASICS
+============================================================
+
+Majorana: 2 DOF, particle = antiparticle
+Weyl: 2 DOF, one chirality
+Dirac: 4 DOF, both chiralities = 2 Weyl
+
+Conversions:
+  1 Dirac = 2 Weyl = 2 Majorana
+  1 Majorana = 1/2 Dirac = 1 Weyl DOF
+
+2D UNIVERSE (N=12 SYK)
+============================================================
+  Framework: N = 12 Majorana fermions
+  In Dirac: 12/2 = 6 Dirac
+  In Weyl:  12 Weyl DOF
+
+3D WORLD (Standard Model)
+============================================================
+  SM: 12 Dirac fermions per generation
+  In Majorana: 24 Majorana-equivalent
+  In Weyl: 24 Weyl
+
+============================================================
+COMPARISON (in DIRAC units)
+============================================================
+
+  2D: 6 Dirac  (12 Majorana)
+  3D: 12 Dirac   (12 Dirac)
+  Ratio: 3D/2D = 2.0
+
+The 2D universe has 1/2 the Dirac fermions of the 3D SM.
+
+============================================================
+THE '12' PATTERN: REVISED
+============================================================
+
+Framework claim (README):
+  'N=12 matches SM fermion count'
+
+But careful:
+  - 2D: 12 Majorana (= 6 Dirac)
+  - 3D: 12 Dirac (≠ 12 Majorana)
+
+If we count in Majorana-equivalent:
+  2D: 12 Majorana
+  3D: 24 Majorana-equivalent (12 Dirac × 2)
+
+If we count in Dirac:
+  2D: 6 Dirac
+  3D: 12 Dirac
+
+The '12' in 2D and 3D are DIFFERENT kinds of 12!
+
+============================================================
+POSSIBLE STRUCTURAL PATTERNS
+============================================================
+
+Pattern 1: 12 is universal (in Majorana units)
+  - 2D: 12 Majorana
+  - 3D: 12 Majorana (if neutrinos are Majorana)
+  - But SM typically has 12 Dirac, not 12 Majorana
+
+Pattern 2: Factor of 2 per level (in Dirac units)
+  - 2D: 6 Dirac
+  - 3D: 12 Dirac
+  - 4D: 24 Dirac? (or 6?)
+
+Pattern 3: 12 is coincidence (different at each level)
+  - 2D: 12 Majorana (calibrated)
+  - 3D: 12 Dirac (SM count)
+  - 4D: 12 in many ways (F-theory dim, E6, etc.)
+  - No fundamental connection
+
+============================================================
+WHAT IF NEUTRINOS ARE MAJORANA?
+============================================================
+
+If SM neutrinos are Majorana:
+  - 6 quarks Dirac (12 Weyl)
+  - 3 charged leptons Dirac (6 Weyl)
+  - 3 neutrinos Majorana (3 Weyl DOF)
+  - Total: 9 Dirac + 3 Majorana = 21 Weyl
+
+Then SM has:
+  - 21 Weyl
+  - 9 Dirac + 3 Majorana
+  - Not exactly '12 Dirac'
+
+If neutrinos are Dirac:
+  - 6 quarks Dirac (12 Weyl)
+  - 6 leptons Dirac (12 Weyl)
+  - Total: 12 Dirac (24 Weyl)
+
+Standard count: 12 Dirac per generation (assumes Dirac ν)
+
+============================================================
+REVISED α FORMULA (per user's catch)
+============================================================
+
+Framework's α = 1 + 1/√N for 2D universe:
+  N=12 Majorana: α = 1 + 1/√12 = 1.289
+
+If we use 6 Dirac instead:
+  α = 1 + 1/√6 = 1.408
+
+If we use 12 Weyl DOF:
+  α = 1 + 1/√12 = 1.289 (same as Majorana)
+
+So α = 1.289 holds whether we count Majorana or Weyl.
+But NOT if we count Dirac (gives 1.408).
+
+============================================================
+CONCLUSION
+============================================================
+
+User is RIGHT: 12 Majorana = 6 Dirac
+
+Implications:
+  1. The '12' at 2D and 3D are different kinds of 12
+  2. 2D: 12 Majorana = 6 Dirac
+  3. 3D: 12 Dirac (not 12 Majorana)
+  4. Factor of 2 between levels (in Dirac count)
+
+Updated pattern:
+  2D: 12 Majorana (N=12 SYK)
+  3D: 12 Dirac (SM)
+  4D: 12 in many ways (F-theory, E6, etc.)
+
+The '12' might be:
+  - Same number but different 'kind' at each level
+  - Or factor of 2 scaling per level
+  - Or coincidence
+
+Honest verdict:
+  - Majorana/Dirac distinction matters
+  - Framework glossed over this
+  - 12 Majorana (2D) ≠ 12 Dirac (3D)
+  - 12 might be a structural pattern with care
+  - Status: needs revision
