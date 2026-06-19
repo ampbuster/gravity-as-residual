@@ -530,3 +530,29 @@ The framework notes the "12" pattern as a curiosity but does not derive it. Stat
 
 **v3.4 status**: F-theory 12D adopted, 12 new limitations (L283-L297) for the "12" pattern honest reframe and meta-analysis.
 **Total limitations**: 92 (was 81 in v3.3, +L283-L292 for v3.4.6 honest reframe, +L293-L297 for v3.4.7 meta)
+
+## 7.4 v3.5 Tier 2 Limitations: CY3 Z_12, α first-principles, μ F-theory (NEW)
+
+L298. **Of ~28 CY3 with χ=±6, only 2-3 have explicit Z_12 fundamental groups** (v3.5, #4). The framework's choice of F-theory 12D with Z_12 specifically is OPTIONAL, not necessary. arXiv:0910.5464 (BCD 2009) is the most explicit example, but Z_12 is RARE in standard CY3 references. Most χ=±6 CY3 have abelian π_1 (Z_2, Z_3, Z_4, etc.) or trivial π_1. The "12" in F-theory 12D is structural (10+2 = 12) but the explicit Z_12 quotient in (1,4) CY3 is a specific (not generic) construction. Source: `calculations/v35_tier2_research_depth.py`.
+
+L299. **α = 1 + 1/√N has a PHYSICAL INTERPRETATION: "leading order + finite-N correction"** (v3.5, #5). The cleanest physical reason for α = 1.289 is: α = 1 (leading order, possibly from holographic/Schwarzian limit) + 1/√12 (N=12 finite-N correction). This is structurally motivated but is still a STRUCTURAL MATCH, not a derivation. The "1" in α = 1 + 1/√N is not derived from any specific 2D CFT structure. Status: PHYSICAL INTERPRETATION, not derivation. Source: `calculations/v35_tier2_research_depth.py`.
+
+L300. **α = 1 + ln(q²/N) for q=4 SYK is a curve-fit, NOT a derivation** (v3.5, #5). No known physical reason for the ln form. The q=4 SYK connection is suggestive but the ln structure has no underlying 2D CFT justification. This is a numerical coincidence, not a structural match. Status: CURVE-FIT. Source: `calculations/v35_tier2_research_depth.py`.
+
+L301. **CFT structures (Schwarzian, DOZZ, JT gravity, Liouville c=1) do not directly yield α = 1.289** (v3.5, #5). Tested:
+- α = 1 + 1/(2h) for various h: gives 1.5 to 13, none = 1.289
+- α = 1 + 1/√d for various DOZZ charges d = 2b²: gives 1.5 to 3.2, none = 1.289
+- Schwarzian alone gives α = 1/2 (WRONG)
+- JT gravity doesn't give α directly
+- Liouville c=1 DOZZ has b² = 1/2 specifically
+
+NO 2D CFT structure gives α = 1.289 naturally. The "1 + 1/√N" formula is the CLEANEST match but is still a structural interpretation. Source: `calculations/v35_tier2_research_depth.py`.
+
+L302. **F-theory compactification does not immediately give μ = 9×10⁶ GeV²** (v3.5, #6). F-theory estimates μ ∝ M_Pl,4D²/Vol_6(CY3), which gives different values depending on CY3 specifics. With M_Pl,4D = 4×10²³ GeV and typical Vol_6, μ ~ 10⁴⁰-10⁴¹ GeV², which is ~10³⁴× off from framework's μ = 9×10⁶ GeV². v3.4 F-theory adoption does NOT immediately close L26. Source: `calculations/v35_tier2_research_depth.py`.
+
+L303. **NEW ANGLE for μ: μ might be the AdS_2 radius of the 2D universe** (v3.5, #6, SPECULATIVE). The 2D universe is asymptotically AdS_2 (with cosmological constant Λ = -μ). The AdS_2 curvature scale IS μ. From F-theory: μ might come from compactification of 4D bulk geometry. This is physically motivated but speculative. Not yet derived. Source: `calculations/v35_tier2_research_depth.py`.
+
+---
+
+**v3.5 status**: Tier 2 research completed, 6 new limitations (L298-L303) for CY3 Z_12, α first-principles, μ F-theory.
+**Total limitations**: 98 (was 92 in v3.4.8, +L298-L303 for v3.5 Tier 2)
