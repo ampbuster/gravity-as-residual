@@ -602,7 +602,7 @@ Source: `calculations/v35_why_factor_2.py`.
 
 **(3) Planckian Maximum (STRONG)**: $T_H$ = $T_{\rm Pl,2D}$ is the MAXIMUM stable BH temperature. Above this, BH evaporates instantly. $T_H$ = $T_{\rm Pl,2D}$ is the "edge of existence" for 2D BH. Robust physical constraint.
 
-**(5) Euclidean Periodicity (CLEANEST MATH)**: β = 2π × L_AdS_2 is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). $T_H$ = 1/β = $M_{\rm Pl,2D}$/(2π) is FORCED by the geometry. No free parameter.
+**(5) Euclidean Periodicity (CLEANEST MATH)**: β = 2π × $L_{\rm AdS,2}$ is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). $T_H$ = 1/β = $M_{\rm Pl,2D}$/(2π) is FORCED by the geometry. No free parameter.
 
 **(4) Hagedorn (string theory)**: $T_H$ = M_s/(2π) is the Hagedorn temperature for D=4 effective compactification. Connects 2D universe to string theory structure.
 
@@ -707,7 +707,7 @@ Five additional angles for μ first-principles were explored via web search:
 
 **(2) JT GRAVITY U(Φ) = 2Φ** — MODERATE:
 - arXiv:2412.09537 (Les Houches 2024), arXiv:2504.14003 (2025 review)
-- The "2" in U(Φ) = 2Φ comes from R_AdS_2 = -2/L² (AdS_2 Ricci scalar)
+- The "2" in U(Φ) = 2Φ comes from $R_{\rm AdS,2}$ = -2/L² (AdS_2 Ricci scalar)
 - This connects our framework's "2×" in μ = (2×E_1st)² to JT gravity's geometric structure
 - The "2" is FORCED by the AdS_2 background geometry
 
@@ -745,7 +745,7 @@ The framework's choice of μ = $M_{\rm Pl}$,2D² is consistent with:
 
 NEW LIMITATIONS (v3.5.6):
 - **L314**: Unimodular gravity: μ is INTEGRATION CONSTANT (consistent with calibrated μ)
-- **L315**: JT U(Φ)=2Φ: the "2" in our formula traces to R_AdS_2 = -2/L²
+- **L315**: JT U(Φ)=2Φ: the "2" in our formula traces to $R_{\rm AdS,2}$ = -2/L²
 - **L316**: Hagedorn $T_H$ = M_s/(2π): EXACT formula from closed string modular invariance
 - **L317**: JT Z_disk with C=1/2: 1/2 keeps appearing but doesn't uniquely determine μ
 - **L318**: String thermal duality b ↔ 1/(2b): structural origin of factor of 2

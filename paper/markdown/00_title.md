@@ -16,7 +16,7 @@
 - **v3.5.6 WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins:
   - Unimodular gravity (HT): Λ is integration constant — calibrated μ is EXPECTED
   - Hagedorn $T_H$ = M_s/(2π) exact from closed string modular invariance (Chaudhuri 2001)
-  - JT U(Φ)=2Φ: the "2" traces to R_AdS_2 = -2/L²
+  - JT U(Φ)=2Φ: the "2" traces to $R_{\rm AdS,2}$ = -2/L²
   - String thermal duality b ↔ 1/(2b) (Kogan 1990)
   - Hawking-Page + Euclidean periodicity β = 2πL (SL(2,R))
 - v3.5.7 HOLOGRAPHIC: string minimal area gives μ = M_s² (L319)

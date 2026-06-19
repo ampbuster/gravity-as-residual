@@ -20,7 +20,7 @@
 5 structural origins of μ = $M_{\rm Pl}$,2D²:
 1. **Unimodular gravity (HT)**: Λ is integration constant — calibrated is expected
 2. **Hagedorn $T_H$ = M_s/(2π)**: exact from closed string modular invariance
-3. **JT U(Φ)=2Φ**: the "2" traces to R_AdS_2 = -2/L²
+3. **JT U(Φ)=2Φ**: the "2" traces to $R_{\rm AdS,2}$ = -2/L²
 4. **String thermal duality**: b ↔ 1/(2b)
 5. **Hawking-Page + Euclidean periodicity**: β = 2πL forced by SL(2,R)
 

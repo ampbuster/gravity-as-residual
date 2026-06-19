@@ -220,7 +220,7 @@ Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity a
 
 **What KK gives SIDC:**
 - A *historical prototype* for dimensional reduction. SIDC is a more general framework that includes KK as a special case (5D → 4D is a 1-step SIDC; SIDC's 4D → 3+1D → 2D is a 2-step SIDC)
-- A *gravity-weakening analog*: KK gives G_4 = $G_5$ / (2πR) (weakening by compactification volume), SIDC gives G_3+1D = f_split × G_4 (weakening by 0.47 from 5/27/68)
+- A *gravity-weakening analog*: KK gives $G_4$ = $G_5$ / (2πR) (weakening by compactification volume), SIDC gives G_3+1D = f_split × $G_4$ (weakening by 0.47 from 5/27/68)
 - *Validation* that dimensional reduction is a viable physical framework: SIDC's 4D → 3+1D is a generalization, but the basic idea (5D gravity → 4D effective theory with new physics) is established
 
 **What KK does NOT give SIDC:**

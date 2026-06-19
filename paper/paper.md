@@ -16,7 +16,7 @@
 - **v3.5.6 WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins:
   - Unimodular gravity (HT): Λ is integration constant — calibrated μ is EXPECTED
   - Hagedorn $T_H$ = M_s/(2π) exact from closed string modular invariance (Chaudhuri 2001)
-  - JT U(Φ)=2Φ: the "2" traces to R_AdS_2 = -2/L²
+  - JT U(Φ)=2Φ: the "2" traces to $R_{\rm AdS,2}$ = -2/L²
   - String thermal duality b ↔ 1/(2b) (Kogan 1990)
   - Hawking-Page + Euclidean periodicity β = 2πL (SL(2,R))
 - v3.5.7 HOLOGRAPHIC: string minimal area gives μ = M_s² (L319)
@@ -1454,7 +1454,7 @@ Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity a
 
 **What KK gives SIDC:**
 - A *historical prototype* for dimensional reduction. SIDC is a more general framework that includes KK as a special case (5D → 4D is a 1-step SIDC; SIDC's 4D → 3+1D → 2D is a 2-step SIDC)
-- A *gravity-weakening analog*: KK gives G_4 = $G_5$ / (2πR) (weakening by compactification volume), SIDC gives G_3+1D = f_split × G_4 (weakening by 0.47 from 5/27/68)
+- A *gravity-weakening analog*: KK gives $G_4$ = $G_5$ / (2πR) (weakening by compactification volume), SIDC gives G_3+1D = f_split × $G_4$ (weakening by 0.47 from 5/27/68)
 - *Validation* that dimensional reduction is a viable physical framework: SIDC's 4D → 3+1D is a generalization, but the basic idea (5D gravity → 4D effective theory with new physics) is established
 
 **What KK does NOT give SIDC:**
@@ -2084,7 +2084,7 @@ DGP (Dvali-Gabadadze-Porrati) is a 5D brane-world model with an induced 4D Einst
 **Connection to SIDC:**
 - SIDC's DE is the 4D event's antigravity (§2.4)
 - DGP's self-accelerating branch gives effective DE
-- The crossover scale r_c = $G_5$/G_4 is a candidate for SIDC's bulk-brane coupling
+- The crossover scale r_c = $G_5$/$G_4$ is a candidate for SIDC's bulk-brane coupling
 - α = 1.29 could be a function of r_c
 
 **Status:** STRUCTURAL SUPPORT. SIDC's inversion (§3.9) mentions DGP. The connection is established but not unique.
@@ -6664,7 +6664,7 @@ For reviewers who want a one-paragraph summary of what changed between v2.3.2 an
 | Bulk channel | Postulated $f_{\rm back}$ = 1 | **DERIVED** as J_bulk = 0 BC |
 | 2D central charge c | Free parameter | **Discrete set** c ∈ Z≥1, default 1 |
 | 2D universe death | δ-function at τ = $\tau_{2D}$ | **Gaussian instanton** a_2D(τ) = $a_0$ exp(-τ²/$\tau_{2D}$²) |
-| 5/27 inner split | Free / fit | **Topological invariant** V_5/(A_4 R_AdS) = 27/5 |
+| 5/27 inner split | Free / fit | **Topological invariant** V_5/(A_4 $R_{\rm AdS}$) = 27/5 |
 | Free parameters | 5+ active | **2-3 active** |
 | Bianchi identity | Preserved (in $f_{\rm back}$ = 1 limit) | **Preserved** (in J_bulk = 0 BC) |
 
@@ -7997,7 +7997,7 @@ Source: `calculations/v35_why_factor_2.py`.
 
 **(3) Planckian Maximum (STRONG)**: $T_H$ = $T_{\rm Pl,2D}$ is the MAXIMUM stable BH temperature. Above this, BH evaporates instantly. $T_H$ = $T_{\rm Pl,2D}$ is the "edge of existence" for 2D BH. Robust physical constraint.
 
-**(5) Euclidean Periodicity (CLEANEST MATH)**: β = 2π × L_AdS_2 is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). $T_H$ = 1/β = $M_{\rm Pl,2D}$/(2π) is FORCED by the geometry. No free parameter.
+**(5) Euclidean Periodicity (CLEANEST MATH)**: β = 2π × $L_{\rm AdS,2}$ is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). $T_H$ = 1/β = $M_{\rm Pl,2D}$/(2π) is FORCED by the geometry. No free parameter.
 
 **(4) Hagedorn (string theory)**: $T_H$ = M_s/(2π) is the Hagedorn temperature for D=4 effective compactification. Connects 2D universe to string theory structure.
 
@@ -8102,7 +8102,7 @@ Five additional angles for μ first-principles were explored via web search:
 
 **(2) JT GRAVITY U(Φ) = 2Φ** — MODERATE:
 - arXiv:2412.09537 (Les Houches 2024), arXiv:2504.14003 (2025 review)
-- The "2" in U(Φ) = 2Φ comes from R_AdS_2 = -2/L² (AdS_2 Ricci scalar)
+- The "2" in U(Φ) = 2Φ comes from $R_{\rm AdS,2}$ = -2/L² (AdS_2 Ricci scalar)
 - This connects our framework's "2×" in μ = (2×E_1st)² to JT gravity's geometric structure
 - The "2" is FORCED by the AdS_2 background geometry
 
@@ -8140,7 +8140,7 @@ The framework's choice of μ = $M_{\rm Pl}$,2D² is consistent with:
 
 NEW LIMITATIONS (v3.5.6):
 - **L314**: Unimodular gravity: μ is INTEGRATION CONSTANT (consistent with calibrated μ)
-- **L315**: JT U(Φ)=2Φ: the "2" in our formula traces to R_AdS_2 = -2/L²
+- **L315**: JT U(Φ)=2Φ: the "2" in our formula traces to $R_{\rm AdS,2}$ = -2/L²
 - **L316**: Hagedorn $T_H$ = M_s/(2π): EXACT formula from closed string modular invariance
 - **L317**: JT Z_disk with C=1/2: 1/2 keeps appearing but doesn't uniquely determine μ
 - **L318**: String thermal duality b ↔ 1/(2b): structural origin of factor of 2
@@ -9742,7 +9742,7 @@ No fundamental inconsistencies detected.
 5 structural origins of μ = $M_{\rm Pl}$,2D²:
 1. **Unimodular gravity (HT)**: Λ is integration constant — calibrated is expected
 2. **Hagedorn $T_H$ = M_s/(2π)**: exact from closed string modular invariance
-3. **JT U(Φ)=2Φ**: the "2" traces to R_AdS_2 = -2/L²
+3. **JT U(Φ)=2Φ**: the "2" traces to $R_{\rm AdS,2}$ = -2/L²
 4. **String thermal duality**: b ↔ 1/(2b)
 5. **Hawking-Page + Euclidean periodicity**: β = 2πL forced by SL(2,R)
 

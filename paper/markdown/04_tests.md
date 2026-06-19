@@ -841,7 +841,7 @@ For reviewers who want a one-paragraph summary of what changed between v2.3.2 an
 | Bulk channel | Postulated $f_{\rm back}$ = 1 | **DERIVED** as J_bulk = 0 BC |
 | 2D central charge c | Free parameter | **Discrete set** c ∈ Z≥1, default 1 |
 | 2D universe death | δ-function at τ = $\tau_{2D}$ | **Gaussian instanton** a_2D(τ) = $a_0$ exp(-τ²/$\tau_{2D}$²) |
-| 5/27 inner split | Free / fit | **Topological invariant** V_5/(A_4 R_AdS) = 27/5 |
+| 5/27 inner split | Free / fit | **Topological invariant** V_5/(A_4 $R_{\rm AdS}$) = 27/5 |
 | Free parameters | 5+ active | **2-3 active** |
 | Bianchi identity | Preserved (in $f_{\rm back}$ = 1 limit) | **Preserved** (in J_bulk = 0 BC) |
 

@@ -128,7 +128,7 @@ DGP (Dvali-Gabadadze-Porrati) is a 5D brane-world model with an induced 4D Einst
 **Connection to SIDC:**
 - SIDC's DE is the 4D event's antigravity (§2.4)
 - DGP's self-accelerating branch gives effective DE
-- The crossover scale r_c = $G_5$/G_4 is a candidate for SIDC's bulk-brane coupling
+- The crossover scale r_c = $G_5$/$G_4$ is a candidate for SIDC's bulk-brane coupling
 - α = 1.29 could be a function of r_c
 
 **Status:** STRUCTURAL SUPPORT. SIDC's inversion (§3.9) mentions DGP. The connection is established but not unique.
