@@ -55,9 +55,9 @@ The model in this paper is one of several recent proposals that attempt to unify
 **The SIDC-MOND hybrid's empirical status (v2.3.0):**
 - Galaxy scale (SPARC, 175 galaxies): 10% median residual with free g₊ and M/L (commit 153)
 - Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = $1.3 \times 10^{-9}$ (1σ: $5.3 \times 10^{-10}$ to $2.7 \times 10^{-9}$), matches Tian+ 2024's $1.7 \times 10^{-9}$ within 1σ (commit 159)
-- $V_{\rm local}$ predictions test (commit 170): $g_+ \propto \sigma^{1.85}$ matches MOND EFE ($g_+ \propto \sigma^2$) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
+- $V_{\rm local}$ predictions test (commit 170): $g_+ \propto \sigma^{1.85}$ matches MOND EFE ( $g_+ \propto \sigma^2$) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
 
-**The SIDC-MOND hybrid is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.** SIDC's pure prediction ($g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$) was falsified by real SPARC (commit 152, Limitation 19). SIDC's *framework* (4D event → 3+1D → 2D, with cumulative 2D universe gravity) survives because the SIDC-MOND hybrid is a *natural completion*: SIDC provides the *geometric origin* of $g_+$, MOND provides the *functional form* of $g_{\rm obs}$($g_{\rm bar}$). The hybrid model is a *prediction* of SIDC (Limitation 27), and it's *consistent* with the cluster-scale data (Limitation 28). A specific implementation of SIDC would need to derive MOND's interpolation function from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture (Limitation 27).
+**The SIDC-MOND hybrid is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.** SIDC's pure prediction ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$) was falsified by real SPARC (commit 152, Limitation 19). SIDC's *framework* (4D event → 3+1D → 2D, with cumulative 2D universe gravity) survives because the SIDC-MOND hybrid is a *natural completion*: SIDC provides the *geometric origin* of $g_+$, MOND provides the *functional form* of $g_{\rm obs}$( $g_{\rm bar}$). The hybrid model is a *prediction* of SIDC (Limitation 27), and it's *consistent* with the cluster-scale data (Limitation 28). A specific implementation of SIDC would need to derive MOND's interpolation function from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture (Limitation 27).
 
 **Caveats and limits.** The SIDC-MOND hybrid is *consistent* with the RAR and the cluster enhancement, but has not yet been checked against the CMB power spectrum, galaxy cluster dark matter content, or the Bullet Cluster in detail. A specific implementation of the SIDC-MOND hybrid would need to address these tests. SIDC's $V_{\rm local}$ formula is *qualitatively* correct (predicts the cluster enhancement direction and order of magnitude) but the *exact* coefficients depend on the 2D brane dynamics (Limitation 26).
 
@@ -94,13 +94,13 @@ The CGHS model [CGHS92] is a 1+1-dimensional dilaton gravity theory that is *exa
 
 CGHS original (p=3) gives τ(LHC pp) = 3.3 × $10^{-138}$ s (75 orders too short), and RST (p=1) gives τ(LHC pp) = 3.3 × $10^{-54}$ s (9 orders too long). SIDC's α = 1.29 is *between* these extremes, which is consistent with a CGHS-like 2D black hole with *intermediate* back-reaction. A CGHS-with-back-reaction calculation that yields exactly α = 1.29 would be a *first-principles derivation* of SIDC's energy-scaling rule. This is a concrete, testable prediction for 2D quantum gravity experts (a working calculation, not a vague hope).
 
-SIDC's 2D universes have Hawking temperatures $T_H \sim M_{\rm Pl}$ × ($E_{\rm Pl}$/E)^1.29 that are *above* the Planck temperature for all events (E < $E_{\rm Pl}$), confirming SIDC's framing of 2D universes as Planckian objects. This is consistent with the CGHS picture: 2D black holes at Planckian energies are well-defined in 2D dilaton gravity (the theory is well-behaved even when 4D gravity breaks down).
+SIDC's 2D universes have Hawking temperatures $T_H \sim M_{\rm Pl}$ × ( $E_{\rm Pl}$/E)^1.29 that are *above* the Planck temperature for all events (E < $E_{\rm Pl}$), confirming SIDC's framing of 2D universes as Planckian objects. This is consistent with the CGHS picture: 2D black holes at Planckian energies are well-defined in 2D dilaton gravity (the theory is well-behaved even when 4D gravity breaks down).
 
 **Status:** CGHS provides the strongest structural match for SIDC's 2D universe level. The α = 1.29 is not derived from CGHS directly, but is in the range of CGHS variants. A specific CGHS-with-back-reaction calculation yielding α = 1.29 would strengthen SIDC significantly. See `calculations/v27_cghs_2d_universe.py` for the full analysis.
 
 **3.8.2 Padmanabhan (2015) entropic gravity and DM as missing bulk entropy.**
 
-Padmanabhan [Padmanabhan15] proposes that gravity emerges from the difference between bulk and boundary entanglement entropy: G_N ~ 1/N where N = A/$\ell_P^2$ is the number of boundary degrees of freedom. SIDC's bulk-brane coupling has a *natural* information-theoretic interpretation in this framework:
+Padmanabhan [Padmanabhan15] proposes that gravity emerges from the difference between bulk and boundary entanglement entropy: G_N ~ 1/N where N = A/ $\ell_P^2$ is the number of boundary degrees of freedom. SIDC's bulk-brane coupling has a *natural* information-theoretic interpretation in this framework:
 
 - **3+1D brane** = boundary
 - **4D bulk** = bulk
@@ -113,7 +113,7 @@ This identification provides a *concrete* information-theoretic interpretation o
 **What Padmanabhan gives SIDC:**
 - An *information-theoretic foundation* for SIDC's bulk-brane coupling
 - A *concrete interpretation* of SIDC DM as missing bulk entropy
-- A *quantitative* prediction: the 3+1D mass $M_{\rm 3+1D}$ ~ c τ_4D / (4π G) from equipartition on the boundary horizon, which gives τ_4D$\sim 10^{28}$ yr for the 4D event's duration (a *very long-lived* 4D event)
+- A *quantitative* prediction: the 3+1D mass $M_{\rm 3+1D}$ ~ c τ_4D / (4π G) from equipartition on the boundary horizon, which gives τ_4D $\sim 10^{28}$ yr for the 4D event's duration (a *very long-lived* 4D event)
 
 **What Padmanabhan does NOT give SIDC:**
 - The *inversion mechanism* (4D attractive → 3+1D repulsive). Padmanabhan's framework gives standard attractive gravity from entropy; SIDC's sign-change is a separate postulate
@@ -146,7 +146,7 @@ Horava-Witten [HW96] is 11D M-theory compactified on $S^1/\mathbb{Z}_2$ (orbifol
 
 Jacobson [Jacobson95] derives Einstein's equations from the local Unruh temperature applied to local Rindler horizons: δQ = T dS with S = A/4G. This is the most direct thermodynamic derivation of gravity's equations of state.
 
-A consistency check on SIDC: a 2D universe with $M_{2D}$ = M_SN_bary = 10 $M_\odot$ (the SN's baryonic mass) has a Jacobson minimum lifetime $\tau_{2D}$ ≥ 2 G $M_{2D}$ / c²$\sim 10^{13}$ yr, *not* SIDC's 33 s. SIDC's 33 s is only consistent with Jacobson if the 2D universe has mass $f_{\rm back}$ × M_SN$\sim 10^{-85}$ × M_SN (i.e., a tiny fraction of the SN's energy, not the SN's full baryonic mass). This is a *consistency check on $f_{\rm back}$*, not a derivation of SIDC's α.
+A consistency check on SIDC: a 2D universe with $M_{2D}$ = M_SN_bary = 10 $M_\odot$ (the SN's baryonic mass) has a Jacobson minimum lifetime $\tau_{2D}$ ≥ 2 G $M_{2D}$ / c² $\sim 10^{13}$ yr, *not* SIDC's 33 s. SIDC's 33 s is only consistent with Jacobson if the 2D universe has mass $f_{\rm back}$ × M_SN $\sim 10^{-85}$ × M_SN (i.e., a tiny fraction of the SN's energy, not the SN's full baryonic mass). This is a *consistency check on $f_{\rm back}$*, not a derivation of SIDC's α.
 
 Furthermore, Jacobson's framework predicts *linear* $\tau_{2D}$ ~ E (from $M_{2D} = \tau_{2D}$ / (2G) and $M_{2D}$ ~ E), not SIDC's *power law* $\tau_{2D} \sim E^{1.29}$. The α = 1.29 is NOT derived from thermodynamic first principles.
 
@@ -180,9 +180,9 @@ This is SIDC's status as of v2.7.30: a phenomenological model with 1-2 free para
 The RT formula [Ryu06] is the central tool of holographic entanglement entropy in AdS/CFT: S_A = Area(γ_A) / (4 G_N), where γ_A is the minimal surface in the bulk that is homologous to the boundary region A. This formula has been proven in many contexts (Casini-Huerta-Myers 2011) and is the basis for the AdS/CFT connection between bulk geometry and boundary entanglement.
 
 **What RT gives SIDC:**
-- A *concrete* information-theoretic interpretation of SIDC DM as missing bulk entanglement entropy: 2D universe = bulk region with area A_2D = 4π(c$\tau_{2D}$)², and SIDC's 3+1D back-projection of 2D universe gravity is structurally identical to the RT formula's area-entropy relation
+- A *concrete* information-theoretic interpretation of SIDC DM as missing bulk entanglement entropy: 2D universe = bulk region with area A_2D = 4π(c $\tau_{2D}$)², and SIDC's 3+1D back-projection of 2D universe gravity is structurally identical to the RT formula's area-entropy relation
 - A *consistency check* on SIDC's $f_{\rm back}$: the RT formula gives the same $M_{2D} = \tau_{2D}$ / (2G) as Jacobson's first law (since RT + Bekenstein-Hawking + Unruh = Jacobson derivation). This means RT, Jacobson, and Padmanabhan all give the same LINEAR $\tau_{2D} \sim M_{2D}$, not SIDC's power law
-- An *additional anchor* for SIDC's bulk-brane picture: the 2D universe's "boundary" in 3+1D (a 2-sphere of radius c$\tau_{2D}$) has area A_2D that grows quadratically with $\tau_{2D}$, and the entanglement entropy of the 2D universe's contents is $S_{\rm 2D}$ = A_2D / (4G) = π($\tau_{2D}$)² (in Planck units)
+- An *additional anchor* for SIDC's bulk-brane picture: the 2D universe's "boundary" in 3+1D (a 2-sphere of radius c $\tau_{2D}$) has area A_2D that grows quadratically with $\tau_{2D}$, and the entanglement entropy of the 2D universe's contents is $S_{\rm 2D}$ = A_2D / (4G) = π( $\tau_{2D}$)² (in Planck units)
 
 **What RT does NOT give SIDC:**
 - A *derivation* of α = 1.29. RT is mathematically equivalent to the Jacobson derivation (both give $M_{2D} = \tau_{2D}$ / (2G), linear scaling). SIDC's power law $\tau_{2D} \sim E^{1.29}$ is a dynamical parameter, not from RT
@@ -193,9 +193,9 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 **Quantitative check.** For SIDC's SN-calibrated 2D universe of $\tau_{2D} = 33$ s, RT gives:
 - R_2D = c × $\tau_{2D} = 9.9$ × $10^{9}$ m (about 70 × Earth-Moon distance)
 - A_2D = 4π R_2D² = 1.2 × $10^{21}$ m²
-- $S_{\rm 2D}$ = A_2D / (4 $\ell_P^2$)$\approx 10^{90}$ (in natural units)
+- $S_{\rm 2D}$ = A_2D / (4 $\ell_P^2$) $\approx 10^{90}$ (in natural units)
 
-This is an enormous entanglement entropy. The 2D universe is "small" in its intrinsic 1+1D spacetime, but its boundary in 3+1D is a 2-sphere of radius$\sim 10^{10}$ m. The RT formula gives this boundary area a holographic content of $10^{90}$ dimensionless units. This is consistent with SIDC's claim that 2D universes can carry "missing bulk entropy" that back-projects to 3+1D as DM.
+This is an enormous entanglement entropy. The 2D universe is "small" in its intrinsic 1+1D spacetime, but its boundary in 3+1D is a 2-sphere of radius $\sim 10^{10}$ m. The RT formula gives this boundary area a holographic content of $10^{90}$ dimensionless units. This is consistent with SIDC's claim that 2D universes can carry "missing bulk entropy" that back-projects to 3+1D as DM.
 
 **The RT-Jacobson-Padmanabhan equivalence.** A subtle but important point: RT + Bekenstein-Hawking + Unruh = Jacobson. All four give the same $M_{2D} = \tau_{2D}$ / (2G) linear relation. This is *good* for SIDC (multiple independent derivations agree), but it means they all FAIL to derive α = 1.29 (they all predict linear, not power law). SIDC's α = 1.29 is genuinely beyond what these thermodynamic frameworks can derive.
 
@@ -212,7 +212,7 @@ Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity a
 
 **SIDC as a generalization of KK.** SIDC's 4D event → 3+1D projection is a *generalization* of KK's 5D → 4D, with different assumptions:
 - KK's extra dim is COMPACT (S^1 of radius R)
-- SIDC's 4D event is SPATIALLY EXTENDED (per §2.4, extent$\sim 10^{36}$ m from §3.8.2 Padmanabhan estimate)
+- SIDC's 4D event is SPATIALLY EXTENDED (per §2.4, extent $\sim 10^{36}$ m from §3.8.2 Padmanabhan estimate)
 - KK derives EM from geometry (the off-diagonal metric = EM potential)
 - SIDC does NOT derive the SM from geometry (the SM is taken as given)
 - KK preserves the sign of gravity (4D gravity is attractive, same as 5D)
@@ -258,7 +258,7 @@ User reference (v3.0.22): Kusuki 2024 (arXiv:2412.18307) "Modern Approach to 2D 
 2. **Hellerman bound connection**: SIDC's c_total = 3/2 EXCEEDS the unitary c ≤ 1 bound, but SIDC is **non-unitary** (Liouville is non-unitary, SYK q=4 is non-unitary at finite N) — this is consistent. The fact that c_total = 3/2 is a specific non-integer is what makes SIDC testable: it requires non-unitarity, not just non-integer c.
 
 3. **HHLL block** (Heavy-Heavy-Light-Light):
-   - Heavy: 4D event (h_H$\sim E_{\rm 4D}$ × L_4D, very large)
+   - Heavy: 4D event (h_H $\sim E_{\rm 4D}$ × L_4D, very large)
    - Light: 2D universe (h_L ~ μ × L_2D, very small)
    - The block describes the 4D → 2D projection
    - **In heavy limit, block dominated by double-trace exchange, which IS SIDC's scaling law τ_2D ~ E^1.289**
@@ -315,7 +315,7 @@ The DGP model is a 5D Minkowski bulk with a 4D brane, gravity localized by a bra
 
 $$H^2 - \epsilon \frac{H}{r_c} = \frac{8\pi G}{3} \rho + \frac{\Lambda_4}{3}$$
 
-where $r_c = G_5/G_4$ is the crossover scale. For the **self-accelerating branch** ($\epsilon = -1$, the *negative* sign):
+where $r_c = G_5/G_4$ is the crossover scale. For the **self-accelerating branch** ( $\epsilon = -1$, the *negative* sign):
 
 $$H^2 + \frac{H}{r_c} = \frac{8\pi G}{3} \rho$$
 
@@ -449,7 +449,7 @@ The 32% vs 27% is a *small* difference (5 percentage points), but it's *not* a c
 
 If SIDC is extended upward, the following becomes testable:
 
-1. **Direct:** 4D's universe creation rate is$\sim 32\%$, not $27\%$. This is consistent with 3+1D's 68% DE coming entirely from 4D's projection.
+1. **Direct:** 4D's universe creation rate is $\sim 32\%$, not $27\%$. This is consistent with 3+1D's 68% DE coming entirely from 4D's projection.
 2. **Indirect:** SIDC's "27%" is *not* a universal constant. Future observations of 4D's structure (if accessible) would show a different ratio.
 3. **Testable today:** The 5/27/68 in 3+1D is consistent with *either* (a) a universal 27% (with 4D's $r = 0.27$ and 4D's $1-r = 0.73$, of which 68% projects to 3+1D and 5% is 4D's baryons), or (b) 4D-specific ratios. The current data cannot distinguish.
 4. **Falsifiability:** If a future calculation derives $r = 27\%$ from first principles (e.g., from a specific brane-world Lagrangian), then SIDC is *predicted* to have $r = 27\%$ at all levels. If $r$ turns out to be level-dependent, SIDC's "universal" reading is wrong.
@@ -475,11 +475,11 @@ This section makes explicit what was implicit in §2.4 and §2.6:
 SIDC is honest: the *current* framework has 4D as the top, with 4D's own dynamics undefined. **Extending SIDC upward is a v2.7.15+ candidate**, requiring:
 - A specific 5D Lagrangian (to derive 4D's universe creation rate)
 - A specific 4D universe Lagrangian (to derive 4D's "DM" mechanism)
-- A new test: 4D's ratio is consistent with$\sim 32\%$ (if 3+1D's DE is entirely from 4D's projection) or different (if 4D has additional channels)
+- A new test: 4D's ratio is consistent with $\sim 32\%$ (if 3+1D's DE is entirely from 4D's projection) or different (if 4D has additional channels)
 
-The simplest version: **SIDC's 4D event is the top of the hierarchy, 4D has no own universe creation ($r_{4D} = 0$), and the cone-shape is preserved.** This is SIDC's current default. The 27% is a 3+1D-specific value, and 4D's "structure" is undefined (4D is treated as a parent process, not a child universe).
+The simplest version: **SIDC's 4D event is the top of the hierarchy, 4D has no own universe creation ( $r_{4D} = 0$), and the cone-shape is preserved.** This is SIDC's current default. The 27% is a 3+1D-specific value, and 4D's "structure" is undefined (4D is treated as a parent process, not a child universe).
 
-A more ambitious version: **SIDC extends upward, 4D has its own universe creation ($r_{4D} \sim 0.32$ or different), and 3+1D sees a projection of 4D's structure.** This would require a specific 5D Lagrangian and would be a major extension of the framework.
+A more ambitious version: **SIDC extends upward, 4D has its own universe creation ( $r_{4D} \sim 0.32$ or different), and 3+1D sees a projection of 4D's structure.** This would require a specific 5D Lagrangian and would be a major extension of the framework.
 
 **SIDC's status (v2.7.15+):** the cone-shape (4D as top, no parents) is the *default*. The upward extension is *left open* (Limitation 11) but now made explicit. Future work could close this by deriving $r_{4D}$ from a specific 5D Lagrangian or by deriving 4D's "DM" mechanism from 4D universe dynamics.
 
@@ -500,14 +500,14 @@ For a typical Milky-Way-like galaxy:
 - DM mass: $M_{DM} \approx 5.4 \times M_{bar} \approx 3.2 \times 10^{11} M_\odot$
 - Required cumulative 2D universe deaths: $3.2 \times 10^{11} M_\odot$ worth of energy
 
-Over a Hubble time ($T = 13.8$ Gyr):
-- Cumulative SNe in MW:$\sim 8.7 \times 10^{15}$ events
+Over a Hubble time ( $T = 13.8$ Gyr):
+- Cumulative SNe in MW: $\sim 8.7 \times 10^{15}$ events
 - Each SN releases$\sim 10^{44}$ J of kinetic energy$\sim 5.6 \times 10^{-7} M_\odot c^2$
 - Total SN energy in MW:$\sim 5 \times 10^{9} M_\odot c^2$ (i.e.,$\sim 8\%$ of MW baryons)
 
 The math: $(5 \times 10^{9} M_\odot) \times A = 3.2 \times 10^{11} M_\odot$, so $A = 64\times$.
 
-**The 2D universe's 3+1D-frame mass at death must be$\sim 64\times$ the SN's baryonic energy.** This is the per-event amplification factor SIDC requires.
+**The 2D universe's 3+1D-frame mass at death must be $\sim 64\times$ the SN's baryonic energy.** This is the per-event amplification factor SIDC requires.
 
 **3.11.2 Explanation 1: Per-event amplification (SIDC's current default).**
 
@@ -525,11 +525,11 @@ $$e^{-ky} = 3.7 \times 10^{-5} / 6 = 6.2 \times 10^{-6}$$
 **3.11.3 Explanation 2: Time accumulation (necessary but not sufficient).**
 
 Over 13.8 Gyr, the cumulative number of energetic events in a galaxy is large:
-- SNe:$\sim 8.7 \times 10^{15}$ in MW
-- Hypernovae:$\sim 8.7 \times 10^{13}$ (1% of SNe)
-- Long GRBs:$\sim 8.7 \times 10^{12}$ (0.1% of SNe)
-- BNS mergers:$\sim 10^6$ in MW
-- AGN outbursts:$\sim 10^7$ in MW
+- SNe: $\sim 8.7 \times 10^{15}$ in MW
+- Hypernovae: $\sim 8.7 \times 10^{13}$ (1% of SNe)
+- Long GRBs: $\sim 8.7 \times 10^{12}$ (0.1% of SNe)
+- BNS mergers: $\sim 10^6$ in MW
+- AGN outbursts: $\sim 10^7$ in MW
 
 Total cumulative event energy in MW:$\sim 5 \times 10^{9} M_\odot c^2 \sim 8\%$ of MW baryons.
 
@@ -538,11 +538,11 @@ Total cumulative event energy in MW:$\sim 5 \times 10^{9} M_\odot c^2 \sim 8\%$ 
 **3.11.4 Explanation 3: Multiple event types (slightly better).**
 
 Including more energetic events (hypernovae, GRBs, BNS, AGN) increases the cumulative energy:
-- AGN outbursts ($\sim 10^{55}$ J each) and BNS mergers ($\sim 10^{53}$ J each) are *individually* 10-1000x more energetic than SNe
+- AGN outbursts ( $\sim 10^{55}$ J each) and BNS mergers ( $\sim 10^{53}$ J each) are *individually* 10-1000x more energetic than SNe
 - However, they are *rarer*
-- Total cumulative energy: still$\sim 10\%$ of MW baryons
+- Total cumulative energy: still $\sim 10\%$ of MW baryons
 
-Multiple event types provide$\sim 10\%$ of baryons, requiring per-event amplification of$\sim 54\times$ (slightly less than SNe alone's 67x).
+Multiple event types provide $\sim 10\%$ of baryons, requiring per-event amplification of $\sim 54\times$ (slightly less than SNe alone's 67x).
 
 **3.11.5 Explanation 4: DE as cosmological arena (passive role).**
 
@@ -550,13 +550,13 @@ DE-driven cosmic expansion affects the *rate* of structure formation and energet
 - Without DE: matter-dominated universe, more structure, more SNe/AGN
 - With DE: DE-dominated in recent epochs, less structure formation
 
-The effect is$\sim 30\%$ modulation of event rates over Hubble time (standard ΛCDM prediction). This changes the cumulative event count by$\sim 30\%$.
+The effect is $\sim 30\%$ modulation of event rates over Hubble time (standard ΛCDM prediction). This changes the cumulative event count by $\sim 30\%$.
 
-**DE as arena provides$\sim 1.3\times$ modulation.** Modest, not the dominant mechanism.
+**DE as arena provides $\sim 1.3\times$ modulation.** Modest, not the dominant mechanism.
 
 **3.11.6 Explanation 5: DE as energy source (active role, NOT in current SIDC).**
 
-A more interesting possibility: **the 2D universe's intrinsic 2D-frame mass ($\sim 6 M_\odot$) is much larger than the typical baryonic event energy ($5.6 \times 10^{-7} M_\odot$ for SNe). Where does this extra mass come from?**
+A more interesting possibility: **the 2D universe's intrinsic 2D-frame mass ( $\sim 6 M_\odot$) is much larger than the typical baryonic event energy ( $5.6 \times 10^{-7} M_\odot$ for SNe). Where does this extra mass come from?**
 
 *Possibility:* at the moment of 2D universe birth, the dimensional projection mechanism taps the bulk vacuum energy (DE) to provide the 2D universe's intrinsic mass.
 
@@ -672,8 +672,8 @@ SIDC's $F_p(z)$ also addresses the v2.4 "CMB gap" (L31):
 The smooth $F_p(z)$ says: at $z=1100$, DM is 100% primordial. The primordial 2D universe deaths that happen *before* $z=1100$ account for the observed 27% of DM at CMB. The remaining 30% of *cumulative* DM hasn't happened yet at $z=1100$ — it accumulates over cosmic history.
 
 This is a *testable* framework:
-- **CMB ($\Omega_{DM} = 0.27$ at $z=1100$):** consistent with primordial deaths happening at the Big Bang
-- **Today ($\Omega_{DM} = 0.27$ at $z=0$):** same total, but with cumulative deaths adding composition (no change in total due to conservation in comoving volume)
+- **CMB ( $\Omega_{DM} = 0.27$ at $z=1100$):** consistent with primordial deaths happening at the Big Bang
+- **Today ( $\Omega_{DM} = 0.27$ at $z=0$):** same total, but with cumulative deaths adding composition (no change in total due to conservation in comoving volume)
 
 **3.12.6 The honest prediction.**
 
