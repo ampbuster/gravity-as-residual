@@ -21,9 +21,9 @@
 
 3. **Compute the central charge $c$ in the emulator's proportionality coefficient** (Limitation 29, §4.45-§4.46). The 0.1 in the emulator is *understood* as the $c=1$ CFT value. A 2D expert could compute the *exact* proportionality for $c=6, c=26$, or other, and replace the calibrated 0.1 with a *derived* value.
 
-4. **Stabilize the AdS $_5$ bulk** (Limitation 1, §2.2). The Goldberger-Wise mechanism stabilizes the RS-II radion; a specific SIDC implementation would need a *SIDC-specific* stabilization that preserves the 5/27 ratio under cosmological evolution.
+4. **Stabilize the AdS$_5$ bulk** (Limitation 1, §2.2). The Goldberger-Wise mechanism stabilizes the RS-II radion; a specific SIDC implementation would need a *SIDC-specific* stabilization that preserves the 5/27 ratio under cosmological evolution.
 
-5. **Generalize the 5/27 derivation to non-static bulks** (Limitation 17, §2.6.1). The current treatment assumes a static AdS $_5$ slice; cosmological evolution (rolling radion, time-dependent warp factor) would modify the 5/27 ratio. A specific calculation would track the ratio's evolution.
+5. **Generalize the 5/27 derivation to non-static bulks** (Limitation 17, §2.6.1). The current treatment assumes a static AdS$_5$ slice; cosmological evolution (rolling radion, time-dependent warp factor) would modify the 5/27 ratio. A specific calculation would track the ratio's evolution.
 
 **Reproducibility infrastructure.** All 34 limitations have explicit closure criteria in §7.0. The smooth F(z) refinement in §4.48.1 (now §4.48's primary framework as of v2.7.8) closes the v2.4 CMB gap (constant $F_p = 0.7$ was 30% off at z=1100; smooth Hill n=2 $z_{\rm half}$ = 3 matches both anchors with gap < 1%). All 17 test categories have corresponding Python scripts in `calculations/`. The v2.4 tensor construction has 5 verification checks in `calculations/verify_tensor_pipeline.py`. The v2.4 refactor has 4 verification checks in `calculations/verify_v24_refactor.py`. A reviewer can re-run any test in <5 minutes on a standard scientific Python environment.
 

@@ -10,7 +10,7 @@ SIDC's most distinctive new quantitative claim is the *energy-scaling rule* for 
 
 $$T_{D-1}\big|_{in D-view} \;=\; 33 s \times (\frac{E_D}{10^{44}\,\text{J}})^{\alpha}, \qquad \alpha \approx 1.29$$
 
-calibrated to a Type Ia supernova (E $\approx 10^{44}$ J) creating a 2D universe that lives 33 s in 3+1D view. The same rule extrapolates to:
+calibrated to a Type Ia supernova (E$\approx 10^{44}$ J) creating a 2D universe that lives 33 s in 3+1D view. The same rule extrapolates to:
 
 | D-event | Energy (J) | (D−1)-universe lifespan in D-view |
 |---|---|---|
@@ -24,7 +24,7 @@ calibrated to a Type Ia supernova (E $\approx 10^{44}$ J) creating a 2D universe
 | Quasar outburst → 2D | $10^{60}$ | $5 \times 10^{14}$ yr |
 | **4D cosmological event → 3D (us)** | **$10^{69}$** | **$\sim 2 \times 10^{26}$ yr** |
 
-The 4D cosmological event (rest energy of the observable 3+1D universe) gives a 3D universe that lives $\sim 2 \times 10^{26}$ yr in 4D view.
+The 4D cosmological event (rest energy of the observable 3+1D universe) gives a 3D universe that lives$\sim 2 \times 10^{26}$ yr in 4D view.
 
 ### 10.2 The 2D universe as a "relativistic particle" — mass-dependent time dilation
 
@@ -159,7 +159,7 @@ The 2D universe death prediction is *qualitatively* robust to the choice of α: 
 
 A careful audit of SIDC's other claims finds **no other explicit 2D universe lifetime data points**:
 
-1. **2D universe Planck scale (set by μ):** The 2D universe's natural time scale is $t_{\rm Pl}$,2 = ℏ/(μ c²). If $T_{2D} \sim t_{\rm Pl}$,2, then μ $\sim 5 \times 10^{-48}$ J = $3 \times 10^{-29}$ eV. But μ is a free parameter in SIDC, so this doesn't constrain the energy-scaling rule.
+1. **2D universe Planck scale (set by μ):** The 2D universe's natural time scale is $t_{\rm Pl}$,2 = ℏ/(μ c²). If $T_{2D} \sim t_{\rm Pl}$,2, then μ$\sim 5 \times 10^{-48}$ J = $3 \times 10^{-29}$ eV. But μ is a free parameter in SIDC, so this doesn't constrain the energy-scaling rule.
 
 2. **2D universe effective mass m_{3+1D}:** SIDC's analysis of DM gives the *collective* back-projection, not the individual 2D universe's mass. The 2D universe's intrinsic mass is not pinned down.
 
@@ -226,7 +226,7 @@ The 2D universe's lifetime $T_{2D}$ should be derivable from this Lagrangian. Ca
 
 2. **2D universe burnout time:** t_burnout ~ 1/√μ (set by 2D Hubble rate). For $T_{2D} = 33$ s: μ = $6 \times 10^{-18}$ eV. **Inconsistent with the Planck-scale anchor by 12 orders of magnitude.**
 
-3. **2D universe expansion time:** t_exp $\sim \ell_{\rm Pl}$,2 / c. For $T_{2D} = 33$ s, the final size is c × 33 s = $10^{10}$ m. Natural, but doesn't give μ directly.
+3. **2D universe expansion time:** t_exp$\sim \ell_{\rm Pl}$,2 / c. For $T_{2D} = 33$ s, the final size is c × 33 s = $10^{10}$ m. Natural, but doesn't give μ directly.
 
 4. **2D universe "effective mass" m_{3+1D}:** From DM abundance (27% of ρ_crit), each 2D universe has m_{2D}$\sim 10^{-40}$ GeV/c². This is a "natural" mass scale, but not a *lifetime* anchor.
 
@@ -289,7 +289,7 @@ The BNS-merger and AGN-flare death signals are *much* above LISA's noise at thei
 
 **LISA detection prospects (consolidated, v2.7.3+):**
 - **LISA will NOT detect SIDC's death GW background** for typical SN events, regardless of $\epsilon_{\rm GW}$.
-- LISA's *noise* at 0.03 Hz is $\sim 10^{-11}$, while SIDC predicts $\sim 10^{-17}$ to $10^{-25}$. A 6-14 order-of-magnitude gap.
+- LISA's *noise* at 0.03 Hz is$\sim 10^{-11}$, while SIDC predicts$\sim 10^{-17}$ to $10^{-25}$. A 6-14 order-of-magnitude gap.
 - A NULL result from LISA is **consistent with** SIDC, not contradictory.
 - LISA *might* detect SIDC's *birth* GW background (a separate prediction, not analyzed here) at higher frequencies, depending on birth-GW spectrum and $\epsilon_{\rm GW}$.
 
@@ -436,11 +436,11 @@ SIDC's α = 1.29 is **falsified if observed α differs by more than ±0.10** (i.
 
 **Falsification scenarios for α = 1.29:**
 
-1. **BNS GW detected at SIDC's predicted frequency (f $\approx 7 \times 10^{-14}$ Hz):** α = 1.29 validated. Precision ±0.11 from SKA-MPG.
+1. **BNS GW detected at SIDC's predicted frequency (f$\approx 7 \times 10^{-14}$ Hz):** α = 1.29 validated. Precision ±0.11 from SKA-MPG.
 
-2. **BNS GW detected at 10x lower frequency (f $\approx 7 \times 10^{-15}$ Hz):** implied α = 1.40 (factor 10 longer lifetime). Falsifies α = 1.29 to ±0.11.
+2. **BNS GW detected at 10x lower frequency (f$\approx 7 \times 10^{-15}$ Hz):** implied α = 1.40 (factor 10 longer lifetime). Falsifies α = 1.29 to ±0.11.
 
-3. **BNS GW detected at 10x higher frequency (f $\approx 7 \times 10^{-13}$ Hz):** implied α = 1.18 (factor 10 shorter lifetime). Falsifies α = 1.29 to ±0.11.
+3. **BNS GW detected at 10x higher frequency (f$\approx 7 \times 10^{-13}$ Hz):** implied α = 1.18 (factor 10 shorter lifetime). Falsifies α = 1.29 to ±0.11.
 
 4. **BNS + AGN GW both detected, but with internally inconsistent α:** If BNS gives α = 1.30 and AGN gives α = 1.50, the energy-scaling rule is NOT a single power law. SIDC is **falsified at a deeper level** (not just the specific α, but the framework of universal power-law scaling).
 

@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Conservative math-spacing fix for SIDC paper.
+Two-pass math spacing fix for SIDC paper.
 
-Only adds a space BEFORE an opening $ if:
-- Previous char is letter or digit (NOT punctuation, NOT space)
-- We are NOT inside math mode
-- Line is not in a known broken pattern
+PASS 1 (aggressive): Add space before any $ that follows a non-space char.
+  - Catches all `text$math$` cases, including punctuation.
 
-Skips lines that look broken (heuristic: math range > 30 chars).
+PASS 2 (cleanup): Remove leading/trailing whitespace inside $...$ math.
+  - Fixes cases where Pass 1 added space INSIDE math (e.g., `X $` -> `X$`).
+
 Idempotent: re-running produces no changes.
 """
 import os
@@ -24,7 +24,6 @@ def find_math_ranges(line):
             i += 2
             continue
         if line[i] == '$':
-            # Check for $$ display
             if i + 1 < len(line) and line[i + 1] == '$':
                 j = i + 2
                 while j < len(line) - 1:
@@ -57,72 +56,102 @@ def find_math_ranges(line):
 
 
 def is_broken_line(line):
-    """Heuristic: a line is broken if math range > 30 chars (likely contains text)."""
+    """Heuristic: skip lines with math range > 30 chars (likely contains text)."""
     ranges = find_math_ranges(line)
     for r_start, r_end in ranges:
-        content_len = r_end - r_start - 2  # exclude the $...$ delimiters
+        content_len = r_end - r_start - 2
         if content_len > 30:
             return True
     return False
 
 
-def fix_math_spacing(line):
-    """Add space before opening $ if prev char is letter/digit. Skip broken lines."""
-    # Skip code blocks (lines starting with ``` or ~~~~)
+def add_space_before_dollar(part):
+    """PASS 1: Aggressive - add space before $ if prev char is non-space, non-backslash."""
+    fixed = []
+    i = 0
+    while i < len(part):
+        ch = part[i]
+        if ch == '\\' and i + 1 < len(part):
+            # Escape pair: take both chars and advance index
+            fixed.append(part[i:i + 2])
+            i += 2
+            continue
+        if ch == '$':
+            if fixed and fixed[-1] and not fixed[-1].endswith(' '):
+                last_char = fixed[-1][-1]
+                if last_char not in (' ', '\n', '\\'):
+                    fixed.append(' ')
+            fixed.append('$')
+            i += 1
+            continue
+        fixed.append(ch)
+        i += 1
+    return ''.join(fixed)
+
+
+def strip_space_inside_math(part):
+    """PASS 2: Remove leading/trailing whitespace inside $...$ math."""
+    fixed = []
+    i = 0
+    in_math = False
+    while i < len(part):
+        ch = part[i]
+        if ch == '\\' and i + 1 < len(part):
+            fixed.append(part[i:i + 2])
+            i += 2
+            continue
+        if ch == '$':
+            if in_math:
+                # Closing $ - strip trailing space before this $
+                while fixed and fixed and (fixed[-1] == '' or fixed[-1].endswith(' ')):
+                    if fixed[-1] == '':
+                        fixed.pop()
+                    else:
+                        fixed[-1] = fixed[-1].rstrip(' ')
+                        if fixed[-1] == '':
+                            fixed.pop()
+                            break
+                in_math = False
+                fixed.append('$')
+                i += 1
+                continue
+            else:
+                # Opening $ - strip leading space after this $
+                fixed.append('$')
+                in_math = True
+                i += 1
+                # Skip leading whitespace inside math
+                while i < len(part) and part[i] == ' ':
+                    i += 1
+                continue
+        fixed.append(ch)
+        i += 1
+    return ''.join(fixed)
+
+
+def process_line(line):
+    """Apply both passes to a single line."""
     if line.startswith('```') or line.startswith('~~~~'):
         return line
-    
-    # Skip lines that look broken
     if is_broken_line(line):
         return line
-    
-    # Skip lines with odd $ count (multi-line math)
     test = re.sub(r'\\$', '', line)
     test = re.sub(r'`[^`\n]*`', '', test)
     if test.count('$') % 2 == 1:
         return line
     
-    # Process only non-code-span parts
     parts = re.split(r'(`[^`\n]*`)', line)
     result = []
     for part in parts:
         if part.startswith('`') and part.endswith('`') and len(part) >= 2:
             result.append(part)
             continue
-        
-        # Walk through with math-mode state
-        fixed = []
-        i = 0
-        in_math = False
-        while i < len(part):
-            ch = part[i]
-            if ch == '\\' and i + 1 < len(part):
-                fixed.append(part[i:i + 2])
-                i += 2
-                continue
-            if ch == '$':
-                if in_math:
-                    in_math = False
-                    fixed.append('$')
-                else:
-                    # Opening - add space ONLY if prev is letter/digit
-                    if fixed:
-                        last_char = fixed[-1][-1] if fixed[-1] else ''
-                        if last_char.isalnum() or last_char == '_':
-                            fixed.append(' ')
-                    in_math = True
-                    fixed.append('$')
-                i += 1
-                continue
-            fixed.append(ch)
-            i += 1
-        result.append(''.join(fixed))
+        # Pass 1: add space before $ (aggressive)
+        part = add_space_before_dollar(part)
+        # Pass 2: strip leading/trailing space inside math
+        part = strip_space_inside_math(part)
+        result.append(part)
     return ''.join(result)
-
-
-def process_line(line):
-    """Process a single markdown line."""
-    return fix_math_spacing(line)
 
 
 def process_file(path):
@@ -136,7 +165,6 @@ def process_file(path):
     changes = 0
     
     for line in lines:
-        # Track fenced code blocks
         if line.startswith('```') or line.startswith('~~~'):
             in_code_block = not in_code_block
             new_lines.append(line)

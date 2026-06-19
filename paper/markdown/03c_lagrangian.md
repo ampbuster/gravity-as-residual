@@ -838,10 +838,10 @@ flat spacetime") which takes 3D AdS gravity and reduces it to
 
 | Aspect | Standard holographic reduction (2211.13415) | SIDC (this paper) |
 |--------|---------------------------------------------|--------------------|
-| Bulk | AdS $_3$ (asymptotically flat) | AdS $_5$ with Karch-Randall sub-brane |
+| Bulk | AdS$_3$ (asymptotically flat) | AdS$_5$ with Karch-Randall sub-brane |
 | Boundary / brane | End-of-world brane hosting 2D CFT | 2D universe with c=1 Liouville + N=12 SYK + Schwarzian |
 | "Real" theory | Bulk 3D gravity | 2D universe (intrinsic) + 5D bulk (extrinsic) |
-| What we observe | 2D boundary CFT $_1$ (JT + matter) | Residual 3+1D = gravity + DM + DE |
+| What we observe | 2D boundary CFT$_1$ (JT + matter) | Residual 3+1D = gravity + DM + DE |
 | Reduction direction | 3D $\to$ 2D (standard) | 4D event $\to$ 2D $\to$ 3+1D (round-trip) |
 | Central charge | $c = 1$ (matter on brane) | $c = 1$ (Liouville) ✓ same |
 | Gravity side | JT gravity $\Rightarrow$ Schwarzian | Schwarzian in $L_{\rm SIDC}$ ✓ matches |
@@ -884,7 +884,7 @@ adds is:
 
 1. **Validates the framework**: SIDC is not random; it's the
    holographic-reduction program with a specific 2D matter content
-   (c=1 Liouville + N=12 SYK) and a specific bulk (AdS $_5$
+   (c=1 Liouville + N=12 SYK) and a specific bulk (AdS$_5$
    Karch-Randall).
 2. **Provides a literature anchor**: future readers can find
    SIDC by searching "JT gravity" + "holographic reduction" + "dark sector"
