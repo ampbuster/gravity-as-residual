@@ -568,7 +568,7 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 7. **Stiskalek 2025: $H_0 = 73.04$ ± 1.30** (1.8% precision from Cepheids alone) — SIDC $H_{0,4D} = 70.16$ within 2.2σ
 8. **S₈ tension persists at 2–3σ** (Subaru HSC Y3 2025) — SIDC's MOND-like floor gives qualitative suppression
 9. **TRGB $H_0 = 69.8 \pm 1.9$** (Freedman 2024, CCHP, JWST) — **0.2σ from SIDC $H_{0,4D} = 70.16$** (CLOSEST single measurement!)
-10. **JWST high-z galaxy excess** (z > 12, some z ~ $20) — SIDC's $F_p(z)$ primordial component (§4.48.1) is qualitatively consistent
+10. **JWST high-z galaxy excess** (z > 12, some z ~ 20) — SIDC's $F_p(z)$ primordial component (§4.48.1) is qualitatively consistent
 11. **BBN Li-7 anomaly** (3.5 × discrepancy) — SIDC inherits from standard cosmology, not addressed
 
 **4 INTERPRETIVE — THEORETICAL FOUNDATION** (4 NEW):
@@ -1435,7 +1435,7 @@ This section lists open questions for future research. **Updated at v3.0.21 (Jun
 ### Open data tests
 
 11. **DESI DR3 (2026-2027)**: tests evolving w(z) — SIDC predicts w = -1 (consistent with ΛCDM)
-12. **LSST Y1 (2027)**: tests 47 Tuc $M_{dyn}$, intermediate dwarf population
+12. **LSST Y1 (2027)**: tests 47 Tuc $M_{\\rm dyn}$ intermediate dwarf population
 13. **SKA-MPG (2030s)**: tests $\alpha = 1.29$ precision via PTA stochastic background
 14. **LISA (2034+)**: tests 2D universe death GW (SIDC predicts below detection, NULL is consistent)
 
