@@ -4445,3 +4445,142 @@ Pushed: github.com/ampbuster/gravity-as-residual (commit c39a5d3)
 KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 `\tabcolsep`) but has rendering bugs in some cases. The simpler
 `\linewidth` syntax is more reliable and works for all our tables.
+
+---
+
+## v3.3 (June 2026) — Bilateral Cascade, $M_{\rm Pl,4D}$ derived, universe-scale 4D event
+
+**Reason for major version bump:** Five user-driven corrections (#14-#22) reshape the framework's bilateral cascade structure. $M_{\rm Pl,4D}$ is now DERIVED via α-weighted GM (was INFERRED/calibrated at 887 GeV in v3.1.2-final Scenario X). 4D event is universe-scale (10⁸× observable universe). 9D = $v_{\rm Higgs}$ DROPPED.
+
+**KEY CHANGES (user-driven corrections #14-#22)**:
+1. **#14-15 $f_{\rm back}$ is continuous, pulse is baryons+DM**: $f_{\rm back}$ formula gives continuous rate; pulsed return at death = 100%. Two SEPARATE mechanisms.
+2. **#16 4D not eternal**: τ_4D_proper = 1.51×10³⁴ yr; τ_3D_apparent = 1.83×10⁹⁸ yr initially, then REVISED to 9.10×10²⁴ yr after #28-#33.
+3. **#17-18 γ-scaled leak REVERTED**: User caught that leak is in 3D frame, no γ needed.
+4. **#19 MUST match 27% DM**: Calibrated AGN rate = 3×10⁻¹⁶ /m³/s matches DM exactly.
+5. **#20 NO continuous DM leak, 100% pulsed**: DM is purely pulsed at 2D death.
+6. **#21 $f_{\rm back}$ UNIVERSAL**: Same formula at every transition.
+7. **#22 DE = TIME-DILATED SLICE of 4D pulsed life**: DE continuity is a 3D-frame artifact.
+
+**KEY DERIVATIONS (#28-#33)**:
+- **#32 $M_{\rm Pl,4D}$ = α-weighted GM**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = (1.22×10¹⁹)^1.289 × (3×10³)^(-0.289) = 4×10²³ GeV (DERIVED, was 887 GeV Scenario X).
+- **#33 4D event universe-scale**: $E_{\rm 4D}$ = 5×10⁷⁹ J (10⁸× observable universe), γ_4D = 6.03×10⁹⁰, τ_3D_apparent = 9.10×10²⁴ yr.
+- **#34 α^5 DROPPED**: Was empirical coincidence (1% off, wrong direction).
+
+**v3.3 KEY PARAMS (post-#33)**:
+- $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV (MEASURED)
+- $M_{\rm Pl,2D}$ = 3 TeV (CALIBRATED)
+- $M_{\rm Pl,4D}$ = 4×10²³ GeV (DERIVED, was 887 GeV v3.1.2 Scenario X)
+- $E_{\rm 4D}$ = 5×10⁷⁹ J (DERIVED, universe-scale, was 10⁵⁹ J Scenario X)
+- α = 1.289 (calibrated to 8 named events M^α fit)
+- ε = 10⁻³⁸ (calibrated to hierarchy)
+- τ_4D = 1.51×10³⁴ yr (calibrated to DE)
+- γ_4D = 6.03×10⁹⁰ (was 1.29×10⁶⁴ v3.1.2)
+- τ_3D_apparent = 9.10×10²⁴ yr (was 1.83×10⁹⁸ yr)
+- N_sub = 4×10² (free, was 300 in v3.1.2)
+- AGN rate = 3×10⁻¹⁶ /m³/s (calibrated to 27% DM)
+
+**v3.3 RESULTS**:
+- DE matches obs within 8.4% (NOT 0.24% — that was a v3.3 miscalculation; framework's calibration precision, see §3.67b)
+- DM matches obs exactly (calibrated AGN) ✓
+- Baryons match obs (BBNS) ✓
+- Total: 1.0 × ρ_crit ✓
+- 8/8 named events fit M^1.29 within 1.6× ✓ (rigorous test set in §10.1)
+- TRGB $H_0$ = 70.16 closest (0.2σ) ✓
+- 24 named events in §10.1 ✓
+
+**Files updated**:
+- paper/markdown/00_title.md: v3.3 highlights
+- paper/markdown/03c_lagrangian.md: §3.60.4, §3.67 (multiple sub-sections)
+- paper/markdown/03c_lagrangian.md: §3.71 closed loop
+- paper/markdown/06_limitations.md: L100, L138, L139, L141, L145, L150 (Scenario X → v3.3)
+- README.md: v3.3 framing
+- persistent_memory.md: full v3.3 cascade rewrite
+- calculations/v33_*.py: ~12 new v3.3-era calculations
+
+**Page count**: 371 (was 354 in v3.1.2-final)
+
+**Repository**: https://github.com/ampbuster/gravity-as-residual
+
+**Commits**: ~15 commits in v3.3 era (commits eb8eddb through b578e10)
+
+---
+
+## v3.4 (June 2026) — F-theory 12D as 4D bulk, "12 propagates" honest reframe
+
+**Reason for major version bump:** F-theory 12D adopted as the 4D bulk theory (Vafa 1996). User caught 8 inconsistencies in the "12 propagates" claim (v3.4.5-7). Honest reframe: "12 is correlation, not derivation".
+
+**KEY CHANGES**:
+- **F-theory 12D adopted as 4D bulk**: 10D base (Type IIB) + 2D T² fiber = 12D (Vafa 1996). Compactifies to 4D N=1 SUSY.
+- **"12 propagates" honest reframe (v3.4.6)**: 12 at each level is DIFFERENT physics:
+  - 2D: 12 Majorana (N=12 SYK, standard benchmark)
+  - 3D: 12 GAUGE BOSONS in SM (SU(3)+SU(2)+U(1) = 8+3+1)
+  - 3D: 12 fermion FLAVORS across 3 generations (4 Dirac × 3)
+  - 4D: F-theory 12D (structural)
+- **v3.4.7 META-ANALYSIS**: Why "12" is common (12 = 2²×3 highly composite, 6 divisors, smallest with 6 for n ≤ 16). Same reason as 12 hours, 12 months, 12 semitones.
+- **v3.4.8 AGE IMPLICATIONS**: t_0/τ_3D = 1.5×10⁻¹⁵ → universe is at cosmic "day 1" → SIDC is INITIAL-CONDITIONS framework
+
+**8 INCONSISTENCIES FOUND (v3.4.5-7)**:
+1. N=12 in SYK is standard benchmark, NOT theoretically motivated
+2. α = 1 + 1/√N is NOT a standard SYK formula (phenomenological)
+3. "12 SM fermions/gen" is FALSE (15-16 Weyl or 7-8 Dirac per gen)
+4. "h^{2,1}=N → N generations" REFUTED (arXiv:0910.5464 has h^{2,1}=4 + 3 gen)
+5. Z_12 fundamental group DOES exist in CY3 quotients (verified)
+6. SM has 12 gauge bosons (real match), NOT 12 fermions/gen
+7. SM has 12 fermion FLAVORS across all 3 gens (NOT per gen)
+8. DOF conservation at 24 was framework's interpretation, NOT a law
+
+**v3.4 KEY FILES**:
+- paper/markdown/03g_f_theory_12d_4d_bulk.md: NEW F-theory 12D section
+- calculations/v34_*.py: ~6 new v3.4-era calculations
+- paper/markdown/06_limitations.md: L283-L297 added (v3.4.6-7 limitations)
+
+**Page count**: 365 (was 371 in v3.3)
+
+**Repository**: https://github.com/ampbuster/gravity-as-residual
+
+**Commits**: ~12 commits in v3.4 era
+
+---
+
+## v3.5 (June 2026) — TIER 2 research, μ structural motivation, naming revolution
+
+**Reason for major version bump:** Five research rounds (v3.5-v3.5.7) established μ has 5+ structural origins. Naming revolution: $f_{\rm back}$ → $f_{\rm DM,leak}$ / $f_{\rm DM,death}$ / $f_{\rm DE}$. 116 honest limitations (was 81 in v3.3).
+
+**KEY RESEARCH ROUNDS**:
+- **v3.5 TIER 2**: CY3 Z_12 (2-3 of ~28 have explicit Z_12), α = 1 + 1/√N interpretation, μ F-theory (10³⁴× off, doesn't directly give μ)
+- **v3.5.1**: "1/2" has 3+ anchors (Schwarzian, DOZZ, Ising, L308)
+- **v3.5.2-v3.5.3**: 5 structural candidates for "2×" factor in μ, 45 alternative formulas
+- **v3.5.4**: 10 candidates for why $T_H$ = $T_{\rm Pl,2D}$ — TOP 3: Planckian max, Euclidean periodicity, Hagedorn
+- **v3.5.5**: Lagrangian L = L_c=1 + L_Schwarzian + L_N=12 SYK consistently gives μ = $M_{\rm Pl}$,2D² via 3 routes
+- **v3.5.6 WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins:
+  1. **Unimodular gravity (HT)**: Λ is INTEGRATION CONSTANT — calibrated μ is EXPECTED in modern gravity
+  2. **Hagedorn $T_H$ = M_s/(2π)**: EXACT from closed string modular invariance (Chaudhuri 2001)
+  3. **JT U(Φ)=2Φ**: the "2" traces to $R_{\rm AdS}$,2 = -2/L²
+  4. **String thermal duality**: b ↔ 1/(2b) (Kogan 1990)
+  5. **Hawking-Page + Euclidean periodicity**: β = 2πL forced by SL(2,R)
+- **v3.5.7 HOLOGRAPHIC**: String minimal area gives μ = M_s² (L319). "2π" is UNIVERSAL 2D factor (L320, Longo 2024 Bekenstein bound)
+- **v3.5.7 AUDIT**: Framework internally consistent (47 legacy limitations archived)
+- **v3.5.7 NAMING REVOLUTION** (user-suggested, June 19, 2026):
+  - f_DM,leak = continuous 2D→3+1D (1.6×10⁻⁴⁵, negligible)
+  - f_DM,death = pulsed 2D→3+1D at death (1, 100% → DM)
+  - $f_{\rm DE}$ = continuous 3+1D→4D (1.2×10⁻⁸⁵ → DE)
+
+**v3.5 KEY FILES**:
+- paper/markdown/AUDIT_REPORT_v357.md: NEW consistency audit
+- paper/markdown/v35_6_FINAL_SUMMARY.md: NEW v3.5.6 summary
+- calculations/v35_*.py: ~8 new v3.5-era calculations
+- paper/markdown/06_limitations.md: L307-L322 added (v3.5.x limitations, 5 origins + holographic + naming)
+- paper/legacy/v357_*.md: 3 NEW legacy files (audit housekeeping, $f_{\rm back}$ clarification, legacy parameters)
+
+**v3.5.7+ POST-PROCESSING** (June 19-20, 2026):
+- paper/build_tools/wrap_math_vars.py: state machine for math detection
+- paper/build_tools/combine_adjacent_math.py: combines adjacent math expressions
+- paper/build_tools/fix_math_spacing.py: 2-pass math spacing (add aggressive, strip inside)
+- paper/build_pdf.sh: pre-build pymarkdownlnt + math-balance check
+- README.md: $f_{\rm back}$ naming (408 replacements across 77 files)
+
+**Page count**: 370 (current)
+
+**Repository**: https://github.com/ampbuster/gravity-as-residual
+
+**Commits**: ~30+ commits in v3.5 era

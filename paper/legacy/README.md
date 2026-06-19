@@ -1,38 +1,88 @@
-# Paper Legacy Directory
+# Paper Legacy Content
 
-This directory contains historical paper sections that were used during SIDC's development but are no longer part of the current (v3.1.2-final) model.
+This directory contains **superseded content** from earlier SIDC versions.
+The current paper is in `paper/markdown/`. Current version: **v3.5.7+**.
 
-## Files
+These files are kept for historical reference and to document the framework's
+evolution. They are NOT part of the current paper.
 
-| File | Reason for move to legacy |
-|---|---|
-| `legacy_paper.md` | Earlier draft of the full paper, with historical v2.7 sections (4-zone H(z) attempts, etc.) |
-| `v31_60_4_old.md` | v3.1.2 (early) §3.60.4 with E_4D = 10⁶⁹ J (Scenario A framing) and "DUAL FRAMING" α = 1.258 vs 1.289. Superseded by v3.1.2-final §3.60.4 with Scenario X and α = 1.289 only. |
-| `v33_9d_speculation.md` | 9D = String Theory connection (DROPPED in v3.3 #23). M_Pl,4D = 9×10¹⁸ GeV from 9D scaling was REPLACED by α-weighted GM derivation giving 4×10²³ GeV |
-| `v33_development_history.md` | v3.3 iterative corrections #14-#33 leading to bilateral cascade. Shows the development path to current M^α law and f_back² framework |
-| `v357_audit_housekeeping.md` | v3.5.7 consistency audit results. 47 legacy limitation references (L44-L282) documented. No fundamental inconsistencies found, just housekeeping |
-| `v357_legacy_parameters.md` | v3.5.7 audit: old α values (1.18, 1.20, 1.239, 1.258, etc.) and M_Pl,4D/τ_3D/γ_4D/E_4D evolution across versions |
+## v3.1.2-final Era (SUPERSEDED by v3.3)
 
-## Why keep legacy content?
+### `v31_60_4_old.md`
+Original v3.1.2 §3.60.4 with:
+- E_4D = 10⁶⁹ J (Scenario A)
+- DUAL FRAMING (α = 1.258 vs 1.289)
+- Scenario X mentioned as alternative
 
-The v3.1.2-final framework is the result of:
-1. Multiple scenarios tested (A, B, X) — only X survived
-2. Empirical test of α = 1.258 against 14 events — REJECTED (13/14 fail)
-3. Reframing of sub-universe identification (galaxies → energetic 4D-bulk events)
-4. Frame-of-reference clarification (apparent vs proper time)
-5. Age vs lifetime distinction (13.8 Gyr age vs ~10³⁰ yr predicted lifetime)
+**SUPERSEDED** by v3.3 §3.60.4 (E_4D = 5×10⁷⁹ J, M_Pl,4D = 4×10²³ GeV via α-weighted GM)
 
-Keeping legacy content shows the development path and demonstrates that the final framework is the result of empirical rejection of alternatives, not selection bias.
+### `v33_9d_speculation.md`
+The 9D = v_Higgs speculation (Scenario X favored M_Pl,4D = 887 GeV).
+Includes the calculation showing 9D extension gives M_Pl,9D ≈ v_Higgs = 246 GeV.
 
-## v3.1.2-final key corrections
+**SUPERSEDED** by v3.3 where 9D = v_Higgs is DROPPED (was 1.3% match but
+required Scenario X which had broken multi-universe picture).
 
-1. **AGE vs LIFETIME distinct**: 13.8 Gyr is universe AGE (observed), predicted total LIFETIME ~10³⁰ yr (M^α)
-2. **FRAME OF REFERENCE distinct**: M^α law gives APPARENT durations in LOWER-D frame, 4D event proper duration ~10⁻²⁰ s (γ ~ 10⁶²)
-3. **SCENARIO X ADOPTED**: M_Pl,4D = 887 GeV (4D BULK Planck, separate from M_Pl,3D)
-4. **α = 1.258 REJECTED**: 14-event M^1.29 fit requires α = 1.289
-5. **Sub-universe = energetic 4D-bulk event**: N_sub = 300, not 3×10¹²
+### `v33_development_history.md`
+Detailed development history of v3.3.x (v3.3.1 through v3.3.15).
 
-## See also
+**SUPERSEDED** by v3.5.7+. 47 archived limitations in `v357_audit_housekeeping.md`.
 
-- `paper/markdown/06_limitations.md` L138-L150 for the limitation status
-- `paper/markdown/03c_lagrangian.md` §3.70, §3.71 for the current framework
+## v3.5.7 Era (AUDIT + NAMING REVOLUTION)
+
+### `v357_audit_housekeeping.md`
+47 legacy limitations archived during the v3.5.7 consistency audit.
+Documents which v3.0-v3.4 limitations were merged, dropped, or retained.
+
+**CURRENT**: v3.5.7 audit; framework internally consistent.
+
+### `v357_f_back_clarification.md`
+The naming revolution: f_back → f_DM_leak / f_DM_death / f_DE.
+
+**CURRENT**: v3.5.7 naming; 408 systematic replacements applied.
+
+### `v357_v356_final_summary.md`
+Final summary of v3.5.6 WEB SEARCH BREAKTHROUGH (5 structural origins of μ).
+Documents the session timeline v3.5 → v3.5.6 and the μ status change from
+"calibrated (L26 OPEN)" to "STRUCTURALLY MOTIVATED + consistent with modern gravity".
+
+**CURRENT**: incorporated into §7.5-7.7 of `06_limitations.md`.
+
+### `v357_legacy_parameters.md`
+Legacy parameters and their final disposition:
+- μ status: calibrated → STRUCTURALLY MOTIVATED (5+ origins)
+- M_Pl,4D: INFERRED (887 GeV v3.1.2 Scenario X) → DERIVED (4×10²³ GeV v3.3 α-weighted GM)
+- N_sub: ARBITRARY (300 in v3.1.2) → FREE (4×10² in v3.3)
+- E_4D: GALAXY-SCALE (10⁵⁹ J in v3.1.2) → UNIVERSE-SCALE (5×10⁷⁹ J in v3.3)
+
+**CURRENT**: v3.5.7 parameters.
+
+## Consolidated
+
+### `legacy_paper.md`
+Full v3.0.x era paper (single-file version before v3.0.13 split).
+197,776 bytes, ~ 600 pages equivalent.
+Mostly SUPERSEDED by v3.5.7+ but kept for completeness.
+
+## Why Legacy?
+
+The SIDC framework has gone through **8 major iterations** (v2.7.3 → v3.5.7+).
+Each iteration produced:
+- New derivations (M_Pl,4D, E_4D, γ_4D, τ_3D_apparent)
+- New understanding (bilateral cascade, α-weighted GM, f_back naming)
+- New limitations (consolidated into v3.5.7's 116 honest limitations)
+- New framework revisions (cone-shaped, F-theory 12D, μ structural origins)
+
+The legacy content captures the **reasoning trajectory** that led to v3.5.7+.
+It is useful for:
+- Reviewers wanting to see how the framework evolved
+- Future work that may revisit earlier ideas
+- Self-critical methodology (SIDC's hallmark per §3.16)
+
+## Cross-References
+
+- Current paper: `paper/paper.pdf`
+- Current limitations: `paper/markdown/06_limitations.md`
+- Current state of model: `STATE_OF_THE_MODEL.md`
+- Current persistent memory: `persistent_memory.md`
+- Current changelog: `changelog.md`

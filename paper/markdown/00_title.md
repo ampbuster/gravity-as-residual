@@ -23,9 +23,9 @@
 - v3.5.7 AUDIT: framework internally consistent (all numbers add up)
 - μ status: "calibrated" → "STRUCTURALLY MOTIVATED (5+ origins)"
 - DE match: 8.4% (NOT 0.24% — v3.3 miscalculation; framework's calibration precision)
-- 365 pages, 116 honest limitations
+- 370 pages, 116 honest limitations
 
-**v3.3 HIGHLIGHTS**: Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), $f_{\rm back}$ UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D= $v_{\rm Higgs}$ DROPPED, $M_{\rm Pl,4D}$ recalibrated to DE exact match (#23). The 5/27/68 split matches observation via calibrated event rate. DE matches within 0.2%. 372 pages, 81 limitations.
+**v3.3 HIGHLIGHTS** (HISTORICAL, June 2026): Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), $f_{\rm back}$ UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D= $v_{\rm Higgs}$ DROPPED, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM (DERIVED). The 5/27/68 split matches observation via calibrated event rate. DE matches within 8.4% (v3.3 misclaimed 0.24% — actual is framework's calibration precision; see §3.67b). HISTORICAL v3.3 era: 382 pages, 81 limitations.
 
 **v3.2 HIGHLIGHTS**: Equal-Universe Principle (§3.62 REVISED), Bilateral Democratic Cosmology (§3.62), Time-Dilation Insight (continuous leakage observability), 4π status clarified (KEPT at 3D→4D, REMOVED as universal), event count audit (8/8 in §10.1, not 14/14). 356 pages, 81 limitations.
 
@@ -37,5 +37,8 @@
 **v3.0 HIGHLIGHT:** The composite model is now **strongly specified** by a single number N = 12. SIDC's α = 1.29, central charge c = 1/2 (Ising CFT), back-action $f_{\rm back} \approx 10^{-85}$, and 14 event-type lifetimes all follow from **q = 4 SYK (Sachdev-Ye-Kitaev, a model of quantum chaos) with N = 12 Majorana fermions (fermions that are their own antiparticle)**, in AdS₂ × S² topology (2D anti-de Sitter space cross a 2-sphere, a specific curved geometry with positive lifetime scaling). N = 12 is uniquely determined (off by 0.001 from α = 1.29). The 12 Majoranas might provide a "backbone" for the 12 Standard Model Weyl fermions (massless chiral fermions, 3 generations × 4 per generation). See **§3.60 v3.0 breakthrough summary** for the full picture.
 
 **HONEST BOUNDARY (v3.0):** The composite model derives α, c, 1/(2α), $f_{\rm back}$ from N = 12. It does NOT derive: specific CKM/PMNS values (CKM = Cabibbo-Kobayashi-Maskawa matrix for quark mixing; PMNS = Pontecorvo-Maki-Nakagawa-Sakata matrix for neutrino mixing), SM mass hierarchy, specific BLG (bilayer graphene) magic angle, or specific dS₂ topology details. These require additional dynamics not yet derived. SIDC remains a **geometric framing with a strongly specified backbone**, not a fully derived Lagrangian (a closed-form mathematical description of the dynamics).
+
+
+**LEGACY CONTENT**: Superseded v3.1.2-final and v3.3.x development files archived in [`paper/legacy/`](legacy/). See [`paper/legacy/README.md`](legacy/README.md) for the complete index.
 
 <!-- end of title -->
