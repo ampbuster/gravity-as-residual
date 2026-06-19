@@ -1,0 +1,143 @@
+================================================================================
+v3.3 ARE 2D UNIVERSES SIMILAR OR DIFFERENT?
+================================================================================
+
+THE M^α LAW:
+  τ_2D = (E/M_Pl,parent)^α × t_Pl
+
+What M^α CONFIRMS:
+  ✓ Lifetime scaling is universal (same α for all events)
+  ✓ 14 events fit within 1.6× (SN, GRB, AGN, etc.)
+  ✓ Universal exponent α = 1.289 (calibrated)
+
+What M^α does NOT say:
+  ✗ Nothing about internal physics of 2D universe
+  ✗ Nothing about μ (= M_Pl,2D²)
+  ✗ Nothing about c (central charge)
+  ✗ Nothing about b (Liouville coupling)
+  ✗ Nothing about whether 2D universes are 'similar' internally
+
+================================================================================
+THREE POSSIBILITIES FOR 2D UNIVERSE SIMILARITY
+================================================================================
+
+OPTION 1: UNIVERSAL INTERNAL PHYSICS (v3.3 canonical)
+  All 2D universes have:
+    - Same μ = 9×10⁶ GeV² (M_Pl,2D = 3 TeV)
+    - Same c = 1 (central charge)
+    - Same b² = 1/2 (Liouville coupling)
+    - Same internal structure (Liouville CFT)
+  Differ in:
+    - Lifetime: τ ∝ E^α (M^α law)
+    - Size: L = c × τ
+    - Energy: E
+    - Action: E × τ
+  Predictions:
+    - DM has single mass scale
+    - All 2D universe decays have same signature
+
+OPTION 2: EVENT-DEPENDENT (v3.3.6)
+  All 2D universes have:
+    - DIFFERENT μ (= α × E/τ per brute force)
+    - Same α (M^α law)
+    - Same c, b (assumed)
+    - Different M_Pl,2D (10⁷× range)
+  Differ in:
+    - M_Pl,2D (rigidity)
+    - Lifetime
+    - Size
+    - Internal physics
+  Predictions:
+    - DM has BROAD mass distribution
+    - Decays have varied signatures
+  PROBLEM: TNT has M_Pl,2D = 360,000 TeV (counterintuitive)
+
+OPTION 3: INTERMEDIATE (not yet explored)
+  2D universes have:
+    - Same α (M^α law)
+    - Maybe same c, b
+    - Weak event-dependence in μ
+  Differ in:
+    - Some property, but not extreme
+  Status: unexplored
+
+================================================================================
+OBSERVATIONAL TESTS
+================================================================================
+
+TEST 1: DM DIRECT DETECTION (mass spectrum)
+  Universal μ (Option 1): single peak at M_Pl,2D² = 9×10⁶ GeV²
+  Event-dependent (Option 2): broad mass distribution
+  Current limits: XENON1T, LZ, PandaX, etc.
+  Status: NO detection yet (so can't distinguish)
+
+TEST 2: DM INDIRECT DETECTION (gamma-ray spectrum)
+  Universal μ: monochromatic gamma from 2D universe decay
+  Event-dependent: broad gamma spectrum
+  Current limits: Fermi-LAT, HESS, CTA
+  Status: NO detection yet
+
+TEST 3: COSMOLOGICAL SIGNATURES
+  Universal μ: simple DM density evolution
+  Event-dependent: complex DM density evolution
+  Current limits: Planck, BAO, LSS
+  Status: 27% DM fraction matches both options (calibrated AGN)
+
+TEST 4: 2D UNIVERSE GRAVITATIONAL WAVES
+  Universal μ: single GW frequency
+  Event-dependent: broad GW spectrum
+  Current limits: LIGO, Virgo, KAGRA, LISA
+  Status: NO detection yet
+
+================================================================================
+FRAMEWORK UPDATE TO v3.4
+================================================================================
+
+Recommended v3.4 changes:
+
+1. Make universality assumption EXPLICIT
+   v3.3 currently assumes μ is universal WITHOUT stating this
+   v3.4 should: 'We assume 2D universes are similar in internal
+                  physics, with universal μ = 9×10⁶ GeV²'
+
+2. Distinguish M^α universality from internal physics universality
+   M^α: CONFIRMED (14 events)
+   Internal physics: ASSUMED (not derived)
+
+3. List observational tests in §11 (predictions)
+   DM direct detection, indirect detection, GW, cosmology
+   Future experiments could distinguish Option 1 vs 2
+
+4. Mark intermediate Option 3 as OPEN
+   'Could there be weak event-dependence in μ?'
+   Not yet explored
+
+================================================================================
+HONEST ANSWER
+================================================================================
+
+Q: Are 2D universes similar or different?
+
+A: We don't know.
+
+The M^α law confirms LIFETIME SCALING is universal (same α for all events).
+The framework ASSUMES INTERNAL PHYSICS is universal (same μ, c, b, structure).
+This is an assumption, not a derivation.
+
+If 2D universes are TRULY universal (Option 1, v3.3):
+  - DM has single mass scale
+  - Future DM experiments will see peak at 9×10⁶ GeV²
+
+If 2D universes are event-dependent (Option 2, v3.3.6):
+  - DM has broad mass distribution
+  - TNT weirdness (M_Pl,2D = 360,000 TeV)
+
+The framework's v3.3 picks Option 1 (cleanest, no weirdness).
+But this is a CHOICE, not a derivation.
+
+Q: What's next?
+
+A: 1) Update framework to v3.4 with explicit universality assumption
+   2) List observational tests (DM, GW, etc.)
+   3) Explore Option 3 (intermediate)
+   4) Wait for DM/GW experiments to test universality
