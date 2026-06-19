@@ -14,10 +14,27 @@
 - **A Lagrangian for SIDC** (L116): S = S_4D + S_3+1D + ΣS_2D + S_projection
 - **c-value resolution** (L117): UV c=7 → IR c=3/2 via SYK q=4
 - **L41, L42 CLOSED** (L118): only 2 free parameters remain (μ, m₃₊₁D = v_Higgs)
-- ~~**5D/6D extension**~~ (L121, **UNCERTAIN in v3.3**): M_Pl,N = M_Pl,4/α^(N-4) — relied on α-power extrapolation, weaker support without α-symmetry
-- **~~9D = string theory~~** (L122, **DROPPED in v3.3**): M_Pl,9D extrapolation was 249 GeV ≈ v_Higgs = 246 GeV (1.3%), but 9D extension was DROPPED in v3.3 (#23). M_Pl,4D now derived via α-weighted GM.
+- **[STRUCK: 5D/6D extension]** (L121, **UNCERTAIN in v3.3**): M_Pl,N = M_Pl,4/α^(N-4) — relied on α-power extrapolation, weaker support without α-symmetry
+- **9D = string theory** (L122, **DROPPED in v3.3**): M_Pl,9D extrapolation was 249 GeV ≈ v_Higgs = 246 GeV (1.3%), but 9D extension was DROPPED in v3.3 (#23). M_Pl,4D now derived via α-weighted GM.
 - **Hierarchy problem** (L127): M_Pl,3 >> v_Higgs — ε = 10⁻³⁸ calibrated (not solved from first principles)
 - **SIDC-SM connection** (L128-L136): 12 SYK = 12 SM gauge generators (kept); 9D→4D compactification **DROPPED in v3.3** (9D extension removed)
+
+**v3.4 F-THEORY 12D AS 4D BULK (NEW v3.4.6 with HONEST REFRAME)**:
+- F-theory 12D adopted as 4D bulk theory (Vafa 1996, 10 base + 2 T² fiber = 12D)
+- "12 propagates" honest reframe (v3.4.6): 12 at each level is DIFFERENT physics:
+  - 2D: 12 Majorana (N=12 SYK, standard benchmark)
+  - 3D: 12 GAUGE BOSONS in SM (SU(3)+SU(2)+U(1) = 8+3+1)
+  - 3D: 12 fermion FLAVORS across 3 gens (4 Dirac × 3, NOT per gen)
+  - 4D: F-theory 12D (structural)
+- "12" is a CORRELATION, NOT a derivation (v3.4.5, v3.4.7 meta-analysis)
+- N=12 in SYK is the STANDARD NUMERICAL BENCHMARK, not theoretically motivated
+- α = 1 + 1/√N is NOT a standard SYK formula (phenomenological fit)
+- "12 SM fermions/gen" was WRONG (SM has 15-16 Weyl or 7-8 Dirac per gen)
+- "h^{2,1}=N → N generations" was REFUTED (arXiv:0910.5464 has h^{2,1}=4 AND 3 generations)
+- DOF conservation at 24 was FRAMEWORK'S INTERPRETATION, not a law (DROPPED)
+- "Why 12?" REMAINS UNANSWERED — 12 is common in physics for ARITHMETIC reasons (highly composite number 2²×3)
+- See `paper/markdown/03g_f_theory_12d_4d_bulk.md` and `calculations/v34_*` for details
+- 89 honest limitations (was 81 in v3.3, +L283-L292 for v3.4.6 honest reframe, +L293-L297 for v3.4.7 meta)
 
 **v3.0.2 PARAMETER CLEANUP (REVISED v3.2)**: 0 calibrated postulates for per-event physics (was 3 in v2.7.x, 5 in v2.7.16). Most values now DERIVED from the cascade structure:
 - **$f_{\rm back}$** = ε × ( $E_{4D}$ / $M_{\rm Pl}^4$) — bulk-brane coupling × 4D event energy ratio

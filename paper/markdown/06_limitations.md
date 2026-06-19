@@ -477,3 +477,56 @@ L292. **"Why 12?" remains unanswered** (v3.4.6). Multiple correlations: N=12 SYK
 
 **v3.4 status**: F-theory 12D adopted, 8 new limitations (L283-L292) for the "12" pattern honest reframe.
 **Total limitations**: 89 (was 81 in v3.1.2-final, +L261-L282 for F-theory 12D and "12" pattern, +L283-L292 for v3.4.5/3.4.6 honest reframe)
+
+## 7.3 v3.4.7 Limitations: Why "12" is common in physics (META)
+
+L293. **"12" is common in physics for ARITHMETIC reasons, not because physics has a "12 principle"** (v3.4.7). 12 = 2² × 3 is the smallest highly composite number with 6 divisors (1, 2, 3, 4, 6, 12) for n ≤ 16. This is the same reason 12 appears in clocks (12 hours), calendars (12 months), music (12 semitones), and currency (12 pennies/shilling). The "12" in physics is a coincidence of arithmetic, not a derivation. Source: `calculations/v34_12_in_physics_meta.py`.
+
+L294. **"12 propagates" through cascade is a CORRELATION, not a derivation** (v3.4.7). The framework's claim that "12 propagates as a structural constant" is overstated. Each "12" at each cascade level has its own INDEPENDENT physics origin:
+- 2D: N=12 is the standard SYK numerical benchmark (tractical choice, not theoretical)
+- 3D: 12 gauge bosons come from SU(3) × SU(2) × U(1) generators (8+3+1)
+- 3D: 12 fermion FLAVORS come from 4 Dirac × 3 generations (coincidental)
+- 4D: 12 dimensions come from F-theory 10+2 (structural)
+These are INDEPENDENT, not "propagating". Source: `calculations/v34_12_in_physics_meta.py`.
+
+L295. **12 has 13+ independent physics occurrences (none derived from cascade)** (v3.4.7). All "12"s in physics have INDEPENDENT origins:
+- 12 fermion FLAVORS (SM, coincidence)
+- 12 gauge BOSONS (SM, structural)
+- F-theory 12D (structural)
+- N=12 SYK (numerical benchmark)
+- E_6 Coxeter = 12 (Lie algebra)
+- A_11 Dynkin = 12 simple roots
+- F_4 Coxeter = 12
+- icosahedron vertices = 12 (Platonic solid)
+- A_4 alternating group = order 12
+- 12 = 2² × 3 (pure arithmetic)
+- 12 fermion families (4 Dirac × 3)
+- E_8 subgroups
+- 12 = 4 × 3
+None of these derive from the cascade. The cascade's "12" is one of many. Source: `calculations/v34_12_in_physics_meta.py`.
+
+L296. **Small highly composite numbers (2, 3, 4, 8, 12) are over-represented in physics** (v3.4.7). Other common numbers and their physics occurrences:
+- 2: Z₂, spin-1/2, parity, chirality (~6+)
+- 3: generations, colors, dimensions (~5+)
+- 4: 4D spacetime, 4 forces, quaternion dim (~4+)
+- 8: gluons (SU(3) adj), octonions, N=8 SUGRA, 8-fold way (~4+)
+- 12: gauge bosons, fermion flavors, F-theory dim (~13+, MOST common)
+- 24: 24-cell (4D), 24 = 4! (~3)
+- 60: icosahedral order, base-60 (~3)
+- 137: 1/α_EM (~1, very specific)
+- 248: dim(E_8) (~2)
+Small highly composite numbers appear naturally in physics because they have many factorizations, are easy to count, and combine to form larger structures. Source: `calculations/v34_12_in_physics_meta.py`.
+
+L297. **The question "Why 12?" should be reframed as "Why specific structures give 12?"** (v3.4.7). The real physics questions are NOT "does 12 appear?" (it obviously does) but WHY specific structures produce 12:
+- SM gauge group SU(3) × SU(2) × U(1) → 12 generators
+- F-theory: 10 + 2 = 12 dimensions
+- E_6: 78-dimensional Lie algebra, Coxeter 12
+- Icosahedral symmetry: order 60, with 12 vertices
+- SM fermion flavor count: 4 Dirac × 3 generations = 12
+
+The framework notes the "12" pattern as a curiosity but does not derive it. Status: REFRAMED. Source: `calculations/v34_12_in_physics_meta.py`.
+
+---
+
+**v3.4 status**: F-theory 12D adopted, 12 new limitations (L283-L297) for the "12" pattern honest reframe and meta-analysis.
+**Total limitations**: 92 (was 81 in v3.3, +L283-L292 for v3.4.6 honest reframe, +L293-L297 for v3.4.7 meta)

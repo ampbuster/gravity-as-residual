@@ -1,5 +1,19 @@
 # Layman Summary: Gravity as Residual
 
+**v3.4.6 — June 2026** (HONEST REFRAME of the "12 propagates" hypothesis. 89 honest limitations. Paper at 357 pages.)
+
+**v3.4 — June 2026 — F-THEORY 12D AS 4D BULK (NEW)**
+
+SIDC's 4D bulk theory is now F-theory 12D (Vafa 1996). F-theory has 12 dimensions: a 10-dimensional Type IIB spacetime base plus a 2-dimensional torus fiber that encodes the axio-dilaton. Compactifying F-theory on a Calabi-Yau threefold with Euler characteristic χ = ±6 gives 4D N=1 supersymmetry with 3 generations of Standard Model fermions (the Tian-Yau construction, arXiv:0910.5464).
+
+**HONEST REFRAME (v3.4.6)**: SIDC notes that "12" appears at multiple cascade levels:
+- 2D: N=12 SYK (the standard numerical benchmark for SYK simulations)
+- 3D: 12 gauge bosons in the Standard Model (SU(3) + SU(2) + U(1) = 8+3+1)
+- 3D: 12 fermion FLAVORS across all 3 generations (4 Dirac × 3)
+- 4D: F-theory 12 dimensions
+
+But this "12 propagates" pattern is a CORRELATION, not a derivation. Each "12" has its own physical origin. The "12" is common in physics for ARITHMETIC reasons (12 = 2² × 3 is a highly composite number with 6 divisors). Why 12? Still open.
+
 **v3.0.2 — June 2026** (SIDC naming RESTORED. 298 pages, 37 honest limitations. SIDC = Scale-Invariant Dimensional Cascade. Works at any dimension: 5D→4D, 4D→3+1D (us), 3D→2D. Structural scale invariance, parametric dim-dependence.)
 
 **v3.0 — June 2026 — MAJOR VERSION BUMP**
