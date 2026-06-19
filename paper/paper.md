@@ -4313,203 +4313,199 @@ See `calculations/lagrangian_v23_dm_de_gravity.py` through
 
 # First-Principles Analysis: c=1 Matrix Model → M_Pl,2D = 3 TeV
 
-**v3.3.7, OPTION A FULL ADOPTION: CONSEQUENCES**
+**v3.3.8, USER'S SHARP TNT WEIRDNESS CATCH**
 
-## What Option A Means
+## User's Insight
 
-User: "if we adopt option a, what are the consequences"
+> "why tnt weird? smaller event cause larger universe? but won't that produce more dm? inconsistent"
 
-**Option A**: Fully adopt event-dependent μ (user's hypothesis)
-- μ_i = K × α × E_i / τ_i (per event)
-- M_Pl,2D(i) = √μ_i (per event)
-- New universal constant K (replaces μ as calibrated parameter)
+The user correctly identified a **real inconsistency** in Option A (event-dependent μ).
 
-## The 10 Major Consequences
+## The Weirdness Explained
 
-### 1. μ is now event-dependent
-- SN: μ = 9.67×10⁶ GeV², M_Pl,2D = 3 TeV
-- AGN: μ = 1.01×10⁴ GeV², M_Pl,2D = 100 GeV
-- Quasar: μ = 2.02×10² GeV², M_Pl,2D = **14 GeV**
-- TNT: μ = 1.28×10¹⁷ GeV², M_Pl,2D = **360,000 TeV**
+The brute force formula μ = E/τ gives:
 
-**M_Pl,2D spans 10⁷ across events.**
+| Event | μ (GeV²) | M_Pl,2D | User's intuition |
+|---|---|---|---|
+| TNT (small event) | 1.28×10¹⁷ | **360,000 TeV** | Should be SMALLER, not bigger! |
+| SN (medium event) | 9.67×10⁶ | 3 TeV | Reasonable |
+| Quasar (huge event) | 2.02×10² | **14 GeV** | Should be LARGER, not smaller! |
 
-### 2. Hierarchy is event-dependent
-- SN: hierarchy = M_Pl,3D/M_Pl,2D = 10¹⁹/3×10³ ≈ 10¹⁶
-- Quasar: hierarchy = 10¹⁹/14 ≈ 10¹⁷·⁸
-- TNT: hierarchy = 10¹⁹/3.6×10⁸ ≈ 10¹⁰·⁵
+**M_Pl,2D is INVERTED from event size!**
 
-The "hierarchy problem" is no longer a single number — it's event-dependent.
+## Why This Is Confusing
 
-### 3. DM is dominated by AGN/quasar (not SN!)
-Per-event DM mass contribution:
-- SN: m_2D ∝ E²·²⁸⁹ (event-dep) or E²·⁵⁷⁸ (universal)
-- BNS, hypernova, GRB: similar scaling
-- **AGN, Quasar: 10¹⁰× more DM contribution per event!**
+The user's intuition: small event → small 2D universe → small M_Pl,2D
 
-In v3.3 (universal μ), the framework claimed SN-class events dominate DM.
-In v3.3.6 (event-dep μ), **AGN/quasar naturally dominate** — they have both high E AND high τ.
+Reality with brute force formula:
+- Small event → SHORT lifetime (τ_2D ∝ E^α) → high μ → high M_Pl,2D
+- Big event → LONG lifetime → low μ → low M_Pl,2D
 
-### 4. m_2D scaling changes
-- **Universal μ**: m_2D ∝ E^(2α) = E^2.578
-- **Event-dep μ**: m_2D ∝ E^(1+α) = E^2.289
+So **M_Pl,2D is inversely correlated with event energy.**
 
-Both scale strongly with E, but the powers differ. The relative weights of events shift.
+This is **counterintuitive** because we might think:
+- Higher energy → more "stuff" → higher mass scale
+- But the formula gives opposite
 
-### 5. Gravitational wave background widens
-- **v3.3**: GW frequency ~ M_Pl,2D/c² ~ 10⁹ Hz (single peak)
-- **v3.3.6**: GW frequency ~ M_Pl,2D(i)/c² spans 10⁶ - 10¹² Hz (wide spectrum)
+## Why This Might Be Right (Defenders)
 
-Different observability:
-- SN 2D universes: 10⁹ Hz (hard to observe)
-- AGN 2D universes: ~10⁸ Hz (LIGO/Virgo band!)
-- TNT 2D universes: ~10¹² Hz (very high)
-- Quasar 2D universes: ~10⁶ Hz (LISA/PTA band!)
+**Interpretation**: M_Pl,2D is NOT universe size. It's the quantum gravity scale.
 
-### 6. Cosmological implications
-- **5% baryons**: unchanged (BBNS)
-- **27% DM**: now event-weighted (AGN-rich regions have more DM)
-- **68% DE**: unchanged (4D event anti-gravity, τ_4D universal)
-- **H_0**: TRGB 70.16 still closest (no change in calculation)
+- **High M_Pl,2D** = "rigid" 2D universe (strong quantum gravity at lower energies)
+- **Low M_Pl,2D** = "soft" 2D universe (weak quantum gravity)
+- **Universe SIZE** depends on energy × time = action, not M_Pl,2D directly
 
-### 7. DM distribution in space changes
-- v3.3: DM follows SN distribution
-- v3.3.6: DM follows AGN/quasar distribution
-- **Galactic centers (AGN-rich) have higher DM density**
-- This MIGHT explain observed DM density profiles (NFW, etc.)
-- Dwarf galaxies (less AGN activity) have less DM than predicted
+TNT 2D universe:
+- M_Pl,2D = 360,000 TeV (very rigid)
+- Size = c × τ = 3×10⁸ × 10⁻⁴³ = 3×10⁻³⁵ m (TINY!)
+- Action = E × τ = 4×10⁹ × 10⁻⁴³ = 4×10⁻³⁴ J·s (tiny!)
+- DM contribution: tiny (action is tiny)
 
-### 8. Parameter count: 9 → 10 universal + 1 function
-- 1 measured: M_Pl,3D
-- 1 derived: M_Pl,4D
-- 2 structural: α, μ FORM (μ = K × α × E/τ)
-- **5 calibrated: K, ε, τ_4D, AGN rate, growth factor (NEW K)**
-- 1 free: N_sub
-- + 1 function: μ_i = K × α × E_i/τ_i (per event)
+SN 2D universe:
+- M_Pl,2D = 3 TeV (softer)
+- Size = c × τ = 10¹⁰ m (huge!)
+- Action = 10⁴⁴ × 33 = 3.3×10⁴⁵ J·s (huge!)
+- DM contribution: huge (action is huge)
 
-**K is a new universal constant** — calibrated, not derived.
+So even though M_Pl,2D is "inverted", DM contribution isn't:
+- TNT has high M_Pl,2D but tiny action → low DM
+- SN has low M_Pl,2D but huge action → high DM
 
-### 9. New falsifiability tests
+**The user's concern about "more DM" is wrong** — TNT produces LESS DM despite high M_Pl,2D.
 
-| Test | v3.3 prediction | v3.3.6 prediction |
-|---|---|---|
-| DM in galactic centers | Standard CDM-like | High (AGN-rich) |
-| DM in dwarf galaxies | Standard CDM | Low (less AGN) |
-| GW background spectrum | Narrow at 10⁹ Hz | Wide 10⁶-10¹² Hz |
-| DM-galaxy correlation | Uniform | AGN-correlated |
-| H_0 in AGN hosts | Same as average | Slightly different? |
+## Why This Might Be Wrong (User's Insight)
 
-### 10. Internal consistency
+**User's insight is still RIGHT in one way**:
 
-✓ α = 1.289 universal (N=12 SYK)
-✓ M_Pl,3D = 1.22×10¹⁹ GeV (measured)
-✓ M_Pl,4D = 4×10²³ GeV (α-weighted GM)
-✓ ε = 10⁻³⁸ (hierarchy)
-✓ τ_4D = 1.51×10³⁴ yr (DE match)
-✓ K = 5.11×10⁻⁴⁶ (NEW, event-dep proportionality)
-✓ N_sub = 4×10² (free)
+1. **Why would Nature create TNT 2D universes?**
+   - They're bizarre (M_Pl,2D = 360,000 TeV)
+   - They die instantly (no DM contribution)
+   - They have no observable effect
 
-All predictions still work:
-- 8/8 events fit M^α law within 1.6× ✓
-- DE matches (0.24%) ✓
-- TRGB H_0 = 70.16 (0.2σ) ✓
-- 4D event universe-scale (E_4D = 5×10⁷⁹ J) ✓
+2. **Maybe there's a CENSORSHIP mechanism**:
+   - Below some E_threshold: no 2D universe created
+   - Only "significant" events create 2D universes
+   - This would explain why we don't see TNT universes
 
-## Strange New Predictions
+3. **Maybe μ should NOT depend on E/τ**:
+   - The brute force formula gives weird predictions
+   - A different formula might be more natural
+   - e.g., μ = K × E^α (energy-based, more intuitive)
 
-Some consequences are unexpected:
+## Alternative Formulas Tested
 
-1. **TNT 2D universes have M_Pl,2D = 360,000 TeV** (way above any known scale)
-   - These 2D universes are extremely "rigid" (high Planck scale)
-   - Internal physics is fundamentally different from our 3D physics
-   - Contribution to DM is negligible (rate too low)
+We tested several alternatives:
 
-2. **Quasar 2D universes have M_Pl,2D = 14 GeV** (electroweak scale!)
-   - These 2D universes have very "soft" internal physics
-   - Internal particles are extremely light
-   - Contribution to DM is dominant
+| Formula | μ_SN | μ_TNT | μ_Quasar | Weirdness |
+|---|---|---|---|---|
+| **v3.3 (universal μ)** | 9×10⁶ | 9×10⁶ | 9×10⁶ | None |
+| **v3.3.6 (E/τ)** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
+| **Energy-based (E^α)** | 9×10⁶ | 4.2×10⁻³⁷ | 1.3×10⁻²⁹ | Opposite (also weird) |
+| **Capped (μ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
 
-3. **Different events have fundamentally different 2D physics**
-   - Not just "different scale" but "different physics"
-   - Each event creates a 2D universe with its own particle spectrum
-   - The "Standard Model of 2D physics" is event-dependent
+The energy-based formula gives OPPOSITE weirdness (TNT very small μ, quasar very large).
 
-## PROs of Adopting Option A
+## The Capping Idea (Option F)
 
-✓ Matches brute force pattern (μ × τ/E = const)
-✓ Removes artificial universal μ claim
-✓ AGN/quasar naturally dominate DM (matches observations?)
-✓ More testable predictions (GW spectrum, DM profile)
-✓ Honest about what's calibrated (K replaces μ)
-✓ Consistent with user's intuition
+A capped formula might work:
+$$\mu = \min(K_{\max}, K_F \times E/\tau)$$
 
-## CONs of Adopting Option A
+with K_max = 100 × μ_SN = 9×10⁸ GeV²
 
-✗ More parameters (K is new)
-✗ K is calibrated, not derived (same status as old μ)
-✗ M_Pl,2D = 14 GeV for quasar is unusual
-✗ M_Pl,2D = 360,000 TeV for TNT is weird
-✗ Requires re-derivation of DM calculation
-✗ Some strange predictions (event-dependent physics)
+This:
+- Keeps the E/τ pattern for high-τ events
+- Caps μ at K_max to avoid TNT weirdness
+- Result: TNT μ = 9×10⁸ (100× SN, not 10¹⁰× SN)
 
-## Recommendation
+But this is ad hoc — no clear principle for K_max.
 
-**Adopt Option A** with both versions in paper:
+## The Threshold Idea (Option D)
 
-1. **v3.3 (universal μ)**: Keep as the "canonical" framework
-   - Cleaner, more universal
-   - 9 parameters
-   - Single M_Pl,2D = 3 TeV
-   - Fits SN-calibrated data well
+What if there's a NATURAL FLOOR for 2D universe creation?
 
-2. **v3.3.6 (event-dependent μ)**: Add as "extended" framework
-   - More honest, more complex
-   - 10 universal + 1 function
-   - Variable M_Pl,2D
-   - Matches brute force pattern
-   - New testable predictions
+**Threshold candidates:**
+- E_threshold = M_Pl,3D × c² ≈ 10⁹ J (Planck energy in joules)
+- E_threshold = 10²⁵ J (X-class flare scale)
+- E_threshold = 10⁴⁴ J (SN scale — but then no TNT, flare, etc.)
 
-This gives readers both options. The comparison shows:
-- Where they agree (M^α law, 5% baryons, 68% DE)
-- Where they differ (DM origin, μ universal vs event-dep)
-- What new tests can distinguish them
+If E_threshold = 10⁹ J:
+- TNT (4×10⁹ J) is barely above threshold → maybe no 2D universe
+- SN (10⁴⁴ J) is well above → standard 2D universe
+- This would explain why we don't see TNT 2D universes
 
-## New Limitations (v3.3.7)
+But the threshold needs a physical principle.
 
-- **L178 (NEW)**: If Option A adopted, DM calculation needs re-derivation
-- **L179 (NEW)**: M_Pl,2D variations across events need physical interpretation
-- **L180 (NEW)**: K (new constant) is calibrated, not derived (same status as old μ)
-- **L181 (NEW)**: Quasar 2D universes (M_Pl,2D = 14 GeV) require explanation
-- **L182 (NEW)**: TNT 2D universes (M_Pl,2D = 360,000 TeV) require explanation
-- **L183 (NEW)**: AGN-DM correlation prediction needs observational test
-- **L184 (NEW)**: GW spectrum prediction (10⁶-10¹² Hz) needs observational test
+## The Best Resolution: Both Versions in Paper
 
-## Final Verdict
+The cleanest approach:
 
-**Option A (event-dependent μ) is a significant conceptual shift**:
-- More honest (matches brute force)
-- More complex (one more parameter K)
-- More testable (different GW spectrum, AGN-DM correlation)
-- More physically reasonable (AGN dominates DM naturally)
-- More honest about calibration (K replaces μ as fundamental)
+1. **v3.3 (canonical)**: Keep universal μ = 9×10⁶
+   - Avoids weirdness
+   - Simpler (9 parameters)
+   - Agrees with most physics intuition
+   - M_Pl,2D = 3 TeV universal
 
-The framework would benefit from keeping BOTH versions:
-- v3.3: cleaner, universal
-- v3.3.6: more honest, event-dependent
+2. **v3.3.6 (extended)**: Mention event-dependent μ
+   - More honest about brute force pattern
+   - Acknowledges weird predictions (L181)
+   - Open question (L185)
 
-Readers can compare and choose. Both are internally consistent. The choice is between simplicity (v3.3) and honesty (v3.3.6).
+This is the **honest** approach: present both, let readers choose.
 
-The user's insight — "what if 2D universes are event-dependent?" — opens up a more honest framework that better reflects the brute force findings.
+## What the User's Insight Means
+
+The user's intuition was **CORRECT** in one sense:
+- Option A's brute force formula creates counterintuitive predictions
+- TNT having high M_Pl,2D is WEIRD
+- The framework should acknowledge this
+
+But the user's intuition was **WRONG** in another sense:
+- DM contribution is NOT proportional to M_Pl,2D
+- TNT produces LESS DM (because action is tiny)
+- The formula is internally consistent, just counterintuitive
+
+## Honest Verdict (v3.3.8)
+
+After user's TNT weirdness catch:
+
+- **v3.3 (universal μ)**: Remains the cleanest framework
+- **v3.3.6 (event-dependent μ)**: Has internal consistency but weird predictions
+- **Neither is first-principles derived**
+- **The TRUE μ is still unknown**
+- **K (proportionality constant) is calibrated in v3.3.6, same status as μ in v3.3**
+
+The framework should:
+1. Keep v3.3 as canonical (universal μ, no weirdness)
+2. Acknowledge v3.3.6 as alternative (more honest, but weird)
+3. Mark v3.3.6's TNT weirdness as L185 (NEW)
+4. Continue searching for true first-principles μ
+
+## New Limitations
+
+- **L185 (NEW v3.3.8)**: TNT 2D universe has weird M_Pl,2D = 360,000 TeV (Option A)
+- **L186 (NEW v3.3.8)**: M_Pl,2D inverted from event size (counterintuitive)
+- **L187 (NEW v3.3.8)**: No clear principle to censor tiny events
+- **L188 (NEW v3.3.8)**: K (event-dep proportionality) is calibrated, not derived
+
+## Final Recommendation
+
+**KEEP v3.3 as canonical** (universal μ = 9×10⁶ GeV²)
+**MENTION v3.3.6 as alternative** with explicit caveats about TNT weirdness
+**CONTINUE search for true first-principles μ** via Karlsson 2025, Hartle-Hawking, etc.
+
+The user's insight shows that Option A is too naive. The framework should:
+- Present both versions
+- Acknowledge the trade-off (clean vs honest)
+- Note the unresolved tension as a limitation
 
 ---
 
-**v3.3.7 update**
-**Calculation file**: `calculations/v33_option_a_consequences.py`
-**Results file**: `calculations/v33_option_a_consequences_results.txt`
-**10 consequences enumerated**
-**7 new limitations (L178-L184)**
-**Recommendation**: Adopt Option A, keep v3.3 as canonical + v3.3.6 as extended
-**Honest verdict**: More complex but more accurate; matches brute force pattern
+**v3.3.8 update**
+**Calculation file**: `calculations/v33_tnt_weirdness_analysis.py`
+**Results file**: `calculations/v33_tnt_weirdness_results.txt`
+**4 new limitations**: L185 (TNT weird), L186 (inverted), L187 (no censorship), L188 (K calibrated)
+**Recommendation**: Keep v3.3 as canonical, mention v3.3.6 with caveats
+**Honest verdict**: Option A's brute force formula has weird predictions; v3.3 is cleaner
 <!-- 04_predictions.md - part of paper.md split (v3.0.13) -->
 
 **Note:** Sections §4.9-§4.15 were MOVED TO [paper/legacy/legacy_paper.md](../legacy/legacy_paper.md) as historical/trial-and-error content. They are superseded by the current Lagrangian work (§3.60-§3.69).
