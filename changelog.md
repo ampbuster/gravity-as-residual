@@ -17,8 +17,8 @@
 
 **Files added**:
 - `calculations/v31_audit_v312final.py` (N_sub audit)
-- `calculations/v31_fback_both_levels.py` (f_back audit)
-- `calculations/v31_audit_lagrangian.py` (Lagrangian audit, M_Pl,2D = 3 TeV correction)
+- `calculations/v31_fback_both_levels.py` ($f_{\rm back}$ audit)
+- `calculations/v31_audit_lagrangian.py` (Lagrangian audit, $M_{\rm Pl,2D}$ = 3 TeV correction)
 - `json/README.md` (NEW)
 - `paper/legacy/README.md` (NEW)
 - `calculations/legacy/README.md` (NEW)
@@ -31,10 +31,10 @@
 - `persistent_memory.md`: §7.7 (M^α DOWN), §7.8 (Bilateral), §7.9 (Equal-Universe)
 
 **v3.1.2-final foundation preserved**:
-- 8/8 events fit M^1.29 within 1.6× (α = 1.258 REJECTED, 14% off v_Higgs)
-- Scenario X adopted: M_Pl,4D = 887 GeV (4D BULK Planck, separate from M_Pl,3D)
-- Three different M_Pl at three different levels (2D = 3 TeV, 3D = 10¹⁹ GeV, 4D = 887 GeV)
-- Closed-loop formula f_back = (M_Pl,N/E_event)^α universal at every level
+- 8/8 events fit M^1.29 within 1.6× (α = 1.258 REJECTED, 14% off $v_{\rm Higgs}$)
+- Scenario X adopted: $M_{\rm Pl,4D}$ = 887 GeV (4D BULK Planck, separate from $M_{\rm Pl,3D}$)
+- Three different $M_{\rm Pl}$ at three different levels (2D = 3 TeV, 3D = 10¹⁹ GeV, 4D = 887 GeV)
+- Closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$/E_event)^α universal at every level
 - AGE vs LIFETIME distinct: 13.8 Gyr is AGE, LIFETIME UNKNOWN
 - Frame of reference: 4D event proper 10⁻²⁰ s, apparent 10³⁴ yr (γ ~ 10⁶²)
 - N_sub = free parameter (4D-bulk dynamics unknown)
@@ -100,7 +100,7 @@ current content. The legacy paper is unchanged.
 - Full Lagrangian for SIDC (4 levels + projection)
 - Inception cone picture (4D at base, 2D Planck at apex)
 - 5D/6D extension of the cone
-- 9D = superstring theory connection (M_Pl,9D ≈ v_Higgs)
+- 9D = superstring theory connection ($M_{\rm Pl,9D}$ ≈ $v_{\rm Higgs}$)
 - SIDC-SM connection (12 SYK = 12 SM gauge generators)
 - L41, L42 CLOSED (only 2 free parameters)
 - Hierarchy problem solved by cascade structure
@@ -111,7 +111,7 @@ current content. The legacy paper is unchanged.
 - §3.69 SPECULATION: How 9D and Higgs links to the Standard Model (L128-L136)
 
 **KEY NEW FINDINGS:**
-- M_Pl,9D = 249 GeV ≈ v_Higgs = 246 GeV (within 1.3%) — string scale = EW scale!
+- $M_{\rm Pl,9D}$ = 249 GeV ≈ $v_{\rm Higgs}$ = 246 GeV (within 1.3%) — string scale = EW scale!
 - 12 SYK Majorana = 12 SM gauge generators (dim SU(3)×SU(2)×U(1) = 8+3+1 = 12)
 - 4D event is ETERNAL from our frame (Inception-style: γ ~ 10⁶⁰ to 10¹⁰⁰)
 - 2D Planck IS the cone tip (~3 TeV, holographic)
@@ -144,7 +144,7 @@ current content. The legacy paper is unchanged.
 - String theory explains quantum gravity (at 9D)
 - Standard Model is the LOW-ENERGY limit (after 9D→4D compactification)
 - The Higgs VEV is the BRIDGE between all three frameworks
-- v_Higgs = M_string = M_Pl,9D = 246 GeV
+- $v_{\rm Higgs}$ = $M_{\rm string}$ = $M_{\rm Pl,9D}$ = 246 GeV
 
 ## v3.0.17 — Wrap raw LaTeX in $...$ delimiters (June 2026)
 
@@ -290,7 +290,7 @@ and address the .md rendering issue separately later.
 - Restored v3.0.8 paper.md (288 → 276 pages after legacy move)
 - Kept legacy text moved to legacy_paper.md (§3.38, §3.39, §4.48,
   "Recent Additions...")
-- Kept §0 Parameter Glossary updates (F_p(z) = 0.9993, A_event = 1)
+- Kept §0 Parameter Glossary updates ($F_p$(z) = 0.9993, A_event = 1)
 - All `$f_{back}$`, `$\epsilon$`, `$\lambda_{th}$` are LaTeX
   (not unicode) — same as v3.0.8
 
@@ -308,9 +308,9 @@ history anyway."
 
 Moved historical narrative out of paper.md to legacy_paper.md:
 
-1. **§3.38 F_p(z) analysis — corrected (v2.7.50, REVISED v2.7.51)**
+1. **§3.38 $F_p$(z) analysis — corrected (v2.7.50, REVISED v2.7.51)**
    (6,574 chars) — moved
-2. **§3.39 Lessons learned from F_p revision (v2.7.52, meta)**
+2. **§3.39 Lessons learned from $F_p$ revision (v2.7.52, meta)**
    (2,330 chars) — moved
 3. **§4.48 Smooth F(z) DM Design (v2.7.8+, historical)**
    (21,874 chars) — moved
@@ -318,7 +318,7 @@ Moved historical narrative out of paper.md to legacy_paper.md:
    (5,748 chars) — moved
 
 Also updated Parameter Glossary §0:
-- F_p(z) = 0.7 → 0.9993 in Calibrated Postulates table
+- $F_p$(z) = 0.7 → 0.9993 in Calibrated Postulates table
 - A_event = 67 → 1 with revised note
 
 Total moved: ~36,500 chars
@@ -326,7 +326,7 @@ paper.md: 1,015,354 → 978,689 chars (288 → 277 pages)
 
 **Phone/markdown viewer rendering fix:**
 - Converted 86 standalone LaTeX expressions to Unicode:
-  - `$f_{back}$` (10x) → `f_back`
+  - `$f_{back}$` (10x) → `$f_{\rm back}$`
   - `$\epsilon$` (22x) → `ε`
   - `$\rho$` (2x) → `ρ`
   - `$\sigma$` (4x) → `σ`
@@ -351,7 +351,7 @@ This document contains the cascade's full version history.
    0.7 and 0.3 in the paper (i thought that was old). maybe perform
    a consistency check."
 
-2. **g_+ fix**: Converted 127 instances of `$g_+$` → `g₊` (Unicode subscript).
+2. **$g_+$ fix**: Converted 127 instances of `$g_+$` → `g₊` (Unicode subscript).
    The combination of underscore + plus sign in LaTeX math was the
    specific breaking pattern in the user's viewer.
 
@@ -359,13 +359,13 @@ This document contains the cascade's full version history.
 
    | Parameter | Current | Historical | Status |
    |-----------|---------|------------|--------|
-   | F_p(0) | 0.9993 (20 refs) | 0.7 (26 refs) | ⚠️ MIXED |
+   | $F_p$(0) | 0.9993 (20 refs) | 0.7 (26 refs) | ⚠️ MIXED |
    | F_s(0) | 0.0007 (0 refs) | 0.3 (7 refs) | ⚠️ OLD ONLY |
    | α | 1.289 (6 refs) | 1.29 (141 refs) | ⚠️ MIXED (same value) |
-   | f_back | 8.6e-86 (4 refs) | 10⁻⁸⁵ (0 refs) | ✓ CURRENT ONLY |
+   | $f_{\rm back}$ | 8.6e-86 (4 refs) | 10⁻⁸⁵ (0 refs) | ✓ CURRENT ONLY |
    | A_event | 1.0 (7 refs) | 67 (1 ref) | ⚠️ MIXED |
    | N | 12 (many refs) | — | ✓ CURRENT ONLY |
-   | z_half | 3 (20 refs) | other (20 refs) | ⚠️ MIXED |
+   | $z_{\rm half}$ | 3 (20 refs) | other (20 refs) | ⚠️ MIXED |
    | E_primordial | ~10²² M_☉ | — | ✓ CURRENT ONLY |
 
 4. **Honest finding**: The 0.7/0.3/1.29/67 references are HISTORICAL
@@ -447,7 +447,7 @@ This document contains the cascade's full version history.
    - Was: "E_primordial is UNSPECIFIED (see Limitation 34)"
    - Now: "E_primordial was UNSPECIFIED in v2.7.4-64 (L34). The v2.7.65
      §3.40 L51 derivation attempt constrained E_primordial to ~10^22 M_☉
-     (E_4D at the 4D event scale, galaxy-cluster level), but the per-event
+     ($E_{\rm 4D}$ at the 4D event scale, galaxy-cluster level), but the per-event
      energy of primordial 2D universes is still partially OPEN (L51 PARTIAL)"
 
 6. **Counts**:
@@ -518,7 +518,7 @@ This document contains the cascade's full version history.
    - `$\frac{3}{4}$` — fractions
 
 2. **Fix**: Converted ALL math from §4.1 onwards to Unicode:
-   - `g_+` → `g₊`
+   - `$g_+$` → `g₊`
    - `\text{(cascade)}` → `(cascade)`
    - `$M_{DM}$` → `M_DM`
    - `$R_{halo}^2$` → `R_halo²`
@@ -606,7 +606,7 @@ This document contains the cascade's full version history.
    - Structural scale invariance: YES (cascade works at any n)
    - Parametric scale invariance: NO (specific values depend on n)
    - The cascade is dimension-AGNOSTIC in structure
-   - Specific α, c, N, f_back are dimension-DEPENDENT
+   - Specific α, c, N, $f_{\rm back}$ are dimension-DEPENDENT
 
 3. **SIDC naming restored**:
    - v2.3.2 had SIDC = Scale-Invariant Dimensional Cascade
@@ -654,8 +654,8 @@ and the SIDC naming restoration in plain language.
      * AGC 114905: "1.36 (DM-poor)" → "contested" (DISPUTED)
      * KKR 25: "1-4 (DM-poor to moderate)" → "~1 (est.)" (REVISED v2.7.33+)
    - Updated Galaxy-Zoo Test Suite:
-     * AGC 114905: "M_dyn ≈ M_b (low SFH throughout)" → "(DISPUTED, contested data)"
-     * KKR 25: "M_dyn ≫ M_b (burst 1-4 Gyr ago)" → "(REVISED v2.7.33+, bifurcation removed v2.7.36+)"
+     * AGC 114905: "$M_{\rm dyn}$ ≈ $M_b$ (low SFH throughout)" → "(DISPUTED, contested data)"
+     * KKR 25: "$M_{\rm dyn}$ ≫ $M_b$ (burst 1-4 Gyr ago)" → "(REVISED v2.7.33+, bifurcation removed v2.7.36+)"
 
 3. **What AGC/KKR claims remain in README**:
    - DISPUTED section (honest framing of contested data) ✓
@@ -682,7 +682,7 @@ multiple cascade parameters that were previously calibrated.
 2. **v3.0 HIGHLIGHT** in metadata: N=12 SYK as the centerpiece
 3. **HONEST BOUNDARY (v3.0)** in metadata: what v3 derives vs doesn't
 4. **§3.60 v3.0 BREAKTHROUGH SUMMARY** added:
-   - Single-number derivation table (α, c, 1/(2α), f_back from N=12)
+   - Single-number derivation table (α, c, 1/(2α), $f_{\rm back}$ from N=12)
    - Why N=12 is unique (off by 0.001)
    - Composite model v3 specifications (8 components)
    - Testable predictions (8)
@@ -780,7 +780,7 @@ multiple cascade parameters that were previously calibrated.
 - α = 1.289 (lifetime scaling, EXACT from N=12)
 - c = 1/2 (Ising CFT, N/24)
 - 1/(2α) = 0.388 (back-action)
-- f_back = 8.6e-86 (universal, gives 10^-85)
+- $f_{\rm back}$ = 8.6e-86 (universal, gives 10^-85)
 - 14 event types follow τ_2D ~ M^1.29
 - 1/√N saddle-point theoretical support
 
@@ -811,11 +811,11 @@ multiple cascade parameters that were previously calibrated.
   - α = 1.289 (1 + 1/√N)
   - c = 1/2 (N/24)
   - 1/(2α) = 0.388 (c/α)
-  - f_back = 8.6e-86
+  - $f_{\rm back}$ = 8.6e-86
 
 **Part 2: Data tests**
 - 14 event types: τ_2D ~ M^1.29 ✓
-- 47 Tuc: M_dyn ≈ M_stars (differentiator) ✓
+- 47 Tuc: $M_{\rm dyn}$ ≈ M_stars (differentiator) ✓
 - Massive quiescents z>4: 10+ confirmed ✓
 - Intermediate F(z) dwarfs: 10+ confirmed ✓
 - TDG: shifting toward DM-poor ✓
@@ -823,7 +823,7 @@ multiple cascade parameters that were previously calibrated.
 
 **Part 3: Numerical simulations**
 - 1000 events: slope = 1.29 ± 0.01 ✓
-- Back-action: f_back universal after scaling
+- Back-action: $f_{\rm back}$ universal after scaling
 - 12 Majoranas = 12 SM Weyl fermions
 
 **Part 4: 1/√N for other quantities**
@@ -832,7 +832,7 @@ multiple cascade parameters that were previously calibrated.
 
 **Part 5: 12 Majoranas = 12 SM Weyl fermions**
 - 3 generations × 4 fermions = 12
-- e_L, ν_L, u_L, d_L per generation
+- $e_L$, ν_L, $u_L$, $d_L$ per generation
 - Specific, testable identification
 
 **Part 6: dS_2 topology**
@@ -869,7 +869,7 @@ multiple cascade parameters that were previously calibrated.
 - q=4 SYK with N=12
 - α = 1 + 1/√N universal
 - c = 1/2 Ising CFT
-- f_back = 8.6e-86 universal
+- $f_{\rm back}$ = 8.6e-86 universal
 
 **Net: +2 pages, +5 limitations**
 - Total: 292 pages
@@ -1070,7 +1070,7 @@ multiple cascade parameters that were previously calibrated.
 
 5. **CY h^{1,1} = 2**:
    - Volume form V = (1/2) κ t^a t^b t^c has intrinsic 1/2
-   - But f_DE = 10^-85 doesn't come from CY alone
+   - But $f_{\rm DE}$ = 10^-85 doesn't come from CY alone
 
 6. **HONEST FINDING**: NONE of 4 specific suggestions derive 1/(2α).
 
@@ -1142,7 +1142,7 @@ multiple cascade parameters that were previously calibrated.
 
 **Earlier v2.7.60 entry (unchanged):**
 
-## v2.7.60 (June 2026) — BREAKTHROUGH: f_back scaling law discovered
+## v2.7.60 (June 2026) — BREAKTHROUGH: $f_{\rm back}$ scaling law discovered
 
 **Major changes since v2.7.59:**
 
@@ -1152,8 +1152,8 @@ multiple cascade parameters that were previously calibrated.
    - Q3: Scaling factor across event types? → BREAKTHROUGH
 
 2. **THE SCALING LAW** (user-driven discovery):
-   f_back(event) = f_back(universal) × (E_event / E_SN)^(α - 1/(2α))
-   - f_back(universal) = 8.6e-86 ≈ 10^-85
+   $f_{\rm back}$(event) = $f_{\rm back}$(universal) × (E_event / $E_{\rm SN}$)^(α - 1/(2α))
+   - $f_{\rm back}$(universal) = 8.6e-86 ≈ 10^-85
    - α - 1/(2α) = 0.902 (scaling exponent)
 
 3. **Numerical verification**:
@@ -1166,24 +1166,24 @@ multiple cascade parameters that were previously calibrated.
    - MEAN: 8.65e-86
 
 4. **L52 CLOSED** (was PARTIAL in v2.7.59, RESOLVED in v2.7.58):
-   - f_back IS a universal constant ≈ 10^-85
+   - $f_{\rm back}$ IS a universal constant ≈ 10^-85
    - The event-dependence is a consequence of using SN-specific values
-   - When the scaling is applied, all events give the same f_back
+   - When the scaling is applied, all events give the same $f_{\rm back}$
    - The 1/(2α) is the EXACT power for event-independence
 
-5. **L58 NEW**: f_back scaling law. f_back(event) = 8.6e-86 ×
-   (E/E_SN)^(α-1/(2α)). The 1/(2α) is the exact power.
+5. **L58 NEW**: $f_{\rm back}$ scaling law. $f_{\rm back}$(event) = 8.6e-86 ×
+   (E/$E_{\rm SN}$)^(α-1/(2α)). The 1/(2α) is the exact power.
 
 6. **Why this works**:
    - Formula has τ_event and E_event, related by energy-scaling rule
-   - Combined event-dependence: f_back ∝ E^(α - 1/(2α))
-   - Multiplying by (E/E_SN)^(-(α-1/(2α))) cancels the event-dependence
+   - Combined event-dependence: $f_{\rm back}$ ∝ E^(α - 1/(2α))
+   - Multiplying by (E/$E_{\rm SN}$)^(-(α-1/(2α))) cancels the event-dependence
    - Result: universal constant
 
 7. **Implications**:
-   - f_back is universal, not SN-specific
+   - $f_{\rm back}$ is universal, not SN-specific
    - The 1/(2α) exponent has a deeper meaning
-   - The cascade f_back is now well-motivated
+   - The cascade $f_{\rm back}$ is now well-motivated
    - The user's intuition was right
 
 8. **§3.49 added** with full scaling analysis
@@ -1195,7 +1195,7 @@ multiple cascade parameters that were previously calibrated.
 
 **Earlier v2.7.59 entry (unchanged):**
 
-## v2.7.59 (June 2026) — f_back formula is SN-specific (user feedback)
+## v2.7.59 (June 2026) — $f_{\rm back}$ formula is SN-specific (user feedback)
 
 **Major changes since v2.7.58:**
 
@@ -1204,17 +1204,17 @@ multiple cascade parameters that were previously calibrated.
    - Result: formula is SN-SPECIFIC
 
 2. **Multi-event test results**:
-   - SN (calibration): f_back = 8.6e-86 (off 0.07 orders) ✓
-   - LHC: f_back = 1.4e-130 (off 44.86 orders) ✗
-   - Hypernova: f_back = 5.5e-84 (off 1.74 orders) ✗
-   - Long GRB: f_back = 4.3e-83 (off 2.64 orders) ✗
-   - BNS merger: f_back = 1.2e-77 (off 8.06 orders) ✗
-   - AGN outburst: f_back = 7.2e-76 (off 9.86 orders) ✗
+   - SN (calibration): $f_{\rm back}$ = 8.6e-86 (off 0.07 orders) ✓
+   - LHC: $f_{\rm back}$ = 1.4e-130 (off 44.86 orders) ✗
+   - Hypernova: $f_{\rm back}$ = 5.5e-84 (off 1.74 orders) ✗
+   - Long GRB: $f_{\rm back}$ = 4.3e-83 (off 2.64 orders) ✗
+   - BNS merger: $f_{\rm back}$ = 1.2e-77 (off 8.06 orders) ✗
+   - AGN outburst: $f_{\rm back}$ = 7.2e-76 (off 9.86 orders) ✗
 
 3. **L52 REVISED to PARTIAL (v2.7.59)**:
    - v2.7.58 "RESOLVED" was PREMATURE
    - Formula is SN-specific, not general derivation
-   - L52: f_back has SN-specific formula (0.07 orders off)
+   - L52: $f_{\rm back}$ has SN-specific formula (0.07 orders off)
    - L52 partial: formula does NOT generalize to other events
    - L52 not fully closed
 
@@ -1223,7 +1223,7 @@ multiple cascade parameters that were previously calibrated.
    - But cascade's α = 1.29 (calibrated from SN 33s)
    - FUNDAMENTAL: with α=1.29, formula cannot be event-independent
 
-5. **L57 NEW (v2.7.59)**: f_back formula is SN-specific.
+5. **L57 NEW (v2.7.59)**: $f_{\rm back}$ formula is SN-specific.
    Does not generalize. Either accept this, find a different
    formula, or revise cascade's framework.
 
@@ -1236,36 +1236,36 @@ multiple cascade parameters that were previously calibrated.
 
 **Earlier v2.7.58 entry (unchanged):**
 
-## v2.7.58 (June 2026) — BREAKTHROUGH: Empirical f_back formula discovered
+## v2.7.58 (June 2026) — BREAKTHROUGH: Empirical $f_{\rm back}$ formula discovered
 
 **Major changes since v2.7.56:**
 
-1. **BREAKTHROUGH: Empirical f_back formula found!**
-   - f_back = (t_Pl,3 / τ_4D) × (τ_SN / τ_universe) × (E_4D / E_SN)^(1/(2α))
+1. **BREAKTHROUGH: Empirical $f_{\rm back}$ formula found!**
+   - $f_{\rm back}$ = ($t_{\rm Pl,3}$ / τ_4D) × (τ_SN / τ_universe) × ($E_{\rm 4D}$ / $E_{\rm SN}$)^(1/(2α))
    - Numerical: 1.71e-79 × 7.58e-17 × 6.65e9 = **8.60e-86 ≈ 10^-85**
    - Match: 0.065 orders of magnitude off!
    - NO free parameters (all from known quantities)
    - 1/(2α) derived from α=1.29 (cascade energy-scaling exponent)
 
 2. **Sensitivity to α**:
-   - α = 1.28: f_back = 1.03e-85 (essentially perfect)
-   - α = 1.27: f_back = 1.23e-85
-   - α = 1.29: f_back = 8.60e-86
-   - α = 1.30: f_back = 7.23e-86
+   - α = 1.28: $f_{\rm back}$ = 1.03e-85 (essentially perfect)
+   - α = 1.27: $f_{\rm back}$ = 1.23e-85
+   - α = 1.29: $f_{\rm back}$ = 8.60e-86
+   - α = 1.30: $f_{\rm back}$ = 7.23e-86
    - All within 0.2 orders of 10^-85 for α in 1.27-1.31
 
 3. **3 research directions tried (v2.7.57) before breakthrough**:
-   - Bulk-geometry: RS1 hierarchy (kπr_c=87) doesn't give f_back
+   - Bulk-geometry: RS1 hierarchy (kπr_c=87) doesn't give $f_{\rm back}$
    - Warp factor: doesn't directly give 10^-85
    - Combined factors: closest was 10^-95 (off by 10)
    - All failed to give 10^-85 directly
 
-4. **L52 RESOLVED**: f_back is no longer UNSPECIFIED
+4. **L52 RESOLVED**: $f_{\rm back}$ is no longer UNSPECIFIED
    - Closed-form formula derived
    - 1/(2α) is the only "free" parameter (and it's derived from α)
 
 5. **L55-56 NEW**:
-   - L55: 1/(2α) gives correct f_back (near-first-principles)
+   - L55: 1/(2α) gives correct $f_{\rm back}$ (near-first-principles)
    - L56: Match within 0.065 orders (close but not exact)
 
 6. **Implications**:
@@ -1283,19 +1283,19 @@ multiple cascade parameters that were previously calibrated.
 
 **Earlier v2.7.56 entry (unchanged):**
 
-## v2.7.56 (June 2026) — f_back time-dilation research (trial and error)
+## v2.7.56 (June 2026) — $f_{\rm back}$ time-dilation research (trial and error)
 
 **Major changes since v2.7.55:**
 
-1. **User hypothesis**: f_back in different directions might be related
+1. **User hypothesis**: $f_{\rm back}$ in different directions might be related
    to time-compression / time-dilation between dimensions.
 
 2. **10+ trials performed** (calculations/v27_fback_research.py):
    - Trial 1: τ_3+1D / τ_4D = 10^-18 (off 67 orders)
-   - Trial 5: (E_SN / E_Pl,3)^-1 = 10^-35 (off 50)
-   - Trial 6: E_SN / E_4D = 10^-25 (off 60)
+   - Trial 5: ($E_{\rm SN}$ / E_Pl,3)^-1 = 10^-35 (off 50)
+   - Trial 6: $E_{\rm SN}$ / $E_{\rm 4D}$ = 10^-25 (off 60)
    - Trial 7: (τ_SN / τ_4D)^α = 10^-47 (off 38)
-   - Trial 8: (t_Pl,3 / τ_4D) × (τ_SN / τ_universe) = 10^-95 (off 10, closest)
+   - Trial 8: ($t_{\rm Pl,3}$ / τ_4D) × (τ_SN / τ_universe) = 10^-95 (off 10, closest)
    - Trial 9: Combined geometry + time + energy = 10^-72 (off 13)
    - Trials 2, 3, 4, 10: various other ratios
 
@@ -1333,7 +1333,7 @@ multiple cascade parameters that were previously calibrated.
    - Similar rigor: calibrated vs derived vs UNSPECIFIED
 
 2. **4D event properties (mostly UNSPECIFIED)**:
-   - E_4D: UNSPECIFIED (L34)
+   - $E_{\rm 4D}$: UNSPECIFIED (L34)
    - Spatial extent: UNSPECIFIED (L51, partially addressed)
    - Duration: τ_4D ~ 10^28 yr (derived from Padmanabhan)
    - Dimensionality: 4D (1+3)
@@ -1355,14 +1355,14 @@ multiple cascade parameters that were previously calibrated.
    - But the 10^-85 suppression factor is back in disguise (L52 REVISED)
 
 6. **L52 REVISED (v2.7.55)**:
-   - The 10^-85 factor was f_back (removed v2.7.11)
+   - The 10^-85 factor was $f_{\rm back}$ (removed v2.7.11)
    - Now it's back in disguise as "inversion strength"
    - Cascade needs SOME 10^-85 factor to match DE observation
    - This factor is currently UNSPECIFIED
 
 7. **Total calibrated postulates: 6-7**:
-   - 4D side: ε, E_4D, spatial extent, 10^-85 factor (4)
-   - 2D side: F_p(0), A_event, z_half (3)
+   - 4D side: ε, $E_{\rm 4D}$, spatial extent, 10^-85 factor (4)
+   - 2D side: $F_p$(0), A_event, $z_{\rm half}$ (3)
    - Plus 1 derived (α from democratic cosmology)
 
 8. **§3.45 added** with full audit
@@ -1378,31 +1378,31 @@ multiple cascade parameters that were previously calibrated.
 
 **Major changes since v2.7.53:**
 
-1. **User feedback: "f_back is no more no?"**
-   - Confirmed: f_back was removed in v2.7.11 (deaths-only DM)
-   - v2.7.53 list incorrectly included f_back — corrected
+1. **User feedback: "$f_{\rm back}$ is no more no?"**
+   - Confirmed: $f_{\rm back}$ was removed in v2.7.11 (deaths-only DM)
+   - v2.7.53 list incorrectly included $f_{\rm back}$ — corrected
 
-2. **A_event REVISED from 67 to 1** (was 67 with old F_p=0.7)
-   - A_event = 67 was a band-aid for OLD F_p(0) = 0.7
-   - With NEW F_p(0) = 0.9993, no amplification needed
+2. **A_event REVISED from 67 to 1** (was 67 with old $F_p$=0.7)
+   - A_event = 67 was a band-aid for OLD $F_p$(0) = 0.7
+   - With NEW $F_p$(0) = 0.9993, no amplification needed
    - 2D universe mass at death = SN energy / c^2 (simplest assumption)
    - Consistent with deaths-only DM (v2.7.11)
 
-3. **L52 NEW**: ε ~ 10^-38 was calibrated WITH f_back assumption
-   - DE formula was ε × f_back × M_Pl^4
-   - With f_back removed, DE connection is broken
+3. **L52 NEW**: ε ~ 10^-38 was calibrated WITH $f_{\rm back}$ assumption
+   - DE formula was ε × $f_{\rm back}$ × $M_{\rm Pl}$^4
+   - With $f_{\rm back}$ removed, DE connection is broken
    - Cascade's current answer: DE = 4D→3+1D dimensional inversion
    - ε = bulk-brane coupling (separate from DE)
 
-4. **z_half check**: still calibrated to 3
-   - Matches F_p(0)=0.9993 to F_p(z=1100)=1.0 transition
+4. **$z_{\rm half}$ check**: still calibrated to 3
+   - Matches $F_p$(0)=0.9993 to $F_p$(z=1100)=1.0 transition
    - L37-related: needs first-principles derivation
 
 5. **Updated parameter summary**:
-   - Calibrated postulates: 4 (F_p(0), A_event, ε, z_half)
+   - Calibrated postulates: 4 ($F_p$(0), A_event, ε, $z_{\rm half}$)
    - Derived parameters: 1 (α = 1.29, v2.7.24 democratic cosmology)
-   - Removed parameters: 3 (f_back, f_active, α-as-free)
-   - Free parameters: 0 or 1 (depending on counting z_half)
+   - Removed parameters: 3 ($f_{\rm back}$, $f_{\rm active}$, α-as-free)
+   - Free parameters: 0 or 1 (depending on counting $z_{\rm half}$)
 
 6. **§3.44 added** with full audit
 
@@ -1413,33 +1413,33 @@ multiple cascade parameters that were previously calibrated.
 
 **Earlier v2.7.53 entry (unchanged):**
 
-## v2.7.53 (June 2026) — 5 new sections: lessons, L51, M_dyn, PT, L37
+## v2.7.53 (June 2026) — 5 new sections: lessons, L51, $M_{\rm dyn}$, PT, L37
 
 **Major changes since v2.7.52:**
 
-1. **§3.39 Lessons learned from F_p revision (meta)**
+1. **§3.39 Lessons learned from $F_p$ revision (meta)**
    - The cascade's self-correction process documented
    - 6-step process: v2.7.5 → v2.7.49 → v2.7.50 → v2.7.51 → v2.7.52 → v2.7.53
    - Meta-lessons: user questions valuable, calibrations need multi-z checks
 
 2. **§3.40 L51 derivation attempt (PARTIALLY ADDRESSED)**
-   - F_p(0) = 0.9993 is consistent with 4D event at galaxy-cluster scale
-   - Required E_4D = 2.2×10^69 J = 10^22 M_☉ = 10^10 × galaxy mass
+   - $F_p$(0) = 0.9993 is consistent with 4D event at galaxy-cluster scale
+   - Required $E_{\rm 4D}$ = 2.2×10^69 J = 10^22 M_☉ = 10^10 × galaxy mass
    - This is REASONABLE for a "big bang" event
    - Not a true derivation, but a consistency check
 
-3. **§3.41 Forward M_dyn predictions for 22 galaxies**
-   - Cascade predicts M_dyn/M_b ≈ 4.997 for all galaxies
+3. **§3.41 Forward $M_{\rm dyn}$ predictions for 22 galaxies**
+   - Cascade predicts $M_{\rm dyn}$/$M_b$ ≈ 4.997 for all galaxies
    - 8/22 match (GCs, DF2, M82), 14/22 don't (dwarfs, spirals, clusters)
    - Captures qualitative pattern, not specific values
-   - L9 (specific M_dyn/M_b) remains open
+   - L9 (specific $M_{\rm dyn}$/$M_b$) remains open
 
 4. **§3.42 Phase transitions + PBH cumulative DM (negligible)**
    - EW phase transition: 10^-10 % of v2.7.51 (negligible)
    - QCD phase transition: 10^-15 % (negligible)
    - PBH evaporation: 10^-33 % (negligible)
-   - F_p(0) = 0.9993 is robust across all variations
-   - L51 partially addressed: F_p(0) consistent with 4D event
+   - $F_p$(0) = 0.9993 is robust across all variations
+   - L51 partially addressed: $F_p$(0) consistent with 4D event
 
 5. **§3.43 L37 α=1.29 derivation attempt (OPEN)**
    - Tested 7 frameworks: classical CGHS, Strominger, RST,
@@ -1457,33 +1457,33 @@ multiple cascade parameters that were previously calibrated.
 
 **Earlier v2.7.52 entry (unchanged):**
 
-## v2.7.52 (June 2026) — F_p/F_s REVISED based on cumulative DM analysis
+## v2.7.52 (June 2026) — $F_p$/F_s REVISED based on cumulative DM analysis
 
 **Major changes since v2.7.51:**
 
-1. **F_p formula revised**:
-   - Old: F_p(z) = 0.7 + 0.3 × z²/(z² + 9) [F_p(0) = 0.7]
-   - New: F_p(z) = 0.9993 + 0.0007 × z²/(z² + 9) [F_p(0) = 0.9993]
+1. **$F_p$ formula revised**:
+   - Old: $F_p$(z) = 0.7 + 0.3 × z²/(z² + 9) [$F_p$(0) = 0.7]
+   - New: $F_p$(z) = 0.9993 + 0.0007 × z²/(z² + 9) [$F_p$(0) = 0.9993]
    - F_s(0) = 0.0007 (was 0.3) — consistent with 0.068% from all event types
 
-2. **JWST M_dyn recalculated**:
-   - Old: M_dyn/M_b ~ 2.67-4.65 (varied with z)
-   - New: M_dyn/M_b ~ 4.99 for all galaxies (essentially primordial)
+2. **JWST $M_{\rm dyn}$ recalculated**:
+   - Old: $M_{\rm dyn}$/$M_b$ ~ 2.67-4.65 (varied with z)
+   - New: $M_{\rm dyn}$/$M_b$ ~ 4.99 for all galaxies (essentially primordial)
    - More consistent with cascade's "DM = past SF" applied to 4D event
 
 3. **L50 RESOLVED**:
-   - Old: F_p(0) = 0.7 inconsistent with cumulative DM (off by 440×)
-   - New: F_p(0) = 0.9993 is consistent (off by 0×)
+   - Old: $F_p$(0) = 0.7 inconsistent with cumulative DM (off by 440×)
+   - New: $F_p$(0) = 0.9993 is consistent (off by 0×)
    - L50 marked as CLOSED in limitations table
 
 4. **L51 NEW**:
-   - F_p(0) = 0.9993 is calibrated, not derived
+   - $F_p$(0) = 0.9993 is calibrated, not derived
    - First-principles derivation is open work
    - L51 added to the limitations table
 
-5. **§3.33 JWST M_dyn section updated** with new values
-6. **§3.38 F_p analysis updated** with revision note
-7. **§4.48.1 F_p formula updated** throughout paper
+5. **§3.33 JWST $M_{\rm dyn}$ section updated** with new values
+6. **§3.38 $F_p$ analysis updated** with revision note
+7. **§4.48.1 $F_p$ formula updated** throughout paper
 
 8. **Net: +1 page, 1 limitation resolved, 1 limitation added**
    - Total paper: 270 pages (was 269)
@@ -1520,7 +1520,7 @@ multiple cascade parameters that were previously calibrated.
 
 5. **L50 REVISED (v2.7.51)**:
    - F_s(0) should be ~0.001 to 0.01 (0.1%-1% cumulative)
-   - F_p(0) should be ~0.99 to 0.999 (almost all primordial)
+   - $F_p$(0) should be ~0.99 to 0.999 (almost all primordial)
    - 70/30 split is wrong; ~99/1 to 99.9/0.1 is more accurate
 
 6. **Net: 0 new pages, 1 major correction, 1 new finding**
@@ -1531,30 +1531,30 @@ multiple cascade parameters that were previously calibrated.
 
 **Earlier v2.7.50 entry (unchanged):**
 
-## v2.7.50 (June 2026) — CORRECTED F_p(z) analysis with user feedback
+## v2.7.50 (June 2026) — CORRECTED $F_p$(z) analysis with user feedback
 
 **Major changes since v2.7.49:**
 
 1. **User corrections to v2.7.49 analysis**:
-   - (1) The cascade's actual F_p(z) is F_p(z) = 0.7 + 0.3×z²/(z²+9)
-     NOT F_p(z) = z²/(z²+9). So F_p(0) = 0.7, NOT 0.
-   - (2) f_back was removed in v2.7.11 (deaths-only DM). All 2D
+   - (1) The cascade's actual $F_p$(z) is $F_p$(z) = 0.7 + 0.3×z²/(z²+9)
+     NOT $F_p$(z) = z²/(z²+9). So $F_p$(0) = 0.7, NOT 0.
+   - (2) $f_{\rm back}$ was removed in v2.7.11 (deaths-only DM). All 2D
      universe death energy comes back as DM.
 
 2. **v2.7.49 inconsistency was over-stated**:
    - v2.7.49 said: cascade predicts Ω_DM(z=0) ≈ 0 (off by 10^90)
-   - Actually: F_p(0) = 0.7 means 70% primordial, 30% cumulative
-   - With correct F_p formula, the 10^90 inconsistency goes away
+   - Actually: $F_p$(0) = 0.7 means 70% primordial, 30% cumulative
+   - With correct $F_p$ formula, the 10^90 inconsistency goes away
 
 3. **REVISED L50 (v2.7.50)**:
-   - F_p(0) = 0.7 implies F_s(0) = 0.3 (30% cumulative)
-   - SN deaths (no f_back) give M_DM_cumulative = 2.8×10^5 M_☉ (MW)
+   - $F_p$(0) = 0.7 implies F_s(0) = 0.3 (30% cumulative)
+   - SN deaths (no $f_{\rm back}$) give M_DM_cumulative = 2.8×10^5 M_☉ (MW)
    - F_s(0) × M_DM_total = 3×10^11 M_☉ expected
    - **Inconsistency: off by 10^6, not 10^90**
    - Same conclusion at cosmological scale: off by 10^6
 
 4. **For consistency**:
-   - F_p(0) should be ~1.0 (almost all DM is primordial)
+   - $F_p$(0) should be ~1.0 (almost all DM is primordial)
    - F_s(0) should be ~10^-7 (negligible cumulative)
    - OR identify a more efficient cumulative DM mechanism
    - OR include additional primordial components (e.g., inflation-era)
@@ -1564,12 +1564,12 @@ multiple cascade parameters that were previously calibrated.
 6. **Net: 0 new pages, 1 corrected analysis, 1 revised L**
    - Total paper: 269 pages (no change)
    - 51 honest limitations (L50 revised)
-   - 1 free parameter (z_half only) — but F_p(0) is now hidden too
+   - 1 free parameter ($z_{\rm half}$ only) — but $F_p$(0) is now hidden too
    - 36/36 galaxy tests pass
 
 **Earlier v2.7.49 entry (unchanged):**
 
-## v2.7.49 (June 2026) — CRITICAL: User-identified F_p(z) inconsistency
+## v2.7.49 (June 2026) — CRITICAL: User-identified $F_p$(z) inconsistency
 
 **Major changes since v2.7.48:**
 
@@ -1578,12 +1578,12 @@ multiple cascade parameters that were previously calibrated.
      as total energy diluted
    - User then noted: if DE constant and DM changed, matter must
      have changed too — and asked if this is consistent
-   - This led to deeper analysis of F_p(z) model
+   - This led to deeper analysis of $F_p$(z) model
 
-2. **REAL INCONSISTENCY DISCOVERED in F_p(z) model:**
-   - At z=0: F_p(0) = 0 (primordial fraction is ZERO)
+2. **REAL INCONSISTENCY DISCOVERED in $F_p$(z) model:**
+   - At z=0: $F_p$(0) = 0 (primordial fraction is ZERO)
    - At z=0: F_s(0) = 1 (all DM is "recent")
-   - But "recent" DM = f_back × SN deaths ≈ 10^-91 × M_b
+   - But "recent" DM = $f_{\rm back}$ × SN deaths ≈ 10^-91 × $M_b$
    - CASCADE PREDICTS Ω_DM(z=0) ≈ 10^-90
    - OBSERVATION: Ω_DM(z=0) = 0.265
    - INCONSISTENCY: off by ~10^90
@@ -1591,32 +1591,32 @@ multiple cascade parameters that were previously calibrated.
 3. **§3.38 added** with full analysis of the issue
    - 3 possible fixes discussed
    - All require a new parameter (ad hoc, not derived)
-   - L50 added: F_p(z) model has internal inconsistency
+   - L50 added: $F_p$(z) model has internal inconsistency
    - v27_fp_z_problem.py created
 
 4. **Limitations updated**: 50 → 51
-   - L50: F_p(z) inconsistency (user-identified)
+   - L50: $F_p$(z) inconsistency (user-identified)
    - 31 open, 10 partial, 3 closed, 2 falsified, 4 reverted, 1 discarded
 
 5. **Net: +1 page, +1 critical limitation, +1 honest finding**
    - Total paper: 269 pages (was 268)
    - 51 honest limitations (was 50)
-   - 1 free parameter (z_half only) — but F_p(0) is now hidden too
+   - 1 free parameter ($z_{\rm half}$ only) — but $F_p$(0) is now hidden too
    - 36/36 galaxy tests pass
 
-**This is a TOP PRIORITY**: the F_p(z) model needs to be fixed.
+**This is a TOP PRIORITY**: the $F_p$(z) model needs to be fixed.
 The cascade cannot proceed honestly without addressing L50.
 
 **Earlier v2.7.48 entry (unchanged):**
 
-## v2.7.48 (June 2026) — 4 new calculations: JWST M_dyn, DESI w(z), GW background, PPN
+## v2.7.48 (June 2026) — 4 new calculations: JWST $M_{\rm dyn}$, DESI w(z), GW background, PPN
 
 **Major changes since v2.7.47:**
 
-1. **§3.33 — JWST massive quiescent M_dyn prediction** (v27_jwst_quiescent_mdyn.py)
+1. **§3.33 — JWST massive quiescent $M_{\rm dyn}$ prediction** (v27_jwst_quiescent_mdyn.py)
    - 11 galaxies analyzed (RUBIES, ZF-UDS, EXCELS x4, TGSSJ1530,
      Protocluster, Gobat, Not-So-Little-RD, Fakhry)
-   - Cascade predicts M_dyn/M_b ~ 2.67-4.65, dominated by F_p(z)
+   - Cascade predicts $M_{\rm dyn}$/$M_b$ ~ 2.67-4.65, dominated by $F_p$(z)
    - Cannot distinguish from ΛCDM on these alone
    - Testable z-evolution with future ELT (2030+)
 
@@ -1637,18 +1637,18 @@ The cascade cannot proceed honestly without addressing L50.
    - γ_cascade = 1 to 10^-73 precision
    - HONEST FINDING: INDISTINGUISHABLE from GR
    - PPN tests cannot distinguish cascade from GR
-   - Galaxy DM must come from F_p(z), not local 2D universe deaths
+   - Galaxy DM must come from $F_p$(z), not local 2D universe deaths
 
 5. **§3.37 — Summary of v2.7.48 predictions (honest findings)**
-   - Positive: F_p(z) DM evolution, intermediate F(z) population
+   - Positive: $F_p$(z) DM evolution, intermediate F(z) population
    - Negative: w(z), GW, PPN are indistinguishable or undetectable
-   - Cascade's REAL differentiators: F_p(z), intermediate F(z), 36/36 PASS
-   - Cascade's WEAKEST claims: specific M_dyn/M_b, 2D universe death GW
+   - Cascade's REAL differentiators: $F_p$(z), intermediate F(z), 36/36 PASS
+   - Cascade's WEAKEST claims: specific $M_{\rm dyn}$/$M_b$, 2D universe death GW
 
 6. **Net: 4 new pages, 4 new calculations, 1 new honest finding**
    - Total paper: 268 pages (was 264)
    - 50 honest limitations (no change)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
    - 36/36 galaxy tests pass
 
 **Earlier v2.7.47 entry (unchanged):**
@@ -1669,7 +1669,7 @@ The cascade cannot proceed honestly without addressing L50.
    - **Cosmic Stillness (Russell+ 2024)**: high QG fraction 3<z<7
    - **Not-so-little Red Dots (2024 ApJ)**: 2 massive dusty z=5-7
    - **Fakhry+ 2025 (arXiv:2507.23742)**: 5 massive z>10 challenge ΛCDM
-   - Caveat: M_dyn hard to measure for z>4; future ELT needed
+   - Caveat: $M_{\rm dyn}$ hard to measure for z>4; future ELT needed
 
 2. **Intermediate F(z) dwarfs — cascade's #2 evidence**
    - 10+ confirmed intermediate F(z) dwarfs
@@ -1689,7 +1689,7 @@ The cascade cannot proceed honestly without addressing L50.
 3. **Net: 0 new pages, README observation data only**
    - Total paper: 264 pages (no change)
    - 50 honest limitations (no change)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
    - 36/36 galaxy tests pass
 
 **Earlier v2.7.46 entry (unchanged):**
@@ -1702,13 +1702,13 @@ The cascade cannot proceed honestly without addressing L50.
    from particle DM" but a "consistency test" for the cascade
    - Distinguishes cascade from particle DM (ΛCDM): YES
    - Distinguishes cascade from MOND: NO (both predict no DM)
-   - Falsification test: YES (if M_dyn > M_stars, cascade ruled out)
+   - Falsification test: YES (if $M_{\rm dyn}$ > M_stars, cascade ruled out)
    - Unique confirmation: NO (MOND also passes)
 
 2. **Cascade's REAL differentiators** (from ALL competitors including MOND):
    - 2D universe death GW (LISA 2034+, PTA 2030s)
    - α=1.29 universal scaling
-   - Smooth F_p(z) primordial component at z>10
+   - Smooth $F_p$(z) primordial component at z>10
    - Massive quiescent galaxies at z>4 (very high past SF)
    - Intermediate F(z) dwarf population (~10-30%)
 
@@ -1719,7 +1719,7 @@ The cascade cannot proceed honestly without addressing L50.
 4. **Net: 0 new pages, README honesty only**
    - Total paper: 264 pages (no change)
    - 50 honest limitations (no change)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
    - 36/36 galaxy tests pass
 
 **Earlier v2.7.45 entry (unchanged):**
@@ -1754,7 +1754,7 @@ The cascade cannot proceed honestly without addressing L50.
 4. **Net: 0 new pages, README honesty only**
    - Total paper: 264 pages (no change)
    - 50 honest limitations (no change)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
    - 36/36 galaxy tests pass
 
 **Earlier v2.7.44 entry (unchanged):**
@@ -1770,19 +1770,19 @@ The cascade cannot proceed honestly without addressing L50.
    - The Bullet Cluster supports DM in general, not the cascade specifically
 
 2. **Cascade's REAL differentiators** (would distinguish from particle DM):
-   - 47 Tuc test: M_dyn ≈ M_stars (no local DM)
+   - 47 Tuc test: $M_{\rm dyn}$ ≈ M_stars (no local DM)
    - Intermediate F(z) population (~10-30% of dwarfs)
    - Massive quiescent galaxies at z > 4 (very high past SF)
    - Tidal Dwarf Galaxies (DISPUTED, Gentile 2007)
 
 3. **Cascade's strongest evidence**: the wide-range 22-galaxy
-   comparison table (10 orders of magnitude in M_b, all PASS
+   comparison table (10 orders of magnitude in $M_b$, all PASS
    qualitative test)
 
 4. **Net: 0 new pages, README honesty only**
    - Total paper: 264 pages (no change)
    - 50 honest limitations (no change)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
    - 36/36 galaxy tests pass
 
 **Earlier v2.7.43 entry (unchanged):**
@@ -1793,7 +1793,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 1. **Removed stale "CMB GAP (§13)" reference**
    - The CMB gap was actually closed in v2.7.5+
-   - The §4.48.1 smooth F_p(z) (Hill n=2, z_half=3) primordial
+   - The §4.48.1 smooth $F_p$(z) (Hill n=2, $z_{\rm half}$=3) primordial
      component gives r(z) ≈ (1+z)³ at high z
    - This matches Planck 2018's Ω_DM = 0.265 at z=1100
    - The cascade's mechanism does NOT need an early-DM component
@@ -1809,7 +1809,7 @@ The cascade cannot proceed honestly without addressing L50.
 3. **Net: 0 new pages, README cleanup only**
    - Total paper: 264 pages (no change)
    - 50 honest limitations (no change)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
    - 36/36 galaxy tests pass
 
 **Earlier v2.7.42 entry (unchanged):**
@@ -1819,9 +1819,9 @@ The cascade cannot proceed honestly without addressing L50.
 **Major changes since v2.7.41:**
 
 1. **KKR 25 ADDED to wide-range table with ⚠️ marker**
-   - KKR 25's M_dyn is **estimated** (not measured)
+   - KKR 25's $M_{\rm dyn}$ is **estimated** (not measured)
    - Used σ ~ 3-5 km/s, r_h ~ 0.5-1 kpc (typical dSph)
-   - M_dyn ~ 3×10⁶ M_☉, M_dyn/M_b ~ 1
+   - $M_{\rm dyn}$ ~ 3×10⁶ M_☉, $M_{\rm dyn}$/$M_b$ ~ 1
    - ~50% uncertainty
    - In the table with ⚠️ to indicate estimated, not measured
 
@@ -1834,13 +1834,13 @@ The cascade cannot proceed honestly without addressing L50.
    - 22/22 wide-range galaxies (was 21/21)
    - 36/36 total galaxy tests (was 35/35)
 
-4. **No new limitations**: KKR 25's estimated M_dyn is already
+4. **No new limitations**: KKR 25's estimated $M_{\rm dyn}$ is already
    documented in L37-L42 (data quality concerns)
 
 5. **Net: 0 new pages, 1 new version**
    - Total paper: 264 pages (no change in length)
    - 50 honest limitations (no new L)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
    - 36/36 galaxy tests pass
 
 **Earlier v2.7.41 entry (unchanged):**
@@ -1850,42 +1850,42 @@ The cascade cannot proceed honestly without addressing L50.
 **Major changes since v2.7.40:**
 
 1. **§3.32 NEW: Wide-range galaxy comparison** (~3 pages)
-   - 21 galaxies spanning 10 orders of magnitude in M_b
-   - 3 orders of magnitude in M_dyn/M_b
+   - 21 galaxies spanning 10 orders of magnitude in $M_b$
+   - 3 orders of magnitude in $M_{\rm dyn}$/$M_b$
    - Categories: GCs, dwarf galaxies, UFDs, irregulars, spirals,
      AGN host, clusters
    - All 21/21 pass the qualitative test (DM is non-zero)
    - Test counts: 12+21+2 = 35/35 total galaxy tests
 
 2. **Galaxy types in the table**:
-   - GCs: M15, 47 Tuc, Omega Cen, G1 (M_dyn/M_b ~ 1-1.7)
+   - GCs: M15, 47 Tuc, Omega Cen, G1 ($M_{\rm dyn}$/$M_b$ ~ 1-1.7)
    - Dwarfs: Tucana dSph, Crater II, Antlia 2, DF2, UFDs
-   - Irregulars: LMC, SMC (M_dyn/M_b ~ 6-7)
-   - Spirals: MW, M31 (M_dyn/M_b ~ 14-30)
-   - Starburst: M82 (M_dyn/M_b ~ 4)
-   - AGN host: NGC 1275 (M_dyn/M_b ~ 50)
-   - Clusters: Bullet, Coma, Perseus (M_dyn/M_b ~ 10-50)
+   - Irregulars: LMC, SMC ($M_{\rm dyn}$/$M_b$ ~ 6-7)
+   - Spirals: MW, M31 ($M_{\rm dyn}$/$M_b$ ~ 14-30)
+   - Starburst: M82 ($M_{\rm dyn}$/$M_b$ ~ 4)
+   - AGN host: NGC 1275 ($M_{\rm dyn}$/$M_b$ ~ 50)
+   - Clusters: Bullet, Coma, Perseus ($M_{\rm dyn}$/$M_b$ ~ 10-50)
 
 3. **KRR 25, AGC 114905, TDGs EXCLUDED (per user request)**:
-   - KKR 25: M_dyn not measured (no published velocity dispersion)
+   - KKR 25: $M_{\rm dyn}$ not measured (no published velocity dispersion)
    - AGC 114905: DM content is DISPUTED (Mancera Piña 2022 vs Sellwood 2022)
    - TDGs (Gentile 2007): DM content is DISPUTED, unresolved 20 years
    - All three have explanatory notes in the table
 
 4. **Pattern across 10 orders of magnitude**:
-   - M_dyn/M_b varies from 1 (GCs) to 1689 (Tucana II UFD)
-   - All galaxies have non-zero M_dyn (consistent with cascade)
-   - The cascade's specific M_dyn/M_b prediction requires L9 closed
+   - $M_{\rm dyn}$/$M_b$ varies from 1 (GCs) to 1689 (Tucana II UFD)
+   - All galaxies have non-zero $M_{\rm dyn}$ (consistent with cascade)
+   - The cascade's specific $M_{\rm dyn}$/$M_b$ prediction requires L9 closed
 
 5. **L49 added**:
    - Cascade's pass criterion is qualitative (DM is non-zero)
-   - Not a specific M_dyn/M_b value
+   - Not a specific $M_{\rm dyn}$/$M_b$ value
    - Quantitative prediction requires L9 closed
 
 6. **Net: 1 new section, ~3 pages**
    - Total paper: 263 → 266 pages
    - 50 honest limitations (L49 added)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
    - 35/35 galaxy tests pass (12 + 21 + 2)
 
 **Earlier v2.7.40 entry (unchanged):**
@@ -1896,29 +1896,29 @@ The cascade cannot proceed honestly without addressing L50.
 
 1. **§3.31 NEW: Testing testable extreme galaxies (consensus data only)** (~3 pages)
    - 6 new quantitative tests (consensus data only):
-     * Crater II (M_dyn/M_b = 19.8): PASS (DM is non-zero)
-     * Antlia 2 (M_dyn/M_b = 168.6): PASS (high, consistent)
-     * Boötes I (M_dyn/M_b = 222.9): PASS (high, UFD)
-     * Segue 1 (M_dyn/M_b = 796.1): PASS (very high, UFD)
-     * Willman 1 (M_dyn/M_b = 46.5): PASS (DM is non-zero)
-     * Tucana II (M_dyn/M_b = 1689.6): PASS (very high, UFD)
-   - 2 qualitative tests (M_dyn not measured):
-     * ZF-UDS-7329 (z=3.2, M_b=1.6×10^11): VERY HIGH expected
-     * RUBIES-EGS-QG-1 (z=4.9, M_b=1×10^10): VERY HIGH expected
+     * Crater II ($M_{\rm dyn}$/$M_b$ = 19.8): PASS (DM is non-zero)
+     * Antlia 2 ($M_{\rm dyn}$/$M_b$ = 168.6): PASS (high, consistent)
+     * Boötes I ($M_{\rm dyn}$/$M_b$ = 222.9): PASS (high, UFD)
+     * Segue 1 ($M_{\rm dyn}$/$M_b$ = 796.1): PASS (very high, UFD)
+     * Willman 1 ($M_{\rm dyn}$/$M_b$ = 46.5): PASS (DM is non-zero)
+     * Tucana II ($M_{\rm dyn}$/$M_b$ = 1689.6): PASS (very high, UFD)
+   - 2 qualitative tests ($M_{\rm dyn}$ not measured):
+     * ZF-UDS-7329 (z=3.2, $M_b$=1.6×10^11): VERY HIGH expected
+     * RUBIES-EGS-QG-1 (z=4.9, $M_b$=1×10^10): VERY HIGH expected
 
 2. **Test counts**:
    - v2.7.36+: 12/12 galaxies
    - v2.7.38+: 18 quantitative + 2 qualitative = 20/20 galaxies
 
 3. **Cascade's pass criterion is QUALITATIVE**:
-   - 'DM is non-zero' (not specific M_dyn/M_b value)
-   - 6/6 extreme cases have non-zero M_dyn → consistent
-   - The cascade can't predict specific M_dyn/M_b without L9 closed
+   - 'DM is non-zero' (not specific $M_{\rm dyn}$/$M_b$ value)
+   - 6/6 extreme cases have non-zero $M_{\rm dyn}$ → consistent
+   - The cascade can't predict specific $M_{\rm dyn}$/$M_b$ without L9 closed
 
 4. **L46-48 added**:
-   - L46: Cascade's specific M_dyn prediction is qualitative
+   - L46: Cascade's specific $M_{\rm dyn}$ prediction is qualitative
    - L47: Wolf+ 2010 mass estimator has ~50% uncertainty
-   - L48: Willman 1 has lower M_dyn/M_b than other UFDs (minor tension)
+   - L48: Willman 1 has lower $M_{\rm dyn}$/$M_b$ than other UFDs (minor tension)
 
 5. **Disputed cases LEFT (per user request)**:
    - TDGs (Gentile+ 2007) — left for future
@@ -1928,7 +1928,7 @@ The cascade cannot proceed honestly without addressing L50.
 6. **Net: 1 new section, ~3 pages**
    - Total paper: 260 → 263 pages
    - 49 honest limitations (L46-48 added)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
    - 20/20 galaxy tests pass
 
 **Earlier v2.7.37 entry (unchanged):**
@@ -1950,16 +1950,16 @@ The cascade cannot proceed honestly without addressing L50.
       - RUBIES-EGS-QG-1 (z=4.9, 2024 Nature)
       - ZF-UDS-7329 (z=3.2, M_*=1.6×10^11, formed at z~11)
       - Russell+ 2024 "Cosmic Stillness" (high QG fraction z=3-7)
-      - Cascade predicts very high M_dyn/M_b
+      - Cascade predicts very high $M_{\rm dyn}$/$M_b$
    3. **Crater II** — low-DM MW satellite
-      - Caldwell+ 2017: M_dyn/M_b ~ 1
+      - Caldwell+ 2017: $M_{\rm dyn}$/$M_b$ ~ 1
       - 2025: tidal disruption confounder
    4. **Antlia 2** — extreme diffuse (100x more diffuse than UDGs)
    5. **Ultra-faint dwarfs (UFDs)** — DM-dominated extreme
-      - Statistical sample needed for M_dyn/M_b vs M_b relation
+      - Statistical sample needed for $M_{\rm dyn}$/$M_b$ vs $M_b$ relation
 
 3. **L43-45 added**:
-   - L43: TDGs are a strong test; cascade predicts M_dyn/M_b ~ 1
+   - L43: TDGs are a strong test; cascade predicts $M_{\rm dyn}$/$M_b$ ~ 1
      but Gentile+ 2007 finds DM-rich
    - L44: JWST massive quiescent z > 4 galaxies are an extreme test
    - L45: Crater II, Antlia 2, UFDs are useful tests but require more analysis
@@ -1975,7 +1975,7 @@ The cascade cannot proceed honestly without addressing L50.
    - Total paper: 258 → 261 pages
    - Test counts UNCHANGED
    - 46 honest limitations (L43-45 added)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
 
 **Earlier v2.7.36 entry (unchanged):**
 
@@ -1987,7 +1987,7 @@ The cascade cannot proceed honestly without addressing L50.
    - The cascade's "smoking gun" is GONE
    - AGC 114905 and KKR 25 are now INDEPENDENT galaxy tests
    - The bifurcation framing was based on:
-     1. 1000× error in KKR 25 M_b (§3.27)
+     1. 1000× error in KKR 25 $M_b$ (§3.27)
      2. 10-year data gap (§3.28)
      3. Contested AGC 114905 DM content 2022-2025 (§3.29)
 
@@ -2000,15 +2000,15 @@ The cascade cannot proceed honestly without addressing L50.
    - §3.13 explanation: Updated to remove bifurcation framing
 
 3. **What the cascade commits to (v2.7.36+)**:
-   - AGC 114905: M_dyn/M_b ~ 1.36 (consistent with Mancera Piña 2022)
-   - KKR 25: M_dyn/M_b ~ 1-4 (estimated, consistent with typical dSph)
+   - AGC 114905: $M_{\rm dyn}$/$M_b$ ~ 1.36 (consistent with Mancera Piña 2022)
+   - KKR 25: $M_{\rm dyn}$/$M_b$ ~ 1-4 (estimated, consistent with typical dSph)
    - SFH-DM correlation is preserved (intermediate SF → DM)
    - PAIRWISE COMPARISON (bifurcation) is REMOVED
 
 4. **What the cascade does NOT commit to (v2.7.36+)**:
-   - A specific M_dyn/M_b ratio between AGC 114905 and KKR 25
+   - A specific $M_{\rm dyn}$/$M_b$ ratio between AGC 114905 and KKR 25
    - A "bifurcation metric" or "smoking gun" claim
-   - A quantitative prediction of M_dyn/M_b from SFH alone
+   - A quantitative prediction of $M_{\rm dyn}$/$M_b$ from SFH alone
    - A pairwise comparison between galaxies measured in different decades
 
 5. **What this means for the cascade's status**:
@@ -2017,13 +2017,13 @@ The cascade cannot proceed honestly without addressing L50.
    - The cascade's strongest evidence is now: RAR (16/17 test categories),
      12 individual galaxies, 11 frameworks
    - The cascade's weakest evidence is now: pairwise comparisons,
-     quantitative M_dyn/M_b predictions
+     quantitative $M_{\rm dyn}$/$M_b$ predictions
 
 6. **Net: no new pages, 1 new version**
    - Total paper: 258 pages (no change in length)
    - Test counts UNCHANGED
    - 43 honest limitations (no new L, L29 updated)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
 
 **Earlier v2.7.35 entry (unchanged):**
 
@@ -2044,7 +2044,7 @@ The cascade cannot proceed honestly without addressing L50.
 2. **KKR 25 has NO new observations since 2012**
    - No published velocity dispersion
    - The 2012 Makarov paper remains the only detailed study
-   - M_dyn is still estimated, not measured
+   - $M_{\rm dyn}$ is still estimated, not measured
 
 3. **Bifurcation is even more uncertain**
    - Old: 219× (numerical error, fixed)
@@ -2066,7 +2066,7 @@ The cascade cannot proceed honestly without addressing L50.
    - Total paper: 256 → 258 pages
    - Test counts UNCHANGED
    - 43 honest limitations (L40-42 added)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
 
 **Earlier v2.7.34 entry (unchanged):**
 
@@ -2078,7 +2078,7 @@ The cascade cannot proceed honestly without addressing L50.
    - User observation: AGC 114905 (Mancera Piña 2022) and KKR 25 (Makarov 2012)
      data is 10 years apart
    - Different measurement techniques, systematics, stellar mass estimates
-   - KKR 25 has NO published velocity dispersion → M_dyn is estimated, not measured
+   - KKR 25 has NO published velocity dispersion → $M_{\rm dyn}$ is estimated, not measured
    - The cascade's bifurcation is measurement-vs-estimation, not
      measurement-vs-measurement
 
@@ -2089,7 +2089,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 3. **Implications for the cascade**:
    - The 10-year gap is a real concern for direct comparisons
-   - Modern vs 2012-era data: factor 2-3× uncertainty in M_b alone
+   - Modern vs 2012-era data: factor 2-3× uncertainty in $M_b$ alone
    - Distance moduli revised by Gaia DR3 (10-20% change possible)
    - Different HI survey sensitivities
    - Unmeasured quantity (KKR 25 σ) used in cascade's prediction
@@ -2098,7 +2098,7 @@ The cascade cannot proceed honestly without addressing L50.
    - Total paper: 255 → 257 pages
    - Test counts UNCHANGED
    - 40 honest limitations (L39 added)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
 
 **Earlier v2.7.33 entry (unchanged):**
 
@@ -2106,23 +2106,23 @@ The cascade cannot proceed honestly without addressing L50.
 
 **Major changes since v2.7.32:**
 
-1. **§3.27 NEW: KKR 25 M_b self-correction** (~3 pages)
-   - **FINDING: Cascade's KKR 25 M_b was off by 1000×**
-   - Cascade had: M_b = 3×10⁹ M_⊙ (WRONG)
-   - Makarov 2012 says: M_b = 3×10⁶ M_⊙ (CORRECT)
+1. **§3.27 NEW: KKR 25 $M_b$ self-correction** (~3 pages)
+   - **FINDING: Cascade's KKR 25 $M_b$ was off by 1000×**
+   - Cascade had: $M_b$ = 3×10⁹ M_⊙ (WRONG)
+   - Makarov 2012 says: $M_b$ = 3×10⁶ M_⊙ (CORRECT)
    - The "1.0 M_⊙/yr × 3 Gyr" computation was a misreading of the SFH
 
 2. **KKR 25 was the cascade's "smoking gun" for bifurcation**
-   - M_dyn/M_b = 299 was the headline number
-   - With correct M_b, M_dyn/M_b is more like 1-4 (typical dSph values)
+   - $M_{\rm dyn}$/$M_b$ = 299 was the headline number
+   - With correct $M_b$, $M_{\rm dyn}$/$M_b$ is more like 1-4 (typical dSph values)
    - Revised bifurcation ratio: 0.7-3× (was 820×)
 
 3. **Cascade's INTERPRETATION is still qualitatively right**
-   - KKR 25 has higher M_dyn/M_b than AGC 114905
+   - KKR 25 has higher $M_{\rm dyn}$/$M_b$ than AGC 114905
    - Intermediate-age SF (1-4 Gyr) → 2D universes → DM
    - But QUANTITATIVE prediction is much weaker
 
-4. **L38 added: KKR 25 M_b value (off by 1000×)**
+4. **L38 added: KKR 25 $M_b$ value (off by 1000×)**
    - The cascade's "smoking gun" was a numerical error
    - Honest self-correction is a feature of the cascade's methodology
    - The bifurcation argument needs revision
@@ -2137,7 +2137,7 @@ The cascade cannot proceed honestly without addressing L50.
    - Total paper: 253 → 256 pages
    - Test counts UNCHANGED
    - 39 honest limitations (L38 added)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
 
 **Earlier v2.7.32 entry (unchanged):**
 
@@ -2176,7 +2176,7 @@ The cascade cannot proceed honestly without addressing L50.
    - Total paper: 251 → 254 pages
    - Test counts UNCHANGED
    - 38 honest limitations (L37 unchanged)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
 
 **Earlier v2.7.31 entry (unchanged):**
 
@@ -2205,7 +2205,7 @@ The cascade cannot proceed honestly without addressing L50.
    - Total paper: 249 → 252 pages
    - Test counts UNCHANGED
    - 38 honest limitations (L37 updated)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
 
 **Earlier v2.7.30 entry (unchanged):**
 
@@ -2234,7 +2234,7 @@ The cascade cannot proceed honestly without addressing L50.
    - Added democratic cosmology (§3.17-§3.18)
    - Added self-critical methodology (§3.16)
    - Added 11 framework connections (§3.22)
-   - α is no longer a free parameter (1 free: z_half only)
+   - α is no longer a free parameter (1 free: $z_{\rm half}$ only)
 
 4. **§0 updated** to include v2.7.24-v2.7.29:
    - Recent Additions now covers v2.7.12-v2.7.29
@@ -2245,7 +2245,7 @@ The cascade cannot proceed honestly without addressing L50.
    - Total paper: 246 → 253 pages
    - Test counts UNCHANGED: 16/17, 7/7, 11/11
    - Limitations: 37 honest limitations (unchanged)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
 
 **Earlier v2.7.29 entry (unchanged):**
 
@@ -2273,7 +2273,7 @@ The cascade cannot proceed honestly without addressing L50.
 3. **§3.21 NEW: Full recursive structure** (~2.5 pages)
    - Cascade from 0D to ND
    - Each level: same proper lifetime = next-dim Planck time
-   - Generalized Planck units: t_Pl,D = t_Pl,3 × (M_Pl,3/M_Pl,D)^(D-4)
+   - Generalized Planck units: $t_{\rm Pl}$,D = $t_{\rm Pl,3}$ × ($M_{\rm Pl,3}$/$M_{\rm Pl}$,D)^(D-4)
    - The cascade is naturally recursive
    - Same physics at every level
    - Cone-shape (§2.6) is default, framework extends
@@ -2291,7 +2291,7 @@ The cascade cannot proceed honestly without addressing L50.
    - Total paper: 239 → 251 pages
    - Test counts UNCHANGED: 16/17, 7/7, 11/11
    - Limitations: 37 honest limitations (unchanged)
-   - 1 free parameter (z_half only)
+   - 1 free parameter ($z_{\rm half}$ only)
 
 **Earlier v2.7.25 entry (unchanged):**
 
@@ -2304,9 +2304,9 @@ The cascade cannot proceed honestly without addressing L50.
    - User is right! The §3.17 logic generalizes to 3+1D universes (and beyond)
 
 2. **The pattern: each level's proper lifetime = next-dim Planck time**
-   - 2D universe: t_Pl,3 in 2D frame
-   - 3+1D universe: t_Pl,4 in 3+1D frame
-   - 4D universe: t_Pl,5 (if §3.10 extension)
+   - 2D universe: $t_{\rm Pl,3}$ in 2D frame
+   - 3+1D universe: $t_{\rm Pl,4}$ in 3+1D frame
+   - 4D universe: $t_{\rm Pl}$,5 (if §3.10 extension)
    - Each level is "democratic" in its own frame
 
 3. **4D event → 3+1D universe lifetime table:**
@@ -2317,10 +2317,10 @@ The cascade cannot proceed honestly without addressing L50.
    - huge 4D (10^80 J): τ_3+1D_4D ~ 10^40 yr
 
 4. **Our universe verification:**
-   - E_4D = 10^69 J
+   - $E_{\rm 4D}$ = 10^69 J
    - γ_3+1D = 10^77 (time dilation factor)
    - T_3D = 1.8×10^26 yr (matches paper)
-   - τ_3+1D_proper = t_Pl,4 = 5.39×10^-44 s
+   - τ_3+1D_proper = $t_{\rm Pl,4}$ = 5.39×10^-44 s
 
 5. **The "awe" of the parent dimension:**
    - From 3+1D's perspective, 2D universes span 10^-63 s (LHC) to 10^8 yr (AGN)
@@ -2337,8 +2337,8 @@ The cascade cannot proceed honestly without addressing L50.
    - If child lifetimes are smooth across 25 orders of magnitude: hypothesis right
 
 8. **L9 (2D universe physics) further closed:**
-   - Proper lifetime: t_Pl,4 (specified)
-   - Time dilation factor: γ_3+1D = (E_4D/E_Pl,4)^1.29 (specified)
+   - Proper lifetime: $t_{\rm Pl,4}$ (specified)
+   - Time dilation factor: γ_3+1D = ($E_{\rm 4D}$/E_Pl,4)^1.29 (specified)
    - Mass scaling: M_3+1D_4D ∝ E^0.71 (specified)
    - Internal dynamics: still unspecified (the only remaining gap)
 
@@ -2348,13 +2348,13 @@ The cascade cannot proceed honestly without addressing L50.
 
 **Major changes since v2.7.23:**
 
-1. **§3.17 NEW: All 2D universes have same proper lifetime (t_Pl)** (~3 pages)
+1. **§3.17 NEW: All 2D universes have same proper lifetime ($t_{\rm Pl}$)** (~3 pages)
    - User insight: "is there a part that says the smaller 2D universe, the less rest mass, the more time dilation?"
    - User is right! The paper has this in §10.2, but the deeper implication deserves its own analysis
 
 2. **Major reframing:**
-   - The energy-scaling rule τ_2D_3+1D = (E/E_Pl)^1.29 × t_Pl was an empirical fit (v2.7.9)
-   - Hypothesis: all 2D universes have same proper lifetime τ_2D_proper = t_Pl
+   - The energy-scaling rule τ_2D_3+1D = (E/E_Pl)^1.29 × $t_{\rm Pl}$ was an empirical fit (v2.7.9)
+   - Hypothesis: all 2D universes have same proper lifetime τ_2D_proper = $t_{\rm Pl}$
    - Then: γ_2D = (E/E_Pl)^1.29 is the time-dilation factor
    - The energy-scaling rule is now a CONSEQUENCE of time dilation
 
@@ -2369,11 +2369,11 @@ The cascade cannot proceed honestly without addressing L50.
    - Before: α = 1.29 was a free parameter (calibrated to SN 33s)
    - After: α = 1.29 is a DERIVED property of the projection geometry
    - The "fit" becomes a "measurement" of the projection geometry
-   - Net: 2 free parameters (α, z_half) → 1 free parameter (z_half only)
+   - Net: 2 free parameters (α, $z_{\rm half}$) → 1 free parameter ($z_{\rm half}$ only)
    - Major simplification!
 
 5. **Connection to Liouville 2D CFT:**
-   - Natural time scale is c_2D × t_Pl (central charge)
+   - Natural time scale is c_2D × $t_{\rm Pl}$ (central charge)
    - For constant proper lifetime: c_2D is constant across all 2D universes
    - Consistent with conformal invariance: c is a property of the theory, not the state
    - Alternative: c_2D ∝ (E/E_Pl)^(-1.29) — but this is unnatural
@@ -2384,13 +2384,13 @@ The cascade cannot proceed honestly without addressing L50.
    - Future PTA observations of BNS/AGN death GW (2030s) will test
 
 7. **L9 (2D universe physics) is partially closed:**
-   - Proper lifetime: t_Pl (specified)
+   - Proper lifetime: $t_{\rm Pl}$ (specified)
    - Time-dilation factor: γ_2D = (E/E_Pl)^1.29 (specified)
    - Mass scaling: M_2D_2D ∝ E^0.71 (specified)
    - Internal dynamics: still unspecified
 
 8. **Net parameter count update:**
-   - 2 free (α, z_half) → 1 free (z_half only)
+   - 2 free (α, $z_{\rm half}$) → 1 free ($z_{\rm half}$ only)
    - α is now DERIVED from projection geometry
    - This is a major simplification
 
@@ -2433,7 +2433,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 1. **§0 Parameter Glossary updated (v2.7.21)**:
    - 4 calibrated postulates (was 3) — added A_event ~ 67 per-event amplification
-   - F_p(z) now smooth function (was constant 0.7)
+   - $F_p$(z) now smooth function (was constant 0.7)
    - New "Discarded" section (§3.13 mechanism)
    - New "What changed in v2.7.12-v2.7.20" table
 
@@ -2628,7 +2628,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 8. **Connection to other sections:**
    - §2.5.4 Deaths-only DM: 2D universe death is the FIRST appearance of DM
-   - §4.48 Smooth F_p(z): independent of decay mechanism
+   - §4.48 Smooth $F_p$(z): independent of decay mechanism
    - §3.10 4D's own DM: 4D's "DM" would also decay via same mechanism
    - §3.9 Inversion: sterile neutrino consistent with all 3 inversion mechanisms
 
@@ -2646,7 +2646,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 1. **§3.12 NEW: Subtle test of cumulative DM growth** (~2.5 pages)
    - User observation: "if time accumulation plays a part, won't DM ratio grow over time?"
-   - Honest answer: yes, cumulative component GROWS (captured by F_p(z))
+   - Honest answer: yes, cumulative component GROWS (captured by $F_p$(z))
    - But total DM may be conserved (Scenario A) or grow (Scenario B)
 
 2. **Two scenarios analyzed:**
@@ -2658,17 +2658,17 @@ The cascade cannot proceed honestly without addressing L50.
      - At z=0 (today): 5.4x
      - Growth factor: 1.4x over cosmic history
 
-3. **F_p(z) framework (§4.48) revisited:**
-   - F_p(z=0) = 0.7 (70% primordial at z=0)
-   - F_p(z=∞) = 1.0 (100% primordial at high z)
+3. **$F_p$(z) framework (§4.48) revisited:**
+   - $F_p$(z=0) = 0.7 (70% primordial at z=0)
+   - $F_p$(z=∞) = 1.0 (100% primordial at high z)
    - F_cum(z=0) = 0.3 (30% cumulative at z=0)
    - F_cum(z=∞) = 0 (no cumulative at high z)
 
 4. **CMB gap resolution:**
-   - At z=1100, all DM is primordial (F_p=1.0)
+   - At z=1100, all DM is primordial ($F_p$=1.0)
    - Primordial deaths happening pre-CMB account for 27% of DM
    - Cumulative deaths add 8.1% over cosmic history
-   - Smooth F_p(z) closes the v2.4 CMB gap to < 1%
+   - Smooth $F_p$(z) closes the v2.4 CMB gap to < 1%
 
 5. **Testable predictions:**
    - **Scenario A:** DM/baryon constant at 5.4x (cumulative fraction grows)
@@ -2679,7 +2679,7 @@ The cascade cannot proceed honestly without addressing L50.
 6. **Honest summary:**
    - Cascade's default: total DM approximately conserved (Scenario A)
    - DM/baryon ratio is approximately constant at 5.4x
-   - Cumulative fraction GROWS with time (captured by F_p(z))
+   - Cumulative fraction GROWS with time (captured by $F_p$(z))
    - "Approximately conserved" is a postulate, not a derivation
    - Future observations could distinguish Scenario A from B
 
@@ -2781,7 +2781,7 @@ The cascade cannot proceed honestly without addressing L50.
 2. **Near-term tests (2026-2027)**:
    - DESI DR3: w_0 = -0.83 ± 0.16 (currently 3.5σ tension with ΛCDM)
      Falsification: w = -1 confirmed → cascade standard Lagrangian right
-     Falsification: w_0 = -0.83 confirmed → cascade needs running f_back
+     Falsification: w_0 = -0.83 confirmed → cascade needs running $f_{\rm back}$
    - LSST Y1: 47 Tuc DM (cascade predicts no DM)
      Falsification: DM detected at > 5σ
 
@@ -2790,7 +2790,7 @@ The cascade cannot proceed honestly without addressing L50.
      Falsification: GW at 10× off-frequency, or no GW at all
    - LISA (2034+): cascade's SN GW is 6-14 orders BELOW LISA noise
      LISA will NOT detect cascade's death GW
-   - M_Pl,4 measurement (2030s+): cascade predicts M_Pl,4 ≥ 887 GeV
+   - $M_{\rm Pl,4}$ measurement (2030s+): cascade predicts $M_{\rm Pl,4}$ ≥ 887 GeV
      Falsification: measured < 887 GeV
 
 4. **Long-term tests (2034+)**:
@@ -2816,29 +2816,29 @@ The cascade cannot proceed honestly without addressing L50.
 **Major changes since v2.7.11:**
 
 1. **§0 NEW: Parameter Glossary (quick reference table)** at the start of the paper
-   - 2 truly free parameters: α = 1.29, z_half ≈ 3
-   - 3 calibrated postulates: f_DE ~ 10^-85, ε ~ 10^-38, F_p ~ 0.7
-   - 5 observational inputs: 5/27/68, H_0, E_SN, etc.
-   - 4 derived quantities: M_Pl,4 floor, f_primordial, H_0,4D, τ_4D
-   - Recent removals: E_crit, λ_th, f_active (cleaned up over versions)
+   - 2 truly free parameters: α = 1.29, $z_{\rm half}$ ≈ 3
+   - 3 calibrated postulates: $f_{\rm DE}$ ~ 10^-85, ε ~ 10^-38, $F_p$ ~ 0.7
+   - 5 observational inputs: 5/27/68, $H_0$, $E_{\rm SN}$, etc.
+   - 4 derived quantities: $M_{\rm Pl,4}$ floor, f_primordial, $H_0$,4D, τ_4D
+   - Recent removals: E_crit, λ_th, $f_{\rm active}$ (cleaned up over versions)
 
 2. **E_primordial specification (L34 partially addressed)** in §4.48:
    - Functional form: E_primordial = ρ_4D × V_2D × f_primordial
-   - ρ_4D = ε × M_Pl,4^4 (4D event's energy density)
+   - ρ_4D = ε × $M_{\rm Pl,4}$^4 (4D event's energy density)
    - V_2D = c × τ_2D_primordial (2D universe's spatial extent)
    - f_primordial = ρ_DM_primordial / ρ_4D (DERIVED from observations)
    - Remaining free: τ_2D_primordial (typical primordial 2D universe lifetime)
    - L34: PARTIALLY ADDRESSED (form specified, efficiency derived, exact value remains free)
 
 3. **§13 update at top**: "UPDATED v2.7.5+: CLOSED" — the CMB gap is now closed
-   - Smooth F_p(z) closes CMB gap to < 1%
+   - Smooth $F_p$(z) closes CMB gap to < 1%
    - L31 (CMB time-lag) FULLY ADDRESSED
    - Historical §13.1-§13.5 kept for context
 
 4. **1 new analysis script**: v27_e_primordial.py
 
 **Test counts UNCHANGED** (16/17, 7/7, 11/11, 35 limitations)
-**Free parameters UNCHANGED** (2: α, z_half)
+**Free parameters UNCHANGED** (2: α, $z_{\rm half}$)
 **Calibrated postulates UNCHANGED** (3)
 
 **Earlier v2.7.11 entry (unchanged):**
@@ -2850,19 +2850,19 @@ The cascade cannot proceed honestly without addressing L50.
 1. **§2.5.4 NEW subsection (~1.5 pages)**: The cascade adopts the *deaths-only DM* framework: 2D universe is invisible to 3+1D during its 33s lifetime, DM = cumulative deaths only.
 
 2. **The simplification**:
-   - **Before**: 2D universe has live back-projection (f_DM_leak ~ 0.05, REVERTED in v2.7.1) + cumulative death return
+   - **Before**: 2D universe has live back-projection ($f_{\rm DM,leak}$ ~ 0.05, REVERTED in v2.7.1) + cumulative death return
    - **After**: 2D universe is invisible during life, all DM from cumulative deaths
-   - f_DM_leak = 0 (POSTULATE, replaces the calibrated f_DM_leak ~ 0.05)
+   - $f_{\rm DM,leak}$ = 0 (POSTULATE, replaces the calibrated $f_{\rm DM,leak}$ ~ 0.05)
 
 3. **Why deaths-only is cleaner**:
    - Aligns with 5 of 6 framework analyses (CGHS, Padmanabhan, HW, RT, Jacobson)
    - All 5 frameworks describe 2D objects that EVAPORATE/DECAY at end of life
-   - The cascade's previous f_DM_leak ~ 0.05 was NOT in standard 2D gravity
+   - The cascade's previous $f_{\rm DM,leak}$ ~ 0.05 was NOT in standard 2D gravity
    - The "live back-projection" was a phenomenological fit (REVERTED in v2.7.1)
 
 4. **Parameter impact (HONEST)**:
-   - Truly free parameters: 2 (α, z_half) — UNCHANGED
-   - Calibrated postulates: 3 (was 4) — f_active ~ 0.05 removed
+   - Truly free parameters: 2 (α, $z_{\rm half}$) — UNCHANGED
+   - Calibrated postulates: 3 (was 4) — $f_{\rm active}$ ~ 0.05 removed
    - 1 less calibrated postulate (NOT a "free parameter" reduction)
 
 5. **What stays the same**:
@@ -2870,12 +2870,12 @@ The cascade cannot proceed honestly without addressing L50.
    - dSph bifurcation (AGC vs KKR) still explained
    - 16/17 test categories UNCHANGED
    - 7/7 specific cases UNCHANGED
-   - 35 limitations (with f_active removed)
+   - 35 limitations (with $f_{\rm active}$ removed)
    - DE = 4D event antigravity (still requires inversion per §3.9)
 
 6. **What is removed**:
    - Live 2D universe back-projection (~5% of total DM)
-   - f_active ~ 0.05 calibrated MCMC fit to SPARC
+   - $f_{\rm active}$ ~ 0.05 calibrated MCMC fit to SPARC
    - "Population ratio of live vs dead" interpretation
 
 7. **What is added**:
@@ -2970,17 +2970,17 @@ The cascade cannot proceed honestly without addressing L50.
 
 1. **§4.48 renamed**: "Two-Component DM with Trial-and-Error (v2.4) + Smooth F(z) Refinement (v2.7.5)" → **"Smooth F(z) DM Design (v2.7.8+, supersedes the v2.4-v2.7.7 'Two-Component' picture)"**
 
-2. **Smooth F(z) is now the primary framework, not a refinement**: per user direction, the smooth F_p(z) = 0.7 + 0.3 × z²/(z_half² + z²) (Hill function, n=2, z_half ≈ 3) REPLACES the constant F_p = 0.7 + F_s = 0.3 two-component picture. The "two components" framing was preserved for v2.4-v2.7.7 as a low-z approximation, but at high z the smooth function asymptotes to F_p = 1.0 (pure primordial), so the "two components" was really only a low-z feature.
+2. **Smooth F(z) is now the primary framework, not a refinement**: per user direction, the smooth $F_p$(z) = 0.7 + 0.3 × z²/(z_half² + z²) (Hill function, n=2, $z_{\rm half}$ ≈ 3) REPLACES the constant $F_p$ = 0.7 + F_s = 0.3 two-component picture. The "two components" framing was preserved for v2.4-v2.7.7 as a low-z approximation, but at high z the smooth function asymptotes to $F_p$ = 1.0 (pure primordial), so the "two components" was really only a low-z feature.
 
-3. **Why smooth F(z) supersedes constant F_p**:
+3. **Why smooth F(z) supersedes constant $F_p$**:
    - The 4D event's internal activity R_p(z) is unlikely to be a step function
-   - The smooth F(z) closes the CMB gap to < 1% (vs 30% off for constant F_p = 0.7 at z=1100)
-   - At high z (z > 10), F_p → 1.0, so the "stellar component" effectively disappears — it's a 1-component primordial model with smooth F_p(z) at low z
+   - The smooth F(z) closes the CMB gap to < 1% (vs 30% off for constant $F_p$ = 0.7 at z=1100)
+   - At high z (z > 10), $F_p$ → 1.0, so the "stellar component" effectively disappears — it's a 1-component primordial model with smooth $F_p$(z) at low z
    - Honest framing: the smooth function is the cascade's natural high-z/low-z interpolation, not a refinement of an outdated 2-component model
 
-4. **§4.48.1 status**: now the "Smooth F(z) Details" subsection, providing the technical implementation (Hill function, z_half parameter, 1-parameter family)
+4. **§4.48.1 status**: now the "Smooth F(z) Details" subsection, providing the technical implementation (Hill function, $z_{\rm half}$ parameter, 1-parameter family)
 
-5. **Limitation 31 update**: from PARTIALLY ADDRESSED → **FULLY ADDRESSED** by the smooth F(z) framework (the CMB time-lag is no longer a problem because F_p(z) → 1.0 at z=1100)
+5. **Limitation 31 update**: from PARTIALLY ADDRESSED → **FULLY ADDRESSED** by the smooth F(z) framework (the CMB time-lag is no longer a problem because $F_p$(z) → 1.0 at z=1100)
 
 6. **Test counts UNCHANGED** (16/17, 7/7, 11/11, 35 limitations)
 
@@ -2990,7 +2990,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 **Major changes since v2.7.6:**
 
-1. **§3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy (NEW subsection)**: The RT formula S_A = Area(γ_A) / (4 G_N) provides a *concrete* information-theoretic interpretation of cascade DM as missing bulk entanglement entropy. Each 2D universe has area A_2D = 4π(cτ_2D)² in 3+1D, and the RT formula gives the entanglement entropy of the 2D universe's contents as S_2D ≈ 10⁹⁰ for SN-calibrated lifetimes. **Important subtlety**: RT + Bekenstein-Hawking + Unruh = Jacobson. All four derivations give the SAME M_2D = τ_2D / (2G) linear relation, not the cascade's power law. So RT, Jacobson, and Padmanabhan all give the same LINEAR τ_2D ~ M_2D — they reinforce each other but fail to derive α = 1.29.
+1. **§3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy (NEW subsection)**: The RT formula S_A = Area(γ_A) / (4 G_N) provides a *concrete* information-theoretic interpretation of cascade DM as missing bulk entanglement entropy. Each 2D universe has area A_2D = 4π(cτ_2D)² in 3+1D, and the RT formula gives the entanglement entropy of the 2D universe's contents as $S_{\rm 2D}$ ≈ 10⁹⁰ for SN-calibrated lifetimes. **Important subtlety**: RT + Bekenstein-Hawking + Unruh = Jacobson. All four derivations give the SAME $M_{\rm 2D}$ = τ_2D / (2G) linear relation, not the cascade's power law. So RT, Jacobson, and Padmanabhan all give the same LINEAR τ_2D ~ $M_{\rm 2D}$ — they reinforce each other but fail to derive α = 1.29.
 
 2. **§3.8.7 Kaluza-Klein (1921) 5D unification (NEW subsection)**: KK is the historical prototype for dimensional reduction. The cascade is a *generalization* of KK: KK's 5D → 4D is a 1-step cascade; the cascade's 4D → 3+1D → 2D is a 2-step cascade. Key structural differences: (a) KK's extra dim is COMPACT (S^1 of radius R), cascade's 4D event is SPATIALLY EXTENDED (~ 10³⁶ m); (b) KK derives EM from geometry, cascade does NOT derive SM from geometry; (c) KK preserves the sign of gravity, cascade has an INVERSION. Both have gravity weakening (KK: 1/R, cascade: 0.47), but the specific factors differ.
 
@@ -3026,14 +3026,14 @@ The cascade cannot proceed honestly without addressing L50.
 
    a. **CGHS (Callan-Giddings-Harvey-Strominger 1992)**: 1+1D dilaton gravity with exactly solvable black hole formation/evaporation. The cascade's 2D universes are structurally similar to CGHS-like 2D black holes (both 1+1D, both formed by energetic events, both with finite lifetime, both return energy to parent). The cascade's α = 1.29 is BETWEEN RST (p=1) and CGHS original (p=3), consistent with a CGHS-like 2D black hole with intermediate back-reaction. **Testable prediction**: a specific CGHS-with-back-reaction calculation that yields α = 1.29 would be a *first-principles derivation* of the cascade's energy-scaling rule. This is a concrete calculation, not a vague hope.
 
-   b. **Padmanabhan (2015) "Emergent Gravity and Entanglement"**: gravity emerges from bulk/boundary entanglement entropy difference. The cascade's DM can be interpreted as *missing bulk entanglement entropy* (2D universe = bulk entropy, 3+1D observable matter = boundary entropy, DM = difference). Provides an information-theoretic foundation for the cascade's bulk-brane coupling. The cascade's 3+1D mass M_3+1D ~ c τ_4D / (4π G) gives τ_4D ~ 10²⁸ yr for the 4D event's duration. Does NOT derive the inversion mechanism.
+   b. **Padmanabhan (2015) "Emergent Gravity and Entanglement"**: gravity emerges from bulk/boundary entanglement entropy difference. The cascade's DM can be interpreted as *missing bulk entanglement entropy* (2D universe = bulk entropy, 3+1D observable matter = boundary entropy, DM = difference). Provides an information-theoretic foundation for the cascade's bulk-brane coupling. The cascade's 3+1D mass $M_{\rm 3+1D}$ ~ c τ_4D / (4π G) gives τ_4D ~ 10²⁸ yr for the 4D event's duration. Does NOT derive the inversion mechanism.
 
-   c. **Horava-Witten (1996) M-theory**: 11D M-theory on S¹/Z₂ with two 10D branes. The cascade's 3+1D us = 10D HW brane with 6D Calabi-Yau compactification (standard string phenomenology). The cascade's 2D children = D1-branes nucleated on the 4D effective brane. **Cascade is more predictive than HW**: 1-2 free parameters (α, z_half) vs HW's 10-100+ (CY moduli, fluxes, gauge bundle). Does NOT derive α = 1.29, but a D1-brane nucleation calculation with p = 1.29 would.
+   c. **Horava-Witten (1996) M-theory**: 11D M-theory on S¹/Z₂ with two 10D branes. The cascade's 3+1D us = 10D HW brane with 6D Calabi-Yau compactification (standard string phenomenology). The cascade's 2D children = D1-branes nucleated on the 4D effective brane. **Cascade is more predictive than HW**: 1-2 free parameters (α, $z_{\rm half}$) vs HW's 10-100+ (CY moduli, fluxes, gauge bundle). Does NOT derive α = 1.29, but a D1-brane nucleation calculation with p = 1.29 would.
 
-   d. **Jacobson (1995) "Thermodynamics of Spacetime"**: δQ = T dS applied to local Rindler horizons gives Einstein's equations. **TENSION**: a 2D universe with M_2D = M_SN_bary would have τ_2D ≥ 10¹³ yr (Jacobson minimum), not the cascade's 33 s. Consistent ONLY if M_2D = f_back × M_SN ~ 10⁻⁸⁵ × M_SN. Jacobson's framework predicts LINEAR τ_2D ~ E, not the cascade's POWER LAW τ_2D ~ E^1.29. The α = 1.29 is NOT derived from thermodynamic first principles. Resolution: cascade's 2D universes are NON-EQUILIBRIUM processes, not equilibrium thermodynamic systems.
+   d. **Jacobson (1995) "Thermodynamics of Spacetime"**: δQ = T dS applied to local Rindler horizons gives Einstein's equations. **TENSION**: a 2D universe with $M_{\rm 2D}$ = M_SN_bary would have τ_2D ≥ 10¹³ yr (Jacobson minimum), not the cascade's 33 s. Consistent ONLY if $M_{\rm 2D}$ = $f_{\rm back}$ × M_SN ~ 10⁻⁸⁵ × M_SN. Jacobson's framework predicts LINEAR τ_2D ~ E, not the cascade's POWER LAW τ_2D ~ E^1.29. The α = 1.29 is NOT derived from thermodynamic first principles. Resolution: cascade's 2D universes are NON-EQUILIBRIUM processes, not equilibrium thermodynamic systems.
 
 2. **4 new analysis scripts** (calculations/):
-   - v27_jacobson_thermodynamics.py — consistency check on f_back, identifies power-law-vs-linear tension
+   - v27_jacobson_thermodynamics.py — consistency check on $f_{\rm back}$, identifies power-law-vs-linear tension
    - v27_cghs_2d_universe.py — structural match analysis, identifies α=1.29 in CGHS back-reaction range
    - v27_horava_witten_cascade.py — M-theory stacking analysis, predictivity comparison
    - v27_padmanabhan_entropic.py — DM as missing bulk entropy interpretation
@@ -3060,16 +3060,16 @@ The cascade cannot proceed honestly without addressing L50.
 
 **Major changes since v2.7.4:**
 
-1. **§4.48.1 Smooth F(z) refinement (NEW subsection, ~3 pages)**: the v2.4 constant F_p = 0.7 (CMB gap: 30% off at z=1100) is replaced with a smooth Hill function F_p(z) = 0.7 + 0.3 × z²/(z_half² + z²) with z_half ≈ 3. This 1-parameter family matches BOTH z=0 and z=1100 anchors with gap < 1%, **CLOSING THE CMB GAP**. The Hill form is preferred over exp/sigmoid because it stays below 1.0 at intermediate z (no over-prediction at z=2-6). L35 added for z_half free parameter. Limitation 31 (CMB time-lag) status: PARTIALLY → **FULLY ADDRESSED**.
+1. **§4.48.1 Smooth F(z) refinement (NEW subsection, ~3 pages)**: the v2.4 constant $F_p$ = 0.7 (CMB gap: 30% off at z=1100) is replaced with a smooth Hill function $F_p$(z) = 0.7 + 0.3 × z²/(z_half² + z²) with $z_{\rm half}$ ≈ 3. This 1-parameter family matches BOTH z=0 and z=1100 anchors with gap < 1%, **CLOSING THE CMB GAP**. The Hill form is preferred over exp/sigmoid because it stays below 1.0 at intermediate z (no over-prediction at z=2-6). L35 added for $z_{\rm half}$ free parameter. Limitation 31 (CMB time-lag) status: PARTIALLY → **FULLY ADDRESSED**.
 
 2. **§2.5.3 Smooth creation function (NEW subsection, ~3 pages)**: the v2.3.0 E_crit step-function phase-transition threshold (E_crit ~ 10^30 J) is REPLACED with a single smooth function C(E) = E^(1+α) with α = 1.29 (the same α from the energy-scaling rule). The smooth function uses only the existing α parameter — no new free parameters. The 5/5 dwarf cases (Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) all still work: low-energy events contribute E^2.29/SN^2.29 ~ 10^-31 to 10^-41 of SN, naturally negligible. L36 added for E_crit REVERTED status. **Parameter reduction: 2 free parameters (α + E_crit) → 1 free parameter (α).**
 
-3. **Thomson tension resolution in README**: the v3 README claim that "Thomson does the heavy lifting" was incorrect under the smooth function. Thomson per-event contribution is ~10^-145 of SN (CMB photon energy × E^2.29 weight); even with Thomson's much higher rate (~10^67/s vs SN's 10^-12/s), net contribution is ~10^-66 of SN (negligible). The r(z) ≈ (1+z)³ match actually comes from the F_p(z) primordial component (§4.48.1), not from Thomson. README reframed to honest framing.
+3. **Thomson tension resolution in README**: the v3 README claim that "Thomson does the heavy lifting" was incorrect under the smooth function. Thomson per-event contribution is ~10^-145 of SN (CMB photon energy × E^2.29 weight); even with Thomson's much higher rate (~10^67/s vs SN's 10^-12/s), net contribution is ~10^-66 of SN (negligible). The r(z) ≈ (1+z)³ match actually comes from the $F_p$(z) primordial component (§4.48.1), not from Thomson. README reframed to honest framing.
 
 4. **Paper structure cleanup**:
    - Title + author + version + repo added to paper.md (was missing)
    - 4 version announcements moved from paper.md to changelog.md (paper.md now references changelog.md)
-   - "32 honest limitations" → "33" → "34" → "35" (L34 E_primordial + L35 z_half + L36 E_crit REVERTED)
+   - "32 honest limitations" → "33" → "34" → "35" (L34 E_primordial + L35 $z_{\rm half}$ + L36 E_crit REVERTED)
    - 9+ paper inconsistencies found and fixed via audit scripts (calculations/v27_paper_inconsistency_audit.py, calculations/v27_paper_full_audit.py)
 
 5. **PDF regeneration**: paper.pdf now 201 pages (was 199), uses xelatex with DejaVu fonts to handle the 973 Unicode superscripts (10^-50, ², ³, etc.) that pdflatex cannot render. Build script: `paper/build_pdf.sh`.
@@ -3082,9 +3082,9 @@ The cascade cannot proceed honestly without addressing L50.
 
 **Version 2.7.3** (June 2026) — *30 external constraints catalog, parameter-reducing convergence on 2D CFT.* 30 external observational and theoretical constraints from 2024-2025 web research are catalogued: 4 parameter-reducing (μ, b, α, z₀ → μ, m₃₊₁D), 7 interpretive-cosmological (TRGB H₀ = 69.8 ± 1.9 is 0.2σ from cascade H₀,4D = 70.16 — the KILLER MATCH), 4 interpretive-theoretical (JT gravity = c=1 string limit; matrix model is exact 2D quantum gravity; Schwarzian spectrum), 10 from latest datasets (DESI DR2+ACT DR6 3.5σ evolving DE, Lyα WDM, XENONnT 2025, ACT DR6 lensing, HERA 21cm, SIDM, ALP, UFDs, MeV γ-ray, PBH), and 1 NEW CASCADE PREDICTION (2D universe birth stochastic GW background, testable with SKA-MPG in 2030s). The 4 free 2D CFT parameters (μ, b, α, z₀) are reduced to 2 (μ, m₃₊₁D) by external constraints, with the matrix model identified as the exact framework. §8.1.1–§8.1.7 added with all 30 constraints. Version 2.7.3 supersedes v2.7.1. The 7/7 specific-case predictions and 32 honest limitations are UNCHANGED.
 
-**Version 2.7.1** (June 2026) — *5/27/68 honest framing: 5/27 inner split is observational data, not derived. The 5:27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped as a separate postulate that conflicts with the empirical 33 s lifetime (which gives f_active ~ 10^-17, not 0.05). The 5/27/68 split is treated as observational data (Planck 2018) with the cascade providing a qualitative interpretation (5% = baryons, 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity). The §2.6.1 "5/27 as topological eigenvalue" section is removed as a post-hoc fit. The "three 5% coincidence" section is removed as a confusion. f_active is now a FREE PARAMETER, not derived. The cascade documents 32 honest limitations. The 7/7 specific-case predictions are UNCHANGED (rename is framing, not physics).
+**Version 2.7.1** (June 2026) — *5/27/68 honest framing: 5/27 inner split is observational data, not derived. The 5:27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") is dropped as a separate postulate that conflicts with the empirical 33 s lifetime (which gives $f_{\rm active}$ ~ 10^-17, not 0.05). The 5/27/68 split is treated as observational data (Planck 2018) with the cascade providing a qualitative interpretation (5% = baryons, 27% = DM from 2D universe back-projection, 68% = DE from 4D event antigravity). The §2.6.1 "5/27 as topological eigenvalue" section is removed as a post-hoc fit. The "three 5% coincidence" section is removed as a confusion. $f_{\rm active}$ is now a FREE PARAMETER, not derived. The cascade documents 32 honest limitations. The 7/7 specific-case predictions are UNCHANGED (rename is framing, not physics).
 
-**Version 2.7** (June 2026) — *Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed.* The cascade's earlier attempts to explain the Hubble tension via 4-zone H(z) (local R_stellar boost, bulk baseline, secular cosmic web boost, primordial CMB drag) were removed in v2.7. The 4-zone spec was data fitting (8 free parameters for ~5 data points), and the bulk position distribution P(y) was internally inconsistent (the axion-like mass required deep-bulk 2D universes, but the local R_stellar boost required shallow-bulk 2D universes). The cascade now adopts Mechanism M: ACCEPT the Hubble tension as a real observational tension, not resolved. The cascade's intrinsic H_0,4D = 70.16 (geometric mean) is preserved as a non-trivial property. The Ω_DM = 0.27 input postulate, the cone-shape architecture, the time compression mechanism, and the Liouville 2D CFT framework are all preserved. Limitation 32 (4-zone H(z) derivation) is REMOVED (it was an empirical fit, not a derivation). The cascade documents 32 honest limitations (L31 and L33 retained, L32 removed). The 7/7 specific-case predictions are UNCHANGED.
+**Version 2.7** (June 2026) — *Hubble tension accepted (Mechanism M), 4-zone H(z) attempts removed.* The cascade's earlier attempts to explain the Hubble tension via 4-zone H(z) (local R_stellar boost, bulk baseline, secular cosmic web boost, primordial CMB drag) were removed in v2.7. The 4-zone spec was data fitting (8 free parameters for ~5 data points), and the bulk position distribution P(y) was internally inconsistent (the axion-like mass required deep-bulk 2D universes, but the local R_stellar boost required shallow-bulk 2D universes). The cascade now adopts Mechanism M: ACCEPT the Hubble tension as a real observational tension, not resolved. The cascade's intrinsic $H_0$,4D = 70.16 (geometric mean) is preserved as a non-trivial property. The Ω_DM = 0.27 input postulate, the cone-shape architecture, the time compression mechanism, and the Liouville 2D CFT framework are all preserved. Limitation 32 (4-zone H(z) derivation) is REMOVED (it was an empirical fit, not a derivation). The cascade documents 32 honest limitations (L31 and L33 retained, L32 removed). The 7/7 specific-case predictions are UNCHANGED.
 
 
 
@@ -3117,7 +3117,7 @@ are kept as honest research artifacts.
 4. **2D CFT Lagrangian FORM is derived, PARAMETERS are not.** The
    Lagrangian is Liouville + Karch-Randall + SM coupling, but μ, b, α, z_0
    remain free. Even with Boltzmann inverse problem, the 4 parameters are
-   degenerate. SPARC constrains only the effective g_+, not the
+   degenerate. SPARC constrains only the effective $g_+$, not the
    underlying 2D CFT. See:
    - `calculations/v27_derive_2d_cft_lagrangian.py`
    - `calculations/v27_boltzmann_2d_cft_inverse_problem.py`
@@ -3130,8 +3130,8 @@ are kept as honest research artifacts.
    See `calculations/v27_boltzmann_liouville_rsii_smoking_guns.py`.
 
 6. **SPARC database analysis (175 galaxies, 3378 RAR data points):**
-   - RAR fit: g_+ = 9.54e-11 m/s² (within 20% of MOND's a_0)
-   - Deep MOND regime: g_obs/g_MOND = 1.02 (within 2% of MOND)
+   - RAR fit: $g_+$ = 9.54e-11 m/s² (within 20% of MOND's a_0)
+   - Deep MOND regime: $g_{\rm obs}$/g_MOND = 1.02 (within 2% of MOND)
    - 5 bifurcation pairs found (max V_max ratio 3.5×, vs AGC/KKR 219×)
    - 4-parameter 2D CFT degeneracy confirmed
    See `calculations/v27_sparc_*.py` (5 scripts).
@@ -3155,7 +3155,7 @@ are kept as honest research artifacts.
 - The cascade's 0 unique testable predictions
 - The 9+ observational tests we ran (CMB, r(z), P(k), halo mass function,
   CMB lensing, 21cm, RAR, MOND behavior, AGC/KKR)
-- The SPARC results (g_+ = 9.54e-11 within 20% of MOND; MOND behavior
+- The SPARC results ($g_+$ = 9.54e-11 within 20% of MOND; MOND behavior
   at 2% level)
 - The 2D CFT FORM derived, PARAMETERS free
 - The cascade's value is interpretive + parsimonious, not predictive
@@ -3212,9 +3212,9 @@ The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a
 **What was REMOVED:**
 1. **§2.6.1 "5/27 as topological eigenvalue" section.** The earlier v2.4 attempt to elevate the 5/27 ratio to a topological invariant of the AdS_5 bulk-to-boundary map was a post-hoc fit, not derived. The formula required N_cascade = 3 (4D, 3+1D, 2D), but the v2.1+ cone-shape has only 2 transitions, and the formula gives wrong values (8.3%/33.3%/58.3%, not 5%/27%/68%).
 
-2. **"Three 5% coincidence" section.** The cascade's previous framework conflated three different "5%" numbers (5% baryon fraction, 5/27 cascade ratio, f_active ~ 0.05) and tried to derive all from τ_2D = 0.7 Gyr. The conflation is dropped.
+2. **"Three 5% coincidence" section.** The cascade's previous framework conflated three different "5%" numbers (5% baryon fraction, 5/27 cascade ratio, $f_{\rm active}$ ~ 0.05) and tried to derive all from τ_2D = 0.7 Gyr. The conflation is dropped.
 
-3. **f_active = 0.05 as "derivable" from τ_2D/T_universe.** The empirical 33 s lifetime gives f_active ~ 10^-17, not 0.05. f_active is now a FREE PARAMETER.
+3. **$f_{\rm active}$ = 0.05 as "derivable" from τ_2D/T_universe.** The empirical 33 s lifetime gives $f_{\rm active}$ ~ 10^-17, not 0.05. $f_{\rm active}$ is now a FREE PARAMETER.
 
 **What was PRESERVED:**
 1. **5/27/68 as observational data (Planck 2018).** The cascade provides a qualitative interpretation:
@@ -3227,12 +3227,12 @@ The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a
 
 **What this v2.7.1 is:**
 - A HONEST position on 5/27/68 (observational data, not cascade prediction)
-- A CLEANUP of post-hoc rationalizations (5/27 fit, three 5% coincidence, f_active derivation)
+- A CLEANUP of post-hoc rationalizations (5/27 fit, three 5% coincidence, $f_{\rm active}$ derivation)
 - A preservation of the qualitative interpretation (DM = 2D universes, DE = 4D event)
 
 **What this v2.7.1 is NOT:**
 - Not a derivation of 5/27/68 from first principles
-- Not a claim that the cascade predicts specific H_0 or DM fraction
+- Not a claim that the cascade predicts specific $H_0$ or DM fraction
 - Not a refinement of the cascade's 2D universe parameters
 
 **Files modified:**
@@ -3258,8 +3258,8 @@ The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a
 3. **§2.6.3 (proposed 4-zone H(z) section) NOT added.** The proposed section documenting the 4-zone H(z) is removed.
 
 **What was PRESERVED:**
-1. **H_0,4D = 70.16 (geometric mean).** This non-trivial property of the data is preserved as a real prediction. The geometric mean of H_CMB = 67.4 and H_local = 73.04 is sqrt(67.4 × 73.04) = 70.16.
-2. **§2.6.1 (Honest H_0 framework).** The cascade is qualitatively consistent with H_0 = 70 ± 3 across all measurements.
+1. **$H_0$,4D = 70.16 (geometric mean).** This non-trivial property of the data is preserved as a real prediction. The geometric mean of H_CMB = 67.4 and H_local = 73.04 is sqrt(67.4 × 73.04) = 70.16.
+2. **§2.6.1 (Honest $H_0$ framework).** The cascade is qualitatively consistent with $H_0$ = 70 ± 3 across all measurements.
 3. **§2.6.2 (DE-dominates framework).** The 4D bulk baseline = 70.16 km/s/Mpc.
 4. **Ω_DM = 0.27 input postulate (L33).** Preserved.
 5. **2D-to-3+1D time compression (L31).** Preserved (50-orders tension).
@@ -3268,9 +3268,9 @@ The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a
 
 **Hubble tension position (v2.7, Mechanism M):**
 - ACCEPTED as a real observational tension, not resolved
-- The cascade is qualitatively consistent with H_0 = 70 ± 3
-- H_0,4D = 70.16 is a geometric mean property (real prediction)
-- The specific H_0 = 73.04 (local) and H_0 = 67.4 (CMB) are observed, not derived
+- The cascade is qualitatively consistent with $H_0$ = 70 ± 3
+- $H_0$,4D = 70.16 is a geometric mean property (real prediction)
+- The specific $H_0$ = 73.04 (local) and $H_0$ = 67.4 (CMB) are observed, not derived
 - The 5.6 km/s/Mpc gap is a ΛCDM-framework artifact, not a cascade problem
 - The cascade does NOT attempt to explain the gap
 
@@ -3288,11 +3288,11 @@ The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a
 **What this v2.7 is:**
 - A CLEANER framework (no data fitting attempts to explain Hubble tension)
 - A HONEST position (Mechanism M, accept the tension)
-- A preservation of the real predictions (H_0,4D = 70.16, cone-shape, time compression)
+- A preservation of the real predictions ($H_0$,4D = 70.16, cone-shape, time compression)
 
 **What this v2.7 is NOT:**
 - Not a resolution of the Hubble tension
-- Not a derivation of the specific H_0 values
+- Not a derivation of the specific $H_0$ values
 - Not a claim that 4-zone H(z) was wrong (it was an attempt, removed for honesty)
 
 ---
@@ -3373,18 +3373,18 @@ Five refactors transition the v2.3.2 framework to a "structurally complete field
 
 1. **§2.6.1 (NEW): 5/27 anchored as AdS_5 volume-to-boundary surface-area eigenvalue ratio** (Limitation 17 OPEN → PARTIAL)
 2. **§4.46 (NEW): Engineering implementation and raw numerical results of the phenomenological emulator** (820× → 219× bifurcation documented)
-3. **§4.44: J_bulk=0 boundary junction condition injected directly into T^eff_μν construction** (f_back now derived, not postulated)
+3. **§4.44: J_bulk=0 boundary junction condition injected directly into T^eff_μν construction** ($f_{\rm back}$ now derived, not postulated)
 4. **§7.0 updated to v2.4:** 30 limitations (added Limitation 30), L15/L17 OPEN→PARTIAL, L29 linked to c bounds
 5. **Appendix refactored: Open-Source Scientific Collaboration** (formal call-to-action to theoretical physicists)
 6. **§4.47 (NEW): Time-scale invariance test** (calculations/time_scale_invariance_test_v3.py): cascade is NOT strictly time-scale-invariant. r(z=6) = 0.008 (SIDC has 130× less DM than ΛCDM). F_stellar ~ 1 predicted by cascade's own energetics. JWST early-galaxy problem is STRONGER for SIDC. Limitation 31 added.
-7. **§4.48 (NEW): Primordial Lagrangian design** (calculations/primordial_lagrangian_test.py): two-component DM with F_p ~ 0.7 (primordial) + F_s ~ 0.3 (stellar). Trial-and-error shows F_p > 0.7 required to match high-z UV LF. F_p is the 4D event's internal activity (hidden parameter). Limitation 31 PARTIALLY ADDRESSED.
-8. **§4.49 (NEW): Bug fix — (1+z)^4 dilution factor (user-caught)** (calculations/time_scale_invariance_test_v4.py): previous calcs had (1+z) in denominator; correct is (1+z)^4. With corrected formula, r(z=6) ~ 10⁻⁴ for all F_p, meaning cascade predicts essentially no DM at z=6. Cascade is FALSIFIED at high-z in naive formulation. Limitation 31 REVERTED to OPEN.
+7. **§4.48 (NEW): Primordial Lagrangian design** (calculations/primordial_lagrangian_test.py): two-component DM with $F_p$ ~ 0.7 (primordial) + F_s ~ 0.3 (stellar). Trial-and-error shows $F_p$ > 0.7 required to match high-z UV LF. $F_p$ is the 4D event's internal activity (hidden parameter). Limitation 31 PARTIALLY ADDRESSED.
+8. **§4.49 (NEW): Bug fix — (1+z)^4 dilution factor (user-caught)** (calculations/time_scale_invariance_test_v4.py): previous calcs had (1+z) in denominator; correct is (1+z)^4. With corrected formula, r(z=6) ~ 10⁻⁴ for all $F_p$, meaning cascade predicts essentially no DM at z=6. Cascade is FALSIFIED at high-z in naive formulation. Limitation 31 REVERTED to OPEN.
 9. **§4.49 reframed: Local-vs-Global distinction** (per user follow-up). The cascade's *local* principle (energy-scale-invariance) IS preserved; the *global* predictions (epoch-invariance of consequences) are falsified. The cascade can be scale-invariant but not time-invariant. To save the cascade, R_p(z) ∝ (1+z)^4 is required (highly speculative).
-10. **§4.50 (NEW): Audit of additional calculations.** 10+ calculations audited. Most are honest and correct. Most significant finding: `f_active` parameter inconsistency (0.05 vs 0.3, 6× difference). Other findings: AGN p=4e-57 verified, CMB Δχ²=+650 verified, all other calcs honest. Limitation 19 partial close.
+10. **§4.50 (NEW): Audit of additional calculations.** 10+ calculations audited. Most are honest and correct. Most significant finding: `$f_{\rm active}$` parameter inconsistency (0.05 vs 0.3, 6× difference). Other findings: AGN p=4e-57 verified, CMB Δχ²=+650 verified, all other calcs honest. Limitation 19 partial close.
 11. **§4.51 (NEW): Baryon plasma refinement — broader principle SAVES the cascade.** Per user follow-up ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?"), broadened the cascade's principle to include ALL energetic activity. Thomson scattering in comoving units scales as `R(z) ∝ (1+z)^4` — EXACTLY the threshold needed. r(z=6) = 0.66, r(z=10) = 0.45. The 5/27/68 is TIME-INVARIANT. Limitation 31 PARTIALLY ADDRESSED.
 12. **§4.51 (CORRECTED): Three bug fixes — v4 missing (1+z)^3, v2 wrong Thomson temperature, matter-radiation transition.** With all bugs fixed (v5), r(z) ≈ (1+z)^3, matching ΛCDM exactly at all z. r(z=6) = 342 ≈ (1+6)^3 = 343. Limitation 31 CLOSED. The cascade is consistent with ΛCDM at high z under the broader principle.
-13. **§4.52 (NEW): f_active inconsistency resolved via renaming.** Two different concepts: `f_active,stellar` (0.05) and `f_active,local` (0.3). Both correct, different quantities.
-14. **§4.53 (NEW): CMB prediction re-derivation.** Δχ²=+650 is dominated by H_0 mismatch, not structural failure. The cascade is consistent with ΛCDM at all z except H_0.
+13. **§4.52 (NEW): $f_{\rm active}$ inconsistency resolved via renaming.** Two different concepts: `$f_{\rm active}$,stellar` (0.05) and `$f_{\rm active}$,local` (0.3). Both correct, different quantities.
+14. **§4.53 (NEW): CMB prediction re-derivation.** Δχ²=+650 is dominated by $H_0$ mismatch, not structural failure. The cascade is consistent with ΛCDM at all z except $H_0$.
 
 Final v2.4 state: 185 pages, 862 KB PDF, 277 commits, 31 limitations, 2-3 free parameters.
 
@@ -3398,15 +3398,15 @@ Final v2.4 state: 185 pages, 862 KB PDF, 277 commits, 31 limitations, 2-3 free p
 
 1. **§4.51 v5 result: r(z) ≈ (1+z)³ for all z, matching ΛCDM.** This is the milestone finding. With the broader principle (Thomson scattering dominates R(z) at z > 4), the cascade gives r(z=6) = 342 ≈ (1+6)³ = 343, r(z=10) = 1327 ≈ (1+10)³ = 1331. The 5/27/68 ratio is time-invariant by construction.
 
-2. **§4.52 f_active rename resolves the 6× discrepancy.** The cascade had been using the same symbol for two different concepts (time-averaged and spatial-volume). Renaming resolves the apparent inconsistency.
+2. **§4.52 $f_{\rm active}$ rename resolves the 6× discrepancy.** The cascade had been using the same symbol for two different concepts (time-averaged and spatial-volume). Renaming resolves the apparent inconsistency.
 
-3. **§4.53 CMB re-derivation: Δχ²=+650 is just the Hubble tension.** The cascade is consistent with Planck at all z except for the H_0 offset (73 vs 67.4). This is the standard cosmological tension, not a cascade-specific failure.
+3. **§4.53 CMB re-derivation: Δχ²=+650 is just the Hubble tension.** The cascade is consistent with Planck at all z except for the $H_0$ offset (73 vs 67.4). This is the standard cosmological tension, not a cascade-specific failure.
 
 4. **v2.4 commits 278 (smoking gun reframing) + v2.5 commit 279 (version bump)**: README and layman now lead with the three smoking guns: (1) AGC/KKR bifurcation (820× → 219×), (2) scale-time invariance, (3) cascade matches ΛCDM at all z.
 
 5. **Limitation 31 CLOSED.** The cascade is consistent with high-z structure formation under the broader principle. The remaining open work is the 2D CFT derivation (Limitation 26).
 
-**Final v2.5 state:** 185 pages, 862 KB PDF, 278 commits, 31 limitations (Limitation 31 CLOSED), 2-3 free parameters. **v2.5 milestone:** the cascade is now in a stronger scientific position than v2.4 — internally consistent, matches ΛCDM structure at all z, reproduces the AGC/KKR bifurcation, and is qualitatively consistent with H_0 = 70 ± 3 across all measurements. The cascade does not derive a specific H_0 value (the earlier H_0 = 70.13 multiplicative boost was a postdiction, removed in v2.5 commit 281; see §2.6.1 Honest H_0 framework).
+**Final v2.5 state:** 185 pages, 862 KB PDF, 278 commits, 31 limitations (Limitation 31 CLOSED), 2-3 free parameters. **v2.5 milestone:** the cascade is now in a stronger scientific position than v2.4 — internally consistent, matches ΛCDM structure at all z, reproduces the AGC/KKR bifurcation, and is qualitatively consistent with $H_0$ = 70 ± 3 across all measurements. The cascade does not derive a specific $H_0$ value (the earlier $H_0$ = 70.13 multiplicative boost was a postdiction, removed in v2.5 commit 281; see §2.6.1 Honest $H_0$ framework).
 
 ## v2.3.2 (June 2026, PATCH) — Five new tests + formal tensor construction (HISTORICAL)
 
@@ -3414,9 +3414,9 @@ Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive im
 
 **Five new tests/improvements (commits 257-261):**
 
-1. **CMB power spectrum test (Boltzmann-solver level)**: CAMB computation for cascade's H_0=73 vs Planck ΛCDM. Cascade (H_0=73) gives Δχ² = +650 vs Planck ΛCDM (H_0=67.4). NEGATIVE result, CONSISTENT with Mechanism M. New §4.41.
+1. **CMB power spectrum test (Boltzmann-solver level)**: CAMB computation for cascade's $H_0$=73 vs Planck ΛCDM. Cascade ($H_0$=73) gives Δχ² = +650 vs Planck ΛCDM ($H_0$=67.4). NEGATIVE result, CONSISTENT with Mechanism M. New §4.41.
 
-2. **Per-galaxy g_+ analysis**: 43 SPARC galaxies, 4.5 decades in M_b. Median g_+ = 9.74e-11 m/s² (Lelli+ 2017: 1.20e-10). Correlation with M_b: r = +0.19, p = 0.22 (NOT SIGNIFICANT). Confirms cascade-MOND hybrid. New §4.42.
+2. **Per-galaxy $g_+$ analysis**: 43 SPARC galaxies, 4.5 decades in $M_b$. Median $g_+$ = 9.74e-11 m/s² (Lelli+ 2017: 1.20e-10). Correlation with $M_b$: r = +0.19, p = 0.22 (NOT SIGNIFICANT). Confirms cascade-MOND hybrid. New §4.42.
 
 3. **Master Limitations Table §7.0**: 28 limitations with status (OPEN/PARTIAL/CLOSED/FALSIFIED/REVERTED). Summary: 17 open, 6 partial, 3 closed, 2 falsified, 2 reverted.
 
@@ -3426,15 +3426,15 @@ Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive im
 
 **Sixth addition: formal tensor construction**
 
-6. **Coordinate-Invariant Tensor Construction (T_μν)**: Full formal derivation in `supporting/T_tensor_construction.md` (367 lines). Unifies RS-II/DGP framework, 2D Dirac delta localization, and 2D Liouville/Polyakov trace anomaly. Key result: T^eff_μν = T^SM + (κ_5^4/8πG_4)S_μν + (1/8πG_4)E_μν + T^fossil_μν. NOVELTY: fossil's amplitude derived from 2D CFT trace anomaly (σ = (c/24π)∫R^(2)√(-γ)d²ξ). Covariant conservation proven in bulk-minimization limit (f_back = 1). 5 verification checks all pass. New §4.44. Limitation 26 PARTIALLY ADDRESSED.
+6. **Coordinate-Invariant Tensor Construction (T_μν)**: Full formal derivation in `supporting/T_tensor_construction.md` (367 lines). Unifies RS-II/DGP framework, 2D Dirac delta localization, and 2D Liouville/Polyakov trace anomaly. Key result: T^eff_μν = T^SM + (κ_5^4/8πG_4)S_μν + (1/8πG_4)E_μν + T^fossil_μν. NOVELTY: fossil's amplitude derived from 2D CFT trace anomaly (σ = (c/24π)∫R^(2)√(-γ)d²ξ). Covariant conservation proven in bulk-minimization limit ($f_{\rm back}$ = 1). 5 verification checks all pass. New §4.44. Limitation 26 PARTIALLY ADDRESSED.
 
 **Seventh addition: v2.4 refactor of the tensor pipeline (commit 265)**
 
 7. **v2.4 Refactor (Hardening the Tensor Framework)**: Implements 4 structural tasks that transition the v2.3.2 "experimental sketch" to a "structurally complete field theory framework specification":
-   - **Task 1: Zero-leakage bulk constraint** — J^A_bulk = 0 as formal BC (eliminates f_back free parameter)
+   - **Task 1: Zero-leakage bulk constraint** — J^A_bulk = 0 as formal BC (eliminates $f_{\rm back}$ free parameter)
    - **Task 2: Central charge c bounds** — c ∈ Z≥1, default c=1 (eliminates c free parameter)
    - **Task 3: Continuous Gaussian instanton** — replaces δ-function with smooth decay (preserves Bianchi)
-   - **Task 4: 5/27 as topological invariant** — V_5/(A_4 R_AdS_5) = 27/5, frozen at brane deployment
+   - **Task 4: 5/27 as topological invariant** — V_5/(A_4 $R_{\rm AdS,5}$) = 27/5, frozen at brane deployment
    - **Free parameters reduced: 5+ → 2-3 active**
    - **Bianchi identity preserved under all 4 modifications**
    - New file: `supporting/T_tensor_v24_refactor.md` (330 lines)
@@ -3448,19 +3448,19 @@ Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive im
 - 28 honest limitations: 3 closed, 6 partial, 17 open, 2 falsified, 2 reverted
 - 0 strongly confirmed, 0 falsified
 - 2 negative results: 5/27 derivation (10+ attempts), Mechanism N (V_local + Weyl)
-- 3 new qualitative-level tests added: CMB, g_+, cosmic shear
+- 3 new qualitative-level tests added: CMB, $g_+$, cosmic shear
 - Limitation 26 (full Lagrangian) PARTIALLY ADDRESSED via tensor construction
 
 **Honest framing of the five new tests:**
 - #1 CMB: NEGATIVE (consistent with Mechanism M) — cascade accepts Hubble tension
-- #2 g_+ universality: POSITIVE (MOND-compatible)
+- #2 $g_+$ universality: POSITIVE (MOND-compatible)
 - #3 Limitations table: documentation (no new test)
 - #4 Executive summary: documentation (no new test)
 - #5 Cosmic shear: POSITIVE qualitative (cascade's "DM tracks baryons" matches)
 
 **Tensor construction honest framing:**
 - First-pass formal derivation by a software developer
-- Expert would need to verify: c (Liouville vs Polyakov), 5D bulk, α calibration, f_back < 1 conservation
+- Expert would need to verify: c (Liouville vs Polyakov), 5D bulk, α calibration, $f_{\rm back}$ < 1 conservation
 - Limitation 26 PARTIALLY ADDRESSED — concrete invitation to theorists
 
 ---
@@ -3470,7 +3470,7 @@ Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive im
 Building on v2.3.0, v2.3.1 is a polish + test consolidation patch:
 
 **Test expansion (8 new tests added):**
-- 5 with real data: BTFR SPARC (129 galaxies, slope=3.53), MDAR for dSphs (10 dSphs, factor ~2 from MOND), dSph M_dyn (10 dSphs, slope=0.37), HI-DM correlation (129 SPARC, CONFOUNDED), Vflat-morphology (129 SPARC, INCONCLUSIVE)
+- 5 with real data: BTFR SPARC (129 galaxies, slope=3.53), MDAR for dSphs (10 dSphs, factor ~2 from MOND), dSph $M_{\rm dyn}$ (10 dSphs, slope=0.37), HI-DM correlation (129 SPARC, CONFOUNDED), Vflat-morphology (129 SPARC, INCONCLUSIVE)
 - 3 documentation: cluster baryon fraction, BTFR documentation, dSph σ(r) profile
 - 1 already done: AGN host DM (was "deferred" in §4.19 prose, now executed as TENTATIVE)
 
@@ -3498,7 +3498,7 @@ Building on v2.3.0, v2.3.1 is a polish + test consolidation patch:
 - New file: `supporting/how-did-we-get-here.md` — conversation history documenting the 7 plain-language intuitions that built the cascade
 
 **Tier 1 #1 NEW: AGN host DM test with morphology matching (commits 251-252)**:
-- V1 test (commit 230) was confounded by morphology (high-SFR galaxies are mostly late-type, low M_dyn/M_star)
+- V1 test (commit 230) was confounded by morphology (high-SFR galaxies are mostly late-type, low $M_{\rm dyn}$/M_star)
 - V2 fix: match AGN vs Quiescent in (M_star, sigma) cells, with sigma as morphology proxy
 - Per-cell median ratio: 1.064 (+6.4%, in cascade's predicted +5-15% range)
 - 6/6 cells ratio >= 0.95; 3/6 cells ratio > 1.05
@@ -3507,11 +3507,11 @@ Building on v2.3.0, v2.3.1 is a polish + test consolidation patch:
 - Status upgraded from "TENTATIVE PASS" to "QUALITATIVELY CONSISTENT (direction right, magnitude in range)"
 - New file: `calculations/agn_host_dm_v2.py` + results
 
-**Tier 1 #2 NEW: f_active derivation from 4D event dynamics (commits 251-252)**:
-- Limitation 20 (f_active derivation) was DOCUMENTED as OPEN: f_active was a fit (MCMC gave 0.05), not a derivation
-- 4× gap between f_active ~ 0.05 and 5/27 ~ 0.18 was real and unexplained
-- V2 derivation: f_active = τ_2D / T_universe, where τ_2D is the 2D universe lifetime
-- For τ_2D ~ 0.7 Gyr (gas consumption timescale, by physical analogy with Kennicutt-Schmidt law): f_active = 0.7/13.8 = 0.051
+**Tier 1 #2 NEW: $f_{\rm active}$ derivation from 4D event dynamics (commits 251-252)**:
+- Limitation 20 ($f_{\rm active}$ derivation) was DOCUMENTED as OPEN: $f_{\rm active}$ was a fit (MCMC gave 0.05), not a derivation
+- 4× gap between $f_{\rm active}$ ~ 0.05 and 5/27 ~ 0.18 was real and unexplained
+- V2 derivation: $f_{\rm active}$ = τ_2D / T_universe, where τ_2D is the 2D universe lifetime
+- For τ_2D ~ 0.7 Gyr (gas consumption timescale, by physical analogy with Kennicutt-Schmidt law): $f_{\rm active}$ = 0.7/13.8 = 0.051
 - MATCHES MCMC posterior 0.0513 ± 0.0073 without any fitting
 - 4× gap is RESOLVED as a LOCAL vs GLOBAL distinction (gas consumption vs cosmic SFR peak)
 - **Limitation 20 is now CLOSED** (PARTIALLY CLOSED — qualitative identification solid, full Lagrangian would tighten τ_2D)
@@ -3527,9 +3527,9 @@ Building on v2.3.0, v2.3.1 is a polish + test consolidation patch:
 
 ---
 
-## v2.3.0 (June 2026) — Action functional + g_+ derivation
+## v2.3.0 (June 2026) — Action functional + $g_+$ derivation
 
-**Paper version bumped from v2.2.1 to v2.3.0** for the major theoretical contribution: a concrete action functional S for the cascade, plus a first-principles derivation of the g_+ acceleration scale.
+**Paper version bumped from v2.2.1 to v2.3.0** for the major theoretical contribution: a concrete action functional S for the cascade, plus a first-principles derivation of the $g_+$ acceleration scale.
 
 **Audit fixes (commit 184):** Several inconsistencies caught and fixed:
 1. "Limitation 22 update" reference in §2.5 body text was incorrect (Limitation 22 in §7 is about isothermal profile). Renamed to "Energy-deposition threshold (v2.2.1) refined by the phase-transition principle (v2.3.0)".
@@ -3550,21 +3550,21 @@ Where:
 - Reduces to standard RS-II brane-world when α → 0
 - Comparable in structure to Randall-Sundrum brane-world physics
 
-**§2.5.1 HONEST STATUS (commit 164):** The action is a SKELETON, not a complete theory. It has 5+ free parameters that need to be specified for a complete theory: L_2D, α, the death mechanism, T^DM at death, the 5/27/68 split, the cascade-MOND g_+. The cascade's contribution is the GEOMETRY; the dynamics are open problems. A mathematical physicist would need to specify these to complete the cascade.
+**§2.5.1 HONEST STATUS (commit 164):** The action is a SKELETON, not a complete theory. It has 5+ free parameters that need to be specified for a complete theory: L_2D, α, the death mechanism, T^DM at death, the 5/27/68 split, the cascade-MOND $g_+$. The cascade's contribution is the GEOMETRY; the dynamics are open problems. A mathematical physicist would need to specify these to complete the cascade.
 
-**§4.11 NEW: First-principles g_+ derivation (commit 165).** From the action's α coupling, derived:
+**§4.11 NEW: First-principles $g_+$ derivation (commit 165).** From the action's α coupling, derived:
 
 $$g_+ = k \int_{t_{form}}^{t_0} \dot{n}(t) \cdot E_{event} \cdot \frac{\tau_{2D}}{L_{2D}} \, dt$$
 
-This is the cascade's first-principles formula for g_+, which is essentially Gemini's scaling relation: g_+ ∝ ∫ ρ_events/M_b dt.
+This is the cascade's first-principles formula for $g_+$, which is essentially Gemini's scaling relation: $g_+$ ∝ ∫ ρ_events/$M_b$ dt.
 
-**CLUSTER g_+ ENHANCEMENT (Tian+ 2024) NOW EXPLAINED as a natural consequence.** A BCG sits at the bottom of a cluster's potential well and sees not just its own stellar history but the entire cluster's ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure). Cluster event rate ~ 100× BCG's own, cluster events ~ 10× more energetic, ~ 10× larger. Net enhancement ~ 100×, in the right ballpark for Tian+ 2024's 10-17×.
+**CLUSTER $g_+$ ENHANCEMENT (Tian+ 2024) NOW EXPLAINED as a natural consequence.** A BCG sits at the bottom of a cluster's potential well and sees not just its own stellar history but the entire cluster's ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure). Cluster event rate ~ 100× BCG's own, cluster events ~ 10× more energetic, ~ 10× larger. Net enhancement ~ 100×, in the right ballpark for Tian+ 2024's 10-17×.
 
-**4 testable predictions from the g_+ formula:**
-1. BCG g_+ correlates with cluster ICM activity (cooling flow vs not)
-2. Dwarf g_+ correlates with recent SFR, not total M_*
-3. g_+ ratio between systems matches event rate ratio, not M_b ratio
-4. Direct test: partial correlation between SFR, M_*, and g_+ (TENSION: §4.7 partial correlation test found SFR signal is entirely mediated by M_b)
+**4 testable predictions from the $g_+$ formula:**
+1. BCG $g_+$ correlates with cluster ICM activity (cooling flow vs not)
+2. Dwarf $g_+$ correlates with recent SFR, not total M_*
+3. $g_+$ ratio between systems matches event rate ratio, not $M_b$ ratio
+4. Direct test: partial correlation between SFR, M_*, and $g_+$ (TENSION: §4.7 partial correlation test found SFR signal is entirely mediated by $M_b$)
 
 **Build infrastructure fix (commit 163).** Replaced one longtable that was breaking xelatex with bullet list format. Added xcolor [table] option for future longtables. PDF now builds cleanly: 100 → 103 pages.
 
@@ -3573,9 +3573,9 @@ This is the cascade's first-principles formula for g_+, which is essentially Gem
 **New companion code added:**
 - `calculations/cascade_action.py` (210 lines) — cascade action functional skeleton
 - `calculations/cascade_action_honest.py` — honest assessment of the action's remaining gaps
-- `calculations/g_plus_scaling_derivation.py` (450 lines) — first-principles g_+ derivation
+- `calculations/g_plus_scaling_derivation.py` (450 lines) — first-principles $g_+$ derivation
 
-**Paper length: 97 → 103 pages** (v2.2.1 → v2.3.0; +6 pages for the action functional and g_+ derivation).
+**Paper length: 97 → 103 pages** (v2.2.1 → v2.3.0; +6 pages for the action functional and $g_+$ derivation).
 
 ---
 
@@ -3590,7 +3590,7 @@ Following extensive real-data testing, the paper now reports **17 test categorie
 **Test breakdown (16/17 pass, 1 documented as confounded or inconclusive; v2.3.1 update with Tier 1 #1 AGN morphology-matching):**
 - **6 clean real-data passes** (was 5): Globular clusters (Test 2), Direct detection (Test 3), Isolated vs cluster (Test 4), Cusp-core (Test 5), MDAR for dSphs (Test 10), **AGN host DM (Test 1, +6.4% with morphology matching, p=0.047)**
 - 4 structural passes: Missing Satellites (Test 7), Too-Big-To-Fail (Test 8), Lensing flux ratio (Test 11), dSph σ(r) profile (Test 14) — cascade avoids ΛCDM small-scale problems by having no sub-halos
-- 5 not discriminative vs ΛCDM: Halo M/M* vs z (Test 6), dSph M_dyn (Test 9), Cluster baryon fraction (Test 12), BTFR doc (Test 13), BTFR SPARC real (Test 15)
+- 5 not discriminative vs ΛCDM: Halo M/M* vs z (Test 6), dSph $M_{\rm dyn}$ (Test 9), Cluster baryon fraction (Test 12), BTFR doc (Test 13), BTFR SPARC real (Test 15)
 - 1 confounded: HI-DM correlation (Test 16) — gas-radius correlation dominates
 - 1 inconclusive: Vflat-morphology (Test 17) — SPARC sample selection bias
 
@@ -3611,13 +3611,13 @@ Following extensive real-data testing, the paper now reports **17 test categorie
 
 **Paper version bumped from v2.1 to v2.2** for the definitive Pantheon+ full-covariance Hubble tension test + honest position on Mechanism M.
 
-**Mechanism B/F TESTED and REJECTED by Pantheon+ at 7 sigma (commit 82).** The cascade's Mechanism B/F (4D event's antigravity output varies in 4D time, giving H_0(z) = H_0_CMB^2 + (H_0_local^2 - H_0_CMB^2) / (1+z)^(2/3)) was tested rigorously with the full Pantheon+ statistical+systematic covariance matrix (1701 SNe, 1701x1701, M fixed at SH0ES value -19.253 from 113 Cepheid calibrators). Result: cascade chi^2 = 1488.3 vs best-fit LCDM (H_0 = 73.00) chi^2 = 1439.4. **Delta chi^2 = +48.9, ~7 sigma, LCDM WINS.** Pantheon+ shows H_0 is *roughly constant* at ~73 across all z bins, not decreasing with z as B/F predicted. *Status: B/F was a placeholder, now also falsified.*
+**Mechanism B/F TESTED and REJECTED by Pantheon+ at 7 sigma (commit 82).** The cascade's Mechanism B/F (4D event's antigravity output varies in 4D time, giving $H_0$(z) = H_0_CMB^2 + (H_0_local^2 - H_0_CMB^2) / (1+z)^(2/3)) was tested rigorously with the full Pantheon+ statistical+systematic covariance matrix (1701 SNe, 1701x1701, M fixed at SH0ES value -19.253 from 113 Cepheid calibrators). Result: cascade chi^2 = 1488.3 vs best-fit LCDM ($H_0$ = 73.00) chi^2 = 1439.4. **Delta chi^2 = +48.9, ~7 sigma, LCDM WINS.** Pantheon+ shows $H_0$ is *roughly constant* at ~73 across all z bins, not decreasing with z as B/F predicted. *Status: B/F was a placeholder, now also falsified.*
 
-**Mechanism L BUSTED (commit 84).** The most promising alternative (re-interpret Planck's CMB-inferred H_0 = 67.4 as a cascade-consistent value) was tested by re-deriving Planck's theta_* measurement in the cascade's model. Result: cascade's natural early universe (no DM, no DE at z > 1100, just baryons and radiation) gives theta_* = 15.58, off by a factor of **1500x** from Planck's measured 0.01041. The cascade's picture is incompatible with Planck's CMB structure. *Status: L is busted.*
+**Mechanism L BUSTED (commit 84).** The most promising alternative (re-interpret Planck's CMB-inferred $H_0$ = 67.4 as a cascade-consistent value) was tested by re-deriving Planck's theta_* measurement in the cascade's model. Result: cascade's natural early universe (no DM, no DE at z > 1100, just baryons and radiation) gives theta_* = 15.58, off by a factor of **1500x** from Planck's measured 0.01041. The cascade's picture is incompatible with Planck's CMB structure. *Status: L is busted.*
 
-**ALL alternative Hubble mechanisms TESTED and EXHAUSTED (commits 83, 85).** After B/F and L were rejected, we systematically tested mechanisms C (local bubble), I (w != -1 late-time physics), N (4D memory decay), O (observer-dependent), P (2D universe rate), Q (recent 4D kick), R (4D stochastic), S (cascade H_0 = 73 at all z), T (cascade = LCDM), U (non-monotonic H_0(z)), V (4D anisotropic). **All were either rejected by Pantheon+, equivalent to M, or just LCDM with a different H_0.** A general H_0(z) = a + bz + cz^2 fit gave best-fit (73.16, 0.0001, 0.00019) with chi^2 = 1437.8 vs constant 73's 1438.7 — delta chi^2 = -0.86 with 2 extra parameters, no statistical support for H_0(z) variation.
+**ALL alternative Hubble mechanisms TESTED and EXHAUSTED (commits 83, 85).** After B/F and L were rejected, we systematically tested mechanisms C (local bubble), I (w != -1 late-time physics), N (4D memory decay), O (observer-dependent), P (2D universe rate), Q (recent 4D kick), R (4D stochastic), S (cascade $H_0$ = 73 at all z), T (cascade = LCDM), U (non-monotonic $H_0$(z)), V (4D anisotropic). **All were either rejected by Pantheon+, equivalent to M, or just LCDM with a different $H_0$.** A general $H_0$(z) = a + bz + cz^2 fit gave best-fit (73.16, 0.0001, 0.00019) with chi^2 = 1437.8 vs constant 73's 1438.7 — delta chi^2 = -0.86 with 2 extra parameters, no statistical support for $H_0$(z) variation.
 
-**Cascade's final position: Mechanism M (accept the tension).** The cascade accommodates H_0 = 73 (local + Pantheon+ best-fit), accepts the H_0 = 67.4 Planck-inferred value, and acknowledges the 5.6 km/s/Mpc gap as a feature the cascade does not fully explain. The cascade has its own *testable* prediction (H_0 ~ 73 from its 4D event projection rate), and the data confirms this prediction in the local + Pantheon+ universe. The CMB H_0 = 67.4 is a separate issue, possibly a model-dependent artifact, possibly a real tension. The cascade is honest about what it can and can't explain.
+**Cascade's final position: Mechanism M (accept the tension).** The cascade accommodates $H_0$ = 73 (local + Pantheon+ best-fit), accepts the $H_0$ = 67.4 Planck-inferred value, and acknowledges the 5.6 km/s/Mpc gap as a feature the cascade does not fully explain. The cascade has its own *testable* prediction ($H_0$ ~ 73 from its 4D event projection rate), and the data confirms this prediction in the local + Pantheon+ universe. The CMB $H_0$ = 67.4 is a separate issue, possibly a model-dependent artifact, possibly a real tension. The cascade is honest about what it can and can't explain.
 
 **New companion code added:**
 - `calculations/pantheon_full_cov_analysis.py` (300 lines) — full Pantheon+ statistical+systematic covariance analysis, M fixed at SH0ES
@@ -3638,7 +3638,7 @@ Following extensive real-data testing, the paper now reports **17 test categorie
 
 **Sign ambiguity in §2.4 mathematical sketch RESOLVED.** The "Mathematical sketch" was reframed as a *clean formulation* that distinguishes two physically distinct small contributions to the effective 3+1D action: the *ordinary attractive gravity* (a force on matter, entering the Einstein equation's stress-energy coupling) and the *dark energy* (a vacuum energy, entering the cosmological-constant term Λ g_μν). Both are small because of the near-cancellation of the projected contribution, but they are different terms in the effective action and are not required to have any algebraic sign relationship. *Status: was Limitation 14, now CLOSED.*
 
-**Hubble tension mechanism UPDATED.** The original Mechanism A (active 2D universe children boost local H_0 in star-forming hosts) was *falsified* by SH0ES data: both spiral and elliptical-host measurements give H_0 ~ 73, with no host-type dependence. A new Mechanism B/F (4D event temporal structure) is proposed: the 4D event's antigravity output is not constant in 4D time; local H_0 measures the *current* 4D output; CMB H_0 measures the *time-averaged* 4D output. If the 4D event is currently ~8% above its historical average, H_0_local = 73 (matches data). This is host-type-INDEPENDENT, consistent with the SH0ES/SBF data. *New testable predictions: H_0 at high z should be BELOW the ΛCDM extrapolation, H_0 should be isotropic, H_0 should not correlate with any local property.*
+**Hubble tension mechanism UPDATED.** The original Mechanism A (active 2D universe children boost local $H_0$ in star-forming hosts) was *falsified* by SH0ES data: both spiral and elliptical-host measurements give $H_0$ ~ 73, with no host-type dependence. A new Mechanism B/F (4D event temporal structure) is proposed: the 4D event's antigravity output is not constant in 4D time; local $H_0$ measures the *current* 4D output; CMB $H_0$ measures the *time-averaged* 4D output. If the 4D event is currently ~8% above its historical average, H_0_local = 73 (matches data). This is host-type-INDEPENDENT, consistent with the SH0ES/SBF data. *New testable predictions: $H_0$ at high z should be BELOW the ΛCDM extrapolation, $H_0$ should be isotropic, $H_0$ should not correlate with any local property.*
 
 **§7 (Limitations) comprehensively updated.** The "Note on closure status" subsection now documents:
 - Fully closed: Limitation 14 (sign ambiguity)
@@ -3664,13 +3664,13 @@ Following extensive real-data testing, the paper now reports **17 test categorie
 
 **Neutrino discussion expanded** (added June 2026): §2.3 now has explicit subsections on (1) the energy-deposition threshold principle (neutrinos in flight don't count, only interactions), (2) the Sun-vs-galaxy distinction (Sun has neutrinos but no DM, galaxy has both), (3) the Standard Model origin of neutrinos (β decay, β+ decay, electron capture, muon/tau decays all emit neutrinos), and (4) the question of neutrino-DE interaction (no novel cascade coupling, neutrinos feel the 4D event's antigravity via standard GR). The Sun's 10³⁸/s neutrino rate is *not* a coincidence with the cascade's ε ~ 10⁻³⁸ — they are physically unrelated — but the rate creates a *problem* the energy-deposition threshold resolves (otherwise the Sun would dominate DM via neutrino emission).
 
-**Hierarchy-DE unification insight** (added June 2026): added §2.6 subsection noting that the cascade's bulk-brane coupling ε ~ 10⁻³⁸ and the hierarchy 10³⁸ are *the same physical quantity* (bulk-brane coupling) in different forms. The hierarchy = 1/ε, and the dark energy ∝ ε · f_back. The "coincidence" 10³⁸ = 1/10⁻³⁸ is the *signature* of this unification, not a coincidence in the cascade's framing. The two numbers are structurally related: gravity is weak in 3+1D by 10³⁸ *because* the bulk-brane cancellation removes most of the 4D event's projected gravity; the dark energy is a small un-cancelled fraction of the same projected antigravity, modulated by f_back. In RS brane-world physics, the analogous parameter is the warp factor e^(-kr_c) — the cascade's ε is the analogous parameter.
+**Hierarchy-DE unification insight** (added June 2026): added §2.6 subsection noting that the cascade's bulk-brane coupling ε ~ 10⁻³⁸ and the hierarchy 10³⁸ are *the same physical quantity* (bulk-brane coupling) in different forms. The hierarchy = 1/ε, and the dark energy ∝ ε · $f_{\rm back}$. The "coincidence" 10³⁸ = 1/10⁻³⁸ is the *signature* of this unification, not a coincidence in the cascade's framing. The two numbers are structurally related: gravity is weak in 3+1D by 10³⁸ *because* the bulk-brane cancellation removes most of the 4D event's projected gravity; the dark energy is a small un-cancelled fraction of the same projected antigravity, modulated by $f_{\rm back}$. In RS brane-world physics, the analogous parameter is the warp factor e^(-kr_c) — the cascade's ε is the analogous parameter.
 
 **Section 5 reduced to a brief pointer** (June 2026): the original §5 was a full restatement of §2.3's content (since §2.3 has grown to cover all the material). §5 is now a brief pointer that explains its role as a narrative marker and points readers to §2.3 for the substantive content. This keeps the table of contents and cross-references stable without duplicating content.
 
 **Self-corrections and "Numerical correction" notes removed from body** (June 2026): seven "Numerical correction" or self-correction notes were removed from the body (lines that said "an earlier version said X, corrected to Y" or "this is not because X — that phrasing is misleading"). The corrections are documented in this changelog, not in the body. The body now reads as a finished work, with all numerical claims stated correctly and no meta-commentary about earlier wrong versions.
 
-**Parameter list consistency fix** (June 2026): the §2.6 "Honest quantitative assessment" subsection previously listed "three free parameters (ε, f_inv, cascade partition)" but f_inv was an orphan variable (used nowhere else), f_deliver (added later) was missing, and f_back (used throughout) was missing. Replaced with the actual four parameters used in the paper: ε_{3+1D} ~ 10⁻³⁸, f_DE ~ 10⁻⁸⁵, f_deliver ≤ 1, and cumulative 2D back-projection efficiency. The other parameter list at line 269 (R, τ_2D, E_2D, projection fraction) is properly contextualized as the *DM-specific* parameters, not the *global* parameters.
+**Parameter list consistency fix** (June 2026): the §2.6 "Honest quantitative assessment" subsection previously listed "three free parameters (ε, f_inv, cascade partition)" but f_inv was an orphan variable (used nowhere else), f_deliver (added later) was missing, and $f_{\rm back}$ (used throughout) was missing. Replaced with the actual four parameters used in the paper: ε_{3+1D} ~ 10⁻³⁸, $f_{\rm DE}$ ~ 10⁻⁸⁵, f_deliver ≤ 1, and cumulative 2D back-projection efficiency. The other parameter list at line 269 (R, τ_2D, $E_{\rm 2D}$, projection fraction) is properly contextualized as the *DM-specific* parameters, not the *global* parameters.
 
 **Version header trimmed** (June 2026): the v2.0 version header at the top of paper.md was 1126 chars (describing all v1.x → v2.0 changes inline). Trimmed to 369 chars (one-line summary pointing to changelog for details).
 
@@ -3722,64 +3722,64 @@ The cascade is *infinite in principle* (no a priori depth limit) but *practicall
 
 ~5% ordinary, ~27% DM, ~68% DE. The "ordinary/dark sector" split is ~5%/~95%, with the dark sector being ~27% (DM) + ~68% (DE) = ~95%.
 
-**Growth factor derived from 2D FRW dynamics** (added June 2026): added §2.6 subsection *Deriving the growth factor from 2D universe dynamics* that derives G = 20 × V_growth from the 2D universe's own FRW dynamics. With Omega_{DE,2D} = 0.999, t_eq_2D at 1% of 2D lifetime, T_{2D} ~ 30 Gyr, h_{2D} ~ 1.0: G = 9.7e7, matching the trial-and-error value of 10⁸ within 3%. This closes the limitation previously noted in *A quantitative attempt at the DM calculation* and *Asymmetry between dark energy and dark matter math* paragraphs. The growth factor is no longer a free parameter — it is a *derived* consequence of the 2D universe's own physics. Companion implementation in `calculations/cascade_model.py` (class `GrowthFactorCalculator`).
+**Growth factor derived from 2D FRW dynamics** (added June 2026): added §2.6 subsection *Deriving the growth factor from 2D universe dynamics* that derives G = 20 × $V_{\rm growth}$ from the 2D universe's own FRW dynamics. With Omega_{DE,2D} = 0.999, t_eq_2D at 1% of 2D lifetime, T_{2D} ~ 30 Gyr, h_{2D} ~ 1.0: G = 9.7e7, matching the trial-and-error value of 10⁸ within 3%. This closes the limitation previously noted in *A quantitative attempt at the DM calculation* and *Asymmetry between dark energy and dark matter math* paragraphs. The growth factor is no longer a free parameter — it is a *derived* consequence of the 2D universe's own physics. Companion implementation in `calculations/cascade_model.py` (class `GrowthFactorCalculator`).
 
 **Hubble tension as a derived consequence** (added June 2026): added §2.6 subsection *Hubble tension as a derived consequence* that derives H_0_local > H_0_CMB by ~2.7 km/s/Mpc from the active vs. cumulative dark matter distinction (per §2.5 and §4.2). The predicted tension is in the same direction as the observed ~5.6 km/s/Mpc tension. Companion implementation in `calculations/cascade_model.py` (class `HubbleTensionCalculator`).
 
-**HubbleTensionCalculator removed (v2.5)**: the `HubbleTensionCalculator` class in `calculations/cascade_model.py` was a **postdiction**, not a derivation. The formula H_0_local = 67.4 × (1 + f_active × Ω_DM × 0.5) = 70.13 had three hand-tuned parameters (f_active = 0.3 fitted, 0.5 geometric factor placeholder, 70.13 reverse-engineered). The class has been **removed** in v2.5. Replaced with §2.6.1 *Honest H_0 framework* that documents: (1) the cascade does **not** derive a specific H_0 value, (2) H_0 = 70 ± 3 is the qualitative consistency with all measurements, (3) the 5.6 km/s/Mpc gap is a ΛCDM-framework artifact, (4) a 2D CFT calculation is needed to derive the specific active boost and cumulative drag. The `HubbleTensionBF/L/M` classes remain as historical record of mechanisms tested.
+**HubbleTensionCalculator removed (v2.5)**: the `HubbleTensionCalculator` class in `calculations/cascade_model.py` was a **postdiction**, not a derivation. The formula H_0_local = 67.4 × (1 + $f_{\rm active}$ × Ω_DM × 0.5) = 70.13 had three hand-tuned parameters ($f_{\rm active}$ = 0.3 fitted, 0.5 geometric factor placeholder, 70.13 reverse-engineered). The class has been **removed** in v2.5. Replaced with §2.6.1 *Honest $H_0$ framework* that documents: (1) the cascade does **not** derive a specific $H_0$ value, (2) $H_0$ = 70 ± 3 is the qualitative consistency with all measurements, (3) the 5.6 km/s/Mpc gap is a ΛCDM-framework artifact, (4) a 2D CFT calculation is needed to derive the specific active boost and cumulative drag. The `HubbleTensionBF/L/M` classes remain as historical record of mechanisms tested.
 
 **Overstatement audit (v2.5, commit 282)**: audited the paper for overstatements and found five to clean up:
-1. **Abstract "4.5-decade-universal g_+" → "approximately constant g_+ but r=+0.19, p=0.22, NOT significant"**. The data shows g_+ is approximately constant at galaxy scale, but the per-galaxy correlation with M_b is NOT statistically significant. The "universal" claim overstated the statistical evidence.
+1. **Abstract "4.5-decade-universal $g_+$" → "approximately constant $g_+$ but r=+0.19, p=0.22, NOT significant"**. The data shows $g_+$ is approximately constant at galaxy scale, but the per-galaxy correlation with $M_b$ is NOT statistically significant. The "universal" claim overstated the statistical evidence.
 2. **"matches ΛCDM exactly at all z" → "matches ΛCDM to within 0.1% at all z"**. r(z=6) = 342.0 vs (1+6)³ = 343; r(z=10) = 1327 vs (1+10)³ = 1331. "Exactly" was loose; "to within 0.1%" is more honest.
-3. **"MATCHING MCMC 0.0513 without any fitting" → "MATCHING, conditional on τ_2D = 0.7 Gyr by physical analogy"**. τ_2D = 0.7 Gyr is itself identified by physical analogy (M_2D ~ 1e46 J / L_consumption ~ 1e28 W), so the "without any fitting" claim was misleading.
+3. **"MATCHING MCMC 0.0513 without any fitting" → "MATCHING, conditional on τ_2D = 0.7 Gyr by physical analogy"**. τ_2D = 0.7 Gyr is itself identified by physical analogy ($M_{\rm 2D}$ ~ 1e46 J / L_consumption ~ 1e28 W), so the "without any fitting" claim was misleading.
 4. **"matches Tian+ 2024's 1.7e-9 within 1σ" → "within 30%, MCMC 1σ range includes 1.7e-9"**. The 1.3e-9 vs 1.7e-9 is 24% off, but the MCMC 1σ range (5.3e-10 to 2.7e-9) does include 1.7e-9. "30%" is more honest than "within 1σ".
-5. **"g_+ ∝ σ^1.85 matches MOND EFE σ^2 almost exactly" → "approximately matches (1.85 vs 2.0, 7.5% off)"**. "Almost exactly" was loose.
-6. **f_back notational confusion clarified**: the v2.4 refactor's "f_back DERIVED" refers to the destruction channel (f_back^destruction = 1, from J_bulk = 0 BC). The dark-energy staying fraction f_back^DE ~ 10^-85 is a DIFFERENT parameter that remains postulated. The paper now distinguishes between the two.
+5. **"$g_+$ ∝ σ^1.85 matches MOND EFE σ^2 almost exactly" → "approximately matches (1.85 vs 2.0, 7.5% off)"**. "Almost exactly" was loose.
+6. **$f_{\rm back}$ notational confusion clarified**: the v2.4 refactor's "$f_{\rm back}$ DERIVED" refers to the destruction channel (f_back^destruction = 1, from J_bulk = 0 BC). The dark-energy staying fraction f_back^DE ~ 10^-85 is a DIFFERENT parameter that remains postulated. The paper now distinguishes between the two.
 
-The 5/27 "topological eigenvalue" claim is also caveated: the *form* V_5/(A_4 R_AdS_5) is established as a topological feature, but the *specific value* 27/5 is still an empirical anchor, not a first-principles prediction. Limitation 26 acknowledged.
+The 5/27 "topological eigenvalue" claim is also caveated: the *form* V_5/(A_4 $R_{\rm AdS,5}$) is established as a topological feature, but the *specific value* 27/5 is still an empirical anchor, not a first-principles prediction. Limitation 26 acknowledged.
 
 **Version history consolidated to changelog (v2.5, commit 283)**: per user request, all version history content moved to `changelog.md`. The paper, README, and layman no longer duplicate this content:
 
 - **paper/paper.md**: version history block (~16K characters, lines 3-100) replaced with a brief 1-paragraph version header + reference to `changelog.md`. Paper shrunk from 187 pages / 869 KB to 183 pages / 850 KB.
-- **README.md**: "CHANGELOG (recent)" section replaced with a brief 1-paragraph version summary + reference to `changelog.md`. H_0 row updated from "73 (Mechanism M)" to "70 ± 3 (qualitative consistency)".
+- **README.md**: "CHANGELOG (recent)" section replaced with a brief 1-paragraph version summary + reference to `changelog.md`. $H_0$ row updated from "73 (Mechanism M)" to "70 ± 3 (qualitative consistency)".
 - **supporting/layman_summary.md**: "What changed in v2.4 (chronological)" section replaced with reference to `changelog.md`.
 
 README and layman also updated to match the paper's overstatement audit (commit 282):
-- **README.md**: H_0 row updated from "73 (Mechanism M)" to "70 ± 3 (qualitative consistency)" with note that 5.6 km/s/Mpc gap is a ΛCDM-framework artifact.
-- **supporting/layman_summary.md**: H_0 framing was already updated in commit 281; no further changes needed.
+- **README.md**: $H_0$ row updated from "73 (Mechanism M)" to "70 ± 3 (qualitative consistency)" with note that 5.6 km/s/Mpc gap is a ΛCDM-framework artifact.
+- **supporting/layman_summary.md**: $H_0$ framing was already updated in commit 281; no further changes needed.
 
-**H_0 = 73 cleanup in code/README/layman (v2.5, commit 284)**: per user request that "there are still cmd tests that say h_0=73 and it's shown in the readme", cleaned up all remaining H_0 = 73 references in the README, layman, and code outputs:
+**$H_0$ = 73 cleanup in code/README/layman (v2.5, commit 284)**: per user request that "there are still cmd tests that say h_0=73 and it's shown in the readme", cleaned up all remaining $H_0$ = 73 references in the README, layman, and code outputs:
 
-- **README.md**: line 101 (Hubble tension explanation) updated to "local ~73 vs Planck CMB 67.4" with note that cascade is qualitatively consistent with H_0 = 70 ± 3. Line 162 (historical bug-fix note about r(z=6) = 0.73) updated to clarify the H_0 = 73 framing was removed in commit 281.
+- **README.md**: line 101 (Hubble tension explanation) updated to "local ~73 vs Planck CMB 67.4" with note that cascade is qualitatively consistent with $H_0$ = 70 ± 3. Line 162 (historical bug-fix note about r(z=6) = 0.73) updated to clarify the $H_0$ = 73 framing was removed in commit 281.
 - **supporting/layman_summary.md**: line 45 (smoking gun narrative) updated similarly.
 - **paper/paper.md**: 5 historical claims updated to v2.5 framing (Mechanism M era is now historical, not current).
-- **calculations/trial_and_error.py**: Q5 section updated to test H_0 = 70.13 (qualitative consistency) instead of H_0 = 73. The output now reads "H_0 = 70.13 requires ρ_crit ~ 9.24e-27 kg/m^3" with note that the historical H_0 = 73 was borrowed from SH0ES.
-- **calculations/derive_4d_constraints.py**: point 7 (HUBBLE CONSTANT) updated to "H_0 = 70 ± 3 km/s/Mpc (qualitative consistency)" with full honest framing.
-- **calculations/derive_4d_factive_v2.py**: Step 1 (4D event output profile) and Justification updated to "H_0 is qualitatively consistent with 70 ± 3".
+- **calculations/trial_and_error.py**: Q5 section updated to test $H_0$ = 70.13 (qualitative consistency) instead of $H_0$ = 73. The output now reads "$H_0$ = 70.13 requires ρ_crit ~ 9.24e-27 kg/m^3" with note that the historical $H_0$ = 73 was borrowed from SH0ES.
+- **calculations/derive_4d_constraints.py**: point 7 (HUBBLE CONSTANT) updated to "$H_0$ = 70 ± 3 km/s/Mpc (qualitative consistency)" with full honest framing.
+- **calculations/derive_4d_factive_v2.py**: Step 1 (4D event output profile) and Justification updated to "$H_0$ is qualitatively consistent with 70 ± 3".
 - **calculations/consistency_check_v221.py**: point 5 (Hubble mechanism) updated to v2.5 framing.
 - **calculations/cosmic_shear_cascade.py**: docstring updated.
-- **calculations/cmb_cascade_prediction.py**: docstring updated to clarify the H_0 = 73 is a TEST INPUT (SH0ES value), not a cascade prediction.
+- **calculations/cmb_cascade_prediction.py**: docstring updated to clarify the $H_0$ = 73 is a TEST INPUT (SH0ES value), not a cascade prediction.
 - **calculations/cascade_lagrangian_v2.py**: constraint list updated.
 - **calculations/cascade_model.py**: Mechanism L docstring updated.
-- **calculations/mechanism_l_planck_reanalysis.py**: top-of-file note added explaining the H_0 = 73 is a TEST INPUT.
-- **calculations/hubble_mechanism_*.py, pantheon_mechanism_m_v221_*.py**: top-of-file note added to all 8 mechanism test files explaining the H_0 = 73 is the SH0ES value used as a starting point for mechanism tests, not a cascade prediction.
+- **calculations/mechanism_l_planck_reanalysis.py**: top-of-file note added explaining the $H_0$ = 73 is a TEST INPUT.
+- **calculations/hubble_mechanism_*.py, pantheon_mechanism_m_v221_*.py**: top-of-file note added to all 8 mechanism test files explaining the $H_0$ = 73 is the SH0ES value used as a starting point for mechanism tests, not a cascade prediction.
 
-All remaining H_0 = 73 references in code are either:
+All remaining $H_0$ = 73 references in code are either:
 1. **Test inputs** (SH0ES value used to test cascade predictions) — these now have explicit notes at the top of each file.
 2. **Historical records** of the Mechanism M era (BUSTED/FALSIFIED mechanisms) — these are explicitly labeled "HISTORICAL" or "BUSTED" or "FALSIFIED" in the file.
-3. **Description of observational values** (e.g., "SH0ES measured H_0 = 73.04") — these describe what the OBSERVATION says, not what the cascade predicts.
+3. **Description of observational values** (e.g., "SH0ES measured $H_0$ = 73.04") — these describe what the OBSERVATION says, not what the cascade predicts.
 
-**DE-dominates H_0 framework (v2.5, commit 285)**: per user insight that "DE matters a lot more than DM", adopted Gemini's z-dependent H_0 decomposition. Added §2.6.2 to the paper:
+**DE-dominates $H_0$ framework (v2.5, commit 285)**: per user insight that "DE matters a lot more than DM", adopted Gemini's z-dependent $H_0$ decomposition. Added §2.6.2 to the paper:
 
 **Formula:**
-  H_0(z) = H_global_Bulk - (Σ R_total(z) · fossil) - G_baryon
+  $H_0$(z) = H_global_Bulk - (Σ R_total(z) · fossil) - G_baryon
 
 **Three regimes (zones):**
-- Zone 1 (z=0, hyper-local SH0ES): R_stellar firing, H_0 = 73.04 (boost +2.88)
-- Zone 2 (z=0.02-1.5, mid-z TRGB/sirens): 4D bulk shines through, H_0 = 70.16
-- Zone 3 (z=1100, CMB): Thomson+recombination fully active, H_0 = 67.4 (drag -2.76)
+- Zone 1 (z=0, hyper-local SH0ES): R_stellar firing, $H_0$ = 73.04 (boost +2.88)
+- Zone 2 (z=0.02-1.5, mid-z TRGB/sirens): 4D bulk shines through, $H_0$ = 70.16
+- Zone 3 (z=1100, CMB): Thomson+recombination fully active, $H_0$ = 67.4 (drag -2.76)
 
-**Key insight:** H_0,4D = sqrt(H_CMB × H_local) = sqrt(67.4 × 73.04) = 70.16. The geometric mean of the two observed H_0 values gives the cascade's "intrinsic" 4D event value to within 0.1%.
+**Key insight:** $H_0$,4D = sqrt(H_CMB × H_local) = sqrt(67.4 × 73.04) = 70.16. The geometric mean of the two observed $H_0$ values gives the cascade's "intrinsic" 4D event value to within 0.1%.
 
 **5.6 km/s/Mpc Hubble tension decomposed:**
 - Local R_stellar boost: +2.88 km/s/Mpc (52% of gap)
@@ -3788,12 +3788,12 @@ All remaining H_0 = 73 references in code are either:
 
 **Friedmann symmetry:** boost ≈ drag (20.3 vs 19.5 in Friedmann form, 4% off). Hints at underlying Friedmann-like structure in the cascade's perturbation structure.
 
-**Comparison with old (removed) H_0 = 70.13 formula:**
-- Old: H_0,local = H_0,CMB × (1 + f_active × Ω_DM × 0.5) = 67.4 × 1.04 = 70.13 (postdiction, removed)
-- New: H_0,4D = sqrt(H_CMB × H_local) ≈ 70.16 (geometric mean, empirical but cleaner)
-- The new formula is a 3-zone EMPIRICAL FIT, but more honest: the H_0,4D is the geometric mean (a property of the data, not a hand-tuned parameter), and the R_stellar + cumulative_drag are DM-perturbation predictions that are DERIVABLE in principle from 2D CFT.
+**Comparison with old (removed) $H_0$ = 70.13 formula:**
+- Old: $H_0$,local = $H_0$,CMB × (1 + $f_{\rm active}$ × Ω_DM × 0.5) = 67.4 × 1.04 = 70.13 (postdiction, removed)
+- New: $H_0$,4D = sqrt(H_CMB × H_local) ≈ 70.16 (geometric mean, empirical but cleaner)
+- The new formula is a 3-zone EMPIRICAL FIT, but more honest: the $H_0$,4D is the geometric mean (a property of the data, not a hand-tuned parameter), and the R_stellar + cumulative_drag are DM-perturbation predictions that are DERIVABLE in principle from 2D CFT.
 
-**Limitation update:** Limitation 26 (2D CFT needed) is now more specific — the 2D CFT calculation needs to derive three numbers: H_0,4D, R_stellar, and cumulative drag. Each is a separate derivation.
+**Limitation update:** Limitation 26 (2D CFT needed) is now more specific — the 2D CFT calculation needs to derive three numbers: $H_0$,4D, R_stellar, and cumulative drag. Each is a separate derivation.
 
 **Companion implementation:** `calculations/hubble_z_decomposed.py` (3-zone predictions + test against TRGB, standard sirens, SH0ES, Planck CMB). All four measurements matched to within 1σ. Companion `calculations/h0_z_decomposed_results.json` (full numerical results).
 - **paper/paper.md**: version history block (~16K characters, lines 3-100) replaced with a brief 1-paragraph version header + reference to `changelog.md`. Paper shrunk from 187 pages / 869 KB to 183 pages / 850 KB.
@@ -3801,8 +3801,8 @@ All remaining H_0 = 73 references in code are either:
 - **supporting/layman_summary.md**: "What changed in v2.4 (chronological)" section replaced with reference to `changelog.md`.
 
 README and layman also updated to match the paper's overstatement audit (commit 282):
-- **README.md**: H_0 row updated from "73 (Mechanism M)" to "70 ± 3 (qualitative consistency)" with note that 5.6 km/s/Mpc gap is a ΛCDM-framework artifact.
-- **supporting/layman_summary.md**: H_0 framing was already updated in commit 281; no further changes needed.
+- **README.md**: $H_0$ row updated from "73 (Mechanism M)" to "70 ± 3 (qualitative consistency)" with note that 5.6 km/s/Mpc gap is a ΛCDM-framework artifact.
+- **supporting/layman_summary.md**: $H_0$ framing was already updated in commit 281; no further changes needed.
 
 **Limitations §7 updated** (added June 2026): §7 now has a *Note on closure status* paragraph explicitly noting which limitations have been *partially closed* by the cascade_model.py derivations (limitations 5 and 8) and which remain open (1–4, 6–7, 9–15). The paper's main acknowledged weakness — the unspecified growth factor — is now *resolved* by derivation.
 
@@ -3873,16 +3873,16 @@ Commits 95-105 added to v2.2.1:
 - 100: Added limitations 16, 17, 18 to numbered §7 list (centennial commit!)
 
 **Commits 101-105: Substantive new RAR tests**
-- 101: RAR g_+ floor from cumulative return (galaxies, in right ballpark at 0.22x)
+- 101: RAR $g_+$ floor from cumulative return (galaxies, in right ballpark at 0.22x)
 - 102: RAR across mass scales vs EDGE 2025 (dwarfs) + Tian 2024 (clusters)
 - 103: CLUSTERED vs UNIFORM DM profile (revealed internal inconsistency)
 - 104: Dynamical mixing resolution (intermediate profile)
-- 105: Full mathematical derivation of dynamical-mixing g_+ (this commit)
+- 105: Full mathematical derivation of dynamical-mixing $g_+$ (this commit)
 
 **Key finding from commits 101-105**: The cascade's RAR picture is qualitatively correct
 but quantitatively off by a factor of a few at each scale. The mass-dependence
-direction is right (cluster g_+ > galaxy g_+ > dwarf g_+), consistent with Tian+ 2024's
-17x enhancement at cluster scale. The amplitude is too large (over-predicts g_+ by
+direction is right (cluster $g_+$ > galaxy $g_+$ > dwarf $g_+$), consistent with Tian+ 2024's
+17x enhancement at cluster scale. The amplitude is too large (over-predicts $g_+$ by
 2-3x at all scales) and would need parameter adjustment to match observations.
 
 **§7 limitations now 1-19** (was 1-15 in v2.2, added 16, 17, 18 in commit 100, added 19 in commit 105).
@@ -3898,32 +3898,32 @@ Web research in June 2026 yielded 11 external constraints on the cascade's
 
 **v27_web_2d_cft_convergence.py** (4 PARAMETER-REDUCING constraints):
 1. b = i is natural for c = 1 (single scalar 2D CFT, IHES Vargas)
-2. m_3+1D > 8e-18 eV (Dalal & May 2025, arXiv:2509.02781)
+2. $m_{3+1D}$ > 8e-18 eV (Dalal & May 2025, arXiv:2509.02781)
 3. JT gravity on Karch-Randall brane (PRL 129, 231601)
-4. RAR extends to log g_bar ~ -12 (MIGHTEE-HI 2025, arXiv:2504.20857)
+4. RAR extends to log $g_{\rm bar}$ ~ -12 (MIGHTEE-HI 2025, arXiv:2504.20857)
 
-Net result: 4 free parameters → 2 free parameters (μ, m_3+1D)
+Net result: 4 free parameters → 2 free parameters (μ, $m_{3+1D}$)
 
 **v27_more_external_constraints.py** (4 INTERPRETIVE constraints):
 5. JT gravity as universal near-extremal BH EFT (Castro, Iqbal 2025)
 6. DESI 2024+2025 ~3σ evidence for evolving DE (quintessence)
-7. Stiskalek 2025: H_0 = 73.04 ± 1.30 (1.8% Cepheid precision)
+7. Stiskalek 2025: $H_0$ = 73.04 ± 1.30 (1.8% Cepheid precision)
 8. S_8 tension persists at 2-3σ (Subaru HSC Y3 2025)
 
 **v27_final_external_constraints.py** (3 INTERPRETIVE constraints):
-9. TRGB H_0 = 69.8 ± 1.9 (Freedman 2024, CCHP, JWST) — **0.2σ from cascade H_0,4D = 70.16** (CLOSEST external measurement!)
+9. TRGB $H_0$ = 69.8 ± 1.9 (Freedman 2024, CCHP, JWST) — **0.2σ from cascade $H_0$,4D = 70.16** (CLOSEST external measurement!)
 10. JWST high-z galaxy excess (z > 12, some z ~ 20) — qualitative cascade support
 11. BBN Li-7 anomaly (3.5× discrepancy) — cascade inherits from standard cosmology
 
-**Key finding**: The TRGB H_0 = 69.8 ± 1.9 sits in the *middle* of the
+**Key finding**: The TRGB $H_0$ = 69.8 ± 1.9 sits in the *middle* of the
 Hubble tension and is the closest single external measurement to the
-cascade's H_0,4D = 70.16 (0.2σ match). This is a coincidence of the
+cascade's $H_0$,4D = 70.16 (0.2σ match). This is a coincidence of the
 geometric mean, not a derivation, but it suggests the cascade's Mechanism M
-may be the *most consistent* single value across all H_0 methods.
+may be the *most consistent* single value across all $H_0$ methods.
 
 **Cascade's 2 remaining free parameters**:
 - μ (2D cosmological constant) — equivalent to "why Λ = ?"
-- m_3+1D (effective DM mass) — equivalent to "why m_DM = ?"
+- $m_{3+1D}$ (effective DM mass) — equivalent to "why m_DM = ?"
 
 Both require a 2D CFT theoretical physicist (Limitation 26 OPEN).
 
@@ -3963,7 +3963,7 @@ in the THEORETICAL FOUNDATION category:
    - In JT limit, Liouville → Schwarzian action: S ~ ∫dt {F(t),t}
    - Schwarzian QM: discrete energy spectrum E_n = (π²/2)(1/4 + n²)
    - Density of states: ρ(E) ~ sinh(2π√(2E/E₀))
-   - This is the FORM of the cascade's P(m_2D)
+   - This is the FORM of the cascade's P($m_{\rm 2D}$)
 
 KEY FINDING: c=1 string theory matrix model is the EXACT solution
 of 2D quantum gravity. The cascade's 2D CFT framework = the unique
@@ -3971,7 +3971,7 @@ exactly solvable 2D QG. This is a strong theoretical foundation.
 
 **Limitation 26 reduced from 'no framework' to 'parameter values'**:
 The matrix model IS the framework; only the specific values of
-μ and m_3+1D are unknown.
+μ and $m_{3+1D}$ are unknown.
 
 Files:
 - calculations/v27_jt_karch_randall.py
@@ -4010,7 +4010,7 @@ Final 5 external constraints added (26-30), bringing the total to 30:
     - No constraint, no signal expected
 
 **30 TOTAL EXTERNAL CONSTRAINTS** cataloged:
-- 4 PARAMETER-REDUCING (μ, b, α, z_0 → μ, m_3+1D)
+- 4 PARAMETER-REDUCING (μ, b, α, z_0 → μ, $m_{3+1D}$)
 - 7 INTERPRETIVE - COSMOLOGICAL
 - 4 INTERPRETIVE - THEORETICAL FOUNDATION (JT = c=1 string)
 - 5 from v27_ultra_light_dm_limit (16-20)
@@ -4073,7 +4073,7 @@ the competitors:
 
 - **ΛCDM via SMHM**: Both AGC 114905 and KKR 25 have similar stellar
   masses (M* ~ 10⁶⁻⁷ M☉), so SMHM predicts *similar* halos for them
-  by construction. To get the observed 219× M_dyn/M_b split, ΛCDM
+  by construction. To get the observed 219× $M_{\rm dyn}$/$M_b$ split, ΛCDM
   must invoke 3-4σ stochastic outliers in feedback/spin parameters.
   Calling that a "prediction" is generous — it's an *outlier*, not
   a *prediction*.
@@ -4095,7 +4095,7 @@ is *better positioned* than either competitor *specifically*:
 But the cascade's proportionality constant is *calibrated* to dSph
 observations (Limitation 29), so only the *qualitative* bifurcation
 and *direction* of the shift are cascade-derived — not the absolute
-M_dyn values. The cascade's value remains **interpretive** and
+$M_{\rm dyn}$ values. The cascade's value remains **interpretive** and
 **parsimonious**, not predictively unique.
 
 **Files changed:**
@@ -4138,7 +4138,7 @@ constraint count is now **35** (up from 30).
 **Supplementary update (June 2026):**
 - UMa3/U1 revisited (Rostami-Shirazi+ 2025, arXiv:2508.10543) —
   classification as DM-dwarf vs self-gravitating cluster remains
-  unresolved. Cascade's m_3+1D bound is robust to this ambiguity.
+  unresolved. Cascade's $m_{3+1D}$ bound is robust to this ambiguity.
 
 **Files changed:**
 - `paper/paper.md`: §8.1.8 added (5 new constraints + 1 supplementary)
@@ -4158,7 +4158,7 @@ constraint count is now **35** (up from 30).
 - 32 honest limitations documented (unchanged)
 
 **KEY FINDING (unchanged):**
-- TRGB H_0 = 69.8 ± 1.9 is 0.2σ from cascade H_0,4D = 70.16
+- TRGB $H_0$ = 69.8 ± 1.9 is 0.2σ from cascade $H_0$,4D = 70.16
 - (KILLER MATCH — closest single external measurement)
 
 Pushed: github.com/ampbuster/gravity-as-residual
@@ -4250,7 +4250,7 @@ Web research (June 2026) found 5 more external constraints from late
     2025) - launched 11 March 2025; first all-sky near-IR
     spectral survey of 450M+ galaxies and 100M+ Milky Way stars
     across 102 wavelengths. First cosmic map released May 2025.
-    - QUALITATIVELY CONSISTENT (cascade's MOND-like g_+ floor
+    - QUALITATIVELY CONSISTENT (cascade's MOND-like $g_+$ floor
       predicts mild sigma_8 suppression, testable with SPHEREx
       Y1 2026-2027)
 
@@ -4271,18 +4271,18 @@ Web research (June 2026) found 5 more external constraints from late
       distributions; mass-gap object puzzle is independent of
       cascade)
 
-45. **ACT DR6 + DESI DR1 + Planck NPIPE joint H_0** (Maus, White,
+45. **ACT DR6 + DESI DR1 + Planck NPIPE joint $H_0$** (Maus, White,
     Sailer, Baleato Lizancos, Ferraro+ 2025, arXiv:2505.20656,
     May 2025, revised October 2025) - 3D galaxy clustering +
     galaxy x CMB-lensing cross-correlations with one-loop EFTofLSS
     theory.
-    - H_0 = 69.08 ± 0.37 km/s/Mpc (1.4% precision)
-    - Most precise joint CMB+BAO+clustering H_0 measurement
-    - Cascade H_0,4D = 70.16 sits 2.9sigma above (4.6sigma
+    - $H_0$ = 69.08 ± 0.37 km/s/Mpc (1.4% precision)
+    - Most precise joint CMB+BAO+clustering $H_0$ measurement
+    - Cascade $H_0$,4D = 70.16 sits 2.9sigma above (4.6sigma
       below SH0ES)
-    - QUALITATIVELY CONSISTENT (cascade H_0,4D is a heuristic
+    - QUALITATIVELY CONSISTENT (cascade $H_0$,4D is a heuristic
       geometric mean, not a model prediction; the new joint
-      analysis tightens the H_0 tension to 4.6sigma between
+      analysis tightens the $H_0$ tension to 4.6sigma between
       Planck CMB and SH0ES Cepheids)
 
 **Files changed:**
@@ -4299,10 +4299,10 @@ Web research (June 2026) found 5 more external constraints from late
 - 7 INAPPLICABLE (cascade 2D universes are NOT particles)
 - 7 STRENGTHEN theoretical foundation
 - 1 NEW CASCADE PREDICTION (2D universe birth GW)
-- 2 REMAINING FREE PARAMETERS (mu, m_3+1D)
+- 2 REMAINING FREE PARAMETERS (mu, $m_{3+1D}$)
 - 32 honest limitations (unchanged)
 
-**UPDATED H_0 SUMMARY (closest to cascade H_0,4D = 70.16):**
+**UPDATED $H_0$ SUMMARY (closest to cascade $H_0$,4D = 70.16):**
 - TRGB: 69.8 +/- 1.9 (0.19sigma) - KILLER MATCH (closest)
 - TDCOSMO 2025 (8-quad): 71.6 +3.9/-3.3 (0.40sigma) - SECOND-CLOSEST
 - TDCOSMO XXIV: 64.2 +5.8/-5.0 (1.10sigma)
@@ -4311,12 +4311,12 @@ Web research (June 2026) found 5 more external constraints from late
 - ACT+DESI+Planck: 69.08 +/- 0.37 (2.93sigma) - most precise
 - Standard sirens: 70 +/- 12 (0.01sigma, broad)
 
-The two closest external H_0 measurements (TRGB 0.19sigma and
-TDCOSMO 2025 0.40sigma) sit ABOVE cascade H_0,4D; the most precise
+The two closest external $H_0$ measurements (TRGB 0.19sigma and
+TDCOSMO 2025 0.40sigma) sit ABOVE cascade $H_0$,4D; the most precise
 joint CMB+BAO (ACT+DESI+Planck 69.08) sits BELOW it. The cascade
-H_0,4D is the geometric mean of two discrepant sides, not a model
-prediction. The cascade is silent on the specific H_0 value
-(Mechanism M is geometric, not dynamical for H_0).
+$H_0$,4D is the geometric mean of two discrepant sides, not a model
+prediction. The cascade is silent on the specific $H_0$ value
+(Mechanism M is geometric, not dynamical for $H_0$).
 
 Pushed: github.com/ampbuster/gravity-as-residual
 
@@ -4336,12 +4336,12 @@ Adds three significant cascade extensions:
    events create 'lighter' (D-1)-universes with more time dilation.
    Our 3D universe is one of the 'heaviest' (D-1)-universes.
 
-3. **M_Pl,4 ≥ 887 GeV floor** — derived from requirement that the 3D
+3. **$M_{\rm Pl,4}$ ≥ 887 GeV floor** — derived from requirement that the 3D
    universe be alive at 13.8 Gyr. Matches the electroweak scale, the
    ADD-model prediction. The cascade independently arrives at
-   TeV-scale M_Pl,4 from the energy-scaling + 3D-alive constraint.
+   TeV-scale $M_{\rm Pl,4}$ from the energy-scaling + 3D-alive constraint.
 
-4. **End-of-universe picture** — if M_Pl,4 ~ TeV (ADD), the 3D
+4. **End-of-universe picture** — if $M_{\rm Pl,4}$ ~ TeV (ADD), the 3D
    universe's INTERNAL lifespan is only 14-28 Gyr. We're at 50-99%
    of our life. The 4D sees us as 2×10^26 yr (10^-33 of 4D's
    own 10^59-yr predicted life), but OUR clock is running out.
@@ -4357,7 +4357,7 @@ Adds three significant cascade extensions:
 
 Section is marked SPECULATIVE because:
 - Energy-scaling is a fit to one data point
-- M_Pl,4 could be much larger (end-of-universe irrelevant)
+- $M_{\rm Pl,4}$ could be much larger (end-of-universe irrelevant)
 - DESI could have other explanations
 - 'Particle analogy' is heuristic, not rigorous
 
@@ -4375,7 +4375,7 @@ event. The cascade's '33 s' is one data point on a smooth ladder from
 10^-37 μs (1 ton TNT) to 10^26 yr (4D cosmological event). Our 3D
 universe is one of the largest, hence it lives 2×10^26 yr in 4D view.
 
-If M_Pl,4 ~ TeV (ADD model), the 3D universe is at the end of its
+If $M_{\rm Pl,4}$ ~ TeV (ADD model), the 3D universe is at the end of its
 life in 3D internal time. This is testable with DESI Y5, LSST Y1,
 Euclid Q3 in the 2027-2030 window.
 
@@ -4393,7 +4393,7 @@ Changes:
 - **~20 specific LaTeX issues fixed in markdown**:
   - `g₊` in text mode → wrap in `$g_+$`
   - `τ_2D_3+1D` raw → wrap in `$\tau_{2D_{3+1D}} = ...$`
-  - `M_b` in text mode → `$M_{b}$`
+  - `$M_b$` in text mode → `$M_{b}$`
   - Various `\propto`, `\sim`, `\approx` patterns
   - Table cell math (`\sim\$1-2` → `~1-2`)
   - Double-dash ranges (`1--2` → `1-2`)

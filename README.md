@@ -7,28 +7,28 @@
 **Version:** 3.5.7 (June 2026) — *CURRENT VERSION. v3.5.x UPDATES: (1) TIER 2 research (CY3 Z_12, α first-principles, μ F-theory). (2) User caught "12 propagates" inconsistencies → honest reframe (v3.4.6). (3) "12 is correlation not derivation" (v3.4.7 meta-analysis: 12 = 2²×3 highly composite). (4) Universe age = 1.5×10⁻¹⁵ of lifetime → SIDC is INITIAL-CONDITIONS framework. (5) v3.5.6 WEB SEARCH BREAKTHROUGH: μ has 5+ structural origins (unimodular gravity, Hagedorn, JT U(Φ)=2Φ, string thermal duality, Hawking-Page/Euclidean periodicity). μ status changed from "calibrated" to "STRUCTURALLY MOTIVATED". (6) v3.5.7 AUDIT: framework internally consistent. (7) v3.5.7 HOLOGRAPHIC: string minimal area gives μ = M_s². 365 pages, 116 limitations.*
 
 **Current parameters** (v3.5.7, 9 total):
-- 1 measured: M_Pl,3D = 1.22×10¹⁹ GeV
-- 1 calibrated: M_Pl,2D = 3 TeV (via SN τ_2D = 33 s)
-- 1 DERIVED: M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = 4×10²³ GeV
+- 1 measured: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV
+- 1 calibrated: $M_{\rm Pl,2D}$ = 3 TeV (via SN τ_2D = 33 s)
+- 1 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 4×10²³ GeV
 - 4 calibrated: α = 1.289, ε = 10⁻³⁸, τ_4D = 1.51×10³⁴ yr, AGN rate = 3×10⁻¹⁶
 - 1 free: N_sub = 4×10²
-- 1 calibrated (now STRUCTURALLY MOTIVATED): μ = M_Pl,2D² = 9×10⁶ GeV²
+- 1 calibrated (now STRUCTURALLY MOTIVATED): μ = $M_{\rm Pl}$,2D² = 9×10⁶ GeV²
 
 **DE match**: 8.4% (NOT 0.24% — that was a v3.3 miscalculation; framework's calibration precision). v3.5.6 BREAKTHROUGH shows μ is consistent with modern unimodular gravity (Λ as integration constant).
 
 **Previous v3.4.x (HONEST REFRAME)**: "12 propagates" is CORRELATION, not derivation. "12 SM fermions/gen" was WRONG (15-16 Weyl or 7-8 Dirac per gen). DOF conservation at 24 was DROPPED (was framework's interpretation, not law). h^{2,1}=N→N gen REFUTED (arXiv:0910.5464 has h^{2,1}=4 + 3 gen).
 
-**Previous v3.2 (HISTORICAL)**: Three structural principles + user-driven audits. Scenario X (M_Pl,4D = 887 GeV) was v3.1.2-final choice, SUPERSEDED in v3.3 by α-weighted GM. (Note: "14 events" and "11 events" appear in some v3.1.2-final text but the rigorous test set is §10.1's 8 events. The "13/14 fail" claim for α = 1.258 is paper text without rigorous documentation in v3.1.2 calculations.) (Note: "14 events" and "11 events" appear in some v3.1.2-final text but the rigorous test set is §10.1's 8 events. The "13/14 fail" claim for α = 1.258 is paper text without rigorous documentation in v3.1.2 calculations.)
+**Previous v3.2 (HISTORICAL)**: Three structural principles + user-driven audits. Scenario X ($M_{\rm Pl,4D}$ = 887 GeV) was v3.1.2-final choice, SUPERSEDED in v3.3 by α-weighted GM. (Note: "14 events" and "11 events" appear in some v3.1.2-final text but the rigorous test set is §10.1's 8 events. The "13/14 fail" claim for α = 1.258 is paper text without rigorous documentation in v3.1.2 calculations.) (Note: "14 events" and "11 events" appear in some v3.1.2-final text but the rigorous test set is §10.1's 8 events. The "13/14 fail" claim for α = 1.258 is paper text without rigorous documentation in v3.1.2 calculations.)
 
 **v3.1 HIGHLIGHTS** (NEW since v3.0.21):
 - **Inception cone** (L112): 4D event at base, 2D Planck at apex; 4D event eternal from our frame
 - **2D Planck IS the tip** (L113, ~3 TeV); 2D CFT formulas at the tip (L114, L115)
-- **A Lagrangian for SIDC** (L116): S = S_4D + S_3+1D + ΣS_2D + S_projection
+- **A Lagrangian for SIDC** (L116): S = $S_{\rm 4D}$ + $S_{\rm 3+1D}$ + ΣS_2D + $S_{\rm projection}$
 - **c-value resolution** (L117): UV c=7 → IR c=3/2 via SYK q=4
-- **L41, L42 CLOSED** (L118): only 2 free parameters remain (μ, m₃₊₁D = v_Higgs)
-- **[STRUCK: 5D/6D extension]** (L121, **UNCERTAIN in v3.3**): M_Pl,N = M_Pl,4/α^(N-4) — relied on α-power extrapolation, weaker support without α-symmetry
-- **9D = string theory** (L122, **DROPPED in v3.3**): M_Pl,9D extrapolation was 249 GeV ≈ v_Higgs = 246 GeV (1.3%), but 9D extension was DROPPED in v3.3 (#23). M_Pl,4D now derived via α-weighted GM.
-- **Hierarchy problem** (L127): M_Pl,3 >> v_Higgs — ε = 10⁻³⁸ calibrated (not solved from first principles)
+- **L41, L42 CLOSED** (L118): only 2 free parameters remain (μ, m₃₊₁D = $v_{\rm Higgs}$)
+- **[STRUCK: 5D/6D extension]** (L121, **UNCERTAIN in v3.3**): $M_{\rm Pl,N}$ = $M_{\rm Pl,4}$/α^(N-4) — relied on α-power extrapolation, weaker support without α-symmetry
+- **9D = string theory** (L122, **DROPPED in v3.3**): $M_{\rm Pl,9D}$ extrapolation was 249 GeV ≈ $v_{\rm Higgs}$ = 246 GeV (1.3%), but 9D extension was DROPPED in v3.3 (#23). $M_{\rm Pl,4D}$ now derived via α-weighted GM.
+- **Hierarchy problem** (L127): $M_{\rm Pl,3}$ >> $v_{\rm Higgs}$ — ε = 10⁻³⁸ calibrated (not solved from first principles)
 - **SIDC-SM connection** (L128-L136): 12 SYK = 12 SM gauge generators (kept); 9D→4D compactification **DROPPED in v3.3** (9D extension removed)
 
 **v3.4 F-THEORY 12D AS 4D BULK (NEW v3.4.6 with HONEST REFRAME)**:
@@ -56,12 +56,12 @@
   - F-theory doesn't directly give μ (10³⁴× off)
 - **v3.5.1**: "1/2" has 3+ anchors (Schwarzian, DOZZ Liouville, Ising CFT, α decomposition)
 - **v3.5.2-v3.5.3**: 45 alternative formulas for μ, 12 exact matches (all algebraically equivalent)
-- **v3.5.4**: 10 candidates for why T_H = T_Pl,2D — TOP 3: Planckian max, Euclidean periodicity, Hagedorn
-- **v3.5.5**: Lagrangian L = L_c=1 + L_Schwarzian + L_N=12 SYK consistently gives μ = M_Pl,2D² via 3 routes
+- **v3.5.4**: 10 candidates for why $T_H$ = $T_{\rm Pl,2D}$ — TOP 3: Planckian max, Euclidean periodicity, Hagedorn
+- **v3.5.5**: Lagrangian L = L_c=1 + L_Schwarzian + L_N=12 SYK consistently gives μ = $M_{\rm Pl}$,2D² via 3 routes
 - **v3.5.6 WEB SEARCH BREAKTHROUGH** (μ has 5+ structural origins):
   - **Unimodular gravity (HT)**: Λ is INTEGRATION CONSTANT — calibrated μ is EXPECTED in modern gravity
-  - **Hagedorn T_H = M_s/(2π)**: EXACT from closed string modular invariance (Chaudhuri 2001)
-  - **JT U(Φ)=2Φ**: the "2" traces to R_AdS_2 = -2/L²
+  - **Hagedorn $T_H$ = M_s/(2π)**: EXACT from closed string modular invariance (Chaudhuri 2001)
+  - **JT U(Φ)=2Φ**: the "2" traces to $R_{\rm AdS,2}$ = -2/L²
   - **String thermal duality b ↔ 1/(2b)**: Kogan 1990
   - **Hawking-Page + Euclidean periodicity**: β = 2πL forced by SL(2,R)
 - **v3.5.7 HOLOGRAPHIC**: String minimal area gives μ = M_s² (L319). "2π" is UNIVERSAL 2D factor (L320, Longo 2024 Bekenstein bound).
@@ -75,9 +75,9 @@
 - **$C(E) = E^{1+\alpha}$** — smooth creation function (per-event DM contribution, v2.7.5+ REPLACES E_crit which was REVERTED in v2.7.5)
 - **$F_p(0)$** = 0.9993 — calculated from cumulative DM over 14+ event types (§3.40)
 
-**HONEST (v3.2 clarification)**: F_p(z) FUNCTIONAL FORM is a FIT (Hill n=2, z_half=3, L100 PARTIAL). The value F_p(0) = 0.9993 is calculated, but the z-evolution is calibrated to cosmic SFR peak. E_primordial is a FREE PARAMETER (L34). z_half is a FREE PARAMETER (L35). These were not derived from the cascade.
+**HONEST (v3.2 clarification)**: $F_p$(z) FUNCTIONAL FORM is a FIT (Hill n=2, $z_{\rm half}$=3, L100 PARTIAL). The value $F_p$(0) = 0.9993 is calculated, but the z-evolution is calibrated to cosmic SFR peak. E_primordial is a FREE PARAMETER (L34). $z_{\rm half}$ is a FREE PARAMETER (L35). These were not derived from the cascade.
 
-**The free parameters are**: μ, $m_{3+1D}$ (brane-world, from Lagrangian), plus $z_{\rm half}$ (F_p(z) calibration, L35) and $E_{\rm primordial}$ (per-event energy of primordial 2D universes, L34). All 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, Ω's, $g_+$) are taken from data. Everything else follows from the cascade structure (N=12 SYK backbone), but F_p(z) z-evolution is phenomenological.
+**The free parameters are**: μ, $m_{3+1D}$ (brane-world, from Lagrangian), plus $z_{\rm half}$ ($F_p$(z) calibration, L35) and $E_{\rm primordial}$ (per-event energy of primordial 2D universes, L34). All 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, Ω's, $g_+$) are taken from data. Everything else follows from the cascade structure (N=12 SYK backbone), but $F_p$(z) z-evolution is phenomenological.
 
 **What is SIDC?** The model is called **SIDC — Scale-Invariant Dimensional Cascade**. The original v2.3.2 name was "Scale-Invariant Dimensional Cascade" (SIDC), shortened to "the cascade" in v2.4-2.7, and now restored as SIDC in v3.0.2 to emphasize the scale-invariance aspect. (The historical "Dimensional Cascade" / DC label is now deprecated.)
 
@@ -106,7 +106,7 @@
 **What changed**:
 - ✓ M^α scaling law validated against 8 events (8/8 within 1.6×)
 - ✓ α = 1.258 REJECTED (only α = 1.289 survives)
-- ✓ Closed-loop formula f_back = (M_Pl,N/E_event)^α is UNIVERSAL at every level
+- ✓ Closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$/E_event)^α is UNIVERSAL at every level
 - ✓ M^α scaling DOWN to 2D (TeV, factor of 2); 9D UP scaling DROPPED in v3.3
 - ✓ Equal-Universe Principle (1 species at each level, multiple γ values)
 - ✓ DE-DM unified via continuous vs pulsed return (same mechanism, time dilation determines observability)
@@ -133,7 +133,7 @@ For honest limitations, see `paper/markdown/06_limitations.md` (81 total, includ
 - ✓ **Closed-loop formula** is universal at every dimensional transition (2D→3D and 3D→4D)
 - ✓ **Equal-Universe Principle** (1 species at each level, multiple γ values)
 - ✓ **Continuous vs pulsed return** clarifies DE (continuous) vs DM (pulsed) — same mechanism
-- ✓ **M^α scaling DOWN to 2D**: gives TeV scale (factor of 2 from L41). UP to 9D **DROPPED in v3.3** (was 1.3% match to v_Higgs, no longer supported).
+- ✓ **M^α scaling DOWN to 2D**: gives TeV scale (factor of 2 from L41). UP to 9D **DROPPED in v3.3** (was 1.3% match to $v_{\rm Higgs}$, no longer supported).
 
 We RESTORE the two main results with appropriate caveats:
 
@@ -178,11 +178,11 @@ F-theory 12D structure:
 
 **Same 9 parameters, more structure**. See paper §3.5 for details.
 
-## Result 1: M^α Scaling Law (τ = (E/M_Pl)^α × t_Pl, α = 1.289)
+## Result 1: M^α Scaling Law (τ = (E/$M_{\rm Pl}$)^α × $t_{\rm Pl}$, α = 1.289)
 
 **The §10.1 8-event empirical fit** (the rigorous test set, all REAL events):
 
-| 3D event | E_3D (J) | τ_obs (s) | ratio (τ_pred/τ_obs) |
+| 3D event | $E_{\rm 3D}$ (J) | τ_obs (s) | ratio (τ_pred/τ_obs) |
 |---|---|---|---|
 | 1 ton TNT | 4×10⁹ | 1×10⁻⁴³ | 1.51 |
 | X-class solar flare | 1×10²⁵ | 1×10⁻²³ | 1.07 |
@@ -203,7 +203,7 @@ F-theory 12D structure:
 
 **Strongest empirical claim**: 8/8 real events match the formula within 1.6×.
 
-**α = 1.258 test** (paper §3.71, HISTORICAL, 9D DROPPED in v3.3): The alternative α = 1.258 (with 4π hidden in α) gave different E_sub and was used in the historical 9D = v_Higgs match (14% vs 1.3% for α = 1.289). Interpretation A (α = 1.289) is preferred because it gives N=12 (matches SM fermion count). NOTE: 9D extrapolation is DROPPED in v3.3, so this comparison is historical.
+**α = 1.258 test** (paper §3.71, HISTORICAL, 9D DROPPED in v3.3): The alternative α = 1.258 (with 4π hidden in α) gave different E_sub and was used in the historical 9D = $v_{\rm Higgs}$ match (14% vs 1.3% for α = 1.289). Interpretation A (α = 1.289) is preferred because it gives N=12 (matches SM fermion count). NOTE: 9D extrapolation is DROPPED in v3.3, so this comparison is historical.
 
 **Structural decomposition** (interpretive, not derived): α = 1 + 1/√12 = 1/2 (Schwarzian) + 1/2 (kinematic SR) + 1/√12 (N=12 SYK). This is the framework's STRUCTURAL explanation for why α might be ~1.29. It is NOT a first-principles derivation (L43 OPEN: 5 brute-force attempts from Z(β) failed).
 
@@ -218,18 +218,18 @@ F-theory 12D structure:
 - "1 species" claim is structural, not first-principles
 - "13/14 fail" for α = 1.258 is paper text without rigorous documentation
 
-## Result 2: Closed-Loop Formula f_back = (M_Pl,N / E_event)^α
+## Result 2: Closed-Loop Formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / E_event)^α
 
-**f_back itself is universal at every dimensional transition**: The same formula gives the back-flow rate at 2D→3D AND 3D→4D, just with different M_Pl,N and E_event:
+**$f_{\rm back}$ itself is universal at every dimensional transition**: The same formula gives the back-flow rate at 2D→3D AND 3D→4D, just with different $M_{\rm Pl,N}$ and E_event:
 
-| Transition | M_Pl,N | E_event | f_back fraction |
+| Transition | $M_{\rm Pl,N}$ | E_event | $f_{\rm back}$ fraction |
 |---|---|---|---|
 | 2D→3D (SN) | 1.22×10¹⁹ GeV | 10⁴⁴ J | 1.6×10⁻⁴⁵ |
 | 3D→4D | 4×10²³ GeV | 5×10⁷⁹ J | 1.22×10⁻⁸⁵ |
 
-**Continuous vs pulsed return** (KEY CLARIFICATION, user-formalized): f_back is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). The OBSERVABLE differs by level due to TIMESCALE (specifically, time dilation makes 3+1D's lifetime much longer than 2D's lifetime):
+**Continuous vs pulsed return** (KEY CLARIFICATION, user-formalized): $f_{\rm back}$ is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). The OBSERVABLE differs by level due to TIMESCALE (specifically, time dilation makes 3+1D's lifetime much longer than 2D's lifetime):
 
-| Boundary | Lifetime in lower-D frame | f_DE rate | Continuous leakage | Pulsed at death | What dominates NOW? |
+| Boundary | Lifetime in lower-D frame | $f_{\rm DE}$ rate | Continuous leakage | Pulsed at death | What dominates NOW? |
 |---|---|---|---|---|---|
 | 2D→3D (SN) | 33 s (short, no significant γ) | 1.6×10⁻⁴⁵/s | 33×10⁻⁴⁵ = **10⁻⁴⁴** (negligible) | 100% at 33s | **Pulsed (DM)** |
 | 3D→4D | 10³⁴ yr (γ_4D = 6.03×10⁹⁰ from 4D proper time ~10⁻⁵⁴ yr) | 1.22×10⁻⁸⁵/s | 10⁵¹×10⁻⁸⁵ = **O(1)** by heat death | 100% at 10³⁴ yr | **Continuous (DE)** |
@@ -246,9 +246,9 @@ This unifies DE and DM as the SAME mechanism at different timescales, with **tim
 
 The v3.3 DE formula has NO 4π factor. v3.1.2 used 4π empirically to get 1.7% match; v3.3 removed it and matches within 8.4% (v3.3 misclaimed 0.24%) (τ_4D calibrated to DE directly, no 4π needed).
 
-**DE matching** (3D→4D, v3.3 with NO 4π): ρ_DE = f_DE × ε × M_Pl,3D^4 = 1.13×10⁻⁸⁵ × 10⁻³⁸ × (1.22×10¹⁹)⁴ = **2.51×10⁻⁴⁷ GeV⁴**. Observed: 2.5×10⁻⁴⁷ GeV⁴. **Match within 8.4%** (τ_4D = 1.51×10³⁴ yr is DE-calibrated; v3.3 misclaimed 0.24% — actual is 8.4%, framework's calibration precision).
+**DE matching** (3D→4D, v3.3 with NO 4π): ρ_DE = $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}$^4 = 1.13×10⁻⁸⁵ × 10⁻³⁸ × (1.22×10¹⁹)⁴ = **2.51×10⁻⁴⁷ GeV⁴**. Observed: 2.5×10⁻⁴⁷ GeV⁴. **Match within 8.4%** (τ_4D = 1.51×10³⁴ yr is DE-calibrated; v3.3 misclaimed 0.24% — actual is 8.4%, framework's calibration precision).
 
-**Why this is honest, not cheating**: τ_4D = 1.51×10³⁴ yr is one of 4 calibrated parameters in v3.3 (alongside α = 1.289, ε = 10⁻³⁸, AGN rate). The 8.4% off in v3.1.2 was from a different formulation (M_Pl,4D = 887 GeV, γ_4D = 1.29×10⁶⁴, used a 4π factor). v3.3 removed 4π AND changed M_Pl,4D to 4×10²³ GeV (α-weighted GM), giving exact match.
+**Why this is honest, not cheating**: τ_4D = 1.51×10³⁴ yr is one of 4 calibrated parameters in v3.3 (alongside α = 1.289, ε = 10⁻³⁸, AGN rate). The 8.4% off in v3.1.2 was from a different formulation ($M_{\rm Pl,4D}$ = 887 GeV, γ_4D = 1.29×10⁶⁴, used a 4π factor). v3.3 removed 4π AND changed $M_{\rm Pl,4D}$ to 4×10²³ GeV (α-weighted GM), giving exact match.
 
 **STRENGTHS**:
 - Universal formula at every level
@@ -257,7 +257,7 @@ The v3.3 DE formula has NO 4π factor. v3.1.2 used 4π empirically to get 1.7% m
 - M^α scaling DOWN to 2D (TeV, factor of 2). UP to 9D DROPPED in v3.3.
 
 **WEAKNESSES**:
-- f_DE = 10⁻⁸⁵ is calibrated to DE, not derived
+- $f_{\rm DE}$ = 10⁻⁸⁵ is calibrated to DE, not derived
 - 4π factor (verified ~1.7% at 3D→4D) is not derived
 - N_sub = free parameter (lifetime UNKNOWN)
 - L43 (α derivation) OPEN: 5 brute-force attempts failed
@@ -271,25 +271,25 @@ The v3.3 DE formula has NO 4π factor. v3.1.2 used 4π empirically to get 1.7% m
 | Closed loop formula is universal at every level | ✓ STRUCTURAL |
 | DE-DM are the same mechanism | ✓ STRUCTURAL |
 | M^α scaling 4D→2D (gives TeV) | ✓ STRUCTURAL | 9D→4D DROPPED in v3.3
-| DE matching within 8.4% via f_back formula (v3.3 misclaimed 0.24%; framework's calibration precision) | ✓ CALIBRATED |
+| DE matching within 8.4% via $f_{\rm back}$ formula (v3.3 misclaimed 0.24%; framework's calibration precision) | ✓ CALIBRATED |
 | α = 1.289 from first principles | ✗ OPEN (L43) |
-| f_DE = 10⁻⁸⁵ from first principles | ✗ CALIBRATED |
+| $f_{\rm DE}$ = 10⁻⁸⁵ from first principles | ✗ CALIBRATED |
 | 4π factor from first principles | ✗ OPEN (L142a) |
 | N_sub (number of sub-universes) | ✗ FREE PARAM |
 | Universe total LIFETIME | ✗ UNKNOWN (only AGE is observed) |
 | "14 events" all fit (vs §10.1's 8) | ✗ INCONSISTENT (legacy claim) |
 | "13/14 fail" for α = 1.258 (rigorously documented) | ✗ PAPER TEXT (not in calculations) |
-| F_p(z) functional form (Hill n=2) | ✗ FIT (L100 PARTIAL) — z-evolution is phenomenological |
-| z_half (F_p transition redshift) | ✗ FREE PARAM (L35) — calibrated to cosmic SFR peak |
+| $F_p$(z) functional form (Hill n=2) | ✗ FIT (L100 PARTIAL) — z-evolution is phenomenological |
+| $z_{\rm half}$ ($F_p$ transition redshift) | ✗ FREE PARAM (L35) — calibrated to cosmic SFR peak |
 | E_primordial (per-event energy of primordial 2D universes) | ✗ FREE PARAM (L34) — not derived |
 | E_crit (phase-transition threshold) | ✗ REVERTED v2.7.5 — replaced by smooth C(E) = E^(1+α) |
-| **Natural E_crit at M_Pl,2D = 3 TeV** | ✓ **DERIVED from Lagrangian** (L41) — 2D universe lifetime → 0 below this |
+| **Natural E_crit at $M_{\rm Pl,2D}$ = 3 TeV** | ✓ **DERIVED from Lagrangian** (L41) — 2D universe lifetime → 0 below this |
 
 **Honest framing**: The M^α scaling law and closed-loop formula are now EMPIRICALLY VALIDATED and STRUCTURALLY MOTIVATED. They are NOT first-principles DERIVED. The framework gives a consistent picture (same physics at every level, different energy scales) without claiming to derive α from Z(β). This is the **Equal-Universe Principle** in action.
 
 ---
 
-## 🌡️ NATURAL E_crit AT M_Pl,2D = 3 TeV (v3.2, user-insight)
+## 🌡️ NATURAL E_crit AT $M_{\rm Pl,2D}$ = 3 TeV (v3.2, user-insight)
 
 **User question**: "are we still using the hill function or e_crit? i think with the lagrangian, we are back to e_crit? since we have a 2d planck?"
 
@@ -297,7 +297,7 @@ The v3.3 DE formula has NO 4π factor. v3.1.2 used 4π empirically to get 1.7% m
 
 **The natural E_crit from the Lagrangian + 2D Planck**:
 
-The Lagrangian requires E_2D ≥ M_Pl,2D × c² = 3 TeV to create a 2D universe. Below this threshold:
+The Lagrangian requires $E_{\rm 2D}$ ≥ $M_{\rm Pl,2D}$ × c² = 3 TeV to create a 2D universe. Below this threshold:
 - 2D universe lifetime → essentially 0
 - Cannot form a sustained 2D universe
 - Effectively no 2D universe creation
@@ -305,7 +305,7 @@ The Lagrangian requires E_2D ≥ M_Pl,2D × c² = 3 TeV to create a 2D universe.
 | E (J) | What happens | 2D lifetime (3+1D frame) |
 |---|---|---|
 | < 3 TeV = 4.8×10⁻¹⁰ J | No 2D universe (below Lagrangian threshold) | — |
-| 3 TeV | 2D universe at threshold, lifetime ≈ t_Pl,2D = 2.2×10⁻²⁸ s proper, 4×10⁻⁶⁴ s apparent | essentially zero |
+| 3 TeV | 2D universe at threshold, lifetime ≈ $t_{\rm Pl}$,2D = 2.2×10⁻²⁸ s proper, 4×10⁻⁶⁴ s apparent | essentially zero |
 | 1 ton TNT = 4×10⁹ J | 2D universe barely sustained | 10⁻⁴³ s |
 | SN = 10⁴⁴ J | Full 2D universe | 33 s |
 
@@ -314,7 +314,7 @@ The Lagrangian requires E_2D ≥ M_Pl,2D × c² = 3 TeV to create a 2D universe.
 | Version | E_crit | Source | Status |
 |---|---|---|---|
 | v2.3.0 OLD | 10³⁰ J (Sun's total energy) | Calibrated to data | REVERTED v2.7.5 |
-| v3.2 NEW (implied) | 3 TeV (M_Pl,2D × c²) | DERIVED from Lagrangian (L41) | CURRENT |
+| v3.2 NEW (implied) | 3 TeV ($M_{\rm Pl,2D}$ × c²) | DERIVED from Lagrangian (L41) | CURRENT |
 
 **Key differences**:
 - OLD E_crit was a STEP FUNCTION (no DM below threshold, full DM above)
@@ -327,7 +327,7 @@ The Lagrangian requires E_2D ≥ M_Pl,2D × c² = 3 TeV to create a 2D universe.
 - 3 TeV to ~10²⁵ J: smooth function, contribution small but non-zero
 - Above 10²⁵ J: smooth function dominates, contribution significant
 
-The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natural E_crit. But it's at M_Pl,2D = 3 TeV (derived), not at 10³⁰ J (calibrated, REVERTED). And it's a smooth transition (C(E) = E^(1+α) becomes negligible below), not a step function.
+The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natural E_crit. But it's at $M_{\rm Pl,2D}$ = 3 TeV (derived), not at 10³⁰ J (calibrated, REVERTED). And it's a smooth transition (C(E) = E^(1+α) becomes negligible below), not a step function.
 
 ### What can produce 2D universes? (LHC analysis, v3.2 user-question)
 
@@ -386,8 +386,8 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 
 **v3.2 changes don't affect this analysis**:
 - N_sub FREE (doesn't affect individual galaxy DM)
-- M_Pl,2D = 3 TeV (natural E_crit, below all dwarf cases)
-- M_Pl,4D = 4×10²³ GeV (v3.3 α-weighted GM, was 887 GeV) (Scenario X (SUPERSEDED in v3.3 by α-weighted GM), doesn't affect galaxy-scale)
+- $M_{\rm Pl,2D}$ = 3 TeV (natural E_crit, below all dwarf cases)
+- $M_{\rm Pl,4D}$ = 4×10²³ GeV (v3.3 α-weighted GM, was 887 GeV) (Scenario X (SUPERSEDED in v3.3 by α-weighted GM), doesn't affect galaxy-scale)
 - M^α scaling, closed loop (unchanged)
 
 **5/5 dwarf cases still pass**: Sun, AGC 114905, KKR 25, DF2/DF4, FCC 224. **The paper is still consistent with v3.2.**
@@ -406,7 +406,7 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 2. **Total SNe**: 1 SN per 100 M_⊙ (Salpeter IMF, M > 8):
    $$N_{\rm SN} = 8.05 \times 10^6 \text{ SNe/Mpc}^3$$
 
-3. **Per-SN 2D universe rest mass** (E_SN/c² = 5.59×10⁻⁴ M_⊙):
+3. **Per-SN 2D universe rest mass** ($E_{\rm SN}$/c² = 5.59×10⁻⁴ M_⊙):
    $$M_{\rm 2D,actual} = E_{\rm SN}/c^2 = 5.59 \times 10^{-4} \, M_\odot$$
 
 4. **Total SN-driven DM**:
@@ -420,10 +420,10 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 
 **Interpretation**: SN-driven 2D universe deaths give 7.6 million × too little DM.
 
-**How the framework addresses this**: F_p(z) Hill function separates PRIMORDIAL vs CUMULATIVE:
+**How the framework addresses this**: $F_p$(z) Hill function separates PRIMORDIAL vs CUMULATIVE:
 - **99.93% of DM is PRIMORDIAL** (from 4D event's 2D universe deaths at z ~ 1100)
 - **0.07% of DM is CUMULATIVE** (from SN-driven 2D universe deaths)
-- F_p(0) = 0.9993 (calibrated), F_p(1100) = 1.0
+- $F_p$(0) = 0.9993 (calibrated), $F_p$(1100) = 1.0
 
 **Primordial contribution**: 4D event mass = 6.0×10¹¹ M_⊙ (galaxy scale). To explain Ω_DM:
 $$N_p = \frac{\rho_{\rm DM}({\rm observed})}{M_{\rm 4D}} = 0.057 \approx 6\%$$
@@ -437,26 +437,26 @@ So we need ~6% of one 4D event's mass in primordial 2D universe deaths. Plausibl
 
 **The closed loop is mostly 4D-event-mediated**:
 - DE = 4D event continuous back-leakage (3D→4D, 4π factor)
-- DM = 4D event's primordial 2D universe deaths (F_p ~ 1 at z=0)
+- DM = 4D event's primordial 2D universe deaths ($F_p$ ~ 1 at z=0)
 - SN cumulative contribution to DM is 0.07% (negligible but real)
 
 This is the **HONEST** closed-loop picture. The SN-driven 2D→3D path is real but quantitatively small. The dominant DM is primordial (from 4D event's 2D universe deaths).
 
-### F_p(z) is OLD and AGC/KKR problem (v3.2, user-caught)
+### $F_p$(z) is OLD and AGC/KKR problem (v3.2, user-caught)
 
-**User question**: "isn't F_p(z) old? also, if DM is mostly primordial, how to explain agc/kkr"
+**User question**: "isn't $F_p$(z) old? also, if DM is mostly primordial, how to explain agc/kkr"
 
 **HONEST ANSWER**: Both concerns are valid.
 
-**F_p(z) is OLD (v2.7.52, pre-Lagrangian)**:
-- F_p(z) = 0.9993 + 0.0007 × z²/(z_half² + z²), z_half = 3
+**$F_p$(z) is OLD (v2.7.52, pre-Lagrangian)**:
+- $F_p$(z) = 0.9993 + 0.0007 × z²/(z_half² + z²), $z_{\rm half}$ = 3
 - Introduced in v2.7.52, BEFORE the v3 Lagrangian era
 - Has NOT been updated for v3.x
 - The Lagrangian gives per-event creation C(E) = E^(1+α) and pulsed return at death
-- But F_p(z) z-evolution is STILL phenomenological
+- But $F_p$(z) z-evolution is STILL phenomenological
 
 **AGC/KKR inconsistency**:
-- If 99.93% of DM is primordial (F_p(0) = 0.9993), then per-galaxy DM variation CANNOT be explained by cumulative 0.07% alone
+- If 99.93% of DM is primordial ($F_p$(0) = 0.9993), then per-galaxy DM variation CANNOT be explained by cumulative 0.07% alone
 - AGC 114905 (no DM) vs KKR 25 (DM-rich) variation is 100% (zero to significant)
 - But cumulative is only 0.07% of total DM
 - **The 5/5 dwarf cases test CUMULATIVE part only, not total DM**
@@ -464,11 +464,11 @@ This is the **HONEST** closed-loop picture. The SN-driven 2D→3D path is real b
 **Status**:
 - ✓ 5/5 cases are self-consistent for cumulative DM
 - ✗ Total DM variation (primordial + cumulative) is NOT addressed
-- ✗ F_p(z) functional form is a FIT, not derived
+- ✗ $F_p$(z) functional form is a FIT, not derived
 - ✗ AGC 114905 'no DM' is for cumulative only, primordial should still be there
 
 **Closing requires** (L100 v3.2):
-1. F_p(z) derivation from Lagrangian
+1. $F_p$(z) derivation from Lagrangian
 2. Per-galaxy E_primordial distribution (L34 OPEN)
 3. N_p constraint (L144, N_p is FREE PARAM)
 
@@ -1062,7 +1062,7 @@ A new section §10 derives speculative but *testable* end-of-universe signatures
 
 - **Energy-scaling rule:** $\tau_{D-1} = t_{\rm Pl,3+1D} \times (E_D/E_{\rm Pl,3+1D})^{1.29}$, with $\alpha = 1.29$ forced by SN 33s calibration
 - **Relativistic-particle analogy:** 2D universes are "particles" with mass-dependent time dilation; smaller (lower-E) events create "lighter" 2D universes with more time dilation
-- **$M_{\rm Pl,4D}$ = 4×10²³ GeV (v3.3 α-weighted GM):** derived from M_Pl,3D^α × M_Pl,2D^(1-α), satisfies fundamental 4D convention (M_Pl,4D > M_Pl,3D); was 887 GeV in v3.1.2 Scenario X (DROPPED)
+- **$M_{\rm Pl,4D}$ = 4×10²³ GeV (v3.3 α-weighted GM):** derived from $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α), satisfies fundamental 4D convention ($M_{\rm Pl,4D}$ > $M_{\rm Pl,3D}$); was 887 GeV in v3.1.2 Scenario X (DROPPED)
 - **If $M_{\rm Pl,4D}$ ~ ${\rm TeV}$:** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life)
 - **Testable signatures:** DESI DR3 evolving DE (3.5σ), LSST Y1 DE-density decrease, declining cosmic SFR, GW background
 - **LISA detection prospects (§10.17):** SIDC's SN death GW at 0.03 Hz is **6-14 orders below LISA noise** for any reasonable $\epsilon_{\rm GW}$. A NULL LISA result is consistent with (not contradictory to) SIDC. SIDC's high-energy death GW (BNS, AGN) is detectable by **PTAs** (NANOGrav, EPTA, SKA-MPG) at nHz frequencies, not LISA.
@@ -1317,8 +1317,8 @@ For full version history, see **[`changelog.md`](changelog.md)** below.
 **Most recent changes (v3.0.2 / v3.0.21, June 17, 2026):**
 - **Build infrastructure refactored (v3.0.21)**: post-processors in `paper/build_tools/`, scratch in `paper/.build/`, no `/tmp/` dependency. Added `--dry-run` mode for fast LaTeX checking.
 - **Lagrangian skeleton (§3.62)**: L = L_c=1 + L_N=12 + L_Schwarzian. α = 1.289 = 1 + 1/√12.
-- **Democratic cosmology (§3.17)**: 14 event types = 1 species at 14 different γ values. All have proper lifetime t_Pl.
-- **Closed loop closes for f_back (Lagrangian v10)**: f_back = (E_4D/E)^(1/2α) from same α as time dilation. 1/(2α) = c/α = (1/2)/1.289.
+- **Democratic cosmology (§3.17)**: 14 event types = 1 species at 14 different γ values. All have proper lifetime $t_{\rm Pl}$.
+- **Closed loop closes for $f_{\rm back}$ (Lagrangian v10)**: $f_{\rm back}$ = ($E_{\rm 4D}$/E)^(1/2α) from same α as time dilation. 1/(2α) = c/α = (1/2)/1.289.
 - **45 honest limitations** (37 → 45 across v3.0.2), 45 external constraints catalogued.
   - LISA detection prospects: SIDC's SN death GW is **6-14 orders below LISA noise**; SIDC's BNS/AGN death GW is detectable by PTAs in 2030s
   - Testable window 2026-2034 (DESI DR3 → LISA launch)
@@ -1401,7 +1401,7 @@ This section lists open questions for future research. **Updated at v3.0.21 (Jun
 
 7. **Numerical simulation of q=4 SYK with N=12** ◐
    - Component-by-component trial-and-error in Lagrangian v3-v6
-   - Mass scaling M_2D ~ (E_Pl/E)^0.29 forced by data
+   - Mass scaling $M_{\rm 2D}$ ~ (E_Pl/E)^0.29 forced by data
    - ρ(E) ~ exp(S_0 + 2π√(N×E/(2π²))) computed in v7
    - REMAINING: full G(τ) calculation, Monte Carlo with N=12
    - L81 OPEN

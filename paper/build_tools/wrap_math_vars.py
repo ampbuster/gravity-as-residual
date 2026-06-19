@@ -276,18 +276,27 @@ def main():
                         total += n
             print(f"Total: {total}")
     else:
-        # Default: process paper/markdown/*.md
-        md_dir = 'paper/markdown'
-        if not os.path.isdir(md_dir):
-            print(f"Error: {md_dir} not found")
+        # Default: process paper/markdown/*.md AND supporting/*.md
+        # Also process a few root files
+        targets = []
+        if os.path.isdir('paper/markdown'):
+            targets.extend([os.path.join('paper/markdown', f) for f in sorted(os.listdir('paper/markdown')) if f.endswith('.md')])
+        if os.path.isdir('supporting'):
+            targets.extend([os.path.join('supporting', f) for f in sorted(os.listdir('supporting')) if f.endswith('.md')])
+        for fname in ['README.md', 'changelog.md', 'persistent_memory.md',
+                      'layman_summary.md', 'how-did-we-get-here.md',
+                      'arxiv_submission.md', 'STATE_OF_THE_MODEL.md']:
+            if os.path.isfile(fname):
+                targets.append(fname)
+        if not targets:
+            print("Error: no markdown files found")
             sys.exit(1)
         total = 0
-        for f in sorted(os.listdir(md_dir)):
-            if f.endswith('.md'):
-                n = process_file(os.path.join(md_dir, f))
-                if n > 0:
-                    print(f"  {f}: {n}")
-                    total += n
+        for path in targets:
+            n = process_file(path)
+            if n > 0:
+                print(f"  {path}: {n}")
+                total += n
         print(f"Total: {total} substitutions")
 
 

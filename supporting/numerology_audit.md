@@ -98,7 +98,7 @@ prediction, but it's also not a coincidence: the cascade provides a
 dimensional-projection mechanism. A specific implementation of the
 cascade would need to *derive* these from the 4D event's physics.
 
-### 4. The tau_2D = L_event/c timescale
+### 4. The $\tau_{\rm 2D}$ = L_event/c timescale
 
 **Status: PHYSICS POSTULATE, consistency-checked.**
 
@@ -112,8 +112,8 @@ motivated by:
 (light-crossing time). The "clean formula" is because it's the
 natural timescale, not because it was tuned.
 
-**The cascade's honest position (v2.3.0, §4.11):** tau_2D = L_event / c
-is *consistent* with 2D gravitational dynamics if G_2D * E_2D ~ c^2.
+**The cascade's honest position (v2.3.0, §4.11):** $\tau_{\rm 2D}$ = L_event / c
+is *consistent* with 2D gravitational dynamics if G_2D * $E_{\rm 2D}$ ~ c^2.
 This is a *self-consistency check*, not a derivation. The specific
 timescale is a postulate, but it's the *natural* one.
 
@@ -137,7 +137,7 @@ match observations, not a "magic number" that was tuned. If it were
 | D-labels (4D, 3+1D, 2D) | Partly | Postulate, not derived |
 | 5/27/68 formula (1/20) | YES | Fit, not derivation (92% failure rate) |
 | 10^38, 10^120 reframings | No | Real observations, new interpretation |
-| tau_2D = L_event/c | No | Natural timescale, consistency-checked |
+| $\tau_{\rm 2D}$ = L_event/c | No | Natural timescale, consistency-checked |
 | 0.2% stellar energy | No | Required parameter, not magic |
 
 **The 5/27/68 is the most serious numerology concern.** The cascade
@@ -151,7 +151,7 @@ not unique. A physicist would want to see *why* 4D, not just "because."
 
 **The other claims are not numerological.** They are either real
 observations being reframed (10^38, 10^120) or natural physics
-timescales (tau_2D).
+timescales ($\tau_{\rm 2D}$).
 
 ## What a physicist would conclude
 
@@ -160,7 +160,7 @@ a misreading. The honest breakdown:
 - The 5/27/68 formula: real numerology (acknowledged, framed as fit)
 - The D-labels: free parameter (acknowledged, framed as postulate)
 - The 10^38/10^120 reframings: not numerology (reframed, not predicted)
-- The tau_2D: not numerology (natural physics, consistency-checked)
+- The $\tau_{\rm 2D}$: not numerology (natural physics, consistency-checked)
 
 A physicist who reads the paper carefully would conclude: "The
 author knows the difference between observation and prediction, and
@@ -174,8 +174,8 @@ The cascade's *core* is a *geometric framework* with a *specific
 phenomenology*. The D-labels and the 5/27/68 are *part of* the
 framework, not *predictions* of it. The cascade's *predictions*
 (observable consequences) are:
-- Universal g_+ at galaxy scales (MOND-like)
-- Cluster g_+ enhancement (Tian+ 2024)
+- Universal $g_+$ at galaxy scales (MOND-like)
+- Cluster $g_+$ enhancement (Tian+ 2024)
 - RAR tightness with activity correlation
 - No direct DM detection
 - Dark energy is approximately constant

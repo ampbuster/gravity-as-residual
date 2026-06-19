@@ -280,7 +280,7 @@ In v2.7.60-67, SIDC made a striking discovery: **a single number — 12 — expl
 
 **What 12 does:**
 
-- 12 = 3 $\times$ 4 = 3 generations of Standard Model fermions $\times$ 4 fermions per generation (e_L, ν_L, u_L, d_L)
+- 12 = 3 $\times$ 4 = 3 generations of Standard Model fermions $\times$ 4 fermions per generation ($e_L$, ν_L, $u_L$, $d_L$)
 - 12 Majoranas in q=4 SYK (a specific quantum chaos model) give:
   - Central charge c = 1/2 (Ising CFT, a 2D conformal field theory)
   - Lifetime scaling $\alpha$ = 1.289 $\approx$ 1.29 (SIDC's calibration value)

@@ -15,15 +15,15 @@
 
 ## The Model in 1 Paragraph
 
-Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-scale 4D event (E_4D = 5×10⁷⁹ J, M_Pl,4D = 4×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact, 0.24% off) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰). The bilateral cascade has 1 measured Planck (M_Pl,3D = 1.22×10¹⁹ GeV), 1 calibrated Planck (M_Pl,2D = 3 TeV from SN), 1 DERIVED (M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α)), 4 calibrated (α, ε, τ_4D, AGN rate), and 1 free (N_sub) = 9 parameters. The M^α law τ = (E/M_Pl,parent)^α × t_Pl is universal (clean form), with 8/8 events fitting within 1.6×. The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = v_Higgs hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
+Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact, 0.24% off) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 3 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 4 calibrated (α, ε, τ_4D, AGN rate), and 1 free (N_sub) = 9 parameters. The M^α law τ = (E/$M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 events fitting within 1.6×. The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
 ## The 9 Parameters (v3.3)
 
 | # | Parameter | Value | Status | Source |
 |---|---|---|---|---|
-| 1 | M_Pl,3D | 1.22×10¹⁹ GeV | **MEASURED** | Newton's G |
-| 2 | M_Pl,2D | 3 TeV | **CALIBRATED** | SN event anchor |
-| 3 | M_Pl,4D | 4×10²³ GeV | **DERIVED** | α-weighted GM of 1,2 |
+| 1 | $M_{\rm Pl,3D}$ | 1.22×10¹⁹ GeV | **MEASURED** | Newton's G |
+| 2 | $M_{\rm Pl,2D}$ | 3 TeV | **CALIBRATED** | SN event anchor |
+| 3 | $M_{\rm Pl,4D}$ | 4×10²³ GeV | **DERIVED** | α-weighted GM of 1,2 |
 | 4 | α | 1.289 | **CALIBRATED** | 14 events M^α fit |
 | 5 | ε | 10⁻³⁸ | **CALIBRATED** | hierarchy |
 | 6 | τ_4D,proper | 1.51×10³⁴ yr | **CALIBRATED** | DE match (0.24% off) |
@@ -31,7 +31,7 @@ Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-
 | 8 | γ_4D | 6.03×10⁹⁰ | **DERIVED** | time dilation |
 | 9 | N_sub | 4×10² | **FREE** | sub-universe count |
 
-**Note**: M_Pl,2D = 3 TeV gives μ = 9×10⁶ GeV² (Liouville CC).
+**Note**: $M_{\rm Pl,2D}$ = 3 TeV gives μ = 9×10⁶ GeV² (Liouville CC).
 
 ## Key Formulas
 
@@ -69,7 +69,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 | v3.3.9 | Brute force with time dilation: μ ∝ E (intuitive) |
 | v3.3.10 | 17 alternative methods to derive μ: all fail |
 | v3.3.11 | Calibrate to method predictions: all break framework |
-| v3.3.12 | 9D = v_Higgs is legacy, μ is independent of cascade |
+| v3.3.12 | 9D = $v_{\rm Higgs}$ is legacy, μ is independent of cascade |
 | v3.3.13 | Option 1 deep dive: universal μ in 5 points |
 | v3.3.14 | **DM is NOT a particle** (user catch) |
 | v3.3.15 | **47 Tuc test is SIDC vs ΛCDM** (not "particle DM") |
@@ -80,8 +80,8 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✓ 5/27/68 matches Planck 2018
 - ✓ DE matches observation (0.24% off)
 - ✓ DM = 27% matches (calibrated AGN)
-- ✓ TRGB H_0 = 69.8±1.9 (0.2σ from cascade 70.16) — CLOSEST
-- ✓ M_Pl,3D measured (1.22×10¹⁹ GeV)
+- ✓ TRGB $H_0$ = 69.8±1.9 (0.2σ from cascade 70.16) — CLOSEST
+- ✓ $M_{\rm Pl,3D}$ measured (1.22×10¹⁹ GeV)
 - ✓ 8/8 events fit M^1.29 within 1.6×
 
 ## What's CALIBRATED (not derived)
@@ -102,21 +102,21 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 ## What's DERIVED
 
-- ✓ M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = 4×10²³ GeV
+- ✓ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 4×10²³ GeV
 - ✓ τ_3D,apparent = γ_4D × τ_4D = 9.10×10¹²⁴ yr
-- ✓ γ_4D = (E_4D/M_Pl,4D)^α = 6.03×10⁹⁰
+- ✓ γ_4D = ($E_{\rm 4D}$/$M_{\rm Pl,4D}$)^α = 6.03×10⁹⁰
 
 ## What's TESTABLE
 
-- ✓ 47 Tuc M_dyn vs M_stars (decisive test, awaits DR1 2027)
+- ✓ 47 Tuc $M_{\rm dyn}$ vs M_stars (decisive test, awaits DR1 2027)
 - ⚠ DM mass spectrum (depends on Possibility A/B/C for DM form)
-- ✓ Hubble tension resolution (TRGB H_0 match)
+- ✓ Hubble tension resolution (TRGB $H_0$ match)
 - ⚠ 2D universe GW (single freq Option 1 vs broad Option 2)
 
 ## What's DROPPED
 
-- ✗ 9D = v_Higgs (was empirical, dropped v3.3)
-- ✗ α^5 relation for M_Pl,4D (was empirical, dropped v3.3)
+- ✗ 9D = $v_{\rm Higgs}$ (was empirical, dropped v3.3)
+- ✗ α^5 relation for $M_{\rm Pl,4D}$ (was empirical, dropped v3.3)
 - ✗ 4π geometric factor (was v3.1.2, removed v3.3)
 - ✗ α = 1.258 (falsified, 13/14 events fail)
 
@@ -126,7 +126,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - L26: μ from 2D CFT expert needed
 - L43: α not derivable from 2D CFT alone
 - L100 v3.3.15: 15 user-driven corrections
-- L138: M_Pl,4D mechanism (α-weighted GM hypothesis)
+- L138: $M_{\rm Pl,4D}$ mechanism (α-weighted GM hypothesis)
 - L144: N_sub is free
 - L189-L195: μ first-principles attempts (all fail)
 - L196-L203: alternative method predictions (all break framework)
@@ -147,14 +147,14 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - Time-dilated brute force, event-dependent 2D universes
 - Option A consequences, TNT weirdness analysis
 - Option 1 universal exploration
-- Calibrate to predictions (no v_Higgs)
+- Calibrate to predictions (no $v_{\rm Higgs}$)
 - DM is not a particle
 - Similarity question
 
 **README.md** (v3.3.15):
 - 47 Tuc test clarified: SIDC vs ΛCDM (not "particle DM")
 - Internal "smoking gun" inconsistencies fixed
-- 9D = v_Higgs references cleaned
+- 9D = $v_{\rm Higgs}$ references cleaned
 - 4π references removed
 - DE match clarified (0.24% off, not 8.4%)
 
@@ -170,7 +170,7 @@ A: NO (per v3.3.14). DM is decayed 2D universe energy. May or may not be a parti
 A: It's a FALSIFIABLE PREDICTION, not a smoking gun. It's "SIDC vs ΛCDM" (per v3.3.15), not "SIDC vs particle DM".
 
 **Q: What tests the framework?**
-A: 47 Tuc M_dyn vs M_stars (decisive, awaits DR1). DM form (Possibility A/B/C, gap in framework). Hubble tension (matches TRGB).
+A: 47 Tuc $M_{\rm dyn}$ vs M_stars (decisive, awaits DR1). DM form (Possibility A/B/C, gap in framework). Hubble tension (matches TRGB).
 
 **Q: What's the biggest gap?**
 A: Form of DM (not specified). μ first-principles derivation (17 methods tried, all fail). α derivation (not from 2D CFT).
@@ -183,8 +183,8 @@ A: Form of DM (not specified). μ first-principles derivation (17 methods tried,
 - 1 parameter, cleanest
 
 **Option 2 (v3.3.9 PROPER)**: μ ∝ E
-- μ_i = K_td × α × E_i × M_Pl,3D
-- M_Pl,2D ∝ √E (intuitive)
+- μ_i = K_td × α × E_i × $M_{\rm Pl,3D}$
+- $M_{\rm Pl,2D}$ ∝ √E (intuitive)
 - 2 parameters, more general
 
 **Both calibrated to SN. Both legitimate.** v3.3 keeps Option 1.
@@ -194,8 +194,8 @@ A: Form of DM (not specified). μ first-principles derivation (17 methods tried,
 The user has caught many issues in v3.3:
 1. TNT weirdness in Option A (v3.3.8)
 2. Time dilation not in brute force (v3.3.9)
-3. 9D = v_Higgs is legacy (v3.3.12)
-4. v_Higgs error was wrong metric (v3.3.12)
+3. 9D = $v_{\rm Higgs}$ is legacy (v3.3.12)
+4. $v_{\rm Higgs}$ error was wrong metric (v3.3.12)
 5. DM is not a particle (v3.3.14)
 6. 47 Tuc test framing (v3.3.15)
 
