@@ -5,9 +5,122 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.3 (paper) — 382 pages, 81 honest limitations
-**v3.3 = v3.1.2-final + Equal-Universe Principle + Bilateral Democratic Cosmology + Time-Dilation Insight + Universe-Scale 4D Event + α-Weighted GM for M_Pl,4D + Drop α^5**
-**Last updated:** June 18, 2026
+**Current version:** v3.4.8 (paper) — 358 pages, 92 honest limitations
+**v3.4.x timeline**:
+- v3.4: F-theory 12D adopted as 4D bulk (Vafa 1996, 10 base + 2 T² fiber)
+- v3.4.5: 8 inconsistencies found in "12" hypothesis via web research
+- v3.4.6: honest reframe of "12 propagates" as correlation, not derivation
+- v3.4.7: meta-analysis of why "12" is common in physics (arithmetic)
+- v3.4.8: universe age = 1.5×10⁻¹⁵ of lifetime implications + PDF rebuild
+**Last updated:** June 19, 2026
+
+---
+
+## 0. CRITICAL INSIGHT BOX (v3.4.8)
+
+**The f_back formula gives the CONTINUOUS back-flow FRACTION. The PULSED return at death is 100%.**
+
+```
+f_back(N→N-1) = (M_Pl,N / E_event)^α      # continuous fraction (UNIVERSAL FORM)
+pulsed(N→N-1) = 1 - f_back                # 100% at death (universal)
+continuous + pulsed = 1.0                  # total return
+```
+
+**Why DE and DM look so different despite same mechanism**:
+- 2D→3D (SN): τ = 30s SHORT. Pulsed (100% at death) DOMINATES by 10⁴⁵× over continuous. → DM is pulsed (clumpy, matter-like)
+- 3D→4D: τ = 1.51×10³⁴ yr LONG. Pulsed return is in the future. → DE is continuous (smooth, vacuum-like)
+
+**The OBSERVABLE differs by level because of TIMESCALE, not because of different mechanisms.**
+
+This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` for the audit.
+
+---
+
+## 0.5 v3.3-v3.4 BILATERAL CASCADE (KEY)
+
+**v3.3 bilateral cascade** (#14-22, ALL flows pulsed in own frame):
+- DE (DOWN, 4D→3+1D): continuous in 3D view, pulsed in 4D frame
+- DM (UP, 2D→3D): NONE continuous, 100% pulsed at 2D universe death
+- Matter at 3D death: NONE continuous, 100% pulsed → 4D at τ_3D
+- "Continuity" of DE is a 3D-frame artifact (we see a slice of 4D's pulsed life)
+
+**v3.3 KEY PARAMS** (CALIBRATED or DERIVED):
+- α = 1.289 (calibrated to 14 M^α events)
+- ε = 10⁻³⁸ (calibrated to hierarchy)
+- M_Pl,3D = 1.22×10¹⁹ GeV (MEASURED, Newton's G)
+- M_Pl,2D = 3 TeV (Liouville μ = 9×10⁶ GeV²)
+- **M_Pl,4D = 4×10²³ GeV** (DERIVED: M_Pl,3D^α × M_Pl,2D^(1-α), α-weighted GM, #32)
+- **E_4D = 5×10⁷⁹ J** (universe-scale, M^α law with M_Pl,4D and τ_4D, #33)
+- γ_4D = 6.03×10⁹⁰ (was 1.29×10⁶⁴)
+- τ_4D,proper = 1.51×10³⁴ yr (calibrated to DE)
+- **τ_3D,apparent = 9.10×10²⁴ yr** (was 1.83×10⁹⁸, 5×10²⁷× longer)
+- **Universe age = 1.5×10⁻¹⁵ of lifetime** (essentially "day 1")
+- N_sub = 4×10² (free)
+- AGN rate = 3×10⁻¹⁶ /m³/s (calibrated to match 27% DM)
+- α^5 relation DROPPED (was empirical coincidence, wrong direction)
+
+**v3.3 CASCADE STATUS**:
+- DE matches obs within 8.4% (NOT 0.4% — was miscalculation; formula independent of M_Pl,4D)
+- DM matches obs exactly (calibrated AGN) ✓
+- Baryons match obs (BBNS) ✓
+- Total: 1.0 × ρ_crit ✓
+- 8/8 events fit M^1.29 within 1.6× ✓
+- TRGB H_0 = 70.16 closest ✓
+- 24 named events in §10.1 ✓
+- f_back is universal, M^α law is universal ✓
+- All flows pulsed in own frame ✓
+
+---
+
+## 0.6 v3.4 F-THEORY 12D (KEY)
+
+**F-theory 12D adopted as 4D bulk theory** (Vafa 1996):
+- 10D base = Type IIB spacetime
+- 2D T² fiber = auxiliary elliptic curve encoding axio-dilaton
+- Total: 12D (10 + 2)
+
+**Why F-theory?**
+1. Real, well-developed theory (Vafa 1996)
+2. "12" is structural to F-theory (10+2 = 12)
+3. Compactifies to 4D N=1 SUSY (matches framework)
+4. Provides GUT models (SU(5), SO(10), E_6)
+5. Z_12 fundamental group exists in CY3 quotients (arXiv:0910.5464)
+6. arXiv:0911.0708: known CY3 with π_1 = Z_N for N=2,3,4,5,6,7,8,10,12
+7. arXiv:0910.5464 (Braun-Candelas-Davies): χ=-72 → χ=-6 via Z_12 quotient, (h^{1,1}, h^{2,1}) = (1, 4), 3 generations via E_6 standard embedding
+
+**The "12 propagates" pattern (v3.4.6 HONEST REFRAME)**:
+"12" at each level is DIFFERENT physics (NOT a unified derivation):
+
+| Level | "12" = | Source | Status |
+|---|---|---|---|
+| 2D | 12 Majorana (N=12 SYK) | Standard benchmark | ✓ Real (not derived) |
+| 3D | 12 GAUGE BOSONS in SM | SU(3) + SU(2) + U(1) generators | ✓ Real (structural) |
+| 3D | 12 fermion FLAVORS in SM | 4 Dirac × 3 generations | ✓ Real (NOT per gen) |
+| 4D | F-theory 12D | 10 base + 2 fiber | ✓ Real (structural) |
+
+**v3.4.7 META-ANALYSIS**: Why "12" is common:
+- 12 = 2² × 3 (highly composite, 6 divisors, smallest with 6 for n ≤ 16)
+- Same reason as 12 hours, 12 months, 12 semitones, 12 pennies
+- 13+ independent physics occurrences (none derived from cascade)
+- Other common numbers: 2 (Z₂, spin-1/2), 3 (gens, colors), 4 (spacetime, forces), 8 (gluons, N=8 SUGRA)
+
+**v3.4.6 INCONSISTENCIES FOUND** (8 catches):
+1. N=12 in SYK is standard benchmark, NOT theoretically motivated
+2. α = 1 + 1/√N is NOT a standard SYK formula (phenomenological)
+3. "12 SM fermions/gen" is FALSE (15-16 Weyl, 7-8 Dirac per gen)
+4. "h^{2,1}=N → N generations" REFUTED (arXiv:0910.5464 has h^{2,1}=4 + 3 gen)
+5. Z_12 fundamental group DOES exist in CY3 quotients (verified)
+6. SM has 12 gauge bosons (real match), NOT 12 fermions/gen
+7. SM has 12 fermion FLAVORS across all 3 gens (NOT per gen)
+8. DOF conservation at 24 was framework's interpretation, NOT a law
+
+**v3.4.8 AGE IMPLICATIONS** (t_0/τ_3D = 1.5×10⁻¹⁵):
+- Universe is at cosmic "day 1" (essentially)
+- SIDC is primarily an INITIAL-CONDITIONS framework
+- Long-term evolution is theoretical (untestable in 3D frame)
+- 4D event ends in 10⁻²⁰ s (4D frame) but 10³⁴ yr (3D frame)
+
+---
 
 ---
 
@@ -31,13 +144,15 @@ This is the unification in §3.70. See §2 below for full details, and `calculat
 
 ---
 
-## 1. The model in one paragraph (REVISED v3.1.2-final)
+## 1. The model in one paragraph (REVISED v3.4.8)
 
 SIDC proposes that gravity, dark matter, and dark energy are all
-consequences of a single dimensional-projection mechanism:
+consequences of a single dimensional-projection mechanism operating
+in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 
-- A energetic 4D-bulk event in a 4D BULK created our 3+1D universe
+- An energetic 4D-bulk event in a **F-theory 12D spacetime** created our 3+1D universe
 - The 4D bulk has its own gravity scale: M_Pl,4D = 4×10²³ GeV (DERIVED via α-weighted GM: M_Pl,3D^α × M_Pl,2D^(1-α), v3.3)
+- The 4D event is **universe-scale**: E_4D = 5×10⁷⁹ J (10⁸× observable universe, v3.3 #33)
 - Our universe's Planck: M_Pl,3D = 1.22×10¹⁹ GeV (MEASURED via Newton's G)
 - The 2D universes' Planck: M_Pl,2D = 3 TeV (brane-world, from L41)
 - Three DIFFERENT M_Pl at three different levels (3D ≠ 4D, brane-world consistency)
@@ -45,13 +160,15 @@ consequences of a single dimensional-projection mechanism:
 - This 4D antigravity **cancels** (1 - ε) of 3+1D's own gravity
   - ε = 10⁻³⁸ is the residual = gravity weakness (hierarchy, observed)
   - The un-cancelled fraction = DE = 10⁻¹²³ × M_Pl⁴ (cosmological CC, observed)
-- The 4D event is "practically eternal" from 3+1D frame (γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2), τ_4D = 1.51×10³⁴ yr apparent)
-- 3+1D leaks f_back = (M_Pl,4D/E_4D)^α ~ 10⁻⁸⁵ back to 4D during its lifetime
-- DE = f_back × ε × M_Pl,3D⁴ (closed loop formula, frame-consistent with γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2))
+- The 4D event is "practically eternal" from 3+1D frame (γ_4D = 6.03×10⁹⁰, τ_4D = 1.51×10³⁴ yr apparent)
+- **Universe age = 1.5×10⁻¹⁵ of lifetime** (we observe at cosmic "day 1", v3.4.8)
+- 3+1D leaks f_back = (M_Pl,4D/E_4D)^α ~ 10⁻⁸⁵ back to 4D during its lifetime (UNIVERSAL formula)
+- DE = f_back × ε × M_Pl,3D⁴ (closed loop formula, matches obs within 8.4%)
+- **Bilateral cascade (v3.3)**: DE = time-dilated slice of 4D's pulsed life; DM = 100% pulsed at 2D universe death
 - In our universe, every energetic event (SNe, BH mergers, etc.) creates a 2D universe
 - 2D universe lives for τ_2D = (E/E_Pl,3D)^α × t_Pl (M^α law, 14 events, α = 1.289)
 - 2D universe dies, **100% of energy returns to 3+1D as DM** (death return, not f_back)
-- DM is cumulative 2D universe deaths (Σ M_2D × N)
+- DM is cumulative 2D universe deaths (Σ M_2D × N, calibrated AGN rate matches 27%)
 
 **AGE vs LIFETIME (v3.1.2-final, HONEST):**
 - 13.8 Gyr = universe **AGE** (observed, the only firm value)
@@ -246,7 +363,56 @@ python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 
 ---
 
-## 6. Open work items (v3.1.2-final)
+## 6. Open work items (v3.4.8)
+
+**92 TOTAL LIMITATIONS** (was 81 in v3.3, +L283-L297 for v3.4.x):
+- L1-L28: original v2.7.x-era (28)
+- L29-L81: v2.7.3-v3.1.2-final-era (53)
+- L82-L100: v3.0.2 Lagrangian era (19)
+- L100 v3.3: 33 user-driven corrections
+- L101-L150: v3.1.2-final era (closed-loop, frame of ref, Scenario X)
+- L151-L282: v3.2-v3.3 era (bilateral cascade, age/lifetime, frame, equal-universe)
+- **L283-L297 (v3.4 NEW)**: F-theory 12D + honest "12" reframe + meta-analysis
+
+| Limitation | Status | What needs to happen |
+|------------|--------|----------------------|
+| L26: μ first-principles | OPEN | 2D cosmological constant derivation, needs 2D CFT expert |
+| L43: α = 1.289 first-principles | OPEN | Multiple formulas match (1+1/√N, 1+ln(q²/N)) but NONE are derived from SYK |
+| L138 (v3.3): f_back = 10⁻⁸⁵ calibration | PARTIAL | Formula gives FORM, value calibrated |
+| L139 (v3.3): closed loop universal | RESOLVED | f_back universal at 2D→3D and 3D→4D with different M_Pl,N |
+| L140: ε = 10⁻³⁸ observed | OPEN | Hierarchy problem |
+| L141 (v3.3): f_back universal | RESOLVED → REINFORCED | |
+| L142: 4π within 1.7% of DE | PARTIAL | |
+| L142a: 4π geometric factor | OPEN | |
+| L142b (RESOLVED): α = 1.258 rejected | RESOLVED | 13/14 events fail |
+| L143: sub-universe = 4D-bulk events | RESOLVED | USER-CORRECTED |
+| L144: N_sub is FREE | OPEN | 4D-bulk dynamics unknown |
+| L145: AGE vs LIFETIME | REVISED (HONEST) | |
+| L146: 4π specific to 3D→4D | OPEN | |
+| L147: DE-DM unification via two mechanisms | OPEN | |
+| L148: pulsed vs continuous | OPEN | |
+| L149 (RESOLVED): 4π only at 3D→4D | RESOLVED | Empirical |
+| L150 (v3.3.1.2-final): SCENARIO X adopted | RESOLVED | Choice made |
+| L152: α-weighted GM hypothesis | OPEN | Derivation unknown |
+| **L261-L274 (v3.4)**: F-theory 12D basics | PARTIAL | F-theory 12D adopted, structural |
+| **L275-L278 (v3.4.3)**: h^{2,1}=3 vs CY3 reality | REJECTED | h^{2,1}=3 NOT standard |
+| **L279-L282 (v3.4.4)**: h^{2,1}=4 refutes hypothesis | REFUTED | User caught |
+| **L283-L292 (v3.4.5/6)**: 8 inconsistencies | OPEN/CORRECTED | "12 propagates" is correlation not derivation |
+| **L293-L297 (v3.4.7)**: meta-analysis | REFRAMED | "12" is arithmetic (highly composite) |
+
+**AGE = 1.5×10⁻¹⁵ OF LIFETIME (v3.4.8)**:
+- t_0 = 13.8 Gyr (observed)
+- τ_3D = 9.10×10²⁴ yr (M^α with M_Pl,4D = 4×10²³ GeV)
+- t_0/τ_3D = 1.5×10⁻¹⁵
+- SIDC is primarily an INITIAL-CONDITIONS framework
+- Long-term evolution is theoretical (untestable in 3D frame)
+- 4D event ends in 10⁻²⁰ s (4D frame) but 10³⁴ yr (3D frame)
+
+**v3.4 NEW OPEN QUESTIONS**:
+- Why "12"? (L292, L297) - correlation not derivation
+- Why specific structures give 12? (L297) - real question
+- 12 fermions/gen was wrong (L285, L289) - RE-FRAMED
+- DOF conservation at 24 was framework's interpretation (L290) - DROPPED
 
 | Limitation | Status | What needs to happen |
 |------------|--------|----------------------|
@@ -295,7 +461,34 @@ give α = 1.289 directly.
 
 ---
 
-## 7. The 5D/6D/9D extension (SCENARIO X SUPPORTS v3.1.2-final)
+## 7. The 5D/6D/9D extension (DROPPED in v3.3)
+
+**v3.3 STATUS**: 5D-9D extension DROPPED (#23):
+- Originally: M_Pl,N = M_Pl,4D / α^(N-4) gave M_Pl,9D = v_Higgs (1.3%)
+- v3.3 dropped this in favor of α-weighted GM derivation
+- v3.3 M_Pl,4D = 4×10²³ GeV gives M_Pl,9D = 10¹³× off v_Higgs (different value)
+- So the 9D = string theory match (1.3%) was coincidence, NOT a derivation
+- L121, L122: SPECULATIVE, now DROPPED in v3.3
+
+**v3.3.1.2-final previous status (HISTORICAL)**:
+Under Scenario X (M_Pl,4D = 4×10²³ GeV):
+- M_Pl,5 = 688 GeV
+- M_Pl,6 = 534 GeV
+- M_Pl,7 = 414 GeV
+- M_Pl,8 = 321 GeV
+- M_Pl,9 = 249 GeV ≈ v_Higgs = 246 GeV (1.3% match)
+- M_Pl,10 = 193 GeV
+
+**v3.3 ALPHA-WEIGHTED GM DERIVATION**:
+M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = (1.22×10¹⁹)^1.289 × (3×10³)^(-0.289)
+log M_Pl,4D = 1.289 × 19.09 - 0.289 × 3.48 = 24.61 - 1.006 = 23.60
+M_Pl,4D = 10^23.60 ≈ 4×10²³ GeV (uses BOTH Plancks, structural via framework's α)
+
+**Honest verdict (v3.4.8)**:
+- 9D = v_Higgs was a coincidence (1.3% on single number)
+- 5D-9D extension is FRAGILE (relies on α-power-law extrapolation)
+- F-theory 12D is the structural home for "12"
+- "12" pattern is correlation, not derivation (v3.4.6)
 
 The cascade extension to 5D-9D is based on a power-law extrapolation:
 $$M_{\rm Pl,N} = M_{\rm Pl,4D} / \alpha^{(N-4)}$$
@@ -826,7 +1019,152 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 
 ---
 
-## 14. v3.1.2-final at a glance
+## 14. v3.4.8 at a glance
+
+**Key claims that are STILL VALID (v3.4.8)**:
+- M^α scaling law across 14 event types (α = 1.289)
+- 4D antigravity cancellation mechanism (geometric picture)
+- Bilateral cascade (DE continuous / DM pulsed, time-dilation insight)
+- Lagrangian skeleton as structural proposal for 2D universe physics
+- L41, L42 (μ, m_{3+1D} identification)
+- N=12 SM connection (calibrated, not derived)
+- 2D universe → DM death return (cumulative 2D deaths)
+- F-theory 12D as 4D bulk theory (v3.4)
+- Universe age = 1.5×10⁻¹⁵ of lifetime (v3.4.8)
+- TRGB H_0 = 70.16 closest match (0.2σ)
+
+**Key claims that are REVISED in v3.4.x**:
+- **M_Pl,4D = 4×10²³ GeV** (v3.3, α-weighted GM, was 887 GeV in v3.1.2 Scenario X)
+- **E_4D = 5×10⁷⁹ J** (v3.3 universe-scale, was 10⁵⁹ J in v3.1.2)
+- **γ_4D = 6.03×10⁹⁰** (v3.3, was 10⁶² in v3.1.2)
+- **τ_3D,apparent = 9.10×10²⁴ yr** (v3.3, was 1.83×10⁹⁸ in v3.3 base)
+- **9D = v_Higgs match DROPPED** (v3.3, was 1.3% in v3.1.2)
+- **α^5 relation DROPPED** (v3.3, was empirical coincidence)
+- **"12 propagates" honest reframe** (v3.4.6, was overclaimed in v3.4)
+- **DOF conservation at 24 DROPPED** (v3.4.6, was framework's interpretation)
+- **Scenario X M_Pl,4D = 887 GeV DROPPED** (v3.3)
+
+**Key claims that are REJECTED**:
+- α = 1.258: 13/14 events fail
+- v10's closed loop formula (wrong τ_4D)
+- f_back as 2D-to-3D back-projection (lifetimes too short)
+- "α-symmetry bridges forward and backward" (artifact of v10)
+- Multi-universe = 3+1D galaxy count (interpretation A: 3×10¹²)
+- Scenario A (M_Pl,4 = 8.3×10¹² GeV)
+- Scenario B (M_Pl,4 = M_Pl,3D)
+- "12 fermions per generation" (was wrong, it's 15-16 Weyl)
+- "h^{2,1}=N → N generations" (REFUTED by arXiv:0910.5464)
+- "12 propagates as a structural constant" (overstated, honest reframe in v3.4.6)
+
+**Free parameters (v3.4.8, 9 total)**:
+- α = 1.289 (calibrated to 14 M^α events)
+- ε = 10⁻³⁸ (calibrated to hierarchy)
+- M_Pl,3D = 1.22×10¹⁹ GeV (MEASURED)
+- M_Pl,4D = 4×10²³ GeV (DERIVED via α-weighted GM)
+- M_Pl,2D = 3 TeV (from Liouville μ)
+- τ_4D = 1.51×10³⁴ yr (calibrated to DE)
+- N_sub = 4×10² (free)
+- AGN rate = 3×10⁻¹⁶ /m³/s (calibrated to 27% DM)
+- α-weighted GM coefficients (1 from M_Pl,3D, 1-1 from M_Pl,2D)
+
+**Honest framing (v3.4.8)**:
+- SIDC is a geometric framework with empirical constraints
+- It provides a CONSISTENT PICTURE, not derivations
+- F-theory 12D is the 4D bulk theory (structural hypothesis)
+- "12 propagates" is CORRELATION, not derivation
+- ε, f_back, and DE values are OBSERVED/CALIBRATED, not derived
+- M_Pl,4D is DERIVED via α-weighted GM (not free, not measured)
+- Universe age = 1.5×10⁻¹⁵ of lifetime (essentially "day 1")
+- SIDC is primarily an INITIAL-CONDITIONS framework
+- Long-term evolution is theoretical (untestable in 3D frame)
+
+---
+
+## 15. v3.4 SESSION NOTES (June 19, 2026)
+
+**This session's contributions (v3.4.x, MULTIPLE ITERATIONS)**:
+
+### v3.4 F-THEORY 12D ADOPTION
+- User: "let's try to adopt F-theory as 4D bulk"
+- F-theory 12D = 10 base + 2 T² fiber (Vafa 1996)
+- "12" structural to F-theory
+- Adopts compactification on CY3 → 4D N=1 SUSY
+- Provides GUT models: SU(5), SO(10), E_6
+
+### v3.4.5 WEB RESEARCH (8 INCONSISTENCIES)
+- Searched SYK N=12, F-theory, Calabi-Yau literature
+- Found N=12 q=4 IS standard SYK benchmark (Wenbo Fu thesis, OSTI, Caltech, Sachdev)
+- Found arXiv:0910.5464: Z_12 CY3 quotient, (h^{1,1}, h^{2,1})=(1,4), 3 generations
+- Found h^{2,1}=N → N generations REFUTED (user caught this)
+
+### v3.4.6 HONEST REFRAME
+- "12 propagates as structural constant" was overclaimed
+- "12" at each level is DIFFERENT physics (correlation, not derivation)
+- "12 SM fermions/gen" was WRONG (it's 15-16 Weyl)
+- SM has 12 GAUGE BOSONS (real match, structural)
+- SM has 12 fermion FLAVORS across 3 gens (real but not per gen)
+- DOF conservation at 24 was framework's interpretation, DROPPED
+
+### v3.4.7 META-ANALYSIS
+- Why is "12" common? ARITHMETIC: 12 = 2² × 3 (highly composite, 6 divisors)
+- Same reason as 12 hours, 12 months, 12 semitones, 12 pennies
+- 13+ independent physics occurrences (none derived from cascade)
+- Other common numbers: 2, 3, 4, 8, 12, 24, 60, 137, 248
+- "Why 12?" should be reframed as "Why specific structures give 12?"
+
+### v3.4.8 TIER 1+3 (HOUSEKEEPING + AGE IMPLICATIONS)
+- Built PDF (358 pages, was 382, fixed 4 LaTeX errors in README)
+- Updated README and layman summary with v3.4.6 honest reframe
+- Added L293-L297 (5 new limitations for v3.4.7 meta-analysis)
+- Analyzed universe age = 1.5×10⁻¹⁵ of lifetime implications
+- SIDC is primarily an INITIAL-CONDITIONS framework
+- 4D event ends in 10⁻²⁰ s (4D frame) but 10³⁴ yr (3D frame)
+
+### v3.4 COMMITS THIS SESSION
+- 225a91a: v3.4 ADOPT F-theory 12D as 4D bulk
+- 1273a5c: v3.4.1 Try N=1 (failed, off by 23 orders)
+- 6999cb4: v3.4.2 CY3 candidates (closest h^{2,1}=4)
+- 75f4ec4: v3.4.3 Consequences of options A and B
+- 2e18fd2: v3.4.4 user catch: h^{2,1}=4 means 4 gen? NO
+- c442fe6: v3.4.5 WEB RESEARCH 8 inconsistencies
+- e928984: v3.4.6 honest reframe: 12 propagates as correlation
+- 61f8952: v3.4.7 META: Why is 12 so common? It's arithmetic.
+- 4bc01c3: v3.4.8 TIER 1+3: PDF rebuild (358p) + age implications
+
+**Total limitations**: 92 (was 81 in v3.3)
+
+---
+
+## 16. Things to NOT re-do (v3.4.8 UPDATE)
+
+**OLD DON'TS (still valid):**
+- Don't claim f_back = 10⁻⁸⁵ is derived physical fraction (L138)
+- Don't claim v10's closed loop formula is correct
+- Don't claim ε is derived (L140)
+- Don't claim f_back is the SAME VALUE at every level (universal in FORM, different VALUES)
+- Don't conflate 13.8 Gyr AGE with ~10³⁰ yr LIFETIME
+- Don't claim N_sub = 300 as derived (it's a FREE parameter, L144)
+- Don't assume M_Pl,4D = M_Pl,3D (3D ≠ 4D, brane-world)
+- Don't identify sub-universe with 3+1D galaxies
+- Don't present α = 1.258 as alternative (REJECTED)
+- Don't claim 4π is universal (specific to 3D→4D, L146)
+- Don't claim α = 1.29 from single calculation (structural)
+- Don't break c=1 Liouville convention
+- Don't reorder the 14 event types
+
+**NEW DON'TS (v3.4.x):**
+- **Don't claim "12 propagates as a structural constant"** (L294: it's correlation)
+- **Don't claim "12 fermions per generation"** (L285: it's 15-16 Weyl, framework error)
+- **Don't claim "h^{2,1}=N → N generations"** (L286: REFUTED)
+- **Don't claim "DOF conservation at 24"** (L290: framework's interpretation, not law)
+- **Don't claim "12 = SM fermions"** without specifying gauge bosons or flavors
+- **Don't claim α = 1 + 1/√N from SYK** (L284: NOT a standard SYK formula)
+- **Don't claim "Why 12?" is answered** (L292, L297: still open)
+- **Don't break F-theory 12D convention** (10 base + 2 T² fiber)
+- **Don't present universe lifetime as fixed** (N_sub is free, lifetime UNKNOWN)
+- **Don't present long-term evolution as predictions** (untestable, v3.4.8)
+
+---
 
 **Key claims that are STILL VALID:**
 - M^α scaling law across 14 event types (α = 1.289)
