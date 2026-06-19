@@ -78,12 +78,12 @@ def handle_single_math(line):
         approx_match = re.search(r'≈\s*$', prefix)
         
         if tilde_match:
-            stripped = prefix[:tilde_match.start()].rstrip()
+            stripped = prefix[:tilde_match.start()]
             content = line[r_start + 1:r_end - 1]
             result.append(stripped)
             result.append('$\\sim ' + content + '$')
         elif approx_match:
-            stripped = prefix[:approx_match.start()].rstrip()
+            stripped = prefix[:approx_match.start()]
             content = line[r_start + 1:r_end - 1]
             result.append(stripped)
             result.append('$\\approx ' + content + '$')
@@ -97,6 +97,8 @@ def handle_single_math(line):
         result.append(line[pos:])
     
     return ''.join(result)
+
+
 
 
 def combine_adjacent(line):
@@ -133,8 +135,8 @@ def combine_adjacent(line):
 
                 # Decide what to do based on prefix and between
                 if tilde_match and (adjacent or between_tilde or between_approx):
-                    # Strip ~ from prefix
-                    stripped = prefix[:tilde_match.start()].rstrip()
+                    # Strip ~ from prefix; keep trailing space
+                    stripped = prefix[:tilde_match.start()]
                     result.append(stripped)
                     if between_approx:
                         combined = r1_content + ' \\approx ' + r2_content
@@ -143,8 +145,8 @@ def combine_adjacent(line):
                     else:  # adjacent
                         combined = '\\sim ' + r1_content + ' ' + r2_content
                 elif approx_match and (adjacent or between_tilde or between_approx):
-                    # Strip ≈ from prefix
-                    stripped = prefix[:approx_match.start()].rstrip()
+                    # Strip ≈ from prefix; keep trailing space
+                    stripped = prefix[:approx_match.start()]
                     result.append(stripped)
                     if between_approx:
                         combined = r1_content + ' \\approx ' + r2_content
