@@ -416,27 +416,33 @@ Other models need to *postulate* DE and DM as two unrelated things. SIDC says th
 
 > ⚠️ **Honest framing v3.1.1**: The values ε = 10⁻³⁸ (gravity weakness) and ρ_DE/ρ_Pl = 10⁻¹²³ are **observed**, not derived. The "closed loop" formula gives $f_{\rm back} \sim 4.6 \times 10^{-68}$, which differs from the DE calibration $f_{\rm back} \sim 1.1 \times 10^{-85}$ by 10¹⁸. SIDC provides the geometric picture but not the numerical derivation.
 
-# 🎯 47 TUC TEST: SIDC's SMOKING GUN against particle DM
+# 🎯 47 TUC TEST: SIDC vs ΛCDM Decisive Test
 
 SIDC's most decisive near-term test: **47 Tucanae (NGC 104)** in the context of **Rubin/LSST DP1** (released June 30, 2025).
 
-**⚠️ STATUS: PREDICTION, NOT YET A RESULT (June 2026).**
+**⚠️ STATUS: FALSIFIABLE PREDICTION, NOT YET A RESULT (June 2026).**
 The 47 Tuc test is a *falsifiable prediction* awaiting data. SIDC has not yet been *tested* with new DP1 measurements — only existing 47 Tuc data (HST, JWST, Gaia, ground-based) is *consistent* with SIDC within uncertainties. The 47 Tuc DP1 papers (Choi+ 2025, Wainer+ 2025) validate the *photometric pipeline*, not the *DM physics*. SIDC's *specific* 47 Tuc prediction awaits DR1 (2027) or Y10 (2034).
 
-**SIDC says:** 47 Tuc has *no current star formation* (no SN, no massive stars, ~ $10^{6}$ old low-mass stars) → *no local dark matter enhancement* → $M_{dyn} \approx M_{stars}$.
+**Honest framing of what this tests:**
+- SIDC's DM is NOT a particle (per v3.3.14, DM = decayed 2D universe energy)
+- ΛCDM's DM IS a particle (primordial WIMPs/axions in subhalos)
+- The 47 Tuc test is "activity-driven DM" vs "everywhere-DM" — two fundamentally different mechanisms
+- Not "SIDC vs particle DM" but "SIDC vs ΛCDM"
 
-**Particle DM (ΛCDM) says:** 47 Tuc sits in a real cosmological DM subhalo → $M_{dyn} > M_{stars}$.
+**SIDC says:** 47 Tuc has *no current star formation* (no SN, no massive stars, ~ $10^{6}$ old low-mass stars) → no local 2D universe pulsed returns → *no local dark matter enhancement* → $M_{dyn} \approx M_{stars}$.
+
+**ΛCDM says:** 47 Tuc sits in a real cosmological DM subhalo → $M_{dyn} > M_{stars}$.
 
 **Testable with:**
 - **DP1 (2025):** 47 Tuc's CMD validates Rubin's crowded-field pipeline *(no DM test yet)*
 - **DR1 (Y1, 2027):** proper motion + 5 tidal tails fit Galactic potential ← *first real test*
 - **Y10 (~2034):** no "dark star" component, all stars are normal ← *decisive test*
 
-**Falsification:** if $M_{dyn} > 2 \times M_{stars}$ at 3σ, SIDC is wrong. If $M_{dyn} \approx M_{stars}$ (within IMF uncertainties), SIDC is right AND particle DM is in trouble.
+**Falsification:** if $M_{dyn} > 2 \times M_{stars}$ at 3σ, SIDC's activity-driven DM mechanism is wrong. If $M_{dyn} \approx M_{stars}$ (within IMF uncertainties), SIDC's mechanism is right AND ΛCDM's everywhere-DM is in trouble.
 
 This is SIDC's *low-cost, high-leverage* falsification test. **Not all dark matter models survive it.** See §11 of the paper and `calculations/v27_47_tuc_cascade.py` for the full calculation.
 
-(The Bullet Cluster is a *necessary* test for any DM model — but it's explained by all particle DM models too. The 47 Tuc test is what differentiates SIDC from particle DM.)
+(The Bullet Cluster is a *necessary* test for any DM model — but it's explained by all particle DM models too. The 47 Tuc test is what differentiates SIDC's activity-driven DM from ΛCDM's everywhere-DM.)
 
 ---
 
@@ -945,7 +951,7 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - **Theoretical foundation:** c=1 string theory matrix model = exact solution of 2D quantum gravity; SIDC's 2D CFT framework = unique exactly solvable 2D QG
 - **2 remaining free parameters:** μ (2D cosmological constant) + $m_{3+1D}$ (effective DM mass) — require 2D CFT expert
 - **0 strongly confirmed, 0 falsified, 16 pass, 1 confounded** (out of 17 test categories)
-- **Smoking guns: 3 reproducible**, including the (1+z)³ expansion factor match
+- **Smoking guns (claimed):** 3 reproducible, including the (1+z)³ expansion factor match — but see line 890 honest caveat that SIDC has no UNIQUE smoking guns; the 3 are reproducible but also explained by other models. The 47 Tuc test (§11) is the only TRULY differentiating prediction between SIDC and ΛCDM.
 
 # v2.7.3+ §11 — 47 TUC TEST FOR RUBIN/LSST
 
