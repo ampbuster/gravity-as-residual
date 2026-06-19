@@ -183,7 +183,13 @@ def combine_adjacent(line):
 
 
 def process_line(line):
-    """Process a line, skipping inline code spans."""
+    """Process a line, skipping inline code spans.
+    Safety: skip lines with odd $ count (unbalanced math per-line)."""
+    # Per-line safety check
+    test = re.sub(r'\\$', '', line)
+    test = re.sub(r'`[^`\n]*`', '', test)
+    if test.count('$') % 2 == 1:
+        return line  # Skip lines with odd $ count
     parts = re.split(r'(`[^`\n]*`)', line)
     result = []
     for part in parts:
