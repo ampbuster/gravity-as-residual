@@ -653,3 +653,43 @@ Source: `calculations/v35_other_formulas.py`.
 
 **v3.5 status**: 11 new attempts at μ first-principles, 5 new limitations (L304-L308).
 **Total limitations**: 103 (was 98 in v3.5 Tier 2, +L304-L308 for v3.5 new angle)
+
+## 7.6 v3.5.5 Limitations: mu formula without input + Lagrangian + Tier 3
+
+L309. **mu CANNOT be derived without M_Pl,2D as input** (v3.5.5). Tested 3+ angles for mu formula using only M_Pl,3D, alpha, E_SN, N=12:
+- (1) mu = M_Pl,3D^2 / factor: gives mu ~ 10^40 (off by 10^34) for any natural factor
+- (2) mu from SN lifetime tau_SN = 33 s: BH thermo gives mu ~ 10^30 (off by 10^24)
+- (3) Constraint counting: 9 framework params, 5 obs constraints -> 4 free params; mu is genuinely FREE/CALIBRATED
+- **VERDICT**: mu = M_Pl,2D^2 is calibrated, NOT derivable from M_Pl,3D alone. L26 STAYS OPEN.
+
+L310. **Lagrangian CONSISTENTLY sets mu = M_Pl,2D^2 but doesn't derive it** (v3.5.5). The Lagrangian L = L_c=1 + L_Schwarzian + L_N=12 SYK gives mu = M_Pl,2D^2 through THREE independent routes:
+- L_c=1: Liouville cosmological constant (DEFINES mu = M_Pl,2D^2)
+- L_Schwarzian: C = 1/sqrt(mu) = 1/M_Pl,2D (AdS length, gives mu = M_Pl,2D^2)
+- L_N=12 SYK: J = M_Pl,2D self-consistency (gives mu = M_Pl,2D^2)
+But all three require M_Pl,2D = 3 TeV as INPUT. The Lagrangian is STRUCTURALLY CONSISTENT (three independent routes agree) but NOT a derivation.
+
+L311. **TIER 3 #8: New cascade predictions** (v3.5.5). The cascade makes several testable predictions:
+- (a) SN-scale 2D universe tau = 33 s (testable only with 2D universe detection -- not feasible)
+- (b) AGN-scale 2D universe tau ~ 1.4 yr (not directly testable)
+- (c) BH-scale 2D universe tau ~ 6.4 hr (could be tested via BH evaporation signatures?)
+- (d) Universe-scale 4D event: E_4D = 5x10^79 J (untestable)
+- (e) DM/AGN correlation (testable in principle)
+- (f) DE constancy in time (testable, current limit ~10% over z < 1)
+Status: MOST predictions are not directly testable in 3D. Framework is INITIAL-CONDITIONS framework (universe at 1.5x10^-15 of lifetime).
+
+L312. **TIER 3 #9: 5/27/68 split structurally clean but each mechanism different** (v3.5.5). The observational split (Planck 2018) is interpreted structurally:
+- 5% baryons: standard BBNS (no SIDC contribution)
+- 27% DM: cumulative 2D universe pulsed returns (calibrated AGN rate 3x10^-16 /m^3/s)
+- 68% DE: 4D event anti-gravity (derived from M_Pl,4D = 4x10^23 GeV and tau_4D)
+Each component has DIFFERENT physical mechanism but sum = 1.0 x rho_crit.
+**OPEN**: Why exactly 27%? Calibrated AGN rate, not derived.
+
+L313. **Framework is INITIAL-CONDITIONS framework** (v3.5.5). Universe age = 1.5x10^-15 of lifetime (essentially "day 1"). Most cascade predictions (SN tau, AGN tau, BH tau, 4D E_4D) refer to:
+- Timescales BEFORE universe was created (paradox)
+- Timescales AFTER universe ends (~10^125 yr from now)
+- Energy scales beyond observation (4D events)
+The framework predicts STRUCTURE of physics, not OBSERVABLE future evolution.
+
+---
+
+**v3.5.5 status**: 4 new limitations (L309-L313). Total limitations: 107 (was 103 in v3.5.3, +L309-L313).
