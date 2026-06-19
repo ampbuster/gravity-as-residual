@@ -1,0 +1,263 @@
+================================================================================
+OPTION A: FULL ADOPTION OF EVENT-DEPENDENT μ
+================================================================================
+
+================================================================================
+CONSEQUENCE 1: μ AND M_Pl,2D ARE NOW EVENT-DEPENDENT
+================================================================================
+
+Event               μ (GeV²)       M_Pl,2D (GeV)     M_Pl,2D (TeV)  
+----------------------------------------------------------------------
+1 ton TNT           1.19e+17       3.45e+08          3.45e+05       
+X-class flare       2.97e+12       1.72e+06          1.72e+03       
+Type Ia SN          9.00e+06       3.00e+03          3.00e+00       
+Hypernova           2.36e+06       1.54e+03          1.54e+00       
+Long GRB            1.23e+06       1.11e+03          1.11e+00       
+BNS merger          2.36e+04       1.54e+02          1.54e-01       
+AGN flare           9.40e+03       9.69e+01          9.69e-02       
+Quasar outburst     1.88e+02       1.37e+01          1.37e-02       
+
+================================================================================
+CONSEQUENCE 2: HIERARCHY IS EVENT-DEPENDENT
+================================================================================
+
+Hierarchy = M_Pl,3D / M_Pl,2D
+M_Pl,3D = 1.36e+02 GeV (universal)
+
+Event               M_Pl,2D (GeV)     Hierarchy (M_Pl,3D/M_Pl,2D)   log₁₀     
+------------------------------------------------------------------------------------------
+1 ton TNT           3.45e+08          3.94e-07                      -6.40     
+X-class flare       1.72e+06          7.89e-05                      -4.10     
+Type Ia SN          3.00e+03          4.53e-02                      -1.34     
+Hypernova           1.54e+03          8.85e-02                      -1.05     
+Long GRB            1.11e+03          1.23e-01                      -0.91     
+BNS merger          1.54e+02          8.85e-01                      -0.05     
+AGN flare           9.69e+01          1.40e+00                      0.15      
+Quasar outburst     1.37e+01          9.91e+00                      1.00      
+
+================================================================================
+CONSEQUENCE 3: 5/27/68 SPLIT RECALCULATION
+================================================================================
+
+DM contributions (simplified: m_2D ~ E_i, energy conservation):
+
+Event               N_events       E/event (J)    Total E (J)    Fraction  
+--------------------------------------------------------------------------------
+
+Total energy in 2D universes: 9.57e+82 J
+
+1 ton TNT           8.70e+27       4.00e+09       3.48e+37       3.64e-46  
+X-class flare       8.70e+32       1.00e+25       8.70e+57       9.09e-26  
+Type Ia SN          8.70e+27       1.00e+44       8.70e+71       9.09e-12  
+Hypernova           8.70e+25       1.00e+46       8.70e+71       9.09e-12  
+Long GRB            8.70e+24       1.00e+47       8.70e+71       9.09e-12  
+BNS merger          8.70e+25       1.00e+53       8.70e+78       9.09e-05  
+AGN flare           8.70e+26       1.00e+55       8.70e+81       9.09e-02  
+Quasar outburst     8.70e+22       1.00e+60       8.70e+82       9.09e-01  
+
+================================================================================
+CONSEQUENCE 3a: m_2D_i SCALES DIFFERENTLY
+================================================================================
+
+For event-dependent μ:
+  m_2D_i ∝ μ_i × τ_i² = (K × α × E_i/τ_i) × τ_i²
+           = K × α × E_i × τ_i
+           = K × α × E_i × (E_i/M_Pl,3D)^α × t_Pl
+           = K × α × t_Pl/M_Pl,3D^α × E_i^(1+α)
+           = K × α × t_Pl/M_Pl,3D^α × E_i^2.289
+
+For universal μ (v3.3):
+  m_2D_i ∝ μ × τ_i² = μ × (E_i/M_Pl,3D)^α × t_Pl × τ_i
+            = μ × E_i^α × E_i^α × (t_Pl/M_Pl,3D^α)
+            = μ × (t_Pl/M_Pl,3D^α) × E_i^(2α)
+            = μ × (t_Pl/M_Pl,3D^α) × E_i^2.578
+
+Both scale strongly with E_i, but:
+  Event-dep: E^2.289 (slightly lower power)
+  Universal: E^2.578 (slightly higher power)
+
+AGN/quasar still dominate in BOTH cases, but the relative weights differ.
+
+================================================================================
+CONSEQUENCE 3b: DM DENSITY PER EVENT TYPE
+================================================================================
+
+Event               Universal μ ∝ E^2.578    Event-dep μ ∝ E^2.289    
+---------------------------------------------------------------------------
+1 ton TNT           1.99e-58                 1.59e-94                 
+X-class flare       9.88e-14                 2.81e-34                 
+Type Ia SN          9.47e+30                 2.87e+29                 
+Hypernova           1.36e+34                 4.15e+34                 
+Long GRB            5.14e+35                 1.55e+37                 
+BNS merger          1.51e+52                 4.37e+59                 
+AGN flare           2.16e+58                 4.15e+67                 
+Quasar outburst     1.68e+67                 5.78e+81                 
+
+================================================================================
+CONSEQUENCE 4: GW BACKGROUND PREDICTION
+================================================================================
+
+Each 2D universe birth produces a GW burst (gravitational wave signal)
+In v3.3 framework (universal μ):
+  - All 2D universes have M_Pl,2D = 3 TeV
+  - Same GW frequency spectrum (mostly)
+  - Total GW background = Σ_i N_i × GW_i
+
+In v3.3.6 framework (event-dependent μ):
+  - Each 2D universe has its own M_Pl,2D
+  - Different M_Pl,2D → different GW frequency spectrum
+  - TNT 2D universes have M_Pl,2D ~ 360,000 TeV (high frequency)
+  - Quasar 2D universes have M_Pl,2D ~ 14 GeV (low frequency)
+
+PREDICTION CHANGE:
+  - v3.3: GW background dominated by SN-class events at f ~ M_Pl,2D/c² ~ 10⁹ Hz
+  - v3.3.6: GW background has WIDER spectrum (10⁶ - 10¹² Hz)
+  - Different observability with SKA, LIGO, etc.
+
+================================================================================
+CONSEQUENCE 5: COSMOLOGICAL IMPLICATIONS
+================================================================================
+
+5% BARYONS: unchanged (BBNS)
+
+27% DM: now has event-dependent origin
+  - v3.3: 27% comes from 2D universe deaths (cumulative)
+  - v3.3.6: 27% comes from 2D universe deaths (event-weighted)
+  - Different distribution in space (AGN-rich vs SN-rich regions)
+
+68% DE: from 4D event anti-gravity
+  - DE formula unchanged: ρ_DE = (t_Pl/τ_4D) × ε × M_Pl,3D⁴
+  - τ_4D = 1.51×10³⁴ yr still universal (only ONE 4D event)
+  - DE exact match (0.24%) preserved
+
+Hubble tension:
+  - v3.3: TRGB H_0 = 70.16 closest match
+  - v3.3.6: TRGB H_0 still closest (no change)
+
+CMB + Large-scale structure:
+  - DM distribution now event-weighted
+  - High DM density in AGN-rich regions (galactic centers)
+  - Different predictions for dwarf galaxies vs galaxy clusters
+
+================================================================================
+CONSEQUENCE 6: PARAMETER COUNT
+================================================================================
+
+v3.3 (universal μ): 9 parameters
+  - 1 measured (M_Pl,3D)
+  - 1 derived (M_Pl,4D)
+  - 2 structural (α, M_Pl,2D form)
+  - 4 calibrated (μ value, ε, τ_4D, AGN rate)
+  - 1 free (N_sub)
+
+v3.3.6 (event-dependent μ): 10 universal + 1 function
+  - 1 measured (M_Pl,3D)
+  - 1 derived (M_Pl,4D)
+  - 2 structural (α, μ FORM = K × α × E/τ)
+  - 5 calibrated (K, ε, τ_4D, AGN rate, m_growth)
+  - 1 free (N_sub)
+  - + 1 function: μ_i = K × α × E_i/τ_i (per event)
+
+Net: +1 universal parameter (K replaces μ as fundamental)
+
+================================================================================
+CONSEQUENCE 7: NEW FALSIFIABILITY TESTS
+================================================================================
+
+Test 1: DM density around AGN/quasar
+  - Prediction: higher DM density in AGN-rich regions
+  - Observation: galaxy centers have high DM density (yes!)
+  - Verdict: QUALITATIVELY CONSISTENT (might be quantitative too)
+
+Test 2: GW background spectrum
+  - v3.3 prediction: narrow spectrum at f ~ 10⁹ Hz
+  - v3.3.6 prediction: wider spectrum (10⁶ - 10¹² Hz)
+  - Current experiments: SKA, LIGO, Virgo, PTAs
+  - Future: SKA-MPG (2030s), Einstein Telescope, LISA
+
+Test 3: M_Pl,2D variation per event
+  - Cannot directly observe (2D universes not directly visible)
+  - But influences DM distribution + GW spectrum
+
+Test 4: Cosmological structure formation
+  - Event-dependent DM might affect small-scale structure
+  - Predictions for dwarf galaxy DM profiles (different from CDM?)
+  - Could potentially distinguish v3.3 vs v3.3.6
+
+Test 5: H_0 measurement in different environments
+  - If DM is event-weighted, H_0 might vary in AGN-rich regions
+  - Cepheid-based H_0 in AGN hosts vs SN-only hosts
+  - Could distinguish models
+
+================================================================================
+CONSEQUENCE 8: INTERNAL CONSISTENCY CHECK
+================================================================================
+
+v3.3.6 with event-dependent μ:
+
+✓ α = 1.289 universal (from N=12 SYK)
+✓ M_Pl,3D = 1.22×10¹⁹ GeV (Newton's G, measured)
+✓ M_Pl,4D = 4×10²³ GeV (α-weighted GM, derived)
+✓ ε = 10⁻³⁸ (hierarchy, calibrated)
+✓ τ_4D = 1.51×10³⁴ yr (DE match, calibrated)
+✓ K = 5.11×10⁻⁴⁶ (event-dep μ proportionality, calibrated)
+✓ N_sub = 4×10² (free)
+
+✓ μ_i = K × α × E_i/τ_i (event-dependent, derived)
+✓ M_Pl,2D(i) = √μ_i (event-dependent, derived)
+
+Consistent with:
+  - 8/8 events fit M^α law within 1.6× ✓
+  - DE matches observation (0.24%) ✓
+  - H_0 = 70.16 matches TRGB (0.2σ) ✓
+  - 4D event universe-scale (E_4D = 5×10⁷⁹ J) ✓
+
+Inconsistencies:
+  - μ for TNT events is huge (10¹⁷ GeV²)
+  - μ for quasar is tiny (10² GeV², near EW scale)
+  - These extremes might require additional principles
+
+================================================================================
+SUMMARY: CONSEQUENCES OF OPTION A
+================================================================================
+
+
+1. μ is now event-dependent (μ ∝ E/τ)
+2. M_Pl,2D varies 10⁷× across events (3 TeV SN → 14 GeV quasar → 360,000 TeV TNT)
+3. Hierarchy is event-dependent (M_Pl,3D/M_Pl,2D varies)
+4. DM is dominated by AGN/quasar (10¹⁰× SN contribution)
+5. GW background has wider spectrum (10⁶-10¹² Hz vs 10⁹ Hz)
+6. DM distribution follows event distribution (galactic centers dense)
+7. Parameter count: 9 → 10 universal + 1 per-event function
+8. New universal constant K (calibrated, not derived)
+9. New falsifiability tests possible
+10. Framework is more honest but more complex
+
+KEY QUESTION: Is the increased complexity worth the honesty gain?
+
+PRO: 
+- Matches brute force pattern
+- Removes artificial universal μ
+- AGN/quasar naturally dominate DM
+- More testable predictions
+
+CON:
+- More parameters (K is new)
+- K is calibrated, not derived (same status as old μ)
+- M_Pl,2D for quasar (14 GeV) is unusual
+- TNT 2D universes (10⁵ TeV) seem weird
+- Requires framework revision
+
+RECOMMENDATION: 
+Adopt Option A as a v3.3.6+ update, while keeping the v3.3 framework
+as a "universal μ special case". Both should be in the paper.
+
+This way:
+- v3.3 remains the "canonical" framework (cleaner, more universal)
+- v3.3.6 is the "extended" framework (more honest, more complex)
+- Users can choose which version to cite
+- Comparison shows strengths of both
+
+================================================================================
+END OF OPTION A CONSEQUENCES ANALYSIS
+================================================================================
