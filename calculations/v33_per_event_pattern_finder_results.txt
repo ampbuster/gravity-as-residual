@@ -1,0 +1,110 @@
+================================================================================
+PER-EVENT MU VIA ENTROPY MATCHING
+================================================================================
+
+Framework target mu = 9.00e+06 GeV^2 (SN calibrated)
+alpha = 1.289
+
+K_brute = 9.9953e-01 GeV^2 units
+
+Per-event mu (entropy-matching formula):
+
+Event               E (J)       tau (s)     mu (GeV^2)     log10(mu/mu_SN)   
+--------------------------------------------------------------------------------
+1 ton TNT           4e+09       1e-43       1.28e+17       +10.12            
+X-class flare       1e+25       1e-23       3.19e+12       +5.52             
+Type Ia SN          1e+44       3e+01       9.67e+06       +0.00             
+Hypernova           1e+46       1e+04       2.53e+06       -0.58             
+Long GRB            1e+47       2e+05       1.32e+06       -0.87             
+BNS merger          1e+53       1e+13       2.53e+04       -2.58             
+AGN flare           1e+55       3e+15       1.01e+04       -2.98             
+Quasar outburst     1e+60       2e+22       2.02e+02       -4.68             
+
+Range: 2.02e+02 to 1.28e+17
+Spread: max/min = 6.32e+14
+
+================================================================================
+PATTERN: log10(mu/mu_SN) vs log10(E/E_SN) and log10(tau/tau_SN)
+================================================================================
+
+Event               log10(E/E_SN)     log10(tau/tau_SN)   log10(mu/mu_SN)   
+--------------------------------------------------------------------------------
+1 ton TNT           -34.40            -44.52              +10.12            
+X-class flare       -19.00            -24.52              +5.52             
+Type Ia SN          +0.00             +0.00               +0.00             
+Hypernova           +2.00             +2.58               -0.58             
+Long GRB            +3.00             +3.87               -0.87             
+BNS merger          +9.00             +11.58              -2.58             
+AGN flare           +11.00            +13.98              -2.98             
+Quasar outburst     +16.00            +20.68              -4.68             
+
+If mu = K * E^a / tau^b, then:
+  log(mu/mu_SN) = a * log(E/E_SN) - b * log(tau/tau_SN)
+
+================================================================================
+LINEAR FIT: log10(mu) = a * log10(E) + b * log10(tau) + c
+================================================================================
+
+a = 1.0000 (expected 1 from brute force formula)
+b = -1.0000 (expected -1 from brute force formula)
+c = -35.4961
+
+Event               log10(mu) actual    log10(mu) predicted   residual    
+--------------------------------------------------------------------------------
+1 ton TNT           17.11               17.11                 +0.0000     
+X-class flare       12.50               12.50                 +0.0000     
+Type Ia SN          6.99                6.99                  +0.0000     
+Hypernova           6.40                6.40                  +0.0000     
+Long GRB            6.12                6.12                  +0.0000     
+BNS merger          4.40                4.40                  +0.0000     
+AGN flare           4.00                4.00                  +0.0000     
+Quasar outburst     2.31                2.31                  +0.0000     
+
+The fit should give a=1, b=-1 (the brute force formula).
+
+================================================================================
+PATTERN INVOLVING alpha
+================================================================================
+
+Try: mu = (E/tau)^a * M_Pl,3D^b * alpha^c
+
+Fit: log10(mu) = 1.0000 * log10(E/tau) + -35.4961
+Slope a = 1.0000 (expected 1 if mu ~ E/tau)
+Intercept b = -35.4961
+In natural form: mu = 10^-35.4961 * (E/tau)^1.0000
+
+Event               log10(mu) actual    log10(mu) predicted   residual    
+--------------------------------------------------------------------------------
+1 ton TNT           17.11               17.11                 -0.0000     
+X-class flare       12.50               12.50                 -0.0000     
+Type Ia SN          6.99                6.99                  -0.0000     
+Hypernova           6.40                6.40                  -0.0000     
+Long GRB            6.12                6.12                  -0.0000     
+BNS merger          4.40                4.40                  -0.0000     
+AGN flare           4.00                4.00                  -0.0000     
+Quasar outburst     2.31                2.31                  -0.0000     
+
+================================================================================
+WHAT FORMULA EXPLAINS THE mu_i / mu_SN RATIOS?
+================================================================================
+
+Test formulas for mu_i/mu_SN:
+
+  mu_i/mu_SN = (E_i/E_SN)^1.0000 * (tau_i/tau_SN)^-1.0000
+    max log-residual = 0.0000
+
+================================================================================
+SUMMARY
+================================================================================
+
+The brute force formula mu = K * alpha * (E/M_Pl,3D) / tau gives:
+  - SN match by construction (K calibrated to SN)
+  - Per-event mu varies by 6.32e+14
+  - Slope of log mu vs log E is 1, slope vs log tau is -1
+  - This is the entropy-matching pattern
+
+CONCLUSION: mu is EVENT-DEPENDENT if we use the entropy-matching formula.
+The framework's choice of universal mu = 9e6 GeV^2 is the SN-calibrated value.
+No formula involving alpha makes mu universal.
+
+================================================================================
