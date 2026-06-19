@@ -7929,6 +7929,19 @@ So "1/2" has 3+ independent derivations in the framework. BUT the conformal weig
 
 The "2 ×" is suspicious — it reverses the 1/2 to get back M_Pl,2D. A genuine derivation would need μ = E_1st² (without the 2 ×) or a structural reason for the factor. Source: `calculations/v35_new_angle_mu.py`.
 
+**L308 STRUCTURAL CANDIDATES (v3.5.2)**: 5 candidates for a structural reason for the "2 ×" were tested:
+- **(1) WdW eigenstates**: K_h(2√μ × ...) — factor of 2 in argument. For c=1 Liouville: setting K_h argument = M_Pl,2D gives μ = M_Pl,2D²/4 (OFF by 4!).
+- **(2) SL(2,R) algebra**: [L_+, L_-] = 2L_0 — factor of 2 in commutator. No direct connection to μ formula.
+- **(3) Hawking-Unruh with surface gravity**: a = 2g → factor of 2 in temperature. Gives μ = E_1st² WITHOUT the 2× in the formula (factor appears elsewhere).
+- **(4) Two-sided BH geometry**: Z_2 orbifold gives factor of 2 in length. No direct connection to μ.
+- **(5) Loop expansion**: factor of 2 from counting closed loops. Speculative, not framework-anchored.
+
+**HONEST VERDICT**: The "2 ×" in μ = (2 × E_1st)² remains REVERSE-ENGINEERED. All 5 structural candidates either give wrong prefactors (WdW), no direct connection (SL(2,R), two-sided), or are speculative (loop expansion). The framework should:
+- Acknowledge "2 ×" might have structural origin but currently REVERSE-ENGINEERED
+- L26 REMAINS OPEN: μ is calibrated
+- Future work: find clean structural reason for μ = (2 × E_1st)² or some other form
+Source: `calculations/v35_why_factor_2.py`.
+
 ---
 
 **v3.5 status**: 11 new attempts at μ first-principles, 5 new limitations (L304-L308).
