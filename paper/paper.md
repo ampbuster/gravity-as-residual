@@ -7913,7 +7913,21 @@ L306. **2D BH entropy matching doesn't give framework's μ** (v3.5). For SN-scal
 
 L307. **μ from conformal weight of first excited state** (v3.5). For c=1 Liouville: first excited state has h = b² = 1/2. Energy E_1st = h × M_Pl,2D = 1.5 TeV. Then μ = (2 × E_1st)² = (3 TeV)² = 9×10⁶ GeV² ✓ MATCHES. But the "2 × " in (2 × E_1st)² is just to make h = 1/2 cancel, giving μ = M_Pl,2D² (tautological). The h = 1/2 doesn't actually constrain μ. Status: STRUCTURAL. Source: `calculations/v35_new_angle_mu.py`.
 
-L308. **NEW ANGLE RESULT (v3.5)**: All 11 attempts at μ first-principles reduce to either TAUTOLOGICAL (μ = M_Pl,2D²) or STRUCTURAL (μ = M_s², μ = b² M_Pl,2D²). NONE give a true derivation. L26 REMAINS OPEN: μ is calibrated (via SN τ_2D = 33 s, L41). The framework should ACCEPT this and not over-claim "derivation". The structural interpretations are useful context but not derivations. Source: `calculations/v35_new_angle_mu.py`.
+L308. **NEW ANGLE RESULT (v3.5)**: All 11 attempts at μ first-principles reduce to either TAUTOLOGICAL (μ = M_Pl,2D²) or STRUCTURAL (μ = M_s², μ = b² M_Pl,2D²). NONE give a true derivation. L26 REMAINS OPEN: μ is calibrated (via SN τ_2D = 33 s, L41). The framework should ACCEPT this and not over-claim "derivation". The structural interpretations are useful context but not derivations.
+
+**L308 ADDITION (v3.5.1)**: The "1/2" in conformal weight h = b² = 1/2 IS connected to multiple framework anchors:
+- Schwarzian exponent τ ∝ E^(1/2)
+- DOZZ Liouville b² = 1/2 (c=1)
+- Ising CFT c = N/24 = 1/2
+- α decomposition 1.289 = 1/2 + 1/2 + 1/√12
+
+So "1/2" has 3+ independent derivations in the framework. BUT the conformal weight argument is still TAUTOLOGICAL because:
+- h = 1/2 is INPUT (Liouville)
+- E_1st = h × M_Pl,2D is OUTPUT
+- μ = (2 × E_1st)² uses "2 ×" to UNDO the 1/2 from Liouville
+- Result: μ = M_Pl,2D² (still tautological)
+
+The "2 ×" is suspicious — it reverses the 1/2 to get back M_Pl,2D. A genuine derivation would need μ = E_1st² (without the 2 ×) or a structural reason for the factor. Source: `calculations/v35_new_angle_mu.py`.
 
 ---
 
