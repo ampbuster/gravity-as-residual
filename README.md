@@ -57,7 +57,7 @@
 - ✓ M^α scaling law validated against 8 events (8/8 within 1.6×)
 - ✓ α = 1.258 REJECTED (only α = 1.289 survives)
 - ✓ Closed-loop formula f_back = (M_Pl,N/E_event)^α is UNIVERSAL at every level
-- ✓ M^α scaling bilaterally: UP to 9D (v_Higgs, 1.3%) and DOWN to 2D (TeV, factor of 2)
+- ✓ M^α scaling DOWN to 2D (TeV, factor of 2); 9D UP scaling DROPPED in v3.3
 - ✓ Equal-Universe Principle (1 species at each level, multiple γ values)
 - ✓ DE-DM unified via continuous vs pulsed return (same mechanism, time dilation determines observability)
 
@@ -83,7 +83,7 @@ For honest limitations, see `paper/markdown/06_limitations.md` (81 total, includ
 - ✓ **Closed-loop formula** is universal at every dimensional transition (2D→3D and 3D→4D)
 - ✓ **Equal-Universe Principle** (1 species at each level, multiple γ values)
 - ✓ **Continuous vs pulsed return** clarifies DE (continuous) vs DM (pulsed) — same mechanism
-- ✓ **Bilateral scaling**: M^α works UP to 9D (gives v_Higgs, 1.3%) and DOWN to 2D (gives TeV, factor of 2 from L41)
+- ✓ **M^α scaling DOWN to 2D**: gives TeV scale (factor of 2 from L41). UP to 9D **DROPPED in v3.3** (was 1.3% match to v_Higgs, no longer supported).
 
 We RESTORE the two main results with appropriate caveats:
 
@@ -112,13 +112,13 @@ We RESTORE the two main results with appropriate caveats:
 
 **Strongest empirical claim**: 8/8 real events match the formula within 1.6×.
 
-**α = 1.258 test** (paper §3.71): The alternative α = 1.258 (with 4π hidden in α) gives different E_sub and 9D = v_Higgs match within 14% (vs 1.3% for α = 1.289). Interpretation A (α = 1.289) is preferred because it gives N=12 (matches SM fermion count) and tighter v_Higgs match.
+**α = 1.258 test** (paper §3.71, HISTORICAL, 9D DROPPED in v3.3): The alternative α = 1.258 (with 4π hidden in α) gave different E_sub and was used in the historical 9D = v_Higgs match (14% vs 1.3% for α = 1.289). Interpretation A (α = 1.289) is preferred because it gives N=12 (matches SM fermion count). NOTE: 9D extrapolation is DROPPED in v3.3, so this comparison is historical.
 
 **Structural decomposition** (interpretive, not derived): α = 1 + 1/√12 = 1/2 (Schwarzian) + 1/2 (kinematic SR) + 1/√12 (N=12 SYK). This is the framework's STRUCTURAL explanation for why α might be ~1.29. It is NOT a first-principles derivation (L43 OPEN: 5 brute-force attempts from Z(β) failed).
 
 **STRENGTHS**:
 - 8/8 real events fit within 1.6× (spanning 65 orders of magnitude)
-- α = 1.258 rejected by tighter v_Higgs match (1.3% vs 14%)
+- α = 1.258 rejected (gave 14% vs 1.3% match in historical 9D extrapolation; 9D DROPPED in v3.3)
 - Structural hints from Lagrangian decomposition
 
 **WEAKNESSES**:
@@ -161,7 +161,7 @@ The 4π factor is the 3-sphere surface area (4πR²) at the 3D→4D continuous l
 - Universal formula at every level
 - DE matching within 14%
 - Unifies DE-DM as same mechanism
-- M^α scaling bilaterally: UP to 9D (v_Higgs, 1.3%) and DOWN to 2D (TeV, factor of 2)
+- M^α scaling DOWN to 2D (TeV, factor of 2). UP to 9D DROPPED in v3.3.
 
 **WEAKNESSES**:
 - f_back = 10⁻⁸⁵ is calibrated to DE, not derived
@@ -177,7 +177,7 @@ The 4π factor is the 3-sphere surface area (4πR²) at the 3D→4D continuous l
 | α = 1.289 calibrated at SN 33s | ✓ CALIBRATED |
 | Closed loop formula is universal at every level | ✓ STRUCTURAL |
 | DE-DM are the same mechanism | ✓ STRUCTURAL |
-| Bilateral M^α scaling (4D→9D, 4D→2D) | ✓ STRUCTURAL |
+| M^α scaling 4D→2D (gives TeV) | ✓ STRUCTURAL | 9D→4D DROPPED in v3.3
 | DE matching within 14% via f_back formula | ✓ EMPIRICAL |
 | α = 1.289 from first principles | ✗ OPEN (L43) |
 | f_back = 10⁻⁸⁵ from first principles | ✗ CALIBRATED |
