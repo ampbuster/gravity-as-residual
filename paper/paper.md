@@ -7902,6 +7902,23 @@ L303. **NEW ANGLE for μ: μ might be the AdS_2 radius of the 2D universe** (v3.
 
 **v3.5 status**: Tier 2 research completed, 6 new limitations (L298-L303) for CY3 Z_12, α first-principles, μ F-theory.
 **Total limitations**: 98 (was 92 in v3.4.8, +L298-L303 for v3.5 Tier 2)
+
+## 7.5 v3.5 NEW ANGLE Limitations: μ first-principles (11 attempts)
+
+L304. **μ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with f_back² suppression (SIDC's f_back² ~ 10⁻¹⁷⁰ at LHC energies makes strings invisible). For M_s = 3 TeV: μ = M_s² = 9×10⁶ GeV² ✓ MATCHES framework. BUT: this requires M_s = M_Pl,2D = 3 TeV, which is just saying μ = M_Pl,2D² (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.
+
+L305. **μ = b² × M_Pl,2D² for c=1 Liouville gives 4.5×10⁶ (off by factor 2)** (v3.5). The Liouville conformal weight b² = 1/2 for c=1 doesn't simply relate to μ via this formula. The natural μ = M_Pl,2D² is the AdS_2 inverse length squared, but b² = 1/2 specifically gives a different value. Status: NOT DERIVED. Source: `calculations/v35_new_angle_mu.py`.
+
+L306. **2D BH entropy matching doesn't give framework's μ** (v3.5). For SN-scale 2D BH: S_BH = 4π² E/√μ ~ 10⁵⁰ (huge). Setting S_BH = ln(N!) = ln(12!) = 19.99 gives μ ~ 10¹¹⁰ GeV² (way off). The SN scale is too large for natural entropy bounds. Status: NOT APPLICABLE. Source: `calculations/v35_new_angle_mu.py`.
+
+L307. **μ from conformal weight of first excited state** (v3.5). For c=1 Liouville: first excited state has h = b² = 1/2. Energy E_1st = h × M_Pl,2D = 1.5 TeV. Then μ = (2 × E_1st)² = (3 TeV)² = 9×10⁶ GeV² ✓ MATCHES. But the "2 × " in (2 × E_1st)² is just to make h = 1/2 cancel, giving μ = M_Pl,2D² (tautological). The h = 1/2 doesn't actually constrain μ. Status: STRUCTURAL. Source: `calculations/v35_new_angle_mu.py`.
+
+L308. **NEW ANGLE RESULT (v3.5)**: All 11 attempts at μ first-principles reduce to either TAUTOLOGICAL (μ = M_Pl,2D²) or STRUCTURAL (μ = M_s², μ = b² M_Pl,2D²). NONE give a true derivation. L26 REMAINS OPEN: μ is calibrated (via SN τ_2D = 33 s, L41). The framework should ACCEPT this and not over-claim "derivation". The structural interpretations are useful context but not derivations. Source: `calculations/v35_new_angle_mu.py`.
+
+---
+
+**v3.5 status**: 11 new attempts at μ first-principles, 5 new limitations (L304-L308).
+**Total limitations**: 103 (was 98 in v3.5 Tier 2, +L304-L308 for v3.5 new angle)
 <!-- 07_conclusion.md - part of paper.md split (v3.0.13) -->
 
 ## 8. Conclusion
