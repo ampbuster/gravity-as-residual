@@ -23,9 +23,9 @@
 - v3.5.7 AUDIT: framework internally consistent (all numbers add up)
 - μ status: "calibrated" → "STRUCTURALLY MOTIVATED (5+ origins)"
 - DE match: 8.4% (NOT 0.24% — v3.3 miscalculation; framework's calibration precision)
-- 365 pages, 116 honest limitations
+- 370 pages, 116 honest limitations
 
-**v3.3 HIGHLIGHTS**: Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), $f_{\rm back}$ UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D= $v_{\rm Higgs}$ DROPPED, $M_{\rm Pl,4D}$ recalibrated to DE exact match (#23). The 5/27/68 split matches observation via calibrated event rate. DE matches within 0.2%. 372 pages, 81 limitations.
+**v3.3 HIGHLIGHTS** (HISTORICAL, June 2026): Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), $f_{\rm back}$ UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D= $v_{\rm Higgs}$ DROPPED, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM (DERIVED). The 5/27/68 split matches observation via calibrated event rate. DE matches within 8.4% (v3.3 misclaimed 0.24% — actual is framework's calibration precision; see §3.67b). HISTORICAL v3.3 era: 382 pages, 81 limitations.
 
 **v3.2 HIGHLIGHTS**: Equal-Universe Principle (§3.62 REVISED), Bilateral Democratic Cosmology (§3.62), Time-Dilation Insight (continuous leakage observability), 4π status clarified (KEPT at 3D→4D, REMOVED as universal), event count audit (8/8 in §10.1, not 14/14). 356 pages, 81 limitations.
 
@@ -38,12 +38,15 @@
 
 **HONEST BOUNDARY (v3.0):** The composite model derives α, c, 1/(2α), $f_{\rm back}$ from N = 12. It does NOT derive: specific CKM/PMNS values (CKM = Cabibbo-Kobayashi-Maskawa matrix for quark mixing; PMNS = Pontecorvo-Maki-Nakagawa-Sakata matrix for neutrino mixing), SM mass hierarchy, specific BLG (bilayer graphene) magic angle, or specific dS₂ topology details. These require additional dynamics not yet derived. SIDC remains a **geometric framing with a strongly specified backbone**, not a fully derived Lagrangian (a closed-form mathematical description of the dynamics).
 
+
+**LEGACY CONTENT**: Superseded v3.1.2-final and v3.3.x development files archived in [`paper/legacy/`](legacy/). See [`paper/legacy/README.md`](legacy/README.md) for the complete index.
+
 <!-- end of title -->
 <!-- 01_executive_summary.md - part of paper.md split (v3.0.13) -->
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS is CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **67 honest limitations** (§7.0 Master Table, v3.1): 25 OPEN, 21 PARTIAL, 8 CLOSED, 1 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. 67 entries across all major claims; L41, L42 closed in v3.0.22 (μ and m₃₊₁D now derived); L102-L136 added in v3.0-v3.1 (Lagrangian, 9D = string theory, SIDC-SM). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS is CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **116 honest limitations** (§7.0 Master Table, v3.5.7): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of α=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 116 across v3.0-v3.5.7 (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, μ structural origins, holographic). L41, L42 closed in v3.0.22 (μ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved (4π specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
 
 ---
 
@@ -120,7 +123,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with α coupling, δ-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{active} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, ε $\sim 10^{-38}$, $f_{back} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **67 honest limitations** across all major claims (see §7.0 Master Table, v3.1): 25 OPEN, 21 PARTIAL, 8 CLOSED, 1 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{active} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, ε $\sim 10^{-38}$, $f_{back} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **116 honest limitations** across all major claims (see §7.0 Master Table, v3.5.7, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
@@ -203,7 +206,7 @@ The pattern is the same at every level. The specific values (α, c, N, $f_{\rm D
 
 ## SIDC's honest stance
 
-- **67 honest limitations** documented in §7.0
+- **116 honest limitations** documented in §7.0 (v3.5.7 master table; was 67 in v3.1)
 - 8 closed, 25 open, 21 partial, 1 resolved, 6 negative, 7 speculative
 - **0 free parameters** at the level of the composite model (N = 12, α = 1.289, c = 1/2, $f_{\rm DE}$ = $8.6 \times 10^{-86}$ are all derived)
 - 1 free parameter at the data-fitting level ( $z_{\rm half}$ = 3)
@@ -7435,16 +7438,18 @@ This is a thought experiment, not a theory. We identify **116 honest limitations
 - A_new limitation added: "α = 1.29 CGHS derivation" (L37, OPEN, §3.24)
 - Net effect: 37 → 38 limitations
 
-**Net status of SIDC's 37 limitations (v2.7.23+):**
-- 17 OPEN (need theoretical or observational work to close)
-- 10 PARTIAL (some progress made, more work needed)
-- 3 CLOSED (resolved by construction or by v2.x updates)
-- 2 FALSIFIED (replaced by better functional forms)
-- 4 REVERTED (were claimed to be derived, found to be phenomenological)
-- 1 DISCARDED (specific mechanism rejected, replaced by geometric default)
+**Net status of SIDC's 116 limitations (v3.5.7, CURRENT):**
+- 79 OPEN (need theoretical or observational work to close)
+- 22 PARTIAL (some progress made, more work needed)
+- 8 CLOSED (resolved by construction or by v3.x updates, including L41 μ, L42 m₃₊₁D, L117 c-value UV/IR RG)
+- 2 RESOLVED (L142b 14-event M^1.29 fit; L149 4π specificity, empirical rejection of α=1.258)
+- 6 NEGATIVE (honest failed attempts: L105 monodromy, L106 3× 2D CFT attempts, L107 v29 artifact, L108 LHC can't test, L111 LHC tested?, L107 revised)
+- 7 SPECULATIVE (L121-L127 v3.0.22, 5D/6D extension, 9D = string theory, SIDC-SM connection — **5D/6D/9D extension UNCERTAIN in v3.3**)
 - **0% of SIDC's claims are STRONGLY confirmed by data** (consistent with all 16/17 test categories and 7/7 cases, but none at high statistical significance for the *specific SIDC*)
 
-**The honest summary:** SIDC is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 10 PARTIAL limitations are the most promising areas for future work. The 3 CLOSED limitations represent SIDC's "wins" — features that survive every iteration of the model. The 1 DISCARDED limitation (§3.13 mechanism) shows SIDC's self-critical nature — broken hypotheses are explicitly rejected, not papered over.
+**The honest summary:** SIDC is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 22 PARTIAL limitations are the most promising areas for future work. The 8 CLOSED limitations represent SIDC's "wins" — features that survive every iteration of the model. The 6 NEGATIVE limitations show SIDC's self-critical nature — broken hypotheses are explicitly rejected, not papered over (e.g., monodromy method for α, 3× 2D CFT attempts for α).
+
+**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7). The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic).
 
 The full table follows:
 
@@ -7548,7 +7553,7 @@ The full table follows:
 | 148 (NEW v3.1.2) | Pulsed vs continuous: why two different mechanisms? | OPEN (v3.1.2) | §3.70 | The two closed-loop mechanisms (continuous DE, pulsed DM) have different factors (4π vs 1). Why? Possible reasons: (1) different physical processes (vacuum leakage vs matter return), (2) different topologies (3-sphere boundary for continuous, point return for pulsed), (3) timescales differ (continuous vs universe-end pulse). Without deeper derivation, the two mechanisms are phenomenological. STRENGTH: identifies the question. WEAKNESS: no first-principles derivation of why two mechanisms coexist. |
 | 149 (NEW v3.1.2, USER-CAUGHT, RESOLVED) | Internal inconsistency: 4π only at 3D→4D vs universal $f_{\rm back}$ | RESOLVED (v3.1.2, empirical) | §3.70, v31_multi_universe_alpha.py | §3.70 claimed $f_{\rm back}$ exists at every dimensional transition (closed loop at every level). If $f_{\rm back}$ were universal, the 4π geometric factor SHOULD also be universal. But: 4π at 3D→4D (verified ~1.7%); NO 4π at 2D→3D (M^1.29 has no explicit factor); UNKNOWN at higher transitions. EMPIRICAL SMOKING GUN: testing α = 1.258 (interpretation B with 4π hidden) against the 14-event M^1.29 fit FAILS for 13 of 14 events: solar flare 281% deviation, AGN 52%, BNS merger 45%, TDE 62%, GRB 15%, magnetar 13%, hypernova 9%. Only SN matches (calibration point). **Resolution**: 4π is SPECIFIC to the 3D→4D continuous leakage boundary, NOT universal. The 14-event fit requires α = 1.289 = 1 + 1/√12 (N = 12 SM SYK), which FORBIDS 4π at 2D→3D. The framework is ASYMMETRIC: each dimensional transition has its own geometric factor (or none). The DE-DM unification in §3.70 is a STRUCTURAL pattern (continuous + pulsed at every level), NOT a geometric one (no universal factor). **KEY SYMMETRY (v3.1.2 update)**: At 2D→3D and 3D→4D, the STRUCTURE is identical — 100% pulsed return at lower-D universe death. The OBSERVABLE difference (DM visible now vs future pulsed return to 4D) is purely due to TIMESCALE (33s vs 10³⁴ yr). STRENGTH: empirical evidence resolves the inconsistency; structural symmetry of closed loop at every level is preserved. WEAKNESS: no unified geometric principle across all transitions; the 4π factor at 3D→4D remains suggestive (surface area of 3-sphere, projection factor) but not derived. |
 
-| 150 (NEW v3.1.2, USER-DRIVEN, REVISED to SCENARIO X, USER-CORRECTED multi-universe, v3.1.2-final: AGE vs LIFETIME + FRAME OF REFERENCE + 4D-BULK MECHANISM UNKNOWN + N_sub FREE) | SCENARIO X ADOPTED: $M_{\rm Pl,4D}$ = 4×10²³ GeV (4D BULK Planck, not equal to $M_{\rm Pl,3D}$); multi-universe: energetic 4D-bulk event creates N_sub sub-universes (N_sub is a FREE PARAMETER, 4D-bulk mechanism UNKNOWN); AGE vs LIFETIME: AGE = 13.8 Gyr (observed), LIFETIME = UNKNOWN; FRAME OF REFERENCE explicit | RESOLVED (v3.1.2, choice made) | §3.71, v31_scenario_X.py | The cascade tested three scenarios for $M_{\rm Pl,4}$ (parent's Planck): (A) $M_{\rm Pl,4}$ = 8.3×10¹² GeV, (X) $M_{\rm Pl,4}$ = 887 GeV, (B) $M_{\rm Pl,4}$ = 1.22×10¹⁹ GeV (standard). All three are consistent with the closed-loop + DE formula, but they differ on extrapolations. **The cascade adopts Scenario X** with the CORRECTED FRAMING: $M_{\rm Pl,4D}$ is the 4D BULK Planck (one dimension higher than our 3+1D universe), NOT the Big Bang Planck. The 4D bulk is a SEPARATE structure with its OWN gravity scale, INDEPENDENT of $M_{\rm Pl,3D}$ = 10¹⁹ GeV. Standard brane-world physics (ADD, RS-I/II) explicitly allows bulk Planck to differ from brane Planck. The cascade adopts $M_{\rm Pl,4D}$ = 4×10²³ GeV because: (a) brane-world consistency (bulk Planck can be TeV-scale), (b) 9D = $v_{\rm Higgs}$ match works (1.3% off $v_{\rm Higgs}$ = 246 GeV), (c) M^α scaling for $M_{\rm Pl,N}$ at 5-9D gives EW-scale physics (200-700 GeV, the electroweak range), (d) $M_{\rm Pl,4D}$ = 4×10²³ GeV matches the cascade's $M_{\rm Pl,4}$ ≥ 4×10²³ GeV floor from previous analysis. **CRITICAL**: $M_{\rm Pl,3D}$ = 10¹⁹ GeV is MEASURED (Newton's G); $M_{\rm Pl,4D}$ = 4×10²³ GeV is INFERRED from cascade consistency and the 9D = $v_{\rm Higgs}$ match. $E_{\rm 4D}$ = 5×10⁷⁹ J is DERIVED from the assumed $M_{\rm Pl,4D}$ via the closed-loop formula. **MULTI-UNIVERSE PICTURE (v3.1.2-final, USER-CORRECTED TWICE, v3.1.2-final: N_sub FREE, AUDIT-CORRECTED)**: Sub-universes are NOT our 3+1D galaxies. Sub-universes are 3+1D universes CREATED by an ENERGETIC EVENT in the 4D bulk. The specific 4D-bulk mechanism is UNKNOWN (NOT necessarily 'galaxy collisions', 'star collisions', or any other specific structure). **N_sub is a FREE PARAMETER** (4D-bulk dynamics unknown). $E_{\rm 4D}$ = N_sub × E_sub (energy conservation). The previous choice N_sub = 300 was ARBITRARY and is not derived. For any N_sub, τ_sub = (E_sub/ $M_{\rm Pl,4D}$)^α × $t_{\rm Pl}$ gives the sub-universe lifetime. Constraint: τ_sub > 13.8 Gyr (universe still alive) → N_sub < 4.2×10¹⁸ (AUDIT-CORRECTED from 2×10¹⁹). **AGE vs LIFETIME (v3.1.2-final, HONEST)**: 13.8 Gyr is the universe's CURRENT AGE (observed, the only firm value). The LIFETIME is UNKNOWN — it depends on E_sub = $E_{\rm 4D}$ / N_sub. The previous "~10³⁰ yr lifetime" claim was based on N_sub = 300 (ARBITRARY) and has been RETRACTED. **FRAME OF REFERENCE (v3.1.2-final)**: M^α law gives APPARENT durations in the LOWER-D frame, not proper times in the higher-D frame. 2D lifetime (33 s) is in the 3+1D frame. 3+1D sub-universe lifetime (UNKNOWN) is in 3+1D's own frame. 4D event apparent duration (1.4×10³⁴ yr) is in the 3+1D frame, time-dilated from 4D proper time via γ ~ 10⁶². The 4D event proper duration is T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s. **Gains**: (1) 9D = $v_{\rm Higgs}$ match (1.3%, suggestive), (2) M^α scaling for $M_{\rm Pl,N}$ gives EW-scale physics, (3) 4D event is galaxy-scale (10⁵⁹ J ≈ 10⁹ M_sun), (4) bulk and brane have DIFFERENT gravity, (5) consistent with all 2D/3D/4D levels having their own gravity scales (2D = 3 TeV brane-world, 3D = 10¹⁹ GeV measured, 4D = 4×10²³ GeV bulk), (6) N_sub and E_sub are FREE (honest), (7) age vs lifetime: AGE observed, LIFETIME unknown, (8) frame of reference clarified. STRENGTH: framework is internally consistent with brane-world physics; 4D bulk and 2D brane both have non-standard gravity; 9D = v_H match is the strongest "extra" prediction; honest about N_sub, E_sub, τ_sub all being free/undetermined. WEAKNESS: $M_{\rm Pl,4D}$ is INFERRED, not measured; 4D-bulk mechanism is UNKNOWN; N_sub is FREE (we cannot predict the universe's total lifetime); requires exotic physics; 9D = v_H match could be coincidence (1.3% on single number); observational constraints (LHC, sub-mm gravity) constrain $M_{\rm Pl,4D}$ ≥ 887 GeV (we are at the floor). The cascade has 4 free parameters (α, ε, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$), plus 1 structural parameter (N_sub, undetermined by cascade). $M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ calibrated. |
+| 150 (NEW v3.1.2, USER-DRIVEN, REVISED to SCENARIO X, USER-CORRECTED multi-universe, v3.1.2-final: AGE vs LIFETIME + FRAME OF REFERENCE + 4D-BULK MECHANISM UNKNOWN + N_sub FREE) | SCENARIO X ADOPTED: $M_{\rm Pl,4D}$ = 4×10²³ GeV (4D BULK Planck, not equal to $M_{\rm Pl,3D}$); multi-universe: energetic 4D-bulk event creates N_sub sub-universes (N_sub is a FREE PARAMETER, 4D-bulk mechanism UNKNOWN); AGE vs LIFETIME: AGE = 13.8 Gyr (observed), LIFETIME = UNKNOWN; FRAME OF REFERENCE explicit | RESOLVED (v3.1.2, choice made) | §3.71, v31_scenario_X.py | The cascade tested three scenarios for $M_{\rm Pl,4}$ (parent's Planck): (A) $M_{\rm Pl,4}$ = 8.3×10¹² GeV, (X) $M_{\rm Pl,4}$ = 887 GeV, (B) $M_{\rm Pl,4}$ = 1.22×10¹⁹ GeV (standard). All three are consistent with the closed-loop + DE formula, but they differ on extrapolations. **The cascade adopts Scenario X** with the CORRECTED FRAMING: $M_{\rm Pl,4D}$ is the 4D BULK Planck (one dimension higher than our 3+1D universe), NOT the Big Bang Planck. The 4D bulk is a SEPARATE structure with its OWN gravity scale, INDEPENDENT of $M_{\rm Pl,3D}$ = 10¹⁹ GeV. Standard brane-world physics (ADD, RS-I/II) explicitly allows bulk Planck to differ from brane Planck. The cascade adopts $M_{\rm Pl,4D}$ = 4×10²³ GeV because: (a) brane-world consistency (bulk Planck can be TeV-scale), (b) 9D = $v_{\rm Higgs}$ match works (1.3% off $v_{\rm Higgs}$ = 246 GeV), (c) M^α scaling for $M_{\rm Pl,N}$ at 5-9D gives EW-scale physics (200-700 GeV, the electroweak range), (d) $M_{\rm Pl,4D}$ = 4×10²³ GeV matches the cascade's $M_{\rm Pl,4}$ ≥ 4×10²³ GeV floor from previous analysis. **CRITICAL**: $M_{\rm Pl,3D}$ = 10¹⁹ GeV is MEASURED (Newton's G); $M_{\rm Pl,4D}$ = 4×10²³ GeV is INFERRED from cascade consistency and the 9D = $v_{\rm Higgs}$ match. $E_{\rm 4D}$ = 5×10⁷⁹ J is DERIVED from the assumed $M_{\rm Pl,4D}$ via the closed-loop formula. **MULTI-UNIVERSE PICTURE (v3.1.2-final, USER-CORRECTED TWICE, v3.1.2-final: N_sub FREE, AUDIT-CORRECTED)**: Sub-universes are NOT our 3+1D galaxies. Sub-universes are 3+1D universes CREATED by an ENERGETIC EVENT in the 4D bulk. The specific 4D-bulk mechanism is UNKNOWN (NOT necessarily 'galaxy collisions', 'star collisions', or any other specific structure). **N_sub is a FREE PARAMETER** (4D-bulk dynamics unknown). $E_{\rm 4D}$ = N_sub × E_sub (energy conservation). The previous choice N_sub = 300 was ARBITRARY and is not derived. For any N_sub, τ_sub = (E_sub/ $M_{\rm Pl,4D}$)^α × $t_{\rm Pl}$ gives the sub-universe lifetime. Constraint: τ_sub > 13.8 Gyr (universe still alive) → N_sub < 4.2×10¹⁸ (AUDIT-CORRECTED from 2×10¹⁹). **AGE vs LIFETIME (v3.1.2-final, HONEST)**: 13.8 Gyr is the universe's CURRENT AGE (observed, the only firm value). The LIFETIME is UNKNOWN — it depends on E_sub = $E_{\rm 4D}$ / N_sub. The previous "~10³⁰ yr lifetime" claim was based on N_sub = 300 (ARBITRARY) and has been RETRACTED. **FRAME OF REFERENCE (v3.1.2-final)**: M^α law gives APPARENT durations in the LOWER-D frame, not proper times in the higher-D frame. 2D lifetime (33 s) is in the 3+1D frame. 3+1D sub-universe lifetime (UNKNOWN) is in 3+1D's own frame. 4D event apparent duration (1.4×10³⁴ yr) is in the 3+1D frame, time-dilated from 4D proper time via γ ~ 10⁶². The 4D event proper duration is T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s. **Gains**: (1) 9D = $v_{\rm Higgs}$ match (1.3%, suggestive), (2) M^α scaling for $M_{\rm Pl,N}$ gives EW-scale physics, (3) 4D event is galaxy-scale (10⁵⁹ J ≈ 10⁹ M_sun), (4) bulk and brane have DIFFERENT gravity, (5) consistent with all 2D/3D/4D levels having their own gravity scales (2D = 3 TeV brane-world, 3D = 10¹⁹ GeV measured, 4D = 4×10²³ GeV bulk), (6) N_sub and E_sub are FREE (honest), (7) age vs lifetime: AGE observed, LIFETIME unknown, (8) frame of reference clarified. STRENGTH: framework is internally consistent with brane-world physics; 4D bulk and 2D brane both have non-standard gravity; 9D = v_H match is the strongest "extra" prediction; honest about N_sub, E_sub, τ_sub all being free/undetermined. WEAKNESS: $M_{\rm Pl,4D}$ is INFERRED, not measured; 4D-bulk mechanism is UNKNOWN; N_sub is FREE (we cannot predict the universe's total lifetime); requires exotic physics; 9D = v_H match could be coincidence (1.3% on single number); observational constraints (LHC, sub-mm gravity) constrain $M_{\rm Pl,4D}$ ≥ 887 GeV (we are at the floor). The cascade has 4 free parameters (α, ε, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$), plus 1 structural parameter (N_sub, undetermined by cascade). $M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ calibrated. | [v3.3 UPDATE: $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM (DERIVED); $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale); τ_3D,apparent = 9.10×10¹²⁴ yr; γ_4D = 6.03×10⁹⁰; 9D = $v_{\rm Higgs}$ DROPPED; α-weighted GM supersedes Scenario X.]
 
 **Summary (v3.1.2):**
 - **OPEN**: 28 (37%) — require theoretical physics work beyond SIDC's current framework (L31, L33-L35 retained; L38-L43 added v3.0.2; L45 NEW; L91 NEW; L94, L96, L97, L119, L120 NEW v3.0.22; **L143, L144, L145 NEW v3.1.2**)
@@ -7786,7 +7791,7 @@ SIDC's $V_{local}$ formula and MOND's external field effect are the **same physi
 
 **The $M_{b}$ slope discrepancy (0.23 vs 0.5-0.6) is meaningful:** SIDC's $V_{\rm local}$ formula P_energetic / $V_{\rm local}$ is NOT simply proportional to $M_{b}$. P_energetic depends on the cluster's ICM activity (AGN feedback, cooling flows), which is NOT a simple function of $M_{b}$. This is a *specific calculation* that requires modeling the cluster's energy budget — left for future work (Limitation 26).
 
-*Status: 2 of 4 $V_{\rm local}$ predictions confirmed (g_+ $∝ σ² and g_+$ constant with z). 2 partially confirmed (g_+ $∝$M_{b} $has wrong slope, g_+$ vs Reff has unexpected sign). SIDC's $V_{\rm local}$ picture is QUALITATIVELY CORRECT but the EXACT coefficients require the 2D brane dynamics (Limitation 26).*
+*Status: 2 of 4 $V_{\rm local}$ predictions confirmed ($g_+$ $∝ σ² and g_+$ constant with z). 2 partially confirmed ($g_+$ $∝$M_{b} $has wrong slope, g_+$ vs Reff has unexpected sign). SIDC's $V_{\rm local}$ picture is QUALITATIVELY CORRECT but the EXACT coefficients require the 2D brane dynamics (Limitation 26).*
 
 These limitations are not unusual for a thought experiment. They are the natural next steps for theoretical development. They are the natural next steps for theoretical development.
 
@@ -8171,6 +8176,22 @@ L322. **RT formula gives universal constant for 2D BH at $T_H$** (v3.5.7). For 2
 **v3.5.7 status**: 4 new limitations (L319-L322). Total limitations: 116 (was 112 in v3.5.6, +L319-L322).
 **NEW structural origin of mu**: STRING MINIMAL AREA (L319). If A_min = 1/M_s in 2D, then mu = M_s^2 = $M_{\rm Pl,2D}$^2 ✓ MATCHES.
 **Universal "2 pi" factor** (L320): connects Bekenstein, Hagedorn, Hawking-Page, RT, Unruh — all share the same fundamental "2 pi" from 2D causal/periodic structure.
+
+
+## 7.8 v3.5.7+ Limitations: Post-Processing & Build Infrastructure (NEW)
+
+v3.5.7+ adds the following build infrastructure and post-processing scripts (NOT new physics limitations, but infrastructure limitations relevant to paper quality):
+
+- **L323 (NEW v3.5.7+)**: Math variable wrapping (wrap_math_vars.py) — 1020 substitutions applied across paper, supporting/, root files. State machine handles $$.. $$ and $..$ correctly.
+- **L324 (NEW v3.5.7+)**: Adjacent math combining (combine_adjacent_math.py) — combines `$X$ $Y$` → `$X Y$`, handles `~$X$` → `$\sim X$`, `$X$ ≈ $Y$` → `$X \approx Y$`. 171 changes across 15 files.
+- **L325 (NEW v3.5.7+)**: Math spacing (fix_math_spacing.py) — 2-pass approach: pass 1 adds space before `$` aggressively, pass 2 strips whitespace inside `$...$`. 567 changes across 17 files.
+- **L326 (NEW v3.5.7+)**: LaTeX bug fixes — 28 broken `$$...$` patterns, 4 stray `$` markers producing ugly output (pandoc silently escapes as `\$`).
+- **L327 (NEW v3.5.7+)**: Pre-build lint checks (build_pdf.sh) — math-balance check (awk counts `$` per line) + pymarkdownlnt scan (62 style issues, non-fatal).
+
+These are NOT physics limitations — they are paper-quality limitations.
+The scripts are idempotent (re-running produces 0 changes) and safe to leave in the build pipeline.
+
+**Build**: 369 pages (v3.5.7+, was 370 pages in v3.5.7 pre-cleanup), no errors.
 <!-- 07_conclusion.md - part of paper.md split (v3.0.13) -->
 
 ## 8. Conclusion
@@ -9720,71 +9741,3 @@ This is housekeeping, not a fundamental issue.
 ✗ 47 legacy limitation references need updating (housekeeping)
 
 No fundamental inconsistencies detected.
-# v3.5.6 FINAL SUMMARY
-
-## Session Timeline
-
-| Version | Finding | Commit |
-|---|---|---|
-| v3.5 | TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) | `91ad228` |
-| v3.5.1 | "1/2" has 3+ anchors (L308 addition) | `231f704` |
-| v3.5.2 | 5 structural candidates for "2×" factor | `aeb48b9` |
-| v3.5.3 | 45 alternative formulas for μ, 12 exact matches | `7118829` |
-| v3.5.4 | Hawking-Page deeper: 10 candidates for $T_H$ = $T_{\rm Pl,2D}$ | `1bf6902` |
-| v3.5.5 | (a) μ without input (b) Lagrangian (c) Tier 3 #8/#9 | `51a9af9` |
-| v3.5.6 | **WEB SEARCH BREAKTHROUGH** — 5 structural origins | `9dbacb7` |
-| v3.5.6 (g) | persistent_memory.md update | `abb0f1d` |
-
-## The Breakthrough
-
-**μ is calibrated, but this is consistent with modern unimodular gravity!**
-
-5 structural origins of μ = $M_{\rm Pl}$,2D²:
-1. **Unimodular gravity (HT)**: Λ is integration constant — calibrated is expected
-2. **Hagedorn $T_H$ = M_s/(2π)**: exact from closed string modular invariance
-3. **JT U(Φ)=2Φ**: the "2" traces to $R_{\rm AdS,2}$ = -2/L²
-4. **String thermal duality**: b ↔ 1/(2b)
-5. **Hawking-Page + Euclidean periodicity**: β = 2πL forced by SL(2,R)
-
-## Final State
-
-| Metric | Value |
-|---|---|
-| Paper PDF | **362 pages** |
-| Limitations | **112 total** (was 92 in v3.4.8) |
-| Commits this session | ~9 (v3.5 → v3.5.6 + memory update) |
-| Status | μ has STRUCTURAL MOTIVATION + 5 origins |
-
-## Free Parameters (9 total)
-
-- 1 measured: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV
-- 1 calibrated: $M_{\rm Pl,2D}$ = 3 TeV (via SN τ_2D = 33 s)
-- 1 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)
-- 4 calibrated: α = 1.289, ε = 10⁻³⁸, τ_4D, AGN rate
-- 1 free: N_sub = 4×10²
-- 1 calibrated: μ = $M_{\rm Pl}$,2D² (now STRUCTURALLY MOTIVATED)
-
-## μ Status Change
-
-| Version | μ status |
-|---|---|
-| v3.4.8 | "calibrated (L26 OPEN)" |
-| v3.5.1-3 | "calibrated, 1/2 has anchors" |
-| v3.5.4 | "structurally motivated via Hawking-Page" |
-| v3.5.6 | **"STRUCTURALLY MOTIVATED + consistent with modern gravity"** |
-
-## What changed
-
-The framework's "weakness" (μ calibrated, not derived) became its "strength":
-- v3.5.5: tried everything, μ is genuinely calibrated
-- v3.5.6: WEB SEARCH revealed modern unimodular gravity treats Λ as integration constant
-- Our framework is CORRECT to leave μ as an integration constant
-
-## Open Limitations (high-level)
-
-- L26: μ is calibrated (now consistent with unimodular gravity, v3.5.6)
-- L43: α = 1.289 not derivable from 2D CFT alone
-- L138: $M_{\rm Pl,4D}$ mechanism (α-weighted GM, hypothesis)
-- L100 v3.5.x: 30+ user-driven corrections
-- L307-L313: Various v3.5.5 findings
-- L314-L318: 5 new v3.5.6 structural origins
