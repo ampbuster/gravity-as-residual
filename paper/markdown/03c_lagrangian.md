@@ -177,8 +177,11 @@ for every upward dimension?"
 
 **Scaling law at each level**:
 
-For the scaling law τ = 33 s × (E/E_calibration)^α to work at every
+For the scaling law τ = (E/M_Pl,parent)^α × t_Pl to work at every
 upward level, α must be the SAME at every level.
+
+(SN normalization: the formula can be rewritten as τ = 33s × (E/E_SN)^α
+where 33s is the SN calibration value, but the cleaner form shows α is universal.)
 
 Evidence for α being universal:
 1. **N = 12 SYK is fixed**: the 12 SM Weyl fermions (3 generations ×
@@ -1259,7 +1262,8 @@ $S_{\rm projection}$ = -g_couple ∫ d⁴x d²z Φ_4D Φ_2D Θ(τ_2D - τ)
               α = 1.289 (universal)
 ```
 
-Closed loop: $f_{\rm back}$ = g_couple² × Z_2D(τ_2D) / E_3D².
+Closed loop (current v3.3): $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α (universal FORM, see §3.71)
+Legacy (v10): $f_{\rm back}$ = g_couple² × Z_2D(τ_2D) / E_3D² (rejected in v3.1.1)
 
 **5. THE c-VALUE RESOLUTION (L117)**
 
@@ -1299,7 +1303,7 @@ $f_{\rm back}$ = ($t_{\rm Pl,3}$/τ_4D) × (τ_SN/τ_universe) × ($E_{\rm 4D}$/
 ```
 
 Numerical decomposition:
-- log₁₀($t_{\rm Pl,3}$/τ_4D) = −75.1
+- log₁₀($t_{\rm Pl,3}$/τ_4D) = −85.0  (v3.3: τ_4D = 1.51×10³⁴ yr = 4.77×10⁴¹ s)
 - log₁₀(τ_SN/τ_universe) = −16.2
 - log₁₀(($E_{\rm 4D}$/$E_{\rm SN}$)^(1/(2α))) = +6.98
 - Sum = −84.3 ≈ −85 ✓
@@ -1310,7 +1314,7 @@ This is the only structural element derivable from the framework.
 **NOT derived from first principles**:
 - Why the multiplicative (not additive) structure
 - Why the 1/(2α) is the specific exponent (only matched)
-- Why τ_4D = 4.1 × 10³² s (eternal for our cosmic time)
+- Why τ_4D = 4.77 × 10⁴¹ s (= 1.51×10³⁴ yr, eternal for our cosmic time, v3.3)
 - Why $g_{\rm 2D}$ = 3.2 × 10¹⁸ (not 1 or other)
 
 A full derivation requires:
