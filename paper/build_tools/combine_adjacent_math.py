@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-Combine adjacent math expressions separated only by whitespace.
+Combine adjacent math expressions separated by whitespace, ~, or ≈.
 
 Patterns handled:
-- $X$  $Y$ → $X Y$
-- ~$X$  $Y$ → $\sim X Y$
-- $X$  $Y$ J → $X Y$ J
-- ~$X$  $Y$ J → $\sim X Y$ J
+- $X$  $Y$       → $X Y$
+- ~$X$  $Y$      → $\sim X Y$
+- ≈$X$  $Y$      → $\approx X Y$
+- $X$ ~ $Y$      → $X \sim Y$
+- $X$ ≈ $Y$      → $X \approx Y$
+- $X$  $Y$ ~ $Z$ → $X Y \sim Z$   (chain)
+- $X$ ~ $Y$  $Z$ → $X \sim Y Z$   (chain)
 
 Idempotent: re-running produces no changes.
 """
@@ -16,8 +19,7 @@ import sys
 
 
 def find_math_ranges(line):
-    """Return list of (start, end) for each $...$ math expression in line.
-    Skips escaped \\$. Handles both inline ($X$) and display ($$X$$)."""
+    """Return list of (start, end) for each $...$ math expression in line."""
     ranges = []
     i = 0
     while i < len(line):
@@ -25,9 +27,7 @@ def find_math_ranges(line):
             i += 2
             continue
         if line[i] == '$':
-            # Check for $$ (display math)
             if i + 1 < len(line) and line[i + 1] == '$':
-                # Find closing $$
                 j = i + 2
                 while j < len(line) - 1:
                     if line[j] == '\\' and j + 1 < len(line):
@@ -41,7 +41,6 @@ def find_math_ranges(line):
                 else:
                     i += 2
             else:
-                # Inline math
                 j = i + 1
                 while j < len(line):
                     if line[j] == '\\' and j + 1 < len(line):
@@ -59,57 +58,125 @@ def find_math_ranges(line):
     return ranges
 
 
+
+
+def handle_single_math(line):
+    """Handle ~ or ≈ before a single math expression (not in a pair).
+    Pattern: text ~ $X$ → text $\sim X$
+    Pattern: text ≈ $X$ → text $\approx X$
+    """
+    ranges = find_math_ranges(line)
+    if not ranges:
+        return line
+    
+    result = []
+    pos = 0
+    for r_start, r_end in ranges:
+        prefix = line[pos:r_start]
+        # Check for ~ or ≈ before
+        tilde_match = re.search(r'~\s*$', prefix)
+        approx_match = re.search(r'≈\s*$', prefix)
+        
+        if tilde_match:
+            stripped = prefix[:tilde_match.start()].rstrip()
+            content = line[r_start + 1:r_end - 1]
+            result.append(stripped)
+            result.append('$\\sim ' + content + '$')
+        elif approx_match:
+            stripped = prefix[:approx_match.start()].rstrip()
+            content = line[r_start + 1:r_end - 1]
+            result.append(stripped)
+            result.append('$\\approx ' + content + '$')
+        else:
+            result.append(prefix)
+            result.append(line[r_start:r_end])
+        
+        pos = r_end
+    
+    if pos < len(line):
+        result.append(line[pos:])
+    
+    return ''.join(result)
+
+
 def combine_adjacent(line):
-    """Find adjacent $X$  $Y$ patterns and combine them."""
+    """Find adjacent $X$  $Y$ patterns and combine them with ~ or ≈ handling."""
     ranges = find_math_ranges(line)
     if len(ranges) < 2:
         return line
-    
-    # Build new line by walking through ranges
+
     result = []
     pos = 0
-    
     i = 0
+
     while i < len(ranges):
         r1_start, r1_end = ranges[i]
         prefix = line[pos:r1_start]
-        
-        # Check if next range is adjacent (only whitespace between)
+
         if i + 1 < len(ranges):
             r2_start, r2_end = ranges[i + 1]
             between = line[r1_end:r2_start]
-            
-            if between.strip() == '':
-                # Adjacent! Combine
+
+            # Check what's in between
+            adjacent = (between.strip() == '')
+            between_tilde = bool(re.search(r'^\s*~\s*$', between))
+            between_approx = bool(re.search(r'^\s*≈\s*$', between))
+
+            if adjacent or between_tilde or between_approx:
+                # Combine!
                 r1_content = line[r1_start + 1:r1_end - 1]
                 r2_content = line[r2_start + 1:r2_end - 1]
-                
-                # Check for ~ in prefix
+
+                # Check for ~ or ≈ before r1 (in prefix)
                 tilde_match = re.search(r'~\s*$', prefix)
-                
-                if tilde_match:
-                    # Strip ~ entirely from prefix; add \sim in math
+                approx_match = re.search(r'≈\s*$', prefix)
+
+                # Decide what to do based on prefix and between
+                if tilde_match and (adjacent or between_tilde or between_approx):
+                    # Strip ~ from prefix
                     stripped = prefix[:tilde_match.start()].rstrip()
                     result.append(stripped)
-                    combined = '\\sim ' + r1_content + ' ' + r2_content
+                    if between_approx:
+                        combined = r1_content + ' \\approx ' + r2_content
+                    elif between_tilde:
+                        combined = r1_content + ' \\sim ' + r2_content
+                    else:  # adjacent
+                        combined = '\\sim ' + r1_content + ' ' + r2_content
+                elif approx_match and (adjacent or between_tilde or between_approx):
+                    # Strip ≈ from prefix
+                    stripped = prefix[:approx_match.start()].rstrip()
+                    result.append(stripped)
+                    if between_approx:
+                        combined = r1_content + ' \\approx ' + r2_content
+                    elif between_tilde:
+                        combined = r1_content + ' \\sim ' + r2_content
+                    else:  # adjacent
+                        combined = '\\approx ' + r1_content + ' ' + r2_content
+                elif between_approx:
+                    result.append(prefix)
+                    combined = r1_content + ' \\approx ' + r2_content
+                elif between_tilde:
+                    result.append(prefix)
+                    combined = r1_content + ' \\sim ' + r2_content
                 else:
                     result.append(prefix)
                     combined = r1_content + ' ' + r2_content
-                
+
                 result.append('$' + combined + '$')
                 pos = r2_end
                 i += 2
                 continue
-        
-        # Not adjacent, append prefix + r1 as-is
+
+        # Not adjacent and no ~ / ≈ between
         result.append(prefix)
         result.append(line[r1_start:r1_end])
         pos = r1_end
         i += 1
-    
+
     # Append remaining text
-    result.append(line[pos:])
-    
+    if pos < len(line):
+        result.append(line[pos:])
+
     return ''.join(result)
 
 
@@ -121,40 +188,43 @@ def process_line(line):
         if part.startswith('`') and part.endswith('`') and len(part) >= 2:
             result.append(part)
         else:
-            result.append(combine_adjacent(part))
+            # First pass: handle single-math ~ and ≈
+            part = handle_single_math(part)
+            # Second pass: combine adjacent math
+            part = combine_adjacent(part)
+            result.append(part)
     return ''.join(result)
 
 
 def process_file(path):
-    """Process a markdown file, skipping fenced code blocks."""
     with open(path) as f:
         content = f.read()
-    
+
     lines = content.split('\n')
     in_code_block = False
     new_lines = []
     total_subs = 0
-    
+
     for line in lines:
         if line.startswith('```'):
             in_code_block = not in_code_block
             new_lines.append(line)
             continue
-        
+
         if in_code_block:
             new_lines.append(line)
             continue
-        
+
         new_line = process_line(line)
         if new_line != line:
             total_subs += 1
         new_lines.append(new_line)
-    
+
     new_content = '\n'.join(new_lines)
     if new_content != content:
         with open(path, 'w') as f:
             f.write(new_content)
-    
+
     return total_subs
 
 

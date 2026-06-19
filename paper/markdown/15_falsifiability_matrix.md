@@ -81,7 +81,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### BBN precision (10× improvement)
 
-**SIDC prediction:** DE at BBN era (z = $10^{10}$) is ~$10^{-20}$ of radiation. BBN proceeds as standard.
+**SIDC prediction:** DE at BBN era (z = $10^{10}$) is$\sim 10^{-20}$ of radiation. BBN proceeds as standard.
 
 **Falsification threshold:** If $\rho_{DE}(BBN) > 10^{-20} \times \rho_{rad}(BBN)$, SIDC's BBN prediction is wrong.
 

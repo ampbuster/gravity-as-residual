@@ -114,7 +114,7 @@ where:
 - $\alpha = 1.289$ (the M^1.29 scaling exponent)
 
 **Numerical value**:
-- Prefactor: $(t_{\rm Pl,3}/\tau_{\rm 4D}) \times (\tau_{\rm SN,obs}/\tau_{\rm universe})$ ~ $3.5 \times 10^{-87}$
+- Prefactor: $(t_{\rm Pl,3}/\tau_{\rm 4D}) \times (\tau_{\rm SN,obs}/\tau_{\rm universe}) \sim 3.5 \times 10^{-87}$
 - Exponent: $1/(2\alpha) = 0.388$
 - $(E_{\rm 4D}/E_{\rm SN})^{0.388} = (10^{69}/10^{44})^{0.388} = 10^{9.7} = 5 \times 10^9$
 - $f_{\rm back} = 3.5 \times 10^{-87} \times 5 \times 10^9 = 1.75 \times 10^{-77}$
@@ -215,7 +215,7 @@ energy (for forward γ) AND the grandparent event energy
 
 At level 3 (3D → 2D):
 - Forward: γ_3 = ($E_{\rm 3D}$/E_Pl,3)^α → τ_2D = γ_3 × $t_{\rm Pl,3}$
-- Backward: f_back_3 = ($E_{\rm 4D}$/$E_{\rm 3D}$)^(1/(2α)) × prefactors → ≈ $10^{-85}$ ✓
+- Backward: f_back_3 = ($E_{\rm 4D}$/$E_{\rm 3D}$)^(1/(2α)) × prefactors →$\approx 10^{-85}$ ✓
 
 At level 4 (4D → 3+1D):
 - Forward: γ_4 = ($E_{\rm 4D}$/E_Pl,4)^α → τ_3D = γ_4 × $t_{\rm Pl,4}$
@@ -1290,7 +1290,7 @@ Everything else is derived from these + 2D CFT structure:
 - τ_2D = ($E_{\rm 3D}$/E_Pl,3)^α × $t_{\rm Pl,3}$ (time dilation)
 - $f_{\rm back}$ ~ 10⁻⁸⁵ for SN (closed loop)
 
-Single-particle events ($E_{\rm 3D}$ ~ $v_{\rm Higgs}$) give τ_2D ~ 10⁻⁶⁵ s — BELOW
+Single-particle events ($E_{\rm 3D} \sim v_{\rm Higgs}$) give τ_2D ~ 10⁻⁶⁵ s — BELOW
 2D Planck time. Only MACROSCOPIC events (SN, AGN, GW bursts) create
 2D universes. This is consistent with no observed 2D universes from
 particle physics.

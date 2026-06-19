@@ -84,7 +84,7 @@ This test uses SPARC data to check if HI-rich galaxies have more DM at fixed $M_
 
 *Results:*
 - Overall correlation: f_gas vs $M_{dyn}$(optical)/$M_\star$: r = 0.86 (very strong)
-- Log-log regression: $M_{dyn}$(optical)/$M_\star$ ~ $M_\star$^0.08 * f_gas^0.97
+- Log-log regression: $M_{dyn}$(optical)/$M_\star \sim M_\star$^0.08 * f_gas^0.97
 - f_gas exponent beta = 0.97 (essentially linear)
 
 *Verdict.* **CONFOUNDED** — the f_gas-$M_{dyn}$ correlation is DOMINATED by a gas-radius correlation:
@@ -126,7 +126,7 @@ See `calculations/vflat_morphology_test.py` for the full analysis.
 
 The V1 AGN test (§4.19, commit 230) was confounded by morphology: high-logSFRHa galaxies are mostly late-type (with intrinsically lower $M_{dyn}$/$M_\star$), so the test measured "late vs early type" more than "AGN vs not AGN." This V2 addresses that confound by matching AGN vs control galaxies in **($M_\star$, sigma)** cells, where sigma is a proxy for morphology (high sigma = early-type, low sigma = late-type).
 
-**SIDC prediction:** AGN hosts have ~5-15% more $M_{dyn}$/$M_\star$ than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function (~$10^{25}$ times SN contribution per event).
+**SIDC prediction:** AGN hosts have ~5-15% more $M_{dyn}$/$M_\star$ than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function ($\sim 10^{25}$ times SN contribution per event).
 
 **Data:** MaNGA DR15 (Sanchez+ 2018, J/ApJS/262/36), 10,220 galaxies. WHAN diagram classification (Cid Fernandes+ 2010):
 - 1,655 WHAN AGN (logSFRHa > 0, sigma > 80)
@@ -177,7 +177,7 @@ See `calculations/agn_host_dm_v2.py` and `calculations/agn_host_dm_v2_results.tx
 
 ### 4.35 $f_{\rm active}$ Derivation from 4D Event Dynamics (Tier 1 #2, v2.3.1) — REVERTED in v2.7.1
 
-The V1 status (commit 121) was that $f_{\rm active}$ was constrained to 0.05-0.18 by 3+1D data, with a 4× gap DOCUMENTED as Limitation 20. This V2 derives $f_{\rm active}$ from first principles using a 4D event energetics argument. **v2.7.1 update:** the identification $\tau_{2D}$ ~ $0.7$ Gyr (gas consumption timescale, Bigiel+ 2008, Kennicutt-Schmidt law) is a SEPARATE POSTULATE identified by physical analogy, not a first-principles derivation. The "derivation" $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ is REVERTED in v2.7.1: $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). The numerical coincidence (0.051 from the postulate matches 0.0513 from MCMC) is striking but does not constitute a derivation. Limitation 20 status: PARTIAL → REVERTED (see §7.0).
+The V1 status (commit 121) was that $f_{\rm active}$ was constrained to 0.05-0.18 by 3+1D data, with a 4× gap DOCUMENTED as Limitation 20. This V2 derives $f_{\rm active}$ from first principles using a 4D event energetics argument. **v2.7.1 update:** the identification $\tau_{2D} \sim 0.7$ Gyr (gas consumption timescale, Bigiel+ 2008, Kennicutt-Schmidt law) is a SEPARATE POSTULATE identified by physical analogy, not a first-principles derivation. The "derivation" $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ is REVERTED in v2.7.1: $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). The numerical coincidence (0.051 from the postulate matches 0.0513 from MCMC) is striking but does not constitute a derivation. Limitation 20 status: PARTIAL → REVERTED (see §7.0).
 
 **The derivation:**
 
@@ -185,7 +185,7 @@ For a 4D event with approximately constant output R(t) over the universe's lifet
 
 $$f_{active} = \frac{N_{active}}{N_{cumulative}} = \frac{R \cdot \tau_{2D}}{R \cdot T_{universe}} = \frac{\tau_{2D}}{T_{universe}}$$
 
-**Identifying $\tau_{2D}$:** The 2D universe's lifetime is set by its internal dynamics — the time for the 2D universe to consume its fuel and return energy to 3+1D via $S_{\rm destruction}$. By physical analogy with our universe's gas consumption timescale (Bigiel+ 2008, Kennicutt-Schmidt law): **$\tau_{2D}$ ~ $0.7$ Gyr**.
+**Identifying $\tau_{2D}$:** The 2D universe's lifetime is set by its internal dynamics — the time for the 2D universe to consume its fuel and return energy to 3+1D via $S_{\rm destruction}$. By physical analogy with our universe's gas consumption timescale (Bigiel+ 2008, Kennicutt-Schmidt law): **$\tau_{2D} \sim 0.7$ Gyr**.
 
 **Result:**
 $$f_{active} = \frac{0.7  Gyr}{13.8  Gyr} = 0.051$$
@@ -207,7 +207,7 @@ These are TWO DIFFERENT physical processes:
 
 Both are real, both are ~1-3 Gyr, but they're not the same. The "5% in three places" mystery (commit 121) is now explained: **gas consumption (0.7 Gyr) is the relevant LOCAL timescale, not the cosmic SFR peak (2.5 Gyr).**
 
-**Closed limitation (v2.3.1, REVERTED v2.7.1):** Limitation 20 ($f_{\rm active}$ derivation limitation) was **CLOSED** by this derivation in v2.3.1. $f_{\rm active}$ was no longer a "fit" but a "derivation" from $\tau_{2D}$ / $T_{\rm universe}$, with $\tau_{2D}$ identified by physical analogy with gas consumption. **v2.7.1 update:** the identification $\tau_{2D}$ ~ $0.7$ Gyr is a SEPARATE POSTULATE, not a first-principles derivation. The "CLOSED" status is REVERTED in v2.7.1; $f_{\rm active}$ is a FREE PARAMETER (see §7.0 L20 and the §4.35 header).
+**Closed limitation (v2.3.1, REVERTED v2.7.1):** Limitation 20 ($f_{\rm active}$ derivation limitation) was **CLOSED** by this derivation in v2.3.1. $f_{\rm active}$ was no longer a "fit" but a "derivation" from $\tau_{2D}$ / $T_{\rm universe}$, with $\tau_{2D}$ identified by physical analogy with gas consumption. **v2.7.1 update:** the identification $\tau_{2D} \sim 0.7$ Gyr is a SEPARATE POSTULATE, not a first-principles derivation. The "CLOSED" status is REVERTED in v2.7.1; $f_{\rm active}$ is a FREE PARAMETER (see §7.0 L20 and the §4.35 header).
 
 **Predictions of this derivation:**
 1. $f_{\rm active}$ should be **UNIVERSAL across galaxy types** ($\tau_{2D}$ is a property of the 2D universe, not the host galaxy).
@@ -220,7 +220,7 @@ Both are real, both are ~1-3 Gyr, but they're not the same. The "5% in three pla
 - MCMC posterior: 0.0513 ± 0.0073 — within 1σ of 0.051, no tension.
 
 **Honest caveats:**
-- The $\tau_{2D}$ ~ $0.7$ Gyr identification is by PHYSICAL ANALOGY (gas consumption in our universe → 2D universe lifetime), not a first-principles derivation.
+- The $\tau_{2D} \sim 0.7$ Gyr identification is by PHYSICAL ANALOGY (gas consumption in our universe → 2D universe lifetime), not a first-principles derivation.
 - A full Lagrangian would derive $\tau_{2D}$ from L_2D (Limitation 26, "A full Lagrangian is the unfinished business of fundamental physics").
 - The "0.7 Gyr" is approximatelyimate; a more precise $\tau_{2D}$ would give a more precise $f_{\rm active}$.
 - But the **ORDER OF MAGNITUDE is right**, and the LOCAL vs GLOBAL distinction is a real, testable prediction.
@@ -237,7 +237,7 @@ A definitive test requires per-morphology MCMC fitting (joint fit of $f_{\rm act
 
 See `calculations/derive_4d_factive_v2_test.py` and `calculations/derive_4d_factive_v2_test_results.txt` for the full preliminary analysis. **Status: prediction #1 documented but not definitively tested.**
 
-**Verdict (v2.3.1, REVERTED v2.7.1):** $f_{\rm active}$ was *claimed* to be derivable from 4D event physics in v2.3.1; Limitation 20 was *claimed* to be CLOSED. The 4× gap was reframed as a feature (LOCAL vs GLOBAL). **v2.7.1 update:** the "derivation" used $\tau_{2D}$ ~ $0.7$ Gyr as a SEPARATE POSTULATE (gas consumption timescale, identified by physical analogy), not a first-principles derivation. The numerical match (0.051 vs 0.0513) is striking but does not constitute a derivation. L20 status is REVERTED in v2.7.1; $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC.
+**Verdict (v2.3.1, REVERTED v2.7.1):** $f_{\rm active}$ was *claimed* to be derivable from 4D event physics in v2.3.1; Limitation 20 was *claimed* to be CLOSED. The 4× gap was reframed as a feature (LOCAL vs GLOBAL). **v2.7.1 update:** the "derivation" used $\tau_{2D} \sim 0.7$ Gyr as a SEPARATE POSTULATE (gas consumption timescale, identified by physical analogy), not a first-principles derivation. The numerical match (0.051 vs 0.0513) is striking but does not constitute a derivation. L20 status is REVERTED in v2.7.1; $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC.
 
 See `calculations/derive_4d_factive_v2.py` and `calculations/derive_4d_factive_v2_results.txt` for full analysis.
 
@@ -249,20 +249,20 @@ SIDC is **scale-invariant by default** (per v2.3.1), meaning the same dimensiona
 
 This section audits 5 specific concerns about the 4D math. Full numerical analysis is in `calculations/audit_4d_math.py` and `calculations/audit_4d_math_results.txt`.
 
-**(1) Hierarchy concentration at 4D→3+1D.** Strict scale-invariance would distribute the observed Planck hierarchy ($1 \times 10^{-38}$) across all SIDC levels (e.g., ~$1 \times 10^{-19}$ per level for 2 levels, ~$2 \times 10^{-13}$ for 3 levels). SIDC **POSTULATES** that the hierarchy is concentrated at the 4D→3+1D level, not distributed. This is an **architectural choice**, not a derivation. SIDC does not currently say *why* 4D is the special hierarchy-generating level — this is Limitation 1 (no derivation of the dimensional structure).
+**(1) Hierarchy concentration at 4D→3+1D.** Strict scale-invariance would distribute the observed Planck hierarchy ($1 \times 10^{-38}$) across all SIDC levels (e.g.,$\sim 1 \times 10^{-19}$ per level for 2 levels,$\sim 2 \times 10^{-13}$ for 3 levels). SIDC **POSTULATES** that the hierarchy is concentrated at the 4D→3+1D level, not distributed. This is an **architectural choice**, not a derivation. SIDC does not currently say *why* 4D is the special hierarchy-generating level — this is Limitation 1 (no derivation of the dimensional structure).
 
-**(2) Time direction.** SIDC's time-dilation rule T_3+1D = T_4D / ε_3+1D with ε_3+1D ~ $1 \times 10^{-38}$ gives T_4D ~ $1 \times 10^{-21}$ s and L_4D ~ $1 \times 10^{-12}$ m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
+**(2) Time direction.** SIDC's time-dilation rule T_3+1D = T_4D / ε_3+1D with ε_3+1D$\sim 1 \times 10^{-38}$ gives T_4D$\sim 1 \times 10^{-21}$ s and L_4D$\sim 1 \times 10^{-12}$ m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
 
 **(3) Energy conservation.** SIDC's energy budget: 32% of $E_{4D}$ projects to 3+1D (5% direct matter + 27% cumulative 2D universe DM), and 68% remains as 4D antigravity (which we observe as 3+1D's dark energy). This is self-consistent under careful interpretation of "projection" — the 68% DE in 3+1D is the *back-projected antigravity* of the 4D event, not the 68% of $E_{4D}$ that didn't project. Total energy is conserved via Stoke's theorem in the action (§2.5.1).
 
-**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires ~$1 \times 10^{-19}$ hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
+**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires$\sim 1 \times 10^{-19}$ hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
 
 **(5) Infinite regress.** In strict scale-invariance, SIDC has no "top" or "bottom" — it extends infinitely in both directions. Physics does not require a "first cause" (e.g., eternal inflation has no first moment). Each level is self-consistent. Energy is conserved at every level (Stoke's theorem). SIDC is OK with infinite regress, but the v2.1 cone-shape alternative (terminal at 2D) avoids the question by fiat. Both are valid; the choice is architectural (Limitation 11.5).
 
 **VERDICT: 4D math is self-consistent, with limitations:**
 
 **[PASS]** Hierarchy is concentrated at 4D→3+1D (matches observation, but is a postulate)
-**[PASS]** Time direction works (T_4D ~ $1 \times 10^{-21}$ s, L_4D ~ $1 \times 10^{-12}$ m, Dark Dimension scale)
+**[PASS]** Time direction works (T_4D$\sim 1 \times 10^{-21}$ s, L_4D$\sim 1 \times 10^{-12}$ m, Dark Dimension scale)
 **[PASS]** Energy conservation is consistent
 **[PASS]** Open upward is mathematically OK
 **[PASS]** Infinite regress is physically acceptable
@@ -352,7 +352,7 @@ where:
    where the ρ² term is the high-energy correction, Λ_4 is the brane CC, and E is dark radiation from the 5D Weyl tensor.
 
 3. **2D universe lifetime (from brane tension):**
-   $\tau_{2D}$ = L_event / c (postulate), but SIDC's $f_{\rm active}$ ~ 0.05 requires $\tau_{2D}$ ~ $0.7$ Gyr (gas consumption, see §4.35). Resolution: $\tau_{2D}$ is the 2D universe's MATTER consumption timescale, not its gravitational-collapse timescale.
+   $\tau_{2D}$ = L_event / c (postulate), but SIDC's $f_{\rm active}$ ~ 0.05 requires $\tau_{2D} \sim 0.7$ Gyr (gas consumption, see §4.35). Resolution: $\tau_{2D}$ is the 2D universe's MATTER consumption timescale, not its gravitational-collapse timescale.
 
 **Constraint check (10 SIDC constraints from §2.5.1):**
 
@@ -361,7 +361,7 @@ where:
 | 1 | Dimensional structure: 4D bulk + 3+1D brane + 2D universes | **[PASS]** SATISFIED by construction |
 | 2 | Projection efficiency: 32% projected, 68% antigravity | ? OPEN: requires specific geometry |
 | 3 | Inner split: 5% direct, 27% cumulative 2D | ? OPEN: requires 2D lifetime analysis |
-| 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε~$1 \times 10^{-38}$) |
+| 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε$\sim 1 \times 10^{-38}$) |
 | 5 | $f_{\rm active}$ = 0.0513 ± 0.0073 | ? OPEN: requires $\tau_{2D}$/$T_{\rm universe}$ (done in §4.35) |
 | 6 | Spatial distribution: isothermal cumulative | **[PASS]** SATISFIED (2D 1/r gravity gives isothermal) |
 | 7 | $H_0 = 70$ ± 3 (qualitative consistency) | ? OPEN: requires 2D CFT for specific value |
@@ -402,7 +402,7 @@ Per user question "can't we trial-and-error on the free parameters?", this secti
 **Q1 & Q4: Can trial-and-error give 32% projection efficiency?** YES.
 
 For f_split = 0.32 (SIDC's 32%/68% split between projected and antigravity, NOT to be confused with the back-projection efficiency f_proj used elsewhere in the paper), the bulk-brane coupling α must be at a specific order of magnitude:
-- For $E_{4D}$ ~ $1 \times 10^{60}$ J (rough 4D event total energy), N_events ~ $1 \times 10^{10}$ (total SN in 13.8 Gyr), E_event ~ $1 \times 10^{44}$ J, $\tau_{2D}$ ~ $0.7$ Gyr:
+- For $E_{4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events$\sim 1 \times 10^{10}$ (total SN in 13.8 Gyr), E_event$\sim 1 \times 10^{44}$ J, $\tau_{2D} \sim 0.7$ Gyr:
 - α ~ 0.03-0.3 gives f_split ≈ 0.32
 
 The coupling α is NOT free — it's constrained to α ~ 0.03-0.3 by the observed 68% dark energy. This **partially closes Limitation 26** by reducing the free parameters from 5 to 3.
@@ -429,11 +429,11 @@ Reverting to 2D=3+1D would require:
 **Q3: What gives $\tau_{2D} = 0.7$ Gyr?** YES, with fine-tuning.
 
 SIDC's $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ = 0.7/13.8 = 0.051 requires $\tau_{2D} = 0.7$ Gyr (the gas consumption timescale). This is **not arbitrary** — it's a specific timescale that can be matched by:
-- $M_{2D}$ ~ $1 \times 10^{46}$ J (2D universe's total energy)
-- L_consumption ~ $1 \times 10^{28}$ W (2D universe's energy consumption rate)
+- $M_{2D} \sim 1 \times 10^{46}$ J (2D universe's total energy)
+- L_consumption$\sim 1 \times 10^{28}$ W (2D universe's energy consumption rate)
 - → $\tau_{2D} = M_{2D}$ / L_consumption = 0.7 Gyr **[PASS]**
 
-This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D}$ ~ $1 \times 10^{46}$ J and gas consumption rate ~ $1 \times 10^{28}$ W would naturally have a 0.7 Gyr lifetime.
+This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D} \sim 1 \times 10^{46}$ J and gas consumption rate$\sim 1 \times 10^{28}$ W would naturally have a 0.7 Gyr lifetime.
 
 **Q4 (Q4 again): Can the 5/27 inner split emerge from dynamics?** NO, the 5/27 inner split was DROPPED in v2.7.1.
 
@@ -441,7 +441,7 @@ The 5/27 inner split was previously claimed to be derivable from $f_{\rm active}
 - $\tau_{2D} = 0.7$ Gyr → $f_{\rm active}$ = 0.05 (gas consumption timescale, matches MCMC)
 - $\tau_{2D} = 2.5$ Gyr → $f_{\rm active}$ = 0.18 (cosmic SFR peak timescale, matches 5/27 ratio)
 
-But the empirical 33 s lifetime gives $f_{\rm active}$ ~ $10^{-17}$, NOT 0.05. The 5/27 inner split was a SEPARATE POSTULATE based on a phenomenological RAR MCMC fit, and it conflicted with the empirical 33 s lifetime. In v2.7.1, the 5/27 inner split is DROPPED. **Limitation 17 (5/27 derivation) is reopened as NOT DERIVED.**
+But the empirical 33 s lifetime gives $f_{\rm active} \sim 10^{-17}$, NOT 0.05. The 5/27 inner split was a SEPARATE POSTULATE based on a phenomenological RAR MCMC fit, and it conflicted with the empirical 33 s lifetime. In v2.7.1, the 5/27 inner split is DROPPED. **Limitation 17 (5/27 derivation) is reopened as NOT DERIVED.**
 
 **Q5: Does SIDC derive a specific $H_0$?** (v2.5 update)
 
@@ -457,7 +457,7 @@ A 2D CFT calculation is needed to derive the specific active boost and cumulativ
 |---|-----------|------------------------|--------|
 | 1 | L_2D (2D matter content) | NO | Requires picking a specific 2D theory (not derivable) |
 | 2 | α (bulk-brane coupling) | YES | α ~ 0.03-0.3 for f_split = 0.32 **[PASS]** |
-| 3 | Death mechanism | YES | $M_{2D}$ ~ $1 \times 10^{46}$ J, L_rate ~ $1 \times 10^{28}$ W for $\tau_{2D} = 0.7$ Gyr **[PASS]** |
+| 3 | Death mechanism | YES | $M_{2D} \sim 1 \times 10^{46}$ J, L_rate$\sim 1 \times 10^{28}$ W for $\tau_{2D} = 0.7$ Gyr **[PASS]** |
 | 4 | T^DM at death (spatial) | NO | Requires picking a specific distribution (not derivable) |
 | 5 | 5/27/68 inner split | YES (resolved §4.35) | $f_{\rm active}$ = $\tau_{2D}$/$T_{\rm universe}$ = 0.051 **[PASS]** |
 
@@ -587,7 +587,7 @@ See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_predi
 
 **The question:** is SIDC's $g_+$ universal across galaxy masses, or does it have a mass dependence?
 
-**Approach.** Fit (M/L, $g_+$) per galaxy on the SPARC database (Lelli+ 2016c), using the MOND interpolation function. Use quality cuts (Q ≥ 1, residual < 0.1) to get 43 high-quality fits across 4.5 decades in baryonic mass ($M_{b}$ ~ $6.5$ × $10^{6}$ to 2.5 × $10^{11} M_\odot$).
+**Approach.** Fit (M/L, $g_+$) per galaxy on the SPARC database (Lelli+ 2016c), using the MOND interpolation function. Use quality cuts (Q ≥ 1, residual < 0.1) to get 43 high-quality fits across 4.5 decades in baryonic mass ($M_{b} \sim 6.5$ × $10^{6}$ to 2.5 × $10^{11} M_\odot$).
 
 **Results.**
 
@@ -716,7 +716,7 @@ This is a **Neumann-Dirichlet hybrid boundary condition** (also called a *reflec
 
 - **$J^A_{bulk} = 0$ at Σ** means: the bulk energy flux through the 3+1D brane hypersurface is *identically zero*. No energy leaks from the 3+1D brane into the AdS$_5$ bulk, and no bulk energy leaks onto the 3+1D brane except via the fossil term $T_{\mu\nu}^{fossil}$.
 - **Israel junction condition** (Israel 1966): the jump in extrinsic curvature $K_{\mu\nu}$ across the brane is fixed by the brane-localized stress-energy. With $J^A_{bulk} = 0$, the junction is *geometrically locked*: the bulk channel is non-propagating for the $S_{destruction}$ payload, and the fossil's energy is *fully deposited* on the 3+1D brane.
-- **Physical meaning:** the 2D universe's death energy ($S_{destruction}$ ~ $10^{45}$ J per event) is *not* allowed to leak into the bulk. 100% of it must return to 3+1D. This is the *staying fraction* $f_{back} = 1$ promoted from a postulate (v2.3.2) to a *derived consequence* of the BC (v2.4).
+- **Physical meaning:** the 2D universe's death energy ($S_{destruction} \sim 10^{45}$ J per event) is *not* allowed to leak into the bulk. 100% of it must return to 3+1D. This is the *staying fraction* $f_{back} = 1$ promoted from a postulate (v2.3.2) to a *derived consequence* of the BC (v2.4).
 - **What this BC eliminates:** the $f_{back}$ free parameter is now *derived* (set to 1 by the BC), not *postulated*. The free-parameter count in the v2.3.2 framework (5+) drops to 2-3 active parameters in v2.4 (the remaining are $G_5$, α, and the dimensional $\tau_{2D}$ postulate; see §4.44.1 Task 1 and the §4.44.2 framework comparison).
 - **What this BC requires:** the bulk AdS$_5$ geometry must be *Z$_2$-symmetric* across Σ (the standard Randall-Sundrum II / DGP assumption). A more general bulk geometry (e.g., a non-Z$_2$ asymmetric warp) would require a *modified* BC, which is left to future work.
 - **Verification:** the $J^A_{bulk} = 0$ BC is implemented and verified in `calculations/verify_v24_refactor.py` Check A (Bianchi identity preserved under the BC) and Check B (parameter reduction achieved). See `supporting/T_tensor_v24_refactor.md` §3.1 for the full derivation.
@@ -735,7 +735,7 @@ The proof is given in `supporting/T_tensor_construction.md` §4.4. Each term is 
 
 **Verification against physical constraints** (all PASS, see `calculations/verify_tensor_pipeline.py`):
 
-1. **UV / high-energy limit**: at $T_{\mu\nu} \geq E_{crit}$ ~ $10^{30}$ J, the quadratic term $S_{\mu\nu}$ dominates the linear $T_{\mu\nu}$, providing the threshold trigger for 2D universe creation.
+1. **UV / high-energy limit**: at $T_{\mu\nu} \geq E_{crit} \sim 10^{30}$ J, the quadratic term $S_{\mu\nu}$ dominates the linear $T_{\mu\nu}$, providing the threshold trigger for 2D universe creation.
 2. **2D vacuum limit**: in regions without energetic events (Sun, voids), $R^{(2)} = 0 \implies T_{\mu\nu}^{fossil} = 0$, ensuring no un-derived DM accumulation. The Sun has zero SIDC DM (matches observation).
 3. **Bulk leakage**: in the $f_{back} = 1$ limit, the 2D universe's full energy returns to 3+1D, so $\nabla^\mu E_{\mu\nu} = 0$ and the total is exactly conserved.
 
@@ -763,7 +763,7 @@ The v2.3.2 tensor pipeline is an "experimental sketch." The v2.4 refactor implem
 
 $$J^A_{bulk} \Big|_{Hypersurface} = T^{AB}_{bulk} n_B \Big|_{y=0} = 0$$
 
-This is a Neumann/Dirichlet hybrid BC that makes the bulk *reflective* (Z2-symmetric). The Israel junction is geometrically locked such that the bulk channel is non-propagating for the $S_{destruction}$ payload. **Result: $f_{back}^{destruction}$ (the fraction of $S_{destruction}$ energy that returns to the 3+1D brane as DM) is now DERIVED as 1 from the bulk BC, not postulated. NOTE: this is a *different* $f_{back}$ than the dark-energy staying fraction $f_{back}^{DE}$ ~ $10^{-85}$ in §2.6, which remains a postulate. The two are not the same parameter; the paper's use of $f_{back}$ for both is a notational overload that should be cleaned up in a future revision.**
+This is a Neumann/Dirichlet hybrid BC that makes the bulk *reflective* (Z2-symmetric). The Israel junction is geometrically locked such that the bulk channel is non-propagating for the $S_{destruction}$ payload. **Result: $f_{back}^{destruction}$ (the fraction of $S_{destruction}$ energy that returns to the 3+1D brane as DM) is now DERIVED as 1 from the bulk BC, not postulated. NOTE: this is a *different* $f_{back}$ than the dark-energy staying fraction $f_{back}^{DE} \sim 10^{-85}$ in §2.6, which remains a postulate. The two are not the same parameter; the paper's use of $f_{back}$ for both is a notational overload that should be cleaned up in a future revision.**
 
 **Task 2: Central charge $c$ bounds.** Type-sign $c$ with explicit bounds:
 
@@ -859,7 +859,7 @@ These 2-3 (or 4) parameters define the SPECIFIC SIDC model. Everything else is a
 The framework is now EXPRESSIBLE in standard form. To complete SIDC, the physicist would:
 1. Pick L_2D from a standard 2D CFT (e.g., c=1 minimal model, c=26 bosonic string, c=15/2 supersymmetric, etc.)
 2. Compute α from the bulk-brane junction conditions (Israel + Z2 symmetry)
-3. Derive $G_5$ from the specific AdS₅ geometry (RS-II gives $G_5$ ~ $1$/M_5^3 with M_5 ~ TeV)
+3. Derive $G_5$ from the specific AdS₅ geometry (RS-II gives $G_5 \sim 1$/M_5^3 with M_5 ~ TeV)
 4. Verify $\tau_{2D}$ = L_event/c from the 2D CFT dynamics
 
 These are 4 well-posed sub-problems in brane-world + CFT physics. A specialist could solve them in ~6 months.
@@ -905,7 +905,7 @@ Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type st
 **Caveats (v2.7.35+, legacy_paper.md legacy_paper.md §3.29):**
 - DM content is CONTESTED in 2022-2025 literature (Mancera Piña 2022 vs Sellwood 2022)
 - Mancera Piña 2024 finds inclination 31±2°; CDM needs unusual halo; SIDM/FDM remain feasible
-- SIDC's $M_{dyn}$/$M_{b}$ ~ $1.36$ is consistent with Mancera Piña 2022 but not with Sellwood 2022
+- SIDC's $M_{dyn}$/$M_{b} \sim 1.36$ is consistent with Mancera Piña 2022 but not with Sellwood 2022
 
 **Test 2: KKR 25 (dSph, Makarov+ 2012).**
 
@@ -922,11 +922,11 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 - KKR 25 has NO published velocity dispersion
 - SIDC's $M_{dyn}$ is estimated, not measured
 - No new observations in 2024-2026 literature
-- SIDC's $M_{dyn}$/$M_{b}$ ~ $1$-4 is a range, not a specific value
+- SIDC's $M_{dyn}$/$M_{b} \sim 1$-4 is a range, not a specific value
 
 **What SIDC commits to (v2.7.36+):**
-- AGC 114905: $M_{dyn}$/$M_{b}$ ~ $1.36$ (consistent with Mancera Piña 2022)
-- KKR 25: $M_{dyn}$/$M_{b}$ ~ $1$-4 (estimated, consistent with typical dSph)
+- AGC 114905: $M_{dyn}$/$M_{b} \sim 1.36$ (consistent with Mancera Piña 2022)
+- KKR 25: $M_{dyn}$/$M_{b} \sim 1$-4 (estimated, consistent with typical dSph)
 - The SFH-DM correlation is preserved (intermediate SF → DM)
 - The PAIRWISE COMPARISON (bifurcation) is REMOVED
 
@@ -1016,7 +1016,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 | **SIDC $M_{dyn}/M_b$** | **299.19** | **1-4** | dimensionless | emulator output (revised) |
 | **Observed $M_{dyn}/M_b$** | ~100-1000 | ~1-4 | dimensionless | dSph typical (revised) |
 
-**Result: KKR 25 has $M_{dyn}$/$M_{b}$ ~ $1$-4 (REVISED v2.7.33+), consistent with dSph observations of typical values. PASS (revised).**
+**Result: KKR 25 has $M_{dyn}$/$M_{b} \sim 1$-4 (REVISED v2.7.33+), consistent with dSph observations of typical values. PASS (revised).**
 
 **The 820× → 219× bifurcation in raw numbers.** REVISED v2.7.33+:
 
@@ -1080,11 +1080,11 @@ For stellar-only 2D universe creation (Madau & Dickinson 2014 cosmic SFR, CCSN r
 **The energetic analysis: what $F_{\rm stellar}$ does SIDC's own physics predict?**
 
 SIDC's own energetics predict that *stellar/AGN activity dominates* 2D universe creation:
-- Inflation (z>$10^{25}$): $10^{60}$+ J per Hubble volume, but in only ~$10^{180}$ m^3 of space
-- Electroweak phase transition (z~$10^{15}$): $10^{47}$ J per horizon
-- QCD phase transition (z~$10^{12}$): $10^{47}$ J per horizon
+- Inflation (z>$10^{25}$): $10^{60}$+ J per Hubble volume, but in only$\sim 10^{180}$ m^3 of space
+- Electroweak phase transition (z$\sim 10^{15}$): $10^{47}$ J per horizon
+- QCD phase transition (z$\sim 10^{12}$): $10^{47}$ J per horizon
 - Primordial black hole formation (z~10-100): $10^{40}$ J per event
-- **Stellar CCSN (z<10): $10^{46}$ J per event, ~$10^{60}$ events over cosmic history**
+- **Stellar CCSN (z<10): $10^{46}$ J per event,$\sim 10^{60}$ events over cosmic history**
 
 After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contribute <$10^{-20}$ of today's DM density. SIDC's own physics predicts **$F_{\rm stellar}$ ~ 1** (essentially all of today's DM is from stellar/AGN activity).
 
@@ -1193,7 +1193,7 @@ The phenomenological emulator (§4.45-§4.46) uses 4 modules. REVISED v2.7.36+: 
 
 **10. Sun no-DM test (verified).**
 
-The Sun's intrinsic DM is computed as ~$10^{-17}$ of the local DM, which is consistent with direct-detection limits. The threshold principle (energy *deposition* in 3+1D, not particle *existence*) correctly explains why neutrinos (which mostly pass through) don't contribute to DM. The result is qualitatively correct.
+The Sun's intrinsic DM is computed as$\sim 10^{-17}$ of the local DM, which is consistent with direct-detection limits. The threshold principle (energy *deposition* in 3+1D, not particle *existence*) correctly explains why neutrinos (which mostly pass through) don't contribute to DM. The result is qualitatively correct.
 
 **Status:** verified. The Sun test is a consistency check, not a quantitative test.
 

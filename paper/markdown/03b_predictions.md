@@ -265,9 +265,9 @@ The 5 best extreme test candidates from the 2024-2026 literature:
 
 | # | Object | Why extreme | SIDC prediction | Status |
 |---|--------|-------------|---------------------|--------|
-| 1 | **Tidal Dwarf Galaxies (TDGs)** | Form from tidal debris, no past SF in TDG itself | $M_{dyn}$/$M_{b}$ ~ $1$ (NO DM) | STRONGEST TEST (Gentile+ 2007) |
+| 1 | **Tidal Dwarf Galaxies (TDGs)** | Form from tidal debris, no past SF in TDG itself | $M_{dyn}$/$M_{b} \sim 1$ (NO DM) | STRONGEST TEST (Gentile+ 2007) |
 | 2 | **JWST z > 4 massive quiescents** | Massive galaxies already dead by z=4-5 | Very high $M_{dyn}$/$M_{b}$ | HIGHEST PAST SF TEST (RUBIES, ZF-UDS, Cosmic Stillness) |
-| 3 | **Crater II** | MW satellite with very low $M_{dyn}$/$M_{b}$ | $M_{dyn}$/$M_{b}$ ~ $1$ (low past SF) | Confounded by tidal disruption (Vivas+ 2025) |
+| 3 | **Crater II** | MW satellite with very low $M_{dyn}$/$M_{b}$ | $M_{dyn}$/$M_{b} \sim 1$ (low past SF) | Confounded by tidal disruption (Vivas+ 2025) |
 | 4 | **Antlia 2** | 100× more diffuse than typical UDGs | Extremely low $M_{dyn}$/$M_{b}$ | Clean test candidate (Torrealba+ 2018) |
 | 5 | **Ultra-faint dwarfs (UFDs)** | Most DM-dominated known galaxies | High $M_{dyn}$/$M_{b}$ (efficient SF) | Statistical sample needed |
 
@@ -283,7 +283,7 @@ lack dark matter: tidal dwarf galaxies" revisits this issue.
 
 **SIDC prediction**: TDGs form from gas stripped off a parent
 galaxy during interaction. The TDG itself has no past SF, so the
-SIDC predicts $M_{dyn}$/$M_{b}$ ~ $1$ (NO DM). If TDGs are DM-rich, the
+SIDC predicts $M_{dyn}$/$M_{b} \sim 1$ (NO DM). If TDGs are DM-rich, the
 SIDC is WRONG.
 
 **Status**: TDG DM content is contested. Some studies find DM-rich
@@ -307,7 +307,7 @@ short time (z ~ 11 to z ~ 5). SIDC predicts they should
 have very high $M_{dyn}$ from the cumulative 2D universe deaths.
 
 **Testable**: If $M_{dyn}$/$M_{b}$ is high for these galaxies, SIDC
-is right. If $M_{dyn}$/$M_{b}$ ~ $1$, SIDC is wrong.
+is right. If $M_{dyn}$/$M_{b} \sim 1$, SIDC is wrong.
 
 **Current limitation**: Direct $M_{dyn}$ measurements at z > 4 are hard
 (no resolved dynamics). Indirect tests via gravitational lensing
@@ -318,7 +318,7 @@ or clustering.
 Crater II (Caldwell+ 2017) is a Milky Way satellite with:
 - M_V ~ -8
 - Very low velocity dispersion (σ ~ 2.7 km/s)
-- $M_{dyn}$/$M_{b}$ ~ $1$ (very low DM)
+- $M_{dyn}$/$M_{b} \sim 1$ (very low DM)
 - 2025 papers show it's "undeniably experiencing tidal disruption"
 
 **SIDC prediction**: Crater 2 had low past SF (M_V ~ -8 means
@@ -338,7 +338,7 @@ Antlia 2 (Torrealba+ 2018) is the largest known MW satellite:
 
 **SIDC prediction**: Extremely low past SF (it's a ghost galaxy
 with very few stars) → extremely low $M_{dyn}$. SIDC predicts
-$M_{dyn}$/$M_{b}$ ~ $1$ (or even less, since it's so diffuse).
+$M_{dyn}$/$M_{b} \sim 1$ (or even less, since it's so diffuse).
 
 **Testable**: With proper velocity dispersion data, this is a clean
 test of SIDC's "low past SF → low DM" rule.
@@ -348,7 +348,7 @@ test of SIDC's "low past SF → low DM" rule.
 The MW satellite ultra-faint dwarfs (Bootes I, II, III, IV, Segue 1,
 Willman 1, Tucana II, etc.) are the most DM-dominated known galaxies:
 - M_V ~ -2 to -6
-- $M_{dyn}$/$M_{b}$ ~ $100$-1000 (very high)
+- $M_{dyn}$/$M_{b} \sim 100$-1000 (very high)
 
 **SIDC prediction**: UFDs are unusual — they have low total
 mass but their SF was EFFICIENT (low mass but high past SF rate).
@@ -375,7 +375,7 @@ should show a steep relation (high $M_{dyn}$/$M_{b}$ at low $M_{b}$).
 
 **3.30.8 New limitations (v2.7.37+).**
 
-- **L43**: TDGs are a strong test; SIDC predicts $M_{dyn}$/$M_{b}$ ~ $1$
+- **L43**: TDGs are a strong test; SIDC predicts $M_{dyn}$/$M_{b} \sim 1$
   but Gentile+ 2007 finds DM-rich. NEEDS RESOLUTION.
 - **L44**: JWST massive quiescent z > 4 galaxies are an extreme
   test; $M_{dyn}$ measurements are needed.
@@ -396,7 +396,7 @@ This would strengthen SIDC's SFH-DM correlation from
 
 **Falsifiability**: 
 - If TDGs are DM-rich (Gentile 2007 is right): SIDC wrong
-- If z > 4 massive quiescents have $M_{dyn}$/$M_{b}$ ~ $1$: SIDC wrong
+- If z > 4 massive quiescents have $M_{dyn}$/$M_{b} \sim 1$: SIDC wrong
 - If UFDs do NOT show steep $M_{dyn}$/$M_{b}$ vs $M_{b}$: SIDC wrong
 - If all 17-22 new tests pass: SIDC's SFH-DM correlation is
   much more strongly supported
@@ -593,7 +593,7 @@ orders of magnitude in $M_{b}$ (from GCs at $10^{5}$ to clusters at $10^{14}$):
 | Boötes I | $3.0 \times 10^{4}$ | $6.7 \times 10^{6}$ | 222.9 | UFD | **[PASS]** |
 | Segue 1 | $6.0 \times 10^{2}$ | $4.8 \times 10^{5}$ | 796.1 | UFD | **[PASS]** |
 | Tucana II | $2.3 \times 10^{3}$ | $3.9 \times 10^{6}$ | 1689.6 | UFD | **[PASS]** |
-| KKR 25 ([!]️ estimated) | $3.0 \times 10^{6}$ | ~$3 \times 10^{6}$ *(est.)* | ~1 *(est.)* | dSph | **[PASS]** |
+| KKR 25 ([!]️ estimated) | $3.0 \times 10^{6}$ |$\sim 3 \times 10^{6}$ *(est.)* | ~1 *(est.)* | dSph | **[PASS]** |
 | LMC | $3.0 \times 10^{9}$ | $2.0 \times 10^{10}$ | 6.7 | Irregular | **[PASS]** |
 | SMC | $5.0 \times 10^{8}$ | $3.0 \times 10^{9}$ | 6.0 | Irregular | **[PASS]** |
 | M82 (NGC 3034) | $1.0 \times 10^{10}$ | $4.0 \times 10^{10}$ | 4.0 | Starburst | **[PASS]** |
@@ -610,13 +610,13 @@ orders of magnitude in $M_{b}$ (from GCs at $10^{5}$ to clusters at $10^{14}$):
 
 The $M_{dyn}$/$M_{b}$ ratio varies systematically with galaxy type:
 
-- **Globular clusters ($10^{5}$-$10^{7} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $1$ (no current activity)
-- **Dwarf galaxies ($10^{5}$-$10^{8} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $1$-1700 (huge spread)
-- **UFDs ($10^{2}$-$10^{4} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $50$-1700 (extreme)
-- **Irregular galaxies ($10^{8}$-$10^{9} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $6$-7
-- **Normal spirals ($10^{10}$-$10^{11} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $14$-30
-- **AGN hosts ($10^{12} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $50$
-- **Galaxy clusters ($10^{13}$-$10^{14} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $10$-50
+- **Globular clusters ($10^{5}$-$10^{7} M_\odot$)**: $M_{dyn}$/$M_{b} \sim 1$ (no current activity)
+- **Dwarf galaxies ($10^{5}$-$10^{8} M_\odot$)**: $M_{dyn}$/$M_{b} \sim 1$-1700 (huge spread)
+- **UFDs ($10^{2}$-$10^{4} M_\odot$)**: $M_{dyn}$/$M_{b} \sim 50$-1700 (extreme)
+- **Irregular galaxies ($10^{8}$-$10^{9} M_\odot$)**: $M_{dyn}$/$M_{b} \sim 6$-7
+- **Normal spirals ($10^{10}$-$10^{11} M_\odot$)**: $M_{dyn}$/$M_{b} \sim 14$-30
+- **AGN hosts ($10^{12} M_\odot$)**: $M_{dyn}$/$M_{b} \sim 50$
+- **Galaxy clusters ($10^{13}$-$10^{14} M_\odot$)**: $M_{dyn}$/$M_{b} \sim 10$-50
 
 SIDC's qualitative picture: galaxies with non-trivial past SF
 have non-zero $M_{dyn}$. The specific value of $M_{dyn}$/$M_{b}$ depends on
@@ -634,7 +634,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 
 **2. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
 - $M_{b} \sim 7.3 \times 10^{8} M_\odot$ is measured
-- $M_{dyn}$/$M_{b}$ ~ $1.36$ (Mancera Piña 2022) vs ~2-3 (Sellwood 2022)
+- $M_{dyn}$/$M_{b} \sim 1.36$ (Mancera Piña 2022) vs ~2-3 (Sellwood 2022)
 - 2022-2025 literature has **two contradictory conclusions**:
   - Mancera Piña 2022: "No trace of dark matter"
   - Sellwood 2022: "AGC 114905 NEEDS dark matter"
@@ -698,7 +698,7 @@ Where:
 - $F_p(z)$ = z^n / (z^n + $z_{\rm half}$^n), n=2, $z_{\rm half}$=3 (Hill function)
 - $f_{\rm back}$ = $10^{-85}$ (SIDC calibrated from SN 33s lifetime)
 
-**Key finding (v2.7.48, REVISED v2.7.52)**: With $F_p(0)$ = 0.9993 (revised), SIDC predicts $M_{dyn}$/$M_{b}$ ~ $4.97$ for these galaxies, dominated by the $F_p(z)$ primordial component. The recent (SN-driven) component is **negligible** (~$10^{-91}$).
+**Key finding (v2.7.48, REVISED v2.7.52)**: With $F_p(0)$ = 0.9993 (revised), SIDC predicts $M_{dyn}$/$M_{b} \sim 4.97$ for these galaxies, dominated by the $F_p(z)$ primordial component. The recent (SN-driven) component is **negligible** ($\sim 10^{-91}$).
 
 | Galaxy | z | log M* | $F_p(z)$ | SIDC $M_{dyn}$/$M_{b}$ |
 |--------|---|--------|--------|---------------------|
@@ -714,9 +714,9 @@ Where:
 | Not-So-Little-RD-1 | 6.0 | 11.0 | 0.9995 | 4.99 |
 | Fakhry-QG-z11 | 11.0 | 10.5 | 0.9996 | 4.99 |
 
-**Honest finding**: SIDC predicts $M_{dyn}$/$M_{b}$ ~ $3$-5, similar
+**Honest finding**: SIDC predicts $M_{dyn}$/$M_{b} \sim 3$-5, similar
 to ΛCDM. SIDC **CANNOT distinguish itself from ΛCDM** on
-these galaxies alone — both predict $M_{dyn}$ ~ $5 \times M_{b}$ at z>3.
+these galaxies alone — both predict $M_{dyn} \sim 5 \times M_{b}$ at z>3.
 
 **What WOULD distinguish SIDC from ΛCDM**: precise measurement of
 $M_{dyn}$/$M_{b}$ EVOLUTION with z. ΛCDM predicts $M_{dyn}$/$M_{b}$ ~ constant (~5×)
@@ -728,7 +728,7 @@ IFU observations.
 **Caveats**:
 - $M_{dyn}$ for z>4 galaxies is hard to measure (need σ from absorption
   lines, only possible with very deep JWST/NIRSpec or ELT IFU)
-- $f_{\rm back}$ ~ $10^{-85}$ is calibrated from SN 33s lifetime (L9)
+- $f_{\rm back} \sim 10^{-85}$ is calibrated from SN 33s lifetime (L9)
 - $F_p(z)$ Hill function (n=2, $z_{\rm half}$=3) is phenomenological
 - SIDC's M_dyn_extra from local SN deaths is negligible
 
@@ -803,15 +803,15 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz-μHz band.
 
 **Cumulative GW energy density**: For each event type, integrate
 over cosmic history:
-- SN: N_SN ~ $10^{18}$ over cosmic history, E_per_SN_GW = $f_{\rm back}$ × $10^{44}$ = $10^{-41}$ J
+- SN: N_SN$\sim 10^{18}$ over cosmic history, E_per_SN_GW = $f_{\rm back}$ × $10^{44}$ = $10^{-41}$ J
 - Total SN GW energy density: ρ_GW_SN = $10^{18}$ × $10^{-41}$ / $4 \times 10^{80}$ m^3 = $10^{-103}$ J/m^3
 - $\Omega_{\rm GW}$_SN = ρ_GW_SN / ρ_crit = $10^{-103}$ / $7.6 \times 10^{-10}$ = **$10^{-94}$**
 
-- BNS: N_BNS ~ $3 \times 10^{3}$/${\rm Mpc}^3$, E_per_BNS_GW = $f_{\rm back}$ × $10^{47}$ = $10^{-38}$ J
+- BNS: N_BNS$\sim 3 \times 10^{3}$/${\rm Mpc}^3$, E_per_BNS_GW = $f_{\rm back}$ × $10^{47}$ = $10^{-38}$ J
 - Total BNS GW energy density: ρ_GW_BNS = $3 \times 10^{3}$ × $10^{-38}$ / $2.9 \times 10^{67}$ = $10^{-102}$ J/m^3
 - $\Omega_{\rm GW}$_BNS = **$10^{-93}$**
 
-**PTA detection threshold**: $\Omega_{\rm GW}$ ~ $10^{-10}$ to $10^{-9}$ (NANOGrav 15-yr,
+**PTA detection threshold**: $\Omega_{\rm GW} \sim 10^{-10}$ to $10^{-9}$ (NANOGrav 15-yr,
 EPTA+InPTA, PPTA DR3, IPTA-3)
 
 **Honest finding**: SIDC's 2D universe death GW is
@@ -820,7 +820,7 @@ falsifiable in principle but UNDETECTABLE in practice.
 
 SKA-MPG (2030s) and next-gen PTAs (IPTA-3) **CANNOT detect** this signal.
 
-**Caveat**: $f_{\rm back}$ ~ $10^{-85}$ is calibrated from SN 33s lifetime (L9).
+**Caveat**: $f_{\rm back} \sim 10^{-85}$ is calibrated from SN 33s lifetime (L9).
 If $f_{\rm back}$ is actually larger (e.g., $10^{-10}$), the GW could be detectable.
 But the SN 33s lifetime is well-established, so $f_{\rm back}$ is well-constrained.
 
@@ -852,7 +852,7 @@ measurements) is the cleanest Solar System test of modified gravity.
 - $M_{2D}$_MW = $5.6 \times 10^{-80} M_o$
 
 **PPN γ prediction**:
-- γ_cascade - 1 ~ $M_{2D}$_local / M_Sun = $5.6 \times 10^{-86}$
+- γ_cascade - 1$\sim M_{2D}$_local / M_Sun = $5.6 \times 10^{-86}$
 - Cassini 2003: |γ - 1| < $2.3 \times 10^{-5}$
 - SIDC is **80 orders of magnitude BELOW Cassini precision**
 - **γ_cascade = 1.00000000 (indistinguishable from GR)**
@@ -896,7 +896,7 @@ The v2.7.48 calculations (JWST $M_{dyn}$, DESI w(z), GW background, PPN)
 yield **mixed honest findings**:
 
 **Positive for SIDC (testable predictions)**:
-- JWST massive quiescents: SIDC predicts $M_{dyn}$/$M_{b}$ ~ $3$-5 with
+- JWST massive quiescents: SIDC predicts $M_{dyn}$/$M_{b} \sim 3$-5 with
   specific z-evolution ($F_p(z)$). Testable with future ELT (2030+).
 - DM evolution $F_p(z)$: SIDC predicts (1+z)^3 × $F_p(z)$ DM density
   at high z, matching Planck 2018. Testable with future data.
