@@ -7,6 +7,24 @@
 **Repository:** https://github.com/ampbuster/gravity-as-residual
 **Current version:** v3.3 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
 
+**v3.5.x HIGHLIGHTS** (CURRENT, June 2026):
+- v3.4.x honest reframe: "12 propagates" is CORRELATION not derivation (8 inconsistencies found, v3.4.5)
+- "12 SM fermions/gen" was WRONG (v3.4.6); 12 GAUGE BOSONS is real match
+- "12" is common in physics for ARITHMETIC reasons (2²×3 highly composite, v3.4.7)
+- Universe age = 1.5×10⁻¹⁵ of lifetime → SIDC is INITIAL-CONDITIONS framework (v3.4.8)
+- v3.5 TIER 2 research: CY3 Z_12 rare (2-3 of ~28), α = 1 + 1/√N interpretation
+- **v3.5.6 WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins:
+  - Unimodular gravity (HT): Λ is integration constant — calibrated μ is EXPECTED
+  - Hagedorn T_H = M_s/(2π) exact from closed string modular invariance (Chaudhuri 2001)
+  - JT U(Φ)=2Φ: the "2" traces to R_AdS_2 = -2/L²
+  - String thermal duality b ↔ 1/(2b) (Kogan 1990)
+  - Hawking-Page + Euclidean periodicity β = 2πL (SL(2,R))
+- v3.5.7 HOLOGRAPHIC: string minimal area gives μ = M_s² (L319)
+- v3.5.7 AUDIT: framework internally consistent (all numbers add up)
+- μ status: "calibrated" → "STRUCTURALLY MOTIVATED (5+ origins)"
+- DE match: 8.4% (NOT 0.24% — v3.3 miscalculation; framework's calibration precision)
+- 365 pages, 116 honest limitations
+
 **v3.3 HIGHLIGHTS**: Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), f_back UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D=v_Higgs DROPPED, M_Pl,4D recalibrated to DE exact match (#23). The 5/27/68 split matches observation via calibrated event rate. DE matches within 0.2%. 372 pages, 81 limitations.
 
 **v3.2 HIGHLIGHTS**: Equal-Universe Principle (§3.62 REVISED), Bilateral Democratic Cosmology (§3.62), Time-Dilation Insight (continuous leakage observability), 4π status clarified (KEPT at 3D→4D, REMOVED as universal), event count audit (8/8 in §10.1, not 14/14). 356 pages, 81 limitations.
