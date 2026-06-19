@@ -121,6 +121,15 @@ VARS = [
     # Other
     (r'\bF_p\b', '$F_p$'),
     (r'\bH_0\b', '$H_0$'),
+    (r'\bT_Pl,4D\b', '$T_{\\rm Pl,4D}$'),
+    (r'\bT_Pl,3\+1D\b', '$T_{\\rm Pl,3+1D}$'),
+    (r'\bT_Pl,2D\b', '$T_{\\rm Pl,2D}$'),
+    (r'\bT_Pl,3D\b', '$T_{\\rm Pl,3D}$'),
+    (r'\bT_Pl,N\b', '$T_{\\rm Pl,N}$'),
+    (r'\bT_Pl\b', '$T_{\\rm Pl}$'),
+    (r'\bT_H\b', '$T_H$'),
+    (r'\bT_D\b', '$T_D$'),
+    (r'\bE_H\b', '$E_H$'),
     (r'\bkL\b', '$kL$'),
 ]
 

@@ -8,7 +8,7 @@
 | v3.5.1 | "1/2" has 3+ anchors (L308 addition) | `231f704` |
 | v3.5.2 | 5 structural candidates for "2×" factor | `aeb48b9` |
 | v3.5.3 | 45 alternative formulas for μ, 12 exact matches | `7118829` |
-| v3.5.4 | Hawking-Page deeper: 10 candidates for T_H = T_Pl,2D | `1bf6902` |
+| v3.5.4 | Hawking-Page deeper: 10 candidates for $T_H$ = $T_{\rm Pl,2D}$ | `1bf6902` |
 | v3.5.5 | (a) μ without input (b) Lagrangian (c) Tier 3 #8/#9 | `51a9af9` |
 | v3.5.6 | **WEB SEARCH BREAKTHROUGH** — 5 structural origins | `9dbacb7` |
 | v3.5.6 (g) | persistent_memory.md update | `abb0f1d` |
@@ -19,7 +19,7 @@
 
 5 structural origins of μ = $M_{\rm Pl}$,2D²:
 1. **Unimodular gravity (HT)**: Λ is integration constant — calibrated is expected
-2. **Hagedorn T_H = M_s/(2π)**: exact from closed string modular invariance
+2. **Hagedorn $T_H$ = M_s/(2π)**: exact from closed string modular invariance
 3. **JT U(Φ)=2Φ**: the "2" traces to R_AdS_2 = -2/L²
 4. **String thermal duality**: b ↔ 1/(2b)
 5. **Hawking-Page + Euclidean periodicity**: β = 2πL forced by SL(2,R)

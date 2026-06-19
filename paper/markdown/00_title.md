@@ -15,7 +15,7 @@
 - v3.5 TIER 2 research: CY3 Z_12 rare (2-3 of ~28), α = 1 + 1/√N interpretation
 - **v3.5.6 WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins:
   - Unimodular gravity (HT): Λ is integration constant — calibrated μ is EXPECTED
-  - Hagedorn T_H = M_s/(2π) exact from closed string modular invariance (Chaudhuri 2001)
+  - Hagedorn $T_H$ = M_s/(2π) exact from closed string modular invariance (Chaudhuri 2001)
   - JT U(Φ)=2Φ: the "2" traces to R_AdS_2 = -2/L²
   - String thermal duality b ↔ 1/(2b) (Kogan 1990)
   - Hawking-Page + Euclidean periodicity β = 2πL (SL(2,R))

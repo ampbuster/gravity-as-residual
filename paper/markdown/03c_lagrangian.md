@@ -1207,7 +1207,7 @@ but **eternal from our frame** (γ × τ_proper → ∞ as γ → ∞).
 
 The cone looks like a black hole, with 2D Planck as the tip (the 2D
 floor). $M_{\rm Pl,2D}$ ~ 3 TeV (holographic estimate). 2D Planck time
-$t_{\rm Pl}$,2D ~ 2 × 10⁻²⁸ s. 2D Planck temperature T_Pl,2D ~ 3 × 10²² K.
+$t_{\rm Pl}$,2D ~ 2 × 10⁻²⁸ s. 2D Planck temperature $T_{\rm Pl,2D}$ ~ 3 × 10²² K.
 
 Cone depths in α units:
 - LHC p-p = −11.86 (BELOW 2D floor — impossible)

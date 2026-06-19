@@ -15,7 +15,7 @@
 - v3.5 TIER 2 research: CY3 Z_12 rare (2-3 of ~28), α = 1 + 1/√N interpretation
 - **v3.5.6 WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins:
   - Unimodular gravity (HT): Λ is integration constant — calibrated μ is EXPECTED
-  - Hagedorn T_H = M_s/(2π) exact from closed string modular invariance (Chaudhuri 2001)
+  - Hagedorn $T_H$ = M_s/(2π) exact from closed string modular invariance (Chaudhuri 2001)
   - JT U(Φ)=2Φ: the "2" traces to R_AdS_2 = -2/L²
   - String thermal duality b ↔ 1/(2b) (Kogan 1990)
   - Hawking-Page + Euclidean periodicity β = 2πL (SL(2,R))
@@ -1328,7 +1328,7 @@ The CGHS model [CGHS92] is a 1+1-dimensional dilaton gravity theory that is *exa
 
 CGHS original (p=3) gives τ(LHC pp) = 3.3 × $10^{-138}$ s (75 orders too short), and RST (p=1) gives τ(LHC pp) = 3.3 × $10^{-54}$ s (9 orders too long). SIDC's α = 1.29 is *between* these extremes, which is consistent with a CGHS-like 2D black hole with *intermediate* back-reaction. A CGHS-with-back-reaction calculation that yields exactly α = 1.29 would be a *first-principles derivation* of SIDC's energy-scaling rule. This is a concrete, testable prediction for 2D quantum gravity experts (a working calculation, not a vague hope).
 
-SIDC's 2D universes have Hawking temperatures T_H ~ $M_{\rm Pl}$ × ($E_{\rm Pl}$/E)^1.29 that are *above* the Planck temperature for all events (E < $E_{\rm Pl}$), confirming SIDC's framing of 2D universes as Planckian objects. This is consistent with the CGHS picture: 2D black holes at Planckian energies are well-defined in 2D dilaton gravity (the theory is well-behaved even when 4D gravity breaks down).
+SIDC's 2D universes have Hawking temperatures $T_H$ ~ $M_{\rm Pl}$ × ($E_{\rm Pl}$/E)^1.29 that are *above* the Planck temperature for all events (E < $E_{\rm Pl}$), confirming SIDC's framing of 2D universes as Planckian objects. This is consistent with the CGHS picture: 2D black holes at Planckian energies are well-defined in 2D dilaton gravity (the theory is well-behaved even when 4D gravity breaks down).
 
 **Status:** CGHS provides the strongest structural match for SIDC's 2D universe level. The α = 1.29 is not derived from CGHS directly, but is in the range of CGHS variants. A specific CGHS-with-back-reaction calculation yielding α = 1.29 would strengthen SIDC significantly. See `calculations/v27_cghs_2d_universe.py` for the full analysis.
 
@@ -4139,7 +4139,7 @@ but **eternal from our frame** (γ × τ_proper → ∞ as γ → ∞).
 
 The cone looks like a black hole, with 2D Planck as the tip (the 2D
 floor). $M_{\rm Pl,2D}$ ~ 3 TeV (holographic estimate). 2D Planck time
-$t_{\rm Pl}$,2D ~ 2 × 10⁻²⁸ s. 2D Planck temperature T_Pl,2D ~ 3 × 10²² K.
+$t_{\rm Pl}$,2D ~ 2 × 10⁻²⁸ s. 2D Planck temperature $T_{\rm Pl,2D}$ ~ 3 × 10²² K.
 
 Cone depths in α units:
 - LHC p-p = −11.86 (BELOW 2D floor — impossible)
@@ -7515,7 +7515,7 @@ The full table follows:
 | 107 (NEW v3.0.22, REVISED) | v29 α=1.29 was a numerical artifact (proper fit gives constant spacing) | NEGATIVE (v3.0.22) | §3.62.5, v30 | v29 brute force attempt gave α_fit = 1.29 from spacing analysis. v30 verification with proper degeneracy handling (skip zero spacings, no log(0)): α_fit = -0.06 ± 0.10 — NOT 1.29. The earlier fit was an ARTIFACT from log(0) and degenerate level handling. The DSSYK E_n = (2n+1)/2 spacing is correct and constant. This HONEST NEGATIVE result confirms L43 (α is not derivable from 2D CFT spectrum alone). |
 | 108 (NEW v3.0.22) | LHC CANNOT test SIDC's 2D universe | NEGATIVE (v3.0.22) | §3.63, v33 | $M_{\rm Pl,2D}$ ~ 3 TeV (holographic) is in LHC energy range, but f_back² ~ 10^-170 (forward cross-section suppression). LHC p-p collisions are BELOW the 2D floor in cone depth units (LHC = -11.86 α, SN = 26.93 α, 4D event = 53.8 α). The 2D universe creation cross-section at LHC is 180 orders of magnitude below detection. LHC cannot rule in or out SIDC's 2D universe. |
 | 109 (NEW v3.0.22) | α = 1.289 is a TIME DILATION SHAPE | PARTIAL (v3.0.22) | §3.62.3, v31 | α = 1 (kinematic, universal SR time dilation) + 1/√12 (geometric, N=12 finite-N). In log-log space, time dilation curve has slope 1.289 (vs SR slope 1). The "1" is universal (special relativity), the "1/√12" is specific to N=12. STRENGTH: decomposition matches all 4 shape interpretations of α (cone, spectral, Ising, Z_2). WEAKNESS: the "time dilation shape" is a descriptive label, not a derivation. |
-| 110 (NEW v3.0.22) | Constants scale between hierarchy levels (working downward) | PARTIAL (v3.0.22) | §3.63, v32 | Working downward from 3+1D ($M_{\rm Pl,3}$ = 1.22 × 10^19 GeV), SIDC predicts $M_{\rm Pl,2D}$ ~ 3 TeV (holographic, 4 orders above $v_{\rm Higgs}$ = 246 GeV). 2D Planck time $t_{\rm Pl}$,2D ~ 2 × 10^-28 s, 2D Planck temperature T_Pl,2D ~ 3 × 10^22 K. 4D event at BASE (eternal substrate), 2D Planck at APEX (transient tip). STRENGTH: $M_{\rm Pl,2D}$ is consistent with holographic entropy arguments. WEAKNESS: 2D Planck is a HOLOGRAPHIC ESTIMATE, not directly derived from first principles. |
+| 110 (NEW v3.0.22) | Constants scale between hierarchy levels (working downward) | PARTIAL (v3.0.22) | §3.63, v32 | Working downward from 3+1D ($M_{\rm Pl,3}$ = 1.22 × 10^19 GeV), SIDC predicts $M_{\rm Pl,2D}$ ~ 3 TeV (holographic, 4 orders above $v_{\rm Higgs}$ = 246 GeV). 2D Planck time $t_{\rm Pl}$,2D ~ 2 × 10^-28 s, 2D Planck temperature $T_{\rm Pl,2D}$ ~ 3 × 10^22 K. 4D event at BASE (eternal substrate), 2D Planck at APEX (transient tip). STRENGTH: $M_{\rm Pl,2D}$ is consistent with holographic entropy arguments. WEAKNESS: 2D Planck is a HOLOGRAPHIC ESTIMATE, not directly derived from first principles. |
 | 111 (NEW v3.0.22) | Has the LHC tested SIDC's $M_{\rm Pl,2D}$ ~ 3 TeV? NO | NEGATIVE (v3.0.22) | §3.63, v33 | SIDC's 2D universe is invisible at LHC due to f_back² ~ 10^-170 suppression. The 2D universe creation cross-section at LHC is 180 orders of magnitude below detection. LHC energies (14 TeV p-p) are ABOVE 3 TeV threshold but BELOW 2D floor (in α units). LHC tests are IRRELEVANT for SIDC's 2D universe. |
 | 112 (NEW v3.0.22) | Inception cone (4D event at base, 2D at apex, 4D event eternal from our frame) | PARTIAL (v3.0.22) | §3.63, v34 | The cone is FLIPPED relative to earlier framings: 4D event at BASE (eternal substrate), 3+1D universe as cone body, 2D Planck at APEX (tip). The 4D event has γ ~ 10^60 to 10^100 time dilation relative to our frame, making it ETERNAL from our perspective (Inception-style: time passes normally in 4D frame, looks frozen from 3+1D frame). Limbo structure: 4D (Limbo) → 3+1D (Reality) → 2D (First dream). STRENGTH: consistent with inception-style time dilation and the scaling law. WEAKNESS: the "eternal from our frame" is qualitative, not directly computed. The 4D event's specific lifetime (~10^32.6 s, eternal for our cosmic time) is a CALIBRATION. |
 | 113 (NEW v3.0.22) | 2D Planck IS the tip of the cone (the 2D floor) | PARTIAL (v3.0.22) | §3.63, v35 | The cone structure looks like a black hole, with 2D Planck as the tip (the 2D floor). To create a 2D universe AT the floor requires 3D event energy $E_{\rm 3D}$ ~ 10^17 J (asteroid impact scale). The cone shape: r(d) = d × tan(α) = d × 1.289. STRENGTH: gives a geometric meaning to the 2D Planck scale. WEAKNESS: the cone is a cartoon (the full geometry is AdS_5 + brane + 2D universe). |
@@ -7991,18 +7991,18 @@ The "2 ×" is suspicious — it reverses the 1/2 to get back $M_{\rm Pl,2D}$. A 
 - Future work: find clean structural reason for μ = (2 × E_1st)² or some other form
 Source: `calculations/v35_why_factor_2.py`.
 
-**L308 v3.5.4 HAWKING-PAGE DEEPER ANALYSIS**: Why should T_H = T_Pl,2D = $M_{\rm Pl,2D}$/(2π)? Tested 10 candidates:
+**L308 v3.5.4 HAWKING-PAGE DEEPER ANALYSIS**: Why should $T_H$ = $T_{\rm Pl,2D}$ = $M_{\rm Pl,2D}$/(2π)? Tested 10 candidates:
 
 **TOP 3 STRUCTURAL REASONS**:
 
-**(3) Planckian Maximum (STRONG)**: T_H = T_Pl,2D is the MAXIMUM stable BH temperature. Above this, BH evaporates instantly. T_H = T_Pl,2D is the "edge of existence" for 2D BH. Robust physical constraint.
+**(3) Planckian Maximum (STRONG)**: $T_H$ = $T_{\rm Pl,2D}$ is the MAXIMUM stable BH temperature. Above this, BH evaporates instantly. $T_H$ = $T_{\rm Pl,2D}$ is the "edge of existence" for 2D BH. Robust physical constraint.
 
-**(5) Euclidean Periodicity (CLEANEST MATH)**: β = 2π × L_AdS_2 is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). T_H = 1/β = $M_{\rm Pl,2D}$/(2π) is FORCED by the geometry. No free parameter.
+**(5) Euclidean Periodicity (CLEANEST MATH)**: β = 2π × L_AdS_2 is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). $T_H$ = 1/β = $M_{\rm Pl,2D}$/(2π) is FORCED by the geometry. No free parameter.
 
-**(4) Hagedorn (string theory)**: T_H = M_s/(2π) is the Hagedorn temperature for D=4 effective compactification. Connects 2D universe to string theory structure.
+**(4) Hagedorn (string theory)**: $T_H$ = M_s/(2π) is the Hagedorn temperature for D=4 effective compactification. Connects 2D universe to string theory structure.
 
 **OTHER CANDIDATES**:
-- (#1) Hawking-Page transition: Plausible but doesn't uniquely select T_H = T_Pl,2D
+- (#1) Hawking-Page transition: Plausible but doesn't uniquely select $T_H$ = $T_{\rm Pl,2D}$
 - (#2) Unruh-Hawking correspondence: STRUCTURAL (automatic in AdS_2)
 - (#6) Boundary Rindler observer: STRUCTURAL (max a = $M_{\rm Pl,2D}$)
 - (#7) Quantum Critical Point: STRUCTURAL (Planckian dissipation)
@@ -8011,10 +8011,10 @@ Source: `calculations/v35_why_factor_2.py`.
 - (#10) Information-theoretic: Speculative
 
 **NEW VERDICT (v3.5.4)**:
-- T_H = T_Pl,2D = $M_{\rm Pl,2D}$/(2π) has STRONG physical motivations
+- $T_H$ = $T_{\rm Pl,2D}$ = $M_{\rm Pl,2D}$/(2π) has STRONG physical motivations
 - Most robust: #3 (Planckian max) and #5 (Euclidean periodicity)
-- These don't DERIVE μ but provide STRUCTURAL reasons for T_H = T_Pl,2D
-- Combined with μ = (2π T_H)², this gives μ = $M_{\rm Pl}$,2D² as a CONSEQUENCE of "T_H is the natural 2D Planckian temperature"
+- These don't DERIVE μ but provide STRUCTURAL reasons for $T_H$ = $T_{\rm Pl,2D}$
+- Combined with μ = (2π $T_H$)², this gives μ = $M_{\rm Pl}$,2D² as a CONSEQUENCE of "$T_H$ is the natural 2D Planckian temperature"
 - **IMPROVED STATUS**: μ = $M_{\rm Pl}$,2D² is now "STRUCTURALLY MOTIVATED" (not just calibrated)
 - L26 still OPEN (not a derivation), but structural reason is MUCH stronger than before
 Source: `calculations/v35_hawking_page.py`.
@@ -8023,11 +8023,11 @@ Source: `calculations/v35_hawking_page.py`.
 
 **Formula I: T = $M_{\rm Pl,2D}$/(2π) → μ = (2π T)² = $M_{\rm Pl}$,2D²**
 
-This says: if the 2D universe's BH has T_H = $M_{\rm Pl,2D}$/(2π), then μ = $M_{\rm Pl}$,2D².
-T_H = $M_{\rm Pl,2D}$/(2π) is the MAXIMAL Hawking temperature in AdS_2 (= AdS curvature).
+This says: if the 2D universe's BH has $T_H$ = $M_{\rm Pl,2D}$/(2π), then μ = $M_{\rm Pl}$,2D².
+$T_H$ = $M_{\rm Pl,2D}$/(2π) is the MAXIMAL Hawking temperature in AdS_2 (= AdS curvature).
 This is the **"Planckian Hawking temperature"** — the boundary between BH and stable state.
 
-INTERPRETATION: μ = $M_{\rm Pl}$,2D² corresponds to a "Planckian 2D universe" where the BH is at maximum T_H. This is the Hawking-Page transition temperature.
+INTERPRETATION: μ = $M_{\rm Pl}$,2D² corresponds to a "Planckian 2D universe" where the BH is at maximum $T_H$. This is the Hawking-Page transition temperature.
 
 Status: STRUCTURAL INTERPRETATION (not derivation). It still uses $M_{\rm Pl,2D}$ as input. But it provides a new physical reading of why μ = $M_{\rm Pl}$,2D² (instead of μ = b² × $M_{\rm Pl}$,2D² or other variants).
 
@@ -8106,10 +8106,10 @@ Five additional angles for μ first-principles were explored via web search:
 - This connects our framework's "2×" in μ = (2×E_1st)² to JT gravity's geometric structure
 - The "2" is FORCED by the AdS_2 background geometry
 
-**(3) HAGEDORN EXACT FORMULA T_H = M_s/(2π)** — STRONG:
+**(3) HAGEDORN EXACT FORMULA $T_H$ = M_s/(2π)** — STRONG:
 - arXiv:hep-th/0008051 (Chaudhuri 2001 PRL 86, 10): "Self-dual Hagedorn temperature b²_H = 4π²α'"
-- This gives EXACTLY T_H = M_s/(2π) for closed strings
-- For our framework: μ = (2π T_H)² = M_s² = $M_{\rm Pl}$,2D² ✓ MATCHES
+- This gives EXACTLY $T_H$ = M_s/(2π) for closed strings
+- For our framework: μ = (2π $T_H$)² = M_s² = $M_{\rm Pl}$,2D² ✓ MATCHES
 - The factor "2π" comes from closed string modular invariance
 
 **(4) JT Z_disk with C = 1/2** — WEAK:
@@ -8125,10 +8125,10 @@ Five additional angles for μ first-principles were explored via web search:
 **NEW BOTTOM LINE (v3.5.6)**:
 The "2×" in μ = (2×E_1st)² has STRUCTURAL ORIGINS (not coincidence):
 1. AdS_2 Ricci scalar R = -2/L² (from JT gravity U(Φ)=2Φ)
-2. Closed string thermal duality T_H = M_s/(2π)
+2. Closed string thermal duality $T_H$ = M_s/(2π)
 3. Modular invariance b ↔ 1/(2b)
 4. Unimodular gravity (Lambda as integration constant)
-5. Hawking-Page Planckian maximum T_H = T_Pl
+5. Hawking-Page Planckian maximum $T_H$ = $T_{\rm Pl}$
 
 **UPDATED VERDICT (v3.5.6)**: μ = $M_{\rm Pl}$,2D² is now "STRUCTURALLY MOTIVATED + has 5+ independent structural origins". L26 STAYS OPEN (not derivation), but the structural justification is MUCH stronger.
 
@@ -8141,7 +8141,7 @@ The framework's choice of μ = $M_{\rm Pl}$,2D² is consistent with:
 NEW LIMITATIONS (v3.5.6):
 - **L314**: Unimodular gravity: μ is INTEGRATION CONSTANT (consistent with calibrated μ)
 - **L315**: JT U(Φ)=2Φ: the "2" in our formula traces to R_AdS_2 = -2/L²
-- **L316**: Hagedorn T_H = M_s/(2π): EXACT formula from closed string modular invariance
+- **L316**: Hagedorn $T_H$ = M_s/(2π): EXACT formula from closed string modular invariance
 - **L317**: JT Z_disk with C=1/2: 1/2 keeps appearing but doesn't uniquely determine μ
 - **L318**: String thermal duality b ↔ 1/(2b): structural origin of factor of 2
 
@@ -8152,19 +8152,19 @@ Source: `calculations/v35_web_more_options.py`.
 
 L319. **STRING MINIMAL AREA gives mu = M_s^2** (v3.5.7). From ResearchGate 2022 (Minimal model for BH entropy): S = A/(4 l_p^2) requires minimum area. If minimum area in 2D is set by STRING SCALE: A_min = 1/M_s, then mu = 1/A_min^2 = M_s^2. For M_s = 3 TeV: mu = 9x10^6 GeV^2 ✓ EXACT MATCH. STRUCTURAL IF 2D universe is a STRING THEORY with M_s = $M_{\rm Pl,2D}$ = 3 TeV (low string scale, Antoniadis 1990). Source: `calculations/v35_holographic.py`.
 
-L320. **'2 pi' in mu formula is UNIVERSAL 2D FACTOR** (v3.5.7). The "2 pi" appearing in mu = (2 pi T_H)^2 has the SAME origin across multiple formulas:
+L320. **'2 pi' in mu formula is UNIVERSAL 2D FACTOR** (v3.5.7). The "2 pi" appearing in mu = (2 pi $T_H$)^2 has the SAME origin across multiple formulas:
 - Bekenstein bound S <= 2 pi E R (Longo 2024, from local QFT)
 - Casini 2008 proof (Bekenstein = strong subadditivity)
 - RT formula S_EE = Area/(4 G_N) (holographic)
-- Hagedorn T_H = M_s/(2 pi) (string modular invariance)
-- Hawking-Page T_H = 1/(2 pi L) (SL(2,R) isometry)
+- Hagedorn $T_H$ = M_s/(2 pi) (string modular invariance)
+- Hawking-Page $T_H$ = 1/(2 pi L) (SL(2,R) isometry)
 - Unruh T = a/(2 pi) (acceleration)
 
 The "2 pi" is the UNIVERSAL 2D FACTOR from periodic identification, modular flow, or causal diamond structure. Source: `calculations/v35_holographic.py`.
 
 L321. **Bousso covariant bound doesn't constrain mu directly** (v3.5.7). The Bousso bound S <= A/4 applied to 2D universe gives S_total = N_sub x ln(2) = 277 bits, while A/4 = 1/(4 sqrt(mu)). Setting 277 <= 1/(4 sqrt(mu)) gives mu <= 8.15x10^-7 GeV^2 (too tight by factor 10^13). The Bousso bound doesn't apply straightforwardly to our 2D universe. Source: `calculations/v35_holographic.py`.
 
-L322. **RT formula gives universal constant for 2D BH at T_H** (v3.5.7). For 2D universe at Hawking temperature T = sqrt(mu)/(2 pi), the entanglement entropy from RT formula is S_EE = 1/6 (UNIVERSAL for c=1 Liouville). This is independent of mu — gives a checkable constant for our framework. Status: STRUCTURAL. Source: `calculations/v35_holographic.py`.
+L322. **RT formula gives universal constant for 2D BH at $T_H$** (v3.5.7). For 2D universe at Hawking temperature T = sqrt(mu)/(2 pi), the entanglement entropy from RT formula is S_EE = 1/6 (UNIVERSAL for c=1 Liouville). This is independent of mu — gives a checkable constant for our framework. Status: STRUCTURAL. Source: `calculations/v35_holographic.py`.
 
 ---
 
@@ -9730,7 +9730,7 @@ No fundamental inconsistencies detected.
 | v3.5.1 | "1/2" has 3+ anchors (L308 addition) | `231f704` |
 | v3.5.2 | 5 structural candidates for "2×" factor | `aeb48b9` |
 | v3.5.3 | 45 alternative formulas for μ, 12 exact matches | `7118829` |
-| v3.5.4 | Hawking-Page deeper: 10 candidates for T_H = T_Pl,2D | `1bf6902` |
+| v3.5.4 | Hawking-Page deeper: 10 candidates for $T_H$ = $T_{\rm Pl,2D}$ | `1bf6902` |
 | v3.5.5 | (a) μ without input (b) Lagrangian (c) Tier 3 #8/#9 | `51a9af9` |
 | v3.5.6 | **WEB SEARCH BREAKTHROUGH** — 5 structural origins | `9dbacb7` |
 | v3.5.6 (g) | persistent_memory.md update | `abb0f1d` |
@@ -9741,7 +9741,7 @@ No fundamental inconsistencies detected.
 
 5 structural origins of μ = $M_{\rm Pl}$,2D²:
 1. **Unimodular gravity (HT)**: Λ is integration constant — calibrated is expected
-2. **Hagedorn T_H = M_s/(2π)**: exact from closed string modular invariance
+2. **Hagedorn $T_H$ = M_s/(2π)**: exact from closed string modular invariance
 3. **JT U(Φ)=2Φ**: the "2" traces to R_AdS_2 = -2/L²
 4. **String thermal duality**: b ↔ 1/(2b)
 5. **Hawking-Page + Euclidean periodicity**: β = 2πL forced by SL(2,R)
