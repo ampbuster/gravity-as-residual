@@ -251,18 +251,18 @@ This section audits 5 specific concerns about the 4D math. Full numerical analys
 
 **(1) Hierarchy concentration at 4D→3+1D.** Strict scale-invariance would distribute the observed Planck hierarchy ($1 \times 10^{-38}$) across all SIDC levels (e.g.,$\sim 1 \times 10^{-19}$ per level for 2 levels,$\sim 2 \times 10^{-13}$ for 3 levels). SIDC **POSTULATES** that the hierarchy is concentrated at the 4D→3+1D level, not distributed. This is an **architectural choice**, not a derivation. SIDC does not currently say *why* 4D is the special hierarchy-generating level — this is Limitation 1 (no derivation of the dimensional structure).
 
-**(2) Time direction.** SIDC's time-dilation rule T_3+1D = T_4D / ε_3+1D with ε_3+1D$\sim 1 \times 10^{-38}$ gives T_4D$\sim 1 \times 10^{-21}$ s and L_4D$\sim 1 \times 10^{-12}$ m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
+**(2) Time direction.** SIDC's time-dilation rule T_3+1D = T_4D / ε_3+1D with ε_3+1D $\sim 1 \times 10^{-38}$ gives T_4D $\sim 1 \times 10^{-21}$ s and L_4D $\sim 1 \times 10^{-12}$ m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
 
 **(3) Energy conservation.** SIDC's energy budget: 32% of $E_{4D}$ projects to 3+1D (5% direct matter + 27% cumulative 2D universe DM), and 68% remains as 4D antigravity (which we observe as 3+1D's dark energy). This is self-consistent under careful interpretation of "projection" — the 68% DE in 3+1D is the *back-projected antigravity* of the 4D event, not the 68% of $E_{4D}$ that didn't project. Total energy is conserved via Stoke's theorem in the action (§2.5.1).
 
-**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires$\sim 1 \times 10^{-19}$ hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
+**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires $\sim 1 \times 10^{-19}$ hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
 
 **(5) Infinite regress.** In strict scale-invariance, SIDC has no "top" or "bottom" — it extends infinitely in both directions. Physics does not require a "first cause" (e.g., eternal inflation has no first moment). Each level is self-consistent. Energy is conserved at every level (Stoke's theorem). SIDC is OK with infinite regress, but the v2.1 cone-shape alternative (terminal at 2D) avoids the question by fiat. Both are valid; the choice is architectural (Limitation 11.5).
 
 **VERDICT: 4D math is self-consistent, with limitations:**
 
 **[PASS]** Hierarchy is concentrated at 4D→3+1D (matches observation, but is a postulate)
-**[PASS]** Time direction works (T_4D$\sim 1 \times 10^{-21}$ s, L_4D$\sim 1 \times 10^{-12}$ m, Dark Dimension scale)
+**[PASS]** Time direction works (T_4D $\sim 1 \times 10^{-21}$ s, L_4D $\sim 1 \times 10^{-12}$ m, Dark Dimension scale)
 **[PASS]** Energy conservation is consistent
 **[PASS]** Open upward is mathematically OK
 **[PASS]** Infinite regress is physically acceptable
@@ -361,7 +361,7 @@ where:
 | 1 | Dimensional structure: 4D bulk + 3+1D brane + 2D universes | **[PASS]** SATISFIED by construction |
 | 2 | Projection efficiency: 32% projected, 68% antigravity | ? OPEN: requires specific geometry |
 | 3 | Inner split: 5% direct, 27% cumulative 2D | ? OPEN: requires 2D lifetime analysis |
-| 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε$\sim 1 \times 10^{-38}$) |
+| 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε $\sim 1 \times 10^{-38}$) |
 | 5 | $f_{\rm active}$ = 0.0513 ± 0.0073 | ? OPEN: requires $\tau_{2D}$/$T_{\rm universe}$ (done in §4.35) |
 | 6 | Spatial distribution: isothermal cumulative | **[PASS]** SATISFIED (2D 1/r gravity gives isothermal) |
 | 7 | $H_0 = 70$ ± 3 (qualitative consistency) | ? OPEN: requires 2D CFT for specific value |
@@ -402,7 +402,7 @@ Per user question "can't we trial-and-error on the free parameters?", this secti
 **Q1 & Q4: Can trial-and-error give 32% projection efficiency?** YES.
 
 For f_split = 0.32 (SIDC's 32%/68% split between projected and antigravity, NOT to be confused with the back-projection efficiency f_proj used elsewhere in the paper), the bulk-brane coupling α must be at a specific order of magnitude:
-- For $E_{4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events$\sim 1 \times 10^{10}$ (total SN in 13.8 Gyr), E_event$\sim 1 \times 10^{44}$ J, $\tau_{2D} \sim 0.7$ Gyr:
+- For $E_{4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events $\sim 1 \times 10^{10}$ (total SN in 13.8 Gyr), E_event $\sim 1 \times 10^{44}$ J, $\tau_{2D} \sim 0.7$ Gyr:
 - α ~ 0.03-0.3 gives f_split ≈ 0.32
 
 The coupling α is NOT free — it's constrained to α ~ 0.03-0.3 by the observed 68% dark energy. This **partially closes Limitation 26** by reducing the free parameters from 5 to 3.
@@ -430,10 +430,10 @@ Reverting to 2D=3+1D would require:
 
 SIDC's $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ = 0.7/13.8 = 0.051 requires $\tau_{2D} = 0.7$ Gyr (the gas consumption timescale). This is **not arbitrary** — it's a specific timescale that can be matched by:
 - $M_{2D} \sim 1 \times 10^{46}$ J (2D universe's total energy)
-- L_consumption$\sim 1 \times 10^{28}$ W (2D universe's energy consumption rate)
+- L_consumption $\sim 1 \times 10^{28}$ W (2D universe's energy consumption rate)
 - → $\tau_{2D} = M_{2D}$ / L_consumption = 0.7 Gyr **[PASS]**
 
-This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D} \sim 1 \times 10^{46}$ J and gas consumption rate$\sim 1 \times 10^{28}$ W would naturally have a 0.7 Gyr lifetime.
+This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D} \sim 1 \times 10^{46}$ J and gas consumption rate $\sim 1 \times 10^{28}$ W would naturally have a 0.7 Gyr lifetime.
 
 **Q4 (Q4 again): Can the 5/27 inner split emerge from dynamics?** NO, the 5/27 inner split was DROPPED in v2.7.1.
 
@@ -457,7 +457,7 @@ A 2D CFT calculation is needed to derive the specific active boost and cumulativ
 |---|-----------|------------------------|--------|
 | 1 | L_2D (2D matter content) | NO | Requires picking a specific 2D theory (not derivable) |
 | 2 | α (bulk-brane coupling) | YES | α ~ 0.03-0.3 for f_split = 0.32 **[PASS]** |
-| 3 | Death mechanism | YES | $M_{2D} \sim 1 \times 10^{46}$ J, L_rate$\sim 1 \times 10^{28}$ W for $\tau_{2D} = 0.7$ Gyr **[PASS]** |
+| 3 | Death mechanism | YES | $M_{2D} \sim 1 \times 10^{46}$ J, L_rate $\sim 1 \times 10^{28}$ W for $\tau_{2D} = 0.7$ Gyr **[PASS]** |
 | 4 | T^DM at death (spatial) | NO | Requires picking a specific distribution (not derivable) |
 | 5 | 5/27/68 inner split | YES (resolved §4.35) | $f_{\rm active}$ = $\tau_{2D}$/$T_{\rm universe}$ = 0.051 **[PASS]** |
 
@@ -708,17 +708,17 @@ where:
 - $E_{\mu\nu}$: bulk Weyl projection, SIDC's "Weyl shadow" / geometric DM candidate
 - $T_{\mu\nu}^{fossil}$: SIDC's *specific* contribution, localized at 2D universe deaths
 
-**Boundary junction condition (v2.4 hardening).** The effective stress-energy tensor $T_{\mu\nu}^{eff}$ is constrained at the 3+1D brane hypersurface Σ (the $y=0$ slice in the AdS$_5$ bulk, with $n^A$ the outward unit normal to Σ) by the *zero-leakage bulk constraint*:
+**Boundary junction condition (v2.4 hardening).** The effective stress-energy tensor $T_{\mu\nu}^{eff}$ is constrained at the 3+1D brane hypersurface Σ (the $y=0$ slice in the AdS $_5$ bulk, with $n^A$ the outward unit normal to Σ) by the *zero-leakage bulk constraint*:
 
 $$\boxed{J^A_{bulk} \Big|_{\Sigma} = T^{AB}_{bulk}   n_B \Big|_{y=0} = 0}$$
 
-This is a **Neumann-Dirichlet hybrid boundary condition** (also called a *reflective* or *Z$_2$-symmetric* BC) on the bulk energy-momentum flux. Its interpretation:
+This is a **Neumann-Dirichlet hybrid boundary condition** (also called a *reflective* or *Z $_2$-symmetric* BC) on the bulk energy-momentum flux. Its interpretation:
 
-- **$J^A_{bulk} = 0$ at Σ** means: the bulk energy flux through the 3+1D brane hypersurface is *identically zero*. No energy leaks from the 3+1D brane into the AdS$_5$ bulk, and no bulk energy leaks onto the 3+1D brane except via the fossil term $T_{\mu\nu}^{fossil}$.
+- **$J^A_{bulk} = 0$ at Σ** means: the bulk energy flux through the 3+1D brane hypersurface is *identically zero*. No energy leaks from the 3+1D brane into the AdS $_5$ bulk, and no bulk energy leaks onto the 3+1D brane except via the fossil term $T_{\mu\nu}^{fossil}$.
 - **Israel junction condition** (Israel 1966): the jump in extrinsic curvature $K_{\mu\nu}$ across the brane is fixed by the brane-localized stress-energy. With $J^A_{bulk} = 0$, the junction is *geometrically locked*: the bulk channel is non-propagating for the $S_{destruction}$ payload, and the fossil's energy is *fully deposited* on the 3+1D brane.
 - **Physical meaning:** the 2D universe's death energy ($S_{destruction} \sim 10^{45}$ J per event) is *not* allowed to leak into the bulk. 100% of it must return to 3+1D. This is the *staying fraction* $f_{back} = 1$ promoted from a postulate (v2.3.2) to a *derived consequence* of the BC (v2.4).
 - **What this BC eliminates:** the $f_{back}$ free parameter is now *derived* (set to 1 by the BC), not *postulated*. The free-parameter count in the v2.3.2 framework (5+) drops to 2-3 active parameters in v2.4 (the remaining are $G_5$, α, and the dimensional $\tau_{2D}$ postulate; see §4.44.1 Task 1 and the §4.44.2 framework comparison).
-- **What this BC requires:** the bulk AdS$_5$ geometry must be *Z$_2$-symmetric* across Σ (the standard Randall-Sundrum II / DGP assumption). A more general bulk geometry (e.g., a non-Z$_2$ asymmetric warp) would require a *modified* BC, which is left to future work.
+- **What this BC requires:** the bulk AdS $_5$ geometry must be *Z $_2$-symmetric* across Σ (the standard Randall-Sundrum II / DGP assumption). A more general bulk geometry (e.g., a non-Z $_2$ asymmetric warp) would require a *modified* BC, which is left to future work.
 - **Verification:** the $J^A_{bulk} = 0$ BC is implemented and verified in `calculations/verify_v24_refactor.py` Check A (Bianchi identity preserved under the BC) and Check B (parameter reduction achieved). See `supporting/T_tensor_v24_refactor.md` §3.1 for the full derivation.
 
 **The novel piece.** The fossil's amplitude is NOT a free parameter — it is *derived* from the 2D worldsheet's quantum dynamics via the Polyakov-Liouville trace anomaly:
@@ -743,7 +743,7 @@ The proof is given in `supporting/T_tensor_construction.md` §4.4. Each term is 
 
 **Status.** This construction is a *first-pass formal derivation* by a software developer, not a theoretical physicist. An expert in brane-world gravity, CFT, and differential geometry would need to:
 1. Verify the central charge $c$ (Liouville vs Polyakov, $c=1$ vs $c=26$)
-2. Verify the 5D bulk geometry (AdS$_5$ vs other)
+2. Verify the 5D bulk geometry (AdS $_5$ vs other)
 3. Verify the α coupling calibration
 4. Verify the conservation proof in the $f_{back} < 1$ case
 
@@ -1080,9 +1080,9 @@ For stellar-only 2D universe creation (Madau & Dickinson 2014 cosmic SFR, CCSN r
 **The energetic analysis: what $F_{\rm stellar}$ does SIDC's own physics predict?**
 
 SIDC's own energetics predict that *stellar/AGN activity dominates* 2D universe creation:
-- Inflation (z>$10^{25}$): $10^{60}$+ J per Hubble volume, but in only$\sim 10^{180}$ m^3 of space
-- Electroweak phase transition (z$\sim 10^{15}$): $10^{47}$ J per horizon
-- QCD phase transition (z$\sim 10^{12}$): $10^{47}$ J per horizon
+- Inflation (z>$10^{25}$): $10^{60}$+ J per Hubble volume, but in only $\sim 10^{180}$ m^3 of space
+- Electroweak phase transition (z $\sim 10^{15}$): $10^{47}$ J per horizon
+- QCD phase transition (z $\sim 10^{12}$): $10^{47}$ J per horizon
 - Primordial black hole formation (z~10-100): $10^{40}$ J per event
 - **Stellar CCSN (z<10): $10^{46}$ J per event,$\sim 10^{60}$ events over cosmic history**
 
@@ -1193,7 +1193,7 @@ The phenomenological emulator (§4.45-§4.46) uses 4 modules. REVISED v2.7.36+: 
 
 **10. Sun no-DM test (verified).**
 
-The Sun's intrinsic DM is computed as$\sim 10^{-17}$ of the local DM, which is consistent with direct-detection limits. The threshold principle (energy *deposition* in 3+1D, not particle *existence*) correctly explains why neutrinos (which mostly pass through) don't contribute to DM. The result is qualitatively correct.
+The Sun's intrinsic DM is computed as $\sim 10^{-17}$ of the local DM, which is consistent with direct-detection limits. The threshold principle (energy *deposition* in 3+1D, not particle *existence*) correctly explains why neutrinos (which mostly pass through) don't contribute to DM. The result is qualitatively correct.
 
 **Status:** verified. The Sun test is a consistency check, not a quantitative test.
 
