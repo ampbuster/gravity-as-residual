@@ -52,10 +52,10 @@ Both directions use the **SAME $\alpha = 1.289$** derived from **N = 12** SYK. T
 **The closed loop UNITES DM, DE, and gravity (v3.0.22, §3.60.3)**:
 
 - **Gravity weakness**: $\varepsilon_{\rm grav} \sim 10^{-38}$ from bulk-brane cancellation
-- **DE density**: $\rho_{\rm DE} = f_{\rm back} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.2 \times 10^{-47}$ GeV$^4$ (within 12% of observed!)
-- **DM density**: $\rho_{\rm DM} = f_{\rm back} \times \Sigma(M_{\rm 2D} \times N_{\rm 2D})/V$ (uses same $f_{\rm back}$)
+- **DE density**: $\rho_{\rm DE} = f_{\rm DE} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.2 \times 10^{-47}$ GeV$^4$ (within 12% of observed!)
+- **DM density**: $\rho_{\rm DM} = f_{\rm DM,death} \times \Sigma(M_{\rm 2D} \times N_{\rm 2D})/V$ (uses same $f_{\rm DM,death}$)
 
-All three use the SAME $\alpha = 1.289$, the SAME $f_{\rm back} \approx 10^{-85}$, the SAME bulk-brane geometry. The closed loop is what unifies them.
+All three use the SAME $\alpha = 1.289$, the SAME $f_{\rm DE} \approx 10^{-85}$, the SAME bulk-brane geometry. The closed loop is what unifies them.
 
 See §3.60.1 (closed loop), §3.62 (Lagrangian skeleton), §10.1 (scaling law table), and `calculations/consistency_check_v3_0_21.py` (consistency verification).
 
@@ -123,7 +123,7 @@ v3.0 made a **major breakthrough**: a single number — **N = 12** — derives m
 | α (lifetime scaling) | 1.289 | α = 1 + 1/√N (saddle-point fluctuation) |
 | c (central charge) | 1/2 | c = N/24 (Ising CFT) |
 | 1/(2α) (back-action) | 0.388 | c/α (composite) |
-| $f_{\rm back}$ (universal) | $8.6 \times 10^{-85}$ | (1/2α)-powered formula |
+| $f_{\rm DE}$ (universal) | $8.6 \times 10^{-85}$ | (1/2α)-powered formula |
 
 N = 12 is **uniquely determined** by α = 1.29 (off by 0.001; for N = 10, 11, 13, 14 the match is much worse).
 
@@ -158,13 +158,13 @@ SIDC is **structurally scale-invariant** (works at any dimensional level — a "
 - **4D event → 3+1D universe (us) → ... → DM**
 - 3D event → 2D universe → ... → DM
 
-The pattern is the same at every level. The specific values (α, c, N, $f_{\rm back}$) are **dimension-dependent** but the structure is universal. This is SIDC's "dimensional self-similarity" — the SIDC in the name.
+The pattern is the same at every level. The specific values (α, c, N, $f_{\rm DE}$) are **dimension-dependent** but the structure is universal. This is SIDC's "dimensional self-similarity" — the SIDC in the name.
 
 ## SIDC's honest stance
 
 - **67 honest limitations** documented in §7.0
 - 8 closed, 25 open, 21 partial, 1 resolved, 6 negative, 7 speculative
-- **0 free parameters** at the level of the composite model (N = 12, α = 1.289, c = 1/2, $f_{\rm back}$ = $8.6 \times 10^{-86}$ are all derived)
+- **0 free parameters** at the level of the composite model (N = 12, α = 1.289, c = 1/2, $f_{\rm DE}$ = $8.6 \times 10^{-86}$ are all derived)
 - 1 free parameter at the data-fitting level ($z_{\rm half}$ = 3)
 
 SIDC is a **geometric framing with a strongly specified backbone**, not a fully derived Lagrangian. It's a thought experiment, not a complete theory.
