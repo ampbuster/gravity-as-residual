@@ -752,3 +752,27 @@ NEW LIMITATIONS (v3.5.6):
 
 **Total v3.5.6 limitations**: 5 new (L314-L318). Total: 112 (was 107, +L309-L313 +L314-L318).
 Source: `calculations/v35_web_more_options.py`.
+
+## 7.7 v3.5.7 HOLOGRAPHIC/INFO-THEORETIC ANGLES
+
+L319. **STRING MINIMAL AREA gives mu = M_s^2** (v3.5.7). From ResearchGate 2022 (Minimal model for BH entropy): S = A/(4 l_p^2) requires minimum area. If minimum area in 2D is set by STRING SCALE: A_min = 1/M_s, then mu = 1/A_min^2 = M_s^2. For M_s = 3 TeV: mu = 9x10^6 GeV^2 ✓ EXACT MATCH. STRUCTURAL IF 2D universe is a STRING THEORY with M_s = M_Pl,2D = 3 TeV (low string scale, Antoniadis 1990). Source: `calculations/v35_holographic.py`.
+
+L320. **'2 pi' in mu formula is UNIVERSAL 2D FACTOR** (v3.5.7). The "2 pi" appearing in mu = (2 pi T_H)^2 has the SAME origin across multiple formulas:
+- Bekenstein bound S <= 2 pi E R (Longo 2024, from local QFT)
+- Casini 2008 proof (Bekenstein = strong subadditivity)
+- RT formula S_EE = Area/(4 G_N) (holographic)
+- Hagedorn T_H = M_s/(2 pi) (string modular invariance)
+- Hawking-Page T_H = 1/(2 pi L) (SL(2,R) isometry)
+- Unruh T = a/(2 pi) (acceleration)
+
+The "2 pi" is the UNIVERSAL 2D FACTOR from periodic identification, modular flow, or causal diamond structure. Source: `calculations/v35_holographic.py`.
+
+L321. **Bousso covariant bound doesn't constrain mu directly** (v3.5.7). The Bousso bound S <= A/4 applied to 2D universe gives S_total = N_sub x ln(2) = 277 bits, while A/4 = 1/(4 sqrt(mu)). Setting 277 <= 1/(4 sqrt(mu)) gives mu <= 8.15x10^-7 GeV^2 (too tight by factor 10^13). The Bousso bound doesn't apply straightforwardly to our 2D universe. Source: `calculations/v35_holographic.py`.
+
+L322. **RT formula gives universal constant for 2D BH at T_H** (v3.5.7). For 2D universe at Hawking temperature T = sqrt(mu)/(2 pi), the entanglement entropy from RT formula is S_EE = 1/6 (UNIVERSAL for c=1 Liouville). This is independent of mu — gives a checkable constant for our framework. Status: STRUCTURAL. Source: `calculations/v35_holographic.py`.
+
+---
+
+**v3.5.7 status**: 4 new limitations (L319-L322). Total limitations: 116 (was 112 in v3.5.6, +L319-L322).
+**NEW structural origin of mu**: STRING MINIMAL AREA (L319). If A_min = 1/M_s in 2D, then mu = M_s^2 = M_Pl,2D^2 ✓ MATCHES.
+**Universal "2 pi" factor** (L320): connects Bekenstein, Hagedorn, Hawking-Page, RT, Unruh — all share the same fundamental "2 pi" from 2D causal/periodic structure.
