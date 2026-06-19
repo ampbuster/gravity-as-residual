@@ -7359,7 +7359,7 @@ This is the standard Hubble tension. SIDC is in this tension because its $H_0$ p
 
 **Files referenced:**
 
-- `calculations/cmb_cascade_prediction.py` (CAMB-based CMB prediction, $\Delta\chi^2$=+650)
+- `calculations/cmb_cascade_prediction.py` (CAMB-based CMB prediction, $\Delta\chi^2$ = +650)
 - `calculations/hubble_mechanism_*.py` (Mechanism M derivations)
 
 ---
@@ -9484,7 +9484,7 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 
 5. **Generalize the 5/27 derivation to non-static bulks** (Limitation 17, §2.6.1). The current treatment assumes a static AdS$_5$ slice; cosmological evolution (rolling radion, time-dependent warp factor) would modify the 5/27 ratio. A specific calculation would track the ratio's evolution.
 
-**Reproducibility infrastructure.** All 34 limitations have explicit closure criteria in §7.0. The smooth F(z) refinement in §4.48.1 (now §4.48's primary framework as of v2.7.8) closes the v2.4 CMB gap (constant $F_p = 0.7$ was 30% off at z=1100; smooth Hill n=2 $z_{\rm half}$=3 matches both anchors with gap < 1%). All 17 test categories have corresponding Python scripts in `calculations/`. The v2.4 tensor construction has 5 verification checks in `calculations/verify_tensor_pipeline.py`. The v2.4 refactor has 4 verification checks in `calculations/verify_v24_refactor.py`. A reviewer can re-run any test in <5 minutes on a standard scientific Python environment.
+**Reproducibility infrastructure.** All 34 limitations have explicit closure criteria in §7.0. The smooth F(z) refinement in §4.48.1 (now §4.48's primary framework as of v2.7.8) closes the v2.4 CMB gap (constant $F_p = 0.7$ was 30% off at z=1100; smooth Hill n=2 $z_{\rm half}$ = 3 matches both anchors with gap < 1%). All 17 test categories have corresponding Python scripts in `calculations/`. The v2.4 tensor construction has 5 verification checks in `calculations/verify_tensor_pipeline.py`. The v2.4 refactor has 4 verification checks in `calculations/verify_v24_refactor.py`. A reviewer can re-run any test in <5 minutes on a standard scientific Python environment.
 
 **License and contribution terms.** The manuscript is released under CC-BY 4.0. The code is released under MIT. Contributions are welcome via pull request on GitHub. For substantial theoretical work (completing the Lagrangian, deriving the 5/27, etc.), the author is open to co-authorship on follow-up papers and is reachable through the GitHub repository's issue tracker.
 

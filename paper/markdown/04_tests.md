@@ -1536,7 +1536,7 @@ This is the standard Hubble tension. SIDC is in this tension because its $H_0$ p
 
 **Files referenced:**
 
-- `calculations/cmb_cascade_prediction.py` (CAMB-based CMB prediction, $\Delta\chi^2$=+650)
+- `calculations/cmb_cascade_prediction.py` (CAMB-based CMB prediction, $\Delta\chi^2$ = +650)
 - `calculations/hubble_mechanism_*.py` (Mechanism M derivations)
 
 ---
