@@ -298,7 +298,7 @@ z > 4, which is unexpected in ΛCDM:
 - **RUBIES-EGS-QG-1** (z = 4.9, 2024 Nature): a massive quiescent
   galaxy, already dead at z = 4.9
 - **ZF-UDS-7329** (z = 3.205, 2023 Nature): formed stars at z ~ 11,
-  M_* = $1.6 \times 10^{11}$ $M_\odot$, already massive and dead
+  M_* = $1.6 \times 10^{11} M_\odot$, already massive and dead
 - **Russell+ 2024 "Cosmic Stillness"**: high quiescent galaxy
   fractions across upper mass scales at 3 < z < 7
 
@@ -441,12 +441,12 @@ is: DM is non-zero for any galaxy with non-trivial past SF.
 **3.31.3 Per-galaxy analysis.**
 
 **Crater II ($M_{dyn}$/$M_{b} = 19.8$)**: low $M_{dyn}$ in absolute terms
-($5.9 \times 10^{6}$ $M_\odot$), consistent with low past SF. $M_{dyn}$/$M_{b} = 19.8$ is
+($5.9 \times 10^{6} M_\odot$), consistent with low past SF. $M_{dyn}$/$M_{b} = 19.8$ is
 moderate. SIDC predicts Crater II to have relatively low
 DM. **CAVEAT**: tidal disruption may have stripped some DM
 (Vivas+ 2025).
 
-**Antlia 2 ($M_{dyn}$/$M_{b} = 168.6$)**: high $M_{dyn}$ ($8.4 \times 10^{7}$ $M_\odot$) and high
+**Antlia 2 ($M_{dyn}$/$M_{b} = 168.6$)**: high $M_{dyn}$ ($8.4 \times 10^{7} M_\odot$) and high
 $M_{dyn}$/$M_{b}$. This was historically interpreted as evidence for an
 unusual DM halo (Torrealba+ 2018, 2019), but SIDC says this
 is consistent with the galaxy's extended tidal history (which may
@@ -457,8 +457,8 @@ suggests).
 SIDC's prediction: Boötes I had efficient SF early in its
 history (per unit stellar mass), so $M_{dyn}$ is high. **CONSISTENT.**
 
-**Segue 1 ($M_{dyn}$/$M_{b} = 796.1$)**: the most extreme UFD with $M_{b}$ ~ $600$ $M_o$
-but $M_{dyn}$ ~ $5 \times 10^{5}$ $M_o$. SIDC's prediction: Segue 1 had
+**Segue 1 ($M_{dyn}$/$M_{b} = 796.1$)**: the most extreme UFD with $M_{b} \sim 600 M_o$
+but $M_{dyn} \sim 5 \times 10^{5} M_o$. SIDC's prediction: Segue 1 had
 extremely efficient SF (per unit stellar mass), so $M_{dyn}$ is very
 high. **CONSISTENT.**
 
@@ -610,13 +610,13 @@ orders of magnitude in $M_{b}$ (from GCs at $10^{5}$ to clusters at $10^{14}$):
 
 The $M_{dyn}$/$M_{b}$ ratio varies systematically with galaxy type:
 
-- **Globular clusters ($10^{5}$-$10^{7}$ $M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $1$ (no current activity)
-- **Dwarf galaxies ($10^{5}$-$10^{8}$ $M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $1$-1700 (huge spread)
-- **UFDs ($10^{2}$-$10^{4}$ $M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $50$-1700 (extreme)
-- **Irregular galaxies ($10^{8}$-$10^{9}$ $M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $6$-7
-- **Normal spirals ($10^{10}$-$10^{11}$ $M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $14$-30
-- **AGN hosts ($10^{12}$ $M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $50$
-- **Galaxy clusters ($10^{13}$-$10^{14}$ $M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $10$-50
+- **Globular clusters ($10^{5}$-$10^{7} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $1$ (no current activity)
+- **Dwarf galaxies ($10^{5}$-$10^{8} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $1$-1700 (huge spread)
+- **UFDs ($10^{2}$-$10^{4} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $50$-1700 (extreme)
+- **Irregular galaxies ($10^{8}$-$10^{9} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $6$-7
+- **Normal spirals ($10^{10}$-$10^{11} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $14$-30
+- **AGN hosts ($10^{12} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $50$
+- **Galaxy clusters ($10^{13}$-$10^{14} M_\odot$)**: $M_{dyn}$/$M_{b}$ ~ $10$-50
 
 SIDC's qualitative picture: galaxies with non-trivial past SF
 have non-zero $M_{dyn}$. The specific value of $M_{dyn}$/$M_{b}$ depends on
@@ -625,7 +625,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 **3.32.3 Why some galaxies are NOT in the table (per user request).**
 
 **1. KKR 25 (Makarov 2012)** — **NOT MEASURED**
-- $M_{b}$ = $3.0 \times 10^{6}$ $M_\odot$ is measured
+- $M_{b}$ = $3.0 \times 10^{6} M_\odot$ is measured
 - **No published velocity dispersion** for KKR 25
 - $M_{dyn}$/$M_{b}$ is **estimated**, not measured
 - 2024-2026 literature has no new KKR 25 observations
@@ -633,7 +633,7 @@ the SFH, but the SIGN (non-zero) is preserved.
   but cannot be in the comparison table without a measured σ
 
 **2. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
-- $M_{b}$ ~ $7.3 \times 10^{8}$ $M_\odot$ is measured
+- $M_{b} \sim 7.3 \times 10^{8} M_\odot$ is measured
 - $M_{dyn}$/$M_{b}$ ~ $1.36$ (Mancera Piña 2022) vs ~2-3 (Sellwood 2022)
 - 2022-2025 literature has **two contradictory conclusions**:
   - Mancera Piña 2022: "No trace of dark matter"
@@ -843,13 +843,13 @@ measurements) is the cleanest Solar System test of modified gravity.
 - Φ_total = -GM/r + Φ_2D, where Φ_2D = -G × $M_{2D}$_local / r
 
 **Local 2D universe death mass** (within 100 pc):
-- Local stellar mass: $10^{5}$ $M_o$
+- Local stellar mass: $10^{5} M_o$
 - SN events: $10^{3}$ (over 10 Gyr)
-- $M_{2D}$_local = $f_{\rm back}$ × $10^{3}$ × $10^{44}$ $J / c^2$ = $5.6 \times 10^{-86}$ $M_o$
+- $M_{2D}$_local = $f_{\rm back}$ × $10^{3}$ × $10^{44} J / c^2$ = $5.6 \times 10^{-86} M_o$
 
 **Galaxy-integrated 2D universe death mass** (within 10 kpc):
 - N_SN_MW = $5 \times 10^{8}$ (over 10 Gyr)
-- $M_{2D}$_MW = $5.6 \times 10^{-80}$ $M_o$
+- $M_{2D}$_MW = $5.6 \times 10^{-80} M_o$
 
 **PPN γ prediction**:
 - γ_cascade - 1 ~ $M_{2D}$_local / M_Sun = $5.6 \times 10^{-86}$

@@ -531,7 +531,7 @@ Over 13.8 Gyr, the cumulative number of energetic events in a galaxy is large:
 - BNS mergers: ~ $10^6$ in MW
 - AGN outbursts: ~ $10^7$ in MW
 
-Total cumulative event energy in MW: ~ $5 \times 10^{9}$ $M_\odot c^2$ ~ $8\%$ of MW baryons.
+Total cumulative event energy in MW:$\sim 5 \times 10^{9} M_\odot c^2$ ~ $8\%$ of MW baryons.
 
 **Time accumulation provides $0.08\times$** (cumulative events are 8% of stable baryons), but we need $5.4\times$. Time accumulation is *necessary* (without it, the math doesn't work), but it is *not sufficient* (it provides only 12% of the required amplification in log space).
 

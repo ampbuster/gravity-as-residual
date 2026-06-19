@@ -93,7 +93,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 |------|------------------|-------------------------|
 | $w_0$ (DESI DR3) | $-0.83 \pm 0.16$ | > 5σ away from -0.83 |
 | $w_a$ (DESI DR3) | $-0.75 \pm 0.30$ | > 5σ away from -0.75 |
-| 47 Tuc DM (LSST) | < $10^{-5}$ $M_*$ | DM detected at > 5σ |
+| 47 Tuc DM (LSST) | < $10^{-5} M_*$ | DM detected at > 5σ |
 | BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10× off-frequency |
 | AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10× off-frequency |
 | $M_{\rm Pl,4}$ (colliders) | $\geq 4×10^{23}$ GeV | Measured < 4×10²³ GeV |
