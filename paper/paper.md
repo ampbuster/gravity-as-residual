@@ -6723,7 +6723,7 @@ Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type st
 - $N_{CCSN, total} = 1.1 \times 10^6$
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
-**SIDC prediction:** $M_{dyn}/M_{b}$ = 1.36$ (DM-poor). **[PASS]** matches Mancera Piña 2022.
+**SIDC prediction:** $M_{dyn}/M_{b} = 1.36$ (DM-poor). **[PASS]** matches Mancera Piña 2022.
 
 **Caveats (v2.7.35+, legacy_paper.md legacy_paper.md §3.29):**
 - DM content is CONTESTED in 2022-2025 literature (Mancera Piña 2022 vs Sellwood 2022)
@@ -6739,7 +6739,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 - $N_{\rm CCSN, total} = 1.8 \times 10^{3}$ (REVISED v2.7.33+: was $4.5 \times 10^{6}$, off by 2500×)
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
-**SIDC prediction:** $M_{dyn}/M_{b}$ $ ~ $1-4$ (REVISED v2.7.33+: was 299.19, see legacy_paper.md legacy_paper.md §3.27 for the correction).
+**SIDC prediction:** $M_{dyn}/M_{b} \sim 1\text{--}4$ (REVISED v2.7.33+: was 299.19, see legacy_paper.md legacy_paper.md §3.27 for the correction).
 
 **Caveats (v2.7.34+, legacy_paper.md legacy_paper.md §3.28):**
 - KKR 25 has NO published velocity dispersion
@@ -6845,7 +6845,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Metric | AGC 114905 | KKR 25 (old) | KKR 25 (revised) | Ratio (old) | Ratio (revised) |
 |--------|-----------|---------------|-------------------|-------------|------------------|
-| $M_{total formed} / $M_{b}$ (energy ledger) | 3.65 | 3000 | 0.4 | **820×** | **0.11×** (reverses) |
+| $M_{\rm total\ formed} / M_{b}$ (energy ledger) | 3.65 | 3000 | 0.4 | **820×** | **0.11×** (reverses) |
 | Predicted $M_{dyn}/M_b$ (SIDC emulator) | 1.36 | 299.19 | 1-4 | **219×** | **0.7-3×** |
 | Energy injection $E_{total}$ (J) | $1.1 \times 10^{51}$ | $4.5 \times 10^{51}$ | $1.8 \times 10^{49}$ | 4.1× | 0.016× |
 
@@ -9474,7 +9474,7 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 
 **Specific call-to-action: theoretical physicists.** The following items are *concrete, well-defined research problems* that would each constitute a publishable contribution:
 
-1. **Derive the 5/27 zero-mode counting from a specific 2D CFT** (Limitation 30, §2.6.1). The 5/27 is now anchored as the topological eigenvalue $V_5 / A_4 $R_{AdS₅}$, but the specific value 27 in the denominator depends on the zero-mode structure of the bulk-brane Dirac operator, which requires a specific 2D CFT (e.g., $c=1$ free boson, $c=6$ free fermion, $c=26$ critical Polyakov) to compute.
+1. **Derive the 5/27 zero-mode counting from a specific 2D CFT** (Limitation 30, §2.6.1). The 5/27 is now anchored as the topological eigenvalue $V_5 / (A_4 \, R_{\rm AdS_5})$, but the specific value 27 in the denominator depends on the zero-mode structure of the bulk-brane Dirac operator, which requires a specific 2D CFT (e.g., $c=1$ free boson, $c=6$ free fermion, $c=26$ critical Polyakov) to compute.
 
 2. **Complete the 2D CFT Lagrangian** (Limitation 9, §2.3). SIDC's 2D universe needs a specific Lagrangian $L_{2D}$ (Liouville, Polyakov, or other) with specified central charge, target space, and boundary conditions. The Gaussian instanton in §4.44.1 Task 3 is a *phenomenological* stand-in; the full $L_{2D}$ would pin down the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$.
 

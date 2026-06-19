@@ -15,7 +15,7 @@
 
 **Specific call-to-action: theoretical physicists.** The following items are *concrete, well-defined research problems* that would each constitute a publishable contribution:
 
-1. **Derive the 5/27 zero-mode counting from a specific 2D CFT** (Limitation 30, §2.6.1). The 5/27 is now anchored as the topological eigenvalue $V_5 / A_4 $R_{AdS₅}$, but the specific value 27 in the denominator depends on the zero-mode structure of the bulk-brane Dirac operator, which requires a specific 2D CFT (e.g., $c=1$ free boson, $c=6$ free fermion, $c=26$ critical Polyakov) to compute.
+1. **Derive the 5/27 zero-mode counting from a specific 2D CFT** (Limitation 30, §2.6.1). The 5/27 is now anchored as the topological eigenvalue $V_5 / (A_4 \, R_{\rm AdS_5})$, but the specific value 27 in the denominator depends on the zero-mode structure of the bulk-brane Dirac operator, which requires a specific 2D CFT (e.g., $c=1$ free boson, $c=6$ free fermion, $c=26$ critical Polyakov) to compute.
 
 2. **Complete the 2D CFT Lagrangian** (Limitation 9, §2.3). SIDC's 2D universe needs a specific Lagrangian $L_{2D}$ (Liouville, Polyakov, or other) with specified central charge, target space, and boundary conditions. The Gaussian instanton in §4.44.1 Task 3 is a *phenomenological* stand-in; the full $L_{2D}$ would pin down the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$.
 

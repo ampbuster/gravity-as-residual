@@ -900,7 +900,7 @@ Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type st
 - $N_{CCSN, total} = 1.1 \times 10^6$
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
-**SIDC prediction:** $M_{dyn}/M_{b}$ = 1.36$ (DM-poor). **[PASS]** matches Mancera Piña 2022.
+**SIDC prediction:** $M_{dyn}/M_{b} = 1.36$ (DM-poor). **[PASS]** matches Mancera Piña 2022.
 
 **Caveats (v2.7.35+, legacy_paper.md legacy_paper.md §3.29):**
 - DM content is CONTESTED in 2022-2025 literature (Mancera Piña 2022 vs Sellwood 2022)
@@ -916,7 +916,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 - $N_{\rm CCSN, total} = 1.8 \times 10^{3}$ (REVISED v2.7.33+: was $4.5 \times 10^{6}$, off by 2500×)
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
-**SIDC prediction:** $M_{dyn}/M_{b}$ $ ~ $1-4$ (REVISED v2.7.33+: was 299.19, see legacy_paper.md legacy_paper.md §3.27 for the correction).
+**SIDC prediction:** $M_{dyn}/M_{b} \sim 1\text{--}4$ (REVISED v2.7.33+: was 299.19, see legacy_paper.md legacy_paper.md §3.27 for the correction).
 
 **Caveats (v2.7.34+, legacy_paper.md legacy_paper.md §3.28):**
 - KKR 25 has NO published velocity dispersion
@@ -1022,7 +1022,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Metric | AGC 114905 | KKR 25 (old) | KKR 25 (revised) | Ratio (old) | Ratio (revised) |
 |--------|-----------|---------------|-------------------|-------------|------------------|
-| $M_{total formed} / $M_{b}$ (energy ledger) | 3.65 | 3000 | 0.4 | **820×** | **0.11×** (reverses) |
+| $M_{\rm total\ formed} / M_{b}$ (energy ledger) | 3.65 | 3000 | 0.4 | **820×** | **0.11×** (reverses) |
 | Predicted $M_{dyn}/M_b$ (SIDC emulator) | 1.36 | 299.19 | 1-4 | **219×** | **0.7-3×** |
 | Energy injection $E_{total}$ (J) | $1.1 \times 10^{51}$ | $4.5 \times 10^{51}$ | $1.8 \times 10^{49}$ | 4.1× | 0.016× |
 
