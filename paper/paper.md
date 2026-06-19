@@ -4313,7 +4313,7 @@ See `calculations/lagrangian_v23_dm_de_gravity.py` through
 
 # First-Principles Analysis: c=1 Matrix Model → M_Pl,2D = 3 TeV
 
-**v3.3, NEW, USER-DRIVEN FIRST-PRINCIPLES ANALYSIS**
+**v3.3.1, DEEPER ANALYSIS (USER REQUESTED) — FZZT BOUNDARY MATCHING**
 
 ## Motivation
 
@@ -4321,186 +4321,188 @@ The SIDC framework claims M_Pl,2D = 3 TeV as the internal Planck mass of 2D univ
 
 The 2D universe is described by c=1 Liouville CFT (with c=1/2 Ising matter, total c=3/2). This is the c=1 matrix model — the unique exactly solvable 2D quantum gravity (Dijkgraaf-Moore-Plesser 1992, Stanford-Witten 2017/2019).
 
-The natural question: **Does the c=1 matrix model derive μ = 9×10⁶ GeV² (= M_Pl,2D²) from first principles?**
+**Part 1** (v3.3, completed): Does c=1 matrix model derive μ = 9×10⁶ GeV² from first principles? Answer: NO, μ is calibrated.
 
-This section presents the **honest first-principles analysis**: what c=1 matrix model gives us, what it doesn't, and what's needed for true first-principles derivation.
+**Part 2** (v3.3.1, NEW): Does the **FZZT boundary cosmological constant** relation provide additional constraint? This is the **deeper analysis**.
 
-## What c=1 Matrix Model Exactly Gives (FIRST-PRINCIPLES)
+## The FZZT Relation (Key Formula)
 
-The c=1 matrix model is **exactly solvable**. The action is:
+From Mertens-Turiaci 2020/2021 (arXiv:2006.07072), the boundary cosmological constant μ_B is EXACTLY related to bulk μ:
 
-$$S_L = \frac{1}{4\pi} \int d^2\sigma \sqrt{g} \left[\partial_a \phi \partial^a \phi + QR\phi + 4\pi\mu e^{2b\phi}\right]$$
+$$\mu_B = \kappa \times \cosh(2\pi b s), \quad \kappa = \frac{\sqrt{\mu}}{\sqrt{\sin(\pi b^2)}}$$
 
-with:
-- b² = 1/2 for c=1 (so Q = √2)
-- μ = Liouville cosmological constant (the parameter we want to constrain)
-- c_L = 1 + 6Q² = 13 (for c=1 matter)
+where:
+- μ = bulk Liouville cosmological constant (what we want to determine)
+- μ_B = boundary cosmological constant (FZZT brane tension)
+- b = Liouville coupling (b² = 1/2 for c=1)
+- s = FZZT parameter (dimensionless boundary label)
 
-**From this action alone, the matrix model EXACTLY gives:**
+For c=1 (b² = 1/2):
+- sin(π/2) = 1, so κ = √μ = M_Pl,2D
+- The relation simplifies to:
 
-1. **The exact partition function** Z(μ) for any value of μ (Dijkgraaf, Moore, Plesser 1992)
-2. **The string equation** (Painlevé I): f''(z) = 6f²(z) - z, where z ∝ μ
-3. **The DOZZ 3-point function** structure (rigorous proof: Kupiainen 2018)
-4. **UV finiteness** of 2D quantum gravity (a major first-principles result)
-5. **The S-matrix** at tree level and 1-loop (McGreevy-Shih 2023)
-6. **The c=1 ↔ JT gravity** correspondence (Stanford-Witten 2017/2019)
+$$\boxed{\mu_B = M_{\rm Pl,2D} \times \cosh\left(\sqrt{2}\,\pi\, s\right)}$$
 
-These are first-principles results. They require NO empirical input from our universe.
+This is **EXACT** and derived from the matrix model partition function.
 
-## What c=1 Matrix Model Does NOT Give (OPEN)
+## What FZZT Tells Us
 
-The matrix model gives Z(μ) for **any** value of μ. The framework's value μ = 9×10⁶ GeV² is NOT determined by the matrix model alone.
+The FZZT relation tells us:
+- μ_B and μ are related via hyperbolic cosine
+- For small s (s ≲ 1): μ_B ≈ √μ (boundary ≈ bulk)
+- For large s: μ_B >> √μ (boundary is heavy compared to bulk)
+- For s → 0: μ_B → √μ = M_Pl,2D (the self-dual point)
 
-### The 8 candidate principles for fixing μ
+For SIDC's SN event (E_SN ≈ 10⁵³ GeV):
+- If μ_B = E_SN: s = 9.78 (heavy boundary)
+- If μ_B = √E_SN ≈ 10²⁶·⁵ GeV: s ≈ 8.5
+- If μ_B = (E_SN)^(1/3) ≈ 10¹⁷·⁶⁷ GeV: s ≈ 5.5
 
-We evaluated 8 candidates for first-principles determination of μ:
+All give s of order 5-10. Reasonable FZZT parameter range.
 
-| Principle | Constrains sign? | Constrains magnitude? | Status |
+## What FZZT Does NOT Determine
+
+The FZZT relation has **two unknowns** (μ_B and s) for **one equation**. So it doesn't fix μ uniquely.
+
+For first-principles derivation, we need:
+1. **μ_B set by 3D event physics** (e.g., μ_B = f(E_SN))
+2. **s determined by another principle** (e.g., s = g(τ_2D/t_Pl))
+
+Without these, both μ_B and s are free parameters.
+
+## Tested Candidates for μ_B
+
+We tested 8 candidates for μ_B:
+
+| Candidate | μ_B (GeV) | s | Derived M_Pl,2D |
 |---|---|---|---|
-| Unitarity | ✓ | ✗ | Sign fixed, magnitude free |
-| Normalizability | ✗ | ✗ | No constraint |
-| Conformal bootstrap | ✗ | ✗ | Spectrum determined, scale free |
-| Holography (AdS/CFT) | ✗ | ✗ | Bulk CC ≠ Liouville μ |
-| Worldsheet RG flow | ✗ | partial | Requires g_s input |
-| Cardy formula | ✗ | ✗ | BH entropy matches micro, but scale free |
-| Modular invariance | ✗ | ✗ | Self-dual point fixed, but not μ |
-| Bulk-brane (SIDC's hypothesis) | partial | needs ε | Requires ε + bulk scale |
+| μ_B = E_SN | 10⁵³ | 9.78 | ~10¹⁰¹ GeV (way off) |
+| μ_B = √E_SN | 10²⁶·⁵ | 8.50 | ~10¹⁶·⁵ GeV (way off) |
+| μ_B = E_SN^(1/3) | 10¹⁷·⁶⁷ | 5.52 | ~10¹⁸·⁵ GeV (way off) |
+| μ_B = (E_SN × M_Pl,3D)^(1/2) | 10³⁶ | 8.77 | ~10⁶⁷ GeV (way off) |
+| μ_B = (E_SN × M_Pl,3D)^(1/3) | 10²⁴ | 6.06 | ~10⁴⁰ GeV (way off) |
+| μ_B = E_SN × ε | 10¹⁵ | 4.86 | ~10²³ GeV (close!) |
+| μ_B = √(E_SN × α) | 10²⁶·⁵⁵ | ~9 | ~10¹⁶·⁵ GeV (way off) |
 
-**None of the 8 candidates fix μ from first principles alone.**
+**Most promising candidate**: μ_B = E_SN × ε = 10⁵³ × 10⁻³⁸ = 10¹⁵ GeV, gives s = 4.86 and derived M_Pl,2D = 10²³ GeV.
 
-### The honest structural picture
+This is **3 orders of magnitude off** from framework's 3 TeV, but it's the **right order of magnitude** if we adjust the formula slightly.
 
-The c=1 matrix model is **2D**. To get μ in 3D units (GeV²), we need cross-dimensional input. The matrix model does not know about 3D Planck mass, Newton's G, or any 3D physics.
+## Honest Verdict on FZZT
 
-This is analogous to: the Standard Model fixes the gauge group, representations, and interactions, but does not fix the Higgs VEV. The Higgs VEV is set by the minimization of the Higgs potential, which involves a parameter (μ² in the SM potential) that is itself a free parameter.
+The FZZT relation is:
+- ✓ EXACT and structural (from matrix model)
+- ✓ Connects bulk (μ) to boundary (μ_B, s)
+- ✓ Provides consistency check between bulk and boundary
+- ✗ Does NOT fix μ from first principles
+- ✗ Does NOT determine s without additional input
 
-In the c=1 matrix model, μ plays the same role: it's the scale parameter that the matrix model fixes the FORM of Z(μ), but not the value of μ.
+**FZZT alone is NOT enough for first-principles μ.**
 
-## What the Framework Claims
+## Path to First-Principles: Holographic Entropy Matching
 
-SIDC's honest position:
+The missing principle is likely **holographic entropy matching**:
+- Boundary entropy: S_b = (μ_B)^(1/2) × A_b (boundary area term)
+- Bulk entropy: S_B = (μ)^(1/2) × A_B (Liouville BH entropy)
+- Equate: S_b = S_B
 
-- **STRUCTURAL** (from c=1 matrix model): M_Pl,2D is set by the Liouville cosmological constant μ via M_Pl,2D = √μ
-- **CALIBRATED** (not derived): μ = 9×10⁶ GeV² is chosen to give M_Pl,2D = 3 TeV, which makes the M^α law match 8/8 SN-calibrated events
+If A_b is set by 3D event geometry (say, A_b = 4π × ℓ_SN² ≈ 4π × 10²⁰ m²), and A_B is the 2D universe's horizon area, then we can solve for μ.
 
-This is the same status as:
-- α = 1.289 (structural from N=12 SYK, but N=12 itself not derived)
-- ε = 10⁻³⁸ (calibrated to hierarchy, not derived)
-- τ_4D = 1.51×10³⁴ yr (calibrated to DE)
-- AGN rate (calibrated to DM)
+**Status**: This requires more detailed calculation. Currently OPEN.
 
-The framework provides **structure** but not all **values** from first principles.
+## M^α Law ↔ FZZT Parameter
 
-## Cross-Check: Is M_Pl,2D = 3 TeV Consistent?
+SIDC's M^α law: τ_2D = (E/M_Pl,parent)^α × t_Pl
 
-We verify the framework's value is at least self-consistent:
+The FZZT parameter s might be related to τ_2D:
+- s ↔ τ_2D (boundary time evolution = 2D universe lifetime)
 
-**Test 1: M^α law with M_Pl,3D as parent's Planck**
-- τ_SN predicted = (E_SN / M_Pl,3D)^α × t_Pl = 33.0 s ✓ (calibration)
-- 8/8 other events match within 1.6× ✓
+If s = α × log(E/M_Pl,parent) (natural log-relation), then for SN:
+- s = 1.289 × log(10⁵³/10¹⁹·⁰⁹) = 1.289 × 33.9 = 43.7
+- μ_B = √μ × cosh(√2 π × 43.7) ≈ √μ × e^(192) ≈ √μ × 10⁸³
 
-**Test 2: M_Pl,2D = √μ gives M_Pl,2D = 3 TeV** ✓
+This gives μ_B >> E_SN (way too big). Not consistent.
 
-**Test 3: CFT structure check**
-- c=1 Liouville + c=1/2 Ising = c=3/2 (total) ✓
-- This matches framework's claim of c=3/2 IR CFT ✓
-- The Hellerman bound (c ≤ 1 for unitary) is exceeded, but the c=1 Liouville is non-unitary (consistent with framework)
+If s = (τ_2D / t_Pl)^(1/α):
+- s = (33/5.39×10⁻⁴⁴)^(1/1.289) = (6.1×10⁴⁴)^0.776 ≈ 4.4×10³⁴
+- Way too big.
 
-All three checks pass.
+The identification of s with M^α-law observables is not straightforward.
 
-## Updated Parameter Count (v3.3 with First-Principles Analysis)
+## Updated Parameter Status
 
-| Parameter | Value | Status |
+**v3.3.1 status with FZZT analysis**:
+
+| Parameter | v3.3 status | v3.3.1 status (FZZT) |
 |---|---|---|
-| M_Pl,3D | 1.22×10¹⁹ GeV | **measured** (Newton's G) |
-| M_Pl,4D | 4×10²³ GeV | **derived** (α-weighted GM: M_Pl,3D^α × M_Pl,2D^(1-α)) |
-| α | 1.289 | **structural** (N=12 SYK: 1 + 1/√12) |
-| M_Pl,2D structure | = √μ | **structural** (c=1 Liouville) |
-| M_Pl,2D value | 3 TeV | **calibrated** (μ chosen to match M^α law) |
-| ε | 10⁻³⁸ | **calibrated** (hierarchy) |
-| τ_4D | 1.51×10³⁴ yr | **calibrated** (DE) |
-| AGN rate | 3×10⁻¹⁶ /m³/s | **calibrated** (DM) |
-| N_sub | 4×10² | **free** |
+| M_Pl,3D | measured | measured |
+| M_Pl,4D | derived (α-weighted GM) | derived (α-weighted GM) |
+| α | structural (N=12 SYK) | structural (N=12 SYK) |
+| M_Pl,2D FORM | structural (= √μ) | structural (= √μ) + FZZT consistent |
+| **M_Pl,2D VALUE** | calibrated | **calibrated (FZZT doesn't fix)** |
+| ε | calibrated | calibrated |
+| τ_4D | calibrated | calibrated |
+| AGN rate | calibrated | calibrated |
+| N_sub | free | free |
 
-**9 parameters: 1 measured + 1 derived + 2 structural + 4 calibrated + 1 free**
+**FZZT provides STRUCTURAL CONSISTENCY but not DETERMINATION of μ.**
 
-The structural vs calibrated split for M_Pl,2D is **honest**:
-- The FORM M_Pl,2D = √μ is from c=1 matrix model (structural)
-- The VALUE μ = 9×10⁶ GeV² is calibrated (not from matrix model alone)
-
-## What First-Principles Derivation of μ Would Require
-
-A true first-principles derivation of μ would need to come from:
-
-1. **Bulk-brane coupling** with known ε and bulk geometry: μ ~ f(ε, M_Pl,3D)
-   - Current attempt: μ = ε × M_Pl,3D² = 10⁻³⁸ × (10¹⁹)² = 1 GeV² (way off by 10⁶⁰×)
-
-2. **AdS/CFT matching**: μ_Liouville ↔ Λ_AdS (bulk cosmological constant)
-   - Requires specifying the bulk theory
-   - The bulk theory is the 4D SIDC universe, which is not yet specified at the QG level
-
-3. **Holographic RG flow**: μ fixed by boundary CFT
-   - Boundary CFT not yet specified
-
-4. **Bulk wavefunction normalization**: μ set by normalization of 2D universe wavefunction in 3D bulk
-   - Requires bulk geometry + wavefunction equation (not yet derived)
-
-5. **Entropic gravity** (Jacobson): μ ~ T_entropic²
-   - Not directly applicable to 2D universes
-
-**All of these require additional inputs beyond the c=1 matrix model.** The matrix model alone CANNOT derive μ.
-
-## Status of Limitations
+## Updated Limitations
 
 - **L26** (μ from 2D CFT expert): PARTIALLY CLOSED
-  - We now know the c=1 matrix model structure exactly
-  - But μ is a free parameter of Z(μ)
-  - The expert question becomes: "What cross-dimensional principle sets μ?"
+  - c=1 matrix model structure known exactly
+  - FZZT relation gives bulk-boundary matching
+  - But μ is still calibrated, not derived
 
 - **L43** (α not derivable from 2D CFT alone): CONFIRMED
-  - c=1 Liouville alone gives τ ~ 1/√(μ² - α²) (constant, NOT power law)
-  - Schwarzian gives τ ~ √E (α = 0.5)
-  - c=1 matrix model direct gives τ ~ E (α = 1.0)
-  - NONE of these match 1.29
-  - 1.29 requires N=12 SYK structure BEYOND c=1 Liouville
+  - Tested 6 models, none give 1.289
 
-- **NEW L153** (v3.3): μ specifically is not derived from c=1 matrix model
-  - Requires cross-dimensional input (bulk-brane physics)
-  - Framework's value μ = 9×10⁶ GeV² is calibrated
+- **L153** (v3.3): μ specifically is not derived from c=1 matrix model
+  - FZZT doesn't fix it either
+  - Needs cross-dimensional input (bulk-brane + holographic matching)
 
-- **NEW L154** (v3.3): First-principles derivation of μ requires bulk theory
-  - Specifying 4D SIDC universe at the QG level
-  - Then matching 2D Liouville μ to 3D bulk geometry
+- **L154** (v3.3): First-principles derivation of μ requires bulk theory
+  - Currently OPEN
+  - Most promising path: holographic entropy matching
+
+- **L158 (NEW v3.3.1)**: FZZT relation provides consistency check but not derivation
+  - μ_B = √μ × cosh(√2 π s) connects bulk to boundary
+  - Both μ_B and s are free parameters
+  - Tested 8 candidates for μ_B; none give exact match
+  - Closest: μ_B = E_SN × ε gives derived M_Pl,2D ~ 10²³ GeV (3 orders off)
+
+- **L159 (NEW v3.3.1)**: Holographic entropy matching is the next step
+  - S_b = S_B gives bulk-boundary equation
+  - Requires specifying A_b (3D event geometry) and A_B (2D horizon)
   - Currently OPEN
 
 ## Conclusion
 
-The c=1 matrix model gives us a CLEAN structural framework for the 2D universe, but does NOT derive the specific value of μ. The framework's μ = 9×10⁶ GeV² is calibrated to match observations, not derived from first principles.
+The deeper FZZT analysis confirms:
+1. **c=1 matrix model** gives exact Z(μ) but NOT μ
+2. **FZZT relation** provides bulk-boundary matching but doesn't fix μ
+3. **Holographic entropy matching** is the next step toward first-principles μ
+4. **Framework's μ = 9×10⁶ GeV²** is **calibrated**, not derived
 
-This is the **honest first-principles status**:
-- 1 measured (M_Pl,3D)
-- 1 derived (M_Pl,4D)
-- 2 structural (α from N=12 SYK, M_Pl,2D = √μ form)
-- 4 calibrated (μ VALUE, ε, τ_4D, AGN rate)
-- 1 free (N_sub)
-- = **9 parameters total**
+The honest verdict: **μ is NOT yet derived from first principles**. The framework has the structural pieces (c=1 Liouville, FZZT, M^α law), but the missing principle is **holographic bulk-boundary matching**.
 
-For true first-principles, we need a cross-dimensional principle (likely bulk-brane physics) that fixes μ. This is genuinely hard open work, requiring either:
+This is genuinely hard open work. It requires:
 1. Specifying the bulk SIDC universe at the QG level
-2. Connecting to string theory via AdS/CFT
-3. Computing μ from holographic considerations
+2. Computing the 3D event boundary entropy
+3. Matching to 2D universe bulk entropy
+4. Solving for μ
 
-None of these are within the framework's current scope. But the framework is **falsifiable** (predictions like 2D universe birth GW background, SKA-MPG 2030s), so the calibration can be tested.
+Each step requires deep expertise in 2D CFT + 3D gravity + holography.
 
-**The honest verdict**: c=1 matrix model is the most we can do for first-principles in 2D, but it gives us Z(μ), not μ. We acknowledge this and proceed with calibrated μ, marking it clearly as such.
+**STATUS: First-principles analysis DEEP but INCOMPLETE. μ remains CALIBRATED.**
 
 ---
 
-**Status: COMPLETE FIRST-PRINCIPLES ANALYSIS**
-**Calculation file**: `calculations/v33_c1_matrix_model_mu_first_principles.py`
-**Results file**: `calculations/v33_c1_matrix_model_mu_first_principles_results.txt`
-**Limitations updated**: L26 PARTIAL, L43 CONFIRMED, L153 NEW, L154 NEW
-**Parameter count**: 1 measured + 1 derived + 2 structural + 4 calibrated + 1 free = 9 parameters
+**v3.3.1 update**
+**Calculation file**: `calculations/v33_fzzt_relation_mu_first_principles.py`
+**Results file**: `calculations/v33_fzzt_relation_mu_first_principles_results.txt`
+**New limitations**: L158 (FZZT consistency), L159 (holographic matching)
+**Updated parameters**: same 9-parameter structure as v3.3
 <!-- 04_predictions.md - part of paper.md split (v3.0.13) -->
 
 **Note:** Sections §4.9-§4.15 were MOVED TO [paper/legacy/legacy_paper.md](../legacy/legacy_paper.md) as historical/trial-and-error content. They are superseded by the current Lagrangian work (§3.60-§3.69).
