@@ -297,7 +297,7 @@ SIDC's most distinctive claim is the **inversion**: 4D event gravity is attracti
 
 The Israel junction conditions for a thin brane in a 5D bulk are:
 
-$$\Delta K_{\mu\nu} - \Delta K   g_{\mu\nu} = -\kappa_5   T_{\mu\nu}$
+$$\Delta K_{\mu\nu} - \Delta K   g_{\mu\nu} = -\kappa_5   T_{\mu\nu}$$
 
 where $K_{\mu\nu}$ is the extrinsic curvature and $T_{\mu\nu}$ is the brane stress-energy (with $T$ being the brane tension). For a brane with **negative tension** $T_{4D} < 0$:
 
@@ -313,7 +313,7 @@ where $K_{\mu\nu}$ is the extrinsic curvature and $T_{\mu\nu}$ is the brane stre
 
 The DGP model is a 5D Minkowski bulk with a 4D brane, gravity localized by a brane-bulk kinetic mixing term. The 4D effective Friedmann equation on the brane is:
 
-$$H^2 - \epsilon \frac{H}{r_c} = \frac{8\pi G}{3} \rho + \frac{\Lambda_4}{3}$
+$$H^2 - \epsilon \frac{H}{r_c} = \frac{8\pi G}{3} \rho + \frac{\Lambda_4}{3}$$
 
 where $r_c = G_5/G_4$ is the crossover scale. For the **self-accelerating branch** ($\epsilon = -1$, the *negative* sign):
 
@@ -513,7 +513,7 @@ The math: $(5 \times 10^{9} M_\odot) \times A = 3.2 \times 10^{11} M_\odot$, so 
 
 SIDC's current mechanism: the 2D universe has an *intrinsic* 2D-frame mass $M_{2D,2D}$ ~ $6 M_\odot$ (stellar scale, set by 2D physics), and the time compression factor $e^{-ky}$ converts this to a 3+1D-frame mass at death:
 
-$$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$
+$$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$$
 
 To get the required $3.7 \times 10^{-5} M_\odot$ per universe:
 $$e^{-ky} = 3.7 \times 10^{-5} / 6 = 6.2 \times 10^{-6}$$
@@ -561,7 +561,7 @@ A more interesting possibility: **the 2D universe's intrinsic 2D-frame mass (~ $
 *Possibility:* at the moment of 2D universe birth, the dimensional projection mechanism taps the bulk vacuum energy (DE) to provide the 2D universe's intrinsic mass.
 
 Math:
-$$M_{2D,intrinsic} = M_{2D,baryonic} + f_{DE} \times \rho_{DE} \times V_{birth}$
+$$M_{2D,intrinsic} = M_{2D,baryonic} + f_{DE} \times \rho_{DE} \times V_{birth}$$
 
 where $V_{birth}$ is the 2D universe's birth volume (in 2D frame). To get $M_{2D,intrinsic} = 6 M_\odot$:
 
@@ -642,15 +642,15 @@ If SIDC's cumulative component of DM grows over time (which it should, by SIDC's
 
 **3.12.3 The honest answer: it's a mix.**
 
-SIDC's line 1897 says total DM is "approximately conserved," but the smooth $$F_p$(z)$ implies the *absolute* primordial DM contribution might be different at different z. The honest interpretation:
+SIDC's line 1897 says total DM is "approximately conserved," but the smooth $F_p(z)$ implies the *absolute* primordial DM contribution might be different at different z. The honest interpretation:
 
 1. **Total DM is approximately conserved** in comoving volume (line 1897)
 2. **Primordial 2D universe deaths continue to add to DM** at all z (these are slow deaths, ongoing throughout cosmic history)
 3. **Cumulative 2D universe deaths add to DM** at all z, but at a *declining* rate (SFR has decreased over cosmic time)
-4. **The ratio of primordial to cumulative changes with z** (captured by $$F_p$(z)$)
+4. **The ratio of primordial to cumulative changes with z** (captured by $F_p(z)$)
 5. **Total DM is the SUM of both components**, approximately conserved at 27%
 
-In this interpretation, the DM/baryon ratio is *approximately constant* (5.4x at all z), with small variations due to the ongoing primordial deaths and the growing cumulative deaths. SIDC's smooth $$F_p$(z)$ is the *composition* of DM at each z, not the absolute total.
+In this interpretation, the DM/baryon ratio is *approximately constant* (5.4x at all z), with small variations due to the ongoing primordial deaths and the growing cumulative deaths. SIDC's smooth $F_p(z)$ is the *composition* of DM at each z, not the absolute total.
 
 **3.12.4 The subtle test: does the DM/baryon ratio grow?**
 
@@ -667,7 +667,7 @@ Observational test: measure the *primordial vs cumulative composition* of DM at 
 
 SIDC's $F_p(z)$ also addresses the v2.4 "CMB gap" (L31):
 - v2.4 constant $F_p = 0.7$ predicted only 70% of observed DM at $z=1100$ (30% gap)
-- v2.7.5+ smooth $$F_p$(z)$ (Hill n=2, $z_{half} = 3$) predicts 100% of observed DM at $z=1100$ (gap < 1%)
+- v2.7.5+ smooth $F_p(z)$ (Hill n=2, $z_{half} = 3$) predicts 100% of observed DM at $z=1100$ (gap < 1%)
 
 The smooth $F_p(z)$ says: at $z=1100$, DM is 100% primordial. The primordial 2D universe deaths that happen *before* $z=1100$ account for the observed 27% of DM at CMB. The remaining 30% of *cumulative* DM hasn't happened yet at $z=1100$ — it accumulates over cosmic history.
 
@@ -679,7 +679,7 @@ This is a *testable* framework:
 
 SIDC predicts:
 
-| Redshift | $$F_p$(z)$ | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
+| Redshift | $F_p(z)$ | Cumulative fraction | DM/baryon ratio (Scenario A) | DM/baryon ratio (Scenario B) |
 |----------|----------|---------------------|------------------------------|------------------------------|
 | 1100 (CMB) | 1.000 | 0.000 | 5.40 | 3.80 |
 | 6 | 0.946 | 0.054 | 5.40 | 4.06 |
@@ -703,7 +703,7 @@ The user is right to highlight this. SIDC makes a *subtle* testable prediction:
 
 **3.12.8 Honest summary.**
 
-The user is right: SIDC's cumulative component of DM *should grow* over time. SIDC's framework has this captured by $$F_p$(z)$, but the absolute total is a separate question (conserved or growing).
+The user is right: SIDC's cumulative component of DM *should grow* over time. SIDC's framework has this captured by $F_p(z)$, but the absolute total is a separate question (conserved or growing).
 
 - **SIDC's default:** total DM approximately conserved in comoving volume (Scenario A). DM/baryon ratio is constant at 5.4x.
 - **SIDC's alternative:** total DM grows as cumulative deaths accumulate (Scenario B). DM/baryon ratio grows from 3.8x to 5.4x.
@@ -712,7 +712,7 @@ SIDC is honest that this is a *subtle* testable prediction. The growth factor is
 
 **SIDC's status (v2.7.17+):**
 - The DM/baryon ratio is *approximately* constant in SIDC's default framework (Scenario A)
-- The cumulative fraction GROWS with time (captured by $$F_p$(z)$)
+- The cumulative fraction GROWS with time (captured by $F_p(z)$)
 - The total DM is approximately conserved (line 1897), but this is a *postulate*, not a derivation
 - SIDC is honest that the growth of cumulative DM is a *testable* prediction
 - Future JWST/Euclid observations of high-z galaxy DM content could distinguish Scenario A from B

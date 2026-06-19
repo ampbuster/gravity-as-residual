@@ -81,7 +81,7 @@ $$f_{mix}(r) = 1 - \exp(-N_{orbits}(r) / N_{crit})$$
 
 where $N_{orbits}(r) = t_{Hubble} / t_{dyn}(r)$ is the number of dynamical times elapsed since formation, and $N_{crit}$ is a critical number of orbits for "effective" mixing. The full model is then:
 
-$$\rho_{DM}(r) = f_{mix}(r) \cdot \rho_{uniform} + (1 - f_{mix}(r)) \cdot \rho_{clustered} + f_{active} \cdot \rho_{clustered}$
+$$\rho_{DM}(r) = f_{mix}(r) \cdot \rho_{uniform} + (1 - f_{mix}(r)) \cdot \rho_{clustered} + f_{active} \cdot \rho_{clustered}$$
 
 This gives a *naturally intermediate* profile that smoothly transitions from fully clustered (where $N_{orbits} \ll N_{crit}$) to fully uniform (where $N_{orbits} \gg N_{crit}$), with the transition radius depending on halo mass.
 
@@ -493,7 +493,7 @@ This subsection attempts to derive the empirical g₊ acceleration scale from SI
 From $S_{creation} = -\alpha \int d^4x \sqrt{-g} T^{SM}_{\mu\nu} \int d^2\sigma \sqrt{-\gamma} \eta^{\mu\nu} \delta^{(4)}(x - X(\sigma))$:
 
 A single 3+1D energetic event with stress-energy $T^{SM}_{\mu\nu}(x) = \rho_{event} \delta^{(3)}(x - x_{event})$ creates a 2D brane at $X(\sigma)$ with energy:
-$$E_{2D} = \alpha \cdot E_{event}$
+$$E_{2D} = \alpha \cdot E_{event}$$
 
 The 2D brane's back-projected gravitational field in 3+1D (at distance $r$ from the event) is:
 $$\delta g_+(r) = \frac{G_{2D} \cdot E_{2D} / c^2}{L_{2D} \cdot r}$$

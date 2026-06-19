@@ -405,7 +405,7 @@ This subsection is a *direct invitation* to mathematical physicists working in b
 
 To fully mature this framework, the scale-invariant dimensional SIDC requires an explicit mapping to a modified stress-energy tensor:
 
-$$T_{\mu\nu}^{total} = T_{\mu\nu}^{standard} + T_{\mu\nu}^{SIDC}$
+$$T_{\mu\nu}^{total} = T_{\mu\nu}^{standard} + T_{\mu\nu}^{SIDC}$$
 
 The open theoretical challenge is to define a **scalar field** φ or an **auxiliary metric tensor** on a bounded 2D sub-manifold such that local energy-momentum conservation ($\nabla_\mu T^{\mu\nu} = 0$) is preserved on the 3+1D brane via a time-dilated boundary junction during the lifetime $\tau_{2D} = L_{event}/c$.
 
@@ -548,7 +548,7 @@ L301. **CFT structures (Schwarzian, DOZZ, JT gravity, Liouville c=1) do not dire
 
 NO 2D CFT structure gives α = 1.289 naturally. The "1 + 1/√N" formula is the CLEANEST match but is still a structural interpretation. Source: `calculations/v35_tier2_research_depth.py`.
 
-L302. **F-theory compactification does not immediately give μ = 9×10⁶ GeV²** (v3.5, #6). F-theory estimates μ ∝ M_Pl,4D²/Vol_6(CY3), which gives different values depending on CY3 specifics. With M_Pl,4D = 4×10²³ GeV and typical Vol_6, μ ~ 10⁴⁰-10⁴¹ GeV², which is ~10³⁴× off from framework's μ = 9×10⁶ GeV². v3.4 F-theory adoption does NOT immediately close L26. Source: `calculations/v35_tier2_research_depth.py`.
+L302. **F-theory compactification does not immediately give μ = 9×10⁶ GeV²** (v3.5, #6). F-theory estimates μ ∝ $M_{\rm Pl}$,4D²/Vol_6(CY3), which gives different values depending on CY3 specifics. With $M_{\rm Pl,4D}$ = 4×10²³ GeV and typical Vol_6, μ ~ 10⁴⁰-10⁴¹ GeV², which is ~10³⁴× off from framework's μ = 9×10⁶ GeV². v3.4 F-theory adoption does NOT immediately close L26. Source: `calculations/v35_tier2_research_depth.py`.
 
 L303. **NEW ANGLE for μ: μ might be the AdS_2 radius of the 2D universe** (v3.5, #6, SPECULATIVE). The 2D universe is asymptotically AdS_2 (with cosmological constant Λ = -μ). The AdS_2 curvature scale IS μ. From F-theory: μ might come from compactification of 4D bulk geometry. This is physically motivated but speculative. Not yet derived. Source: `calculations/v35_tier2_research_depth.py`.
 
@@ -559,15 +559,15 @@ L303. **NEW ANGLE for μ: μ might be the AdS_2 radius of the 2D universe** (v3.
 
 ## 7.5 v3.5 NEW ANGLE Limitations: μ first-principles (11 attempts)
 
-L304. **μ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with f_back² suppression (SIDC's f_back² ~ 10⁻¹⁷⁰ at LHC energies makes strings invisible). For M_s = 3 TeV: μ = M_s² = 9×10⁶ GeV² ✓ MATCHES framework. BUT: this requires M_s = M_Pl,2D = 3 TeV, which is just saying μ = M_Pl,2D² (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.
+L304. **μ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with f_back² suppression (SIDC's f_back² ~ 10⁻¹⁷⁰ at LHC energies makes strings invisible). For M_s = 3 TeV: μ = M_s² = 9×10⁶ GeV² ✓ MATCHES framework. BUT: this requires M_s = $M_{\rm Pl,2D}$ = 3 TeV, which is just saying μ = $M_{\rm Pl}$,2D² (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.
 
-L305. **μ = b² × M_Pl,2D² for c=1 Liouville gives 4.5×10⁶ (off by factor 2)** (v3.5). The Liouville conformal weight b² = 1/2 for c=1 doesn't simply relate to μ via this formula. The natural μ = M_Pl,2D² is the AdS_2 inverse length squared, but b² = 1/2 specifically gives a different value. Status: NOT DERIVED. Source: `calculations/v35_new_angle_mu.py`.
+L305. **μ = b² × $M_{\rm Pl}$,2D² for c=1 Liouville gives 4.5×10⁶ (off by factor 2)** (v3.5). The Liouville conformal weight b² = 1/2 for c=1 doesn't simply relate to μ via this formula. The natural μ = $M_{\rm Pl}$,2D² is the AdS_2 inverse length squared, but b² = 1/2 specifically gives a different value. Status: NOT DERIVED. Source: `calculations/v35_new_angle_mu.py`.
 
 L306. **2D BH entropy matching doesn't give framework's μ** (v3.5). For SN-scale 2D BH: S_BH = 4π² E/√μ ~ 10⁵⁰ (huge). Setting S_BH = ln(N!) = ln(12!) = 19.99 gives μ ~ 10¹¹⁰ GeV² (way off). The SN scale is too large for natural entropy bounds. Status: NOT APPLICABLE. Source: `calculations/v35_new_angle_mu.py`.
 
-L307. **μ from conformal weight of first excited state** (v3.5). For c=1 Liouville: first excited state has h = b² = 1/2. Energy E_1st = h × M_Pl,2D = 1.5 TeV. Then μ = (2 × E_1st)² = (3 TeV)² = 9×10⁶ GeV² ✓ MATCHES. But the "2 × " in (2 × E_1st)² is just to make h = 1/2 cancel, giving μ = M_Pl,2D² (tautological). The h = 1/2 doesn't actually constrain μ. Status: STRUCTURAL. Source: `calculations/v35_new_angle_mu.py`.
+L307. **μ from conformal weight of first excited state** (v3.5). For c=1 Liouville: first excited state has h = b² = 1/2. Energy E_1st = h × $M_{\rm Pl,2D}$ = 1.5 TeV. Then μ = (2 × E_1st)² = (3 TeV)² = 9×10⁶ GeV² ✓ MATCHES. But the "2 × " in (2 × E_1st)² is just to make h = 1/2 cancel, giving μ = $M_{\rm Pl}$,2D² (tautological). The h = 1/2 doesn't actually constrain μ. Status: STRUCTURAL. Source: `calculations/v35_new_angle_mu.py`.
 
-L308. **NEW ANGLE RESULT (v3.5)**: All 11 attempts at μ first-principles reduce to either TAUTOLOGICAL (μ = M_Pl,2D²) or STRUCTURAL (μ = M_s², μ = b² M_Pl,2D²). NONE give a true derivation. L26 REMAINS OPEN: μ is calibrated (via SN τ_2D = 33 s, L41). The framework should ACCEPT this and not over-claim "derivation". The structural interpretations are useful context but not derivations.
+L308. **NEW ANGLE RESULT (v3.5)**: All 11 attempts at μ first-principles reduce to either TAUTOLOGICAL (μ = $M_{\rm Pl}$,2D²) or STRUCTURAL (μ = M_s², μ = b² $M_{\rm Pl}$,2D²). NONE give a true derivation. L26 REMAINS OPEN: μ is calibrated (via SN τ_2D = 33 s, L41). The framework should ACCEPT this and not over-claim "derivation". The structural interpretations are useful context but not derivations.
 
 **L308 ADDITION (v3.5.1)**: The "1/2" in conformal weight h = b² = 1/2 IS connected to multiple framework anchors:
 - Schwarzian exponent τ ∝ E^(1/2)
@@ -577,14 +577,14 @@ L308. **NEW ANGLE RESULT (v3.5)**: All 11 attempts at μ first-principles reduce
 
 So "1/2" has 3+ independent derivations in the framework. BUT the conformal weight argument is still TAUTOLOGICAL because:
 - h = 1/2 is INPUT (Liouville)
-- E_1st = h × M_Pl,2D is OUTPUT
+- E_1st = h × $M_{\rm Pl,2D}$ is OUTPUT
 - μ = (2 × E_1st)² uses "2 ×" to UNDO the 1/2 from Liouville
-- Result: μ = M_Pl,2D² (still tautological)
+- Result: μ = $M_{\rm Pl}$,2D² (still tautological)
 
-The "2 ×" is suspicious — it reverses the 1/2 to get back M_Pl,2D. A genuine derivation would need μ = E_1st² (without the 2 ×) or a structural reason for the factor. Source: `calculations/v35_new_angle_mu.py`.
+The "2 ×" is suspicious — it reverses the 1/2 to get back $M_{\rm Pl,2D}$. A genuine derivation would need μ = E_1st² (without the 2 ×) or a structural reason for the factor. Source: `calculations/v35_new_angle_mu.py`.
 
 **L308 STRUCTURAL CANDIDATES (v3.5.2)**: 5 candidates for a structural reason for the "2 ×" were tested:
-- **(1) WdW eigenstates**: K_h(2√μ × ...) — factor of 2 in argument. For c=1 Liouville: setting K_h argument = M_Pl,2D gives μ = M_Pl,2D²/4 (OFF by 4!).
+- **(1) WdW eigenstates**: K_h(2√μ × ...) — factor of 2 in argument. For c=1 Liouville: setting K_h argument = $M_{\rm Pl,2D}$ gives μ = $M_{\rm Pl}$,2D²/4 (OFF by 4!).
 - **(2) SL(2,R) algebra**: [L_+, L_-] = 2L_0 — factor of 2 in commutator. No direct connection to μ formula.
 - **(3) Hawking-Unruh with surface gravity**: a = 2g → factor of 2 in temperature. Gives μ = E_1st² WITHOUT the 2× in the formula (factor appears elsewhere).
 - **(4) Two-sided BH geometry**: Z_2 orbifold gives factor of 2 in length. No direct connection to μ.
@@ -596,57 +596,57 @@ The "2 ×" is suspicious — it reverses the 1/2 to get back M_Pl,2D. A genuine 
 - Future work: find clean structural reason for μ = (2 × E_1st)² or some other form
 Source: `calculations/v35_why_factor_2.py`.
 
-**L308 v3.5.4 HAWKING-PAGE DEEPER ANALYSIS**: Why should T_H = T_Pl,2D = M_Pl,2D/(2π)? Tested 10 candidates:
+**L308 v3.5.4 HAWKING-PAGE DEEPER ANALYSIS**: Why should T_H = T_Pl,2D = $M_{\rm Pl,2D}$/(2π)? Tested 10 candidates:
 
 **TOP 3 STRUCTURAL REASONS**:
 
 **(3) Planckian Maximum (STRONG)**: T_H = T_Pl,2D is the MAXIMUM stable BH temperature. Above this, BH evaporates instantly. T_H = T_Pl,2D is the "edge of existence" for 2D BH. Robust physical constraint.
 
-**(5) Euclidean Periodicity (CLEANEST MATH)**: β = 2π × L_AdS_2 is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). T_H = 1/β = M_Pl,2D/(2π) is FORCED by the geometry. No free parameter.
+**(5) Euclidean Periodicity (CLEANEST MATH)**: β = 2π × L_AdS_2 is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). T_H = 1/β = $M_{\rm Pl,2D}$/(2π) is FORCED by the geometry. No free parameter.
 
 **(4) Hagedorn (string theory)**: T_H = M_s/(2π) is the Hagedorn temperature for D=4 effective compactification. Connects 2D universe to string theory structure.
 
 **OTHER CANDIDATES**:
 - (#1) Hawking-Page transition: Plausible but doesn't uniquely select T_H = T_Pl,2D
 - (#2) Unruh-Hawking correspondence: STRUCTURAL (automatic in AdS_2)
-- (#6) Boundary Rindler observer: STRUCTURAL (max a = M_Pl,2D)
+- (#6) Boundary Rindler observer: STRUCTURAL (max a = $M_{\rm Pl,2D}$)
 - (#7) Quantum Critical Point: STRUCTURAL (Planckian dissipation)
 - (#8) Schwarzian coupling: DOESN'T work (would need α_S = π²/3)
 - (#9) JT partition function: Depends on S_0, not unique
 - (#10) Information-theoretic: Speculative
 
 **NEW VERDICT (v3.5.4)**:
-- T_H = T_Pl,2D = M_Pl,2D/(2π) has STRONG physical motivations
+- T_H = T_Pl,2D = $M_{\rm Pl,2D}$/(2π) has STRONG physical motivations
 - Most robust: #3 (Planckian max) and #5 (Euclidean periodicity)
 - These don't DERIVE μ but provide STRUCTURAL reasons for T_H = T_Pl,2D
-- Combined with μ = (2π T_H)², this gives μ = M_Pl,2D² as a CONSEQUENCE of "T_H is the natural 2D Planckian temperature"
-- **IMPROVED STATUS**: μ = M_Pl,2D² is now "STRUCTURALLY MOTIVATED" (not just calibrated)
+- Combined with μ = (2π T_H)², this gives μ = $M_{\rm Pl}$,2D² as a CONSEQUENCE of "T_H is the natural 2D Planckian temperature"
+- **IMPROVED STATUS**: μ = $M_{\rm Pl}$,2D² is now "STRUCTURALLY MOTIVATED" (not just calibrated)
 - L26 still OPEN (not a derivation), but structural reason is MUCH stronger than before
 Source: `calculations/v35_hawking_page.py`.
 
-**L308 NEW INTERPRETATION (v3.5.3)**: Tested 45 alternative formulas for μ. 12 give exact match but ALL are algebraically equivalent (reduce to μ = M_Pl,2D² using E_1st = M_Pl,2D/2). HOWEVER, one has a NEW STRUCTURAL interpretation:
+**L308 NEW INTERPRETATION (v3.5.3)**: Tested 45 alternative formulas for μ. 12 give exact match but ALL are algebraically equivalent (reduce to μ = $M_{\rm Pl}$,2D² using E_1st = $M_{\rm Pl,2D}$/2). HOWEVER, one has a NEW STRUCTURAL interpretation:
 
-**Formula I: T = M_Pl,2D/(2π) → μ = (2π T)² = M_Pl,2D²**
+**Formula I: T = $M_{\rm Pl,2D}$/(2π) → μ = (2π T)² = $M_{\rm Pl}$,2D²**
 
-This says: if the 2D universe's BH has T_H = M_Pl,2D/(2π), then μ = M_Pl,2D².
-T_H = M_Pl,2D/(2π) is the MAXIMAL Hawking temperature in AdS_2 (= AdS curvature).
+This says: if the 2D universe's BH has T_H = $M_{\rm Pl,2D}$/(2π), then μ = $M_{\rm Pl}$,2D².
+T_H = $M_{\rm Pl,2D}$/(2π) is the MAXIMAL Hawking temperature in AdS_2 (= AdS curvature).
 This is the **"Planckian Hawking temperature"** — the boundary between BH and stable state.
 
-INTERPRETATION: μ = M_Pl,2D² corresponds to a "Planckian 2D universe" where the BH is at maximum T_H. This is the Hawking-Page transition temperature.
+INTERPRETATION: μ = $M_{\rm Pl}$,2D² corresponds to a "Planckian 2D universe" where the BH is at maximum T_H. This is the Hawking-Page transition temperature.
 
-Status: STRUCTURAL INTERPRETATION (not derivation). It still uses M_Pl,2D as input. But it provides a new physical reading of why μ = M_Pl,2D² (instead of μ = b² × M_Pl,2D² or other variants).
+Status: STRUCTURAL INTERPRETATION (not derivation). It still uses $M_{\rm Pl,2D}$ as input. But it provides a new physical reading of why μ = $M_{\rm Pl}$,2D² (instead of μ = b² × $M_{\rm Pl}$,2D² or other variants).
 
 **Other 11 exact matches are algebraic rearrangements**:
-- A (factor=2): μ = E_1st × M_Pl,2D × 2 = 2 E_1st M_Pl,2D
+- A (factor=2): μ = E_1st × $M_{\rm Pl,2D}$ × 2 = 2 E_1st $M_{\rm Pl,2D}$
 - B (factor=4): μ = 4 × E_1st² = (2 E_1st)²
 - C (factor=2): μ = (2 E_1st)²
-- D, E, F (factor=9/4 or sum): μ = (E_1st + M_Pl,2D/2)²
-- G (b²=1): μ = 1 × M_Pl,2D² (requires changing CFT choice)
+- D, E, F (factor=9/4 or sum): μ = (E_1st + $M_{\rm Pl,2D}$/2)²
+- G (b²=1): μ = 1 × $M_{\rm Pl}$,2D² (requires changing CFT choice)
 - H (h=1/2): same as (2 E_1st)²
 - I (T = E_1st/π): μ = (2π × E_1st/π)² = (2 E_1st)²
-- J: E_BPS = M_Pl,2D or 2 E_1st
+- J: E_BPS = $M_{\rm Pl,2D}$ or 2 E_1st
 
-None of these is a TRUE derivation. All reduce to μ = M_Pl,2D² (framework's choice).
+None of these is a TRUE derivation. All reduce to μ = $M_{\rm Pl}$,2D² (framework's choice).
 Source: `calculations/v35_other_formulas.py`.
 
 ---
@@ -656,23 +656,23 @@ Source: `calculations/v35_other_formulas.py`.
 
 ## 7.6 v3.5.5 Limitations: mu formula without input + Lagrangian + Tier 3
 
-L309. **mu CANNOT be derived without M_Pl,2D as input** (v3.5.5). Tested 3+ angles for mu formula using only M_Pl,3D, alpha, E_SN, N=12:
-- (1) mu = M_Pl,3D^2 / factor: gives mu ~ 10^40 (off by 10^34) for any natural factor
+L309. **mu CANNOT be derived without $M_{\rm Pl,2D}$ as input** (v3.5.5). Tested 3+ angles for mu formula using only $M_{\rm Pl,3D}$, alpha, $E_{\rm SN}$, N=12:
+- (1) mu = $M_{\rm Pl,3D}$^2 / factor: gives mu ~ 10^40 (off by 10^34) for any natural factor
 - (2) mu from SN lifetime tau_SN = 33 s: BH thermo gives mu ~ 10^30 (off by 10^24)
 - (3) Constraint counting: 9 framework params, 5 obs constraints -> 4 free params; mu is genuinely FREE/CALIBRATED
-- **VERDICT**: mu = M_Pl,2D^2 is calibrated, NOT derivable from M_Pl,3D alone. L26 STAYS OPEN.
+- **VERDICT**: mu = $M_{\rm Pl,2D}$^2 is calibrated, NOT derivable from $M_{\rm Pl,3D}$ alone. L26 STAYS OPEN.
 
-L310. **Lagrangian CONSISTENTLY sets mu = M_Pl,2D^2 but doesn't derive it** (v3.5.5). The Lagrangian L = L_c=1 + L_Schwarzian + L_N=12 SYK gives mu = M_Pl,2D^2 through THREE independent routes:
-- L_c=1: Liouville cosmological constant (DEFINES mu = M_Pl,2D^2)
-- L_Schwarzian: C = 1/sqrt(mu) = 1/M_Pl,2D (AdS length, gives mu = M_Pl,2D^2)
-- L_N=12 SYK: J = M_Pl,2D self-consistency (gives mu = M_Pl,2D^2)
-But all three require M_Pl,2D = 3 TeV as INPUT. The Lagrangian is STRUCTURALLY CONSISTENT (three independent routes agree) but NOT a derivation.
+L310. **Lagrangian CONSISTENTLY sets mu = $M_{\rm Pl,2D}$^2 but doesn't derive it** (v3.5.5). The Lagrangian L = L_c=1 + L_Schwarzian + L_N=12 SYK gives mu = $M_{\rm Pl,2D}$^2 through THREE independent routes:
+- L_c=1: Liouville cosmological constant (DEFINES mu = $M_{\rm Pl,2D}$^2)
+- L_Schwarzian: C = 1/sqrt(mu) = 1/$M_{\rm Pl,2D}$ (AdS length, gives mu = $M_{\rm Pl,2D}$^2)
+- L_N=12 SYK: J = $M_{\rm Pl,2D}$ self-consistency (gives mu = $M_{\rm Pl,2D}$^2)
+But all three require $M_{\rm Pl,2D}$ = 3 TeV as INPUT. The Lagrangian is STRUCTURALLY CONSISTENT (three independent routes agree) but NOT a derivation.
 
 L311. **TIER 3 #8: New cascade predictions** (v3.5.5). The cascade makes several testable predictions:
 - (a) SN-scale 2D universe tau = 33 s (testable only with 2D universe detection -- not feasible)
 - (b) AGN-scale 2D universe tau ~ 1.4 yr (not directly testable)
 - (c) BH-scale 2D universe tau ~ 6.4 hr (could be tested via BH evaporation signatures?)
-- (d) Universe-scale 4D event: E_4D = 5x10^79 J (untestable)
+- (d) Universe-scale 4D event: $E_{\rm 4D}$ = 5x10^79 J (untestable)
 - (e) DM/AGN correlation (testable in principle)
 - (f) DE constancy in time (testable, current limit ~10% over z < 1)
 Status: MOST predictions are not directly testable in 3D. Framework is INITIAL-CONDITIONS framework (universe at 1.5x10^-15 of lifetime).
@@ -680,11 +680,11 @@ Status: MOST predictions are not directly testable in 3D. Framework is INITIAL-C
 L312. **TIER 3 #9: 5/27/68 split structurally clean but each mechanism different** (v3.5.5). The observational split (Planck 2018) is interpreted structurally:
 - 5% baryons: standard BBNS (no SIDC contribution)
 - 27% DM: cumulative 2D universe pulsed returns (calibrated AGN rate 3x10^-16 /m^3/s)
-- 68% DE: 4D event anti-gravity (derived from M_Pl,4D = 4x10^23 GeV and tau_4D)
+- 68% DE: 4D event anti-gravity (derived from $M_{\rm Pl,4D}$ = 4x10^23 GeV and $\tau_{\rm 4D}$)
 Each component has DIFFERENT physical mechanism but sum = 1.0 x rho_crit.
 **OPEN**: Why exactly 27%? Calibrated AGN rate, not derived.
 
-L313. **Framework is INITIAL-CONDITIONS framework** (v3.5.5). Universe age = 1.5x10^-15 of lifetime (essentially "day 1"). Most cascade predictions (SN tau, AGN tau, BH tau, 4D E_4D) refer to:
+L313. **Framework is INITIAL-CONDITIONS framework** (v3.5.5). Universe age = 1.5x10^-15 of lifetime (essentially "day 1"). Most cascade predictions (SN tau, AGN tau, BH tau, 4D $E_{\rm 4D}$) refer to:
 - Timescales BEFORE universe was created (paradox)
 - Timescales AFTER universe ends (~10^125 yr from now)
 - Energy scales beyond observation (4D events)
@@ -714,7 +714,7 @@ Five additional angles for μ first-principles were explored via web search:
 **(3) HAGEDORN EXACT FORMULA T_H = M_s/(2π)** — STRONG:
 - arXiv:hep-th/0008051 (Chaudhuri 2001 PRL 86, 10): "Self-dual Hagedorn temperature b²_H = 4π²α'"
 - This gives EXACTLY T_H = M_s/(2π) for closed strings
-- For our framework: μ = (2π T_H)² = M_s² = M_Pl,2D² ✓ MATCHES
+- For our framework: μ = (2π T_H)² = M_s² = $M_{\rm Pl}$,2D² ✓ MATCHES
 - The factor "2π" comes from closed string modular invariance
 
 **(4) JT Z_disk with C = 1/2** — WEAK:
@@ -735,9 +735,9 @@ The "2×" in μ = (2×E_1st)² has STRUCTURAL ORIGINS (not coincidence):
 4. Unimodular gravity (Lambda as integration constant)
 5. Hawking-Page Planckian maximum T_H = T_Pl
 
-**UPDATED VERDICT (v3.5.6)**: μ = M_Pl,2D² is now "STRUCTURALLY MOTIVATED + has 5+ independent structural origins". L26 STAYS OPEN (not derivation), but the structural justification is MUCH stronger.
+**UPDATED VERDICT (v3.5.6)**: μ = $M_{\rm Pl}$,2D² is now "STRUCTURALLY MOTIVATED + has 5+ independent structural origins". L26 STAYS OPEN (not derivation), but the structural justification is MUCH stronger.
 
-The framework's choice of μ = M_Pl,2D² is consistent with:
+The framework's choice of μ = $M_{\rm Pl}$,2D² is consistent with:
 - Modern unimodular gravity (Lambda as integration constant)
 - String theory (closed string thermal duality, Hagedorn)
 - JT gravity (AdS_2 Ricci scalar, dilaton potential)
@@ -755,7 +755,7 @@ Source: `calculations/v35_web_more_options.py`.
 
 ## 7.7 v3.5.7 HOLOGRAPHIC/INFO-THEORETIC ANGLES
 
-L319. **STRING MINIMAL AREA gives mu = M_s^2** (v3.5.7). From ResearchGate 2022 (Minimal model for BH entropy): S = A/(4 l_p^2) requires minimum area. If minimum area in 2D is set by STRING SCALE: A_min = 1/M_s, then mu = 1/A_min^2 = M_s^2. For M_s = 3 TeV: mu = 9x10^6 GeV^2 ✓ EXACT MATCH. STRUCTURAL IF 2D universe is a STRING THEORY with M_s = M_Pl,2D = 3 TeV (low string scale, Antoniadis 1990). Source: `calculations/v35_holographic.py`.
+L319. **STRING MINIMAL AREA gives mu = M_s^2** (v3.5.7). From ResearchGate 2022 (Minimal model for BH entropy): S = A/(4 l_p^2) requires minimum area. If minimum area in 2D is set by STRING SCALE: A_min = 1/M_s, then mu = 1/A_min^2 = M_s^2. For M_s = 3 TeV: mu = 9x10^6 GeV^2 ✓ EXACT MATCH. STRUCTURAL IF 2D universe is a STRING THEORY with M_s = $M_{\rm Pl,2D}$ = 3 TeV (low string scale, Antoniadis 1990). Source: `calculations/v35_holographic.py`.
 
 L320. **'2 pi' in mu formula is UNIVERSAL 2D FACTOR** (v3.5.7). The "2 pi" appearing in mu = (2 pi T_H)^2 has the SAME origin across multiple formulas:
 - Bekenstein bound S <= 2 pi E R (Longo 2024, from local QFT)
@@ -774,5 +774,5 @@ L322. **RT formula gives universal constant for 2D BH at T_H** (v3.5.7). For 2D 
 ---
 
 **v3.5.7 status**: 4 new limitations (L319-L322). Total limitations: 116 (was 112 in v3.5.6, +L319-L322).
-**NEW structural origin of mu**: STRING MINIMAL AREA (L319). If A_min = 1/M_s in 2D, then mu = M_s^2 = M_Pl,2D^2 ✓ MATCHES.
+**NEW structural origin of mu**: STRING MINIMAL AREA (L319). If A_min = 1/M_s in 2D, then mu = M_s^2 = $M_{\rm Pl,2D}$^2 ✓ MATCHES.
 **Universal "2 pi" factor** (L320): connects Bekenstein, Hagedorn, Hawking-Page, RT, Unruh — all share the same fundamental "2 pi" from 2D causal/periodic structure.

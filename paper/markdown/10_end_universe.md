@@ -258,7 +258,7 @@ The SN and Core-collapse SN death signals are in LISA's band ($10^{-4}$ to 1 Hz)
 
 For bursts of energy E_GW at rate r_local per m^3 per s, each at frequency f_obs with lifetime $\tau_{2D}$, the spectral density at f_obs (delta function with bandwidth Δf ~ 1/$\tau_{2D}$) is:
 
-$$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$
+$$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
 where $\rho_c = 7.7 \times 10^{-10}$ J/m³ is the critical density.
 
@@ -346,7 +346,7 @@ This section quantifies whether SIDC's death GW background can be detected by LI
 
 For a population of bursts at rate n_rate (per m³/s) with energy E_GW per burst and lifetime $\tau_{2D}$, each burst is a delta function with bandwidth Δf ~ 1/$\tau_{2D}$. The spectral density at f_obs = 1/$\tau_{2D}$ is:
 
-$$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$
+$$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
 where $\rho_c = 7.7 \times 10^{-10}$ J/m³.
 
@@ -412,7 +412,7 @@ A change of Δα = 0.20 gives a **factor of 10-100x** change in $\tau_{2D}$ pred
 
 **Precision required for future BNS/AGN GW detection.** The GW frequency from 2D universe death is f_GW = 1/$\tau_{2D}$ ∝ E^(-α). Taking the derivative:
 
-$$\Delta\alpha = \frac{\Delta f_{GW}}{f_{GW} \cdot \log(E/E_{SN})}$
+$$\Delta\alpha = \frac{\Delta f_{GW}}{f_{GW} \cdot \log(E/E_{SN})}$$
 
 For BNS (E/$E_{\rm SN}$ = $10^{9}$): log = 9.
 

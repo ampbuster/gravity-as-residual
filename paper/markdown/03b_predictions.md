@@ -26,7 +26,7 @@ Each level of SIDC has the same structure:
 **3.21.2 Generalized Planck units in N dimensions.**
 
 In D dimensions, the Planck time scales as:
-$$t_{Pl,D} = t_{Pl,3} \times (\frac{M_{Pl,3}}{M_{Pl,D}})^{D-4}$
+$$t_{Pl,D} = t_{Pl,3} \times (\frac{M_{Pl,3}}{M_{Pl,D}})^{D-4}$$
 
 If $M_{\rm Pl}$,D = 4×10²³ GeV (SIDC's v3.3 value) for all D ≥ 4:
 - $t_{\rm Pl,4D}$ = $t_{\rm Pl,3+1D}$ = $5.39 \times 10^{-44}$ s
@@ -198,7 +198,7 @@ The democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) gives s
 
 The democratic cosmology says all 2D universes have the same proper lifetime ($t_{\rm Pl,3+1D}$). The 3+1D-frame lifetime is $\tau_{2D}$_3+1D = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$. The death rate in 3+1D frame is:
 
-$$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D}^{3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3}})^{-1.29} \times \frac{1}{t_{Pl,3}}$
+$$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D}^{3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3}})^{-1.29} \times \frac{1}{t_{Pl,3}}$$
 
 **Counter-intuitive:** smaller events (low E) have HIGHER 2D universe death rates in 3+1D frame, because their time dilation $\gamma_{2D}$ is smaller (so they "tick" faster in 3+1D view).
 
@@ -214,7 +214,7 @@ $$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \fra
 
 Each 2D universe death produces a brief GW burst. The stochastic background:
 
-$$\Omega_{GW}(f) \propto \int dE   R(E) \times \frac{1}{\gamma_{2D}} \times E_{death GW}$
+$$\Omega_{GW}(f) \propto \int dE   R(E) \times \frac{1}{\gamma_{2D}} \times E_{death GW}$$
 
 The democratic cosmology predicts a SPECIFIC spectral shape: weighted toward smaller events (low E) because of the 1/$\gamma_{2D}$ factor.
 

@@ -111,7 +111,7 @@ We emphasize that these smaller events do *not* re-create our universe. They cre
 
 *Phase-transition principle: the critical local energy density (v2.3.0).* Per SIDC's framework refined by Gemini's analysis, 2D universe creation is NOT a simple rate process. It is a **non-linear phase transition** requiring a *critical local energy density* (or equivalently, a critical event energy $E_{crit}$). Mathematically:
 
-$$R_{SIDC} = \begin{cases} 0 & if  \rho_E < \rho_{crit} \\ f_{deliver} \cdot E & if  \rho_E \geq \rho_{crit} \end{cases}$
+$$R_{SIDC} = \begin{cases} 0 & if  \rho_E < \rho_{crit} \\ f_{deliver} \cdot E & if  \rho_E \geq \rho_{crit} \end{cases}$$
 
 Or, equivalently, a sharp power law:
 
@@ -351,7 +351,7 @@ To move beyond a geometric narrative to a framework a mathematical physicist can
 
 *Total action (sketch):*
 
-$$S = S_{grav, 3+1D} + S_{matter, 3+1D} + S_{brane, 2D} + S_{creation} + S_{destruction}$
+$$S = S_{grav, 3+1D} + S_{matter, 3+1D} + S_{brane, 2D} + S_{creation} + S_{destruction}$$
 
 where:
 
@@ -440,7 +440,7 @@ For SIDC, the CTP action naturally handles the 2D brane's lifecycle:
 - The CTP formalism encodes the future death as a *mathematical device*, not a teleological reference
 
 The 2D brane's full propagator is a 2x2 matrix in $+/-$ space:
-$$G(x_1, x_2) = \begin{pmatrix} G_{++}(x_1, x_2) & G_{+-}(x_1, x_2) \\ G_{-+}(x_1, x_2) & G_{--}(x_1, x_2) \end{pmatrix}$
+$$G(x_1, x_2) = \begin{pmatrix} G_{++}(x_1, x_2) & G_{+-}(x_1, x_2) \\ G_{-+}(x_1, x_2) & G_{--}(x_1, x_2) \end{pmatrix}$$
 
 Where $G_{++}$ is the time-ordered (Feynman) propagator for the brane's lifecycle, and $G_{+-}$, $G_{-+}$ are the Wightman functions describing the in/out states.
 
@@ -457,7 +457,7 @@ Where $G_{++}$ is the time-ordered (Feynman) propagator for the brane's lifecycl
 
 **The smooth creation function.** SIDC's contribution to cumulative DM from a single event of energy E is:
 
-$$C(E) = E^{1+lpha}$
+$$C(E) = E^{1+\alpha}$$
 
 where α = 1.29 from the energy-scaling rule. The $E^1$ factor is from the event's energy content; the $E^{\alpha}$ factor is from the 2D universe's lifetime. The combined weight is $E^{2.29}$ — a *smooth, continuous* function with no threshold, no step, no discontinuity. Lower-energy events contribute negligibly (because of the steep $E^{2.29}$ weighting); higher-energy events dominate.
 
@@ -560,7 +560,7 @@ The cosmological constant problem, in this framing, becomes a problem of *identi
 
 **Dimensional analysis of SIDC.** SIDC principle of §2.4 says that at every dimensional level, the projected (inverted) gravity and the native gravity nearly cancel. The *small* un-cancelled residue is the effective gravity at that level. We can parameterize the cancellation by a small dimensionless parameter ε at each level:
 
-$$G_{D-1}^{eff} = \epsilon \cdot G_{D-1}^{native}$
+$$G_{D-1}^{eff} = \epsilon \cdot G_{D-1}^{native}$$
 
 where $\epsilon \ll 1$. The un-cancelled antigravity (SIDC's *gravitational* contribution) is also of order $\epsilon \cdot G_{D-1}^{native}$ in *magnitude* — that is, the un-cancelled antigravity is of the *same* order as the ordinary gravity (both are *small* because of the near-cancellation). Crucially, SIDC's "un-cancelled antigravity" is a *gravitational coupling* (units of $G$), not a *vacuum energy density* (units of energy$^4$). Converting SIDC's gravitational coupling to a vacuum energy density requires a *mass scale* or *length scale*: for example, if we associate the antigravity with a Planck-scale vacuum energy, then $\rho_{DE,model}$ ~ $\epsilon \cdot M_{Pl}^4 \sim 10^{-38}$ in natural Planck units (where $M_{Pl}^4$ ~ $1$), but the *observed* dark energy is ~ $10^{-123}$ in natural Planck units. So SIDC's "un-cancelled antigravity as vacuum energy" is $10^{85}$ *larger* than the observed dark energy. SIDC therefore explains *why* the dark energy is *qualitatively* small (it's a near-cancellation effect, suppressed by ε), and it gives a *quantitative* prediction of ~ $10^{-38}$ in natural units for the *total* antigravity produced by SIDC. The *observed* dark energy in 3+1D is ~ $10^{-123}$, which is $10^{-85}$ t *smaller* than SIDC's prediction. SIDC produces this antigravity at the 4D → 3+1D level, and only a *small fraction* $f_{back}$ ~ $10^{-85}$ of it remains in 3+1D as observable dark energy; the *rest* ($1 - f_{back} \approx 1$) is *absorbed* into the 3+1D vacuum structure in a way that does not contribute to the observable dark energy density (it could be the 4D bulk dark matter, or a non-projected component). SIDC's prediction × fraction staying in 3+1D = observed dark energy: $10^{-38} \times 10^{-85} = 10^{-123}$ (matches observation **[PASS]**). The fraction $f_{back} = 10^{-85}$ is a *postulate* of the model, and represents the *effective* fraction of SIDC-produced antigravity that survives as observable dark energy. (Note: this is *distinct* from the cumulative 2D universe antigravity, which is *internal* to the 2D universes and does not project back to 3+1D as dark energy. The 3+1D's dark energy comes *only* from the 4D event, not from cumulative 2D universe antigravity. See §2.5 and §2.7.) The *observed* $10^{38}$ (hierarchy) is then ε at the 3+1D level: the *native* 3+1D gravitational coupling is larger than the *effective* coupling by a factor of ~ $10^{38}$. Equivalently, $\epsilon_{3+1D}$ ~ $10^{-38}$. SIDC explains the $10^{38}$ hierarchy quantitatively (as a near-cancellation of $G_{native}$ and $G_{proj}$), and it gives a *qualitative* explanation for the smallness of the dark energy (as another near-cancellation effect), but it does *not* give the *quantitative* value of the dark energy. The model *reframes* the $10^{120}$ cosmological constant problem as a *misidentification*: the 3+1D QFT vacuum energy is the wrong quantity to compare to the observed dark energy. The dark energy in the model is the un-cancelled antigravity residue of SIDC, modulated by the staying fraction $f_{back}$ ~ $10^{-85}$. The model does *not* claim to *quantitatively derive* the $10^{38}$ hierarchy, the absolute value of the dark energy density, or the $10^{120}$ discrepancy from SIDC alone. A specific implementation of the model would need to derive the *exact* un-cancelled fraction from the geometry of the dimensional projection, which would in turn predict the absolute value of the dark energy density and the *quantitative* value of the $10^{120}$ ratio.
 
@@ -619,7 +619,7 @@ SIDC is a *cone* (one parent, many children, terminal at the children's level), 
 
 The 2D universe lives in the 2D frame (deep in the 5D AdS₅ bulk). Its proper time $d\tau_{2D}$ is related to the 4D coordinate time $dt_{4D}$ by:
 
-$$d\tau_{2D} = e^{-ky}   dt_{4D}$
+$$d\tau_{2D} = e^{-ky}   dt_{4D}$$
 
 where $y$ is the bulk position and $k$ is the AdS₅ curvature. This time dilation factor $e^{-ky}$ modifies:
 - The 2D universe's lifetime as observed in 3+1D: $\tau_{2D, 3+1D} = \tau_{2D, 2D} / e^{-ky}$ (longer in 3+1D frame)
@@ -681,11 +681,11 @@ These are three *different* numbers with three *different* sources. SIDC conflat
 
 Per the universal-split assumption, the 2D universe's *total* mass-energy at peak is related to the original event energy by:
 
-$$M_{2D,peak} = G \cdot M_{event} = 20 \cdot V_{growth} \cdot M_{event}$
+$$M_{2D,peak} = G \cdot M_{event} = 20 \cdot V_{growth} \cdot M_{event}$$
 
 where the factor of 20 = 1/0.05 is the universal-split contribution (5% of M_{2D,peak} is from the original event; 95% is from the 2D universe's own dark energy + cumulative 1D back-projection in 2D), and V_{growth} is the *volumetric growth* of the 2D universe over its lifetime. Of the M_{2D,peak}, only the 32% *attractive* fraction (5% ordinary + 27% 1D back-projection) projects back to 3+1D as dark matter; the 68% antigravity fraction is internal to the 2D universe:
 
-$$M_{DM, 2D \to 3+1D} = 0.32 \cdot M_{2D,peak} = 6.4 \cdot G \cdot M_{event} = 128 \cdot V_{growth} \cdot M_{event}$
+$$M_{DM, 2D \to 3+1D} = 0.32 \cdot M_{2D,peak} = 6.4 \cdot G \cdot M_{event} = 128 \cdot V_{growth} \cdot M_{event}$$
 
 The volumetric growth V_{growth} comes from the 2D universe's expansion in its own frame. For a 2D universe with equation-of-state parameters Omega_{DE,2D} and Omega_{m,2D} (with Omega_{DE,2D} + Omega_{m,2D} = 1 for a flat universe, or Omega_{DE,2D} + Omega_{m,2D} > 1 for closed), the FRW dynamics gives:
 

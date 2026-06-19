@@ -183,7 +183,7 @@ The V1 status (commit 121) was that $f_{\rm active}$ was constrained to 0.05-0.1
 
 For a 4D event with approximately constant output R(t) over the universe's lifetime $T_{\rm universe}$ = 13.8 Gyr, and a 2D universe lifetime $\tau_{2D}$:
 
-$$f_{active} = \frac{N_{active}}{N_{cumulative}} = \frac{R \cdot \tau_{2D}}{R \cdot T_{universe}} = \frac{\tau_{2D}}{T_{universe}}$
+$$f_{active} = \frac{N_{active}}{N_{cumulative}} = \frac{R \cdot \tau_{2D}}{R \cdot T_{universe}} = \frac{\tau_{2D}}{T_{universe}}$$
 
 **Identifying $\tau_{2D}$:** The 2D universe's lifetime is set by its internal dynamics — the time for the 2D universe to consume its fuel and return energy to 3+1D via $S_{\rm destruction}$. By physical analogy with our universe's gas consumption timescale (Bigiel+ 2008, Kennicutt-Schmidt law): **$\tau_{2D}$ ~ $0.7$ Gyr**.
 
@@ -330,13 +330,13 @@ Limitation 26 documented that SIDC specifies 10 *constraints* (not a Lagrangian)
 **Full action:**
 
 S = S_bulk (5D AdS EH) + S_brane_3+1D (4D gravity + SM + DM)
-  + ∑ S_2D (2D universe action) + S_tension (Israel junction)
+  + ∑ $S_{\rm 2D}$ (2D universe action) + S_tension (Israel junction)
   + S_creation (T_SM ↔ 2D brane) + $S_{\rm destruction}$ (T_DM ↔ 2D brane)
 
 where:
 - S_bulk = (1/(2κ_5^2)) ∫ d^5X √(-G) [R_5 - 2Λ_5] (AdS₅ with Λ_5 = -6/L²)
 - S_brane_3+1D = ∫ d^4x √(-g) [(1/(2κ_4^2))(R_4 - 2Λ_4) + L_SM + L_DM + L_2D-universes]
-- S_2D = ∫ d^2σ √(-γ) [(1/(2κ_2^2))(R_2 - 2Λ_2) + L_2D_matter] (per 2D universe)
+- $S_{\rm 2D}$ = ∫ d^2σ √(-γ) [(1/(2κ_2^2))(R_2 - 2Λ_2) + L_2D_matter] (per 2D universe)
 - S_tension = -∫ d^4x √(-g) σ_brane + -∑_i ∫ d^2σ_i √(-γ_i) σ_2D (Israel junction)
 - S_creation = -α ∫ d^4x √(-g) T_μν^SM(x) * ∑_i ∫ d^2σ_i √(-γ_i) η^μν δ^(4)(x - X_i(σ))
 - $S_{\rm destruction}$ = +α ∫ d^4x √(-g) T_μν^DM(x) * ∑_i ∫ d^2σ_i √(-γ_i) η^μν δ^(4)(x - X_i(σ)) δ(t - $\tau_{2D}$)
@@ -700,7 +700,7 @@ A formal, coordinate-invariant modified stress-energy tensor $T_{\mu\nu}^{eff}$ 
 
 **The key result.** The effective 3+1D stress-energy tensor that enters the Einstein field equations is:
 
-$$T_{\mu\nu}^{eff} = T_{\mu\nu}^{SM} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + \frac{1}{8\pi G_4} E_{\mu\nu} + T_{\mu\nu}^{fossil}$
+$$T_{\mu\nu}^{eff} = T_{\mu\nu}^{SM} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + \frac{1}{8\pi G_4} E_{\mu\nu} + T_{\mu\nu}^{fossil}$$
 
 where:
 - $T_{\mu\nu}^{SM}$: standard model matter (fully known)
@@ -710,7 +710,7 @@ where:
 
 **Boundary junction condition (v2.4 hardening).** The effective stress-energy tensor $T_{\mu\nu}^{eff}$ is constrained at the 3+1D brane hypersurface Σ (the $y=0$ slice in the AdS$_5$ bulk, with $n^A$ the outward unit normal to Σ) by the *zero-leakage bulk constraint*:
 
-$$\boxed{J^A_{bulk} \Big|_{\Sigma} = T^{AB}_{bulk}   n_B \Big|_{y=0} = 0}$
+$$\boxed{J^A_{bulk} \Big|_{\Sigma} = T^{AB}_{bulk}   n_B \Big|_{y=0} = 0}$$
 
 This is a **Neumann-Dirichlet hybrid boundary condition** (also called a *reflective* or *Z$_2$-symmetric* BC) on the bulk energy-momentum flux. Its interpretation:
 
@@ -779,13 +779,13 @@ The 2D volume element $\sqrt{-\gamma} \propto a_{2D}(\tau)$ smoothly drives to z
 
 **Task 4: 5/27 as topological invariant.** Reposition the 5/27 inner split as a *frozen topological invariant* of the 5D bulk geometry, not a dynamical ratio:
 
-$$\frac{\Omega_{DM}}{\Omega_{SM}} = \frac{27}{5} = \frac{V_5}{A_4 R_{AdS₅}}$
+$$\frac{\Omega_{DM}}{\Omega_{SM}} = \frac{27}{5} = \frac{V_5}{A_4 R_{AdS₅}}$$
 
 This is a **volume-to-surface-area ratio** of the higher-dimensional geometry, frozen at the moment of brane deployment (the inflationary phase transition) and decoupled from late-stage stellar histories. **Result: 5/27 is repositioned as a topological boundary condition of $S_{grav, 5D}$, not a free dynamical parameter. Limitation 17 conceptually advanced (still not derived, but now recognized as a topological feature, not a dynamical ratio).**
 
 **Updated effective stress-energy tensor (v2.4):**
 
-$$T_{\mu\nu}^{eff} = T_{\mu\nu}^{SM} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + \frac{1}{8\pi G_4} E_{\mu\nu} + T_{\mu\nu}^{fossil, v24}$
+$$T_{\mu\nu}^{eff} = T_{\mu\nu}^{SM} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + \frac{1}{8\pi G_4} E_{\mu\nu} + T_{\mu\nu}^{fossil, v24}$$
 
 with the four v2.4 modifications:
 1. Bulk BC: $J^A_{bulk}|_{brane} = 0$
@@ -887,7 +887,7 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 **Part 2: Gaussian Instanton.** `gaussian_instanton(τ) = $a_0$ \exp(-τ^2/τ_{2D}^2)` implements the v2.4 Task 3 smooth decay profile for the 2D universe's scale factor. The normalized window $g(τ) = (1/τ_{2D}\sqrt{π}) \exp(-τ^2/τ_{2D}^2)$ localizes the fossil payload with $\int g dτ = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24π) R^{(2)}$ (v2.4 Task 2, with $c = 1$ default).
 
-**Part 3: Smooth Potential Field.** `smooth_potential_field(r, M_b profile)` builds the SIDC-MOND hybrid potential: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$, with $g_+ = 1.2 \times 10^{-10}$ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\rm total}(r)}$ and a BTFR-predicted $V_{\rm flat} = (G M_b g_+)^{1/4}$.
+**Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_b$ profile)` builds the SIDC-MOND hybrid potential: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$, with $g_+ = 1.2 \times 10^{-10}$ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\rm total}(r)}$ and a BTFR-predicted $V_{\rm flat} = (G M_b g_+)^{1/4}$.
 
 **Part 4: Testing Harness (independent dwarf-galaxy cases).** The emulator runs two INDEPENDENT dwarf-galaxy cases (AGC 114905 and KKR 25) and verifies that SIDC's SFH-DM correlation is qualitatively consistent with observations for each.
 
