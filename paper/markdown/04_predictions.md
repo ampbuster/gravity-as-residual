@@ -104,7 +104,7 @@ With these parameters:
 - A specific implementation would need additional physics (e.g., feedback-driven modifications to kappa, baryonic effects on mixing, or environment-dependent N_crit) to match the full mass spectrum.
 
 *Inner-galaxy over-prediction (commits 109-110, v2.2.1).* I tried several model variations to fit the empirical RAR better (in `calculations/rar_*.py`):
-- Power-law cumulative profile (different alpha): no improvement
+- Power-law cumulative profile (different $\alpha$): no improvement
 - Scale-dependent $f_{\rm active}$ (varies with mass): cluster prediction became too low
 - Mass-dependent $g_+$ ($g_+$ scales as M^p): search converged to p=0
 - Core+isothermal cumulative: best at r_core=10% of R_halo, but mass-dependence still wrong

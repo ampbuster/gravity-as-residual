@@ -1081,7 +1081,7 @@ See:
 
 **Total Lagrangian attempts**: v1-v19 = 19 attempts.
 - Closed: 3 (v9, v10 L48; v16 structural decomposition)
-- Partially closed: 3 (v7 Hagedorn, v14 high-E universality, v17 alpha ~1 at N=12)
+- Partially closed: 3 (v7 Hagedorn, v14 high-E universality, v17 $\alpha \sim 1$ at N=12)
 - Honest negatives: 13 (L41-L43 not closed)
 
 
@@ -1092,7 +1092,7 @@ See:
 
 ### 3.62.3 α as the shape that links dimensions (v3.0.22)
 
-User question: "so alpha is the shape that links dimensions?"
+User question: "so $\alpha$ is the shape that links dimensions?"
 
 **YES** — α is a spectral/fractal shape, not a simple geometric ratio.
 

@@ -1107,7 +1107,7 @@ After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contri
 - **[PASS]** *Established*: SIDC's DM is time-lagged, with ~1% of ΛCDM's value at z=6
 - **[FAIL]** *Not established*: the *specific* ratio r(z=6) = 0.008 (depends on the SFR-energy calibration)
 - **[FAIL]** *Not established*: the *survival* of pre-stellar 2D universe fossils through cosmic dilution (the energetic analysis assumes they don't survive; this is a model assumption)
-- **[FAIL]** *Not established*: whether SIDC's smooth $E^{1+\alpha}$ creation function (§2.5.3) applies equally to phase transitions, PBHs, and stellar events (each has different physics; the smooth function uses alpha = 1.29 from SN calibration, which may not apply to other event types)
+- **[FAIL]** *Not established*: whether SIDC's smooth $E^{1+\alpha}$ creation function (§2.5.3) applies equally to phase transitions, PBHs, and stellar events (each has different physics; the smooth function uses $\alpha = 1.29$ from SN calibration, which may not apply to other event types)
 
 **What this test does:**
 - **[PASS]** *Documents* the time-lag problem quantitatively (r(z) at z=4-10)
