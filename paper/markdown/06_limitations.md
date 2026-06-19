@@ -450,3 +450,30 @@ If you are a brane-world expert, a DGP specialist, an analog gravity theorist, o
 
 ---
 
+
+## 7.2 v3.4 Limitations: F-theory 12D and the "12" pattern (NEW)
+
+L283. **N=12 in SYK is the standard numerical benchmark, NOT theoretically motivated** (v3.4.5). Web research confirms: N=12 with q=4 is used in Wenbo Fu (Princeton) thesis, OSTI variational, Caltech papers, and Sachdev MagLab lecture as the standard SYK numerical benchmark. But it is chosen for tractability, not from first principles. Other N (6, 8, 10, 14, 16) work equally well. The framework's α = 1 + 1/√N formula at N=12 is a PHENOMENOLOGICAL FIT, not a derivation. Status: CORRELATION, not derivation. Source: `calculations/v34_web_research_n12_consistency.py`.
+
+L284. **α = 1 + 1/√N is NOT a standard SYK formula** (v3.4.5). The SYK literature has Lyapunov exponent λ_L → 2π/β, specific heat corrections, etc. There is NO known "α = 1 + 1/√N" formula. The framework's claim that "α = 1.289 derives from N=12 SYK" is FALSE — α is calibrated to 14 M^α events, and the √12 in the formula is a curve fit. Status: PHENOMENOLOGICAL. Source: `calculations/v34_web_research_n12_consistency.py`.
+
+L285. **"12 SM fermions per generation" is FALSE** (v3.4.5). Per generation: SM has 15 Weyl (no ν_R) or 16 Weyl (with ν_R) = 7-8 Dirac. NOT 12. The only legitimate "12" in SM are: (a) 12 fermion FLAVORS (6 quarks + 6 leptons across all 3 generations = 4 Dirac × 3 = 12), and (b) 12 GAUGE BOSONS (8 gluons + 3 weak + 1 hypercharge). Framework's "12 SM fermions per gen" was an error. Status: REFUTED. Source: `calculations/v34_sm_side_12_match.py`.
+
+L286. **"h^{2,1} = N → N generations" is REFUTED by direct evidence** (v3.4.4). arXiv:0910.5464 (Braun-Candelas-Davies 2009) has CY3 with (h^{1,1}, h^{2,1}) = (1, 4) and 3 chiral generations via E_6 standard embedding. h^{2,1} = 4 does NOT give 4 generations. The index formula is N_gen = |χ|/2 (Euler characteristic), NOT h^{2,1}. User caught this directly. Status: REFUTED. Source: `calculations/v34_h21_4_vs_3_gen.py`.
+
+L287. **Z_12 fundamental group DOES exist in CY3 quotients** (v3.4.5, VERIFIED). arXiv:0910.5464 gives explicit Z_12 quotient of CY3 (χ=-72 → χ=-6, (h^{1,1}, h^{2,1}) = (1, 4)) with 3 generations. arXiv:0911.0708 lists known CY3 with π_1 = Z_N for N=2,3,4,5,6,7,8,10,12. JHEP05(2012)127 builds the MSSM from (0,2)-deformations of the SAME (1,4)/Z_12 manifold. Status: STRUCTURAL support for Z_12 specifically. Source: `calculations/v34_web_research_n12_consistency.py`.
+
+L288. **SM has 12 gauge bosons, not 12 fermions per generation** (v3.4.6). The framework's claim "12 SM fermions/gen" is wrong. The legitimate SM-side match for "12" is: 12 gauge bosons (SU(3) + SU(2) + U(1) generators = 8+3+1 = 12). This IS structural (real, well-defined). Status: REFRAMED. Source: `calculations/v34_sm_side_12_match.py`.
+
+L289. **SM has 12 fermion FLAVORS across all 3 generations, NOT per gen** (v3.4.6). 6 quark flavors (u, d, s, c, b, t) + 6 lepton flavors (e, ν_e, μ, ν_μ, τ, ν_τ) = 12 total flavors. 4 Dirac fermion FAMILIES × 3 generations = 12. The "12" applies to the WHOLE SM, not per generation. Status: REFRAMED. Source: `calculations/v34_sm_side_12_match.py`.
+
+L290. **DOF conservation at 24 was framework's interpretation, NOT a physical law** (v3.4.6). The math works: 12 Majorana × 2 = 6 Dirac × 4 = 3 4D-Dirac × 8 = 24 real DOF. But the "12"s at each level are DIFFERENT physics (fermions, gauge bosons, dimensions). No law requires them to match. The "DOF conservation" was a counting exercise, not a conservation principle. Status: DROPPED as physical claim. Source: `calculations/v34_sm_side_12_match.py`.
+
+L291. **α's first-principles derivation remains open** (v3.4.6). Multiple formulas give α = 1.289 within 0.1%: α = 1 + 1/√N (N=12), α = 1 + ln(q²/N) (N=12, q=4). But none are derived from SYK first principles. 2D CFT derivation not found. Status: CALIBRATED, not derived. Source: `calculations/v33_alpha_derivation_attempt.py`.
+
+L292. **"Why 12?" remains unanswered** (v3.4.6). Multiple correlations: N=12 SYK benchmark, 12 gauge bosons in SM, 12 fermion FLAVORS in SM, 12 = F-theory dim, 12 = E_6 Coxeter, Z_12 in CY3 quotients. But no first-principles derivation links these. Status: CORRELATIONS, not derivation.
+
+---
+
+**v3.4 status**: F-theory 12D adopted, 8 new limitations (L283-L292) for the "12" pattern honest reframe.
+**Total limitations**: 89 (was 81 in v3.1.2-final, +L261-L282 for F-theory 12D and "12" pattern, +L283-L292 for v3.4.5/3.4.6 honest reframe)
