@@ -1,0 +1,148 @@
+================================================================================
+v3.3 OPTION 2 REDONE WITH PROPER TIME DILATION
+================================================================================
+
+Original Option 2 (v3.3.6, WRONG time):
+  μ = K × α × E / τ_observed
+  Result: μ_TNT huge (inverted from intuition)
+
+Proper Option 2 (with time dilation):
+  μ = α × E × M_Pl,3D  (μ ∝ E, intuitive)
+  Result: μ_TNT small, μ_Quasar large (intuitive)
+
+================================================================================
+METHOD 1: ORIGINAL OPTION 2 (v3.3.6, WRONG time)
+================================================================================
+Formula: μ = K × α × E / τ_observed
+This is the formula the user correctly identified as using wrong time.
+
+K (calibrated to SN) = 8.360e+16
+
+Event                E (GeV)      τ_Pl         μ (orig)     M_Pl,2D        
+--------------------------------------------------------------------------------
+TNT (1 ton)            2.61e+19    2.66e+00    8.65e+16     2.94e+08 GeV
+X-class flare          6.24e+34    1.77e+20    3.11e+12     1.76e+06 GeV
+SN (10⁴⁴ J)            6.24e+53    5.49e+44    1.00e+07     3.17e+03 GeV
+Hypernova              6.24e+55    2.08e+47    2.65e+06     1.63e+03 GeV
+Long GRB               6.24e+54    1.07e+46    5.16e+06     2.27e+03 GeV
+BNS merger             6.24e+56    4.04e+48    1.36e+06     1.17e+03 GeV
+AGN flare              6.24e+49    3.83e+39    1.44e+08     1.20e+04 GeV
+Quasar outburst        6.24e+69    2.31e+65    2.39e+02     1.54e+01 GeV
+
+⚠ TNT has M_Pl,2D = 360,000 TeV (small event, big universe — WEIRD)
+⚠ Quasar has M_Pl,2D = 14 GeV (huge event, small universe — WEIRD)
+⚠ Inverted from intuition: bigger event → smaller M_Pl,2D
+
+================================================================================
+METHOD 2: PROPER OPTION 2 (v3.3.9, with time dilation)
+================================================================================
+Formula: μ = α × E × M_Pl,3D
+Uses τ_internal = t_Pl (the 2D universe's proper time)
+
+K_td (calibrated to SN) = 9.163e-67
+
+Event                E (GeV)      μ (proper)   M_Pl,2D        
+--------------------------------------------------------------------------------
+TNT (1 ton)            2.61e+19    3.77e-28     1.94e-14 GeV
+X-class flare          6.24e+34    9.00e-13     9.49e-07 GeV
+SN (10⁴⁴ J)            6.24e+53    9.00e+06     3.00e+03 GeV
+Hypernova              6.24e+55    9.00e+08     3.00e+04 GeV
+Long GRB               6.24e+54    9.00e+07     9.49e+03 GeV
+BNS merger             6.24e+56    9.00e+09     9.49e+04 GeV
+AGN flare              6.24e+49    9.00e+02     3.00e+01 GeV
+Quasar outburst        6.24e+69    9.00e+22     3.00e+11 GeV
+
+✓ TNT has M_Pl,2D = 1.94e-14 GeV (small event, tiny universe — INTUITIVE)
+✓ Quasar has M_Pl,2D = 3e11 GeV (huge event, big universe — INTUITIVE)
+✓ μ scales with E (intuitive: bigger event → bigger universe)
+
+================================================================================
+COMPARISON: ORIGINAL vs PROPER OPTION 2
+================================================================================
+
+Event                M_Pl,2D (orig)     M_Pl,2D (proper)   Intuitive?  
+--------------------------------------------------------------------------------
+TNT (1 ton)              2.94e+08 GeV       1.94e-14 GeV   WEIRD → INTUITIVE
+X-class flare            1.76e+06 GeV       9.49e-07 GeV   WEIRD → INTUITIVE
+SN (10⁴⁴ J)              3.17e+03 GeV       3.00e+03 GeV      OK → OK
+Hypernova                1.63e+03 GeV       3.00e+04 GeV      OK → OK
+Long GRB                 2.27e+03 GeV       9.49e+03 GeV      OK → OK
+BNS merger               1.17e+03 GeV       9.49e+04 GeV      OK → OK
+AGN flare                1.20e+04 GeV       3.00e+01 GeV   WEIRD → INTUITIVE
+Quasar outburst          1.54e+01 GeV       3.00e+11 GeV   WEIRD → INTUITIVE
+
+================================================================================
+THE PROPER OPTION 2 IS NOT WEIRD
+================================================================================
+
+Original Option 2 (v3.3.6) — INVERTED:
+  TNT: M_Pl,2D = 360,000 TeV (small event, big universe)
+  Quasar: M_Pl,2D = 14 GeV (huge event, small universe)
+  → Counterintuitive (inverted from event size)
+
+Proper Option 2 (v3.3.9, with time dilation) — INTUITIVE:
+  TNT: M_Pl,2D = 1.94e-14 GeV (small event, tiny universe)
+  Quasar: M_Pl,2D = 3e11 GeV (huge event, big universe)
+  → INTUITIVE (scales with event size)
+
+The user was right: original Option 2 was based on wrong time.
+With proper time dilation, Option 2 is INTUITIVE.
+
+================================================================================
+IS PROPER OPTION 2 A REASONABLE FRAMEWORK?
+================================================================================
+
+Proper Option 2 has these features:
+  - μ_i = K_td × α × E_i × M_Pl,3D (μ ∝ E)
+  - M_Pl,2D scales as √(E × M_Pl,3D) ~ E^0.5 (in natural units)
+  - TNT: 1.94e-14 GeV (very low, but physical)
+  - SN: 3 TeV (calibrated)
+  - Quasar: 3e11 GeV (high but < M_Pl,3D)
+
+Compared to Option 1 (universal μ = 9e6):
+  - Option 1: simpler (1 parameter)
+  - Option 2: more general (2 parameters: K_td, α)
+  - Option 2: more physical (μ scales with E)
+  - Option 2: NOT weird (with time dilation)
+
+WHY DID WE THINK OPTION 2 WAS WEIRD?
+  We tested it WITHOUT time dilation (used τ_observed).
+  With τ_observed: μ ∝ E/τ → inverted (small E, large μ for short-τ events)
+  With τ_internal: μ ∝ E → INTUITIVE
+
+OPTION 2 IS ACTUALLY QUITE REASONABLE
+  - μ depends on E (intuitive)
+  - μ scales linearly with E (simplest event-dependence)
+  - M_Pl,2D scales as √E (√-scaling is common in physics)
+  - No TNT weirdness
+  - No 'small event, big universe' issue
+
+OPEN QUESTION: WHICH IS RIGHT?
+  - Option 1 (universal μ): simpler, 1 parameter, but unmotivated
+  - Option 2 (event-dep μ): more general, 2 parameters, but still calibrated
+  - Both have μ CALIBRATED to SN, not derived
+  - Future: DM experiments could distinguish
+    - Option 1: DM has single mass scale
+    - Option 2: DM has E-dependent mass scale
+
+================================================================================
+REVISED FRAMEWORK STATUS
+================================================================================
+
+Original analysis said: 'Option 2 is weird (TNT)'
+User's catch: 'Option 2 used wrong time'
+With proper time: Option 2 is INTUITIVE
+
+REVISED:
+  - Option 1 (v3.3): simplest, 1 parameter, no event-dependence
+  - Option 2 (v3.3.9, PROPER): intuitive, 2 parameters, μ ∝ E
+  - Both are calibrated to SN
+  - Both are legitimate frameworks
+  - v3.3 keeps Option 1 as canonical (cleanest)
+  - v3.3.9 (proper Option 2) is a viable alternative
+
+NEW LIMITATIONS:
+  - L204: Original Option 2 (v3.3.6) used wrong time (τ_observed)
+  - L205: Proper Option 2 (v3.3.9) with τ_internal is INTUITIVE
+  - L206: Both Option 1 and Option 2 are calibrated, not derived
+  - L207: Future DM experiments could distinguish
