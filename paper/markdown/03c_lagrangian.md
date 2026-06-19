@@ -361,7 +361,7 @@ $f_{\rm back}$ ≈ 10⁻⁸⁵. Combined with ε_grav ~ 10⁻³⁸:
    │  f_DE = 10⁻⁸⁵ = (10⁻¹²³ / 10⁻³⁸)    │
    │                                         │
    │  All three are observations.            │
-   │  f_back is DEFINED as the ratio.        │
+   │  $f_{\rm DE}$ is DEFINED as the ratio.   │
    └─────────────────────────────────────────┘
 
    ┌──────────── SIDC MECHANISM ─────────────┐
@@ -370,7 +370,7 @@ $f_{\rm back}$ ≈ 10⁻⁸⁵. Combined with ε_grav ~ 10⁻³⁸:
    │  Antigravity cancels 3+1D gravity       │
    │  Residual = ε (observed)                │
    │  Un-cancelled = DE (observed)           │
-   │  Ratio = f_back (defined)               │
+   │  Ratio = $f_{\rm DE}$ (defined)          │
    │                                         │
    │  Mechanism explains the PICTURE,        │
    │  not the VALUES.                        │
@@ -1354,7 +1354,7 @@ Honest documentation of failed derivations:
 | Double-Scaled SYK (v28) | E_n = (2n+1)/2 (constant) | NEGATIVE |
 | Brute force SYK (v29) | α_fit = 1.29 (artifact!) | REVISED (v30) |
 | v30 verification | α_fit = −0.06 ± 0.10 (constant) | CONFIRMED NEGATIVE |
-| LHC tests of $M_{\rm Pl,2D}$ (v33) | Invisible (f_back² suppressed) | NEGATIVE |
+| LHC tests of $M_{\rm Pl,2D}$ (v33) | Invisible ($f_{\rm DE}^2$ suppressed) | NEGATIVE |
 
 α = 1.289 remains a CALIBRATION from the SN lifetime fit, not
 derivable from 2D CFT alone. This is HONEST — the calibration works
