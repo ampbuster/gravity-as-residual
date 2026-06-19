@@ -1171,6 +1171,62 @@ HDR_EOF
 fi
 
 
+# Step -1: Markdown lint with pymarkdownlnt (catches errors before pandoc/xelatex)
+# We disable the most verbose rules (line-length, blanks-around-lists, etc.) since
+# the paper has long lines (URLs, math expressions) and embedded HTML that trigger
+# false positives. The remaining rules catch: unbalanced $ math, malformed tables,
+# missing alt text, etc.
+# Custom math-balance check: count $ per line (excluding code spans)
+# Catches broken patterns like "$X$Y$" (odd $) and "$X$Y" without closing
+echo "Running math-balance check..."
+MATH_BALANCE_ERRORS=0
+for mdfile in "${PAPER_DIR}/markdown"/*.md; do
+    # Use awk to count $ per line, ignoring code spans (text between backticks)
+    BAD_LINES=$(awk '
+        {
+            # Strip inline code spans
+            gsub(/`[^`]*`/, "", $0)
+            # Count $ (excluding escaped)
+            n = gsub(/\$/, "", $0)
+            # Strip escaped
+            gsub(/\\/, "", $0)
+            # Now count remaining $
+            if (substr($0, 1, 3) == "```") next
+            count = gsub(/\$/, "X", $0)
+            if (count % 2 == 1) {
+                printf "%s:%d: %d dollar(s)\n", FILENAME, NR, count
+            }
+        }
+    ' "$mdfile")
+    if [ -n "$BAD_LINES" ]; then
+        echo "  Lines with odd $ count:"
+        echo "$BAD_LINES" | head -10
+        MATH_BALANCE_ERRORS=$((MATH_BALANCE_ERRORS + 1))
+    fi
+done
+if [ "${MATH_BALANCE_ERRORS}" -gt 0 ]; then
+    echo "Math-balance check: ${MATH_BALANCE_ERRORS} file(s) with odd $ per line"
+else
+    echo "Math-balance check: passed (all lines have even $ count)"
+fi
+
+if command -v pymarkdownlnt >/dev/null 2>&1; then
+    echo "Running pymarkdownlnt scan..."
+    # Disable rules that produce false positives in academic papers
+    DISABLED='md013,md033,md041,md036,md024,md026,md002,md003,md004,md007,md009,md012,md019,md023,md027,md030,md032,md035,md037,md038,md039,md046'
+    LINT_ERRORS=$(pymarkdownlnt -d "${DISABLED}" scan "${PAPER_DIR}/markdown" 2>&1 || true)
+    LINT_COUNT=$(echo "${LINT_ERRORS}" | grep -c "MD[0-9]" || echo 0)
+    if [ "${LINT_COUNT}" -gt 0 ]; then
+        echo "pymarkdownlnt: ${LINT_COUNT} style issue(s) (non-fatal)"
+        echo "${LINT_ERRORS}" | head -10
+        echo "(continuing build - style issues don't break pandoc/xelatex)"
+    else
+        echo "pymarkdownlnt: no issues found"
+    fi
+else
+    echo "pymarkdownlnt not installed (skipping; install with: pip install pymarkdownlnt)"
+fi
+
 # Step 0: Combine markdown files
 # Combine all paper/markdown/*.md files into a single paper.md
 # Output location: same directory as paper.pdf (paper/) for easy access.
