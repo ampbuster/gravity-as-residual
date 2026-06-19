@@ -87,6 +87,47 @@ For honest limitations, see `paper/markdown/06_limitations.md` (81 total, includ
 
 We RESTORE the two main results with appropriate caveats:
 
+## v3.4 UPDATE: F-theory 12D adopted as 4D bulk (structural hypothesis)
+
+**v3.4 (June 2026)**: The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory.
+
+F-theory 12D structure:
+- 10D base = Type IIB spacetime
+- 2D T² fiber = auxiliary elliptic curve encoding axio-dilaton
+- Total: 12D (10 + 2)
+
+**The "12" is structural to F-theory**:
+- 4D: 12 = F-theory dimension (10 + 2)
+- 3D: 12 = SM fermions per generation
+- 2D: 12 = N=12 SYK
+- Same "12" propagated through cascade
+
+**Cascade with F-theory 12D**:
+```
+4D: F-theory 12D on CY3 (compactified)
+   ↓
+3D: SM with 12 fermions/gen, 3 generations
+   ↓
+2D: N=12 SYK (12 Majorana)
+   ↓
+α = 1 + 1/√12 = 1.289 (M^α law)
+```
+
+**What F-theory 12D provides**:
+- ✓ Structural reason for "12" (10+2 dimension)
+- ✓ Structural reason for 3 generations (CY3 topology)
+- ✓ Structural reason for 12 fermions/gen (E_6 → SM)
+- ✓ 4D N=1 SUSY (broken at our scale)
+- ✓ Real, well-developed theory
+
+**What's still open**:
+- ✗ "Why F-theory?" itself is open (structural hypothesis, not derived)
+- ✗ CY3 topology not uniquely determined
+- ✗ 3 generations not strictly derived
+- ✗ 12 fermions/gen is structural (not derived)
+
+**Same 9 parameters, more structure**. See paper §3.5 for details.
+
 ## Result 1: M^α Scaling Law (τ = (E/M_Pl)^α × t_Pl, α = 1.289)
 
 **The §10.1 8-event empirical fit** (the rigorous test set, all REAL events):
