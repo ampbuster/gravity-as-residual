@@ -10,12 +10,14 @@
 
 ## The Problem
 
-The symbol "f_back" has been overloaded with TWO different meanings:
+The symbol "f_back" has been overloaded with TWO different meanings. The user
+suggested better naming (**f_DM_leak / f_DM_death / f_DE**), which we adopt:
 
 | Usage | Direction | Value | What it produces |
 |-------|-----------|-------|------------------|
-| **f_back = 10⁻⁸⁵** | 3+1D → 4D | 1.2×10⁻⁸⁵ (= t_Pl/τ_4D) | **DE** (dark energy) |
-| **f_back_2D = 10⁻⁴⁵** | 2D → 3+1D (while alive) | 1.6×10⁻⁴⁵ (= t_Pl/τ_2D) | Negligible (0.16 J per SN) |
+| **f_DE** (was: f_back_4D) | 3+1D → 4D | 1.2×10⁻⁸⁵ (= t_Pl/τ_4D) | **DE** (dark energy) |
+| **f_DM_leak** (was: f_back_2D) | 2D → 3+1D (while alive) | 1.6×10⁻⁴⁵ (= t_Pl/τ_2D) | Negligible (0.16 J per SN) |
+| **f_DM_death** (was: "100% pulsed return") | 2D → 3+1D (at death) | **1** (100%) | **DM** (27% cumulative) |
 
 The user is CORRECT:
 - **10⁻⁸⁵ is NOT for 2D → 3D DM**

@@ -985,3 +985,34 @@ This is consistent with observations: G has been constant to within ~10% over th
 
 ---
 
+
+## 0.5 f_back USAGE GUIDE (v3.5.7 CLARIFICATION)
+
+**User catch (June 19, 2026)**: "what does f_back mean? 2d death -> 3d DM? why 10^-85? isn't that number for 4d->3d DE?"
+
+**You were right.** The symbol "f_back" was overloaded. New naming:
+
+| Symbol | Direction | Value | What it produces |
+|--------|-----------|-------|------------------|
+| **f_DM_leak** | 2D → 3+1D while alive | 1.6×10⁻⁴⁵ | Negligible (0.16 J per SN) |
+| **f_DM_death** | 2D → 3+1D at death | **1** (100%) | **DM (27%) cumulative** |
+| **f_DE** | 3+1D → 4D | 1.2×10⁻⁸⁵ | **DE (68%)** |
+
+**Three flows, three names, no confusion**:
+
+1. **f_DM_leak** = continuous 2D→3+1D leakage while 2D universe lives (tiny, can be ignored)
+2. **f_DM_death** = pulsed 2D→3+1D at τ_2D = 100% (gives all DM)
+3. **f_DE** = continuous 3+1D→4D leakage = 10⁻⁸⁵ (gives DE)
+
+**Your key insight**: 10⁻⁸⁵ is for 3+1D→4D DE, NOT for 2D→3+1D DM.
+DM comes from 100% pulsed return at 2D universe death.
+
+**Why this matters**: The old "f_back" was used for both:
+- Continuous leakage (small while-alive fraction)
+- DE consistency check (10⁻⁸⁵, 3D→4D only)
+
+These are different flows and now have distinct names.
+
+**To be applied in future versions**: Replace f_back with f_DE/f_DM_leak/f_DM_death throughout paper.
+
+See `paper/legacy/v357_f_back_clarification.md` for full discussion.
