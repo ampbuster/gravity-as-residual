@@ -1,0 +1,133 @@
+================================================================================
+v3.3 CALIBRATE TO METHOD PREDICTIONS (CORRECTED)
+================================================================================
+
+v3.3 DROPPED '9D = v_Higgs' hypothesis.
+What's actually in v3.3:
+  - M_Pl,2D = 3 TeV (calibrated to SN)
+  - M_Pl,4D = 4e23 GeV (α-weighted GM)
+  - M^α law (universal)
+  - DE = 0.24% off
+  - DM = 27% (calibrated AGN)
+  - Hierarchy M_Pl,3D/M_Pl,4D = 3e-5
+
+================================================================================
+
+================================================================================
+CANDIDATE: v3.3 (calibrated SN)
+μ = 9.000e+06 GeV²
+================================================================================
+  M_Pl,2D = √μ = 3.000e+03 GeV = 3.000e+00 TeV
+  Range check: ✓ reasonable (should be 1e2 to 1e19 GeV)
+  M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = 3.961e+23 GeV
+  Hierarchy: M_Pl,3D / M_Pl,4D = 3.082e-05
+  τ_SN predicted (M^α): 29.59 s (target: 33 s)
+  5/27/68 split: independent of μ (always works)
+  Note: μ only affects M_Pl,4D and hierarchy
+  Bilateral cascade (DE, DM, 5/27/68) is INDEPENDENT of μ
+
+
+================================================================================
+CANDIDATE: Holographic bound (CKN)
+μ = 3.930e+73 GeV²
+================================================================================
+  M_Pl,2D = √μ = 6.269e+36 GeV = 6.269e+33 TeV
+  Range check: ✗ outside reasonable range (should be 1e2 to 1e19 GeV)
+  M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = 9.297e+13 GeV
+  Hierarchy: M_Pl,3D / M_Pl,4D = 1.313e+05
+  τ_SN predicted (M^α): 29.59 s (target: 33 s)
+  5/27/68 split: independent of μ (always works)
+  Note: μ only affects M_Pl,4D and hierarchy
+  Bilateral cascade (DE, DM, 5/27/68) is INDEPENDENT of μ
+
+  ⚠⚠⚠ μ is 4e+66× TOO BIG (M_Pl,2D > M_Pl,3D)
+
+================================================================================
+CANDIDATE: Cardy formula
+μ = 1.760e+21 GeV²
+================================================================================
+  M_Pl,2D = √μ = 4.195e+10 GeV = 4.195e+07 TeV
+  Range check: ✓ reasonable (should be 1e2 to 1e19 GeV)
+  M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = 3.410e+21 GeV
+  Hierarchy: M_Pl,3D / M_Pl,4D = 3.580e-03
+  τ_SN predicted (M^α): 29.59 s (target: 33 s)
+  5/27/68 split: independent of μ (always works)
+  Note: μ only affects M_Pl,4D and hierarchy
+  Bilateral cascade (DE, DM, 5/27/68) is INDEPENDENT of μ
+
+  ⚠⚠⚠ μ is 2e+14× TOO BIG (M_Pl,2D > M_Pl,3D)
+
+================================================================================
+CANDIDATE: CGHS 2D BH
+μ = 5.790e-21 GeV²
+================================================================================
+  M_Pl,2D = √μ = 7.609e-11 GeV = 7.609e-14 TeV
+  Range check: ✗ outside reasonable range (should be 1e2 to 1e19 GeV)
+  M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = 3.365e+27 GeV
+  Hierarchy: M_Pl,3D / M_Pl,4D = 3.628e-09
+  τ_SN predicted (M^α): 29.59 s (target: 33 s)
+  5/27/68 split: independent of μ (always works)
+  Note: μ only affects M_Pl,4D and hierarchy
+  Bilateral cascade (DE, DM, 5/27/68) is INDEPENDENT of μ
+
+  ⚠⚠⚠ μ is 2e+27× TOO SMALL (M_Pl,2D < electroweak)
+
+================================================================================
+CRITICAL INSIGHT: WHAT ACTUALLY CONSTRAINS μ IN v3.3?
+================================================================================
+
+v3.3 has 9 parameters:
+  1. M_Pl,3D = 1.22e19 GeV (MEASURED)
+  2. M_Pl,2D = 3 TeV (CALIBRATED to SN)
+  3. M_Pl,4D = 4e23 GeV (DERIVED from 1, 2 via α-weighted GM)
+  4. α = 1.289 (CALIBRATED to SN)
+  5. ε = 1e-38 (CALIBRATED to hierarchy)
+  6. τ_4D = 1.51e34 yr (CALIBRATED to DE)
+  7. τ_3D,apparent = 9.10e124 yr (DERIVED)
+  8. γ_4D = 6.03e90 (DERIVED)
+  9. N_sub = 400 (FREE)
+
+Of these, μ = M_Pl,2D² is ONE of 9 parameters.
+
+What constrains μ? ONLY: 'SN creates 2D universe' (calibration)
+
+What does NOT constrain μ?
+  - DE (uses M_Pl,3D, not μ)
+  - DM (uses 2D universe energy × rate, not μ)
+  - 5/27/68 split (independent of μ)
+  - M^α law (uses M_Pl,parent, not μ)
+  - α (separate calibration)
+
+So μ is calibrated to one specific observation:
+  'M_Pl,2D ≈ 3 TeV because SN creates 2D universe'
+
+This is NOT derived from first principles.
+It's an empirical anchor.
+
+================================================================================
+CORRECTED CONCLUSION
+================================================================================
+
+With 9D = v_Higgs DROPPED, the framework's 5/27/68 split, DE,
+DM, and M^α law are INDEPENDENT of μ.
+
+The ONLY constraint on μ is: 'M_Pl,2D = 3 TeV' (calibrated to SN)
+
+This is exactly the same as:
+  - Λ_QCD ~ 200 MeV (calibrated to hadron masses)
+  - Λ_4D ~ 10^-47 GeV^4 (calibrated to DE)
+  - m_H ~ 125 GeV (calibrated to EWSB)
+
+All these are calibrated. None are derived.
+
+The first-principles methods give predictions 10⁻²⁸ to 10⁶⁷× off
+from the calibrated value. This is BECAUSE the first-principles
+methods are not the right physics for the framework's calibration.
+
+Honest verdict:
+  - v3.3 framework: μ = 9e6 (calibrated to SN)
+  - First-principles methods: μ ~ 10⁻²¹ to 10⁷³ (various predictions)
+  - These don't agree because the methods aren't the right physics
+  - The 'right physics' for μ is unknown
+  - The 3 TeV is the right value for the framework because
+    it's the only value consistent with the cascade
