@@ -5,7 +5,7 @@
 **Author:** ampbuster (software developer, not a physicist)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
 **Repository:** https://github.com/ampbuster/gravity-as-residual
-**Current version:** v3.3 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
+**Current version:** v3.5.7+ (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
 
 **v3.5.x HIGHLIGHTS** (CURRENT, June 2026):
 - v3.4.x honest reframe: "12 propagates" is CORRELATION not derivation (8 inconsistencies found, v3.4.5)
