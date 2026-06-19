@@ -8,6 +8,10 @@ This directory contains historical paper sections that were used during SIDC's d
 |---|---|
 | `legacy_paper.md` | Earlier draft of the full paper, with historical v2.7 sections (4-zone H(z) attempts, etc.) |
 | `v31_60_4_old.md` | v3.1.2 (early) §3.60.4 with E_4D = 10⁶⁹ J (Scenario A framing) and "DUAL FRAMING" α = 1.258 vs 1.289. Superseded by v3.1.2-final §3.60.4 with Scenario X and α = 1.289 only. |
+| `v33_9d_speculation.md` | 9D = String Theory connection (DROPPED in v3.3 #23). M_Pl,4D = 9×10¹⁸ GeV from 9D scaling was REPLACED by α-weighted GM derivation giving 4×10²³ GeV |
+| `v33_development_history.md` | v3.3 iterative corrections #14-#33 leading to bilateral cascade. Shows the development path to current M^α law and f_back² framework |
+| `v357_audit_housekeeping.md` | v3.5.7 consistency audit results. 47 legacy limitation references (L44-L282) documented. No fundamental inconsistencies found, just housekeeping |
+| `v357_legacy_parameters.md` | v3.5.7 audit: old α values (1.18, 1.20, 1.239, 1.258, etc.) and M_Pl,4D/τ_3D/γ_4D/E_4D evolution across versions |
 
 ## Why keep legacy content?
 
