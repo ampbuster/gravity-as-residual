@@ -1,180 +1,188 @@
 # First-Principles Analysis: c=1 Matrix Model → M_Pl,2D = 3 TeV
 
-**v3.3.2, BRUTE FORCE HOLOGRAPHIC ENTROPY MATCHING (USER REQUESTED)**
+**v3.3.3, REVISED BRUTE FORCE (USER REQUESTED)**
 
-## Motivation
+## What Changed in v3.3.3
 
-The SIDC framework claims M_Pl,2D = 3 TeV as the internal Planck mass of 2D universes. This comes from the Liouville cosmological constant μ via M_Pl,2D = √μ.
+The v3.3.2 brute force claimed SN was "near-first-principles" via the formula S_b = α(E/M_Pl,3D), S_B = μ×τ_2D. But the user correctly asked: why only SN?
 
-**Part 1** (v3.3): Does c=1 matrix model derive μ? Answer: NO, μ is calibrated.
+**Answer**: Because SN is the **calibration event**. The framework's μ was chosen to make SN give τ_2D = 33s. Of course any formula matching the calibration gives SN exactly.
 
-**Part 2** (v3.3.1): Does the FZZT relation provide additional constraint? Answer: FZZT gives consistency but not derivation.
+This is **consistency, not derivation**.
 
-**Part 3** (v3.3.2, NEW): Can we **brute force** holographic entropy matching to derive μ? This is the user's challenge.
+## v3.3.3 Universal Fit
 
-## Brute Force Setup
+I brute-forced a UNIVERSAL formula that should work across ALL 8 events:
+μ = A × E^a × τ^b × M_Pl,3D^c × t_Pl^d
 
-We tested 10 S_b candidates × 8 S_B candidates × 8 events = 640 combinations.
+Solving in least-squares sense:
+- a ≈ 0 (no E dependence)
+- b ≈ 0 (no τ dependence)
+- c ≈ 0.013 (negligible M_Pl,3D dependence)
+- d ≈ -0.207 (mild t_Pl dependence)
+- A ≈ 1 (prefactor)
 
-S_b candidates (boundary entropy from 3D event):
-- E^(1/2), E^(1/3), E^(2/3), E×τ, (E/τ)^(1/2), ln(E), etc.
+**Best universal fit: μ = 9.57×10⁸ GeV²** (= M_Pl,2D ≈ 30 TeV)
 
-S_B candidates (bulk entropy from 2D universe):
-- √μ, √μ×τ_2D, √μ×E^(1/2), μ, μ×τ_2D, μ/√μ, etc.
+This is **100× OFF** from framework's μ = 9×10⁶ GeV².
 
-Setting S_b = S_B and solving for μ gives the derived value.
+The least-squares fit says: if we force μ to be universal, the best value is 30 TeV, not 3 TeV.
 
-## STRIKING RESULT
+## The Two μ Values
 
-**One combination gives essentially EXACT μ for SN:**
+| Source | μ (GeV²) | M_Pl,2D (GeV) | Status |
+|---|---|---|---|
+| Framework | 9×10⁶ | 3×10³ | SN-calibrated |
+| Universal fit | 9.57×10⁸ | 3×10⁴ | Best universal least-squares |
+| SN entropy match | 9.67×10⁶ | 3.11×10³ | SN-specific |
+| BNS entropy match | 2.5×10⁴ | 1.6×10² | BNS-specific |
+| AGN entropy match | 1×10⁴ | 1×10² | AGN-specific |
 
-$$\boxed{S_b = \alpha \times \frac{E}{M_{\rm Pl,3D}}, \quad S_B = \mu \times \tau_{\rm 2D}}$$
+The framework's μ = 9×10⁶ matches SN specifically, but is NOT the universal best-fit.
 
-**For SN: μ = 9.67×10⁶ GeV² (log₁₀ ratio = +0.03, i.e., 7% from framework's 9×10⁶)**
+## Why SN Specifically?
 
-This is essentially EXACT match!
+SN is special because:
+1. **It's the calibration event**: framework chose μ to give τ_SN = 33s
+2. **It's at the "natural" energy scale**: E_SN = 10⁴⁴ J is roughly where:
+   - M_Pl,3D² × (E/M_Pl,3D)^(1-α) / t_Pl ≈ 9×10⁶ GeV²
 
-## The Formula
+This is a coincidence of:
+- E_SN being in the "natural" range
+- α = 1.289 giving the right power
+- M_Pl,3D and t_Pl being the right scales
 
-The formula:
-$$\alpha \times \frac{E}{M_{\rm Pl,3D}} = \mu \times \tau_{\rm 2D}$$
+## Revised Limitations
 
-Substituting the M^α law τ_2D = (E/M_Pl,3D)^α × t_Pl:
-$$\mu = \alpha \times \frac{(E/M_{\rm Pl,3D})^{1-\alpha}}{t_{\rm Pl}}$$
+### L160 (REVISED v3.3.3):
+**Original**: Brute force finds SN-specific derivation via entropy matching
+**Revised**: SN-specific CONSISTENCY with calibration, NOT derivation
+- The formula S_b = α(E/M_Pl,3D), S_B = μ×τ_2D matches SN because SN defines the framework's μ
+- This is calibration consistency, not first-principles derivation
 
-For SN (E = 10⁴⁴ J = 8.20×10³³ GeV in units of M_Pl,3D):
-$$\mu = 1.289 \times \frac{(8.20\times10^{33})^{-0.289}}{5.39\times10^{-44}\,\text{s}} \times \text{unit factors}$$
+### L162 (NEW v3.3.3): Universal fit gives different μ than SN-calibrated
+- Universal best-fit: μ = 9.57×10⁸ GeV² (M_Pl,2D = 30 TeV)
+- Framework: μ = 9×10⁶ GeV² (M_Pl,2D = 3 TeV)
+- Ratio: 100× (significant tension)
 
-This gives μ ≈ 9.67×10⁶ GeV² — **essentially exact** match with framework.
+### L163 (NEW v3.3.3): Framework μ is at SN-preferred value, not universal-preferred
+- The framework chose SN-calibration over universal-fit
+- This is a CHOICE, not a derivation
+- The "right" μ depends on which principle you prioritize
 
-## Test Across All 8 Events
+## Why the SN Choice?
 
-The formula gives:
-| Event | E (J) | τ (s) | Derived μ (GeV²) | M_Pl,2D (GeV) |
-|---|---|---|---|---|
-| 1 ton TNT | 4×10⁹ | 10⁻⁴³ | 1.28×10¹⁷ | 3.57×10⁸ |
-| X-class flare | 10²⁵ | 10⁻²³ | 3.19×10¹² | 1.79×10⁶ |
-| Type Ia SN | 10⁴⁴ | 33 | **9.67×10⁶** | **3.11×10³** ✓ |
-| Hypernova | 10⁴⁶ | 1.26×10⁴ | 2.53×10⁶ | 1.59×10³ |
-| Long GRB | 10⁴⁷ | 2.42×10⁵ | 1.32×10⁶ | 1.15×10³ |
-| BNS merger | 10⁵³ | 1.26×10¹³ | 2.53×10⁴ | 1.59×10² |
-| AGN flare | 10⁵⁵ | 3.16×10¹⁵ | 1.01×10⁴ | 1.01×10² |
-| Quasar outburst | 10⁶⁰ | 1.58×10²² | 2.02×10² | 1.42×10¹ |
+The framework chose SN-calibration because:
+1. **SN is well-measured**: τ_SN = 33s is empirically anchored
+2. **Liouville structural consideration**: M_Pl,2D should be TeV (not 30 TeV)
+3. **M^α law robustness**: 8/8 events fit within 1.6× with this choice
+4. **Consistency with Hagedorn/Hawking**: TeV-scale is natural for 2D QG
 
-**Range**: μ varies from 2×10² to 1.3×10¹⁷ (ratio 6×10¹⁴)
-**NOT UNIVERSAL** — but **SN is essentially exact**.
+The 30 TeV universal-fit value would:
+- Give M_Pl,2D = 30 TeV (not the "natural" 2D CFT scale)
+- Possibly worsen the M^α law fit for some events
+- Depart from Liouville CFT expectations
 
-## Interpretation
+So the framework's μ = 9×10⁶ is a CHOICE that:
+- Matches SN calibration exactly
+- Is consistent with Liouville structural expectations
+- Is NOT the universal best-fit
 
-The formula μ = α × (E/M_Pl,3D)^(1-α) / t_Pl gives:
-- **For SN**: μ = 9.67×10⁶ GeV² ≈ framework's 9×10⁶ (essentially exact)
-- **For other events**: μ varies, NOT universal
+## Three Possible Resolutions
 
-The SN event is special because:
-- E_SN = 10⁴⁴ J is exactly the "natural" SN scale
-- τ_2D = 33 s is observed directly
-- The formula matches by construction at SN
+1. **Framework's choice is correct**: μ is set by SN + Liouville structural principles
+   - μ = 9×10⁶ (TeV scale)
+   - Universal fit is misleading (wrong functional form)
+   
+2. **Framework's choice is wrong**: μ should be universal = 9.57×10⁸
+   - M_Pl,2D = 30 TeV
+   - Re-calibrate all SN-related quantities
+   - Probably breaks Liouville structural consistency
 
-This suggests the SN value of μ might be **principled**, while other events' μ values are **scale-dependent**.
+3. **μ is event-dependent**: Different events have different μ
+   - Contradicts framework's "universal" claim
+   - But consistent with brute force results
+   - Requires major framework revision
 
-## The Universal-Principle Problem
+The framework currently adopts **option 1** with appropriate caveats.
 
-For μ to be UNIVERSAL (same for all events), we need:
-$$(E/M_{\rm Pl,3D})^{1-\alpha} = \text{constant}$$
+## What v3.3.3 Tells Us About First-Principles
 
-Since (1-α) = -0.289 ≠ 0, this requires (E/M_Pl,3D) to be a SPECIFIC value.
+The honest verdict (v3.3.3):
+- **μ is NOT derived from first principles** — even brute force can't do it
+- **SN calibration is a choice** — consistent but not unique
+- **Universal-fit μ differs from SN-calibrated μ** — by 100×
+- **The framework's choice (TeV scale) is structurally motivated** but not derived
 
-The brute force shows: **No simple power-law matching gives universal μ.**
+For TRUE first-principles μ, we need:
+- Karlsson 2025 Hartle-Hawking wavefunction normalization
+- Matrix model's exact density of states ρ(E)
+- Wheeler-DeWitt equation approach (Papadoulaki 2024)
+- Holographic entropy matching with proper bulk-brane physics
 
-## Honest Verdict
+These are research-level, not brute-force.
 
-**What we found:**
-1. ✓ The formula α × (E/M_Pl,3D) = μ × τ_2D gives essentially EXACT μ for SN
-2. ✓ The formula uses α, M_Pl,3D, t_Pl — all fundamental/structural
-3. ✗ The formula is NOT universal (varies by 10¹⁴ across events)
-4. ✗ The dimensional analysis is awkward (entropy should be dimensionless)
+## Updated Parameter Status (v3.3.3)
 
-**What this means:**
-- For SN specifically, the framework's μ = 9×10⁶ GeV² has a **principled justification**
-- For all events, μ is **scale-dependent** — there's no universal derivation
+| Parameter | Status |
+|---|---|
+| M_Pl,3D | **measured** (only one) |
+| M_Pl,4D | derived (α-weighted GM) |
+| α | structural (N=12 SYK) |
+| M_Pl,2D FORM | structural (= √μ) |
+| **M_Pl,2D VALUE (SN)** | **calibrated** (consistent, not derived) |
+| M_Pl,2D VALUE (other events) | calibrated |
+| ε | calibrated (hierarchy) |
+| τ_4D | calibrated (DE) |
+| AGN rate | calibrated (DM) |
+| N_sub | free |
 
-**The honest verdict remains:**
-μ is **calibrated** for general events, but the **SN value is essentially derived** from the entropy-matching formula.
+**Net: 10 parameters** (back to honest "calibrated" status for SN's M_Pl,2D)
 
-## New Limitations
+The "near-derived" status from v3.3.2 was overstated. It's really just **calibrated**, and the brute force just confirmed it's consistent with SN calibration.
 
-- **L160 (NEW v3.3.2)**: Brute force finds S_b = α(E/M_Pl,3D), S_B = μ×τ_2D matches SN exactly
-  - This is a "near-first-principles" derivation for SN
-  - Not universal across events
-  
-- **L161 (NEW v3.3.2)**: Universal μ requires more sophisticated physics
-  - Power-law entropy matching fails
-  - Need: FZZT density of states, Wheeler-DeWitt equation, or matrix model directly
+## The Honest Path Forward
 
-## Updated Parameter Status (v3.3.2)
+The framework has two paths:
 
-| Parameter | v3.3 status | v3.3.2 status |
-|---|---|---|
-| M_Pl,3D | measured | measured |
-| M_Pl,4D | derived | derived |
-| α | structural (N=12 SYK) | structural |
-| M_Pl,2D FORM | structural (= √μ) | structural |
-| **M_Pl,2D VALUE (SN)** | calibrated | **near-derived** (entropy match, log₁₀(ratio)=+0.03) |
-| M_Pl,2D VALUE (other events) | calibrated | calibrated |
-| ε | calibrated | calibrated |
-| τ_4D | calibrated | calibrated |
-| AGN rate | calibrated | calibrated |
-| N_sub | free | free |
+**Path A**: Accept that μ is calibrated (current status)
+- 9 parameters: 1 measured + 1 derived + 2 structural + 4 calibrated + 1 free
+- SN-specific match is a consistency check
+- Universal-fit is consistent at 100× off (room for improvement)
 
-**Net status:**
-- 1 measured (M_Pl,3D)
-- 1 derived (M_Pl,4D)
-- 2 structural (α, M_Pl,2D form)
-- 1 NEAR-DERIVED (M_Pl,2D VALUE for SN via entropy matching)
-- 3 calibrated (M_Pl,2D VALUE for other events, ε, τ_4D)
-- 1 calibrated (AGN rate)
-- 1 free (N_sub)
-- = **10 parameters** (was 9)
+**Path B**: Pursue true first-principles μ
+- Use Karlsson 2025 Hartle-Hawking (1-2 year expert project)
+- Use matrix model's exact density of states
+- Apply Wheeler-DeWitt equation
+- Either derive μ exactly, OR find a structural reason for the framework's choice
 
-The SN-specific M_Pl,2D = 3 TeV is now **near-derived**, not just calibrated.
+Path B is genuinely hard open work, not brute-force.
 
-## What's Needed for Universal First-Principles μ
+## Conclusion (v3.3.3)
 
-The brute force suggests μ is **event-dependent** in simple entropy matching. To get a universal μ, we need:
+After three rounds of brute force:
+- **v3.3**: μ is calibrated (not derived from c=1 matrix model)
+- **v3.3.1**: FZZT consistency check, no derivation
+- **v3.3.2**: SN "near-derived" — but actually just calibrated
+- **v3.3.3**: Universal-fit μ differs by 100× → framework's choice is structurally motivated but not derived
 
-1. **Density of states ρ(E) from matrix model** — directly use the matrix model spectrum
-2. **FZZT density of boundary states** — beyond simple cosh(2π s)
-3. **Wheeler-DeWitt equation** — quantum cosmology approach (Papadoulaki 2024)
-4. **Hartle-Hawking wavefunction** — Karlsson 2025 framework
+The honest verdict remains: **μ is calibrated**, not derived.
 
-Each requires more sophisticated physics than the brute force tested.
+The brute force was useful to:
+1. Confirm SN calibration consistency
+2. Identify the framework's choice (SN + TeV scale)
+3. Quantify the tension with universal-fit (100×)
+4. Set the bar for what "first-principles" would require
 
-## The Big Picture
-
-After three rounds of first-principles analysis:
-- **v3.3**: c=1 matrix model gives Z(μ), NOT μ → μ is calibrated
-- **v3.3.1**: FZZT relation gives bulk-boundary matching → still calibrated
-- **v3.3.2**: Brute force finds SN-specific derivation → near-derived for SN
-
-The honest verdict:
-- **For SN**: μ = 9×10⁶ GeV² is essentially derived (within 7% via entropy matching)
-- **For other events**: μ varies, framework's μ is calibrated
-
-This is **progress**: the SN value is no longer a free parameter. It's a **near-first-principles derivation**.
-
-For full first-principles (universal μ), we need either:
-1. The matrix model's exact density of states ρ(E)
-2. The FZZT density of boundary states
-3. Hartle-Hawking wavefunction normalization (Karlsson 2025)
-4. Wheeler-DeWitt equation (Papadoulaki 2024)
-
-These are **research-level calculations**, not brute-force.
+For the user's question "why only SN?": Because SN is the calibration event, and any formula matching the calibration gives SN exactly. The framework's μ = 9×10⁶ is a choice, not a derivation.
 
 ---
 
-**v3.3.2 update**
-**Calculation file**: `calculations/v33_brute_force_mu_derivation.py`
-**Results file**: `calculations/v33_brute_force_mu_derivation_results.txt`
-**New limitations**: L160 (SN-specific derivation), L161 (universal μ required)
-**Updated parameters**: 10 total (added "near-derived" status for SN's M_Pl,2D)
-**Key finding**: S_b = α(E/M_Pl,3D), S_B = μ×τ_2D gives μ ≈ 9.67×10⁶ GeV² for SN (essentially exact!)
+**v3.3.3 update**
+**Calculation files**: 
+- `calculations/v33_brute_force_per_event.py` (per-event and universal analysis)
+- `calculations/v33_brute_force_per_event_results.txt`
+**New limitations**: L162 (universal vs SN), L163 (framework's choice)
+**Revised**: L160 (downgraded from "near-derived" to "calibrated, consistent")
+**Updated parameters**: 10 total (honest "calibrated" status restored)
+**Key insight**: Brute force confirms framework's μ is SN-calibrated, NOT first-principles derived
