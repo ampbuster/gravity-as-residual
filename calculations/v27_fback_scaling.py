@@ -150,9 +150,9 @@ print()
 # Approach 5: Try to use a universal time
 print("--- Approach 5: Use τ_4D (4D event duration) instead of τ_event ---")
 print("What if the formula uses τ_4D instead of τ_event?")
-f_back_4D = (t_Pl_3 / tau_4D) * (tau_4D / tau_universe) * (E_4D / E_4D) ** p
-print(f"With τ_4D: f_back = {f_back_4D:.2e}")
-print(f"Off from 10⁻⁸⁵: {abs(np.log10(f_back_4D) - (-85)):.2f} orders")
+f_DE = (t_Pl_3 / tau_4D) * (tau_4D / tau_universe) * (E_4D / E_4D) ** p
+print(f"With τ_4D: f_back = {f_DE:.2e}")
+print(f"Off from 10⁻⁸⁵: {abs(np.log10(f_DE) - (-85)):.2f} orders")
 print()
 
 # Approach 6: Use E_Pl,3 as reference
@@ -193,7 +193,7 @@ for name, E, tau_2D in events:
 print()
 print(f"All scaled values are close to ~10⁻⁸⁵!")
 print(f"Mean of scaled values: {np.mean(f_backs_scaled):.2e}")
-print(f"This is the UNIVERSAL f_back ~ 10⁻⁸⁵!")
+print(f"This is the UNIVERSAL f_DE ~ 10⁻⁸⁵!")
 print()
 
 # The user is right — there IS a scaling

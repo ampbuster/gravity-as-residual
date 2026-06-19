@@ -576,7 +576,7 @@ At every level: parent-level event creates child-level universes, each child has
 - Lifetime τ (apparent in lower-D frame, NOT proper time of higher-D frame)
 - Back-flow rate f_back (return rate, frame-invariant ratio)
 - 14 M^α events (the original empirical fit, 8/8 within 1.6×)
-- f_back = 10⁻⁸⁵ (DE matching)
+- f_DE = 10⁻⁸⁵ (DE matching)
 - f_back = 10⁻⁴⁵ (2D leakage)
 
 **What changes between levels**:

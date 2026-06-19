@@ -368,7 +368,7 @@ def test_2pt_clusters_vs_field():
 
 def test_f_back():
     """
-    The cascade's f_back ~ 10^-85 is the 'back-projection ratio':
+    The cascade's f_DE ~ 10^-85 is the 'back-projection ratio':
     f_back = (back-projected 2D content) / (direct 3+1D content)
 
     In Liouville 2D CFT, the 2-point function gives the "2D content weight"
@@ -384,7 +384,7 @@ def test_f_back():
     print("TEST D: BACK-PROJECTION RATIO f_back FROM LIERVILLE")
     print("=" * 80)
     print()
-    print("The cascade's f_back ~ 10^-85 is the ratio of back-projected")
+    print("The cascade's f_DE ~ 10^-85 is the ratio of back-projected")
     print("2D content to direct 3+1D content. In Liouville, this is")
     print("the reflection coefficient ρ(α) = λ(α)/λ(Q-α).")
     print()
@@ -433,7 +433,7 @@ def test_f_back():
     print("of weight α. For α → 0, ρ → 0 (no 2D universe at zero weight).")
     print("For α → Q/2, ρ → 1 (degenerate weight).")
     print()
-    print("The cascade's f_back ~ 10^-85 is MUCH smaller than any Liouville value.")
+    print("The cascade's f_DE ~ 10^-85 is MUCH smaller than any Liouville value.")
     print("This suggests f_back is NOT a Liouville quantity.")
     print("It's a separate cascade concept: the probability that a 2D universe's")
     print("death energy returns to 3+1D as DM (rather than escaping).")

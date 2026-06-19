@@ -56,38 +56,38 @@ print("         continuous + pulsed = 1.0 (total return)\n")
 # 2D→3D: SN example
 E_SN = 1e44  # J
 tau_2D = tau_M_alpha(E_SN, M_Pl_3D_GeV)
-f_back_2D = f_back_fraction(E_SN, M_Pl_3D_GeV)
+f_DM_leak = f_back_fraction(E_SN, M_Pl_3D_GeV)
 pulsed_2D = pulsed_fraction(E_SN, M_Pl_3D_GeV)
 print(f"2D→3D (SN, E_SN = 1e44 J, M_Pl,3D = 1.22e19 GeV):")
 print(f"  τ_2D = {tau_2D:.3g} s = {tau_2D:.2f} s")
-print(f"  f_back fraction = {f_back_2D:.3g}  (continuous return during τ_2D)")
+print(f"  f_back fraction = {f_DM_leak:.3g}  (continuous return during τ_2D)")
 print(f"  pulsed fraction = {pulsed_2D:.10f}  (essentially 1.0)")
-print(f"  continuous + pulsed = {f_back_2D + pulsed_2D:.10f}  (should be 1.0)")
+print(f"  continuous + pulsed = {f_DM_leak + pulsed_2D:.10f}  (should be 1.0)")
 
-E_continuous_2D = f_back_2D * E_SN
+E_continuous_2D = f_DM_leak * E_SN
 print(f"  Continuous return: f_back × E_SN = {E_continuous_2D:.3g} J per SN")
-print(f"  Pulsed return: (1-f_back) × E_SN = {(1-f_back_2D)*E_SN:.3g} J per SN")
-print(f"  Ratio pulsed/continuous = {pulsed_2D/f_back_2D:.3g}")
+print(f"  Pulsed return: (1-f_back) × E_SN = {(1-f_DM_leak)*E_SN:.3g} J per SN")
+print(f"  Ratio pulsed/continuous = {pulsed_2D/f_DM_leak:.3g}")
 print(f"  → Pulsed DOMINATES by factor of 10⁴⁵")
 print(f"  → Observable: 2D universe DEATH return = ~100% × E_2D = 10⁴⁴ J (DM)")
 
 # 3D→4D: 4D event
 E_4D = 1.07e59  # J
 tau_4D = tau_M_alpha(E_4D, M_Pl_4D_GeV)
-f_back_4D = f_back_fraction(E_4D, M_Pl_4D_GeV)
+f_DE = f_back_fraction(E_4D, M_Pl_4D_GeV)
 pulsed_4D = pulsed_fraction(E_4D, M_Pl_4D_GeV)
 print(f"\n3D→4D (4D event, E_4D = 1.07e59 J, M_Pl,4D = 887 GeV):")
 print(f"  τ_4D = {tau_4D:.3g} s = {tau_4D/yr:.3g} yr (apparent, in 3+1D frame)")
-print(f"  f_back fraction = {f_back_4D:.3g}  (continuous return during τ_4D)")
+print(f"  f_back fraction = {f_DE:.3g}  (continuous return during τ_4D)")
 print(f"  pulsed fraction = {pulsed_4D:.10f}  (essentially 1.0)")
-print(f"  continuous + pulsed = {f_back_4D + pulsed_4D:.10f}  (should be 1.0)")
+print(f"  continuous + pulsed = {f_DE + pulsed_4D:.10f}  (should be 1.0)")
 
-E_continuous_4D = f_back_4D * E_4D
+E_continuous_4D = f_DE * E_4D
 print(f"  Continuous return: f_back × E_4D = {E_continuous_4D:.3g} J total over τ_4D")
 print(f"  Continuous rate: f_back / τ_4D = {E_continuous_4D/tau_4D:.3g} J/s")
 
 # DE density
-rho_DE_continuous = f_back_4D * epsilon * M_Pl_3D_GeV**4
+rho_DE_continuous = f_DE * epsilon * M_Pl_3D_GeV**4
 print(f"  ρ_DE (continuous) = f_back × ε × M_Pl,3D^4 = {rho_DE_continuous:.3g} GeV^4")
 print(f"  ρ_DE (observed)   = 2.4e-47 GeV^4")
 print(f"  Ratio: {rho_DE_continuous/2.4e-47:.3f} (~14% match)")

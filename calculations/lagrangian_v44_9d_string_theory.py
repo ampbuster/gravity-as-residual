@@ -202,7 +202,7 @@ Just like 2D universes are invisible at LHC (L108):
 
 String physics at 9D would have similar suppression:
   - String excitations have mass ~ M_string = 246 GeV
-  - But their coupling to 3+1D brane is f_back ~ 10^-85
+  - But their coupling to 3+1D brane is f_DE ~ 10^-85
   - Cross-section: f_back² x sigma_string ~ 10^-170
 
 This is INVISIBLE at LHC by ~180 orders of magnitude!

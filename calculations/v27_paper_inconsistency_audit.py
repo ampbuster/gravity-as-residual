@@ -37,8 +37,8 @@ INCONSISTENCIES FOUND:
    energy E_primordial. The growth factor G, lifetime τ_2D, and cumulative
    energy all depend on E_primordial, which is a free parameter.
 
-7. CONCEPTUAL: f_back = 10^-85 vs 32/68 split
-   f_back = 10^-85 (line 728) is for the cosmological constant, not the
+7. CONCEPTUAL: f_DE = 10^-85 vs 32/68 split
+   f_DE = 10^-85 (line 728) is for the cosmological constant, not the
    32/68 split (line 511, 529, 585). These are different concepts but
    are sometimes conflated in the paper's discussion.
 
@@ -174,10 +174,10 @@ def main():
     print()
 
     print("="*80)
-    print("INCONSISTENCY 7 (MINOR): f_back = 10^-85 vs 32/68 split")
+    print("INCONSISTENCY 7 (MINOR): f_DE = 10^-85 vs 32/68 split")
     print("="*80)
     print()
-    print("  f_back = 10^-85 (line 728) is the 'staying fraction' for the")
+    print("  f_DE = 10^-85 (line 728) is the 'staying fraction' for the")
     print("  COSMOLOGICAL CONSTANT (DE), bridging the 10^85 gap between the")
     print("  cascade's raw prediction and observation.")
     print()
@@ -232,7 +232,7 @@ def main():
     print()
     print("MINOR:")
     print("  4. τ_2D = 33 s vs α = 1.29 (rounding error)")
-    print("  7. f_back = 10^-85 vs 32/68 split (different concepts)")
+    print("  7. f_DE = 10^-85 vs 32/68 split (different concepts)")
     print()
     print("CONCEPTUAL:")
     print("  5. τ_2D applied uniformly to all events (primordial events are different)")

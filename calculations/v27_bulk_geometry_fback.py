@@ -1,7 +1,7 @@
 """
 v2.7.57: RESEARCH — Bulk-geometry derivation of f_back (3 directions)
 
-User request: try 3 research directions for deriving f_back ~ 10^-85:
+User request: try 3 research directions for deriving f_DE ~ 10^-85:
 1. Bulk-geometry calculations (AdS_5, RS2, brane-world)
 2. Warp factor / extra-dimension localization
 3. Combined 3D→2D × 4D→3D factors with non-trivial multiplication
@@ -89,7 +89,7 @@ for R_m in [1e-19, 1e-15, 1e-10, 1e-4, 1e-2, 1]:  # R in meters
     ratio = M_Pl_5_GeV / (M_Pl_3 / 1.602e-10)
     print(f"  R = 10^{np.log10(R_m):.0f} m: M_Pl,5 / M_Pl,3 = {ratio:.2e}")
 print()
-print("For f_back ~ 10^-85 from M_Pl,5 / M_Pl,4 ratio,")
+print("For f_DE ~ 10^-85 from M_Pl,5 / M_Pl,4 ratio,")
 print("need M_Pl,5 to be ~10^-21 of M_Pl,4 (very small).")
 print("This requires R ~ 10^-19 m, which is close to Planck length.")
 print()
@@ -104,7 +104,7 @@ for kpirc in [50, 87, 100, 150, 196, 200, 250, 300]:
     fb = np.exp(-kpirc)
     print(f"  kπr_c = {kpirc}: f_back = e^(-{kpirc}) = {fb:.2e}")
 print()
-print("kπr_c = 196 gives f_back = 10^-85! This is the warp factor value.")
+print("kπr_c = 196 gives f_DE = 10^-85! This is the warp factor value.")
 print("This means: in RS1 with kπr_c = 196, f_back = e^(-kπr_c) = 10^-85")
 print("But the hierarchy (10^38) requires kπr_c = 87.")
 print("These are INCONSISTENT unless we have non-standard geometry.")
@@ -272,7 +272,7 @@ print("="*70)
 print()
 print("Direction 1 (Bulk-geometry):")
 print("  - RS1 hierarchy: kπr_c = 87 gives ε = 10^-38 ✓")
-print("  - For f_back = 10^-85: would need kπr_c = 196 (different geometry)")
+print("  - For f_DE = 10^-85: would need kπr_c = 196 (different geometry)")
 print("  - Inconsistent with hierarchy requirement")
 print()
 print("Direction 2 (Warp factor / localization):")

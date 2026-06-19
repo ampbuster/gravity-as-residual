@@ -145,7 +145,7 @@ def main():
     print()
     print(f"  Potential issue 2: f_back value")
     print(f"    Paper says f_back ~ 1e-85 (lines 113, 297, 466, 670)")
-    print(f"    f_back = 1e-85 is consistent with rho_DE ~ 1e-123 M_Pl^4 (line 466)")
+    print(f"    f_DE = 1e-85 is consistent with rho_DE ~ 1e-123 M_Pl^4 (line 466)")
     print(f"    But: f_back is the 'staying fraction' that bridges 10^85 gap")
     print(f"    Check: 1e-38 * 1e-85 = 1e-123 ✓")
     print(f"    STATUS: consistent")

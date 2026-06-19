@@ -21,7 +21,7 @@ statistical mechanics in disguise.
 Application to the cascade:
 - Cascade's 2D universes = 1+1D objects with finite lifetime
 - Their "entropy" = number of microstates × k_B
-- The cascade's f_back ~ 10^-85 = microstate back-projection efficiency
+- The cascade's f_DE ~ 10^-85 = microstate back-projection efficiency
 
 Question: Can we model a cascade 2D universe as a Strominger-Vafa-like
 extremal black hole, and use microstate counting to derive its entropy
@@ -69,7 +69,7 @@ and p=3 (CGHS original / Strominger-Vafa).
 
 Test 3: Could Strominger-Vafa microstates give the cascade's f_back?
 
-The cascade's f_back ~ 10^-85 is the back-projection efficiency. This
+The cascade's f_DE ~ 10^-85 is the back-projection efficiency. This
 is a number, not a function of microstate count. Strominger-Vafa doesn't
 directly give this number; it's a SEPARATE input.
 
@@ -100,7 +100,7 @@ Conclusion:
 - Strominger-Vafa provides a microstate counting framework for BH entropy
 - The cascade's 2D universes are structurally similar to CGHS-like 2D BHs,
   which are within the Strominger-Vafa family
-- The cascade's f_back ~ 10^-85 is NOT derived from Strominger-Vafa
+- The cascade's f_DE ~ 10^-85 is NOT derived from Strominger-Vafa
 - The cascade's α = 1.29 is in the range of possible microstate scalings
   (S ~ M^1 to M^3 depending on brane configuration)
 
@@ -150,7 +150,7 @@ print("=" * 70)
 print("TEST 2: Could Strominger-Vafa microstates give the cascade's f_back?")
 print("=" * 70)
 print()
-print("Cascade f_back ~ 10^-85 = back-projection efficiency")
+print("Cascade f_DE ~ 10^-85 = back-projection efficiency")
 print()
 print("Strominger-Vafa microstates are for 5D BH. The cascade's 2D universe")
 print("back-projection is a 4D → 3+1D process. These are different objects.")

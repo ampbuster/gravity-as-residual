@@ -7,7 +7,7 @@ distinction. This script is the HONEST framing of the cascade's existing
 mechanism, integrating the user's insight correctly.
 
 CASCADE'S EXISTING FRAMEWORK (per the paper):
-  - f_back ~ 10^-85: staying fraction for LIVE 2D universe net gravity (small)
+  - f_DE ~ 10^-85: staying fraction for LIVE 2D universe net gravity (small)
   - 32%/68% split: 32% attractive projects up as DM, 68% projects up as DE
   - Cumulative 2D universe deaths: contribute 32% × E to 3+1D as DM
   - growth_factor G = 9.7e7: derived from 2D universe's FRW dynamics
@@ -58,7 +58,7 @@ Omega_Lambda = 0.6847
 rho_crit = 8.5e-10
 
 # Cascade's calibrated parameters (from paper)
-f_back = 1e-85         # staying fraction for LIVE 2D universe net gravity
+f_DE = 1e-85         # staying fraction for LIVE 2D universe net gravity
 f_attractive = 0.32    # 32% of 2D universe's energy is attractive (matter)
 G_growth_SN = 9.7e7    # 2D universe's growth factor (SN-scale events)
 
@@ -154,7 +154,7 @@ def main():
     print("         + 0.32 × G × Σ_deaths E_event")
     print()
     print("  where:")
-    print("    f_back ~ 10^-85  (LIVE 2D universe net gravity, small)")
+    print("    f_DE ~ 10^-85  (LIVE 2D universe net gravity, small)")
     print("    f_attractive = 0.32  (32% attractive, 68% repulsive)")
     print("    G = 9.7e7  (2D universe growth factor, derived from FRW)")
     print("    Σ_deaths E_event = sum over all 2D universe deaths")

@@ -164,7 +164,7 @@ S_CTP[φ_+, φ_-] = S_2D[φ_+] - S_2D[φ_-] + S_coupling[φ_+] - S_destruction[�
 4. **The RAR a_0 = 1.2e-10** — with Liouville, the energy deposit rate
    ∂E/∂t at the 2D brane's boundary gives a natural acceleration scale.
 
-5. **The f_back ~ 10^-85** — with Liouville, f_back is the 2-point function
+5. **The f_DE ~ 10^-85** — with Liouville, f_back is the 2-point function
    of V_α₀ on the Liouville sphere, which is calculable.
 
 ## What still needs to be done

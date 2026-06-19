@@ -305,7 +305,7 @@ print("="*72)
 
 # For a 2D universe at the tip, this needs rederivation.
 
-# But if we use the SN-calibrated f_back ~ 10^-85:
+# But if we use the SN-calibrated f_DE ~ 10^-85:
 F_BACK = 1e-85
 
 # The 2D universe at the tip has M_2D = M_Pl,2D = 3 TeV

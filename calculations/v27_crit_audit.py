@@ -36,7 +36,7 @@ audit = {
             "value": "10^-4 m",
             "purpose": "Dimensional transition threshold (DE derivation attempt)",
             "status": "REMOVED",
-            "replaced_by": "f_back ~ 10^-85 (different mechanism)",
+            "replaced_by": "f_DE ~ 10^-85 (different mechanism)",
             "honest": "Was a HIDDEN free parameter, inconsistent with Sun-neutrino constraint"
         },
     },

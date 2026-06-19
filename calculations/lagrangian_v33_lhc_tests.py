@@ -122,12 +122,12 @@ print(f"        = {sigma_2D_nb:.4f} nb = {sigma_2D_pb:.4f} pb")
 # But this is a NAIVE estimate; the actual cross section depends on
 # the 2D universe's structure and coupling
 
-# In SIDC, the 2D universe is created with probability f_back ~ 10^-85
+# In SIDC, the 2D universe is created with probability f_DE ~ 10^-85
 # (per event, the fraction of energy going into the 2D universe)
 # So the EFFECTIVE cross section is much smaller:
 # σ_eff ~ σ_2D × f_back² ~ 4.3 × 10^4 × (10^-85)² = ridiculously small
 
-print(f"\nWith f_back ~ 10^-85 (SIDC's back-projection):")
+print(f"\nWith f_DE ~ 10^-85 (SIDC's back-projection):")
 print(f"  σ_eff ~ σ × f_back² ~ {sigma_2D_nb * 1e-170:.3e} nb (essentially zero)")
 
 # So in SIDC, the 2D universe creation is SUPPRESSED by f_back
@@ -135,14 +135,14 @@ print(f"  σ_eff ~ σ × f_back² ~ {sigma_2D_nb * 1e-170:.3e} nb (essentially z
 
 print(f"""
 THE LORENZIAN ISSUE:
-  SIDC's 2D universe creation is suppressed by f_back ~ 10^-85.
+  SIDC's 2D universe creation is suppressed by f_DE ~ 10^-85.
   Even with σ ~ 1/M_Pl,2D² ~ 4 × 10^4 pb (huge),
   the EFFECTIVE cross section is f_back² × σ ~ 10^-180 pb.
 
   This is 180 orders of magnitude BELOW LHC sensitivity (~10^-15 pb).
 
   SIDC predicts: 2D universes are created ALL the time, but with
-  such a tiny energy fraction (f_back ~ 10^-85) that they are
+  such a tiny energy fraction (f_DE ~ 10^-85) that they are
   INVISIBLE to the LHC.
 """)
 
@@ -185,7 +185,7 @@ SIDC's 2D universe is hard to detect DIRECTLY, but INDIRECT tests exist:
 
 CONCLUSION:
   The LHC has NOT directly tested SIDC's 2D universe.
-  The 2D universe is suppressed by f_back ~ 10^-85.
+  The 2D universe is suppressed by f_DE ~ 10^-85.
   Indirect tests (DM, DE, galaxy rotation) are SIDC's main tests.
 """)
 

@@ -19,7 +19,7 @@ NEW PICTURE (v3.1):
 
 F_p(z) = projected_primordial_DM / total_projected_DM
 
-The key insight: f_back_4D ≈ 1 means ALL the 4D event's energy gets
+The key insight: f_DE ≈ 1 means ALL the 4D event's energy gets
 back-projected. f_back_SN ≈ 10^-85 means the SN contribution is
 suppressed by 85 orders of magnitude. So F_p(z) ≈ 1 naturally.
 
@@ -187,23 +187,23 @@ print("  But SIDC's whole point is that DM varies between galaxies based on")
 print("  their star formation history (DF2/DF4/AGC 114905: no DM; KKR 25: DM).")
 print("  F_p = 1 cannot explain local DM variation.")
 print()
-print("ROOT CAUSE: §3.67 'f_back_4D → 1' is overloading the variable.")
+print("ROOT CAUSE: §3.67 'f_DE → 1' is overloading the variable.")
 print("  - f_back_SN (depth +26.93): fraction of 2D universe energy that")
 print("    back-projects to 3+1D as DM (~10^-85)")
-print("  - f_back_4D (depth +53.8): the 4D event CREATES our 3+1D universe")
+print("  - f_DE (depth +53.8): the 4D event CREATES our 3+1D universe")
 print("    f_back = 1 means 'fully projects to 3+1D' (by definition,")
 print("    since our universe IS the 4D event's projection).")
-print("  These are NOT the same quantity. Comparing f_back_4D = 1 to")
+print("  These are NOT the same quantity. Comparing f_DE = 1 to")
 print("  f_back_SN = 10^-85 is comparing apples to oranges.")
 print()
-print("Closed loop formula f_back = 10^-85 × (E/E_SN)^(1/(2α))")
-print("extrapolates to f_back_4D ~ 10^-75 for E_4D = 10^69 J.")
+print("Closed loop formula f_DE = 10^-85 × (E/E_SN)^(1/(2α))")
+print("extrapolates to f_DE ~ 10^-75 for E_4D = 10^69 J.")
 print("But this formula may not apply to the 4D event (qualitatively")
 print("different — it creates a 3+1D universe, not a 2D universe).")
 print()
 print("INTERNAL INCONSISTENCY in paper (L137 NEW):")
-print("  §3.67 says f_back_4D → 1 (L114)")
-print("  Closed loop formula gives f_back_4D ~ 10^-75")
+print("  §3.67 says f_DE → 1 (L114)")
+print("  Closed loop formula gives f_DE ~ 10^-75")
 print("  These cannot both be right.")
 print()
 print("NET RESULT: F_p(z) CANNOT be derived from the v3.1 framing as")
@@ -212,7 +212,7 @@ print("until the 4D event's effective DM contribution is properly derived.")
 print()
 print("L100, L35 remain OPEN. L34 remains CLOSED (v2.7.52).")
 print()
-print("NEW LIMITATION L137 (June 18 2026): §3.67 f_back_4D = 1 is")
+print("NEW LIMITATION L137 (June 18 2026): §3.67 f_DE = 1 is")
 print("  INCONSISTENT with the closed loop formula. The 'fully")
 print("  back-projected substrate' claim needs a clearer definition")
 print("  of what 'f_back' means at the 4D-event level.")

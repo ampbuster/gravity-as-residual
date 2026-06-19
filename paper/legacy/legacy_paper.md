@@ -3071,7 +3071,7 @@ related to time-compression / time-dilation between dimensions.
 - f_back(3+1D→2D) = time-compression from 3+1D to 2D
 
 **Method**: Trial and error. Try 10+ different time-dilation /
-time-compression ratios and see if any give SIDC's f_back ~ 10^-85.
+time-compression ratios and see if any give SIDC's f_DE ~ 10^-85.
 
 **Trials performed**:
 
@@ -3094,7 +3094,7 @@ time-compression ratios and see if any give SIDC's f_back ~ 10^-85.
 - Product: 1.29 × 10^-95 (10 orders off from 10^-85)
 
 **Honest finding**: After 10+ trials, NONE of the simple time-dilation
-/ time-compression ratios give SIDC's f_back ~ 10^-85.
+/ time-compression ratios give SIDC's f_DE ~ 10^-85.
 
 **The user's hypothesis is interesting but NOT directly verified**:
 - The simple ratios explored are 10-67 orders of magnitude off
@@ -3148,11 +3148,11 @@ See `calculations/v27_fback_research.py` for the full 10 trials.
 **3.47.1 Three research directions tried (v2.7.57).**
 
 Following the user's request, three research directions were explored
-to derive f_back ~ 10^-85 from first principles:
+to derive f_DE ~ 10^-85 from first principles:
 
 **Direction 1: Bulk-geometry calculations (AdS_5, RS2, brane-world)**
 - RS1 hierarchy: e^(kπr_c) = 10^38 requires kπr_c = 87
-- For f_back = 10^-85, would need kπr_c = 196 (different geometry)
+- For f_DE = 10^-85, would need kπr_c = 196 (different geometry)
 - INCONSISTENT with hierarchy requirement
 - ADD models don't give 10^-85 for natural R values
 
@@ -3219,7 +3219,7 @@ This formula has **NO free parameters**! All quantities are:
 The 1/(2α) is derived from α=1.29, which is itself derived from the
 SN 33s lifetime calibration.
 
-SIDC's f_back ~ 10^-85 is no longer just a "calibrated
+SIDC's f_DE ~ 10^-85 is no longer just a "calibrated
 parameter" — it's derivable from a closed-form formula.
 
 **Caveat (honest assessment)**:
@@ -3233,7 +3233,7 @@ It's a power that happens to give the right answer. The match
 within 0.1 orders is REMARKABLE but might be coincidental.
 
 **L52 RESOLVED (v2.7.58)**: f_back is no longer UNSPECIFIED.
-The formula above gives f_back = 10^-85 to within 0.1 orders.
+The formula above gives f_DE = 10^-85 to within 0.1 orders.
 L52 is now CLOSED (was REVISED twice).
 
 **L55 NEW (v2.7.58)**: 1/(2α) gives the correct f_back. This
@@ -3260,7 +3260,7 @@ identified yet.
 - A_event = 1 (revised v2.7.54)
 - ε = 10^-38 (still calibrated from gravity)
 - z_half = 3 (still calibrated)
-- **f_back ~ 10^-85 (NOW DERIVED from formula above!)** ← L52 RESOLVED
+- **f_DE ~ 10^-85 (NOW DERIVED from formula above!)** ← L52 RESOLVED
 - α = 1.29 (calibrated from SN 33s, L37 still open)
 
 ---

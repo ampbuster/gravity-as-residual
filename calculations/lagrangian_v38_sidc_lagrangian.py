@@ -253,7 +253,7 @@ The lifetime is a function of the 3+1D event energy E_3D.
 The CLOSED LOOP gives f_back:
   f_back = g² × Z_2D × (loop integral)
   
-  For SN: f_back = 10^-85
+  For SN: f_DE = 10^-85
   This is the back-projection efficiency of the 2D universe to 3+1D.
 
 When the 2D universe "dies" (at τ = τ_2D), its energy returns to 3+1D
@@ -350,7 +350,7 @@ CLOSED LOOP (the consistency condition):
          = (1/g_2D)²
 
   Where Z_2D(τ_2D) is the 2D universe's partition function.
-  This gives f_back ~ 10^-85 for SN.
+  This gives f_DE ~ 10^-85 for SN.
 
 ═══════════════════════════════════════════════════════════════════
 """
@@ -407,7 +407,7 @@ print(f"  Expected: 33 s ✓" if 25 < tau_2D < 40 else f"  Expected: 33 s (got {
 # Check f_back
 # f_back = (t_Pl,3/τ_4D) × (τ_SN/τ_universe) × (E_4D/E_SN)^(1/(2α))
 # For SN: E_4D = 10^62 J, E_SN = 10^44 J, τ_SN = 33 s, τ_universe = 4.35e17 s, τ_4D = ?
-# We don't know τ_4D directly, but for f_back ~ 10^-85:
+# We don't know τ_4D directly, but for f_DE ~ 10^-85:
 # log(f_back) = log(t_Pl,3/τ_4D) + log(τ_SN/τ_universe) + (1/(2α)) × log(E_4D/E_SN)
 # -196.5 = log(5.4e-44/τ_4D) + log(33/4.35e17) + (1/2.578) × log(10^62/10^44)
 # -196.5 = log(5.4e-44/τ_4D) + (-39.2) + 0.388 × 18
@@ -420,7 +420,7 @@ print(f"  Expected: 33 s ✓" if 25 < tau_2D < 40 else f"  Expected: 33 s (got {
 # Hmm, this gives τ_4D ~ 10^121 s, which is much larger than the age of the universe
 # But the 4D event is supposed to be eternal from our frame, so τ_4D should be infinite
 
-# Actually, f_back ~ 10^-85 is the closed loop value
+# Actually, f_DE ~ 10^-85 is the closed loop value
 # The closed loop formula is exact in SIDC
 
 log_t_Pl_3 = np.log10(5.4e-44)
@@ -469,7 +469,7 @@ S_SIDC = S_4D_event + S_3+1D_brane + Σ_events S_2D_universe + S_projection
 The KEY SIDC features are:
 1. The 2D universe action (Liouville + Ising + SYK + boundary)
 2. The time dilation α = 1.289 in τ_2D = (E_3D/E_Pl,3)^α × t_Pl,3
-3. The closed loop f_back ~ 10^-85 from boundary entropy
+3. The closed loop f_DE ~ 10^-85 from boundary entropy
 4. The 2D Planck as the floor (M_Pl,2D = 3 TeV)
 5. The 4D event as eternal substrate (inception-style)
 

@@ -234,8 +234,8 @@ $$f_{\rm back}(N \to N-1) = \left(\frac{M_{\rm Pl,N}}{E_{\rm event}}\right)^\alp
 | 4D bulk (parent) | 4×10²³ GeV | DERIVED (α-weighted GM, v3.3) | 5×10⁷⁹ J (4D event, universe-scale) | 1.51×10³⁴ yr (DE-calibrated) | 1.2×10⁻⁸⁵/s |
 
 **Closed-loop formula at every transition:**
-- For 2D→3D: M_Pl,3D = 1.22×10¹⁹ GeV, E_SN = 10⁴⁴ J, gives f_back_2D = 1.6×10⁻⁴⁵/s, τ_2D = 33s ✓
-- For 3D→4D: M_Pl,4D = 4×10²³ GeV, E_4D = 5×10⁷⁹ J, gives f_back_4D = 1.2×10⁻⁸⁵/s, τ_4D = 1.51×10³⁴ yr ✓
+- For 2D→3D: M_Pl,3D = 1.22×10¹⁹ GeV, E_SN = 10⁴⁴ J, gives f_DM_leak = 1.6×10⁻⁴⁵/s, τ_2D = 33s ✓
+- For 3D→4D: M_Pl,4D = 4×10²³ GeV, E_4D = 5×10⁷⁹ J, gives f_DE = 1.2×10⁻⁸⁵/s, τ_4D = 1.51×10³⁴ yr ✓
 - The M^α law is the SAME formula at every level
 
 **DE matching (3D→4D):**
@@ -250,10 +250,10 @@ $$f_{\rm back}(N \to N-1) = \left(\frac{M_{\rm Pl,N}}{E_{\rm event}}\right)^\alp
 - 3+1D universe LIFETIME: ~10³⁰ yr (in 3+1D's own frame, M^α with M_Pl,4D = 4×10²³ GeV)
 
 **What changed in v3.1.2-final (vs v3.1.1-final):**
-- v3.1.1-final: f_back = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D leakage (L141 RESOLVED)
+- v3.1.1-final: f_DE = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D leakage (L141 RESOLVED)
 - v3.1.2-final: f_back is universal in FORM, VALUES differ because M_Pl,N and E_event differ
-  - 2D→3D: f_back_2D = 1.6×10⁻⁴⁵/s (during 33s, integrated = 5.4×10⁻⁴⁴ of E_2D, negligible)
-  - 3D→4D: f_back_4D = 1.2×10⁻⁸⁵/s (during 1.51×10³⁴ yr apparent, integrated = DE)
+  - 2D→3D: f_DM_leak = 1.6×10⁻⁴⁵/s (during 33s, integrated = 5.4×10⁻⁴⁴ of E_2D, negligible)
+  - 3D→4D: f_DE = 1.2×10⁻⁸⁵/s (during 1.51×10³⁴ yr apparent, integrated = DE)
   - 100% pulsed return at universe death (universal, no α dependence)
 
 **KEY INSIGHT (v3.1.2-final, AUDIT-CLARIFIED): f_back is CONTINUOUS, pulsed is 100% at death**
@@ -262,22 +262,22 @@ The f_back formula gives the **CONTINUOUS back-flow FRACTION** over the lifetime
 - continuous (f_back) + pulsed (1 - f_back) = 1.0 (total return)
 
 This is what makes DE and DM look so different despite the SAME underlying mechanism:
-- **2D→3D (SN)**: τ_2D = 30s (SHORT). Pulsed return (100% at death) **dominates by 10⁴⁵×** over continuous. The continuous f_back_2D = 1.83×10⁻⁴⁵ is OBSERVATIONALLY NEGLIGIBLE. What we see: **DM = pulsed** (clumpy, matter-like).
-- **3D→4D**: τ_4D = 1.51×10³⁴ yr (LONG). Pulsed return is in the future. The continuous f_back_4D = 1.22×10⁻⁸⁵ is what we see NOW. What we observe: **DE = continuous** (smooth, vacuum-like).
+- **2D→3D (SN)**: τ_2D = 30s (SHORT). Pulsed return (100% at death) **dominates by 10⁴⁵×** over continuous. The continuous f_DM_leak = 1.83×10⁻⁴⁵ is OBSERVATIONALLY NEGLIGIBLE. What we see: **DM = pulsed** (clumpy, matter-like).
+- **3D→4D**: τ_4D = 1.51×10³⁴ yr (LONG). Pulsed return is in the future. The continuous f_DE = 1.22×10⁻⁸⁵ is what we see NOW. What we observe: **DE = continuous** (smooth, vacuum-like).
 
 **This is the unification in §3.70**: same closed-loop formula at every level, but the OBSERVABLE consequence differs by level because of the TIMESCALE:
 - Short lifetime → pulsed dominates → clumpy DM
 - Long lifetime → continuous dominates → smooth DE
 
 **Numerical evidence** (v31_fback_both_levels.py):
-- 2D→3D: f_back_2D = 1.83×10⁻⁴⁵ (continuous fraction)
+- 2D→3D: f_DM_leak = 1.83×10⁻⁴⁵ (continuous fraction)
   - Continuous return: 0.18 J per SN over 30s
   - Pulsed return: 10⁴⁴ J per SN at death (DM)
   - Ratio: pulsed/continuous = 5.5×10⁴⁴
-- 3D→4D: f_back_4D = 1.22×10⁻⁸⁵ (continuous fraction)
+- 3D→4D: f_DE = 1.22×10⁻⁸⁵ (continuous fraction)
   - Continuous return: 1.3×10⁻²⁶ J over τ_4D
   - Pulsed return: 5×10⁷⁹ J at heat death (future, v3.3 universe-scale)
-  - DE: ρ_DE = f_back_4D × ε × M_Pl,3D⁴ = 2.7×10⁻⁴⁷ GeV⁴ (matches observed 2.4×10⁻⁴⁷ within 14%)
+  - DE: ρ_DE = f_DE × ε × M_Pl,3D⁴ = 2.7×10⁻⁴⁷ GeV⁴ (matches observed 2.4×10⁻⁴⁷ within 14%)
 
 **Evolution:**
 - v10: f_back = (t_Pl/τ_4D) × (τ_SN/τ_universe) × (E_4D/E_SN)^(1/(2α)) — REJECTED (required unjustified τ_4D = 1e28 yr)
@@ -296,7 +296,7 @@ $$\tau_{2D} = \left(\frac{E}{E_{\rm Pl}}\right)^{\alpha} \times t_{\rm Pl}, \qua
 - N=12 = 12 SM Weyl fermions (dim(SU(3)×SU(2)×U(1)) = 8+3+1 = 12)
 - This is a 2D universe LIFETIME formula, applied at every dimensional transition
 - The 2D-3D story is: 2D universe dies, 100% energy returns to 3+1D as DM
-- WHILE-ALIVE f_back is NEGLIGIBLE at 2D-3D level (33s too short, f_back_2D = 1.6×10⁻⁴⁵/s × 33s = 5.4×10⁻⁴⁴ of E_2D)
+- WHILE-ALIVE f_back is NEGLIGIBLE at 2D-3D level (33s too short, f_DM_leak = 1.6×10⁻⁴⁵/s × 33s = 5.4×10⁻⁴⁴ of E_2D)
 
 **α's role has EVOLVED:**
 - v3.1.1-final: α governs 2D-3D lifetimes only; γ (cone picture) governs 3D-4D closed loop
@@ -391,7 +391,7 @@ python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 |------------|--------|----------------------|
 | L26: μ first-principles | OPEN | 2D cosmological constant derivation, needs 2D CFT expert |
 | L43: α = 1.289 first-principles | OPEN | Multiple formulas match (1+1/√N, 1+ln(q²/N)) but NONE are derived from SYK |
-| L138 (v3.3): f_back = 10⁻⁸⁵ calibration | PARTIAL | Formula gives FORM, value calibrated |
+| L138 (v3.3): f_DE = 10⁻⁸⁵ calibration | PARTIAL | Formula gives FORM, value calibrated |
 | L139 (v3.3): closed loop universal | RESOLVED | f_back universal at 2D→3D and 3D→4D with different M_Pl,N |
 | L140: ε = 10⁻³⁸ observed | OPEN | Hierarchy problem |
 | L141 (v3.3): f_back universal | RESOLVED → REINFORCED | |
@@ -433,7 +433,7 @@ python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 | L42: Why m_{3+1D} is its value | OPEN | Derive induced 3+1D Planck mass from bulk geometry |
 | L43: Lagrangian skeleton → full L | OPEN, NARROWED | α for 2D-3D lifetimes only, not closed loop |
 | L100: F_p(z) Hill function | OPEN | Derive primordial vs cumulative DM ratio |
-| L138 (REVISED v3.1.2) | f_back = 10⁻⁸⁵ is calibration, not derived; formula gives FORM not value | PARTIALLY RESOLVED (Scenario X) |
+| L138 (REVISED v3.1.2) | f_DE = 10⁻⁸⁵ is calibration, not derived; formula gives FORM not value | PARTIALLY RESOLVED (Scenario X) |
 | L139 (REVISED v3.1.2) | Closed loop: f_back universal at 2D→3D AND 3D→4D with DIFFERENT M_Pl | RESOLVED (Scenario X) |
 | L140 | ε = 10⁻³⁸ is observed, not derived | OPEN (hierarchy problem) |
 | L141 (REVISED v3.1.2) | f_back = (M_Pl,N/E_event)^α universal with different M_Pl,N | RESOLVED → REINFORCED |
@@ -728,11 +728,11 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 - **Scenario B** (M_Pl,4 = 10¹⁹ GeV, E_4D = 10⁷⁵ J): REJECTED, M_Pl,4 = M_Pl,3 violates brane-world principle
 
 ### Why the closed loop is universal (v3.1.2-final)
-- v3.1.1-final: f_back = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D leakage (L141 RESOLVED)
+- v3.1.1-final: f_DE = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D leakage (L141 RESOLVED)
 - v3.1.2-final: f_back = (M_Pl,N/E_event)^α is universal at EVERY dimensional transition
   - Same FORM, different M_Pl,N and E_event at each level
-  - 2D→3D: f_back_2D = 1.6×10⁻⁴⁵/s
-  - 3D→4D: f_back_4D = 1.2×10⁻⁸⁵/s
+  - 2D→3D: f_DM_leak = 1.6×10⁻⁴⁵/s
+  - 3D→4D: f_DE = 1.2×10⁻⁸⁵/s
 - 100% pulsed return at universe death is also universal (no α dependence)
 - 4π at 3D→4D continuous leakage: verified ~1.7%, specific to that transition (NOT universal)
 
@@ -767,14 +767,14 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 
 ### f_back variable (v3.1.2-final)
 - f_back = (M_Pl,N / E_event)^α — universal closed-loop formula at every dimensional transition
-- f_back_2D (2D→3D) = (M_Pl,3D / E_SN)^α = 1.6×10⁻⁴⁵/s (during 33s, integrated = 5.4×10⁻⁴⁴ of E_2D, negligible)
-- f_back_4D (3D→4D) = (M_Pl,4D / E_4D)^α = 1.2×10⁻⁸⁵/s (during 1.51×10³⁴ yr, integrated = DE)
-- f_back_death = 1 — 100% energy return at universe death (universal, no α dependence)
+- f_DM_leak (2D→3D) = (M_Pl,3D / E_SN)^α = 1.6×10⁻⁴⁵/s (during 33s, integrated = 5.4×10⁻⁴⁴ of E_2D, negligible)
+- f_DE (3D→4D) = (M_Pl,4D / E_4D)^α = 1.2×10⁻⁸⁵/s (during 1.51×10³⁴ yr, integrated = DE)
+- f_DM_death = 1 — 100% energy return at universe death (universal, no α dependence)
 - DIFFERENT M_Pl at each level: 2D = 3 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 4×10²³ GeV
 
 ### Closed loop (v3.1.2-final)
-- Forward (4D → 3+1D): f_back = 1.2×10⁻⁸⁵/s (projection efficiency with 4π)
-- Backward (3+1D → 4D): f_back = 1.2×10⁻⁸⁵/s (leakage rate)
+- Forward (4D → 3+1D): f_DE = 1.2×10⁻⁸⁵/s (projection efficiency with 4π)
+- Backward (3+1D → 4D): f_DE = 1.2×10⁻⁸⁵/s (leakage rate)
 - DE = f_back × ε × M_Pl,3D⁴ (uses OUR universe's Planck, MEASURED)
 - γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2) (cone picture time dilation)
 - 4π at 3D→4D continuous leakage: verified ~1.7%, SPECIFIC to that transition
@@ -937,7 +937,7 @@ Build: 354 pages (no change), commit 105a989.
 
 Other findings (noted, not fixed):
 - τ_2D for SN: 29.6 s (E_SN = 10⁴⁴ J) vs paper's 33 s (10% off, paper's "11% match" is roughly right)
-- f_back = 1.2×10⁻⁸⁵ /s notation: technically wrong, this is dimensionless fraction not rate. Kept for backward compat.
+- f_DE = 1.2×10⁻⁸⁵ /s notation: technically wrong, this is dimensionless fraction not rate. Kept for backward compat.
 
 Files:
 - calculations/v31_audit_v312final.py (NEW, full audit)
@@ -965,11 +965,11 @@ Build: 354 pages, commit f4328c8.
 
 ## 11. Things to NOT re-do
 
-- **Don't claim f_back = 10⁻⁸⁵ is a derived physical fraction.** It's a calibration (= ρ_DE / (ε × M_Pl⁴)). See L138.
+- **Don't claim f_DE = 10⁻⁸⁵ is a derived physical fraction.** It's a calibration (= ρ_DE / (ε × M_Pl⁴)). See L138.
 - **Don't claim the closed loop closes numerically with v10 formula.** v10's formula was tuned (τ_4D = 1e28 yr, outside cone range). Use v3.1.2-final formula: f_back = (M_Pl,N/E_event)^α universal at every level. See L139.
 - **Don't claim ε is derived.** It's observed (hierarchy problem). SIDC provides a geometric story but not a derivation. See L140.
 - **Don't claim f_back is the SAME VALUE at every level.** It's universal in FORM (M_Pl/E)^α, but VALUES differ because M_Pl,N and E_event differ. 2D→3D = 1.83×10⁻⁴⁵ (audit), 3D→4D = 1.22×10⁻⁸⁵. See L141.
-- **Don't confuse f_back (continuous) with pulsed return.** f_back formula gives CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). 2D→3D: pulsed dominates by 10⁴⁵× (DM is pulsed, not f_back_2D). 3D→4D: continuous dominates NOW (DE is f_back_4D continuous, pulsed is in the future). See v31_fback_both_levels.py.
+- **Don't confuse f_back (continuous) with pulsed return.** f_back formula gives CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). 2D→3D: pulsed dominates by 10⁴⁵× (DM is pulsed, not f_DM_leak). 3D→4D: continuous dominates NOW (DE is f_DE continuous, pulsed is in the future). See v31_fback_both_levels.py.
 - **Don't conflate 13.8 Gyr with universe LIFETIME.** 13.8 Gyr is the universe's AGE (observed, the only firm value). LIFETIME is UNKNOWN — depends on N_sub (free parameter). User caught: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each". See L145.
 - **Don't claim N_sub = 300 as if it were derived.** N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). E_4D = N_sub × E_sub is fixed, but the partition is undetermined. See L144.
 - **Don't ignore frame of reference.** M^α law gives APPARENT durations in LOWER-D frame, not proper time in higher-D frame. 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time (~10⁻²⁰ s) via γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2).

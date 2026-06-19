@@ -281,7 +281,7 @@ print(f"  In eV: {M_2D_SN/1.6e-19:.3e} eV")
 # And E_2D = M_2D (intrinsic 2D mass) × c²
 
 # For SN:
-f_back = 1e-85
+f_DE = 1e-85
 M_2D_3PLUS1_SN = M_2D_SN * f_back
 print(f"\nWith f_back = {f_back:.0e}:")
 print(f"  M_2D,3+1D(SN) = {M_2D_3PLUS1_SN:.3e} J")
@@ -314,7 +314,7 @@ Key insights from v8:
 3. FROM SN CALIBRATION:
    - J (2D energy scale) = ℏ/τ_SN ~ 2e-50 J ~ 10^-31 eV
    - M_2D(SN) = N × J ~ 12 × 10^-31 eV ~ 10^-30 eV
-   - With f_back ~ 10^-85: M_2D,3+1D ~ 10^-115 eV (!!!)
+   - With f_DE ~ 10^-85: M_2D,3+1D ~ 10^-115 eV (!!!)
 
 4. THE 2D UNIVERSE MASS in 3+1D is incredibly tiny
    - ~10^-115 eV per event
@@ -325,7 +325,7 @@ Key insights from v8:
 Actually I confused myself. Let me redo:
 - E_2D = (event energy) = 10^44 J for SN (the 2D universe's total energy)
 - M_2D (intrinsic 2D mass) = E_2D/c² = 10^44/c² kg = 10^27 kg = 0.5 M_sun
-- f_back = 10^-85 = probability that 2D universe energy returns as DM
+- f_DE = 10^-85 = probability that 2D universe energy returns as DM
 - M_2D,3+1D (effective DM mass per event) = M_2D × f_back = 0.5 × 10^-85 M_sun
 
 Per SN event: ~10^-85 M_sun of dark matter created.
@@ -383,7 +383,7 @@ The structure:
 
 So M_2D,3+1D (effective DM mass in 3+1D) = M_2D × f_back
 
-For SN calibration: τ_SN = 33 s, f_back = 10^-85
+For SN calibration: τ_SN = 33 s, f_DE = 10^-85
 Need to determine M_2D and f_back independently.
 
 If the Lagrangian gives M_2D = N × J (SYK prediction)
@@ -411,7 +411,7 @@ In M_sun: 5e-186 M_sun
 
 That's still absurdly small.
 
-Hmm, the issue is that f_back = 10^-85 is REALLY small.
+Hmm, the issue is that f_DE = 10^-85 is REALLY small.
 For the cumulative DM to add up to 10^12 M_sun per galaxy:
 - Need ~10^12 / 10^-186 M_sun per event = 10^198 events
 - That's WAY more than the number of events in the universe (~10^80)
@@ -422,7 +422,7 @@ WAIT. I think the issue is that f_back is NOT the probability of energy return;
 it's the RATIO of 2D universe mass to 4D event energy.
 
 Let me re-read SIDC's f_back:
-- f_back = 10^-85 = (energy returned as DM) / (event energy)
+- f_DE = 10^-85 = (energy returned as DM) / (event energy)
 - For SN: E_event = 10^44 J → E_returned = 10^-41 J per event
 - In kg: 10^-41 / c² = 10^-58 kg per event
 - In M_sun: 5e-89 M_sun per event

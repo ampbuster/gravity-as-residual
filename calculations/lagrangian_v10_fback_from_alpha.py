@@ -205,7 +205,7 @@ CLOSED LOOP SUMMARY:
   - Forward: 4D → 3+1D → 2D (energy scaling with α)
   - Backward: 2D → 3+1D → 4D (back-action with 1/(2α))
   - Round-trip: 1/2 (closed-loop constraint, satisfied multiple ways)
-  - Numerical: f_back = 10^-85 matches observation to 0.06 orders
+  - Numerical: f_DE = 10^-85 matches observation to 0.06 orders
 """)
 
 print("="*72)

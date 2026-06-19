@@ -8,7 +8,7 @@ Cascade rule (v2.7.5+):
   M_dyn = M_dyn_primordial * F_p(z) + M_dyn_recent * (1-F_p(z))
 Where:
   M_dyn_primordial ~ Ω_DM/Ω_b * M_b (primordial DM halo, ~5x M_b)
-  M_dyn_recent ~ M_b (cumulative SN deaths, with f_back ~ 10^-85)
+  M_dyn_recent ~ M_b (cumulative SN deaths, with f_DE ~ 10^-85)
   F_p(z) = z^n / (z^n + z_half^n), Hill function (n=2, z_half=3)
 """
 
@@ -18,7 +18,7 @@ import numpy as np
 # Constants
 c = 2.998e8  # m/s
 M_sun = 1.989e30  # kg
-f_back = 1e-85  # cascade calibrated from SN 33s lifetime
+f_DE = 1e-85  # cascade calibrated from SN 33s lifetime
 E_CCSN = 1e44  # J per core-collapse SN
 yr = 3.156e7  # s
 M_per_SN = 100  # M_sun of star formation per SN
@@ -97,13 +97,13 @@ print(f"Number of galaxies: {len(results)}")
 print(f"Mean M_dyn/M_b: {np.mean(ratios):.2f}")
 print(f"Range: {np.min(ratios):.2f} to {np.max(ratios):.2f}")
 print(f"Primordial fraction dominates at all z>3 (F_p > 0.5)")
-print(f"Recent (SN-driven) component is negligible (f_back ~ 10^-85)")
+print(f"Recent (SN-driven) component is negligible (f_DE ~ 10^-85)")
 
 # Save
 output = {
     'description': 'Cascade M_dyn prediction for JWST massive quiescent galaxies at z>4 (v2 with F_p(z))',
     'method': 'M_dyn = F_p(z)*M_dyn_primordial + F_s(z)*M_dyn_recent; F_p(z) = z^n/(z^n+z_half^n), n=2, z_half=3',
-    'caveat': 'M_dyn is hard to measure for z>4 galaxies. Predictions assume primordial 2D universe deaths scale with M_b as in standard ΛCDM. The recent (SN-driven) component is negligible due to f_back~10^-85.',
+    'caveat': 'M_dyn is hard to measure for z>4 galaxies. Predictions assume primordial 2D universe deaths scale with M_b as in standard ΛCDM. The recent (SN-driven) component is negligible due to f_DE ~ 10^-85.',
     'galaxies': results,
     'summary': {
         'N_galaxies': len(results),

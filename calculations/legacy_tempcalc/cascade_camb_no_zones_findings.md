@@ -116,7 +116,7 @@ The cascade's H(z) framework (§2.6.1, §2.6.2, future §2.6.3) should be:
 
 1. **The specific 4-zone structure** (zone boundaries, boost/drag magnitudes)
 2. **The 2D universe mass in 3+1D** (50-orders tension)
-3. **f_back ~ 10^-85** (a probability, not a 2D CFT quantity)
+3. **f_DE ~ 10^-85** (a probability, not a 2D CFT quantity)
 4. **g_+ ~ 1.2e-10 m/s²** (it's c × H_0 / 2π, not from cascade)
 
 ## File locations

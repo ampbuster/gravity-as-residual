@@ -226,7 +226,7 @@ print()
 
 # In RS, the back-action of the bulk on the brane is:
 # f_back ~ e^(-kπr_c) × (some factor)
-# For f_back = 10^-85, we need 2kπr_c = 196
+# For f_DE = 10^-85, we need 2kπr_c = 196
 
 # Now, if kπr_c is related to α:
 # kπr_c = 87 (gauge hierarchy, ln(10^38))
@@ -249,7 +249,7 @@ print()
 # f_back = 1/2 × e^(-kπr_c) ?
 
 # If f_back = (1/2) × e^(-2kπr_c) for some kπr_c:
-# For f_back = 10^-85: 1/2 × e^(-2kπr_c) = 10^-85
+# For f_DE = 10^-85: 1/2 × e^(-2kπr_c) = 10^-85
 # e^(-2kπr_c) = 2 × 10^-85
 # 2kπr_c = 85 × ln(10) - ln(2) = 195.6
 # kπr_c = 97.8
@@ -271,7 +271,7 @@ print()
 # This is getting too complicated
 
 print("  RS: e^(-kπr_c) for hierarchy")
-print("  For f_back = 10^-85, need 2kπr_c = 196")
+print("  For f_DE = 10^-85, need 2kπr_c = 196")
 print("  The '1/2' might come from Z₂ orbifold symmetry,")
 print("  but the 1/(2α) EXPONENT isn't directly from the Z₂.")
 print()
@@ -303,7 +303,7 @@ print()
 # V_3+1D ~ (10^26 m)^3 in SI units
 # The ratio is way smaller than 1
 
-# For the cascade, f_back = 10^-85, so the ratio would be:
+# For the cascade, f_DE = 10^-85, so the ratio would be:
 # (V_CY / V_3+1D)^(1/(2α)) = 10^-85
 # V_CY / V_3+1D = 10^(-85 × 2α) = 10^(-85 × 2.58) = 10^-219
 # This is way smaller than realistic V_CY
@@ -322,7 +322,7 @@ print()
 
 print("  CY with h^{1,1} = 2: volume form V = (1/2) κ t^a t^b t^c")
 print("  The '1/2' is intrinsic to the volume form")
-print("  But the cascade's f_back = 10^-85 doesn't come directly")
+print("  But the cascade's f_DE = 10^-85 doesn't come directly")
 print("  from the CY volume alone.")
 print()
 print("  HONEST: CY h^{1,1} = 2 gives a '1/2' in volume form,")
@@ -354,7 +354,7 @@ print("     relate cleanly to α = 1.29")
 print()
 print("4. CY with h^{1,1} = 2:")
 print("   - Gives 1/2 in volume form (intrinsic)")
-print("   - But f_back = 10^-85 doesn't come from CY alone")
+print("   - But f_DE = 10^-85 doesn't come from CY alone")
 print()
 print("FINAL HONEST FINDING:")
 print()
@@ -409,7 +409,7 @@ output = {
         },
         {
             'name': 'CY with h^{1,1} = 2',
-            'result': 'Volume form V = (1/2) κ t^a t^b t^c has intrinsic 1/2. But f_back = 10^-85 doesn\'t come from CY alone.',
+            'result': 'Volume form V = (1/2) κ t^a t^b t^c has intrinsic 1/2. But f_DE = 10^-85 doesn\'t come from CY alone.',
             'verdict': 'No derivation, but 1/2 is intrinsic',
         },
     ],

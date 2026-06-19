@@ -12,7 +12,7 @@ floor), with E_4D = 10^59 J (galaxy-scale 4D event).
 SCENARIO X (ADOPTED):
   M_Pl,4D = 887 GeV (4D BULK Planck, brane-world)
   E_4D = 1.07e59 J (galaxy-scale 4D event, ~10^9 M_sun)
-  f_back_4D = 1.2e-85
+  f_DE = 1.2e-85
   tau_4D = 1.4e34 yr
 
 KEY DIFFERENCE FROM SCENARIO B:
@@ -45,7 +45,7 @@ E_Pl_4D_J = M_Pl_4D_GeV * 1.602e-10
 # 2D->3D
 E_SN = 1e44  # J
 tau_2D = (E_SN/E_Pl_3D_J)**ALPHA * t_Pl
-f_back_2D = (E_Pl_3D_J/E_SN)**ALPHA
+f_DM_leak = (E_Pl_3D_J/E_SN)**ALPHA
 
 # 4D->3+1D (Scenario X)
 tau_4D_target = 1.4e34 * 3.156e7  # s
@@ -53,7 +53,7 @@ tau_4D_target = 1.4e34 * 3.156e7  # s
 ratio = (t_Pl/tau_4D_target)**(1/ALPHA)
 # E_4D = M_Pl,4D / ratio
 E_4D = E_Pl_4D_J / ratio
-f_back_4D = (E_Pl_4D_J/E_4D)**ALPHA
+f_DE = (E_Pl_4D_J/E_4D)**ALPHA
 tau_4D_check = (E_4D/E_Pl_4D_J)**ALPHA * t_Pl
 
 print('='*72)
@@ -76,7 +76,7 @@ print('  M_Pl,2D = 1e38 GeV (2D universe Planck, brane-world)')
 print('  Three DIFFERENT M_Pl at three different levels!')
 print()
 print(f'  E_4D = {E_4D:.3e} J = {E_4D / 1.989e7 / 1.989e30:.2e} M_sun (~10^9 M_sun, galaxy-scale)')
-print(f'  f_back_4D = {f_back_4D:.3e} per second (matches DE matching)')
+print(f'  f_DE = {f_DE:.3e} per second (matches DE matching)')
 print(f'  tau_4D = {tau_4D_check:.3e} s = 1.4e34 yr (matches DE matching)')
 print()
 print('='*72)
@@ -98,9 +98,9 @@ print('STAYS CONSISTENT (robust)')
 print('='*72)
 print()
 print(f'  2D->3D: tau = {tau_2D:.2f} s (~33s SN, 11% match) ✓')
-print(f'  2D->3D: f_back_2D = {f_back_2D:.3e} per second ✓')
+print(f'  2D->3D: f_DM_leak = {f_DM_leak:.3e} per second ✓')
 print(f'  4D->3+1D: tau_4D = 1.4e34 yr (DE calibration) ✓')
-print(f'  4D->3+1D: f_back_4D = 1.2e-85 (DE matching) ✓')
+print(f'  4D->3+1D: f_DE = 1.2e-85 (DE matching) ✓')
 print(f'  14 M^alpha events: 8/8 within 1.6x (calibrated)')
 print(f'  Closed-loop FORMULA universal: f_back = (M_Pl/E)^alpha')
 print(f'  4pi at 3D->4D continuous leakage (~1.7% match)')

@@ -7,16 +7,16 @@ Hypothesis: What if f_back = 0 and DM comes ONLY from 2D universe deaths?
 
 Current cascade:
   DM = (live 2D universe back-projection) + (cumulative death return)
-  f_back_live ~ 0.05 (calibrated from RAR fit, REVERTED in v2.7.1 to phenomenological)
+  f_DM_leak ~ 0.05 (calibrated from RAR fit, REVERTED in v2.7.1 to phenomenological)
 
 User's hypothesis:
-  f_back_live = 0 EXACTLY
+  f_DM_leak = 0 EXACTLY
   DM = cumulative death return ONLY
   2D universe is "invisible" to 3+1D during its lifetime
   At death, ALL 2D universe energy returns to 3+1D as DM
 
 This would:
-  - Simplify the cascade (one less free parameter: f_back_live = 0)
+  - Simplify the cascade (one less free parameter: f_DM_leak = 0)
   - Remove a calibrated postulate
   - Connect to 2D gravity consensus: 2D black holes EVAPORATE
   - Make the cascade's "f_active ~ 0.05" purely a population parameter
@@ -39,7 +39,7 @@ Test 3: dSph bifurcation (AGC vs KKR)
   - Consistent with deaths-only framework (the S_destruction mechanism is preserved)
 
 Test 4: Implications for the cascade's free parameters
-  - f_back_live = 0: removed (was 1 free parameter)
+  - f_DM_leak = 0: removed (was 1 free parameter)
   - f_active becomes a population ratio (still some free parameter)
   - α: unchanged
   - z_half: unchanged
@@ -78,7 +78,7 @@ rho_DM_0 = Omega_DM_0 * rho_crit
 E_SN = 1e44  # J
 SN_rate_local = 1.5e-2 / yr / (M_sun)**0  # ~1-3 SN/century/MW-like galaxy
 E_per_SN_to_2D = 1e-9 * E_SN  # rough: 10^-9 of SN energy goes to 2D universe
-# Note: f_back ~ 10^-85 means almost all 2D universe energy is INVISIBLE
+# Note: f_DE ~ 10^-85 means almost all 2D universe energy is INVISIBLE
 # So most of the SN energy that goes to 2D universe is delivered at death
 
 # 2D universe mass at death
@@ -96,9 +96,9 @@ print("TEST 1: Energy budget — is deaths-only consistent with observed DM?")
 print("=" * 70)
 print()
 print("SN rate in MW-like galaxy: ~1-3 per century = ~10^-2 to 10^-1 /yr")
-print("Per-SN 2D universe energy (f_back ~ 10^-85 effective):")
+print("Per-SN 2D universe energy (f_DE ~ 10^-85 effective):")
 print("  The cascade assumes the 2D universe has M_2D such that its")
-print("  back-projection × f_back ~ 10^-85 gives the right DE.")
+print("  back-projection × f_DE ~ 10^-85 gives the right DE.")
 print("  At death, all M_2D × c^2 is delivered to 3+1D as DM.")
 print()
 
@@ -129,7 +129,7 @@ print("Verdict: depending on E_per_SN_to_2D, can match observations.")
 print()
 
 print("=" * 70)
-print("TEST 2: f_back_live = 0 is consistent with 2D gravity community")
+print("TEST 2: f_DM_leak = 0 is consistent with 2D gravity community")
 print("=" * 70)
 print()
 print("Standard 2D black hole physics:")
@@ -142,10 +142,10 @@ print()
 print("The standard picture: 2D black hole is 'invisible' to parent during life,")
 print("returns energy at end. This is the DEATHS-ONLY picture.")
 print()
-print("The cascade's f_back_live ~ 0.05 (active back-projection) is NOT in")
+print("The cascade's f_DM_leak ~ 0.05 (active back-projection) is NOT in")
 print("standard 2D gravity. It's a cascade-specific postulate.")
 print()
-print("If f_back_live = 0:")
+print("If f_DM_leak = 0:")
 print("  - Aligns cascade with standard 2D BH physics")
 print("  - Removes a calibrated postulate")
 print("  - The 2D universe is genuinely a 'storage device' for DM energy")
@@ -186,11 +186,11 @@ print("  - z_half ≈ 3 (smooth F_p)")
 print("  - N_crit (mixing)")
 print("  - κ (mixing)")
 print("  - f_back (DE staying fraction, ~10^-85)")
-print("  - f_back_live (2D universe back-projection, ~0.05)")
+print("  - f_DM_leak (2D universe back-projection, ~0.05)")
 print("  Total: 6 free parameters")
 print()
-print("If f_back_live = 0:")
-print("  - f_back_live removed (1 free parameter)")
+print("If f_DM_leak = 0:")
+print("  - f_DM_leak removed (1 free parameter)")
 print("  - f_active becomes purely a population parameter (not a coupling)")
 print("  Total: 5 free parameters")
 print()
@@ -237,7 +237,7 @@ print("  " + "-"*85)
 print(f"  {'Active 2D universe → DM':<35} {'~5% of total DM':<25} {'0 (no live contribution)'}")
 print(f"  {'2D universe death → DM':<35} {'~95% of total DM':<25} {'100% of total DM'}")
 print(f"  {'2D universe visible during life?':<35} {'Yes (small f_back)':<25} {'NO'}")
-print(f"  {'f_back_live free parameter':<35} {'~0.05 (calibrated)':<25} {'0 (postulate)'}")
+print(f"  {'f_DM_leak free parameter':<35} {'~0.05 (calibrated)':<25} {'0 (postulate)'}")
 print(f"  {'Total free parameters':<35} {'6':<25} {'5'}")
 print(f"  {'CGHS alignment':<35} {'Partial (live + death)':<25} {'Full (death only)'}")
 print(f"  {'HW D1-brane alignment':<35} {'Partial (live + decay)':<25} {'Full (decay only)'}")
@@ -252,10 +252,10 @@ print("SUMMARY: Deaths-only DM hypothesis")
 print("=" * 70)
 print()
 print("KEY FINDING: 5 of 6 framework analyses support deaths-only.")
-print("Removing f_back_live aligns cascade with 2D gravity consensus.")
+print("Removing f_DM_leak aligns cascade with 2D gravity consensus.")
 print()
 print("Cascade update (if we adopt deaths-only):")
-print("  - f_back_live = 0 (POSTULATE, was 1 calibrated free parameter)")
+print("  - f_DM_leak = 0 (POSTULATE, was 1 calibrated free parameter)")
 print("  - 1 less free parameter (6 → 5)")
 print("  - DE still requires inversion (4D event antigravity → 3+1D)")
 print("  - DM = cumulative 2D universe deaths only")
@@ -274,12 +274,12 @@ print("  - The cascade's 'f_active ~ 0.05' (RAR fit) is REPLACED by")
 print("    'E_per_SN_to_2D / c^2' (death-only energy)")
 print()
 print("Recommended: ADOPT deaths-only. Update cascade to:")
-print("  - Remove f_back_live (~0.05)")
+print("  - Remove f_DM_leak (~0.05)")
 print("  - Reframe 'f_active' as 'population ratio of recently dead vs total'")
 print("  - Document in §2.5 or §2.7 as a v2.7.11 simplification")
 
 results = {
-    "test": "Deaths-only DM hypothesis (f_back_live = 0)",
+    "test": "Deaths-only DM hypothesis (f_DM_leak = 0)",
     "hypothesis": "2D universe back-projection during lifetime is ZERO. DM = cumulative deaths only.",
     "energy_budget": {
         "SN_rate_per_yr": SN_rate_MW,
@@ -299,7 +299,7 @@ results = {
     "free_parameter_change": {
         "before": 6,
         "after": 5,
-        "removed": "f_back_live (~0.05, was calibrated from RAR)",
+        "removed": "f_DM_leak (~0.05, was calibrated from RAR)",
     },
     "implications": {
         "DE": "unchanged (still requires 4D event antigravity)",
@@ -312,7 +312,7 @@ results = {
         "deaths_only_consistent_with_data": True,
         "recommended_action": "ADOPT deaths-only as v2.7.11 simplification",
     },
-    "conclusion": "Deaths-only DM (f_back_live = 0) is MORE PARSIMONIOUS and aligns with 5 of 6 framework analyses. The cascade's f_back_live ~ 0.05 is a calibrated postulate that REMOVES one free parameter. Adopting deaths-only would be a major simplification."
+    "conclusion": "Deaths-only DM (f_DM_leak = 0) is MORE PARSIMONIOUS and aligns with 5 of 6 framework analyses. The cascade's f_DM_leak ~ 0.05 is a calibrated postulate that REMOVES one free parameter. Adopting deaths-only would be a major simplification."
 }
 
 with open('/workspace/github-repo/calculations/v27_deaths_only_dm_results.json', 'w') as f:

@@ -105,7 +105,7 @@ KEY INSIGHT: f_back is NOT a universal constant!
 
   f_back depends on the event:
   - At the 2D floor: f_back ~ 4.8 × 10^-24 (much larger!)
-  - At SN: f_back ~ 10^-85 (much smaller)
+  - At SN: f_DE ~ 10^-85 (much smaller)
   - At AGN: f_back ~ 10^-? (depends on AGN energy)
 
   f_back DECREASES as event energy increases.
@@ -358,7 +358,7 @@ DERIVED FROM THE 2D PLANCK TIP (v3.0.22):
 
 2. f_back IS NOT UNIVERSAL
    At 2D floor: f_back ~ 5 × 10^-24
-   At SN: f_back ~ 10^-85
+   At SN: f_DE ~ 10^-85
    f_back DECREASES as event energy increases.
 
 3. CONE DEPTHS (in α units):

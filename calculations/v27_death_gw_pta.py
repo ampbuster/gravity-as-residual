@@ -60,7 +60,7 @@ print(f"  f_2D = {f_SN:.4f} Hz")
 print()
 
 # Energy of 2D universe death GW
-def E_GW_single(E_event, f_back=1e-85):
+def E_GW_single(E_event, f_DE = 1e-85):
     """Energy released as GW from single 2D universe death"""
     return f_back * E_event
 
@@ -234,7 +234,7 @@ output = {
     'orders_of_magnitude_below_pta': 80,
     'honest_finding': 'Cascade 2D universe death GW is 80-100 orders of magnitude BELOW PTA detection. The cascade is FALSIFIABLE in principle but UNDETECTABLE in practice. SKA-MPG (2030s) and next-gen PTAs (IPTA-3) cannot detect this signal.',
     'cascade_lifetime_predicts_gw_at_ffa': 'Cascade 2D universe death GW is in PTA band (nHz to μHz) for BNS and TDE events, but the energy is far below detection.',
-    'caveat': 'The cascade f_back ~ 10^-85 is calibrated from SN 33s lifetime. If f_back is actually larger (e.g., 10^-10), the GW could be detectable. But the SN 33s lifetime is well-established, so f_back is well-constrained.',
+    'caveat': 'The cascade f_DE ~ 10^-85 is calibrated from SN 33s lifetime. If f_back is actually larger (e.g., 10^-10), the GW could be detectable. But the SN 33s lifetime is well-established, so f_back is well-constrained.',
     'comparison_to_lisa': 'Cascade 2D universe death GW at 0.03 Hz (SN scale) is in LISA band but 6-14 orders of magnitude below LISA noise (see v2.7.3 §10.17).',
     'comparison_to_ptas': 'Cascade 2D universe death GW at 0.001-10 μHz (BNS/TDE scale) is in PTA band but 80-100 orders of magnitude below detection. The cascade 2D universe death GW is UNDETECTABLE by any current or planned GW detector.',
     'pulsar_timing_array_papers': 'NANOGrav 15-yr (2023), EPTA+InPTA (2023), PPTA DR3 (2023), Chinese Pulsar Timing Array (2023)',

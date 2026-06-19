@@ -104,13 +104,13 @@ for name, mu in candidates:
     print(f"  τ_SN observed: {tau_SN_s} s")
     
     # 6. DE matching: need ε such that DE = f_back × ε × M_Pl^4
-    # f_back_4D = t_Pl / τ_4D (for 4D level)
+    # f_DE = t_Pl / τ_4D (for 4D level)
     # For DE: ρ_DE = f_back × ε × M_Pl,4D^4
-    # If f_back = 10^-85 (calibrated in v3.3), then ε = ρ_DE / (f_back × M_Pl,4D^4)
+    # If f_DE = 10^-85 (calibrated in v3.3), then ε = ρ_DE / (f_back × M_Pl,4D^4)
     
-    f_back_4D = 1e-85  # calibrated
+    f_DE = 1e-85  # calibrated
     if M_Pl_4D > 0:
-        epsilon_needed = DE_obs_GeV4 / (f_back_4D * M_Pl_4D**4)
+        epsilon_needed = DE_obs_GeV4 / (f_DE * M_Pl_4D**4)
         print(f"  ε needed for DE match: {epsilon_needed:.3e}")
         print(f"  (Framework v3.3: ε = 10^-38)")
         if epsilon_needed < 1e-50 or epsilon_needed > 1e-20:

@@ -49,7 +49,7 @@ Level 3 (3+1D -> 2D):
   M_Pl,3 = {M_PL_3:.2e} GeV
   M_Pl,2D = {M_PL_2D:.0f} GeV (holographic)
   Events: SN, AGN, GW bursts, etc.
-  f_back ~ 10^-85 (SN calibration)
+  f_DE ~ 10^-85 (SN calibration)
 
 Level 4 (4D -> 3+1D):
   M_Pl,4 = {M_PL_4} GeV (SIDC §10.3)
@@ -218,7 +218,7 @@ CLOSED LOOP FORMULA AT EACH LEVEL:
   f_back(N->N-1) = (t_Pl,N-1/tau_N) x (tau_event/tau_N-1) x (E_N/E_event)^(1/(2 alpha))
 
 Level 3 (3+1D -> 2D, calibrated at SN):
-  f_back = 10^-85
+  f_DE = 10^-85
   This is the SN's back-projection to 2D universes (DM/DE)
 
 Level 4 (4D -> 3+1D, our universe):
@@ -226,7 +226,7 @@ Level 4 (4D -> 3+1D, our universe):
   f_back = ? (unknown, but must give E_3+1D = 10^62 J)
   
   If f_back ~ 1: E_4D ~ 10^62 J (most of 4D event became 3+1D)
-  If f_back ~ 10^-85: E_4D ~ 10^147 J (most of 4D event is "hidden")
+  If f_DE ~ 10^-85: E_4D ~ 10^147 J (most of 4D event is "hidden")
   
   The INCEPTION interpretation: f_back ~ 1 (4D event IS our universe)
 
@@ -241,7 +241,7 @@ Level 6 (6D -> 5D):
 INTERPRETATION: At each level up, f_back ~ 1 (the substrate is
 "almost entirely" converted to the next-level universe).
 
-This is DIFFERENT from level 3 (where f_back ~ 10^-85 because
+This is DIFFERENT from level 3 (where f_DE ~ 10^-85 because
 the 3D event is brief and the 2D universe is transient).
 """)
 

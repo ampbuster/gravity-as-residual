@@ -7,7 +7,7 @@ This directory contains calculation scripts that were **superseded** by v3.1.2-f
 | File | Status | Reason for move to legacy |
 |---|---|---|
 | `v31_scenario_B.py` | REJECTED (kept for historical reference) | Scenario B adopted M_Pl,4 = 1.22×10¹⁹ GeV (standard 4D Planck). User pushed back: "3D != 4D". Replaced by Scenario X (M_Pl,4D = 887 GeV, 4D BULK Planck, brane-world). |
-| `v31_f_back_only_3d_to_4d.py` | SUPERSEDED (v3.1.1) | v3.1.1 claimed f_back = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D leakage. v3.1.2 unifies: f_back = (M_Pl,N/E_event)^α is universal at EVERY dimensional transition (different M_Pl,N at each level). |
+| `v31_f_back_only_3d_to_4d.py` | SUPERSEDED (v3.1.1) | v3.1.1 claimed f_DE = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D leakage. v3.1.2 unifies: f_back = (M_Pl,N/E_event)^α is universal at EVERY dimensional transition (different M_Pl,N at each level). |
 | `v31_proper_closed_loop.py` | SUPERSEDED (v3.1.1-final) | v3.1.1-final framed closed loop as 3D-to-4D leakage (frame-consistent). v3.1.2 §3.71 generalizes: closed loop applies at BOTH 2D→3D AND 3D→4D. |
 | `v31_F_p_consistency.py` | SUPERSEDED (v3.1.1) | L100 F_p(z) Hill function check from v3.1.1. F_p is still a phenomenological fit (L100 OPEN), not a derivation. This calculation verified consistency, not derivation. |
 | `v31_fp_z_derivation.py` | REVERTED (v3.1.2) | Attempted to derive F_p(z) from cone depth framing. REVERTED in v3.1.2 (v10 was wrong, but the result was suggestive; left as is to keep L100 OPEN). |

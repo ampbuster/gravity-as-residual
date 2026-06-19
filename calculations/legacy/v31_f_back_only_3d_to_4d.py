@@ -3,7 +3,7 @@
 v31_f_back_only_3d_to_4d.py
 ============================
 
-USER CLARIFICATION: f_back = 10^-85 ONLY makes sense as 3D-to-4D leakage.
+USER CLARIFICATION: f_DE = 10^-85 ONLY makes sense as 3D-to-4D leakage.
 
 The 2D-3D story does NOT have a meaningful f_back because:
   - 2D universe lifetime in 3+1D frame is short (33s for SN, hours-days for larger)
@@ -14,12 +14,12 @@ The 2D-3D story does NOT have a meaningful f_back because:
 The 3D-4D story DOES have a meaningful f_back:
   - 3+1D lifetime is long (13.8 Gyr so far, will be much longer)
   - During this long lifetime, 3+1D's coupling to 4D is meaningful
-  - f_back = 10^-85 is the 3D-to-4D while-alive leakage rate
+  - f_DE = 10^-85 is the 3D-to-4D while-alive leakage rate
   - This is a CLOSED LOOP (forward: 4D→3D, backward: 3D→4D)
 
 The two stories are STRUCTURALLY DIFFERENT:
   - 2D-3D: creation by event + death return as DM (no closed loop)
-  - 3D-4D: creation + while-alive leakage (closed loop, f_back = 10^-85)
+  - 3D-4D: creation + while-alive leakage (closed loop, f_DE = 10^-85)
 
 This is the proper SIDC structure:
   4D event → 3+1D universe (f_back forward = 10^-85)
@@ -46,23 +46,23 @@ print('='*72)
 print()
 T_4D_proper = T_universe * epsilon
 T_4D_apparent = T_4D_proper * gamma
-f_back_4D = t_Pl / T_4D_apparent
+f_DE = t_Pl / T_4D_apparent
 
 print(f'4D event proper time: {T_4D_proper:.2e} s')
 print(f'4D event apparent duration (3+1D frame): {T_4D_apparent:.2e} s = {T_4D_apparent/3.156e7:.2e} yr')
 print(f'γ (time dilation): {gamma:.2e}')
 print()
-print(f'Forward: 4D → 3+1D projection efficiency = f_back = {f_back_4D:.2e}')
-print(f'Backward: 3+1D → 4D leakage rate = f_back = {f_back_4D:.2e}')
+print(f'Forward: 4D → 3+1D projection efficiency = f_back = {f_DE:.2e}')
+print(f'Backward: 3+1D → 4D leakage rate = f_back = {f_DE:.2e}')
 print(f'CLOSED LOOP: same f_back in both directions')
 print()
-leakage_3D_to_4D = f_back_4D * E_3plus1D
+leakage_3D_to_4D = f_DE * E_3plus1D
 print(f'Energy leaked from 3+1D to 4D during 13.8 Gyr: {leakage_3D_to_4D:.2e} J')
 print(f'Compare to DE total: ~{rho_DE*1e-42*1.1e80:.2e} J (in observable universe)')
 print()
 
 # DE formula check
-rho_DE_pred = f_back_4D * epsilon * M_Pl_4
+rho_DE_pred = f_DE * epsilon * M_Pl_4
 print(f'ρ_DE predicted = f_back × ε × M_Pl^4 = {rho_DE_pred:.2e} GeV^4')
 print(f'ρ_DE observed = {rho_DE:.2e} GeV^4')
 print(f'Match within: {rho_DE_pred/rho_DE:.3f}x')
@@ -83,7 +83,7 @@ events = [
     ('BNS merger', 4.3e5*3.156e7, 1e53),
     ('AGN outburst', 1.6e8*3.156e7, 1e55),
 ]
-print(f"{'Event':<15} {'tau_2D (s)':>12} {'E_2D (J)':>12} {'f_back_2D':>14} {'leakage (J)':>14}")
+print(f"{'Event':<15} {'tau_2D (s)':>12} {'E_2D (J)':>12} {'f_DM_leak':>14} {'leakage (J)':>14}")
 for name, tau, E in events:
     fb = t_Pl / tau
     leak = fb * E
@@ -101,9 +101,9 @@ print('  - 2D universe dies, 100% of energy returns to 3+1D as DM')
 print('  - No while-alive back-projection worth modeling')
 print()
 
-# === Why f_back = 10^-85 is the 3D-4D cycle only ===
+# === Why f_DE = 10^-85 is the 3D-4D cycle only ===
 print('='*72)
-print('WHY f_back = 10^-85 IS ONLY 3D-to-4D')
+print('WHY f_DE = 10^-85 IS ONLY 3D-to-4D')
 print('='*72)
 print()
 print('The closed loop requires:')
@@ -135,8 +135,8 @@ print()
 print('SIDC has TWO different cross-dimensional stories:')
 print()
 print('1. 4D ↔ 3+1D (CLOSED LOOP):')
-print('   - 4D event creates 3+1D (forward, f_back = 10^-85)')
-print('   - 3+1D leaks back to 4D (backward, f_back = 10^-85)')
+print('   - 4D event creates 3+1D (forward, f_DE = 10^-85)')
+print('   - 3+1D leaks back to 4D (backward, f_DE = 10^-85)')
 print('   - DE = f_back × ε × M_Pl^4 (matches observation)')
 print('   - γ ~ 10^62 (within cone picture range)')
 print()

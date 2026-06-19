@@ -138,7 +138,7 @@ print("="*72)
 # In SIDC, the 2D event IS the 2D universe being formed
 # So E_2D = E_3D × f_back (the 2D universe's energy from 3D event)
 
-# For SN: E_3D = 10^44 J, f_back ~ 10^-85
+# For SN: E_3D = 10^44 J, f_DE ~ 10^-85
 # E_2D (SN) ~ 10^44 × 10^-85 = 10^-41 J
 # But this is the 2D universe's TOTAL energy
 

@@ -229,7 +229,7 @@ F-theory 12D structure:
 
 **Continuous vs pulsed return** (KEY CLARIFICATION, user-formalized): f_back is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). The OBSERVABLE differs by level due to TIMESCALE (specifically, time dilation makes 3+1D's lifetime much longer than 2D's lifetime):
 
-| Boundary | Lifetime in lower-D frame | f_back rate | Continuous leakage | Pulsed at death | What dominates NOW? |
+| Boundary | Lifetime in lower-D frame | f_DE rate | Continuous leakage | Pulsed at death | What dominates NOW? |
 |---|---|---|---|---|---|
 | 2D→3D (SN) | 33 s (short, no significant γ) | 1.6×10⁻⁴⁵/s | 33×10⁻⁴⁵ = **10⁻⁴⁴** (negligible) | 100% at 33s | **Pulsed (DM)** |
 | 3D→4D | 10³⁴ yr (γ_4D = 6.03×10⁹⁰ from 4D proper time ~10⁻⁵⁴ yr) | 1.22×10⁻⁸⁵/s | 10⁵¹×10⁻⁸⁵ = **O(1)** by heat death | 100% at 10³⁴ yr | **Continuous (DE)** |
@@ -246,7 +246,7 @@ This unifies DE and DM as the SAME mechanism at different timescales, with **tim
 
 The v3.3 DE formula has NO 4π factor. v3.1.2 used 4π empirically to get 1.7% match; v3.3 removed it and matches within 8.4% (v3.3 misclaimed 0.24%) (τ_4D calibrated to DE directly, no 4π needed).
 
-**DE matching** (3D→4D, v3.3 with NO 4π): ρ_DE = f_back_4D × ε × M_Pl,3D^4 = 1.13×10⁻⁸⁵ × 10⁻³⁸ × (1.22×10¹⁹)⁴ = **2.51×10⁻⁴⁷ GeV⁴**. Observed: 2.5×10⁻⁴⁷ GeV⁴. **Match within 8.4%** (τ_4D = 1.51×10³⁴ yr is DE-calibrated; v3.3 misclaimed 0.24% — actual is 8.4%, framework's calibration precision).
+**DE matching** (3D→4D, v3.3 with NO 4π): ρ_DE = f_DE × ε × M_Pl,3D^4 = 1.13×10⁻⁸⁵ × 10⁻³⁸ × (1.22×10¹⁹)⁴ = **2.51×10⁻⁴⁷ GeV⁴**. Observed: 2.5×10⁻⁴⁷ GeV⁴. **Match within 8.4%** (τ_4D = 1.51×10³⁴ yr is DE-calibrated; v3.3 misclaimed 0.24% — actual is 8.4%, framework's calibration precision).
 
 **Why this is honest, not cheating**: τ_4D = 1.51×10³⁴ yr is one of 4 calibrated parameters in v3.3 (alongside α = 1.289, ε = 10⁻³⁸, AGN rate). The 8.4% off in v3.1.2 was from a different formulation (M_Pl,4D = 887 GeV, γ_4D = 1.29×10⁶⁴, used a 4π factor). v3.3 removed 4π AND changed M_Pl,4D to 4×10²³ GeV (α-weighted GM), giving exact match.
 
@@ -257,7 +257,7 @@ The v3.3 DE formula has NO 4π factor. v3.1.2 used 4π empirically to get 1.7% m
 - M^α scaling DOWN to 2D (TeV, factor of 2). UP to 9D DROPPED in v3.3.
 
 **WEAKNESSES**:
-- f_back = 10⁻⁸⁵ is calibrated to DE, not derived
+- f_DE = 10⁻⁸⁵ is calibrated to DE, not derived
 - 4π factor (verified ~1.7% at 3D→4D) is not derived
 - N_sub = free parameter (lifetime UNKNOWN)
 - L43 (α derivation) OPEN: 5 brute-force attempts failed
@@ -273,7 +273,7 @@ The v3.3 DE formula has NO 4π factor. v3.1.2 used 4π empirically to get 1.7% m
 | M^α scaling 4D→2D (gives TeV) | ✓ STRUCTURAL | 9D→4D DROPPED in v3.3
 | DE matching within 8.4% via f_back formula (v3.3 misclaimed 0.24%; framework's calibration precision) | ✓ CALIBRATED |
 | α = 1.289 from first principles | ✗ OPEN (L43) |
-| f_back = 10⁻⁸⁵ from first principles | ✗ CALIBRATED |
+| f_DE = 10⁻⁸⁵ from first principles | ✗ CALIBRATED |
 | 4π factor from first principles | ✗ OPEN (L142a) |
 | N_sub (number of sub-universes) | ✗ FREE PARAM |
 | Universe total LIFETIME | ✗ UNKNOWN (only AGE is observed) |

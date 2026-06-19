@@ -152,7 +152,7 @@ Without f_back:
   ρ_DE ~ 10^-47 GeV^4 (observed)
   Gap: 10^85
 
-With f_back = 10^-85:
+With f_DE = 10^-85:
   ρ_DE (effective) = f_back × ρ_DE (raw) = 10^-47 GeV^4 ✓ matches observation
 
 The 27% DM fraction comes from a DIFFERENT mechanism (cumulative 2D universe

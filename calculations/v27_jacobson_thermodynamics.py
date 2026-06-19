@@ -106,7 +106,7 @@ But the cascade's calibration says the 2D universe's net gravity contribution
 to 3+1D is ~10^-85 of the SN's energy. So either:
 1. The Jacobson derivation gives the MAXIMUM 2D universe mass (if all energy
    goes into 2D horizon entropy), and the cascade's back-projection efficiency
-   f_back ~ 10^-85 is the FRACTION that reaches 3+1D, OR
+   f_DE ~ 10^-85 is the FRACTION that reaches 3+1D, OR
 2. The 2D universe's energy is dissipated differently and the entropy goes
    elsewhere (bulk, KK modes, etc.)
 
@@ -127,7 +127,7 @@ Test 3: For the cascade's E_2D ~ 10^-85 × E_3D to be thermodynamically consiste
 what does Jacobson give?
 
 Jacobson: M_2D = τ_2D / (2 G)
-If M_2D = f_back × E_3D / c² where f_back = 10^-85:
+If M_2D = f_back × E_3D / c² where f_DE = 10^-85:
     f_back × E_3D / c² = τ_2D / (2 G)
     τ_2D = 2 G f_back E_3D / c²
 
@@ -137,7 +137,7 @@ For E_3D = 10^44 J (SN): τ_2D = 2 × 6.67e-11 × 1e-85 × 1e44 / (3e8)²
 That's way too short (vs cascade's 33 s). So the Jacobson derivation gives
 EITHER a huge 2D universe mass (if we set M_2D = E_2D) OR a tiny 2D universe
 lifetime (if we set M_2D = f_back × E_3D). Neither matches the cascade's
-calibration (33 s, f_back ~ 10^-85).
+calibration (33 s, f_DE ~ 10^-85).
 
 Test 4: The honest answer — Jacobson's framework says 2D universe ENTROPY
 S_2D is set by the horizon area in 3+1D, S_2D = A / (4 G) ~ (c τ_2D)² / G.
@@ -162,7 +162,7 @@ Conclusion:
 - Jacobson's framework is INCOMPATIBLE with the cascade's "33 s for SN"
   if the 2D universe has SN-mass energy
 - The cascade's 2D universe either has much less energy than SN-baryonic
-  (consistent with f_back ~ 10^-85, but then "33 s" is not the natural lifetime)
+  (consistent with f_DE ~ 10^-85, but then "33 s" is not the natural lifetime)
 - OR the cascade's 2D universe is a non-thermodynamic object
 
 This is a FALSIFICATION: Jacobson's thermodynamics says a horizon-containing
@@ -255,10 +255,10 @@ print("energy in thermodynamic equilibrium.")
 print()
 
 print("=" * 70)
-print("TEST 3: Resolve via cascade's f_back = 10^-85 (back-projection efficiency)")
+print("TEST 3: Resolve via cascade's f_DE = 10^-85 (back-projection efficiency)")
 print("=" * 70)
 print()
-f_back = 1e-85
+f_DE = 1e-85
 M_2D_actual = f_back * E_SN / c**2
 print(f"  Cascade's f_back (back-projection efficiency) ~ {f_back:.0e}")
 print(f"  M_2D_actual = f_back × E_SN / c² = {M_2D_actual:.2e} kg")

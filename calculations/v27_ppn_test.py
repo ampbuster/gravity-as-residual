@@ -35,7 +35,7 @@ import numpy as np
 G = 6.674e-11
 c = 2.998e8
 M_sun = 1.989e30
-f_back = 1e-85
+f_DE = 1e-85
 E_CCSN = 1e44  # J per SN
 yr = 3.156e7
 

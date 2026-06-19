@@ -78,7 +78,7 @@ is much less than the Bousso upper bound. The cascade's 2D universes are
 
 Test 4: Does Bousso constrain the cascade's f_back?
 
-The cascade's f_back ~ 10^-85 is the back-projection efficiency. Bousso's
+The cascade's f_DE ~ 10^-85 is the back-projection efficiency. Bousso's
 bound is on the 2D universe's entropy, not on its gravitational
 back-projection. The bound doesn't directly constrain f_back.
 
@@ -123,7 +123,7 @@ directly. The cascade's 2D universes are "sub-Planckian" in entropy
 content, well within the allowed range.
 
 Bousso's bound is a CONSISTENCY CHECK, not a derivation. The cascade's
-specific f_back ~ 10^-85 and α = 1.29 are NOT derived from Bousso.
+specific f_DE ~ 10^-85 and α = 1.29 are NOT derived from Bousso.
 """
 import numpy as np
 import json

@@ -58,7 +58,7 @@ Liouville 2-point function temperature dependence.
 
 ### Test D: f_back from Liouville — NOT DERIVABLE
 
-The cascade's f_back ~ 10^-85 is a probability for the 2D universe's
+The cascade's f_DE ~ 10^-85 is a probability for the 2D universe's
 death energy to return to 3+1D as DM. Liouville's reflection coefficient
 ρ(α) is ~ 1 for natural α, not 10^-85.
 
@@ -135,7 +135,7 @@ resolve.**
 
 1. The cascade's empirical τ_2D = 0.7 Gyr (free parameter)
 2. The cascade's g_+ ~ 1.2e-10 m/s² (it's c × H_0 / 2π)
-3. The cascade's f_back ~ 10^-85 (a probability)
+3. The cascade's f_DE ~ 10^-85 (a probability)
 4. The cascade's 5/27/68 split (needs full Boltzmann)
 5. The cascade's 2D universe mass (needs 2D Planck scale)
 6. The cascade's f_active ~ 0.05 (trivially τ_2D/T_universe)

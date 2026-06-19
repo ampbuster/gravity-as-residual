@@ -8,7 +8,7 @@ User: 'try to derive the closed loop'
 The closed loop formula (SIDC):
   f_back = (t_Pl,3/tau_4D) x (tau_SN,obs/tau_universe) x (E_4D/E_SN)^(1/(2 alpha))
 
-This gives f_back ~ 10^-85 for SN.
+This gives f_DE ~ 10^-85 for SN.
 
 This script attempts to DERIVE this from the Lagrangian.
 The structure of the closed loop involves:
@@ -53,7 +53,7 @@ print("""
 SIDC's closed loop:
   f_back = (t_Pl,3/tau_4D) x (tau_SN,obs/tau_universe) x (E_4D/E_SN)^(1/(2 alpha))
 
-For SN: f_back ~ 10^-85
+For SN: f_DE ~ 10^-85
 
 The structure is:
   f_back = (time ratio 1) x (time ratio 2) x (energy ratio)^(1/(2 alpha))
@@ -177,7 +177,7 @@ print("="*72)
 
 print(f"""
 DECOMPOSITION OF f_back (SN calibration):
-  f_back = 10^-85
+  f_DE = 10^-85
   log10(f_back) = -85
 
   Factor 1: t_Pl,3/tau_4D
@@ -270,7 +270,7 @@ The "back-action" amplitude is:
   f_back = g_couple^2 x Z_2D / E_3D^2
 
 For the SN calibration:
-  f_back ~ 10^-85
+  f_DE ~ 10^-85
 
 The factor g_couple^2 is related to the bulk-brane coupling.
 The Z_2D involves the 2D universe's partition function.
@@ -287,7 +287,7 @@ The closed loop formula is a PHENOMENOLOGICAL INPUT that's consistent with:
 - The 2D CFT structure (c = 1/2)
 - The time dilation (alpha = 1.289)
 - The 4D event's eternal nature (inception)
-- The SN calibration (f_back ~ 10^-85)
+- The SN calibration (f_DE ~ 10^-85)
 
 It is NOT yet derived from the Lagrangian.
 """)

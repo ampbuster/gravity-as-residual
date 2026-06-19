@@ -203,7 +203,7 @@ print("="*72)
 print(f"""
 THE CLOSED LOOP UNITES DM, DE, AND GRAVITY:
 
-                  ┌─ f_back = 10^-85 (closed loop result)
+                  ┌─ f_DE = 10^-85 (closed loop result)
                   │
                   │  Same α = 1.289 used in BOTH directions:
                   │
@@ -295,7 +295,7 @@ DE (68% of critical density):
   Bridge: f_back closes the 10^85 gap
 
 CLOSED LOOP gives:
-  f_back = 10^-85 (universal value)
+  f_DE = 10^-85 (universal value)
   Used in BOTH DE and DM
   Connects them to ε (gravity)
 

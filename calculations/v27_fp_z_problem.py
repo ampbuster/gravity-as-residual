@@ -80,7 +80,7 @@ print("  But this is ad hoc; not derived from first principles")
 print("\nFix 2: Recent DM is much larger than f_back × SN deaths")
 print("  Maybe f_back is wrong (SN 33s calibration is wrong)")
 print("  Or there's a different mechanism for 'recent' DM")
-print("  But f_back ~ 10^-85 is well-calibrated from SN 33s lifetime (L9)")
+print("  But f_DE ~ 10^-85 is well-calibrated from SN 33s lifetime (L9)")
 
 # Fix 3: Add a third component (constant DM)
 print("\nFix 3: Add a third (constant) DM component")

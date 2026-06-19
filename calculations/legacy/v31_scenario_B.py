@@ -10,7 +10,7 @@ the FRAGILE extrapolations (9D = v_Higgs match, multi-universe = galaxy count).
 KEY PARAMETERS (Scenario B):
   M_Pl,4 = 1.22e19 GeV (STANDARD 4D Planck)
   E_4D = 1.47e75 J (universe-scale 4D event, ~10^22 M_sun)
-  f_back_4D = 1.2e-85 (from closed loop)
+  f_DE = 1.2e-85 (from closed loop)
   tau_4D = 1.4e34 yr (from DE matching)
 
 WHAT STAYS CONSISTENT (ROBUST):
@@ -41,7 +41,7 @@ E_Pl_4D_J = M_Pl_4D_GeV * 1.602e-10
 # 2D->3D
 E_SN = 1e44  # J
 tau_2D = (E_SN/E_Pl_3D_J)**ALPHA * t_Pl
-f_back_2D = (E_Pl_3D_J/E_SN)**ALPHA
+f_DM_leak = (E_Pl_3D_J/E_SN)**ALPHA
 
 # 4D->3+1D (Scenario B)
 tau_4D_target = 1.4e34 * 3.156e7  # s
@@ -49,7 +49,7 @@ tau_4D_target = 1.4e34 * 3.156e7  # s
 ratio = (t_Pl/tau_4D_target)**(1/ALPHA)
 # E_4D = M_Pl,4 / ratio
 E_4D = E_Pl_4D_J / ratio
-f_back_4D = (E_Pl_4D_J/E_4D)**ALPHA
+f_DE = (E_Pl_4D_J/E_4D)**ALPHA
 # Verify: tau_4D = (E_4D/M_Pl,4)^alpha x t_Pl
 tau_4D_check = (E_4D/E_Pl_4D_J)**ALPHA * t_Pl
 
@@ -61,7 +61,7 @@ print('KEY PARAMETERS:')
 print(f'  M_Pl,4D = M_Pl,3D = {M_Pl_4D_GeV:.3e} GeV (STANDARD 4D Planck)')
 print(f'  E_4D = {E_4D:.3e} J')
 print(f'    = {E_4D / 1.989e7 / 1.989e30:.3e} M_sun  (~10^22 M_sun, universe-scale!)')
-print(f'  f_back_4D = {f_back_4D:.3e} per second')
+print(f'  f_DE = {f_DE:.3e} per second')
 print(f'  tau_4D = {tau_4D_check:.3e} s = 1.4e34 yr (matches DE matching)')
 print()
 
@@ -70,9 +70,9 @@ print('STAYS CONSISTENT (the robust parts)')
 print('='*70)
 print()
 print(f'  2D->3D: tau = {tau_2D:.2f} s (~33s SN, 11% match) ✓')
-print(f'  2D->3D: f_back_2D = {f_back_2D:.3e} per second ✓')
+print(f'  2D->3D: f_DM_leak = {f_DM_leak:.3e} per second ✓')
 print(f'  4D->3+1D: tau_4D = 1.4e34 yr (DE calibration) ✓')
-print(f'  4D->3+1D: f_back_4D = 1.2e-85 (DE matching) ✓')
+print(f'  4D->3+1D: f_DE = 1.2e-85 (DE matching) ✓')
 print(f'  DE formula with M_Pl,3D = 10^19 GeV: rho_DE = 2.88e-47 GeV^4 (matches!)')
 print(f'  14 M^alpha events: 8/8 within 1.6x (calibrated)')
 print(f'  Closed-loop FORMULA universal: f_back = (M_Pl/E)^alpha')

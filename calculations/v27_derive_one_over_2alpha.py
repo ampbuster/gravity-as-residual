@@ -77,7 +77,7 @@ print()
 print("--- Approach 3: Brane-world warp factor ---")
 # In RS, hierarchy = e^(kπr_c) ~ 10^38
 # f_back = e^(-kπr_c) ~ 10^-38 (the inverse)
-# But f_back ~ 10^-85, so we'd need kπr_c ~ 196
+# But f_DE ~ 10^-85, so we'd need kπr_c ~ 196
 # Twice the hierarchy value (kπr_c = 87)
 
 # If f_back = e^(-2kπr_c) where 2kπr_c is the DE suppression:
@@ -140,7 +140,7 @@ print("--- Approach 5: Information theory ---")
 # So S_2D ~ τ_2D / t_Pl,3 (proportional)
 
 # The fraction of S_2D that "back-projects" to 3+1D might be:
-# f_back_2D_to_3plus1D ~ (τ_2D / τ_3plus1D)^?
+# f_DM_leak_to_3plus1D ~ (τ_2D / τ_3plus1D)^?
 # = ((E/E_Pl,3)^α × t_Pl,3 / τ_3plus1D)^?
 
 # This is essentially the time-dilation factor from v2.7.56

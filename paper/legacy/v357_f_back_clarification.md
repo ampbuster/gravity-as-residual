@@ -15,8 +15,8 @@ suggested better naming (**f_DM_leak / f_DM_death / f_DE**), which we adopt:
 
 | Usage | Direction | Value | What it produces |
 |-------|-----------|-------|------------------|
-| **f_DE** (was: f_back_4D) | 3+1D → 4D | 1.2×10⁻⁸⁵ (= t_Pl/τ_4D) | **DE** (dark energy) |
-| **f_DM_leak** (was: f_back_2D) | 2D → 3+1D (while alive) | 1.6×10⁻⁴⁵ (= t_Pl/τ_2D) | Negligible (0.16 J per SN) |
+| **f_DE** (was: f_DE) | 3+1D → 4D | 1.2×10⁻⁸⁵ (= t_Pl/τ_4D) | **DE** (dark energy) |
+| **f_DM_leak** (was: f_DM_leak) | 2D → 3+1D (while alive) | 1.6×10⁻⁴⁵ (= t_Pl/τ_2D) | Negligible (0.16 J per SN) |
 | **f_DM_death** (was: "100% pulsed return") | 2D → 3+1D (at death) | **1** (100%) | **DM** (27% cumulative) |
 
 The user is CORRECT:
@@ -30,7 +30,7 @@ The user is CORRECT:
 
 ### Flow #1: 4D → 3+1D (DE direction, downward)
 - **Continuous leakage** while 3+1D universe exists
-- **f_back_4D = 10⁻⁸⁵** (3+1D-to-4D)
+- **f_DE = 10⁻⁸⁵** (3+1D-to-4D)
 - This is what explains DE (68% of ρ_crit)
 - **Closed loop** with 4D → 3+1D projection (γ_4D ~ 10⁶²)
 
@@ -51,7 +51,7 @@ The user is CORRECT:
 
 | Phenomenon | Mechanism | Value | Direction |
 |------------|-----------|-------|-----------|
-| **Dark energy (68%)** | 4D antigravity, time-dilated | f_back_4D = **10⁻⁸⁵** | 4D → 3+1D |
+| **Dark energy (68%)** | 4D antigravity, time-dilated | f_DE = **10⁻⁸⁵** | 4D → 3+1D |
 | **Dark matter (27%)** | Cumulative 2D universe deaths | **100% pulsed** | 2D → 3+1D at death |
 | **Baryons (5%)** | Standard BBNS | N/A | Standard |
 | **Gravity (ε = 10⁻³⁸)** | 4D antigravity cancels 3+1D gravity | residual | 4D bulk |
@@ -60,8 +60,8 @@ The user is CORRECT:
 
 ## The Confusing Line in §3c Lagrangian
 
-> "4D event creates 3+1D (forward, f_back = 10⁻⁸⁵)"
-> "3+1D leaks back to 4D (backward, f_back = 10⁻⁸⁵)"
+> "4D event creates 3+1D (forward, f_DE = 10⁻⁸⁵)"
+> "3+1D leaks back to 4D (backward, f_DE = 10⁻⁸⁵)"
 
 This is the **closed loop for DE**, NOT for DM. It explicitly:
 - Uses γ_4D ~ 10⁶² (time dilation)
@@ -89,10 +89,10 @@ To avoid future confusion, the framework SHOULD rename:
 
 The paper EXPLICITLY distinguishes these in §3c Lagrangian:
 
-> **"f_back = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D"**
+> **"f_DE = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D"**
 > - 3+1D universe CURRENT AGE: 13.8 Gyr; LIFETIME: ~10³⁰ yr
-> - **f_back_4D = t_Pl/τ_4D = 1.2×10⁻⁸⁵ ✓ → DE**
-> - **f_back_2D = t_Pl/τ_2D = 1.6×10⁻⁴⁵ (NOT 10⁻⁸⁵)**
+> - **f_DE = t_Pl/τ_4D = 1.2×10⁻⁸⁵ ✓ → DE**
+> - **f_DM_leak = t_Pl/τ_2D = 1.6×10⁻⁴⁵ (NOT 10⁻⁸⁵)**
 > - DM = cumulative 2D universe deaths (Σ M_2D × N), 100% pulsed at death
 
 But this distinction is buried in §3c, easy to miss.
@@ -103,8 +103,8 @@ But this distinction is buried in §3c, easy to miss.
 
 Add to §0 Glossary or §3c a **"f_back USAGE GUIDE"** clearly stating:
 
-1. **f_back = 10⁻⁸⁵** = 3+1D→4D leakage rate → explains DE
-2. **f_back_2D = 10⁻⁴⁵** = 2D→3+1D while-alive leakage → negligible
+1. **f_DE = 10⁻⁸⁵** = 3+1D→4D leakage rate → explains DE
+2. **f_DM_leak = 10⁻⁴⁵** = 2D→3+1D while-alive leakage → negligible
 3. **DM from 2D death** = 100% pulsed return (NOT a continuous f_back)
 
 This would prevent the user's confusion in future reads.

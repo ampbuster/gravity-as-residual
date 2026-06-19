@@ -43,7 +43,7 @@ The cascade does NOT derive:
 - The 5:27 inner split (it's an interpretation)
 - The 5/27/68 formula (it was a post-hoc fit that doesn't survive)
 - The 2D universe mass in 3+1D (50-orders tension)
-- f_back ~ 10^-85
+- f_DE ~ 10^-85
 - g_+ ~ 1.2e-10 m/s²
 
 ## The honest distinction

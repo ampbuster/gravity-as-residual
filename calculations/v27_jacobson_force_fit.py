@@ -59,7 +59,7 @@ for name, E_Pl in [("LHC pp", E_pp_Pl), ("SN", E_SN_Pl), ("BNS", E_BNS_Pl), ("AG
 
 print()
 print("Verdict: f_back varies by ~10^10 orders of magnitude between LHC and AGN")
-print("This breaks the cascade's claim of a CONSTANT f_back = 10^-85.")
+print("This breaks the cascade's claim of a CONSTANT f_DE = 10^-85.")
 print("If f_back is E-dependent, the cascade's f_back becomes a NEW free function")
 print("(specifically, E^0.29), not a single number.")
 print()

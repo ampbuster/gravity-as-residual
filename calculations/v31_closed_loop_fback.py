@@ -20,7 +20,7 @@ cascade is ~10^13 GeV (not standard 10^19 GeV). This is a CALIBRATION.
 Two scenarios:
   (A) M_Pl,4 ~ 10^13 GeV with E_4D ~ 10^69 J
   (B) M_Pl,4 = 1.22e19 GeV (standard) with E_4D ~ 10^75 J
-Both give f_back_4D = 10^-85.
+Both give f_DE = 10^-85.
 
 Closed loop:
   1. LIFETIME: tau = (E/M_Pl)^alpha x t_Pl
@@ -39,7 +39,7 @@ M_Pl_3D_J = M_Pl_3D_GeV * 1.602e-10  # J
 # 2D->3D
 E_SN = 1e44  # J
 tau_2D = (E_SN/M_Pl_3D_J)**ALPHA * t_Pl
-f_back_2D = (M_Pl_3D_J/E_SN)**ALPHA
+f_DM_leak = (M_Pl_3D_J/E_SN)**ALPHA
 
 # 4D->3+1D
 tau_4D = 1.4e34 * 3.156e7  # s
@@ -47,7 +47,7 @@ tau_4D = 1.4e34 * 3.156e7  # s
 E_4D = 1e69
 M_Pl_4D_J = E_4D / (tau_4D/t_Pl)**(1/ALPHA)
 M_Pl_4D_GeV = M_Pl_4D_J / 1.602e-10
-f_back_4D = (M_Pl_4D_J/E_4D)**ALPHA
+f_DE = (M_Pl_4D_J/E_4D)**ALPHA
 
 print('='*70)
 print('CLOSED-LOOP f_back: SAME FORMULA AT BOTH TRANSITIONS')
@@ -65,7 +65,7 @@ print('='*70)
 print(f'E_SN = 10^44 J')
 print(f'M_Pl,3D = 1.22e19 GeV (standard 3D Planck)')
 print(f'tau_2D = {tau_2D:.3f} s (observed 33s, 11% match)')
-print(f'f_back_2D = {f_back_2D:.3e} per second')
+print(f'f_DM_leak = {f_DM_leak:.3e} per second')
 print()
 print('='*70)
 print('4D->3+1D (3+1D universe from 4D event)')
@@ -77,7 +77,7 @@ print('For M^alpha law to be self-consistent:')
 print(f'  M_Pl,4 (cascade) = {M_Pl_4D_GeV:.3e} GeV')
 print(f'  (NOT standard 4D Planck = 1.22e19 GeV)')
 print()
-print(f'f_back_4D = {f_back_4D:.3e} per second')
+print(f'f_DE = {f_DE:.3e} per second')
 print('(DE matching gave 1.2e-85, matches!)')
 print()
 print('='*70)
@@ -87,9 +87,9 @@ M_Pl_4D_standard_GeV = 1.22e19
 E_4D_standard = M_Pl_4D_standard_GeV * 1.602e-10 * (tau_4D/t_Pl)**(1/ALPHA)
 print(f'If M_Pl,4 = 1.22e19 GeV (standard):')
 print(f'  E_4D = {E_4D_standard:.3e} J')
-print(f'  f_back_4D = same = 1.2e-85')
+print(f'  f_DE = same = 1.2e-85')
 print()
-print('Both scenarios give SAME f_back_4D.')
+print('Both scenarios give SAME f_DE.')
 print('M_Pl,4 is a CALIBRATION, not a derivation.')
 print()
 print('='*70)
@@ -101,15 +101,15 @@ print(f'   2D: {tau_2D:.2f} s (SN calibration)')
 print(f'   4D: {tau_4D:.2e} s (DE calibration)')
 print()
 print('2. CONTINUOUS BACK-FLOW: f_back = (M_Pl/E)^alpha')
-print(f'   2D: {f_back_2D:.2e} per second')
-print(f'   4D: {f_back_4D:.2e} per second')
+print(f'   2D: {f_DM_leak:.2e} per second')
+print(f'   4D: {f_DE:.2e} per second')
 print()
 print('3. PULSED RETURN AT DEATH: 100% (no alpha)')
 print('   2D->3D: at 33s -> DM (visible NOW)')
 print('   3D->4D: at heat death -> 4D DM (FUTURE)')
 print()
 print('4. FORWARD CONTINUOUS FLOW (4*pi at 3D->4D):')
-print(f'   4D->3+1D: 4*pi x {f_back_4D:.2e} = {4*math.pi*f_back_4D:.2e}/s')
+print(f'   4D->3+1D: 4*pi x {f_DE:.2e} = {4*math.pi*f_DE:.2e}/s')
 print('   Integrated over tau_4D = DE (observed)')
 print()
 print('='*70)
@@ -120,7 +120,7 @@ print('Same alpha = 1.289 applies to:')
 print('  - Lifetime tau at every dimensional level')
 print('  - Back-flow rate f_back at every transition')
 print('  - 14 M^alpha events (SN, AGN, GRB, etc.) - 8/8 within 1.6x')
-print('  - f_back = 10^-85 (DE matching)')
+print('  - f_DE = 10^-85 (DE matching)')
 print('  - f_back = 10^-45 (2D leakage)')
 print()
 print('='*70)

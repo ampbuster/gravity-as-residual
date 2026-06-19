@@ -1070,7 +1070,7 @@ multiple cascade parameters that were previously calibrated.
 
 5. **CY h^{1,1} = 2**:
    - Volume form V = (1/2) κ t^a t^b t^c has intrinsic 1/2
-   - But f_back = 10^-85 doesn't come from CY alone
+   - But f_DE = 10^-85 doesn't come from CY alone
 
 6. **HONEST FINDING**: NONE of 4 specific suggestions derive 1/(2α).
 
@@ -2817,7 +2817,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 1. **§0 NEW: Parameter Glossary (quick reference table)** at the start of the paper
    - 2 truly free parameters: α = 1.29, z_half ≈ 3
-   - 3 calibrated postulates: f_back ~ 10^-85, ε ~ 10^-38, F_p ~ 0.7
+   - 3 calibrated postulates: f_DE ~ 10^-85, ε ~ 10^-38, F_p ~ 0.7
    - 5 observational inputs: 5/27/68, H_0, E_SN, etc.
    - 4 derived quantities: M_Pl,4 floor, f_primordial, H_0,4D, τ_4D
    - Recent removals: E_crit, λ_th, f_active (cleaned up over versions)
@@ -2850,14 +2850,14 @@ The cascade cannot proceed honestly without addressing L50.
 1. **§2.5.4 NEW subsection (~1.5 pages)**: The cascade adopts the *deaths-only DM* framework: 2D universe is invisible to 3+1D during its 33s lifetime, DM = cumulative deaths only.
 
 2. **The simplification**:
-   - **Before**: 2D universe has live back-projection (f_back_live ~ 0.05, REVERTED in v2.7.1) + cumulative death return
+   - **Before**: 2D universe has live back-projection (f_DM_leak ~ 0.05, REVERTED in v2.7.1) + cumulative death return
    - **After**: 2D universe is invisible during life, all DM from cumulative deaths
-   - f_back_live = 0 (POSTULATE, replaces the calibrated f_back_live ~ 0.05)
+   - f_DM_leak = 0 (POSTULATE, replaces the calibrated f_DM_leak ~ 0.05)
 
 3. **Why deaths-only is cleaner**:
    - Aligns with 5 of 6 framework analyses (CGHS, Padmanabhan, HW, RT, Jacobson)
    - All 5 frameworks describe 2D objects that EVAPORATE/DECAY at end of life
-   - The cascade's previous f_back_live ~ 0.05 was NOT in standard 2D gravity
+   - The cascade's previous f_DM_leak ~ 0.05 was NOT in standard 2D gravity
    - The "live back-projection" was a phenomenological fit (REVERTED in v2.7.1)
 
 4. **Parameter impact (HONEST)**:
@@ -3670,7 +3670,7 @@ Following extensive real-data testing, the paper now reports **17 test categorie
 
 **Self-corrections and "Numerical correction" notes removed from body** (June 2026): seven "Numerical correction" or self-correction notes were removed from the body (lines that said "an earlier version said X, corrected to Y" or "this is not because X — that phrasing is misleading"). The corrections are documented in this changelog, not in the body. The body now reads as a finished work, with all numerical claims stated correctly and no meta-commentary about earlier wrong versions.
 
-**Parameter list consistency fix** (June 2026): the §2.6 "Honest quantitative assessment" subsection previously listed "three free parameters (ε, f_inv, cascade partition)" but f_inv was an orphan variable (used nowhere else), f_deliver (added later) was missing, and f_back (used throughout) was missing. Replaced with the actual four parameters used in the paper: ε_{3+1D} ~ 10⁻³⁸, f_back ~ 10⁻⁸⁵, f_deliver ≤ 1, and cumulative 2D back-projection efficiency. The other parameter list at line 269 (R, τ_2D, E_2D, projection fraction) is properly contextualized as the *DM-specific* parameters, not the *global* parameters.
+**Parameter list consistency fix** (June 2026): the §2.6 "Honest quantitative assessment" subsection previously listed "three free parameters (ε, f_inv, cascade partition)" but f_inv was an orphan variable (used nowhere else), f_deliver (added later) was missing, and f_back (used throughout) was missing. Replaced with the actual four parameters used in the paper: ε_{3+1D} ~ 10⁻³⁸, f_DE ~ 10⁻⁸⁵, f_deliver ≤ 1, and cumulative 2D back-projection efficiency. The other parameter list at line 269 (R, τ_2D, E_2D, projection fraction) is properly contextualized as the *DM-specific* parameters, not the *global* parameters.
 
 **Version header trimmed** (June 2026): the v2.0 version header at the top of paper.md was 1126 chars (describing all v1.x → v2.0 changes inline). Trimmed to 369 chars (one-line summary pointing to changelog for details).
 

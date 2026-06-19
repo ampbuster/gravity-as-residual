@@ -184,7 +184,7 @@ print("PART 3: f_back FROM ENTROPY?")
 print("="*72)
 
 # f_back is the "back-projection" factor from 2D to 3+1D
-# In SIDC: f_back = 10^-85
+# In SIDC: f_DE = 10^-85
 # The interpretation: of all events on the 2D brane, only ~10^-85 fraction
 # projects back to 3+1D as observable
 

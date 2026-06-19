@@ -229,7 +229,7 @@ GROUND TRUTHS USED:
 
 CONSISTENCY:
   ✓ Scaling law: 8/8 3D events match within factor 1.6
-  ✓ Closed loop: f_back = 10^-85 (matches §3.60)
+  ✓ Closed loop: f_DE = 10^-85 (matches §3.60)
   ✓ Round-trip γ × f_back = 10^4 (gravitational coupling scale)
   ✓ Three ε's use same mechanism (bulk-brane cancellation at different L)
 

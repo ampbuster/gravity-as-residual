@@ -202,7 +202,7 @@ print("="*72)
 # SIDC's f_back = probability that 2D universe energy returns to 3+1D
 # This is the "back-projection" of the 2D universe's death
 
-# f_back ~ 10^-85 for SN (calibration)
+# f_DE ~ 10^-85 for SN (calibration)
 # Compare to: e^-S where S is some action
 
 # If S ~ 195.5 then e^-S ~ 10^-85
@@ -216,7 +216,7 @@ print("="*72)
 
 print(f"5a) RS-II warping:")
 print(f"   f_back = exp(-kL)")
-print(f"   For f_back = 10^-85:  kL ≈ {np.log(1e85):.2f}")
+print(f"   For f_DE = 10^-85:  kL ≈ {np.log(1e85):.2f}")
 print(f"   With k ~ M_Pl,4 (typical AdS_5 curvature):")
 print(f"   L ~ 195.5 / k ~ 195.5 × ℏ/(M_Pl,4 × c) ~ {195.5 * 1.6e-35:.2e} m")
 print(f"   Compare to extra-dim upper bound: ~10^-19 m → ratio ~10^16 TOO LARGE")
@@ -251,7 +251,7 @@ print(f"   So Boltzmann-from-T_2D doesn't work. f_back is NOT a Boltzmann factor
 # S_E = ∫ dτ √(2m(V - E))  ~ m × L × √(V-E)
 
 # If V-E ~ E_2D and m × L × √V ~ S_E:
-# For f_back = 10^-85, S_E ~ 195.5
+# For f_DE = 10^-85, S_E ~ 195.5
 
 # Compare to N=12 Schwarzian: S_0 ~ 12 × 0.2324 = 2.79
 # Compare to: c=1 string instanton: S_E ~ 1/g_s

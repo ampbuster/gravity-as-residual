@@ -13,7 +13,7 @@ Key cascade predictions for 47 Tuc:
    - Only ~20 millisecond pulsars, no current supernovae
    - Stellar winds from RGB/AGB stars are LOW-energy events
 2. NEGLIGIBLE cumulative 2D universe contribution
-   - f_back ~ 10^-85 (per cascade §2.6)
+   - f_DE ~ 10^-85 (per cascade §2.6)
    - Initial 10^6 M_sun cluster, ~10^4 massive stars at formation
    - Even 10^4 SN at 10^44 J each = 10^48 J, f_back × this = 10^-37 J
 3. NO local DM enhancement
@@ -209,7 +209,7 @@ M_DM_47Tuc = E_DM_47Tuc / c**2 / M_sun
 print(f"  In M_sun:                     {M_DM_47Tuc:.1e} M_sun")
 print()
 print("This is a HUGELY small number (10^-48 M_sun), essentially ZERO.")
-print("The cascade's f_back ~ 10^-85 makes the SN contribution to 47 Tuc's DM")
+print("The cascade's f_DE ~ 10^-85 makes the SN contribution to 47 Tuc's DM")
 print("completely negligible.")
 print()
 
@@ -363,7 +363,7 @@ print()
 
 # DM contribution from BH's 2D universe
 M_DM_BH = E_BH_form * f_back_cascade / c**2 / M_sun
-print(f"  DM from BH's 2D universe (using f_back ~ 10^-85):")
+print(f"  DM from BH's 2D universe (using f_DE ~ 10^-85):")
 print(f"    M_DM = E_BH × f_back / c^2 = {M_DM_BH:.2e} M_sun")
 print()
 print("This is essentially zero. The BH's 2D universe does NOT contribute")
@@ -457,7 +457,7 @@ print("   - All current energetic events are sub-Planckian or microsecond-scale"
 print()
 print("2. 47 Tuc's CUMULATIVE 2D universe contribution: ~10^-48 to 10^-32 M_sun")
 print("   - Negligible compared to 47 Tuc's mass (7e5 M_sun)")
-print("   - f_back ~ 10^-85 makes the SN contribution vanish")
+print("   - f_DE ~ 10^-85 makes the SN contribution vanish")
 print()
 print("3. 47 Tuc's DM: DOMINATED by the Galaxy's halo, NOT local")
 print("   - Galaxy's rho_DM at 7.4 kpc: ~0.06 GeV/cm^3")
@@ -472,7 +472,7 @@ print()
 print("5. Central BH (≤578 M_sun): 2D universe contribution is negligible")
 print("   - BH creates 2D universe at formation, lives 2.3e5 yr")
 print("   - After death, energy returned to 3+1D")
-print("   - f_back ~ 10^-85 means DM contribution is ~10^-32 M_sun (zero)")
+print("   - f_DE ~ 10^-85 means DM contribution is ~10^-32 M_sun (zero)")
 print("   - BH's gravitational influence is via standard GR, not 2D universes")
 print()
 print("6. Tidal tails: 5 known, consistent with Galactic tides")

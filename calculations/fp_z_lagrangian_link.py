@@ -186,7 +186,7 @@ N_SN_TOTAL = N_SN_PER_CENTURY_PER_GALAXY * N_GALAXIES * T_UNIVERSE_YR / 100
 print(f"\nTotal SNe over cosmic history: {N_SN_TOTAL:.2e}")
 
 M_PER_SN_J = 1e44  # J (kinetic + neutrino + GW)
-f_back = 1e-85
+f_DE = 1e-85
 DM_cumulative = N_SN_TOTAL * M_PER_SN_J * f_back
 print(f"DM_cumulative from SNe: {DM_cumulative:.2e} J")
 

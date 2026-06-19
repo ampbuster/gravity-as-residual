@@ -2531,7 +2531,7 @@ REAL DATA INTEGRATION:
   The cascade passes all 5 categories of real-data tests.
 
   REMAINING GAPS:
-  - No first-principles derivation of f_back ~ 10^-85
+  - No first-principles derivation of f_DE ~ 10^-85
   - No first-principles derivation of growth_factor ~ 10^8
   - f_proj ~ 10^-2 is calibrated, not derived
   - The 2D CFT Lagrangian is not yet specified

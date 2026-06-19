@@ -94,7 +94,7 @@ def f_back(E_J, M_Pl_GeV, alpha=alpha_cal):
 # 
 # At late times, this becomes a "drip" — but pulsed return is at death.
 # 
-# Hmm, the paper's formula f_back = 10^-85 /s doesn't quite work as I derived.
+# Hmm, the paper's formula f_DE = 10^-85 /s doesn't quite work as I derived.
 # Let me try a different interpretation: f_back is the rate CONSTANT, not the total fraction.
 # f_back = (M_Pl/E)^α / t_Pl (in 1/s)
 # Then ∫f_back dt = (M_Pl/E)^α × τ / t_Pl = (M_Pl/E)^α × (E/M_Pl)^α × t_Pl / t_Pl = 1.
@@ -108,7 +108,7 @@ print("So f_back = (M_Pl/E)^α / t_Pl is the rate that integrates to 1 at death.
 
 # Correct formula
 def f_back_rate(E_J, M_Pl_GeV, alpha=alpha_cal):
-    """Compute f_back rate in 1/s from M^α law."""
+    """Compute f_DE rate in 1/s from M^α law."""
     E_GeV = E_J * J_to_GeV
     return (M_Pl_GeV / E_GeV) ** alpha / t_Pl_3D
 
@@ -120,12 +120,12 @@ def f_back_fraction(E_J, M_Pl_GeV, alpha=alpha_cal):
 # 2D→3D: SN, M_Pl,3D = 1.22e19 GeV, E_SN = 1e44 J
 E_SN = 1e44
 tau_2D_SN = tau_M_alpha(E_SN, M_Pl_3D_GeV)
-f_back_2D_rate = f_back_rate(E_SN, M_Pl_3D_GeV)
-f_back_2D_frac = f_back_fraction(E_SN, M_Pl_3D_GeV)
+f_DM_leak_rate = f_back_rate(E_SN, M_Pl_3D_GeV)
+f_DM_leak_frac = f_back_fraction(E_SN, M_Pl_3D_GeV)
 print(f"2D→3D (SN): τ_2D = {tau_2D_SN:.3g} s (paper: 33 s)")
-print(f"  f_back rate = {f_back_2D_rate:.3g} /s (paper: 1.6×10⁻⁴⁵/s)")
-print(f"  f_back fraction = {f_back_2D_frac:.3g} (dimensionless)")
-print(f"  Integrated over τ: {f_back_2D_rate * tau_2D_SN:.3g} (should be 1.0)")
+print(f"  f_DE rate = {f_DM_leak_rate:.3g} /s (paper: 1.6×10⁻⁴⁵/s)")
+print(f"  f_back fraction = {f_DM_leak_frac:.3g} (dimensionless)")
+print(f"  Integrated over τ: {f_DM_leak_rate * tau_2D_SN:.3g} (should be 1.0)")
 
 # Try E_SN = 1.08e44 (to get 33s)
 E_SN_calibrated = 1.08e44
@@ -137,25 +137,25 @@ print(f"  Discrepancy: factor of {E_SN_calibrated/E_SN:.3f} between (1.08e44) an
 # 3D→4D: E_4D = 1.07e59 J, M_Pl,4D = 887 GeV
 E_4D = 1.07e59
 tau_4D = tau_M_alpha(E_4D, M_Pl_4D_GeV)
-f_back_4D_rate = f_back_rate(E_4D, M_Pl_4D_GeV)
-f_back_4D_frac = f_back_fraction(E_4D, M_Pl_4D_GeV)
+f_DE_rate = f_back_rate(E_4D, M_Pl_4D_GeV)
+f_DE_frac = f_back_fraction(E_4D, M_Pl_4D_GeV)
 print(f"\n3D→4D: τ_4D = {tau_4D:.3g} s = {tau_4D/yr:.3g} yr (paper: 1.4×10³⁴ yr)")
-print(f"  f_back rate = {f_back_4D_rate:.3g} /s (paper: 1.2×10⁻⁸⁵/s)")
-print(f"  f_back fraction = {f_back_4D_frac:.3g}")
-print(f"  Integrated over τ: {f_back_4D_rate * tau_4D:.3g} (should be 1.0)")
+print(f"  f_DE rate = {f_DE_rate:.3g} /s (paper: 1.2×10⁻⁸⁵/s)")
+print(f"  f_back fraction = {f_DE_frac:.3g}")
+print(f"  Integrated over τ: {f_DE_rate * tau_4D:.3g} (should be 1.0)")
 
 # ============================================================
 # 2. DE matching: ρ_DE = f_back × ε × M_Pl,3D^4
 # ============================================================
 print("\n--- 2. DE MATCHING: ρ_DE = f_back × ε × M_Pl,3D^4 ---")
-rho_DE_4D = f_back_4D_frac * epsilon * M_Pl_3D_GeV**4
+rho_DE_4D = f_DE_frac * epsilon * M_Pl_3D_GeV**4
 print(f"ρ_DE (from 4D closed loop) = {rho_DE_4D:.3g} GeV^4")
 print(f"ρ_DE (observed)            = {rho_DE_observed_GeV4:.3g} GeV^4")
 ratio_DE = rho_DE_4D / rho_DE_observed_GeV4
 print(f"Ratio (predicted/observed)  = {ratio_DE:.3f} (paper: ~1.14, 14% match)")
 
 # Use rate-based f_back
-rho_DE_4D_rate = f_back_4D_rate * epsilon * t_Pl_3D * M_Pl_3D_GeV**4
+rho_DE_4D_rate = f_DE_rate * epsilon * t_Pl_3D * M_Pl_3D_GeV**4
 print(f"ρ_DE (using rate × t_Pl)   = {rho_DE_4D_rate:.3g} GeV^4")
 print(f"  => Using rate-based gives the SAME answer multiplied by t_Pl factor")
 
@@ -231,7 +231,7 @@ print("="*70)
 print(f"τ_2D (SN, E=1e44 J)     = {tau_2D_SN:.3g} s     [paper: 33 s, MISMATCH by {tau_2D_SN/33:.2f}×]")
 print(f"τ_2D (SN, E=1.08e44 J)  = {tau_M_alpha(1.08e44, M_Pl_3D_GeV):.3g} s   [calibration value]")
 print(f"τ_4D (E_4D=1.07e59 J)   = {tau_4D:.3g} s = {tau_4D/yr:.3g} yr  [paper: 1.4×10³⁴ yr ✓]")
-print(f"f_back_4D rate          = {f_back_4D_rate:.3g} /s  [paper: 1.2×10⁻⁸⁵/s ✓]")
+print(f"f_DE rate          = {f_DE_rate:.3g} /s  [paper: 1.2×10⁻⁸⁵/s ✓]")
 print(f"ρ_DE / ρ_DE_obs         = {ratio_DE:.3f}        [paper: 1.14, 14% off]")
 print(f"M_Pl,9 / v_Higgs        = {M_Pl_9/v_Higgs:.4f}      [paper: 1.013, 1.3% off ✓]")
 print(f"N_sub max (τ_sub > 13.8 Gyr) = {N_sub_max:.3g}    [paper: ~2×10¹⁹ ✓]")

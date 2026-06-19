@@ -87,7 +87,7 @@ print("For SN with 2D Planck energy E_Pl,2 ~ E_Pl,3 (assumption):")
 print("  S_2D ~ (E_SN / E_Pl,2)² ~ (10^44 / 10^9)² = 10^70")
 print("  exp(-S_2D) ~ exp(-10^70) ≈ 0 (way too small)")
 print()
-print("Not consistent with f_back ~ 10^-85.")
+print("Not consistent with f_DE ~ 10^-85.")
 print()
 
 # Approach 5: 2D universe's lifetime / 3+1D universe's lifetime

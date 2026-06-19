@@ -299,7 +299,7 @@ INPUT (2 postulates):
 DERIVED (from the postulates + 2D CFT):
   - α = 1 + 1/√12 (from N=12 SYK)
   - M_Pl,4 = 887 GeV (from closed loop)
-  - f_back = 10^-85 (from boundary entropy)
+  - f_DE = 10^-85 (from boundary entropy)
   - M_Pl,2D = 3 TeV (holographic)
   - All other quantities
 
@@ -367,7 +367,7 @@ Everything else is derived from these + the 2D CFT structure:
 DERIVED QUANTITIES:
   - α = 1.289 (from N=12 SYK)
   - M_Pl,4 = 887 GeV (from closed loop)
-  - f_back ~ 10^-85 (from boundary entropy)
+  - f_DE ~ 10^-85 (from boundary entropy)
   - M_Pl,2D = 3 TeV (holographic)
   - 2D universe lifetime τ_2D = (E/M_Pl,3)^α × t_Pl,3
   - 5/27/68 split (from f_back × ε)

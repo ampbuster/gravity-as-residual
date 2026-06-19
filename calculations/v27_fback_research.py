@@ -6,7 +6,7 @@ to time compression/dilation between dimensions.
 
 Trial and error approach:
 1. Try various time-dilation / time-compression ratios
-2. Compare to the observed f_back ~ 10^-85
+2. Compare to the observed f_DE ~ 10^-85
 3. Identify what works and what doesn't
 4. Document findings honestly
 
@@ -48,7 +48,7 @@ E_SN = 1e44  # J
 E_LHC = 2.2e-6  # J
 
 print("=== f_back RESEARCH: trial and error (v2.7.56) ===\n")
-print(f"Target: f_back ~ 10^-85")
+print(f"Target: f_DE ~ 10^-85")
 print()
 
 # Trial 1: f_back = τ_3+1D / τ_4D
@@ -160,7 +160,7 @@ print("=== Trial 10: All reasonable factors ===")
 print("=== HONEST ASSESSMENT (v2.7.56 research) ===")
 print()
 print("After 10+ trials, NONE of the simple time-dilation / time-compression")
-print("ratios give the cascade's f_back ~ 10^-85.")
+print("ratios give the cascade's f_DE ~ 10^-85.")
 print()
 print("The simple ratios explored:")
 print("  - τ_3+1D / τ_4D = 10^-18 (off by 67 orders)")

@@ -148,7 +148,7 @@ links = [
      f"From N=12 SYK saddle-point"),
     ("M_Pl,2D = 3 TeV (holographic)", "✓ Yes",
      f"G_2D = G_3 × L_2D = 6.7e-39 × 5e25 = 3.4e-13 GeV⁻¹"),
-    ("f_back = 10^-85 (SN)", "✓ Yes",
+    ("f_DE = 10^-85 (SN)", "✓ Yes",
      f"From closed loop expression"),
     ("M_Pl,4 = 887 GeV (SIDC §10.3)", "✓ Yes",
      f"From the closed loop / RG structure"),

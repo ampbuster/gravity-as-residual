@@ -1227,7 +1227,7 @@ The cascade has 4 distinct flows (2 mechanisms × 2 directions):
 Continuous:
 - DE: 4D event's anti-gravity, ρ_DE = 2.71×10⁻⁴⁷ GeV⁴ ✓ (matches observed 2.5×10⁻⁴⁷)
 - DM continuous loss: 3D → 4D at rate f_back_3+1D = 4.79×10⁻⁵⁷ /s (very slow, integrated over τ_3+1D = 10³⁰ yr → 100% leak)
-- DM continuous gain: 2D → 3D (per 2D universe rate f_back_2D, integrated over 2D lifetime)
+- DM continuous gain: 2D → 3D (per 2D universe rate f_DM_leak, integrated over 2D lifetime)
 
 Pulsed:
 - DM creation: at 2D universe death (~33s for SN), baryons+DM in 2D pulse to 3D
@@ -1249,7 +1249,7 @@ So DM accumulates over time (since rate_in >> rate_out). Cumulative gives 3.4× 
 
 **DE in 3D** (continuous only):
 
-DE is the 4D event's anti-gravity, ongoing. Rate f_back_4D × ε × M_Pl,3D⁴ = 2.71×10⁻⁴⁷ GeV⁴ ✓
+DE is the 4D event's anti-gravity, ongoing. Rate f_DE × ε × M_Pl,3D⁴ = 2.71×10⁻⁴⁷ GeV⁴ ✓
 
 **Status of bilateral cascade**:
 - DE matches observation (within 0.4%) ✓

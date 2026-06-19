@@ -318,7 +318,7 @@ print("="*72)
 # If we identify f_back with the boundary action:
 # f_back = exp(-2 S_bdy) = 1/g_L²
 
-# For f_back ~ 10^-85 (SN):
+# For f_DE ~ 10^-85 (SN):
 # S_bdy = 42.75
 # g_L = exp(42.75) = 2.3 × 10^18 (huge!)
 
@@ -327,7 +327,7 @@ print("="*72)
 # g_L = exp(27.25) = 6.9 × 10^11
 
 print(f"\nAffleck-Ludwig boundary entropy:")
-print(f"\n  For SN (f_back ~ 10^-85):")
+print(f"\n  For SN (f_DE ~ 10^-85):")
 print(f"    S_bdy = -log(f_back)/2 = {-np.log(1e-85)/2:.2f}")
 print(f"    g_L = exp(S_bdy) = {np.exp(-np.log(1e-85)/2):.3e}")
 

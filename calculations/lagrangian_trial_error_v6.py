@@ -458,16 +458,16 @@ print("PART 4: CLOSED LOOP COUPLING (f_back)")
 print("=" * 80)
 print()
 print("f_back is the fraction of 2D universe energy that back-projects")
-print("as DM in 3+1D. The cascade says f_back = 10^-85 (extremely small).")
+print("as DM in 3+1D. The cascade says f_DE = 10^-85 (extremely small).")
 print()
-print("Trial: what gives f_back = 10^-85 from the Lagrangian?")
+print("Trial: what gives f_DE = 10^-85 from the Lagrangian?")
 print()
 
 # From cascade: f_back = ε × (E_4D/M_Pl^4)
 # ε = e^{-kL} (RS-II, exponential suppression)
 # k = curvature of 5D AdS, L = AdS_5 length
 
-# For f_back = 10^-85:
+# For f_DE = 10^-85:
 # 10^-85 = e^{-kL} × (E_4D/M_Pl^4)
 # e^{-kL} = 10^-85 / (E_4D/M_Pl^4)
 
@@ -489,12 +489,12 @@ for kL in [1, 5, 10, 20, 50, 85, 100, 150, 200]:
     print(f"  kL = {kL:>4}: f_back = e^{{-{kL}}} = {f_back:.3e}")
 
 print()
-print("For f_back = 10^-85, need kL ≈ 195.5")
+print("For f_DE = 10^-85, need kL ≈ 195.5")
 print("This is a huge kL — the 5D AdS is highly curved or long")
 print()
 
 # This is fine — RS-II can have any kL
-# f_back = 10^-85 is a SPECIFIC structural choice
+# f_DE = 10^-85 is a SPECIFIC structural choice
 
 # ============================================================================
 # PART 5: 2D CFT OPERATOR BASIS FOR 14 EVENTS
@@ -569,7 +569,7 @@ print("   Higher E events create LIGHTER 2D universes")
 print("   Lighter = more time dilation = longer 3+1D lifetime")
 print()
 print("4. CLOSED LOOP COUPLING f_back:")
-print("   f_back = 10^-85 = e^{-195.5} (from RS-II kL ≈ 195.5)")
+print("   f_DE = 10^-85 = e^{-195.5} (from RS-II kL ≈ 195.5)")
 print("   This is a STRUCTURAL choice, not a fit")
 print()
 print("5. 2D CFT OPERATOR BASIS:")

@@ -21,7 +21,7 @@ Application to the cascade:
 
 Question: Does the RT formula give the cascade's
 - 2D universe back-projection = DM ?
-- f_back ~ 10^-85 back-projection efficiency ?
+- f_DE ~ 10^-85 back-projection efficiency ?
 - Inversion (4D attractive → 3+1D repulsive) ?
 
 Test 1: RT formula and 2D universe area.
@@ -44,7 +44,7 @@ This is a HUGE entanglement entropy. The 2D universe is a "small" object
 (in 2D), but its boundary in 3+1D is a 2-sphere of radius c τ_2D = 1e10 m,
 which is much larger than the 2D universe's intrinsic size.
 
-Test 2: Does this match the cascade's "f_back ~ 10^-85"?
+Test 2: Does this match the cascade's "f_DE ~ 10^-85"?
 
 The cascade's f_back is the BACK-PROJECTION EFFICIENCY: the fraction of the
 SN's energy that ends up in 2D universe gravity. If the 2D universe's
@@ -66,7 +66,7 @@ universes' "area" in the bulk is the RT surface for the 3+1D boundary
 region.
 
 But this is a STRUCTURAL match, not a quantitative derivation. The
-cascade's specific f_back ~ 10^-85 is a SEPARATE input.
+cascade's specific f_DE ~ 10^-85 is a SEPARATE input.
 
 Test 4: Does RT give the inversion (4D attractive → 3+1D repulsive)?
 
@@ -186,7 +186,7 @@ print("Cascade DM = 2D universe back-projection (cumulative, all 2D universes)")
 print("RT: DM (boundary) = missing bulk entanglement entropy")
 print()
 print("Structural match: YES")
-print("Quantitative derivation: NO (cascade's f_back ~ 10^-85 is separate input)")
+print("Quantitative derivation: NO (cascade's f_DE ~ 10^-85 is separate input)")
 print()
 
 print("=" * 70)

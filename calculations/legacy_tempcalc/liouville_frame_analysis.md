@@ -28,7 +28,7 @@ The 3+1D-frame observables require conversion from 2D to 3+1D:
 - **H(z) profile in 3+1D**: requires cosmological integral of 2D universe deaths
 - **5/27/68 split**: requires Boltzmann evolution in 3+1D
 - **g_+ (RAR universal scale)**: requires 2D-to-3+1D energy deposit calculation
-- **f_back ~ 10^-85**: a probability, not a 2D CFT quantity
+- **f_DE ~ 10^-85**: a probability, not a 2D CFT quantity
 
 These are NOT in 2D units. They require conversion.
 

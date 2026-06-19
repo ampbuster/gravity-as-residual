@@ -227,7 +227,7 @@ WHAT'S DERIVED FROM THE CLOSED LOOP:
   - The conceptual unity: one geometric process
 
 WHAT'S STILL CALIBRATED:
-  - The numerical value of f_back = 10^-85 (L31, L41)
+  - The numerical value of f_DE = 10^-85 (L31, L41)
   - The exact ε_1, ε_2, ε_3 values
   - The bulk geometry (k, L, M_Pl,5)
 
