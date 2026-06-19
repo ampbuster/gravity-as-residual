@@ -37,7 +37,9 @@ These two expressions are SIDC's quantitative backbone and are taken as ground t
 
 **Every 3D event creates a 2D universe. The 2D universe's lifetime in 3+1D view follows:**
 
-$$\boxed{\tau_{2D,\,\text{our frame}} = 33\,\text{s} \times \left(\frac{E_{\text{3D event}}}{10^{44}\,\text{J}}\right)^{1.29}}$$
+$$\boxed{\tau_{2D,\,\text{our frame}} = t_{\rm Pl,3} \times \left(\frac{E_{\rm 3D\,event}}{M_{\rm Pl,3D}}\right)^{1.29}}$$
+
+(SN calibration: $\tau_{2D} = 33\,$s when $E = 10^{44}$ J, the SN energy.)
 
 - **Hierarchy (v3.0.21, user-corrected)**: A **3D event** (event in 3+1D spacetime = our universe) creates a **2D universe**. (NOT a 4D event — that creates our 3+1D universe.)
 - **Calibration**: SN1987A ($E_{\text{3D}} = 10^{44}$ J, $\tau = 33$ s) anchors the rule.
