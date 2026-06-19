@@ -689,7 +689,7 @@ $$M_{DM, 2D \to 3+1D} = 0.32 \cdot M_{2D,peak} = 6.4 \cdot G \cdot M_{event} = 1
 
 The volumetric growth V_{growth} comes from the 2D universe's expansion in its own frame. For a 2D universe with equation-of-state parameters Omega_{DE,2D} and Omega_{m,2D} (with Omega_{DE,2D} + Omega_{m,2D} = 1 for a flat universe, or Omega_{DE,2D} + Omega_{m,2D} > 1 for closed), the FRW dynamics gives:
 
-$$V_{growth} = V_{matter} \cdot V_{DE}$
+$$V_{growth} = V_{matter} \cdot V_{DE}$$
 
 In the matter-dominated era, a(t) ~ t^{2/3}, so V ~ t^2. If matter–DE equality occurs at time t_eq = f_{eq} * T_{2D} (where f_{eq} is the fraction of the 2D lifetime at equality), then:
 
@@ -986,33 +986,33 @@ This is consistent with observations: G has been constant to within ~10% over th
 ---
 
 
-## 0.5 f_back USAGE GUIDE (v3.5.7 CLARIFICATION)
+## 0.5 $f_{\rm back}$ USAGE GUIDE (v3.5.7 CLARIFICATION)
 
-**User catch (June 19, 2026)**: "what does f_back mean? 2d death -> 3d DM? why 10^-85? isn't that number for 4d->3d DE?"
+**User catch (June 19, 2026)**: "what does $f_{\rm back}$ mean? 2d death -> 3d DM? why 10^-85? isn't that number for 4d->3d DE?"
 
-**You were right.** The symbol "f_back" was overloaded. New naming:
+**You were right.** The symbol "$f_{\rm back}$" was overloaded. New naming:
 
 | Symbol | Direction | Value | What it produces |
 |--------|-----------|-------|------------------|
-| **f_DM_leak** | 2D → 3+1D while alive | 1.6×10⁻⁴⁵ | Negligible (0.16 J per SN) |
-| **f_DM_death** | 2D → 3+1D at death | **1** (100%) | **DM (27%) cumulative** |
-| **f_DE** | 3+1D → 4D | 1.2×10⁻⁸⁵ | **DE (68%)** |
+| **$f_{\rm DM,leak}$** | 2D → 3+1D while alive | 1.6×10⁻⁴⁵ | Negligible (0.16 J per SN) |
+| **$f_{\rm DM,death}$** | 2D → 3+1D at death | **1** (100%) | **DM (27%) cumulative** |
+| **$f_{\rm DE}$** | 3+1D → 4D | 1.2×10⁻⁸⁵ | **DE (68%)** |
 
 **Three flows, three names, no confusion**:
 
-1. **f_DM_leak** = continuous 2D→3+1D leakage while 2D universe lives (tiny, can be ignored)
-2. **f_DM_death** = pulsed 2D→3+1D at τ_2D = 100% (gives all DM)
-3. **f_DE** = continuous 3+1D→4D leakage = 10⁻⁸⁵ (gives DE)
+1. **$f_{\rm DM,leak}$** = continuous 2D→3+1D leakage while 2D universe lives (tiny, can be ignored)
+2. **$f_{\rm DM,death}$** = pulsed 2D→3+1D at τ_2D = 100% (gives all DM)
+3. **$f_{\rm DE}$** = continuous 3+1D→4D leakage = 10⁻⁸⁵ (gives DE)
 
 **Your key insight**: 10⁻⁸⁵ is for 3+1D→4D DE, NOT for 2D→3+1D DM.
 DM comes from 100% pulsed return at 2D universe death.
 
-**Why this matters**: The old "f_back" was used for both:
+**Why this matters**: The old "$f_{\rm back}$" was used for both:
 - Continuous leakage (small while-alive fraction)
 - DE consistency check (10⁻⁸⁵, 3D→4D only)
 
 These are different flows and now have distinct names.
 
-**To be applied in future versions**: Replace f_back with f_DE/f_DM_leak/f_DM_death throughout paper.
+**To be applied in future versions**: Replace $f_{\rm back}$ with $f_{\rm DE}$/$f_{\rm DM,leak}$/$f_{\rm DM,death}$ throughout paper.
 
 See `paper/legacy/v357_f_back_clarification.md` for full discussion.

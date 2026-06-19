@@ -17,7 +17,7 @@
 
 **μ is calibrated, but this is consistent with modern unimodular gravity!**
 
-5 structural origins of μ = M_Pl,2D²:
+5 structural origins of μ = $M_{\rm Pl}$,2D²:
 1. **Unimodular gravity (HT)**: Λ is integration constant — calibrated is expected
 2. **Hagedorn T_H = M_s/(2π)**: exact from closed string modular invariance
 3. **JT U(Φ)=2Φ**: the "2" traces to R_AdS_2 = -2/L²
@@ -35,12 +35,12 @@
 
 ## Free Parameters (9 total)
 
-- 1 measured: M_Pl,3D = 1.22×10¹⁹ GeV
-- 1 calibrated: M_Pl,2D = 3 TeV (via SN τ_2D = 33 s)
-- 1 DERIVED: M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α)
+- 1 measured: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV
+- 1 calibrated: $M_{\rm Pl,2D}$ = 3 TeV (via SN τ_2D = 33 s)
+- 1 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)
 - 4 calibrated: α = 1.289, ε = 10⁻³⁸, τ_4D, AGN rate
 - 1 free: N_sub = 4×10²
-- 1 calibrated: μ = M_Pl,2D² (now STRUCTURALLY MOTIVATED)
+- 1 calibrated: μ = $M_{\rm Pl}$,2D² (now STRUCTURALLY MOTIVATED)
 
 ## μ Status Change
 
@@ -62,7 +62,7 @@ The framework's "weakness" (μ calibrated, not derived) became its "strength":
 
 - L26: μ is calibrated (now consistent with unimodular gravity, v3.5.6)
 - L43: α = 1.289 not derivable from 2D CFT alone
-- L138: M_Pl,4D mechanism (α-weighted GM, hypothesis)
+- L138: $M_{\rm Pl,4D}$ mechanism (α-weighted GM, hypothesis)
 - L100 v3.5.x: 30+ user-driven corrections
 - L307-L313: Various v3.5.5 findings
 - L314-L318: 5 new v3.5.6 structural origins

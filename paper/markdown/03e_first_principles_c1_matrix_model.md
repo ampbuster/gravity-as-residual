@@ -1,4 +1,4 @@
-# First-Principles Analysis: c=1 Matrix Model → M_Pl,2D = 3 TeV
+# First-Principles Analysis: c=1 Matrix Model → $M_{\rm Pl,2D}$ = 3 TeV
 
 **v3.3.8, USER'S SHARP TNT WEIRDNESS CATCH**
 
@@ -12,23 +12,23 @@ The user correctly identified a **real inconsistency** in Option A (event-depend
 
 The brute force formula μ = E/τ gives:
 
-| Event | μ (GeV²) | M_Pl,2D | User's intuition |
+| Event | μ (GeV²) | $M_{\rm Pl,2D}$ | User's intuition |
 |---|---|---|---|
 | TNT (small event) | 1.28×10¹⁷ | **360,000 TeV** | Should be SMALLER, not bigger! |
 | SN (medium event) | 9.67×10⁶ | 3 TeV | Reasonable |
 | Quasar (huge event) | 2.02×10² | **14 GeV** | Should be LARGER, not smaller! |
 
-**M_Pl,2D is INVERTED from event size!**
+**$M_{\rm Pl,2D}$ is INVERTED from event size!**
 
 ## Why This Is Confusing
 
-The user's intuition: small event → small 2D universe → small M_Pl,2D
+The user's intuition: small event → small 2D universe → small $M_{\rm Pl,2D}$
 
 Reality with brute force formula:
-- Small event → SHORT lifetime (τ_2D ∝ E^α) → high μ → high M_Pl,2D
-- Big event → LONG lifetime → low μ → low M_Pl,2D
+- Small event → SHORT lifetime (τ_2D ∝ E^α) → high μ → high $M_{\rm Pl,2D}$
+- Big event → LONG lifetime → low μ → low $M_{\rm Pl,2D}$
 
-So **M_Pl,2D is inversely correlated with event energy.**
+So **$M_{\rm Pl,2D}$ is inversely correlated with event energy.**
 
 This is **counterintuitive** because we might think:
 - Higher energy → more "stuff" → higher mass scale
@@ -36,36 +36,36 @@ This is **counterintuitive** because we might think:
 
 ## Why This Might Be Right (Defenders)
 
-**Interpretation**: M_Pl,2D is NOT universe size. It's the quantum gravity scale.
+**Interpretation**: $M_{\rm Pl,2D}$ is NOT universe size. It's the quantum gravity scale.
 
-- **High M_Pl,2D** = "rigid" 2D universe (strong quantum gravity at lower energies)
-- **Low M_Pl,2D** = "soft" 2D universe (weak quantum gravity)
-- **Universe SIZE** depends on energy × time = action, not M_Pl,2D directly
+- **High $M_{\rm Pl,2D}$** = "rigid" 2D universe (strong quantum gravity at lower energies)
+- **Low $M_{\rm Pl,2D}$** = "soft" 2D universe (weak quantum gravity)
+- **Universe SIZE** depends on energy × time = action, not $M_{\rm Pl,2D}$ directly
 
 TNT 2D universe:
-- M_Pl,2D = 360,000 TeV (very rigid)
+- $M_{\rm Pl,2D}$ = 360,000 TeV (very rigid)
 - Size = c × τ = 3×10⁸ × 10⁻⁴³ = 3×10⁻³⁵ m (TINY!)
 - Action = E × τ = 4×10⁹ × 10⁻⁴³ = 4×10⁻³⁴ J·s (tiny!)
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:
-- M_Pl,2D = 3 TeV (softer)
+- $M_{\rm Pl,2D}$ = 3 TeV (softer)
 - Size = c × τ = 10¹⁰ m (huge!)
 - Action = 10⁴⁴ × 33 = 3.3×10⁴⁵ J·s (huge!)
 - DM contribution: huge (action is huge)
 
-So even though M_Pl,2D is "inverted", DM contribution isn't:
-- TNT has high M_Pl,2D but tiny action → low DM
-- SN has low M_Pl,2D but huge action → high DM
+So even though $M_{\rm Pl,2D}$ is "inverted", DM contribution isn't:
+- TNT has high $M_{\rm Pl,2D}$ but tiny action → low DM
+- SN has low $M_{\rm Pl,2D}$ but huge action → high DM
 
-**The user's concern about "more DM" is wrong** — TNT produces LESS DM despite high M_Pl,2D.
+**The user's concern about "more DM" is wrong** — TNT produces LESS DM despite high $M_{\rm Pl,2D}$.
 
 ## Why This Might Be Wrong (User's Insight)
 
 **User's insight is still RIGHT in one way**:
 
 1. **Why would Nature create TNT 2D universes?**
-   - They're bizarre (M_Pl,2D = 360,000 TeV)
+   - They're bizarre ($M_{\rm Pl,2D}$ = 360,000 TeV)
    - They die instantly (no DM contribution)
    - They have no observable effect
 
@@ -111,7 +111,7 @@ But this is ad hoc — no clear principle for K_max.
 What if there's a NATURAL FLOOR for 2D universe creation?
 
 **Threshold candidates:**
-- E_threshold = M_Pl,3D × c² ≈ 10⁹ J (Planck energy in joules)
+- E_threshold = $M_{\rm Pl,3D}$ × c² ≈ 10⁹ J (Planck energy in joules)
 - E_threshold = 10²⁵ J (X-class flare scale)
 - E_threshold = 10⁴⁴ J (SN scale — but then no TNT, flare, etc.)
 
@@ -130,7 +130,7 @@ The cleanest approach:
    - Avoids weirdness
    - Simpler (9 parameters)
    - Agrees with most physics intuition
-   - M_Pl,2D = 3 TeV universal
+   - $M_{\rm Pl,2D}$ = 3 TeV universal
 
 2. **v3.3.6 (extended)**: Mention event-dependent μ
    - More honest about brute force pattern
@@ -143,11 +143,11 @@ This is the **honest** approach: present both, let readers choose.
 
 The user's intuition was **CORRECT** in one sense:
 - Option A's brute force formula creates counterintuitive predictions
-- TNT having high M_Pl,2D is WEIRD
+- TNT having high $M_{\rm Pl,2D}$ is WEIRD
 - The framework should acknowledge this
 
 But the user's intuition was **WRONG** in another sense:
-- DM contribution is NOT proportional to M_Pl,2D
+- DM contribution is NOT proportional to $M_{\rm Pl,2D}$
 - TNT produces LESS DM (because action is tiny)
 - The formula is internally consistent, just counterintuitive
 
@@ -169,8 +169,8 @@ The framework should:
 
 ## New Limitations
 
-- **L185 (NEW v3.3.8)**: TNT 2D universe has weird M_Pl,2D = 360,000 TeV (Option A)
-- **L186 (NEW v3.3.8)**: M_Pl,2D inverted from event size (counterintuitive)
+- **L185 (NEW v3.3.8)**: TNT 2D universe has weird $M_{\rm Pl,2D}$ = 360,000 TeV (Option A)
+- **L186 (NEW v3.3.8)**: $M_{\rm Pl,2D}$ inverted from event size (counterintuitive)
 - **L187 (NEW v3.3.8)**: No clear principle to censor tiny events
 - **L188 (NEW v3.3.8)**: K (event-dep proportionality) is calibrated, not derived
 

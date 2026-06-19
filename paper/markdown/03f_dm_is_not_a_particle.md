@@ -25,7 +25,7 @@ The framework v3.3 doesn't fully specify the form of DM. Three possibilities:
 ### Possibility A: Single particle species
 - All 2D universes decay to the same particle
 - m_DM is universal (some specific value)
-- Natural choice: m_DM = M_Pl,2D = 3 TeV
+- Natural choice: m_DM = $M_{\rm Pl,2D}$ = 3 TeV
 - Direct detection: would see a peak at 3 TeV
 - **Status: HYPOTHESIS, not derived**
 
@@ -72,7 +72,7 @@ These tests can't directly probe the framework's DM.
 |---|---|---|
 | **Cosmological structure** | Does 27% match? | ✓ (calibrated) |
 | **CMB power spectrum** | Does DE = 68% match? | ✓ (calibrated τ_4D) |
-| **Hubble tension** | Cascade H_0 = 70.16? | ✓ (matches TRGB) |
+| **Hubble tension** | Cascade $H_0$ = 70.16? | ✓ (matches TRGB) |
 | **Small-scale structure** | CDM-like behavior? | ✓ (calibrated) |
 | **Pulsed injection** | Is DM pulsed, not steady? | Testable (unusual signature) |
 | **Direct detection** | Is there a 3 TeV particle? | Future (DARWIN) |

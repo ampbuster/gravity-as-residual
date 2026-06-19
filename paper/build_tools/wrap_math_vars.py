@@ -89,7 +89,12 @@ VARS = [
     (r'\bv_Higgs\b', '$v_{\\rm Higgs}$'),
     (r'\bM_string\b', '$M_{\\rm string}$'),
     (r'\bm_string\b', '$m_{\\rm string}$'),
-    (r'\bf_back\b(?!\d|_|\^)', '$f_{\\rm back}$'),  # NOT f_back_3 etc.
+    # f_back was renamed to f_DE / f_DM_leak / f_DM_death (v3.5.7)
+    # These new names are preserved as-is (don't wrap with extra $)
+    (r'\bf_DE\b', '$f_{\\rm DE}$'),
+    (r'\bf_DM_leak\b', '$f_{\\rm DM,leak}$'),
+    (r'\bf_DM_death\b', '$f_{\\rm DM,death}$'),
+    (r'\bf_back\b(?!\d|_|\^)', '$f_{\\rm back}$'),  # legacy f_back only
     (r'\bf_active\b', '$f_{\\rm active}$'),
 
     # SM fermions
@@ -110,7 +115,7 @@ VARS = [
 
     # Couplings
     (r'\bg_2D\b', '$g_{\\rm 2D}$'),
-    (r'\bg_+\b', '$g_+$'),
+    (r'\bg_\+(?=[^a-zA-Z0-9_]|$)', '$g_+$'),
     (r'\bg_-\b', '$g_-$'),
 
     # Other
@@ -121,32 +126,82 @@ VARS = [
 
 
 def is_in_math(text, pos):
-    """Check if position is inside $...$ or $$...$$"""
-    state = 'text'
+    """Check if position is inside $...$ or $$...$$.
+    Uses precomputed math ranges for speed and correctness."""
+    if not hasattr(is_in_math, '_text') or is_in_math._text is not text:
+        is_in_math._ranges = find_math_ranges(text)
+        is_in_math._text = text
+    for start, end in is_in_math._ranges:
+        if start <= pos < end:
+            return True
+    return False
+
+
+def find_math_ranges(text):
+    """Find all positions where text is inside math mode (display OR inline).
+    Returns list of (start, end) character ranges covering math content (excluding delimiters)."""
+    ranges = []
+    
+    # Find ALL $$...$$ display math blocks
     i = 0
-    while i < pos:
+    while i < len(text) - 1:
+        if text[i] == '\\' and i + 1 < len(text):
+            i += 2
+            continue
+        if text[i] == '$' and text[i+1] == '$':
+            j = i + 2
+            while j < len(text) - 1:
+                if text[j] == '\\' and j + 1 < len(text):
+                    j += 2
+                    continue
+                if text[j] == '$' and text[j+1] == '$':
+                    ranges.append((i+2, j))
+                    i = j + 2
+                    break
+                j += 1
+            else:
+                ranges.append((i+2, len(text)))
+                i = len(text)
+        else:
+            i += 1
+    
+    # Find ALL $...$ inline math blocks (skip ones that are part of $$)
+    i = 0
+    while i < len(text):
         if text[i] == '\\' and i + 1 < len(text):
             i += 2
             continue
         if text[i] == '$':
+            # Skip if this $ is part of $$
             if i + 1 < len(text) and text[i+1] == '$':
-                if state == 'display_math':
-                    state = 'text'
-                else:
-                    state = 'display_math'
                 i += 2
                 continue
-            else:
-                if state == 'inline_math':
-                    state = 'text'
-                elif state == 'display_math':
-                    pass
-                else:
-                    state = 'inline_math'
+            # Skip if previous char is $ (i.e., this is the second $ of $$)
+            if i > 0 and text[i-1] == '$':
                 i += 1
                 continue
-        i += 1
-    return state in ('inline_math', 'display_math')
+            # Find closing $
+            j = i + 1
+            while j < len(text):
+                if text[j] == '\\' and j + 1 < len(text):
+                    j += 2
+                    continue
+                if text[j] == '$':
+                    # Check it's not $$
+                    if j + 1 < len(text) and text[j+1] == '$':
+                        # This is part of $$, so it's not the close of inline
+                        j += 1
+                        continue
+                    ranges.append((i+1, j))
+                    i = j + 1
+                    break
+                j += 1
+            else:
+                i += 1
+        else:
+            i += 1
+    
+    return ranges
 
 
 def is_in_code(text, pos):
@@ -163,19 +218,32 @@ def process_file(filepath):
 
     changes = 0
     for pattern, repl_math in VARS:
-        candidates = []
+        # Find all matches NOT in math mode
+        replacements = []  # (start, end, new_text)
         for match in re.finditer(pattern, content):
-            if is_in_math(content, match.start()):
+            pos = match.start()
+            if is_in_math(content, pos):
                 continue
-            if is_in_code(content, match.start()):
+            if is_in_code(content, pos):
                 continue
-            candidates.append(match.group(0))
+            # Skip if char immediately before or after is $ (already touching math)
+            if pos > 0 and content[pos-1] == '$':
+                continue
+            end = match.end()
+            if end < len(content) and content[end] == '$':
+                continue
+            replacements.append((pos, end, repl_math))
 
-        if not candidates:
+        if not replacements:
             continue
 
-        changes += len(candidates)
-        content = re.sub(pattern, lambda m: repl_math, content)
+        # Apply replacements from end to start (preserves positions)
+        replacements.sort(reverse=True)
+        new_content = content
+        for pos, end, repl in replacements:
+            new_content = new_content[:pos] + repl + new_content[end:]
+        content = new_content
+        changes += len(replacements)
 
     if changes > 0:
         with open(filepath, 'w') as f:
