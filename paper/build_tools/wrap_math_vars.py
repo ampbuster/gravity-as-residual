@@ -165,68 +165,49 @@ def is_in_math(text, pos):
 
 def find_math_ranges(text):
     """Find all positions where text is inside math mode (display OR inline).
-    Returns list of (start, end) character ranges covering math content (excluding delimiters)."""
+    Returns list of (start, end) character ranges covering math content (excluding delimiters).
+    Uses a proper state machine.
+    """
     ranges = []
-    
-    # Find ALL $$...$$ display math blocks
-    i = 0
-    while i < len(text) - 1:
-        if text[i] == '\\' and i + 1 < len(text):
-            i += 2
-            continue
-        if text[i] == '$' and text[i+1] == '$':
-            j = i + 2
-            while j < len(text) - 1:
-                if text[j] == '\\' and j + 1 < len(text):
-                    j += 2
-                    continue
-                if text[j] == '$' and text[j+1] == '$':
-                    ranges.append((i+2, j))
-                    i = j + 2
-                    break
-                j += 1
-            else:
-                ranges.append((i+2, len(text)))
-                i = len(text)
-        else:
-            i += 1
-    
-    # Find ALL $...$ inline math blocks (skip ones that are part of $$)
+    state = 0  # 0=text, 1=inline, 2=display
+    open_pos = 0
     i = 0
     while i < len(text):
-        if text[i] == '\\' and i + 1 < len(text):
+        c = text[i]
+        if c == '\\' and i + 1 < len(text):
             i += 2
             continue
-        if text[i] == '$':
-            # Skip if this $ is part of $$
+        if c == '$':
+            # Check for $$
             if i + 1 < len(text) and text[i+1] == '$':
+                if state == 0:
+                    state = 2
+                    open_pos = i
+                    i += 2
+                    continue
+                if state == 2:
+                    ranges.append((open_pos + 2, i))
+                    state = 0
+                    i += 2
+                    continue
+                # In inline math, $$ is just text
                 i += 2
                 continue
-            # Skip if previous char is $ (i.e., this is the second $ of $$)
-            if i > 0 and text[i-1] == '$':
+            # Single $
+            if state == 0:
+                state = 1
+                open_pos = i
                 i += 1
                 continue
-            # Find closing $
-            j = i + 1
-            while j < len(text):
-                if text[j] == '\\' and j + 1 < len(text):
-                    j += 2
-                    continue
-                if text[j] == '$':
-                    # Check it's not $$
-                    if j + 1 < len(text) and text[j+1] == '$':
-                        # This is part of $$, so it's not the close of inline
-                        j += 1
-                        continue
-                    ranges.append((i+1, j))
-                    i = j + 1
-                    break
-                j += 1
-            else:
+            if state == 1:
+                ranges.append((open_pos + 1, i))
+                state = 0
                 i += 1
-        else:
+                continue
+            # In display math, $ is just text
             i += 1
-    
+            continue
+        i += 1
     return ranges
 
 
