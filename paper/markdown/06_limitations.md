@@ -596,6 +596,34 @@ The "2 ×" is suspicious — it reverses the 1/2 to get back M_Pl,2D. A genuine 
 - Future work: find clean structural reason for μ = (2 × E_1st)² or some other form
 Source: `calculations/v35_why_factor_2.py`.
 
+**L308 v3.5.4 HAWKING-PAGE DEEPER ANALYSIS**: Why should T_H = T_Pl,2D = M_Pl,2D/(2π)? Tested 10 candidates:
+
+**TOP 3 STRUCTURAL REASONS**:
+
+**(3) Planckian Maximum (STRONG)**: T_H = T_Pl,2D is the MAXIMUM stable BH temperature. Above this, BH evaporates instantly. T_H = T_Pl,2D is the "edge of existence" for 2D BH. Robust physical constraint.
+
+**(5) Euclidean Periodicity (CLEANEST MATH)**: β = 2π × L_AdS_2 is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). T_H = 1/β = M_Pl,2D/(2π) is FORCED by the geometry. No free parameter.
+
+**(4) Hagedorn (string theory)**: T_H = M_s/(2π) is the Hagedorn temperature for D=4 effective compactification. Connects 2D universe to string theory structure.
+
+**OTHER CANDIDATES**:
+- (#1) Hawking-Page transition: Plausible but doesn't uniquely select T_H = T_Pl,2D
+- (#2) Unruh-Hawking correspondence: STRUCTURAL (automatic in AdS_2)
+- (#6) Boundary Rindler observer: STRUCTURAL (max a = M_Pl,2D)
+- (#7) Quantum Critical Point: STRUCTURAL (Planckian dissipation)
+- (#8) Schwarzian coupling: DOESN'T work (would need α_S = π²/3)
+- (#9) JT partition function: Depends on S_0, not unique
+- (#10) Information-theoretic: Speculative
+
+**NEW VERDICT (v3.5.4)**:
+- T_H = T_Pl,2D = M_Pl,2D/(2π) has STRONG physical motivations
+- Most robust: #3 (Planckian max) and #5 (Euclidean periodicity)
+- These don't DERIVE μ but provide STRUCTURAL reasons for T_H = T_Pl,2D
+- Combined with μ = (2π T_H)², this gives μ = M_Pl,2D² as a CONSEQUENCE of "T_H is the natural 2D Planckian temperature"
+- **IMPROVED STATUS**: μ = M_Pl,2D² is now "STRUCTURALLY MOTIVATED" (not just calibrated)
+- L26 still OPEN (not a derivation), but structural reason is MUCH stronger than before
+Source: `calculations/v35_hawking_page.py`.
+
 **L308 NEW INTERPRETATION (v3.5.3)**: Tested 45 alternative formulas for μ. 12 give exact match but ALL are algebraically equivalent (reduce to μ = M_Pl,2D² using E_1st = M_Pl,2D/2). HOWEVER, one has a NEW STRUCTURAL interpretation:
 
 **Formula I: T = M_Pl,2D/(2π) → μ = (2π T)² = M_Pl,2D²**
