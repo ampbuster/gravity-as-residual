@@ -39,3 +39,6 @@ paper/dry_combined.md
 calculations/*.bak
 supporting/data/test*.dat
 supporting/data/PantheonSH0ES_v2.dat
+node_modules/
+package-lock.json
+package.json
