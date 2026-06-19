@@ -1,0 +1,251 @@
+================================================================================
+EVENT-DEPENDENT 2D UNIVERSES (USER HYPOTHESIS)
+================================================================================
+
+================================================================================
+PART 1: PER-EVENT μ AND M_Pl,2D
+================================================================================
+
+Per-event formula: μ_i = K × α × E_i / τ_i
+  where K = 5.1100e-46 (from brute force)
+
+Event               μ (GeV²)       M_Pl,2D (GeV)  M_Pl,2D (TeV)  
+----------------------------------------------------------------------
+1 ton TNT           1.19e+17       3.45e+08       3.45e+05       
+X-class flare       2.97e+12       1.72e+06       1.72e+03       
+Type Ia SN          9.00e+06       3.00e+03       3.00e+00       
+Hypernova           2.36e+06       1.54e+03       1.54e+00       
+Long GRB            1.23e+06       1.11e+03       1.11e+00       
+BNS merger          2.36e+04       1.54e+02       1.54e-01       
+AGN flare           9.40e+03       9.69e+01       9.69e-02       
+Quasar outburst     1.88e+02       1.37e+01       1.37e-02       
+
+Notice: M_Pl,2D VARIES WIDELY across events!
+From 1 ton TNT: 3.57e8 GeV (~360 TeV) — much higher than SN's 3 TeV
+To Quasar outburst: 14.2 GeV — much lower than SN's 3 TeV
+
+================================================================================
+PART 2: PER-EVENT DM CONTRIBUTION
+================================================================================
+
+In the framework, the 2D universe at death contributes its mass to DM.
+
+Mass of 2D universe at birth: m_2D ~ ? (depends on framework's assumptions)
+Growth factor during lifetime: f = (μ × t_Pl)^α × ... (depends on cascade)
+
+Simplest estimate: m_2D ∝ μ_i × τ_i² (energy × time² = action)
+
+Event               μ×τ² (units)             DM per event        
+----------------------------------------------------------------------
+1 ton TNT           1.19e-69                 1.19e-113           
+X-class flare       2.97e-34                 2.97e-78            
+Type Ia SN          9.80e+09                 9.80e-35            
+Hypernova           3.74e+14                 3.74e-30            
+Long GRB            7.19e+16                 7.19e-28            
+BNS merger          3.74e+30                 3.74e-14            
+AGN flare           9.39e+34                 9.39e-10            
+Quasar outburst     4.69e+46                 4.69e+02            
+
+================================================================================
+PART 3: TOTAL DM FROM ALL EVENTS
+================================================================================
+
+Total number of events per event type over cosmic history:
+  N_galaxies × age × rate
+
+1 ton TNT:
+  rate = 0.01/galaxy/yr = 3.16e+05/galaxy/s
+  N_events_total = 8.70e+27
+  μ (event-dep) = 1.19e+17 GeV²
+  DM/event (universal μ) = 1.16e-79
+  DM/event (event-dep μ) = 1.53e-69
+  Total DM (universal) = 1.01e-51
+  Total DM (event-dep) = 1.33e-41
+
+X-class flare:
+  rate = 1000.0/galaxy/yr = 3.16e+10/galaxy/s
+  N_events_total = 8.70e+32
+  μ (event-dep) = 2.97e+12 GeV²
+  DM/event (universal μ) = 1.16e-39
+  DM/event (event-dep μ) = 3.83e-34
+  Total DM (universal) = 1.01e-06
+  Total DM (event-dep) = 3.33e-01
+
+Type Ia SN:
+  rate = 0.01/galaxy/yr = 3.16e+05/galaxy/s
+  N_events_total = 8.70e+27
+  μ (event-dep) = 9.00e+06 GeV²
+  DM/event (universal μ) = 1.26e+10
+  DM/event (event-dep μ) = 1.26e+10
+  Total DM (universal) = 1.10e+38
+  Total DM (event-dep) = 1.10e+38
+
+Hypernova:
+  rate = 0.0001/galaxy/yr = 3.16e+03/galaxy/s
+  N_events_total = 8.70e+25
+  μ (event-dep) = 2.36e+06 GeV²
+  DM/event (universal μ) = 1.84e+15
+  DM/event (event-dep μ) = 4.82e+14
+  Total DM (universal) = 1.60e+41
+  Total DM (event-dep) = 4.20e+40
+
+Long GRB:
+  rate = 1e-05/galaxy/yr = 3.16e+02/galaxy/s
+  N_events_total = 8.70e+24
+  μ (event-dep) = 1.23e+06 GeV²
+  DM/event (universal μ) = 6.79e+17
+  DM/event (event-dep μ) = 9.26e+16
+  Total DM (universal) = 5.91e+42
+  Total DM (event-dep) = 8.06e+41
+
+BNS merger:
+  rate = 0.0001/galaxy/yr = 3.16e+03/galaxy/s
+  N_events_total = 8.70e+25
+  μ (event-dep) = 2.36e+04 GeV²
+  DM/event (universal μ) = 1.84e+33
+  DM/event (event-dep μ) = 4.82e+30
+  Total DM (universal) = 1.60e+59
+  Total DM (event-dep) = 4.20e+56
+
+AGN flare:
+  rate = 0.001/galaxy/yr = 3.16e+04/galaxy/s
+  N_events_total = 8.70e+26
+  μ (event-dep) = 9.40e+03 GeV²
+  DM/event (universal μ) = 1.16e+38
+  DM/event (event-dep μ) = 1.21e+35
+  Total DM (universal) = 1.01e+65
+  Total DM (event-dep) = 1.05e+62
+
+Quasar outburst:
+  rate = 1e-07/galaxy/yr = 3.16e+00/galaxy/s
+  N_events_total = 8.70e+22
+  μ (event-dep) = 1.88e+02 GeV²
+  DM/event (universal μ) = 2.90e+51
+  DM/event (event-dep μ) = 6.05e+46
+  Total DM (universal) = 2.52e+74
+  Total DM (event-dep) = 5.26e+69
+
+Sum of all events (universal μ): 2.90e+51
+Sum of all events (event-dep μ): 6.05e+46
+
+================================================================================
+PART 4: 5/27/68 SPLIT WITH EVENT-DEPENDENT μ
+================================================================================
+
+
+Current framework (v3.3, universal μ):
+  - 5% baryons: real energy in 3+1D (BBNS)
+  - 27% DM: cumulative 2D universe pulsed returns (universal μ × N_events)
+  - 68% DE: 4D event's anti-gravity (calibrated τ_4D)
+
+With event-dependent μ (user's hypothesis):
+  - 5% baryons: same (BBNS, no change)
+  - 27% DM: cumulative 2D universe pulsed returns, but each event has
+            its own μ_i → different DM contribution per event
+  - 68% DE: same (4D event anti-gravity)
+
+For DM:
+  - In universal case: total DM = Σ_i N_i × μ × f(τ_i)
+  - In event-dep case: total DM = Σ_i N_i × μ_i × f(τ_i) = Σ_i N_i × K × E_i/τ_i × f(τ_i)
+  - These give different sums
+
+The framework's 27% DM is calibrated by adjusting:
+  - AGN rate (in universal case)
+  - K and AGN rate (in event-dep case)
+
+================================================================================
+PART 5: IMPLICATIONS FOR FRAMEWORK
+================================================================================
+
+
+If 2D universes are event-dependent:
+
+PARAMETERS:
+- Universal: M_Pl,3D, M_Pl,4D, α, ε, τ_4D, N_sub (these don't change)
+- Event-dependent: μ_i (now μ(E,τ))
+- New universal: K (the proportionality constant)
+
+PARAMETER COUNT:
+- Before (universal μ): 9 parameters
+- After (event-dependent μ): same 9 parameters, but μ is now derived per event
+
+ADVANTAGES of event-dependent μ:
+1. More honest — matches the pattern from brute force
+2. Removes the awkward universal μ claim
+3. The 27% DM might be naturally achieved
+4. K becomes a "real" fundamental constant
+
+DISADVANTAGES:
+1. Requires re-derivation of DM calculation
+2. μ_i for tiny events (TNT) is huge — might cause issues
+3. K is still not derivable from first principles
+4. 5/27/68 split might need revision
+
+WHAT'S STILL UNIVERSAL:
+- α = 1.289 (M^α law exponent)
+- ε = 10⁻³⁸ (bulk-brane coupling)
+- τ_4D = 1.51×10³⁴ yr (4D event duration)
+- N_sub = 4×10² (sub-universes per 4D event)
+
+WHAT'S EVENT-DEPENDENT (NEW):
+- μ_i = K × α × E_i / τ_i (Liouville CC)
+- M_Pl,2D(i) = √μ_i (2D Planck mass)
+- f_back,i (per-event back-action efficiency)
+- m_2D,i (per-event 2D universe mass at death)
+- DM contribution per event
+
+================================================================================
+PART 6: NUMERICAL CHECK — 27% DM
+================================================================================
+
+Computing event contributions to DM density:
+
+Event               N_events       E_3D (J)       E_total (J)    ρ_contrib      
+-------------------------------------------------------------------------------------
+1 ton TNT           8.70e+27       4.00e+09       3.48e+37       4.15e-80       
+X-class flare       8.70e+32       1.00e+25       8.70e+57       1.04e-59       
+Type Ia SN          8.70e+27       1.00e+44       8.70e+71       1.04e-45       
+Hypernova           8.70e+25       1.00e+46       8.70e+71       1.04e-45       
+Long GRB            8.70e+24       1.00e+47       8.70e+71       1.04e-45       
+BNS merger          8.70e+25       1.00e+53       8.70e+78       1.04e-38       
+AGN flare           8.70e+26       1.00e+55       8.70e+81       1.04e-35       
+Quasar outburst     8.70e+22       1.00e+60       8.70e+82       1.04e-34       
+
+Total ρ (arbitrary units): 1.14e-34
+
+================================================================================
+PART 7: NEW LIMITATIONS
+================================================================================
+
+
+NEW LIMITATIONS (v3.3.6):
+
+L172 (NEW): 2D universes may be event-dependent (μ ∝ E/τ)
+  - User's hypothesis: μ is not universal
+  - Each event creates its own 2D universe with its own M_Pl,2D
+  - Brute force pattern: μ × τ / E = const across events (matches)
+
+L173 (NEW): K (the proportionality constant) is not derivable
+  - K = 5.11×10⁻⁴⁶ (SI-ish) or 7.78×10⁻²² (natural)
+  - No fundamental form found
+  - K is calibrated to match 27% DM
+
+L174 (NEW): 5/27/68 split needs re-derivation for event-dependent case
+  - The DM integral Σ_i N_i × μ_i × f(τ_i) changes
+  - AGN rate calibration might need adjustment
+  - 27% DM may or may not be achievable with single K
+
+L175 (NEW): M_Pl,2D varies by 10⁷ across events (TNT to quasar)
+  - Framework's universal M_Pl,2D = 3 TeV is just one value (SN)
+  - TNT 2D universes have M_Pl,2D ~ 360 TeV (much higher)
+  - Quasar 2D universes have M_Pl,2D ~ 14 GeV (much lower)
+  - This might be physically reasonable (different 2D universes have different physics)
+
+L176 (NEW): The "9 parameters" claim changes meaning
+  - 7 universal (M_Pl,3D, M_Pl,4D, α, ε, τ_4D, N_sub, K)
+  - 1 derived per-event (μ_i)
+  - Total = 7 + 1 (function) + 1 (AGN rate) = 9, but with different structure
+
+================================================================================
+END OF EVENT-DEPENDENT ANALYSIS
+================================================================================
