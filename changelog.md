@@ -1292,7 +1292,7 @@ multiple cascade parameters that were previously calibrated.
 
 2. **10+ trials performed** (calculations/v27_fback_research.py):
    - Trial 1: τ_3+1D / τ_4D = 10^-18 (off 67 orders)
-   - Trial 5: ($E_{\rm SN}$ / E_Pl,3)^-1 = 10^-35 (off 50)
+   - Trial 5: ($E_{\rm SN}$ / $E_{\rm Pl,3}$)^-1 = 10^-35 (off 50)
    - Trial 6: $E_{\rm SN}$ / $E_{\rm 4D}$ = 10^-25 (off 60)
    - Trial 7: (τ_SN / τ_4D)^α = 10^-47 (off 38)
    - Trial 8: ($t_{\rm Pl,3}$ / τ_4D) × (τ_SN / τ_universe) = 10^-95 (off 10, closest)
@@ -2338,7 +2338,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 8. **L9 (2D universe physics) further closed:**
    - Proper lifetime: $t_{\rm Pl,4}$ (specified)
-   - Time dilation factor: γ_3+1D = ($E_{\rm 4D}$/E_Pl,4)^1.29 (specified)
+   - Time dilation factor: γ_3+1D = ($E_{\rm 4D}$/$E_{\rm Pl,4}$)^1.29 (specified)
    - Mass scaling: M_3+1D_4D ∝ E^0.71 (specified)
    - Internal dynamics: still unspecified (the only remaining gap)
 

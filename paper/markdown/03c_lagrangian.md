@@ -15,7 +15,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 | c (central charge) | 1/2 | N/24 = 12/24 = 1/2 (Ising CFT) |
 | $\alpha$ (lifetime scaling) | 1.289 | 1 + 1/√N (saddle-point fluctuation) |
 | $1/(2\alpha)$ (back-action) | 0.388 | $c/\alpha$ (composite) |
-| $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$ | (1/2$\alpha$)-powered formula |
+| $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$ | $(1/(2\alpha))$-powered formula |
 
 **Why N = 12 is unique** (off by 0.001 from $\alpha$ = 1.29):
 
@@ -177,10 +177,10 @@ for every upward dimension?"
 
 **Scaling law at each level**:
 
-For the scaling law $\tau$ = (E/ $M_{\rm Pl}$,parent)^$\alpha$ × $t_{\rm Pl}$ to work at every
+For the scaling law $\tau$ = (E/ $M_{\rm Pl}$,parent)$^{\alpha}$ × $t_{\rm Pl}$ to work at every
 upward level, $\alpha$ must be the SAME at every level.
 
-(SN normalization: the formula can be rewritten as $\tau$ = 33s × (E/ $E_{\rm SN}$)^$\alpha$
+(SN normalization: the formula can be rewritten as $\tau$ = 33s × (E/ $E_{\rm SN}$)$^{\alpha}$
 where 33s is the SN calibration value, but the cleaner form shows $\alpha$ is universal.)
 
 Evidence for $\alpha$ being universal:
@@ -214,12 +214,12 @@ energy (for forward $\gamma$) AND the grandparent event energy
 (for backward $f_{\rm back}$).
 
 At level 3 (3D → 2D):
-- Forward: $\gamma_{\rm 3}$ = ($E_{\rm 3D}$/E_Pl,3)^$\alpha$ → $\tau_{\rm 2D}$ = $\gamma_{\rm 3}$ × $t_{\rm Pl,3}$
-- Backward: f_back_3 = ($E_{\rm 4D}$/ $E_{\rm 3D}$)^($1/(2\alpha)$) × prefactors → $\approx 10^{-85}$ ✓
+- Forward: $\gamma_{\rm 3}$ = ($E_{\rm 3D}$/$E_{\rm Pl,3}$)$^{\alpha}$ → $\tau_{\rm 2D}$ = $\gamma_{\rm 3}$ × $t_{\rm Pl,3}$
+- Backward: f_back_3 = ($E_{\rm 4D}$/ $E_{\rm 3D}$)$^{1/(2\alpha)}$ × prefactors → $\approx 10^{-85}$ ✓
 
 At level 4 (4D → 3+1D):
-- Forward: $\gamma_{\rm 4}$ = ($E_{\rm 4D}$/E_Pl,4)^$\alpha$ → $\tau_{\rm 3D}$ = $\gamma_{\rm 4}$ × $t_{\rm Pl,4}$
-- Backward: f_back_4 = ($E_{\rm 5D}$/ $E_{\rm 4D}$)^($1/(2\alpha)$) × prefactors → requires $E_{\rm 5D}$
+- Forward: $\gamma_{\rm 4}$ = ($E_{\rm 4D}$/$E_{\rm Pl,4}$)$^{\alpha}$ → $\tau_{\rm 3D}$ = $\gamma_{\rm 4}$ × $t_{\rm Pl,4}$
+- Backward: f_back_4 = ($E_{\rm 5D}$/ $E_{\rm 4D}$)$^{1/(2\alpha)}$ × prefactors → requires $E_{\rm 5D}$
 
 At level 5+:
 - Need BOTH $E_{\rm D}$ and E_{D+1} for the closed loop
@@ -389,8 +389,8 @@ The "closed loop" formula's $f_{\rm back}$ is **not** the same number as the DE-
 
 **The forward/backward $\alpha$ symmetry DOES close** (L98, L103):
 
-- Forward: $\gamma$ = (E/E_Pl)^$\alpha$ (time dilation, scaling law)
-- Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)^($1/(2\alpha)$) (back-action)
+- Forward: $\gamma$ = (E/E_Pl)$^{\alpha}$ (time dilation, scaling law)
+- Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)$^{1/(2\alpha)}$ (back-action)
 - $\alpha$ × $1/(2\alpha)$ = 1/2 (round-trip loss, Z_2 orbifold)
 
 The same $\alpha$ = 1.289 connects the time-dilated event (forward) to the
@@ -425,7 +425,7 @@ from the framework.
 
 **L138 NEW (v3.1.1)**: $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION FACTOR, not a derived physical quantity. The "primordial back-projection fraction" is a misleading name; it is simply the ratio of observed DE to the $\epsilon$-suppressed Planck density.
 
-**L139 NEW (v3.1.1)**: The "closed loop" formula in §3.60.1 ($f_{\rm back}$ = ($t_{\rm Pl}$/$\tau_{\rm 4D}$) × ($\tau_{\rm SN}$/$\tau_{\rm universe}$) × ($E_{\rm 4D}$/ $E_{\rm SN}$)^($1/(2\alpha)$) ≈ $4.6 \times 10^{-68}$) and the DE calibration ($f_{\rm DE}$ = 10⁻⁸⁵) differ by 10¹⁸ orders of magnitude. The closed loop is rhetorical, not numerical.
+**L139 NEW (v3.1.1)**: The "closed loop" formula in §3.60.1 ($f_{\rm back}$ = ($t_{\rm Pl}$/$\tau_{\rm 4D}$) × ($\tau_{\rm SN}$/$\tau_{\rm universe}$) × ($E_{\rm 4D}$/ $E_{\rm SN}$)$^{1/(2\alpha)}$ ≈ $4.6 \times 10^{-68}$) and the DE calibration ($f_{\rm DE}$ = 10⁻⁸⁵) differ by 10¹⁸ orders of magnitude. The closed loop is rhetorical, not numerical.
 
 **L140 NEW (v3.1.1)**: $\epsilon$ = 10⁻³⁸ is OBSERVED (gravity weakness vs other forces — the hierarchy problem). SIDC's mechanism (4D antigravity cancellation) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC.
 
@@ -482,8 +482,8 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
 **Status of $\alpha$ as universal exponent (v3.1.2, REVISED)**: In the multi-universe picture, $\alpha$ is the universal exponent for cascade lifetimes:
 
-- 2D universe lifetime: $\tau_{\rm 2D}$ = ($E_{\rm event}$/ $M_{\rm Pl,3D}$)^$\alpha$ × $t_{\rm Pl}$ = 33 s for SN ✓
-- 3+1D sub-universe lifetime: $\tau_{\rm sub}$ = ($E_{\rm sub}$/ $M_{\rm Pl,4D}$)^$\alpha$ × $t_{\rm Pl}$ — UNKNOWN (depends on $E_{\rm sub}$ = $E_{\rm 4D}$/N_sub)
+- 2D universe lifetime: $\tau_{\rm 2D}$ = ($E_{\rm event}$/ $M_{\rm Pl,3D}$)$^{\alpha}$ × $t_{\rm Pl}$ = 33 s for SN ✓
+- 3+1D sub-universe lifetime: $\tau_{\rm sub}$ = ($E_{\rm sub}$/ $M_{\rm Pl,4D}$)$^{\alpha}$ × $t_{\rm Pl}$ — UNKNOWN (depends on $E_{\rm sub}$ = $E_{\rm 4D}$/N_sub)
 - 3+1D universe CURRENT AGE: 13.8 Gyr (observed directly, the only firm value)
 - $f_{\rm DE}$ derived from closed-loop formula: 1.2×10⁻⁸⁵/s (matches DE within 1.7%, doesn't depend on N_sub)
 
@@ -639,7 +639,7 @@ full analysis.
 
 For each event of energy E creating an (N-1)-universe:
 - (N-1)-universe rest mass: M = E/c²
-- (N-1)-universe lifetime: $\tau$ = (E/ $M_{\rm Pl,N}$-1)^$\alpha$ × $t_{\rm Pl}$
+- (N-1)-universe lifetime: $\tau$ = (E/ $M_{\rm Pl,N}$-1)$^{\alpha}$ × $t_{\rm Pl}$
 - Mass returns to N-frame as DM at death (pulsed, 100%)
 
 Per-event DM contribution:
@@ -651,10 +651,10 @@ $$\rho_{\rm DM}^{(N)} = \sum_{\rm events} \frac{E}{c^2 V} \left(\frac{M_{\rm Pl,
 **DOWN flow (anti-gravity → DE, N → N-1)**:
 
 Higher-D event of energy E creates (N-1)-universe with anti-gravity effect:
-- Anti-gravity coupling: ($M_{\rm Pl,N}$ / $M_{\rm Pl,N}$-1)^$\alpha$
+- Anti-gravity coupling: ($M_{\rm Pl,N}$ / $M_{\rm Pl,N}$-1)$^{\alpha}$
 - Bulk-brane modulation: $\epsilon$
 - Lower-D Planck scale: $M_{\rm Pl,N}$-1⁴
-- Time dilation: $\gamma_{\rm N}$ = (E/ $M_{\rm Pl,N}$-1)^$\alpha$
+- Time dilation: $\gamma_{\rm N}$ = (E/ $M_{\rm Pl,N}$-1)$^{\alpha}$
 
 Anti-gravity energy density in (N-1)-frame (after gravity cancellation):
 $$\rho_{\rm DE}^{(N-1)} = \underbrace{\left(\frac{M_{\rm Pl,N}}{M_{\rm Pl,N-1}}\right)^\alpha}_{\text{anti-gravity coupling}} \times \underbrace{\varepsilon}_{\text{bulk-brane}} \times \frac{M_{\rm Pl,N-1}^4}{\gamma_N}$$
@@ -1129,8 +1129,8 @@ User question: "so $\alpha$ is the shape that links dimensions?"
    - Level 5+: $\alpha$ = 1.289 (claimed)
 
 2. **Horizontal (forward + backward)**: $\alpha$ × $1/(2\alpha)$ = 1/2
-   - Forward: $\gamma$ = (E/E_Pl)^$\alpha$ (scaling law)
-   - Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)^($1/(2\alpha)$) (closed loop)
+   - Forward: $\gamma$ = (E/E_Pl)$^{\alpha}$ (scaling law)
+   - Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)$^{1/(2\alpha)}$ (closed loop)
    - Product = 1/2 closes the loop
 
 3. **Origin (particle ↔ cosmos)**: $\alpha$ = 1 + 1/√12
@@ -1171,14 +1171,14 @@ numerical analysis of all 4 shape interpretations.
 > (L105, L106, L107, L108, L111). The full Lagrangian (L116) is a
 > viable starting point (L120 audit: 73%) but not yet complete.
 
-**v3.1.2-final REVISION**: The Inception cone picture (cone slope = $\alpha$ = 1.289, "the angle at which the cone converges to the 2D Planck") was the ORIGINAL geometric justification for $\alpha$ = 1.289. However, v3.1.2-final replaced the cone framework with the closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / $E_{\rm event}$)^$\alpha$. The cone is now a **VISUALIZATION** (kept here for historical context), not a foundation. The Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 is now PURELY INTERPRETIVE (no geometric anchor).
+**v3.1.2-final REVISION**: The Inception cone picture (cone slope = $\alpha$ = 1.289, "the angle at which the cone converges to the 2D Planck") was the ORIGINAL geometric justification for $\alpha$ = 1.289. However, v3.1.2-final replaced the cone framework with the closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / $E_{\rm event}$)$^{\alpha}$. The cone is now a **VISUALIZATION** (kept here for historical context), not a foundation. The Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 is now PURELY INTERPRETIVE (no geometric anchor).
 
 **What this means for the framework**:
 - $\alpha$ = 1.289 is CALIBRATED from the 14-event fit (SN, AGN, GRB, etc.)
 - The cone picture is consistent with $\alpha$ = 1.289 but does NOT derive it
 - The Lagrangian decomposition is suggestive but NOT a derivation
 - L43 (full Lagrangian → $\alpha$) is OPEN: 5 brute-force attempts from Z($\beta$) all failed (v15-v19, v26)
-- The closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl}$/E)^$\alpha$ works WITHOUT the cone, without the Lagrangian decomposition
+- The closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl}$/E)$^{\alpha}$ works WITHOUT the cone, without the Lagrangian decomposition
 - **$\alpha$ = 1.289 is an empirical number, supported by structural hints, NOT a derived prediction**
 
 **What we found this session**:
@@ -1264,11 +1264,11 @@ $S_{\rm 2D,universe}$ = S_Liouville + S_Ising + S_SYK + S_FZZT
 
 $S_{\rm projection}$ = -g_couple ∫ d⁴x d²z Φ_4D Φ_2D Θ(τ_2D - τ)
               + g_couple ∫ d⁴x Φ_2D(τ_2D) E_2D Θ(τ - τ_2D)
-              with τ_2D = ($E_{\rm 3D}$/E_Pl,3)^α × $t_{\rm Pl,3}$  ← TIME DILATION
+              with τ_2D = ($E_{\rm 3D}$/$E_{\rm Pl,3}$)^α × $t_{\rm Pl,3}$  ← TIME DILATION
               α = 1.289 (universal)
 ```
 
-Closed loop (current v3.3): $f_{\rm back}$ = ($M_{\rm Pl,N}$/ $E_{\rm event}$)^$\alpha$ (universal FORM, see §3.71)
+Closed loop (current v3.3): $f_{\rm back}$ = ($M_{\rm Pl,N}$/ $E_{\rm event}$)$^{\alpha}$ (universal FORM, see §3.71)
 Legacy (v10): $f_{\rm back}$ = g_couple² × Z_2D($\tau_{\rm 2D}$) / E_3D² (rejected in v3.1.1)
 
 **5. THE c-VALUE RESOLUTION (L117)**
@@ -1293,7 +1293,7 @@ Only 2 free parameters remain in SIDC:
 Everything else is derived from these + 2D CFT structure:
 - $M_{\rm Pl,2D}$ = √$\mu$ = 3 TeV (from L41)
 - $\alpha$ = 1 + 1/√12 (from N=12)
-- $\tau_{\rm 2D}$ = ($E_{\rm 3D}$/E_Pl,3)^$\alpha$ × $t_{\rm Pl,3}$ (time dilation)
+- $\tau_{\rm 2D}$ = ($E_{\rm 3D}$/$E_{\rm Pl,3}$)$^{\alpha}$ × $t_{\rm Pl,3}$ (time dilation)
 - $f_{\rm back}$ ~ 10⁻⁸⁵ for SN (closed loop)
 
 Single-particle events ($E_{\rm 3D} \sim v_{\rm Higgs}$) give $\tau_{\rm 2D}$ ~ 10⁻⁶⁵ s — BELOW
@@ -1311,7 +1311,7 @@ $f_{\rm back}$ = ($t_{\rm Pl,3}$/τ_4D) × (τ_SN/τ_universe) × ($E_{\rm 4D}$/
 Numerical decomposition:
 - log₁₀($t_{\rm Pl,3}$/$\tau_{\rm 4D}$) = −85.0  (v3.3: $\tau_{\rm 4D}$ = 1.51×10³⁴ yr = 4.77×10⁴¹ s)
 - log₁₀($\tau_{\rm SN}$/$\tau_{\rm universe}$) = −16.2
-- log₁₀(($E_{\rm 4D}$/ $E_{\rm SN}$)^($1/(2\alpha)$)) = +6.98
+- log₁₀(($E_{\rm 4D}$/ $E_{\rm SN}$)$^{1/(2\alpha)}$) = +6.98
 - Sum = −84.3 ≈ −85 ✓
 
 The $1/(2\alpha)$ = 0.388 is Ising c (1/2) × inverse time dilation (1/$\alpha$).

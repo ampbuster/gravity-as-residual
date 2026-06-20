@@ -154,6 +154,43 @@ def fix_broken_markdown(content):
     changes += n
     content = new_content
 
+    # Pattern 18: (1/2$\alpha$) → $(1/(2\alpha))$ (table cells)
+    new_content, n = re.subn(
+        r'\(1/2\$\\alpha\$\)',
+        r'$(1/(2\\alpha))$',
+        content
+    )
+    changes += n
+    content = new_content
+
+    # Pattern 21: E_Pl,N → $E_{\rm Pl,N}$ (missing subscript)
+    # Negative lookbehind for $ to avoid double-wrapping
+    new_content, n = re.subn(
+        r'(?<!\$)E_Pl(,\d)',
+        r'$E_{\\rm Pl\1}$',
+        content
+    )
+    changes += n
+    content = new_content
+
+    # Pattern 19b: )^$\alpha$ → )$^{\alpha}$ (preserve $ count, move $ inside parens)
+    new_content, n = re.subn(
+        r'\)\^\$\\alpha\$',
+        r')$^{\\alpha}$',
+        content
+    )
+    changes += n
+    content = new_content
+
+    # Pattern 20b: )^($X$) → )$^{X}$ (preserve $ count, move $ inside parens)
+    new_content, n = re.subn(
+        r'\)\^\(\$(.+?)\$\)',
+        lambda m: r')$^{' + m.group(1) + r'}$',
+        content
+    )
+    changes += n
+    content = new_content
+
     return content, changes
 
 
