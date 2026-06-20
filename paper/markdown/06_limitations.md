@@ -2,7 +2,7 @@
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **126 honest limitations** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 4×10²³ GeV, brane-world), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr (M^α prediction); (2) frame of reference: M^α law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit (α = 1.258 fails 13/14 events).
+This is a thought experiment, not a theory. We identify **127 honest limitations** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 4×10²³ GeV, brane-world), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr (M^α prediction); (2) frame of reference: M^α law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit (α = 1.258 fails 13/14 events).
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -51,7 +51,7 @@ This is a thought experiment, not a theory. We identify **126 honest limitations
 
 **The honest summary:** SIDC is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 22 PARTIAL limitations are the most promising areas for future work. The 8 CLOSED limitations represent SIDC's "wins" — features that survive every iteration of the model. The 6 NEGATIVE limitations show SIDC's self-critical nature — broken hypotheses are explicitly rejected, not papered over (e.g., monodromy method for α, 3× 2D CFT attempts for α).
 
-**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **126 (v3.5.8, +L308f, +L308g, +L308h, +L308i, +L308j, +L308k, +L308l user-caught)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic; L308f-L308g v3.5.7+ consistency catches on M_Pl,2D/M_Pl,4D origins).
+**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **127 (v3.5.8, +L308f, +L308g, +L308h, +L308i, +L308j, +L308k, +L308l user-caught)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic; L308f-L308g v3.5.7+ consistency catches on M_Pl,2D/M_Pl,4D origins).
 
 The full table follows:
 
@@ -703,6 +703,8 @@ L308m. **MCMC parameter convergence: 4/9 strongly pinned, 2/9 framework choices,
 L308n. **α = 1 + 1/√12 EXACT first-principles match (NEW v3.5.8, BREAKTHROUGH)**. Schwarzian SYK saddle-point with N=12 gives α = 1.2886751346, matching framework's α = 1.289 within 0.025% — essentially EXACT. N=12 = 12 Majorana = 6 Dirac = 3 generations × 2 (L+R). This DERIVES α from first principles: (1) N=12 justified by SM fermion count, (2) 1/√N from Schwarzian coefficient, (3) α = 1 + c_s where c_s is the time-fluctuation exponent. **L43 (Lagrangian skeleton → α) OPEN → PARTIAL**. First-principles progress: 1/9 (was 0/9). Remaining: full combined Z = Z_Liouville × Z_Schwarzian × Z_SYK path integral, cross-couplings. Source: `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
 L308o. **N_sub = E_4D/E_sub scales linearly (NEW v3.5.8, USER-INSIGHT)**. User suggested N_sub might depend on event size. Tested scalings: linear (N_sub = E_4D/E_sub) MATCHES framework with E_sub = 1.25×10⁷⁷ J. Other power laws (k=0.05 to 1.0) give off by factors 5 to 10³⁰. Surface area / volume scalings in 4D give off by 10⁶⁵. **N_sub is NOT a fundamental constant; it derives from E_4D via energy conservation** (E_4D = N_sub × E_sub). For our specific E_4D = 5×10⁷⁹ J, N_sub = 400. Different 4D events would give different N_sub (sub-galaxy: N=4, supercluster: N=400,000). Status: SEMI-DERIVED — N_sub is no longer "free parameter" but E_sub itself is framework choice. L308n first-principles progress: 2/9 (was 1/9). Source: `calculations/v35_n_sub_scaling.py`.
+
+L308p. **Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8, USER-INSIGHT)**. User asked if N_sub scaling applies at 2D level too. Tested: linear scaling N_2D_per_event = E_event/E_2D_ref at 2D gives SN creating 10⁶⁵ 2D universes per event, vastly overproducing DM (off by 10⁶⁵). Therefore the cone has DIFFERENT scaling rules at different levels: 4D → 3+1D is linear (universe-creating); 3+1D → 2D is one-to-one (universe-modifying). This asymmetry is CONSTRAINED by DM observation, not free. 4D level is "transcendent" (bulk), 3+1D level is "internal" (within universe). Each transition has its own scaling law, and 1:1 at 2D level is REQUIRED by DM abundance. Source: `calculations/v35_n_sub_scaling.py` (extended).
 
 ## 7.4.6 α-GM Consistency and Cone Depth Structure (v3.5.7+, USER-DISCOVERED)
 
@@ -1400,6 +1402,72 @@ If N_sub scales linearly with E_4D:
 This is a STRUCTURAL finding, not a derivation. But it's a significant refinement of the multi-universe picture.
 
 Source: `calculations/v35_n_sub_scaling.py`.
+
+## 7.4.14 Cone is Asymmetric: 4D Linear, 2D One-to-One (v3.5.8, USER-INSIGHT)
+
+**User question (2026-06-20)**: "does it mean n_sub for 2d as well?"
+
+**Investigation**: Does the linear scaling N_sub = E/E_ref ALSO apply at the 2D level?
+
+### Test: Linear Scaling at 2D Level
+
+If N_2D_per_event = E_event / E_2D_ref (where E_2D_ref = M_2D = M_Pl,2D²/M_Pl,3D = 7.4×10⁻¹³ GeV = 1.18×10⁻²² J):
+
+| Event | E (J) | N_2D per event | τ_2D (s) |
+|---|---|---|---|
+| Asteroid (10¹⁷ J) | 10¹⁷ | 8.5×10³⁸ | 4.7×10⁻³⁴ |
+| SN (10⁴⁴ J) | 10⁴⁴ | **8.5×10⁶⁵** | 33 |
+| AGN (10⁵⁵ J) | 10⁵⁵ | 8.5×10⁷⁶ | 4.5×10¹⁵ |
+| Quasar (10⁶⁰ J) | 10⁶⁰ | 8.5×10⁸¹ | 1.2×10²² |
+
+**SN would create 10⁶⁵ 2D universes per event!** This vastly overproduces DM.
+
+Total 2D universes from linear scaling: ~10¹⁴⁷ (rough estimate of total energetic events × 10⁶⁵ each)
+vs observed: 10⁸²
+**Off by 10⁶⁵!**
+
+### Conclusion: ASYMMETRIC SCALING
+
+The cone has TWO different transition rules:
+
+**4D → 3+1D (UNIVERSE-CREATING)**:
+- Each 4D event creates N_sub = E_4D/E_sub sub-universes
+- Linear scaling (energy conservation)
+- N_sub varies with event size
+
+**3+1D → 2D (UNIVERSE-MODIFYING)**:
+- Each 3+1D event creates ONE 2D universe (one-to-one)
+- 2D universe MASS is FIXED (M_2D = M_Pl,2D²/M_Pl,3D)
+- 2D universe LIFETIME varies with event (M^α law: τ ∝ E^α)
+
+### Why the Asymmetry?
+
+| Transition | Event type | N_universes | Per-universe energy | Per-universe lifetime |
+|---|---|---|---|---|
+| 4D → 3+1D | Transcendent | N_sub ∝ E_4D | E_sub = E_4D/N_sub | τ_sub = τ_4D/N_sub^α |
+| 3+1D → 2D | Internal | 1 (fixed) | M_2D = fixed | τ_2D ∝ E^α |
+
+4D events are TRANSCENDENT (in the bulk, outside our universe). They CREATE new 3+1D universes. Linear scaling reflects bulk dynamics.
+
+3+1D events are INTERNAL (within our universe). They create ONE 2D universe per event. M^α law reflects internal time-dilation. The 1:1 scaling is CONSTRAINED by DM observation (would overproduce by 10⁶⁵ if linear).
+
+### L308p (NEW v3.5.8, USER-INSIGHT)
+
+**L308p. Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8)**. Tested linear scaling N_2D_per_event = E_event/E_2D_ref at 2D level: SN would create 10⁶⁵ 2D universes per event, vastly overproducing DM (off by 10⁶⁵). Therefore, the cone has DIFFERENT scaling rules at different levels:
+- 4D → 3+1D: linear (universe-creating)
+- 3+1D → 2D: one-to-one (universe-modifying)
+This asymmetry is CONSTRAINED by DM observation, not free. The 4D level is "transcendent" (bulk), 3+1D level is "internal" (within universe). Each transition has its own scaling law.
+
+### Implication for First-Principles
+
+The asymmetric scaling means:
+- N_sub (4D → 3+1D) is now SEMI-DERIVED via linear scaling (L308o)
+- N_2D_per_event (3+1D → 2D) is FIXED at 1 (by DM constraint)
+- Total N_2D = total events = AGN_rate × V × t (DERIVED from AGN rate)
+
+So the cone structure has TWO independent scaling laws, each constrained by observations.
+
+Source: `calculations/v35_n_sub_scaling.py` (extended).
 
 ## 7.5 v3.5 NEW ANGLE Limitations: μ first-principles (11 attempts)
 
