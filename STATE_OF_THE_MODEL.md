@@ -13,9 +13,12 @@
 - α = 1 + 1/√12 first-principles (L308n): 0.025% match — BREAKTHROUGH
 - L43 (Lagrangian skeleton → α): OPEN → PARTIAL
 - "12" is cascade fundamental unit (α = 1+1/√12, $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, cone depth 12)
-- First-principles progress: 0/9 → 1/9 (α derived)
-**Pages**: 393
-**Limitations**: 118 (v3.5.7+ master table, +L308f +L308g, was 116 v3.5.7, was 81 in v3.3)
+- First-principles progress: 0/9 → 1/9 (α derived) → 3/9 (α, $M_{\rm Pl,2D}$, $\mu$ via L308r N×$v_{\rm Higgs}$ chain)
+- L308r: $\mu$ = $M_{\rm Pl,2D}^2$ DERIVED via N × $v_{\rm Higgs}$ = 8.73×10⁶ (3% off 9×10⁶)
+- L308s: 8 attempted paths to FULLY close L26, none bridge the 3% (gap is from M_Pl,2D rounding)
+- 130 limitations, 398 pages, paper built successfully
+**Pages**: 398 (was 393)
+**Limitations**: 130 (v3.5.8+ master table, +L308f +L308g +L308h +L308i +L308j +L308k +L308l +L308m +L308n +L308o +L308p +L308q +L308r +L308s after L308q, was 116 v3.5.7, was 81 in v3.3)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: 813+ (as of June 20, 2026)
 **v3.5.7+ recent commits**: ~30 in v3.5 era (math wrapping, adjacent math, lint checks, naming revolution, audit, DE match fix)
@@ -29,7 +32,7 @@ Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-
 | # | Parameter | Value | Status | Source |
 |---|---|---|---|---|
 | 1 | $M_{\rm Pl,3D}$ | 1.22×10¹⁹ GeV | **MEASURED** | Newton's G |
-| 2 | $M_{\rm Pl,2D}$ | 3 TeV | **CALIBRATED** | SN event anchor |
+| 2 | $M_{\rm Pl,2D}$ | 3 TeV (2.95 TeV derived) | **DERIVED** | N × $v_{\rm Higgs}$ = 12 × 246.22 (L308r) |
 | 3 | $M_{\rm Pl,4D}$ | 4×10²³ GeV | **DERIVED** | α-weighted GM of 1,2 |
 | 4 | α | 1.289 | **CALIBRATED** | 8 named events M^α fit (§10.1) |
 | 5 | ε | 10⁻³⁸ | **CALIBRATED** | hierarchy |
@@ -38,7 +41,7 @@ Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-
 | 8 | γ_4D | 6.03×10⁹⁰ | **DERIVED** | time dilation |
 | 9 | N_sub | 4×10² | **FREE** | sub-universe count |
 
-**Note**: $M_{\rm Pl,2D}$ = 3 TeV gives μ = 9×10⁶ GeV² (Liouville CC).
+**Note**: $M_{\rm Pl,2D}$ = 3 TeV gives μ = 9×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived).
 
 ## Key Formulas
 

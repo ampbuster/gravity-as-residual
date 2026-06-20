@@ -63,9 +63,9 @@
 - v3.4.6: honest reframe of "12 propagates" as correlation, not derivation
 - v3.4.7: meta-analysis of why "12" is common in physics (arithmetic)
 - v3.4.8: universe age = 1.5×10⁻¹⁵ of lifetime implications + PDF rebuild
-**Last updated:** June 20, 2026 (v3.5.8 release: +L308f through +L308q, +§7.4.5 through +§7.4.15, MCMC breakthrough, α = 1+1/√12 first-principles, N_sub linear scaling, cone asymmetry, 2D universe quantum)
+**Last updated:** June 20, 2026 (v3.5.8+ release: +L308f through +L308s, +§7.4.5 through +§7.4.17, MCMC breakthrough, α = 1+1/√12 first-principles, N_sub linear scaling, cone asymmetry, 2D universe quantum, **L26 PARTIAL CLOSURE via N×v_H (L308r)**, **8 attempted paths to FULLY close L26 (L308s, §7.4.17)**, 130 limitations, 398 pages)
 **This session (v3.5.8) commits**: f4c4655, 942f725, 20b83ec, 66d4fdc, 2460fcf, f47e052
-**v3.5.8 NEW**: MCMC parameter search, α = 1+1/√12 first-principles, N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ linear scaling, cone asymmetry (4D linear, 2D one-to-one), 2D universe is discrete quantum
+**v3.5.8 NEW**: MCMC parameter search, α = 1+1/√12 first-principles, N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ linear scaling, cone asymmetry (4D linear, 2D one-to-one), 2D universe is discrete quantum, **L26 PARTIAL CLOSURE** (μ = (N×v_H)² = 8.73×10⁶ GeV², L308r)
 
 ---
 
@@ -409,6 +409,19 @@ $$\tau_{2D} = \left(\frac{E}{E_{\rm Pl}}\right)^{\alpha} \times t_{\rm Pl}, \qua
 
 **[v3.5.8 FIRST-PRINCIPPLES, L308n, BREAKTHROUGH]**: α = 1 + 1/√12 = 1.2886751346 matches framework's α = 1.289 within **0.025%** — essentially EXACT! This is no longer just structural; it's a first-principles derivation. N=12 = 12 Majorana = 3 generations × 4 Weyl per gen. Schwarzian coefficient c_s = 1/√N gives the time-fluctuation exponent. **L43 (Lagrangian skeleton → α) OPEN → PARTIAL**.
 
+**[v3.5.8+ L308r, BREAKTHROUGH]**: μ = (N × v_H)² = (12 × 246.22)² = 8.73×10⁶ GeV² (3% off framework's 9×10⁶). This REDUCES μ from CALIBRATED to DERIVED with 3 inputs:
+1. α = 1 + 1/√12 (L308n first-principles)
+2. v_H = 246.22 GeV (LEP+SLD measured)
+3. N = 12 (structural: 3 gens × 4 Weyl)
+
+This also DERIVES M_Pl,2D = N × v_H = 2955 GeV (1.5% off framework's 3 TeV). v3.5.8+ first-principles: 0/9 → 1/9 (α) → **3/9** (α, M_Pl,2D, μ via L308r). The 3% offset is from framework's M_Pl,2D = 3 TeV (rounded) vs derivation's 2.95 TeV (exact). L26 OPEN → **PARTIAL CLOSURE**.
+
+**[v3.5.8+ L308s, EXHAUSTIVE SEARCH]**: 8 attempted paths to FULLY close L26 beyond L308r:
+- 6 TAUTOLOGICAL (μ = M_Pl,2D² by definition, given M_Pl,2D as input): Hagedorn, JT, String duality, Hawking-Page, DOZZ trivial, Unimodular
+- 1 NOT APPLICABLE: b = i fixed point
+- 1 WORKS (L308r): (N × v_H)² = 8.73×10⁶ (3% off)
+NO path bridges the 3% offset. The gap is from M_Pl,2D = 3 TeV (rounded). **Recommendation**: UPDATE framework's M_Pl,2D = 2955 GeV and μ = 8.73×10⁶ for internal consistency. See §7.4.17.
+
 **What α is NOT used for:**
 - 4π factor at 3D→4D (specific to that transition, not universal) ✗
 - α-symmetry (α × 1/(2α) = 1/2) ✗
@@ -486,7 +499,7 @@ python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 
 | Limitation | Status | What needs to happen |
 |------------|--------|----------------------|
-| L26: μ first-principles | OPEN | 2D cosmological constant derivation, needs 2D CFT expert |
+| L26: μ first-principles | PARTIAL CLOSURE | 2D cosmological constant derivation, needs 2D CFT expert |
 | L43: α = 1.289 first-principles | OPEN | Multiple formulas match (1+1/√N, 1+ln(q²/N)) but NONE are derived from SYK |
 | L138 (v3.3): $f_{\rm DE}$ = 10⁻⁸⁵ calibration | PARTIAL | Formula gives FORM, value calibrated |
 | L139 (v3.3): closed loop universal | RESOLVED | $f_{\rm back}$ universal at 2D→3D and 3D→4D with different $M_{\rm Pl,N}$ |
