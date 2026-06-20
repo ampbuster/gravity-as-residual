@@ -12,7 +12,7 @@
 - MCMC parameter search (L308m): 4/9 params observationally pinned
 - α = 1 + 1/√12 first-principles (L308n): 0.025% match — BREAKTHROUGH
 - L43 (Lagrangian skeleton → α): OPEN → PARTIAL
-- "12" is cascade fundamental unit (α = 1+1/√12, M_Pl,2D = 12×v_Higgs, cone depth 12)
+- "12" is cascade fundamental unit (α = 1+1/√12, $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, cone depth 12)
 - First-principles progress: 0/9 → 1/9 (α derived)
 **Pages**: 393
 **Limitations**: 118 (v3.5.7+ master table, +L308f +L308g, was 116 v3.5.7, was 81 in v3.3)
@@ -22,7 +22,7 @@
 
 ## The Model in 1 Paragraph
 
-Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple f_DE formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 3 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 4 calibrated (α, ε, τ_4D, AGN rate), 1 calibrated-and-structurally-motivated (μ), and 1 free (N_sub) = 9 parameters. The M^α law τ = (E/$M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
+Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 3 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 4 calibrated (α, ε, τ_4D, AGN rate), 1 calibrated-and-structurally-motivated (μ), and 1 free (N_sub) = 9 parameters. The M^α law τ = (E/$M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
 ## The 9 Parameters (v3.5.7+, current)
 
@@ -33,7 +33,7 @@ Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-
 | 3 | $M_{\rm Pl,4D}$ | 4×10²³ GeV | **DERIVED** | α-weighted GM of 1,2 |
 | 4 | α | 1.289 | **CALIBRATED** | 8 named events M^α fit (§10.1) |
 | 5 | ε | 10⁻³⁸ | **CALIBRATED** | hierarchy |
-| 6 | τ_4D,proper | 1.51×10³⁴ yr | **CALIBRATED** | DE match (0.13% off simple f_DE, 2.7% off bilateral cascade) |
+| 6 | τ_4D,proper | 1.51×10³⁴ yr | **CALIBRATED** | DE match (0.13% off simple $f_{\rm DE}$, 2.7% off bilateral cascade) |
 | 7 | τ_3D,apparent | 9.10×10¹²⁴ yr | **DERIVED** | γ_4D × τ_4D |
 | 8 | γ_4D | 6.03×10⁹⁰ | **DERIVED** | time dilation |
 | 9 | N_sub | 4×10² | **FREE** | sub-universe count |
@@ -49,7 +49,7 @@ $$\tau_{\rm 2D} = \left(\frac{E}{M_{\rm Pl,parent}}\right)^{\alpha} \times t_{\r
 $$M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{(1-\alpha)} = 4 \times 10^{23} \text{ GeV}$$
 $$E_{\rm 4D} = 5 \times 10^{79} \text{ J (universe-scale)}$$
 
-**DE** (4D anti-gravity, 0.13% off simple f_DE / 2.7% off bilateral cascade):
+**DE** (4D anti-gravity, 0.13% off simple $f_{\rm DE}$ / 2.7% off bilateral cascade):
 $$\rho_{\rm DE} = f_{\rm back} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 2.5 \times 10^{-47} \text{ GeV}^4$$
 
 **DM** (2D universe pulsed returns, 27% matches):
@@ -64,7 +64,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 | Version | Finding |
 |---|---|
-| v3.3 | Bilateral cascade: M_Pl,4D = 4×10²³ GeV via α-weighted GM (DERIVED), E_4D = 5×10⁷⁹ J (universe-scale), τ_3D_apparent = 9.10×10¹²⁴ yr |
+| v3.3 | Bilateral cascade: $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM (DERIVED), $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale), τ_3D_apparent = 9.10×10¹²⁴ yr |
 | v3.3.1-3 | FZZT, matrix model provide consistency, not derivation |
 | v3.3.4 | 10 first-principles principles tested, all fail |
 | v3.3.5 | Pattern: μ × τ/E = K (event-dependent) |
@@ -96,10 +96,10 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 | v3.5 | **TIER 2 research**: CY3 Z_12 (2-3 of ~28), α first-principles, μ F-theory |
 | v3.5.1 | "1/2" has 3+ anchors (Schwarzian, DOZZ, Ising) |
 | v3.5.2-3 | 45 alternative formulas for μ, 12 exact matches (all algebraically equivalent) |
-| v3.5.4 | 10 candidates for why T_H = T_Pl,2D — TOP 3: Planckian max, Euclidean periodicity, Hagedorn |
-| v3.5.5 | μ CANNOT be derived without M_Pl,2D input; Lagrangian consistency |
-| v3.5.6 | **WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins (unimodular gravity, Hagedorn T_H, JT U(Φ)=2Φ, string thermal duality, Hawking-Page/Euclidean) |
-| v3.5.7 | **HOLOGRAPHIC** (string minimal area, μ = M_s²). **AUDIT** (framework internally consistent, 47 legacy limitations archived). **NAMING REVOLUTION** (f_back → f_DM,leak / f_DM,death / f_DE, 408 replacements across 77 files) |
+| v3.5.4 | 10 candidates for why $T_H$ = $T_{\rm Pl,2D}$ — TOP 3: Planckian max, Euclidean periodicity, Hagedorn |
+| v3.5.5 | μ CANNOT be derived without $M_{\rm Pl,2D}$ input; Lagrangian consistency |
+| v3.5.6 | **WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins (unimodular gravity, Hagedorn $T_H$, JT U(Φ)=2Φ, string thermal duality, Hawking-Page/Euclidean) |
+| v3.5.7 | **HOLOGRAPHIC** (string minimal area, μ = M_s²). **AUDIT** (framework internally consistent, 47 legacy limitations archived). **NAMING REVOLUTION** ($f_{\rm back}$ → f_DM,leak / f_DM,death / $f_{\rm DE}$, 408 replacements across 77 files) |
 
 ## What v3.5.7+ Established (post-processing + DE match fix)
 
@@ -110,7 +110,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 | Math spacing | `fix_math_spacing.py` 2-pass: 567 changes across 17 files (conservative v1 was only 105) |
 | LaTeX bug fixes | 28 broken `$$...$` patterns, 4 stray `$` markers producing ugly output |
 | Pre-build lint | `pymarkdownlnt` + math-balance awk check in `build_pdf.sh` |
-| **DE match fix** | **8.4% → 0.13%** (v3.3 simple f_DE formula, near-exact). User caught: "AGN should match DE exact" |
+| **DE match fix** | **8.4% → 0.13%** (v3.3 simple $f_{\rm DE}$ formula, near-exact). User caught: "AGN should match DE exact" |
 | Consistency sweep | Title/README/STATE/persistent_memory brought to v3.5.7+ consistent |
 | Legacy organization | 7 files in `paper/legacy/`, comprehensive README |
 
@@ -118,7 +118,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 - ✓ M^α law universal across 8 named events (1.6× fit, §10.1)
 - ✓ 5/27/68 matches Planck 2018
-- ✓ DE matches observation (0.13% off simple f_DE, 2.7% off bilateral cascade)
+- ✓ DE matches observation (0.13% off simple $f_{\rm DE}$, 2.7% off bilateral cascade)
 - ✓ DM = 27% matches (calibrated AGN)
 - ✓ TRGB $H_0$ = 69.8±1.9 (0.2σ from cascade 70.16) — CLOSEST
 - ✓ $M_{\rm Pl,3D}$ measured (1.22×10¹⁹ GeV)
@@ -197,8 +197,8 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 **Legacy content** (`paper/legacy/`):
 - `legacy_paper.md` (full v3.0.x single-file, ~600 pages equivalent)
-- `v31_60_4_old.md` (v3.1.2 §3.60.4 with E_4D = 10⁶⁹ J Scenario A)
-- `v33_9d_speculation.md` (9D = v_Higgs, SUPERSEDED)
+- `v31_60_4_old.md` (v3.1.2 §3.60.4 with $E_{\rm 4D}$ = 10⁶⁹ J Scenario A)
+- `v33_9d_speculation.md` (9D = $v_{\rm Higgs}$, SUPERSEDED)
 - `v33_development_history.md` (v3.3.x dev history)
 - `v357_audit_housekeeping.md` (47 archived limitations)
 - `v357_f_back_clarification.md` (naming revolution)
@@ -223,7 +223,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 **README.md** (v3.5.7+):
 - v3.5.7 CURRENT VERSION banner, 9 parameters
-- DE match: **0.13%** (simple f_DE formula, v3.3) — corrected from v3.1.2's 8.4%
+- DE match: **0.13%** (simple $f_{\rm DE}$ formula, v3.3) — corrected from v3.1.2's 8.4%
 - μ structurally motivated (5+ origins, v3.5.6 BREAKTHROUGH)
 - F-theory 12D as 4D bulk (v3.4)
 - 47 Tuc test: SIDC vs ΛCDM (not "particle DM")
@@ -278,18 +278,18 @@ The user has caught many issues across versions:
 10. "12 propagates" is correlation, not derivation
 
 **v3.5 era** (5+ catches):
-11. f_back overloaded — user suggested new naming (f_DM,leak / f_DM,death / f_DE)
+11. $f_{\rm back}$ overloaded — user suggested new naming (f_DM,leak / f_DM,death / $f_{\rm DE}$)
 12. μ is consistent with unimodular gravity (5+ structural origins)
 
 **v3.5.7+ era** (5 catches):
-13. DE match 8.4% was WRONG (v3.1.2 value) — should be 0.13% (simple f_DE)
+13. DE match 8.4% was WRONG (v3.1.2 value) — should be 0.13% (simple $f_{\rm DE}$)
 14. Prettier breaks LaTeX math (don't use)
 15. Multiple inconsistencies between title/README/STATE/persistent_memory (consistency sweep)
 
 **v3.5.7+ era continued** (NEW, 4 more catches):
-16. M_Pl,2D = 3 TeV is "v_Higgs × 12 EW coincidence", NOT "holographic" (L110 had wrong label) → L308f, §7.4.6
-17. M_Pl,4D derivation is via α-GM + closed loop, NOT first-principles (both use calibrated inputs) → L308g
-18. α-GM consistency: M_Pl,2D = 3 TeV UNIQUELY fixed given α, M_Pl,3D, M_Pl,4D (within 3.6%) → §7.4.6 LINK 1
+16. $M_{\rm Pl,2D}$ = 3 TeV is "$v_{\rm Higgs}$ × 12 EW coincidence", NOT "holographic" (L110 had wrong label) → L308f, §7.4.6
+17. $M_{\rm Pl,4D}$ derivation is via α-GM + closed loop, NOT first-principles (both use calibrated inputs) → L308g
+18. α-GM consistency: $M_{\rm Pl,2D}$ = 3 TeV UNIQUELY fixed given α, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$ (within 3.6%) → §7.4.6 LINK 1
 19. Cone depth structure: 4D→3+1D = 41 α-steps, 3+1D→2D = 142 α-steps, ratio = √12 (cascade unit) → §7.4.6 LINK 2
 
 Each catch has been acknowledged and addressed. The framework is now more honest about its assumptions and limitations.
@@ -301,4 +301,4 @@ Each catch has been acknowledged and addressed. The framework is now more honest
 3. **Continue investigating** first-principles μ derivation (17+ methods tried, all fail; v3.5.6 found 5+ structural origins)
 4. **Document build infrastructure** (math wrapping, spacing, lint checks) — done in §7.8
 5. **Maintain honesty** about calibrated vs derived parameters
-6. **Open work**: L26 (μ from 2D CFT expert), L43 (α derivation), L100 (user-driven corrections), L138 (M_Pl,4D mechanism), L144 (N_sub free)
+6. **Open work**: L26 (μ from 2D CFT expert), L43 (α derivation), L100 (user-driven corrections), L138 ($M_{\rm Pl,4D}$ mechanism), L144 (N_sub free)

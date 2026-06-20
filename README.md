@@ -92,14 +92,14 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 
 | Transition | $M_{\rm Pl,N}$ | E_event | $f_{\rm back}$ fraction |
 |---|---|---|---|
-| 2D→3D (SN) | $1.22 \times 10^{19}$ GeV | 10⁴⁴ J | $1.6\times$10⁻⁴⁵ |
+| 2D→3D (SN) | $1.22 \times 10^{19}$ GeV | 10⁴⁴ J | $1.6\times 10^{-45}$ |
 | 3D→4D | $4\times 10^{23}$ GeV | $5\times 10^{79}$ J | $1.22\times 10^{-85}$ |
 
 **Continuous vs pulsed return** (KEY CLARIFICATION, user-formalized): $f_{\rm back}$ is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). The OBSERVABLE differs by level due to TIMESCALE (specifically, time dilation makes 3+1D's lifetime much longer than 2D's lifetime):
 
 | Boundary | Lifetime in lower-D frame | $f_{\rm DE}$ rate | Continuous leakage | Pulsed at death | What dominates NOW? |
 |---|---|---|---|---|---|
-| 2D→3D (SN) | 33 s (short, no significant $\gamma$) | $1.6\times$10⁻⁴⁵/s | $33\times 10^{-45}$ = **10⁻⁴⁴** (negligible) | 100% at 33s | **Pulsed (DM)** |
+| 2D→3D (SN) | 33 s (short, no significant $\gamma$) | $1.6\times 10^{-45}/\mathrm{s}$ | $33\times 10^{-45}$ = **$10^{-44}$** (negligible) | 100% at 33s | **Pulsed (DM)** |
 | 3D→4D | 10³⁴ yr ($\gamma_{\rm 4D}$ = 6.03×10⁹⁰ from 4D proper time ~10⁻⁵⁴ yr) | $1.22\times 10^{-85}$/s | 10⁵¹×10⁻⁸⁵ = **O(1)** by heat death | 100% at 10³⁴ yr | **Continuous (DE)** |
 
 **Time dilation is the key**: 4D event's proper time is 10⁻²⁰ s, but 3+1D's clock sees it as 10³⁴ yr. This makes 3+1D's continuous leakage observable NOW (as DE). At 2D→3D, no such time dilation exists — 2D universe's 33s lifetime is short, so continuous leakage is invisible. Pulsed return at 33s (= DM) dominates.

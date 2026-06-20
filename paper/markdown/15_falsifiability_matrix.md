@@ -15,25 +15,25 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### DESI DR3 (2026-2027): dark energy equation of state $w_0, w_a$
 
-**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5σ tension with ΛCDM)
+**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5$\sigma$ tension with $\Lambda$CDM)
 
 **Falsification threshold:**
-- If $w_0 = -1$ confirmed at > 5σ: SIDC's standard Lagrangian (constant $f_{back}$) is right
-- If $w_0 = -0.83$ confirmed at > 5σ: SIDC's standard Lagrangian falsified; needs running $f_{back}(z)$ (adds 1 free parameter)
+- If $w_0 = -1$ confirmed at > 5$\sigma$: SIDC's standard Lagrangian (constant $f_{back}$) is right
+- If $w_0 = -0.83$ confirmed at > 5$\sigma$: SIDC's standard Lagrangian falsified; needs running $f_{back}(z)$ (adds 1 free parameter)
 
-**Status:** PENDING. Currently 3.5σ, not yet falsification or validation.
+**Status:** PENDING. Currently 3.5$\sigma$, not yet falsification or validation.
 
 #### LSST Y1 (2027): 47 Tuc DM content
 
 **SIDC prediction:** 47 Tuc has *no DM* (old GCs have no DM, per SIDC's stellar-density argument). DM detection threshold: $M_{DM}/M_* < 10^{-5}$.
 
-**Falsification threshold:** If 47 Tuc shows DM at > 5σ (e.g., via stellar kinematics), SIDC's prediction is falsified.
+**Falsification threshold:** If 47 Tuc shows DM at > 5$\sigma$ (e.g., via stellar kinematics), SIDC's prediction is falsified.
 
 **Status:** PENDING. LSST Y1 data 2027.
 
 #### eROSITA + SPHEREx + GW231123 + GW230529: ongoing multi-messenger
 
-**SIDC prediction:** Consistent with ΛCDM at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with SIDC.
+**SIDC prediction:** Consistent with $\Lambda$CDM at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with SIDC.
 
 **Status:** VALIDATED. All 2024-2026 observations are consistent with SIDC's qualitative framework.
 
@@ -47,8 +47,8 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 **Falsification threshold:**
 - If GW detected at SIDC's predicted frequencies: $\alpha = 1.29$ validated to ±0.11
-- If GW detected at 10× off-frequency: α falsified to ±0.11
-- If BNS+AGN internally inconsistent: framework-level falsification (not just α)
+- If GW detected at 10× off-frequency: $\alpha$ falsified to ±0.11
+- If BNS+AGN internally inconsistent: framework-level falsification (not just $\alpha$)
 - If no GW detected: SIDC's GW prediction falsified (less direct)
 
 **Status:** PENDING. SKA-MPG operational 2030s.
@@ -71,13 +71,13 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 ### 14.3 Long-term tests (2034+)
 
-#### μAres (next-gen PTA, 2040s?): higher-precision α
+#### $\mu$Ares (next-gen PTA, 2040s?): higher-precision $\alpha$
 
-**SIDC prediction:**$\alpha = 1.29$ to ±0.055 precision (1 dex frequency precision → 0.055 in α).
+**SIDC prediction:**$\alpha = 1.29$ to ±0.055 precision (1 dex frequency precision → 0.055 in $\alpha$).
 
-**Falsification threshold:** If α measured at < 1.20 or > 1.40, SIDC's energy-scaling rule is wrong.
+**Falsification threshold:** If $\alpha$ measured at < 1.20 or > 1.40, SIDC's energy-scaling rule is wrong.
 
-**Status:** PENDING. μAres operational 2040s.
+**Status:** PENDING. $\mu$Ares operational 2040s.
 
 #### BBN precision (10× improvement)
 
@@ -91,9 +91,9 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 | Test | SIDC predicts | Falsification threshold |
 |------|------------------|-------------------------|
-| $w_0$ (DESI DR3) | $-0.83 \pm 0.16$ | > 5σ away from -0.83 |
-| $w_a$ (DESI DR3) | $-0.75 \pm 0.30$ | > 5σ away from -0.75 |
-| 47 Tuc DM (LSST) | < $10^{-5} M_*$ | DM detected at > 5σ |
+| $w_0$ (DESI DR3) | $-0.83 \pm 0.16$ | > 5$\sigma$ away from -0.83 |
+| $w_a$ (DESI DR3) | $-0.75 \pm 0.30$ | > 5$\sigma$ away from -0.75 |
+| 47 Tuc DM (LSST) | < $10^{-5} M_*$ | DM detected at > 5$\sigma$ |
 | BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10× off-frequency |
 | AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10× off-frequency |
 | $M_{\rm Pl,4}$ (colliders) | $\geq 4×10^{23}$ GeV | Measured < 4×10²³ GeV |
@@ -110,7 +110,7 @@ SIDC's critical test period is **2026-2034**:
 
 If multiple tests simultaneously validate SIDC, that's strong evidence. If multiple falsify, SIDC is in trouble. The 5-10 year window is when SIDC's status will be **either** "validated 2D universe framework" **or** "falsified, time to move on".
 
-**The honest cost:** SIDC is testable, but most tests are in the future. Until then, SIDC is a *promising* phenomenological framework with structural support from 5 of 6 framework analyses (§3.8), but no first-principles derivation. See `calculations/v27_alpha_sensitivity.py` for α sensitivity analysis.
+**The honest cost:** SIDC is testable, but most tests are in the future. Until then, SIDC is a *promising* phenomenological framework with structural support from 5 of 6 framework analyses (§3.8), but no first-principles derivation. See `calculations/v27_alpha_sensitivity.py` for $\alpha$ sensitivity analysis.
 *Version: v2.4*
 *Repository: https://github.com/ampbuster/gravity-as-residual*
 *Version: v2.4 (pending version bump; v2.3.2 → v2.4)*

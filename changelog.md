@@ -4585,21 +4585,21 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 
 **Commits**: ~30+ commits in v3.5 era
 
-## v3.5.8 (June 20, 2026) — User-driven refinements: M_Pl origins, geometric factor asymmetry, cone structure
+## v3.5.8 (June 20, 2026) — User-driven refinements: $M_{\rm Pl}$ origins, geometric factor asymmetry, cone structure
 
 **Reason for version bump:** User-driven iterative refinements revealed deep geometric structure in the cascade cone. 7 new limitations (L308f-L308l), 6 new sections (§7.4.5-§7.4.10), 8 new calculations. Total: 123 honest limitations (was 116 v3.5.7, +7).
 
 **NEW SECTIONS**:
 - **§7.4.5 (v3.5.7+ new)**: μ's 5 Structural Motivations (consolidated with 2025-2026 references: Rassouli 2025 arXiv:2501.17213, Hallam-Magueijo 2025 arXiv:2511.13562, Minahan 2024, JHEP05(2024)244)
-- **§7.4.6 (NEW)**: α-GM Consistency and Cone Depth Structure. M_Pl,2D UNIQUELY fixed at 2.89 TeV by α-GM. "12" emerges as cascade fundamental unit (12 = 12 sub-steps 4D→3+1D)
+- **§7.4.6 (NEW)**: α-GM Consistency and Cone Depth Structure. $M_{\rm Pl,2D}$ UNIQUELY fixed at 2.89 TeV by α-GM. "12" emerges as cascade fundamental unit (12 = 12 sub-steps 4D→3+1D)
 - **§7.4.7 (NEW)**: First-Principles Search Summary. 7 systematic attempts to derive framework parameters from first principles. 0/9 found.
 - **§7.4.8 (NEW)**: Geometric Factor Asymmetry: 2π vs 4π in Cascade Transitions. Each transition factor = parent's boundary sphere measure.
-- **§7.4.9 (NEW)**: Extending the Cascade to 9D, 10D, 12D. Cone extension unphysical (M_Pl grows exponentially). 9D/10D/12D live in F-theory 12D bulk.
+- **§7.4.9 (NEW)**: Extending the Cascade to 9D, 10D, 12D. Cone extension unphysical ($M_{\rm Pl}$ grows exponentially). 9D/10D/12D live in F-theory 12D bulk.
 - **§7.4.10 (NEW)**: Extending Cascade to 0 and Negative Dimensions. Cone has natural range n=1 to n≈17. Past peak (n=6), factors decrease. Negative-n gives mathematical curiosities (A_-2 = -1/π).
 
 **NEW LIMITATIONS (7 added, 116 → 123)**:
-- **L308f**: M_Pl,2D = 3 TeV origin: N=12 SYK + v_Higgs, NOT "holographic" (USER-CAUGHT)
-- **L308g**: M_Pl,4D = 4×10²³ derivation chain: α-GM + closed loop, NOT first-principles (USER-CAUGHT)
+- **L308f**: $M_{\rm Pl,2D}$ = 3 TeV origin: N=12 SYK + $v_{\rm Higgs}$, NOT "holographic" (USER-CAUGHT)
+- **L308g**: $M_{\rm Pl,4D}$ = 4×10²³ derivation chain: α-GM + closed loop, NOT first-principles (USER-CAUGHT)
 - **L308h**: 0/9 parameters first-principles derived (USER-DIRECTED systematic search)
 - **L308i**: Geometric factor 2π vs 4π is BOUNDARY-SPHERE STRUCTURED (USER-DISCOVERED)
 - **L308j**: Cone extension to 9D/10D/12D is NOT APPLICABLE — cone terminates at 4D (USER-DIRECTED)
@@ -4607,8 +4607,8 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - **L308l**: Cone has natural range n=1 to n≈17 (USER-DIRECTED)
 
 **KEY DISCOVERIES THIS SESSION**:
-1. **α-GM CONSISTENCY** (LINK 1): M_Pl,2D = 2.89 TeV UNIQUELY fixed given α, M_Pl,3D, M_Pl,4D (3.6% off framework's 3 TeV)
-2. **"12" CASCADE UNIT** (LINK 2): N=12 SYK count matches cone depth (12 sub-steps 4D→3+1D), M_Pl,2D/v_Higgs ratio (11.75), 12 Majorana=6 Dirac=3 generations
+1. **α-GM CONSISTENCY** (LINK 1): $M_{\rm Pl,2D}$ = 2.89 TeV UNIQUELY fixed given α, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$ (3.6% off framework's 3 TeV)
+2. **"12" CASCADE UNIT** (LINK 2): N=12 SYK count matches cone depth (12 sub-steps 4D→3+1D), $M_{\rm Pl,2D}$/$v_{\rm Higgs}$ ratio (11.75), 12 Majorana=6 Dirac=3 generations
 3. **BOUNDARY SPHERE STRUCTURE**: 2D→3D has factor 2π (S¹ circle), 3D→4D has 4π (S² sphere). Each transition factor = parent's boundary sphere surface area
 4. **GEOMETRIC PEAK AT n=6**: S^6 surface area = 33.07 is the maximum. Framework's 4D choice was PRACTICAL, not geometric. Cone could extend to 7D/8D where peak is.
 5. **CONE DISSOLVES AT n≈17**: Factors cross 1 around n=17. Past that, factors < 1, cone structure weakens. At n→∞, factors → 0.
@@ -4676,25 +4676,25 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 
 **NEW SECTIONS (5 added, §7.4.11-§7.4.15)**:
 - **§7.4.11 (NEW)**: Monte Carlo Parameter Convergence. MCMC finds 4/9 params observationally pinned, 2/9 framework choices, 3/9 derived.
-- **§7.4.12 (NEW)**: First-Principles Search: Remaining Parameters. M_Pl,2D = 12×v_Higgs, N_sub no derivation, ε absorbs CC, 4π structural.
-- **§7.4.13 (NEW)**: N_sub Scales Linearly with E_4D. User insight, linear scaling in event size.
+- **§7.4.12 (NEW)**: First-Principles Search: Remaining Parameters. $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, N_sub no derivation, ε absorbs CC, 4π structural.
+- **§7.4.13 (NEW)**: N_sub Scales Linearly with $E_{\rm 4D}$. User insight, linear scaling in event size.
 - **§7.4.14 (NEW)**: Cone is Asymmetric: 4D Linear, 2D One-to-One. User insight, different scaling at different levels.
-- **§7.4.15 (NEW)**: 2D Universe is a Discrete Quantum. User insight, M_2D can't be split.
+- **§7.4.15 (NEW)**: 2D Universe is a Discrete Quantum. User insight, $M_{\rm 2D}$ can't be split.
 
 **NEW LIMITATIONS (5 added, 123 → 128)**:
 - **L308m (NEW)**: MCMC parameter convergence: 4/9 strongly pinned, 2/9 framework choices, 3/9 derived
 - **L308n (BREAKTHROUGH)**: α = 1 + 1/√12 EXACT first-principles match (0.025% off framework 1.289)
-- **L308o (USER-INSIGHT)**: N_sub = E_4D/E_sub scales linearly with event size
+- **L308o (USER-INSIGHT)**: N_sub = $E_{\rm 4D}$/E_sub scales linearly with event size
 - **L308p (USER-INSIGHT)**: Cone is asymmetric: 4D linear, 2D one-to-one
-- **L308q (USER-INSIGHT)**: 2D universe is discrete quantum (M_2D can't be split)
+- **L308q (USER-INSIGHT)**: 2D universe is discrete quantum ($M_{\rm 2D}$ can't be split)
 
 **KEY DISCOVERIES (v3.5.8 SESSION 2)**:
 
 1. **MCMC PARAMETER CONVERGENCE** (BREAKTHROUGH):
    - Metropolis-Hastings MCMC with 15,000 samples over 6 free parameters
    - **Tier 1 (4/9 STRONGLY CONSTRAINED)**: α, ε, τ_4D, AGN rate converge within 0.5σ
-   - **Tier 2 (2/9 WEAKLY CONSTRAINED)**: M_Pl,2D (1.75 vs 3 TeV), N_sub (217 vs 400)
-   - **Tier 3 (3/9 DERIVED)**: M_Pl,4D, γ_4D, E_4D
+   - **Tier 2 (2/9 WEAKLY CONSTRAINED)**: $M_{\rm Pl,2D}$ (1.75 vs 3 TeV), N_sub (217 vs 400)
+   - **Tier 3 (3/9 DERIVED)**: $M_{\rm Pl,4D}$, γ_4D, $E_{\rm 4D}$
    - Confirms framework's structure is correct
 
 2. **α = 1 + 1/√12 FIRST-PRINCIPLES** (BREAKTHROUGH):
@@ -4705,28 +4705,28 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
    - First-principles progress: 0/9 → 1/9
 
 3. **N_sub LINEAR SCALING** (USER-INSIGHT):
-   - N_sub = E_4D / E_sub (energy conservation)
+   - N_sub = $E_{\rm 4D}$ / E_sub (energy conservation)
    - E_sub = 1.25×10⁷⁷ J (~10²⁹ M_sun, sub-universe scale)
-   - For framework: N_sub = 400 (E_4D = 5×10⁷⁹ J)
+   - For framework: N_sub = 400 ($E_{\rm 4D}$ = 5×10⁷⁹ J)
    - Different 4D events → different N_sub (sub-galaxy: N=4, supercluster: N=400,000)
    - N_sub no longer "free parameter" — SEMI-DERIVED
 
 4. **CONE ASYMMETRY** (USER-INSIGHT):
-   - 4D → 3+1D: linear (N_sub ∝ E_4D, universe-creating, transcendent)
+   - 4D → 3+1D: linear (N_sub ∝ $E_{\rm 4D}$, universe-creating, transcendent)
    - 3+1D → 2D: one-to-one (1 universe per event, universe-modifying, internal)
    - 2D asymmetry CONSTRAINED by DM observation
    - Linear at 2D would overproduce DM by 10⁶⁵
 
 5. **2D UNIVERSE IS DISCRETE QUANTUM** (USER-INSIGHT):
-   - Fixed mass M_2D = M_Pl,2D²/M_Pl,3D = 7.4×10⁻¹³ GeV
+   - Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/$M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
    - Variable lifetime (M^α law from event energy)
    - 1 universe per event (no splitting)
    - Analogous to a particle: mass quantum + variable lifetime + single creation mode
-   - M_2D/2 would require M_Pl,2D = 2.12 TeV (breaks α-GM by 9.4%)
+   - $M_{\rm 2D}$/2 would require $M_{\rm Pl,2D}$ = 2.12 TeV (breaks α-GM by 9.4%)
 
 6. **"12" IS THE CASCADE FUNDAMENTAL UNIT** (deepest insight):
    - α = 1 + 1/√12 (Schwarzian SYK saddle-point)
-   - M_Pl,2D = 12 × v_Higgs (structural, 1.5% off)
+   - $M_{\rm Pl,2D}$ = 12 × $v_{\rm Higgs}$ (structural, 1.5% off)
    - Cone depth 4D→3+1D = 12 sub-steps
    - 12 Majorana = 6 Dirac = 3 generations × 2
    - 12 = 2 (L/R) × 2 (quark/lepton) × 3 (generations)
@@ -4735,9 +4735,9 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 **NEW CALCULATIONS** (5 files):
 - calculations/v35_monte_carlo_parameter_search.py (MCMC breakthrough)
 - calculations/v35_2d_cft_monte_carlo_alpha.py (α first-principles derivation)
-- calculations/v35_first_principles_rest.py (M_Pl,2D, N_sub, ε, τ_4D search)
-- calculations/v35_n_sub_scaling.py (N_sub = E_4D/E_sub)
-- calculations/v35_2d_universe_quantum.py (M_2D discrete)
+- calculations/v35_first_principles_rest.py ($M_{\rm Pl,2D}$, N_sub, ε, τ_4D search)
+- calculations/v35_n_sub_scaling.py (N_sub = $E_{\rm 4D}$/E_sub)
+- calculations/v35_2d_universe_quantum.py ($M_{\rm 2D}$ discrete)
 
 **NEW RESULT FILES** (3 files):
 - calculations/v35_monte_carlo_results.txt
@@ -4762,7 +4762,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - f4c4655: v3.5.8 formal release (initial)
 - 942f725: v3.5.8 MCMC parameter search + α = 1+1/√12 first-principles
 - 20b83ec: v3.5.8 first-principles search for remaining parameters
-- 66d4fdc: v3.5.8 N_sub scales linearly with E_4D
+- 66d4fdc: v3.5.8 N_sub scales linearly with $E_{\rm 4D}$
 - 2460fcf: v3.5.8 cone is asymmetric (4D linear, 2D one-to-one)
 - f47e052: v3.5.8 2D universe is discrete quantum
 - 7381fd1: persistent_memory.md comprehensive v3.5.8 update

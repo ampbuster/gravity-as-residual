@@ -14,7 +14,7 @@ In v3.3, DM is:
 - **Cumulative pulsed return of 2D universes at death**
 - 2D universes "die" and 100% return to 3D as energy
 - This energy behaves as cold dark matter (CDM-like)
-- 27% of ρ_crit (calibrated to observation)
+- 27% of $\rho_{\rm crit}$ (calibrated to observation)
 
 **DM is NOT a particle species.** It is the energy content of decayed 2D universes.
 
@@ -71,7 +71,7 @@ These tests can't directly probe the framework's DM.
 | Test | What it probes | Status |
 |---|---|---|
 | **Cosmological structure** | Does 27% match? | ✓ (calibrated) |
-| **CMB power spectrum** | Does DE = 68% match? | ✓ (calibrated τ_4D) |
+| **CMB power spectrum** | Does DE = 68% match? | ✓ (calibrated $\tau_{\rm 4D}$) |
 | **Hubble tension** | Cascade $H_0$ = 70.16? | ✓ (matches TRGB) |
 | **Small-scale structure** | CDM-like behavior? | ✓ (calibrated) |
 | **Pulsed injection** | Is DM pulsed, not steady? | Testable (unusual signature) |
@@ -96,7 +96,7 @@ These are **unique predictions** of the framework, not shared with standard CDM.
 The framework's DM is:
 1. Not a particle (per user catch)
 2. Energy from decayed 2D universes
-3. CDM-like in behavior (27% of ρ_crit)
+3. CDM-like in behavior (27% of $\rho_{\rm crit}$)
 4. Pulsed in origin (instantaneous at 2D universe death)
 5. Possibly contains particles (Possibility A: m_DM = 3 TeV?)
 
@@ -120,14 +120,14 @@ The "spectrum" is determined by:
 - Distribution of E (event energies)
 - Distribution of event rates
 - 2D universe growth factors
-- μ (universal vs event-dep)
+- $\mu$ (universal vs event-dep)
 
-For Option 1 (universal μ):
+For Option 1 (universal $\mu$):
 - All 2D universes have same growth factor
 - Energy distribution = distribution of E (with universal growth)
 - Not a single mass — distribution from 10⁻⁴³ J (TNT) to 10⁶⁰ J (quasar)
 
-For Option 2 (event-dep μ):
+For Option 2 (event-dep $\mu$):
 - Different growth factors
 - Even broader energy distribution
 - More diverse

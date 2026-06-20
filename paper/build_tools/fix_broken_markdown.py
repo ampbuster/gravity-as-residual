@@ -63,6 +63,59 @@ def fix_broken_markdown(content):
     changes += n
     content = new_content
 
+    # Pattern 5: $X\\times$ 10^{N} (split math block - need to move 10 into math)
+    # $1.6\\times$ 10^{-45} -> $1.6\\times 10^{-45}$
+    # Move the 10^{N} into the math block by removing trailing $ and adding it at the end
+    new_content, n = re.subn(
+        r'(\$[\d. ]+\\times\$)\s+(10\^[\d\-\{\}\]]+)',
+        lambda m: f'{m.group(1)[:-1]} {m.group(2)}$',
+        content
+    )
+    changes += n
+    content = new_content
+
+
+    content = new_content
+
+    # Pattern 6: **NUMBER × 10^N** (bold with Unicode superscript)
+    # **4.6 × 10⁻⁶⁸** -> **$4.6 \times 10^{-68}$**
+    sup_map = {"⁰":"0","¹":"1","²":"2","³":"3","⁴":"4","⁵":"5","⁶":"6","⁷":"7","⁸":"8","⁹":"9"}
+    def parse_unicode_superscript(text):
+        """Convert 10⁻⁴⁵ to 10^{-45}"""
+        if not text.startswith('10'):
+            return None
+        sign = ''
+        digits = ''
+        for c in text[2:]:
+            if c == '⁻':
+                sign = '-'
+            elif c == '⁺':
+                sign = '+'
+            elif c in sup_map:
+                digits += sup_map[c]
+            else:
+                return None
+        return f'$10^{{{sign}{digits}}}$' if digits else None
+
+    # **NUMBER × 10⁻N** pattern
+    new_content, n = re.subn(
+        r'\*\*([0-9.]+)\s*×\s*(10[⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]+)\*\*',
+        lambda m: f'**${m.group(1)} \\times {parse_unicode_superscript(m.group(2))[1:-1]}$**',
+        content
+    )
+    changes += n
+    content = new_content
+
+    # Pattern 7: **10⁻N suffix** (bold with Unicode 10^N and trailing text)
+    # **10¹⁸ apart** -> **$10^{18}$ apart**
+    new_content, n = re.subn(
+        r'\*\*(10[⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]+)([^*]*)\*\*',
+        lambda m: f'**{parse_unicode_superscript(m.group(1))}{m.group(2)}**',
+        content
+    )
+    changes += n
+    content = new_content
+
     return content, changes
 
 

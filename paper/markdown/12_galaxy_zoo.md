@@ -39,7 +39,7 @@ The 7 outlier tests complement the 4 standard tests by probing *extreme* cases:
 **Bullet Cluster (1E 0657-56):** a famous galaxy-cluster merger in which the X-ray gas (slowed by collisional interaction) is spatially separated from the galaxies (collisionless) by 720 kpc. Weak lensing shows that the *lensing mass* follows the *galaxies*, not the gas. SIDC's interpretation: the galaxies have had past star formation activity (creating 2D universes), so their cumulative 2D universe back-projection contributes to the lensing mass. The X-ray gas has no current or recent star formation, so it creates no 2D universes and contributes no DM. **SIDC SMOKING GUN**: the gas-galaxy separation is *exactly* what SIDC predicts. MOND struggles to explain this without sterile neutrinos; SIDC explains it naturally. (Updated JWST lensing analysis: Cha+ 2025, arXiv:2503.21870.)
 
 **Why Bullet Cluster is a SMOKING GUN for SIDC specifically (v2.7.32+):**
-- Particle DM models also explain this, but require σ/m < 1 ${\rm cm}^2/{\rm g}$ (fine-tuned)
+- Particle DM models also explain this, but require $\sigma$/m < 1 ${\rm cm}^2/{\rm g}$ (fine-tuned)
 - SIDC explains it WITHOUT fine-tuning the cross-section
 - In SIDC, DM = cumulative 2D universe death energy
 - 2D universe creation is tied to energetic events (SNe, AGN, mergers)
@@ -60,7 +60,7 @@ The 7 outlier tests complement the 4 standard tests by probing *extreme* cases:
 
 ### 12.3 The Bullet Cluster: SIDC's smoking gun — *and its limits*
 
-The Bullet Cluster is the most striking empirical test of any dark matter model. In the standard ΛCDM + particle DM picture, the gas-galaxy separation is *expected*: gas collides and slows, galaxies are collisionless, DM is collisionless and follows galaxies. But the *SIDC* has a *different mechanism* for DM — the cumulative 2D universe back-projection — and SIDC makes a *specific prediction*:
+The Bullet Cluster is the most striking empirical test of any dark matter model. In the standard $\Lambda$CDM + particle DM picture, the gas-galaxy separation is *expected*: gas collides and slows, galaxies are collisionless, DM is collisionless and follows galaxies. But the *SIDC* has a *different mechanism* for DM — the cumulative 2D universe back-projection — and SIDC makes a *specific prediction*:
 
 > The DM (lensing mass) should follow the *galaxies* (the loci of past star formation) and not the *gas* (no star formation, no 2D universe creation).
 
@@ -68,7 +68,7 @@ This is exactly what is observed in the Bullet Cluster. SIDC *naturally* explain
 
 The JWST strong + weak lensing analysis (Cha+ 2025, arXiv:2503.21870) confirms the original result with much higher resolution: 146 strong lensing constraints, 398 sources/ ${\rm arcmin}^2$ weak lensing, three distinct halos resolved. SIDC's prediction stands.
 
-**HONEST CAVEAT (v2.7.3+):** the Bullet Cluster is *not* a unique test of SIDC. **All particle DM models** (ΛCDM + WIMP/axion/sterile ν/PBH/Fuzzy DM/SIDM, etc.) trivially explain the gas-galaxy separation: their DM particles are collisionless, so they pass through with the galaxies. The Bullet Cluster is a *necessary* test for any DM model (it kills pure modified gravity), but it is *not* a *sufficient* test for SIDC over particle DM.
+**HONEST CAVEAT (v2.7.3+):** the Bullet Cluster is *not* a unique test of SIDC. **All particle DM models** ($\Lambda$CDM + WIMP/axion/sterile $\nu$/PBH/Fuzzy DM/SIDM, etc.) trivially explain the gas-galaxy separation: their DM particles are collisionless, so they pass through with the galaxies. The Bullet Cluster is a *necessary* test for any DM model (it kills pure modified gravity), but it is *not* a *sufficient* test for SIDC over particle DM.
 
 SIDC's specific *additional* prediction beyond particle DM: the lensing mass tracks the *star-formation history* of the galaxies, not just their collisionless nature. SIDC and particle DM both predict the Bullet Cluster; they differ in predictions for **objects with no current activity but real DM subhalos** (47 Tuc test, §11), where SIDC predicts no local DM and particle DM predicts a real cosmological subhalo.
 
@@ -84,7 +84,7 @@ SIDC's specific *additional* prediction beyond particle DM: the lensing mass tra
 **11/11 does NOT mean:**
 - SIDC is *uniquely* confirmed. LCDM + particle DM can also accommodate most of these tests (with the addition of baryonic feedback to explain the "no DM" UDGs).
 - SIDC's specific quantitative predictions (the *exact* $M_{dyn}$/ $M_{b}$ for each galaxy) are derived from first principles. They are *qualitative* predictions calibrated to the data.
-- SIDC has *no free parameters*. The 2 free parameters (μ, $m_{3+1D}$) plus the calibrated f_split (32/68 projection ratio) and growth factor are not yet derived from first principles.
+- SIDC has *no free parameters*. The 2 free parameters ($\mu$, $m_{3+1D}$) plus the calibrated f_split (32/68 projection ratio) and growth factor are not yet derived from first principles.
 
 **The honest framing:** 11/11 is a *consistency check*, not a *confirmation*. SIDC is a *geometric framework* that is *consistent* with the galaxy zoo, awaiting theoretical completion (2D CFT Lagrangian, bulk-brane geometry derivation).
 

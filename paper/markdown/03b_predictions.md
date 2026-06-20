@@ -10,18 +10,18 @@ legacy_paper.md §3.17 and legacy_paper.md §3.18 established the "democratic co
 
 Each level of SIDC has the same structure:
 - Proper lifetime = next-dim Planck time
-- Time dilation factor γ = $(E/E_{\rm Pl})^{1.29}$
-- 3+1D-frame lifetime = γ × $t_{\rm Pl}$
+- Time dilation factor $\gamma$ = $(E/E_{\rm Pl})^{1.29}$
+- 3+1D-frame lifetime = $\gamma$ × $t_{\rm Pl}$
 
 | Level | D | $t_{\rm Pl}$,D (s) | Proper lifetime | Time dilation | Frame lifetime |
 |-------|---|------------|------------------|---------------|----------------|
 | 0D | 0 | — | none | — | — |
-| 1D | 1 | varies | 1 Planck time in 1D | γ_1D | varies |
+| 1D | 1 | varies | 1 Planck time in 1D | $\gamma_{\rm 1D}$ | varies |
 | 2D | 2 | varies | $t_{\rm Pl,3+1D}$ in 2D frame | $\gamma_{2D}$ = $(E/E_{\rm Pl,2})^{1.29}$ | $10^{-63}$ s to $10^{8}$ yr |
-| 3+1D | 4 | $5.39 \times 10^{-44}$ | $t_{\rm Pl,4D}$ in 3+1D frame | γ_3+1D = ($E_{4D}$/ $E_{\rm Pl,4D}$)^1.29 | $2 \times 10^{26}$ yr (ours) |
-| 4D | 5 | $7.4 \times 10^{-28}$ | $t_{\rm Pl,5D}$ in 4D frame | γ_4D = ($E_{\rm 5D}$/ $E_{\rm Pl,5D}$)^1.29 | varies |
-| 5D | 6 | varies | $t_{\rm Pl}$,6 in 5D frame | γ_5D = (E_6D/ $E_{\rm Pl}$,6)^1.29 | varies |
-| ... | N | $t_{\rm Pl}$,N | $t_{\rm Pl}$,(N+1) in N-D frame | γ_N | varies |
+| 3+1D | 4 | $5.39 \times 10^{-44}$ | $t_{\rm Pl,4D}$ in 3+1D frame | $\gamma_{\rm 3}$+1D = ($E_{4D}$/ $E_{\rm Pl,4D}$)^1.29 | $2 \times 10^{26}$ yr (ours) |
+| 4D | 5 | $7.4 \times 10^{-28}$ | $t_{\rm Pl,5D}$ in 4D frame | $\gamma_{\rm 4D}$ = ($E_{\rm 5D}$/ $E_{\rm Pl,5D}$)^1.29 | varies |
+| 5D | 6 | varies | $t_{\rm Pl}$,6 in 5D frame | $\gamma_{\rm 5D}$ = (E_6D/ $E_{\rm Pl}$,6)^1.29 | varies |
+| ... | N | $t_{\rm Pl}$,N | $t_{\rm Pl}$,(N+1) in N-D frame | $\gamma_{\rm N}$ | varies |
 
 **3.21.2 Generalized Planck units in N dimensions.**
 
@@ -42,7 +42,7 @@ SIDC's cone-shape (§2.6) terminates at 4D as the "top". But §3.10 (extending u
 
 - Each level is similar to 3+1D (universal bulk-brane cancellation, §2.4)
 - Each level has the same proper lifetime in its own frame (democratic cosmology, legacy_paper.md §3.17-legacy_paper.md §3.18)
-- Each level has the same time-dilation factor γ = $(E/E_{\rm Pl})^{1.29}$ (universal α, legacy_paper.md §3.19)
+- Each level has the same time-dilation factor $\gamma$ = $(E/E_{\rm Pl})^{1.29}$ (universal $\alpha$, legacy_paper.md §3.19)
 - Each level is created by events in the higher dimension
 
 **SIDC is naturally recursive.** The same physics applies at every level.
@@ -58,7 +58,7 @@ At every level, the parent dimension sees vastly different child lifetimes:
 **3.21.5 Implications.**
 
 1. SIDC is a **general framework**, not specific to 4D-3+1D-2D.
-2. The same physics (α = 1.29, democratic cosmology, universal bulk-brane) applies at every level.
+2. The same physics ($\alpha$ = 1.29, democratic cosmology, universal bulk-brane) applies at every level.
 3. The "universe creation" principle is **universal** — every energetic event creates a child universe.
 4. SIDC's cone-shape (§2.6) is the *default* but not the *only* option.
 5. SIDC is **naturally recursive** to N dimensions.
@@ -67,7 +67,7 @@ At every level, the parent dimension sees vastly different child lifetimes:
 
 - SIDC is naturally recursive to N dimensions
 - Each level has the same proper lifetime in its own frame
-- Each level has the same time-dilation factor γ = $(E/E_{\rm Pl})^{1.29}$
+- Each level has the same time-dilation factor $\gamma$ = $(E/E_{\rm Pl})^{1.29}$
 - The "democratic cosmology" extends to every level
 - SIDC's framework is general, not specific
 
@@ -83,7 +83,7 @@ See `calculations/v27_recursive_structure.py` for the full analysis.
 
 ### 3.22 More framework connections: extending the analysis (v2.7.29+)
 
-§3.8.1 established the connection to CGHS 2D dilaton gravity. This section extends the analysis to additional frameworks that could support SIDC's democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) and universal α (legacy_paper.md §3.19).
+§3.8.1 established the connection to CGHS 2D dilaton gravity. This section extends the analysis to additional frameworks that could support SIDC's democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) and universal $\alpha$ (legacy_paper.md §3.19).
 
 **3.22.1 Geodetic brane gravity (Regge-Teitelboim 2024).**
 
@@ -93,9 +93,9 @@ Geodetic brane gravity is a recently-developed framework that treats branes as g
 - The 4D event is a localized process in 5D AdS₅
 - The 3+1D brane is a geodesic in this bulk
 - The "inversion" (4D attractive → 3+1D repulsive) is a feature of the embedding
-- α = 1.29 could be derived from the embedding geometry
+- $\alpha$ = 1.29 could be derived from the embedding geometry
 
-**Status:** STRUCTURAL SUPPORT. The framework supports SIDC's overall structure, but a specific α derivation is not yet available.
+**Status:** STRUCTURAL SUPPORT. The framework supports SIDC's overall structure, but a specific $\alpha$ derivation is not yet available.
 
 **3.22.2 Massive gravity (de Rham 2011).**
 
@@ -103,9 +103,9 @@ Massive gravity is a framework where the graviton has a small but non-zero mass.
 
 **Connection to SIDC:**
 - SIDC's DE is the 4D event's antigravity (from §2.4)
-- In massive gravity, the graviton mass m_g introduces a length scale λ_g = ℏ/(m_g c)
+- In massive gravity, the graviton mass m_g introduces a length scale $\lambda_{\rm g}$ = ℏ/(m_g c)
 - The 4D event's antigravity could be a "mass term" for the 5D graviton
-- α = 1.29 could be a function of m_g
+- $\alpha$ = 1.29 could be a function of m_g
 
 **Status:** SPECULATIVE. The connection is intriguing but not yet established.
 
@@ -117,7 +117,7 @@ Conformal gravity replaces the Einstein-Hilbert action with a conformally invari
 - SIDC's "weak gravity" ($10^{-38}$) could be a conformal effect
 - SIDC's "DM" could be conformal gravity's modified gravity
 - SIDC's "DE" could be conformal gravity's natural acceleration
-- α = 1.29 could be a conformal weight
+- $\alpha$ = 1.29 could be a conformal weight
 
 **Status:** SPECULATIVE. Conformal gravity is a contested alternative to GR.
 
@@ -129,7 +129,7 @@ DGP (Dvali-Gabadadze-Porrati) is a 5D brane-world model with an induced 4D Einst
 - SIDC's DE is the 4D event's antigravity (§2.4)
 - DGP's self-accelerating branch gives effective DE
 - The crossover scale r_c = $G_5$/ $G_4$ is a candidate for SIDC's bulk-brane coupling
-- α = 1.29 could be a function of r_c
+- $\alpha$ = 1.29 could be a function of r_c
 
 **Status:** STRUCTURAL SUPPORT. SIDC's inversion (§3.9) mentions DGP. The connection is established but not unique.
 
@@ -143,16 +143,16 @@ Verlinde proposed that gravity is an entropic force arising from the tendency of
 - SIDC's DM is a *geometric* effect (not particles)
 - SIDC is consistent with entropic gravity at the conceptual level
 
-**Status:** STRUCTURAL SUPPORT. SIDC's framework is consistent with entropic gravity, but the specific α derivation is not yet available.
+**Status:** STRUCTURAL SUPPORT. SIDC's framework is consistent with entropic gravity, but the specific $\alpha$ derivation is not yet available.
 
 **3.22.6 Summary: framework connections.**
 
 | Framework | Year | Connection | Status |
 |-----------|------|------------|--------|
-| CGHS | 1992 | α = 1.29 in back-reaction range | STRONGEST MATCH |
+| CGHS | 1992 | $\alpha$ = 1.29 in back-reaction range | STRONGEST MATCH |
 | Padmanabhan | 2015 | DM = bulk entanglement entropy | STRUCTURAL |
 | Horava-Witten | 1996 | 3+1D = 10D HW brane + 6D CY | STRUCTURAL |
-| Jacobson | 1995 | TdS gives M = τ/(2G) | TENSION (linear) |
+| Jacobson | 1995 | TdS gives M = $\tau$/(2G) | TENSION (linear) |
 | RT | 2006 | S_A = Area/(4G) | TENSION (= Jacobson) |
 | KK | 1921 | Historical prototype | STRUCTURAL |
 | Geodetic brane | 2024 | Embedding geometry | STRUCTURAL |
@@ -163,28 +163,28 @@ Verlinde proposed that gravity is an entropic force arising from the tendency of
 
 **3.22.7 The honest picture.**
 
-SIDC's democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) and universal α (legacy_paper.md §3.19) are supported by 11 frameworks:
+SIDC's democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) and universal $\alpha$ (legacy_paper.md §3.19) are supported by 11 frameworks:
 - 1 STRONGEST MATCH (CGHS)
 - 6 STRUCTURAL SUPPORT (Padmanabhan, Horava-Witten, KK, Geodetic brane, DGP, Verlinde)
 - 2 TENSION (Jacobson, RT — predict linear, not power law)
 - 2 SPECULATIVE (Massive gravity, Conformal gravity)
 
-**α = 1.29 is in the CGHS back-reaction range [1, 3]**, but no specific calculation has been done to derive α = 1.29 from CGHS back-reaction.
+**$\alpha$ = 1.29 is in the CGHS back-reaction range [1, 3]**, but no specific calculation has been done to derive $\alpha$ = 1.29 from CGHS back-reaction.
 
 **3.22.8 Status (v2.7.29+).**
 
 - 11 frameworks analyzed
-- 1 STRONGEST MATCH (CGHS) for α = 1.29
+- 1 STRONGEST MATCH (CGHS) for $\alpha$ = 1.29
 - 6 STRUCTURAL SUPPORT for SIDC's overall framework
 - 2 TENSION (Jacobson, RT — predict linear, not power law)
 - 2 SPECULATIVE (massive gravity, conformal gravity)
-- No specific α derivation yet
+- No specific $\alpha$ derivation yet
 
 **SIDC's commitment (v2.7.29+):**
 - SIDC's framework is supported by 11 established frameworks
-- α = 1.29 is in the CGHS back-reaction range
+- $\alpha$ = 1.29 is in the CGHS back-reaction range
 - A specific CGHS-with-back-reaction calculation would close L9
-- SIDC is honest: no first-principles α derivation yet
+- SIDC is honest: no first-principles $\alpha$ derivation yet
 
 See `calculations/v27_why_alpha_universal.py` and existing `v27_cghs_2d_universe.py` for the full analysis.
 
@@ -293,7 +293,7 @@ masquerade as DM (recent 2025 work).
 **3.30.3 JWST massive quiescent galaxies at z > 4 — the highest past SF test.**
 
 Recent JWST discoveries have found massive quiescent galaxies at
-z > 4, which is unexpected in ΛCDM:
+z > 4, which is unexpected in $\Lambda$CDM:
 
 - **RUBIES-EGS-QG-1** (z = 4.9, 2024 Nature): a massive quiescent
   galaxy, already dead at z = 4.9
@@ -317,7 +317,7 @@ or clustering.
 
 Crater II (Caldwell+ 2017) is a Milky Way satellite with:
 - M_V ~ -8
-- Very low velocity dispersion (σ ~ 2.7 km/s)
+- Very low velocity dispersion ($\sigma$ ~ 2.7 km/s)
 - $M_{dyn}$/ $M_{b} \sim 1$ (very low DM)
 - 2025 papers show it's "undeniably experiencing tidal disruption"
 
@@ -420,13 +420,13 @@ tied to past energetic activity. Best tests are objects with:
 - HIGH past SF → HIGH $M_{dyn}$ (in absolute terms)
 - UFDs are special: low $M_{b}$ but efficient SF → high $M_{dyn}$/ $M_{b}$
 
-We use the Wolf+ 2010 mass estimator ($M_{dyn} = 5$ σ² $r_h$ / G) for
+We use the Wolf+ 2010 mass estimator ($M_{dyn} = 5$ $\sigma$² $r_h$ / G) for
 each galaxy. SIDC's pass criterion is QUALITATIVE: galaxies
 with non-trivial past SF should have non-zero $M_{dyn}$.
 
 **3.31.2 Results: 6 testable galaxies (consensus data).**
 
-| Galaxy | $M_{b}$ ($M_\odot$) | σ (km/s) | $r_h$ (pc) | $M_{dyn}$ ($M_\odot$) | $M_{dyn}$/ $M_{b}$ | SIDC |
+| Galaxy | $M_{b}$ ($M_\odot$) | $\sigma$ (km/s) | $r_h$ (pc) | $M_{dyn}$ ($M_\odot$) | $M_{dyn}$/ $M_{b}$ | SIDC |
 |--------|-----------|----------|----------|-------------|-----------|---------|
 | **Crater II** | $3.0 \times 10^{5}$ | 2.7 | 700 | $5.9 \times 10^{6}$ | **19.8** | PASS (low $M_{dyn}$/ $M_{b}$, but DM is non-zero) |
 | **Antlia 2** | $5.0 \times 10^{5}$ | 5.0 | 2900 | $8.4 \times 10^{7}$ | **168.6** | PASS (high $M_{dyn}$/ $M_{b}$, consistent with SIDC) |
@@ -630,7 +630,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 - $M_{dyn}$/ $M_{b}$ is **estimated**, not measured
 - 2024-2026 literature has no new KKR 25 observations
 - KKR 25 is still in SIDC's 12/12 test suite (paper §12)
-  but cannot be in the comparison table without a measured σ
+  but cannot be in the comparison table without a measured $\sigma$
 
 **2. AGC 114905 (Mancera Piña+ 2022)** — **DISPUTED**
 - $M_{b} \sim 7.3 \times 10^{8} M_\odot$ is measured
@@ -646,7 +646,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 **3. Tidal Dwarf Galaxies (TDGs, Gentile+ 2007)** — **DISPUTED**
 - "3 rotating TDGs DO show significant evidence for being dark
   matter dominated" (Gentile+ 2007, A&A 472, L25)
-- INCONSISTENT with ΛCDM (TDGs form from tidal debris)
+- INCONSISTENT with $\Lambda$CDM (TDGs form from tidal debris)
 - 2025 paper argues non-equilibrium dynamics, not DM
 - Unresolved for 20 years
 - Not in the comparison table because their DM content is disputed
@@ -715,18 +715,18 @@ Where:
 | Fakhry-QG-z11 | 11.0 | 10.5 | 0.9996 | 4.99 |
 
 **Honest finding**: SIDC predicts $M_{dyn}$/ $M_{b} \sim 3$-5, similar
-to ΛCDM. SIDC **CANNOT distinguish itself from ΛCDM** on
+to $\Lambda$CDM. SIDC **CANNOT distinguish itself from $\Lambda$CDM** on
 these galaxies alone — both predict $M_{dyn} \sim 5 \times M_{b}$ at z>3.
 
-**What WOULD distinguish SIDC from ΛCDM**: precise measurement of
-$M_{dyn}$/ $M_{b}$ EVOLUTION with z. ΛCDM predicts $M_{dyn}$/ $M_{b}$ ~ constant (~5×)
+**What WOULD distinguish SIDC from $\Lambda$CDM**: precise measurement of
+$M_{dyn}$/ $M_{b}$ EVOLUTION with z. $\Lambda$CDM predicts $M_{dyn}$/ $M_{b}$ ~ constant (~5×)
 at all z. SIDC predicts $M_{dyn}$/ $M_{b}$ ∝ $F_p(z)$, with stronger
 primordial component at higher z. The predicted difference is
 small (~1.5-2× across z=3-11), but testable with future ELT (2030+)
 IFU observations.
 
 **Caveats**:
-- $M_{dyn}$ for z>4 galaxies is hard to measure (need σ from absorption
+- $M_{dyn}$ for z>4 galaxies is hard to measure (need $\sigma$ from absorption
   lines, only possible with very deep JWST/NIRSpec or ELT IFU)
 - $f_{\rm back} \sim 10^{-85}$ is calibrated from SN 33s lifetime (L9)
 - $F_p(z)$ Hill function (n=2, $z_{\rm half}$=3) is phenomenological
@@ -740,7 +740,7 @@ See `calculations/v27_jwst_quiescent_mdyn.py` for full calculations.
 
 **Motivation**: DESI DR1 (2024) found hints of evolving dark energy:
 $w_0$ = -0.45 ± 0.21, $w_a =$-1.79 ± 0.55 (Park+ 2024). This is
-inconsistent with ΛCDM at ~3σ. SIDC's w(z) prediction is
+inconsistent with $\Lambda$CDM at ~3$\sigma$. SIDC's w(z) prediction is
 a direct testable prediction.
 
 **SIDC's DE model**: SIDC's DE comes from 4D gravity
@@ -756,18 +756,18 @@ w(z) = -1.000 (constant) for all z.
 
 | Model | $w_0$ | $w_a$ |
 |-------|-----|-----|
-| ΛCDM | -1.000 ± 0.020 | 0.000 ± 0.10 |
+| $\Lambda$CDM | -1.000 ± 0.020 | 0.000 ± 0.10 |
 | DESI DR1 + CMB + SNe (Park+ 2024) | -0.45 ± 0.21 | -1.79 ± 0.55 |
 | **SIDC** | **-1.000 ± 0.005** | **0.000 ± 0.005** |
 
-**Three possible DESI DR3 outcomes (forecast σ: $w_0$ ± 0.05, $w_a$ ± 0.15):**
+**Three possible DESI DR3 outcomes (forecast $\sigma$: $w_0$ ± 0.05, $w_a$ ± 0.15):**
 
-1. **$w_0$ ≈ -1.0, $w_a$ ≈ 0**: ΛCDM confirmed. SIDC **CONSISTENT** on DE.
+1. **$w_0$ ≈ -1.0, $w_a$ ≈ 0**: $\Lambda$CDM confirmed. SIDC **CONSISTENT** on DE.
 2. **$w_0$ > -1.0, $w_a < 0$**: Evolving DE confirmed. SIDC **INCONSISTENT** — would need major revision.
 3. **$w_0$ < -1.0, $w_a > 0$**: Phantom DE. SIDC **INCONSISTENT** — more exotic.
 
 **Honest finding**: SIDC's w(z) prediction is INDISTINGUISHABLE
-from ΛCDM on DE. SIDC's differentiator is **DM evolution $F_p(z)$**,
+from $\Lambda$CDM on DE. SIDC's differentiator is **DM evolution $F_p(z)$**,
 not DE evolution. DESI DR3 (2026-27) is a key test.
 
 **Caveats**:
@@ -785,7 +785,7 @@ See `calculations/v27_desi_wz.py` for full calculations.
 **Motivation**: SIDC's 2D universe death events release
 gravitational wave energy. The 2D universe lifetime $\tau_{2D}$ =
 $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$ sets the GW frequency. This is potentially
-detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz-μHz band.
+detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz-$\mu$Hz band.
 
 **Energy scaling rule**: $\tau_{2D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$
 
@@ -804,11 +804,11 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz-μHz band.
 **Cumulative GW energy density**: For each event type, integrate
 over cosmic history:
 - SN: N_SN $\sim 10^{18}$ over cosmic history, E_per_SN_GW = $f_{\rm back}$ × $10^{44}$ = $10^{-41}$ J
-- Total SN GW energy density: ρ_GW_SN = $10^{18}$ × $10^{-41}$ / $4 \times 10^{80}$ m^3 = $10^{-103}$ J/m^3
-- $\Omega_{\rm GW}$_SN = ρ_GW_SN / ρ_crit = $10^{-103}$ / $7.6 \times 10^{-10}$ = **$10^{-94}$**
+- Total SN GW energy density: $\rho_{\rm GW_SN}$ = $10^{18}$ × $10^{-41}$ / $4 \times 10^{80}$ m^3 = $10^{-103}$ J/m^3
+- $\Omega_{\rm GW}$_SN = $\rho_{\rm GW_SN}$ / $\rho_{\rm crit}$ = $10^{-103}$ / $7.6 \times 10^{-10}$ = **$10^{-94}$**
 
 - BNS: N_BNS $\sim 3 \times 10^{3}$/ ${\rm Mpc}^3$, E_per_BNS_GW = $f_{\rm back}$ × $10^{47}$ = $10^{-38}$ J
-- Total BNS GW energy density: ρ_GW_BNS = $3 \times 10^{3}$ × $10^{-38}$ / $2.9 \times 10^{67}$ = $10^{-102}$ J/m^3
+- Total BNS GW energy density: $\rho_{\rm GW_BNS}$ = $3 \times 10^{3}$ × $10^{-38}$ / $2.9 \times 10^{67}$ = $10^{-102}$ J/m^3
 - $\Omega_{\rm GW}$_BNS = **$10^{-93}$**
 
 **PTA detection threshold**: $\Omega_{\rm GW} \sim 10^{-10}$ to $10^{-9}$ (NANOGrav 15-yr,
@@ -834,13 +834,13 @@ See `calculations/v27_death_gw_pta.py` for full calculations.
 ### 3.36 SIDC PPN test (v2.7.48+)
 
 **Motivation**: SIDC's 4D→3+1D dimensional inversion predicts
-small deviations from GR. The PPN parameter γ (from Cassini-type
+small deviations from GR. The PPN parameter $\gamma$ (from Cassini-type
 measurements) is the cleanest Solar System test of modified gravity.
 
 **SIDC's modified gravity model**:
 - 4D gravity back-projects to 3+1D as repulsive (DE)
 - Local 2D universe death energy contributes extra potential
-- Φ_total = -GM/r + Φ_2D, where Φ_2D = -G × $M_{2D}$_local / r
+- $\Phi_{\rm total}$ = -GM/r + $\Phi_{\rm 2D}$, where $\Phi_{\rm 2D}$ = -G × $M_{2D}$_local / r
 
 **Local 2D universe death mass** (within 100 pc):
 - Local stellar mass: $10^{5} M_o$
@@ -851,15 +851,15 @@ measurements) is the cleanest Solar System test of modified gravity.
 - N_SN_MW = $5 \times 10^{8}$ (over 10 Gyr)
 - $M_{2D}$_MW = $5.6 \times 10^{-80} M_o$
 
-**PPN γ prediction**:
-- γ_cascade - 1 $\sim M_{2D}$_local / M_Sun = $5.6 \times 10^{-86}$
-- Cassini 2003: |γ - 1| < $2.3 \times 10^{-5}$
+**PPN $\gamma$ prediction**:
+- $\gamma_{\rm cascade}$ - 1 $\sim M_{2D}$_local / M_Sun = $5.6 \times 10^{-86}$
+- Cassini 2003: |$\gamma$ - 1| < $2.3 \times 10^{-5}$
 - SIDC is **80 orders of magnitude BELOW Cassini precision**
-- **γ_cascade = 1.00000000 (indistinguishable from GR)**
+- **$\gamma_{\rm cascade}$ = 1.00000000 (indistinguishable from GR)**
 
 **Solar System tests**:
 - Perihelion precession: standard GR to $10^{-73}$
-- Light deflection: γ = 1 to $10^{-73}$
+- Light deflection: $\gamma$ = 1 to $10^{-73}$
 - Gravitational redshift: standard to $10^{-73}$
 - Nordtvedt effect: 0 to $10^{-73}$
 - Lense-Thirring: standard to $10^{-73}$
@@ -881,9 +881,9 @@ COSMOLOGICAL scales (DM evolution, $F_p(z)$), NOT at Solar System scales.
 dimensional projection. Real physics may have small deviations. The
 SIDC's PPN predictions are limited by the model assumption.
 
-**Comparison to MOND**: MOND also predicts γ ≈ 1 (consistent with
+**Comparison to MOND**: MOND also predicts $\gamma$ ≈ 1 (consistent with
 Cassini) but with small deviations at large scales (RAR). SIDC
-predicts γ = 1 to higher precision. MOND is testable via RAR;
+predicts $\gamma$ = 1 to higher precision. MOND is testable via RAR;
 SIDC has its own RAR (statistically equivalent, see §13.7).
 
 See `calculations/v27_ppn_test.py` for full calculations.
@@ -901,11 +901,11 @@ yield **mixed honest findings**:
 - DM evolution $F_p(z)$: SIDC predicts (1+z)^3 × $F_p(z)$ DM density
   at high z, matching Planck 2018. Testable with future data.
 
-**Negative for SIDC (indistinguishable from ΛCDM or undetectable)**:
-- w(z) = -1 (same as ΛCDM). NOT a differentiator on DE.
+**Negative for SIDC (indistinguishable from $\Lambda$CDM or undetectable)**:
+- w(z) = -1 (same as $\Lambda$CDM). NOT a differentiator on DE.
 - 2D universe death GW: 80-100 orders of magnitude below PTA detection.
   UNDETECTABLE in practice.
-- PPN γ = 1 to $10^{-73}$ (same as GR). NOT testable at Solar System scales.
+- PPN $\gamma$ = 1 to $10^{-73}$ (same as GR). NOT testable at Solar System scales.
 
 **SIDC's REAL differentiators are**:
 1. $F_p(z)$ primordial component at z>3 (testable with future data)
@@ -920,7 +920,7 @@ yield **mixed honest findings**:
 **Conclusion**: SIDC is a useful qualitative framework for
 understanding DM and DE as dimensional projection effects, but most
 of its specific quantitative predictions are either indistinguishable
-from ΛCDM or below detection threshold. SIDC's strongest
+from $\Lambda$CDM or below detection threshold. SIDC's strongest
 evidence is the qualitative pattern across galaxy zoo (36/36 tests pass)
 and the testable $F_p(z)$ DM evolution.
 
@@ -961,7 +961,7 @@ and the testable $F_p(z)$ DM evolution.
   derivation that SIDC doesn't have
 
 **Implication for SIDC**:
-- The $5 \times M_{b}$ baseline is from ΛCDM-like primordial halo
+- The $5 \times M_{b}$ baseline is from $\Lambda$CDM-like primordial halo
 - SIDC's "DM = past SF" should give MORE $M_{dyn}$ for galaxies
   with more past SF, but $F_s$ is too small to account for the observed
   excess (see v2.7.50 inconsistency analysis)

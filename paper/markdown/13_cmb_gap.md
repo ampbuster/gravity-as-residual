@@ -2,7 +2,7 @@
 
 ## 13. SIDC's CMB Gap: an Honest Limitation (June 2026) — *UPDATED v2.7.5+: CLOSED*
 
-**v2.7.5+ update (see §4.48.1).** The CMB gap is now **CLOSED**. The v2.7.5 introduction of the smooth $F_p(z) = 0.7 + 0.3 \cdot z^2/(z_{half}^2 + z^2)$ (Hill function, n=2, $z_{half} \approx 3$) replaces the v2.4 constant $F_p = 0.7$ that was 30% off at $z = 1100$. The smooth function matches **both anchors** (local $z=0$ AND CMB $z=1100$) with gap < 1%. Limitation 31 (CMB time-lag) is now **FULLY ADDRESSED**. The remaining subsections (§13.1-§13.5) are kept for historical context but describe a now-resolved issue. SIDC's current state: the CMB-era DM is **pure primordial** ($F_p \to 1$ at $z=1100$, per the smooth function), so CMB predictions match standard ΛCDM to within 1%.
+**v2.7.5+ update (see §4.48.1).** The CMB gap is now **CLOSED**. The v2.7.5 introduction of the smooth $F_p(z) = 0.7 + 0.3 \cdot z^2/(z_{half}^2 + z^2)$ (Hill function, n=2, $z_{half} \approx 3$) replaces the v2.4 constant $F_p = 0.7$ that was 30% off at $z = 1100$. The smooth function matches **both anchors** (local $z=0$ AND CMB $z=1100$) with gap < 1%. Limitation 31 (CMB time-lag) is now **FULLY ADDRESSED**. The remaining subsections (§13.1-§13.5) are kept for historical context but describe a now-resolved issue. SIDC's current state: the CMB-era DM is **pure primordial** ($F_p \to 1$ at $z=1100$, per the smooth function), so CMB predictions match standard $\Lambda$CDM to within 1%.
 
 **Historical framing (v2.4-v2.7.4).** SIDC's earlier (v2.4-v2.7.4) version of the CMB gap was an honest limitation. The current section is preserved for historical context — it documents SIDC's progression from "tension" to "closed" via the smooth $F(z)$ refinement.
 
@@ -10,10 +10,10 @@ This section acknowledges a **fundamental tension** between SIDC's current mecha
 
 ### 13.1 The CMB requirement
 
-The CMB angular power spectrum (Planck 2018 results V, A&A 641, A5; arXiv:1907.12875) requires a matter density of **$\Omega_m$ = 0.315** at the recombination epoch (z = 1100), of which **Ω_c = 0.265** is cold dark matter. Without this DM, the acoustic peaks are at the wrong positions:
+The CMB angular power spectrum (Planck 2018 results V, A&A 641, A5; arXiv:1907.12875) requires a matter density of **$\Omega_m$ = 0.315** at the recombination epoch (z = 1100), of which **$\Omega_{\rm c}$ = 0.265** is cold dark matter. Without this DM, the acoustic peaks are at the wrong positions:
 - First peak (l ~ 220): controlled by sound horizon, **shifts** if $\Omega_m$ changes
 - Second peak (l ~ 540): baryon-to-photon ratio, **changes** with $\Omega_m$
-- Third peak (l ~ 810): matter-to-radiation, **depends on Ω_c**
+- Third peak (l ~ 810): matter-to-radiation, **depends on $\Omega_{\rm c}$**
 
 This is **not a small effect**: the difference between baryon-only ($\Omega_m$ ~ 0.049) and the observed $\Omega_m$ = 0.315 corresponds to a factor of ~6.4 in total matter density, which moves the acoustic peaks by 10-20% in l.
 
@@ -25,21 +25,21 @@ SIDC's mechanism (per §2.4-2.7) is:
 
 SIDC's first "energetic events" in our universe are the **first stars (Population III)** forming at z ~ 20-30, and the first core-collapse supernovae at z ~ 15-20. Before this, there are essentially no energetic events in SIDC's sense.
 
-Therefore, SIDC predicts: **$\Omega_{\rm DM}$(z > 20) ~ 0**. SIDC's predicted $\Omega_m$(z = 1100) is approximately the **baryon-only** value: $\Omega_m$(z = 1100) ~ Ω_b = 0.049.
+Therefore, SIDC predicts: **$\Omega_{\rm DM}$(z > 20) ~ 0**. SIDC's predicted $\Omega_m$(z = 1100) is approximately the **baryon-only** value: $\Omega_m$(z = 1100) ~ $\Omega_{\rm b}$ = 0.049.
 
 **Importantly, SIDC's *baryon* prediction is correct at z = 1100.** The 5% baryons are present at all z, including z = 1100, in plasma form (ionized hydrogen and helium — the medium that emits and absorbs the CMB). They are "visible" via their interaction with CMB photons, even though no stars or galaxies have formed yet.
 
 SIDC's failure is specifically in the **27% dark matter**, not the 5% baryons. SIDC predicts:
-- Ω_b(z = 1100) = 0.049 **[PASS]** (matches Planck)
+- $\Omega_{\rm b}$(z = 1100) = 0.049 **[PASS]** (matches Planck)
 - $\Omega_{\rm DM}$(z = 1100) = 0 **[FAIL]** (SIDC's specific failure)
 - $\Omega_m$(z = 1100) = 0.049 **[FAIL]** (factor of 6.4 below Planck's 0.315)
 
 ### 13.3 The tension
 
 The CMB acoustic peaks depend on:
-- **First peak (l ~ 220):** sound horizon (depends on total $\Omega_m$, weakly on Ω_c)
-- **Second peak (l ~ 540):** baryon-to-photon ratio (depends on Ω_b, mostly correct in SIDC)
-- **Third peak (l ~ 810):** matter-to-radiation ratio (depends on Ω_c, **missing in SIDC**)
+- **First peak (l ~ 220):** sound horizon (depends on total $\Omega_m$, weakly on $\Omega_{\rm c}$)
+- **Second peak (l ~ 540):** baryon-to-photon ratio (depends on $\Omega_{\rm b}$, mostly correct in SIDC)
+- **Third peak (l ~ 810):** matter-to-radiation ratio (depends on $\Omega_{\rm c}$, **missing in SIDC**)
 
 Without DM at z = 1100:
 - The 3rd peak is missing (no DM to enhance it)
@@ -47,7 +47,7 @@ Without DM at z = 1100:
 - The Silk damping scale is wrong (no DM to modify photon diffusion)
 - Polarization patterns are different
 
-SIDC's *baryon* prediction is consistent with the 1st and 2nd peak ratios (which depend primarily on Ω_b). SIDC's *DM* prediction fails the 3rd peak test (which depends on Ω_c).
+SIDC's *baryon* prediction is consistent with the 1st and 2nd peak ratios (which depend primarily on $\Omega_{\rm b}$). SIDC's *DM* prediction fails the 3rd peak test (which depends on $\Omega_{\rm c}$).
 
 **This is a real falsification risk for SIDC as currently formulated.** SIDC's qualitative picture is consistent with all galaxy data at z < 4, but the CMB at z = 1100 has a specific gap in the *DM* mechanism, not in the *baryon* mechanism.
 

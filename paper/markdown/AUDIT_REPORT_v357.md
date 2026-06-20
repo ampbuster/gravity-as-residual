@@ -14,23 +14,23 @@ Apparent "0 occurrences" were due to notation differences.
 | $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV | 3 | 3 | ✓ CONSISTENT |
 | $M_{\rm Pl,2D}$ = 3 TeV | 195 | (varies) | ✓ CONSISTENT |
 | $M_{\rm Pl,4D}$ = 4×10²³ GeV | 40 | 38 | ✓ CONSISTENT |
-| α = 1.289 | 473 | (varies) | ✓ CONSISTENT |
-| μ = 9×10⁶ GeV² | 6 | (varies) | ✓ CONSISTENT |
+| $\alpha$ = 1.289 | 473 | (varies) | ✓ CONSISTENT |
+| $\mu$ = 9×10⁶ GeV² | 6 | (varies) | ✓ CONSISTENT |
 | $E_{\rm 4D}$ = 5×10⁷⁹ J | 25 | 21 | ✓ CONSISTENT |
 | N_sub = 4×10² | 62 | 67 | ✓ CONSISTENT |
 | AGN rate = 3×10⁻¹⁶ | 16 | 3 | ✓ CONSISTENT |
-| τ_SN = 33 s | 388 | (varies) | ✓ CONSISTENT |
+| $\tau_{\rm SN}$ = 33 s | 388 | (varies) | ✓ CONSISTENT |
 | 5/27/68 split | 419 | (varies) | ✓ CONSISTENT |
-| 0.13% DE (simple f_DE) / 2.7% (bilateral) | 20 | (varies) | ✓ CONSISTENT |
-| ε = 10⁻³⁸ | 40 | (varies) | ✓ CONSISTENT |
+| 0.13% DE (simple $f_{\rm DE}$) / 2.7% (bilateral) | 20 | (varies) | ✓ CONSISTENT |
+| $\epsilon$ = 10⁻³⁸ | 40 | (varies) | ✓ CONSISTENT |
 
 ## Notation Difference (NOT inconsistency)
 
 | Parameter | Paper notation | Memory notation |
 |-----------|----------------|-----------------|
-| τ_3D,apparent | τ_3D,apparent (text) | 9.10×10²⁴ (numeric) |
-| γ_4D | γ_4D (text) | 6.03×10⁹⁰ (numeric) |
-| τ_4D | τ_4D (text) | 1.51×10³⁴ (numeric) |
+| $\tau_{\rm 3D}$,apparent | $\tau_{\rm 3D}$,apparent (text) | 9.10×10²⁴ (numeric) |
+| $\gamma_{\rm 4D}$ | $\gamma_{\rm 4D}$ (text) | 6.03×10⁹⁰ (numeric) |
+| $\tau_{\rm 4D}$ | $\tau_{\rm 4D}$ (text) | 1.51×10³⁴ (numeric) |
 | age ratio | (mentioned as "day 1") | 1.5×10⁻¹⁵ (numeric) |
 
 Both notations exist in BOTH files (just used in different contexts).
@@ -74,7 +74,7 @@ All key files exist and are healthy.
 ## Issues Found
 
 ### Minor (notation)
-- τ_3D,apparent / γ_4D / τ_4D / age ratio use DIFFERENT notations in paper vs memory
+- $\tau_{\rm 3D}$,apparent / $\gamma_{\rm 4D}$ / $\tau_{\rm 4D}$ / age ratio use DIFFERENT notations in paper vs memory
 - This is INTENDED (paper uses variable names, memory uses numbers)
 
 ### To Investigate
@@ -84,8 +84,8 @@ All key files exist and are healthy.
 
 ### Strengths
 - 5/27/68 split: 419 occurrences in 41 files — extremely consistent
-- α = 1.289: 473 occurrences in 22 files — extremely consistent
-- τ_SN = 33 s: 388 occurrences — extremely consistent
+- $\alpha$ = 1.289: 473 occurrences in 22 files — extremely consistent
+- $\tau_{\rm SN}$ = 33 s: 388 occurrences — extremely consistent
 - $M_{\rm Pl,2D}$ = 3 TeV: 195 occurrences — extremely consistent
 
 ## Recommendation

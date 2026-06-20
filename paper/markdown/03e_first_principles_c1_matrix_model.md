@@ -6,13 +6,13 @@
 
 > "why tnt weird? smaller event cause larger universe? but won't that produce more dm? inconsistent"
 
-The user correctly identified a **real inconsistency** in Option A (event-dependent μ).
+The user correctly identified a **real inconsistency** in Option A (event-dependent $\mu$).
 
 ## The Weirdness Explained
 
-The brute force formula μ = E/τ gives:
+The brute force formula $\mu$ = E/$\tau$ gives:
 
-| Event | μ (GeV²) | $M_{\rm Pl,2D}$ | User's intuition |
+| Event | $\mu$ (GeV²) | $M_{\rm Pl,2D}$ | User's intuition |
 |---|---|---|---|
 | TNT (small event) | 1.28×10¹⁷ | **360,000 TeV** | Should be SMALLER, not bigger! |
 | SN (medium event) | 9.67×10⁶ | 3 TeV | Reasonable |
@@ -25,8 +25,8 @@ The brute force formula μ = E/τ gives:
 The user's intuition: small event → small 2D universe → small $M_{\rm Pl,2D}$
 
 Reality with brute force formula:
-- Small event → SHORT lifetime (τ_2D ∝ E^α) → high μ → high $M_{\rm Pl,2D}$
-- Big event → LONG lifetime → low μ → low $M_{\rm Pl,2D}$
+- Small event → SHORT lifetime ($\tau_{\rm 2D}$ ∝ E^$\alpha$) → high $\mu$ → high $M_{\rm Pl,2D}$
+- Big event → LONG lifetime → low $\mu$ → low $M_{\rm Pl,2D}$
 
 So **$M_{\rm Pl,2D}$ is inversely correlated with event energy.**
 
@@ -44,13 +44,13 @@ This is **counterintuitive** because we might think:
 
 TNT 2D universe:
 - $M_{\rm Pl,2D}$ = 360,000 TeV (very rigid)
-- Size = c × τ = 3×10⁸ × 10⁻⁴³ = 3×10⁻³⁵ m (TINY!)
-- Action = E × τ = 4×10⁹ × 10⁻⁴³ = 4×10⁻³⁴ J·s (tiny!)
+- Size = c × $\tau$ = 3×10⁸ × 10⁻⁴³ = 3×10⁻³⁵ m (TINY!)
+- Action = E × $\tau$ = 4×10⁹ × 10⁻⁴³ = 4×10⁻³⁴ J·s (tiny!)
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:
 - $M_{\rm Pl,2D}$ = 3 TeV (softer)
-- Size = c × τ = 10¹⁰ m (huge!)
+- Size = c × $\tau$ = 10¹⁰ m (huge!)
 - Action = 10⁴⁴ × 33 = 3.3×10⁴⁵ J·s (huge!)
 - DM contribution: huge (action is huge)
 
@@ -74,35 +74,35 @@ So even though $M_{\rm Pl,2D}$ is "inverted", DM contribution isn't:
    - Only "significant" events create 2D universes
    - This would explain why we don't see TNT universes
 
-3. **Maybe μ should NOT depend on E/τ**:
+3. **Maybe $\mu$ should NOT depend on E/$\tau$**:
    - The brute force formula gives weird predictions
    - A different formula might be more natural
-   - e.g., μ = K × E^α (energy-based, more intuitive)
+   - e.g., $\mu$ = K × E^$\alpha$ (energy-based, more intuitive)
 
 ## Alternative Formulas Tested
 
 We tested several alternatives:
 
-| Formula | μ_SN | μ_TNT | μ_Quasar | Weirdness |
+| Formula | $\mu_{\rm SN}$ | $\mu_{\rm TNT}$ | $\mu_{\rm Quasar}$ | Weirdness |
 |---|---|---|---|---|
-| **v3.3 (universal μ)** | 9×10⁶ | 9×10⁶ | 9×10⁶ | None |
-| **v3.3.6 (E/τ)** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
-| **Energy-based (E^α)** | 9×10⁶ | 4.2×10⁻³⁷ | 1.3×10⁻²⁹ | Opposite (also weird) |
-| **Capped (μ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
+| **v3.3 (universal $\mu$)** | 9×10⁶ | 9×10⁶ | 9×10⁶ | None |
+| **v3.3.6 (E/$\tau$)** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
+| **Energy-based (E^$\alpha$)** | 9×10⁶ | 4.2×10⁻³⁷ | 1.3×10⁻²⁹ | Opposite (also weird) |
+| **Capped ($\mu$ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
 
-The energy-based formula gives OPPOSITE weirdness (TNT very small μ, quasar very large).
+The energy-based formula gives OPPOSITE weirdness (TNT very small $\mu$, quasar very large).
 
 ## The Capping Idea (Option F)
 
 A capped formula might work:
 $$\mu = \min(K_{\max}, K_F \times E/\tau)$$
 
-with K_max = 100 × μ_SN = 9×10⁸ GeV²
+with K_max = 100 × $\mu_{\rm SN}$ = 9×10⁸ GeV²
 
 This:
-- Keeps the E/τ pattern for high-τ events
-- Caps μ at K_max to avoid TNT weirdness
-- Result: TNT μ = 9×10⁸ (100× SN, not 10¹⁰× SN)
+- Keeps the E/$\tau$ pattern for high-$\tau$ events
+- Caps $\mu$ at K_max to avoid TNT weirdness
+- Result: TNT $\mu$ = 9×10⁸ (100× SN, not 10¹⁰× SN)
 
 But this is ad hoc — no clear principle for K_max.
 
@@ -126,13 +126,13 @@ But the threshold needs a physical principle.
 
 The cleanest approach:
 
-1. **v3.3 (canonical)**: Keep universal μ = 9×10⁶
+1. **v3.3 (canonical)**: Keep universal $\mu$ = 9×10⁶
    - Avoids weirdness
    - Simpler (9 parameters)
    - Agrees with most physics intuition
    - $M_{\rm Pl,2D}$ = 3 TeV universal
 
-2. **v3.3.6 (extended)**: Mention event-dependent μ
+2. **v3.3.6 (extended)**: Mention event-dependent $\mu$
    - More honest about brute force pattern
    - Acknowledges weird predictions (L181)
    - Open question (L185)
@@ -155,17 +155,17 @@ But the user's intuition was **WRONG** in another sense:
 
 After user's TNT weirdness catch:
 
-- **v3.3 (universal μ)**: Remains the cleanest framework
-- **v3.3.6 (event-dependent μ)**: Has internal consistency but weird predictions
+- **v3.3 (universal $\mu$)**: Remains the cleanest framework
+- **v3.3.6 (event-dependent $\mu$)**: Has internal consistency but weird predictions
 - **Neither is first-principles derived**
-- **The TRUE μ is still unknown**
-- **K (proportionality constant) is calibrated in v3.3.6, same status as μ in v3.3**
+- **The TRUE $\mu$ is still unknown**
+- **K (proportionality constant) is calibrated in v3.3.6, same status as $\mu$ in v3.3**
 
 The framework should:
-1. Keep v3.3 as canonical (universal μ, no weirdness)
+1. Keep v3.3 as canonical (universal $\mu$, no weirdness)
 2. Acknowledge v3.3.6 as alternative (more honest, but weird)
 3. Mark v3.3.6's TNT weirdness as L185 (NEW)
-4. Continue searching for true first-principles μ
+4. Continue searching for true first-principles $\mu$
 
 ## New Limitations
 
@@ -176,9 +176,9 @@ The framework should:
 
 ## Final Recommendation
 
-**KEEP v3.3 as canonical** (universal μ = 9×10⁶ GeV²)
+**KEEP v3.3 as canonical** (universal $\mu$ = 9×10⁶ GeV²)
 **MENTION v3.3.6 as alternative** with explicit caveats about TNT weirdness
-**CONTINUE search for true first-principles μ** via Karlsson 2025, Hartle-Hawking, etc.
+**CONTINUE search for true first-principles $\mu$** via Karlsson 2025, Hartle-Hawking, etc.
 
 The user's insight shows that Option A is too naive. The framework should:
 - Present both versions
