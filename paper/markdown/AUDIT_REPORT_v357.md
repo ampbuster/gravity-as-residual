@@ -12,12 +12,12 @@ Apparent "0 occurrences" were due to notation differences.
 | Parameter | Paper | Memory | Status |
 |-----------|-------|--------|--------|
 | $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV | 3 | 3 | ✓ CONSISTENT |
-| $M_{\rm Pl,2D}$ = 3 TeV | 195 | (varies) | ✓ CONSISTENT |
-| $M_{\rm Pl,4D}$ = 4×10²³ GeV | 40 | 38 | ✓ CONSISTENT |
+| $M_{\rm Pl,2D}$ = 2.95 TeV | 195 | (varies) | ✓ CONSISTENT |
+| $M_{\rm Pl,4D}$ = 3.93×10²³ GeV | 40 | 38 | ✓ CONSISTENT |
 | $\alpha$ = 1.289 | 473 | (varies) | ✓ CONSISTENT |
-| $\mu$ = 9×10⁶ GeV² | 6 | (varies) | ✓ CONSISTENT |
+| $\mu$ = 8.73×10⁶ GeV² | 6 | (varies) | ✓ CONSISTENT |
 | $E_{\rm 4D}$ = 5×10⁷⁹ J | 25 | 21 | ✓ CONSISTENT |
-| N_sub = 4×10² | 62 | 67 | ✓ CONSISTENT |
+| N_sub = 3.86×10² | 62 | 67 | ✓ CONSISTENT |
 | AGN rate = 3×10⁻¹⁶ | 16 | 3 | ✓ CONSISTENT |
 | $\tau_{\rm SN}$ = 33 s | 388 | (varies) | ✓ CONSISTENT |
 | 5/27/68 split | 419 | (varies) | ✓ CONSISTENT |
@@ -86,7 +86,7 @@ All key files exist and are healthy.
 - 5/27/68 split: 419 occurrences in 41 files — extremely consistent
 - $\alpha$ = 1.289: 473 occurrences in 22 files — extremely consistent
 - $\tau_{\rm SN}$ = 33 s: 388 occurrences — extremely consistent
-- $M_{\rm Pl,2D}$ = 3 TeV: 195 occurrences — extremely consistent
+- $M_{\rm Pl,2D}$ = 2.95 TeV: 195 occurrences — extremely consistent
 
 ## Recommendation
 

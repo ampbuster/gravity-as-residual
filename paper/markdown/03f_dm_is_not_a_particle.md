@@ -25,8 +25,8 @@ The framework v3.3 doesn't fully specify the form of DM. Three possibilities:
 ### Possibility A: Single particle species
 - All 2D universes decay to the same particle
 - m_DM is universal (some specific value)
-- Natural choice: m_DM = $M_{\rm Pl,2D}$ = 3 TeV
-- Direct detection: would see a peak at 3 TeV
+- Natural choice: m_DM = $M_{\rm Pl,2D}$ = 2.95 TeV
+- Direct detection: would see a peak at 2.95 TeV
 - **Status: HYPOTHESIS, not derived**
 
 ### Possibility B: Field or extended object
@@ -75,7 +75,7 @@ These tests can't directly probe the framework's DM.
 | **Hubble tension** | Cascade $H_0$ = 70.16? | ✓ (matches TRGB) |
 | **Small-scale structure** | CDM-like behavior? | ✓ (calibrated) |
 | **Pulsed injection** | Is DM pulsed, not steady? | Testable (unusual signature) |
-| **Direct detection** | Is there a 3 TeV particle? | Future (DARWIN) |
+| **Direct detection** | Is there a 2.95 TeV particle? | Future (DARWIN) |
 | **GW from 2D universe birth/death** | Single freq vs broad? | Future (LISA) |
 
 ## Pulsed vs steady: a unique signature
@@ -98,7 +98,7 @@ The framework's DM is:
 2. Energy from decayed 2D universes
 3. CDM-like in behavior (27% of $\rho_{\rm crit}$)
 4. Pulsed in origin (instantaneous at 2D universe death)
-5. Possibly contains particles (Possibility A: m_DM = 3 TeV?)
+5. Possibly contains particles (Possibility A: m_DM = 2.95 TeV?)
 
 The framework should:
 - Acknowledge DM is not a particle
@@ -138,7 +138,7 @@ Neither option gives a "single DM mass".
 
 - **L211**: DM is not a particle in v3.3 (per user catch)
 - **L212**: Form of DM is unspecified (gap in framework)
-- **L213**: "DM = 3 TeV particle" is a hypothesis, not derived
+- **L213**: "DM = 2.95 TeV particle" is a hypothesis, not derived
 - **L214**: Traditional DM tests (annihilation, scattering) don't apply
 - **L215**: Pulsed injection is a unique framework signature
 
@@ -148,7 +148,7 @@ Neither option gives a "single DM mass".
 2. List 3 possibilities for DM form (A, B, C)
 3. Mark "form of DM" as open question
 4. List tests that DO apply (cosmological, pulsed signatures)
-5. Note "DM = 3 TeV particle" as Possibility A (testable)
+5. Note "DM = 2.95 TeV particle" as Possibility A (testable)
 
 The user caught a real sloppy framing. The framework's DM is not a particle, and "mass spectrum" tests don't apply in the traditional sense. The honest picture requires acknowledging this gap.
 

@@ -29,7 +29,7 @@ For all v3.5.8 findings, see `persistent_memory.md`.
 - 1 measured: $M_{\rm Pl,3D} = 1.22 \times 10^{19}$ GeV (Newton's G)
 - **1 first-principles derived** (BREAKTHROUGH): $\alpha = 1.289 = 1 + 1/\sqrt{12}$ (Schwarzian SYK with N=12)
 - 1 DERIVED via $\alpha$-GM: $M_{\rm Pl,4D} = 4 \times 10^{23}$ GeV (consistent but circular)
-- 1 STRUCTURAL: $M_{\rm Pl,2D}$ = 3 TeV $= 12 \times v_{\rm Higgs}$ (1.5% off, NOT first-principles)
+- 1 STRUCTURAL: $M_{\rm Pl,2D}$ = 2.95 TeV $= 12 \times v_{\rm Higgs}$ (1.5% off, NOT first-principles)
 - 1 SEMI-DERIVED (NEW): $N_{\rm sub} = E_{\rm 4D}/E_{\rm sub} = 400$ (linear in $E_{\rm 4D}$, no longer free)
 - 4 calibrated: $\epsilon = 10^{-38}$, $\tau_{\rm 4D} = 1.51 \times 10^{34}$ yr, AGN rate = $3\times 10^{-16}$, $\mu$ = $9\times 10^{6}$ GeV²
 - 1 derived: $E_{\rm 4D} = 5 \times 10^{79}$ J (from $M_{\rm Pl,4D}$, $\tau_{\rm 4D}$)
@@ -151,13 +151,13 @@ The v3.3 DE formula has NO $4\pi$ factor. The simple $f_{\rm DE}$ formula gives 
 | $z_{\rm half}$ ($F_p$ transition redshift) | ✗ FREE PARAM (L35) — calibrated to cosmic SFR peak |
 | $E_{\rm primordial}$ (per-event energy of primordial 2D universes) | ✗ FREE PARAM (L34) — not derived |
 | $E_{\rm crit}$ (phase-transition threshold) | ✗ REVERTED v2.7.5 — replaced by smooth C(E) = E^(1+ $\alpha$) |
-| **Natural $E_{\rm crit}$ at $M_{\rm Pl,2D}$ = 3 TeV** | ✓ **DERIVED from Lagrangian** (L41) — 2D universe lifetime → 0 below this |
+| **Natural $E_{\rm crit}$ at $M_{\rm Pl,2D}$ = 2.95 TeV** | ✓ **DERIVED from Lagrangian** (L41) — 2D universe lifetime → 0 below this |
 
 **Honest framing**: The $M^{\alpha}$ scaling law and closed-loop formula are now EMPIRICALLY VALIDATED and STRUCTURALLY MOTIVATED. They are NOT first-principles DERIVED. The framework gives a consistent picture (same physics at every level, different energy scales) without claiming to derive $\alpha$ from Z($\beta$). This is the **Equal-Universe Principle** in action.
 
 ---
 
-## 🌡️ NATURAL $E_{\rm crit}$ AT $M_{\rm Pl,2D}$ = 3 TeV (v3.2, user-insight)
+## 🌡️ NATURAL $E_{\rm crit}$ AT $M_{\rm Pl,2D}$ = 2.95 TeV (v3.2, user-insight)
 
 **User question**: "are we still using the hill function or e_crit? i think with the lagrangian, we are back to e_crit? since we have a 2d planck?"
 
@@ -195,7 +195,7 @@ The Lagrangian requires $E_{\rm 2D}$ ≥ $M_{\rm Pl,2D}$ × c² = 3 TeV to creat
 - 3 TeV to ~10²⁵ J: smooth function, contribution small but non-zero
 - Above 10²⁵ J: smooth function dominates, contribution significant
 
-The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natural $E_{\rm crit}$. But it's at $M_{\rm Pl,2D}$ = 3 TeV (derived), not at 10³⁰ J (calibrated, REVERTED). And it's a smooth transition (C(E) = E^(1+ $\alpha$) becomes negligible below), not a step function.
+The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natural $E_{\rm crit}$. But it's at $M_{\rm Pl,2D}$ = 2.95 TeV (derived), not at 10³⁰ J (calibrated, REVERTED). And it's a smooth transition (C(E) = E^(1+ $\alpha$) becomes negligible below), not a step function.
 
 ### What can produce 2D universes? (LHC analysis, v3.2 user-question)
 
@@ -254,7 +254,7 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 
 **v3.2 changes don't affect this analysis**:
 - $N_{\rm sub}$ FREE (doesn't affect individual galaxy DM)
-- $M_{\rm Pl,2D}$ = 3 TeV (natural $E_{\rm crit}$, below all dwarf cases)
+- $M_{\rm Pl,2D}$ = 2.95 TeV (natural $E_{\rm crit}$, below all dwarf cases)
 - $M_{\rm Pl,4D} = 4 \times 10^{23}$ GeV (v3.3 $\alpha$-weighted GM, was 887 GeV) (Scenario X (SUPERSEDED in v3.3 by $\alpha$-weighted GM), doesn't affect galaxy-scale)
 - $M^{\alpha}$ scaling, closed loop (unchanged)
 

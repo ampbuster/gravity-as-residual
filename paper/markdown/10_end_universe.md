@@ -36,7 +36,7 @@ The user-SIDC conversation (June 2026) identified a striking analogy with specia
 
 This is a **unification**: 2D universes from supernovae and our 3D universe are *the same kind of object* in SIDC — they differ only in the *size* of the D-event that created them. SIDC's "33 s" is one data point on a smooth ladder that goes from $10^{-37}$ $\mu$s to $10^{26}$ yr over 54 orders of magnitude in event energy.
 
-### 10.3 The 4D Planck mass has a floor: M_{Pl,4} ≥ 4×10²³ GeV
+### 10.3 The 4D Planck mass has a floor: M_{Pl,4} ≥ 3.93×10²³ GeV
 
 For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × (t_{Pl,3} / t_{Pl,4}) and the energy-scaling result T₃D = $2 \times 10^{26}$ yr:
 
@@ -54,7 +54,7 @@ For different choices of M_{Pl,4} above the floor, the 3D universe's *internal* 
 
 | M_{Pl,4} assumption | T₃D' (3D internal) | Time remaining | Status |
 |---|---|---|---|
-| 4×10²³ GeV (floor) | 14 Gyr | 0.2 Gyr | just barely alive |
+| 3.93×10²³ GeV (floor) | 14 Gyr | 0.2 Gyr | just barely alive |
 | 1 TeV (LHC-scale) | 28 Gyr | 14 Gyr | another Hubble time |
 | 10 TeV (ADD upper) | 280 Gyr | 266 Gyr | cosmic afternoon |
 | $10^{16}$ GeV (string/GUT) | $2 \times 10^{20}$ yr | $\sim 10^{20}$ yr | cosmic infancy |
@@ -133,9 +133,9 @@ The $\alpha$ = 1.29 prediction is the *single point* in this range. The rule is 
 
 Only $\alpha$ = 1.29 fits the SN data. But SIDC has **only ONE calibration point** (the 33s for SN), so the rule is *forced* and not *natural*. Alternative functional forms (logarithmic, two-component, exponential, etc.) don't fit the SN data either.
 
-**Honest verdict:** SIDC's energy-scaling rule is the *only* rule that fits the SN data, but it's not "natural" in any obvious way. The $\alpha$ = 1.29 value is an accident of the single calibration. The 4D cosmological lifespan is uncertain by *orders of magnitude* ($10^{19}$ to $10^{44}$ yr depending on the true $\alpha$). The M_{Pl,4} ≥ 4×10²³ GeV (LHC bound) in §10.3 is **specific to $\alpha$ = 1.29**; other $\alpha$ values give different (or no) floors.
+**Honest verdict:** SIDC's energy-scaling rule is the *only* rule that fits the SN data, but it's not "natural" in any obvious way. The $\alpha$ = 1.29 value is an accident of the single calibration. The 4D cosmological lifespan is uncertain by *orders of magnitude* ($10^{19}$ to $10^{44}$ yr depending on the true $\alpha$). The M_{Pl,4} ≥ 3.93×10²³ GeV (LHC bound) in §10.3 is **specific to $\alpha$ = 1.29**; other $\alpha$ values give different (or no) floors.
 
-SIDC's end-of-universe picture in §10.4 is therefore **not robust to the choice of $\alpha$**. The qualitative prediction (DE should evolve, SFR should decline, etc.) is robust; the quantitative prediction ($M_{\rm Pl,4D}$ floor at 4×10²³ GeV, end in 1-10 Gyr) is not.
+SIDC's end-of-universe picture in §10.4 is therefore **not robust to the choice of $\alpha$**. The qualitative prediction (DE should evolve, SFR should decline, etc.) is robust; the quantitative prediction ($M_{\rm Pl,4D}$ floor at 3.93×10²³ GeV, end in 1-10 Gyr) is not.
 
 ### 10.10 2D universe *death* gravitational wave predictions
 
@@ -185,13 +185,13 @@ After the trial-and-error and sensitivity analysis, SIDC's claims should be re-f
 **What SIDC CANNOT claim (quantitative, fragile):**
 - The exact value of $\alpha$ ≈ 1.29 (forced by one data point, not natural)
 - The exact 4D cosmological lifespan ($10^{19}$ to $10^{44}$ yr depending on $\alpha$)
-- The M_{Pl,4} ≥ 4×10²³ GeV (LHC bound) (specific to $\alpha$ = 1.29)
+- The M_{Pl,4} ≥ 3.93×10²³ GeV (LHC bound) (specific to $\alpha$ = 1.29)
 - The "end-of-universe in 1-10 Gyr" timeline (depends sensitively on $M_{\rm Pl,4D}$)
 - The specific 2D universe death frequencies (depend on $\alpha$)
 
 SIDC's energy-scaling ladder is a *qualitative* result that should be presented honestly. The quantitative predictions in §10.3-§10.4 are *preliminary* and *uncertain* by orders of magnitude. They should be re-evaluated when (if) SIDC acquires additional 2D universe lifetime data points — possibly from SPARC reanalysis, possibly from future GW observations, possibly from a 2D CFT theoretical derivation.
 
-The $M_{\rm Pl,4D}$ ≥ 4×10²³ GeV (LHC bound) in §10.3 should be flagged as "$\alpha$ = 1.29 specific." The end-of-universe timeline in §10.4 should be flagged as "highly model-dependent." The testable signatures in §10.5 are robust at the qualitative level (DE should evolve, SFR should decline, GW death background should exist) but not at the quantitative level.
+The $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) in §10.3 should be flagged as "$\alpha$ = 1.29 specific." The end-of-universe timeline in §10.4 should be flagged as "highly model-dependent." The testable signatures in §10.5 are robust at the qualitative level (DE should evolve, SFR should decline, GW death background should exist) but not at the quantitative level.
 
 **SIDC is, in the end, a *thought experiment*.** Its quantitative predictions are forced by limited data and should be treated as *suggestive* rather than *definitive*. The testable signatures in §10.5 are the most reliable part of this section; the $M_{\rm Pl,4D}$ floor and end-of-universe timeline are the most uncertain.
 
@@ -313,12 +313,12 @@ After the trial-and-error, sensitivity analysis, 2D CFT investigation, and death
 - LISA can test the death GW background prediction
 - DE should evolve on Gyr timescales (testable with DESI Y5, LSST Y1, Euclid Q3)
 - SFR should continue to decline (testable with current observations)
-- The $M_{\rm Pl,4D}$ ≥ 4×10²³ GeV (LHC bound) ($\alpha$ = 1.29 specific) is consistent with the ADD model
+- The $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) ($\alpha$ = 1.29 specific) is consistent with the ADD model
 
 **Fragile claims:**
 - The exact value of $\alpha$ ≈ 1.29 (forced by one data point)
 - The exact 4D cosmological lifespan ($1.9 \times 10^{26}$ yr for $\alpha$ = 1.29)
-- The $M_{\rm Pl,4D}$ ≥ 4×10²³ GeV (LHC bound) (specific to $\alpha$ = 1.29)
+- The $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) (specific to $\alpha$ = 1.29)
 - The "end-of-universe in 1-10 Gyr" timeline (specific to $M_{\rm Pl,4D}$ ~ TeV)
 - The specific 2D universe death frequencies (depend on $\alpha$)
 - The 2D CFT theoretical derivation of the energy-scaling rule
@@ -328,7 +328,7 @@ After the trial-and-error, sensitivity analysis, 2D CFT investigation, and death
 - Are there other 2D universe lifetime data points in SIDC (or future observations)?
 - What is the *exact* death GW background spectrum (requires more careful calculation)?
 - Is the energy-scaling rule a *fit* to one point, or a *prediction* from deeper physics?
-- Does the $M_{\rm Pl,4D}$ ≥ 4×10²³ GeV (LHC bound) survive when $\alpha$ is allowed to vary?
+- Does the $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) survive when $\alpha$ is allowed to vary?
 
 SIDC's §10 is now in a *mature* state: the qualitative claims are robust, the quantitative claims are honest about their uncertainty, and the open questions are clearly identified for future work. The end-of-universe picture in §10.4 should be re-evaluated when (if) SIDC acquires additional calibration data.
 
@@ -390,7 +390,7 @@ The BNS-merger and AGN-flare death signals are *loud* ($\Omega_{\rm GW}$ >> LISA
 | LSST Y1 | 2027 | DE density decreases with z | If DE is constant $\Lambda$ to z=2, SIDC is falsified |
 | SKA-MPG PTA | 2030s | $\Omega_{\rm GW} \sim 10^{-9}$ at nHz from BNS/AGN death | If PTA sees $\Omega_{\rm GW}$ << $10^{-9}$, $\epsilon_{\rm GW}$ too small (consistent w/ SIDC); if $\Omega_{\rm GW}$ >> $10^{-8}$, need non-SIDC explanation |
 | LISA | 2034+ | (Birth GW only) | Death GW at 0.03 Hz will be 6-14 orders below LISA noise regardless of $\epsilon_{\rm GW}$ |
-| Direct $M_{\rm Pl,4D}$ measurement | 2030s+ (colliders) | $M_{\rm Pl,4D}$ ≥ 4×10²³ GeV | If $M_{\rm Pl,4D}$ measured at < 4×10²³ GeV, SIDC's end-of-universe timeline is falsified; if at > 4×10²³ GeV, end-of-universe is irrelevant |
+| Direct $M_{\rm Pl,4D}$ measurement | 2030s+ (colliders) | $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV | If $M_{\rm Pl,4D}$ measured at < 3.93×10²³ GeV, SIDC's end-of-universe timeline is falsified; if at > 3.93×10²³ GeV, end-of-universe is irrelevant |
 
 SIDC's §10 is a *speculative extension* with clear, testable, falsifiable predictions. The energy-scaling rule, the $M_{\rm Pl,4D}$ floor, and the death-GW spectrum are *specific enough to be tested* but *fragile enough to be wrong*. The 5-10 year window from 2026 (DESI DR3) to 2034 (LISA launch) is the critical period for SIDC's §10 to be either confirmed, refined, or falsified.
 

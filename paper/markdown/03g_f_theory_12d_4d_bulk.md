@@ -120,7 +120,7 @@ The v3.4 "DOF conservation at 24" was the framework's INTERPRETATION.
 ## What's Still Calibrated/Assumed
 
 Even with F-theory 12D, the framework has:
-- **Calibrated**: $\alpha$ = 1.289, $\mu$ = 9×10⁶ GeV², $\epsilon$, $\tau_{\rm 4D}$, AGN rate
+- **Calibrated**: $\alpha$ = 1.289, $\mu$ = 8.73×10⁶ GeV², $\epsilon$, $\tau_{\rm 4D}$, AGN rate
 - **Assumed**: c=1, b²=1/2, universal 2D physics
 - **Open**: $\mu$ first-principles, "Why F-theory?", CY3 topology, "Why 12?"
 

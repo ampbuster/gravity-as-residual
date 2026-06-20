@@ -440,11 +440,11 @@ See `calculations/v31_F_p_consistency.py` and `calculations/v31_F_p_result.md` f
 
 **User insight (v3.1.2)**: "1 SN can produce multiple 2D universes" (allowed by M^1.29 law degeneracy in N). "1 4D event can produce multiple 3+1D sub-universes" (analogous).
 
-**v3.3 Status**: This section describes the multi-universe picture. The v3.3 framework adopts $M_{\rm Pl,4D}$ = 4×10²³ GeV ($\alpha$-weighted GM) and $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale). The v3.1.2 Scenario X ($M_{\rm Pl,4D}$ = 887 GeV) has been SUPERSEDED.
+**v3.3 Status**: This section describes the multi-universe picture. The v3.3 framework adopts $M_{\rm Pl,4D}$ = 3.93×10²³ GeV ($\alpha$-weighted GM) and $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale). The v3.1.2 Scenario X ($M_{\rm Pl,4D}$ = 887 GeV) has been SUPERSEDED.
 
 **User correction (v3.1.2, further revised v3.1.2-final)**: "An energetic event in a 4D bulk created our 3+1D universe" — we do NOT know what kind of event occurs in the 4D bulk (NOT necessarily 'galaxy collisions' as previously suggested; the 4D-bulk dynamics are UNKNOWN). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our universe was created, not related to whatever produced it).
 
-**Setup (Scenario X, REVISED v3.3)**: 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV, calibrated to DE) creates N_sub 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so N_sub is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to 4×10²³ GeV via $\alpha$-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
+**Setup (Scenario X, REVISED v3.3)**: 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, calibrated to DE) creates N_sub 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so N_sub is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to 3.93×10²³ GeV via $\alpha$-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
 
 If we apply $M^{\alpha}$ law to a sub-universe of mass $E_{\rm sub}$ (in 3+1D's own frame):
 
@@ -465,8 +465,8 @@ $$\tau_{\rm sub} = \left(\frac{E_{\rm sub}}{E_{\rm Pl,4D}}\right)^\alpha \times 
 The lifetime $\tau_{\rm sub}$ is UNKNOWN — only constrained to be > 13.8 Gyr (the observed AGE).
 
 **What we ACTUALLY know:**
-- $E_{\rm 4D}$ = 5×10⁷⁹ J (from closed loop, given $M_{\rm Pl,4D}$ = 4×10²³ GeV)
-- $M_{\rm Pl,4D}$ = 4×10²³ GeV (v3.3, derived via $\alpha$-weighted GM; was 887 GeV in v3.1.2 Scenario X)
+- $E_{\rm 4D}$ = 5×10⁷⁹ J (from closed loop, given $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
+- $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (v3.3, derived via $\alpha$-weighted GM; was 887 GeV in v3.1.2 Scenario X)
 - 13.8 Gyr is the universe's CURRENT AGE (observed directly)
 - 4D-bulk dynamics: UNKNOWN (N_sub, $E_{\rm sub}$, $\tau_{\rm sub}$ all undetermined)
 - $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s (DE matching, doesn't depend on N_sub)
@@ -508,9 +508,9 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
 | Level | $M_{\rm Pl}$ | Status |
 |---|---|---|
-| 2D universes (children) | 3 TeV | brane-world, from L41 ($\mu$ = 9×10⁶ GeV²) |
+| 2D universes (children) | 2.95 TeV | brane-world, from L41 ($\mu$ = 8.73×10⁶ GeV²) |
 | 3+1D universe (us) | 1.22×10¹⁹ GeV | MEASURED (Newton's G) |
-| 4D bulk (parent) | 4×10²³ GeV | DERIVED ($\alpha$-weighted GM, v3.3) |
+| 4D bulk (parent) | 3.93×10²³ GeV | DERIVED ($\alpha$-weighted GM, v3.3) |
 
 The asymmetry is justified by their different physical roles: 2D brane-world, 3+1D standard, 4D bulk brane-world.
 
@@ -695,7 +695,7 @@ This is the **cleanest formulation** of the bilateral cascade. The user's reform
 again" / "isn't 1/2 also notable?" / "so we have a lagrangian
 now?" / "can't we trial and error them?"
 
-**v3.1.2-final REVISION**: This section originally motivated the Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 from the Inception cone picture (cone slope = $\alpha$, converging to 2D Planck). The cone picture is now SPECULATIVE / HISTORICAL (§3.67 v3.1.2-final REVISED). The Lagrangian remains a STRUCTURAL PROPOSAL, but its connection to $\alpha$ is now PURELY INTERPRETIVE. The Lagrangian is still useful for: (a) L41 ($\mu$ = $M_{\rm Pl,2D}^2$ = 9×10⁶ GeV², closed v3.0.22), (b) L42 ($m_{3+1D}$ = $v_{\rm Higgs}$, closed), (c) c = 1 Liouville structure, (d) N = 12 SYK structure. It does NOT derive $\alpha$.
+**v3.1.2-final REVISION**: This section originally motivated the Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 from the Inception cone picture (cone slope = $\alpha$, converging to 2D Planck). The cone picture is now SPECULATIVE / HISTORICAL (§3.67 v3.1.2-final REVISED). The Lagrangian remains a STRUCTURAL PROPOSAL, but its connection to $\alpha$ is now PURELY INTERPRETIVE. The Lagrangian is still useful for: (a) L41 ($\mu$ = $M_{\rm Pl,2D}^2$ = 8.73×10⁶ GeV², closed v3.0.22), (b) L42 ($m_{3+1D}$ = $v_{\rm Higgs}$, closed), (c) c = 1 Liouville structure, (d) N = 12 SYK structure. It does NOT derive $\alpha$.
 
 **Approach**: Trial-and-error of the 2D Lagrangian over 6
 separate calculations. Goal: identify the components that give
@@ -806,9 +806,9 @@ Within the same dimension, all universes are EQUAL — they have the same intern
 
 | Dimension | Same physics (all universes) | Different (per universe) |
 |---|---|---|
-| 2D | N=12 SYK, $M_{\rm Pl,2D}$ = 3 TeV, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
+| 2D | N=12 SYK, $M_{\rm Pl,2D}$ = 2.95 TeV, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
 | 3+1D | SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, $\alpha$ = 1.289, N=12 | $E_{\rm sub}$, age, stage, baryon asymmetry |
-| 4D (extrapolation) | $M_{\rm Pl,4D}$ = 4×10²³ GeV, N=12 | $E_{\rm 4D}$, age, stage |
+| 4D (extrapolation) | $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, N=12 | $E_{\rm 4D}$, age, stage |
 
 This is analogous to atoms: same physics, different states. The 14 SIDC events are 14 instances of the SAME 2D universe at 14 different energies. The N_sub 3+1D sub-universes (per §3.60.4) are N_sub instances of the SAME 3+1D universe at N_sub different energies.
 
@@ -1188,7 +1188,7 @@ numerical analysis of all 4 shape interpretations.
 The cone is FLIPPED relative to earlier framings:
 
 ```
-        2D Planck (tip, 3 TeV, transient)
+        2D Planck (tip, 2.95 TeV, transient)
            ▲
           ╱ ╲
          ╱   ╲  cone slope α = 1.289
@@ -1212,7 +1212,7 @@ but **eternal from our frame** ($\gamma$ × $\tau_{\rm proper}$ → ∞ as $\gam
 **2. THE 2D PLANCK IS THE TIP (L113, L110, L114)**
 
 The cone looks like a black hole, with 2D Planck as the tip (the 2D
-floor). $M_{\rm Pl,2D}$ ~ 3 TeV (holographic estimate). 2D Planck time
+floor). $M_{\rm Pl,2D}$ ~ 2.95 TeV (holographic estimate). 2D Planck time
 $t_{\rm Pl}$,2D ~ 2 × 10⁻²⁸ s. 2D Planck temperature $T_{\rm Pl,2D}$ ~ 3 × 10²² K.
 
 Cone depths in $\alpha$ units:
@@ -1250,7 +1250,7 @@ Proposed $S_{\rm SIDC}$ = $S_{\rm 4D,event}$ + $S_{\rm 3+1D,brane}$ + $\Sigma_{\
 
 ```
 $S_{\rm 4D,event}$ = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
-             with $M_{\rm Pl,4}$ = 4×10²³ GeV (SIDC's v3.3 4D Planck)
+             with $M_{\rm Pl,4}$ = 3.93×10²³ GeV (SIDC's v3.3 4D Planck)
 
 $S_{\rm 3+1D,brane}$ = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
                with $M_{\rm Pl,3}$ = 1.22 × 10¹⁹ GeV
@@ -1291,7 +1291,7 @@ Only 2 free parameters remain in SIDC:
 | **L42: m₃₊₁D** | 246 GeV | Higgs VEV (EW scale) |
 
 Everything else is derived from these + 2D CFT structure:
-- $M_{\rm Pl,2D}$ = √$\mu$ = 3 TeV (from L41)
+- $M_{\rm Pl,2D}$ = √$\mu$ = 2.95 TeV (from L41)
 - $\alpha$ = 1 + 1/√12 (from N=12)
 - $\tau_{\rm 2D}$ = ($E_{\rm 3D}$/$E_{\rm Pl,3}$)$^{\alpha}$ × $t_{\rm Pl,3}$ (time dilation)
 - $f_{\rm back}$ ~ 10⁻⁸⁵ for SN (closed loop)
@@ -1372,7 +1372,7 @@ The v3.0.2 Lagrangian skeleton (L = L_c=1 + L_N=12 + L_Schwarzian)
 is now EMBEDDED in the full v3.0.22 Lagrangian as $S_{\rm 2D,universe}$.
 The skeleton was the starting point; the full Lagrangian adds:
 
-- 4D event action ($S_{\rm 4D,event}$, $M_{\rm Pl,4}$ = 4×10²³ GeV)
+- 4D event action ($S_{\rm 4D,event}$, $M_{\rm Pl,4}$ = 3.93×10²³ GeV)
 - 3+1D brane action with SM ($S_{\rm 3+1D,brane}$)
 - Projection mechanism with time dilation ($S_{\rm projection}$)
 - Closed loop condition ($f_{\rm back}$ formula)
@@ -1412,7 +1412,7 @@ What's still missing:
 
 If this speculation section survives peer review:
 
-1. **Derive the 5D bulk action** (S_5D_bulk with $kL$ ~ 4×10²³ GeV / $M_{\rm Pl,3}$)
+1. **Derive the 5D bulk action** (S_5D_bulk with $kL$ ~ 3.93×10²³ GeV / $M_{\rm Pl,3}$)
 2. **Specify the projection mechanism** (explicit mathematical form)
 3. **Compute the closed loop path integral** (with 5D bulk)
 4. **Test $\alpha$ = 1.289 against 14 events** (already done in v14d, all match)

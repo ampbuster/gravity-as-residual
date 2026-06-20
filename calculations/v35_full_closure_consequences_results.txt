@@ -1,0 +1,139 @@
+================================================================================
+v3.5.8+ L26 FULL CLOSURE: Consequence analysis
+================================================================================
+
+OLD (framework choice):
+  M_Pl,2D = 3000 GeV = 3 TeV
+  μ      = 9.00e+06 GeV² = 9×10⁶
+  M_Pl,4D = 4.0e+23 GeV = 4×10²³
+
+NEW (derivation):
+  M_Pl,2D = 2954.64 GeV = 2.95 TeV
+  μ      = 8.7299e+06 GeV² = 8.73×10⁶
+  M_Pl,4D = 3.9289e+23 GeV = 3.93×10²³
+
+================================================================================
+QUANTITIES THAT CHANGE
+================================================================================
+
+1. N_sub (sub-universe count):
+   Old: 4.00e+02
+   New: 3.86e+02
+   Change: -3.52%
+   Physical impact: minimal (4×10² → 3.86×10², used in 5/27/68)
+
+2. γ_4D (time dilation):
+   Old: 6.030e+90
+   New: 5.923e+90
+   Change: -1.78%
+   Physical impact: NEGLIGIBLE (10⁹⁰ is 90 orders of magnitude!)
+
+3. τ_3D,apparent (3+1D apparent lifetime):
+   Old: 9.105e+124 yr
+   New: 8.943e+124 yr
+   Change: -1.78%
+   Physical impact: NEGLIGIBLE (these are huge numbers)
+
+4. 2D BH entropy (S_BH = 2π E/μ, SN-scale):
+   Old: 4.358e+47
+   New: 4.493e+47
+   Change: +3.09%
+   Physical impact: minimal (these are 10⁴⁶ numbers, not directly observable)
+
+5. 2D BH Hawking temperature:
+   Old: 4.775e+02 GeV = 4.775e-07 K
+   New: 4.702e+02 GeV = 4.702e-07 K
+   Change: -1.51%
+   Physical impact: minimal (these are not directly observable)
+
+================================================================================
+QUANTITIES THAT STAY THE SAME
+================================================================================
+
+1. DE (dark energy): uses M_Pl,3D, NOT M_Pl,2D
+   DE = 6.91×10⁻¹⁰ J/m³ (observed)
+   Framework match: 0.13% off (using f_DE simple formula)
+   Changes: NO (depends only on M_Pl,3D, ε, f_DE)
+
+2. 2D universe lifetime (τ_2D = (E/M_Pl,3D)^α × t_Pl):
+   SN τ_2D = 33 s (calibrated)
+   Changes: NO (uses M_Pl,3D, parent for the transition)
+
+3. RAR (g_+ ≈ 1.2×10⁻¹⁰ m/s²):
+   Empirical, calibrated to SPARC data
+   Changes: NO (not derived from M_Pl,2D)
+
+4. 5/27/68 (Ω_o/Ω_DM/Ω_DE):
+   Direct match to Planck observation
+   Changes: NO (independent of M_Pl,2D)
+
+5. f_back = 8.6×10⁻⁸⁶ (back-flow fraction):
+   Composite model: f_back = c/α × formula
+   Changes: NO (uses c=1/2 and α=1.289, not M_Pl,2D)
+
+6. α = 1.289 (Schwarzian SYK N=12):
+   First-principles via α = 1 + 1/√12
+   Changes: NO (independent of M_Pl,2D)
+
+================================================================================
+SUMMARY
+================================================================================
+
+CHANGES:
+  M_Pl,2D: 3000 → 2955 GeV (1.5% change)
+  μ: 9×10⁶ → 8.73×10⁶ GeV² (3.0% change)
+  M_Pl,4D: 4×10²³ → 3.93×10²³ GeV (1.7% change)
+  N_sub: 4×10² → 3.86×10² (3.4% change)
+
+UN-CHANGED (predictions independent of M_Pl,2D):
+  DE (0.13% match)
+  2D universe lifetime (33 s for SN)
+  RAR, g_+ scaling
+  5/27/68 split
+  f_back, α
+
+================================================================================
+RECOMMENDATION
+================================================================================
+
+The 3% offset is REAL but PHYSICALLY NEGLIGIBLE for the framework's
+major predictions. The change affects only M_Pl,2D-dependent derived
+quantities, which are:
+  - N_sub (3.4% change, still 4×10² order)
+  - 2D BH entropy, Hawking T (3% change, not directly observable)
+  - 4D event energy / γ_4D (1.7% change, huge numbers)
+
+TRADE-OFFS:
+
+FULL CLOSURE (UPDATE framework values):
+  ✓ Internal consistency (derivation chain is exact)
+  ✓ L26 → FULLY CLOSED (not PARTIAL)
+  ✓ 'FIRST-PRINCIPPLES' claim is honest (3/9 derived, no offset)
+  ✗ 398 pages of paper need '3 TeV' → '2.95 TeV' updates
+  ✗ '9×10⁶' → '8.73×10⁶' updates throughout
+  ✗ '4×10²³' → '3.93×10²³' updates throughout
+  ✗ Risk of new typos in mass update
+  ✗ '3 TeV' is more memorable than '2.95 TeV'
+
+PARTIAL CLOSURE (keep current, document 3% offset):
+  ✓ No paper updates needed
+  ✓ '3 TeV' memorable number preserved
+  ✓ Predictions unchanged
+  ✗ Internal inconsistency (derivation says 2.95, framework uses 3)
+  ✗ L26 stays PARTIAL (not FULL)
+  ✗ '3% offset' needs to be mentioned in L308r caveat
+
+HYBRID (state both values):
+  ✓ Honest (both values shown)
+  ✓ No changes to predictions
+  ✗ Slightly verbose in text
+  ✗ Reader must choose which to use
+
+MY RECOMMENDATION: FULL CLOSURE
+Reason: L308r is the most important breakthrough of v3.5.8+. Going
+from PARTIAL to FULL closure is worth the update cost. The 3% offset
+is small but UNNECESSARY — it's purely a rounding choice. The framework
+should reflect what the derivation actually gives.
+
+ALTERNATIVELY: HYBRID with 'M_Pl,2D = 3 TeV (2.95 TeV derived)'
+This shows both values and lets reader choose. Less invasive.

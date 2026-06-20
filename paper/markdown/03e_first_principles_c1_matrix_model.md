@@ -1,4 +1,4 @@
-# First-Principles Analysis: c=1 Matrix Model → $M_{\rm Pl,2D}$ = 3 TeV
+# First-Principles Analysis: c=1 Matrix Model → $M_{\rm Pl,2D}$ = 2.95 TeV
 
 **v3.3.8, USER'S SHARP TNT WEIRDNESS CATCH**
 
@@ -15,7 +15,7 @@ The brute force formula $\mu = E/\tau$ gives:
 | Event | $\mu$ (GeV²) | $M_{\rm Pl,2D}$ | User's intuition |
 |---|---|---|---|
 | TNT (small event) | 1.28×10¹⁷ | **360,000 TeV** | Should be SMALLER, not bigger! |
-| SN (medium event) | 9.67×10⁶ | 3 TeV | Reasonable |
+| SN (medium event) | 9.67×10⁶ | 2.95 TeV | Reasonable |
 | Quasar (huge event) | 2.02×10² | **14 GeV** | Should be LARGER, not smaller! |
 
 **$M_{\rm Pl,2D}$ is INVERTED from event size!**
@@ -49,7 +49,7 @@ TNT 2D universe:
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:
-- $M_{\rm Pl,2D}$ = 3 TeV (softer)
+- $M_{\rm Pl,2D}$ = 2.95 TeV (softer)
 - Size = c × $\tau$ = 10¹⁰ m (huge!)
 - Action = 10⁴⁴ × 33 = 3.3×10⁴⁵ J·s (huge!)
 - DM contribution: huge (action is huge)
@@ -85,9 +85,9 @@ We tested several alternatives:
 
 | Formula | $\mu_{\rm SN}$ | $\mu_{\rm TNT}$ | $\mu_{\rm Quasar}$ | Weirdness |
 |---|---|---|---|---|
-| **v3.3 (universal $\mu$)** | 9×10⁶ | 9×10⁶ | 9×10⁶ | None |
+| **v3.3 (universal $\mu$)** | 8.73×10⁶ | 8.73×10⁶ | 8.73×10⁶ | None |
 | **v3.3.6 ($$E/\tau$)** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
-| **Energy-based ($E^{\alpha}$)** | 9×10⁶ | 4.2×10⁻³⁷ | 1.3×10⁻²⁹ | Opposite (also weird) |
+| **Energy-based ($E^{\alpha}$)** | 8.73×10⁶ | 4.2×10⁻³⁷ | 1.3×10⁻²⁹ | Opposite (also weird) |
 | **Capped ($\mu$ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
 
 The energy-based formula gives OPPOSITE weirdness (TNT very small $\mu$, quasar very large).
@@ -126,11 +126,11 @@ But the threshold needs a physical principle.
 
 The cleanest approach:
 
-1. **v3.3 (canonical)**: Keep universal $\mu$ = 9×10⁶
+1. **v3.3 (canonical)**: Keep universal $\mu$ = 8.73×10⁶
    - Avoids weirdness
    - Simpler (9 parameters)
    - Agrees with most physics intuition
-   - $M_{\rm Pl,2D}$ = 3 TeV universal
+   - $M_{\rm Pl,2D}$ = 2.95 TeV universal
 
 2. **v3.3.6 (extended)**: Mention event-dependent $\mu$
    - More honest about brute force pattern
@@ -176,7 +176,7 @@ The framework should:
 
 ## Final Recommendation
 
-**KEEP v3.3 as canonical** (universal $\mu$ = 9×10⁶ GeV²)
+**KEEP v3.3 as canonical** (universal $\mu$ = 8.73×10⁶ GeV²)
 **MENTION v3.3.6 as alternative** with explicit caveats about TNT weirdness
 **CONTINUE search for true first-principles $\mu$** via Karlsson 2025, Hartle-Hawking, etc.
 

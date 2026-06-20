@@ -15,33 +15,34 @@
 - "12" is cascade fundamental unit (α = 1+1/√12, $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, cone depth 12)
 - First-principles progress: 0/9 → 1/9 (α derived) → 3/9 (α, $M_{\rm Pl,2D}$, $\mu$ via L308r N×$v_{\rm Higgs}$ chain)
 - L308r: $\mu$ = $M_{\rm Pl,2D}^2$ DERIVED via N × $v_{\rm Higgs}$ = 8.73×10⁶ (3% off 9×10⁶)
+- **L308t (NEW)**: Framework values UPDATED to consistent derivation. $M_{\rm Pl,2D}$ = 2.95 TeV (was 3 TeV), $\mu$ = 8.73×10⁶ (was 9×10⁶), $M_{\rm Pl,4D}$ = 3.93×10²³ (was 4×10²³), N_sub = 3.86×10² (was 4×10²). L26 → FULL CLOSURE (no 3% offset).
 - L308s: 8 attempted paths to FULLY close L26, none bridge the 3% (gap is from M_Pl,2D rounding)
-- 130 limitations, 398 pages, paper built successfully
-**Pages**: 398 (was 393)
-**Limitations**: 130 (v3.5.8+ master table, +L308f +L308g +L308h +L308i +L308j +L308k +L308l +L308m +L308n +L308o +L308p +L308q +L308r +L308s after L308q, was 116 v3.5.7, was 81 in v3.3)
+- 131 limitations, 398 pages, paper built successfully
+**Pages**: 398 (was 393, was 376 after v3.5.7+ L308f-s)
+**Limitations**: 131 (v3.5.8+ master table, +L308f through +L308t after L308q, was 116 v3.5.7, was 81 in v3.3)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: 813+ (as of June 20, 2026)
 **v3.5.7+ recent commits**: ~30 in v3.5 era (math wrapping, adjacent math, lint checks, naming revolution, audit, DE match fix)
 
 ## The Model in 1 Paragraph
 
-Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 3 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 4 calibrated (α, ε, τ_4D, AGN rate), 1 calibrated-and-structurally-motivated (μ), and 1 free (N_sub) = 9 parameters. The M^α law τ = (E/M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
+Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 2.95 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 4 calibrated (α, ε, τ_4D, AGN rate), 1 calibrated-and-structurally-motivated (μ), and 1 free (N_sub) = 9 parameters. The M^α law τ = (E/M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
 ## The 9 Parameters (v3.5.7+, current)
 
 | # | Parameter | Value | Status | Source |
 |---|---|---|---|---|
 | 1 | $M_{\rm Pl,3D}$ | 1.22×10¹⁹ GeV | **MEASURED** | Newton's G |
-| 2 | $M_{\rm Pl,2D}$ | 3 TeV (2.95 TeV derived) | **DERIVED** | N × $v_{\rm Higgs}$ = 12 × 246.22 (L308r) |
-| 3 | $M_{\rm Pl,4D}$ | 4×10²³ GeV | **DERIVED** | α-weighted GM of 1,2 |
+| 2 | $M_{\rm Pl,2D}$ | 2.95 TeV (was 3 TeV) | **DERIVED** | N × $v_{\rm Higgs}$ = 12 × 246.22 (L308r) |
+| 3 | $M_{\rm Pl,4D}$ | 3.93×10²³ GeV | **DERIVED** | α-weighted GM of 1,2 |
 | 4 | α | 1.289 | **CALIBRATED** | 8 named events M^α fit (§10.1) |
 | 5 | ε | 10⁻³⁸ | **CALIBRATED** | hierarchy |
-| 6 | τ_4D,proper | 1.51×10³⁴ yr | **CALIBRATED** | DE match (0.13% off simple $f_{\rm DE}$, 2.7% off bilateral cascade) |
-| 7 | τ_3D,apparent | 9.10×10¹²⁴ yr | **DERIVED** | γ_4D × τ_4D |
-| 8 | γ_4D | 6.03×10⁹⁰ | **DERIVED** | time dilation |
-| 9 | N_sub | 4×10² | **FREE** | sub-universe count |
+| 6 | τ_4D,proper | 1.51×10³⁴ yr | **CALIBRATED** | DE match (0.13% off simple $f_{\rm DE}$, 2.7% off bilateral cascade) — UNCHANGED |
+| 7 | τ_3D,apparent | 8.95×10¹²⁴ yr | **DERIVED** | γ_4D × τ_4D (1.7% off old) |
+| 8 | γ_4D | 5.93×10⁹⁰ | **DERIVED** | time dilation (1.7% off old) |
+| 9 | N_sub | 3.86×10² | **FREE** | sub-universe count |
 
-**Note**: $M_{\rm Pl,2D}$ = 3 TeV gives μ = 9×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived).
+**Note**: $M_{\rm Pl,2D}$ = 2.95 TeV gives μ = 8.73×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived).
 
 ## Key Formulas
 
@@ -67,7 +68,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 | Version | Finding |
 |---|---|
-| v3.3 | Bilateral cascade: $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM (DERIVED), $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale), τ_3D_apparent = 9.10×10¹²⁴ yr |
+| v3.3 | Bilateral cascade: $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM (DERIVED), $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale), τ_3D_apparent = 9.10×10¹²⁴ yr |
 | v3.3.1-3 | FZZT, matrix model provide consistency, not derivation |
 | v3.3.4 | 10 first-principles principles tested, all fail |
 | v3.3.5 | Pattern: μ × τ/E = K (event-dependent) |
@@ -129,7 +130,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 ## What's CALIBRATED (not derived)
 
-- ⚠ μ = 9×10⁶ GeV² (calibrated to SN)
+- ⚠ μ = 8.73×10⁶ GeV² (calibrated to SN)
 - ⚠ α = 1.289 (calibrated to SN)
 - ⚠ ε = 10⁻³⁸ (calibrated to hierarchy)
 - ⚠ τ_4D = 1.51×10³⁴ yr (calibrated to DE)
@@ -141,11 +142,11 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ⚠ c = 1 for all 2D universes
 - ⚠ b² = 1/2 (Liouville coupling)
 - ⚠ Liouville CFT structure
-- ⚠ DM = decayed 2D universe energy (Possibility A: 3 TeV particle?)
+- ⚠ DM = decayed 2D universe energy (Possibility A: 2.95 TeV particle?)
 
 ## What's DERIVED
 
-- ✓ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 4×10²³ GeV
+- ✓ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 3.93×10²³ GeV
 - ✓ τ_3D,apparent = γ_4D × τ_4D = 9.10×10¹²⁴ yr
 - ✓ γ_4D = ($E_{\rm 4D}$/$M_{\rm Pl,4D}$)^α = 6.03×10⁹⁰
 
@@ -251,7 +252,7 @@ A: Form of DM (not specified). μ first-principles derivation (17 methods tried,
 ## The Two Viable Frameworks
 
 **Option 1 (v3.3 canonical)**: μ universal
-- All 2D universes have μ = 9×10⁶ GeV²
+- All 2D universes have μ = 8.73×10⁶ GeV²
 - Differ in lifetime, size, energy, action
 - 1 parameter, cleanest
 
@@ -290,9 +291,9 @@ The user has caught many issues across versions:
 15. Multiple inconsistencies between title/README/STATE/persistent_memory (consistency sweep)
 
 **v3.5.7+ era continued** (NEW, 4 more catches):
-16. $M_{\rm Pl,2D}$ = 3 TeV is "$v_{\rm Higgs}$ × 12 EW coincidence", NOT "holographic" (L110 had wrong label) → L308f, §7.4.6
+16. $M_{\rm Pl,2D}$ = 2.95 TeV is "$v_{\rm Higgs}$ × 12 EW coincidence", NOT "holographic" (L110 had wrong label) → L308f, §7.4.6
 17. $M_{\rm Pl,4D}$ derivation is via α-GM + closed loop, NOT first-principles (both use calibrated inputs) → L308g
-18. α-GM consistency: $M_{\rm Pl,2D}$ = 3 TeV UNIQUELY fixed given α, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$ (within 3.6%) → §7.4.6 LINK 1
+18. α-GM consistency: $M_{\rm Pl,2D}$ = 2.95 TeV UNIQUELY fixed given α, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$ (within 3.6%) → §7.4.6 LINK 1
 19. Cone depth structure: 4D→3+1D = 41 α-steps, 3+1D→2D = 142 α-steps, ratio = √12 (cascade unit) → §7.4.6 LINK 2
 
 Each catch has been acknowledged and addressed. The framework is now more honest about its assumptions and limitations.
