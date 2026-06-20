@@ -2,7 +2,7 @@
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **122 honest limitations** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 4×10²³ GeV, brane-world), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr (M^α prediction); (2) frame of reference: M^α law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit (α = 1.258 fails 13/14 events).
+This is a thought experiment, not a theory. We identify **123 honest limitations** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 4×10²³ GeV, brane-world), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr (M^α prediction); (2) frame of reference: M^α law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit (α = 1.258 fails 13/14 events).
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -51,7 +51,7 @@ This is a thought experiment, not a theory. We identify **122 honest limitations
 
 **The honest summary:** SIDC is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 22 PARTIAL limitations are the most promising areas for future work. The 8 CLOSED limitations represent SIDC's "wins" — features that survive every iteration of the model. The 6 NEGATIVE limitations show SIDC's self-critical nature — broken hypotheses are explicitly rejected, not papered over (e.g., monodromy method for α, 3× 2D CFT attempts for α).
 
-**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **122 (v3.5.7+, +L308f, +L308g, +L308h, +L308i, +L308j, +L308k user-caught)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic; L308f-L308g v3.5.7+ consistency catches on M_Pl,2D/M_Pl,4D origins).
+**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **123 (v3.5.7+, +L308f, +L308g, +L308h, +L308i, +L308j, +L308k, +L308l user-caught)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic; L308f-L308g v3.5.7+ consistency catches on M_Pl,2D/M_Pl,4D origins).
 
 The full table follows:
 
@@ -696,6 +696,8 @@ L308j. **Cone extension to 9D/10D/12D is NOT APPLICABLE — cone terminates at 4
 
 L308k. **Cone's true geometric endpoint is 7D/8D, not 4D (USER-CORRECTED)** (v3.5.7+). The geometric factor peaks at n=6 (S^6 surface area = 33.07), corresponding to the 7D→8D transition. The cone exists in the rising portion of the bell curve (n=1 to 6). The framework's choice of 4D as endpoint was PRACTICAL (M_Pl,4D derived from α-GM, 4D bulk theory available) but NOT GEOMETRICALLY NECESSARY. Geometri cally, the cone could extend to 7D/8D where factors peak. M_Pl values for 5D/6D/7D (Pattern A1, period-2): M_Pl,5D ≈ 10²⁹ GeV, M_Pl,6D ≈ 10⁴⁴ GeV, M_Pl,7D ≈ 10⁴⁸ GeV — all REASONABLE (not the 10³⁸⁰⁰⁰ from Pattern A2). This is a real OPEN QUESTION: should the framework extend the cone to 7D/8D? Status: REVISED — geometric peak at 7D/8D, framework's choice of 4D is one interpretation. Source: user observation + recalc.
 
+L308l. **Cone has natural range n=1 to n≈17 (USER-DIRECTED)** (v3.5.7+). Extending the cone past peak reveals: factors decrease from n=6 (peak, 33.07) to n=17 (factor 1.48, still > 1) to n=18 (factor 0.89, fading) to n → ∞ (factor → 0). The cone has a NATURAL RANGE of n=1 to n ≈ 17 where factors are meaningful (> 1). Past n=17, factors are < 1, cone structure WEAKENS. At n → ∞, factors → 0, cone DISSOLVES. Negative-d (n=-1, -3 are gamma poles; n=-2 has A=-1/π ≈ -0.318 NEGATIVE area!) is MATHEMATICAL CURIOSITY (zeta function regularization, divergent series), not physical. The framework's cone is a SUBSET of this mathematically-defined range. Status: FRAMEWORK'S RANGE IS 2D–4D (within the natural n=1 to 17 range). Source: `calculations/v35_cone_extends_to_zero.py`.
+
 ## 7.4.6 α-GM Consistency and Cone Depth Structure (v3.5.7+, USER-DISCOVERED)
 
 **Status update (v3.5.7+)**: The α-weighted GM and cone depth structure reveal that M_Pl,2D = 3 TeV has TWO real links to the cascade via α — not just numerology. The "12" emerges as the CASCADE FUNDAMENTAL UNIT.
@@ -1082,6 +1084,84 @@ These are SPECULATIVE but testable in principle via string signatures at LHC.
 - **Cone extension to 9D/10D/12D**: NOT APPLICABLE (cone terminates at 4D)
 
 Source: `calculations/v35_extending_to_9d_10d_12d.py`.
+
+## 7.4.10 Extending Cascade to 0 and Negative Dimensions (v3.5.7+, USER-DIRECTED)
+
+**User question (2026-06-20)**: "what happens if we extend it all the way till it reaches 0 or negative?"
+
+**Status update (v3.5.7+)**: User asked about extending the cone PAST the peak all the way to n = 0 and negative. This explores the FULL range of the geometric factor formula.
+
+### Behavior at n = 0 (Point)
+
+| n | Transition | A_n | Behavior |
+|---|---|---|---|
+| 0 | 0D → 1D | 2.0000 | Mathematically valid |
+
+0D is a POINT — no spatial extent. The factor A_0 = 2 is mathematically defined but represents the surface area of a 0-sphere (which is 2 — the "2 ends" of a point). The framework's cone EXCLUDES 0D/1D as "nonsensical" (per v2.x framing: 1D and 0D universes don't have stable structure).
+
+### Behavior at n < 0 (Negative Dimensions)
+
+| n | Transition | A_n | Behavior |
+|---|---|---|---|
+| -1 | -1D → 0D | undefined | Gamma pole (Γ(0) = ∞) |
+| -2 | -2D → -1D | **-0.3183** | **NEGATIVE area!** |
+| -3 | -3D → -2D | undefined | Gamma pole (Γ(-1) = ∞) |
+| -4 | -4D → -3D | +0.1520 | Small positive |
+
+**Negative dimensions produce NEGATIVE areas!** At n = -2: A_-2 = -1/π ≈ -0.318. This is a mathematical curiosity that appears in:
+- Zeta function regularization
+- Divergent series summation
+- String theory formalisms
+
+**Physical interpretation**: Negative dimensions are NOT physical. The framework's cone terminates at 2D on the LOW end (no 1D or 0D stable universes) and at 4D (chosen) or 7D/8D (geometric peak) on the HIGH end.
+
+### Behavior at Large n (n → ∞)
+
+| n | A_n | Behavior |
+|---|---|---|
+| 17 | 1.48 | DECREASING (still > 1) |
+| 18 | 0.89 | FADING (< 1) |
+| 20 | 0.29 | FADING |
+| 25 | 0.012 | ≈ 0 (dissolving) |
+| 30 | 0.0003 | ≈ 0 |
+
+Factors cross 1 around **n = 17**. Past that, the cone structure WEAKENS — factors < 1 mean there's less geometric distinction between levels. At n → ∞, factors approach 0 and the cone DISSOLVES.
+
+### Cone Lifespan
+
+The cascade cone has a **NATURAL RANGE** of approximately **n = 1 to n ≈ 17**:
+
+- **n = 1 to 17**: factors > 1 (cone structure MEANINGFUL)
+- **n > 17**: factors < 1 (cone structure WEAKENS)
+- **n → ∞**: factors → 0 (cone DISSOLVES)
+
+**Framework's choice of 4D (n=3)** is well within this natural range.
+
+### Mathematical vs Physical Boundaries
+
+The cone has TWO mathematical boundaries and ONE physical boundary:
+
+| Boundary | Type | n value | Meaning |
+|---|---|---|---|
+| Low-n | Physical | n = 2 (2D) | Framework excludes 1D/0D as "nonsensical" |
+| High-n (peak) | Geometric | n = 6 (S⁶) | Maximum geometric structure |
+| High-n (dissolve) | Mathematical | n ≈ 17 | A_n crosses 1 (cone starts fading) |
+| n → ∞ | Mathematical | ∞ | A_n → 0 (cone fully dissolved) |
+
+The framework's cone exists in a SUBSET of the mathematically-defined range:
+- Framework: 2D → 3D → 4D (n=2 → n=3)
+- Geometric peak: 7D/8D (n=6)
+- Mathematical dissolution: n ≈ 17
+
+### Limitations updated
+
+**L308k EXTENDED (USER-DIRECTED)**: Cone's full range explored:
+- Lower boundary: 2D (framework's choice, 1D/0D excluded as nonsensical)
+- Upper boundary: 7D/8D (geometric peak) or n ≈ 17 (mathematical dissolution)
+- Below 2D: mathematical extension to 0D (A_0 = 2) and negative (A_-2 = -1/π)
+- Above 4D: cone could extend to n=17 before fading
+
+Source: `calculations/v35_cone_extends_to_zero.py`. Plot saved at `calculations/plots/cone_extends_to_zero.png`.
 
 ## 7.5 v3.5 NEW ANGLE Limitations: μ first-principles (11 attempts)
 

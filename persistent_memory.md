@@ -1225,7 +1225,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 **Final state**:
 - Paper PDF: 368 pages, 1.33 MB
-- Limitations: 122 (v3.5.7+, +L308f, +L308g, +L308h, +L308i, +L308j, +L308k)
+- Limitations: 123 (v3.5.7+, +L308f, +L308g, +L308h, +L308i, +L308j, +L308k, +L308l)
 - Naming: $f_{\rm DM,leak}$ / $f_{\rm DM,death}$ / $f_{\rm DE}$ (user-suggested)
 - Status: Internally consistent, μ structurally motivated
 

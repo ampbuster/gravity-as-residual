@@ -1,0 +1,99 @@
+======================================================================
+EXTENDING CASCADE TO ALL n (INCLUDING NEGATIVE)
+======================================================================
+
+n      Transition     A_n             Behavior                      
+----------------------------------------------------------------------
+-4     -4D → -3D      0.1520          INCREASING                    
+-3     -3D → -2D      undefined       (gamma pole)                  
+-2     -2D → -1D      -0.3183         NEGATIVE area!                
+-1     -1D → 0D       undefined       (gamma pole)                  
+0      0D → 1D        2.0000          point (0D)                    
+1      1D → 2D        6.2832          INCREASING                    
+2      2D → 3D        12.5664         INCREASING                    
+3      3D → 4D        19.7392         INCREASING                    
+4      4D → 5D        26.3189         INCREASING                    
+5      5D → 6D        31.0063         INCREASING                    
+6      6D → 7D        33.0734         PEAK (33.07)                  
+7      7D → 8D        32.4697         DECREASING                    
+8      8D → 9D        29.6866         DECREASING                    
+9      9D → 10D       25.5016         DECREASING                    
+10     10D → 11D      20.7251         DECREASING                    
+11     11D → 12D      16.0232         DECREASING                    
+12     12D → 13D      11.8382         DECREASING                    
+13     13D → 14D      8.3897          DECREASING                    
+14     14D → 15D      5.7216          DECREASING                    
+15     15D → 16D      3.7653          DECREASING                    
+16     16D → 17D      2.3967          DECREASING                    
+17     17D → 18D      1.4786          DECREASING                    
+18     18D → 19D      0.8858          FADING (< 1)                  
+19     19D → 20D      0.5161          FADING (< 1)                  
+20     20D → 21D      0.2929          FADING (< 1)                  
+21     21D → 22D      0.1621          FADING (< 1)                  
+22     22D → 23D      0.0876          FADING (< 1)                  
+23     23D → 24D      4.6310e-02      ≈ 0 (dissolving)              
+24     24D → 25D      2.3943e-02      ≈ 0 (dissolving)              
+25     25D → 26D      1.2124e-02      ≈ 0 (dissolving)              
+26     26D → 27D      6.0175e-03      ≈ 0 (dissolving)              
+27     27D → 28D      2.9299e-03      ≈ 0 (dissolving)              
+28     28D → 29D      1.4003e-03      ≈ 0 (dissolving)              
+29     29D → 30D      6.5746e-04      ≈ 0 (dissolving)              
+
+======================================================================
+KEY OBSERVATIONS
+======================================================================
+
+Specific values of interest:
+  A_0 = 2 (mathematically valid, physically nonsense)
+  A_6 = 33.0734 (PEAK)
+  A_-2 = -0.3183 (NEGATIVE area)
+  A_-1 = undefined (gamma pole)
+  A_-3 = undefined (gamma pole)
+  A_-4 = 0.1520 (positive, small)
+
+Where A_n crosses various thresholds:
+  A_n = 10 at n = 0 (A_0 = 2.0000)
+  A_n = 1 at n = 18 (A_18 = 0.8858)
+  A_n = 0.5 at n = 20 (A_20 = 0.2929)
+  A_n = 0.1 at n = 22 (A_22 = 0.0876)
+  A_n = 0.01 at n = 26 (A_26 = 0.0060)
+
+======================================================================
+CONE LIFESPAN
+======================================================================
+
+The cone has a NATURAL RANGE:
+  n = 1 to n ≈ 17: cone structure meaningful (factors > 1)
+  n > 17: cone structure WEAKENS (factors < 1)
+  n → ∞: cone DISSOLVES (factors → 0)
+
+Framework's choice of 4D (n=2 → n=3) is well within the natural range.
+Cone COULD extend to n=17 before fading.
+Past n=17, the cone becomes 'flat' (no geometric distinction).
+
+======================================================================
+WHAT HAPPENS AT 0 OR NEGATIVE
+======================================================================
+
+AT n = 0:
+  A_0 = 2 (factor at 0D → 1D)
+  0D is a point — no spatial extent
+  Framework EXCLUDES 0D/1D (cone terminates at 2D)
+
+AT n < 0 (negative dimensions):
+  n = -1: A_n = 0 (gamma pole)
+  n = -2: A_n = -1/π ≈ -0.318 (NEGATIVE area!)
+  n = -3: A_n = 0 (gamma pole)
+  n = -4: A_n = 3/(2π²) ≈ 0.152 (small positive)
+
+Negative dimensions are MATHEMATICAL CURIOSITIES:
+  - Zeta function regularization
+  - Divergent series summation
+  - String theory formalisms
+  - Not physical dimensions
+
+Interpretation: The cone has a 'boundary' at 2D (framework's choice).
+Below 2D: 1D, 0D, negative-d are MATHEMATICALLY DEFINED but PHYSICALLY NONSENSICAL.
+Above 4D: cone COULD extend to n=17 before fading.
+
+Saved plot: calculations/plots/cone_extends_to_zero.png
