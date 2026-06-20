@@ -428,12 +428,12 @@ with non-trivial past SF should have non-zero $M_{dyn}$.
 
 | Galaxy | $M_{b}$ ($M_\odot$) | $\sigma$ (km/s) | $r_h$ (pc) | $M_{dyn}$ ($M_\odot$) | $M_{dyn}$/ $M_{b}$ | SIDC |
 |--------|-----------|----------|----------|-------------|-----------|---------|
-| **Crater II** | $3.0 \times 10^{5}$ | 2.7 | 700 | $5.9 \times 10^{6}$ | **19.8** | PASS (low $M_{dyn}$/ $M_{b}$, but DM is non-zero) |
-| **Antlia 2** | $5.0 \times 10^{5}$ | 5.0 | 2900 | $8.4 \times 10^{7}$ | **168.6** | PASS (high $M_{dyn}$/ $M_{b}$, consistent with SIDC) |
-| **Boötes I** | $3.0 \times 10^{4}$ | 5.0 | 230 | $6.7 \times 10^{6}$ | **222.9** | PASS (high $M_{dyn}$/ $M_{b}$, consistent with SIDC) |
-| **Segue 1** | $6.0 \times 10^{2}$ | 3.7 | 30 | $4.8 \times 10^{5}$ | **796.1** | PASS (very high $M_{dyn}$/ $M_{b}$, consistent with SIDC) |
-| **Willman 1** | $1.0 \times 10^{4}$ | 4.0 | 25 | $4.7 \times 10^{5}$ | **46.5** | PASS (DM is non-zero, consistent with SIDC) |
-| **Tucana II** | $2.3 \times 10^{3}$ | 4.5 | 165 | $3.9 \times 10^{6}$ | **1689.6** | PASS (very high $M_{dyn}$/ $M_{b}$, consistent with SIDC) |
+| **Crater II** | $3.0 \times 10^{5}$ | 2.7 km/s | 700 pc | $5.9 \times 10^{6}$ | **19.8** | PASS (low $M_{dyn}$/ $M_{b}$, but DM is non-zero) |
+| **Antlia 2** | $5.0 \times 10^{5}$ | 5.0 km/s | 2900 pc | $8.4 \times 10^{7}$ | **168.6** | PASS (high $M_{dyn}$/ $M_{b}$, consistent with SIDC) |
+| **Boötes I** | $3.0 \times 10^{4}$ | 5.0 km/s | 230 pc | $6.7 \times 10^{6}$ | **222.9** | PASS (high $M_{dyn}$/ $M_{b}$, consistent with SIDC) |
+| **Segue 1** | $6.0 \times 10^{2}$ | 3.7 km/s | 30 pc | $4.8 \times 10^{5}$ | **796.1** | PASS (very high $M_{dyn}$/ $M_{b}$, consistent with SIDC) |
+| **Willman 1** | $1.0 \times 10^{4}$ | 4.0 km/s | 25 pc | $4.7 \times 10^{5}$ | **46.5** | PASS (DM is non-zero, consistent with SIDC) |
+| **Tucana II** | $2.3 \times 10^{3}$ | 4.5 km/s | 165 pc | $3.9 \times 10^{6}$ | **1689.6** | PASS (very high $M_{dyn}$/ $M_{b}$, consistent with SIDC) |
 
 **ALL 6 GALAXIES PASS THE QUALITATIVE TEST.** SIDC's picture
 is: DM is non-zero for any galaxy with non-trivial past SF.

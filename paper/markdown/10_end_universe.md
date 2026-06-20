@@ -124,7 +124,7 @@ The $\alpha$ = 1.29 prediction is the *single point* in this range. The rule is 
 
 **Other candidate exponents give wrong predictions at the SN point** (and are therefore excluded):
 
-| $\alpha$ | T_SN prediction (vs 33s actual) | 4D cosm. lifespan |
+| $\alpha$ | T_SN prediction (vs 33s actual) | 4D cosm. lifespan (yr) |
 |---|---|---|
 | 1.0 (linear) | 17 min (× 31 off) | $10^{19}$ yr |
 | 4/3 (Bondi) | 42 min (× 76 off) | $2 \times 10^{27}$ yr |
@@ -141,7 +141,7 @@ SIDC's end-of-universe picture in §10.4 is therefore **not robust to the choice
 
 SIDC's energy-scaling rule predicts a *specific* 2D universe *death* time for each 3D event. When a 2D universe ends (after $T_{2D}$), it should release a final gravitational wave burst at frequency f ~ 1/ $T_{2D}$. This is a *new* testable prediction, complementary to the existing 2D universe *birth* GW background.
 
-| Event | E (J) | 2D universe lifetime | GW death frequency |
+| Event | E (J) | 2D universe lifetime | GW death frequency (Hz) |
 |---|---|---|---|
 | Type Ia SN | $10^{44}$ | 33 s | 0.03 Hz |
 | Hypernova | $10^{46}$ | 3.5 hr | $8 \times 10^{-5}$ Hz |
@@ -240,7 +240,7 @@ SIDC predicts a stochastic GW background from 2D universe *death* events. Each 3
 
 For SIDC's $\alpha$ = 1.29 rule, the *death frequency* in our frame for each event class is:
 
-| Event | E (J) | Death frequency | LISA detectable? |
+| Event | E (J) | Death frequency (Hz) | LISA detectable? |
 |---|---|---|---|
 | Type Ia SN | $10^{44}$ | 0.03 Hz | **[PASS]** (in band) |
 | Core-collapse SN | $10^{45}$ | $1.6 \times 10^{-3}$ Hz | **[PASS]** (in band) |

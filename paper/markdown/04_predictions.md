@@ -239,9 +239,9 @@ This is now SIDC's best candidate RAR model: small $f_{active}$ (5%), isothermal
 
 | Object | r (kpc) | N_orbits | f_mix | $g_{\rm obs}$/ $g_{\rm bar}$ | Effective $g_+$ |
 | --- | --- | --- | --- | --- | --- |
-| Milky Way (2 $R_d$) | 8 | 130 | 1.00 | 6.4 | $2.7 \times 10^{-9}$ m/s² |
-| Dwarf (2 $R_d$) | 2 | 39 | 0.98 | 40 | $3.3 \times 10^{-10}$ m/s² |
-| Cluster (2 $R_d$) | 60 | 73 | 1.00 | 33 | $2.4 \times 10^{-8}$ m/s² |
+| Milky Way (2 $R_d$) | 8 kpc | 130 | 1.00 | 6.4 | $2.7 \times 10^{-9}$ m/s² |
+| Dwarf (2 $R_d$) | 2 kpc | 39 | 0.98 | 40 | $3.3 \times 10^{-10}$ m/s² |
+| Cluster (2 $R_d$) | 60 kpc | 73 | 1.00 | 33 | $2.4 \times 10^{-8}$ m/s² |
 
 *Honest assessment of the full dynamical-mixing model:*
 - The mixing-fraction formalism is correct: the cumulative return is *naturally* between fully clustered and fully uniform, with the mixing fraction depending on radius and halo mass.
