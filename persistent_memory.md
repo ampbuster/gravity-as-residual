@@ -1556,3 +1556,31 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 3. **The framework is more rigid than expected**: 4/9 params observationally pinned, 1/9 first-principles derived
 
 4. **The 2D universe's "discreteness" is structural**: it's a quantum of the 2D level, not a continuous distribution
+
+### v3.5.8 SESSION 3 BUILD_TOOLS PATTERNS 8-12 (2026-06-20) (2026-06-20)
+- User spotted additional broken patterns in README:
+  - L265: `$\Omega$DM≈0.27` (DM as text not subscript)
+  - L297: `$$$N_p = ...$` (triple dollar)
+  - L378/387/389/393: `$\Lambda$CDM` (CDM as text)
+  - L588-592: `$M_{dyn}/$M_b` (slash between math blocks)
+  - L736: `$10^{$10^{1} }$` (nested math)
+- Added 5 new patterns to fix_broken_markdown.py:
+  - Pattern 8: `$\Omega$DM` → `$\Omega_{\rm DM}$`
+  - Pattern 9: `$$$...$` → `$$...$$` (display math)
+  - Pattern 10: `$\Lambda$CDM` → `$\Lambda{\rm CDM}$`
+  - Pattern 11: `$X/$Y` → `$X/Y$` (slash between math, with chain handling)
+  - Pattern 12: `$X^{$Y^Z}$` → `$X^{Y^Z}$` (nested math in superscript)
+
+**Commits this session (v3.5.8 SESSION 3)**:
+- `d9e12aa`: build_tools: Add patterns 8-12 to fix_broken_markdown.py
+- `a71b72e`: v3.5.8 SESSION 3: Apply patterns 8-12 fixes across all files
+
+**Total fixes**: 621 substitutions across 21 files
+
+**KEY LESSONS**:
+1. **`_pycache__` issue**: Python imports cached old version. Always `rm -rf paper/build_tools/__pycache__` after modifying scripts.
+2. **Lambda backslash escaping**: In `re.subn` lambda, replacement strings use `\\sim` (Python source: 2 chars → 1 backslash in string → `\sim` in LaTeX). Easy to get wrong with extra escapes.
+3. **Pattern ordering matters**: Pattern 11 has chain case (`$X/$Y $Z$`) and simple case (`$X/$Y$`). Chain must run FIRST because simple would break the chain structure.
+4. **`[^$/]+` vs `[^$]+`**: Use `[^$/]+` for first capture in slash patterns to prevent greedy matching past `/`.
+5. **Nested math pattern**: `$X^{$Y^Z}$` requires 3 capture groups to handle the full nested structure.
+

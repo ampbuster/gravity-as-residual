@@ -1,173 +1,84 @@
-# Build Tools: Math Notation Cleanup Pipeline
+# Build Tools for Math Cleanup Pipeline
 
-This directory contains the post-processor tools that fix broken math
-notation in markdown files (paper, README, etc.).
+This directory contains scripts that clean up broken math notation patterns
+introduced by hand-editing or auto-conversion. Run them in order, with
+`fix_math_spacing.py` LAST (it's sensitive to $ placement).
 
-## Quick Start
+## Pipeline Order (CRITICAL)
 
-For a single file:
-```bash
-# Run the full cleanup pipeline on a file
-python3 paper/build_tools/cleanup_math.py path/to/file.md
+```
+# STRUCTURAL FIXES (run first - modify LaTeX structure)
+Step 1: wrap_math_vars.py         (wrap M_Pl, E_4D, v_Higgs, etc. in $...$)
+Step 2: wrap_powers_of_10.py      (convert 10^N to $10^{N}$)
+Step 3: e_to_math.py              (convert 1.5e10 to $1.5 \times 10^{10}$)
+Step 4: greek_to_latex.py         (convert α, β, γ to $\alpha$, $\beta$, $\gamma$)
+Step 5: fix_greek_subscripts.py   (fix $\tau$_obs → $\tau_{\rm obs}$ broken patterns)
+Step 6: fix_broken_markdown.py    (fix ** $math, ( $math, $M_{dyn}/$M_b, etc.)
+
+# ADJACENT MATH CLEANUP (run after structural fixes)
+Step 7: combine_adjacent_math.py  (combine "$X$ $Y$" into "$X Y$")
+
+# SPACING FIX (ALWAYS RUN LAST)
+Step 8: fix_math_spacing.py       (fix spacing inside math, sensitive to $ placement)
 ```
 
-For all markdown files in the repo:
+## Why order matters
+
+- `fix_math_spacing.py` is **sensitive to $ placement**. Run it LAST so
+  earlier fixes don't add new spacing issues inside newly-wrapped math.
+- `combine_adjacent_math.py` should run AFTER `fix_broken_markdown.py`
+  because the latter may merge adjacent math blocks differently.
+- `fix_greek_subscripts.py` runs AFTER `greek_to_latex.py` because the
+  latter wraps Greek in math but leaves subscript outside (creates
+  `$\tau$_obs` from `τ_obs`). This is a "broken-from-prior-fix" pattern.
+
+## fix_broken_markdown.py patterns (1-12)
+
+1. `** $math` → `**$math` (bold + space + math)
+2. `( $math` → `($math` (open paren + space + math)
+3. `[ $math` → `[$math` (open bracket, less common)
+4. `- $math` at start of line (preserve, clean space)
+5. `$X\times$ 10^{N}` → `$X\times 10^{N}$` (split math block)
+6. `**NUMBER × 10^N**` → `**$NUMBER \times 10^{-N}$**` (bold Unicode)
+7. `**10⁻N suffix**` → `**$10^{-N}$ suffix**` (bold Unicode 10^N + text)
+8. `$\Omega$DM` → `$\Omega_{\rm DM}$` (DM as subscript)
+9. `$$$...$` → `$$...$$` (triple dollar → display math)
+10. `$\Lambda$CDM` → `$\Lambda{\rm CDM}$` (CDM in roman)
+11. `$X/$Y` → `$X/Y$` (slash between adjacent math, with chain handling)
+12. `$X^{$Y^Z}$` → `$X^{Y^Z}$` (nested math in superscript)
+
+## Common Issues Table
+
+| Before | After |
+|--------|-------|
+| `** $\alpha$ = 1.258` | `**$\alpha$ = 1.258` |
+| `( $M_{\rm 2D}$ is...` | `($M_{\rm 2D}$ is...` |
+| `ratio ( $\tau$_pred...)` | `ratio ($\tau_{\rm pred}$...)` |
+| `$1.6\times$ 10⁻⁴⁵` | `$1.6\times 10^{-45}$` |
+| `$\Omega$DM ≈ 0.27` | `$\Omega_{\rm DM} \approx 0.27$` |
+| `$$$N_p = ...$` | `$$N_p = ...$$` |
+| `$\Lambda$CDM` | `$\Lambda{\rm CDM}$` |
+| `$M_{dyn}/$M_b` | `$M_{dyn}/M_b$` |
+| `$10^{$10^{1} }$` | `$10^{10^{1}}$` |
+
+## Usage
+
+Run the full pipeline:
 ```bash
-# Run from the repo root
 python3 paper/build_tools/cleanup_math.py
 ```
 
-## Order of Operations (CRITICAL)
-
-The tools **MUST** be run in the order below. The first set does
-"structural" fixes (wrapping, replacing); the last step does "cleanup"
-(spacing, combining) which depends on the structural fixes being done first.
-
-```
-Step 1: wrap_math_vars.py         # Wrap M_Pl, E_4D, v_Higgs, etc. in $...$
-Step 2: wrap_powers_of_10.py      # Convert 10^N to $10^{N}$
-Step 3: e_to_math.py              # Convert 1.5e10 to $1.5 \times 10^{10}$
-Step 4: greek_to_latex.py         # Convert α, β, γ to $\alpha$, $\beta$, $\gamma$
-Step 5: fix_greek_subscripts.py   # Fix $\tau$_obs → $\tau_{\rm obs}$ broken patterns
-Step 6: fix_broken_markdown.py    # Fix ** $math → **$math, ( $math → ($math
-
---- (run all cleanup tools in this order) ---
-
-Step 7: combine_adjacent_math.py  # Combine "$X$ $Y$" into "$X Y$"
-Step 8: fix_math_spacing.py       # RUN THIS LAST to fix spacing inside math
-```
-
-**Why this order matters:**
-- `fix_math_spacing.py` and `combine_adjacent_math.py` are sensitive to
-  the placement of `$` delimiters. Running them BEFORE the structural
-  fixes can result in over-aggressive combining of broken math.
-- `fix_math_spacing.py` should ALWAYS be the LAST step because earlier
-  fixes can introduce new spacing issues inside newly-wrapped math.
-
-## Individual Tools
-
-### Structural Fixes (run first)
-
-| Tool | Purpose |
-|---|---|
-| `wrap_math_vars.py` | Wrap physics variables (`M_Pl`, `E_4D`, `v_Higgs`, etc.) in `$...$` |
-| `wrap_powers_of_10.py` | Convert `10^N` text to `$10^{N}$` math |
-| `e_to_math.py` | Convert scientific notation (`1.5e10`) to math form |
-| `greek_to_latex.py` | Convert Unicode Greek letters (α, β, etc.) to LaTeX |
-| `fix_greek_subscripts.py` | Fix broken patterns like `$\tau$_obs` → `$\tau_{\rm obs}$` |
-| `fix_broken_markdown.py` | Fix `** $math` → `**$math`, `( $math` → `($math` |
-
-### Cleanup Fixes (run after)
-
-| Tool | Purpose |
-|---|---|
-| `combine_adjacent_math.py` | Combine adjacent math blocks: `$X$ $Y$` → `$X Y$` |
-| `fix_math_spacing.py` | **ALWAYS RUN LAST** - fix spacing inside math blocks |
-
-### Master Scripts
-
-| Tool | Purpose |
-|---|---|
-| `cleanup_math.py` | Master script that runs steps 1-4 (structural) in sequence |
-| `build_pdf.sh` | Full build pipeline including post-processors 5-6 (cleanup) |
-
-## Common Issues and Fixes
-
-### Issue: "M_Pl" appears as raw text (not math)
-
-**Before:** `M_Pl,2D = 3 TeV`
-**After:** `$M_{\rm Pl,2D} = 3$ TeV`
-
-**Fix:** Run `wrap_math_vars.py`
-
-### Issue: "$	au$_obs" — Greek in math but subscript outside
-
-This happens when `greek_to_latex.py` wraps a Greek letter but leaves
-its subscript outside the math delimiters. The result is broken math.
-
-**Before:** `$	au$_obs` (broken - `$	au$` in math, `_obs` outside)
-**After:** `$	au_{\rm obs}$` (correct)
-
-**Fix:** Run `fix_greek_subscripts.py` (runs after `greek_to_latex.py`)
-
-### Issue: Greek letters appear as Unicode (α, β, etc.) outside math
-
-**Before:** `α = 1.289`
-**After:** `$\alpha = 1.289$`
-
-**Fix:** Run `greek_to_latex.py`
-
-### Issue: Adjacent math blocks not combined
-
-**Before:** `$N_{\rm sub}$ = $E_{\rm 4D}/E_{\rm sub}$`
-**After:** `$N_{\rm sub} = E_{\rm 4D}/E_{\rm sub}$`
-
-**Fix:** Run `combine_adjacent_math.py`
-
-### Issue: Spaces inside math (e.g., `$\alpha$ = 1.289`)
-
-**Before:** `$\alpha$ = 1.289`
-**After:** `$\alpha = 1.289$`
-
-**Fix:** Run `fix_math_spacing.py` (LAST!)
-
-
-
-### Issue: "** $math" or "( $math" — markdown + space + math
-
-When math is inserted into bold or parentheses, a space between the
-markup and the math creates visual issues in rendered output.
-
-**Before:** `** $lpha$ = 1.258 test**` (broken - space inside bold)
-**After:** `**$lpha$ = 1.258 test**` (correct)
-
-**Before:** `( $M_{\rm 2D}$ is quantum)` (broken - space after paren)
-**After:** `($M_{\rm 2D}$ is quantum)` (correct)
-
-**Fix:** Run `fix_broken_markdown.py` (runs late in pipeline)
-## Why this matters
-
-The math notation fixes are needed because:
-- **GitHub** renders `$X$` as LaTeX math
-- **The paper** uses pandoc → xelatex, which needs proper `$X$` math
-- **Searchability** is better with consistent notation
-- **PDF generation** is more reliable when math is properly delimited
-
-## Running the Full Pipeline
-
-The build script `paper/build_pdf.sh` runs the FULL pipeline including
-the post-processors. To rebuild the paper after fixing math:
-
+Run individual scripts:
 ```bash
-bash paper/build_pdf.sh
+python3 paper/build_tools/fix_broken_markdown.py              # All files
+python3 paper/build_tools/fix_broken_markdown.py README.md    # Single file
 ```
 
-This runs:
-1. The structural fixers (via `cleanup_math.py`)
-2. pandoc to convert markdown to LaTeX
-3. The cleanup fixers (`fix_dashes.py`, `fix_sigma.py`)
-4. xelatex to compile the PDF
+## Cache Warning
 
-## Verification
-
-After running the pipeline, verify with:
-
+If you modify a script, clear Python's bytecode cache:
 ```bash
-# Math balance check (0 lines with odd $ count = good)
-python3 -c "
-with open('README.md') as f:
-    content = f.read()
-bad = 0
-for line in content.split('\n'):
-    if line.strip().startswith('\`\`\`'): continue
-    n = line.count('\$')
-    if n % 2 == 1:
-        print(f'Line broken: {line[:60]}')
-        bad += 1
-print(f'Lines with odd \$ count: {bad}')
-"
+rm -rf paper/build_tools/__pycache__
 ```
 
-## Last Updated
-
-v3.5.8 (June 20, 2026) - Initial README created
+Otherwise Python may load the OLD compiled version.
