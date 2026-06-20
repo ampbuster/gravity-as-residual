@@ -269,22 +269,22 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 **Step-by-step calculation**:
 
 1. **Cosmic SFH (Madau-Dickinson 2014)** integrated over z = 0 to 10:
-   $\rho_* = \int_0^{10} \frac{\text{SFR}(z)}{(1+z) H(z)} dz = 8.05 \times 10^8 \, M_\odot/\text{Mpc}^3$$
+   $$\rho_* = \int_0^{10} \frac{\text{SFR}(z)}{(1+z) H(z)} dz = 8.05 \times 10^8 \, M_\odot/\text{Mpc}^3$$
 
 2. **Total SNe**: 1 SN per $10^{0}$ M_⊙ (Salpeter IMF, M > 8):
-   $N_{\rm SN} = 8.05 \times 10^6 \text{ SNe/Mpc}^3$$
+   $$N_{\rm SN} = 8.05 \times 10^6 \text{ SNe/Mpc}^3$$
 
 3. **Per-SN 2D universe rest mass** ( $E_{\rm SN}$/c² = 5.59×10⁻⁴ M_⊙):
-   $M_{\rm 2D,actual} = E_{\rm SN}/c^2 = 5.59 \times 10^{-4} \, M_\odot$$
+   $$M_{\rm 2D,actual} = E_{\rm SN}/c^2 = 5.59 \times 10^{-4} \, M_\odot$$
 
 4. **Total SN-driven DM**:
-   $\rho_{\rm DM}({\rm SN\ driven}) = N_{\rm SN} \times M_{\rm 2D,actual} = 4.5 \times 10^3 \, M_\odot/\text{Mpc}^3$$
+   $$\rho_{\rm DM}({\rm SN\ driven}) = N_{\rm SN} \times M_{\rm 2D,actual} = 4.5 \times 10^3 \, M_\odot/\text{Mpc}^3$$
 
 5. **Compare to observed $\Omega$_DM**:
-   $\rho_{\rm DM}({\rm observed}) = 3.4 \times 10^{10} \, M_\odot/\text{Mpc}^3$$
+   $$\rho_{\rm DM}({\rm observed}) = 3.4 \times 10^{10} \, M_\odot/\text{Mpc}^3$$
 
 6. **Ratio**:
-   $\frac{\rho_{\rm DM}({\rm observed})}{\rho_{\rm DM}({\rm SN\ driven})} = 7.6 \times 10^6$$
+   $$\frac{\rho_{\rm DM}({\rm observed})}{\rho_{\rm DM}({\rm SN\ driven})} = 7.6 \times 10^6$$
 
 **Interpretation**: SN-driven 2D universe deaths give 7.6 million × too little DM.
 
@@ -294,7 +294,7 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 - $F_p$(0) = 0.9993 (calibrated), $F_p$(1 $10^{0}$) = 1.0
 
 **Primordial contribution**: 4D event mass = 6.0×10¹¹ M_⊙ (galaxy scale). To explain $\Omega$_DM:
-$$N_p = \frac{\rho_{\rm DM}({\rm observed})}{M_{\rm 4D}} = 0.057 \approx 6\%$$
+$$$N_p = \frac{\rho_{\rm DM}({\rm observed})}{M_{\rm 4D}} = 0.057 \approx 6\%$
 
 So we need ~6% of one 4D event's mass in primordial 2D universe deaths. Plausible if the 4D event creates N_p ~ 10¹² 2D universes of small mass each.
 
