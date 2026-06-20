@@ -5,7 +5,7 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.5.7 (paper) — 368 pages, 116 honest limitations
+**Current version:** v3.5.7+ (paper) — 376 pages, **118 honest limitations** (v3.5.7+ adds L308f, L308g)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)
@@ -15,6 +15,12 @@
 - v3.5.5: μ CANNOT be derived without $M_{\rm Pl,2D}$ input; Lagrangian consistency; Tier 3 #8/#9
 - v3.5.6: WEB SEARCH BREAKTHROUGH — μ has 5+ structural origins
 - **v3.5.7: HOLOGRAPHIC + AUDIT + NAMING UPDATE**:
+- **v3.5.7+: CONSISTENCY + DE MATCH + M_Pl ORIGINS**:
+  - Consistency sweep (paper/README/STATE/persistent_memory)
+  - DE match fix: 8.4% (v3.1.2 legacy) → 0.13% (simple f_DE formula)
+  - L308f, L308g, §7.4.6: M_Pl,2D & M_Pl,4D honest origins
+  - α-GM consistency: M_Pl,2D UNIQUELY fixed at 2.89 TeV by cascade
+  - Cone depth structure: 4D→3+1D = 12 sub-steps, ratio √12 between levels
   - **Holographic**: String minimal area gives μ = M_s² (L319)
   - **Universal "2π" factor**: Bekenstein (Longo 2024), RT, Casini all share it (L320)
   - **CONSISTENCY AUDIT**: framework internally consistent, 47 legacy limitations archived
@@ -31,7 +37,7 @@
 - v3.4.6: honest reframe of "12 propagates" as correlation, not derivation
 - v3.4.7: meta-analysis of why "12" is common in physics (arithmetic)
 - v3.4.8: universe age = 1.5×10⁻¹⁵ of lifetime implications + PDF rebuild
-**Last updated:** June 19, 2026
+**Last updated:** June 20, 2026 (added: L308f, L308g, §7.4.6 α-GM consistency, cone depth structure)
 
 ---
 
@@ -1219,7 +1225,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 **Final state**:
 - Paper PDF: 368 pages, 1.33 MB
-- Limitations: 118 (v3.5.7+, +L308f, +L308g)
+- Limitations: 119 (v3.5.7+, +L308f, +L308g, +L308h)
 - Naming: $f_{\rm DM,leak}$ / $f_{\rm DM,death}$ / $f_{\rm DE}$ (user-suggested)
 - Status: Internally consistent, μ structurally motivated
 

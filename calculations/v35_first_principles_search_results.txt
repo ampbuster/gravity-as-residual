@@ -1,0 +1,23 @@
+======================================================================
+FIRST-PRINCIPLES STATUS OF ALL 9 PARAMETERS
+======================================================================
+
+#   Parameter                 Value           Status                   
+----------------------------------------------------------------------
+1   M_Pl,3D                   1.22×10¹⁹ GeV   MEASURED ✓               
+2   M_Pl,2D                   3 TeV           FRAMEWORK CHOICE (consistent with α-GM)
+3   M_Pl,4D                   4×10²³ GeV      DERIVED via α-GM + closed loop
+4   α                         1.289           CALIBRATED to 8 events   
+5   ε                         10⁻³⁸           CALIBRATED to hierarchy  
+6   τ_4D                      1.51×10³⁴ yr    CALIBRATED to DE         
+7   γ_4D                      6.03×10⁹⁰       DERIVED from τ_4D/M_Pl,4D
+8   AGN rate                  3×10⁻¹⁶ /m³/s   CALIBRATED to DM         
+9   N_sub                     4×10²           FREE parameter (L144 OPEN)
+10  μ = M_Pl,2D²              9×10⁶ GeV²      STRUCTURAL (5 paths, L308a-e)
+
+VERDICT: 0/9 first-principles derivations found
+         1/9 measured
+         5/9 calibrated
+         2/9 derived via consistency
+         1/9 framework choice
+         1/9 free parameter
