@@ -8248,7 +8248,9 @@ The user's insight is that this asymmetry is GEOMETRIC, not arbitrary: each casc
 |---|---|---|---|
 | **2D → 3D** (2D universe physics) | S¹ (1-sphere, circle) | **2π** | Circumference of boundary circle |
 | **3D → 4D** (continuous leakage) | S² (2-sphere, sphere) | **4π** | Surface area of boundary sphere |
-| 4D → 5D (hypothetical) | S³ (3-sphere) | 4π or 2π² | Surface area or volume of 3-sphere |
+| 4D → 5D (hypothetical) | S³ (3-sphere) | **2π²** | Volume of 3-sphere (CORRECTED from earlier 4π) |
+| 5D → 6D (hypothetical) | S⁴ | **8π²/3** | Hypersurface of 4-sphere |
+| 6D → 7D (hypothetical) | S⁵ | **π³** | Surface of 5-sphere (CORRECTED) |
 
 ### Why 2π and 4π?
 
@@ -8354,12 +8356,13 @@ The framework's actual position (v3.3, v3.4):
 | 4D → 5D | S⁴ | 8π²/3 | 26.32 |
 | 5D → 6D | S⁵ | π³ | 31.01 |
 | 6D → 7D | S⁶ | 16π³/15 | 33.07 |
-| 7D → 8D | S⁷ | 32π³/105 | 9.45 |
-| 8D → 9D | S⁸ | π⁴/24 | 4.06 |
-| 9D → 10D | S⁹ | 64π⁴/945 | 6.60 |
-| 10D → 11D | S¹⁰ | 32π⁵/10395 | 0.94 |
+| 7D → 8D | S⁷ | π⁴/3 | 32.47 |
+| 8D → 9D | S⁸ | 32π⁴/105 | 29.69 |
+| 9D → 10D | S⁹ | π⁵/12 | 25.50 |
+| 10D → 11D | S¹⁰ | 64π⁵/945 | 20.73 |
+| 11D → 12D | S¹¹ | π⁶/60 | 16.02 |
 
-**Key observation**: Geometric factors OSCILLATE and SHRINK after N=6. The cone's 2π-4π-2π²-8π²/3 sequence reaches a peak at 6D→7D (factor 33.07) and then declines. By 10D→11D, factor is 0.94 (< 1!). This is consistent with the cone TERMINATING at 4D — it doesn't extend to 9D/10D/12D in the same way.
+**Key observation (CORRECTED)**: Geometric factors INCREASE to a peak at 6D→7D (factor 33.07), then DECREASE SMOOTHLY thereafter. The cone's 2π-4π-2π²-8π²/3-π³-16π³/15 sequence rises (2.0 → 6.3 → 12.6 → 19.7 → 26.3 → 31.0 → 33.1) and then declines (33.1 → 32.5 → 29.7 → 25.5 → 20.7 → 16.0). This SMOOTH behavior is consistent with the cone TERMINATING at 4D — geometric factors suggest natural cutoff. The "0.94 (<1)" value from earlier (buggy code) is CORRECTED to 20.73 (still > 1, but trending down). Plot saved at `calculations/plots/geometric_factor_progression.png`.
 
 ### Verdict: where do 9D/10D/12D live in the framework?
 
