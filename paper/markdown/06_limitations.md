@@ -2,7 +2,7 @@
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **121 honest limitations** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 4×10²³ GeV, brane-world), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr (M^α prediction); (2) frame of reference: M^α law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit (α = 1.258 fails 13/14 events).
+This is a thought experiment, not a theory. We identify **122 honest limitations** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 4×10²³ GeV, brane-world), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr (M^α prediction); (2) frame of reference: M^α law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit (α = 1.258 fails 13/14 events).
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -51,7 +51,7 @@ This is a thought experiment, not a theory. We identify **121 honest limitations
 
 **The honest summary:** SIDC is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 22 PARTIAL limitations are the most promising areas for future work. The 8 CLOSED limitations represent SIDC's "wins" — features that survive every iteration of the model. The 6 NEGATIVE limitations show SIDC's self-critical nature — broken hypotheses are explicitly rejected, not papered over (e.g., monodromy method for α, 3× 2D CFT attempts for α).
 
-**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **121 (v3.5.7+, +L308f, +L308g, +L308h, +L308i, +L308j user-caught)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic; L308f-L308g v3.5.7+ consistency catches on M_Pl,2D/M_Pl,4D origins).
+**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **122 (v3.5.7+, +L308f, +L308g, +L308h, +L308i, +L308j, +L308k user-caught)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic; L308f-L308g v3.5.7+ consistency catches on M_Pl,2D/M_Pl,4D origins).
 
 The full table follows:
 
@@ -694,6 +694,8 @@ The framework's 2π at 2D (Hawking-Page T_H) and 4π at 3D→4D (γ_4D) are now 
 
 L308j. **Cone extension to 9D/10D/12D is NOT APPLICABLE — cone terminates at 4D** (v3.5.7+, USER-DIRECTED). If the cascade cone were extended through 5D, 6D, ..., 12D, M_Pl would grow EXPONENTIALLY (e.g., M_Pl,9D ~ 10⁶⁸ GeV in Pattern A1 or 10¹⁰⁹⁸² GeV in Pattern A2 — both unphysical). The framework's actual position: 9D/10D/12D are NOT in the cone. They are F-theory 12D SUB-STRUCTURES of the 4D BULK (adopted v3.4). 9D = v_Higgs (DROPPED v3.3) was 246 GeV — sub-EW scale, INSIDE 3+1D, not a higher cone level. Status: FRAMEWORK USES F-THEORY 12D. Source: `calculations/v35_extending_to_9d_10d_12d.py`.
 
+L308k. **Cone's true geometric endpoint is 7D/8D, not 4D (USER-CORRECTED)** (v3.5.7+). The geometric factor peaks at n=6 (S^6 surface area = 33.07), corresponding to the 7D→8D transition. The cone exists in the rising portion of the bell curve (n=1 to 6). The framework's choice of 4D as endpoint was PRACTICAL (M_Pl,4D derived from α-GM, 4D bulk theory available) but NOT GEOMETRICALLY NECESSARY. Geometri cally, the cone could extend to 7D/8D where factors peak. M_Pl values for 5D/6D/7D (Pattern A1, period-2): M_Pl,5D ≈ 10²⁹ GeV, M_Pl,6D ≈ 10⁴⁴ GeV, M_Pl,7D ≈ 10⁴⁸ GeV — all REASONABLE (not the 10³⁸⁰⁰⁰ from Pattern A2). This is a real OPEN QUESTION: should the framework extend the cone to 7D/8D? Status: REVISED — geometric peak at 7D/8D, framework's choice of 4D is one interpretation. Source: user observation + recalc.
+
 ## 7.4.6 α-GM Consistency and Cone Depth Structure (v3.5.7+, USER-DISCOVERED)
 
 **Status update (v3.5.7+)**: The α-weighted GM and cone depth structure reveal that M_Pl,2D = 3 TeV has TWO real links to the cascade via α — not just numerology. The "12" emerges as the CASCADE FUNDAMENTAL UNIT.
@@ -942,15 +944,50 @@ The framework's transitions are ALL in the INCREASING regime:
 - 2D → 3D (n=1): factor 6.28
 - 3D → 4D (n=2): factor 12.57
 - 4D → 5D (n=3): factor 19.74 (still rising)
+- 5D → 6D (n=4): factor 26.32 (still rising)
+- 6D → 7D (n=5): factor 31.01 (still rising)
+- **7D → 8D (n=6): factor 33.07 ← PEAK!**
+- 8D → 9D (n=7): factor 32.47 (DECREASING)
 
-The cone exists in the rising portion of the bell curve. Past 4D, factors would peak at n=6 (factor 33.07) and then DECREASE. This is GEOMETRIC EVIDENCE that the cone naturally terminates at 4D:
+The cone exists in the rising portion of the bell curve. The geometric factor peaks at the 7D→8D transition (S⁶ surface area = 33.07). This is GEOMETRIC EVIDENCE that the cone could naturally extend to 7D or 8D, not just 4D.
 
-- The cone grows through the rising portion (n=1, 2, 3) toward the peak (n=6)
-- 4D is at n=3 (factor 19.7), still well below the peak
-- Past 4D (n=4, 5, 6, ...), factors would peak and decrease
-- The cone "runs out of geometric room" past 4D
+**REVISED INTERPRETATION (USER-CORRECTED, v3.5.7+):**
 
-This is why 9D/10D/12D are NOT in the cone — the geometric structure naturally ends at 4D. Beyond 4D, F-theory 12D takes over as the bulk theory.
+There are TWO possible endpoints:
+1. **Geometric endpoint**: 7D/8D (where factor peaks)
+2. **Framework's chosen endpoint**: 4D (practical, observational)
+
+The framework chose 4D as the endpoint for PRACTICAL reasons:
+- M_Pl,4D = 4×10²³ GeV derived from α-GM
+- 4D = bulk base, observable physics
+- 4D bulk theory (F-theory 12D) handles 4D structure
+- DROPPED 9D = v_Higgs in v3.3 (broke 4D floor)
+
+But geometrically, the cone COULD extend further:
+- M_Pl,5D ≈ 10²⁹ GeV (large but reasonable)
+- M_Pl,6D ≈ 10⁴⁴ GeV (large but reasonable)
+- M_Pl,7D ≈ 10⁴⁸ GeV (Pattern A1, period-2)
+- M_Pl,8D ≈ 10⁶⁴ GeV (Pattern A1)
+
+These are MUCH MORE REASONABLE than 10³⁸⁰⁰⁰ GeV (Pattern A2)!
+
+**Honest framing**:
+- The framework's 4D endpoint is a CHOICE, not a geometric necessity
+- Geometrically, the cone could extend to 7D (where factors peak)
+- 9D/10D/12D are still F-theory 12D sub-structures, NOT cone levels
+- The framework's choice of 4D was based on:
+  - M_Pl,4D derived from α-GM (consistent)
+  - 4D bulk theory available (F-theory 12D)
+  - Simplicity (3 levels is cleanest)
+  - DROPPED 9D = v_Higgs (consistency with 4D)
+
+If the cone were extended to 7D/8D (geometric endpoint), the framework would need:
+- M_Pl,5D, M_Pl,6D, M_Pl,7D derivations (not currently derived)
+- 5D, 6D, 7D bulk theories (currently F-theory 12D handles 4D only)
+- 5D, 6D, 7D event lifetimes and energetics
+- Re-evaluation of why 9D = v_Higgs was DROPPED
+
+This is a REAL OPEN QUESTION for the framework: is the cone's endpoint 4D (chosen) or 7D/8D (geometric peak)?
 
 ### Limitations updated
 
