@@ -2,7 +2,7 @@
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **127 honest limitations** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 4×10²³ GeV, brane-world), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr (M^α prediction); (2) frame of reference: M^α law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit (α = 1.258 fails 13/14 events).
+This is a thought experiment, not a theory. We identify **128 honest limitations** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 4×10²³ GeV, brane-world), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr (M^α prediction); (2) frame of reference: M^α law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit (α = 1.258 fails 13/14 events).
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -51,7 +51,7 @@ This is a thought experiment, not a theory. We identify **127 honest limitations
 
 **The honest summary:** SIDC is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 22 PARTIAL limitations are the most promising areas for future work. The 8 CLOSED limitations represent SIDC's "wins" — features that survive every iteration of the model. The 6 NEGATIVE limitations show SIDC's self-critical nature — broken hypotheses are explicitly rejected, not papered over (e.g., monodromy method for α, 3× 2D CFT attempts for α).
 
-**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **127 (v3.5.8, +L308f, +L308g, +L308h, +L308i, +L308j, +L308k, +L308l user-caught)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic; L308f-L308g v3.5.7+ consistency catches on M_Pl,2D/M_Pl,4D origins).
+**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **128 (v3.5.8, +L308f, +L308g, +L308h, +L308i, +L308j, +L308k, +L308l user-caught)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic; L308f-L308g v3.5.7+ consistency catches on M_Pl,2D/M_Pl,4D origins).
 
 The full table follows:
 
@@ -705,6 +705,8 @@ L308n. **α = 1 + 1/√12 EXACT first-principles match (NEW v3.5.8, BREAKTHROUGH
 L308o. **N_sub = E_4D/E_sub scales linearly (NEW v3.5.8, USER-INSIGHT)**. User suggested N_sub might depend on event size. Tested scalings: linear (N_sub = E_4D/E_sub) MATCHES framework with E_sub = 1.25×10⁷⁷ J. Other power laws (k=0.05 to 1.0) give off by factors 5 to 10³⁰. Surface area / volume scalings in 4D give off by 10⁶⁵. **N_sub is NOT a fundamental constant; it derives from E_4D via energy conservation** (E_4D = N_sub × E_sub). For our specific E_4D = 5×10⁷⁹ J, N_sub = 400. Different 4D events would give different N_sub (sub-galaxy: N=4, supercluster: N=400,000). Status: SEMI-DERIVED — N_sub is no longer "free parameter" but E_sub itself is framework choice. L308n first-principles progress: 2/9 (was 1/9). Source: `calculations/v35_n_sub_scaling.py`.
 
 L308p. **Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8, USER-INSIGHT)**. User asked if N_sub scaling applies at 2D level too. Tested: linear scaling N_2D_per_event = E_event/E_2D_ref at 2D gives SN creating 10⁶⁵ 2D universes per event, vastly overproducing DM (off by 10⁶⁵). Therefore the cone has DIFFERENT scaling rules at different levels: 4D → 3+1D is linear (universe-creating); 3+1D → 2D is one-to-one (universe-modifying). This asymmetry is CONSTRAINED by DM observation, not free. 4D level is "transcendent" (bulk), 3+1D level is "internal" (within universe). Each transition has its own scaling law, and 1:1 at 2D level is REQUIRED by DM abundance. Source: `calculations/v35_n_sub_scaling.py` (extended).
+
+L308q. **2D universe is discrete quantum (NEW v3.5.8, USER-INSIGHT)**. User asked why can't there be 2 half-mass universes per event. Tested: 2 × M_2D/2 universes give SAME total DM (if lifetime is from event energy) but violate geometric constraint M_2D = M_Pl,2D²/M_Pl,3D. Framework's M_2D is DERIVED from 5D AdS projection, not adjustable. 2D universe behaves as discrete 'particle' with fixed mass. Splitting would require different geometry, 2D CFT (multiple saddle points), and M_Pl,2D value (breaks α-GM by 9.4%). Within framework: M_2D is quantum, smallest unit of DM. Source: `calculations/v35_2d_universe_quantum.py`.
 
 ## 7.4.6 α-GM Consistency and Cone Depth Structure (v3.5.7+, USER-DISCOVERED)
 
@@ -1468,6 +1470,70 @@ The asymmetric scaling means:
 So the cone structure has TWO independent scaling laws, each constrained by observations.
 
 Source: `calculations/v35_n_sub_scaling.py` (extended).
+
+## 7.4.15 2D Universe is a Discrete Quantum (v3.5.8, USER-INSIGHT)
+
+**User question (2026-06-20)**: "why cant there be 2 2d universe at half size each, rather than 1 big one?"
+
+### Investigation
+
+Tested: 2 × M_2D/2 universes per event (vs framework's 1 × M_2D):
+
+| Scenario | Per universe mass | Lifetime | DM per event |
+|---|---|---|---|
+| A: 1 universe (FRAMEWORK) | M_2D = 7.4×10⁻¹³ GeV | τ_2D = (E/M_Pl,3D)^α × t_Pl | M_2D × τ_2D |
+| B: 2 half-mass universes | M_2D/2 = 3.7×10⁻¹³ GeV | same τ_2D | M_2D × τ_2D |
+
+**Same DM total!** But each universe has mass M_2D/2, NOT framework's M_2D.
+
+### Why Framework Chooses A (1 universe, fixed mass)
+
+**Reason 1: GEOMETRY (5D AdS projection)**:
+M_2D = M_Pl,2D²/M_Pl,3D is DERIVED from 5D AdS projection. Specific value, not adjustable.
+
+**Reason 2: 2D CFT STRUCTURE**:
+Schwarzian + Majorana has UNIQUE saddle-point per (E, J). Multiple saddle points would give multiple creation modes. Framework's CFT has one mode per event.
+
+**Reason 3: OBSERVATIONAL CALIBRATION**:
+- SN τ_2D = 33 s calibrates M^α law
+- AGN rate = 3×10⁻¹⁶ /m³/s gives 27% DM
+- DE density matches within 0.13%
+- All consistent with 1 universe per event of mass M_2D
+
+**Reason 4: HOLOGRAPHY**:
+2D universe has fixed entropy S_2D ~ 4π G_2D M_2D. Mass determines entropy; can't split without changing S.
+
+### Consistency Check: Could M_2D/2 come from modified M_Pl,2D?
+
+For 2D universe mass = M_2D/2:
+- Need M_Pl,2D = √(M_Pl,3D × M_2D/2) = 2.12 TeV (not framework's 3 TeV)
+- α-GM with M_Pl,2D = 2.12 TeV gives M_Pl,4D = 4.4×10²³ GeV
+- Framework needs M_Pl,4D = 4×10²³ GeV
+- **Ratio: 1.094 — breaks α-GM consistency!**
+
+Cannot have BOTH M_2D = M_2D/2 AND framework's M_Pl,4D = 4×10²³ GeV.
+
+### Conclusion: 2D Universe is a Discrete Quantum
+
+The 2D universe has:
+- **FIXED mass** M_2D = 7.4×10⁻¹³ GeV (from 5D AdS geometry)
+- **Variable lifetime** (M^α law from event energy)
+- **Unique creation mode** per event (1 universe per event)
+
+It behaves like a 'particle' with:
+- Inherent mass quantum (not adjustable)
+- Energy-dependent lifetime (not mass-dependent)
+- Single creation mode (no splitting)
+
+**L308q (NEW v3.5.8, USER-INSIGHT)**: 2D universe is discrete quantum. Tested: 2 × M_2D/2 universes give SAME total DM but violate geometric constraint. Framework's M_2D is DERIVED from 5D AdS projection, not adjustable. Splitting would require different geometry, 2D CFT (multiple saddle points), and M_Pl,2D value (breaks α-GM). Within framework: M_2D is quantum. Source: `calculations/v35_2d_universe_quantum.py`.
+
+### Implication
+
+The 2D universe's mass quantum M_2D is the SMALLEST unit of DM. You can't split it. Each energetic event creates EXACTLY ONE such quantum, with lifetime set by event energy.
+
+This is analogous to a particle in QFT: has fixed mass quantum, but can have variable lifetime (via different creation modes).
+
+Source: `calculations/v35_2d_universe_quantum.py`.
 
 ## 7.5 v3.5 NEW ANGLE Limitations: μ first-principles (11 attempts)
 
