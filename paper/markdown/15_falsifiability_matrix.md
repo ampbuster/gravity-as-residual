@@ -15,13 +15,13 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### DESI DR3 (2026-2027): dark energy equation of state $w_0, w_a$
 
-**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.$5\sigma$ tension with $\Lambda{\rm CDM}$)
+**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently $3.5\sigma$ tension with $\Lambda{\rm CDM}$)
 
 **Falsification threshold:**
 - If $w_0 = -1$ confirmed at > $5\sigma$: SIDC's standard Lagrangian (constant $f_{back}$) is right
 - If $w_0 = -0.83$ confirmed at > $5\sigma$: SIDC's standard Lagrangian falsified; needs running $f_{back}(z)$ (adds 1 free parameter)
 
-**Status:** PENDING. Currently 3.$5\sigma$, not yet falsification or validation.
+**Status:** PENDING. Currently $3.5\sigma$, not yet falsification or validation.
 
 #### LSST Y1 (2027): 47 Tuc DM content
 

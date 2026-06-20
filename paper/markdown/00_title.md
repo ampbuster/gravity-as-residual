@@ -13,7 +13,7 @@
 **Limitations:** 128 honest (was 116 in v3.5.7, +12 user-driven L308f-L308q)
 
 **v3.5.8 BREAKTHROUGHS** (this release):
-- **MCMC parameter search** (L308m): 4/9 params observationally pinned ($\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate converge within 0.$5\sigma$)
+- **MCMC parameter search** (L308m): 4/9 params observationally pinned ($\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate converge within $0.5\sigma$)
 - **$\alpha$ = 1 + 1/√12 FIRST-PRINCIPLES** (L308n, BREAKTHROUGH): 0.025% match with framework
 - **L43 (Lagrangian skeleton → $\alpha$)**: **OPEN → PARTIAL**
 - **"12" is the cascade fundamental unit** (deepest insight):

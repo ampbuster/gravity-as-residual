@@ -447,7 +447,7 @@ But the empirical 33 s lifetime gives $f_{\rm active} \sim 10^{-17}$, NOT 0.05. 
 
 **HISTORICAL (Mechanism M era):** SIDC's Mechanism M era claimed $H_0 = 73$ as a borrowed value from SH0ES. This was a postdiction, not a derivation, and was removed in v2.5 commit 281.
 
-**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is 0.$2\sigma$ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
+**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is $0.2\sigma$ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
 
 A 2D CFT calculation is needed to derive the specific active boost and cumulative drag from first principles. SIDC's contribution is the *qualitative* framework ($H_0 = 70$ ± 3), not a specific number.
 
@@ -663,12 +663,12 @@ This gives $S_8$(SIDC) ~ 0.775-0.815, which is:
 
 | Model | $S_8$ | $\Delta$ from DES | $\Delta$ from Planck |
 |-------|-----|-----------|---------------|
-| Planck $\Lambda{\rm CDM}$ | 0.832 | +2.$92\sigma$ | 0.$00\sigma$ |
-| DES Y3 (observed) | 0.759 | 0.$00\sigma$ | -5.$62\sigma$ |
-| KiDS-1000 (observed) | 0.759 | 0.$00\sigma$ | -5.$62\sigma$ |
-| SIDC ($\sigma_8 = 0.75$) | 0.775 | +0.$62\sigma$ | -4.$42\sigma$ |
-| SIDC ($\sigma_8$=0.77) | 0.795 | +1.$45\sigma$ | -2.$83\sigma$ |
-| SIDC ($\sigma_8$=0.79) | 0.816 | +2.$28\sigma$ | -1.$24\sigma$ |
+| Planck $\Lambda{\rm CDM}$ | 0.832 | +$2.92\sigma$ | $0.00\sigma$ |
+| DES Y3 (observed) | 0.759 | $0.00\sigma$ | -$5.62\sigma$ |
+| KiDS-1000 (observed) | 0.759 | $0.00\sigma$ | -$5.62\sigma$ |
+| SIDC ($\sigma_8 = 0.75$) | 0.775 | +$0.62\sigma$ | -$4.42\sigma$ |
+| SIDC ($\sigma_8$=0.77) | 0.795 | +$1.45\sigma$ | -$2.83\sigma$ |
+| SIDC ($\sigma_8$=0.79) | 0.816 | +$2.28\sigma$ | -$1.24\sigma$ |
 
 **SIDC's predicted $S_8$ is closer to observations than $\Lambda{\rm CDM}$.** Specifically, if $\sigma_8$(SIDC) ~ 0.75, SIDC's $S_8 = 0.775$ is within $1\sigma$ of DES/KiDS. This is a POSITIVE result for SIDC.
 

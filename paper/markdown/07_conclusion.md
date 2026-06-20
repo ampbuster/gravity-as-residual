@@ -138,7 +138,7 @@ Continued web research in June 2026 yields five more external constraints from t
 25. **ACT DR6 CMB lensing** (Farren, Krolewski, Qu et al. 2024, arXiv:2409.02109). The ACT DR6 CMB lensing power spectrum, combined with Planck PR4 and unWISE galaxies, gives $S_8 = 0.840 \pm 0.014$ — *slightly higher* than the Planck CMB-only value ($S_8 = 0.832 \pm 0.013$), and *significantly higher* than weak-lensing values ($S_8 = 0.769 \pm 0.030$ from HSC Y3, $S_8 = 0.759 \pm 0.025$ from DES Y3). The $S_8$ tension persists at $2$– $3\sigma$ in 2025 data. SIDC's interpretation: a MOND-like g₊ floor at $g \sim 10^{-10}$ m/s $^2$ suppresses small-scale structure formation in the late universe, giving a *qualitative* match to the $S_8$ suppression. SIDC does *not* predict the specific $S_8$ value (Limitation 28 OPEN).
 
 These five additional constraints from 2025 datasets do not reduce SIDC's 2 free parameters ($\mu$, $m_{3+1D}$) further, but they:
-- 21: Strengthen the qualitative DE interpretation (3.$5\sigma$ evolving DE, quintessence-like)
+- 21: Strengthen the qualitative DE interpretation ($3.5\sigma$ evolving DE, quintessence-like)
 - 22: Confirm SIDC is heavy (CDV-like, not WDM)
 - 23: Confirm SIDC 2D universes are not PBHs (different physics)
 - 24: Trivially consistent (SIDC has no SM coupling)

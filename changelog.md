@@ -1172,7 +1172,7 @@ multiple cascade parameters that were previously calibrated.
    - The 1/(2α) is the EXACT power for event-independence
 
 5. **L58 NEW**: $f_{\rm back}$ scaling law. $f_{\rm back}$(event) = $8.6 \times 10^{-86}$ ×
-   (E/E_{\rm SN}$)^(α-1/(2α)). The 1/(2α) is the exact power.
+   $(E/E_{\rm SN})^{\alpha - 1/(2\alpha)}$. The 1/(2α) is the exact power.
 
 6. **Why this works**:
    - Formula has τ_event and $E_{\rm event}$, related by energy-scaling rule
