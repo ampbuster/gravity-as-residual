@@ -25,7 +25,7 @@ The brute force formula $\mu$ = E/\tau$ gives:
 The user's intuition: small event → small 2D universe → small $M_{\rm Pl,2D}$
 
 Reality with brute force formula:
-- Small event → SHORT lifetime ($\tau_{\rm 2D}$ ∝ E^$\alpha$) → high $\mu$ → high $M_{\rm Pl,2D}$
+- Small event → SHORT lifetime ($\tau_{\rm 2D}$ ∝ $E^{\alpha}$) → high $\mu$ → high $M_{\rm Pl,2D}$
 - Big event → LONG lifetime → low $\mu$ → low $M_{\rm Pl,2D}$
 
 So **$M_{\rm Pl,2D}$ is inversely correlated with event energy.**
@@ -77,7 +77,7 @@ So even though $M_{\rm Pl,2D}$ is "inverted", DM contribution isn't:
 3. **Maybe $\mu$ should NOT depend on E/\tau$**:
    - The brute force formula gives weird predictions
    - A different formula might be more natural
-   - e.g., $\mu$ = K × E^$\alpha$ (energy-based, more intuitive)
+   - e.g., $\mu$ = K × $E^{\alpha}$ (energy-based, more intuitive)
 
 ## Alternative Formulas Tested
 
@@ -87,7 +87,7 @@ We tested several alternatives:
 |---|---|---|---|---|
 | **v3.3 (universal $\mu$)** | 9×10⁶ | 9×10⁶ | 9×10⁶ | None |
 | **v3.3.6 (E/\tau$)** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
-| **Energy-based (E^$\alpha$)** | 9×10⁶ | 4.2×10⁻³⁷ | 1.3×10⁻²⁹ | Opposite (also weird) |
+| **Energy-based ($E^{\alpha}$)** | 9×10⁶ | 4.2×10⁻³⁷ | 1.3×10⁻²⁹ | Opposite (also weird) |
 | **Capped ($\mu$ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
 
 The energy-based formula gives OPPOSITE weirdness (TNT very small $\mu$, quasar very large).

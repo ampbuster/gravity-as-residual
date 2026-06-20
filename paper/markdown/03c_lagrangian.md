@@ -300,7 +300,7 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ($\gamma$ ~ 10⁵⁶), which 
 
 **Why $f_{\rm DE}$ = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D**:
 
-- 3+1D universe CURRENT AGE: 13.8 Gyr (observed); predicted total LIFETIME: ~10³⁰ yr (M^$\alpha$); very young (1.4×10⁻²⁰ of life so far)
+- 3+1D universe CURRENT AGE: 13.8 Gyr (observed); predicted total LIFETIME: ~10³⁰ yr ($M^{\alpha}$); very young (1.4×10⁻²⁰ of life so far)
 - 4D event apparent duration (3+1D frame): 10³⁴ yr ($\gamma$ ~ 10⁶²)
 - $f_{\rm DE}$ = $t_{\rm Pl}$/$\tau_{\rm 4D}$ = 1.2×10⁻⁸⁵ ✓
 - DE matches observation (within 14%)
@@ -446,7 +446,7 @@ See `calculations/v31_F_p_consistency.py` and `calculations/v31_F_p_result.md` f
 
 **Setup (Scenario X, REVISED v3.3)**: 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV, calibrated to DE) creates N_sub 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so N_sub is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to 4×10²³ GeV via $\alpha$-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
 
-If we apply M^$\alpha$ law to a sub-universe of mass $E_{\rm sub}$ (in 3+1D's own frame):
+If we apply $M^{\alpha}$ law to a sub-universe of mass $E_{\rm sub}$ (in 3+1D's own frame):
 
 $$\tau_{\rm sub} = \left(\frac{E_{\rm sub}}{E_{\rm Pl,4D}}\right)^\alpha \times t_{\rm Pl}$$
 
@@ -495,14 +495,14 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 - The universe is in early life (less than ~10⁻⁵ of any plausible lifetime)
 
 **Frame of Reference (v3.1.2, KEY CLARIFICATION)**:
-- The M^$\alpha$ law gives **apparent durations in the lower-D frame**, not proper times in the higher-D frame
+- The $M^{\alpha}$ law gives **apparent durations in the lower-D frame**, not proper times in the higher-D frame
 - 2D lifetime (33 s) is in the 3+1D frame
 - 3+1D sub-universe lifetime (UNKNOWN) is in the 3+1D's own frame
 - 4D event apparent duration (1.4×10³⁴ yr) is in the 3+1D frame, time-dilated from 4D proper time via $\gamma$ ~ 10⁶²
 - 4D event proper duration: T_4D_proper = $\tau_{\rm 4D}$ / $\gamma$ ~ 10⁻²⁰ s
 - 3+1D universe's current age (13.8 Gyr) is in the 3+1D's own frame
 
-**The 4$\pi$ geometric factor (preserved from v3.1.2)**: The 4$\pi$ factor at 3D→4D continuous leakage is empirically verified (~1.7% match to DE). It is specific to the 3D→4D boundary, not universal. The 14-event M^$\alpha$ fit at 2D level requires $\alpha$ = 1.289 (NOT 1.258 with 4$\pi$ hidden). See §3.71 for the cleanest unification.
+**The 4$\pi$ geometric factor (preserved from v3.1.2)**: The 4$\pi$ factor at 3D→4D continuous leakage is empirically verified (~1.7% match to DE). It is specific to the 3D→4D boundary, not universal. The 14-event $M^{\alpha}$ fit at 2D level requires $\alpha$ = 1.289 (NOT 1.258 with 4$\pi$ hidden). See §3.71 for the cleanest unification.
 
 **Three independent $M_{\rm Pl}$ at three levels (Scenario X)**:
 
@@ -519,7 +519,7 @@ The asymmetry is justified by their different physical roles: 2D brane-world, 3+
 - L144: N_sub and the universe's total LIFETIME are UNKNOWN (free parameters) — OPEN
 - L149: 4$\pi$ asymmetry between 3D→4D and other transitions — RESOLVED (specific to 3D→4D)
 
-**Legacy content (removed from this section, archived to `paper/legacy/`)**: Earlier drafts had a "DUAL FRAMING" presenting $\alpha$ = 1.258 (with 4$\pi$ hidden) as an alternative to $\alpha$ = 1.289. This was REMOVED because $\alpha$ = 1.258 fails the 14-event M^$\alpha$ fit (281% deviation for solar flares, 52% for AGN, etc.). Only $\alpha$ = 1.289 survives. See `paper/legacy/v31_60_4_old.md` for the historical draft.
+**Legacy content (removed from this section, archived to `paper/legacy/`)**: Earlier drafts had a "DUAL FRAMING" presenting $\alpha$ = 1.258 (with 4$\pi$ hidden) as an alternative to $\alpha$ = 1.289. This was REMOVED because $\alpha$ = 1.258 fails the 14-event $M^{\alpha}$ fit (281% deviation for solar flares, 52% for AGN, etc.). Only $\alpha$ = 1.289 survives. See `paper/legacy/v31_60_4_old.md` for the historical draft.
 
 **Files**: `calculations/v31_multi_universe_alpha.py` (multi-universe calculation, kept for reference), `calculations/v31_scenario_X.py` (Scenario X verification, current adopted)
 
@@ -812,7 +812,7 @@ Within the same dimension, all universes are EQUAL — they have the same intern
 
 This is analogous to atoms: same physics, different states. The 14 SIDC events are 14 instances of the SAME 2D universe at 14 different energies. The N_sub 3+1D sub-universes (per §3.60.4) are N_sub instances of the SAME 3+1D universe at N_sub different energies.
 
-**Implication**: The M^$\alpha$ law and closed-loop formula are UNIVERSAL at each level (not 14 different laws, ONE law applied 14 times). This is what gives the framework its predictive power: one Lagrangian per level, not N different ones.
+**Implication**: The $M^{\alpha}$ law and closed-loop formula are UNIVERSAL at each level (not 14 different laws, ONE law applied 14 times). This is what gives the framework its predictive power: one Lagrangian per level, not N different ones.
 
 **Net: +3 pages, +2 limitations (L89-90)**
 - Total: 330 pages (was 328)

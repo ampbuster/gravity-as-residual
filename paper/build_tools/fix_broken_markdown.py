@@ -115,6 +115,15 @@ def fix_broken_markdown(content):
     changes += n
     content = new_content
 
+    # Pattern 13: X^$Y$ → $X^{Y}$ (sup symbol before math)
+    new_content, n = re.subn(
+        r'(\w)\^\$([^$]+)\$',
+        lambda m: f'${m.group(1)}^{{{m.group(2)}}}$',
+        content
+    )
+    changes += n
+    content = new_content
+
     return content, changes
 
 
