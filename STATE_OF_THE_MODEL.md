@@ -1,23 +1,23 @@
-# State of the Model: v3.3 (with v3.3.15 README updates)
+# State of the Model: v3.5.7+ (with v3.5.7 audit + v3.5.7+ post-processing)
 
-**As of June 19, 2026**
+**As of June 20, 2026**
 
 ## Overview
 
 **Paper**: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
 **Subtitle**: SIDC = Scale-Invariant Dimensional Cascade
-**Version**: v3.3 (with 15 sub-versions v3.3.1 through v3.3.15)
-**Pages**: 353
-**Limitations**: 81 base + ~80 new in v3.3.x = ~160 total
+**Version**: v3.5.7+ (with sub-versions v3.3, v3.4, v3.5, v3.5.1-v3.5.7, v3.5.7+)
+**Pages**: 370
+**Limitations**: 116 (v3.5.7 master table, was 81 in v3.3)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
-**Total commits**: 766
-**v3.3.x commits in this session**: 11
+**Total commits**: 813+ (as of June 20, 2026)
+**v3.5.7+ recent commits**: ~30 in v3.5 era (math wrapping, adjacent math, lint checks, naming revolution, audit, DE match fix)
 
 ## The Model in 1 Paragraph
 
 Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple f_DE formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 3 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 4 calibrated (α, ε, τ_4D, AGN rate), 1 calibrated-and-structurally-motivated (μ), and 1 free (N_sub) = 9 parameters. The M^α law τ = (E/$M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
-## The 9 Parameters (v3.3)
+## The 9 Parameters (v3.5.7+, current)
 
 | # | Parameter | Value | Status | Source |
 |---|---|---|---|---|
@@ -53,14 +53,12 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - 27% DM (calibrated AGN)
 - 68% DE (4D anti-gravity)
 
-## What v3.3.x Established (this session)
+## What v3.3.x Established (June 2026, current bilateral cascade)
 
 | Version | Finding |
 |---|---|
-| v3.3 | c=1 matrix model gives Z(μ), NOT μ |
-| v3.3.1 | FZZT provides consistency, not derivation |
-| v3.3.2 | Brute force: SN matches by construction |
-| v3.3.3 | Universal fit μ = 9.57×10⁸ (100× off SN) |
+| v3.3 | Bilateral cascade: M_Pl,4D = 4×10²³ GeV via α-weighted GM (DERIVED), E_4D = 5×10⁷⁹ J (universe-scale), τ_3D_apparent = 9.10×10¹²⁴ yr |
+| v3.3.1-3 | FZZT, matrix model provide consistency, not derivation |
 | v3.3.4 | 10 first-principles principles tested, all fail |
 | v3.3.5 | Pattern: μ × τ/E = K (event-dependent) |
 | v3.3.6 | User hypothesis: 2D universes event-dependent |
@@ -69,10 +67,45 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 | v3.3.9 | Brute force with time dilation: μ ∝ E (intuitive) |
 | v3.3.10 | 17 alternative methods to derive μ: all fail |
 | v3.3.11 | Calibrate to method predictions: all break framework |
-| v3.3.12 | 9D = $v_{\rm Higgs}$ is legacy, μ is independent of cascade |
+| v3.3.12 | 9D = $v_{\rm Higgs}$ is DROPPED, μ is independent of cascade |
 | v3.3.13 | Option 1 deep dive: universal μ in 5 points |
 | v3.3.14 | **DM is NOT a particle** (user catch) |
 | v3.3.15 | **47 Tuc test is SIDC vs ΛCDM** (not "particle DM") |
+
+## What v3.4 Established (F-theory 12D as 4D bulk)
+
+| Version | Finding |
+|---|---|
+| v3.4 | **F-theory 12D** adopted as 4D bulk (Vafa 1996, 10 base + 2 T² fiber) |
+| v3.4.5 | 8 inconsistencies found in "12 propagates" hypothesis via web research |
+| v3.4.6 | **Honest reframe**: "12 propagates" is CORRELATION not derivation (8 catches) |
+| v3.4.7 | Meta-analysis: why "12" is common (12 = 2²×3 highly composite number) |
+| v3.4.8 | Universe age = 1.5×10⁻¹⁵ of lifetime → SIDC is INITIAL-CONDITIONS framework |
+
+## What v3.5 Established (TIER 2 + μ structural origins)
+
+| Version | Finding |
+|---|---|
+| v3.5 | **TIER 2 research**: CY3 Z_12 (2-3 of ~28), α first-principles, μ F-theory |
+| v3.5.1 | "1/2" has 3+ anchors (Schwarzian, DOZZ, Ising) |
+| v3.5.2-3 | 45 alternative formulas for μ, 12 exact matches (all algebraically equivalent) |
+| v3.5.4 | 10 candidates for why T_H = T_Pl,2D — TOP 3: Planckian max, Euclidean periodicity, Hagedorn |
+| v3.5.5 | μ CANNOT be derived without M_Pl,2D input; Lagrangian consistency |
+| v3.5.6 | **WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins (unimodular gravity, Hagedorn T_H, JT U(Φ)=2Φ, string thermal duality, Hawking-Page/Euclidean) |
+| v3.5.7 | **HOLOGRAPHIC** (string minimal area, μ = M_s²). **AUDIT** (framework internally consistent, 47 legacy limitations archived). **NAMING REVOLUTION** (f_back → f_DM,leak / f_DM,death / f_DE, 408 replacements across 77 files) |
+
+## What v3.5.7+ Established (post-processing + DE match fix)
+
+| Work | Finding |
+|---|---|
+| Math wrapping | `wrap_math_vars.py` state machine: 1020 substitutions across paper, supporting/, root files |
+| Adjacent math | `combine_adjacent_math.py`: combines `$X$  $Y$` → `$X Y$`. 171 changes across 15 files |
+| Math spacing | `fix_math_spacing.py` 2-pass: 567 changes across 17 files (conservative v1 was only 105) |
+| LaTeX bug fixes | 28 broken `$$...$` patterns, 4 stray `$` markers producing ugly output |
+| Pre-build lint | `pymarkdownlnt` + math-balance awk check in `build_pdf.sh` |
+| **DE match fix** | **8.4% → 0.13%** (v3.3 simple f_DE formula, near-exact). User caught: "AGN should match DE exact" |
+| Consistency sweep | Title/README/STATE/persistent_memory brought to v3.5.7+ consistent |
+| Legacy organization | 7 files in `paper/legacy/`, comprehensive README |
 
 ## What's CONFIRMED (data, not framework)
 
@@ -120,43 +153,73 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✗ 4π geometric factor (was v3.1.2, removed v3.3)
 - ✗ α = 1.258 (falsified, 13/14 events fail)
 
-## Open Limitations (~160 total)
+## Open Limitations (116 total in v3.5.7 master table)
+
+**Status breakdown** (v3.5.7+):
+- 79 OPEN (need theoretical/observational work)
+- 22 PARTIAL (some progress)
+- 8 CLOSED (resolved by construction or v3.x updates, including L41, L42, L117)
+- 2 RESOLVED (L142b via 14-event M^1.29 fit; L149 via empirical rejection of α=1.258)
+- 6 NEGATIVE (honest failed attempts)
+- 7 SPECULATIVE (L121-L127 v3.0.22, 5D-9D extensions, **UNCERTAIN in v3.3**)
 
 **High-priority open**:
-- L26: μ from 2D CFT expert needed
-- L43: α not derivable from 2D CFT alone
-- L100 v3.3.15: 15 user-driven corrections
-- L138: $M_{\rm Pl,4D}$ mechanism (α-weighted GM hypothesis)
-- L144: N_sub is free
-- L189-L195: μ first-principles attempts (all fail)
+- L26: μ from 2D CFT expert needed (now structurally motivated via 5+ origins, v3.5.6)
+- L43: α not derivable from 2D CFT alone (saddle-point structural match only)
+- L100 v3.5.7+: 30+ user-driven corrections across versions
+- L138: $M_{\rm Pl,4D}$ mechanism (α-weighted GM hypothesis, #32)
+- L144: N_sub is free (4D-bulk dynamics unknown)
+- L189-L195: μ first-principles attempts (all fail, 17+ methods)
 - L196-L203: alternative method predictions (all break framework)
 - L204-L210: Option 1 vs Option 2 (both calibrated)
 - L211-L215: DM is not a particle (gap in framework)
 - L216-L219: 47 Tuc test framing corrections
+- **L261-L297 (v3.4)**: F-theory 12D + "12" honest reframe (8 catches)
+- **L298-L322 (v3.5)**: Tier-2 research + μ structural origins + holographic
+- **L323-L327 (v3.5.7+)**: Build infrastructure (post-processing, lint checks)
 
-## Files in v3.3
+## Files in v3.5.7+
 
 **Paper**:
-- `paper/paper.pdf` (353 pages, 1.28 MB)
+- `paper/paper.pdf` (370 pages, 1.34 MB, v3.5.7+)
 - `paper/markdown/00_title.md` through `15_falsifiability_matrix.md`
-- `paper/markdown/03e_first_principles_c1_matrix_model.md` (NEW v3.3 section)
+- `paper/markdown/03e_first_principles_c1_matrix_model.md` (NEW v3.3)
 - `paper/markdown/03f_dm_is_not_a_particle.md` (NEW v3.3.14)
+- `paper/markdown/03g_f_theory_12d_4d_bulk.md` (NEW v3.4)
+- `paper/markdown/AUDIT_REPORT_v357.md` (NEW v3.5.7)
 
-**Calculations** (33 v3.3 files):
-- Brute force, FZZT, alternative methods, c=1 matrix model
-- Time-dilated brute force, event-dependent 2D universes
-- Option A consequences, TNT weirdness analysis
-- Option 1 universal exploration
-- Calibrate to predictions (no $v_{\rm Higgs}$)
-- DM is not a particle
-- Similarity question
+**Legacy content** (`paper/legacy/`):
+- `legacy_paper.md` (full v3.0.x single-file, ~600 pages equivalent)
+- `v31_60_4_old.md` (v3.1.2 §3.60.4 with E_4D = 10⁶⁹ J Scenario A)
+- `v33_9d_speculation.md` (9D = v_Higgs, SUPERSEDED)
+- `v33_development_history.md` (v3.3.x dev history)
+- `v357_audit_housekeeping.md` (47 archived limitations)
+- `v357_f_back_clarification.md` (naming revolution)
+- `v357_legacy_parameters.md` (legacy parameter disposition)
+- `v357_v356_final_summary.md` (v3.5.6 final summary)
+- `README.md` (comprehensive legacy index)
 
-**README.md** (v3.3.15):
-- 47 Tuc test clarified: SIDC vs ΛCDM (not "particle DM")
-- Internal "smoking gun" inconsistencies fixed
-- 9D = $v_{\rm Higgs}$ references cleaned
-- 4π references removed
-- DE match clarified (0.13% off simple f_DE, NOT 8.4% nor 0.24% — those were v3.1.2 miscalculation)
+**Calculations** (~80 files total):
+- v3.3: 33 files (brute force, FZZT, alternative methods, c=1 matrix model, etc.)
+- v3.4: 6 files (F-theory 12D, "12" pattern analysis)
+- v3.5: 8 files (CY3 Z_12, μ F-theory, holographic angles)
+- v3.5.7: 3 files (audit, naming)
+- Plus 30+ constraint calculations, SPARC analysis, etc.
+- Legacy: 5 v3.1.1-v3.1.2 superseded scripts in `calculations/legacy/`
+
+**Build infrastructure** (`paper/build_tools/`):
+- `wrap_math_vars.py` (1020 substitutions)
+- `combine_adjacent_math.py` (171 changes)
+- `fix_math_spacing.py` 2-pass (567 changes)
+- `use_linewidth.py`, `fix_dashes.py`, `fix_sigma.py`, `wrap_dimexpr.py` (table fixes)
+- `build_pdf.sh` (orchestrator with pymarkdownlnt + math-balance pre-checks)
+
+**README.md** (v3.5.7+):
+- v3.5.7 CURRENT VERSION banner, 9 parameters
+- DE match: **0.13%** (simple f_DE formula, v3.3) — corrected from v3.1.2's 8.4%
+- μ structurally motivated (5+ origins, v3.5.6 BREAKTHROUGH)
+- F-theory 12D as 4D bulk (v3.4)
+- 47 Tuc test: SIDC vs ΛCDM (not "particle DM")
 
 ## Status of Key Questions
 
@@ -189,9 +252,11 @@ A: Form of DM (not specified). μ first-principles derivation (17 methods tried,
 
 **Both calibrated to SN. Both legitimate.** v3.3 keeps Option 1.
 
-## Recent User Catches (this session)
+## Recent User Catches (v3.3 through v3.5.7+)
 
-The user has caught many issues in v3.3:
+The user has caught many issues across versions:
+
+**v3.3 era** (15 corrections):
 1. TNT weirdness in Option A (v3.3.8)
 2. Time dilation not in brute force (v3.3.9)
 3. 9D = $v_{\rm Higgs}$ is legacy (v3.3.12)
@@ -199,14 +264,28 @@ The user has caught many issues in v3.3:
 5. DM is not a particle (v3.3.14)
 6. 47 Tuc test framing (v3.3.15)
 
+**v3.4 era** (8 catches):
+7. "12 SM fermions/gen" was WRONG (15-16 Weyl, 7-8 Dirac per gen)
+8. DOF conservation at 24 was framework's interpretation (DROPPED)
+9. h^{2,1}=N → N generations REFUTED (arXiv:0910.5464)
+10. "12 propagates" is correlation, not derivation
+
+**v3.5 era** (5+ catches):
+11. f_back overloaded — user suggested new naming (f_DM,leak / f_DM,death / f_DE)
+12. μ is consistent with unimodular gravity (5+ structural origins)
+
+**v3.5.7+ era** (5 catches):
+13. DE match 8.4% was WRONG (v3.1.2 value) — should be 0.13% (simple f_DE)
+14. Prettier breaks LaTeX math (don't use)
+15. Multiple inconsistencies between title/README/STATE/persistent_memory (consistency sweep)
+
 Each catch has been acknowledged and addressed. The framework is now more honest about its assumptions and limitations.
 
 ## Next Steps
 
-1. **Update paper to v3.4** with explicit universality assumption (Option 1)
-2. **Add §11 on DM form** (3 possibilities, gap acknowledged)
-3. **Add §12 on 47 Tuc test** (decisive test, not smoking gun)
-4. **List observational tests** in §13
-5. **Wait for DR1 (2027)** for 47 Tuc data
-6. **Continue investigating** first-principles μ derivation
-7. **Maintain honesty** about calibrated vs derived parameters
+1. **Maintain v3.5.7+ consistency** (consistency sweep done; STATE now matches paper/README/persistent_memory)
+2. **Wait for DR1 (2027)** for 47 Tuc data (decisive SIDC vs ΛCDM test)
+3. **Continue investigating** first-principles μ derivation (17+ methods tried, all fail; v3.5.6 found 5+ structural origins)
+4. **Document build infrastructure** (math wrapping, spacing, lint checks) — done in §7.8
+5. **Maintain honesty** about calibrated vs derived parameters
+6. **Open work**: L26 (μ from 2D CFT expert), L43 (α derivation), L100 (user-driven corrections), L138 (M_Pl,4D mechanism), L144 (N_sub free)
