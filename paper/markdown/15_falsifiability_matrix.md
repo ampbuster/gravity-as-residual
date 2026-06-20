@@ -15,7 +15,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### DESI DR3 (2026-2027): dark energy equation of state $w_0, w_a$
 
-**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5$\sigma$ tension with $\Lambda$CDM)
+**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5$\sigma$ tension with $\Lambda{\rm CDM}$)
 
 **Falsification threshold:**
 - If $w_0 = -1$ confirmed at > 5$\sigma$: SIDC's standard Lagrangian (constant $f_{back}$) is right
@@ -33,7 +33,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### eROSITA + SPHEREx + GW231123 + GW230529: ongoing multi-messenger
 
-**SIDC prediction:** Consistent with $\Lambda$CDM at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with SIDC.
+**SIDC prediction:** Consistent with $\Lambda{\rm CDM}$ at the level of these specific observations (no specific tension). The 2025-2026 catalog of 45 external constraints is consistent with SIDC.
 
 **Status:** VALIDATED. All 2024-2026 observations are consistent with SIDC's qualitative framework.
 

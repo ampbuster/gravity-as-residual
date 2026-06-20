@@ -1172,7 +1172,7 @@ multiple cascade parameters that were previously calibrated.
    - The 1/(2α) is the EXACT power for event-independence
 
 5. **L58 NEW**: $f_{\rm back}$ scaling law. $f_{\rm back}$(event) = 8.6e-86 ×
-   (E/$E_{\rm SN}$)^(α-1/(2α)). The 1/(2α) is the exact power.
+   (E/E_{\rm SN}$)^(α-1/(2α)). The 1/(2α) is the exact power.
 
 6. **Why this works**:
    - Formula has τ_event and $E_{\rm event}$, related by energy-scaling rule
@@ -3556,7 +3556,7 @@ Where:
 
 $$g_+ = k \int_{t_{form}}^{t_0} \dot{n}(t) \cdot E_{event} \cdot \frac{\tau_{2D}}{L_{2D}} \, dt$$
 
-This is the cascade's first-principles formula for $g_+$, which is essentially Gemini's scaling relation: $g_+$ ∝ ∫ ρ_events/$M_b$ dt.
+This is the cascade's first-principles formula for $g_+$, which is essentially Gemini's scaling relation: $g_+$ ∝ ∫ ρ_events/M_b$ dt.
 
 **CLUSTER $g_+$ ENHANCEMENT (Tian+ 2024) NOW EXPLAINED as a natural consequence.** A BCG sits at the bottom of a cluster's potential well and sees not just its own stellar history but the entire cluster's ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure). Cluster event rate ~ 100× BCG's own, cluster events ~ 10× more energetic, ~ 10× larger. Net enhancement ~ 100×, in the right ballpark for Tian+ 2024's 10-17×.
 
@@ -4718,7 +4718,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
    - Linear at 2D would overproduce DM by 10⁶⁵
 
 5. **2D UNIVERSE IS DISCRETE QUANTUM** (USER-INSIGHT):
-   - Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/$M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
+   - Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
    - Variable lifetime (M^α law from event energy)
    - 1 universe per event (no splitting)
    - Analogous to a particle: mass quantum + variable lifetime + single creation mode

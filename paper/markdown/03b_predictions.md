@@ -293,7 +293,7 @@ masquerade as DM (recent 2025 work).
 **3.30.3 JWST massive quiescent galaxies at z > 4 — the highest past SF test.**
 
 Recent JWST discoveries have found massive quiescent galaxies at
-z > 4, which is unexpected in $\Lambda$CDM:
+z > 4, which is unexpected in $\Lambda{\rm CDM}$:
 
 - **RUBIES-EGS-QG-1** (z = 4.9, 2024 Nature): a massive quiescent
   galaxy, already dead at z = 4.9
@@ -646,7 +646,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 **3. Tidal Dwarf Galaxies (TDGs, Gentile+ 2007)** — **DISPUTED**
 - "3 rotating TDGs DO show significant evidence for being dark
   matter dominated" (Gentile+ 2007, A&A 472, L25)
-- INCONSISTENT with $\Lambda$CDM (TDGs form from tidal debris)
+- INCONSISTENT with $\Lambda{\rm CDM}$ (TDGs form from tidal debris)
 - 2025 paper argues non-equilibrium dynamics, not DM
 - Unresolved for 20 years
 - Not in the comparison table because their DM content is disputed
@@ -715,11 +715,11 @@ Where:
 | Fakhry-QG-z11 | 11.0 | 10.5 | 0.9996 | 4.99 |
 
 **Honest finding**: SIDC predicts $M_{dyn}$/ $M_{b} \sim 3$-5, similar
-to $\Lambda$CDM. SIDC **CANNOT distinguish itself from $\Lambda$CDM** on
+to $\Lambda{\rm CDM}$. SIDC **CANNOT distinguish itself from $\Lambda{\rm CDM}$** on
 these galaxies alone — both predict $M_{dyn} \sim 5 \times M_{b}$ at z>3.
 
-**What WOULD distinguish SIDC from $\Lambda$CDM**: precise measurement of
-$M_{dyn}$/ $M_{b}$ EVOLUTION with z. $\Lambda$CDM predicts $M_{dyn}$/ $M_{b}$ ~ constant (~5×)
+**What WOULD distinguish SIDC from $\Lambda{\rm CDM}$**: precise measurement of
+$M_{dyn}$/ $M_{b}$ EVOLUTION with z. $\Lambda{\rm CDM}$ predicts $M_{dyn}$/ $M_{b}$ ~ constant (~5×)
 at all z. SIDC predicts $M_{dyn}$/ $M_{b}$ ∝ $F_p(z)$, with stronger
 primordial component at higher z. The predicted difference is
 small (~1.5-2× across z=3-11), but testable with future ELT (2030+)
@@ -740,7 +740,7 @@ See `calculations/v27_jwst_quiescent_mdyn.py` for full calculations.
 
 **Motivation**: DESI DR1 (2024) found hints of evolving dark energy:
 $w_0$ = -0.45 ± 0.21, $w_a =$-1.79 ± 0.55 (Park+ 2024). This is
-inconsistent with $\Lambda$CDM at ~3$\sigma$. SIDC's w(z) prediction is
+inconsistent with $\Lambda{\rm CDM}$ at ~3$\sigma$. SIDC's w(z) prediction is
 a direct testable prediction.
 
 **SIDC's DE model**: SIDC's DE comes from 4D gravity
@@ -756,18 +756,18 @@ w(z) = -1.000 (constant) for all z.
 
 | Model | $w_0$ | $w_a$ |
 |-------|-----|-----|
-| $\Lambda$CDM | -1.000 ± 0.020 | 0.000 ± 0.10 |
+| $\Lambda{\rm CDM}$ | -1.000 ± 0.020 | 0.000 ± 0.10 |
 | DESI DR1 + CMB + SNe (Park+ 2024) | -0.45 ± 0.21 | -1.79 ± 0.55 |
 | **SIDC** | **-1.000 ± 0.005** | **0.000 ± 0.005** |
 
 **Three possible DESI DR3 outcomes (forecast $\sigma$: $w_0$ ± 0.05, $w_a$ ± 0.15):**
 
-1. **$w_0$ ≈ -1.0, $w_a$ ≈ 0**: $\Lambda$CDM confirmed. SIDC **CONSISTENT** on DE.
+1. **$w_0$ ≈ -1.0, $w_a$ ≈ 0**: $\Lambda{\rm CDM}$ confirmed. SIDC **CONSISTENT** on DE.
 2. **$w_0$ > -1.0, $w_a < 0$**: Evolving DE confirmed. SIDC **INCONSISTENT** — would need major revision.
 3. **$w_0$ < -1.0, $w_a > 0$**: Phantom DE. SIDC **INCONSISTENT** — more exotic.
 
 **Honest finding**: SIDC's w(z) prediction is INDISTINGUISHABLE
-from $\Lambda$CDM on DE. SIDC's differentiator is **DM evolution $F_p(z)$**,
+from $\Lambda{\rm CDM}$ on DE. SIDC's differentiator is **DM evolution $F_p(z)$**,
 not DE evolution. DESI DR3 (2026-27) is a key test.
 
 **Caveats**:
@@ -901,8 +901,8 @@ yield **mixed honest findings**:
 - DM evolution $F_p(z)$: SIDC predicts (1+z)^3 × $F_p(z)$ DM density
   at high z, matching Planck 2018. Testable with future data.
 
-**Negative for SIDC (indistinguishable from $\Lambda$CDM or undetectable)**:
-- w(z) = -1 (same as $\Lambda$CDM). NOT a differentiator on DE.
+**Negative for SIDC (indistinguishable from $\Lambda{\rm CDM}$ or undetectable)**:
+- w(z) = -1 (same as $\Lambda{\rm CDM}$). NOT a differentiator on DE.
 - 2D universe death GW: 80-100 orders of magnitude below PTA detection.
   UNDETECTABLE in practice.
 - PPN $\gamma$ = 1 to $10^{-73}$ (same as GR). NOT testable at Solar System scales.
@@ -920,7 +920,7 @@ yield **mixed honest findings**:
 **Conclusion**: SIDC is a useful qualitative framework for
 understanding DM and DE as dimensional projection effects, but most
 of its specific quantitative predictions are either indistinguishable
-from $\Lambda$CDM or below detection threshold. SIDC's strongest
+from $\Lambda{\rm CDM}$ or below detection threshold. SIDC's strongest
 evidence is the qualitative pattern across galaxy zoo (36/36 tests pass)
 and the testable $F_p(z)$ DM evolution.
 
@@ -961,7 +961,7 @@ and the testable $F_p(z)$ DM evolution.
   derivation that SIDC doesn't have
 
 **Implication for SIDC**:
-- The $5 \times M_{b}$ baseline is from $\Lambda$CDM-like primordial halo
+- The $5 \times M_{b}$ baseline is from $\Lambda{\rm CDM}$-like primordial halo
 - SIDC's "DM = past SF" should give MORE $M_{dyn}$ for galaxies
   with more past SF, but $F_s$ is too small to account for the observed
   excess (see v2.7.50 inconsistency analysis)

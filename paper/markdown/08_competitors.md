@@ -2,17 +2,17 @@
 
 ## 9. SIDC vs its Competitors: A Detailed Comparison
 
-Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" to existing models depends entirely on the evaluation metric. If the metric is *mathematical and operational completion*, standard cosmology ($\Lambda$CDM) remains the reigning framework, with 30 years of formal calculations, coordinate-invariant field theory, and fluid-dynamics simulation pipelines. If the metric is *parsimony and empirical coverage* — explaining the maximum number of distinct cosmic anomalies with the fewest arbitrary assumptions — SIDC presents a profoundly elegant, architecturally superior alternative. This section walks through the literal "engineering tradeoffs" of SIDC versus each major paradigm.
+Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" to existing models depends entirely on the evaluation metric. If the metric is *mathematical and operational completion*, standard cosmology ($\Lambda{\rm CDM}$) remains the reigning framework, with 30 years of formal calculations, coordinate-invariant field theory, and fluid-dynamics simulation pipelines. If the metric is *parsimony and empirical coverage* — explaining the maximum number of distinct cosmic anomalies with the fewest arbitrary assumptions — SIDC presents a profoundly elegant, architecturally superior alternative. This section walks through the literal "engineering tradeoffs" of SIDC versus each major paradigm.
 
-### 9.1 SIDC vs Standard Cosmology ($\Lambda$CDM)
+### 9.1 SIDC vs Standard Cosmology ($\Lambda{\rm CDM}$)
 
-**$\Lambda$CDM's burden.**$\Lambda$CDM requires accepting an increasingly messy and bloated "codebase" to explain new telescope data. It assumes (1) an undiscovered physical particle (WIMPs, axions, or sterile neutrinos) for dark matter, (2) a fine-tuned cosmological constant ($\Lambda$) for dark energy, and (3) a highly complex web of adjustable "baryonic feedback" parameters to reconcile simulations with observations. The small-scale failures are the most visible: because $\Lambda$CDM assumes dark matter is made of physical, collisionless particles, gravity inherently clumps at small scales, producing the cusp-core problem, the missing satellites problem, too-big-to-fail, and lensing flux ratio anomalies.
+**$\Lambda{\rm CDM}$'s burden.**$\Lambda{\rm CDM}$ requires accepting an increasingly messy and bloated "codebase" to explain new telescope data. It assumes (1) an undiscovered physical particle (WIMPs, axions, or sterile neutrinos) for dark matter, (2) a fine-tuned cosmological constant ($\Lambda$) for dark energy, and (3) a highly complex web of adjustable "baryonic feedback" parameters to reconcile simulations with observations. The small-scale failures are the most visible: because $\Lambda{\rm CDM}$ assumes dark matter is made of physical, collisionless particles, gravity inherently clumps at small scales, producing the cusp-core problem, the missing satellites problem, too-big-to-fail, and lensing flux ratio anomalies.
 
-**SIDC's structural advantage.** In the SIDC framework, dark matter is a smooth, localized metric back-projection resulting from the $S_{destruction}$ action parameter. Because it is not a physical particle, clumpy sub-halos do not exist *by construction*. By replacing physical particles with a geometric projection, those four historic small-scale crises collapse simultaneously. SIDC achieves massive parsimony where $\Lambda$CDM requires endless parametric fine-tuning.
+**SIDC's structural advantage.** In the SIDC framework, dark matter is a smooth, localized metric back-projection resulting from the $S_{destruction}$ action parameter. Because it is not a physical particle, clumpy sub-halos do not exist *by construction*. By replacing physical particles with a geometric projection, those four historic small-scale crises collapse simultaneously. SIDC achieves massive parsimony where $\Lambda{\rm CDM}$ requires endless parametric fine-tuning.
 
 **Quantitative comparison:**
 
-| Small-scale test | $\Lambda$CDM | SIDC |
+| Small-scale test | $\Lambda{\rm CDM}$ | SIDC |
 |------------------|--------------|------|
 | Cusp-core | Needs ad-hoc feedback | Naturally isothermal |
 | Missing satellites | Discrepancy with N-body | No sub-halos to be missing |
@@ -78,7 +78,7 @@ The distinction is *when* the energetic events happened, not just how much mass 
 
 SIDC is conceptually superior in its parsimony, its handling of small-scale galactic anomalies, its natural scaling from galaxies to clusters, and its radical intellectual honesty. It unifies dark matter, dark energy, and the hierarchy problem under a single, elegant geometric process rather than treating them as separate, disconnected problems.
 
-However, it is not yet superior in its mathematical maturity. $\Lambda$CDM has a 30-year head start on formal calculations, coordinate-invariant general-relativistic tensors, and fluid-dynamics simulation pipelines.
+However, it is not yet superior in its mathematical maturity. $\Lambda{\rm CDM}$ has a 30-year head start on formal calculations, coordinate-invariant general-relativistic tensors, and fluid-dynamics simulation pipelines.
 
 **Honest assessment of where SIDC wins and loses:**
 
@@ -88,9 +88,9 @@ However, it is not yet superior in its mathematical maturity. $\Lambda$CDM has a
 | Small-scale crisis | SIDC | 4 problems collapse to 0 by construction |
 | Cluster g₊ scaling | SIDC | Phase-transition + MOND EFE |
 | Historical DM differences | SIDC | Stellar Age Lifecycle ledger |
-| Mathematical maturity | $\Lambda$CDM | 30 years of formal work |
-| Coordinate-invariant GR | $\Lambda$CDM | SIDC has action skeleton only |
-| Simulation pipeline | $\Lambda$CDM | SIDC needs new infrastructure |
+| Mathematical maturity | $\Lambda{\rm CDM}$ | 30 years of formal work |
+| Coordinate-invariant GR | $\Lambda{\rm CDM}$ | SIDC has action skeleton only |
+| Simulation pipeline | $\Lambda{\rm CDM}$ | SIDC needs new infrastructure |
 
 **Bottom line.** SIDC is a beautifully architected *software design pattern* for the universe — it proves that the data structures fit real-world observations flawlessly across 17 distinct test categories. The open task now isn't to find more data; it is to write the underlying mathematical field equations to turn this elegant architecture into an unassailable, fully compiled physical theory.
 

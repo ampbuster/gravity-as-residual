@@ -61,11 +61,11 @@ The model in this paper is one of several recent proposals that attempt to unify
 
 **Caveats and limits.** The SIDC-MOND hybrid is *consistent* with the RAR and the cluster enhancement, but has not yet been checked against the CMB power spectrum, galaxy cluster dark matter content, or the Bullet Cluster in detail. A specific implementation of the SIDC-MOND hybrid would need to address these tests. SIDC's $V_{\rm local}$ formula is *qualitatively* correct (predicts the cluster enhancement direction and order of magnitude) but the *exact* coefficients depend on the 2D brane dynamics (Limitation 26).
 
-**$\Lambda$CDM with baryonic feedback [Kravtsov24] and others.** Standard $\Lambda$CDM-based galaxy formation models, with proper treatment of baryonic feedback, can reproduce the RAR and the dark matter content of ultra-diffuse galaxies including DF2 and DF4. This means that the *individual* observational anomalies our model addresses can also be explained by *conventional* physics with carefully-tuned baryonic feedback. The model's *unique* contribution is the *geometric unification* of dark matter, dark energy, and gravity — not the explanation of any individual observation. A specific implementation of the model would need to demonstrate that the geometric unification *predicts* the baryonic feedback parameters independently, rather than just fitting them.
+**$\Lambda{\rm CDM}$ with baryonic feedback [Kravtsov24] and others.** Standard $\Lambda{\rm CDM}$-based galaxy formation models, with proper treatment of baryonic feedback, can reproduce the RAR and the dark matter content of ultra-diffuse galaxies including DF2 and DF4. This means that the *individual* observational anomalies our model addresses can also be explained by *conventional* physics with carefully-tuned baryonic feedback. The model's *unique* contribution is the *geometric unification* of dark matter, dark energy, and gravity — not the explanation of any individual observation. A specific implementation of the model would need to demonstrate that the geometric unification *predicts* the baryonic feedback parameters independently, rather than just fitting them.
 
 **Other 2024-2025 work.** Recent related proposals include various geometric approaches to dark energy (e.g., volume-conservation-based derivations of the cosmological constant) and various holographic/AdS/CFT-based explanations of dark energy and dark matter. Our model shares with these proposals the *general spirit* of geometric explanations but differs in the specific dimensional-inversion mechanism. We do not attempt a comprehensive comparison here.
 
-**The competitive landscape.** The current theoretical landscape for dark matter/dark energy unification is *active but competitive*. The most successful framework is still standard $\Lambda$CDM with baryonic feedback; modified-gravity proposals have individual successes but face collective challenges; geometric/extra-dimensional proposals (Verlinde, Dark Dimension, this model) are interesting but not yet established. Our model contributes to the geometric-proposal class with a specific dimensional-inversion mechanism and testable predictions (DF2/DF4 correlation with stellar density, the RAR scatter-activity correlation, no direct detection). Whether the model is *correct* is a question for the community; whether the model is *interesting* is a matter of taste.
+**The competitive landscape.** The current theoretical landscape for dark matter/dark energy unification is *active but competitive*. The most successful framework is still standard $\Lambda{\rm CDM}$ with baryonic feedback; modified-gravity proposals have individual successes but face collective challenges; geometric/extra-dimensional proposals (Verlinde, Dark Dimension, this model) are interesting but not yet established. Our model contributes to the geometric-proposal class with a specific dimensional-inversion mechanism and testable predictions (DF2/DF4 correlation with stellar density, the RAR scatter-activity correlation, no direct detection). Whether the model is *correct* is a question for the community; whether the model is *interesting* is a matter of taste.
 
 **Other 2025-2026 archive submissions.** A survey of the open-access archives (ai.viXra.org, rxiVerse.org, and viXra.org) reveals several recent papers exploring conceptually similar ideas, including: a "Paired Universe Theory" proposing a companion universe whose resistance to stretching generates gravity and dark matter (James Francis Godwin, ai.viXra:2606.0008); various "dark matter as Weyl curvature" proposals; and "universe creation in higher dimensions" frameworks. These are not direct precursors to the present model (the specific dimensional-SIDC-with-sign-flipping mechanism appears to be original), but they illustrate that the *general spirit* of geometric dark-sector explanations is being explored in multiple directions. We welcome the community to point out any prior work we have missed.
 
@@ -516,9 +516,9 @@ SIDC's current mechanism: the 2D universe has an *intrinsic* 2D-frame mass $M_{2
 $$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$$
 
 To get the required $3.7 \times 10^{-5} M_\odot$ per universe:
-$$e^{-ky} = 3.7 \times $10^{-5}$ / 6 = 6.2 \times $10^{-6}$$$
+$$e^{-ky} = 3.7 \times $10^{-5}$ / 6 = 6.2 \times $10^{-6}$$
 
-**Discrepancy with SIDC's stated value:** SIDC has previously stated $e^{-ky} \sim 10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is $6.2 \times 10^{-6}$, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
+**Discrepancy with SIDC's stated value:** SIDC has previously stated $$e^{-ky} \sim 10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is $6.2 \times 10^{-6}$, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
 
 **Honest assessment:** the 67x per-event amplification is a *postulated* mechanism, not a derivation. The 2D universe's intrinsic mass and the time compression factor are free parameters (effectively absorbed into SIDC's calibration).
 
@@ -550,7 +550,7 @@ DE-driven cosmic expansion affects the *rate* of structure formation and energet
 - Without DE: matter-dominated universe, more structure, more SNe/AGN
 - With DE: DE-dominated in recent epochs, less structure formation
 
-The effect is $\sim 30\%$ modulation of event rates over Hubble time (standard $\Lambda$CDM prediction). This changes the cumulative event count by $\sim 30\%$.
+The effect is $\sim 30\%$ modulation of event rates over Hubble time (standard $\Lambda{\rm CDM}$ prediction). This changes the cumulative event count by $\sim 30\%$.
 
 **DE as arena provides $\sim 1.3\times$ modulation.** Modest, not the dominant mechanism.
 
@@ -582,7 +582,7 @@ This is a large but not unreasonable 2D-frame volume (comparable to a stellar-sc
 |--------|--------------|--------|
 | Time accumulation (SNe over 13.8 Gyr) | 0.08x (cumulative) | DERIVED (cumulative SNe count) |
 | Multiple event types (SNe + AGN + BNS) | 0.10x (slightly more) | DERIVED (event rate estimates) |
-| DE as arena (structure formation history) | ~1.3x modulation | DERIVED ($\Lambda$CDM) |
+| DE as arena (structure formation history) | ~1.3x modulation | DERIVED ($\Lambda{\rm CDM}$) |
 | Per-event amplification (2D universe mass / SN energy) | ~54-67x | **POSTULATED** (free parameter) |
 | DE as energy source (vacuum energy at 2D universe birth) | Plausible | **NOT IN CURRENT SIDC** |
 

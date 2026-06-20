@@ -5,11 +5,11 @@ This test uses published cluster baryon fraction measurements to check SIDC's pr
 
 *SIDC prediction:* Cluster $M_{dyn}$ includes cumulative return from ALL past activity. Baryon fraction f_b = ($M_\star$ + M_gas) / $M_{dyn}$ should be ~0.15-0.17 (matches cosmic Planck value).
 
-*Standard $\Lambda$CDM prediction:* Same, f_b ~ 0.15-0.17 (cosmic baryon fraction). Cluster $M_{dyn}$ from NFW halo.
+*Standard $\Lambda{\rm CDM}$ prediction:* Same, f_b ~ 0.15-0.17 (cosmic baryon fraction). Cluster $M_{dyn}$ from NFW halo.
 
 *Published data:* Arnaud+ 2010 (REXCESS): 0.140 ± 0.014. Sun+ 2012: 0.150 ± 0.004. Planck 2013: 0.155 ± 0.009. Mantz+ 2014: 0.146 ± 0.007. Laganato+ 2019 (SPT): 0.156 ± 0.013. Mean: 0.149 ± 0.011. Planck cosmic f_b: 0.156 ± 0.003. Discrepancy: 0.007 (within errors).
 
-*Verdict.* CONSISTENT with SIDC (f_b ~ 0.15). Both SIDC and $\Lambda$CDM predict this. The cluster f_b matches cosmic f_b to within errors. The "missing baryons" problem in clusters is a known issue but doesn't break the test.
+*Verdict.* CONSISTENT with SIDC (f_b ~ 0.15). Both SIDC and $\Lambda{\rm CDM}$ predict this. The cluster f_b matches cosmic f_b to within errors. The "missing baryons" problem in clusters is a known issue but doesn't break the test.
 
 *Caveats.* (a) Cluster f_b has ~10% measurement uncertainty. (b) "Missing baryons" (infalling baryons) is a known problem. (c) SIDC's prediction is structural, not specific. (d) This is a CLASSIC cosmology test, not specific to SIDC.
 
@@ -21,11 +21,11 @@ The Baryonic Tully-Fisher Relation (BTFR) is a tight scaling relation: $M_{\rm b
 
 *SIDC prediction:* $M_{\rm baryon}$ ~ V^4 (from cumulative 2D universe gravity: 1/r force in 2D → flat rotation curves → $M_{\rm baryon}$ ~ V^4).
 
-*Standard $\Lambda$CDM prediction:* $M_{\rm baryon}$ ~ V^4 (abundance matching).
+*Standard $\Lambda{\rm CDM}$ prediction:* $M_{\rm baryon}$ ~ V^4 (abundance matching).
 
 *Empirical:* $M_{\rm baryon}$ ~ V^3.5-4.0 (McGaugh 2012, McGaugh & Lelli 2016).
 
-*Verdict.* CONSISTENT with both SIDC and $\Lambda$CDM (NOT discriminative). Both predict $M_{\rm baryon}$ ~ V^4 with similar slopes. SIDC's 1/r derivation matches the empirical slope. This is similar to the RAR in being consistent but not discriminative.
+*Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$ (NOT discriminative). Both predict $M_{\rm baryon}$ ~ V^4 with similar slopes. SIDC's 1/r derivation matches the empirical slope. This is similar to the RAR in being consistent but not discriminative.
 
 See `calculations/btfr_test.py` for the full analysis.
 
@@ -35,13 +35,13 @@ The dSph velocity dispersion profile $\sigma$(r) is another classic test.
 
 *SIDC prediction:* FLAT $\sigma$(r) profile (isothermal). The cumulative 2D universe gravity produces isothermal density profile → flat $\sigma$(r).
 
-*Standard $\Lambda$CDM prediction:* RISING $\sigma$(r) profile (NFW cusp at small r → $\sigma$ rises with decreasing r).
+*Standard $\Lambda{\rm CDM}$ prediction:* RISING $\sigma$(r) profile (NFW cusp at small r → $\sigma$ rises with decreasing r).
 
 *Published data (Walker+ 2007, 2009; Battaglia+ 2008):* All 5 well-studied dSphs (Fornax, Sculptor, Draco, Carina, Sextans) show FLAT $\sigma$(r) to r ~ 1 kpc. No "cusp" signature detected. This is the dSph version of the cusp-core problem.
 
-*Verdict.* **[PASS]** **CONSISTENT with SIDC** (flat $\sigma$(r) observed). SIDC naturally predicts isothermal → flat $\sigma$(r). $\Lambda$CDM needs fine-tuned feedback (Governato+ 2012) to convert cusps to cores. SIDC's solution is structural.
+*Verdict.* **[PASS]** **CONSISTENT with SIDC** (flat $\sigma$(r) observed). SIDC naturally predicts isothermal → flat $\sigma$(r). $\Lambda{\rm CDM}$ needs fine-tuned feedback (Governato+ 2012) to convert cusps to cores. SIDC's solution is structural.
 
-*Caveats.* (a) dSphs are complex (tidal stripping, baryonic effects). (b) The $\sigma$(r) is hard to measure at large r (low S/N). (c) $\Lambda$CDM feedback solutions exist but are not fully validated. (d) SIDC's solution is structural.
+*Caveats.* (a) dSphs are complex (tidal stripping, baryonic effects). (b) The $\sigma$(r) is hard to measure at large r (low S/N). (c) $\Lambda{\rm CDM}$ feedback solutions exist but are not fully validated. (d) SIDC's solution is structural.
 
 See `calculations/dsph_sigma_profile_test.py` for the full analysis.
 
@@ -66,7 +66,7 @@ This is a real-data version of the BTFR test using the SPARC database (Lelli+ 20
 - Intermediate (T=4-6): N=47, slope=3.85
 - Late (T>=7): N=56, slope=2.84
 
-*Verdict.* CONSISTENT with both SIDC and $\Lambda$CDM (NOT discriminative). Both models predict $M_{\rm baryon}$ ~ V^4 with similar slopes. SIDC's 1/r derivation matches the empirical slope. The morphology variation is within the scatter and doesn't discriminate.
+*Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$ (NOT discriminative). Both models predict $M_{\rm baryon}$ ~ V^4 with similar slopes. SIDC's 1/r derivation matches the empirical slope. The morphology variation is within the scatter and doesn't discriminate.
 
 *Caveats.* (a) M/L_3.6 is uncertain (0.3-1 for typical galaxies). (b) Slope depends on gas fraction correction. (c) Small morphology samples give different slopes (2.55-3.85). (d) BTFR is a TIGHT scaling relation, not a discriminative test.
 
@@ -78,7 +78,7 @@ This test uses SPARC data to check if HI-rich galaxies have more DM at fixed $M_
 
 *SIDC prediction:* At fixed $M_\star$, gas-rich galaxies should have MORE DM (HI traces cumulative activity).
 
-*Standard $\Lambda$CDM prediction:* At fixed $M_\star$, $M_{dyn}$ should NOT correlate with M_HI (HI is just gas, doesn't affect halo).
+*Standard $\Lambda{\rm CDM}$ prediction:* At fixed $M_\star$, $M_{dyn}$ should NOT correlate with M_HI (HI is just gas, doesn't affect halo).
 
 *Sample:* 129 SPARC galaxies with M_HI > 0.
 
@@ -92,7 +92,7 @@ This test uses SPARC data to check if HI-rich galaxies have more DM at fixed $M_
 - $M_{dyn}$(optical) ~ V^2 R / G depends on R
 - So the f_gas- $M_{dyn}$ correlation is partly a gas-radius correlation
 
-This test is NOT a clean SIDC vs $\Lambda$CDM discriminator. Better to acknowledge this than overclaim. A more proper test would use a virial mass estimator (not optical radius).
+This test is NOT a clean SIDC vs $\Lambda{\rm CDM}$ discriminator. Better to acknowledge this than overclaim. A more proper test would use a virial mass estimator (not optical radius).
 
 *Caveats.* (a) $M_{dyn}$(optical) depends on Rdisk, which correlates with f_gas. (b) The correlation is real but not a SIDC-specific effect. (c) A virial mass estimator would be needed for a clean test.
 
@@ -104,7 +104,7 @@ This test uses SPARC data to check if Vflat at fixed $M_\star$ differs by morpho
 
 *SIDC prediction:* At fixed $M_\star$, Vflat is HIGHER for late-types (more cumulative return → more DM → higher Vflat).
 
-*Standard $\Lambda$CDM prediction:* At fixed $M_\star$, Vflat is set by halo mass. No morphology dependence.
+*Standard $\Lambda{\rm CDM}$ prediction:* At fixed $M_\star$, Vflat is set by halo mass. No morphology dependence.
 
 *Sample:* 129 SPARC galaxies.
 
@@ -501,10 +501,10 @@ Per user request, this attempts the 14th Hubble mechanism (after C, D, I, L, M, 
 
 **Honest result:** Mechanism N FAILS for these reasons:
 
-1. **SIDC's $H_0$ is qualitatively consistent with $H_0 = 70$ ± 3 (no specific value derived)** (4D event's antigravity output rate). This is $\Lambda$-like behavior, identical to $\Lambda$CDM at z=0.
+1. **SIDC's $H_0$ is qualitatively consistent with $H_0 = 70$ ± 3 (no specific value derived)** (4D event's antigravity output rate). This is $\Lambda$-like behavior, identical to $\Lambda{\rm CDM}$ at z=0.
 2. **Weyl tensor in RS-II contributes to H² as a⁻⁴** (radiation-like). The sign goes the wrong way: positive Weyl gives $H_{0,\rm CMB}$ > $H_{0,\rm local}$, but we observe $H_{0,\rm local}$ > $H_{0,\rm CMB}$.
 3. **$V_{\rm local}$ scaling: $g_+$ at z=1100 would be ~30x larger** than today (if $V_{\rm local}$ scales as horizon volume). Small effect.
-4. **SIDC's physics at z~1100 is identical to $\Lambda$CDM** (matter-dominated, same expansion rate). So Planck's $H_0$ inference gives the same value regardless.
+4. **SIDC's physics at z~1100 is identical to $\Lambda{\rm CDM}$** (matter-dominated, same expansion rate). So Planck's $H_0$ inference gives the same value regardless.
 
 **STATUS: Mechanism N is TESTED and REJECTED.** SIDC cannot explain the 5.6 km/s/Mpc gap via this mechanism. This is consistent with all 13 previous mechanisms (which were rejected or busted).
 
@@ -530,7 +530,7 @@ See `calculations/hubble_mechanism_N.py` and `calculations/hubble_mechanism_N_re
 **The highest-value test we hadn't done:** does SIDC's $H_0 = 73$ (historical Mechanism M era value, borrowed from SH0ES) give a CMB power spectrum consistent with Planck 2018? This is the ESSENCE of the Hubble tension, tested with a Boltzmann-solver-level analysis. (Note: in v2.5, SIDC's $H_0 = 73$ was removed as a prediction; see §2.6.1. The $H_0 = 73$ in this section is the SH0ES value used as a TEST INPUT, not a SIDC derivation.)
 
 **Approach.** Use CAMB (CAMB v1.6.6) to compute the CMB TT power spectrum for four models:
-- (a) Planck $\Lambda$CDM best-fit ($H_0 = 67.4$)
+- (a) Planck $\Lambda{\rm CDM}$ best-fit ($H_0 = 67.4$)
 - (b) SIDC ($H_0 = 73$ borrowed from SH0ES, same densities)
 - (c) SIDC + extra N_eff (dark radiation from 5D Weyl)
 - (d) SIDC + $\omega_{\rm c}$ lowered to compensate
@@ -541,7 +541,7 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 
 | Model | Peak 1 (220) | Peak 2 (537) | Peak 3 (810) | Peak 4 (1128) | $\chi$² (4 peaks) |
 |-------|------|------|------|------|-------|
-| Planck $\Lambda$CDM ($H_0$=67.4) | 220 (0$\sigma$) | 536 (-2$\sigma$) | 813 (+3$\sigma$) | 1126 (-2$\sigma$) | 17.25 |
+| Planck $\Lambda{\rm CDM}$ ($H_0$=67.4) | 220 (0$\sigma$) | 536 (-2$\sigma$) | 813 (+3$\sigma$) | 1126 (-2$\sigma$) | 17.25 |
 | **SIDC ($H_0$=73)** | **217 (-6$\sigma$)** | **528 (-14$\sigma$)** | **801 (-14$\sigma$)** | **1109 (-16$\sigma$)** | **666.88** |
 | SIDC + dark rad | 221 (+2$\sigma$) | 542 (+6$\sigma$) | 826 (+22$\sigma$) | 1144 (+13$\sigma$) | 694.61 |
 | SIDC + $\omega_{\rm c}$ lowered | 218 (-4$\sigma$) | 533 (-6$\sigma$) | 810 (-1$\sigma$) | 1121 (-6$\sigma$) | 92.66 |
@@ -559,15 +559,15 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 
 **Lowering $\omega_{\rm c}$ helps partially** ($\chi$² = 92.66 vs 666.88), but still has 4-6$\sigma$ residual tension. SIDC's "DM" cannot be both 27% (today) and have a low $\omega_{\rm c}$ to satisfy Planck CMB at $H_0 = 73.$
 
-**The honest verdict.** SIDC's $H_0 = 73$ is the LOCAL value (the 4D event's antigravity output rate). SIDC's physics at z~1100 is identical to $\Lambda$CDM (per Mechanism N analysis, §4.40). Therefore, SIDC CANNOT explain the Hubble tension — it joins $\Lambda$CDM and other cosmological models in leaving the precise 5.6 km/s/Mpc gap unresolved.
+**The honest verdict.** SIDC's $H_0 = 73$ is the LOCAL value (the 4D event's antigravity output rate). SIDC's physics at z~1100 is identical to $\Lambda{\rm CDM}$ (per Mechanism N analysis, §4.40). Therefore, SIDC CANNOT explain the Hubble tension — it joins $\Lambda{\rm CDM}$ and other cosmological models in leaving the precise 5.6 km/s/Mpc gap unresolved.
 
 This test is INDEPENDENT of SIDC's other predictions ($g_+$, RAR, AGN). It is SIDC's prediction for the EARLY UNIVERSE (z>1000) tested against Planck data at the Boltzmann-solver level.
 
-**The CMB test confirms Mechanism M's honesty.** SIDC does not pretend to resolve the Hubble tension. The CMB peak positions are STRONG evidence for $H_0 = 67.4$ (under $\Lambda$CDM). SIDC's $H_0 = 73$ is the local value, which is in 5.6 km/s/Mpc tension with the CMB. SIDC accepts this.
+**The CMB test confirms Mechanism M's honesty.** SIDC does not pretend to resolve the Hubble tension. The CMB peak positions are STRONG evidence for $H_0 = 67.4$ (under $\Lambda{\rm CDM}$). SIDC's $H_0 = 73$ is the local value, which is in 5.6 km/s/Mpc tension with the CMB. SIDC accepts this.
 
-**What this means for SIDC's "DM":** SIDC's "DM" being cumulative 2D universe gravity gives the SAME CMB power spectrum as $\Lambda$CDM's CDM, because the Einstein-Boltzmann equations only depend on total energy density. The CMB is a test of $H_0$ (and other early-universe parameters), not of the specific DM microphysics. So SIDC's "DM is geometric" claim is NOT tested by the CMB.
+**What this means for SIDC's "DM":** SIDC's "DM" being cumulative 2D universe gravity gives the SAME CMB power spectrum as $\Lambda{\rm CDM}$'s CDM, because the Einstein-Boltzmann equations only depend on total energy density. The CMB is a test of $H_0$ (and other early-universe parameters), not of the specific DM microphysics. So SIDC's "DM is geometric" claim is NOT tested by the CMB.
 
-**What this means for SIDC's "DE":** SIDC's DE (4D event's antigravity) is w = -1 EXACTLY (constant antigravity output). This is the same as $\Lambda$CDM's cosmological constant. The CMB is consistent with w = -1 (Planck: w = -1 ± 0.03), so SIDC's DE prediction is consistent with CMB.
+**What this means for SIDC's "DE":** SIDC's DE (4D event's antigravity) is w = -1 EXACTLY (constant antigravity output). This is the same as $\Lambda{\rm CDM}$'s cosmological constant. The CMB is consistent with w = -1 (Planck: w = -1 ± 0.03), so SIDC's DE prediction is consistent with CMB.
 
 **What this means for SIDC's "5/27/68":** the CMB-inferred values of $\omega_{\rm b}$, $\omega_{\rm c}$ are 0.0224 and 0.120. Converting to density fractions: $\Omega_{\rm b}$ = 0.0493, $\Omega_{\rm c}$ = 0.265, $\Omega_{\rm DE}$ = 0.686. SIDC's 5/27/68 matches $\Omega_{\rm b}$ (5%), $\Omega_{\rm c}$ (27%), $\Omega_{\rm DE}$ (68%) to within 0.5% — this is SIDC's GOOD fit to observation.
 
@@ -640,39 +640,39 @@ See `calculations/rar_per_galaxy_gplus_v3.py` and `calculations/rar_per_galaxy_g
 
 | Survey | $S_8$ | $\sigma_8$ | Method |
 |--------|-----|-----|--------|
-| Planck CMB (PR3) | 0.832 ± 0.013 | 0.811 | Primary CMB + $\Lambda$CDM inference |
+| Planck CMB (PR3) | 0.832 ± 0.013 | 0.811 | Primary CMB + $\Lambda{\rm CDM}$ inference |
 | DES Y3 | 0.759 ± 0.025 | ~0.74 | Cosmic shear ($3 \times 2$pt) |
 | KiDS-1000 | 0.759 ± 0.025 | ~0.74 | Cosmic shear ($3 \times 2$pt) |
 | Combined LSS | 0.759 ± 0.018 | ~0.74 | Average of DES + KiDS |
 
 **The $S_8$ tension:** Planck-inferred $S_8$ is ~2-3$\sigma$ HIGHER than LSS-inferred $S_8$. This is the "lesser Hubble tension" — same direction as the $H_0$ tension (CMB prefers higher "stuff" than LSS).
 
-**SIDC's prediction.** SIDC's "DM" is cumulative 2D universe gravity, which is created by energetic events. Energetic events are in galaxies (where stars are). So SIDC's DM *follows baryons* spatially. This is qualitatively different from $\Lambda$CDM, where CDM is a separate species that clusters more strongly than baryons on small scales.
+**SIDC's prediction.** SIDC's "DM" is cumulative 2D universe gravity, which is created by energetic events. Energetic events are in galaxies (where stars are). So SIDC's DM *follows baryons* spatially. This is qualitatively different from $\Lambda{\rm CDM}$, where CDM is a separate species that clusters more strongly than baryons on small scales.
 
 If SIDC's effective $\sigma_8$ is closer to $\sigma_8$(baryons) than $\sigma_8$(CDM):
-- $\sigma_8$($\Lambda$CDM, CDM) ~ 0.811
-- $\sigma_8$($\Lambda$CDM, baryons) ~ 0.75 (lower because baryons feel radiation pressure and feedback)
+- $\sigma_8$($\Lambda{\rm CDM}$, CDM) ~ 0.811
+- $\sigma_8$($\Lambda{\rm CDM}$, baryons) ~ 0.75 (lower because baryons feel radiation pressure and feedback)
 - $\sigma_8$(SIDC, effective) ~ 0.75-0.79 (depends on the exact baryon-tracking)
 
 This gives $S_8$(SIDC) ~ 0.775-0.815, which is:
 - LOWER than Planck (0.832) by ~1-2$\sigma$
-- CLOSER to DES/KiDS (0.759) than $\Lambda$CDM is
+- CLOSER to DES/KiDS (0.759) than $\Lambda{\rm CDM}$ is
 - Within 1$\sigma$ of DES/KiDS for the lower SIDC estimates
 
 **Comparison:**
 
 | Model | $S_8$ | $\Delta$ from DES | $\Delta$ from Planck |
 |-------|-----|-----------|---------------|
-| Planck $\Lambda$CDM | 0.832 | +2.92$\sigma$ | 0.00$\sigma$ |
+| Planck $\Lambda{\rm CDM}$ | 0.832 | +2.92$\sigma$ | 0.00$\sigma$ |
 | DES Y3 (observed) | 0.759 | 0.00$\sigma$ | -5.62$\sigma$ |
 | KiDS-1000 (observed) | 0.759 | 0.00$\sigma$ | -5.62$\sigma$ |
 | SIDC ($\sigma_8 = 0.75$) | 0.775 | +0.62$\sigma$ | -4.42$\sigma$ |
 | SIDC ($\sigma_8$=0.77) | 0.795 | +1.45$\sigma$ | -2.83$\sigma$ |
 | SIDC ($\sigma_8$=0.79) | 0.816 | +2.28$\sigma$ | -1.24$\sigma$ |
 
-**SIDC's predicted $S_8$ is closer to observations than $\Lambda$CDM.** Specifically, if $\sigma_8$(SIDC) ~ 0.75, SIDC's $S_8 = 0.775$ is within 1$\sigma$ of DES/KiDS. This is a POSITIVE result for SIDC.
+**SIDC's predicted $S_8$ is closer to observations than $\Lambda{\rm CDM}$.** Specifically, if $\sigma_8$(SIDC) ~ 0.75, SIDC's $S_8 = 0.775$ is within 1$\sigma$ of DES/KiDS. This is a POSITIVE result for SIDC.
 
-**Honest verdict.** SIDC's "DM tracks baryons" picture NATURALLY resolves the $S_8$ tension between CMB and cosmic shear. SIDC is consistent with DES and KiDS, while $\Lambda$CDM has a 2-3$\sigma$ tension.
+**Honest verdict.** SIDC's "DM tracks baryons" picture NATURALLY resolves the $S_8$ tension between CMB and cosmic shear. SIDC is consistent with DES and KiDS, while $\Lambda{\rm CDM}$ has a 2-3$\sigma$ tension.
 
 This is a **qualitative-level positive result.** It does not require any free parameters in SIDC — the "DM tracks baryons" follows directly from SIDC's picture of 2D universe creation. The exact $S_8$ value is not precisely derived (would require N-body simulation of SIDC DM, which is beyond the current paper's scope).
 
@@ -686,7 +686,7 @@ This is a **qualitative-level positive result.** It does not require any free pa
 - **Limitation 22 (isothermal cumulative profile)**: now QUALITATIVELY SUPPORTED by cosmic shear data. SIDC's picture (DM follows baryons) naturally gives a lower $\sigma_8$, matching DES/KiDS.
 - **Limitation 9 (2D universe physics)**: confirmed as a real limitation preventing quantitative $S_8$ prediction. A specific 2D physics would give a precise $\sigma_8$.
 
-**Testable prediction (new).** SIDC predicts a SPECIFIC relationship between the cosmic shear signal and the underlying baryon distribution. $\Lambda$CDM predicts $\sigma_8$(tot) is dominated by CDM; SIDC predicts $\sigma_8$(tot) is closer to $\sigma_8$(baryons). With cross-correlations between weak lensing and baryon tracers (HI, H$\alpha$, X-ray), future surveys (LSST, Euclid) can distinguish these.
+**Testable prediction (new).** SIDC predicts a SPECIFIC relationship between the cosmic shear signal and the underlying baryon distribution. $\Lambda{\rm CDM}$ predicts $\sigma_8$(tot) is dominated by CDM; SIDC predicts $\sigma_8$(tot) is closer to $\sigma_8$(baryons). With cross-correlations between weak lensing and baryon tracers (HI, H$\alpha$, X-ray), future surveys (LSST, Euclid) can distinguish these.
 
 **Status.** SIDC's "DM tracks baryons" picture passes the cosmic shear test at the qualitative level. This is a NEW empirical success for SIDC (not in the 16/17 scorecard, since we don't have direct DES/KiDS data, but a theoretical prediction that matches observations). SIDC's scorecard is effectively 16/17 with additional *qualitative* tests (CMB power spectrum, per-galaxy $g_+$, cosmic shear all consistent at the qualitative level).
 
@@ -885,7 +885,7 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 **Part 1: Historical Energy Ledger.** `compute_historical_energy_ledger(sfh_times, sfh_rates)` integrates the Star Formation History against SIDC's phase-transition threshold $E_{crit} = 10^{30}$ J. Uses a Kroupa IMF with ~15% of stellar mass going into M > 8 $M_\odot$ (CCSN progenitors) and $E_{CCSN} = 10^{46}$ J per SN. Returns the total energy injected by all past events above $E_{crit}$ over cosmic history, plus the recent event rate (last 50 Myr).
 
-**Part 2: Gaussian Instanton.** `gaussian_instanton($\tau$) = $a_0$ \exp(-$\tau$^2/$\tau$_{2D}^2)` implements the v2.4 Task 3 smooth decay profile for the 2D universe's scale factor. The normalized window $g($\tau$) = (1/$\tau$_{2D}\sqrt{$\pi$}) \exp(-$\tau$^2/$\tau$_{2D}^2)$ localizes the fossil payload with $\int g d$\tau$ = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24$\pi$) R^{(2)}$ (v2.4 Task 2, with $c = 1$ default).
+**Part 2: Gaussian Instanton.** `gaussian_instanton($\tau$) = $a_0$ \exp(-$\tau$^2/\tau$_{2D}^2)` implements the v2.4 Task 3 smooth decay profile for the 2D universe's scale factor. The normalized window $g($\tau$) = (1/\tau$_{2D}\sqrt{$\pi$}) \exp(-$\tau$^2/\tau$_{2D}^2)$ localizes the fossil payload with $\int g d$\tau$ = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24$\pi$) R^{(2)}$ (v2.4 Task 2, with $c = 1$ default).
 
 **Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_b$ profile)` builds the SIDC-MOND hybrid potential: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$, with $g_+ = 1.2 \times 10^{-10}$ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\rm total}(r)}$ and a BTFR-predicted $V_{\rm flat} = (G M_b g_+)^{1/4}$.
 
@@ -1072,7 +1072,7 @@ For stellar-only 2D universe creation (Madau & Dickinson 2014 cosmic SFR, CCSN r
 | z | r(z) | Interpretation |
 |---|------|----------------|
 | 0 | 1.00 | Calibration point (forced) |
-| 4 | 0.034 | SIDC has 30× LESS DM than $\Lambda$CDM |
+| 4 | 0.034 | SIDC has 30× LESS DM than $\Lambda{\rm CDM}$ |
 | 6 | 0.008 | SIDC has 130× LESS DM |
 | 8 | 0.0026 | SIDC has 400× LESS DM |
 | 10 | 0.0009 | SIDC has 1100× LESS DM |
@@ -1088,23 +1088,23 @@ SIDC's own energetics predict that *stellar/AGN activity dominates* 2D universe 
 
 After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contribute < $10^{-20}$ of today's DM density. SIDC's own physics predicts **$F_{\rm stellar}$ ~ 1** (essentially all of today's DM is from stellar/AGN activity).
 
-**SIDC is therefore NOT time-scale-invariant in the strict sense.** SIDC predicts **time-lagged DM**: at z>0, SIDC has LESS DM than $\Lambda$CDM. At z=6, SIDC has ~1% of $\Lambda$CDM's DM density.
+**SIDC is therefore NOT time-scale-invariant in the strict sense.** SIDC predicts **time-lagged DM**: at z>0, SIDC has LESS DM than $\Lambda{\rm CDM}$. At z=6, SIDC has ~1% of $\Lambda{\rm CDM}$'s DM density.
 
-**This is the $\Delta\chi^2$=+650 CMB penalty in physical terms** (§4.41). SIDC accepts that high-z structure formation is *different* from $\Lambda$CDM.
+**This is the $\Delta\chi^2$=+650 CMB penalty in physical terms** (§4.41). SIDC accepts that high-z structure formation is *different* from $\Lambda{\rm CDM}$.
 
 **Falsifiable predictions of time-lagged DM:**
 
-1. **Bright-end of z>8 UV LF should be SUPPRESSED relative to $\Lambda$CDM by ~100-1000×** (because $\sigma_8$^SIDC ∝ √r(z) is much smaller at high z, suppressing the HMF)
-2. **Reionization epoch should be LATER than $\Lambda$CDM** (less DM to form early structures; $\Lambda$CDM z_reion ~ 7-8, SIDC z_reion < 7)
-3. **21cm signal at z=8-15 should be DETECTABLY different from $\Lambda$CDM** (the timing and structure of reionization is different)
-4. **Strong lensing at z>1 should be LESS common than $\Lambda$CDM** (less DM between us and the source)
+1. **Bright-end of z>8 UV LF should be SUPPRESSED relative to $\Lambda{\rm CDM}$ by ~100-1000×** (because $\sigma_8$^SIDC ∝ √r(z) is much smaller at high z, suppressing the HMF)
+2. **Reionization epoch should be LATER than $\Lambda{\rm CDM}$** (less DM to form early structures; $\Lambda{\rm CDM}$ z_reion ~ 7-8, SIDC z_reion < 7)
+3. **21cm signal at z=8-15 should be DETECTABLY different from $\Lambda{\rm CDM}$** (the timing and structure of reionization is different)
+4. **Strong lensing at z>1 should be LESS common than $\Lambda{\rm CDM}$** (less DM between us and the source)
 
-**Comparison to JWST observations.** The JWST "early galaxy problem" (more bright galaxies at z>10 than $\Lambda$CDM predicts, Donnan+ 2024, Harikane+ 2022) is a *stronger* problem for SIDC than for $\Lambda$CDM. If SIDC has 1000× less DM at z=10, the bright galaxies JWST sees are even harder to explain in SIDC. This is a *real* tension.
+**Comparison to JWST observations.** The JWST "early galaxy problem" (more bright galaxies at z>10 than $\Lambda{\rm CDM}$ predicts, Donnan+ 2024, Harikane+ 2022) is a *stronger* problem for SIDC than for $\Lambda{\rm CDM}$. If SIDC has 1000× less DM at z=10, the bright galaxies JWST sees are even harder to explain in SIDC. This is a *real* tension.
 
 **Honest verdict.** Time-scale invariance in the strict sense FAILS. SIDC is dominated by stellar/AGN activity, $F_{\rm stellar}$ ~ 1, and predicts time-lagged DM. The $\Delta\chi^2$=+650 CMB penalty is the *quantitative* signature of this time-lag. SIDC is honest about this:
 
 - **[PASS]** *Established*: SIDC is NOT strictly time-scale-invariant; stellar/AGN activity dominates
-- **[PASS]** *Established*: SIDC's DM is time-lagged, with ~1% of $\Lambda$CDM's value at z=6
+- **[PASS]** *Established*: SIDC's DM is time-lagged, with ~1% of $\Lambda{\rm CDM}$'s value at z=6
 - **[FAIL]** *Not established*: the *specific* ratio r(z=6) = 0.008 (depends on the SFR-energy calibration)
 - **[FAIL]** *Not established*: the *survival* of pre-stellar 2D universe fossils through cosmic dilution (the energetic analysis assumes they don't survive; this is a model assumption)
 - **[FAIL]** *Not established*: whether SIDC's smooth $E^{1+\alpha}$ creation function (§2.5.3) applies equally to phase transitions, PBHs, and stellar events (each has different physics; the smooth function uses $\alpha = 1.29$ from SN calibration, which may not apply to other event types)
@@ -1113,7 +1113,7 @@ After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contri
 - **[PASS]** *Documents* the time-lag problem quantitatively (r(z) at z=4-10)
 - **[PASS]** *Predicts* the bright-end suppression of the z>8 UV LF
 - **[PASS]** *Predicts* later reionization
-- **[PASS]** *Identifies* the JWST early-galaxy problem as a stronger problem for SIDC than for $\Lambda$CDM
+- **[PASS]** *Identifies* the JWST early-galaxy problem as a stronger problem for SIDC than for $\Lambda{\rm CDM}$
 - **[PASS]** *Closes* Limitation 31 (time-lag of SIDC DM at CMB epoch) — SIDC ACCEPTS the time-lag as a real prediction, not a problem to fix
 
 **File added:** `calculations/time_scale_invariance_test_v3.py` (~280 lines, 3 versions of the calculation).
@@ -1255,7 +1255,7 @@ The v5 calculation (`time_scale_invariance_test_v5.py`) fixes ALL bugs and uses 
 - r(z=10) = 1327 ≈ (1+10)^3 = 1331
 - r(z=2) = 27 ≈ (1+2)^3 = 27
 
-**SIDC's r(z) is now (1+z)^3, which is the expansion factor for non-interacting DM.** This is consistent with $\Lambda$CDM: both predict that the *proper* DM density at time z is (1+z)^3 times the density at z=0.
+**SIDC's r(z) is now (1+z)^3, which is the expansion factor for non-interacting DM.** This is consistent with $\Lambda{\rm CDM}$: both predict that the *proper* DM density at time z is (1+z)^3 times the density at z=0.
 
 **The reason SIDC is saved:** Thomson scattering at z > 1100 dominates the integral, and the Thomson rate scales as (1+z)^7 in proper units. With the (1+z)^4 in the denominator (fossil dilution), the integrand scales as (1+z)^3 in the radiation era. The integral then gives $\rho$(z) ∝ (1+z)^3, which is the expansion factor for non-interacting DM.
 
@@ -1268,7 +1268,7 @@ SIDC is now INTERNALLY CONSISTENT under the broader principle. The CMB at z=1100
 1. v4 was missing the (1+z)^3 factor in the ratio → corrected in v5
 2. v2 was using wrong temperature scaling for Thomson → corrected in v5
 3. v2 missing matter-radiation transition → corrected in v5
-4. With these corrections, SIDC is consistent with $\Lambda$CDM at high z
+4. With these corrections, SIDC is consistent with $\Lambda{\rm CDM}$ at high z
 5. The broader principle DOES save SIDC, in the right way (r(z) = (1+z)^3)
 
 **What still needs to be done:**
@@ -1289,7 +1289,7 @@ This is a meaningful distinction. The previous v2/v3 analysis was based on a bug
 
 ### 4.51 The Three Bug Fixes: v4, v2, and the Matter-Radiation Transition (v2.4)
 
-*Per user direction (a series of follow-up questions: "how to fix" the $f_{\rm active}$ inconsistency, the matter-radiation transition, and the CMB prediction), this subsection documents the three bug fixes that resolve SIDC's high-z structure formation issue. The fixes are: (1) v4 was missing the (1+z)^3 factor in the r(z) ratio; (2) v2 was using wrong temperature scaling for Thomson; (3) the matter-radiation transition was not properly handled. With all three fixes, SIDC's r(z) ≈ (1+z)^3, consistent with $\Lambda$CDM at all z.*
+*Per user direction (a series of follow-up questions: "how to fix" the $f_{\rm active}$ inconsistency, the matter-radiation transition, and the CMB prediction), this subsection documents the three bug fixes that resolve SIDC's high-z structure formation issue. The fixes are: (1) v4 was missing the (1+z)^3 factor in the r(z) ratio; (2) v2 was using wrong temperature scaling for Thomson; (3) the matter-radiation transition was not properly handled. With all three fixes, SIDC's r(z) ≈ (1+z)^3, consistent with $\Lambda{\rm CDM}$ at all z.*
 
 **The v4 bug (missing (1+z)^3 factor).**
 
@@ -1319,7 +1319,7 @@ In the integral with (1+z)^4 in the denominator:
 
 The numerical result (`calculations/time_scale_invariance_test_v5.py`, with z_max = 2000):
 
-| z | r(z) (R_total v5) | (1+z)^3 ($\Lambda$CDM expansion factor) | Verdict |
+| z | r(z) (R_total v5) | (1+z)^3 ($\Lambda{\rm CDM}$ expansion factor) | Verdict |
 |---|---|---|---|
 | 0 | 1.00 | 1 | Calibration |
 | 1 | 7.98 | 8 | MATCHES |
@@ -1329,7 +1329,7 @@ The numerical result (`calculations/time_scale_invariance_test_v5.py`, with z_ma
 | 8 | 726.8 | 729 | MATCHES |
 | 10 | 1327 | 1331 | MATCHES |
 
-**SIDC's r(z) ≈ (1+z)^3 for all z.** This is the (1+z)^3 expansion factor for non-interacting DM. SIDC is consistent with $\Lambda$CDM at all z, just with a different $H_0$ (the Hubble tension).
+**SIDC's r(z) ≈ (1+z)^3 for all z.** This is the (1+z)^3 expansion factor for non-interacting DM. SIDC is consistent with $\Lambda{\rm CDM}$ at all z, just with a different $H_0$ (the Hubble tension).
 
 **The physical picture.**
 
@@ -1339,7 +1339,7 @@ The numerical result (`calculations/time_scale_invariance_test_v5.py`, with z_ma
 - The integral from z=6 to z_max is dominated by z > 1100 Thomson
 - The result is r(z=6) = 342 ≈ (1+6)^3 = 343
 
-This is a beautiful result: SIDC's broader principle naturally gives the (1+z)^3 expansion factor for DM, matching $\Lambda$CDM exactly.
+This is a beautiful result: SIDC's broader principle naturally gives the (1+z)^3 expansion factor for DM, matching $\Lambda{\rm CDM}$ exactly.
 
 **The theoretical caveat (honest).**
 
@@ -1351,7 +1351,7 @@ The broader principle treats Thomson scattering (a continuous energy transfer pr
 - **[PASS]** Identifies the v2 bug (wrong Thomson temperature)
 - **[PASS]** Identifies the matter-radiation transition issue
 - **[PASS]** Computes the v5 result with all bugs fixed
-- **[PASS]** Shows r(z) ≈ (1+z)^3, consistent with $\Lambda$CDM
+- **[PASS]** Shows r(z) ≈ (1+z)^3, consistent with $\Lambda{\rm CDM}$
 - **[PASS]** Reframes $\Delta\chi^2$=+650 as Hubble tension, not structural failure
 - **[PASS]** Documents the broader principle as a theoretical extension
 
@@ -1363,7 +1363,7 @@ The broader principle treats Thomson scattering (a continuous energy transfer pr
 - **[FAIL]** Does not re-derive SIDC's CMB prediction (separate calculation)
 - **[FAIL]** Does not provide a self-consistent SIDC Lagrangian (Limitation 26)
 
-**Limitation update.** Limitation 31 (time-lag of SIDC DM at CMB epoch) is now FULLY ADDRESSED via §4.51 (was OPEN in §4.49, then PARTIALLY ADDRESSED via v2). The v5 result shows that SIDC is consistent with $\Lambda$CDM at all z, with the broader principle.
+**Limitation update.** Limitation 31 (time-lag of SIDC DM at CMB epoch) is now FULLY ADDRESSED via §4.51 (was OPEN in §4.49, then PARTIALLY ADDRESSED via v2). The v5 result shows that SIDC is consistent with $\Lambda{\rm CDM}$ at all z, with the broader principle.
 
 **Falsifiable predictions (refreshed):**
 
@@ -1480,7 +1480,7 @@ SIDC's CMB prediction was computed using `calculations/cmb_cascade_prediction.py
 
 **The re-derivation under the broader principle.**
 
-With the broader principle (§4.51), SIDC's R(z) is dominated by Thomson scattering at z > 1100. The DM is created at the rate needed to give $\rho_{\rm DM}(z) \propto (1+z)^3$, matching $\Lambda$CDM exactly. The CMB at z=1100 should have 27% DM, matching Planck.
+With the broader principle (§4.51), SIDC's R(z) is dominated by Thomson scattering at z > 1100. The DM is created at the rate needed to give $\rho_{\rm DM}(z) \propto (1+z)^3$, matching $\Lambda{\rm CDM}$ exactly. The CMB at z=1100 should have 27% DM, matching Planck.
 
 The remaining difference is the $H_0$: SIDC gives 73, Planck gives 67.4. This 5.6 km/s/Mpc gap is the standard HUBBLE TENSION, not a SIDC-specific failure.
 
@@ -1493,20 +1493,20 @@ The CMB angular power spectrum depends on:
 - Baryon density $\Omega_{\rm b}$: set by primordial nucleosynthesis
 - $H_0$: the present-day expansion rate
 
-SIDC's $H_0 = 73$ is the only difference. All other parameters are the same as $\Lambda$CDM (because the broader principle makes SIDC's R(z) match $\Lambda$CDM's DM history).
+SIDC's $H_0 = 73$ is the only difference. All other parameters are the same as $\Lambda{\rm CDM}$ (because the broader principle makes SIDC's R(z) match $\Lambda{\rm CDM}$'s DM history).
 
 **The $\Delta\chi^2$=+650 is therefore the $\Delta\chi^2$ from changing $H_0$ from 67.4 to 73 in the CMB likelihood.** This is the standard Hubble tension: when you change $H_0$ in Planck's best-fit model, the CMB likelihood drops by 650 (in $\chi$²). This is well-documented in the literature (Verde, Treu, Riess 2019; Di Valentino et al. 2021).
 
 **Interpretation:**
 
-SIDC is NOT structurally different from $\Lambda$CDM at the CMB. The only difference is $H_0$. The $\Delta\chi^2$=+650 is SIDC's $H_0$ mismatch, not a structural failure.
+SIDC is NOT structurally different from $\Lambda{\rm CDM}$ at the CMB. The only difference is $H_0$. The $\Delta\chi^2$=+650 is SIDC's $H_0$ mismatch, not a structural failure.
 
 SIDC's $H_0 = 73$ is SIDC's prediction from §2.6 Mechanism M (SIDC's 4D event's antigravity output). This is a real prediction of SIDC, and it's in tension with Planck's $H_0 = 67.4$.
 
 **The Hubble tension as SIDC's only CMB problem:**
 
 1. $H_0$ SIDC: 73 ± 1 (TRGB, Cepheid, megamaser calibration)
-2. $H_0$ Planck: 67.4 ± 0.5 (CMB + $\Lambda$CDM)
+2. $H_0$ Planck: 67.4 ± 0.5 (CMB + $\Lambda{\rm CDM}$)
 3. Difference: 5.6 km/s/Mpc (4$\sigma$ tension)
 4. CMB $\Delta\chi^2$ from $H_0$ change: ~650
 
@@ -1515,10 +1515,10 @@ This is the standard Hubble tension. SIDC is in this tension because its $H_0$ p
 **What SIDC's $H_0$=73 implies:**
 
 - If Planck's $H_0$ is correct, SIDC's Mechanism M is wrong (or there's a local Hubble bubble)
-- If SIDC's $H_0$ is correct, Planck's $\Lambda$CDM is incomplete (early dark energy, neutrino interactions, etc.)
+- If SIDC's $H_0$ is correct, Planck's $\Lambda{\rm CDM}$ is incomplete (early dark energy, neutrino interactions, etc.)
 - SIDC's $H_0$ is a TESTABLE PREDICTION, not a free parameter
 
-**Limitation update.** Limitation 18 (Hubble tension resolution) was CLOSED in v2.4 via Mechanism M. SIDC ACCEPTS the $H_0$ tension as a real disagreement, and the broader principle (§4.51) makes the CMB match $\Lambda$CDM except for the $H_0$ offset.
+**Limitation update.** Limitation 18 (Hubble tension resolution) was CLOSED in v2.4 via Mechanism M. SIDC ACCEPTS the $H_0$ tension as a real disagreement, and the broader principle (§4.51) makes the CMB match $\Lambda{\rm CDM}$ except for the $H_0$ offset.
 
 **What this subsection does:**
 

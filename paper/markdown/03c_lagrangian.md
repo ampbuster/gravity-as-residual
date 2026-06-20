@@ -14,7 +14,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 | N (Majoranas) | 12 | Uniquely determined by $\alpha$ = 1.29 |
 | c (central charge) | 1/2 | N/24 = 12/24 = 1/2 (Ising CFT) |
 | $\alpha$ (lifetime scaling) | 1.289 | 1 + 1/√N (saddle-point fluctuation) |
-| 1/(2$\alpha$) (back-action) | 0.388 | c/$\alpha$ (composite) |
+| 1/(2$\alpha$) (back-action) | 0.388 | c/\alpha$ (composite) |
 | $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$ | (1/2$\alpha$)-powered formula |
 
 **Why N = 12 is unique** (off by 0.001 from $\alpha$ = 1.29):
@@ -35,7 +35,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 4. **BLG-like at magic angle ~1.5-2.0°** (model-dependent)
 5. c = 1/2 (Ising CFT, N/24)
 6. $\alpha$ = 1 + 1/√N = 1.289 (saddle-point fluctuation)
-7. 1/(2$\alpha$) = c/$\alpha$ = 0.388 (composite)
+7. 1/(2$\alpha$) = c/\alpha$ = 0.388 (composite)
 8. S₀ = 12 × log(2) (zero-temp entropy)
 
 **Testable predictions (8 total)**:
@@ -421,7 +421,7 @@ from the framework.
 - A solution to the hierarchy or cosmological constant problems
 - A "closed loop" in the numerical sense
 
-**L102 REVISED (v3.1.1)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha$ = 1.289 unifies forward time dilation and backward $f_{\rm back}$. However, the values of $\epsilon$ (10⁻³⁸) and DE/Planck (10⁻¹²³) are both OBSERVED; $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION (10⁻¹²³/$\epsilon$), not a derived physical fraction. The closed loop is **not** a numerical closure (the §3.60.1 formula gives $4.6 \times 10^{-68}$, not 10⁻⁸⁵).
+**L102 REVISED (v3.1.1)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha$ = 1.289 unifies forward time dilation and backward $f_{\rm back}$. However, the values of $\epsilon$ (10⁻³⁸) and DE/Planck (10⁻¹²³) are both OBSERVED; $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION (10⁻¹²³/\epsilon$), not a derived physical fraction. The closed loop is **not** a numerical closure (the §3.60.1 formula gives $4.6 \times 10^{-68}$, not 10⁻⁸⁵).
 
 **L138 NEW (v3.1.1)**: $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION FACTOR, not a derived physical quantity. The "primordial back-projection fraction" is a misleading name; it is simply the ratio of observed DE to the $\epsilon$-suppressed Planck density.
 

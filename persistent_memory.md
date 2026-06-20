@@ -143,7 +143,7 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - ASYMMETRIC scaling (L308p): 4D linear, 2D one-to-one
 
 **2D UNIVERSE QUANTUM** (v3.5.8, L308q):
-- Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/$M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
+- Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
 - Discrete quantum, can't be split (analogous to particle)
 - Variable lifetime (M^α law from event energy)
 - 1 universe per event (one-to-one)
@@ -309,7 +309,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - 4D → 3+1D: N_sub ∝ $E_{\rm 4D}$ (linear, universe-creating, transcendent)
 - 3+1D → 2D: N_2D = 1 per event (one-to-one, universe-modifying, internal)
 - 2D asymmetry CONSTRAINED by DM observation (linear at 2D would overproduce by 10⁶⁵)
-- 2D universe has fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/$M_{\rm Pl,3D}$ (discrete quantum, L308q)
+- 2D universe has fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ (discrete quantum, L308q)
 - See §7.4.14 (asymmetry) and §7.4.15 (2D quantum) for details
 
 ---
@@ -1406,7 +1406,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### G) L308q (2D universe is discrete quantum)
 - User: "why cant there be 2 2d universe at half size each, rather than 1 big one?"
-- Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM but violate $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/$M_{\rm Pl,3D}$
+- Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM but violate $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$
 - Framework's $M_{\rm 2D}$ is DERIVED from 5D AdS projection, not adjustable
 - $M_{\rm 2D}$/2 would require $M_{\rm Pl,2D}$ = 2.12 TeV, breaks α-GM (9.4% off)
 - Conclusion: 2D universe is a DISCRETE QUANTUM with fixed mass
@@ -1505,13 +1505,13 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### 2D Universe as Discrete Quantum
 
-- Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/$M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
+- Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
 - Variable lifetime (M^α law from event energy)
 - 1 universe per event (no splitting)
 - Analogous to a particle: mass quantum + variable lifetime + single creation mode
 
 **Why 2 half-mass universes doesn't work**:
-- Violates $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/$M_{\rm Pl,3D}$ (geometric constraint)
+- Violates $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ (geometric constraint)
 - Would require $M_{\rm Pl,2D}$ = 2.12 TeV (breaks α-GM by 9.4%)
 - 2D CFT has unique saddle-point per (E, J)
 

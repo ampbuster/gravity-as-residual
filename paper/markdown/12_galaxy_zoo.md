@@ -60,7 +60,7 @@ The 7 outlier tests complement the 4 standard tests by probing *extreme* cases:
 
 ### 12.3 The Bullet Cluster: SIDC's smoking gun — *and its limits*
 
-The Bullet Cluster is the most striking empirical test of any dark matter model. In the standard $\Lambda$CDM + particle DM picture, the gas-galaxy separation is *expected*: gas collides and slows, galaxies are collisionless, DM is collisionless and follows galaxies. But the *SIDC* has a *different mechanism* for DM — the cumulative 2D universe back-projection — and SIDC makes a *specific prediction*:
+The Bullet Cluster is the most striking empirical test of any dark matter model. In the standard $\Lambda{\rm CDM}$ + particle DM picture, the gas-galaxy separation is *expected*: gas collides and slows, galaxies are collisionless, DM is collisionless and follows galaxies. But the *SIDC* has a *different mechanism* for DM — the cumulative 2D universe back-projection — and SIDC makes a *specific prediction*:
 
 > The DM (lensing mass) should follow the *galaxies* (the loci of past star formation) and not the *gas* (no star formation, no 2D universe creation).
 
@@ -68,7 +68,7 @@ This is exactly what is observed in the Bullet Cluster. SIDC *naturally* explain
 
 The JWST strong + weak lensing analysis (Cha+ 2025, arXiv:2503.21870) confirms the original result with much higher resolution: 146 strong lensing constraints, 398 sources/ ${\rm arcmin}^2$ weak lensing, three distinct halos resolved. SIDC's prediction stands.
 
-**HONEST CAVEAT (v2.7.3+):** the Bullet Cluster is *not* a unique test of SIDC. **All particle DM models** ($\Lambda$CDM + WIMP/axion/sterile $\nu$/PBH/Fuzzy DM/SIDM, etc.) trivially explain the gas-galaxy separation: their DM particles are collisionless, so they pass through with the galaxies. The Bullet Cluster is a *necessary* test for any DM model (it kills pure modified gravity), but it is *not* a *sufficient* test for SIDC over particle DM.
+**HONEST CAVEAT (v2.7.3+):** the Bullet Cluster is *not* a unique test of SIDC. **All particle DM models** ($\Lambda{\rm CDM}$ + WIMP/axion/sterile $\nu$/PBH/Fuzzy DM/SIDM, etc.) trivially explain the gas-galaxy separation: their DM particles are collisionless, so they pass through with the galaxies. The Bullet Cluster is a *necessary* test for any DM model (it kills pure modified gravity), but it is *not* a *sufficient* test for SIDC over particle DM.
 
 SIDC's specific *additional* prediction beyond particle DM: the lensing mass tracks the *star-formation history* of the galaxies, not just their collisionless nature. SIDC and particle DM both predict the Bullet Cluster; they differ in predictions for **objects with no current activity but real DM subhalos** (47 Tuc test, §11), where SIDC predicts no local DM and particle DM predicts a real cosmological subhalo.
 
