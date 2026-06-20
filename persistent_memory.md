@@ -143,7 +143,7 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - ASYMMETRIC scaling (L308p): 4D linear, 2D one-to-one
 
 **2D UNIVERSE QUANTUM** (v3.5.8, L308q):
-- Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
+- Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
 - Discrete quantum, can't be split (analogous to particle)
 - Variable lifetime (M^α law from event energy)
 - 1 universe per event (one-to-one)
@@ -256,7 +256,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - The 4D event is "practically eternal" from 3+1D frame (γ_4D = 6.03×10⁹⁰, τ_4D = 1.51×10³⁴ yr apparent)
 - **Universe age = 1.5×10⁻¹⁵ of lifetime** (we observe at cosmic "day 1", v3.4.8)
 - 3+1D leaks $f_{\rm back}$ = ($M_{\rm Pl,4D}$/$E_{\rm 4D}$)^α ~ 10⁻⁸⁵ back to 4D during its lifetime (UNIVERSAL formula)
-- DE = $f_{\rm back}$ × ε × $M_{\rm Pl}$,3D⁴ (closed loop formula, matches obs within 0.13% simple $f_{\rm DE}$ / 2.7% full bilateral cascade)
+- DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ (closed loop formula, matches obs within 0.13% simple $f_{\rm DE}$ / 2.7% full bilateral cascade)
 - **Bilateral cascade (v3.3)**: DE = time-dilated slice of 4D's pulsed life; DM = 100% pulsed at 2D universe death
 - In our universe, every energetic event (SNe, BH mergers, etc.) creates a 2D universe
 - 2D universe lives for τ_2D = (E/$E_{\rm Pl,3}$D)^α × $t_{\rm Pl}$ (M^α law, 14 events, α = 1.289)
@@ -309,7 +309,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - 4D → 3+1D: N_sub ∝ $E_{\rm 4D}$ (linear, universe-creating, transcendent)
 - 3+1D → 2D: N_2D = 1 per event (one-to-one, universe-modifying, internal)
 - 2D asymmetry CONSTRAINED by DM observation (linear at 2D would overproduce by 10⁶⁵)
-- 2D universe has fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ (discrete quantum, L308q)
+- 2D universe has fixed mass $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ (discrete quantum, L308q)
 - See §7.4.14 (asymmetry) and §7.4.15 (2D quantum) for details
 
 ---
@@ -334,7 +334,7 @@ $$f_{\rm back}(N \to N-1) = \left(\frac{M_{\rm Pl,N}}{E_{\rm event}}\right)^\alp
 - The M^α law is the SAME formula at every level
 
 **DE matching (3D→4D):**
-- DE = $f_{\rm back}$ × ε × $M_{\rm Pl}$,3D⁴ = 1.2×10⁻⁸⁵ × 10⁻³⁸ × (1.22×10¹⁹)⁴ GeV⁴
+- DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ = 1.2×10⁻⁸⁵ × 10⁻³⁸ × (1.22×10¹⁹)⁴ GeV⁴
 - Observed: 2.4×10⁻⁴⁷ GeV⁴ (within 14%)
 
 **Frame-of-reference clarification (v3.1.2-final):**
@@ -372,7 +372,7 @@ This is what makes DE and DM look so different despite the SAME underlying mecha
 - 3D→4D: $f_{\rm DE}$ = 1.22×10⁻⁸⁵ (continuous fraction)
   - Continuous return: 1.3×10⁻²⁶ J over τ_4D
   - Pulsed return: 5×10⁷⁹ J at heat death (future, v3.3 universe-scale)
-  - DE: ρ_DE = $f_{\rm DE}$ × ε × $M_{\rm Pl}$,3D⁴ = 2.7×10⁻⁴⁷ GeV⁴ (matches observed 2.4×10⁻⁴⁷ within 14%)
+  - DE: ρ_DE = $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ = 2.7×10⁻⁴⁷ GeV⁴ (matches observed 2.4×10⁻⁴⁷ within 14%)
 
 **Evolution:**
 - v10: $f_{\rm back}$ = ($t_{\rm Pl}$/τ_4D) × (τ_SN/τ_universe) × ($E_{\rm 4D}$/$E_{\rm SN}$)^(1/(2α)) — REJECTED (required unjustified τ_4D = $1 \times 10^{28}$ yr)
@@ -749,7 +749,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 
 **Lagrangian status (v3.1.2-final)**:
 - L = L_c=1,Liouville + L_N=12,SYK + L_Schwarzian is STILL a valid structural proposal
-- L41 (μ = $M_{\rm Pl}$,2D² = 9×10⁶ GeV²) is CLOSED (v3.0.22)
+- L41 (μ = $M_{\rm Pl,2D}^2$ = 9×10⁶ GeV²) is CLOSED (v3.0.22)
 - L42 ($m_{3+1D}$ = $v_{\rm Higgs}$ = 246 GeV) is CLOSED
 - L43 (full Lagrangian → α) is OPEN: structural, not derived
 - 5 brute-force attempts from Z failed (v15-v19, v26)
@@ -857,7 +857,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 - Use `\frac{a}{b}` not `a/b` in display math
 
 ### Math structure
-- Display math: `$$...$$`
+- Display math: `$$...$`
 - Inline math: `$...$`
 - α = 1.289 (NOT 1.29 when precise)
 - N = 12 (when in math), N=12 (in prose)
@@ -878,7 +878,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 ### Closed loop (v3.1.2-final)
 - Forward (4D → 3+1D): $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s (projection efficiency with 4π)
 - Backward (3+1D → 4D): $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s (leakage rate)
-- DE = $f_{\rm back}$ × ε × $M_{\rm Pl}$,3D⁴ (uses OUR universe's Planck, MEASURED)
+- DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ (uses OUR universe's Planck, MEASURED)
 - γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2) (cone picture time dilation)
 - 4π at 3D→4D continuous leakage: verified ~1.7%, SPECIFIC to that transition
 - NEVER use the v10 formula with 1/(2α) factor — it's wrong
@@ -1154,7 +1154,7 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 - 1 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)
 - 4 calibrated: α = 1.289, ε = 10⁻³⁸, τ_4D, AGN rate
 - 1 free: N_sub = 4×10²
-- 1 calibrated: μ = $M_{\rm Pl}$,2D² (now STRUCTURALLY MOTIVATED, 5+ origins, v3.5.6)
+- 1 calibrated: μ = $M_{\rm Pl,2D}^2$ (now STRUCTURALLY MOTIVATED, 5+ origins, v3.5.6)
 
 **Honest framing (v3.5.6)**:
 - μ is calibrated BUT consistent with modern unimodular gravity
@@ -1169,7 +1169,7 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 
 **Key insight from web search**: μ being calibrated is **consistent with modern gravity theory**.
 
-**The 5 structural origins of μ = $M_{\rm Pl}$,2D²**:
+**The 5 structural origins of μ = $M_{\rm Pl,2D}^2$**:
 
 (1) **Unimodular Gravity (HT)** — STRONGEST:
     arXiv:2501.17213 (Rassouli 2025), 1802.04795 (Bonder-Corral 2018), 
@@ -1187,7 +1187,7 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
     
     EXACT FORMULA: "Self-dual Hagedorn temperature b²_H = 4π²α'"
     $T_H$ = M_s/(2π) is FORCED by closed string modular invariance
-    μ = (2π $T_H$)² = M_s² = $M_{\rm Pl}$,2D² ✓ MATCHES
+    μ = (2π $T_H$)² = M_s² = $M_{\rm Pl,2D}^2$ ✓ MATCHES
 
 (3) **JT U(Φ) = 2Φ** — MODERATE:
     The "2" in U(Φ) = 2Φ comes from $R_{\rm AdS,2}$ = -2/L² (AdS_2 Ricci scalar)
@@ -1406,7 +1406,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### G) L308q (2D universe is discrete quantum)
 - User: "why cant there be 2 2d universe at half size each, rather than 1 big one?"
-- Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM but violate $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$
+- Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM but violate $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$
 - Framework's $M_{\rm 2D}$ is DERIVED from 5D AdS projection, not adjustable
 - $M_{\rm 2D}$/2 would require $M_{\rm Pl,2D}$ = 2.12 TeV, breaks α-GM (9.4% off)
 - Conclusion: 2D universe is a DISCRETE QUANTUM with fixed mass
@@ -1505,13 +1505,13 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### 2D Universe as Discrete Quantum
 
-- Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
+- Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
 - Variable lifetime (M^α law from event energy)
 - 1 universe per event (no splitting)
 - Analogous to a particle: mass quantum + variable lifetime + single creation mode
 
 **Why 2 half-mass universes doesn't work**:
-- Violates $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ (geometric constraint)
+- Violates $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ (geometric constraint)
 - Would require $M_{\rm Pl,2D}$ = 2.12 TeV (breaks α-GM by 9.4%)
 - 2D CFT has unique saddle-point per (E, J)
 
@@ -1560,13 +1560,13 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 ### v3.5.8 SESSION 3 BUILD_TOOLS PATTERNS 8-12 (2026-06-20) (2026-06-20)
 - User spotted additional broken patterns in README:
   - L265: `$\Omega_{\rm DM}$≈0.27` (DM as text not subscript)
-  - L297: `$$N_p = ...$$` (triple dollar)
+  - L297: `$$N_p = ...$` (triple dollar)
   - L378/387/389/393: `$\Lambda{\rm CDM}$` (CDM as text)
   - L588-592: `$M_{dyn}/M_b` (slash between math blocks)
   - L736: `$10^{$10^{1} }$` (nested math)
 - Added 5 new patterns to fix_broken_markdown.py:
   - Pattern 8: `$\Omega_{\rm DM}$` → `$\Omega_{\rm DM}$`
-  - Pattern 9: `$$...$$` → `$$...$$` (display math)
+  - Pattern 9: `$$...$$` → `$$...$` (display math)
   - Pattern 10: `$\Lambda{\rm CDM}$` → `$\Lambda{\rm CDM}$`
   - Pattern 11: `$X/Y` → `$X/Y$` (slash between math, with chain handling)
   - Pattern 12: `$X^{$Y^Z}$` → `$X^{Y^Z}$` (nested math in superscript)

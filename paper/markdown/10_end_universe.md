@@ -88,7 +88,7 @@ The prediction is not "the universe ends" (which is unfalsifiable on human times
 
 ### 10.7 Connection to the 2D universe "particle" analogy
 
-The end-of-universe picture has a clean interpretation in the relativistic-particle analogy. In SR, a particle's *internal* time is its proper time $\tau$. The particle's lifetime in the lab frame is $\gamma$$\tau$, where $\gamma$ is the Lorentz factor. As the particle approaches its proper lifetime, it decays in the lab frame, regardless of how much lab time has passed.
+The end-of-universe picture has a clean interpretation in the relativistic-particle analogy. In SR, a particle's *internal* time is its proper time $\tau$. The particle's lifetime in the lab frame is $\gamma \tau$, where $\gamma$ is the Lorentz factor. As the particle approaches its proper lifetime, it decays in the lab frame, regardless of how much lab time has passed.
 
 By analogy, the 3D universe's *internal* time T₃D' is its proper time. The 3D universe's lifetime in 4D view is T₃D. The "decay" of the 3D universe happens when T₃D' reaches its proper lifetime, not when T₃D reaches the 4D's view-lifetime. The 3D ends *first in its own clock*, then much later in 4D's view.
 
@@ -408,7 +408,7 @@ SIDC's energy-scaling rule $\tau_{2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl}$ w
 | 1.40 | $4.2 \times 10^{6}$ yr | $2.6 \times 10^{9}$ yr |
 | 1.60 | $1.7 \times 10^{8}$ yr | $5.2 \times 10^{11}$ yr |
 
-A change of $\Delta$$\alpha$ = 0.20 gives a **factor of 10-100x** change in $\tau_{2D}$ predictions. A change of $\Delta$$\alpha$ = 0.05 gives a **factor of 3** change. SIDC's predictions are most sensitive to $\alpha$ in the BNS, AGN, and high-energy event range, where small $\alpha$ changes produce large $\tau_{2D}$ differences.
+A change of $\Delta \alpha$ = 0.20 gives a **factor of 10-100x** change in $\tau_{2D}$ predictions. A change of $\Delta \alpha$ = 0.05 gives a **factor of 3** change. SIDC's predictions are most sensitive to $\alpha$ in the BNS, AGN, and high-energy event range, where small $\alpha$ changes produce large $\tau_{2D}$ differences.
 
 **Precision required for future BNS/AGN GW detection.** The GW frequency from 2D universe death is f_GW = 1/ $\tau_{2D}$ ∝ E^(-$\alpha$). Taking the derivative:
 
@@ -416,7 +416,7 @@ $$\Delta\alpha = \frac{\Delta f_{GW}}{f_{GW} \cdot \log(E/E_{SN})}$$
 
 For BNS (E/ $E_{\rm SN}$ = $10^{9}$): log = 9.
 
-| Detector | $\Delta$f_GW precision | $\Delta$$\alpha$ precision |
+| Detector | $\Delta f_{\rm GW}$ precision | $\Delta \alpha$ precision |
 |----------|-----------------|---------------|
 | **SKA-MPG PTAs (2030s)** | ~1 dex (factor 10) | **0.11** ($\alpha$ = 1.29 ± 0.11) |
 | **$\mu$Ares (next-gen PTA, 2040s?)** | ~0.5 dex (factor 3) | **0.055** ($\alpha$ = 1.29 ± 0.055) |
@@ -426,7 +426,7 @@ So **SKA-MPG could distinguish $\alpha$ = 1.20 from $\alpha$ = 1.40** (the diffe
 
 **Falsification tolerance.** What range of $\alpha$ is consistent with $\alpha$ = 1.29?
 
-| |$\Delta$$\alpha$| from 1.29 | Verdict |
+| |$\Delta \alpha$| from 1.29 | Verdict |
 |--------------|---------|
 | ±0.05 | **Consistent** (4% deviation, factor 3 prediction difference) |
 | ±0.10 | **Marginal** (10% deviation, factor 10 prediction difference) |

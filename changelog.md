@@ -76,9 +76,9 @@ to point to `paper/legacy/legacy_paper.md` instead of missing sections.
   → 25 OPEN, 21 PARTIAL, 8 CLOSED, 1 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE
 
 **Math notation fixes** (pre-existing broken patterns cleaned up):
-- `$$g_+$+$...$` patterns consolidated in 06_limitations.md
-- `$$F_p$(z)$` patterns in 06_limitations.md
-- `$$9.7 \times 10^{7}$` patterns in 02_glossary.md
+- `$g_+$+$...$` patterns consolidated in 06_limitations.md
+- `$F_p$(z)$` patterns in 06_limitations.md
+- `$9.7 \times 10^{7}$` patterns in 02_glossary.md
 - Various `$X$ \times Y` patterns consolidated to single math blocks
 
 **PAGE COUNT**:
@@ -392,7 +392,7 @@ This document contains the cascade's full version history.
 **Major changes since v3.0.6:**
 
 1. **User feedback**: "Missing close brace" in the death rate formula:
-   `$$\frac{dN_{2D death}}{dt_{3+1D}} = ... = R(E) \times (\frac{E}{E_{Pl,3})^{-1.29} \times \frac{1}{t_{Pl,3}}$$`
+   `$$\frac{dN_{2D death}}{dt_{3+1D}} = ... = R(E) \times (\frac{E}{E_{Pl,3})^{-1.29} \times \frac{1}{t_{Pl,3}}$`
 
 2. **Bug**: `(\frac{E}{E_{Pl,3})^{-1.29}` was missing one closing `}`.
    The fraction `\frac{E}{E_{Pl,3}}` had an opening `{` for the numerator
@@ -4551,7 +4551,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - **v3.5.1**: "1/2" has 3+ anchors (Schwarzian, DOZZ, Ising, L308)
 - **v3.5.2-v3.5.3**: 5 structural candidates for "2×" factor in μ, 45 alternative formulas
 - **v3.5.4**: 10 candidates for why $T_H$ = $T_{\rm Pl,2D}$ — TOP 3: Planckian max, Euclidean periodicity, Hagedorn
-- **v3.5.5**: Lagrangian L = L_c=1 + L_Schwarzian + L_N=12 SYK consistently gives μ = $M_{\rm Pl}$,2D² via 3 routes
+- **v3.5.5**: Lagrangian L = L_c=1 + L_Schwarzian + L_N=12 SYK consistently gives μ = $M_{\rm Pl,2D}^2$ via 3 routes
 - **v3.5.6 WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins:
   1. **Unimodular gravity (HT)**: Λ is INTEGRATION CONSTANT — calibrated μ is EXPECTED in modern gravity
   2. **Hagedorn $T_H$ = M_s/(2π)**: EXACT from closed string modular invariance (Chaudhuri 2001)
@@ -4718,7 +4718,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
    - Linear at 2D would overproduce DM by 10⁶⁵
 
 5. **2D UNIVERSE IS DISCRETE QUANTUM** (USER-INSIGHT):
-   - Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
+   - Fixed mass $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV
    - Variable lifetime (M^α law from event energy)
    - 1 universe per event (no splitting)
    - Analogous to a particle: mass quantum + variable lifetime + single creation mode

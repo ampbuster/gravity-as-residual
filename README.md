@@ -272,19 +272,19 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
    $$\rho_* = \int_0^{10} \frac{\text{SFR}(z)}{(1+z) H(z)} dz = 8.05 \times 10^8 \, M_\odot/\text{Mpc}^3$$
 
 2. **Total SNe**: 1 SN per 100 M_⊙ (Salpeter IMF, M > 8):
-   $$N_{\rm SN} = 8.05 \times 10^6 \text{ SNe/Mpc}^3$$
+   $$N_{\rm SN} = 8.05 \times 10^6 \text{ SNe/Mpc}^3$
 
 3. **Per-SN 2D universe rest mass** ($E_{\rm SN}$/c² = 5.59×10⁻⁴ M_⊙):
    $$M_{\rm 2D,actual} = E_{\rm SN}/c^2 = 5.59 \times 10^{-4} \, M_\odot$$
 
 4. **Total SN-driven DM**:
-   $$\rho_{\rm DM}({\rm SN\ driven}) = N_{\rm SN} \times M_{\rm 2D,actual} = 4.5 \times 10^3 \, M_\odot/\text{Mpc}^3$$
+   $$\rho_{\rm DM}({\rm SN\ driven}) = N_{\rm SN} \times M_{\rm 2D,actual} = 4.5 \times 10^3 \, M_\odot/\text{Mpc}^3$
 
 5. **Compare to observed $\Omega_{\rm DM}$**:
    $$\rho_{\rm DM}({\rm observed}) = 3.4 \times 10^{10} \, M_\odot/\text{Mpc}^3$$
 
 6. **Ratio**:
-   $$\frac{\rho_{\rm DM}({\rm observed})}{\rho_{\rm DM}({\rm SN\ driven})} = 7.6 \times 10^6$$
+   $$\frac{\rho_{\rm DM}({\rm observed})}{\rho_{\rm DM}({\rm SN\ driven})} = 7.6 \times 10^6$
 
 **Interpretation**: SN-driven 2D universe deaths give 7.6 million × too little DM.
 

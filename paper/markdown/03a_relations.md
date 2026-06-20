@@ -204,7 +204,7 @@ This is an enormous entanglement entropy. The 2D universe is "small" in its intr
 **3.8.7 Kaluza-Klein (1921) 5D unification: SIDC as a generalization.**
 
 Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity and electromagnetism. The key result: starting from 5D Einstein-Hilbert action and compactifying one extra dimension on S^1 of radius R, the 5D metric decomposes into:
-- g_$\mu$$\nu$ (4D graviton)
+- $g_{\mu\nu}$ (4D graviton)
 - A_$\mu$ = G_$\mu$4 (4D EM vector potential, from off-diagonal metric)
 - $\phi$ = G_44 (4D dilaton scalar)
 
@@ -516,7 +516,7 @@ SIDC's current mechanism: the 2D universe has an *intrinsic* 2D-frame mass $M_{2
 $$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$$
 
 To get the required $3.7 \times 10^{-5} M_\odot$ per universe:
-$$e^{-ky} = 3.7 \times 10^{-5} / 6 = 6.2 \times 10^{-6}$
+$$e^{-ky} = 3.7 \times 10^{-5} / 6 = 6.2 \times 10^{-6}$$
 
 **Discrepancy with SIDC's stated value:** SIDC has previously stated $$e^{-ky} \sim 10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is $6.2 \times 10^{-6}$, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
 
@@ -570,7 +570,7 @@ $$f_{DE} \times \rho_{DE} \times V_{birth} \approx 6 M_\odot$$
 **Plausibility:** this is plausible if $V_{birth}$ is large. The 2D universe's volume depends on its 2D-frame size and lifetime. A 2D universe with size $R_{2D}$ and lifetime $\tau_{2D}$ has $V_{birth} = c \tau_{2D} R_{2D}$.
 
 For SN-calibrated 2D universes: $\tau_{2D} = 33$ s, $R_{2D}$ depends on 2D physics (Liouville 2D CFT). The required $V_{birth}$ to extract $6 M_\odot$ from DE is:
-$$V_{birth} = 6 M_\odot c^2 / \rho_{DE} \approx $10^{47}$\,\text{m}^3$$
+$V_{birth} = 6 M_\odot c^2 / \rho_{DE} \approx $10^{47}$\,\text{m}^3$
 
 This is a large but not unreasonable 2D-frame volume (comparable to a stellar-scale object's volume).
 

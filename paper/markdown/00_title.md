@@ -30,7 +30,7 @@
 - **Cone natural range** (L308l, USER-DIRECTED): n=1 to n≈17
 - **N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ linear scaling** (L308o, USER-INSIGHT): no longer free parameter
 - **Cone is asymmetric** (L308p, USER-INSIGHT): 4D linear (transcendent), 2D one-to-one (internal)
-- **2D universe is discrete quantum** (L308q, USER-INSIGHT): $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ is smallest unit of DM
+- **2D universe is discrete quantum** (L308q, USER-INSIGHT): $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ is smallest unit of DM
 
 **For v3.5.8 session details**: see `paper/legacy/v358_user_driven_refinements.md`
 **For full v3.5.8 history**: see [`changelog.md`](../changelog.md) (v3.5.8 SESSION 1 + 2)

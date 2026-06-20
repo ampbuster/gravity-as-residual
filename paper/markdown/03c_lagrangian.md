@@ -678,7 +678,7 @@ Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is D
 
 **Comparison with old framework**:
 - DM formula: per-event pulsed return (same, but explicitly UP flow)
-- DE formula: $f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl}$,3D⁴ (same, but explicitly DOWN flow with anti-gravity interpretation)
+- DE formula: $f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl,3D}^4$ (same, but explicitly DOWN flow with anti-gravity interpretation)
 - 5/27/68 split: "DE" = 4D event's anti-gravity (going DOWN), not 3+1D's mass going up
 
 **DM/baryon ratio (new picture)**:
@@ -695,7 +695,7 @@ This is the **cleanest formulation** of the bilateral cascade. The user's reform
 again" / "isn't 1/2 also notable?" / "so we have a lagrangian
 now?" / "can't we trial and error them?"
 
-**v3.1.2-final REVISION**: This section originally motivated the Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 from the Inception cone picture (cone slope = $\alpha$, converging to 2D Planck). The cone picture is now SPECULATIVE / HISTORICAL (§3.67 v3.1.2-final REVISED). The Lagrangian remains a STRUCTURAL PROPOSAL, but its connection to $\alpha$ is now PURELY INTERPRETIVE. The Lagrangian is still useful for: (a) L41 ($\mu$ = $M_{\rm Pl}$,2D² = 9×10⁶ GeV², closed v3.0.22), (b) L42 ($m_{3+1D}$ = $v_{\rm Higgs}$, closed), (c) c = 1 Liouville structure, (d) N = 12 SYK structure. It does NOT derive $\alpha$.
+**v3.1.2-final REVISION**: This section originally motivated the Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 from the Inception cone picture (cone slope = $\alpha$, converging to 2D Planck). The cone picture is now SPECULATIVE / HISTORICAL (§3.67 v3.1.2-final REVISED). The Lagrangian remains a STRUCTURAL PROPOSAL, but its connection to $\alpha$ is now PURELY INTERPRETIVE. The Lagrangian is still useful for: (a) L41 ($\mu$ = $M_{\rm Pl,2D}^2$ = 9×10⁶ GeV², closed v3.0.22), (b) L42 ($m_{3+1D}$ = $v_{\rm Higgs}$, closed), (c) c = 1 Liouville structure, (d) N = 12 SYK structure. It does NOT derive $\alpha$.
 
 **Approach**: Trial-and-error of the 2D Lagrangian over 6
 separate calculations. Goal: identify the components that give
@@ -1287,7 +1287,7 @@ Only 2 free parameters remain in SIDC:
 
 | Param | Value | Meaning |
 |-------|-------|---------|
-| **L41: $\mu$** | 9 × 10⁶ GeV² | 2D Liouville cosmological constant (= $M_{\rm Pl}$,2D²) |
+| **L41: $\mu$** | 9 × 10⁶ GeV² | 2D Liouville cosmological constant (= $M_{\rm Pl,2D}^2$) |
 | **L42: m₃₊₁D** | 246 GeV | Higgs VEV (EW scale) |
 
 Everything else is derived from these + 2D CFT structure:

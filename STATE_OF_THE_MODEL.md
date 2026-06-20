@@ -108,7 +108,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 | Math wrapping | `wrap_math_vars.py` state machine: 1020 substitutions across paper, supporting/, root files |
 | Adjacent math | `combine_adjacent_math.py`: combines `$X$  $Y$` → `$X Y$`. 171 changes across 15 files |
 | Math spacing | `fix_math_spacing.py` 2-pass: 567 changes across 17 files (conservative v1 was only 105) |
-| LaTeX bug fixes | 28 broken `$$...$` patterns, 4 stray `$` markers producing ugly output |
+| LaTeX bug fixes | 28 broken `$...$` patterns, 4 stray `$` markers producing ugly output |
 | Pre-build lint | `pymarkdownlnt` + math-balance awk check in `build_pdf.sh` |
 | **DE match fix** | **8.4% → 0.13%** (v3.3 simple $f_{\rm DE}$ formula, near-exact). User caught: "AGN should match DE exact" |
 | Consistency sweep | Title/README/STATE/persistent_memory brought to v3.5.7+ consistent |

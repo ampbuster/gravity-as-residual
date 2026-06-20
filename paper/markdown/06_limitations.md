@@ -83,16 +83,16 @@ The full table follows:
 | 23 | RAR population generalization | OPEN | §4.1 | A per-morphology derivation |
 | 24 | Mass-dependent scale factor | REVERTED | §4.1 | Better data needed |
 | 25 | RAR population improvement | REVERTED | §4.1 | Reverted to honest 8-12% fit |
-| 26 | Full Lagrangian | **PARTIAL** (v2.4, v2.7.3) | §4.38, §4.44, §4.44.1, §4.44, §7.1, §8.1.4 | 5/10 constraints by construction + T^eff_$\mu$$\nu$ derived + J_bulk=0 BC in §4.44 + v2.4 refactor (2-3 free action params: $G_5$, $\alpha$, $\tau_{2D}$) + v2.7.3 web-research reduction of 4 free 2D CFT params ($\mu$, b, $\alpha$, z_0) to 2 free ($\mu$, $m_{3+1D}$); remaining is 2D CFT expert |
-| 27 | RAR functional form (SIDC vs MOND) | **PARTIAL** (v2.3.1) | §4.42 | CONFIRMED via per-galaxy g_+$ (43 galaxies, 4.5 decades in $M_{b}$) $ |
-| 28 | Galaxy-vs-cluster g_+$ divergence | **PARTIAL** (v2.3.1) | §4.42 | Cluster enhancement ~17.5× via MOND EFE $ |
+| 26 | Full Lagrangian | **PARTIAL** (v2.4, v2.7.3) | §4.38, §4.44, §4.44.1, §4.44, §7.1, §8.1.4 | 5/10 constraints by construction + $T^{\rm eff}_{\mu\nu}$ derived + J_bulk=0 BC in §4.44 + v2.4 refactor (2-3 free action params: $G_5$, $\alpha$, $\tau_{2D}$) + v2.7.3 web-research reduction of 4 free 2D CFT params ($\mu$, b, $\alpha$, z_0) to 2 free ($\mu$, $m_{3+1D}$); remaining is 2D CFT expert |
+| 27 | RAR functional form (SIDC vs MOND) | **PARTIAL** (v2.3.1) | §4.42 | CONFIRMED via per-galaxy $g_+$ (43 galaxies, 4.5 decades in $M_{b}$) $ |
+| 28 | Galaxy-vs-cluster $g_+$ divergence | **PARTIAL** (v2.3.1) | §4.42 | Cluster enhancement ~17.5× via MOND EFE $ |
 | 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219× bifurcation was a numerical error (§3.27). The 0.7-3× revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
 | 30 (NEW) | Topological eigenvalue (5/27) | **PARTIAL** (v2.4) | §2.6.1 | ANCHORED as $V_5 / A_4 R_{AdS₅} = 27/5$ via AdS $_5$/CFT $_4$ holographic counting; specific value depends on zero-mode counting of bulk-brane Dirac operator; closing this requires a 2D CFT expert |
 | 31 (NEW) | 2D-to-3+1D time compression | OPEN (v2.6) | §2.5, §2.6 | The bulk position distribution P(y) is unknown; required $e^{-ky} \sim 10^{-48}$ corresponds to 2D universes ~100 AdS₅ radii deep; a specific bulk geometry and 2D CFT calculation would close this |
 | 32 (REMOVED v2.7) | 4-zone H(z) derivation | N/A | N/A | REMOVED in v2.7: the 4-zone H(z) was data fitting (8 free parameters for ~5 data points), and the P(y) problem made it internally inconsistent. SIDC now adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved. |
 | 33 (NEW) | $\Omega_{\rm DM}$ = 0.27 as input postulate | OPEN (v2.6) | §2.5, §2.6 | SIDC postulates that all observed DM is 2D universe mass, time-compressed; the specific 27% value is an INPUT from Planck 2018, not a derivation; closing this would require a 2D CFT calculation that yields 27% as a numerical output |
-| 34 (NEW v2.7.5) | $E_{\rm primordial}$ (per-event energy of primordial 2D universes) | OPEN (v2.7.5) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* $$F_p $$, but does NOT specify the per-event energy $E_{\rm primordial}$. The 2D universe lifetime $\tau_{2D}$, growth factor G, and cumulative energy all depend on $E_{\rm primordial}$. SIDC treats $E_{\rm primordial}$ as a FREE PARAMETER. Closing requires a derivation of $E_{\rm primordial}$ from the 4D event's internal dynamics. |
-| 35 (NEW v2.7.5) | $z_{\rm half}$ (smooth $$F_p $$ transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth $F_p$(z) = 0.7 + 0.3 * z^2/($z_{\rm half}$^2 + z^2) introduces free parameter $z_{\rm half}$ ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of $z_{\rm half}$ from 4D event dynamics. |
+| 34 (NEW v2.7.5) | $E_{\rm primordial}$ (per-event energy of primordial 2D universes) | OPEN (v2.7.5) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* $$F_p $, but does NOT specify the per-event energy $E_{\rm primordial}$. The 2D universe lifetime $\tau_{2D}$, growth factor G, and cumulative energy all depend on $E_{\rm primordial}$. SIDC treats $E_{\rm primordial}$ as a FREE PARAMETER. Closing requires a derivation of $E_{\rm primordial}$ from the 4D event's internal dynamics. |
+| 35 (NEW v2.7.5) | $z_{\rm half}$ (smooth $$F_p $ transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth $F_p$(z) = 0.7 + 0.3 * z^2/($z_{\rm half}$^2 + z^2) introduces free parameter $z_{\rm half}$ ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of $z_{\rm half}$ from 4D event dynamics. |
 | 36 (NEW v2.7.5) | $E_{\rm crit}$ (phase-transition threshold) | REVERTED (v2.7.5) | §2.5.3 | v2.3.0 $E_{\rm crit} \sim 10^{30}$ J step-function threshold REMOVED in v2.7.4 in favor of smooth creation function C(E) = $E^{1+\alpha}$. The smooth function uses only existing $\alpha = 1.29$, no new free parameters. All 5/5 dwarf cases still work. |
 | 37 (NEW v2.7.30) | $\alpha$ = 1.29 CGHS derivation | OPEN (v2.7.30) | §3.19, §3.24 | SIDC's §3.19 claimed $\alpha$ = 1.29 is in the CGHS back-reaction range [1, 3]. §3.24 self-critique: no standard CGHS scaling gives constant $\tau_{2D,\rm proper}$. A specific CGHS-with-back-reaction calculation yielding p = 1.29 is needed to close this. This is a research challenge, not a derivation. Future work: specific CGHS calculation. |
 | 38 (NEW v3.0.2) | SIDC naming re-justification | OPEN (v3.0.2) | §3.61 | "Scale-Invariant Dimensional Cascade" naming is now justified by the dimensional scale invariance (§3.61), but the specific values depend on the dimensional transition. The 1/√N correction is a finite-size (finite-N) breaking of the structural scale invariance. |
@@ -130,7 +130,7 @@ The full table follows:
 | 115 (NEW v3.0.22) | 2D CFT formulas at the 2D Planck tip give 8 derivations | PARTIAL (v3.0.22) | §3.63, v37 | Applied 8 standard 2D CFT formulas at the 2D Planck tip: (1) Casimir energy, (2) Cardy formula (thermal entropy), (3) Bekenstein-Hawking entropy ~ 10^31 (huge), (4) Hawking temperature ~ 10^46 K (Planckian), (5) FZZT brane with g_L ~ 6.9 × 10^11, (6) Affleck-Ludwig boundary entropy, (7) Ising modular S-matrix, (8) 2D energy levels. Boundary CC $\mu_{\rm B}$ ~ 5 × 10^38 J/m² (derivable from $f_{\rm back}$). Internal 2D entropy ~ 1, External 3+1D entropy ~ 10^31 (huge mismatch). STRENGTH: 8 distinct formulas give CONSISTENT numbers. WEAKNESS: the formulas are CONSISTENCY CHECKS, not derivations of the action. |
 | 116 (NEW v3.0.22) | A Lagrangian for SIDC | PARTIAL (v3.0.22) | §3.62.6, v38 | Proposed $S_{\rm SIDC}$ = $S_{\rm 4D,event}$ + $S_{\rm 3+1D,brane}$ + $\Sigma_{\rm events}$ $S_{\rm 2D,universe}$ + $S_{\rm projection}$. Each component specified: $S_{\rm 4D}$ ($M_{\rm Pl,4}$ = 4×10²³ GeV), $S_{\rm 3+1D}$ (SM + $\Lambda$ = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl}$,3²), $S_{\rm 2D}$ = $S_{\rm Liouville}$ + $S_{\rm Ising}$ + $S_{\rm SYK}$ + S_FZZT, $S_{\rm projection}$ with TIME DILATION $\alpha$ = 1.289. Closed loop: $f_{\rm back}$ = g_couple² × Z_2D($\tau_{\rm 2D}$) / E_3D². Numerical check: SN $\tau_{\rm 2D}$ = 29.6 s ≈ 33 s ✓; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr (DE-calibrated) ✓. CRITICAL ISSUE FOUND: c = 1 (Liouville) + 6 (12 Majorana) = 7, NOT c = 1.5 as previously stated. Resolved in L117 (UV/IR RG flow). STRENGTH: complete Lagrangian with all components. WEAKNESS: 5D bulk action S_5D_bulk is MISSING, 4D event matter L_4D_matter is UNKNOWN, projection mechanism not specified. |
 | 117 (NEW v3.0.22) | c-value contradiction resolved: UV c=7 → IR c=3/2 via SYK q=4 | RESOLVED (v3.0.22) | §3.62.6, v39 | The Lagrangian v38 had c = 7 (1 Liouville + 6 from 12 Majorana), not c = 3/2 (1 + 1/2). Resolution: 12 Majorana are UV DOF; the c = 1/2 is the IR mode. SYK q = 4 interaction GAPS OUT 11 of 12 Majorana modes (mass gap m_gap ~ 9 TeV), leaving 1 Ising mode. c-theorem satisfied: 7 > 3/2 (RG flow reduces c). STRENGTH: c-theorem provides consistency check. WEAKNESS: the mass gap is an ESTIMATE from SYK q=4, not precisely computed. |
-| 118 (NEW v3.0.22) | L41 ($\mu$) and L42 (m₃₊₁D) CLOSED; only 2 free parameters | RESOLVED (v3.0.22) | §3.62.7, v40 | L41: $\mu$ = $M_{\rm Pl}$,2D² = (3 TeV)² = 9 × 10^6 GeV² (2D Liouville cosmological constant). L42: m₃₊₁D = $v_{\rm Higgs}$ = 246 GeV (Higgs VEV). These are the ONLY two free parameters in SIDC. Everything else derived from these + 2D CFT structure. Single-particle event (Higgs VEV) gives $\tau_{\rm 2D}$ ~ 10^-65 s — BELOW 2D Planck time. Only MACROSCOPIC events (SN, AGN) create 2D universes. STRENGTH: from 5 free parameters (original) to 2 (current). WEAKNESS: m₃₊₁D = $v_{\rm Higgs}$ identification is suggestive (consistent with EW scale) but not rigorously derived. The connection between 2D CC $\mu$ and $M_{\rm Pl,2D}$ is also suggestive. |
+| 118 (NEW v3.0.22) | L41 ($\mu$) and L42 (m₃₊₁D) CLOSED; only 2 free parameters | RESOLVED (v3.0.22) | §3.62.7, v40 | L41: $\mu$ = $M_{\rm Pl,2D}^2$ = (3 TeV)² = 9 × 10^6 GeV² (2D Liouville cosmological constant). L42: m₃₊₁D = $v_{\rm Higgs}$ = 246 GeV (Higgs VEV). These are the ONLY two free parameters in SIDC. Everything else derived from these + 2D CFT structure. Single-particle event (Higgs VEV) gives $\tau_{\rm 2D}$ ~ 10^-65 s — BELOW 2D Planck time. Only MACROSCOPIC events (SN, AGN) create 2D universes. STRENGTH: from 5 free parameters (original) to 2 (current). WEAKNESS: m₃₊₁D = $v_{\rm Higgs}$ identification is suggestive (consistent with EW scale) but not rigorously derived. The connection between 2D CC $\mu$ and $M_{\rm Pl,2D}$ is also suggestive. |
 | 119 (NEW v3.0.22) | Closed loop derivation PARTIAL: structure identified, formula not derived from first principles | OPEN (v3.0.22) | §3.67, v42 | The closed loop formula $f_{\rm back}$ = ($t_{\rm Pl,3}$/$\tau_{\rm 4D}$) × ($\tau_{\rm SN}$/$\tau_{\rm universe}$) × ($E_{\rm 4D}$/ $E_{\rm SN}$)$^{1/(2\alpha)}$ has the CORRECT structure (numerical decomposition matches within rounding) but is NOT derived from first principles. The $1/(2\alpha)$ exponent is the Ising CFT × time dilation = $c/\alpha$ where c = 1/2 (N=24 = Ising central charge) and $\alpha$ = 1.289 is the time dilation. The 1/2 is from c = N/24, the 1/$\alpha$ is the inverse time dilation. The time ratios are natural scales (Planck vs cosmic, event vs age). A FULL derivation requires the complete 5D bulk action, the projection mechanism, the boundary state calculation, and the closed loop's path integral — all of which are OPEN PROBLEMS. The closed loop is a CONSISTENCY CONDITION between 4D event eternal nature, 2D CFT Ising structure, time dilation, and dimensional hierarchy. |
 | 120 (NEW v3.0.22) | Lagrangian AUDIT: 73% overall confidence | PARTIAL (v3.0.22) | §3.62.8, v41 | Link consistency: 12/12 = 100% (all major SIDC predictions linked to Lagrangian). Numerical consistency: 5/6 = 83% (SN lifetime, DE density, $f_{\rm back}$, g_{\rm 2D}, 4D event, hierarchy). Issue resolution: 37% (10 issues: 2 resolved, 3 partial, 1 accepted, 4 open). OVERALL: 73%. The Lagrangian is a VIABLE STARTING POINT for SIDC's full action. |
 | 121 (NEW v3.0.22) | Cone extends to 5D and 6D with the SAME $\alpha$ | SPECULATIVE (v3.0.22) | §3.68, v43 | Power-law extrapolation $M_{\rm Pl,N}$ = $M_{\rm Pl,4}$ / $\alpha$^(N-4) gives: $M_{\rm Pl}$,5 = 688 GeV, $M_{\rm Pl}$,6 = 534 GeV, $M_{\rm Pl}$,7 = 414 GeV, $M_{\rm Pl}$,8 = 321 GeV, $M_{\rm Pl}$,9 = 249 GeV $\sim v_{\rm Higgs}$, $M_{\rm Pl}$,10 = 193 GeV. The hierarchy CONVERGES to the EW scale at N ~ 9. STRENGTH: a consistent extension of SIDC's framework. WEAKNESS: the power-law scaling is ASSUMED, not derived. The specific form $M_{\rm Pl,N}$ = $M_{\rm Pl,4}$ / $\alpha$^(N-4) is one of several possibilities (could be exponential, or have $\alpha$-dependent corrections). |
@@ -140,7 +140,7 @@ The full table follows:
 | 125 (NEW v3.0.22) | LHC null results explained by $f_{\rm DE}$ suppression at all levels | SPECULATIVE (v3.0.22) | §3.68, v44 | LHC has tested up to 14 TeV but found no string physics, no extra dimensions, no new particles (besides Higgs). SIDC's explanation: even at $v_{\rm Higgs}$ = 246 GeV, string physics has $f_{\rm DE}^2$ ~ 10⁻¹⁷⁰ cross-section suppression. Same mechanism that makes 2D universes invisible (L108). WEAKNESS: the suppression estimate is for 2D universes; the 9D string suppression could be different. |
 | 126 (NEW v3.0.22) | 12 SYK Majorana = 9 spatial + 3 generational? | SPECULATIVE (v3.0.22) | §3.68, v44 | N = 12 = 9 + 3. If 9 Majorana are "spatial" (gapped by string physics at 9D) and 3 are "generational" (surviving IR modes), this explains why exactly 1 Ising mode survives (the 3 generational Majorana gap down to 1 Ising). STRENGTH: provides a structural reason for 12 = 9 + 3. WEAKNESS: speculative, requires detailed SYK string-coupling calculation to verify. |
 | 127 (NEW v3.0.22) | Hierarchy problem solved by cascade structure | SPECULATIVE (v3.0.22) | §3.68, v44 | Why is $M_{\rm Pl,3}$ = 10^19 GeV so much bigger than $v_{\rm Higgs}$ = 246 GeV? SIDC's answer: $M_{\rm Pl,3}$ is the 3+1D Planck, $v_{\rm Higgs}$ is the 9D Planck (string scale). They're at DIFFERENT levels of the cascade. No fine-tuning needed. STRENGTH: provides a structural solution. WEAKNESS: the cascade structure itself is not derived from first principles (L43 still OPEN). |
-| 138 (NEW v3.1.1, REVISED v3.1.2, SCENARIO X) | $f_{\rm back}$ = 10⁻⁸⁵ is a CALIBRATION; closed-loop formula gives FORM, not value; $M_{\rm Pl,4D}$ is the 4D BULK Planck (different from $M_{\rm Pl,3D}$) | PARTIAL → RESOLVED (v3.1.2, Scenario X) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): the closed-loop formula $f_{\rm back} = (M_{\rm Pl,N}/E_{\rm event})^\alpha$ gives the FORM (universal at every dimensional transition, scales with $\alpha$ = 1.289). The VALUE is calibrated: $M_{\rm Pl,4D}$ = 4×10²³ GeV (4D BULK Planck, INDEPENDENT of our universe's Planck) with $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale 4D event). The DE formula uses $M_{\rm Pl,3D}$ = 10¹⁹ GeV (our universe's Planck, MEASURED) for $\rho_{\rm DE}$ = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl}$,3D⁴. STRENGTH: FORM is universal at 2D→3D AND 3D→4D; $M_{\rm Pl,4D}$ and $M_{\rm Pl,3D}$ are correctly identified as DIFFERENT (bulk vs brane), consistent with brane-world physics. WEAKNESS: $M_{\rm Pl,4D}$ = 4×10²³ GeV is INFERRED, not measured; $E_{\rm 4D}$ = 5×10⁷⁹ J is calibrated (consistent with closed-loop, but the partition between $M_{\rm Pl,4D}$ and $E_{\rm 4D}$ is one-parameter, fixed by the closed-loop ratio). |
+| 138 (NEW v3.1.1, REVISED v3.1.2, SCENARIO X) | $f_{\rm back}$ = 10⁻⁸⁵ is a CALIBRATION; closed-loop formula gives FORM, not value; $M_{\rm Pl,4D}$ is the 4D BULK Planck (different from $M_{\rm Pl,3D}$) | PARTIAL → RESOLVED (v3.1.2, Scenario X) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): the closed-loop formula $f_{\rm back} = (M_{\rm Pl,N}/E_{\rm event})^\alpha$ gives the FORM (universal at every dimensional transition, scales with $\alpha$ = 1.289). The VALUE is calibrated: $M_{\rm Pl,4D}$ = 4×10²³ GeV (4D BULK Planck, INDEPENDENT of our universe's Planck) with $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale 4D event). The DE formula uses $M_{\rm Pl,3D}$ = 10¹⁹ GeV (our universe's Planck, MEASURED) for $\rho_{\rm DE}$ = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl,3D}^4$. STRENGTH: FORM is universal at 2D→3D AND 3D→4D; $M_{\rm Pl,4D}$ and $M_{\rm Pl,3D}$ are correctly identified as DIFFERENT (bulk vs brane), consistent with brane-world physics. WEAKNESS: $M_{\rm Pl,4D}$ = 4×10²³ GeV is INFERRED, not measured; $E_{\rm 4D}$ = 5×10⁷⁹ J is calibrated (consistent with closed-loop, but the partition between $M_{\rm Pl,4D}$ and $E_{\rm 4D}$ is one-parameter, fixed by the closed-loop ratio). |
 | 139 (NEW v3.1.1, REVISED v3.1.2, SCENARIO X) | "Closed loop" formula: $f_{\rm back}$ = ($M_{\rm Pl}$,$E_{\rm event}$)$^{\alpha}$ applies at EVERY dimensional transition | PARTIAL → RESOLVED (v3.1.2) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): the closed-loop formula $f_{\rm back} = (M_{\rm Pl,N}/E_{\rm event})^\alpha$ with $\alpha$ = 1.289 applies at BOTH 2D→3D AND 3D→4D. For 2D→3D: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV (our universe's Planck, MEASURED), $E_{\rm SN}$ = 10⁴⁴ J, gives $f_{\rm DM,leak}$ = 1.6×10⁻⁴⁵/s and $\tau_{\rm 2D}$ = 33s. For 3D→4D: $M_{\rm Pl,4D}$ = 4×10²³ GeV (4D BULK Planck, INFERRED, Scenario X), $E_{\rm 4D}$ = 5×10⁷⁹ J (galaxy-scale), gives $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s and $\tau_{\rm 4D}$ = 1.4×10³⁴ yr. The $M^{\alpha}$ law is the SAME formula at every level. STRENGTH: TRUE closed loop with universal formula; DIFFERENT $M_{\rm Pl}$ at different levels ($M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ inferred) is consistent with brane-world physics where bulk and brane have different gravity. WEAKNESS: $M_{\rm Pl,4D}$ = 4×10²³ GeV is INFERRED (cascade calibration, not direct measurement). |
 | 140 (NEW v3.1.1) | $\epsilon$ = 10⁻³⁸ is OBSERVED (hierarchy problem), not derived | OPEN (v3.1.1) | §3.60.3, v31_F_p_consistency.py | $\epsilon$ = 10⁻³⁸ is the observed ratio of gravitational to EM force strength (the hierarchy problem). SIDC's mechanism (4D antigravity cancels 3+1D gravity, residual is $\epsilon$) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC; it is relabeled with a geometric story. STRENGTH: honest framing. WEAKNESS: the value 10⁻³⁸ is input, not output. |
 | 141 (NEW v3.1.1-final, REVISED v3.1.2, SCENARIO X) | $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)$^{\alpha}$ is UNIVERSAL at every dimensional transition with DIFFERENT $M_{\rm Pl,N}$ at each level | RESOLVED → REINFORCED (v3.1.2) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)$^{\alpha}$ applies at BOTH 2D→3D and 3D→4D with DIFFERENT $M_{\rm Pl}$ at each level (2D = 3 TeV, 3D = 10¹⁹ GeV, 4D = 4×10²³ GeV). The previous v3.1.1-final claim that " $f_{\rm back}$ ONLY makes sense as 3D-to-4D leakage" was about the 10⁻⁸⁵ VALUE matching DE, not about the formula being level-specific. v3.1.2 unifies: the FORMULA is universal ($M_{\rm Pl}$/E)$^{\alpha}$, the VALUES differ (1.6×10⁻⁴⁵ at 2D→3D vs 1.2×10⁻⁸⁵ at 3D→4D) because BOTH $M_{\rm Pl}$ and $E_{\rm event}$ differ at each level. The 100% pulsed return at death is ALSO universal. STRENGTH: $f_{\rm back}$ is genuinely universal in FORM; DIFFERENT $M_{\rm Pl}$ at each level is consistent with brane-world physics (bulk Planck ≠ brane Planck ≠ 2D brane Planck). WEAKNESS: $M_{\rm Pl,4D}$ = 4×10²³ GeV is INFERRED (not measured); $E_{\rm 4D}$ = 5×10⁷⁹ J is galaxy-scale (calibrated, not derived). |
@@ -193,7 +193,7 @@ The full table follows:
 **Honest framing:** SIDC is a *geometric framework* with 3 strong empirical wins (Limitation 27 confirmed, Limitation 28 partially closed, 5/27/68 match to 0.5%) and 15 open limitations (down from 17 in v2.3.2). SIDC is honest about which is which.
 
 SIDC's STRENGTHS:
-- LOCAL physics: g_+$, RAR, AGN, dwarf galaxies (Limitation 27 confirmed)
+- LOCAL physics: $g_+$, RAR, AGN, dwarf galaxies (Limitation 27 confirmed)
 - 5/27/68 observational match (Limitation 17: now anchored as eigenvalue)
 - Falsifiability: 14 Hubble mechanisms tested, 2 mechanisms falsified
 - v2.4 tensor pipeline: $J^A_{bulk} = 0$ BC + 5/27 anchored + 2-3 free params
@@ -234,7 +234,7 @@ SIDC's HONEST position (Mechanism M):
 
 **Status of remaining limitations (v2.3.1 update):**
 
-- Limitations 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13 (no derivation of dimensional structure, inversion mechanism, original event parameters, time-dilation rule, proportionality constants [partial], CMB spectrum, direct-detection signals, dark-matter-activity weighting, 2D physics, 4D event source, near-exact cancellation, four-force unification) remain open. Limitation 5 (proportionality constants), 15 (staying fraction), and 20 ($f_{\rm active}$ derivation) are PARTIALLY closed. Limitation 14 (sign ambiguity) is FULLY closed. Limitation 28 (cluster g_+$) is PARTIALLY closed ($V_{\rm local}$ formula matches MOND EFE within 30%). Limitation 11.5 is the new architectural-choice limitation added in v2.3.1.
+- Limitations 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13 (no derivation of dimensional structure, inversion mechanism, original event parameters, time-dilation rule, proportionality constants [partial], CMB spectrum, direct-detection signals, dark-matter-activity weighting, 2D physics, 4D event source, near-exact cancellation, four-force unification) remain open. Limitation 5 (proportionality constants), 15 (staying fraction), and 20 ($f_{\rm active}$ derivation) are PARTIALLY closed. Limitation 14 (sign ambiguity) is FULLY closed. Limitation 28 (cluster $g_+$) is PARTIALLY closed ($V_{\rm local}$ formula matches MOND EFE within 30%). Limitation 11.5 is the new architectural-choice limitation added in v2.3.1.
 
 - **NEW limitation 16:** The 4D event's specific temporal structure (needed for Mechanism B/F) is not derived. The 8% "burst" amplitude is empirical, not predicted. *Status: now FALSIFIED* — Mechanism B/F's specific quantitative prediction $H_0$(z) ~ 1/(1+z)^(2/3) is rejected by Pantheon+ at 7 sigma with full covariance matrix (commit 82). SIDC's *qualitative* $H_0$ prediction (73) is consistent with data, but Mechanism B/F's specific quantitative form is not. This is now part of Limitation 18 (SIDC does not resolve the Hubble tension).
 
@@ -393,7 +393,7 @@ SIDC's $V_{local}$ formula and MOND's external field effect are the **same physi
 
 **The $M_{b}$ slope discrepancy (0.23 vs 0.5-0.6) is meaningful:** SIDC's $V_{\rm local}$ formula P_energetic / $V_{\rm local}$ is NOT simply proportional to $M_{b}$. P_energetic depends on the cluster's ICM activity (AGN feedback, cooling flows), which is NOT a simple function of $M_{b}$. This is a *specific calculation* that requires modeling the cluster's energy budget — left for future work (Limitation 26).
 
-*Status: 2 of 4 $V_{\rm local}$ predictions confirmed ($g_+$ $∝ $\sigma$² and g_+$ constant with z). 2 partially confirmed ($g_+$ $∝$M_{b} $has wrong slope, g_+$ vs Reff has unexpected sign). SIDC's $V_{\rm local}$ picture is QUALITATIVELY CORRECT but the EXACT coefficients require the 2D brane dynamics (Limitation 26).*
+*Status: 2 of 4 $V_{\rm local}$ predictions confirmed ($g_+$ $∝ $\sigma$² and $g_+$ constant with z). 2 partially confirmed ($g_+$ $∝$M_{b} $has wrong slope, $g_+$ vs Reff has unexpected sign). SIDC's $V_{\rm local}$ picture is QUALITATIVELY CORRECT but the EXACT coefficients require the 2D brane dynamics (Limitation 26).*
 
 These limitations are not unusual for a thought experiment. They are the natural next steps for theoretical development. They are the natural next steps for theoretical development.
 
@@ -430,7 +430,7 @@ SIDC's action in §2.5.1 (with its CTP extension in §2.5.2) provides the **boun
 SIDC is *unusually well-positioned* for theorists to contribute because:
 
 - The action structure is **fixed** (§2.5.1, §2.5.2). Theorists don't need to design the framework; they need to fill in the free parameters.
-- The empirical targets are **sharp**. SIDC's g_+$ at galaxies ($1.2 \times 10^{-10}$ m/s²) and at cluster BCGs ($1.7 \times 10^{-9}$ m/s²) are well-measured. The MOND EFE scaling g_+$ ∝ σ^1.85 (Tian+ 2024) is a clean test.
+- The empirical targets are **sharp**. SIDC's $g_+$ at galaxies ($1.2 \times 10^{-10}$ m/s²) and at cluster BCGs ($1.7 \times 10^{-9}$ m/s²) are well-measured. The MOND EFE scaling $g_+$ ∝ σ^1.85 (Tian+ 2024) is a clean test.
 - The failure modes are **documented**. The 4D graph theory attempt at deriving 5/27/68 FAILED (commit 173). The 8 approaches are documented in `calculations/five_27_68_graph_theory.py`. A theorist can either succeed where these failed, or build on the failures to constrain the 4D event's specific physics.
 - The phenomenological pipeline is **ready**. SPARC (175 galaxies), Tian+ 2024 (50 BCGs), and Pantheon+ (1701 SNe) are all analyzed. New theoretical predictions can be tested against these datasets immediately.
 
@@ -550,7 +550,7 @@ L301. **CFT structures (Schwarzian, DOZZ, JT gravity, Liouville c=1) do not dire
 
 NO 2D CFT structure gives α = 1.289 naturally. The "1 + 1/√N" formula is the CLEANEST match but is still a structural interpretation. Source: `calculations/v35_tier2_research_depth.py`.
 
-L302. **F-theory compactification does not immediately give μ = 9×10⁶ GeV²** (v3.5, #6). F-theory estimates μ ∝ $M_{\rm Pl}$,4D²/Vol_6(CY3), which gives different values depending on CY3 specifics. With $M_{\rm Pl,4D}$ = 4×10²³ GeV and typical Vol_6, μ ~ 10⁴⁰-10⁴¹ GeV², which is ~10³⁴× off from framework's μ = 9×10⁶ GeV². v3.4 F-theory adoption does NOT immediately close L26. Source: `calculations/v35_tier2_research_depth.py`.
+L302. **F-theory compactification does not immediately give μ = 9×10⁶ GeV²** (v3.5, #6). F-theory estimates μ ∝ $M_{\rm Pl,4D}^2$/Vol_6(CY3), which gives different values depending on CY3 specifics. With $M_{\rm Pl,4D}$ = 4×10²³ GeV and typical Vol_6, μ ~ 10⁴⁰-10⁴¹ GeV², which is ~10³⁴× off from framework's μ = 9×10⁶ GeV². v3.4 F-theory adoption does NOT immediately close L26. Source: `calculations/v35_tier2_research_depth.py`.
 
 L303. **NEW ANGLE for μ: μ might be the AdS_2 radius of the 2D universe** (v3.5, #6, SPECULATIVE). The 2D universe is asymptotically AdS_2 (with cosmological constant Λ = -μ). The AdS_2 curvature scale IS μ. From F-theory: μ might come from compactification of 4D bulk geometry. This is physically motivated but speculative. Not yet derived. Source: `calculations/v35_tier2_research_depth.py`.
 
@@ -561,19 +561,19 @@ L303. **NEW ANGLE for μ: μ might be the AdS_2 radius of the 2D universe** (v3.
 
 ## 7.4.5 μ's 5 Structural Motivations (v3.5.7+, CONSOLIDATED)
 
-**Status update (v3.5.7+)**: μ = $M_{\rm Pl}$,2D² = 9×10⁶ GeV² has FIVE independent structural reasons. All five independently yield μ = $M_{\rm Pl}$,2D² via the framework's choice $M_{\rm Pl,2D}$ = 3 TeV. This is REMARKABLE convergence.
+**Status update (v3.5.7+)**: μ = $M_{\rm Pl,2D}^2$ = 9×10⁶ GeV² has FIVE independent structural reasons. All five independently yield μ = $M_{\rm Pl,2D}^2$ via the framework's choice $M_{\rm Pl,2D}$ = 3 TeV. This is REMARKABLE convergence.
 
-### The 5 Independent Paths to μ = $M_{\rm Pl}$,2D²
+### The 5 Independent Paths to μ = $M_{\rm Pl,2D}^2$
 
 | # | Path | Reference | Key Formula | Result |
 |---|---|---|---|---|
-| **1** | **Unimodular Gravity** | Rassouli 2025 (arXiv:2501.17213); Hallam-Magueijo 2025 (arXiv:2511.13562); arXiv:2406.00932 | μ is integration constant (not coupling) | μ = $M_{\rm Pl}$,2D² ✓ |
-| **2** | **Hagedorn $T_H$** | Chaudhuri 2001 PRL 86, 1943 | μ = (2π $T_H$)² where $T_H$ = M_s/(2π) | μ = $M_{\rm Pl}$,2D² ✓ |
-| **3** | **JT Gravity U(Φ)=2Φ** | Jackiw-Teitelboim 1985; Stanford-Witten 2017; JHEP05(2024)244 | μ = -$R_{\rm AdS}$,2/2 (AdS_2 Ricci scalar) | μ = $M_{\rm Pl}$,2D² ✓ |
-| **4** | **String Thermal Duality** | Kogan 1990; Chaudhuri 2005 (arXiv:hep-th/0105244); Kounnas-Partouche-Toumbas 2012 | b ↔ 1/(2b) self-dual gives $T_H$ = M_s/(2π) | μ = $M_{\rm Pl}$,2D² ✓ |
-| **5** | **Hawking-Page + Euclidean Periodicity** | Hawking-Page 1983; Witten 1998; arXiv:2606.10647 (2025) | β = 2π $L_{\rm AdS}$,2 gives $T_H$ = 1/(2πL) | μ = $M_{\rm Pl}$,2D² ✓ |
+| **1** | **Unimodular Gravity** | Rassouli 2025 (arXiv:2501.17213); Hallam-Magueijo 2025 (arXiv:2511.13562); arXiv:2406.00932 | μ is integration constant (not coupling) | μ = $M_{\rm Pl,2D}^2$ ✓ |
+| **2** | **Hagedorn $T_H$** | Chaudhuri 2001 PRL 86, 1943 | μ = (2π $T_H$)² where $T_H$ = M_s/(2π) | μ = $M_{\rm Pl,2D}^2$ ✓ |
+| **3** | **JT Gravity U(Φ)=2Φ** | Jackiw-Teitelboim 1985; Stanford-Witten 2017; JHEP05(2024)244 | μ = -$R_{\rm AdS}$,2/2 (AdS_2 Ricci scalar) | μ = $M_{\rm Pl,2D}^2$ ✓ |
+| **4** | **String Thermal Duality** | Kogan 1990; Chaudhuri 2005 (arXiv:hep-th/0105244); Kounnas-Partouche-Toumbas 2012 | b ↔ 1/(2b) self-dual gives $T_H$ = M_s/(2π) | μ = $M_{\rm Pl,2D}^2$ ✓ |
+| **5** | **Hawking-Page + Euclidean Periodicity** | Hawking-Page 1983; Witten 1998; arXiv:2606.10647 (2025) | β = 2π $L_{\rm AdS}$,2 gives $T_H$ = 1/(2πL) | μ = $M_{\rm Pl,2D}^2$ ✓ |
 
-**Key insight**: All 5 paths converge to $T_H$ = $M_{\rm Pl,2D}$/(2π), which gives μ = (2π $T_H$)² = $M_{\rm Pl}$,2D².
+**Key insight**: All 5 paths converge to $T_H$ = $M_{\rm Pl,2D}$/(2π), which gives μ = (2π $T_H$)² = $M_{\rm Pl,2D}^2$.
 
 ### Path 1: Unimodular Gravity (Integration Constant)
 
@@ -583,7 +583,7 @@ In unimodular gravity, the cosmological constant Λ is an **INTEGRATION CONSTANT
 - **Hallam-Magueijo 2025** (arXiv:2511.13562): "Bimodular Gravity: Unimodularising Bimetric Scalar-Tensor Gravity". Two natural implementations (BUG and BHT/BDUG) with "bimodular cosmological constant Λ = λ₁ + νλ₂" as integration constant.
 - **arXiv:2406.00932** (2024): "Cosmological constant as an integration constant". Trace-free Einstein gravity, conformal Killing gravity.
 
-**For SIDC**: μ = $M_{\rm Pl}$,2D² is the 2D CC. If 2D universe follows unimodular gravity, μ is set by initial conditions (not coupling). **Calibration is EXPECTED**, not fine-tuning.
+**For SIDC**: μ = $M_{\rm Pl,2D}^2$ is the 2D CC. If 2D universe follows unimodular gravity, μ is set by initial conditions (not coupling). **Calibration is EXPECTED**, not fine-tuning.
 
 ### Path 2: Hagedorn $T_H$ (Chaudhuri 2001)
 
@@ -599,9 +599,9 @@ For M_s = 3 TeV: $\mu$ = 9×10⁶ GeV² ✓
 
 JT gravity action: S_JT = (1/$16\pi$G_2) ∫ d²x √-g [$\Phi$ R - U($\Phi$)].
 
-For AdS_2: $R_{\rm AdS}$,2 = -2/L². Equations of motion ($\Phi$ const): U'($\Phi$) = 2/L² = 2 $M_{\rm Pl}$,2D².
+For AdS_2: $R_{\rm AdS}$,2 = -2/L². Equations of motion ($\Phi$ const): U'($\Phi$) = 2/L² = 2 $M_{\rm Pl,2D}^2$.
 
-So U($\Phi$) = $2\Phi$ (matching AdS_2), and **$\mu$ = -$R_{\rm AdS}$,2/2 = $M_{\rm Pl}$,2D²**.
+So U($\Phi$) = $2\Phi$ (matching AdS_2), and **$\mu$ = -$R_{\rm AdS}$,2/2 = $M_{\rm Pl,2D}^2$**.
 
 **References**: Jackiw-Teitelboim 1985; Stanford-Witten 2017 (BF formulation); Almheiri-Polchinski 2015 (JT revival); JHEP05(2024)244 (gravitational edge mode in AdS_2); arXiv:2501.17213 (Rassouli 2025, unimodular JT, also connects to Path 1).
 
@@ -631,17 +631,17 @@ All 5 paths converge via $T_H$ = $M_{\rm Pl,2D}$/($2\pi$), which means the **$2\
 - Hawking-Page $T_H$ = 1/($2\pi$ L) (AdS_2 isometry)
 - Unruh T = a/($2\pi$) (acceleration)
 
-The "$2\pi$" comes from **periodic identification, modular flow, or causal diamond structure** in 2D. This is what makes $\mu$ = $M_{\rm Pl}$,2D² special — it's the unique 2D quantity that has the same form in 5 different contexts.
+The "$2\pi$" comes from **periodic identification, modular flow, or causal diamond structure** in 2D. This is what makes $\mu$ = $M_{\rm Pl,2D}^2$ special — it's the unique 2D quantity that has the same form in 5 different contexts.
 
 ### Status of L26 ($\mu$ first-principles)
 
 L26 ($\mu$ first-principles) STAYS OPEN as a derivation question. But the **STATUS UPGRADES** from "weakness" to "expected behavior":
 - $\mu$ has 5 independent structural motivations
-- All 5 give the SAME $\mu$ = $M_{\rm Pl}$,2D²
+- All 5 give the SAME $\mu$ = $M_{\rm Pl,2D}^2$
 - Framework is **CONSISTENT** with modern research (unimodular gravity, JT, string theory)
 - The calibration is no longer "fine-tuning" but "expected integration constant" (per Path 1)
 
-**For SIDC**: $\mu$ = $M_{\rm Pl}$,2D² is the UNIQUE 2D quantity that's:
+**For SIDC**: $\mu$ = $M_{\rm Pl,2D}^2$ is the UNIQUE 2D quantity that's:
 - An integration constant (Unimodular)
 - The self-dual Hagedorn $T_H$ (String)
 - The JT dilaton coefficient (AdS_2)
@@ -652,11 +652,11 @@ This is **NOT a coincidence** — it's the structural unity of 2D physics.
 
 ### New limitations added (v3.5.7+)
 
-L308a. **Unimodular gravity → $\mu$ integration constant** (v3.5.7+). Rassouli 2025, Hallam-Magueijo 2025 directly connect to SIDC's framework. Calibrated $\mu$ = $M_{\rm Pl}$,2D² is EXPECTED in unimodular 2D gravity. Status: STRUCTURAL MOTIVATION (not derivation). Source: `calculations/v35_unimodular_mu.py`.
+L308a. **Unimodular gravity → $\mu$ integration constant** (v3.5.7+). Rassouli 2025, Hallam-Magueijo 2025 directly connect to SIDC's framework. Calibrated $\mu$ = $M_{\rm Pl,2D}^2$ is EXPECTED in unimodular 2D gravity. Status: STRUCTURAL MOTIVATION (not derivation). Source: `calculations/v35_unimodular_mu.py`.
 
-L308b. **Hagedorn $T_H$ = M_s/($2\pi$) → $\mu$ = $M_{\rm Pl}$,2D²** (v3.5.7+). Chaudhuri 2001: self-dual Hagedorn temperature from closed string modular invariance gives $T_H$ = M_s/($2\pi$). Combined with 2D BH $\mu$ = ($2\pi$ $T_H$)²: $\mu$ = M_s² = $M_{\rm Pl}$,2D² ✓. Source: `calculations/v35_hagedorn_mu.py`.
+L308b. **Hagedorn $T_H$ = M_s/($2\pi$) → $\mu$ = $M_{\rm Pl,2D}^2$** (v3.5.7+). Chaudhuri 2001: self-dual Hagedorn temperature from closed string modular invariance gives $T_H$ = M_s/($2\pi$). Combined with 2D BH $\mu$ = ($2\pi$ $T_H$)²: $\mu$ = M_s² = $M_{\rm Pl,2D}^2$ ✓. Source: `calculations/v35_hagedorn_mu.py`.
 
-L308c. **JT U($\Phi$)=$2\Phi$ from $R_{\rm AdS}$,2 = -2/L² → $\mu$** (v3.5.7+). The "2" in U($\Phi$) = $2\Phi$ traces to AdS_2 Ricci scalar. $\mu$ = -$R_{\rm AdS}$,2/2 = $M_{\rm Pl}$,2D² ✓. Source: `calculations/v35_jt_mu.py`.
+L308c. **JT U($\Phi$)=$2\Phi$ from $R_{\rm AdS}$,2 = -2/L² → $\mu$** (v3.5.7+). The "2" in U($\Phi$) = $2\Phi$ traces to AdS_2 Ricci scalar. $\mu$ = -$R_{\rm AdS}$,2/2 = $M_{\rm Pl,2D}^2$ ✓. Source: `calculations/v35_jt_mu.py`.
 
 L308d. **String thermal duality b ↔ 1/(2b) → $T_H$** (v3.5.7+). Closed string left-right movers give factor 2. Self-dual point b² = 1/2 → $T_H$ = M_s/($2\pi$). Same as Hagedorn via different route. Source: `calculations/v35_string_duality_mu.py`.
 
@@ -694,7 +694,7 @@ The framework's $2\pi$ at 2D (Hawking-Page $T_H$) and $4\pi$ at 3D→4D ($\gamma
 
 L308j. **Cone extension to 9D/10D/12D is NOT APPLICABLE — cone terminates at 4D** (v3.5.7+, USER-DIRECTED). If the cascade cone were extended through 5D, 6D, ..., 12D, $M_{\rm Pl}$ would grow EXPONENTIALLY (e.g., $M_{\rm Pl,9D}$ ~ 10⁶⁸ GeV in Pattern A1 or 10¹⁰⁹⁸² GeV in Pattern A2 — both unphysical). The framework's actual position: 9D/10D/12D are NOT in the cone. They are F-theory 12D SUB-STRUCTURES of the 4D BULK (adopted v3.4). 9D = $v_{\rm Higgs}$ (DROPPED v3.3) was 246 GeV — sub-EW scale, INSIDE 3+1D, not a higher cone level. Status: FRAMEWORK USES F-THEORY 12D. Source: `calculations/v35_extending_to_9d_10d_12d.py`.
 
-L308k. **Cone's true geometric endpoint is 7D/8D, not 4D (USER-CORRECTED)** (v3.5.7+). The geometric factor peaks at n=6 (S^6 surface area = 33.07), corresponding to the 7D→8D transition. The cone exists in the rising portion of the bell curve (n=1 to 6). The framework's choice of 4D as endpoint was PRACTICAL ($M_{\rm Pl,4D}$ derived from $\alpha$-GM, 4D bulk theory available) but NOT GEOMETRICALLY NECESSARY. Geometri cally, the cone could extend to 7D/8D where factors peak. $M_{\rm Pl}$ values for 5D/6D/7D (Pattern A1, period-2): $M_{\rm Pl}$,5D ≈ 10²⁹ GeV, $M_{\rm Pl}$,6D ≈ 10⁴⁴ GeV, $M_{\rm Pl}$,7D ≈ 10⁴⁸ GeV — all REASONABLE (not the 10³⁸⁰⁰⁰ from Pattern A2). This is a real OPEN QUESTION: should the framework extend the cone to 7D/8D? Status: REVISED — geometric peak at 7D/8D, framework's choice of 4D is one interpretation. Source: user observation + recalc.
+L308k. **Cone's true geometric endpoint is 7D/8D, not 4D (USER-CORRECTED)** (v3.5.7+). The geometric factor peaks at n=6 (S^6 surface area = 33.07), corresponding to the 7D→8D transition. The cone exists in the rising portion of the bell curve (n=1 to 6). The framework's choice of 4D as endpoint was PRACTICAL ($M_{\rm Pl,4D}$ derived from $\alpha$-GM, 4D bulk theory available) but NOT GEOMETRICALLY NECESSARY. Geometri cally, the cone could extend to 7D/8D where factors peak. $M_{\rm Pl}$ values for 5D/6D/7D (Pattern A1, period-2): $M_{\rm Pl,5D}$ ≈ 10²⁹ GeV, $M_{\rm Pl,6D}$ ≈ 10⁴⁴ GeV, $M_{\rm Pl,7D}$ ≈ 10⁴⁸ GeV — all REASONABLE (not the 10³⁸⁰⁰⁰ from Pattern A2). This is a real OPEN QUESTION: should the framework extend the cone to 7D/8D? Status: REVISED — geometric peak at 7D/8D, framework's choice of 4D is one interpretation. Source: user observation + recalc.
 
 L308l. **Cone has natural range n=1 to n≈17 (USER-DIRECTED)** (v3.5.7+). Extending the cone past peak reveals: factors decrease from n=6 (peak, 33.07) to n=17 (factor 1.48, still > 1) to n=18 (factor 0.89, fading) to n → ∞ (factor → 0). The cone has a NATURAL RANGE of n=1 to n ≈ 17 where factors are meaningful (> 1). Past n=17, factors are < 1, cone structure WEAKENS. At n → ∞, factors → 0, cone DISSOLVES. Negative-d (n=-1, -3 are gamma poles; n=-2 has A=-1/$\pi$ ≈ -0.318 NEGATIVE area!) is MATHEMATICAL CURIOSITY (zeta function regularization, divergent series), not physical. The framework's cone is a SUBSET of this mathematically-defined range. Status: FRAMEWORK'S RANGE IS 2D–4D (within the natural n=1 to 17 range). Source: `calculations/v35_cone_extends_to_zero.py`.
 
@@ -706,7 +706,7 @@ L308o. **N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ scales linearly (NEW v3.5.8, USER-IN
 
 L308p. **Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8, USER-INSIGHT)**. User asked if N_sub scaling applies at 2D level too. Tested: linear scaling N_2D_per_event = $E_{\rm event}$/E_2D_ref at 2D gives SN creating 10⁶⁵ 2D universes per event, vastly overproducing DM (off by 10⁶⁵). Therefore the cone has DIFFERENT scaling rules at different levels: 4D → 3+1D is linear (universe-creating); 3+1D → 2D is one-to-one (universe-modifying). This asymmetry is CONSTRAINED by DM observation, not free. 4D level is "transcendent" (bulk), 3+1D level is "internal" (within universe). Each transition has its own scaling law, and 1:1 at 2D level is REQUIRED by DM abundance. Source: `calculations/v35_n_sub_scaling.py` (extended).
 
-L308q. **2D universe is discrete quantum (NEW v3.5.8, USER-INSIGHT)**. User asked why can't there be 2 half-mass universes per event. Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM (if lifetime is from event energy) but violate geometric constraint $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$. Framework's $M_{\rm 2D}$ is DERIVED from 5D AdS projection, not adjustable. 2D universe behaves as discrete 'particle' with fixed mass. Splitting would require different geometry, 2D CFT (multiple saddle points), and $M_{\rm Pl,2D}$ value (breaks $\alpha$-GM by 9.4%). Within framework: $M_{\rm 2D}$ is quantum, smallest unit of DM. Source: `calculations/v35_2d_universe_quantum.py`.
+L308q. **2D universe is discrete quantum (NEW v3.5.8, USER-INSIGHT)**. User asked why can't there be 2 half-mass universes per event. Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM (if lifetime is from event energy) but violate geometric constraint $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$. Framework's $M_{\rm 2D}$ is DERIVED from 5D AdS projection, not adjustable. 2D universe behaves as discrete 'particle' with fixed mass. Splitting would require different geometry, 2D CFT (multiple saddle points), and $M_{\rm Pl,2D}$ value (breaks $\alpha$-GM by 9.4%). Within framework: $M_{\rm 2D}$ is quantum, smallest unit of DM. Source: `calculations/v35_2d_universe_quantum.py`.
 
 ## 7.4.6 $\alpha$-GM Consistency and Cone Depth Structure (v3.5.7+, USER-DISCOVERED)
 
@@ -725,7 +725,7 @@ $$M_{\rm Pl,4D} = M_{\rm Pl,3D}^\alpha \times M_{\rm Pl,2D}^{(1-\alpha)}$$
 Solve for $M_{\rm Pl,2D}$:
 $$\log(M_{\rm Pl,2D}) = \frac{\log(M_{\rm Pl,4D}) - \alpha \log(M_{\rm Pl,3D})}{1-\alpha} = 3.461$$
 
-$$M_{\rm Pl,2D} = $10^{3.461}$ = 2.89 \text{ TeV}$$
+$M_{\rm Pl,2D} = $10^{3.461}$ = 2.89 \text{ TeV}$
 
 This matches the framework's 3 TeV to within 3.6% (consistent with rounding). **So $M_{\rm Pl,2D}$ ≈ 3 TeV is REQUIRED for cascade consistency given $\alpha$ and $M_{\rm Pl,4D}$.**
 
@@ -816,7 +816,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 **3. N_sub = 4×10² first-principles**: Energy conservation $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ gives $E_{\rm sub}$ = 1.25×10⁷⁷ J (~cluster mass). No physical principle determines N_sub. Status: FREE (L144 OPEN).
 
-**4. $\mu$ = $M_{\rm Pl}$,2D² first-principles**: Already documented — 5 structural motivations (L308a-e) but no derivation. Tested DOZZ structure constant for c=1: C(b,b,b) = 1 (trivial), no info about $\mu$. Status: STRUCTURAL (L26 OPEN).
+**4. $\mu$ = $M_{\rm Pl,2D}^2$ first-principles**: Already documented — 5 structural motivations (L308a-e) but no derivation. Tested DOZZ structure constant for c=1: C(b,b,b) = 1 (trivial), no info about $\mu$. Status: STRUCTURAL (L26 OPEN).
 
 **5. $\epsilon$ = 10⁻³⁸ hierarchy constant**: $f_{\rm DE}$ = ($M_{\rm Pl,2D}$/$E_{\rm SN}$)$^{\alpha}$ ≈ 10⁻⁶⁵ (way bigger than needed). $\epsilon$ is separate factor calibrated to give DE. Status: OPEN (calibrated).
 
@@ -828,7 +828,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 After 7 systematic attempts at first-principles derivations, **NONE of the 9 framework parameters (excluding $M_{\rm Pl,3D}$ which is measured) has a first-principles derivation**. The framework is:
 - **Internally consistent** (multiple parameters cross-check via $\alpha$-GM, closed loop, $M^{\alpha}$ law)
-- **Structurally motivated** (5 paths to $\mu$ = $M_{\rm Pl}$,2D²)
+- **Structurally motivated** (5 paths to $\mu$ = $M_{\rm Pl,2D}^2$)
 - **Observationally validated** (5/27/68 split, $H_0$ = 69.8±1.9 within $0.2\sigma$, etc.)
 - **But NOT first-principles** for any of its 9 parameters
 
@@ -837,7 +837,7 @@ This is honest. The framework is internally self-consistent but requires calibra
 ### What Would Close First-Principles Gaps
 
 1. **L43 ($\alpha$)**: 2D CFT expert needed to derive $\alpha$ = 1 + 1/√N from spectral data
-2. **L26 ($\mu$)**: Derive $\mu$ = $M_{\rm Pl}$,2D² from first principles (not just structural)
+2. **L26 ($\mu$)**: Derive $\mu$ = $M_{\rm Pl,2D}^2$ from first principles (not just structural)
 3. **L138 ($M_{\rm Pl,4D}$)**: Closed-loop derivation independent of $\alpha$-GM
 4. **L142a ($4\pi$)**: Geometric origin of $4\pi$ factor (S³ boundary? Gauss law?)
 5. **L144 (N_sub)**: Holographic bound or bulk stability criterion
@@ -976,10 +976,10 @@ The framework chose 4D as the endpoint for PRACTICAL reasons:
 - DROPPED 9D = $v_{\rm Higgs}$ in v3.3 (broke 4D floor)
 
 But geometrically, the cone COULD extend further:
-- $M_{\rm Pl}$,5D ≈ 10²⁹ GeV (large but reasonable)
-- $M_{\rm Pl}$,6D ≈ 10⁴⁴ GeV (large but reasonable)
-- $M_{\rm Pl}$,7D ≈ 10⁴⁸ GeV (Pattern A1, period-2)
-- $M_{\rm Pl}$,8D ≈ 10⁶⁴ GeV (Pattern A1)
+- $M_{\rm Pl,5D}$ ≈ 10²⁹ GeV (large but reasonable)
+- $M_{\rm Pl,6D}$ ≈ 10⁴⁴ GeV (large but reasonable)
+- $M_{\rm Pl,7D}$ ≈ 10⁴⁸ GeV (Pattern A1, period-2)
+- $M_{\rm Pl,8D}$ ≈ 10⁶⁴ GeV (Pattern A1)
 
 These are MUCH MORE REASONABLE than 10³⁸⁰⁰⁰ GeV (Pattern A2)!
 
@@ -994,7 +994,7 @@ These are MUCH MORE REASONABLE than 10³⁸⁰⁰⁰ GeV (Pattern A2)!
   - DROPPED 9D = $v_{\rm Higgs}$ (consistency with 4D)
 
 If the cone were extended to 7D/8D (geometric endpoint), the framework would need:
-- $M_{\rm Pl}$,5D, $M_{\rm Pl}$,6D, $M_{\rm Pl}$,7D derivations (not currently derived)
+- $M_{\rm Pl,5D}$, $M_{\rm Pl,6D}$, $M_{\rm Pl,7D}$ derivations (not currently derived)
 - 5D, 6D, 7D bulk theories (currently F-theory 12D handles 4D only)
 - 5D, 6D, 7D event lifetimes and energetics
 - Re-evaluation of why 9D = $v_{\rm Higgs}$ was DROPPED
@@ -1017,12 +1017,12 @@ If we naively extend the cascade cone UP through 5D, 6D, 7D, 8D, 9D, 10D, 11D, 1
 
 **Pattern A1: Period-2** ($\alpha$-steps alternate 41, 142, 41, 142, ...):
 - 9D: $M_{\rm Pl,9D}$ ~ 10⁶⁸ GeV
-- 12D: $M_{\rm Pl}$,12D ~ 10¹⁰⁴ GeV
+- 12D: $M_{\rm Pl,12D}$ ~ 10¹⁰⁴ GeV
 
 **Pattern A2: Geometric** (each transition √12 more $\alpha$-steps: 41, 142, 491, 1700, ...):
-- 6D: $M_{\rm Pl}$,6D ~ 10²⁶⁶ GeV
+- 6D: $M_{\rm Pl,6D}$ ~ 10²⁶⁶ GeV
 - 9D: $M_{\rm Pl,9D}$ ~ 10¹⁰⁹⁸² GeV (!!!)
-- 12D: $M_{\rm Pl}$,12D ~ 10⁴⁵⁶⁴⁸¹ GeV (!!)
+- 12D: $M_{\rm Pl,12D}$ ~ 10⁴⁵⁶⁴⁸¹ GeV (!!)
 
 **Neither pattern is physical.**$M_{\rm Pl}$ values at 9D/10D/12D are absurdly large. The cone does NOT extend naturally to higher dimensions.
 
@@ -1118,7 +1118,7 @@ Source: `calculations/v35_extending_to_9d_10d_12d.py`.
 | -3 | -3D → -2D | undefined | Gamma pole ($\Gamma$(-1) = ∞) |
 | -4 | -4D → -3D | +0.1520 | Small positive |
 
-**Negative dimensions produce NEGATIVE areas!** At n = -2: A_-2 = -1/\pi$ ≈ -0.318. This is a mathematical curiosity that appears in:
+**Negative dimensions produce NEGATIVE areas!** At n = -2: A_-2 = $-1/\pi$ ≈ -0.318. This is a mathematical curiosity that appears in:
 - Zeta function regularization
 - Divergent series summation
 - String theory formalisms
@@ -1183,7 +1183,7 @@ Source: `calculations/v35_cone_extends_to_zero.py`. Plot saved at `calculations/
 
 1. **SN $\tau_{\rm 2D}$ = 33 s** (TIGHT, calibrates $\alpha$)
 2. **$f_{\rm DE}$ = $t_{\rm Pl}$/$\tau_{\rm 4D}$** (simple bilateral formula)
-3. **$\rho_{\rm DE}$ = $f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl}$,3D⁴ = 2.5×10⁻⁴⁷ GeV⁴**
+3. **$\rho_{\rm DE}$ = $f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl,3D}^4$ = 2.5×10⁻⁴⁷ GeV⁴**
 4. **8 named events**: $M^{\alpha}$ law (positive $\tau$)
 5. Loose priors on remaining parameters
 
@@ -1263,10 +1263,10 @@ None match N_sub = 400 exactly. N_sub is calibrated to $E_{\rm sub}$ scale (smal
 
 ### $\epsilon$ = 10⁻³⁸: ABSORBS COSMOLOGICAL CONSTANT PROBLEM
 
-$\epsilon$ = $\rho_{\rm DE}$ / $M_{\rm Pl}$,3D⁴ = 1.13×10⁻¹²³ (per direct DE calculation)
+$\epsilon$ = $\rho_{\rm DE}$ / $M_{\rm Pl,3D}^4$ = 1.13×10⁻¹²³ (per direct DE calculation)
 Framework $\epsilon$ = 10⁻³⁸
 
-Gap: 10⁸⁵ (essentially the cosmological constant problem). Classical CC gives 10⁻¹²⁰ (10⁶⁵ gap from framework's $\epsilon$ × $M_{\rm Pl}$,3D⁴).
+Gap: 10⁸⁵ (essentially the cosmological constant problem). Classical CC gives 10⁻¹²⁰ (10⁶⁵ gap from framework's $\epsilon$ × $M_{\rm Pl,3D}^4$).
 
 $\epsilon$ is a FRAMEWORK CHOICE that absorbs the CC problem. **No derivation found**.
 
@@ -1413,7 +1413,7 @@ Source: `calculations/v35_n_sub_scaling.py`.
 
 ### Test: Linear Scaling at 2D Level
 
-If N_2D_per_event = $E_{\rm event}$ / E_2D_ref (where E_2D_ref = $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV = 1.18×10⁻²² J):
+If N_2D_per_event = $E_{\rm event}$ / E_2D_ref (where E_2D_ref = $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ = 7.4×10⁻¹³ GeV = 1.18×10⁻²² J):
 
 | Event | E (J) | N_2D per event | $\tau_{\rm 2D}$ (s) |
 |---|---|---|---|
@@ -1439,7 +1439,7 @@ The cone has TWO different transition rules:
 
 **3+1D → 2D (UNIVERSE-MODIFYING)**:
 - Each 3+1D event creates ONE 2D universe (one-to-one)
-- 2D universe MASS is FIXED ($M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$)
+- 2D universe MASS is FIXED ($M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$)
 - 2D universe LIFETIME varies with event ($M^{\alpha}$ law: $\tau$ ∝ $E^{\alpha}$)
 
 ### Why the Asymmetry?
@@ -1489,7 +1489,7 @@ Tested: 2 × $M_{\rm 2D}$/2 universes per event (vs framework's 1 × $M_{\rm 2D}
 ### Why Framework Chooses A (1 universe, fixed mass)
 
 **Reason 1: GEOMETRY (5D AdS projection)**:
-$M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/M_{\rm Pl,3D}$ is DERIVED from 5D AdS projection. Specific value, not adjustable.
+$M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ is DERIVED from 5D AdS projection. Specific value, not adjustable.
 
 **Reason 2: 2D CFT STRUCTURE**:
 Schwarzian + Majorana has UNIQUE saddle-point per (E, J). Multiple saddle points would give multiple creation modes. Framework's CFT has one mode per event.
@@ -1537,15 +1537,15 @@ Source: `calculations/v35_2d_universe_quantum.py`.
 
 ## 7.5 v3.5 NEW ANGLE Limitations: $\mu$ first-principles (11 attempts)
 
-L304. **$\mu$ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with $f_{\rm DE}^2$ suppression (SIDC's $f_{\rm DE}^2$ ~ 10⁻¹⁷⁰ at LHC energies makes strings invisible). For M_s = 3 TeV: $\mu$ = M_s² = 9×10⁶ GeV² ✓ MATCHES framework. BUT: this requires M_s = $M_{\rm Pl,2D}$ = 3 TeV, which is just saying $\mu$ = $M_{\rm Pl}$,2D² (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.
+L304. **$\mu$ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with $f_{\rm DE}^2$ suppression (SIDC's $f_{\rm DE}^2$ ~ 10⁻¹⁷⁰ at LHC energies makes strings invisible). For M_s = 3 TeV: $\mu$ = M_s² = 9×10⁶ GeV² ✓ MATCHES framework. BUT: this requires M_s = $M_{\rm Pl,2D}$ = 3 TeV, which is just saying $\mu$ = $M_{\rm Pl,2D}^2$ (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.
 
-L305. **$\mu$ = b² × $M_{\rm Pl}$,2D² for c=1 Liouville gives 4.5×10⁶ (off by factor 2)** (v3.5). The Liouville conformal weight b² = 1/2 for c=1 doesn't simply relate to $\mu$ via this formula. The natural $\mu$ = $M_{\rm Pl}$,2D² is the AdS_2 inverse length squared, but b² = 1/2 specifically gives a different value. Status: NOT DERIVED. Source: `calculations/v35_new_angle_mu.py`.
+L305. **$\mu$ = b² × $M_{\rm Pl,2D}^2$ for c=1 Liouville gives 4.5×10⁶ (off by factor 2)** (v3.5). The Liouville conformal weight b² = 1/2 for c=1 doesn't simply relate to $\mu$ via this formula. The natural $\mu$ = $M_{\rm Pl,2D}^2$ is the AdS_2 inverse length squared, but b² = 1/2 specifically gives a different value. Status: NOT DERIVED. Source: `calculations/v35_new_angle_mu.py`.
 
 L306. **2D BH entropy matching doesn't give framework's $\mu$** (v3.5). For SN-scale 2D BH: S_BH = $4\pi$² E/√$\mu$ ~ 10⁵⁰ (huge). Setting S_BH = ln(N!) = ln(12!) = 19.99 gives $\mu$ ~ 10¹¹⁰ GeV² (way off). The SN scale is too large for natural entropy bounds. Status: NOT APPLICABLE. Source: `calculations/v35_new_angle_mu.py`.
 
-L307. **$\mu$ from conformal weight of first excited state** (v3.5). For c=1 Liouville: first excited state has h = b² = 1/2. Energy E_1st = h × $M_{\rm Pl,2D}$ = 1.5 TeV. Then $\mu$ = (2 × E_1st)² = (3 TeV)² = 9×10⁶ GeV² ✓ MATCHES. But the "2 × " in (2 × E_1st)² is just to make h = 1/2 cancel, giving $\mu$ = $M_{\rm Pl}$,2D² (tautological). The h = 1/2 doesn't actually constrain $\mu$. Status: STRUCTURAL. Source: `calculations/v35_new_angle_mu.py`.
+L307. **$\mu$ from conformal weight of first excited state** (v3.5). For c=1 Liouville: first excited state has h = b² = 1/2. Energy E_1st = h × $M_{\rm Pl,2D}$ = 1.5 TeV. Then $\mu$ = (2 × E_1st)² = (3 TeV)² = 9×10⁶ GeV² ✓ MATCHES. But the "2 × " in (2 × E_1st)² is just to make h = 1/2 cancel, giving $\mu$ = $M_{\rm Pl,2D}^2$ (tautological). The h = 1/2 doesn't actually constrain $\mu$. Status: STRUCTURAL. Source: `calculations/v35_new_angle_mu.py`.
 
-L308. **NEW ANGLE RESULT (v3.5)**: All 11 attempts at $\mu$ first-principles reduce to either TAUTOLOGICAL ($\mu$ = $M_{\rm Pl}$,2D²) or STRUCTURAL ($\mu$ = M_s², $\mu$ = b² $M_{\rm Pl}$,2D²). NONE give a true derivation. L26 REMAINS OPEN: $\mu$ is calibrated (via SN $\tau_{\rm 2D}$ = 33 s, L41). The framework should ACCEPT this and not over-claim "derivation". The structural interpretations are useful context but not derivations.
+L308. **NEW ANGLE RESULT (v3.5)**: All 11 attempts at $\mu$ first-principles reduce to either TAUTOLOGICAL ($\mu$ = $M_{\rm Pl,2D}^2$) or STRUCTURAL ($\mu$ = M_s², $\mu$ = b² $M_{\rm Pl,2D}^2$). NONE give a true derivation. L26 REMAINS OPEN: $\mu$ is calibrated (via SN $\tau_{\rm 2D}$ = 33 s, L41). The framework should ACCEPT this and not over-claim "derivation". The structural interpretations are useful context but not derivations.
 
 **L308 ADDITION (v3.5.1)**: The "1/2" in conformal weight h = b² = 1/2 IS connected to multiple framework anchors:
 - Schwarzian exponent $\tau$ ∝ E^(1/2)
@@ -1557,12 +1557,12 @@ So "1/2" has 3+ independent derivations in the framework. BUT the conformal weig
 - h = 1/2 is INPUT (Liouville)
 - E_1st = h × $M_{\rm Pl,2D}$ is OUTPUT
 - $\mu$ = (2 × E_1st)² uses "2 ×" to UNDO the 1/2 from Liouville
-- Result: $\mu$ = $M_{\rm Pl}$,2D² (still tautological)
+- Result: $\mu$ = $M_{\rm Pl,2D}^2$ (still tautological)
 
 The "2 ×" is suspicious — it reverses the 1/2 to get back $M_{\rm Pl,2D}$. A genuine derivation would need $\mu$ = E_1st² (without the 2 ×) or a structural reason for the factor. Source: `calculations/v35_new_angle_mu.py`.
 
 **L308 STRUCTURAL CANDIDATES (v3.5.2)**: 5 candidates for a structural reason for the "2 ×" were tested:
-- **(1) WdW eigenstates**: K_h(2√$\mu$ × ...) — factor of 2 in argument. For c=1 Liouville: setting K_h argument = $M_{\rm Pl,2D}$ gives $\mu$ = $M_{\rm Pl}$,2D²/4 (OFF by 4!).
+- **(1) WdW eigenstates**: K_h(2√$\mu$ × ...) — factor of 2 in argument. For c=1 Liouville: setting K_h argument = $M_{\rm Pl,2D}$ gives $\mu$ = $M_{\rm Pl,2D}^2$/4 (OFF by 4!).
 - **(2) SL(2,R) algebra**: [L_+, L_-] = 2L_0 — factor of 2 in commutator. No direct connection to $\mu$ formula.
 - **(3) Hawking-Unruh with surface gravity**: a = 2g → factor of 2 in temperature. Gives $\mu$ = E_1st² WITHOUT the 2× in the formula (factor appears elsewhere).
 - **(4) Two-sided BH geometry**: Z_2 orbifold gives factor of 2 in length. No direct connection to $\mu$.
@@ -1597,34 +1597,34 @@ Source: `calculations/v35_why_factor_2.py`.
 - $T_H$ = $T_{\rm Pl,2D}$ = $M_{\rm Pl,2D}$/($2\pi$) has STRONG physical motivations
 - Most robust: #3 (Planckian max) and #5 (Euclidean periodicity)
 - These don't DERIVE $\mu$ but provide STRUCTURAL reasons for $T_H$ = $T_{\rm Pl,2D}$
-- Combined with $\mu$ = ($2\pi$ $T_H$)², this gives $\mu$ = $M_{\rm Pl}$,2D² as a CONSEQUENCE of " $T_H$ is the natural 2D Planckian temperature"
-- **IMPROVED STATUS**: $\mu$ = $M_{\rm Pl}$,2D² is now "STRUCTURALLY MOTIVATED" (not just calibrated)
+- Combined with $\mu$ = ($2\pi$ $T_H$)², this gives $\mu$ = $M_{\rm Pl,2D}^2$ as a CONSEQUENCE of " $T_H$ is the natural 2D Planckian temperature"
+- **IMPROVED STATUS**: $\mu$ = $M_{\rm Pl,2D}^2$ is now "STRUCTURALLY MOTIVATED" (not just calibrated)
 - L26 still OPEN (not a derivation), but structural reason is MUCH stronger than before
 Source: `calculations/v35_hawking_page.py`.
 
-**L308 NEW INTERPRETATION (v3.5.3)**: Tested 45 alternative formulas for $\mu$. 12 give exact match but ALL are algebraically equivalent (reduce to $\mu$ = $M_{\rm Pl}$,2D² using E_1st = $M_{\rm Pl,2D}$/2). HOWEVER, one has a NEW STRUCTURAL interpretation:
+**L308 NEW INTERPRETATION (v3.5.3)**: Tested 45 alternative formulas for $\mu$. 12 give exact match but ALL are algebraically equivalent (reduce to $\mu$ = $M_{\rm Pl,2D}^2$ using E_1st = $M_{\rm Pl,2D}$/2). HOWEVER, one has a NEW STRUCTURAL interpretation:
 
-**Formula I: T = $M_{\rm Pl,2D}$/($2\pi$) → $\mu$ = ($2\pi$ T)² = $M_{\rm Pl}$,2D²**
+**Formula I: T = $M_{\rm Pl,2D}$/($2\pi$) → $\mu$ = ($2\pi$ T)² = $M_{\rm Pl,2D}^2$**
 
-This says: if the 2D universe's BH has $T_H$ = $M_{\rm Pl,2D}$/($2\pi$), then $\mu$ = $M_{\rm Pl}$,2D².
+This says: if the 2D universe's BH has $T_H$ = $M_{\rm Pl,2D}$/($2\pi$), then $\mu$ = $M_{\rm Pl,2D}^2$.
 $T_H$ = $M_{\rm Pl,2D}$/($2\pi$) is the MAXIMAL Hawking temperature in AdS_2 (= AdS curvature).
 This is the **"Planckian Hawking temperature"** — the boundary between BH and stable state.
 
-INTERPRETATION: $\mu$ = $M_{\rm Pl}$,2D² corresponds to a "Planckian 2D universe" where the BH is at maximum $T_H$. This is the Hawking-Page transition temperature.
+INTERPRETATION: $\mu$ = $M_{\rm Pl,2D}^2$ corresponds to a "Planckian 2D universe" where the BH is at maximum $T_H$. This is the Hawking-Page transition temperature.
 
-Status: STRUCTURAL INTERPRETATION (not derivation). It still uses $M_{\rm Pl,2D}$ as input. But it provides a new physical reading of why $\mu$ = $M_{\rm Pl}$,2D² (instead of $\mu$ = b² × $M_{\rm Pl}$,2D² or other variants).
+Status: STRUCTURAL INTERPRETATION (not derivation). It still uses $M_{\rm Pl,2D}$ as input. But it provides a new physical reading of why $\mu$ = $M_{\rm Pl,2D}^2$ (instead of $\mu$ = b² × $M_{\rm Pl,2D}^2$ or other variants).
 
 **Other 11 exact matches are algebraic rearrangements**:
 - A (factor=2): $\mu$ = E_1st × $M_{\rm Pl,2D}$ × 2 = 2 E_1st $M_{\rm Pl,2D}$
 - B (factor=4): $\mu$ = 4 × E_1st² = (2 E_1st)²
 - C (factor=2): $\mu$ = (2 E_1st)²
 - D, E, F (factor=9/4 or sum): $\mu$ = (E_1st + $M_{\rm Pl,2D}$/2)²
-- G (b²=1): $\mu$ = 1 × $M_{\rm Pl}$,2D² (requires changing CFT choice)
+- G (b²=1): $\mu$ = 1 × $M_{\rm Pl,2D}^2$ (requires changing CFT choice)
 - H (h=1/2): same as (2 E_1st)²
 - I (T = E_1st/$\pi$): $\mu$ = ($2\pi$ × E_1st/\pi$)² = (2 E_1st)²
 - J: E_BPS = $M_{\rm Pl,2D}$ or 2 E_1st
 
-None of these is a TRUE derivation. All reduce to $\mu$ = $M_{\rm Pl}$,2D² (framework's choice).
+None of these is a TRUE derivation. All reduce to $\mu$ = $M_{\rm Pl,2D}^2$ (framework's choice).
 Source: `calculations/v35_other_formulas.py`.
 
 ---
@@ -1692,7 +1692,7 @@ Five additional angles for $\mu$ first-principles were explored via web search:
 **(3) HAGEDORN EXACT FORMULA $T_H$ = M_s/($2\pi$)** — STRONG:
 - arXiv:hep-th/0008051 (Chaudhuri 2001 PRL 86, 10): "Self-dual Hagedorn temperature b²_H = $4\pi$²$\alpha$'"
 - This gives EXACTLY $T_H$ = M_s/($2\pi$) for closed strings
-- For our framework: $\mu$ = ($2\pi$ $T_H$)² = M_s² = $M_{\rm Pl}$,2D² ✓ MATCHES
+- For our framework: $\mu$ = ($2\pi$ $T_H$)² = M_s² = $M_{\rm Pl,2D}^2$ ✓ MATCHES
 - The factor "$2\pi$" comes from closed string modular invariance
 
 **(4) JT Z_disk with C = 1/2** — WEAK:
@@ -1713,9 +1713,9 @@ The "2×" in $\mu$ = (2×E_1st)² has STRUCTURAL ORIGINS (not coincidence):
 4. Unimodular gravity (Lambda as integration constant)
 5. Hawking-Page Planckian maximum $T_H$ = $T_{\rm Pl}$
 
-**UPDATED VERDICT (v3.5.6)**: $\mu$ = $M_{\rm Pl}$,2D² is now "STRUCTURALLY MOTIVATED + has 5+ independent structural origins". L26 STAYS OPEN (not derivation), but the structural justification is MUCH stronger.
+**UPDATED VERDICT (v3.5.6)**: $\mu$ = $M_{\rm Pl,2D}^2$ is now "STRUCTURALLY MOTIVATED + has 5+ independent structural origins". L26 STAYS OPEN (not derivation), but the structural justification is MUCH stronger.
 
-The framework's choice of $\mu$ = $M_{\rm Pl}$,2D² is consistent with:
+The framework's choice of $\mu$ = $M_{\rm Pl,2D}^2$ is consistent with:
 - Modern unimodular gravity (Lambda as integration constant)
 - String theory (closed string thermal duality, Hagedorn)
 - JT gravity (AdS_2 Ricci scalar, dilaton potential)
@@ -1760,10 +1760,10 @@ L322. **RT formula gives universal constant for 2D BH at $T_H$** (v3.5.7). For 2
 
 v3.5.7+ adds the following build infrastructure and post-processing scripts (NOT new physics limitations, but infrastructure limitations relevant to paper quality):
 
-- **L323 (NEW v3.5.7+)**: Math variable wrapping (wrap_math_vars.py) — 1020 substitutions applied across paper, supporting/, root files. State machine handles $$.. $$ and $..$ correctly.
+- **L323 (NEW v3.5.7+)**: Math variable wrapping (wrap_math_vars.py) — 1020 substitutions applied across paper, supporting/, root files. State machine handles $$.. $ and $..$ correctly.
 - **L324 (NEW v3.5.7+)**: Adjacent math combining (combine_adjacent_math.py) — combines `$X$ $Y$` → `$X Y$`, handles `~$X$` → `$\sim X$`, `$X$ ≈ $Y$` → `$X \approx Y$`. 171 changes across 15 files.
 - **L325 (NEW v3.5.7+)**: Math spacing (fix_math_spacing.py) — 2-pass approach: pass 1 adds space before `$` aggressively, pass 2 strips whitespace inside `$...$`. 567 changes across 17 files.
-- **L326 (NEW v3.5.7+)**: LaTeX bug fixes — 28 broken `$$...$` patterns, 4 stray `$` markers producing ugly output (pandoc silently escapes as `\$`).
+- **L326 (NEW v3.5.7+)**: LaTeX bug fixes — 28 broken `$...$` patterns, 4 stray `$` markers producing ugly output (pandoc silently escapes as `\$`).
 - **L327 (NEW v3.5.7+)**: Pre-build lint checks (build_pdf.sh) — math-balance check (awk counts `$` per line) + pymarkdownlnt scan (62 style issues, non-fatal).
 
 These are NOT physics limitations — they are paper-quality limitations.

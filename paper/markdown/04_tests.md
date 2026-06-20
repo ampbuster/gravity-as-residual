@@ -338,14 +338,14 @@ where:
 - S_brane_3+1D = ∫ d^4x √(-g) [(1/(2$\kappa_{\rm 4}$^2))(R_4 - 2$\Lambda_{\rm 4}$) + L_SM + L_DM + L_2D-universes]
 - $S_{\rm 2D}$ = ∫ $d^{2\sigma}$ √(-$\gamma$) [(1/(2$\kappa_{\rm 2}$^2))(R_2 - 2$\Lambda_{\rm 2}$) + L_2D_matter] (per 2D universe)
 - S_tension = -∫ d^4x √(-g) $\sigma_{\rm brane}$ + -∑_i ∫ d^2$\sigma_{\rm i}$ √(-$\gamma_{\rm i}$) $\sigma_{\rm 2D}$ (Israel junction)
-- S_creation = -$\alpha$ ∫ d^4x √(-g) T_$\mu$$\nu$^SM(x) * ∑_i ∫ d^2$\sigma_{\rm i}$ √(-$\gamma_{\rm i}$) $\eta$^$\mu$$\nu$ $\delta$^(4)(x - X_i($\sigma$))
-- $S_{\rm destruction}$ = +$\alpha$ ∫ d^4x √(-g) T_$\mu$$\nu$^DM(x) * ∑_i ∫ d^2$\sigma_{\rm i}$ √(-$\gamma_{\rm i}$) $\eta$^$\mu$$\nu$ $\delta$^(4)(x - X_i($\sigma$)) $\delta$(t - $\tau_{2D}$)
+- S_creation = -$\alpha$ ∫ d^4x √(-g) $T_{\mu\nu}^{\rm SM}$(x) * ∑_i ∫ d^2$\sigma_{\rm i}$ √(-$\gamma_{\rm i}$) $\eta^{\mu\nu}$ $\delta$^(4)(x - X_i($\sigma$))
+- $S_{\rm destruction}$ = +$\alpha$ ∫ d^4x √(-g) $T_{\mu\nu}^{\rm DM}$(x) * ∑_i ∫ d^2$\sigma_{\rm i}$ √(-$\gamma_{\rm i}$) $\eta^{\mu\nu}$ $\delta$^(4)(x - X_i($\sigma$)) $\delta$(t - $\tau_{2D}$)
 
 **Key dynamical equations:**
 
 1. **Israel junction conditions** (relate 5D bulk to 4D brane):
-   [K_$\mu$$\nu$] = -$\kappa_{\rm 5²}$[T_$\mu$$\nu$^brane - (1/3) g_$\mu$$\nu$ T^brane] + $\kappa_{\rm 5²}$ $\sigma_{\rm brane}$ g_$\mu$$\nu$
-   where K_$\mu$$\nu$ is the extrinsic curvature and [K] = K⁺ - K⁻ across the brane.
+   [$K_{\mu\nu}$] = -$\kappa_{\rm 5²}$[$T_{\mu\nu}^{\rm brane}$ - (1/3) $g_{\mu\nu}$ T^brane] + $\kappa_{\rm 5²}$ $\sigma_{\rm brane}$ $g_{\mu\nu}$
+   where $K_{\mu\nu}$ is the extrinsic curvature and [K] = K⁺ - K⁻ across the brane.
 
 2. **Modified Friedmann equation on the 4D brane (RS-II):**
    H² = ($8\pi$G_4/3) $\rho$ + ($\kappa_{\rm 5⁴}$/36) $\rho$² + $\Lambda_{\rm 4}$/3 + E/W²
@@ -827,7 +827,7 @@ SIDC is now closer to a complete field theory specification, ready for a theoret
 **Verification:** `calculations/verify_v24_refactor.py` (4 checks all pass):
 - **[PASS]** Check A: Bianchi identity preserved (4 modifications, all consistent)
 - **[PASS]** Check B: Parameter reduction achieved (5+ → 2-3)
-- **[PASS]** Check C: Updated T^eff_$\mu$$\nu$ given in standard LaTeX format
+- **[PASS]** Check C: Updated $T^{\rm eff}_{\mu\nu}$ given in standard LaTeX format
 - **[PASS]** Check D: Specific numerical checks pass (Gaussian normalization, discrete c, smooth profile)
 
 ---
@@ -1033,8 +1033,8 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 **Honest engineering caveats.**
 1. The proportionality constant (0.1) in the fossil amplitude is *calibrated* to match dSph observations, not derived from first principles. The 0.1 is a stand-in for the full Lagrangian's prefactor (Limitation 26, Limitation 29).
 2. The IMF Kroupa fraction (15% for M > 8 $M_\odot$) is a *standard* assumption, not SIDC-specific.
-3. The $E_{CCSN} = $10^{46}$$ J per SN is a *standard* assumption (Nomoto+ 2006), not SIDC-specific.
-4. The $E_{crit} = $10^{30}$$ J threshold for "phase-transition" events is a *postulate* of SIDC, calibrated to match the LMC SN 1987A event's energy (the lowest-energy event known to have created an observable 2D universe signature, per SIDC's narrative).
+3. The $E_{CCSN} = 10^{46}$ J per SN is a *standard* assumption (Nomoto+ 2006), not SIDC-specific.
+4. The $E_{crit} = 10^{30}$ J threshold for "phase-transition" events is a *postulate* of SIDC, calibrated to match the LMC SN 1987A event's energy (the lowest-energy event known to have created an observable 2D universe signature, per SIDC's narrative).
 5. The Gaussian instanton width $\tau_{2D}$ is a *free parameter* (dimensional postulate, see v2.4 framework, §4.44.1 Task 3). The emulator uses $\tau_{2D} = 0.7$ Gyr (gas consumption timescale, per §4.35).
 
 **The bifurcation prediction is robust to all 5 of the above.** REVISED v2.7.33+: Reasonable variations of the IMF, $E_{CCSN}$, $E_{crit}$, and $\tau_{2D}$ preserve the *qualitative* 0.7-3× $M_{dyn}$/ $M_{b}$ shift (was 219×) between AGC 114905 and KKR 25 (see `calculations/sidc_phenomenological_emulator.py` for sensitivity tests). The *absolute* $M_{dyn}$ values shift, but the *ratio* is preserved to within a factor of ~2.
