@@ -85,6 +85,29 @@ python3 paper/build_tools/fix_broken_markdown.py              # All files
 python3 paper/build_tools/fix_broken_markdown.py README.md    # Single file
 ```
 
+## Audit Scripts (read-only, no modifications)
+
+Two audit scripts find issues without modifying files. Run them to check
+for issues introduced by edits or auto-conversion:
+
+```bash
+python3 paper/build_tools/audit_units.py              # Find tables with bare-number cells
+python3 paper/build_tools/audit_broken_math.py        # Find broken math patterns
+```
+
+**`audit_units.py`** (173 lines): Finds table cells where the header has
+a unit but the cell value is bare number (e.g., `33` instead of `33 s`).
+Skips dimensionless ratios (M_dyn/M_b), counts (N_sub), versions.
+
+**`audit_broken_math.py`** (128 lines): Finds:
+- Pattern 22 collateral damage (`X.$\math$` orphan `$`)
+- Unbalanced `{` in math blocks
+- Triple `$$$` instead of `$$`
+- Other structural issues
+
+**False positives**: Both scripts use heuristic filters and may report
+some legitimate patterns. Always verify the line context before fixing.
+
 ## Cache Warning
 
 If you modify a script, clear Python's bytecode cache:

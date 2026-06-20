@@ -13,7 +13,7 @@
 **Limitations:** 128 honest (was 116 in v3.5.7, +12 user-driven L308f-L308q)
 
 **v3.5.8 BREAKTHROUGHS** (this release):
-- **MCMC parameter search** (L308m): 4/9 params observationally pinned ($\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate converge within 0.$5\sigma$)
+- **MCMC parameter search** (L308m): 4/9 params observationally pinned ($\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate converge within $0.5\sigma$)
 - **$\alpha$ = 1 + 1/√12 FIRST-PRINCIPLES** (L308n, BREAKTHROUGH): 0.025% match with framework
 - **L43 (Lagrangian skeleton → $\alpha$)**: **OPEN → PARTIAL**
 - **"12" is the cascade fundamental unit** (deepest insight):
@@ -6289,7 +6289,7 @@ But the empirical 33 s lifetime gives $f_{\rm active} \sim 10^{-17}$, NOT 0.05. 
 
 **HISTORICAL (Mechanism M era):** SIDC's Mechanism M era claimed $H_0 = 73$ as a borrowed value from SH0ES. This was a postdiction, not a derivation, and was removed in v2.5 commit 281.
 
-**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is 0.$2\sigma$ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
+**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is $0.2\sigma$ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
 
 A 2D CFT calculation is needed to derive the specific active boost and cumulative drag from first principles. SIDC's contribution is the *qualitative* framework ($H_0 = 70$ ± 3), not a specific number.
 
@@ -6505,12 +6505,12 @@ This gives $S_8$(SIDC) ~ 0.775-0.815, which is:
 
 | Model | $S_8$ | $\Delta$ from DES | $\Delta$ from Planck |
 |-------|-----|-----------|---------------|
-| Planck $\Lambda{\rm CDM}$ | 0.832 | +2.$92\sigma$ | 0.$00\sigma$ |
-| DES Y3 (observed) | 0.759 | 0.$00\sigma$ | -5.$62\sigma$ |
-| KiDS-1000 (observed) | 0.759 | 0.$00\sigma$ | -5.$62\sigma$ |
-| SIDC ($\sigma_8 = 0.75$) | 0.775 | +0.$62\sigma$ | -4.$42\sigma$ |
-| SIDC ($\sigma_8$=0.77) | 0.795 | +1.$45\sigma$ | -2.$83\sigma$ |
-| SIDC ($\sigma_8$=0.79) | 0.816 | +2.$28\sigma$ | -1.$24\sigma$ |
+| Planck $\Lambda{\rm CDM}$ | 0.832 | +$2.92\sigma$ | $0.00\sigma$ |
+| DES Y3 (observed) | 0.759 | $0.00\sigma$ | -$5.62\sigma$ |
+| KiDS-1000 (observed) | 0.759 | $0.00\sigma$ | -$5.62\sigma$ |
+| SIDC ($\sigma_8 = 0.75$) | 0.775 | +$0.62\sigma$ | -$4.42\sigma$ |
+| SIDC ($\sigma_8$=0.77) | 0.795 | +$1.45\sigma$ | -$2.83\sigma$ |
+| SIDC ($\sigma_8$=0.79) | 0.816 | +$2.28\sigma$ | -$1.24\sigma$ |
 
 **SIDC's predicted $S_8$ is closer to observations than $\Lambda{\rm CDM}$.** Specifically, if $\sigma_8$(SIDC) ~ 0.75, SIDC's $S_8 = 0.775$ is within $1\sigma$ of DES/KiDS. This is a POSITIVE result for SIDC.
 
@@ -8112,7 +8112,7 @@ L308k. **Cone's true geometric endpoint is 7D/8D, not 4D (USER-CORRECTED)** (v3.
 
 L308l. **Cone has natural range n=1 to n≈17 (USER-DIRECTED)** (v3.5.7+). Extending the cone past peak reveals: factors decrease from n=6 (peak, 33.07) to n=17 (factor 1.48, still > 1) to n=18 (factor 0.89, fading) to n → ∞ (factor → 0). The cone has a NATURAL RANGE of n=1 to n ≈ 17 where factors are meaningful (> 1). Past n=17, factors are < 1, cone structure WEAKENS. At n → ∞, factors → 0, cone DISSOLVES. Negative-d (n=-1, -3 are gamma poles; n=-2 has A=-1/$\pi$ ≈ -0.318 NEGATIVE area!) is MATHEMATICAL CURIOSITY (zeta function regularization, divergent series), not physical. The framework's cone is a SUBSET of this mathematically-defined range. Status: FRAMEWORK'S RANGE IS 2D–4D (within the natural n=1 to 17 range). Source: `calculations/v35_cone_extends_to_zero.py`.
 
-L308m. **MCMC parameter convergence: 4/9 strongly pinned, 2/9 framework choices, 3/9 derived (NEW v3.5.8, USER-DIRECTED)**. Metropolis-Hastings MCMC with 15,000 samples over 6 free parameters finds: (i) $\alpha$ = 1.291 ± 0.002 matches framework 1.289 (0.$9\sigma$), (ii) $\epsilon$ = $10^{-38.03 ± 0.06}$ matches 10⁻³⁸ (0.$5\sigma$), (iii) $\tau_{\rm 4D}$ = $10^{34.15 ± 0.04}$ yr matches $10^{34.18}$ (0.$7\sigma$), (iv) AGN rate = $10^{-15.50 ± 0.42}$ matches 10⁻¹⁵·⁵² (0.$1\sigma$). These 4 parameters STRONGLY CONVERGE — observations PIN them. $M_{\rm Pl,2D}$ = 1.75 ± 0.33 TeV (posterior) vs 3 TeV (framework, WEAK, framework choice per L308f). N_sub = 217 ± 100 (posterior) vs 400 (framework, WEAK, free per L144). $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$ are DERIVED. TIER 1 (4/9): observationally pinned. TIER 2 (2/9): framework choices — these are the FIRST-PRINCIPPLES GAPS. TIER 3 (3/9): derived. Source: `calculations/v35_monte_carlo_parameter_search.py`.
+L308m. **MCMC parameter convergence: 4/9 strongly pinned, 2/9 framework choices, 3/9 derived (NEW v3.5.8, USER-DIRECTED)**. Metropolis-Hastings MCMC with 15,000 samples over 6 free parameters finds: (i) $\alpha$ = 1.291 ± 0.002 matches framework 1.289 ($0.9\sigma$), (ii) $\epsilon$ = $10^{-38.03 ± 0.06}$ matches 10⁻³⁸ ($0.5\sigma$), (iii) $\tau_{\rm 4D}$ = $10^{34.15 ± 0.04}$ yr matches $10^{34.18}$ ($0.7\sigma$), (iv) AGN rate = $10^{-15.50 ± 0.42}$ matches 10⁻¹⁵·⁵² ($0.1\sigma$). These 4 parameters STRONGLY CONVERGE — observations PIN them. $M_{\rm Pl,2D}$ = 1.75 ± 0.33 TeV (posterior) vs 3 TeV (framework, WEAK, framework choice per L308f). N_sub = 217 ± 100 (posterior) vs 400 (framework, WEAK, free per L144). $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$ are DERIVED. TIER 1 (4/9): observationally pinned. TIER 2 (2/9): framework choices — these are the FIRST-PRINCIPPLES GAPS. TIER 3 (3/9): derived. Source: `calculations/v35_monte_carlo_parameter_search.py`.
 
 L308n. **$\alpha$ = 1 + 1/√12 EXACT first-principles match (NEW v3.5.8, BREAKTHROUGH)**. Schwarzian SYK saddle-point with N=12 gives $\alpha$ = 1.2886751346, matching framework's $\alpha$ = 1.289 within 0.025% — essentially EXACT. N=12 = 12 Majorana = 6 Dirac = 3 generations × 2 (L+R). This DERIVES $\alpha$ from first principles: (1) N=12 justified by SM fermion count, (2) 1/√N from Schwarzian coefficient, (3) $\alpha$ = 1 + c_s where c_s is the time-fluctuation exponent. **L43 (Lagrangian skeleton → $\alpha$) OPEN → PARTIAL**. First-principles progress: 1/9 (was 0/9). Remaining: full combined Z = Z_Liouville × Z_Schwarzian × Z_SYK path integral, cross-couplings. Source: `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
@@ -8243,7 +8243,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 After 7 systematic attempts at first-principles derivations, **NONE of the 9 framework parameters (excluding $M_{\rm Pl,3D}$ which is measured) has a first-principles derivation**. The framework is:
 - **Internally consistent** (multiple parameters cross-check via $\alpha$-GM, closed loop, $M^{\alpha}$ law)
 - **Structurally motivated** (5 paths to $\mu$ = $M_{\rm Pl}$,2D²)
-- **Observationally validated** (5/27/68 split, $H_0$ = 69.8±1.9 within 0.$2\sigma$, etc.)
+- **Observationally validated** (5/27/68 split, $H_0$ = 69.8±1.9 within $0.2\sigma$, etc.)
 - **But NOT first-principles** for any of its 9 parameters
 
 This is honest. The framework is internally self-consistent but requires calibrated inputs.
@@ -8605,18 +8605,18 @@ Source: `calculations/v35_cone_extends_to_zero.py`. Plot saved at `calculations/
 
 | Parameter | Framework value | MCMC posterior | Convergence |
 |---|---|---|---|
-| **$\alpha$** | 1.289 | 1.291 ± 0.002 | ✓ STRONG (0.$9\sigma$) |
-| **log $\epsilon$** | -38.0 | -38.03 ± 0.06 | ✓ STRONG (0.$5\sigma$) |
-| **log $\tau_{\rm 4D}$ (yr)** | 34.18 | 34.15 ± 0.04 | ✓ STRONG (0.$7\sigma$) |
-| **log AGN rate** | -15.52 | -15.50 ± 0.42 | ✓ STRONG (0.$1\sigma$) |
-| **$M_{\rm Pl,2D}$ (TeV)** | 3.0 | 1.75 ± 0.33 | ⚠ WEAK (3.$8\sigma$) |
-| **N_sub** | 400 | 217 ± 100 | ⚠ WEAK (1.$8\sigma$) |
+| **$\alpha$** | 1.289 | 1.291 ± 0.002 | ✓ STRONG ($0.9\sigma$) |
+| **log $\epsilon$** | -38.0 | -38.03 ± 0.06 | ✓ STRONG ($0.5\sigma$) |
+| **log $\tau_{\rm 4D}$ (yr)** | 34.18 | 34.15 ± 0.04 | ✓ STRONG ($0.7\sigma$) |
+| **log AGN rate** | -15.52 | -15.50 ± 0.42 | ✓ STRONG ($0.1\sigma$) |
+| **$M_{\rm Pl,2D}$ (TeV)** | 3.0 | 1.75 ± 0.33 | ⚠ WEAK ($3.8\sigma$) |
+| **N_sub** | 400 | 217 ± 100 | ⚠ WEAK ($1.8\sigma$) |
 | $M_{\rm Pl,4D}$ (10²³ GeV) | 4.0 | 4.93 ± 0.43 | ✓ DERIVED |
 
 ### Three-Tier Classification
 
 **Tier 1 (STRONGLY CONSTRAINED, 4/9 parameters)**: $\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate.
-These converge to framework values within 0.$5\sigma$. They're "observationally pinned" — observations fix them uniquely.
+These converge to framework values within $0.5\sigma$. They're "observationally pinned" — observations fix them uniquely.
 
 **Tier 2 (WEAKLY CONSTRAINED, 2/9 parameters)**: $M_{\rm Pl,2D}$, N_sub.
 These are framework choices (L308f, L144). $M_{\rm Pl,2D}$ is chosen as $v_{\rm Higgs}$ × 12 = 2952 GeV ≈ 3 TeV. N_sub is calibrated to $E_{\rm sub}$ scale. These ARE the "first-principles gaps".
@@ -8690,7 +8690,7 @@ $4\pi$ = S² surface area (boundary of unit 3-ball). In framework: $\gamma_{\rm 
 
 ### $\tau_{\rm 4D}$: CALIBRATED to DE (MCMC converges)
 
-MCMC posterior: $10^{34.15 ± 0.04}$ yr matches framework $10^{34.18}$ (0.$7\sigma$). Tied to DE observation via $f_{\rm DE}$ = $t_{\rm Pl}$/$\tau_{\rm 4D}$. Strongly observationally pinned.
+MCMC posterior: $10^{34.15 ± 0.04}$ yr matches framework $10^{34.18}$ ($0.7\sigma$). Tied to DE observation via $f_{\rm DE}$ = $t_{\rm Pl}$/$\tau_{\rm 4D}$. Strongly observationally pinned.
 
 ### FIRST-PRINCIPPLES STATUS (v3.5.8)
 
@@ -9324,7 +9324,7 @@ Continued web research in June 2026 yields five more external constraints from t
 25. **ACT DR6 CMB lensing** (Farren, Krolewski, Qu et al. 2024, arXiv:2409.02109). The ACT DR6 CMB lensing power spectrum, combined with Planck PR4 and unWISE galaxies, gives $S_8 = 0.840 \pm 0.014$ — *slightly higher* than the Planck CMB-only value ($S_8 = 0.832 \pm 0.013$), and *significantly higher* than weak-lensing values ($S_8 = 0.769 \pm 0.030$ from HSC Y3, $S_8 = 0.759 \pm 0.025$ from DES Y3). The $S_8$ tension persists at $2$– $3\sigma$ in 2025 data. SIDC's interpretation: a MOND-like g₊ floor at $g \sim 10^{-10}$ m/s $^2$ suppresses small-scale structure formation in the late universe, giving a *qualitative* match to the $S_8$ suppression. SIDC does *not* predict the specific $S_8$ value (Limitation 28 OPEN).
 
 These five additional constraints from 2025 datasets do not reduce SIDC's 2 free parameters ($\mu$, $m_{3+1D}$) further, but they:
-- 21: Strengthen the qualitative DE interpretation (3.$5\sigma$ evolving DE, quintessence-like)
+- 21: Strengthen the qualitative DE interpretation ($3.5\sigma$ evolving DE, quintessence-like)
 - 22: Confirm SIDC is heavy (CDV-like, not WDM)
 - 23: Confirm SIDC 2D universes are not PBHs (different physics)
 - 24: Trivially consistent (SIDC has no SM coupling)
@@ -9706,7 +9706,7 @@ The 4D sees the 3D as a *very brief* event ($2 \times 10^{26}$ yr is $10^{-33}$ 
 
 If M_{Pl,4} ~ TeV and the 3D universe is approaching its end in 3D internal time, several *observable* signatures should be present in current and near-future data:
 
-**(a) DESI's evolving DE is the first hint.** The Dark Energy Spectroscopic Instrument DR2 (Adame+ 2025, arXiv:2503.14738) detects a 3.$5\sigma$ preference for *evolving* dark energy, with w₀ = −0.83 ± 0.16 and wₐ = −0.75 ± 0.30. In SIDC + TeV-M_{Pl,4} picture, this is the *expected* signature: the 4D's gravity is *not* a perfect cosmological constant because the 4D's phase is slowly evolving toward the "flip" that ends the 3D universe. Confirmation of DESI's evolving DE at >$5\sigma$ would be the first direct evidence for SIDC's end-of-universe picture.
+**(a) DESI's evolving DE is the first hint.** The Dark Energy Spectroscopic Instrument DR2 (Adame+ 2025, arXiv:2503.14738) detects a $3.5\sigma$ preference for *evolving* dark energy, with w₀ = −0.83 ± 0.16 and wₐ = −0.75 ± 0.30. In SIDC + TeV-M_{Pl,4} picture, this is the *expected* signature: the 4D's gravity is *not* a perfect cosmological constant because the 4D's phase is slowly evolving toward the "flip" that ends the 3D universe. Confirmation of DESI's evolving DE at >$5\sigma$ would be the first direct evidence for SIDC's end-of-universe picture.
 
 **(b) Declining star formation rate.** The cosmic star formation rate density peaked at z ~ 2 (~10 Gyr ago) and has been *declining* ever since. Madau & Dickinson (2014) and recent updates show the SFR density is now ~10% of its peak value. In SIDC picture, this decline is *not* just the natural consequence of gas depletion; it is also a *signature* of the 3D universe approaching its end (less energetic events → fewer 2D universe creation events → less back-projected DM scaffolding for new star formation).
 
@@ -10522,13 +10522,13 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### DESI DR3 (2026-2027): dark energy equation of state $w_0, w_a$
 
-**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.$5\sigma$ tension with $\Lambda{\rm CDM}$)
+**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently $3.5\sigma$ tension with $\Lambda{\rm CDM}$)
 
 **Falsification threshold:**
 - If $w_0 = -1$ confirmed at > $5\sigma$: SIDC's standard Lagrangian (constant $f_{back}$) is right
 - If $w_0 = -0.83$ confirmed at > $5\sigma$: SIDC's standard Lagrangian falsified; needs running $f_{back}(z)$ (adds 1 free parameter)
 
-**Status:** PENDING. Currently 3.$5\sigma$, not yet falsification or validation.
+**Status:** PENDING. Currently $3.5\sigma$, not yet falsification or validation.
 
 #### LSST Y1 (2027): 47 Tuc DM content
 
