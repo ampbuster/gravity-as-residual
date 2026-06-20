@@ -78,8 +78,8 @@ to point to `paper/legacy/legacy_paper.md` instead of missing sections.
 **Math notation fixes** (pre-existing broken patterns cleaned up):
 - `$$g_+$+$...$` patterns consolidated in 06_limitations.md
 - `$$F_p$(z)$` patterns in 06_limitations.md
-- `$$9.7 \times $10^{7}$$` patterns in 02_glossary.md
-- Various `$X$ \times $Y$` patterns consolidated to single math blocks
+- `$$9.7 \times 10^{7}$` patterns in 02_glossary.md
+- Various `$X$ \times Y` patterns consolidated to single math blocks
 
 **PAGE COUNT**:
 - Was: 390 (v3.1)

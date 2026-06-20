@@ -124,6 +124,16 @@ def fix_broken_markdown(content):
     changes += n
     content = new_content
 
+    # Pattern 14: \times $X$ → \times X$
+    new_content, n = re.subn(r'\\times\s+\$([^$]+)\$', r'\\times \1', content)
+    changes += n
+    content = new_content
+
+    # Pattern 15: \sim $X$ → \sim X$
+    new_content, n = re.subn(r'\\sim\s+\$([^$]+)\$', r'\\sim \1', content)
+    changes += n
+    content = new_content
+
     return content, changes
 
 

@@ -895,9 +895,9 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type stars alive, no SN progenitors in the recent past). The emulator's SFH is:
 - $SFR(t) = 0.5 M_\odot/yr$ for $t \in [0.5, 2.0]$ Gyr (lookback)
-- $M_b$ (current) = $7.3 \times $10^{8}$ M_\odot$ (REVISED v2.7.33+: was $2 \times $10^{8}$$ — SIDC's $M_{b}$ was wrong)
-- $M_{\rm total\ formed} = 7.3 \times $10^{8}$ M_\odot$ (1.5 Gyr of SF)
-- $N_{CCSN, total} = 1.1 \times $10^{6}$$
+- $M_b$ (current) = $7.3 \times 10^{8} M_\odot$ (REVISED v2.7.33+: was $2 \times 10^{8}$ — SIDC's $M_{b}$ was wrong)
+- $M_{\rm total\ formed} = 7.3 \times 10^{8} M_\odot$ (1.5 Gyr of SF)
+- $N_{CCSN, total} = 1.1 \times 10^{6}$
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
 **SIDC prediction:**$M_{dyn}/M_{b} = 1.36$ (DM-poor). **[PASS]** matches Mancera Piña 2022.
@@ -910,10 +910,10 @@ Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type st
 **Test 2: KKR 25 (dSph, Makarov+ 2012).**
 
 Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created 2D universes whose energy was returned to 3+1D as DM via the $S_{destruction}$ cumulative-return pathway. The emulator's SFH is:
-- $\mathrm{SFR}(t) = 4 \times $10^{-4}$ M_\odot/\mathrm{yr}$ for $t \in [1.0, 4.0]$ Gyr (lookback) (REVISED v2.7.33+: was 1.0 $M_\odot$/yr, off by 2500×)
-- $M_b$ (current) = $3.0 \times $10^{6}$ M_\odot$ (REVISED v2.7.33+: was $10^{6}$, Makarov 2012)
-- $M_{\rm total\ formed} = 1.2 \times $10^{6}$ M_\odot$ (REVISED v2.7.33+: was $3.0 \times $10^{9}$$, off by 2500×)
-- $N_{\rm CCSN, total} = 1.8 \times $10^{3}$$ (REVISED v2.7.33+: was $4.5 \times $10^{6}$$, off by 2500×)
+- $\mathrm{SFR}(t) = 4 \times 10^{-4} M_\odot/\mathrm{yr}$ for $t \in [1.0, 4.0]$ Gyr (lookback) (REVISED v2.7.33+: was 1.0 $M_\odot$/yr, off by 2500×)
+- $M_b$ (current) = $3.0 \times 10^{6} M_\odot$ (REVISED v2.7.33+: was $10^{6}$, Makarov 2012)
+- $M_{\rm total\ formed} = 1.2 \times 10^{6} M_\odot$ (REVISED v2.7.33+: was $3.0 \times 10^{9}$, off by 2500×)
+- $N_{\rm CCSN, total} = 1.8 \times 10^{3}$ (REVISED v2.7.33+: was $4.5 \times 10^{6}$, off by 2500×)
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
 **SIDC prediction:**$M_{dyn}/M_{b} \sim 1\text{--}4$ (REVISED v2.7.33+: was 299.19, see legacy_paper.md legacy_paper.md §3.27 for the correction).
@@ -936,7 +936,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 - **[X]** A quantitative prediction of $M_{dyn}$/ $M_{b}$ from SFH alone
 - **[X]** A pairwise comparison between galaxies measured in different decades
 
-**Honest caveats.** The DM/baryon proportionality constant (0.1 in the emulator) is *calibrated* to match dSph observations — this is Limitation 26 territory. The *qualitative* SFH-DM correlation IS reproducible from the SFH alone. The *absolute* $M_{DM}$ values are postulates pending the full Lagrangian. The emulator's "growth factor" $G_{growth} = 9.7 \times $10^{7}$$ from §2.6 is *not* used directly in the final prediction (a calibrated proportionality is more honest than a chain of uncertain factors).
+**Honest caveats.** The DM/baryon proportionality constant (0.1 in the emulator) is *calibrated* to match dSph observations — this is Limitation 26 territory. The *qualitative* SFH-DM correlation IS reproducible from the SFH alone. The *absolute* $M_{DM}$ values are postulates pending the full Lagrangian. The emulator's "growth factor" $G_{growth} = 9.7 \times 10^{7}$ from §2.6 is *not* used directly in the final prediction (a calibrated proportionality is more honest than a chain of uncertain factors).
 
 **The original 219× bifurcation was a numerical error, not a physical prediction.** See legacy_paper.md legacy_paper.md §3.27, legacy_paper.md legacy_paper.md §3.28, legacy_paper.md legacy_paper.md §3.29 for the self-corrections that led to the bifurcation removal.
 
