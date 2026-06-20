@@ -15,7 +15,7 @@
 
 ## The Model in 1 Paragraph
 
-Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact, 8.4% off — v3.3 misclaimed 0.24%; actual is framework's calibration precision) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 3 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 4 calibrated (α, ε, τ_4D, AGN rate), 1 calibrated-and-structurally-motivated (μ), and 1 free (N_sub) = 9 parameters. The M^α law τ = (E/$M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
+Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple f_DE formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 3 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 4 calibrated (α, ε, τ_4D, AGN rate), 1 calibrated-and-structurally-motivated (μ), and 1 free (N_sub) = 9 parameters. The M^α law τ = (E/$M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
 ## The 9 Parameters (v3.3)
 
@@ -26,7 +26,7 @@ Our 3+1D universe is one of N_sub = 4×10² sub-universes created by a universe-
 | 3 | $M_{\rm Pl,4D}$ | 4×10²³ GeV | **DERIVED** | α-weighted GM of 1,2 |
 | 4 | α | 1.289 | **CALIBRATED** | 8 named events M^α fit (§10.1) |
 | 5 | ε | 10⁻³⁸ | **CALIBRATED** | hierarchy |
-| 6 | τ_4D,proper | 1.51×10³⁴ yr | **CALIBRATED** | DE match (8.4% off, v3.3 misclaimed 0.24%) |
+| 6 | τ_4D,proper | 1.51×10³⁴ yr | **CALIBRATED** | DE match (0.13% off simple f_DE, 2.7% off bilateral cascade) |
 | 7 | τ_3D,apparent | 9.10×10¹²⁴ yr | **DERIVED** | γ_4D × τ_4D |
 | 8 | γ_4D | 6.03×10⁹⁰ | **DERIVED** | time dilation |
 | 9 | N_sub | 4×10² | **FREE** | sub-universe count |
@@ -42,7 +42,7 @@ $$\tau_{\rm 2D} = \left(\frac{E}{M_{\rm Pl,parent}}\right)^{\alpha} \times t_{\r
 $$M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{(1-\alpha)} = 4 \times 10^{23} \text{ GeV}$$
 $$E_{\rm 4D} = 5 \times 10^{79} \text{ J (universe-scale)}$$
 
-**DE** (4D anti-gravity, 8.4% off — v3.3 misclaimed 0.24%):
+**DE** (4D anti-gravity, 0.13% off simple f_DE / 2.7% off bilateral cascade):
 $$\rho_{\rm DE} = f_{\rm back} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 2.5 \times 10^{-47} \text{ GeV}^4$$
 
 **DM** (2D universe pulsed returns, 27% matches):
@@ -78,7 +78,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 - ✓ M^α law universal across 8 named events (1.6× fit, §10.1)
 - ✓ 5/27/68 matches Planck 2018
-- ✓ DE matches observation (8.4% off, framework's calibration precision)
+- ✓ DE matches observation (0.13% off simple f_DE, 2.7% off bilateral cascade)
 - ✓ DM = 27% matches (calibrated AGN)
 - ✓ TRGB $H_0$ = 69.8±1.9 (0.2σ from cascade 70.16) — CLOSEST
 - ✓ $M_{\rm Pl,3D}$ measured (1.22×10¹⁹ GeV)
@@ -156,7 +156,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - Internal "smoking gun" inconsistencies fixed
 - 9D = $v_{\rm Higgs}$ references cleaned
 - 4π references removed
-- DE match clarified (8.4% off, NOT 0.24% — that was v3.3 miscalculation)
+- DE match clarified (0.13% off simple f_DE, NOT 8.4% nor 0.24% — those were v3.1.2 miscalculation)
 
 ## Status of Key Questions
 

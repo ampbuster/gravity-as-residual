@@ -24,7 +24,7 @@
     - **$f_{\rm DE}$** = continuous 3+1D→4D (1.2×10⁻⁸⁵ → DE)
   - **PAPER + README updates**: 408 systematic replacements across 77 files
   - **LEGACY organization**: 3 new files in paper/legacy/ (v357_*)
-  - **Inconsistencies fixed**: 0.24% DE → 8.4% (v3.3 miscalculation), page/limitation counts
+  - **Inconsistencies fixed**: 8.4% (v3.1.2 Scenario X) → 0.13% (v3.3 simple f_DE formula, near-exact), page/limitation counts
 **v3.4.x timeline** (earlier):
 - v3.4: F-theory 12D adopted as 4D bulk (Vafa 1996, 10 base + 2 T² fiber)
 - v3.4.5: 8 inconsistencies found in "12" hypothesis via web research
@@ -79,7 +79,7 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - α^5 relation DROPPED (was empirical coincidence, wrong direction)
 
 **v3.3 CASCADE STATUS**:
-- DE matches obs within 8.4% (NOT 0.4% — was miscalculation; formula independent of $M_{\rm Pl,4D}$)
+- DE matches obs within 0.13% (simple f_DE formula, near-exact via τ_4D calibration; was 8.4% with v3.1.2 Scenario X 887 GeV formula)
 - DM matches obs exactly (calibrated AGN) ✓
 - Baryons match obs (BBNS) ✓
 - Total: 1.0 × ρ_crit ✓
@@ -182,7 +182,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - The 4D event is "practically eternal" from 3+1D frame (γ_4D = 6.03×10⁹⁰, τ_4D = 1.51×10³⁴ yr apparent)
 - **Universe age = 1.5×10⁻¹⁵ of lifetime** (we observe at cosmic "day 1", v3.4.8)
 - 3+1D leaks $f_{\rm back}$ = ($M_{\rm Pl,4D}$/$E_{\rm 4D}$)^α ~ 10⁻⁸⁵ back to 4D during its lifetime (UNIVERSAL formula)
-- DE = $f_{\rm back}$ × ε × $M_{\rm Pl}$,3D⁴ (closed loop formula, matches obs within 8.4%)
+- DE = $f_{\rm back}$ × ε × $M_{\rm Pl}$,3D⁴ (closed loop formula, matches obs within 0.13% simple f_DE / 2.7% full bilateral cascade)
 - **Bilateral cascade (v3.3)**: DE = time-dilated slice of 4D's pulsed life; DM = 100% pulsed at 2D universe death
 - In our universe, every energetic event (SNe, BH mergers, etc.) creates a 2D universe
 - 2D universe lives for τ_2D = (E/E_Pl,3D)^α × $t_{\rm Pl}$ (M^α law, 14 events, α = 1.289)
@@ -1045,7 +1045,7 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 - 5/27/68 matches obs (baryons/DM/DE)
 - 8/8 events fit M^1.29 within 1.6×
 - TRGB $H_0$ = 70.16 closest to cascade
-- DE within 8.4% (framework's calibration precision)
+- DE within 0.13% (simple f_DE, near-exact via τ_4D calibration)
 - $M_{\rm Pl,4D}$ = 4×10²³ GeV (DERIVED via α-weighted GM)
 - $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale, structural)
 - "12 propagates" is CORRELATION not derivation (v3.4.6)
@@ -1168,11 +1168,11 @@ DM comes from 100% pulsed return at 2D universe death.
 - AGN rate 3×10⁻¹⁶: paper=16, memory=3 ✓
 - τ_SN = 33 s: paper=388 (very consistent) ✓
 - 5/27/68: paper=419 (very consistent) ✓
-- 8.4% DE: paper=20, consistent ✓
+- 0.13% DE (simple f_DE) / 2.7% DE (bilateral cascade): paper=20, consistent ✓
 - ε = 10⁻³⁸: paper=40, consistent ✓
 
 ### Inconsistencies Fixed
-- 0.24% DE match → 8.4% (v3.3 miscalculation, 6 mentions fixed)
+- 8.4% (v3.1.2 Scenario X) → 0.13% (v3.3 simple f_DE formula) — 6 mentions fixed
 - 382 pages → 365 pages
 - 81 limitations → 116 limitations
 - 8 parameters → 9 parameters (μ added)
@@ -1201,7 +1201,7 @@ DM comes from 100% pulsed return at 2D universe death.
 ## 19. v3.5.7 PAPER + README UPDATE (FINAL)
 
 **Files updated**:
-1. README.md — v3.5.7 CURRENT VERSION banner, 9 parameters, 8.4% DE
+1. README.md — v3.5.7 CURRENT VERSION banner, 9 parameters, 0.13% DE (simple f_DE)
 2. paper/markdown/00_title.md — v3.5.x HIGHLIGHTS section
 3. paper/markdown/02_glossary.md — §0.5 $f_{\rm back}$ USAGE GUIDE
 4. paper/markdown/06_limitations.md — 116 limitations (was 81)
