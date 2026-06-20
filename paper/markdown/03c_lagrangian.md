@@ -966,9 +966,9 @@ to the **4D event → 3D universe** level using the same formula.
 | X-class solar flare (typical max) | $1 \times 10^{25}$ | $1.1 \times 10^{-23}$ | $1 \times 10^{-23}$ | 1.07 |
 | Carrington event (1859) | $1 \times 10^{25}$ | $1.1 \times 10^{-23}$ | — | — |
 | **Stellar events** | | | | |
-| Solar-type star (10 Gyr total output) | $1.1 \times 10^{44}$ | 33.5 | — | — |
-| Type Ia SN (calibration, 1987A-like) | $1 \times 10^{44}$ | 33 | 33 | 1.00 (calibration) |
-| SN 1987A | $1 \times 10^{44}$ | 33 | — | — |
+| Solar-type star (10 Gyr total output) | $1.1 \times 10^{44}$ | 33.5 s | — | — |
+| Type Ia SN (calibration, 1987A-like) | $1 \times 10^{44}$ | 33 s | 33 s | 1.00 (calibration) |
+| SN 1987A | $1 \times 10^{44}$ | 33 s | — | — |
 | SGR 1806-20 magnetar giant flare (2004) | $1.4 \times 10^{45}$ | 14.8 min | — | — |
 | Magnetar (typical giant flare) | $1 \times 10^{45}$ | 9.6 min | — | — |
 | Short GRB (170817A-like) | $1 \times 10^{45}$ | 9.6 min | — | — |
