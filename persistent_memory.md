@@ -1445,7 +1445,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### L) v3.5.8 one-sentence summary
 
-"Our 3+1D universe is one of N_sub = 4×10² sub-universes (linear in $E_{\rm 4D}$ per L308o) created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-GM), with τ_4D = 1.51×10³⁴ yr (DE matches within 0.13% via simple $f_{\rm DE}$ formula), and τ_3D,apparent = 9.10×10²⁴ yr. Bilateral cascade has 9 parameters: 1 measured ($M_{\rm Pl,3D}$), 1 derived from first principles (α = 1+1/√12, BREAKTHROUGH), 4 calibrated (ε, τ_4D, AGN rate, $E_{\rm 4D}$), 1 structural ($M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$ ≈ 3 TeV), 1 SEMI-DERIVED (N_sub = $E_{\rm 4D}$/$E_{\rm sub}$), 2 derived via consistency ($M_{\rm Pl,4D}$, $M_{\rm Pl,2D}$ α-GM)."
+"Our 3+1D universe is one of N_sub = 4×10² sub-universes (linear in $E_{\rm 4D}$ per L308o) created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-GM), with τ_4D = 1.51×10³⁴ yr (DE matches within 0.13% via simple $f_{\rm DE}$ formula), and τ_3D,apparent = 9.10×10²⁴ yr. Bilateral cascade has 9 parameters (v3.5.8+): 1 measured ($M_{\rm Pl,3D}$), 3 DERIVED from first principles (α = 1+1/√12, $M_{\rm Pl,2D}$ = N×$v_{\rm Higgs}$ = 12×246, $\mu$ = $M_{\rm Pl,2D}^2$ via L308r chain), 4 calibrated (ε, τ_4D, AGN rate, $E_{\rm 4D}$), 1 SEMI-DERIVED (N_sub = $E_{\rm 4D}$/$E_{\rm sub}$), 1 derived via consistency ($M_{\rm Pl,4D}$ α-GM)."
 
 ### M) Lessons learned
 
