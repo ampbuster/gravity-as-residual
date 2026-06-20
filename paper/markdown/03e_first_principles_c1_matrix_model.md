@@ -70,7 +70,7 @@ So even though $M_{\rm Pl,2D}$ is "inverted", DM contribution isn't:
    - They have no observable effect
 
 2. **Maybe there's a CENSORSHIP mechanism**:
-   - Below some E_threshold: no 2D universe created
+   - Below some $E_{\rm threshold}$: no 2D universe created
    - Only "significant" events create 2D universes
    - This would explain why we don't see TNT universes
 
@@ -111,11 +111,11 @@ But this is ad hoc — no clear principle for K_max.
 What if there's a NATURAL FLOOR for 2D universe creation?
 
 **Threshold candidates:**
-- E_threshold = $M_{\rm Pl,3D}$ × c² ≈ 10⁹ J (Planck energy in joules)
-- E_threshold = 10²⁵ J (X-class flare scale)
-- E_threshold = 10⁴⁴ J (SN scale — but then no TNT, flare, etc.)
+- $E_{\rm threshold}$ = $M_{\rm Pl,3D}$ × c² ≈ 10⁹ J (Planck energy in joules)
+- $E_{\rm threshold}$ = 10²⁵ J (X-class flare scale)
+- $E_{\rm threshold}$ = 10⁴⁴ J (SN scale — but then no TNT, flare, etc.)
 
-If E_threshold = 10⁹ J:
+If $E_{\rm threshold}$ = 10⁹ J:
 - TNT (4×10⁹ J) is barely above threshold → maybe no 2D universe
 - SN (10⁴⁴ J) is well above → standard 2D universe
 - This would explain why we don't see TNT 2D universes

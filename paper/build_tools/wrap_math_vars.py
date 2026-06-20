@@ -52,6 +52,19 @@ VARS = [
     (r'\bE_SN\b', '$E_{\\rm SN}$'),
     (r'\bE_AGN\b', '$E_{\\rm AGN}$'),
     (r'\bE_2D\b', '$E_{\\rm 2D}$'),
+    (r'\bE_crit\b', '$E_{\\rm crit}$'),
+    (r'\bE_primordial\b', '$E_{\\rm primordial}$'),
+    (r'\bE_sub\b', '$E_{\\rm sub}$'),
+    (r'\bE_event\b', '$E_{\\rm event}$'),
+    (r'\bE_pp\b', '$E_{\\rm pp}$'),
+    (r'\bE_threshold\b', '$E_{\\rm threshold}$'),
+    (r'\bE_total\b', '$E_{\\rm total}$'),
+    (r'\bE_CCSN\b', '$E_{\\rm CCSN}$'),
+    (r'\bE_per_SN_GW\b', '$E_{\\rm per,SN,GW}$'),
+    (r'\bE_per_BNS_GW\b', '$E_{\\rm per,BNS,GW}$'),
+    (r'\bE_n\b', '$E_{\\rm n}$'),
+    (r'\bE_D\b', '$E_{\\rm D}$'),
+
 
     # Mass scales
     (r'\bM_4D\b', '$M_{\\rm 4D}$'),

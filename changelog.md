@@ -34,7 +34,7 @@
 - 8/8 events fit M^1.29 within 1.6× (α = 1.258 REJECTED, 14% off $v_{\rm Higgs}$)
 - Scenario X adopted: $M_{\rm Pl,4D}$ = 887 GeV (4D BULK Planck, separate from $M_{\rm Pl,3D}$)
 - Three different $M_{\rm Pl}$ at three different levels (2D = 3 TeV, 3D = 10¹⁹ GeV, 4D = 887 GeV)
-- Closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$/E_event)^α universal at every level
+- Closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α universal at every level
 - AGE vs LIFETIME distinct: 13.8 Gyr is AGE, LIFETIME UNKNOWN
 - Frame of reference: 4D event proper 10⁻²⁰ s, apparent 10³⁴ yr (γ ~ 10⁶²)
 - N_sub = free parameter (4D-bulk dynamics unknown)
@@ -151,12 +151,12 @@ current content. The legacy paper is unchanged.
 **User feedback:** "some markdown still incorrect"
 
 Found 3 lines in 10_end_universe.md with raw LaTeX (`T_{D-1}`,
-`M_{Pl,4}`, `E_D^1.29`) outside of `$...$` delimiters. These were
+`M_{Pl,4}`, `$E_{\rm D}$^1.29`) outside of `$...$` delimiters. These were
 being interpreted by the markdown parser as italic/subscript and
 showing as raw text on the phone viewer.
 
 **Fixed:**
-- `T_{D-1} ∝ E_D^1.29` → `$T_{D-1} \propto E_D^{1.29}$`
+- `T_{D-1} ∝ $E_{\rm D}$^1.29` → `$T_{D-1} \propto E_D^{1.29}$`
 - `M_{Pl,4} ≥ 887 GeV` → `$M_{Pl,4} \geq 887$ GeV`
 - `2×10²⁶ yr` → `$2 \times 10^{26}$ yr`
 - `T ∝ E^1, T ∝ E²` → `$T \propto E^1$, $T \propto E^2$`
@@ -366,7 +366,7 @@ This document contains the cascade's full version history.
    | A_event | 1.0 (7 refs) | 67 (1 ref) | ⚠️ MIXED |
    | N | 12 (many refs) | — | ✓ CURRENT ONLY |
    | $z_{\rm half}$ | 3 (20 refs) | other (20 refs) | ⚠️ MIXED |
-   | E_primordial | ~10²² M_☉ | — | ✓ CURRENT ONLY |
+   | $E_{\rm primordial}$ | ~10²² M_☉ | — | ✓ CURRENT ONLY |
 
 4. **Honest finding**: The 0.7/0.3/1.29/67 references are HISTORICAL
    CONTEXT preserved by design. They show the cascade's evolution
@@ -442,11 +442,11 @@ This document contains the cascade's full version history.
    - Special symbols (ℏ, ℓ, √, ∫, Σ) ✓
    - All other LaTeX ✓
 
-5. **Caveat update**: Updated the §10.1 Caveat about E_primordial UNSPECIFIED
+5. **Caveat update**: Updated the §10.1 Caveat about $E_{\rm primordial}$ UNSPECIFIED
    to reflect v2.7.65 L51 work:
-   - Was: "E_primordial is UNSPECIFIED (see Limitation 34)"
-   - Now: "E_primordial was UNSPECIFIED in v2.7.4-64 (L34). The v2.7.65
-     §3.40 L51 derivation attempt constrained E_primordial to ~10^22 M_☉
+   - Was: "$E_{\rm primordial}$ is UNSPECIFIED (see Limitation 34)"
+   - Now: "$E_{\rm primordial}$ was UNSPECIFIED in v2.7.4-64 (L34). The v2.7.65
+     §3.40 L51 derivation attempt constrained $E_{\rm primordial}$ to ~10^22 M_☉
      ($E_{\rm 4D}$ at the 4D event scale, galaxy-cluster level), but the per-event
      energy of primordial 2D universes is still partially OPEN (L51 PARTIAL)"
 
@@ -1152,7 +1152,7 @@ multiple cascade parameters that were previously calibrated.
    - Q3: Scaling factor across event types? → BREAKTHROUGH
 
 2. **THE SCALING LAW** (user-driven discovery):
-   $f_{\rm back}$(event) = $f_{\rm back}$(universal) × (E_event / $E_{\rm SN}$)^(α - 1/(2α))
+   $f_{\rm back}$(event) = $f_{\rm back}$(universal) × ($E_{\rm event}$ / $E_{\rm SN}$)^(α - 1/(2α))
    - $f_{\rm back}$(universal) = 8.6e-86 ≈ 10^-85
    - α - 1/(2α) = 0.902 (scaling exponent)
 
@@ -1175,7 +1175,7 @@ multiple cascade parameters that were previously calibrated.
    (E/$E_{\rm SN}$)^(α-1/(2α)). The 1/(2α) is the exact power.
 
 6. **Why this works**:
-   - Formula has τ_event and E_event, related by energy-scaling rule
+   - Formula has τ_event and $E_{\rm event}$, related by energy-scaling rule
    - Combined event-dependence: $f_{\rm back}$ ∝ E^(α - 1/(2α))
    - Multiplying by (E/$E_{\rm SN}$)^(-(α-1/(2α))) cancels the event-dependence
    - Result: universal constant
@@ -2747,7 +2747,7 @@ The cascade cannot proceed honestly without addressing L50.
    - Was: "upward direction left open"
    - Now: explicit treatment of what 4D's own DM/DE budget would look like
 
-3. **Connection to E_primordial (L34) and universal bulk-brane cancellation (§2.4)**
+3. **Connection to $E_{\rm primordial}$ (L34) and universal bulk-brane cancellation (§2.4)**
    - 4D's "perceivable" 73% projects to 3+1D as DE (the 68%)
    - 4D's "children" 32% (or whatever ratio) is 4D's own DM
    - 3+1D sees only 4D's *projected* contribution, not 4D's full structure
@@ -2811,7 +2811,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 **Earlier v2.7.12 entry (unchanged):**
 
-## v2.7.12 (June 2026) — Parameter Glossary + E_primordial spec + §13 closure update
+## v2.7.12 (June 2026) — Parameter Glossary + $E_{\rm primordial}$ spec + §13 closure update
 
 **Major changes since v2.7.11:**
 
@@ -2820,10 +2820,10 @@ The cascade cannot proceed honestly without addressing L50.
    - 3 calibrated postulates: $f_{\rm DE}$ ~ 10^-85, ε ~ 10^-38, $F_p$ ~ 0.7
    - 5 observational inputs: 5/27/68, $H_0$, $E_{\rm SN}$, etc.
    - 4 derived quantities: $M_{\rm Pl,4}$ floor, f_primordial, $H_0$,4D, τ_4D
-   - Recent removals: E_crit, λ_th, $f_{\rm active}$ (cleaned up over versions)
+   - Recent removals: $E_{\rm crit}$, λ_th, $f_{\rm active}$ (cleaned up over versions)
 
-2. **E_primordial specification (L34 partially addressed)** in §4.48:
-   - Functional form: E_primordial = ρ_4D × V_2D × f_primordial
+2. **$E_{\rm primordial}$ specification (L34 partially addressed)** in §4.48:
+   - Functional form: $E_{\rm primordial}$ = ρ_4D × V_2D × f_primordial
    - ρ_4D = ε × $M_{\rm Pl,4}$^4 (4D event's energy density)
    - V_2D = c × τ_2D_primordial (2D universe's spatial extent)
    - f_primordial = ρ_DM_primordial / ρ_4D (DERIVED from observations)
@@ -3062,19 +3062,19 @@ The cascade cannot proceed honestly without addressing L50.
 
 1. **§4.48.1 Smooth F(z) refinement (NEW subsection, ~3 pages)**: the v2.4 constant $F_p$ = 0.7 (CMB gap: 30% off at z=1100) is replaced with a smooth Hill function $F_p$(z) = 0.7 + 0.3 × z²/(z_half² + z²) with $z_{\rm half}$ ≈ 3. This 1-parameter family matches BOTH z=0 and z=1100 anchors with gap < 1%, **CLOSING THE CMB GAP**. The Hill form is preferred over exp/sigmoid because it stays below 1.0 at intermediate z (no over-prediction at z=2-6). L35 added for $z_{\rm half}$ free parameter. Limitation 31 (CMB time-lag) status: PARTIALLY → **FULLY ADDRESSED**.
 
-2. **§2.5.3 Smooth creation function (NEW subsection, ~3 pages)**: the v2.3.0 E_crit step-function phase-transition threshold (E_crit ~ 10^30 J) is REPLACED with a single smooth function C(E) = E^(1+α) with α = 1.29 (the same α from the energy-scaling rule). The smooth function uses only the existing α parameter — no new free parameters. The 5/5 dwarf cases (Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) all still work: low-energy events contribute E^2.29/SN^2.29 ~ 10^-31 to 10^-41 of SN, naturally negligible. L36 added for E_crit REVERTED status. **Parameter reduction: 2 free parameters (α + E_crit) → 1 free parameter (α).**
+2. **§2.5.3 Smooth creation function (NEW subsection, ~3 pages)**: the v2.3.0 $E_{\rm crit}$ step-function phase-transition threshold ($E_{\rm crit}$ ~ 10^30 J) is REPLACED with a single smooth function C(E) = E^(1+α) with α = 1.29 (the same α from the energy-scaling rule). The smooth function uses only the existing α parameter — no new free parameters. The 5/5 dwarf cases (Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) all still work: low-energy events contribute E^2.29/SN^2.29 ~ 10^-31 to 10^-41 of SN, naturally negligible. L36 added for $E_{\rm crit}$ REVERTED status. **Parameter reduction: 2 free parameters (α + $E_{\rm crit}$) → 1 free parameter (α).**
 
 3. **Thomson tension resolution in README**: the v3 README claim that "Thomson does the heavy lifting" was incorrect under the smooth function. Thomson per-event contribution is ~10^-145 of SN (CMB photon energy × E^2.29 weight); even with Thomson's much higher rate (~10^67/s vs SN's 10^-12/s), net contribution is ~10^-66 of SN (negligible). The r(z) ≈ (1+z)³ match actually comes from the $F_p$(z) primordial component (§4.48.1), not from Thomson. README reframed to honest framing.
 
 4. **Paper structure cleanup**:
    - Title + author + version + repo added to paper.md (was missing)
    - 4 version announcements moved from paper.md to changelog.md (paper.md now references changelog.md)
-   - "32 honest limitations" → "33" → "34" → "35" (L34 E_primordial + L35 $z_{\rm half}$ + L36 E_crit REVERTED)
+   - "32 honest limitations" → "33" → "34" → "35" (L34 $E_{\rm primordial}$ + L35 $z_{\rm half}$ + L36 $E_{\rm crit}$ REVERTED)
    - 9+ paper inconsistencies found and fixed via audit scripts (calculations/v27_paper_inconsistency_audit.py, calculations/v27_paper_full_audit.py)
 
 5. **PDF regeneration**: paper.pdf now 201 pages (was 199), uses xelatex with DejaVu fonts to handle the 973 Unicode superscripts (10^-50, ², ³, etc.) that pdflatex cannot render. Build script: `paper/build_pdf.sh`.
 
-**Free parameters: 2 → 1** (E_crit removed via smooth creation function).
+**Free parameters: 2 → 1** ($E_{\rm crit}$ removed via smooth creation function).
 
 **Total honest limitations: 35** (17 OPEN, 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED).
 
@@ -3961,7 +3961,7 @@ in the THEORETICAL FOUNDATION category:
 
 15. **Schwarzian limit of Liouville CFT** (Stanford-Yang 2018, Mertens 2018, Mertens-Turiaci 2023):
    - In JT limit, Liouville → Schwarzian action: S ~ ∫dt {F(t),t}
-   - Schwarzian QM: discrete energy spectrum E_n = (π²/2)(1/4 + n²)
+   - Schwarzian QM: discrete energy spectrum $E_{\rm n}$ = (π²/2)(1/4 + n²)
    - Density of states: ρ(E) ~ sinh(2π√(2E/E₀))
    - This is the FORM of the cascade's P($m_{\rm 2D}$)
 
@@ -4327,7 +4327,7 @@ Pushed: github.com/ampbuster/gravity-as-residual
 New speculative section derived from web-research rounds of v2.7.3+.
 Adds three significant cascade extensions:
 
-1. **Energy-scaling ladder** — T_{D-1} = 33s × (E_D / 10^44 J)^1.29,
+1. **Energy-scaling ladder** — T_{D-1} = 33s × ($E_{\rm D}$ / 10^44 J)^1.29,
    calibrated to the 33s Type Ia SN 2D universe. Extrapolates to
    2×10^26 yr for the 4D cosmological event creating our 3D universe.
 
@@ -4684,7 +4684,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 **NEW LIMITATIONS (5 added, 123 → 128)**:
 - **L308m (NEW)**: MCMC parameter convergence: 4/9 strongly pinned, 2/9 framework choices, 3/9 derived
 - **L308n (BREAKTHROUGH)**: α = 1 + 1/√12 EXACT first-principles match (0.025% off framework 1.289)
-- **L308o (USER-INSIGHT)**: N_sub = $E_{\rm 4D}$/E_sub scales linearly with event size
+- **L308o (USER-INSIGHT)**: N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ scales linearly with event size
 - **L308p (USER-INSIGHT)**: Cone is asymmetric: 4D linear, 2D one-to-one
 - **L308q (USER-INSIGHT)**: 2D universe is discrete quantum ($M_{\rm 2D}$ can't be split)
 
@@ -4705,8 +4705,8 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
    - First-principles progress: 0/9 → 1/9
 
 3. **N_sub LINEAR SCALING** (USER-INSIGHT):
-   - N_sub = $E_{\rm 4D}$ / E_sub (energy conservation)
-   - E_sub = 1.25×10⁷⁷ J (~10²⁹ M_sun, sub-universe scale)
+   - N_sub = $E_{\rm 4D}$ / $E_{\rm sub}$ (energy conservation)
+   - $E_{\rm sub}$ = 1.25×10⁷⁷ J (~10²⁹ M_sun, sub-universe scale)
    - For framework: N_sub = 400 ($E_{\rm 4D}$ = 5×10⁷⁹ J)
    - Different 4D events → different N_sub (sub-galaxy: N=4, supercluster: N=400,000)
    - N_sub no longer "free parameter" — SEMI-DERIVED
@@ -4736,7 +4736,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - calculations/v35_monte_carlo_parameter_search.py (MCMC breakthrough)
 - calculations/v35_2d_cft_monte_carlo_alpha.py (α first-principles derivation)
 - calculations/v35_first_principles_rest.py ($M_{\rm Pl,2D}$, N_sub, ε, τ_4D search)
-- calculations/v35_n_sub_scaling.py (N_sub = $E_{\rm 4D}$/E_sub)
+- calculations/v35_n_sub_scaling.py (N_sub = $E_{\rm 4D}$/$E_{\rm sub}$)
 - calculations/v35_2d_universe_quantum.py ($M_{\rm 2D}$ discrete)
 
 **NEW RESULT FILES** (3 files):

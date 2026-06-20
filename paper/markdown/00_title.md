@@ -28,7 +28,7 @@
 - **Boundary sphere structure** (L308i, USER-DISCOVERED): 2$\pi$ (S¹) at 2D-3D, 4$\pi$ (S²) at 3D-4D
 - **Geometric peak at n=6** (L308k, USER-CORRECTED): S⁶ surface area 33.07, cone could extend to 7D/8D
 - **Cone natural range** (L308l, USER-DIRECTED): n=1 to n≈17
-- **N_sub = $E_{\rm 4D}$/E_sub linear scaling** (L308o, USER-INSIGHT): no longer free parameter
+- **N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ linear scaling** (L308o, USER-INSIGHT): no longer free parameter
 - **Cone is asymmetric** (L308p, USER-INSIGHT): 4D linear (transcendent), 2D one-to-one (internal)
 - **2D universe is discrete quantum** (L308q, USER-INSIGHT): $M_{\rm 2D}$ = $M_{\rm Pl}$,2D²/$M_{\rm Pl,3D}$ is smallest unit of DM
 

@@ -222,7 +222,7 @@ At level 4 (4D → 3+1D):
 - Backward: f_back_4 = ($E_{\rm 5D}$/ $E_{\rm 4D}$)^(1/(2$\alpha$)) × prefactors → requires $E_{\rm 5D}$
 
 At level 5+:
-- Need BOTH E_D and E_{D+1} for the closed loop
+- Need BOTH $E_{\rm D}$ and E_{D+1} for the closed loop
 - Without these, the closed loop CANNOT be evaluated
 
 **Conclusion (v3.0.21)**:
@@ -444,15 +444,15 @@ See `calculations/v31_F_p_consistency.py` and `calculations/v31_F_p_result.md` f
 
 **User correction (v3.1.2, further revised v3.1.2-final)**: "An energetic event in a 4D bulk created our 3+1D universe" — we do NOT know what kind of event occurs in the 4D bulk (NOT necessarily 'galaxy collisions' as previously suggested; the 4D-bulk dynamics are UNKNOWN). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our universe was created, not related to whatever produced it).
 
-**Setup (Scenario X, REVISED v3.3)**: 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV, calibrated to DE) creates N_sub 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = N_sub × E_sub. The 4D-bulk dynamics are UNKNOWN, so N_sub is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to 4×10²³ GeV via $\alpha$-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
+**Setup (Scenario X, REVISED v3.3)**: 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 4×10²³ GeV, calibrated to DE) creates N_sub 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so N_sub is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to 4×10²³ GeV via $\alpha$-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
 
-If we apply M^$\alpha$ law to a sub-universe of mass E_sub (in 3+1D's own frame):
+If we apply M^$\alpha$ law to a sub-universe of mass $E_{\rm sub}$ (in 3+1D's own frame):
 
 $$\tau_{\rm sub} = \left(\frac{E_{\rm sub}}{E_{\rm Pl,4D}}\right)^\alpha \times t_{\rm Pl}$$
 
-**HONEST v3.1.2-final correction**: N_sub is NOT fixed. Different N_sub give different E_sub and different $\tau_{\rm sub}$:
+**HONEST v3.1.2-final correction**: N_sub is NOT fixed. Different N_sub give different $E_{\rm sub}$ and different $\tau_{\rm sub}$:
 
-| N_sub | E_sub | $\tau_{\rm sub}$ (3+1D frame) |
+| N_sub | $E_{\rm sub}$ | $\tau_{\rm sub}$ (3+1D frame) |
 |---|---|---|
 | 1 | 5×10⁷⁹ J | 1.4×10³⁴ yr (no sub-universe structure) |
 | 150 | 7.14×10⁵⁶ J | ~2.2×10³¹ yr |
@@ -468,7 +468,7 @@ The lifetime $\tau_{\rm sub}$ is UNKNOWN — only constrained to be > 13.8 Gyr (
 - $E_{\rm 4D}$ = 5×10⁷⁹ J (from closed loop, given $M_{\rm Pl,4D}$ = 4×10²³ GeV)
 - $M_{\rm Pl,4D}$ = 4×10²³ GeV (v3.3, derived via $\alpha$-weighted GM; was 887 GeV in v3.1.2 Scenario X)
 - 13.8 Gyr is the universe's CURRENT AGE (observed directly)
-- 4D-bulk dynamics: UNKNOWN (N_sub, E_sub, $\tau_{\rm sub}$ all undetermined)
+- 4D-bulk dynamics: UNKNOWN (N_sub, $E_{\rm sub}$, $\tau_{\rm sub}$ all undetermined)
 - $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s (DE matching, doesn't depend on N_sub)
 - The universe has NOT yet died → $\tau_{\rm sub}$ > 13.8 Gyr
 
@@ -476,18 +476,18 @@ The lifetime $\tau_{\rm sub}$ is UNKNOWN — only constrained to be > 13.8 Gyr (
 
 $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
-**N_sub and E_sub are FREE PARAMETERS** linked by energy conservation. The choice N_sub = 300, E_sub = 3.57×10⁵⁶ J was an ARBITRARY choice (gives "small galaxy mass" sub-universes, but is not derived from the cascade). The user's correction: N_sub could be 150 with double-mass sub-universes, or N_sub = 1 with one universe, etc.
+**N_sub and $E_{\rm sub}$ are FREE PARAMETERS** linked by energy conservation. The choice N_sub = 300, $E_{\rm sub}$ = 3.57×10⁵⁶ J was an ARBITRARY choice (gives "small galaxy mass" sub-universes, but is not derived from the cascade). The user's correction: N_sub could be 150 with double-mass sub-universes, or N_sub = 1 with one universe, etc.
 
 **Number of sub-universes per 4D event**: N_sub is UNKNOWN. The 4D-bulk dynamics that determine N_sub are open (L144).
 
 **Status of $\alpha$ as universal exponent (v3.1.2, REVISED)**: In the multi-universe picture, $\alpha$ is the universal exponent for cascade lifetimes:
 
-- 2D universe lifetime: $\tau_{\rm 2D}$ = (E_event/ $M_{\rm Pl,3D}$)^$\alpha$ × $t_{\rm Pl}$ = 33 s for SN ✓
-- 3+1D sub-universe lifetime: $\tau_{\rm sub}$ = (E_sub/ $M_{\rm Pl,4D}$)^$\alpha$ × $t_{\rm Pl}$ — UNKNOWN (depends on E_sub = $E_{\rm 4D}$/N_sub)
+- 2D universe lifetime: $\tau_{\rm 2D}$ = ($E_{\rm event}$/ $M_{\rm Pl,3D}$)^$\alpha$ × $t_{\rm Pl}$ = 33 s for SN ✓
+- 3+1D sub-universe lifetime: $\tau_{\rm sub}$ = ($E_{\rm sub}$/ $M_{\rm Pl,4D}$)^$\alpha$ × $t_{\rm Pl}$ — UNKNOWN (depends on $E_{\rm sub}$ = $E_{\rm 4D}$/N_sub)
 - 3+1D universe CURRENT AGE: 13.8 Gyr (observed directly, the only firm value)
 - $f_{\rm DE}$ derived from closed-loop formula: 1.2×10⁻⁸⁵/s (matches DE within 1.7%, doesn't depend on N_sub)
 
-**Honest verdict (v3.1.2-final)**: N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). E_sub = $E_{\rm 4D}$ / N_sub is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice (N_sub = 300, E_sub = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
+**Honest verdict (v3.1.2-final)**: N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm sub}$ = $E_{\rm 4D}$ / N_sub is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice (N_sub = 300, $E_{\rm sub}$ = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
 
 **Age vs Lifetime (v3.1.2-final, KEY CORRECTION)**:
 - 13.8 Gyr = current AGE of our 3+1D universe (OBSERVED, the only firm value)
@@ -807,7 +807,7 @@ Within the same dimension, all universes are EQUAL — they have the same intern
 | Dimension | Same physics (all universes) | Different (per universe) |
 |---|---|---|
 | 2D | N=12 SYK, $M_{\rm Pl,2D}$ = 3 TeV, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
-| 3+1D | SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, $\alpha$ = 1.289, N=12 | E_sub, age, stage, baryon asymmetry |
+| 3+1D | SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, $\alpha$ = 1.289, N=12 | $E_{\rm sub}$, age, stage, baryon asymmetry |
 | 4D (extrapolation) | $M_{\rm Pl,4D}$ = 4×10²³ GeV, N=12 | $E_{\rm 4D}$, age, stage |
 
 This is analogous to atoms: same physics, different states. The 14 SIDC events are 14 instances of the SAME 2D universe at 14 different energies. The N_sub 3+1D sub-universes (per §3.60.4) are N_sub instances of the SAME 3+1D universe at N_sub different energies.
@@ -1171,7 +1171,7 @@ numerical analysis of all 4 shape interpretations.
 > (L105, L106, L107, L108, L111). The full Lagrangian (L116) is a
 > viable starting point (L120 audit: 73%) but not yet complete.
 
-**v3.1.2-final REVISION**: The Inception cone picture (cone slope = $\alpha$ = 1.289, "the angle at which the cone converges to the 2D Planck") was the ORIGINAL geometric justification for $\alpha$ = 1.289. However, v3.1.2-final replaced the cone framework with the closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / E_event)^$\alpha$. The cone is now a **VISUALIZATION** (kept here for historical context), not a foundation. The Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 is now PURELY INTERPRETIVE (no geometric anchor).
+**v3.1.2-final REVISION**: The Inception cone picture (cone slope = $\alpha$ = 1.289, "the angle at which the cone converges to the 2D Planck") was the ORIGINAL geometric justification for $\alpha$ = 1.289. However, v3.1.2-final replaced the cone framework with the closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / $E_{\rm event}$)^$\alpha$. The cone is now a **VISUALIZATION** (kept here for historical context), not a foundation. The Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 is now PURELY INTERPRETIVE (no geometric anchor).
 
 **What this means for the framework**:
 - $\alpha$ = 1.289 is CALIBRATED from the 14-event fit (SN, AGN, GRB, etc.)
@@ -1357,7 +1357,7 @@ Honest documentation of failed derivations:
 |---------|--------|--------|
 | Monodromy (v26) | Assumed $\alpha$ to find z₀ = 0.4416 | NEGATIVE (circular) |
 | c=1 matrix model (v27) | Lifetime not power law | NEGATIVE |
-| Double-Scaled SYK (v28) | E_n = (2n+1)/2 (constant) | NEGATIVE |
+| Double-Scaled SYK (v28) | $E_{\rm n}$ = (2n+1)/2 (constant) | NEGATIVE |
 | Brute force SYK (v29) | $\alpha_{\rm fit}$ = 1.29 (artifact!) | REVISED (v30) |
 | v30 verification | $\alpha_{\rm fit}$ = −0.06 ± 0.10 (constant) | CONFIRMED NEGATIVE |
 | LHC tests of $M_{\rm Pl,2D}$ (v33) | Invisible ($f_{\rm DE}^2$ suppressed) | NEGATIVE |

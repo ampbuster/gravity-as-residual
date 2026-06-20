@@ -88,7 +88,7 @@ The CGHS model [CGHS92] is a 1+1-dimensional dilaton gravity theory that is *exa
 - A derivation of SIDC's birth/death GW spectrum (per §10)
 
 **Quantitative check.** SIDC's lifetime $\tau_{2D}$ = $(E/E_{\rm Pl})^{1.29}$ × $t_{\rm Pl}$, calibrated to $\tau$(SN) = 33 s, predicts:
-- $\tau$(LHC pp) = 3.5 × $10^{-64}$ s for E_pp = $10^{-9}$ J
+- $\tau$(LHC pp) = 3.5 × $10^{-64}$ s for $E_{\rm pp}$ = $10^{-9}$ J
 - $\tau$(BNS merger) = 4.3 × $10^{5}$ yr for E_BNS = $10^{46}$ J
 - $\tau$(AGN outburst) = 1.6 × $10^{8}$ yr for $E_{\rm AGN}$ = $10^{52}$ J
 

@@ -689,7 +689,7 @@ observational test.
 **Methodology**: For each massive quiescent, we use the measured
 SFH (formation redshift, duration, current mass) to compute:
 - N_SN = $M_{b}$ / 100 (Salpeter IMF, M>8 $M_\odot$ SN progenitors ~1% of mass)
-- E_SN_total = N_SN × E_CCSN (E_CCSN = $10^{44}$ J)
+- E_SN_total = N_SN × $E_{\rm CCSN}$ ($E_{\rm CCSN}$ = $10^{44}$ J)
 - $M_{dyn}$ = $F_p(z)$ × M_dyn_primordial + $F_s(z)$ × M_dyn_recent
 
 Where:
@@ -803,11 +803,11 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz-$\mu$Hz band.
 
 **Cumulative GW energy density**: For each event type, integrate
 over cosmic history:
-- SN: N_SN $\sim 10^{18}$ over cosmic history, E_per_SN_GW = $f_{\rm back}$ × $10^{44}$ = $10^{-41}$ J
+- SN: N_SN $\sim 10^{18}$ over cosmic history, $E_{\rm per,SN,GW}$ = $f_{\rm back}$ × $10^{44}$ = $10^{-41}$ J
 - Total SN GW energy density: $\rho_{\rm GW_SN}$ = $10^{18}$ × $10^{-41}$ / $4 \times 10^{80}$ m^3 = $10^{-103}$ J/m^3
 - $\Omega_{\rm GW}$_SN = $\rho_{\rm GW_SN}$ / $\rho_{\rm crit}$ = $10^{-103}$ / $7.6 \times 10^{-10}$ = **$10^{-94}$**
 
-- BNS: N_BNS $\sim 3 \times 10^{3}$/ ${\rm Mpc}^3$, E_per_BNS_GW = $f_{\rm back}$ × $10^{47}$ = $10^{-38}$ J
+- BNS: N_BNS $\sim 3 \times 10^{3}$/ ${\rm Mpc}^3$, $E_{\rm per,BNS,GW}$ = $f_{\rm back}$ × $10^{47}$ = $10^{-38}$ J
 - Total BNS GW energy density: $\rho_{\rm GW_BNS}$ = $3 \times 10^{3}$ × $10^{-38}$ / $2.9 \times 10^{67}$ = $10^{-102}$ J/m^3
 - $\Omega_{\rm GW}$_BNS = **$10^{-93}$**
 

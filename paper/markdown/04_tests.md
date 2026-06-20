@@ -402,7 +402,7 @@ Per user question "can't we trial-and-error on the free parameters?", this secti
 **Q1 & Q4: Can trial-and-error give 32% projection efficiency?** YES.
 
 For f_split = 0.32 (SIDC's 32%/68% split between projected and antigravity, NOT to be confused with the back-projection efficiency f_proj used elsewhere in the paper), the bulk-brane coupling $\alpha$ must be at a specific order of magnitude:
-- For $E_{4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events $\sim 1 \times 10^{10}$ (total SN in 13.8 Gyr), E_event $\sim 1 \times 10^{44}$ J, $\tau_{2D} \sim 0.7$ Gyr:
+- For $E_{4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events $\sim 1 \times 10^{10}$ (total SN in 13.8 Gyr), $E_{\rm event}$ $\sim 1 \times 10^{44}$ J, $\tau_{2D} \sim 0.7$ Gyr:
 - $\alpha$ ~ 0.03-0.3 gives f_split ≈ 0.32
 
 The coupling $\alpha$ is NOT free — it's constrained to $\alpha$ ~ 0.03-0.3 by the observed 68% dark energy. This **partially closes Limitation 26** by reducing the free parameters from 5 to 3.
@@ -995,7 +995,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 | $SFH$ window | [0.5, 2.0] | Gyr (lookback) | "A-type stars only" |
 | $M_{total formed}$ | $7.3 \times 10^8$ | $M_\odot$ | ∫ SFR dt = 0.5 × 1.5 Gyr |
 | $E_{total injected}$ | $1.1 \times 10^{51}$ | J | $N_{CCSN} \times E_{CCSN}$ |
-| $N_{CCSN, total}$ | $1.1 \times 10^{6}$ | events | 15% IMF + E_CCSN |
+| $N_{CCSN, total}$ | $1.1 \times 10^{6}$ | events | 15% IMF + $E_{\rm CCSN}$ |
 | Recent event rate (50 Myr) | 0 | events/Myr | "no current SN progenitors" |
 | **SIDC $M_{dyn}/M_b$** | **1.36** | dimensionless | emulator output |
 | **Observed $M_{dyn}/M_b$** | ~1-2 | dimensionless | Mancera Piña+ 2024 |
@@ -1010,7 +1010,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 | $SFR_{peak}$ | 1.0 | $4 \times 10^{-4}$ | $M_\odot/yr$ | Same (revised) |
 | $SFH$ window | [1.0, 4.0] | [1.0, 4.0] | Gyr (lookback) | "intermediate-age SF" |
 | $M_{total formed}$ | $3.0 \times 10^9$ | $1.2 \times 10^6$ | $M_\odot$ | ∫ SFR dt (revised) |
-| $E_{total injected}$ | $4.5 \times 10^{51}$ | $1.8 \times 10^{49}$ | J | 0.15% IMF + E_CCSN |
+| $E_{total injected}$ | $4.5 \times 10^{51}$ | $1.8 \times 10^{49}$ | J | 0.15% IMF + $E_{\rm CCSN}$ |
 | $N_{CCSN, total}$ | $4.5 \times 10^6$ | $1.8 \times 10^3$ | events | (revised) |
 | Recent event rate (50 Myr) | 0 | 0 | events/Myr | "no current SN progenitors" |
 | **SIDC $M_{dyn}/M_b$** | **299.19** | **1-4** | dimensionless | emulator output (revised) |
@@ -1067,7 +1067,7 @@ where the rate is the *energetic event rate* at epoch z' (weighted by the smooth
 
 **The ratio r(z) = $\rho_{\rm DM}^{\rm SIDC}(z) / \rho_{\rm DM}^{\Lambda\rm CDM}(z)$.**
 
-For stellar-only 2D universe creation (Madau & Dickinson 2014 cosmic SFR, CCSN rate scaled to 15% of stars above 8 $M_\odot$, E_CCSN = $10^{46}$ J per SN):
+For stellar-only 2D universe creation (Madau & Dickinson 2014 cosmic SFR, CCSN rate scaled to 15% of stars above 8 $M_\odot$, $E_{\rm CCSN}$ = $10^{46}$ J per SN):
 
 | z | r(z) | Interpretation |
 |---|------|----------------|

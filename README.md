@@ -86,11 +86,11 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 - "1 species" claim is structural, not first-principles
 - "13/14 fail" for $\alpha$ = 1.258 is paper text without rigorous documentation
 
-## Result 2: Closed-Loop Formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / E_event)^ $\alpha$
+## Result 2: Closed-Loop Formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / $E_{\rm event}$)^ $\alpha$
 
-**$f_{\rm back}$ itself is universal at every dimensional transition**: The same formula gives the back-flow rate at 2D→3D AND 3D→4D, just with different $M_{\rm Pl,N}$ and E_event:
+**$f_{\rm back}$ itself is universal at every dimensional transition**: The same formula gives the back-flow rate at 2D→3D AND 3D→4D, just with different $M_{\rm Pl,N}$ and $E_{\rm event}$:
 
-| Transition | $M_{\rm Pl,N}$ | E_event | $f_{\rm back}$ fraction |
+| Transition | $M_{\rm Pl,N}$ | $E_{\rm event}$ | $f_{\rm back}$ fraction |
 |---|---|---|---|
 | 2D→3D (SN) | $1.22 \times 10^{19}$ GeV | 10⁴⁴ J | $1.6\times 10^{-45}$ |
 | 3D→4D | $4\times 10^{23}$ GeV | $5\times 10^{79}$ J | $1.22\times 10^{-85}$ |
@@ -149,21 +149,21 @@ The v3.3 DE formula has NO $4\pi$ factor. The simple $f_{\rm DE}$ formula gives 
 | "13/14 fail" for $\alpha$ = 1.258 (rigorously documented) | ✗ PAPER TEXT (not in calculations) |
 | $F_p$(z) functional form (Hill n=2) | ✗ FIT (L 1 PARTIAL) — z-evolution is phenomenological |
 | $z_{\rm half}$ ($F_p$ transition redshift) | ✗ FREE PARAM (L35) — calibrated to cosmic SFR peak |
-| E_primordial (per-event energy of primordial 2D universes) | ✗ FREE PARAM (L34) — not derived |
-| E_crit (phase-transition threshold) | ✗ REVERTED v2.7.5 — replaced by smooth C(E) = E^(1+ $\alpha$) |
-| **Natural E_crit at $M_{\rm Pl,2D}$ = 3 TeV** | ✓ **DERIVED from Lagrangian** (L41) — 2D universe lifetime → 0 below this |
+| $E_{\rm primordial}$ (per-event energy of primordial 2D universes) | ✗ FREE PARAM (L34) — not derived |
+| $E_{\rm crit}$ (phase-transition threshold) | ✗ REVERTED v2.7.5 — replaced by smooth C(E) = E^(1+ $\alpha$) |
+| **Natural $E_{\rm crit}$ at $M_{\rm Pl,2D}$ = 3 TeV** | ✓ **DERIVED from Lagrangian** (L41) — 2D universe lifetime → 0 below this |
 
 **Honest framing**: The $M^{\alpha}$ scaling law and closed-loop formula are now EMPIRICALLY VALIDATED and STRUCTURALLY MOTIVATED. They are NOT first-principles DERIVED. The framework gives a consistent picture (same physics at every level, different energy scales) without claiming to derive $\alpha$ from Z($\beta$). This is the **Equal-Universe Principle** in action.
 
 ---
 
-## 🌡️ NATURAL E_crit AT $M_{\rm Pl,2D}$ = 3 TeV (v3.2, user-insight)
+## 🌡️ NATURAL $E_{\rm crit}$ AT $M_{\rm Pl,2D}$ = 3 TeV (v3.2, user-insight)
 
 **User question**: "are we still using the hill function or e_crit? i think with the lagrangian, we are back to e_crit? since we have a 2d planck?"
 
-**Answer**: PARTIALLY. There IS a natural E_crit implied by the Lagrangian, but it's at a DIFFERENT energy than the old E_crit.
+**Answer**: PARTIALLY. There IS a natural $E_{\rm crit}$ implied by the Lagrangian, but it's at a DIFFERENT energy than the old $E_{\rm crit}$.
 
-**The natural E_crit from the Lagrangian + 2D Planck**:
+**The natural $E_{\rm crit}$ from the Lagrangian + 2D Planck**:
 
 The Lagrangian requires $E_{\rm 2D}$ ≥ $M_{\rm Pl,2D}$ × c² = 3 TeV to create a 2D universe. Below this threshold:
 - 2D universe lifetime → essentially 0
@@ -177,25 +177,25 @@ The Lagrangian requires $E_{\rm 2D}$ ≥ $M_{\rm Pl,2D}$ × c² = 3 TeV to creat
 | 1 ton TNT = $4\times 10^{9}$ J | 2D universe barely sustained | 10⁻⁴³ s |
 | SN = 10⁴⁴ J | Full 2D universe | 33 s |
 
-**Comparison with old E_crit**:
+**Comparison with old $E_{\rm crit}$**:
 
-| Version | E_crit | Source | Status |
+| Version | $E_{\rm crit}$ | Source | Status |
 |---|---|---|---|
 | v2.3.0 OLD | 10³⁰ J (Sun's total energy) | Calibrated to data | REVERTED v2.7.5 |
 | v3.2 NEW (implied) | 3 TeV ($M_{\rm Pl,2D}$ × c²) | DERIVED from Lagrangian (L41) | CURRENT |
 
 **Key differences**:
-- OLD E_crit was a STEP FUNCTION (no DM below threshold, full DM above)
-- NEW natural E_crit is a SMOOTH TRANSITION (smooth function C(E) = E^(1+ $\alpha$) applies, just becomes negligible below 3 TeV)
-- OLD E_crit was 40 orders of magnitude HIGHER than the new one
-- OLD E_crit was CALIBRATED; NEW natural E_crit is DERIVED from Lagrangian
+- OLD $E_{\rm crit}$ was a STEP FUNCTION (no DM below threshold, full DM above)
+- NEW natural $E_{\rm crit}$ is a SMOOTH TRANSITION (smooth function C(E) = E^(1+ $\alpha$) applies, just becomes negligible below 3 TeV)
+- OLD $E_{\rm crit}$ was 40 orders of magnitude HIGHER than the new one
+- OLD $E_{\rm crit}$ was CALIBRATED; NEW natural $E_{\rm crit}$ is DERIVED from Lagrangian
 
 **Current picture**:
 - Below 3 TeV: no 2D universe (Lagrangian threshold, derived)
 - 3 TeV to ~10²⁵ J: smooth function, contribution small but non-zero
 - Above 10²⁵ J: smooth function dominates, contribution significant
 
-The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natural E_crit. But it's at $M_{\rm Pl,2D}$ = 3 TeV (derived), not at 10³⁰ J (calibrated, REVERTED). And it's a smooth transition (C(E) = E^(1+ $\alpha$) becomes negligible below), not a step function.
+The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natural $E_{\rm crit}$. But it's at $M_{\rm Pl,2D}$ = 3 TeV (derived), not at 10³⁰ J (calibrated, REVERTED). And it's a smooth transition (C(E) = E^(1+ $\alpha$) becomes negligible below), not a step function.
 
 ### What can produce 2D universes? (LHC analysis, v3.2 user-question)
 
@@ -254,7 +254,7 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 
 **v3.2 changes don't affect this analysis**:
 - $N_{\rm sub}$ FREE (doesn't affect individual galaxy DM)
-- $M_{\rm Pl,2D}$ = 3 TeV (natural E_crit, below all dwarf cases)
+- $M_{\rm Pl,2D}$ = 3 TeV (natural $E_{\rm crit}$, below all dwarf cases)
 - $M_{\rm Pl,4D} = 4 \times 10^{23}$ GeV (v3.3 $\alpha$-weighted GM, was 887 GeV) (Scenario X (SUPERSEDED in v3.3 by $\alpha$-weighted GM), doesn't affect galaxy-scale)
 - $M^{\alpha}$ scaling, closed loop (unchanged)
 
@@ -337,7 +337,7 @@ This is the **HONEST** closed-loop picture. The SN-driven 2D→3D path is real b
 
 **Closing requires** (L 1 v3.2):
 1. $F_p$(z) derivation from Lagrangian
-2. Per-galaxy E_primordial distribution (L34 OPEN)
+2. Per-galaxy $E_{\rm primordial}$ distribution (L34 OPEN)
 3. N_p constraint (L144, N_p is FREE PARAM)
 
 The framework acknowledges this in L 1 (REVISED v3.2). The 5/5 cases are valid for cumulative, but total DM variation is open.
@@ -928,7 +928,7 @@ The 47 Tuc test does NOT depend on the speculative end-of-universe extension in 
 
 A new section §10 derives speculative but *testable* end-of-universe signatures from SIDC's energy-scaling ladder:
 
-- **Energy-scaling rule:**$\tau_{D-1} = t_{\rm Pl,3+1D} \times (E_D/E_{\rm Pl,3+1D})^{1.29}$, with $\alpha = 1.29$ forced by SN 33s calibration
+- **Energy-scaling rule:**$\tau_{D-1} = t_{\rm Pl,3+1D} \times ($E_{\rm D}$/E_{\rm Pl,3+1D})^{1.29}$, with $\alpha = 1.29$ forced by SN 33s calibration
 - **Relativistic-particle analogy:** 2D universes are "particles" with mass-dependent time dilation; smaller (lower-E) events create "lighter" 2D universes with more time dilation
 - **$M_{\rm Pl,4D} = 4 \times 10^{23}$ GeV (v3.3 $\alpha$-weighted GM):** derived from $M_{\rm Pl,3D}$^ $\alpha$ × $M_{\rm Pl,2D}$^(1-$\alpha$), satisfies fundamental 4D convention ($M_{\rm Pl,4D}$ > $M_{\rm Pl,3D}$); was 887 GeV in v3.1.2 Scenario X (DROPPED)
 - **If $M_{\rm Pl,4D} \sim {\rm TeV}$:** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life)

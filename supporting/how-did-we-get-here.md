@@ -106,7 +106,7 @@ After this exchange, the conversations moved from *intuition* to *model-building
 
 - **Geometric specification**: 4D event → 3+1D universe → 2D universes (cone-shaped, terminal at 2D)
 - **The action functional**: writing S = S_grav + S_matter + S_brane 2D + S_creation + S_destruction
-- **The phase-transition principle**: events need E_crit ~ 10³⁰ J to create 2D universes (SN-scale)
+- **The phase-transition principle**: events need $E_{\rm crit}$ ~ 10³⁰ J to create 2D universes (SN-scale)
 - **Real-data testing**: Pantheon+ for H₀, SPARC for RAR, MaNGA for AGN, LZ/XENONnT for direct detection, de Blok for cusp-core, Read+ 2017 for isolated dwarfs, Tian+ 2024 for cluster $g_+$, Walker+ 2007 for dSph kinematics
 - **Honest limitations**: 28 documented, including the 5/27/68 derivation being a fit, $f_{\rm active}$ being constrained but not derived, the Hubble tension being accommodated but not resolved
 - **Stress-testing**: the model went through a Gemini review, multiple consistency audits, and a 5-3-3 scorecard showing 15/17 tests passing honestly
