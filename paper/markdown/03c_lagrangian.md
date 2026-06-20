@@ -14,7 +14,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 | N (Majoranas) | 12 | Uniquely determined by $\alpha$ = 1.29 |
 | c (central charge) | 1/2 | N/24 = 12/24 = 1/2 (Ising CFT) |
 | $\alpha$ (lifetime scaling) | 1.289 | 1 + 1/√N (saddle-point fluctuation) |
-| 1/(2$\alpha$) (back-action) | 0.388 | c/\alpha$ (composite) |
+| $1/(2\alpha)$ (back-action) | 0.388 | $c/\alpha$ (composite) |
 | $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$ | (1/2$\alpha$)-powered formula |
 
 **Why N = 12 is unique** (off by 0.001 from $\alpha$ = 1.29):
@@ -35,7 +35,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 4. **BLG-like at magic angle ~1.5-2.0°** (model-dependent)
 5. c = 1/2 (Ising CFT, N/24)
 6. $\alpha$ = 1 + 1/√N = 1.289 (saddle-point fluctuation)
-7. 1/(2$\alpha$) = c/\alpha$ = 0.388 (composite)
+7. $1/(2\alpha)$ = $c/\alpha$ = 0.388 (composite)
 8. S₀ = 12 × log(2) (zero-temp entropy)
 
 **Testable predictions (8 total)**:
@@ -53,7 +53,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 
 - $\alpha$ = 1.289 (lifetime scaling, EXACT from N=12)
 - c = 1/2 (Ising CFT, N/24)
-- 1/(2$\alpha$) = 0.388 (back-action)
+- $1/(2\alpha)$ = 0.388 (back-action)
 - $f_{\rm back}$ = $8.6 \times 10^{-86}$ (universal, gives $10^{-85}$)
 - 14 event types follow $\tau_{2D} \sim M^{1.29}$
 - 1/√N saddle-point theoretical support
@@ -147,7 +147,7 @@ directions are linked by the same scaling law.
 
 **L98 NEW (v3.0.21)**: The closed loop expression for $f_{\rm back}$ is
 derived from the same $\alpha = 1.289$ as the scaling law. The
-composite exponent $1/(2\alpha) = c/\alpha$ where $c = 1/2 = N/24$
+composite exponent $1/(2\alpha) = $c/\alpha$ where $c = 1/2 = N/24$
 (Ising CFT). Three independent derivations of 1/2 confirm this is
 the correct exponent. The closed loop gives $f_{\rm back} \approx 10^{-84}$
 to $10^{-85}$, matching §3.60 to 0.4 orders.
@@ -190,7 +190,7 @@ Evidence for $\alpha$ being universal:
    which is universal.
 3. **The "1/√12" comes from N = 12 finite-size correction**: depends
    only on N, not on hierarchy level.
-4. **Closed loop structure $\alpha$ × 1/(2$\alpha$) = 1/2**: holds for any $\alpha$.
+4. **Closed loop structure $\alpha$ × $1/(2\alpha)$ = 1/2**: holds for any $\alpha$.
 
 **Evidence against $\alpha$ being universal**:
 1. The 4D → 3+1D level is a "speculative extrapolation" (not calibrated).
@@ -215,11 +215,11 @@ energy (for forward $\gamma$) AND the grandparent event energy
 
 At level 3 (3D → 2D):
 - Forward: $\gamma_{\rm 3}$ = ($E_{\rm 3D}$/E_Pl,3)^$\alpha$ → $\tau_{\rm 2D}$ = $\gamma_{\rm 3}$ × $t_{\rm Pl,3}$
-- Backward: f_back_3 = ($E_{\rm 4D}$/ $E_{\rm 3D}$)^(1/(2$\alpha$)) × prefactors → $\approx 10^{-85}$ ✓
+- Backward: f_back_3 = ($E_{\rm 4D}$/ $E_{\rm 3D}$)^($1/(2\alpha)$) × prefactors → $\approx 10^{-85}$ ✓
 
 At level 4 (4D → 3+1D):
 - Forward: $\gamma_{\rm 4}$ = ($E_{\rm 4D}$/E_Pl,4)^$\alpha$ → $\tau_{\rm 3D}$ = $\gamma_{\rm 4}$ × $t_{\rm Pl,4}$
-- Backward: f_back_4 = ($E_{\rm 5D}$/ $E_{\rm 4D}$)^(1/(2$\alpha$)) × prefactors → requires $E_{\rm 5D}$
+- Backward: f_back_4 = ($E_{\rm 5D}$/ $E_{\rm 4D}$)^($1/(2\alpha)$) × prefactors → requires $E_{\rm 5D}$
 
 At level 5+:
 - Need BOTH $E_{\rm D}$ and E_{D+1} for the closed loop
@@ -390,8 +390,8 @@ The "closed loop" formula's $f_{\rm back}$ is **not** the same number as the DE-
 **The forward/backward $\alpha$ symmetry DOES close** (L98, L103):
 
 - Forward: $\gamma$ = (E/E_Pl)^$\alpha$ (time dilation, scaling law)
-- Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)^(1/(2$\alpha$)) (back-action)
-- $\alpha$ × 1/(2$\alpha$) = 1/2 (round-trip loss, Z_2 orbifold)
+- Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)^($1/(2\alpha)$) (back-action)
+- $\alpha$ × $1/(2\alpha)$ = 1/2 (round-trip loss, Z_2 orbifold)
 
 The same $\alpha$ = 1.289 connects the time-dilated event (forward) to the
 back-projection (backward). This IS structural and IS derivable
@@ -425,7 +425,7 @@ from the framework.
 
 **L138 NEW (v3.1.1)**: $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION FACTOR, not a derived physical quantity. The "primordial back-projection fraction" is a misleading name; it is simply the ratio of observed DE to the $\epsilon$-suppressed Planck density.
 
-**L139 NEW (v3.1.1)**: The "closed loop" formula in §3.60.1 ($f_{\rm back}$ = ($t_{\rm Pl}$/$\tau_{\rm 4D}$) × ($\tau_{\rm SN}$/$\tau_{\rm universe}$) × ($E_{\rm 4D}$/ $E_{\rm SN}$)^(1/(2$\alpha$)) ≈ $4.6 \times 10^{-68}$) and the DE calibration ($f_{\rm DE}$ = 10⁻⁸⁵) differ by 10¹⁸ orders of magnitude. The closed loop is rhetorical, not numerical.
+**L139 NEW (v3.1.1)**: The "closed loop" formula in §3.60.1 ($f_{\rm back}$ = ($t_{\rm Pl}$/$\tau_{\rm 4D}$) × ($\tau_{\rm SN}$/$\tau_{\rm universe}$) × ($E_{\rm 4D}$/ $E_{\rm SN}$)^($1/(2\alpha)$) ≈ $4.6 \times 10^{-68}$) and the DE calibration ($f_{\rm DE}$ = 10⁻⁸⁵) differ by 10¹⁸ orders of magnitude. The closed loop is rhetorical, not numerical.
 
 **L140 NEW (v3.1.1)**: $\epsilon$ = 10⁻³⁸ is OBSERVED (gravity weakness vs other forces — the hierarchy problem). SIDC's mechanism (4D antigravity cancellation) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC.
 
@@ -1117,7 +1117,7 @@ User question: "so $\alpha$ is the shape that links dimensions?"
 |-------|-------|----------------|
 | Cone slope | tan($\theta$) = 1.289, $\theta$ ≈ 52° | Geometric projection shape |
 | Spectral | 1 + 1/√12 = 1.289 | 12-vertex SYK graph |
-| Ising CFT | $\alpha$ × 1/(2$\alpha$) = 1/2 | c = 1/2 (Ising central charge) |
+| Ising CFT | $\alpha$ × $1/(2\alpha)$ = 1/2 | c = 1/2 (Ising central charge) |
 | Z_2 orbifold | Round-trip loss = 1/2 | Group with 2 elements |
 | Kesten-McKay | 1/√N = 0.289 | Fluctuation scale of N-graph |
 
@@ -1128,9 +1128,9 @@ User question: "so $\alpha$ is the shape that links dimensions?"
    - Level 4 (4D → 3D): $\alpha$ = 1.289 (universal!)
    - Level 5+: $\alpha$ = 1.289 (claimed)
 
-2. **Horizontal (forward + backward)**: $\alpha$ × 1/(2$\alpha$) = 1/2
+2. **Horizontal (forward + backward)**: $\alpha$ × $1/(2\alpha)$ = 1/2
    - Forward: $\gamma$ = (E/E_Pl)^$\alpha$ (scaling law)
-   - Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)^(1/(2$\alpha$)) (closed loop)
+   - Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)^($1/(2\alpha)$) (closed loop)
    - Product = 1/2 closes the loop
 
 3. **Origin (particle ↔ cosmos)**: $\alpha$ = 1 + 1/√12
@@ -1311,15 +1311,15 @@ $f_{\rm back}$ = ($t_{\rm Pl,3}$/τ_4D) × (τ_SN/τ_universe) × ($E_{\rm 4D}$/
 Numerical decomposition:
 - log₁₀($t_{\rm Pl,3}$/$\tau_{\rm 4D}$) = −85.0  (v3.3: $\tau_{\rm 4D}$ = 1.51×10³⁴ yr = 4.77×10⁴¹ s)
 - log₁₀($\tau_{\rm SN}$/$\tau_{\rm universe}$) = −16.2
-- log₁₀(($E_{\rm 4D}$/ $E_{\rm SN}$)^(1/(2$\alpha$))) = +6.98
+- log₁₀(($E_{\rm 4D}$/ $E_{\rm SN}$)^($1/(2\alpha)$)) = +6.98
 - Sum = −84.3 ≈ −85 ✓
 
-The 1/(2$\alpha$) = 0.388 is Ising c (1/2) × inverse time dilation (1/$\alpha$).
+The $1/(2\alpha)$ = 0.388 is Ising c (1/2) × inverse time dilation (1/$\alpha$).
 This is the only structural element derivable from the framework.
 
 **NOT derived from first principles**:
 - Why the multiplicative (not additive) structure
-- Why the 1/(2$\alpha$) is the specific exponent (only matched)
+- Why the $1/(2\alpha)$ is the specific exponent (only matched)
 - Why $\tau_{\rm 4D}$ = 4.77 × 10⁴¹ s (= 1.51×10³⁴ yr, eternal for our cosmic time, v3.3)
 - Why $g_{\rm 2D}$ = 3.2 × 10¹⁸ (not 1 or other)
 

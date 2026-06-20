@@ -134,6 +134,26 @@ def fix_broken_markdown(content):
     changes += n
     content = new_content
 
+    # Pattern 16: 1/(2$\alpha$) → $1/(2\alpha)$ (specific broken math)
+    # Text: "1/(2$\alpha$)" → "$1/(2\alpha)$"
+    new_content, n = re.subn(
+        r'1/\(2\$\\alpha\$\)',
+        r'$1/(2\\alpha)$',
+        content
+    )
+    changes += n
+    content = new_content
+
+    # Pattern 17: c/\alpha$ → $c/\alpha$ (wrap prefix in math)
+    # Use negative lookbehind to skip if preceded by $
+    new_content, n = re.subn(
+        r'(?<!\$)c/\\alpha\$',
+        r'$c/\\alpha$',
+        content
+    )
+    changes += n
+    content = new_content
+
     return content, changes
 
 

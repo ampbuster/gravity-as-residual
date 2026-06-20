@@ -122,7 +122,7 @@ v3.0 made a **major breakthrough**: a single number — **N = 12** — derives m
 |-----------|-------|------------|
 | $\alpha$ (lifetime scaling) | 1.289 | $\alpha$ = 1 + 1/√N (saddle-point fluctuation) |
 | c (central charge) | 1/2 | c = N/24 (Ising CFT) |
-| 1/(2$\alpha$) (back-action) | 0.388 | c/\alpha$ (composite) |
+| $1/(2\alpha)$ (back-action) | 0.388 | $c/\alpha$ (composite) |
 | $f_{\rm DE}$ (universal) | $8.6 \times 10^{-85}$ | (1/2$\alpha$)-powered formula |
 
 N = 12 is **uniquely determined** by $\alpha$ = 1.29 (off by 0.001; for N = 10, 11, 13, 14 the match is much worse).
