@@ -10,7 +10,7 @@ The user correctly identified a **real inconsistency** in Option A (event-depend
 
 ## The Weirdness Explained
 
-The brute force formula $\mu$ = E/\tau$ gives:
+The brute force formula $\mu = E/\tau$ gives:
 
 | Event | $\mu$ (GeV²) | $M_{\rm Pl,2D}$ | User's intuition |
 |---|---|---|---|
@@ -74,7 +74,7 @@ So even though $M_{\rm Pl,2D}$ is "inverted", DM contribution isn't:
    - Only "significant" events create 2D universes
    - This would explain why we don't see TNT universes
 
-3. **Maybe $\mu$ should NOT depend on E/\tau$**:
+3. **Maybe $\mu$ should NOT depend on $E/\tau$**:
    - The brute force formula gives weird predictions
    - A different formula might be more natural
    - e.g., $\mu$ = K × $E^{\alpha}$ (energy-based, more intuitive)
@@ -86,7 +86,7 @@ We tested several alternatives:
 | Formula | $\mu_{\rm SN}$ | $\mu_{\rm TNT}$ | $\mu_{\rm Quasar}$ | Weirdness |
 |---|---|---|---|---|
 | **v3.3 (universal $\mu$)** | 9×10⁶ | 9×10⁶ | 9×10⁶ | None |
-| **v3.3.6 ($E/\tau$)** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
+| **v3.3.6 ($$E/\tau$)** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
 | **Energy-based ($E^{\alpha}$)** | 9×10⁶ | 4.2×10⁻³⁷ | 1.3×10⁻²⁹ | Opposite (also weird) |
 | **Capped ($\mu$ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
 
@@ -100,7 +100,7 @@ $$\mu = \min(K_{\max}, K_F \times E/\tau)$$
 with K_max = 100 × $\mu_{\rm SN}$ = 9×10⁸ GeV²
 
 This:
-- Keeps the E/\tau$ pattern for high-$\tau$ events
+- Keeps the $E/\tau$ pattern for high-$\tau$ events
 - Caps $\mu$ at K_max to avoid TNT weirdness
 - Result: TNT $\mu$ = 9×10⁸ (100× SN, not 10¹⁰× SN)
 

@@ -147,7 +147,7 @@ directions are linked by the same scaling law.
 
 **L98 NEW (v3.0.21)**: The closed loop expression for $f_{\rm back}$ is
 derived from the same $\alpha = 1.289$ as the scaling law. The
-composite exponent $1/(2\alpha) = $c/\alpha$ where $c = 1/2 = N/24$
+composite exponent $1/(2\alpha) = c/\alpha$ where $c = 1/2 = N/24$
 (Ising CFT). Three independent derivations of 1/2 confirm this is
 the correct exponent. The closed loop gives $f_{\rm back} \approx 10^{-84}$
 to $10^{-85}$, matching §3.60 to 0.4 orders.
@@ -421,7 +421,7 @@ from the framework.
 - A solution to the hierarchy or cosmological constant problems
 - A "closed loop" in the numerical sense
 
-**L102 REVISED (v3.1.1)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha$ = 1.289 unifies forward time dilation and backward $f_{\rm back}$. However, the values of $\epsilon$ (10⁻³⁸) and DE/Planck (10⁻¹²³) are both OBSERVED; $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION (10⁻¹²³/\epsilon$), not a derived physical fraction. The closed loop is **not** a numerical closure (the §3.60.1 formula gives $4.6 \times 10^{-68}$, not 10⁻⁸⁵).
+**L102 REVISED (v3.1.1)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha$ = 1.289 unifies forward time dilation and backward $f_{\rm back}$. However, the values of $\epsilon$ (10⁻³⁸) and DE/Planck (10⁻¹²³) are both OBSERVED; $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION $10^{-123}/\epsilon$, not a derived physical fraction. The closed loop is **not** a numerical closure (the §3.60.1 formula gives $4.6 \times 10^{-68}$, not 10⁻⁸⁵).
 
 **L138 NEW (v3.1.1)**: $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION FACTOR, not a derived physical quantity. The "primordial back-projection fraction" is a misleading name; it is simply the ratio of observed DE to the $\epsilon$-suppressed Planck density.
 

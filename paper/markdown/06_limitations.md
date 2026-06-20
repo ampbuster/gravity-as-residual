@@ -92,7 +92,7 @@ The full table follows:
 | 32 (REMOVED v2.7) | 4-zone H(z) derivation | N/A | N/A | REMOVED in v2.7: the 4-zone H(z) was data fitting (8 free parameters for ~5 data points), and the P(y) problem made it internally inconsistent. SIDC now adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved. |
 | 33 (NEW) | $\Omega_{\rm DM}$ = 0.27 as input postulate | OPEN (v2.6) | §2.5, §2.6 | SIDC postulates that all observed DM is 2D universe mass, time-compressed; the specific 27% value is an INPUT from Planck 2018, not a derivation; closing this would require a 2D CFT calculation that yields 27% as a numerical output |
 | 34 (NEW v2.7.5) | $E_{\rm primordial}$ (per-event energy of primordial 2D universes) | OPEN (v2.7.5) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* $$F_p $, but does NOT specify the per-event energy $E_{\rm primordial}$. The 2D universe lifetime $\tau_{2D}$, growth factor G, and cumulative energy all depend on $E_{\rm primordial}$. SIDC treats $E_{\rm primordial}$ as a FREE PARAMETER. Closing requires a derivation of $E_{\rm primordial}$ from the 4D event's internal dynamics. |
-| 35 (NEW v2.7.5) | $z_{\rm half}$ (smooth $$F_p $ transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth $F_p$(z) = 0.7 + 0.3 * z^2/($z_{\rm half}$^2 + z^2) introduces free parameter $z_{\rm half}$ ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of $z_{\rm half}$ from 4D event dynamics. |
+| 35 (NEW v2.7.5) | $z_{\rm half}$ (smooth $F_p$ transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth $F_p$(z) = 0.7 + 0.3 * z^2/($z_{\rm half}$^2 + z^2) introduces free parameter $z_{\rm half}$ ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of $z_{\rm half}$ from 4D event dynamics. |
 | 36 (NEW v2.7.5) | $E_{\rm crit}$ (phase-transition threshold) | REVERTED (v2.7.5) | §2.5.3 | v2.3.0 $E_{\rm crit} \sim 10^{30}$ J step-function threshold REMOVED in v2.7.4 in favor of smooth creation function C(E) = $E^{1+\alpha}$. The smooth function uses only existing $\alpha = 1.29$, no new free parameters. All 5/5 dwarf cases still work. |
 | 37 (NEW v2.7.30) | $\alpha$ = 1.29 CGHS derivation | OPEN (v2.7.30) | §3.19, §3.24 | SIDC's §3.19 claimed $\alpha$ = 1.29 is in the CGHS back-reaction range [1, 3]. §3.24 self-critique: no standard CGHS scaling gives constant $\tau_{2D,\rm proper}$. A specific CGHS-with-back-reaction calculation yielding p = 1.29 is needed to close this. This is a research challenge, not a derivation. Future work: specific CGHS calculation. |
 | 38 (NEW v3.0.2) | SIDC naming re-justification | OPEN (v3.0.2) | §3.61 | "Scale-Invariant Dimensional Cascade" naming is now justified by the dimensional scale invariance (§3.61), but the specific values depend on the dimensional transition. The 1/√N correction is a finite-size (finite-N) breaking of the structural scale invariance. |
@@ -110,7 +110,7 @@ The full table follows:
 | 95 (NEW v3.0.21) | alpha = 1.289 is structurally 1 + 1/sqrt(N) | PARTIAL (v3.0.21) | §3.62.2, v16, v17 | Comparison with 11 known 2D theories + large-N extrapolation: SIDC alpha = 1.289 decomposes as 1 (SR time dilation, linear E/M) + 1/sqrt(12) (N=12 finite-size correction). This is consistent with the 2D theory landscape and SIDC structural decomposition §3.62. Pure SYK q=4 N=12 gives alpha_eff ~ 1.0-1.15, NOT 1.289 directly. The 0.289 extra requires cross-sector coupling. |
 | 96 (NEW v3.0.21) | $f_{\rm back}$ is NOT exp(-S) entropy | OPEN (v3.0.21) | §3.62.2, v18 | Replica trick + Cardy formula attempted: for SN, $S_{\rm 2D}$ ~ 10^18, exp(-S) ~ 0 — WAY too small. $f_{\rm back}$ is a STRUCTURAL RATIO ($E_{\rm 4D}$/E)^{1/$2\alpha$}, not an entropy factor. L48 status unchanged. |
 | 97 (NEW v3.0.21) | alpha = 1.289 is NOT directly visible from Z | OPEN (v3.0.21) | §3.62.2, v19 | Direct brute-force extraction from Z(beta) for SYK q=4 N=12 gives alpha ~ 0.5-1.0 (pure SYK) or 3-37 (combined Z). The M^1.29 is NOT a direct consequence of the 2D partition function. It is a CROSS-SECTOR EMERGENT phenomenon. L43 cannot be closed by more brute force — requires structural input (cross-couplings, observable identification). |
-| 98 (NEW v3.0.21) | Closed loop expression for $f_{\rm back}$ (3D event → 2D universe) | PARTIAL (v3.0.21) | §3.60.1, v10 | Closed loop expression: $f_{\rm back}$ = ($t_{\rm Pl,3}$/$\tau_{\rm 4D}$) × ($\tau_{\rm SN}$,obs/\tau_{\rm universe}$) × ($E_{\rm 4D}$/ $E_{\rm SN}$)^$(1/(2\alpha))$. Gives $f_{\rm back}$ ~ $3.24 \times 10^{-84}$ ~ 10^-85 (matches §3.60 to 0.4 orders). Forward direction $\gamma$ = (E/E_Pl)$^{\alpha}$ (scaling law) and backward direction $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)^$(1/(2\alpha))$ use the SAME $\alpha$ = 1.289. The closed loop closes for $f_{\rm back}$ via the composite exponent $1/(2\alpha)$ = $c/\alpha$ where c = 1/2 = N/24 (Ising CFT). Three independent derivations of 1/2 (Schwarzian, DOZZ b^2 = 1/2, N/24) confirm the exponent. |
+| 98 (NEW v3.0.21) | Closed loop expression for $f_{\rm back}$ (3D event → 2D universe) | PARTIAL (v3.0.21) | §3.60.1, v10 | Closed loop expression: $f_{\rm back}$ = ($t_{\rm Pl,3}$/$\tau_{\rm 4D}$) × $(\tau_{\rm SN,obs})/(\tau_{\rm universe})$ × $(E_{\rm 4D}/E_{\rm SN})^{1/(2\alpha)}$. Gives $f_{\rm back}$ ~ $3.24 \times 10^{-84}$ ~ 10^-85 (matches §3.60 to 0.4 orders). Forward direction $\gamma$ = $(E/E_{\rm Pl})^{\alpha}$ (scaling law) and backward direction $f_{\rm back}$ ~ $(E_{\rm 4D}/E)^{1/(2\alpha)}$ use the SAME $\alpha$ = 1.289. The closed loop closes for $f_{\rm back}$ via the composite exponent $1/(2\alpha)$ = $c/\alpha$ where c = 1/2 = N/24 (Ising CFT). Three independent derivations of 1/2 (Schwarzian, DOZZ b^2 = 1/2, N/24) confirm the exponent. |
 | 99 (NEW v3.0.21) | SIDC upward extendability (scaling law + closed loop at every level) | PARTIAL (v3.0.21) | §3.60.2 | Scaling law + closed loop work at level 3 (3D→2D, calibrated at SN 33s, 8/8 events within 1.6×). Plausible at level 4 (4D→3D, matches within 12% using $\alpha$ = 1.289). Cannot verify at level 5+ (no data). $\alpha$ = 1.289 likely universal because N = 12 is fixed (12 SM Weyl fermions), but brane tension may differ at each level. Closed loop at level 4+ requires $E_{\rm 5D}$ which is unknown. Upward extendability is a CLAIM supported by N=12 universality, not directly verified. |
 | 100 (NEW v3.0.21, REVISED v3.2, USER-CRITIQUED SIX TIMES) | $F_p$(z) framework OVERSTATED; 'primordial = 99.93%' WRONG; cumulative gives 3.4× $\Omega_{\rm DM}$; $f_{\rm back}$ cannot balance DM; DM→$\nu$ too short; framework's $f_{\rm back}$ formula is per-event, not for total mass | OPEN (v3.2) | v21, calculations/v31_audit_v312final.py, v31_scenario_X.py, v31_all_events_cumulative.py, v31_fback_balance.py, v31_dm_decay_neutrino.py, v31_fback_calibrate_both.py | $F_p$(z) separates primordial (99.93%) vs cumulative (0.07%) DM. **FUNDAMENTAL REVISIONS (v3.2, user-caught SIX TIMES)**: (a) **'Primordial = 99.93%' is WRONG** (1st catch). (b) **Cumulative is NOT just SNe** (2nd catch): 3.4× $\Omega_{\rm DM}$, AGN dominates. (c) **DM/baryon ratio over cosmic time** (3rd catch). (d) **$f_{\rm back}$ cannot balance DM** (4th catch): required 3.0×10⁻¹⁵ /s, but framework has 1.22×10⁻⁸⁵ (10⁷⁰× off). (e) **DM→$\nu$ decay is 10²¹× too short vs observations** (5th catch). (f) **$f_{\rm back}$ formula is per-event, not for total mass** (6th catch): user asked 'what with we calibrate $f_{\rm back}$ to both de and dm decay?' The framework's $f_{\rm back}$ = ($M_{\rm Pl}$/E)$^{\alpha}$ formula is for per-event back-flow, not for the 3+1D's total mass. Applying it to the 3+1D's total mass gives a required E of 2×10⁻²⁷ M_⊙, which is meaningless. So calibrating $f_{\rm back}$ to both DE matching AND DM decay requires NEW PHYSICS: a separate f_back_3+1D (or 'two-tier $f_{\rm back}$'). This would be a 5th free parameter in the framework. **NET RESULT (v3.2)**: The framework's DM accounting has SIX problems now. The '5/5 dwarf cases' test cumulative, but the framework doesn't explain DM/baryon ratio constancy, doesn't have a 3+1D continuous back-flow, and the per-event $f_{\rm back}$ formula doesn't apply to total mass. Possible resolutions: (1) Add f_back_3+1D as new parameter (two-tier $f_{\rm back}$), (2) DM-baryon co-creation at high z, (3) DM doesn't decay (ratio set at creation), (4) different DM source. STRENGTH: per-event physics robust. WEAKNESS: framework can't explain constant DM/baryon ratio; $f_{\rm back}$ per-event formula doesn't apply to total mass; multiple failed attempts to fix. The framework's DM picture is INCOMPLETE. |
 | 101 (NEW v3.0.21) | SIDC strengths form a network of 17+ interlinked relationships | PARTIAL (v3.0.21) | v22 | Identified 12 main SIDC strengths and 17 links. Most connected: $\alpha$ = 1.289 (S3), closed loop (S2, 5 links), scaling law (S1, 4 links), $f_{\rm back}$ (S5, 3 links). KEY LINKS: (1) $\alpha$ ↔ c (both from N=12), (2) $\alpha$ ↔ scaling law (scaling uses $\alpha$), (3) $\alpha$ ↔ closed loop (closed loop uses $\alpha$), (4) $f_{\rm back}$ ↔ 5/27/68 ($f_{\rm back}$ bridges DE gap), (5) phase-transition ↔ scaling law (low-E limit), (6) $g_+$ ↔ 5/27/68 (DM/baryon ratio), (7) cluster $g_+$ ↔ $M_{\rm Pl,4D}$ (4D boundary), (8) closed loop ↔ phase-transition ($f_{\rm back}$ above $E_{\rm crit}$). $\alpha$ = 1.289 is the BRIDGE parameter that unifies the cascade. |
@@ -617,7 +617,7 @@ Self-dual point: b = 1/(2b) → b² = 1/2. $T_H$ = 1/b²_H = M_s/($2\pi$). Same 
 
 ### Path 5: Hawking-Page + Euclidean Periodicity
 
-Hawking-Page transition in AdS_2 at T_HP = 1/($2\pi$ $L_{\rm AdS}$,2). The Euclidean time periodicity $\beta$ = $2\pi$ L is FORCED by SL(2,R) isometry. Then $T_H$ = 1/\beta$ = $M_{\rm Pl,2D}$/($2\pi$). Same!
+Hawking-Page transition in AdS_2 at T_HP = 1/($2\pi$ $L_{\rm AdS}$,2). The Euclidean time periodicity $\beta = 2\pi L$ is FORCED by SL(2,R) isometry. Then $T_H = 1/\beta = M_{\rm Pl,2D}/(2\pi)$. Same!
 
 **References**: Hawking-Page 1983; Witten 1998 (AdS/CFT); arXiv:2606.10647 (2025, Hawking-Page for pure Lovelock).
 
@@ -674,7 +674,7 @@ L308g. **$M_{\rm Pl,4D}$ = 4×10²³ GeV derivation chain: closed loop + $\alpha
 **Method 1 ($\alpha$-GM)**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^$\alpha$ × $M_{\rm Pl,2D}$^(1-$\alpha$) = 3.96×10²³ GeV
 - INPUTS: $M_{\rm Pl,3D}$ (measured), $\alpha$ (calibrated), $M_{\rm Pl,2D}$ = 3 TeV (L308f choice)
 
-**Method 2 (Closed loop)**: $M_{\rm Pl,4D}$ = $E_{\rm 4D}$ / ($\tau_{\rm 4D}$/$t_{\rm Pl}$)^(1/\alpha$) = 3.92×10²³ GeV
+**Method 2 (Closed loop)**: $M_{\rm Pl,4D} = E_{\rm 4D} / (\tau_{\rm 4D}/t_{\rm Pl})^{1/\alpha} = 3.92×10^{23}$ GeV
 - INPUTS: $E_{\rm 4D}$ = 5×10⁷⁹ J (calibrated to DE), $\tau_{\rm 4D}$ = 1.51×10³⁴ yr (calibrated to DE)
 
 Match within 1% ✓ (framework self-consistent).
@@ -941,7 +941,7 @@ The peak is at A_6 ≈ 33.07. Past n=7, factors decrease monotonically.
 
 **Continuous peak**: The continuous maximum of A(x) is at x ≈ $2\pi$ ≈ 6.28, consistent with discrete n=6 being the maximum.
 
-**Why $\Gamma$ dominates for large n**: $\Gamma$(z) ≈ √($2\pi$/z) × (z/e)^z. Setting $\Gamma$(z)/\pi$^z = 1:
+**Why $\Gamma$ dominates for large n**: $\Gamma$(z) ≈ √($2\pi$/z) × (z/e)^z. Setting $\Gamma(z)/\pi^z = 1$:
 (z/e)^z ≈ $\pi$^z × √(z/($2\pi$))
 z/e ≈ $\pi$ (for large z)
 z ≈ $\pi$e ≈ 8.54
@@ -1481,7 +1481,7 @@ Tested: 2 × $M_{\rm 2D}$/2 universes per event (vs framework's 1 × $M_{\rm 2D}
 
 | Scenario | Per universe mass | Lifetime | DM per event |
 |---|---|---|---|
-| A: 1 universe (FRAMEWORK) | $M_{\rm 2D}$ = 7.4×10⁻¹³ GeV | $\tau_{\rm 2D}$ = (E/M_{\rm Pl,3D}$)$^{\alpha}$ × $t_{\rm Pl}$ | $M_{\rm 2D}$ × $\tau_{\rm 2D}$ |
+| A: 1 universe (FRAMEWORK) | $M_{\rm 2D}$ = 7.4×10⁻¹³ GeV | $\tau_{\rm 2D}$ = $(E/M_{\rm Pl,3D})^{\alpha}$ × $t_{\rm Pl}$ | $M_{\rm 2D}$ × $\tau_{\rm 2D}$ |
 | B: 2 half-mass universes | $M_{\rm 2D}$/2 = 3.7×10⁻¹³ GeV | same $\tau_{\rm 2D}$ | $M_{\rm 2D}$ × $\tau_{\rm 2D}$ |
 
 **Same DM total!** But each universe has mass $M_{\rm 2D}$/2, NOT framework's $M_{\rm 2D}$.
@@ -1580,7 +1580,7 @@ Source: `calculations/v35_why_factor_2.py`.
 
 **(3) Planckian Maximum (STRONG)**: $T_H$ = $T_{\rm Pl,2D}$ is the MAXIMUM stable BH temperature. Above this, BH evaporates instantly. $T_H$ = $T_{\rm Pl,2D}$ is the "edge of existence" for 2D BH. Robust physical constraint.
 
-**(5) Euclidean Periodicity (CLEANEST MATH)**: $\beta$ = $2\pi$ × $L_{\rm AdS,2}$ is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). $T_H$ = 1/\beta$ = $M_{\rm Pl,2D}$/($2\pi$) is FORCED by the geometry. No free parameter.
+**(5) Euclidean Periodicity (CLEANEST MATH)**: $\beta$ = $2\pi$ × $L_{\rm AdS,2}$ is the UNIQUE Euclidean periodicity compatible with AdS_2 isometry (SL(2,R)). $T_H = 1/\beta = M_{\rm Pl,2D}/(2\pi)$ is FORCED by the geometry. No free parameter.
 
 **(4) Hagedorn (string theory)**: $T_H$ = M_s/($2\pi$) is the Hagedorn temperature for D=4 effective compactification. Connects 2D universe to string theory structure.
 
@@ -1621,7 +1621,7 @@ Status: STRUCTURAL INTERPRETATION (not derivation). It still uses $M_{\rm Pl,2D}
 - D, E, F (factor=9/4 or sum): $\mu$ = (E_1st + $M_{\rm Pl,2D}$/2)²
 - G (b²=1): $\mu$ = 1 × $M_{\rm Pl,2D}^2$ (requires changing CFT choice)
 - H (h=1/2): same as (2 E_1st)²
-- I (T = E_1st/$\pi$): $\mu$ = ($2\pi$ × E_1st/\pi$)² = (2 E_1st)²
+- I (T = $E_{1\rm st}/\pi$): $\mu = (2\pi \cdot E_{1\rm st}/\pi)^2 = (2 E_{1\rm st})^2$
 - J: E_BPS = $M_{\rm Pl,2D}$ or 2 E_1st
 
 None of these is a TRUE derivation. All reduce to $\mu$ = $M_{\rm Pl,2D}^2$ (framework's choice).

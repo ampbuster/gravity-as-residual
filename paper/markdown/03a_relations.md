@@ -205,7 +205,7 @@ This is an enormous entanglement entropy. The 2D universe is "small" in its intr
 
 Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity and electromagnetism. The key result: starting from 5D Einstein-Hilbert action and compactifying one extra dimension on S^1 of radius R, the 5D metric decomposes into:
 - $g_{\mu\nu}$ (4D graviton)
-- A_$\mu$ = G_$\mu$4 (4D EM vector potential, from off-diagonal metric)
+- A_$\mu$ = G_$\mu 4$ (4D EM vector potential, from off-diagonal metric)
 - $\phi$ = G_44 (4D dilaton scalar)
 
 5D Einstein equations → 4D Einstein + 4D Maxwell + 4D dilaton dynamics. This was a remarkable result: 5D gravity naturally contains 4D EM.
@@ -570,7 +570,7 @@ $$f_{DE} \times \rho_{DE} \times V_{birth} \approx 6 M_\odot$$
 **Plausibility:** this is plausible if $V_{birth}$ is large. The 2D universe's volume depends on its 2D-frame size and lifetime. A 2D universe with size $R_{2D}$ and lifetime $\tau_{2D}$ has $V_{birth} = c \tau_{2D} R_{2D}$.
 
 For SN-calibrated 2D universes: $\tau_{2D} = 33$ s, $R_{2D}$ depends on 2D physics (Liouville 2D CFT). The required $V_{birth}$ to extract $6 M_\odot$ from DE is:
-$V_{birth} = 6 M_\odot c^2 / \rho_{DE} \approx $10^{47}$\,\text{m}^3$
+$V_{birth} = 6 M_\odot c^2 / \rho_{DE} \approx 10^{47}\,\text{m}^3$
 
 This is a large but not unreasonable 2D-frame volume (comparable to a stellar-scale object's volume).
 
