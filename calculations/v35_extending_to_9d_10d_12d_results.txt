@@ -1,0 +1,132 @@
+===========================================================================
+GEOMETRIC FACTORS: BOUNDARY SPHERE MEASURES
+===========================================================================
+
+Each cascade transition N→N+1 has factor = surface measure of S^N
+
+N→N+1    S^N    Factor       Value           Behavior            
+-----------------------------------------------------------------
+0D→1D    S^0    1            1.000000        (point)             
+1D→2D    S^1    2π           6.283185        (circle perim) (×6.28)
+2D→3D    S^2    4π           12.566371       (sphere area) (×2.00)
+3D→4D    S^3    2π²          19.739209       (3-sphere vol) (×1.57)
+4D→5D    S^4    8π²/3        26.318945       (4-sphere) (×1.33)  
+5D→6D    S^5    π³           31.006277       (5-sphere) (×1.18)  
+6D→7D    S^6    16π³/15      33.073362       (6-sphere) (×1.07)  
+7D→8D    S^7    32π³/105     9.449532        (7-sphere) (×0.29)  
+8D→9D    S^8    π⁴/24        4.058712        (8-sphere) (×0.43)  
+9D→10D   S^9    64π⁴/945     6.597018        (9-sphere) (×1.63)  
+10D→11D  S^10   32π⁵/10395   0.942052        (10-sphere) (×0.14) 
+
+OBSERVATION: Geometric factors OSCILLATE and SHRINK after N=6.
+The cone does NOT extend naturally to higher transitions.
+Cone terminates at 4D, where factor is 2π² ≈ 19.7.
+
+===========================================================================
+SCENARIO A1: PERIOD-2 PATTERN (41, 142, 41, 142, ...)
+===========================================================================
+
+Level log10(M_Pl/GeV)    M_Pl (GeV)                α-steps   
+-----------------------------------------------------------------
+2D    3.48               3.000e+03                 0         
+3D    8.00               9.942e+07                 41        
+4D    23.65              4.502e+23                 142       
+5D    28.17              1.492e+28                 41        
+6D    43.83              6.756e+43                 142       
+7D    48.35              2.239e+48                 41        
+8D    64.01              1.014e+64                 142       
+9D    68.53              3.360e+68                 41        
+10D   84.18              1.521e+84                 142       
+11D   88.70              5.042e+88                 41        
+12D   104.36             2.283e+104                142       
+
+===========================================================================
+SCENARIO A2: GEOMETRIC PATTERN (41, 142, 491, 1700, ...)
+===========================================================================
+
+Level log10(M_Pl/GeV)    M_Pl (GeV)                α-steps   
+-----------------------------------------------------------------
+2D    3.48               10^3.48                   0         
+3D    8.00               10^8.00                   41        
+4D    23.65              10^23.65                  142       
+5D    77.79              10^77.79                  491       
+6D    265.66             10^265.66                 1704      
+7D    916.48             10^916.48                 5903      
+8D    3171.37            10^3171.4                 20452     
+9D    10982.46           10^10982.5                70847     
+10D   38041.17           10^38041.2                245424    
+11D   131775.45          10^131775.4               850175    
+12D   456480.87          10^456480.9               2945096   
+
+M_Pl grows EXPONENTIALLY — 9D/10D/12D are absurdly large.
+This pattern doesn't work physically.
+
+===========================================================================
+SCENARIO B: F-theory 12D as 4D BULK (framework's current position)
+===========================================================================
+
+The cascade cone is 2D → 3+1D → 4D (3 levels).
+
+9D, 10D, 12D are NOT in the cone.
+They are part of the 4D BULK theory:
+
+  - 9D: critical string dimension (was M_Pl,9D = v_Higgs, DROPPED v3.3)
+  - 10D: superstring base dimension (F-theory 10D)
+  - 12D: F-theory = 10D base + 2D T² fiber
+
+Per v3.4: F-theory 12D adopted as 4D bulk theory.
+Per v3.3: 9D = v_Higgs DROPPED (broke 4D = 4×10²³ floor).
+
+If 9D = v_Higgs (sub-structure, not cone):
+  M_Pl,9D = v_Higgs = 246 GeV
+  M_Pl,9D / M_Pl,3D = 2.016e-17
+  9D is at SUB-EW scale (not a higher cone level)
+  It's INSIDE 3+1D, like strings are inside spacetime
+
+F-theory 10D (superstring):
+  10D = 4D spacetime + 6D compact Calabi-Yau 3-fold
+  M_s = string scale = M_Pl,10D,compact
+  If M_s = v_Higgs (Antoniadis 1990): M_Pl,10D = 246 GeV
+  10D physics is 4D effective at low energies
+
+F-theory 12D (with 2D fiber):
+  12D = 10D base + 2D T² fiber
+  Elliptically fibered CY 4-fold
+  12D geometric, 10D effective
+  M_Pl,12D = ? (geometric, not a single M_Pl value)
+
+===========================================================================
+COMPARISON: WHICH SCENARIO IS THE FRAMEWORK?
+===========================================================================
+
+Framework position (v3.5.7+):
+  - Cone: 2D → 3+1D → 4D (3 levels, terminates at 4D)
+  - 4D bulk theory: F-theory 12D (10D base + 2D fiber)
+  - 9D/10D/12D: SUB-STRUCTURES of 4D bulk, not cone extensions
+
+So the answer to 'what happens at 9D/10D/12D?':
+
+  - In SCENARIO A (cone extension): M_Pl grows EXPONENTIALLY
+    → Unphysical (10^38000 GeV is absurd)
+
+  - In SCENARIO B (F-theory sub-structure):
+    → 9D = v_Higgs at 246 GeV (sub-EW, DROPPED v3.3)
+    → 10D = superstring base (compactified, M_s = v_Higgs)
+    → 12D = F-theory geometry (10D + 2D fiber)
+
+  - FRAMEWORK uses SCENARIO B (F-theory 12D as bulk)
+
+===========================================================================
+CONCLUSION
+===========================================================================
+
+9D/10D/12D are NOT extensions of the cascade cone.
+They are F-theory 12D sub-structures of the 4D BULK.
+
+The cone terminates at 4D. Beyond 4D, the framework uses F-theory.
+9D = v_Higgs (DROPPED) was an early attempt; current position is F-theory 12D.
+
+Geometric factor pattern (2π-4π-2π²-8π²/3-...):
+  - Factors OSCILLATE and SHRINK after N=6
+  - This is consistent with cone terminating at 4D
+  - F-theory 12D doesn't need the same geometric factors

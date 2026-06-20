@@ -2,7 +2,7 @@
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **120 honest limitations** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 4×10²³ GeV, brane-world), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr (M^α prediction); (2) frame of reference: M^α law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit (α = 1.258 fails 13/14 events).
+This is a thought experiment, not a theory. We identify **121 honest limitations** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 4×10²³ GeV, brane-world), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr (M^α prediction); (2) frame of reference: M^α law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit (α = 1.258 fails 13/14 events).
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -51,7 +51,7 @@ This is a thought experiment, not a theory. We identify **120 honest limitations
 
 **The honest summary:** SIDC is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 22 PARTIAL limitations are the most promising areas for future work. The 8 CLOSED limitations represent SIDC's "wins" — features that survive every iteration of the model. The 6 NEGATIVE limitations show SIDC's self-critical nature — broken hypotheses are explicitly rejected, not papered over (e.g., monodromy method for α, 3× 2D CFT attempts for α).
 
-**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **120 (v3.5.7+, +L308f, +L308g, +L308h, +L308i user-caught)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic; L308f-L308g v3.5.7+ consistency catches on M_Pl,2D/M_Pl,4D origins).
+**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **121 (v3.5.7+, +L308f, +L308g, +L308h, +L308i, +L308j user-caught)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/μ origins/holographic; L308f-L308g v3.5.7+ consistency catches on M_Pl,2D/M_Pl,4D origins).
 
 The full table follows:
 
@@ -692,6 +692,8 @@ L308i. **Geometric factor asymmetry 2π vs 4π is BOUNDARY-SPHERE STRUCTURED** (
 
 The framework's 2π at 2D (Hawking-Page T_H) and 4π at 3D→4D (γ_4D) are now geometrically motivated: each cascade level's transition factor is the surface measure of the parent's boundary sphere. L146 (4π specificity) PARTIAL → STRUCTURAL. L142a (4π origin) PARTIAL → STRUCTURAL (S² boundary hypothesis). Source: `calculations/v35_geometric_factor_progression.py`.
 
+L308j. **Cone extension to 9D/10D/12D is NOT APPLICABLE — cone terminates at 4D** (v3.5.7+, USER-DIRECTED). If the cascade cone were extended through 5D, 6D, ..., 12D, M_Pl would grow EXPONENTIALLY (e.g., M_Pl,9D ~ 10⁶⁸ GeV in Pattern A1 or 10¹⁰⁹⁸² GeV in Pattern A2 — both unphysical). The framework's actual position: 9D/10D/12D are NOT in the cone. They are F-theory 12D SUB-STRUCTURES of the 4D BULK (adopted v3.4). 9D = v_Higgs (DROPPED v3.3) was 246 GeV — sub-EW scale, INSIDE 3+1D, not a higher cone level. Status: FRAMEWORK USES F-THEORY 12D. Source: `calculations/v35_extending_to_9d_10d_12d.py`.
+
 ## 7.4.6 α-GM Consistency and Cone Depth Structure (v3.5.7+, USER-DISCOVERED)
 
 **Status update (v3.5.7+)**: The α-weighted GM and cone depth structure reveal that M_Pl,2D = 3 TeV has TWO real links to the cascade via α — not just numerology. The "12" emerges as the CASCADE FUNDAMENTAL UNIT.
@@ -900,6 +902,93 @@ The framework is **STRUCTURALLY ASYMMETRIC** by design (each transition has its 
 - **L146 (4π specificity)**: OPEN → PARTIAL (now geometrically motivated)
 - **L142a (4π geometric origin)**: OPEN → PARTIAL (S² boundary hypothesis is the best candidate)
 - **L320 (Universal 2π)**: confirmed, but now seen as specifically 2D-boundary geometry
+
+## 7.4.9 Extending the Cascade to 9D, 10D, 12D (v3.5.7+, USER-DIRECTED)
+
+**Status update (v3.5.7+)**: User asked "what happens if you extend it further, to 9 or 10D?" Two scenarios explored:
+
+### Scenario A: Cone extension 2D → 3D → 4D → 5D → ... → 12D
+
+If we naively extend the cascade cone UP through 5D, 6D, 7D, 8D, 9D, 10D, 11D, 12D, the M_Pl values grow EXPONENTIALLY. Two patterns:
+
+**Pattern A1: Period-2** (α-steps alternate 41, 142, 41, 142, ...):
+- 9D: M_Pl,9D ~ 10⁶⁸ GeV
+- 12D: M_Pl,12D ~ 10¹⁰⁴ GeV
+
+**Pattern A2: Geometric** (each transition √12 more α-steps: 41, 142, 491, 1700, ...):
+- 6D: M_Pl,6D ~ 10²⁶⁶ GeV
+- 9D: M_Pl,9D ~ 10¹⁰⁹⁸² GeV (!!!)
+- 12D: M_Pl,12D ~ 10⁴⁵⁶⁴⁸¹ GeV (!!)
+
+**Neither pattern is physical.** M_Pl values at 9D/10D/12D are absurdly large. The cone does NOT extend naturally to higher dimensions.
+
+### Scenario B: F-theory 12D as 4D BULK (framework's current position)
+
+The framework's actual position (v3.3, v3.4):
+
+**9D = v_Higgs (DROPPED v3.3)**:
+- v3.0.22 proposed M_Pl,9D = v_Higgs = 246 GeV (1.3% off)
+- 9D would be at EW scale, INSIDE our 3+1D world
+- DROPPED in v3.3 because it broke 4D = 4×10²³ GeV floor
+- L122 (SPECULATIVE v3.0.22): "9D = string critical dim, 9D = v_H suggestive"
+
+**10D base (F-theory)**:
+- Superstring theory lives in 10D
+- 10D = 4D spacetime + 6D compact (Calabi-Yau 3-fold)
+- Compactification: M_s = v_Higgs (Antoniadis 1990 low string scale)
+
+**12D F-theory (ADOPTED v3.4)**:
+- 12D = 10D base + 2D T² fiber
+- Elliptically fibered Calabi-Yau 4-fold
+- F-theory 12D as 4D BULK theory
+- v3.3.25: "F-theory 12D explained - 10D base + 2D T² fiber"
+
+### Geometric Factors at Higher Transitions (extending §7.4.8)
+
+| Transition | Boundary S^N | Factor | Value |
+|---|---|---|---|
+| 4D → 5D | S⁴ | 8π²/3 | 26.32 |
+| 5D → 6D | S⁵ | π³ | 31.01 |
+| 6D → 7D | S⁶ | 16π³/15 | 33.07 |
+| 7D → 8D | S⁷ | 32π³/105 | 9.45 |
+| 8D → 9D | S⁸ | π⁴/24 | 4.06 |
+| 9D → 10D | S⁹ | 64π⁴/945 | 6.60 |
+| 10D → 11D | S¹⁰ | 32π⁵/10395 | 0.94 |
+
+**Key observation**: Geometric factors OSCILLATE and SHRINK after N=6. The cone's 2π-4π-2π²-8π²/3 sequence reaches a peak at 6D→7D (factor 33.07) and then declines. By 10D→11D, factor is 0.94 (< 1!). This is consistent with the cone TERMINATING at 4D — it doesn't extend to 9D/10D/12D in the same way.
+
+### Verdict: where do 9D/10D/12D live in the framework?
+
+**NOT in the cone.** The cone is 2D → 3+1D → 4D (3 levels, terminates at 4D).
+
+**In the 4D BULK theory (F-theory 12D)**:
+- 9D = v_Higgs (DROPPED) was 246 GeV
+- 10D = F-theory base (compactified, M_s = v_Higgs)
+- 12D = F-theory = 10D + 2D fiber
+
+The framework has TWO aspects:
+1. **Cone** (observable physics): 2D → 3+1D → 4D
+2. **Bulk theory** (4D structure): F-theory 12D
+
+9D/10D/12D belong to the bulk theory, not the cone.
+
+### Testable implications
+
+If F-theory 12D is correct as bulk theory:
+- **9D = v_Higgs (if revived)**: would predict v_Higgs = 246 GeV is the 9D Planck
+- **10D = M_s**: string scale at v_Higgs (Antoniadis 1990)
+- **12D = F-theory CY 4-fold**: governs 4D event dynamics
+
+These are SPECULATIVE but testable in principle via string signatures at LHC.
+
+### Status
+
+- **9D = v_Higgs**: SPECULATIVE (DROPPED v3.3, but documented as L122)
+- **10D F-theory**: PARTIAL (framework adopts F-theory 12D as bulk)
+- **12D F-theory**: ADOPTED (v3.4, framework's current bulk theory)
+- **Cone extension to 9D/10D/12D**: NOT APPLICABLE (cone terminates at 4D)
+
+Source: `calculations/v35_extending_to_9d_10d_12d.py`.
 
 ## 7.5 v3.5 NEW ANGLE Limitations: μ first-principles (11 attempts)
 
