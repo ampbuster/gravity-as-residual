@@ -95,12 +95,12 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 | 2D→3D (SN) | $1.22 \times 10^{19}$ GeV | 10⁴⁴ J | $1.6\times$10⁻⁴⁵ |
 | 3D→4D | $4\times 10^{23}$ GeV | $5\times 10^{79}$ J | $1.22\times 10^{-85}$ |
 
-**Continuous vs pulsed return** (KEY CLARIFICATION, user-formalized): $f_{\rm back}$ is the CONTINUOUS back-flow fraction. Pulsed return at death is $10^{0}$% (universal). The OBSERVABLE differs by level due to TIMESCALE (specifically, time dilation makes 3+1D's lifetime much longer than 2D's lifetime):
+**Continuous vs pulsed return** (KEY CLARIFICATION, user-formalized): $f_{\rm back}$ is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). The OBSERVABLE differs by level due to TIMESCALE (specifically, time dilation makes 3+1D's lifetime much longer than 2D's lifetime):
 
 | Boundary | Lifetime in lower-D frame | $f_{\rm DE}$ rate | Continuous leakage | Pulsed at death | What dominates NOW? |
 |---|---|---|---|---|---|
-| 2D→3D (SN) | 33 s (short, no significant $\gamma$) | $1.6\times$10⁻⁴⁵/s | $33\times 10^{-45}$ = **10⁻⁴⁴** (negligible) | $10^{0}$% at 33s | **Pulsed (DM)** |
-| 3D→4D | 10³⁴ yr ( $\gamma_{\rm 4D}$ = 6.03×10⁹⁰ from 4D proper time ~10⁻⁵⁴ yr) | $1.22\times 10^{-85}$/s | 10⁵¹×10⁻⁸⁵ = **O(1)** by heat death | $10^{0}$% at 10³⁴ yr | **Continuous (DE)** |
+| 2D→3D (SN) | 33 s (short, no significant $\gamma$) | $1.6\times$10⁻⁴⁵/s | $33\times 10^{-45}$ = **10⁻⁴⁴** (negligible) | 100% at 33s | **Pulsed (DM)** |
+| 3D→4D | 10³⁴ yr ( $\gamma_{\rm 4D}$ = 6.03×10⁹⁰ from 4D proper time ~10⁻⁵⁴ yr) | $1.22\times 10^{-85}$/s | 10⁵¹×10⁻⁸⁵ = **O(1)** by heat death | 100% at 10³⁴ yr | **Continuous (DE)** |
 
 **Time dilation is the key**: 4D event's proper time is 10⁻²⁰ s, but 3+1D's clock sees it as 10³⁴ yr. This makes 3+1D's continuous leakage observable NOW (as DE). At 2D→3D, no such time dilation exists — 2D universe's 33s lifetime is short, so continuous leakage is invisible. Pulsed return at 33s (= DM) dominates.
 
@@ -147,7 +147,7 @@ The v3.3 DE formula has NO $4\pi$ factor. The simple $f_{\rm DE}$ formula gives 
 | Universe total LIFETIME | ✗ UNKNOWN (only AGE is observed) |
 | "14 events" all fit (vs §10.1's 8) | ✗ INCONSISTENT (legacy claim) |
 | "13/14 fail" for $\alpha$ = 1.258 (rigorously documented) | ✗ PAPER TEXT (not in calculations) |
-| $F_p$(z) functional form (Hill n=2) | ✗ FIT (L $10^{0}$ PARTIAL) — z-evolution is phenomenological |
+| $F_p$(z) functional form (Hill n=2) | ✗ FIT (L 1 PARTIAL) — z-evolution is phenomenological |
 | $z_{\rm half}$ ( $F_p$ transition redshift) | ✗ FREE PARAM (L35) — calibrated to cosmic SFR peak |
 | E_primordial (per-event energy of primordial 2D universes) | ✗ FREE PARAM (L34) — not derived |
 | E_crit (phase-transition threshold) | ✗ REVERTED v2.7.5 — replaced by smooth C(E) = E^(1+ $\alpha$) |
@@ -271,7 +271,7 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 1. **Cosmic SFH (Madau-Dickinson 2014)** integrated over z = 0 to 10:
    $$\rho_* = \int_0^{10} \frac{\text{SFR}(z)}{(1+z) H(z)} dz = 8.05 \times 10^8 \, M_\odot/\text{Mpc}^3$$
 
-2. **Total SNe**: 1 SN per $10^{0}$ M_⊙ (Salpeter IMF, M > 8):
+2. **Total SNe**: 1 SN per 100 M_⊙ (Salpeter IMF, M > 8):
    $$N_{\rm SN} = 8.05 \times 10^6 \text{ SNe/Mpc}^3$$
 
 3. **Per-SN 2D universe rest mass** ( $E_{\rm SN}$/c² = 5.59×10⁻⁴ M_⊙):
@@ -289,9 +289,9 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 **Interpretation**: SN-driven 2D universe deaths give 7.6 million × too little DM.
 
 **How the framework addresses this**: $F_p$(z) Hill function separates PRIMORDIAL vs CUMULATIVE:
-- **99.93% of DM is PRIMORDIAL** (from 4D event's 2D universe deaths at z ~ 1 $10^{0}$)
+- **99.93% of DM is PRIMORDIAL** (from 4D event's 2D universe deaths at z ~ 1)
 - **0.07% of DM is CUMULATIVE** (from SN-driven 2D universe deaths)
-- $F_p$(0) = 0.9993 (calibrated), $F_p$(1 $10^{0}$) = 1.0
+- $F_p$(0) = 0.9993 (calibrated), $F_p$(1) = 1.0
 
 **Primordial contribution**: 4D event mass = 6.0×10¹¹ M_⊙ (galaxy scale). To explain $\Omega_{\rm DM}$:
 $$$N_p = \frac{\rho_{\rm DM}({\rm observed})}{M_{\rm 4D}} = 0.057 \approx 6\%$
@@ -325,7 +325,7 @@ This is the **HONEST** closed-loop picture. The SN-driven 2D→3D path is real b
 
 **AGC/KKR inconsistency**:
 - If 99.93% of DM is primordial ( $F_p$(0) = 0.9993), then per-galaxy DM variation CANNOT be explained by cumulative 0.07% alone
-- AGC 114905 (no DM) vs KKR 25 (DM-rich) variation is $10^{0}$% (zero to significant)
+- AGC 114905 (no DM) vs KKR 25 (DM-rich) variation is 100% (zero to significant)
 - But cumulative is only 0.07% of total DM
 - **The 5/5 dwarf cases test CUMULATIVE part only, not total DM**
 
@@ -335,12 +335,12 @@ This is the **HONEST** closed-loop picture. The SN-driven 2D→3D path is real b
 - ✗ $F_p$(z) functional form is a FIT, not derived
 - ✗ AGC 114905 'no DM' is for cumulative only, primordial should still be there
 
-**Closing requires** (L $10^{0}$ v3.2):
+**Closing requires** (L 1 v3.2):
 1. $F_p$(z) derivation from Lagrangian
 2. Per-galaxy E_primordial distribution (L34 OPEN)
 3. N_p constraint (L144, N_p is FREE PARAM)
 
-The framework acknowledges this in L $10^{0}$ (REVISED v3.2). The 5/5 cases are valid for cumulative, but total DM variation is open.
+The framework acknowledges this in L 1 (REVISED v3.2). The 5/5 cases are valid for cumulative, but total DM variation is open.
 
 ---
 
@@ -709,7 +709,7 @@ observations, testing, wide range), and `paper/paper.md` §12
 
 SIDC's principle is **energy-scale-invariant in law**: every energetic event creates a 2D universe weighted by a smooth $E^{1+\alpha}$ function, regardless of when it happens (see paper §2.5.3). The *consequences* are epoch-dependent: the *rate* of 2D universe creation depends on what's going on at that epoch.
 
-Per a user follow-up ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?"), the principle is broadened to include **all baryon activity** — not just stellar events but also Thomson scattering, recombination, acoustic oscillations. The baryon plasma at z=1 $10^{0}$ has enormous energetic activity that, by SIDC's own principle, creates 2D universes. **v2.7.4 honest update:** while Thomson + recombination DO create 2D universes (qualitatively), their per-event contribution under the smooth function (§2.5.3) is negligible $\sim 10^{-66}$ of SN). SIDC's r(z) ≈ (1+z)³ result actually comes from the $F_p(z)$ primordial component (§4.48.1), not from Thomson.
+Per a user follow-up ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?"), the principle is broadened to include **all baryon activity** — not just stellar events but also Thomson scattering, recombination, acoustic oscillations. The baryon plasma at z = 1 has enormous energetic activity that, by SIDC's own principle, creates 2D universes. **v2.7.4 honest update:** while Thomson + recombination DO create 2D universes (qualitatively), their per-event contribution under the smooth function (§2.5.3) is negligible $\sim 10^{-66}$ of SN). SIDC's r(z) ≈ (1+z)³ result actually comes from the $F_p(z)$ primordial component (§4.48.1), not from Thomson.
 
 ### The deeper test: does r(z) = (1+z)³ ( $\Lambda$CDM's expansion factor)?
 
@@ -732,7 +732,7 @@ SIDC's r(z) = $\rho_{\rm DM}^{\rm DC}(z) / \rho_{\rm DM}^{\rm DC}(0)$ at high z 
 
 | Event | E per event (J) | C(E) = $E^{2.29}$ | C(E)/C(SN) |
 |-------|----------------|----------------|-------------|
-| Thomson scattering (CMB photon at z=1 $10^{0}$) | $10^{19}$ | $10^{-43}$ | $10^{-145}$ |
+| Thomson scattering (CMB photon at z = 1) | $10^{19}$ | $10^{-43}$ | $10^{-145}$ |
 | Type Ia SN | $10^{44}$ | $10^{$10^{1} $}$ | 1.0 |
 
 Even though Thomson has a *much higher rate* $\sim 10^{67}$ events/s/Mpc $^3$ vs SN's $\sim 10^{-12}$ events/s/Mpc $^3$), the per-event weight is so small ( $10^{-145}$ of SN) that the *net* Thomson contribution is $\sim 10^{-66}$ of SN — *negligible*.
@@ -1163,7 +1163,7 @@ number reference. Use this to find broken math/LaTeX in supporting docs.
 **All build state is inside the repo:**
 - `paper/build_tools/` — post-processor scripts (tracked in git, persist across sessions)
 - `paper/.build/` — intermediate files (gitignored, but kept for debugging)
-- `paper/build_pdf.sh` — orchestrator (extensively commented; ~1 $10^{0}$ lines, includes LaTeX gotchas, table syntax rules, math notation rules, troubleshooting)
+- `paper/build_pdf.sh` — orchestrator (extensively commented; ~1000 lines, includes LaTeX gotchas, table syntax rules, math notation rules, troubleshooting)
 
 **Last build:** 330 pages (June 17, 2026, after v3.0.2 Lagrangian section + L38–L45).
 
