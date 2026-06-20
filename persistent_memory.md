@@ -37,7 +37,7 @@
 - v3.4.6: honest reframe of "12 propagates" as correlation, not derivation
 - v3.4.7: meta-analysis of why "12" is common in physics (arithmetic)
 - v3.4.8: universe age = 1.5×10⁻¹⁵ of lifetime implications + PDF rebuild
-**Last updated:** June 20, 2026 (added: L308f, L308g, §7.4.6 α-GM consistency, cone depth structure)
+**Last updated:** June 20, 2026 (v3.5.8 release: +L308f, +L308g, +L308h, +L308i, +L308j, +L308k, +L308l, +§7.4.5, +§7.4.6, +§7.4.7, +§7.4.8, +§7.4.9, +§7.4.10)
 
 ---
 

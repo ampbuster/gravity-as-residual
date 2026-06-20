@@ -1,4 +1,4 @@
-# State of the Model: v3.5.7+ (with v3.5.7 audit + v3.5.7+ post-processing)
+# State of the Model: v3.5.8 (with v3.5.7 audit + v3.5.7+ post-processing + v3.5.8 user-driven refinements)
 
 **As of June 20, 2026**
 
@@ -6,7 +6,7 @@
 
 **Paper**: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
 **Subtitle**: SIDC = Scale-Invariant Dimensional Cascade
-**Version**: v3.5.7+ (with sub-versions v3.3, v3.4, v3.5, v3.5.1-v3.5.7, v3.5.7+)
+**Version**: v3.5.8 (with sub-versions v3.3, v3.4, v3.5, v3.5.1-v3.5.7, v3.5.7+, v3.5.8)
 **Pages**: 370
 **Limitations**: 118 (v3.5.7+ master table, +L308f +L308g, was 116 v3.5.7, was 81 in v3.3)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
@@ -153,7 +153,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✗ 4π geometric factor (was v3.1.2, removed v3.3)
 - ✗ α = 1.258 (falsified, 13/14 events fail)
 
-## Open Limitations (123 total in v3.5.7+ master table)
+## Open Limitations (123 total in v3.5.8 master table)
 
 **Status breakdown** (v3.5.7+):
 - 79 OPEN (need theoretical/observational work)

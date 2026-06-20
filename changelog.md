@@ -4584,3 +4584,86 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 
 **Commits**: ~30+ commits in v3.5 era
+
+## v3.5.8 (June 20, 2026) — User-driven refinements: M_Pl origins, geometric factor asymmetry, cone structure
+
+**Reason for version bump:** User-driven iterative refinements revealed deep geometric structure in the cascade cone. 7 new limitations (L308f-L308l), 6 new sections (§7.4.5-§7.4.10), 8 new calculations. Total: 123 honest limitations (was 116 v3.5.7, +7).
+
+**NEW SECTIONS**:
+- **§7.4.5 (v3.5.7+ new)**: μ's 5 Structural Motivations (consolidated with 2025-2026 references: Rassouli 2025 arXiv:2501.17213, Hallam-Magueijo 2025 arXiv:2511.13562, Minahan 2024, JHEP05(2024)244)
+- **§7.4.6 (NEW)**: α-GM Consistency and Cone Depth Structure. M_Pl,2D UNIQUELY fixed at 2.89 TeV by α-GM. "12" emerges as cascade fundamental unit (12 = 12 sub-steps 4D→3+1D)
+- **§7.4.7 (NEW)**: First-Principles Search Summary. 7 systematic attempts to derive framework parameters from first principles. 0/9 found.
+- **§7.4.8 (NEW)**: Geometric Factor Asymmetry: 2π vs 4π in Cascade Transitions. Each transition factor = parent's boundary sphere measure.
+- **§7.4.9 (NEW)**: Extending the Cascade to 9D, 10D, 12D. Cone extension unphysical (M_Pl grows exponentially). 9D/10D/12D live in F-theory 12D bulk.
+- **§7.4.10 (NEW)**: Extending Cascade to 0 and Negative Dimensions. Cone has natural range n=1 to n≈17. Past peak (n=6), factors decrease. Negative-n gives mathematical curiosities (A_-2 = -1/π).
+
+**NEW LIMITATIONS (7 added, 116 → 123)**:
+- **L308f**: M_Pl,2D = 3 TeV origin: N=12 SYK + v_Higgs, NOT "holographic" (USER-CAUGHT)
+- **L308g**: M_Pl,4D = 4×10²³ derivation chain: α-GM + closed loop, NOT first-principles (USER-CAUGHT)
+- **L308h**: 0/9 parameters first-principles derived (USER-DIRECTED systematic search)
+- **L308i**: Geometric factor 2π vs 4π is BOUNDARY-SPHERE STRUCTURED (USER-DISCOVERED)
+- **L308j**: Cone extension to 9D/10D/12D is NOT APPLICABLE — cone terminates at 4D (USER-DIRECTED)
+- **L308k**: Cone's true geometric endpoint is 7D/8D, not 4D (USER-CORRECTED — geometric peak at n=6)
+- **L308l**: Cone has natural range n=1 to n≈17 (USER-DIRECTED)
+
+**KEY DISCOVERIES THIS SESSION**:
+1. **α-GM CONSISTENCY** (LINK 1): M_Pl,2D = 2.89 TeV UNIQUELY fixed given α, M_Pl,3D, M_Pl,4D (3.6% off framework's 3 TeV)
+2. **"12" CASCADE UNIT** (LINK 2): N=12 SYK count matches cone depth (12 sub-steps 4D→3+1D), M_Pl,2D/v_Higgs ratio (11.75), 12 Majorana=6 Dirac=3 generations
+3. **BOUNDARY SPHERE STRUCTURE**: 2D→3D has factor 2π (S¹ circle), 3D→4D has 4π (S² sphere). Each transition factor = parent's boundary sphere surface area
+4. **GEOMETRIC PEAK AT n=6**: S^6 surface area = 33.07 is the maximum. Framework's 4D choice was PRACTICAL, not geometric. Cone could extend to 7D/8D where peak is.
+5. **CONE DISSOLVES AT n≈17**: Factors cross 1 around n=17. Past that, factors < 1, cone structure weakens. At n→∞, factors → 0.
+6. **CORRECTED SPHERE VOLUMES**: Original code had bugs for n≥7. Corrected using A_n = 2π^((n+1)/2)/Γ((n+1)/2). Peak is at S^6 (factor 33.07), SMOOTH descent (not oscillating).
+7. **0/9 FIRST-PRINCIPLES**: After 7 systematic searches, NONE of the 9 framework parameters has first-principles derivation. Framework is internally CONSISTENT but not first-principles.
+
+**USER CAUGHS (this session)**:
+1. "DE match 8.4% was wrong, should be 0.13%" → fixed
+2. "isn't 2d planck 3 tev?" → confirmed
+3. "which makes more sense? what happens if 1.7tev?" → kept 3 TeV, documented
+4. "how was 4d Planck actually derived though?" → traced history, identified circular consistency
+5. "isn't 6d the endpoint, not 4d?" → USER CORRECTED, geometric peak at 7D/8D
+6. "ensure the calc is correct then plot a graph" → caught sphere volume bugs for n≥7
+7. "why does the factor have a divide past n3?" → gamma function argument
+8. "what happens if we extend it all the way till it reaches 0 or negative?" → full range exploration
+
+**NEW CALCULATIONS** (8 files):
+- calculations/v35_unimodular_mu.py (Path 1: Unimodular)
+- calculations/v35_hagedorn_mu.py (Path 2: Hagedorn)
+- calculations/v35_jt_mu.py (Path 3: JT gravity)
+- calculations/v35_string_duality_mu.py (Path 4: String duality)
+- calculations/v35_euclidean_periodicity_mu.py (Path 5: Hawking-Page)
+- calculations/v35_alpha_cone_depth_structure.py (α-GM consistency, "12" unit)
+- calculations/v35_first_principles_search.py (0/9 derived summary)
+- calculations/v35_geometric_factor_progression.py (CORRECTED sphere volumes)
+- calculations/v35_extending_to_9d_10d_12d.py (cone extension)
+- calculations/v35_cone_extends_to_zero.py (full range including 0/negative)
+
+**NEW PLOTS** (3 files):
+- calculations/plots/geometric_factor_progression.png
+- calculations/plots/geometric_factor_progression_main.png
+- calculations/plots/cone_extends_to_zero.png
+
+**FILES UPDATED**:
+- paper/markdown/00_title.md: v3.5.7+ → v3.5.8
+- paper/markdown/01_executive_summary.md: 116 → 123 limitations
+- paper/markdown/06_limitations.md: §7.4.5-§7.4.10 added (6 new sections), L308f-L308l added
+- README.md: v3.5.7+ → v3.5.8
+- STATE_OF_THE_MODEL.md: v3.5.7+ → v3.5.8
+- persistent_memory.md: Last updated June 20, 2026
+
+**Page count**: 385 (was 370 v3.5.7+, +15)
+
+**Repository**: https://github.com/ampbuster/gravity-as-residual
+
+**Commits** (since v3.5.7+):
+- 2d10847: §7.4.5 μ's 5 structural motivations
+- 8f95ea0: DE match 8.4% → 0.13%
+- 10ce909: STATE_OF_THE_MODEL v3.5.7+ consistency
+- c516aef: L308f, L308g, §7.4.6 α-GM consistency
+- 1ec29b7: L308h, §7.4.7 first-principles search
+- 087dc69: L308i, §7.4.8 geometric factor 2π vs 4π
+- 9528c90: L308j, §7.4.9 extending to 9D/10D/12D
+- e671ca8: CORRECTED sphere volumes (user caught bugs)
+- 5b69957: §7.4.8 gamma function argument
+- 435596b: L308k cone endpoint 7D/8D
+- e8273ee: L308l cone extends to 0/negative
+- (this commit) v3.5.8 formal release

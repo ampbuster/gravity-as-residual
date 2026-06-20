@@ -4,9 +4,9 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 3.5.7+ (June 2026) — *CURRENT VERSION. v3.5.x UPDATES: (1) TIER 2 research (CY3 Z_12, α first-principles, μ F-theory). (2) User caught "12 propagates" inconsistencies → honest reframe (v3.4.6). (3) "12 is correlation not derivation" (v3.4.7 meta-analysis: 12 = 2²×3 highly composite). (4) Universe age = 1.5×10⁻¹⁵ of lifetime → SIDC is INITIAL-CONDITIONS framework. (5) v3.5.6 WEB SEARCH BREAKTHROUGH: μ has 5+ structural origins (unimodular gravity, Hagedorn, JT U(Φ)=2Φ, string thermal duality, Hawking-Page/Euclidean periodicity). μ status changed from "calibrated" to "STRUCTURALLY MOTIVATED". (6) v3.5.7 AUDIT: framework internally consistent. (7) v3.5.7 HOLOGRAPHIC: string minimal area gives μ = M_s². (8) v3.5.7+ post-processing: math wrapping, spacing, lint checks. 370 pages, 116 limitations.*
+**Version:** 3.5.8 (June 2026) — *CURRENT VERSION. v3.5.x UPDATES: (1) TIER 2 research (CY3 Z_12, α first-principles, μ F-theory). (2) User caught "12 propagates" inconsistencies → honest reframe (v3.4.6). (3) "12 is correlation not derivation" (v3.4.7 meta-analysis: 12 = 2²×3 highly composite). (4) Universe age = 1.5×10⁻¹⁵ of lifetime → SIDC is INITIAL-CONDITIONS framework. (5) v3.5.6 WEB SEARCH BREAKTHROUGH: μ has 5+ structural origins (unimodular gravity, Hagedorn, JT U(Φ)=2Φ, string thermal duality, Hawking-Page/Euclidean periodicity). μ status changed from "calibrated" to "STRUCTURALLY MOTIVATED". (6) v3.5.7 AUDIT: framework internally consistent. (7) v3.5.7 HOLOGRAPHIC: string minimal area gives μ = M_s². (8) v3.5.7+ post-processing: math wrapping, spacing, lint checks. 370 pages, 116 limitations.*
 
-**Current parameters** (v3.5.7, 9 total):
+**Current parameters** (v3.5.8, 9 total):
 - 1 measured: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV
 - 1 calibrated: $M_{\rm Pl,2D}$ = 3 TeV (via SN τ_2D = 33 s)
 - 1 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 4×10²³ GeV
@@ -67,7 +67,7 @@
 - **v3.5.7 HOLOGRAPHIC**: String minimal area gives μ = M_s² (L319). "2π" is UNIVERSAL 2D factor (L320, Longo 2024 Bekenstein bound).
 - **v3.5.7 AUDIT**: Framework internally consistent. All numbers add up.
 - μ status: from "calibrated (L26 OPEN)" to "STRUCTURALLY MOTIVATED (5+ origins)"
-- 116 limitations (was 81 in v3.3, +35 across v3.4-v3.5.7)
+- 123 limitations (was 81 in v3.3, +42 across v3.4-v3.5.8)
 
 **v3.0.2 PARAMETER CLEANUP (REVISED v3.2)**: 0 calibrated postulates for per-event physics (was 3 in v2.7.x, 5 in v2.7.16). Most values now DERIVED from the cascade structure:
 - **$f_{\rm back}$** = ε × ( $E_{4D}$ / $M_{\rm Pl}^4$) — bulk-brane coupling × 4D event energy ratio
