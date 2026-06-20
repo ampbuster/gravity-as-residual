@@ -1344,11 +1344,11 @@ This is essentially ENERGY CONSERVATION: total event energy $E_{\rm 4D}$ split i
 
 | Event | $E_{\rm 4D}$ (J) | N_sub | $\tau_{\rm sub}$ (yr) |
 |---|---|---|---|
-| Sub-galaxy (small) | 5×10⁷⁶ | 4 | 2.5×10³³ |
-| Sub-galaxy (large) | 5×10⁷⁷ | 40 | 3.3×10³² |
-| Framework (current) | 5×10⁷⁹ | 400 | 6.7×10³⁰ |
-| Galaxy cluster | 5×10⁸¹ | 40000 | 1.8×10²⁸ |
-| Supercluster | 5×10⁸² | 400000 | 9.1×10²⁶ |
+| Sub-galaxy (small) | 5×10⁷⁶ J | 4 | 2.5×10³³ yr |
+| Sub-galaxy (large) | 5×10⁷⁷ J | 40 | 3.3×10³² yr |
+| Framework (current) | 5×10⁷⁹ J | 400 | 6.7×10³⁰ yr |
+| Galaxy cluster | 5×10⁸¹ J | 40000 | 1.8×10²⁸ yr |
+| Supercluster | 5×10⁸² J | 400000 | 9.1×10²⁶ yr |
 
 $\tau_{\rm sub}$ = $\tau_{\rm 4D}$ / N_su$b^{\alpha}$ where $\alpha$ = 1.289.
 
@@ -1417,10 +1417,10 @@ If N_2D_per_event = $E_{\rm event}$ / E_2D_ref (where E_2D_ref = $M_{\rm 2D}$ = 
 
 | Event | E (J) | N_2D per event | $\tau_{\rm 2D}$ (s) |
 |---|---|---|---|
-| Asteroid (10¹⁷ J) | 10¹⁷ | 8.5×10³⁸ | 4.7×10⁻³⁴ |
-| SN (10⁴⁴ J) | 10⁴⁴ | **$8.5 \times 10^{65}$** | 33 |
-| AGN (10⁵⁵ J) | 10⁵⁵ | 8.5×10⁷⁶ | 4.5×10¹⁵ |
-| Quasar (10⁶⁰ J) | 10⁶⁰ | 8.5×10⁸¹ | 1.2×10²² |
+| Asteroid (10¹⁷ J) | 10¹⁷ J | 8.5×10³⁸ | 4.7×10⁻³⁴ s |
+| SN (10⁴⁴ J) | 10⁴⁴ J | **$8.5 \times 10^{65}$** | 33 s |
+| AGN (10⁵⁵ J) | 10⁵⁵ J | 8.5×10⁷⁶ | 4.5×10¹⁵ s |
+| Quasar (10⁶⁰ J) | 10⁶⁰ J | 8.5×10⁸¹ | 1.2×10²² s |
 
 **SN would create 10⁶⁵ 2D universes per event!** This vastly overproduces DM.
 

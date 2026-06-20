@@ -30,8 +30,8 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 | System | Empirical g₊ | MOND | SIDC | Best |
 |--------|------------------|------|------|------|
-| Isolated spiral (SPARC) | $1.2 \times 10^{-10}$ | **[PASS]** | **[PASS]** | Tie |
-| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}$ | **[FAIL]** | **[PASS]** | SIDC |
+| Isolated spiral (SPARC) | $1.2 \times 10^{-10}$ m/s² | **[PASS]** | **[PASS]** | Tie |
+| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}$ m/s² | **[FAIL]** | **[PASS]** | SIDC |
 | Dwarf galaxy | Variable | Fail (low SB) | **[PASS]** (via $E_{crit}$) | SIDC |
 
 SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling baked in as a consequence of the phase-transition principle.

@@ -956,36 +956,36 @@ to the **4D event → 3D universe** level using the same formula.
 | 3D event | $E_{\rm 3D}$ (J) | T_pred (s) | T_paper (s) | ratio |
 |----------|----------|------------|-------------|-------|
 | **Terrestrial / man-made** | | | | |
-| 1 ton TNT | $4 \times 10^{9}$ | $1.5 \times 10^{-43}$ | $1 \times 10^{-43}$ | 1.51 |
-| Hiroshima (Little Boy, 15 kt) | $6.3 \times 10^{13}$ | $3.5 \times 10^{-38}$ | — | — |
-| Tsar Bomba (50 MT, largest nuke) | $2.1 \times 10^{17}$ | $1.2 \times 10^{-33}$ | — | — |
-| Tunguska (1908) | $1 \times 10^{17}$ | $4.7 \times 10^{-34}$ | — | — |
-| Krakatoa (1883) | $8.4 \times 10^{18}$ | $1.4 \times 10^{-31}$ | — | — |
-| Toba supereruption (~74 kya) | $1 \times 10^{21}$ | $6.7 \times 10^{-29}$ | — | — |
-| Chicxulub impactor (dinosaur killer) | $1 \times 10^{23}$ | $2.5 \times 10^{-26}$ | — | — |
-| X-class solar flare (typical max) | $1 \times 10^{25}$ | $1.1 \times 10^{-23}$ | $1 \times 10^{-23}$ | 1.07 |
-| Carrington event (1859) | $1 \times 10^{25}$ | $1.1 \times 10^{-23}$ | — | — |
+| 1 ton TNT | $4 \times 10^{9}$ J | $1.5 \times 10^{-43}$ s | $1 \times 10^{-43}$ s | 1.51 |
+| Hiroshima (Little Boy, 15 kt) | $6.3 \times 10^{13}$ J | $3.5 \times 10^{-38}$ s | — | — |
+| Tsar Bomba (50 MT, largest nuke) | $2.1 \times 10^{17}$ J | $1.2 \times 10^{-33}$ s | — | — |
+| Tunguska (1908) | $1 \times 10^{17}$ J | $4.7 \times 10^{-34}$ s | — | — |
+| Krakatoa (1883) | $8.4 \times 10^{18}$ J | $1.4 \times 10^{-31}$ s | — | — |
+| Toba supereruption (~74 kya) | $1 \times 10^{21}$ J | $6.7 \times 10^{-29}$ s | — | — |
+| Chicxulub impactor (dinosaur killer) | $1 \times 10^{23}$ J | $2.5 \times 10^{-26}$ s | — | — |
+| X-class solar flare (typical max) | $1 \times 10^{25}$ J | $1.1 \times 10^{-23}$ s | $1 \times 10^{-23}$ s | 1.07 |
+| Carrington event (1859) | $1 \times 10^{25}$ J | $1.1 \times 10^{-23}$ s | — | — |
 | **Stellar events** | | | | |
-| Solar-type star (10 Gyr total output) | $1.1 \times 10^{44}$ | 33.5 s | — | — |
-| Type Ia SN (calibration, 1987A-like) | $1 \times 10^{44}$ | 33 s | 33 s | 1.00 (calibration) |
-| SN 1987A | $1 \times 10^{44}$ | 33 s | — | — |
-| SGR 1806-20 magnetar giant flare (2004) | $1.4 \times 10^{45}$ | 14.8 min | — | — |
-| Magnetar (typical giant flare) | $1 \times 10^{45}$ | 9.6 min | — | — |
-| Short GRB (170817A-like) | $1 \times 10^{45}$ | 9.6 min | — | — |
-| Hypernova / collapsar | $1 \times 10^{46}$ | $1.25 \times 10^{4}$ | $1.26 \times 10^{4}$ | 0.99 |
-| Long GRB (typical) | $1 \times 10^{47}$ | $2.43 \times 10^{5}$ | $2.42 \times 10^{5}$ | 1.00 |
-| Long GRB (GRB 221009A, brightest ever) | $1 \times 10^{47}$ | $2.43 \times 10^{5}$ | — | — |
+| Solar-type star (10 Gyr total output) | $1.1 \times 10^{44}$ J | 33.5 s | — | — |
+| Type Ia SN (calibration, 1987A-like) | $1 \times 10^{44}$ J | 33 s | 33 s | 1.00 (calibration) |
+| SN 1987A | $1 \times 10^{44}$ J | 33 s | — | — |
+| SGR 1806-20 magnetar giant flare (2004) | $1.4 \times 10^{45}$ J | 14.8 min | — | — |
+| Magnetar (typical giant flare) | $1 \times 10^{45}$ J | 9.6 min | — | — |
+| Short GRB (170817A-like) | $1 \times 10^{45}$ J | 9.6 min | — | — |
+| Hypernova / collapsar | $1 \times 10^{46}$ J | $1.25 \times 10^{4}$ s | $1.26 \times 10^{4}$ s | 0.99 |
+| Long GRB (typical) | $1 \times 10^{47}$ J | $2.43 \times 10^{5}$ s | $2.42 \times 10^{5}$ s | 1.00 |
+| Long GRB (GRB 221009A, brightest ever) | $1 \times 10^{47}$ J | $2.43 \times 10^{5}$ s | — | — |
 | **TDE / SMBH** | | | | |
-| TDE (typical, optical) | $1 \times 10^{48}$ | $4.91 \times 10^{6}$ | — | — |
-| ASASSN-14li (TDE) | $1 \times 10^{49}$ | 2.6 yr | — | — |
-| TDE with jet (Swift J1644+57) | $1 \times 10^{53}$ | $1.32 \times 10^{13}$ | $1.26 \times 10^{13}$ | 1.04 |
+| TDE (typical, optical) | $1 \times 10^{48}$ J | $4.91 \times 10^{6}$ s | — | — |
+| ASASSN-14li (TDE) | $1 \times 10^{49}$ J | 2.6 yr | — | — |
+| TDE with jet (Swift J1644+57) | $1 \times 10^{53}$ J | $1.32 \times 10^{13}$ s | $1.26 \times 10^{13}$ s | 1.04 |
 | **AGN / Quasars** | | | | |
-| AGN flare (typical) | $1 \times 10^{55}$ | $4.98 \times 10^{15}$ | $3.16 \times 10^{15}$ | 1.58 |
-| PKS 2155-304 blazar flare (2006) | $1 \times 10^{55}$ | $4.98 \times 10^{15}$ | — | — |
-| Seyfert galaxy outburst | $1 \times 10^{56}$ | $2.76 \times 10^{17}$ | — | — |
-| 3C 273 quasar (typical) | $1 \times 10^{58}$ | $1.04 \times 10^{20}$ | — | — |
-| Bright blazar (TXS 0506+056, neutrino) | $1 \times 10^{59}$ | $2.03 \times 10^{22}$ | — | — |
-| Quasar outburst (3C 273 major) | $1 \times 10^{60}$ | $1.39 \times 10^{22}$ | $1.58 \times 10^{22}$ | 0.88 |
+| AGN flare (typical) | $1 \times 10^{55}$ J | $4.98 \times 10^{15}$ s | $3.16 \times 10^{15}$ s | 1.58 |
+| PKS 2155-304 blazar flare (2006) | $1 \times 10^{55}$ J | $4.98 \times 10^{15}$ s | — | — |
+| Seyfert galaxy outburst | $1 \times 10^{56}$ J | $2.76 \times 10^{17}$ s | — | — |
+| 3C 273 quasar (typical) | $1 \times 10^{58}$ J | $1.04 \times 10^{20}$ s | — | — |
+| Bright blazar (TXS 0506+056, neutrino) | $1 \times 10^{59}$ J | $2.03 \times 10^{22}$ s | — | — |
+| Quasar outburst (3C 273 major) | $1 \times 10^{60}$ J | $1.39 \times 10^{22}$ s | $1.58 \times 10^{22}$ s | 0.88 |
 
 **24 named events spanning 50+ orders of magnitude** (10⁹ to 10⁶⁰ J, $\tau$ from 10⁻⁴³ s to 10²² s).
 

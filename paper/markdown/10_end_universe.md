@@ -14,15 +14,15 @@ calibrated to a Type Ia supernova (E $\approx 10^{44}$ J) creating a 2D universe
 
 | D-event | Energy (J) | (D−1)-universe lifespan in D-view |
 |---|---|---|
-| 1 ton TNT → 2D | $4 \times 10^{9}$ | $10^{-37}$ $\mu$s |
-| X-class solar flare → 2D | $10^{25}$ | $10^{-17}$ $\mu$s |
-| **Type Ia SN → 2D** | **$10^{44}$** | **33 s** |
-| Hypernova → 2D | $10^{46}$ | 3.5 hr |
-| Long GRB → 2D | $10^{47}$ | 2.8 days |
-| BNS merger → 2D | $10^{53}$ | $4 \times 10^{5}$ yr |
-| AGN flare → 2D | $10^{55}$ | $10^{8}$ yr |
-| Quasar outburst → 2D | $10^{60}$ | $5 \times 10^{14}$ yr |
-| **4D cosmological event → 3D (us)** | **$10^{69}$** | **$\sim 2 \times 10^{26}$ yr** |
+| 1 ton TNT → 2D | $4 \times 10^{9}$ J | $10^{-37}$ $\mu$s |
+| X-class solar flare → 2D | $10^{25}$ J | $10^{-17}$ $\mu$s |
+| **Type Ia SN → 2D** | **$10^{44}$ J** | **33 s** |
+| Hypernova → 2D | $10^{46}$ J | 3.5 hr |
+| Long GRB → 2D | $10^{47}$ J | 2.8 days |
+| BNS merger → 2D | $10^{53}$ J | $4 \times 10^{5}$ yr |
+| AGN flare → 2D | $10^{55}$ J | $10^{8}$ yr |
+| Quasar outburst → 2D | $10^{60}$ J | $5 \times 10^{14}$ yr |
+| **4D cosmological event → 3D (us)** | **$10^{69}$ J** | **$\sim 2 \times 10^{26}$ yr** |
 
 The 4D cosmological event (rest energy of the observable 3+1D universe) gives a 3D universe that lives $\sim 2 \times 10^{26}$ yr in 4D view.
 

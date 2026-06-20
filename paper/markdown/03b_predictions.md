@@ -18,8 +18,8 @@ Each level of SIDC has the same structure:
 | 0D | 0 | — | none | — | — |
 | 1D | 1 | varies | 1 Planck time in 1D | $\gamma_{\rm 1D}$ | varies |
 | 2D | 2 | varies | $t_{\rm Pl,3+1D}$ in 2D frame | $\gamma_{2D}$ = $(E/E_{\rm Pl,2})^{1.29}$ | $10^{-63}$ s to $10^{8}$ yr |
-| 3+1D | 4 | $5.39 \times 10^{-44}$ | $t_{\rm Pl,4D}$ in 3+1D frame | $\gamma_{\rm 3}$+1D = ($E_{4D}$/ $E_{\rm Pl,4D}$)^1.29 | $2 \times 10^{26}$ yr (ours) |
-| 4D | 5 | $7.4 \times 10^{-28}$ | $t_{\rm Pl,5D}$ in 4D frame | $\gamma_{\rm 4D}$ = ($E_{\rm 5D}$/ $E_{\rm Pl,5D}$)^1.29 | varies |
+| 3+1D | 4 | $5.39 \times 10^{-44}$ s | $t_{\rm Pl,4D}$ in 3+1D frame | $\gamma_{\rm 3}$+1D = ($E_{4D}$/ $E_{\rm Pl,4D}$)^1.29 | $2 \times 10^{26}$ yr (ours) |
+| 4D | 5 | $7.4 \times 10^{-28}$ s | $t_{\rm Pl,5D}$ in 4D frame | $\gamma_{\rm 4D}$ = ($E_{\rm 5D}$/ $E_{\rm Pl,5D}$)^1.29 | varies |
 | 5D | 6 | varies | $t_{\rm Pl}$,6 in 5D frame | $\gamma_{\rm 5D}$ = (E_6D/ $E_{\rm Pl}$,6)^1.29 | varies |
 | ... | N | $t_{\rm Pl}$,N | $t_{\rm Pl}$,(N+1) in N-D frame | $\gamma_{\rm N}$ | varies |
 
@@ -204,11 +204,11 @@ $$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \fra
 
 | Event | E (J) | $\gamma_{2D}$ | Relative death rate (1/ $\gamma_{2D}$) |
 |-------|-------|------|------------------------------|
-| LHC (14 TeV) | $2.24 \times 10^{-15}$ | $1.3 \times 10^{-31}$ | $7.7 \times 10^{30}$ (HIGH) |
-| 1 ton TNT | $4 \times 10^{9}$ | 2.5 | 0.4 |
-| SN ($10^{44}$ J) | $6 \times 10^{44}$ | $6 \times 10^{44}$ | $1.7 \times 10^{-45}$ (LOW) |
-| BNS merger | $10^{53}$ | $2.4 \times 10^{56}$ | $4.1 \times 10^{-57}$ (LOW) |
-| AGN outburst | $10^{55}$ | $9.2 \times 10^{58}$ | $1.1 \times 10^{-59}$ (LOW) |
+| LHC (14 TeV) | $2.24 \times 10^{-15}$ J | $1.3 \times 10^{-31}$ | $7.7 \times 10^{30}$ (HIGH) |
+| 1 ton TNT | $4 \times 10^{9}$ J | 2.5 | 0.4 |
+| SN ($10^{44}$ J) | $6 \times 10^{44}$ J | $6 \times 10^{44}$ | $1.7 \times 10^{-45}$ (LOW) |
+| BNS merger | $10^{53}$ J | $2.4 \times 10^{56}$ | $4.1 \times 10^{-57}$ (LOW) |
+| AGN outburst | $10^{55}$ J | $9.2 \times 10^{58}$ | $1.1 \times 10^{-59}$ (LOW) |
 
 **3.23.2 Prediction 2: 2D universe death GW spectrum.**
 
@@ -793,13 +793,13 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz-$\mu$Hz band.
 
 | Event | E (J) | $\tau_{2D}$ (s) | f_2D (Hz) | Detector |
 |-------|-------|----------|-----------|----------|
-| Core-collapse SN | $10^{44}$ | 33 | 0.03 | LISA |
-| Type Ia SN | $10^{44}$ | 33 | 0.03 | LISA |
-| BNS merger | $10^{47}$ | $2.4 \times 10^{5}$ | $4.2 \times 10^{-6}$ | PTA |
-| Long GRB | $10^{47}$ | $2.4 \times 10^{5}$ | $4.2 \times 10^{-6}$ | PTA |
-| TDE | $10^{48}$ | $4.6 \times 10^{6}$ | $2.2 \times 10^{-7}$ | PTA |
-| AGN flare | $10^{50}$ | $1.8 \times 10^{9}$ | $5.7 \times 10^{-10}$ | PTA |
-| Primordial BH merger | $10^{52}$ | $6.7 \times 10^{11}$ | $1.5 \times 10^{-12}$ | PTA |
+| Core-collapse SN | $10^{44}$ J | 33 s | 0.03 Hz | LISA |
+| Type Ia SN | $10^{44}$ J | 33 s | 0.03 Hz | LISA |
+| BNS merger | $10^{47}$ J | $2.4 \times 10^{5}$ | $4.2 \times 10^{-6}$ Hz | PTA |
+| Long GRB | $10^{47}$ J | $2.4 \times 10^{5}$ | $4.2 \times 10^{-6}$ Hz | PTA |
+| TDE | $10^{48}$ J | $4.6 \times 10^{6}$ | $2.2 \times 10^{-7}$ Hz | PTA |
+| AGN flare | $10^{50}$ J | $1.8 \times 10^{9}$ | $5.7 \times 10^{-10}$ Hz | PTA |
+| Primordial BH merger | $10^{52}$ J | $6.7 \times 10^{11}$ | $1.5 \times 10^{-12}$ Hz | PTA |
 
 **Cumulative GW energy density**: For each event type, integrate
 over cosmic history:

@@ -52,14 +52,14 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 
 | 3D event | $E_{\rm 3D}$ (J) | $\tau_{\rm obs}$ (s) | ratio ($\tau_{\rm pred}$/ $\tau_{\rm obs}$) |
 |---|---|---|---|
-| 1 ton TNT | $4\times 10^{9}$ | $1\times 10^{-43}$ | 1.51 |
-| X-class solar flare | 1×10²⁵ | 1×10⁻²³ | 1.07 |
-| Type Ia SN | 1×10⁴⁴ | 33 (calibration) | 1.00 |
-| Hypernova | 1×10⁴⁶ | 1.26×10⁴ | 0.99 |
-| Long GRB | 1×10⁴⁷ | 2.42×10⁵ | 1.00 |
-| BNS merger | 1×10⁵³ | 1.26×10¹³ | 1.04 |
-| AGN flare | 1×10⁵⁵ | 3.16×10¹⁵ | 1.58 |
-| Quasar outburst | 1×10⁶⁰ | 1.58×10²² | 0.88 |
+| 1 ton TNT | $4\times 10^{9}$ J | $1\times 10^{-43}$ | 1.51 |
+| X-class solar flare | 1×10²⁵ J | 1×10⁻²³ s | 1.07 |
+| Type Ia SN | 1×10⁴⁴ J | 33 (calibration) | 1.00 |
+| Hypernova | 1×10⁴⁶ J | 1.26×10⁴ s | 0.99 |
+| Long GRB | 1×10⁴⁷ J | 2.42×10⁵ s | 1.00 |
+| BNS merger | 1×10⁵³ J | 1.26×10¹³ s | 1.04 |
+| AGN flare | 1×10⁵⁵ J | 3.16×10¹⁵ s | 1.58 |
+| Quasar outburst | 1×10⁶⁰ J | 1.58×10²² s | 0.88 |
 
 **8/8 match within factor 1.6** (median ratio 1.024). Span: 10⁻⁴³ s to 10²² s = 65 orders of magnitude.
 

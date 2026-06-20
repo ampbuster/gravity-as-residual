@@ -465,13 +465,13 @@ where $\alpha$ = 1.29 from the energy-scaling rule. The $E^1$ factor is from the
 
 | Event | E (J) | $E^{2.29}$ / $E_{SN}^{2.29}$ | Old step (E < $E_{\rm crit}$?) | Result |
 |-------|-------|------------------|------------------------|--------|
-| Solar flare (max) | $10^{26}$ | $10^{-41}$ | BELOW (no SIDC) | negligible **[PASS]** |
-| AGC 114905 SF | $10^{30}$ | $10^{-31}$ | BELOW (no SIDC) | negligible **[PASS]** |
-| Sun total over 4.6 Gyr | $5 \times 10^{43}$ | 0.20 | ABOVE (full SIDC) | comparable to 1 SN |
-| Typical SN (kinetic) | $10^{44}$ | 1.00 | ABOVE (full SIDC) | dominant **[PASS]** |
-| GRB (long) | $10^{47}$ | $10^{7}$ | ABOVE (full SIDC) | super-dominant |
-| BNS merger | $10^{53}$ | $10^{20}$ | ABOVE | super-super-dominant |
-| AGN outburst | $10^{55}$ | $10^{25}$ | ABOVE | SIDC-on |
+| Solar flare (max) | $10^{26}$ J | $10^{-41}$ | BELOW (no SIDC) | negligible **[PASS]** |
+| AGC 114905 SF | $10^{30}$ J | $10^{-31}$ | BELOW (no SIDC) | negligible **[PASS]** |
+| Sun total over 4.6 Gyr | $5 \times 10^{43}$ J | 0.20 | ABOVE (full SIDC) | comparable to 1 SN |
+| Typical SN (kinetic) | $10^{44}$ J | 1.00 | ABOVE (full SIDC) | dominant **[PASS]** |
+| GRB (long) | $10^{47}$ J | $10^{7}$ | ABOVE (full SIDC) | super-dominant |
+| BNS merger | $10^{53}$ J | $10^{20}$ | ABOVE | super-super-dominant |
+| AGN outburst | $10^{55}$ J | $10^{25}$ | ABOVE | SIDC-on |
 
 For all 5 dwarf cases (Sun, DF2, DF4, FCC 224, AGC 114905), the smooth function gives the *same qualitative answer* as the old step function: low-energy events contribute negligibly. For high-energy events (SN, GRB, AGN), the smooth function gives a smooth ordering (AGN > BNS > GRB > SN) rather than a binary "above/below" classification.
 
@@ -879,10 +879,10 @@ The earlier `HubbleTensionCalculator` class that implemented this formula has be
 
 | Cluster | Methods | $H_0$ (km/s/Mpc) |
 |---|---|---|
-| Cluster 1 (local) | SH0ES, H0LiCOW, megamasers, SBF, Miras, Tully-Fisher | ~73 |
-| TRGB | Tip of Red Giant Branch (Freedman+, JWST) | 69.8 ± 1.9 |
-| CMB | Planck, ACT, SPT, BAO+BBN | ~67–68 |
-| Standard sirens | Gravitational waves (LIGO/Virgo) | 70 ± 12 |
+| Cluster 1 (local) | SH0ES, H0LiCOW, megamasers, SBF, Miras, Tully-Fisher | ~73 km/s/Mpc |
+| TRGB | Tip of Red Giant Branch (Freedman+, JWST) | 69.8 ± 1.9 km/s/Mpc |
+| CMB | Planck, ACT, SPT, BAO+BBN | ~67–68 km/s/Mpc |
+| Standard sirens | Gravitational waves (LIGO/Virgo) | 70 ± 12 km/s/Mpc |
 
 SIDC's principle (4D event antigravity as uniform contribution + 2D universe gravity as local active/cumulative balance) is **qualitatively consistent with $H_0 = 70$ ± 3 across all measurements**, but the specific active boost and cumulative drag require a 2D CFT calculation to derive from first principles.
 
