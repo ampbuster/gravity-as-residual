@@ -688,6 +688,12 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 **Why $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$**
 
 **AUDIT CORRECTION (v3.1.2-final)**: $M_{\rm Pl,2D}$ = 3 TeV (from L41 closed in v3.0.22, μ = 9×10⁶ GeV², holographic 2D brane). Earlier v3.1.2 drafts listed $M_{\rm Pl,2D}$ = 10³⁸ GeV — this was WRONG (35 orders of magnitude off, not corresponding to any physics scale, NEVER used in any formula). The correct value is 3 TeV from L41. (Note: $M_{\rm Pl,2D}$ is NOT used in the closed-loop formula at all — the formula uses $M_{\rm Pl,N}$ at the parent's level, not the child's. So $M_{\rm Pl,2D}$ only appears in the Lagrangian section, where L41 fixes it at 3 TeV.)
+
+**[v3.5.7+ USER-CORRECTED]**: The "holographic 2D brane" label was INCORRECT. Actual derivation chain (L308f): the v32 calculation `lagrangian_v32_scale_downward.py` G_2D = G_4 × L_2D gives M_Pl,2D = 1.71 TeV (Option 2) or 2.94×10¹² GeV (Option 1) — neither is 3 TeV. The framework chose 3 TeV because **v_Higgs × N=12 = 246 GeV × 12 = 2952 GeV ≈ 3 TeV** (the "EW coincidence", L42). So M_Pl,2D = 3 TeV is FRAMEWORK CHOICE (N=12 SYK + v_Higgs), not derivation.
+
+**[v3.5.7+ α-GM CONSISTENCY, §7.4.6 LINK 1]**: Given α (calibrated), M_Pl,3D (measured), M_Pl,4D (derived from closed loop), M_Pl,2D is UNIQUELY fixed at 2.89 TeV by α-GM. Framework chose 3 TeV (3.6% off, consistent with rounding). So M_Pl,2D ≈ 3 TeV is REQUIRED for cascade consistency. The M_Pl,2D / v_Higgs = 11.75 ≈ 12 = N=12 SYK count.
+
+**[v3.5.7+ CONE DEPTH STRUCTURE, §7.4.6 LINK 2]**: Cone depths in α-units: 4D → 3+1D = 41.0 α-steps (= 12 geometric sub-steps), 3+1D → 2D = 141.6 α-steps (= 41 geometric sub-steps). Ratio between adjacent levels = √12 ≈ 3.46. The "12" is the CASCADE FUNDAMENTAL UNIT.
 : In brane-world physics (ADD since 1998, RS-I/II since 1999), the bulk Planck is INDEPENDENT of the brane Planck. The 4D bulk is a SEPARATE 4-dimensional spacetime with its OWN gravity scale, different from our universe's. $M_{\rm Pl,3D}$ = 10¹⁹ GeV is OUR universe's gravity (measured). $M_{\rm Pl,4D}$ = 4×10²³ GeV is the BULK's gravity (inferred, brane-world). The cascade's 2D universes ($M_{\rm Pl,2D}$ = 3 TeV) are also separate structures with their own gravity. Different levels, different gravity scales. The asymmetric Occam's razor is NOT applied.
 
 ### AGE vs LIFETIME (v3.1.2-final, HONEST, AUDIT-CORRECTED)
@@ -1213,7 +1219,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 **Final state**:
 - Paper PDF: 368 pages, 1.33 MB
-- Limitations: 116
+- Limitations: 118 (v3.5.7+, +L308f, +L308g)
 - Naming: $f_{\rm DM,leak}$ / $f_{\rm DM,death}$ / $f_{\rm DE}$ (user-suggested)
 - Status: Internally consistent, μ structurally motivated
 

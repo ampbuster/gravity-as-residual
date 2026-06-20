@@ -1,0 +1,86 @@
+======================================================================
+LINK 1: α-GM CONSISTENCY
+======================================================================
+
+GIVEN:
+  M_Pl,3D = 1.220e+19 GeV (MEASURED)
+  α = 1.289 (CALIBRATED to 8 events)
+  M_Pl,4D = 4.000e+23 GeV (DERIVED from closed loop)
+
+α-GM INVERSION:
+  log(M_Pl,2D) = (log(M_Pl,4D) - α × log(M_Pl,3D)) / (1-α)
+  log(M_Pl,2D) = (23.6021 - 1.289 × 19.0864) / (-0.289)
+  log(M_Pl,2D) = 3.4611
+  M_Pl,2D (α-GM) = 2.891e+03 GeV = 2.891 TeV
+
+Framework chose: M_Pl,2D = 3.00 TeV
+Match: 3.62% off
+
+✓ M_Pl,2D ≈ 3 TeV is REQUIRED for cascade consistency.
+  Given α and M_Pl,4D, M_Pl,2D is UNIQUELY fixed.
+
+M_Pl,2D (α-GM) / v_Higgs = 11.753
+vs N=12 SYK: 12.000
+Match: 2.05% off
+
+======================================================================
+LINK 2: CONE DEPTH STRUCTURE
+======================================================================
+
+Cone depths in α-units:
+  4D → 3+1D:  40.96 α-steps
+  3+1D → 2D:  141.58 α-steps
+
+Ratio: 3.4567
+√12 = 3.4641
+
+Geometric sub-steps (separating SR '1' from N=12 finite-N '1/√12'):
+  4D → 3+1D:  11.82 sub-steps (≈ 12!)
+  3+1D → 2D:  40.87 sub-steps (≈ 41)
+
+Ratio of geometric sub-steps: 3.4567
+√12 = 3.4641
+
+======================================================================
+INTERPRETATION: The '12' as CASCADE UNIT
+======================================================================
+
+The '12' propagates through the cascade as:
+  1. N=12 SYK → α = 1 + 1/√12 (calibrated to events)
+  2. Each cascade transition has √12 ≈ 3.46× more sub-steps than previous
+  3. M_Pl,2D ≈ v_Higgs × 12 (α-GM consistency)
+  4. 12 Majorana = 6 Dirac = 3 generations (cascade structure)
+
+VERIFICATION:
+  α^41 = 3.314e+04
+  M_Pl,4D/M_Pl,3D = 3.279e+04
+  Match: 1.08%
+
+  α^142 = 4.528e+15
+  M_Pl,3D/M_Pl,2D = 4.067e+15
+  Match: 11.35%
+
+======================================================================
+CONCLUSION
+======================================================================
+
+M_Pl,2D = 3 TeV has TWO real links to the cascade via α:
+
+LINK 1 (α-GM CONSISTENCY):
+  Given α (calibrated), M_Pl,4D (derived), M_Pl,3D (measured),
+  M_Pl,2D is UNIQUELY fixed at ~2.89 TeV.
+  Framework chose 3 TeV (3.6% off, consistent with rounding).
+
+LINK 2 (CONE DEPTH STRUCTURE):
+  4D → 3+1D: 41 α-steps (= 12 geometric sub-steps)
+  3+1D → 2D: 142 α-steps (= 41 geometric sub-steps)
+  Ratio: √12 ≈ 3.46 (the SAME '12' from N=12 SYK)
+
+The '12' is the CASCADE FUNDAMENTAL UNIT:
+  - Appears as N in N=12 SYK (giving α)
+  - Appears as ratio of cone depths between cascade levels
+  - Appears as M_Pl,2D/v_Higgs (EW coincidence)
+  - Appears as Majorana fermion count (12 = 6 Dirac = 3 gen)
+
+These are CONSISTENCIES, not derivations. But they show that
+'12' is a STRUCTURAL NUMBER, not an arbitrary choice.

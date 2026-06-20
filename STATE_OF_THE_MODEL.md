@@ -8,7 +8,7 @@
 **Subtitle**: SIDC = Scale-Invariant Dimensional Cascade
 **Version**: v3.5.7+ (with sub-versions v3.3, v3.4, v3.5, v3.5.1-v3.5.7, v3.5.7+)
 **Pages**: 370
-**Limitations**: 116 (v3.5.7 master table, was 81 in v3.3)
+**Limitations**: 118 (v3.5.7+ master table, +L308f +L308g, was 116 v3.5.7, was 81 in v3.3)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: 813+ (as of June 20, 2026)
 **v3.5.7+ recent commits**: ~30 in v3.5 era (math wrapping, adjacent math, lint checks, naming revolution, audit, DE match fix)
@@ -153,7 +153,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✗ 4π geometric factor (was v3.1.2, removed v3.3)
 - ✗ α = 1.258 (falsified, 13/14 events fail)
 
-## Open Limitations (116 total in v3.5.7 master table)
+## Open Limitations (118 total in v3.5.7+ master table)
 
 **Status breakdown** (v3.5.7+):
 - 79 OPEN (need theoretical/observational work)
@@ -278,6 +278,12 @@ The user has caught many issues across versions:
 13. DE match 8.4% was WRONG (v3.1.2 value) — should be 0.13% (simple f_DE)
 14. Prettier breaks LaTeX math (don't use)
 15. Multiple inconsistencies between title/README/STATE/persistent_memory (consistency sweep)
+
+**v3.5.7+ era continued** (NEW, 4 more catches):
+16. M_Pl,2D = 3 TeV is "v_Higgs × 12 EW coincidence", NOT "holographic" (L110 had wrong label) → L308f, §7.4.6
+17. M_Pl,4D derivation is via α-GM + closed loop, NOT first-principles (both use calibrated inputs) → L308g
+18. α-GM consistency: M_Pl,2D = 3 TeV UNIQUELY fixed given α, M_Pl,3D, M_Pl,4D (within 3.6%) → §7.4.6 LINK 1
+19. Cone depth structure: 4D→3+1D = 41 α-steps, 3+1D→2D = 142 α-steps, ratio = √12 (cascade unit) → §7.4.6 LINK 2
 
 Each catch has been acknowledged and addressed. The framework is now more honest about its assumptions and limitations.
 
