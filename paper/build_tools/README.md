@@ -32,7 +32,7 @@ Step 8: fix_math_spacing.py       (fix spacing inside math, sensitive to $ place
   latter wraps Greek in math but leaves subscript outside (creates
   `$\tau$_obs` from `τ_obs`). This is a "broken-from-prior-fix" pattern.
 
-## fix_broken_markdown.py patterns (1-21)
+## fix_broken_markdown.py patterns (1-23)
 
 1. `** $math` → `**$math` (bold + space + math)
 2. `( $math` → `($math` (open paren + space + math)
@@ -55,6 +55,8 @@ Step 8: fix_math_spacing.py       (fix spacing inside math, sensitive to $ place
 19b. `)^$\alpha$` → `)$^{\alpha}$` (caret outside math, preserve $ count)
 20b. `)^($X$)` → `)$^{X}$` (nested parens around math, preserve $ count)
 21. `E_Pl,N` → `$E_{\rm Pl,N}$` (wrap in math, lookbehind for $)
+22. `digit$\math$` → `$digit\math$` (e.g., `4$\pi$` → `$4\pi$`, `1$\sigma$` → `$1\sigma$`)
+23. e-notation (4e9, 1.5e-43) → `$4 \times 10^{9}$` etc. (works in tables too)
 
 ## Common Issues Table
 

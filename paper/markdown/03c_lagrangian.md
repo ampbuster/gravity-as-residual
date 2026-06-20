@@ -502,7 +502,7 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 - 4D event proper duration: T_4D_proper = $\tau_{\rm 4D}$ / $\gamma$ ~ 10⁻²⁰ s
 - 3+1D universe's current age (13.8 Gyr) is in the 3+1D's own frame
 
-**The 4$\pi$ geometric factor (preserved from v3.1.2)**: The 4$\pi$ factor at 3D→4D continuous leakage is empirically verified (~1.7% match to DE). It is specific to the 3D→4D boundary, not universal. The 14-event $M^{\alpha}$ fit at 2D level requires $\alpha$ = 1.289 (NOT 1.258 with 4$\pi$ hidden). See §3.71 for the cleanest unification.
+**The $4\pi$ geometric factor (preserved from v3.1.2)**: The $4\pi$ factor at 3D→4D continuous leakage is empirically verified (~1.7% match to DE). It is specific to the 3D→4D boundary, not universal. The 14-event $M^{\alpha}$ fit at 2D level requires $\alpha$ = 1.289 (NOT 1.258 with $4\pi$ hidden). See §3.71 for the cleanest unification.
 
 **Three independent $M_{\rm Pl}$ at three levels (Scenario X)**:
 
@@ -517,9 +517,9 @@ The asymmetry is justified by their different physical roles: 2D brane-world, 3+
 **What remains uncertain** (limitations):
 - L143: Sub-universe identification — RESOLVED (energetic 4D-bulk events, not 3+1D galaxies; 4D-bulk mechanism UNKNOWN)
 - L144: N_sub and the universe's total LIFETIME are UNKNOWN (free parameters) — OPEN
-- L149: 4$\pi$ asymmetry between 3D→4D and other transitions — RESOLVED (specific to 3D→4D)
+- L149: $4\pi$ asymmetry between 3D→4D and other transitions — RESOLVED (specific to 3D→4D)
 
-**Legacy content (removed from this section, archived to `paper/legacy/`)**: Earlier drafts had a "DUAL FRAMING" presenting $\alpha$ = 1.258 (with 4$\pi$ hidden) as an alternative to $\alpha$ = 1.289. This was REMOVED because $\alpha$ = 1.258 fails the 14-event $M^{\alpha}$ fit (281% deviation for solar flares, 52% for AGN, etc.). Only $\alpha$ = 1.289 survives. See `paper/legacy/v31_60_4_old.md` for the historical draft.
+**Legacy content (removed from this section, archived to `paper/legacy/`)**: Earlier drafts had a "DUAL FRAMING" presenting $\alpha$ = 1.258 (with $4\pi$ hidden) as an alternative to $\alpha$ = 1.289. This was REMOVED because $\alpha$ = 1.258 fails the 14-event $M^{\alpha}$ fit (281% deviation for solar flares, 52% for AGN, etc.). Only $\alpha$ = 1.289 survives. See `paper/legacy/v31_60_4_old.md` for the historical draft.
 
 **Files**: `calculations/v31_multi_universe_alpha.py` (multi-universe calculation, kept for reference), `calculations/v31_scenario_X.py` (Scenario X verification, current adopted)
 
@@ -956,36 +956,36 @@ to the **4D event → 3D universe** level using the same formula.
 | 3D event | $E_{\rm 3D}$ (J) | T_pred (s) | T_paper (s) | ratio |
 |----------|----------|------------|-------------|-------|
 | **Terrestrial / man-made** | | | | |
-| 1 ton TNT | 4e9 | 1.5e-43 | 1e-43 | 1.51 |
-| Hiroshima (Little Boy, 15 kt) | 6.3e13 | 3.5e-38 | — | — |
-| Tsar Bomba (50 MT, largest nuke) | 2.1e17 | 1.2e-33 | — | — |
-| Tunguska (1908) | 1e17 | 4.7e-34 | — | — |
-| Krakatoa (1883) | 8.4e18 | 1.4e-31 | — | — |
-| Toba supereruption (~74 kya) | 1e21 | 6.7e-29 | — | — |
-| Chicxulub impactor (dinosaur killer) | 1e23 | 2.5e-26 | — | — |
-| X-class solar flare (typical max) | 1e25 | 1.1e-23 | 1e-23 | 1.07 |
-| Carrington event (1859) | 1e25 | 1.1e-23 | — | — |
+| 1 ton TNT | $4 \times 10^{9}$ | $1.5 \times 10^{-43}$ | $1 \times 10^{-43}$ | 1.51 |
+| Hiroshima (Little Boy, 15 kt) | $6.3 \times 10^{13}$ | $3.5 \times 10^{-38}$ | — | — |
+| Tsar Bomba (50 MT, largest nuke) | $2.1 \times 10^{17}$ | $1.2 \times 10^{-33}$ | — | — |
+| Tunguska (1908) | $1 \times 10^{17}$ | $4.7 \times 10^{-34}$ | — | — |
+| Krakatoa (1883) | $8.4 \times 10^{18}$ | $1.4 \times 10^{-31}$ | — | — |
+| Toba supereruption (~74 kya) | $1 \times 10^{21}$ | $6.7 \times 10^{-29}$ | — | — |
+| Chicxulub impactor (dinosaur killer) | $1 \times 10^{23}$ | $2.5 \times 10^{-26}$ | — | — |
+| X-class solar flare (typical max) | $1 \times 10^{25}$ | $1.1 \times 10^{-23}$ | $1 \times 10^{-23}$ | 1.07 |
+| Carrington event (1859) | $1 \times 10^{25}$ | $1.1 \times 10^{-23}$ | — | — |
 | **Stellar events** | | | | |
-| Solar-type star (10 Gyr total output) | 1.1e44 | 33.5 | — | — |
-| Type Ia SN (calibration, 1987A-like) | 1e44 | 33 | 33 | 1.00 (calibration) |
-| SN 1987A | 1e44 | 33 | — | — |
-| SGR 1806-20 magnetar giant flare (2004) | 1.4e45 | 14.8 min | — | — |
-| Magnetar (typical giant flare) | 1e45 | 9.6 min | — | — |
-| Short GRB (170817A-like) | 1e45 | 9.6 min | — | — |
-| Hypernova / collapsar | 1e46 | 1.25e4 | 1.26e4 | 0.99 |
-| Long GRB (typical) | 1e47 | 2.43e5 | 2.42e5 | 1.00 |
-| Long GRB (GRB 221009A, brightest ever) | 1e47 | 2.43e5 | — | — |
+| Solar-type star (10 Gyr total output) | $1.1 \times 10^{44}$ | 33.5 | — | — |
+| Type Ia SN (calibration, 1987A-like) | $1 \times 10^{44}$ | 33 | 33 | 1.00 (calibration) |
+| SN 1987A | $1 \times 10^{44}$ | 33 | — | — |
+| SGR 1806-20 magnetar giant flare (2004) | $1.4 \times 10^{45}$ | 14.8 min | — | — |
+| Magnetar (typical giant flare) | $1 \times 10^{45}$ | 9.6 min | — | — |
+| Short GRB (170817A-like) | $1 \times 10^{45}$ | 9.6 min | — | — |
+| Hypernova / collapsar | $1 \times 10^{46}$ | $1.25 \times 10^{4}$ | $1.26 \times 10^{4}$ | 0.99 |
+| Long GRB (typical) | $1 \times 10^{47}$ | $2.43 \times 10^{5}$ | $2.42 \times 10^{5}$ | 1.00 |
+| Long GRB (GRB 221009A, brightest ever) | $1 \times 10^{47}$ | $2.43 \times 10^{5}$ | — | — |
 | **TDE / SMBH** | | | | |
-| TDE (typical, optical) | 1e48 | 4.91e6 | — | — |
-| ASASSN-14li (TDE) | 1e49 | 2.6 yr | — | — |
-| TDE with jet (Swift J1644+57) | 1e53 | 1.32e13 | 1.26e13 | 1.04 |
+| TDE (typical, optical) | $1 \times 10^{48}$ | $4.91 \times 10^{6}$ | — | — |
+| ASASSN-14li (TDE) | $1 \times 10^{49}$ | 2.6 yr | — | — |
+| TDE with jet (Swift J1644+57) | $1 \times 10^{53}$ | $1.32 \times 10^{13}$ | $1.26 \times 10^{13}$ | 1.04 |
 | **AGN / Quasars** | | | | |
-| AGN flare (typical) | 1e55 | 4.98e15 | 3.16e15 | 1.58 |
-| PKS 2155-304 blazar flare (2006) | 1e55 | 4.98e15 | — | — |
-| Seyfert galaxy outburst | 1e56 | 2.76e17 | — | — |
-| 3C 273 quasar (typical) | 1e58 | 1.04e20 | — | — |
-| Bright blazar (TXS 0506+056, neutrino) | 1e59 | 2.03e22 | — | — |
-| Quasar outburst (3C 273 major) | 1e60 | 1.39e22 | 1.58e22 | 0.88 |
+| AGN flare (typical) | $1 \times 10^{55}$ | $4.98 \times 10^{15}$ | $3.16 \times 10^{15}$ | 1.58 |
+| PKS 2155-304 blazar flare (2006) | $1 \times 10^{55}$ | $4.98 \times 10^{15}$ | — | — |
+| Seyfert galaxy outburst | $1 \times 10^{56}$ | $2.76 \times 10^{17}$ | — | — |
+| 3C 273 quasar (typical) | $1 \times 10^{58}$ | $1.04 \times 10^{20}$ | — | — |
+| Bright blazar (TXS 0506+056, neutrino) | $1 \times 10^{59}$ | $2.03 \times 10^{22}$ | — | — |
+| Quasar outburst (3C 273 major) | $1 \times 10^{60}$ | $1.39 \times 10^{22}$ | $1.58 \times 10^{22}$ | 0.88 |
 
 **24 named events spanning 50+ orders of magnitude** (10⁹ to 10⁶⁰ J, $\tau$ from 10⁻⁴³ s to 10²² s).
 

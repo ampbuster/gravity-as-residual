@@ -191,6 +191,27 @@ def fix_broken_markdown(content):
     changes += n
     content = new_content
 
+    # Pattern 22: digit$\math$ → $digit\math$ (number before math)
+    # E.g., 4$\pi$ → $4\pi$, 1$\sigma$ → $1\sigma$, 2$\pi$ → $2\pi$
+    new_content, n = re.subn(
+        r'(\d+)\$\\([a-zA-Z]+)\$',
+        lambda m: f'${m.group(1)}\\{m.group(2)}$',
+        content
+    )
+    changes += n
+    content = new_content
+
+    # Pattern 23: e-notation in tables → math form
+    # E.g., 4e9 → $4 \times 10^{9}$, 1.5e-43 → $1.5 \times 10^{-43}$
+    # Skips if already inside $...$ math
+    new_content, n = re.subn(
+        r'(?<![\w$\.])(\d+(?:\.\d+)?)[eE]([+-]?\d+)(?![\w])',
+        lambda m: f'${m.group(1)} \\times 10^{{{m.group(2)}}}$',
+        content
+    )
+    changes += n
+    content = new_content
+
     return content, changes
 
 

@@ -13,7 +13,7 @@
 **Limitations:** 128 honest (was 116 in v3.5.7, +12 user-driven L308f-L308q)
 
 **v3.5.8 BREAKTHROUGHS** (this release):
-- **MCMC parameter search** (L308m): 4/9 params observationally pinned ($\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate converge within 0.5$\sigma$)
+- **MCMC parameter search** (L308m): 4/9 params observationally pinned ($\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate converge within 0.$5\sigma$)
 - **$\alpha$ = 1 + 1/√12 FIRST-PRINCIPLES** (L308n, BREAKTHROUGH): 0.025% match with framework
 - **L43 (Lagrangian skeleton → $\alpha$)**: **OPEN → PARTIAL**
 - **"12" is the cascade fundamental unit** (deepest insight):
@@ -25,7 +25,7 @@
 
 **v3.5.8 STRUCTURAL DISCOVERIES**:
 - **$M_{\rm Pl,2D}$ & $M_{\rm Pl,4D}$ honest origins** (L308f, L308g): not first-principles derived (USER-CAUGHT)
-- **Boundary sphere structure** (L308i, USER-DISCOVERED): 2$\pi$ (S¹) at 2D-3D, 4$\pi$ (S²) at 3D-4D
+- **Boundary sphere structure** (L308i, USER-DISCOVERED): $2\pi$ (S¹) at 2D-3D, $4\pi$ (S²) at 3D-4D
 - **Geometric peak at n=6** (L308k, USER-CORRECTED): S⁶ surface area 33.07, cone could extend to 7D/8D
 - **Cone natural range** (L308l, USER-DIRECTED): n=1 to n≈17
 - **N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ linear scaling** (L308o, USER-INSIGHT): no longer free parameter
@@ -37,7 +37,7 @@
 
 **v3.3 HIGHLIGHTS** (HISTORICAL, June 2026): Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), $\gamma$-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), $f_{\rm back}$ UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D= $v_{\rm Higgs}$ DROPPED, $M_{\rm Pl,4D}$ = 4×10²³ GeV via $\alpha$-weighted GM (DERIVED). The 5/27/68 split matches observation via calibrated event rate. **DE matches within 0.13%** (simple $f_{\rm DE}$ formula: $f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl,3D}$^4 with $\tau_{\rm 4D}$ calibrated; see §3.67b). HISTORICAL v3.3 era: 382 pages, 81 limitations.
 
-**v3.2 HIGHLIGHTS**: Equal-Universe Principle (§3.62 REVISED), Bilateral Democratic Cosmology (§3.62), Time-Dilation Insight (continuous leakage observability), 4$\pi$ status clarified (KEPT at 3D→4D, REMOVED as universal), event count audit (8/8 in §10.1, not 14/14). 356 pages, 81 limitations.
+**v3.2 HIGHLIGHTS**: Equal-Universe Principle (§3.62 REVISED), Bilateral Democratic Cosmology (§3.62), Time-Dilation Insight (continuous leakage observability), $4\pi$ status clarified (KEPT at 3D→4D, REMOVED as universal), event count audit (8/8 in §10.1, not 14/14). 356 pages, 81 limitations.
 
 **v3.1 HIGHLIGHTS**: Full Lagrangian for SIDC (§3.62.6), Inception cone picture (§3.67), 5D/6D extension (§3.68), 9D = string theory connection (§3.68), SIDC-SM connection (§3.69). **L41, L42 CLOSED** (only 2 free parameters remain). **$M_{\rm Pl,9D} \approx v_{\rm Higgs}$ within 1.3%** identifies 9D with superstring theory's critical dimension.
 

@@ -68,7 +68,7 @@ The 4D sees the 3D as a *very brief* event ($2 \times 10^{26}$ yr is $10^{-33}$ 
 
 If M_{Pl,4} ~ TeV and the 3D universe is approaching its end in 3D internal time, several *observable* signatures should be present in current and near-future data:
 
-**(a) DESI's evolving DE is the first hint.** The Dark Energy Spectroscopic Instrument DR2 (Adame+ 2025, arXiv:2503.14738) detects a 3.5$\sigma$ preference for *evolving* dark energy, with w₀ = −0.83 ± 0.16 and wₐ = −0.75 ± 0.30. In SIDC + TeV-M_{Pl,4} picture, this is the *expected* signature: the 4D's gravity is *not* a perfect cosmological constant because the 4D's phase is slowly evolving toward the "flip" that ends the 3D universe. Confirmation of DESI's evolving DE at >5$\sigma$ would be the first direct evidence for SIDC's end-of-universe picture.
+**(a) DESI's evolving DE is the first hint.** The Dark Energy Spectroscopic Instrument DR2 (Adame+ 2025, arXiv:2503.14738) detects a 3.$5\sigma$ preference for *evolving* dark energy, with w₀ = −0.83 ± 0.16 and wₐ = −0.75 ± 0.30. In SIDC + TeV-M_{Pl,4} picture, this is the *expected* signature: the 4D's gravity is *not* a perfect cosmological constant because the 4D's phase is slowly evolving toward the "flip" that ends the 3D universe. Confirmation of DESI's evolving DE at >$5\sigma$ would be the first direct evidence for SIDC's end-of-universe picture.
 
 **(b) Declining star formation rate.** The cosmic star formation rate density peaked at z ~ 2 (~10 Gyr ago) and has been *declining* ever since. Madau & Dickinson (2014) and recent updates show the SFR density is now ~10% of its peak value. In SIDC picture, this decline is *not* just the natural consequence of gas depletion; it is also a *signature* of the 3D universe approaching its end (less energetic events → fewer 2D universe creation events → less back-projected DM scaffolding for new star formation).
 
@@ -82,7 +82,7 @@ If M_{Pl,4} ~ TeV and the 3D universe is approaching its end in 3D internal time
 
 SIDC + energy-scaling derivation gives a *specific, falsifiable* constraint:
 
-> **If DESI's evolving DE is confirmed at >5$\sigma$ AND the cosmic SFR density continues to decline AND w(z) is measured to decrease with redshift, then SIDC + TeV-M_{Pl,4} end-of-universe picture is supported. If, by contrast, DE is measured to be a perfect cosmological constant (w = −1 to 0.1% precision) and the cosmic SFR decline is *not* accelerating, SIDC's end-of-universe picture is *falsified* in this version.**
+> **If DESI's evolving DE is confirmed at >$5\sigma$ AND the cosmic SFR density continues to decline AND w(z) is measured to decrease with redshift, then SIDC + TeV-M_{Pl,4} end-of-universe picture is supported. If, by contrast, DE is measured to be a perfect cosmological constant (w = −1 to 0.1% precision) and the cosmic SFR decline is *not* accelerating, SIDC's end-of-universe picture is *falsified* in this version.**
 
 The prediction is not "the universe ends" (which is unfalsifiable on human timescales). The prediction is: **DE is slightly evolving, the cosmic SFR decline is slightly accelerating, and the M_{Pl,4} lower bound is the electroweak scale**. These are *measurements* that can be made in the next 5-10 years.
 
@@ -386,7 +386,7 @@ The BNS-merger and AGN-flare death signals are *loud* ($\Omega_{\rm GW}$ >> LISA
 
 | Experiment | Timeframe | SIDC's prediction | Falsification criterion |
 |---|---|---|---|
-| DESI DR3 | 2026-2027 | w(z) shows 3$\sigma$+ evolution | If w = -1 ± 0.05 to z=2, SIDC's end-of-universe picture is ruled out |
+| DESI DR3 | 2026-2027 | w(z) shows $3\sigma$+ evolution | If w = -1 ± 0.05 to z=2, SIDC's end-of-universe picture is ruled out |
 | LSST Y1 | 2027 | DE density decreases with z | If DE is constant $\Lambda$ to z=2, SIDC is falsified |
 | SKA-MPG PTA | 2030s | $\Omega_{\rm GW} \sim 10^{-9}$ at nHz from BNS/AGN death | If PTA sees $\Omega_{\rm GW}$ << $10^{-9}$, $\epsilon_{\rm GW}$ too small (consistent w/ SIDC); if $\Omega_{\rm GW}$ >> $10^{-8}$, need non-SIDC explanation |
 | LISA | 2034+ | (Birth GW only) | Death GW at 0.03 Hz will be 6-14 orders below LISA noise regardless of $\epsilon_{\rm GW}$ |

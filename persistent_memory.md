@@ -375,7 +375,7 @@ This is what makes DE and DM look so different despite the SAME underlying mecha
   - DE: ρ_DE = $f_{\rm DE}$ × ε × $M_{\rm Pl}$,3D⁴ = 2.7×10⁻⁴⁷ GeV⁴ (matches observed 2.4×10⁻⁴⁷ within 14%)
 
 **Evolution:**
-- v10: $f_{\rm back}$ = ($t_{\rm Pl}$/τ_4D) × (τ_SN/τ_universe) × ($E_{\rm 4D}$/$E_{\rm SN}$)^(1/(2α)) — REJECTED (required unjustified τ_4D = 1e28 yr)
+- v10: $f_{\rm back}$ = ($t_{\rm Pl}$/τ_4D) × (τ_SN/τ_universe) × ($E_{\rm 4D}$/$E_{\rm SN}$)^(1/(2α)) — REJECTED (required unjustified τ_4D = $1 \times 10^{28}$ yr)
 - v3.1.1-final: $f_{\rm back}$ = $t_{\rm Pl}$/τ_4D (single factor) — PARTIALLY RESOLVED
 - v3.1.2-final: $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α universal at every level — RESOLVED
 
@@ -1004,7 +1004,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 - 3284601: SCENARIO B ADOPTED $M_{\rm Pl,4}$ = standard 4D Planck
 - ff2cf0a: §3.71 CLOSED-LOOP $f_{\rm back}$ SCALING WITH alpha
 - dd11d1a: KEY SYMMETRY 2D->3D and 3D->4D identical structure
-- 0e02846: v3.1.2 FINAL Remove alpha_true = 1.258
+- $0 \times 10^{02846}$: v3.1.2 FINAL Remove alpha_true = 1.258
 - 9ecd41f: v3.1.2 EMPIRICAL SMOKING GUN alpha=1.258 fails 13/14
 - e9eff8e: v3.1.2 USER-CAUGHT Internal inconsistency 4pi and universal $f_{\rm back}$
 
@@ -1069,7 +1069,7 @@ Build: 354 pages, commit f4328c8.
 ## 11. Things to NOT re-do
 
 - **Don't claim $f_{\rm DE}$ = 10⁻⁸⁵ is a derived physical fraction.** It's a calibration (= ρ_DE / (ε × M_Pl⁴)). See L138.
-- **Don't claim the closed loop closes numerically with v10 formula.** v10's formula was tuned (τ_4D = 1e28 yr, outside cone range). Use v3.1.2-final formula: $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α universal at every level. See L139.
+- **Don't claim the closed loop closes numerically with v10 formula.** v10's formula was tuned (τ_4D = $1 \times 10^{28}$ yr, outside cone range). Use v3.1.2-final formula: $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α universal at every level. See L139.
 - **Don't claim ε is derived.** It's observed (hierarchy problem). SIDC provides a geometric story but not a derivation. See L140.
 - **Don't claim $f_{\rm back}$ is the SAME VALUE at every level.** It's universal in FORM ($M_{\rm Pl}$/E)^α, but VALUES differ because $M_{\rm Pl,N}$ and $E_{\rm event}$ differ. 2D→3D = 1.83×10⁻⁴⁵ (audit), 3D→4D = 1.22×10⁻⁸⁵. See L141.
 - **Don't confuse $f_{\rm back}$ (continuous) with pulsed return.**$f_{\rm back}$ formula gives CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). 2D→3D: pulsed dominates by 10⁴⁵× (DM is pulsed, not $f_{\rm DM,leak}$). 3D→4D: continuous dominates NOW (DE is $f_{\rm DE}$ continuous, pulsed is in the future). See v31_fback_both_levels.py.

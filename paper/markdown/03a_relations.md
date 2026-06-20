@@ -54,7 +54,7 @@ The model in this paper is one of several recent proposals that attempt to unify
 
 **The SIDC-MOND hybrid's empirical status (v2.3.0):**
 - Galaxy scale (SPARC, 175 galaxies): 10% median residual with free g₊ and M/L (commit 153)
-- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = $1.3 \times 10^{-9}$ (1$\sigma$: $5.3 \times 10^{-10}$ to $2.7 \times 10^{-9}$), matches Tian+ 2024's $1.7 \times 10^{-9}$ within 1$\sigma$ (commit 159)
+- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = $1.3 \times 10^{-9}$ ($1\sigma$: $5.3 \times 10^{-10}$ to $2.7 \times 10^{-9}$), matches Tian+ 2024's $1.7 \times 10^{-9}$ within $1\sigma$ (commit 159)
 - $V_{\rm local}$ predictions test (commit 170): $g_+ \propto \sigma^{1.85}$ matches MOND EFE ($g_+ \propto \sigma^2$) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
 
 **The SIDC-MOND hybrid is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.** SIDC's pure prediction ($g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$) was falsified by real SPARC (commit 152, Limitation 19). SIDC's *framework* (4D event → 3+1D → 2D, with cumulative 2D universe gravity) survives because the SIDC-MOND hybrid is a *natural completion*: SIDC provides the *geometric origin* of $g_+$, MOND provides the *functional form* of $g_{\rm obs}$($g_{\rm bar}$). The hybrid model is a *prediction* of SIDC (Limitation 27), and it's *consistent* with the cluster-scale data (Limitation 28). A specific implementation of SIDC would need to derive MOND's interpolation function from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture (Limitation 27).
@@ -113,7 +113,7 @@ This identification provides a *concrete* information-theoretic interpretation o
 **What Padmanabhan gives SIDC:**
 - An *information-theoretic foundation* for SIDC's bulk-brane coupling
 - A *concrete interpretation* of SIDC DM as missing bulk entropy
-- A *quantitative* prediction: the 3+1D mass $M_{\rm 3+1D}$ ~ c $\tau_{\rm 4D}$ / (4$\pi$ G) from equipartition on the boundary horizon, which gives $\tau_{\rm 4D}$ $\sim 10^{28}$ yr for the 4D event's duration (a *very long-lived* 4D event)
+- A *quantitative* prediction: the 3+1D mass $M_{\rm 3+1D}$ ~ c $\tau_{\rm 4D}$ / ($4\pi$ G) from equipartition on the boundary horizon, which gives $\tau_{\rm 4D}$ $\sim 10^{28}$ yr for the 4D event's duration (a *very long-lived* 4D event)
 
 **What Padmanabhan does NOT give SIDC:**
 - The *inversion mechanism* (4D attractive → 3+1D repulsive). Padmanabhan's framework gives standard attractive gravity from entropy; SIDC's sign-change is a separate postulate
@@ -132,7 +132,7 @@ Horava-Witten [HW96] is 11D M-theory compactified on $S^1/\mathbb{Z}_2$ (orbifol
 
 **What HW gives SIDC:**
 - A *concrete string-theoretic realization* of SIDC's bulk-brane structure (10D HW brane + 6D CY → 4D effective brane, with 2D children as D1-branes)
-- A specific *candidate* for SIDC's 2D universes: D1-branes with tension T_1 = M_s / (2$\pi$ g_s)
+- A specific *candidate* for SIDC's 2D universes: D1-branes with tension T_1 = M_s / ($2\pi$ g_s)
 - A *predictivity comparison*: HW has 10-100+ free parameters (CY moduli, fluxes, gauge bundle), SIDC has 1-2 ($\alpha$, $z_{\rm half}$). SIDC is *more predictive* than HW — the 16/17 test scorecard + 7/7 specific cases come from 1-2 free parameters, vs HW's 10-100+ parameters for the same data
 
 **What HW does NOT give SIDC:**
@@ -180,7 +180,7 @@ This is SIDC's status as of v2.7.30: a phenomenological model with 1-2 free para
 The RT formula [Ryu06] is the central tool of holographic entanglement entropy in AdS/CFT: S_A = Area($\gamma_{\rm A}$) / (4 G_N), where $\gamma_{\rm A}$ is the minimal surface in the bulk that is homologous to the boundary region A. This formula has been proven in many contexts (Casini-Huerta-Myers 2011) and is the basis for the AdS/CFT connection between bulk geometry and boundary entanglement.
 
 **What RT gives SIDC:**
-- A *concrete* information-theoretic interpretation of SIDC DM as missing bulk entanglement entropy: 2D universe = bulk region with area A_2D = 4$\pi$(c $\tau_{2D}$)², and SIDC's 3+1D back-projection of 2D universe gravity is structurally identical to the RT formula's area-entropy relation
+- A *concrete* information-theoretic interpretation of SIDC DM as missing bulk entanglement entropy: 2D universe = bulk region with area A_2D = $4\pi$(c $\tau_{2D}$)², and SIDC's 3+1D back-projection of 2D universe gravity is structurally identical to the RT formula's area-entropy relation
 - A *consistency check* on SIDC's $f_{\rm back}$: the RT formula gives the same $M_{2D} = \tau_{2D}$ / (2G) as Jacobson's first law (since RT + Bekenstein-Hawking + Unruh = Jacobson derivation). This means RT, Jacobson, and Padmanabhan all give the same LINEAR $\tau_{2D} \sim M_{2D}$, not SIDC's power law
 - An *additional anchor* for SIDC's bulk-brane picture: the 2D universe's "boundary" in 3+1D (a 2-sphere of radius c $\tau_{2D}$) has area A_2D that grows quadratically with $\tau_{2D}$, and the entanglement entropy of the 2D universe's contents is $S_{\rm 2D}$ = A_2D / (4G) = $\pi$($\tau_{2D}$)² (in Planck units)
 
@@ -192,7 +192,7 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 
 **Quantitative check.** For SIDC's SN-calibrated 2D universe of $\tau_{2D} = 33$ s, RT gives:
 - R_2D = c × $\tau_{2D} = 9.9$ × $10^{9}$ m (about 70 × Earth-Moon distance)
-- A_2D = 4$\pi$ R_2D² = 1.2 × $10^{21}$ m²
+- A_2D = $4\pi$ R_2D² = 1.2 × $10^{21}$ m²
 - $S_{\rm 2D}$ = A_2D / (4 $\ell_P^2$) $\approx 10^{90}$ (in natural units)
 
 This is an enormous entanglement entropy. The 2D universe is "small" in its intrinsic 1+1D spacetime, but its boundary in 3+1D is a 2-sphere of radius $\sim 10^{10}$ m. The RT formula gives this boundary area a holographic content of $10^{90}$ dimensionless units. This is consistent with SIDC's claim that 2D universes can carry "missing bulk entropy" that back-projects to 3+1D as DM.
@@ -220,7 +220,7 @@ Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity a
 
 **What KK gives SIDC:**
 - A *historical prototype* for dimensional reduction. SIDC is a more general framework that includes KK as a special case (5D → 4D is a 1-step SIDC; SIDC's 4D → 3+1D → 2D is a 2-step SIDC)
-- A *gravity-weakening analog*: KK gives $G_4$ = $G_5$ / (2$\pi$R) (weakening by compactification volume), SIDC gives G_3+1D = f_split × $G_4$ (weakening by 0.47 from 5/27/68)
+- A *gravity-weakening analog*: KK gives $G_4$ = $G_5$ / ($2\pi$R) (weakening by compactification volume), SIDC gives G_3+1D = f_split × $G_4$ (weakening by 0.47 from 5/27/68)
 - *Validation* that dimensional reduction is a viable physical framework: SIDC's 4D → 3+1D is a generalization, but the basic idea (5D gravity → 4D effective theory with new physics) is established
 
 **What KK does NOT give SIDC:**

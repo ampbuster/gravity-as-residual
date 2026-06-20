@@ -740,7 +740,7 @@ See `calculations/v27_jwst_quiescent_mdyn.py` for full calculations.
 
 **Motivation**: DESI DR1 (2024) found hints of evolving dark energy:
 $w_0$ = -0.45 ± 0.21, $w_a =$-1.79 ± 0.55 (Park+ 2024). This is
-inconsistent with $\Lambda{\rm CDM}$ at ~3$\sigma$. SIDC's w(z) prediction is
+inconsistent with $\Lambda{\rm CDM}$ at ~$3\sigma$. SIDC's w(z) prediction is
 a direct testable prediction.
 
 **SIDC's DE model**: SIDC's DE comes from 4D gravity

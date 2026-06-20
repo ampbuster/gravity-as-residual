@@ -716,10 +716,10 @@ GrowthFactorCalculator:
   t_eq_2D_fraction = 0.01
   h_2D_fraction = 1.0
   lifetime_2D_gyr = 30 Gyr
-  V_growth_matter = 1.000e+04
-  V_growth_de     = 4.859e+02
-  V_growth_total  = 4.859e+06
-  G = 20 * V_growth = 9.717e+07
+  V_growth_matter = $1.000 \times 10^{+04}$
+  V_growth_de     = $4.859 \times 10^{+02}$
+  V_growth_total  = $4.859 \times 10^{+06}$
+  G = 20 * V_growth = $9.717 \times 10^{+07}$
 ```
 
 This gives G = $9.7 \times 10^{7}$, matching the trial-and-error value of $10^{8}$ to within 3%. The growth factor is therefore a *derived* parameter, not a free postulate.
@@ -736,13 +736,13 @@ GrowthFactorCalculator:
   t_eq_2D_fraction = 0.01
   h_2D_fraction = 1.0
   lifetime_2D_gyr = 30 Gyr
-  V_growth_matter = 1.000e+04
-  V_growth_de = 4.859e+02
-  V_growth_total = 4.859e+06
-  G = 20 * V_growth = 9.717e+07
+  V_growth_matter = $1.000 \times 10^{+04}$
+  V_growth_de = $4.859 \times 10^{+02}$
+  V_growth_total = $4.859 \times 10^{+06}$
+  G = 20 * V_growth = $9.717 \times 10^{+07}$
 
-Derived G = 9.717e+07
-Default G = 1.000e+08
+Derived G = $9.717 \times 10^{+07}$
+Default G = $1.000 \times 10^{+08}$
 Ratio: 0.972
 ```
 

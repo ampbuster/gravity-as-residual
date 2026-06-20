@@ -15,19 +15,19 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### DESI DR3 (2026-2027): dark energy equation of state $w_0, w_a$
 
-**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5$\sigma$ tension with $\Lambda{\rm CDM}$)
+**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.$5\sigma$ tension with $\Lambda{\rm CDM}$)
 
 **Falsification threshold:**
-- If $w_0 = -1$ confirmed at > 5$\sigma$: SIDC's standard Lagrangian (constant $f_{back}$) is right
-- If $w_0 = -0.83$ confirmed at > 5$\sigma$: SIDC's standard Lagrangian falsified; needs running $f_{back}(z)$ (adds 1 free parameter)
+- If $w_0 = -1$ confirmed at > $5\sigma$: SIDC's standard Lagrangian (constant $f_{back}$) is right
+- If $w_0 = -0.83$ confirmed at > $5\sigma$: SIDC's standard Lagrangian falsified; needs running $f_{back}(z)$ (adds 1 free parameter)
 
-**Status:** PENDING. Currently 3.5$\sigma$, not yet falsification or validation.
+**Status:** PENDING. Currently 3.$5\sigma$, not yet falsification or validation.
 
 #### LSST Y1 (2027): 47 Tuc DM content
 
 **SIDC prediction:** 47 Tuc has *no DM* (old GCs have no DM, per SIDC's stellar-density argument). DM detection threshold: $M_{DM}/M_* < 10^{-5}$.
 
-**Falsification threshold:** If 47 Tuc shows DM at > 5$\sigma$ (e.g., via stellar kinematics), SIDC's prediction is falsified.
+**Falsification threshold:** If 47 Tuc shows DM at > $5\sigma$ (e.g., via stellar kinematics), SIDC's prediction is falsified.
 
 **Status:** PENDING. LSST Y1 data 2027.
 
@@ -91,9 +91,9 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 | Test | SIDC predicts | Falsification threshold |
 |------|------------------|-------------------------|
-| $w_0$ (DESI DR3) | $-0.83 \pm 0.16$ | > 5$\sigma$ away from -0.83 |
-| $w_a$ (DESI DR3) | $-0.75 \pm 0.30$ | > 5$\sigma$ away from -0.75 |
-| 47 Tuc DM (LSST) | < $10^{-5} M_*$ | DM detected at > 5$\sigma$ |
+| $w_0$ (DESI DR3) | $-0.83 \pm 0.16$ | > $5\sigma$ away from -0.83 |
+| $w_a$ (DESI DR3) | $-0.75 \pm 0.30$ | > $5\sigma$ away from -0.75 |
+| 47 Tuc DM (LSST) | < $10^{-5} M_*$ | DM detected at > $5\sigma$ |
 | BNS GW (SKA-MPG) | $f \approx 7 \times 10^{-14}$ Hz | 10× off-frequency |
 | AGN GW (SKA-MPG) | $f \approx 2 \times 10^{-17}$ Hz | 10× off-frequency |
 | $M_{\rm Pl,4}$ (colliders) | $\geq 4×10^{23}$ GeV | Measured < 4×10²³ GeV |

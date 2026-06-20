@@ -59,7 +59,7 @@ This is a real-data version of the BTFR test using the SPARC database (Lelli+ 20
 *Results:*
 - BTFR fit: $M_{\rm baryon}$ ~ V^3.53 (all galaxies)
 - Expected: $M_{\rm baryon}$ ~ V^3.5-4.5
-- Scatter (1$\sigma$): 0.25 dex
+- Scatter ($1\sigma$): 0.25 dex
 
 *By morphology:*
 - Early (T<=3): N=26, slope=2.55
@@ -217,7 +217,7 @@ Both are real, both are ~1-3 Gyr, but they're not the same. The "5% in three pla
 **Cross-checks:**
 - Cluster $g_+$ ratio: 14.2× (Tian+ 2024) vs sqrt(100) = 10× (SIDC MOND-EFE) — within 30%, consistent.
 - $g_+$ formula: $f_{\rm active}$ = 0.05 is independent of the $g_+$ formula ($g_+$ uses f_cumulative = 0.95, both consistent).
-- MCMC posterior: 0.0513 ± 0.0073 — within 1$\sigma$ of 0.051, no tension.
+- MCMC posterior: 0.0513 ± 0.0073 — within $1\sigma$ of 0.051, no tension.
 
 **Honest caveats:**
 - The $\tau_{2D} \sim 0.7$ Gyr identification is by PHYSICAL ANALOGY (gas consumption in our universe → 2D universe lifetime), not a first-principles derivation.
@@ -336,7 +336,7 @@ S = S_bulk (5D AdS EH) + S_brane_3+1D (4D gravity + SM + DM)
 where:
 - S_bulk = (1/(2$\kappa_{\rm 5}$^2)) ∫ d^5X √(-G) [R_5 - 2$\Lambda_{\rm 5}$] (AdS₅ with $\Lambda_{\rm 5}$ = -6/L²)
 - S_brane_3+1D = ∫ d^4x √(-g) [(1/(2$\kappa_{\rm 4}$^2))(R_4 - 2$\Lambda_{\rm 4}$) + L_SM + L_DM + L_2D-universes]
-- $S_{\rm 2D}$ = ∫ d^2$\sigma$ √(-$\gamma$) [(1/(2$\kappa_{\rm 2}$^2))(R_2 - 2$\Lambda_{\rm 2}$) + L_2D_matter] (per 2D universe)
+- $S_{\rm 2D}$ = ∫ $d^{2\sigma}$ √(-$\gamma$) [(1/(2$\kappa_{\rm 2}$^2))(R_2 - 2$\Lambda_{\rm 2}$) + L_2D_matter] (per 2D universe)
 - S_tension = -∫ d^4x √(-g) $\sigma_{\rm brane}$ + -∑_i ∫ d^2$\sigma_{\rm i}$ √(-$\gamma_{\rm i}$) $\sigma_{\rm 2D}$ (Israel junction)
 - S_creation = -$\alpha$ ∫ d^4x √(-g) T_$\mu$$\nu$^SM(x) * ∑_i ∫ d^2$\sigma_{\rm i}$ √(-$\gamma_{\rm i}$) $\eta$^$\mu$$\nu$ $\delta$^(4)(x - X_i($\sigma$))
 - $S_{\rm destruction}$ = +$\alpha$ ∫ d^4x √(-g) T_$\mu$$\nu$^DM(x) * ∑_i ∫ d^2$\sigma_{\rm i}$ √(-$\gamma_{\rm i}$) $\eta$^$\mu$$\nu$ $\delta$^(4)(x - X_i($\sigma$)) $\delta$(t - $\tau_{2D}$)
@@ -348,7 +348,7 @@ where:
    where K_$\mu$$\nu$ is the extrinsic curvature and [K] = K⁺ - K⁻ across the brane.
 
 2. **Modified Friedmann equation on the 4D brane (RS-II):**
-   H² = (8$\pi$G_4/3) $\rho$ + ($\kappa_{\rm 5⁴}$/36) $\rho$² + $\Lambda_{\rm 4}$/3 + E/W²
+   H² = ($8\pi$G_4/3) $\rho$ + ($\kappa_{\rm 5⁴}$/36) $\rho$² + $\Lambda_{\rm 4}$/3 + E/W²
    where the $\rho$² term is the high-energy correction, $\Lambda_{\rm 4}$ is the brane CC, and E is dark radiation from the 5D Weyl tensor.
 
 3. **2D universe lifetime (from brane tension):**
@@ -447,7 +447,7 @@ But the empirical 33 s lifetime gives $f_{\rm active} \sim 10^{-17}$, NOT 0.05. 
 
 **HISTORICAL (Mechanism M era):** SIDC's Mechanism M era claimed $H_0 = 73$ as a borrowed value from SH0ES. This was a postdiction, not a derivation, and was removed in v2.5 commit 281.
 
-**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is 0.2$\sigma$ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
+**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is 0.$2\sigma$ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
 
 A 2D CFT calculation is needed to derive the specific active boost and cumulative drag from first principles. SIDC's contribution is the *qualitative* framework ($H_0 = 70$ ± 3), not a specific number.
 
@@ -513,7 +513,7 @@ Per user request, this attempts the 14th Hubble mechanism (after C, D, I, L, M, 
 | Mechanism | Status |
 |-----------|--------|
 | A (host type) | FALSIFIED (SH0ES data, commit ~80) |
-| B/F (4D temporal) | REJECTED at 7$\sigma$ (Pantheon+, commit 82) |
+| B/F (4D temporal) | REJECTED at $7\sigma$ (Pantheon+, commit 82) |
 | C, D, E, I, L, N, O, P, Q, R, S, T, U, V | FALSIFIED or BUSTED (commits 83-85, this work) |
 | **M (accept the tension)** | **SIDC'S FINAL POSITION** |
 
@@ -541,10 +541,10 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 
 | Model | Peak 1 (220) | Peak 2 (537) | Peak 3 (810) | Peak 4 (1128) | $\chi$² (4 peaks) |
 |-------|------|------|------|------|-------|
-| Planck $\Lambda{\rm CDM}$ ($H_0$=67.4) | 220 (0$\sigma$) | 536 (-2$\sigma$) | 813 (+3$\sigma$) | 1126 (-2$\sigma$) | 17.25 |
-| **SIDC ($H_0$=73)** | **217 (-6$\sigma$)** | **528 (-14$\sigma$)** | **801 (-14$\sigma$)** | **1109 (-16$\sigma$)** | **666.88** |
-| SIDC + dark rad | 221 (+2$\sigma$) | 542 (+6$\sigma$) | 826 (+22$\sigma$) | 1144 (+13$\sigma$) | 694.61 |
-| SIDC + $\omega_{\rm c}$ lowered | 218 (-4$\sigma$) | 533 (-6$\sigma$) | 810 (-1$\sigma$) | 1121 (-6$\sigma$) | 92.66 |
+| Planck $\Lambda{\rm CDM}$ ($H_0$=67.4) | 220 ($0\sigma$) | 536 (-$2\sigma$) | 813 (+$3\sigma$) | 1126 (-$2\sigma$) | 17.25 |
+| **SIDC ($H_0$=73)** | **217 (-$6\sigma$)** | **528 (-$14\sigma$)** | **801 (-$14\sigma$)** | **1109 (-$16\sigma$)** | **666.88** |
+| SIDC + dark rad | 221 (+$2\sigma$) | 542 (+$6\sigma$) | 826 (+$22\sigma$) | 1144 (+$13\sigma$) | 694.61 |
+| SIDC + $\omega_{\rm c}$ lowered | 218 (-$4\sigma$) | 533 (-$6\sigma$) | 810 (-$1\sigma$) | 1121 (-$6\sigma$) | 92.66 |
 
 **The tension is at $\Delta\chi^2 = +650$ for the same-density case.** This is a HARD falsification at the level of CMB peak positions, but a CONSISTENT one with Mechanism M: SIDC accepts the Hubble tension, and now we have a Boltzmann-solver-level confirmation of that acceptance.
 
@@ -557,7 +557,7 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 
 **Adding extra N_eff makes it worse**, not better: dark radiation INCREASES H(z) at high z, which DECREASES r_s, which DECREASES $\theta$_*, which moves peaks to HIGHER l. SIDC's "+1 neutrino from 5D Weyl" overshoots in the other direction.
 
-**Lowering $\omega_{\rm c}$ helps partially** ($\chi$² = 92.66 vs 666.88), but still has 4-6$\sigma$ residual tension. SIDC's "DM" cannot be both 27% (today) and have a low $\omega_{\rm c}$ to satisfy Planck CMB at $H_0 = 73.$
+**Lowering $\omega_{\rm c}$ helps partially** ($\chi$² = 92.66 vs 666.88), but still has 4-$6\sigma$ residual tension. SIDC's "DM" cannot be both 27% (today) and have a low $\omega_{\rm c}$ to satisfy Planck CMB at $H_0 = 73.$
 
 **The honest verdict.** SIDC's $H_0 = 73$ is the LOCAL value (the 4D event's antigravity output rate). SIDC's physics at z~1100 is identical to $\Lambda{\rm CDM}$ (per Mechanism N analysis, §4.40). Therefore, SIDC CANNOT explain the Hubble tension — it joins $\Lambda{\rm CDM}$ and other cosmological models in leaving the precise 5.6 km/s/Mpc gap unresolved.
 
@@ -636,7 +636,7 @@ See `calculations/rar_per_galaxy_gplus_v3.py` and `calculations/rar_per_galaxy_g
 
 **The question:** does SIDC's "DM tracks baryons" picture give an $S_8$ consistent with DES Y3 and KiDS-1000 cosmic shear measurements?
 
-**Background.**$S_8 = \sigma_8$ × sqrt($\Omega_m$/0.3) is a key cosmological observable. Current measurements show a 2-3$\sigma$ tension:
+**Background.**$S_8 = \sigma_8$ × sqrt($\Omega_m$/0.3) is a key cosmological observable. Current measurements show a 2-$3\sigma$ tension:
 
 | Survey | $S_8$ | $\sigma_8$ | Method |
 |--------|-----|-----|--------|
@@ -645,7 +645,7 @@ See `calculations/rar_per_galaxy_gplus_v3.py` and `calculations/rar_per_galaxy_g
 | KiDS-1000 | 0.759 ± 0.025 | ~0.74 | Cosmic shear ($3 \times 2$pt) |
 | Combined LSS | 0.759 ± 0.018 | ~0.74 | Average of DES + KiDS |
 
-**The $S_8$ tension:** Planck-inferred $S_8$ is ~2-3$\sigma$ HIGHER than LSS-inferred $S_8$. This is the "lesser Hubble tension" — same direction as the $H_0$ tension (CMB prefers higher "stuff" than LSS).
+**The $S_8$ tension:** Planck-inferred $S_8$ is ~2-$3\sigma$ HIGHER than LSS-inferred $S_8$. This is the "lesser Hubble tension" — same direction as the $H_0$ tension (CMB prefers higher "stuff" than LSS).
 
 **SIDC's prediction.** SIDC's "DM" is cumulative 2D universe gravity, which is created by energetic events. Energetic events are in galaxies (where stars are). So SIDC's DM *follows baryons* spatially. This is qualitatively different from $\Lambda{\rm CDM}$, where CDM is a separate species that clusters more strongly than baryons on small scales.
 
@@ -655,24 +655,24 @@ If SIDC's effective $\sigma_8$ is closer to $\sigma_8$(baryons) than $\sigma_8$(
 - $\sigma_8$(SIDC, effective) ~ 0.75-0.79 (depends on the exact baryon-tracking)
 
 This gives $S_8$(SIDC) ~ 0.775-0.815, which is:
-- LOWER than Planck (0.832) by ~1-2$\sigma$
+- LOWER than Planck (0.832) by ~1-$2\sigma$
 - CLOSER to DES/KiDS (0.759) than $\Lambda{\rm CDM}$ is
-- Within 1$\sigma$ of DES/KiDS for the lower SIDC estimates
+- Within $1\sigma$ of DES/KiDS for the lower SIDC estimates
 
 **Comparison:**
 
 | Model | $S_8$ | $\Delta$ from DES | $\Delta$ from Planck |
 |-------|-----|-----------|---------------|
-| Planck $\Lambda{\rm CDM}$ | 0.832 | +2.92$\sigma$ | 0.00$\sigma$ |
-| DES Y3 (observed) | 0.759 | 0.00$\sigma$ | -5.62$\sigma$ |
-| KiDS-1000 (observed) | 0.759 | 0.00$\sigma$ | -5.62$\sigma$ |
-| SIDC ($\sigma_8 = 0.75$) | 0.775 | +0.62$\sigma$ | -4.42$\sigma$ |
-| SIDC ($\sigma_8$=0.77) | 0.795 | +1.45$\sigma$ | -2.83$\sigma$ |
-| SIDC ($\sigma_8$=0.79) | 0.816 | +2.28$\sigma$ | -1.24$\sigma$ |
+| Planck $\Lambda{\rm CDM}$ | 0.832 | +2.$92\sigma$ | 0.$00\sigma$ |
+| DES Y3 (observed) | 0.759 | 0.$00\sigma$ | -5.$62\sigma$ |
+| KiDS-1000 (observed) | 0.759 | 0.$00\sigma$ | -5.$62\sigma$ |
+| SIDC ($\sigma_8 = 0.75$) | 0.775 | +0.$62\sigma$ | -4.$42\sigma$ |
+| SIDC ($\sigma_8$=0.77) | 0.795 | +1.$45\sigma$ | -2.$83\sigma$ |
+| SIDC ($\sigma_8$=0.79) | 0.816 | +2.$28\sigma$ | -1.$24\sigma$ |
 
-**SIDC's predicted $S_8$ is closer to observations than $\Lambda{\rm CDM}$.** Specifically, if $\sigma_8$(SIDC) ~ 0.75, SIDC's $S_8 = 0.775$ is within 1$\sigma$ of DES/KiDS. This is a POSITIVE result for SIDC.
+**SIDC's predicted $S_8$ is closer to observations than $\Lambda{\rm CDM}$.** Specifically, if $\sigma_8$(SIDC) ~ 0.75, SIDC's $S_8 = 0.775$ is within $1\sigma$ of DES/KiDS. This is a POSITIVE result for SIDC.
 
-**Honest verdict.** SIDC's "DM tracks baryons" picture NATURALLY resolves the $S_8$ tension between CMB and cosmic shear. SIDC is consistent with DES and KiDS, while $\Lambda{\rm CDM}$ has a 2-3$\sigma$ tension.
+**Honest verdict.** SIDC's "DM tracks baryons" picture NATURALLY resolves the $S_8$ tension between CMB and cosmic shear. SIDC is consistent with DES and KiDS, while $\Lambda{\rm CDM}$ has a 2-$3\sigma$ tension.
 
 This is a **qualitative-level positive result.** It does not require any free parameters in SIDC — the "DM tracks baryons" follows directly from SIDC's picture of 2D universe creation. The exact $S_8$ value is not precisely derived (would require N-body simulation of SIDC DM, which is beyond the current paper's scope).
 
@@ -885,7 +885,7 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 **Part 1: Historical Energy Ledger.** `compute_historical_energy_ledger(sfh_times, sfh_rates)` integrates the Star Formation History against SIDC's phase-transition threshold $E_{crit} = 10^{30}$ J. Uses a Kroupa IMF with ~15% of stellar mass going into M > 8 $M_\odot$ (CCSN progenitors) and $E_{CCSN} = 10^{46}$ J per SN. Returns the total energy injected by all past events above $E_{crit}$ over cosmic history, plus the recent event rate (last 50 Myr).
 
-**Part 2: Gaussian Instanton.** `gaussian_instanton($\tau$) = $a_0$ \exp(-$\tau$^2/\tau$_{2D}^2)` implements the v2.4 Task 3 smooth decay profile for the 2D universe's scale factor. The normalized window $g($\tau$) = (1/\tau$_{2D}\sqrt{$\pi$}) \exp(-$\tau$^2/\tau$_{2D}^2)$ localizes the fossil payload with $\int g d$\tau$ = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24$\pi$) R^{(2)}$ (v2.4 Task 2, with $c = 1$ default).
+**Part 2: Gaussian Instanton.** `gaussian_instanton($\tau$) = $a_0$ \exp(-$\tau$^2/\tau$_{2D}^2)` implements the v2.4 Task 3 smooth decay profile for the 2D universe's scale factor. The normalized window $g($\tau$) = (1/\tau$_{2D}\sqrt{$\pi$}) \exp(-$\tau$^2/\tau$_{2D}^2)$ localizes the fossil payload with $\int g d$\tau$ = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24\pi$) R^{(2)}$ (v2.4 Task 2, with $c = 1$ default).
 
 **Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_b$ profile)` builds the SIDC-MOND hybrid potential: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$, with $g_+ = 1.2 \times 10^{-10}$ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\rm total}(r)}$ and a BTFR-predicted $V_{\rm flat} = (G M_b g_+)^{1/4}$.
 
@@ -1133,7 +1133,7 @@ SIDC's `$f_{\rm active}$` parameter (fraction of DM from "current" 2D universe a
 - `calculations/rar_clustered_dm_profile.py`: `$f_{\rm active}$ = 0.3` (30%, "SIDC's postulate")
 - `calculations/rar_isothermal_universal.py`: `$f_{\rm active}$ = 0.05` (5%)
 - `calculations/rar_trial_factive.py`: best fit at 0.05
-- MCMC posterior (§4.42): 0.0513 ± 0.0073 (1$\sigma$)
+- MCMC posterior (§4.42): 0.0513 ± 0.0073 ($1\sigma$)
 - Paper §4.35 derivation: 0.05 (gas consumption timescale, $\tau_{2D}$ / $T_{\rm universe}$)
 - Paper §2.6 *Hubble tension Mechanism A*: $f_{\rm active}$ ~ 0.3 (estimated)
 
@@ -1145,7 +1145,7 @@ These values differ by 6× (0.05 vs 0.3). The paper tries to resolve this with �
 
 **2. BTFR slope (minor).**
 
-The paper §4.43 says " $M_{\rm baryon}$ ~ V⁴" as SIDC's prediction. The actual SPARC fit gives slope = 3.53 (within the 3.5-4.5 range). SIDC's 1/r derivation in 2D matches the empirical slope to within 1$\sigma$. The paper is honest about the fit, but the "V⁴" phrasing is slightly idealized.
+The paper §4.43 says " $M_{\rm baryon}$ ~ V⁴" as SIDC's prediction. The actual SPARC fit gives slope = 3.53 (within the 3.5-4.5 range). SIDC's 1/r derivation in 2D matches the empirical slope to within $1\sigma$. The paper is honest about the fit, but the "V⁴" phrasing is slightly idealized.
 
 **Status:** not a bug; honest fit, slight idealization in phrasing.
 
@@ -1175,7 +1175,7 @@ The CMB power spectrum test ($\Delta\chi^2 = +650$ for SIDC's $H_0 = 73$ vs Plan
 
 **7. Cosmic shear $S_8$ (qualitative, honest).**
 
-The cosmic shear test (§4.43) computes $S_8 = 0.775$ (SIDC) vs 0.759 (DES/KiDS) as a "within 1$\sigma$" match. The calculation is honest, but the underlying $\sigma_8 = 0.75$ is *qualitative* (SIDC's $\sigma_8$ is not derived). The paper documents this as a *qualitative* consistency, not a quantitative derivation.
+The cosmic shear test (§4.43) computes $S_8 = 0.775$ (SIDC) vs 0.759 (DES/KiDS) as a "within $1\sigma$" match. The calculation is honest, but the underlying $\sigma_8 = 0.75$ is *qualitative* (SIDC's $\sigma_8$ is not derived). The paper documents this as a *qualitative* consistency, not a quantitative derivation.
 
 **Status:** verified. The paper is honest about the qualitative nature of the comparison.
 
@@ -1507,7 +1507,7 @@ SIDC's $H_0 = 73$ is SIDC's prediction from §2.6 Mechanism M (SIDC's 4D event's
 
 1. $H_0$ SIDC: 73 ± 1 (TRGB, Cepheid, megamaser calibration)
 2. $H_0$ Planck: 67.4 ± 0.5 (CMB + $\Lambda{\rm CDM}$)
-3. Difference: 5.6 km/s/Mpc (4$\sigma$ tension)
+3. Difference: 5.6 km/s/Mpc ($4\sigma$ tension)
 4. CMB $\Delta\chi^2$ from $H_0$ change: ~650
 
 This is the standard Hubble tension. SIDC is in this tension because its $H_0$ prediction is 73.

@@ -140,7 +140,7 @@ The scaling law is the **quantitative core** of the closed loop. It's what makes
 **The competition can't do this:**
 
 - **ΛCDM** works on cosmological scales but fails at galaxy scales (cusp-core, missing satellites, too-big-to-fail)
-- **MOND** works at galaxy scales but fails at cluster scales (Tian+ 2024 shows cluster $g_+$ is 14$\times$ higher)
+- **MOND** works at galaxy scales but fails at cluster scales (Tian+ 2024 shows cluster $g_+$ is $14\times$ higher)
 - **UDM / Chaplygin gas** works at cosmological scales but the unified fluid has $c_s^2 \sim 1$, suppressing all small-scale structure
 - **Verlinde / entropic gravity** is static — it can't distinguish "same mass, different history" cases
 
