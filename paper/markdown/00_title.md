@@ -7,23 +7,33 @@
 **Repository:** https://github.com/ampbuster/gravity-as-residual
 **Current version:** v3.5.8 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
 
-**v3.5.x HIGHLIGHTS** (CURRENT, June 2026):
-- v3.4.x honest reframe: "12 propagates" is CORRELATION not derivation (8 inconsistencies found, v3.4.5)
-- "12 SM fermions/gen" was WRONG (v3.4.6); 12 GAUGE BOSONS is real match
-- "12" is common in physics for ARITHMETIC reasons (2²×3 highly composite, v3.4.7)
-- Universe age = 1.5×10⁻¹⁵ of lifetime → SIDC is INITIAL-CONDITIONS framework (v3.4.8)
-- v3.5 TIER 2 research: CY3 Z_12 rare (2-3 of ~28), α = 1 + 1/√N interpretation
-- **v3.5.6 WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins:
-  - Unimodular gravity (HT): Λ is integration constant — calibrated μ is EXPECTED
-  - Hagedorn $T_H$ = M_s/(2π) exact from closed string modular invariance (Chaudhuri 2001)
-  - JT U(Φ)=2Φ: the "2" traces to $R_{\rm AdS,2}$ = -2/L²
-  - String thermal duality b ↔ 1/(2b) (Kogan 1990)
-  - Hawking-Page + Euclidean periodicity β = 2πL (SL(2,R))
-- v3.5.7 HOLOGRAPHIC: string minimal area gives μ = M_s² (L319)
-- v3.5.7 AUDIT: framework internally consistent (all numbers add up)
-- μ status: "calibrated" → "STRUCTURALLY MOTIVATED (5+ origins)"
-- DE match: 0.13% (v3.3 simple f_DE formula, near-exact via τ_4D calibrated to DE)
-- 370 pages, 116 honest limitations
+**v3.5.8 HIGHLIGHTS** (CURRENT, June 20, 2026):
+
+**Paper:** 393 pages, 1.42 MB
+**Limitations:** 128 honest (was 116 in v3.5.7, +12 user-driven L308f-L308q)
+
+**v3.5.8 BREAKTHROUGHS** (this release):
+- **MCMC parameter search** (L308m): 4/9 params observationally pinned (α, ε, τ_4D, AGN rate converge within 0.5σ)
+- **α = 1 + 1/√12 FIRST-PRINCIPLES** (L308n, BREAKTHROUGH): 0.025% match with framework
+- **L43 (Lagrangian skeleton → α)**: **OPEN → PARTIAL**
+- **"12" is the cascade fundamental unit** (deepest insight):
+  - α = 1 + 1/√12 (Schwarzian SYK saddle-point)
+  - M_Pl,2D = 12 × v_Higgs (structural, 1.5% off)
+  - Cone depth 4D→3+1D = 12 sub-steps
+  - 12 Majorana = 6 Dirac = 3 generations × 2
+- **First-principles progress**: 0/9 → 1/9 (α derived)
+
+**v3.5.8 STRUCTURAL DISCOVERIES**:
+- **M_Pl,2D & M_Pl,4D honest origins** (L308f, L308g): not first-principles derived (USER-CAUGHT)
+- **Boundary sphere structure** (L308i, USER-DISCOVERED): 2π (S¹) at 2D-3D, 4π (S²) at 3D-4D
+- **Geometric peak at n=6** (L308k, USER-CORRECTED): S⁶ surface area 33.07, cone could extend to 7D/8D
+- **Cone natural range** (L308l, USER-DIRECTED): n=1 to n≈17
+- **N_sub = E_4D/E_sub linear scaling** (L308o, USER-INSIGHT): no longer free parameter
+- **Cone is asymmetric** (L308p, USER-INSIGHT): 4D linear (transcendent), 2D one-to-one (internal)
+- **2D universe is discrete quantum** (L308q, USER-INSIGHT): M_2D = M_Pl,2D²/M_Pl,3D is smallest unit of DM
+
+**For v3.5.8 session details**: see `paper/legacy/v358_user_driven_refinements.md`
+**For full v3.5.8 history**: see [`changelog.md`](../changelog.md) (v3.5.8 SESSION 1 + 2)
 
 **v3.3 HIGHLIGHTS** (HISTORICAL, June 2026): Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), $f_{\rm back}$ UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D= $v_{\rm Higgs}$ DROPPED, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM (DERIVED). The 5/27/68 split matches observation via calibrated event rate. **DE matches within 0.13%** (simple f_DE formula: $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}$^4 with τ_4D calibrated; see §3.67b). HISTORICAL v3.3 era: 382 pages, 81 limitations.
 

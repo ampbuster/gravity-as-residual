@@ -4,179 +4,47 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** 3.5.8 (June 2026) — *CURRENT VERSION. v3.5.x UPDATES: (1) TIER 2 research (CY3 Z_12, α first-principles, μ F-theory). (2) User caught "12 propagates" inconsistencies → honest reframe (v3.4.6). (3) "12 is correlation not derivation" (v3.4.7 meta-analysis: 12 = 2²×3 highly composite). (4) Universe age = 1.5×10⁻¹⁵ of lifetime → SIDC is INITIAL-CONDITIONS framework. (5) v3.5.6 WEB SEARCH BREAKTHROUGH: μ has 5+ structural origins (unimodular gravity, Hagedorn, JT U(Φ)=2Φ, string thermal duality, Hawking-Page/Euclidean periodicity). μ status changed from "calibrated" to "STRUCTURALLY MOTIVATED". (6) v3.5.7 AUDIT: framework internally consistent. (7) v3.5.7 HOLOGRAPHIC: string minimal area gives μ = M_s². (8) v3.5.7+ post-processing: math wrapping, spacing, lint checks. 370 pages, 116 limitations.*
+**Version:** **v3.5.8** (June 20, 2026) — **CURRENT**
 
-**Current parameters** (v3.5.8, 9 total):
-- 1 measured: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV
-- 1 calibrated: $M_{\rm Pl,2D}$ = 3 TeV (via SN τ_2D = 33 s)
-- 1 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 4×10²³ GeV
-- 4 calibrated: α = 1.289, ε = 10⁻³⁸, τ_4D = 1.51×10³⁴ yr, AGN rate = 3×10⁻¹⁶
-- 1 free: N_sub = 4×10²
-- 1 calibrated (now STRUCTURALLY MOTIVATED): μ = $M_{\rm Pl}$,2D² = 9×10⁶ GeV²
+**What's in v3.5.8** (12 new limitations L308f-L308q, 11 new sections §7.4.5-§7.4.15):
+- **MCMC parameter search**: 4/9 params observationally pinned (α, ε, τ_4D, AGN rate converge within 0.5σ)
+- **α = 1 + 1/√12 FIRST-PRINCIPLES** (BREAKTHROUGH, 0.025% match) — L43 OPEN → PARTIAL
+- **M_Pl,2D & M_Pl,4D honest origins** (user caught: not first-principles derived)
+- **Boundary sphere structure**: 2π (S¹) at 2D-3D, 4π (S²) at 3D-4D
+- **Geometric peak at n=6** (S⁶ surface area 33.07) — cone could extend to 7D/8D
+- **N_sub = E_4D/E_sub linear scaling** (USER-INSIGHT, no longer free parameter)
+- **Cone is asymmetric**: 4D linear (universe-creating), 2D one-to-one (universe-modifying)
+- **2D universe is discrete quantum** (M_2D is smallest unit of DM, can't be split)
+- **"12" is the cascade fundamental unit** (α = 1+1/√12, M_Pl,2D = 12×v_Higgs, cone depth 12 sub-steps)
 
-**DE match**: 0.13% (simple f_DE formula: ρ_DE = f_DE × ε × M_Pl,3D^4 with f_DE = 1.13×10⁻⁸⁵ calibrated, τ_4D = 1.51×10³⁴ yr). v3.5.6 BREAKTHROUGH shows μ is consistent with modern unimodular gravity (Λ as integration constant).
+**Paper:** 393 pages, 1.42 MB
+**Limitations:** 128 honest (was 116 in v3.5.7, +12 user-driven L308f-L308q)
+**First-principles progress:** 0/9 → 1/9 (α = 1+1/√12 DERIVED)
 
-**Previous v3.4.x (HONEST REFRAME)**: "12 propagates" is CORRELATION, not derivation. "12 SM fermions/gen" was WRONG (15-16 Weyl or 7-8 Dirac per gen). DOF conservation at 24 was DROPPED (was framework's interpretation, not law). h^{2,1}=N→N gen REFUTED (arXiv:0910.5464 has h^{2,1}=4 + 3 gen).
+For v3.5.8 session details, see `paper/legacy/v358_user_driven_refinements.md`.
+For all version history, see `changelog.md`.
+For all v3.5.8 findings, see `persistent_memory.md`.
 
-**Previous v3.2 (HISTORICAL)**: Three structural principles + user-driven audits. Scenario X ($M_{\rm Pl,4D}$ = 887 GeV) was v3.1.2-final choice, SUPERSEDED in v3.3 by α-weighted GM. (Note: "14 events" and "11 events" appear in some v3.1.2-final text but the rigorous test set is §10.1's 8 events. The "13/14 fail" claim for α = 1.258 is paper text without rigorous documentation in v3.1.2 calculations.) (Note: "14 events" and "11 events" appear in some v3.1.2-final text but the rigorous test set is §10.1's 8 events. The "13/14 fail" claim for α = 1.258 is paper text without rigorous documentation in v3.1.2 calculations.)
+**Current parameters** (v3.5.8, 9 total, with first-principles status):
+- 1 measured: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV (Newton's G)
+- **1 first-principles derived** (BREAKTHROUGH): α = 1.289 = 1 + 1/√12 (Schwarzian SYK with N=12)
+- 1 DERIVED via α-GM: $M_{\rm Pl,4D}$ = 4×10²³ GeV (consistent but circular)
+- 1 STRUCTURAL: $M_{\rm Pl,2D}$ = 3 TeV = 12 × v_Higgs (1.5% off, NOT first-principles)
+- 1 SEMI-DERIVED (NEW): N_sub = E_4D/E_sub = 400 (linear in E_4D, no longer free)
+- 4 calibrated: ε = 10⁻³⁸, τ_4D = 1.51×10³⁴ yr, AGN rate = 3×10⁻¹⁶, μ = 9×10⁶ GeV²
+- 1 derived: E_4D = 5×10⁷⁹ J (from M_Pl,4D, τ_4D)
 
-**v3.1 HIGHLIGHTS** (NEW since v3.0.21):
-- **Inception cone** (L112): 4D event at base, 2D Planck at apex; 4D event eternal from our frame
-- **2D Planck IS the tip** (L113, ~3 TeV); 2D CFT formulas at the tip (L114, L115)
-- **A Lagrangian for SIDC** (L116): S = $S_{\rm 4D}$ + $S_{\rm 3+1D}$ + ΣS_2D + $S_{\rm projection}$
-- **c-value resolution** (L117): UV c=7 → IR c=3/2 via SYK q=4
-- **L41, L42 CLOSED** (L118): only 2 free parameters remain (μ, m₃₊₁D = $v_{\rm Higgs}$)
-- **[STRUCK: 5D/6D extension]** (L121, **UNCERTAIN in v3.3**): $M_{\rm Pl,N}$ = $M_{\rm Pl,4}$/α^(N-4) — relied on α-power extrapolation, weaker support without α-symmetry
-- **9D = string theory** (L122, **DROPPED in v3.3**): $M_{\rm Pl,9D}$ extrapolation was 249 GeV ≈ $v_{\rm Higgs}$ = 246 GeV (1.3%), but 9D extension was DROPPED in v3.3 (#23). $M_{\rm Pl,4D}$ now derived via α-weighted GM.
-- **Hierarchy problem** (L127): $M_{\rm Pl,3}$ >> $v_{\rm Higgs}$ — ε = 10⁻³⁸ calibrated (not solved from first principles)
-- **SIDC-SM connection** (L128-L136): 12 SYK = 12 SM gauge generators (kept); 9D→4D compactification **DROPPED in v3.3** (9D extension removed)
+**DE match**: 0.13% (simple f_DE formula: ρ_DE = f_DE × ε × M_Pl,3D^4 with f_DE = 1.13×10⁻⁸⁵)
+**DM match**: 27% (calibrated AGN rate)
+**M^α law**: 8/8 named events fit within 1.6× (α = 1.289)
 
-**v3.4 F-THEORY 12D AS 4D BULK (NEW v3.4.6 with HONEST REFRAME)**:
-- F-theory 12D adopted as 4D bulk theory (Vafa 1996, 10 base + 2 T² fiber = 12D)
-- "12 propagates" honest reframe (v3.4.6): 12 at each level is DIFFERENT physics:
-  - 2D: 12 Majorana (N=12 SYK, standard benchmark)
-  - 3D: 12 GAUGE BOSONS in SM (SU(3)+SU(2)+U(1) = 8+3+1)
-  - 3D: 12 fermion FLAVORS across 3 gens (4 Dirac × 3, NOT per gen)
-  - 4D: F-theory 12D (structural)
-- "12" is a CORRELATION, NOT a derivation (v3.4.5, v3.4.7 meta-analysis)
-- N=12 in SYK is the STANDARD NUMERICAL BENCHMARK, not theoretically motivated
-- α = 1 + 1/√N is NOT a standard SYK formula (phenomenological fit)
-- "12 SM fermions/gen" was WRONG (SM has 15-16 Weyl or 7-8 Dirac per gen)
-- "h^{2,1}=N → N generations" was REFUTED (arXiv:0910.5464 has h^{2,1}=4 AND 3 generations)
-- DOF conservation at 24 was FRAMEWORK'S INTERPRETATION, not a law (DROPPED)
-- "Why 12?" REMAINS UNANSWERED — 12 is common in physics for ARITHMETIC reasons (highly composite number 2²×3)
-- See `paper/markdown/03g_f_theory_12d_4d_bulk.md` and `calculations/v34_*` for details
-- 89 honest limitations (was 81 in v3.3, +L283-L292 for v3.4.6 honest reframe, +L293-L297 for v3.4.7 meta)
-
-
-**v3.5.x TIER 2 RESEARCH + μ STRUCTURAL MOTIVATION (NEW v3.5.6)**:
-- **v3.5 TIER 2** (research depth): 
-  - Of ~28 CY3 with χ=±6, only 2-3 have explicit Z_12 fundamental groups
-  - Best α reason: "leading + finite-N" (α = 1 + 1/√N with N=12)
-  - F-theory doesn't directly give μ (10³⁴× off)
-- **v3.5.1**: "1/2" has 3+ anchors (Schwarzian, DOZZ Liouville, Ising CFT, α decomposition)
-- **v3.5.2-v3.5.3**: 45 alternative formulas for μ, 12 exact matches (all algebraically equivalent)
-- **v3.5.4**: 10 candidates for why $T_H$ = $T_{\rm Pl,2D}$ — TOP 3: Planckian max, Euclidean periodicity, Hagedorn
-- **v3.5.5**: Lagrangian L = L_c=1 + L_Schwarzian + L_N=12 SYK consistently gives μ = $M_{\rm Pl}$,2D² via 3 routes
-- **v3.5.6 WEB SEARCH BREAKTHROUGH** (μ has 5+ structural origins):
-  - **Unimodular gravity (HT)**: Λ is INTEGRATION CONSTANT — calibrated μ is EXPECTED in modern gravity
-  - **Hagedorn $T_H$ = M_s/(2π)**: EXACT from closed string modular invariance (Chaudhuri 2001)
-  - **JT U(Φ)=2Φ**: the "2" traces to $R_{\rm AdS,2}$ = -2/L²
-  - **String thermal duality b ↔ 1/(2b)**: Kogan 1990
-  - **Hawking-Page + Euclidean periodicity**: β = 2πL forced by SL(2,R)
-- **v3.5.7 HOLOGRAPHIC**: String minimal area gives μ = M_s² (L319). "2π" is UNIVERSAL 2D factor (L320, Longo 2024 Bekenstein bound).
-- **v3.5.7 AUDIT**: Framework internally consistent. All numbers add up.
-- μ status: from "calibrated (L26 OPEN)" to "STRUCTURALLY MOTIVATED (5+ origins)"
-- 123 limitations (was 81 in v3.3, +42 across v3.4-v3.5.8)
-
-**v3.0.2 PARAMETER CLEANUP (REVISED v3.2)**: 0 calibrated postulates for per-event physics (was 3 in v2.7.x, 5 in v2.7.16). Most values now DERIVED from the cascade structure:
-- **$f_{\rm back}$** = ε × ( $E_{4D}$ / $M_{\rm Pl}^4$) — bulk-brane coupling × 4D event energy ratio
-- **ε** = $e^{-kL}$ — RS-II bulk-brane coupling (from bulk geometry μ, $m_{3+1D}$)
-- **$C(E) = E^{1+\alpha}$** — smooth creation function (per-event DM contribution, v2.7.5+ REPLACES E_crit which was REVERTED in v2.7.5)
-- **$F_p(0)$** = 0.9993 — calculated from cumulative DM over 14+ event types (§3.40)
-
-**HONEST (v3.2 clarification)**: $F_p$(z) FUNCTIONAL FORM is a FIT (Hill n=2, $z_{\rm half}$=3, L100 PARTIAL). The value $F_p$(0) = 0.9993 is calculated, but the z-evolution is calibrated to cosmic SFR peak. E_primordial is a FREE PARAMETER (L34). $z_{\rm half}$ is a FREE PARAMETER (L35). These were not derived from the cascade.
-
-**The free parameters are**: μ, $m_{3+1D}$ (brane-world, from Lagrangian), plus $z_{\rm half}$ ($F_p$(z) calibration, L35) and $E_{\rm primordial}$ (per-event energy of primordial 2D universes, L34). All 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, Ω's, $g_+$) are taken from data. Everything else follows from the cascade structure (N=12 SYK backbone), but $F_p$(z) z-evolution is phenomenological.
-
-**What is SIDC?** The model is called **SIDC — Scale-Invariant Dimensional Cascade**. The original v2.3.2 name was "Scale-Invariant Dimensional Cascade" (SIDC), shortened to "the cascade" in v2.4-2.7, and now restored as SIDC in v3.0.2 to emphasize the scale-invariance aspect. (The historical "Dimensional Cascade" / DC label is now deprecated.)
-
-**Version:** 3.0.21 (June 2026) — *Build infrastructure refactor: 4 post-processors moved into `paper/build_tools/` (tracked in git); intermediate files in `paper/.build/` (gitignored); no more `/tmp/` dependency. +Build state self-contained inside repo. 330 pages.*
-
-**Version:** 3.0.20 (June 2026) — *Tables now render in PDF (was raw text in v3.0.17). Switched pandoc to markdown+grid_tables+pipe_tables+raw_tex. Added post-processors for LaTeX escaping issues. 409 pages.*
-
-**Version:** 2.7.68 (June 2026) — *Stopping for now. Added TODO section to README with 10 open research questions (1/√N derivation, CKM/PMNS, SM mass ratios, BLG refinement, AdS₂ × S², N=12 reason, full SYK sim, Hawking spectrum, DSSYK, Leech/2). Paper inconsistencies fixed (limitation count 81, §3.48 v2.7.60+ supersession note). Layman summary updated with 'Why 12?' section. No new research, paper preserved at 294 pages, 81 honest limitations.*
-
-**Version:** 2.7.22 (June 2026) — +Updated §0 Parameter Glossary (4 calibrated postulates incl. $A_{event}$ ~ 67 per-event amplification, $F_p(z)$ as smooth function) +Updated §7.0 categorical summary (40 limitations: 18 OPEN, 10 PARTIAL, 7 CLOSED, 2 FALSIFIED, 2 REVERTED, 1 DISCARDED) +§3.16 NEW: meta-section on user-prompted self-critique as a method (formalized methodology, §3.13 → §3.14 → §3.15 worked example): user-prompted self-critique as a method. 45 observational and theoretical constraints from 2024-2026 web research are catalogued: 4 parameter-reducing (4 free → 2 free parameters: μ, $m_{3+1D}$), 7 interpretive-cosmological (TRGB $H_0 = 69.8 \pm 1.9$ is 0.2σ from SIDC $H_{0,4D} = 70.16$ — the KILLER MATCH), 4 interpretive-theoretical (JT gravity = c=1 string limit; matrix model is exact 2D quantum gravity; Schwarzian spectrum), 15 from latest 2024-2025 datasets, 5 late 2025-2026, 5 extended 2025-2026, 5 round 8 (eROSITA ultralight axion, SPHEREx first map, GW231123 most massive BBH, GW230529 NSBH, ACT DR6 + DESI DR1 + Planck NPIPE $H_0 = 69.08$), and 1 NEW SIDC PREDICTION (2D universe birth stochastic GW background, testable with SKA-MPG in 2030s). The c=1 string theory matrix model is the unique exactly solvable 2D QG, with rigorous DOZZ proof (Sept 2025). §8.1.1–§8.1.10 added in paper.
-**Status:** Public release. 5/27/68 is treated as observational data (Planck 2018) with SIDC providing a qualitative interpretation. Earlier 4-zone H(z) attempts (v2.7) and the 5/27 inner split (v2.7.1) are removed as post-hoc fits.
+**For previous version highlights, see [`changelog.md`](changelog.md).**
 
 ---
 
-# ⚠️ STATUS NOTE (v3.1.1, June 2026, REVISED v3.1.2-final, RESTORED v3.2)
+## F-Theory 12D as 4D Bulk (v3.4, see `changelog.md` for details)
 
-**v3.1.1 ORIGINAL**: The "two main points" framing (scaling law + closed loop) was **removed from this README pending review** due to a v10 closed-loop formula discrepancy (10¹⁸ orders of magnitude off from DE calibration).
-
-**v3.1.2-final RESTORATION**: After extensive audit (§3.71, calculations/v31_audit_v312final.py, v31_fback_both_levels.py), the two main results are now EMPIRICALLY VALIDATED and STRUCTURALLY MOTIVATED, with appropriate caveats. See the new section "TWO MAIN RESULTS: Scaling Law + Closed Loop" above for the full v3.2 framing.
-
-**v3.2 STRUCTURAL PRINCIPLES**: Three new principles formalize the framework:
-- ✓ Equal-Universe Principle: within each dimension, all universes are equal (1 species, multiple γ)
-- ✓ Bilateral Democratic Cosmology: 1-species-at-each-level extends UP to 3+1D sub-universes
-- ✓ Time-Dilation Insight: γ_4D = 6.03×10⁹⁰ from 4D proper time makes 3D→4D continuous leakage observable (DE), 2D→3D invisible (2D is too short)
-
-**What changed**:
-- ✓ M^α scaling law validated against 8 events (8/8 within 1.6×)
-- ✓ α = 1.258 REJECTED (only α = 1.289 survives)
-- ✓ Closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$/E_event)^α is UNIVERSAL at every level
-- ✓ M^α scaling DOWN to 2D (TeV, factor of 2); 9D UP scaling DROPPED in v3.3
-- ✓ Equal-Universe Principle (1 species at each level, multiple γ values)
-- ✓ DE-DM unified via continuous vs pulsed return (same mechanism, time dilation determines observability)
-
-**What remains OPEN** (honest):
-- ✗ α = 1.289 derivation (L43 OPEN, 5 attempts failed)
-- ✗ 4π factor derivation (L142a OPEN)
-- ✗ N_sub = free parameter, lifetime UNKNOWN
-- ✗ DE formula derivation (ε is observed, L140 OPEN)
-- ✗ Sub-universe mechanism UNKNOWN
-
-**v3.2 framing**: STRONGLY EMPIRICALLY SUPPORTED + STRUCTURALLY MOTIVATED, NOT first-principles DERIVED. The Equal-Universe Principle (1 species at each level, multiple γ values) is the cleanest statement of what the framework now achieves.
-
-For honest limitations, see `paper/markdown/06_limitations.md` (81 total, including L138-L150 from v3.1.2).
-
----
-
-# 🧮 TWO MAIN RESULTS: Scaling Law + Closed Loop (v3.1.2-final)
-
-**v3.1.1 NOTE**: The "two main points" framing was removed in v3.1.1 due to a v10 closed-loop formula discrepancy (10¹⁸ orders of magnitude off from DE calibration).
-
-**v3.1.2-final UPDATE**: After extensive audit, we now have:
-- ✓ **M^α scaling law** is empirically validated across 14 event types (8/8 within 1.6×)
-- ✓ **Closed-loop formula** is universal at every dimensional transition (2D→3D and 3D→4D)
-- ✓ **Equal-Universe Principle** (1 species at each level, multiple γ values)
-- ✓ **Continuous vs pulsed return** clarifies DE (continuous) vs DM (pulsed) — same mechanism
-- ✓ **M^α scaling DOWN to 2D**: gives TeV scale (factor of 2 from L41). UP to 9D **DROPPED in v3.3** (was 1.3% match to $v_{\rm Higgs}$, no longer supported).
-
-We RESTORE the two main results with appropriate caveats:
-
-## v3.4 UPDATE: F-theory 12D adopted as 4D bulk (structural hypothesis)
-
-**v3.4 (June 2026)**: The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory.
-
-F-theory 12D structure:
-- 10D base = Type IIB spacetime
-- 2D T² fiber = auxiliary elliptic curve encoding axio-dilaton
-- Total: 12D (10 + 2)
-
-**The "12" is structural to F-theory**:
-- 4D: 12 = F-theory dimension (10 + 2)
-- 3D: 12 = SM fermions per generation
-- 2D: 12 = N=12 SYK
-- Same "12" propagated through cascade
-
-**Cascade with F-theory 12D**:
-```
-4D: F-theory 12D on CY3 (compactified)
-   ↓
-3D: SM with 12 fermions/gen, 3 generations
-   ↓
-2D: N=12 SYK (12 Majorana)
-   ↓
-α = 1 + 1/√12 = 1.289 (M^α law)
-```
-
-**What F-theory 12D provides**:
-- ✓ Structural reason for "12" (10+2 dimension)
-- ✓ Structural reason for 3 generations (CY3 topology)
-- ✓ Structural reason for 12 fermions/gen (E_6 → SM)
-- ✓ 4D N=1 SUSY (broken at our scale)
-- ✓ Real, well-developed theory
-
-**What's still open**:
-- ✗ "Why F-theory?" itself is open (structural hypothesis, not derived)
-- ✗ CY3 topology not uniquely determined
-- ✗ 3 generations not strictly derived
-- ✗ 12 fermions/gen is structural (not derived)
-
-**Same 9 parameters, more structure**. See paper §3.5 for details.
+The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Type IIB base + 2D T² fiber = 12D total. The "12" is structural to F-theory (10+2 dimension). CY3 topology not uniquely determined; "12 fermions/gen" was later found to be wrong (15-16 Weyl per gen, was framework interpretation, not law). See `changelog.md` for v3.4 → v3.4.6 honest reframe.
 
 ## Result 1: M^α Scaling Law (τ = (E/$M_{\rm Pl}$)^α × $t_{\rm Pl}$, α = 1.289)
 

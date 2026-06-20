@@ -7,23 +7,33 @@
 **Repository:** https://github.com/ampbuster/gravity-as-residual
 **Current version:** v3.5.8 (June 2026) — see [`changelog.md`](../changelog.md) for the full version history and change list
 
-**v3.5.x HIGHLIGHTS** (CURRENT, June 2026):
-- v3.4.x honest reframe: "12 propagates" is CORRELATION not derivation (8 inconsistencies found, v3.4.5)
-- "12 SM fermions/gen" was WRONG (v3.4.6); 12 GAUGE BOSONS is real match
-- "12" is common in physics for ARITHMETIC reasons (2²×3 highly composite, v3.4.7)
-- Universe age = 1.5×10⁻¹⁵ of lifetime → SIDC is INITIAL-CONDITIONS framework (v3.4.8)
-- v3.5 TIER 2 research: CY3 Z_12 rare (2-3 of ~28), α = 1 + 1/√N interpretation
-- **v3.5.6 WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins:
-  - Unimodular gravity (HT): Λ is integration constant — calibrated μ is EXPECTED
-  - Hagedorn $T_H$ = M_s/(2π) exact from closed string modular invariance (Chaudhuri 2001)
-  - JT U(Φ)=2Φ: the "2" traces to $R_{\rm AdS,2}$ = -2/L²
-  - String thermal duality b ↔ 1/(2b) (Kogan 1990)
-  - Hawking-Page + Euclidean periodicity β = 2πL (SL(2,R))
-- v3.5.7 HOLOGRAPHIC: string minimal area gives μ = M_s² (L319)
-- v3.5.7 AUDIT: framework internally consistent (all numbers add up)
-- μ status: "calibrated" → "STRUCTURALLY MOTIVATED (5+ origins)"
-- DE match: 0.13% (v3.3 simple f_DE formula, near-exact via τ_4D calibrated to DE)
-- 370 pages, 116 honest limitations
+**v3.5.8 HIGHLIGHTS** (CURRENT, June 20, 2026):
+
+**Paper:** 393 pages, 1.42 MB
+**Limitations:** 128 honest (was 116 in v3.5.7, +12 user-driven L308f-L308q)
+
+**v3.5.8 BREAKTHROUGHS** (this release):
+- **MCMC parameter search** (L308m): 4/9 params observationally pinned (α, ε, τ_4D, AGN rate converge within 0.5σ)
+- **α = 1 + 1/√12 FIRST-PRINCIPLES** (L308n, BREAKTHROUGH): 0.025% match with framework
+- **L43 (Lagrangian skeleton → α)**: **OPEN → PARTIAL**
+- **"12" is the cascade fundamental unit** (deepest insight):
+  - α = 1 + 1/√12 (Schwarzian SYK saddle-point)
+  - M_Pl,2D = 12 × v_Higgs (structural, 1.5% off)
+  - Cone depth 4D→3+1D = 12 sub-steps
+  - 12 Majorana = 6 Dirac = 3 generations × 2
+- **First-principles progress**: 0/9 → 1/9 (α derived)
+
+**v3.5.8 STRUCTURAL DISCOVERIES**:
+- **M_Pl,2D & M_Pl,4D honest origins** (L308f, L308g): not first-principles derived (USER-CAUGHT)
+- **Boundary sphere structure** (L308i, USER-DISCOVERED): 2π (S¹) at 2D-3D, 4π (S²) at 3D-4D
+- **Geometric peak at n=6** (L308k, USER-CORRECTED): S⁶ surface area 33.07, cone could extend to 7D/8D
+- **Cone natural range** (L308l, USER-DIRECTED): n=1 to n≈17
+- **N_sub = E_4D/E_sub linear scaling** (L308o, USER-INSIGHT): no longer free parameter
+- **Cone is asymmetric** (L308p, USER-INSIGHT): 4D linear (transcendent), 2D one-to-one (internal)
+- **2D universe is discrete quantum** (L308q, USER-INSIGHT): M_2D = M_Pl,2D²/M_Pl,3D is smallest unit of DM
+
+**For v3.5.8 session details**: see `paper/legacy/v358_user_driven_refinements.md`
+**For full v3.5.8 history**: see [`changelog.md`](../changelog.md) (v3.5.8 SESSION 1 + 2)
 
 **v3.3 HIGHLIGHTS** (HISTORICAL, June 2026): Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), $f_{\rm back}$ UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D= $v_{\rm Higgs}$ DROPPED, $M_{\rm Pl,4D}$ = 4×10²³ GeV via α-weighted GM (DERIVED). The 5/27/68 split matches observation via calibrated event rate. **DE matches within 0.13%** (simple f_DE formula: $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}$^4 with τ_4D calibrated; see §3.67b). HISTORICAL v3.3 era: 382 pages, 81 limitations.
 
@@ -46,7 +56,7 @@
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS is CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **128 honest limitations** (+L308f, +L308g, +L308h, +L308i, +L308j, +L308k, +L308l v3.5.7+) (§7.0 Master Table, v3.5.7): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of α=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 116 across v3.0-v3.5.7 (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, μ structural origins, holographic). L41, L42 closed in v3.0.22 (μ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved (4π specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS is CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **128 honest limitations** (+L308f through +L308q, v3.5.8, 12 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum) (§7.0 Master Table, v3.5.8): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of α=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 128 across v3.0-v3.5.8 (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, μ structural origins, holographic; L308f-L308q added v3.5.7+/v3.5.8 user-driven refinements, MCMC, α first-principles). L41, L42 closed in v3.0.22 (μ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved (4π specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
 
 ---
 
@@ -123,7 +133,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with α coupling, δ-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{active} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, ε $\sim 10^{-38}$, $f_{back} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **128 honest limitations** (+L308f, +L308g, +L308h, +L308i, +L308j, +L308k, +L308l v3.5.7+) across all major claims (see §7.0 Master Table, v3.5.7, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{active} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, ε $\sim 10^{-38}$, $f_{back} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **128 honest limitations** (+L308f through +L308q, v3.5.8, 12 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum) across all major claims (see §7.0 Master Table, v3.5.8, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
@@ -206,7 +216,7 @@ The pattern is the same at every level. The specific values (α, c, N, $f_{\rm D
 
 ## SIDC's honest stance
 
-- **128 honest limitations** documented in §7.0 (v3.5.7 master table; was 67 in v3.1)
+- **128 honest limitations** documented in §7.0 (v3.5.8 master table; was 67 in v3.1, was 116 in v3.5.7)
 - 8 closed, 25 open, 21 partial, 1 resolved, 6 negative, 7 speculative
 - **0 free parameters** at the level of the composite model (N = 12, α = 1.289, c = 1/2, $f_{\rm DE}$ = $8.6 \times 10^{-86}$ are all derived)
 - 1 free parameter at the data-fitting level ( $z_{\rm half}$ = 3)

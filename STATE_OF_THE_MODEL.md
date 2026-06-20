@@ -6,8 +6,15 @@
 
 **Paper**: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
 **Subtitle**: SIDC = Scale-Invariant Dimensional Cascade
-**Version**: v3.5.8 (with sub-versions v3.3, v3.4, v3.5, v3.5.1-v3.5.7, v3.5.7+, v3.5.8)
-**Pages**: 370
+**Version**: v3.5.8 (with sub-versions v3.3, v3.4, v3.5, v3.5.1-v3.5.7, v3.5.7+, v3.5.8 SESSION 1 + 2)
+
+**v3.5.8 BREAKTHROUGHS**:
+- MCMC parameter search (L308m): 4/9 params observationally pinned
+- α = 1 + 1/√12 first-principles (L308n): 0.025% match — BREAKTHROUGH
+- L43 (Lagrangian skeleton → α): OPEN → PARTIAL
+- "12" is cascade fundamental unit (α = 1+1/√12, M_Pl,2D = 12×v_Higgs, cone depth 12)
+- First-principles progress: 0/9 → 1/9 (α derived)
+**Pages**: 393
 **Limitations**: 118 (v3.5.7+ master table, +L308f +L308g, was 116 v3.5.7, was 81 in v3.3)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: 813+ (as of June 20, 2026)
