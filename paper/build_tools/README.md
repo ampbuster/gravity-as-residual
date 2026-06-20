@@ -24,15 +24,16 @@ The tools **MUST** be run in the order below. The first set does
 (spacing, combining) which depends on the structural fixes being done first.
 
 ```
-Step 1: wrap_math_vars.py        # Wrap M_Pl, E_4D, v_Higgs, etc. in $...$
-Step 2: wrap_powers_of_10.py     # Convert 10^N to $10^{N}$
-Step 3: e_to_math.py             # Convert 1.5e10 to $1.5 \times 10^{10}$
-Step 4: greek_to_latex.py        # Convert α, β, γ to $\alpha$, $\beta$, $\gamma$
+Step 1: wrap_math_vars.py         # Wrap M_Pl, E_4D, v_Higgs, etc. in $...$
+Step 2: wrap_powers_of_10.py      # Convert 10^N to $10^{N}$
+Step 3: e_to_math.py              # Convert 1.5e10 to $1.5 \times 10^{10}$
+Step 4: greek_to_latex.py         # Convert α, β, γ to $\alpha$, $\beta$, $\gamma$
+Step 5: fix_greek_subscripts.py   # Fix $\tau$_obs → $\tau_{\rm obs}$ broken patterns
 
 --- (run all cleanup tools in this order) ---
 
-Step 5: combine_adjacent_math.py # Combine "$X$ $Y$" into "$X Y$"
-Step 6: fix_math_spacing.py      # RUN THIS LAST to fix spacing inside math
+Step 6: combine_adjacent_math.py  # Combine "$X$ $Y$" into "$X Y$"
+Step 7: fix_math_spacing.py       # RUN THIS LAST to fix spacing inside math
 ```
 
 **Why this order matters:**
@@ -52,6 +53,7 @@ Step 6: fix_math_spacing.py      # RUN THIS LAST to fix spacing inside math
 | `wrap_powers_of_10.py` | Convert `10^N` text to `$10^{N}$` math |
 | `e_to_math.py` | Convert scientific notation (`1.5e10`) to math form |
 | `greek_to_latex.py` | Convert Unicode Greek letters (α, β, etc.) to LaTeX |
+| `fix_greek_subscripts.py` | Fix broken patterns like `$\tau$_obs` → `$\tau_{\rm obs}$` |
 
 ### Cleanup Fixes (run after)
 
@@ -75,6 +77,16 @@ Step 6: fix_math_spacing.py      # RUN THIS LAST to fix spacing inside math
 **After:** `$M_{\rm Pl,2D} = 3$ TeV`
 
 **Fix:** Run `wrap_math_vars.py`
+
+### Issue: "$	au$_obs" — Greek in math but subscript outside
+
+This happens when `greek_to_latex.py` wraps a Greek letter but leaves
+its subscript outside the math delimiters. The result is broken math.
+
+**Before:** `$	au$_obs` (broken - `$	au$` in math, `_obs` outside)
+**After:** `$	au_{\rm obs}$` (correct)
+
+**Fix:** Run `fix_greek_subscripts.py` (runs after `greek_to_latex.py`)
 
 ### Issue: Greek letters appear as Unicode (α, β, etc.) outside math
 

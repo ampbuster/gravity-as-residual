@@ -4,10 +4,11 @@ cleanup_math.py - Run all math cleanup scripts in sequence
 ==================================================================
 
 Master script that runs the math cleanup tools in the correct order:
-1. wrap_math_vars.py     - Wrap H_0, M_Pl, f_back, etc. in $...$
-2. wrap_powers_of_10.py  - Convert 10^N to $10^{N}$
-3. e_to_math.py          - Convert 1.5e10 to $1.5 \times 10^{10}$
-4. greek_to_latex.py     - Convert α, β, γ to $\alpha$, $\beta$, $\gamma$
+1. wrap_math_vars.py       - Wrap H_0, M_Pl, f_back, etc. in $...$
+2. wrap_powers_of_10.py    - Convert 10^N to $10^{N}$
+3. e_to_math.py            - Convert 1.5e10 to $1.5 \times 10^{10}$
+4. greek_to_latex.py       - Convert α, β, γ to $\alpha$, $\beta$, $\gamma$
+5. fix_greek_subscripts.py - Fix $\tau$_obs → $\tau_{\rm obs}$ patterns
 
 Then builds the PDF and verifies.
 
@@ -25,6 +26,7 @@ SCRIPTS = [
     ('wrap_powers_of_10.py', 'Convert 10^N to $10^{N}$'),
     ('e_to_math.py', 'Convert e-notation to math form'),
     ('greek_to_latex.py', 'Convert Unicode Greek to LaTeX'),
+    ('fix_greek_subscripts.py', 'Fix \\tau\_obs broken patterns'),
 ]
 
 

@@ -50,7 +50,7 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 
 **The §10.1 8-event empirical fit** (the rigorous test set, all REAL events):
 
-| 3D event | $E_{\rm 3D}$ (J) | $\tau$_obs (s) | ratio ( $\tau$_pred/ $\tau$_obs) |
+| 3D event | $E_{\rm 3D}$ (J) | $\tau_{\rm obs}$ (s) | ratio ( $\tau_{\rm pred}$/ $\tau_{\rm obs}$) |
 |---|---|---|---|
 | 1 ton TNT | $4\times 10^{9}$ | $1\times 10^{-43}$ | 1.51 |
 | X-class solar flare | 1×10²⁵ | 1×10⁻²³ | 1.07 |
@@ -100,7 +100,7 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 | Boundary | Lifetime in lower-D frame | $f_{\rm DE}$ rate | Continuous leakage | Pulsed at death | What dominates NOW? |
 |---|---|---|---|---|---|
 | 2D→3D (SN) | 33 s (short, no significant $\gamma$) | $1.6\times$10⁻⁴⁵/s | $33\times 10^{-45}$ = **10⁻⁴⁴** (negligible) | $10^{0}$% at 33s | **Pulsed (DM)** |
-| 3D→4D | 10³⁴ yr ( $\gamma$_4D = 6.03×10⁹⁰ from 4D proper time ~10⁻⁵⁴ yr) | $1.22\times 10^{-85}$/s | 10⁵¹×10⁻⁸⁵ = **O(1)** by heat death | $10^{0}$% at 10³⁴ yr | **Continuous (DE)** |
+| 3D→4D | 10³⁴ yr ( $\gamma_{\rm 4D}$ = 6.03×10⁹⁰ from 4D proper time ~10⁻⁵⁴ yr) | $1.22\times 10^{-85}$/s | 10⁵¹×10⁻⁸⁵ = **O(1)** by heat death | $10^{0}$% at 10³⁴ yr | **Continuous (DE)** |
 
 **Time dilation is the key**: 4D event's proper time is 10⁻²⁰ s, but 3+1D's clock sees it as 10³⁴ yr. This makes 3+1D's continuous leakage observable NOW (as DE). At 2D→3D, no such time dilation exists — 2D universe's 33s lifetime is short, so continuous leakage is invisible. Pulsed return at 33s (= DM) dominates.
 
@@ -260,11 +260,11 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 
 **5/5 dwarf cases still pass**: Sun, AGC 114905, KKR 25, DF2/DF4, FCC 224. **The paper is still consistent with v3.2.**
 
-### Cosmic SFH → $\Omega$_DM Closed-Loop Calculation (v3.2, user-requested)
+### Cosmic SFH → $\Omega_{\rm DM}$ Closed-Loop Calculation (v3.2, user-requested)
 
 **User request**: "for closed loop -> Calculate the total returned energy from the cosmic star formation history and show it matches $\Omega$DM≈0.27"
 
-**HONEST RESULT**: Cosmic SFH integrated gives 7.6×10⁶× TOO LITTLE DM to match $\Omega$_DM = 0.27 from SN-driven 2D universe deaths alone.
+**HONEST RESULT**: Cosmic SFH integrated gives 7.6×10⁶× TOO LITTLE DM to match $\Omega_{\rm DM}$ = 0.27 from SN-driven 2D universe deaths alone.
 
 **Step-by-step calculation**:
 
@@ -280,7 +280,7 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 4. **Total SN-driven DM**:
    $$\rho_{\rm DM}({\rm SN\ driven}) = N_{\rm SN} \times M_{\rm 2D,actual} = 4.5 \times 10^3 \, M_\odot/\text{Mpc}^3$$
 
-5. **Compare to observed $\Omega$_DM**:
+5. **Compare to observed $\Omega_{\rm DM}$**:
    $$\rho_{\rm DM}({\rm observed}) = 3.4 \times 10^{10} \, M_\odot/\text{Mpc}^3$$
 
 6. **Ratio**:
@@ -293,7 +293,7 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 - **0.07% of DM is CUMULATIVE** (from SN-driven 2D universe deaths)
 - $F_p$(0) = 0.9993 (calibrated), $F_p$(1 $10^{0}$) = 1.0
 
-**Primordial contribution**: 4D event mass = 6.0×10¹¹ M_⊙ (galaxy scale). To explain $\Omega$_DM:
+**Primordial contribution**: 4D event mass = 6.0×10¹¹ M_⊙ (galaxy scale). To explain $\Omega_{\rm DM}$:
 $$$N_p = \frac{\rho_{\rm DM}({\rm observed})}{M_{\rm 4D}} = 0.057 \approx 6\%$
 
 So we need ~6% of one 4D event's mass in primordial 2D universe deaths. Plausible if the 4D event creates N_p ~ 10¹² 2D universes of small mass each.
@@ -368,12 +368,12 @@ Here is the picture, in plain language (with appropriate caveats):
 
 **The takeaway (revised):** DE and DM are related geometrically, but the quantitative connection is not yet established.
 
-- **Dark energy** = the "upstairs" view (antigravity from the 4D event that made us). **Observed**: $\rho_{\rm DE}$/ $\rho$_Pl = 10⁻¹²³.
-- **Dark matter** = the "downstairs" view (gravity from the 2D universes our explosions keep creating). **Observed**: $\Omega$_DM = 0.27.
+- **Dark energy** = the "upstairs" view (antigravity from the 4D event that made us). **Observed**: $\rho_{\rm DE}$/ $\rho_{\rm Pl}$ = 10⁻¹²³.
+- **Dark matter** = the "downstairs" view (gravity from the 2D universes our explosions keep creating). **Observed**: $\Omega_{\rm DM}$ = 0.27.
 
 Other models need to *postulate* DE and DM as two unrelated things. SIDC says they're two sides of one geometric fact: **we live in the projection of a 4D event**. The 4D's antigravity is DE, the 2D universes' back-projection is DM. But the geometric PICTURE is not yet a quantitative DERIVATION.
 
-> ⚠️ **Honest framing v3.1.1**: The values $\epsilon = 10^{-38}$ (gravity weakness) and $\rho_{\rm DE}$/$\rho$_Pl = 10⁻¹²³ are **observed**, not derived. The "closed loop" formula gives $f_{\rm back} \sim 4.6 \times 10^{-68}$, which differs from the DE calibration $f_{\rm back} \sim 1.1 \times 10^{-85}$ by 10¹⁸. SIDC provides the geometric picture but not the numerical derivation.
+> ⚠️ **Honest framing v3.1.1**: The values $\epsilon = 10^{-38}$ (gravity weakness) and $\rho_{\rm DE}$/$\rho_{\rm Pl}$ = 10⁻¹²³ are **observed**, not derived. The "closed loop" formula gives $f_{\rm back} \sim 4.6 \times 10^{-68}$, which differs from the DE calibration $f_{\rm back} \sim 1.1 \times 10^{-85}$ by 10¹⁸. SIDC provides the geometric picture but not the numerical derivation.
 
 # 🎯 47 TUC TEST: SIDC vs $\Lambda$CDM Decisive Test
 
@@ -585,13 +585,13 @@ KKR 25's $M_{dyn}$ is **estimated** (⚠️), not measured.
 
 The $M_{dyn}/M_b$ ratio varies systematically with galaxy type:
 
-- **Globular clusters:** $10^{5}–10^{7}\,M_\odot$ — $M_{dyn}/M_b \sim 1$ (no current activity)
-- **Dwarf galaxies:** $10^{5}–10^{8}\,M_\odot$ — $M_{dyn}/M_b \sim 1–1700$ (huge spread)
-- **UFDs:** $10^{2}–10^{4}\,M_\odot$ — $M_{dyn}/M_b \sim 50–1700$ (extreme)
-- **Irregular galaxies:** $10^{8}–10^{9}\,M_\odot$ — $M_{dyn}/M_b \sim 6–7$
-- **Normal spirals:** $10^{10}–10^{11}\,M_\odot$ — $M_{dyn}/M_b \sim 14–30$
-- **AGN hosts:** $10^{12}\,M_\odot$ — $M_{dyn}/M_b \sim 50$
-- **Galaxy clusters:** $10^{13}–10^{14}\,M_\odot$ — $M_{dyn}/M_b \sim 10–50$
+- **Globular clusters:** $10^{5}–10^{7}\,M_\odot$ — $M_{dyn}/$M_b $\sim 1$ (no current activity)
+- **Dwarf galaxies:** $10^{5}–10^{8}\,M_\odot$ — $M_{dyn}/$M_b $\sim 1–1700$ (huge spread)
+- **UFDs:** $10^{2}–10^{4}\,M_\odot$ — $M_{dyn}/$M_b $\sim 50–1700$ (extreme)
+- **Irregular galaxies:** $10^{8}–10^{9}\,M_\odot$ — $M_{dyn}/$M_b $\sim 6–7$
+- **Normal spirals:** $10^{10}–10^{11}\,M_\odot$ — $M_{dyn}/$M_b $\sim 14–30$
+- **AGN hosts:** $10^{12}\,M_\odot$ — $M_{dyn}/$M_b $\sim 50$
+- **Galaxy clusters:** $10^{13}–10^{14}\,M_\odot$ — $M_{dyn}/$M_b $\sim 10–50$
 
 SIDC's qualitative picture: galaxies with non-trivial past SF
 have non-zero $M_{dyn}$. The specific value of $M_{dyn}/M_b$ depends on
@@ -603,7 +603,7 @@ the SFH, but the SIGN (non-zero) is preserved.
 
 **AGC 114905 (Mancera Piña+ 2022, Sellwood 2022)** — **DISPUTED but INCLUDED**
 - $M_{b} \sim 7.3 \times 10^{8}\,M_\odot$ is measured
-- $M_{dyn}/M_b \sim 1.36$ (Mancera Piña 2022) vs $\sim 2–3$ (Sellwood 2022)
+- $M_{dyn}/$M_b $\sim 1.36$ (Mancera Piña 2022) vs $\sim 2–3$ (Sellwood 2022)
 - The 2022-2025 literature has **TWO contradictory conclusions**:
   - Mancera Piña 2022: "No trace of dark matter"
   - Sellwood 2022: "AGC 114905 NEEDS dark matter"
@@ -662,7 +662,7 @@ disputed (would change with new consensus).
 **Note on KKR 25:** KKR 25 is **included** in the table above, but
 its $M_{dyn}/M_b$ is **estimated** (⚠️ marker) rather than measured. The
 SIDC uses $\sigma \sim 3–5$ km/s and $r_h \sim 0.5--1$ kpc (typical dSph
-parameters) to estimate $M_{dyn} \sim 3 \times 10^{6}\,M_\odot$ and $M_{dyn}/M_b \sim 1$. This
+parameters) to estimate $M_{dyn} \sim 3 \times 10^{6}\,M_\odot$ and $M_{dyn}/$M_b$ \sim 1$. This
 is a **rough estimate** with $\sim 50\%$ uncertainty, not a measurement.
 KKR 25's $M_{dyn}$ is still in SIDC's 12/12 test suite (paper §12)
 as a qualitative test (consistent with SIDC), but its specific
@@ -965,14 +965,14 @@ A new section §12 consolidates SIDC's galaxy-level tests against the *entire ga
 1. **47 Tucanae** — $M_{dyn} \approx M_{stars}$ (no current activity)
 2. **AGC 114905** — $M_{dyn} \approx M_b$ (DISPUTED, low SFH throughout, contested data)
 3. **KKR 25** — $M_{dyn} \approx M_b$ (REVISED v2.7.33+, $M_{dyn}$ estimated, original bifurcation removed v2.7.36+)
-4. **Milky Way** — $M_{dyn}/M_b \sim 30$ (normal spiral)
+4. **Milky Way** — $M_{dyn}/$M_b $\sim 30$ (normal spiral)
 5. **NGC 1052-DF2** — $M_{dyn} \approx M_b$ (UDG, claimed no DM, SIDC explains naturally)
 6. **Tucana dSph** — $M_{dyn} \approx M_b$ (isolated, quenched 6+ Gyr)
 7. **Bullet Cluster (1E 0657-56)** — 720 kpc gas-galaxy separation (consistency check, not unique smoking gun)
 8. **Omega Centauri** — $M_{dyn} \approx M_b$ (massive GC, 8200 $M_\odot$ IMBH)
-9. **M82** — $M_{dyn}/M_b \sim 4$ (extreme starburst, 10 $M_\odot$/yr)
-10. **NGC 1275** — $M_{dyn}/M_b \sim 50$ (AGN host, Perseus A)
-11. **Dragonfly 44** — $M_{dyn}/M_b \sim 300$ (Coma UDG, disputed high DM)
+9. **M82** — $M_{dyn}/$M_b $\sim 4$ (extreme starburst, 10 $M_\odot$/yr)
+10. **NGC 1275** — $M_{dyn}/$M_b $\sim 50$ (AGN host, Perseus A)
+11. **Dragonfly 44** — $M_{dyn}/$M_b $\sim 300$ (Coma UDG, disputed high DM)
 12. **CVnC dwarf (v2.7.32+, Hagen+ 2026)** — $M_{dyn}$ ≫ $M_{b}$ (quenched isolated dwarf, may have past interaction with NGC 4631; adds to "growing number of quenched dwarfs in underdense environments"; F(z) intermediate $\sim 0.5$)
 
 **The intermediate population (v2.7.32+, §3.26):**
