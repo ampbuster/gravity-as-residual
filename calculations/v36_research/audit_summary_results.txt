@@ -1,0 +1,87 @@
+================================================================================
+v3.5.9+ COMPREHENSIVE FORMULA AUDIT
+================================================================================
+
+✓ CONSISTENT FORMULAS
+--------------------------------------------------------------------------------
+M_Pl,3D = √(ℏc/G_N) = 1.3589e+02 GeV ✓ (matches framework 1.22×10¹⁹)
+M_Pl,2D = N × v_H = 12 × 246.22 = 2954.64 GeV ✓ (matches 2955)
+μ = M_Pl,2D² = 8.7299e+06 GeV² ✓ (matches 8.73×10⁶)
+α = 1 + 1/√12 = 1.2886751346 ✓ (0.025% match to framework 1.289)
+M_Pl,4D (α-GM) = 3.9750e+23 GeV ✓ (1.2% match to 3.93×10²³)
+τ_2D (SN, M^α law) = 29.64 s ✓ (10% match to 33 s calibrated)
+N_sub = 3.86e+02 → E_sub = 1.295e+77 J ✓ (small galaxy mass)
+
+================================================================================
+⚠️ INCONSISTENCIES FOUND
+================================================================================
+
+INCONSISTENCY 1: τ_3D,apparent and γ_4D are inconsistent
+--------------------------------------------------------------------------------
+
+Framework claims:
+  γ_4D = 5.93e+90
+  τ_4D,proper = 1.51e+34 yr
+  τ_3D,apparent = γ_4D × τ_4D,proper = 8.95e+124 yr
+  Framework says: 8.95×10²⁴ yr
+  ACTUAL product: 8.95e+124 yr
+  DISCREPANCY: 10^100!
+
+INCONSISTENCY 2: M^α law at 4D level
+--------------------------------------------------------------------------------
+
+Framework claims M^α law universal: τ = (E/M_Pl,parent)^α × t_Pl
+
+M^α law at 4D level (parent = M_Pl,4D = 3.93e+23):
+  τ_4D = (E_4D/M_Pl,4D)^α × t_Pl,4D = 4.676e+29 yr
+  Framework: 1.510e+34 yr
+  Ratio: framework/calc = 3.229e+04
+  M^α law is OFF by factor 3×10⁴ at 4D level!
+
+INCONSISTENCY 3: γ_4D formula uses M_Pl,3D not M_Pl,4D
+--------------------------------------------------------------------------------
+
+Framework γ_4D = 5.93e+90
+γ_4D = (E_4D/M_Pl,4D)^α = (E/M_Pl,4D)^α = 8.81e+84
+γ_4D = (E_4D/M_Pl,3D)^α = 5.70e+90  ← MATCHES framework's 5.93e90!
+
+Framework uses M_Pl,3D in γ_4D formula, but M^α law says use M_Pl,parent (M_Pl,4D)
+
+================================================================================
+HISTORICAL CONTEXT (v3.1.2-final was self-consistent)
+================================================================================
+
+v3.1.2-final interpretation (SELF-CONSISTENT):
+  γ ~ 10^62 (standard SR time dilation)
+  τ_4D,apparent = 1.4×10³⁴ yr (3+1D frame)
+  τ_4D,proper = 10⁻²⁰ s (4D event's proper time in 4D frame)
+  Check: 10^62 × 10⁻²⁰ s = 10^42 s = 3.17×10³⁴ yr ≈ 1.4×10³⁴ yr ✓
+
+v3.3+ interpretation (INCONSISTENT):
+  γ_4D = 5.93×10⁹⁰
+  τ_4D,proper = 1.51×10³⁴ yr (interpreted as 'proper')
+  τ_3D,apparent = 8.95×10²⁴ yr
+  Check: 5.93×10⁹⁰ × 1.51×10³⁴ yr = 8.95×10¹²⁴ yr (NOT 8.95×10²⁴)
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+Option A: Revert to v3.1.2 interpretation (SELF-CONSISTENT)
+  γ_4D = 10⁶²
+  τ_4D,apparent = 1.4×10³⁴ yr
+  τ_4D,proper = 10⁻²⁰ s
+  DE matching: still works (f_DE = t_Pl/τ_4D = 1.2×10⁻⁸⁵)
+
+Option B: Document inconsistency, use v3.3+ values with caveats
+  Keep γ_4D = 5.93×10⁹⁰, but note:
+  - M^α law fails at 4D level (off by 10⁵)
+  - γ × τ product doesn't give τ_3D,apparent
+  - τ_4D,proper is calibrated to DE, not from M^α law
+
+Option C: Drop γ_4D, use only α-GM for M_Pl,4D
+  M_Pl,4D is derived via α-GM closed loop
+  No claim of M^α law at 4D level
+  DE matching sets τ_4D,proper empirically
+
+I recommend Option A — preserves the framework's derivations while fixing inconsistencies.

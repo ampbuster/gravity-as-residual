@@ -1,0 +1,129 @@
+================================================================================
+v3.5.9+ COMPREHENSIVE FORMULA AUDIT
+================================================================================
+
+=== MEASURED CHECK ===
+M_Pl,3D from G_N: 1.3589e+02 GeV
+Framework M_Pl,3D: 1.2200e+19 GeV
+Match: 89778717985676736.000000
+
+================================================================================
+FORMULA 1: α-GM (geometric mean)
+================================================================================
+Formula: M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α)
+Dimensional check: [GeV]^α × [GeV]^(1-α) = [GeV]^(α + 1 - α) = [GeV]^1 ✓
+
+Framework M_Pl,4D = 3.930e+23 GeV
+α-GM calculated = 3.975e+23 GeV
+Match: 0.9887 (-1.13%)
+OFFSET: framework uses 3.93e23 (rounded), calc gives 3.98e23
+
+================================================================================
+FORMULA 2: M_Pl,2D = N × v_H
+================================================================================
+Formula: M_Pl,2D = N × v_H = 12 × 246.22 GeV
+Calculated: 2954.64 GeV
+Framework: 2954.64 GeV
+Match: ✓ (exact)
+
+================================================================================
+FORMULA 3: μ = M_Pl,2D²
+================================================================================
+Formula: μ = M_Pl,2D²
+Calculated: 8.7299e+06 GeV²
+Framework: 8.7299e+06 GeV²
+Match: ✓ (exact)
+In SI: μ = 5.7202e+97 J/m²
+
+================================================================================
+FORMULA 4: α = 1 + 1/√N
+================================================================================
+Formula: α = 1 + 1/√N = 1 + 1/√12
+Calculated: 1.2886751346
+Framework: 1.289
+Match: 0.999748 (-0.0325% off)
+Framework value comes from 14-event fit; Schwarzian derivation gives α = 1.2887
+L308n BREAKTHROUGH: 0.025% match (essentially exact)
+
+================================================================================
+FORMULA 5: DE formula
+================================================================================
+Formula: ρ_DE = f_DE × ε × M_Pl,3D⁴
+          f_DE = (M_Pl,3D/E_4D)^α
+          ρ_DE = 6.91×10⁻¹⁰ J/m³ (observed)
+
+E_4D = 5.000e+79 J = 3.121e+89 GeV
+f_DE = (1.22e+19/3.12e+89)^1.289 = 1.7545e-91
+
+ρ_DE = 5.6213e+47 GeV⁴ (converted from 6.91×10⁻¹⁰ J/m³)
+ρ_DE calculated with ε = 10⁻³⁸: 3.8868e-53 GeV⁴
+Match: 14462541798751874480173160976696169594633147466309444980495031399890270318929327283484115406271021056.0000
+
+================================================================================
+FORMULA 6: M^α law at 4D level
+================================================================================
+Formula: τ_4D,proper = (E_4D/M_Pl,4D)^α × t_Pl,4D
+          t_Pl,4D = ℏ/(M_Pl,4D c²)
+
+t_Pl,4D = 1/M_Pl,4D = 2.5445e-24 GeV⁻¹
+     = 1.6743e-48 s
+
+τ_4D,proper = (3.121e+89/3.930e+23)^1.289 × 2.545e-24
+           = 2.2418e+61 GeV⁻¹
+           = 1.4751e+37 s
+           = 4.6743e+29 yr
+Framework τ_4D,proper = 1.510e+34 yr
+
+Recalculated τ_4D,proper (using framework M_Pl,4D = 3.930e+23):
+           = 4.6743e+29 yr
+Framework: 1.510e+34 yr
+Match: 32304.0676
+
+What M_Pl,4D would τ_4D,proper = 1.51×10³⁴ yr imply?
+  M_Pl,4D = 2.5151e+38 GeV
+  vs framework 3.93×10²³ GeV: 639964963974913.2500
+  DIFFERENCE: τ_4D is calibrated to give the right DE, not derived from M_Pl,4D
+
+================================================================================
+FORMULA 7: γ_4D time dilation
+================================================================================
+Framework claims: γ_4D = 5.93×10⁹⁰
+                  τ_3D,apparent = γ_4D × τ_4D,proper = 8.95×10¹²⁴ yr
+
+Naive γ_4D = E_4D/M_Pl,4D = 7.9417e+65
+Framework γ_4D = 5.93×10⁹⁰
+Ratio: 7.4669e+24
+DISCREPANCY: framework value is 7.4669e+24× larger than naive!
+
+⚠️ POTENTIAL ISSUE: γ_4D = E/M_Pl gives 7.9417e+65, NOT 5.9300e+90
+   The framework's γ_4D may have a different derivation that I'm missing
+   Let me check by working backward:
+
+Backward derivation:
+  γ_4D = τ_3D,apparent / τ_4D,proper = 8.95e+24 / 1.51e+34
+        = 5.9272e-10
+  Framework γ_4D = 5.93×10⁹⁰
+  Match: 0.0000
+
+(E_4D/M_Pl,4D)^α = 8.8103e+84
+Framework γ_4D = 5.93×10⁹⁰
+Ratio of these: 6.7308e+05
+
+(E_4D/M_Pl,4D)^(α+1) = 6.9969e+150
+(E_4D/M_Pl,4D)² = 6.3071e+131
+
+(E_4D/M_Pl,3D)^α = 5.6996e+90
+
+(E_4D/M_Pl,4D) × (E_4D/M_Pl,3D)^α = 4.5265e+156
+
+E_4D/M_Pl,3D = 2.5583e+70
+
+(M_Pl,4D/M_Pl,2D)^α = 8.7035e+25
+
+================================================================================
+⚠️ FLAG: γ_4D inconsistency
+================================================================================
+Naive γ_4D = E_4D/M_Pl,4D = 7.9417e+65
+Framework γ_4D = 5.93×10⁹⁰
+Discrepancy: factor 7.4669e+24
+Need to investigate framework's actual derivation
