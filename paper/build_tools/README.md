@@ -32,7 +32,7 @@ Step 8: fix_math_spacing.py       (fix spacing inside math, sensitive to $ place
   latter wraps Greek in math but leaves subscript outside (creates
   `$\tau$_obs` from `τ_obs`). This is a "broken-from-prior-fix" pattern.
 
-## fix_broken_markdown.py patterns (1-12)
+## fix_broken_markdown.py patterns (1-21)
 
 1. `** $math` → `**$math` (bold + space + math)
 2. `( $math` → `($math` (open paren + space + math)
@@ -46,6 +46,15 @@ Step 8: fix_math_spacing.py       (fix spacing inside math, sensitive to $ place
 10. `$\Lambda$CDM` → `$\Lambda{\rm CDM}$` (CDM in roman)
 11. `$X/$Y` → `$X/Y$` (slash between adjacent math, with chain handling)
 12. `$X^{$Y^Z}$` → `$X^{Y^Z}$` (nested math in superscript)
+13. `X^$Y$` → `$X^{Y}$` (sup symbol before math)
+14. `\times $X$` → `\times X$` (remove inner math delimiters)
+15. `\sim $X$` → `\sim X$` (remove inner math delimiters)
+16. `1/(2$\alpha$)` → `$1/(2\alpha)$` (wrap whole in math)
+17. `c/\alpha$` → `$c/\alpha$` (wrap whole in math, lookbehind for $)
+18. `(1/2$\alpha$)` → `$(1/(2\alpha))$` (table cells, wrap whole in math)
+19b. `)^$\alpha$` → `)$^{\alpha}$` (caret outside math, preserve $ count)
+20b. `)^($X$)` → `)$^{X}$` (nested parens around math, preserve $ count)
+21. `E_Pl,N` → `$E_{\rm Pl,N}$` (wrap in math, lookbehind for $)
 
 ## Common Issues Table
 
