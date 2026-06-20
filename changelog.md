@@ -3779,7 +3779,7 @@ All remaining $H_0$ = 73 references in code are either:
 - Zone 2 (z=0.02-1.5, mid-z TRGB/sirens): 4D bulk shines through, $H_0$ = 70.16
 - Zone 3 (z=1100, CMB): Thomson+recombination fully active, $H_0$ = 67.4 (drag -2.76)
 
-**Key insight:** $H_0$,4D = sqrt(H_CMB × H_local) = sqrt(67.4 × 73.04) = 70.16. The geometric mean of the two observed $H_0$ values gives the cascade's "intrinsic" 4D event value to within 0.1%.
+**Key insight:**$H_0$,4D = sqrt(H_CMB × H_local) = sqrt(67.4 × 73.04) = 70.16. The geometric mean of the two observed $H_0$ values gives the cascade's "intrinsic" 4D event value to within 0.1%.
 
 **5.6 km/s/Mpc Hubble tension decomposed:**
 - Local R_stellar boost: +2.88 km/s/Mpc (52% of gap)

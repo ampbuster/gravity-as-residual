@@ -29,11 +29,12 @@ Step 2: wrap_powers_of_10.py      # Convert 10^N to $10^{N}$
 Step 3: e_to_math.py              # Convert 1.5e10 to $1.5 \times 10^{10}$
 Step 4: greek_to_latex.py         # Convert α, β, γ to $\alpha$, $\beta$, $\gamma$
 Step 5: fix_greek_subscripts.py   # Fix $\tau$_obs → $\tau_{\rm obs}$ broken patterns
+Step 6: fix_broken_markdown.py    # Fix ** $math → **$math, ( $math → ($math
 
 --- (run all cleanup tools in this order) ---
 
-Step 6: combine_adjacent_math.py  # Combine "$X$ $Y$" into "$X Y$"
-Step 7: fix_math_spacing.py       # RUN THIS LAST to fix spacing inside math
+Step 7: combine_adjacent_math.py  # Combine "$X$ $Y$" into "$X Y$"
+Step 8: fix_math_spacing.py       # RUN THIS LAST to fix spacing inside math
 ```
 
 **Why this order matters:**
@@ -54,6 +55,7 @@ Step 7: fix_math_spacing.py       # RUN THIS LAST to fix spacing inside math
 | `e_to_math.py` | Convert scientific notation (`1.5e10`) to math form |
 | `greek_to_latex.py` | Convert Unicode Greek letters (α, β, etc.) to LaTeX |
 | `fix_greek_subscripts.py` | Fix broken patterns like `$\tau$_obs` → `$\tau_{\rm obs}$` |
+| `fix_broken_markdown.py` | Fix `** $math` → `**$math`, `( $math` → `($math` |
 
 ### Cleanup Fixes (run after)
 
@@ -109,6 +111,20 @@ its subscript outside the math delimiters. The result is broken math.
 
 **Fix:** Run `fix_math_spacing.py` (LAST!)
 
+
+
+### Issue: "** $math" or "( $math" — markdown + space + math
+
+When math is inserted into bold or parentheses, a space between the
+markup and the math creates visual issues in rendered output.
+
+**Before:** `** $lpha$ = 1.258 test**` (broken - space inside bold)
+**After:** `**$lpha$ = 1.258 test**` (correct)
+
+**Before:** `( $M_{\rm 2D}$ is quantum)` (broken - space after paren)
+**After:** `($M_{\rm 2D}$ is quantum)` (correct)
+
+**Fix:** Run `fix_broken_markdown.py` (runs late in pipeline)
 ## Why this matters
 
 The math notation fixes are needed because:

@@ -22,7 +22,7 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 ### 9.2 SIDC vs MOND (Modified Newtonian Dynamics)
 
-**MOND's strength and weakness.** MOND elegantly eliminates the need for dark matter in individual spiral galaxies by modifying Newton's law of gravity at a universal acceleration floor ( $a_0 \sim 1.2 \times 10^{-10}$ m/s²). It works beautifully for isolated spiral galaxies (the SPARC dataset, 175 galaxies). But it fails fundamentally in massive galaxy clusters: the observed acceleration scale in cluster cores is an order of magnitude higher ( $\sim 10^{-9}$ m/s², Tian+ 2024), forcing MOND proponents to awkwardly introduce unseen baryonic gas or hypothetical sterile neutrinos to make the math work.
+**MOND's strength and weakness.** MOND elegantly eliminates the need for dark matter in individual spiral galaxies by modifying Newton's law of gravity at a universal acceleration floor ($a_0 \sim 1.2 \times 10^{-10}$ m/s²). It works beautifully for isolated spiral galaxies (the SPARC dataset, 175 galaxies). But it fails fundamentally in massive galaxy clusters: the observed acceleration scale in cluster cores is an order of magnitude higher ($\sim 10^{-9}$ m/s², Tian+ 2024), forcing MOND proponents to awkwardly introduce unseen baryonic gas or hypothetical sterile neutrinos to make the math work.
 
 **SIDC's hybrid advantage.** SIDC behaves like MOND in quiet, low-density spiral arms because the 2D universe projection establishes a non-linear acceleration floor. However, because the model tracks integrated historical energetic events, massive galaxy clusters — which are filled with violent, space-time-compressing plasma shocks — consistently blow past the $E_{crit}$ phase-transition threshold across massive spatial volumes. This naturally scales the apparent acceleration up to match the Tian+ 2024 cluster data, seamlessly bridging the gap that leaves MOND stranded.
 
@@ -40,7 +40,7 @@ SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling
 
 **The "top-down" complexity failure.** Large Extra Dimension (ADD) and Warped Extra Dimension (Randall-Sundrum) models are "top-down" architectures. They posit a massive, static higher-dimensional "bulk" space to dilute gravity and solve the Hierarchy Problem. These theories excel at mathematical string-theory formalisms, but they treat the extra dimensions as permanent, passive plumbing. They do not natively explain the dark sector or specific galactic evolutionary anomalies without adding highly specialized scalar fields or assuming unobserved parallel branes.
 
-**SIDC's dynamic advantage.** SIDC is a *dynamic, bottom-up* fractal SIDC. Extra dimensions aren't a static background; our universe actively spawns lower-dimensional spaces (3+1D → 2D) when localized energy density passes a critical threshold ( $E_{crit}$). The dark sector is reframed as the dynamic, time-delayed transactional debt of this scale-invariant lifecycle. The model uses dimensions to solve the Hierarchy Problem while simultaneously outputting the exact galactic dark profiles observed in nature.
+**SIDC's dynamic advantage.** SIDC is a *dynamic, bottom-up* fractal SIDC. Extra dimensions aren't a static background; our universe actively spawns lower-dimensional spaces (3+1D → 2D) when localized energy density passes a critical threshold ($E_{crit}$). The dark sector is reframed as the dynamic, time-delayed transactional debt of this scale-invariant lifecycle. The model uses dimensions to solve the Hierarchy Problem while simultaneously outputting the exact galactic dark profiles observed in nature.
 
 **Quantitative comparison:**
 
@@ -62,7 +62,7 @@ SIDC inherits the hierarchy-problem solution of brane-world models while extendi
 **SIDC's temporal advantage.** By introducing the Stellar Age Lifecycle matrix (Limitation 24), the SIDC model possesses a historic ledger system. It flawlessly accounts for:
 
 - **AGC 114905** (DM-poor, $\sim 10^{9}$ M $_\odot$ baryons): diffuse star formation that *never crossed* $E_{crit}$.
-- **KKR 25** (REVISED v2.7.33+, DM-rich dSph, $M_{b}$ = $3 \times 10^{6} M_\odot$): an intense historical starburst 1-4 Gyr ago whose $S_{destruction}$ energy remains permanently cached on our brane as a stable gravitational fossil. SIDC's previous $M_{b}$ ( $3 \times 10^{9}$) was 1000× too high vs. Makarov 2012; the $M_{dyn}$/ $M_{b}$ ~ 1-4 (was 299) is still consistent with dSph typical values.
+- **KKR 25** (REVISED v2.7.33+, DM-rich dSph, $M_{b}$ = $3 \times 10^{6} M_\odot$): an intense historical starburst 1-4 Gyr ago whose $S_{destruction}$ energy remains permanently cached on our brane as a stable gravitational fossil. SIDC's previous $M_{b}$ ($3 \times 10^{9}$) was 1000× too high vs. Makarov 2012; the $M_{dyn}$/ $M_{b}$ ~ 1-4 (was 299) is still consistent with dSph typical values.
 
 The distinction is *when* the energetic events happened, not just how much mass is there now. Entropic gravity cannot make this distinction; SIDC does.
 

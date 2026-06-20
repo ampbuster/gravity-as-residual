@@ -27,6 +27,7 @@ SCRIPTS = [
     ('e_to_math.py', 'Convert e-notation to math form'),
     ('greek_to_latex.py', 'Convert Unicode Greek to LaTeX'),
     ('fix_greek_subscripts.py', 'Fix \\tau\_obs broken patterns'),
+    ('fix_broken_markdown.py', 'Fix ** $math and ( $math patterns'),
 ]
 
 

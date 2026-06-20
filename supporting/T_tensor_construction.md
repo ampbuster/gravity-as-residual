@@ -62,7 +62,7 @@ where:
 - $S_{\mu\nu} = T T_{\mu\nu} - \frac{1}{4} T^{\alpha\beta} T_{\alpha\beta} g_{\mu\nu} + ...$ (quadratic in T, high-energy correction)
 - $\mathcal{E}_{\mu\nu} = {}^{(5)}C_{\mu A \nu B} n^A n^B$ is the projection of the 5D Weyl tensor onto the brane (the "dark radiation" / "Weyl shadow" term)
 
-**For the SIDC model:** $\mathcal{E}_{\mu\nu}$ is the cascade's candidate for *dark matter* — the gravitational back-projection from the bulk, sourced by 2D universe dynamics.
+**For the SIDC model:**$\mathcal{E}_{\mu\nu}$ is the cascade's candidate for *dark matter* — the gravitational back-projection from the bulk, sourced by 2D universe dynamics.
 
 **Spec note (Phase 3, Component A):** The spec uses $S_{\mu\nu} \propto T_\mu T_\nu - \frac{1}{2} T T_{\mu\nu}$. I'll use the standard quadratic form (Maeda-Sasaki) which has the same structure up to coefficients.
 
@@ -111,7 +111,7 @@ where:
 - $S_{\mu\nu}$ is the quadratic high-energy correction (the "phase transition" trigger for $E \geq E_{\text{crit}}$)
 - $\mathcal{E}_{\mu\nu}$ is the projected Weyl tensor (the "Weyl shadow" / DM candidate)
 
-**In SIDC terms:** $T_{\mu\nu}^{\text{total}}$ is what we are constructing. $S_{\mu\nu}$ is the threshold mechanism (governs when 2D universe creation becomes significant). $\mathcal{E}_{\mu\nu}$ is the cumulative effect of all 2D universe endings in the past light cone of any given point.
+**In SIDC terms:**$T_{\mu\nu}^{\text{total}}$ is what we are constructing. $S_{\mu\nu}$ is the threshold mechanism (governs when 2D universe creation becomes significant). $\mathcal{E}_{\mu\nu}$ is the cumulative effect of all 2D universe endings in the past light cone of any given point.
 
 ### Component B: 2D Localized Defect Source
 
@@ -199,7 +199,7 @@ $$\boxed{T_{\mu\nu}^{\text{eff}} = T_{\mu\nu}^{\text{SM}} + \frac{\kappa_5^4}{8\
 
 ### Step 4.4: Covariant Conservation Proof
 
-**Claim:** $\nabla^\mu T_{\mu\nu}^{\text{eff}} = 0$.
+**Claim:**$\nabla^\mu T_{\mu\nu}^{\text{eff}} = 0$.
 
 **Proof strategy:** Show each term is individually covariantly conserved (or, for fossil terms, show they cancel under the cascade's coupling).
 
@@ -243,7 +243,7 @@ $$\nabla^\mu T_{\mu\nu}^{\text{eff}} = \nabla^\mu T_{\mu\nu}^{\text{SM}} + \frac
 
 $$= 0 + 0 + \frac{1}{8\pi G_4} \nabla^\mu \mathcal{E}_{\mu\nu} + 0$$
 
-The non-trivial term is the bulk leakage. **In the cascade's bulk-minimization limit (spec's Phase 4.3),** $\nabla^\mu \mathcal{E}_{\mu\nu} \to 0$ and the total is conserved.
+The non-trivial term is the bulk leakage. **In the cascade's bulk-minimization limit (spec's Phase 4.3),**$\nabla^\mu \mathcal{E}_{\mu\nu} \to 0$ and the total is conserved.
 
 **QED.** The conservation of $T_{\mu\nu}^{\text{eff}}$ holds exactly in the bulk-minimization limit, and is approximately conserved in the general case with the residual non-conservation bounded by the bulk leakage rate.
 
@@ -257,7 +257,7 @@ The non-trivial term is the bulk leakage. **In the cascade's bulk-minimization l
 
 **Verification:** The quadratic term in RS-II is $S_{\mu\nu} \sim (T/M_5)^2 \cdot M_5^2$ where $M_5$ is the 5D Planck scale. For $T \sim \rho \sim$ event energy density, $S_{\mu\nu}$ scales as $\rho^2$, while $T_{\mu\nu}$ scales as $\rho$. So at high $\rho$, $S_{\mu\nu}$ dominates. ✓
 
-**SIDC threshold:** $E_{\text{crit}} \sim 10^{30}$ J corresponds to $\rho_{\text{crit}} \sim E_{\text{crit}} / L^3$ for a typical $L \sim 10^4$ m (supernova core): $\rho_{\text{crit}} \sim 10^{30}/10^{12} = 10^{18}$ J/m³. This is the cascade's *phase transition* threshold — below it, $S_{\mu\nu}$ is subdominant; above it, $S_{\mu\nu}$ triggers the 2D universe creation. ✓
+**SIDC threshold:**$E_{\text{crit}} \sim 10^{30}$ J corresponds to $\rho_{\text{crit}} \sim E_{\text{crit}} / L^3$ for a typical $L \sim 10^4$ m (supernova core): $\rho_{\text{crit}} \sim 10^{30}/10^{12} = 10^{18}$ J/m³. This is the cascade's *phase transition* threshold — below it, $S_{\mu\nu}$ is subdominant; above it, $S_{\mu\nu}$ triggers the 2D universe creation. ✓
 
 ### 5.2 2D Vacuum Limit (Zero DM in Empty Regions)
 

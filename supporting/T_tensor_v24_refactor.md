@@ -20,7 +20,7 @@ The v2.3.2 tensor pipeline assumes the bulk channel is non-propagating for the S
 
 ### 1.2 The Boundary Condition
 
-**Define the bulk energy-momentum tensor** $T^{AB}_{\text{bulk}}$ in the 5D bulk (the bulk vacuum plus any 5D excitations):
+**Define the bulk energy-momentum tensor**$T^{AB}_{\text{bulk}}$ in the 5D bulk (the bulk vacuum plus any 5D excitations):
 
 $$T^{AB}_{\text{bulk}} = -\frac{1}{\kappa_5^2}\left(G^{AB} + \Lambda_5 g^{AB}\right) + T^{AB}_{\text{5D matter}}$$
 
@@ -52,7 +52,7 @@ The 5D field equations with the v2.4 zero-leakage constraint are:
 
 $$G_{AB} = -\Lambda_5 g_{AB} + \kappa_5^2 T_{AB}^{\text{bulk}} \quad \text{with} \quad J^A_{\text{bulk}}\big|_{y=0} = 0$$
 
-This single boundary condition **eliminates the bulk leakage free parameter** $f_{\text{back}}$ from the v2.3.2 framework. In v2.3.2, $f_{\text{back}}$ was a free parameter (postulated to be 1). In v2.4, it is a *consequence* of the boundary condition, not a free choice.
+This single boundary condition **eliminates the bulk leakage free parameter**$f_{\text{back}}$ from the v2.3.2 framework. In v2.3.2, $f_{\text{back}}$ was a free parameter (postulated to be 1). In v2.4, it is a *consequence* of the boundary condition, not a free choice.
 
 **Status: Limitation 26 free parameter count reduced by 1.**
 
@@ -243,13 +243,13 @@ $$T_{\mu\nu}^{\text{eff}} = T_{\mu\nu}^{\text{SM}} + \frac{\kappa_5^4}{8\pi G_4}
 
 The changes are in:
 
-**1. The bulk boundary condition:** $J^A_{\text{bulk}}|_{\text{brane}} = 0$ (Task 1)
+**1. The bulk boundary condition:**$J^A_{\text{bulk}}|_{\text{brane}} = 0$ (Task 1)
 
-**2. The fossil surface tension:** $\sigma = \int d^2\xi \sqrt{-\gamma} \, \frac{c}{24\pi} R^{(2)}$ with $c \in \mathbb{Z}_{\ge 1}$ (Task 2)
+**2. The fossil surface tension:**$\sigma = \int d^2\xi \sqrt{-\gamma} \, \frac{c}{24\pi} R^{(2)}$ with $c \in \mathbb{Z}_{\ge 1}$ (Task 2)
 
-**3. The fossil localization profile:** $T_{\mu\nu}^{\text{fossil, v24}}$ uses the Gaussian instanton $g(\tau)$ instead of $\delta(\tau - \tau_{2D})$ (Task 3)
+**3. The fossil localization profile:**$T_{\mu\nu}^{\text{fossil, v24}}$ uses the Gaussian instanton $g(\tau)$ instead of $\delta(\tau - \tau_{2D})$ (Task 3)
 
-**4. The 5/27 boundary condition:** $\frac{V_5}{A_4 R_{\text{AdS}_5}} = \frac{27}{5}$ (Task 4)
+**4. The 5/27 boundary condition:**$\frac{V_5}{A_4 R_{\text{AdS}_5}} = \frac{27}{5}$ (Task 4)
 
 The Bianchi identity $\nabla^\mu T_{\mu\nu}^{\text{eff}} = 0$ is preserved by all four modifications (the Gaussian instanton is smooth, the bulk boundary condition eliminates leakage, the discrete $c$ values are unitary, and the topological invariant is a constant).
 
@@ -299,10 +299,10 @@ The updated effective stress-energy tensor in v2.4 is:
 $$T_{\mu\nu}^{\text{eff}} = T_{\mu\nu}^{\text{SM}} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + \frac{1}{8\pi G_4} \mathcal{E}_{\mu\nu} + T_{\mu\nu}^{\text{fossil, v24}}$$
 
 with the four v2.4 modifications:
-1. **Bulk BC:** $J^A_{\text{bulk}}|_{\text{brane}} = T^{AB}_{\text{bulk}} n_B = 0$
-2. **Central charge:** $c \in \mathbb{Z}_{\ge 1}$ (default $c=1$)
-3. **Fossil localization:** $T_{\mu\nu}^{\text{fossil, v24}} \propto \int d\tau \, g(\tau) \sigma(\tau) \cdot \text{projection}$, with $g(\tau) = \frac{1}{\tau_{2D}\sqrt{\pi}} e^{-\tau^2/\tau_{2D}^2}$
-4. **5/27 invariant:** $\frac{V_5}{A_4 R_{\text{AdS}_5}} = \frac{27}{5}$ (topological, frozen at brane deployment)
+1. **Bulk BC:**$J^A_{\text{bulk}}|_{\text{brane}} = T^{AB}_{\text{bulk}} n_B = 0$
+2. **Central charge:**$c \in \mathbb{Z}_{\ge 1}$ (default $c=1$)
+3. **Fossil localization:**$T_{\mu\nu}^{\text{fossil, v24}} \propto \int d\tau \, g(\tau) \sigma(\tau) \cdot \text{projection}$, with $g(\tau) = \frac{1}{\tau_{2D}\sqrt{\pi}} e^{-\tau^2/\tau_{2D}^2}$
+4. **5/27 invariant:**$\frac{V_5}{A_4 R_{\text{AdS}_5}} = \frac{27}{5}$ (topological, frozen at brane deployment)
 
 ---
 

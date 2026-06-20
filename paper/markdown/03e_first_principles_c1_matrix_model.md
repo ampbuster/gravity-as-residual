@@ -18,7 +18,7 @@ The brute force formula μ = E/τ gives:
 | SN (medium event) | 9.67×10⁶ | 3 TeV | Reasonable |
 | Quasar (huge event) | 2.02×10² | **14 GeV** | Should be LARGER, not smaller! |
 
-** $M_{\rm Pl,2D}$ is INVERTED from event size!**
+**$M_{\rm Pl,2D}$ is INVERTED from event size!**
 
 ## Why This Is Confusing
 
@@ -28,7 +28,7 @@ Reality with brute force formula:
 - Small event → SHORT lifetime (τ_2D ∝ E^α) → high μ → high $M_{\rm Pl,2D}$
 - Big event → LONG lifetime → low μ → low $M_{\rm Pl,2D}$
 
-So ** $M_{\rm Pl,2D}$ is inversely correlated with event energy.**
+So **$M_{\rm Pl,2D}$ is inversely correlated with event energy.**
 
 This is **counterintuitive** because we might think:
 - Higher energy → more "stuff" → higher mass scale
@@ -65,7 +65,7 @@ So even though $M_{\rm Pl,2D}$ is "inverted", DM contribution isn't:
 **User's insight is still RIGHT in one way**:
 
 1. **Why would Nature create TNT 2D universes?**
-   - They're bizarre ( $M_{\rm Pl,2D}$ = 360,000 TeV)
+   - They're bizarre ($M_{\rm Pl,2D}$ = 360,000 TeV)
    - They die instantly (no DM contribution)
    - They have no observable effect
 

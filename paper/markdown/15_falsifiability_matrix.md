@@ -15,7 +15,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### DESI DR3 (2026-2027): dark energy equation of state $w_0, w_a$
 
-**SIDC prediction:** $w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5σ tension with ΛCDM)
+**SIDC prediction:**$w_0 = -0.83 \pm 0.16$, $w_a = -0.75 \pm 0.30$ (DESI+ACT+Planck 2024-25, currently 3.5σ tension with ΛCDM)
 
 **Falsification threshold:**
 - If $w_0 = -1$ confirmed at > 5σ: SIDC's standard Lagrangian (constant $f_{back}$) is right
@@ -63,7 +63,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### Direct $M_{\rm Pl,4}$ measurement (2030s+ colliders)
 
-**SIDC prediction:** $M_{\rm Pl,4D} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
+**SIDC prediction:**$M_{\rm Pl,4D} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
 
 **Falsification threshold:** If $M_{\rm Pl,4}$ measured at < 4×10²³ GeV, SIDC's bulk-brane coupling is wrong.
 
@@ -73,7 +73,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### μAres (next-gen PTA, 2040s?): higher-precision α
 
-**SIDC prediction:** $\alpha = 1.29$ to ±0.055 precision (1 dex frequency precision → 0.055 in α).
+**SIDC prediction:**$\alpha = 1.29$ to ±0.055 precision (1 dex frequency precision → 0.055 in α).
 
 **Falsification threshold:** If α measured at < 1.20 or > 1.40, SIDC's energy-scaling rule is wrong.
 

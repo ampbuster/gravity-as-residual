@@ -112,7 +112,7 @@ motivated by:
 (light-crossing time). The "clean formula" is because it's the
 natural timescale, not because it was tuned.
 
-**The cascade's honest position (v2.3.0, §4.11):** $\tau_{\rm 2D}$ = L_event / c
+**The cascade's honest position (v2.3.0, §4.11):**$\tau_{\rm 2D}$ = L_event / c
 is *consistent* with 2D gravitational dynamics if G_2D * $E_{\rm 2D}$ ~ c^2.
 This is a *self-consistency check*, not a derivation. The specific
 timescale is a postulate, but it's the *natural* one.
