@@ -1,3 +1,45 @@
+## v3.5.9+ (June 21, 2026) — Mathematical audit + Approach A1 + legacy cleanup
+
+**Reason for version bump:** Three major developments after framework audit:
+
+1. **Mathematical audit** found three inconsistencies in v3.3+ formulas (γ_4D formula, τ_3D,apparent units, M^α at 4D level)
+2. **L26 FULL CLOSURE** (L308t): framework values UPDATED to consistent derivation
+3. **WHY N=12?** (L308u, BREAKTHROUGH): Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
+4. **L138 PARTIAL CLOSURE** (L308v): M_Pl,4D via α-GM closed loop
+5. **APPROACH A1** (CURRENT, §7.4.20): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
+   - γ_4D stays DERIVED = 5.93×10⁹⁰ (literal time dilation, REINSTATED)
+   - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
+   - DM stable at 27%, τ_DM = 14.5 Gyr
+   - Both γ_4D AND γ_2D consistent (literal time dilation)
+6. **Path B2 REJECTED**: γ_4D decoupling had structural inconsistency (γ_4D vs γ_2D interpretations)
+
+**Cleanup passes**:
+- 2 new legacy files in paper/legacy/ (Hill function, Path B2)
+- LEGACY NOTE flags added to 13 markdown files
+- Top-level docs (README, STATE_OF_THE_MODEL, persistent_memory) updated to v3.5.9+ A1
+
+**Parameters** (now 14, was 9):
+- 1 MEASURED: $M_{\rm Pl,3D}$
+- 4 FIRST-PRINCIPPLES: α, $M_{\rm Pl,2D}$, μ, N=12 (was 3)
+- 1 DERIVED via α-GM: $M_{\rm Pl,4D}$
+- 5 CALIBRATED: ε, τ_4D, E_4D, AGN rate, $f_{\rm leak} = H_0$ (was 4)
+- 2 STRUCTURAL: τ_3D,apparent, γ_4D
+- 1 FREE: $N_{\rm sub}$
+
+**Files added**:
+- `calculations/v36_research/A1_fleak_H0_principle.py` (A1 verification)
+- `calculations/v36_research/reverting_E4D_breaks.py` (analysis)
+- `calculations/v36_research/continuous_leak_required.py` (analysis)
+- `paper/legacy/v359_path_B2_rejected.md` (Path B2 history)
+- `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` (Hill function history)
+
+**First-principles progress**: 0/9 → 4/14 (α, $M_{\rm Pl,2D}$, μ, N=12 derived)
+
+**Paper**: 394 pages (was 405), 1.52 MB (was 1.50 MB)
+**Limitations**: 138 honest (was 116 v3.5.7)
+
+---
+
 ## v3.2 (June 2026) — Three structural principles + user-driven audits
 
 **Reason for major version bump:** Three new structural principles formalize the framework, plus user-driven audits and clarifications.
