@@ -310,7 +310,7 @@ All other values in SIDC are *derived* from the cascade structure:
 The 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, $\Omega$'s, $g_+$) are taken from data, not fit.
 
 **HISTORICAL**: SIDC had 0 calibrated postulates in the v3.0+ state.
-**CURRENT (v3.5.9+ A1+L308z update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has 15 parameters (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 4 FIRST-PRINCIPLES (α, M_Pl,2D, μ, N=12), 2 DERIVED (M_Pl,4D, E_4D), 4 CALIBRATED (ε, τ_4D, AGN rate, f_leak), 3 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D), 1 FREE (N_sub).
+**CURRENT (v3.5.9+ A1+L308z update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 3 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$), 1 FREE ($N_{\rm sub}$).
 ### 2.1 The setup
 
 We assume, following the well-developed brane-world framework [ADD98, RS99], that our observable universe is a 3+1 dimensional brane embedded in a higher-dimensional bulk. Gravity propagates in the bulk; the other Standard Model forces are confined to the brane.
@@ -8774,10 +8774,10 @@ These follow from Tier 1 + Tier 2 via framework consistency ($\alpha$-GM, $M^{\a
 **CURRENT (v3.5.9+ A1+L308z+L308u, 15 parameters total)**: This L308m tier classification was for v3.5.8 era 9-parameter framework. Current framework has 15 parameters (1+4+2+4+3+1 = 15):
 - 1 MEASURED ($M_{\rm Pl,3D}$)
 - 4 FIRST-PRINCIPPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 — was 1 in L308m, +$\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 via L308n/r/u)
-- 2 DERIVED (M_Pl,4D via α-GM, E_4D via N_sub × E_sub)
-- 4 CALIBRATED (ε, τ_4D, AGN rate, f_leak = H_0)
-- 3 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D)
-- 1 FREE (N_sub, event-specific)
+- 2 DERIVED ($M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via $N_{\rm sub} \times E_{\rm sub}$)
+- 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak} = H_0$)
+- 3 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$)
+- 1 FREE ($N_{\rm sub}$, event-specific)
 
 ### BREAKTHROUGH: $\alpha$ = 1 + 1/√12 EXACT match
 
@@ -9583,9 +9583,9 @@ This separates concerns cleanly:
 - **μ = 8.73×10⁶ GeV²** (L308r)
 - **N = 12** (Appelquist 2001, L308u first-principles)
 - **$E_{\rm 4D} = 5×10⁷⁹ J $= 3.12×10⁸⁹ GeV** (closed-loop from τ_4D)
-- **τ_4D,proper = 1.51×10³⁴ yr** (calibrated for DE match)
+- **$\tau_{\rm 4D,proper} = 1.51\times10^{34}\,\text{yr}$** (calibrated for DE match)
 - **$\gamma_{\rm 4D} = 5.93\times10^{90}$** (DERIVED, literal time dilation — REINSTATED)
-- **τ_3D,apparent = 8.95×10¹²⁴ yr** (γ_4D × τ_4D, structural — REINSTATED)
+- **$\tau_{\rm 3D,apparent} = 8.95\times10^{124}\,\text{yr}$** ($\gamma_{\rm 4D} \times \tau_{\rm 4D}$, structural — REINSTATED)
 - **$N_{\rm sub} = 3.86×10²** ($calibrated, still first-principles open L144)
 - **$\tau_{\rm sub} = 6.97\times10^{30}\,\text{yr}$** (sub-universe lifetime)
 
