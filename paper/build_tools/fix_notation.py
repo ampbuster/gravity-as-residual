@@ -39,21 +39,21 @@ def fix_pass_a_parenthesized_ratios(text):
     # Pattern 1: (E_ND/M_Pl,ND)^α
     pattern1 = r'\(E_(\d)D/M_Pl,(\d)D\)\^α'
     text, n = re.subn(pattern1,
-        lambda m: f'$(E_{{{m.group(1)}D}}/M_{{\\rm Pl,{m.group(2)}D}})^{{\\alpha}}$',
+        lambda m: f'$(E_{{{m.group(1).strip()}D}}/M_{{\\rm Pl,{m.group(2).strip()}D}})^{{\\alpha}}$',
         text)
     changes += n
 
     # Pattern 2: (E_word/M_Pl,word)^α
     pattern2 = r'\(E_([a-zA-Z]+)/M_Pl,([a-zA-Z]+)\)\^α'
     text, n = re.subn(pattern2,
-        lambda m: f'$(E_{{\\rm {m.group(1)}}}/M_{{\\rm Pl,{m.group(2)}}})^{{\\alpha}}$',
+        lambda m: f'$(E_{{\\rm {m.group(1).strip()}}}/M_{{\\rm Pl,{m.group(2).strip()}}})^{{\\alpha}}$',
         text)
     changes += n
 
     # Pattern 3: (E/M_Pl,parent)^α (E without subscript)
     pattern3 = r'\(E/M_Pl,([a-zA-Z]+)\)\^α'
     text, n = re.subn(pattern3,
-        lambda m: f'$(E/M_{{\\rm Pl,{m.group(1)}}})^{{\\alpha}}$',
+        lambda m: f'$(E/M_{{\\rm Pl,{m.group(1).strip()}}})^{{\\alpha}}$',
         text)
     changes += n
 
@@ -74,13 +74,13 @@ def fix_pass_b_missing_rm(text):
     # Pattern: E_{ND} → E_{\rm ND} (only if not already \rm)
     pattern1 = r'E_\{(\d)D\}(?!\\rm)'
     text, n = re.subn(pattern1,
-        lambda m: f'E_{{\\rm {m.group(1)}D}}', text)
+        lambda m: f'E_{{\\rm {m.group(1).strip()}D}}', text)
     changes += n
 
     # Pattern: M_{Pl,N} → M_{\rm Pl,N}
     pattern2 = r'M_\{Pl,(\dD)\}(?!\\rm)'
     text, n = re.subn(pattern2,
-        lambda m: f'M_{{\\rm Pl,{m.group(1)}}}', text)
+        lambda m: f'M_{{\\rm Pl,{m.group(1).strip()}}}', text)
     changes += n
 
     return text, changes
@@ -132,19 +132,19 @@ def fix_pass_d_inline_equations(text):
     patterns = [
         # N_sub = ...
         (r'(?<!\$)\bN_sub\s*=\s*' + value_pattern,
-         lambda m: f'$N_{{\\rm sub}} = {m.group(1)}$'),
+         lambda m: f'$N_{{\\rm sub}} = {m.group(1).strip()}$'),
         # E_sub = ...
         (r'(?<!\$)\bE_sub\s*=\s*' + value_pattern,
-         lambda m: f'$E_{{\\rm sub}} = {m.group(1)}$'),
+         lambda m: f'$E_{{\\rm sub}} = {m.group(1).strip()}$'),
         # E_4D = ...
         (r'(?<!\$)\bE_4D\s*=\s*' + value_pattern,
-         lambda m: f'$E_{{\\rm 4D}} = {m.group(1)}$'),
+         lambda m: f'$E_{{\\rm 4D}} = {m.group(1).strip()}$'),
         # M_Pl,N = ...
         (r'(?<!\$)\bM_Pl,(\dD)\s*=\s*' + value_pattern,
-         lambda m: f'$M_{{\\rm Pl,{m.group(1)}}} = {m.group(2)}$'),
+         lambda m: f'$M_{{\\rm Pl,{m.group(1).strip()}}} = {m.group(2).strip()}$'),
         # τ_4D = ...
         (r'(?<!\$)\bτ_4D\s*=\s*' + value_pattern,
-         lambda m: f'$\\tau_{{\\rm 4D}} = {m.group(1)}$'),
+         lambda m: f'$\\tau_{{\\rm 4D}} = {m.group(1).strip()}$'),
     ]
 
     for pattern, replacement_func in patterns:
@@ -174,14 +174,14 @@ def fix_pass_e_greek_inline(text):
     # We require the value to end with: , . ) } space | letter (J, GeV, yr, s)
     pattern1 = r'(?<![\\$a-zA-Z_\\])γ_(\dD)\s*=\s*(\d[\d\.×10⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺eE]*)(?=[,\s\.\)\}\|\w])'
     text, n = re.subn(pattern1,
-        lambda m: f'$\\gamma_{{\\rm {m.group(1)}}} = {m.group(2).strip()}$',
+        lambda m: f'$\\gamma_{{\\rm {m.group(1).strip()}}} = {m.group(2).strip()}$',
         text)
     changes += n
 
     # τ_X = <value> (τ with subscript)
     pattern2 = r'(?<![\\$a-zA-Z_\\])τ_([a-zA-Z0-9,]+)\s*=\s*(\d[\d\.×10⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺eE]*)(?=[,\s\.\)\}\|\w])'
     text, n = re.subn(pattern2,
-        lambda m: f'$\\tau_{{\\rm {m.group(1)}}} = {m.group(2).strip()}$',
+        lambda m: f'$\\tau_{{\\rm {m.group(1).strip()}}} = {m.group(2).strip()}$',
         text)
     changes += n
 
@@ -199,14 +199,14 @@ def fix_pass_f_specific_inline(text):
     # γ_4D = $(E_4D/M_Pl,3D)^α = 5.93e90 (already partially in math)
     pattern1 = r'(?<![\\$a-zA-Z_])γ_4D\s*=\s*\$(.+?)\$\^\{?α\}?\s*=\s*(\d[\d\.eExX×10⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]*)(?=[,\s\.\)\}])'
     text, n = re.subn(pattern1,
-        lambda m: f'$\\gamma_{{\\rm 4D}} = ({m.group(1)})^{{\\alpha}} = {m.group(2).strip()}$',
+        lambda m: f'$\\gamma_{{\\rm 4D}} = ({m.group(1).strip()})^{{\\alpha}} = {m.group(2).strip()}$',
         text)
     changes += n
 
     # γ_2D = $(E_3D/M_Pl,3D)^α = 5.5e44
     pattern2 = r'(?<![\\$a-zA-Z_])γ_2D\s*=\s*\$(.+?)\$\^\{?α\}?\s*=\s*(\d[\d\.eExX×10⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]*)(?=[,\s\.\)\}])'
     text, n = re.subn(pattern2,
-        lambda m: f'$\\gamma_{{\\rm 2D}} = ({m.group(1)})^{{\\alpha}} = {m.group(2).strip()}$',
+        lambda m: f'$\\gamma_{{\\rm 2D}} = ({m.group(1).strip()})^{{\\alpha}} = {m.group(2).strip()}$',
         text)
     changes += n
 
@@ -224,7 +224,7 @@ def fix_pass_g_special_broken(text):
 
     # Pattern: digit.$digit (broken delimiter)
     pattern = r'(\d)\.\$(\d)'
-    text, n = re.subn(pattern, lambda m: f'${m.group(1)}.{m.group(2)}', text)
+    text, n = re.subn(pattern, lambda m: f'${m.group(1).strip()}.{m.group(2).strip()}', text)
     changes += n
 
     return text, changes
