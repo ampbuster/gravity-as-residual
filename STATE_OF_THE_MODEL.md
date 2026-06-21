@@ -145,13 +145,18 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✓ $M_{\rm Pl,3D}$ measured (1.22×10¹⁹ GeV)
 - ✓ 8/8 events fit M^1.29 within 1.6×
 
-## What's CALIBRATED (not derived)
+## What's CALIBRATED (HISTORICAL v3.5.7-, UPDATED v3.5.8+ to FIRST-PRINCIPPLES + CALIBRATED)
 
-- ⚠ μ = 8.73×10⁶ GeV² (calibrated to SN)
-- ⚠ α = 1.289 (calibrated to SN)
+**v3.5.8+ REVISIONS (L308r, L308n, L308u)**:
+- ✓ α = 1.289 = 1 + 1/√12 → **FIRST-PRINCIPPLES** (Schwarzian SYK N=12, L308n)
+- ✓ μ = 8.73×10⁶ GeV² → **FIRST-PRINCIPPLES** (μ = (N × v_H)² = M_Pl,2D², L308r)
+- ✓ N = 12 → **FIRST-PRINCIPPLES** (Appelquist 2001 + Z_12 + 6D anomaly, L308u)
+
+**CURRENT (v3.5.9+ A1+L308z) 4 CALIBRATED**:
 - ⚠ ε = 10⁻³⁸ (calibrated to hierarchy)
 - ⚠ τ_4D = 1.51×10³⁴ yr (calibrated to DE)
-- ⚠ AGN rate = 3×10⁻¹⁶ /m³/s (calibrated to 27% DM)
+- ⚠ AGN rate = 10⁻¹⁵·⁵² /s (calibrated to 27% DM)
+- ⚠ f_leak = H_0 = 2.18×10⁻¹⁸ /s (NEW A1 principle, post-Friedmann)
 
 ## What's ASSUMED (not derived)
 
