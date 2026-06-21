@@ -1664,13 +1664,15 @@ After §7.4.16's L26 PARTIAL CLOSURE (3% offset between derivation and framework
 
 ### The 3% Offset — Where Does It Come From?
 
-| Quantity | Framework | Derivation (L308r) | Offset |
+| Quantity | Framework (PRE-L308t) | Derivation (L308r) | Offset |
 |---|---|---|---|
 | M_Pl,2D | 3000 GeV (3 TeV) | 2954.64 GeV (12 × 246.22) | 1.5% |
 | μ | $9 \times 10^6$ GeV² | $8.73 \times 10^6$ GeV² | 3.0% |
 | M_Pl,4D (α-GM) | $4 \times 10^{23}$ GeV | $3.93 \times 10^{23}$ GeV | 1.7% |
 
 The 3% offset is exactly (1.015)² = 1.030, consistent with M_Pl,2D being the source. **Conclusion: the offset is from framework's rounding of M_Pl,2D to 3 TeV (3 sig figs)**.
+
+**POST-L308t UPDATE**: Framework values updated to match derivation (M_Pl,2D = 2955 GeV, μ = 8.73×10⁶ GeV², M_Pl,4D = 3.93×10²³ GeV). This eliminates the 3% offset (L26 FULL CLOSURE). See L308t entry.
 
 ### 8 Attempted Derivation Paths (v3.5.8+)
 

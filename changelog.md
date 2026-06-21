@@ -18,7 +18,7 @@
 - LEGACY NOTE flags added to 13 markdown files
 - Top-level docs (README, STATE_OF_THE_MODEL, persistent_memory) updated to v3.5.9+ A1
 
-**Parameters** (now 14, REVISED L308z):
+**Parameters** (now 15, REVISED L308z, was miscounted as 14):
 - 1 MEASURED: $M_{\rm Pl,3D}$
 - 4 FIRST-PRINCIPPLES: α, $M_{\rm Pl,2D}$, μ, N=12 (was 3)
 - 2 DERIVED: $M_{\rm Pl,4D}$ (α-GM, L308v), **$E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$** (L308o, was calibrated)
@@ -39,7 +39,7 @@
 - `paper/legacy/v359_path_B2_rejected.md` (Path B2 history)
 - `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` (Hill function history)
 
-**First-principles progress**: 0/9 → 4/14 (α, $M_{\rm Pl,2D}$, μ, N=12 derived)
+**First-principles progress**: 0/9 → 4/14 → **4/15** (α, $M_{\rm Pl,2D}$, μ, N=12 derived; N_sub now FREE event-specific, L308z)
 
 **Paper**: 394 pages (was 405), 1.52 MB (was 1.50 MB)
 **Limitations**: 138 honest (was 116 v3.5.7)

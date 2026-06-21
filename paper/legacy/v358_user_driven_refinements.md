@@ -131,8 +131,8 @@ header are kept CURRENT (v3.5.8 only). For full v3.5.8 history, see this file.
 
 ### 7. N_sub linear scaling (USER-INSIGHT)
 - N_sub = E_4D / E_sub (energy conservation)
-- E_sub = 1.25×10⁷⁷ J (~10²⁹ M_sun, sub-universe scale)
-- For framework: N_sub = 400 (E_4D = 5×10⁷⁹ J)
+- E_sub = 1.25×10⁷⁷ J (~10²⁹ M_sun, sub-universe scale) [REVISED L308z: E_sub = 1.295×10⁷⁷ J, N_sub = 386]
+- For framework: N_sub = 400 (E_4D = 5×10⁷⁹ J) [REVISED L308z: N_sub = 386, E_sub = 1.295×10⁷⁷ J]
 - Different 4D events → different N_sub (sub-galaxy: N=4, supercluster: N=400,000)
 - N_sub no longer "free parameter" — SEMI-DERIVED
 
