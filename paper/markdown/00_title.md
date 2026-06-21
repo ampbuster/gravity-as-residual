@@ -24,7 +24,7 @@
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
 - **First-principles progress**: 0/9 → 4/14 (α, $M_{\rm Pl,2D}$, μ, N=12)
 
-**v3.5.9+ PARAMETER HIERARCHY** (current, 14 total, REVISED L308z):
+**v3.5.9+ PARAMETER HIERARCHY** (current, 15 total, REVISED L308z):
 - 1 MEASURED: $M_{\rm Pl,3D}$ (Newton's G)
 - 4 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK, L308n), $M_{\rm Pl,2D}$ = 12×$v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r), N=12 (Z_12 + 6D anomaly, L308u)
 - 2 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation, L308o)
@@ -45,7 +45,7 @@
 **v3.1.2-final additions** (HISTORICAL, intermediate): 8/8 events fit M^1.29 within 1.6×, Scenario X ($M_{\rm Pl,4D}$ = 887 GeV, brane-world), AGE vs LIFETIME distinct, frame of reference explicit (4D event proper time 10⁻²⁰ s, apparent 10³⁴ yr, $\gamma$ ~ 10⁶²).
 **v3.3 updates** (HISTORICAL, June 2026): $M_{\rm Pl,4D}$ = 3.93×10²³ GeV ($\alpha$-weighted GM, derived), $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale), $\tau_{\rm 3D,apparent}$ = 9.10×10¹²⁴ yr (was 1.83×10⁹⁸ yr), $\gamma_{\rm 4D}$ = 6.03×10⁹⁰ (was 1.29×10⁶⁴), universe age fraction 1.52×10⁻¹⁵ (was 7.5×10⁻⁸⁹). 9D = $v_{\rm Higgs}$ DROPPED. $M^{\alpha}$ uses PARENT's Planck.
 
-**v3.5.9+ UPDATE** (after audit): $\tau_{\rm 3D,apparent}$ = **8.95×10¹²⁴ yr** (audit fixed units/precision), $\gamma_{\rm 4D}$ = **5.93×10⁹⁰** (L308t precision). Framework now has 14 parameters (with $f_{\rm leak} = H_0$ as new calibrated principle, A1).
+**v3.5.9+ UPDATE** (after audit): $\tau_{\rm 3D,apparent}$ = **8.95×10¹²⁴ yr** (audit fixed units/precision), $\gamma_{\rm 4D}$ = **5.93×10⁹⁰** (L308t precision). Framework now has **15 parameters** (REVISED L308z, was 14 pre-L308z, was 9 in v3.5.8).
 
 **v3.0 HIGHLIGHT:** The composite model is now **strongly specified** by a single number N = 12. SIDC's $\alpha$ = 1.29, central charge c = 1/2 (Ising CFT), back-action $f_{\rm back} \approx 10^{-85}$, and 14 event-type lifetimes all follow from **q = 4 SYK (Sachdev-Ye-Kitaev, a model of quantum chaos) with N = 12 Majorana fermions (fermions that are their own antiparticle)**, in AdS₂ × S² topology (2D anti-de Sitter space cross a 2-sphere, a specific curved geometry with positive lifetime scaling). N = 12 is uniquely determined (off by 0.001 from $\alpha$ = 1.29). The 12 Majoranas might provide a "backbone" for the 12 Standard Model Weyl fermions (massless chiral fermions, 3 generations × 4 per generation). See **§3.60 v3.0 breakthrough summary** for the full picture.
 

@@ -28,7 +28,7 @@ For v3.5.9+ audit and Path B2 (rejected) details, see `paper/legacy/v359_audit_h
 For all version history, see `changelog.md`.
 For all v3.5.9+ findings, see `persistent_memory.md`.
 
-**Current parameters** (v3.5.9+ A1, 14 total):
+**Current parameters** (v3.5.9+ A1+L308z, 15 total):
 - 1 MEASURED: $M_{\rm Pl,3D} = 1.22 \times 10^{19}$ GeV (Newton's G)
 - 4 FIRST-PRINCIPLES DERIVED:
   - $\alpha = 1.289 = 1 + 1/\sqrt{12}$ (Schwarzian SYK N=12)

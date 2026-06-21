@@ -24,7 +24,7 @@
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
 - **First-principles progress**: 0/9 → 4/14 (α, $M_{\rm Pl,2D}$, μ, N=12)
 
-**v3.5.9+ PARAMETER HIERARCHY** (current, 14 total, REVISED L308z):
+**v3.5.9+ PARAMETER HIERARCHY** (current, 15 total, REVISED L308z):
 - 1 MEASURED: $M_{\rm Pl,3D}$ (Newton's G)
 - 4 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK, L308n), $M_{\rm Pl,2D}$ = 12×$v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r), N=12 (Z_12 + 6D anomaly, L308u)
 - 2 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation, L308o)
@@ -45,7 +45,7 @@
 **v3.1.2-final additions** (HISTORICAL, intermediate): 8/8 events fit M^1.29 within 1.6×, Scenario X ($M_{\rm Pl,4D}$ = 887 GeV, brane-world), AGE vs LIFETIME distinct, frame of reference explicit (4D event proper time 10⁻²⁰ s, apparent 10³⁴ yr, $\gamma$ ~ 10⁶²).
 **v3.3 updates** (HISTORICAL, June 2026): $M_{\rm Pl,4D}$ = 3.93×10²³ GeV ($\alpha$-weighted GM, derived), $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale), $\tau_{\rm 3D,apparent}$ = 9.10×10¹²⁴ yr (was 1.83×10⁹⁸ yr), $\gamma_{\rm 4D}$ = 6.03×10⁹⁰ (was 1.29×10⁶⁴), universe age fraction 1.52×10⁻¹⁵ (was 7.5×10⁻⁸⁹). 9D = $v_{\rm Higgs}$ DROPPED. $M^{\alpha}$ uses PARENT's Planck.
 
-**v3.5.9+ UPDATE** (after audit): $\tau_{\rm 3D,apparent}$ = **8.95×10¹²⁴ yr** (audit fixed units/precision), $\gamma_{\rm 4D}$ = **5.93×10⁹⁰** (L308t precision). Framework now has 14 parameters (with $f_{\rm leak} = H_0$ as new calibrated principle, A1).
+**v3.5.9+ UPDATE** (after audit): $\tau_{\rm 3D,apparent}$ = **8.95×10¹²⁴ yr** (audit fixed units/precision), $\gamma_{\rm 4D}$ = **5.93×10⁹⁰** (L308t precision). Framework now has **15 parameters** (REVISED L308z, was 14 pre-L308z, was 9 in v3.5.8).
 
 **v3.0 HIGHLIGHT:** The composite model is now **strongly specified** by a single number N = 12. SIDC's $\alpha$ = 1.29, central charge c = 1/2 (Ising CFT), back-action $f_{\rm back} \approx 10^{-85}$, and 14 event-type lifetimes all follow from **q = 4 SYK (Sachdev-Ye-Kitaev, a model of quantum chaos) with N = 12 Majorana fermions (fermions that are their own antiparticle)**, in AdS₂ × S² topology (2D anti-de Sitter space cross a 2-sphere, a specific curved geometry with positive lifetime scaling). N = 12 is uniquely determined (off by 0.001 from $\alpha$ = 1.29). The 12 Majoranas might provide a "backbone" for the 12 Standard Model Weyl fermions (massless chiral fermions, 3 generations × 4 per generation). See **§3.60 v3.0 breakthrough summary** for the full picture.
 
@@ -309,8 +309,8 @@ All other values in SIDC are *derived* from the cascade structure:
 
 The 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, $\Omega$'s, $g_+$) are taken from data, not fit.
 
-**SIDC has 0 calibrated postulates in the v3.0+ state.**
-**v3.5.9+ A1+L308z update**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" (E_4D = N_sub × E_sub, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has 14 parameters (was 9 in v3.5.8).
+**HISTORICAL**: SIDC had 0 calibrated postulates in the v3.0+ state.
+**CURRENT (v3.5.9+ A1+L308z update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" (E_4D = N_sub × E_sub, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has 15 parameters (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 4 FIRST-PRINCIPLES (α, M_Pl,2D, μ, N=12), 2 DERIVED (M_Pl,4D, E_4D), 4 CALIBRATED (ε, τ_4D, AGN rate, f_leak), 3 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D), 1 FREE (N_sub).
 ### 2.1 The setup
 
 We assume, following the well-developed brane-world framework [ADD98, RS99], that our observable universe is a 3+1 dimensional brane embedded in a higher-dimensional bulk. Gravity propagates in the bulk; the other Standard Model forces are confined to the brane.
@@ -9389,7 +9389,7 @@ The remaining 5:
 - 1 FREE: N_sub (still genuinely free — see below)
 - 1 STRUCTURAL: N = 12 (now derived from anomaly cancellation — promoted from structural)
 
-**Note (post-A1, v3.5.9+)**: With APPROACH A1 (§7.4.20), $f_{\rm leak} = H_0$ is added as 5th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (was 9 pre-A1, was 10 after L308u but pre-A1).
+**Note (post-A1, v3.5.9+)**: With APPROACH A1 (§7.4.20), $f_{\rm leak} = H_0$ is added as 5th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (was 9 pre-A1, was 10 after L308u but pre-A1). [REVISED post-L308z: 15 parameters — E_4D moved from CALIBRATED to DERIVED, E_sub added as STRUCTURAL.]
 
 Wait, that's 7. Let me recount:
 - 4 DERIVED first-principles: α, M_Pl,2D, μ, N=12
@@ -9399,7 +9399,7 @@ Wait, that's 7. Let me recount:
 
 Total = 4 + 1 + 1 + 4 = 10 — but framework has 9 parameters. Let me re-check.
 
-**NOTE (v3.5.9+ A1)**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w).
+**NOTE (v3.5.9+ A1)**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w). [REVISED post-L308z: 15 parameters.]
 
 Actually the framework has 9 input parameters (v3.5.9 pre-A1):
 1. M_Pl,3D (MEASURED)
@@ -9637,7 +9637,7 @@ The framework now has three independent "rates":
 | **STRUCTURAL** | τ_3D,apparent, γ_4D (both literal time dilation) |
 | **FREE** | N_sub |
 
-**Total**: 14 parameters (was 13, +f_leak). **Net change: +1 calibrated (f_leak)**.
+**Total**: 14 parameters (was 13, +f_leak). **Net change: +1 calibrated (f_leak)**. [REVISED post-L308z: 15 parameters — E_4D moved from CALIBRATED to DERIVED, E_sub added as STRUCTURAL.]
 
 ### What Remains Open
 
@@ -10025,7 +10025,7 @@ User: "386 could be the 4D event that created our universe. so we have 385 other
   - Before: "E_4D calibrated to give DE match, N_sub derived"
   - After: "N_sub is free (event-specific), E_4D derived from N_sub × E_sub"
 
-**UPDATED A1 PARAMETER HIERARCHY** (14 total, REVISED):
+**UPDATED A1+L308z PARAMETER HIERARCHY** (15 total, REVISED L308z):
 - 1 MEASURED: M_Pl,3D = 1.22×10¹⁹ GeV
 - 4 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK), M_Pl,2D = 12×v_H, μ = M_Pl,2D², N=12 (Z_12 + 6D anomaly)
 - 2 DERIVED: M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) (α-GM, L308v), E_4D = N_sub × E_sub (L308o, energy conservation)

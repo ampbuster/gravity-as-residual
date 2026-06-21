@@ -1897,7 +1897,7 @@ The remaining 5:
 - 1 FREE: N_sub (still genuinely free — see below)
 - 1 STRUCTURAL: N = 12 (now derived from anomaly cancellation — promoted from structural)
 
-**Note (post-A1, v3.5.9+)**: With APPROACH A1 (§7.4.20), $f_{\rm leak} = H_0$ is added as 5th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (was 9 pre-A1, was 10 after L308u but pre-A1).
+**Note (post-A1, v3.5.9+)**: With APPROACH A1 (§7.4.20), $f_{\rm leak} = H_0$ is added as 5th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (was 9 pre-A1, was 10 after L308u but pre-A1). [REVISED post-L308z: 15 parameters — E_4D moved from CALIBRATED to DERIVED, E_sub added as STRUCTURAL.]
 
 Wait, that's 7. Let me recount:
 - 4 DERIVED first-principles: α, M_Pl,2D, μ, N=12
@@ -1907,7 +1907,7 @@ Wait, that's 7. Let me recount:
 
 Total = 4 + 1 + 1 + 4 = 10 — but framework has 9 parameters. Let me re-check.
 
-**NOTE (v3.5.9+ A1)**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w).
+**NOTE (v3.5.9+ A1)**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w). [REVISED post-L308z: 15 parameters.]
 
 Actually the framework has 9 input parameters (v3.5.9 pre-A1):
 1. M_Pl,3D (MEASURED)
@@ -2145,7 +2145,7 @@ The framework now has three independent "rates":
 | **STRUCTURAL** | τ_3D,apparent, γ_4D (both literal time dilation) |
 | **FREE** | N_sub |
 
-**Total**: 14 parameters (was 13, +f_leak). **Net change: +1 calibrated (f_leak)**.
+**Total**: 14 parameters (was 13, +f_leak). **Net change: +1 calibrated (f_leak)**. [REVISED post-L308z: 15 parameters — E_4D moved from CALIBRATED to DERIVED, E_sub added as STRUCTURAL.]
 
 ### What Remains Open
 
@@ -2533,7 +2533,7 @@ User: "386 could be the 4D event that created our universe. so we have 385 other
   - Before: "E_4D calibrated to give DE match, N_sub derived"
   - After: "N_sub is free (event-specific), E_4D derived from N_sub × E_sub"
 
-**UPDATED A1 PARAMETER HIERARCHY** (14 total, REVISED):
+**UPDATED A1+L308z PARAMETER HIERARCHY** (15 total, REVISED L308z):
 - 1 MEASURED: M_Pl,3D = 1.22×10¹⁹ GeV
 - 4 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK), M_Pl,2D = 12×v_H, μ = M_Pl,2D², N=12 (Z_12 + 6D anomaly)
 - 2 DERIVED: M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) (α-GM, L308v), E_4D = N_sub × E_sub (L308o, energy conservation)

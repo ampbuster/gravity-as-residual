@@ -1665,7 +1665,7 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 **FINAL STATE (v3.5.9+ A1)**:
 - 395 pages, 1.52 MB
 - 138 limitations
-- 14 parameters
+- **15 parameters** (REVISED: 1+4+2+4+3+1 = 15, was 14 pre-count-correction)
 - All 4 top-level docs consistent
 - 12 legacy files in paper/legacy/
 - 13 markdown files with LEGACY NOTE flags
