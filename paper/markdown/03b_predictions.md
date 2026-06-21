@@ -15,20 +15,25 @@ legacy_paper.md §3.17 and legacy_paper.md §3.18 established the "democratic co
 
 **3.21.1 The pattern at every level.**
 
-Each level of SIDC has the same structure:
-- Proper lifetime = next-dim Planck time
-- Time dilation factor $\gamma$ = $(E/E_{\rm Pl})^{1.29}$
-- 3+1D-frame lifetime = $\gamma$ × $t_{\rm Pl}$
+Each level of SIDC has the same structure (per L308x v3, asymmetric cone in time direction):
+- **Proper lifetime** = lifetime in the EVENT's own frame (e.g., 2D universe in 2D frame, 4D event in 4D frame)
+- **3+1D-observed lifetime** = γ × proper lifetime, where γ = $(E/M_{\rm Pl,parent})^\alpha$
+- **Time dilation is ASYMMETRIC**: at 2D level γ stretches time in 2D's own frame (2D proper is LONG, 3D observed is short); at 4D level γ stretches time in 3D frame (4D proper is short, 3D observed is LONG)
 
-| Level | D | $t_{\rm Pl}$,D (s) | Proper lifetime | Time dilation | Frame lifetime |
-|-------|---|------------|------------------|---------------|----------------|
+| Level | D | $M_{\rm Pl,D}$ | Proper lifetime (event's own frame) | Time dilation γ | 3+1D-observed lifetime |
+|-------|---|------------|----------------------------------|---------------|-------------------------|
 | 0D | 0 | — | none | — | — |
-| 1D | 1 | varies | 1 Planck time in 1D | $\gamma_{\rm 1D}$ | varies |
-| 2D | 2 | varies | $t_{\rm Pl,3+1D}$ in 2D frame | $\gamma_{2D}$ = $(E/E_{\rm Pl,2})^{1.29}$ | $10^{-63}$ s to $10^{8}$ yr |
-| 3+1D | 4 | $5.39 \times 10^{-44}$ s | $t_{\rm Pl,4D}$ in 3+1D frame | $\gamma_{\rm 3}$+1D = ($E_{4D}$/ $E_{\rm Pl,4D}$)^1.29 | $2 \times 10^{26}$ yr (ours) |
-| 4D | 5 | $7.4 \times 10^{-28}$ s | $t_{\rm Pl,5D}$ in 4D frame | $\gamma_{\rm 4D}$ = ($E_{\rm 5D}$/ $E_{\rm Pl,5D}$)^1.29 | varies |
-| 5D | 6 | varies | $t_{\rm Pl}$,6 in 5D frame | $\gamma_{\rm 5D}$ = (E_6D/ $E_{\rm Pl}$,6)^1.29 | varies |
-| ... | N | $t_{\rm Pl}$,N | $t_{\rm Pl}$,(N+1) in N-D frame | $\gamma_{\rm N}$ | varies |
+| 1D | 1 | varies | varies | $\gamma_{\rm 1D}$ = $(E/M_{\rm Pl,1})^\alpha$ | varies |
+| **2D** | 2 | 2.95 TeV | **5.7×10³⁸ yr** (2D's own frame, SN) | $\gamma_{2D}$ = $(E/M_{\rm Pl,3})^\alpha$ = 5.5×10⁴⁴ | **33 s** (SN) |
+| 3+1D | 4 | 1.22×10¹⁹ GeV | n/a (3+1D IS us) | — | 13.8 Gyr (age) |
+| **4D** | 5 | 3.93×10²³ GeV | **1.51×10³⁴ yr** (4D's own frame) | $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,4D})^\alpha$ = 5.93×10⁹⁰ | **8.95×10¹²⁴ yr** |
+| 5D | 6 | varies | $t_{\rm Pl,5D}$ in 5D frame | $\gamma_{\rm 5D}$ = $(E/M_{\rm Pl,5})^\alpha$ | varies |
+| ... | N | $t_{\rm Pl,N}$ | $t_{\rm Pl,N}$ in N-D frame | $\gamma_{\rm N}$ = $(E/M_{\rm Pl,N})^\alpha$ | varies |
+
+**Cone asymmetry in time (L308x v3)**:
+- At 2D level: γ_2D = 5.5×10⁴⁴ stretches time in 2D's own frame (2D proper >> 3D observed)
+- At 4D level: γ_4D = 5.93×10⁹⁰ stretches time in 3D frame (3D observed >> 4D proper)
+- In BOTH cases, the LOWER-D dimension has MORE time (2D > 3D > 4D in duration)
 
 **3.21.2 Generalized Planck units in N dimensions.**
 
@@ -203,11 +208,19 @@ The democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) gives s
 
 **3.23.1 Prediction 1: 2D universe death rate ∝ R(E) / $\gamma_{2D}$.**
 
-The democratic cosmology says all 2D universes have the same proper lifetime ($t_{\rm Pl,3+1D}$). The 3+1D-frame lifetime is $\tau_{2D}$_3+1D = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$. The death rate in 3+1D frame is:
+The democratic cosmology says all 2D universes have the same M^α-observed lifetime (in 3+1D frame). The M^α law gives the 3+1D-observed lifetime as $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$ = 33s for SN.
 
-$$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D}^{3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3}})^{-1.29} \times \frac{1}{t_{Pl,3}}$$
+**Frame of reference (L308x v3, asymmetric cone in time direction)**:
+- **3+1D-observed lifetime** (what we measure in 3+1D): $\tau_{2D,3+1D}$ = 33s for SN
+- **2D proper lifetime** (in 2D's own frame): $\tau_{2D,proper}$ = $\gamma_{2D}$ × 33s = 5.5×10⁴⁴ × 33s = **5.7×10³⁸ yr** for SN (MUCH LONGER)
+- The 2D universe "lives" for 5.7×10³⁸ yr in its own frame, but we observe it for 33s in 3+1D frame
+- $\gamma_{2D}$ stretches time in 2D's own frame (opposite direction from 4D level)
 
-**Counter-intuitive:** smaller events (low E) have HIGHER 2D universe death rates in 3+1D frame, because their time dilation $\gamma_{2D}$ is smaller (so they "tick" faster in 3+1D view).
+The death rate in 3+1D frame is:
+
+$$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D,3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3}})^{-1.29} \times \frac{1}{t_{Pl,3}}$$
+
+**Counter-intuitive:** smaller events (low E) have HIGHER 2D universe death rates in 3+1D frame, because their M^α-observed lifetime $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{Pl,3}$ is SHORTER (smaller $\gamma_{2D}$ means shorter 3+1D-observed lifetime).
 
 | Event | E (J) | $\gamma_{2D}$ | Relative death rate (1/ $\gamma_{2D}$) |
 |-------|-------|------|------------------------------|

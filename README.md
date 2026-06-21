@@ -104,10 +104,10 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 
 **Continuous vs pulsed return** (KEY CLARIFICATION, user-formalized): $f_{\rm back}$ is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). The OBSERVABLE differs by level due to TIMESCALE (specifically, time dilation makes 3+1D's lifetime much longer than 2D's lifetime):
 
-| Boundary | Lifetime in lower-D frame | $f_{\rm DE}$ rate | Continuous leakage | Pulsed at death | What dominates NOW? |
-|---|---|---|---|---|---|
-| 2D→3D (SN) | 33 s (short, no significant $\gamma$) | $1.6\times 10^{-45}/\mathrm{s}$ | $33\times 10^{-45}$ = **$10^{-44}$** (negligible) | 100% at 33s | **Pulsed (DM)** |
-| 3D→4D | 10³⁴ yr ($\gamma_{\rm 4D}$ = 6.03×10⁹⁰ from 4D proper time ~10⁻⁵⁴ yr) | $1.22\times 10^{-85}$/s | 10⁵¹×10⁻⁸⁵ = **O(1)** by heat death | 100% at 10³⁴ yr | **Continuous (DE)** |
+| Boundary | Observed time (3D frame) | Proper time (event's own frame) | γ | Continuous leakage | Pulsed at death | What dominates NOW? |
+|---|---|---|---|---|---|---|
+| 2D→3D (SN) | **33 s** (3D-observed) | **5.7×10³⁸ yr** (2D's own frame) | γ_2D = 5.5×10⁴⁴ | 33×10⁻⁴⁵ = 10⁻⁴⁴ (negligible) | 100% at 33s | **Pulsed (DM)** |
+| 3D→4D | **8.95×10¹²⁴ yr** (3D-observed) | **1.51×10³⁴ yr** (4D's own frame) | γ_4D = 5.93×10⁹⁰ | 10⁵¹×10⁻⁸⁵ = O(1) by heat death | 100% at 1.51e34 yr | **Continuous (DE)** |
 
 **Time dilation is the key** (cone is asymmetric in time direction):
 
