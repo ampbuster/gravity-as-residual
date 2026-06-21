@@ -5,7 +5,7 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.5.9+ (paper) — 395 pages, **140 honest limitations** (v3.5.9+ adds L308t-aa, A1 principle, L308z N_sub event-specific, L308aa γ_2D=1)
+**Current version:** v3.5.9+ (paper) — 395 pages, **140 honest limitations** (v3.5.9+ adds L308t-aa, A1 principle, L308z N_sub event-specific, L308aa γ_2D=5.5e44 time dilation REVERTED)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)
@@ -1719,34 +1719,32 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - - 06_limitations.md (L308z entry, parameter accounting)
 - - 02_glossary.md (if applicable)
 
-### v3.5.9+ L308aa: γ_2D = 1 (no time dilation at 2D level) — asymmetric cone (2026-06-21)
-- User: "At 2D→3D, no such time dilation exists — 2D universe's 33s lifetime is short, so continuous leakage is invisible. should add from 3d frame of reference. 2d lifespan in their own frame of reference is the universe entire lifespan."
+### v3.5.9+ L308aa: γ_2D = 5.5e44 (TIME DILATION EXISTS AT 2D LEVEL) — REVERTED L308aa v1 (2026-06-21)
+- User: "wait, why no time dilation? it should exist at both 2d-3d and 3d-4d no?"
 - 
-- **REVISION TO L308x** (which claimed both γ_4D and γ_2D are literal time dilation):
-- - γ_2D = 1 (NOT 5.5e44 as previously claimed)
-- - The (E_SN/M_Pl,3D)^α = 5.5e44 is a dimensionless ratio, NOT a γ factor
+- **L308aa v1 was WRONG**: I had claimed γ_2D = 1 (no time dilation at 2D level)
+- **L308aa v2 (current, REVERTED L308aa v1)**: γ_2D = 5.5e44 (time dilation DOES exist)
 - 
-- **WHY γ_2D ≠ γ_4D**:
-- - 4D is ABOVE 3D: 4D event time gets STRETCHED in 3D projection (γ_4D = 5.93e90)
-- - 2D is BELOW 3D: 2D universe time is OBSERVED DIRECTLY (no stretching, γ_2D = 1)
+- **CORRECTED INTERPRETATION**:
+- - 2D universe's proper time = ~t_Pl,3D (Planck time, essentially instantaneous)
+- - In 3D frame: stretched by γ_2D = 5.5e44 to 33s (for SN)
+- - 4D event's proper time = 1.51e34 yr
+- - In 3D frame: stretched by γ_4D = 5.93e90 to 8.95e124 yr
 - 
-- **FRAME OF REFERENCE**:
-- - 2D universe: 33s lifetime in BOTH 2D's own frame AND 3D's frame
-- - 4D event: τ_4D,proper = 1.51e34 yr in 4D frame, τ_3D,apparent = 8.95e124 yr in 3D frame
-- - M^α law gives lifetime in PARENT's frame
+- **BOTH transitions have time dilation**:
+- - 2D-3D: γ_2D = 5.5e44 (literal time dilation)
+- - 4D-3D: γ_4D = 5.93e90 (literal time dilation)
+- - Cone is SYMMETRIC in HAVING time dilation
+- - Cone is ASYMMETRIC in MAGNITUDE (γ_4D >> γ_2D because E_4D >> E_3D)
 - 
-- **IMPLICATIONS**:
-- 1. γ_2D = 1 (cone asymmetry: 4D time-dilated, 2D not)
-- 2. Continuous 2D→3D leakage is INVISIBLE (33s is short)
-- 3. 2D universe's "death" is essentially instantaneous from 3D
-- 4. DE from 4D event IS time-dilated (γ_4D = 5.93e90)
+- **Continuous 2D→3D leakage**:
+- - In 2D's own frame: 2D universe exists for ~t_Pl (one Planck time)
+- - During this t_Pl, continuous leakage is too short to be observable
+- - In 3D frame: the 33s we observe is the γ_2D-stretched time
+- - So 2D→3D continuous leakage IS INVISIBLE (because 2D proper time is t_Pl)
 - 
-- **FILES UPDATED**:
-- - 06_limitations.md: L308x revised, +L308aa entry
-- - 01_executive_summary.md: 139→140 limitations, L308aa added
-- - calculations/v36_research/A1_fleak_H0_principle.py: γ_2D = 1
-- - A1_fleak_H0_principle.py: removed "consistent with γ_2D" claim
+- **LESSON**: Both γ values are literal time dilation (L308x stands). Cone is symmetric
+- in HAVING time dilation, asymmetric in magnitude. L308aa v1's claim γ_2D=1 was wrong.
 - 
-- **STATUS**: Limitations 139 → 140. Cone asymmetry CONFIRMED at time-dilation level (L308p was about
-- scaling, L308aa is about time dilation).
+- **STATUS**: L308aa v1 REVERTED. L308x CORRECT. Both transitions have time dilation.
 

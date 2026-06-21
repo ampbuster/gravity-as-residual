@@ -59,7 +59,7 @@
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ($g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS is CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **140 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa γ_2D=1 (no 2D time dilation)**) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, $\mu$ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, $\alpha$ first-principles). L41, L42 closed in v3.0.22 ($\mu$ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ($4\pi$ specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ($g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS is CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **140 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa γ_2D=5.5e44 (time dilation at 2D level, REVERTED L308aa v1)**) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, $\mu$ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, $\alpha$ first-principles). L41, L42 closed in v3.0.22 ($\mu$ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ($4\pi$ specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
 
 ---
 
@@ -136,7 +136,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{active} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon$ $\sim 10^{-38}$, $f_{back} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **140 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa γ_2D=1 (no 2D time dilation)**) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile $\nu$** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{active} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon$ $\sim 10^{-38}$, $f_{back} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **140 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa γ_2D=5.5e44 (time dilation at 2D level, REVERTED L308aa v1)**) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile $\nu$** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
@@ -9502,7 +9502,7 @@ Without a continuous f_leak = H_0 rate, DM grows unbounded (M_DM = R_add × t), 
 
 ### The Fix: Approach A1
 
-**γ_4D stays DERIVED** (literal time dilation at 4D level). **γ_2D = 1** (no time dilation at 2D level, per L308aa). The §3.67 formula is REPLACED by a NEW principle: **f_leak = H_0** (post-Friedmann, independent of γ_4D).
+**γ_4D stays DERIVED** (literal time dilation at 4D level). **γ_2D = 5.5e44** (literal time dilation at 2D level, consistent with γ_4D formula). The §3.67 formula is REPLACED by a NEW principle: **f_leak = H_0** (post-Friedmann, independent of γ_4D).
 
 **New principle** (post-Friedmann):
 
@@ -9521,7 +9521,7 @@ The framework has multiple γ values across different transitions:
 | γ | Formula | Status | Interpretation |
 |---|---|---|---|
 | γ_4D | (E_4D/M_Pl,3D)^α | DERIVED | Literal time dilation |
-| γ_2D | 1 | STRUCTURAL | No time dilation at 2D level (L308aa) |
+| γ_2D | (E_3D/M_Pl,3D)^α | DERIVED | Literal time dilation (5.5e44 for SN) |
 
 **Both γ values are LITERAL TIME DILATION** — consistent with each other.
 
@@ -9568,9 +9568,9 @@ The framework now has three independent "rates":
    - γ_4D = 5.93×10⁹⁰ (large)
    - 4D event's lifetime appears 10⁹⁰× longer in 3D frame
 
-2. **γ_2D**: 1 (NO time dilation at 2D level, per L308aa)
-   - 2D universe's 33s lifetime is the SAME in 2D's own frame and 3D frame
-   - 2D universe is BELOW 3D, observed directly (no time dilation)
+2. **γ_2D rate**: time dilation between 2D universe and 3+1D frames
+   - γ_2D(SN) = 5.5×10⁴⁴ (very large)
+   - SN's 2D universe appears 10⁴⁴× longer in 3D frame than in 2D's own frame
 
 3. **f_leak rate**: continuous DM drain from 3+1D back to 4D
    - f_leak = H_0 (set by cosmic expansion rate)
@@ -9585,10 +9585,11 @@ The framework now has three independent "rates":
 - Universe at 95.1% of DM lifetime
 - M_DM reaches steady state: M_DM = R_add / f_leak = 27% × ρ_crit ✓
 
-**2. γ_4D interpretation is consistent, γ_2D is 1 (L308aa):**
-- γ_4D = literal time dilation (real time dilation at 4D level)
-- γ_2D = 1 (NO time dilation at 2D level, asymmetric cone)
-- γ values are NOT consistent across transitions (cone is asymmetric)
+**2. γ_4D AND γ_2D interpretations are consistent (L308x, L308aa reverted):**
+- γ_4D = literal time dilation at 4D level
+- γ_2D = literal time dilation at 2D level
+- Both use the same formula (E_parent/M_Pl,child)^α
+- Cone is symmetric in HAVING time dilation, asymmetric in MAGNITUDE (γ_4D >> γ_2D)
 
 **3. AGC/KKR predictions work:**
 - τ_DM ≈ 14.5 Gyr allows for galaxy-scale differentiation
@@ -9875,13 +9876,13 @@ L308w. **f_leak = H_0 IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** (v3.5.9+, 
 
 **Problem identified**: The framework's closed loop (τ_4D → E_4D → γ_4D) forced f_leak from §3.67 formula = 2.59×10⁻² /s (way too fast). Without continuous leak, DM grows unbounded, breaking stable 5/27/68 ratio. User catch: "no leak means dm to de and matter ratio will keep growing".
 
-**Fix (A1)**: γ_4D stays DERIVED (literal time dilation at 4D level). γ_2D = 1 (no time dilation at 2D level, per L308aa). The §3.67 formula is REPLACED by a NEW principle: f_leak = H_0 directly.
+**Fix (A1)**: γ_4D stays DERIVED (literal time dilation at 4D level). γ_2D = 5.5e44 (literal time dilation at 2D level, consistent with γ_4D formula). The §3.67 formula is REPLACED by a NEW principle: f_leak = H_0 directly.
 
 **New principle**: f_leak = H_0 = 2.18×10⁻¹⁸ /s
 
 **What's preserved**:
 - γ_4D = (E_4D/M_Pl,3D)^α = 5.93×10⁹⁰ (DERIVED, literal time dilation)
-- γ_2D = 1 (no time dilation at 2D level, per L308aa)
+- γ_2D = (E_3D/M_Pl,3D)^α = 5.5e44 (literal time dilation, per L308x)
 - Both γ values: consistent (literal time dilation)
 - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
 - τ_4D,proper = 1.51×10³⁴ yr (DE-exact, unchanged)
@@ -9910,35 +9911,30 @@ STATUS: PARTIALLY CLOSED (postulated/observed).
 
 Source: `calculations/v36_research/A1_fleak_H0_principle.py`, paper §7.4.20.
 
-L308x. **γ_4D = TIME DILATION, γ_2D = 1 (CONE IS ASYMMETRIC IN TIME DILATION) — REVISED by L308aa** (v3.5.9+, A1, structural).
+L308x. **γ_4D AND γ_2D ARE BOTH LITERAL TIME DILATION** (v3.5.9+, A1, structural).
 
-**Original claim (L308x v1)**: γ_4D AND γ_2D ARE BOTH LITERAL TIME DILATION.
-**Revision (L308aa)**: γ_4D is time dilation, but γ_2D = 1 (no time dilation at 2D level).
+**Structural consistency**: In Approach A1, both γ values across cascade transitions have the SAME interpretation (literal time dilation):
 
-**Asymmetric cone structure (L308p + L308aa)**:
-- 4D level: 4D event is ABOVE 3D, gets TIME-DILATED in 3D projection
-  - γ_4D = (E_4D/M_Pl,3D)^α = 5.93×10⁹⁰ (literal time dilation)
-  - 4D proper time τ_4D,proper = 1.51×10³⁴ yr
-  - 3D observed time τ_3D,apparent = γ_4D × τ_4D,proper = 8.95×10¹²⁴ yr
-- 2D level: 2D universe is BELOW 3D, observed DIRECTLY in 3D (no time dilation)
-  - γ_2D = 1 (no time dilation)
-  - 2D universe's 33s lifetime (SN) is the SAME in 2D's own frame and 3D frame
-  - M^α law: τ_2D = (E_SN/M_Pl,3D)^α × t_Pl,3D = 33s (in 3D = parent frame = 2D proper)
+- γ_4D = (E_4D/M_Pl,3D)^α = 5.93×10⁹⁰ — 4D event's lifetime appears time-dilated in 3D frame
+- γ_2D = (E_3D/M_Pl,3D)^α = 5.5×10⁴⁴ (SN) — 2D universe's lifetime appears time-dilated in 3D frame
 
-**Physical interpretation**:
-- 4D is "transcendent" (different dimension from 3D, requires projection = time dilation)
-- 2D is "internal" (sub-dimension of 3D, observed directly = no dilation)
-- The cone has different time-dilation properties at different levels
-- L150 (v3.1.2-final): M^α law gives APPARENT durations in LOWER-D frame, not higher-D
-- This is structurally consistent with L308p (cone asymmetry)
+Both use the formula (E_event/M_Pl,parent)^α. Both represent dimensionless time dilation factors.
 
-**Implications**:
-- γ_2D = 1, NOT 5.5×10⁴⁴ (the latter is just a dimensionless ratio, not a γ factor)
-- Continuous 2D→3D leakage is INVISIBLE (33s is too short)
-- 2D universe's "death" is essentially instantaneous from 3D perspective
-- DE from 4D event IS time-dilated (γ_4D = 5.93×10⁹⁰)
+**FRAME OF REFERENCE**:
+- At 2D level: 2D universe's proper time = ~t_Pl,3D (Planck time), in 3D frame this is stretched to 33s (SN)
+- At 4D level: 4D event's proper time = 1.51×10³⁴ yr, in 3D frame this is stretched to 8.95×10¹²⁴ yr
+- Both transitions: 2D/4D proper time gets time-dilated in 3D projection
+- The "2D universe's 33s lifetime" we observe IS the 3D-frame time (γ_2D-stretched)
 
-Source: paper §7.4.20, L308aa (user correction 2026-06-21).
+**MAGNITUDE asymmetry**:
+- γ_4D = 5.93e90 (huge)
+- γ_2D = 5.5e44 (large but smaller)
+- γ_4D >> γ_2D because E_4D >> E_3D
+- But both ARE time dilation (asymmetric in magnitude, not in presence)
+
+This is in contrast to Path B2 (rejected) which had γ_4D as "back-flow efficiency" (not time dilation) while γ_2D was still time dilation — a structural inconsistency.
+
+Source: paper §7.4.20. L308aa v1 (γ_2D=1) REVERTED per user correction.
 
 L308y. **§3.67 1.4% match becomes STRIKING COINCIDENCE** (v3.5.9+, A1, structural).
 
@@ -9999,69 +9995,49 @@ Source: user message 2026-06-21 "wait, n_sub should be based on event size? not 
 
 ---
 
-L308aa. **γ_2D = 1 (NO TIME DILATION AT 2D LEVEL) — CORRECTION TO L308x** (v3.5.9+, USER-DIRECTED).
+L308aa. **γ_2D = 5.5e44 (TIME DILATION EXISTS AT 2D LEVEL) — REVERTED** (v3.5.9+, USER-CORRECTION).
 
-User: "At 2D→3D, no such time dilation exists — 2D universe's 33s lifetime is short, so continuous leakage is invisible. should add from 3d frame of reference. 2d lifespan in their own frame of reference is the universe entire lifespan."
+**Initial claim (L308aa v1)**: γ_2D = 1 (no time dilation at 2D-3D).
+**User correction**: γ_2D = (E_3D/M_Pl,3D)^α = 5.5e44 (time dilation DOES exist at 2D-3D).
+**L308aa is REVERTED — L308x stands as originally stated.**
 
-**REFREME FROM L308x**:
-- L308x claimed: γ_2D = (E_3D/M_Pl,3D)^α = 5.5×10⁴⁴ (literal time dilation, "consistent with γ_4D")
-- User correction: **γ_2D = 1** (NO time dilation at 2D level)
+User: "wait, why no time dilation? it should exist at both 2d-3d and 3d-4d no?"
 
-**WHY γ_2D ≠ γ_4D**:
+**CORRECTED INTERPRETATION**:
 
-The cone structure (L308p) is ASYMMETRIC in time dilation:
-- 4D is ABOVE 3D: 4D event's time gets STRETCHED when projected to 3D (γ_4D = 5.93×10⁹⁰)
-- 2D is BELOW 3D: 2D universe's time is OBSERVED DIRECTLY in 3D (no stretching, γ_2D = 1)
+γ_2D and γ_4D BOTH represent time dilation, following the SAME formula:
 
-At 2D level:
-- 2D universe is created by 3D event
-- 2D universe lives for τ_2D = (E_3D/M_Pl,3D)^α × t_Pl,3D = 33s (SN)
-- This 33s is the 2D universe's ENTIRE LIFESPAN in its own frame
-- In 3D frame: also 33s (γ_2D = 1, no time dilation)
-- The M^α law gives the lifetime in the PARENT'S frame
-- For 2D: parent is 3D, so 33s is the 3D-observed time = 2D's proper time
+| Transition | γ formula | γ value (SN / universe) | Frame interpretation |
+|---|---|---|---|
+| 2D → 3D | (E_3D/M_Pl,3D)^α | 5.5e44 (SN) | 2D's Planck-time existence → 33s in 3D |
+| 4D → 3D | (E_4D/M_Pl,3D)^α | 5.93e90 (universe) | 4D's 1.51e34 yr → 8.95e124 yr in 3D |
 
-At 4D level:
-- 4D event creates 3+1D sub-universes
-- 4D event lives for τ_4D,proper = (E_4D/M_Pl,4D)^α × t_Pl,4D = 1.51×10³⁴ yr in 4D's own frame
-- In 3D frame: τ_3D,apparent = γ_4D × τ_4D,proper = 8.95×10¹²⁴ yr
-- The M^α law gives the proper lifetime in the EVENT'S frame
-- For 4D: parent is 4D, so 1.51×10³⁴ yr is the 4D-observed time
-- But 3D sees the 4D event time-DILATED (γ_4D = 5.93×10⁹⁰)
+Both have time dilation. The "asymmetry" is in MAGNITUDE (γ_4D >> γ_2D), not in PRESENCE.
 
-**IMPLICATIONS**:
+**In 2D's own frame**:
+- 2D universe exists for ~t_Pl,3D = 5.39e-44 s (essentially instantaneous)
+- This IS the 2D universe's ENTIRE lifespan
+- In 3D frame: stretched by γ_2D to 33s (SN)
 
-1. **γ_2D = 1 (not 5.5×10⁴⁴)**:
-   - The formula (E_3D/M_Pl,3D)^α = 5.5×10⁴⁴ is a DIMENSIONLESS RATIO, not a time dilation
-   - This ratio appears in the M^α lifetime formula but doesn't represent γ_2D
-   - γ_2D is the time dilation factor between 2D and 3D frames, which is 1 (no dilation)
+**In 4D's own frame**:
+- 4D event exists for 1.51e34 yr (proper time)
+- In 3D frame: stretched by γ_4D to 8.95e124 yr (apparent time)
 
-2. **Continuous 2D→3D leakage is INVISIBLE**:
-   - 2D universe's 33s lifetime is short in 3D frame
-   - Any continuous leakage during 33s would be too brief to observe
-   - This is why the framework doesn't predict continuous 2D→3D leakage
-   - The 2D universe's "death" is essentially instantaneous from 3D perspective
+**The 33s in 3D IS time-dilated**:
+- 2D universe's proper time: ~t_Pl (5e-44 s)
+- 3D observed time: 33s = γ_2D × t_Pl
+- Continuous leakage 2D→3D during the 2D's proper time (t_Pl) is too short
+- But during the 33s in 3D, the 2D universe exists as a "frozen" particle (DM)
 
-3. **Cone asymmetry is CONFIRMED**:
-   - 4D level: time-dilated (γ_4D = 5.93×10⁹⁰)
-   - 2D level: no time dilation (γ_2D = 1)
-   - The cone has DIFFERENT time-dilation properties at different levels
-   - This is consistent with L308p (asymmetric scaling) and L150 (M^α in lower-D frame)
+**Both γ values are LITERAL TIME DILATION (L308x confirmed)**:
+- γ_2D = 5.5e44 (time dilation at 2D level)
+- γ_4D = 5.93e90 (time dilation at 4D level)
+- The cone is symmetric in HAVING time dilation, asymmetric in MAGNITUDE
+- Continuous 2D→3D leakage is INVISIBLE (γ_2D stretches t_Pl to 33s, but 2D's proper time is t_Pl)
 
-4. **Frame of reference clarification**:
-   - When describing a 2D universe's lifetime: it's 33s in 2D's own frame AND 3D frame
-   - When describing a 4D event's lifetime: τ_4D,proper = 1.51×10³⁴ yr in 4D frame, τ_3D,apparent = 8.95×10¹²⁴ yr in 3D frame
-   - Always specify the FRAME
+**STATUS**: L308aa v1 REVERTED. L308x (γ_2D = 5.5e44) is CORRECT. Both transitions have time dilation.
 
-**STATUS**: L308x was partially correct (γ_4D interpretation) but WRONG about γ_2D. **L308x is REVISED to acknowledge asymmetry**. The 2D level has no time dilation; only the 4D level does.
-
-**Files to update**:
-- L308x entry: revise to acknowledge γ_2D = 1, not 5.5×10⁴⁴
-- §7.4.20 A1 section: remove "γ_2D consistent with γ_4D" claim
-- 02_glossary.md: if γ_2D is listed, mark as = 1 (no dilation)
-- A1_fleak_H0_principle.py: update γ_2D = 1 (not 5.5e44)
-
-Source: user message 2026-06-21 "At 2D→3D, no such time dilation exists — 2D universe's 33s lifetime is short, so continuous leakage is invisible. should add from 3d frame of reference. 2d lifespan in their own frame of reference is the universe entire lifespan."
+Source: user correction 2026-06-21 "wait, why no time dilation? it should exist at both 2d-3d and 3d-4d no?"
 
 ---
 
