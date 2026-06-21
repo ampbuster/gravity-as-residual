@@ -1958,3 +1958,29 @@ references in main docs (00-14 markdown) are now in LEGACY/HISTORICAL contexts.
 - 736629e — CLEANUP PASS 44: More F_p(z)/F(z) HISTORICAL markers
 - 8f45cf4 — CLEANUP PASS 45: 14_appendix.md F(z) HISTORICAL marker
 - fd51a07 — CLEANUP PASS 46: More F(z) HISTORICAL markers in README dwarf sections
+
+
+### v3.5.9+ CLEANUP PASSES 47-48 (2026-06-21) — README HISTORICAL section markers
+
+User noted: "isn't the hill function deprecated? i still see it in the readme."
+
+PASS 47: v2.7.3 STATE section HISTORICAL marker
+- Added HISTORICAL marker to '# v2.7.3 STATE' section header (line 930)
+- Updated 'CMB RESOLVED' line to explicitly note F_p(z) was DROPPED in v3.3+
+  and r(z) ≈ (1+z)³ is REPRODUCED via different mechanism
+
+PASS 48: v2.7.3+ §11 header HISTORICAL marker
+- Added HISTORICAL marker to '# v2.7.3+ §11 — 47 TUC TEST FOR RUBIN/LSST' 
+  section header (line 945) to clarify it describes v2.7.3+ era state
+
+**FINAL VERIFICATION** (programmatic sweep):
+- 176 F_p(z) references across all docs
+- 49 F(z) references across all docs
+- ALL are now in LEGACY/HISTORICAL contexts (no primary framework usage)
+
+**COMMITS** (2 more, **total 59 commits this session**):
+- 31e9737 — CLEANUP PASS 47: v2.7.3 STATE section HISTORICAL marker
+- 631d822 — CLEANUP PASS 48: v2.7.3+ §11 header HISTORICAL marker
+
+**SESSION TOTAL**: 59 commits, all key values verified consistent, 
+all F_p(z)/F(z) references marked as LEGACY/HISTORICAL.
