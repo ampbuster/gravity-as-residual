@@ -139,7 +139,7 @@ The v3.3 DE formula has NO $4\pi$ factor. The simple $f_{\rm DE}$ formula gives 
 
 **DE matching** (3D→4D, v3.3 simple $f_{\rm DE}$ formula, NO $4\pi$): $\rho_{\rm DE} = f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl,3D}$^4 = $1.13\times 10^{-85}$ × $10^{-38}$ × ($1.22 \times 10^{19}$)⁴ = **$2.51\times 10^{-47}$ GeV⁴**. Observed: $2.5\times 10^{-47}$ GeV⁴. **Match within 0.13%** (basically exact; $\tau_{\rm 4D} = 1.51 \times 10^{34}$ yr is DE-calibrated).
 
-**Why this is honest, not cheating**: $\tau_{\rm 4D} = 1.51 \times 10^{34}$ yr is one of 4 calibrated parameters in v3.3 (alongside $\alpha = 1.289$, $\epsilon = 10^{-38}$, AGN rate). The simple $f_{\rm DE}$ formula gives 0.13% off (basically exact) by construction — but the value $f_{\rm DE} = 1.13 \times 10^{-85}$ is DERIVED from the framework's structure ($M_{\rm Pl,4D} = 4 \times 10^{23}$ via $\alpha$-weighted GM, $E_{\rm 4D} = 5 \times 10^{79}$ J, $M^{\alpha}$ law) and is consistent with the bilateral cascade (2.7% off with full formula). v3.3 removed $4\pi$ AND changed $M_{\rm Pl,4D}$ to $4\times 10^{23}$ GeV ($\alpha$-weighted GM, DERIVED), giving near-exact DE match.
+**Why this is honest, not cheating**: $\tau_{\rm 4D} = 1.51 \times 10^{34}$ yr is one of 4 calibrated parameters in v3.3 (alongside $\alpha = 1.289$, $\epsilon = 10^{-38}$, AGN rate). The simple $f_{\rm DE}$ formula gives 0.13% off (basically exact) by construction — but the value $f_{\rm DE} = 1.13 \times 10^{-85}$ is DERIVED from the framework's structure ($M_{\rm Pl,4D} = 4 \times 10^{23}$ via $\alpha$-weighted GM, $E_{\rm 4D} = 5 \times 10^{79}$ J, $M^{\alpha}$ law) and is consistent with the bilateral cascade (2.7% off with full formula). v3.3 removed $4\pi$ AND changed $M_{\rm Pl,4D}$ to $3.93\times 10^{23}$ GeV ($\alpha$-weighted GM, DERIVED; was $4\times 10^{23}$ pre-L308t precision), giving near-exact DE match.
 
 **STRENGTHS**:
 - Universal formula at every level
@@ -278,7 +278,7 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 **v3.2 changes don't affect this analysis**:
 - $N_{\rm sub}$ FREE (doesn't affect individual galaxy DM)
 - $M_{\rm Pl,2D}$ = 2.95 TeV (natural $E_{\rm crit}$, below all dwarf cases)
-- $M_{\rm Pl,4D} = 4 \times 10^{23}$ GeV (v3.3 $\alpha$-weighted GM, was 887 GeV) (Scenario X (SUPERSEDED in v3.3 by $\alpha$-weighted GM), doesn't affect galaxy-scale)
+- $M_{\rm Pl,4D} = 3.93 \times 10^{23}$ GeV (v3.3+ $\alpha$-weighted GM, was 887 GeV in v3.1.2 Scenario X) (Scenario X (SUPERSEDED in v3.3 by $\alpha$-weighted GM), doesn't affect galaxy-scale)
 - $M^{\alpha}$ scaling, closed loop (unchanged)
 
 **5/5 dwarf cases still pass**: Sun, AGC 114905, KKR 25, DF2/DF4, FCC 224. **The paper is still consistent with v3.2.**
@@ -958,7 +958,7 @@ A new section §10 derives speculative but *testable* end-of-universe signatures
 
 - **Energy-scaling rule:**$\tau_{D-1} = t_{\rm Pl,3+1D} \times ($E_{\rm D}$/E_{\rm Pl,3+1D})^{1.29}$, with $\alpha = 1.29$ forced by SN 33s calibration
 - **Relativistic-particle analogy:** 2D universes are "particles" with mass-dependent time dilation; smaller (lower-E) events create "lighter" 2D universes with more time dilation
-- **$M_{\rm Pl,4D} = 4 \times 10^{23}$ GeV (v3.3 $\alpha$-weighted GM):** derived from $M_{\rm Pl,3D}$^ $\alpha$ × $M_{\rm Pl,2D}$^(1-$\alpha$), satisfies fundamental 4D convention ($M_{\rm Pl,4D}$ > $M_{\rm Pl,3D}$); was 887 GeV in v3.1.2 Scenario X (DROPPED)
+- **$M_{\rm Pl,4D} = 3.93 \times 10^{23}$ GeV (v3.3+ $\alpha$-weighted GM):** derived from $M_{\rm Pl,3D}$^ $\alpha$ × $M_{\rm Pl,2D}$^(1-$\alpha$), satisfies fundamental 4D convention ($M_{\rm Pl,4D}$ > $M_{\rm Pl,3D}$); was 887 GeV in v3.1.2 Scenario X (DROPPED)
 - **If $M_{\rm Pl,4D} \sim {\rm TeV}$:** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life)
 - **Testable signatures:** DESI DR3 evolving DE (3.5 $\sigma$), LSST Y1 DE-density decrease, declining cosmic SFR, GW background
 - **LISA detection prospects (§10.17):** SIDC's SN death GW at 0.03 Hz is **6-14 orders below LISA noise** for any reasonable $\epsilon_{\rm GW}$. A NULL LISA result is consistent with (not contradictory to) SIDC. SIDC's high-energy death GW (BNS, AGN) is detectable by **PTAs** (NANOGrav, EPTA, SKA-MPG) at nHz frequencies, not LISA.

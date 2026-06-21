@@ -9478,13 +9478,15 @@ So each cascade level increases log scale by α factor of the previous level. Th
 - BEFORE: M_Pl,4D = 4×10²³ GeV (calibrated)
 - NOW: M_Pl,4D = 3.98×10²³ GeV (DERIVED via α-GM with first-principles inputs)
 - The α-GM IS the closed-loop formula
-- The 1.2% offset is from rounding in framework's M_Pl,2D = 3 TeV (vs derivation's 2.95 TeV)
+- The 1.2% offset was from rounding in framework's M_Pl,2D = 3 TeV (vs derivation's 2.95 TeV) [POST-L308t: eliminated by framework value update to 2.95 TeV exact]
 
 **Parameter hierarchy update**:
-- 4 MEASURED/CALIBRATED: M_Pl,3D, ε, τ_4D, AGN rate, E_4D (still calibrated for some)
+- 4 MEASURED/CALIBRATED: M_Pl,3D, ε, τ_4D, AGN rate, f_leak=H_0 (post-A1)
 - 4 FIRST-PRINCIPLES DERIVED: α, M_Pl,2D, μ, N=12
-- 2 DERIVED via α-GM and consistency: M_Pl,4D, N_sub
+- 2 DERIVED via α-GM and energy conservation: M_Pl,4D, E_4D (post-L308z)
 - 2 STRUCTURAL: τ_3D,apparent, γ_4D (follow from M^α law and time dilation)
+- 1 FREE: N_sub (event-specific, post-L308z)
+- TOTAL: 15 parameters (1+4+2+4+2+1+1 = 15)
 
 Actually, the count is:
 - 1 MEASURED: M_Pl,3D
