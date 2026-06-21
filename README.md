@@ -295,14 +295,14 @@ Here is the picture, in plain language (with appropriate caveats):
 2. The 4D event's gravity, projected into our 3+1D universe, inverts to **antigravity** (repulsive). We measure this as **dark energy**.
 3. In our universe, energetic events (supernovae, black hole mergers) create tiny 2D universes.
 4. The cumulative gravitational back-projection of all those 2D universes is what we measure as **dark matter**.
-5. **The geometric picture is consistent** (4D event → DE; 2D universes → DM) — but the quantitative "loop" (same $\alpha$ connecting them, $f_{\rm back} = 10^{-85}$ as universal back-projection) is **incomplete** (see L138-L140).
+5. **The geometric picture is consistent** (4D event → DE; 2D universes → DM) — and the quantitative "loop" is now PARTIALLY CLOSED via L308v (see §3.60.3 + L138 PARTIAL CLOSURE). The closed loop formula gives $f_{\rm DE} = 1.13 \times 10^{-85}$ matching DE calibration within 0.13%.
 
-**The takeaway (revised):** DE and DM are related geometrically, but the quantitative connection is not yet established.
+**The takeaway (v3.5.9+ A1+L308v REVISED):** DE and DM are related geometrically, and the quantitative connection is now PARTIALLY CLOSED (L138 PARTIAL CLOSURE via L308v $\alpha$-GM, $f_{\rm DE}$ matches DE within 0.13%).
 
 - **Dark energy** = the "upstairs" view (antigravity from the 4D event that made us). **Observed**: $\rho_{\rm DE}$/ $\rho_{\rm Pl}$ = 10⁻¹²³.
 - **Dark matter** = the "downstairs" view (gravity from the 2D universes our explosions keep creating). **Observed**: $\Omega_{\rm DM}$ = 0.27.
 
-Other models need to *postulate* DE and DM as two unrelated things. SIDC says they're two sides of one geometric fact: **we live in the projection of a 4D event**. The 4D's antigravity is DE, the 2D universes' back-projection is DM. But the geometric PICTURE is not yet a quantitative DERIVATION.
+Other models need to *postulate* DE and DM as two unrelated things. SIDC says they're two sides of one geometric fact: **we live in the projection of a 4D event**. The 4D's antigravity is DE, the 2D universes' back-projection is DM. The geometric PICTURE is now PARTIALLY a quantitative DERIVATION (closed loop $f_{\rm DE}$ derived via L308v $\alpha$-GM).
 
 > **Honest framing (CURRENT, v3.5.9+)**: $\epsilon = 10^{-38}$ (gravity weakness) and $\rho_{\rm DE}$/$\rho_{\rm Pl}$ = 10⁻¹²³ are **observed**. The closed loop formula gives $f_{\rm DE} = 1.13 \times 10^{-85}$, matching DE calibration within 0.13% (L308v L138 PARTIAL CLOSURE). The historical v3.1.1 discrepancy of 10¹⁸ was REVISED in v3.3+ (4π factor removed, $M_{\rm Pl,4D}$ updated to 3.93×10²³ GeV α-GM). See `paper/legacy/v359_README_legacy_sections.md` for historical analysis.
 
