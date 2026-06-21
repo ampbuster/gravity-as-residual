@@ -4511,21 +4511,25 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 
 **KEY DERIVATIONS (#28-#33)**:
 - **#32 $M_{\rm Pl,4D}$ = α-weighted GM**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = (1.22×10¹⁹)^1.289 × (3×10³)^(-0.289) = 4×10²³ GeV (DERIVED, was 887 GeV Scenario X).
-- **#33 4D event universe-scale**: $E_{\rm 4D}$ = 5×10⁷⁹ J (10⁸× observable universe), γ_4D = 6.03×10⁹⁰, τ_3D_apparent = 9.10×10²⁴ yr.
+- **#33 4D event universe-scale**: $E_{\rm 4D}$ = 5×10⁷⁹ J (10⁸× observable universe), γ_4D = 6.03×10⁹⁰ [v3.3 value, REVISED to 5.93×10⁹⁰ by L308t precision], τ_3D_apparent = 9.10×10²⁴ yr [v3.3 value, REVISED to 8.95×10¹²⁴ yr by L308t].
 - **#34 α^5 DROPPED**: Was empirical coincidence (1% off, wrong direction).
 
-**v3.3 KEY PARAMS (post-#33)**:
+**v3.3 KEY PARAMS (post-#33, REVISED v3.5.8+/v3.5.9+ L308r/t/z)**:
 - $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV (MEASURED)
-- $M_{\rm Pl,2D}$ = 3 TeV (CALIBRATED)
-- $M_{\rm Pl,4D}$ = 4×10²³ GeV (DERIVED, was 887 GeV v3.1.2 Scenario X)
-- $E_{\rm 4D}$ = 5×10⁷⁹ J (DERIVED, universe-scale, was 10⁵⁹ J Scenario X)
-- α = 1.289 (calibrated to 8 named events M^α fit)
-- ε = 10⁻³⁸ (calibrated to hierarchy)
-- τ_4D = 1.51×10³⁴ yr (calibrated to DE)
-- γ_4D = 6.03×10⁹⁰ (was 1.29×10⁶⁴ v3.1.2)
-- τ_3D_apparent = 9.10×10²⁴ yr (was 1.83×10⁹⁸ yr)
-- N_sub = 4×10² (free, was 300 in v3.1.2)
-- AGN rate = 3×10⁻¹⁶ /m³/s (calibrated to 27% DM)
+- $M_{\rm Pl,2D}$ = 3 TeV → **2.95 TeV** (FIRST-PRINCIPLES, L308r)
+- $M_{\rm Pl,4D}$ = 4×10²³ GeV → **3.93×10²³ GeV** (DERIVED, L308t precision)
+- $E_{\rm 4D}$ = 5×10⁷⁹ J (DERIVED via N_sub × E_sub, L308o)
+- α = 1.289 → **FIRST-PRINCIPLES** via Schwarzian SYK N=12 (L308n)
+- ε = 10⁻³⁸ (CALIBRATED)
+- τ_4D = 1.51×10³⁴ yr (CALIBRATED)
+- γ_4D = 6.03×10⁹⁰ → **5.93×10⁹⁰** (L308t precision)
+- τ_3D_apparent = 9.10×10²⁴ yr → **8.95×10¹²⁴ yr** (L308t precision)
+- N_sub = 4×10² → **3.86×10²** (FREE event-specific, L308z)
+- E_sub = (added L308z) → **1.295×10⁷⁷ J** (STRUCTURAL)
+- AGN rate = 3×10⁻¹⁶ /m³/s → **10⁻¹⁵·⁵² /s** (CALIBRATED)
+- f_leak = (added A1) → **H_0 = 2.18×10⁻¹⁸ /s** (CALIBRATED)
+- μ = (added L308r) → **8.73×10⁶ GeV²** (FIRST-PRINCIPLES, was 9×10⁶)
+- N = 12 = (added L308u) → **FIRST-PRINCIPLES** via Appelquist 2001 + Z_12 + 6D anomaly
 
 **v3.3 RESULTS**:
 - DE matches obs within 8.4% (NOT 0.24% — that was a v3.3 miscalculation; framework's calibration precision, see §3.67b)
