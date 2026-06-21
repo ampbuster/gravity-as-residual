@@ -177,7 +177,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✗ 4π geometric factor (was v3.1.2, removed v3.3)
 - ✗ α = 1.258 (falsified, 13/14 events fail)
 
-## Open Limitations (123 total in v3.5.8 master table)
+## Open Limitations (79 OPEN, 22 PARTIAL, 2 RESOLVED, 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE = 140 total in v3.5.9+ A1+L308z+L308aa master table)
 
 **Status breakdown** (v3.5.7+):
 - 79 OPEN (need theoretical/observational work)

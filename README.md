@@ -20,7 +20,7 @@
   - **L138 PARTIAL CLOSURE** (L308v): $M_{\rm Pl,4D}$ via $\alpha$-GM closed loop with first-principles inputs
 
 **Paper:** 395 pages, 1.52 MB
-**Limitations:** 138 honest (was 116 in v3.5.7, +22 v3.5.8-v3.5.9+)
+**Limitations:** 140 honest (was 116 in v3.5.7, +24 v3.5.8-v3.5.9+ A1+L308z+L308aa)
 **First-principles progress:** 4/14 ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12)
 
 For v3.5.8 details, see `paper/legacy/v358_user_driven_refinements.md`.

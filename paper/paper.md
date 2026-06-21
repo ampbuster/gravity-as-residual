@@ -10,7 +10,7 @@
 **v3.5.9+ HIGHLIGHTS** (CURRENT, June 21, 2026, APPROACH A1):
 
 **Paper:** 395 pages, 1.52 MB
-**Limitations:** 138 honest (was 116 in v3.5.7, +22 v3.5.8-v3.5.9+)
+**Limitations:** 140 honest (was 116 in v3.5.7, +24 v3.5.8-v3.5.9+ A1+L308z+L308aa)
 
 **v3.5.9+ BREAKTHROUGHS** (this release):
 - **APPROACH A1** (§7.4.20, CURRENT): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
@@ -2052,7 +2052,7 @@ If $M_{\rm Pl}$,D = 3.93×10²³ GeV (SIDC's v3.5.8+ value) for all D ≥ 4:
 SIDC's cone-shape (§2.6) terminates at 4D as the "top". But §3.10 (extending upward) + §3.21 (full recursive structure) allow SIDC to extend to N dimensions:
 
 - Each level is similar to 3+1D (universal bulk-brane cancellation, §2.4)
-- Each level has the same proper lifetime in its own frame (democratic cosmology, legacy_paper.md §3.17-legacy_paper.md §3.18)
+- Each level's PROPER lifetime in its own frame is γ × (3+1D-observed lifetime) per L308x v3 (asymmetric cone in time direction)
 - Each level has the same time-dilation factor $\gamma$ = $(E/E_{\rm Pl})^{1.29}$ (universal $\alpha$, legacy_paper.md §3.19)
 - Each level is created by events in the higher dimension
 
@@ -2069,7 +2069,7 @@ At every level, the parent dimension sees vastly different child lifetimes:
 **3.21.5 Implications.**
 
 1. SIDC is a **general framework**, not specific to 4D-3+1D-2D.
-2. The same physics ($\alpha$ = 1.29, democratic cosmology, universal bulk-brane) applies at every level.
+2. The same physics ($\alpha$ = 1.29, universal bulk-brane) applies at every level.
 3. The "universe creation" principle is **universal** — every energetic event creates a child universe.
 4. SIDC's cone-shape (§2.6) is the *default* but not the *only* option.
 5. SIDC is **naturally recursive** to N dimensions.
@@ -2077,15 +2077,15 @@ At every level, the parent dimension sees vastly different child lifetimes:
 **3.21.6 Status (v2.7.28+).**
 
 - SIDC is naturally recursive to N dimensions
-- Each level has the same proper lifetime in its own frame
+- Each level's PROPER lifetime in its own frame follows the M^α law (L308x v3)
 - Each level has the same time-dilation factor $\gamma$ = $(E/E_{\rm Pl})^{1.29}$
-- The "democratic cosmology" extends to every level
+- The M^α law (L308x v3, asymmetric cone) extends to every level
 - SIDC's framework is general, not specific
 
 **SIDC's commitment (v2.7.28+):**
 - SIDC is a recursive framework from 0D to ND
 - Each level is similar to 3+1D
-- The democratic cosmology is universal
+- The M^α law is universal
 - The cone-shape (§2.6) is the default, but the framework extends
 
 See `calculations/v27_recursive_structure.py` for the full analysis.
