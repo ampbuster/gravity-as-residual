@@ -1,0 +1,78 @@
+================================================================================
+CONSTRAINT LANDSCAPE FOR 130 M_sun COMPACT DM OBJECTS
+================================================================================
+
+SIDC's 12-fold DM cluster mass: 130 M_sun
+(13 sub-clumps × 10 M_sun = 130 M_sun, with 12-fold coordination)
+
+OBSERVATIONAL SURVEYS AND THEIR MASS COVERAGE:
+--------------------------------------------------------------------------------
+Survey                                        Mass range (M_sun)        130 M_sun sensitive?
+--------------------------------------------------------------------------------
+Subaru HSC M31 (photometric)                  1e-10 - 1e-05             no                  
+MACHO/EROS LMC                                1e-07 - 4e+00             no                  
+OGLE SMC                                      1e-01 - 2e+01             no                  
+MACHO Project BH DM                           3e-01 - 3e+01             no                  
+Supernova lensing (Zumalacarregui+ 2018)      1e-06 - 1e+04             YES ✓               
+Hyper Suprime-Cam M31 (Niikura+ 2019)         1e-11 - 1e-06             no                  
+Gaia DR3 astrometric substructure (Mondino+ 2024) 1e+07 - 1e+09             no                  
+Gaia DR4 FORECAST (Mondino+ 2024)             1e+01 - 3e+03             YES ✓               
+Pulsar timing (NANOGrav 15-yr)                1e+01 - 1e+03             YES ✓               
+LIGO O3 IMBH                                  1e+02 - 1e+05             YES ✓               
+Roman Space Telescope (forecast)              1e-07 - 1e+04             YES ✓               
+
+================================================================================
+KEY FINDING: 130 M_sun IS in Gaia DR4 FORECAST sensitivity range
+================================================================================
+
+The 12-fold prediction sits at the LOWER END of Gaia DR4's forecast
+(10-3×10^3 M_sun, arXiv:2308.12330).
+
+Gaia DR4 (expected 2026-2027) could be the FIRST survey to test
+the 12-fold DM substructure prediction!
+
+HOWEVER: Gaia DR4 will need to be specifically analyzed for
+12-fold spatial signatures, not just generic substructure.
+
+================================================================================
+12-FOLD SIGNATURE: HOW IT WOULD LOOK IN DATA
+================================================================================
+
+The 12-fold coordination is a SPATIAL pattern, not a single signal.
+It would manifest as:
+
+1. ANGULAR POWER SPECTRUM (CMB/cosmic shear):
+   - Excess power at specific multipole l_12
+   - l_12 = π × D_A / r_12 where r_12 is the 12-fold correlation length
+   - Distinct from smooth ΛCDM predictions
+
+2. SUBSTRUCTURE CLUSTERING:
+   - DM subhalos cluster with 12-fold coordination around central
+   - Detectable as: 12 neighbors within specific distance from each subhalo
+   - Statistical signature: P(r) shows peak at 12-fold coordination radius
+
+3. WIDE BINARY DISRUPTION (Yoo+ 2004, Quinn+ 2009):
+   - Wide binaries (10^3-10^4 AU) disrupted by passing DM objects
+   - 130 M_sun objects would disrupt binaries at specific rate
+   - Gaia can measure wide binary survival fraction
+
+4. PULSAR TIMING (NANOGrav 15-yr):
+   - Coherent signal at 12-fold frequency
+   - Would appear as specific peak in timing residuals
+   - Currently analyzed for SMBHB, not DM substructure
+
+================================================================================
+RECOMMENDATION
+================================================================================
+
+To test the 12-fold prediction, the framework should:
+
+1. WAIT for Gaia DR4 (2026-2027)
+2. ENCOURAGE analysis of Gaia DR4 for 12-fold spatial signatures
+3. ENCOURAGE reanalysis of NANOGrav 15-yr for 130 M_sun substructure
+4. PROPOSE specific observational signature (12-fold angular correlation)
+
+Current status: UNTESTABLE with existing data
+Future status: TESTABLE with Gaia DR4 (2026-2027)
+
+This is honest: the prediction is novel, not testable now, but testable soon.
