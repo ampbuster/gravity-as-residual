@@ -1,0 +1,129 @@
+======================================================================
+QCD/EARLY-UNIVERSE DM CONTRIBUTION TO CMB — CALCULATION RESULTS
+v3.5.9+ A1 — June 21, 2026
+======================================================================
+
+USER INSIGHT: "hot plasma during universe creation also produces 2D universes"
+QUESTION: Does the existing scaling law close the CMB gap?
+
+======================================================================
+1. REQUIRED ENERGY FOR tau_2D = t_CMB (dies exactly at z=1100)
+======================================================================
+
+t_CMB = 380 kyr = 1.199e13 s
+
+From tau_2D = t_Pl * (E/E_Pl)^alpha:
+E_required = E_Pl * (t_CMB/t_Pl)^(1/alpha)
+           = 1.954e9 * (1.199e13 / 5.391e-44)^(1/1.289)
+           = 1.954e9 * (2.224e56)^0.7758
+           = 1.037e53 J
+
+COMPARISON:
+  E_required = 1.04e53 J
+  SN kinetic energy      ~ 1e44 J   (1e9 too small)
+  Hypernova              ~ 1e46 J   (1e7 too small)
+  BNS merger             ~ 1e53 J   ✓ PERFECT MATCH
+  AGN outburst           ~ 1e55 J   (1e2 too big)
+
+So events at the BNS-merger scale (10^53 J) naturally die at z=1100.
+
+======================================================================
+2. WHEN DOES E_Hubble = 10^53 J?
+======================================================================
+
+In rad-dom era: E_Hubble ∝ (1+z)^-2
+E_H(z=1e12) = 8.66e47 J
+E_H = 10^53 requires (1+z) = 10^9, i.e., z = 10^9
+
+At z = 10^9 (BBN-era, T ~ 0.23 MeV):
+  E_Hubble = 8.66e53 J
+  tau_2D = 1.85e14 s = 5.85 Myr
+  
+So at z=10^9, the entire Hubble-volume-as-event has E = 8.66e53 J,
+lifetime 5.85 Myr, dies at z ~ 200 (slightly LATER than z=1100).
+
+======================================================================
+3. NAIVE TREATMENT: "EVENT = HUBBLE VOLUME"
+======================================================================
+
+If each Hubble volume at each early-universe epoch is one discrete event:
+
+| epoch          | z         | E_H [J]     | tau_2D [s]  | N_events (comoving V) | m_per_event [kg] | M_DM [kg]   | dies before z=1100? |
+|----------------|-----------|-------------|-------------|----------------------|-------------------|--------------|---------------------|
+| Inflation end  | 1e26      | 8.66e19     | 2.83e-30    | 8.97e67              | 9.64e2           | 8.65e70      | YES                 |
+| Reheating      | 1e15      | 8.66e41     | 6.35e-2     | 8.97e34              | 9.64e24          | 8.65e59      | YES                 |
+| EW phase trans | 1e15      | 8.66e41     | 6.35e-2     | 8.97e34              | 9.64e24          | 8.65e59      | YES                 |
+| QCD phase trans| 1e12      | 8.66e47     | 3.42e6      | 8.97e25              | 9.64e30          | 8.65e56      | YES                 |
+| BBN            | 1e10      | 8.66e51     | 4.89e11     | 8.97e19              | 9.64e34          | 8.65e54      | YES                 |
+| Matter-rad eq  | 3400      | 2.63e64     | 5.96e27     | 1.00e1               | 2.93e47          | 0            | NO (still alive)    |
+| Recombination  | 1100      | 8.56e64     | 2.72e28     | 1.00e0               | 9.52e47          | 0            | NO (still alive)    |
+| Reionization   | 10        | 1.29e66     | 8.99e29     | 6.63e-4              | 1.44e49          | 0            | NO (still alive)    |
+| Today          | 0         | 7.59e65     | 4.54e29     | 1.02e-4              | 8.45e48          | 0            | NO (still alive)    |
+
+Total DM mass produced: 8.65e70 kg
+Required DM at z=1100:   1.89e39 kg (from Omega_c * rho_crit * V_comoving)
+Overproduction factor:   4.57e31 (~31 orders of magnitude!)
+
+======================================================================
+4. CONCLUSION: WHY THIS OVERPRODUCES
+======================================================================
+
+The naive "Hubble volume = event" treatment overproduces DM by 31 orders of
+magnitude because:
+
+1. In standard cosmology, the early universe is a CONTINUOUS thermodynamic
+   process (radiation-dominated plasma), NOT a collection of discrete events.
+   
+2. The QCD phase transition is a CROSSOVER (not first-order), so there are
+   no discrete bubbles to count.
+   
+3. The EW phase transition is also a crossover in standard model.
+
+4. SIDC's C(E) = E^(1+alpha) was designed for DISCRETE events (SN, AGN, BNS).
+   Applying it to continuous processes gives unphysical results.
+
+======================================================================
+5. PATH FORWARD (4 OPTIONS)
+======================================================================
+
+(a) BSM physics with first-order QCD/EW phase transitions
+    - Discrete bubble nucleation events
+    - Each bubble has E_bubble ~ latent heat × bubble volume
+    - Would need specific BSM model (e.g., axion-like, extended Higgs)
+    - Could naturally produce events at z > 1100 with E ~ 10^53 J
+
+(b) Discrete early-universe objects
+    - Cosmic strings (topological defects)
+    - Primordial black holes (PBHs)
+    - Magnetic monopoles
+    - Each is a discrete object with calculable energy
+    - Abundance is constrained by observations
+
+(c) Framework modification: continuous-process formalism
+    - New C(E) that handles thermodynamic processes, not just discrete events
+    - Would need to integrate energy density over cosmic history
+    - Might involve a "suppression factor" for continuous vs discrete
+
+(d) Normalization constraint
+    - Add a normalization factor N such that total early-DM = Omega_c * rho_crit
+    - This is essentially saying "only a fraction of early-universe energy → DM"
+    - Less elegant but pragmatic
+
+======================================================================
+6. RECOMMENDATION
+======================================================================
+
+Mark this as a NEW LIMITATION L308ab:
+"Early-universe 2D universe creation: scaling law applies but discrete
+events at z > 1100 with E ~ 10^53 J are not naturally present in standard
+cosmology. Closing the CMB gap requires BSM physics (option a) or a
+framework modification (option c). PARTIAL closure possible but not yet
+specified."
+
+This is honest progress: the scaling law IS universal and applies to early
+universe, but the application requires either:
+- New physics (first-order phase transitions, topological defects)
+- New framework element (continuous-process formalism)
+
+CMB gap stays OPEN in v3.5.9+, but with a CLEAR PATH for closure.
+

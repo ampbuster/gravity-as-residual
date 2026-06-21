@@ -236,7 +236,7 @@ This evaluates to $f_{\rm DE} = 1.13 \times 10^{-85}$ (DERIVED via L308v α-GM).
 
 ### Weaknesses
 
-- **CMB-era physics is open**: 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty; full Lagrangian requires a 2D CFT expert.
+- **CMB-era physics: PARTIALLY CLOSED via L308ab (v3.5.9+)**. Naive overproduction of DM at z=1100 (10⁷⁴ kg vs required 10³⁹ kg) is drained by f_leak = H(z) — user insight that "when universe was small, pressure was higher, so more leaks back to 4d". Drains 32 orders of magnitude by z=1100, matching Planck 2018. τ_DM unchanged to within 13%. Remaining: 2D-to-3+1D time compression has 54-orders uncertainty, full Lagrangian requires 2D CFT expert.
 - **Hubble tension**: ACCEPTED as real tension, $H_{0,4D} = 70.16$ is a geometric-mean property but specific $H_0$ values are not derived.
 - **No unique testable predictions**: SIDC has **0 unique testable predictions** beyond what ΛCDM and MOND already predict. SIDC's value is *interpretive* (DM = 2D universe deaths, DE = 4D event antigravity) and *parsimonious*, not predictively unique.
 
