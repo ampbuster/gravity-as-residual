@@ -19,7 +19,7 @@
   - $\tau_{\rm 3D,apparent} = 8.95\times 10^{124}$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (literal time dilation)
-- **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, N_sub = 3.86×10²
+- **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, $N_{\rm sub} = 3$.86×10²
 - **L308u (WHY N=12? BREAKTHROUGH)**: Appelquist 2001 PRL 87, 031801 — 3 generations from 6D anomaly cancellation
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
 - **First-principles progress**: 0/9 → 4/14 (α, $M_{\rm Pl,2D}$, μ, N=12)

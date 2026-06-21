@@ -19,7 +19,7 @@ Apparent "0 occurrences" were due to notation differences.
 | $\alpha$ = 1.289 | 473 | (varies) | ✓ CONSISTENT |
 | $\mu$ = 8.73×10⁶ GeV² | 6 | (varies) | ✓ CONSISTENT |
 | $E_{\rm 4D}$ = 5×10⁷⁹ J | 25 | 21 | ✓ CONSISTENT |
-| N_sub = 3.86×10² | 62 | 67 | ✓ CONSISTENT |
+| $N_{\rm sub} = 3$.86×10² | 62 | 67 | ✓ CONSISTENT |
 | AGN rate = 3×10⁻¹⁶ | 16 | 3 | ✓ CONSISTENT |
 | $\tau_{\rm SN}$ = 33 s | 388 | (varies) | ✓ CONSISTENT |
 | 5/27/68 split | 419 | (varies) | ✓ CONSISTENT |

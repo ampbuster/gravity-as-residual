@@ -72,7 +72,7 @@ All other values in SIDC are *derived* from the cascade structure:
 The 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, $\Omega$'s, $g_+$) are taken from data, not fit.
 
 **HISTORICAL**: SIDC had 0 calibrated postulates in the v3.0+ state.
-**CURRENT (v3.5.9+ A1+L308z update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" (E_4D = N_sub × E_sub, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has 15 parameters (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 4 FIRST-PRINCIPLES (α, M_Pl,2D, μ, N=12), 2 DERIVED (M_Pl,4D, E_4D), 4 CALIBRATED (ε, τ_4D, AGN rate, f_leak), 3 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D), 1 FREE (N_sub).
+**CURRENT (v3.5.9+ A1+L308z update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has 15 parameters (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 4 FIRST-PRINCIPLES (α, M_Pl,2D, μ, N=12), 2 DERIVED (M_Pl,4D, E_4D), 4 CALIBRATED (ε, τ_4D, AGN rate, f_leak), 3 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D), 1 FREE (N_sub).
 ### 2.1 The setup
 
 We assume, following the well-developed brane-world framework [ADD98, RS99], that our observable universe is a 3+1 dimensional brane embedded in a higher-dimensional bulk. Gravity propagates in the bulk; the other Standard Model forces are confined to the brane.

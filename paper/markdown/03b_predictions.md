@@ -17,12 +17,12 @@ legacy_paper.md §3.17 and legacy_paper.md §3.18 established the "democratic co
 
 Each level of SIDC has the same structure (per L308x v3, asymmetric cone in time direction):
 - **Proper lifetime** = lifetime in the EVENT's own frame (e.g., 2D universe in 2D frame, 4D event in 4D frame)
-- **γ = (E/M_Pl,parent)^α** is the time-dilation factor (>1 in both cases)
+- **γ = $(E/M_{\rm Pl,parent})^{\alpha}$** is the time-dilation factor (>1 in both cases)
 - **Relationship between frames** (L308x v3):
-  - At 2D level: 2D proper = γ_2D × 3+1D-observed (γ stretches time in 2D's own frame)
-  - At 4D level: 3+1D-observed = γ_4D × 4D proper (γ stretches time in 3+1D frame)
-  - Equivalently: 4D proper = 3+1D-observed / γ_4D
-- **Time dilation is ASYMMETRIC** in direction: at 2D level γ_2D stretches time in 2D's own frame (2D proper is LONG, 3+1D observed is short); at 4D level γ_4D stretches time in 3+1D frame (4D proper is short, 3+1D observed is LONG)
+  - At 2D level: 2D proper = $\gamma_{\rm 2D} \times$ 3+1D-observed ($\gamma$ stretches time in 2D's own frame)
+  - At 4D level: 3+1D-observed = $\gamma_{\rm 4D} \times$ 4D proper ($\gamma$ stretches time in 3+1D frame)
+  - Equivalently: 4D proper = 3+1D-observed / $\gamma_{\rm 4D}$
+- **Time dilation is ASYMMETRIC** in direction: at 2D level $\gamma_{\rm 2D}$ stretches time in 2D's own frame (2D proper is LONG, 3+1D observed is short); at 4D level $\gamma_{\rm 4D}$ stretches time in 3+1D frame (4D proper is short, 3+1D observed is LONG)
 
 | Level | D | $M_{\rm Pl,D}$ | Proper lifetime (event's own frame) | Time dilation γ | 3+1D-observed lifetime |
 |-------|---|------------|----------------------------------|---------------|-------------------------|
@@ -35,8 +35,8 @@ Each level of SIDC has the same structure (per L308x v3, asymmetric cone in time
 | ... | N | $t_{\rm Pl,N}$ | $t_{\rm Pl,N}$ in N-D frame | $\gamma_{\rm N}$ = $(E/M_{\rm Pl,N})^\alpha$ | varies |
 
 **Cone asymmetry in time (L308x v3)**:
-- At 2D level: γ_2D = 5.5×10⁴⁴ stretches time in 2D's own frame (2D proper >> 3D observed)
-- At 4D level: γ_4D = 5.93×10⁹⁰ stretches time in 3D frame (3D observed >> 4D proper)
+- At 2D level: $\gamma_{\rm 2D} = 5.5\times10^{44}$ stretches time in 2D's own frame (2D proper >> 3D observed)
+- At 4D level: $\gamma_{\rm 4D} = 5.93\times10^{90}$ stretches time in 3D frame (3D observed >> 4D proper)
 - In BOTH cases, the LOWER-D dimension has MORE time (2D > 3D > 4D in duration)
 
 **3.21.2 Generalized Planck units in N dimensions.**

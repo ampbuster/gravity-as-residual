@@ -107,19 +107,19 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 
 | Boundary | Observed time (3D frame) | Proper time (event's own frame) | γ | Continuous leakage | Pulsed at death | What dominates NOW? |
 |---|---|---|---|---|---|---|
-| 2D→3D (SN) | **33 s** (3D-observed) | **5.7×10³⁸ yr** (2D's own frame) | γ_2D = 5.5×10⁴⁴ | 33×10⁻⁴⁵ = 10⁻⁴⁴ (negligible) | 100% at 33s | **Pulsed (DM)** |
-| 3D→4D | **8.95×10¹²⁴ yr** (3D-observed) | **1.51×10³⁴ yr** (4D's own frame) | γ_4D = 5.93×10⁹⁰ | 10⁵¹×10⁻⁸⁵ = O(1) by heat death | 100% at 1.51e34 yr | **Continuous (DE)** |
+| 2D→3D (SN) | **33 s** (3D-observed) | **5.7×10³⁸ yr** (2D's own frame) | $\gamma_{\rm 2D} = 5.5\times10^{44}$ | $33\times10^{-45} = 10^{-44}$ (negligible) | 100% at 33s | **Pulsed (DM)** |
+| 3D→4D | **8.95×10¹²⁴ yr** (3D-observed) | **1.51×10³⁴ yr** (4D's own frame) | $\gamma_{\rm 4D} = 5.93\times10^{90}$ | $10^{51}\times10^{-85} = O(1)$ by heat death | 100% at 1.51×10³⁴ yr | **Continuous (DE)** |
 
 **Time dilation is the key** (cone is asymmetric in time direction):
 
 | Transition | γ formula | Proper time (in event's frame) | Observed time (in 3D) | γ value |
 |---|---|---|---|---|
-| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | 5.7×10³⁸ yr (2D's own frame, SN) | 33 s (3D frame) | γ_2D = 5.5×10⁴⁴ (LARGE) |
-| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | γ_4D = 5.93×10⁹⁰ (LARGER) |
+| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | 5.7×10³⁸ yr (2D's own frame, SN) | 33 s (3D frame) | $\gamma_{\rm 2D} = 5.5\times10^{44}$ (LARGE) |
+| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | $\gamma_{\rm 4D} = 5.93\times10^{90}$ (LARGER) |
 
 Both γ > 1, both represent LITERAL TIME DILATION (L308x). The cone is ASYMMETRIC in direction:
-- **2D level**: γ_2D stretches time in 2D's own frame (2D universe lives 5.7e38 yr in 2D, only 33s in 3D)
-- **4D level**: γ_4D stretches time in 3D frame (4D event lives 1.51e34 yr in 4D, but 8.95e124 yr in 3D)
+- **2D level**: $\gamma_{\rm 2D}$ stretches time in 2D's own frame (2D universe lives $5.7\times10^{38}$ yr in 2D, only 33s in 3D)
+- **4D level**: $\gamma_{\rm 4D}$ stretches time in 3D frame (4D event lives $1.51\times10^{34}$ yr in 4D, but $8.95\times10^{124}$ yr in 3D)
 
 **In both cases, the LOWER-D dimension has MORE time** (2D > 3D > 4D in duration).
 
@@ -169,7 +169,7 @@ The v3.3 DE formula has NO $4\pi$ factor. The simple $f_{\rm DE}$ formula gives 
 | $M_{\rm Pl,4D}$ = 3.93×10²³ GeV ($\alpha$-GM closed loop) | ✓ **DERIVED** (L308v, was CALIBRATED v3.5.8) |
 | DE matching within 0.13% via $f_{\rm DE}$ formula | ✓ **DERIVED** (L308v α-GM, was CALIBRATED) |
 | $f_{\rm DE}$ = 1.13×10⁻⁸⁵ (from framework structure) | ✓ **DERIVED** (L308v, was CALIBRATED) |
-| $E_{\rm 4D}$ = 5×10⁷⁹ J (N_sub × $E_{\rm sub}$) | ✓ **DERIVED** (L308o, energy conservation) |
+| $E_{\rm 4D} = 5\times10^{79}~J$ ($N_{\rm sub} \times E_{\rm sub}$, energy conservation) | ✓ **DERIVED** (L308o, energy conservation) |
 | $\gamma_{\rm 4D}$ = 5.93×10⁹⁰ (literal time dilation) | ✓ **STRUCTURAL** (L308x) |
 | $\tau_{\rm 3D,apparent}$ = 8.95×10¹²⁴ yr | ✓ **STRUCTURAL** (time-dilated 4D lifetime) |
 | $E_{\rm sub}$ = 1.295×10⁷⁷ J (galaxy-mass 2D universe) | ✓ **STRUCTURAL** (L308z, framework choice) |
@@ -1106,7 +1106,7 @@ For full version history, see **[`changelog.md`](changelog.md)** below.
 - **L308u (WHY N=12? BREAKTHROUGH)**: Appelquist 2001 PRL 87, 031801 — 3 generations from 6D anomaly cancellation
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via $\alpha$-GM closed loop with first-principles inputs ($f_{\rm DE}$ now DERIVED, not calibrated)
 - **L308x (γ consistency)**: Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ are literal time dilation; cone is ASYMMETRIC in time direction (L308aa v1 REVERTED)
-- **L308z (N_sub event-specific)**: N_sub = 386 is FREE for our universe's 4D event (different events → different N_sub)
+- **L308z ($N_{\rm sub}$ event-specific)**: $N_{\rm sub} = 386$ is FREE for our universe's 4D event (different events → different $N_{\rm sub}$)
 - **First-principles progress**: 4/15 (was 0/9 before L308n/r/u) — $\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 all DERIVED
 - **140 honest limitations** (was 116 v3.5.7, +24 v3.5.8-v3.5.9+ A1+L308z+L308aa)
 

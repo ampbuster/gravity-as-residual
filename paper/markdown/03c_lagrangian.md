@@ -190,7 +190,7 @@ where 33s is the SN calibration value, but the cleaner form shows $\alpha$ is un
 Evidence for $\alpha$ being universal:
 1. **N = 12 SYK is fixed**: the 12 SM Weyl fermions (3 generations ×
    4) don't change with hierarchy level.
-2. **The "1" in $\alpha$ = 1 + 1/√12**: comes from kinematic boost (E/E_Pl),
+2. **The "1" in $\alpha$ = 1 + 1/√12**: comes from kinematic boost $(E/E_{\rm Pl})$,
    which is universal.
 3. **The "1/√12" comes from N = 12 finite-size correction**: depends
    only on N, not on hierarchy level.
@@ -276,7 +276,7 @@ For $\gamma \sim 10^{62}$ (within the SIDC cone picture's range $10^{60}$ to $10
 - $\tau_{\rm 4D} = 4.35 \times 10^{41}$ s = $1.4 \times 10^{34}$ yr (10²⁴ × universe age: "practically eternal")
 - $f_{\rm back} = 5.4 \times 10^{-44} / 4.35 \times 10^{41} = 1.2 \times 10^{-85}$
 
-Then DE = $f_{\rm back}$ × $\epsilon$ × M_Pl⁴:
+Then DE = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl}^4$:
 - $10^{-85} \times 10^{-38} \times 10^{76} = 2.7 \times 10^{-47}$ GeV⁴
 - Observed: $2.4 \times 10^{-47}$ GeV⁴ (within 14%)
 
@@ -300,7 +300,7 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ($\gamma$ ~ 10⁵⁶), which 
 1. **4D ↔ 3+1D (CLOSED LOOP)**:
    - 4D event creates 3+1D (forward, $f_{\rm DE}$ = 10⁻⁸⁵)
    - 3+1D leaks back to 4D (backward, $f_{\rm DE}$ = 10⁻⁸⁵)
-   - DE = $f_{\rm back}$ × $\epsilon$ × M_Pl⁴
+   - DE = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl}^4$
    - $\gamma$ ~ 10⁶² makes 4D event "practically eternal" from 3+1D frame
    - This is a CLOSED LOOP (same $f_{\rm back}$ in both directions)
 
@@ -348,7 +348,7 @@ The 3+1D → 2D transition is a CREATE-AND-DIE process, NOT a closed loop.
 - 4D event's gravity **inverts** to antigravity when projected into 3+1D
 - The 4D antigravity **cancels** 3+1D's own gravity
 - The residual after cancellation = **$\epsilon$ = 10⁻³⁸** (gravity weakness, OBSERVED)
-- The un-cancelled fraction of 4D antigravity = **DE = 10⁻¹²³ × M_Pl⁴** (OBSERVED)
+- The un-cancelled fraction of 4D antigravity = **DE = 10⁻¹²³ × $M_{\rm Pl}^4$** (OBSERVED)
 - $f_{\rm DE}$ = 10⁻⁸⁵ = $t_{\rm Pl}$/$\tau_{\rm 4D}$ = **3D-to-4D leakage rate** (with $\gamma$ ~ 10⁶²)
 
 **Numerical check (DE density prediction)**:
@@ -488,7 +488,7 @@ The lifetime $\tau_{\rm sub}$ is UNKNOWN — only constrained to be > 13.8 Gyr (
 
 $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
-**N_sub and $E_{\rm sub}$ are FREE PARAMETERS** linked by energy conservation. The choice N_sub = 300, $E_{\rm sub}$ = 3.57×10⁵⁶ J was an ARBITRARY choice (gives "small galaxy mass" sub-universes, but is not derived from the cascade). The user's correction: N_sub could be 150 with double-mass sub-universes, or N_sub = 1 with one universe, etc.
+**N_sub and $E_{\rm sub}$ are FREE PARAMETERS** linked by energy conservation. The choice $N_{\rm sub} = 300$, $E_{\rm sub}$ = 3.57×10⁵⁶ J was an ARBITRARY choice (gives "small galaxy mass" sub-universes, but is not derived from the cascade). The user's correction: N_sub could be 150 with double-mass sub-universes, or $N_{\rm sub} = 1$ with one universe, etc.
 
 **Number of sub-universes per 4D event**: N_sub is UNKNOWN. The 4D-bulk dynamics that determine N_sub are open (L144).
 
@@ -499,7 +499,7 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 - 3+1D universe CURRENT AGE: 13.8 Gyr (observed directly, the only firm value)
 - $f_{\rm DE}$ derived from closed-loop formula: 1.2×10⁻⁸⁵/s (matches DE within 1.7%, doesn't depend on N_sub)
 
-**Honest verdict (v3.1.2-final)**: N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm sub}$ = $E_{\rm 4D}$ / N_sub is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice (N_sub = 300, $E_{\rm sub}$ = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
+**Honest verdict (v3.1.2-final)**: N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm sub}$ = $E_{\rm 4D}$ / N_sub is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice ($N_{\rm sub} = 300$, $E_{\rm sub}$ = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
 
 **Age vs Lifetime (v3.1.2-final, KEY CORRECTION)**:
 - 13.8 Gyr = current AGE of our 3+1D universe (OBSERVED, the only firm value)
@@ -1117,7 +1117,7 @@ User question: "so $\alpha$ is the shape that links dimensions?"
 **$\alpha$ = 1 + 1/√12** has two pieces:
 
 1. **The "1"** is universal — comes from kinematic boost (special
-   relativity: E/E_Pl). This is the SAME at every hierarchy level.
+   relativity: $E/E_{\rm Pl}$). This is the SAME at every hierarchy level.
 
 2. **The "1/√12"** is the FINITE-N correction — comes from the
    12-vertex SYK graph (N=12 = 3 generations × 4 SM Weyl fermions).
