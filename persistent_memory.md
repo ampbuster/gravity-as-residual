@@ -1891,3 +1891,37 @@ clearly marked as HISTORICAL (F_p(z) Hill function was DROPPED in v3.3+).
 - 15 parameters total (1+4+2+4+3+1 = 15)
 - 140 limitations
 - 395 pages
+
+
+### v3.5.9+ CLEANUP PASSES 39-42 (2026-06-21) — stale value cleanup
+
+PASS 39: More stale value fixes
+- changelog.md parameter count 14 → 15 (miscounted)
+- changelog.md first-principles progress 4/14 → 4/15 (N_sub now FREE)
+- paper/legacy/v358_user_driven_refinements.md: E_sub 1.25 → 1.295 (L308z)
+- 06_limitations.md L308s: added POST-L308t note about framework update
+
+PASS 40: M_Pl,4D = 4×10²³ → 3.93×10²³ in README
+- Found 3 stale references in README (lines 142, 281, 961)
+- Updated to current L308t precision value
+- 06_limitations.md L308v entry: updated hierarchy to 15 parameters
+
+PASS 41: v357_legacy_parameters.md CURRENT markers updated
+- Header had "Current canonical values (v3.5.7)" with stale values
+- Updated all 6 inline "CURRENT" markers to show REVISED values
+- L308r/L308t/L308z updates noted
+
+PASS 42: changelog.md v3.3 KEY PARAMS section updated
+- v3.3 era values were: M_Pl,2D=3 TeV, M_Pl,4D=4×10²³, γ_4D=6.03×10⁹⁰, τ_3D=9.10×10²⁴ yr, N_sub=4×10²
+- Current values noted: M_Pl,2D=2.95 TeV, M_Pl,4D=3.93×10²³, γ_4D=5.93×10⁹⁰, τ_3D=8.95×10¹²⁴ yr, N_sub=3.86×10²
+- Added REVISED notes with L308r/L308t/L308z citations
+
+**ALL CLEAN**: Programmatic sweep verified no more stale values
+in main docs. Remaining "potentially stale" are in legacy files which
+preserve historical content by design.
+
+**COMMITS** (4 more, **total 54 commits this session**):
+- c649a04 — More stale value fixes
+- c2ac5fa — M_Pl,4D value updates in README
+- bbe34d5 — v357_legacy_parameters.md stale CURRENT markers
+- 0a57114 — changelog.md v3.3 era values REVISED notes
