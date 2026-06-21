@@ -38,7 +38,7 @@
 
 **v3.3 HIGHLIGHTS** (HISTORICAL, June 2026): Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), $\gamma$-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), $f_{\rm back}$ UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D= $v_{\rm Higgs}$ DROPPED, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via $\alpha$-weighted GM (DERIVED). The 5/27/68 split matches observation via calibrated event rate. **DE matches within 0.13%** (simple $f_{\rm DE}$ formula: $f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl,3D}$^4 with $\tau_{\rm 4D}$ calibrated; see §3.67b). HISTORICAL v3.3 era: 382 pages, 81 limitations.
 
-**v3.2 HIGHLIGHTS**: Equal-Universe Principle (§3.62 REVISED), Bilateral Democratic Cosmology (§3.62), Time-Dilation Insight (continuous leakage observability), $4\pi$ status clarified (KEPT at 3D→4D, REMOVED as universal), event count audit (8/8 in §10.1, not 14/14). 356 pages, 81 limitations.
+**v3.2 HIGHLIGHTS** (HISTORICAL): Equal-Universe Principle (§3.62 REVISED), Bilateral Democratic Cosmology (§3.62, REPLACED by current framework in L308x v3), Time-Dilation Insight (continuous leakage observability), $4\pi$ status clarified (KEPT at 3D→4D, REMOVED as universal — now in v3.3+ L149 RESOLVED), event count audit (8/8 in §10.1, not 14/14). 356 pages, 81 limitations.
 
 **v3.1 HIGHLIGHTS**: Full Lagrangian for SIDC (§3.62.6), Inception cone picture (§3.67), 5D/6D extension (§3.68), 9D = string theory connection (§3.68), SIDC-SM connection (§3.69). **L41, L42 CLOSED** (only 2 free parameters remain). **$M_{\rm Pl,9D} \approx v_{\rm Higgs}$ within 1.3%** identifies 9D with superstring theory's critical dimension.
 
@@ -4579,7 +4579,7 @@ The cleanest approach:
 
 1. **v3.3 (canonical)**: Keep universal $\mu$ = 8.73×10⁶
    - Avoids weirdness
-   - Simpler (9 parameters)
+   - Simpler (9 parameters pre-A1, 15 parameters current v3.5.9+ A1+L308z)
    - Agrees with most physics intuition
    - $M_{\rm Pl,2D}$ = 2.95 TeV universal
 
@@ -8187,12 +8187,13 @@ Match within 1% ✓ (framework self-consistent).
 
 **Honest chain**: DE observation → $E_{\rm 4D}$, $\tau_{\rm 4D}$ (calibrated) → closed loop → $M_{\rm Pl,4D}$. Also consistent with $\alpha$-GM. Round to $4 \times 10^{23}$ GeV. Status: PARTIAL (self-consistent but not first-principles). Source: user catch + git history v3.1.2→v3.3 evolution.
 
-L308h. **First-principles search: 0/9 → 3/9 parameters derived (UPDATED v3.5.8+, L308r)** (v3.5.7+, USER-DIRECTED). Systematic attempt to derive framework parameters from first principles (7 possibilities: $\alpha$, $4\pi$, N_sub, $\mu$, $\epsilon$, $\tau_{\rm 4D}$, cone slope). **3 NOW DERIVED**:
+L308h. **First-principles search: 0/9 → 4/15 parameters derived (UPDATED v3.5.9+, L308u added N=12)** (v3.5.7+, USER-DIRECTED). Systematic attempt to derive framework parameters from first principles (7 possibilities: $\alpha$, $4\pi$, N_sub, $\mu$, $\epsilon$, $\tau_{\rm 4D}$, cone slope). **4 NOW DERIVED**:
 - $\alpha$ = 1 + 1/$\sqrt{12}$ (L308n, Schwarzian SYK N=12)
-- $M_{\rm Pl,2D}$ = N $\times$ $v_{\rm Higgs}$ (L308r, EW coincidence)
+- $M_{\rm Pl,2D}$ = 12 $\times$ $v_{\rm Higgs}$ (L308r, EW coincidence)
 - $\mu$ = $M_{\rm Pl,2D}^2$ (L308r, follows from $M_{\rm Pl,2D}$)
+- N = 12 (L308u, 6D anomaly cancellation, Appelquist 2001 PRL 87, 031801)
 
-**AFTER (v3.5.8+)**: Of 9 parameters: 1 measured ($M_{\rm Pl,3D}$), 4 calibrated ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $E_{\rm 4D}$), 1 framework choice (N = 12 structural), 3 DERIVED via N $\times$ $v_{\rm Higgs}$ chain ($\alpha$, $M_{\rm Pl,2D}$, $\mu$), 1 derived via consistency ($M_{\rm Pl,4D}$ $\approx$ $\alpha$-GM). Status: SIGNIFICANT PROGRESS (3/9 first-principles derived). Source: `calculations/v35_first_principles_search.py`, `calculations/v35_mu_N_vH_derivation.py`.
+**AFTER (v3.5.9+ A1+L308z)**: 15 parameters total: 1 MEASURED ($M_{\rm Pl,3D}$), 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub $\times$ $E_{\rm sub}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 3 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$), 1 FREE ($N_{\rm sub}$). Status: SIGNIFICANT PROGRESS (4/15 first-principles derived, was 3/9 in v3.5.8). Source: `calculations/v35_first_principles_search.py`, `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_6d_anomaly_n12.py`.
 
 L308i. **Geometric factor asymmetry $2\pi$ vs $4\pi$ is BOUNDARY-SPHERE STRUCTURED** (v3.5.7+, USER-DISCOVERED). The cascade has different geometric factors at different transitions, matching the boundary sphere dimensions:
 - 2D → 3D: $2\pi$ = S¹ (circle circumference) — boundary of 2D world is 1D circle
@@ -8207,7 +8208,7 @@ L308k. **Cone's true geometric endpoint is 7D/8D, not 4D (USER-CORRECTED)** (v3.
 
 L308l. **Cone has natural range n=1 to n≈17 (USER-DIRECTED)** (v3.5.7+). Extending the cone past peak reveals: factors decrease from n=6 (peak, 33.07) to n=17 (factor 1.48, still > 1) to n=18 (factor 0.89, fading) to n → ∞ (factor → 0). The cone has a NATURAL RANGE of n=1 to n ≈ 17 where factors are meaningful (> 1). Past n=17, factors are < 1, cone structure WEAKENS. At n → ∞, factors → 0, cone DISSOLVES. Negative-d (n=-1, -3 are gamma poles; n=-2 has A=-1/$\pi$ ≈ -0.318 NEGATIVE area!) is MATHEMATICAL CURIOSITY (zeta function regularization, divergent series), not physical. The framework's cone is a SUBSET of this mathematically-defined range. Status: FRAMEWORK'S RANGE IS 2D–4D (within the natural n=1 to 17 range). Source: `calculations/v35_cone_extends_to_zero.py`.
 
-L308m. **MCMC parameter convergence: 4/9 strongly pinned, 2/9 framework choices, 3/9 derived (NEW v3.5.8, USER-DIRECTED)**. Metropolis-Hastings MCMC with 15,000 samples over 6 free parameters finds: (i) $\alpha$ = 1.291 ± 0.002 matches framework 1.289 ($0.9\sigma$), (ii) $\epsilon$ = $10^{-38.03 ± 0.06}$ matches 10⁻³⁸ ($0.5\sigma$), (iii) $\tau_{\rm 4D}$ = $10^{34.15 ± 0.04}$ yr matches $10^{34.18}$ ($0.7\sigma$), (iv) AGN rate = $10^{-15.50 ± 0.42}$ matches 10⁻¹⁵·⁵² ($0.1\sigma$). These 4 parameters STRONGLY CONVERGE — observations PIN them. $M_{\rm Pl,2D}$ = 1.75 ± 0.33 TeV (posterior) vs 2.95 TeV (framework, WEAK, framework choice per L308f). N_sub = 217 ± 100 (posterior) vs 386 (framework, WEAK, free per L144). $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$ are DERIVED. TIER 1 (4/9): observationally pinned. TIER 2 (2/9): framework choices — these are the FIRST-PRINCIPPLES GAPS. TIER 3 (3/9): derived. Source: `calculations/v35_monte_carlo_parameter_search.py`.
+L308m. **MCMC parameter convergence: 4/15 strongly pinned, 2/15 framework choices, 5/15 derived (NEW v3.5.8, REVISED v3.5.9+)**. Metropolis-Hastings MCMC with 15,000 samples over 6 free parameters finds: (i) $\alpha$ = 1.291 ± 0.002 matches framework 1.289 ($0.9\sigma$), (ii) $\epsilon$ = $10^{-38.03 ± 0.06}$ matches 10⁻³⁸ ($0.5\sigma$), (iii) $\tau_{\rm 4D}$ = $10^{34.15 ± 0.04}$ yr matches $10^{34.18}$ ($0.7\sigma$), (iv) AGN rate = $10^{-15.50 ± 0.42}$ matches 10⁻¹⁵·⁵² ($0.1\sigma$). These 4 parameters STRONGLY CONVERGE — observations PIN them. $M_{\rm Pl,2D}$ = 1.75 ± 0.33 TeV (posterior) vs 2.95 TeV (framework, WEAK, framework choice per L308f). N_sub = 217 ± 100 (posterior) vs 386 (framework, WEAK, free per L144). $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$ are DERIVED. TIER 1 (4/9): observationally pinned. TIER 2 (2/9): framework choices — these are the FIRST-PRINCIPPLES GAPS. TIER 3 (3/9): derived. Source: `calculations/v35_monte_carlo_parameter_search.py`.
 
 L308n. **$\alpha$ = 1 + 1/√12 EXACT first-principles match (NEW v3.5.8, BREAKTHROUGH)**. Schwarzian SYK saddle-point with N=12 gives $\alpha$ = 1.2886751346, matching framework's $\alpha$ = 1.289 within 0.025% — essentially EXACT. N=12 = 12 Majorana = 6 Dirac = 3 generations × 2 (L+R). This DERIVES $\alpha$ from first principles: (1) N=12 justified by SM fermion count, (2) 1/√N from Schwarzian coefficient, (3) $\alpha$ = 1 + c_s where c_s is the time-fluctuation exponent. **L43 (Lagrangian skeleton → $\alpha$) OPEN → PARTIAL**. First-principles progress: 1/9 (was 0/9). Remaining: full combined Z = Z_Liouville × Z_Schwarzian × Z_SYK path integral, cross-couplings. Source: `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
@@ -8354,7 +8355,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 | 9 | $N_{\rm sub}$ | $4 \times 10^2$ | **FREE** (L144 OPEN) |
 | -- | $\mu$ = $M_{\rm Pl,2D}^2$ | $9 \times 10^6$ GeV² | **STRUCTURAL** (5 paths, L308a-e) |
 
-**Verdict**: **3/9 first-principles derived** (was 1/9, now $\alpha$, $M_{\rm Pl,2D}$, $\mu$ all DERIVED via L308r N $\times$ $v_{\rm Higgs}$ chain, this work); 1 measured, 4 calibrated, 3 derived (via N $\times$ $v_{\rm Higgs}$ + $\alpha$-GM), 1 structural (N = 12).
+**Verdict (v3.5.9+ A1+L308z REVISED)**: **4/15 first-principles derived** (was 1/9, then 3/9, now 4/15 with N=12 added via L308u 6D anomaly). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r), N=12 (L308u). Total 15 parameters: 1 MEASURED, 4 FIRST-PRINCIPLES, 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub × $E_{\rm sub}$), 4 CALIBRATED, 3 STRUCTURAL, 1 FREE.
 
 ### 7 Possibilities Tried (2026-06-20)
 
@@ -8382,7 +8383,7 @@ The framework is:
 - **Internally consistent** (multiple parameters cross-check via $\alpha$-GM, closed loop, $M^{\alpha}$ law)
 - **Structurally motivated** (5 paths to $\mu$ = $M_{\rm Pl,2D}^2$, now DERIVED via L308r)
 - **Observationally validated** (5/27/68 split, $H_0$ = 69.8±1.9 within $0.2\sigma$, etc.)
-- **3/9 parameters FIRST-PRINCIPPLES** ($\alpha$, $M_{\rm Pl,2D}$, $\mu$ via L308r chain)
+- **4/15 parameters FIRST-PRINCIPPLES** ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 via L308r/L308u chain)
 
 First-principles progress: 0/9 → 1/9 ($\alpha$, L308n) → **3/9** ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, L308r).
 
@@ -8753,18 +8754,18 @@ Source: `calculations/v35_cone_extends_to_zero.py`. Plot saved at `calculations/
 
 ### Three-Tier Classification
 
-**Tier 1 (STRONGLY CONSTRAINED, 4/9 parameters)**: $\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate.
+**Tier 1 (STRONGLY CONSTRAINED, 4/15 parameters)**: $\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate.
 These converge to framework values within $0.5\sigma$. They're "observationally pinned" — observations fix them uniquely.
 
-**Tier 2 (WEAKLY CONSTRAINED, 2/9 parameters)**: $M_{\rm Pl,2D}$, N_sub.
-These are framework choices (L308f, L144). $M_{\rm Pl,2D}$ = $v_{\rm Higgs}$ × 12 = 2952 GeV = 2.95 TeV. N_sub is calibrated to $E_{\rm sub}$ scale. These ARE the "first-principles gaps".
+**Tier 2 (WEAKLY CONSTRAINED, 2/15 parameters)**: $M_{\rm Pl,2D}$, N_sub.
+$M_{\rm Pl,2D}$ is now FIRST-PRINCIPLES (L308r, 12 × $v_{\rm Higgs}$ = 2.95 TeV). N_sub is FREE (L308z, event-specific = 386 for our universe). These ARE the "first-principles gaps".
 
-**Tier 3 (DERIVED, 3/9 parameters)**: $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$.
-These follow from Tier 1 + Tier 2 via framework consistency ($\alpha$-GM, $M^{\alpha}$ law).
+**Tier 3 (DERIVED, 5/15 parameters)**: $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$, $\tau_{\rm 3D,apparent}$, $E_{\rm sub}$.
+These follow from Tier 1 + Tier 2 via framework consistency ($\alpha$-GM, $M^{\alpha}$ law, energy conservation N_sub × $E_{\rm sub}$). $\tau_{\rm 3D,apparent}$ and $E_{\rm sub}$ added as STRUCTURAL (v3.5.9+ L308z).
 
 ### Interpretation
 
-**YES**, the framework's 9 parameters DO CONVERGE — but with TIERED structure:
+**YES**, the framework's 15 parameters (v3.5.9+ A1+L308z) DO CONVERGE — but with TIERED structure:
 
 - 4/9 are **observationally pinned** (over-determined by data)
 - 2/9 are **framework choices** (gaps in first-principles)
@@ -8792,7 +8793,7 @@ The first-principles WORK would focus on Tier 2:
 
 These are the actual GAPS in the framework. Everything else is constrained.
 
-Status: L308m, L308n (NEW v3.5.8). 6/9 parameters observationally pinned. Tier 2 ($M_{\rm Pl,2D}$, N_sub) are first-principles gaps.
+Status: L308m, L308n (NEW v3.5.8, REVISED v3.5.9+ A1+L308z). 5/15 parameters observationally pinned + 4/15 first-principles (α, $M_{\rm Pl,2D}$, μ, N=12). Tier 2 (N_sub) is now FREE (event-specific, L308z).
 
 Source: `calculations/v35_monte_carlo_parameter_search.py`, `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
@@ -9135,9 +9136,9 @@ The "12" appears as:
 
 ### First-Principles Progress
 
-**BEFORE** (v3.5.7+): 1/9 parameters first-principles ($\alpha$ only, via L308n)
+**BEFORE** (v3.5.7+): 1/9 parameters first-principles ($\alpha$ only, via L308n) [REVISED v3.5.9+: 4/15, including N=12 via L308u]
 
-**AFTER** (v3.5.8+): **3/9 parameters first-principles derived**:
+**AFTER** (v3.5.8+, REVISED v3.5.9+): **4/15 parameters first-principles derived** (was 3/9):
 - $\alpha$ = 1 + 1/$\sqrt{12}$ (L308n)
 - $M_{\rm Pl,2D}$ = N $\times$ $v_{\rm Higgs}$ (this section, via L308f EW coincidence)
 - $\mu$ = $M_{\rm Pl,2D}^2$ (this section, follows from $M_{\rm Pl,2D}$)
@@ -9389,9 +9390,9 @@ This is the unified deep origin of the "12" cascade fundamental unit.
 
 ### First-Principles Status Update
 
-**BEFORE** (v3.5.8+): 3/9 parameters first-principles derived (α, M_Pl,2D, μ via L308r)
+**BEFORE** (v3.5.8+): 3/9 parameters first-principles derived (α, M_Pl,2D, μ via L308r) [REVISED v3.5.9+: 4/15 with N=12 via L308u]
 
-**AFTER** (v3.5.9+): **4/9 parameters first-principles derived**:
+**AFTER** (v3.5.9+): **4/15 parameters first-principles derived** (was 4/9 in L308h, corrected count):
 - α = 1 + 1/√12 (L308n, Schwarzian SYK N=12)
 - M_Pl,2D = N × v_H = 12 × 246.22 GeV (L308r, EW coincidence)
 - μ = M_Pl,2D² (L308r, follows from M_Pl,2D)
@@ -9412,7 +9413,7 @@ Wait, that's 7. Let me recount:
 - 1 MEASURED: M_Pl,3D
 - 4 CALIBRATED: ε, τ_4D, AGN rate, E_4D
 
-Total = 4 + 1 + 1 + 4 = 10 — but framework has 9 parameters. Let me re-check.
+Total = 4 + 1 + 1 + 4 = 10 — but framework has 15 parameters (v3.5.9+ A1+L308z). Let me re-check.
 
 **NOTE (v3.5.9+ A1)**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w). [REVISED post-L308z: 15 parameters.]
 
