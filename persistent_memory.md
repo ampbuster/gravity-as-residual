@@ -1850,3 +1850,44 @@ clearly marked as HISTORICAL (F_p(z) Hill function was DROPPED in v3.3+).
 - 140 limitations
 - 15 parameters
 - All F_p(z)/F(z) references now clearly marked as HISTORICAL/DROPPED
+
+
+### v3.5.9+ CLEANUP PASSES 35-38 (2026-06-21) — value consistency + parameter hierarchy sections
+
+**CRITICAL FIX (PASS 35)**: E_sub value inconsistency
+- Was: E_sub = 1.25×10⁷⁷ J (L308o era, implied N_sub = 400)
+- Now: E_sub = 1.295×10⁷⁷ J (L308z revision, N_sub = 386)
+- Math: E_4D = 5×10⁷⁹ J (constant); E_sub = E_4D / N_sub = 1.295×10⁷⁷ J
+- Files updated: 06_limitations.md (4 places), persistent_memory.md, calculations/v35_n_sub_scaling.py
+
+**SECTION UPDATES (PASS 36-38)**: STATE_OF_THE_MODEL.md "What's CALIBRATED", "What's DERIVED", and "README banner" sections
+- "What's CALIBRATED" now correctly shows α, μ, N=12 as FIRST-PRINCIPPLES (L308n/r/u)
+- "What's DERIVED" now includes all 4 first-principles + L308o E_4D + L308x γ_2D
+- "README banner" updated from "v3.5.7 CURRENT, 9 parameters" to "v3.5.9+ A1, 15 parameters"
+
+**COMMITS** (4 more this round, **total 30 commits this session**):
+- 62cfb20 — E_sub consistency fix 1.25e77 → 1.295e77
+- 766fbb8 — STATE_OF_THE_MODEL 'What's CALIBRATED' section update
+- 422af73 — STATE_OF_THE_MODEL 'What's DERIVED' section update
+- b6619c9 — STATE_OF_THE_MODEL 'README banner' section update
+
+**VERIFICATION**: All key values consistent across docs:
+- M_Pl,3D = 1.22×10¹⁹ GeV (MEASURED)
+- M_Pl,2D = 2.95 TeV (FIRST-PRINCIPLES, L308r)
+- M_Pl,4D = 3.93×10²³ GeV (DERIVED, L308v)
+- α = 1.289 (FIRST-PRINCIPLES, L308n)
+- μ = 8.73×10⁶ GeV² (FIRST-PRINCIPLES, L308r)
+- N = 12 (FIRST-PRINCIPPLES, L308u)
+- ε = 10⁻³⁸ (CALIBRATED)
+- τ_4D = 1.51×10³⁴ yr (CALIBRATED)
+- AGN rate = 10⁻¹⁵·⁵² /s (CALIBRATED)
+- f_leak = H_0 = 2.18×10⁻¹⁸ /s (CALIBRATED, NEW A1)
+- E_4D = 5×10⁷⁹ J (DERIVED, L308o)
+- E_sub = 1.295×10⁷⁷ J (STRUCTURAL, L308z)
+- τ_3D,apparent = 8.95×10¹²⁴ yr (STRUCTURAL, A1)
+- γ_4D = 5.93×10⁹⁰ (STRUCTURAL, A1)
+- γ_2D = 5.5×10⁴⁴ (STRUCTURAL, L308aa)
+- N_sub = 386 (FREE event-specific, L308z)
+- 15 parameters total (1+4+2+4+3+1 = 15)
+- 140 limitations
+- 395 pages
