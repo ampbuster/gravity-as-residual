@@ -2757,7 +2757,7 @@ See `calculations/v27_jwst_quiescent_mdyn.py` for full calculations.
 
 ---
 
-### 3.34 SIDC w(z) prediction for DESI DR3 (v2.7.48+)
+### 3.34 SIDC w(z) prediction for DESI DR3 (v2.7.48+, **LEGACY HISTORICAL** — DROPPED framework)
 
 **Motivation**: DESI DR1 (2024) found hints of evolving dark energy:
 $w_0$ = -0.45 ± 0.21, $w_a =$-1.79 ± 0.55 (Park+ 2024). This is
@@ -2911,7 +2911,7 @@ See `calculations/v27_ppn_test.py` for full calculations.
 
 ---
 
-### 3.37 Summary of v2.7.48 predictions (honest findings)
+### 3.37 Summary of v2.7.48 predictions (**LEGACY HISTORICAL v2.7.48**, honest findings)
 
 The v2.7.48 calculations (JWST $M_{dyn}$, DESI w(z), GW background, PPN)
 yield **mixed honest findings**:
