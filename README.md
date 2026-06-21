@@ -639,7 +639,7 @@ SIDC's r(z) = $\rho_{\rm DM}^{\rm DC}(z) / \rho_{\rm DM}^{\rm DC}(0)$ at high z 
 | 8 | **726.8** | 729 | ✓ MATCHES |
 | 10 | **1327** | 1331 | ✓ MATCHES |
 
-**r(z) ≈ (1+z)³ for all z.** SIDC is consistent with $\Lambda{\rm CDM}$ at every redshift. The 5/27/68 split is observational data (Planck 2018) with a qualitative SIDC interpretation, not a time-invariant SIDC prediction.
+**r(z) ≈ (1+z)³ for all z (OBSERVATIONAL MATCH, HISTORICAL derivation).** SIDC is consistent with $\Lambda{\rm CDM}$ at every redshift **OBSERVATIONALLY**: the 27% DM at z=0 is calibrated, and the qualitative r(z) scaling matches $(1+z)^3$ within 0.5%. The SPECIFIC numerical values (26.9 at z=2, etc.) were derived in v2.7.5 using the **DROPPED** $F_p$(z) framework — current framework (bilateral cascade + calibrated AGN rate) reproduces the match qualitatively, not via the same formula. See `paper/legacy/v359_README_legacy_sections.md` §5 for the historical derivation. The 5/27/68 split is observational data (Planck 2018) with a qualitative SIDC interpretation.
 
 ### Why Thomson scattering does NOT do the heavy lifting (current framework)
 
@@ -660,9 +660,9 @@ This is what "energy-scale invariance" means: SIDC is *energy-scale-invariant* i
 
 ---
 
-## #2 (Consistency with $\Lambda{\rm CDM}$): SIDC MATCHES $\Lambda{\rm CDM}$ at all z
+## #2 (Consistency with $\Lambda{\rm CDM}$): SIDC matches $\Lambda{\rm CDM}$ at all z (OBSERVATIONAL MATCH; historical v2.4 derivation)
 
-This is the cumulative result of the v2.4 work. SIDC's three main quantitative predictions now all line up with $\Lambda{\rm CDM}$:
+This is the cumulative result of the v2.4-v2.7 work. SIDC's quantitative predictions match $\Lambda{\rm CDM}$ **OBSERVATIONALLY** at all z. The specific numerical values (r(z=2)=26.9, S8=0.775, g+=9.74×10⁻¹¹, BTFR=3.53) are from v2.4-v2.7 calculations using the **DROPPED** $F_p$(z) framework. Current (v3.5.9+ A1) framework uses bilateral cascade + calibrated AGN rate; the OBSERVATIONAL match is preserved qualitatively but not via the same formulas.
 
 | Test | SIDC prediction | $\Lambda{\rm CDM}$ | Status |
 |---|---|---|---|
