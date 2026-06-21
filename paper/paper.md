@@ -2697,7 +2697,7 @@ See `calculations/v27_wide_range_comparison.py` for the full
 
 ---
 
-### 3.33 SIDC $M_{dyn}$ prediction for JWST massive quiescents at z>4 (v2.7.48+)
+### 3.33 SIDC $M_{dyn}$ prediction for JWST massive quiescents at z>4 (v2.7.48+, **LEGACY HISTORICAL** — uses F_p(z) framework)
 
 **Motivation (v2.7.32-47)**: 10+ massive quiescent galaxies at z>4
 have been confirmed with JWST spectroscopy. SIDC predicts
@@ -2801,7 +2801,7 @@ See `calculations/v27_desi_wz.py` for full calculations.
 
 ---
 
-### 3.35 SIDC 2D universe death GW background (v2.7.48+)
+### 3.35 SIDC 2D universe death GW background (v2.7.48+, **LEGACY HISTORICAL** — pre-A1 framework)
 
 **Motivation**: SIDC's 2D universe death events release
 gravitational wave energy. The 2D universe lifetime $\tau_{2D}$ =
@@ -2852,7 +2852,7 @@ See `calculations/v27_death_gw_pta.py` for full calculations.
 
 ---
 
-### 3.36 SIDC PPN test (v2.7.48+)
+### 3.36 SIDC PPN test (v2.7.48+, **LEGACY HISTORICAL** — v2.7 era analysis)
 
 **Motivation**: SIDC's 4D→3+1D dimensional inversion predicts
 small deviations from GR. The PPN parameter $\gamma$ (from Cassini-type

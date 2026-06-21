@@ -249,7 +249,9 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 
 **Key takeaway**: The framework predicts 2D universe creation at LHC, but they're 20 orders of magnitude below the smallest tested event. The smooth function C(E) = E^(1+ $\alpha$) protects us — even if LHC creates 2D universes, their contribution to DM is 10¹¹⁴× smaller than SN. **Effectively zero.**
 
-### Sun, tidal dwarfs, AGC/KKR (v3.2 consistency check, user-question)
+### Sun, tidal dwarfs, AGC/KKR (v3.2 consistency check, **HISTORICAL — uses DROPPED F_p(z) framework**)
+
+> ⚠️ **HISTORICAL FRAMEWORK NOTE (v3.2, pre-v3.3)**: This section uses the **OLD Hill function F_p(z)** framework which was **DROPPED in v3.3+** (per L100, user-critique 6 times). The 5/5 dwarf cases, cosmic SFH calculation, and AGC/KKR analysis are STILL VALID (they use the smooth C(E) = E^(1+α) function which is RETAINED), but the F_p(z) framing for primordial vs cumulative DM is HISTORICAL. Current framework (v3.5.9+ A1) uses bilateral cascade with f_leak = H_0; 27% DM comes from calibrated AGN rate. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`.
 
 **User question**: "how about the sun? and tidal dwarfs? is the paper still consistent? agc/kkr?"
 
@@ -743,7 +745,7 @@ Per a user follow-up ("if matter is 5% even without stars, why don't baryon coll
 
 SIDC's r(z) = $\rho_{\rm DM}^{\rm DC}(z) / \rho_{\rm DM}^{\rm DC}(0)$ at high z is the test of whether SIDC is consistent with $\Lambda{\rm CDM}$ structure formation. $\Lambda{\rm CDM}$ has r(z) = (1+z)³ for non-interacting DM (just the expansion factor). SIDC's prediction, with all bugs fixed:
 
-| z | r(z) (SIDC, $F_p(z)$ primordial) | (1+z)³ ($\Lambda{\rm CDM}$ expansion factor) | Verdict |
+| z | r(z) (SIDC, **$F_p$(z) HISTORICAL**) | (1+z)³ ($\Lambda{\rm CDM}$ expansion factor) | Verdict |
 |---|---|---|---|
 | 0 | 1.00 | 1 | calibration |
 | 2 | **26.9** | 27 | ✓ MATCHES |
@@ -1003,11 +1005,11 @@ A new section §12 consolidates SIDC's galaxy-level tests against the *entire ga
 9. **M82** — $M_{dyn}/M_b \\sim \sim 4$ (extreme starburst, 10 $M_\odot$/yr)
 10. **NGC 1275** — $M_{dyn}/M_b \\sim \sim 50$ (AGN host, Perseus A)
 11. **Dragonfly 44** — $M_{dyn}/M_b \\sim \sim 300$ (Coma UDG, disputed high DM)
-12. **CVnC dwarf (v2.7.32+, Hagen+ 2026)** — $M_{dyn}$ ≫ $M_{b}$ (quenched isolated dwarf, may have past interaction with NGC 4631; adds to "growing number of quenched dwarfs in underdense environments"; F(z) intermediate $\sim 0.5$)
+12. **CVnC dwarf (v2.7.32+ HISTORICAL framework, Hagen+ 2026)** — $M_{dyn}$ ≫ $M_{b}$ (quenched isolated dwarf, may have past interaction with NGC 4631; adds to "growing number of quenched dwarfs in underdense environments"; F(z) intermediate (HISTORICAL smooth F(z)) $\sim 0.5$)
 
 **The intermediate population (v2.7.32+, §3.26):**
 - **Bidaran et al. 2025** (arXiv:2501.02910): "First detection of a sample of quenched and isolated dwarf galaxies in cosmic voids", $\log(M_*/M_\odot) = 8.9-9.5$, no neighbour within 1.0 Mpc
-- This is the kind of intermediate F(z) $\sim 0.1--0.5$ population SIDC's smooth F(z) predicts
+- This is the kind of intermediate F(z) $\sim 0.1--0.5$ population SIDC's smooth F(z) predicts (**HISTORICAL framework**, current reproduction via calibrated AGN rate)
 - Pre-2025: population thought to be bimodal (gas-rich vs. quenched)
 - 2025-2026: intermediate population is being discovered
 - Testable with LSST Y1 (2027), Euclid Q1 (2026) for $\sim 10–30\%$ of field dwarfs in intermediate F(z)
