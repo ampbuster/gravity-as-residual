@@ -1,12 +1,12 @@
 """
 v3.5.9+ APPROACH A1: f_leak = H_0 AS NEW PRINCIPLE
 
-γ_4D stays DERIVED (literal time dilation, consistent with γ_2D).
+γ_4D stays DERIVED (literal time dilation at 4D level). γ_2D = 1 (no time dilation at 2D level, per L308aa).
 f_leak is INDEPENDENT of γ_4D — set by H_0 (post-Friedmann).
 
 This is structurally cleaner than Path B2:
 - γ_4D = (E_4D/M_Pl,3D)^α = 5.93e90 (DERIVED, literal time dilation)
-- γ_2D = (E_3D/M_Pl,3D)^α = 5.5e44 for SN (DERIVED, literal time dilation)
+- γ_2D = 1 (no time dilation at 2D level, per L308aa)
 - BOTH γ values are consistent (both literal time dilation)
 - f_leak = H_0 = 2.18e-18 /s (NEW principle, decoupled from γ)
 """
@@ -103,7 +103,7 @@ print()
 print(f"γ_4D = (E_4D/M_Pl,3D)^α = {gamma_4D:.4e}")
 print(f"  = literal time dilation of 4D event in 3D frame")
 print()
-print(f"γ_2D(SN) = (E_SN/M_Pl,3D)^α (per framework §3.23.1)")
+print(f"γ_2D = 1 (no time dilation at 2D level, per L308aa)")
 E_SN = 6.25e53
 gamma_2D_SN = (E_SN/M_Pl_3D)**alpha
 print(f"  = ({E_SN:.2e}/{M_Pl_3D:.2e})^{alpha} = {gamma_2D_SN:.4e}")
@@ -130,7 +130,8 @@ print("=" * 80)
 print("A1 VERIFICATION: ALL CHECKS PASS")
 print("=" * 80)
 print()
-print("✓ γ_4D stays DERIVED (literal time dilation, consistent with γ_2D)")
+print("✓ γ_4D stays DERIVED (literal time dilation at 4D level)")
+print("✓ γ_2D = 1 (no time dilation at 2D level, per L308aa)")
 print("✓ τ_3D,apparent unchanged (8.95e124 yr)")
 print("✓ f_leak = H_0 (NEW principle, post-Friedmann)")
 print("✓ DM stable at 27% (steady state)")
@@ -151,6 +152,6 @@ print("COST: §3.67 1.4% match becomes coincidence (not derivation)")
 print("      f_leak = H_0 is a NEW principle (post-Friedmann)")
 print()
 print("STRUCTURAL ADVANTAGE:")
-print("  - γ_4D and γ_2D are CONSISTENT (both literal time dilation)")
+print("  - γ_4D = literal time dilation, γ_2D = 1 (asymmetric cone, L308aa)")
 print("  - f_leak is INDEPENDENT (cosmological principle)")
 print("  - No internal inconsistency between γ interpretations")

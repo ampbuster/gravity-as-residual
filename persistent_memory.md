@@ -5,7 +5,7 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.5.9+ (paper) — 395 pages, **139 honest limitations** (v3.5.9+ adds L308t-z, A1 principle, L308z N_sub event-specific)
+**Current version:** v3.5.9+ (paper) — 395 pages, **140 honest limitations** (v3.5.9+ adds L308t-aa, A1 principle, L308z N_sub event-specific, L308aa γ_2D=1)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)
@@ -60,7 +60,7 @@
     - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
     - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - **L308w, L308x, L308y**: f_leak = H_0 principle, γ consistency, §3.67 coincidence
-  - 139 limitations (was 138 pre-L308z, was 131 v3.5.8), 395 pages (was 398)
+  - 140 limitations (was 139 pre-L308aa, was 138 pre-L308z, was 131 v3.5.8), 395 pages (was 398)
 ---
   - **"12" cascade fundamental unit**: α = 1+1/√12, $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, $M_{\rm Pl,2D}$/$v_{\rm Higgs}$ = 11.75
   - **First-principles progress**: 0/9 → 1/9 (α derived!)
@@ -1718,3 +1718,35 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - - STATE_OF_THE_MODEL.md (parameter hierarchy)
 - - 06_limitations.md (L308z entry, parameter accounting)
 - - 02_glossary.md (if applicable)
+
+### v3.5.9+ L308aa: γ_2D = 1 (no time dilation at 2D level) — asymmetric cone (2026-06-21)
+- User: "At 2D→3D, no such time dilation exists — 2D universe's 33s lifetime is short, so continuous leakage is invisible. should add from 3d frame of reference. 2d lifespan in their own frame of reference is the universe entire lifespan."
+- 
+- **REVISION TO L308x** (which claimed both γ_4D and γ_2D are literal time dilation):
+- - γ_2D = 1 (NOT 5.5e44 as previously claimed)
+- - The (E_SN/M_Pl,3D)^α = 5.5e44 is a dimensionless ratio, NOT a γ factor
+- 
+- **WHY γ_2D ≠ γ_4D**:
+- - 4D is ABOVE 3D: 4D event time gets STRETCHED in 3D projection (γ_4D = 5.93e90)
+- - 2D is BELOW 3D: 2D universe time is OBSERVED DIRECTLY (no stretching, γ_2D = 1)
+- 
+- **FRAME OF REFERENCE**:
+- - 2D universe: 33s lifetime in BOTH 2D's own frame AND 3D's frame
+- - 4D event: τ_4D,proper = 1.51e34 yr in 4D frame, τ_3D,apparent = 8.95e124 yr in 3D frame
+- - M^α law gives lifetime in PARENT's frame
+- 
+- **IMPLICATIONS**:
+- 1. γ_2D = 1 (cone asymmetry: 4D time-dilated, 2D not)
+- 2. Continuous 2D→3D leakage is INVISIBLE (33s is short)
+- 3. 2D universe's "death" is essentially instantaneous from 3D
+- 4. DE from 4D event IS time-dilated (γ_4D = 5.93e90)
+- 
+- **FILES UPDATED**:
+- - 06_limitations.md: L308x revised, +L308aa entry
+- - 01_executive_summary.md: 139→140 limitations, L308aa added
+- - calculations/v36_research/A1_fleak_H0_principle.py: γ_2D = 1
+- - A1_fleak_H0_principle.py: removed "consistent with γ_2D" claim
+- 
+- **STATUS**: Limitations 139 → 140. Cone asymmetry CONFIRMED at time-dilation level (L308p was about
+- scaling, L308aa is about time dilation).
+
