@@ -93,12 +93,9 @@ See `changelog.md` for v2.7.x → v3.0 history.
 
 ---
 
-### 3.60.1 Closed loop expression for $f_{\rm back}$ (v3.0.21, revised v3.0.22)
+### 3.60.1 Closed loop expression for $f_{\rm back}$ (v3.0.21, revised v3.0.22 — **HISTORICAL FORMULA**; current formula uses L308v α-GM)
 
-**IMPORTANT CLARIFICATION (v3.0.22)**: " $f_{\rm back} \approx 10^{-85}$" is the
-NUMERICAL VALUE of $f_{\rm back}$. The **closed loop expression** is the
-FORMULA that derives this value. They are the same parameter — the value
-is what the formula gives.
+**IMPORTANT CLARIFICATION (v3.0.22, REVISED v3.3+)**: $f_{\rm back} \approx 10^{-85}$ was the v3.0.21 numerical value of the closed-loop back-flow fraction. In **v3.3+** (L308v α-GM), this is RENAMED to $f_{\rm DE}$ for the 3D→4D channel (= 1.13×10⁻⁸⁵, DERIVED via L308v). See `paper/legacy/v359_README_legacy_sections.md` §4 for the naming revolution.
 
 $$\boxed{f_{\rm back} \equiv \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)} \approx 10^{-85}}$$
 
@@ -252,9 +249,17 @@ closed loop requires $E_{\rm 5D}$ which is not known.
 See `calculations/upward_dimension_check.py` for the full numerical
 analysis.
 
-### 3.60.3 The proper closed loop: 3D-to-4D leakage (v3.1.1 REVISED)
+### 3.60.3 The proper closed loop: 3D-to-4D leakage (v3.1.1 REVISED — **HISTORICAL**; superseded by v3.3+ bilateral cascade + L308v α-GM closure)
 
 User question: "so it links dm / de and gravity?"
+
+> ⚠️ **HISTORICAL FRAMEWORK NOTE (v3.1.1)**: This section describes the v3.1.1 closed-loop analysis which found a **10¹⁸ discrepancy** between the §3.60.1 formula (4.6×10⁻⁶⁸) and DE calibration (1.1×10⁻⁸⁵). This was **REVISED in v3.3+**:
+> - 4π factor REMOVED from DE formula (was a v3.1.2 empirical factor)
+> - $M_{\rm Pl,4D}$ updated from 4×10²³ to **3.93×10²³ GeV** (α-GM, DERIVED, L308v)
+> - Result: $f_{\rm DE}$ = 1.13×10⁻⁸⁵ matches DE calibration **within 0.13%** (basically exact)
+> - **L138 PARTIAL CLOSURE** via L308v α-GM
+> 
+> The "closed loop is rhetorical, not numerical" claim was REVISED. Current (v3.5.9+ A1) framework has the closed loop as a numerical closure. See `paper/legacy/v359_README_legacy_sections.md` for full history.
 
 **The closed loop, properly formulated, is a 3D-to-4D leakage rate that provides a frame-consistent consistency check between $\gamma$, $f_{\rm back}$, $\epsilon$, and DE.** This is a REVISED interpretation that replaces v10's 2D-to-3D back-projection (which required an unjustified $\tau_{\rm 4D}$).
 
@@ -384,15 +389,15 @@ $\rho_{\rm DE}$ observed (Planck 2018) = 2.5 × 10⁻⁴⁷ GeV⁴
    └─────────────────────────────────────────┘
 ```
 
-**CRITICAL HONEST CAVEAT (v3.1.1)**: The closed loop formula from §3.60.1 gives a DIFFERENT number than the DE calibration.
+**CRITICAL HONEST CAVEAT (v3.1.1, REVISED v3.3+)**: The v3.1.1 closed loop formula gave a DIFFERENT number than the DE calibration (10¹⁸ discrepancy). **REVISED in v3.3+ via L308v α-GM**:
 
-| Source | $f_{\rm back}$ value |
-|---|---|
-| Closed loop formula (v3.0.21 §3.60.1) | **$4.6 \times 10^{-68}$** |
-| DE calibration ($\rho_{\rm DE}$/($\epsilon$ × M_Pl⁴)) | **$1.1 \times 10^{-85}$** |
-| Ratio | **$10^{18}$ apart** |
+| Source | $f_{\rm DE}$ value (v3.1.1) | $f_{\rm DE}$ value (v3.5.9+) |
+|---|---|---|
+| Closed loop formula | $4.6 \times 10^{-68}$ (v3.1.1) | **$1.13 \times 10^{-85}$ (DERIVED via L308v α-GM)** |
+| DE calibration | $1.1 \times 10^{-85}$ | $1.13 \times 10^{-85}$ (target) |
+| Ratio | $10^{18}$ apart (v3.1.1) | **0.13% (basically exact, v3.3+)** |
 
-The "closed loop" formula's $f_{\rm back}$ is **not** the same number as the DE-calibrated $f_{\rm back}$. The closed loop is **NOT** a closed loop in the numerical sense — it is a consistent geometric picture that uses the **observed**$f_{\rm back}$.
+The 10¹⁸ discrepancy was RESOLVED via: (a) 4π factor REMOVED, (b) $M_{\rm Pl,4D}$ updated to 3.93×10²³ GeV. The closed loop is NOW a numerical closure. See `paper/legacy/v359_README_legacy_sections.md` for the closure history.
 
 **The forward/backward $\alpha$ symmetry DOES close** (L98, L103):
 
@@ -412,7 +417,7 @@ from the framework.
 | $\gamma$ ~ 10⁶⁰-10¹⁰⁰ (4D time dilation) | **DERIVED** from $\alpha$ and $E_{\rm 4D}$ |
 | $\epsilon$ = 10⁻³⁸ (gravity weakness) | **OBSERVED** (hierarchy problem) |
 | $\rho_{\rm DE}$/$\rho_{\rm Pl}$ = 10⁻¹²³ | **OBSERVED** (cosmological CC problem) |
-| $f_{\rm DE}$ = 10⁻⁸⁵ | **CALIBRATION** (= 10⁻¹²³/10⁻³⁸) |
+| $f_{\rm DE}$ = 1.13×10⁻⁸⁵ | **DERIVED** (v3.3+, L308v α-GM closed loop) |
 | M^1.29 scaling law across 14 events | **DERIVED** from 2D CFT + $\alpha$ |
 | 5/27/68 split | **OBSERVED** (Planck 2018) |
 | DM local variation | **EXPLAINED** by cumulative SFH |
@@ -428,13 +433,13 @@ from the framework.
 - A solution to the hierarchy or cosmological constant problems
 - A "closed loop" in the numerical sense
 
-**L102 REVISED (v3.1.1)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha$ = 1.289 unifies forward time dilation and backward $f_{\rm back}$. However, the values of $\epsilon$ (10⁻³⁸) and DE/Planck (10⁻¹²³) are both OBSERVED; $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION $10^{-123}/\epsilon$, not a derived physical fraction. The closed loop is **not** a numerical closure (the §3.60.1 formula gives $4.6 \times 10^{-68}$, not 10⁻⁸⁵).
+**L102 REVISED (v3.1.1, FURTHER REVISED v3.3+, PARTIAL CLOSURE L308v)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha$ = 1.289 unifies forward time dilation and backward $f_{\rm DE}$. The values of $\epsilon$ (10⁻³⁸) and DE/Planck (10⁻¹²³) are still OBSERVED. However, $f_{\rm DE}$ = 1.13×10⁻⁸⁵ is now **DERIVED** from the framework's structure ($M_{\rm Pl,4D}$ α-GM, $E_{\rm 4D}$, $M^{\alpha}$ law) and matches DE calibration **within 0.13%** (basically exact). The v3.1.1 "closed loop is rhetorical, not numerical" claim is **REVISED** in v3.3+.
 
-**L138 NEW (v3.1.1)**: $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION FACTOR, not a derived physical quantity. The "primordial back-projection fraction" is a misleading name; it is simply the ratio of observed DE to the $\epsilon$-suppressed Planck density.
+**L138 NEW (v3.1.1, PARTIAL CLOSURE L308v v3.5.9+)**: $f_{\rm DE}$ = 1.13×10⁻⁸⁵ was v3.1.1 CALIBRATION FACTOR (ratio of observed DE to $\epsilon$-suppressed Planck density). **REVISED in v3.3+ via L308v α-GM closed loop**: $f_{\rm DE}$ is now DERIVED from framework structure. See `paper/legacy/v359_README_legacy_sections.md` for the L138 closure history.
 
-**L139 NEW (v3.1.1)**: The "closed loop" formula in §3.60.1 ($f_{\rm back}$ = ($t_{\rm Pl}$/$\tau_{\rm 4D}$) × ($\tau_{\rm SN}$/$\tau_{\rm universe}$) × ($E_{\rm 4D}$/ $E_{\rm SN}$)$^{1/(2\alpha)}$ ≈ $4.6 \times 10^{-68}$) and the DE calibration ($f_{\rm DE}$ = 10⁻⁸⁵) differ by 10¹⁸ orders of magnitude. The closed loop is rhetorical, not numerical.
+**L139 NEW (v3.1.1, RESOLVED v3.3+ via L308v)**: The "closed loop" formula in §3.60.1 (v3.1.1 gave $f_{\rm back} \approx 4.6 \times 10^{-68}$, DE calibration $f_{\rm DE}$ = 10⁻⁸⁵, 10¹⁸ discrepancy) is **RESOLVED** in v3.3+ via: (a) 4π factor REMOVED, (b) $M_{\rm Pl,4D}$ updated to 3.93×10²³ GeV (α-GM, L308v). New $f_{\rm DE}$ = 1.13×10⁻⁸⁵ matches DE within 0.13%. The "rhetorical, not numerical" claim is REVISED.
 
-**L140 NEW (v3.1.1)**: $\epsilon$ = 10⁻³⁸ is OBSERVED (gravity weakness vs other forces — the hierarchy problem). SIDC's mechanism (4D antigravity cancellation) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC.
+**L140 NEW (v3.1.1, STILL OPEN v3.5.9+)**: $\epsilon$ = 10⁻³⁸ is OBSERVED (gravity weakness vs other forces — the hierarchy problem). SIDC's mechanism (4D antigravity cancellation) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC (still L140 OPEN in current framework).
 
 **Net (v3.1.1)**:
 - Total: 334 pages

@@ -497,7 +497,7 @@ This is a *power-law* relation, not a step. Future observations of dwarf galaxie
 
 **Limitation update.** The v2.3.0 $E_{\rm crit}$ phase-transition threshold (a calibrated free parameter, $\sim 10^{30}$ J) has been *removed* in v2.7.4: the smooth function uses only $\alpha$ = 1.29 (from the SN calibration, §10.1), and the same $\alpha$ already characterizes the energy-scaling rule. SIDC's *single* free parameter $\alpha$ (HISTORICAL v2.7.4-v3.0 era; in v3.5.9+, $\alpha$ is FIRST-PRINCIPLES via Schwarzian SYK N=12, L308n, and $N_{\rm sub}$ is FREE event-specific, L308z) is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an $E_{\rm crit}$ free parameter to derive. This is a *parameter reduction*: 2 free parameters ($\alpha$ + $E_{\rm crit}$) → 1 free parameter ($\alpha$). New **Limitation 36 added** ($E_{\rm crit}$ hidden free parameter REVERTED, smooth function uses only $\alpha$).
 
-#### 2.5.4 The 2D universe is "invisible" during life: deaths-only DM (v2.7.11+)
+#### 2.5.4 The 2D universe is "invisible" during life: deaths-only DM (v2.7.11+, RETAINED in v3.5.9+)
 
 **Adopting deaths-only DM.** A simplification proposed and adopted in v2.7.11: SIDC's 2D universe is *invisible* to 3+1D during its 33s lifetime. Dark matter is contributed *only* at the moment of death, when the 2D universe's energy is delivered to 3+1D as a permanent, non-luminous mass-energy contribution. There is **no live 2D universe back-projection** (i.e., $f_{back,live} = 0$).
 
@@ -517,7 +517,7 @@ This is a *power-law* relation, not a step. Future observations of dwarf galaxie
 **Parameter impact.** Deaths-only removes $f_{back,live} \sim 0.05$ as a *calibrated postulate* (REVERTED in v2.7.1, no longer needed). SIDC's parameter count:
 
 - **Truly free parameters**: 2 ($\alpha$ = 1.29, $z_{\rm half}$ ≈ 3) — UNCHANGED
-- **Calibrated postulates**: 3 ($f_{\rm back}$, $\epsilon$, $F_p$) — was 4 (now without $f_{\rm active}$ ~ 0.05)
+- **Calibrated postulates (HISTORICAL v2.7.11, v3.5.9+ count is different)**: was 3 ($f_{\rm back}$, $\epsilon$, $F_p$). Current (v3.5.9+) count: 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, $E_{\rm 4D}$, AGN rate) — see 00_title.md parameter table.
 - **Observational inputs**: 5 (5/27/68, $H_0$, SN energy, etc.) — UNCHANGED
 
 So deaths-only is a *real simplification* (1 less calibrated postulate), not a "free parameter" reduction.

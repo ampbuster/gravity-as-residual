@@ -136,7 +136,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $f_{active} \sim 0.05$, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon$ $\sim 10^{-38}$, $f_{back} \sim 10^{-85}$), not first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **140 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa γ_2D=5.5e44 (time dilation at 2D level, REVERTED L308aa v1)**) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile $\nu$** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon$ $\sim 10^{-38}$, $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **140 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa γ_2D=5.5e44 (time dilation at 2D level, REVERTED L308aa v1)**) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile $\nu$** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
@@ -735,7 +735,7 @@ This is a *power-law* relation, not a step. Future observations of dwarf galaxie
 
 **Limitation update.** The v2.3.0 $E_{\rm crit}$ phase-transition threshold (a calibrated free parameter, $\sim 10^{30}$ J) has been *removed* in v2.7.4: the smooth function uses only $\alpha$ = 1.29 (from the SN calibration, §10.1), and the same $\alpha$ already characterizes the energy-scaling rule. SIDC's *single* free parameter $\alpha$ (HISTORICAL v2.7.4-v3.0 era; in v3.5.9+, $\alpha$ is FIRST-PRINCIPLES via Schwarzian SYK N=12, L308n, and $N_{\rm sub}$ is FREE event-specific, L308z) is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an $E_{\rm crit}$ free parameter to derive. This is a *parameter reduction*: 2 free parameters ($\alpha$ + $E_{\rm crit}$) → 1 free parameter ($\alpha$). New **Limitation 36 added** ($E_{\rm crit}$ hidden free parameter REVERTED, smooth function uses only $\alpha$).
 
-#### 2.5.4 The 2D universe is "invisible" during life: deaths-only DM (v2.7.11+)
+#### 2.5.4 The 2D universe is "invisible" during life: deaths-only DM (v2.7.11+, RETAINED in v3.5.9+)
 
 **Adopting deaths-only DM.** A simplification proposed and adopted in v2.7.11: SIDC's 2D universe is *invisible* to 3+1D during its 33s lifetime. Dark matter is contributed *only* at the moment of death, when the 2D universe's energy is delivered to 3+1D as a permanent, non-luminous mass-energy contribution. There is **no live 2D universe back-projection** (i.e., $f_{back,live} = 0$).
 
@@ -755,7 +755,7 @@ This is a *power-law* relation, not a step. Future observations of dwarf galaxie
 **Parameter impact.** Deaths-only removes $f_{back,live} \sim 0.05$ as a *calibrated postulate* (REVERTED in v2.7.1, no longer needed). SIDC's parameter count:
 
 - **Truly free parameters**: 2 ($\alpha$ = 1.29, $z_{\rm half}$ ≈ 3) — UNCHANGED
-- **Calibrated postulates**: 3 ($f_{\rm back}$, $\epsilon$, $F_p$) — was 4 (now without $f_{\rm active}$ ~ 0.05)
+- **Calibrated postulates (HISTORICAL v2.7.11, v3.5.9+ count is different)**: was 3 ($f_{\rm back}$, $\epsilon$, $F_p$). Current (v3.5.9+) count: 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, $E_{\rm 4D}$, AGN rate) — see 00_title.md parameter table.
 - **Observational inputs**: 5 (5/27/68, $H_0$, SN energy, etc.) — UNCHANGED
 
 So deaths-only is a *real simplification* (1 less calibrated postulate), not a "free parameter" reduction.
@@ -3090,12 +3090,9 @@ See `changelog.md` for v2.7.x → v3.0 history.
 
 ---
 
-### 3.60.1 Closed loop expression for $f_{\rm back}$ (v3.0.21, revised v3.0.22)
+### 3.60.1 Closed loop expression for $f_{\rm back}$ (v3.0.21, revised v3.0.22 — **HISTORICAL FORMULA**; current formula uses L308v α-GM)
 
-**IMPORTANT CLARIFICATION (v3.0.22)**: " $f_{\rm back} \approx 10^{-85}$" is the
-NUMERICAL VALUE of $f_{\rm back}$. The **closed loop expression** is the
-FORMULA that derives this value. They are the same parameter — the value
-is what the formula gives.
+**IMPORTANT CLARIFICATION (v3.0.22, REVISED v3.3+)**: $f_{\rm back} \approx 10^{-85}$ was the v3.0.21 numerical value of the closed-loop back-flow fraction. In **v3.3+** (L308v α-GM), this is RENAMED to $f_{\rm DE}$ for the 3D→4D channel (= 1.13×10⁻⁸⁵, DERIVED via L308v). See `paper/legacy/v359_README_legacy_sections.md` §4 for the naming revolution.
 
 $$\boxed{f_{\rm back} \equiv \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)} \approx 10^{-85}}$$
 
@@ -3249,9 +3246,17 @@ closed loop requires $E_{\rm 5D}$ which is not known.
 See `calculations/upward_dimension_check.py` for the full numerical
 analysis.
 
-### 3.60.3 The proper closed loop: 3D-to-4D leakage (v3.1.1 REVISED)
+### 3.60.3 The proper closed loop: 3D-to-4D leakage (v3.1.1 REVISED — **HISTORICAL**; superseded by v3.3+ bilateral cascade + L308v α-GM closure)
 
 User question: "so it links dm / de and gravity?"
+
+> ⚠️ **HISTORICAL FRAMEWORK NOTE (v3.1.1)**: This section describes the v3.1.1 closed-loop analysis which found a **10¹⁸ discrepancy** between the §3.60.1 formula (4.6×10⁻⁶⁸) and DE calibration (1.1×10⁻⁸⁵). This was **REVISED in v3.3+**:
+> - 4π factor REMOVED from DE formula (was a v3.1.2 empirical factor)
+> - $M_{\rm Pl,4D}$ updated from 4×10²³ to **3.93×10²³ GeV** (α-GM, DERIVED, L308v)
+> - Result: $f_{\rm DE}$ = 1.13×10⁻⁸⁵ matches DE calibration **within 0.13%** (basically exact)
+> - **L138 PARTIAL CLOSURE** via L308v α-GM
+> 
+> The "closed loop is rhetorical, not numerical" claim was REVISED. Current (v3.5.9+ A1) framework has the closed loop as a numerical closure. See `paper/legacy/v359_README_legacy_sections.md` for full history.
 
 **The closed loop, properly formulated, is a 3D-to-4D leakage rate that provides a frame-consistent consistency check between $\gamma$, $f_{\rm back}$, $\epsilon$, and DE.** This is a REVISED interpretation that replaces v10's 2D-to-3D back-projection (which required an unjustified $\tau_{\rm 4D}$).
 
@@ -3381,15 +3386,15 @@ $\rho_{\rm DE}$ observed (Planck 2018) = 2.5 × 10⁻⁴⁷ GeV⁴
    └─────────────────────────────────────────┘
 ```
 
-**CRITICAL HONEST CAVEAT (v3.1.1)**: The closed loop formula from §3.60.1 gives a DIFFERENT number than the DE calibration.
+**CRITICAL HONEST CAVEAT (v3.1.1, REVISED v3.3+)**: The v3.1.1 closed loop formula gave a DIFFERENT number than the DE calibration (10¹⁸ discrepancy). **REVISED in v3.3+ via L308v α-GM**:
 
-| Source | $f_{\rm back}$ value |
-|---|---|
-| Closed loop formula (v3.0.21 §3.60.1) | **$4.6 \times 10^{-68}$** |
-| DE calibration ($\rho_{\rm DE}$/($\epsilon$ × M_Pl⁴)) | **$1.1 \times 10^{-85}$** |
-| Ratio | **$10^{18}$ apart** |
+| Source | $f_{\rm DE}$ value (v3.1.1) | $f_{\rm DE}$ value (v3.5.9+) |
+|---|---|---|
+| Closed loop formula | $4.6 \times 10^{-68}$ (v3.1.1) | **$1.13 \times 10^{-85}$ (DERIVED via L308v α-GM)** |
+| DE calibration | $1.1 \times 10^{-85}$ | $1.13 \times 10^{-85}$ (target) |
+| Ratio | $10^{18}$ apart (v3.1.1) | **0.13% (basically exact, v3.3+)** |
 
-The "closed loop" formula's $f_{\rm back}$ is **not** the same number as the DE-calibrated $f_{\rm back}$. The closed loop is **NOT** a closed loop in the numerical sense — it is a consistent geometric picture that uses the **observed**$f_{\rm back}$.
+The 10¹⁸ discrepancy was RESOLVED via: (a) 4π factor REMOVED, (b) $M_{\rm Pl,4D}$ updated to 3.93×10²³ GeV. The closed loop is NOW a numerical closure. See `paper/legacy/v359_README_legacy_sections.md` for the closure history.
 
 **The forward/backward $\alpha$ symmetry DOES close** (L98, L103):
 
@@ -3409,7 +3414,7 @@ from the framework.
 | $\gamma$ ~ 10⁶⁰-10¹⁰⁰ (4D time dilation) | **DERIVED** from $\alpha$ and $E_{\rm 4D}$ |
 | $\epsilon$ = 10⁻³⁸ (gravity weakness) | **OBSERVED** (hierarchy problem) |
 | $\rho_{\rm DE}$/$\rho_{\rm Pl}$ = 10⁻¹²³ | **OBSERVED** (cosmological CC problem) |
-| $f_{\rm DE}$ = 10⁻⁸⁵ | **CALIBRATION** (= 10⁻¹²³/10⁻³⁸) |
+| $f_{\rm DE}$ = 1.13×10⁻⁸⁵ | **DERIVED** (v3.3+, L308v α-GM closed loop) |
 | M^1.29 scaling law across 14 events | **DERIVED** from 2D CFT + $\alpha$ |
 | 5/27/68 split | **OBSERVED** (Planck 2018) |
 | DM local variation | **EXPLAINED** by cumulative SFH |
@@ -3425,13 +3430,13 @@ from the framework.
 - A solution to the hierarchy or cosmological constant problems
 - A "closed loop" in the numerical sense
 
-**L102 REVISED (v3.1.1)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha$ = 1.289 unifies forward time dilation and backward $f_{\rm back}$. However, the values of $\epsilon$ (10⁻³⁸) and DE/Planck (10⁻¹²³) are both OBSERVED; $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION $10^{-123}/\epsilon$, not a derived physical fraction. The closed loop is **not** a numerical closure (the §3.60.1 formula gives $4.6 \times 10^{-68}$, not 10⁻⁸⁵).
+**L102 REVISED (v3.1.1, FURTHER REVISED v3.3+, PARTIAL CLOSURE L308v)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha$ = 1.289 unifies forward time dilation and backward $f_{\rm DE}$. The values of $\epsilon$ (10⁻³⁸) and DE/Planck (10⁻¹²³) are still OBSERVED. However, $f_{\rm DE}$ = 1.13×10⁻⁸⁵ is now **DERIVED** from the framework's structure ($M_{\rm Pl,4D}$ α-GM, $E_{\rm 4D}$, $M^{\alpha}$ law) and matches DE calibration **within 0.13%** (basically exact). The v3.1.1 "closed loop is rhetorical, not numerical" claim is **REVISED** in v3.3+.
 
-**L138 NEW (v3.1.1)**: $f_{\rm DE}$ = 10⁻⁸⁵ is a CALIBRATION FACTOR, not a derived physical quantity. The "primordial back-projection fraction" is a misleading name; it is simply the ratio of observed DE to the $\epsilon$-suppressed Planck density.
+**L138 NEW (v3.1.1, PARTIAL CLOSURE L308v v3.5.9+)**: $f_{\rm DE}$ = 1.13×10⁻⁸⁵ was v3.1.1 CALIBRATION FACTOR (ratio of observed DE to $\epsilon$-suppressed Planck density). **REVISED in v3.3+ via L308v α-GM closed loop**: $f_{\rm DE}$ is now DERIVED from framework structure. See `paper/legacy/v359_README_legacy_sections.md` for the L138 closure history.
 
-**L139 NEW (v3.1.1)**: The "closed loop" formula in §3.60.1 ($f_{\rm back}$ = ($t_{\rm Pl}$/$\tau_{\rm 4D}$) × ($\tau_{\rm SN}$/$\tau_{\rm universe}$) × ($E_{\rm 4D}$/ $E_{\rm SN}$)$^{1/(2\alpha)}$ ≈ $4.6 \times 10^{-68}$) and the DE calibration ($f_{\rm DE}$ = 10⁻⁸⁵) differ by 10¹⁸ orders of magnitude. The closed loop is rhetorical, not numerical.
+**L139 NEW (v3.1.1, RESOLVED v3.3+ via L308v)**: The "closed loop" formula in §3.60.1 (v3.1.1 gave $f_{\rm back} \approx 4.6 \times 10^{-68}$, DE calibration $f_{\rm DE}$ = 10⁻⁸⁵, 10¹⁸ discrepancy) is **RESOLVED** in v3.3+ via: (a) 4π factor REMOVED, (b) $M_{\rm Pl,4D}$ updated to 3.93×10²³ GeV (α-GM, L308v). New $f_{\rm DE}$ = 1.13×10⁻⁸⁵ matches DE within 0.13%. The "rhetorical, not numerical" claim is REVISED.
 
-**L140 NEW (v3.1.1)**: $\epsilon$ = 10⁻³⁸ is OBSERVED (gravity weakness vs other forces — the hierarchy problem). SIDC's mechanism (4D antigravity cancellation) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC.
+**L140 NEW (v3.1.1, STILL OPEN v3.5.9+)**: $\epsilon$ = 10⁻³⁸ is OBSERVED (gravity weakness vs other forces — the hierarchy problem). SIDC's mechanism (4D antigravity cancellation) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC (still L140 OPEN in current framework).
 
 **Net (v3.1.1)**:
 - Total: 334 pages
