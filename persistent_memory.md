@@ -551,7 +551,7 @@ python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 
 **AGE = 1.5×10⁻¹⁵ OF LIFETIME (v3.4.8)**:
 - t_0 = 13.8 Gyr (observed)
-- τ_3D = 9.10×10²⁴ yr (M^α with $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
+- τ_3D = 8.95×10¹²⁴ yr (M^α with $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
 - t_0/τ_3D = 1.5×10⁻¹⁵
 - SIDC is primarily an INITIAL-CONDITIONS framework
 - Long-term evolution is theoretical (untestable in 3D frame)
@@ -1486,7 +1486,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### L) v3.5.8 one-sentence summary
 
-"Our 3+1D universe is one of N_sub = 3.86×10² sub-universes (linear in $E_{\rm 4D}$ per L308o) created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-GM), with τ_4D = 1.51×10³⁴ yr (DE matches within 0.13% via simple $f_{\rm DE}$ formula), and τ_3D,apparent = 9.10×10²⁴ yr. Bilateral cascade has 9 parameters (v3.5.8+): 1 measured ($M_{\rm Pl,3D}$), 3 DERIVED from first principles (α = 1+1/√12, $M_{\rm Pl,2D}$ = N×$v_{\rm Higgs}$ = 12×246, $\mu$ = $M_{\rm Pl,2D}^2$ via L308r chain), 4 calibrated (ε, τ_4D, AGN rate, $E_{\rm 4D}$), 1 SEMI-DERIVED (N_sub = $E_{\rm 4D}$/$E_{\rm sub}$), 1 derived via consistency ($M_{\rm Pl,4D}$ α-GM)."
+"Our 3+1D universe is one of N_sub = 3.86×10² sub-universes (linear in $E_{\rm 4D}$ per L308o) created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-GM), with τ_4D = 1.51×10³⁴ yr (DE matches within 0.13% via simple $f_{\rm DE}$ formula), and τ_3D,apparent = 8.95×10²⁴ yr. Bilateral cascade has 9 parameters (v3.5.8+): 1 measured ($M_{\rm Pl,3D}$), 3 DERIVED from first principles (α = 1+1/√12, $M_{\rm Pl,2D}$ = N×$v_{\rm Higgs}$ = 12×246, $\mu$ = $M_{\rm Pl,2D}^2$ via L308r chain), 4 calibrated (ε, τ_4D, AGN rate, $E_{\rm 4D}$), 1 SEMI-DERIVED (N_sub = $E_{\rm 4D}$/$E_{\rm sub}$), 1 derived via consistency ($M_{\rm Pl,4D}$ α-GM)."
 
 ### M) Lessons learned
 

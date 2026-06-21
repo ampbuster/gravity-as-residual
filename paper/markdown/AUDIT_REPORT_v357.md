@@ -28,8 +28,8 @@ Apparent "0 occurrences" were due to notation differences.
 
 | Parameter | Paper notation | Memory notation |
 |-----------|----------------|-----------------|
-| $\tau_{\rm 3D}$,apparent | $\tau_{\rm 3D}$,apparent (text) | 9.10×10²⁴ (numeric) |
-| $\gamma_{\rm 4D}$ | $\gamma_{\rm 4D}$ (text) | 6.03×10⁹⁰ (numeric) |
+| $\tau_{\rm 3D}$,apparent | $\tau_{\rm 3D}$,apparent (text) | 9.10×10²⁴ (numeric, **UNITS ERROR — audit fixed to 8.95×10¹²⁴**) |
+| $\gamma_{\rm 4D}$ | $\gamma_{\rm 4D}$ (text) | 6.03×10⁹⁰ (numeric, **L308t updated precision to 5.93×10⁹⁰**) |
 | $\tau_{\rm 4D}$ | $\tau_{\rm 4D}$ (text) | 1.51×10³⁴ (numeric) |
 | age ratio | (mentioned as "day 1") | 1.5×10⁻¹⁵ (numeric) |
 

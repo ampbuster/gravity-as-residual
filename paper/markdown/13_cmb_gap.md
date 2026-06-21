@@ -7,9 +7,13 @@
 
 <!-- 13_cmb_gap.md - part of paper.md split (v3.0.13) -->
 
-## 13. SIDC's CMB Gap: an Honest Limitation (June 2026) — *UPDATED v2.7.5+: CLOSED*
+## 13. SIDC's CMB Gap: an Honest Limitation (June 2026) — *HISTORICAL (v2.7.5: CLOSED, v3.3+: F_p FRAMEWORK DROPPED)*
 
-**v2.7.5+ update (see §4.48.1).** The CMB gap is now **CLOSED**. The v2.7.5 introduction of the smooth $F_p(z) = 0.7 + 0.3 \cdot z^2/(z_{half}^2 + z^2)$ (Hill function, n=2, $z_{half} \approx 3$) replaces the v2.4 constant $F_p = 0.7$ that was 30% off at $z = 1100$. The smooth function matches **both anchors** (local $z=0$ AND CMB $z=1100$) with gap < 1%. Limitation 31 (CMB time-lag) is now **FULLY ADDRESSED**. The remaining subsections (§13.1-§13.5) are kept for historical context but describe a now-resolved issue. SIDC's current state: the CMB-era DM is **pure primordial** ($F_p \to 1$ at $z=1100$, per the smooth function), so CMB predictions match standard $\Lambda{\rm CDM}$ to within 1%.
+**LEGACY (v2.7.5+, HISTORICAL)**: The CMB gap was CLOSED in v2.7.5 via the smooth $F_p(z) = 0.7 + 0.3 \cdot z^2/(z_{half}^2 + z^2)$ (Hill function, n=2, $z_{half} \approx 3$). This replaces the v2.4 constant $F_p = 0.7$.
+
+**HOWEVER (v3.3+, CURRENT)**: The ENTIRE $F_p(z)$ Hill function framework was DROPPED in v3.3+ per L100 (user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). CMB gap is now addressed through DIFFERENT mechanism (cumulative 2D universe deaths + calibrated AGN rate).
+
+See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` for full legacy history.
 
 **Historical framing (v2.4-v2.7.4).** SIDC's earlier (v2.4-v2.7.4) version of the CMB gap was an honest limitation. The current section is preserved for historical context — it documents SIDC's progression from "tension" to "closed" via the smooth $F(z)$ refinement.
 
