@@ -256,10 +256,12 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - `use_linewidth.py`, `fix_dashes.py`, `fix_sigma.py`, `wrap_dimexpr.py` (table fixes)
 - `build_pdf.sh` (orchestrator with pymarkdownlnt + math-balance pre-checks)
 
-**README.md** (v3.5.7+):
-- v3.5.7 CURRENT VERSION banner, 9 parameters
+**README.md** (v3.5.9+ A1+L308z, current):
+- v3.5.9+ APPROACH A1 banner, 15 parameters (was 9 in v3.5.7)
 - DE match: **0.13%** (simple $f_{\rm DE}$ formula, v3.3) — corrected from v3.1.2's 8.4%
-- μ structurally motivated (5+ origins, v3.5.6 BREAKTHROUGH)
+- γ_4D stays DERIVED (literal time dilation, consistent with γ_2D)
+- f_leak = H_0 (NEW A1 principle, post-Friedmann)
+- N_sub = 386 (FREE event-specific, L308z)
 - F-theory 12D as 4D bulk (v3.4)
 - 47 Tuc test: SIDC vs ΛCDM (not "particle DM")
 
