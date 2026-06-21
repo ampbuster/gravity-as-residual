@@ -8765,6 +8765,14 @@ These follow from Tier 1 + Tier 2 via framework consistency ($\alpha$-GM, $M^{\a
 - 2/9 are **framework choices** (gaps in first-principles)
 - 3/9 are **derived** from above
 
+**CURRENT (v3.5.9+ A1+L308z+L308u, 15 parameters total)**: This L308m tier classification was for v3.5.8 era 9-parameter framework. Current framework has 15 parameters (1+4+2+4+3+1 = 15):
+- 1 MEASURED (M_Pl,3D)
+- 4 FIRST-PRINCIPPLES (α, M_Pl,2D, μ, N=12 — was 1 in L308m, +α, M_Pl,2D, μ, N=12 via L308n/r/u)
+- 2 DERIVED (M_Pl,4D via α-GM, E_4D via N_sub × E_sub)
+- 4 CALIBRATED (ε, τ_4D, AGN rate, f_leak = H_0)
+- 3 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D)
+- 1 FREE (N_sub, event-specific)
+
 ### BREAKTHROUGH: $\alpha$ = 1 + 1/√12 EXACT match
 
 $\alpha$ = 1 + 1/√12 = 1.2886751346, matching framework's 1.289 within **0.025%** — essentially EXACT!
