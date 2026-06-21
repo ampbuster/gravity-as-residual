@@ -4,18 +4,20 @@
 > earlier versions of SIDC, found in the v3.5.7 consistency audit.
 > All "legacy" values are SUPERSEDED by the current canonical parameters.
 >
-> **Current canonical values** (v3.5.7):
-> - α = 1.289
-> - M_Pl,3D = 1.22×10¹⁹ GeV
-> - M_Pl,2D = 3 TeV
-> - M_Pl,4D = 4×10²³ GeV (derived)
-> - μ = 9×10⁶ GeV²
-> - E_4D = 5×10⁷⁹ J
-> - τ_4D = 1.51×10³⁴ yr
-> - γ_4D = 6.03×10⁹⁰
-> - τ_3D,apparent = 9.10×10²⁴ yr
-> - N_sub = 4×10²
-> - ε = 10⁻³⁸
+> **Current canonical values** (v3.5.7 era, REVISED by L308t):
+> - α = 1.289 (FIRST-PRINCIPPLES via Schwarzian SYK, L308n)
+> - M_Pl,3D = 1.22×10¹⁹ GeV (MEASURED)
+> - M_Pl,2D = **2.95 TeV** (FIRST-PRINCIPLES, was 3 TeV rounded, L308r)
+> - M_Pl,4D = **3.93×10²³ GeV** (DERIVED via α-GM, was 4×10²³, L308t precision)
+> - μ = **8.73×10⁶ GeV²** (FIRST-PRINCIPLES, was 9×10⁶ rounded, L308r)
+> - E_4D = 5×10⁷⁹ J (DERIVED via N_sub × E_sub, L308o)
+> - τ_4D = 1.51×10³⁴ yr (CALIBRATED)
+> - γ_4D = **5.93×10⁹⁰** (STRUCTURAL, was 6.03×10⁹⁰, L308t precision)
+> - τ_3D,apparent = **8.95×10¹²⁴ yr** (STRUCTURAL, was 9.10×10²⁴ yr, L308t precision)
+> - N_sub = **3.86×10²** (FREE event-specific, L308z, was 4×10²)
+> - E_sub = **1.295×10⁷⁷ J** (STRUCTURAL, was 1.25×10⁷⁷, L308z)
+> - ε = 10⁻³⁸ (CALIBRATED)
+> - f_leak = H_0 = 2.18×10⁻¹⁸ /s (CALIBRATED, NEW A1)
 
 ---
 
@@ -48,7 +50,7 @@
 - α = 1 + 1/√N where N=12 — "leading + finite-N" (cleanest reason)
 - α = 1 + ln(q²/N) for q=4 — curve-fit (no physical reason)
 
-**CURRENT**: α = 1.289 (universal, calibrated, structurally motivated)
+**CURRENT (v3.5.7, still valid in v3.5.9+)**: α = 1.289 (FIRST-PRINCIPLES via Schwarzian SYK N=12, L308n)
 
 ---
 
@@ -68,7 +70,7 @@
 - Direction CORRECT (higher than M_Pl,3D)
 - Uses BOTH Plancks structurally via framework's α
 
-**CURRENT**: M_Pl,4D = 4×10²³ GeV (derived, not free)
+**CURRENT (v3.5.7, REVISED v3.5.8+ L308t)**: M_Pl,4D = 3.93×10²³ GeV (α-GM precision)
 
 ---
 
@@ -82,7 +84,7 @@
 - γ_4D = 6.03×10⁹⁰ (was 1.29×10⁶⁴)
 - This means universe at 1.5×10⁻¹⁵ of lifetime (was 7.5×10⁻⁸⁹)
 
-**CURRENT**: τ_3D,apparent = 9.10×10²⁴ yr
+**CURRENT (v3.5.7, REVISED v3.5.8+ L308t)**: τ_3D,apparent = 8.95×10¹²⁴ yr
 
 ---
 
@@ -95,7 +97,7 @@
 - **γ_4D = 6.03×10⁹⁰** (correct, after M_Pl,4D derivation)
 - The factor of 5×10²⁷ increase comes from M_Pl,4D = 4×10²³ vs 9×10¹⁸
 
-**CURRENT**: γ_4D = 6.03×10⁹⁰
+**CURRENT (v3.5.7, REVISED v3.5.8+ L308t)**: γ_4D = 5.93×10⁹⁰
 
 ---
 
@@ -109,7 +111,7 @@
 - 10⁸× observable universe, 10⁷× full universe (structural requirement)
 - Universe is ~10⁻⁸ of 4D event
 
-**CURRENT**: E_4D = 5×10⁷⁹ J (universe-scale)
+**CURRENT (v3.5.7, REVISED v3.5.9+ L308z)**: E_4D = 5×10⁷⁹ J (DERIVED via N_sub × E_sub)
 
 ---
 
@@ -123,7 +125,7 @@
 - **M_Pl,2D = 3 TeV** (calibrated to τ_SN = 33 s)
 - μ = M_Pl,2D² = 9×10⁶ GeV²
 
-**CURRENT**: M_Pl,2D = 3 TeV (calibrated)
+**CURRENT (v3.5.7, REVISED v3.5.8+ L308r)**: M_Pl,2D = 2.95 TeV (FIRST-PRINCIPLES via N × v_H)
 
 ---
 
