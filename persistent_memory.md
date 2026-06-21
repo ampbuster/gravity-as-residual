@@ -1748,3 +1748,65 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - 
 - **STATUS**: L308aa v1 REVERTED. L308x CORRECT. Both transitions have time dilation.
 
+
+
+### v3.5.9+ CLEANUP PASSES 16-29 (2026-06-21) — parameter count correction 14 → 15
+
+User requested more cleanup passes after L308z+L308x v3. Found and fixed:
+
+**CRITICAL ARITHMETIC ERROR** (PASS 16-25): Parameter count was reported as 14 but is actually 15.
+
+CORRECT COUNT (v3.5.9+ A1+L308z):
+- 1 MEASURED: M_Pl,3D
+- 4 FIRST-PRINCIPLES: α, M_Pl,2D, μ, N=12
+- 2 DERIVED: M_Pl,4D (α-GM, L308v), E_4D (N_sub × E_sub, L308o)
+- 4 CALIBRATED: ε, τ_4D, AGN rate, f_leak = H_0 (A1)
+- 3 STRUCTURAL: E_sub, τ_3D,apparent, γ_4D
+- 1 FREE: N_sub
+- TOTAL: 1+4+2+4+3+1 = **15** (was 14, was 13, was 9)
+
+The "14" came from miscounting when E_4D moved from CALIBRATED to DERIVED
+and E_sub was added as STRUCTURAL (post-L308z). Each is a +1 net.
+
+**STATE_OF_THE_MODEL TABLE CORRECTIONS** (PASS 17):
+- Removed duplicates (rows 7/13, 8/14)
+- α status: CALIBRATED → FIRST-PRINCIPLES (L308n Schwarzian SYK derivation)
+- Added γ_2D row (5.5×10⁴⁴, structural, L308x v3)
+- Cleaner hierarchy (5 first-principles including N=12)
+
+**HISTORICAL MARKERS** (PASS 26-28): 02_glossary had three places (lines 21, 63, 498)
+describing pre-v3.0 era parameter counts as if current:
+- 'These are the *only* free parameters in SIDC' (about μ, m_{3+1D})
+- 'SIDC has 2 free parameters (μ, m_{3+1D})'
+- 'SIDC's *single* free parameter α' (v2.7.4 claim)
+All updated to clearly mark as HISTORICAL and provide current state (15 parameters).
+
+**EXECUTIVE SUMMARY** (PASS 29): 'SIDC's net free parameter count: 14' → 15
+
+**COMMITS THIS ROUND** (12 commits total this session):
+1. ad567eb — persistent_memory updated
+2. 0207037 — L308z: N_sub FREE, E_4D DERIVED
+3. a068804 — L308aa v1: γ_2D = 1 (REJECTED)
+4. ffbb9f6 — L308aa REVERTED: γ_2D = 5.5e44
+5. e252d91 — L308x v3: proper/observed time distinction
+6. b07fa85 — PASS 7: 2D proper vs 3D observed time (README, 03b_predictions)
+7. 1a56bf3 — PASS 8: Update democratic cosmology
+8. d73df5e — PASS 9: Final γ_2D description consistency
+9. d132478 — PASS 10-11: Multiple inconsistency fixes
+10. 6e528ee — PASS 12-15: Final counts + democratic cosmology fixes
+11. b387623 — PASS 16-25: parameter count 14 → 15 across all top-level docs
+12. 97dcae0 — PASS 26-28: HISTORICAL markers for legacy '2 free parameters' in 02_glossary
+13. 1b9818e — PASS 29: 01_executive_summary parameter count fix
+
+**CURRENT STATE** (v3.5.9+ A1+L308z+L308x v3):
+- 395 pages, 1.52 MB PDF
+- 140 limitations
+- 15 parameters (1+4+2+4+3+1 = 15)
+- M_Pl,2D = 2.95 TeV (12 × v_Higgs)
+- M_Pl,4D = 3.93×10²³ GeV (α-GM)
+- γ_4D = 5.93×10⁹⁰ (DERIVED, literal time dilation at 4D level)
+- γ_2D = 5.5×10⁴⁴ (DERIVED, literal time dilation at 2D level)
+- 4 first-principles derived: α, M_Pl,2D, μ, N=12
+- f_leak = H_0 (A1 NEW principle)
+- N_sub = 386 (FREE, event-specific)
+- Cone asymmetric in time direction (L308x v3): both γ are time dilation but directions differ
