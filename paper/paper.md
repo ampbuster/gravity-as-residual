@@ -9647,6 +9647,92 @@ These are NOT physics limitations — they are paper-quality limitations.
 The scripts are idempotent (re-running produces 0 changes) and safe to leave in the build pipeline.
 
 **Build**: 369 pages (v3.5.7+, was 370 pages in v3.5.7 pre-cleanup), no errors.
+
+
+## 7.10 v3.5.9+ APPROACH A1: f_leak = H_0 AS NEW PRINCIPLE (NEW)
+
+L308w. **f_leak = H_0 IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** (v3.5.9+, A1, USER-DIRECTED).
+
+**Problem identified**: The framework's closed loop (τ_4D → E_4D → γ_4D) forced f_leak from §3.67 formula = 2.59×10⁻² /s (way too fast). Without continuous leak, DM grows unbounded, breaking stable 5/27/68 ratio. User catch: "no leak means dm to de and matter ratio will keep growing".
+
+**Fix (A1)**: γ_4D stays DERIVED (literal time dilation, consistent with γ_2D). The §3.67 formula is REPLACED by a NEW principle: f_leak = H_0 directly.
+
+**New principle**: f_leak = H_0 = 2.18×10⁻¹⁸ /s
+
+**What's preserved**:
+- γ_4D = (E_4D/M_Pl,3D)^α = 5.93×10⁹⁰ (DERIVED, literal time dilation)
+- γ_2D = (E_3D/M_Pl,3D)^α (DERIVED, literal time dilation)
+- Both γ values: consistent (literal time dilation)
+- τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
+- τ_4D,proper = 1.51×10³⁴ yr (DE-exact, unchanged)
+- E_4D = 5×10⁷⁹ J (closed loop, unchanged)
+- M_Pl,4D = 3.93×10²³ GeV (α-GM, unchanged)
+- DE match (unchanged)
+- Multi-universe picture (unchanged)
+
+**What's lost**: 
+- §3.67 formula's 1.4% match to H_0 becomes "striking coincidence" (not derivation)
+- f_leak is no longer derived from γ_4D (independent principle)
+
+**Physical interpretation**: 
+- γ_4D, γ_2D: time dilation between frames (structural, derived)
+- f_leak: DM dynamics (cosmological principle, observed)
+- The "leak" is DM being "redshifted out" at the cosmic expansion rate
+
+**Cost**: f_leak becomes 5th calibrated parameter (was 4). Net parameter count: 14 (was 13).
+
+**Remaining gaps**: 
+- f_leak = H_0 is a postulate, not derived from first principles
+- §3.67 1.4% match is coincidence (future derivation target)
+- H_0 is observed (Planck 2018: 67.4 km/s/Mpc)
+
+STATUS: PARTIALLY CLOSED (postulated/observed).
+
+Source: `calculations/v36_research/A1_fleak_H0_principle.py`, paper §7.4.20.
+
+L308x. **γ_4D AND γ_2D ARE BOTH LITERAL TIME DILATION** (v3.5.9+, A1, structural).
+
+**Structural consistency**: In Approach A1, both γ values across cascade transitions have the SAME interpretation (literal time dilation):
+
+- γ_4D = (E_4D/M_Pl,3D)^α — 4D event's lifetime appears time-dilated in 3D frame
+- γ_2D = (E_3D/M_Pl,3D)^α — 2D universe's lifetime appears time-dilated in 3D frame
+
+Both use the formula (E_parent/M_Pl,child)^α. Both represent dimensionless ratios of timescales.
+
+This is in contrast to Path B2 (rejected) which had γ_4D as "back-flow efficiency" (not time dilation) while γ_2D was still time dilation — a structural inconsistency.
+
+Source: paper §7.4.20.
+
+L308y. **§3.67 1.4% match becomes STRIKING COINCIDENCE** (v3.5.9+, A1, structural).
+
+Framework's §3.67 formula: f_leak = α × f_back,3+1D × γ_4D^(1/α²)
+- With v3.3 era γ_4D = 1.29×10⁶⁴: f_leak = 2.40×10⁻¹⁸ /s ≈ H_0 (1.4% match)
+- With current γ_4D = 5.93×10⁹⁰: f_leak = 2.59×10⁻² /s (off by 10¹⁶)
+
+In A1, the 1.4% match is REINTERPRETED as a "striking coincidence" rather than a derivation. The formula's match to H_0 in the v3.3 era was structural coincidence (γ_4D was different then).
+
+**Future research**: Could derive f_leak = H_0 from first principles using:
+- N=12 structure (Schwarzian or Z_12)
+- F-theory geometry (specific compactification)
+- Schwarzian dynamics of 4D event
+
+STATUS: OPEN (derivation target).
+
+Source: paper §7.4.20, framework §3.67 history.
+
+---
+
+**v3.5.9+ Approach A1 status**: 
+- 3 new limitations (L308w, L308x, L308y). Total limitations: 138 (was 135, +L308w/L308x/L308y).
+- γ_4D: REINSTATED as DERIVED (literal time dilation)
+- τ_3D,apparent: REINSTATED as 8.95×10¹²⁴ yr
+- f_leak: NEW principle = H_0 (post-Friedmann)
+- §3.67 formula: REPLACED (1.4% match becomes coincidence)
+- τ_DM: 14.5 Gyr (just over universe age)
+- Universe at 95.1% of DM lifetime
+- DM stable at 27% ✓
+- AGC/KKR predictions work ✓
+
 <!-- 07_conclusion.md - part of paper.md split (v3.0.13) -->
 
 ## 8. Conclusion

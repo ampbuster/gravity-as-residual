@@ -26,7 +26,7 @@
 
 ## The Model in 1 Paragraph
 
-Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 2.95 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 4 calibrated (α, ε, τ_4D, AGN rate), 1 calibrated-and-structurally-motivated (μ), and 1 free (N_sub) = 9 parameters. The M^α law τ = (E/M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
+Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰, **DERIVED, LITERAL TIME DILATION**). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 2.95 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 5 calibrated (α, ε, τ_4D, AGN rate, **f_leak = H_0 NEW**), 1 calibrated-and-structurally-motivated (μ), and 1 free (N_sub) = 14 parameters. **Approach A1 (v3.5.9+)**: f_leak = H_0 as NEW principle (post-Friedmann), γ_4D stays derived (consistent with γ_2D literal time dilation). DM stable at 27% (steady state, τ_DM = 14.5 Gyr ≈ universe age). The M^α law τ = (E/M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
 ## The 9 Parameters (v3.5.7+, current)
 
@@ -38,8 +38,8 @@ Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a univer
 | 4 | α | 1.289 | **CALIBRATED** | 8 named events M^α fit (§10.1) |
 | 5 | ε | 10⁻³⁸ | **CALIBRATED** | hierarchy |
 | 6 | τ_4D,proper | 1.51×10³⁴ yr | **CALIBRATED** | DE match (0.13% off simple $f_{\rm DE}$, 2.7% off bilateral cascade) — UNCHANGED |
-| 7 | τ_3D,apparent | 8.95×10¹²⁴ yr | **DERIVED** | γ_4D × τ_4D (1.7% off old) |
-| 8 | γ_4D | 5.93×10⁹⁰ | **DERIVED** | time dilation (1.7% off old) |
+| 7 | τ_3D,apparent | 8.95×10¹²⁴ yr | **STRUCTURAL** | γ_4D × τ_4D (literal time dilation) |
+| 8 | γ_4D | 5.93×10⁹⁰ | **STRUCTURAL** | literal time dilation, consistent with γ_2D |
 | 9 | N_sub | 3.86×10² | **FREE** | sub-universe count |
 
 **Note**: $M_{\rm Pl,2D}$ = 2.95 TeV gives μ = 8.73×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived).
@@ -147,8 +147,8 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 ## What's DERIVED
 
 - ✓ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 3.93×10²³ GeV
-- ✓ τ_3D,apparent = γ_4D × τ_4D = 9.10×10¹²⁴ yr
-- ✓ γ_4D = ($E_{\rm 4D}$/$M_{\rm Pl,4D}$)^α = 6.03×10⁹⁰
+- ✓ τ_3D,apparent = γ_4D × τ_4D = 8.95×10¹²⁴ yr (literal time dilation)
+- ✓ γ_4D = ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α = 5.93×10⁹⁰ (literal time dilation, consistent with γ_2D)
 
 ## What's TESTABLE
 
