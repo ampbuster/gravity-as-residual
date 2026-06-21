@@ -1259,7 +1259,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 These are different flows and now have distinct names.
 
-**To be applied in future versions**: Replace $f_{\rm back}$ with $f_{\rm DE}$/ $f_{\rm DM,leak}$/ $f_{\rm DM,death}$ throughout paper.
+**UPDATED (v3.5.7+ naming revolution)**: $f_{\rm back}$ has been replaced with $f_{\rm DE}$/ $f_{\rm DM,leak}$/ $f_{\rm DM,death}$ throughout the paper. Legacy references remain in the v3.0.21-v3.2 era formula entries and the calculation scripts.
 
 See `paper/legacy/v357_f_back_clarification.md` for full discussion.
 
