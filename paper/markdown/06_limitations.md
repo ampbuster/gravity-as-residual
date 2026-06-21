@@ -1898,7 +1898,7 @@ This is the unified deep origin of the "12" cascade fundamental unit.
 **AFTER** (v3.5.9+): **4/15 parameters first-principles derived** (was 4/9 in L308h, corrected count):
 - α = 1 + 1/√12 (L308n, Schwarzian SYK N=12)
 - M_Pl,2D = N × v_H = 12 × 246.22 GeV (L308r, EW coincidence)
-- μ = M_Pl,2D² (L308r, follows from M_Pl,2D)
+- $\mu = M_{\rm Pl,2D}^2$ (L308r, follows from $M_{\rm Pl,2D}$)
 - **N = 12 = 3 gens × 4 Weyl** (NEW, this section, 6D anomaly cancellation)
 
 The remaining 5:
@@ -2037,7 +2037,7 @@ $\tau_{\rm 4D} = 1.51e34 yr $← calibrated from ρ_DE_obs
         ↓
 $E_{\rm 4D} = M_{\rm Pl,4D} \times (\tau_{\rm 4D}/t_{\rm Pl})^{1/\alpha} = 3.12\times10^{89}\,\text{GeV}$
         ↓
-γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93e90  ← DERIVED (literal time dilation)
+$\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha} = 5.93\times10^{90}$ ← DERIVED (literal time dilation)
         ↓
 f_leak = α × f_back (v3.0.21 naming: $f_{\rm DE}$ for 3D→4D continuous leakage) × γ_4D^(1/α²) = 2.59e-2 /s ← WAY TOO FAST (if used, HISTORICAL §3.67 formula REPLACED by f_leak = H_0 in A1)
 ```
@@ -2133,8 +2133,8 @@ The framework now has three independent "rates":
 - $M_{\rm DM}$ reaches steady state: $M_{\rm DM} = R_{\rm add} / f_{\rm leak} = 27\% \times \rho_{\rm crit}$ ✓
 
 **2. γ_4D AND γ_2D interpretations are consistent (L308x, L308aa reverted):**
-- γ_4D = literal time dilation at 4D level
-- γ_2D = literal time dilation at 2D level
+- $\gamma_{\rm 4D}$ = literal time dilation at 4D level
+- $\gamma_{\rm 2D}$ = literal time dilation at 2D level
 - Both use the same formula $(E_{\rm parent}/M_{\rm Pl,child})^{\alpha}$
 - Cone is symmetric in HAVING time dilation, asymmetric in MAGNITUDE (γ_4D >> γ_2D)
 
@@ -2164,7 +2164,7 @@ The framework now has three independent "rates":
 
 - **f_leak = H_0 first-principles**: H_0 is observed, not derived. Future research could derive f_leak from a deeper principle (e.g., N=12 structure, F-theory geometry, or Schwarzian dynamics). STATUS: PARTIALLY CLOSED (calibrated/observed).
 - **§3.67 1.4% match**: Now a coincidence. May yet be derivable. STATUS: OPEN (derivation target).
-- **γ_4D derivation**: γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ is derived, but the PHYSICAL INTERPRETATION (time dilation vs back-flow efficiency) is ambiguous. STATUS: STRUCTURAL.
+- **$\gamma_{\rm 4D}$ derivation**: $\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ is derived, but the PHYSICAL INTERPRETATION (time dilation vs back-flow efficiency) is ambiguous. STATUS: STRUCTURAL.
 
 ### Files Modified
 
@@ -2428,8 +2428,8 @@ L308w. **f_leak = H_0 IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** (v3.5.9+, 
 **New principle**: $f_{\rm leak} = H_0 = 2.18\times10^{-18}\,\text{s}^{-1}$
 
 **What's preserved**:
-- γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93×10⁹⁰ (DERIVED, literal time dilation)
-- γ_2D = $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ = 5.5e44 (literal time dilation, per L308x)
+- $\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha} = 5.93\times10^{90}$ (DERIVED, literal time dilation)
+- $\gamma_{\rm 2D} = (E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha} = 5.5\times10^{44}$ (literal time dilation, per L308x)
 - Both γ values: consistent (literal time dilation)
 - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
 - τ_4D,proper = 1.51×10³⁴ yr (DE-exact, unchanged)
@@ -2462,8 +2462,8 @@ L308x. **γ_4D AND γ_2D ARE BOTH LITERAL TIME DILATION** (v3.5.9+, A1, structur
 
 **Structural consistency**: In Approach A1, both γ values across cascade transitions have the SAME interpretation (literal time dilation):
 
-- γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93×10⁹⁰ — 4D event's lifetime is time-dilated in 3D frame
-- γ_2D = $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ = 5.5×10⁴⁴ (SN) — 2D universe's lifetime is time-dilated
+- $\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha} = 5.93\times10^{90}$ — 4D event's lifetime is time-dilated in 3D frame
+- $\gamma_{\rm 2D} = (E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha} = 5.5\times10^{44}$ (SN) — 2D universe's lifetime is time-dilated
 
 Both use the formula $(E_{\rm event}/M_{\rm Pl,parent})^{\alpha}$. Both represent dimensionless time dilation factors.
 
@@ -2501,7 +2501,7 @@ Both use the formula $(E_{\rm event}/M_{\rm Pl,parent})^{\alpha}$. Both represen
 
 This is in contrast to Path B2 (rejected) which had γ_4D as "back-flow efficiency" (not time dilation) while γ_2D was still time dilation — a structural inconsistency.
 
-Source: paper §7.4.20. L308aa v1 (γ_2D=1) REVERTED per user correction. L308x v3 adds proper/observed time distinction per user clarification 2026-06-21.
+Source: paper §7.4.20. L308aa v1 ($\gamma_{\rm 2D}=1$) REVERTED per user correction. L308x v3 adds proper/observed time distinction per user clarification 2026-06-21.
 
 L308y. **§3.67 1.4% match becomes STRIKING COINCIDENCE** (v3.5.9+, A1, structural).
 
@@ -2565,7 +2565,7 @@ Source: user message 2026-06-21 "wait, n_sub should be based on event size? not 
 L308aa. **$\gamma_{\rm 2D} = 5.5\times10^{44}$ (TIME DILATION EXISTS AT 2D LEVEL) — REVERTED** (v3.5.9+, USER-CORRECTION).
 
 **Initial claim (L308aa v1)**: $\gamma_{\rm 2D} = 1$ (no time dilation at 2D-3D).
-**User correction**: γ_2D = $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ = 5.5e44 (time dilation DOES exist at 2D-3D).
+**User correction**: $\gamma_{\rm 2D} = (E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha} = 5.5\times10^{44}$ (time dilation DOES exist at 2D-3D).
 **L308aa is REVERTED — L308x stands as originally stated.**
 
 User: "wait, why no time dilation? it should exist at both 2d-3d and 3d-4d no?"
