@@ -93,18 +93,24 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 - "1 species" claim is structural, not first-principles
 - "13/14 fail" for $\alpha$ = 1.258 is paper text without rigorous documentation
 
-## Result 2: Closed-Loop Formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / $E_{\rm event}$)^ $\alpha$
+## Result 2: Closed-Loop Formula (**v3.0.21 HISTORICAL** — uses pre-v3.5.7 $f_{\rm back}$ naming; see v3.5.7+ naming revolution below)
 
-**$f_{\rm back}$ itself is universal at every dimensional transition**: The same formula gives the back-flow rate at 2D→3D AND 3D→4D, just with different $M_{\rm Pl,N}$ and $E_{\rm event}$:
+> ⚠️ **NAMING REVOLUTION (v3.5.7+)**: The $f_{\rm back}$ notation in this section has been RENAMED in v3.5.7+:
+> - $f_{\rm back}$ at 2D→3D → **$f_{\rm DM,leak}$** (1.6×10⁻⁴⁵, continuous leakage while 2D universe alive)
+> - $f_{\rm back}$ at 3D→4D → **$f_{\rm DE}$** (1.22×10⁻⁸⁵, continuous leakage = DE)
+> - 100% pulsed return at death → **$f_{\rm DM,death}$** (= 1, universal)
+> - See `paper/legacy/v357_f_back_clarification.md` for the full naming revolution
 
-| Transition | $M_{\rm Pl,N}$ | $E_{\rm event}$ | $f_{\rm back}$ fraction |
+**$f_{\rm back}$ (pre-v3.5.7 naming) is universal at every dimensional transition**: The same formula gives the back-flow rate at 2D→3D AND 3D→4D, just with different $M_{\rm Pl,N}$ and $E_{\rm event}$:
+
+| Transition | $M_{\rm Pl,N}$ | $E_{\rm event}$ | $f_{\rm back}$ (v3.0.21 naming: $f_{\rm DE}$ for 3D→4D, $f_{\rm DM,leak}$ for 2D→3D) |
 |---|---|---|---|
 | 2D→3D (SN) | $1.22 \times 10^{19}$ GeV | 10⁴⁴ J | $1.6\times 10^{-45}$ |
 | 3D→4D | $4\times 10^{23}$ GeV | $5\times 10^{79}$ J | $1.22\times 10^{-85}$ |
 
-**Continuous vs pulsed return** (KEY CLARIFICATION, user-formalized): $f_{\rm back}$ is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). The OBSERVABLE differs by level due to TIMESCALE (specifically, time dilation makes 3+1D's lifetime much longer than 2D's lifetime):
+**Continuous vs pulsed return** (KEY CLARIFICATION, user-formalized, **v3.0.21 HISTORICAL**): $f_{\rm back}$ is the CONTINUOUS back-flow fraction (= $f_{\rm DE}$ for 3D→4D, = $f_{\rm DM,leak}$ for 2D→3D in v3.5.7+ naming). Pulsed return at death is 100% (universal, = $f_{\rm DM,death}$ in v3.5.7+ naming). The OBSERVABLE differs by level due to TIMESCALE (specifically, time dilation makes 3+1D's lifetime much longer than 2D's lifetime):
 
-| Boundary | Observed time (3D frame) | Proper time (event's own frame) | γ | Continuous leakage | Pulsed at death | What dominates NOW? |
+| Boundary | Observed time (3D frame) | Proper time (event's own frame) | γ | Continuous leakage (f_back in v3.0.21) | Pulsed at death (= 100%) | What dominates NOW? |
 |---|---|---|---|---|---|---|
 | 2D→3D (SN) | **33 s** (3D-observed) | **5.7×10³⁸ yr** (2D's own frame) | γ_2D = 5.5×10⁴⁴ | 33×10⁻⁴⁵ = 10⁻⁴⁴ (negligible) | 100% at 33s | **Pulsed (DM)** |
 | 3D→4D | **8.95×10¹²⁴ yr** (3D-observed) | **1.51×10³⁴ yr** (4D's own frame) | γ_4D = 5.93×10⁹⁰ | 10⁵¹×10⁻⁸⁵ = O(1) by heat death | 100% at 1.51e34 yr | **Continuous (DE)** |
@@ -170,7 +176,7 @@ The v3.3 DE formula has NO $4\pi$ factor. The simple $f_{\rm DE}$ formula gives 
 | Universe total LIFETIME | ✗ UNKNOWN (only AGE is observed) |
 | "14 events" all fit (vs §10.1's 8) | ✗ INCONSISTENT (legacy claim) |
 | "13/14 fail" for $\alpha$ = 1.258 (rigorously documented) | ✗ PAPER TEXT (not in calculations) |
-| $F_p$(z) functional form (Hill n=2) | ✗ FIT (L 1 PARTIAL) — z-evolution is phenomenological |
+| $F_p$(z) functional form (Hill n=2, **DROPPED v3.3+**) | ✗ FIT (L 1 PARTIAL) — z-evolution was phenomenological (framework no longer uses F_p(z)) |
 | $z_{\rm half}$ ($F_p$ transition redshift) | ✗ FREE PARAM (L35) — calibrated to cosmic SFR peak |
 | $E_{\rm primordial}$ (per-event energy of primordial 2D universes) | ✗ FREE PARAM (L34) — not derived |
 | $E_{\rm crit}$ (phase-transition threshold) | ✗ REVERTED v2.7.5 — replaced by smooth C(E) = E^(1+ $\alpha$) |
