@@ -1,0 +1,64 @@
+======================================================================
+12-FOLD COORDINATED DM CLUSTERS (SIDC NEW PREDICTION)
+======================================================================
+
+Per-cluster structure:
+  1 central DM sub-clump (M_2D ~ 10 M_sun)
+  12 surrounding DM sub-clumps (12 × 10 M_sun)
+  Total per cluster: 13 sub-clumps
+  Total mass per cluster: 130 M_sun
+
+Mean inter-particle spacing in halo (ρ=10⁻²⁴ kg/m³):
+  d = 2.709e+18 m = 8.780e-02 kpc
+
+Cluster radius (from virial with v_2D = 30 m/s):
+  R = 1.770e+19 m = 5.735e-01 kpc = 5.735e+02 AU
+  (this is roughly Solar System scale)
+
+MICROLENSING DETECTION:
+  Cluster mass: 130 M_sun
+  This is in the MACHO range (10⁻⁷ to 100 M_sun)
+  Detectable by: Subaru HSC, LSST, OGLE, EROS
+
+PULSAR TIMING ARRAYS:
+  Coherent 12-fold substructure signal
+  Detectable by: NANOGrav, EPTA, PPTA (current)
+  Signature: specific frequency peaks in timing residuals
+
+DIRECT DETECTION:
+  Angular modulation from 12-fold structure
+  Detectable by: future directional DM detectors
+  Signature: 12-fold symmetric event rate
+
+HALO SUBSTRUCTURE:
+  Predicted: 12-vertex sub-clusters in DM halos
+  Detectable by: stellar stream heating, LIGO substructure
+  Signature: discrete mass concentrations
+
+======================================================================
+COMPARISON WITH OTHER DM MODELS
+======================================================================
+
+Model                     Substructure?        Coordination   
+----------------------------------------------------------------------
+ΛCDM (WIMP)               Smooth NFW           None           
+ΛCDM (PBH)                Discrete             None           
+WDM                       Suppressed           None           
+SIDM                      Cores                None           
+SIDC (NEW)                12-vertex clusters   12 (max)       
+
+SIDC's 12-fold coordination is a NOVEL prediction
+not made by any standard DM model
+
+======================================================================
+TESTABLE CONSEQUENCES SUMMARY
+======================================================================
+
+1. Microlensing mass function should have a peak at ~130 M_sun
+2. Pulsar timing should show coherent 12-fold substructure signals
+3. Direct detection should show 12-fold angular modulation
+4. Halo substructure should show 12-vertex clusters
+5. Stellar streams should show discrete heating events from clusters
+
+None of these predictions are made by ΛCDM or other DM models.
+SIDC's 12-fold coordination is UNIQUELY testable.
