@@ -2038,7 +2038,7 @@ E_4D = M_Pl,4D × (τ_4D/t_Pl)^(1/α) = 3.12e89 GeV
         ↓
 γ_4D = (E_4D/M_Pl,3D)^α = 5.93e90  ← DERIVED (literal time dilation)
         ↓
-f_leak = α × f_back × γ_4D^(1/α²) = 2.59e-2 /s ← WAY TOO FAST (if used)
+f_leak = α × f_back (v3.0.21 naming: $f_{\rm DE}$ for 3D→4D continuous leakage) × γ_4D^(1/α²) = 2.59e-2 /s ← WAY TOO FAST (if used, HISTORICAL §3.67 formula REPLACED by f_leak = H_0 in A1)
 ```
 
 Without a continuous f_leak = H_0 rate, DM grows unbounded (M_DM = R_add × t), breaking the stable 5/27/68 ratio. User catch: **"no leak means dm to de and matter ratio will keep growing"**.

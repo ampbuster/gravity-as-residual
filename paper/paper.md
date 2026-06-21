@@ -3217,13 +3217,13 @@ The closed loop formula requires knowing BOTH the parent event
 energy (for forward $\gamma$) AND the grandparent event energy
 (for backward $f_{\rm back}$).
 
-At level 3 (3D → 2D):
+At level 3 (3D → 2D, **v3.0.21 HISTORICAL naming**):
 - Forward: $\gamma_{\rm 3}$ = ($E_{\rm 3D}$/$E_{\rm Pl,3}$)$^{\alpha}$ → $\tau_{\rm 2D}$ = $\gamma_{\rm 3}$ × $t_{\rm Pl,3}$
-- Backward: f_back_3 = ($E_{\rm 4D}$/ $E_{\rm 3D}$)$^{1/(2\alpha)}$ × prefactors → $\approx 10^{-85}$ ✓
+- Backward: f_back_3 (v3.0.21 naming: $f_{\rm DM,leak}$ for 2D→3D continuous leakage) = ($E_{\rm 4D}$/ $E_{\rm 3D}$)$^{1/(2\alpha)}$ × prefactors → $\approx 10^{-85}$ ✓
 
-At level 4 (4D → 3+1D):
+At level 4 (4D → 3+1D, **v3.0.21 HISTORICAL naming**):
 - Forward: $\gamma_{\rm 4}$ = ($E_{\rm 4D}$/$E_{\rm Pl,4}$)$^{\alpha}$ → $\tau_{\rm 3D}$ = $\gamma_{\rm 4}$ × $t_{\rm Pl,4}$
-- Backward: f_back_4 = ($E_{\rm 5D}$/ $E_{\rm 4D}$)$^{1/(2\alpha)}$ × prefactors → requires $E_{\rm 5D}$
+- Backward: f_back_4 (v3.0.21 naming: $f_{\rm DE}$ for 3D→4D continuous leakage = DE) = ($E_{\rm 5D}$/ $E_{\rm 4D}$)$^{1/(2\alpha)}$ × prefactors → requires $E_{\rm 5D}$
 
 At level 5+:
 - Need BOTH $E_{\rm D}$ and E_{D+1} for the closed loop
@@ -9530,7 +9530,7 @@ E_4D = M_Pl,4D × (τ_4D/t_Pl)^(1/α) = 3.12e89 GeV
         ↓
 γ_4D = (E_4D/M_Pl,3D)^α = 5.93e90  ← DERIVED (literal time dilation)
         ↓
-f_leak = α × f_back × γ_4D^(1/α²) = 2.59e-2 /s ← WAY TOO FAST (if used)
+f_leak = α × f_back (v3.0.21 naming: $f_{\rm DE}$ for 3D→4D continuous leakage) × γ_4D^(1/α²) = 2.59e-2 /s ← WAY TOO FAST (if used, HISTORICAL §3.67 formula REPLACED by f_leak = H_0 in A1)
 ```
 
 Without a continuous f_leak = H_0 rate, DM grows unbounded (M_DM = R_add × t), breaking the stable 5/27/68 ratio. User catch: **"no leak means dm to de and matter ratio will keep growing"**.
