@@ -1,0 +1,70 @@
+================================================================================
+v3.5.9+ FASTER LEAK OPTIONS
+================================================================================
+
+Natural f_back_3+1D = 4.8300e-56 /s
+H_0 = 2.1841e-18 /s
+Ratio f_back / H_0 = 2.2115e-38
+
+v3.3 §3.67 scaled leak: f_leak = α × f_back × γ_4D^(1/α²)
+  With γ_4D = 1.21e+64: f_leak = 2.3065e-17 /s
+  Ratio to H_0: 10.5605
+
+Current γ_4D = 5.93e+90
+  f_leak = 2.6712e-01 /s (way too fast)
+  Ratio to H_0: 1.2230e+17
+
+γ_4D needed for f_leak = H_0: 2.4094e+62
+
+============================================================
+IF f_leak = H_0 (Beautiful picture):
+============================================================
+
+  DM lifetime = 1/H_0 = 4.5786e+17 s = 14.5088 Gyr
+  Universe age = 13.8 Gyr (95% of DM lifetime)
+  Universe is at 'transition point' — DM is about to 'die'
+  Beautiful, testable prediction!
+
+  M_DM at 13.8 Gyr (assuming equilibrium):
+    fraction of equilibrium = 0.6137
+    If M_DM(equilib) = 0.27/0.65 = 0.4400 (= 0.42 of ρ_crit)
+    Then in equilibrium DM would be 42% of ρ_crit
+
+  BUT the framework observes 27% at 13.8 Gyr
+  This is consistent with the universe being at 65% of equilibrium
+  Or alternatively, R_add is calibrated to give 27% at this point
+
+============================================================
+OPTIONS
+============================================================
+
+Option A: Use natural f_back_3+1D (current view)
+  f_leak = 4.83e-56 /s
+  DM drains over 9.10e124 yr (3+1D's full apparent lifetime)
+  DM is essentially cumulative at 13.8 Gyr
+
+Option B: Re-introduce §3.67 scaled leak (v3.3 era)
+  f_leak = α × f_back × γ_4D^(1/α²)
+  v3.3 era: f_leak ≈ H_0 (within 1.4%)
+  Requires γ_4D ~ 1.21e64 (NOT current 5.93e90)
+  DM lifetime = 14.5 Gyr (just over universe age)
+  Universe is at the transition point — DM about to die
+
+Option C: Use current γ_4D in §3.67 formula
+  f_leak = 2.84e-3 /s (way too fast)
+  DM drains in seconds (10^12× too much)
+  NOT viable
+
+Option D: Find a new f_leak formula that gives H_0 with current values
+  Need: f_leak = 2.18e-18 /s with current f_back = 4.83e-56 /s
+  Or use H_0 as the natural leak rate (new mechanism)
+
+============================================================
+RECOMMENDATION
+============================================================
+
+Option B is BEAUTIFUL but requires reverting L308t's γ_4D update
+Option D (f_leak = H_0 as new mechanism) might be the right path
+  - Decouples γ_4D from f_leak
+  - DM leaks at Hubble rate (expansion drives leak)
+  - DM lifetime = 14.5 Gyr (testable prediction)
