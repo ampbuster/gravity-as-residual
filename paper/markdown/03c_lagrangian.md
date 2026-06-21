@@ -674,7 +674,7 @@ $$\rho_{\rm DE}^{(N-1)} = \underbrace{\left(\frac{M_{\rm Pl,N}}{M_{\rm Pl,N-1}}\
 The "normal gravity" ($M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gravity from above, leaving DE as the residual.
 
 **Numerical verification** (our universe, N=4D, N-1=3+1D):
-- $\rho_{\rm DE} = \left(\frac{3.93 \times 10^{23} \text{ GeV (\alpha-GM, L308v)}}{1.22 \times 10^{19} \text{ GeV}}\right)^{1.289} \times 10^{-38} \times \frac{(1.22 \times 10^{19})^4}{5.93 \times 10^{90}}$
+- $\rho_{\rm DE} = \left(\frac{3.93 \times 10^{23} \text{ GeV}}{1.22 \times 10^{19} \text{ GeV}}\right)^{1.289} \times 10^{-38} \times \frac{(1.22 \times 10^{19})^4}{5.93 \times 10^{90}}$
 - $= 6.43 \times 10^{5} \times 10^{-38} \times \frac{2.21 \times 10^{76}}{5.93 \times 10^{90}}$
 - $= 2.49 \times 10^{-47}$ GeV⁴ ≈ observed 2.5×10⁻⁴⁷ GeV⁴ (within 0.4%, basically exact)
 

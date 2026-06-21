@@ -1117,6 +1117,9 @@ if [ "$DRY_RUN" = true ]; then
     echo "[5/6] fix_sigma..."
     python3 "${TOOLS_DIR}/fix_sigma.py" "$BUILD_DIR" || true
 
+    echo "[5.5/6] replace_unicode_chars..."
+    python3 "${TOOLS_DIR}/replace_unicode_chars.py" "${BUILD_DIR}/paper_body.tex" || true
+
     # Step 6: xelatex (single run, halts on error so we see them)
     echo "[6/6] xelatex..."
     cat > "${BUILD_DIR}/paper_header.tex" << 'HDR_EOF'
@@ -1266,6 +1269,11 @@ python3 "${TOOLS_DIR}/fix_dashes.py" "$BUILD_DIR"
 # Fix: \sigma\^{}{N} → \sigma^{N}
 # See build_tools/fix_sigma.py for details.
 python3 "${TOOLS_DIR}/fix_sigma.py" "$BUILD_DIR"
+
+# Post-processor 5: replace Unicode chars that don't work with DejaVu Serif
+# e.g., ✓, ✗, →, ×, ≈ (in text mode)
+# See build_tools/replace_unicode_chars.py for details.
+python3 "${TOOLS_DIR}/replace_unicode_chars.py" "${BUILD_DIR}/paper_body.tex"
 
 # Step 2: Strip the first \section{...}
 # The title is already in the LaTeX header, so we don't want it twice.

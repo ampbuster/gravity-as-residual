@@ -67,7 +67,7 @@ All other values in SIDC are *derived* from the cascade structure:
 - $c = 1/2$ from N/24 (Ising CFT)
 - $f_{back} = 8.6 \times 10^{-86}$ from $\epsilon \times (E_{4D}/M_{Pl}^4)$ — bulk-brane coupling × 4D event energy ratio
 - $\epsilon = e^{-kL}$ from Randall-Sundrum II bulk-brane coupling (RS-II mechanism)
-- ~~$F_p(0) = 0.9993$~~ (DROPPED v3.3+, see L100 and `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`)
+- $F_p(0) = 0.9993$ — **DROPPED v3.3+** (see L100 and `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`)
 
 The 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, $\Omega$'s, $g_+$) are taken from data, not fit.
 
