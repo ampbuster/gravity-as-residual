@@ -35,7 +35,7 @@ This document is a clean reference for the SIDC framework as of v3.5.9+ A1. For 
 | α | 1.289 | FIRST-PRINCIPLES | α = 1 + 1/√12 (L308n, Schwarzian SYK) |
 | M_Pl,2D | 2.95 TeV | FIRST-PRINCIPLES | 12 × v_Higgs (L308r) |
 | μ | 8.73×10⁶ GeV² | FIRST-PRINCIPLES | M_Pl,2D² (L308r) |
-| N | 12 | FIRST-PRINCIPLES | Z_12 + 6D anomaly (L308u) |
+| N | 12 | **STRUCTURAL** (L308ag) | Was FIRST-PRINCIPLES, reclassified — 5 suggestive interpretations, none rigorous |
 | M_Pl,4D | 3.93×10²³ GeV | DERIVED | M_Pl,3D^α × M_Pl,2D^(1-α) (L308v) |
 | E_4D | 5×10⁷⁹ J | DERIVED | N_sub × E_sub (energy conservation) |
 | γ_4D | 5.93×10⁹⁰ | DERIVED | (E_4D/M_Pl,3D)^α (literal time dilation) |

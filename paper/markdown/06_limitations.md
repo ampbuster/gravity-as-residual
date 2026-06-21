@@ -2575,6 +2575,96 @@ If taken literally as events per cubic meter per second with M_2D ~ 10 M_sun (SN
 
 
 
+## 7.4.26 (L308ag): N=12 First-Principles Status — HONEST RE-EXAMINATION (v3.5.9+)
+
+**Date**: 2026-06-21
+**Trigger**: User question "why is n=12 first principles"
+**Status**: REVISED — N=12 reclassified from FIRST-PRINCIPLES to PARTIAL
+
+### The User's Sharp Question
+
+N=12 was claimed to be first-principles in v3.5.9+ A1 (L308u, Z_12 + 6D anomaly). But is it really?
+
+### The 5 "Derivations" Re-Examined
+
+**1. Schwarzian SYK: α = 1 + 1/√N**
+- Match: framework α=1.289 corresponds to N=12 ✓
+- **But this is CIRCULAR**: framework uses α=1.289, then derives N=12
+- Schwarzian coefficient 1/√N is itself model-dependent (depends on q=4 SYK specifically)
+- Status: SUGGESTIVE, not derivation
+
+**2. 6D Anomaly Cancellation (Appelquist 2001)**
+- The paper proves SM in 6D (= 4D + 2D universal extra) requires 3 generations
+- **But framework's "2D fiber" is NOT Appelquist's "2D universal extra dimension"**
+- Appelquist's 2D extra is a literal UED, framework's 2D is a fiber in F-theory CY
+- Status: MISAPPLIED — the argument requires specific brane-world structure
+
+**3. SM Fermion Count: 3 gen × 4 Weyl = 12**
+- 3 generations of Standard Model: measured, not derived
+- 4 Weyl per generation (u, d, e, ν): SM content
+- **But 4 per generation assumes 1 family SM, not justified from first principles**
+- Why 4? Why not 6 (with right-handed neutrino)? Why not 8 (with full Pati-Salam)?
+- Status: ASSUMES specific SM content
+
+**4. M_Pl,2D = 12 × v_Higgs**
+- This is FRAMEWORK CHOICE
+- N=12 emerges as the ratio M_Pl,2D/v_Higgs
+- M_Pl,2D itself is calibrated to 2.95 TeV (consistency with cascade)
+- Status: CIRCULAR
+
+**5. Ising CFT with c=1/2 + N=12 Majoranas**
+- 1 Ising CFT has c=1/2 (1 Majorana)
+- 12 Ising CFTs would have c=6 (12 Majoranas)
+- **Framework says c=1/2 (Ising) with N=12 → INCONSISTENT**
+- Either c=6 (12 Majoranas) or c=1/2 (1 Majorana), not both
+- Status: ARITHMETIC INCONSISTENT
+
+### Honest Verdict
+
+**N=12 is NOT first-principles in the strict sense.**
+
+It has multiple suggestive interpretations:
+- Schwarzian match (circular)
+- 6D anomaly (misapplied)
+- SM fermion count (assumes specific SM)
+- M_Pl,2D/v_Higgs (framework choice)
+- Ising CFT (inconsistent)
+
+But NONE of these are rigorous first-principles derivations. The "5 independent counts" are actually 5 different ways of getting to the same framework-chosen value, not 5 independent verifications.
+
+### Reclassification
+
+| Status | Parameter | Was | Now |
+|---|---|---|---|
+| FIRST-PRINCIPLES | α | ✓ | ✓ (L308n, via Schwarzian with assumed N=12) |
+| FIRST-PRINCIPLES | M_Pl,2D | ✓ | ✓ (L308r, M_Pl,2D = 12 × v_Higgs) |
+| FIRST-PRINCIPLES | μ | ✓ | ✓ (L308r, μ = M_Pl,2D²) |
+| FIRST-PRINCIPLES | N=12 | ✓ | **PARTIAL** (downgrade per this L308ag) |
+| FIRST-PRINCIPLES | 4 total | | **3 total** |
+
+**L308u was overclaiming.** The 6D anomaly argument requires specific brane-world structure not present in the cascade.
+
+### What Would Make N=12 First-Principles
+
+1. **Derive N=12 from 2D CFT internal consistency** (closed-loop, not Schwarzian)
+2. **Show 12 is the unique number with N=12 SYK UV completion** (not 11, 13)
+3. **F-theory CY3 topology that specifically gives 12 generations structure**
+4. **Observed 12 in cosmology** (cosmic topology, CMB, large-scale structure)
+
+### Status
+
+**L308ag (this section)**: N=12 reclassified FIRST-PRINCIPLES → PARTIAL.
+
+**Parameter count update**:
+- Was: 1 MEASURED, 4 FIRST-PRINCIPPLES, 2 DERIVED, 4 CALIBRATED, 3 STRUCTURAL, 1 FREE
+- Now: 1 MEASURED, **3 FIRST-PRINCIPPLES**, 2 DERIVED, 4 CALIBRATED, **4 STRUCTURAL** (added N=12), 1 FREE
+- Total still 15
+
+**L308u → L308ag**: First-principles claim PARTIAL → STRUCTURAL with multiple physical motivations.
+
+
+
+
 ## 7.5 v3.5 NEW ANGLE Limitations: $\mu$ first-principles (11 attempts)
 
 L304. **$\mu$ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with $f_{\rm DE}^2$ suppression (SIDC's $f_{\rm DE}^2$ ~ 10⁻¹⁷⁰ at LHC energies makes strings invisible). For M_s = 3 TeV: $\mu$ = M_s² = $9 \times 10^6$ GeV² ✓ MATCHES framework. BUT: this requires M_s = $M_{\rm Pl,2D}$ = 2.95 TeV, which is just saying $\mu$ = $M_{\rm Pl,2D}^2$ (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.
