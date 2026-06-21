@@ -1925,3 +1925,36 @@ preserve historical content by design.
 - c2ac5fa — M_Pl,4D value updates in README
 - bbe34d5 — v357_legacy_parameters.md stale CURRENT markers
 - 0a57114 — changelog.md v3.3 era values REVISED notes
+
+
+### v3.5.9+ CLEANUP PASSES 44-46 (2026-06-21) — more F_p(z)/F(z) HISTORICAL markers
+
+User noted: "isn't the hill function deprecated? i still see it in the readme."
+
+Even after earlier F_p(z) cleanup, there were still many F_p(z) and F(z) 
+references in README body text (not just in banners) that could mislead readers.
+
+PASS 44: More HISTORICAL markers in README and 03b
+- Sun/tidal dwarfs/AGC/KKR section (line 252): added HISTORICAL header + framework note
+- r(z) table column header: added 'HISTORICAL' label
+- CVnC dwarf line: added 'HISTORICAL framework' marker
+- 'intermediate F(z) population' prediction: added 'HISTORICAL framework' marker
+- 03b_predictions.md §3.33: added LEGACY HISTORICAL header
+- 03b_predictions.md §3.35: added LEGACY HISTORICAL header
+- 03b_predictions.md §3.36: added LEGACY HISTORICAL header
+
+PASS 45: 14_appendix.md F(z) reference
+- Line 35: added explicit HISTORICAL NOTE marking F(z) as DROPPED in v3.3+ (L100)
+
+PASS 46: More F(z) HISTORICAL markers in dwarf sections
+- 'Intermediate F(z) dwarf population (SIDC's #2 evidence)' section header
+- F(z) prediction paragraph (with current framework reproduction note)
+- 'SIDC's REAL differentiators' Intermediate F(z) population bullet
+
+**FINAL VERIFICATION**: Programmatic sweep confirmed all F_p(z) and F(z) 
+references in main docs (00-14 markdown) are now in LEGACY/HISTORICAL contexts.
+
+**COMMITS** (3 more, **total 57 commits this session**):
+- 736629e — CLEANUP PASS 44: More F_p(z)/F(z) HISTORICAL markers
+- 8f45cf4 — CLEANUP PASS 45: 14_appendix.md F(z) HISTORICAL marker
+- fd51a07 — CLEANUP PASS 46: More F(z) HISTORICAL markers in README dwarf sections
