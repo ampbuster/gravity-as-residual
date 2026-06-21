@@ -9068,7 +9068,7 @@ Schwarzian + Majorana has UNIQUE saddle-point per (E, J). Multiple saddle points
 
 For 2D universe mass = $M_{\rm 2D}$/2:
 - Need $M_{\rm Pl,2D}$ = √($M_{\rm Pl,3D}$ × $M_{\rm 2D}$/2) = 2.12 TeV (not framework's 2.95 TeV)
-- $\alpha$-GM with $M_{\rm Pl,2D}$ = 2.12 TeV gives $M_{\rm Pl,4D}$ = 4.$4 \times 10^{23}$ GeV
+- $\alpha$-GM with $M_{\rm Pl,2D}$ = 2.12 TeV gives $M_{\rm Pl,4D}$ = $4.4 \times 10^{23}\,\text{GeV}$
 - Framework needs $M_{\rm Pl,4D}$ = $4 \times 10^{23}$ GeV
 - **Ratio: 1.094 — breaks $\alpha$-GM consistency!**
 
