@@ -1,0 +1,35 @@
+================================================================================
+OPTION C: γ_4D RESOLUTION
+================================================================================
+
+γ_4D = (E_4D/M_Pl,4D)^α = 8.8103e+84
+  (Framework had: 5.93e90 using M_Pl,3D — WRONG, off by 6.5e5)
+
+τ_4D,apparent (3+1D frame) = γ_4D × t_Pl,3D = 4.7532e+41 s
+                                = 1.5062e+34 yr
+  (Framework: 1.51e34 yr — MATCH!)
+
+τ_4D,proper (4D frame) = τ_4D,apparent / γ_4D = 5.3951e-44 s
+  = t_Pl,3D (exact! 5.3951e-44 s)
+
+f_DE (DE rate) = 1/γ_4D = 1.1350e-85 /s
+  (Framework: 1.13e-85 /s — MATCH!)
+
+τ_3D,apparent = τ_4D,apparent = 1.51×10³⁴ yr
+  (Framework: 8.95×10²⁴ yr — UNITS ERROR, off by 10^100)
+
+Universe age: 1.38e+10 yr
+Universe age / τ_3D,apparent: 9.1391e-25
+  (Universe is 1.0942e+24× the universe age)
+
+================================================================================
+SUMMARY OF CORRECTIONS NEEDED
+================================================================================
+
+1. γ_4D = 5.93e90 → 8.81e84 (use M_Pl,4D, not M_Pl,3D)
+2. τ_4D,proper interpretation: = t_Pl,3D = 5.4e-44 s (4D proper frame)
+3. τ_3D,apparent = 1.51e34 yr (NOT 8.95e24 yr) — units error
+4. M^α law uses t_Pl,3D at 4D level (consistent with SN → 2D using t_Pl,3D)
+5. DE matching: f_DE = 1/γ_4D — EXACT, no calibration needed
+
+Universe age ratio: 9.1e-25 (was 1.5e-15) — universe is much younger
