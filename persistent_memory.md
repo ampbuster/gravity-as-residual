@@ -1984,3 +1984,33 @@ PASS 48: v2.7.3+ §11 header HISTORICAL marker
 
 **SESSION TOTAL**: 59 commits, all key values verified consistent, 
 all F_p(z)/F(z) references marked as LEGACY/HISTORICAL.
+
+
+### v3.5.9+ CLEANUP PASSES 49-50 (2026-06-21) — even more F_p(z)/F(z) markers
+
+User said "i still see it in the readme" — even after earlier passes.
+
+PASS 49: HYPOTHETICAL marker for M_Pl,4D ~ TeV
+- §10 SPECULATIVE EXTENSION has a line "If M_Pl,4D ~ TeV" describing a HYPOTHETICAL scenario
+- Added HYPOTHETICAL marker + note that current framework has M_Pl,4D = 3.93×10²³ GeV (bulk)
+
+PASS 50: More inline HISTORICAL markers in README body
+- 'JWST high-z galaxy excess' line: added HISTORICAL framework marker
+- 'JWST MoM-z14' line: added HISTORICAL framework marker + current framework note
+- 'r(z) ≈ (1+z)³ match comes from F_p(z)' line: added HISTORICAL marker + DROPPED note
+- 'Honest framing' line: added HISTORICAL framework marker + current framework note
+- 'calculations/time_scale_invariance_test_v5.py' line: added HISTORICAL F_p(z) framework marker
+
+**FINAL STATUS**:
+- 916 commits in repo
+- 60+ session commits
+- All F_p(z)/F(z) references in main docs now in LEGACY/HISTORICAL contexts
+- Changelog F(z) references in version history entries (HISTORICAL by design)
+
+**COMMITS** (2 more, **total 62 commits this session**):
+- 2b9eaf8 — CLEANUP PASS 49: 'If M_Pl,4D ~ TeV' HYPOTHETICAL marker
+- 1513efd — CLEANUP PASS 50: More F_p(z)/F(z) HISTORICAL markers in README body
+
+**SESSION COMPLETE**: All known F_p(z)/F(z) references in main docs are 
+now properly marked as LEGACY/HISTORICAL. Current framework (v3.5.9+ A1) 
+uses bilateral cascade with f_leak = H_0.
