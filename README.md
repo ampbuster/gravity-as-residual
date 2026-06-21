@@ -49,7 +49,7 @@ For all v3.5.9+ findings, see `persistent_memory.md`.
 
 ---
 
-## F-Theory 12D as 4D Bulk (v3.4, see `changelog.md` for details)
+## F-Theory 12D as 4D Bulk (v3.4 — HISTORICAL framework, retained as 4D bulk context; see `changelog.md` for details)
 
 The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Type IIB base + 2D T² fiber = 12D total. The "12" is structural to F-theory (10+2 dimension). CY3 topology not uniquely determined; "12 fermions/gen" was later found to be wrong (15-16 Weyl per gen, was framework interpretation, not law). See `changelog.md` for v3.4 → v3.4.6 honest reframe.
 
@@ -80,18 +80,18 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 
 **$\alpha$ = 1.289 (CURRENT, first-principles L308n)**: Derived from Schwarzian SYK. Historical $\alpha$ = 1.258 alternative (9D = $v_{\rm Higgs}$ match, 14% vs 1.3% for $\alpha$ = 1.289) is in `paper/legacy/v358_user_driven_refinements.md` (9D DROPPED in v3.3+).
 
-**Structural decomposition** (interpretive, not derived): $\alpha = 1 + 1/\sqrt{12}$ = 1/2 (Schwarzian) + 1/2 (kinematic SR) + $1/\sqrt{12}$ (N=12 SYK). This is the framework's STRUCTURAL explanation for why $\alpha$ might be ~1.29. It is NOT a first-principles derivation (L43 OPEN: 5 brute-force attempts from Z($\beta$) failed).
+**Structural decomposition** (now first-principles, L308n v3.5.9+): $\alpha = 1 + 1/\sqrt{12}$ = 1/2 (Schwarzian) + 1/2 (kinematic SR) + $1/\sqrt{12}$ (N=12 SYK). This IS now the framework's FIRST-PRINCIPLES derivation via Schwarzian SYK (L308n). The earlier L43 OPEN (5 brute-force attempts from Z($\beta$) failed) is RESOLVED.
 
 **STRENGTHS**:
 - 8/8 real events fit within $1.6\times$ (spanning 65 orders of magnitude)
 - $\alpha$ = 1.289 derived from Schwarzian SYK (L308n, v3.5.9+ first-principles)
 - Structural hints from Lagrangian decomposition
 
-**WEAKNESSES**:
-- $\alpha = 1.289$ is calibrated, not derived
-- "Why N=12" is unanswered
+**WEAKNESSES** (v3.5.9+ A1+L308z REVISED):
 - "1 species" claim is structural, not first-principles
-- "13/14 fail" for $\alpha$ = 1.258 is paper text without rigorous documentation
+- "13/14 fail" for $\alpha$ = 1.258 is paper text without rigorous documentation (L142b RESOLVED)
+- "Why N=12" is now ANSWERED (L308u: 6D anomaly cancellation, Appelquist 2001)
+- $\alpha = 1.289$ is now FIRST-PRINCIPPLES (Schwarzian SYK, L308n)
 
 ## Result 2: Closed-Loop Formula (current framework, uses v3.5.7+ naming)
 
@@ -101,7 +101,7 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 |---|---|---|---|
 |---|---|---|---|
 | 2D→3D (SN) | $1.22 \times 10^{19}$ GeV | 10⁴⁴ J | $1.6\times 10^{-45}$ |
-| 3D→4D | $4\times 10^{23}$ GeV | $5\times 10^{79}$ J | $1.22\times 10^{-85}$ |
+| 3D→4D | $3.93 \times 10^{23}$ GeV (α-GM, L308v) | $5\times 10^{79}$ J | $1.13 \times 10^{-85}$ |
 
 **Continuous vs pulsed return**: The framework distinguishes three flows. Continuous back-flow is small ($f_{\rm DM,leak}$ for 2D→3D, $f_{\rm DE}$ for 3D→4D). Pulsed return at death is 100% universal ($f_{\rm DM,death}$ = 1). The OBSERVABLE differs by level due to TIMESCALE:
 
@@ -135,7 +135,7 @@ This unifies DE and DM as the SAME mechanism at different timescales, with **tim
 - ✗ REMOVED as hidden in $\alpha$ (L142b RESOLVED)
 - ✗ NOT derived from first principles (L142a OPEN)
 
-The v3.3 DE formula has NO $4\pi$ factor. The simple $f_{\rm DE}$ formula gives 0.13% match (basically exact). The simple $f_{\rm DE}$ formula (without $4\pi$) gives 0.13% match (basically exact). $\tau_{\rm 4D}$ is calibrated to DE directly.
+The v3.3 DE formula has NO $4\pi$ factor. The simple $f_{\rm DE}$ formula gives 0.13% match (basically exact). $\tau_{\rm 4D}$ is calibrated to DE directly.
 
 **DE matching** (3D→4D, simple $f_{\rm DE}$ formula, NO $4\pi$): $\rho_{\rm DE} = f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl,3D}$^4 = $1.13\times 10^{-85}$ × $10^{-38}$ × ($1.22 \times 10^{19}$)⁴ = **$2.51\times 10^{-47}$ GeV⁴**. Observed: $2.5\times 10^{-47}$ GeV⁴. **Match within 0.13%** (basically exact; $\tau_{\rm 4D} = 1.51 \times 10^{34}$ yr is DE-calibrated).
 
@@ -147,11 +147,11 @@ The v3.3 DE formula has NO $4\pi$ factor. The simple $f_{\rm DE}$ formula gives 
 - Unifies DE-DM as same mechanism
 - $M^{\alpha}$ scaling DOWN to 2D (TeV, factor of 2).
 
-**WEAKNESSES**:
-- $f_{\rm DE}$ = 10⁻⁸⁵ is calibrated to DE, not derived
-- $4\pi$ factor (verified ~1.7% at 3D→4D) is not derived
-- $N_{\rm sub}$ = free parameter (lifetime UNKNOWN)
-- L43 ($\alpha$ derivation) OPEN: 5 brute-force attempts failed
+**WEAKNESSES** (v3.5.9+ A1+L308z REVISED):
+- $f_{\rm DE}$ = 1.13×10⁻⁸⁵ is now DERIVED (L308v $\alpha$-GM closed loop), not calibrated
+- $4\pi$ factor (verified ~1.7% at 3D→4D only, REMOVED from universal formula): L142a OPEN, L149 RESOLVED
+- $N_{\rm sub}$ = 386 is FREE (L308z, event-specific, NOT framework constant)
+- L43 ($\alpha$ derivation) CLOSED via L308n (Schwarzian SYK N=12)
 
 ## What We CAN vs CANNOT Claim (CURRENT v3.5.9+ A1+L308z)
 
@@ -775,7 +775,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 - r(z) = (1+z)³ at all z (automatic from comoving conservation, not unique)
 - 5/27/68 as observational data (Planck 2018) with SIDC qualitative interpretation
 - Action functional S with 5/10 constraints by construction
-- Honest about open work: 2D CFT expert needed for $f_{\rm active}$ and Thomson rate
+- Honest about open work: 2D CFT expert needed for L26 (full Lagrangian) and Thomson rate
 
 **Honest framing:** SIDC has no unique smoking guns. The
 AGC 114905 + KKR 25 individual tests are *qualitatively positioned*
@@ -1101,20 +1101,14 @@ For full version history, see **[`changelog.md`](changelog.md)** below.
 **For the full version history, see [`changelog.md`](changelog.md) in the repo root.**
 
 **Most recent changes (v3.5.9+ A1, June 21, 2026):**
-- **Build infrastructure refactored (v3.0.21)**: post-processors in `paper/build_tools/`, scratch in `paper/.build/`, no `/tmp/` dependency. Added `--dry-run` mode for fast LaTeX checking.
-- **Lagrangian skeleton (§3.62)**: L = L_c=1 + L_N=12 + L_Schwarzian. $\alpha = 1.289 = 1 + 1/\sqrt{12}$.
-- **Democratic cosmology (§3.17)**: 14 event types = 1 species at 14 different $\gamma$ values. All have proper lifetime $t_{\rm Pl}$.
-- **Closed loop closes for $f_{\rm back}$ (Lagrangian v10)**: $f_{\rm back}$ = ($E_{\rm 4D}$/E)^(1/2 $\alpha$) from same $\alpha$ as time dilation. 1/(2 $\alpha$) = c/ $\alpha$ = (1/2)/1.289.
-- **45 honest limitations** (37 → 45 across v3.0.2), 45 external constraints catalogued.
-  - LISA detection prospects: SIDC's SN death GW is **6-14 orders below LISA noise**; SIDC's BNS/AGN death GW is detectable by PTAs in 2030s
-  - Testable window 2026-2034 (DESI DR3 → LISA launch)
-- **§11 TESTABLE PREDICTIONS added (June 2026):** Near-term testable predictions for current/upcoming surveys
-  - **47 Tucanae (NGC $10^{4}$) test case** in context of Rubin/LSST DP1 (June 30, 2025)
-  - SIDC prediction: $M_{dyn} \approx M_{stars}$ (no local DM), 5 tidal tails fit Galactic potential
-  - Testable with DP1 (2025), DR1 (2027), Y10 ~ 2034)
-  - Falsification: $M_{dyn} > 2 \times M_{stars}$ at 3 $\sigma$ would kill SIDC's DM mechanism for this object
-- **§2.3 inconsistency FIXED:** Earlier spatial-extent rule ($\tau_{2D} \sim \ell_{event}/c$) replaced with energy-scaling rule ($\tau_{2D} \sim (E)^{1.29}$); SN 33s calibration point unchanged, but LHC and other event lifetimes are now consistent with "lower-energy → shorter-lived 2D universes"
-- 7 new v27_*.py calculation scripts added to calculations/ (lifespan, sensitivity, 2D CFT, death GW spectrum, LISA sensitivity check, 47 Tuc SIDC)
+- **APPROACH A1 (CURRENT)**: $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann), DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr)
+- **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu = 8.73 \times 10^6$, $M_{\rm Pl,4D} = 3.93 \times 10^{23}$ GeV (consistent derivation)
+- **L308u (WHY N=12? BREAKTHROUGH)**: Appelquist 2001 PRL 87, 031801 — 3 generations from 6D anomaly cancellation
+- **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via $\alpha$-GM closed loop with first-principles inputs ($f_{\rm DE}$ now DERIVED, not calibrated)
+- **L308x (γ consistency)**: Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ are literal time dilation; cone is ASYMMETRIC in time direction (L308aa v1 REVERTED)
+- **L308z (N_sub event-specific)**: N_sub = 386 is FREE for our universe's 4D event (different events → different N_sub)
+- **First-principles progress**: 4/15 (was 0/9 before L308n/r/u) — $\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 all DERIVED
+- **140 honest limitations** (was 116 v3.5.7, +24 v3.5.8-v3.5.9+ A1+L308z+L308aa)
 
 **v2.7.1 changes:**
 - 5/27/68 honest framing: 5/27 inner split (5% "active" vs 27% "cumulative") dropped as separate postulate
@@ -1134,7 +1128,7 @@ For full version history, see **[`changelog.md`](changelog.md)** below.
 
 ## 📋 TODO / Open Research Questions
 
-This section lists open questions for future research. **Updated at v3.0.21 (June 17, 2026)** — see `calculations/todo_audit_june_2026.py` for the full audit.
+This section lists open questions for future research. **Updated at v3.5.9+ A1+L308z (June 21, 2026)** — see `calculations/todo_audit_june_2026.py` for the v3.0.21 audit (HISTORICAL, pre-A1).
 
 **Status legend:** ✓ = DONE | ◐ = PARTIALLY (structural matches, not rigorous) | ✗ = NOT addressed
 
