@@ -15,7 +15,7 @@
   - $\tau_{\rm 3D,apparent} = 8.95\times 10^{124}$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (literal time dilation)
-- 138 limitations, 405 pages, paper built successfully
+- 138 limitations, 395 pages, paper built successfully
 
 **v3.5.9+ previous breakthroughs** (still relevant):
 - **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, N_sub = 3.86×10²
@@ -26,7 +26,7 @@
 
 **First-principles progress**: 0/9 → 1/9 (α) → 3/9 (+ $M_{\rm Pl,2D}$, $\mu$) → 4/14 (+ N=12 via L308u) — current is 4/14
 
-**Pages**: 405 (was 398 v3.5.8, was 393 v3.5.8 SESSION 1+2)
+**Pages**: 395 (was 405 v3.5.9+ A1 initial build, was 398 v3.5.8, was 393 v3.5.8 SESSION 1+2)
 **Limitations**: 138 (was 131 v3.5.8, +L308t through +L308y)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: 813+ (as of June 20, 2026)

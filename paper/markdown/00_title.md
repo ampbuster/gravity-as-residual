@@ -9,7 +9,7 @@
 
 **v3.5.9+ HIGHLIGHTS** (CURRENT, June 21, 2026, APPROACH A1):
 
-**Paper:** 405 pages, 1.50 MB
+**Paper:** 395 pages, 1.52 MB
 **Limitations:** 138 honest (was 116 in v3.5.7, +22 v3.5.8-v3.5.9+)
 
 **v3.5.9+ BREAKTHROUGHS** (this release):

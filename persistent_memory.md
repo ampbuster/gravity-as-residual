@@ -5,7 +5,7 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.5.9+ (paper) — 405 pages, **138 honest limitations** (v3.5.9+ adds L308t-y, A1 principle)
+**Current version:** v3.5.9+ (paper) — 395 pages, **138 honest limitations** (v3.5.9+ adds L308t-y, A1 principle)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)
@@ -60,7 +60,7 @@
     - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
     - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - **L308w, L308x, L308y**: f_leak = H_0 principle, γ consistency, §3.67 coincidence
-  - 138 limitations (was 131 v3.5.8), 405 pages (was 398)
+  - 138 limitations (was 131 v3.5.8), 395 pages (was 398)
 ---
   - **"12" cascade fundamental unit**: α = 1+1/√12, $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, $M_{\rm Pl,2D}$/$v_{\rm Higgs}$ = 11.75
   - **First-principles progress**: 0/9 → 1/9 (α derived!)
