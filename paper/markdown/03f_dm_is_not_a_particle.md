@@ -1,6 +1,6 @@
-# DM is Not a Particle in v3.3
+# DM is Not a Particle (CURRENT v3.5.9+, established in v3.3+)
 
-**v3.3.x, USER'S SHARP CATCH**
+**v3.3.x, USER'S SHARP CATCH** — Concept RETAINED in current framework
 
 ## User's insight
 

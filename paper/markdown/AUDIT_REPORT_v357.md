@@ -1,4 +1,6 @@
-# CONSISTENCY AUDIT REPORT (v3.5.7)
+# CONSISTENCY AUDIT REPORT (v3.5.7 — HISTORICAL; superseded by v3.5.9+ A1+L308z audits)
+
+> **STATUS**: HISTORICAL AUDIT REPORT. This v3.5.7 audit document is preserved for reference. Current (v3.5.9+ A1) parameter status is in `paper/legacy/v359_README_legacy_sections.md` and the main paper's §0 Parameter Glossary.
 
 ## Executive Summary
 
