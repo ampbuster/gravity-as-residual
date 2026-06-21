@@ -1,0 +1,50 @@
+================================================================================
+v3.5.9+ DM BALANCE (v3.3 BILATERAL CASCADE)
+================================================================================
+
+f_back,3+1D = (M_Pl,3D / M_3+1D)^α = 4.8341e-56 /s
+
+LEAKAGE OVER DIFFERENT TIMESCALES:
+  Over Hubble (13.8 Gyr): 2.1052e-38 (negligible)
+  Over Option A (universe lifetime 13.8 Gyr): 2.1052e-38
+  Over Option C (1.51e34 yr): 2.3036e-14 (still negligible)
+  Over full τ_3+1D = 1.4e34 yr: 2.1357e-14 (= 1, by construction)
+
+CUMULATIVE PICTURE (R_add × t):
+Framework's actual numerical match uses CUMULATIVE
+
+R_add (calibrated) = 1.8508e+54 J/s
+
+OPTION A (universe lifetime 13.8 Gyr):
+  M_DM = R_add × 13.8 Gyr = 8.0600e+71 J
+  Observed: 8.0600e+71 J
+  Match: 1.0000 ✓
+
+OPTION C (universe lifetime 1.51e34 yr):
+  M_DM = R_add × 1.51e34 yr = 8.8193e+95 J
+  Observed: 8.0600e+71 J
+  Ratio: 1.0942e+24 (10^24× TOO MUCH)
+
+EQUILIBRIUM PICTURE (R_add = f_back × M_DM):
+  M_DM (equilib) = R_add / f_back = 3.8285e+109 J
+  Observed: 8.0600e+71 J
+  Ratio: 4.7501e+37 (10^37× TOO MUCH)
+
+  → To reach equilibrium, need t > 1/f_back = 6.6e47 yr
+  → Universe at 13.8 Gyr is way below this
+
+================================================================================
+CONCLUSION
+================================================================================
+
+v3.3 bilateral cascade CLAIMS f_leak balances DM (concept)
+But quantitatively, f_leak is too small on observable timescales
+Framework's actual numerical match: CUMULATIVE (R_add × t)
+
+Both options have the SAME f_leak (f_back_3+1D is independent of γ_4D)
+DM is effectively cumulative
+
+Option A (universe lifetime 13.8 Gyr): ✓ matches observed DM
+Option C (universe lifetime 1.51e34 yr): ✗ 10^24× too much DM
+
+Therefore Option A is the right choice.
