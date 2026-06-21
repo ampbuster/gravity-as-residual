@@ -122,9 +122,9 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - $M_{\rm Pl,2D}$ = 2.95 TeV (Liouville μ = 8.73×10⁶ GeV²)
 - **$M_{\rm Pl,4D}$ = 3.93×10²³ GeV** (DERIVED: $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α), α-weighted GM, #32)
 - **$E_{\rm 4D}$ = 5×10⁷⁹ J** (universe-scale, M^α law with $M_{\rm Pl,4D}$ and τ_4D, #33)
-- γ_4D = 6.03×10⁹⁰ (was 1.29×10⁶⁴)
+- γ_4D = 5.93×10⁹⁰ (was 1.29×10⁶⁴; L308t updated precision)
 - τ_4D,proper = 1.51×10³⁴ yr (calibrated to DE)
-- **τ_3D,apparent = 9.10×10²⁴ yr** (was 1.83×10⁹⁸, 5×10²⁷× longer)
+- **τ_3D,apparent = 8.95×10¹²⁴ yr** (was 1.83×10⁹⁸, 5×10²⁷× longer; audit fixed units error 9.10×10²⁴ → 8.95×10¹²⁴)
 
 **v3.5.8 FIRST-PRINCIPPLES STATUS** (UPDATED):
 - $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV — **MEASURED** ✓
@@ -272,7 +272,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - This 4D antigravity **cancels** (1 - ε) of 3+1D's own gravity
   - ε = 10⁻³⁸ is the residual = gravity weakness (hierarchy, observed)
   - The un-cancelled fraction = DE = 10⁻¹²³ × M_Pl⁴ (cosmological CC, observed)
-- The 4D event is "practically eternal" from 3+1D frame (γ_4D = 6.03×10⁹⁰, τ_4D = 1.51×10³⁴ yr apparent)
+- The 4D event is "practically eternal" from 3+1D frame (γ_4D = 5.93×10⁹⁰, τ_4D = 1.51×10³⁴ yr apparent)
 - **Universe age = 1.5×10⁻¹⁵ of lifetime** (we observe at cosmic "day 1", v3.4.8)
 - 3+1D leaks $f_{\rm back}$ = ($M_{\rm Pl,4D}$/$E_{\rm 4D}$)^α ~ 10⁻⁸⁵ back to 4D during its lifetime (UNIVERSAL formula)
 - DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ (closed loop formula, matches obs within 0.13% simple $f_{\rm DE}$ / 2.7% full bilateral cascade)
@@ -297,7 +297,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - M^α law gives APPARENT durations in LOWER-D frame, NOT proper time
 - 2D lifetime (33s) is in 3+1D frame
 - 3+1D sub-universe lifetime (~10³⁰ yr) is in 3+1D's own frame
-- 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2)
+- 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2)
 - 4D event proper duration: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 
 **Universal closed-loop formula (v3.1.2-final):**
@@ -358,7 +358,7 @@ $$f_{\rm back}(N \to N-1) = \left(\frac{M_{\rm Pl,N}}{E_{\rm event}}\right)^\alp
 
 **Frame-of-reference clarification (v3.1.2-final):**
 - 2D lifetime (33s) is in 3+1D frame
-- 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2)
+- 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2)
 - 4D event proper duration: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 - 3+1D universe AGE: 13.8 Gyr (in 3+1D's own frame)
 - 3+1D universe LIFETIME: ~10³⁰ yr (in 3+1D's own frame, M^α with $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
@@ -842,7 +842,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 - M^α law gives **APPARENT durations in the LOWER-D frame**, not proper times in the higher-D frame
 - **2D lifetime (33 s)** is in the 3+1D frame (apparent)
 - **3+1D sub-universe lifetime (~10³⁰ yr)** is in the 3+1D's OWN frame
-- **4D event apparent duration (1.51×10³⁴ yr)** is in the 3+1D frame, time-dilated from 4D proper time via γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2)
+- **4D event apparent duration (1.51×10³⁴ yr)** is in the 3+1D frame, time-dilated from 4D proper time via γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2)
 - **4D event proper duration**: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 - The 3+1D universe's current age (13.8 Gyr) is in the 3+1D's own frame
 
@@ -918,7 +918,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 - Forward (4D → 3+1D): $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s (projection efficiency with 4π)
 - Backward (3+1D → 4D): $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s (leakage rate)
 - DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ (uses OUR universe's Planck, MEASURED)
-- γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2) (cone picture time dilation)
+- γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2) (cone picture time dilation)
 - 4π at 3D→4D continuous leakage: verified ~1.7%, SPECIFIC to that transition
 - NEVER use the v10 formula with 1/(2α) factor — it's wrong
 - NEVER confuse 13.8 Gyr (AGE) with ~10³⁰ yr (LIFETIME)
@@ -1011,7 +1011,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
    - M^α law gives APPARENT durations in LOWER-D frame, not proper time
    - 2D lifetime (33s) is in 3+1D frame
    - 3+1D sub-universe lifetime (~10³⁰ yr) is in 3+1D's own frame
-   - 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2)
+   - 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2)
    - 4D event proper duration: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 
 3. **LEGACY CONTENT MOVED**:
@@ -1114,7 +1114,7 @@ Build: 354 pages, commit f4328c8.
 - **Don't confuse $f_{\rm back}$ (continuous) with pulsed return.**$f_{\rm back}$ formula gives CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). 2D→3D: pulsed dominates by 10⁴⁵× (DM is pulsed, not $f_{\rm DM,leak}$). 3D→4D: continuous dominates NOW (DE is $f_{\rm DE}$ continuous, pulsed is in the future). See v31_fback_both_levels.py.
 - **Don't conflate 13.8 Gyr with universe LIFETIME.** 13.8 Gyr is the universe's AGE (observed, the only firm value). LIFETIME is UNKNOWN — depends on N_sub (free parameter). User caught: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each". See L145.
 - **Don't claim N_sub = 300 as if it were derived.** N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ is fixed, but the partition is undetermined. See L144.
-- **Don't ignore frame of reference.** M^α law gives APPARENT durations in LOWER-D frame, not proper time in higher-D frame. 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time (~10⁻²⁰ s) via γ = 6.03×10⁹⁰ (was 10⁶² in v3.1.2).
+- **Don't ignore frame of reference.** M^α law gives APPARENT durations in LOWER-D frame, not proper time in higher-D frame. 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time (~10⁻²⁰ s) via γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2).
 - **Don't assume $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$.** In brane-world physics, bulk Planck is INDEPENDENT of brane Planck. The cascade has THREE different $M_{\rm Pl}$: 2D = 2.95 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 3.93×10²³ GeV. See L150.
 - **Don't identify sub-universe with 3+1D galaxies.** Sub-universes are 3+1D universes created by an ENERGETIC EVENT in a 4D BULK (specific 4D-bulk mechanism UNKNOWN — NOT specifically '4D-galaxy collisions'). N_sub = 300 (sub-universes per 4D event), NOT 3×10¹². See L143, L150.
 - **Don't present α = 1.258 as an alternative.** It's REJECTED by 14-event M^1.29 fit. Only α = 1.289 survives. See L142b.

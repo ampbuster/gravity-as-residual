@@ -619,9 +619,11 @@ See `calculations/v27_5pct_to_27pct_amplification.py` for the full numerical ana
 
 A natural follow-up to §3.11: **if DM is from cumulative 2D universe deaths, shouldn't the DM/baryon ratio grow over time?** This section analyzes the question and identifies it as a *testable prediction* of SIDC.
 
-**3.12.1 The $F_p(z)$ framework.**
+**3.12.1 The $F_p(z)$ framework (DROPPED v3.3+, LEGACY HISTORICAL).**
 
-SIDC's §4.48 introduces a smooth function $F_p(z) = 0.9993 + 0.0007 \cdot z^2/(z_{half}^2 + z^2)$ (Hill n=2, $z_{half} = 3$, v2.7.52+ revision) that specifies the *fraction* of DM that is primordial (from 4D-event-created 2D universes) vs cumulative (from 3+1D-event-created 2D universes):
+**LEGACY**: $F_p(z)$ Hill function framework was DROPPED in v3.3+ per L100 (user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`.
+
+The original framework introduced a smooth function $F_p(z) = 0.9993 + 0.0007 \cdot z^2/(z_{half}^2 + z^2)$ (Hill n=2, $z_{half} = 3$, v2.7.52+ revision) that specifies the *fraction* of DM that is primordial (from 4D-event-created 2D universes) vs cumulative (from 3+1D-event-created 2D universes):
 
 $$F_p(z) = primordial fraction of DM at redshift z$$
 $$F_{cum}(z) = 1 - F_p(z) = \text{cumulative fraction}$$

@@ -28,7 +28,7 @@
 |------------------------|----------------|------------|
 | $f_{back} = 8.6 \times 10^{-86}$ | **DERIVED** | $f_{back} = \epsilon \times (E_{4D}/M_{Pl}^4)$ where $\epsilon$ is the bulk-brane coupling and $E_{4D}/M_{Pl}^4 \sim 10^{-47}$ is the 4D event's energy ratio. The composite model (§3.60) gives $f_{back} = c/\alpha_{BR}$-powered formula with $c = 1/2$ (Ising) and $\alpha_{BR} = 1.289$ (N=12 SYK). |
 | $\epsilon$ $\sim 10^{-38}$ | **DERIVED** | $\epsilon = e^{-kL}$ (Randall-Sundrum II bulk-brane coupling), where $k$ is the AdS curvature and $L$ is the brane distance. Both follow from the bulk geometry ($\mu$, $m_{3+1D}$). The standard RS-II mechanism derives the hierarchy from geometry. |
-| $F_p(0) = 0.9993$ | **DERIVED** | Calculated from cumulative DM over 14+ event types (§3.40, v2.7.52). 99.93% of DM is primordial (from the 4D event itself); only 0.07% is cumulative (from 3+1D events over 13.8 Gyr). |
+| $F_p(0) = 0.9993$ | **DROPPED v3.3+** | F_p(z) Hill function framework was DROPPED in v3.3 (per L100, user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`. |
 
 **Note on $z_{half}$:** The Hill-function transition redshift $z_{half} = 3$ is the *only* remaining semi-calibrated value, and it could itself be derived from the 4D event dynamics (§3.40 alternative). The v3.0+ state treats it as a derived value with a specific physical meaning (the redshift at which 50% of the primordial-to-cumulative transition has occurred).
 

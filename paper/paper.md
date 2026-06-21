@@ -264,7 +264,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 |------------------------|----------------|------------|
 | $f_{back} = 8.6 \times 10^{-86}$ | **DERIVED** | $f_{back} = \epsilon \times (E_{4D}/M_{Pl}^4)$ where $\epsilon$ is the bulk-brane coupling and $E_{4D}/M_{Pl}^4 \sim 10^{-47}$ is the 4D event's energy ratio. The composite model (§3.60) gives $f_{back} = c/\alpha_{BR}$-powered formula with $c = 1/2$ (Ising) and $\alpha_{BR} = 1.289$ (N=12 SYK). |
 | $\epsilon$ $\sim 10^{-38}$ | **DERIVED** | $\epsilon = e^{-kL}$ (Randall-Sundrum II bulk-brane coupling), where $k$ is the AdS curvature and $L$ is the brane distance. Both follow from the bulk geometry ($\mu$, $m_{3+1D}$). The standard RS-II mechanism derives the hierarchy from geometry. |
-| $F_p(0) = 0.9993$ | **DERIVED** | Calculated from cumulative DM over 14+ event types (§3.40, v2.7.52). 99.93% of DM is primordial (from the 4D event itself); only 0.07% is cumulative (from 3+1D events over 13.8 Gyr). |
+| $F_p(0) = 0.9993$ | **DROPPED v3.3+** | F_p(z) Hill function framework was DROPPED in v3.3 (per L100, user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`. |
 
 **Note on $z_{half}$:** The Hill-function transition redshift $z_{half} = 3$ is the *only* remaining semi-calibrated value, and it could itself be derived from the 4D event dynamics (§3.40 alternative). The v3.0+ state treats it as a derived value with a specific physical meaning (the redshift at which 50% of the primordial-to-cumulative transition has occurred).
 
@@ -1880,9 +1880,11 @@ See `calculations/v27_5pct_to_27pct_amplification.py` for the full numerical ana
 
 A natural follow-up to §3.11: **if DM is from cumulative 2D universe deaths, shouldn't the DM/baryon ratio grow over time?** This section analyzes the question and identifies it as a *testable prediction* of SIDC.
 
-**3.12.1 The $F_p(z)$ framework.**
+**3.12.1 The $F_p(z)$ framework (DROPPED v3.3+, LEGACY HISTORICAL).**
 
-SIDC's §4.48 introduces a smooth function $F_p(z) = 0.9993 + 0.0007 \cdot z^2/(z_{half}^2 + z^2)$ (Hill n=2, $z_{half} = 3$, v2.7.52+ revision) that specifies the *fraction* of DM that is primordial (from 4D-event-created 2D universes) vs cumulative (from 3+1D-event-created 2D universes):
+**LEGACY**: $F_p(z)$ Hill function framework was DROPPED in v3.3+ per L100 (user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`.
+
+The original framework introduced a smooth function $F_p(z) = 0.9993 + 0.0007 \cdot z^2/(z_{half}^2 + z^2)$ (Hill n=2, $z_{half} = 3$, v2.7.52+ revision) that specifies the *fraction* of DM that is primordial (from 4D-event-created 2D universes) vs cumulative (from 3+1D-event-created 2D universes):
 
 $$F_p(z) = primordial fraction of DM at redshift z$$
 $$F_{cum}(z) = 1 - F_p(z) = \text{cumulative fraction}$$
@@ -2695,7 +2697,9 @@ Where:
 - $F_p(z)$ = z^n / (z^n + $z_{\rm half}$^n), n=2, $z_{\rm half}$=3 (Hill function)
 - $f_{\rm back}$ = $10^{-85}$ (SIDC calibrated from SN 33s lifetime)
 
-**Key finding (v2.7.48, REVISED v2.7.52)**: With $F_p(0)$ = 0.9993 (revised), SIDC predicts $M_{dyn}$/ $M_{b} \sim 4.97$ for these galaxies, dominated by the $F_p(z)$ primordial component. The recent (SN-driven) component is **negligible** ($\sim 10^{-91}$).
+**Key finding (v2.7.48, REVISED v2.7.52, LEGACY)**: With $F_p(0)$ = 0.9993 (revised), SIDC predicts $M_{dyn}$/ $M_{b} \sim 4.97$ for these galaxies, dominated by the $F_p(z)$ primordial component. The recent (SN-driven) component is **negligible** ($\sim 10^{-91}$).
+
+**NOTE (v3.5.9+)**: This prediction uses the LEGACY $F_p(z)$ Hill function framework (DROPPED in v3.3+ per L100, user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` for the dropped framework.
 
 | Galaxy | z | log M* | $F_p(z)$ | SIDC $M_{dyn}$/ $M_{b}$ |
 |--------|---|--------|--------|---------------------|
@@ -7509,7 +7513,7 @@ This is a thought experiment, not a theory. We identify **133 honest limitations
 - A_new limitation added: "$\alpha$ = 1.29 CGHS derivation" (L37, OPEN, §3.24)
 - Net effect: 37 → 38 limitations
 
-**Net status of SIDC's 129 limitations (v3.5.8+, CURRENT):**
+**Net status of SIDC's 138 limitations (v3.5.9+ A1, CURRENT):**
 - 79 OPEN (need theoretical or observational work to close)
 - 22 PARTIAL (some progress made, more work needed)
 - 8 CLOSED (resolved by construction or by v3.x updates, including L41 $\mu$, L42 m₃₊₁D, L117 c-value UV/IR RG)
@@ -9359,6 +9363,8 @@ The remaining 5:
 - 1 FREE: N_sub (still genuinely free — see below)
 - 1 STRUCTURAL: N = 12 (now derived from anomaly cancellation — promoted from structural)
 
+**Note (post-A1, v3.5.9+)**: With APPROACH A1 (§7.4.20), $f_{\rm leak} = H_0$ is added as 5th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (was 9 pre-A1, was 10 after L308u but pre-A1).
+
 Wait, that's 7. Let me recount:
 - 4 DERIVED first-principles: α, M_Pl,2D, μ, N=12
 - 1 DERIVED via consistency: M_Pl,4D
@@ -9383,6 +9389,8 @@ After L308u (this section):
 - But N = 12 is not a "parameter" — it's a structural identification
 - So 4/9 first-principles still (α, M_Pl,2D, μ)
 - Plus 1 STRUCTURAL derived (N = 12) → effectively 5/9
+
+**Note (post-A1, v3.5.9+)**: With APPROACH A1, $f_{\rm leak} = H_0$ is added as 5th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (see §7.4.20 and L308w). The 9-parameter count above was valid BEFORE A1.
 
 ### What Remains Open (Tier 1 status)
 
@@ -9455,7 +9463,7 @@ Actually, the count is:
 - 3 DERIVED (via α-GM, time dilation, energy conservation): M_Pl,4D, τ_3D,apparent, N_sub
 - 1 FREE: none? Or maybe N_sub counts as free?
 
-Hmm, framework has 9 input parameters. Let me re-count.
+Hmm, framework has 9 input parameters (v3.5.9 PRE-A1). After A1 (§7.4.20), total is 14. Let me re-count.
 
 ### What Remains Open
 

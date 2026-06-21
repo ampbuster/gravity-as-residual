@@ -47,7 +47,7 @@ This is a thought experiment, not a theory. We identify **133 honest limitations
 - A_new limitation added: "$\alpha$ = 1.29 CGHS derivation" (L37, OPEN, §3.24)
 - Net effect: 37 → 38 limitations
 
-**Net status of SIDC's 129 limitations (v3.5.8+, CURRENT):**
+**Net status of SIDC's 138 limitations (v3.5.9+ A1, CURRENT):**
 - 79 OPEN (need theoretical or observational work to close)
 - 22 PARTIAL (some progress made, more work needed)
 - 8 CLOSED (resolved by construction or by v3.x updates, including L41 $\mu$, L42 m₃₊₁D, L117 c-value UV/IR RG)
@@ -1897,6 +1897,8 @@ The remaining 5:
 - 1 FREE: N_sub (still genuinely free — see below)
 - 1 STRUCTURAL: N = 12 (now derived from anomaly cancellation — promoted from structural)
 
+**Note (post-A1, v3.5.9+)**: With APPROACH A1 (§7.4.20), $f_{\rm leak} = H_0$ is added as 5th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (was 9 pre-A1, was 10 after L308u but pre-A1).
+
 Wait, that's 7. Let me recount:
 - 4 DERIVED first-principles: α, M_Pl,2D, μ, N=12
 - 1 DERIVED via consistency: M_Pl,4D
@@ -1921,6 +1923,8 @@ After L308u (this section):
 - But N = 12 is not a "parameter" — it's a structural identification
 - So 4/9 first-principles still (α, M_Pl,2D, μ)
 - Plus 1 STRUCTURAL derived (N = 12) → effectively 5/9
+
+**Note (post-A1, v3.5.9+)**: With APPROACH A1, $f_{\rm leak} = H_0$ is added as 5th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (see §7.4.20 and L308w). The 9-parameter count above was valid BEFORE A1.
 
 ### What Remains Open (Tier 1 status)
 
@@ -1993,7 +1997,7 @@ Actually, the count is:
 - 3 DERIVED (via α-GM, time dilation, energy conservation): M_Pl,4D, τ_3D,apparent, N_sub
 - 1 FREE: none? Or maybe N_sub counts as free?
 
-Hmm, framework has 9 input parameters. Let me re-count.
+Hmm, framework has 9 input parameters (v3.5.9 PRE-A1). After A1 (§7.4.20), total is 14. Let me re-count.
 
 ### What Remains Open
 

@@ -705,7 +705,9 @@ Where:
 - $F_p(z)$ = z^n / (z^n + $z_{\rm half}$^n), n=2, $z_{\rm half}$=3 (Hill function)
 - $f_{\rm back}$ = $10^{-85}$ (SIDC calibrated from SN 33s lifetime)
 
-**Key finding (v2.7.48, REVISED v2.7.52)**: With $F_p(0)$ = 0.9993 (revised), SIDC predicts $M_{dyn}$/ $M_{b} \sim 4.97$ for these galaxies, dominated by the $F_p(z)$ primordial component. The recent (SN-driven) component is **negligible** ($\sim 10^{-91}$).
+**Key finding (v2.7.48, REVISED v2.7.52, LEGACY)**: With $F_p(0)$ = 0.9993 (revised), SIDC predicts $M_{dyn}$/ $M_{b} \sim 4.97$ for these galaxies, dominated by the $F_p(z)$ primordial component. The recent (SN-driven) component is **negligible** ($\sim 10^{-91}$).
+
+**NOTE (v3.5.9+)**: This prediction uses the LEGACY $F_p(z)$ Hill function framework (DROPPED in v3.3+ per L100, user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` for the dropped framework.
 
 | Galaxy | z | log M* | $F_p(z)$ | SIDC $M_{dyn}$/ $M_{b}$ |
 |--------|---|--------|--------|---------------------|
