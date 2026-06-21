@@ -445,6 +445,9 @@ SIDC's parsimony is **conceptual**, not **parametric**:
 
 ### 45 external constraints from web research (June 2026)
 
+> ⚠️ **FRAMEWORK CONTEXT (v2.7.x)**: The 45 external constraints were catalogued using the v2.7.x framework that included the **Hill function $F_p(z)$** (since DROPPED in v3.3+). Some entries below reference $F_p(z)$ as part of SIDC's interpretation; these are HISTORICAL to the v2.7.x era. Current framework (v3.5.9+) uses bilateral cascade (no $F_p(z)$); see `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` for the transition.
+
+
 Continued web research in June 2026 yielded **45 external constraints** (in 9 categories) that converge on SIDC's 2D CFT parameters, refine its interpretation, and provide one new testable prediction:
 
 **4 PARAMETER-REDUCING** (reduce 4 free → 2 free parameters $\mu$, $m_{3+1D}$):
@@ -730,6 +733,8 @@ observations, testing, wide range), and `paper/paper.md` §12
 
 ## #1 (Consistency with $\Lambda{\rm CDM}$): Energy-scale-invariant in law, epoch-dependent in state
 
+> ⚠️ **HISTORICAL FRAMEWORK NOTE (v2.7.4-v2.7.5, pre-v3.3)**: This section describes the OLD SIDC framework using the **Hill function $F_p(z)$** which was **DROPPED in v3.3+** (per L100, user-critique 6 times). Current framework (v3.5.9+ A1) uses **bilateral cascade with $f_{\rm leak} = H_0$** (post-Friedmann, A1). The smooth $E^{1+\alpha}$ creation function and $\tau_{2D} = 33$s empirical 2D lifetime are RETAINED. The $F_p(z)$ "primordial vs cumulative" decomposition is REPLACED by 27% DM from calibrated AGN rate. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` for details. The r(z) ≈ (1+z)³ match is REPRODUCED in current framework (different mechanism, same result).
+
 SIDC's principle is **energy-scale-invariant in law**: every energetic event creates a 2D universe weighted by a smooth $E^{1+\alpha}$ function, regardless of when it happens (see paper §2.5.3). The *consequences* are epoch-dependent: the *rate* of 2D universe creation depends on what's going on at that epoch.
 
 Per a user follow-up ("if matter is 5% even without stars, why don't baryon collisions create 2D universes?"), the principle is broadened to include **all baryon activity** — not just stellar events but also Thomson scattering, recombination, acoustic oscillations. The baryon plasma at z = 1 has enormous energetic activity that, by SIDC's own principle, creates 2D universes. **v2.7.4 honest update:** while Thomson + recombination DO create 2D universes (qualitatively), their per-event contribution under the smooth function (§2.5.3) is negligible $\sim 10^{-66}$ of SN). SIDC's r(z) ≈ (1+z)³ result actually comes from the $F_p(z)$ primordial component (§4.48.1), not from Thomson.
@@ -960,6 +965,8 @@ A new section §10 derives speculative but *testable* end-of-universe signatures
 - **Testable window:** 2026 (DESI DR3) to 2034 (LISA launch) is the critical 5-10 year window.
 
 # §11 TESTABLE PREDICTIONS FOR CURRENT AND UPCOMING SURVEYS (2026-2034)
+
+> ⚠️ **FRAMEWORK CONTEXT (v2.7.32+)**: The §11 predictions about "intermediate F(z) dwarf population" reference the **Hill function F(z) = 1/(1 + (z/z_half)^{-n})** (legacy_paper.md §3.26), which is the same DROPPED F_p(z) function. Current framework (v3.5.9+) uses bilateral cascade with calibrated AGN rate (no F(z) function). The PREDICTION about intermediate dwarfs is REPRODUCED via the calibrated AGN rate giving 27% DM; the specific F(z) ~ 0.1-0.5 distribution is HISTORICAL to v2.7.32 framework. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` for the framework transition.
 
 A new section §11 consolidates SIDC's *near-term, low-cost, high-leverage* testable predictions, anchored to the **47 Tucanae (NGC $10^{4}$) test case** in the context of the **Rubin/LSST DP1** (released June 30, 2025).
 
