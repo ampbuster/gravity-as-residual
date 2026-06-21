@@ -109,9 +109,25 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 | 2D→3D (SN) | 33 s (short, no significant $\gamma$) | $1.6\times 10^{-45}/\mathrm{s}$ | $33\times 10^{-45}$ = **$10^{-44}$** (negligible) | 100% at 33s | **Pulsed (DM)** |
 | 3D→4D | 10³⁴ yr ($\gamma_{\rm 4D}$ = 6.03×10⁹⁰ from 4D proper time ~10⁻⁵⁴ yr) | $1.22\times 10^{-85}$/s | 10⁵¹×10⁻⁸⁵ = **O(1)** by heat death | 100% at 10³⁴ yr | **Continuous (DE)** |
 
-**Time dilation is the key**: 4D event's proper time is 10⁻²⁰ s, but 3+1D's clock sees it as 10³⁴ yr. This makes 3+1D's continuous leakage observable NOW (as DE). At 2D→3D, no such time dilation exists — 2D universe's 33s lifetime is short, so continuous leakage is invisible. Pulsed return at 33s (= DM) dominates.
+**Time dilation is the key** (cone is asymmetric in time direction):
 
-This unifies DE and DM as the SAME mechanism at different timescales, with **time dilation being what makes 3D→4D continuous leakage observable but 2D→3D continuous leakage invisible**.
+| Transition | γ formula | Proper time (in event's frame) | Observed time (in 3D) | γ value |
+|---|---|---|---|---|
+| 2D → 3D | (E_3D/M_Pl,3D)^α | 5.7×10³⁸ yr (2D's own frame, SN) | 33 s (3D frame) | γ_2D = 5.5×10⁴⁴ (LARGE) |
+| 4D → 3D | (E_4D/M_Pl,3D)^α | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | γ_4D = 5.93×10⁹⁰ (LARGER) |
+
+Both γ > 1, both represent LITERAL TIME DILATION (L308x). The cone is ASYMMETRIC in direction:
+- **2D level**: γ_2D stretches time in 2D's own frame (2D universe lives 5.7e38 yr in 2D, only 33s in 3D)
+- **4D level**: γ_4D stretches time in 3D frame (4D event lives 1.51e34 yr in 4D, but 8.95e124 yr in 3D)
+
+**In both cases, the LOWER-D dimension has MORE time** (2D > 3D > 4D in duration).
+
+**Implications for observation**:
+- 4D event's continuous leakage is observable in 3D (as DE) because the 3D-observed time is huge
+- 2D universe's continuous leakage is INVISIBLE in 3D because the 3D-observed time is short (33s)
+- Pulsed return at 33s (= DM) dominates the 2D → 3D channel
+
+This unifies DE and DM as the SAME mechanism at different timescales, with **time dilation direction being what makes 3D→4D continuous leakage observable (γ stretches 3D time) but 2D→3D continuous leakage invisible (γ stretches 2D time)**.
 
 **$4\pi$ status** (v3.3, NOT IN USE):
 - ✗ $4\pi$ is **NOT** in the v3.3 DE formula (was a v3.1.2 empirical factor, now removed)

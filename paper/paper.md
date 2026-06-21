@@ -7478,7 +7478,7 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **140 honest limitations** (was 128 v3.5.8, +L308r, +L308s, +L308t, +L308u, +L308v, +L308w, +L308x, +L308y, +L308z, v3.5.9+ LIMITATIONS: 140)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$ = 1.258). v3.1.2 added L142-L150 covering: $4\pi$ geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric $4\pi$, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ($M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV, brane-world, was $4 \times 10^{23}$ in v3.5.8), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr ($M^{\alpha}$ prediction); (2) frame of reference: $M^{\alpha}$ law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with $\gamma$ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit ($\alpha$ = 1.258 fails 13/14 events).
+This is a thought experiment, not a theory. We identify **140 honest limitations** (was 128 v3.5.8, +L308r, +L308s, +L308t, +L308u, +L308v, +L308w, +L308x, +L308y, +L308z, +L308aa, v3.5.9+ LIMITATIONS: 140)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$ = 1.258). v3.1.2 added L142-L150 covering: $4\pi$ geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric $4\pi$, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ($M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV, brane-world, was $4 \times 10^{23}$ in v3.5.8), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr ($M^{\alpha}$ prediction); (2) frame of reference: $M^{\alpha}$ law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with $\gamma$ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit ($\alpha$ = 1.258 fails 13/14 events).
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -9911,30 +9911,50 @@ STATUS: PARTIALLY CLOSED (postulated/observed).
 
 Source: `calculations/v36_research/A1_fleak_H0_principle.py`, paper §7.4.20.
 
-L308x. **γ_4D AND γ_2D ARE BOTH LITERAL TIME DILATION** (v3.5.9+, A1, structural).
+L308x. **γ_4D AND γ_2D ARE BOTH LITERAL TIME DILATION** (v3.5.9+, A1, structural, REVISED with proper/observed clarification).
 
 **Structural consistency**: In Approach A1, both γ values across cascade transitions have the SAME interpretation (literal time dilation):
 
-- γ_4D = (E_4D/M_Pl,3D)^α = 5.93×10⁹⁰ — 4D event's lifetime appears time-dilated in 3D frame
-- γ_2D = (E_3D/M_Pl,3D)^α = 5.5×10⁴⁴ (SN) — 2D universe's lifetime appears time-dilated in 3D frame
+- γ_4D = (E_4D/M_Pl,3D)^α = 5.93×10⁹⁰ — 4D event's lifetime is time-dilated in 3D frame
+- γ_2D = (E_3D/M_Pl,3D)^α = 5.5×10⁴⁴ (SN) — 2D universe's lifetime is time-dilated
 
 Both use the formula (E_event/M_Pl,parent)^α. Both represent dimensionless time dilation factors.
 
-**FRAME OF REFERENCE**:
-- At 2D level: 2D universe's proper time = ~t_Pl,3D (Planck time), in 3D frame this is stretched to 33s (SN)
-- At 4D level: 4D event's proper time = 1.51×10³⁴ yr, in 3D frame this is stretched to 8.95×10¹²⁴ yr
-- Both transitions: 2D/4D proper time gets time-dilated in 3D projection
-- The "2D universe's 33s lifetime" we observe IS the 3D-frame time (γ_2D-stretched)
+**FRAME OF REFERENCE (CRITICAL CLARIFICATION)**:
 
-**MAGNITUDE asymmetry**:
-- γ_4D = 5.93e90 (huge)
-- γ_2D = 5.5e44 (large but smaller)
-- γ_4D >> γ_2D because E_4D >> E_3D
-- But both ARE time dilation (asymmetric in magnitude, not in presence)
+| Transition | γ formula | Proper time (event's own frame) | Observed time (3D frame) | γ value | Direction |
+|---|---|---|---|---|---|
+| 2D → 3D | (E_3D/M_Pl,3D)^α | **5.7×10³⁸ yr** (2D's own frame, SN) | **33 s** (3D frame) | γ_2D = 5.5×10⁴⁴ | Time is COMPRESSED in 3D |
+| 4D → 3D | (E_4D/M_Pl,3D)^α | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | γ_4D = 5.93×10⁹⁰ | Time is STRETCHED in 3D |
+
+**Key insight (L308x v3)**: 
+- γ = (lower-D proper time) / (higher-D observed time) [when looking from above]
+- OR equivalently γ = (higher-D observed time) / (lower-D proper time) [when looking from below]
+- Both ratios > 1, but the "long" and "short" sides swap
+
+**At 2D level**: 
+- 2D universe's proper time (in 2D's own frame) = γ_2D × 33s = 5.5e44 × 33s = 1.8e46 s = **5.7×10³⁸ yr**
+- 2D universe's observed time in 3D = 33s
+- The 33s we observe in 3D IS the 3D-observed time, NOT the 2D's proper time
+
+**At 4D level**:
+- 4D event's proper time (in 4D's own frame) = 1.51×10³⁴ yr
+- 4D event's observed time in 3D = γ_4D × 1.51e34 yr = **8.95×10¹²⁴ yr**
+- The 1.51e34 yr we calculate is the 4D's PROPER time, NOT the 3D-observed time
+
+**ASYMMETRY (cone is asymmetric in time direction)**:
+- **2D level**: γ_2D STRETCHES time in 2D's own frame (2D universe lives 5.7e38 yr in 2D, only 33s in 3D)
+- **4D level**: γ_4D STRETCHES time in 3D frame (4D event lives 1.51e34 yr in 4D, but 8.95e124 yr in 3D)
+- In BOTH cases, the LOWER-D dimension has MORE time (2D > 3D > 4D in duration)
+
+**Implications for observation**:
+- 4D event's continuous leakage is observable in 3D (as DE) because the 3D-observed time is huge
+- 2D universe's continuous leakage is INVISIBLE in 3D because the 3D-observed time is short (33s)
+- Pulsed return at 33s (= DM) dominates the 2D → 3D channel
 
 This is in contrast to Path B2 (rejected) which had γ_4D as "back-flow efficiency" (not time dilation) while γ_2D was still time dilation — a structural inconsistency.
 
-Source: paper §7.4.20. L308aa v1 (γ_2D=1) REVERTED per user correction.
+Source: paper §7.4.20. L308aa v1 (γ_2D=1) REVERTED per user correction. L308x v3 adds proper/observed time distinction per user clarification 2026-06-21.
 
 L308y. **§3.67 1.4% match becomes STRIKING COINCIDENCE** (v3.5.9+, A1, structural).
 
