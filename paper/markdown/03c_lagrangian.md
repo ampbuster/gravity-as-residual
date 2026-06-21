@@ -1317,7 +1317,7 @@ particle physics.
 
 Closed loop formula:
 ```
-$f_{\rm back}$ = ($t_{\rm Pl,3}$/τ_4D) × (τ_SN/τ_universe) × ($E_{\rm 4D}$/$E_{\rm SN}$)^(1/(2α))
+$f_{\rm back} = (t_{\rm Pl,3}/\tau_{\rm 4D}) \times (\tau_{\rm SN}/\tau_{\rm universe}) \times (E_{\rm 4D}/E_{\rm SN})^{1/(2\alpha)}$
 ```
 
 Numerical decomposition:

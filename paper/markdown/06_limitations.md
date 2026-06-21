@@ -2035,7 +2035,7 @@ Mathematical audit (v3.5.9+) found that the framework's closed loop forces f_lea
 Closed loop (forces f_leak too fast):
 $\tau_{\rm 4D} = 1.51e34 yr $← calibrated from ρ_DE_obs
         ↓
-E_4D = M_Pl,4D × (τ_4D/t_Pl)^(1/α) = 3.12e89 GeV
+$E_{\rm 4D} = M_{\rm Pl,4D} \times (\tau_{\rm 4D}/t_{\rm Pl})^{1/\alpha} = 3.12\times10^{89}\,\text{GeV}$
         ↓
 γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93e90  ← DERIVED (literal time dilation)
         ↓
@@ -2087,10 +2087,10 @@ This separates concerns cleanly:
 - **N = 12** (Appelquist 2001, L308u first-principles)
 - **$E_{\rm 4D} = 5×10⁷⁹ J $= 3.12×10⁸⁹ GeV** (closed-loop from τ_4D)
 - **τ_4D,proper = 1.51×10³⁴ yr** (calibrated for DE match)
-- **γ_4D = 5.93×10⁹⁰** (DERIVED, literal time dilation — REINSTATED)
+- **$\gamma_{\rm 4D} = 5.93\times10^{90}$** (DERIVED, literal time dilation — REINSTATED)
 - **τ_3D,apparent = 8.95×10¹²⁴ yr** (γ_4D × τ_4D, structural — REINSTATED)
 - **$N_{\rm sub} = 3.86×10²** ($calibrated, still first-principles open L144)
-- **τ_sub = 6.97×10³⁰ yr** (sub-universe lifetime)
+- **$\tau_{\rm sub} = 6.97\times10^{30}\,\text{yr}$** (sub-universe lifetime)
 
 ### What Changes (f_leak = H_0)
 
@@ -2109,7 +2109,7 @@ This separates concerns cleanly:
 The framework now has three independent "rates":
 
 1. **γ_4D rate**: time dilation between 4D and 3+1D frames
-   - γ_4D = 5.93×10⁹⁰ (large)
+   - $\gamma_{\rm 4D} = 5.93\times10^{90}$ (large)
    - 4D event's lifetime appears 10⁹⁰× longer in 3D frame
 
 2. **γ_2D rate**: time dilation between 2D universe and 3+1D frames
@@ -2128,9 +2128,9 @@ The framework now has three independent "rates":
 ### Implications
 
 **1. DM stability restored:**
-- τ_DM = 14.5 Gyr (just over universe age)
+- $\tau_{\rm DM} = 14.5$ Gyr (just over universe age)
 - Universe at 95.1% of DM lifetime
-- M_DM reaches steady state: M_DM = R_add / f_leak = 27% × ρ_crit ✓
+- $M_{\rm DM}$ reaches steady state: $M_{\rm DM} = R_{\rm add} / f_{\rm leak} = 27\% \times \rho_{\rm crit}$ ✓
 
 **2. γ_4D AND γ_2D interpretations are consistent (L308x, L308aa reverted):**
 - γ_4D = literal time dilation at 4D level
@@ -2506,8 +2506,8 @@ Source: paper §7.4.20. L308aa v1 (γ_2D=1) REVERTED per user correction. L308x 
 L308y. **§3.67 1.4% match becomes STRIKING COINCIDENCE** (v3.5.9+, A1, structural).
 
 Framework's §3.67 formula: f_leak = α × f_back,3+1D × γ_4D^(1/α²)
-- With v3.3 era γ_4D = 1.29×10⁶⁴: f_leak = 2.40×10⁻¹⁸ /s ≈ H_0 (1.4% match)
-- With current γ_4D = 5.93×10⁹⁰: f_leak = 2.59×10⁻² /s (off by 10¹⁶)
+- With v3.3 era $\gamma_{\rm 4D} = 1.29\times10^{64}$: $f_{\rm leak} = 2.40\times10^{-18}\,\text{s}^{-1} \approx H_0$ (1.4% match)
+- With current $\gamma_{\rm 4D} = 5.93\times10^{90}$: $f_{\rm leak} = 2.59\times10^{-2}\,\text{s}^{-1}$ (off by $10^{16}$)
 
 In A1, the 1.4% match is REINTERPRETED as a "striking coincidence" rather than a derivation. The formula's match to H_0 in the v3.3 era was structural coincidence (γ_4D was different then).
 
@@ -2591,16 +2591,16 @@ Both have time dilation. The "asymmetry" is in MAGNITUDE (γ_4D >> γ_2D), not i
 - In 3D frame: stretched by γ_4D to 8.95e124 yr (apparent time)
 
 **The 33s in 3D IS time-dilated**:
-- 2D universe's proper time: ~t_Pl (5e-44 s)
-- 3D observed time: 33s = γ_2D × t_Pl
-- Continuous leakage 2D→3D during the 2D's proper time (t_Pl) is too short
+- 2D universe's proper time: $\sim t_{\rm Pl}$ ($5\times10^{-44}$ s)
+- 3D observed time: $33\text{s} = \gamma_{\rm 2D} \times t_{\rm Pl}$
+- Continuous leakage 2D→3D during the 2D's proper time ($t_{\rm Pl}$) is too short
 - But during the 33s in 3D, the 2D universe exists as a "frozen" particle (DM)
 
 **Both γ values are LITERAL TIME DILATION (L308x confirmed)**:
-- γ_2D = 5.5e44 (time dilation at 2D level)
-- γ_4D = 5.93e90 (time dilation at 4D level)
+- $\gamma_{\rm 2D} = 5.5\times10^{44}$ (time dilation at 2D level)
+- $\gamma_{\rm 4D} = 5.93\times10^{90}$ (time dilation at 4D level)
 - The cone is symmetric in HAVING time dilation, asymmetric in MAGNITUDE
-- Continuous 2D→3D leakage is INVISIBLE (γ_2D stretches t_Pl to 33s, but 2D's proper time is t_Pl)
+- Continuous 2D→3D leakage is INVISIBLE ($\gamma_{\rm 2D}$ stretches $t_{\rm Pl}$ to 33s, but 2D's proper time is $t_{\rm Pl}$)
 
 **STATUS**: L308aa v1 REVERTED. L308x (γ_2D = 5.5e44) is CORRECT. Both transitions have time dilation.
 

@@ -3,7 +3,7 @@
 
 This test uses published cluster baryon fraction measurements to check SIDC's prediction against the cosmic baryon fraction.
 
-*SIDC prediction:* Cluster $M_{dyn}$ includes cumulative return from ALL past activity. Baryon fraction f_b = ($M_\star$ + M_gas) / $M_{dyn}$ should be ~0.15-0.17 (matches cosmic Planck value).
+*SIDC prediction:* Cluster $M_{dyn}$ includes cumulative return from ALL past activity. Baryon fraction $f_b = (M_\star + M_{\rm gas}) / M_{\rm dyn}$ should be ~0.15-0.17 (matches cosmic Planck value).
 
 *Standard $\Lambda{\rm CDM}$ prediction:* Same, f_b ~ 0.15-0.17 (cosmic baryon fraction). Cluster $M_{dyn}$ from NFW halo.
 
