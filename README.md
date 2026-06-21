@@ -1058,11 +1058,11 @@ measure. Current observations measure stellar masses + size, not
 $M_{dyn}$ directly. Future IFU observations (JWST cycle 4-5, ELT
 2030+) will provide proper $M_{dyn}$ measurements.
 
-**Intermediate F(z) dwarf population (SIDC's #2 evidence):**
+**Intermediate F(z) dwarf population (SIDC's #2 evidence, **HISTORICAL F(z) framework**):**
 
-SIDC predicts a **smooth** F(z) distribution, not a bimodal
+SIDC predicts (HISTORICAL framework) a **smooth** F(z) distribution, not a bimodal
 (gas-rich vs. quenched) one. So $\sim 10–30\%$ of field dwarfs should be
-in the intermediate F(z) $\sim 0.1--0.5$ range.
+in the intermediate F(z) $\sim 0.1--0.5$ range. (Current framework reproduction via calibrated AGN rate gives 27% DM.)
 
 **Key observational papers (10+ intermediate F(z) dwarfs confirmed):**
 - **Bidaran+ 2025 (A&A 693, L16, arXiv:2501.02910)**: 4 isolated
@@ -1113,7 +1113,7 @@ particle DM):
   predicts $M_{dyn} > M_{stars}$
 - **Tidal Dwarf Galaxies (TDGs)**: SIDC predicts DM-poor, but
   Gentile 2007 finds DM-rich (DISPUTED, unresolved 20 years)
-- **Intermediate F(z) population**$\sim 10–30\%$ of dwarfs at intermediate
+- **Intermediate F(z) population (HISTORICAL F(z) framework)**$\sim 10–30\%$ of dwarfs at intermediate
   F(z)): testable with LSST Y1 (2027) and Euclid Q1 (2026)
 - **Massive quiescent galaxies at z > 4**: SIDC predicts very
   high $M_{dyn}$ (extreme past SF)
