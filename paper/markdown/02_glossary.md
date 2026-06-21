@@ -18,7 +18,7 @@
 | $\mu$ (bulk AdS curvature) | ? | Sets the bulk-brane coupling $\epsilon = e^{-kL}$ (RS-II mechanism) | Free (open) |
 | $m_{3+1D}$ (induced Planck scale) | $\sim 10^{19}$ GeV | Effective 3+1D Planck mass from bulk geometry | Brane-world framework |
 
-**Note:** These are the *only* free parameters in SIDC. They parameterize the bulk geometry, following the standard brane-world parameterization (Randall-Sundrum II). All other quantities — the 0 calibrated postulates, the 5 observational inputs, and all derived quantities — follow from these two plus the cascade structure. A full derivation of $\mu$ and $m_{3+1D}$ from string theory is the open problem in §7.1 "Appeals to Formalism".
+**Note (HISTORICAL v2.7-v3.0 context):** In v2.7, SIDC had **2 free parameters** ($\mu$, $m_{3+1D}$) parameterizing the bulk geometry (RS-II). They followed from the cascade structure plus the bulk. **CURRENT (v3.5.9+ A1+L308z):** The framework has **15 parameters** total: 1 MEASURED ($M_{\rm Pl,3D}$), 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 3 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$), 1 FREE ($N_{\rm sub}$, event-specific).
 
 ### Calibrated Postulates (0) — All Derived
 
@@ -60,7 +60,7 @@
 | $\tau_{4D}$ (4D event duration) | $\sim 10^{28}$ yr | From Padmanabhan equipartition (§3.8.2) |
 ### What this Glossary is NOT
 
-This is not a derivation. SIDC has **2 free parameters** ($\mu$, $m_{3+1D}$) in the bulk geometry — the standard parameters of brane-world models, whose derivation from string theory is the open problem in §7.1 "Appeals to Formalism".
+This is not a derivation. **(HISTORICAL v2.7-v3.0):** SIDC had 2 free parameters ($\mu$, $m_{3+1D}$) in the bulk geometry. **(CURRENT v3.5.9+ A1+L308z):** $\mu$ is now FIRST-PRINCIPLES (L308r, $\mu = M_{\rm Pl,2D}^2$); see full hierarchy above.
 
 All other values in SIDC are *derived* from the cascade structure:
 - $\alpha = 1.289$ from N=12 SYK saddle-point argument
@@ -495,7 +495,7 @@ This is a *power-law* relation, not a step. Future observations of dwarf galaxie
 
 **What the smooth function does NOT change.** SIDC's other elements (energy-scaling rule, §2.5.1 action, $S_{\rm destruction}$ mechanism, Madau-SFR weighting, AGC 114905 + KKR 25 individual galaxy tests) all remain. The smooth function only changes the *functional form* of the contribution weight from step(E - $E_{\rm crit}$) to $E^{1+α}$. The qualitative predictions (Sun has no DM, SN-dominated galaxies have DM, AGC 114905 has no DM because of low E_max) all survive.
 
-**Limitation update.** The v2.3.0 $E_{\rm crit}$ phase-transition threshold (a calibrated free parameter, $\sim 10^{30}$ J) has been *removed* in v2.7.4: the smooth function uses only $\alpha$ = 1.29 (from the SN calibration, §10.1), and the same $\alpha$ already characterizes the energy-scaling rule. SIDC's *single* free parameter $\alpha$ is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an $E_{\rm crit}$ free parameter to derive. This is a *parameter reduction*: 2 free parameters ($\alpha$ + $E_{\rm crit}$) → 1 free parameter ($\alpha$). New **Limitation 36 added** ($E_{\rm crit}$ hidden free parameter REVERTED, smooth function uses only $\alpha$).
+**Limitation update.** The v2.3.0 $E_{\rm crit}$ phase-transition threshold (a calibrated free parameter, $\sim 10^{30}$ J) has been *removed* in v2.7.4: the smooth function uses only $\alpha$ = 1.29 (from the SN calibration, §10.1), and the same $\alpha$ already characterizes the energy-scaling rule. SIDC's *single* free parameter $\alpha$ (HISTORICAL v2.7.4-v3.0 era; in v3.5.9+, $\alpha$ is FIRST-PRINCIPLES via Schwarzian SYK N=12, L308n, and $N_{\rm sub}$ is FREE event-specific, L308z) is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an $E_{\rm crit}$ free parameter to derive. This is a *parameter reduction*: 2 free parameters ($\alpha$ + $E_{\rm crit}$) → 1 free parameter ($\alpha$). New **Limitation 36 added** ($E_{\rm crit}$ hidden free parameter REVERTED, smooth function uses only $\alpha$).
 
 #### 2.5.4 The 2D universe is "invisible" during life: deaths-only DM (v2.7.11+)
 
