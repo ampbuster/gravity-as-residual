@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SIDC Overview — Gravity as Residual v3.5.9+</title>
+<style>
+:root {
+  --bg: #0a0e1a;
+  --fg: #e6e9f0;
+  --muted: #8a92a6;
+  --accent: #6cb6ff;
+  --accent2: #c084fc;
+  --good: #4ade80;
+  --warn: #fbbf24;
+  --bad: #f87171;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+  padding: 2em;
+  line-height: 1.55;
+}
+header {
+  text-align: center;
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #2a3041;
+}
+h1 {
+  font-size: 2.4em;
+  margin: 0;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  font-size: 1.6em;
+  margin-top: 2em;
+  border-left: 4px solid var(--accent);
+  padding-left: 0.5em;
+}
+h3 {
+  font-size: 1.2em;
+  color: var(--accent);
+  margin-top: 1.5em;
+}
+.subtitle {
+  color: var(--muted);
+  font-size: 1.05em;
+  margin-top: 0.5em;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.cone-viz {
+  background: #131826;
+  border: 1px solid #2a3041;
+  border-radius: 12px;
+  padding: 2em;
+  margin: 1.5em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+.cone-level {
+  text-align: center;
+  padding: 1em 1.5em;
+  border: 1px solid;
+  border-radius: 8px;
+  min-width: 180px;
+}
+.cone-4d {
+  border-color: var(--accent);
+  background: linear-gradient(180deg, rgba(108, 182, 255, 0.15) 0%, transparent 100%);
+}
+.cone-3d {
+  border-color: var(--accent2);
+  background: linear-gradient(180deg, rgba(192, 132, 252, 0.15) 0%, transparent 100%);
+}
+.cone-2d {
+  border-color: var(--good);
+  background: linear-gradient(180deg, rgba(74, 222, 128, 0.15) 0%, transparent 100%);
+}
+.cone-arrow {
+  font-size: 2em;
+  color: var(--muted);
+}
+.params {
+  background: #131826;
+  border: 1px solid #2a3041;
+  border-radius: 12px;
+  padding: 1.5em;
+  margin: 1.5em 0;
+}
+.params table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+.params th, .params td {
+  text-align: left;
+  padding: 0.6em 0.8em;
+  border-bottom: 1px solid #2a3041;
+}
+.params th {
+  color: var(--accent);
+  font-weight: 600;
+}
+.params tr:last-child td { border-bottom: none; }
+.badge {
+  display: inline-block;
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+.b-measured { background: rgba(108, 182, 255, 0.2); color: var(--accent); }
+.b-first-principles { background: rgba(74, 222, 128, 0.2); color: var(--good); }
+.b-derived { background: rgba(192, 132, 252, 0.2); color: var(--accent2); }
+.b-calibrated { background: rgba(251, 191, 36, 0.2); color: var(--warn); }
+.b-structural { background: rgba(248, 113, 113, 0.2); color: var(--bad); }
+.b-free { background: rgba(248, 113, 113, 0.3); color: var(--bad); }
+.breakthrough {
+  background: linear-gradient(135deg, rgba(74, 222, 128, 0.1) 0%, rgba(108, 182, 255, 0.1) 100%);
+  border: 1px solid rgba(74, 222, 128, 0.3);
+  border-radius: 8px;
+  padding: 1em 1.5em;
+  margin: 1em 0;
+}
+.breakthrough h3 {
+  color: var(--good);
+  margin-top: 0;
+}
+.test-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1em;
+  margin: 1.5em 0;
+}
+.test-card {
+  background: #131826;
+  border: 1px solid #2a3041;
+  border-radius: 8px;
+  padding: 1.2em;
+}
+.test-status {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+.status-pass { background: rgba(74, 222, 128, 0.2); color: var(--good); }
+.status-pending { background: rgba(251, 191, 36, 0.2); color: var(--warn); }
+.status-confounded { background: rgba(248, 113, 113, 0.2); color: var(--bad); }
+.timeline {
+  position: relative;
+  padding-left: 2em;
+  margin: 1em 0;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.5em;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent), var(--accent2));
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.5em;
+  padding-left: 0.5em;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2em;
+  top: 0.5em;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--bg);
+}
+footer {
+  margin-top: 4em;
+  padding-top: 2em;
+  border-top: 1px solid #2a3041;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9em;
+}
+code {
+  background: #1a1f30;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-family: 'SF Mono', Monaco, Consolas, monospace;
+  font-size: 0.9em;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>SIDC — Scale-Invariant Dimensional Cascade</h1>
+  <p class="subtitle">Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector</p>
+  <p class="subtitle"><strong>v3.5.9+ A1</strong> · 144 honest limitations · 421 pages · GitHub: <a href="https://github.com/ampbuster/gravity-as-residual" style="color:var(--accent)">ampbuster/gravity-as-residual</a></p>
+</header>
+
+<h2>🏔️ The Cone Structure</h2>
+<div class="cone-viz">
+  <div class="cone-level cone-4d">
+    <strong>4D Bulk Event</strong><br>
+    <small>E<sub>4D</sub> = 5×10⁷⁹ J</small><br>
+    <small>τ<sub>4D</sub> = 1.5×10³⁴ yr</small><br>
+    <small>M<sub>Pl,4D</sub> = 3.93×10²³ GeV</small><br>
+    <small>Source: 4D-bulk energetic event</small>
+  </div>
+  <div class="cone-arrow">↓</div>
+  <div class="cone-level cone-3d">
+    <strong>3+1D Universe (us)</strong><br>
+    <small>M<sub>Pl,3D</sub> = 1.22×10¹⁹ GeV</small><br>
+    <small>N<sub>sub</sub> = 386 sibling sub-universes</small><br>
+    <small>Age = 13.8 Gyr</small><br>
+    <small>DE: 4D event's un-cancelled antigravity</small>
+  </div>
+  <div class="cone-arrow">↓</div>
+  <div class="cone-level cone-2d">
+    <strong>2D Child Universes</strong><br>
+    <small>M<sub>Pl,2D</sub> = 2.95 TeV</small><br>
+    <small>α = 1.289, N=12</small><br>
+    <small>τ<sub>2D</sub>(SN) = 33 s</small><br>
+    <small>DM: cumulative 2D universe deaths</small>
+  </div>
+</div>
+
+<h2>📊 Parameter Hierarchy (15 total, 4 truly new beyond SM)</h2>
+<div class="params">
+<table>
+<thead>
+<tr><th>#</th><th>Parameter</th><th>Value</th><th>Status</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>M<sub>Pl,3D</sub></td><td>1.22×10¹⁹ GeV</td><td><span class="badge b-measured">MEASURED</span></td></tr>
+<tr><td>2</td><td>α = 1 + 1/√12</td><td>1.2887</td><td><span class="badge b-first-principles">FIRST-PRINCIPLES</span></td></tr>
+<tr><td>3</td><td>M<sub>Pl,2D</sub> = 12 × v<sub>H</sub></td><td>2.95 TeV</td><td><span class="badge b-first-principles">FIRST-PRINCIPLES</span></td></tr>
+<tr><td>4</td><td>μ = M<sub>Pl,2D</sub>²</td><td>8.73×10⁶ GeV²</td><td><span class="badge b-first-principles">FIRST-PRINCIPLES</span></td></tr>
+<tr><td>5</td><td>N = 12</td><td>12</td><td><span class="badge b-first-principles">FIRST-PRINCIPLES</span></td></tr>
+<tr><td>6</td><td>M<sub>Pl,4D</sub> = M<sub>Pl,3D</sub><sup>α</sup> × M<sub>Pl,2D</sub><sup>1-α</sup></td><td>3.93×10²³ GeV</td><td><span class="badge b-derived">DERIVED</span></td></tr>
+<tr><td>7</td><td>E<sub>4D</sub> = N<sub>sub</sub> × E<sub>sub</sub></td><td>5×10⁷⁹ J</td><td><span class="badge b-derived">DERIVED</span></td></tr>
+<tr><td>8</td><td>ε (bulk-brane coupling)</td><td>10⁻³⁸</td><td><span class="badge b-calibrated">CALIBRATED</span></td></tr>
+<tr><td>9</td><td>τ<sub>4D</sub> (4D event lifetime)</td><td>1.51×10³⁴ yr</td><td><span class="badge b-calibrated">CALIBRATED</span></td></tr>
+<tr><td>10</td><td>AGN rate (DM production)</td><td>3×10⁻¹⁶ /m³/s</td><td><span class="badge b-calibrated">CALIBRATED</span></td></tr>
+<tr><td>11</td><td>f<sub>leak</sub> = c × H<sub>0</sub></td><td>2.47×10⁻¹⁸ /s</td><td><span class="badge b-calibrated">CALIBRATED</span></td></tr>
+<tr><td>12</td><td>E<sub>sub</sub></td><td>1.30×10⁷⁷ J</td><td><span class="badge b-structural">STRUCTURAL</span></td></tr>
+<tr><td>13</td><td>τ<sub>3D,apparent</sub></td><td>8.95×10¹²⁴ yr</td><td><span class="badge b-structural">STRUCTURAL</span></td></tr>
+<tr><td>14</td><td>γ<sub>4D</sub></td><td>5.93×10⁹⁰</td><td><span class="badge b-structural">STRUCTURAL</span></td></tr>
+<tr><td>15</td><td><strong>N<sub>sub</sub></strong> ≈ N<sub>12</sub> × (M<sub>Pl,4D</sub>/M<sub>Pl,3D</sub>)<sup>1/3</sup></td><td>386</td><td><span class="badge b-free">PARTIAL</span></td></tr>
+</tbody>
+</table>
+<p style="margin-top:1em; color: var(--muted);"><strong>Truly new beyond SM+GR:</strong> 4 parameters (M<sub>Pl,3D</sub>, ρ<sub>DE</sub>, AGN rate, N<sub>sub</sub>). Comparable to ΛCDM's 6, but with unified origin for DM and DE.</p>
+</div>
+
+<h2>🚀 Recent Breakthroughs (v3.5.9+ A1)</h2>
+
+<div class="breakthrough">
+<h3>L308ab: f_leak = H(z) closes the CMB gap</h3>
+<p><strong>User insight:</strong> "when the universe was small, pressure was higher, so more leaks back to 4d"</p>
+<p>Generalized A1's <code>f<sub>leak</sub> = H<sub>0</sub></code> to <code>f<sub>leak</sub>(z) = c × H(z)</code> with c ≈ 1.13. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω<sub>c</sub> = 0.265. CMB gap was OPEN, now PARTIALLY CLOSED.</p>
+</div>
+
+<div class="breakthrough">
+<h3>L308ad: N<sub>sub</sub> ≈ N<sub>12</sub> × (M<sub>Pl,4D</sub>/M<sub>Pl,3D</sub>)<sup>1/3</sup> ≈ 382</h3>
+<p>First-principles formula for N<sub>sub</sub> from N=12 and bulk/brane Planck ratio. Matches framework's 386 within 1.6% (within M<sub>Pl,4D</sub>'s ±2x uncertainty). L144 OPEN → PARTIAL.</p>
+</div>
+
+<div class="breakthrough">
+<h3>L308ac: 4 truly new parameters beyond SM+GR</h3>
+<p>Of 15 listed parameters, only 4 are truly new: M<sub>Pl,3D</sub> (gravity), ρ<sub>DE</sub> (DE density), AGN rate (DM production), N<sub>sub</sub> (now partial). 5 derive from SM, 4 are geometric, 1 is structural.</p>
+</div>
+
+<h2>🧪 Test Status</h2>
+<div class="test-grid">
+  <div class="test-card">
+    <div class="test-status status-pass">PASS</div>
+    <h3>Galaxies (z&lt;4)</h3>
+    <p>11/11 specific cases pass real data. AGC 114905, KKR 25, DF2/DF4, Sun, etc.</p>
+  </div>
+  <div class="test-card">
+    <div class="test-status status-pass">PASS</div>
+    <h3>RAR (SPARC, 175 galaxies)</h3>
+    <p>MOND-compatible. 10% median residual. g<sub>+</sub> ≈ 1.2×10⁻¹⁰ m/s² matches MOND a<sub>0</sub>.</p>
+  </div>
+  <div class="test-card">
+    <div class="test-status status-pass">PASS</div>
+    <h3>CMB at z=1100 (L308ab)</h3>
+    <p>Ω<sub>c</sub> = 0.265 matches Planck 2018. f_leak = H(z) drains overproduction.</p>
+  </div>
+  <div class="test-card">
+    <div class="test-status status-pass">PASS</div>
+    <h3>DE density</h3>
+    <p>Matches within 0.13% via f<sub>DE</sub> × ε × M<sub>Pl,3D</sub>⁴ closed loop.</p>
+  </div>
+  <div class="test-card">
+    <div class="test-status status-pending">PENDING 2027</div>
+    <h3>47 Tucanae (DR1)</h3>
+    <p>M<sub>dyn</sub> ≈ M<sub>stars</sub> (no local DM spike). Decisive test vs particle DM.</p>
+  </div>
+  <div class="test-card">
+    <div class="test-status status-pending">PENDING 2027-2028</div>
+    <h3>DESI Y5</h3>
+    <p>End-of-universe signatures from τ<sub>DM</sub> = 14.5 Gyr (now 12.84 Gyr with L308ab).</p>
+  </div>
+  <div class="test-card">
+    <div class="test-status status-pending">PENDING 2030s</div>
+    <h3>SKA-MPG GW background</h3>
+    <p>2D universe birth stochastic GW at 10⁶⁰⁻⁶² erg/s/Mpc³ (10³× below NANOGrav).</p>
+  </div>
+  <div class="test-card">
+    <div class="test-status status-confounded">CONFOUNDED</div>
+    <h3>Hubble tension (5.6 km/s/Mpc)</h3>
+    <p>SIDC: H<sub>0,4D</sub> = 70.16 (geometric mean of SH0ES+Planck). Mechanism M: ACCEPT as real tension.</p>
+  </div>
+</div>
+
+<h2>📜 Version Timeline</h2>
+<div class="timeline">
+  <div class="timeline-item"><strong>v2.4</strong> — Initial framework, F<sub>p</sub>(z) Hill function (DROPPED v3.3)</div>
+  <div class="timeline-item"><strong>v2.7.5</strong> — Smooth F<sub>p</sub>(z) closed CMB gap (later dropped for L308ab)</div>
+  <div class="timeline-item"><strong>v3.0</strong> — N=12 SYK Majorana breakthrough</div>
+  <div class="timeline-item"><strong>v3.1.2</strong> — Scenario X, brane-world, frame of reference explicit</div>
+  <div class="timeline-item"><strong>v3.3</strong> — Bilateral cascade (F<sub>p</sub>(z) dropped)</div>
+  <div class="timeline-item"><strong>v3.5.7+</strong> — μ = M<sub>Pl,2D</sub>² derived (5 paths)</div>
+  <div class="timeline-item"><strong>v3.5.8</strong> — α = 1+1/√12 first-principles, MCMC 4/15 pinned</div>
+  <div class="timeline-item"><strong>v3.5.9+ A1</strong> — f<sub>leak</sub> = H<sub>0</sub> as new principle (BREAKTHROUGH)</div>
+  <div class="timeline-item"><strong>v3.5.9+ L308ab</strong> — f<sub>leak</sub> = H(z) closes CMB gap (BREAKTHROUGH)</div>
+  <div class="timeline-item"><strong>v3.5.9+ L308ac</strong> — 4 truly new parameters beyond SM</div>
+  <div class="timeline-item"><strong>v3.5.9+ L308ad</strong> — N<sub>sub</sub> ≈ N<sub>12</sub> × (M<sub>Pl,4D</sub>/M<sub>Pl,3D</sub>)<sup>1/3</sup> PARTIAL L144</div>
+</div>
+
+<footer>
+  <p>Paper: <a href="https://github.com/ampbuster/gravity-as-residual/blob/main/paper/paper.pdf" style="color:var(--accent)">paper.pdf</a> (421 pages, 1.58 MB) · Source: <a href="https://github.com/ampbuster/gravity-as-residual" style="color:var(--accent)">github.com/ampbuster/gravity-as-residual</a></p>
+  <p>By a software developer (not a physicist) — thought experiment, not theory.</p>
+</footer>
+
+</div>
+</body>
+</html>

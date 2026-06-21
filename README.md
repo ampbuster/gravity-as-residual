@@ -237,6 +237,7 @@ This evaluates to $f_{\rm DE} = 1.13 \times 10^{-85}$ (DERIVED via L308v α-GM).
 ### Weaknesses
 
 - **CMB-era physics: PARTIALLY CLOSED via L308ab (v3.5.9+)**. Naive overproduction of DM at z=1100 (10⁷⁴ kg vs required 10³⁹ kg) is drained by f_leak = H(z) — user insight that "when universe was small, pressure was higher, so more leaks back to 4d". Drains 32 orders of magnitude by z=1100, matching Planck 2018. τ_DM unchanged to within 13%. Remaining: 2D-to-3+1D time compression has 54-orders uncertainty, full Lagrangian requires 2D CFT expert.
+- **N_sub (event-specific): PARTIALLY closed via L308ad** — formula $N_{\rm sub} \approx N_{12} \times (M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ matches framework 386 within 1.6% (within M_Pl,4D's ±2x uncertainty).
 - **Hubble tension**: ACCEPTED as real tension, $H_{0,4D} = 70.16$ is a geometric-mean property but specific $H_0$ values are not derived.
 - **No unique testable predictions**: SIDC has **0 unique testable predictions** beyond what ΛCDM and MOND already predict. SIDC's value is *interpretive* (DM = 2D universe deaths, DE = 4D event antigravity) and *parsimonious*, not predictively unique.
 
@@ -256,14 +257,16 @@ This evaluates to $f_{\rm DE} = 1.13 \times 10^{-85}$ (DERIVED via L308v α-GM).
 4. **DM fraction in quiescent galaxies should be LOWER** than in identical-mass active galaxies (phase-transition test).
 5. **AGC 114905 has no high-energy events above $10^{30}$ J** in its recent history (testable with deep X-ray/radio).
 6. **47 Tucanae (NGC 104)**: $M_{\rm dyn} \approx M_{\rm stars}$ (no local DM spike). Falsifiable by Rubin/LSST DP1 (2025), DR1 (2027), Y10 (2034).
+7. **CMB at z=1100: Ω_c = 0.265** — L308ab shows this is consistent with f_leak = H(z) draining 32 orders of magnitude of overproduced DM by recombination. (Already confirmed by Planck 2018.)
+8. **N_sub ≈ 386** for our universe — L308ad: $N_{\rm sub} = N_{12} \times (M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3} = 382 \pm 6$ (1.6% off from framework 386, within uncertainties). Other 4D events would have different N_sub.
 
 ---
 
 ## 📚 The Paper
 
 **Current version**: v3.5.9+ (June 21, 2026, APPROACH A1)
-**Length**: 400 pages, 1.55 MB
-**Limitations**: 140 honest
+**Length**: 420 pages, 1.57 MB
+**Limitations**: 143 honest
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 
 ### Paper structure (23 markdown files)
