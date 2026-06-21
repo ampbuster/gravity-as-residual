@@ -16,7 +16,7 @@ USER'S INSIGHT:
 
 SCALING TESTED:
 - LINEAR: N_sub = E_4D / E_sub (energy conservation)
-  E_sub = 1.25×10⁷⁷ J (fixed per sub-universe)
+  E_sub = 1.295×10⁷⁷ J (REVISED L308z from 1.25×10⁷⁷, N_sub = 386)
 - POWER LAW: N_sub = (E_4D/M_Pl,4D)^k
   Best k = 0.05 → N_sub = 1971 (off by 5x)
 - SURFACE AREA: N_sub ∝ R_4D² in 4D
@@ -27,7 +27,7 @@ SCALING TESTED:
 CONCLUSION: LINEAR SCALING (N_sub = E_4D/E_sub) MATCHES FRAMEWORK.
 
 Physical interpretation:
-- E_sub = 1.25×10⁷⁷ J = 10²⁹ M_sun = "sub-universe" energy
+- E_sub = 1.295×10⁷⁷ J (REVISED L308z from 1.25×10⁷⁷) = 10²⁹ M_sun = "sub-universe" energy
 - N_sub is just E_4D/E_sub (energy conservation)
 - N_sub is NOT a fundamental constant; it depends on E_4D
 

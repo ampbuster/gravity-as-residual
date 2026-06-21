@@ -318,7 +318,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 
 **[v3.5.8 UPDATE, L308o, USER-INSIGHT]**: N_sub is now SEMI-DERIVED (not free):
 - N_sub = $E_{\rm 4D}$ / $E_{\rm sub}$ (LINEAR scaling, energy conservation)
-- $E_{\rm sub}$ = 1.25×10⁷⁷ J (~10²⁹ M_sun, sub-universe scale)
+- $E_{\rm sub}$ = 1.295×10⁷⁷ J (~10²⁹ M_sun, sub-universe scale; REVISED L308z from 1.25×10⁷⁷)
 - For framework's $E_{\rm 4D}$ = 5×10⁷⁹ J, N_sub = 386 (fixed)
 - Different 4D events would give different N_sub (sub-galaxy: N=4, supercluster: N=400,000)
 - τ_sub = τ_4D / N_sub^α
@@ -1432,7 +1432,7 @@ DM comes from 100% pulsed return at 2D universe death.
 ### E) L308o (N_sub linear scaling)
 - User: "n_sub is the number of 2d universe per event is it? maybe it depends on the size of the event"
 - Tested: N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ LINEAR scaling MATCHES framework
-- $E_{\rm sub}$ = 1.25×10⁷⁷ J (~10²⁹ M_sun, sub-universe scale)
+- $E_{\rm sub}$ = 1.295×10⁷⁷ J (~10²⁹ M_sun, sub-universe scale; REVISED L308z from 1.25×10⁷⁷)
 - Different 4D events would give different N_sub (sub-galaxy: N=4, supercluster: N=400,000)
 - N_sub is no longer "free parameter" — SEMI-DERIVED
 

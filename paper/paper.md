@@ -8206,7 +8206,7 @@ L308m. **MCMC parameter convergence: 4/9 strongly pinned, 2/9 framework choices,
 
 L308n. **$\alpha$ = 1 + 1/√12 EXACT first-principles match (NEW v3.5.8, BREAKTHROUGH)**. Schwarzian SYK saddle-point with N=12 gives $\alpha$ = 1.2886751346, matching framework's $\alpha$ = 1.289 within 0.025% — essentially EXACT. N=12 = 12 Majorana = 6 Dirac = 3 generations × 2 (L+R). This DERIVES $\alpha$ from first principles: (1) N=12 justified by SM fermion count, (2) 1/√N from Schwarzian coefficient, (3) $\alpha$ = 1 + c_s where c_s is the time-fluctuation exponent. **L43 (Lagrangian skeleton → $\alpha$) OPEN → PARTIAL**. First-principles progress: 1/9 (was 0/9). Remaining: full combined Z = Z_Liouville × Z_Schwarzian × Z_SYK path integral, cross-couplings. Source: `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
-L308o. **N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ scales linearly (NEW v3.5.8, USER-INSIGHT)**. User suggested N_sub might depend on event size. Tested scalings: linear (N_sub = $E_{\rm 4D}$/$E_{\rm sub}$) MATCHES framework with $E_{\rm sub}$ = 1.25×10⁷⁷ J. Other power laws (k=0.05 to 1.0) give off by factors 5 to 10³⁰. Surface area / volume scalings in 4D give off by 10⁶⁵. **N_sub is NOT a fundamental constant; it derives from $E_{\rm 4D}$ via energy conservation** ($E_{\rm 4D}$ = N_sub × $E_{\rm sub}$). For our specific $E_{\rm 4D}$ = 5×10⁷⁹ J, N_sub = 386. Different 4D events would give different N_sub (sub-galaxy: N=4, supercluster: N=400,000). Status: SEMI-DERIVED — N_sub is no longer "free parameter" but $E_{\rm sub}$ itself is framework choice. L308n first-principles progress: 2/9 (was 1/9). Source: `calculations/v35_n_sub_scaling.py`.
+L308o. **N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ scales linearly (NEW v3.5.8, USER-INSIGHT)**. User suggested N_sub might depend on event size. Tested scalings: linear (N_sub = $E_{\rm 4D}$/$E_{\rm sub}$) MATCHES framework with $E_{\rm sub}$ = 1.295×10⁷⁷ J (N_sub = 386, rounded from 386.5). Other power laws (k=0.05 to 1.0) give off by factors 5 to 10³⁰. Surface area / volume scalings in 4D give off by 10⁶⁵. **N_sub is NOT a fundamental constant; it derives from $E_{\rm 4D}$ via energy conservation** ($E_{\rm 4D}$ = N_sub × $E_{\rm sub}$). For our specific $E_{\rm 4D}$ = 5×10⁷⁹ J, N_sub = 386. Different 4D events would give different N_sub (sub-galaxy: N=4, supercluster: N=400,000). Status: SEMI-DERIVED — N_sub is no longer "free parameter" but $E_{\rm sub}$ itself is framework choice. L308n first-principles progress: 2/9 (was 1/9). Source: `calculations/v35_n_sub_scaling.py`.
 
 L308p. **Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8, USER-INSIGHT)**. User asked if N_sub scaling applies at 2D level too. Tested: linear scaling N_2D_per_event = $E_{\rm event}$/E_2D_ref at 2D gives SN creating 10⁶⁵ 2D universes per event, vastly overproducing DM (off by 10⁶⁵). Therefore the cone has DIFFERENT scaling rules at different levels: 4D → 3+1D is linear (universe-creating); 3+1D → 2D is one-to-one (universe-modifying). This asymmetry is CONSTRAINED by DM observation, not free. 4D level is "transcendent" (bulk), 3+1D level is "internal" (within universe). Each transition has its own scaling law, and 1:1 at 2D level is REQUIRED by DM abundance. Source: `calculations/v35_n_sub_scaling.py` (extended).
 
@@ -8357,7 +8357,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 **2. $4\pi$ geometric factor in $\gamma_{\rm 4D}$ = $4\pi$ × $\gamma_{\rm sub}$**: Tested 6 candidates (S³ surface, solid angle, Gauss law, holographic, S³×R topology, AdS isometry). Best candidate: $4\pi$ = surface area of unit 3-sphere S³ (i.e., 4D bulk's S³ boundary). Status: PARTIAL (structural, not derived).
 
-**3. N_sub = 3.86×10² first-principles**: Energy conservation $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ gives $E_{\rm sub}$ = 1.25×10⁷⁷ J (~cluster mass). No physical principle determines N_sub. Status: FREE (L144 OPEN).
+**3. N_sub = 3.86×10² first-principles**: Energy conservation $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ gives $E_{\rm sub}$ = 1.295×10⁷⁷ J (~cluster mass, N_sub = 386 = $E_{\rm 4D}$/$E_{\rm sub}$, REVISED L308z). No physical principle determines N_sub. Status: FREE (L144 OPEN).
 
 **4. $\mu$ = $M_{\rm Pl,2D}^2$ first-principles (PARTIAL CLOSURE via L308r)**: DERIVED via N $\times$ $v_{\rm Higgs}$ chain: $\mu$ = (12 $\times$ 246)$^2$ = $8.73 \times 10^{6}$ GeV$^2$ (3% off framework's $9 \times 10^{6}$). Combines $\alpha$ = 1 + 1/$\sqrt{12}$ (L308n first-principles), $v_{\rm Higgs}$ (measured), N = 12 (structural). Status: **DERIVED** (L308r).
 
@@ -8885,7 +8885,7 @@ N_sub counts the 3+1D sub-universes in the multi-universe picture.
 
 Tested scalings: N_sub ∝ $E_{\rm 4D}$^k for various k.
 
-**Best fit: LINEAR (N_sub = $E_{\rm 4D}$ / $E_{\rm sub}$)** where $E_{\rm sub}$ = 1.25×10⁷⁷ J.
+**Best fit: LINEAR (N_sub = $E_{\rm 4D}$ / $E_{\rm sub}$)** where $E_{\rm sub}$ = 1.295×10⁷⁷ J (N_sub = 386, REVISED L308z from 1.25×10⁷⁷).
 
 This is essentially ENERGY CONSERVATION: total event energy $E_{\rm 4D}$ split into N_sub sub-universes, each with fixed energy $E_{\rm sub}$.
 
@@ -8931,7 +8931,7 @@ N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ makes N_sub a function of $E_{\rm 4D}$ (not f
 
 **Progress: 2/9 first-principles** ($M_{\rm Pl,3D}$ + $\alpha$). N_sub moved from Tier 2 (free) to SEMI-DERIVED.
 
-### Physical Meaning of $E_{\rm sub}$ = 1.25×10⁷⁷ J
+### Physical Meaning of $E_{\rm sub}$ = 1.295×10⁷⁷ J (REVISED L308z, was 1.25×10⁷⁷ in L308o)
 
 $E_{\rm sub}$ is about 10²⁹ M_sun (10²⁹ × solar mass), which is much bigger than the observable universe mass (~10²³ M_sun). $E_{\rm sub}$ represents:
 - (a) Minimum energy to form a stable 3+1D sub-universe
