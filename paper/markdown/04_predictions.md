@@ -500,11 +500,11 @@ This subsection attempts to derive the empirical g₊ acceleration scale from SI
 From $S_{creation} = -\alpha \int d^4x \sqrt{-g} T^{SM}_{\mu\nu} \int d^2\sigma \sqrt{-\gamma} \eta^{\mu\nu} \delta^{(4)}(x - X(\sigma))$:
 
 A single 3+1D energetic event with stress-energy $T^{SM}_{\mu\nu}(x) = \rho_{event} \delta^{(3)}(x - x_{event})$ creates a 2D brane at $X(\sigma)$ with energy:
-$$E_{2D} = \alpha \cdot E_{event}$$
+$$E_{\rm 2D} = \alpha \cdot E_{event}$$
 
 The 2D brane's back-projected gravitational field in 3+1D (at distance $r$ from the event) is:
-$$\delta g_+(r) = \frac{G_{2D} \cdot E_{2D} / c^2}{L_{2D} \cdot r}$$
-(2D universe has line density $\lambda_{2D} = E_{2D}/(L_{2D} c^2)$, producing 1/r force in 3+1D after back-projection)
+$$\delta g_+(r) = \frac{G_{2D} \cdot E_{\rm 2D} / c^2}{L_{2D} \cdot r}$$
+(2D universe has line density $\lambda_{2D} = E_{\rm 2D}/(L_{2D} c^2)$, producing 1/r force in 3+1D after back-projection)
 
 *Total back-projected $g_+$ at a point $x_0$ from all 2D universes:*
 

@@ -253,7 +253,7 @@ This section audits 5 specific concerns about the 4D math. Full numerical analys
 
 **(2) Time direction.** SIDC's time-dilation rule T_3+1D = T_4D / $\epsilon_{\rm 3}$+1D with $\epsilon_{\rm 3}$+1D $\sim 1 \times 10^{-38}$ gives T_4D $\sim 1 \times 10^{-21}$ s and L_4D $\sim 1 \times 10^{-12}$ m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
 
-**(3) Energy conservation.** SIDC's energy budget: 32% of $E_{4D}$ projects to 3+1D (5% direct matter + 27% cumulative 2D universe DM), and 68% remains as 4D antigravity (which we observe as 3+1D's dark energy). This is self-consistent under careful interpretation of "projection" — the 68% DE in 3+1D is the *back-projected antigravity* of the 4D event, not the 68% of $E_{4D}$ that didn't project. Total energy is conserved via Stoke's theorem in the action (§2.5.1).
+**(3) Energy conservation.** SIDC's energy budget: 32% of $E_{\rm 4D}$ projects to 3+1D (5% direct matter + 27% cumulative 2D universe DM), and 68% remains as 4D antigravity (which we observe as 3+1D's dark energy). This is self-consistent under careful interpretation of "projection" — the 68% DE in 3+1D is the *back-projected antigravity* of the 4D event, not the 68% of $E_{\rm 4D}$ that didn't project. Total energy is conserved via Stoke's theorem in the action (§2.5.1).
 
 **(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires $\sim 1 \times 10^{-19}$ hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
 
@@ -402,7 +402,7 @@ Per user question "can't we trial-and-error on the free parameters?", this secti
 **Q1 & Q4: Can trial-and-error give 32% projection efficiency?** YES.
 
 For f_split = 0.32 (SIDC's 32%/68% split between projected and antigravity, NOT to be confused with the back-projection efficiency f_proj used elsewhere in the paper), the bulk-brane coupling $\alpha$ must be at a specific order of magnitude:
-- For $E_{4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events $\sim 1 \times 10^{10}$ (total SN in 13.8 Gyr), $E_{\rm event}$ $\sim 1 \times 10^{44}$ J, $\tau_{2D} \sim 0.7$ Gyr:
+- For $E_{\rm 4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events $\sim 1 \times 10^{10}$ (total SN in 13.8 Gyr), $E_{\rm event}$ $\sim 1 \times 10^{44}$ J, $\tau_{2D} \sim 0.7$ Gyr:
 - $\alpha$ ~ 0.03-0.3 gives f_split ≈ 0.32
 
 The coupling $\alpha$ is NOT free — it's constrained to $\alpha$ ~ 0.03-0.3 by the observed 68% dark energy. This **partially closes Limitation 26** by reducing the free parameters from 5 to 3.
@@ -447,7 +447,7 @@ But the empirical 33 s lifetime gives $f_{\rm active} \sim 10^{-17}$, NOT 0.05. 
 
 **HISTORICAL (Mechanism M era):** SIDC's Mechanism M era claimed $H_0 = 73$ as a borrowed value from SH0ES. This was a postdiction, not a derivation, and was removed in v2.5 commit 281.
 
-**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is $0.2\sigma$ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
+**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is $0.2\sigma$ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{\rm 4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
 
 A 2D CFT calculation is needed to derive the specific active boost and cumulative drag from first principles. SIDC's contribution is the *qualitative* framework ($H_0 = 70$ ± 3), not a specific number.
 

@@ -269,7 +269,7 @@ SIDC's HONEST position (Mechanism M):
 
 10. **No precise threshold or weighting function for "energetic event" contributions.** The model proposes that *all* energetic events contribute to dark matter, with each event's gravitational contribution weighted by its energy. The simplest reading is that the cumulative dark matter density is proportional to the *average* energetic event rate per unit visible mass, weighted by event energy. This is consistent with the radial acceleration relation (§4.1). However, the *quantitative* proportionality constant and the precise weighting function (linear in event energy? power law? something else?) are not derived. A specific geometry and event spectrum would be required to compute these quantities. The qualitative principle (dark matter tracks average activity) is robust to the choice of weighting, but the *quantitative* predictions depend on the details.
 
-11. **SIDC's UPWARD direction is OPEN; the DOWNWARD direction is also open in principle (with cone-shape as a viable early-termination alternative).** The model assumes the 4D event is an *ongoing* energetic process with some total energy budget $E_{4D}$ (per §2.2). The model does *not* specify where this energy comes from. It is possible (and the model does not exclude) that the 4D event is itself a *projection* from a 5D (or 6D, 7D, ..., ND) process, in which case SIDC continues *upward indefinitely*. **There is no reason to think 4D is the top.** For the *downward* direction, two architectural choices are consistent with all data:
+11. **SIDC's UPWARD direction is OPEN; the DOWNWARD direction is also open in principle (with cone-shape as a viable early-termination alternative).** The model assumes the 4D event is an *ongoing* energetic process with some total energy budget $E_{\rm 4D}$ (per §2.2). The model does *not* specify where this energy comes from. It is possible (and the model does not exclude) that the 4D event is itself a *projection* from a 5D (or 6D, 7D, ..., ND) process, in which case SIDC continues *upward indefinitely*. **There is no reason to think 4D is the top.** For the *downward* direction, two architectural choices are consistent with all data:
 
 (a) **Scale-invariance / infinite SIDC (the principled default).** Every energetic event creates a child universe, regardless of scale. SIDC is open in *both* directions. Lower-D universes (1D, 0D, etc.) are interpreted either as literal-but-rare (regulated by $\rho_{crit}$ at each level) or as 2D-like with one spatial direction hugely compressed (braneworld picture).
 
@@ -2037,7 +2037,7 @@ Closed loop (forces f_leak too fast):
         ↓
 E_4D = M_Pl,4D × (τ_4D/t_Pl)^(1/α) = 3.12e89 GeV
         ↓
-γ_4D = (E_4D/M_Pl,3D)^α = 5.93e90  ← DERIVED (literal time dilation)
+γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93e90  ← DERIVED (literal time dilation)
         ↓
 f_leak = α × f_back (v3.0.21 naming: $f_{\rm DE}$ for 3D→4D continuous leakage) × γ_4D^(1/α²) = 2.59e-2 /s ← WAY TOO FAST (if used, HISTORICAL §3.67 formula REPLACED by f_leak = H_0 in A1)
 ```
@@ -2064,8 +2064,8 @@ The framework has multiple γ values across different transitions:
 
 | γ | Formula | Status | Interpretation |
 |---|---|---|---|
-| γ_4D | (E_4D/M_Pl,3D)^α | DERIVED | Literal time dilation |
-| γ_2D | (E_3D/M_Pl,3D)^α | DERIVED | Literal time dilation (5.5e44 for SN) |
+| γ_4D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | DERIVED | Literal time dilation |
+| γ_2D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | DERIVED | Literal time dilation (5.5e44 for SN) |
 
 **Both γ values are LITERAL TIME DILATION** — consistent with each other.
 
@@ -2097,7 +2097,7 @@ This separates concerns cleanly:
 | Quantity | Before (Path B2) | After (A1) |
 |---|---|---|
 | γ_4D | 1.12×10⁶⁴ (calibrated) | **5.93×10⁹⁰ (DERIVED, reinstated)** |
-| γ_4D formula | decoupled | (E_4D/M_Pl,3D)^α (REINSTATED) |
+| γ_4D formula | decoupled | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ (REINSTATED) |
 | f_leak | 2.18×10⁻¹⁸ /s = H_0 | **2.18×10⁻¹⁸ /s = H_0** (same) |
 | f_leak source | γ_4D calibrated to give H_0 | **H_0 directly (NEW principle)** |
 | τ_DM | 14.5 Gyr | **14.5 Gyr** (same) |
@@ -2135,7 +2135,7 @@ The framework now has three independent "rates":
 **2. γ_4D AND γ_2D interpretations are consistent (L308x, L308aa reverted):**
 - γ_4D = literal time dilation at 4D level
 - γ_2D = literal time dilation at 2D level
-- Both use the same formula (E_parent/M_Pl,child)^α
+- Both use the same formula $(E_{\rm parent}/M_{\rm Pl,child})^{\alpha}$
 - Cone is symmetric in HAVING time dilation, asymmetric in MAGNITUDE (γ_4D >> γ_2D)
 
 **3. AGC/KKR predictions work:**
@@ -2164,7 +2164,7 @@ The framework now has three independent "rates":
 
 - **f_leak = H_0 first-principles**: H_0 is observed, not derived. Future research could derive f_leak from a deeper principle (e.g., N=12 structure, F-theory geometry, or Schwarzian dynamics). STATUS: PARTIALLY CLOSED (calibrated/observed).
 - **§3.67 1.4% match**: Now a coincidence. May yet be derivable. STATUS: OPEN (derivation target).
-- **γ_4D derivation**: γ_4D = (E_4D/M_Pl,3D)^α is derived, but the PHYSICAL INTERPRETATION (time dilation vs back-flow efficiency) is ambiguous. STATUS: STRUCTURAL.
+- **γ_4D derivation**: γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ is derived, but the PHYSICAL INTERPRETATION (time dilation vs back-flow efficiency) is ambiguous. STATUS: STRUCTURAL.
 
 ### Files Modified
 
@@ -2428,8 +2428,8 @@ L308w. **f_leak = H_0 IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** (v3.5.9+, 
 **New principle**: f_leak = H_0 = 2.18×10⁻¹⁸ /s
 
 **What's preserved**:
-- γ_4D = (E_4D/M_Pl,3D)^α = 5.93×10⁹⁰ (DERIVED, literal time dilation)
-- γ_2D = (E_3D/M_Pl,3D)^α = 5.5e44 (literal time dilation, per L308x)
+- γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93×10⁹⁰ (DERIVED, literal time dilation)
+- γ_2D = $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ = 5.5e44 (literal time dilation, per L308x)
 - Both γ values: consistent (literal time dilation)
 - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
 - τ_4D,proper = 1.51×10³⁴ yr (DE-exact, unchanged)
@@ -2462,17 +2462,17 @@ L308x. **γ_4D AND γ_2D ARE BOTH LITERAL TIME DILATION** (v3.5.9+, A1, structur
 
 **Structural consistency**: In Approach A1, both γ values across cascade transitions have the SAME interpretation (literal time dilation):
 
-- γ_4D = (E_4D/M_Pl,3D)^α = 5.93×10⁹⁰ — 4D event's lifetime is time-dilated in 3D frame
-- γ_2D = (E_3D/M_Pl,3D)^α = 5.5×10⁴⁴ (SN) — 2D universe's lifetime is time-dilated
+- γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93×10⁹⁰ — 4D event's lifetime is time-dilated in 3D frame
+- γ_2D = $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ = 5.5×10⁴⁴ (SN) — 2D universe's lifetime is time-dilated
 
-Both use the formula (E_event/M_Pl,parent)^α. Both represent dimensionless time dilation factors.
+Both use the formula $(E_{\rm event}/M_{\rm Pl,parent})^{\alpha}$. Both represent dimensionless time dilation factors.
 
 **FRAME OF REFERENCE (CRITICAL CLARIFICATION)**:
 
 | Transition | γ formula | Proper time (event's own frame) | Observed time (3D frame) | γ value | Direction |
 |---|---|---|---|---|---|
-| 2D → 3D | (E_3D/M_Pl,3D)^α | **5.7×10³⁸ yr** (2D's own frame, SN) | **33 s** (3D frame) | γ_2D = 5.5×10⁴⁴ | Time is COMPRESSED in 3D |
-| 4D → 3D | (E_4D/M_Pl,3D)^α | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | γ_4D = 5.93×10⁹⁰ | Time is STRETCHED in 3D |
+| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | **5.7×10³⁸ yr** (2D's own frame, SN) | **33 s** (3D frame) | γ_2D = 5.5×10⁴⁴ | Time is COMPRESSED in 3D |
+| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | γ_4D = 5.93×10⁹⁰ | Time is STRETCHED in 3D |
 
 **Key insight (L308x v3)**: 
 - γ = (lower-D proper time) / (higher-D observed time) [when looking from above]
@@ -2565,7 +2565,7 @@ Source: user message 2026-06-21 "wait, n_sub should be based on event size? not 
 L308aa. **γ_2D = 5.5e44 (TIME DILATION EXISTS AT 2D LEVEL) — REVERTED** (v3.5.9+, USER-CORRECTION).
 
 **Initial claim (L308aa v1)**: γ_2D = 1 (no time dilation at 2D-3D).
-**User correction**: γ_2D = (E_3D/M_Pl,3D)^α = 5.5e44 (time dilation DOES exist at 2D-3D).
+**User correction**: γ_2D = $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ = 5.5e44 (time dilation DOES exist at 2D-3D).
 **L308aa is REVERTED — L308x stands as originally stated.**
 
 User: "wait, why no time dilation? it should exist at both 2d-3d and 3d-4d no?"
@@ -2576,8 +2576,8 @@ User: "wait, why no time dilation? it should exist at both 2d-3d and 3d-4d no?"
 
 | Transition | γ formula | γ value (SN / universe) | Frame interpretation |
 |---|---|---|---|
-| 2D → 3D | (E_3D/M_Pl,3D)^α | 5.5e44 (SN) | 2D's Planck-time existence → 33s in 3D |
-| 4D → 3D | (E_4D/M_Pl,3D)^α | 5.93e90 (universe) | 4D's 1.51e34 yr → 8.95e124 yr in 3D |
+| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | 5.5e44 (SN) | 2D's Planck-time existence → 33s in 3D |
+| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | 5.93e90 (universe) | 4D's 1.51e34 yr → 8.95e124 yr in 3D |
 
 Both have time dilation. The "asymmetry" is in MAGNITUDE (γ_4D >> γ_2D), not in PRESENCE.
 

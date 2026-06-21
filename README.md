@@ -114,8 +114,8 @@ The framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory: 10D Typ
 
 | Transition | γ formula | Proper time (in event's frame) | Observed time (in 3D) | γ value |
 |---|---|---|---|---|
-| 2D → 3D | (E_3D/M_Pl,3D)^α | 5.7×10³⁸ yr (2D's own frame, SN) | 33 s (3D frame) | γ_2D = 5.5×10⁴⁴ (LARGE) |
-| 4D → 3D | (E_4D/M_Pl,3D)^α | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | γ_4D = 5.93×10⁹⁰ (LARGER) |
+| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | 5.7×10³⁸ yr (2D's own frame, SN) | 33 s (3D frame) | γ_2D = 5.5×10⁴⁴ (LARGE) |
+| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | γ_4D = 5.93×10⁹⁰ (LARGER) |
 
 Both γ > 1, both represent LITERAL TIME DILATION (L308x). The cone is ASYMMETRIC in direction:
 - **2D level**: γ_2D stretches time in 2D's own frame (2D universe lives 5.7e38 yr in 2D, only 33s in 3D)

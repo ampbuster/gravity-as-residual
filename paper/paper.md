@@ -264,7 +264,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 
 | Previously "calibrated" | Current status | Derivation |
 |------------------------|----------------|------------|
-| $f_{back} = 8.6 \times 10^{-86}$ | **DERIVED** | $f_{back} = \epsilon \times (E_{4D}/M_{Pl}^4)$ where $\epsilon$ is the bulk-brane coupling and $E_{4D}/M_{Pl}^4 \sim 10^{-47}$ is the 4D event's energy ratio. The composite model (§3.60) gives $f_{back} = c/\alpha_{BR}$-powered formula with $c = 1/2$ (Ising) and $\alpha_{BR} = 1.289$ (N=12 SYK). |
+| $f_{back} = 8.6 \times 10^{-86}$ | **DERIVED** | $f_{back} = \epsilon \times (E_{\rm 4D}/M_{Pl}^4)$ where $\epsilon$ is the bulk-brane coupling and $E_{\rm 4D}/M_{Pl}^4 \sim 10^{-47}$ is the 4D event's energy ratio. The composite model (§3.60) gives $f_{back} = c/\alpha_{BR}$-powered formula with $c = 1/2$ (Ising) and $\alpha_{BR} = 1.289$ (N=12 SYK). |
 | $\epsilon$ $\sim 10^{-38}$ | **DERIVED** | $\epsilon = e^{-kL}$ (Randall-Sundrum II bulk-brane coupling), where $k$ is the AdS curvature and $L$ is the brane distance. Both follow from the bulk geometry ($\mu$, $m_{3+1D}$). The standard RS-II mechanism derives the hierarchy from geometry. |
 | $F_p(0) = 0.9993$ | **DROPPED v3.3+** | F_p(z) Hill function framework was DROPPED in v3.3 (per L100, user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`. |
 
@@ -303,7 +303,7 @@ This is not a derivation. **(HISTORICAL v2.7-v3.0):** SIDC had 2 free parameters
 All other values in SIDC are *derived* from the cascade structure:
 - $\alpha = 1.289$ from N=12 SYK saddle-point argument
 - $c = 1/2$ from N/24 (Ising CFT)
-- $f_{back} = 8.6 \times 10^{-86}$ from $\epsilon \times (E_{4D}/M_{Pl}^4)$ — bulk-brane coupling × 4D event energy ratio
+- $f_{back} = 8.6 \times 10^{-86}$ from $\epsilon \times (E_{\rm 4D}/M_{Pl}^4)$ — bulk-brane coupling × 4D event energy ratio
 - $\epsilon = e^{-kL}$ from Randall-Sundrum II bulk-brane coupling (RS-II mechanism)
 - $F_p(0) = 0.9993$ — **DROPPED v3.3+** (see L100 and `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`)
 
@@ -345,7 +345,7 @@ This is a *scale-invariant* principle. The same mechanism operates at every ener
 
 This is a *speculative* extension of the model. The model does not currently require the existence of these other 3+1D universes; it only requires that *our* universe corresponds to the 4D event (or some part of it). But the scale-invariant principle, taken seriously, implies them.
 
-We emphasize that these smaller events do *not* re-create our universe. They create *separate* universes, in separate dimensional subspaces, with their own physics and their own lifetimes. From our 3+1 dimensional perspective, the 2D universes' lifetimes in *our* frame scale with the creating event's energy, via the *energy-scaling rule* $\tau_{2D}^{our frame} = t_{Pl,3} \times (E_D / E_{Pl,3})^\alpha$ with $\alpha \approx 1.29$ (calibrated to the SN 33s point; see §10.1 for the full derivation and §10.9 for sensitivity analysis). **Caveat:** this energy-scaling rule is *specifically calibrated to supernova-scale events*. The §4.48 two-component model introduces $F_p \sim 0.7$ *primordial* 2D universes whose per-event energy $E_{\rm primordial}$ was UNSPECIFIED in v2.7.4-64 (Limitation 34). The v2.7.65 §3.40 L51 derivation attempt constrained $E_{\rm primordial}$ to $\sim 10^{22}\,M_\odot$ ($E_{4D}$ at the 4D event scale, galaxy-cluster level), but the per-event energy of primordial 2D universes is still partially OPEN (L51 PARTIAL). The lifetime of primordial 2D universes may differ from the SN-calibrated rule by a factor that depends on $E_{\rm primordial}$. Working out specific examples: a small event (LHC collision, ~14 TeV$\sim 2.2 \times 10^{-6}$ J) creates a 2D universe that lasts $\sim 3 \times 10^{-63}$ seconds in our frame (essentially instantaneous); a large event (supernova, $E \sim 10^{44}$ J for the kinetic energy of the ejecta) creates a 2D universe that lasts $\sim 33$ seconds in our frame; even larger events (hypernova, $E \sim 10^{46}$ J) create 2D universes that last $\sim 3.5$ hr, long GRBs ($E \sim 10^{47}$ J) create 2D universes that last $\sim 2.8$ d, BNS mergers ($E \sim 10^{53}$ J) create 2D universes that last $\sim 4.3 \times 10^{5}$ years, and AGN outbursts ($E \sim 10^{55}$ J) create 2D universes that last $\sim 1.6 \times 10^{8}$ years. *Note*: an earlier version of this section used the simpler *spatial-extent* rule $\tau_{2D}^{our frame} \sim \ell_{event} / c$ (giving $\sim 3 \times 10^{-24}$ s for the LHC and $\sim 33$ s for the SN). This spatial rule and the energy rule give the *same* answer for the SN calibration point but *different* predictions for other events. The energy-scaling rule is preferred because (a) it correctly captures the qualitative principle "lower-energy events create shorter-lived 2D universes" (per the user-SIDC conversation establishing the relativistic-particle analogy in §10.2), and (b) it provides a *quantitative* framework for extrapolating to cosmological-scale events (§10.4). The spatial-extent rule is a *first-order approximatelyimation* valid when $\ell_{event}$ and $E_{event}$ are correlated, but it fails for events where the two scales decouple (LHC: small $\ell$, high $E$; AGN: large $\ell$, high $E$). The energy-scaling rule in §10 supersedes the earlier spatial-extent example. The 2D universes are *not* all "essentially instantaneous" in our frame — only the very small ones are. From the perspective of each tiny universe, that brief moment in our frame is the entirety of *its* cosmic history. The dimensional time-dilation principle applies in both directions: a brief event in our frame can be a complete cosmic history in the lower-dimensional universe's frame.
+We emphasize that these smaller events do *not* re-create our universe. They create *separate* universes, in separate dimensional subspaces, with their own physics and their own lifetimes. From our 3+1 dimensional perspective, the 2D universes' lifetimes in *our* frame scale with the creating event's energy, via the *energy-scaling rule* $\tau_{2D}^{our frame} = t_{Pl,3} \times (E_D / E_{Pl,3})^\alpha$ with $\alpha \approx 1.29$ (calibrated to the SN 33s point; see §10.1 for the full derivation and §10.9 for sensitivity analysis). **Caveat:** this energy-scaling rule is *specifically calibrated to supernova-scale events*. The §4.48 two-component model introduces $F_p \sim 0.7$ *primordial* 2D universes whose per-event energy $E_{\rm primordial}$ was UNSPECIFIED in v2.7.4-64 (Limitation 34). The v2.7.65 §3.40 L51 derivation attempt constrained $E_{\rm primordial}$ to $\sim 10^{22}\,M_\odot$ ($E_{\rm 4D}$ at the 4D event scale, galaxy-cluster level), but the per-event energy of primordial 2D universes is still partially OPEN (L51 PARTIAL). The lifetime of primordial 2D universes may differ from the SN-calibrated rule by a factor that depends on $E_{\rm primordial}$. Working out specific examples: a small event (LHC collision, ~14 TeV$\sim 2.2 \times 10^{-6}$ J) creates a 2D universe that lasts $\sim 3 \times 10^{-63}$ seconds in our frame (essentially instantaneous); a large event (supernova, $E \sim 10^{44}$ J for the kinetic energy of the ejecta) creates a 2D universe that lasts $\sim 33$ seconds in our frame; even larger events (hypernova, $E \sim 10^{46}$ J) create 2D universes that last $\sim 3.5$ hr, long GRBs ($E \sim 10^{47}$ J) create 2D universes that last $\sim 2.8$ d, BNS mergers ($E \sim 10^{53}$ J) create 2D universes that last $\sim 4.3 \times 10^{5}$ years, and AGN outbursts ($E \sim 10^{55}$ J) create 2D universes that last $\sim 1.6 \times 10^{8}$ years. *Note*: an earlier version of this section used the simpler *spatial-extent* rule $\tau_{2D}^{our frame} \sim \ell_{event} / c$ (giving $\sim 3 \times 10^{-24}$ s for the LHC and $\sim 33$ s for the SN). This spatial rule and the energy rule give the *same* answer for the SN calibration point but *different* predictions for other events. The energy-scaling rule is preferred because (a) it correctly captures the qualitative principle "lower-energy events create shorter-lived 2D universes" (per the user-SIDC conversation establishing the relativistic-particle analogy in §10.2), and (b) it provides a *quantitative* framework for extrapolating to cosmological-scale events (§10.4). The spatial-extent rule is a *first-order approximatelyimation* valid when $\ell_{event}$ and $E_{event}$ are correlated, but it fails for events where the two scales decouple (LHC: small $\ell$, high $E$; AGN: large $\ell$, high $E$). The energy-scaling rule in §10 supersedes the earlier spatial-extent example. The 2D universes are *not* all "essentially instantaneous" in our frame — only the very small ones are. From the perspective of each tiny universe, that brief moment in our frame is the entirety of *its* cosmic history. The dimensional time-dilation principle applies in both directions: a brief event in our frame can be a complete cosmic history in the lower-dimensional universe's frame.
 
 **Implication for dark matter.** Each of these tiny universes created by 3+1 dimensional events has its own gravity (a small replica of the same dimensional-projection mechanism that creates gravity in our universe). By the same logic as §2.4, the 3+1 dimensional event's gravity is *inverted* (antigravity) when projected into the 2D universe, and the un-cancelled fraction of this antigravity is the 2D universe's *internal* dark energy. The 2D universe's own *attractive* gravity, projected back into our 3+1 dimensional frame, is what we observe as *dark matter*. Dark matter, in this picture, is not a particle at all, but a *collective gravitational signature* of all the lower-dimensional universes (active + cumulative, per §2.5, §4.2). The 2D universe's *antigravity* is *internal* to the 2D universe (its own dark energy, in 2D), and does *not* project back to 3+1D as a separate effect. *Note*: dark energy in the *3+1D* frame is *separately* the 4D event's un-cancelled antigravity (§2.4), not the cumulative 2D universe antigravity. The dark matter and the 3+1D dark energy arise from *different* dimensional projections: dark matter from 2D → 3+1D back-projection, dark energy from 4D → 3+1D projection. The two are *distinct in their dimensional origin* but *complementary* in their effect on the 3+1D universe.
 
@@ -449,9 +449,9 @@ $$n_{2D} \sim R \cdot \tau_{2D}$$
 
 Each active 2D universe contributes some gravitational effect to our 3+1 dimensional frame, with effective coupling $G_{2D}^{projected}$ (the projected 2D gravity, per SIDC principle of §2.4). The total dark matter *energy density* in our frame is approximately:
 
-$$\rho_{DM} \sim n_{2D} \cdot E_{2D} \cdot (G_{2D}^{projected} / G_{4D})$$
+$$\rho_{DM} \sim n_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$$
 
-where $E_{2D}$ is the characteristic energy of a 2D universe, and $(G_{2D}^{projected} / G_{4D})$ is the ratio of the projected 2D gravity to the native 4D gravity (a small number, by SIDC cancellation). The observed dark matter fraction of the universe's mass-energy budget is ~27%, which would constrain the product $R \cdot \tau_{2D} \cdot E_{2D} \cdot (G_{2D}^{projected} / G_{4D})$. The model does not currently derive this product from first principles, but the order of magnitude is *plausible*: in a typical galaxy, the event rate is $R \sim 10^{-2}$ supernovae per year per galaxy (with smaller events at much higher rates), $\tau_{2D}$ for a supernova-scale event is$\sim 33$ s (per the dimensional time-dilation rule $\ell/c$ with $\ell_{event} \sim 10^{10}$ m and $c \sim 3 \times 10^8$ m/s), and $(G_{2D}^{projected} / G_{4D})$ is a small ratio set by the dimensional SIDC cancellation. The cumulative effect being of order the observed dark matter density is therefore *qualitatively* plausible, but a *quantitative* derivation is left to future work.
+where $E_{\rm 2D}$ is the characteristic energy of a 2D universe, and $(G_{2D}^{projected} / G_{4D})$ is the ratio of the projected 2D gravity to the native 4D gravity (a small number, by SIDC cancellation). The observed dark matter fraction of the universe's mass-energy budget is ~27%, which would constrain the product $R \cdot \tau_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$. The model does not currently derive this product from first principles, but the order of magnitude is *plausible*: in a typical galaxy, the event rate is $R \sim 10^{-2}$ supernovae per year per galaxy (with smaller events at much higher rates), $\tau_{2D}$ for a supernova-scale event is$\sim 33$ s (per the dimensional time-dilation rule $\ell/c$ with $\ell_{event} \sim 10^{10}$ m and $c \sim 3 \times 10^8$ m/s), and $(G_{2D}^{projected} / G_{4D})$ is a small ratio set by the dimensional SIDC cancellation. The cumulative effect being of order the observed dark matter density is therefore *qualitatively* plausible, but a *quantitative* derivation is left to future work.
 
 **Dimensional time-dilation rule.** The paper has assumed that a brief event in our 3+1 dimensional frame creates a complete cosmic history in the lower-dimensional universe, with a lifetime in our frame that scales with the event's spatial extent. The simplest dimensional rule is:
 
@@ -639,9 +639,9 @@ Summing: $\int d^4x \nabla_\mu T^{total \mu\nu} = 0 + 0 + \int d^2\sigma \nabla_
 *The* $\tau_{2D} = L_{event}/c$ *postulate:*
 
 SIDC's $\tau_{2D} = L_{event}/c$ is a *postulate* in the current framework. It is *consistent* with 2D gravitational dynamics if the 2D brane's gravitational timescale is its dominant timescale:
-$$\tau_{grav, 2D} = \frac{L_{2D}}{\sqrt{G_{2D} \cdot E_{2D} / L_{2D}}} \sim \frac{L_{2D}}{c} \quad (\text{natural units})$$
+$$\tau_{grav, 2D} = \frac{L_{2D}}{\sqrt{G_{2D} \cdot E_{\rm 2D} / L_{2D}}} \sim \frac{L_{2D}}{c} \quad (\text{natural units})$$
 
-So $\tau_{2D} = L_{event}/c$ emerges if the 2D brane's evolution time is set by its size and 2D gravity is "mild" (i.e., $G_{2D} E_{2D} \sim c^2$). This is a *consistency check*, not a derivation. A specific implementation would need the 2D brane action to be fully specified, which is the unfinished business of fundamental physics (Limitation 26).
+So $\tau_{2D} = L_{event}/c$ emerges if the 2D brane's evolution time is set by its size and 2D gravity is "mild" (i.e., $G_{2D} E_{\rm 2D} \sim c^2$). This is a *consistency check*, not a derivation. A specific implementation would need the 2D brane action to be fully specified, which is the unfinished business of fundamental physics (Limitation 26).
 
 *Comparison to standard brane-world physics:*
 
@@ -775,7 +775,7 @@ The 16/17 test categories and 7/7 specific cases are preserved. SIDC's phenomeno
 
 ### 2.6 The energy budget, the cosmological constant, and the bulk-brane SIDC
 
-**Energy conservation is standard.** The model does not propose a new conservation law. Energy is conserved in the usual sense: the 4D event is an *ongoing* energetic process with some total energy budget $E_{4D}$ (integrated over its full duration in 4D time), and our 3+1 dimensional universe's total mass-energy is the portion of that total energy that has been *delivered* to the brane during our universe's lifetime (a brief slice of the 4D event's full duration). The *simplest* interpretation is that *all* of the 4D event's energy is delivered to the 3+1D brane, and the standard conservation law applies at the level of *total* energy. However, SIDC's dimensional projection might not be 100% efficient — some of the 4D event's energy could go into other SIDC products (e.g., into the bulk, into other child universes, or into 4D gravitational radiation), or be radiated away. The 4D event's *full* energy is at *least* as large as our universe's mass-energy; the *simplest* assumption is that the 4D event's full energy equals the 3+1D mass-energy, but a specific implementation would need to specify the *delivery efficiency* $f_{deliver} \leq 1$. If $f_{deliver} < 1$, the 4D event is *larger* than the 3+1D universe's mass-energy requires, with the 'extra' 4D energy going into other SIDC products or the bulk. The default interpretation is *full delivery* (the simplest, most parsimonious), but the model does not currently *require* it. This is analogous to standard brane-world scenarios, where some energy can leak into the bulk as Kaluza-Klein modes or bulk gravitational waves.
+**Energy conservation is standard.** The model does not propose a new conservation law. Energy is conserved in the usual sense: the 4D event is an *ongoing* energetic process with some total energy budget $E_{\rm 4D}$ (integrated over its full duration in 4D time), and our 3+1 dimensional universe's total mass-energy is the portion of that total energy that has been *delivered* to the brane during our universe's lifetime (a brief slice of the 4D event's full duration). The *simplest* interpretation is that *all* of the 4D event's energy is delivered to the 3+1D brane, and the standard conservation law applies at the level of *total* energy. However, SIDC's dimensional projection might not be 100% efficient — some of the 4D event's energy could go into other SIDC products (e.g., into the bulk, into other child universes, or into 4D gravitational radiation), or be radiated away. The 4D event's *full* energy is at *least* as large as our universe's mass-energy; the *simplest* assumption is that the 4D event's full energy equals the 3+1D mass-energy, but a specific implementation would need to specify the *delivery efficiency* $f_{deliver} \leq 1$. If $f_{deliver} < 1$, the 4D event is *larger* than the 3+1D universe's mass-energy requires, with the 'extra' 4D energy going into other SIDC products or the bulk. The default interpretation is *full delivery* (the simplest, most parsimonious), but the model does not currently *require* it. This is analogous to standard brane-world scenarios, where some energy can leak into the bulk as Kaluza-Klein modes or bulk gravitational waves.
 
 **Symmetries and conservation laws.** The dimensional-SIDC framework takes the *standard* conservation laws and symmetries of physics as given:
 - *Energy conservation* (per §2.6 above): the model does not propose a new conservation law.
@@ -820,7 +820,7 @@ This is a *unification* of two effects that might otherwise seem separate: the h
 
 *A natural question*: does the 2D universe's antigravity (its internal dark energy) help cancel the 4D antigravity, contributing to gravity's weakness? In the current model, the 2D universes' effect is *separate* from the bulk-brane cancellation — the 2D universes' attractive gravity is dark matter (additional to ordinary gravity), and their antigravity is internal to the 2D universe (not directly projecting back into 3+1D). But in a more developed model, the 2D universes could play a *back-reaction* role, contributing to the cancellation of the 4D antigravity and reducing the net effective gravity in 3+1D. This is an interesting extension of the model, but is not currently derived.
 
-*Asymmetry between dark energy and dark matter math.* The dark energy and dark matter are *both* products of the dimensional-SIDC framework, but their *quantitative derivations* are *asymmetric*. The dark energy math works *cleanly* once we include the *staying fraction* (§2.6 above): SIDC prediction × f_{back} = observed. The staying fraction is a *single* postulate that fixes the dark energy to the right value. The dark matter math, by contrast, is *underdetermined*: it depends on the *event rate* R, the *2D universe lifetime* $\tau$_{2D}, the *event energy* E_{2D}, and the *projection fraction* G_{2D}^{projected}/G_{4D} — four free parameters (rather than one) that must be specified to make a quantitative prediction. The current model gives a *qualitatively plausible* picture (the cumulative effect of 2D universes is consistent with the observed dark matter density for plausible parameter values) but does *not* give a *unique* numerical prediction. The *asymmetry* reflects the fact that dark energy is a *single* global quantity (the vacuum energy), while dark matter is a *cumulative* quantity (the integral over many 2D universes). Dark energy is fixed by *geometry* (the projection rule), while dark matter is fixed by *event statistics* (the rate and energy distribution of 3+1D energetic events). We acknowledge this asymmetry as a *limitation* of the current model, *partially closed* by the growth factor derivation below (the *Deriving the growth factor from 2D universe dynamics* paragraph), which shows that the growth factor is itself *derivable* from the 2D universe's FRW dynamics, leaving only the 2D equation-of-state parameters (Omega_{DE,2D}, t_eq, T_{2D}) as physical inputs.
+*Asymmetry between dark energy and dark matter math.* The dark energy and dark matter are *both* products of the dimensional-SIDC framework, but their *quantitative derivations* are *asymmetric*. The dark energy math works *cleanly* once we include the *staying fraction* (§2.6 above): SIDC prediction × f_{back} = observed. The staying fraction is a *single* postulate that fixes the dark energy to the right value. The dark matter math, by contrast, is *underdetermined*: it depends on the *event rate* R, the *2D universe lifetime* $\tau$_{2D}, the *event energy* E_{\rm 2D}, and the *projection fraction* G_{2D}^{projected}/G_{4D} — four free parameters (rather than one) that must be specified to make a quantitative prediction. The current model gives a *qualitatively plausible* picture (the cumulative effect of 2D universes is consistent with the observed dark matter density for plausible parameter values) but does *not* give a *unique* numerical prediction. The *asymmetry* reflects the fact that dark energy is a *single* global quantity (the vacuum energy), while dark matter is a *cumulative* quantity (the integral over many 2D universes). Dark energy is fixed by *geometry* (the projection rule), while dark matter is fixed by *event statistics* (the rate and energy distribution of 3+1D energetic events). We acknowledge this asymmetry as a *limitation* of the current model, *partially closed* by the growth factor derivation below (the *Deriving the growth factor from 2D universe dynamics* paragraph), which shows that the growth factor is itself *derivable* from the 2D universe's FRW dynamics, leaving only the 2D equation-of-state parameters (Omega_{DE,2D}, t_eq, T_{2D}) as physical inputs.
 
 *A quantitative attempt at the DM calculation.* To make this asymmetry more concrete, we can attempt a *naive* calculation of the cumulative 2D universe back-projection and compare it to the observed DM density. For a typical galaxy ($10^{10} M_\odot$ of baryons, $\sim 5 \times 10^{10} M_\odot$ of DM, in a (10 kpc)^3 volume), the DM energy density is $\sim 10^{5}$ J/m^3. The *active* 2D universe population per galaxy, integrating over event types (SN, stars, AGN, BH mergers, etc.) and weighting by lifetime, is $\sim 10^{-5}$ concurrent universes per galaxy. The total active 2D universe energy per galaxy is $\sim 3 \times 10^{47}$ J, dominated by long-lived AGN-scale 2D universes. If the back-projection efficiency were 1 (full projection), this would give a galaxy DM energy of $3 \times 10^{47}$ J, *much less* than the observed $8.95 \times 10^{57}$ J. To match observation, the back-projection efficiency would need to be $\sim 3 \times 10^{10}$, which is unphysical. If instead we include *all* 2D universes that have ever lived (over the universe's 13.8 Gyr history, not just currently active), the count is $\sim 3 \times 10^{8}$ SN-scale 2D universes per galaxy, giving $\sim 3 \times 10^{52}$ J at full back-projection, still $\sim 10^{5}$ short of the observed DM energy. The *gap* is significant: the simple cumulative calculation underestimates the DM by a factor of $\sim 10^{5}$ to $10^{10}$, depending on what is included. The most natural resolution is that the 2D universe's *total mass-energy* is *much larger* than the original event energy: the 2D universe is dark-energy dominated and has its own expansion, so its total mass-energy at any moment is the original event energy multiplied by the 2D universe's growth factor (which depends on the 2D universe's Hubble parameter and lifetime). If the growth factor is $\sim 10^{5}$ to $10^{10}$ (depending on the 2D universe's specific dark energy dynamics), the cumulative calculation can be brought into line with observation. *Alternatively*, the 2D universe's total mass-energy could be dominated by the *bulk* energy the 2D universe accumulates during its lifetime (analogous to how our universe's mass-energy is dominated by the dark energy, not the original Big Bang energy). The model is *qualitatively* consistent with the observed DM density for plausible 2D universe dynamics, and the growth factor is *derivable* from the 2D universe's FRW dynamics as shown in the *Deriving the growth factor from 2D universe dynamics* paragraph below: with Omega_{DE,2D} ~ 0.999, t_eq at 1% of 2D lifetime, T_{2D} ~ 30 Gyr, the growth factor is G = $9.7 \times 10^{7}$, matching the trial-and-error value of $10^{8}$ to within 3%. This *resolves* the previously-acknowledged limitation: the growth factor is no longer a free parameter — it is a *consequence* of the 2D universe's own physics.
 
@@ -869,7 +869,7 @@ $$d\tau_{2D} = e^{-ky}   dt_{4D}$$
 
 where $y$ is the bulk position and $k$ is the AdS₅ curvature. This time dilation factor $e^{-ky}$ modifies:
 - The 2D universe's lifetime as observed in 3+1D: $\tau_{2D, 3+1D} = \tau_{2D, 2D} / e^{-ky}$ (longer in 3+1D frame)
-- The 2D universe's death energy deposit rate in 3+1D: $dE_{3+1D}/dt_{3+1D} = (E_{2D}/\tau_{2D}) \times e^{-ky}$ (lower power)
+- The 2D universe's death energy deposit rate in 3+1D: $dE_{3+1D}/dt_{3+1D} = (E_{\rm 2D}/\tau_{2D}) \times e^{-ky}$ (lower power)
 - The 2D universe's effective 3+1D-frame mass: $m_{2D, 3+1D} = m_{2D, 2D} \times e^{-ky}$ (lighter in 3+1D)
 
 The time compression is a real physical effect in 5D AdS₅. SIDC postulates that it explains:
@@ -5476,11 +5476,11 @@ This subsection attempts to derive the empirical g₊ acceleration scale from SI
 From $S_{creation} = -\alpha \int d^4x \sqrt{-g} T^{SM}_{\mu\nu} \int d^2\sigma \sqrt{-\gamma} \eta^{\mu\nu} \delta^{(4)}(x - X(\sigma))$:
 
 A single 3+1D energetic event with stress-energy $T^{SM}_{\mu\nu}(x) = \rho_{event} \delta^{(3)}(x - x_{event})$ creates a 2D brane at $X(\sigma)$ with energy:
-$$E_{2D} = \alpha \cdot E_{event}$$
+$$E_{\rm 2D} = \alpha \cdot E_{event}$$
 
 The 2D brane's back-projected gravitational field in 3+1D (at distance $r$ from the event) is:
-$$\delta g_+(r) = \frac{G_{2D} \cdot E_{2D} / c^2}{L_{2D} \cdot r}$$
-(2D universe has line density $\lambda_{2D} = E_{2D}/(L_{2D} c^2)$, producing 1/r force in 3+1D after back-projection)
+$$\delta g_+(r) = \frac{G_{2D} \cdot E_{\rm 2D} / c^2}{L_{2D} \cdot r}$$
+(2D universe has line density $\lambda_{2D} = E_{\rm 2D}/(L_{2D} c^2)$, producing 1/r force in 3+1D after back-projection)
 
 *Total back-projected $g_+$ at a point $x_0$ from all 2D universes:*
 
@@ -6172,7 +6172,7 @@ This section audits 5 specific concerns about the 4D math. Full numerical analys
 
 **(2) Time direction.** SIDC's time-dilation rule T_3+1D = T_4D / $\epsilon_{\rm 3}$+1D with $\epsilon_{\rm 3}$+1D $\sim 1 \times 10^{-38}$ gives T_4D $\sim 1 \times 10^{-21}$ s and L_4D $\sim 1 \times 10^{-12}$ m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
 
-**(3) Energy conservation.** SIDC's energy budget: 32% of $E_{4D}$ projects to 3+1D (5% direct matter + 27% cumulative 2D universe DM), and 68% remains as 4D antigravity (which we observe as 3+1D's dark energy). This is self-consistent under careful interpretation of "projection" — the 68% DE in 3+1D is the *back-projected antigravity* of the 4D event, not the 68% of $E_{4D}$ that didn't project. Total energy is conserved via Stoke's theorem in the action (§2.5.1).
+**(3) Energy conservation.** SIDC's energy budget: 32% of $E_{\rm 4D}$ projects to 3+1D (5% direct matter + 27% cumulative 2D universe DM), and 68% remains as 4D antigravity (which we observe as 3+1D's dark energy). This is self-consistent under careful interpretation of "projection" — the 68% DE in 3+1D is the *back-projected antigravity* of the 4D event, not the 68% of $E_{\rm 4D}$ that didn't project. Total energy is conserved via Stoke's theorem in the action (§2.5.1).
 
 **(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires $\sim 1 \times 10^{-19}$ hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
 
@@ -6321,7 +6321,7 @@ Per user question "can't we trial-and-error on the free parameters?", this secti
 **Q1 & Q4: Can trial-and-error give 32% projection efficiency?** YES.
 
 For f_split = 0.32 (SIDC's 32%/68% split between projected and antigravity, NOT to be confused with the back-projection efficiency f_proj used elsewhere in the paper), the bulk-brane coupling $\alpha$ must be at a specific order of magnitude:
-- For $E_{4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events $\sim 1 \times 10^{10}$ (total SN in 13.8 Gyr), $E_{\rm event}$ $\sim 1 \times 10^{44}$ J, $\tau_{2D} \sim 0.7$ Gyr:
+- For $E_{\rm 4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events $\sim 1 \times 10^{10}$ (total SN in 13.8 Gyr), $E_{\rm event}$ $\sim 1 \times 10^{44}$ J, $\tau_{2D} \sim 0.7$ Gyr:
 - $\alpha$ ~ 0.03-0.3 gives f_split ≈ 0.32
 
 The coupling $\alpha$ is NOT free — it's constrained to $\alpha$ ~ 0.03-0.3 by the observed 68% dark energy. This **partially closes Limitation 26** by reducing the free parameters from 5 to 3.
@@ -6366,7 +6366,7 @@ But the empirical 33 s lifetime gives $f_{\rm active} \sim 10^{-17}$, NOT 0.05. 
 
 **HISTORICAL (Mechanism M era):** SIDC's Mechanism M era claimed $H_0 = 73$ as a borrowed value from SH0ES. This was a postdiction, not a derivation, and was removed in v2.5 commit 281.
 
-**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is $0.2\sigma$ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
+**CURRENT (v2.5 honest framework, see §2.6.1):** SIDC is qualitatively consistent with $H_0 = 70$ ± 3 across all measurements (SH0ES 73, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck 67.4, standard sirens 70 ± 12) but does NOT derive a specific $H_0$ value. The TRGB H₀ = 69.8 ± 1.9 is $0.2\sigma$ from SIDC H₀,4D = 70.16 (KILLER MATCH — closest single measurement to SIDC). The specific ($E_{\rm 4D}$, R_4D) values that would determine $H_0$ are unconstrained by current data — this is **Limitation 3 (no derivation of original event's parameters)**.
 
 A 2D CFT calculation is needed to derive the specific active boost and cumulative drag from first principles. SIDC's contribution is the *qualitative* framework ($H_0 = 70$ ± 3), not a specific number.
 
@@ -7766,7 +7766,7 @@ SIDC's HONEST position (Mechanism M):
 
 10. **No precise threshold or weighting function for "energetic event" contributions.** The model proposes that *all* energetic events contribute to dark matter, with each event's gravitational contribution weighted by its energy. The simplest reading is that the cumulative dark matter density is proportional to the *average* energetic event rate per unit visible mass, weighted by event energy. This is consistent with the radial acceleration relation (§4.1). However, the *quantitative* proportionality constant and the precise weighting function (linear in event energy? power law? something else?) are not derived. A specific geometry and event spectrum would be required to compute these quantities. The qualitative principle (dark matter tracks average activity) is robust to the choice of weighting, but the *quantitative* predictions depend on the details.
 
-11. **SIDC's UPWARD direction is OPEN; the DOWNWARD direction is also open in principle (with cone-shape as a viable early-termination alternative).** The model assumes the 4D event is an *ongoing* energetic process with some total energy budget $E_{4D}$ (per §2.2). The model does *not* specify where this energy comes from. It is possible (and the model does not exclude) that the 4D event is itself a *projection* from a 5D (or 6D, 7D, ..., ND) process, in which case SIDC continues *upward indefinitely*. **There is no reason to think 4D is the top.** For the *downward* direction, two architectural choices are consistent with all data:
+11. **SIDC's UPWARD direction is OPEN; the DOWNWARD direction is also open in principle (with cone-shape as a viable early-termination alternative).** The model assumes the 4D event is an *ongoing* energetic process with some total energy budget $E_{\rm 4D}$ (per §2.2). The model does *not* specify where this energy comes from. It is possible (and the model does not exclude) that the 4D event is itself a *projection* from a 5D (or 6D, 7D, ..., ND) process, in which case SIDC continues *upward indefinitely*. **There is no reason to think 4D is the top.** For the *downward* direction, two architectural choices are consistent with all data:
 
 (a) **Scale-invariance / infinite SIDC (the principled default).** Every energetic event creates a child universe, regardless of scale. SIDC is open in *both* directions. Lower-D universes (1D, 0D, etc.) are interpreted either as literal-but-rare (regulated by $\rho_{crit}$ at each level) or as 2D-like with one spatial direction hugely compressed (braneworld picture).
 
@@ -9534,7 +9534,7 @@ Closed loop (forces f_leak too fast):
         ↓
 E_4D = M_Pl,4D × (τ_4D/t_Pl)^(1/α) = 3.12e89 GeV
         ↓
-γ_4D = (E_4D/M_Pl,3D)^α = 5.93e90  ← DERIVED (literal time dilation)
+γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93e90  ← DERIVED (literal time dilation)
         ↓
 f_leak = α × f_back (v3.0.21 naming: $f_{\rm DE}$ for 3D→4D continuous leakage) × γ_4D^(1/α²) = 2.59e-2 /s ← WAY TOO FAST (if used, HISTORICAL §3.67 formula REPLACED by f_leak = H_0 in A1)
 ```
@@ -9561,8 +9561,8 @@ The framework has multiple γ values across different transitions:
 
 | γ | Formula | Status | Interpretation |
 |---|---|---|---|
-| γ_4D | (E_4D/M_Pl,3D)^α | DERIVED | Literal time dilation |
-| γ_2D | (E_3D/M_Pl,3D)^α | DERIVED | Literal time dilation (5.5e44 for SN) |
+| γ_4D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | DERIVED | Literal time dilation |
+| γ_2D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | DERIVED | Literal time dilation (5.5e44 for SN) |
 
 **Both γ values are LITERAL TIME DILATION** — consistent with each other.
 
@@ -9594,7 +9594,7 @@ This separates concerns cleanly:
 | Quantity | Before (Path B2) | After (A1) |
 |---|---|---|
 | γ_4D | 1.12×10⁶⁴ (calibrated) | **5.93×10⁹⁰ (DERIVED, reinstated)** |
-| γ_4D formula | decoupled | (E_4D/M_Pl,3D)^α (REINSTATED) |
+| γ_4D formula | decoupled | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ (REINSTATED) |
 | f_leak | 2.18×10⁻¹⁸ /s = H_0 | **2.18×10⁻¹⁸ /s = H_0** (same) |
 | f_leak source | γ_4D calibrated to give H_0 | **H_0 directly (NEW principle)** |
 | τ_DM | 14.5 Gyr | **14.5 Gyr** (same) |
@@ -9632,7 +9632,7 @@ The framework now has three independent "rates":
 **2. γ_4D AND γ_2D interpretations are consistent (L308x, L308aa reverted):**
 - γ_4D = literal time dilation at 4D level
 - γ_2D = literal time dilation at 2D level
-- Both use the same formula (E_parent/M_Pl,child)^α
+- Both use the same formula $(E_{\rm parent}/M_{\rm Pl,child})^{\alpha}$
 - Cone is symmetric in HAVING time dilation, asymmetric in MAGNITUDE (γ_4D >> γ_2D)
 
 **3. AGC/KKR predictions work:**
@@ -9661,7 +9661,7 @@ The framework now has three independent "rates":
 
 - **f_leak = H_0 first-principles**: H_0 is observed, not derived. Future research could derive f_leak from a deeper principle (e.g., N=12 structure, F-theory geometry, or Schwarzian dynamics). STATUS: PARTIALLY CLOSED (calibrated/observed).
 - **§3.67 1.4% match**: Now a coincidence. May yet be derivable. STATUS: OPEN (derivation target).
-- **γ_4D derivation**: γ_4D = (E_4D/M_Pl,3D)^α is derived, but the PHYSICAL INTERPRETATION (time dilation vs back-flow efficiency) is ambiguous. STATUS: STRUCTURAL.
+- **γ_4D derivation**: γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ is derived, but the PHYSICAL INTERPRETATION (time dilation vs back-flow efficiency) is ambiguous. STATUS: STRUCTURAL.
 
 ### Files Modified
 
@@ -9925,8 +9925,8 @@ L308w. **f_leak = H_0 IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** (v3.5.9+, 
 **New principle**: f_leak = H_0 = 2.18×10⁻¹⁸ /s
 
 **What's preserved**:
-- γ_4D = (E_4D/M_Pl,3D)^α = 5.93×10⁹⁰ (DERIVED, literal time dilation)
-- γ_2D = (E_3D/M_Pl,3D)^α = 5.5e44 (literal time dilation, per L308x)
+- γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93×10⁹⁰ (DERIVED, literal time dilation)
+- γ_2D = $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ = 5.5e44 (literal time dilation, per L308x)
 - Both γ values: consistent (literal time dilation)
 - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
 - τ_4D,proper = 1.51×10³⁴ yr (DE-exact, unchanged)
@@ -9959,17 +9959,17 @@ L308x. **γ_4D AND γ_2D ARE BOTH LITERAL TIME DILATION** (v3.5.9+, A1, structur
 
 **Structural consistency**: In Approach A1, both γ values across cascade transitions have the SAME interpretation (literal time dilation):
 
-- γ_4D = (E_4D/M_Pl,3D)^α = 5.93×10⁹⁰ — 4D event's lifetime is time-dilated in 3D frame
-- γ_2D = (E_3D/M_Pl,3D)^α = 5.5×10⁴⁴ (SN) — 2D universe's lifetime is time-dilated
+- γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93×10⁹⁰ — 4D event's lifetime is time-dilated in 3D frame
+- γ_2D = $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ = 5.5×10⁴⁴ (SN) — 2D universe's lifetime is time-dilated
 
-Both use the formula (E_event/M_Pl,parent)^α. Both represent dimensionless time dilation factors.
+Both use the formula $(E_{\rm event}/M_{\rm Pl,parent})^{\alpha}$. Both represent dimensionless time dilation factors.
 
 **FRAME OF REFERENCE (CRITICAL CLARIFICATION)**:
 
 | Transition | γ formula | Proper time (event's own frame) | Observed time (3D frame) | γ value | Direction |
 |---|---|---|---|---|---|
-| 2D → 3D | (E_3D/M_Pl,3D)^α | **5.7×10³⁸ yr** (2D's own frame, SN) | **33 s** (3D frame) | γ_2D = 5.5×10⁴⁴ | Time is COMPRESSED in 3D |
-| 4D → 3D | (E_4D/M_Pl,3D)^α | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | γ_4D = 5.93×10⁹⁰ | Time is STRETCHED in 3D |
+| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | **5.7×10³⁸ yr** (2D's own frame, SN) | **33 s** (3D frame) | γ_2D = 5.5×10⁴⁴ | Time is COMPRESSED in 3D |
+| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | γ_4D = 5.93×10⁹⁰ | Time is STRETCHED in 3D |
 
 **Key insight (L308x v3)**: 
 - γ = (lower-D proper time) / (higher-D observed time) [when looking from above]
@@ -10062,7 +10062,7 @@ Source: user message 2026-06-21 "wait, n_sub should be based on event size? not 
 L308aa. **γ_2D = 5.5e44 (TIME DILATION EXISTS AT 2D LEVEL) — REVERTED** (v3.5.9+, USER-CORRECTION).
 
 **Initial claim (L308aa v1)**: γ_2D = 1 (no time dilation at 2D-3D).
-**User correction**: γ_2D = (E_3D/M_Pl,3D)^α = 5.5e44 (time dilation DOES exist at 2D-3D).
+**User correction**: γ_2D = $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ = 5.5e44 (time dilation DOES exist at 2D-3D).
 **L308aa is REVERTED — L308x stands as originally stated.**
 
 User: "wait, why no time dilation? it should exist at both 2d-3d and 3d-4d no?"
@@ -10073,8 +10073,8 @@ User: "wait, why no time dilation? it should exist at both 2d-3d and 3d-4d no?"
 
 | Transition | γ formula | γ value (SN / universe) | Frame interpretation |
 |---|---|---|---|
-| 2D → 3D | (E_3D/M_Pl,3D)^α | 5.5e44 (SN) | 2D's Planck-time existence → 33s in 3D |
-| 4D → 3D | (E_4D/M_Pl,3D)^α | 5.93e90 (universe) | 4D's 1.51e34 yr → 8.95e124 yr in 3D |
+| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | 5.5e44 (SN) | 2D's Planck-time existence → 33s in 3D |
+| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | 5.93e90 (universe) | 4D's 1.51e34 yr → 8.95e124 yr in 3D |
 
 Both have time dilation. The "asymmetry" is in MAGNITUDE (γ_4D >> γ_2D), not in PRESENCE.
 
