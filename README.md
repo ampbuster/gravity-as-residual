@@ -291,7 +291,7 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 
 **5/5 dwarf cases still pass**: Sun, AGC 114905, KKR 25, DF2/DF4, FCC 224. **The paper is still consistent with v3.2.**
 
-### Cosmic SFH → $\Omega_{\rm DM}$ Closed-Loop Calculation (v3.2, user-requested)
+### Cosmic SFH → $\Omega_{\rm DM}$ Closed-Loop Calculation (**v3.2 LEGACY HISTORICAL** — DROPPED $F_p$(z) framework, replaced by bilateral cascade + AGN rate in v3.5.9+)
 
 **User request**: "for closed loop -> Calculate the total returned energy from the cosmic star formation history and show it matches $\Omega_{\rm DM}$≈0.27"
 
@@ -319,7 +319,9 @@ The user's intuition was right: with the Lagrangian + 2D Planck, there IS a natu
 
 **Interpretation**: SN-driven 2D universe deaths give 7.6 million × too little DM.
 
-**How the framework addresses this**: $F_p$(z) Hill function separates PRIMORDIAL vs CUMULATIVE:
+> ⚠️ **LEGACY HISTORICAL (v3.0.21-v3.2 framework)**: This section uses the **DROPPED** $F_p$(z) Hill function framework. The 'primordial DM' concept was REVISED in v3.3+: current framework (v3.5.9+ A1) uses **bilateral cascade with $f_{\rm leak} = H_0$** + calibrated AGN rate. The **5/27/68 ratio is OBSERVATIONAL DATA (Planck 2018)**, not derived from $F_p$(z). The '99.93% primordial' was specifically REJECTED (user-catch SIX TIMES, v3.2). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` for framework transition.
+
+**How the framework addresses this (DROPPED framework)**: $F_p$(z) Hill function separates PRIMORDIAL vs CUMULATIVE:
 - **99.93% of DM is PRIMORDIAL** (from 4D event's 2D universe deaths at z ~ 1)
 - **0.07% of DM is CUMULATIVE** (from SN-driven 2D universe deaths)
 - $F_p$(0) = 0.9993 (calibrated), $F_p$(1) = 1.0
