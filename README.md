@@ -961,7 +961,7 @@ A new section §10 derives speculative but *testable* end-of-universe signatures
 - **Energy-scaling rule:**$\tau_{D-1} = t_{\rm Pl,3+1D} \times ($E_{\rm D}$/E_{\rm Pl,3+1D})^{1.29}$, with $\alpha = 1.29$ forced by SN 33s calibration
 - **Relativistic-particle analogy:** 2D universes are "particles" with mass-dependent time dilation; smaller (lower-E) events create "lighter" 2D universes with more time dilation
 - **$M_{\rm Pl,4D} = 3.93 \times 10^{23}$ GeV (v3.3+ $\alpha$-weighted GM):** derived from $M_{\rm Pl,3D}$^ $\alpha$ × $M_{\rm Pl,2D}$^(1-$\alpha$), satisfies fundamental 4D convention ($M_{\rm Pl,4D}$ > $M_{\rm Pl,3D}$); was 887 GeV in v3.1.2 Scenario X (DROPPED)
-- **If $M_{\rm Pl,4D} \sim {\rm TeV}$:** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life)
+- **If $M_{\rm Pl,4D} \sim {\rm TeV}$ (HYPOTHETICAL, not current framework):** 3D universe is at the end of its 14-28 Gyr internal lifespan (current age 50-99% of life). NOTE: Current framework has $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (bulk), not TeV-scale.
 - **Testable signatures:** DESI DR3 evolving DE (3.5 $\sigma$), LSST Y1 DE-density decrease, declining cosmic SFR, GW background
 - **LISA detection prospects (§10.17):** SIDC's SN death GW at 0.03 Hz is **6-14 orders below LISA noise** for any reasonable $\epsilon_{\rm GW}$. A NULL LISA result is consistent with (not contradictory to) SIDC. SIDC's high-energy death GW (BNS, AGN) is detectable by **PTAs** (NANOGrav, EPTA, SKA-MPG) at nHz frequencies, not LISA.
 - **Testable window:** 2026 (DESI DR3) to 2034 (LISA launch) is the critical 5-10 year window.
