@@ -1,0 +1,47 @@
+================================================================================
+DM CONSEQUENCES (CORRECTED: F_p(z=0) = 0.7)
+================================================================================
+
+Framework's current F_p(z=0) = 0.7
+Cumulative DM fraction = 30%
+Cumulative DM as % of universe: 8.1%
+
+Observed universe age: 1.38e+10 yr
+
+OPTION A: Drop γ_4D claim (no universe lifetime claim)
+------------------------------------------------------------
+Universe lifetime is OBSERVED (1.38e+10 yr) or UNKNOWN
+Cumulative DM consistent with 30% at z=0
+AGC 114905 (low DM) ✓ explained by suppressed 2D universe creation
+KKR 25 (normal DM) ✓ explained by intermediate 2D universe creation
+✓ CONSISTENT with current DM model
+
+OPTION C: γ_4D = 8.81e84, universe lifetime = 1.51e34 yr
+------------------------------------------------------------
+Universe lifetime = 1.51e+34 yr (1.09e+24× observed)
+
+If 2D universe creation rate is constant:
+  Cumulative DM = rate × t_u
+  For 8.1% cumulative, rate must be 1/1.09e+24 of calibrated value
+  But rate is constrained by observed SFR/AGN rate
+
+ALTERNATIVELY: revert to F_p(0) ≈ 1.0 (99.99% primordial):
+  Required F_p(0) = 1.000000 (≈ 1.0)
+  But F_p(0) ≈ 1.0 means DM is PRIMORDIAL (no local dependence)
+  CONTRADICTS AGC 114905 (low DM, needs cumulative)
+  CONTRADICTS KKR 25 (normal DM, needs cumulative)
+
+✗ INCONSISTENT with current DM model
+
+================================================================================
+THE CATCH-22
+================================================================================
+
+Option C requires F_p(0) ≈ 1.0 (revives 99.93% primordial)
+  But AGC 114905 / KKR 25 require F_p(0) = 0.7 (30% cumulative)
+  We DROPPED 99.93% primordial because of AGC/KKR (correctly)
+
+CONCLUSION: Option A is the right choice
+
+Also: 99.93% in glossary (02_glossary.md) is OUTDATED and should be updated
+       to F_p(0) = 0.7 (the actual current model)
