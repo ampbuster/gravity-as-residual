@@ -8252,7 +8252,7 @@ L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIR
 - **1 is NOT APPLICABLE** (Path 8): b = i is fixed point, no RG flow
 - **1 works** (Path 1, L308r): μ = (N × v_H)² = $8.73 \times 10^6$ GeV² (3% off)
 
-**Verdict**: The 5 stringy/quantum-gravity paths confirm that **$M_{\rm Pl,2D}^2$ is the natural $\mu$** in 2D quantum gravity, but DON'T specify M_Pl,2D itself. The 3 "alternative" paths don't pin down μ. Only L308r's N × v_H chain gives a non-tautological result, and it gives $8.73 \times 10^6$ (3% off framework's 8.73×10⁶).
+**Verdict**: The 5 stringy/quantum-gravity paths confirm that **$M_{\rm Pl,2D}^2$ is the natural $\mu$** in 2D quantum gravity, but DON'T specify $M_{\rm Pl,2D}$ itself. The 3 "alternative" paths don't pin down μ. Only L308r's N × v_H chain gives a non-tautological result, and it gives $8.73 \times 10^6$ (3% off framework's 8.73×10⁶).
 
 **RECOMMENDATION**: Framework should UPDATE $M_{\rm Pl,2D} = 2955 GeV $and μ = $8.73 \times 10^6$ GeV² for internal consistency with the new derivation chain. This makes L26 PARTIAL CLOSURE exact (no 3% offset). See §7.4.17 for full analysis. Source: `calculations/v35_mu_L26_complete.py`, `calculations/v35_mu_L26_complete_results.txt`.
 
@@ -9172,11 +9172,11 @@ After §7.4.16's L26 PARTIAL CLOSURE (3% offset between derivation and framework
 
 | Quantity | Framework (PRE-L308t) | Derivation (L308r) | Offset |
 |---|---|---|---|
-| M_Pl,2D | 3000 GeV (3 TeV) | 2954.64 GeV (12 × 246.22) | 1.5% |
+| $M_{\rm Pl,2D}$ | 3000 GeV (3 TeV) | 2954.64 GeV (12 × 246.22) | 1.5% |
 | μ | $9 \times 10^6$ GeV² | $8.73 \times 10^6$ GeV² | 3.0% |
-| M_Pl,4D (α-GM) | $4 \times 10^{23}$ GeV | $3.93 \times 10^{23}$ GeV | 1.7% |
+| $M_{\rm Pl,4D}$ (α-GM) | $4 \times 10^{23}$ GeV | $3.93 \times 10^{23}$ GeV | 1.7% |
 
-The 3% offset is exactly (1.015)² = 1.030, consistent with M_Pl,2D being the source. **Conclusion: the offset is from framework's rounding of M_Pl,2D to 3 TeV (3 sig figs)**.
+The 3% offset is exactly $(1.015)^2 = 1.030$, consistent with $M_{\rm Pl,2D}$ being the source. **Conclusion: the offset is from framework's rounding of $M_{\rm Pl,2D}$ to 3 TeV (3 sig figs)**.
 
 **POST-L308t UPDATE**: Framework values updated to match derivation ($M_{\rm Pl,2D} = 2955 GeV$, μ = 8.73×10⁶ GeV², $M_{\rm Pl,4D} = 3.93×10²³ GeV). $This eliminates the 3% offset (L26 FULL CLOSURE). See L308t entry.
 
@@ -9187,7 +9187,7 @@ After exhaustive search, 8 candidate derivations for μ were tested. Only Path 1
 | # | Path | Formula | Result | Tautological? | Source |
 |---|---|---|---|---|---|
 | 1 | N × v_H (L308r) | μ = (N × v_H)² | $8.73 \times 10^6$ GeV² (3% off) | NO | `v35_mu_N_vH_derivation.py` |
-| 2 | Hagedorn self-dual | μ = M_s² with M_s = M_Pl,2D | $9 \times 10^6$ GeV² | YES | `v35_hagedorn_mu.py` |
+| 2 | Hagedorn self-dual | $\mu = M_s^2$ with $M_s = M_{\rm Pl,2D}$ | $9 \times 10^6$ GeV² | YES | `v35_hagedorn_mu.py` |
 | 3 | JT dilaton potential | $\mu = -R_{\rm AdS,2}/2 = M_{\rm Pl,2D}^2$ | $9 \times 10^6$ GeV² | YES | `v35_jt_mu.py` |
 | 4 | String thermal duality | μ = M_s² at b↔1/(2b) self-dual | $9 \times 10^6$ GeV² | YES | `v35_string_duality_mu.py` |
 | 5 | Hawking-Page $\beta = 2\pi L$ | $\mu = M_{\rm Pl,2D}^2$ at $\beta_H$ | $9 \times 10^6$ GeV² | YES | `v35_euclidean_periodicity_mu.py` |
@@ -9199,7 +9199,7 @@ After exhaustive search, 8 candidate derivations for μ were tested. Only Path 1
 
 ### Why 6 of 8 Paths are Tautological
 
-The 5 stringy/quantum-gravity paths (Hagedorn, JT, duality, Hawking-Page, DOZZ) all DERIVE $\mu = M_{\rm Pl,2D}^2$ WHEN GIVEN $M_{\rm Pl,2D}$ as an input. They prove that **M_Pl,2D is the natural quantum gravity scale** in 2D, but they don't tell us what M_Pl,2D is.
+The 5 stringy/quantum-gravity paths (Hagedorn, JT, duality, Hawking-Page, DOZZ) all DERIVE $\mu = M_{\rm Pl,2D}^2$ WHEN GIVEN $M_{\rm Pl,2D}$ as an input. They prove that **$M_{\rm Pl,2D}$ is the natural quantum gravity scale** in 2D, but they don't tell us what $M_{\rm Pl,2D}$ is.
 
 The 3 "alternative" paths (unimodular, DOZZ trivial, no-RG) don't give a specific value of μ:
 - **Unimodular** (Path 6): μ is an integration constant, allowed to be anything
@@ -9228,7 +9228,7 @@ The derivation chain requires N = 12 to be fixed. Where does N = 12 come from?
 
 **L26 (μ first-principles)**: OPEN → **PARTIAL CLOSURE** (§7.4.16) → **NO FURTHER CLOSURE POSSIBLE** (this section, 8 paths exhausted)
 
-**Verdict**: μ is DERIVED from (N × v_H)² within 3% of framework's value, and the 3% offset is honestly from M_Pl,2D rounding. There is no known derivation that pins down M_Pl,2D more precisely than N × v_H.
+**Verdict**: μ is DERIVED from (N × v_H)² within 3% of framework's value, and the 3% offset is honestly from $M_{\rm Pl,2D}$ rounding. There is no known derivation that pins down $M_{\rm Pl,2D}$ more precisely than N × v_H.
 
 **Implication for the framework**:
 - If precision matters, the framework should UPDATE $M_{\rm Pl,2D} = 2955 GeV (2.95 $TeV) and μ = $8.73 \times 10^6$ GeV²
