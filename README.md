@@ -927,14 +927,14 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 
 ---
 
-# v2.7.3 STATE
+# v2.7.3 STATE (**HISTORICAL** — describes v2.7.3 era state, NOT current)
 
 - **v2.7.3 milestone:** 45 external constraints catalogued; 4 → 2 free parameters via web-research convergence
 - **50 honest limitations** (v2.7.42+; 30 open, 10 partial, 3 closed, 2 falsified, 4 reverted, 1 discarded; L32 removed, L34-L49 added across v2.7.4-v2.7.42)
 - **45 external constraints** (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 5 late 2025-2026, 5 extended 2025-2026, 5 round 8, 1 new SIDC prediction)
 - **🎯 47 TUC TEST (§11):** PREDICTION (not yet a result). Near-term, low-cost, high-leverage falsification test in the context of Rubin/LSST DP1 (2025). SIDC predicts $M_{dyn} \approx M_{stars}$ (no local DM); particle DM predicts $M_{dyn} > M_{stars}$. Differentiates SIDC from particle DM. **Awaits DR1 (2027) or Y10 (2034).**
 - **🧪 36/36 GALAXY-ZOO TESTS PASS (§12):** consistency check from EXISTING data (not DP1). 47 Tuc, AGC 114905, KKR 25, MW, NGC 1052-DF2, Tucana dSph, Bullet Cluster, Omega Cen, M82, NGC 1275, Dragonfly 44. Necessary condition for SIDC, not sufficient.
-- **✅ CMB RESOLVED (§4.48.1, v2.7.5+):** the smooth $F_p(z)$ (Hill n=2, $z_{\rm half}$=3) primordial component gives r(z) ≈ (1+z)³ at high z, matching Planck 2018. SIDC's mechanism does NOT need early-DM. The CMB "gap" was closed by the primordial component.
+- **✅ CMB RESOLVED (§4.48.1, v2.7.5+, HISTORICAL F_p(z) framework):** the smooth $F_p(z)$ (Hill n=2, $z_{\rm half}$=3) primordial component gives r(z) ≈ (1+z)³ at high z, matching Planck 2018. SIDC's mechanism does NOT need early-DM. The CMB "gap" was closed by the primordial component. **NOTE (v3.5.9+)**: F_p(z) DROPPED in v3.3+; r(z) ≈ (1+z)³ REPRODUCED in current framework via different mechanism (bilateral cascade).
 - **📊 MCMC RAR FIT (§13.7):** SIDC's RAR fit to 175 SPARC galaxies: $a_0 = 2.34 \times 10^{-10} ± 1.54 \times 10^{-10}$ m/s², consistent with Li+ 2018 ($1.20 \times 10^{-10}$). SIDC's RAR is statistically equivalent to MOND; the differentiator is the 47 Tuc test.
 - **Killer match:** TRGB $H_0 = 69.8 \pm 1.9$ is 0.2 $\sigma$ from SIDC $H_{0,4D} = 70.16$ (CLOSEST single measurement to SIDC prediction)
 - **Theoretical foundation:** c=1 string theory matrix model = exact solution of 2D quantum gravity; SIDC's 2D CFT framework = unique exactly solvable 2D QG
