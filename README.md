@@ -942,7 +942,7 @@ See `calculations/v27_agc_kkr_other_models.py` for the 6-model analysis.
 - **0 strongly confirmed, 0 falsified, 16 pass, 1 confounded** (out of 17 test categories)
 - **Smoking guns (claimed):** 3 reproducible, including the (1+z)³ expansion factor match — but see line 890 honest caveat that SIDC has no UNIQUE smoking guns; the 3 are reproducible but also explained by other models. The 47 Tuc test (§11) is the only TRULY differentiating prediction between SIDC and $\Lambda{\rm CDM}$.
 
-# v2.7.3+ §11 — 47 TUC TEST FOR RUBIN/LSST
+# v2.7.3+ §11 — 47 TUC TEST FOR RUBIN/LSST (**HISTORICAL** — describes v2.7.3+ era §11)
 
 A new section §11 anchors SIDC's DM mechanism to a **near-term, low-cost, high-leverage falsification test**: the 47 Tucanae (NGC $10^{4}$) globular cluster in the context of Rubin/LSST DP1 (released June 30, 2025).
 
