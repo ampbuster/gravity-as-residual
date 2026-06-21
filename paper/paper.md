@@ -7539,7 +7539,7 @@ This is a thought experiment, not a theory. We identify **140 honest limitations
 - A_new limitation added: "$\alpha$ = 1.29 CGHS derivation" (L37, OPEN, §3.24)
 - Net effect: 37 → 38 limitations
 
-**Net status of SIDC's 138 limitations (v3.5.9+ A1, CURRENT):**
+**Net status of SIDC's 140 limitations (v3.5.9+ A1+L308z+L308aa, CURRENT):**
 - 79 OPEN (need theoretical or observational work to close)
 - 22 PARTIAL (some progress made, more work needed)
 - 8 CLOSED (resolved by construction or by v3.x updates, including L41 $\mu$, L42 m₃₊₁D, L117 c-value UV/IR RG)
