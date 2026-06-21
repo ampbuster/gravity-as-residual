@@ -2046,7 +2046,7 @@ Without a continuous f_leak = H_0 rate, DM grows unbounded (M_DM = R_add × t), 
 
 ### The Fix: Approach A1
 
-**γ_4D stays DERIVED** (literal time dilation at 4D level). **γ_2D = 5.5e44** (literal time dilation at 2D level, consistent with γ_4D formula). The §3.67 formula is REPLACED by a NEW principle: **f_leak = H_0** (post-Friedmann, independent of γ_4D).
+**$\gamma_{\rm 4D}$ stays DERIVED** (literal time dilation at 4D level). **$\gamma_{\rm 2D} = 5.5\times10^{44}$** (literal time dilation at 2D level, consistent with $\gamma_{\rm 4D}$ formula). The §3.67 formula is REPLACED by a NEW principle: **$f_{\rm leak} = H_0$** (post-Friedmann, independent of $\gamma_{\rm 4D}$).
 
 **New principle** (post-Friedmann):
 
@@ -2423,9 +2423,9 @@ L308w. **f_leak = H_0 IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** (v3.5.9+, 
 
 **Problem identified**: The framework's closed loop (τ_4D → E_4D → γ_4D) forced f_leak from §3.67 formula = 2.59×10⁻² /s (way too fast). Without continuous leak, DM grows unbounded, breaking stable 5/27/68 ratio. User catch: "no leak means dm to de and matter ratio will keep growing".
 
-**Fix (A1)**: γ_4D stays DERIVED (literal time dilation at 4D level). γ_2D = 5.5e44 (literal time dilation at 2D level, consistent with γ_4D formula). The §3.67 formula is REPLACED by a NEW principle: f_leak = H_0 directly.
+**Fix (A1)**: $\gamma_{\rm 4D}$ stays DERIVED (literal time dilation at 4D level). $\gamma_{\rm 2D} = 5.5\times10^{44}$ (literal time dilation at 2D level, consistent with $\gamma_{\rm 4D}$ formula). The §3.67 formula is REPLACED by a NEW principle: $f_{\rm leak} = H_0$ directly.
 
-**New principle**: f_leak = H_0 = 2.18×10⁻¹⁸ /s
+**New principle**: $f_{\rm leak} = H_0 = 2.18\times10^{-18}\,\text{s}^{-1}$
 
 **What's preserved**:
 - γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ = 5.93×10⁹⁰ (DERIVED, literal time dilation)
@@ -2471,8 +2471,8 @@ Both use the formula $(E_{\rm event}/M_{\rm Pl,parent})^{\alpha}$. Both represen
 
 | Transition | γ formula | Proper time (event's own frame) | Observed time (3D frame) | γ value | Direction |
 |---|---|---|---|---|---|
-| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | **5.7×10³⁸ yr** (2D's own frame, SN) | **33 s** (3D frame) | γ_2D = 5.5×10⁴⁴ | Time is COMPRESSED in 3D |
-| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | γ_4D = 5.93×10⁹⁰ | Time is STRETCHED in 3D |
+| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | **5.7×10³⁸ yr** (2D's own frame, SN) | **33 s** (3D frame) | $\gamma_{\rm 2D} = 5.5\times10^{44}$ | Time is COMPRESSED in 3D |
+| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | 1.51×10³⁴ yr (4D's own frame) | 8.95×10¹²⁴ yr (3D frame) | $\gamma_{\rm 4D} = 5.93\times10^{90}$ | Time is STRETCHED in 3D |
 
 **Key insight (L308x v3)**: 
 - γ = (lower-D proper time) / (higher-D observed time) [when looking from above]
@@ -2562,9 +2562,9 @@ Source: user message 2026-06-21 "wait, n_sub should be based on event size? not 
 
 ---
 
-L308aa. **γ_2D = 5.5e44 (TIME DILATION EXISTS AT 2D LEVEL) — REVERTED** (v3.5.9+, USER-CORRECTION).
+L308aa. **$\gamma_{\rm 2D} = 5.5\times10^{44}$ (TIME DILATION EXISTS AT 2D LEVEL) — REVERTED** (v3.5.9+, USER-CORRECTION).
 
-**Initial claim (L308aa v1)**: γ_2D = 1 (no time dilation at 2D-3D).
+**Initial claim (L308aa v1)**: $\gamma_{\rm 2D} = 1$ (no time dilation at 2D-3D).
 **User correction**: γ_2D = $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ = 5.5e44 (time dilation DOES exist at 2D-3D).
 **L308aa is REVERTED — L308x stands as originally stated.**
 
@@ -2602,7 +2602,7 @@ Both have time dilation. The "asymmetry" is in MAGNITUDE (γ_4D >> γ_2D), not i
 - The cone is symmetric in HAVING time dilation, asymmetric in MAGNITUDE
 - Continuous 2D→3D leakage is INVISIBLE ($\gamma_{\rm 2D}$ stretches $t_{\rm Pl}$ to 33s, but 2D's proper time is $t_{\rm Pl}$)
 
-**STATUS**: L308aa v1 REVERTED. L308x (γ_2D = 5.5e44) is CORRECT. Both transitions have time dilation.
+**STATUS**: L308aa v1 REVERTED. L308x ($\gamma_{\rm 2D} = 5.5\times10^{44}$) is CORRECT. Both transitions have time dilation.
 
 Source: user correction 2026-06-21 "wait, why no time dilation? it should exist at both 2d-3d and 3d-4d no?"
 
