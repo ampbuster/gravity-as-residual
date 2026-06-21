@@ -162,7 +162,7 @@ The v3.3 DE formula has NO $4\pi$ factor. The simple $f_{\rm DE}$ formula gives 
 | Closed loop formula is universal at every level | ✓ STRUCTURAL |
 | DE-DM are the same mechanism | ✓ STRUCTURAL |
 | $M^{\alpha}$ scaling 4D→2D (gives TeV) | ✓ STRUCTURAL | 9D→4D DROPPED in v3.3
-| DE matching within 0.13% via $f_{\rm back}$ formula (simple $f_{\rm DE} \times \epsilon \times M_{\rm Pl,3D}$^4) | ✓ CALIBRATED |
+| DE matching within 0.13% via $f_{\rm DE}$ formula (simple $f_{\rm DE} \times \epsilon \times M_{\rm Pl,3D}$^4) | ✓ CALIBRATED |
 | $\alpha = 1.289$ from first principles | ✗ OPEN (L43) |
 | $f_{\rm DE}$ = 10⁻⁸⁵ from first principles | ✗ CALIBRATED |
 | $4\pi$ factor from first principles | ✗ OPEN (L142a) |
