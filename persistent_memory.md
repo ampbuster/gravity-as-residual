@@ -1625,3 +1625,56 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 4. **`[^$/]+` vs `[^$]+`**: Use `[^$/]+` for first capture in slash patterns to prevent greedy matching past `/`.
 5. **Nested math pattern**: `$X^{$Y^Z}$` requires 3 capture groups to handle the full nested structure.
 
+
+### v3.5.9+ SESSION 5: COMPREHENSIVE CLEANUP — ALL PASSES COMPLETE (2026-06-21)
+- User: "keep going till you can find no more"
+- Multi-pass cleanup: 6 passes total (PASS 1-6)
+
+**PASS 1 (77b5cae)**: Move legacy Hill function / Path B2 to paper/legacy/
+- Created paper/legacy/v359_path_B2_rejected.md
+- Created paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md
+- Added LEGACY NOTE flags to 13 markdown files
+
+**PASS 2 (ed24b21)**: Fix stale values
+- γ_4D: 6.03×10⁹⁰ → 5.93×10⁹⁰
+- τ_3D,apparent: 9.10×10¹²⁴ → 8.95×10¹²⁴
+- 133 → 138 limitations
+- Added LEGACY markers for F_p
+
+**PASS 3 (65c8a1c)**: More fixes
+- 00_title.md "v3.3 updates" → HISTORICAL
+- 01_executive_summary.md 133→138
+- 13_cmb_gap.md "UPDATED v2.7.5+" → "HISTORICAL"
+- AUDIT_REPORT_v357.md: units error note + L308t note
+
+**PASS 4 (f225fac)**: Final 133→138
+- 01_executive_summary.md (2 more): 133→138
+- 06_limitations.md line 12: 133→138
+
+**PASS 5 (4e257f0)**: Mark stale F_p
+- 02_glossary.md: F_p(0) = 0.9993 strikethrough
+- 02_glossary.md: "0 calibrated postulates" → HISTORICAL
+- 06_limitations.md §7.4.19: pre-A1 note
+
+**PASS 6 (46a65ef)**: Fix page count
+- README.md: 405→395 pages
+- 00_title.md: 405→395 pages
+- STATE_OF_THE_MODEL.md: 405→395 (2 instances)
+- persistent_memory.md: 405→395
+
+**FINAL STATE (v3.5.9+ A1)**:
+- 395 pages, 1.52 MB
+- 138 limitations
+- 14 parameters
+- All 4 top-level docs consistent
+- 12 legacy files in paper/legacy/
+- 13 markdown files with LEGACY NOTE flags
+- 8 commits this session
+- A1 framework: f_leak = H_0, γ_4D = 5.93×10⁹⁰ (literal time dilation)
+
+**KEY INSIGHTS**:
+- Cleanup workflow: LEGACY NOTE flags + dedicated legacy files
+- Don't try surgical edits — user uses git reset
+- All current claims consistent across all docs
+- Historical claims clearly marked (v3.3, v3.5.7+, v3.5.8+ tags)
+- "0 calibrated postulates" was HISTORICAL — A1 adds f_leak = H_0
