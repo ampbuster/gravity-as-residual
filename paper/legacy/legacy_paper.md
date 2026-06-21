@@ -8,6 +8,13 @@
 > **Status:** ARCHIVED — kept for historical reference only.
 > These sections are SUPERSEDED by the v3.0+ Lagrangian work
 > (§3.60-§3.69 of the main paper).
+>
+> **F_p(z) / smooth F(z) Hill function**: The smooth F_p(z) framework described
+> in §4.48 and §3.26 was **DROPPED in v3.3+** (per L100, user-critique 6 times)
+> and REPLACED by bilateral cascade with calibrated AGN rate giving 27% DM
+> (current framework, v3.5.9+ A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
+> for the transition history. This legacy file preserves the v2.7.x description
+> for reference only.
 
 ---
 
