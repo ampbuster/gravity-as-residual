@@ -275,8 +275,8 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 - $f_{active}$ (v2.7.1): dropped after finding inconsistency with SN 33s lifetime
 - $A_{event}$ (v2.7.54): revised from 67 → 1 (identity operation, not a parameter)
 - $F_p(0)$ (v2.7.52): derived from cumulative DM calculation, no longer calibrated
-- $\epsilon$ (v3.0+): derivable from RS-II bulk-brane coupling
-- $f_{back}$ (v3.0+): derivable from $\epsilon \times (E_{4D}/M_{Pl}^4)$
+- $\epsilon$ (CURRENT v3.5.9+): CALIBRATED at 10⁻³⁸ (gravity weakness, hierarchy problem, OBSERVED)
+- $f_{\rm DE}$ (CURRENT v3.5.9+): DERIVED via L308v $\alpha$-GM closed loop = 1.13×10⁻⁸⁵ (was $f_{\rm back}$ in v3.0+ naming, renamed in v3.5.7+ naming revolution)
 
 ### Observational Inputs (5, taken from data)
 
