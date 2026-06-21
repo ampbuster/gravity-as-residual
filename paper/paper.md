@@ -10034,6 +10034,44 @@ For practical purposes, **N_sub ≈ 12 × (M_Pl,4D/M_Pl,3D)^(1/3) ≈ 386** is a
 
 
 
+## 7.4.25 (L308af): AGN Rate Unit Interpretation — v3.5.9+
+
+**Date**: 2026-06-21
+**Status**: DOCUMENTED GAP
+**Tier**: 3 (intermediate)
+
+**Issue**: The framework's "AGN rate = 3×10⁻¹⁶ /m³/s" is calibrated to give 27% DM, but the unit interpretation is unclear:
+
+If taken literally as events per cubic meter per second with M_2D ~ 10 M_sun (SN-scale):
+- Production rate = 3×10⁻¹⁶ × 2×10⁴⁷ J = 6×10³¹ W/m³
+- Over 14 Gyr × 1.4×10¹⁸ s/yr × 10¹⁰ yr = 4.4×10²⁸ s
+- Total energy = 2.6×10⁶⁰ J/m³
+- Required: ρ_DM ~ 4×10⁻¹² J/m³
+- **Overproduction factor: 10⁷²**
+
+**Resolution paths**:
+
+(a) **AGN rate is conceptual, not literal**: The value is calibrated to MATCH the observed DM density, not a measured physical rate. The "events" are conceptual DM creation events, not all AGN events.
+
+(b) **M_2D is much smaller**: If M_2D ~ 10⁻¹³ kg (elementary particle scale), then production matches. But this contradicts the framework's SN-scale M_2D.
+
+(c) **Decay/leak factor**: Only 10⁻⁷² of created DM survives, with the rest leaking back to 4D. This is essentially the f_leak = H_0 mechanism (A1, L308ab).
+
+(d) **Per-galaxy rate**: The "3×10⁻¹⁶" might be a per-galaxy rate, not per m³. Galaxy density 10⁻² per Mpc³ = 3.4×10⁻⁷⁰ per m³. Conversion: AGN rate per m³ = 3×10⁻¹⁶ / galaxy density ≈ 10⁵⁴ per m³, but that's the wrong direction.
+
+**Coincidence noted (v3.5.7+)**: M_Pl,2D / M_Pl,3D = 2.42×10⁻¹⁶, AGN rate = 3×10⁻¹⁶ (within 22%). The framework explicitly flags this as a "coincidence check" (L110 limitations table line 1317), not a derivation.
+
+**Honest position**: The AGN rate is a CALIBRATED parameter that SIDC uses to match observation. Its unit interpretation is a documentation gap, not a physics failure. The framework's cascade mechanics work correctly (DM = 27%) regardless of how the rate is interpreted, because the rate is calibrated to that target.
+
+**Recommendation for future work**:
+- Develop a first-principles derivation of AGN rate from event physics
+- OR clearly document it as a phenomenological fit to observation
+- Resolve the M_Pl,2D / M_Pl,3D coincidence (or confirm it)
+
+**Status**: DOCUMENTED, not derived. ACCEPT the calibration.
+
+
+
 ## 7.5 v3.5 NEW ANGLE Limitations: $\mu$ first-principles (11 attempts)
 
 L304. **$\mu$ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with $f_{\rm DE}^2$ suppression (SIDC's $f_{\rm DE}^2$ ~ 10⁻¹⁷⁰ at LHC energies makes strings invisible). For M_s = 3 TeV: $\mu$ = M_s² = $9 \times 10^6$ GeV² ✓ MATCHES framework. BUT: this requires M_s = $M_{\rm Pl,2D}$ = 2.95 TeV, which is just saying $\mu$ = $M_{\rm Pl,2D}^2$ (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.

@@ -4,7 +4,7 @@
 >
 > *ampbuster (software developer, not a physicist)* | AI-assisted development with Mavis (M3, MiniMax)
 >
-> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 400 pages, 1.55 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md)
+> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 423 pages, 1.58 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [Master Summary v3.5.9+ A1](paper/SUMMARY_v359_A1.md)
 
 SIDC = **S**cale-**I**nvariant **D**imensional **C**ascade. It proposes that gravity, dark matter, and dark energy are all consequences of a single dimensional-projection mechanism: a single ongoing event in a 4D bulk energy release whose projection onto our 3+1D brane yields ordinary matter, while two geometric by-products yield dark matter (cumulative back-projection from 2D universe deaths) and dark energy (un-cancelled inverted bulk gravity, identified as 4D event antigravity).
 
