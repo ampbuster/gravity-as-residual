@@ -464,7 +464,7 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 7. **Stiskalek 2025: $H_0 = 73.04$ ± 1.30** (1.8% precision from Cepheids alone) — SIDC $H_{0,4D} = 70.16$ within 2.2 $\sigma$
 8. **S₈ tension persists at 2–3 $\sigma$** (Subaru HSC Y3 2025) — SIDC's MOND-like floor gives qualitative suppression
 9. **TRGB $H_0 = 69.8 \pm 1.9$** (Freedman 2024, CCHP, JWST) — **0.2 $\sigma$ from SIDC $H_{0,4D} = 70.16$** (CLOSEST single measurement!)
-10. **JWST high-z galaxy excess** (z > 12, some z ~ 20) — SIDC's $F_p(z)$ primordial component (§4.48.1) is qualitatively consistent
+10. **JWST high-z galaxy excess** (z > 12, some z ~ 20) — SIDC's $F_p(z)$ primordial component (**HISTORICAL framework**, §4.48.1) is qualitatively consistent (current framework: calibrated AGN rate gives 27% DM)
 11. **BBN Li-7 anomaly** (3.5 × discrepancy) — SIDC inherits from standard cosmology, not addressed
 
 **4 INTERPRETIVE — THEORETICAL FOUNDATION** (4 NEW):
@@ -501,7 +501,7 @@ Continued web research in June 2026 yielded **45 external constraints** (in 9 ca
 **Key finding 3**: 7 of the 45 constraints are INAPPLICABLE to SIDC (PBH, XENONnT, LZ, ALP, SIDM, MeV $\gamma$-ray, eROSITA ultralight axion) — SIDC 2D universes are NOT particles, NOT WIMPs, NOT ultralight, NOT axion-like, and not PBHs. SIDC's "dark matter" is geometric 2D universe back-projection, not a particle species. This is consistent: 38/45 constraints are consistent with SIDC (27 outright consistent + 11 strengthen theoretical foundation), with 1 NEW SIDC PREDICTION (2D universe birth GW).
 
 **5 LATE 2025-2026 CONSTRAINTS (v2.7.3+):**
-31. **JWST MoM-z14** (Naidu+ 2025, arXiv:2505.11263) — confirmed z=14.44 galaxy, 280 Myr after Big Bang; SIDC's $F_p(z)$ → 1 at high z (smooth Hill function, §4.48.1) gives early DM in lockstep with early SF (QUALITATIVELY CONSISTENT)
+31. **JWST MoM-z14** (Naidu+ 2025, arXiv:2505.11263) — confirmed z=14.44 galaxy, 280 Myr after Big Bang; SIDC's $F_p(z)$ → 1 at high z (smooth Hill function, **HISTORICAL framework**, §4.48.1) gives early DM in lockstep with early SF (QUALITATIVELY CONSISTENT — current framework uses bilateral cascade with calibrated AGN rate)
 32. **DESI DR2 BAO** (Adame+ 2025, arXiv:2503.14738, 14M galaxies) — DR1 confirmed, 3.5 $\sigma$ evolving DE; SIDC's DE is 4D event antigravity, qualitative only (QUALITATIVELY CONSISTENT)
 33. **LZ 4.2 tonne-years** (Jellema+ 2025, arXiv:2410.17036) — $\sigma_{\rm SI}$ < 9.2 × $10^{-48} {\rm cm}^2$ at 40 GeV; SIDC 2D universes are NOT WIMPs (INAPPLICABLE)
 34. **XENONnT 3.1 tonne-years** (Aprile+ 2025, arXiv:2502.18005) — $\sigma_{\rm SI}$ < 1.7 × $10^{-47} {\rm cm}^2$ at 30 GeV; solar neutrino floor; SIDC 2D universes are NOT WIMPs (INAPPLICABLE)
@@ -767,9 +767,9 @@ SIDC's r(z) = $\rho_{\rm DM}^{\rm DC}(z) / \rho_{\rm DM}^{\rm DC}(0)$ at high z 
 
 Even though Thomson has a *much higher rate* $\sim 10^{67}$ events/s/Mpc $^3$ vs SN's $\sim 10^{-12}$ events/s/Mpc $^3$), the per-event weight is so small ($10^{-145}$ of SN) that the *net* Thomson contribution is $\sim 10^{-66}$ of SN — *negligible*.
 
-**The r(z) ≈ (1+z)³ match comes from $F_p(z)$, NOT from Thomson.** With the v2.7.4 §4.48.1 smooth $F_p(z)$ (Hill n=2, $z_{\rm half}$=3), the primordial component $F_p(z)$ → 1.0 at high z, meaning the *primordial* 2D universe contribution dominates. The Thomson + stellar contributions are at most 30% of total DM at any z ($F_s$ ≤ 0.3), and Thomson is a small fraction of $F_s$.
+**The r(z) ≈ (1+z)³ match comes from $F_p(z)$ (HISTORICAL framework), NOT from Thomson.** With the v2.7.4 §4.48.1 smooth $F_p(z)$ (Hill n=2, $z_{\rm half}$=3), the primordial component $F_p(z)$ → 1.0 at high z, meaning the *primordial* 2D universe contribution dominates. The Thomson + stellar contributions are at most 30% of total DM at any z ($F_s$ ≤ 0.3), and Thomson is a small fraction of $F_s$. NOTE: $F_p(z)$ DROPPED v3.3+; r(z) ≈ (1+z)³ REPRODUCED via different mechanism in current framework.
 
-**Honest framing.** The original v3 README analysis (which said "Thomson does the heavy lifting") was based on a pre-smooth-function code that used raw energy density (R_Thomson ≈ 1.4 × $10^{62}$ J/yr/ ${\rm Mpc}^3$) without applying the $E^{1+\alpha}$ per-event weight. SIDC's *actual* $E^{1+\alpha}$ weighting makes Thomson's per-event contribution negligible. The r(z) ≈ (1+z)³ result is now explained by the **smooth $F_p(z)$ primordial component** (paper §4.48.1), not by Thomson.
+**Honest framing.** The original v3 README analysis (which said "Thomson does the heavy lifting") was based on a pre-smooth-function code that used raw energy density (R_Thomson ≈ 1.4 × $10^{62}$ J/yr/ ${\rm Mpc}^3$) without applying the $E^{1+\alpha}$ per-event weight. SIDC's *actual* $E^{1+\alpha}$ weighting makes Thomson's per-event contribution negligible. The r(z) ≈ (1+z)³ result is now explained by the **smooth $F_p(z)$ primordial component** (paper §4.48.1, **HISTORICAL framework**), not by Thomson. NOTE: Current framework uses bilateral cascade, NOT $F_p(z)$.
 
 This is what the "scale-time invariance" means: SIDC is *energy-scale-invariant* in its law (every event creates a 2D universe weighted by a smooth $E^{1+\alpha}$ function, regardless of scale or epoch) but the *consequences* are time-lagged by the (1+z)⁴ dilution factor. SIDC is NOT scale-invariant in the dimensional sense (no 1D or 0D universes — see v2.6 architecture change). The 2D time-dilation principle (a 2D universe's 3+1D-frame lifetime of $\sim 33$ s for SN-scale events, set by the event size ℓ/c) is a *local* phenomenon preserved at every epoch. (Earlier 30 Gyr in 2D was a guess, dropped in v2.7.1; the 33 s is empirical, from the ℓ/c mapping, but it's SN-specific, not universal.)
 
@@ -842,7 +842,7 @@ The 5/27/68 split is **observational data** (Planck 2018), not a SIDC prediction
 | File | Purpose | Smoking gun |
 |---|---|---|
 | `calculations/sidc_phenomenological_emulator.py` (722 lines) | 4-part Python pipeline | **#1 AGC 114905 + KKR 25 individual tests** |
-| `calculations/time_scale_invariance_test_v5.py` | All bugs fixed; smooth $F_p(z)$ gives r(z) ≈ (1+z)³ | **#2 scale-time invariance** |
+| `calculations/time_scale_invariance_test_v5.py` (HISTORICAL F_p(z) framework) | All bugs fixed; smooth $F_p(z)$ gives r(z) ≈ (1+z)³ | **#2 scale-time invariance** |
 | `calculations/baryon_plasma_cascade_v2.py` | Thomson + recombination (v2, marked buggy) | supplementary |
 | `calculations/matter_radiation_equality_R_z.py` | R(z) through z $\sim 3400$ | supplementary |
 | `calculations/f_active_consistency.py` | $f_{\rm active}$ rename verification | documentation |
