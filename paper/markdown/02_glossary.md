@@ -22,7 +22,7 @@
 
 ### Calibrated Postulates (0) — All Derived
 
-**SIDC has 0 calibrated postulates in the v3.0+ state.** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
+**SIDC has 0 calibrated postulates in the v3.0+ state (HISTORICAL, v3.5.9+ A1 adds f_leak = H_0 as 5th calibrated).** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
 
 | Previously "calibrated" | Current status | Derivation |
 |------------------------|----------------|------------|
@@ -67,11 +67,12 @@ All other values in SIDC are *derived* from the cascade structure:
 - $c = 1/2$ from N/24 (Ising CFT)
 - $f_{back} = 8.6 \times 10^{-86}$ from $\epsilon \times (E_{4D}/M_{Pl}^4)$ — bulk-brane coupling × 4D event energy ratio
 - $\epsilon = e^{-kL}$ from Randall-Sundrum II bulk-brane coupling (RS-II mechanism)
-- $F_p(0) = 0.9993$ from cumulative DM calculation over 14+ event types (§3.40, v2.7.52)
+- ~~$F_p(0) = 0.9993$~~ (DROPPED v3.3+, see L100 and `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`)
 
 The 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, $\Omega$'s, $g_+$) are taken from data, not fit.
 
 **SIDC has 0 calibrated postulates in the v3.0+ state.**
+**v3.5.9+ A1 update**: $f_{\rm leak} = H_0$ added as 5th calibrated parameter (post-Friedmann). Framework now has 14 parameters (was 9 in v3.5.8).
 ### 2.1 The setup
 
 We assume, following the well-developed brane-world framework [ADD98, RS99], that our observable universe is a 3+1 dimensional brane embedded in a higher-dimensional bulk. Gravity propagates in the bulk; the other Standard Model forces are confined to the brane.

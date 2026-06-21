@@ -1907,7 +1907,9 @@ Wait, that's 7. Let me recount:
 
 Total = 4 + 1 + 1 + 4 = 10 — but framework has 9 parameters. Let me re-check.
 
-Actually the framework has 9 input parameters:
+**NOTE (v3.5.9+ A1)**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w).
+
+Actually the framework has 9 input parameters (v3.5.9 pre-A1):
 1. M_Pl,3D (MEASURED)
 2. M_Pl,2D (DERIVED via N × v_H)
 3. M_Pl,4D (DERIVED via α-GM)
