@@ -1810,3 +1810,43 @@ All updated to clearly mark as HISTORICAL and provide current state (15 paramete
 - f_leak = H_0 (A1 NEW principle)
 - N_sub = 386 (FREE, event-specific)
 - Cone asymmetric in time direction (L308x v3): both γ are time dilation but directions differ
+
+
+### v3.5.9+ CLEANUP PASSES 30-34 (2026-06-21) — F_p(z)/F(z) markers + count fixes
+
+User said "do more passes. i still see fp(z) in readme."
+
+Found multiple F_p(z)/F(z) references scattered throughout README that weren't
+clearly marked as HISTORICAL (F_p(z) Hill function was DROPPED in v3.3+).
+
+**README FIXES** (PASS 31):
+- Added FRAMEWORK CONTEXT banner at §1 (Consistency with ΛCDM) — explains F_p(z) was DROPPED v3.3+
+- Added FRAMEWORK CONTEXT banner at §11 (Testable predictions) — explains intermediate F(z) is HISTORICAL
+- Added FRAMEWORK CONTEXT banner at "45 external constraints" section — explains F_p(z) is HISTORICAL
+
+**LEGACY_PAPER.MD FIX** (PASS 32):
+- Added F_p(z) DROPPED note at top of legacy_paper.md (was just ARCHIVED/LEGACY header)
+
+**SECTION HEADER FIXES** (PASS 33-34):
+- 03b_predictions.md §3.34 (DESI DR3): added 'LEGACY HISTORICAL — DROPPED framework'
+- 03b_predictions.md §3.37 (v2.7.48 summary): added 'LEGACY HISTORICAL v2.7.48'
+- 01_executive_summary.md line 141: 'Intermediate F(z) dwarfs' → 'v2.7.32 LEGACY HISTORICAL framework'
+- 12_galaxy_zoo.md CVnC dwarf section: added 'LEGACY HISTORICAL — DROPPED framework'
+
+**FINAL STATE** (verified):
+- All markdown files with F_p(z) refs have LEGACY NOTE/DROPPED/HISTORICAL markers
+- 13 markdown files with LEGACY NOTE header
+- README.md has 3 banners at appropriate sections
+- §3.34, §3.37, line 141, CVnC dwarf section all marked as LEGACY HISTORICAL
+
+**COMMITS** (4 more this round, **total 24 commits this session**):
+- b5df1bb — CLEANUP PASS 31: HISTORICAL FRAMEWORK banners for F_p(z)/F(z)
+- d125e3d — CLEANUP PASS 32: legacy_paper.md F_p(z) DROPPED note
+- aab40a0 — CLEANUP PASS 33: §3.34 and §3.37 LEGACY HISTORICAL markers
+- 161c8a4 — CLEANUP PASS 34: F(z) refs in 01_executive_summary and 12_galaxy_zoo
+
+**CURRENT STATE** (v3.5.9+ A1+L308z+L308x v3):
+- 395 pages, 1.52 MB PDF
+- 140 limitations
+- 15 parameters
+- All F_p(z)/F(z) references now clearly marked as HISTORICAL/DROPPED
