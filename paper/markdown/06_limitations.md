@@ -2736,12 +2736,16 @@ C. **Modular tensor categories / 2D CFT consistency**:
    - No bootstrap argument forces N=12 specifically
    - Status: NOT FOUND
 
-D. **N=24 vs N=12 confusion**:
-   - 1 Ising CFT = c=1/2 = 1 Majorana
-   - 12 Majoranas = 12 Isings = c=6 (NOT c=1/2)
-   - Framework's "c=1/2 (Ising) + N=12 Majoranas" is ARITHMETIC INCONSISTENT
-   - To get c=1/2, you need N=1 (one Majorana)
-   - To get 12, you need c=6 (twelve Isings)
+D. **N=24 vs N=12 confusion (CLARIFIED)**:
+   - 1 free Majorana: c = 1/2
+   - N free Majoranas: c = N/2 (standard)
+   - 12 free Majoranas: c = 6 (NOT 1/2)
+   - Framework claims c = N/24, NOT N/2
+   - 12 × (1/24) = 1/2 ✓ (matches Ising)
+   - c = N/24 is a SPECIFIC formula (Schwarzian/SYK with Z2 orbifold), not free Majorana CFT
+   - So framework's "c=1/2 (Ising) + N=12 Majoranas" requires SPECIFIC construction (Schwarzian/SYK with Z2)
+   - This is a framework choice (which construction to use), not derivation
+   - Note: c=N/24 might be a misrepresentation; c=N/2 with Z2 quotient would give c=3 (still not 1/2)
 
 **Verdict**: There is NO rigorous first-principles derivation of N=12 currently known.
 
