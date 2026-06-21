@@ -1,0 +1,83 @@
+======================================================================
+12-FOLD DM DENSITY CORRELATION PREDICTION (L308an)
+======================================================================
+
+CHARACTERISTIC r_12 SCALES (where 12-fold correlation appears):
+  Galactic disk:    r_12 ~ 5 kpc
+  Galactic halo:    r_12 ~ 50 kpc
+  Galaxy cluster:   r_12 ~ 1000 kpc
+
+ANGULAR POWER SPECTRUM MULTIPOLE ℓ_12:
+  D_A (z=1) ~ 1.7 Gpc
+
+  Galactic disk: r_12 = 5 kpc, ℓ_12 = 1.07e+06
+  Galactic halo: r_12 = 50 kpc, ℓ_12 = 1.07e+05
+  Galaxy cluster: r_12 = 1000 kpc, ℓ_12 = 5.34e+03
+
+OBSERVATIONAL SURVEYS (multipole coverage):
+  Planck CMB lensing:  ℓ ~ 10-2000
+  KiDS-1000:           ℓ ~ 100-5000
+  DES Y3:               ℓ ~ 100-5000
+  Subaru HSC:           ℓ ~ 100-10000
+  LSST Y1 (2027):       ℓ ~ 100-30000
+  Roman (2027):         ℓ ~ 100-50000
+  Euclid:               ℓ ~ 10-20000
+
+EXPECTED SIGNAL AMPLITUDE:
+  A_12 (12-fold correlation amplitude) ~ 1% of standard ξ(r)
+  This is a SMALL signal, requires high-precision measurements
+
+TWO-POINT CORRELATION FUNCTION:
+  Standard ΛCDM: ξ(r) = (r/r_0)^(-1.8) [smooth power law]
+  SIDC prediction: ξ(r) = ξ_ΛCDM(r) + A_12 × δ(r - r_12)
+  The δ-function at r_12 is a NEW PREDICTION
+
+TESTABLE WITH CURRENT DATA:
+  - BOSS/eBOSS: ξ(r) measured to 1% precision for r > 10 Mpc
+  - DESI Y5: ξ(r) at r ~ 1-100 Mpc to <1% precision
+  - 4MOST: complementary, 0.1-10 Mpc
+
+FALSIFIABLE PREDICTION:
+  SIDC predicts: a BUMP in ξ(r) at r = r_12
+  ΛCDM predicts: smooth power law (no bump)
+  WDM predicts: suppressed power at small r (different shape)
+  SIDM predicts: enhanced core (different feature)
+
+ANGULAR POWER SPECTRUM SIGNATURE:
+  The δ(r - r_12) feature projects to angular space as:
+  C_ℓ(θ) = A_12 × (1 + cos(2πℓ/ℓ_12)) / 2
+  This gives a SPECIFIC OSCILLATION in C_ℓ with period ℓ_12
+
+EXPECTED ℓ_12 VALUES (for D_A = 1.7 Gpc):
+  r_12 = 1 Mpc (cluster scale): ℓ_12 = 5341 (testable by DES/KiDS/HSC)
+  r_12 = 100 kpc (galaxy scale): ℓ_12 = 53407 (testable by LSST/Roman/Euclid)
+
+======================================================================
+QUANTITATIVE PREDICTION SUMMARY
+======================================================================
+
+If SIDC's N=12 is structural and affects DM density correlations:
+
+1. Two-point correlation function:
+   ξ(r) shows a DELTA FUNCTION at r = r_12
+   r_12 is set by SIDC's energetic event distribution
+   Most likely r_12 ~ 1-100 Mpc (cluster to galaxy scale)
+
+2. Angular power spectrum:
+   C_ℓ shows SPECIFIC OSCILLATION with period ℓ_12 = π × D_A / r_12
+   For r_12 = 1 Mpc: ℓ_12 ~ 5000 (DES/KiDS range)
+   For r_12 = 100 kpc: ℓ_12 ~ 50000 (LSST/Roman range)
+
+3. Three-point correlation (bispectrum):
+   Specific triangle configurations corresponding to 12-fold
+   Triangle size: 12 × r_12
+
+4. Velocity correlations:
+   Stellar stream kinematics show oscillations at r_12
+
+STATUS:
+  This is a NEW PREDICTION, consistent with geometric DM
+  No specific analysis has been done on existing data
+  Could be tested with current/near-future surveys
+  Different from ΛCDM (no specific oscillation)
+  Different from particle DM predictions
