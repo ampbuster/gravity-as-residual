@@ -179,3 +179,83 @@
 
 **Total extracted**: ~80 lines of legacy content
 **New README sections**: Replaced with short pointer banners
+
+---
+
+## Section 6: v2.7.3 STATE summary (HISTORICAL)
+
+**Original README location**: Lines 822-836 (pre-extraction)
+**Original date**: v2.7.3
+
+**Original content**:
+- v2.7.3 milestone: 45 external constraints catalogued; 4 → 2 free parameters via web-research convergence
+- 50 honest limitations (v2.7.42+; 30 open, 10 partial, 3 closed, 2 falsified, 4 reverted, 1 discarded)
+- 45 external constraints (4 parameter-reducing, 7 interpretive-cosmological, 4 interpretive-theoretical, 5 latest 2024-2025, 5 final 2024-2025, 5 late 2025-2026, 5 extended 2025-2026, 5 round 8, 1 new SIDC prediction)
+- 🎯 47 TUC TEST (§11): PREDICTION (not yet a result). SIDC predicts $M_{dyn} \approx M_{stars}$ (no local DM); particle DM predicts $M_{dyn} > M_{stars}$. Awaiting DR1 (2027) or Y10 (2034).
+- 🧪 36/36 GALAXY-ZOO TESTS PASS (§12)
+- ✅ CMB RESOLVED (§4.48.1, v2.7.5+, HISTORICAL F_p(z) framework): smooth $F_p(z)$ (Hill n=2, $z_{half}$=3) gives r(z) ≈ (1+z)³ at high z. F_p(z) DROPPED v3.3+; r(z) ≈ (1+z)³ REPRODUCED in current framework via bilateral cascade.
+- 📊 MCMC RAR FIT (§13.7): $a_0 = 2.34 \times 10^{-10}$ ± $1.54 \times 10^{-10}$ m/s²
+- Killer match: TRGB $H_0 = 69.8 \pm 1.9$ is 0.2σ from SIDC $H_{0,4D} = 70.16$
+- Theoretical foundation: c=1 string theory matrix model
+- 2 remaining free parameters: μ + $m_{3+1D}$ (require 2D CFT expert)
+- 0 strongly confirmed, 0 falsified, 16 pass, 1 confounded (out of 17 test categories)
+- Smoking guns: 3 reproducible, but not unique to SIDC. 47 Tuc test is the only TRULY differentiating prediction.
+
+---
+
+## Section 7: v2.7.3+ §11 — 47 TUC TEST FOR RUBIN/LSST (HISTORICAL)
+
+**Original README location**: Lines 837-840 (pre-extraction)
+**Original date**: v2.7.3+
+
+**Original content**:
+
+A new section §11 anchors SIDC's DM mechanism to a near-term, low-cost, high-leverage falsification test: the 47 Tucanae (NGC $10^4$) globular cluster in the context of Rubin/LSST DP1 (released June 30, 2025).
+
+- 47 Tuc is the cleanest test: no current SN, no massive star formation, $\sim 10^6$ old low-mass stars
+- SIDC prediction: $M_{dyn} \approx M_{stars}$ (no local DM enhancement), 5 tidal tails fit Galactic potential
+- Testable predictions: DP1 (2025), DR1 (2027), Y10 (~2034)
+- Falsification: $M_{dyn} > 2 \times M_{stars}$ at 3σ → SIDC's DM mechanism falsified
+- Generalization: SIDC's "no current activity → no local DM" rule applies to all quiescent systems
+
+The 47 Tuc test does NOT depend on the speculative end-of-universe extension in §10. It tests the core of SIDC: the link between energetic activity and local DM enhancement.
+
+---
+
+## Section 8: Intermediate F(z) dwarf population — historical F(z) framework
+
+**Original README location**: Lines 945-1010 (pre-extraction)
+**Original date**: v2.7.32+
+
+**Original content** (summary):
+
+SIDC's HISTORICAL smooth F(z) function:
+- F(z) = 1/(1 + (z/z_half)^{-n}), Hill n=2, z_half=3
+- Predicts intermediate F(z) ~ 0.1-0.5 population (10-30% of field dwarfs)
+- This is the "missing dwarf" population
+- Testable with LSST Y1 (2027), Euclid Q1 (2026)
+
+CURRENT (v3.5.9+ A1): The prediction is REPRODUCED via calibrated AGN rate giving 27% DM. The specific F(z) ~ 0.1-0.5 distribution is HISTORICAL. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` for framework transition.
+
+Key observational papers:
+- Bidaran et al. 2025 (arXiv:2501.02910): quenched isolated dwarfs in voids, log(M*/M☉) = 8.9-9.5
+- CVnC dwarf (Hagen+ 2026): $M_{dyn}$ ≫ $M_{b}$
+- Pre-2025: bimodal (gas-rich vs. quenched); 2025-2026: intermediate population discovered
+
+---
+
+## Summary Table (Updated)
+
+| Section | Original Lines | Status | Replaced by (v3.5.9+) |
+|---------|----------------|--------|------------------------|
+| Sun/tidal dwarfs/AGC/KKR | 258-293 | HISTORICAL | §12 galaxy-zoo tests (36/36) |
+| Cosmic SFH → Ω_DM | 294-345 | LEGACY HISTORICAL | 27% DM from calibrated AGN rate |
+| F_p(z) is OLD | 346-374 | LEGACY HISTORICAL | DROPPED entirely |
+| Result 2: Closed-Loop | 96-161 | v3.0.21 HISTORICAL | f_DE / f_DM,leak / f_DM,death naming |
+| #1 Consistency with ΛCDM | 744-789 | HISTORICAL framework | r(z) match via bilateral cascade |
+| v2.7.3 STATE | 822-836 | HISTORICAL | Current state in README |
+| v2.7.3+ §11 | 837-840 | HISTORICAL | 47 Tuc test description in README |
+| Intermediate F(z) population | 945-1010 | HISTORICAL framework | intermediate past-SF dwarfs in README |
+
+**Total extracted**: ~150 lines of legacy content (was ~80 before this pass)
+**New README sections**: Replaced with short pointer banners
