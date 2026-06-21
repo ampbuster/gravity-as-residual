@@ -5,7 +5,7 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.5.7+ (paper) — 376 pages, **118 honest limitations** (v3.5.7+ adds L308f, L308g)
+**Current version:** v3.5.9+ (paper) — 405 pages, **138 honest limitations** (v3.5.9+ adds L308t-y, A1 principle)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)
@@ -48,6 +48,20 @@
   - **L308p (Cone asymmetry)**: 4D linear, 2D one-to-one (USER-INSIGHT)
   - **L308q (2D universe quantum)**: $M_{\rm 2D}$ is discrete, can't be split (USER-INSIGHT)
   - **§7.4.5-§7.4.15**: 11 new sections documenting all user-caught findings
+- **v3.5.9+: MATHEMATICAL AUDIT + PATH B + APPROACH A1** (June 21, 2026):
+  - User: "audit the formulas" → 3 inconsistencies found (γ_4D formula, τ_3D,apparent units, M^α at 4D level)
+  - **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, μ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, N_sub = 3.86×10² — framework values UPDATED to consistent derivation. L26 → FULL CLOSURE.
+  - **L308u (WHY N=12? BREAKTHROUGH)**: Appelquist 2001 PRL 87, 031801 — 3 generations from 6D anomaly cancellation. Unifies all five "12"s in cascade.
+  - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs.
+  - **Path B2 (REJECTED)**: γ_4D decoupling had structural inconsistency (γ_4D "back-flow" vs γ_2D "time dilation")
+  - **APPROACH A1 (CURRENT, §7.4.20)**: $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
+    - DM stable at 27% (steady state, τ_DM = 14.5 Gyr ≈ universe age)
+    - γ_4D stays DERIVED = 5.93×10⁹⁰ (literal time dilation, REINSTATED)
+    - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
+    - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
+  - **L308w, L308x, L308y**: f_leak = H_0 principle, γ consistency, §3.67 coincidence
+  - 138 limitations (was 131 v3.5.8), 405 pages (was 398)
+---
   - **"12" cascade fundamental unit**: α = 1+1/√12, $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, $M_{\rm Pl,2D}$/$v_{\rm Higgs}$ = 11.75
   - **First-principles progress**: 0/9 → 1/9 (α derived!)
   - Tier 1 (4/9): observationally pinned, converge within 0.5σ

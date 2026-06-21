@@ -1,7 +1,7 @@
 # Paper Legacy Content
 
 This directory contains **superseded content** from earlier SIDC versions.
-The current paper is in `paper/markdown/`. Current version: **v3.5.7+**.
+The current paper is in `paper/markdown/`. Current version: **v3.5.9+** (Approach A1).
 
 These files are kept for historical reference and to document the framework's
 evolution. They are NOT part of the current paper.
@@ -86,3 +86,33 @@ It is useful for:
 - Current state of model: `STATE_OF_THE_MODEL.md`
 - Current persistent memory: `persistent_memory.md`
 - Current changelog: `changelog.md`
+
+## v3.5.9+ Era (AUDIT + A1)
+
+### `v3_legacy_dm_dynamics_hill_Fp.md`
+Documents the OLD Hill function framework for DM dynamics:
+- $F_p(z) = 0.9993 + 0.0007 \cdot z^2/(z_{half}^2 + z^2)$ (Hill n=2, $z_{half}=3$)
+- 99.93% primordial at z=0 (OUTDATED, current is 70%)
+- §3.67 scaled-leak formula (REPLACED by f_leak = H_0 in A1)
+- 9D = v_Higgs hypothesis (DROPPED)
+- 12 Weyl Fermions = 12 SYK Majoranas (CURRENT, not legacy — breakthrough L308u)
+
+**SUPERSEDED** by v3.5.9+ A1 (§7.4.20):
+- $f_{\rm leak} = H_0$ as new principle (post-Friedmann)
+- $\gamma_{\rm 4D}$ stays DERIVED = 5.93×10⁹⁰ (literal time dilation)
+- DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr)
+- Universe at 95.1% of DM lifetime
+
+### `v359_path_B2_rejected.md`
+Documents Path B2 (REJECTED approach):
+- γ_4D = 1.12×10⁶⁴ (calibrated, not derived) — REJECTED
+- τ_3D,apparent = 1.69×10⁹⁸ yr (Path B2 value) — REJECTED
+- f_leak = 2.18×10⁻¹⁸ /s = H_0 (worked but inconsistent)
+
+**WHY REJECTED**: Path B2 had structural inconsistency:
+- γ_4D "back-flow efficiency" but γ_2D "literal time dilation"
+- User catch: "so means 2d universes are also not time dilated?"
+
+**REPLACED** by Approach A1 (current):
+- γ_4D stays DERIVED (literal time dilation, consistent with γ_2D)
+- f_leak = H_0 (NEW principle, independent of γ)

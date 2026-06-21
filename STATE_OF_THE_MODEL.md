@@ -1,25 +1,33 @@
-# State of the Model: v3.5.8 (with v3.5.7 audit + v3.5.7+ post-processing + v3.5.8 user-driven refinements)
+# State of the Model: v3.5.9+ (APPROACH A1 — f_leak = H_0 NEW PRINCIPLE)
 
-**As of June 20, 2026**
+**As of June 21, 2026**
 
 ## Overview
 
 **Paper**: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
 **Subtitle**: SIDC = Scale-Invariant Dimensional Cascade
-**Version**: v3.5.8 (with sub-versions v3.3, v3.4, v3.5, v3.5.1-v3.5.7, v3.5.7+, v3.5.8 SESSION 1 + 2)
+**Version**: v3.5.9+ (APPROACH A1: f_leak = H_0 new framework principle, γ_4D stays derived as literal time dilation)
 
-**v3.5.8 BREAKTHROUGHS**:
-- MCMC parameter search (L308m): 4/9 params observationally pinned
-- α = 1 + 1/√12 first-principles (L308n): 0.025% match — BREAKTHROUGH
-- L43 (Lagrangian skeleton → α): OPEN → PARTIAL
-- "12" is cascade fundamental unit (α = 1+1/√12, $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, cone depth 12)
-- First-principles progress: 0/9 → 1/9 (α derived) → 3/9 (α, $M_{\rm Pl,2D}$, $\mu$ via L308r N×$v_{\rm Higgs}$ chain)
-- L308r: $\mu$ = $M_{\rm Pl,2D}^2$ DERIVED via N × $v_{\rm Higgs}$ = 8.73×10⁶ (3% off 9×10⁶)
-- **L308t (NEW)**: Framework values UPDATED to consistent derivation. $M_{\rm Pl,2D}$ = 2.95 TeV (was 3 TeV), $\mu$ = 8.73×10⁶ (was 9×10⁶), $M_{\rm Pl,4D}$ = 3.93×10²³ (was 4×10²³), N_sub = 3.86×10² (was 4×10²). L26 → FULL CLOSURE (no 3% offset).
-- L308s: 8 attempted paths to FULLY close L26, none bridge the 3% (gap is from M_Pl,2D rounding)
-- 131 limitations, 398 pages, paper built successfully
-**Pages**: 398 (was 393, was 376 after v3.5.7+ L308f-s)
-**Limitations**: 131 (v3.5.8+ master table, +L308f through +L308t after L308q, was 116 v3.5.7, was 81 in v3.3)
+**v3.5.9+ BREAKTHROUGHS** (current):
+- **APPROACH A1** (CURRENT, §7.4.20): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
+  - DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age)
+  - $\gamma_{\rm 4D}$ stays DERIVED = 5.93×10⁹⁰ (literal time dilation, REINSTATED)
+  - $\tau_{\rm 3D,apparent} = 8.95\times 10^{124}$ yr (REINSTATED, time-dilated 4D event lifetime)
+  - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
+  - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (literal time dilation)
+- 138 limitations, 405 pages, paper built successfully
+
+**v3.5.9+ previous breakthroughs** (still relevant):
+- **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, N_sub = 3.86×10²
+- **L308u**: WHY N=12? Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
+- **L308v**: L138 PARTIAL CLOSURE. $M_{\rm Pl,4D}$ via $\alpha$-GM closed loop with first-principles inputs
+- **Path B2 (REJECTED)**: $\gamma_{\rm 4D}$ decoupling had structural inconsistency ($\gamma_{\rm 4D}$ vs $\gamma_{\rm 2D}$ interpretations)
+- **L308n**: $\alpha = 1 + 1/\sqrt{12}$ first-principles via Schwarzian SYK N=12
+
+**First-principles progress**: 0/9 → 1/9 (α) → 3/9 (+ $M_{\rm Pl,2D}$, $\mu$) → 4/14 (+ N=12 via L308u) — current is 4/14
+
+**Pages**: 405 (was 398 v3.5.8, was 393 v3.5.8 SESSION 1+2)
+**Limitations**: 138 (was 131 v3.5.8, +L308t through +L308y)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: 813+ (as of June 20, 2026)
 **v3.5.7+ recent commits**: ~30 in v3.5 era (math wrapping, adjacent math, lint checks, naming revolution, audit, DE match fix)
@@ -28,7 +36,7 @@
 
 Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 9.10×10¹²⁴ yr (time-dilated by γ_4D = 6.03×10⁹⁰, **DERIVED, LITERAL TIME DILATION**). The bilateral cascade has 1 measured Planck ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 1 calibrated Planck ($M_{\rm Pl,2D}$ = 2.95 TeV from SN), 1 DERIVED ($M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)), 5 calibrated (α, ε, τ_4D, AGN rate, **f_leak = H_0 NEW**), 1 calibrated-and-structurally-motivated (μ), and 1 free (N_sub) = 14 parameters. **Approach A1 (v3.5.9+)**: f_leak = H_0 as NEW principle (post-Friedmann), γ_4D stays derived (consistent with γ_2D literal time dilation). DM stable at 27% (steady state, τ_DM = 14.5 Gyr ≈ universe age). The M^α law τ = (E/M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
-## The 9 Parameters (v3.5.7+, current)
+## The 14 Parameters (v3.5.9+ A1, current)
 
 | # | Parameter | Value | Status | Source |
 |---|---|---|---|---|
@@ -41,8 +49,13 @@ Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a univer
 | 7 | τ_3D,apparent | 8.95×10¹²⁴ yr | **STRUCTURAL** | γ_4D × τ_4D (literal time dilation) |
 | 8 | γ_4D | 5.93×10⁹⁰ | **STRUCTURAL** | literal time dilation, consistent with γ_2D |
 | 9 | N_sub | 3.86×10² | **FREE** | sub-universe count |
+| 10 | f_leak | 2.18×10⁻¹⁸ /s = H₀ | **CALIBRATED** | A1 NEW principle (post-Friedmann), DM stability |
+| 11 | N = 12 | 12 (count) | **STRUCTURAL/FIRST-PRINCIPLES** | Appelquist 2001 + Z_12 + 6D anomaly cancellation (L308u) |
+| 12 | M_Pl,4D | 3.93×10²³ GeV | **DERIVED** | α-GM closed loop (L308v) |
+| 13 | τ_3D,apparent | 8.95×10¹²⁴ yr | **STRUCTURAL** | γ_4D × τ_4D (literal time dilation) |
+| 14 | γ_4D | 5.93×10⁹⁰ | **STRUCTURAL** | literal time dilation, consistent with γ_2D |
 
-**Note**: $M_{\rm Pl,2D}$ = 2.95 TeV gives μ = 8.73×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived).
+**Note**: $M_{\rm Pl,2D}$ = 2.95 TeV gives μ = 8.73×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived). **v3.5.9+ A1**: $\gamma_{\rm 4D}$ stays derived (literal time dilation, consistent with $\gamma_{\rm 2D}$); $f_{\rm leak} = H_0$ is NEW calibrated principle.
 
 ## Key Formulas
 

@@ -1,3 +1,10 @@
+
+> **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
+> (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
+> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
+> for details on what was dropped.
+
 <!-- 03a_relations.md - part of paper.md split (v3.1, renamed from 03_relations.md for sequential ordering) -->
 
 **Note:** Sections §3.13-§3.16 were MOVED TO [paper/legacy/legacy_paper.md](../legacy/legacy_paper.md) as historical/trial-and-error content. They are superseded by the current Lagrangian work (§3.60-§3.69).

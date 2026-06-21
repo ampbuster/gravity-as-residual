@@ -1,3 +1,10 @@
+
+> **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
+> (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
+> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
+> for details on what was dropped.
+
 <!-- 13_cmb_gap.md - part of paper.md split (v3.0.13) -->
 
 ## 13. SIDC's CMB Gap: an Honest Limitation (June 2026) — *UPDATED v2.7.5+: CLOSED*

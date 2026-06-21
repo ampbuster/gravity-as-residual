@@ -4,39 +4,46 @@
 
 **Author:** A non-specialist (software developer)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
-**Version:** **v3.5.8** (June 20, 2026) — **CURRENT**
+**Version:** **v3.5.9+** (June 21, 2026) — **CURRENT**
 
-**What's in v3.5.8** (12 new limitations L308f-L308q, 11 new sections §7.4.5-§7.4.15):
-- **MCMC parameter search**: 4/9 params observationally pinned ($\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate converge within $0.5\sigma$)
-- **$\alpha = 1 + 1/\sqrt{12}$ FIRST-PRINCIPLES** (BREAKTHROUGH, 0.025% match) — L43 OPEN → PARTIAL
-- **$M_{\rm Pl,2D}$ & $M_{\rm Pl,4D}$ honest origins** (user caught: not first-principles derived)
-- **Boundary sphere structure**: $2\pi$ (S¹) at 2D-3D, $4\pi$ (S²) at 3D-4D
-- **Geometric peak at n=6** (S⁶ surface area 33.07) — cone could extend to 7D/8D
-- **$N_{\rm sub}$ = $E_{\rm 4D}/E_{\rm sub}$ linear scaling** (USER-INSIGHT, no longer free parameter)
-- **Cone is asymmetric**: 4D linear (universe-creating), 2D one-to-one (universe-modifying)
-- **2D universe is discrete quantum** ($M_{\rm 2D}$ is smallest unit of DM, can't be split)
-- **"12" is the cascade fundamental unit** ($\alpha = 1 + 1/\sqrt{12}$, $M_{\rm Pl,2D}$ = $12\times v_{\rm Higgs}$, cone depth 12 sub-steps)
+**What's new in v3.5.9+** (latest: APPROACH A1, see §7.4.20):
+- **APPROACH A1 (CURRENT)**: $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
+  - DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age)
+  - $\gamma_{\rm 4D}$ stays DERIVED = $5.93 \times 10^{90}$ (literal time dilation)
+  - $\tau_{\rm 3D,apparent} = 8.95 \times 10^{124}$ yr (REINSTATED, time-dilated 4D event lifetime)
+  - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
+  - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (literal time dilation)
 
-**Paper:** 393 pages, 1.42 MB
-**Limitations:** 128 honest (was 116 in v3.5.7, +12 user-driven L308f-L308q)
-**First-principles progress:** 0/9 → 1/9 ($\alpha = 1 + 1/\sqrt{12}$ DERIVED)
+- **Earlier v3.5.9+ breakthroughs** (still current):
+  - **L26 FULL CLOSURE** (L308t): $\mu = M_{\rm Pl,2D}^2$, $M_{\rm Pl,4D} = 3.93 \times 10^{23}$ GeV (consistent derivation)
+  - **WHY N=12?** (L308u, BREAKTHROUGH): Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
+  - **L138 PARTIAL CLOSURE** (L308v): $M_{\rm Pl,4D}$ via $\alpha$-GM closed loop with first-principles inputs
 
-For v3.5.8 session details, see `paper/legacy/v358_user_driven_refinements.md`.
+**Paper:** 405 pages, 1.50 MB
+**Limitations:** 138 honest (was 116 in v3.5.7, +22 v3.5.8-v3.5.9+)
+**First-principles progress:** 4/14 ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12)
+
+For v3.5.8 details, see `paper/legacy/v358_user_driven_refinements.md`.
+For v3.5.9+ audit and Path B2 (rejected) details, see `paper/legacy/v359_audit_history.md`.
 For all version history, see `changelog.md`.
-For all v3.5.8 findings, see `persistent_memory.md`.
+For all v3.5.9+ findings, see `persistent_memory.md`.
 
-**Current parameters** (v3.5.8, 9 total, with first-principles status):
-- 1 measured: $M_{\rm Pl,3D} = 1.22 \times 10^{19}$ GeV (Newton's G)
-- **1 first-principles derived** (BREAKTHROUGH): $\alpha = 1.289 = 1 + 1/\sqrt{12}$ (Schwarzian SYK with N=12)
-- 1 DERIVED via $\alpha$-GM: $M_{\rm Pl,4D} = 4 \times 10^{23}$ GeV (consistent but circular)
-- 1 STRUCTURAL: $M_{\rm Pl,2D}$ = 2.95 TeV $= 12 \times v_{\rm Higgs}$ (1.5% off, NOT first-principles)
-- 1 SEMI-DERIVED (NEW): $N_{\rm sub} = E_{\rm 4D}/E_{\rm sub} = 400$ (linear in $E_{\rm 4D}$, no longer free)
-- 4 calibrated: $\epsilon = 10^{-38}$, $\tau_{\rm 4D} = 1.51 \times 10^{34}$ yr, AGN rate = $3\times 10^{-16}$, $\mu$ = $9\times 10^{6}$ GeV²
-- 1 derived: $E_{\rm 4D} = 5 \times 10^{79}$ J (from $M_{\rm Pl,4D}$, $\tau_{\rm 4D}$)
+**Current parameters** (v3.5.9+ A1, 14 total):
+- 1 MEASURED: $M_{\rm Pl,3D} = 1.22 \times 10^{19}$ GeV (Newton's G)
+- 4 FIRST-PRINCIPLES DERIVED:
+  - $\alpha = 1.289 = 1 + 1/\sqrt{12}$ (Schwarzian SYK N=12)
+  - $M_{\rm Pl,2D} = 2.95$ TeV $= 12 \times v_{\rm Higgs}$
+  - $\mu = M_{\rm Pl,2D}^2 = 8.73 \times 10^{6}$ GeV²
+  - N = 12 (Appelquist 2001, 6D anomaly cancellation)
+- 1 DERIVED via $\alpha$-GM: $M_{\rm Pl,4D} = 3.93 \times 10^{23}$ GeV (closed loop)
+- 5 CALIBRATED: $\epsilon = 10^{-38}$, $\tau_{\rm 4D} = 1.51 \times 10^{34}$ yr, $E_{\rm 4D} = 5 \times 10^{79}$ J, AGN rate = 27%, **$f_{\rm leak} = H_0$ (NEW A1)**
+- 2 STRUCTURAL: $\tau_{\rm 3D,apparent} = 8.95 \times 10^{124}$ yr, $\gamma_{\rm 4D} = 5.93 \times 10^{90}$ (literal time dilation)
+- 1 FREE: $N_{\rm sub} = 3.86 \times 10^{2}$
 
 **DE match**: 0.13% (simple $f_{\rm DE}$ formula: $\rho_{\rm DE} = f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl,3D}$^4 with $f_{\rm DE} = 1.13 \times 10^{-85}$)
-**DM match**: 27% (calibrated AGN rate)
+**DM match**: 27% (calibrated AGN rate + $f_{\rm leak} = H_0$ steady state)
 **$M^{\alpha}$ law**: 8/8 named events fit within $1.6\times$ ($\alpha = 1.289$)
+**Multi-universe**: 1 4D event → $N_{\rm sub} = 386$ sub-universes (multi-universe picture, $\tau_{\rm sub} = 6.97 \times 10^{30}$ yr)
 
 **For previous version highlights, see [`changelog.md`](changelog.md).**
 

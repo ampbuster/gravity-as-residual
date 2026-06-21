@@ -1044,6 +1044,12 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 \$ cd calculations/
 \$ python3 sidc_phenomenological_emulator.py
 # → 0.7-3× bifurcation reproduced (REVISED v2.7.33+, was 219×)
+> **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
+> (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
+> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
+> for details on what was dropped.
+
 # → AGC 114905: $M_{dyn}$/$M_{b} = 1.36$
 # → KKR 25:    $M_{dyn}$/$M_{b}$ ~ $1$-4 (REVISED v2.7.33+, was 299.19)
 ```
