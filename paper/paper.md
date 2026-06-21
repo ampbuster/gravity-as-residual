@@ -195,7 +195,7 @@ N = 12 is **uniquely determined** by $\alpha$ = 1.29 (off by 0.001; for N = 10, 
 **Strong predictions** (testable, falsifiable):
 
 1. **47 Tucanae**: $M_{dyn} \approx M_{stars}$ (no local DM) — differentiator from particle DM
-2. **Intermediate F(z) dwarfs**: 10-30% of dwarfs are DM-poor (consistent with Bidaran+ 2025 etc.)
+2. **Intermediate F(z) dwarfs (v2.7.32 LEGACY HISTORICAL framework)**: 10-30% of dwarfs are DM-poor (consistent with Bidaran+ 2025 etc.) — current framework uses bilateral cascade with calibrated AGN rate (no F(z) function)
 3. **Massive quiescent galaxies at z > 4**: very high $M_{dyn}$ (consistent with RUBIES, EXCELS etc.)
 4. **Tidal dwarf galaxies**: shifting toward DM-poor (consistent with Zaragoza-Cardiel+ 2024 etc.)
 5. **14 event-type lifetimes**: all follow $\tau_{2D} \sim M^{1.29}$ (SN, GRB, BNS, AGN, etc.)
@@ -11188,7 +11188,7 @@ The full simulation is in `calculations/cascade_model.py` (run with `--outliers`
 10. NGC 1275 (Perseus A): $M_{dyn}$/ $M_{b}$ ~ 50, AGN host
 11. Dragonfly 44: $M_{dyn}$/ $M_{b}$ ~ 300 (revised), Coma cluster member
 
-**New test (v2.7.32+):**
+**New test (v2.7.32+, LEGACY HISTORICAL — DROPPED framework):**
 12. **CVnC dwarf (Hagen+ 2026, arXiv:2601.14248)**: $M_{dyn}$ >> $M_{b}$, isolated quenched dwarf in the local volume, F(z) ~ 0.5 (intermediate). "Circumstantial evidence suggests CVnC may have quenched via past interactions with the L* galaxy NGC 4631." This is the first *single-galaxy* test of the intermediate F(z) population predicted by SIDC's smooth F(z) (legacy_paper.md §3.26). The 2025 Bidaran et al. sample of isolated quenched dwarfs in cosmic voids (log M* = 8.9-9.5) is the population context.
 
 ### 12.2 Outlier test details
