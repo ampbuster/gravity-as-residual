@@ -166,11 +166,20 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ⚠ Liouville CFT structure
 - ⚠ DM = decayed 2D universe energy (Possibility A: 2.95 TeV particle?)
 
-## What's DERIVED
+## What's DERIVED (v3.5.8+ L308n/r/u/v added first-principles)
 
-- ✓ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 3.93×10²³ GeV
+**FIRST-PRINCIPPLES (L308n, L308r, L308u)**:
+- ✓ α = 1.289 = 1 + 1/√12 (Schwarzian SYK N=12 saddle-point, L308n)
+- ✓ $M_{\rm Pl,2D}$ = 12 × $v_{\rm Higgs}$ = 2.95 TeV (L308r)
+- ✓ μ = $M_{\rm Pl,2D}$² = 8.73×10⁶ GeV² (L308r)
+- ✓ N = 12 (Appelquist 2001 + Z_12 + 6D anomaly cancellation, L308u)
+
+**DERIVED (via formulas)**:
+- ✓ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 3.93×10²³ GeV (L308v, α-GM closed loop)
+- ✓ $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ = 386 × 1.295×10⁷⁷ = 5×10⁷⁹ J (L308o, energy conservation)
 - ✓ τ_3D,apparent = γ_4D × τ_4D = 8.95×10¹²⁴ yr (literal time dilation)
 - ✓ γ_4D = ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α = 5.93×10⁹⁰ (literal time dilation, consistent with γ_2D)
+- ✓ γ_2D = ($E_{\rm SN}$/$M_{\rm Pl,3D}$)^α = 5.5×10⁴⁴ (literal time dilation at 2D level, L308x v3)
 
 ## What's TESTABLE
 
