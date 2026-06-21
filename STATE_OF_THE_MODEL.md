@@ -81,7 +81,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 | Version | Finding |
 |---|---|
-| v3.3 | Bilateral cascade: $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM (DERIVED), $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale), τ_3D_apparent = 9.10×10¹²⁴ yr |
+| v3.3 | Bilateral cascade: $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM (DERIVED), $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale), τ_3D_apparent = **8.95×10¹²⁴ yr** (audit fixed 9.10→8.95) |
 | v3.3.1-3 | FZZT, matrix model provide consistency, not derivation |
 | v3.3.4 | 10 first-principles principles tested, all fail |
 | v3.3.5 | Pattern: μ × τ/E = K (event-dependent) |

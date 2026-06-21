@@ -22,7 +22,7 @@
 - 1 MEASURED: $M_{\rm Pl,3D}$
 - 4 FIRST-PRINCIPPLES: α, $M_{\rm Pl,2D}$, μ, N=12 (was 3)
 - 2 DERIVED: $M_{\rm Pl,4D}$ (α-GM, L308v), **$E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$** (L308o, was calibrated)
-- 4 CALIBRATED: ε, τ_4D, E_4D, AGN rate, $f_{\rm leak} = H_0$ (was 4)
+- 5 CALIBRATED: ε, τ_4D, AGN rate, $f_{\rm leak} = H_0$ (E_4D moved to DERIVED per L308z, was 4 in pre-L308z pre-A1)
 - 3 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), τ_3D,apparent, γ_4D
 - 1 FREE: $N_{\rm sub}$ (event-specific, our universe's 4D event had N=386)
 
