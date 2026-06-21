@@ -9583,7 +9583,10 @@ The framework now has three independent "rates":
 
 2. **γ_2D rate**: time dilation between 2D universe and 3+1D frames
    - γ_2D(SN) = 5.5×10⁴⁴ (very large)
-   - SN's 2D universe appears 10⁴⁴× longer in 3D frame than in 2D's own frame
+   - 2D universe's proper time (in 2D's own frame) = γ_2D × 33s = 5.5×10⁴⁴ × 33s = **5.7×10³⁸ yr**
+   - 2D universe in 2D's own frame lives 10⁴⁴× LONGER than the 33s we observe in 3D frame
+   - This is OPPOSITE direction from γ_4D: γ_2D stretches time in 2D's own frame, γ_4D stretches time in 3D frame
+   - The cone is ASYMMETRIC in time direction (L308x v3, L308aa)
 
 3. **f_leak rate**: continuous DM drain from 3+1D back to 4D
    - f_leak = H_0 (set by cosmic expansion rate)
