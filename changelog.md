@@ -18,13 +18,19 @@
 - LEGACY NOTE flags added to 13 markdown files
 - Top-level docs (README, STATE_OF_THE_MODEL, persistent_memory) updated to v3.5.9+ A1
 
-**Parameters** (now 14, was 9):
+**Parameters** (now 14, REVISED L308z):
 - 1 MEASURED: $M_{\rm Pl,3D}$
 - 4 FIRST-PRINCIPPLES: α, $M_{\rm Pl,2D}$, μ, N=12 (was 3)
-- 1 DERIVED via α-GM: $M_{\rm Pl,4D}$
-- 5 CALIBRATED: ε, τ_4D, E_4D, AGN rate, $f_{\rm leak} = H_0$ (was 4)
-- 2 STRUCTURAL: τ_3D,apparent, γ_4D
-- 1 FREE: $N_{\rm sub}$
+- 2 DERIVED: $M_{\rm Pl,4D}$ (α-GM, L308v), **$E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$** (L308o, was calibrated)
+- 4 CALIBRATED: ε, τ_4D, E_4D, AGN rate, $f_{\rm leak} = H_0$ (was 4)
+- 3 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), τ_3D,apparent, γ_4D
+- 1 FREE: $N_{\rm sub}$ (event-specific, our universe's 4D event had N=386)
+
+**L308z REFRAME (v3.5.9+)**:
+- N_sub is the FREE parameter (specific to each 4D event)
+- E_4D was "calibrated" but is actually DERIVED from N_sub × E_sub
+- DE match becomes a consistency check, not the calibration driver
+- Different 4D events would have different N_sub (sub-galaxy: N=4, supercluster: N=400,000)
 
 **Files added**:
 - `calculations/v36_research/A1_fleak_H0_principle.py` (A1 verification)

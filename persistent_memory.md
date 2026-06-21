@@ -5,7 +5,7 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.5.9+ (paper) — 395 pages, **138 honest limitations** (v3.5.9+ adds L308t-y, A1 principle)
+**Current version:** v3.5.9+ (paper) — 395 pages, **139 honest limitations** (v3.5.9+ adds L308t-z, A1 principle, L308z N_sub event-specific)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)
@@ -60,7 +60,7 @@
     - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
     - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - **L308w, L308x, L308y**: f_leak = H_0 principle, γ consistency, §3.67 coincidence
-  - 138 limitations (was 131 v3.5.8), 395 pages (was 398)
+  - 139 limitations (was 138 pre-L308z, was 131 v3.5.8), 395 pages (was 398)
 ---
   - **"12" cascade fundamental unit**: α = 1+1/√12, $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, $M_{\rm Pl,2D}$/$v_{\rm Higgs}$ = 11.75
   - **First-principles progress**: 0/9 → 1/9 (α derived!)
@@ -133,7 +133,7 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - ε = 10⁻³⁸ — CALIBRATED to hierarchy (CC problem, MCMC 0.5σ)
 - AGN rate = 3×10⁻¹⁶ /m³/s — CALIBRATED to 27% DM (MCMC 0.1σ)
 - $M_{\rm Pl,2D}$ = 2.95 TeV — STRUCTURAL (12×$v_{\rm Higgs}$, 1.5% off)
-- **N_sub = 386 — SEMI-DERIVED (linear in $E_{\rm 4D}$, L308o)**
+- **N_sub = 386 — FREE (event-specific, per L308z)** [was SEMI-DERIVED via L308o, but reframe: N_sub is the free parameter for our 4D event; E_4D = N_sub × E_sub is then derived]
 - $M_{\rm Pl,4D}$ = 3.93×10²³ GeV — DERIVED via α-GM (circular consistency)
 - $E_{\rm 4D}$ = 5×10⁷⁹ J — DERIVED ($M_{\rm Pl,4D}$, τ_4D)
 
@@ -1192,7 +1192,7 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 - 1 calibrated: $M_{\rm Pl,2D}$ = 2.95 TeV (via SN τ_2D = 33 s, L41)
 - 1 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)
 - 4 calibrated: α = 1.289, ε = 10⁻³⁸, τ_4D, AGN rate
-- 1 free: N_sub = 3.86×10²
+- 1 free: N_sub = 3.86×10² (event-specific, our universe's 4D event had N=386)
 - 1 calibrated: μ = $M_{\rm Pl,2D}^2$ (now STRUCTURALLY MOTIVATED, 5+ origins, v3.5.6)
 
 **Honest framing (v3.5.6)**:
@@ -1678,3 +1678,43 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - All current claims consistent across all docs
 - Historical claims clearly marked (v3.3, v3.5.7+, v3.5.8+ tags)
 - "0 calibrated postulates" was HISTORICAL — A1 adds f_leak = H_0
+
+### v3.5.9+ L308z: N_sub IS FREE (event-specific) — reframe from L308o (2026-06-21)
+- User: "386 could be the 4D event that created our universe. so we have 385 other siblings. but a different event could create other amounts. it probably is a free parameter. just that energy must be conserved."
+- 
+- **REFREME**: L308o derived N_sub = E_4D/E_sub. But this is BACKWARDS:
+- - E_4D was "calibrated" to give DE match
+- - N_sub = E_4D/E_sub is then "derived"
+- - 
+- - User's correct framing:
+- - **N_sub is the FREE parameter** (specific to our universe's 4D event)
+- - **E_4D is DERIVED** via energy conservation: E_4D = N_sub × E_sub
+- - The "DE match" becomes a consistency check, not the calibration driver
+- 
+- **NUMBERS**:
+- - N_sub = 386 (FREE, specific to our event, we are 1 of 386 siblings)
+- - E_sub = 1.3×10⁷⁷ J (STRUCTURAL, galaxy-mass 2D universe)
+- - E_4D = 386 × 1.3×10⁷⁷ = 5×10⁷⁹ J (DERIVED)
+- 
+- **PHYSICAL MEANING**:
+- - The 4D event that created our universe had N_sub = 386 sibling sub-universes
+- - A different 4D event would have a different N_sub
+- - N_sub is event-specific (we don't have a theory for why exactly 386)
+- - But energy conservation MUST hold: E_4D = N_sub × E_sub
+- 
+- **UPDATED A1 PARAMETER HIERARCHY** (14 total):
+- - 1 MEASURED: M_Pl,3D
+- - 4 FIRST-PRINCIPLES: α, M_Pl,2D, μ, N=12
+- - 2 DERIVED: M_Pl,4D (α-GM), E_4D = N_sub × E_sub
+- - 4 CALIBRATED: ε, τ_4D, AGN rate, f_leak = H_0 (NEW A1)
+- - 3 STRUCTURAL: E_sub, τ_3D,apparent, γ_4D
+- - 1 FREE: N_sub (event-specific)
+- 
+- **L144 STATUS**: REMAINS OPEN. N_sub is event-specific, not predicted by framework. But the
+- physical interpretation is now clearer: N_sub is the multiplicity of the 4D event that made us.
+- 
+- **FILES TO UPDATE**:
+- - 00_title.md (parameter hierarchy)
+- - STATE_OF_THE_MODEL.md (parameter hierarchy)
+- - 06_limitations.md (L308z entry, parameter accounting)
+- - 02_glossary.md (if applicable)

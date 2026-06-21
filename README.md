@@ -35,10 +35,10 @@ For all v3.5.9+ findings, see `persistent_memory.md`.
   - $M_{\rm Pl,2D} = 2.95$ TeV $= 12 \times v_{\rm Higgs}$
   - $\mu = M_{\rm Pl,2D}^2 = 8.73 \times 10^{6}$ GeV²
   - N = 12 (Appelquist 2001, 6D anomaly cancellation)
-- 1 DERIVED via $\alpha$-GM: $M_{\rm Pl,4D} = 3.93 \times 10^{23}$ GeV (closed loop)
-- 5 CALIBRATED: $\epsilon = 10^{-38}$, $\tau_{\rm 4D} = 1.51 \times 10^{34}$ yr, $E_{\rm 4D} = 5 \times 10^{79}$ J, AGN rate = 27%, **$f_{\rm leak} = H_0$ (NEW A1)**
-- 2 STRUCTURAL: $\tau_{\rm 3D,apparent} = 8.95 \times 10^{124}$ yr, $\gamma_{\rm 4D} = 5.93 \times 10^{90}$ (literal time dilation)
-- 1 FREE: $N_{\rm sub} = 3.86 \times 10^{2}$
+- 2 DERIVED: $M_{\rm Pl,4D} = 3.93 \times 10^{23}$ GeV (α-GM, L308v), **$E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$ = 5×10⁷⁹ J** (L308o, was calibrated)
+- 4 CALIBRATED: $\epsilon = 10^{-38}$, $\tau_{\rm 4D} = 1.51 \times 10^{34}$ yr, AGN rate = 27%, **$f_{\rm leak} = H_0$ (NEW A1)**
+- 3 STRUCTURAL: $E_{\rm sub} = 1.3 \times 10^{77}$ J (galaxy-mass 2D universe), $\tau_{\rm 3D,apparent} = 8.95 \times 10^{124}$ yr, $\gamma_{\rm 4D} = 5.93 \times 10^{90}$ (literal time dilation)
+- 1 FREE: $N_{\rm sub} = 3.86 \times 10^{2}$ (event-specific, our universe's 4D event had N=386; other events → different N)
 
 **DE match**: 0.13% (simple $f_{\rm DE}$ formula: $\rho_{\rm DE} = f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl,3D}$^4 with $f_{\rm DE} = 1.13 \times 10^{-85}$)
 **DM match**: 27% (calibrated AGN rate + $f_{\rm leak} = H_0$ steady state)

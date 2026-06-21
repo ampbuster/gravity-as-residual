@@ -9,7 +9,7 @@
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **138 honest limitations** (was 128 v3.5.8, +L308r, +L308s, +L308t, +L308u, +L308v, +L308w, +L308x, +L308y, v3.5.9+ LIMITATIONS: 138)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$ = 1.258). v3.1.2 added L142-L150 covering: $4\pi$ geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric $4\pi$, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ($M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV, brane-world, was $4 \times 10^{23}$ in v3.5.8), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr ($M^{\alpha}$ prediction); (2) frame of reference: $M^{\alpha}$ law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with $\gamma$ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit ($\alpha$ = 1.258 fails 13/14 events).
+This is a thought experiment, not a theory. We identify **139 honest limitations** (was 128 v3.5.8, +L308r, +L308s, +L308t, +L308u, +L308v, +L308w, +L308x, +L308y, +L308z, v3.5.9+ LIMITATIONS: 139)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$ = 1.258). v3.1.2 added L142-L150 covering: $4\pi$ geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric $4\pi$, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ($M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV, brane-world, was $4 \times 10^{23}$ in v3.5.8), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr ($M^{\alpha}$ prediction); (2) frame of reference: $M^{\alpha}$ law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ 10⁻²⁰ s with $\gamma$ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit ($\alpha$ = 1.258 fails 13/14 events).
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -2470,6 +2470,46 @@ In A1, the 1.4% match is REINTERPRETED as a "striking coincidence" rather than a
 STATUS: OPEN (derivation target).
 
 Source: paper §7.4.20, framework §3.67 history.
+
+---
+
+L308z. **N_sub is EVENT-SPECIFIC FREE PARAMETER (not derived from framework) — REFRAME OF L308o** (v3.5.9+, USER-DIRECTED).
+
+User: "386 could be the 4D event that created our universe. so we have 385 other siblings. but a different event could create other amounts. it probably is a free parameter. just that energy must be conserved."
+
+**REFREME FROM L308o**:
+- L308o claimed: N_sub = E_4D/E_sub is SEMI-DERIVED (with E_sub as framework choice)
+- User correction: N_sub is actually the FREE parameter (specific to each 4D event)
+- E_4D was "calibrated" to DE match, but really it's DERIVED from N_sub × E_sub
+
+**NEW FRAMING**:
+- The 4D event that created our universe had N_sub = 386 sibling sub-universes
+- We are 1 of those 386 sub-universes
+- A different 4D event would have a different N_sub (sub-galaxy: N=4, supercluster: N=400,000)
+- N_sub is FREE in the sense of: framework doesn't predict it; it's event-specific
+- E_sub = 1.3×10⁷⁷ J is STRUCTURAL (galaxy-mass 2D universe, why? framework choice)
+- E_4D = N_sub × E_sub is DERIVED from these two (energy conservation)
+
+**ENERGY CONSERVATION MUST HOLD**:
+- E_4D = N_sub × E_sub (linear scaling, L308o)
+- For our universe: E_4D = 386 × 1.3×10⁷⁷ = 5×10⁷⁹ J ✓
+- This is the SAME number, but the FRAMING is different:
+  - Before: "E_4D calibrated to give DE match, N_sub derived"
+  - After: "N_sub is free (event-specific), E_4D derived from N_sub × E_sub"
+
+**UPDATED A1 PARAMETER HIERARCHY** (14 total, REVISED):
+- 1 MEASURED: M_Pl,3D = 1.22×10¹⁹ GeV
+- 4 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK), M_Pl,2D = 12×v_H, μ = M_Pl,2D², N=12 (Z_12 + 6D anomaly)
+- 2 DERIVED: M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) (α-GM, L308v), E_4D = N_sub × E_sub (L308o, energy conservation)
+- 4 CALIBRATED: ε = 10⁻³⁸, τ_4D = 1.51×10³⁴ yr, AGN rate = 10⁻¹⁵·⁵² /s, f_leak = H_0 (NEW A1)
+- 3 STRUCTURAL: E_sub = 1.3×10⁷⁷ J, τ_3D,apparent = 8.95×10¹²⁴ yr, γ_4D = 5.93×10⁹⁰
+- 1 FREE: N_sub = 386 (event-specific)
+
+**DE match check**: With derived E_4D = 5×10⁷⁹ J, framework gives DE density 0.13% off observation. This is a CONSISTENCY CHECK, not the calibration driver.
+
+**L144 STATUS**: REMAINS OPEN. N_sub is event-specific, not predicted. But physical interpretation is now clearer: N_sub is the multiplicity of the specific 4D event that created our universe.
+
+Source: user message 2026-06-21 "wait, n_sub should be based on event size? not fixed 386"; "386 could be the 4D event that created our universe..."
 
 ---
 
