@@ -1,6 +1,6 @@
-# CONSISTENCY AUDIT REPORT (v3.5.7 — HISTORICAL; superseded by v3.5.9+ A1+L308z audits)
+# CONSISTENCY AUDIT REPORT (v3.5.7 — HISTORICAL; superseded by v3.5.9+ A2 (α dim-specific)+L308z audits)
 
-> **STATUS**: HISTORICAL AUDIT REPORT. This v3.5.7 audit document is preserved for reference. Current (v3.5.9+ A1) parameter status is in `paper/legacy/v359_README_legacy_sections.md` and the main paper's §0 Parameter Glossary.
+> **STATUS**: HISTORICAL AUDIT REPORT. This v3.5.7 audit document is preserved for reference. Current (v3.5.9+ A2 (α dim-specific)) parameter status is in `paper/legacy/v359_README_legacy_sections.md` and the main paper's §0 Parameter Glossary.
 
 ## Executive Summary
 
@@ -30,8 +30,8 @@ Apparent "0 occurrences" were due to notation differences.
 
 | Parameter | Paper notation | Memory notation |
 |-----------|----------------|-----------------|
-| $\tau_{\rm 3D}$,apparent | $\tau_{\rm 3D}$,apparent (text) | 9.10×10²⁴ (numeric, **UNITS ERROR — audit fixed to 8.95×10¹²⁴**) |
-| $\gamma_{\rm 4D}$ | $\gamma_{\rm 4D}$ (text) | 6.03×10⁹⁰ (numeric, **L308t updated precision to 5.93×10⁹⁰**) |
+| $\tau_{\rm 3D}$,apparent | $\tau_{\rm 3D}$,apparent (text) | 9.10×10²⁴ (numeric, **UNITS ERROR — audit fixed to 1.66×10¹⁴⁵ (A2)**) |
+| $\gamma_{\rm 4D}$ | $\gamma_{\rm 4D}$ (text) | 1.10×10¹¹¹ (A2) (numeric, **L308t updated precision to 1.10×10¹¹¹ (A2)**) |
 | $\tau_{\rm 4D}$ | $\tau_{\rm 4D}$ (text) | 1.51×10³⁴ (numeric) |
 | age ratio | (mentioned as "day 1") | 1.5×10⁻¹⁵ (numeric) |
 

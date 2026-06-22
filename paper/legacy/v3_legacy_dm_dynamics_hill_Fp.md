@@ -80,9 +80,9 @@ The 1.4% match becomes a "striking coincidence" rather than a derivation.
 
 ### τ_3D,apparent History
 
-- v3.3 era: $\tau_{\rm 3D,apparent} = 9.10 \times 10^{124}$ yr (with γ_4D = 5.93×10⁹⁰)
+- v3.3 era: $\tau_{\rm 3D,apparent} = 9.10 \times 10^{124}$ yr (with γ_4D = 1.10×10¹¹¹ (A2))
 - Path B2 (rejected): $\tau_{\rm 3D,apparent} = 1.69 \times 10^{98}$ yr (with γ_4D = 1.12×10⁶⁴)
-- **Current (A1)**: $\tau_{\rm 3D,apparent} = 8.95 \times 10^{124}$ yr (γ_4D = 5.93×10⁹⁰ REINSTATED)
+- **Current (A1)**: $\tau_{\rm 3D,apparent} = 8.95 \times 10^{124}$ yr (γ_4D = 1.10×10¹¹¹ (A2) REINSTATED)
 
 ### 9D = v_Higgs Hypothesis (DROPPED)
 

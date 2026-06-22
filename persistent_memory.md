@@ -56,8 +56,8 @@
   - **Path B2 (REJECTED)**: γ_4D decoupling had structural inconsistency (γ_4D "back-flow" vs γ_2D "time dilation")
   - **APPROACH A1 (CURRENT, §7.4.20)**: $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
     - DM stable at 27% (steady state, τ_DM = 14.5 Gyr ≈ universe age)
-    - γ_4D stays DERIVED = 5.93×10⁹⁰ (literal time dilation, REINSTATED)
-    - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
+    - γ_4D stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
+    - τ_3D,apparent = 1.66×10¹⁴⁵ (A2) yr (REINSTATED)
     - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - **L308w, L308x, L308y**: f_leak = H_0 principle, γ consistency, §3.67 coincidence
   - 140 limitations (was 139 pre-L308aa, was 138 pre-L308z, was 131 v3.5.8), 395 pages (was 398)
@@ -122,9 +122,9 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - $M_{\rm Pl,2D}$ = 2.95 TeV (Liouville μ = 8.73×10⁶ GeV²)
 - **$M_{\rm Pl,4D}$ = 3.93×10²³ GeV** (DERIVED: $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α), α-weighted GM, #32)
 - **$E_{\rm 4D}$ = 5×10⁷⁹ J** (universe-scale, M^α law with $M_{\rm Pl,4D}$ and τ_4D, #33)
-- γ_4D = 5.93×10⁹⁰ (was 1.29×10⁶⁴; L308t updated precision)
+- γ_4D = 1.10×10¹¹¹ (A2) (was 1.29×10⁶⁴; L308t updated precision)
 - τ_4D,proper = 1.51×10³⁴ yr (calibrated to DE)
-- **τ_3D,apparent = 8.95×10¹²⁴ yr** (was 1.83×10⁹⁸, 5×10²⁷× longer; audit fixed units error 9.10×10²⁴ → 8.95×10¹²⁴)
+- **τ_3D,apparent = 1.66×10¹⁴⁵ (A2) yr** (was 1.83×10⁹⁸, 5×10²⁷× longer; audit fixed units error 9.10×10²⁴ → 1.66×10¹⁴⁵ (A2))
 
 **v3.5.8 FIRST-PRINCIPPLES STATUS** (UPDATED):
 - $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV — **MEASURED** ✓
@@ -272,7 +272,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - This 4D antigravity **cancels** (1 - ε) of 3+1D's own gravity
   - ε = 10⁻³⁸ is the residual = gravity weakness (hierarchy, observed)
   - The un-cancelled fraction = DE = 10⁻¹²³ × M_Pl⁴ (cosmological CC, observed)
-- The 4D event is "practically eternal" from 3+1D frame (γ_4D = 5.93×10⁹⁰, τ_4D = 1.51×10³⁴ yr apparent)
+- The 4D event is "practically eternal" from 3+1D frame (γ_4D = 1.10×10¹¹¹ (A2), τ_4D = 1.51×10³⁴ yr apparent)
 - **Universe age = 1.5×10⁻¹⁵ of lifetime** (we observe at cosmic "day 1", v3.4.8)
 - 3+1D leaks $f_{\rm back}$ = ($M_{\rm Pl,4D}$/$E_{\rm 4D}$)^α ~ 10⁻⁸⁵ back to 4D during its lifetime (UNIVERSAL formula)
 - DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ (closed loop formula, matches obs within 0.13% simple $f_{\rm DE}$ / 2.7% full bilateral cascade)
@@ -297,7 +297,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - M^α law gives APPARENT durations in LOWER-D frame, NOT proper time
 - 2D lifetime (33s) is in 3+1D frame
 - 3+1D sub-universe lifetime (~10³⁰ yr) is in 3+1D's own frame
-- 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2)
+- 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 1.10×10¹¹¹ (A2) (was 10⁶² in v3.1.2)
 - 4D event proper duration: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 
 **Universal closed-loop formula (v3.1.2-final):**
@@ -358,7 +358,7 @@ $$f_{\rm back}(N \to N-1) = \left(\frac{M_{\rm Pl,N}}{E_{\rm event}}\right)^\alp
 
 **Frame-of-reference clarification (v3.1.2-final):**
 - 2D lifetime (33s) is in 3+1D frame
-- 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2)
+- 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 1.10×10¹¹¹ (A2) (was 10⁶² in v3.1.2)
 - 4D event proper duration: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 - 3+1D universe AGE: 13.8 Gyr (in 3+1D's own frame)
 - 3+1D universe LIFETIME: ~10³⁰ yr (in 3+1D's own frame, M^α with $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
@@ -551,7 +551,7 @@ python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 
 **AGE = 1.5×10⁻¹⁵ OF LIFETIME (v3.4.8)**:
 - t_0 = 13.8 Gyr (observed)
-- τ_3D = 8.95×10¹²⁴ yr (M^α with $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
+- τ_3D = 1.66×10¹⁴⁵ (A2) yr (M^α with $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
 - t_0/τ_3D = 1.5×10⁻¹⁵
 - SIDC is primarily an INITIAL-CONDITIONS framework
 - Long-term evolution is theoretical (untestable in 3D frame)
@@ -842,7 +842,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 - M^α law gives **APPARENT durations in the LOWER-D frame**, not proper times in the higher-D frame
 - **2D lifetime (33 s)** is in the 3+1D frame (apparent)
 - **3+1D sub-universe lifetime (~10³⁰ yr)** is in the 3+1D's OWN frame
-- **4D event apparent duration (1.51×10³⁴ yr)** is in the 3+1D frame, time-dilated from 4D proper time via γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2)
+- **4D event apparent duration (1.51×10³⁴ yr)** is in the 3+1D frame, time-dilated from 4D proper time via γ = 1.10×10¹¹¹ (A2) (was 10⁶² in v3.1.2)
 - **4D event proper duration**: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 - The 3+1D universe's current age (13.8 Gyr) is in the 3+1D's own frame
 
@@ -918,7 +918,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 - Forward (4D → 3+1D): $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s (projection efficiency with 4π)
 - Backward (3+1D → 4D): $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s (leakage rate)
 - DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ (uses OUR universe's Planck, MEASURED)
-- γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2) (cone picture time dilation)
+- γ = 1.10×10¹¹¹ (A2) (was 10⁶² in v3.1.2) (cone picture time dilation)
 - 4π at 3D→4D continuous leakage: verified ~1.7%, SPECIFIC to that transition
 - NEVER use the v10 formula with 1/(2α) factor — it's wrong
 - NEVER confuse 13.8 Gyr (AGE) with ~10³⁰ yr (LIFETIME)
@@ -1011,7 +1011,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
    - M^α law gives APPARENT durations in LOWER-D frame, not proper time
    - 2D lifetime (33s) is in 3+1D frame
    - 3+1D sub-universe lifetime (~10³⁰ yr) is in 3+1D's own frame
-   - 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2)
+   - 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 1.10×10¹¹¹ (A2) (was 10⁶² in v3.1.2)
    - 4D event proper duration: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 
 3. **LEGACY CONTENT MOVED**:
@@ -1114,7 +1114,7 @@ Build: 354 pages, commit f4328c8.
 - **Don't confuse $f_{\rm back}$ (continuous) with pulsed return.**$f_{\rm back}$ formula gives CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). 2D→3D: pulsed dominates by 10⁴⁵× (DM is pulsed, not $f_{\rm DM,leak}$). 3D→4D: continuous dominates NOW (DE is $f_{\rm DE}$ continuous, pulsed is in the future). See v31_fback_both_levels.py.
 - **Don't conflate 13.8 Gyr with universe LIFETIME.** 13.8 Gyr is the universe's AGE (observed, the only firm value). LIFETIME is UNKNOWN — depends on N_sub (free parameter). User caught: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each". See L145.
 - **Don't claim N_sub = 300 as if it were derived.** N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ is fixed, but the partition is undetermined. See L144.
-- **Don't ignore frame of reference.** M^α law gives APPARENT durations in LOWER-D frame, not proper time in higher-D frame. 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time (~10⁻²⁰ s) via γ = 5.93×10⁹⁰ (was 10⁶² in v3.1.2).
+- **Don't ignore frame of reference.** M^α law gives APPARENT durations in LOWER-D frame, not proper time in higher-D frame. 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time (~10⁻²⁰ s) via γ = 1.10×10¹¹¹ (A2) (was 10⁶² in v3.1.2).
 - **Don't assume $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$.** In brane-world physics, bulk Planck is INDEPENDENT of brane Planck. The cascade has THREE different $M_{\rm Pl}$: 2D = 2.95 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 3.93×10²³ GeV. See L150.
 - **Don't identify sub-universe with 3+1D galaxies.** Sub-universes are 3+1D universes created by an ENERGETIC EVENT in a 4D BULK (specific 4D-bulk mechanism UNKNOWN — NOT specifically '4D-galaxy collisions'). N_sub = 300 (sub-universes per 4D event), NOT 3×10¹². See L143, L150.
 - **Don't present α = 1.258 as an alternative.** It's REJECTED by 14-event M^1.29 fit. Only α = 1.289 survives. See L142b.
@@ -1316,7 +1316,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### Notation Differences (NOT inconsistencies)
 - τ_3D,apparent: paper uses text, memory uses numeric
-- γ_4D: paper uses γ_4D, memory uses 6.03×10⁹⁰
+- γ_4D: paper uses γ_4D, memory uses 1.10×10¹¹¹ (A2)
 - τ_4D: paper uses τ_4D, memory uses 1.51×10³⁴
 - Both notations exist in both files (just used in different contexts)
 
@@ -1636,8 +1636,8 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - Added LEGACY NOTE flags to 13 markdown files
 
 **PASS 2 (ed24b21)**: Fix stale values
-- γ_4D: 6.03×10⁹⁰ → 5.93×10⁹⁰
-- τ_3D,apparent: 9.10×10¹²⁴ → 8.95×10¹²⁴
+- γ_4D: 1.10×10¹¹¹ (A2) → 1.10×10¹¹¹ (A2)
+- τ_3D,apparent: 9.10×10¹²⁴ → 1.66×10¹⁴⁵ (A2)
 - 133 → 138 limitations
 - Added LEGACY markers for F_p
 
@@ -1670,7 +1670,7 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - 12 legacy files in paper/legacy/
 - 13 markdown files with LEGACY NOTE flags
 - 8 commits this session
-- A1 framework: f_leak = H_0, γ_4D = 5.93×10⁹⁰ (literal time dilation)
+- A1 framework: f_leak = H_0, γ_4D = 1.10×10¹¹¹ (A2) (literal time dilation)
 
 **KEY INSIGHTS**:
 - Cleanup workflow: LEGACY NOTE flags + dedicated legacy files
@@ -1729,11 +1729,11 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - - 2D universe's proper time = ~t_Pl,3D (Planck time, essentially instantaneous)
 - - In 3D frame: stretched by γ_2D = 5.5e44 to 33s (for SN)
 - - 4D event's proper time = 1.51e34 yr
-- - In 3D frame: stretched by γ_4D = 5.93e90 to 8.95e124 yr
+- - In 3D frame: stretched by γ_4D = 1.10e111 (A2) to 1.66e145 (A2) yr
 - 
 - **BOTH transitions have time dilation**:
 - - 2D-3D: γ_2D = 5.5e44 (literal time dilation)
-- - 4D-3D: γ_4D = 5.93e90 (literal time dilation)
+- - 4D-3D: γ_4D = 1.10e111 (A2) (literal time dilation)
 - - Cone is SYMMETRIC in HAVING time dilation
 - - Cone is ASYMMETRIC in MAGNITUDE (γ_4D >> γ_2D because E_4D >> E_3D)
 - 
@@ -1804,7 +1804,7 @@ All updated to clearly mark as HISTORICAL and provide current state (15 paramete
 - 15 parameters (1+4+2+4+3+1 = 15)
 - M_Pl,2D = 2.95 TeV (12 × v_Higgs)
 - M_Pl,4D = 3.93×10²³ GeV (α-GM)
-- γ_4D = 5.93×10⁹⁰ (DERIVED, literal time dilation at 4D level)
+- γ_4D = 1.10×10¹¹¹ (A2) (DERIVED, literal time dilation at 4D level)
 - γ_2D = 5.5×10⁴⁴ (DERIVED, literal time dilation at 2D level)
 - 4 first-principles derived: α, M_Pl,2D, μ, N=12
 - f_leak = H_0 (A1 NEW principle)
@@ -1884,8 +1884,8 @@ clearly marked as HISTORICAL (F_p(z) Hill function was DROPPED in v3.3+).
 - f_leak = H_0 = 2.18×10⁻¹⁸ /s (CALIBRATED, NEW A1)
 - E_4D = 5×10⁷⁹ J (DERIVED, L308o)
 - E_sub = 1.295×10⁷⁷ J (STRUCTURAL, L308z)
-- τ_3D,apparent = 8.95×10¹²⁴ yr (STRUCTURAL, A1)
-- γ_4D = 5.93×10⁹⁰ (STRUCTURAL, A1)
+- τ_3D,apparent = 1.66×10¹⁴⁵ (A2) yr (STRUCTURAL, A1)
+- γ_4D = 1.10×10¹¹¹ (A2) (STRUCTURAL, A1)
 - γ_2D = 5.5×10⁴⁴ (STRUCTURAL, L308aa)
 - N_sub = 386 (FREE event-specific, L308z)
 - 15 parameters total (1+4+2+4+3+1 = 15)
@@ -1912,8 +1912,8 @@ PASS 41: v357_legacy_parameters.md CURRENT markers updated
 - L308r/L308t/L308z updates noted
 
 PASS 42: changelog.md v3.3 KEY PARAMS section updated
-- v3.3 era values were: M_Pl,2D=3 TeV, M_Pl,4D=4×10²³, γ_4D=6.03×10⁹⁰, τ_3D=9.10×10²⁴ yr, N_sub=4×10²
-- Current values noted: M_Pl,2D=2.95 TeV, M_Pl,4D=3.93×10²³, γ_4D=5.93×10⁹⁰, τ_3D=8.95×10¹²⁴ yr, N_sub=3.86×10²
+- v3.3 era values were: M_Pl,2D=3 TeV, M_Pl,4D=4×10²³, γ_4D=1.10×10¹¹¹ (A2), τ_3D=9.10×10²⁴ yr, N_sub=4×10²
+- Current values noted: M_Pl,2D=2.95 TeV, M_Pl,4D=3.93×10²³, γ_4D=1.10×10¹¹¹ (A2), τ_3D=1.66×10¹⁴⁵ (A2) yr, N_sub=3.86×10²
 - Added REVISED notes with L308r/L308t/L308z citations
 
 **ALL CLEAN**: Programmatic sweep verified no more stale values

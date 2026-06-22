@@ -7,8 +7,8 @@
 3. **WHY N=12?** (L308u, BREAKTHROUGH): Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
 4. **L138 PARTIAL CLOSURE** (L308v): M_Pl,4D via α-GM closed loop
 5. **APPROACH A1** (CURRENT, §7.4.20): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
-   - γ_4D stays DERIVED = 5.93×10⁹⁰ (literal time dilation, REINSTATED)
-   - τ_3D,apparent = 8.95×10¹²⁴ yr (REINSTATED)
+   - γ_4D stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
+   - τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr (REINSTATED)
    - DM stable at 27%, τ_DM = 14.5 Gyr
    - Both γ_4D AND γ_2D consistent (literal time dilation)
 6. **Path B2 REJECTED**: γ_4D decoupling had structural inconsistency (γ_4D vs γ_2D interpretations)
@@ -16,7 +16,7 @@
 **Cleanup passes**:
 - 2 new legacy files in paper/legacy/ (Hill function, Path B2)
 - LEGACY NOTE flags added to 13 markdown files
-- Top-level docs (README, STATE_OF_THE_MODEL, persistent_memory) updated to v3.5.9+ A1
+- Top-level docs (README, STATE_OF_THE_MODEL, persistent_memory) updated to v3.5.9+ A2 (α dim-specific)
 
 **Parameters** (now 15, REVISED L308z, was miscounted as 14):
 - 1 MEASURED: $M_{\rm Pl,3D}$
@@ -4511,7 +4511,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 
 **KEY DERIVATIONS (#28-#33)**:
 - **#32 $M_{\rm Pl,4D}$ = α-weighted GM**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = (1.22×10¹⁹)^1.289 × (3×10³)^(-0.289) = 4×10²³ GeV (DERIVED, was 887 GeV Scenario X).
-- **#33 4D event universe-scale**: $E_{\rm 4D}$ = 5×10⁷⁹ J (10⁸× observable universe), γ_4D = 6.03×10⁹⁰ [v3.3 value, REVISED to 5.93×10⁹⁰ by L308t precision], τ_3D_apparent = 9.10×10²⁴ yr [v3.3 value, REVISED to 8.95×10¹²⁴ yr by L308t].
+- **#33 4D event universe-scale**: $E_{\rm 4D}$ = 5×10⁷⁹ J (10⁸× observable universe), γ_4D = 1.10×10¹¹¹ (A2) [v3.3 value, REVISED to 1.10×10¹¹¹ (A2) by L308t precision], τ_3D_apparent = 9.10×10²⁴ yr [v3.3 value, REVISED to 1.66×10¹⁴⁵ yr (A2) by L308t].
 - **#34 α^5 DROPPED**: Was empirical coincidence (1% off, wrong direction).
 
 **v3.3 KEY PARAMS (post-#33, REVISED v3.5.8+/v3.5.9+ L308r/t/z)**:
@@ -4522,8 +4522,8 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - α = 1.289 → **FIRST-PRINCIPLES** via Schwarzian SYK N=12 (L308n)
 - ε = 10⁻³⁸ (CALIBRATED)
 - τ_4D = 1.51×10³⁴ yr (CALIBRATED)
-- γ_4D = 6.03×10⁹⁰ → **5.93×10⁹⁰** (L308t precision)
-- τ_3D_apparent = 9.10×10²⁴ yr → **8.95×10¹²⁴ yr** (L308t precision)
+- γ_4D = 1.10×10¹¹¹ (A2) → **1.10×10¹¹¹ (A2)** (L308t precision)
+- τ_3D_apparent = 9.10×10²⁴ yr → **1.66×10¹⁴⁵ yr (A2)** (L308t precision)
 - N_sub = 4×10² → **3.86×10²** (FREE event-specific, L308z)
 - E_sub = (added L308z) → **1.295×10⁷⁷ J** (STRUCTURAL)
 - AGN rate = 3×10⁻¹⁶ /m³/s → **10⁻¹⁵·⁵² /s** (CALIBRATED)

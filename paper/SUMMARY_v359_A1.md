@@ -1,4 +1,4 @@
-# SIDC v3.5.9+ A1: Master Summary
+# SIDC v3.5.9+ A2 (α dim-specific): Master Summary
 
 **Status**: Active development (v3.5.9+ post-L308ae, 2026-06-21)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
@@ -6,7 +6,7 @@
 **Pages**: 423
 **Limitations**: 144
 
-This document is a clean reference for the SIDC framework as of v3.5.9+ A1. For deep details, see the full paper at `paper/paper.pdf`.
+This document is a clean reference for the SIDC framework as of v3.5.9+ A2 (α dim-specific). For deep details, see the full paper at `paper/paper.pdf`.
 
 ---
 
@@ -28,7 +28,7 @@ This document is a clean reference for the SIDC framework as of v3.5.9+ A1. For 
 
 ## 2. Key Quantities
 
-### Derived values (v3.5.9+ A1 + L308)
+### Derived values (v3.5.9+ A2 (α dim-specific) + L308)
 
 | Quantity | Value | Status | Derivation |
 |----------|-------|--------|------------|
@@ -38,9 +38,9 @@ This document is a clean reference for the SIDC framework as of v3.5.9+ A1. For 
 | N | 12 | **STRUCTURAL** (L308ag) | Was FIRST-PRINCIPLES, reclassified — 5 suggestive interpretations, none rigorous |
 | M_Pl,4D | 3.93×10²³ GeV | DERIVED | M_Pl,3D^α × M_Pl,2D^(1-α) (L308v) |
 | E_4D | 5×10⁷⁹ J | DERIVED | N_sub × E_sub (energy conservation) |
-| γ_4D | 5.93×10⁹⁰ | DERIVED | (E_4D/M_Pl,3D)^α (literal time dilation) |
+| γ_4D | 1.10×10¹¹¹ (A2) | DERIVED | (E_4D/M_Pl,3D)^α (literal time dilation) |
 | γ_2D | 5.5×10⁴⁴ | DERIVED | (E_3D/M_Pl,3D)^α (literal time dilation) |
-| τ_3D,apparent | 8.95×10¹²⁴ yr | STRUCTURAL | γ_4D × τ_4D (time dilation) |
+| τ_3D,apparent | 1.66×10¹⁴⁵ yr (A2) | STRUCTURAL | γ_4D × τ_4D (time dilation) |
 | N_sub | 386 | PARTIAL | N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) (L308ad, 1.6% off) |
 
 ### Calibrated values
@@ -91,7 +91,7 @@ where **f_leak = c × H(z)** (post-Friedmann principle):
 
 ---
 
-## 4. Major L308 Series (v3.5.9+ A1 + L308z, x, aa-ab-ac-ad-ae)
+## 4. Major L308 Series (v3.5.9+ A2 (α dim-specific) + L308z, x, aa-ab-ac-ad-ae)
 
 ### L308z: N_sub is FREE (event-specific)
 N_sub = 386 is the number of sibling sub-universes from OUR 4D event. Other 4D events → different N_sub.
@@ -100,7 +100,7 @@ N_sub = 386 is the number of sibling sub-universes from OUR 4D event. Other 4D e
 γ_2D is the literal time dilation factor for 2D→3D transition. **γ_2D ≠ γ_4D** because the cone is asymmetric.
 
 ### L308aa: γ_2D time dilation derivation
-γ_2D = (E_3D/M_Pl,3D)^α = 5.5×10⁴⁴ (vs γ_4D = 5.93×10⁹⁰ at 4D→3+1D level).
+γ_2D = (E_3D/M_Pl,3D)^α = 5.5×10⁴⁴ (vs γ_4D = 1.10×10¹¹¹ (A2: α_4D=1.577) at 4D→3+1D level).
 
 ### L308ab: f_leak = H(z) (BREAKTHROUGH)
 User insight: "when the universe was small, pressure was higher, so more leaks back to 4D"
@@ -180,7 +180,7 @@ The rate 3×10⁻¹⁶ /m³/s has unclear unit interpretation. Documented as cal
 
 ## 7. Limitations Overview
 
-**144 total limitations** (v3.5.9+ A1):
+**144 total limitations** (v3.5.9+ A2 (α dim-specific)):
 - 79 OPEN
 - 22 PARTIAL
 - 8 CLOSED

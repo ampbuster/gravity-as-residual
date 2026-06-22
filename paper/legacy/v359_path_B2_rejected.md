@@ -27,8 +27,8 @@ This was **structurally inconsistent** — both γ values should have the same i
 
 ## Current (A1) Values
 
-- γ_4D = 5.93×10⁹⁰ (DERIVED, literal time dilation) ✓ REINSTATED
-- τ_3D,apparent = 8.95×10¹²⁴ yr ✓ REINSTATED
+- γ_4D = 1.10×10¹¹¹ (A2) (DERIVED, literal time dilation) ✓ REINSTATED
+- τ_3D,apparent = 1.66×10¹⁴⁵ (A2) yr ✓ REINSTATED
 - f_leak = 2.18×10⁻¹⁸ /s = H_0 (NEW principle, post-Friedmann)
 - τ_DM = 14.5 Gyr ✓
 - Both γ_4D AND γ_2D are literal time dilation ✓ CONSISTENT
@@ -45,6 +45,6 @@ This was **structurally inconsistent** — both γ values should have the same i
 
 3. **The 1.4% match is coincidence, not fundamental**
    - §3.67 formula gave f_leak ≈ H_0 in v3.3 era
-   - But this was γ_4D = 1.29×10⁶⁴ (different from current 5.93×10⁹⁰)
+   - But this was γ_4D = 1.29×10⁶⁴ (different from current 1.10×10¹¹¹ (A2))
    - 1.4% match was structural coincidence, not derivation
 

@@ -99,7 +99,7 @@ Documents the OLD Hill function framework for DM dynamics:
 
 **SUPERSEDED** by v3.5.9+ A1 (§7.4.20):
 - $f_{\rm leak} = H_0$ as new principle (post-Friedmann)
-- $\gamma_{\rm 4D}$ stays DERIVED = 5.93×10⁹⁰ (literal time dilation)
+- $\gamma_{\rm 4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation)
 - DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr)
 - Universe at 95.1% of DM lifetime
 

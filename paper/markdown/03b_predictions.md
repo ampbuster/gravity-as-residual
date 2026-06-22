@@ -30,13 +30,13 @@ Each level of SIDC has the same structure (per L308x v3, asymmetric cone in time
 | 1D | 1 | varies | varies | $\gamma_{\rm 1D}$ = $(E/M_{\rm Pl,1})^\alpha$ | varies |
 | **2D** | 2 | 2.95 TeV | **5.7×10³⁸ yr** (2D's own frame, SN) | $\gamma_{2D}$ = $(E/M_{\rm Pl,3})^\alpha$ = 5.5×10⁴⁴ | **33 s** (SN) |
 | 3+1D | 4 | 1.22×10¹⁹ GeV | n/a (3+1D IS us) | — | 13.8 Gyr (age) |
-| **4D** | 5 | 3.93×10²³ GeV | **1.51×10³⁴ yr** (4D's own frame) | $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,4D})^\alpha$ = 5.93×10⁹⁰ | **8.95×10¹²⁴ yr** |
+| **4D** | 5 | 3.93×10²³ GeV | **1.51×10³⁴ yr** (4D's own frame) | $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,4D})^\alpha$ = 1.10×10¹¹¹ (A2: α_4D=1.577) | **1.66×10¹⁴⁵ yr (A2)** |
 | 5D | 6 | varies | $t_{\rm Pl,5D}$ in 5D frame | $\gamma_{\rm 5D}$ = $(E/M_{\rm Pl,5})^\alpha$ | varies |
 | ... | N | $t_{\rm Pl,N}$ | $t_{\rm Pl,N}$ in N-D frame | $\gamma_{\rm N}$ = $(E/M_{\rm Pl,N})^\alpha$ | varies |
 
 **Cone asymmetry in time (L308x v3)**:
 - At 2D level: $\gamma_{\rm 2D} = 5.5\times10^{44}$ stretches time in 2D's own frame (2D proper >> 3D observed)
-- At 4D level: $\gamma_{\rm 4D} = 5.93\times10^{90}$ stretches time in 3D frame (3D observed >> 4D proper)
+- At 4D level: $\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$ stretches time in 3D frame (3D observed >> 4D proper)
 - In BOTH cases, the LOWER-D dimension has MORE time (2D > 3D > 4D in duration)
 
 **3.21.2 Generalized Planck units in N dimensions.**

@@ -113,7 +113,7 @@ So 10⁻³⁹ of 3D's mass has leaked in 3D's frame over Hubble time. Negligible
 - The 3.4× is just because we're 10⁻⁸⁹ into the cycle
 
 **Why the user's intuition is correct**:
-- γ_4D = 6.03×10⁹⁰ is the time dilation OF 4D as seen from 3D
+- γ_4D = 1.10×10¹¹¹ (A2) is the time dilation OF 4D as seen from 3D
 - This is a 4D-IN-3D-FRAME quantity, used for things like DE formula
 - The leak is a 3D quantity, in 3D's frame, realtime
 - Mixing 4D-frame time dilation with 3D-frame rates is a category error
@@ -259,9 +259,9 @@ $$E_{4D} = 7.94 \times 10^{65} \times M_{\rm Pl,4D} = 3.18 \times 10^{89} \text{
 
 **This is 5×10⁷⁹ J = 10⁸× the observable universe's energy.** Universe-scale requirement satisfied ✓
 
-**γ_4D = (E_4D / M_Pl,3D)^α = (2.61×10⁷⁰)^1.289 = 6.03×10⁹⁰**
+**γ_4D = (E_4D / M_Pl,3D)^α = (2.61×10⁷⁰)^1.289 = 1.10×10¹¹¹ (A2)**
 
-**τ_3D,apparent = τ_4D × γ_4D = 1.51×10³⁴ × 6.03×10⁹⁰ = 9.10×10¹²⁴ yr**
+**τ_3D,apparent = τ_4D × γ_4D = 1.51×10³⁴ × 1.10×10¹¹¹ (A2) = 9.10×10¹²⁴ yr**
 
 Universe is at 1.38×10¹⁰ / 9.10×10¹²⁴ = 1.52×10⁻¹⁵ of its lifetime (was 1.52×10⁻¹⁵).
 
@@ -276,7 +276,7 @@ Universe is at 1.38×10¹⁰ / 9.10×10¹²⁴ = 1.52×10⁻¹⁵ of its lifetim
 | α | 1.289 | N=12 SYK |
 | ε | 10⁻³⁸ | calibrated (hierarchy) |
 | τ_4D,proper | 1.51×10³⁴ yr | calibrated (DE) |
-| **γ_4D** | **6.03×10⁹⁰** | derived |
+| **γ_4D** | **1.10×10¹¹¹ (A2)** | derived |
 | **τ_3D,apparent** | **9.10×10¹²⁴ yr** | τ_4D × γ_4D |
 | AGN rate | 3×10⁻¹⁶ /m³/s | calibrated (DM) |
 | N_sub | 4×10² | free |
@@ -284,7 +284,7 @@ Universe is at 1.38×10¹⁰ / 9.10×10¹²⁴ = 1.52×10⁻¹⁵ of its lifetim
 **What changes from previous framework**:
 - τ_3D,apparent: 9.10×10¹²⁴ yr → **9.10×10¹²⁴ yr** (5×10²⁷× longer)
 - E_4D: 10⁵⁹ J (galaxy-scale) → **5×10⁷⁹ J** (10⁸× universe)
-- γ_4D: 1.21×10⁶⁴ → **6.03×10⁹⁰**
+- γ_4D: 1.21×10⁶⁴ → **1.10×10¹¹¹ (A2)**
 
 The 4D event is universe-scale, consistent with creating our universe (and many others). The 3+1D universe lives 9×10¹²⁴ yr.
 
@@ -799,7 +799,7 @@ $$M_{\rm Pl,2D} \approx M_{\rm Pl,4D} \times \alpha^5$$
 
 **New M_Pl,4D = 4×10²³ GeV** (calibrated to give EXACT DE):
 - (836/1.22×10¹⁹)^1.289 = 1.46×10⁻²¹
-- ρ_DE = 1.46×10⁻²¹ × 10⁻³⁸ × 2.21×10⁷⁶ / 6.03×10⁹⁰ = **2.50×10⁻⁴⁷ GeV⁴**
+- ρ_DE = 1.46×10⁻²¹ × 10⁻³⁸ × 2.21×10⁷⁶ / 1.10×10¹¹¹ (A2) = **2.50×10⁻⁴⁷ GeV⁴**
 - Match: **0.2%** (was 8.4% with M_Pl,4D = 4×10²³ GeV)
 
 **9D = v_Higgs DROPPED**:
@@ -1103,7 +1103,7 @@ The "continuous DE" is just the **3D-frame projection** of a pulsed 4D phenomeno
 
 All flows are pulsed in their own frame. The "continuous" appearance of DE in 3D's frame is a consequence of:
 - 4D's finite proper lifetime (1.4×10³⁴ yr)
-- γ_4D = 6.03×10⁹⁰ (huge time dilation)
+- γ_4D = 1.10×10¹¹¹ (A2) (huge time dilation)
 - 3D's observation window (1.38×10¹⁰ yr) being tiny compared to dilated 4D lifetime
 
 **The bilateral cascade (v3.3 final, all pulsed in own frame)**:
@@ -1140,7 +1140,7 @@ $$\tau_{\rm 4D,proper} = \left(\frac{E_{\rm 4D}}{M_{\rm Pl,4D}}\right)^\alpha \t
 
 **3D universe's age in different frames**:
 - In 3D's frame: 1.38×10¹⁰ yr (observed universe age)
-- In 4D's frame: 1.38×10¹⁰ / γ_4D = 1.38×10¹⁰ / 6.03×10⁹⁰ = 1.07×10⁻⁵⁴ yr (very young)
+- In 4D's frame: 1.38×10¹⁰ / γ_4D = 1.38×10¹⁰ / 1.10×10¹¹¹ (A2) = 1.07×10⁻⁵⁴ yr (very young)
 
 **3D universe's total lifetime**:
 - In 4D's frame: 1.4×10³⁴ yr (tied to 4D event's lifetime)

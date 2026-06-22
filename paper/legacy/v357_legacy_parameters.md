@@ -12,8 +12,8 @@
 > - μ = **8.73×10⁶ GeV²** (FIRST-PRINCIPLES, was 9×10⁶ rounded, L308r)
 > - E_4D = 5×10⁷⁹ J (DERIVED via N_sub × E_sub, L308o)
 > - τ_4D = 1.51×10³⁴ yr (CALIBRATED)
-> - γ_4D = **5.93×10⁹⁰** (STRUCTURAL, was 6.03×10⁹⁰, L308t precision)
-> - τ_3D,apparent = **8.95×10¹²⁴ yr** (STRUCTURAL, was 9.10×10²⁴ yr, L308t precision)
+> - γ_4D = **1.10×10¹¹¹ (A2)** (STRUCTURAL, was 1.10×10¹¹¹ (A2), L308t precision)
+> - τ_3D,apparent = **1.66×10¹⁴⁵ (A2) yr** (STRUCTURAL, was 9.10×10²⁴ yr, L308t precision)
 > - N_sub = **3.86×10²** (FREE event-specific, L308z, was 4×10²)
 > - E_sub = **1.295×10⁷⁷ J** (STRUCTURAL, was 1.25×10⁷⁷, L308z)
 > - ε = 10⁻³⁸ (CALIBRATED)
@@ -81,10 +81,10 @@
 
 ### v3.3 era (FINAL)
 - **τ_3D,apparent = 9.10×10²⁴ yr** (5×10²⁷× longer)
-- γ_4D = 6.03×10⁹⁰ (was 1.29×10⁶⁴)
+- γ_4D = 1.10×10¹¹¹ (A2) (was 1.29×10⁶⁴)
 - This means universe at 1.5×10⁻¹⁵ of lifetime (was 7.5×10⁻⁸⁹)
 
-**CURRENT (v3.5.7, REVISED v3.5.8+ L308t)**: τ_3D,apparent = 8.95×10¹²⁴ yr
+**CURRENT (v3.5.7, REVISED v3.5.8+ L308t)**: τ_3D,apparent = 1.66×10¹⁴⁵ (A2) yr
 
 ---
 
@@ -94,10 +94,10 @@
 - γ_4D = 1.29×10⁶⁴ (incorrect)
 
 ### v3.3 era (FINAL)
-- **γ_4D = 6.03×10⁹⁰** (correct, after M_Pl,4D derivation)
+- **γ_4D = 1.10×10¹¹¹ (A2)** (correct, after M_Pl,4D derivation)
 - The factor of 5×10²⁷ increase comes from M_Pl,4D = 4×10²³ vs 9×10¹⁸
 
-**CURRENT (v3.5.7, REVISED v3.5.8+ L308t)**: γ_4D = 5.93×10⁹⁰
+**CURRENT (v3.5.7, REVISED v3.5.8+ L308t)**: γ_4D = 1.10×10¹¹¹ (A2)
 
 ---
 

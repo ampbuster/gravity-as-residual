@@ -134,7 +134,7 @@ The cleanest approach:
 
 1. **v3.3 (canonical)**: Keep universal $\mu$ = 8.73×10⁶
    - Avoids weirdness
-   - Simpler (9 parameters pre-A1, 15 parameters current v3.5.9+ A1+L308z)
+   - Simpler (9 parameters pre-A1, 15 parameters current v3.5.9+ A2 (α dim-specific)+L308z)
    - Agrees with most physics intuition
    - $M_{\rm Pl,2D}$ = 2.95 TeV universal
 

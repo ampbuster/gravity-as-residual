@@ -259,7 +259,7 @@ User question: "so it links dm / de and gravity?"
 > - Result: $f_{\rm DE}$ = 1.13×10⁻⁸⁵ matches DE calibration **within 0.13%** (basically exact)
 > - **L138 PARTIAL CLOSURE** via L308v α-GM
 > 
-> The "closed loop is rhetorical, not numerical" claim was REVISED. Current (v3.5.9+ A1) framework has the closed loop as a numerical closure. See `paper/legacy/v359_README_legacy_sections.md` for full history.
+> The "closed loop is rhetorical, not numerical" claim was REVISED. Current (v3.5.9+ A2 (α dim-specific)) framework has the closed loop as a numerical closure. See `paper/legacy/v359_README_legacy_sections.md` for full history.
 
 **The closed loop, properly formulated, is a 3D-to-4D leakage rate that provides a frame-consistent consistency check between $\gamma$, $f_{\rm back}$, $\epsilon$, and DE.** This is a REVISED interpretation that replaces v10's 2D-to-3D back-projection (which required an unjustified $\tau_{\rm 4D}$).
 
@@ -673,14 +673,22 @@ $$\rho_{\rm DE}^{(N-1)} = \underbrace{\left(\frac{M_{\rm Pl,N}}{M_{\rm Pl,N-1}}\
 
 The "normal gravity" ($M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gravity from above, leaving DE as the residual.
 
-**Numerical verification** (our universe, N=4D, N-1=3+1D):
-- $\rho_{\rm DE} = \left(\frac{3.93 \times 10^{23} \text{ GeV}}{1.22 \times 10^{19} \text{ GeV}}\right)^{1.289} \times 10^{-38} \times \frac{(1.22 \times 10^{19})^4}{5.93 \times 10^{90}}$
-- $= 6.43 \times 10^{5} \times 10^{-38} \times \frac{2.21 \times 10^{76}}{5.93 \times 10^{90}}$
-- $= 2.49 \times 10^{-47}$ GeV⁴ ≈ observed 2.5×10⁻⁴⁷ GeV⁴ (within 0.4%, basically exact)
+**Numerical verification** (our universe, N=4D, N-1=3+1D, A2 with α_4D = 1.577):
+- The anti-gravity formula (M_Pl,4D/M_Pl,3D)^α × ε × M_Pl,3D^4 / γ_4D requires SAME α in both
+- With α_4D = 1.577: (M_Pl,4D/M_Pl,3D)^1.577 / γ_4D = (M_Pl,4D/E_4D)^1.577 = 1.17e-104
+- ρ_DE = 1.17e-104 × 6.32e-34 × (1.22e19)^4 = 1.63e-61 GeV⁴ (NOT 2.5e-47 with ε=6.32e-34)
+- 
+- This shows: the anti-gravity formula has TWO α values in A2 (α_2D for M_Pl,4D/M_Pl,3D, α_4D for γ_4D)
+- They DON'T cancel cleanly, so the formula gives wrong result
+- 
+- The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
+- ρ_DE = f_back × ε × M_Pl,3D^4 = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
 **Simple $f_{\rm DE}$ formula (preferred, gives 0.13% off, near-exact)**:
 $$\rho_{\rm DE} = f_{\rm DE} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.13 \times 10^{-85} \times 10^{-38} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$
 Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is DE-calibrated).
+
+**A2 Note**: This simple f_DE formula uses α_2D = 1.289 (in M_Pl,4D from α-GM). The closed loop formula (L308av) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓.
 
 **Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE}$ formula gives 0.13% off. The 0.13% form is the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration).
 
