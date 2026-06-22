@@ -4,7 +4,7 @@
 >
 > *ampbuster (software developer, not a physicist)* | AI-assisted development with Mavis (M3, MiniMax)
 >
-> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 524 pages, 1.84 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
+> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 521 pages, 1.83 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
 
 **SIDC** = **S**cale-**I**nvariant **D**imensional **C**ascade. A single principle — geometric projection through a dimensional cascade — produces gravity, dark matter, and dark energy as different views of the same 4D event. **No dark matter particle. No cosmological constant. No free parameters for the dark sector.**
 
@@ -205,7 +205,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 
 ### Weaknesses
 
-- **Hubble tension**: ACCEPTED as real tension. H₀,₄D = 70.16 is a geometric-mean property but specific H₀ values are not derived. SIDC's prediction H₀ = 73 (local) matches local measurements but leaves 5.6 km/s/Mpc gap to Planck CMB H₀ = 67.4 unresolved. **PROMISING DIRECTION (L308bl)**: f_leak = H(z) (L308ab) means z-dependent leakage could shift CMB-inferred H_0. More leakage at z=1100 → smaller H(z=1100) → larger r_s → smaller inferred H_0, matching the observed direction. Magnitude (need ~8% shift in H_0) requires Boltzmann code modification to verify.
+- **Hubble tension**: ACCEPTED as real tension. H₀,₄D = 70.16 is a geometric-mean property but specific H₀ values are not derived. SIDC's prediction H₀ = 73 (local) matches local measurements but leaves 5.6 km/s/Mpc gap to Planck CMB H₀ = 67.4 unresolved. **REJECTED (L308bl)**: User correctly identified that f_leak is for DM (attractive gravity), not DE (repulsive antigravity). The Hubble tension is fundamentally about H_0/DE, not DM. No direct connection via f_leak.
 - **No unique testable predictions**: SIDC has 0 unique testable predictions beyond what ΛCDM and MOND already predict. SIDC's value is *interpretive* and *parsimonious*, not predictively unique.
 - **2D CFT requires expert input**: Full Lagrangian requires 2D CFT expert to fill in remaining details (Lagrangian scores 93% in audit, was 73%).
 - **Halving rule origin**: N_D = 12/2^(D-2) is now first-principles via spinor dim doubling (L308bj), but the deeper origin of "12" as total real DOF budget is the SM fermion count (L308r), not derived from more fundamental physics.
@@ -232,12 +232,12 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ## 📚 The Paper
 
 **Current version**: v3.5.9+ A2 (June 22, 2026, with Option B Strengthened + L308ba-bk chain)
-**Length**: 524 pages, 1.84 MB
-**Limitations**: 169 honest limitations (144 master + 27 L308af-bl)
+**Length**: 521 pages, 1.83 MB
+**Limitations**: 169 honest limitations (144 master + 26 L308af-bl)
 **Parameters**: 15 total (1 MEASURED + 3 FIRST-PRINCIPLES + 2 DERIVED + 4 CALIBRATED + 4 STRUCTURAL + 1 FREE)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 
-### Paper structure (24 markdown files, 524 pages)
+### Paper structure (24 markdown files, 521 pages)
 
 | # | File | Topic |
 |---|---|---|
@@ -292,5 +292,5 @@ Developed in conversation with **Mavis (M3, MiniMax)**. The AI's role: cross-che
 
 ## 📖 Citation
 
-> ampbuster (2026). *Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector.* v3.5.9+ A2, 524 pages.
+> ampbuster (2026). *Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector.* v3.5.9+ A2, 521 pages.
 > [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
