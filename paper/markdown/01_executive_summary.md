@@ -51,7 +51,7 @@ Both directions use the **SAME $\alpha = 1.289$** derived from **N = 12** SYK. T
 
 **The closed loop UNITES DM, DE, and gravity (v3.0.22, §3.60.3)**:
 
-- **Gravity weakness**: $\varepsilon_{\rm grav} \sim 10^{-38}$ from bulk-brane cancellation
+- **Gravity weakness**: $\varepsilon_{\rm grav} \sim 6.32 \times 10^{-34}$ (A2, was $10^{-38}$ in A1) from bulk-brane cancellation; $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant
 - **DE density**: $\rho_{\rm DE} = f_{\rm DE} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.2 \times 10^{-47}$ GeV$^4$ (within 12% of observed!)
 - **DM density**: $\rho_{\rm DM} = f_{\rm DM,death} \times \Sigma(M_{\rm 2D} \times N_{\rm 2D})/V$ (uses same $f_{\rm DM,death}$)
 

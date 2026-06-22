@@ -108,7 +108,7 @@ Both directions use the **SAME $\alpha = 1.289$** derived from **N = 12** SYK. T
 
 **The closed loop UNITES DM, DE, and gravity (v3.0.22, §3.60.3)**:
 
-- **Gravity weakness**: $\varepsilon_{\rm grav} \sim 10^{-38}$ from bulk-brane cancellation
+- **Gravity weakness**: $\varepsilon_{\rm grav} \sim 6.32 \times 10^{-34}$ (A2, was $10^{-38}$ in A1) from bulk-brane cancellation; $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant
 - **DE density**: $\rho_{\rm DE} = f_{\rm DE} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.2 \times 10^{-47}$ GeV$^4$ (within 12% of observed!)
 - **DM density**: $\rho_{\rm DM} = f_{\rm DM,death} \times \Sigma(M_{\rm 2D} \times N_{\rm 2D})/V$ (uses same $f_{\rm DM,death}$)
 
@@ -3692,7 +3692,7 @@ The "normal gravity" ($M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gr
 - ρ_DE = f_DE,closed × ε × M_Pl,3D^4 = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
 **Simple $f_{\rm DE,simple}$ formula (legacy A1, preserved as compact form, gives 0.13% off, near-exact)**:
-$$\rho_{\rm DE} = f_{\rm DE,simple} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.13 \times 10^{-85} \times 10^{-38} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$
+$$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$ (A2)
 Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is DE-calibrated).
 
 **A2 Note**: The simple f_DE,simple formula uses α_2D = 1.289 (in M_Pl,4D from α-GM) with ε = 1e-38. The closed loop formula f_DE,closed (L308av, was f_back in legacy naming) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓. f×ε = 1.13e-123 invariant preserved.
