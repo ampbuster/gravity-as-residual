@@ -34,7 +34,7 @@ preferred-citation:
 
     Honest status (v3.5.9+ A2):
     - 16/17 test categories pass, 7/7 specific cases pass
-    - 161 honest limitations (144 master + 14 L308af-az)
+    - 162 honest limitations (144 master + 14 L308af-az)
     - 15 parameters: 1 MEASURED, 3 FIRST-PRINCIPLES, 2 DERIVED, 4 STRUCTURAL, 4 CALIBRATED, 1 FREE
     - M_Pl,4D = 3.93e23 GeV (DERIVED via alpha-GM, L308v)
     - alpha = 1.289 (FIRST-PRINCIPLES via Schwarzian SYK N=12, L308n)
@@ -49,4 +49,4 @@ preferred-citation:
     Coordinate-invariant tensor construction in supporting/T_tensor_construction.md.
     Lagrangian attempt in §2.5.1.
     Master limitations table in §7.0.
-    496 pages, 1.52 MB.
+    498 pages, 1.52 MB.
