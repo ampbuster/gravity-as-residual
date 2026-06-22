@@ -260,7 +260,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 
 ### Calibrated Postulates (0) — All Derived
 
-**SIDC has 0 calibrated postulates in the v3.0+ state (HISTORICAL, v3.5.9+ A2 adds f_leak = H_0 as 5th calibrated).** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
+**SIDC has 0 calibrated postulates in the v3.0+ state (HISTORICAL, v3.5.9+ A2 adds f_leak = H_0 as 4th calibrated).** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
 
 | Previously "calibrated" | Current status | Derivation |
 |------------------------|----------------|------------|
