@@ -1,7 +1,7 @@
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -37,7 +37,7 @@
 - $f_{active}$ (v2.7.1): dropped after finding inconsistency with SN 33s lifetime
 - $A_{event}$ (v2.7.54): revised from 67 → 1 (identity operation, not a parameter)
 - $F_p(0)$ (v2.7.52): derived from cumulative DM calculation, no longer calibrated
-- $\epsilon$ (CURRENT v3.5.9+): CALIBRATED at 10⁻³⁸ (gravity weakness, hierarchy problem, OBSERVED)
+- $\epsilon$ (CURRENT v3.5.9+ A2): CALIBRATED at 6.32×10⁻³⁴ (gravity weakness, hierarchy problem, OBSERVED). Was 10⁻³⁸ in A1, recalibrated +4.8 orders in A2. $f \times \epsilon = 1.13 \times 10^{-123}$ invariant preserved.
 - $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas (f×ε = 1.13×10⁻¹²³ invariant)
   - $f_{\rm DE,simple}$ = 1.13×10⁻⁸⁵ (uses α_2D = 1.289, ε = 1×10⁻³⁸)
   - $f_{\rm DE,closed}$ = 1.79×10⁻⁹⁰ (uses α_4D = 1.577, ε = 6.32×10⁻³⁴)
@@ -521,7 +521,7 @@ This is a *power-law* relation, not a step. Future observations of dwarf galaxie
 **Parameter impact.** Deaths-only removes $f_{back,live} \sim 0.05$ as a *calibrated postulate* (REVERTED in v2.7.1, no longer needed). SIDC's parameter count:
 
 - **Truly free parameters**: 2 ($\alpha$ = 1.29, $z_{\rm half}$ ≈ 3) — UNCHANGED
-- **Calibrated postulates (HISTORICAL v2.7.11, v3.5.9+ count is different)**: was 3 ($f_{\rm back}$, $\epsilon$, $F_p$). Current (v3.5.9+) count: 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, $E_{\rm 4D}$, AGN rate) — see 00_title.md parameter table.
+- **Calibrated postulates (HISTORICAL v2.7.11, v3.5.9+ A2 count is different)**: was 3 ($f_{\rm back}$, $\epsilon$, $F_p$). Current (v3.5.9+ A2) count: 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak,3D\to4D}=H_0$) — see 00_title.md parameter table. ($E_{\rm 4D}$ moved to DERIVED per L308o, L308z).
 - **Observational inputs**: 5 (5/27/68, $H_0$, SN energy, etc.) — UNCHANGED
 
 So deaths-only is a *real simplification* (1 less calibrated postulate), not a "free parameter" reduction.
