@@ -5,15 +5,15 @@
 **Author:** ampbuster (software developer, not a physicist)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
 **Repository:** https://github.com/ampbuster/gravity-as-residual
-**Current version:** v3.5.9+ (June 21, 2026, APPROACH A1) — see [`changelog.md`](../changelog.md) for the full version history
+**Current version:** v3.5.9+ A2 (June 22, 2026, APPROACH A2: α dim-specific) — see [`changelog.md`](../changelog.md) for the full version history
 
-**v3.5.9+ HIGHLIGHTS** (CURRENT, June 21, 2026, APPROACH A1):
+**v3.5.9+ A2 HIGHLIGHTS** (CURRENT, June 22, 2026, APPROACH A2):
 
 **Paper:** 476 pages, 1.52 MB
-**Limitations:** 162 honest (was 158 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
+**Limitations:** 144 honest (master table; +12 L308af-ay in v3.5.9+ A2 await master table update) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
 **v3.5.9+ BREAKTHROUGHS** (this release):
-- **APPROACH A1** (§7.4.20, CURRENT): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
+- **APPROACH A2** (α dim-specific, §7.4.20, CURRENT): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
   - DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age)
   - $\gamma_{\rm 4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
