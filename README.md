@@ -4,7 +4,7 @@
 >
 > *ampbuster (software developer, not a physicist)* | AI-assisted development with Mavis (M3, MiniMax)
 >
-> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 529 pages, 1.85 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
+> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 531 pages, 1.86 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
 
 **SIDC** = **S**cale-**I**nvariant **D**imensional **C**ascade. A single principle — geometric projection through a dimensional cascade — produces gravity, dark matter, and dark energy as different views of the same 4D event. **No dark matter particle. No cosmological constant. No free parameters for the dark sector.**
 
@@ -232,12 +232,12 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ## 📚 The Paper
 
 **Current version**: v3.5.9+ A2 (June 22, 2026, with Option B Strengthened + L308ba-bk chain)
-**Length**: 529 pages, 1.85 MB
+**Length**: 531 pages, 1.86 MB
 **Limitations**: 169 honest limitations (144 master + 26 L308af-bl)
 **Parameters**: 15 total (1 MEASURED + 3 FIRST-PRINCIPLES + 2 DERIVED + 4 CALIBRATED + 4 STRUCTURAL + 1 FREE)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 
-### Paper structure (24 markdown files, 529 pages)
+### Paper structure (24 markdown files, 531 pages)
 
 | # | File | Topic |
 |---|---|---|
@@ -292,5 +292,5 @@ Developed in conversation with **Mavis (M3, MiniMax)**. The AI's role: cross-che
 
 ## 📖 Citation
 
-> ampbuster (2026). *Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector.* v3.5.9+ A2, 529 pages.
+> ampbuster (2026). *Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector.* v3.5.9+ A2, 531 pages.
 > [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
