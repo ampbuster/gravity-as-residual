@@ -275,9 +275,9 @@ This evaluates to $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (A2, $\alpha_{\rm 4
 
 ## 📚 The Paper
 
-**Current version**: v3.5.9+ (June 21, 2026, APPROACH A1)
-**Length**: 420 pages, 1.57 MB
-**Limitations**: 143 honest
+**Current version**: v3.5.9+ A2 (June 22, 2026, APPROACH A2: α dim-specific, f_back → f_DE,closed)
+**Length**: 478 pages, 1.52 MB
+**Limitations**: 144 honest (157 with L308af-ay awaiting master table update)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 
 ### Paper structure (23 markdown files)
@@ -296,7 +296,7 @@ This evaluates to $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (A2, $\alpha_{\rm 4
 | 04 | `04_predictions.md` | Detailed predictions |
 | 04 | `04_tests.md` | Test methodology and results |
 | 05 | `05_falsification.md` | What would falsify SIDC |
-| 06 | `06_limitations.md` | **All 140 honest limitations** |
+| 06 | `06_limitations.md` | **All 144 honest limitations** (157 with L308af-ay awaiting master table update) |
 | 07 | `07_conclusion.md` | Honest assessment + external constraints |
 | 08 | `08_competitors.md` | SIDC vs ΛCDM/MOND/ADD/Entropic |
 | 09 | `09_data_refs.md` | All data sources |
@@ -336,5 +336,5 @@ Developed in conversation with **Mavis (M3, MiniMax)**. The AI's role: cross-che
 
 ## 📖 Citation
 
-> ampbuster (2026). *Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector.* v3.5.9+, 400 pages.
+> ampbuster (2026). *Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector.* v3.5.9+ A2, 478 pages.
 > [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)

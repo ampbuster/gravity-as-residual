@@ -17,7 +17,7 @@
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (literal time dilation)
-- **144 master table limitations** (156 with L308af-ay), **478 pages**, paper built successfully
+- **144 master table limitations** (157 with L308af-ay), **478 pages**, paper built successfully
 
 **v3.5.9+ previous breakthroughs** (still relevant):
 - **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, N_sub = 3.86×10²
@@ -29,16 +29,16 @@
 **First-principles progress (v3.5.9+ A2)**: 0/9 → 3/9 (+ α, $M_{\rm Pl,2D}$, μ) — current is 3/15 [N=12 downgraded to STRUCTURAL per L308ag]
 
 **Pages**: 395 (was 405 v3.5.9+ A2 initial build, was 398 v3.5.8, was 393 v3.5.8 SESSION 1+2)
-**Limitations**: **144 master table** (156 with L308af-ay, was 131 v3.5.8, +L308t through +L308ay; REVISED)
+**Limitations**: **144 master table** (157 with L308af-ay, was 131 v3.5.8, +L308t through +L308ay; REVISED)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: 813+ (as of June 20, 2026)
 **v3.5.7+ recent commits**: ~30 in v3.5 era (math wrapping, adjacent math, lint checks, naming revolution, audit, DE match fix)
 
 ## The Model in 1 Paragraph
 
-Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr (time-dilated by γ_4D = 1.10×10¹¹¹ (A2: α_4D=1.577), **DERIVED, LITERAL TIME DILATION**). The bilateral cascade has 1 MEASURED ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 3 FIRST-PRINCIPLES (α = 1+1/√12 [L308n], $M_{\rm Pl,2D}$ = 2.95 TeV = 12×$v_{\rm Higgs}$ [L308r], μ = 8.73×10⁶ GeV² [L308r]) [N=12 STRUCTURAL per L308ag; L308ap: 3 first-principles roles (INPUT + PREDICTION + CONFIRMATION)], 2 DERIVED ($M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-GM [L308v], $E_{\rm 4D}$ = 5×10⁷⁹ J = $N_{\rm sub}$ × $E_{\rm sub}$ [L308o]), 4 CALIBRATED (ε = 10⁻³⁸, τ_4D = 1.51×10³⁴ yr, AGN rate = 10⁻¹⁵·⁵² /s, f_leak = H₀ = 2.18×10⁻¹⁸ /s [A1]), 4 STRUCTURAL ($E_{\rm sub}$ = 1.295×10⁷⁷ J = E_4D/N_sub per-sub-universe, τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr, γ_4D = 1.10×10¹¹¹ (A2: α_4D=1.577), N=12 per L308ag), 1 FREE ($N_{\rm sub}$ = 3.86×10², specific to our universe's 4D event) = 15 parameters total. **Approach A1 (v3.5.9+)**: f_leak = H_0 as NEW principle (post-Friedmann), γ_4D stays derived (consistent with γ_2D literal time dilation). DM stable at 27% (steady state, τ_DM = 14.5 Gyr ≈ universe age). The M^α law τ = (E/M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
+Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr (time-dilated by γ_4D = 1.10×10¹¹¹ (A2: α_4D=1.577), **DERIVED, LITERAL TIME DILATION**). The bilateral cascade has 1 MEASURED ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 3 FIRST-PRINCIPLES (α = 1+1/√12 [L308n], $M_{\rm Pl,2D}$ = 2.95 TeV = 12×$v_{\rm Higgs}$ [L308r], μ = 8.73×10⁶ GeV² [L308r]) [N=12 STRUCTURAL per L308ag; L308ap: 3 first-principles roles (INPUT + PREDICTION + CONFIRMATION)], 2 DERIVED ($M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-GM [L308v], $E_{\rm 4D}$ = 5×10⁷⁹ J = $N_{\rm sub}$ × $E_{\rm sub}$ [L308o]), 4 CALIBRATED (ε = 6.32×10⁻³⁴ [A2, was 10⁻³⁸ A1, +4.8 orders], τ_4D = 1.51×10³⁴ yr, AGN rate = 10⁻¹⁵·⁵² /s, f_leak,3D→4D = H₀ = 2.18×10⁻¹⁸ /s [A1, L308ax frame-neutral name]), 4 STRUCTURAL ($E_{\rm sub}$ = 1.295×10⁷⁷ J = E_4D/N_sub per-sub-universe, τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr, γ_4D = 1.10×10¹¹¹ (A2: α_4D=1.577), N=12 per L308ag), 1 FREE ($N_{\rm sub}$ = 3.86×10², specific to our universe's 4D event) = 15 parameters total. **Approach A1 (v3.5.9+)**: f_leak = H_0 as NEW principle (post-Friedmann), γ_4D stays derived (consistent with γ_2D literal time dilation). DM stable at 27% (steady state, τ_DM = 14.5 Gyr ≈ universe age). The M^α law τ = (E/M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
-## The 14 Parameters (v3.5.9+ A2, current, REVISED L308z+L308aa)
+## The 15 Parameters (v3.5.9+ A2, current, REVISED L308z+L308aa+L308ag)
 
 | # | Parameter | Value | Status | Source |
 |---|---|---|---|---|
@@ -46,22 +46,22 @@ Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a univer
 | 2 | α | 1.289 | **FIRST-PRINCIPLES** | Schwarzian SYK N=12, 1+1/√12 (L308n) |
 | 3 | $M_{\rm Pl,2D}$ | 2.95 TeV | **FIRST-PRINCIPLES** | N × $v_{\rm Higgs}$ = 12 × 246.22 (L308r) |
 | 4 | μ | 8.73×10⁶ GeV² | **FIRST-PRINCIPLES** | $M_{\rm Pl,2D}^2$ (L308r) |
-| 5 | N = 12 | 12 (count) | **FIRST-PRINCIPLES** | Appelquist 2001 + Z_12 + 6D anomaly (L308u) |
-| 6 | $M_{\rm Pl,4D}$ | 3.93×10²³ GeV | **DERIVED** | α-GM closed loop (L308v) |
-| 7 | $E_{\rm 4D}$ | 5×10⁷⁹ J | **DERIVED** | $N_{\rm sub}$ × $E_{\rm sub}$ (L308o energy conservation) |
-| 8 | ε | 10⁻³⁸ | **CALIBRATED** | hierarchy |
-| 9 | τ_4D,proper | 1.51×10³⁴ yr | **CALIBRATED** | DE match (0.13% simple, 2.7% bilateral) |
-| 10 | AGN rate | 10⁻¹⁵·⁵² /s | **CALIBRATED** | 27% DM |
-| 11 | f_leak | 2.18×10⁻¹⁸ /s = H₀ | **CALIBRATED** | A1 NEW principle (post-Friedmann) |
-| 12 | $E_{\rm sub}$ | 1.3×10⁷⁷ J | **STRUCTURAL** | galaxy-mass 2D universe |
-| 13 | τ_3D,apparent | 1.66×10¹⁴⁵ yr (A2) | **STRUCTURAL** | γ_4D × τ_4D |
-| 14 | γ_4D | 1.10×10¹¹¹ (A2) | **STRUCTURAL** | literal time dilation, consistent with γ_2D |
+| 5 | $M_{\rm Pl,4D}$ | 3.93×10²³ GeV | **DERIVED** | α-GM closed loop (L308v) |
+| 6 | $E_{\rm 4D}$ | 5×10⁷⁹ J | **DERIVED** | $N_{\rm sub}$ × $E_{\rm sub}$ (L308o energy conservation) |
+| 7 | ε | 6.32×10⁻³⁴ (A2) | **CALIBRATED** | hierarchy (was 10⁻³⁸ in A1, +4.8 orders A2) |
+| 8 | τ_4D,proper | 1.51×10³⁴ yr | **CALIBRATED** | DE match (0.13% simple, 2.7% bilateral) |
+| 9 | AGN rate | 10⁻¹⁵·⁵² /s | **CALIBRATED** | 27% DM |
+| 10 | f_leak,3D→4D | 2.18×10⁻¹⁸ /s = H₀ | **CALIBRATED** | A1 NEW principle, L308ax frame-neutral name |
+| 11 | $E_{\rm sub}$ | 1.295×10⁷⁷ J | **STRUCTURAL** | per-sub-universe energy (= 7×10²⁹ M_sun) |
+| 12 | τ_3D,apparent | 1.66×10¹⁴⁵ yr (A2) | **STRUCTURAL** | γ_4D × τ_4D |
+| 13 | γ_4D | 1.10×10¹¹¹ (A2) | **STRUCTURAL** | literal time dilation, consistent with γ_2D |
+| 14 | N = 12 | 12 (count) | **STRUCTURAL** | per L308ag downgrade (was FIRST-PRINCIPPLES via L308u; 5 suggestive interpretations, none rigorous) |
 | (ext) | $N_{\rm sub}$ | 3.86×10² | **FREE** | sub-universe count (event-specific) |
 | (ext) | γ_2D | 5.5×10⁴⁴ (SN) | **STRUCTURAL** | literal time dilation at 2D level (L308aa) |
 
-**Summary**: 1 MEASURED, 5 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ, N=12, plus structural $E_{\rm sub}$), 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 5 CALIBRATED (ε, τ_4D, AGN rate, f_leak, plus structural γ_2D), 4 STRUCTURAL ($E_{\rm sub}$, τ_3D,apparent, γ_4D, γ_2D), 1 FREE ($N_{\rm sub}$). Total 14 (5+2+5+2 = 14 plus extensions for clarity).
+**Summary** (v3.5.9+ A2): 1 MEASURED + 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 CALIBRATED (ε, τ_4D, AGN rate, f_leak,3D→4D) + 4 STRUCTURAL ($E_{\rm sub}$, τ_3D,apparent, γ_4D, N=12) + 1 FREE ($N_{\rm sub}$) + γ_2D extension = **15 parameters** (1+3+2+4+4+1).
 
-**Note**: $M_{\rm Pl,2D}$ = 2.95 TeV gives μ = 8.73×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived). **v3.5.9+ A2**: $\gamma_{\rm 4D}$ stays derived (literal time dilation, consistent with $\gamma_{\rm 2D}$); $f_{\rm leak} = H_0$ is NEW calibrated principle.
+**Note**: $M_{\rm Pl,2D}$ = 2.95 TeV gives μ = 8.73×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived). **v3.5.9+ A2**: $\gamma_{\rm 4D}$ stays derived (literal time dilation, consistent with $\gamma_{\rm 2D}$); $f_{\rm leak,3D→4D} = H_0$ is NEW calibrated principle; **f × ε = 1.13×10⁻¹²³ invariant** preserved; kL = 76.4 (was 87.5 A1, ΔkL = -11.1).
 
 ## Key Formulas
 
@@ -72,8 +72,9 @@ $$\tau_{\rm 2D} = \left(\frac{E}{M_{\rm Pl,parent}}\right)^{\alpha} \times t_{\r
 $$M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{(1-\alpha)} = 4 \times 10^{23} \text{ GeV}$$
 $$E_{\rm 4D} = 5 \times 10^{79} \text{ J (universe-scale)}$$
 
-**DE** (4D anti-gravity, 0.13% off simple $f_{\rm DE}$ / 2.7% off bilateral cascade):
-$$\rho_{\rm DE} = f_{\rm back} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 2.5 \times 10^{-47} \text{ GeV}^4$$
+**DE** (4D anti-gravity, 0.13% off simple $f_{\rm DE,simple}$ / 2.7% off bilateral cascade):
+$$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 2.5 \times 10^{-47} \text{ GeV}^4$$
+(LEGACY: was $f_{\rm back}$ in v3.0+ naming, renamed to $f_{\rm DE,closed}$ in v3.5.7+ naming revolution. A2 has TWO equivalent formulas: $f_{\rm DE,simple}$ = 1.13×10⁻⁸⁵ uses α_2D=1.289, $f_{\rm DE,closed}$ = 1.79×10⁻⁹⁰ uses α_4D=1.577. $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant.)
 
 **DM** (2D universe pulsed returns, 27% matches):
 $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
@@ -155,10 +156,10 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✓ N = 12 → **FIRST-PRINCIPPLES** (Appelquist 2001 + Z_12 + 6D anomaly, L308u)
 
 **CURRENT (v3.5.9+ A2) 4 CALIBRATED**:
-- ⚠ ε = 10⁻³⁸ (calibrated to hierarchy)
+- ⚠ ε = 6.32×10⁻³⁴ (A2, was 10⁻³⁸ in A1, +4.8 orders; calibrated to hierarchy)
 - ⚠ τ_4D = 1.51×10³⁴ yr (calibrated to DE)
 - ⚠ AGN rate = 10⁻¹⁵·⁵² /s (calibrated to 27% DM)
-- ⚠ f_leak = H_0 = 2.18×10⁻¹⁸ /s (NEW A1 principle, post-Friedmann)
+- ⚠ f_leak,3D→4D = H_0 = 2.18×10⁻¹⁸ /s (A1 principle, L308ax frame-neutral name, post-Friedmann)
 
 ## What's ASSUMED (not derived)
 
@@ -197,7 +198,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✗ 4π geometric factor (was v3.1.2, removed v3.3)
 - ✗ α = 1.258 (falsified, 13/14 events fail)
 
-## Open Limitations (79 OPEN, 22 PARTIAL, 2 RESOLVED, 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE = 140 total in v3.5.9+ A2+L308aa master table)
+## Open Limitations (79 OPEN, 22 PARTIAL, 2 RESOLVED, 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE = 124 + 20 L308f-L308ay = 144 in v3.5.9+ A2 master table; +13 L308af-ay awaiting master table = 157 total)
 
 **Status breakdown** (v3.5.7+):
 - 79 OPEN (need theoretical/observational work)
@@ -225,7 +226,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 ## Files in v3.5.7+
 
 **Paper**:
-- `paper/paper.pdf` (370 pages, 1.34 MB, v3.5.7+)
+- `paper/paper.pdf` (478 pages, 1.52 MB, v3.5.9+ A2)
 - `paper/markdown/00_title.md` through `15_falsifiability_matrix.md`
 - `paper/markdown/03e_first_principles_c1_matrix_model.md` (NEW v3.3)
 - `paper/markdown/03f_dm_is_not_a_particle.md` (NEW v3.3.14)

@@ -36,7 +36,9 @@ This document is a clean reference for the SIDC framework as of v3.5.9+ A2. For 
 | α | 1.289 | FIRST-PRINCIPLES | α = 1 + 1/√12 (L308n, Schwarzian SYK) |
 | M_Pl,2D | 2.95 TeV | FIRST-PRINCIPLES | 12 × v_Higgs (L308r) |
 | μ | 8.73×10⁶ GeV² | FIRST-PRINCIPLES | M_Pl,2D² (L308r) |
-| N | 12 | **STRUCTURAL** (L308ag) | Was FIRST-PRINCIPLES, reclassified — 5 suggestive interpretations, none rigorous |
+| N | 12 | **STRUCTURAL** (L308ag) | Was FIRST-PRINCIPPLES, reclassified — 5 suggestive interpretations, none rigorous |
+| f_DE,simple | 1.13×10⁻⁸⁵ | CALIBRATED-equivalent | α_2D = 1.289, ε = 1×10⁻³⁸ (A1 formula, LEGACY) |
+| f_DE,closed | 1.79×10⁻⁹⁰ | CALIBRATED-equivalent | α_4D = 1.577, ε = 6.32×10⁻³⁴ (A2 formula, CURRENT) |
 | M_Pl,4D | 3.93×10²³ GeV | DERIVED | M_Pl,3D^α × M_Pl,2D^(1-α) (L308v) |
 | E_4D | 5×10⁷⁹ J | DERIVED | N_sub × E_sub (energy conservation) |
 | γ_4D | 1.10×10¹¹¹ (A2) | DERIVED | (E_4D/M_Pl,3D)^α (literal time dilation) |
@@ -232,7 +234,7 @@ The cone is ASYMMETRIC:
 ## 9. Why SIDC Works (Honest Assessment)
 
 ### STRENGTHS
-- **First-principles α, M_Pl,2D, μ, N=12** (4/15 parameters)
+- **First-principles α, M_Pl,2D, μ** (3/15 parameters; N=12 downgraded to STRUCTURAL per L308ag)
 - **Closes CMB peak structure** (§13.10) — matches ΛCDM exactly
 - **Predicts RAR** (10% match to SPARC)
 - **Predicts g_+** (universal acceleration scale)

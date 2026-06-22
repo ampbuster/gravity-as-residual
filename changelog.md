@@ -46,6 +46,95 @@
 
 ---
 
+## v3.5.9+ A2 (June 22, 2026) — APPROACH A2: α dim-specific + frame-neutral leak naming + A2 era
+
+**Reason for sub-version (A2 within v3.5.9+)**:
+1. α is now dim-specific (α_2D = 1.289, α_3+1D = 1.408, α_4D = 1.577)
+2. f_back → f_DE,closed (LEGACY naming retired, f_DE,simple/closed formulas)
+3. N=12 downgraded FIRST-PRINCIPPLES → STRUCTURAL (L308ag, 1-1 mapping not derivation)
+4. L308ax: frame-neutral leak naming (f_leak,2D→3D, f_leak,3D→4D)
+5. Web research audit for first-principles (L43/L138/L144/L142a, NEGATIVE result)
+
+**A2 FRAMEWORK CHANGES**:
+- **α dim-specific**: α_2D = 1.289 (Schwarzian SYK N=12), α_3+1D = 1.408 (predicted), α_4D = 1.577 (predicted)
+- **ε recalibrated**: 10⁻³⁸ (A1) → 6.32×10⁻³⁴ (A2, +4.8 orders)
+- **f × ε = 1.13×10⁻¹²³ INVARIANT** preserved (ρ_DE = 2.5×10⁻⁴⁷ EXACT match in BOTH formulas)
+- **kL recalibrated**: 87.5 (A1) → 76.4 (A2), ΔkL = -11.1
+- **γ_4D FORMULA FIX (CRITICAL)**: γ_4D = (E_4D/M_Pl,3D)^α (uses M_Pl,3D parent reference, NOT M_Pl,4D). Correct value: 1.10×10¹¹¹. Old formula gave 8.4×10¹⁰³ (wrong)
+- **τ_3D,apparent updated**: 9.10×10¹²⁴ (v3.5.9+) → 1.66×10¹⁴⁵ yr (A2, with corrected γ_4D)
+
+**f_DE FORMULAS (A2 NAMING, was f_back in legacy)**:
+- f_DE,simple = 1.13×10⁻⁸⁵ (uses α_2D = 1.289, ε = 1×10⁻³⁸)
+- f_DE,closed = 1.79×10⁻⁹⁰ (uses α_4D = 1.577, ε = 6.32×10⁻³⁴)
+- f_back = LEGACY name (v3.0+), retired in v3.5.7+ naming revolution
+- DE formula: ρ_DE = f_DE,closed × ε × M_Pl,3D⁴ (was f_back × ε × M_Pl,3D⁴)
+
+**PARAMETER HIERARCHY (A2)**:
+- 1 MEASURED: M_Pl,3D = 1.22×10¹⁹ GeV
+- 3 FIRST-PRINCIPPLES (was 4, N=12 downgraded per L308ag): α = 1.289, M_Pl,2D = 2955 GeV, μ = 8.73×10⁶ GeV²
+- 2 DERIVED: M_Pl,4D = 3.93×10²³ GeV (α-GM, L308v), E_4D = 5×10⁷⁹ J
+- 4 STRUCTURAL: E_sub = 1.295×10⁷⁷ J, τ_3D,apparent = 1.66×10¹⁴⁵ yr, γ_4D = 1.10×10¹¹¹, N=12 (per L308ag)
+- 4 CALIBRATED (was 5, f_leak is 4th NOT 5th): ε = 6.32×10⁻³⁴, τ_4D = 1.51×10³⁴ yr, AGN rate, f_leak,3D→4D = H_0
+- 1 FREE: N_sub = 386
+- **Total: 15 parameters** (1+3+2+4+4+1)
+
+**L308ax (Frame-Neutral Leak Naming, USER INSIGHT)**:
+- f_DM,leak → f_leak,2D→3D (1.6×10⁻⁴⁵, frame-neutral, transition-explicit)
+- f_leak → f_leak,3D→4D (= H_0, frame-neutral, transition-explicit)
+- **NATURAL CASCADE LEAKS DROPPED AS NEGLIGIBLE**:
+  - f_leak,2D→3D (natural) = 1.6×10⁻⁴⁵ (88 orders below death pulse)
+  - f_leak,3D→4D (natural) = ~10⁻⁸⁶ (67 orders below H_0)
+  - 27-order gap: f_leak = H_0 is CALIBRATED stability principle, not natural
+- **DM picture simplified**: 100% pulsed at 2D death (with γ_2D growth) + f_leak,3D→4D = H_0 calibrated drain
+- §7.4.42b in 06_limitations.md
+- 5 files changed, 154 insertions, 24 deletions
+- Commit 025a6cc (pushed)
+
+**GEOMETRIC MIRROR PLANE INSIGHT (USER, L308ar candidate, NOT YET ADDED)**:
+- 3+1D brane = "dimensional mirror plane" between 4D (compression → anti-gravity = DE) and 2D (expansion → gravity = DM)
+- Same 1/r operation on both sides of cascade, opposite sign because of "above vs below" direction
+- "Cone asymmetry" ↔ 3+1D as inversion point
+
+**98 CONSISTENCY SWEEPS** (Sweeps 18-98):
+- Sweep 18: Stale "4/15 first-principles" → "3/15 first-principles" (N=12 STRUCTURAL per L308ag)
+- Sweep 19: Page count consistency (476 → 478 in README/STATE_OF_THE_MODEL)
+- Sweep 21: New legacy file `v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
+- Sweep 24-30: A2 value updates (ε=6.32e-34, f_DE,simple/closed)
+- Sweep 59-77: Cross-doc numerical verification (H_0, r_s, CMB peaks)
+- Sweep 78-80: L308 list in exec summary completed
+- Sweep 81-98: Final verification (no active v3.5.9+ A1 refs)
+- 8+ commits this session, all pushed
+
+**WEB RESEARCH AUDIT FOR FIRST-PRINCIPLES (NEGATIVE RESULT)**:
+- Targets: L43 (α from 2D CFT), L138 (M_Pl,4D closed), L144 (N_sub first-principles), L142a (4π origin)
+- Verdict: HONEST NEGATIVE. ~30 search queries, ~150 results examined across holographic bounds, JT gravity, Schwarzian derivatives, brane cosmology, multi-universe models, entropy bounds, Planck scale derivations in extra-dim models
+- L43: Best is L308n (Schwarzian SYK N=12, 0.025% match)
+- L138: Best is L308v (α-GM closed loop, 1.2% match)
+- L144: Best is L308ad (N_12 × (M_Pl,4D/M_Pl,3D)^(1/3), 1.6% match)
+- L142a: Best is S² boundary hypothesis (structural)
+- **Honest framing**: 1.6%/1.2%/0.025% matches are CONSISTENT with first-principles inputs, NOT DERIVED from them
+- New file: `paper/legacy/v359_legacy_first_principles_research_audit.md` (13,272 bytes)
+- Commit 5adbcd0 (pushed)
+
+**MEMORY.MD CLEANUP**:
+- Header updated to v3.5.9+ A2
+- Last updated: June 22, 2026 (was June 21)
+- A2 timeline entries added (A1→A2 transition, L308af-ay, L308ax, sweeps 18-98, web research)
+- A2 OVERRIDE block added to v3.5.8 first-principles table
+- Commit 553a9c0 (pushed)
+
+**Files added**:
+- `paper/legacy/v359_legacy_A1_to_A2_renaming.md` (A1→A2 transition)
+- `paper/legacy/v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
+- `paper/legacy/v359_legacy_first_principles_research_audit.md` (web research audit)
+
+**First-principles progress**: 4/15 → **3/15** (N=12 downgraded per L308ag, was over-counted)
+
+**Paper**: 478 pages (was 476 in A2 initial, was 405 in A1), 1.52 MB
+**Limitations**: 144 master table (157 with L308af-ay, was 138 in A1)
+
+---
+
 ## v3.2 (June 2026) — Three structural principles + user-driven audits
 
 **Reason for major version bump:** Three new structural principles formalize the framework, plus user-driven audits and clarifications.
