@@ -6,7 +6,7 @@
 2. **L26 FULL CLOSURE** (L308t): framework values UPDATED to consistent derivation
 3. **WHY N=12?** (L308u, BREAKTHROUGH): Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
 4. **L138 PARTIAL CLOSURE** (L308v): M_Pl,4D via α-GM closed loop
-5. **APPROACH A1** (CURRENT, §7.4.20): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
+5. **APPROACH A1** (HISTORICAL June 21, superseded by A2 June 22, §7.4.20): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
    - γ_4D stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
    - τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr (REINSTATED)
    - DM stable at 27%, τ_DM = 14.5 Gyr
