@@ -9,7 +9,7 @@
 
 **v3.5.9+ A2 HIGHLIGHTS** (CURRENT, June 22, 2026, APPROACH A2):
 
-**Paper:** 498 pages, 1.52 MB
+**Paper:** 501 pages, 1.52 MB
 **Limitations:** 144 honest (master table; +14 L308af-az in v3.5.9+ A2 await master table update: L308af-ay + new L308az) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):
@@ -14564,6 +14564,85 @@ The data does not distinguish A1 from A2. The choice is on **theoretical honesty
 ### Source
 
 User re-framing: "or the better question is... which can provide us with first principles. that would be the right choice."
+
+## 7.4.50 (L308bf): Status Note — Framework Keeping Option B Pending First-Principles for N_3+1D/4D (USER DECISION)
+
+**Date**: 2026-06-22
+**Trigger**: User directive: "maybe leave it b for now, until we can find an actual first principles. note them down though"
+**Status**: ACTIVE FRAMEWORK CHOICE (option B retained; option A flagged as first-principles ideal)
+
+### The Decision
+
+After the L308be re-framing established that **option A is more first-principles** but option B has structural richness, the user made the following decision:
+
+**Keep option B as the framework's active choice, pending first-principles derivations of N_3+1D = 6 and N_4D = 3.**
+
+This means:
+- Framework uses option B numerical values (γ_4D = 1.14×10¹¹¹, ε = 6.32×10⁻³⁴, f_DE,closed = 1.79×10⁻⁹⁰)
+- L308ba halving rule preserved as valid OBSERVATION
+- L308bc DOF conservation preserved as valid OBSERVATION
+- L308be first-principles finding documented: option A is the ideal but option B is current
+
+### What "Note Them Down" Means
+
+The user's directive "note them down" requires:
+1. ✓ L308be (first-principles analysis) — DOCUMENTED in §7.4.49
+2. ✓ L308bd (two valid interpretations) — DOCUMENTED in §7.4.48
+3. ✓ L308bf (this section, status note) — DOCUMENTED in §7.4.50
+4. ✓ MEMORY.md updated with the first-principles finding
+
+The findings are preserved. When N_3+1D = 6 and N_4D = 3 have first-principles derivations, the framework can REVISIT option B vs option A.
+
+### Path Forward (When First-Principles Emerges)
+
+When one of the following is achieved, the framework should RECONSIDER option A vs option B:
+
+1. **Derivation of N_3+1D = 6 from first principles**: e.g., from SM gauge group dimensions (U(1)+SU(2)+SU(3) = 1+2+3 = 6), from chirality structure (3 gen × 2 = 6), from 6D anomaly cancellation, etc.
+
+2. **Derivation of N_4D = 3 from first principles**: e.g., from 3 generations, from SU(3) color, from bulk field theory structure, etc.
+
+3. **Derivation of the halving rule N_D = 12/2^(D-2)**: e.g., from chirality/fermion-counting structure, from Majorana → Weyl → bulk transition, from cascade termination physics, etc.
+
+4. **Better theoretical understanding of the Schwarzian formula at higher dimensions**: a rigorous derivation of α_D = 1 + 1/√N_D for 3+1D and 4D CFTs.
+
+### Why Option B Is Kept for Now
+
+Despite option A being more first-principles, option B is kept because:
+
+1. **ρ_DE exact in both**: Both options give ρ_DE = 2.5×10⁻⁴⁷ EXACT (via f×ε invariant). Data doesn't distinguish.
+
+2. **Structural insights**: Option B has the halving rule, DOF conservation, and L308bb N_D interpretations — all structurally rich insights that may guide future derivations.
+
+3. **Calibration consistency**: The A2 numerical values (γ_4D = 1.10×10¹¹¹, ε = 6.32×10⁻³⁴, etc.) are internally consistent with the framework's other parameters.
+
+4. **Open derivation**: N_3+1D = 6 and N_4D = 3 may have first-principles derivations that we haven't found yet. Option B might be vindicated once these derivations emerge.
+
+### Trade-off Acknowledged
+
+The framework is making an explicit trade-off:
+- **Loss**: First-principles status for α_3+1D and α_4D (these are inferred, not derived)
+- **Gain**: Structural richness (halving rule, DOF conservation, A2 numerical calibration)
+
+This trade-off is HONEST and DOCUMENTED. When first-principles derivations emerge, the trade-off can be re-evaluated.
+
+### Status Summary
+
+| Aspect | Status |
+|--------|--------|
+| Framework numerical values | Option B (γ_4D = 1.14×10¹¹¹, ε = 6.32×10⁻³⁴, f_DE,closed = 1.79×10⁻⁹⁰) |
+| First-principles ideal | Option A (α = 1.289 universal, A1 values) |
+| Structural pattern | PRESERVED as observation (L308ba, L308bc) |
+| Path to first-principles | N_3+1D = 6, N_4D = 3 derivations (OPEN) |
+| Re-evaluation trigger | When first-principles derivations emerge |
+
+### What L308bf Closes
+
+- **None** — this is a STATUS NOTE, not a closure.
+- **It DOES clarify** the framework's active choice and the conditions for re-evaluation.
+
+### Source
+
+User directive: "maybe leave it b for now, until we can find an actual first principles. note them down though"
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with

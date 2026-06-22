@@ -297,8 +297,8 @@ Pushed to GitHub: 025a6cc, then 6429984 (sweeps 18-20).
 - All v3.5.9+ A2 consistent
 
 **Final state**:
-- 501 pages, 1.52 MB PDF (was 478, +3: LEGACY NOTE additions + L308az)
-- 163 limitations (144 master + 19 L308af-be)
+- 503 pages, 1.52 MB PDF (was 478, +3: LEGACY NOTE additions + L308az)
+- 164 limitations (144 master + 20 L308af-bf)
 - 15 parameters (1+3+2+4+4+1)
 - 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ), 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12 per L308ag)
 - 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak,3D→4D=H_0 per L308ax)
