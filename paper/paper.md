@@ -9,7 +9,7 @@
 
 **v3.5.9+ A2 HIGHLIGHTS** (CURRENT, June 22, 2026, APPROACH A2):
 
-**Paper:** 496 pages, 1.52 MB
+**Paper:** 498 pages, 1.52 MB
 **Limitations:** 144 honest (master table; +14 L308af-az in v3.5.9+ A2 await master table update: L308af-ay + new L308az) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):
@@ -14449,6 +14449,121 @@ This is not a new physics insight but a clarification of interpretation. The fra
 - How to interpret the "12" (fundamental count vs DOF budget)
 - Whether the Schwarzian formula should extend with N=12 universally or use local N
 - Whether spinor type affects α or not
+
+## 7.4.49 (L308be): First-Principles Criterion — Option A Wins, But Structural Pattern Preserved (USER-DRIVEN RE-FRAMING)
+
+**Date**: 2026-06-22
+**Trigger**: User re-framing: "or the better question is... which can provide us with first principles. that would be the right choice."
+**Status**: HONEST RE-FRAMING (first-principles is the right criterion; option A wins)
+
+### The Re-Framing
+
+L308bd (previous section) presented options A and B as both structurally valid, with the choice being aesthetic/structural. The user correctly pointed out that this is the wrong criterion — the right criterion is **first-principles**.
+
+### First-Principles Analysis (REVISED)
+
+**Option A (α universal = 1.289)** — first-principles derivation:
+
+| Step | Derivation | Source |
+|------|------------|--------|
+| 1 | N = 12 from SM count: 3 generations × 4 Weyl fermions | **FIRST-PRINCIPLES** via L308r |
+| 2 | α = 1 + 1/√N = 1.289 via Schwarzian SYK q=4 | **FIRST-PRINCIPLES** via L308n |
+| 3 | α universal at all levels | **POSTULATE** (1 step) |
+
+**Status**: 1 derivation chain, 1 postulate. α is FIRST-PRINCIPLES DERIVED.
+
+**Option B (α dim-specific)** — partial derivation:
+
+| Step | Derivation | Source |
+|------|------------|--------|
+| 1 | N_2D = 12 from SM count | **FIRST-PRINCIPLES** via L308r |
+| 2 | α_2D = 1.289 via Schwarzian | **FIRST-PRINCIPLES** via L308n |
+| 3 | N_3+1D = 6 | **INFERRED from α_3+1D = 1.408** (NOT derived) |
+| 4 | N_4D = 3 | **INFERRED from α_4D = 1.577** (NOT derived) |
+| 5 | Halving rule N_D = 12/2^(D-2) | **EMPIRICAL PATTERN** (NOT derived) |
+
+**Status**: 1 derived, 2 inferred, 1 pattern. Only α_2D is first-principles.
+
+### Verdict
+
+**Option A is more first-principles.** It has ONE clean derivation chain (N=12 → α=1.289) plus one postulate (universality). Option B introduces two inferred N values (N_3+1D = 6, N_4D = 3) that have no first-principles derivation.
+
+### What This Means for the Framework
+
+The framework chose option B for **structural reasons** (L308av, L308aw):
+- α dim-specific is consistent with N_2D = 12, N_3+1D = 6, N_4D = 3 (halving)
+- A2 numerical recalibration (ε = 6.32×10⁻³⁴, γ_4D = 1.10×10¹¹¹)
+
+But under the **first-principles criterion**, option B introduces assumptions (N_3+1D = 6, N_4D = 3) that aren't derived. Option A doesn't introduce such assumptions.
+
+### The Synthesis: KEEP the Pattern, USE the First-Principles
+
+The structural pattern α_D = 1 + 1/√(12/2^(D-2)) is a **valid observation**:
+- It matches all three A2 dim-specific α values exactly (0.01%)
+- It suggests a structural halving (N_D = 12/2^(D-2))
+- It encodes DOF conservation (L308bc)
+
+But the pattern is **not a first-principles derivation** for α_3+1D and α_4D.
+
+**Proposed synthesis**:
+- USE option A (α = 1.289 universal) for first-principles derivations
+- KEEP the structural pattern (L308ba, L308bc) as a **valid observation** that the framework can investigate
+- ACKNOWLEDGE that the pattern's deeper origin is OPEN
+
+### Numerical Implications
+
+If the framework USES option A (universal α = 1.289):
+- α = 1.289 (universal, FIRST-PRINCIPLES)
+- ε = 1.00×10⁻³⁸ (A1 value, no recalibration needed)
+- f_DE,simple = 1.13×10⁻⁸⁵ (A1 value)
+- γ_4D = 5.41×10⁹⁰ (A1 value, vs A2's 1.14×10¹¹¹)
+- τ_3D,apparent = 8.16×10¹²⁴ yr (A1, vs A2's 1.72×10¹⁴⁵)
+- ρ_DE = 2.503×10⁻⁴⁷ GeV⁴ (EXACT match, f×ε invariant preserved)
+
+If the framework USES option B (dim-specific α):
+- α_2D = 1.289 (FIRST-PRINCIPLES via Schwarzian)
+- α_3+1D = 1.408 (INFERRED)
+- α_4D = 1.577 (INFERRED)
+- ε = 6.32×10⁻³⁴ (A2 calibration)
+- f_DE,closed = 1.79×10⁻⁹⁰ (A2 closed loop)
+- γ_4D = 1.14×10¹¹¹ (A2)
+- τ_3D,apparent = 1.72×10¹⁴⁵ yr (A2)
+- ρ_DE = 2.506×10⁻⁴⁷ GeV⁴ (EXACT match)
+
+**Both give ρ_DE exact. The data cannot distinguish. The choice is whether to use inferred N values (option B) or stay with first-principles (option A).**
+
+### What L308be Closes
+
+- **L308bd (two valid interpretations)**: RE-FRAMED — first-principles is the right criterion
+- **L308av (dim-specific α as framework choice)**: RE-EVALUATED under first-principles criterion
+- **L308aw (A2 ε recalibration)**: RE-EVALUATED under first-principles criterion
+
+### What L308be Preserves
+
+- **L308ba (halving rule)**: PRESERVED as a valid OBSERVATION (just not a first-principles derivation for α_3+1D/α_4D)
+- **L308bc (DOF conservation)**: PRESERVED as a valid OBSERVATION
+- **L308bb (N_D interpretations)**: PRESERVED as pattern, not derivation
+
+### What L308be Opens
+
+- Should the framework REVERT to option A (A1 values) for first-principles?
+- Should the structural pattern (halving rule) be kept as observation, with caveat?
+- Is there a way to derive N_3+1D = 6 and N_4D = 3 from first principles?
+
+### Status
+
+**L308be**: HONEST RE-FRAMING (first-principles criterion; option A wins for derivations, option B preserved as observation).
+
+The framework's choice between A1 and A2 numerical values depends on:
+1. Whether to accept inferred N values (option B)
+2. Whether to use only first-principles derivations (option A)
+3. Whether to preserve structural patterns as observations (synthesis)
+
+The data does not distinguish A1 from A2. The choice is on **theoretical honesty** grounds.
+
+### Source
+
+User re-framing: "or the better question is... which can provide us with first principles. that would be the right choice."
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
