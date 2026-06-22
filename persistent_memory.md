@@ -5,7 +5,8 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.5.9+ (paper) — 395 pages, **140 honest limitations** (v3.5.9+ adds L308t-aa, A1 principle, L308z N_sub event-specific, L308aa γ_2D=5.5e44 time dilation REVERTED)
+**Current version:** v3.5.9+ A2 (paper) — 476 pages, **144 master table limitations** (156 with L308af-ay in v3.5.9+ A2)
+**v3.5.9+ A2**: APPROACH A2 (α dim-specific, f_back → f_DE,closed, ε recalibrated)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)

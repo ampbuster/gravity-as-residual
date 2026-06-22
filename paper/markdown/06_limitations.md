@@ -4489,7 +4489,7 @@ The scripts are idempotent (re-running produces 0 changes) and safe to leave in 
 **Build**: 369 pages (v3.5.7+, was 370 pages in v3.5.7 pre-cleanup), no errors.
 
 
-## 7.10 v3.5.9+ APPROACH A1: f_leak = H_0 AS NEW PRINCIPLE (NEW)
+## 7.10 v3.5.9+ APPROACH A1 (HISTORICAL, A1 PRECURSOR TO A2): f_leak = H_0 AS NEW PRINCIPLE
 
 L308w. **f_leak = H_0 IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** (v3.5.9+, A1, USER-DIRECTED).
 
