@@ -5510,6 +5510,148 @@ So 3 of 4 are not derivations.
 
 
 
+
+## 7.4.41 (L308av): Recalibration with α Dimension-Specific — Numerical Impact (v3.5.9+)
+
+**Date**: 2026-06-22
+**Trigger**: User request "re-calibrate those that are linked and see what happens"
+**Status**: RECALIBRATION — α_4D = 1.577 numerical impact
+
+### User's Request
+
+After the user caught that:
+1. f_back closed loop is no longer the central mechanism in A1
+2. f_leak = H_0 is the new mechanism
+3. α dimension-dependence affects only DE density, γ_4D, hierarchy levels
+
+The user asked: "re-calibrate those that are linked and see what happens"
+
+### The Recalibration
+
+Adopt Option B: α is dimension-specific. The linked quantities are:
+- γ_4D = (E_4D/M_Pl,3D)^α (4D time dilation)
+- f_back = (t_Pl,3/τ_4D) × (τ_SN,obs/τ_universe) × (E_4D/E_SN)^{1/(2α)}
+- ρ_DE = f_back × ε × M_Pl,3D^4
+- τ_3D,apparent = τ_4D × γ_4D
+- Hierarchy level transitions: f_back = (M_Pl,N/E_N)^α
+
+### Numerical Results (with α_4D = 1.577)
+
+| Quantity | Old (α = 1.289) | New (α_4D = 1.577) | Change |
+|----------|------------------|---------------------|--------|
+| **γ_4D** | 5.70×10⁹⁰ | 1.08×10¹¹¹ | **+20.3 orders** |
+| **τ_3D,apparent** | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr | **+20.3 orders** |
+| **f_back** | 6.04×10⁻⁸⁸ | 1.79×10⁻⁹⁰ | **−2.5 orders** |
+| **ρ_DE (with old ε)** | 1.34×10⁻⁴⁹ | 3.96×10⁻⁵² | **−2.5 orders** |
+| **Required ε for ρ_DE match** | 1.87×10⁻³⁶ | 6.32×10⁻³⁴ | **+4.8 orders** |
+| **kL (RS-II)** | 87.5 | 76.4 | **−11.1 change** |
+
+### What This Means
+
+#### 1. γ_4D changes by +20 orders
+The 4D time dilation is 10²⁰ × larger with α_4D = 1.577. This is a HUGE change.
+- Old: γ_4D = 5.7×10⁹⁰
+- New: γ_4D = 1.08×10¹¹¹
+
+#### 2. τ_3D,apparent changes by +20 orders
+The apparent 3D lifetime (τ_4D × γ_4D) is 10²⁰ × larger.
+- Old: 8.6×10¹²⁴ yr
+- New: 1.6×10¹⁴⁵ yr
+
+#### 3. f_back changes by −2.5 orders
+The closed-loop back-action is 2.5 orders smaller.
+- Old: 6.0×10⁻⁸⁸
+- New: 1.8×10⁻⁹⁰
+
+#### 4. ρ_DE (with old ε) is 2.5 orders below observed
+- ρ_DE_observed = 2.5×10⁻⁴⁷ GeV⁴
+- New ρ_DE = 4.0×10⁻⁵² GeV⁴
+- Ratio: 1.6×10⁻⁵ (off by 4.8 orders)
+
+#### 5. Required ε: 4.8 orders higher
+To match observed DE density, ε must change from 10⁻³⁸ to 6.3×10⁻³⁴.
+
+#### 6. kL (RS-II): changes by −11
+The bulk curvature changes from kL=87.5 to kL=76.4 (about 0.9× change).
+
+### Hierarchy Level Transitions (with level-specific α)
+
+| Level | M_Pl (GeV) | E (GeV) | α | f_back |
+|-------|-----------|---------|---|--------|
+| 2D | 2955 | 10⁴⁴ | 1.289 | 5.7×10⁻⁵³ |
+| 3+1D | 1.22×10¹⁹ | 3.12×10⁸⁹ | 1.408 | 7.3×10⁻¹⁰⁰ |
+| 4D | 3.93×10²³ | 3.12×10⁸⁹ | 1.577 | 1.2×10⁻¹⁰⁴ |
+
+The f_back values span 50+ orders of magnitude across levels. The hierarchy transitions are NOT uniform.
+
+### What Stays the Same (α_2D = 1.289)
+
+- ✓ 14 event lifetimes (M^α law in 2D)
+- ✓ Schwarzian α = 1 + 1/√12
+- ✓ M_Pl,2D = 2955 GeV
+- ✓ μ = M_Pl,2D²
+- ✓ M_Pl,4D = 3.93×10²³ GeV (α-GM with α_2D)
+- ✓ N_sub = 386
+- ✓ f_leak = H_0 (DM stability, α-independent)
+- ✓ τ_DM = 14.5 Gyr
+
+### What Becomes Inconsistent
+
+- DE density match (12%): ✗ New ρ_DE is 4.8 orders off
+- f_back formula: ✗ Uses α_2D in cross-dim contexts
+- Hierarchy level transitions: ✗ Not uniform across levels
+- γ_4D time dilation: ✗ +20 orders correction
+- τ_3D,apparent: ✗ +20 orders correction
+
+### Three Possible Resolutions
+
+**A: Adopt α_4D = 1.577 + recalibrate ε to 6.3×10⁻³⁴**
+- DE density matches with new ε
+- 4D physics consistent
+- Hierarchy transitions are not uniform (but that's the consequence)
+- Loses some elegance (different α at different levels)
+
+**B: Derive α universality (Option A)**
+- Keep α = 1.289 everywhere
+- Need to derive why α is dimension-invariant
+- Currently unjustified
+
+**C: Hybrid approach**
+- Keep α_2D for 2D physics (14 events)
+- Use α_4D for 4D physics (γ_4D, ρ_DE)
+- Use level-specific α for hierarchy transitions
+- Most consistent with dimension-dependence
+
+### Source
+
+Calculation: `calculations/v36_research/L308av_alpha_recalibration_v2.py`
+Results: `calculations/v36_research/L308av_alpha_recalibration_results.txt`
+
+User request: "re-calibrate those that are linked and see what happens"
+
+### Status
+
+**L308av (this section)**: Numerical recalibration with α dim-specific.
+
+**Findings**:
+- γ_4D changes by +20 orders (HUGE)
+- τ_3D,apparent changes by +20 orders
+- f_back changes by −2.5 orders
+- ρ_DE is 4.8 orders below observation with old ε
+- Required ε for ρ_DE match: 6.3×10⁻³⁴ (vs 10⁻³⁸)
+- kL changes by −11
+
+**Implication**: Adopting Option B (α dim-specific) requires significant recalibration. The framework's DE density match would need ε ~ 6×10⁻³⁴ instead of 10⁻³⁸. The hierarchy level transitions are not uniform.
+
+**Recommendation**: 
+- If α dim-specific is correct, the framework should adopt Option C (hybrid):
+  - α_2D for 2D physics
+  - α_4D for 4D physics
+  - Recalibrate ε to match observed DE
+- This requires acknowledging that the framework has dimension-specific α
+
+
+
 universe age)
 - Universe at 95.1% of DM lifetime
 - DM stable at 27% ✓
