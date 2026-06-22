@@ -59,7 +59,7 @@
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ($g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap (Ω_DM at z=1100) is now PARTIALLY CLOSED via f_leak = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. τ_DM unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **157 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) PARTIAL L144 closure + **L308ae N_sub formula residual + L308af AGN rate unit interpretation gap + L308ag N=12 reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on N=12 and α (no first-principles derivation found) + L308ai N=12 from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from N=12 (connection is heuristic, not rigorous) + L308ap re-examination: N=12 has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, $\mu$ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, $\alpha$ first-principles). L41, L42 closed in v3.0.22 ($\mu$ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ($4\pi$ specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ($g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap (Ω_DM at z=1100) is now PARTIALLY CLOSED via f_leak = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. τ_DM unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **158 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) PARTIAL L144 closure + **L308ae N_sub formula residual + L308af AGN rate unit interpretation gap + L308ag N=12 reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on N=12 and α (no first-principles derivation found) + L308ai N=12 from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from N=12 (connection is heuristic, not rigorous) + L308ap re-examination: N=12 has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, $\mu$ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, $\alpha$ first-principles). L41, L42 closed in v3.0.22 ($\mu$ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ($4\pi$ specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
 
 ---
 
@@ -136,7 +136,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon$ $\sim 10^{-38}$, $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **157 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) PARTIAL L144 closure + **L308ae N_sub formula residual + L308af AGN rate unit interpretation gap + L308ag N=12 reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on N=12 and α (no first-principles derivation found) + L308ai N=12 from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from N=12 (connection is heuristic, not rigorous) + L308ap re-examination: N=12 has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile $\nu$** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon$ $\sim 10^{-38}$, $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **158 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) PARTIAL L144 closure + **L308ae N_sub formula residual + L308af AGN rate unit interpretation gap + L308ag N=12 reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on N=12 and α (no first-principles derivation found) + L308ai N=12 from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from N=12 (connection is heuristic, not rigorous) + L308ap re-examination: N=12 has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile $\nu$** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
@@ -225,7 +225,7 @@ The pattern is the same at every level. The specific values ($\alpha$, c, N, $f_
 
 ## SIDC's honest stance
 
-- **157 honest limitations** documented in §7.0 (v3.5.9+ master table; was 67 in v3.1, was 116 in v3.5.7)
+- **158 honest limitations** documented in §7.0 (v3.5.9+ master table; was 67 in v3.1, was 116 in v3.5.7)
 - 8 closed, 25 open, 21 partial, 1 resolved, 6 negative, 7 speculative
 - **0 free parameters** at the level of the composite model (N = 12, $\alpha$ = 1.289, c = 1/2, $f_{\rm DE}$ = $8.6 \times 10^{-86}$ are all derived)
 - 1 free parameter at the data-fitting level ($z_{\rm half}$ = 3)
@@ -12490,6 +12490,186 @@ When counting fermions, the dimension matters. The same number (12) in different
 - 12 in 4D = 48 real DOF = 3 SM generations
 
 The framework has been using "12" as if it's dimension-invariant, but it's not. The 2D count and 4D count are 4× different in DOF.
+
+
+
+
+## 7.4.38 (L308as): N is Dimension-Dependent, Anchored to 2D — N=1.5 in 5D Reveals Majorana Non-Existence (v3.5.9+)
+
+**Date**: 2026-06-22
+**Trigger**: User question "since 2d is the lowest possible dimension in physics, it does make sense to anchor n=12 to 2d. so n=6 in 3d, n=3 in 4d. can n be 1.5 in 5d?"
+**Status**: FORMAL ENTRY — comprehensive dimension-by-dimension analysis
+
+### The User's Insight
+
+The user proposed:
+1. **2D is the lowest dimension in physics** for fermions
+2. **Anchor N=12 to 2D** as the natural starting point
+3. **N scales with dimension**: N=6 in 3D, N=3 in 4D
+4. **Question**: can N be 1.5 in 5D?
+
+This is correct in spirit and reveals a deep feature of fermion representations.
+
+### Why 2D is the Anchor
+
+Below 2D, relativistic fermions don't exist in the usual sense:
+- **0D**: No spatial dimensions, no spinors
+- **1D**: Lorentz group SO(1,0) is trivial, no spinor representation
+- **2D**: First dimension with non-trivial spinor representations
+
+In 2D, the minimal fermion is a 1-component Majorana (1 real DOF). This is the "lowest fermion" — the building block.
+
+The framework's N=12 = 12 such 2D-Majoranas = 12 real DOF = the framework's total 2D content.
+
+### Full Conversion Table
+
+For 12 real DOF (the invariant content of N=12 in 2D):
+
+| Dim | 1 Majorana = | 1 Dirac = | 1 Weyl = | 1 sympl Majorana = | N (Majorana) | N (Dirac) | N (Weyl) | N (sympl) |
+|-----|--------------|-----------|----------|---------------------|--------------|-----------|-----------|-----------|
+| **2D** | 1 real | 2 real | 2 real | — | **12** | 6 | 6 | — |
+| **3D** | 2 real | 4 real | — | — | **6** | 3 | — | — |
+| **4D** | 4 real | 8 real | 4 real | — | **3** | 1.5 | 3 | — |
+| **5D** | **DOES NOT EXIST** | 8 real | — | 4 real | **—** | **1.5** | — | 3 |
+| **6D** | 8 real | 16 real | 8 real | — | **1.5** | 0.75 | 1.5 | — |
+| **7D** | 8 real | 16 real | — | — | 1.5 | 0.75 | — | — |
+| **8D** | 8 real | 16 real | 8 real | — | 1.5 | 0.75 | 1.5 | — |
+| **9D** | 16 real | 16 real | — | — | 0.75 | 0.75 | — | — |
+| **10D** | 16 real | 16 real | 16 real | — | 0.75 | 0.75 | 0.75 | — |
+| **11D** | 32 real | 32 real | — | 32 real | 0.375 | 0.375 | — | 0.375 |
+
+### The "1.5 in 5D" Answer
+
+**For Dirac: YES, N=1.5 is mathematically valid.**
+- 1.5 × 8 real DOF = 12 real DOF ✓
+
+**For Majorana: NO, Majorana doesn't exist in 5D.**
+- 5D is an "odd" dimension for Majorana
+- The allowed types are: Dirac (8 real) and symplectic Majorana-Weyl (4 real)
+
+**For symplectic Majorana-Weyl: YES, N=3 (integer).**
+- 3 × 4 real DOF = 12 real DOF ✓
+- This is the "natural" integer count in 5D
+
+So in 5D, the framework's N=12 can manifest as:
+- **1.5 Dirac** (fractional, but mathematically allowed)
+- **3 symplectic Majorana-Weyl** (integer, but different spinor type)
+
+### Majorana Non-Existence Pattern
+
+Majorana spinors exist in D = 2, 3, 4, 6, 7, 8, 9, 10 (mod 8), but **NOT in D = 1, 5, 11** (for low dimensions).
+
+This is from the spinor periodicity theorem (Cartan's classification):
+- D mod 8 = 0: Majorana-Weyl exists
+- D mod 8 = 1: Majorana exists (with caveat for D=1)
+- D mod 8 = 2: Majorana exists
+- D mod 8 = 3: Majorana exists
+- D mod 8 = 4: Majorana exists
+- D mod 8 = 5: **Majorana does NOT exist** (need symplectic Majorana-Weyl)
+- D mod 8 = 6: Majorana exists
+- D mod 8 = 7: Majorana exists
+
+So:
+- **D = 1, 5**: Majorana absent (need symplectic)
+- **D = 9, 11**: Majorana exists (10D, 11D are M-theory dimensions)
+
+For the framework's cascade (2D → 3D → 4D → ... → 9D → 11D), Majorana exists at:
+- 2D, 3D, 4D ✓
+- 5D ✗ (use symplectic Majorana-Weyl, N=3)
+- 6D, 7D, 8D ✓
+- 9D, 10D, 11D ✓
+
+### Implication for α = 1 + 1/√N
+
+| Dim | N (Majorana) | N (Dirac) | α (Majorana) | α (Dirac) |
+|-----|--------------|-----------|---------------|-----------|
+| 2D | 12 | 6 | 1.289 | 1.408 |
+| 3D | 6 | 3 | 1.408 | 1.577 |
+| 4D | 3 | 1.5 | 1.577 | 1.816 |
+| 5D | — | 1.5 | — | 1.816 |
+| 6D | 1.5 | 0.75 | 1.816 | 2.155 |
+| 7D | 1.5 | 0.75 | 1.816 | 2.155 |
+| 8D | 1.5 | 0.75 | 1.816 | 2.155 |
+| 9D | 0.75 | 0.75 | 2.155 | 2.155 |
+| 10D | 0.75 | 0.75 | 2.155 | 2.155 |
+| 11D | 0.375 | 0.375 | 2.633 | 2.633 |
+
+The framework's α = 1.289 is the **2D value**. As we ascend in dimension, α grows. The framework's claim of α universality is INCONSISTENT with N being dimension-dependent.
+
+### The Three Options (Restated)
+
+**Option A: N is 2D-specific (anchored to 2D)**
+- N=12 only in 2D
+- α is 2D-specific, not universal
+- Different α at each cascade level
+- This is what the framework actually does
+
+**Option B: N is a DOF count, not a fermion count**
+- N=12 always = 12 real DOF
+- In higher D, "fewer fermions" but same DOF
+- α is related to DOF, dimension-INVARIANT
+- Would need to redefine α formula
+
+**Option C: N is a label (dimension-INVARIANT)**
+- "N=12" is a name, not a count
+- Same 12 at every level (just different fermion types)
+- α is universal
+- Requires "N=12" to NOT be a fermion count
+
+The framework currently mixes all three:
+- Uses N=12 as 2D-Majorana count (Option A)
+- Justifies N=12 as 4D-Weyl count (Option A in 4D)
+- Claims α is universal (Option C)
+- Uses Schwarzian for α (Option A, dimension-specific)
+
+These are mutually inconsistent.
+
+### What the Framework Should Do (Honest)
+
+1. **Acknowledge N is dimension-dependent** (2D-anchored)
+2. **Use "N" as 2D-Majorana count consistently** (= 12 2D real DOF)
+3. **Stop using "= 3 gen × 4 Weyl" as derivation** (different physics)
+4. **Acknowledge α is 2D-specific** unless additional argument given
+5. **Address Majorana non-existence in 5D** (use symplectic Majorana-Weyl)
+
+### The 1.5 Interpretation
+
+The "1.5 Dirac in 5D" is mathematically valid:
+- CFT central charge c can be non-integer
+- Ising CFT has c = 1/2 (= 1 Majorana = 1/2 Dirac in 2D)
+- For 12 2D-Majoranas, c = 6
+- In 5D, this is c = 6 (since c is 2D, doesn't change)
+- But "6 5D-Dirac equivalents" = 6 × 8 = 48 real DOF ≠ 12 real DOF
+- So actually "1.5 5D-Dirac" = 1.5 × 8 = 12 real DOF ✓
+
+The "1.5" is a fractional particle count. In CFT this is fine (c can be 1/2). In particle physics, this is unusual but allowed in extended theories (e.g., anyons in 2+1D have fractional statistics).
+
+### The Seventh User-Caught Issue
+
+The user has now caught the framework 7 times:
+1. L308ag: N=12 not first-principles
+2. L308ah: α = 1.289 is partial
+3. L308ai: 10+ structural motivations
+4. L308ao: r_12 not derived from N=12
+5. L308ap: re-examination (N=12 has motivations, not derivation)
+6. L308aq: c = N/24 is misleading
+7. L308ar: N is dimension-dependent
+8. **L308as (this section)**: full dimension analysis, Majorana non-existence in 5D
+
+### Status
+
+**L308as (this section)**: Formal entry for dimension-dependent N, anchored to 2D.
+
+**Findings**:
+- N=12 in 2D, N=6 in 3D, N=3 in 4D ✓ (user's question confirmed)
+- N=1.5 in 5D for Dirac (Majorana doesn't exist)
+- N=3 in 5D for symplectic Majorana-Weyl (integer)
+- Majorana exists in D = 2, 3, 4, 6, 7, 8, 9, 10, 11 (not 1, 5)
+- α is 2D-specific, NOT universal (if N is dimension-dependent)
+
+**Implication**: The framework's α = 1.289 is the 2D value. Going up, α would change. The α universality claim (L103) needs re-examination.
+
+**Recommendation**: Anchor N=12 to 2D formally. Use "DOF count" or "complex fermion equivalent" for cross-dimensional statements. Acknowledge Majorana non-existence in 5D.
 
 
 
