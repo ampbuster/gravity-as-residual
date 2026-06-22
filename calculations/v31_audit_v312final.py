@@ -4,6 +4,20 @@ v31_audit_v312final.py
 
 Audit of v3.1.2-final numerical claims to verify they all match.
 
+**HISTORICAL (v3.1.2-final era, June 2026)**: This file uses v3.1.2 values:
+- M_Pl,4D = 887 GeV (Scenario X, was inferred before α-GM at 3.93e23)
+- M_Pl,2D = 1e38 GeV (was 3 TeV before L308r)
+- α = 1.289 (was calibrated, now FIRST-PRINCIPLES via Schwarzian SYK N=12)
+- ε = 1e-38 (was calibrated, now A2 = 6.32e-34, +4.8 orders)
+- f_back = (M_Pl/E)^α (LEGACY naming, renamed f_DE,closed in v3.5.7+)
+
+These are the v3.1.2 era values, kept here for historical audit. Current v3.5.9+ A2:
+- M_Pl,4D = 3.93e23 GeV (DERIVED via α-GM, L308v)
+- M_Pl,2D = 2.95 TeV (FIRST-PRINCIPLES via N×v_H, L308r)
+- α = 1.289 (FIRST-PRINCIPLES via L308n)
+- ε = 6.32e-34 (A2 recalibrated)
+- f_DE,closed = 1.79e-90 (A2 closed loop)
+
 The framework claims:
 1. M^α law: τ(N→N-1) = (E_event / M_Pl,N)^α × t_Pl,3D, with α = 1.289
 2. Closed loop: f_back = (M_Pl,N / E_event)^α

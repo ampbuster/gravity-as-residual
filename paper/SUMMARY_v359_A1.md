@@ -298,7 +298,7 @@ Pushed to GitHub: 025a6cc, then 6429984 (sweeps 18-20).
 
 **Final state**:
 - 478 pages, 1.52 MB PDF
-- 144 master table limitations (157 with L308af-ay)
+- 144 master table limitations (158 with L308af-az)
 - 15 parameters (1+3+2+4+4+1)
 - 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ), 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12 per L308ag)
 - 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak=H_0)

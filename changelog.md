@@ -119,7 +119,7 @@
 **MEMORY.MD CLEANUP**:
 - Header updated to v3.5.9+ A2
 - Last updated: June 22, 2026 (was June 21)
-- A2 timeline entries added (A1→A2 transition, L308af-ay, L308ax, sweeps 18-98, web research)
+- A2 timeline entries added (A1→A2 transition, L308af-ay, L308ax, L308az, sweeps 18-98, web research)
 - A2 OVERRIDE block added to v3.5.8 first-principles table
 - Commit 553a9c0 (pushed)
 
@@ -130,8 +130,8 @@
 
 **First-principles progress**: 4/15 → **3/15** (N=12 downgraded per L308ag, was over-counted)
 
-**Paper**: 479 pages (was 476 in A2 initial, was 405 in A1, was 478 pre-consistency-sweep), 1.52 MB
-**Limitations**: 144 master table (157 with L308af-ay, was 138 in A1)
+**Paper**: 481 pages (was 476 in A2 initial, was 405 in A1, was 478 pre-consistency-sweep), 1.52 MB
+**Limitations**: 144 master table (158 with L308af-az, was 138 in A1)
 
 ---
 

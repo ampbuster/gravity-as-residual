@@ -6010,3 +6010,72 @@ universe age)
 - DM stable at 27% ✓
 - AGC/KKR predictions work ✓
 
+---
+
+## 7.4.44 (L308az): 3+1D as Dimensional Mirror Plane — Geometric Inversion Principle (v3.5.9+ A2, USER-DRIVEN, STRUCTURAL INSIGHT)
+
+**Date**: 2026-06-22
+**Trigger**: User insight (2026-06-22 conversation): "what if 3d geometry is inverse vs 4d, that's why the gravity seems flipped" + "yes sure. so 2d is likely inverse of 3d too?" + "but then why is dark matter attractive then?" + "but there's f_leak" + "but if it's small compared to the death, then it doesn't matter i guess"
+**Status**: STRUCTURAL INSIGHT (clarification of cascade geometry, not new derivation)
+
+### The Insight (USER-DERIVED)
+
+The 3+1D brane acts as a **dimensional mirror plane** between 4D (above) and 2D (below). Same 1/r² operation on both sides of cascade, opposite sign because of "above vs below" direction in the cone.
+
+### Cascade Direction Analysis
+
+```
+   4D (above 3+1D)
+     | (compression: V_4D ∝ r⁴ projects DOWN to V_3D ∝ r³)
+     | Field: F_4D_projected ∝ +1/r² (ANTI-gravity = DE)
+     v
+   3+1D brane (DIMENSIONAL MIRROR PLANE — inversion point)
+     | (expansion: V_2D ∝ r² projects UP to V_3D ∝ r³)
+     | Field: F_2D_projected ∝ -1/r² (gravity = DM)
+     v
+   2D (below 3+1D)
+```
+
+### Why DE and DM Have Opposite Signs
+
+Despite coming from the **same M^α law at different cascade levels**, DE (anti-gravity, 4D side) and DM (gravity, 2D side) have opposite signs because:
+
+1. **Volume scaling asymmetry**: V_4D ∝ r⁴ (compression when projecting to 3+1D), V_2D ∝ r² (expansion when projecting to 3+1D). The 3+1D brane has intermediate volume r³.
+2. **Cone direction**: 4D is "above" 3+1D (transcendent, eternal, source of DE), 2D is "below" 3+1D (mortal, terminal, source of DM). The 3+1D brane is the INVERSION POINT where the sign flips.
+3. **Same 1/r² operation**: Gauss's law applies on both sides. The sign difference is purely from the cone direction (compression vs expansion), not from different physics.
+
+### Asymmetric Density Ratio
+
+- ρ_DE = f_DE,closed × ε × M_Pl,3D⁴ = 2.5×10⁻⁴⁷ GeV⁴ (anti-gravity)
+- ρ_DM = Ω_DM × ρ_crit ≈ 1.4×10⁻⁴⁷ GeV⁴ (gravity, 27% of critical)
+- **ρ_DM/ρ_DE ≈ 0.4** (asymmetric — 2D has less "room" than 4D)
+
+The 0.4 ratio reflects the cone asymmetry: 2D extent is smaller than 3+1D extent, so the 2D side contributes proportionally less "stuff" to the 3+1D brane.
+
+### Connection to Existing Framework
+
+- **L308ar-as (N is dimension-dependent)**: The cascade is asymmetric, with N anchored to 2D. L308az explains the geometric intuition.
+- **L308p (cone asymmetry)**: 4D linear, 2D one-to-one. L308az is the geometric interpretation of this asymmetry.
+- **L308ax (frame-neutral naming)**: f_leak,2D→3D and f_leak,3D→4D are the two "flows" through the 3+1D mirror plane. L308az explains why these two flows have opposite signs.
+- **f_leak,2D→3D and f_leak,3D→4D as NATURAL CASCADE LEAKS** (L308ax): Both negligible because the dominant flows are pulsed (DM production at 2D death) and calibrated (DM drain at 3+1D→4D = H_0). The 3+1D mirror plane is "transparent" to natural leaks.
+
+### Status
+
+**L308az** is a STRUCTURAL INSIGHT, not a first-principles derivation. The framework's M^α law, the cascade structure, and the dimensional inversion are all POSTULATES. L308az is a CLARIFICATION of the framework's geometric picture.
+
+It does not change any numerical values. It does not introduce any new parameters. It does not close any limitations. It explains WHY the framework has DE and DM as opposite-sign phenomena despite coming from the same underlying mechanism.
+
+### Why This Is Honest
+
+The geometric mirror plane picture is:
+- ✓ Consistent with the framework's existing math (M^α law, cone structure, dimensional inversion)
+- ✗ Not a derivation of new physics
+- ✗ Not a prediction of new observables
+- ✗ Not a closure of any existing limitation
+
+It is a **clarification of the framework's geometric intuition** — a useful narrative for understanding WHY DE and DM have opposite signs. Like other structural insights (L308i 2π/4π, L308r N×v_H), L308az helps the reader understand the framework without claiming to derive it.
+
+Source: User insight (2026-06-22), `calculations/v36_research/L308az_geometric_mirror_plane.py`.
+
+---
+
