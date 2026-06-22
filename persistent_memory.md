@@ -5,8 +5,8 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.5.9+ A2 (paper) — 478 pages, **144 master table limitations** (156 with L308af-ay in v3.5.9+ A2)
-**v3.5.9+ A2**: APPROACH A2 (α dim-specific, f_back → f_DE,closed, ε recalibrated)
+**Current version:** v3.5.9+ A2 (paper) — 478 pages, **144 master table limitations** (157 with L308af-ay in v3.5.9+ A2)
+**v3.5.9+ A2**: APPROACH A2 (α dim-specific, f_back → f_DE,closed, ε recalibrated, frame-neutral leak naming)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)
@@ -80,11 +80,62 @@
 - v3.4.6: honest reframe of "12 propagates" as correlation, not derivation
 - v3.4.7: meta-analysis of why "12" is common in physics (arithmetic)
 - v3.4.8: universe age = 1.5×10⁻¹⁵ of lifetime implications + PDF rebuild
-**Last updated:** June 21, 2026 (v3.5.9+ release: +L308u (N=12 from 6D anomaly cancellation BREAKTHROUGH), +L308v (L138 PARTIAL CLOSURE via α-GM), +§7.4.18, +§7.4.19, **L26 FULL CLOSURE** (L308t, framework updated), 133 limitations, 403 pages)
+**Last updated:** June 22, 2026 (v3.5.9+ A2 ACTIVE: +L308af-ay (13 new limitations), +L308ax (frame-neutral leak naming), +§7.4.42b, +web research audit (L43/L138/L144/L142a negative result), +sweeps 18-98, **157 limitations** (144 master + 13 L308af-ay), **478 pages**, 1.52 MB, **15 parameters** (1+3+2+4+4+1))
 **This session (v3.5.8) commits**: f4c4655, 942f725, 20b83ec, 66d4fdc, 2460fcf, f47e052
 **v3.5.8+ NEW**: MCMC parameter search, α = 1+1/√12 first-principles, N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ linear scaling, cone asymmetry (4D linear, 2D one-to-one), 2D universe is discrete quantum, **L26 FULL CLOSURE** (μ = (N×v_H)² = 8.73×10⁶ GeV², framework updated L308t)
 
 **v3.5.9 NEW (June 21, 2026)**: WHY N=12? **Z_12 bulk + 6D anomaly cancellation BREAKTHROUGH (L308u)**. Appelquist et al. 2001 (PRL 87, 031801) proved 3 generations required by anomaly cancellation in 6D spacetime (= 4D + 2D universal extra). Framework's 2D fiber = the 2D universal extra. So N=12 = 3 gens × 4 Weyl = Z_12 orbifold order. Unifies ALL FIVE "12"s in framework. First-principles 3/9 → **4/9**. **L138 PARTIAL CLOSURE via α-GM closed loop (L308v)**: M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = 3.98×10²³ GeV (1.2% match). All 3 inputs first-principles. α-GM encodes cascade's self-similar structure. 133 limitations, 403 pages.
+
+**v3.5.9+ A1 → A2 TRANSITION (June 22, 2026, A2 ACTIVE)**:
+- **APPROACH A1 (HISTORICAL, June 21)**: f_leak = H_0 as new principle. §3.67 replaced. 138 limitations, 405 pages.
+- **APPROACH A2 (CURRENT, June 22)**: α dim-specific (α_2D = 1.289 for 2D→3D, α_4D = 1.577 for 3D→4D); f_back → f_DE,closed (LEGACY naming retired); ε recalibrated 1e-38 → 6.32e-34 (+4.8 orders); kL recalibrated 87.5 → 76.4 (ΔkL = -11.1).
+- **f × ε = 1.13×10⁻¹²³ INVARIANT** preserved (ρ_DE = 2.5×10⁻⁴⁷ in BOTH formulas).
+- **L308ag (N=12 downgrade)**: N=12 downgraded from FIRST-PRINCIPPLES → STRUCTURAL (L308u derivation was a 1-1 mapping, not a derivation). First-principles 4/9 → 3/9.
+- **A2 PARAMETER HIERARCHY**: 1 MEASURED + 3 FIRST-PRINCIPPLES (α, M_Pl,2D, μ) + 2 DERIVED (M_Pl,4D, E_4D) + 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12) + 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak=H_0) + 1 FREE (N_sub) = 15 parameters.
+
+**v3.5.9+ A2 L308af-ay (USER-DRIVEN, June 22)**: 13 new limitations (L308af-ay), all awaiting master table update. **144 master + 13 L308af-ay = 157 total limitations**, 478 pages, 1.52 MB.
+
+**v3.5.9+ A2 L308ax FRAME-NEUTRAL LEAK NAMING (June 22, USER INSIGHT)**:
+- f_DM,leak → f_leak,2D→3D (1.6e-45, frame-neutral, transition-explicit)
+- f_leak → f_leak,3D→4D (= H_0, frame-neutral, transition-explicit)
+- User insight: "f_leak from 2d->3d seen from 2d = f_DM,leak from 2d->3d seen from 3d"
+- **NATURAL CASCADE LEAKS DROPPED AS NEGLIGIBLE**:
+  - f_leak,2D→3D (natural) = 1.6e-45 (88 orders below death pulse)
+  - f_leak,3D→4D (natural) = ~10^-86 (67 orders below H_0)
+  - 27-order gap: f_leak = H_0 is CALIBRATED stability principle, not natural
+- **DM picture simplified**: 100% pulsed at 2D death (with γ_2D growth) + f_leak,3D→4D = H_0 calibrated drain
+- §7.4.42b in 06_limitations.md
+- 5 files changed, 154 insertions, 24 deletions
+- Commit 025a6cc (pushed)
+
+**v3.5.9+ A2 GEOMETRIC MIRROR PLANE INSIGHT (June 22, USER-INSIGHT, L308ar candidate)**:
+- 3+1D brane = "dimensional mirror plane" between 4D (compression → anti-gravity = DE) and 2D (expansion → gravity = DM)
+- Same 1/r operation on both sides of cascade, opposite sign because of "above vs below" direction
+- 4D → 3+1D: compression (4D bigger) → anti-gravity (DE)
+- 2D → 3+1D: expansion (2D smaller) → gravity (DM)
+- "Cone asymmetry" ↔ 3+1D as inversion point
+- *Status: candidate for L308ar, NOT YET ADDED to limitations table*
+
+**v3.5.9+ A2 SWEEPS 18-98 (June 22, 98 total consistency sweeps this session)**:
+- Sweep 18: Stale "4/15 first-principles" → "3/15 first-principles" (N=12 STRUCTURAL per L308ag)
+- Sweep 19: Page count consistency (476 → 478 in README/STATE_OF_THE_MODEL)
+- Sweep 21: New legacy file `v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
+- Sweep 24-30: A2 value updates (ε=6.32e-34, f_DE,simple/closed)
+- Sweep 59-77: Cross-doc numerical verification (H_0, r_s, CMB peaks)
+- Sweep 78-80: L308 list in exec summary completed (L308ar-as, at-au, av-aw, ax, ay added)
+- Sweep 81-98: Final verification (no active v3.5.9+ A1 refs, M_Pl,2D=2955 GeV, M_Pl,4D=3.93e23, α=1.289 all consistent)
+- 8+ commits this session, all pushed
+
+**v3.5.9+ A2 WEB RESEARCH AUDIT FOR FIRST-PRINCIPLES (June 22, NEGATIVE RESULT)**:
+- Targets: L43 (α from 2D CFT), L138 (M_Pl,4D closed), L144 (N_sub first-principles), L142a (4π origin)
+- Verdict: HONEST NEGATIVE. ~30 search queries, ~150 results examined across holographic bounds, JT gravity, Schwarzian derivatives, brane cosmology, multi-universe models, entropy bounds, Planck scale derivations in extra-dim models. NO closed first-principles derivations found in 2024-2026 literature.
+- L43: Best is L308n (Schwarzian SYK N=12, 0.025% match). HKS bound (2024) constrains 2D CFTs but doesn't give α. JT gravity finite-geometry (Ferrari 2025) gives new boundary condition but not α.
+- L138: Best is L308v (α-GM closed loop, 1.2%). Kuntz-Trautner 2025 (arXiv:2312.09853) gives 4D Planck from two bulk scales (R, R₀) but free choice in framework. Riley 2008 gives n=9.07 (1.6% off).
+- L144: Best is L308ad (N_12 × (M_Pl,4D/M_Pl,3D)^(1/3), 1.6% match). Holographic bounds give entropy, not sub-universe counts. PRL 110.141302 (2013) could in principle give N_sub but requires event-specific calculation.
+- L142a: Best is S² boundary hypothesis. Multiple consistent interpretations but no UNIQUE derivation.
+- **Honest framing**: 1.6%/1.2%/0.025% matches are CONSISTENT with first-principles inputs, NOT DERIVED from them. Framework is at the limit of what off-the-shelf literature can offer.
+- New file: `paper/legacy/v359_legacy_first_principles_research_audit.md` (13,272 bytes)
+- Commit 5adbcd0 (pushed)
 
 ---
 
@@ -137,6 +188,18 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - **N_sub = 386 — FREE (event-specific, per L308z)** [was SEMI-DERIVED via L308o, but reframe: N_sub is the free parameter for our 4D event; E_4D = N_sub × E_sub is then derived]
 - $M_{\rm Pl,4D}$ = 3.93×10²³ GeV — DERIVED via α-GM (circular consistency)
 - $E_{\rm 4D}$ = 5×10⁷⁹ J — DERIVED ($M_{\rm Pl,4D}$, τ_4D)
+
+**[A2 OVERRIDE, June 22, 2026 — see full A2 status block below for current values]:**
+- **ε: 10⁻³⁸ → 6.32×10⁻³⁴** (A2, +4.8 orders)
+- **γ_4D formula fix**: was ($E_{\rm 4D}$/$M_{\rm Pl,4D}$)^α = 8.4×10¹⁰³, correct is ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α = 1.10×10¹¹¹
+- **τ_3D,apparent: 9.10×10¹²⁴ → 1.66×10¹⁴⁵ yr** (A2, time dilation with corrected γ_4D)
+- **kL: 87.5 → 76.4** (A2, ΔkL = -11.1)
+- **N=12: FIRST-PRINCIPPLES → STRUCTURAL** (L308ag downgrade, 1-1 mapping not derivation)
+- **f_DE FORMULAS (A2)**: f_DE,simple = 1.13×10⁻⁸⁵, f_DE,closed = 1.79×10⁻⁹⁰, f×ε = 1.13×10⁻¹²³ invariant
+- **f_back → f_DE,closed** (LEGACY naming retired, A2 uses f_DE,simple/f_DE,closed)
+- **f_leak,2D→3D and f_leak,3D→4D** (L308ax frame-neutral naming, A2)
+- **Parameter count: 9 → 15** (1+3+2+4+4+1, f_leak is 4th calibrated NOT 5th)
+- **Limitations: 133 → 157** (144 master + 13 L308af-ay)
 
 **MCMC PARAMETER SEARCH** (L308m, v3.5.8):
 - Tier 1 (4/9 STRONGLY CONSTRAINED): α, ε, τ_4D, AGN rate (converge within 0.5σ)
