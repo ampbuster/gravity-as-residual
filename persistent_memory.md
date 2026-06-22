@@ -1707,7 +1707,7 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - - 4 FIRST-PRINCIPLES: α, M_Pl,2D, μ, N=12
 - - 2 DERIVED: M_Pl,4D (α-GM), E_4D = N_sub × E_sub
 - - 4 CALIBRATED: ε, τ_4D, AGN rate, f_leak = H_0 (NEW A1)
-- - 3 STRUCTURAL: E_sub, τ_3D,apparent, γ_4D
+- - 4 STRUCTURAL: E_sub, τ_3D,apparent, γ_4D, N=12 (per L308ag)
 - - 1 FREE: N_sub (event-specific)
 - 
 - **L144 STATUS**: REMAINS OPEN. N_sub is event-specific, not predicted by framework. But the
@@ -1761,7 +1761,7 @@ CORRECT COUNT (v3.5.9+ A1+L308z):
 - 4 FIRST-PRINCIPLES: α, M_Pl,2D, μ, N=12
 - 2 DERIVED: M_Pl,4D (α-GM, L308v), E_4D (N_sub × E_sub, L308o)
 - 4 CALIBRATED: ε, τ_4D, AGN rate, f_leak = H_0 (A1)
-- 3 STRUCTURAL: E_sub, τ_3D,apparent, γ_4D
+- 4 STRUCTURAL: E_sub, τ_3D,apparent, γ_4D, N=12 (per L308ag)
 - 1 FREE: N_sub
 - TOTAL: 1+4+2+4+3+1 = **15** (was 14, was 13, was 9)
 

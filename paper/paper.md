@@ -256,7 +256,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 | $\mu$ (bulk AdS curvature) | ? | Sets the bulk-brane coupling $\epsilon = e^{-kL}$ (RS-II mechanism) | Free (open) |
 | $m_{3+1D}$ (induced Planck scale) | $\sim 10^{19}$ GeV | Effective 3+1D Planck mass from bulk geometry | Brane-world framework |
 
-**Note (HISTORICAL v2.7-v3.0 context):** In v2.7, SIDC had **2 free parameters** ($\mu$, $m_{3+1D}$) parameterizing the bulk geometry (RS-II). They followed from the cascade structure plus the bulk. **CURRENT (v3.5.9+ A2):** The framework has **15 parameters** total: 1 MEASURED ($M_{\rm Pl,3D}$), 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$, event-specific).
+**Note (HISTORICAL v2.7-v3.0 context):** In v2.7, SIDC had **2 free parameters** ($\mu$, $m_{3+1D}$) parameterizing the bulk geometry (RS-II). They followed from the cascade structure plus the bulk. **CURRENT (v3.5.9+ A2):** The framework has **15 parameters** total: 1 MEASURED ($M_{\rm Pl,3D}$), 3 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$) [N=12 STRUCTURAL per L308ag], 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$, event-specific).
 
 ### Calibrated Postulates (0) — All Derived
 
@@ -310,7 +310,7 @@ All other values in SIDC are *derived* from the cascade structure:
 The 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, $\Omega$'s, $g_+$) are taken from data, not fit.
 
 **HISTORICAL**: SIDC had 0 calibrated postulates in the v3.0+ state.
-**CURRENT (v3.5.9+ A2 update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$).
+**CURRENT (v3.5.9+ A2 update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 3 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$) [N=12 STRUCTURAL per L308ag], 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$).
 ### 2.1 The setup
 
 We assume, following the well-developed brane-world framework [ADD98, RS99], that our observable universe is a 3+1 dimensional brane embedded in a higher-dimensional bulk. Gravity propagates in the bulk; the other Standard Model forces are confined to the brane.
@@ -8201,7 +8201,7 @@ L308h. **First-principles search: 0/9 → 4/15 parameters derived (UPDATED v3.5.
 - $\mu$ = $M_{\rm Pl,2D}^2$ (L308r, follows from $M_{\rm Pl,2D}$)
 - N = 12 (L308u, 6D anomaly cancellation, Appelquist 2001 PRL 87, 031801)
 
-**AFTER (v3.5.9+ A2)**: 15 parameters total: 1 MEASURED ($M_{\rm Pl,3D}$), 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub $\times$ $E_{\rm sub}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$). Status: SIGNIFICANT PROGRESS (3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived, was 3/9 in v3.5.8). Source: `calculations/v35_first_principles_search.py`, `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_6d_anomaly_n12.py`.
+**AFTER (v3.5.9+ A2)**: 15 parameters total: 1 MEASURED ($M_{\rm Pl,3D}$), 3 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$) [N=12 STRUCTURAL per L308ag], 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub $\times$ $E_{\rm sub}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$). Status: SIGNIFICANT PROGRESS (3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived, was 3/9 in v3.5.8). Source: `calculations/v35_first_principles_search.py`, `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_6d_anomaly_n12.py`.
 
 L308i. **Geometric factor asymmetry $2\pi$ vs $4\pi$ is BOUNDARY-SPHERE STRUCTURED** (v3.5.7+, USER-DISCOVERED). The cascade has different geometric factors at different transitions, matching the boundary sphere dimensions:
 - 2D → 3D: $2\pi$ = S¹ (circle circumference) — boundary of 2D world is 1D circle
@@ -8363,7 +8363,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 | 9 | $N_{\rm sub}$ | $4 \times 10^2$ | **FREE** (L144 OPEN) |
 | -- | $\mu$ = $M_{\rm Pl,2D}^2$ | $9 \times 10^6$ GeV² | **STRUCTURAL** (5 paths, L308a-e) |
 
-**Verdict (v3.5.9+ A2 REVISED)**: **3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived** (was 1/9, then 3/9, now 4/15 with N=12 added via L308u 6D anomaly). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r), N=12 (L308u). Total 15 parameters: 1 MEASURED, 4 FIRST-PRINCIPLES, 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub × $E_{\rm sub}$), 4 CALIBRATED, 4 STRUCTURAL (incl N=12 per L308ag), 1 FREE.
+**Verdict (v3.5.9+ A2 REVISED)**: **3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived** (was 1/9, then 3/9, now 4/15 with N=12 added via L308u 6D anomaly). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r), N=12 (L308u). Total 15 parameters: 1 MEASURED, 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ), 2 DERIVED ($M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via N_sub × $E_{\rm sub}$), 4 CALIBRATED, 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12 per L308ag), 1 FREE.
 
 ### 7 Possibilities Tried (2026-06-20)
 

@@ -29,7 +29,7 @@ SIDC = **S**cale-**I**nvariant **D**imensional **C**ascade. It proposes that gra
 | 4 FIRST-PRINCIPPLES | α = 1+1/√12 (L308n), $M_{\rm Pl,2D}$ = 12×$v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r), N=12 (L308u) |
 | 2 DERIVED | $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha \times M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub} \times E_{\rm sub}$ (L308o) |
 | 4 CALIBRATED | ε, $\tau_{\rm 4D}$, AGN rate, **$f_{\rm leak} = H_0$ (NEW A1)** |
-| 3 STRUCTURAL | $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ |
+| 4 STRUCTURAL | $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 (per L308ag) |
 | 1 FREE | $N_{\rm sub} = 386$ (specific to our universe's 4D event) |
 
 ---
