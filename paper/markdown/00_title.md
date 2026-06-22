@@ -10,7 +10,7 @@
 **v3.5.9+ HIGHLIGHTS** (CURRENT, June 21, 2026, APPROACH A1):
 
 **Paper:** 395 pages, 1.52 MB
-**Limitations:** 140 honest (was 116 in v3.5.7, +24 v3.5.8-v3.5.9+ A1+L308z+L308aa)
+**Limitations:** 162 honest (was 158 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
 **v3.5.9+ BREAKTHROUGHS** (this release):
 - **APPROACH A1** (§7.4.20, CURRENT): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)

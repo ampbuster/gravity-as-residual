@@ -5652,6 +5652,159 @@ User request: "re-calibrate those that are linked and see what happens"
 
 
 
+
+## 7.4.42 (L308aw): Option A Adoption — α_4D = 1.577, ε = 6.32×10⁻³⁴ (v3.5.9+ → v3.5.9+ A2)
+
+**Date**: 2026-06-22
+**Trigger**: User directive "A: Adopt α_4D = 1.577 + recalibrate ε to 6.3×10⁻³⁴"
+**Status**: ADOPTION — Option A officially adopted
+
+### The User's Decision
+
+After the recalibration showed significant changes (γ_4D +20 orders, ρ_DE off by 4.8 orders), the user chose:
+
+**Adopt α_4D = 1.577 (dimension-specific) and recalibrate ε to 6.32×10⁻³⁴ to maintain ρ_DE match.**
+
+### The New State
+
+| Parameter | Old | New | Change |
+|-----------|-----|-----|--------|
+| α (universal) | 1.289 | dim-specific | — |
+| α_2D | 1.289 | 1.289 | 0 |
+| α_3+1D | (implicit 1.289) | 1.408 | +0.119 |
+| α_4D | (implicit 1.289) | 1.577 | +0.288 |
+| ε | 1.00×10⁻³⁸ | 6.32×10⁻³⁴ | +4.8 orders |
+| kL (RS-II) | 87.5 | 76.4 | −11.1 |
+| γ_4D | 5.70×10⁹⁰ | 1.08×10¹¹¹ | +20.3 orders |
+| τ_3D,apparent | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr | +20.3 orders |
+| f_back | 6.04×10⁻⁸⁸ | 1.79×10⁻⁹⁰ | −2.5 orders |
+| f_back exponent 1/(2α) | 0.388 | 0.317 | −18% |
+| ρ_DE | 1.34×10⁻⁴⁹ | 2.50×10⁻⁴⁷ | matched to obs |
+
+### What This Means
+
+#### 1. The Framework Now Uses Dimension-Specific α
+
+| Level | α value | Source |
+|-------|---------|--------|
+| 2D | 1.289 | Schwarzian N=12 (rigorous) |
+| 3+1D | 1.408 | Schwarzian N=6 (predicted, not derived) |
+| 4D | 1.577 | Schwarzian N=3 (predicted, not derived) |
+
+The "α universality" claim (L103) is **REPLACED** with "α is dimension-specific".
+
+#### 2. The α Universality Claim is Dropped
+
+Per L308ar, N is dimension-dependent. This implies α is also dimension-dependent. The framework had been using α_2D = 1.289 everywhere; this is now replaced with level-specific α.
+
+The "α universality" was a POSTULATE, not a derivation. Dropping it is the honest move.
+
+#### 3. The DE Density Match is Restored (with new ε)
+
+ρ_DE = f_back × ε × M_Pl,3D^4 now matches observation:
+- Old: 1.34×10⁻⁴⁹ (off by 4.8 orders with new α)
+- New: 2.50×10⁻⁴⁷ (matches exactly with ε = 6.32×10⁻³⁴)
+
+The required ε is 4.8 orders larger, which corresponds to kL = 76.4 instead of 87.5.
+
+#### 4. γ_4D and τ_3D,apparent are Now 20 Orders Larger
+
+- Old: γ_4D = 5.70×10⁹⁰
+- New: γ_4D = 1.08×10¹¹¹
+- 20.3 orders of magnitude larger
+
+The 4D time dilation is now much stronger.
+
+#### 5. Hierarchy Transitions are Level-Specific
+
+| Transition | α used | f_back |
+|------------|--------|--------|
+| 2D→3+1D (SN creates 2D) | 1.289 | 5.7×10⁻⁵³ |
+| 3+1D→2D (back-projection) | 1.408 | 7.3×10⁻¹⁰⁰ |
+| 4D→3+1D (4D event) | 1.577 | 1.2×10⁻¹⁰⁴ |
+
+The hierarchy is NOT uniform — different α at different transitions.
+
+### What Stays the Same
+
+These are α_2D or α-independent:
+- ✓ 14 event lifetimes (use α_2D = 1.289)
+- ✓ M_Pl,2D = 2955 GeV (12 × v_Higgs)
+- ✓ M_Pl,4D = 3.93×10²³ GeV (α-GM with α_2D)
+- ✓ μ = M_Pl,2D²
+- ✓ N_sub = 386
+- ✓ f_leak = H_0 (DM stability, α-independent)
+- ✓ τ_DM = 14.5 Gyr
+- ✓ 5/27/68 split (uses f_leak = H_0)
+
+### What the New Version Looks Like
+
+The framework is now at **v3.5.9+ A2** (was A1):
+
+| Component | A1 | A2 |
+|-----------|-----|-----|
+| α (treatment) | Universal (1.289) | Dim-specific (1.289/1.408/1.577) |
+| ε | 1.00×10⁻³⁸ | 6.32×10⁻³⁴ |
+| kL (RS-II) | 87.5 | 76.4 |
+| γ_4D | 5.70×10⁹⁰ | 1.08×10¹¹¹ |
+| τ_3D,apparent | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr |
+| f_back exponent | 0.388 | 0.317 |
+| ρ_DE | matches (within 12%) | matches (exact) |
+
+### The Open Questions
+
+With Option A adopted:
+
+1. **α_3+1D = 1.408 derivation**: Just predicted, not derived
+2. **α_4D = 1.577 derivation**: Just predicted, not derived
+3. **Why is ε = 6.32×10⁻³⁴ instead of 10⁻³⁸?**: The new value is calibrated, not derived
+4. **Hierarchy f_back values are very different**: 50+ orders span, what does this mean physically?
+5. **γ_4D is 20 orders larger**: Implications for cosmology?
+
+### Implications for Cosmology
+
+With α_4D = 1.577:
+- γ_4D = 1.08×10¹¹¹ (was 5.7×10⁹⁰)
+- This is a 20-order correction to 4D time dilation
+- May affect:
+  - 4D event lifetime interpretation
+  - DE equation of state
+  - Bulk-brane coupling
+  - Hierarchy problem resolution
+
+### Implications for Hierarchy Problem
+
+The hierarchy problem (M_Pl,3D = 10¹⁹ GeV vs v_Higgs = 246 GeV) was "solved" by the cascade. With Option A:
+- The cascade is now dimension-specific
+- Each level has its own α
+- The "hierarchy solution" is more complex
+- 9D = v_Higgs identification (per L122) might change
+
+### Source
+
+Calculation: `calculations/v36_research/L308aw_option_A_adoption.py`
+Results: `calculations/v36_research/L308aw_option_A_results.txt`
+
+User directive: "A: Adopt α_4D = 1.577 + recalibrate ε to 6.3×10⁻³⁴"
+
+### Status
+
+**L308aw (this section)**: Official adoption of Option A.
+
+**Changes from A1 to A2**:
+- α is now dim-specific (not universal)
+- ε = 6.32×10⁻³⁴ (recalibrated)
+- kL = 76.4 (RS-II)
+- γ_4D = 1.08×10¹¹¹
+- τ_3D,apparent = 1.63×10¹⁴⁵ yr
+- f_back exponent = 0.317
+
+**Implication**: The framework is now at v3.5.9+ A2. The α universality claim is dropped. The DE density match is restored (with new ε). Hierarchy transitions are level-specific.
+
+**Open**: α_3+1D and α_4D are predicted but not derived. The new ε is calibrated, not derived. The hierarchy f_back values are very different (50+ orders span).
+
+
+
 universe age)
 - Universe at 95.1% of DM lifetime
 - DM stable at 27% ✓
