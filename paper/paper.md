@@ -12,7 +12,7 @@
 **Paper:** 476 pages, 1.52 MB
 **Limitations:** 144 honest (master table; +12 L308af-ay in v3.5.9+ A2 await master table update) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
-**v3.5.9+ BREAKTHROUGHS** (this release):
+**v3.5.9+ A2 BREAKTHROUGHS** (this release):
 - **APPROACH A2** (α dim-specific, §7.4.20, CURRENT): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
   - DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age)
   - $\gamma_{\rm 4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
@@ -24,7 +24,7 @@
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
 - **First-principles progress**: 0/9 → 3/15 (α, $M_{\rm Pl,2D}$, μ) — **L308ag: N=12 reclassified STRUCTURAL** — **L308ap: N=12 has strong first-principles motivations and confirmations but is not pure derivation**
 
-**v3.5.9+ PARAMETER HIERARCHY** (current, 15 total, REVISED L308z):
+**v3.5.9+ A2 PARAMETER HIERARCHY** (current, 15 total, REVISED L308z):
 - 1 MEASURED: $M_{\rm Pl,3D}$ (Newton's G)
 - 3 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK, L308n), $M_{\rm Pl,2D}$ = 12×$v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r) [L308ap: N=12 has SM fermion count INPUT + Schwarzian PREDICTION + data CONFIRMATION, but not pure derivation]
 - 2 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation, L308o)
@@ -45,7 +45,7 @@
 **v3.1.2-final additions** (HISTORICAL, intermediate): 8/8 events fit M^1.29 within 1.6×, Scenario X ($M_{\rm Pl,4D}$ = 887 GeV, brane-world), AGE vs LIFETIME distinct, frame of reference explicit (4D event proper time 10⁻²⁰ s, apparent 10³⁴ yr, $\gamma$ ~ 10⁶²).
 **v3.3 updates** (HISTORICAL, June 2026): $M_{\rm Pl,4D}$ = 3.93×10²³ GeV ($\alpha$-weighted GM, derived), $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale), $\tau_{\rm 3D,apparent}$ = 9.10×10¹²⁴ yr (was 1.83×10⁹⁸ yr), $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2) (was 1.29×10⁶⁴), universe age fraction 1.52×10⁻¹⁵ (was 7.5×10⁻⁸⁹). 9D = $v_{\rm Higgs}$ DROPPED. $M^{\alpha}$ uses PARENT's Planck.
 
-**v3.5.9+ UPDATE** (after audit): $\tau_{\rm 3D,apparent}$ = **1.66×10¹⁴⁵ yr (A2)** (audit fixed units/precision), $\gamma_{\rm 4D}$ = **1.10×10¹¹¹ (A2)** (L308t precision). Framework now has **15 parameters** (REVISED L308z, was 14 pre-L308z, was 9 in v3.5.8).
+**v3.5.9+ A2 UPDATE** (after audit): $\tau_{\rm 3D,apparent}$ = **1.66×10¹⁴⁵ yr (A2)** (audit fixed units/precision), $\gamma_{\rm 4D}$ = **1.10×10¹¹¹ (A2)** (L308t precision). Framework now has **15 parameters** (REVISED L308z, was 14 pre-L308z, was 9 in v3.5.8).
 
 **v3.0 HIGHLIGHT:** The composite model is now **strongly specified** by a single number N = 12. SIDC's $\alpha$ = 1.29, central charge c = 1/2 (Ising CFT), back-action $f_{\rm back} \approx 10^{-85}$, and 14 event-type lifetimes all follow from **q = 4 SYK (Sachdev-Ye-Kitaev, a model of quantum chaos) with N = 12 Majorana fermions (fermions that are their own antiparticle)**, in AdS₂ × S² topology (2D anti-de Sitter space cross a 2-sphere, a specific curved geometry with positive lifetime scaling). N = 12 is uniquely determined (off by 0.001 from $\alpha$ = 1.29). The 12 Majoranas might provide a "backbone" for the 12 Standard Model Weyl fermions (massless chiral fermions, 3 generations × 4 per generation). See **§3.60 v3.0 breakthrough summary** for the full picture.
 
@@ -260,7 +260,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 
 ### Calibrated Postulates (0) — All Derived
 
-**SIDC has 0 calibrated postulates in the v3.0+ state (HISTORICAL, v3.5.9+ A2 adds f_leak = H_0 as 4th calibrated).** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
+**SIDC has 0 calibrated postulates in the v3.0+ state (HISTORICAL, v3.5.9+ A2 adds f_leak = H_0 as 5th calibrated).** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
 
 | Previously "calibrated" | Current status | Derivation |
 |------------------------|----------------|------------|
