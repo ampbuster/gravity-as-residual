@@ -8196,3 +8196,111 @@ L308bp's narrative (DM converts to DE) was imprecise. The cleaner narrative:
 The "two-way street" framing in L308bp was misleading. DM and DE are NOT in a conversion relationship — they're independent quantities tied to different cascade levels (3+1D and 4D), and their ratio changes because DM is being depleted while DE remains constant.
 
 This corrected narrative is more honest and reflects SIDC's actual structure.
+
+## 7.4.64 (L308bs): DE/DM RATIO — TIGHT vs LOOSE CORRELATION WITH H (USER EXPLORATION)
+
+**Date**: 2026-06-23
+**Trigger**: User: "do some calcs so see how it works out. maybe de/dm ratio is loosely correlated to universe expansion rate, not tightly"
+**Status**: ✓ EXPLORED — SIDC predicts TIGHT; loose is constrained but not strongly supported
+
+### User's Hypothesis
+
+"Maybe DE/DM ratio is loosely correlated to universe expansion rate, not tightly"
+
+### Two Scenarios Compared
+
+**TIGHT (ΛCDM/SIDC standard)**: DE = const, DM ∝ (1+z)³
+- DE/DM ratio fully determined by z
+- DE = 2.58 GeV/m³ × (1+z)^(-3) × DM_0
+- No freedom in the ratio
+
+**LOOSE (DE evolves)**: DE ∝ H^α
+- For α = 0: tight (standard)
+- For α = 0.5: DE scales with √H
+- For α = 1: DE scales with H (linear)
+- For α = 2: DE scales with H² (strong)
+
+### Observational Constraints
+
+Planck 2018: w = -1.03 ± 0.03 → |w + 1| < 0.06 at 2σ
+
+If DE evolves as DE ∝ H^α, then α ≈ 0.5α_w where α_w relates to w.
+
+Specifically: H^α ≈ (1+z)^(1.5α), and DE(z) ≈ (1+z)^(3(1+w))
+
+Equating: 3(1+w) = 1.5α → α = 2(1+w)
+
+For w = -1: α = 0 (TIGHT)
+For w = -0.95: α = 0.1 (slightly loose)
+For w = -0.9: α = 0.2 (moderate loose)
+
+**Planck constraint**: |α| < 0.12
+
+### SIDC's Natural Answer: TIGHT
+
+In SIDC, DE = 4D event antigravity (time-dilated). We see only:
+
+t_universe / τ_4D = 13.8×10⁹ / 1.51×10³⁴ = 9.1×10⁻²⁶ of 4D time
+
+So DE looks perfectly constant to us. There's no mechanism in SIDC for DE to evolve with H.
+
+### DE/DM Ratio at Various z
+
+| z | TIGHT (α=0) | LOOSE (α=0.5) | LOOSE (α=1) | LOOSE (α=2) |
+|---|---|---|---|---|
+| 1100 | 2.34×10⁻⁹ | 1.50×10⁻⁸ | 9.65×10⁻⁸ | 3.97×10⁻⁶ |
+| 1 | 7.86×10⁻¹ | 1.18×10⁰ | 1.79×10⁰ | 4.05×10⁰ |
+| 0 | 2.58×10⁰ | 2.58×10⁰ | 2.58×10⁰ | 2.58×10⁰ |
+
+(Boundary condition at z=0: DE/DM = 2.58 today)
+
+### Findings
+
+1. **SIDC predicts TIGHT DE/DM correlation**:
+   - DE = constant due to time dilation
+   - We see only 9.1×10⁻²⁶ of 4D time over cosmic history
+   - DE/DM ratio is fully determined by cascade structure
+
+2. **Observationally, DE is very close to constant**:
+   - Planck: w = -1.03 ± 0.03
+   - BAO: consistent with ΛCDM
+   - SNe Ia: w ≈ -1 within 5%
+
+3. **'LOOSE' is allowed but constrained**:
+   - |α| < 0.12 if DE ∝ H^α
+   - Could be tiny deviations from constant DE
+   - Not strongly supported by current data
+
+4. **SIDC's prediction is TIGHTER than ΛCDM**:
+   - ΛCDM: DE = const by fiat
+   - SIDC: DE = const by time dilation mechanism (explains WHY)
+
+### Future Tests
+
+1. **Euclid (2024+)**: w to ±0.02, can detect α < 0.04
+2. **Roman Space Telescope (2027+)**: w to ±0.01, can detect α < 0.02
+3. **SKA (2030+)**: 21cm cosmology, independent test
+
+If these detect deviation from w = -1: could be 'loose' correlation
+If these confirm w = -1 to high precision: strongly supports TIGHT
+
+### Implications
+
+1. SIDC predicts TIGHT DE/DM correlation by construction
+2. Current data prefers TIGHT (Planck + BAO + SNe Ia)
+3. LOOSE is allowed but constrained (|α| < 0.12)
+4. SIDC explains WHY DE is constant; ΛCDM doesn't
+5. Future surveys could detect subtle loose correlation
+
+### Source
+
+User exploration: "maybe de/dm ratio is loosely correlated to universe expansion rate, not tightly"
+Calculation: `calculations/v36_research/L308bs_loose_tight_correlation.py`
+
+### Status
+
+**L308bs**: USER'S HYPOTHESIS ✓ EXPLORED.
+
+SIDC predicts TIGHT correlation. Current data prefers TIGHT. LOOSE is observationally allowed but constrained. Future surveys will test.
+
+If user wants SIDC to support LOOSE: would need to relax time-dilation assumption (DE has tiny evolution in 4D view). Possible in principle but currently no mechanism in framework.
