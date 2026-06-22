@@ -5877,7 +5877,7 @@ These are STRUCTURAL quantities (not directly observed), must be self-consistent
 ### 7. kL (RS-II) — UPDATED
 
 - ε = e^(-kL)
-- Old kL = 76.4 (A2) (with ε = 10⁻³⁸)
+- Old kL = 87.5 (A1) (with ε = 1×10⁻³⁸)
 - New kL = **76.4** (with ε = 6.32×10⁻³⁴)
 - ΔkL = -11.1
 

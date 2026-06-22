@@ -3685,13 +3685,13 @@ The "normal gravity" ($M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gr
 - The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
 - ρ_DE = f_DE,closed × ε × M_Pl,3D^4 = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
-**Simple $f_{\rm DE}$ formula (preferred, gives 0.13% off, near-exact)**:
-$$\rho_{\rm DE} = f_{\rm DE} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.13 \times 10^{-85} \times 10^{-38} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$
+**Simple $f_{\rm DE,simple}$ formula (legacy A1, preserved as compact form, gives 0.13% off, near-exact)**:
+$$\rho_{\rm DE} = f_{\rm DE,simple} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.13 \times 10^{-85} \times 10^{-38} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$
 Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is DE-calibrated).
 
-**A2 Note**: This simple f_DE formula uses α_2D = 1.289 (in M_Pl,4D from α-GM). The closed loop formula f_DE,closed (L308av, was f_back in legacy naming) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓.
+**A2 Note**: The simple f_DE,simple formula uses α_2D = 1.289 (in M_Pl,4D from α-GM) with ε = 1e-38. The closed loop formula f_DE,closed (L308av, was f_back in legacy naming) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓. f×ε = 1.13e-123 invariant preserved.
 
-**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE}$ formula gives 0.13% off. The 0.13% form is the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration).
+**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3-A1 (per $\tau_{\rm 4D}$ calibration). In v3.5.9+ A2, f_DE,closed is the canonical formula (uses α_4D = 1.577).
 
 **Why this works**:
 - UP flow (e.g., 2D → 3+1D): pulsed return at (N-1)-universe death = DM
@@ -4260,8 +4260,8 @@ $f_{\rm back}$ is NOT universal. It depends on event energy:
 
 For SN: $f_{\rm DM,leak}$ = 10⁻⁸⁵ (DM via gravity during 33s lifetime), $f_{\rm DM,death}$ ≈ 1 (returns to 3+1D when 2D dies). For 4D event: $f_{\rm DM,death}$ = 1 (3+1D IS the 4D event's full projection). These are DIFFERENT physical quantities that were conflated under the same name.
 
-Cone depths in $\alpha$ units determine $f_{\rm back}$: deeper cone → larger $f_{\rm back}$.
-The closed loop formula gives $f_{\rm back}$ as a function of event energy.
+Cone depths in $\alpha$ units determine $f_{\rm DE}$ (was f_back in legacy naming): deeper cone → larger $f_{\rm DE}$.
+The closed loop formula gives $f_{\rm DE,closed}$ (was f_back) as a function of event energy.
 
 **v3.1.1 note**: For 4D event, $f_{\rm back}$ = 1 means the 3+1D universe IS the 4D event's projection. This is the $f_{\rm DM,death}$ meaning, NOT the $f_{\rm DM,leak}$ meaning. The closed loop formula (§3.60.1) gives $f_{\rm DE}$ ~ $4.6 \times 10^{-68}$ in the alive-gravitational meaning — DIFFERENT from the death-projection meaning of 1.
 
@@ -13386,7 +13386,7 @@ These are STRUCTURAL quantities (not directly observed), must be self-consistent
 ### 7. kL (RS-II) — UPDATED
 
 - ε = e^(-kL)
-- Old kL = 76.4 (A2) (with ε = 10⁻³⁸)
+- Old kL = 87.5 (A1) (with ε = 1×10⁻³⁸)
 - New kL = **76.4** (with ε = 6.32×10⁻³⁴)
 - ΔkL = -11.1
 
