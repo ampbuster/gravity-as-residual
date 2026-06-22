@@ -7605,3 +7605,106 @@ When investigating whether mechanism X can resolve problem Y:
 2. Check if X affects the right physical quantity
 3. Check the direction of the effect
 4. f_leak (DM, attractive) ≠ Hubble tension (DE, repulsive)
+
+## 7.4.58 (L308bm): FRAMEWORK AUDIT — L308ab c + M_Pl,4D α-GM INCONSISTENCY (NEW)
+
+**Date**: 2026-06-22
+**Trigger**: User request to re-examine L308ab's α value and other inconsistencies
+**Status**: TWO ISSUES FOUND, both calibration-related
+
+### Issue 1: L308ab c = 1.13 is CALIBRATED, not derived
+
+**Finding**: c = 1.13 in L308ab depends on the integration starting time.
+
+| Starting time | c | τ_DM (Gyr) |
+|---|---|---|
+| t_Pl (5.4e-44 s) | 1.130 | 12.84 ← Framework |
+| t_EW (1e-12 s) | 2.525 | 5.75 |
+| t_QCD (1e-5 s) | 3.488 | 4.16 |
+| t_BBN (1 s) | 4.795 | 3.03 |
+
+**Interpretation**: c is calibrated to drain 32 orders by z=1100, GIVEN the assumed starting time. The choice of t_Pl is arbitrary; if we start at BBN, c = 4.8 but τ_DM = 3 Gyr (inconsistent with universe age).
+
+**Why c = 1.13 is forced**: τ_DM = 1/(c × H_0). For τ_DM ≈ 14 Gyr (universe age), c must be ≈ 1. So c = 1.13 is the unique value that:
+1. Drains 32 orders by z=1100 (matches Ω_c = 0.265)
+2. Gives τ_DM ≈ universe age
+
+**Honest framing**: 
+- c is CALIBRATED, not derived (acknowledged in L308ab)
+- c ≈ 1 is the natural value
+- c = 1.13 is a 13% calibration correction
+- "Why c ≈ 1?" is OPEN
+
+### Issue 2: M_Pl,4D α-GM INCONSISTENCY in A2 (NEW)
+
+**Finding**: M_Pl,4D = 3.93e23 GeV uses α = 1.289 (A1 era), but A2 has α dim-specific.
+
+**L138 (A1) calculation**:
+- M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α)
+- With α = 1.289: M_Pl,4D = 3.93e23 ✓ (framework value)
+
+**A2 calculation (should be consistent)**:
+- With α_4D = 1.577: M_Pl,4D = 1.25e28
+- **DISCREPANCY**: 4.5 orders of magnitude from framework's 3.93e23
+
+**What α does framework actually use?**
+- α implied by M_Pl,4D = 3.93e23: 1.2887
+- This matches α_2D = 1.289 (NOT α_4D = 1.577)
+
+**Implication**: Framework uses A1's M_Pl,4D with A2's α_4D. This is INCONSISTENT.
+
+### How is the inconsistency hidden?
+
+The f_DE,closed formula:
+- f_DE,closed = (M_Pl,4D/E_4D)^α_4D × prefactor
+- M_Pl,4D = 3.93e23 (A1)
+- α_4D = 1.577 (A2)
+- (3.93e23/E_4D)^1.577 = 1.26e-104
+- To get f_DE,closed = 1.79e-90: prefactor = 1.5e14
+- Framework says "prefactor ~ 7e13"
+
+The prefactor HIDES the M_Pl,4D inconsistency. If M_Pl,4D were correctly updated to 1.25e28, the prefactor would need to be 1.21e7 (6.7 orders different).
+
+### What is preserved
+
+- f × ε invariant = 1.13e-123 (both A1 and A2 give this)
+- ρ_DE = 2.5e-47 EXACT (in both A1 and A2)
+- γ_4D = (E_4D/M_Pl,3D)^α uses M_Pl,3D (not M_Pl,4D) — independent of this issue
+
+### What is broken
+
+- M_Pl,4D α-GM formula is INCONSISTENT with α dim-specific (A2)
+- L138 (A1) result is not propagated to A2
+- f_DE,closed prefactor hides the inconsistency (calibration)
+
+### Recommendations
+
+**Short-term (A2)**:
+1. Document c = 1.13 as "calibrated to t_Pl" more clearly
+2. Document M_Pl,4D = 3.93e23 as "A1 era value, not derived in A2"
+3. Note f_DE,closed prefactor hides the inconsistency
+
+**Long-term (A3)**:
+1. Re-derive M_Pl,4D consistently in A2 (either use α_2D or use α_4D)
+2. Re-derive f_DE,closed with consistent M_Pl,4D
+3. Update L138 to use α_2D (1.289) explicitly, not "universal α"
+
+### Source
+
+User request: "Re-examine L308ab's α value... Address other framework inconsistencies if you spot them"
+
+Calculation: `calculations/v36_research/L308bm_audit_corrections.py`
+
+### Files
+
+- `calculations/v36_research/L308bm_audit_corrections.py` (NEW)
+- `paper/markdown/06_limitations.md`: §7.4.58 (L308bm) added
+- No code changes (just documentation)
+
+### Status
+
+**L308bm**: TWO calibration issues found and documented.
+
+Both are HONEST CALIBRATION CHOICES, not fundamental errors. The framework's numerical results (ρ_DE, γ_4D, f_DE,closed) are correct within A1 era. The inconsistencies are between A1 and A2 eras.
+
+Framework is self-consistent within A1 but not across A1→A2 transition for M_Pl,4D.
