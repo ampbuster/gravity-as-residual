@@ -5,7 +5,7 @@
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: ~960
 **Pages**: 481
-**Limitations**: 158 (144 master + 14 L308af-az)
+**Limitations**: 159 (144 master + 15 L308af-ba)
 
 This document is a clean reference for the SIDC framework as of v3.5.9+ A2. For deep details, see the full paper at `paper/paper.pdf`.
 
@@ -297,8 +297,8 @@ Pushed to GitHub: 025a6cc, then 6429984 (sweeps 18-20).
 - All v3.5.9+ A2 consistent
 
 **Final state**:
-- 481 pages, 1.52 MB PDF (was 478, +3: LEGACY NOTE additions + L308az)
-- 158 limitations (144 master + 14 L308af-az)
+- 486 pages, 1.52 MB PDF (was 478, +3: LEGACY NOTE additions + L308az)
+- 159 limitations (144 master + 15 L308af-ba)
 - 15 parameters (1+3+2+4+4+1)
 - 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ), 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12 per L308ag)
 - 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak,3D→4D=H_0 per L308ax)
