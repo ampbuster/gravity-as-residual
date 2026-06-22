@@ -129,3 +129,26 @@ Documents Path B2 (REJECTED approach):
 **REPLACED** by Approach A1 (current):
 - γ_4D stays DERIVED (literal time dilation, consistent with γ_2D)
 - f_leak = H_0 (NEW principle, independent of γ)
+
+### `v359_legacy_f_DM_leak_naming.md`
+Documents the L308ax frame-neutral leak naming (June 22, 2026):
+- `f_DM,leak` → `f_leak,2D→3D` (frame-neutral, transition-explicit)
+- `f_leak` (= H_0) → `f_leak,3D→4D` (frame-neutral, transition-explicit)
+- User insight: "f_leak from 2d->3d seen from 2d = f_DM,leak from 2d->3d seen from 3d"
+- Natural cascade leaks DROPPED as negligible (88 and 67 orders below dominant)
+- DM picture simplified to: death pulses (DM production) + H_0 drain (DM stability)
+
+**CURRENT**: v3.5.9+ A2 frame-neutral naming convention.
+
+### `v359_legacy_first_principles_research_audit.md`
+Documents the 2026-06-22 web research audit for first-principles derivations:
+- L43 (α from 2D CFT): already at PARTIAL via L308n (Schwarzian SYK N=12)
+- L138 (M_Pl,4D): already at PARTIAL CLOSURE via L308v (α-GM closed loop, 1.2%)
+- L144 (N_sub): already at PARTIAL CLOSURE via L308ad (N_12 × (M_Pl,4D/M_Pl,3D)^(1/3), 1.6%)
+- L142a (4π origin): already at PARTIAL (S² boundary hypothesis, structural)
+
+**Verdict**: Honest NEGATIVE result. No 2024-2026 literature offers closed
+first-principles derivations that would improve on the framework's current
+status. All four gaps are at PARTIAL CLOSURE in v3.5.9+ A2 — further closure
+requires framework-specific theoretical physics work, not literature imports.
+~30 web search queries, ~150 results examined, no breakthrough found.
