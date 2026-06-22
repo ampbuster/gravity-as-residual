@@ -130,8 +130,8 @@
 
 **First-principles progress**: 4/15 → **3/15** (N=12 downgraded per L308ag, was over-counted)
 
-**Paper**: 517 pages (was 476 in A2 initial, was 405 in A1, was 478 pre-consistency-sweep), 1.52 MB
-**Limitations**: 144 master table (168 with L308af-bj, was 138 in A1)
+**Paper**: 519 pages (was 476 in A2 initial, was 405 in A1, was 478 pre-consistency-sweep), 1.52 MB
+**Limitations**: 144 master table (169 with L308af-bk, was 138 in A1)
 
 ---
 

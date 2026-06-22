@@ -4,7 +4,7 @@
 >
 > *ampbuster (software developer, not a physicist)* | AI-assisted development with Mavis (M3, MiniMax)
 >
-> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 517 pages, 1.52 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
+> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 519 pages, 1.52 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
 
 SIDC = **S**cale-**I**nvariant **D**imensional **C**ascade. It proposes that gravity, dark matter, and dark energy are all consequences of a single dimensional-projection mechanism: a single ongoing event in a 4D bulk energy release whose projection onto our 3+1D brane yields ordinary matter, while two geometric by-products yield dark matter (cumulative back-projection from 2D universe deaths) and dark energy (un-cancelled inverted bulk gravity, identified as 4D event antigravity).
 
@@ -276,8 +276,8 @@ This evaluates to $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (A2, $\alpha_{\rm 4
 ## 📚 The Paper
 
 **Current version**: v3.5.9+ A2 (June 22, 2026, APPROACH A2: α dim-specific, f_back → f_DE,closed)
-**Length**: 517 pages, 1.52 MB
-**Limitations**: 144 honest (168 with L308af-bj awaiting master table update)
+**Length**: 519 pages, 1.52 MB
+**Limitations**: 144 honest (169 with L308af-bk awaiting master table update)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 
 ### Paper structure (23 markdown files)
@@ -296,7 +296,7 @@ This evaluates to $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (A2, $\alpha_{\rm 4
 | 04 | `04_predictions.md` | Detailed predictions |
 | 04 | `04_tests.md` | Test methodology and results |
 | 05 | `05_falsification.md` | What would falsify SIDC |
-| 06 | `06_limitations.md` | **All 144 honest limitations** (168 with L308af-bj awaiting master table update) |
+| 06 | `06_limitations.md` | **All 144 honest limitations** (169 with L308af-bk awaiting master table update) |
 | 07 | `07_conclusion.md` | Honest assessment + external constraints |
 | 08 | `08_competitors.md` | SIDC vs ΛCDM/MOND/ADD/Entropic |
 | 09 | `09_data_refs.md` | All data sources |
@@ -336,7 +336,7 @@ Developed in conversation with **Mavis (M3, MiniMax)**. The AI's role: cross-che
 
 ## 📖 Citation
 
-> ampbuster (2026). *Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector.* v3.5.9+ A2, 517 pages.
+> ampbuster (2026). *Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector.* v3.5.9+ A2, 519 pages.
 > [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
 
 
