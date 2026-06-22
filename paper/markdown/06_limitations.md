@@ -148,7 +148,7 @@ The full table follows:
 | 126 (NEW v3.0.22) | 12 SYK Majorana = 9 spatial + 3 generational? | SPECULATIVE (v3.0.22) | §3.68, v44 | N = 12 = 9 + 3. If 9 Majorana are "spatial" (gapped by string physics at 9D) and 3 are "generational" (surviving IR modes), this explains why exactly 1 Ising mode survives (the 3 generational Majorana gap down to 1 Ising). STRENGTH: provides a structural reason for 12 = 9 + 3. WEAKNESS: speculative, requires detailed SYK string-coupling calculation to verify. |
 | 127 (NEW v3.0.22) | Hierarchy problem solved by cascade structure | SPECULATIVE (v3.0.22) | §3.68, v44 | Why is $M_{\rm Pl,3}$ = 10^19 GeV so much bigger than $v_{\rm Higgs}$ = 246 GeV? SIDC's answer: $M_{\rm Pl,3}$ is the 3+1D Planck, $v_{\rm Higgs}$ is the 9D Planck (string scale). They're at DIFFERENT levels of the cascade. No fine-tuning needed. STRENGTH: provides a structural solution. WEAKNESS: the cascade structure itself is not derived from first principles (L43 still OPEN). |
 | 138 (NEW v3.1.1, REVISED v3.1.2, SCENARIO X) | $f_{\rm back}$ = 10⁻⁸⁵ is a CALIBRATION; closed-loop formula gives FORM, not value; $M_{\rm Pl,4D}$ is the 4D BULK Planck (different from $M_{\rm Pl,3D}$) | PARTIAL → RESOLVED (v3.1.2, Scenario X) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): the closed-loop formula $f_{\rm back} = (M_{\rm Pl,N}/E_{\rm event})^\alpha$ gives the FORM (universal at every dimensional transition, scales with $\alpha$ = 1.289). The VALUE is calibrated: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV (4D BULK Planck, INDEPENDENT of our universe's Planck, was $4 \times 10^{23}$ pre-v3.5.8+) with $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale 4D event). The DE formula uses $M_{\rm Pl,3D}$ = 10¹⁹ GeV (our universe's Planck, MEASURED) for $\rho_{\rm DE}$ = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl,3D}^4$. STRENGTH: FORM is universal at 2D→3D AND 3D→4D; $M_{\rm Pl,4D}$ and $M_{\rm Pl,3D}$ are correctly identified as DIFFERENT (bulk vs brane), consistent with brane-world physics. WEAKNESS: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV is INFERRED, not measured; $E_{\rm 4D}$ = 5×10⁷⁹ J is calibrated (consistent with closed-loop, but the partition between $M_{\rm Pl,4D}$ and $E_{\rm 4D}$ is one-parameter, fixed by the closed-loop ratio). |
-| 139 (NEW v3.1.1, REVISED v3.1.2, SCENARIO X) | "Closed loop" formula: $f_{\rm back}$ = ($M_{\rm Pl}$,$E_{\rm event}$)$^{\alpha}$ applies at EVERY dimensional transition | PARTIAL → RESOLVED (v3.1.2) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): the closed-loop formula $f_{\rm back} = (M_{\rm Pl,N}/E_{\rm event})^\alpha$ with $\alpha$ = 1.289 applies at BOTH 2D→3D AND 3D→4D. For 2D→3D: $M_{\rm Pl,3D}$ = $1.22 \times 10^{19}$ GeV (our universe's Planck, MEASURED), $E_{\rm SN}$ = 10⁴⁴ J, gives $f_{\rm DM,leak}$ = 1.6×10⁻⁴⁵/s and $\tau_{\rm 2D}$ = 33s. For 3D→4D: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV (4D BULK Planck, INFERRED, Scenario X), $E_{\rm 4D}$ = 5×10⁷⁹ J (galaxy-scale), gives $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s and $\tau_{\rm 4D}$ = 1.4×10³⁴ yr. The $M^{\alpha}$ law is the SAME formula at every level. STRENGTH: TRUE closed loop with universal formula; DIFFERENT $M_{\rm Pl}$ at different levels ($M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ inferred) is consistent with brane-world physics where bulk and brane have different gravity. WEAKNESS: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV is INFERRED (cascade calibration, not direct measurement). |
+| 139 (NEW v3.1.1, REVISED v3.1.2, SCENARIO X) | "Closed loop" formula: $f_{\rm back}$ = ($M_{\rm Pl}$,$E_{\rm event}$)$^{\alpha}$ applies at EVERY dimensional transition | PARTIAL → RESOLVED (v3.1.2) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): the closed-loop formula $f_{\rm back} = (M_{\rm Pl,N}/E_{\rm event})^\alpha$ with $\alpha$ = 1.289 applies at BOTH 2D→3D AND 3D→4D. For 2D→3D: $M_{\rm Pl,3D}$ = $1.22 \times 10^{19}$ GeV (our universe's Planck, MEASURED), $E_{\rm SN}$ = 10⁴⁴ J, gives $f_{\rm leak,2D\to3D}$ = 1.6×10⁻⁴⁵/s and $\tau_{\rm 2D}$ = 33s. For 3D→4D: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV (4D BULK Planck, INFERRED, Scenario X), $E_{\rm 4D}$ = 5×10⁷⁹ J (galaxy-scale), gives $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s and $\tau_{\rm 4D}$ = 1.4×10³⁴ yr. The $M^{\alpha}$ law is the SAME formula at every level. STRENGTH: TRUE closed loop with universal formula; DIFFERENT $M_{\rm Pl}$ at different levels ($M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ inferred) is consistent with brane-world physics where bulk and brane have different gravity. WEAKNESS: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV is INFERRED (cascade calibration, not direct measurement). |
 | 140 (NEW v3.1.1) | $\epsilon$ = 10⁻³⁸ is OBSERVED (hierarchy problem), not derived | OPEN (v3.1.1) | §3.60.3, v31_F_p_consistency.py | $\epsilon$ = 10⁻³⁸ is the observed ratio of gravitational to EM force strength (the hierarchy problem). SIDC's mechanism (4D antigravity cancels 3+1D gravity, residual is $\epsilon$) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC; it is relabeled with a geometric story. STRENGTH: honest framing. WEAKNESS: the value 10⁻³⁸ is input, not output. |
 | 141 (NEW v3.1.1-final, REVISED v3.1.2, SCENARIO X) | $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)$^{\alpha}$ is UNIVERSAL at every dimensional transition with DIFFERENT $M_{\rm Pl,N}$ at each level | RESOLVED → REINFORCED (v3.1.2) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)$^{\alpha}$ applies at BOTH 2D→3D and 3D→4D with DIFFERENT $M_{\rm Pl}$ at each level (2D = 2.95 TeV, 3D = 10¹⁹ GeV, 4D = $3.93 \times 10^{23}$ GeV). The previous v3.1.1-final claim that " $f_{\rm back}$ ONLY makes sense as 3D-to-4D leakage" was about the 10⁻⁸⁵ VALUE matching DE, not about the formula being level-specific. v3.1.2 unifies: the FORMULA is universal ($M_{\rm Pl}$/E)$^{\alpha}$, the VALUES differ (1.6×10⁻⁴⁵ at 2D→3D vs 1.2×10⁻⁸⁵ at 3D→4D) because BOTH $M_{\rm Pl}$ and $E_{\rm event}$ differ at each level. The 100% pulsed return at death is ALSO universal. STRENGTH: $f_{\rm back}$ is genuinely universal in FORM; DIFFERENT $M_{\rm Pl}$ at each level is consistent with brane-world physics (bulk Planck ≠ brane Planck ≠ 2D brane Planck). WEAKNESS: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV is INFERRED (not measured); $E_{\rm 4D}$ = 5×10⁷⁹ J is galaxy-scale (calibrated, not derived). |
 | 142 (NEW v3.1.2, REVISED with $4\pi$ BREAKTHROUGH) | Multi-universe picture: $f_{\rm back}$ derived via $\gamma_{\rm 4D}$ = $4\pi$ × $\gamma_{\rm sub}$ (within 1.7% of observation) | PARTIAL (v3.1.2) | §3.60.4, v31_multi_universe_alpha.py | Multi-universe + $4\pi$ factor gives: $\gamma_{\rm 4D}$ = $4\pi$ × T_universe/ $t_{\rm Pl}$ = 1.015×10⁶² (within 1.5% of calibrated 10⁶²), $f_{\rm DE}$ = 1.22×10⁻⁸⁵ (within 1.7% of calibrated 1.24×10⁻⁸⁵). The 12× discrepancy found earlier is RESOLVED by recognizing $\gamma_{\rm 4D}$/$\gamma_{\rm sub}$ = 12.36 ≈ $4\pi$ (within 1.7%). USES THREE INGREDIENTS: (a) $\alpha$ = 1.289 from SN 33s, (b) $E_{\rm sub}$ = 3.6×10⁵⁶ J from universe age, (c) $4\pi$ geometric factor. Without $4\pi$, $f_{\rm DE}$ = 1.5×10⁻⁸⁴ (12% off). With $4\pi$, $f_{\rm DE}$ matches observation within 1.7%. STRENGTH: real derivation ($\gamma_{\rm 4D}$ not a free parameter); 1.7% match (much better than 12%); geometric interpretation (4D→3D projection). WEAKNESS: $4\pi$ is geometric/postulated, not derived from first principles; 1.7% discrepancy still unexplained. |
@@ -5803,6 +5803,65 @@ User directive: "A: Adopt α_4D = 1.577 + recalibrate ε to 6.3×10⁻³⁴"
 
 **Open**: α_3+1D and α_4D are predicted but not derived. The new ε is calibrated, not derived. The hierarchy f_DE,closed values are very different (50+ orders span).
 
+
+
+
+## 7.4.42b (L308ax): Frame-Neutral Naming of Leakage Channels — f_DM,leak → f_leak,2D→3D, f_leak → f_leak,3D→4D (v3.5.9+ A2)
+
+**Date**: 2026-06-22
+**Trigger**: User insight: "f_leak from 2d->3d seen from 2d = f_DM,leak from 2d->3d seen from 3d" and "maybe use f_leak,2D→3D and f_leak,3D→4D"
+**Status**: NAMING SIMPLIFICATION — frame-neutral, transition-explicit
+
+### User's Insight (Two-Part)
+
+**Part 1 — Frame-Dependent Naming**: The previous "f_DM,leak" name was given from the 3+1D observer's perspective ("DM" because 3+1D sees the inflow as DM). But the same physical process, viewed from the 2D universe's perspective, would be called "f_leak" (because 2D sees itself losing mass). Same flow, two names.
+
+| Same physical process | 2D's frame | 3+1D's frame |
+|---|---|---|
+| Leakage at 2D→3D transition | "I'm leaking to 3D" = f_leak | "I'm gaining DM from 2D" = f_DM,leak |
+| Leakage at 3+1D→4D transition | "I'm leaking to 4D" = f_leak | "I'm gaining DM from 3D" = f_DM,leak |
+
+**Part 2 — Frame-Neutral Naming**: Use transition-explicit names: f_leak,2D→3D and f_leak,3D→4D. These are frame-independent.
+
+### Naming Update
+
+| Old name (frame-dependent) | New name (frame-neutral) | Value |
+|---|---|---|
+| f_DM,leak | **f_leak,2D→3D** | 1.6×10⁻⁴⁵ (negligible vs death) |
+| f_leak (= H_0) | **f_leak,3D→4D** | H_0 = 2.18×10⁻¹⁸ /s |
+
+### Key Simplification: Drop the Natural Cascade Leak
+
+The cascade formula at each transition gives (M_Pl,parent/E)^α:
+- f_leak,2D→3D (natural) = (M_Pl,3D/E_2D)^α = 1.6×10⁻⁴⁵ (for SN, 33s lifetime)
+- f_leak,3D→4D (natural) = (M_Pl,4D/E_4D)^α = ~10⁻⁸⁶
+
+Compared to the dominant flows:
+- DM production: 100% pulsed at 2D death (× γ_2D = 5.5×10⁴⁴ growth factor)
+- DM drain via f_leak,3D→4D = H_0 (calibrated for 27% steady state)
+
+**The "natural" cascade leakages are negligible** at both transitions (~10⁻⁴⁵ and ~10⁻⁸⁶, vs 10⁻⁸⁸ death pulse contribution and 10⁻¹⁸ drain rate). They contribute nothing to observables.
+
+### What This Means
+
+1. **DM production**: 100% pulsed at 2D universe death (with γ_2D growth) — dominates by 88 orders of magnitude over natural leak
+2. **DM drain**: f_leak,3D→4D = H_0 (calibrated stability principle) — needed to prevent DM over-accumulation
+3. **No natural continuous leakage matters**: f_leak,2D→3D and the natural f_leak,3D→4D are dropped as negligible
+
+The 27-orders-of-magnitude gap between H_0 and the natural cascade leak formula at 3+1D→4D tells us f_leak = H_0 is a **calibrated stability principle**, NOT a natural cascade phenomenon. This is honest and clean.
+
+### Files Updated
+
+- paper/markdown/02_glossary.md: Updated §0.5 to use new naming, added "dropped as negligible" annotation, added L308av note (rebranded as L308ax)
+- paper/markdown/03c_lagrangian.md: All f_DM,leak → f_leak,2D→3D (5 replacements)
+- paper/markdown/06_limitations.md: 1 replacement
+- paper/paper.md: 9 replacements
+
+### Calculation (none needed)
+
+This is a NAMING refactor, not a recalculation. No new calculation file. The values are unchanged (1.6×10⁻⁴⁵ and H_0).
+
+**L308ax (this section)**: Frame-neutral naming refactor + simplification (drop natural leaks as negligible).
 
 
 

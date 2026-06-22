@@ -1006,15 +1006,21 @@ This is consistent with observations: G has been constant to within ~10% over th
 
 | Symbol | Direction | Value | What it produces |
 |--------|-----------|-------|------------------|
-| **$f_{\rm DM,leak}$** | 2D → 3+1D while alive | 1.6×10⁻⁴⁵ | Negligible (0.16 J per SN) |
+| **$f_{\rm leak,2D\to3D}$** | 2D → 3+1D while alive | 1.6×10⁻⁴⁵ | Negligible (0.16 J per SN) |
 | **$f_{\rm DM,death}$** | 2D → 3+1D at death | **1** (100%) | **DM (27%) cumulative** |
-| **$f_{\rm DE}$** | 3+1D → 4D | 1.2×10⁻⁸⁵ | **DE (68%)** |
+| **$f_{\rm DE}$** | 3+1D → 4D (alive) | 1.2×10⁻⁸⁵ | **DE (68%)** |
+| **$f_{\rm leak,3D\to4D}$** | 3+1D → 4D continuous | **$H_0$ = 2.18×10⁻¹⁸ /s** | **DM drain** (prevents over-accumulation) |
 
-**Three flows, three names, no confusion**:
+**Four flows, four names, frame-neutral**:
 
-1. **$f_{\rm DM,leak}$** = continuous 2D→3+1D leakage while 2D universe lives (tiny, can be ignored)
+1. **$f_{\rm leak,2D\to3D}$** = continuous 2D→3+1D leakage while 2D universe lives (tiny, **dropped as negligible** per L308av)
 2. **$f_{\rm DM,death}$** = pulsed 2D→3+1D at $\tau_{\rm 2D}$ = 100% (gives all DM)
-3. **$f_{\rm DE}$** = continuous 3+1D→4D leakage = 10⁻⁸⁵ (gives DE)
+3. **$f_{\rm DE}$** = continuous 3+1D→4D leakage = 10⁻⁸⁵ (gives DE, the 4D→3+1D anti-gravity projection)
+4. **$f_{\rm leak,3D\to4D}$** = continuous 3+1D→4D drain = $H_0$ (calibrated, prevents DM over-accumulation)
+
+**Frame-neutral naming (v3.5.9+ A2)**: The previous "f_DM,leak" name was frame-dependent (named from 3+1D observer's view). Renamed to $f_{\rm leak,2D\to3D}$ to be transition-explicit and frame-neutral. Same applies to $f_{\rm leak,3D\to4D}$ (formerly just "f_leak") for symmetry.
+
+**KEY SIMPLIFICATION (L308av)**: Both "natural" cascade leakages at transitions 2D→3D and 3D→4D are NEGLIGIBLE compared to the dominant DM production (death pulse) and DE production (continuous anti-gravity). Only $f_{\rm leak,3D\to4D}$ = $H_0$ is significant — and it's a **calibrated stability principle**, not a "natural" cascade formula.
 
 **Your key insight**: 10⁻⁸⁵ is for 3+1D→4D DE, NOT for 2D→3+1D DM.
 DM comes from 100% pulsed return at 2D universe death.
@@ -1025,6 +1031,6 @@ DM comes from 100% pulsed return at 2D universe death.
 
 These are different flows and now have distinct names.
 
-**UPDATED (v3.5.7+ naming revolution)**: $f_{\rm back}$ has been replaced with $f_{\rm DE}$/ $f_{\rm DM,leak}$/ $f_{\rm DM,death}$ throughout the paper. Legacy references remain in the v3.0.21-v3.2 era formula entries and the calculation scripts.
+**UPDATED (v3.5.7+ naming revolution)**: $f_{\rm back}$ has been replaced with $f_{\rm DE}$/ $f_{\rm leak,2D\to3D}$/ $f_{\rm DM,death}$ throughout the paper. Legacy references remain in the v3.0.21-v3.2 era formula entries and the calculation scripts.
 
 See `paper/legacy/v357_f_back_clarification.md` for full discussion.

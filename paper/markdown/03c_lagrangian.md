@@ -219,7 +219,7 @@ energy (for forward $\gamma$) AND the grandparent event energy
 
 At level 3 (3D → 2D, **v3.0.21 HISTORICAL naming**):
 - Forward: $\gamma_{\rm 3}$ = ($E_{\rm 3D}$/$E_{\rm Pl,3}$)$^{\alpha}$ → $\tau_{\rm 2D}$ = $\gamma_{\rm 3}$ × $t_{\rm Pl,3}$
-- Backward: f_back_3 (v3.0.21 naming: $f_{\rm DM,leak}$ for 2D→3D continuous leakage) = ($E_{\rm 4D}$/ $E_{\rm 3D}$)$^{1/(2\alpha)}$ × prefactors → $\approx 10^{-85}$ ✓
+- Backward: f_back_3 (v3.0.21 naming: $f_{\rm leak,2D\to3D}$ for 2D→3D continuous leakage) = ($E_{\rm 4D}$/ $E_{\rm 3D}$)$^{1/(2\alpha)}$ × prefactors → $\approx 10^{-85}$ ✓
 
 At level 4 (4D → 3+1D, **v3.0.21 HISTORICAL naming**):
 - Forward: $\gamma_{\rm 4}$ = ($E_{\rm 4D}$/$E_{\rm Pl,4}$)$^{\alpha}$ → $\tau_{\rm 3D}$ = $\gamma_{\rm 4}$ × $t_{\rm Pl,4}$
@@ -318,7 +318,7 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ($\gamma$ ~ 10⁵⁶), which 
 - DE matches observation (within 14%)
 
 - 2D universe lifetime: 33s (very short)
-- $f_{\rm DM,leak}$ = $t_{\rm Pl}$/$\tau_{\rm 2D}$ = 1.6×10⁻⁴⁵ (NOT 10⁻⁸⁵)
+- $f_{\rm leak,2D\to3D}$ = $t_{\rm Pl}$/$\tau_{\rm 2D}$ = 1.6×10⁻⁴⁵ (NOT 10⁻⁸⁵)
 - During 2D's lifetime, leakage is 0.16 J per SN (negligible)
 - 2D's contribution to 3+1D happens at DEATH (100% return), not while-alive
 
@@ -1255,14 +1255,14 @@ $f_{\rm back}$ is NOT universal. It depends on event energy:
 - **While alive** (gravitational coupling during lifetime): small, e.g., 10⁻⁸⁵ for SN
 - **At death** (energy return to parent dimension): 1, i.e., full return of $M_{\rm 2D}$
 
-**$f_{\rm DM,leak}$ + $f_{\rm DM,death}$ = 1** (energy conservation: total projection = complete).
+**$f_{\rm leak,2D\to3D}$ + $f_{\rm DM,death}$ = 1** (energy conservation: total projection = complete).
 
-For SN: $f_{\rm DM,leak}$ = 10⁻⁸⁵ (DM via gravity during 33s lifetime), $f_{\rm DM,death}$ ≈ 1 (returns to 3+1D when 2D dies). For 4D event: $f_{\rm DM,death}$ = 1 (3+1D IS the 4D event's full projection). These are DIFFERENT physical quantities that were conflated under the same name.
+For SN: $f_{\rm leak,2D\to3D}$ = 10⁻⁸⁵ (DM via gravity during 33s lifetime), $f_{\rm DM,death}$ ≈ 1 (returns to 3+1D when 2D dies). For 4D event: $f_{\rm DM,death}$ = 1 (3+1D IS the 4D event's full projection). These are DIFFERENT physical quantities that were conflated under the same name.
 
 Cone depths in $\alpha$ units determine $f_{\rm DE}$ (was f_back in legacy naming): deeper cone → larger $f_{\rm DE}$.
 The closed loop formula gives $f_{\rm DE,closed}$ (was f_back) as a function of event energy.
 
-**v3.1.1 note**: For 4D event, $f_{\rm back}$ = 1 means the 3+1D universe IS the 4D event's projection. This is the $f_{\rm DM,death}$ meaning, NOT the $f_{\rm DM,leak}$ meaning. The closed loop formula (§3.60.1) gives $f_{\rm DE}$ ~ $4.6 \times 10^{-68}$ in the alive-gravitational meaning — DIFFERENT from the death-projection meaning of 1.
+**v3.1.1 note**: For 4D event, $f_{\rm back}$ = 1 means the 3+1D universe IS the 4D event's projection. This is the $f_{\rm DM,death}$ meaning, NOT the $f_{\rm leak,2D\to3D}$ meaning. The closed loop formula (§3.60.1) gives $f_{\rm DE}$ ~ $4.6 \times 10^{-68}$ in the alive-gravitational meaning — DIFFERENT from the death-projection meaning of 1.
 
 **4. A LAGRANGIAN FOR SIDC (L116)**
 
