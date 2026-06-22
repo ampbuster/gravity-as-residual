@@ -9,7 +9,7 @@
 
 **v3.5.9+ HIGHLIGHTS** (CURRENT, June 21, 2026, APPROACH A1):
 
-**Paper:** 395 pages, 1.52 MB
+**Paper:** 476 pages, 1.52 MB
 **Limitations:** 162 honest (was 158 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
 **v3.5.9+ BREAKTHROUGHS** (this release):
@@ -59,7 +59,7 @@
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ($g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap (Ω_DM at z=1100) is now PARTIALLY CLOSED via f_leak = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. τ_DM unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **163 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) PARTIAL L144 closure + **L308ae N_sub formula residual + L308af AGN rate unit interpretation gap + L308ag N=12 reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on N=12 and α (no first-principles derivation found) + L308ai N=12 from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from N=12 (connection is heuristic, not rigorous) + L308ap re-examination: N=12 has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, $\mu$ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, $\alpha$ first-principles). L41, L42 closed in v3.0.22 ($\mu$ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ($4\pi$ specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ($g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap (Ω_DM at z=1100) is now PARTIALLY CLOSED via f_leak = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. τ_DM unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **156 honest limitations (v3.5.9+ A2, +40 L308a-ay)** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) PARTIAL L144 closure + **L308ae N_sub formula residual + L308af AGN rate unit interpretation gap + L308ag N=12 reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on N=12 and α (no first-principles derivation found) + L308ai N=12 from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from N=12 (connection is heuristic, not rigorous) + L308ap re-examination: N=12 has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, $\mu$ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, $\alpha$ first-principles). L41, L42 closed in v3.0.22 ($\mu$ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ($4\pi$ specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
 
 ---
 
@@ -136,7 +136,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon$ $\sim 10^{-38}$, $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **163 honest limitations** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) PARTIAL L144 closure + **L308ae N_sub formula residual + L308af AGN rate unit interpretation gap + L308ag N=12 reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on N=12 and α (no first-principles derivation found) + L308ai N=12 from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from N=12 (connection is heuristic, not rigorous) + L308ap re-examination: N=12 has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile $\nu$** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon$ $\sim 10^{-38}$, $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **156 honest limitations (v3.5.9+ A2, +40 L308a-ay)** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=H_0 + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) PARTIAL L144 closure + **L308ae N_sub formula residual + L308af AGN rate unit interpretation gap + L308ag N=12 reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on N=12 and α (no first-principles derivation found) + L308ai N=12 from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from N=12 (connection is heuristic, not rigorous) + L308ap re-examination: N=12 has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile $\nu$** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
@@ -225,7 +225,7 @@ The pattern is the same at every level. The specific values ($\alpha$, c, N, $f_
 
 ## SIDC's honest stance
 
-- **163 honest limitations** documented in §7.0 (v3.5.9+ master table; was 67 in v3.1, was 116 in v3.5.7)
+- **156 honest limitations (v3.5.9+ A2, +40 L308a-ay)** documented in §7.0 (v3.5.9+ master table; was 67 in v3.1, was 116 in v3.5.7)
 - 8 closed, 25 open, 21 partial, 1 resolved, 6 negative, 7 speculative
 - **0 free parameters** at the level of the composite model (N = 12, $\alpha$ = 1.289, c = 1/2, $f_{\rm DE}$ = $8.6 \times 10^{-86}$ are all derived)
 - 1 free parameter at the data-fitting level ($z_{\rm half}$ = 3)
@@ -256,11 +256,11 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 | $\mu$ (bulk AdS curvature) | ? | Sets the bulk-brane coupling $\epsilon = e^{-kL}$ (RS-II mechanism) | Free (open) |
 | $m_{3+1D}$ (induced Planck scale) | $\sim 10^{19}$ GeV | Effective 3+1D Planck mass from bulk geometry | Brane-world framework |
 
-**Note (HISTORICAL v2.7-v3.0 context):** In v2.7, SIDC had **2 free parameters** ($\mu$, $m_{3+1D}$) parameterizing the bulk geometry (RS-II). They followed from the cascade structure plus the bulk. **CURRENT (v3.5.9+ A2 (α dim-specific)+L308z):** The framework has **15 parameters** total: 1 MEASURED ($M_{\rm Pl,3D}$), 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 3 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$), 1 FREE ($N_{\rm sub}$, event-specific).
+**Note (HISTORICAL v2.7-v3.0 context):** In v2.7, SIDC had **2 free parameters** ($\mu$, $m_{3+1D}$) parameterizing the bulk geometry (RS-II). They followed from the cascade structure plus the bulk. **CURRENT (v3.5.9+ A2):** The framework has **15 parameters** total: 1 MEASURED ($M_{\rm Pl,3D}$), 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$, event-specific).
 
 ### Calibrated Postulates (0) — All Derived
 
-**SIDC has 0 calibrated postulates in the v3.0+ state (HISTORICAL, v3.5.9+ A2 (α dim-specific) adds f_leak = H_0 as 5th calibrated).** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
+**SIDC has 0 calibrated postulates in the v3.0+ state (HISTORICAL, v3.5.9+ A2 adds f_leak = H_0 as 5th calibrated).** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
 
 | Previously "calibrated" | Current status | Derivation |
 |------------------------|----------------|------------|
@@ -298,7 +298,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 | $\tau_{4D}$ (4D event duration) | $\sim 10^{28}$ yr | From Padmanabhan equipartition (§3.8.2) |
 ### What this Glossary is NOT
 
-This is not a derivation. **(HISTORICAL v2.7-v3.0):** SIDC had 2 free parameters ($\mu$, $m_{3+1D}$) in the bulk geometry. **(CURRENT v3.5.9+ A2 (α dim-specific)+L308z):** $\mu$ is now FIRST-PRINCIPLES (L308r, $\mu = M_{\rm Pl,2D}^2$); see full hierarchy above.
+This is not a derivation. **(HISTORICAL v2.7-v3.0):** SIDC had 2 free parameters ($\mu$, $m_{3+1D}$) in the bulk geometry. **(CURRENT v3.5.9+ A2):** $\mu$ is now FIRST-PRINCIPLES (L308r, $\mu = M_{\rm Pl,2D}^2$); see full hierarchy above.
 
 All other values in SIDC are *derived* from the cascade structure:
 - $\alpha = 1.289$ from N=12 SYK saddle-point argument
@@ -310,7 +310,7 @@ All other values in SIDC are *derived* from the cascade structure:
 The 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, $\Omega$'s, $g_+$) are taken from data, not fit.
 
 **HISTORICAL**: SIDC had 0 calibrated postulates in the v3.0+ state.
-**CURRENT (v3.5.9+ A2 (α dim-specific)+L308z update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 3 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$), 1 FREE ($N_{\rm sub}$).
+**CURRENT (v3.5.9+ A2 update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$).
 ### 2.1 The setup
 
 We assume, following the well-developed brane-world framework [ADD98, RS99], that our observable universe is a 3+1 dimensional brane embedded in a higher-dimensional bulk. Gravity propagates in the bulk; the other Standard Model forces are confined to the brane.
@@ -7552,7 +7552,7 @@ This is a thought experiment, not a theory. We identify **144 honest limitations
 - A_new limitation added: "$\alpha$ = 1.29 CGHS derivation" (L37, OPEN, §3.24)
 - Net effect: 37 → 38 limitations
 
-**Net status of SIDC's 144 limitations (v3.5.9+ A2 (α dim-specific)+L308z+L308aa+L308ab+L308ac+L308ad+L308ae, CURRENT):**
+**Net status of SIDC's 144 limitations (v3.5.9+ A2+L308aa+L308ab+L308ac+L308ad+L308ae, CURRENT):**
 - 79 OPEN (need theoretical or observational work to close)
 - 22 PARTIAL (some progress made, more work needed)
 - 8 CLOSED (resolved by construction or by v3.x updates, including L41 $\mu$, L42 m₃₊₁D, L117 c-value UV/IR RG)
@@ -8201,7 +8201,7 @@ L308h. **First-principles search: 0/9 → 4/15 parameters derived (UPDATED v3.5.
 - $\mu$ = $M_{\rm Pl,2D}^2$ (L308r, follows from $M_{\rm Pl,2D}$)
 - N = 12 (L308u, 6D anomaly cancellation, Appelquist 2001 PRL 87, 031801)
 
-**AFTER (v3.5.9+ A2 (α dim-specific)+L308z)**: 15 parameters total: 1 MEASURED ($M_{\rm Pl,3D}$), 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub $\times$ $E_{\rm sub}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 3 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$), 1 FREE ($N_{\rm sub}$). Status: SIGNIFICANT PROGRESS (4/15 first-principles derived, was 3/9 in v3.5.8). Source: `calculations/v35_first_principles_search.py`, `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_6d_anomaly_n12.py`.
+**AFTER (v3.5.9+ A2)**: 15 parameters total: 1 MEASURED ($M_{\rm Pl,3D}$), 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub $\times$ $E_{\rm sub}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$). Status: SIGNIFICANT PROGRESS (3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived, was 3/9 in v3.5.8). Source: `calculations/v35_first_principles_search.py`, `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_6d_anomaly_n12.py`.
 
 L308i. **Geometric factor asymmetry $2\pi$ vs $4\pi$ is BOUNDARY-SPHERE STRUCTURED** (v3.5.7+, USER-DISCOVERED). The cascade has different geometric factors at different transitions, matching the boundary sphere dimensions:
 - 2D → 3D: $2\pi$ = S¹ (circle circumference) — boundary of 2D world is 1D circle
@@ -8363,7 +8363,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 | 9 | $N_{\rm sub}$ | $4 \times 10^2$ | **FREE** (L144 OPEN) |
 | -- | $\mu$ = $M_{\rm Pl,2D}^2$ | $9 \times 10^6$ GeV² | **STRUCTURAL** (5 paths, L308a-e) |
 
-**Verdict (v3.5.9+ A2 (α dim-specific)+L308z REVISED)**: **4/15 first-principles derived** (was 1/9, then 3/9, now 4/15 with N=12 added via L308u 6D anomaly). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r), N=12 (L308u). Total 15 parameters: 1 MEASURED, 4 FIRST-PRINCIPLES, 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub × $E_{\rm sub}$), 4 CALIBRATED, 3 STRUCTURAL, 1 FREE.
+**Verdict (v3.5.9+ A2 REVISED)**: **3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived** (was 1/9, then 3/9, now 4/15 with N=12 added via L308u 6D anomaly). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r), N=12 (L308u). Total 15 parameters: 1 MEASURED, 4 FIRST-PRINCIPLES, 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub × $E_{\rm sub}$), 4 CALIBRATED, 4 STRUCTURAL (incl N=12 per L308ag), 1 FREE.
 
 ### 7 Possibilities Tried (2026-06-20)
 
@@ -8773,13 +8773,13 @@ These follow from Tier 1 + Tier 2 via framework consistency ($\alpha$-GM, $M^{\a
 
 ### Interpretation
 
-**YES**, the framework's 15 parameters (v3.5.9+ A2 (α dim-specific)+L308z) DO CONVERGE — but with TIERED structure:
+**YES**, the framework's 15 parameters (v3.5.9+ A2) DO CONVERGE — but with TIERED structure:
 
 - 4/9 are **observationally pinned** (over-determined by data)
 - 2/9 are **framework choices** (gaps in first-principles)
 - 3/9 are **derived** from above
 
-**CURRENT (v3.5.9+ A2 (α dim-specific)+L308z+L308u, 15 parameters total)**: This L308m tier classification was for v3.5.8 era 9-parameter framework. Current framework has 15 parameters (1+4+2+4+3+1 = 15):
+**CURRENT (v3.5.9+ A2+L308u, 15 parameters total)**: This L308m tier classification was for v3.5.8 era 9-parameter framework. Current framework has 15 parameters (1+4+2+4+3+1 = 15):
 - 1 MEASURED ($M_{\rm Pl,3D}$)
 - 4 FIRST-PRINCIPPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 — was 1 in L308m, +$\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 via L308n/r/u)
 - 2 DERIVED ($M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via $N_{\rm sub} \times E_{\rm sub}$)
@@ -8801,7 +8801,7 @@ The first-principles WORK would focus on Tier 2:
 
 These are the actual GAPS in the framework. Everything else is constrained.
 
-Status: L308m, L308n (NEW v3.5.8, REVISED v3.5.9+ A2 (α dim-specific)+L308z). 5/15 parameters observationally pinned + 4/15 first-principles (α, $M_{\rm Pl,2D}$, μ, N=12). Tier 2 (N_sub) is now FREE (event-specific, L308z).
+Status: L308m, L308n (NEW v3.5.8, REVISED v3.5.9+ A2). 5/15 parameters observationally pinned + 3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) (α, $M_{\rm Pl,2D}$, μ, N=12). Tier 2 (N_sub) is now FREE (event-specific, L308z).
 
 Source: `calculations/v35_monte_carlo_parameter_search.py`, `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
@@ -9146,7 +9146,7 @@ The "12" appears as:
 
 **BEFORE** (v3.5.7+): 1/9 parameters first-principles ($\alpha$ only, via L308n) [REVISED v3.5.9+: 4/15, including N=12 via L308u]
 
-**AFTER** (v3.5.8+, REVISED v3.5.9+): **4/15 parameters first-principles derived** (was 3/9):
+**AFTER** (v3.5.8+, REVISED v3.5.9+): **3/15 parameters first-principles (N=12 STRUCTURAL per L308ag) derived** (was 3/9):
 - $\alpha$ = 1 + 1/$\sqrt{12}$ (L308n)
 - $M_{\rm Pl,2D}$ = N $\times$ $v_{\rm Higgs}$ (this section, via L308f EW coincidence)
 - $\mu$ = $M_{\rm Pl,2D}^2$ (this section, follows from $M_{\rm Pl,2D}$)
@@ -9400,7 +9400,7 @@ This is the unified deep origin of the "12" cascade fundamental unit.
 
 **BEFORE** (v3.5.8+): 3/9 parameters first-principles derived (α, M_Pl,2D, μ via L308r) [REVISED v3.5.9+: 4/15 with N=12 via L308u]
 
-**AFTER** (v3.5.9+): **4/15 parameters first-principles derived** (was 4/9 in L308h, corrected count):
+**AFTER** (v3.5.9+): **3/15 parameters first-principles (N=12 STRUCTURAL per L308ag) derived** (was 4/9 in L308h, corrected count):
 - α = 1 + 1/√12 (L308n, Schwarzian SYK N=12)
 - M_Pl,2D = N × v_H = 12 × 246.22 GeV (L308r, EW coincidence)
 - $\mu = M_{\rm Pl,2D}^2$ (L308r, follows from $M_{\rm Pl,2D}$)
@@ -9421,9 +9421,9 @@ Wait, that's 7. Let me recount:
 - 1 MEASURED: M_Pl,3D
 - 4 CALIBRATED: ε, τ_4D, AGN rate, E_4D
 
-Total = 4 + 1 + 1 + 4 = 10 — but framework has 15 parameters (v3.5.9+ A2 (α dim-specific)+L308z). Let me re-check.
+Total = 4 + 1 + 1 + 4 = 10 — but framework has 15 parameters (v3.5.9+ A2). Let me re-check.
 
-**NOTE (v3.5.9+ A2 (α dim-specific))**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w). [REVISED post-L308z: 15 parameters.]
+**NOTE (v3.5.9+ A2)**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w). [REVISED post-L308z: 15 parameters.]
 
 Actually the framework has 9 input parameters (v3.5.9 pre-A1):
 1. M_Pl,3D (MEASURED)
@@ -9792,7 +9792,7 @@ If we add this continuous leak to the framework, it would further refine DM dyna
 
 This is a sharp question. Let me audit honestly.
 
-### The Current 15 Parameters (v3.5.9+ A2 (α dim-specific)+L308z+L308ab)
+### The Current 15 Parameters (v3.5.9+ A2+L308ab)
 
 | # | Parameter | Value | Current Status |
 |---|---|---|---|
@@ -10088,7 +10088,7 @@ If taken literally as events per cubic meter per second with M_2D ~ 10 M_sun (SN
 
 ### The User's Sharp Question
 
-N=12 was claimed to be first-principles in v3.5.9+ A2 (α dim-specific) (L308u, Z_12 + 6D anomaly). But is it really?
+N=12 was claimed to be first-principles in v3.5.9+ A2 (L308u, Z_12 + 6D anomaly). But is it really?
 
 ### The 5 "Derivations" Re-Examined
 
@@ -10161,7 +10161,7 @@ But NONE of these are rigorous first-principles derivations. The "5 independent 
 **L308ag (this section)**: N=12 reclassified FIRST-PRINCIPLES → PARTIAL.
 
 **Parameter count update**:
-- Was: 1 MEASURED, 4 FIRST-PRINCIPPLES, 2 DERIVED, 4 CALIBRATED, 3 STRUCTURAL, 1 FREE
+- Was: 1 MEASURED, 4 FIRST-PRINCIPPLES, 2 DERIVED, 4 CALIBRATED, 4 STRUCTURAL (incl N=12 per L308ag), 1 FREE
 - Now: 1 MEASURED, **3 FIRST-PRINCIPPLES**, 2 DERIVED, 4 CALIBRATED, **4 STRUCTURAL** (added N=12), 1 FREE
 - Total still 15
 
@@ -15079,9 +15079,9 @@ If multiple tests simultaneously validate SIDC, that's strong evidence. If multi
 
 *How this paper came to be:* SIDC emerged from a series of plain-language intuitions in conversation between a non-physicist (the author) and an AI assistant (Mavis / MiniMax-M3). The original intuitions — dark matter as "like a neutrino," as a wind on paper, as a cancelling-through-dimensions effect — are preserved verbatim in `supporting/how-did-we-get-here.md`. The model was developed by progressively making those intuitions mathematically precise and testing them against observational data. The paper at v2.3.1 is the artifact; the conversation is the origin story.
 
-# CONSISTENCY AUDIT REPORT (v3.5.7 — HISTORICAL; superseded by v3.5.9+ A2 (α dim-specific)+L308z audits)
+# CONSISTENCY AUDIT REPORT (v3.5.7 — HISTORICAL; superseded by v3.5.9+ A2 audits)
 
-> **STATUS**: HISTORICAL AUDIT REPORT. This v3.5.7 audit document is preserved for reference. Current (v3.5.9+ A2 (α dim-specific)) parameter status is in `paper/legacy/v359_README_legacy_sections.md` and the main paper's §0 Parameter Glossary.
+> **STATUS**: HISTORICAL AUDIT REPORT. This v3.5.7 audit document is preserved for reference. Current (v3.5.9+ A2) parameter status is in `paper/legacy/v359_README_legacy_sections.md` and the main paper's §0 Parameter Glossary.
 
 ## Executive Summary
 

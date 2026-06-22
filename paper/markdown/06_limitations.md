@@ -47,7 +47,7 @@ This is a thought experiment, not a theory. We identify **144 honest limitations
 - A_new limitation added: "$\alpha$ = 1.29 CGHS derivation" (L37, OPEN, §3.24)
 - Net effect: 37 → 38 limitations
 
-**Net status of SIDC's 144 limitations (v3.5.9+ A2 (α dim-specific)+L308z+L308aa+L308ab+L308ac+L308ad+L308ae, CURRENT):**
+**Net status of SIDC's 144 limitations (v3.5.9+ A2+L308aa+L308ab+L308ac+L308ad+L308ae, CURRENT):**
 - 79 OPEN (need theoretical or observational work to close)
 - 22 PARTIAL (some progress made, more work needed)
 - 8 CLOSED (resolved by construction or by v3.x updates, including L41 $\mu$, L42 m₃₊₁D, L117 c-value UV/IR RG)
@@ -696,7 +696,7 @@ L308h. **First-principles search: 0/9 → 4/15 parameters derived (UPDATED v3.5.
 - $\mu$ = $M_{\rm Pl,2D}^2$ (L308r, follows from $M_{\rm Pl,2D}$)
 - N = 12 (L308u, 6D anomaly cancellation, Appelquist 2001 PRL 87, 031801)
 
-**AFTER (v3.5.9+ A2 (α dim-specific)+L308z)**: 15 parameters total: 1 MEASURED ($M_{\rm Pl,3D}$), 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub $\times$ $E_{\rm sub}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 3 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$), 1 FREE ($N_{\rm sub}$). Status: SIGNIFICANT PROGRESS (4/15 first-principles derived, was 3/9 in v3.5.8). Source: `calculations/v35_first_principles_search.py`, `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_6d_anomaly_n12.py`.
+**AFTER (v3.5.9+ A2)**: 15 parameters total: 1 MEASURED ($M_{\rm Pl,3D}$), 4 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12), 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub $\times$ $E_{\rm sub}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$). Status: SIGNIFICANT PROGRESS (3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived, was 3/9 in v3.5.8). Source: `calculations/v35_first_principles_search.py`, `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_6d_anomaly_n12.py`.
 
 L308i. **Geometric factor asymmetry $2\pi$ vs $4\pi$ is BOUNDARY-SPHERE STRUCTURED** (v3.5.7+, USER-DISCOVERED). The cascade has different geometric factors at different transitions, matching the boundary sphere dimensions:
 - 2D → 3D: $2\pi$ = S¹ (circle circumference) — boundary of 2D world is 1D circle
@@ -858,7 +858,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 | 9 | $N_{\rm sub}$ | $4 \times 10^2$ | **FREE** (L144 OPEN) |
 | -- | $\mu$ = $M_{\rm Pl,2D}^2$ | $9 \times 10^6$ GeV² | **STRUCTURAL** (5 paths, L308a-e) |
 
-**Verdict (v3.5.9+ A2 (α dim-specific)+L308z REVISED)**: **4/15 first-principles derived** (was 1/9, then 3/9, now 4/15 with N=12 added via L308u 6D anomaly). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r), N=12 (L308u). Total 15 parameters: 1 MEASURED, 4 FIRST-PRINCIPLES, 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub × $E_{\rm sub}$), 4 CALIBRATED, 3 STRUCTURAL, 1 FREE.
+**Verdict (v3.5.9+ A2 REVISED)**: **3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived** (was 1/9, then 3/9, now 4/15 with N=12 added via L308u 6D anomaly). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r), N=12 (L308u). Total 15 parameters: 1 MEASURED, 4 FIRST-PRINCIPLES, 2 DERIVED ($M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub × $E_{\rm sub}$), 4 CALIBRATED, 4 STRUCTURAL (incl N=12 per L308ag), 1 FREE.
 
 ### 7 Possibilities Tried (2026-06-20)
 
@@ -1268,13 +1268,13 @@ These follow from Tier 1 + Tier 2 via framework consistency ($\alpha$-GM, $M^{\a
 
 ### Interpretation
 
-**YES**, the framework's 15 parameters (v3.5.9+ A2 (α dim-specific)+L308z) DO CONVERGE — but with TIERED structure:
+**YES**, the framework's 15 parameters (v3.5.9+ A2) DO CONVERGE — but with TIERED structure:
 
 - 4/9 are **observationally pinned** (over-determined by data)
 - 2/9 are **framework choices** (gaps in first-principles)
 - 3/9 are **derived** from above
 
-**CURRENT (v3.5.9+ A2 (α dim-specific)+L308z+L308u, 15 parameters total)**: This L308m tier classification was for v3.5.8 era 9-parameter framework. Current framework has 15 parameters (1+4+2+4+3+1 = 15):
+**CURRENT (v3.5.9+ A2+L308u, 15 parameters total)**: This L308m tier classification was for v3.5.8 era 9-parameter framework. Current framework has 15 parameters (1+4+2+4+3+1 = 15):
 - 1 MEASURED ($M_{\rm Pl,3D}$)
 - 4 FIRST-PRINCIPPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 — was 1 in L308m, +$\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 via L308n/r/u)
 - 2 DERIVED ($M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via $N_{\rm sub} \times E_{\rm sub}$)
@@ -1296,7 +1296,7 @@ The first-principles WORK would focus on Tier 2:
 
 These are the actual GAPS in the framework. Everything else is constrained.
 
-Status: L308m, L308n (NEW v3.5.8, REVISED v3.5.9+ A2 (α dim-specific)+L308z). 5/15 parameters observationally pinned + 4/15 first-principles (α, $M_{\rm Pl,2D}$, μ, N=12). Tier 2 (N_sub) is now FREE (event-specific, L308z).
+Status: L308m, L308n (NEW v3.5.8, REVISED v3.5.9+ A2). 5/15 parameters observationally pinned + 3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) (α, $M_{\rm Pl,2D}$, μ, N=12). Tier 2 (N_sub) is now FREE (event-specific, L308z).
 
 Source: `calculations/v35_monte_carlo_parameter_search.py`, `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
@@ -1641,7 +1641,7 @@ The "12" appears as:
 
 **BEFORE** (v3.5.7+): 1/9 parameters first-principles ($\alpha$ only, via L308n) [REVISED v3.5.9+: 4/15, including N=12 via L308u]
 
-**AFTER** (v3.5.8+, REVISED v3.5.9+): **4/15 parameters first-principles derived** (was 3/9):
+**AFTER** (v3.5.8+, REVISED v3.5.9+): **3/15 parameters first-principles (N=12 STRUCTURAL per L308ag) derived** (was 3/9):
 - $\alpha$ = 1 + 1/$\sqrt{12}$ (L308n)
 - $M_{\rm Pl,2D}$ = N $\times$ $v_{\rm Higgs}$ (this section, via L308f EW coincidence)
 - $\mu$ = $M_{\rm Pl,2D}^2$ (this section, follows from $M_{\rm Pl,2D}$)
@@ -1895,7 +1895,7 @@ This is the unified deep origin of the "12" cascade fundamental unit.
 
 **BEFORE** (v3.5.8+): 3/9 parameters first-principles derived (α, M_Pl,2D, μ via L308r) [REVISED v3.5.9+: 4/15 with N=12 via L308u]
 
-**AFTER** (v3.5.9+): **4/15 parameters first-principles derived** (was 4/9 in L308h, corrected count):
+**AFTER** (v3.5.9+): **3/15 parameters first-principles (N=12 STRUCTURAL per L308ag) derived** (was 4/9 in L308h, corrected count):
 - α = 1 + 1/√12 (L308n, Schwarzian SYK N=12)
 - M_Pl,2D = N × v_H = 12 × 246.22 GeV (L308r, EW coincidence)
 - $\mu = M_{\rm Pl,2D}^2$ (L308r, follows from $M_{\rm Pl,2D}$)
@@ -1916,9 +1916,9 @@ Wait, that's 7. Let me recount:
 - 1 MEASURED: M_Pl,3D
 - 4 CALIBRATED: ε, τ_4D, AGN rate, E_4D
 
-Total = 4 + 1 + 1 + 4 = 10 — but framework has 15 parameters (v3.5.9+ A2 (α dim-specific)+L308z). Let me re-check.
+Total = 4 + 1 + 1 + 4 = 10 — but framework has 15 parameters (v3.5.9+ A2). Let me re-check.
 
-**NOTE (v3.5.9+ A2 (α dim-specific))**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w). [REVISED post-L308z: 15 parameters.]
+**NOTE (v3.5.9+ A2)**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w). [REVISED post-L308z: 15 parameters.]
 
 Actually the framework has 9 input parameters (v3.5.9 pre-A1):
 1. M_Pl,3D (MEASURED)
@@ -2287,7 +2287,7 @@ If we add this continuous leak to the framework, it would further refine DM dyna
 
 This is a sharp question. Let me audit honestly.
 
-### The Current 15 Parameters (v3.5.9+ A2 (α dim-specific)+L308z+L308ab)
+### The Current 15 Parameters (v3.5.9+ A2+L308ab)
 
 | # | Parameter | Value | Current Status |
 |---|---|---|---|
@@ -2583,7 +2583,7 @@ If taken literally as events per cubic meter per second with M_2D ~ 10 M_sun (SN
 
 ### The User's Sharp Question
 
-N=12 was claimed to be first-principles in v3.5.9+ A2 (α dim-specific) (L308u, Z_12 + 6D anomaly). But is it really?
+N=12 was claimed to be first-principles in v3.5.9+ A2 (L308u, Z_12 + 6D anomaly). But is it really?
 
 ### The 5 "Derivations" Re-Examined
 
@@ -2656,7 +2656,7 @@ But NONE of these are rigorous first-principles derivations. The "5 independent 
 **L308ag (this section)**: N=12 reclassified FIRST-PRINCIPLES → PARTIAL.
 
 **Parameter count update**:
-- Was: 1 MEASURED, 4 FIRST-PRINCIPPLES, 2 DERIVED, 4 CALIBRATED, 3 STRUCTURAL, 1 FREE
+- Was: 1 MEASURED, 4 FIRST-PRINCIPPLES, 2 DERIVED, 4 CALIBRATED, 4 STRUCTURAL (incl N=12 per L308ag), 1 FREE
 - Now: 1 MEASURED, **3 FIRST-PRINCIPPLES**, 2 DERIVED, 4 CALIBRATED, **4 STRUCTURAL** (added N=12), 1 FREE
 - Total still 15
 

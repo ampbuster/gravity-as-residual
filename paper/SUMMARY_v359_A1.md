@@ -1,4 +1,4 @@
-# SIDC v3.5.9+ A2 (α dim-specific): Master Summary
+# SIDC v3.5.9+ A2: Master Summary
 
 **Status**: Active development (v3.5.9+ post-L308ae, 2026-06-21)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
@@ -6,7 +6,7 @@
 **Pages**: 423
 **Limitations**: 144
 
-This document is a clean reference for the SIDC framework as of v3.5.9+ A2 (α dim-specific). For deep details, see the full paper at `paper/paper.pdf`.
+This document is a clean reference for the SIDC framework as of v3.5.9+ A2. For deep details, see the full paper at `paper/paper.pdf`.
 
 ---
 
@@ -28,7 +28,7 @@ This document is a clean reference for the SIDC framework as of v3.5.9+ A2 (α d
 
 ## 2. Key Quantities
 
-### Derived values (v3.5.9+ A2 (α dim-specific) + L308)
+### Derived values (v3.5.9+ A2 + L308)
 
 | Quantity | Value | Status | Derivation |
 |----------|-------|--------|------------|
@@ -91,7 +91,7 @@ where **f_leak = c × H(z)** (post-Friedmann principle):
 
 ---
 
-## 4. Major L308 Series (v3.5.9+ A2 (α dim-specific) + L308z, x, aa-ab-ac-ad-ae)
+## 4. Major L308 Series (v3.5.9+ A2 + L308z, x, aa-ab-ac-ad-ae)
 
 ### L308z: N_sub is FREE (event-specific)
 N_sub = 386 is the number of sibling sub-universes from OUR 4D event. Other 4D events → different N_sub.
@@ -180,7 +180,7 @@ The rate 3×10⁻¹⁶ /m³/s has unclear unit interpretation. Documented as cal
 
 ## 7. Limitations Overview
 
-**144 total limitations** (v3.5.9+ A2 (α dim-specific)):
+**144 total limitations** (v3.5.9+ A2):
 - 79 OPEN
 - 22 PARTIAL
 - 8 CLOSED

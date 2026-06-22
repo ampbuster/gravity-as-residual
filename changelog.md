@@ -16,7 +16,7 @@
 **Cleanup passes**:
 - 2 new legacy files in paper/legacy/ (Hill function, Path B2)
 - LEGACY NOTE flags added to 13 markdown files
-- Top-level docs (README, STATE_OF_THE_MODEL, persistent_memory) updated to v3.5.9+ A2 (α dim-specific)
+- Top-level docs (README, STATE_OF_THE_MODEL, persistent_memory) updated to v3.5.9+ A2
 
 **Parameters** (now 15, REVISED L308z, was miscounted as 14):
 - 1 MEASURED: $M_{\rm Pl,3D}$
