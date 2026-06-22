@@ -9,7 +9,7 @@
 
 **v3.5.9+ A2 HIGHLIGHTS** (CURRENT, June 22, 2026, APPROACH A2):
 
-**Paper:** 517 pages, 1.52 MB
+**Paper:** 519 pages, 1.83 MB
 **Limitations:** 144 honest (master table; +14 L308af-az in v3.5.9+ A2 await master table update: L308af-ay + new L308az) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):
@@ -14466,7 +14466,7 @@ The cascade has 12 real DOF total, conserved across levels:
 
 Halving rule and DOF conservation are equivalent statements. The framework's Lagrangian should reflect 12 real DOF at each level.
 
-## L308bd: Two Valid Interpretations of α — Universal vs Dim-Specific (USER QUESTION, HONEST FRAMING)
+## 7.4.48 (L308bd): Two Valid Interpretations of α — Universal vs Dim-Specific (USER QUESTION, HONEST FRAMING)
 
 **Date**: 2026-06-22
 **Trigger**: User question: "hmm so is the alpha supposed to be universal (12 in each dimension), or the majorana, weyl. which is the right way to interpret this?"

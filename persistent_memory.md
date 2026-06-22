@@ -5,7 +5,7 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.5.9+ A2 (paper) — 519 pages, **144 master table limitations** (158 with L308af-az in v3.5.9+ A2)
+**Current version:** v3.5.9+ A2 (paper) — 519 pages, **169 honest limitations** (144 master + 25 L308af-bk in v3.5.9+ A2)
 **v3.5.9+ A2**: APPROACH A2 (α dim-specific, f_back → f_DE,closed, ε recalibrated, frame-neutral leak naming)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
@@ -93,7 +93,7 @@
 - **L308ag (N=12 downgrade)**: N=12 downgraded from FIRST-PRINCIPPLES → STRUCTURAL (L308u derivation was a 1-1 mapping, not a derivation). First-principles 4/9 → 3/9.
 - **A2 PARAMETER HIERARCHY**: 1 MEASURED + 3 FIRST-PRINCIPPLES (α, M_Pl,2D, μ) + 2 DERIVED (M_Pl,4D, E_4D) + 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12) + 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak=H_0) + 1 FREE (N_sub) = 15 parameters.
 
-**v3.5.9+ A2 L308af-ay + L308az (USER-DRIVEN, June 22)**: 14 new limitations (L308af-ay + new L308az geometric mirror plane insight), all awaiting master table update. **144 master + 14 L308af-az = 158 total limitations**, 519 pages, 1.52 MB.
+**v3.5.9+ A2 L308af-ay + L308az (USER-DRIVEN, June 22)**: 14 new limitations (L308af-ay + new L308az geometric mirror plane insight), all awaiting master table update. **169 honest limitations** (144 master + 25 L308af-bk), 519 pages, 1.83 MB.
 
 **v3.5.9+ A2 L308ax FRAME-NEUTRAL LEAK NAMING (June 22, USER INSIGHT)**:
 - f_DM,leak → f_leak,2D→3D (1.6e-45, frame-neutral, transition-explicit)

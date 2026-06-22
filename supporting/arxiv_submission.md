@@ -31,7 +31,7 @@
 ## Pre-Submission Checklist
 
 ### Required
-- [x] **Paper PDF**: `paper/paper.pdf` (519 pages, 1.52 MB)
+- [x] **Paper PDF**: `paper/paper.pdf` (519 pages, 1.83 MB)
 - [x] **Source TeX/markdown**: `paper/paper.md` (for arXiv source)
 - [x] **AI disclosure**: `ai_disclosure.md` (full disclosure of Mavis's role)
 - [x] **All references verified**: checked against arXiv/ADS in `paper/paper.md`
