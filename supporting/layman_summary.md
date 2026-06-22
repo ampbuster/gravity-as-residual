@@ -1,6 +1,6 @@
 # Layman Summary: Gravity as Residual
 
-**v3.5.9+ A2 — June 22, 2026** (CURRENT: APPROACH A2, α dim-specific, f_back → f_DE,closed. 166 limitations (144 master + 22 L308af-bh). Paper at 509 pages.)
+**v3.5.9+ A2 — June 22, 2026** (CURRENT: APPROACH A2, α dim-specific, f_back → f_DE,closed. 167 limitations (144 master + 23 L308af-bi). Paper at 513 pages.)
 
 **v3.4 — June 2026 — F-THEORY 12D AS 4D BULK (NEW)**
 
@@ -324,3 +324,6 @@ These are all specific, testable predictions — but they require more theoretic
 
 ---
 
+
+
+**L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford C(6) SM algebra, Stoica 2018). No numerical changes.

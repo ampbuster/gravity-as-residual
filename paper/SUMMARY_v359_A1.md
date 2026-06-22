@@ -297,8 +297,8 @@ Pushed to GitHub: 025a6cc, then 6429984 (sweeps 18-20).
 - All v3.5.9+ A2 consistent
 
 **Final state**:
-- 509 pages, 1.52 MB PDF (was 478, +3: LEGACY NOTE additions + L308az)
-- 166 limitations (144 master + 22 L308af-bh)
+- 513 pages, 1.52 MB PDF (was 478, +3: LEGACY NOTE additions + L308az)
+- 167 limitations (144 master + 23 L308af-bi)
 - 15 parameters (1+3+2+4+4+1)
 - 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ), 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12 per L308ag)
 - 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak,3D→4D=H_0 per L308ax)
@@ -307,3 +307,6 @@ Pushed to GitHub: 025a6cc, then 6429984 (sweeps 18-20).
 - E_sub = 1.295e77 J (per-sub-universe)
 - N_sub = 386, M_Pl,4D = 3.93e23 GeV (α-GM)
 - L308az added: 3+1D as dimensional mirror plane (§7.4.44, structural insight)
+
+
+**L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford C(6) SM algebra, Stoica 2018). No numerical changes.

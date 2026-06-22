@@ -130,8 +130,8 @@
 
 **First-principles progress**: 4/15 → **3/15** (N=12 downgraded per L308ag, was over-counted)
 
-**Paper**: 509 pages (was 476 in A2 initial, was 405 in A1, was 478 pre-consistency-sweep), 1.52 MB
-**Limitations**: 144 master table (166 with L308af-bh, was 138 in A1)
+**Paper**: 513 pages (was 476 in A2 initial, was 405 in A1, was 478 pre-consistency-sweep), 1.52 MB
+**Limitations**: 144 master table (167 with L308af-bi, was 138 in A1)
 
 ---
 
@@ -4961,3 +4961,6 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - All values consistent: γ_4D=1.10e111, τ_3D,apparent=1.66e145 yr,
   f_DE,closed=1.79e-90, ε=6.32e-34, M_Pl,4D=3.93e23 GeV, ρ_DE=2.5e-47,
   M_Pl,2D=2.95 TeV, μ=8.73e6 GeV², N_sub=386, E_sub=1.295e77 J
+
+
+**L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford C(6) SM algebra, Stoica 2018). No numerical changes.

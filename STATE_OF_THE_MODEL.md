@@ -17,7 +17,7 @@
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (literal time dilation)
-- **144 master table limitations** (166 with L308af-bh), **509 pages**, paper built successfully
+- **144 master table limitations** (167 with L308af-bi), **513 pages**, paper built successfully
 
 **v3.5.9+ previous breakthroughs** (still relevant):
 - **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, N_sub = 3.86×10²
@@ -29,7 +29,7 @@
 **First-principles progress (v3.5.9+ A2)**: 0/9 → 3/9 (+ α, $M_{\rm Pl,2D}$, μ) — current is 3/15 [N=12 downgraded to STRUCTURAL per L308ag]
 
 **Pages**: 395 (was 405 v3.5.9+ A2 initial build, was 398 v3.5.8, was 393 v3.5.8 SESSION 1+2)
-**Limitations**: **144 master table** (166 with L308af-bh, was 131 v3.5.8, +L308t through +L308az; REVISED)
+**Limitations**: **144 master table** (167 with L308af-bi, was 131 v3.5.8, +L308t through +L308az; REVISED)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: 813+ (as of June 20, 2026)
 **v3.5.7+ recent commits**: ~30 in v3.5 era (math wrapping, adjacent math, lint checks, naming revolution, audit, DE match fix)
@@ -198,7 +198,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✗ 4π geometric factor (was v3.1.2, removed v3.3)
 - ✗ α = 1.258 (falsified, 13/14 events fail)
 
-## Open Limitations (79 OPEN, 22 PARTIAL, 2 RESOLVED, 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE = 124 + 20 L308f-L308ay = 144 in v3.5.9+ A2 master table; +14 L308af-az awaiting master table = 166 total)
+## Open Limitations (79 OPEN, 22 PARTIAL, 2 RESOLVED, 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE = 124 + 20 L308f-L308ay = 144 in v3.5.9+ A2 master table; +14 L308af-az awaiting master table = 167 total)
 
 **Status breakdown** (v3.5.7+):
 - 79 OPEN (need theoretical/observational work)
@@ -226,7 +226,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 ## Files in v3.5.7+
 
 **Paper**:
-- `paper/paper.pdf` (509 pages, 1.52 MB, v3.5.9+ A2)
+- `paper/paper.pdf` (513 pages, 1.52 MB, v3.5.9+ A2)
 - `paper/markdown/00_title.md` through `15_falsifiability_matrix.md`
 - `paper/markdown/03e_first_principles_c1_matrix_model.md` (NEW v3.3)
 - `paper/markdown/03f_dm_is_not_a_particle.md` (NEW v3.3.14)
@@ -342,3 +342,6 @@ Each catch has been acknowledged and addressed. The framework is now more honest
 4. **Document build infrastructure** (math wrapping, spacing, lint checks) — done in §7.8
 5. **Maintain honesty** about calibrated vs derived parameters
 6. **Open work**: L26 (μ from 2D CFT expert), L43 (α derivation), L100 (user-driven corrections), L138 ($M_{\rm Pl,4D}$ mechanism), L144 (N_sub free)
+
+
+**L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford C(6) SM algebra, Stoica 2018). No numerical changes.
