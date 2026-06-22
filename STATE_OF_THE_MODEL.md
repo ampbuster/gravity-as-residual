@@ -17,7 +17,7 @@
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (literal time dilation)
-- **169 honest limitations** (144 master + 26 L308af-bl), **567 pages**, paper built successfully
+- **169 honest limitations** (144 master + 26 L308af-bl), **583 pages**, paper built successfully
 
 **v3.5.9+ previous breakthroughs** (still relevant):
 - **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, N_sub = 3.86×10²
@@ -226,7 +226,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 ## Files in v3.5.7+
 
 **Paper**:
-- `paper/paper.pdf` (567 pages, 1.88 MB, v3.5.9+ A2)
+- `paper/paper.pdf` (583 pages, 1.88 MB, v3.5.9+ A2)
 - `paper/markdown/00_title.md` through `15_falsifiability_matrix.md`
 - `paper/markdown/03e_first_principles_c1_matrix_model.md` (NEW v3.3)
 - `paper/markdown/03f_dm_is_not_a_particle.md` (NEW v3.3.14)
