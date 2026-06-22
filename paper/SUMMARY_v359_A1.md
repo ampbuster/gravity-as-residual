@@ -257,3 +257,50 @@ The cone is ASYMMETRIC:
 - Calculations: `calculations/v36_research/`
 - Visual summary: `paper/visuals/sidc_overview.html` and `.pdf`
 
+
+
+---
+
+## L308ax (2026-06-22): Frame-Neutral Leak Naming + Drop Natural Cascade Leak
+
+**Trigger**: User insight (two-part):
+1. f_DM,leak is frame-dependent (named from 3+1D observer's view)
+2. Use transition-explicit naming: f_leak,2D→3D and f_leak,3D→4D
+
+**Naming updates**:
+- f_DM,leak → f_leak,2D→3D (1.6e-45, negligible)
+- f_leak → f_leak,3D→4D (= H_0, calibrated stability drain)
+
+**KEY SIMPLIFICATION**:
+- Natural cascade leaks at BOTH transitions negligible
+- f_leak,2D→3D (natural) = 1.6e-45 (88 orders below death pulse)
+- f_leak,3D→4D (natural) = ~10^-86 (67 orders below H_0)
+- 27-order gap: f_leak = H_0 is CALIBRATED, not natural
+
+**Clean DM picture**:
+- DM production: 100% pulsed at 2D death (with γ_2D growth)
+- DM drain: f_leak,3D→4D = H_0 (calibrated, prevents over-accumulation)
+- Natural continuous leakage: DROPPED as negligible
+
+**L308ax** added §7.4.42b in 06_limitations.md.
+478 pages (was 476, +2). 5 files changed.
+Pushed to GitHub: 025a6cc, then 6429984 (sweeps 18-20).
+
+---
+
+## Sweeps 18-20 (2026-06-22): Stale FP refs + page count updates
+
+- 6 stale "4/15 first-principles" → "3/15 first-principles" (N=12 STRUCTURAL)
+- README/STATE_OF_THE_MODEL/persistent_memory: 476 → 478 pages
+- All v3.5.9+ A2 consistent
+
+**Final state**:
+- 478 pages, 1.52 MB PDF
+- 144 master table limitations (157 with L308af-ay)
+- 15 parameters (1+3+2+4+4+1)
+- 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ), 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12 per L308ag)
+- 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak=H_0)
+- γ_4D = 1.10e111 (A2, M_Pl,3D parent ref), f_DE,simple = 1.13e-85, f_DE,closed = 1.79e-90
+- kL = 76.4 (A2, was 87.5 A1, ΔkL=-11.1)
+- E_sub = 1.295e77 J (per-sub-universe)
+- N_sub = 386, M_Pl,4D = 3.93e23 GeV (α-GM)
