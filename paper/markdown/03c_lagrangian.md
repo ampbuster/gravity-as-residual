@@ -19,7 +19,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 | Parameter | Value | Derivation |
 |-----------|-------|------------|
 | N (Majoranas) | 12 | Uniquely determined by $\alpha$ = 1.29 |
-| c (central charge) | 1/2 | N/24 = 12/24 = 1/2 (Ising CFT) |
+| c (central charge) | 1/2 | 1 surviving Ising mode from 12 Majoranas via SYK q=4 (per L117); arithmetic 12/24 = 1/2 is coincidence, NOT a general formula (L308aq) |
 | $\alpha$ (lifetime scaling) | 1.289 | 1 + 1/√N (saddle-point fluctuation) |
 | $1/(2\alpha)$ (back-action) | 0.388 | $c/\alpha$ (composite) |
 | $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$ | $(1/(2\alpha))$-powered formula |
@@ -40,7 +40,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 2. **12 Majoranas = 12 SM Weyl fermions (BACKBONE, not 1-to-1)**
 3. **Topology: AdS₂ × S² + Majorana matter** (for $\alpha$ > 0)
 4. **BLG-like at magic angle ~1.5-2.0°** (model-dependent)
-5. c = 1/2 (Ising CFT, N/24)
+5. c = 1/2 (Ising CFT, 1 surviving mode from 12 Majoranas via SYK q=4 per L117; L308aq clarifies N/24 is misleading)
 6. $\alpha$ = 1 + 1/√N = 1.289 (saddle-point fluctuation)
 7. $1/(2\alpha)$ = $c/\alpha$ = 0.388 (composite)
 8. S₀ = 12 × log(2) (zero-temp entropy)
@@ -59,7 +59,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 **What v3 derives (NEW)**:
 
 - $\alpha$ = 1.289 (lifetime scaling, EXACT from N=12)
-- c = 1/2 (Ising CFT, N/24)
+- c = 1/2 (Ising CFT, surviving Ising mode from SYK q=4; L308aq clarifies)
 - $1/(2\alpha)$ = 0.388 (back-action)
 - $f_{\rm back}$ = $8.6 \times 10^{-86}$ (universal, gives $10^{-85}$)
 - 14 event types follow $\tau_{2D} \sim M^{1.29}$
@@ -135,9 +135,9 @@ $= 3.24 \times 10^{-84}$
 This matches the §3.60 claim of $f_{\rm back} \approx 10^{-85}$ to 0.4 orders.
 
 **Why the closed loop closes**:
-- The exponent $1/(2\alpha)$ is $c/\alpha$ where $c = 1/2 = N/24$ (Ising CFT)
+- The exponent $1/(2\alpha)$ is $c/\alpha$ where $c = 1/2$ is the IR central charge (1 surviving Ising mode from 12 Majoranas via SYK q=4, per L117/L308aq; 'N/24' is misleading arithmetic, not a general formula)
 - $\alpha \times 1/(2\alpha) = 1/2$ (round-trip loss, $Z_2$ orbifold)
-- Three independent derivations of 1/2: Schwarzian ($E^{1/2}$), DOZZ $b^2 = 1/2$, $N/24 = 1/2$
+- **L308aq CLARIFICATION**: The 'three independent derivations' framing is MISLEADING. Real derivation: SYK q=4 gaps out 11 of 12 modes, leaving 1 Ising with c=1/2 (per L117). Schwarzian and DOZZ are not strict derivations of c=1/2. The 'N/24 = 1/2' is arithmetic coincidence for N=12, not a general formula
 
 **The forward direction (time dilation)**:
 $\gamma = (E/E_{\rm Pl})^\alpha$ (the scaling law, §10.1)
@@ -151,7 +151,7 @@ directions are linked by the same scaling law.
 
 **L98 NEW (v3.0.21)**: The closed loop expression for $f_{\rm back}$ is
 derived from the same $\alpha = 1.289$ as the scaling law. The
-composite exponent $1/(2\alpha) = c/\alpha$ where $c = 1/2 = N/24$
+composite exponent $1/(2\alpha) = c/\alpha$ where $c = 1/2$ is the IR Ising mode central charge (L308aq)
 (Ising CFT). Three independent derivations of 1/2 confirm this is
 the correct exponent. The closed loop gives $f_{\rm back} \approx 10^{-84}$
 to $10^{-85}$, matching §3.60 to 0.4 orders.

@@ -4686,7 +4686,170 @@ Source: user correction 2026-06-21 "wait, why no time dilation? it should exist 
 - τ_3D,apparent: REINSTATED as 8.95×10¹²⁴ yr
 - f_leak: NEW principle = H_0 (post-Friedmann)
 - §3.67 formula: REPLACED (1.4% match becomes coincidence)
-- τ_DM: 14.5 Gyr (just over universe age)
+- τ_DM: 14.5 Gyr (just over 
+## 7.4.36 (L308aq): "c = N/24" Formula is MISLEADING — Real Physics is c_UV → c_IR via SYK q=4 (v3.5.9+)
+
+**Date**: 2026-06-22
+**Trigger**: User question "what does Ising c=1/2 + N/24 mean"
+**Status**: CLARIFICATION (with downgrade of misleading formula)
+
+### The User's Sharp Question
+
+The framework claims c = 1/2 from N/24 = 12/24 = 1/2. The user is asking what this means.
+
+This is a critical clarification needed.
+
+### What the Framework Says
+
+| Source | Claim |
+|--------|-------|
+| §3.0, §3.60 | c = 1/2 (Ising CFT, N/24) |
+| §3.60.1 | "1/(2α) = c/α where c = 1/2 = N/24" |
+| §3.62.6 (L117) | "12 Majorana are UV DOF; c = 1/2 is IR mode" |
+| §3.67 (L119) | "1/2 is from c = N/24" |
+| 01_executive_summary | "Three independent derivations of 1/2: Schwarzian, DOZZ, N/24" |
+
+### What "c = N/24" Actually Means (Honest Analysis)
+
+The standard formula for N Majorana fermions is:
+**c = N/2** (each Majorana contributes c = 1/2 in 2D CFT)
+
+For N = 12 standard Majoranas: **c = 6** (not 1/2).
+
+The framework's "c = N/24" is **NOT** a standard formula. It's an arithmetic that gives the right ANSWER for N=12, but the FORMULA is wrong.
+
+### Where Does c = 1/2 Actually Come From?
+
+Per L117 (the framework's own analysis):
+- **12 Majoranas in UV with c = 6** (standard formula c = N/2 = 12/2 = 6)
+- **SYK q=4 interaction GAPS OUT 11 of 12 modes**
+- **1 Ising mode survives in IR with c = 1/2**
+- RG flow: c_UV = 7 (1 Liouville + 6 Majorana) → c_IR = 3/2 (1 Liouville + 1/2 Ising)
+- c-theorem satisfied: 7 > 3/2 ✓
+
+So c = 1/2 is the **IR central charge after SYK q=4 gaps out 11 of 12 modes**.
+
+The "N/24 = 1/2" is an arithmetic coincidence, NOT a physical formula. The correct statement is:
+- 12 Majoranas in UV → 1 Ising mode in IR (via SYK q=4)
+- c = 1/2 from the surviving single Ising mode
+- The "N/24" formulation is MISLEADING
+
+### Why "N/24" is Misleading
+
+The formula c = N/24 is NOT a general formula for N Majoranas. It only "works" for N=12.
+
+If we have N=24 Majoranas with c = N/2:
+- c = 12 (UV, standard formula)
+- c = 1/2 (IR after SYK q=4 gaps out 23 modes, leaving 1 Ising)
+- "N/24" = 24/24 = 1 ✓ (works by arithmetic)
+- "N/2" = 12 (UV, standard)
+
+For N=6 Majoranas:
+- c = 3 (UV)
+- c = 1/2 (IR after SYK gaps out 5)
+- "N/24" = 6/24 = 1/4 (DOESN'T match IR)
+- "N/2" = 3 (UV)
+
+For N=12 Majoranas:
+- c = 6 (UV)
+- c = 1/2 (IR)
+- "N/24" = 12/24 = 1/2 (matches IR by arithmetic coincidence)
+
+So "N/24 = 1/2" only works for N=12. It's not a general formula.
+
+### The Real Derivation of c = 1/2
+
+Per L117, c = 1/2 comes from:
+
+1. **Start with 12 Majoranas in 2D SYK model (UV)**
+2. **SYK q=4 interaction has mass gap m_gap ~ 9 TeV**
+3. **11 of 12 modes are gapped (above m_gap)**
+4. **1 Ising mode survives (below m_gap)**
+5. **The surviving mode has c = 1/2**
+6. **IR central charge = 1/2 (just the Ising mode)**
+
+This is a SPECIFIC construction, not a general "c = N/24" formula.
+
+### The Three "Independent Derivations" Re-examined
+
+The framework claims three independent derivations of 1/2:
+
+| "Derivation" | Status |
+|--------------|--------|
+| Schwarzian E^1/2 | The Schwarzian coefficient is N/2 (or some normalization). E^1/2 is dimensional, not c=1/2 |
+| DOZZ b^2 = 1/2 | DOZZ formula with b^2 = 1/2 is one specific normalization choice |
+| N/24 = 1/2 | Arithmetic coincidence for N=12, not a general formula |
+
+**Honest verdict**: None of these three is a strict derivation of c = 1/2.
+
+The actual derivation of c = 1/2 is via SYK q=4 gapping 11 of 12 modes (per L117). This is a SPECIFIC MECHANISM, not one of the three "independent derivations".
+
+### What "c = 1/2" Really Means in SIDC
+
+The c = 1/2 in the framework is the **IR central charge** of the 2D universe:
+- 2D universe is described by ICFT (interacting CFT) with c = 3/2
+- This decomposes as: 1 (Liouville) + 1/2 (matter, Ising)
+- The "matter" part is c = 1/2 from a single Ising mode
+- This single Ising mode is what survives from the 12 Majoranas after SYK q=4
+
+The "N/24" is **arithmetic convenience**, not a physical formula.
+
+### Refined Position
+
+After L308aq:
+
+| Statement | Status |
+|-----------|--------|
+| c = 1/2 in 2D universe (IR) | ✓ TRUE |
+| Derives from 12 Majoranas via SYK q=4 gapping | ✓ TRUE (per L117) |
+| c = N/24 general formula | ✗ FALSE (only works for N=12) |
+| "Three independent derivations" | ✗ MISLEADING (none is strict) |
+| The formula c/α = 1/(2α) for f_back | ✓ TRUE (closed loop math) |
+
+### Implications
+
+The closed loop formula f_back ~ (E_4D/E_SN)^{1/(2α)} uses 1/(2α) where the "1/2" comes from c = 1/2 (IR central charge of 2D universe).
+
+This 1/2 is REAL (c = 1/2 from Ising mode), but the derivation is:
+- 12 Majoranas → SYK q=4 → 1 Ising mode (c = 1/2)
+- NOT "N/24 = 1/2" as a general formula
+
+The "N/24" was a misleading formulation. The physics is:
+- N=12 Majoranas in UV with c = 6
+- SYK q=4 gaps out 11 of 12 modes
+- 1 Ising mode survives in IR with c = 1/2
+- c/α = (1/2)/1.289 = 0.388 (used in closed loop)
+
+### Why This Matters
+
+The framework has been using "c = N/24" as if it were a general formula. This is WRONG. The actual physics is a specific mechanism (SYK q=4 gapping).
+
+The honest position:
+- c = 1/2 is REAL (from Ising mode)
+- The "N/24" is MISLEADING (arithmetic coincidence)
+- The closed loop formula 1/(2α) is CORRECT (c = 1/2 is real)
+
+### Source for This Clarification
+
+User question (2026-06-22): "what does Ising c=1/2 + N/24 mean"
+
+Re-read of:
+- §3.60.1, §3.62.6 (L117), §3.67 (L119)
+- 01_executive_summary.md
+- 03c_lagrangian.md
+- 02_glossary.md
+
+### Status
+
+**L308aq (this section)**: Clarification that "c = N/24" is a misleading formulation. The real physics is c = 1/2 from SYK q=4 gapping 11 of 12 modes.
+
+**Implication**: The closed loop formula uses 1/(2α) where 1/2 = c (IR central charge of Ising mode). This is REAL.
+
+**Refinement**: The "N/24" arithmetic should be replaced with the SYK q=4 mechanism per L117.
+
+
+
+universe age)
 - Universe at 95.1% of DM lifetime
 - DM stable at 27% ✓
 - AGC/KKR predictions work ✓
