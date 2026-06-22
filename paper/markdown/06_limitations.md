@@ -1908,7 +1908,7 @@ The remaining 5:
 - 1 FREE: N_sub (still genuinely free — see below)
 - 1 STRUCTURAL: N = 12 (now derived from anomaly cancellation — promoted from structural)
 
-**Note (post-A1, v3.5.9+)**: With APPROACH A1 (§7.4.20), $f_{\rm leak} = H_0$ is added as 5th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (was 9 pre-A1, was 10 after L308u but pre-A1). [REVISED post-L308z: 15 parameters — E_4D moved from CALIBRATED to DERIVED, E_sub added as STRUCTURAL.]
+**Note (post-A1, v3.5.9+)**: With APPROACH A1 (§7.4.20), $f_{\rm leak} = H_0$ is added as 4th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (was 9 pre-A1, was 10 after L308u but pre-A1). [REVISED post-L308z: 15 parameters — E_4D moved from CALIBRATED to DERIVED, E_sub added as STRUCTURAL.]
 
 Wait, that's 7. Let me recount:
 - 4 DERIVED first-principles: α, M_Pl,2D, μ, N=12
@@ -1918,7 +1918,7 @@ Wait, that's 7. Let me recount:
 
 Total = 4 + 1 + 1 + 4 = 10 — but framework has 15 parameters (v3.5.9+ A2). Let me re-check.
 
-**NOTE (v3.5.9+ A2)**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 5th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w). [REVISED post-L308z: 15 parameters.]
+**NOTE (v3.5.9+ A2)**: This count of 9 parameters was the framework state BEFORE APPROACH A1 (which added $f_{\rm leak} = H_0$ as 4th calibrated). Current framework has **14 parameters** (see §7.4.20 and L308w). [REVISED post-L308z: 15 parameters.]
 
 Actually the framework has 9 input parameters (v3.5.9 pre-A1):
 1. M_Pl,3D (MEASURED)
@@ -1937,7 +1937,7 @@ After L308u (this section):
 - So 4/9 first-principles still (α, M_Pl,2D, μ)
 - Plus 1 STRUCTURAL derived (N = 12) → effectively 5/9
 
-**Note (post-A1, v3.5.9+)**: With APPROACH A1, $f_{\rm leak} = H_0$ is added as 5th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (see §7.4.20 and L308w). The 9-parameter count above was valid BEFORE A1.
+**Note (post-A1, v3.5.9+)**: With APPROACH A1, $f_{\rm leak} = H_0$ is added as 4th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (see §7.4.20 and L308w). The 9-parameter count above was valid BEFORE A1.
 
 ### What Remains Open (Tier 1 status)
 
@@ -4519,7 +4519,7 @@ L308w. **f_leak = H_0 IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** (v3.5.9+, 
 - f_leak: DM dynamics (cosmological principle, observed)
 - The "leak" is DM being "redshifted out" at the cosmic expansion rate
 
-**Cost**: f_leak becomes 5th calibrated parameter (was 4). Net parameter count: 14 (was 13).
+**Cost**: f_leak becomes 4th calibrated parameter (was 4). Net parameter count: 14 (was 13).
 
 **Remaining gaps**: 
 - f_leak = H_0 is a postulate, not derived from first principles
