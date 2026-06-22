@@ -1637,3 +1637,129 @@ It does NOT:
 - Full Lagrangian path integral (L116 was 73% in audit; needs re-audit)
 
 See `calculations/v36_research/L308ba_alpha_dim_specific_pattern.py` for the full verification of the α dim-specific pattern.
+
+---
+
+### 3.69 §3.68 Lagrangian Re-Audit + Halving Rule Deeper Analysis (L308bb, NEW)
+
+**Date**: 2026-06-22
+**Status**: AUDIT (93% complete) + STRUCTURAL INTERPRETATION
+
+#### 3.69.1 Re-Audit (L308bb)
+
+The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 corrections and deserves its own audit.
+
+| Category | §3.67 (L116) | §3.68 (NEW) | Improvement |
+|----------|--------------|-------------|-------------|
+| Link consistency | 12/12 = 100% | 18/18 = 100% | +6 new links |
+| Numerical consistency | 5/6 = 83% | 7/7 = 100% | +17% |
+| Issue resolution | 37% | 80% | +43% |
+| **OVERALL** | **73%** | **93%** | **+20 percentage points** |
+
+**What improved**:
+- **Numerical consistency** (5/6 → 7/7): A2 values (f_DE,closed = 1.79×10⁻⁹⁰, ε = 6.32×10⁻³⁴) give EXACT match to observed ρ_DE. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
+- **Issue resolution** (37% → 80%): L308ar, L308az, L308ax all addressed in §3.68 with explicit Lagrangian terms (S_mirror, S_drain, halving rule).
+- **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, E_sub explicit, halving rule, f×ε invariant, σ_+×σ_-=-1).
+
+**What remains open** (the 7% gap):
+- L43 (Lagrangian → α): full partition function Z_SIDC not yet computed
+- L116 (full Lagrangian path integral): 4D action structure still a sketch
+- 4D action specifics: what are the 4D fields? what's the bulk potential?
+- 5D extrapolation: N_5D = 1.5 (non-integer) suggests no 5D level, but formal proof is structural not derived
+
+#### 3.69.2 Halving Rule Deeper Analysis (L308bb)
+
+L308ba identified α_D = 1 + 1/√(12/2^(D-2)) with N_D = {12, 6, 3}. The N_D values have multiple possible physical interpretations:
+
+**N_2D = 12 (FIRST-PRINCIPLES derived, L308r):**
+- 3 generations × 4 Weyl fermions (SM backbone)
+- The "4" = 4 internal DOF per generation in 2D (2 spin states + 2 chirality-like)
+- This is the only N with first-principles derivation
+
+**N_3+1D = 6 (INFERRED, multiple interpretations):**
+- 3 gen × 2 chiral (L+R Weyl per generation)
+- **1+2+3 = U(1)+SU(2)+SU(3) gauge dim sum (most suggestive)**
+- 2 × 3 color (chiral × color)
+- 3 + 3 (visible + hidden sectors)
+
+The 1+2+3 = 6 connection to SM gauge dimensions is the most suggestive. If structural, this would connect N_3+1D to SM gauge group structure directly. But it's still a pattern, not a derivation.
+
+**N_4D = 3 (INFERRED, multiple interpretations):**
+- 3 generations (most natural)
+- 3 color (SU(3) of QCD)
+- 3 minimal fermion families (bulk theory)
+- 1+1+1 (3 orthogonal bulk modes)
+
+#### 3.69.3 Halving Rule Physical Interpretation (Three Options)
+
+1. **Majorana → Weyl → bulk transition** (most natural)
+   - 2D: 12 Majorana modes (real, 2D)
+   - 3+1D: 6 Weyl modes (chiral, 3+1D, half the count due to chirality)
+   - 4D: 3 modes (bulk, may be Majorana again or just bulk count)
+   - 12/2 = 6 (Majorana → Weyl: each complex Weyl = 2 real DOF)
+   - 6/2 = 3 (Weyl → bulk: loss of pairing structure)
+
+2. **Pairing structure loss**: 12 = 6 pairs, 6 = 3 pairs, 3 = 1.5 pairs (no longer integer)
+   - The pairing structure is lost at 4D, suggesting 4D is the maximum
+
+3. **Bulk dimension count**: 2D has 2 spatial, 3+1D has 3 spatial, 4D has 4 spatial
+   - Halving 12 → 6 → 3 doesn't directly correspond to spatial dimension count
+   - But the FACT that the rule terminates at 4D is structurally significant
+
+#### 3.69.4 Mirror Plane + Halving Rule Combined Structure
+
+The mirror plane sign flip σ_+ × σ_- = -1 (L308az) and the halving rule (L308ba) are related through the algebraic structure:
+
+```
+σ_μν^mirror = i γ_μ γ_ν  (Dirac structure)
+Trace: σ_+ + σ_- = 0
+Product: σ_+ × σ_- = -1  (the sign flip)
+Square: σ_+² = σ_-² = +1  (Z_2 structure)
+```
+
+The Z_2 × Z_2 structure is consistent with:
+- Going UP the cascade: N halves (loss of chirality/pairing)
+- Going DOWN the cascade: N doubles (gain of chirality/pairing)
+- 3+1D is the mirror plane: σ_+ above, σ_- below
+- 4D is the maximum: N_5D = 1.5 breaks the integer structure
+
+#### 3.69.5 Proposed S_4D,event Detail (L308bb sketch)
+
+Currently S_4D,event is: S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
+
+A more detailed proposal (still speculative):
+```
+S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + N_4D × L_4D_field]
+       with M_Pl,4 = 3.93e23 GeV (α-GM, L308v)
+       with α_4D = 1.577 (L308ba halving rule)
+       with N_4D = 3 (L308ba inferred: 3 generations OR 3 color)
+       with L_4D_field = ½(∂Φ)² + V(Φ)  (canonical scalar field)
+```
+
+If 4D has 3 generations of bulk fields, the 4D action is structurally analogous to SM (3 gen) but in higher dimension. This is a SKETCH, not a derivation.
+
+#### 3.69.6 What's Open After §3.69
+
+| Open question | Status |
+|---------------|--------|
+| Why N_3+1D = 6 specifically | Multiple interpretations, none first-principles |
+| Why N_4D = 3 specifically | Multiple interpretations, none first-principles |
+| Why the halving rule itself | Cascade-specific or general principle? |
+| Full Lagrangian path integral | L43 still OPEN (Z_SIDC not computed) |
+| 4D action structure | L308bb sketch needs theoretical physicist review |
+| 5D extrapolation | N_5D = 1.5 (non-integer) — structural not derived |
+
+#### 3.69.7 Net Improvement Summary
+
+| Aspect | §3.67 (L116) | §3.68 + §3.69 | Source |
+|--------|---------------|----------------|--------|
+| Audit score | 73% | **93%** | L308bb |
+| Numerical consistency | 5/6 | 7/7 | A2 exact match |
+| Issue resolution | 37% | 80% | L308ar/az/ax/ba addressed |
+| Mirror plane | not encoded | S_mirror term | L308az |
+| Frame-neutral naming | legacy | f_DE,closed, f_leak,2D→3D, f_leak,3D→4D | L308ax |
+| Dim-specific α | universal 1.289 | 1.289/1.408/1.577 | L308ba halving rule |
+| E_sub explicit | not specified | E_4D = 386 × 1.295e77 J | A2 STRUCTURAL |
+| Bilateral cascade | pulsed only | death pulse + drain | L308ax |
+
+See `calculations/v36_research/L308bb_lagrangian_audit_v368.py` for the full audit calculation and N_D interpretation analysis.
