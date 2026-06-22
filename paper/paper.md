@@ -9,7 +9,7 @@
 
 **v3.5.9+ A2 HIGHLIGHTS** (CURRENT, June 22, 2026, APPROACH A2):
 
-**Paper:** 478 pages, 1.52 MB
+**Paper:** 479 pages, 1.52 MB
 **Limitations:** 144 honest (master table; +12 L308af-ay in v3.5.9+ A2 await master table update) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):
@@ -28,11 +28,12 @@
 - 1 MEASURED: $M_{\rm Pl,3D}$ (Newton's G)
 - 3 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK, L308n), $M_{\rm Pl,2D}$ = 12×$v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r) [L308ap: N=12 has SM fermion count INPUT + Schwarzian PREDICTION + data CONFIRMATION, but not pure derivation]
 - 2 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation, L308o)
-- 4 CALIBRATED: ε, $\tau_{\rm 4D}$, AGN rate, **$f_{\rm leak} = H_0$ (NEW A1)**
+- 4 CALIBRATED: ε, $\tau_{\rm 4D}$, AGN rate, **$f_{\rm leak,3D\to4D} = H_0$ (A1 principle, L308ax frame-neutral name)**
 - 4 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ (both literal time dilation), **N=12 (L308ap: with strong first-principles motivations, not pure derivation)**
 - 1 FREE: $N_{\rm sub}$ (specific to our universe's 4D event; 386 = we are 1 of 386 sibling sub-universes; other 4D events → different N)
 
-**For v3.5.9+ audit and A1 details**: see `paper/legacy/v359_path_B2_rejected.md` (Path B2 REJECTED), `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
+**For v3.5.9+ A1 era**: see `paper/legacy/v359_path_B2_rejected.md` (Path B2 REJECTED), `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
+**For v3.5.9+ A2 era**: see `paper/legacy/v359_legacy_A1_to_A2_renaming.md` (A1→A2 transition), `paper/legacy/v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral leak naming), `paper/legacy/v359_legacy_first_principles_research_audit.md` (L43/L138/L144/L142a web research audit)
 **For v3.5.8 details**: see `paper/legacy/v358_user_driven_refinements.md`
 **For full version history**: see [`changelog.md`](../changelog.md)
 
@@ -140,7 +141,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
-**M^α law and time dilation (v2.7.24-v2.7.25+, legacy_paper.md §3.17-legacy_paper.md §3.18, REVISED L308x v3).** The M^α scaling law $\tau_{2D,3+1D} = (E/E_{Pl,3})^{1.29} \times t_{Pl,3}$ gives the 3+1D-observed lifetime of the 2D universe. The 2D universe's PROPER lifetime (in 2D's own frame) is $\gamma_{2D} \times \tau_{2D,3+1D}$ = 5.5×10⁴⁴ × 33s = **5.7×10³⁸ yr** for SN (much longer than 33s). Similarly, the 4D event's proper time is 1.51×10³⁴ yr, but the 3D-observed time is $\gamma_{4D} \times 1.51e34 yr = 1.63×10¹⁴⁵ yr (A2)$. The cone is ASYMMETRIC in time direction: γ_2D stretches time in 2D's own frame (2D proper is LONG, 3D observed is short), while γ_4D stretches time in 3D frame (4D proper is short, 3D observed is LONG). In both cases, the lower-D dimension has MORE time (2D > 3D > 4D in duration). The same $\alpha$ = 1.29 applies at every level. **$\alpha$ is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from Schwarzian SYK N=12 saddle point (L308n, 1+1/√12). SIDC's net free parameter count: 15 (REVISED L308z, was 14 pre-count-correction; A1+L308z+L308aa).
+**M^α law and time dilation (v2.7.24-v2.7.25+, legacy_paper.md §3.17-legacy_paper.md §3.18, REVISED L308x v3).** The M^α scaling law $\tau_{2D,3+1D} = (E/E_{Pl,3})^{1.29} \times t_{Pl,3}$ gives the 3+1D-observed lifetime of the 2D universe. The 2D universe's PROPER lifetime (in 2D's own frame) is $\gamma_{2D} \times \tau_{2D,3+1D}$ = 5.5×10⁴⁴ × 33s = **5.7×10³⁸ yr** for SN (much longer than 33s). Similarly, the 4D event's proper time is 1.51×10³⁴ yr, but the 3D-observed time is $\gamma_{4D} \times 1.51e34 yr = 1.66×10¹⁴⁵ yr (A2)$. The cone is ASYMMETRIC in time direction: γ_2D stretches time in 2D's own frame (2D proper is LONG, 3D observed is short), while γ_4D stretches time in 3D frame (4D proper is short, 3D observed is LONG). In both cases, the lower-D dimension has MORE time (2D > 3D > 4D in duration). The same $\alpha$ = 1.29 applies at every level. **$\alpha$ is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from Schwarzian SYK N=12 saddle point (L308n, 1+1/√12). SIDC's net free parameter count: 15 (REVISED L308z, was 14 pre-count-correction; A1+L308z+L308aa).
 
 **Self-critical methodology (v2.7.22+, legacy_paper.md §3.16).** SIDC's iterative process is formalized: build → user pushback → self-critique → discard or revise → document. The sterile neutrino DM with Pauli-blocked decay (now in legacy_paper.md legacy_paper.md §3.13-legacy_paper.md §3.15) is a worked example: built in v2.7.18, self-critiqued in v2.7.19, discarded in v2.7.20 after literature search (Batell-Yin 2024 m<10meV bound, sub-eV DM is HDM not CDM, 3.5 keV X-ray line weakened). SIDC documents the discard explicitly rather than papering over broken hypotheses.
 
@@ -1275,9 +1276,11 @@ See `paper/legacy/v357_f_back_clarification.md` for full discussion.
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
+>
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32×10⁻³⁴, f_DE,closed = 1.79×10⁻⁹⁰ (was f_back = 6.03×10⁻⁸⁸ in A1, dim-specific α_4D = 1.577). The f × ε = 1.13×10⁻¹²³ invariant is preserved.
 
 <!-- 03a_relations.md - part of paper.md split (v3.1, renamed from 03_relations.md for sequential ordering) -->
 
@@ -2006,9 +2009,11 @@ See `calculations/v27_dm_baryon_growth.py` for the full numerical analysis.
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
+>
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32×10⁻³⁴, f_DE,closed = 1.79×10⁻⁹⁰ (was f_back = 6.03×10⁻⁸⁸ in A1, dim-specific α_4D = 1.577). The f × ε = 1.13×10⁻¹²³ invariant is preserved.
 
 <!-- 03b_predictions.md - part of paper.md split (v3.1, renamed from 03_predictions.md for sequential ordering) -->
 
@@ -3697,7 +3702,7 @@ Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is D
 
 **A2 Note**: The simple f_DE,simple formula uses α_2D = 1.289 (in M_Pl,4D from α-GM) with ε = 1e-38. The closed loop formula f_DE,closed (L308av, was f_back in legacy naming) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓. f×ε = 1.13e-123 invariant preserved.
 
-**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3-A1 (per $\tau_{\rm 4D}$ calibration). In v3.5.9+ A2, f_DE,closed is the canonical formula (uses α_4D = 1.577).
+**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = 1×10⁻³⁸). In v3.5.9+ A2, the f_DE,closed formula is canonical (uses α_4D = 1.577, ε = 6.32×10⁻³⁴). f×ε = 1.13×10⁻¹²³ invariant preserved in both.
 
 **Why this works**:
 - UP flow (e.g., 2D → 3+1D): pulsed return at (N-1)-universe death = DM
@@ -4995,9 +5000,11 @@ Even with F-theory 12D, the framework has:
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
+>
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32×10⁻³⁴, f_DE,closed = 1.79×10⁻⁹⁰ (was f_back = 6.03×10⁻⁸⁸ in A1, dim-specific α_4D = 1.577). Some ε ≈ 10⁻³⁸ and f_back ≈ 10⁻⁸⁵ references in this file are HISTORICAL (predate A2 recalibration). The f × ε = 1.13×10⁻¹²³ invariant is preserved in both A1 and A2.
 
 <!-- 04_predictions.md - part of paper.md split (v3.0.13) -->
 
@@ -12135,10 +12142,10 @@ User: "386 could be the 4D event that created our universe. so we have 385 other
 
 **UPDATED A1+L308z PARAMETER HIERARCHY** (15 total, REVISED L308z):
 - 1 MEASURED: $M_{\rm Pl,3D} = 1.22\times10^{19}\,\text{GeV}$
-- 4 FIRST-PRINCIPLES: $\alpha = 1+1/\sqrt{12}$ (Schwarzian SYK), $M_{\rm Pl,2D} = 12 \times v_{\rm H}$, $\mu = M_{\rm Pl,2D}^2$, $N=12$ (Z_12 + 6D anomaly)
+- 3 FIRST-PRINCIPLES: $\alpha = 1+1/\sqrt{12}$ (Schwarzian SYK, L308n), $M_{\rm Pl,2D} = 12 \times v_{\rm H}$ (L308r), $\mu = M_{\rm Pl,2D}^2$ (L308r) [N=12 downgraded to STRUCTURAL per L308ag]
 - 2 DERIVED: $M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$ (L308o, energy conservation)
-- 4 CALIBRATED: ε = 10⁻³⁸, $\tau_{\rm 4D} = 1.51×10³⁴ yr$, AGN rate = 10⁻¹⁵·⁵² /s, f_leak = H_0 (NEW A1)
-- 3 STRUCTURAL: $E_{\rm sub} = 1.3\times10^{77}\,\text{J}$, $\tau_{\rm 3D,apparent} = 1.66\times10^{145} (A2)\,\text{yr}$, $\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$
+- 4 CALIBRATED: ε = 6.32×10⁻³⁴ (A2, was 10⁻³⁸ in A1), $\tau_{\rm 4D} = 1.51×10³⁴ yr$, AGN rate = 10⁻¹⁵·⁵² /s, f_leak,3D→4D = H_0 (A1 principle, L308ax frame-neutral name)
+- 4 STRUCTURAL: $E_{\rm sub} = 1.295\times10^{77}\,\text{J}$, $\tau_{\rm 3D,apparent} = 1.66\times10^{145} (A2)\,\text{yr}$, $\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$, **N=12 (per L308ag downgrade)**
 - 1 FREE: $N_{\rm sub} = 386$ (event-specific)
 
 **DE match check**: With derived $E_{\rm 4D} = 5×10⁷⁹ J$, framework gives DE density 0.13% off observation. This is a CONSISTENCY CHECK, not the calibration driver.
@@ -13054,8 +13061,8 @@ Adopt Option B: α is dimension-specific. The linked quantities are:
 
 | Quantity | Old (α = 1.289) | New (α_4D = 1.577) | Change |
 |----------|------------------|---------------------|--------|
-| **γ_4D** | 5.70×10⁹⁰ | 1.08×10¹¹¹ | **+20.3 orders** |
-| **τ_3D,apparent** | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr | **+20.3 orders** |
+| **γ_4D** | 5.70×10⁹⁰ | 1.10×10¹¹¹ (A2) | **+20.3 orders** |
+| **τ_3D,apparent** | 8.61×10¹²⁴ yr | 1.66×10¹⁴⁵ yr (A2) | **+20.3 orders** |
 | **f_DE,closed** (was f_back) | 6.03×10⁻⁸⁸ | 1.79×10⁻⁹⁰ (A2) | **−2.5 orders** |
 | **ρ_DE (with old ε)** | 1.34×10⁻⁴⁹ | 3.96×10⁻⁵² | **−2.5 orders** |
 | **Required ε for ρ_DE match** | 1.87×10⁻³⁶ | 6.32×10⁻³⁴ | **+4.8 orders** |
@@ -13190,8 +13197,8 @@ After the recalibration showed significant changes (γ_4D +20 orders, ρ_DE off 
 | α_4D | (implicit 1.289) | 1.577 | +0.288 |
 | ε | 1.00×10⁻³⁸ | 6.32×10⁻³⁴ | +4.8 orders |
 | kL (RS-II) | 87.5 | 76.4 | −11.1 |
-| γ_4D | 5.70×10⁹⁰ | 1.08×10¹¹¹ | +20.3 orders |
-| τ_3D,apparent | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr | +20.3 orders |
+| γ_4D | 5.70×10⁹⁰ | 1.10×10¹¹¹ (A2) | +20.3 orders |
+| τ_3D,apparent | 8.61×10¹²⁴ yr | 1.66×10¹⁴⁵ yr (A2) | +20.3 orders |
 | f_DE,closed (was f_back) | 6.03×10⁻⁸⁸ | 1.79×10⁻⁹⁰ (A2) | −2.5 orders |
 | f_DE,closed exponent 1/(2α) | 0.388 | 0.317 | −18% |
 | ρ_DE | 1.34×10⁻⁴⁹ | 2.50×10⁻⁴⁷ | matched to obs |
@@ -13528,9 +13535,11 @@ universe age)
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
+>
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32×10⁻³⁴, f_DE,closed = 1.79×10⁻⁹⁰ (was f_back = 6.03×10⁻⁸⁸ in A1, dim-specific α_4D = 1.577). The f × ε = 1.13×10⁻¹²³ invariant is preserved in both A1 and A2.
 
 <!-- 07_conclusion.md - part of paper.md split (v3.0.13) -->
 
@@ -14444,7 +14453,7 @@ SIDC's $\alpha$ = 1.29 is **falsified if observed $\alpha$ differs by more than 
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -14584,7 +14593,7 @@ The full calculation is in `calculations/v27_47_tuc_cascade.py`.
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -14705,9 +14714,11 @@ The full simulation is in `calculations/cascade_model.py` (run with `--outliers`
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
+>
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab f_leak = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The f × ε invariant (1.13×10⁻¹²³) is preserved in A2 (ε = 6.32×10⁻³⁴). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
 
 <!-- 13_cmb_gap.md - part of paper.md split (v3.0.13) -->
 
@@ -14987,7 +14998,7 @@ This was previously IMPOSSIBLE because Ω_c(z=1100) ≈ 0 in SIDC (pre-L308ab). 
 ---
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
