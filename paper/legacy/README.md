@@ -1,7 +1,7 @@
 # Paper Legacy Content
 
 This directory contains **superseded content** from earlier SIDC versions.
-The current paper is in `paper/markdown/`. Current version: **v3.5.9+** (Approach A1).
+The current paper is in `paper/markdown/`. Current version: **v3.5.9+ A2** (Approach A2: α dim-specific, f_back → f_DE,closed).
 
 These files are kept for historical reference and to document the framework's
 evolution. They are NOT part of the current paper.
@@ -63,6 +63,19 @@ Legacy parameters and their final disposition:
 Full v3.0.x era paper (single-file version before v3.0.13 split).
 197,776 bytes, ~ 600 pages equivalent.
 Mostly SUPERSEDED by v3.5.7+ but kept for completeness.
+
+
+### `v359_legacy_A1_to_A2_renaming.md`
+Documents the v3.5.9+ A1 → A2 transition (June 22, 2026):
+- `f_back` → `f_DE,closed` (legacy naming retired)
+- `f_DE,simple` = 1.13×10⁻⁸⁵ (renamed, was f_DE)
+- `f_DE,closed` = 1.79×10⁻⁹⁰ (renamed, was f_back)
+- α dim-specific (α_2D=1.289, α_4D=1.577, was universal)
+- ε recalibrated (1×10⁻³⁸ → 6.32×10⁻³⁴, +4.8 orders)
+- kL recalibrated (87.5 → 76.4, -11.1)
+- N=12 downgraded from FIRST-PRINCIPLES to STRUCTURAL (per L308ag)
+
+**SUPERSEDED** by v3.5.9+ A2 (current, June 22, 2026).
 
 ## Why Legacy?
 

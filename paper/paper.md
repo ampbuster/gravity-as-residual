@@ -63,7 +63,7 @@
 
 ---
 
-## 🎯 TWO MAIN POINTS: SCALING LAW + CLOSED LOOP (v3.0.21)
+## 🎯 TWO MAIN POINTS: SCALING LAW + CLOSED LOOP (canonical)
 
 These two expressions are SIDC's quantitative backbone and are taken as ground truth throughout the paper.
 

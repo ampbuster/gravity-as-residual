@@ -4,13 +4,13 @@
 >
 > *ampbuster (software developer, not a physicist)* | AI-assisted development with Mavis (M3, MiniMax)
 >
-> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 423 pages, 1.58 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
+> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 476 pages, 1.52 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
 
 SIDC = **S**cale-**I**nvariant **D**imensional **C**ascade. It proposes that gravity, dark matter, and dark energy are all consequences of a single dimensional-projection mechanism: a single ongoing event in a 4D bulk energy release whose projection onto our 3+1D brane yields ordinary matter, while two geometric by-products yield dark matter (cumulative back-projection from 2D universe deaths) and dark energy (un-cancelled inverted bulk gravity, identified as 4D event antigravity).
 
 ---
 
-## 🔥 What's New in v3.5.9+ (current)
+## 🔥 What's New in v3.5.9+ A2 (current, June 22, 2026)
 
 *Sources: `paper/markdown/00_title.md`, `paper/markdown/01_executive_summary.md`*
 
@@ -19,14 +19,25 @@ SIDC = **S**cale-**I**nvariant **D**imensional **C**ascade. It proposes that gra
 - **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = $8.73 \times 10^6$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub} = 386$.
 - **L308u (WHY N=12? BREAKTHROUGH)**: Appelquist 2001 PRL 87, 031801 — 3 SM generations from 6D anomaly cancellation.
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs only.
-- **First-principles progress**: 0/9 → **4/15** (α, $M_{\rm Pl,2D}$, μ, N=12).
+
+- **v3.5.9+ A2 (NEW, α dim-specific)**: $\alpha$ is now dimension-specific
+  - $\alpha_{\rm 2D} = 1.289$ (rigorous, from N=12 Schwarzian)
+  - $\alpha_{\rm 3+1D} = 1.408$ (predicted)
+  - $\alpha_{\rm 4D} = 1.577$ (predicted)
+  - $\epsilon = 6.32 \times 10^{-34}$ (recalibrated A2)
+  - $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ (A2: $\alpha_{\rm 4D} = 1.577$)
+  - $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (renamed from $f_{\rm back}$ legacy)
+  - $f \times \epsilon = 1.13 \times 10^{-123}$ invariant preserved
+- **f_back → f_DE,closed (v3.5.7+ naming revolution)**: legacy name retired
+- **L308ap**: N=12 has 3 first-principles roles (INPUT + PREDICTION + CONFIRMATION)
+- **First-principles progress (v3.5.9+ A2)**: 0/9 → 3/15 (α, $M_{\rm Pl,2D}$, μ). [N=12 STRUCTURAL per L308ag; L308ap: N=12 has 3 first-principles roles: INPUT + PREDICTION + CONFIRMATION, not pure derivation]
 
 ### Parameter hierarchy (v3.5.9+ A2, 15 total)
 
 | Status | Parameters |
 |---|---|
 | 1 MEASURED | $M_{\rm Pl,3D}$ (Newton's G) |
-| 4 FIRST-PRINCIPPLES | α = 1+1/√12 (L308n), $M_{\rm Pl,2D}$ = 12×$v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r), N=12 (L308u) |
+| 3 FIRST-PRINCIPLES | α = 1+1/√12 (L308n), $M_{\rm Pl,2D}$ = 12×$v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r) [N=12 STRUCTURAL per L308ag] |
 | 2 DERIVED | $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha \times M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub} \times E_{\rm sub}$ (L308o) |
 | 4 CALIBRATED | ε, $\tau_{\rm 4D}$, AGN rate, **$f_{\rm leak} = H_0$ (NEW A1)** |
 | 4 STRUCTURAL | $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 (per L308ag) |
@@ -53,7 +64,7 @@ The same α = 1.289 also governs the backward (back-action) direction:
 
 $$f_{\rm DE} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)}$$
 
-This evaluates to $f_{\rm DE} = 1.13 \times 10^{-85}$ (DERIVED via L308v α-GM). DE density matches observation within **0.13%** of $2.5 \times 10^{-47}$ GeV⁴.
+This evaluates to $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (A2, $\alpha_{\rm 4D} = 1.577$, was $f_{\rm back}$ in v3.0+ legacy naming). Equivalently, $f_{\rm DE,simple} = 1.13 \times 10^{-85}$ (A1, $\alpha_{\rm 2D} = 1.289$, legacy A1 formula). DE density matches observation within **0.13%** of $2.5 \times 10^{-47}$ GeV⁴ in both formulas. $f \times \epsilon = 1.13 \times 10^{-123}$ invariant preserved.
 
 - **Composite exponent $1/(2\alpha)$**: from Ising CFT (c = N/24 = 1/2) — three independent derivations (Schwarzian, DOZZ, N/24).
 - **Round-trip closure**: α × 1/(2α) = 1/2 (the orbifold $Z_2$ structure).

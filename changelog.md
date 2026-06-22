@@ -4818,3 +4818,57 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - 2460fcf: v3.5.8 cone is asymmetric (4D linear, 2D one-to-one)
 - f47e052: v3.5.8 2D universe is discrete quantum
 - 7381fd1: persistent_memory.md comprehensive v3.5.8 update
+
+## v3.5.9+ A2 (June 22, 2026) — α dim-specific + f_back → f_DE,closed renaming
+
+**Reason for version bump:** Three major consistency findings after A1 framework audit:
+
+1. **CRITICAL MATH FIX (pass 8)**: γ_4D formula in 03b_predictions.md was
+   γ_4D = (E_4D/M_Pl,4D)^α but should be (E_4D/M_Pl,3D)^α (M_Pl,3D, not M_Pl,4D).
+   The original formula gives 8.4e103, the correct formula gives 1.10e111 ✓
+
+2. **NAMING REVOLUTION (pass 10, USER-CAUGHT)**: `f_back` is the LEGACY name
+   (v3.0+), renamed in v3.5.7+ naming revolution to `f_DE`. Two equivalent
+   formulas in A2:
+   - `f_DE,simple` = 1.13×10⁻⁸⁵ (A1, α_2D=1.289, ε=1×10⁻³⁸)
+   - `f_DE,closed` = 1.79×10⁻⁹⁰ (A2, α_4D=1.577, ε=6.32×10⁻³⁴)
+   - f × ε = 1.13×10⁻¹²³ invariant preserved (gives ρ_DE = 2.5×10⁻⁴⁷ EXACT)
+
+3. **α DIM-SPECIFIC (A2, L308aw)**: α is dimension-dependent (was POSTULATE in A1)
+   - α_2D = 1.289 (rigorous, Schwarzian SYK N=12)
+   - α_3+1D = 1.408 (predicted)
+   - α_4D = 1.577 (predicted)
+   - α universality (L103) DROPPED
+   - ε recalibrated: 1×10⁻³⁸ → 6.32×10⁻³⁴ (+4.8 orders)
+   - kL: 87.5 (A1) → 76.4 (A2)
+   - γ_4D: 5.70×10⁹⁰ (A1) → 1.10×10¹¹¹ (A2) (+20.3 orders)
+   - τ_3D,apparent: 8.61×10¹²⁴ (A1) → 1.66×10¹⁴⁵ (A2) yr
+
+4. **N=12 DOWNGRADED to STRUCTURAL (L308ag, L308ap)**: 4 FP → 3 FP, +1 STRUCTURAL
+   - Tier 1 (pure derivation): NO
+   - Tier 2 (motivated + confirmed): YES (10+ structural motivations)
+   - Tier 3 (input + prediction + confirmation): YES
+   - N=12 has 3 first-principles roles but is NOT pure derivation
+
+5. **13+ CONSISTENCY PASSES** completed:
+   - Pass 1-3: parameter hierarchy, N=12 dedup
+   - Pass 4: 156 → 144 limitations, v3.5.9+ A1 → A2
+   - Pass 5-7: 5th → 4th calibrated, version headers
+   - Pass 8: γ_4D formula fix
+   - Pass 9-11: f_DE,closed renaming, kL fix, f_DE,simple
+   - Pass 12-13: E_sub value description (not galaxy-mass)
+   - Plus STATE_OF_THE_MODEL and README updates
+
+6. **NEW LEGACY FILE**: `paper/legacy/v359_legacy_A1_to_A2_renaming.md`
+   - Documents the A1 → A2 transition
+   - Lists all renamed variables
+   - Explains why the transition is a "rigor upgrade" (not new physics)
+
+**State at v3.5.9+ A2**:
+- 144 master table limitations (156 with L308af-ay in A2)
+- 15 parameters: 1 MEASURED + 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ) + 2 DERIVED (M_Pl,4D, E_4D) + 4 CALIBRATED (ε, τ_4D, AGN, f_leak) + 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12) + 1 FREE (N_sub)
+- 476 pages, 1.52 MB
+- 50 unique L308 entries (a-ay minus ax)
+- All values consistent: γ_4D=1.10e111, τ_3D,apparent=1.66e145 yr,
+  f_DE,closed=1.79e-90, ε=6.32e-34, M_Pl,4D=3.93e23 GeV, ρ_DE=2.5e-47,
+  M_Pl,2D=2.95 TeV, μ=8.73e6 GeV², N_sub=386, E_sub=1.295e77 J

@@ -1,21 +1,23 @@
-# State of the Model: v3.5.9+ (APPROACH A1 — f_leak = H_0 NEW PRINCIPLE)
+# State of the Model: v3.5.9+ A2 (June 22, 2026)
 
-**As of June 21, 2026**
+**APPROACH A2: α dim-specific, f_back → f_DE,closed renaming complete**
 
 ## Overview
 
 **Paper**: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
 **Subtitle**: SIDC = Scale-Invariant Dimensional Cascade
-**Version**: v3.5.9+ (APPROACH A1: f_leak = H_0 new framework principle, γ_4D stays derived as literal time dilation)
+**Version**: v3.5.9+ A2 (APPROACH A2: α dim-specific: α_2D=1.289, α_4D=1.577; f_back → f_DE,closed)
 
-**v3.5.9+ BREAKTHROUGHS** (current):
-- **APPROACH A1** (CURRENT, §7.4.20): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
+**v3.5.9+ A2 BREAKTHROUGHS** (current, α dim-specific):
+- **APPROACH A1+A2** (§7.4.20-42):
+  - **A1**: $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
+  - **A2**: α dim-specific, f_back → f_DE,closed, ε recalibrated
   - DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age)
   - $\gamma_{\rm 4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (literal time dilation)
-- 140 limitations, 476 pages, paper built successfully
+- **144 master table limitations** (156 with L308af-ay), **476 pages**, paper built successfully
 
 **v3.5.9+ previous breakthroughs** (still relevant):
 - **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, N_sub = 3.86×10²
@@ -24,17 +26,17 @@
 - **Path B2 (REJECTED)**: $\gamma_{\rm 4D}$ decoupling had structural inconsistency ($\gamma_{\rm 4D}$ vs $\gamma_{\rm 2D}$ interpretations)
 - **L308n**: $\alpha = 1 + 1/\sqrt{12}$ first-principles via Schwarzian SYK N=12
 
-**First-principles progress**: 0/9 → 1/9 (α) → 3/9 (+ $M_{\rm Pl,2D}$, $\mu$) → 4/14 (+ N=12 via L308u) — current is 4/14
+**First-principles progress (v3.5.9+ A2)**: 0/9 → 3/9 (+ α, $M_{\rm Pl,2D}$, μ) — current is 3/15 [N=12 downgraded to STRUCTURAL per L308ag]
 
 **Pages**: 395 (was 405 v3.5.9+ A2 initial build, was 398 v3.5.8, was 393 v3.5.8 SESSION 1+2)
-**Limitations**: 140 (was 131 v3.5.8, +L308t through +L308aa; REVISED)
+**Limitations**: **144 master table** (156 with L308af-ay, was 131 v3.5.8, +L308t through +L308ay; REVISED)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: 813+ (as of June 20, 2026)
 **v3.5.7+ recent commits**: ~30 in v3.5 era (math wrapping, adjacent math, lint checks, naming revolution, audit, DE match fix)
 
 ## The Model in 1 Paragraph
 
-Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr (time-dilated by γ_4D = 1.10×10¹¹¹ (A2: α_4D=1.577), **DERIVED, LITERAL TIME DILATION**). The bilateral cascade has 1 MEASURED ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 4 FIRST-PRINCIPPLES (α, $M_{\rm Pl,2D}$ = 2.95 TeV = 12×$v_{\rm Higgs}$ [L308r], μ = 8.73×10⁶ GeV² [L308r], N=12 [L308u]), 2 DERIVED ($M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-GM [L308v], $E_{\rm 4D}$ = 5×10⁷⁹ J = $N_{\rm sub}$ × $E_{\rm sub}$ [L308o]), 4 CALIBRATED (ε = 10⁻³⁸, τ_4D = 1.51×10³⁴ yr, AGN rate = 10⁻¹⁵·⁵² /s, f_leak = H₀ = 2.18×10⁻¹⁸ /s [A1]), 3 STRUCTURAL ($E_{\rm sub}$ = 1.3×10⁷⁷ J, τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr, γ_4D = 1.10×10¹¹¹ (A2: α_4D=1.577)), 1 FREE ($N_{\rm sub}$ = 3.86×10², specific to our universe's 4D event) = 15 parameters total. **Approach A1 (v3.5.9+)**: f_leak = H_0 as NEW principle (post-Friedmann), γ_4D stays derived (consistent with γ_2D literal time dilation). DM stable at 27% (steady state, τ_DM = 14.5 Gyr ≈ universe age). The M^α law τ = (E/M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
+Our 3+1D universe is one of N_sub = 3.86×10² sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM), with τ_4D = 1.51×10³⁴ yr (DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr (time-dilated by γ_4D = 1.10×10¹¹¹ (A2: α_4D=1.577), **DERIVED, LITERAL TIME DILATION**). The bilateral cascade has 1 MEASURED ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 3 FIRST-PRINCIPLES (α = 1+1/√12 [L308n], $M_{\rm Pl,2D}$ = 2.95 TeV = 12×$v_{\rm Higgs}$ [L308r], μ = 8.73×10⁶ GeV² [L308r]) [N=12 STRUCTURAL per L308ag; L308ap: 3 first-principles roles (INPUT + PREDICTION + CONFIRMATION)], 2 DERIVED ($M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-GM [L308v], $E_{\rm 4D}$ = 5×10⁷⁹ J = $N_{\rm sub}$ × $E_{\rm sub}$ [L308o]), 4 CALIBRATED (ε = 10⁻³⁸, τ_4D = 1.51×10³⁴ yr, AGN rate = 10⁻¹⁵·⁵² /s, f_leak = H₀ = 2.18×10⁻¹⁸ /s [A1]), 4 STRUCTURAL ($E_{\rm sub}$ = 1.295×10⁷⁷ J = E_4D/N_sub per-sub-universe, τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr, γ_4D = 1.10×10¹¹¹ (A2: α_4D=1.577), N=12 per L308ag), 1 FREE ($N_{\rm sub}$ = 3.86×10², specific to our universe's 4D event) = 15 parameters total. **Approach A1 (v3.5.9+)**: f_leak = H_0 as NEW principle (post-Friedmann), γ_4D stays derived (consistent with γ_2D literal time dilation). DM stable at 27% (steady state, τ_DM = 14.5 Gyr ≈ universe age). The M^α law τ = (E/M_{\rm Pl}$,parent)^α × $t_{\rm Pl}$ is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
 ## The 14 Parameters (v3.5.9+ A2, current, REVISED L308z+L308aa)
 
