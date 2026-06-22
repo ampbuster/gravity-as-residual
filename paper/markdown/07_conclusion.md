@@ -1,9 +1,11 @@
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak = H_0** as new principle (Approach A1, §7.4.20). Hill function references
+> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
+>
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32×10⁻³⁴, f_DE,closed = 1.79×10⁻⁹⁰ (was f_back = 6.03×10⁻⁸⁸ in A1, dim-specific α_4D = 1.577). The f × ε = 1.13×10⁻¹²³ invariant is preserved in both A1 and A2.
 
 <!-- 07_conclusion.md - part of paper.md split (v3.0.13) -->
 

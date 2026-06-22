@@ -690,7 +690,7 @@ Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is D
 
 **A2 Note**: The simple f_DE,simple formula uses α_2D = 1.289 (in M_Pl,4D from α-GM) with ε = 1e-38. The closed loop formula f_DE,closed (L308av, was f_back in legacy naming) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓. f×ε = 1.13e-123 invariant preserved.
 
-**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3-A1 (per $\tau_{\rm 4D}$ calibration). In v3.5.9+ A2, f_DE,closed is the canonical formula (uses α_4D = 1.577).
+**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = 1×10⁻³⁸). In v3.5.9+ A2, the f_DE,closed formula is canonical (uses α_4D = 1.577, ε = 6.32×10⁻³⁴). f×ε = 1.13×10⁻¹²³ invariant preserved in both.
 
 **Why this works**:
 - UP flow (e.g., 2D → 3+1D): pulsed return at (N-1)-universe death = DM

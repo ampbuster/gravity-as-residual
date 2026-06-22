@@ -4620,10 +4620,10 @@ User: "386 could be the 4D event that created our universe. so we have 385 other
 
 **UPDATED A1+L308z PARAMETER HIERARCHY** (15 total, REVISED L308z):
 - 1 MEASURED: $M_{\rm Pl,3D} = 1.22\times10^{19}\,\text{GeV}$
-- 4 FIRST-PRINCIPLES: $\alpha = 1+1/\sqrt{12}$ (Schwarzian SYK), $M_{\rm Pl,2D} = 12 \times v_{\rm H}$, $\mu = M_{\rm Pl,2D}^2$, $N=12$ (Z_12 + 6D anomaly)
+- 3 FIRST-PRINCIPLES: $\alpha = 1+1/\sqrt{12}$ (Schwarzian SYK, L308n), $M_{\rm Pl,2D} = 12 \times v_{\rm H}$ (L308r), $\mu = M_{\rm Pl,2D}^2$ (L308r) [N=12 downgraded to STRUCTURAL per L308ag]
 - 2 DERIVED: $M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$ (L308o, energy conservation)
-- 4 CALIBRATED: ε = 10⁻³⁸, $\tau_{\rm 4D} = 1.51×10³⁴ yr$, AGN rate = 10⁻¹⁵·⁵² /s, f_leak = H_0 (NEW A1)
-- 3 STRUCTURAL: $E_{\rm sub} = 1.3\times10^{77}\,\text{J}$, $\tau_{\rm 3D,apparent} = 1.66\times10^{145} (A2)\,\text{yr}$, $\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$
+- 4 CALIBRATED: ε = 6.32×10⁻³⁴ (A2, was 10⁻³⁸ in A1), $\tau_{\rm 4D} = 1.51×10³⁴ yr$, AGN rate = 10⁻¹⁵·⁵² /s, f_leak,3D→4D = H_0 (A1 principle, L308ax frame-neutral name)
+- 4 STRUCTURAL: $E_{\rm sub} = 1.295\times10^{77}\,\text{J}$, $\tau_{\rm 3D,apparent} = 1.66\times10^{145} (A2)\,\text{yr}$, $\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$, **N=12 (per L308ag downgrade)**
 - 1 FREE: $N_{\rm sub} = 386$ (event-specific)
 
 **DE match check**: With derived $E_{\rm 4D} = 5×10⁷⁹ J$, framework gives DE density 0.13% off observation. This is a CONSISTENCY CHECK, not the calibration driver.
@@ -5539,8 +5539,8 @@ Adopt Option B: α is dimension-specific. The linked quantities are:
 
 | Quantity | Old (α = 1.289) | New (α_4D = 1.577) | Change |
 |----------|------------------|---------------------|--------|
-| **γ_4D** | 5.70×10⁹⁰ | 1.08×10¹¹¹ | **+20.3 orders** |
-| **τ_3D,apparent** | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr | **+20.3 orders** |
+| **γ_4D** | 5.70×10⁹⁰ | 1.10×10¹¹¹ (A2) | **+20.3 orders** |
+| **τ_3D,apparent** | 8.61×10¹²⁴ yr | 1.66×10¹⁴⁵ yr (A2) | **+20.3 orders** |
 | **f_DE,closed** (was f_back) | 6.03×10⁻⁸⁸ | 1.79×10⁻⁹⁰ (A2) | **−2.5 orders** |
 | **ρ_DE (with old ε)** | 1.34×10⁻⁴⁹ | 3.96×10⁻⁵² | **−2.5 orders** |
 | **Required ε for ρ_DE match** | 1.87×10⁻³⁶ | 6.32×10⁻³⁴ | **+4.8 orders** |
@@ -5675,8 +5675,8 @@ After the recalibration showed significant changes (γ_4D +20 orders, ρ_DE off 
 | α_4D | (implicit 1.289) | 1.577 | +0.288 |
 | ε | 1.00×10⁻³⁸ | 6.32×10⁻³⁴ | +4.8 orders |
 | kL (RS-II) | 87.5 | 76.4 | −11.1 |
-| γ_4D | 5.70×10⁹⁰ | 1.08×10¹¹¹ | +20.3 orders |
-| τ_3D,apparent | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr | +20.3 orders |
+| γ_4D | 5.70×10⁹⁰ | 1.10×10¹¹¹ (A2) | +20.3 orders |
+| τ_3D,apparent | 8.61×10¹²⁴ yr | 1.66×10¹⁴⁵ yr (A2) | +20.3 orders |
 | f_DE,closed (was f_back) | 6.03×10⁻⁸⁸ | 1.79×10⁻⁹⁰ (A2) | −2.5 orders |
 | f_DE,closed exponent 1/(2α) | 0.388 | 0.317 | −18% |
 | ρ_DE | 1.34×10⁻⁴⁹ | 2.50×10⁻⁴⁷ | matched to obs |

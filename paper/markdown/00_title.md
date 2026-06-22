@@ -28,11 +28,12 @@
 - 1 MEASURED: $M_{\rm Pl,3D}$ (Newton's G)
 - 3 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK, L308n), $M_{\rm Pl,2D}$ = 12×$v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r) [L308ap: N=12 has SM fermion count INPUT + Schwarzian PREDICTION + data CONFIRMATION, but not pure derivation]
 - 2 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation, L308o)
-- 4 CALIBRATED: ε, $\tau_{\rm 4D}$, AGN rate, **$f_{\rm leak} = H_0$ (NEW A1)**
+- 4 CALIBRATED: ε, $\tau_{\rm 4D}$, AGN rate, **$f_{\rm leak,3D\to4D} = H_0$ (A1 principle, L308ax frame-neutral name)**
 - 4 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ (both literal time dilation), **N=12 (L308ap: with strong first-principles motivations, not pure derivation)**
 - 1 FREE: $N_{\rm sub}$ (specific to our universe's 4D event; 386 = we are 1 of 386 sibling sub-universes; other 4D events → different N)
 
-**For v3.5.9+ audit and A1 details**: see `paper/legacy/v359_path_B2_rejected.md` (Path B2 REJECTED), `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
+**For v3.5.9+ A1 era**: see `paper/legacy/v359_path_B2_rejected.md` (Path B2 REJECTED), `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
+**For v3.5.9+ A2 era**: see `paper/legacy/v359_legacy_A1_to_A2_renaming.md` (A1→A2 transition), `paper/legacy/v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral leak naming), `paper/legacy/v359_legacy_first_principles_research_audit.md` (L43/L138/L144/L142a web research audit)
 **For v3.5.8 details**: see `paper/legacy/v358_user_driven_refinements.md`
 **For full version history**: see [`changelog.md`](../changelog.md)
 
