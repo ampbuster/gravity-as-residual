@@ -40,6 +40,9 @@ The asymmetric ratio (DM/DE ≈ 0.4, not 1) reflects the cone asymmetry:
 - 3+1D is "above" 2D in volume, so DE has more room than DM
 
 Status: STRUCTURAL INSIGHT, not first-principles derivation.
+
+**CURRENT (v3.5.9+ A2, June 22, 2026)**: This is the A2 audit.
+
 """
 
 import numpy as np

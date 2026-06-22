@@ -27,6 +27,17 @@ the cascade's consistency with the latest 2025-2026 data.
 Cascade consistency: 5/5 constraints consistent (1 applicable, 4 inapplicable).
 
 Author: Cascade framework (Mavis, June 2026)
+
+
+**HISTORICAL (v2.7 era, mid-2025)**: This file is from the v2.7.x era, predating:
+- v3.0+ Lagrangian work
+- v3.3 Bilateral cascade
+- v3.5.7+ Naming revolution
+- v3.5.8+ First-principles
+- v3.5.9 A1 / A2
+
+Current v3.5.9+ A2 values: M_Pl,2D = 2.95 TeV, M_Pl,4D = 3.93e23 GeV,
+eps = 6.32e-34, f_DE,closed = 1.79e-90, gamma_4D = 1.10e+111.
 """
 import numpy as np
 

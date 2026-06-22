@@ -7,6 +7,26 @@ The framework's natural f_back_3+1D = 4.83e-56 /s is too slow
 The v3.3 §3.67 had a SCALED LEAK formula that gave 2.4e-18 /s (≈ H_0)
 This was REVERTED in §3.67a for being "over-engineered"
 But the leak = H_0 connection is BEAUTIFUL and may be the intended framework
+
+
+**HISTORICAL (v3.5.9+ A1 era, June 21, 2026)**: This file uses A1 era values:
+- alpha = 1.289 (universal, A1)
+- eps = 1e-38 (A1 calibrated)
+- f_back = (M_Pl/E)^alpha (LEGACY naming, renamed f_DE,closed in v3.5.7+)
+- gamma_4D = 5.93e+90 (A1 derived, formula uses M_Pl,3D parent ref)
+- tau_3D,apparent = 1.66e+145 yr (A1 derived, before L308t precision audit)
+- f_leak = H_0 (A1 principle, L308ax frame-neutral name: f_leak,3D->4D)
+
+Current v3.5.9+ A2 values (not used in this file):
+- alpha dim-specific (alpha_2D=1.289, alpha_4D=1.577)
+- eps = 6.32e-34 (A2 recalibrated, +4.8 orders)
+- f_DE,closed = 1.79e-90 (A2 closed loop)
+- gamma_4D = 1.10e+111 (A2, +20 orders vs A1)
+- f_leak,3D->4D = H_0 (L308ax frame-neutral name)
+
+The calculations in this file remain valid (math is correct) but the
+specific numerical values reflect v3.5.9+ A1 era framework, not v3.5.9+ A2.
+
 """
 import numpy as np
 

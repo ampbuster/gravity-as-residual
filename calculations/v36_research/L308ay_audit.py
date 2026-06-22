@@ -5,6 +5,9 @@ User request: 'audit the numbers and make sure they match up to observed data'
 
 This audit checks ALL framework predictions after Option A adoption
 (α dim-specific, ε = 6.32e-34, kL = 76.4) against observational data.
+
+**CURRENT (v3.5.9+ A2, June 22, 2026)**: This is the A2 audit.
+
 """
 
 import numpy as np

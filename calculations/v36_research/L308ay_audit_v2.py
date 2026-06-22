@@ -4,6 +4,9 @@ L308ay: COMPREHENSIVE AUDIT - corrected version
 User request: 'audit the numbers and make sure they match up to observed data'
 
 This is a careful audit of all framework predictions after Option A adoption.
+
+**CURRENT (v3.5.9+ A2, June 22, 2026)**: This is the A2 audit.
+
 """
 
 import numpy as np

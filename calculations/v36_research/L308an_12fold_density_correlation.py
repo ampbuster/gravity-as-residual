@@ -10,6 +10,26 @@ The new 12-fold prediction (replacing the withdrawn L308aj):
 This calculation estimates the angular power spectrum signature.
 
 Author: Mavis + user (2026-06-22)
+
+
+**HISTORICAL (v3.5.9+ A1 era, June 21, 2026)**: This file uses A1 era values:
+- alpha = 1.289 (universal, A1)
+- eps = 1e-38 (A1 calibrated)
+- f_back = (M_Pl/E)^alpha (LEGACY naming, renamed f_DE,closed in v3.5.7+)
+- gamma_4D = 5.93e+90 (A1 derived, formula uses M_Pl,3D parent ref)
+- tau_3D,apparent = 1.66e+145 yr (A1 derived, before L308t precision audit)
+- f_leak = H_0 (A1 principle, L308ax frame-neutral name: f_leak,3D->4D)
+
+Current v3.5.9+ A2 values (not used in this file):
+- alpha dim-specific (alpha_2D=1.289, alpha_4D=1.577)
+- eps = 6.32e-34 (A2 recalibrated, +4.8 orders)
+- f_DE,closed = 1.79e-90 (A2 closed loop)
+- gamma_4D = 1.10e+111 (A2, +20 orders vs A1)
+- f_leak,3D->4D = H_0 (L308ax frame-neutral name)
+
+The calculations in this file remain valid (math is correct) but the
+specific numerical values reflect v3.5.9+ A1 era framework, not v3.5.9+ A2.
+
 """
 
 import math

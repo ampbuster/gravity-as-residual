@@ -11,6 +11,21 @@ The framework is updated to use:
 - kL = 76.4 (RS-II: ε = e^(-kL))
 - f_back uses 1/(2α) with appropriate α
 - Hierarchy level transitions use level-specific α
+
+
+**CURRENT (v3.5.9+ A2, June 22, 2026)**: This file uses current A2 era values:
+- M_Pl,2D = 2.95 TeV (FIRST-PRINCIPLES via N*v_H, L308r)
+- M_Pl,4D = 3.93e23 GeV (DERIVED via alpha-GM, L308v)
+- alpha = 1.289 (FIRST-PRINCIPLES via L308n)
+- alpha_4D = 1.577 (dim-specific, A2)
+- eps = 6.32e-34 (A2 recalibrated, +4.8 orders)
+- f_DE,closed = 1.79e-90 (A2 closed loop)
+- f_DE,simple = 1.13e-85 (A1 formula kept for reference)
+- gamma_4D = 1.10e+111 (formula uses M_Pl,3D parent reference)
+- tau_3D,apparent = 1.66e+145 yr (A2)
+
+This file documents the A2 era derivations, audits, and refinements.
+
 """
 
 import numpy as np

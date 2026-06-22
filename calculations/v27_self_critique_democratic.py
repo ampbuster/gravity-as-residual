@@ -25,6 +25,28 @@ In SR, a particle's proper lifetime is INTRINSIC to the particle:
 For 2D universes, the proper lifetime is determined by the 2D universe's
 INTERNAL DYNAMICS. If the 2D universe is described by a 2D CFT, the dynamics
 is scale-invariant, but the "amount of evolution" depends on what we mean.
+
+
+**HISTORICAL (v2.7 era, mid-2025)**: This file is from the v2.7.x era, predating:
+- v3.0+ Lagrangian work (L102-L136)
+- v3.1+ Multi-universe picture (L142-L150)
+- v3.3 Bilateral cascade (E_4D = 5e79 J, M_Pl,4D = 3.93e23 GeV)
+- v3.5.7+ Naming revolution (f_back → f_DE,f_DM,leak,f_DM,death)
+- v3.5.8+ First-principles (alpha via Schwarzian SYK N=12)
+- v3.5.9 A1 (f_leak = H_0)
+- v3.5.9+ A2 (alpha dim-specific, eps = 6.32e-34, f_DE,closed = 1.79e-90)
+
+Current v3.5.9+ A2 values (not used in this file):
+- M_Pl,2D = 2.95 TeV (FIRST-PRINCIPLES via N×v_H, L308r)
+- M_Pl,4D = 3.93e23 GeV (DERIVED via α-GM, L308v)
+- α = 1.289 (FIRST-PRINCIPLES via L308n)
+- ε = 6.32e-34 (A2 recalibrated, +4.8 orders)
+- f_DE,closed = 1.79e-90 (A2 closed loop)
+- γ_4D = 1.10e+111 (formula uses M_Pl,3D parent reference)
+- τ_3D,apparent = 1.66e+145 yr (A2)
+
+The calculations in this file remain valid (math is correct) but the
+specific numerical values reflect v2.7 era framework, not v3.5.9+ A2.
 """
 
 import json

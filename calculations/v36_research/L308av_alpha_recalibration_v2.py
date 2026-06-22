@@ -5,6 +5,21 @@ Per L98: f_back = (t_Pl,3/τ_4D) × (τ_SN,obs/τ_universe) × (E_4D/E_SN)^{1/(2
 
 Framework's f_back ~ 10^-85 (per L98, L102)
 ρ_DE = f_back × ε × M_Pl,3D^4 should give ~2.5e-47 GeV^4
+
+
+**CURRENT (v3.5.9+ A2, June 22, 2026)**: This file uses current A2 era values:
+- M_Pl,2D = 2.95 TeV (FIRST-PRINCIPLES via N*v_H, L308r)
+- M_Pl,4D = 3.93e23 GeV (DERIVED via alpha-GM, L308v)
+- alpha = 1.289 (FIRST-PRINCIPLES via L308n)
+- alpha_4D = 1.577 (dim-specific, A2)
+- eps = 6.32e-34 (A2 recalibrated, +4.8 orders)
+- f_DE,closed = 1.79e-90 (A2 closed loop)
+- f_DE,simple = 1.13e-85 (A1 formula kept for reference)
+- gamma_4D = 1.10e+111 (formula uses M_Pl,3D parent reference)
+- tau_3D,apparent = 1.66e+145 yr (A2)
+
+This file documents the A2 era derivations, audits, and refinements.
+
 """
 
 import numpy as np
