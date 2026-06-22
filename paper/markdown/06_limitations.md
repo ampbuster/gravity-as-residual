@@ -2320,7 +2320,7 @@ This is a sharp question. Let me audit honestly.
 
 **Step 3: Note STRUCTURAL parameters are CONSEQUENCES**
 - τ_3D,apparent, γ_4D are both DERIVED from E_4D, M_Pl,3D, α
-- E_sub is structural (galaxy-mass scale)
+- E_sub is structural (per-sub-universe energy: E_4D / N_sub = 5e79/386 = 1.295e77 J = 7e29 M_sun of mass-energy per sub-universe, NOT galaxy-mass)
 - After: STRUCTURAL is really "follows from other parameters"
 
 **Step 4: Truly free inputs**
@@ -2336,7 +2336,7 @@ This is a sharp question. Let me audit honestly.
 | **MEASURED** (input from observation) | M_Pl,3D, AGN rate | 2 |
 | **FIRST-PRINCIPLES** (from SM/SYK) | α, M_Pl,2D, μ, N=12 | 5 — but 5 derive from SM v_Higgs |
 | **DERIVED** (follow from others) | M_Pl,4D, E_4D, τ_3D,apparent, γ_4D | 4 — geometric consequences |
-| **STRUCTURAL** (geometric) | E_sub | 1 — galaxy-mass scale |
+| **STRUCTURAL** (per-sub-universe) | E_sub | 1 — E_4D/N_sub = 1.295e77 J |
 | **CALIBRATED** (set to match) | ρ_DE (was ε, τ_4D separately) | 1 |
 | **FREE** (event-specific) | N_sub | 1 |
 | **TOTAL** | | **15 → 9** |
