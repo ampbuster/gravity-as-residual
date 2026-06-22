@@ -100,7 +100,7 @@ It is useful for:
 - Current persistent memory: `persistent_memory.md`
 - Current changelog: `changelog.md`
 
-## v3.5.9+ Era (AUDIT + A1)
+## v3.5.9+ Era (AUDIT + A1 + A2)
 
 ### `v3_legacy_dm_dynamics_hill_Fp.md`
 Documents the OLD Hill function framework for DM dynamics:
