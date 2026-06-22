@@ -2385,7 +2385,7 @@ The framework's REAL flexibility is comparable to ΛCDM: 4-6 truly free paramete
   4. N_sub (event-specific — FREE, L144 OPEN)
 - **5 first-principles** (α, M_Pl,2D, μ, N=12) all derive from SM
 - **4 derived** are geometric consequences
-- **1 structural** is E_sub (galaxy-mass scale)
+- **1 structural** is E_sub (per-sub-universe energy: E_4D/N_sub = 1.295e77 J)
 - Status: PARTIAL closure — parameter count clarified but not reduced
 
 **Source**: User audit request (2026-06-21), `calculations/v36_research/L308ab_fleak_Hz_drain_CMB.py` (parameter hierarchy).
