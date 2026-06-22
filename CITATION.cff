@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software or ideas, please cite it as below."
 type: software
 title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
-version: "2.4"
-date-released: 2026-06-14
+version: "3.5.9+A2"
+date-released: 2026-06-22
 authors:
   - family-names: "(software developer)"
     given-names: "anonymous"
@@ -21,26 +21,32 @@ url: "https://github.com/ampbuster/gravity-as-residual"
 preferred-citation:
   type: article
   title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
-  version: "2.3.2"
-  date-released: 2026-06-14
+  version: "3.5.9+A2"
+  date-released: 2026-06-22
   authors:
     - family-names: "(software developer)"
       given-names: "anonymous"
   journal: "arXiv preprint (to be submitted)"
   notes: |
-    Version 2.4 (June 2026).
+    Version 3.5.9+ A2 (June 2026).
     Author: software developer (non-specialist).
     AI assistance: developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and supporting/ai_disclosure.md.
 
-    Honest status:
+    Honest status (v3.5.9+ A2):
     - 16/17 test categories pass, 7/7 specific cases pass
-    - 28 honest limitations: 3 closed, 6 partial, 17 open, 2 falsified, 2 reverted
+    - 158 honest limitations (144 master + 14 L308af-az)
+    - 15 parameters: 1 MEASURED, 3 FIRST-PRINCIPLES, 2 DERIVED, 4 STRUCTURAL, 4 CALIBRATED, 1 FREE
+    - M_Pl,4D = 3.93e23 GeV (DERIVED via alpha-GM, L308v)
+    - alpha = 1.289 (FIRST-PRINCIPLES via Schwarzian SYK N=12, L308n)
+    - eps = 6.32e-34 (A2 recalibrated)
+    - gamma_4D = 1.10e+111 (formula uses M_Pl,3D parent reference)
+    - tau_3D,apparent = 1.66e+145 yr (A2)
+    - f_leak,3D->4D = H_0 (L308ax frame-neutral naming)
     - 0 strongly confirmed, 0 falsified
-    - 2 negative results (5/27 derivation attempts, Hubble Mechanism N)
     - Strong on local physics (RAR 10% fit, AGN p<10^-50, g_+ universal 4.5 decades)
     - Weak on CMB-era physics (Hubble tension unresolved, full Lagrangian requires 2D expert)
 
     Coordinate-invariant tensor construction in supporting/T_tensor_construction.md.
-    Lagrangian attempt in §2.5.1 (SKELETON with 5+ free parameters).
+    Lagrangian attempt in §2.5.1.
     Master limitations table in §7.0.
-    Executive summary at top of abstract.
+    481 pages, 1.52 MB.
