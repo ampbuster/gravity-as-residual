@@ -8205,7 +8205,7 @@ Match within 1% ✓ (framework self-consistent).
 
 **Honest chain**: DE observation → $E_{\rm 4D}$, $\tau_{\rm 4D}$ (calibrated) → closed loop → $M_{\rm Pl,4D}$. Also consistent with $\alpha$-GM. Round to $4 \times 10^{23}$ GeV. Status: PARTIAL (self-consistent but not first-principles). Source: user catch + git history v3.1.2→v3.3 evolution.
 
-L308h. **First-principles search: 0/9 → 4/15 parameters derived (UPDATED v3.5.9+, L308u added N=12)** (v3.5.7+, USER-DIRECTED). Systematic attempt to derive framework parameters from first principles (7 possibilities: $\alpha$, $4\pi$, N_sub, $\mu$, $\epsilon$, $\tau_{\rm 4D}$, cone slope). **4 NOW DERIVED**:
+L308h. **First-principles search: 0/9 → 3/15 parameters derived (UPDATED v3.5.9+ A2, N=12 downgraded to STRUCTURAL per L308ag)** (v3.5.7+, USER-DIRECTED). Systematic attempt to derive framework parameters from first principles (7 possibilities: $\alpha$, $4\pi$, N_sub, $\mu$, $\epsilon$, $\tau_{\rm 4D}$, cone slope). **3 NOW DERIVED** (N=12 has first-principles motivations via L308u 6D anomaly but is classified STRUCTURAL per L308ag):
 - $\alpha$ = 1 + 1/$\sqrt{12}$ (L308n, Schwarzian SYK N=12)
 - $M_{\rm Pl,2D}$ = 12 $\times$ $v_{\rm Higgs}$ (L308r, EW coincidence)
 - $\mu$ = $M_{\rm Pl,2D}^2$ (L308r, follows from $M_{\rm Pl,2D}$)
@@ -8373,7 +8373,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 | 9 | $N_{\rm sub}$ | $4 \times 10^2$ | **FREE** (L144 OPEN) |
 | -- | $\mu$ = $M_{\rm Pl,2D}^2$ | $9 \times 10^6$ GeV² | **STRUCTURAL** (5 paths, L308a-e) |
 
-**Verdict (v3.5.9+ A2 REVISED)**: **3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived** (was 1/9, then 3/9, now 4/15 with N=12 added via L308u 6D anomaly). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r), N=12 (L308u). Total 15 parameters: 1 MEASURED, 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ), 2 DERIVED ($M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via N_sub × $E_{\rm sub}$), 4 CALIBRATED, 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12 per L308ag), 1 FREE.
+**Verdict (v3.5.9+ A2 REVISED)**: **3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived** (was 1/9, then 3/9). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r). N=12 has strong first-principles motivations (L308u 6D anomaly) but is classified STRUCTURAL per L308ag. Total 15 parameters: 1 MEASURED, 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ), 2 DERIVED ($M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via N_sub × $E_{\rm sub}$), 4 CALIBRATED, 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12 per L308ag), 1 FREE.
 
 ### 7 Possibilities Tried (2026-06-20)
 
@@ -8401,7 +8401,7 @@ The framework is:
 - **Internally consistent** (multiple parameters cross-check via $\alpha$-GM, closed loop, $M^{\alpha}$ law)
 - **Structurally motivated** (5 paths to $\mu$ = $M_{\rm Pl,2D}^2$, now DERIVED via L308r)
 - **Observationally validated** (5/27/68 split, $H_0$ = 69.8±1.9 within $0.2\sigma$, etc.)
-- **4/15 parameters FIRST-PRINCIPPLES** ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 via L308r/L308u chain)
+- **3/15 parameters FIRST-PRINCIPPLES** ($\alpha$, $M_{\rm Pl,2D}$, $\mu$ via L308n/L308r chain) [N=12 STRUCTURAL per L308ag despite L308u 6D anomaly derivation path]
 
 First-principles progress: 0/9 → 1/9 ($\alpha$, L308n) → **3/9** ($\alpha$, $M_{\rm Pl,2D}$, $\mu$, L308r).
 
@@ -8811,7 +8811,7 @@ The first-principles WORK would focus on Tier 2:
 
 These are the actual GAPS in the framework. Everything else is constrained.
 
-Status: L308m, L308n (NEW v3.5.8, REVISED v3.5.9+ A2). 5/15 parameters observationally pinned + 3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) (α, $M_{\rm Pl,2D}$, μ, N=12). Tier 2 (N_sub) is now FREE (event-specific, L308z).
+Status: L308m, L308n (NEW v3.5.8, REVISED v3.5.9+ A2). 4/15 parameters observationally pinned + 3/15 first-principles (N=12 STRUCTURAL per L308ag) (α, $M_{\rm Pl,2D}$, μ). Tier 2 (N_sub) is now FREE (event-specific, L308z).
 
 Source: `calculations/v35_monte_carlo_parameter_search.py`, `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
@@ -9154,7 +9154,7 @@ The "12" appears as:
 
 ### First-Principles Progress
 
-**BEFORE** (v3.5.7+): 1/9 parameters first-principles ($\alpha$ only, via L308n) [REVISED v3.5.9+: 4/15, including N=12 via L308u]
+**BEFORE** (v3.5.7+): 1/9 parameters first-principles ($\alpha$ only, via L308n) [REVISED v3.5.9+ A2: 3/15, N=12 downgraded to STRUCTURAL per L308ag]
 
 **AFTER** (v3.5.8+, REVISED v3.5.9+): **3/15 parameters first-principles (N=12 STRUCTURAL per L308ag) derived** (was 3/9):
 - $\alpha$ = 1 + 1/$\sqrt{12}$ (L308n)
@@ -9408,7 +9408,7 @@ This is the unified deep origin of the "12" cascade fundamental unit.
 
 ### First-Principles Status Update
 
-**BEFORE** (v3.5.8+): 3/9 parameters first-principles derived (α, M_Pl,2D, μ via L308r) [REVISED v3.5.9+: 4/15 with N=12 via L308u]
+**BEFORE** (v3.5.8+): 3/9 parameters first-principles derived (α, M_Pl,2D, μ via L308r) [REVISED v3.5.9+ A2: 3/15, N=12 downgraded to STRUCTURAL per L308ag]
 
 **AFTER** (v3.5.9+): **3/15 parameters first-principles (N=12 STRUCTURAL per L308ag) derived** (was 4/9 in L308h, corrected count):
 - α = 1 + 1/√12 (L308n, Schwarzian SYK N=12)
