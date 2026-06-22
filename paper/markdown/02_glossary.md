@@ -38,7 +38,11 @@
 - $A_{event}$ (v2.7.54): revised from 67 → 1 (identity operation, not a parameter)
 - $F_p(0)$ (v2.7.52): derived from cumulative DM calculation, no longer calibrated
 - $\epsilon$ (CURRENT v3.5.9+): CALIBRATED at 10⁻³⁸ (gravity weakness, hierarchy problem, OBSERVED)
-- $f_{\rm DE}$ (CURRENT v3.5.9+): DERIVED via L308v $\alpha$-GM closed loop = 1.13×10⁻⁸⁵ (was $f_{\rm back}$ in v3.0+ naming, renamed in v3.5.7+ naming revolution)
+- $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas (f×ε = 1.13×10⁻¹²³ invariant)
+  - $f_{\rm DE,simple}$ = 1.13×10⁻⁸⁵ (uses α_2D = 1.289, ε = 1×10⁻³⁸)
+  - $f_{\rm DE,closed}$ = 1.79×10⁻⁹⁰ (uses α_4D = 1.577, ε = 6.32×10⁻³⁴)
+  - Both give ρ_DE = 2.5×10⁻⁴⁷ GeV⁴ (EXACT match)
+  - **Was called $f_{\rm back}$ in v3.0+ naming, renamed in v3.5.7+ naming revolution**
 
 ### Observational Inputs (5, taken from data)
 

@@ -682,13 +682,13 @@ The "normal gravity" ($M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gr
 - They DON'T cancel cleanly, so the formula gives wrong result
 - 
 - The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
-- ρ_DE = f_back × ε × M_Pl,3D^4 = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
+- ρ_DE = f_DE,closed × ε × M_Pl,3D^4 = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
 **Simple $f_{\rm DE}$ formula (preferred, gives 0.13% off, near-exact)**:
 $$\rho_{\rm DE} = f_{\rm DE} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.13 \times 10^{-85} \times 10^{-38} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$
 Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is DE-calibrated).
 
-**A2 Note**: This simple f_DE formula uses α_2D = 1.289 (in M_Pl,4D from α-GM). The closed loop formula (L308av) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓.
+**A2 Note**: This simple f_DE formula uses α_2D = 1.289 (in M_Pl,4D from α-GM). The closed loop formula f_DE,closed (L308av, was f_back in legacy naming) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓.
 
 **Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE}$ formula gives 0.13% off. The 0.13% form is the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration).
 

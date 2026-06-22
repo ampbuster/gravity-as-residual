@@ -276,7 +276,11 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 - $A_{event}$ (v2.7.54): revised from 67 → 1 (identity operation, not a parameter)
 - $F_p(0)$ (v2.7.52): derived from cumulative DM calculation, no longer calibrated
 - $\epsilon$ (CURRENT v3.5.9+): CALIBRATED at 10⁻³⁸ (gravity weakness, hierarchy problem, OBSERVED)
-- $f_{\rm DE}$ (CURRENT v3.5.9+): DERIVED via L308v $\alpha$-GM closed loop = 1.13×10⁻⁸⁵ (was $f_{\rm back}$ in v3.0+ naming, renamed in v3.5.7+ naming revolution)
+- $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas (f×ε = 1.13×10⁻¹²³ invariant)
+  - $f_{\rm DE,simple}$ = 1.13×10⁻⁸⁵ (uses α_2D = 1.289, ε = 1×10⁻³⁸)
+  - $f_{\rm DE,closed}$ = 1.79×10⁻⁹⁰ (uses α_4D = 1.577, ε = 6.32×10⁻³⁴)
+  - Both give ρ_DE = 2.5×10⁻⁴⁷ GeV⁴ (EXACT match)
+  - **Was called $f_{\rm back}$ in v3.0+ naming, renamed in v3.5.7+ naming revolution**
 
 ### Observational Inputs (5, taken from data)
 
@@ -3679,13 +3683,13 @@ The "normal gravity" ($M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gr
 - They DON'T cancel cleanly, so the formula gives wrong result
 - 
 - The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
-- ρ_DE = f_back × ε × M_Pl,3D^4 = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
+- ρ_DE = f_DE,closed × ε × M_Pl,3D^4 = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
 **Simple $f_{\rm DE}$ formula (preferred, gives 0.13% off, near-exact)**:
 $$\rho_{\rm DE} = f_{\rm DE} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.13 \times 10^{-85} \times 10^{-38} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$
 Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is DE-calibrated).
 
-**A2 Note**: This simple f_DE formula uses α_2D = 1.289 (in M_Pl,4D from α-GM). The closed loop formula (L308av) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓.
+**A2 Note**: This simple f_DE formula uses α_2D = 1.289 (in M_Pl,4D from α-GM). The closed loop formula f_DE,closed (L308av, was f_back in legacy naming) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓.
 
 **Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE}$ formula gives 0.13% off. The 0.13% form is the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration).
 
@@ -10195,7 +10199,7 @@ After L308ag downgraded N=12 to STRUCTURAL, the user requested deeper research i
 **What α = 1.289 actually is in the framework**:
 - It's the M^α lifetime scaling exponent
 - It's the time-dilation exponent (γ_4D = (E/M_Pl,3D)^α)
-- It's the back-action exponent (f_back ∝ E^(1/(2α)))
+- It's the back-action exponent (f_DE,closed ∝ E^(1/(2α)) in A2 closed loop formula)
 
 **Is α = 1 + 1/√N a "derivation"?**
 - It IS a valid formula in the SYK literature for the 1/N correction
@@ -12309,11 +12313,11 @@ After L308aq:
 | Derives from 12 Majoranas via SYK q=4 gapping | ✓ TRUE (per L117) |
 | c = N/24 general formula | ✗ FALSE (only works for N=12) |
 | "Three independent derivations" | ✗ MISLEADING (none is strict) |
-| The formula c/α = 1/(2α) for f_back | ✓ TRUE (closed loop math) |
+| The formula c/α = 1/(2α) for f_DE,closed (was f_back) | ✓ TRUE (closed loop math) |
 
 ### Implications
 
-The closed loop formula f_back ~ (E_4D/E_SN)^{1/(2α)} uses 1/(2α) where the "1/2" comes from c = 1/2 (IR central charge of 2D universe).
+The closed loop formula f_DE,closed ~ (E_4D/E_SN)^{1/(2α)} (was f_back) uses 1/(2α) where the "1/2" comes from c = 1/2 (IR central charge of 2D universe).
 
 This 1/2 is REAL (c = 1/2 from Ising mode), but the derivation is:
 - 12 Majoranas → SYK q=4 → 1 Ising mode (c = 1/2)
@@ -13025,7 +13029,7 @@ So 3 of 4 are not derivations.
 ### User's Request
 
 After the user caught that:
-1. f_back closed loop is no longer the central mechanism in A1
+1. f_DE,closed (was f_back) closed loop is no longer the central mechanism in A1
 2. f_leak = H_0 is the new mechanism
 3. α dimension-dependence affects only DE density, γ_4D, hierarchy levels
 
@@ -13035,10 +13039,10 @@ The user asked: "re-calibrate those that are linked and see what happens"
 
 Adopt Option B: α is dimension-specific. The linked quantities are:
 - γ_4D = (E_4D/M_Pl,3D)^α (4D time dilation)
-- f_back = (t_Pl,3/τ_4D) × (τ_SN,obs/τ_universe) × (E_4D/E_SN)^{1/(2α)}
-- ρ_DE = f_back × ε × M_Pl,3D^4
+- f_DE,closed = (t_Pl,3/τ_4D) × (τ_SN,obs/τ_universe) × (E_4D/E_SN)^{1/(2α)} (was f_back in legacy naming)
+- ρ_DE = f_DE,closed × ε × M_Pl,3D^4
 - τ_3D,apparent = τ_4D × γ_4D
-- Hierarchy level transitions: f_back = (M_Pl,N/E_N)^α
+- Hierarchy level transitions: f_back,N = (M_Pl,N/E_N)^α (legacy naming, was f_back)
 
 ### Numerical Results (with α_4D = 1.577)
 
@@ -13046,7 +13050,7 @@ Adopt Option B: α is dimension-specific. The linked quantities are:
 |----------|------------------|---------------------|--------|
 | **γ_4D** | 5.70×10⁹⁰ | 1.08×10¹¹¹ | **+20.3 orders** |
 | **τ_3D,apparent** | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr | **+20.3 orders** |
-| **f_back** | 1.79×10⁻⁹⁰ (A2) | 1.79×10⁻⁹⁰ | **−2.5 orders** |
+| **f_DE,closed** (was f_back) | 6.03×10⁻⁸⁸ | 1.79×10⁻⁹⁰ (A2) | **−2.5 orders** |
 | **ρ_DE (with old ε)** | 1.34×10⁻⁴⁹ | 3.96×10⁻⁵² | **−2.5 orders** |
 | **Required ε for ρ_DE match** | 1.87×10⁻³⁶ | 6.32×10⁻³⁴ | **+4.8 orders** |
 | **kL (RS-II)** | 87.5 | 76.4 | **−11.1 change** |
@@ -13063,7 +13067,7 @@ The apparent 3D lifetime (τ_4D × γ_4D) is 10²⁰ × larger.
 - Old: 8.6×10¹²⁴ yr
 - New: 1.6×10¹⁴⁵ yr
 
-#### 3. f_back changes by −2.5 orders
+#### 3. f_DE,closed (was f_back) changes by −2.5 orders
 The closed-loop back-action is 2.5 orders smaller.
 - Old: 6.0×10⁻⁸⁸
 - New: 1.8×10⁻⁹⁰
@@ -13081,13 +13085,13 @@ The bulk curvature changes from kL=87.5 to kL=76.4 (about 0.9× change).
 
 ### Hierarchy Level Transitions (with level-specific α)
 
-| Level | M_Pl (GeV) | E (GeV) | α | f_back |
+| Level | M_Pl (GeV) | E (GeV) | α | f_DE (level transition) |
 |-------|-----------|---------|---|--------|
 | 2D | 2955 | 10⁴⁴ | 1.289 | 5.7×10⁻⁵³ |
 | 3+1D | 1.22×10¹⁹ | 3.12×10⁸⁹ | 1.408 | 7.3×10⁻¹⁰⁰ |
 | 4D | 3.93×10²³ | 3.12×10⁸⁹ | 1.577 | 1.2×10⁻¹⁰⁴ |
 
-The f_back values span 50+ orders of magnitude across levels. The hierarchy transitions are NOT uniform.
+The f_DE,closed values span 50+ orders of magnitude across levels. The hierarchy transitions are NOT uniform.
 
 ### What Stays the Same (α_2D = 1.289)
 
@@ -13103,7 +13107,7 @@ The f_back values span 50+ orders of magnitude across levels. The hierarchy tran
 ### What Becomes Inconsistent
 
 - DE density match (12%): ✗ New ρ_DE is 4.8 orders off
-- f_back formula: ✗ Uses α_2D in cross-dim contexts
+- f_DE formula: ✗ Uses α_2D in cross-dim contexts
 - Hierarchy level transitions: ✗ Not uniform across levels
 - γ_4D time dilation: ✗ +20 orders correction
 - τ_3D,apparent: ✗ +20 orders correction
@@ -13141,7 +13145,7 @@ User request: "re-calibrate those that are linked and see what happens"
 **Findings**:
 - γ_4D changes by +20 orders (HUGE)
 - τ_3D,apparent changes by +20 orders
-- f_back changes by −2.5 orders
+- f_DE,closed (was f_back) changes by −2.5 orders
 - ρ_DE is 4.8 orders below observation with old ε
 - Required ε for ρ_DE match: 6.3×10⁻³⁴ (vs 10⁻³⁸)
 - kL changes by −11
@@ -13182,8 +13186,8 @@ After the recalibration showed significant changes (γ_4D +20 orders, ρ_DE off 
 | kL (RS-II) | 87.5 | 76.4 | −11.1 |
 | γ_4D | 5.70×10⁹⁰ | 1.08×10¹¹¹ | +20.3 orders |
 | τ_3D,apparent | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr | +20.3 orders |
-| f_back | 1.79×10⁻⁹⁰ (A2) | 1.79×10⁻⁹⁰ | −2.5 orders |
-| f_back exponent 1/(2α) | 0.388 | 0.317 | −18% |
+| f_DE,closed (was f_back) | 6.03×10⁻⁸⁸ | 1.79×10⁻⁹⁰ (A2) | −2.5 orders |
+| f_DE,closed exponent 1/(2α) | 0.388 | 0.317 | −18% |
 | ρ_DE | 1.34×10⁻⁴⁹ | 2.50×10⁻⁴⁷ | matched to obs |
 
 ### What This Means
@@ -13206,7 +13210,7 @@ The "α universality" was a POSTULATE, not a derivation. Dropping it is the hone
 
 #### 3. The DE Density Match is Restored (with new ε)
 
-ρ_DE = f_back × ε × M_Pl,3D^4 now matches observation:
+ρ_DE = f_DE,closed × ε × M_Pl,3D^4 now matches observation:
 - Old: 1.34×10⁻⁴⁹ (off by 4.8 orders with new α)
 - New: 2.50×10⁻⁴⁷ (matches exactly with ε = 6.32×10⁻³⁴)
 
@@ -13222,7 +13226,7 @@ The 4D time dilation is now much stronger.
 
 #### 5. Hierarchy Transitions are Level-Specific
 
-| Transition | α used | f_back |
+| Transition | α used | f_DE (transition) |
 |------------|--------|--------|
 | 2D→3+1D (SN creates 2D) | 1.289 | 5.7×10⁻⁵³ |
 | 3+1D→2D (back-projection) | 1.408 | 7.3×10⁻¹⁰⁰ |
@@ -13253,7 +13257,7 @@ The framework is now at **v3.5.9+ A2** (was A1):
 | kL (RS-II) | 87.5 | 76.4 |
 | γ_4D | 5.70×10⁹⁰ | 1.08×10¹¹¹ |
 | τ_3D,apparent | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr |
-| f_back exponent | 0.388 | 0.317 |
+| f_DE,closed exponent | 0.388 | 0.317 |
 | ρ_DE | matches (within 12%) | matches (exact) |
 
 ### The Open Questions
@@ -13263,7 +13267,7 @@ With Option A adopted:
 1. **α_3+1D = 1.408 derivation**: Just predicted, not derived
 2. **α_4D = 1.577 derivation**: Just predicted, not derived
 3. **Why is ε = 6.32×10⁻³⁴ instead of 10⁻³⁸?**: The new value is calibrated, not derived
-4. **Hierarchy f_back values are very different**: 50+ orders span, what does this mean physically?
+4. **Hierarchy f_DE,closed values are very different**: 50+ orders span, what does this mean physically?
 5. **γ_4D is 20 orders larger**: Implications for cosmology?
 
 ### Implications for Cosmology
@@ -13302,11 +13306,11 @@ User directive: "A: Adopt α_4D = 1.577 + recalibrate ε to 6.3×10⁻³⁴"
 - kL = 76.4 (RS-II)
 - γ_4D = 1.08×10¹¹¹
 - τ_3D,apparent = 1.63×10¹⁴⁵ yr
-- f_back exponent = 0.317
+- f_DE,closed exponent = 0.317
 
 **Implication**: The framework is now at v3.5.9+ A2. The α universality claim is dropped. The DE density match is restored (with new ε). Hierarchy transitions are level-specific.
 
-**Open**: α_3+1D and α_4D are predicted but not derived. The new ε is calibrated, not derived. The hierarchy f_back values are very different (50+ orders span).
+**Open**: α_3+1D and α_4D are predicted but not derived. The new ε is calibrated, not derived. The hierarchy f_DE,closed values are very different (50+ orders span).
 
 
 
@@ -13323,10 +13327,10 @@ After Option A adoption (α dim-specific, ε = 6.32×10⁻³⁴, kL = 76.4), the
 
 ### 1. DE Density (PRIMARY TEST) — EXACT MATCH
 
-**Framework formula**: ρ_DE = f_back × ε × M_Pl,3D⁴
+**Framework formula**: ρ_DE = f_DE,closed × ε × M_Pl,3D⁴
 
 **Calculation**:
-- f_back = A × B × C = 1.785×10⁻⁹⁰
+- f_DE,closed = A × B × C = 1.785×10⁻⁹⁰ (was f_back in legacy naming)
   - A = t_Pl,3/τ_4D = 1.131×10⁻⁸⁵
   - B = τ_SN,obs/τ_universe = 7.578×10⁻¹⁷
   - C = (E_4D/E_SN)^0.317 = 2.083×10¹¹
@@ -13390,13 +13394,13 @@ The new kL is more "compact" bulk (less warped AdS_5)
 
 ### 8. Hierarchy Level Transitions — NON-UNIFORM
 
-| Transition | α used | f_back |
+| Transition | α used | f_DE (transition) |
 |------------|--------|--------|
 | 2D universe creation | 1.289 | 5.7×10⁻⁵³ |
 | 2D back-projection to 3+1D | 1.408 | 7.3×10⁻¹⁰⁰ |
 | 4D event from 3+1D | 1.577 | 1.2×10⁻¹⁰⁴ |
 
-**f_back span (2D vs 4D): 51.7 orders of magnitude**
+**f_DE,closed span (2D vs 4D): 51.7 orders of magnitude**
 
 The hierarchy transitions are NOT uniform (per L308aw).
 
