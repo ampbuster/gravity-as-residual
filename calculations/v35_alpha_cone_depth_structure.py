@@ -31,6 +31,21 @@ INTERPRETATION:
   4. SM has 12 chiral fermions (3 gen × 4 per gen)
 
 This script verifies all these connections.
+
+
+**HISTORICAL (v3.5.7+ era)**: This file uses v3.5.7+ era values:
+- M_Pl,2D = 2.95 TeV (FIRST-PRINCIPLES via N×v_H, L308r)
+- M_Pl,4D = 3.93e23 GeV (DERIVED via α-GM, L308v)
+- α = 1.289 (FIRST-PRINCIPLES via L308n)
+- ε = 1e-38 (calibrated, was 1e-38 before A2 = 6.32e-34)
+- f_back = (M_Pl/E)^α (LEGACY naming, renamed f_DE,closed in v3.5.7+)
+
+Current v3.5.9+ A2 values (not used in this file):
+- ε = 6.32e-34 (A2 recalibrated, +4.8 orders)
+- f_DE,closed = 1.79e-90 (A2 closed loop, was f_back in legacy)
+
+The calculations in this file remain valid (the math is correct), but the
+specific numerical values reflect v3.5.7+ era framework, not v3.5.9+ A2.
 """
 
 import math

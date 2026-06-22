@@ -15230,7 +15230,7 @@ If multiple tests simultaneously validate SIDC, that's strong evidence. If multi
 
 # CONSISTENCY AUDIT REPORT (v3.5.7 — HISTORICAL; superseded by v3.5.9+ A2 audits)
 
-> **STATUS**: HISTORICAL AUDIT REPORT. This v3.5.7 audit document is preserved for reference. Current (v3.5.9+ A2) parameter status is in `paper/legacy/v359_README_legacy_sections.md` and the main paper's §0 Parameter Glossary.
+> **STATUS**: HISTORICAL AUDIT REPORT. This v3.5.7 audit document is preserved for reference. Current (v3.5.9+ A2) parameter status is in `paper/markdown/00_title.md` (parameter hierarchy) and `paper/markdown/02_glossary.md` (§0 Parameter Glossary). See also: `STATE_OF_THE_MODEL.md` for top-level summary.
 
 ## Executive Summary
 

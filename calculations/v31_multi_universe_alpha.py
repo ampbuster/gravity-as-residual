@@ -20,6 +20,23 @@ v3.1.2 FINAL: alpha_cal = 1.289 (Interpretation A only)
                       E_sub = AVERAGE galaxy, 9D = v_Higgs off by 14%
 
 The 4pi factor can be placed in TWO ways. Both interpretations are presented.
+
+
+**HISTORICAL (v3.1.2-final era, June 2026)**: This file uses v3.1.2 values:
+- M_Pl,4D = 887 GeV (Scenario X, was inferred before α-GM at 3.93e23)
+- M_Pl,2D = 3 TeV (now 2.95 TeV per L308r)
+- α = 1.289 (now FIRST-PRINCIPLES via Schwarzian SYK N=12, L308n)
+- ε = 1e-38 (now A2 = 6.32e-34, +4.8 orders)
+- f_back = (M_Pl/E)^α (LEGACY naming, renamed f_DE,closed in v3.5.7+)
+
+Current v3.5.9+ A2 values:
+- M_Pl,4D = 3.93e23 GeV (DERIVED via α-GM, L308v)
+- M_Pl,2D = 2.95 TeV (FIRST-PRINCIPLES via N×v_H, L308r)
+- α = 1.289 (FIRST-PRINCIPLES via L308n)
+- ε = 6.32e-34 (A2 recalibrated)
+- f_DE,closed = 1.79e-90 (A2 closed loop)
+
+This file is kept for historical audit.
 """
 import math
 

@@ -33,6 +33,22 @@ WHY THIS MATTERS:
 The 2D universe's μ = 9×10⁶ GeV² is the JT dilaton potential's
 coefficient. The factor "2" in U(Φ) = 2Φ is FORCED by AdS_2 geometry.
 This is the SAME "2" as in our framework's μ formula.
+
+
+**HISTORICAL (v3.5.7 era)**: This file uses v3.5.7 era values:
+- M_Pl,2D = 2.95 TeV (was 3 TeV rounded, L308r chain)
+- M_Pl,4D = 3.93e23 GeV (DERIVED via α-GM, L308v)
+- α = 1.289 (was calibrated, now FIRST-PRINCIPLES via L308n)
+- ε = 1e-38 (calibrated, was 1e-38 before A2 = 6.32e-34)
+- f_back = (M_Pl/E)^α (LEGACY naming, renamed f_DE,closed in v3.5.7+)
+
+Current v3.5.9+ A2 values (not used in this file):
+- ε = 6.32e-34 (A2 recalibrated, +4.8 orders)
+- f_DE,closed = 1.79e-90 (A2 closed loop)
+
+The structural motivations and derivations in this file remain valid
+(math is correct), but the specific numerical values reflect v3.5.7 era
+framework, not v3.5.9+ A2.
 """
 
 # AdS_2 curvature
