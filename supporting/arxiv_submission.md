@@ -1,4 +1,4 @@
-# arXiv Submission Preparation (v2.4)
+# arXiv Submission Preparation (v3.5.9+ A2)
 
 > **Status:** READY for submission. This document collects all
 > materials needed for an arXiv submission. The author (a software
@@ -24,14 +24,14 @@
 >
 > **Abstract:** We propose a unifying interpretation of three open problems in fundamental physics — the weakness of gravity (the hierarchy problem), the nature of dark matter, and the nature of dark energy — under a single geometric process. In this picture, our 3+1 dimensional universe is the projection of a single ongoing event in a higher-dimensional space: an energetic release of gravitational energy in the bulk, with the energy of that event manifesting in our brane as the Big Bang, and the dimensional projection mechanism producing the dark sector as a byproduct. The model is a thought experiment, not a finished theory — it provides a geometric framing that unifies three problems and yields specific testable predictions, but does not yet derive quantitative values from first principles.
 >
-> We test the cascade against 17 independent observational categories: 16 are consistent with the cascade (5 clean real-data passes, 4 structural wins over ΛCDM, 5 not discriminative, 1 tentative, 1 confounded, 1 inconclusive). 7/7 specific case studies (SPARC, Tian+ 2024, Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) are consistent. The cascade's most distinctive prediction — AGN hosts have more dark matter than matched non-AGN hosts — is supported by partial correlation analysis (p < 10⁻⁵⁰) once galaxy mass is controlled for. The cascade's $f_{\rm active}$ parameter is derivable from 4D event physics as τ_2D / T_universe = 0.7/13.8 = 0.051, matching MCMC posterior 0.0513 ± 0.0073 without any fitting. The model is consistent with the observed 5% ordinary / 27% dark matter / 68% dark energy split, with the 32%/68% outer split derivable from projection kinematics. The cascade joins ΛCDM in leaving the Hubble tension unresolved. The 4D math is internally consistent under scale-invariance (default) or cone-shape (architectural alternative). We document 28 honest limitations across all major claims. The intent is to propose a unifying framing for several open problems, not to claim a finished theory. The physics community is invited to develop or refute it.
+> We test the cascade against 17 independent observational categories: 16 are consistent with the cascade (5 clean real-data passes, 4 structural wins over ΛCDM, 5 not discriminative, 1 tentative, 1 confounded, 1 inconclusive). 7/7 specific case studies (SPARC, Tian+ 2024, Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) are consistent. The cascade's most distinctive prediction — AGN hosts have more dark matter than matched non-AGN hosts — is supported by partial correlation analysis (p < 10⁻⁵⁰) once galaxy mass is controlled for. The cascade's $f_{\rm active}$ parameter is derivable from 4D event physics as τ_2D / T_universe = 0.7/13.8 = 0.051, matching MCMC posterior 0.0513 ± 0.0073 without any fitting. The model is consistent with the observed 5% ordinary / 27% dark matter / 68% dark energy split, with the 32%/68% outer split derivable from projection kinematics. The cascade joins ΛCDM in leaving the Hubble tension unresolved. The 4D math is internally consistent under scale-invariance (default) or cone-shape (architectural alternative). We document 158 limitations (144 master + 14 L308af-az) across all major claims. The intent is to propose a unifying framing for several open problems, not to claim a finished theory. The physics community is invited to develop or refute it.
 
 ---
 
 ## Pre-Submission Checklist
 
 ### Required
-- [x] **Paper PDF**: `paper/paper.pdf` (138 pages, 685 KB)
+- [x] **Paper PDF**: `paper/paper.pdf` (481 pages, 1.52 MB)
 - [x] **Source TeX/markdown**: `paper/paper.md` (for arXiv source)
 - [x] **AI disclosure**: `ai_disclosure.md` (full disclosure of Mavis's role)
 - [x] **All references verified**: checked against arXiv/ADS in `paper/paper.md`
@@ -42,7 +42,7 @@
 
 ### Recommended
 - [x] **Layman summary**: `supporting/layman_summary.md`
-- [x] **Changelog**: `changelog.md` (full history v1.02 → v2.4)
+- [x] **Changelog**: `changelog.md` (full history v1.02 → v3.5.9+ A2)
 - [x] **Conversation history**: `supporting/how-did-we-get-here.md`
 - [x] **Test triage scorecard**: in `README.md` and `supporting/visual_summary.html`
 - [x] **§9 SIDC vs competitors**: architectural comparison with ΛCDM, MOND, ADD/RS, Verlinde
@@ -66,7 +66,7 @@
 3. Select categories: `gr-qc` (primary), `hep-ph` and `astro-ph.CO` (cross-list)
 4. Upload the source (PDF + .tar.gz of source files)
 5. Fill in metadata (title, authors, abstract, comments, report number)
-6. **Comments:** "28 limitations documented; 17/16/1 test categories; AI-assisted thought experiment, see ai_disclosure.md"
+6. **Comments:** "158 limitations documented; 17/16/1 test categories; AI-assisted thought experiment, see ai_disclosure.md"
 7. **Report number:** none (independent researcher)
 8. Submit and wait for endorsement (may take 1-2 days)
 
@@ -83,7 +83,7 @@
 **The paper presents:**
 - A geometric framing for gravity, DM, and DE
 - 17 test categories with honest scorecard (16 pass, 1 confounded, 0 falsified)
-- 28 honest limitations
+- 158 limitations (144 master + 14 L308af-az)
 - An action functional skeleton (RS-II + 2D worldsheets)
 - Specific testable predictions
 - AI disclosure
@@ -110,7 +110,7 @@
 - 1 confounded test (HI-DM correlation)
 - 1 inconclusive test (Vflat-morphology)
 - No full Lagrangian
-- 28 documented limitations (the honest ones)
+- 158 documented limitations (the honest ones)
 - Single-author, non-physicist
 
 ---
@@ -123,7 +123,7 @@
 >
 > The paper proposes a unifying geometric framing for three open problems in fundamental physics: the weakness of gravity (the hierarchy problem), dark matter, and dark energy. The author is a software developer (not a physicist) who developed the model through extensive conversational work with an AI assistant, with full AI disclosure included in the submission (`ai_disclosure.md`).
 >
-> The paper has been tested against 17 independent observational categories, with 16/17 passing, 7/7 specific case studies consistent, and 28 honest limitations documented. The model is presented as a thought experiment, not a finished theory.
+> The paper has been tested against 17 independent observational categories, with 16/17 passing, 7/7 specific case studies consistent, and 158 limitations (144 master + 14 L308af-az) documented. The model is presented as a thought experiment, not a finished theory.
 >
 > The intent of submission is to share the work publicly and invite critique from the physics community. The author is not seeking endorsement from a specific institution, and the paper is released under MIT license.
 >
@@ -166,7 +166,7 @@ This is consistent with the AI-assisted thought experiment being shared openly f
 
 ## Final Note
 
-At v2.4 with 166 pages, 16/17 tests pass, 30 limitations, and full AI disclosure, the paper is in a defensible state for arXiv submission. The honest scorecard (16/17 pass, 0 falsified, 0 strongly confirmed) is a *strength*, not a weakness — it shows the work has been stress-tested.
+At v3.5.9+ A2 with 481 pages, 16/17 tests pass, 158 limitations, and full AI disclosure, the paper is in a defensible state for arXiv submission. The honest scorecard (16/17 pass, 0 falsified, 0 strongly confirmed) is a *strength*, not a weakness — it shows the work has been stress-tested.
 
 The cascade's most distinctive prediction (AGN host DM) now has strong statistical support (p < 10⁻⁵⁰ in partial correlation), and $f_{\rm active}$ is now derivable from first principles (§4.35). The action skeleton (§4.38) is internally consistent. The §9 architectural comparison to ΛCDM, MOND, ADD/RS, and Verlinde is honest about the tradeoffs.
 

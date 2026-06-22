@@ -1,11 +1,11 @@
 # SIDC v3.5.9+ A2: Master Summary
 
-**Status**: Active development (v3.5.9+ A2, post-L308ay, 2026-06-22)
+**Status**: Active development (v3.5.9+ A2, post-L308ay+L308az, 2026-06-22)
 **Version**: v3.5.9+ A2 (APPROACH A2: α dim-specific, f_back → f_DE,closed)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
-**Total commits**: ~952
-**Pages**: 478
-**Limitations**: 144
+**Total commits**: ~960
+**Pages**: 481
+**Limitations**: 158 (144 master + 14 L308af-az)
 
 This document is a clean reference for the SIDC framework as of v3.5.9+ A2. For deep details, see the full paper at `paper/paper.pdf`.
 
@@ -297,12 +297,13 @@ Pushed to GitHub: 025a6cc, then 6429984 (sweeps 18-20).
 - All v3.5.9+ A2 consistent
 
 **Final state**:
-- 478 pages, 1.52 MB PDF
-- 144 master table limitations (158 with L308af-az)
+- 481 pages, 1.52 MB PDF (was 478, +3: LEGACY NOTE additions + L308az)
+- 158 limitations (144 master + 14 L308af-az)
 - 15 parameters (1+3+2+4+4+1)
 - 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ), 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12 per L308ag)
-- 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak=H_0)
+- 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak,3D→4D=H_0 per L308ax)
 - γ_4D = 1.10e111 (A2, M_Pl,3D parent ref), f_DE,simple = 1.13e-85, f_DE,closed = 1.79e-90
 - kL = 76.4 (A2, was 87.5 A1, ΔkL=-11.1)
 - E_sub = 1.295e77 J (per-sub-universe)
 - N_sub = 386, M_Pl,4D = 3.93e23 GeV (α-GM)
+- L308az added: 3+1D as dimensional mirror plane (§7.4.44, structural insight)
