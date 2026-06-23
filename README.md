@@ -2,11 +2,15 @@
 
 **A geometric framework for the dark sector via scale-invariant dimensional cascades.**
 
-*ampbuster (Independent Researcher) | AI-assisted development with Mavis (M3, MiniMax)*
+*Lee, Jia Ray (Independent Researcher) | AI-assisted development with Mavis (M3, MiniMax)*
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20810441.svg)](https://doi.org/10.5281/zenodo.20810441)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 📄 **[Read the paper](paper/arxiv/paper_arxiv.pdf)** (PDF, 6 pages, arXiv format)
 🗂️ **[Extended development](paper/paper.pdf)** (PDF, 611 pages, 2.1 MB — full Lagrangian, calculations, audit log)
 💻 **[GitHub repo](https://github.com/ampbuster/gravity-as-residual)**
+📚 **Cite as**: [Zenodo DOI 10.5281/zenodo.20810441](https://doi.org/10.5281/zenodo.20810441)
 
 ---
 
