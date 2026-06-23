@@ -84,11 +84,12 @@ The 4% Lagrangian gap (the exact 2D CFT partition function $Z_{2D}$, the brane c
 If you use this work, please cite:
 
 ```bibtex
-@software{ampbuster2026gravity,
-  author = {ampbuster},
+@software{lee2026gravity,
+  author = {Lee, Jia Ray},
   title  = {Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades},
   version = {v3.5.9-A2},
   year   = {2026},
+  doi    = {10.5281/zenodo.20810441},
   url    = {https://github.com/ampbuster/gravity-as-residual},
   note   = {arXiv: paper/arxiv/paper_arxiv.tex, 6 pages}
 }
@@ -125,7 +126,7 @@ The full changelog with all 144+ limitations is in the extended paper (§6 of `p
 
 ---
 
-**Author**: ampbuster (Independent Researcher)
+**Author**: Lee, Jia Ray (Independent Researcher)
 **AI assistance**: Developed in conversation with Mavis (M3, MiniMax)
 **License**: All rights reserved by the author
 **Date**: 2026-06-23

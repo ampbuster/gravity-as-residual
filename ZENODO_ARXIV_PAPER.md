@@ -28,7 +28,7 @@ If you want a **separate DOI** specifically for the condensed arxiv paper (rathe
 
 ### Authors
 
-- **Name**: ampbuster
+- **Name**: Lee, Jia Ray
 - **Affiliation**: Independent Researcher
 - **ORCID**: (skip if you don't have one)
 
@@ -121,7 +121,7 @@ CC-BY-4.0
 
 Once uploaded, the paper can be cited as:
 
-> ampbuster. (2026). Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Lee, Jia Ray. (2026). Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades. Zenodo. https://doi.org/10.5281/zenodo.20810441
 
 ## Notes
 

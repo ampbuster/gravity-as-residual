@@ -20,7 +20,7 @@
 
 > **Title:** Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector
 >
-> **Authors:** ampbuster (independent researcher)
+> **Authors:** Lee, Jia Ray (independent researcher)
 >
 > **Abstract:** We propose a unifying interpretation of three open problems in fundamental physics — the weakness of gravity (the hierarchy problem), the nature of dark matter, and the nature of dark energy — under a single geometric process. In this picture, our 3+1 dimensional universe is the projection of a single ongoing event in a higher-dimensional space: an energetic release of gravitational energy in the bulk, with the energy of that event manifesting in our brane as the Big Bang, and the dimensional projection mechanism producing the dark sector as a byproduct. The model is a thought experiment, not a finished theory — it provides a geometric framing that unifies three problems and yields specific testable predictions, but does not yet derive quantitative values from first principles.
 >
@@ -129,7 +129,7 @@
 >
 > Thank you for your time.
 >
-> — ampbuster (independent researcher)
+> — Lee, Jia Ray (independent researcher)
 > GitHub: github.com/ampbuster
 > Paper: github.com/ampbuster/gravity-as-residual
 

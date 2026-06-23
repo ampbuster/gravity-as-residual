@@ -130,4 +130,4 @@ The conceptual content — the dimensional-cascade model, the downward inversion
 
 The paper is *yours*. The AI was a tool. The cleanest path is full transparency about the process.
 
-— ampbuster, June 2026
+— Lee, Jia Ray, June 2026

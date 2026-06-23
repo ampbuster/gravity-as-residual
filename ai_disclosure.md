@@ -40,4 +40,4 @@ These are valuable, but they are *tool* contributions, not *author* contribution
 
 This work is by **a curious outsider, assisted by an AI**. The combination has produced a coherent thought experiment, but it has not produced a theory of everything. The paper is honest about this.
 
-— ampbuster, June 2026
+— Lee, Jia Ray, June 2026

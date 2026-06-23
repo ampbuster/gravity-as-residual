@@ -75,7 +75,7 @@ Once you have the DOI, add this to the top of `README.md` (right after the title
 
 Now you can cite the paper as:
 
-> ampbuster. (2026). Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector (v3.5.9-A2). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Lee, Jia Ray. (2026). Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades (v3.5.9-A2). Zenodo. https://doi.org/10.5281/zenodo.20810441
 
 Update `CITATION.cff` with the DOI as well.
 

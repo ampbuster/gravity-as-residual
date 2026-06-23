@@ -1310,7 +1310,7 @@ cat > "${BUILD_DIR}/paper_header.tex" << 'HEADEREOF'
 \setmonofont{DejaVu Sans Mono}
 \providecommand{\tightlist}{}
 \title{Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector}
-\author{ampbuster (software developer, not a physicist) \\ \small AI assistance: Mavis (M3, MiniMax)}
+\author{Lee, Jia Ray (software developer, not a physicist) \\ \small AI assistance: Mavis (M3, MiniMax)}
 \date{v3.0.21 (June 2026) \\ \small \url{https://github.com/ampbuster/gravity-as-residual}}
 \begin{document}
 \maketitle

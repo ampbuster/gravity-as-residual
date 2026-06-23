@@ -115,13 +115,13 @@ The L308 chain (L308ab-L308ce) covers:
 - 1 FREE ($N_{\rm sub} = 386)$### Citation
 
 ```bibtex
-@software{ampbuster2026gravity,
-  author = {ampbuster},
-  title = {Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector},
+@software{lee2026gravity,
+  author = {Lee, Jia Ray},
+  title = {Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades},
   version = {v3.5.9-A2},
   year = {2026},
-  url = {https://github.com/ampbuster/gravity-as-residual},
-  doi = {10.5281/zenodo.XXXXXXX}  % to be filled in
+  doi = {10.5281/zenodo.20810441},
+  url = {https://github.com/ampbuster/gravity-as-residual}
 }
 ```
 

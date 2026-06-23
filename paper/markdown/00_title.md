@@ -2,7 +2,7 @@
 
 # Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector
 
-**Author:** ampbuster (software developer, not a physicist)
+**Author:** Lee, Jia Ray (software developer, not a physicist)
 **AI assistance:** Developed in conversation with Mavis (M3, MiniMax), disclosed in §1 and `ai_disclosure.md`
 **Repository:** https://github.com/ampbuster/gravity-as-residual
 **Current version:** v3.5.9+ A2 (June 22, 2026, APPROACH A2: α dim-specific) — see [`changelog.md`](../changelog.md) for the full version history

@@ -331,5 +331,6 @@ Developed in conversation with **Mavis (M3, MiniMax)**. The AI's role: cross-che
 
 ## 📖 Citation
 
-> ampbuster (2026). *Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector.* v3.5.9+ A2, 597 pages.
+> Lee, Jia Ray (2026). *Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades.* v3.5.9-A2.
+> [Zenodo DOI: 10.5281/zenodo.20810441](https://doi.org/10.5281/zenodo.20810441)
 > [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
