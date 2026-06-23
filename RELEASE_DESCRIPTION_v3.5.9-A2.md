@@ -31,10 +31,10 @@ We propose a phenomenological geometric framework—the **Scale-Invariant Dimens
 
 | Prediction | Survey / Experiment | Timeline | Verdict if confirmed |
 |---|---|---|---|
-| $w = -1$ EXACTLY (no evolution) | Euclid, Roman Space Telescope | 2024+ / 2027+ | Falsifies quintessence, favors SIDC |
-| DE/DM $\propto (1+z)^{-3}$ | BAO, $f(z)\sigma_8$ growth rate | 2024+ | Tightness is unique to SIDC |
+| $w = -1$ EXACTLY (no evolution) | Euclid Q1+ / Roman | 2025+ / 2027+ | Falsifies quintessence, favors SIDC |
+| DE/DM $\propto (1+z)^{-3}$ | BAO, $f(z)\sigma_8$ growth rate | Ongoing (DESI, Euclid) | Tightness is unique to SIDC |
 | $M_{\text{Pl,2D}} = 2.95$ TeV | HL-LHC missing-energy, tensor resonances | 2030s | Structural SM-cascade connection |
-| 47 Tuc DM: $M_{\rm dyn} \approx M_{\rm stars}$ | Vera C. Rubin Observatory | DP1 2025, DR1 2027, Y10 2034 | **DECISIVE** SIDC vs ΛCDM test |
+| 47 Tuc DM: $M_{\rm dyn} \approx M_{\rm stars}$ | Vera C. Rubin Observatory | DP1 2025 ✓ → DR1 2027 → Y10 2034 | **DECISIVE** SIDC vs ΛCDM test |
 
 ## Key numerical results
 
