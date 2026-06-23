@@ -4,7 +4,7 @@
 >
 > *ampbuster (software developer, not a physicist)* | AI-assisted development with Mavis (M3, MiniMax)
 >
-> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 597 pages, 1.94 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
+> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 597 pages, 1.94 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [arXiv Condensed (PDF, 6 pages)](paper/arxiv/paper_arxiv.pdf) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
 
 **SIDC** = **S**cale-**I**nvariant **D**imensional **C**ascade. A single principle — geometric projection through a dimensional cascade — produces gravity, dark matter, and dark energy as different views of the same 4D event. **No dark matter particle. No cosmological constant. No free parameters for the dark sector.**
 
@@ -12,7 +12,7 @@
 
 ## What this paper is, in one paragraph
 
-A 4D event with a 3+1D brane and 2D universes creates all three pillars of the dark sector as geometric byproducts: gravity weakness is the cancellation between brane gravity and inverted bulk gravity; dark energy is the un-cancelled fraction of that inversion; dark matter is the cumulative gravitational imprint of 2D universes that have died. The same scaling law (α = 1 + 1/√12 = 1.289) governs supernovae to AGN outbursts (54 orders of magnitude), and the same closed-loop formula yields the dark-energy density from the 4D event lifetime. The cascade is dimension-invariant, with three "physical" brane levels (2D, 3+1D, 4D) connected by Clifford algebra structure (C(6) IS the Standard Model algebra, Stoica 2018) and Bott periodicity.
+A 4D event with a 3+1D brane and 2D universes creates all three pillars of the dark sector as geometric byproducts: gravity weakness is the cancellation between brane gravity and inverted bulk gravity; dark energy is the un-cancelled fraction of that inversion; dark matter is the cumulative gravitational imprint of 2D universes that have died. The same scaling law (α = 1 + 1/√12 = 1.289) governs supernovae to AGN outbursts (54 orders of magnitude), and the same closed-loop formula yields the dark-energy density from the 4D event lifetime. The cascade is dimension-invariant, with three "physical" brane levels (2D, 3+1D, 4D) connected by Clifford algebra structure (Cℓ(6) is isomorphic to the Standard Model algebra, Stoica 2018) and Bott periodicity.
 
 ---
 
@@ -94,7 +94,7 @@ After a 12-limitation first-principles chain (L308ba-L308bk), the framework now 
 | Component | Source | Status |
 |---|---|---|
 | N_2D = 12 | SM fermion count (L308r) | ✓ first-principles |
-| N_3+1D = 6 | **C(6) IS the SM algebra** (Stoica 2018) | ✓ first-principles |
+| N_3+1D = 6 | **Cℓ(6) is isomorphic to the SM algebra** (Stoica 2018) | ✓ first-principles (with isomorphism caveat) |
 | N_4D = 3 | 3 generations (Clifford C(6)/C(8), McKay, cobordism) | ✓ first-principles |
 | **Halving rule N_D = 12/2^(D-2)** | **Spinor dim doubling via Bott periodicity** | ✓ first-principles |
 | DOF conservation (12 real total) | N_D × 2^(D-2) = 12 | ✓ first-principles |
@@ -105,16 +105,16 @@ The cascade is now fully first-principles end-to-end. The framework's choice is 
 
 ### 8. The Clifford algebra connection to the Standard Model
 
-The cascade framework's N values map directly to Clifford algebra structure:
+The cascade framework's N values map onto Clifford algebra structure:
 
 ```
 Level    N    Clifford Structure                  First-principles
 2D      12    3 gen × 4 Weyl (1-comp Majorana)    ✓ (SM count, L308r)
-3+1D     6    C(6) = SM algebra (Stoica 2018)     ✓ [NEW]
+3+1D     6    Cℓ(6) ≅ SM algebra (Stoica 2018)   ✓ (with isomorphism caveat, L308cc)
 4D       3    3 generations (4-comp Majorana)      ✓ (Clifford/McKay/cobordism)
 ```
 
-**C(6) IS the Standard Model Algebra** (Stoica, "The Standard Model algebra—leptons, quarks, and gauge from the complex Clifford algebra C(6)", Adv. Appl. Clifford Algebras 28:52, 2018). The cascade's "12, 6, 3" maps EXACTLY onto the SM's fermion structure.
+**Cℓ(6) is isomorphic to the Standard Model Algebra** (Stoica, "The Standard Model algebra—leptons, quarks, and gauge from the complex Clifford algebra C(6)", Adv. Appl. Clifford Algebras 28:52, 2018). The cascade's "12, 6, 3" maps onto the SM's fermion structure via this algebraic isomorphism. We note: this is an *isomorphism of algebraic structures*, not a physical identification; the connection requires an additional physical postulate (see L308cc).
 
 ---
 
@@ -197,16 +197,16 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 
 - **Local physics is strong**: RAR matches SPARC to 10% median residual; AGN host DM strongly supported at p < 10⁻⁵⁰ partial correlation; g₊ approximately constant across 4.5 decades in M_b (r=+0.19, p=0.22).
 - **Parsimony**: 1 geometric process vs ΛCDM's 20+ free parameters. **No DM particle. No cosmological constant.**
-- **First-principles structure**: All components of the cascade now derive from SM count, Clifford algebras (C(6) IS the SM algebra), and Bott periodicity. The framework is end-to-end first-principles (L308ba-L308bk chain).
-- **Empirical match**: ρ_DE within 0.13% of observation; scaling law holds over 54 orders of magnitude; 17/17 test categories consistent.
-- **Time direction**: The cone is asymmetric in time direction (L308x). γ_4D = 1.10×10¹¹¹ and γ_2D = 5.5×10⁴⁴ are both literal time dilation.
+- **First-principles structure**: All components of the cascade now derive from SM count, Clifford algebras (Cℓ(6) is isomorphic to the SM algebra, Stoica 2018), and Bott periodicity. The cascade **structure** is end-to-end first-principles (L308ba-L308bk chain); the **quantitative values** (ε, f_DE, f_leak) are calibrated to observation.
+- **Empirical match**: ρ_DE within 0.13% of observation; scaling law holds over 54 orders of magnitude; 16/17 test categories consistent (1 confounded).
+- **Time direction**: The cone is asymmetric in time direction (L308x). γ_4D = 1.10×10¹¹¹ and γ_2D = 5.5×10⁴⁴ are both cascade amplification factors (not SR time dilation — they are dimensionless frame-dilation exponents relating energy scale to clock rate, see L308bs/L308bw).
 - **CMB-era consistency**: L308ab shows f_leak = H(z) drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
 - **N_sub derived**: L308ad gives N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) = 382 ± 6, matching framework's 386 within 1.6%.
 
 ### Weaknesses
 
 - **Hubble tension**: ACCEPTED as real tension. H₀,₄D = 70.16 is a geometric-mean property but specific H₀ values are not derived. SIDC's prediction H₀ = 73 (local) matches local measurements but leaves 5.6 km/s/Mpc gap to Planck CMB H₀ = 67.4 unresolved. **REJECTED (L308bl)**: User correctly identified that f_leak is for DM (attractive gravity), not DE (repulsive antigravity). The Hubble tension is fundamentally about H_0/DE, not DM. No direct connection via f_leak.
-- **No unique testable predictions**: SIDC has 0 unique testable predictions beyond what ΛCDM and MOND already predict. SIDC's value is *interpretive* and *parsimonious*, not predictively unique.
+- **No unique testable predictions beyond ΛCDM precision**: SIDC has 3 sharp predictions (w = -1 EXACTLY, DE/DM ∝ (1+z)⁻³ EXACTLY, M_Pl,2D = 2.95 TeV) that overlap with ΛCDM and MOND in regime, but SIDC's *tightness* (exact match, no evolution) is unique. Future surveys (Euclid, Roman, SKA) can discriminate if precision reaches the tight/loose boundary. SIDC's deeper value is *interpretive* and *parsimonious*.
 - **2D CFT requires expert input**: Full Lagrangian requires 2D CFT expert to fill in remaining details (Lagrangian scores 93% in audit, was 73%).
 - **Halving rule origin**: N_D = 12/2^(D-2) is now first-principles via spinor dim doubling (L308bj), but the deeper origin of "12" as total real DOF budget is the SM fermion count (L308r), not derived from more fundamental physics.
 - **N_sub is event-specific**: N_sub = 386 is specific to our universe's 4D event. Other 4D events would have different N_sub.
@@ -231,9 +231,9 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 
 ## 📚 The Paper
 
-**Current version**: v3.5.9+ A2 (June 22, 2026, with Option B Strengthened + L308ba-bk chain)
+**Current version**: v3.5.9+ A2 (June 23, 2026, with Option B Strengthened + L308ba-bx chain, L308ce LaTeX audit)
 **Length**: 597 pages, 1.94 MB
-**Limitations**: 195 honest limitations (144 master + 51 L308ab-bw)
+**Limitations**: 195 honest limitations (144 master + 51 L308ab-bx)
 **Parameters**: 15 total (1 MEASURED + 3 FIRST-PRINCIPLES + 2 DERIVED + 4 CALIBRATED + 4 STRUCTURAL + 1 FREE)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 
@@ -252,7 +252,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 | 03g | `03g_f_theory_12d_4d_bulk.md` | F-theory 12D as 4D bulk (HISTORICAL context) |
 | 04 | `04_predictions.md` / `04_tests.md` | Detailed predictions and tests |
 | 05 | `05_falsification.md` | What would falsify SIDC |
-| 06 | `06_limitations.md` | **All 169 honest limitations** (L308af-bk integrated) |
+| 06 | `06_limitations.md` | **All 195 honest limitations** (L308ab-bx integrated; 144 master + 51 L308ab-bx) |
 | 07 | `07_conclusion.md` | Honest assessment + external constraints |
 | 08 | `08_competitors.md` | SIDC vs ΛCDM/MOND/ADD/Entropic |
 | 09 | `09_data_refs.md` | All data sources |
@@ -278,7 +278,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ## ⚠️ What this paper is NOT
 
 - **Not a finished theory**. It is a **thought experiment**.
-- **Not a derivation from first principles** (in the strict sense). The framework achieves end-to-end first-principles for the cascade structure (L308ba-L308bk), but quantitative values are still fits to observation (within structural constraints) or derivations from framework structure (L308v α-GM).
+- **Not a derivation from first principles** (in the strict sense). The cascade **structure** (12, 6, 3 brane levels, Bott periodicity halving rule, Cℓ(6) SM algebra isomorphism) is end-to-end first-principles (L308ba-L308bk). The **quantitative values** (ε, f_DE, f_leak, τ_4D, AGN rate) are still calibrated to observation, not derived. The framework is a *structural* first-principles theory, not a *quantitative* one.
 - **Not predictively unique**. SIDC has 0 unique testable predictions beyond ΛCDM and MOND. Its value is *interpretive* and *parsimonious*.
 - **Not written by a physicist**. By a software developer with AI assistance.
 
