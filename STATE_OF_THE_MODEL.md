@@ -17,7 +17,7 @@
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (cascade amplification factor)
-- **195 honest limitations** (144 master + 51 L308ab-bx), **597 pages**, paper built successfully
+- **196 honest limitations** (144 master + 52 L308ab-bx, +1 L308ch), **597+ pages**, paper built successfully
 
 **v3.5.9+ previous breakthroughs** (still relevant):
 - **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, N_sub = 3.86×10²
