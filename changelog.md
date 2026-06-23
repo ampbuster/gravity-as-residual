@@ -41,7 +41,7 @@
 
 **First-principles progress**: 0/9 → 4/14 → **4/15** (α, $M_{\rm Pl,2D}$, μ, N=12 derived; N_sub now FREE event-specific, L308z)
 
-**Paper**: 394 pages (was 405), 1.93 MB (was 1.50 MB)
+**Paper**: 394 pages (was 405), 1.94 MB (was 1.50 MB)
 **Limitations**: 138 honest (was 116 v3.5.7)
 
 ---
@@ -130,7 +130,7 @@
 
 **First-principles progress**: 4/15 → **3/15** (N=12 downgraded per L308ag, was over-counted)
 
-**Paper**: 591 pages (was 476 in A2 initial, was 405 in A1, was 478 pre-consistency-sweep), 1.93 MB
+**Paper**: 594 pages (was 476 in A2 initial, was 405 in A1, was 478 pre-consistency-sweep), 1.94 MB
 **Limitations**: 195 honest limitations (144 master + 51 L308ab-bw, was 138 in A1)
 
 ---
@@ -4956,7 +4956,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 **State at v3.5.9+ A2**:
 - 144 master table limitations (156 with L308af-ay in A2)
 - 15 parameters: 1 MEASURED + 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ) + 2 DERIVED (M_Pl,4D, E_4D) + 4 CALIBRATED (ε, τ_4D, AGN, f_leak) + 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12) + 1 FREE (N_sub)
-- 476 pages, 1.93 MB
+- 476 pages, 1.94 MB
 - 50 unique L308 entries (a-ay minus ax)
 - All values consistent: γ_4D=1.10e111, τ_3D,apparent=1.66e145 yr,
   f_DE,closed=1.79e-90, ε=6.32e-34, M_Pl,4D=3.93e23 GeV, ρ_DE=2.5e-47,

@@ -31,7 +31,7 @@
 ## Pre-Submission Checklist
 
 ### Required
-- [x] **Paper PDF**: `paper/paper.pdf` (591 pages, 1.93 MB)
+- [x] **Paper PDF**: `paper/paper.pdf` (594 pages, 1.94 MB)
 - [x] **Source TeX/markdown**: `paper/paper.md` (for arXiv source)
 - [x] **AI disclosure**: `ai_disclosure.md` (full disclosure of Mavis's role)
 - [x] **All references verified**: checked against arXiv/ADS in `paper/paper.md`
@@ -166,7 +166,7 @@ This is consistent with the AI-assisted thought experiment being shared openly f
 
 ## Final Note
 
-At v3.5.9+ A2 with 591 pages, 16/17 tests pass, 181 limitations, and full AI disclosure, the paper is in a defensible state for arXiv submission. The honest scorecard (16/17 pass, 0 falsified, 0 strongly confirmed) is a *strength*, not a weakness — it shows the work has been stress-tested.
+At v3.5.9+ A2 with 594 pages, 16/17 tests pass, 181 limitations, and full AI disclosure, the paper is in a defensible state for arXiv submission. The honest scorecard (16/17 pass, 0 falsified, 0 strongly confirmed) is a *strength*, not a weakness — it shows the work has been stress-tested.
 
 The cascade's most distinctive prediction (AGN host DM) now has strong statistical support (p < 10⁻⁵⁰ in partial correlation), and $f_{\rm active}$ is now derivable from first principles (§4.35). The action skeleton (§4.38) is internally consistent. The §9 architectural comparison to ΛCDM, MOND, ADD/RS, and Verlinde is honest about the tradeoffs.
 
