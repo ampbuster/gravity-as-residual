@@ -231,9 +231,9 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 
 ## 📚 The Paper
 
-**Current version**: v3.5.9+ A2 (June 23, 2026, with Option B Strengthened + L308ba-bx chain, L308ce LaTeX audit, L308ch multi-messenger, L308ci 47 Tuc test plan)
+**Current version**: v3.5.9+ A2 (June 23, 2026, with Option B Strengthened + L308ba-bx chain, L308ce LaTeX audit, L308ch multi-messenger, L308ci 47 Tuc test plan, L308cj Lagrangian gap)
 **Length**: 597 pages, 1.94 MB
-**Limitations**: 197 honest limitations (144 master + 53 L308ab-bx, +L308ch multi-messenger + L308ci 47 Tuc test)
+**Limitations**: 198 honest limitations (144 master + 54 L308ab-bx, +L308ch + L308ci + L308cj)
 **Parameters**: 15 total (1 MEASURED + 3 FIRST-PRINCIPLES + 2 DERIVED + 4 CALIBRATED + 4 STRUCTURAL + 1 FREE)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 
@@ -255,6 +255,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 | 06 | `06_limitations.md` | **All 195 honest limitations** (L308ab-bx integrated; 144 master + 51 L308ab-bx) |
 | 16 | `16_multi_messenger.md` | **Multi-messenger predictions (L308ch)**: GW/ν/γ background, 47 Tuc priority |
 | 17 | `17_47_tuc_test.md` | **47 Tuc test plan (L308ci)**: DECISIVE SIDC vs ΛCDM test (Rubin/LSST 2025-2034) |
+| 18 | `18_lagrangian_gap.md` | **Lagrangian gap analysis (L308cj)**: 4% remaining (Z_2D, g_couple, f_leak, Z_SIDC) |
 | 07 | `07_conclusion.md` | Honest assessment + external constraints |
 | 08 | `08_competitors.md` | SIDC vs ΛCDM/MOND/ADD/Entropic |
 | 09 | `09_data_refs.md` | All data sources |
