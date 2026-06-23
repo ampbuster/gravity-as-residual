@@ -9,7 +9,7 @@
 
 **v3.5.9+ A2 HIGHLIGHTS** (CURRENT, June 22, 2026, APPROACH A2):
 
-**Paper:** 587 pages, 1.88 MB
+**Paper:** 588 pages, 1.88 MB
 **Limitations:** 144 honest (master table; +14 L308af-az in v3.5.9+ A2 await master table update: L308af-ay + new L308az) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):
@@ -16639,6 +16639,87 @@ SIDC's predictions for Euclid/Roman/SKA are concrete and testable. The framework
 3. Deviation from cascade structure
 
 These are not just-so stories — they're real predictions the framework commits to.
+
+## 7.4.68 (L308bw): 4D BURST THOUGHT EXPERIMENT (USER QUESTION)
+
+**Date**: 2026-06-23
+**Trigger**: User: "how much can de change without breaking the time dilation? if there was a large sudden burst of de from 4d (maybe a passing black hole in 4d), with time dilation, how much difference will it make?"
+**Status**: ✓ ANSWERED — SIDC's time dilation is so extreme that 4D bursts are imperceptible in 3+1D
+
+### User's Thought Experiment
+
+What if there was a sudden burst of DE from 4D (e.g., a passing black hole)? With the γ_4D = 1.10×10¹¹¹ time dilation, how much would it affect DE in 3+1D?
+
+### Key Finding
+
+The time dilation factor is so extreme that:
+- Planck-time 4D events → 10⁶⁰ yr in 3+1D (>10⁵⁰× universe age)
+- 1-second 4D events → 10¹⁰³ yr in 3+1D (>10⁹³× universe age)
+- 1-year 4D events → 10¹¹¹ yr in 3+1D (>10¹⁰¹× universe age)
+
+### 4D Black Hole Encounter Timescales
+
+| M_4D | r_s (4D) | Δτ_4D (4D) | Δt (3+1D) |
+|---|---|---|---|
+| 1 Planck mass | 3.23×10⁻³⁵ m | 6.83×10⁻⁵¹ yr | 7.51×10⁶⁰ yr |
+| 1 kg | 1.48×10⁻²⁷ m | 3.13×10⁻⁴³ yr | 3.45×10⁶⁸ yr |
+| 1 Earth mass | 8.85×10⁻³ m | 1.87×10⁻¹⁸ yr | 2.06×10⁹³ yr |
+| 1 solar mass | 2.95×10³ m | 6.23×10⁻¹³ yr | 6.86×10⁹⁸ yr |
+| 10⁶ M_sun (SMBH) | 2.95×10⁹ m | 6.23×10⁻⁷ yr | 6.86×10¹⁰⁴ yr |
+| 10¹⁰ M_sun | 2.95×10¹³ m | 6.23×10⁻³ yr | 6.86×10¹⁰⁸ yr |
+
+### Threshold for "Constant" DE in 3+1D
+
+For DE to look CONSTANT in 3+1D (longer than universe age):
+- Max 4D event duration: 1.25×10⁻¹⁰¹ yr in 4D time
+- = 3.96×10⁻⁹⁴ seconds in 4D time
+- = 2.47×10⁻⁵⁰ Planck times in 4D time
+
+Anything shorter than this in 4D time = DE looks constant
+Anything longer than this = DE could vary over cosmic history
+
+### Maximum Detectable DE Change
+
+Planck constraint: |w+1| < 0.06 (2σ)
+Euclid: σ(w) ~ 0.02
+Roman: σ(w) ~ 0.01
+
+To produce a 1% change in DE in 3+1D:
+- Δτ_4D ~ 0.01 × τ_4D = 1.51×10³² yr in 4D time
+- Apparent duration: 1.66×10¹⁴³ yr in 3+1D (10¹³³× universe age)
+
+### Implications
+
+1. **DE looks constant for all practical purposes**
+2. **SIDC's TIGHT prediction (w = -1 exactly) is robust**
+3. **Even large 4D events can't make DE look different in 3+1D**
+4. **A "sudden 4D burst" is diluted to imperceptibility**
+5. **The framework predicts DE will look constant FOREVER**
+
+### The Time-Dilation Filter
+
+The γ_4D = 1.10×10¹¹¹ time dilation acts as an extreme low-pass filter:
+- Short 4D events (Planck time) appear as slow 3+1D drifts
+- Long 4D events (years) appear as ridiculously slow 3+1D drifts
+- The universe's age is 10¹⁰ yr, so 4D events must last > 10⁻¹⁰¹ yr in 4D time to be detectable in 3+1D
+
+This is why SIDC predicts w = -1 exactly — even with active 4D events (black holes, etc.), the time dilation makes them appear as constant DE in 3+1D.
+
+### Source
+
+User question: "how much can de change without breaking the time dilation? if there was a large sudden burst of de from 4d..."
+Calculation: `calculations/v36_research/L308bw_4d_burst_thought_experiment.py`
+
+### Status
+
+**L308bw**: USER'S THOUGHT EXPERIMENT ✓ ANSWERED.
+
+SIDC's time dilation is so extreme that 4D bursts are imperceptible in 3+1D. The framework's TIGHT prediction (w = -1 exactly) is robust against:
+- Passing 4D black holes
+- Any 4D energetic event shorter than 10⁻¹⁰¹ yr in 4D time
+- Any DE burst of less than 1% in 3+1D
+
+The user is right: a sudden 4D burst is "diluted" by the time dilation factor to imperceptibility. SIDC's TIGHT prediction is robust.
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
