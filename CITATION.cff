@@ -1,28 +1,9 @@
-cff-version: 1.2.0
-message: "If you use this software or ideas, please cite it as below."
-type: software
-title: "Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades"
-version: "3.5.9-A2"
-date-released: 2026-06-23
+cff-version: 1.1.0
+message: "If you use this software, please cite it using these metadata."
 authors:
-  - family-names: "ampbuster"
-    given-names: "anonymous"
-    affiliation: "Independent Researcher"
-keywords:
-  - dark matter
-  - dark energy
-  - dimensional cascade
-  - brane-world
-  - modified gravity
-  - clifford algebra
+  - family-names: ampbuster
+    given-names: anonymous
+title: "Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades"
+version: v3.5.9-A2
+date-released: 2026-06-23
 license: CC-BY-4.0
-url: "https://github.com/ampbuster/gravity-as-residual"
-
-preferred-citation:
-  type: article
-  title: "Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades"
-  authors:
-    - family-names: "ampbuster"
-      given-names: "anonymous"
-  year: 2026
-  journal: "arXiv preprint"
