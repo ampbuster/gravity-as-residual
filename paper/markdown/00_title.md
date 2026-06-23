@@ -9,7 +9,7 @@
 
 **v3.5.9+ A2 HIGHLIGHTS** (CURRENT, June 22, 2026, APPROACH A2):
 
-**Paper:** 594 pages, 1.94 MB
+**Paper:** 597 pages, 1.94 MB
 **Limitations:** 195 (144 master + 51 L308ab-bw in v3.5.9+ A2 await master table update: L308af-ay + new L308az) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):
