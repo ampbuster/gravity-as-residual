@@ -15,10 +15,10 @@
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):
 - **APPROACH A2** (α dim-specific, §7.4.20, CURRENT): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
   - DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age)
-  - $\gamma_{\rm 4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
+  - $\gamma_{\rm 4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (cascade amplification factor, REINSTATED)
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
-  - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (literal time dilation)
+  - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (cascade amplification factor)
 - **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, $N_{\rm sub} = 3$.86×10²
 - **L308u (WHY N=12? PARTIAL BREAKTHROUGH)**: 6D anomaly + SM fermion count + Schwarzian α → L308ap: STRUCTURAL with strong first-principles motivations and confirmations (3 gen × 4 Weyl INPUT, Schwarzian α = 1+1/√N PREDICTION, data CONFIRMATION)
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
@@ -29,7 +29,7 @@
 - 3 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK, L308n), $M_{\rm Pl,2D}$ = 12×$v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r) [L308ap: N=12 has SM fermion count INPUT + Schwarzian PREDICTION + data CONFIRMATION, but not pure derivation]
 - 2 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation, L308o)
 - 4 CALIBRATED: ε, $\tau_{\rm 4D}$, AGN rate, **$f_{\rm leak,3D\to4D} = H_0$ (A1 principle, L308ax frame-neutral name)**
-- 4 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ (both literal time dilation), **N=12 (L308ap: with strong first-principles motivations, not pure derivation)**
+- 4 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ (both cascade amplification factor), **N=12 (L308ap: with strong first-principles motivations, not pure derivation)**
 - 1 FREE: $N_{\rm sub}$ (specific to our universe's 4D event; 386 = we are 1 of 386 sibling sub-universes; other 4D events → different N)
 
 **For v3.5.9+ A1 era**: see `paper/legacy/v359_path_B2_rejected.md` (Path B2 REJECTED), `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`

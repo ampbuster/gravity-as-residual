@@ -2025,7 +2025,7 @@ Hmm, framework has 9 input parameters (v3.5.9 PRE-A1). After A1 (§7.4.20), tota
 
 ## 7.4.20 f_leak = H_0 as New Principle: DM Stability Without γ_4D Decoupling (v3.5.9+, USER-DIRECTED, BREAKTHROUGH)
 
-**User direction (2026-06-21)**: "ok, a1" — accept that γ_4D stays derived (literal time dilation) and find a different way to fix DM.
+**User direction (2026-06-21)**: "ok, a1" — accept that γ_4D stays derived (cascade amplification factor) and find a different way to fix DM.
 
 ### The Problem Discovered
 
@@ -2037,7 +2037,7 @@ $\tau_{\rm 4D} = 1.51e34 yr $← calibrated from ρ_DE_obs
         ↓
 $E_{\rm 4D} = M_{\rm Pl,4D} \times (\tau_{\rm 4D}/t_{\rm Pl})^{1/\alpha} = 3.12\times10^{89}\,\text{GeV}$
         ↓
-$\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha_{\rm 4D}} = 1.10\times10^{111} (A2)$ ← DERIVED (literal time dilation)
+$\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha_{\rm 4D}} = 1.10\times10^{111} (A2)$ ← DERIVED (cascade amplification factor)
         ↓
 f_leak = α × f_back (v3.0.21 naming: $f_{\rm DE}$ for 3D→4D continuous leakage) × γ_4D^(1/α²) = 2.59e-2 /s ← WAY TOO FAST (if used, HISTORICAL §3.67 formula REPLACED by f_leak = H_0 in A1)
 ```
@@ -2046,7 +2046,7 @@ Without a continuous f_leak = H_0 rate, DM grows unbounded (M_DM = R_add × t), 
 
 ### The Fix: Approach A1
 
-**$\gamma_{\rm 4D}$ stays DERIVED** (literal time dilation at 4D level). **$\gamma_{\rm 2D} = 5.5\times10^{44}$** (literal time dilation at 2D level, consistent with $\gamma_{\rm 4D}$ formula). The §3.67 formula is REPLACED by a NEW principle: **$f_{\rm leak} = H_0$** (post-Friedmann, independent of $\gamma_{\rm 4D}$).
+**$\gamma_{\rm 4D}$ stays DERIVED** (cascade amplification factor (4D level)). **$\gamma_{\rm 2D} = 5.5\times10^{44}$** (cascade amplification factor (2D level), consistent with $\gamma_{\rm 4D}$ formula). The §3.67 formula is REPLACED by a NEW principle: **$f_{\rm leak} = H_0$** (post-Friedmann, independent of $\gamma_{\rm 4D}$).
 
 **New principle** (post-Friedmann):
 
@@ -2067,7 +2067,7 @@ The framework has multiple γ values across different transitions:
 | γ_4D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | DERIVED | Literal time dilation |
 | γ_2D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | DERIVED | Literal time dilation (5.5e44 for SN) |
 
-**Both γ values are LITERAL TIME DILATION** — consistent with each other.
+**Both γ values are CASCADE AMPLIFICATION FACTOR** — consistent with each other.
 
 The "leak rate" f_leak is a SEPARATE quantity, set by H_0 (cosmological principle):
 
@@ -2087,7 +2087,7 @@ This separates concerns cleanly:
 - **N = 12** (Appelquist 2001, L308u first-principles)
 - **$E_{\rm 4D} = 5×10⁷⁹ J $= 3.12×10⁸⁹ GeV** (closed-loop from τ_4D)
 - **$\tau_{\rm 4D,proper} = 1.51\times10^{34}\,\text{yr}$** (calibrated for DE match)
-- **$\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$** (DERIVED, literal time dilation — REINSTATED)
+- **$\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$** (DERIVED, cascade amplification factor — REINSTATED)
 - **$\tau_{\rm 3D,apparent} = 1.66\times10^{145} (A2)\,\text{yr}$** ($\gamma_{\rm 4D} \times \tau_{\rm 4D}$, structural — REINSTATED)
 - **$N_{\rm sub} = 3.86×10²** ($calibrated, still first-principles open L144)
 - **$\tau_{\rm sub} = 6.97\times10^{30}\,\text{yr}$** (sub-universe lifetime)
@@ -2133,8 +2133,8 @@ The framework now has three independent "rates":
 - $M_{\rm DM}$ reaches steady state: $M_{\rm DM} = R_{\rm add} / f_{\rm leak} = 27\% \times \rho_{\rm crit}$ ✓
 
 **2. γ_4D AND γ_2D interpretations are consistent (L308x, L308aa reverted):**
-- $\gamma_{\rm 4D}$ = literal time dilation at 4D level
-- $\gamma_{\rm 2D}$ = literal time dilation at 2D level
+- $\gamma_{\rm 4D}$ = cascade amplification factor (4D level)
+- $\gamma_{\rm 2D}$ = cascade amplification factor (2D level)
 - Both use the same formula $(E_{\rm parent}/M_{\rm Pl,child})^{\alpha}$
 - Cone is symmetric in HAVING time dilation, asymmetric in MAGNITUDE (γ_4D >> γ_2D)
 
@@ -2155,7 +2155,7 @@ The framework now has three independent "rates":
 | **FIRST-PRINCIPLES** | α, M_Pl,2D, μ, N=12 |
 | **DERIVED (α-GM)** | M_Pl,4D |
 | **CALIBRATED** | ε, τ_4D, E_4D, AGN rate, **f_leak = H_0** (new) |
-| **STRUCTURAL** | τ_3D,apparent, γ_4D (both literal time dilation) |
+| **STRUCTURAL** | τ_3D,apparent, γ_4D (both cascade amplification factor) |
 | **FREE** | N_sub |
 
 **Total**: 14 parameters (was 13, +f_leak). **Net change: +1 calibrated (f_leak)**. [REVISED post-L308z: 15 parameters — E_4D moved from CALIBRATED to DERIVED, E_sub added as STRUCTURAL.]
@@ -4495,14 +4495,14 @@ L308w. **f_leak = H_0 IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** (v3.5.9+, 
 
 **Problem identified**: The framework's closed loop (τ_4D → E_4D → γ_4D) forced f_leak from §3.67 formula = 2.59×10⁻² /s (way too fast). Without continuous leak, DM grows unbounded, breaking stable 5/27/68 ratio. User catch: "no leak means dm to de and matter ratio will keep growing".
 
-**Fix (A1)**: $\gamma_{\rm 4D}$ stays DERIVED (literal time dilation at 4D level). $\gamma_{\rm 2D} = 5.5\times10^{44}$ (literal time dilation at 2D level, consistent with $\gamma_{\rm 4D}$ formula). The §3.67 formula is REPLACED by a NEW principle: $f_{\rm leak} = H_0$ directly.
+**Fix (A1)**: $\gamma_{\rm 4D}$ stays DERIVED (cascade amplification factor (4D level)). $\gamma_{\rm 2D} = 5.5\times10^{44}$ (cascade amplification factor (2D level), consistent with $\gamma_{\rm 4D}$ formula). The §3.67 formula is REPLACED by a NEW principle: $f_{\rm leak} = H_0$ directly.
 
 **New principle**: $f_{\rm leak} = H_0 = 2.18\times10^{-18}\,\text{s}^{-1}$
 
 **What's preserved**:
-- $\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha_{\rm 4D}} = 1.10\times10^{111} (A2)$ (DERIVED, literal time dilation)
-- $\gamma_{\rm 2D} = (E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha} = 5.5\times10^{44}$ (literal time dilation, per L308x)
-- Both γ values: consistent (literal time dilation)
+- $\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha_{\rm 4D}} = 1.10\times10^{111} (A2)$ (DERIVED, cascade amplification factor)
+- $\gamma_{\rm 2D} = (E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha} = 5.5\times10^{44}$ (cascade amplification factor, per L308x)
+- Both γ values: consistent (cascade amplification factor)
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵ (A2)$ yr (REINSTATED)
 - $\tau_{\rm 4D,proper} = 1.51×10³⁴$ yr (DE-exact, unchanged)
 - $E_{\rm 4D} = 5×10⁷⁹ J ($closed loop, unchanged)
@@ -4530,9 +4530,9 @@ STATUS: PARTIALLY CLOSED (postulated/observed).
 
 Source: `calculations/v36_research/A1_fleak_H0_principle.py`, paper §7.4.20.
 
-L308x. **γ_4D AND γ_2D ARE BOTH LITERAL TIME DILATION** (v3.5.9+, A1, structural, REVISED with proper/observed clarification).
+L308x. **γ_4D AND γ_2D ARE BOTH CASCADE AMPLIFICATION FACTOR** (v3.5.9+, A1, structural, REVISED with proper/observed clarification).
 
-**Structural consistency**: In Approach A1, both γ values across cascade transitions have the SAME interpretation (literal time dilation):
+**Structural consistency**: In Approach A1, both γ values across cascade transitions have the SAME interpretation (cascade amplification factor):
 
 - $\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha_{\rm 4D}} = 1.10\times10^{111} (A2)$ — 4D event's lifetime is time-dilated in 3D frame
 - $\gamma_{\rm 2D} = (E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha} = 5.5\times10^{44}$ (SN) — 2D universe's lifetime is time-dilated
@@ -4668,7 +4668,7 @@ Both have time dilation. The "asymmetry" is in MAGNITUDE (γ_4D >> γ_2D), not i
 - Continuous leakage 2D→3D during the 2D's proper time ($t_{\rm Pl}$) is too short
 - But during the 33s in 3D, the 2D universe exists as a "frozen" particle (DM)
 
-**Both γ values are LITERAL TIME DILATION (L308x confirmed)**:
+**Both γ values are CASCADE AMPLIFICATION FACTOR (L308x confirmed)**:
 - $\gamma_{\rm 2D} = 5.5\times10^{44}$ (time dilation at 2D level)
 - $\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$ (time dilation at 4D level)
 - The cone is symmetric in HAVING time dilation, asymmetric in MAGNITUDE
@@ -4682,7 +4682,7 @@ Source: user correction 2026-06-21 "wait, why no time dilation? it should exist 
 
 **v3.5.9+ Approach A1 status**: 
 - 5 new limitations (L308w, L308x, L308y, L308z, L308aa). Total limitations: 140 (was 135, +L308w/L308x/L308y/L308z/L308aa).
-- γ_4D: REINSTATED as DERIVED (literal time dilation)
+- γ_4D: REINSTATED as DERIVED (cascade amplification factor)
 - τ_3D,apparent: REINSTATED as 1.66×10¹⁴⁵ yr (A2)
 - f_leak: NEW principle = H_0 (post-Friedmann)
 - §3.67 formula: REPLACED (1.4% match becomes coincidence)

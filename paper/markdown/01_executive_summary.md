@@ -52,10 +52,10 @@ Both directions use the **SAME $\alpha = 1.289$** derived from **N = 12** SYK. T
 **The closed loop UNITES DM, DE, and gravity (v3.0.22, §3.60.3)**:
 
 - **Gravity weakness**: $\varepsilon_{\rm grav} \sim 6.32 \times 10^{-34}$ (A2, was $10^{-38}$ in A1) from bulk-brane cancellation; $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant
-- **DE density**: $\rho_{\rm DE} = f_{\rm DE} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.2 \times 10^{-47}$ GeV$^4$ (within 12% of observed!)
+- **DE density**: $\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.5 \times 10^{-47}$ GeV$^4$ (matches observed within 0.13%, via f×ε = 1.13×10⁻¹²³ invariant; v3.0.22 was 2.2×10⁻⁴⁷ within 12% via f_back ≈ 10⁻⁸⁵)
 - **DM density**: $\rho_{\rm DM} = f_{\rm DM,death} \times \Sigma(M_{\rm 2D} \times N_{\rm 2D})/V$ (uses same $f_{\rm DM,death}$)
 
-All three use the SAME $\alpha = 1.289$, the SAME $f_{\rm DE} \approx 10^{-85}$, the SAME bulk-brane geometry. The closed loop is what unifies them.
+All three use the SAME $\alpha = 1.289$ (Schwarzian SYK N=12, L308n), the SAME $f_{\rm DE,closed} \approx 1.79 \times 10^{-90}$ (A2 closed loop, L308av; A1 form $f_{\rm DE,simple} \approx 1.13 \times 10^{-85}$ gives same ρ_DE), the SAME bulk-brane geometry. The closed loop is what unifies them.
 
 See §3.60.1 (closed loop), §3.62 (Lagrangian skeleton), §10.1 (scaling law table), and `calculations/consistency_check_v3_0_21.py` (consistency verification).
 
