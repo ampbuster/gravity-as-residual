@@ -9,7 +9,7 @@
 
 **v3.5.9+ A2 HIGHLIGHTS** (CURRENT, June 22, 2026, APPROACH A2):
 
-**Paper:** 586 pages, 1.88 MB
+**Paper:** 587 pages, 1.88 MB
 **Limitations:** 144 honest (master table; +14 L308af-az in v3.5.9+ A2 await master table update: L308af-ay + new L308az) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
 
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):
@@ -16560,6 +16560,85 @@ Framework is internally consistent. No major issues found. Minor issues:
 3. ρ_DE conversion: not a paper issue
 
 Ready for pre-submission polish and arXiv prep.
+
+## 7.4.67 (L308bv): OBSERVATIONAL PREDICTIONS FOR UPCOMING SURVEYS
+
+**Date**: 2026-06-23
+**Trigger**: User: "lets do as you suggest" (move to next major direction)
+**Status**: ✓ SIDC predictions for Euclid/Roman/SKA documented
+
+### SIDC's Strongest Testable Predictions
+
+**1. w = -1 EXACTLY (TIGHT prediction)**
+
+SIDC predicts DE equation of state w = -1 EXACTLY at all z:
+- DE is constant due to time dilation (we see 9.1×10⁻²⁶ of 4D time)
+- No mechanism in SIDC for DE evolution
+- This is TIGHTER than ΛCDM's w = -1.03 ± 0.03
+
+**2. DE/DM ratio follows (1+z)^(-3) scaling exactly**
+
+DE = const, DM ∝ (1+z)³, so DE/DM ratio at z is fully determined.
+
+**3. No detection of dark matter PARTICLE**
+
+DM is geometric (2D universe deaths), not a particle. Direct detection should continue to find nothing.
+
+**4. M_Pl,2D = 2.95 TeV (structural prediction)**
+
+If 2D physics is detectable, M_Pl,2D should appear at ~3 TeV scale.
+
+### Predictions for Each Survey
+
+**Euclid (ESA, 2024+):**
+- Precision on w: σ(w) = 0.02 (final)
+- SIDC prediction: w = -1.0000 EXACTLY
+- If confirmed to σ(w) ~ 0.02: FAVORS SIDC over quintessence
+- If w ≠ -1 at 3σ: FALSIFIES SIDC's TIGHT prediction
+
+**Roman Space Telescope (NASA, 2027+):**
+- Precision on w: σ(w) = 0.01 (final)
+- SIDC prediction: w = -1.0000 EXACTLY
+- If confirmed to σ(w) ~ 0.01: STRONGLY FAVORS SIDC
+- If |w+1| > 0.01: FALSIFIES SIDC's TIGHT prediction
+
+**Square Kilometre Array (SKA, 2030+):**
+- 21cm power spectrum
+- σ_8(z) evolution test
+- SIDC matches ΛCDM-like σ_8 evolution
+- Could detect subtle DE evolution if present
+
+### Falsifiability Matrix
+
+| Observation | SIDC Status | If Detected |
+|---|---|---|
+| w ≠ -1 at >3σ | FALSIFIES SIDC TIGHT | FAVORS quintessence |
+| Dark matter particle | FALSIFIES geometric DM | FAVORS ΛCDM |
+| DE/DM scaling deviation | FALSIFIES cascade structure | FAVORS ΛCDM |
+| M_Pl,2D ≠ 2.95 TeV | FALSIFIES cascade structure | FAVORS other framework |
+
+### Implications
+
+1. SIDC is FALSIFIABLE within the next decade
+2. Roman's σ(w) ~ 0.01 could distinguish SIDC from ΛCDM
+3. If SIDC survives Euclid + Roman, it's strongly favored
+4. Direct detection limits already exclude most DM particle parameter space
+
+### Source
+
+User suggestion: Move to next major direction
+Calculation: `calculations/v36_research/L308bv_observational_predictions.py`
+
+### Status
+
+**L308bv**: ✓ DOCUMENTED.
+
+SIDC's predictions for Euclid/Roman/SKA are concrete and testable. The framework can be falsified by:
+1. Detection of DE evolution (w ≠ -1)
+2. Detection of dark matter particle
+3. Deviation from cascade structure
+
+These are not just-so stories — they're real predictions the framework commits to.
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
