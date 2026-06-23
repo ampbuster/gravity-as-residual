@@ -90,7 +90,7 @@ To formalize the geometric picture, we construct an effective action $S_{\text{S
 \begin{equation}
     S_{4\text{D}} = \int d^4x \sqrt{-g_4} \left[ \frac{1}{16\pi G_4} R_4 + N_{4\text{D}} \mathcal{L}_{4\text{D}} \right]
 \end{equation}
-where the 4D Planck mass is derived via the $\alpha$-weighted geometric mean: $\mpld{4} = \mpld{3}^{\alpha} \mpld{2}^{1-\alpha} \approx 3.93 \times 10^{23} \text{ GeV}$.
+where the 4D Planck mass is derived via the $\alpha_{2D}$-weighted geometric mean: $\mpld{4} = \mpld{3}^{\alpha_{2D}} \mpld{2}^{1-\alpha_{2D}} \approx 3.93 \times 10^{23} \text{ GeV}$ (using the 2D Schwarzian exponent for the 2D-3D cascade transition).
 
 \textbf{2. The 3+1D Brane:}
 \begin{equation}
@@ -139,9 +139,10 @@ The matter-DE equality epoch ($\Omega_{\text{DE}} = \Omega_{\text{DM}}$) occurs 
 Unlike models that rely on unfalsifiable parameter spaces, the SIDC framework yields three sharp predictions that can be tested by next-generation surveys:
 
 \begin{enumerate}
-    \item \textbf{Strict Cosmological Constant ($w = -1$):} Because DE is a time-dilated 4D projection, SIDC predicts $w = -1$ exactly, with $w_a = 0$. Any detection of $|w+1| > 0.01$ by Euclid or the Roman Space Telescope will falsify the tight SIDC prediction, favoring dynamical quintessence.
+    \item \textbf{Strict Cosmological Constant ($w = -1$):} Because DE arises from a 4D projection with extreme cascade amplification ($\gamma_{4\text{D}} \approx 1.10 \times 10^{111}$), the observable 3+1D universe sees only $\sim 9 \times 10^{-25}$ of the 4D event's lifetime, and the projected antigravity appears as a strictly constant vacuum energy. SIDC predicts $w = -1$ exactly, with $w_a = 0$. Any detection of $|w+1| > 0.01$ by Euclid or the Roman Space Telescope will falsify the tight SIDC prediction, favoring dynamical quintessence.
     \item \textbf{Exact DE/DM Scaling:} The ratio of dark sector densities must strictly follow $(1+z)^{-3}$. Deviations in high-redshift BAO or growth-rate $f(z)\sigma_8$ measurements would indicate a breakdown of the cascade conservation laws.
     \item \textbf{The 2.95 TeV Structural Scale:} The framework predicts the 2D Planck scale is locked to the electroweak vacuum expectation value via the SM fermion count: $\mpld{2} = N_{2\text{D}} \times v_H = 12 \times 246.22 \text{ GeV} \approx 2.95 \text{ TeV}$. While direct 2D scattering is currently inaccessible, this scale may manifest as anomalous missing-energy thresholds or specific tensor resonances in high-luminosity LHC runs.
+    \item \textbf{47 Tucanae DM Test (DECISIVE):} The galactic globular cluster 47 Tuc (M = $1.1 \times 10^6$ M$_\odot$, 12 Gyr old, no recent energetic events) is a clean SIDC vs $\Lambda$CDM test. SIDC predicts $M_{\rm dyn} \approx M_{\rm stars}$ within 5\% (no local DM spike), while $\Lambda$CDM predicts $\sim 5\text{--}15\%$ extra mass from the NFW halo. The Vera C. Rubin Observatory (DP1 2025, DR1 2027, Y10 2034) will measure this with sufficient precision to discriminate the two models decisively.
 \end{enumerate}
 
 \section{Discussion and Limitations}
@@ -152,12 +153,12 @@ The SIDC framework provides a highly parsimonious geometric origin for the dark 
 However, as an effective field theory, several avenues remain open for future theoretical development:
 \begin{itemize}
     \item \textbf{UV-Complete Path Integral:} The full partition function $Z_{\text{SIDC}} = \int \mathcal{D}\Phi e^{iS}$ requires rigorous evaluation using 2D CFT matrix models and Liouville boundary states.
-    \item \textbf{Bulk Field Embedding:} The precise mapping of the $C(6)$ Clifford structure to 4D bulk supergravity or F-theory compactifications remains to be formalized.
+    \item \textbf{Bulk Field Embedding:} The precise mapping of the $C\ell(6)$ Clifford structure (isomorphic to the SM algebra via Stoica 2018) to 4D bulk supergravity or F-theory compactifications remains to be formalized.
     \item \textbf{Hubble Tension:} SIDC currently inherits the standard $H_0$ tension, as the drain term $f_{\text{leak}}$ is calibrated to the CMB-inferred $H_0 = 67.4 \text{ km/s/Mpc}$.
 \end{itemize}
 
 \section{Conclusion}
-We have presented the Scale-Invariant Dimensional Cascade, a geometric framework that unifies dark matter and dark energy as dual projections across a $\mathbb{Z}_2$ dimensional mirror. By anchoring the cascade parameters to Bott periodicity and the Standard Model Clifford algebra $C(6)$, the model achieves exact numerical consistency with the observed vacuum energy while providing a clear mechanism for the dark sector coincidence. With the advent of precision cosmological surveys in the late 2020s, the strict predictions of SIDC will face definitive empirical tests.
+We have presented the Scale-Invariant Dimensional Cascade, a geometric framework that unifies dark matter and dark energy as dual projections across a $\mathbb{Z}_2$ dimensional mirror. By anchoring the cascade parameters to Bott periodicity and the Standard Model Clifford algebra $C\ell(6)$ (which is \textit{isomorphic to} the SM algebra), the model matches the observed vacuum energy density within 0.13\% via cascade structure with calibrated parameters. We emphasize that this match is \textit{accommodated} (via 4 calibrated parameters absorbing $\sim$120 orders of magnitude), not first-principles \textit{derived}. With the advent of precision cosmological surveys in the late 2020s---notably Euclid (w), Roman (w), and the Vera C. Rubin Observatory (47 Tuc DM)---the strict predictions of SIDC will face decisive empirical tests. The framework's principal open gap is the UV-complete path integral $Z_{\text{SIDC}}$, which requires 2D CFT expert input (estimated 12--18 months).
 
 \section*{Acknowledgments}
 The author acknowledges the use of large language models (Mavis M3, MiniMax) for algebraic verification, literature synthesis, and code generation during the development of the phenomenological pipeline. The open-source computational framework and development history are publicly available at \url{https://github.com/ampbuster/gravity-as-residual}.
