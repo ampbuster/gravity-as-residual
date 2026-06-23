@@ -20,8 +20,8 @@
 - **`paper/paper.pdf`** — Main paper, 597 pages, 1.94 MB
 - **`paper/arxiv/paper_arxiv.pdf`** — Condensed arxiv paper, 6 pages, 82 KB
 - **`paper/arxiv/paper_arxiv.tex`** — LaTeX source for the arxiv paper
-- **`paper/arxiv/paper.md`** — Markdown source (reference only)
-- **`paper/arxiv/build_arxiv.sh`** — Self-contained build script
+- **`paper/arxiv/paper_arxiv.tex`** — LaTeX source (Qwen template)
+- **`paper/arxiv/paper_arxiv.pdf`** — Compiled PDF
 - **`README.md`** — Top-level summary
 - **`STATE_OF_THE_MODEL.md`** — Current model state
 - **`CITATION.cff`** — Citation metadata
