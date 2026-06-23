@@ -22,7 +22,7 @@ We propose a phenomenological geometric framework—the **Scale-Invariant Dimens
 2. **DE/DM density ratio** scaling precisely as $(1+z)^{-3}$
 3. **Structural 2D Planck scale** at $M_{\text{Pl,2D}} = 2.95$ TeV
 
-The framework is testable by Euclid (2024+), Roman (2027+), and the Vera C. Rubin Observatory (47 Tuc DM test, 2025–2034).
+The framework is testable by Euclid (Q1+ 2025), Roman (2027+), and the Vera C. Rubin Observatory (47 Tuc DM test, DP1 2025 → DR1 2027 → Y10 2034).
 
 ---
 
