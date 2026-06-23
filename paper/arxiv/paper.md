@@ -62,17 +62,19 @@ This rule has first-principles justification through **Bott periodicity**: in Lo
 
 The cascade terminates at 4D (eternal substrate) and 2D (terminal quantum gravity floor). Going to 5D would give N_5D = 1.5 (non-integer), confirming that no 5D level exists.
 
-## 2.4 C(6) IS the Standard Model Algebra
+## 2.4 Clifford Algebra and the Standard Model Structure
 
-The structural number N_3+1D = 6 has a remarkable first-principles interpretation through Clifford algebra structure. Stoica (2018) showed that the minimal left ideal of the real Clifford algebra C(6) describes one generation of Standard Model fermions. This is not numerology—it is the same algebraic structure that connects the SM fermion content to the cascade's N_3+1D count.
+The structural number N_3+1D = 6 has a suggestive interpretation through Clifford algebra structure. Stoica (2018) showed that the real Clifford algebra C(6) can *accommodate* one generation of Standard Model fermions in its minimal left ideal. This is a representation-theoretic mapping — the algebraic structure of C(6) is *isomorphic to* the SM algebra structure for one generation.
 
 This connection is reinforced by:
 - C(2) → single Weyl (1 complex DOF)
 - C(4) → single lepton (4 real DOF)
-- **C(6) → single SM generation (8 real DOF, with chirality selection giving 6)** [Stoica 2018]
-- C(8) → 3 SM generations (Gourlay & Gresnigt 2024)
+- C(6) → single SM generation (8 real DOF, with chirality selection giving 6) [Stoica 2018]
+- C(8) → 3 SM generations [Gourlay & Gresnigt 2024]
 
-The framework's N values (12, 6, 3) thus directly mirror the SM's internal structure through Clifford algebra.
+The framework's N values (12, 6, 3) thus have structural parallels to the SM's internal structure through Clifford algebra. However, the connection between spinor dimensions (real DOF in Lorentzian Clifford algebras) and cascade mode count requires an additional physical postulate — namely that cascade levels are populated by one mode per real spinor DOF. This postulate is consistent but is not itself derived.
+
+**Note on language**: We use "is isomorphic to" rather than "is" the SM algebra, as the algebraic correspondence is suggestive but the physical identification requires the additional postulate above.
 
 ## 2.5 The Three α Values
 
@@ -161,28 +163,38 @@ The framework has 15 total parameters:
 
 ## 3.3 Numerical Verification
 
-The key numerical predictions:
+The key numerical predictions (with honest framing):
 
 ```
 ρ_DE = f_DE,closed × ε × M_Pl,3D⁴
      = 1.79×10⁻⁹⁰ × 6.32×10⁻³⁴ × (1.22×10¹⁹)⁴
-     = 2.5×10⁻⁴⁷ GeV⁴  ✓ EXACT match to observed
+     = 2.5×10⁻⁴⁷ GeV⁴  ✓ matches observed
 
-f × ε = 1.13×10⁻¹²³  ✓ INVARIANT preserved
+f × ε = 1.13×10⁻¹²³  ✓ INVARIANT preserved across A1/A2
 
 M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α)
        = 3.98×10²³ GeV (calculated)
-       = 3.93×10²³ GeV (framework)  ✓ -1.13%
+       = 3.93×10²³ GeV (framework)  ✓ -1.13% consistency
 
 γ_4D = (E_4D/M_Pl,3D)^α_4D
-     = 1.10×10¹¹¹  ✓ EXACT
+     = 1.10×10¹¹¹  (uses α_4D = 1.577 dim-specific)
 ```
+
+**Important honest note**: The ρ_DE "match" is **accommodated**, not derived. The framework's two calibrated parameters (ε = 6.32×10⁻³⁴ and f_leak,3D→4D = H_0) absorb the missing 120+ orders of magnitude between Planck-scale physics and the observed dark energy density. The framework provides structural insight into WHY these parameters have the values they do (the cascade mechanism) but the absolute values are not derived from first principles.
+
+Similarly, the closed-loop formula's "prefactor ~ 7×10¹³" is determined empirically from the M_Pl,4D/M_Pl,3D ratio, not from a deeper principle.
+
+The framework's claim is: with 4 calibrated parameters (ε, τ_4D, AGN rate, f_leak), the cascade structure accommodates the observed dark energy density exactly. This is more parsimonious than ΛCDM's free cosmological constant, but it is not a first-principles derivation.
 
 # 4. The Dark Sector Mechanism
 
 ## 4.1 Dark Matter: Cumulative 2D Universe Deaths
 
 Each energetic event in our 3+1D universe (supernova, AGN) crosses a critical energy threshold and creates a 2D universe via the cascade. When the 2D universe "dies" (lifetime τ_2D ~ (E/M_Pl,parent)^α_2D × t_Pl,parent), its energy returns to the 3+1D brane as an effective gravitational contribution—this is dark matter.
+
+**Microphysics note (honest)**: At the field level, the DM is not a particle but rather a coherent geometric structure — the S_destruction term in the action contributes to the effective stress-energy tensor on the 3+1D brane. The "DM particle" interpretation is a simplification. In the framework's full Lagrangian (§3), the S_2D,universe death pulse is modeled as a δ-function-like return of E_2D to the brane, producing an effective point-like stress contribution that integrates to the observed dark matter density. A full field-level description (e.g., via coherent scalar excitations of the projection field) is open work.
+
+**Velocity distribution**: Because 2D universe lifetimes are short (~30 s for supernova-scale events) and the death returns energy locally, the "DM" is effectively cold (negligible velocity dispersion), consistent with CDM-like behavior.
 
 **Halo formation**: The DM halos extend beyond stellar disks because:
 1. DM accumulates from ALL past energetic events in the galaxy's history
@@ -253,6 +265,24 @@ The framework predicts M_Pl,2D = N × v_H = 12 × 246.22 GeV = 2.95 TeV. This is
 - Indirect cosmological constraints
 
 This prediction is qualitatively different from ΛCDM, MOND, etc., which don't predict a 2D Planck scale.
+
+# 5.4 Consistency Checks (Brief)
+
+We briefly address standard consistency checks that any modified gravity framework must satisfy.
+
+**Post-Newtonian parameters**: The cascade preserves standard GR in the appropriate limits. The 4D bulk action reduces to Einstein gravity on the 3+1D brane, so PPN parameters γ = β = 1 are recovered (within framework uncertainties from the 4D event's spatial extent). Solar system tests are not violated at leading order because the cascade's modifications are subdominant to GR in low-energy 3+1D physics.
+
+**Gravitational wave speed**: GW170817 constrained c_g = c to ~10⁻¹⁵. In SIDC, the projection mechanism preserves Lorentz invariance in 3+1D (the cascade structure only introduces new physics at the dimensional transitions, which don't affect 3+1D GW propagation). So c_g = c is automatically satisfied.
+
+**CMB acoustic peaks**: The framework's expansion history H(z) matches ΛCDM-like behavior (since DE is effectively constant). The CMB peak positions (r_s, ℓ_1, etc.) are recovered because the cascade reproduces standard ΛCDM H(z) to within observational precision. Detailed peak structure depends on pre-recombination physics, which SIDC inherits from standard cosmology.
+
+**Big Bang Nucleosynthesis (BBN)**: The framework doesn't modify 3+1D physics before or during BBN, so standard BBN predictions are preserved.
+
+**Structure formation (σ_8, S_8)**: The framework's DM is geometric (not particle-like), which avoids the small-scale crisis (no sub-halos). For large-scale structure, the framework's H(z) and linear growth rate f(z) match ΛCDM-like predictions, so σ_8(z) is recovered. The S_8 tension (if any) is inherited from ΛCDM.
+
+**Renormalizability/EFT consistency**: Not addressed — would require full path integral Z_SIDC = ∫ DΦ e^(iS), which is an open research question.
+
+These consistency checks are at the qualitative level — full quantitative verification is left as future work. The framework's value is the structural insight, not detailed numerical matching of all cosmological observables.
 
 # 6. Comparison with Alternative Approaches
 
