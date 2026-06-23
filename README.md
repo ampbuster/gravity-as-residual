@@ -1,18 +1,50 @@
 # Gravity as Residual
 
-> **A thought experiment on dimensional inversion, annihilation, and the origin of the dark sector.**
->
-> *ampbuster (software developer, not a physicist)* | AI-assisted development with Mavis (M3, MiniMax)
->
-> [GitHub repo](https://github.com/ampbuster/gravity-as-residual) · [Paper (PDF, 597 pages, 1.94 MB)](paper/paper.pdf) · [Paper (markdown)](paper/paper.md) · [arXiv Condensed (PDF, 6 pages)](paper/arxiv/paper_arxiv.pdf) · [Master Summary v3.5.9+ A2](paper/SUMMARY_v359_A1.md)
+**A geometric framework for the dark sector via scale-invariant dimensional cascades.**
 
-**SIDC** = **S**cale-**I**nvariant **D**imensional **C**ascade. A single principle — geometric projection through a dimensional cascade — produces gravity, dark matter, and dark energy as different views of the same 4D event. **No dark matter particle. No cosmological constant. No free parameters for the dark sector.**
+*ampbuster (Independent Researcher) | AI-assisted development with Mavis (M3, MiniMax)*
+
+📄 **[Read the paper](paper/arxiv/paper_arxiv.pdf)** (PDF, 6 pages, arXiv format)
+🗂️ **[Extended development](paper/paper.pdf)** (PDF, 611 pages, 2.1 MB — full Lagrangian, calculations, audit log)
+💻 **[GitHub repo](https://github.com/ampbuster/gravity-as-residual)**
 
 ---
 
-## What this paper is, in one paragraph
+## Abstract
 
-A 4D event with a 3+1D brane and 2D universes creates all three pillars of the dark sector as geometric byproducts: gravity weakness is the cancellation between brane gravity and inverted bulk gravity; dark energy is the un-cancelled fraction of that inversion; dark matter is the cumulative gravitational imprint of 2D universes that have died. The same scaling law (α = 1 + 1/√12 = 1.289) governs supernovae to AGN outbursts (54 orders of magnitude), and the same closed-loop formula yields the dark-energy density from the 4D event lifetime. The cascade is dimension-invariant, with three "physical" brane levels (2D, 3+1D, 4D) connected by Clifford algebra structure (Cℓ(6) is isomorphic to the Standard Model algebra, Stoica 2018) and Bott periodicity.
+We propose a phenomenological geometric framework—the **Scale-Invariant Dimensional Cascade (SIDC)**—in which gravity, dark matter, and dark energy emerge from a unified dimensional projection mechanism. The framework postulates a three-level hierarchical cascade (4D bulk event → 3+1D brane → 2D terminal quantum gravity floor) governed by a $\mathbb{Z}_2$ mirror symmetry at the 3+1D boundary. Downward dimensional projection induces an effective sign-flip in the gravitational coupling (yielding dark energy), while upward projection preserves standard attractive gravity (yielding dark matter). The cascade's structural parameters ($N_{2\text{D}} = 12$, $N_{3+1\text{D}} = 6$, $N_{4\text{D}} = 3$) are motivated by Clifford algebra representations and Bott periodicity. We construct an effective action that matches the observed dark energy density ($\rho_{\text{DE}} = 2.5 \times 10^{-47}$ GeV⁴) via cascade structure, and yields three sharp, falsifiable predictions:
+
+1. **Strict cosmological constant** ($w = -1$ exactly, no evolution)
+2. **DE/DM density ratio** scaling precisely as $(1+z)^{-3}$
+3. **Structural 2D Planck scale** at $M_{\text{Pl,2D}} = 2.95$ TeV
+
+The framework is testable by Euclid (2024+), Roman (2027+), and the Vera C. Rubin Observatory (47 Tuc DM test, 2025–2034).
+
+---
+
+## About this work
+
+This repository contains a thought experiment in theoretical physics: a single geometric principle—dimensional projection through a hierarchical cascade—unifies gravity, dark matter, and dark energy. The framework was developed through extended dialogue with an AI assistant (Mavis M3, MiniMax), with the developer acting as a software engineer rather than a credentialed physicist. The author is explicit about which elements of the framework are first-principles derived, which are calibrated to observation, and which remain as open research questions.
+
+**Key idea**: A 4D event with a 3+1D brane and 2D universes creates all three pillars of the dark sector as geometric byproducts. The same scaling law governs supernovae to AGN outbursts (54 orders of magnitude), and the same closed-loop formula yields the dark-energy density from the 4D event lifetime. **No dark matter particle. No cosmological constant.**
+
+---
+
+## 📚 What's in this repository
+
+### Primary paper (read this first)
+- **`paper/arxiv/paper_arxiv.pdf`** — 6-page condensed paper, arXiv format, with abstract, cascade structure, Lagrangian, predictions, and limitations.
+- **`paper/arxiv/paper_arxiv.tex`** — LaTeX source.
+
+### Extended development (supplementary material)
+- **`paper/paper.pdf`** — 611-page extended version: full Lagrangian derivations (§3.60–§3.73), 198 limitations (§6), all calculation scripts, and the full audit history (L308ba–L308cj).
+- **`paper/markdown/`** — 24 source markdown files used to build the 611-page version.
+- **`paper/SUMMARY_v359_A1.md`** — summary of v3.5.9+ A1 (superseded by A2, kept for history).
+- **`paper/legacy/`** — historical versions and superseded approaches.
+
+### Key derivations & data
+- **`calculations/`** — 500+ calculation scripts used to derive and verify framework values.
+- **`supporting/`** — layman summary, visual summary, arXiv submission notes.
 
 ---
 

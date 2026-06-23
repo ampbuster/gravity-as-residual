@@ -4,9 +4,14 @@
 
 ## Overview
 
-**Paper**: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
+**Paper**: "Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades"
 **Subtitle**: SIDC = Scale-Invariant Dimensional Cascade
 **Version**: v3.5.9+ A2 (APPROACH A2: α dim-specific: α_2D=1.289, α_4D=1.577; f_back → f_DE,closed)
+
+**Available formats**:
+- **ArXiv condensed** (6 pages, 86 KB): `paper/arxiv/paper_arxiv.{tex,pdf}` — primary "physics paper" version
+- **Extended development** (611 pages, 2.1 MB): `paper/paper.{md,pdf}` — full Lagrangian, 198 limitations, audit log
+- **Markdown sources** (24 files): `paper/markdown/`
 
 **v3.5.9+ A2 BREAKTHROUGHS** (current, α dim-specific):
 - **APPROACH A1+A2** (§7.4.20-42):

@@ -1,8 +1,21 @@
 # Release Notes — v3.5.9-A2
 
 **Tag**: `v3.5.9-A2`
-**Commit**: `e25fbdc`
+**Commit**: current
 **Date**: 2026-06-23
+
+## Primary deliverable
+
+- **`paper/arxiv/paper_arxiv.pdf`** — 6-page arXiv-format condensed paper
+- **`paper/arxiv/paper_arxiv.tex`** — LaTeX source
+
+This is the canonical "physics paper" version. Read this first.
+
+## Supplementary material
+
+- **`paper/paper.pdf`** — 611-page extended development version (full Lagrangian, 198 limitations, audit log)
+- **`paper/markdown/`** — 24 markdown source files
+- **`paper/legacy/`** — historical versions
 
 ## Highlights
 

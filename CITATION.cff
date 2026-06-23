@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software or ideas, please cite it as below."
 type: software
-title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
+title: "Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades"
 version: "3.5.9+A2"
 date-released: 2026-06-23
 authors:
@@ -14,19 +14,19 @@ keywords:
   - dimensional cascade
   - brane-world
   - modified gravity
-  - thought experiment
+  - clifford algebra
 license: "Other (research paper, all rights reserved by author)"
 url: "https://github.com/ampbuster/gravity-as-residual"
 
 preferred-citation:
   type: article
-  title: "Gravity as Residual: A Thought Experiment on Dimensional Inversion, Annihilation, and the Origin of the Dark Sector"
+  title: "Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades"
   version: "3.5.9+A2"
   date-released: 2026-06-23
   authors:
     - family-names: "(software developer)"
       given-names: "anonymous"
-  journal: "arXiv preprint (to be submitted)"
+  journal: "arXiv preprint (paper/arxiv/paper_arxiv.tex, 6 pages)"
   notes: |
     Version 3.5.9+ A2 (June 2026).
     Author: software developer (non-specialist).
