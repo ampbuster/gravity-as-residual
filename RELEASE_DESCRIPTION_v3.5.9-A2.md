@@ -6,11 +6,11 @@ A geometric framework for the dark sector via scale-invariant dimensional cascad
 
 ### 📄 Primary deliverable: arXiv paper
 
-- **`paper_arxiv.tex`** — LaTeX source (Qwen template, 6 pages)
-- **`paper_arxiv.pdf`** — compiled PDF (86 KB)
-- **`arxiv-paper-v3.5.9-A2.tar.gz`** — both files in one archive
+- **`paper_arxiv.pdf`** — compiled PDF (6 pages, 86 KB)
 
 This is the canonical "physics paper" version. Read this first.
+
+The LaTeX source is available in the repository at `paper/arxiv/paper_arxiv.tex` for any future revisions or derivative works.
 
 ### 🗂️ Supplementary: extended development
 
