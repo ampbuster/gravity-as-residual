@@ -94,13 +94,13 @@ The L308 chain (L308ab-L308ce) covers:
 **Testable predictions:**
 1. **w = -1 EXACTLY** (no evolution, tighter than ΛCDM) — testable by Euclid (2024+), Roman (2027+)
 2. **DE/DM ratio follows (1+z)⁻³ EXACTLY** — testable by BAO + growth rate f(z)σ_8
-3. **M_Pl,2D = 2.95 TeV** — testable at HL-LHC as anomalous missing-energy threshold
+3. **$M_{\rm Pl,2D} = 2.95$TeV** — testable at HL-LHC as anomalous missing-energy threshold
 
 **Numerical values (A2):**
 - ε = 6.32×10⁻³⁴
 - f_DE,closed = 1.79×10⁻⁹⁰
-- γ_4D = 1.10×10¹¹¹
-- τ_3D,apparent = 1.66×10¹⁴⁵ yr
+- $\gamma_{\rm 4D} = 1.10×10¹¹¹$
+- $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - ρ_DE = 2.5×10⁻⁴⁷ GeV⁴ (matches observed)
 - f×ε invariant = 1.13×10⁻¹²³ (preserved across A1 and A2)
 - H_0 = 67.4 km/s/Mpc (Planck, inherited from ΛCDM)
@@ -112,9 +112,7 @@ The L308 chain (L308ab-L308ce) covers:
 - 2 DERIVED (M_Pl,4D via α-GM, E_4D via N_sub × E_sub)
 - 4 CALIBRATED (ε, τ_4D, AGN rate, f_leak,3D→4D = H_0)
 - 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12)
-- 1 FREE (N_sub = 386)
-
-### Citation
+- 1 FREE ($N_{\rm sub} = 386)$### Citation
 
 ```bibtex
 @software{ampbuster2026gravity,

@@ -20,6 +20,8 @@ def replace_unicode(text):
     replacements = {
         '✓': '[OK]',          # checkmark
         '✗': '[X]',           # cross mark
+        '\u26a0': '[!]',      # warning sign (U+26A0) - not in DejaVu Serif
+        '\u26a0\ufe0f': '[!]', # warning sign with VS16 selector
         '→': '->',            # arrow
         '⇒': '=>',            # implies
         '×': 'x',             # times (in text mode)

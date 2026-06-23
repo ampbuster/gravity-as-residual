@@ -1501,9 +1501,9 @@ The original §3.67 Lagrangian is REVISED as follows:
 ```
 S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
        with M_Pl,4 = 3.93×10²³ GeV (SIDC's α-GM, L308v)
-       and   E_4D = N_sub × E_sub = 386 × 1.295×10⁷⁷ J = 5.0×10⁷⁹ J (STRUCTURAL, E_sub is per-sub-universe energy)
-       and   γ_4D = (E_4D/M_Pl,3D)^α_4D × t_Pl,3D = 1.10×10¹¹¹ (uses PARENT's Planck per L308t fix)
-       and   τ_4D = 1.51×10³⁴ yr (apparent 3+1D lifetime, calibrated)
+       and   E_4D = N_sub × $E_{\rm sub} = 386 × 1.295×10⁷⁷ J$= 5.0×10⁷⁹ J (STRUCTURAL, E_sub is per-sub-universe energy)
+       and   γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D × t_Pl,3D = 1.10×10¹¹¹ (uses PARENT's Planck per L308t fix)
+       and   $\tau_{\rm 4D} = 1.51×10³⁴ yr ($apparent 3+1D lifetime, calibrated)
 ```
 
 **S_3+1D,brane (REVISED, with f×ε invariant)**:
@@ -1528,7 +1528,7 @@ S_2D,universe = S_Liouville + S_Ising + S_SYK + S_FZZT + S_bilateral
     S_bdy = (1/4π) ∫ [K + μ_B] ds                 ← FZZT brane
     S_bilateral = ∫ [δ(τ - τ_2D) × E_2D           ← DM DEATH PULSE (100% return)
                    - f_leak,2D→3D × Θ(τ_2D - τ)]   ← DM drain (natural, ~10⁻⁴⁵, DROPPED)
-       with τ_2D = (E/M_Pl,parent)^α_2D × t_Pl,parent  ← α_2D = 1.289
+       with τ_2D = $(E/M_{\rm Pl,parent})^{\alpha}$_2D × t_Pl,parent  ← α_2D = 1.289
        with f_leak,2D→3D = t_Pl,3/τ_2D ≈ 1.6×10⁻⁴⁵ (NATURAL, negligible vs death pulse)
 ```
 
@@ -1540,7 +1540,7 @@ S_projection = σ_+ × g_couple × ∫ d⁴x d²z Φ_4D Φ_2D Θ(τ_2D - τ)    
 
     with σ_+ = +1 (DE side, above 3+1D mirror plane)
     with σ_- = -1 (DM side, below 3+1D mirror plane)
-    with τ_2D = (E/M_Pl,parent)^α × t_Pl,parent   ← α = α_D for the relevant dimension
+    with τ_2D = $(E/M_{\rm Pl,parent})^{\alpha}$ × t_Pl,parent   ← α = α_D for the relevant dimension
 
     The sign flip σ_+ × σ_- = -1 is the L308az mirror plane symmetry:
     same 1/r² operation, opposite sign because of cone direction.
@@ -1596,7 +1596,7 @@ The Lagrangian now uses A2 frame-neutral naming (L308ax):
 
 The §3.68 Lagrangian is a STRUCTURAL IMPROVEMENT over §3.67:
 - ✓ Integrates A2 dim-specific α (L308av, L308aw, L308ba)
-- ✓ Uses A2 numerical values (f_DE,closed = 1.79×10⁻⁹⁰, ε = 6.32×10⁻³⁴, γ_4D = 1.10×10¹¹¹)
+- ✓ Uses A2 numerical values (f_DE,closed = 1.79×10⁻⁹⁰, ε = 6.32×10⁻³⁴, $\gamma_{\rm 4D} = 1.10×10¹¹¹$)
 - ✓ Encodes L308az mirror plane symmetry (sign flip in projection)
 - ✓ Uses frame-neutral naming (L308ax)
 - ✓ Adds bilateral cascade structure (death pulse + drain) to S_2D,universe
@@ -1617,7 +1617,7 @@ It does NOT:
 | Projection sign | ±g_couple (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
 | Frame naming | f_back, f_leak, f_DM,leak | f_DE,closed, f_leak,2D→3D, f_leak,3D→4D | L308ax |
 | E_sub in 4D term | not explicit | E_4D = N_sub × E_sub explicit | A2 STRUCTURAL |
-| 2D universe lifetime | (E/M_Pl,3D)^α × t_Pl | (E/M_Pl,parent)^α_D × t_Pl,parent (dim-specific) | L308ba |
+| 2D universe lifetime | (E/M_Pl,3D)^α × t_Pl | $(E/M_{\rm Pl,parent})^{\alpha}$_D × t_Pl,parent (dim-specific) | L308ba |
 | DM picture | pulsed death + ε × ρ | pulsed death + f_leak,3D→4D × ρ_DM (bilateral) | L308ax |
 | Mirror plane | not encoded | S_mirror term explicit | L308az |
 | Halving rule | unknown | N_D = 12/2^(D-2) identified | L308ba |
@@ -1759,7 +1759,7 @@ If 4D has 3 generations of bulk fields, the 4D action is structurally analogous 
 | Mirror plane | not encoded | S_mirror term | L308az |
 | Frame-neutral naming | legacy | f_DE,closed, f_leak,2D→3D, f_leak,3D→4D | L308ax |
 | Dim-specific α | universal 1.289 | 1.289/1.408/1.577 | L308ba halving rule |
-| E_sub explicit | not specified | E_4D = 386 × 1.295e77 J | A2 STRUCTURAL |
+| E_sub explicit | not specified | $E_{\rm 4D} = 386 × 1.295e77 J$| A2 STRUCTURAL |
 | Bilateral cascade | pulsed only | death pulse + drain | L308ax |
 
 See `calculations/v36_research/L308bb_lagrangian_audit_v368.py` for the full audit calculation and N_D interpretation analysis.
@@ -1862,7 +1862,7 @@ After the L308bh breakthrough (C(6) is the SM algebra, Stoica 2018), the user di
   - N_2D = 12 = 3 gen × 4 Weyl (L308r, SM count)
   - N_3+1D = 6 = C(6) SM algebra (Stoica 2018) [NEW]
   - N_4D = 3 = 3 generations (Clifford/McKay/cobordism)
-- ε = 6.32×10⁻³⁴, f_DE,closed = 1.79×10⁻⁹⁰, γ_4D = 1.10×10¹¹¹
+- ε = 6.32×10⁻³⁴, f_DE,closed = 1.79×10⁻⁹⁰, $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - ρ_DE = 2.5×10⁻⁴⁷ EXACT
 
 #### 3.71.2 What Changed from Previous B
@@ -1931,8 +1931,8 @@ NO numerical changes. Option B Strengthened uses the same values as Option B (A2
 - α_2D/3+1D/4D = 1.289/1.408/1.577
 - ε = 6.32×10⁻³⁴
 - f_DE,closed = 1.79×10⁻⁹⁰
-- γ_4D = 1.10×10¹¹¹
-- τ_3D,apparent = 1.66×10¹⁴⁵ yr
+- $\gamma_{\rm 4D} = 1.10×10¹¹¹$
+- $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - ρ_DE = 2.5×10⁻⁴⁷ GeV⁴ (EXACT)
 
 The switch is interpretive (justification), not numerical (re-calibration).
@@ -1973,7 +1973,7 @@ The cascade framework now uses Option B Strengthened as its primary interpretati
 - α dim-specific (1.289/1.408/1.577)
 - All three N values first-principles derived
 - ε = 6.32×10⁻³⁴ (A2 calibrated)
-- γ_4D = 1.10×10¹¹¹
+- $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - ρ_DE = 2.5×10⁻⁴⁷ EXACT
 
 The framework's choice is justified BOTH structurally (L308ba, L308bc, L308az) AND first-principles (L308r, Stoica 2018, Clifford/McKay/cobordism).
@@ -1997,9 +1997,9 @@ with components:
 
 | Component | Purpose | Key Parameters |
 |-----------|---------|----------------|
-| S_4D,event | The eternal 4D substrate | M_Pl,4D = 3.93×10²³ GeV, γ_4D = 1.10×10¹¹¹, τ_4D = 1.51×10³⁴ yr |
-| S_3+1D,brane | Our universe (Standard Model + DE) | M_Pl,3D = 1.22×10¹⁹ GeV, Λ = 2.5×10⁻⁴⁷ GeV⁴ |
-| S_2D,universe | Quantum gravity floor (2D CFT) | M_Pl,2D = 2.95 TeV, N=12 (SYK), c=1 Liouville |
+| S_4D,event | The eternal 4D substrate | $M_{\rm Pl,4D} = 3.93×10²³ GeV$, $\gamma_{\rm 4D} = 1.10×10¹¹¹$, $\tau_{\rm 4D} = 1.51×10³⁴ yr$|
+| S_3+1D,brane | Our universe (Standard Model + DE) | $M_{\rm Pl,3D} = 1.22×10¹⁹ GeV$, Λ = 2.5×10⁻⁴⁷ GeV⁴ |
+| S_2D,universe | Quantum gravity floor (2D CFT) | $M_{\rm Pl,2D} = 2.95$TeV, N=12 (SYK), c=1 Liouville |
 | S_projection | Bidirectional cascade with mirror plane | σ_+ (DE), σ_- (DM), g_couple |
 | S_drain | Calibrated DM stability | f_leak,3D→4D = H_0 = 67.4 km/s/Mpc |
 
@@ -2041,9 +2041,9 @@ f × ε = 1.13×10⁻¹²³ invariant preserved (across all formulas)
 
 M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×10²³ GeV ✓ (-1.13% from α-GM formula)
 
-γ_4D = (E_4D/M_Pl,3D)^α_4D = 1.10×10¹¹¹ ✓ EXACT (uses PARENT's Planck per L308t)
+γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D = 1.10×10¹¹¹ ✓ EXACT (uses PARENT's Planck per L308t)
 
-τ_3D,apparent = γ_4D × τ_4D = 1.66×10¹⁴⁵ yr ✓ (apparent 3+1D lifetime of 4D event)
+τ_3D,apparent = γ_4D × $\tau_{\rm 4D} = 1.66×10¹⁴⁵ yr$✓ (apparent 3+1D lifetime of 4D event)
 ```
 
 #### 3.72.4 What the Lagrangian Closes (L308ba-bj, bi)
@@ -2215,7 +2215,7 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 
 **First-principles parameters (4):**
 1. α_2D = 1 + 1/√12 = 1.289 (Schwarzian SYK N=12, L308n)
-2. M_Pl,2D = 12 × v_H = 2.95 TeV (L308r)
+2. $M_{\rm Pl,2D} = 12 ×$v_H = 2.95 TeV (L308r)
 3. μ = M_Pl,2D² = 8.73×10⁶ GeV² (L308r)
 4. **N_3+1D = 6 = C(6) SM algebra (L308bh) ← NEW**
 
@@ -2228,7 +2228,7 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 **Still structural (4):** E_sub, τ_3D,apparent, γ_4D, N_2D = 12 (SM count)
 **Inferred:** N_4D = 3 (3 generations — multiple interpretations)
 
-**Still free (1):** N_sub = 386 (specific to our 4D event)
+**Still free (1):** $N_{\rm sub} = 386 ($specific to our 4D event)
 
 #### 3.73.6 Path Integral (5%, was 0%)
 

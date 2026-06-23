@@ -109,7 +109,7 @@ DM is a smooth, localized metric back-projection from the S_destruction action. 
 
 $$\boxed{\tau_{2D,\,\text{our frame}} = t_{\rm Pl,3} \times \left(\frac{E_{\rm 3D\,event}}{M_{\rm Pl,3D}}\right)^{1.29}}$$
 
-- **SN calibration**: τ_2D = 33 s when E = 10⁴⁴ J
+- **SN calibration**: $\tau_{\rm 2D} = 33$ s when E = 10⁴⁴ J
 - **Verified**: 8/8 3D event types match the formula within factor 1.6
 - **Range**: 1 ton TNT (~10⁻³⁷ μs) to AGN outbursts (~10⁸ yr) — **54 orders of magnitude**
 
@@ -155,11 +155,11 @@ Level    N    Clifford Structure                  First-principles
 | Status | Count | Parameters |
 |---|:---:|---|
 | 1 MEASURED | 1 | M_Pl,3D (Newton's G) |
-| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), M_Pl,2D = 12×v_H (L308r), μ = M_Pl,2D² (L308r) |
+| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$v_H (L308r), μ = M_Pl,2D² (L308r) |
 | 2 DERIVED | 2 | M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) (α-GM, L308v), E_4D = N_sub × E_sub (L308o) |
 | 4 CALIBRATED | 4 | ε, τ_4D, AGN rate, **f_leak,3D→4D = H_0** (A1 frame-neutral) |
 | 4 STRUCTURAL | 4 | E_sub (per-sub-universe energy), τ_3D,apparent, γ_4D, N=12 |
-| 1 FREE | 1 | N_sub = 386 (event-specific) |
+| 1 FREE | 1 | $N_{\rm sub} = 386 (e$vent-specific) |
 
 **Of 15 parameters: 1 measured, 3 first-principles, 2 derived, 4 calibrated — only 1 truly free.** The "dark sector" doesn't require any new particle masses, cross-sections, or cosmological-constant fine-tuning.
 
@@ -178,8 +178,8 @@ Level    N    Clifford Structure                  First-principles
 **Numerical values (unchanged from A2):**
 - ε = 6.32×10⁻³⁴
 - f_DE,closed = 1.79×10⁻⁹⁰
-- γ_4D = 1.10×10¹¹¹
-- τ_3D,apparent = 1.66×10¹⁴⁵ yr
+- $\gamma_{\rm 4D} = 1.10×10¹¹¹$
+- $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - ρ_DE = 2.5×10⁻⁴⁷ GeV⁴ (EXACT)
 
 The switch from A1 to A2 is interpretive (justification), not numerical (re-calibration).
@@ -231,17 +231,17 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 - **Parsimony**: 1 geometric process vs ΛCDM's 20+ free parameters. **No DM particle. No cosmological constant.**
 - **First-principles structure**: All components of the cascade now derive from SM count, Clifford algebras (Cℓ(6) is isomorphic to the SM algebra, Stoica 2018), and Bott periodicity. The cascade **structure** is end-to-end first-principles (L308ba-L308bk chain); the **quantitative values** (ε, f_DE, f_leak) are calibrated to observation.
 - **Empirical match**: ρ_DE within 0.13% of observation; scaling law holds over 54 orders of magnitude; 16/17 test categories consistent (1 confounded).
-- **Time direction**: The cone is asymmetric in time direction (L308x). γ_4D = 1.10×10¹¹¹ and γ_2D = 5.5×10⁴⁴ are both cascade amplification factors (not SR time dilation — they are dimensionless frame-dilation exponents relating energy scale to clock rate, see L308bs/L308bw).
+- **Time direction**: The cone is asymmetric in time direction (L308x). $\gamma_{\rm 4D} = 1.10×10¹¹¹$ and $\gamma_{\rm 2D} = 5.5×10⁴⁴$ are both cascade amplification factors (not SR time dilation — they are dimensionless frame-dilation exponents relating energy scale to clock rate, see L308bs/L308bw).
 - **CMB-era consistency**: L308ab shows f_leak = H(z) drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
 - **N_sub derived**: L308ad gives N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) = 382 ± 6, matching framework's 386 within 1.6%.
 
 ### Weaknesses
 
 - **Hubble tension**: ACCEPTED as real tension. H₀,₄D = 70.16 is a geometric-mean property but specific H₀ values are not derived. SIDC's prediction H₀ = 73 (local) matches local measurements but leaves 5.6 km/s/Mpc gap to Planck CMB H₀ = 67.4 unresolved. **REJECTED (L308bl)**: User correctly identified that f_leak is for DM (attractive gravity), not DE (repulsive antigravity). The Hubble tension is fundamentally about H_0/DE, not DM. No direct connection via f_leak.
-- **No unique testable predictions beyond ΛCDM precision**: SIDC has 3 sharp predictions (w = -1 EXACTLY, DE/DM ∝ (1+z)⁻³ EXACTLY, M_Pl,2D = 2.95 TeV) that overlap with ΛCDM and MOND in regime, but SIDC's *tightness* (exact match, no evolution) is unique. Future surveys (Euclid, Roman, SKA) can discriminate if precision reaches the tight/loose boundary. SIDC's deeper value is *interpretive* and *parsimonious*.
+- **No unique testable predictions beyond ΛCDM precision**: SIDC has 3 sharp predictions (w = -1 EXACTLY, DE/DM ∝ (1+z)⁻³ EXACTLY, $M_{\rm Pl,2D} = 2.95$TeV) that overlap with ΛCDM and MOND in regime, but SIDC's *tightness* (exact match, no evolution) is unique. Future surveys (Euclid, Roman, SKA) can discriminate if precision reaches the tight/loose boundary. SIDC's deeper value is *interpretive* and *parsimonious*.
 - **2D CFT requires expert input**: Full Lagrangian requires 2D CFT expert to fill in remaining details (Lagrangian scores 93% in audit, was 73%).
 - **Halving rule origin**: N_D = 12/2^(D-2) is now first-principles via spinor dim doubling (L308bj), but the deeper origin of "12" as total real DOF budget is the SM fermion count (L308r), not derived from more fundamental physics.
-- **N_sub is event-specific**: N_sub = 386 is specific to our universe's 4D event. Other 4D events would have different N_sub.
+- **N_sub is event-specific**: $N_{\rm sub} = 386$is specific to our universe's 4D event. Other 4D events would have different N_sub.
 - **CMB-era 2D-to-3+1D time compression**: Has 54-orders uncertainty. CMB-era physics is approximately right but not precisely calibrated.
 
 ---
