@@ -2081,3 +2081,4 @@ uses bilateral cascade with $f_{\rm leak}$ = H₀.
 
 
 **L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford C(6) SM algebra, Stoica 2018). No numerical changes.
+- **L308dk + L308dl** (Jun 24, 2026): Build pipeline improvements + LaTeX build error fixes. L308dk: state machine for `$X$Y` patterns (71 fixes). L308dl: source bug fixes + extended fix tool to handle `$X$^N` digit exponent outside math (22 additional fixes). Build progressed: 168 → 253 → 263 → 269 → 300 → 366 → 424 → 428 → 429 → 547 → **612 pages** (clean). Files: 06_limitations.md, 07_conclusion.md, 11_testable.md, 00_title.md, 04_predictions.md. Commit: 64e66de. Pushed via SSH.

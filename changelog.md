@@ -1,3 +1,28 @@
+### L308dl (2026-06-24) — BUILD CLEAN: paper.pdf 612 pages, 2.07 MB
+- Source bug fixes (math outside math mode in source markdown):
+  - `04_predictions.md` L468: `R_{SIDC} = f_{deliver}` and `10^{30/40} J` wrapped in `$...$`
+  - `06_limitations.md` L399: bare `\sigma²` → `$\sigma^2$`
+  - `06_limitations.md` L401: bare `M_{b}` → `$M_{b}$`
+  - `06_limitations.md` L238: bare `\chi^2` and unicode `\χ²` → `$\chi^2$`
+  - `06_limitations.md` L238: `$X$^N` exponent outside math → moved inside math
+  - `06_limitations.md` L401: bare `M_{b}` in narrative wrapped
+  - `06_limitations.md` L403: `$$∝` opener without closer fixed
+  - `06_limitations.md` L599: `$T_H$` inside `$$...$$` display math (invalid) → `T_H`
+  - `06_limitations.md` L2057: `$H_0$` inside `\frac{1}{...}` (invalid) → `H_0`
+  - `06_limitations.md` L2074: `$H_0$` inside `\[...\]` (invalid) → `H_0`
+  - `06_limitations.md` L5879: broken A and B formula `1.131×$10^{-85}$$` separated
+  - `07_conclusion.md` L83: `w(z)`, `w_0`, `w_a`, `w \neq`, `0.2/0.4/1.0\sigma` wrapped in `$...$`
+  - `07_conclusion.md` L145: `\sigma_{\rm SI} = 1.4 \times 10^{-47}` wrapped
+  - `07_conclusion.md` L208: `H₀ = 64.2^{+5.8}_{-5.0}` → `$H_0 = 64.2^{+5.8}_{-5.0}$`
+  - `11_testable.md` L53: `\rho_s = 0.32$ GeV/...` → `$\rho_s = 0.32$ GeV/cm$^3$`
+  - `00_title.md` L40: `$M_{\rm Pl,3D}$^4` → `$M_{\rm Pl,3D}^4$`
+- Build tools:
+  - `fix_dollar_letter_no_space.py` extended: now also handles `$X$^N` (digit exponent outside math) by moving the exponent INSIDE the math
+  - 22 additional fixes via pipeline
+- Build progression: 168 → 253 → 263 → 269 → 300 → 366 → 424 → 428 → 429 → 547 → **612 pages** (clean)
+- Commit: `64e66de`. Pushed via SSH key.
+- Result: paper.pdf 612 pages, 2.07 MB. PDF info: 612 pages, US Letter, PDF 1.5.
+
 ## v3.5.9+ (June 21, 2026) — Mathematical audit + Approach A1 + legacy cleanup
 
 **Reason for version bump:** Three major developments after framework audit:
