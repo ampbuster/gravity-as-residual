@@ -1321,7 +1321,7 @@ Systematic search for first-principles derivations of remaining 8 parameters (af
 Tested several candidates:
 - √( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$) = 181 (55% off)
 - 4π × √( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$) = 2275 (469% off)
-- ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^0.6 = 512 (28% off)
+- $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{0.6}$ = 512 (28% off)
 
 None match $N_{\rm sub} = 386 e$xactly. $N_{\rm sub}$ is calibrated to $E_{\rm sub}$ scale (small galaxy mass), not derived. **L144 remains OPEN**.
 
@@ -1418,7 +1418,7 @@ $\tau_{\rm sub}$ = $\tau_{\rm 4D}$ / N_su $b^{\alpha}$ where α = 1.289.
 
 ### Other Scalings Tested (all fail)
 
-- Power law $N_{\rm sub}$ = ( $E_{\rm 4D}$/ $M_{\rm Pl,4D}$)^k: best k=0.065, off by 47×
+- Power law $N_{\rm sub}$ = $(E_{\rm 4D}/M_{\rm Pl,4D})^{k}$: best k=0.065, off by 47×
 - Surface area $N_{\rm sub}$ ∝ R_4D²: off by 10⁶⁵
 - Volume $N_{\rm sub}$ ∝ R_4D³: off by 10⁶⁵
 
@@ -1462,7 +1462,7 @@ $E_{\rm sub}$ is not yet derived from first principles, but its value (~10²⁹ 
 If $N_{\rm sub}$ scales linearly with $E_{\rm 4D}$:
 1. Different 4D events would have different $N_{\rm sub}$ (not universal constant)
 2. Sub-universe structure varies with parent event size
-3. For our specific $E_{\rm 4D}$ = 5×10⁷⁹ J, $N_{\rm sub} = 386$is fixed
+3. For our specific $E_{\rm 4D}$ = 5×10⁷⁹ J, $N_{\rm sub} = 386$ is fixed
 4. The framework's multi-universe picture becomes more concrete
 
 This is a STRUCTURAL finding, not a derivation. But it's a significant refinement of the multi-universe picture.
@@ -2390,7 +2390,7 @@ The framework's REAL flexibility is comparable to ΛCDM: 4-6 truly free paramete
 **Source**: User audit request (2026-06-21), `calculations/v36_research/L308ab_fleak_Hz_drain_CMB.py` (parameter hierarchy).
 
 
-## 7.4.23 L308ad: $N_{\rm sub}$ ≈ N₁₂ × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3), PARTIAL closure of L144 (v3.5.9+, USER-DIRECTED)
+## 7.4.23 L308ad: $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$, PARTIAL closure of L144 (v3.5.9+, USER-DIRECTED)
 
 **User direction (2026-06-21)**: "yes, try" (derive the truly-free parameters from first principles)
 
@@ -2417,7 +2417,7 @@ Tried multiple first-principles approaches:
 | $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio^1/α | 3143 | ✗ |
 | $M_{\rm Pl,4D}$/ $M_{\rm Pl,2D}$ ratio^1/12 | 47.5 | ✗ |
 
-### The Break: $N_{\rm sub}$ ≈ N₁₂ × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3)
+### The Break: $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$
 
 **Formula**:
 $$N_{\rm sub} \approx N_{12} \times \left(\frac{M_{\rm Pl,4D}}{M_{\rm Pl,3D}}\right)^{1/3}$$
@@ -2532,7 +2532,7 @@ L144 is now PARTIALLY closed (was OPEN). Full closure requires:
 - $E_{\rm sub}$ derivation (currently STRUCTURAL, not derived)
 - Specific bulk Lagrangian (genuine OPEN)
 
-For practical purposes, ** $N_{\rm sub}$ ≈ 12 × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3) ≈ 386** is a working first-principles estimate within framework precision.
+For practical purposes, ** $N_{\rm sub}$ ≈ 12 × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ ≈ 386** is a working first-principles estimate within framework precision.
 
 
 
@@ -2688,7 +2688,7 @@ After L308ag downgraded $N=12$ to STRUCTURAL, the user requested deeper research
 
 **What α = 1.289 actually is in the framework**:
 - It's the M^α lifetime scaling exponent
-- It's the time-dilation exponent (γ_4D = (E/ $M_{\rm Pl,3D}$)^α)
+- It's the time-dilation exponent (γ_4D = $(E/M_{\rm Pl,3D})^{α}$)
 - It's the back-action exponent ( $f_{\rm DE}$,closed ∝ E^(1/(2α)) in A2 closed loop formula)
 
 **Is α = 1 + 1/√N a "derivation"?**
@@ -3961,7 +3961,7 @@ If SIDC's 2D universe death creates icosahedral structures (12 vertices):
 **Mechanism 3: SYK $N=12$ → M^α → Lifetime**
 
 SIDC's α = 1 + 1/√12 = 1.2887 from Schwarzian SYK with $N=12$:
-- This gives 2D universe lifetime τ_2D = (E/ $M_{\rm Pl,2D}$)^α × $t_{\rm Pl}$
+- This gives 2D universe lifetime τ_2D = $(E/M_{\rm Pl,2D})^{α}$ × $t_{\rm Pl}$
 - Lifetime doesn't directly give a length scale r_12
 - But it determines WHICH events create 2D universes (energetic threshold)
 - The spatial distribution of those events depends on r_12
@@ -4451,7 +4451,7 @@ Source: `calculations/v35_web_more_options.py`.
 
 L319. **STRING MINIMAL AREA gives mu = M_s^2** (v3.5.7). From ResearchGate 2022 (Minimal model for BH entropy): S = A/(4 l_p^2) requires minimum area. If minimum area in 2D is set by STRING SCALE: A_min = 1/M_s, then mu = 1/A_min^2 = M_s^2. For M_s = 3 TeV: mu = 9x 10⁶ GeV^2 ✓ EXACT MATCH. STRUCTURAL IF 2D universe is a STRING THEORY with M_s = $M_{\rm Pl,2D}$ = 2.95 TeV (low string scale, Antoniadis 1990). Source: `calculations/v35_holographic.py`.
 
-L320. **'2 pi' in mu formula is UNIVERSAL 2D FACTOR** (v3.5.7). The "2 pi" appearing in mu = (2 pi $T_H$)^2 has the SAME origin across multiple formulas:
+L320. **'2 pi' in mu formula is UNIVERSAL 2D FACTOR** (v3.5.7). The "2 pi" appearing in mu = $(2 pi T_H)^{2}$ has the SAME origin across multiple formulas:
 - Bekenstein bound S <= 2 pi E R (Longo 2024, from local QFT)
 - Casini 2008 proof (Bekenstein = strong subadditivity)
 - RT formula S_EE = Area/(4 G_N) (holographic)
@@ -5532,7 +5532,7 @@ Adopt Option B: α is dimension-specific. The linked quantities are:
 - $f_{\rm DE}$,closed = ($t_{\rm Pl,3}$/τ_4D) × (τ_SN,obs/τ_universe) × ($E_{\rm 4D}$/$E_{\rm SN}$)^{1/(2α)} (was $f_{\rm back}$ in legacy naming)
 - ρ_DE = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}$^4
 - τ_3D,apparent = τ_4D × γ_4D
-- Hierarchy level transitions: $f_{\rm back}$,N = ($M_{\rm Pl,N}$/E_N)^α (legacy naming, was $f_{\rm back}$)
+- Hierarchy level transitions: $f_{\rm back}$,N = $(M_{\rm Pl,N}/E_N)^{α}$ (legacy naming, was $f_{\rm back}$)
 
 ### Numerical Results (with α_4D = 1.577)
 
@@ -5829,8 +5829,8 @@ User directive: "A: Adopt α_4D = 1.577 + recalibrate ε to 6.3× 10⁻³⁴"
 ### Key Simplification: Drop the Natural Cascade Leak
 
 The cascade formula at each transition gives ($M_{\rm Pl}$,parent/E)^α:
-- $f_{\rm leak}$,2D→3D (natural) = ($M_{\rm Pl,3D}$/$E_{\rm 2D}$)^α = 1.6× 10⁻⁴⁵ (for SN, 33s lifetime)
-- $f_{\rm leak,3D→4D}$ (natural) = ($M_{\rm Pl,4D}$/$E_{\rm 4D}$)^α = ~ 10⁻⁸⁶
+- $f_{\rm leak}$,2D→3D (natural) = $(M_{\rm Pl,3D}/E_{\rm 2D})^{α}$ = 1.6× 10⁻⁴⁵ (for SN, 33s lifetime)
+- $f_{\rm leak,3D→4D}$ (natural) = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α}$ = ~ 10⁻⁸⁶
 
 Compared to the dominant flows:
 - DM production: 100% pulsed at 2D death (× $\gamma_{\rm 2D} = 5.5×10⁴⁴$ growth factor)
@@ -5878,7 +5878,7 @@ After Option A adoption (α dim-specific, ε = 6.32× 10⁻³⁴, $kL$ = 76.4), 
 **Calculation**:
 - $f_{\rm DE}$,closed = A × B × C = 1.785× 10⁻⁹⁰ (was $f_{\rm back}$ in legacy naming)
   - A = $t_{\rm Pl,3}$/$\tau_{\rm 4D} = 1.131×10⁻⁸⁵$- B = τ_SN,obs/$\tau_{\rm universe} = 7.578×10⁻¹⁷$
-  - C = ($E_{\rm 4D}$/$E_{\rm SN}$)^0.317 = 2.083×10¹¹
+  - C = $(E_{\rm 4D}/E_{\rm SN})^{0.317}$ = 2.083×10¹¹
 - ε = 6.32× 10⁻³⁴
 - $M_{\rm Pl}$,3D⁴ = 2.215×10⁷⁶ GeV⁴
 - ρ_DE = 2.500× 10⁻⁴⁷ GeV⁴
@@ -5923,7 +5923,7 @@ After Option A adoption (α dim-specific, ε = 6.32× 10⁻³⁴, $kL$ = 76.4), 
 ### 6. γ_4D and τ_3D,apparent — STRUCTURAL
 
 With α_4D = 1.577:
-- γ_4D = ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^1.577 = **1.08×10¹¹¹** (was 5.70×10⁹⁰, +20 orders)
+- γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{1.577}$ = **1.08×10¹¹¹** (was 5.70×10⁹⁰, +20 orders)
 - τ_3D,apparent = τ_4D × γ_4D = **1.63×10¹⁴⁵ yr** (was 8.61×10¹²⁴)
 
 These are STRUCTURAL quantities (not directly observed), must be self-consistent ✓
@@ -5953,7 +5953,7 @@ The hierarchy transitions are NOT uniform (per L308aw).
 
 The framework claims 14 event types fit M^α with α_2D = 1.289 within 1.6× of observed. This is the framework's central claim.
 
-**Honest note**: The raw M^α law (τ_2D = (E/$M_{\rm Pl,2D}$)^α × $t_{\rm Pl}$,2D) doesn't directly give observed lifetimes — there are additional factors in the actual fit formula (the 1.6× fit is what the framework achieves with proper analysis).
+**Honest note**: The raw M^α law (τ_2D = $(E/M_{\rm Pl,2D})^{α}$ × $t_{\rm Pl}$,2D) doesn't directly give observed lifetimes — there are additional factors in the actual fit formula (the 1.6× fit is what the framework achieves with proper analysis).
 
 ### Summary: All Major Predictions Match Observations
 
@@ -7652,10 +7652,10 @@ When investigating whether mechanism X can resolve problem Y:
 ### How is the inconsistency hidden?
 
 The $f_{\rm DE}$,closed formula:
-- $f_{\rm DE}$,closed = ($M_{\rm Pl,4D}$/$E_{\rm 4D}$)^α_4D × prefactor
+- $f_{\rm DE}$,closed = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α_4D}$ × prefactor
 - $M_{\rm Pl,4D} = 3.93e23 ($A1)
 - α_4D = 1.577 (A2)
-- (3.93e23/$E_{\rm 4D}$)^1.577 = 1.26e-104
+- $(3.93e23/E_{\rm 4D})^{1.577}$ = 1.26e-104
 - To get $f_{\rm DE}$,closed = 1.79e-90: prefactor = 1.5e14
 - Framework says "prefactor ~ 7e13"
 
@@ -7736,7 +7736,7 @@ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α_2D × $M_{\rm Pl,2D}$^(1-α_2D)
        = 3.93e23 GeV ✓
 
 **$f_{\rm DE}$,closed** (with α_4D):
-$f_{\rm DE}$,closed = ($M_{\rm Pl,4D}$/$E_{\rm 4D}$)^α_4D × prefactor
+$f_{\rm DE}$,closed = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α_4D}$ × prefactor
             = (3.93e23/3.115e89)^1.577 × prefactor
             = 1.21e-104 × 1.5e14
             = 1.79e-90 ✓

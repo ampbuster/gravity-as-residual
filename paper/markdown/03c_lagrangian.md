@@ -674,8 +674,8 @@ $$\rho_{\rm DE}^{(N-1)} = \underbrace{\left(\frac{M_{\rm Pl,N}}{M_{\rm Pl,N-1}}\
 The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gravity from above, leaving DE as the residual.
 
 **Numerical verification** (our universe, N=4D, N-1=3+1D, A2 with α_4D = 1.577):
-- The anti-gravity formula ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^α × ε × $M_{\rm Pl,3D}$^4 / γ_4D requires SAME α in both
-- With α_4D = 1.577: ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^1.577 / γ_4D = ( $M_{\rm Pl,4D}$/ $E_{\rm 4D}$)^1.577 = 1.17e-104
+- The anti-gravity formula $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{α}$ × ε × $M_{\rm Pl,3D}$^4 / γ_4D requires SAME α in both
+- With α_4D = 1.577: $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1.577}$ / γ_4D = $(M_{\rm Pl,4D}/E_{\rm 4D})^{1.577}$ = 1.17e-104
 - ρ_DE = 1.17e-104 × 6.32e-34 × (1.22e19)^4 = 1.63e-61 GeV⁴ (NOT 2.5e-47 with ε=6.32e-34)
 - 
 - This shows: the anti-gravity formula has TWO α values in A2 (α_2D for $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$, α_4D for γ_4D)
@@ -1284,7 +1284,7 @@ $S_{\rm 2D,universe}$ = S_Liouville + S_Ising + S_SYK + S_FZZT
 
 $S_{\rm projection}$ = -g_couple ∫ d⁴x d²z Φ_4D Φ_2D Θ(τ_2D - τ)
               + g_couple ∫ d⁴x Φ_2D(τ_2D) E_2D Θ(τ - τ_2D)
-              with τ_2D = ($E_{\rm 3D}$/$E_{\rm Pl,3}$)^α × $t_{\rm Pl,3}$  ← TIME DILATION
+              with τ_2D = $(E_{\rm 3D}/E_{\rm Pl,3})^{α}$ × $t_{\rm Pl,3}$  ← TIME DILATION
               α = 1.289 (universal)
 ```
 

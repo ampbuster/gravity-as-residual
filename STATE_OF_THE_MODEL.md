@@ -185,8 +185,8 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✓ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 3.93×10²³ GeV (L308v, α-GM closed loop)
 - ✓ $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ = 386 × 1.295×10⁷⁷ = 5×10⁷⁹ J (L308o, energy conservation)
 - ✓ τ_3D,apparent = γ_4D × $\tau_{\rm 4D} = 1.66×10¹⁴⁵ yr ($A2) (cascade amplification factor)
-- ✓ γ_4D = ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α = 1.10×10¹¹¹ (A2) (cascade amplification factor, consistent with γ_2D)
-- ✓ γ_2D = ($E_{\rm SN}$/$M_{\rm Pl,3D}$)^α = 5.5×10⁴⁴ (cascade amplification factor at 2D level, L308x v3)
+- ✓ γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ = 1.10×10¹¹¹ (A2) (cascade amplification factor, consistent with γ_2D)
+- ✓ γ_2D = $(E_{\rm SN}/M_{\rm Pl,3D})^{α}$ = 5.5×10⁴⁴ (cascade amplification factor at 2D level, L308x v3)
 
 ## What's TESTABLE
 

@@ -131,7 +131,7 @@
 - Verdict: HONEST NEGATIVE. ~30 search queries, ~150 results examined across holographic bounds, JT gravity, Schwarzian derivatives, brane cosmology, multi-universe models, entropy bounds, Planck scale derivations in extra-dim models. NO closed first-principles derivations found in 2024-2026 literature.
 - L43: Best is L308n (Schwarzian SYK $N=12$, 0.025% match). HKS bound (2024) constrains 2D CFTs but doesn't give α. JT gravity finite-geometry (Ferrari 2025) gives new boundary condition but not α.
 - L138: Best is L308v (α-GM closed loop, 1.2%). Kuntz-Trautner 2025 (arXiv:2312.09853) gives 4D Planck from two bulk scales (R, R₀) but free choice in framework. Riley 2008 gives n=9.07 (1.6% off).
-- L144: Best is L308ad (N₁₂ × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3), 1.6% match). Holographic bounds give entropy, not sub-universe counts. PRL 110.141302 (2013) could in principle give $N_{\rm sub}$ but requires event-specific calculation.
+- L144: Best is L308ad (N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$, 1.6% match). Holographic bounds give entropy, not sub-universe counts. PRL 110.141302 (2013) could in principle give $N_{\rm sub}$ but requires event-specific calculation.
 - L142a: Best is S² boundary hypothesis. Multiple consistent interpretations but no UNIQUE derivation.
 - **Honest framing**: 1.6%/1.2%/0.025% matches are CONSISTENT with first-principles inputs, NOT DERIVED from them. Framework is at the limit of what off-the-shelf literature can offer.
 - New file: `paper/legacy/v359_legacy_first_principles_research_audit.md` (13,272 bytes)
@@ -191,7 +191,7 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 
 **[A2 OVERRIDE, June 22, 2026 — see full A2 status block below for current values]:**
 - **ε: 10⁻³⁸ → 6.32×10⁻³⁴** (A2, +4.8 orders)
-- **γ_4D formula fix**: was ($E_{\rm 4D}$/$M_{\rm Pl,4D}$)^α = 8.4×10¹⁰³, correct is ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α = 1.10×10¹¹¹
+- **γ_4D formula fix**: was $(E_{\rm 4D}/M_{\rm Pl,4D})^{α}$ = 8.4×10¹⁰³, correct is $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ = 1.10×10¹¹¹
 - **τ_3D,apparent: 9.10×10¹²⁴ → 1.66×10¹⁴⁵ yr** (A2, time dilation with corrected γ_4D)
 - **$kL$: 87.5 → 76.4** (A2, ΔkL = -11.1)
 - **$N=12$: FIRST-PRINCIPPLES → STRUCTURAL** (L308ag downgrade, 1-1 mapping not derivation)
@@ -338,7 +338,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
   - The un-cancelled fraction = DE = 10⁻¹²³ × M_Pl⁴ (cosmological CC, observed)
 - The 4D event is "practically eternal" from 3+1D frame (γ_4D = 1.10×10¹¹¹ (A2), τ_4D = 1.51×10³⁴ yr apparent)
 - **Universe age = 1.5×10⁻¹⁵ of lifetime** (we observe at cosmic "day 1", v3.4.8)
-- 3+1D leaks $f_{\rm back}$ = ($M_{\rm Pl,4D}$/$E_{\rm 4D}$)^α ~ 10⁻⁸⁵ back to 4D during its lifetime (UNIVERSAL formula)
+- 3+1D leaks $f_{\rm back}$ = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α}$ ~ 10⁻⁸⁵ back to 4D during its lifetime (UNIVERSAL formula)
 - DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ (closed loop formula, matches obs within 0.13% simple $f_{\rm DE}$ / 2.7% full bilateral cascade)
 - **Bilateral cascade (v3.3)**: DE = time-dilated slice of 4D's pulsed life; DM = 100% pulsed at 2D universe death
 - In our universe, every energetic event (SNe, BH mergers, etc.) creates a 2D universe
@@ -365,7 +365,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - 4D event proper duration: T_4D_proper = τ_4D / γ ~ 10⁻²⁰ s
 
 **Universal closed-loop formula (v3.1.2-final):**
-- $f_{\rm back}$(N→N-1) = ($M_{\rm Pl,N}$ / $E_{\rm event}$)^α — universal at EVERY dimensional transition
+- $f_{\rm back}$(N→N-1) = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ — universal at EVERY dimensional transition
 - Three different $M_{\rm Pl}$ at three different levels: 2D = 2.95 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 3.93×10²³ GeV
 - α = 1.289 is the SAME at every level
 - Pulsed return at universe death: 100% (universal, no α dependence)
@@ -376,7 +376,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - The SPECIFIC 4D-bulk mechanism is UNKNOWN (NOT specifically '4D-galaxy collisions' — earlier version was too specific)
 - We only know the FORM: energetic event creates $N_{\rm sub}$ sub-universes
 - **$N_{\rm sub}$ is a FREE PARAMETER** (not determined by the cascade)
-- For ANY $N_{\rm sub}$: $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$, τ_sub = ($E_{\rm sub}$/$M_{\rm Pl,4D}$)^α × $t_{\rm Pl}$
+- For ANY $N_{\rm sub}$: $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$, τ_sub = $(E_{\rm sub}/M_{\rm Pl,4D})^{α}$ × $t_{\rm Pl}$
 - Constraint: $N_{\rm sub}$ < 2×10¹⁹ (so τ_sub > 13.8 Gyr)
 - The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after sub-universe creation)
 
@@ -458,9 +458,9 @@ This is what makes DE and DM look so different despite the SAME underlying mecha
   - DE: ρ_DE = $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ = 2.7×10⁻⁴⁷ GeV⁴ (matches observed 2.4×10⁻⁴⁷ within 14%)
 
 **Evolution:**
-- v10: $f_{\rm back}$ = ($t_{\rm Pl}$/τ_4D) × (τ_SN/τ_universe) × ($E_{\rm 4D}$/$E_{\rm SN}$)^(1/(2α)) — REJECTED (required unjustified τ_4D = 1 × 10²⁸ yr)
+- v10: $f_{\rm back}$ = ($t_{\rm Pl}$/τ_4D) × (τ_SN/τ_universe) × $(E_{\rm 4D}/E_{\rm SN})^{1/(2α}$) — REJECTED (required unjustified τ_4D = 1 × 10²⁸ yr)
 - v3.1.1-final: $f_{\rm back}$ = $t_{\rm Pl}$/τ_4D (single factor) — PARTIALLY RESOLVED
-- v3.1.2-final: $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α universal at every level — RESOLVED
+- v3.1.2-final: $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ universal at every level — RESOLVED
 
 ---
 
@@ -478,14 +478,14 @@ $$\tau_{2D} = \left(\frac{E}{E_{\rm Pl}}\right)^{\alpha} \times t_{\rm Pl}, \qua
 
 **α's role has EVOLVED:**
 - v3.1.1-final: α governs 2D-3D lifetimes only; γ (cone picture) governs 3D-4D closed loop
-- v3.1.2-final: α is UNIVERSAL at every dimensional transition (formula $f_{\rm back}$ = ($M_{\rm Pl,N}$/E)^α)
+- v3.1.2-final: α is UNIVERSAL at every dimensional transition (formula $f_{\rm back}$ = $(M_{\rm Pl,N}/E)^{α}$)
   - At 2D→3D: α governs 2D universe lifetime
   - At 3D→4D: α governs 3+1D sub-universe lifetime AND back-flow rate
 - The "α-symmetry" claim of v10 was artifact of wrong interpretation (REJECTED)
 
 **What α is used for NOW (v3.1.2-final):**
 - 2D universe lifetime scaling (M^α law, 14 event types) ✓
-- Universal closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α at every level ✓
+- Universal closed-loop formula $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ at every level ✓
 - 3+1D sub-universe lifetime ~10³⁰ yr (M^α with $M_{\rm Pl,4D}$ = 3.93×10²³ GeV) ✓
 - $N=12$ SM connection (structural) ✓
 - Lagrangian skeleton decomposition (α = 1 + 1/√12) ✓
@@ -536,7 +536,7 @@ $$L_{\rm SIDC} = L_{c=1,\rm Liouville} + L_{N=12,\rm SYK} + L_{\rm Schwarzian}$$
 - ✓ α = 1.289 matches M^α law across 14 events
 - ✗ Full Lagrangian (couplings, cross-couplings, regularization, Z derivation)
 - ✗ First-principles derivation of 1/√N (structural match only)
-- ⚠️ NOT evidence for closed loop (closed loop uses γ and ($M_{\rm Pl}$/E)^α, not α alone)
+- ⚠️ NOT evidence for closed loop (closed loop uses γ and $(M_{\rm Pl}/E)^{α}$, not α alone)
 
 **Democratic cosmology (§3.17):** all 14 events = SAME operator at different γ.
 1 species, 14 γ values.
@@ -636,7 +636,7 @@ python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 | L138 (REVISED v3.1.2) | $f_{\rm DE}$ = 10⁻⁸⁵ is calibration, not derived; formula gives FORM not value | PARTIALLY RESOLVED (Scenario X) |
 | L139 (REVISED v3.1.2) | Closed loop: $f_{\rm back}$ universal at 2D→3D AND 3D→4D with DIFFERENT $M_{\rm Pl}$ | RESOLVED (Scenario X) |
 | L140 | ε = 10⁻³⁸ is observed, not derived | OPEN (hierarchy problem) |
-| L141 (REVISED v3.1.2) | $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α universal with different $M_{\rm Pl,N}$ | RESOLVED → REINFORCED |
+| L141 (REVISED v3.1.2) | $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ universal with different $M_{\rm Pl,N}$ | RESOLVED → REINFORCED |
 | L142 | 4π within 1.7% of DE | PARTIAL |
 | L142a | 4π geometric factor needs derivation | OPEN |
 | L142b (RESOLVED) | α_true = 1.258 REJECTED by 14-event M^1.29 fit | RESOLVED |
@@ -784,7 +784,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 
 **What differs across 3+1D sub-universes**:
 - $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$ (creation energy, varies)
-- τ_sub = ($E_{\rm sub}$ / $M_{\rm Pl,4D}$)^α × $t_{\rm Pl}$,3D (lifetime, varies)
+- τ_sub = $(E_{\rm sub}/M_{\rm Pl,4D})^{α}$ × $t_{\rm Pl}$,3D (lifetime, varies)
 - Age (some are young, some are old, some are dead)
 - Stage of evolution (galaxy formation, mature, heat death)
 
@@ -844,7 +844,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
   - 1/2 (Schwarzian) + 1/2 (kinematic SR) + 1/√12 ($N=12$ SYK)
 
 **v3.1.2-final**: The cone picture is now SPECULATIVE / HISTORICAL.
-- The closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / $E_{\rm event}$)^α replaced the cone as the main framework
+- The closed-loop formula $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ replaced the cone as the main framework
 - The cone is still in §3.67 (Inception cone) but marked as visualization, not foundation
 - The Lagrangian decomposition is now PURELY INTERPRETIVE (no geometric anchor)
 - α = 1.289 is CALIBRATED from the 14-event fit, NOT derived from cone geometry
@@ -915,7 +915,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 - The SPECIFIC 4D-bulk mechanism is UNKNOWN (NOT specifically '4D-galaxy collisions' — that earlier version was too specific)
 - We only know the FORM: energetic event creates $N_{\rm sub}$ sub-universes
 - **$N_{\rm sub}$ is a FREE PARAMETER** (not determined by the cascade, 4D-bulk dynamics unknown)
-- For ANY $N_{\rm sub}$: $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$, τ_sub = ($E_{\rm sub}$/$M_{\rm Pl,4D}$)^α × $t_{\rm Pl}$
+- For ANY $N_{\rm sub}$: $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$, τ_sub = $(E_{\rm sub}/M_{\rm Pl,4D})^{α}$ × $t_{\rm Pl}$
 - Constraint: $N_{\rm sub}$ < 2×10¹⁹ (so τ_sub > 13.8 Gyr, universe still alive)
 - The previous choice $N_{\rm sub}$ = 300, $E_{\rm sub}$ = 3.57×10⁵⁶ J (small galaxy mass) was ARBITRARY
 - User caught: "$N_{\rm sub}$ = 300 is not known, and not fixed; could be 150 with double the masses each"
@@ -935,7 +935,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 
 ### Why the closed loop is universal (v3.1.2-final)
 - v3.1.1-final: $f_{\rm DE}$ = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D leakage (L141 RESOLVED)
-- v3.1.2-final: $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α is universal at EVERY dimensional transition
+- v3.1.2-final: $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ is universal at EVERY dimensional transition
   - Same FORM, different $M_{\rm Pl,N}$ and $E_{\rm event}$ at each level
   - 2D→3D: $f_{\rm DM,leak}$ = 1.6×10⁻⁴⁵/s
   - 3D→4D: $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s
@@ -972,9 +972,9 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 - Use `\mathrm{}` for non-italic multi-letter subscripts (`\mathrm{AdS}` not `\AdS`)
 
 ### $f_{\rm back}$ variable (v3.1.2-final)
-- $f_{\rm back}$ = ($M_{\rm Pl,N}$ / $E_{\rm event}$)^α — universal closed-loop formula at every dimensional transition
-- $f_{\rm DM,leak}$ (2D→3D) = ($M_{\rm Pl,3D}$ / $E_{\rm SN}$)^α = 1.6×10⁻⁴⁵/s (during 33s, integrated = 5.4×10⁻⁴⁴ of $E_{\rm 2D}$, negligible)
-- $f_{\rm DE}$ (3D→4D) = ($M_{\rm Pl,4D}$ / $E_{\rm 4D}$)^α = 1.2×10⁻⁸⁵/s (during 1.51×10³⁴ yr, integrated = DE)
+- $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ — universal closed-loop formula at every dimensional transition
+- $f_{\rm DM,leak}$ (2D→3D) = $(M_{\rm Pl,3D}/E_{\rm SN})^{α}$ = 1.6×10⁻⁴⁵/s (during 33s, integrated = 5.4×10⁻⁴⁴ of $E_{\rm 2D}$, negligible)
+- $f_{\rm DE}$ (3D→4D) = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α}$ = 1.2×10⁻⁸⁵/s (during 1.51×10³⁴ yr, integrated = DE)
 - $f_{\rm DM,death}$ = 1 — 100% energy return at universe death (universal, no α dependence)
 - DIFFERENT $M_{\rm Pl}$ at each level: 2D = 2.95 TeV (from L41), 3D = 10¹⁹ GeV, 4D = 3.93×10²³ GeV
 
@@ -1117,7 +1117,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 
 **User question**: "is the $f_{\rm back}$ formula correct and still works for both 2d->3d and 3d->4d?"
 
-**VERIFIED**: $f_{\rm back}$ formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / $E_{\rm event}$)^α is FORM-CORRECT and works at BOTH levels.
+**VERIFIED**: $f_{\rm back}$ formula $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ is FORM-CORRECT and works at BOTH levels.
 
 **KEY NEW INSIGHT (audit-clarified)**: $f_{\rm back}$ is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). They sum to 1.0.
 
@@ -1172,9 +1172,9 @@ Build: 354 pages, commit f4328c8.
 ## 11. Things to NOT re-do
 
 - **Don't claim $f_{\rm DE}$ = 10⁻⁸⁵ is a derived physical fraction.** It's a calibration (= ρ_DE / (ε × M_Pl⁴)). See L138.
-- **Don't claim the closed loop closes numerically with v10 formula.** v10's formula was tuned (τ_4D = 1 × 10²⁸ yr, outside cone range). Use v3.1.2-final formula: $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α universal at every level. See L139.
+- **Don't claim the closed loop closes numerically with v10 formula.** v10's formula was tuned (τ_4D = 1 × 10²⁸ yr, outside cone range). Use v3.1.2-final formula: $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ universal at every level. See L139.
 - **Don't claim ε is derived.** It's observed (hierarchy problem). SIDC provides a geometric story but not a derivation. See L140.
-- **Don't claim $f_{\rm back}$ is the SAME VALUE at every level.** It's universal in FORM ($M_{\rm Pl}$/E)^α, but VALUES differ because $M_{\rm Pl,N}$ and $E_{\rm event}$ differ. 2D→3D = 1.83×10⁻⁴⁵ (audit), 3D→4D = 1.22×10⁻⁸⁵. See L141.
+- **Don't claim $f_{\rm back}$ is the SAME VALUE at every level.** It's universal in FORM $(M_{\rm Pl}/E)^{α}$, but VALUES differ because $M_{\rm Pl,N}$ and $E_{\rm event}$ differ. 2D→3D = 1.83×10⁻⁴⁵ (audit), 3D→4D = 1.22×10⁻⁸⁵. See L141.
 - **Don't confuse $f_{\rm back}$ (continuous) with pulsed return.**$f_{\rm back}$ formula gives CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). 2D→3D: pulsed dominates by 10⁴⁵× (DM is pulsed, not $f_{\rm DM,leak}$). 3D→4D: continuous dominates NOW (DE is $f_{\rm DE}$ continuous, pulsed is in the future). See v31_fback_both_levels.py.
 - **Don't conflate 13.8 Gyr with universe LIFETIME.** 13.8 Gyr is the universe's AGE (observed, the only firm value). LIFETIME is UNKNOWN — depends on N_sub (free parameter). User caught: "N_sub = 300 is not known, and not fixed; could be 150 with double the masses each". See L145.
 - **Don't claim N_sub = 300 as if it were derived.** N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ is fixed, but the partition is undetermined. See L144.

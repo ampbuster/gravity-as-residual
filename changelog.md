@@ -60,7 +60,7 @@
 - **ε recalibrated**: 10⁻³⁸ (A1) → 6.32×10⁻³⁴ (A2, +4.8 orders)
 - **f × ε = 1.13×10⁻¹²³ INVARIANT** preserved (ρ_DE = 2.5×10⁻⁴⁷ EXACT match in BOTH formulas)
 - **$kL$ recalibrated**: 87.5 (A1) → 76.4 (A2), ΔkL = -11.1
-- **γ_4D FORMULA FIX (CRITICAL)**: γ_4D = ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α (uses $M_{\rm Pl,3D}$ parent reference, NOT $M_{\rm Pl,4D}$). Correct value: 1.10×10¹¹¹. Old formula gave 8.4×10¹⁰³ (wrong)
+- **γ_4D FORMULA FIX (CRITICAL)**: γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ (uses $M_{\rm Pl,3D}$ parent reference, NOT $M_{\rm Pl,4D}$). Correct value: 1.10×10¹¹¹. Old formula gave 8.4×10¹⁰³ (wrong)
 - **τ_3D,apparent updated**: 9.10×10¹²⁴ (v3.5.9+) → 1.66×10¹⁴⁵ yr (A2, with corrected γ_4D)
 
 **$f_{\rm DE}$ FORMULAS (A2 NAMING, was $f_{\rm back}$ in legacy)**:
@@ -110,7 +110,7 @@
 - Verdict: HONEST NEGATIVE. ~30 search queries, ~150 results examined across holographic bounds, JT gravity, Schwarzian derivatives, brane cosmology, multi-universe models, entropy bounds, Planck scale derivations in extra-dim models
 - L43: Best is L308n (Schwarzian SYK $N=12$, 0.025% match)
 - L138: Best is L308v (α-GM closed loop, 1.2% match)
-- L144: Best is L308ad (N₁₂ × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3), 1.6% match)
+- L144: Best is L308ad (N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$, 1.6% match)
 - L142a: Best is S² boundary hypothesis (structural)
 - **Honest framing**: 1.6%/1.2%/0.025% matches are CONSISTENT with first-principles inputs, NOT DERIVED from them
 - New file: `paper/legacy/v359_legacy_first_principles_research_audit.md` (13,272 bytes)
@@ -171,7 +171,7 @@
 - 8/8 events fit M^1.29 within 1.6× (α = 1.258 REJECTED, 14% off $v_{\rm Higgs}$)
 - Scenario X adopted: $M_{\rm Pl,4D}$ = 887 GeV (4D BULK Planck, separate from $M_{\rm Pl,3D}$)
 - Three different $M_{\rm Pl}$ at three different levels (2D = 3 TeV, 3D = 10¹⁹ GeV, 4D = 887 GeV)
-- Closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α universal at every level
+- Closed-loop formula $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ universal at every level
 - AGE vs LIFETIME distinct: 13.8 Gyr is AGE, LIFETIME UNKNOWN
 - Frame of reference: 4D event proper 10⁻²⁰ s, apparent 10³⁴ yr (γ ~ 10⁶²)
 - $N_{\rm sub}$ = free parameter (4D-bulk dynamics unknown)
@@ -1313,8 +1313,8 @@ multiple cascade parameters that were previously calibrated.
 
 6. **Why this works**:
    - Formula has τ_event and $E_{\rm event}$, related by energy-scaling rule
-   - Combined event-dependence: $f_{\rm back}$ ∝ E^(α - 1/(2α))
-   - Multiplying by (E/$E_{\rm SN}$)^(-(α-1/(2α))) cancels the event-dependence
+   - Combined event-dependence: $f_{\rm back}$ ∝ E^$(α - 1/(2α))
+   - Multiplying by (E/E_{\rm SN})^{-(α-1/(2α}$)) cancels the event-dependence
    - Result: universal constant
 
 7. **Implications**:
@@ -2475,7 +2475,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 8. **L9 (2D universe physics) further closed:**
    - Proper lifetime: $t_{\rm Pl,4}$ (specified)
-   - Time dilation factor: γ_3+1D = ($E_{\rm 4D}$/$E_{\rm Pl,4}$)^1.29 (specified)
+   - Time dilation factor: γ_3+1D = $(E_{\rm 4D}/E_{\rm Pl,4})^{1.29}$ (specified)
    - Mass scaling: M_3+1D_4D ∝ E^0.71 (specified)
    - Internal dynamics: still unspecified (the only remaining gap)
 

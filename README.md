@@ -237,7 +237,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 - **Empirical match**: ρ_DE within 0.13% of observation; scaling law holds over 54 orders of magnitude; 16/17 test categories consistent (1 confounded).
 - **Time direction**: The cone is asymmetric in time direction (L308x). $\gamma_{\rm 4D} = 1.10×10¹¹¹$ and $\gamma_{\rm 2D} = 5.5×10⁴⁴$ are both cascade amplification factors (not SR time dilation — they are dimensionless frame-dilation exponents relating energy scale to clock rate, see L308bs/L308bw).
 - **CMB-era consistency**: L308ab shows $f_{\rm leak}$ = H(z) drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
-- **$N_{\rm sub}$ derived**: L308ad gives $N_{\rm sub}$ ≈ N₁₂ × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3) = 382 ± 6, matching framework's 386 within 1.6%.
+- **$N_{\rm sub}$ derived**: L308ad gives $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ = 382 ± 6, matching framework's 386 within 1.6%.
 
 ### Weaknesses
 
@@ -245,7 +245,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 - **No unique testable predictions beyond ΛCDM precision**: SIDC has 3 sharp predictions (w = -1 EXACTLY, DE/DM ∝ (1+z)⁻³ EXACTLY, $M_{\rm Pl,2D} = 2.95$TeV) that overlap with ΛCDM and MOND in regime, but SIDC's *tightness* (exact match, no evolution) is unique. Future surveys (Euclid, Roman, SKA) can discriminate if precision reaches the tight/loose boundary. SIDC's deeper value is *interpretive* and *parsimonious*.
 - **2D CFT requires expert input**: Full Lagrangian requires 2D CFT expert to fill in remaining details (Lagrangian scores 93% in audit, was 73%).
 - **Halving rule origin**: $N_D$ = 12/2^(D-2) is now first-principles via spinor dim doubling (L308bj), but the deeper origin of "12" as total real DOF budget is the SM fermion count (L308r), not derived from more fundamental physics.
-- **$N_{\rm sub}$ is event-specific**: $N_{\rm sub} = 386$is specific to our universe's 4D event. Other 4D events would have different $N_{\rm sub}$.
+- **$N_{\rm sub}$ is event-specific**: $N_{\rm sub} = 386$ is specific to our universe's 4D event. Other 4D events would have different $N_{\rm sub}$.
 - **CMB-era 2D-to-3+1D time compression**: Has 54-orders uncertainty. CMB-era physics is approximately right but not precisely calibrated.
 
 ---
@@ -261,7 +261,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 5. **AGC 114905 has no high-energy events above 10³⁰ J** in its recent history (testable with deep X-ray/radio).
 6. **47 Tucanae (NGC 104)**: $M_{\rm dyn}$ ≈ $M_{\rm stars}$ (no local DM spike). Falsifiable by Rubin/LSST DP1 (2025), DR1 (2027), Y10 (2034).
 7. **CMB at z=1100: Ω_c = 0.265** — confirmed by Planck 2018.
-8. **$N_{\rm sub}$ ≈ 386** for our universe — L308ad: $N_{\rm sub}$ = N₁₂ × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3) = 382 ± 6.
+8. **$N_{\rm sub}$ ≈ 386** for our universe — L308ad: $N_{\rm sub}$ = N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ = 382 ± 6.
 
 ---
 

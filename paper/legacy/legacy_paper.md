@@ -699,14 +699,14 @@ The user is right! The §3.17 logic generalizes upward in a beautiful way. The "
 
 §3.17 showed: all 2D universes have the same proper lifetime ($t_{\rm Pl,3+1D}$) in 2D frame, with 3+1D-frame lifetime $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$.
 
-By the same logic, **all 3+1D universes have the same proper lifetime** ($t_{\rm Pl,4D}$) in 3+1D frame, with 4D-frame lifetime γ_3+1D × $t_{\rm Pl,4D}$ = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 × $t_{\rm Pl,4D}$.
+By the same logic, **all 3+1D universes have the same proper lifetime** ($t_{\rm Pl,4D}$) in 3+1D frame, with 4D-frame lifetime γ_3+1D × $t_{\rm Pl,4D}$ = $(E_{4D}/E_{\rm Pl,4D})^{1.29}$ × $t_{\rm Pl,4D}$.
 
 **3.18.2 The pattern: each level's proper lifetime = next-dimension's Planck time.**
 
 | Level | Proper lifetime | Higher-dim Planck time | Time dilation | 4D-frame lifetime |
 |-------|-----------------|-------------------------|---------------|---------------------|
 | 2D universe | $t_{\rm Pl,3+1D}$ = $5.39 \times 10^{-44}$ s | 3+1D Planck time | $\gamma_{2D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ | $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$ |
-| 3+1D universe | $t_{\rm Pl,4D}$ = $5.39 \times 10^{-44}$ s | 4D Planck time | γ_3+1D = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 | ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 × $t_{\rm Pl,4D}$ |
+| 3+1D universe | $t_{\rm Pl,4D}$ = $5.39 \times 10^{-44}$ s | 4D Planck time | γ_3+1D = $(E_{4D}/E_{\rm Pl,4D})^{1.29}$ | $(E_{4D}/E_{\rm Pl,4D})^{1.29}$ × $t_{\rm Pl,4D}$ |
 | 4D universe* | $t_{\rm Pl,5D}$ (if §3.10 extension) | 5D Planck time | γ_4D = (E_5D/$E_{\rm Pl,5D}$)^1.29 | (E_5D/$E_{\rm Pl,5D}$)^1.29 × $t_{\rm Pl,5D}$ |
 
 *SIDC's cone-shape (§2.6) currently terminates at 4D as the "top". But §3.10 (extending upward) allows 4D to be a child of 5D, in which case the pattern continues.
@@ -731,7 +731,7 @@ All 3+1D universes have the **same proper lifetime** ($t_{\rm Pl,4D}$ in 4D fram
 
 For our 3+1D universe:
 - 4D event energy: $E_{4D} = 10^{69}$ J
-- Time dilation factor: γ_3+1D = ($E_{4D}$/$E_{\rm Pl,4D}$)^1.29 = $1.1 \times 10^{77}$
+- Time dilation factor: γ_3+1D = $(E_{4D}/E_{\rm Pl,4D})^{1.29}$ = $1.1 \times 10^{77}$
 - 4D-frame lifetime: T_3D = γ_3+1D × $t_{\rm Pl,4D}$ = $1.8 \times 10^{26}$ yr (matches paper's $2 \times 10^{26}$ yr **[PASS]**)
 - 3+1D proper lifetime: τ_3+1D_proper = $t_{\rm Pl,4D}$ = $5.39 \times 10^{-44}$ s
 
