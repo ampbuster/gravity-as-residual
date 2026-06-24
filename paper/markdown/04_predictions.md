@@ -633,7 +633,7 @@ SIDC has now been tested against **seventeen test categories** using published o
 
 **Test 4 (new): Isolated vs cluster dwarf M*-M_200 relation.** SIDC predicts similar M*-M_200 for both populations at fixed M* (cumulative DM dominates, active contribution differs by only ~5%). Published data: Read+ 2017 (MNRAS 471, 2192) shows 40 isolated dIrrs follow a tight M*-M_200 relation (consistent with $\Lambda{\rm CDM}$); Sawala+ 2014, 2016 shows Local Group dwarfs follow a similar relation. The "too big to fail" problem in $\Lambda{\rm CDM}$ is a sub-halo issue, not a cumulative-DM issue, and doesn't apply to SIDC. **CONSISTENT with SIDC** (no significant difference between populations at fixed M*).
 
-**Test 1 (executed, TENTATIVE): AGN host galaxy DM content.** SIDC predicts AGN hosts should have ~5% more DM than non-AGN hosts at fixed M* (current activity → current DM via active back-projection, ~5% of total). Tested with MaNGA DR15 (10,220 galaxies) using logSFRHa as AGN indicator (no BPT classifications available in catalog). At low mass (log M* = 9.5-10.5) with a narrow AGN cut (logSFRHa > 0.5, N=63), $M_{dyn}$/ M_⋆ is +15% in AGN-like galaxies (0.59 vs 0.52). **TENTATIVE PASS** — SIDC-consistent direction, but confounded by morphology (late-type AGN vs early-type control measures morphology effect, not AGN effect). A cleaner test requires BPT-classified AGN, morphology matching, Vrot measurements, and X-ray confirmation. *See `calculations/agn_host_dm_test.py` for full analysis. The morphology confounding is similar to that affecting the Vflat-morphology test (§4.33).*
+**Test 1 (executed, TENTATIVE): AGN host galaxy DM content.** SIDC predicts AGN hosts should have ~5% more DM than non-AGN hosts at fixed M* (current activity → current DM via active back-projection, ~5% of total). Tested with MaNGA DR15 (10,220 galaxies) using logSFRHa as AGN indicator (no BPT classifications available in catalog). At low mass (log M* = 9.5-10.5) with a narrow AGN cut (logSFRHa > 0.5, N=63), $M_{dyn}$/ M_* is +15% in AGN-like galaxies (0.59 vs 0.52). **TENTATIVE PASS** — SIDC-consistent direction, but confounded by morphology (late-type AGN vs early-type control measures morphology effect, not AGN effect). A cleaner test requires BPT-classified AGN, morphology matching, Vrot measurements, and X-ray confirmation. *See `calculations/agn_host_dm_test.py` for full analysis. The morphology confounding is similar to that affecting the Vflat-morphology test (§4.33).*
 
 *Summary.* **15 of 17 tests pass** (88%), 1 is confounded (HI-DM), 1 is inconclusive (Vflat-morphology). Among the 15 passing tests: 5 are clean real-data passes (GC, DD, isolated vs cluster, cusp-core, MDAR for dSphs), 4 are structural (SIDC avoids $\Lambda{\rm CDM}$ small-scale problems by having no sub-halos; missing satellites, TBTF, lensing flux ratio, dSph σ(r) profile), 5 are not discriminative vs $\Lambda{\rm CDM}$ (both models predict similar things; halo M/M* vs z, dSph $M_{dyn}$, cluster baryon fraction, BTFR documentation, BTFR SPARC real), 1 is tentative (AGN host DM, confounded by morphology; +15% at low mass with narrow cut, TENTATIVE). SIDC's empirical basis is now:
 
@@ -824,22 +824,22 @@ SIDC's two-component DM structure (active + cumulative) leads to a specific pred
 - *Active* (proportional to current SFR): peaks at z~2 (Madau & Dickinson 2014 cosmic SFR history)
 - *Cumulative* (integrated past activity): for galaxies at z=4, less time has elapsed; galaxies at z=4 are typically YOUNGER (formed later) with potentially different SFHs
 
-For a galaxy at fixed M* observed at different z, SIDC predicts ~constant $M_{\rm halo}$/ M_⋆, because the active contribution is HIGHER at z~2 (compensating the LOWER cumulative contribution). This is structurally similar to $\Lambda{\rm CDM}$'s prediction.
+For a galaxy at fixed M* observed at different z, SIDC predicts ~constant $M_{\rm halo}$/ M_*, because the active contribution is HIGHER at z~2 (compensating the LOWER cumulative contribution). This is structurally similar to $\Lambda{\rm CDM}$'s prediction.
 
-*Standard $\Lambda{\rm CDM}$ prediction.* $M_{\rm halo}$/ M_⋆ at fixed M* is ~ constant, with weak z-evolution (~0.1 dex, mild "downsizing"). Halo mass is set at formation, not affected by subsequent activity.
+*Standard $\Lambda{\rm CDM}$ prediction.* $M_{\rm halo}$/ M_* at fixed M* is ~ constant, with weak z-evolution (~0.1 dex, mild "downsizing"). Halo mass is set at formation, not affected by subsequent activity.
 
 *Published data (Behroozi+ 2013, ApJ 770, 57; Leauthaud+ 2012, ApJ 746, 95):*
 - z = 0: $M_{\rm halo} \sim 10^{12} M_\odot$ at M* = $10^{10} M_\odot$
 - z = 1: $M_{\rm halo} \sim 10^{12} M_\odot$ (slightly higher)
 - z = 4: $M_{\rm halo}$ ~ 1.3 x $10^{12} M_\odot$ (mild downsizing)
-- Pattern: $M_{\rm halo}$/ M_⋆ is roughly constant to within 0.2 dex scatter
+- Pattern: $M_{\rm halo}$/ M_* is roughly constant to within 0.2 dex scatter
 
-*Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$. This is **NOT a discriminative test**—both models predict ~constant $M_{\rm halo}$/ M_⋆ at fixed M*, matching the data to within the 0.2 dex scatter. SIDC's two-component structure (active + cumulative) can naturally accommodate this constancy.
+*Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$. This is **NOT a discriminative test**—both models predict ~constant $M_{\rm halo}$/ M_* at fixed M*, matching the data to within the 0.2 dex scatter. SIDC's two-component structure (active + cumulative) can naturally accommodate this constancy.
 
 *To make this discriminative.* Would need:
 - Better z-resolution data (sub-redshift bins)
 - A precise SIDC calculation including SFH as a function of z
-- A specific prediction for the EXACT z-dependence (e.g., $M_{\rm halo}$/ M_⋆ slightly HIGHER at z~2 where cosmic SFR peaks, with a specific shape)
+- A specific prediction for the EXACT z-dependence (e.g., $M_{\rm halo}$/ M_* slightly HIGHER at z~2 where cosmic SFR peaks, with a specific shape)
 
 The current test is consistent with SIDC but doesn't discriminate SIDC from $\Lambda{\rm CDM}$. This is honest: consistency ≠ confirmation.
 
@@ -883,7 +883,7 @@ See `calculations/too_big_to_fail_test.py` for the full analysis.
 
 ### 4.25 dSph $M_{dyn}$ Test (Test 9, v2.3.1) - Real Data
 
-This test computes the $M_{dyn}$- M_⋆ relation for 10 MW dSphs using the Wolf+ 2010 mass estimator and compares to theoretical predictions.
+This test computes the $M_{dyn}$- M_* relation for 10 MW dSphs using the Wolf+ 2010 mass estimator and compares to theoretical predictions.
 
 *Data:*
 - sigma: Walker+ 2007 (J/ApJ/649/201)
@@ -895,12 +895,12 @@ This test computes the $M_{dyn}$- M_⋆ relation for 10 MW dSphs using the Wolf+
 *Sample (10 MW dSphs):* Draco, UMi, Sculptor, Sextans, Carina, Fornax, Leo I, Leo II, Sgr, CVn I.
 
 *Results (M/ $L_V$ =2):*
-- $M_{dyn}$- M_⋆ slope (log-log): 0.37
+- $M_{dyn}$- M_* slope (log-log): 0.37
 - Expected (NFW abundance matching): 0.3-0.5
-- Median $M_{dyn}$/ M_⋆: 15.4
+- Median $M_{dyn}$/ M_*: 15.4
 - Range: 3.0 - 184
 
-*Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$. **NOT a discriminative test** — both models predict the same $M_{dyn}$- M_⋆ relation. SIDC and $\Lambda{\rm CDM}$ differ in MECHANISM (cumulative 2D universe gravity vs NFW halo), not the relation itself. This is similar to the halo M/M* vs z test (Test 6) in being consistent but not discriminative.
+*Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$. **NOT a discriminative test** — both models predict the same $M_{dyn}$- M_* relation. SIDC and $\Lambda{\rm CDM}$ differ in MECHANISM (cumulative 2D universe gravity vs NFW halo), not the relation itself. This is similar to the halo M/M* vs z test (Test 6) in being consistent but not discriminative.
 
 *Caveats.* (a) M/ $L_V$ is uncertain (1-5 for dSphs depending on SFH and metallicity). (b) The relation is structural, not specific to SIDC. (c) The key point is the slope (0.37), not absolute values.
 
@@ -910,7 +910,7 @@ See `calculations/dsph_sigma_test.py` for the full analysis.
 
 The Mass Discrepancy-Acceleration Relation (MDAR) for dSphs complements the SPARC RAR test (Test 1) at the dSph regime.
 
-*Data:* Same 10 MW dSphs as Test 9. Compute $g_{\rm bar}$ (from M_⋆ and rₕ) and $g_{\rm obs}$ (from sigma).
+*Data:* Same 10 MW dSphs as Test 9. Compute $g_{\rm bar}$ (from M_* and rₕ) and $g_{\rm obs}$ (from sigma).
 
 *SIDC-MOND hybrid prediction:* $g_{\rm obs}$/ $g_{\rm bar}$ = 1 + sqrt( g₊/ $g_{\rm bar}$) at low $g_{\rm bar}$. MOND scale g₊ = 1.2 × 10⁻¹⁰ m/s^2.
 

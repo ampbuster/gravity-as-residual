@@ -405,6 +405,31 @@ def step_fix_physics_subscripts(dry_run=False):
     return True
 
 
+def step_replace_unicode_fallback(dry_run=False):
+    """Replace Unicode characters that DejaVu Serif can't render.
+
+    Some Unicode characters (ℓ, ⋆, 🎯, ✅, ❌, ⏳, ≪) are not in
+    DejaVu Serif font and render as blank/missing glyphs. This tool
+    replaces them with LaTeX-safe alternatives:
+
+      ℓ (U+2113) → $\\ell$ in math, `l` in text
+      ⋆ (U+22C6) → $\\star$ in math, `*` in text
+      ≪ (U+226A) → $\\ll$ in math, `<<` in text
+      🎯 (U+1F3AF) → `[TARGET]`
+      ✅ (U+2705) → `[OK]`
+      ❌ (U+274C) → `[FAIL]`
+      ⏳ (U+23F3) → `[WAIT]`
+
+    Skips: code blocks, inline code (preserves raw characters).
+    """
+    print('\n=== Step 10: replace_unicode_fallback ===')
+    if dry_run:
+        run_script('replace_unicode_fallback.py --all', capture=False)
+    else:
+        run_script('replace_unicode_fallback.py --all', capture=False)
+    return True
+
+
 STEPS = [
     'fix_broken_wraps',
     'fix_unbalanced_dollars',
@@ -418,6 +443,7 @@ STEPS = [
     'fix_unicode_greek_subscripts',  # NEW: wrap Unicode Greek+subscript in $...$
     'fix_letter_caret',  # NEW: wrap X^N or X^Y in $...$
     'fix_physics_subscripts',  # NEW: wrap H_0, M_*, sigma_int, etc.
+    'replace_unicode_fallback',  # NEW: replace Unicode chars missing from DejaVu Serif
     'build_pdf',
     'audit',
 ]
@@ -444,6 +470,7 @@ def main():
         'fix_unicode_greek_subscripts': step_fix_unicode_greek_subscripts,
         'fix_letter_caret': step_fix_letter_caret,
         'fix_physics_subscripts': step_fix_physics_subscripts,
+        'replace_unicode_fallback': step_replace_unicode_fallback,
         'build_pdf': step_build_pdf,
         'audit': step_audit,
     }

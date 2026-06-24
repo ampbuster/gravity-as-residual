@@ -174,13 +174,13 @@ This is the right question to ask. The CMB angular power spectrum has multiple a
 
 #### Peak-by-Peak Analysis
 
-| Peak | ℓ | What it measures | ΛCDM | SIDC pre-L308ab | SIDC post-L308ab |
+| Peak | l | What it measures | ΛCDM | SIDC pre-L308ab | SIDC post-L308ab |
 |---|---|---|---|---|---|
 | **1st** | ~220 | Sound horizon $r_s$, total $\Omega_{\rm m}$ | ✓ | partial ($\Omega_{\rm b}$ alone wrong by 6.4×) | **✓ matches** |
 | **2nd** | ~540 | Baryon-to-photon ratio η | ✓ | ✓ (BBNS unchanged) | **✓ matches** |
 | **3rd** | ~810 | Matter-to-radiation, $\Omega_{\rm c}$ | ✓ | ✗ FAIL (no DM at z=1100) | **✓ matches** ($\Omega_{\rm c}$ = 0.265) |
-| **Silk damping** | ℓ > 1000 | DM-baryon coupling | ✓ | ✗ FAIL | **✓ matches** (collisionless DM) |
-| **Polarization** (TE/EE) | ℓ < 200 | Recombination, reionization | ✓ | ✓ (3+1D physics) | **✓ matches** |
+| **Silk damping** | l > 1000 | DM-baryon coupling | ✓ | ✗ FAIL | **✓ matches** (collisionless DM) |
+| **Polarization** (TE/EE) | l < 200 | Recombination, reionization | ✓ | ✓ (3+1D physics) | **✓ matches** |
 
 #### Why SIDC's Peaks Match ΛCDM (post-L308ab)
 
@@ -200,7 +200,7 @@ But **once DM exists, it behaves identically** in both:
 - No strong interaction → doesn't affect acoustic oscillations
 - Gravitational only → standard CDM dynamics
 
-#### Peak 1 (ℓ ~ 220): Sound Horizon
+#### Peak 1 (l ~ 220): Sound Horizon
 
 $$r_s = \int_0^{a_*} \frac{c_s}{a^2 H(a)} da, \quad c_s = \frac{c}{\sqrt{3(1+R)}}, \quad R = \frac{3\rho_b}{4\rho_\gamma}$$
 
@@ -211,14 +211,14 @@ This integral depends on:
 
 So rₛ is IDENTICAL in SIDC and ΛCDM. Peak 1 position is determined by 3+1D physics. ✓
 
-#### Peak 2 (ℓ ~ 540): Baryon Loading
+#### Peak 2 (l ~ 540): Baryon Loading
 
 The 2nd-to-1st peak ratio depends on $\Omega_{\rm b}$ h²:
 $$\frac{\ell_2}{\ell_1} \approx 1 + \frac{1}{4} \cdot \frac{\Omega_b h^2}{\Omega_m h^2}$$
 
 SIDC's $\Omega_{\rm b}$ = 0.0493 (Planck 2018, standard BBNS). Same as ΛCDM. ✓
 
-#### Peak 3 (ℓ ~ 810): Cold Dark Matter
+#### Peak 3 (l ~ 810): Cold Dark Matter
 
 The 3rd peak height depends on:
 - $\Omega_{\rm c}$ h² (cold DM density)
@@ -238,7 +238,7 @@ $$v_{\rm 2D} = c \cdot \sqrt{\frac{2 E_{\rm 2D}}{M_{\rm 2D} c^2}} \sim c \cdot \
 
 That's essentially zero velocity dispersion. **SIDC's DM is "cold" by any measure.** ✓
 
-#### Silk Damping (ℓ > 1000)
+#### Silk Damping (l > 1000)
 
 The Silk damping scale is:
 $$k_D^{-2} \sim \int_0^{a_*} \frac{1}{a^2 \sigma_T n_e H(a)} \left(\frac{R^2 + 1}{6(1+R)}\right) da$$

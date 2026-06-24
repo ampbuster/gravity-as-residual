@@ -333,15 +333,15 @@ The data does not currently distinguish (a) from (b): both give the same 7/7 spe
 
 22. **NEW: The isothermal cumulative profile is DERIVABLE from 2D universe 1/r gravity (Option 7).** SIDC's 2D universe gravity is logarithmic in 2D ($V_{\rm 2D}$(r) = G_2D $M_{2D}$ log(r), giving g_{\rm 2D}(r) = G_2D $M_{2D}$ / r). For a 2D universe with finite gravity reach $r_0$, and a UNIFORM distribution of such universes, the cumulative 3+1D gravity is $g₊{\rm cum}$(r) ~ 1/r for r > $r_0$. This gives $v_{\rm circ}^2 = g₊{\rm cum}$ * r = const, which is exactly the FLAT ROTATION CURVE. The isothermal profile (ρ ∼ 1/r²) is therefore a NATURAL CONSEQUENCE of SIDC's 2D universe 1/r gravity, not just a fitting parameter. This is a real derivation (commit 126, `calculations/derive_isothermal_cum.py`).
 
-23. **NEW: SIDC's RAR fit does not generalize to a population of galaxies (Option 9, original test).** A SPARC-like test (commit 128, `calculations/rar_sparc_like.py`) with 30 galaxies spanning $M_{\rm halo}$ from 10⁷ to $10^{12} M_\odot$ (constant kappa=20) gives a median absolute residual of 29% (vs 5-13% for the single-MW fit). With more realistic tests (varying kappa, realistic SFR- M_⋆ correlation, partial correlations, binning analysis; commits 138-149), the residual is **40%** (worse than the 29% original). SIDC's RAR parameters are tuned for the MW, not the full population. A specific implementation would need to derive mass-dependent parameters from SIDC's geometry (Limitation 24's scale factor is an empirical fit, not a derivation) — this is left as future work.
+23. **NEW: SIDC's RAR fit does not generalize to a population of galaxies (Option 9, original test).** A SPARC-like test (commit 128, `calculations/rar_sparc_like.py`) with 30 galaxies spanning $M_{\rm halo}$ from 10⁷ to $10^{12} M_\odot$ (constant kappa=20) gives a median absolute residual of 29% (vs 5-13% for the single-MW fit). With more realistic tests (varying kappa, realistic SFR- M_* correlation, partial correlations, binning analysis; commits 138-149), the residual is **40%** (worse than the 29% original). SIDC's RAR parameters are tuned for the MW, not the full population. A specific implementation would need to derive mass-dependent parameters from SIDC's geometry (Limitation 24's scale factor is an empirical fit, not a derivation) — this is left as future work.
 
 24. **NEW: The mass-dependent scale factor is empirically identified but not derived (Option 3).** SIDC's intrinsic $M_{\rm halo}$ relative to the empirical $M_{\rm halo}$ (the "scale factor") varies with halo mass: scale = 0.1 for MW ( $1 \times 10^{12} M_\odot$) and scale = 0.7 for galaxy clusters ( $1 \times 10^{14} M_\odot$). The relationship scale ∝ $kappa^{1.1}$ (where kappa = $M_{\rm halo}$/ $M_{\rm stellar}$) fits the two data points to ~10% precision (commit 134, `calculations/derive_scale_factor.py`). A specific implementation of SIDC would need to derive $kappa^{1.1}$ from first principles — this would require either: (a) a model where SIDC's intrinsic $M_{\rm halo}$ scales non-trivially with the baryonic mass (e.g., feedback-modulated cumulative return), or (b) a model where the empirical $M_{\rm halo}$ includes a separate non-SIDC component (e.g., particle DM) that is more dominant in galaxies than in clusters. Both options are open. The 90% missing DM in MW (1 - 0.1) and 30% missing DM in cluster (1 - 0.7) is a specific prediction that could be tested with future high-precision lensing/kinematic surveys.
 
 25. **REVERTED TO HONEST VERSION: SIDC's RAR population fit cannot be improved (Option 4).** A systematic test of various parameter choices (commits 135, 138-148) shows:
 - Mass-dependent parameters ( $f_{\rm active}$ ∝ kappa, scale ∝ log(M), scale ∝ $kappa^{1.1}$): FAIL (0.69 median residual, much worse than baseline)
-- SFR-dependent $f_{\rm active}$ with REALISTIC SFR- M_⋆ correlation: 0.40 → 0.28 (30% improvement, modest)
+- SFR-dependent $f_{\rm active}$ with REALISTIC SFR- M_* correlation: 0.40 → 0.28 (30% improvement, modest)
 - SFR-dependent $f_{\rm active}$ with RANDOM SFR (independent of $M_{\rm disk}$): 0.43 → 0.26 (40% 'improvement' — INFLATED)
-- **Partial correlation test (commit 146):** The residual-vs-SFR correlation (+0.629) is ENTIRELY explained by mass. Once $M_{\rm halo}$ is controlled, the SFR correlation becomes NEGATIVE (-0.382) or zero (-0.072 if controlling for M_⋆). The 'SFR breakthrough' was just mass in disguise.
+- **Partial correlation test (commit 146):** The residual-vs-SFR correlation (+0.629) is ENTIRELY explained by mass. Once $M_{\rm halo}$ is controlled, the SFR correlation becomes NEGATIVE (-0.382) or zero (-0.072 if controlling for M_*). The 'SFR breakthrough' was just mass in disguise.
 - **Binning analysis (commit 147):** $chi^2$/n = 0.058, RMS = 0.24 dex. SIDC's $g₊{\rm cum}$ systematically over-predicts in mid- $g₊{\rm bar}$ bins (39-60% off).
 - **Einasto profile test (commit 148):** Does NOT improve over isothermal. The isothermal profile is genuinely near-optimal for SIDC (8% residual is the structural limit).
 
@@ -3685,7 +3685,7 @@ The PDS is a 3-manifold with icosahedral/dodecahedral symmetry:
 - 120 vertices in its universal cover (120-cell in 4D)
 - Binary icosahedral group 2I (120 elements) as symmetry group
 
-**Luminet+ 2003** proposed PDS as explanation for WMAP low-ℓ anomalies.
+**Luminet+ 2003** proposed PDS as explanation for WMAP low-l anomalies.
 **Planck 2013** ruled out PDS as a model of space topology.
 
 **Relevance to SIDC**: Even though PDS itself is ruled out, the icosahedral/dodecahedral structure with 12-fold coordination IS a real physical concept. SIDC's 12-fold coordination could appear in:
@@ -3739,8 +3739,8 @@ where A_12 is the amplitude of the 12-fold correlation.
 ### Observable Signatures
 
 **1. Angular power spectrum of weak lensing (cosmic shear)**:
-- Standard: C_ℓ ∝ ℓ^n (smooth)
-- SIDC: C_ℓ has specific peak at ℓ_12 = π × $D_A$ / r_12
+- Standard: C_l ∝ $l^n$ (smooth)
+- SIDC: C_l has specific peak at l_12 = π × $D_A$ / r_12
 - Test: KiDS, DES, Subaru HSC, Roman, LSST
 
 **2. Two-point correlation function of galaxies**:
@@ -3778,7 +3778,7 @@ L308am was honest: the 12-fold MACHO prediction was inconsistent with geometric 
 **New (L308an, PROPOSED)**:
 - Smooth DM density field
 - 12-fold STATISTICAL correlation at r_12
-- Detectable as specific ℓ_12 in angular power spectrum
+- Detectable as specific l_12 in angular power spectrum
 
 ### The r_12 Length Scale
 
@@ -3838,8 +3838,8 @@ This is a SPECIFIC prediction, distinct from:
 
 For a specific test:
 1. **Choose r_12**: estimate from SIDC parameters (energetic event density)
-2. **Predict C_ℓ peak**: compute expected angular power spectrum
-3. **Compare with data**: look for specific peak at ℓ_12
+2. **Predict C_l peak**: compute expected angular power spectrum
+3. **Compare with data**: look for specific peak at l_12
 4. **Quantify significance**: how strong is the signal?
 
 The framework's $M_{\rm 2D}$ and $E_{\rm 2D}$ give:
@@ -3847,10 +3847,10 @@ The framework's $M_{\rm 2D}$ and $E_{\rm 2D}$ give:
 - Inter-event distance in MW: ~kpc
 - Expected r_12 for DM correlation: ~kpc to ~10 kpc
 
-This gives ℓ_12 = π × $D_A$ / r_12:
+This gives l_12 = π × $D_A$ / r_12:
 - $D_A$ ~ 1 Gpc for nearby galaxies
 - r_12 ~ kpc
-- ℓ_12 ~ 10⁶ (very high multipole, hard to measure)
+- l_12 ~ 10⁶ (very high multipole, hard to measure)
 
 This is a SUBTLE signal at high multipoles.
 
@@ -3891,15 +3891,15 @@ Key references found:
 
 **Result**: New, consistent prediction. SIDC's 12-fold applies to DENSITY CORRELATIONS, not discrete clusters.
 
-**Observable**: Specific peak in angular power spectrum at ℓ_12 = π × $D_A$ / r_12
+**Observable**: Specific peak in angular power spectrum at l_12 = π × $D_A$ / r_12
 
 **Implication**: The 12-fold structural choice now has a testable consequence that doesn't require point-particle DM.
 
 **Updated testable predictions**:
-- ❌ MACHO microlensing (withdrawn, L308am)
-- ✅ Angular power spectrum peak at ℓ_12
-- ✅ 2-point correlation function bump at r_12
-- ✅ Velocity correlation at r_12
+- [FAIL] MACHO microlensing (withdrawn, L308am)
+- [OK] Angular power spectrum peak at l_12
+- [OK] 2-point correlation function bump at r_12
+- [OK] Velocity correlation at r_12
 
 
 
@@ -3920,8 +3920,8 @@ This is a critical question. Let me be honest.
 
 L308an proposes:
 - Two-point correlation function: ξ(r) = ξ_ΛCDM(r) + A_12 × δ(r - r_12)
-- Angular power spectrum oscillation at ℓ_12 = π × $D_A$ / r_12
-- "12" appears as a SUBSCRIPT on r_12 and ℓ_12
+- Angular power spectrum oscillation at l_12 = π × $D_A$ / r_12
+- "12" appears as a SUBSCRIPT on r_12 and l_12
 
 The "12" implies this is a 12-fold coordination signature, related to SIDC's structural N=12.
 
@@ -4052,11 +4052,11 @@ Re-read of L308an and L308ai to assess the actual physical mechanism linking N=1
 - More work is needed to strengthen the connection
 
 **Updated status of L308an**:
-- ✅ Consistent with geometric DM (not particles)
-- ✅ Testable with current/near-future surveys
-- ❌ r_12 is NOT derived from N=12
+- [OK] Consistent with geometric DM (not particles)
+- [OK] Testable with current/near-future surveys
+- [FAIL] r_12 is NOT derived from N=12
 - ⚠️ The "12-fold" is HEURISTIC, not derived
-- ⏳ Need additional framework structure to derive r_12 from N=12
+- [WAIT] Need additional framework structure to derive r_12 from N=12
 
 
 
@@ -4118,7 +4118,7 @@ I conflated two different concepts:
 
 | Concept | What it means | Does N=12 satisfy it? |
 |---------|---------------|------------------------|
-| **First-principles DERIVATION** | Theory → unique N=12 (no measurement needed) | ❌ NO (requires data) |
+| **First-principles DERIVATION** | Theory → unique N=12 (no measurement needed) | [FAIL] NO (requires data) |
 | **First-principles CONFIRMATION** | Theory predicts α for N=12, data confirms | ✓ YES |
 | **First-principles INPUT** | SM fermion count is fundamental | ✓ YES (specific counting) |
 | **Structural choice** | Framework chose N=12 for consistency | ✓ YES (multiple motivations) |
@@ -5918,7 +5918,7 @@ After Option A adoption (α dim-specific, ε = 6.32× 10⁻³⁴, kL = 76.4), th
 ### 5. CMB Acoustic Peaks — MATCH
 
 - $r_s$ (sound horizon) = 141.85 Mpc (vs Planck 144.57, 1.88% off)
-- Peak positions: ℓ = 220, 540, 810, 1120 (all match)
+- Peak positions: l = 220, 540, 810, 1120 (all match)
 - All peaks match ΛCDM ✓
 
 ### 6. γ_4D and τ_3D,apparent — STRUCTURAL

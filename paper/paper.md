@@ -60,11 +60,11 @@
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< 10⁻⁵⁰ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in M_{b} but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap ($\Omega_{\rm DM}$ at z=1100) is now PARTIALLY CLOSED via $f_{\rm leak}$ = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. $\tau_{\rm DM}$ unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N× $v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak}$= H₀ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak}$=H(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of α=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, μ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, α first-principles). L41, L42 closed in v3.0.22 ( μ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ( 4π specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< 10⁻⁵⁰ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in M_{b} but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap ($\Omega_{\rm DM}$ at z=1100) is now PARTIALLY CLOSED via $f_{\rm leak}$ = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. $\tau_{\rm DM}$ unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N× $v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak}$= H₀ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak}$=H(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_l oscillation at l_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of α=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, μ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, α first-principles). L41, L42 closed in v3.0.22 ( μ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ( 4π specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
 
 ---
 
-## 🎯 TWO MAIN POINTS: SCALING LAW + CLOSED LOOP (canonical)
+## [TARGET] TWO MAIN POINTS: SCALING LAW + CLOSED LOOP (canonical)
 
 These two expressions are SIDC's quantitative backbone and are taken as ground truth throughout the paper.
 
@@ -137,7 +137,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with α coupling, δ-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as α → 0.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+$ ∼ 1.2 × 10⁻¹⁰, ε ∼ 6.32 × 10⁻³⁴ (A2), $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N×$v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak}$=H₀ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak}$=H(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+$ ∼ 1.2 × 10⁻¹⁰, ε ∼ 6.32 × 10⁻³⁴ (A2), $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N×$v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak}$=H₀ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak}$=H(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_l oscillation at l_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
@@ -350,7 +350,7 @@ This is a *scale-invariant* principle. The same mechanism operates at every ener
 
 This is a *speculative* extension of the model. The model does not currently require the existence of these other 3+1D universes; it only requires that *our* universe corresponds to the 4D event (or some part of it). But the scale-invariant principle, taken seriously, implies them.
 
-We emphasize that these smaller events do *not* re-create our universe. They create *separate* universes, in separate dimensional subspaces, with their own physics and their own lifetimes. From our 3+1 dimensional perspective, the 2D universes' lifetimes in *our* frame scale with the creating event's energy, via the *energy-scaling rule* $\tau_{2D}^{our frame} = t_{Pl,3} \times (E_D / E_{Pl,3})^\alpha$ with α ≈ 1.29 (calibrated to the SN 33s point; see §10.1 for the full derivation and §10.9 for sensitivity analysis). **Caveat:** this energy-scaling rule is *specifically calibrated to supernova-scale events*. The §4.48 two-component model introduces Fₚ ∼ 0.7 *primordial* 2D universes whose per-event energy $E_{\rm primordial}$ was UNSPECIFIED in v2.7.4-64 (Limitation 34). The v2.7.65 §3.40 L51 derivation attempt constrained $E_{\rm primordial}$ to $\sim 10^{22}\,M_\odot$ ($E_{\rm 4D}$ at the 4D event scale, galaxy-cluster level), but the per-event energy of primordial 2D universes is still partially OPEN (L51 PARTIAL). The lifetime of primordial 2D universes may differ from the SN-calibrated rule by a factor that depends on $E_{\rm primordial}$. Working out specific examples: a small event (LHC collision, ~14 TeV∼ 2.2 × 10⁻⁶ J) creates a 2D universe that lasts ∼ 3 × 10⁻⁶³ seconds in our frame (essentially instantaneous); a large event (supernova, E ∼ 10⁴⁴ J for the kinetic energy of the ejecta) creates a 2D universe that lasts ∼ 33 seconds in our frame; even larger events (hypernova, E ∼ 10⁴⁶ J) create 2D universes that last ∼ 3.5 hr, long GRBs (E ∼ 10⁴⁷ J) create 2D universes that last ∼ 2.8 d, BNS mergers (E ∼ 10⁵³ J) create 2D universes that last ∼ 4.3 × 10⁵ years, and AGN outbursts (E ∼ 10⁵⁵ J) create 2D universes that last ∼ 1.6 × 10⁸ years. *Note*: an earlier version of this section used the simpler *spatial-extent* rule $\tau_{2D}^{our frame} \sim \ell_{event} / c$ (giving ∼ 3 × 10⁻²⁴ s for the LHC and ∼ 33 s for the SN). This spatial rule and the energy rule give the *same* answer for the SN calibration point but *different* predictions for other events. The energy-scaling rule is preferred because (a) it correctly captures the qualitative principle "lower-energy events create shorter-lived 2D universes" (per the user-SIDC conversation establishing the relativistic-particle analogy in §10.2), and (b) it provides a *quantitative* framework for extrapolating to cosmological-scale events (§10.4). The spatial-extent rule is a *first-order approximatelyimation* valid when $\ell_{event}$ and $E_{event}$ are correlated, but it fails for events where the two scales decouple (LHC: small ℓ, high E; AGN: large ℓ, high E). The energy-scaling rule in §10 supersedes the earlier spatial-extent example. The 2D universes are *not* all "essentially instantaneous" in our frame — only the very small ones are. From the perspective of each tiny universe, that brief moment in our frame is the entirety of *its* cosmic history. The dimensional time-dilation principle applies in both directions: a brief event in our frame can be a complete cosmic history in the lower-dimensional universe's frame.
+We emphasize that these smaller events do *not* re-create our universe. They create *separate* universes, in separate dimensional subspaces, with their own physics and their own lifetimes. From our 3+1 dimensional perspective, the 2D universes' lifetimes in *our* frame scale with the creating event's energy, via the *energy-scaling rule* $\tau_{2D}^{our frame} = t_{Pl,3} \times (E_D / E_{Pl,3})^\alpha$ with α ≈ 1.29 (calibrated to the SN 33s point; see §10.1 for the full derivation and §10.9 for sensitivity analysis). **Caveat:** this energy-scaling rule is *specifically calibrated to supernova-scale events*. The §4.48 two-component model introduces Fₚ ∼ 0.7 *primordial* 2D universes whose per-event energy $E_{\rm primordial}$ was UNSPECIFIED in v2.7.4-64 (Limitation 34). The v2.7.65 §3.40 L51 derivation attempt constrained $E_{\rm primordial}$ to $\sim 10^{22}\,M_\odot$ ($E_{\rm 4D}$ at the 4D event scale, galaxy-cluster level), but the per-event energy of primordial 2D universes is still partially OPEN (L51 PARTIAL). The lifetime of primordial 2D universes may differ from the SN-calibrated rule by a factor that depends on $E_{\rm primordial}$. Working out specific examples: a small event (LHC collision, ~14 TeV∼ 2.2 × 10⁻⁶ J) creates a 2D universe that lasts ∼ 3 × 10⁻⁶³ seconds in our frame (essentially instantaneous); a large event (supernova, E ∼ 10⁴⁴ J for the kinetic energy of the ejecta) creates a 2D universe that lasts ∼ 33 seconds in our frame; even larger events (hypernova, E ∼ 10⁴⁶ J) create 2D universes that last ∼ 3.5 hr, long GRBs (E ∼ 10⁴⁷ J) create 2D universes that last ∼ 2.8 d, BNS mergers (E ∼ 10⁵³ J) create 2D universes that last ∼ 4.3 × 10⁵ years, and AGN outbursts (E ∼ 10⁵⁵ J) create 2D universes that last ∼ 1.6 × 10⁸ years. *Note*: an earlier version of this section used the simpler *spatial-extent* rule $\tau_{2D}^{our frame} \sim \ell_{event} / c$ (giving ∼ 3 × 10⁻²⁴ s for the LHC and ∼ 33 s for the SN). This spatial rule and the energy rule give the *same* answer for the SN calibration point but *different* predictions for other events. The energy-scaling rule is preferred because (a) it correctly captures the qualitative principle "lower-energy events create shorter-lived 2D universes" (per the user-SIDC conversation establishing the relativistic-particle analogy in §10.2), and (b) it provides a *quantitative* framework for extrapolating to cosmological-scale events (§10.4). The spatial-extent rule is a *first-order approximatelyimation* valid when $\ell_{event}$ and $E_{event}$ are correlated, but it fails for events where the two scales decouple (LHC: small l, high E; AGN: large l, high E). The energy-scaling rule in §10 supersedes the earlier spatial-extent example. The 2D universes are *not* all "essentially instantaneous" in our frame — only the very small ones are. From the perspective of each tiny universe, that brief moment in our frame is the entirety of *its* cosmic history. The dimensional time-dilation principle applies in both directions: a brief event in our frame can be a complete cosmic history in the lower-dimensional universe's frame.
 
 **Implication for dark matter.** Each of these tiny universes created by 3+1 dimensional events has its own gravity (a small replica of the same dimensional-projection mechanism that creates gravity in our universe). By the same logic as §2.4, the 3+1 dimensional event's gravity is *inverted* (antigravity) when projected into the 2D universe, and the un-cancelled fraction of this antigravity is the 2D universe's *internal* dark energy. The 2D universe's own *attractive* gravity, projected back into our 3+1 dimensional frame, is what we observe as *dark matter*. Dark matter, in this picture, is not a particle at all, but a *collective gravitational signature* of all the lower-dimensional universes (active + cumulative, per §2.5, §4.2). The 2D universe's *antigravity* is *internal* to the 2D universe (its own dark energy, in 2D), and does *not* project back to 3+1D as a separate effect. *Note*: dark energy in the *3+1D* frame is *separately* the 4D event's un-cancelled antigravity (§2.4), not the cumulative 2D universe antigravity. The dark matter and the 3+1D dark energy arise from *different* dimensional projections: dark matter from 2D → 3+1D back-projection, dark energy from 4D → 3+1D projection. The two are *distinct in their dimensional origin* but *complementary* in their effect on the 3+1D universe.
 
@@ -456,7 +456,7 @@ Each active 2D universe contributes some gravitational effect to our 3+1 dimensi
 
 $$\rho_{DM} \sim n_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$$
 
-where $E_{\rm 2D}$ is the characteristic energy of a 2D universe, and $(G_{2D}^{projected} / G_{4D})$ is the ratio of the projected 2D gravity to the native 4D gravity (a small number, by SIDC cancellation). The observed dark matter fraction of the universe's mass-energy budget is ~27%, which would constrain the product $R \cdot \tau_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$. The model does not currently derive this product from first principles, but the order of magnitude is *plausible*: in a typical galaxy, the event rate is R ∼ 10⁻² supernovae per year per galaxy (with smaller events at much higher rates), $\tau_{2D}$ for a supernova-scale event is∼ 33 s (per the dimensional time-dilation rule ℓ/c with $\ell_{event} \sim 10^{10}$ m and c ∼ 3 × 10⁸ m/s), and $(G_{2D}^{projected} / G_{4D})$ is a small ratio set by the dimensional SIDC cancellation. The cumulative effect being of order the observed dark matter density is therefore *qualitatively* plausible, but a *quantitative* derivation is left to future work.
+where $E_{\rm 2D}$ is the characteristic energy of a 2D universe, and $(G_{2D}^{projected} / G_{4D})$ is the ratio of the projected 2D gravity to the native 4D gravity (a small number, by SIDC cancellation). The observed dark matter fraction of the universe's mass-energy budget is ~27%, which would constrain the product $R \cdot \tau_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$. The model does not currently derive this product from first principles, but the order of magnitude is *plausible*: in a typical galaxy, the event rate is R ∼ 10⁻² supernovae per year per galaxy (with smaller events at much higher rates), $\tau_{2D}$ for a supernova-scale event is∼ 33 s (per the dimensional time-dilation rule l/c with $\ell_{event} \sim 10^{10}$ m and c ∼ 3 × 10⁸ m/s), and $(G_{2D}^{projected} / G_{4D})$ is a small ratio set by the dimensional SIDC cancellation. The cumulative effect being of order the observed dark matter density is therefore *qualitatively* plausible, but a *quantitative* derivation is left to future work.
 
 **Dimensional time-dilation rule.** The paper has assumed that a brief event in our 3+1 dimensional frame creates a complete cosmic history in the lower-dimensional universe, with a lifetime in our frame that scales with the event's spatial extent. The simplest dimensional rule is:
 
@@ -813,7 +813,7 @@ The cosmological constant problem, in this framing, becomes a problem of *identi
 
 $$G_{D-1}^{eff} = \epsilon \cdot G_{D-1}^{native}$$
 
-where ε ≪ 1. The un-cancelled antigravity (SIDC's *gravitational* contribution) is also of order $\epsilon \cdot G_{D-1}^{native}$ in *magnitude* — that is, the un-cancelled antigravity is of the *same* order as the ordinary gravity (both are *small* because of the near-cancellation). Crucially, SIDC's "un-cancelled antigravity" is a *gravitational coupling* (units of G), not a *vacuum energy density* (units of energy⁴). Converting SIDC's gravitational coupling to a vacuum energy density requires a *mass scale* or *length scale*: for example, if we associate the antigravity with a Planck-scale vacuum energy, then $\rho_{DE,model} \sim \epsilon \cdot M_{Pl}^4 \sim 10^{-38}$ in natural Planck units (where $M_{Pl}^4 \sim 1$), but the *observed* dark energy is$\sim 10^{-123}$ in natural Planck units. So SIDC's "un-cancelled antigravity as vacuum energy" is 10⁸⁵ *larger* than the observed dark energy. SIDC therefore explains *why* the dark energy is *qualitatively* small (it's a near-cancellation effect, suppressed by ε), and it gives a *quantitative* prediction of∼ 10⁻³⁸ in natural units for the *total* antigravity produced by SIDC. The *observed* dark energy in 3+1D is$\sim 10^{-123}$, which is 10⁻⁸⁵ t *smaller* than SIDC's prediction. SIDC produces this antigravity at the 4D → 3+1D level, and only a *small fraction* $f_{back} \sim 10^{-85}$ of it remains in 3+1D as observable dark energy; the *rest* ($1 - f_{back} \approx 1$) is *absorbed* into the 3+1D vacuum structure in a way that does not contribute to the observable dark energy density (it could be the 4D bulk dark matter, or a non-projected component). SIDC's prediction × fraction staying in 3+1D = observed dark energy: $10^{-38} \times 10^{-85} = 10^{-123}$ (matches observation **[PASS]**). The fraction $f_{back} = 10^{-85}$ is a *postulate* of the model, and represents the *effective* fraction of SIDC-produced antigravity that survives as observable dark energy. (Note: this is *distinct* from the cumulative 2D universe antigravity, which is *internal* to the 2D universes and does not project back to 3+1D as dark energy. The 3+1D's dark energy comes *only* from the 4D event, not from cumulative 2D universe antigravity. See §2.5 and §2.7.) The *observed* 10³⁸ (hierarchy) is then ε at the 3+1D level: the *native* 3+1D gravitational coupling is larger than the *effective* coupling by a factor of∼ 10³⁸. Equivalently, $\epsilon_{3+1D} \sim 10^{-38}$. SIDC explains the 10³⁸ hierarchy quantitatively (as a near-cancellation of $G_{native}$ and $G_{proj}$), and it gives a *qualitative* explanation for the smallness of the dark energy (as another near-cancellation effect), but it does *not* give the *quantitative* value of the dark energy. The model *reframes* the 10¹²⁰ cosmological constant problem as a *misidentification*: the 3+1D QFT vacuum energy is the wrong quantity to compare to the observed dark energy. The dark energy in the model is the un-cancelled antigravity residue of SIDC, modulated by the staying fraction $f_{back} \sim 10^{-85}$. The model does *not* claim to *quantitatively derive* the 10³⁸ hierarchy, the absolute value of the dark energy density, or the 10¹²⁰ discrepancy from SIDC alone. A specific implementation of the model would need to derive the *exact* un-cancelled fraction from the geometry of the dimensional projection, which would in turn predict the absolute value of the dark energy density and the *quantitative* value of the 10¹²⁰ ratio.
+where ε << 1. The un-cancelled antigravity (SIDC's *gravitational* contribution) is also of order $\epsilon \cdot G_{D-1}^{native}$ in *magnitude* — that is, the un-cancelled antigravity is of the *same* order as the ordinary gravity (both are *small* because of the near-cancellation). Crucially, SIDC's "un-cancelled antigravity" is a *gravitational coupling* (units of G), not a *vacuum energy density* (units of energy⁴). Converting SIDC's gravitational coupling to a vacuum energy density requires a *mass scale* or *length scale*: for example, if we associate the antigravity with a Planck-scale vacuum energy, then $\rho_{DE,model} \sim \epsilon \cdot M_{Pl}^4 \sim 10^{-38}$ in natural Planck units (where $M_{Pl}^4 \sim 1$), but the *observed* dark energy is$\sim 10^{-123}$ in natural Planck units. So SIDC's "un-cancelled antigravity as vacuum energy" is 10⁸⁵ *larger* than the observed dark energy. SIDC therefore explains *why* the dark energy is *qualitatively* small (it's a near-cancellation effect, suppressed by ε), and it gives a *quantitative* prediction of∼ 10⁻³⁸ in natural units for the *total* antigravity produced by SIDC. The *observed* dark energy in 3+1D is$\sim 10^{-123}$, which is 10⁻⁸⁵ t *smaller* than SIDC's prediction. SIDC produces this antigravity at the 4D → 3+1D level, and only a *small fraction* $f_{back} \sim 10^{-85}$ of it remains in 3+1D as observable dark energy; the *rest* ($1 - f_{back} \approx 1$) is *absorbed* into the 3+1D vacuum structure in a way that does not contribute to the observable dark energy density (it could be the 4D bulk dark matter, or a non-projected component). SIDC's prediction × fraction staying in 3+1D = observed dark energy: $10^{-38} \times 10^{-85} = 10^{-123}$ (matches observation **[PASS]**). The fraction $f_{back} = 10^{-85}$ is a *postulate* of the model, and represents the *effective* fraction of SIDC-produced antigravity that survives as observable dark energy. (Note: this is *distinct* from the cumulative 2D universe antigravity, which is *internal* to the 2D universes and does not project back to 3+1D as dark energy. The 3+1D's dark energy comes *only* from the 4D event, not from cumulative 2D universe antigravity. See §2.5 and §2.7.) The *observed* 10³⁸ (hierarchy) is then ε at the 3+1D level: the *native* 3+1D gravitational coupling is larger than the *effective* coupling by a factor of∼ 10³⁸. Equivalently, $\epsilon_{3+1D} \sim 10^{-38}$. SIDC explains the 10³⁸ hierarchy quantitatively (as a near-cancellation of $G_{native}$ and $G_{proj}$), and it gives a *qualitative* explanation for the smallness of the dark energy (as another near-cancellation effect), but it does *not* give the *quantitative* value of the dark energy. The model *reframes* the 10¹²⁰ cosmological constant problem as a *misidentification*: the 3+1D QFT vacuum energy is the wrong quantity to compare to the observed dark energy. The dark energy in the model is the un-cancelled antigravity residue of SIDC, modulated by the staying fraction $f_{back} \sim 10^{-85}$. The model does *not* claim to *quantitatively derive* the 10³⁸ hierarchy, the absolute value of the dark energy density, or the 10¹²⁰ discrepancy from SIDC alone. A specific implementation of the model would need to derive the *exact* un-cancelled fraction from the geometry of the dimensional projection, which would in turn predict the absolute value of the dark energy density and the *quantitative* value of the 10¹²⁰ ratio.
 
 We emphasize that this dimensional analysis is *qualitative* and *not a derivation*. The *quantitative* values of ε at each level of SIDC are not derived in this model. A specific implementation would need to compute $\epsilon_{3+1D}$ and $\epsilon_{2D}$ from the geometry of the dimensional projection, which is left to future work.
 
@@ -1384,7 +1384,7 @@ SIDC's 2D universes have Hawking temperatures $T_H \sim M_{\rm Pl}$ × $( E_{\rm
 
 **3.8.2 Padmanabhan (2015) entropic gravity and DM as missing bulk entropy.**
 
-Padmanabhan [Padmanabhan15] proposes that gravity emerges from the difference between bulk and boundary entanglement entropy: G_N ~ 1/N where N = A/ ℓ_P² is the number of boundary degrees of freedom. SIDC's bulk-brane coupling has a *natural* information-theoretic interpretation in this framework:
+Padmanabhan [Padmanabhan15] proposes that gravity emerges from the difference between bulk and boundary entanglement entropy: G_N ~ 1/N where N = A/ l_P² is the number of boundary degrees of freedom. SIDC's bulk-brane coupling has a *natural* information-theoretic interpretation in this framework:
 
 - **3+1D brane** = boundary
 - **4D bulk** = bulk
@@ -1477,7 +1477,7 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 **Quantitative check.** For SIDC's SN-calibrated 2D universe of $\tau_{2D} = 33$ s, RT gives:
 - $R_{\rm 2D}$ = c × $\tau_{2D} = 9.9$ × 10⁹ m (about 70 × Earth-Moon distance)
 - A_2D = 4π R_2D² = 1.2 × 10²¹ m²
-- $S_{\rm 2D}$ = A_2D / (4 ℓ_P²) ≈ 10⁹⁰ (in natural units)
+- $S_{\rm 2D}$ = A_2D / (4 l_P²) ≈ 10⁹⁰ (in natural units)
 
 This is an enormous entanglement entropy. The 2D universe is "small" in its intrinsic 1+1D spacetime, but its boundary in 3+1D is a 2-sphere of radius ∼ 10¹⁰ m. The RT formula gives this boundary area a holographic content of 10⁹⁰ dimensionless units. This is consistent with SIDC's claim that 2D universes can carry "missing bulk entropy" that back-projects to 3+1D as DM.
 
@@ -6465,7 +6465,7 @@ SIDC has now been tested against **seventeen test categories** using published o
 
 **Test 4 (new): Isolated vs cluster dwarf M*-M_200 relation.** SIDC predicts similar M*-M_200 for both populations at fixed M* (cumulative DM dominates, active contribution differs by only ~5%). Published data: Read+ 2017 (MNRAS 471, 2192) shows 40 isolated dIrrs follow a tight M*-M_200 relation (consistent with $\Lambda{\rm CDM}$); Sawala+ 2014, 2016 shows Local Group dwarfs follow a similar relation. The "too big to fail" problem in $\Lambda{\rm CDM}$ is a sub-halo issue, not a cumulative-DM issue, and doesn't apply to SIDC. **CONSISTENT with SIDC** (no significant difference between populations at fixed M*).
 
-**Test 1 (executed, TENTATIVE): AGN host galaxy DM content.** SIDC predicts AGN hosts should have ~5% more DM than non-AGN hosts at fixed M* (current activity → current DM via active back-projection, ~5% of total). Tested with MaNGA DR15 (10,220 galaxies) using logSFRHa as AGN indicator (no BPT classifications available in catalog). At low mass (log M* = 9.5-10.5) with a narrow AGN cut (logSFRHa > 0.5, N=63), $M_{dyn}$/ M_⋆ is +15% in AGN-like galaxies (0.59 vs 0.52). **TENTATIVE PASS** — SIDC-consistent direction, but confounded by morphology (late-type AGN vs early-type control measures morphology effect, not AGN effect). A cleaner test requires BPT-classified AGN, morphology matching, Vrot measurements, and X-ray confirmation. *See `calculations/agn_host_dm_test.py` for full analysis. The morphology confounding is similar to that affecting the Vflat-morphology test (§4.33).*
+**Test 1 (executed, TENTATIVE): AGN host galaxy DM content.** SIDC predicts AGN hosts should have ~5% more DM than non-AGN hosts at fixed M* (current activity → current DM via active back-projection, ~5% of total). Tested with MaNGA DR15 (10,220 galaxies) using logSFRHa as AGN indicator (no BPT classifications available in catalog). At low mass (log M* = 9.5-10.5) with a narrow AGN cut (logSFRHa > 0.5, N=63), $M_{dyn}$/ M_* is +15% in AGN-like galaxies (0.59 vs 0.52). **TENTATIVE PASS** — SIDC-consistent direction, but confounded by morphology (late-type AGN vs early-type control measures morphology effect, not AGN effect). A cleaner test requires BPT-classified AGN, morphology matching, Vrot measurements, and X-ray confirmation. *See `calculations/agn_host_dm_test.py` for full analysis. The morphology confounding is similar to that affecting the Vflat-morphology test (§4.33).*
 
 *Summary.* **15 of 17 tests pass** (88%), 1 is confounded (HI-DM), 1 is inconclusive (Vflat-morphology). Among the 15 passing tests: 5 are clean real-data passes (GC, DD, isolated vs cluster, cusp-core, MDAR for dSphs), 4 are structural (SIDC avoids $\Lambda{\rm CDM}$ small-scale problems by having no sub-halos; missing satellites, TBTF, lensing flux ratio, dSph σ(r) profile), 5 are not discriminative vs $\Lambda{\rm CDM}$ (both models predict similar things; halo M/M* vs z, dSph $M_{dyn}$, cluster baryon fraction, BTFR documentation, BTFR SPARC real), 1 is tentative (AGN host DM, confounded by morphology; +15% at low mass with narrow cut, TENTATIVE). SIDC's empirical basis is now:
 
@@ -6656,22 +6656,22 @@ SIDC's two-component DM structure (active + cumulative) leads to a specific pred
 - *Active* (proportional to current SFR): peaks at z~2 (Madau & Dickinson 2014 cosmic SFR history)
 - *Cumulative* (integrated past activity): for galaxies at z=4, less time has elapsed; galaxies at z=4 are typically YOUNGER (formed later) with potentially different SFHs
 
-For a galaxy at fixed M* observed at different z, SIDC predicts ~constant $M_{\rm halo}$/ M_⋆, because the active contribution is HIGHER at z~2 (compensating the LOWER cumulative contribution). This is structurally similar to $\Lambda{\rm CDM}$'s prediction.
+For a galaxy at fixed M* observed at different z, SIDC predicts ~constant $M_{\rm halo}$/ M_*, because the active contribution is HIGHER at z~2 (compensating the LOWER cumulative contribution). This is structurally similar to $\Lambda{\rm CDM}$'s prediction.
 
-*Standard $\Lambda{\rm CDM}$ prediction.* $M_{\rm halo}$/ M_⋆ at fixed M* is ~ constant, with weak z-evolution (~0.1 dex, mild "downsizing"). Halo mass is set at formation, not affected by subsequent activity.
+*Standard $\Lambda{\rm CDM}$ prediction.* $M_{\rm halo}$/ M_* at fixed M* is ~ constant, with weak z-evolution (~0.1 dex, mild "downsizing"). Halo mass is set at formation, not affected by subsequent activity.
 
 *Published data (Behroozi+ 2013, ApJ 770, 57; Leauthaud+ 2012, ApJ 746, 95):*
 - z = 0: $M_{\rm halo} \sim 10^{12} M_\odot$ at M* = $10^{10} M_\odot$
 - z = 1: $M_{\rm halo} \sim 10^{12} M_\odot$ (slightly higher)
 - z = 4: $M_{\rm halo}$ ~ 1.3 x $10^{12} M_\odot$ (mild downsizing)
-- Pattern: $M_{\rm halo}$/ M_⋆ is roughly constant to within 0.2 dex scatter
+- Pattern: $M_{\rm halo}$/ M_* is roughly constant to within 0.2 dex scatter
 
-*Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$. This is **NOT a discriminative test**—both models predict ~constant $M_{\rm halo}$/ M_⋆ at fixed M*, matching the data to within the 0.2 dex scatter. SIDC's two-component structure (active + cumulative) can naturally accommodate this constancy.
+*Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$. This is **NOT a discriminative test**—both models predict ~constant $M_{\rm halo}$/ M_* at fixed M*, matching the data to within the 0.2 dex scatter. SIDC's two-component structure (active + cumulative) can naturally accommodate this constancy.
 
 *To make this discriminative.* Would need:
 - Better z-resolution data (sub-redshift bins)
 - A precise SIDC calculation including SFH as a function of z
-- A specific prediction for the EXACT z-dependence (e.g., $M_{\rm halo}$/ M_⋆ slightly HIGHER at z~2 where cosmic SFR peaks, with a specific shape)
+- A specific prediction for the EXACT z-dependence (e.g., $M_{\rm halo}$/ M_* slightly HIGHER at z~2 where cosmic SFR peaks, with a specific shape)
 
 The current test is consistent with SIDC but doesn't discriminate SIDC from $\Lambda{\rm CDM}$. This is honest: consistency ≠ confirmation.
 
@@ -6715,7 +6715,7 @@ See `calculations/too_big_to_fail_test.py` for the full analysis.
 
 ### 4.25 dSph $M_{dyn}$ Test (Test 9, v2.3.1) - Real Data
 
-This test computes the $M_{dyn}$- M_⋆ relation for 10 MW dSphs using the Wolf+ 2010 mass estimator and compares to theoretical predictions.
+This test computes the $M_{dyn}$- M_* relation for 10 MW dSphs using the Wolf+ 2010 mass estimator and compares to theoretical predictions.
 
 *Data:*
 - sigma: Walker+ 2007 (J/ApJ/649/201)
@@ -6727,12 +6727,12 @@ This test computes the $M_{dyn}$- M_⋆ relation for 10 MW dSphs using the Wolf+
 *Sample (10 MW dSphs):* Draco, UMi, Sculptor, Sextans, Carina, Fornax, Leo I, Leo II, Sgr, CVn I.
 
 *Results (M/ $L_V$ =2):*
-- $M_{dyn}$- M_⋆ slope (log-log): 0.37
+- $M_{dyn}$- M_* slope (log-log): 0.37
 - Expected (NFW abundance matching): 0.3-0.5
-- Median $M_{dyn}$/ M_⋆: 15.4
+- Median $M_{dyn}$/ M_*: 15.4
 - Range: 3.0 - 184
 
-*Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$. **NOT a discriminative test** — both models predict the same $M_{dyn}$- M_⋆ relation. SIDC and $\Lambda{\rm CDM}$ differ in MECHANISM (cumulative 2D universe gravity vs NFW halo), not the relation itself. This is similar to the halo M/M* vs z test (Test 6) in being consistent but not discriminative.
+*Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$. **NOT a discriminative test** — both models predict the same $M_{dyn}$- M_* relation. SIDC and $\Lambda{\rm CDM}$ differ in MECHANISM (cumulative 2D universe gravity vs NFW halo), not the relation itself. This is similar to the halo M/M* vs z test (Test 6) in being consistent but not discriminative.
 
 *Caveats.* (a) M/ $L_V$ is uncertain (1-5 for dSphs depending on SFH and metallicity). (b) The relation is structural, not specific to SIDC. (c) The key point is the slope (0.37), not absolute values.
 
@@ -6742,7 +6742,7 @@ See `calculations/dsph_sigma_test.py` for the full analysis.
 
 The Mass Discrepancy-Acceleration Relation (MDAR) for dSphs complements the SPARC RAR test (Test 1) at the dSph regime.
 
-*Data:* Same 10 MW dSphs as Test 9. Compute $g_{\rm bar}$ (from M_⋆ and rₕ) and $g_{\rm obs}$ (from sigma).
+*Data:* Same 10 MW dSphs as Test 9. Compute $g_{\rm bar}$ (from M_* and rₕ) and $g_{\rm obs}$ (from sigma).
 
 *SIDC-MOND hybrid prediction:* $g_{\rm obs}$/ $g_{\rm bar}$ = 1 + sqrt( g₊/ $g_{\rm bar}$) at low $g_{\rm bar}$. MOND scale g₊ = 1.2 × 10⁻¹⁰ m/s^2.
 
@@ -6829,9 +6829,9 @@ This is a real-data version of the BTFR test using the SPARC database (Lelli+ 20
 *Sample:* 129 SPARC galaxies (quality 1-2, Vflat > 30 km/s).
 
 *Data:*
-- M_⋆ from L3.6 (M/$L_3$.6 = 0.5)
+- M_* from L3.6 (M/$L_3$.6 = 0.5)
 - $M_{\rm gas}$ from MHI
-- $M_{\rm baryon}$ = M_⋆ + $M_{\rm gas}$
+- $M_{\rm baryon}$ = M_* + $M_{\rm gas}$
 
 *Results:*
 - BTFR fit: $M_{\rm baryon}$ ~ $V^{3.53}$ (all galaxies)
@@ -6851,17 +6851,17 @@ See `calculations/btfr_sparc_real_test.py` for the full analysis.
 
 ### 4.32 HI-Richness vs DM Test (Test 16, v2.3.1) - Real Data, CONFOUNDED
 
-This test uses SPARC data to check if HI-rich galaxies have more DM at fixed M_⋆ (SIDC prediction).
+This test uses SPARC data to check if HI-rich galaxies have more DM at fixed M_* (SIDC prediction).
 
-*SIDC prediction:* At fixed M_⋆, gas-rich galaxies should have MORE DM (HI traces cumulative activity).
+*SIDC prediction:* At fixed M_*, gas-rich galaxies should have MORE DM (HI traces cumulative activity).
 
-*Standard $\Lambda{\rm CDM}$ prediction:* At fixed M_⋆, $M_{dyn}$ should NOT correlate with M_HI (HI is just gas, doesn't affect halo).
+*Standard $\Lambda{\rm CDM}$ prediction:* At fixed M_*, $M_{dyn}$ should NOT correlate with M_HI (HI is just gas, doesn't affect halo).
 
 *Sample:* 129 SPARC galaxies with M_HI > 0.
 
 *Results:*
-- Overall correlation: $f_{\rm gas}$ vs $M_{dyn}$(optical)/ M_⋆: r = 0.86 (very strong)
-- Log-log regression: $M_{dyn}$(optical)/ M_⋆ ∼ M_⋆^0.08 * $f_{\rm gas}^0$.97
+- Overall correlation: $f_{\rm gas}$ vs $M_{dyn}$(optical)/ M_*: r = 0.86 (very strong)
+- Log-log regression: $M_{dyn}$(optical)/ M_* ∼ M_*^0.08 * $f_{\rm gas}^0$.97
 - $f_{\rm gas}$ exponent beta = 0.97 (essentially linear)
 
 *Verdict.* **CONFOUNDED** — the $f_{\rm gas}$- $M_{dyn}$ correlation is DOMINATED by a gas-radius correlation:
@@ -6877,11 +6877,11 @@ See `calculations/hi_dm_test.py` for the full analysis.
 
 ### 4.33 Vflat-Morphology Test (Test 17, v2.3.1) - Real Data, INCONCLUSIVE
 
-This test uses SPARC data to check if Vflat at fixed M_⋆ differs by morphology.
+This test uses SPARC data to check if Vflat at fixed M_* differs by morphology.
 
-*SIDC prediction:* At fixed M_⋆, Vflat is HIGHER for late-types (more cumulative return → more DM → higher Vflat).
+*SIDC prediction:* At fixed M_*, Vflat is HIGHER for late-types (more cumulative return → more DM → higher Vflat).
 
-*Standard $\Lambda{\rm CDM}$ prediction:* At fixed M_⋆, Vflat is set by halo mass. No morphology dependence.
+*Standard $\Lambda{\rm CDM}$ prediction:* At fixed M_*, Vflat is set by halo mass. No morphology dependence.
 
 *Sample:* 129 SPARC galaxies.
 
@@ -6891,7 +6891,7 @@ This test uses SPARC data to check if Vflat at fixed M_⋆ differs by morphology
 - The high-mass early-types have higher Vflat on average (mass correlation)
 - This BIASES the test AGAINST SIDC (SIDC predicts V_late > V_early at fixed M*)
 
-*Verdict.* **INCONCLUSIVE** — better to acknowledge the sample bias than to overclaim. A proper test would need a more balanced sample (e.g., matched in M_⋆).
+*Verdict.* **INCONCLUSIVE** — better to acknowledge the sample bias than to overclaim. A proper test would need a more balanced sample (e.g., matched in M_*).
 
 *Caveats.* (a) SPARC early-types are systematically higher M*. (b) SIDC's +5% prediction is at the level of sample selection. (c) A balanced sample (low-mass early-types + low-mass late-types) would be needed.
 
@@ -6901,16 +6901,16 @@ See `calculations/vflat_morphology_test.py` for the full analysis.
 
 ### 4.34 AGN Host DM Test v2: Morphology-Matched (Tier 1 #1, v2.3.1)
 
-The V1 AGN test (§4.19, commit 230) was confounded by morphology: high-logSFRHa galaxies are mostly late-type (with intrinsically lower $M_{dyn}$/ M_⋆), so the test measured "late vs early type" more than "AGN vs not AGN." This V2 addresses that confound by matching AGN vs control galaxies in **( M_⋆, sigma)** cells, where sigma is a proxy for morphology (high sigma = early-type, low sigma = late-type).
+The V1 AGN test (§4.19, commit 230) was confounded by morphology: high-logSFRHa galaxies are mostly late-type (with intrinsically lower $M_{dyn}$/ M_*), so the test measured "late vs early type" more than "AGN vs not AGN." This V2 addresses that confound by matching AGN vs control galaxies in **( M_*, sigma)** cells, where sigma is a proxy for morphology (high sigma = early-type, low sigma = late-type).
 
-**SIDC prediction:** AGN hosts have ~5-15% more $M_{dyn}$/ M_⋆ than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function ( ∼ 10²⁵ times SN contribution per event).
+**SIDC prediction:** AGN hosts have ~5-15% more $M_{dyn}$/ M_* than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function ( ∼ 10²⁵ times SN contribution per event).
 
 **Data:** MaNGA DR15 (Sanchez+ 2018, J/ApJS/262/36), 10,220 galaxies. WHAN diagram classification (Cid Fernandes+ 2010):
 - 1,655 WHAN AGN (logSFRHa > 0, sigma > 80)
 - 1,650 Quiescent reference (logSFRHa in [-1.5, -0.5])
 - 599 Strong SF control (logSFRHa > 0, sigma < 80) — used as a sanity check
 
-**Per-cell results (matched in M_⋆ and sigma):**
+**Per-cell results (matched in M_* and sigma):**
 
 | logM* range | σ range | AGN M/L | Ctrl M/L | Ratio | N (AGN, ctrl) |
 |---|---|---|---|---|---|
@@ -7066,7 +7066,7 @@ This V3 follow-up adds two improvements:
 
 **1. Stricter pure-Seyfert cut.** The Tier 1 #1 test used logSFRHa > 0 + sigma > 80 (broad WHAN AGN). V3 uses logSFRHa > 0.5 + sigma > 100 (stricter pure Seyfert, lower contamination from LINERs). Result: 5/5 cells with N ≥ 5 have ratio > 1.0; **median ratio = 1.106 (+10.6%, in SIDC's predicted +5-15% range)**.
 
-**2. Partial correlation analysis (Simpson's paradox).** This is the strongest finding. The naive correlation between AGN status and M/L is **NEGATIVE** (r = -0.067, p = 5 × 10⁻³) — opposite of SIDC's prediction! Why? Because AGN are preferentially low-mass late-type galaxies, which have intrinsically lower $M_{dyn}$/ M_⋆. The M_{b} is the dominant mediator.
+**2. Partial correlation analysis (Simpson's paradox).** This is the strongest finding. The naive correlation between AGN status and M/L is **NEGATIVE** (r = -0.067, p = 5 × 10⁻³) — opposite of SIDC's prediction! Why? Because AGN are preferentially low-mass late-type galaxies, which have intrinsically lower $M_{dyn}$/ M_*. The M_{b} is the dominant mediator.
 
 **When we control for M_{b} (and other variables), the correlation INVERTS to POSITIVE (r = +0.367, p = 4 × 10⁻⁵⁷)** — exactly the direction SIDC predicts. This is a **Simpson's paradox**: the marginal correlation is opposite to the partial correlation.
 
@@ -8688,15 +8688,15 @@ The data does not currently distinguish (a) from (b): both give the same 7/7 spe
 
 22. **NEW: The isothermal cumulative profile is DERIVABLE from 2D universe 1/r gravity (Option 7).** SIDC's 2D universe gravity is logarithmic in 2D ($V_{\rm 2D}$(r) = G_2D $M_{2D}$ log(r), giving g_{\rm 2D}(r) = G_2D $M_{2D}$ / r). For a 2D universe with finite gravity reach $r_0$, and a UNIFORM distribution of such universes, the cumulative 3+1D gravity is $g₊{\rm cum}$(r) ~ 1/r for r > $r_0$. This gives $v_{\rm circ}^2 = g₊{\rm cum}$ * r = const, which is exactly the FLAT ROTATION CURVE. The isothermal profile (ρ ∼ 1/r²) is therefore a NATURAL CONSEQUENCE of SIDC's 2D universe 1/r gravity, not just a fitting parameter. This is a real derivation (commit 126, `calculations/derive_isothermal_cum.py`).
 
-23. **NEW: SIDC's RAR fit does not generalize to a population of galaxies (Option 9, original test).** A SPARC-like test (commit 128, `calculations/rar_sparc_like.py`) with 30 galaxies spanning $M_{\rm halo}$ from 10⁷ to $10^{12} M_\odot$ (constant kappa=20) gives a median absolute residual of 29% (vs 5-13% for the single-MW fit). With more realistic tests (varying kappa, realistic SFR- M_⋆ correlation, partial correlations, binning analysis; commits 138-149), the residual is **40%** (worse than the 29% original). SIDC's RAR parameters are tuned for the MW, not the full population. A specific implementation would need to derive mass-dependent parameters from SIDC's geometry (Limitation 24's scale factor is an empirical fit, not a derivation) — this is left as future work.
+23. **NEW: SIDC's RAR fit does not generalize to a population of galaxies (Option 9, original test).** A SPARC-like test (commit 128, `calculations/rar_sparc_like.py`) with 30 galaxies spanning $M_{\rm halo}$ from 10⁷ to $10^{12} M_\odot$ (constant kappa=20) gives a median absolute residual of 29% (vs 5-13% for the single-MW fit). With more realistic tests (varying kappa, realistic SFR- M_* correlation, partial correlations, binning analysis; commits 138-149), the residual is **40%** (worse than the 29% original). SIDC's RAR parameters are tuned for the MW, not the full population. A specific implementation would need to derive mass-dependent parameters from SIDC's geometry (Limitation 24's scale factor is an empirical fit, not a derivation) — this is left as future work.
 
 24. **NEW: The mass-dependent scale factor is empirically identified but not derived (Option 3).** SIDC's intrinsic $M_{\rm halo}$ relative to the empirical $M_{\rm halo}$ (the "scale factor") varies with halo mass: scale = 0.1 for MW ( $1 \times 10^{12} M_\odot$) and scale = 0.7 for galaxy clusters ( $1 \times 10^{14} M_\odot$). The relationship scale ∝ $kappa^{1.1}$ (where kappa = $M_{\rm halo}$/ $M_{\rm stellar}$) fits the two data points to ~10% precision (commit 134, `calculations/derive_scale_factor.py`). A specific implementation of SIDC would need to derive $kappa^{1.1}$ from first principles — this would require either: (a) a model where SIDC's intrinsic $M_{\rm halo}$ scales non-trivially with the baryonic mass (e.g., feedback-modulated cumulative return), or (b) a model where the empirical $M_{\rm halo}$ includes a separate non-SIDC component (e.g., particle DM) that is more dominant in galaxies than in clusters. Both options are open. The 90% missing DM in MW (1 - 0.1) and 30% missing DM in cluster (1 - 0.7) is a specific prediction that could be tested with future high-precision lensing/kinematic surveys.
 
 25. **REVERTED TO HONEST VERSION: SIDC's RAR population fit cannot be improved (Option 4).** A systematic test of various parameter choices (commits 135, 138-148) shows:
 - Mass-dependent parameters ( $f_{\rm active}$ ∝ kappa, scale ∝ log(M), scale ∝ $kappa^{1.1}$): FAIL (0.69 median residual, much worse than baseline)
-- SFR-dependent $f_{\rm active}$ with REALISTIC SFR- M_⋆ correlation: 0.40 → 0.28 (30% improvement, modest)
+- SFR-dependent $f_{\rm active}$ with REALISTIC SFR- M_* correlation: 0.40 → 0.28 (30% improvement, modest)
 - SFR-dependent $f_{\rm active}$ with RANDOM SFR (independent of $M_{\rm disk}$): 0.43 → 0.26 (40% 'improvement' — INFLATED)
-- **Partial correlation test (commit 146):** The residual-vs-SFR correlation (+0.629) is ENTIRELY explained by mass. Once $M_{\rm halo}$ is controlled, the SFR correlation becomes NEGATIVE (-0.382) or zero (-0.072 if controlling for M_⋆). The 'SFR breakthrough' was just mass in disguise.
+- **Partial correlation test (commit 146):** The residual-vs-SFR correlation (+0.629) is ENTIRELY explained by mass. Once $M_{\rm halo}$ is controlled, the SFR correlation becomes NEGATIVE (-0.382) or zero (-0.072 if controlling for M_*). The 'SFR breakthrough' was just mass in disguise.
 - **Binning analysis (commit 147):** $chi^2$/n = 0.058, RMS = 0.24 dex. SIDC's $g₊{\rm cum}$ systematically over-predicts in mid- $g₊{\rm bar}$ bins (39-60% off).
 - **Einasto profile test (commit 148):** Does NOT improve over isothermal. The isothermal profile is genuinely near-optimal for SIDC (8% residual is the structural limit).
 
@@ -12040,7 +12040,7 @@ The PDS is a 3-manifold with icosahedral/dodecahedral symmetry:
 - 120 vertices in its universal cover (120-cell in 4D)
 - Binary icosahedral group 2I (120 elements) as symmetry group
 
-**Luminet+ 2003** proposed PDS as explanation for WMAP low-ℓ anomalies.
+**Luminet+ 2003** proposed PDS as explanation for WMAP low-l anomalies.
 **Planck 2013** ruled out PDS as a model of space topology.
 
 **Relevance to SIDC**: Even though PDS itself is ruled out, the icosahedral/dodecahedral structure with 12-fold coordination IS a real physical concept. SIDC's 12-fold coordination could appear in:
@@ -12094,8 +12094,8 @@ where A_12 is the amplitude of the 12-fold correlation.
 ### Observable Signatures
 
 **1. Angular power spectrum of weak lensing (cosmic shear)**:
-- Standard: C_ℓ ∝ ℓ^n (smooth)
-- SIDC: C_ℓ has specific peak at ℓ_12 = π × $D_A$ / r_12
+- Standard: C_l ∝ $l^n$ (smooth)
+- SIDC: C_l has specific peak at l_12 = π × $D_A$ / r_12
 - Test: KiDS, DES, Subaru HSC, Roman, LSST
 
 **2. Two-point correlation function of galaxies**:
@@ -12133,7 +12133,7 @@ L308am was honest: the 12-fold MACHO prediction was inconsistent with geometric 
 **New (L308an, PROPOSED)**:
 - Smooth DM density field
 - 12-fold STATISTICAL correlation at r_12
-- Detectable as specific ℓ_12 in angular power spectrum
+- Detectable as specific l_12 in angular power spectrum
 
 ### The r_12 Length Scale
 
@@ -12193,8 +12193,8 @@ This is a SPECIFIC prediction, distinct from:
 
 For a specific test:
 1. **Choose r_12**: estimate from SIDC parameters (energetic event density)
-2. **Predict C_ℓ peak**: compute expected angular power spectrum
-3. **Compare with data**: look for specific peak at ℓ_12
+2. **Predict C_l peak**: compute expected angular power spectrum
+3. **Compare with data**: look for specific peak at l_12
 4. **Quantify significance**: how strong is the signal?
 
 The framework's $M_{\rm 2D}$ and $E_{\rm 2D}$ give:
@@ -12202,10 +12202,10 @@ The framework's $M_{\rm 2D}$ and $E_{\rm 2D}$ give:
 - Inter-event distance in MW: ~kpc
 - Expected r_12 for DM correlation: ~kpc to ~10 kpc
 
-This gives ℓ_12 = π × $D_A$ / r_12:
+This gives l_12 = π × $D_A$ / r_12:
 - $D_A$ ~ 1 Gpc for nearby galaxies
 - r_12 ~ kpc
-- ℓ_12 ~ 10⁶ (very high multipole, hard to measure)
+- l_12 ~ 10⁶ (very high multipole, hard to measure)
 
 This is a SUBTLE signal at high multipoles.
 
@@ -12246,15 +12246,15 @@ Key references found:
 
 **Result**: New, consistent prediction. SIDC's 12-fold applies to DENSITY CORRELATIONS, not discrete clusters.
 
-**Observable**: Specific peak in angular power spectrum at ℓ_12 = π × $D_A$ / r_12
+**Observable**: Specific peak in angular power spectrum at l_12 = π × $D_A$ / r_12
 
 **Implication**: The 12-fold structural choice now has a testable consequence that doesn't require point-particle DM.
 
 **Updated testable predictions**:
-- ❌ MACHO microlensing (withdrawn, L308am)
-- ✅ Angular power spectrum peak at ℓ_12
-- ✅ 2-point correlation function bump at r_12
-- ✅ Velocity correlation at r_12
+- [FAIL] MACHO microlensing (withdrawn, L308am)
+- [OK] Angular power spectrum peak at l_12
+- [OK] 2-point correlation function bump at r_12
+- [OK] Velocity correlation at r_12
 
 
 
@@ -12275,8 +12275,8 @@ This is a critical question. Let me be honest.
 
 L308an proposes:
 - Two-point correlation function: ξ(r) = ξ_ΛCDM(r) + A_12 × δ(r - r_12)
-- Angular power spectrum oscillation at ℓ_12 = π × $D_A$ / r_12
-- "12" appears as a SUBSCRIPT on r_12 and ℓ_12
+- Angular power spectrum oscillation at l_12 = π × $D_A$ / r_12
+- "12" appears as a SUBSCRIPT on r_12 and l_12
 
 The "12" implies this is a 12-fold coordination signature, related to SIDC's structural N=12.
 
@@ -12407,11 +12407,11 @@ Re-read of L308an and L308ai to assess the actual physical mechanism linking N=1
 - More work is needed to strengthen the connection
 
 **Updated status of L308an**:
-- ✅ Consistent with geometric DM (not particles)
-- ✅ Testable with current/near-future surveys
-- ❌ r_12 is NOT derived from N=12
+- [OK] Consistent with geometric DM (not particles)
+- [OK] Testable with current/near-future surveys
+- [FAIL] r_12 is NOT derived from N=12
 - ⚠️ The "12-fold" is HEURISTIC, not derived
-- ⏳ Need additional framework structure to derive r_12 from N=12
+- [WAIT] Need additional framework structure to derive r_12 from N=12
 
 
 
@@ -12473,7 +12473,7 @@ I conflated two different concepts:
 
 | Concept | What it means | Does N=12 satisfy it? |
 |---------|---------------|------------------------|
-| **First-principles DERIVATION** | Theory → unique N=12 (no measurement needed) | ❌ NO (requires data) |
+| **First-principles DERIVATION** | Theory → unique N=12 (no measurement needed) | [FAIL] NO (requires data) |
 | **First-principles CONFIRMATION** | Theory predicts α for N=12, data confirms | ✓ YES |
 | **First-principles INPUT** | SM fermion count is fundamental | ✓ YES (specific counting) |
 | **Structural choice** | Framework chose N=12 for consistency | ✓ YES (multiple motivations) |
@@ -14273,7 +14273,7 @@ After Option A adoption (α dim-specific, ε = 6.32× 10⁻³⁴, kL = 76.4), th
 ### 5. CMB Acoustic Peaks — MATCH
 
 - $r_s$ (sound horizon) = 141.85 Mpc (vs Planck 144.57, 1.88% off)
-- Peak positions: ℓ = 220, 540, 810, 1120 (all match)
+- Peak positions: l = 220, 540, 810, 1120 (all match)
 - All peaks match ΛCDM ✓
 
 ### 6. γ_4D and τ_3D,apparent — STRUCTURAL
@@ -17655,7 +17655,7 @@ SIDC now has the strongest first-principles foundation of any dark sector theory
 - SH0ES Cepheid calibration: arXiv:2112.04510
 - Pantheon+ SNe: https://github.com/PantheonPlusSH0ES
 
-All derived quantities ( $M_{dyn}$, $M_{\rm halo}$, M_⋆, $g_{\rm obs}$, etc.) are computed in the corresponding calculation scripts, with full statistical methodology (covariance matrices, MCMC posteriors, etc.) documented inline.
+All derived quantities ( $M_{dyn}$, $M_{\rm halo}$, M_*, $g_{\rm obs}$, etc.) are computed in the corresponding calculation scripts, with full statistical methodology (covariance matrices, MCMC posteriors, etc.) documented inline.
 
 **Reproducibility.** The paper's repository includes a `requirements.txt` file listing the exact Python package versions used. Each calculation script can be re-run with `python calculations/<script>.py` to reproduce the corresponding `_results.txt` file. The paper's main PDF (`paper/paper.pdf`) is built from `paper/paper.md` using `pandoc`; the build is deterministic.
 
@@ -18637,13 +18637,13 @@ This is the right question to ask. The CMB angular power spectrum has multiple a
 
 #### Peak-by-Peak Analysis
 
-| Peak | ℓ | What it measures | ΛCDM | SIDC pre-L308ab | SIDC post-L308ab |
+| Peak | l | What it measures | ΛCDM | SIDC pre-L308ab | SIDC post-L308ab |
 |---|---|---|---|---|---|
 | **1st** | ~220 | Sound horizon $r_s$, total $\Omega_{\rm m}$ | ✓ | partial ($\Omega_{\rm b}$ alone wrong by 6.4×) | **✓ matches** |
 | **2nd** | ~540 | Baryon-to-photon ratio η | ✓ | ✓ (BBNS unchanged) | **✓ matches** |
 | **3rd** | ~810 | Matter-to-radiation, $\Omega_{\rm c}$ | ✓ | ✗ FAIL (no DM at z=1100) | **✓ matches** ($\Omega_{\rm c}$ = 0.265) |
-| **Silk damping** | ℓ > 1000 | DM-baryon coupling | ✓ | ✗ FAIL | **✓ matches** (collisionless DM) |
-| **Polarization** (TE/EE) | ℓ < 200 | Recombination, reionization | ✓ | ✓ (3+1D physics) | **✓ matches** |
+| **Silk damping** | l > 1000 | DM-baryon coupling | ✓ | ✗ FAIL | **✓ matches** (collisionless DM) |
+| **Polarization** (TE/EE) | l < 200 | Recombination, reionization | ✓ | ✓ (3+1D physics) | **✓ matches** |
 
 #### Why SIDC's Peaks Match ΛCDM (post-L308ab)
 
@@ -18663,7 +18663,7 @@ But **once DM exists, it behaves identically** in both:
 - No strong interaction → doesn't affect acoustic oscillations
 - Gravitational only → standard CDM dynamics
 
-#### Peak 1 (ℓ ~ 220): Sound Horizon
+#### Peak 1 (l ~ 220): Sound Horizon
 
 $$r_s = \int_0^{a_*} \frac{c_s}{a^2 H(a)} da, \quad c_s = \frac{c}{\sqrt{3(1+R)}}, \quad R = \frac{3\rho_b}{4\rho_\gamma}$$
 
@@ -18674,14 +18674,14 @@ This integral depends on:
 
 So rₛ is IDENTICAL in SIDC and ΛCDM. Peak 1 position is determined by 3+1D physics. ✓
 
-#### Peak 2 (ℓ ~ 540): Baryon Loading
+#### Peak 2 (l ~ 540): Baryon Loading
 
 The 2nd-to-1st peak ratio depends on $\Omega_{\rm b}$ h²:
 $$\frac{\ell_2}{\ell_1} \approx 1 + \frac{1}{4} \cdot \frac{\Omega_b h^2}{\Omega_m h^2}$$
 
 SIDC's $\Omega_{\rm b}$ = 0.0493 (Planck 2018, standard BBNS). Same as ΛCDM. ✓
 
-#### Peak 3 (ℓ ~ 810): Cold Dark Matter
+#### Peak 3 (l ~ 810): Cold Dark Matter
 
 The 3rd peak height depends on:
 - $\Omega_{\rm c}$ h² (cold DM density)
@@ -18701,7 +18701,7 @@ $$v_{\rm 2D} = c \cdot \sqrt{\frac{2 E_{\rm 2D}}{M_{\rm 2D} c^2}} \sim c \cdot \
 
 That's essentially zero velocity dispersion. **SIDC's DM is "cold" by any measure.** ✓
 
-#### Silk Damping (ℓ > 1000)
+#### Silk Damping (l > 1000)
 
 The Silk damping scale is:
 $$k_D^{-2} \sim \int_0^{a_*} \frac{1}{a^2 \sigma_T n_e H(a)} \left(\frac{R^2 + 1}{6(1+R)}\right) da$$
@@ -18988,7 +18988,7 @@ $$\boxed{\Phi_\nu \sim 2 \times 10^{18} \text{ /m}^2/\text{s} = 2 \times 10^{14}
 
 **Honest interpretation**: The naive calculation suggests SIDC 2D universe deaths would produce a neutrino flux far in excess of observed DSNB. This is a **tension that SIDC must explain**: the geometric events must couple VERY weakly to the Standard Model weak sector, with f_ν < 10⁻¹⁸.
 
-**Possible resolution**: The 2D universe death is a metric event, not a particle decay. The energy return to 3+1D is via gravitational coupling, not Standard Model weak interaction. So f_ν is naturally ≪ 10⁻⁵ — possibly zero (no Standard Model radiation at all).
+**Possible resolution**: The 2D universe death is a metric event, not a particle decay. The energy return to 3+1D is via gravitational coupling, not Standard Model weak interaction. So f_ν is naturally << 10⁻⁵ — possibly zero (no Standard Model radiation at all).
 
 **Status**: ⚠️ **OPEN QUESTION** — this needs a Lagrangian-level derivation of the SM coupling fraction.
 
@@ -19476,7 +19476,7 @@ where $c_s$ is the brane sound speed.
 **Status**: ✓ 90% closed
 
 - $N_{\rm 2D}$ = 12: 3 generations × 4 Weyl (1-comp Majorana) = 12 ✓
-- $N_{3+1D}$ = 6: Cℓ(6) IS SM algebra (Stoica 2018) ✓
+- $N_{3+1D}$ = 6: Cl(6) IS SM algebra (Stoica 2018) ✓
 - $N_{\rm 4D}$ = 3: 3 generations (4-comp Majorana) ✓
 - Halving rule: Bott periodicity (L308bj) ✓
 
@@ -19514,7 +19514,7 @@ The 4% gap is about **UV completion** (the path integral $Z_{\rm SIDC}$), not **
 
 SIDC is a:
 - **CALIBRATED** framework (4 calibrated parameters)
-- **STRUCTURALLY first-principles** (cascade structure, halving rule, Cℓ(6) isomorphism)
+- **STRUCTURALLY first-principles** (cascade structure, halving rule, Cl(6) isomorphism)
 - **TESTABLE** with current/upcoming data (47 Tuc, Euclid, SKA)
 - **OPEN** in UV completion (the 4% gap)
 

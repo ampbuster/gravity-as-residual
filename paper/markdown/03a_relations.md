@@ -109,7 +109,7 @@ SIDC's 2D universes have Hawking temperatures $T_H \sim M_{\rm Pl}$ × $( E_{\rm
 
 **3.8.2 Padmanabhan (2015) entropic gravity and DM as missing bulk entropy.**
 
-Padmanabhan [Padmanabhan15] proposes that gravity emerges from the difference between bulk and boundary entanglement entropy: G_N ~ 1/N where N = A/ ℓ_P² is the number of boundary degrees of freedom. SIDC's bulk-brane coupling has a *natural* information-theoretic interpretation in this framework:
+Padmanabhan [Padmanabhan15] proposes that gravity emerges from the difference between bulk and boundary entanglement entropy: G_N ~ 1/N where N = A/ l_P² is the number of boundary degrees of freedom. SIDC's bulk-brane coupling has a *natural* information-theoretic interpretation in this framework:
 
 - **3+1D brane** = boundary
 - **4D bulk** = bulk
@@ -202,7 +202,7 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 **Quantitative check.** For SIDC's SN-calibrated 2D universe of $\tau_{2D} = 33$ s, RT gives:
 - $R_{\rm 2D}$ = c × $\tau_{2D} = 9.9$ × 10⁹ m (about 70 × Earth-Moon distance)
 - A_2D = 4π R_2D² = 1.2 × 10²¹ m²
-- $S_{\rm 2D}$ = A_2D / (4 ℓ_P²) ≈ 10⁹⁰ (in natural units)
+- $S_{\rm 2D}$ = A_2D / (4 l_P²) ≈ 10⁹⁰ (in natural units)
 
 This is an enormous entanglement entropy. The 2D universe is "small" in its intrinsic 1+1D spacetime, but its boundary in 3+1D is a 2-sphere of radius ∼ 10¹⁰ m. The RT formula gives this boundary area a holographic content of 10⁹⁰ dimensionless units. This is consistent with SIDC's claim that 2D universes can carry "missing bulk entropy" that back-projects to 3+1D as DM.
 

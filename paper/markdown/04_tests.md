@@ -52,9 +52,9 @@ This is a real-data version of the BTFR test using the SPARC database (Lelli+ 20
 *Sample:* 129 SPARC galaxies (quality 1-2, Vflat > 30 km/s).
 
 *Data:*
-- M_⋆ from L3.6 (M/$L_3$.6 = 0.5)
+- M_* from L3.6 (M/$L_3$.6 = 0.5)
 - $M_{\rm gas}$ from MHI
-- $M_{\rm baryon}$ = M_⋆ + $M_{\rm gas}$
+- $M_{\rm baryon}$ = M_* + $M_{\rm gas}$
 
 *Results:*
 - BTFR fit: $M_{\rm baryon}$ ~ $V^{3.53}$ (all galaxies)
@@ -74,17 +74,17 @@ See `calculations/btfr_sparc_real_test.py` for the full analysis.
 
 ### 4.32 HI-Richness vs DM Test (Test 16, v2.3.1) - Real Data, CONFOUNDED
 
-This test uses SPARC data to check if HI-rich galaxies have more DM at fixed M_⋆ (SIDC prediction).
+This test uses SPARC data to check if HI-rich galaxies have more DM at fixed M_* (SIDC prediction).
 
-*SIDC prediction:* At fixed M_⋆, gas-rich galaxies should have MORE DM (HI traces cumulative activity).
+*SIDC prediction:* At fixed M_*, gas-rich galaxies should have MORE DM (HI traces cumulative activity).
 
-*Standard $\Lambda{\rm CDM}$ prediction:* At fixed M_⋆, $M_{dyn}$ should NOT correlate with M_HI (HI is just gas, doesn't affect halo).
+*Standard $\Lambda{\rm CDM}$ prediction:* At fixed M_*, $M_{dyn}$ should NOT correlate with M_HI (HI is just gas, doesn't affect halo).
 
 *Sample:* 129 SPARC galaxies with M_HI > 0.
 
 *Results:*
-- Overall correlation: $f_{\rm gas}$ vs $M_{dyn}$(optical)/ M_⋆: r = 0.86 (very strong)
-- Log-log regression: $M_{dyn}$(optical)/ M_⋆ ∼ M_⋆^0.08 * $f_{\rm gas}^0$.97
+- Overall correlation: $f_{\rm gas}$ vs $M_{dyn}$(optical)/ M_*: r = 0.86 (very strong)
+- Log-log regression: $M_{dyn}$(optical)/ M_* ∼ M_*^0.08 * $f_{\rm gas}^0$.97
 - $f_{\rm gas}$ exponent beta = 0.97 (essentially linear)
 
 *Verdict.* **CONFOUNDED** — the $f_{\rm gas}$- $M_{dyn}$ correlation is DOMINATED by a gas-radius correlation:
@@ -100,11 +100,11 @@ See `calculations/hi_dm_test.py` for the full analysis.
 
 ### 4.33 Vflat-Morphology Test (Test 17, v2.3.1) - Real Data, INCONCLUSIVE
 
-This test uses SPARC data to check if Vflat at fixed M_⋆ differs by morphology.
+This test uses SPARC data to check if Vflat at fixed M_* differs by morphology.
 
-*SIDC prediction:* At fixed M_⋆, Vflat is HIGHER for late-types (more cumulative return → more DM → higher Vflat).
+*SIDC prediction:* At fixed M_*, Vflat is HIGHER for late-types (more cumulative return → more DM → higher Vflat).
 
-*Standard $\Lambda{\rm CDM}$ prediction:* At fixed M_⋆, Vflat is set by halo mass. No morphology dependence.
+*Standard $\Lambda{\rm CDM}$ prediction:* At fixed M_*, Vflat is set by halo mass. No morphology dependence.
 
 *Sample:* 129 SPARC galaxies.
 
@@ -114,7 +114,7 @@ This test uses SPARC data to check if Vflat at fixed M_⋆ differs by morphology
 - The high-mass early-types have higher Vflat on average (mass correlation)
 - This BIASES the test AGAINST SIDC (SIDC predicts V_late > V_early at fixed M*)
 
-*Verdict.* **INCONCLUSIVE** — better to acknowledge the sample bias than to overclaim. A proper test would need a more balanced sample (e.g., matched in M_⋆).
+*Verdict.* **INCONCLUSIVE** — better to acknowledge the sample bias than to overclaim. A proper test would need a more balanced sample (e.g., matched in M_*).
 
 *Caveats.* (a) SPARC early-types are systematically higher M*. (b) SIDC's +5% prediction is at the level of sample selection. (c) A balanced sample (low-mass early-types + low-mass late-types) would be needed.
 
@@ -124,16 +124,16 @@ See `calculations/vflat_morphology_test.py` for the full analysis.
 
 ### 4.34 AGN Host DM Test v2: Morphology-Matched (Tier 1 #1, v2.3.1)
 
-The V1 AGN test (§4.19, commit 230) was confounded by morphology: high-logSFRHa galaxies are mostly late-type (with intrinsically lower $M_{dyn}$/ M_⋆), so the test measured "late vs early type" more than "AGN vs not AGN." This V2 addresses that confound by matching AGN vs control galaxies in **( M_⋆, sigma)** cells, where sigma is a proxy for morphology (high sigma = early-type, low sigma = late-type).
+The V1 AGN test (§4.19, commit 230) was confounded by morphology: high-logSFRHa galaxies are mostly late-type (with intrinsically lower $M_{dyn}$/ M_*), so the test measured "late vs early type" more than "AGN vs not AGN." This V2 addresses that confound by matching AGN vs control galaxies in **( M_*, sigma)** cells, where sigma is a proxy for morphology (high sigma = early-type, low sigma = late-type).
 
-**SIDC prediction:** AGN hosts have ~5-15% more $M_{dyn}$/ M_⋆ than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function ( ∼ 10²⁵ times SN contribution per event).
+**SIDC prediction:** AGN hosts have ~5-15% more $M_{dyn}$/ M_* than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function ( ∼ 10²⁵ times SN contribution per event).
 
 **Data:** MaNGA DR15 (Sanchez+ 2018, J/ApJS/262/36), 10,220 galaxies. WHAN diagram classification (Cid Fernandes+ 2010):
 - 1,655 WHAN AGN (logSFRHa > 0, sigma > 80)
 - 1,650 Quiescent reference (logSFRHa in [-1.5, -0.5])
 - 599 Strong SF control (logSFRHa > 0, sigma < 80) — used as a sanity check
 
-**Per-cell results (matched in M_⋆ and sigma):**
+**Per-cell results (matched in M_* and sigma):**
 
 | logM* range | σ range | AGN M/L | Ctrl M/L | Ratio | N (AGN, ctrl) |
 |---|---|---|---|---|---|
@@ -289,7 +289,7 @@ This V3 follow-up adds two improvements:
 
 **1. Stricter pure-Seyfert cut.** The Tier 1 #1 test used logSFRHa > 0 + sigma > 80 (broad WHAN AGN). V3 uses logSFRHa > 0.5 + sigma > 100 (stricter pure Seyfert, lower contamination from LINERs). Result: 5/5 cells with N ≥ 5 have ratio > 1.0; **median ratio = 1.106 (+10.6%, in SIDC's predicted +5-15% range)**.
 
-**2. Partial correlation analysis (Simpson's paradox).** This is the strongest finding. The naive correlation between AGN status and M/L is **NEGATIVE** (r = -0.067, p = 5 × 10⁻³) — opposite of SIDC's prediction! Why? Because AGN are preferentially low-mass late-type galaxies, which have intrinsically lower $M_{dyn}$/ M_⋆. The M_{b} is the dominant mediator.
+**2. Partial correlation analysis (Simpson's paradox).** This is the strongest finding. The naive correlation between AGN status and M/L is **NEGATIVE** (r = -0.067, p = 5 × 10⁻³) — opposite of SIDC's prediction! Why? Because AGN are preferentially low-mass late-type galaxies, which have intrinsically lower $M_{dyn}$/ M_*. The M_{b} is the dominant mediator.
 
 **When we control for M_{b} (and other variables), the correlation INVERTS to POSITIVE (r = +0.367, p = 4 × 10⁻⁵⁷)** — exactly the direction SIDC predicts. This is a **Simpson's paradox**: the marginal correlation is opposite to the partial correlation.
 

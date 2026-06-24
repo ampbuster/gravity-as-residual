@@ -77,7 +77,7 @@ $$\boxed{\Phi_\nu \sim 2 \times 10^{18} \text{ /m}^2/\text{s} = 2 \times 10^{14}
 
 **Honest interpretation**: The naive calculation suggests SIDC 2D universe deaths would produce a neutrino flux far in excess of observed DSNB. This is a **tension that SIDC must explain**: the geometric events must couple VERY weakly to the Standard Model weak sector, with f_ν < 10⁻¹⁸.
 
-**Possible resolution**: The 2D universe death is a metric event, not a particle decay. The energy return to 3+1D is via gravitational coupling, not Standard Model weak interaction. So f_ν is naturally ≪ 10⁻⁵ — possibly zero (no Standard Model radiation at all).
+**Possible resolution**: The 2D universe death is a metric event, not a particle decay. The energy return to 3+1D is via gravitational coupling, not Standard Model weak interaction. So f_ν is naturally << 10⁻⁵ — possibly zero (no Standard Model radiation at all).
 
 **Status**: ⚠️ **OPEN QUESTION** — this needs a Lagrangian-level derivation of the SM coupling fraction.
 

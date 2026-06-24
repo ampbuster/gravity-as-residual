@@ -164,7 +164,7 @@ where $c_s$ is the brane sound speed.
 **Status**: ✓ 90% closed
 
 - $N_{\rm 2D}$ = 12: 3 generations × 4 Weyl (1-comp Majorana) = 12 ✓
-- $N_{3+1D}$ = 6: Cℓ(6) IS SM algebra (Stoica 2018) ✓
+- $N_{3+1D}$ = 6: Cl(6) IS SM algebra (Stoica 2018) ✓
 - $N_{\rm 4D}$ = 3: 3 generations (4-comp Majorana) ✓
 - Halving rule: Bott periodicity (L308bj) ✓
 
@@ -202,7 +202,7 @@ The 4% gap is about **UV completion** (the path integral $Z_{\rm SIDC}$), not **
 
 SIDC is a:
 - **CALIBRATED** framework (4 calibrated parameters)
-- **STRUCTURALLY first-principles** (cascade structure, halving rule, Cℓ(6) isomorphism)
+- **STRUCTURALLY first-principles** (cascade structure, halving rule, Cl(6) isomorphism)
 - **TESTABLE** with current/upcoming data (47 Tuc, Euclid, SKA)
 - **OPEN** in UV completion (the 4% gap)
 
