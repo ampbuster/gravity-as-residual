@@ -2,7 +2,7 @@
 
 **⚠️ HISTORICAL (v3.3.8) — REVERTED in v3.5.8+ L308r**
 
-** $M_{\rm Pl,2D}$ is NOW FIXED at 2.95 TeV (L308r, N=12 × $v_{\rm Higgs}$ structural). The Option A 'event-dependent $M_{\rm Pl,2D}$' was REVERTED in v3.5.8+. This document preserves the v3.3.8 analysis for historical reference.**
+** $M_{\rm Pl,2D}$ is NOW FIXED at 2.95 TeV (L308r, $N=12$ × $v_{\rm Higgs}$ structural). The Option A 'event-dependent $M_{\rm Pl,2D}$' was REVERTED in v3.5.8+. This document preserves the v3.3.8 analysis for historical reference.**
 
 ---
 

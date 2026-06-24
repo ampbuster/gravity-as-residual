@@ -4,7 +4,7 @@
 
 1. **Mathematical audit** found three inconsistencies in v3.3+ formulas (γ_4D formula, τ_3D,apparent units, M^α at 4D level)
 2. **L26 FULL CLOSURE** (L308t): framework values UPDATED to consistent derivation
-3. **WHY N=12?** (L308u, BREAKTHROUGH): Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
+3. **WHY $N=12$?** (L308u, BREAKTHROUGH): Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
 4. **L138 PARTIAL CLOSURE** (L308v): $M_{\rm Pl,4D}$ via α-GM closed loop
 5. **APPROACH A1** (HISTORICAL June 21, superseded by A2 June 22, §7.4.20): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
    - γ_4D stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
@@ -20,17 +20,17 @@
 
 **Parameters** (now 15, REVISED L308z, was miscounted as 14):
 - 1 MEASURED: $M_{\rm Pl,3D}$
-- 4 FIRST-PRINCIPPLES: α, $M_{\rm Pl,2D}$, μ, N=12 (was 3)
+- 4 FIRST-PRINCIPPLES: α, $M_{\rm Pl,2D}$, μ, $N=12$ (was 3)
 - 2 DERIVED: $M_{\rm Pl,4D}$ (α-GM, L308v), **$E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$** (L308o, was calibrated)
 - 5 CALIBRATED: ε, τ_4D, AGN rate, $f_{\rm leak} = H_0$ ($E_{\rm 4D}$ moved to DERIVED per L308z, was 4 in pre-L308z pre-A1)
 - 3 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), τ_3D,apparent, γ_4D
 - 1 FREE: $N_{\rm sub}$ (event-specific, our universe's 4D event had N=386)
 
 **L308z REFRAME (v3.5.9+)**:
-- N_sub is the FREE parameter (specific to each 4D event)
-- $E_{\rm 4D}$ was "calibrated" but is actually DERIVED from N_sub × $E_{\rm sub}$
+- $N_{\rm sub}$ is the FREE parameter (specific to each 4D event)
+- $E_{\rm 4D}$ was "calibrated" but is actually DERIVED from $N_{\rm sub}$ × $E_{\rm sub}$
 - DE match becomes a consistency check, not the calibration driver
-- Different 4D events would have different N_sub (sub-galaxy: N=4, supercluster: N=400,000)
+- Different 4D events would have different $N_{\rm sub}$ (sub-galaxy: N=4, supercluster: N=400,000)
 
 **Files added**:
 - `calculations/v36_research/A1_fleak_H0_principle.py` (A1 verification)
@@ -39,7 +39,7 @@
 - `paper/legacy/v359_path_B2_rejected.md` (Path B2 history)
 - `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` (Hill function history)
 
-**First-principles progress**: 0/9 → 4/14 → **4/15** (α, $M_{\rm Pl,2D}$, μ, N=12 derived; N_sub now FREE event-specific, L308z)
+**First-principles progress**: 0/9 → 4/14 → **4/15** (α, $M_{\rm Pl,2D}$, μ, $N=12$ derived; $N_{\rm sub}$ now FREE event-specific, L308z)
 
 **Paper**: 394 pages (was 405), 1.94 MB (was 1.50 MB)
 **Limitations**: 138 honest (was 116 v3.5.7)
@@ -51,12 +51,12 @@
 **Reason for sub-version (A2 within v3.5.9+)**:
 1. α is now dim-specific (α_2D = 1.289, α_3+1D = 1.408, α_4D = 1.577)
 2. $f_{\rm back}$ → $f_{\rm DE}$,closed (LEGACY naming retired, $f_{\rm DE}$,simple/closed formulas)
-3. N=12 downgraded FIRST-PRINCIPPLES → STRUCTURAL (L308ag, 1-1 mapping not derivation)
-4. L308ax: frame-neutral leak naming (f_leak,2D→3D, f_leak,3D→4D)
+3. $N=12$ downgraded FIRST-PRINCIPPLES → STRUCTURAL (L308ag, 1-1 mapping not derivation)
+4. L308ax: frame-neutral leak naming (f_leak,2D→3D, $f_{\rm leak,3D→4D}$)
 5. Web research audit for first-principles (L43/L138/L144/L142a, NEGATIVE result)
 
 **A2 FRAMEWORK CHANGES**:
-- **α dim-specific**: α_2D = 1.289 (Schwarzian SYK N=12), α_3+1D = 1.408 (predicted), α_4D = 1.577 (predicted)
+- **α dim-specific**: α_2D = 1.289 (Schwarzian SYK $N=12$), α_3+1D = 1.408 (predicted), α_4D = 1.577 (predicted)
 - **ε recalibrated**: 10⁻³⁸ (A1) → 6.32×10⁻³⁴ (A2, +4.8 orders)
 - **f × ε = 1.13×10⁻¹²³ INVARIANT** preserved (ρ_DE = 2.5×10⁻⁴⁷ EXACT match in BOTH formulas)
 - **$kL$ recalibrated**: 87.5 (A1) → 76.4 (A2), ΔkL = -11.1
@@ -71,21 +71,21 @@
 
 **PARAMETER HIERARCHY (A2)**:
 - 1 MEASURED: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV
-- 3 FIRST-PRINCIPPLES (was 4, N=12 downgraded per L308ag): α = 1.289, $M_{\rm Pl,2D}$ = 2955 GeV, μ = 8.73×10⁶ GeV²
+- 3 FIRST-PRINCIPPLES (was 4, $N=12$ downgraded per L308ag): α = 1.289, $M_{\rm Pl,2D}$ = 2955 GeV, μ = 8.73×10⁶ GeV²
 - 2 DERIVED: $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (α-GM, L308v), $E_{\rm 4D}$ = 5×10⁷⁹ J
-- 4 STRUCTURAL: $E_{\rm sub}$ = 1.295×10⁷⁷ J, τ_3D,apparent = 1.66×10¹⁴⁵ yr, γ_4D = 1.10×10¹¹¹, N=12 (per L308ag)
-- 4 CALIBRATED (was 5, f_leak is 4th NOT 5th): ε = 6.32×10⁻³⁴, τ_4D = 1.51×10³⁴ yr, AGN rate, f_leak,3D→4D = $H_0$
-- 1 FREE: N_sub = 386
+- 4 STRUCTURAL: $E_{\rm sub}$ = 1.295×10⁷⁷ J, τ_3D,apparent = 1.66×10¹⁴⁵ yr, γ_4D = 1.10×10¹¹¹, $N=12$ (per L308ag)
+- 4 CALIBRATED (was 5, f_leak is 4th NOT 5th): ε = 6.32×10⁻³⁴, τ_4D = 1.51×10³⁴ yr, AGN rate, $f_{\rm leak,3D→4D}$ = $H_0$
+- 1 FREE: $N_{\rm sub}$ = 386
 - **Total: 15 parameters** (1+3+2+4+4+1)
 
 **L308ax (Frame-Neutral Leak Naming, USER INSIGHT)**:
 - f_DM,leak → f_leak,2D→3D (1.6×10⁻⁴⁵, frame-neutral, transition-explicit)
-- f_leak → f_leak,3D→4D (= $H_0$, frame-neutral, transition-explicit)
+- f_leak → $f_{\rm leak,3D→4D}$ (= $H_0$, frame-neutral, transition-explicit)
 - **NATURAL CASCADE LEAKS DROPPED AS NEGLIGIBLE**:
   - f_leak,2D→3D (natural) = 1.6×10⁻⁴⁵ (88 orders below death pulse)
-  - f_leak,3D→4D (natural) = ~10⁻⁸⁶ (67 orders below $H_0$)
+  - $f_{\rm leak,3D→4D}$ (natural) = ~10⁻⁸⁶ (67 orders below $H_0$)
   - 27-order gap: f_leak = $H_0$ is CALIBRATED stability principle, not natural
-- **DM picture simplified**: 100% pulsed at 2D death (with γ_2D growth) + f_leak,3D→4D = $H_0$ calibrated drain
+- **DM picture simplified**: 100% pulsed at 2D death (with γ_2D growth) + $f_{\rm leak,3D→4D}$ = $H_0$ calibrated drain
 - §7.4.42b in 06_limitations.md
 - 5 files changed, 154 insertions, 24 deletions
 - Commit 025a6cc (pushed)
@@ -96,7 +96,7 @@
 - "Cone asymmetry" ↔ 3+1D as inversion point
 
 **98 CONSISTENCY SWEEPS** (Sweeps 18-98):
-- Sweep 18: Stale "4/15 first-principles" → "3/15 first-principles" (N=12 STRUCTURAL per L308ag)
+- Sweep 18: Stale "4/15 first-principles" → "3/15 first-principles" ($N=12$ STRUCTURAL per L308ag)
 - Sweep 19: Page count consistency (476 → 478 in README/STATE_OF_THE_MODEL)
 - Sweep 21: New legacy file `v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
 - Sweep 24-30: A2 value updates (ε=6.32e-34, $f_{\rm DE}$,simple/closed)
@@ -106,11 +106,11 @@
 - 8+ commits this session, all pushed
 
 **WEB RESEARCH AUDIT FOR FIRST-PRINCIPLES (NEGATIVE RESULT)**:
-- Targets: L43 (α from 2D CFT), L138 ($M_{\rm Pl,4D}$ closed), L144 (N_sub first-principles), L142a (4π origin)
+- Targets: L43 (α from 2D CFT), L138 ($M_{\rm Pl,4D}$ closed), L144 ($N_{\rm sub}$ first-principles), L142a (4π origin)
 - Verdict: HONEST NEGATIVE. ~30 search queries, ~150 results examined across holographic bounds, JT gravity, Schwarzian derivatives, brane cosmology, multi-universe models, entropy bounds, Planck scale derivations in extra-dim models
-- L43: Best is L308n (Schwarzian SYK N=12, 0.025% match)
+- L43: Best is L308n (Schwarzian SYK $N=12$, 0.025% match)
 - L138: Best is L308v (α-GM closed loop, 1.2% match)
-- L144: Best is L308ad (N_12 × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3), 1.6% match)
+- L144: Best is L308ad ($N_{12}$ × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3), 1.6% match)
 - L142a: Best is S² boundary hypothesis (structural)
 - **Honest framing**: 1.6%/1.2%/0.025% matches are CONSISTENT with first-principles inputs, NOT DERIVED from them
 - New file: `paper/legacy/v359_legacy_first_principles_research_audit.md` (13,272 bytes)
@@ -128,7 +128,7 @@
 - `paper/legacy/v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
 - `paper/legacy/v359_legacy_first_principles_research_audit.md` (web research audit)
 
-**First-principles progress**: 4/15 → **3/15** (N=12 downgraded per L308ag, was over-counted)
+**First-principles progress**: 4/15 → **3/15** ($N=12$ downgraded per L308ag, was over-counted)
 
 **Paper**: 597 pages (was 476 in A2 initial, was 405 in A1, was 478 pre-consistency-sweep), 1.94 MB
 **Limitations**: 195 honest limitations (144 master + 51 L308ab-bw, was 138 in A1)
@@ -141,7 +141,7 @@
 
 **Three new structural principles (user-formalized)**:
 1. **Equal-Universe Principle**: within each dimension, all universes have same physics, differ only in energy/state (1 species, multiple γ values)
-2. **Bilateral Democratic Cosmology**: 14 different 3D events → 14 different 2D universes with SAME physics, N_sub 3+1D sub-universes with SAME physics as ours
+2. **Bilateral Democratic Cosmology**: 14 different 3D events → 14 different 2D universes with SAME physics, $N_{\rm sub}$ 3+1D sub-universes with SAME physics as ours
 3. **Time-Dilation Insight**: γ ~ 10⁶² from 4D proper time 10⁻²⁰ s makes 3D→4D continuous leakage observable (DE), 2D→3D invisible (2D universe is 33s, no time dilation)
 
 **User-driven audits and corrections**:
@@ -153,7 +153,7 @@
 - ✓ Legacy content moved to `calculations/legacy/` and `paper/legacy/`
 
 **Files added**:
-- `calculations/v31_audit_v312final.py` (N_sub audit)
+- `calculations/v31_audit_v312final.py` ($N_{\rm sub}$ audit)
 - `calculations/v31_fback_both_levels.py` ($f_{\rm back}$ audit)
 - `calculations/v31_audit_lagrangian.py` (Lagrangian audit, $M_{\rm Pl,2D}$ = 3 TeV correction)
 - `json/README.md` (NEW)
@@ -174,7 +174,7 @@
 - Closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$/$E_{\rm event}$)^α universal at every level
 - AGE vs LIFETIME distinct: 13.8 Gyr is AGE, LIFETIME UNKNOWN
 - Frame of reference: 4D event proper 10⁻²⁰ s, apparent 10³⁴ yr (γ ~ 10⁶²)
-- N_sub = free parameter (4D-bulk dynamics unknown)
+- $N_{\rm sub}$ = free parameter (4D-bulk dynamics unknown)
 
 **Page count**: 356 (no change in count from v3.1.2-final)
 
@@ -805,22 +805,22 @@ and the SIDC naming restoration in plain language.
 
 **Earlier v3.0 entry (unchanged):**
 
-## v3.0 (June 2026) — MAJOR VERSION BUMP: N=12 SYK centerpiece
+## v3.0 (June 2026) — MAJOR VERSION BUMP: $N=12$ SYK centerpiece
 
 **Why v3?**
 
-The N=12 SYK discovery in v2.7.60-67 is a major breakthrough that
-deserves a major version bump. The single number N=12 now derives
+The $N=12$ SYK discovery in v2.7.60-67 is a major breakthrough that
+deserves a major version bump. The single number $N=12$ now derives
 multiple cascade parameters that were previously calibrated.
 
 **v2.7.x → v3.0 changes**:
 
 1. **Title updated**: Added "v3.0" to paper title
-2. **v3.0 HIGHLIGHT** in metadata: N=12 SYK as the centerpiece
+2. **v3.0 HIGHLIGHT** in metadata: $N=12$ SYK as the centerpiece
 3. **HONEST BOUNDARY (v3.0)** in metadata: what v3 derives vs doesn't
 4. **§3.60 v3.0 BREAKTHROUGH SUMMARY** added:
-   - Single-number derivation table (α, c, 1/(2α), $f_{\rm back}$ from N=12)
-   - Why N=12 is unique (off by 0.001)
+   - Single-number derivation table (α, c, 1/(2α), $f_{\rm back}$ from $N=12$)
+   - Why $N=12$ is unique (off by 0.001)
    - Composite model v3 specifications (8 components)
    - Testable predictions (8)
    - What v3 derives vs what it doesn't
@@ -849,14 +849,14 @@ multiple cascade parameters that were previously calibrated.
 
 3. **README TODO section added** (10 open research questions):
    - High priority: 1/√N derivation, CKM/PMNS, SM mass ratios
-   - Medium priority: BLG refinement, AdS_2×S², N=12 reason
+   - Medium priority: BLG refinement, AdS_2×S², $N=12$ reason
    - Lower priority: Full SYK sim, Hawking spectrum, DSSYK
    - Open data tests: DESI DR3, LSST Y1, SKA-MPG, LISA
 
 4. **Layman summary updated**:
    - Version line updated to v2.7.67
    - New "Recent breakthrough: Why 12?" section added
-   - Plain-language explanation of N=12, q=4 SYK, c=1/2
+   - Plain-language explanation of $N=12$, q=4 SYK, c=1/2
    - Honest about CKM/PMNS, mass ratios not derived
    - Testable predictions clearly stated
 
@@ -892,7 +892,7 @@ multiple cascade parameters that were previously calibrated.
 - 12 Majoranas provide structure, not specific CKM/PMNS
 
 **Part 4: CKM/PMNS matrices**
-- Not derived from N=12 SYK
+- Not derived from $N=12$ SYK
 - Would need specific J coupling structure
 - Cascade doesn't currently predict CKM/PMNS
 
@@ -907,14 +907,14 @@ multiple cascade parameters that were previously calibrated.
 6. **L84 NEW**: 12 Majoranas don't derive CKM/PMNS or mass ratios
 
 **HONEST LIMITATIONS (v2.7.67)**:
-- N=12 ↔ SM is BACKBONE, not 1-to-1
+- $N=12$ ↔ SM is BACKBONE, not 1-to-1
 - CKM/PMNS NOT derived
 - SM mass hierarchy NOT derived
 - dS_2 topology requires AdS_2 × S² + Majorana matter
 - Magic angle is 1.5-2.0° (model-dependent)
 
 **What the composite model DOES derive**:
-- α = 1.289 (lifetime scaling, EXACT from N=12)
+- α = 1.289 (lifetime scaling, EXACT from $N=12$)
 - c = 1/2 (Ising CFT, N/24)
 - 1/(2α) = 0.388 (back-action)
 - $f_{\rm back}$ = $8.6 \times 10^{-86}$ (universal, gives 10^-85)
@@ -926,7 +926,7 @@ multiple cascade parameters that were previously calibrated.
 - Specific SM mass ratios
 - Specific magic angle (1.5-2.0° range)
 - Specific dS_2 topology details
-- Why N=12 specifically (vs other N close to 12)
+- Why $N=12$ specifically (vs other N close to 12)
 
 **Net: +2 pages, +1 limitation**
 - Total: 294 pages
@@ -944,7 +944,7 @@ multiple cascade parameters that were previously calibrated.
 2. **7 parts completed**:
 
 **Part 1: Cascade consequences**
-- All cascade parameters from N=12:
+- All cascade parameters from $N=12$:
   - α = 1.289 (1 + 1/√N)
   - c = 1/2 (N/24)
   - 1/(2α) = 0.388 (c/α)
@@ -952,7 +952,7 @@ multiple cascade parameters that were previously calibrated.
 
 **Part 2: Data tests**
 - 14 event types: τ_2D ~ M^1.29 ✓
-- 47 Tuc: $M_{\rm dyn}$ ≈ M_stars (differentiator) ✓
+- 47 Tuc: $M_{\rm dyn}$ ≈ $M_{\rm stars}$ (differentiator) ✓
 - Massive quiescents z>4: 10+ confirmed ✓
 - Intermediate F(z) dwarfs: 10+ confirmed ✓
 - TDG: shifting toward DM-poor ✓
@@ -964,7 +964,7 @@ multiple cascade parameters that were previously calibrated.
 - 12 Majoranas = 12 SM Weyl fermions
 
 **Part 4: 1/√N for other quantities**
-- α = 1 + 1/√N for N=12 exact
+- α = 1 + 1/√N for $N=12$ exact
 - Other quantities are functions of α
 
 **Part 5: 12 Majoranas = 12 SM Weyl fermions**
@@ -983,14 +983,14 @@ multiple cascade parameters that were previously calibrated.
 - Slightly above BLG's 1.1°
 - Cascade's magic angle is ~1.5°
 
-3. **L79 NEW**: All cascade consequences follow from N=12
+3. **L79 NEW**: All cascade consequences follow from $N=12$
 4. **L80 NEW**: 14 event types tested, τ_2D ~ M^1.29 confirmed
 5. **L81 NEW**: Numerical simulations confirm scaling
 6. **L82 NEW**: 2D universes are Nariai black holes (extremal dS_2, T=0)
 7. **L83 NEW**: Cascade magic angle ~1.5° (BLG-like)
 
 **Composite model v4 (v2.7.66) — STRONGLY SPECIFIED with tests**:
-1. q=4 SYK with N=12 Majoranas
+1. q=4 SYK with $N=12$ Majoranas
 2. 12 Majoranas = 12 SM Weyl fermions (3 × 4)
 3. Nariai black hole (extremal dS_2, T = 0)
 4. BLG-like at magic angle ~1.5°
@@ -1003,7 +1003,7 @@ multiple cascade parameters that were previously calibrated.
 - 2D universes are Nariai black holes (T = 0)
 - Cascade magic angle ~1.5°
 - 12 Majoranas = 12 SM Weyl fermions
-- q=4 SYK with N=12
+- q=4 SYK with $N=12$
 - α = 1 + 1/√N universal
 - c = 1/2 Ising CFT
 - $f_{\rm back}$ = $8.6 \times 10^{-86}$ universal
@@ -1023,10 +1023,10 @@ multiple cascade parameters that were previously calibrated.
 
 2. **8 new angles completed**:
    1. 1/√N scaling: THEORETICALLY SUPPORTED (saddle-point)
-   2. N=12: 12 = 3 × 4 (SM structure)
+   2. $N=12$: 12 = 3 × 4 (SM structure)
    3. BLG: α=1.29 at slightly above magic angle
    4. 1/(2α) = c/α_BR: natural combination
-   5. N=12 connections: 12 = 3 × 4 (SM)
+   5. $N=12$ connections: 12 = 3 × 4 (SM)
    6. α = 1 + 1/√N: ALL cascade quantities determined
    7. Magic angle: ~1.1° (BLG-like)
    8. 12 Majoranas: = 12 SM Weyl fermions
@@ -1036,12 +1036,12 @@ multiple cascade parameters that were previously calibrated.
 5. **L73 NEW**: BLG at slightly above magic angle gives α=1.29
 6. **L74 NEW**: 1/(2α) = c/α_BR is natural combination
 7. **L75 NEW**: 12 = 3 × 4 (SM) is most likely
-8. **L76 NEW**: N=12 fixes ALL cascade quantities
+8. **L76 NEW**: $N=12$ fixes ALL cascade quantities
 9. **L77 NEW**: Magic angle ~1.1° (BLG-like)
 10. **L78 NEW**: 12 Majoranas = 12 SM Weyl fermions
 
 **Composite model v3 — STRONGLY SPECIFIED**:
-- 2D universe = q=4 SYK with N=12 Majoranas
+- 2D universe = q=4 SYK with $N=12$ Majoranas
 - 12 Majoranas = 12 SM Weyl fermions (3 × 4)
 - 2D universe in dS_2 (not AdS_2)
 - BLG-like at magic angle ~1.1°
@@ -1050,7 +1050,7 @@ multiple cascade parameters that were previously calibrated.
 - 1/(2α) = c/α_BR = 0.388 (composite)
 - S₀ = 12 × log(2)
 
-**The model is COMPLETELY SPECIFIED by a single number N=12**
+**The model is COMPLETELY SPECIFIED by a single number $N=12$**
 (plus the choice of q=4 SYK).
 
 **Testable predictions**:
@@ -1069,7 +1069,7 @@ multiple cascade parameters that were previously calibrated.
 
 **Earlier v2.7.64 entry (unchanged):**
 
-## v2.7.64 (June 2026) — BREAKTHROUGH: N=12 SYK gives EXACT α=1.29
+## v2.7.64 (June 2026) — BREAKTHROUGH: $N=12$ SYK gives EXACT α=1.29
 
 **Major changes since v2.7.63:**
 
@@ -1083,23 +1083,23 @@ multiple cascade parameters that were previously calibrated.
    5. CFT partition: c=1/2 propagates
    6. Gravitational dressing: α_L = -2.04 (wrong)
    7. **Bilayer graphene: α_BLG ≈ 1.3 at magic angle ✓**
-   8. **SYK with c=1/2: N=12 → c=1/2 AND α=1+1/√N=1.29 EXACT!**
+   8. **SYK with c=1/2: $N=12$ → c=1/2 AND α=1+1/√N=1.29 EXACT!**
 
-3. ***BREAKTHROUGH***: N=12 SYK gives EXACT match!
+3. ***BREAKTHROUGH***: $N=12$ SYK gives EXACT match!
    - c = N/24 = 12/24 = 1/2 (Ising CFT) ✓
    - α = 1 + 1/√N = 1 + 1/√12 = 1.2887 ≈ 1.29 ✓
-   - N=12 is UNIQUELY determined (off by 0.001)
+   - $N=12$ is UNIQUELY determined (off by 0.001)
    - This is the first EXACT match for α=1.29!
 
-4. **N=12 is uniquely determined**:
+4. **$N=12$ is uniquely determined**:
    - N=10: 1.316 (off 0.026)
    - N=11: 1.302 (off 0.012)
-   - **N=12: 1.289 (off 0.001) ← EXACT**
+   - **$N=12$: 1.289 (off 0.001) ← EXACT**
    - N=13: 1.277 (off 0.013)
    - N=14: 1.267 (off 0.023)
 
 5. **Updated composite model**:
-   - 2D universe = q=4 SYK with N=12 Majoranas
+   - 2D universe = q=4 SYK with $N=12$ Majoranas
    - 2D universe is in dS_2 (not AdS_2)
    - 2D universe is BLG-like at magic angle ~1.1°
    - c = 1/2 (Ising CFT, N/24 = 1/2)
@@ -1107,7 +1107,7 @@ multiple cascade parameters that were previously calibrated.
    - 1/(2α) = 0.5/1.29 = 0.388 (composite)
    - S₀ = 12 × log(2)
 
-6. **L68 NEW**: 2D universe is q=4 SYK with N=12 Majoranas.
+6. **L68 NEW**: 2D universe is q=4 SYK with $N=12$ Majoranas.
    c=1/2 (N/24) AND α=1+1/√N=1.29 EXACT match!
 
 7. **L69 NEW**: BLG analogy. α_BLG ≈ 1.3 at magic angle.
@@ -1839,7 +1839,7 @@ The cascade cannot proceed honestly without addressing L50.
    from particle DM" but a "consistency test" for the cascade
    - Distinguishes cascade from particle DM (ΛCDM): YES
    - Distinguishes cascade from MOND: NO (both predict no DM)
-   - Falsification test: YES (if $M_{\rm dyn}$ > M_stars, cascade ruled out)
+   - Falsification test: YES (if $M_{\rm dyn}$ > $M_{\rm stars}$, cascade ruled out)
    - Unique confirmation: NO (MOND also passes)
 
 2. **Cascade's REAL differentiators** (from ALL competitors including MOND):
@@ -1907,7 +1907,7 @@ The cascade cannot proceed honestly without addressing L50.
    - The Bullet Cluster supports DM in general, not the cascade specifically
 
 2. **Cascade's REAL differentiators** (would distinguish from particle DM):
-   - 47 Tuc test: $M_{\rm dyn}$ ≈ M_stars (no local DM)
+   - 47 Tuc test: $M_{\rm dyn}$ ≈ $M_{\rm stars}$ (no local DM)
    - Intermediate F(z) population (~10-30% of dwarfs)
    - Massive quiescent galaxies at z > 4 (very high past SF)
    - Tidal Dwarf Galaxies (DISPUTED, Gentile 2007)

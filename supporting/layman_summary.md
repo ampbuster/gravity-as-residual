@@ -7,7 +7,7 @@
 SIDC's 4D bulk theory is now F-theory 12D (Vafa 1996). F-theory has 12 dimensions: a 10-dimensional Type IIB spacetime base plus a 2-dimensional torus fiber that encodes the axio-dilaton. Compactifying F-theory on a Calabi-Yau threefold with Euler characteristic χ = ±6 gives 4D N=1 supersymmetry with 3 generations of Standard Model fermions (the Tian-Yau construction, arXiv:0910.5464).
 
 **HONEST REFRAME (v3.4.6)**: SIDC notes that "12" appears at multiple cascade levels:
-- 2D: N=12 SYK (the standard numerical benchmark for SYK simulations)
+- 2D: $N=12$ SYK (the standard numerical benchmark for SYK simulations)
 - 3D: 12 gauge bosons in the Standard Model (SU(3) + SU(2) + U(1) = 8+3+1)
 - 3D: 12 fermion FLAVORS across all 3 generations (4 Dirac × 3)
 - 4D: F-theory 12 dimensions
@@ -112,7 +112,7 @@ This is the part that makes SIDC different from every other dark sector model.
 
 > A 2D universe created by an event of energy E lives for a time **$\tau_{2D}$ $\sim E^{1.29}$** in our frame.
 
-That's it. One formula. The "1.29" comes from the cascade's N=12 backbone ($\alpha$ = 1 + 1/√12 = 1.289).
+That's it. One formula. The "1.29" comes from the cascade's $N=12$ backbone ($\alpha$ = 1 + 1/√12 = 1.289).
 
 **The "14 event types" insight:** All 14 events are actually the **same** 2D universe — they're just seen at different $\gamma$ (time dilation factor) values. Higher-E events make "lighter" 2D universes (more time dilation). Lower-E events make "heavier" ones (less time dilation). Our 3D universe is one of the "heaviest" — created by a very high-energy event. This is the **democratic cosmology**: every universe at the same dimensional level is equal in its own frame.
 
@@ -146,11 +146,11 @@ The scaling law is the **quantitative core** of the closed loop. It's what makes
 
 SIDC's M^1.29 scaling is the **only proposed dark sector mechanism that works at all 14 event types, 36 galaxy tests, and cosmological scales simultaneously** — using one formula.
 
-**Why 1.29 specifically?** Because 1.29 = 1 + 1/√12, and 12 is the number of fundamental "channels" in the cascade (the 12 SM Weyl fermions act as N=12 in a 2D SYK-like setup). The "1" is the time-dilation boost from the event energy. The "1/√12" is the N=12 SYK saddle-point correction. This is a *candidate* Lagrangian (§3.62), not a proof — but the structural match is strong.
+**Why 1.29 specifically?** Because 1.29 = 1 + 1/√12, and 12 is the number of fundamental "channels" in the cascade (the 12 SM Weyl fermions act as $N=12$ in a 2D SYK-like setup). The "1" is the time-dilation boost from the event energy. The "1/√12" is the $N=12$ SYK saddle-point correction. This is a *candidate* Lagrangian (§3.62), not a proof — but the structural match is strong.
 
 **The honest limit:**
 
-The 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty (Limitation 31, reduced to ~15 orders via Karch-Randall). The "1.29" is calibrated from the SN 33s lifetime — it's not derived from first principles, even though the N=12 backbone gives a structural reason for $\alpha$ $\approx$ 1.29.
+The 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty (Limitation 31, reduced to ~15 orders via Karch-Randall). The "1.29" is calibrated from the SN 33s lifetime — it's not derived from first principles, even though the $N=12$ backbone gives a structural reason for $\alpha$ $\approx$ 1.29.
 
 **Bottom line:** One formula, fourteen event types, all scales. If the scaling holds up under future tests, SIDC has explained dark matter and dark energy across the entire observable universe with a single geometric process.
 
@@ -303,12 +303,12 @@ This is a specific, testable claim. If true, it would mean SIDC and the Standard
 - The CKM/PMNS values and mass ratios require additional "J coupling breaking" that the current model doesn't derive
 - The 2D universe's "magic angle" of ~1.5-2.0° is similar to (but not exactly) bilayer graphene's 1.1°
 
-**Why N=12 specifically?**
+**Why $N=12$ specifically?**
 
 The number 12 is uniquely determined by SIDC's $\alpha$ = 1.29. For other values of N:
 - N=10: $\alpha$ = 1.316 (off by 0.026)
 - N=11: $\alpha$ = 1.302 (off by 0.012)
-- **N=12: $\alpha$ = 1.289 (off by 0.001) ← EXACT**
+- **$N=12$: $\alpha$ = 1.289 (off by 0.001) ← EXACT**
 - N=13: $\alpha$ = 1.277 (off by 0.013)
 
 So if SIDC's $\alpha$ is correct, then N = 12 is uniquely determined.

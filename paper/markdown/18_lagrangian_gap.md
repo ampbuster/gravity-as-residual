@@ -144,7 +144,7 @@ where ρ_tot(P) combines Liouville × Ising × SYK contributions.
 
 **Status**: g_couple is a CALIBRATED parameter in the current Lagrangian.
 
-### §18.4.2 f_leak,3D→4D in S_drain (MEDIUM)
+### §18.4.2 $f_{\rm leak,3D→4D}$ in S_drain (MEDIUM)
 
 **Need**: Derive drain rate from first principles.
 
@@ -159,13 +159,13 @@ where c_s is the brane sound speed.
 
 ### §18.4.3 N values origin (LOW)
 
-**Need**: Why N_2D = 12, N_3+1D = 6, N_4D = 3?
+**Need**: Why $N_{\rm 2D}$ = 12, $N_{3+1D}$ = 6, $N_{\rm 4D}$ = 3?
 
 **Status**: ✓ 90% closed
 
-- N_2D = 12: 3 generations × 4 Weyl (1-comp Majorana) = 12 ✓
-- N_3+1D = 6: Cℓ(6) IS SM algebra (Stoica 2018) ✓
-- N_4D = 3: 3 generations (4-comp Majorana) ✓
+- $N_{\rm 2D}$ = 12: 3 generations × 4 Weyl (1-comp Majorana) = 12 ✓
+- $N_{3+1D}$ = 6: Cℓ(6) IS SM algebra (Stoica 2018) ✓
+- $N_{\rm 4D}$ = 3: 3 generations (4-comp Majorana) ✓
 - Halving rule: Bott periodicity (L308bj) ✓
 
 **Remaining 10%**: Why specifically 3 generations? Why 1+2+3 pattern? These are "isomorphisms of algebraic structures, not physical identifications" (L308cc caveat).

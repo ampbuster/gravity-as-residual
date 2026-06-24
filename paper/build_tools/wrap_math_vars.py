@@ -161,6 +161,33 @@ VARS = [
     (r'\bg_cum\b', '$g_{\\rm cum}$'),
     (r'\bg_active\b', '$g_{\\rm active}$'),
     (r'\bkL\b', '$kL$'),
+
+    # N_ variants (cascade dimensions and SM counts)
+    (r'\bN_2D\b', '$N_{\\rm 2D}$'),
+    (r'\bN_4D\b', '$N_{\\rm 4D}$'),
+    (r'\bN_5D\b', '$N_{\\rm 5D}$'),
+    (r'\bN_9D\b', '$N_{\\rm 9D}$'),
+    (r'\bN_3\+1D\b', '$N_{3+1D}$'),
+    (r'\bN_3D\b', '$N_{\\rm 3D}$'),
+    (r'\bN_sub\b', '$N_{\\rm sub}$'),
+    (r'\bN_12\b', '$N_{12}$'),
+    # N_D in the formula context (e.g., N_D = 12, alpha = 1 + 1/sqrt(N_D))
+    (r'\bN_D\b', '$N_D$'),
+    # N=12 standalone (in narrative text)
+    (r'\bN=12\b', '$N=12$'),
+    (r'\bN=6\b', '$N=6$'),
+    (r'\bN=3\b', '$N=3$'),
+
+    # Baryonic / stellar mass
+    (r'\bM_stars\b', '$M_{\\rm stars}$'),
+    (r'\bM_baryon\b', '$M_{\\rm baryon}$'),
+
+    # v_H Higgs VEV
+    (r'\bv_H\b', '$v_H$'),
+
+    # f_leak family (when standalone, not in already-wrapped text)
+    (r'\bf_leak,3D→4D\b', '$f_{\\rm leak,3D→4D}$'),
+    (r'\bf_leak,3D→4D→2D\b', '$f_{\\rm leak,3D→4D→2D}$'),
 ]
 
 

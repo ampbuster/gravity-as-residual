@@ -20,16 +20,16 @@
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (cascade amplification factor)
 - **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, $\mu$ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, $N_{\rm sub} = 3$.86×10²
-- **L308u (WHY N=12? PARTIAL BREAKTHROUGH)**: 6D anomaly + SM fermion count + Schwarzian α → L308ap: STRUCTURAL with strong first-principles motivations and confirmations (3 gen × 4 Weyl INPUT, Schwarzian α = 1+1/√N PREDICTION, data CONFIRMATION)
+- **L308u (WHY $N=12$? PARTIAL BREAKTHROUGH)**: 6D anomaly + SM fermion count + Schwarzian α → L308ap: STRUCTURAL with strong first-principles motivations and confirmations (3 gen × 4 Weyl INPUT, Schwarzian α = 1+1/√N PREDICTION, data CONFIRMATION)
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
-- **First-principles progress**: 0/9 → 3/15 (α, $M_{\rm Pl,2D}$, μ) — **L308ag: N=12 reclassified STRUCTURAL** — **L308ap: N=12 has strong first-principles motivations and confirmations but is not pure derivation**
+- **First-principles progress**: 0/9 → 3/15 (α, $M_{\rm Pl,2D}$, μ) — **L308ag: $N=12$ reclassified STRUCTURAL** — **L308ap: $N=12$ has strong first-principles motivations and confirmations but is not pure derivation**
 
 **v3.5.9+ A2 PARAMETER HIERARCHY** (current, 15 total, REVISED L308z):
 - 1 MEASURED: $M_{\rm Pl,3D}$ (Newton's G)
-- 3 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK, L308n), $M_{\rm Pl,2D}$ = 12× $v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r) [L308ap: N=12 has SM fermion count INPUT + Schwarzian PREDICTION + data CONFIRMATION, but not pure derivation]
+- 3 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK, L308n), $M_{\rm Pl,2D}$ = 12× $v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r) [L308ap: $N=12$ has SM fermion count INPUT + Schwarzian PREDICTION + data CONFIRMATION, but not pure derivation]
 - 2 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation, L308o)
 - 4 CALIBRATED: ε, $\tau_{\rm 4D}$, AGN rate, ** $f_{\rm leak,3D\to4D} = H_0$ (A1 principle, L308ax frame-neutral name)**
-- 4 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ (both cascade amplification factor), **N=12 (L308ap: with strong first-principles motivations, not pure derivation)**
+- 4 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ (both cascade amplification factor), ** $N=12$ (L308ap: with strong first-principles motivations, not pure derivation)**
 - 1 FREE: $N_{\rm sub}$ (specific to our universe's 4D event; 386 = we are 1 of 386 sibling sub-universes; other 4D events → different N)
 
 **For v3.5.9+ A1 era**: see `paper/legacy/v359_path_B2_rejected.md` (Path B2 REJECTED), `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
@@ -60,7 +60,7 @@
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap (Ω_DM at z=1100) is now PARTIALLY CLOSED via f_leak = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. τ_DM unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak= $H_0$ + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad N_sub ≈ N_12 × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3) PARTIAL L144 closure + **L308ae N_sub formula residual + L308af AGN rate unit interpretation gap + L308ag N=12 reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on N=12 and α (no first-principles derivation found) + L308ai N=12 from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from N=12 (connection is heuristic, not rigorous) + L308ap re-examination: N=12 has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern α_D = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, $\mu$ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, $\alpha$ first-principles). L41, L42 closed in v3.0.22 ( $\mu$ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ( $4\pi$ specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< $10^{-50}$ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in $M_{b}$ but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap (Ω_DM at z=1100) is now PARTIALLY CLOSED via f_leak = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. τ_DM unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, $H_0$,4D = 70.16 is a geometric-mean property but specific $H_0$ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N× $v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w f_leak= $H_0$ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ $N_{12}$ × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3) PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern α_D = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, $\mu$ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, $\alpha$ first-principles). L41, L42 closed in v3.0.22 ( $\mu$ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ( $4\pi$ specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
 
 ---
 
@@ -80,7 +80,7 @@ $$\boxed{\tau_{2D,\,\text{our frame}} = t_{\rm Pl,3} \times \left(\frac{E_{\rm 3
 - **Calibration**: SN1987A ( $E_{\text{3D}} = 10^{44}$ J, $\tau = 33$ s) anchors the rule.
 - **Verified**: 8/8 3D events match the formula within factor 1.6 (§10.1 table).
 - **Range**: works from 1 ton TNT ( $10^{-37}\,\mu$s) to AGN outbursts ( $10^8$ yr), spanning 54 orders of magnitude.
-- **Origin**: $\alpha = 1.289 = 1 + 1/\sqrt{12}$ from N=12 SYK saddle-point (§3.62).
+- **Origin**: $\alpha = 1.289 = 1 + 1/\sqrt{12}$ from $N=12$ SYK saddle-point (§3.62).
 
 ### Main Point #2: The Closed Loop (§3.60.1)
 
@@ -113,7 +113,7 @@ Both directions use the **SAME $\alpha = 1.289$** derived from **N = 12** SYK. T
 - **DE density**: $\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.5 \times 10^{-47}$ GeV$^4$ (matches observed within 0.13%, via f×ε = 1.13×$10^{-123}$ invariant; v3.0.22 was 2.2×$10^{-47}$ within 12% via $f_{\rm back}$ ≈ $10^{-85}$)
 - **DM density**: $\rho_{\rm DM} = f_{\rm DM,death} \times \Sigma(M_{\rm 2D} \times N_{\rm 2D})/V$ (uses same $f_{\rm DM,death}$)
 
-All three use the SAME $\alpha = 1.289$ (Schwarzian SYK N=12, L308n), the SAME $f_{\rm DE,closed} \approx 1.79 \times 10^{-90}$ (A2 closed loop, L308av; A1 form $f_{\rm DE,simple} \approx 1.13 \times 10^{-85}$ gives same ρ_DE), the SAME bulk-brane geometry. The closed loop is what unifies them.
+All three use the SAME $\alpha = 1.289$ (Schwarzian SYK $N=12$, L308n), the SAME $f_{\rm DE,closed} \approx 1.79 \times 10^{-90}$ (A2 closed loop, L308av; A1 form $f_{\rm DE,simple} \approx 1.13 \times 10^{-85}$ gives same ρ_DE), the SAME bulk-brane geometry. The closed loop is what unifies them.
 
 See §3.60.1 (closed loop), §3.62 (Lagrangian skeleton), §10.1 (scaling law table), and `calculations/consistency_check_v3_0_21.py` (consistency verification).
 
@@ -137,11 +137,11 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with $\alpha$ coupling, $\delta$-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as $\alpha \to 0$.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon$ $\sim 6.32 \times 10^{-34}$ (A2), $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o N_sub linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×v_H chain + L308s 8-paths + L308t L26 full closure + L308u N=12 from 6D anomaly + L308v L138 closed loop + L308w f_leak=$H_0$ + L308x γ consistency + L308y §3.67 coincidence + L308z N_sub event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad N_sub ≈ N_12 × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3) PARTIAL L144 closure + **L308ae N_sub formula residual + L308af AGN rate unit interpretation gap + L308ag N=12 reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on N=12 and α (no first-principles derivation found) + L308ai N=12 from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from N=12 (connection is heuristic, not rigorous) + L308ap re-examination: N=12 has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern α_D = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile $\nu$** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+ \sim 1.2 \times 10^{-10}$, $\epsilon$ $\sim 6.32 \times 10^{-34}$ (A2), $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n $\alpha$ first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r $\mu$ N×$v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w f_leak=$H_0$ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab f_leak=H(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ $N_{12}$ × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3) PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 M_sun cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_ℓ oscillation at ℓ_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern α_D = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile $\nu$** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
-**M^α law and time dilation (v2.7.24-v2.7.25+, legacy_paper.md §3.17-legacy_paper.md §3.18, REVISED L308x v3).** The M^α scaling law $\tau_{2D,3+1D} = (E/E_{Pl,3})^{1.29} \times t_{Pl,3}$ gives the 3+1D-observed lifetime of the 2D universe. The 2D universe's PROPER lifetime (in 2D's own frame) is $\gamma_{2D} \times \tau_{2D,3+1D}$ = 5.5×10⁴⁴ × 33s = **5.7×10³⁸ yr** for SN (much longer than 33s). Similarly, the 4D event's proper time is 1.51×10³⁴ yr, but the 3D-observed time is $\gamma_{4D} \times 1.51e34 yr = 1.66×10¹⁴⁵ yr (A2)$. The cone is ASYMMETRIC in time direction: γ_2D stretches time in 2D's own frame (2D proper is LONG, 3D observed is short), while γ_4D stretches time in 3D frame (4D proper is short, 3D observed is LONG). In both cases, the lower-D dimension has MORE time (2D > 3D > 4D in duration). The same $\alpha$ = 1.29 applies at every level. **$\alpha$ is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from Schwarzian SYK N=12 saddle point (L308n, 1+1/√12). SIDC's net free parameter count: 15 (REVISED L308z, was 14 pre-count-correction; A1+L308z+L308aa).
+**M^α law and time dilation (v2.7.24-v2.7.25+, legacy_paper.md §3.17-legacy_paper.md §3.18, REVISED L308x v3).** The M^α scaling law $\tau_{2D,3+1D} = (E/E_{Pl,3})^{1.29} \times t_{Pl,3}$ gives the 3+1D-observed lifetime of the 2D universe. The 2D universe's PROPER lifetime (in 2D's own frame) is $\gamma_{2D} \times \tau_{2D,3+1D}$ = 5.5×10⁴⁴ × 33s = **5.7×10³⁸ yr** for SN (much longer than 33s). Similarly, the 4D event's proper time is 1.51×10³⁴ yr, but the 3D-observed time is $\gamma_{4D} \times 1.51e34 yr = 1.66×10¹⁴⁵ yr (A2)$. The cone is ASYMMETRIC in time direction: γ_2D stretches time in 2D's own frame (2D proper is LONG, 3D observed is short), while γ_4D stretches time in 3D frame (4D proper is short, 3D observed is LONG). In both cases, the lower-D dimension has MORE time (2D > 3D > 4D in duration). The same $\alpha$ = 1.29 applies at every level. **$\alpha$ is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from Schwarzian SYK $N=12$ saddle point (L308n, 1+1/√12). SIDC's net free parameter count: 15 (REVISED L308z, was 14 pre-count-correction; A1+L308z+L308aa).
 
 **Self-critical methodology (v2.7.22+, legacy_paper.md §3.16).** SIDC's iterative process is formalized: build → user pushback → self-critique → discard or revise → document. The sterile neutrino DM with Pauli-blocked decay (now in legacy_paper.md legacy_paper.md §3.13-legacy_paper.md §3.15) is a worked example: built in v2.7.18, self-critiqued in v2.7.19, discarded in v2.7.20 after literature search (Batell-Yin 2024 m<10meV bound, sub-eV DM is HDM not CDM, 3.5 keV X-ray line weakened). SIDC documents the discard explicitly rather than papering over broken hypotheses.
 
@@ -164,7 +164,7 @@ The full architectural comparison is given in §9 (SIDC vs its Competitors: A De
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -240,7 +240,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -257,7 +257,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 | $\mu$ (bulk AdS curvature) | ? | Sets the bulk-brane coupling $\epsilon = e^{-kL}$ (RS-II mechanism) | Free (open) |
 | $m_{3+1D}$ (induced Planck scale) | $\sim 10^{19}$ GeV | Effective 3+1D Planck mass from bulk geometry | Brane-world framework |
 
-**Note (HISTORICAL v2.7-v3.0 context):** In v2.7, SIDC had **2 free parameters** ( $\mu$, $m_{3+1D}$) parameterizing the bulk geometry (RS-II). They followed from the cascade structure plus the bulk. **CURRENT (v3.5.9+ A2):** The framework has **15 parameters** total: 1 MEASURED ( $M_{\rm Pl,3D}$), 3 FIRST-PRINCIPLES ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$) [N=12 STRUCTURAL per L308ag], 2 DERIVED ( $M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ( $\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ( $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ( $N_{\rm sub}$, event-specific).
+**Note (HISTORICAL v2.7-v3.0 context):** In v2.7, SIDC had **2 free parameters** ( $\mu$, $m_{3+1D}$) parameterizing the bulk geometry (RS-II). They followed from the cascade structure plus the bulk. **CURRENT (v3.5.9+ A2):** The framework has **15 parameters** total: 1 MEASURED ( $M_{\rm Pl,3D}$), 3 FIRST-PRINCIPLES ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$) [ $N=12$ STRUCTURAL per L308ag], 2 DERIVED ( $M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ( $\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ( $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ per L308ag), 1 FREE ( $N_{\rm sub}$, event-specific).
 
 ### Calibrated Postulates (0) — All Derived
 
@@ -265,7 +265,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 
 | Previously "calibrated" | Current status | Derivation |
 |------------------------|----------------|------------|
-| $f_{back} = 8.6 \times 10^{-86}$ | **DERIVED** | $f_{back} = \epsilon \times (E_{\rm 4D}/M_{Pl}^4)$ where $\epsilon$ is the bulk-brane coupling and $E_{\rm 4D}/M_{Pl}^4 \sim 10^{-47}$ is the 4D event's energy ratio. The composite model (§3.60) gives $f_{back} = c/\alpha_{BR}$-powered formula with $c = 1/2$ (Ising) and $\alpha_{BR} = 1.289$ (N=12 SYK). |
+| $f_{back} = 8.6 \times 10^{-86}$ | **DERIVED** | $f_{back} = \epsilon \times (E_{\rm 4D}/M_{Pl}^4)$ where $\epsilon$ is the bulk-brane coupling and $E_{\rm 4D}/M_{Pl}^4 \sim 10^{-47}$ is the 4D event's energy ratio. The composite model (§3.60) gives $f_{back} = c/\alpha_{BR}$-powered formula with $c = 1/2$ (Ising) and $\alpha_{BR} = 1.289$ ($N=12$ SYK). |
 | $\epsilon$ $\sim 10^{-38}$ | **DERIVED** | $\epsilon = e^{-kL}$ (Randall-Sundrum II bulk-brane coupling), where $k$ is the AdS curvature and $L$ is the brane distance. Both follow from the bulk geometry ( $\mu$, $m_{3+1D}$). The standard RS-II mechanism derives the hierarchy from geometry. |
 | $F_p(0) = 0.9993$ | **DROPPED v3.3+** | $F_p$(z) Hill function framework was DROPPED in v3.3 (per L100, user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`. |
 
@@ -306,7 +306,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 This is not a derivation. **(HISTORICAL v2.7-v3.0):** SIDC had 2 free parameters ( $\mu$, $m_{3+1D}$) in the bulk geometry. **(CURRENT v3.5.9+ A2):** $\mu$ is now FIRST-PRINCIPLES (L308r, $\mu = M_{\rm Pl,2D}^2$); see full hierarchy above.
 
 All other values in SIDC are *derived* from the cascade structure:
-- $\alpha = 1.289$ from N=12 SYK saddle-point argument
+- $\alpha = 1.289$ from $N=12$ SYK saddle-point argument
 - $c = 1/2$ from N/24 (Ising CFT)
 - $f_{back} = 8.6 \times 10^{-86}$ from $\epsilon \times (E_{\rm 4D}/M_{Pl}^4)$ — bulk-brane coupling × 4D event energy ratio
 - $\epsilon = e^{-kL}$ from Randall-Sundrum II bulk-brane coupling (RS-II mechanism)
@@ -315,7 +315,7 @@ All other values in SIDC are *derived* from the cascade structure:
 The 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, $\Omega$'s, $g_+$) are taken from data, not fit.
 
 **HISTORICAL**: SIDC had 0 calibrated postulates in the v3.0+ state.
-**CURRENT (v3.5.9+ A2 update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 3 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$) [N=12 STRUCTURAL per L308ag], 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$).
+**CURRENT (v3.5.9+ A2 update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 3 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$) [$N=12$ STRUCTURAL per L308ag], 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ per L308ag), 1 FREE ($N_{\rm sub}$).
 ### 2.1 The setup
 
 We assume, following the well-developed brane-world framework [ADD98, RS99], that our observable universe is a 3+1 dimensional brane embedded in a higher-dimensional bulk. Gravity propagates in the bulk; the other Standard Model forces are confined to the brane.
@@ -738,7 +738,7 @@ This is a *power-law* relation, not a step. Future observations of dwarf galaxie
 
 **What the smooth function does NOT change.** SIDC's other elements (energy-scaling rule, §2.5.1 action, $S_{\rm destruction}$ mechanism, Madau-SFR weighting, AGC 114905 + KKR 25 individual galaxy tests) all remain. The smooth function only changes the *functional form* of the contribution weight from step(E - $E_{\rm crit}$) to $E^{1+α}$. The qualitative predictions (Sun has no DM, SN-dominated galaxies have DM, AGC 114905 has no DM because of low E_max) all survive.
 
-**Limitation update.** The v2.3.0 $E_{\rm crit}$ phase-transition threshold (a calibrated free parameter, $\sim 10^{30}$ J) has been *removed* in v2.7.4: the smooth function uses only $\alpha$ = 1.29 (from the SN calibration, §10.1), and the same $\alpha$ already characterizes the energy-scaling rule. SIDC's *single* free parameter $\alpha$ (HISTORICAL v2.7.4-v3.0 era; in v3.5.9+, $\alpha$ is FIRST-PRINCIPLES via Schwarzian SYK N=12, L308n, and $N_{\rm sub}$ is FREE event-specific, L308z) is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an $E_{\rm crit}$ free parameter to derive. This is a *parameter reduction*: 2 free parameters ( $\alpha$ + $E_{\rm crit}$) → 1 free parameter ( $\alpha$). New **Limitation 36 added** ( $E_{\rm crit}$ hidden free parameter REVERTED, smooth function uses only $\alpha$).
+**Limitation update.** The v2.3.0 $E_{\rm crit}$ phase-transition threshold (a calibrated free parameter, $\sim 10^{30}$ J) has been *removed* in v2.7.4: the smooth function uses only $\alpha$ = 1.29 (from the SN calibration, §10.1), and the same $\alpha$ already characterizes the energy-scaling rule. SIDC's *single* free parameter $\alpha$ (HISTORICAL v2.7.4-v3.0 era; in v3.5.9+, $\alpha$ is FIRST-PRINCIPLES via Schwarzian SYK $N=12$, L308n, and $N_{\rm sub}$ is FREE event-specific, L308z) is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an $E_{\rm crit}$ free parameter to derive. This is a *parameter reduction*: 2 free parameters ( $\alpha$ + $E_{\rm crit}$) → 1 free parameter ( $\alpha$). New **Limitation 36 added** ( $E_{\rm crit}$ hidden free parameter REVERTED, smooth function uses only $\alpha$).
 
 #### 2.5.4 The 2D universe is "invisible" during life: deaths-only DM (v2.7.11+, RETAINED in v3.5.9+)
 
@@ -1276,7 +1276,7 @@ See `paper/legacy/v357_f_back_clarification.md` for full discussion.
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
@@ -1408,7 +1408,7 @@ This identification provides a *concrete* information-theoretic interpretation o
 
 **3.8.3 Horava-Witten (1996) M-theory and SIDC as 11D → 4D → 2D stacking.**
 
-Horava-Witten [HW96] is 11D M-theory compactified on $S^1/\mathbb{Z}_2$ (orbifold), with two 10D branes at the orbifold fixed points. E8 gauge theory lives on each 10D brane, gravity propagates in the 11D bulk. SIDC's bulk-brane structure has a *natural* realization in HW:
+Horava-Witten [HW96] is 11D M-theory compactified on $S^1/\mathbb{Z}{}_2$ (orbifold), with two 10D branes at the orbifold fixed points. E8 gauge theory lives on each 10D brane, gravity propagates in the 11D bulk. SIDC's bulk-brane structure has a *natural* realization in HW:
 
 - **SIDC's 3+1D us** = 10D HW brane with 6D Calabi-Yau compactification (standard string phenomenology, gives N=1 SUSY, E6 → Standard Model gauge group, chiral fermions, etc.)
 - **SIDC's 2D children** = D1-branes (1+1D branes in string theory) nucleated on the 4D effective brane by energetic events
@@ -1523,7 +1523,7 @@ Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity a
 User reference (v3.0.22): Kusuki 2024 (arXiv:2412.18307) "Modern Approach to 2D Conformal Field Theory" is a ~70-page review of **modern ICFT methods** (irrational CFT), which is exactly what SIDC's 2D universe uses.
 
 **SIDC's 2D universe framework**:
-- c = 1 Liouville + c = 1/2 matter (N=12 SYK) = c_total = 3/2
+- c = 1 Liouville + c = 1/2 matter ( $N=12$ SYK) = c_total = 3/2
 - This is an ICFT (irrational CFT)
 - Standard CFT methods (Yellow book) don't fully cover this
 
@@ -2009,7 +2009,7 @@ See `calculations/v27_dm_baryon_growth.py` for the full numerical analysis.
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
@@ -3013,7 +3013,7 @@ analysis.
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -3048,7 +3048,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 
 **Composite model v3 — STRONGLY SPECIFIED**:
 
-1. **2D universe = q=4 SYK with N=12 Majoranas**
+1. **2D universe = q=4 SYK with $N=12$ Majoranas**
 2. **12 Majoranas = 12 SM Weyl fermions (BACKBONE, not 1-to-1)**
 3. **Topology: AdS₂ × S² + Majorana matter** (for $\alpha$ > 0)
 4. **BLG-like at magic angle ~1.5-2.0°** (model-dependent)
@@ -3070,7 +3070,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 
 **What v3 derives (NEW)**:
 
-- $\alpha$ = 1.289 (lifetime scaling, EXACT from N=12)
+- $\alpha$ = 1.289 (lifetime scaling, EXACT from $N=12$)
 - c = 1/2 (Ising CFT, surviving Ising mode from SYK q=4; L308aq clarifies)
 - $1/(2\alpha)$ = 0.388 (back-action)
 - $f_{\rm back}$ = $8.6 \times 10^{-86}$ (universal, gives $10^{-85}$)
@@ -3083,12 +3083,12 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 - Specific SM mass ratios
 - Specific magic angle (1.5-2.0° range)
 - Specific dS₂ topology details
-- Why N=12 specifically (vs other N close to 12)
+- Why $N=12$ specifically (vs other N close to 12)
 
 **v3.0 vs v2.7.x**:
 
 - v2.7.x: Many incremental improvements, $\alpha$ calibrated from SN 33s
-- v3.0: $\alpha$ derived from N=12 SYK, single number fixes everything
+- v3.0: $\alpha$ derived from $N=12$ SYK, single number fixes everything
 
 The v3 model is **more constrained** than v2.7.x (less freedom in
 parameter choices) but **less derived** than a full Lagrangian
@@ -3149,7 +3149,7 @@ This matches the §3.60 claim of $f_{\rm back} \approx 10^{-85}$ to 0.4 orders.
 **Why the closed loop closes**:
 - The exponent $1/(2\alpha)$ is $c/\alpha$ where $c = 1/2$ is the IR central charge (1 surviving Ising mode from 12 Majoranas via SYK q=4, per L117/L308aq; 'N/24' is misleading arithmetic, not a general formula)
 - $\alpha \times 1/(2\alpha) = 1/2$ (round-trip loss, $Z_2$ orbifold)
-- **L308aq CLARIFICATION**: The 'three independent derivations' framing is MISLEADING. Real derivation: SYK q=4 gaps out 11 of 12 modes, leaving 1 Ising with c=1/2 (per L117). Schwarzian and DOZZ are not strict derivations of c=1/2. The 'N/24 = 1/2' is arithmetic coincidence for N=12, not a general formula
+- **L308aq CLARIFICATION**: The 'three independent derivations' framing is MISLEADING. Real derivation: SYK q=4 gaps out 11 of 12 modes, leaving 1 Ising with c=1/2 (per L117). Schwarzian and DOZZ are not strict derivations of c=1/2. The 'N/24 = 1/2' is arithmetic coincidence for $N=12$, not a general formula
 
 **The forward direction (time dilation)**:
 $\gamma = (E/E_{\rm Pl})^\alpha$ (the scaling law, §10.1)
@@ -3425,7 +3425,7 @@ from the framework.
 
 | Quantity | Status |
 |---|---|
-| $\alpha$ = 1.289 (time dilation shape) | **DERIVED** from N=12 SYK (1 + 1/√12) |
+| $\alpha$ = 1.289 (time dilation shape) | **DERIVED** from $N=12$ SYK (1 + 1/√12) |
 | $\gamma$ ~ 10⁶⁰-10¹⁰⁰ (4D time dilation) | **DERIVED** from $\alpha$ and $E_{\rm 4D}$ |
 | $\epsilon$ = $10^{-38}$ (gravity weakness) | **OBSERVED** (hierarchy problem) |
 | $\rho_{\rm DE}$/ $\rho_{\rm Pl}$ = $10^{-123}$ | **OBSERVED** (cosmological CC problem) |
@@ -3468,15 +3468,15 @@ See `calculations/v31_F_p_consistency.py` and `calculations/v31_F_p_result.md` f
 
 **User correction (v3.1.2, further revised v3.1.2-final)**: "An energetic event in a 4D bulk created our 3+1D universe" — we do NOT know what kind of event occurs in the 4D bulk (NOT necessarily 'galaxy collisions' as previously suggested; the 4D-bulk dynamics are UNKNOWN). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our universe was created, not related to whatever produced it).
 
-**Setup (Scenario X, REVISED v3.3)**: 4D event ( $E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, calibrated to DE) creates N_sub 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so N_sub is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to 3.93×10²³ GeV via $\alpha$-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
+**Setup (Scenario X, REVISED v3.3)**: 4D event ( $E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, calibrated to DE) creates $N_{\rm sub}$ 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so $N_{\rm sub}$ is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to 3.93×10²³ GeV via $\alpha$-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
 
 If we apply $M^{\alpha}$ law to a sub-universe of mass $E_{\rm sub}$ (in 3+1D's own frame):
 
 $$\tau_{\rm sub} = \left(\frac{E_{\rm sub}}{E_{\rm Pl,4D}}\right)^\alpha \times t_{\rm Pl}$$
 
-**HONEST v3.1.2-final correction**: N_sub is NOT fixed. Different N_sub give different $E_{\rm sub}$ and different $\tau_{\rm sub}$:
+**HONEST v3.1.2-final correction**: $N_{\rm sub}$ is NOT fixed. Different $N_{\rm sub}$ give different $E_{\rm sub}$ and different $\tau_{\rm sub}$:
 
-| N_sub | $E_{\rm sub}$ | $\tau_{\rm sub}$ (3+1D frame) |
+| $N_{\rm sub}$ | $E_{\rm sub}$ | $\tau_{\rm sub}$ (3+1D frame) |
 |---|---|---|
 | 1 | 5×10⁷⁹ J | 1.4×10³⁴ yr (no sub-universe structure) |
 | 150 | 7.14×10⁵⁶ J | ~2.2×10³¹ yr |
@@ -3492,26 +3492,26 @@ The lifetime $\tau_{\rm sub}$ is UNKNOWN — only constrained to be > 13.8 Gyr (
 - $E_{\rm 4D}$ = 5×10⁷⁹ J (from closed loop, given $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
 - $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (v3.3, derived via $\alpha$-weighted GM; was 887 GeV in v3.1.2 Scenario X)
 - 13.8 Gyr is the universe's CURRENT AGE (observed directly)
-- 4D-bulk dynamics: UNKNOWN (N_sub, $E_{\rm sub}$, $\tau_{\rm sub}$ all undetermined)
-- $f_{\rm DE}$ = 1.2× $10^{-85}$/s (DE matching, doesn't depend on N_sub)
+- 4D-bulk dynamics: UNKNOWN ( $N_{\rm sub}$, $E_{\rm sub}$, $\tau_{\rm sub}$ all undetermined)
+- $f_{\rm DE}$ = 1.2× $10^{-85}$/s (DE matching, doesn't depend on $N_{\rm sub}$)
 - The universe has NOT yet died → $\tau_{\rm sub}$ > 13.8 Gyr
 
 **Sub-universe mass (energy conservation)**:
 
 $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
-**N_sub and $E_{\rm sub}$ are FREE PARAMETERS** linked by energy conservation. The choice $N_{\rm sub} = 300$, $E_{\rm sub}$ = 3.57×10⁵⁶ J was an ARBITRARY choice (gives "small galaxy mass" sub-universes, but is not derived from the cascade). The user's correction: N_sub could be 150 with double-mass sub-universes, or $N_{\rm sub} = 1$ with one universe, etc.
+** $N_{\rm sub}$ and $E_{\rm sub}$ are FREE PARAMETERS** linked by energy conservation. The choice $N_{\rm sub} = 300$, $E_{\rm sub}$ = 3.57×10⁵⁶ J was an ARBITRARY choice (gives "small galaxy mass" sub-universes, but is not derived from the cascade). The user's correction: $N_{\rm sub}$ could be 150 with double-mass sub-universes, or $N_{\rm sub} = 1$ with one universe, etc.
 
-**Number of sub-universes per 4D event**: N_sub is UNKNOWN. The 4D-bulk dynamics that determine N_sub are open (L144).
+**Number of sub-universes per 4D event**: $N_{\rm sub}$ is UNKNOWN. The 4D-bulk dynamics that determine $N_{\rm sub}$ are open (L144).
 
 **Status of $\alpha$ as universal exponent (v3.1.2, REVISED)**: In the multi-universe picture, $\alpha$ is the universal exponent for cascade lifetimes:
 
 - 2D universe lifetime: $\tau_{\rm 2D}$ = ( $E_{\rm event}$/ $M_{\rm Pl,3D}$) $^{\alpha}$ × $t_{\rm Pl}$ = 33 s for SN ✓
-- 3+1D sub-universe lifetime: $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$ — UNKNOWN (depends on $E_{\rm sub}$ = $E_{\rm 4D}$/N_sub)
+- 3+1D sub-universe lifetime: $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$ — UNKNOWN (depends on $E_{\rm sub}$ = $E_{\rm 4D}$/ $N_{\rm sub}$)
 - 3+1D universe CURRENT AGE: 13.8 Gyr (observed directly, the only firm value)
-- $f_{\rm DE}$ derived from closed-loop formula: 1.2× $10^{-85}$/s (matches DE within 1.7%, doesn't depend on N_sub)
+- $f_{\rm DE}$ derived from closed-loop formula: 1.2× $10^{-85}$/s (matches DE within 1.7%, doesn't depend on $N_{\rm sub}$)
 
-**Honest verdict (v3.1.2-final)**: N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm sub}$ = $E_{\rm 4D}$ / N_sub is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice ( $N_{\rm sub} = 300$, $E_{\rm sub}$ = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
+**Honest verdict (v3.1.2-final)**: $N_{\rm sub}$ is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$ is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice ( $N_{\rm sub} = 300$, $E_{\rm sub}$ = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
 
 **Age vs Lifetime (v3.1.2-final, KEY CORRECTION)**:
 - 13.8 Gyr = current AGE of our 3+1D universe (OBSERVED, the only firm value)
@@ -3540,7 +3540,7 @@ The asymmetry is justified by their different physical roles: 2D brane-world, 3+
 
 **What remains uncertain** (limitations):
 - L143: Sub-universe identification — RESOLVED (energetic 4D-bulk events, not 3+1D galaxies; 4D-bulk mechanism UNKNOWN)
-- L144: N_sub and the universe's total LIFETIME are UNKNOWN (free parameters) — OPEN
+- L144: $N_{\rm sub}$ and the universe's total LIFETIME are UNKNOWN (free parameters) — OPEN
 - L149: $4\pi$ asymmetry between 3D→4D and other transitions — RESOLVED (specific to 3D→4D)
 
 **Legacy content (removed from this section, archived to `paper/legacy/`)**: Earlier drafts had a "DUAL FRAMING" presenting $\alpha$ = 1.258 (with $4\pi$ hidden) as an alternative to $\alpha$ = 1.289. This was REMOVED because $\alpha$ = 1.258 fails the 14-event $M^{\alpha}$ fit (281% deviation for solar flares, 52% for AGN, etc.). Only $\alpha$ = 1.289 survives. See `paper/legacy/v31_60_4_old.md` for the historical draft.
@@ -3833,16 +3833,16 @@ Within the same dimension, all universes are EQUAL — they have the same intern
 - Same Lagrangian (e.g., L_c=1,Liouville + L_N=12,SYK + L_Schwarzian for 2D)
 - Same constants ( $\alpha$ = 1.289, $M_{\rm Pl,N}$, central charge c)
 - Same particle content (e.g., 12 SM Weyl fermions for 3+1D)
-- Same internal structure (N=12 SYK backbone, Ising CFT)
+- Same internal structure ( $N=12$ SYK backbone, Ising CFT)
 - **They differ ONLY in**: creation energy E, age, evolution stage, specific arrangement (like atoms)
 
 | Dimension | Same physics (all universes) | Different (per universe) |
 |---|---|---|
-| 2D | N=12 SYK, $M_{\rm Pl,2D}$ = 2.95 TeV, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
-| 3+1D | SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, $\alpha$ = 1.289, N=12 | $E_{\rm sub}$, age, stage, baryon asymmetry |
-| 4D (extrapolation) | $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, N=12 | $E_{\rm 4D}$, age, stage |
+| 2D | $N=12$ SYK, $M_{\rm Pl,2D}$ = 2.95 TeV, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
+| 3+1D | SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, $\alpha$ = 1.289, $N=12$ | $E_{\rm sub}$, age, stage, baryon asymmetry |
+| 4D (extrapolation) | $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, $N=12$ | $E_{\rm 4D}$, age, stage |
 
-This is analogous to atoms: same physics, different states. The 14 SIDC events are 14 instances of the SAME 2D universe at 14 different energies. The N_sub 3+1D sub-universes (per §3.60.4) are N_sub instances of the SAME 3+1D universe at N_sub different energies.
+This is analogous to atoms: same physics, different states. The 14 SIDC events are 14 instances of the SAME 2D universe at 14 different energies. The $N_{\rm sub}$ 3+1D sub-universes (per §3.60.4) are $N_{\rm sub}$ instances of the SAME 3+1D universe at $N_{\rm sub}$ different energies.
 
 **Implication**: The $M^{\alpha}$ law and closed-loop formula are UNIVERSAL at each level (not 14 different laws, ONE law applied 14 times). This is what gives the framework its predictive power: one Lagrangian per level, not N different ones.
 
@@ -3877,7 +3877,7 @@ flat spacetime") which takes 3D AdS gravity and reduces it to
 | Aspect | Standard holographic reduction (2211.13415) | SIDC (this paper) |
 |--------|---------------------------------------------|--------------------|
 | Bulk | AdS $_3$ (asymptotically flat) | AdS $_5$ with Karch-Randall sub-brane |
-| Boundary / brane | End-of-world brane hosting 2D CFT | 2D universe with c=1 Liouville + N=12 SYK + Schwarzian |
+| Boundary / brane | End-of-world brane hosting 2D CFT | 2D universe with c=1 Liouville + $N=12$ SYK + Schwarzian |
 | "Real" theory | Bulk 3D gravity | 2D universe (intrinsic) + 5D bulk (extrinsic) |
 | What we observe | 2D boundary CFT $_1$ (JT + matter) | Residual 3+1D = gravity + DM + DE |
 | Reduction direction | 3D $\to$ 2D (standard) | 4D event $\to$ 2D $\to$ 3+1D (round-trip) |
@@ -3922,7 +3922,7 @@ adds is:
 
 1. **Validates the framework**: SIDC is not random; it's the
    holographic-reduction program with a specific 2D matter content
-   (c=1 Liouville + N=12 SYK) and a specific bulk (AdS $_5$
+   (c=1 Liouville + $N=12$ SYK) and a specific bulk (AdS $_5$
    Karch-Randall).
 2. **Provides a literature anchor**: future readers can find
    SIDC by searching "JT gravity" + "holographic reduction" + "dark sector"
@@ -3945,7 +3945,7 @@ not yet computed end-to-end.
 intuition is exactly right and is supported by Deng et al. 2022.
 The novelty of SIDC is NOT the reduction itself (that's standard
 Karch-Randall) but the SPECIFIC 2D matter content
-(c=1 Liouville + N=12 SYK + Schwarzian) and the BACK-PROJECTION
+(c=1 Liouville + $N=12$ SYK + Schwarzian) and the BACK-PROJECTION
 into 3+1D as DM + DE. The latter has no precedent in the
 holographic reduction literature.
 
@@ -4060,7 +4060,7 @@ SYK, Witten 2D black hole, dS2). **FINDING**: No single 2D
 theory gives $\alpha = 1.289$. Multiple structural
 decompositions work (e.g., $1 + 1/\sqrt{12}$). The most
 natural: $\alpha = 1$ (SR time dilation, linear E/M) +
-$1/\sqrt{12}$ (N=12 finite-size correction). **CONCLUSION**:
+$1/\sqrt{12}$ ( $N=12$ finite-size correction). **CONCLUSION**:
 SIDC's structural decomposition is consistent with the 2D
 theory landscape. The '1' is dominant SR; the '0.289' is
 finite-N correction. Suggests the Lagrangian should have an
@@ -4069,12 +4069,12 @@ SR-like + finite-N structure.
 **v17 (Large-N extrapolation of SYK q=4)**: Computed
 $\alpha_{\rm eff}(N)$ for N = 4, 6, 8, 10, 12 SYK q=4 via
 exact diagonalization. **FINDING**: $\alpha_{\rm eff}$
-increases with N: 0.60 (N=4), 0.76 (N=6), 1.05 (N=8),
-1.03 (N=10), 1.15 (N=12). SYK q=4 alone gives $\alpha_{\rm eff}
-\approx 1$ at N=12, NOT 1.289. **CONCLUSION**: Pure SYK is
+increases with N: 0.60 (N=4), 0.76 ( $N=6$), 1.05 (N=8),
+1.03 (N=10), 1.15 ($N=12$). SYK q=4 alone gives $\alpha_{\rm eff}
+\approx 1$ at $N=12$, NOT 1.289. **CONCLUSION**: Pure SYK is
 NOT enough; the '0.289' extra requires cross-sector coupling.
 SIDC's $\alpha = 1.289$ is structurally $1 + 1/\sqrt{N}$
-at N=12.
+at $N=12$.
 
 **v18 (Replica trick for $f_{\rm back}$)**: Computed entropy
 $S(E)$ for SYK + Liouville via density of states and Cardy
@@ -4085,7 +4085,7 @@ L48 status unchanged — $f_{\rm back}$ derived for FORM via
 §3.60 composite formula, value still calibrated.
 
 **v19 (Direct brute-force $\alpha$ extraction)**: Computed
-$Z(\beta)$ and $E_{\rm mean}(\beta)$ for SYK q=4 N=12.
+$Z(\beta)$ and $E_{\rm mean}(\beta)$ for SYK q=4 $N=12$.
 Extracted $\alpha_{\rm eff}$ from log-log slopes in various
 $\beta$ ranges. Pure SYK: $\alpha \sim 0.5-1.0$ in mid-T,
 diverges at extremes. Combined $Z = Z_{\rm JT} \times Z_L
@@ -4119,7 +4119,7 @@ See:
 
 **Total Lagrangian attempts**: v1-v19 = 19 attempts.
 - Closed: 3 (v9, v10 L48; v16 structural decomposition)
-- Partially closed: 3 (v7 Hagedorn, v14 high-E universality, v17 $\alpha \sim 1$ at N=12)
+- Partially closed: 3 (v7 Hagedorn, v14 high-E universality, v17 $\alpha \sim 1$ at $N=12$)
 - Honest negatives: 13 (L41-L43 not closed)
 
 
@@ -4140,7 +4140,7 @@ User question: "so $\alpha$ is the shape that links dimensions?"
    relativity: $E/E_{\rm Pl}$). This is the SAME at every hierarchy level.
 
 2. **The "1/√12"** is the FINITE-N correction — comes from the
-   12-vertex SYK graph (N=12 = 3 generations × 4 SM Weyl fermions).
+   12-vertex SYK graph ( $N=12$ = 3 generations × 4 SM Weyl fermions).
    This is a spectral/fractal shape.
 
 **Multiple shape interpretations of $\alpha$**:
@@ -4181,11 +4181,11 @@ in the sense that:
 - It's the spectral shape of the 12-vertex SYK graph (spectral)
 - It's the Ising CFT shape (c = 1/2 from round-trip)
 - It links every hierarchy level (vertical universality)
-- It links particle physics (N=12) to cosmology ( $\alpha$)
+- It links particle physics ( $N=12$) to cosmology ( $\alpha$)
 
 The "1" and "1/√12" decomposition is the answer to "why $\alpha$ = 1.289
 specifically?" — the "1" is universal SR, the "1/√12" is the finite-N
-correction that makes $\alpha$ N=12-specific.
+correction that makes $\alpha$ $N=12$-specific.
 
 **Net: +1 section, +1 limitation (L103)**
 - Total: 345 pages (was 344; +1 from new section)
@@ -4324,7 +4324,7 @@ Only 2 free parameters remain in SIDC:
 
 Everything else is derived from these + 2D CFT structure:
 - $M_{\rm Pl,2D}$ = √ $\mu$ = 2.95 TeV (from L41)
-- $\alpha$ = 1 + 1/√12 (from N=12)
+- $\alpha$ = 1 + 1/√12 (from $N=12$)
 - $\tau_{\rm 2D}$ = ( $E_{\rm 3D}$/ $E_{\rm Pl,3}$) $^{\alpha}$ × $t_{\rm Pl,3}$ (time dilation)
 - $f_{\rm back}$ ~ $10^{-85}$ for SN (closed loop)
 
@@ -4413,7 +4413,7 @@ The skeleton was the starting point; the full Lagrangian adds:
 The v3.0.2 skeleton's $\alpha$ decomposition ( $\alpha$ = 1 + 1/√12) is preserved
 and now has a CLEAR physical meaning:
 - "1" = universal SR time dilation
-- "1/√12" = N=12 finite-N correction
+- "1/√12" = $N=12$ finite-N correction
 
 **11. THE LARGER PICTURE**
 
@@ -4487,7 +4487,7 @@ This section REVISES the Lagrangian with three A2-era corrections and ONE new st
 
 #### 3.68.2 The Dim-Specific α Pattern (L308ba, USER-DISCOVERED)
 
-The three framework A2 dim-specific α values match **α_D = 1 + 1/√N_D with N_D = 12/2^(D-2)**:
+The three framework A2 dim-specific α values match **α_D = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2)**:
 
 ```
 α_2D   = 1 + 1/√12 = 1.2887   ✓ (Schwarzian N=12 SYK, FIRST-PRINCIPLES)
@@ -4495,14 +4495,14 @@ The three framework A2 dim-specific α values match **α_D = 1 + 1/√N_D with N
 α_4D   = 1 + 1/√3  = 1.5774   ✓ (matches framework 1.577)
 ```
 
-The halving rule: **N_D = 12/2^(D-2)** — divide N by 2 for each dimension up. Going to 5D would give N_5D = 1.5 (non-integer), confirming no 5D level exists. The cascade TERMINATES at 4D (eternal substrate) and 2D (terminal quantum gravity floor).
+The halving rule: ** $N_D$ = 12/2^(D-2)** — divide N by 2 for each dimension up. Going to 5D would give $N_{\rm 5D}$ = 1.5 (non-integer), confirming no 5D level exists. The cascade TERMINATES at 4D (eternal substrate) and 2D (terminal quantum gravity floor).
 
-**Honest framing**: N_2D = 12 IS first-principles derived (3 generations × 4 Weyl fermions, L308r). N_3+1D = 6 and N_4D = 3 are INFERRED from α values, not first-principles derived. The PATTERN is structurally tight (matches within 0.01%) but the deeper origin is OPEN.
+**Honest framing**: $N_{\rm 2D}$ = 12 IS first-principles derived (3 generations × 4 Weyl fermions, L308r). $N_{3+1D}$ = 6 and $N_{\rm 4D}$ = 3 are INFERRED from α values, not first-principles derived. The PATTERN is structurally tight (matches within 0.01%) but the deeper origin is OPEN.
 
-Possible interpretations of N_D:
-- N_2D = 12 = 3 generations × 4 Weyl (SM backbone)
-- N_3+1D = 6 = 3 generations × 2 (chiral pairs?) OR 1+2+3 (sum of gauge group dimensions)
-- N_4D = 3 = 3 generations OR 3 color
+Possible interpretations of $N_D$:
+- $N_{\rm 2D}$ = 12 = 3 generations × 4 Weyl (SM backbone)
+- $N_{3+1D}$ = 6 = 3 generations × 2 (chiral pairs?) OR 1+2+3 (sum of gauge group dimensions)
+- $N_{\rm 4D}$ = 3 = 3 generations OR 3 color
 
 #### 3.68.3 Revised Lagrangian: §3.67 with A2 Corrections
 
@@ -4576,7 +4576,7 @@ S_drain = -f_leak,3D→4D × ∫ d⁴x ρ_DM(brane)
        with f_leak,2D→3D (natural) = 1.6×10⁻⁴⁵, DROPPED as negligible
 ```
 
-This term encodes L308ax: the natural cascade leaks through the 3+1D mirror plane are negligible (~88 orders below the death pulse for f_leak,2D→3D; ~67 orders below $H_0$ for f_leak,3D→4D natural). The DM picture is dominated by the death pulse (DM production) and the calibrated drain (DM stability).
+This term encodes L308ax: the natural cascade leaks through the 3+1D mirror plane are negligible (~88 orders below the death pulse for f_leak,2D→3D; ~67 orders below $H_0$ for $f_{\rm leak,3D→4D}$ natural). The DM picture is dominated by the death pulse (DM production) and the calibrated drain (DM stability).
 
 #### 3.68.4 Numerical Consistency (A2 closed loop check)
 
@@ -4602,7 +4602,7 @@ The Lagrangian now uses A2 frame-neutral naming (L308ax):
 - `$f_{\rm DE}$,closed` (was $f_{\rm back}$ in legacy naming) — 3D→4D projection efficiency (closed loop)
 - `$f_{\rm DE}$,simple` — A1 form, preserved for compactness (also gives ρ_DE exact)
 - `f_leak,2D→3D` (was f_DM,leak) — natural cascade leak from 2D perspective (= f_DM,leak from 3+1D perspective, ~ $10^{-45}$, dropped)
-- `f_leak,3D→4D` (was f_leak) — calibrated drain rate = $H_0$ (post-Friedmann principle)
+- `$f_{\rm leak,3D→4D}$` (was f_leak) — calibrated drain rate = $H_0$ (post-Friedmann principle)
 
 #### 3.68.6 Honest Status
 
@@ -4617,7 +4617,7 @@ The §3.68 Lagrangian is a STRUCTURAL IMPROVEMENT over §3.67:
 It does NOT:
 - ✗ Derive α_3+1D = 1.408 from first principles (inferred from α value, L308ba)
 - ✗ Derive α_4D = 1.577 from first principles (inferred from α value, L308ba)
-- ✗ Explain WHY the halving rule N_D = 12/2^(D-2) holds (pattern, not derivation)
+- ✗ Explain WHY the halving rule $N_D$ = 12/2^(D-2) holds (pattern, not derivation)
 - ✗ Replace the L116 audit (L120 was 73%; revised Lagrangian should be re-audited)
 
 #### 3.68.7 Net Improvements Over §3.67
@@ -4627,25 +4627,25 @@ It does NOT:
 | α (scaling law) | α = 1.289 (universal) | α_D = 1 + 1/√(12/2^(D-2)) | L308ba |
 | $f_{\rm DE}$ formula | $f_{\rm back}$ ≈ $10^{-85}$ | $f_{\rm DE}$,closed = 1.79× $10^{-90}$ | L308av |
 | Projection sign | ±g_couple (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
-| Frame naming | $f_{\rm back}$, f_leak, f_DM,leak | $f_{\rm DE}$,closed, f_leak,2D→3D, f_leak,3D→4D | L308ax |
-| $E_{\rm sub}$ in 4D term | not explicit | $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ explicit | A2 STRUCTURAL |
+| Frame naming | $f_{\rm back}$, f_leak, f_DM,leak | $f_{\rm DE}$,closed, f_leak,2D→3D, $f_{\rm leak,3D→4D}$ | L308ax |
+| $E_{\rm sub}$ in 4D term | not explicit | $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ explicit | A2 STRUCTURAL |
 | 2D universe lifetime | (E/ $M_{\rm Pl,3D}$)^α × $t_{\rm Pl}$ | $(E/M_{\rm Pl,parent})^{\alpha}$_D × $t_{\rm Pl}$,parent (dim-specific) | L308ba |
-| DM picture | pulsed death + ε × ρ | pulsed death + f_leak,3D→4D × ρ_DM (bilateral) | L308ax |
+| DM picture | pulsed death + ε × ρ | pulsed death + $f_{\rm leak,3D→4D}$ × ρ_DM (bilateral) | L308ax |
 | Mirror plane | not encoded | S_mirror term explicit | L308az |
-| Halving rule | unknown | N_D = 12/2^(D-2) identified | L308ba |
+| Halving rule | unknown | $N_D$ = 12/2^(D-2) identified | L308ba |
 
 #### 3.68.8 What This Closes
 
-- **L308ar (N is dim-dependent)**: STRUCTURAL CLOSURE — N_2D = 12, N_3+1D = 6, N_4D = 3 follows halving rule
+- **L308ar (N is dim-dependent)**: STRUCTURAL CLOSURE — $N_{\rm 2D}$ = 12, $N_{3+1D}$ = 6, $N_{\rm 4D}$ = 3 follows halving rule
 - **L308az (mirror plane)**: STRUCTURAL CLOSURE — encoded in S_mirror and projection sign flip
 - **L308ax (frame-neutral naming)**: APPLIED throughout $S_{\rm SIDC}$
 
 #### 3.68.9 What Remains Open
 
-- Why N_3+1D = 6 specifically (3 gen × 2? 1+2+3 gauge dimensions?)
-- Why N_4D = 3 specifically (3 generations? 3 color? 3 bulk modes?)
+- Why $N_{3+1D}$ = 6 specifically (3 gen × 2? 1+2+3 gauge dimensions?)
+- Why $N_{\rm 4D}$ = 3 specifically (3 generations? 3 color? 3 bulk modes?)
 - Why the halving rule itself (cascade-specific insight or general principle?)
-- Whether 5D would extend the pattern (would need N_5D = 1.5, non-integer)
+- Whether 5D would extend the pattern (would need $N_{\rm 5D}$ = 1.5, non-integer)
 - Full Lagrangian path integral (L116 was 73% in audit; needs re-audit)
 
 See `calculations/v36_research/L308ba_alpha_dim_specific_pattern.py` for the full verification of the α dim-specific pattern.
@@ -4677,26 +4677,26 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 - L43 (Lagrangian → α): full partition function Z_SIDC not yet computed
 - L116 (full Lagrangian path integral): 4D action structure still a sketch
 - 4D action specifics: what are the 4D fields? what's the bulk potential?
-- 5D extrapolation: N_5D = 1.5 (non-integer) suggests no 5D level, but formal proof is structural not derived
+- 5D extrapolation: $N_{\rm 5D}$ = 1.5 (non-integer) suggests no 5D level, but formal proof is structural not derived
 
 #### 3.69.2 Halving Rule Deeper Analysis (L308bb)
 
-L308ba identified α_D = 1 + 1/√(12/2^(D-2)) with N_D = {12, 6, 3}. The N_D values have multiple possible physical interpretations:
+L308ba identified α_D = 1 + 1/√(12/2^(D-2)) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
 
-**N_2D = 12 (FIRST-PRINCIPLES derived, L308r):**
+** $N_{\rm 2D}$ = 12 (FIRST-PRINCIPLES derived, L308r):**
 - 3 generations × 4 Weyl fermions (SM backbone)
 - The "4" = 4 internal DOF per generation in 2D (2 spin states + 2 chirality-like)
 - This is the only N with first-principles derivation
 
-**N_3+1D = 6 (INFERRED, multiple interpretations):**
+** $N_{3+1D}$ = 6 (INFERRED, multiple interpretations):**
 - 3 gen × 2 chiral (L+R Weyl per generation)
 - **1+2+3 = U(1)+SU(2)+SU(3) gauge dim sum (most suggestive)**
 - 2 × 3 color (chiral × color)
 - 3 + 3 (visible + hidden sectors)
 
-The 1+2+3 = 6 connection to SM gauge dimensions is the most suggestive. If structural, this would connect N_3+1D to SM gauge group structure directly. But it's still a pattern, not a derivation.
+The 1+2+3 = 6 connection to SM gauge dimensions is the most suggestive. If structural, this would connect $N_{3+1D}$ to SM gauge group structure directly. But it's still a pattern, not a derivation.
 
-**N_4D = 3 (INFERRED, multiple interpretations):**
+** $N_{\rm 4D}$ = 3 (INFERRED, multiple interpretations):**
 - 3 generations (most natural)
 - 3 color (SU(3) of QCD)
 - 3 minimal fermion families (bulk theory)
@@ -4733,7 +4733,7 @@ The Z_2 × Z_2 structure is consistent with:
 - Going UP the cascade: N halves (loss of chirality/pairing)
 - Going DOWN the cascade: N doubles (gain of chirality/pairing)
 - 3+1D is the mirror plane: σ_+ above, σ_- below
-- 4D is the maximum: N_5D = 1.5 breaks the integer structure
+- 4D is the maximum: $N_{\rm 5D}$ = 1.5 breaks the integer structure
 
 #### 3.69.5 Proposed $S_{\rm 4D}$,event Detail (L308bb sketch)
 
@@ -4754,12 +4754,12 @@ If 4D has 3 generations of bulk fields, the 4D action is structurally analogous 
 
 | Open question | Status |
 |---------------|--------|
-| Why N_3+1D = 6 specifically | Multiple interpretations, none first-principles |
-| Why N_4D = 3 specifically | Multiple interpretations, none first-principles |
+| Why $N_{3+1D}$ = 6 specifically | Multiple interpretations, none first-principles |
+| Why $N_{\rm 4D}$ = 3 specifically | Multiple interpretations, none first-principles |
 | Why the halving rule itself | Cascade-specific or general principle? |
 | Full Lagrangian path integral | L43 still OPEN (Z_SIDC not computed) |
 | 4D action structure | L308bb sketch needs theoretical physicist review |
-| 5D extrapolation | N_5D = 1.5 (non-integer) — structural not derived |
+| 5D extrapolation | $N_{\rm 5D}$ = 1.5 (non-integer) — structural not derived |
 
 #### 3.69.7 Net Improvement Summary
 
@@ -4769,12 +4769,12 @@ If 4D has 3 generations of bulk fields, the 4D action is structurally analogous 
 | Numerical consistency | 5/6 | 7/7 | A2 exact match |
 | Issue resolution | 37% | 80% | L308ar/az/ax/ba addressed |
 | Mirror plane | not encoded | S_mirror term | L308az |
-| Frame-neutral naming | legacy | $f_{\rm DE}$,closed, f_leak,2D→3D, f_leak,3D→4D | L308ax |
+| Frame-neutral naming | legacy | $f_{\rm DE}$,closed, f_leak,2D→3D, $f_{\rm leak,3D→4D}$ | L308ax |
 | Dim-specific α | universal 1.289 | 1.289/1.408/1.577 | L308ba halving rule |
 | $E_{\rm sub}$ explicit | not specified | $E_{\rm 4D} = 386 × 1.295e77 J$| A2 STRUCTURAL |
 | Bilateral cascade | pulsed only | death pulse + drain | L308ax |
 
-See `calculations/v36_research/L308bb_lagrangian_audit_v368.py` for the full audit calculation and N_D interpretation analysis.
+See `calculations/v36_research/L308bb_lagrangian_audit_v368.py` for the full audit calculation and $N_D$ interpretation analysis.
 
 ---
 
@@ -4799,9 +4799,9 @@ The chain: **12 Majorana = 6 Weyl = 3 4-comp Majorana** (in 2D / 3+1D / 4D)
 
 #### 3.70.2 Equivalence to Halving Rule
 
-The L308ba halving rule N_D = 12/2^(D-2) and L308bc DOF conservation are EQUIVALENT:
-- Halving: N_D = 12/2^(D-2)
-- Conservation: N_D × 2^(D-2) = 12
+The L308ba halving rule $N_D$ = 12/2^(D-2) and L308bc DOF conservation are EQUIVALENT:
+- Halving: $N_D$ = 12/2^(D-2)
+- Conservation: $N_D$ × 2^(D-2) = 12
 
 Same math, two interpretations. The cascade has a "fermion DOF budget" of 12, and each level packages them into spinors appropriate to that dimension.
 
@@ -4844,7 +4844,7 @@ The most natural: **3 4-comp Majorana** (real, matches 2D Majorana naming).
 
 #### 3.70.6 Honest Framing
 
-- ✓ DOF conservation is suggested by the framework's N=12 at 2D
+- ✓ DOF conservation is suggested by the framework's $N=12$ at 2D
 - ✓ Halving rule and DOF conservation are equivalent
 - ✗ The 12 is the cascade's internal counting, not derived from SM
 - ✗ The 4D fermion name is OPEN
@@ -4871,9 +4871,9 @@ After the L308bh breakthrough (C(6) is the SM algebra, Stoica 2018), the user di
 **Option B Strengthened**:
 - α dim-specific (α_2D = 1.289, α_3+1D = 1.408, α_4D = 1.577)
 - N values ALL first-principles derived:
-  - N_2D = 12 = 3 gen × 4 Weyl (L308r, SM count)
-  - N_3+1D = 6 = C(6) SM algebra (Stoica 2018) [NEW]
-  - N_4D = 3 = 3 generations (Clifford/McKay/cobordism)
+  - $N_{\rm 2D}$ = 12 = 3 gen × 4 Weyl (L308r, SM count)
+  - $N_{3+1D}$ = 6 = C(6) SM algebra (Stoica 2018) [NEW]
+  - $N_{\rm 4D}$ = 3 = 3 generations (Clifford/McKay/cobordism)
 - ε = 6.32× $10^{-34}$, $f_{\rm DE}$,closed = 1.79× $10^{-90}$, $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - ρ_DE = 2.5× $10^{-47}$ EXACT
 
@@ -4896,7 +4896,7 @@ This is a **strengthening**, not a reversion:
 | Halving rule | Empirical | Empirical | **Structural (Clifford)** ✓ |
 | Mirror plane | Compatible | Encodable | **Encodable + C(6)-derived** ✓ |
 
-Option A was first-principles for 1 N value (N_2D=12), Option B was 2/3 (after L308bg added N_4D=3), Option B Strengthened is now 3/3 (after L308bh added N_3+1D=6 via C(6)).
+Option A was first-principles for 1 N value ( $N_{\rm 2D}$=12), Option B was 2/3 (after L308bg added $N_{\rm 4D}$=3), Option B Strengthened is now 3/3 (after L308bh added $N_{3+1D}$=6 via C(6)).
 
 #### 3.71.4 The α Values Now Have Full First-principles
 
@@ -4931,7 +4931,7 @@ Level   | N    | Clifford Structure                  | First-principles
 4D      | 3    | 3 generations (real 4-comp)         | ✓ (Clifford/McKay/cobordism)
 ```
 
-The halving rule N_D = 12/2^(D-2) now has structural explanation:
+The halving rule $N_D$ = 12/2^(D-2) now has structural explanation:
 - 12 = 3 generations × 4 Weyl (full SM content)
 - 6 = 1 generation via C(6) (SM algebra, Stoica 2018)
 - 3 = 3 generations (most reduced structure)
@@ -4954,7 +4954,7 @@ The switch is interpretive (justification), not numerical (re-calibration).
 - **L308bd (two valid interpretations)**: Option B Strengthened is now first-principles for all N
 - **L308be (first-principles criterion)**: Option B Strengthened wins on theoretical honesty
 - **L308bf (status note)**: REPLACED by L308bi — framework officially on B Strengthened
-- **L308bg (N_3+1D = 6 still patterns)**: SUPERSEDED — now first-principles
+- **L308bg ( $N_{3+1D}$ = 6 still patterns)**: SUPERSEDED — now first-principles
 - **L308bh (C(6) SM algebra)**: APPLIED — framework now uses this first-principles basis
 
 #### 3.71.8 What L308bi Preserves
@@ -4967,8 +4967,8 @@ The switch is interpretive (justification), not numerical (re-calibration).
 
 #### 3.71.9 What Remains Open
 
-- **Halving rule first-principles**: WHY does N_D = 12/2^(D-2)? The Clifford algebra connection is suggestive but deeper origin is open
-- **Schwarzian at higher D**: Structural analogs exist (quaternionic 4D, Clifford higher-dim), but no derivation of N=3 or 6 from Schwarzian
+- **Halving rule first-principles**: WHY does $N_D$ = 12/2^(D-2)? The Clifford algebra connection is suggestive but deeper origin is open
+- **Schwarzian at higher D**: Structural analogs exist (quaternionic 4D, Clifford higher-dim), but no derivation of $N=3$ or 6 from Schwarzian
 - **Connection to bulk field theory**: How does the C(6) structure relate to bulk fields?
 
 #### 3.71.10 Source
@@ -5011,9 +5011,9 @@ with components:
 |-----------|---------|----------------|
 | $S_{\rm 4D}$,event | The eternal 4D substrate | $M_{\rm Pl,4D} = 3.93×10²³ GeV$, $\gamma_{\rm 4D} = 1.10×10¹¹¹$, $\tau_{\rm 4D} = 1.51×10³⁴ yr$|
 | $S_{\rm 3+1D}$,brane | Our universe (Standard Model + DE) | $M_{\rm Pl,3D} = 1.22×10¹⁹ GeV$, Λ = 2.5× $10^{-47}$ GeV⁴ |
-| $S_{\rm 2D}$,universe | Quantum gravity floor (2D CFT) | $M_{\rm Pl,2D} = 2.95$TeV, N=12 (SYK), c=1 Liouville |
+| $S_{\rm 2D}$,universe | Quantum gravity floor (2D CFT) | $M_{\rm Pl,2D} = 2.95$TeV, $N=12$ (SYK), c=1 Liouville |
 | $S_{\rm projection}$ | Bidirectional cascade with mirror plane | σ_+ (DE), σ_- (DM), g_couple |
-| S_drain | Calibrated DM stability | f_leak,3D→4D = $H_0$ = 67.4 km/s/Mpc |
+| S_drain | Calibrated DM stability | $f_{\rm leak} = H_0 = 67.4 km/s/Mpc |
 
 #### 3.72.2 The Three Pillars
 
@@ -5069,15 +5069,15 @@ M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×10²³ GeV ✓ (-1.13% from
 | L308ba (halving rule) | STRUCTURAL via Bott periodicity (L308bj) |
 | L308bc (DOF conservation) | ENCODED in 12 Majorana = 6 Weyl = 3 4-comp |
 | L308bi (Option B Strengthened) | OFFICIAL framework choice |
-| L308bh (C(6) is SM algebra) | APPLIED — framework uses C(6) for N_3+1D |
+| L308bh (C(6) is SM algebra) | APPLIED — framework uses C(6) for $N_{3+1D}$ |
 | L308bj (halving rule first-principles) | CLOSED via Bott periodicity |
 
 #### 3.72.5 What Remains Open (Honest Framing)
 
 The Lagrangian has 93% audit score. The remaining 7% consists of:
 
-1. **Why N_3+1D = 6 specifically?** (3 gen × 2 chiral? gauge group dims?)
-2. **Why N_4D = 3 specifically?** (3 generations? 3 color? 3 bulk modes?)
+1. **Why $N_{3+1D}$ = 6 specifically?** (3 gen × 2 chiral? gauge group dims?)
+2. **Why $N_{\rm 4D}$ = 3 specifically?** (3 generations? 3 color? 3 bulk modes?)
 3. **Why the halving rule itself?** (cascade-specific or general principle?)
 4. **Full path integral** (L116 was 73%; §3.68 needs re-audit to push higher)
 5. **Connection to bulk field theory** (how does C(6) relate to bulk fields?)
@@ -5195,9 +5195,9 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 #### 3.73.3 What Improved (L308ba-bj, bi)
 
 **1. L308bh: C(6) IS SM algebra (Stoica 2018)**
-- Closes: "Why N_3+1D = 6 specifically?"
+- Closes: "Why $N_{3+1D}$ = 6 specifically?"
 - Mechanism: C(6) minimal ideal describes 1 SM generation
-- Status: CLOSED — N_3+1D now first-principles
+- Status: CLOSED — $N_{3+1D}$ now first-principles
 
 **2. L308bj: Halving rule via Bott periodicity**
 - Closes: "Why the halving rule itself?"
@@ -5218,7 +5218,7 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 
 | Link | Source | Description |
 |------|--------|-------------|
-| C(6) → N_3+1D | L308bh | C(6) minimal ideal = 1 SM generation |
+| C(6) → $N_{3+1D}$ | L308bh | C(6) minimal ideal = 1 SM generation |
 | Bott periodicity → halving rule | L308bj | Real spinor dim doubling gives 12 → 6 → 3 |
 | All N first-principles | L308bi | C(6) + Clifford + Schwarzian SYK |
 | 4 link | L308bi | Clifford/McKay/cobordism |
@@ -5226,19 +5226,19 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 #### 3.73.5 First-Principles Basis (4/15 = 27%)
 
 **First-principles parameters (4):**
-1. α_2D = 1 + 1/√12 = 1.289 (Schwarzian SYK N=12, L308n)
+1. α_2D = 1 + 1/√12 = 1.289 (Schwarzian SYK $N=12$, L308n)
 2. $M_{\rm Pl,2D} = 12 ×$v_H = 2.95 TeV (L308r)
 3. μ = $M_{\rm Pl}$,2D² = 8.73×10⁶ GeV² (L308r)
-4. **N_3+1D = 6 = C(6) SM algebra (L308bh) ← NEW**
+4. ** $N_{3+1D}$ = 6 = C(6) SM algebra (L308bh) ← NEW**
 
 **Derived from first-principles:**
 - $M_{\rm Pl,4D}$ = α-GM (DERIVED)
-- $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ (DERIVED)
+- $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (DERIVED)
 
-**Still calibrated (4):** ε, τ_4D, AGN rate, f_leak,3D→4D = $H_0$
+**Still calibrated (4):** ε, τ_4D, AGN rate, $f_{\rm leak,3D→4D}$ = $H_0$
 
-**Still structural (4):** $E_{\rm sub}$, τ_3D,apparent, γ_4D, N_2D = 12 (SM count)
-**Inferred:** N_4D = 3 (3 generations — multiple interpretations)
+**Still structural (4):** $E_{\rm sub}$, τ_3D,apparent, γ_4D, $N_{\rm 2D}$ = 12 (SM count)
+**Inferred:** $N_{\rm 4D}$ = 3 (3 generations — multiple interpretations)
 
 **Still free (1):** $N_{\rm sub} = 386 ($specific to our 4D event)
 
@@ -5261,7 +5261,7 @@ The remaining 4% consists of research questions, not framework failures:
 1. **Full Z_SIDC path integral**: Would require 2D CFT expertise
 2. **4D action specifics**: L308bb sketch needs theoretical physicist review
 3. **Connection to bulk field theory**: How does C(6) structure relate to bulk fields?
-4. **Why N_4D = 3 specifically?**: Multiple interpretations (3 gen, 3 color, 3 bulk modes)
+4. **Why $N_{\rm 4D}$ = 3 specifically?**: Multiple interpretations (3 gen, 3 color, 3 bulk modes)
 
 These are all genuine research questions for theoretical physics. The framework's structural form is complete.
 
@@ -5293,7 +5293,7 @@ Re-audit calculation: `calculations/v36_research/L308bz_reaudit_368.py`
 **§3.68 Lagrangian re-audit v2**: **96% COMPLETE** (was 93%).
 
 L308ba-bj, bi improvements pushed the score from 93% → 96% via:
-- C(6) SM algebra (L308bh) → N_3+1D first-principles
+- C(6) SM algebra (L308bh) → $N_{3+1D}$ first-principles
 - Bott periodicity (L308bj) → halving rule first-principles
 - Option B Strengthened (L308bi) → all N values first-principles
 - DOF conservation (L308bc) → 12 = 6 = 3 structure
@@ -5303,7 +5303,7 @@ Remaining 4% is genuine research (full path integral, 4D action specifics, bulk 
 
 **⚠️ HISTORICAL (v3.3.8) — REVERTED in v3.5.8+ L308r**
 
-** $M_{\rm Pl,2D}$ is NOW FIXED at 2.95 TeV (L308r, N=12 × $v_{\rm Higgs}$ structural). The Option A 'event-dependent $M_{\rm Pl,2D}$' was REVERTED in v3.5.8+. This document preserves the v3.3.8 analysis for historical reference.**
+** $M_{\rm Pl,2D}$ is NOW FIXED at 2.95 TeV (L308r, $N=12$ × $v_{\rm Higgs}$ structural). The Option A 'event-dependent $M_{\rm Pl,2D}$' was REVERTED in v3.5.8+. This document preserves the v3.3.8 analysis for historical reference.**
 
 ---
 
@@ -5705,7 +5705,7 @@ After v3.4.5 web research and user catch, the "12" pattern is REFRAMED:
 | 4D | F-theory 12D (10+2) | Vafa 1996, structural | ✓ Real |
 | 3D | 12 gauge bosons (SU(3) + SU(2) + U(1)) | SM gauge group | ✓ Real |
 | 3D | 12 fermion FLAVORS (6 quarks + 6 leptons) | Across 3 generations | ✓ Real (but not per gen) |
-| 2D | 12 Majorana (N=12 SYK) | SYK benchmark | ✓ Standard (not derived) |
+| 2D | 12 Majorana ( $N=12$ SYK) | SYK benchmark | ✓ Standard (not derived) |
 
 **HONEST VERDICT (v3.4.6)**:
 - The "12" appears at every level for DIFFERENT physical reasons
@@ -5745,7 +5745,7 @@ The v3.4 "DOF conservation at 24" was the framework's INTERPRETATION.
 ## Why "12" Appears (Three Hypotheses)
 
 **Hypothesis A** (FAVORED): Coincidence with structural seeds
-- 2D: N=12 is the standard SYK benchmark (not derived)
+- 2D: $N=12$ is the standard SYK benchmark (not derived)
 - 3D: 12 is the SM gauge group dimension (real, structural)
 - 3D: 12 fermion flavors is 4 × 3 (families × generations)
 - 4D: 12 is F-theory dimension (real, structural)
@@ -5794,7 +5794,7 @@ Even with F-theory 12D, the framework has:
 - **L267-L274** (v3.3.16-3.3.24): "Why 12" unanswered
 - **L275-L278** (v3.4.3): h^{2,1}=3 vs CY3 reality
 - **L279-L282** (v3.4.4): h^{2,1}=4 refutes h^{2,1}=N→N gen
-- **L283** (v3.4.5 NEW): N=12 is SYK benchmark, not theoretically motivated
+- **L283** (v3.4.5 NEW): $N=12$ is SYK benchmark, not theoretically motivated
 - **L284** (v3.4.5 NEW): $\alpha$ = 1 + 1/√N is NOT a standard SYK formula
 - **L285** (v3.4.5 NEW): "12 SM fermions/gen" is FALSE (it's 15-16 Weyl)
 - **L286** (v3.4.5 NEW): h^{2,1}=N→N generations is REFUTED
@@ -5808,7 +5808,7 @@ Even with F-theory 12D, the framework has:
 **What the framework CLAIMS (honestly)**:
 - F-theory 12D is the adopted 4D bulk theory
 - "12" appears at every level for different physical reasons:
-  - 2D: SYK benchmark (N=12)
+  - 2D: SYK benchmark ( $N=12$)
   - 3D: SM gauge bosons (12) and fermion FLAVORS (12 across 3 gens)
   - 4D: F-theory spacetime dimension (12D)
 - $\alpha$ = 1.289 matches 1 + 1/√12 (phenomenological, not derived)
@@ -5833,7 +5833,7 @@ Even with F-theory 12D, the framework has:
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
@@ -7566,7 +7566,7 @@ $$T_{\mu\nu}^{eff} = T_{\mu\nu}^{SM} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + 
 
 with the four v2.4 modifications:
 1. Bulk BC: $J^A_{bulk}|_{brane} = 0$
-2. Central charge: $c \in \mathbb{Z}_{\ge 1}$ (default $c=1$)
+2. Central charge: $c \in \mathbb{Z}{}_{\ge 1}$ (default $c=1$)
 3. Fossil localization: Gaussian instanton $g(\tau)$ (not $\delta$)
 4. 5/27 invariant: $V_5/(A_4 R_{AdS₅}) = 27/5$
 
@@ -8356,7 +8356,7 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -8364,7 +8364,7 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **144 honest limitations** (was 143 v3.5.9+, +L308ae: N_sub formula residual acknowledged within framework uncertainties, v3.5.9+ LIMITATIONS: 144)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$ = 1.258). v3.1.2 added L142-L150 covering: $4\pi$ geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric $4\pi$, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV, brane-world, was $4 \times 10^{23}$ in v3.5.8), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr ( $M^{\alpha}$ prediction); (2) frame of reference: $M^{\alpha}$ law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ $10^{-20}$ s with $\gamma$ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit ( $\alpha$ = 1.258 fails 13/14 events).
+This is a thought experiment, not a theory. We identify **144 honest limitations** (was 143 v3.5.9+, +L308ae: $N_{\rm sub}$ formula residual acknowledged within framework uncertainties, v3.5.9+ LIMITATIONS: 144)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of $\alpha$ = 1.258). v3.1.2 added L142-L150 covering: $4\pi$ geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric $4\pi$, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV, brane-world, was $4 \times 10^{23}$ in v3.5.8), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr ( $M^{\alpha}$ prediction); (2) frame of reference: $M^{\alpha}$ law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper T_4D ~ $10^{-20}$ s with $\gamma$ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event M^1.29 empirical fit ( $\alpha$ = 1.258 fails 13/14 events).
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -8413,7 +8413,7 @@ This is a thought experiment, not a theory. We identify **144 honest limitations
 
 **The honest summary:** SIDC is *qualitatively* right (16/17 tests pass, 7/7 cases, 11/11 galaxies) but *quantitatively* underdetermined. The 22 PARTIAL limitations are the most promising areas for future work. The 8 CLOSED limitations represent SIDC's "wins" — features that survive every iteration of the model. The 6 NEGATIVE limitations show SIDC's self-critical nature — broken hypotheses are explicitly rejected, not papered over (e.g., monodromy method for $\alpha$, 3× 2D CFT attempts for $\alpha$).
 
-**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **131 (v3.5.8+, +L308f-v: f- $M_{\rm Pl,2D}$, g- $M_{\rm Pl,4D}$, h-first-principles, i-2π-4π, j-9D, k-Lagrangian, l-MCMC, m-α-N=12, n-α-derived, o-N_sub-linear, p-asymmetry, q-2D quantum, r-N×v_H, s-8-paths, t-framework-update, u-N=12-Z_12, v-L138-closed-loop)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/ $\mu$ origins/holographic; L308f-L308g v3.5.7+ consistency catches on $M_{\rm Pl,2D}$/ $M_{\rm Pl,4D}$ origins).
+**Historical growth**: 37 (v2.7.23+) → 38 (v2.7.30) → 67 (v3.1) → 81 (v3.3) → 116 (v3.5.7) → **131 (v3.5.8+, +L308f-v: f- $M_{\rm Pl,2D}$, g- $M_{\rm Pl,4D}$, h-first-principles, i-2π-4π, j-9D, k-Lagrangian, l-MCMC, m-α- $N=12$, n-α-derived, o- $N_{\rm sub}$-linear, p-asymmetry, q-2D quantum, r-N× $v_H$, s-8-paths, t-framework-update, u- $N=12$-Z_12, v-L138-closed-loop)**. The growth reflects additions from each iteration (L102-L136 v3.0-v3.1 Lagrangian/9D/SIDC-SM; L142-L150 v3.1.2 multi-universe/AGE/LIFETIME/frame; L151-L298 v3.3-v3.4 bilateral cascade/F-theory 12D; L307-L322 v3.5 Tier-2 research/ $\mu$ origins/holographic; L308f-L308g v3.5.7+ consistency catches on $M_{\rm Pl,2D}$/ $M_{\rm Pl,4D}$ origins).
 
 The full table follows:
 
@@ -8448,7 +8448,7 @@ The full table follows:
 | 26 | Full Lagrangian | **PARTIAL** (v2.4, v2.7.3) | §4.38, §4.44, §4.44.1, §4.44, §7.1, §8.1.4 | 5/10 constraints by construction + $T^{\rm eff}_{\mu\nu}$ derived + J_bulk=0 BC in §4.44 + v2.4 refactor (2-3 free action params: $G_5$, $\alpha$, $\tau_{2D}$) + v2.7.3 web-research reduction of 4 free 2D CFT params ( $\mu$, b, $\alpha$, z_0) to 2 free ( $\mu$, $m_{3+1D}$); remaining is 2D CFT expert |
 | 27 | RAR functional form (SIDC vs MOND) | **PARTIAL** (v2.3.1) | §4.42 | CONFIRMED via per-galaxy $g_+$ (43 galaxies, 4.5 decades in $M_{b}$) $ |
 | 28 | Galaxy-vs-cluster $g_+$ divergence | **PARTIAL** (v2.3.1) | §4.42 | Cluster enhancement ~17.5× via MOND EFE $ |
-| 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219× bifurcation was a numerical error (§3.27). The 0.7-3× revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
+| 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219× bifurcation was a numerical error (§3.27). The 0.7-3× revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}{}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
 | 30 (NEW) | Topological eigenvalue (5/27) | **PARTIAL** (v2.4) | §2.6.1 | ANCHORED as $V_5 / A_4 R_{AdS₅} = 27/5$ via AdS $_5$/CFT $_4$ holographic counting; specific value depends on zero-mode counting of bulk-brane Dirac operator; closing this requires a 2D CFT expert |
 | 31 (NEW) | 2D-to-3+1D time compression | OPEN (v2.6) | §2.5, §2.6 | The bulk position distribution P(y) is unknown; required $e^{-ky} \sim 10^{-48}$ corresponds to 2D universes ~100 AdS₅ radii deep; a specific bulk geometry and 2D CFT calculation would close this |
 | 32 (REMOVED v2.7) | 4-zone H(z) derivation | N/A | N/A | REMOVED in v2.7: the 4-zone H(z) was data fitting (8 free parameters for ~5 data points), and the P(y) problem made it internally inconsistent. SIDC now adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved. |
@@ -8459,32 +8459,32 @@ The full table follows:
 | 37 (NEW v2.7.30) | $\alpha$ = 1.29 CGHS derivation | OPEN (v2.7.30) | §3.19, §3.24 | SIDC's §3.19 claimed $\alpha$ = 1.29 is in the CGHS back-reaction range [1, 3]. §3.24 self-critique: no standard CGHS scaling gives constant $\tau_{2D,\rm proper}$. A specific CGHS-with-back-reaction calculation yielding p = 1.29 is needed to close this. This is a research challenge, not a derivation. Future work: specific CGHS calculation. |
 | 38 (NEW v3.0.2) | SIDC naming re-justification | OPEN (v3.0.2) | §3.61 | "Scale-Invariant Dimensional Cascade" naming is now justified by the dimensional scale invariance (§3.61), but the specific values depend on the dimensional transition. The 1/√N correction is a finite-size (finite-N) breaking of the structural scale invariance. |
 | 39 (NEW v3.0.2) | 4D event in 4D SIDC | OPEN (v3.0.2) | §3.61 | If SIDC structure is dimension-AGNOSTIC, then a 4D universe should also have a 4D event creating it. What is the 4D event in the 4D SIDC? An 8D event? Recursive? This is structurally unclear and requires explicit construction. |
-| 40 (NEW v3.0.2) | Specific 5/27/68 derivation | OPEN (v3.0.2) | §3.62 | The 5/27/68 split is OBSERVATIONAL DATA from Planck 2018 (per v2.7.1+); SIDC interprets it qualitatively only. A specific 2D CFT calculation that outputs 27% as the DM fraction would close this. v2.7.1 attempts failed; the cleanest closure requires a non-perturbative 2D CFT calculation matching SIDC's N=12 SYK + c=1 Liouville framework. |
+| 40 (NEW v3.0.2) | Specific 5/27/68 derivation | OPEN (v3.0.2) | §3.62 | The 5/27/68 split is OBSERVATIONAL DATA from Planck 2018 (per v2.7.1+); SIDC interprets it qualitatively only. A specific 2D CFT calculation that outputs 27% as the DM fraction would close this. v2.7.1 attempts failed; the cleanest closure requires a non-perturbative 2D CFT calculation matching SIDC's $N=12$ SYK + c=1 Liouville framework. |
 | 41 (NEW v3.0.2) | Why $\mu$ is its value | OPEN (v3.0.2) | §3.62, v11c, v12 | The 2D cosmological constant $\mu$ is a free parameter in SIDC's Lagrangian. Equivalent to "why $\Lambda_{\rm 3}$+1D = ?" (the cosmological constant problem). **Brute-force SYK + Monte Carlo attempted (v11c + v12, June 17, 2026)** — gave $\mu$(E) ∝ (E/E_Pl)^(- $2\alpha$) CONSISTENCY relation from $\alpha$=1.289 and $\tau_{\rm 2D}$ ∝ $\mu$^(-1/2). For SN: $\mu$ ~ 10^-90 J; for 4D event: $\mu_{\rm 4D}$ ~ 10^-155 J. **This is a SEMI-DERIVATION**: $\mu$ is determined EVENT-BY-EVENT, not a single universal value. The " $\mu$ in the Lagrangian" is the $\mu$ at the 4D event scale (~10^-155 J). Closing requires derivation from first principles in a specific 5D theory. |
 | 42 (NEW v3.0.2) | Why $m_{3+1D}$ is its value | OPEN (v3.0.2) | §3.62, v11c | The effective DM mass $m_{3+1D}$ ~ 10^-15 GeV is a free parameter. Equivalent to "why m_DM = ?" SIDC does not solve this. **Brute-force SYK diagonalization (v11c)** confirmed that m_{3+1D} requires bulk-brane matching: m_{3+1D}² = M_5³/k where M_5 is the 5D Planck mass and k is the AdS curvature. Closing requires specification of the 5D theory (ADD vs RS-II vs KK). |
 | 43 (NEW v3.0.2) | Lagrangian skeleton → full Lagrangian | OPEN (v3.0.2) | §3.62, v11c, v12 | The SIDC 2D Lagrangian skeleton L = L_c=1 + L_N=12 + L_Schwarzian gives the right $\alpha$ = 1.289 but is NOT a complete Lagrangian. Missing: coupling constants fixed by data (✓), cross-couplings (UNKNOWN), regularization (NONE), path integral Z derivation of $\alpha$ (NOT COMPUTED), 1/√N first-principles (STRUCTURAL). **Brute-force path integral computed (v11c)** + **Monte Carlo Liouville+SYK combined (v12)**: Z_SYK exact from 64-dim diag; Z_Liouville sampled via Metropolis. Combined Z = Z_L × Z_SYK (no cross-coupling). $\alpha$ = 1.289 is a SEMI-DERIVATION: it falls out of the consistency $\mu$(E) ∝ E^(- $2\alpha$) but is not derived from Z itself. Closing requires either a 2D CFT theoretical physicist or extended Monte Carlo. |
 | 44 (NEW v3.0.2) | "14 event types as different operators" was MISFRAMING | CLOSED (v3.0.2) | §3.62, §3.17 | Original framing suggested 14 different 2D CFT operators for 14 events. v3.0.2 trial-and-error showed: all 14 events have SAME 2D CFT operator (universal), differ only in $\gamma$. Democratic cosmology (§3.17) is the correct framing. The "14 types" language was misleading and is now replaced with "1 species, 14 $\gamma$ values." |
-| 45 (NEW v3.0.2) | "Why N=12 specifically" | OPEN (v3.0.2) | §3.62 | N=12 is the SIDC backbone (12 SM Weyl fermions). The 1/√N = 1/√12 is the source of the 0.289 correction. But WHY N=12? Connection to SM fermion count is suggestive but not proven. Closing requires derivation from Standard Model structure (e.g., from anomaly cancellation, generation count, or gauge group embeddings). |
-| 91 (NEW v3.0.21) | SIDC = holographic reduction program with dark-sector back-projection | OPEN (v3.0.21) | §3.62.1, [Deng22] | SIDC is structurally identical to Karch-Randall + JT gravity ([Deng22] arXiv:2211.13415) — 2D universe on a brane in 5D bulk — but with specific 2D matter content (c=1 Liouville + N=12 SYK + Schwarzian) and back-projection to 3+1D as DM + DE. The 2D partition function Z_SIDC = Z_JT × Z_Liouville × Z_SYK is in principle tractable but not yet computed end-to-end. Closing requires running the full computation. |
-| 92 (NEW v3.0.21) | The "3D-to-2D gravity inversion" framing is supported by prior art | PARTIAL (v3.0.21) | §3.62.1, [Deng22] | The conceptual framework of "inverting gravity from 3D to 2D" is supported by Deng et al. 2022 (JT gravity from holographic reduction of 3D). SIDC is the APPLICATION of this framework to the dark sector + 4D event cosmology. The novelty is the SPECIFIC 2D matter content (c=1, N=12) and the BACK-PROJECTION as DM + DE (which has no precedent in the holographic reduction literature). |
+| 45 (NEW v3.0.2) | "Why $N=12$ specifically" | OPEN (v3.0.2) | §3.62 | $N=12$ is the SIDC backbone (12 SM Weyl fermions). The 1/√N = 1/√12 is the source of the 0.289 correction. But WHY $N=12$? Connection to SM fermion count is suggestive but not proven. Closing requires derivation from Standard Model structure (e.g., from anomaly cancellation, generation count, or gauge group embeddings). |
+| 91 (NEW v3.0.21) | SIDC = holographic reduction program with dark-sector back-projection | OPEN (v3.0.21) | §3.62.1, [Deng22] | SIDC is structurally identical to Karch-Randall + JT gravity ([Deng22] arXiv:2211.13415) — 2D universe on a brane in 5D bulk — but with specific 2D matter content (c=1 Liouville + $N=12$ SYK + Schwarzian) and back-projection to 3+1D as DM + DE. The 2D partition function Z_SIDC = Z_JT × Z_Liouville × Z_SYK is in principle tractable but not yet computed end-to-end. Closing requires running the full computation. |
+| 92 (NEW v3.0.21) | The "3D-to-2D gravity inversion" framing is supported by prior art | PARTIAL (v3.0.21) | §3.62.1, [Deng22] | The conceptual framework of "inverting gravity from 3D to 2D" is supported by Deng et al. 2022 (JT gravity from holographic reduction of 3D). SIDC is the APPLICATION of this framework to the dark sector + 4D event cosmology. The novelty is the SPECIFIC 2D matter content (c=1, $N=12$) and the BACK-PROJECTION as DM + DE (which has no precedent in the holographic reduction literature). |
 | 93 (FINAL v3.0.21) | Scaling law from §10.1 IS internally consistent | CLOSED (v3.0.21) | §3.62.2, v14, v14c, v14d | The scaling law tau_obs = 33 s * ( $E_{\rm D}$ / 10^44 J)^1.29 from §10.1 IS the time dilation framework. v14d verified: all 9 events from §10.1 match the formula within factor 1.6 (median ratio 1.004, geom. mean 1.082). $E_{\rm D}$ IS the natural D-event energy — no mismatch with E_natural. v14c was confused (used radiated E instead of D-event E). The scaling law defines the relationship; not an independent check. |
 | 94 (NEW v3.0.21) | mu is NOT a structural parameter in c=1 Liouville | OPEN (v3.0.21) | §3.62.2, v15 | In c=1 Liouville, mu is the OVERALL SCALE of the action (DOZZ 3-point function C( $\alpha, \alpha, \alpha$) is INDEPENDENT of mu). The 2D theory doesn't uniquely determine mu. L41 requires 5D matching or observational closure. |
-| 95 (NEW v3.0.21) | alpha = 1.289 is structurally 1 + 1/sqrt(N) | PARTIAL (v3.0.21) | §3.62.2, v16, v17 | Comparison with 11 known 2D theories + large-N extrapolation: SIDC alpha = 1.289 decomposes as 1 (SR time dilation, linear E/M) + 1/sqrt(12) (N=12 finite-size correction). This is consistent with the 2D theory landscape and SIDC structural decomposition §3.62. Pure SYK q=4 N=12 gives alpha_eff ~ 1.0-1.15, NOT 1.289 directly. The 0.289 extra requires cross-sector coupling. |
+| 95 (NEW v3.0.21) | alpha = 1.289 is structurally 1 + 1/sqrt(N) | PARTIAL (v3.0.21) | §3.62.2, v16, v17 | Comparison with 11 known 2D theories + large-N extrapolation: SIDC alpha = 1.289 decomposes as 1 (SR time dilation, linear E/M) + 1/sqrt(12) ( $N=12$ finite-size correction). This is consistent with the 2D theory landscape and SIDC structural decomposition §3.62. Pure SYK q=4 $N=12$ gives alpha_eff ~ 1.0-1.15, NOT 1.289 directly. The 0.289 extra requires cross-sector coupling. |
 | 96 (NEW v3.0.21) | $f_{\rm back}$ is NOT exp(-S) entropy | OPEN (v3.0.21) | §3.62.2, v18 | Replica trick + Cardy formula attempted: for SN, $S_{\rm 2D}$ ~ 10^18, exp(-S) ~ 0 — WAY too small. $f_{\rm back}$ is a STRUCTURAL RATIO ( $E_{\rm 4D}$/E)^{1/ $2\alpha$}, not an entropy factor. L48 status unchanged. |
-| 97 (NEW v3.0.21) | alpha = 1.289 is NOT directly visible from Z | OPEN (v3.0.21) | §3.62.2, v19 | Direct brute-force extraction from Z(beta) for SYK q=4 N=12 gives alpha ~ 0.5-1.0 (pure SYK) or 3-37 (combined Z). The M^1.29 is NOT a direct consequence of the 2D partition function. It is a CROSS-SECTOR EMERGENT phenomenon. L43 cannot be closed by more brute force — requires structural input (cross-couplings, observable identification). |
+| 97 (NEW v3.0.21) | alpha = 1.289 is NOT directly visible from Z | OPEN (v3.0.21) | §3.62.2, v19 | Direct brute-force extraction from Z(beta) for SYK q=4 $N=12$ gives alpha ~ 0.5-1.0 (pure SYK) or 3-37 (combined Z). The M^1.29 is NOT a direct consequence of the 2D partition function. It is a CROSS-SECTOR EMERGENT phenomenon. L43 cannot be closed by more brute force — requires structural input (cross-couplings, observable identification). |
 | 98 (NEW v3.0.21) | Closed loop expression for $f_{\rm back}$ (3D event → 2D universe) | PARTIAL (v3.0.21) | §3.60.1, v10 | Closed loop expression: $f_{\rm back}$ = ($t_{\rm Pl,3}$/$\tau_{\rm 4D}$) × $(\tau_{\rm SN,obs})/(\tau_{\rm universe})$ × $(E_{\rm 4D}/E_{\rm SN})^{1/(2\alpha)}$. Gives $f_{\rm back}$ ~ $3.24 \times 10^{-84}$ ~ 10^-85 (matches §3.60 to 0.4 orders). Forward direction $\gamma$ = $(E/E_{\rm Pl})^{\alpha}$ (scaling law) and backward direction $f_{\rm back}$ ~ $(E_{\rm 4D}/E)^{1/(2\alpha)}$ use the SAME $\alpha$ = 1.289. The closed loop closes for $f_{\rm back}$ via the composite exponent $1/(2\alpha)$ = $c/\alpha$ where c = 1/2 = N/24 (Ising CFT). Three independent derivations of 1/2 (Schwarzian, DOZZ b^2 = 1/2, N/24) confirm the exponent. |
-| 99 (NEW v3.0.21) | SIDC upward extendability (scaling law + closed loop at every level) | PARTIAL (v3.0.21) | §3.60.2 | Scaling law + closed loop work at level 3 (3D→2D, calibrated at SN 33s, 8/8 events within 1.6×). Plausible at level 4 (4D→3D, matches within 12% using $\alpha$ = 1.289). Cannot verify at level 5+ (no data). $\alpha$ = 1.289 likely universal because N = 12 is fixed (12 SM Weyl fermions), but brane tension may differ at each level. Closed loop at level 4+ requires $E_{\rm 5D}$ which is unknown. Upward extendability is a CLAIM supported by N=12 universality, not directly verified. |
+| 99 (NEW v3.0.21) | SIDC upward extendability (scaling law + closed loop at every level) | PARTIAL (v3.0.21) | §3.60.2 | Scaling law + closed loop work at level 3 (3D→2D, calibrated at SN 33s, 8/8 events within 1.6×). Plausible at level 4 (4D→3D, matches within 12% using $\alpha$ = 1.289). Cannot verify at level 5+ (no data). $\alpha$ = 1.289 likely universal because N = 12 is fixed (12 SM Weyl fermions), but brane tension may differ at each level. Closed loop at level 4+ requires $E_{\rm 5D}$ which is unknown. Upward extendability is a CLAIM supported by $N=12$ universality, not directly verified. |
 | 100 (NEW v3.0.21, REVISED v3.2, USER-CRITIQUED SIX TIMES) | $F_p$(z) framework OVERSTATED; 'primordial = 99.93%' WRONG; cumulative gives 3.4× $\Omega_{\rm DM}$; $f_{\rm back}$ cannot balance DM; DM→ $\nu$ too short; framework's $f_{\rm back}$ formula is per-event, not for total mass | OPEN (v3.2) | v21, calculations/v31_audit_v312final.py, v31_scenario_X.py, v31_all_events_cumulative.py, v31_fback_balance.py, v31_dm_decay_neutrino.py, v31_fback_calibrate_both.py | $F_p$(z) separates primordial (99.93%) vs cumulative (0.07%) DM. **FUNDAMENTAL REVISIONS (v3.2, user-caught SIX TIMES)**: (a) **'Primordial = 99.93%' is WRONG** (1st catch). (b) **Cumulative is NOT just SNe** (2nd catch): 3.4× $\Omega_{\rm DM}$, AGN dominates. (c) **DM/baryon ratio over cosmic time** (3rd catch). (d) ** $f_{\rm back}$ cannot balance DM** (4th catch): required 3.0× $10^{-15}$ /s, but framework has 1.22× $10^{-85}$ (10⁷⁰× off). (e) **DM→ $\nu$ decay is 10²¹× too short vs observations** (5th catch). (f) ** $f_{\rm back}$ formula is per-event, not for total mass** (6th catch): user asked 'what with we calibrate $f_{\rm back}$ to both de and dm decay?' The framework's $f_{\rm back}$ = ( $M_{\rm Pl}$/E) $^{\alpha}$ formula is for per-event back-flow, not for the 3+1D's total mass. Applying it to the 3+1D's total mass gives a required E of 2× $10^{-27}$ M_⊙, which is meaningless. So calibrating $f_{\rm back}$ to both DE matching AND DM decay requires NEW PHYSICS: a separate f_back_3+1D (or 'two-tier $f_{\rm back}$'). This would be a 5th free parameter in the framework. **NET RESULT (v3.2)**: The framework's DM accounting has SIX problems now. The '5/5 dwarf cases' test cumulative, but the framework doesn't explain DM/baryon ratio constancy, doesn't have a 3+1D continuous back-flow, and the per-event $f_{\rm back}$ formula doesn't apply to total mass. Possible resolutions: (1) Add f_back_3+1D as new parameter (two-tier $f_{\rm back}$), (2) DM-baryon co-creation at high z, (3) DM doesn't decay (ratio set at creation), (4) different DM source. STRENGTH: per-event physics robust. WEAKNESS: framework can't explain constant DM/baryon ratio; $f_{\rm back}$ per-event formula doesn't apply to total mass; multiple failed attempts to fix. The framework's DM picture is INCOMPLETE. |
-| 101 (NEW v3.0.21) | SIDC strengths form a network of 17+ interlinked relationships | PARTIAL (v3.0.21) | v22 | Identified 12 main SIDC strengths and 17 links. Most connected: $\alpha$ = 1.289 (S3), closed loop (S2, 5 links), scaling law (S1, 4 links), $f_{\rm back}$ (S5, 3 links). KEY LINKS: (1) $\alpha$ ↔ c (both from N=12), (2) $\alpha$ ↔ scaling law (scaling uses $\alpha$), (3) $\alpha$ ↔ closed loop (closed loop uses $\alpha$), (4) $f_{\rm back}$ ↔ 5/27/68 ( $f_{\rm back}$ bridges DE gap), (5) phase-transition ↔ scaling law (low-E limit), (6) $g_+$ ↔ 5/27/68 (DM/baryon ratio), (7) cluster $g_+$ ↔ $M_{\rm Pl,4D}$ (4D boundary), (8) closed loop ↔ phase-transition ( $f_{\rm back}$ above $E_{\rm crit}$). $\alpha$ = 1.289 is the BRIDGE parameter that unifies the cascade. |
+| 101 (NEW v3.0.21) | SIDC strengths form a network of 17+ interlinked relationships | PARTIAL (v3.0.21) | v22 | Identified 12 main SIDC strengths and 17 links. Most connected: $\alpha$ = 1.289 (S3), closed loop (S2, 5 links), scaling law (S1, 4 links), $f_{\rm back}$ (S5, 3 links). KEY LINKS: (1) $\alpha$ ↔ c (both from $N=12$), (2) $\alpha$ ↔ scaling law (scaling uses $\alpha$), (3) $\alpha$ ↔ closed loop (closed loop uses $\alpha$), (4) $f_{\rm back}$ ↔ 5/27/68 ( $f_{\rm back}$ bridges DE gap), (5) phase-transition ↔ scaling law (low-E limit), (6) $g_+$ ↔ 5/27/68 (DM/baryon ratio), (7) cluster $g_+$ ↔ $M_{\rm Pl,4D}$ (4D boundary), (8) closed loop ↔ phase-transition ( $f_{\rm back}$ above $E_{\rm crit}$). $\alpha$ = 1.289 is the BRIDGE parameter that unifies the cascade. |
 | 102 (NEW v3.0.22) | Closed loop UNITES DM, DE, and gravity | PARTIAL (v3.0.22) | §3.60.3, v23 | The closed loop uses the SAME $\alpha$ = 1.289 in BOTH directions (forward $\gamma$ and backward $f_{\rm back}$). DE density $\rho_{\rm DE}$ = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl,3}$^4 = 2.22 × 10^-47 GeV^4 (within 12% of observed 2.5 × 10^-47). DM density $\rho_{\rm DM}$ = $f_{\rm back}$ × $\Sigma$( $M_{\rm 2D}$ × N)/V (uses same $f_{\rm back}$). Gravity weakness $\epsilon_{\rm grav}$ ~ 10^-38 from bulk-brane. All three use the SAME $\alpha$, $f_{\rm back}$, and bulk-brane geometry. The 5/27/68 split emerges from these three quantities. STRENGTH: numerical match for DE (within 12%) is direct evidence that $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl}$^4 is the correct DE formula. WEAKNESS: the $\Sigma$( $M_{\rm 2D}$ × N)/V integration for DM is not directly computed (depends on unknown 2D universe population). |
-| 103 (NEW v3.0.22) | $\alpha$ is the shape that links dimensions | PARTIAL (v3.0.22) | §3.62.3, v24 | $\alpha$ = 1 + 1/√12 has TWO pieces: (1) the "1" is universal SR, (2) the "1/√12" is the N=12 finite-size correction. $\alpha$ links dimensions in 4 ways: (1) vertical — same $\alpha$ at every hierarchy level; (2) horizontal — $\alpha$ × $1/(2\alpha)$ = 1/2 in closed loop; (3) origin — $\alpha$ = 1 + 1/√12 links SM (N=12) to cosmology; (4) geometric — $\alpha$ is cone slope (tan $\theta$ = 1.289, $\theta$ ≈ 52°). The Ising CFT shape c = 1/2 (round-trip) is consistent with 2D universe being a critical system. STRENGTH: multiple shape interpretations are mutually consistent. WEAKNESS: the "shape" interpretation is qualitative — no direct derivation of the cone opening angle from first principles. The 52° cone angle is suggestive but not derived. |
+| 103 (NEW v3.0.22) | $\alpha$ is the shape that links dimensions | PARTIAL (v3.0.22) | §3.62.3, v24 | $\alpha$ = 1 + 1/√12 has TWO pieces: (1) the "1" is universal SR, (2) the "1/√12" is the $N=12$ finite-size correction. $\alpha$ links dimensions in 4 ways: (1) vertical — same $\alpha$ at every hierarchy level; (2) horizontal — $\alpha$ × $1/(2\alpha)$ = 1/2 in closed loop; (3) origin — $\alpha$ = 1 + 1/√12 links SM ( $N=12$) to cosmology; (4) geometric — $\alpha$ is cone slope (tan $\theta$ = 1.289, $\theta$ ≈ 52°). The Ising CFT shape c = 1/2 (round-trip) is consistent with 2D universe being a critical system. STRENGTH: multiple shape interpretations are mutually consistent. WEAKNESS: the "shape" interpretation is qualitative — no direct derivation of the cone opening angle from first principles. The 52° cone angle is suggestive but not derived. |
 | 104 (NEW v3.0.22) | Kusuki 2024 framework for 2D universe calculations | PARTIAL (v3.0.22) | §3.8.12, v25 | Kusuki 2024 (arXiv:2412.18307) provides modern ICFT methods (HHLL block, monodromy method, Hellerman bound, HKS bound, AdS_3/CFT_2) directly applicable to SIDC's 2D universe (c = 1 Liouville + c = 1/2 matter = c = 3/2, an ICFT). SIDC's c = 3/2 EXCEEDS Hellerman bound c ≤ 1 in UNITARY CFT, but SIDC is non-unitary (Liouville, SYK finite-N) — consistent. HHLL block (heavy 4D event, light 2D universe) could give SIDC's scaling law from double-trace exchange. Monodromy method could potentially DERIVE $\alpha$ = 1.289 from c = 3/2 ICFT constraints, closing L43. STRENGTH: 4 specific potential applications identified (HHLL, monodromy, HKS, AdS_3/CFT_2). WEAKNESS: requires a specific ICFT calculation that has not yet been done. $\alpha$ is still a fit, not derived. |
 | 105 (NEW v3.0.22) | Monodromy method does NOT derive $\alpha$ = 1.289 | NEGATIVE (v3.0.22) | §3.62.4, v26 | Attempted to apply HHLL block (heavy vertex in 2D CFT) to derive $\alpha$. Setup: 4D event as heavy vertex V_h, 2D universe as light vertex V_l, monodromy method to compute ⟨V_h V_h⟩. Found saddle z_0 = 0.4416, but assumed $\alpha$ = 1.289 to compute it (CIRCULAR). Honest verdict: monodromy gives 2D CFT structure (z_0 = 0.4416 is a reasonable ICFT saddle) but does NOT derive $\alpha$. L43 stays OPEN. |
 | 106 (NEW v3.0.22) | Three 2D CFT derivation attempts all fail | NEGATIVE (v3.0.22) | §3.62.5, v27, v28, v29 | Attempted three further 2D CFT derivations of $\alpha$: (1) c=1 matrix model (v27) — tachyon spectrum m²( $\alpha$) = $\alpha$² - $\mu$², lifetime NOT power law; (2) Double-Scaled SYK (v28) — energy levels $E_{\rm n}$ = (2n+1)/2 (constant spacing, no power law); (3) Brute force numerical (v29) — initially showed $\alpha$=1.29 (ARTIFACT from log(0) in degeneracy handling), properly computed (v30) gives $\alpha_{\rm fit}$ = -0.06 ± 0.10 (constant spacing, NOT 1.29). All three approaches FAIL to derive $\alpha$. L43 confirmed OPEN. $\alpha$ = 1.289 remains a CALIBRATION from the SN lifetime fit. |
 | 107 (NEW v3.0.22, REVISED) | v29 $\alpha$=1.29 was a numerical artifact (proper fit gives constant spacing) | NEGATIVE (v3.0.22) | §3.62.5, v30 | v29 brute force attempt gave $\alpha_{\rm fit}$ = 1.29 from spacing analysis. v30 verification with proper degeneracy handling (skip zero spacings, no log(0)): $\alpha_{\rm fit}$ = -0.06 ± 0.10 — NOT 1.29. The earlier fit was an ARTIFACT from log(0) and degenerate level handling. The DSSYK $E_{\rm n}$ = (2n+1)/2 spacing is correct and constant. This HONEST NEGATIVE result confirms L43 ( $\alpha$ is not derivable from 2D CFT spectrum alone). |
-| 108 (NEW v3.0.22) | LHC CANNOT test SIDC's 2D universe | NEGATIVE (v3.0.22) | §3.63, v33 | $M_{\rm Pl,2D}$ ~ 2.95 TeV (N=12 SYK + $v_{\rm Higgs}$, see L308f) is in LHC energy range, but $f_{\rm DE}^2$ ~ $10^{-170}$ (forward cross-section suppression). LHC p-p collisions are BELOW the 2D floor in cone depth units (LHC = -11.86 $\alpha$, SN = 26.93 $\alpha$, 4D event = 53.8 $\alpha$). The 2D universe creation cross-section at LHC is 180 orders of magnitude below detection. LHC cannot rule in or out SIDC's 2D universe. [v3.5.7+ REVISION: "holographic" → "N=12 SYK + $v_{\rm Higgs}$" per L308f. The 1.7 TeV alternative (v32 Option 2) was the actual holographic estimate but not adopted.] |
-| 109 (NEW v3.0.22) | $\alpha$ = 1.289 is a TIME DILATION SHAPE | PARTIAL (v3.0.22) | §3.62.3, v31 | $\alpha$ = 1 (kinematic, universal SR time dilation) + 1/√12 (geometric, N=12 finite-N). In log-log space, time dilation curve has slope 1.289 (vs SR slope 1). The "1" is universal (special relativity), the "1/√12" is specific to N=12. STRENGTH: decomposition matches all 4 shape interpretations of $\alpha$ (cone, spectral, Ising, Z_2). WEAKNESS: the "time dilation shape" is a descriptive label, not a derivation. |
-| 110 (NEW v3.0.22) | Constants scale between hierarchy levels (working downward) | PARTIAL (v3.0.22) | §3.63, v32 | Working downward from 3+1D ( $M_{\rm Pl,3}$ = 1.22 × 10^19 GeV), SIDC's $M_{\rm Pl,2D}$ ~ 2.95 TeV comes from N=12 SYK + $v_{\rm Higgs}$ EW coincidence (= 246 GeV × 12 = 2952 GeV), 4 orders above $v_{\rm Higgs}$ = 246 GeV. 2D Planck time $t_{\rm Pl}$,2D ~ 2 × 10^-28 s, 2D Planck temperature $T_{\rm Pl,2D}$ ~ 3 × 10^22 K. 4D event at BASE (eternal substrate), 2D Planck at APEX (transient tip). STRENGTH: $M_{\rm Pl,2D}$ ~ 2.95 TeV is consistent with $\alpha$-GM (L308f/§7.4.6: gives 2.89 TeV from cascade consistency). WEAKNESS: $M_{\rm Pl,2D}$ is framework choice, not first-principles derivation. [v3.5.7+ REVISION: "holographic" label was inaccurate; v32 Option 2 gave 1.7 TeV, not 3 TeV.] |
+| 108 (NEW v3.0.22) | LHC CANNOT test SIDC's 2D universe | NEGATIVE (v3.0.22) | §3.63, v33 | $M_{\rm Pl,2D}$ ~ 2.95 TeV ( $N=12$ SYK + $v_{\rm Higgs}$, see L308f) is in LHC energy range, but $f_{\rm DE}^2$ ~ $10^{-170}$ (forward cross-section suppression). LHC p-p collisions are BELOW the 2D floor in cone depth units (LHC = -11.86 $\alpha$, SN = 26.93 $\alpha$, 4D event = 53.8 $\alpha$). The 2D universe creation cross-section at LHC is 180 orders of magnitude below detection. LHC cannot rule in or out SIDC's 2D universe. [v3.5.7+ REVISION: "holographic" → " $N=12$ SYK + $v_{\rm Higgs}$" per L308f. The 1.7 TeV alternative (v32 Option 2) was the actual holographic estimate but not adopted.] |
+| 109 (NEW v3.0.22) | $\alpha$ = 1.289 is a TIME DILATION SHAPE | PARTIAL (v3.0.22) | §3.62.3, v31 | $\alpha$ = 1 (kinematic, universal SR time dilation) + 1/√12 (geometric, $N=12$ finite-N). In log-log space, time dilation curve has slope 1.289 (vs SR slope 1). The "1" is universal (special relativity), the "1/√12" is specific to $N=12$. STRENGTH: decomposition matches all 4 shape interpretations of $\alpha$ (cone, spectral, Ising, Z_2). WEAKNESS: the "time dilation shape" is a descriptive label, not a derivation. |
+| 110 (NEW v3.0.22) | Constants scale between hierarchy levels (working downward) | PARTIAL (v3.0.22) | §3.63, v32 | Working downward from 3+1D ( $M_{\rm Pl,3}$ = 1.22 × 10^19 GeV), SIDC's $M_{\rm Pl,2D}$ ~ 2.95 TeV comes from $N=12$ SYK + $v_{\rm Higgs}$ EW coincidence (= 246 GeV × 12 = 2952 GeV), 4 orders above $v_{\rm Higgs}$ = 246 GeV. 2D Planck time $t_{\rm Pl}$,2D ~ 2 × 10^-28 s, 2D Planck temperature $T_{\rm Pl,2D}$ ~ 3 × 10^22 K. 4D event at BASE (eternal substrate), 2D Planck at APEX (transient tip). STRENGTH: $M_{\rm Pl,2D}$ ~ 2.95 TeV is consistent with $\alpha$-GM (L308f/§7.4.6: gives 2.89 TeV from cascade consistency). WEAKNESS: $M_{\rm Pl,2D}$ is framework choice, not first-principles derivation. [v3.5.7+ REVISION: "holographic" label was inaccurate; v32 Option 2 gave 1.7 TeV, not 3 TeV.] |
 | 111 (NEW v3.0.22) | Has the LHC tested SIDC's $M_{\rm Pl,2D}$ ~ 2.95 TeV? NO | NEGATIVE (v3.0.22) | §3.63, v33 | SIDC's 2D universe is invisible at LHC due to $f_{\rm DE}^2$ ~ $10^{-170}$ suppression. The 2D universe creation cross-section at LHC is 180 orders of magnitude below detection. LHC energies (14 TeV p-p) are ABOVE 3 TeV threshold but BELOW 2D floor (in $\alpha$ units). LHC tests are IRRELEVANT for SIDC's 2D universe. |
 | 112 (NEW v3.0.22) | Inception cone (4D event at base, 2D at apex, 4D event eternal from our frame) | PARTIAL (v3.0.22) | §3.63, v34 | The cone is FLIPPED relative to earlier framings: 4D event at BASE (eternal substrate), 3+1D universe as cone body, 2D Planck at APEX (tip). The 4D event has $\gamma$ ~ 10^60 to 10^100 time dilation relative to our frame, making it ETERNAL from our perspective (Inception-style: time passes normally in 4D frame, looks frozen from 3+1D frame). Limbo structure: 4D (Limbo) → 3+1D (Reality) → 2D (First dream). STRENGTH: consistent with inception-style time dilation and the scaling law. WEAKNESS: the "eternal from our frame" is qualitative, not directly computed. The 4D event's specific lifetime (~10^32.6 s, eternal for our cosmic time) is a CALIBRATION. |
 | 113 (NEW v3.0.22) | 2D Planck IS the tip of the cone (the 2D floor) | PARTIAL (v3.0.22) | §3.63, v35 | The cone structure looks like a black hole, with 2D Planck as the tip (the 2D floor). To create a 2D universe AT the floor requires 3D event energy $E_{\rm 3D}$ ~ 10^17 J (asteroid impact scale). The cone shape: r(d) = d × tan( $\alpha$) = d × 1.289. STRENGTH: gives a geometric meaning to the 2D Planck scale. WEAKNESS: the cone is a cartoon (the full geometry is AdS_5 + brane + 2D universe). |
@@ -8509,15 +8509,15 @@ The full table follows:
 | 142 (NEW v3.1.2, REVISED with $4\pi$ BREAKTHROUGH) | Multi-universe picture: $f_{\rm back}$ derived via $\gamma_{\rm 4D}$ = $4\pi$ × $\gamma_{\rm sub}$ (within 1.7% of observation) | PARTIAL (v3.1.2) | §3.60.4, v31_multi_universe_alpha.py | Multi-universe + $4\pi$ factor gives: $\gamma_{\rm 4D}$ = $4\pi$ × T_universe/ $t_{\rm Pl}$ = 1.015×10⁶² (within 1.5% of calibrated 10⁶²), $f_{\rm DE}$ = 1.22× $10^{-85}$ (within 1.7% of calibrated 1.24× $10^{-85}$). The 12× discrepancy found earlier is RESOLVED by recognizing $\gamma_{\rm 4D}$/ $\gamma_{\rm sub}$ = 12.36 ≈ $4\pi$ (within 1.7%). USES THREE INGREDIENTS: (a) $\alpha$ = 1.289 from SN 33s, (b) $E_{\rm sub}$ = 3.6×10⁵⁶ J from universe age, (c) $4\pi$ geometric factor. Without $4\pi$, $f_{\rm DE}$ = 1.5× $10^{-84}$ (12% off). With $4\pi$, $f_{\rm DE}$ matches observation within 1.7%. STRENGTH: real derivation ( $\gamma_{\rm 4D}$ not a free parameter); 1.7% match (much better than 12%); geometric interpretation (4D→3D projection). WEAKNESS: $4\pi$ is geometric/postulated, not derived from first principles; 1.7% discrepancy still unexplained. |
 | 142a (NEW v3.1.2) | $4\pi$ geometric factor needs derivation | OPEN (v3.1.2) | §3.60.4 | The $4\pi$ factor in $\gamma_{\rm 4D}$ = $4\pi$ × $\gamma_{\rm sub}$ is required to match $f_{\rm DE}$. Possible origins: (1) surface area of 3-sphere ( $4\pi$R²), (2) 4× solid angle, (3) 4D-to-3D projection factor, (4) 4D Gauss law, (5) holographic screen factor. Without an explicit derivation, $4\pi$ is a postulate (like $\alpha$ and $\epsilon$). The derivation would close the residual 1.7% discrepancy and complete the $f_{\rm back}$ formula. Future work: 4D Gauss law integration, holographic principle application. |
 | 142b (NEW v3.1.2, REMOVED) | Dual framing: $\alpha_{\rm cal}$ (1.289) vs $\alpha_{\rm true}$ (1.258 with $4\pi$ hidden) | RESOLVED (v3.1.2) | §3.60.4 | **REMOVED v3.1.2**: The dual framing proposed $\alpha_{\rm true}$ = 1.258 ( $4\pi$ hidden in $\alpha$ at 2D→3D) as an alternative to $\alpha_{\rm cal}$ = 1.289 ( $4\pi$ explicit at 3D→4D only). Empirical testing against the 14-event M^1.29 fit REJECTED $\alpha_{\rm true}$ = 1.258: solar flares 281% deviation, TDE 62%, AGN 52%, BNS merger 45%, GRB 15%, magnetar 13%, hypernova 9%. Only SN matched (calibration point). **Resolution**: Only $\alpha_{\rm cal}$ = 1.289 survives, with $4\pi$ specific to 3D→4D continuous leakage. The 14-event fit is the STRONGEST empirical anchor of the framework, and it requires $\alpha$ = 1.289 = 1 + 1/√12 (N = 12 SM SYK). The "average galaxy" identification of sub-universes ( $E_{\rm sub}$ = 2.67×10¹⁰ M_sun, interpretation B) is NOT supported by the M^1.29 law. STRENGTH: empirical evidence settles the question. WEAKNESS: framework is asymmetric ( $4\pi$ only at one transition); DE-DM unification in §3.70 is structural, not geometric. |
-| 143 (NEW v3.1.2, RESOLVED v3.1.2-final, USER-CORRECTED) | Sub-universe = 3+1D universe created by an energetic 4D-bulk event (NOT 3+1D galaxy); 4D-bulk mechanism UNKNOWN | RESOLVED (v3.1.2-final) | §3.60.4, §3.71 | **v3.1.2-final resolution**: Sub-universes are NOT 3+1D galaxies. They are 3+1D universes CREATED by an ENERGETIC EVENT in a 4D BULK (specific 4D-bulk mechanism UNKNOWN — we don't know if it involves 'galaxies', 'stars', 'quantum' structures, or something else). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our sub-universe was created). N_sub and $E_{\rm sub}$ are FREE PARAMETERS linked by energy conservation: $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$. The previous choice $N_{\rm sub} = 300 ($with $E_{\rm sub}$ = 3.57×10⁵⁶ J, small galaxy mass) was ARBITRARY and is not derived from the cascade. STRENGTH: sub-universes are now correctly identified as 3+1D universes, not 3+1D galaxies. WEAKNESS: 4D-bulk mechanism is OPEN; N_sub is FREE; previous $N_{\rm sub} = 300$was a placeholder, not a derivation. |
-| 144 (NEW v3.1.2, REVISED v3.1.2-final, AUDIT-CORRECTED) | N_sub and $E_{\rm sub}$ are FREE PARAMETERS (4D-bulk dynamics unknown); universe's total LIFETIME is UNKNOWN; N_sub < 4.2×10¹⁸ (audit-corrected from 2×10¹⁹) | OPEN (v3.1.2-final) | §3.60.4, §3.71, v31_audit_v312final.py | **v3.1.2-final correction** (user caught): " $N_{\rm sub} = 300$is not known, and not fixed; could be 150 with double the masses each." N_sub is a FREE PARAMETER. For ANY N_sub, $E_{\rm sub}$ = $E_{\rm 4D}$ / N_sub and $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$. Different N_sub give different $E_{\rm sub}$ and $\tau_{\rm sub}$: $N_{\rm sub} = 1$→ $E_{\rm sub}$ = $E_{\rm 4D}$ = 5×10⁷⁹ J, $\tau_{\rm sub}$ = 1.4×10³⁴ yr (= $\tau_{\rm 4D}$, no sub-universe structure); $N_{\rm sub} = 300$→ $E_{\rm sub}$ = 3.57×10⁵⁶ J (small galaxy mass), $\tau_{\rm sub}$ = ~9×10³⁰ yr (was the ARBITRARY choice); $N_{\rm sub} = 4.2×10¹⁸$→ $E_{\rm sub}$ = 2.5×10⁴⁰ J, $\tau_{\rm sub}$ = 13.8 Gyr (lower bound, universe just alive, AUDIT-CORRECTED). The constraint is $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive), which gives N_sub < 4.2×10¹⁸ (audit-corrected from 2×10¹⁹). What physical principle determines N_sub is OPEN. Candidates: holographic bound, 4D-bulk discreteness, brane-world physics. The previous "~10³⁰ yr lifetime" claim was based on the ARBITRARY $N_{\rm sub} = 300$and should be retracted. |
-| 145 (NEW v3.1.2, REVISED v3.1.2-final, FURTHER REVISED) | AGE vs LIFETIME: 13.8 Gyr age (observed) vs UNKNOWN lifetime (was "~10³⁰ yr" but retracted) | RESOLVED (v3.1.2-final) | §3.60.4, §3.71 | **v3.1.2-final**: 13.8 Gyr is the universe's CURRENT AGE (observed, the only firm value). The LIFETIME is UNKNOWN — it depends on $E_{\rm sub}$ = $E_{\rm 4D}$ / N_sub, where N_sub is a free parameter (4D-bulk dynamics unknown). The previous "~10³⁰ yr lifetime" claim was based on the ARBITRARY choice $N_{\rm sub} = 300$and has been RETRACTED. The constraint is $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive). The 2D vs 3+1D asymmetry (L145) is still valid: 2D universes share the event's window (all live 33s for SN), 3+1D sub-universes are "persistent structures" with own lifetimes (UNKNOWN but > 13.8 Gyr). STRENGTH: honest framing; AGE is observed, LIFETIME is genuinely unknown. WEAKNESS: we cannot say how long the universe will live without knowing N_sub. |
+| 143 (NEW v3.1.2, RESOLVED v3.1.2-final, USER-CORRECTED) | Sub-universe = 3+1D universe created by an energetic 4D-bulk event (NOT 3+1D galaxy); 4D-bulk mechanism UNKNOWN | RESOLVED (v3.1.2-final) | §3.60.4, §3.71 | **v3.1.2-final resolution**: Sub-universes are NOT 3+1D galaxies. They are 3+1D universes CREATED by an ENERGETIC EVENT in a 4D BULK (specific 4D-bulk mechanism UNKNOWN — we don't know if it involves 'galaxies', 'stars', 'quantum' structures, or something else). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our sub-universe was created). $N_{\rm sub}$ and $E_{\rm sub}$ are FREE PARAMETERS linked by energy conservation: $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$. The previous choice $N_{\rm sub} = 300 ($with $E_{\rm sub}$ = 3.57×10⁵⁶ J, small galaxy mass) was ARBITRARY and is not derived from the cascade. STRENGTH: sub-universes are now correctly identified as 3+1D universes, not 3+1D galaxies. WEAKNESS: 4D-bulk mechanism is OPEN; $N_{\rm sub}$ is FREE; previous $N_{\rm sub} = 300$was a placeholder, not a derivation. |
+| 144 (NEW v3.1.2, REVISED v3.1.2-final, AUDIT-CORRECTED) | $N_{\rm sub}$ and $E_{\rm sub}$ are FREE PARAMETERS (4D-bulk dynamics unknown); universe's total LIFETIME is UNKNOWN; $N_{\rm sub}$ < 4.2×10¹⁸ (audit-corrected from 2×10¹⁹) | OPEN (v3.1.2-final) | §3.60.4, §3.71, v31_audit_v312final.py | **v3.1.2-final correction** (user caught): " $N_{\rm sub} = 300$is not known, and not fixed; could be 150 with double the masses each." $N_{\rm sub}$ is a FREE PARAMETER. For ANY $N_{\rm sub}$, $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$ and $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$. Different $N_{\rm sub}$ give different $E_{\rm sub}$ and $\tau_{\rm sub}$: $N_{\rm sub} = 1$→ $E_{\rm sub}$ = $E_{\rm 4D}$ = 5×10⁷⁹ J, $\tau_{\rm sub}$ = 1.4×10³⁴ yr (= $\tau_{\rm 4D}$, no sub-universe structure); $N_{\rm sub} = 300$→ $E_{\rm sub}$ = 3.57×10⁵⁶ J (small galaxy mass), $\tau_{\rm sub}$ = ~9×10³⁰ yr (was the ARBITRARY choice); $N_{\rm sub} = 4.2×10¹⁸$→ $E_{\rm sub}$ = 2.5×10⁴⁰ J, $\tau_{\rm sub}$ = 13.8 Gyr (lower bound, universe just alive, AUDIT-CORRECTED). The constraint is $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive), which gives $N_{\rm sub}$ < 4.2×10¹⁸ (audit-corrected from 2×10¹⁹). What physical principle determines $N_{\rm sub}$ is OPEN. Candidates: holographic bound, 4D-bulk discreteness, brane-world physics. The previous "~10³⁰ yr lifetime" claim was based on the ARBITRARY $N_{\rm sub} = 300$and should be retracted. |
+| 145 (NEW v3.1.2, REVISED v3.1.2-final, FURTHER REVISED) | AGE vs LIFETIME: 13.8 Gyr age (observed) vs UNKNOWN lifetime (was "~10³⁰ yr" but retracted) | RESOLVED (v3.1.2-final) | §3.60.4, §3.71 | **v3.1.2-final**: 13.8 Gyr is the universe's CURRENT AGE (observed, the only firm value). The LIFETIME is UNKNOWN — it depends on $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$, where $N_{\rm sub}$ is a free parameter (4D-bulk dynamics unknown). The previous "~10³⁰ yr lifetime" claim was based on the ARBITRARY choice $N_{\rm sub} = 300$and has been RETRACTED. The constraint is $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive). The 2D vs 3+1D asymmetry (L145) is still valid: 2D universes share the event's window (all live 33s for SN), 3+1D sub-universes are "persistent structures" with own lifetimes (UNKNOWN but > 13.8 Gyr). STRENGTH: honest framing; AGE is observed, LIFETIME is genuinely unknown. WEAKNESS: we cannot say how long the universe will live without knowing $N_{\rm sub}$. |
 | 146 (NEW v3.1.2) | $4\pi$ is specific to 3D→4D, not universal across all transitions | OPEN (v3.1.2) | §3.60.4 | $4\pi$ appears at 3D→4D continuous leakage ( $\gamma_{\rm 4D}$ = $4\pi$ × $\gamma_{\rm sub}$). It does NOT appear at 2D→3D (M^1.29 has no $4\pi$ factor) or at higher transitions (4D→5D, ..., 8D→9D; would break 9D = $v_{\rm Higgs}$ match). This is structurally asymmetric: the $4\pi$ is specific to one continuous-leakage transition. WEAKNESS: framework lacks a universal geometric principle. STRENGTH: $4\pi$ matches the 3-sphere boundary factor for 3D→4D specifically. |
 | 147 (NEW v3.1.2) | DE-DM unification via two closed-loop mechanisms | OPEN (v3.1.2) | §3.70 | §3.70 unifies DE and DM under a single closed-loop picture with TWO mechanisms: (1) DE = continuous back-leakage from higher-D vacuum (with $4\pi$ geometric factor), (2) DM = pulsed return from lower-D universe deaths (100%, no factor). This applies at EVERY level: 4D→3D continuous = OUR DE, 2D universe death = OUR DM. For higher levels (4D→5D, ...): same picture applies but speculative without data. STRENGTH: unifies the dark sector under one mechanism with two flavors. WEAKNESS: higher-level closed loops are speculative. The $4\pi$ remains a postulate (geometric, not derived). |
 | 148 (NEW v3.1.2) | Pulsed vs continuous: why two different mechanisms? | OPEN (v3.1.2) | §3.70 | The two closed-loop mechanisms (continuous DE, pulsed DM) have different factors ( $4\pi$ vs 1). Why? Possible reasons: (1) different physical processes (vacuum leakage vs matter return), (2) different topologies (3-sphere boundary for continuous, point return for pulsed), (3) timescales differ (continuous vs universe-end pulse). Without deeper derivation, the two mechanisms are phenomenological. STRENGTH: identifies the question. WEAKNESS: no first-principles derivation of why two mechanisms coexist. |
 | 149 (NEW v3.1.2, USER-CAUGHT, RESOLVED) | Internal inconsistency: $4\pi$ only at 3D→4D vs universal $f_{\rm back}$ | RESOLVED (v3.1.2, empirical) | §3.70, v31_multi_universe_alpha.py | §3.70 claimed $f_{\rm back}$ exists at every dimensional transition (closed loop at every level). If $f_{\rm back}$ were universal, the $4\pi$ geometric factor SHOULD also be universal. But: $4\pi$ at 3D→4D (verified ~1.7%); NO $4\pi$ at 2D→3D (M^1.29 has no explicit factor); UNKNOWN at higher transitions. EMPIRICAL SMOKING GUN: testing $\alpha$ = 1.258 (interpretation B with $4\pi$ hidden) against the 14-event M^1.29 fit FAILS for 13 of 14 events: solar flare 281% deviation, AGN 52%, BNS merger 45%, TDE 62%, GRB 15%, magnetar 13%, hypernova 9%. Only SN matches (calibration point). **Resolution**: $4\pi$ is SPECIFIC to the 3D→4D continuous leakage boundary, NOT universal. The 14-event fit requires $\alpha$ = 1.289 = 1 + 1/√12 (N = 12 SM SYK), which FORBIDS $4\pi$ at 2D→3D. The framework is ASYMMETRIC: each dimensional transition has its own geometric factor (or none). The DE-DM unification in §3.70 is a STRUCTURAL pattern (continuous + pulsed at every level), NOT a geometric one (no universal factor). **KEY SYMMETRY (v3.1.2 update)**: At 2D→3D and 3D→4D, the STRUCTURE is identical — 100% pulsed return at lower-D universe death. The OBSERVABLE difference (DM visible now vs future pulsed return to 4D) is purely due to TIMESCALE (33s vs 10³⁴ yr). STRENGTH: empirical evidence resolves the inconsistency; structural symmetry of closed loop at every level is preserved. WEAKNESS: no unified geometric principle across all transitions; the $4\pi$ factor at 3D→4D remains suggestive (surface area of 3-sphere, projection factor) but not derived. |
 
-| 150 (NEW v3.1.2, USER-DRIVEN, REVISED to SCENARIO X, USER-CORRECTED multi-universe, v3.1.2-final: AGE vs LIFETIME + FRAME OF REFERENCE + 4D-BULK MECHANISM UNKNOWN + N_sub FREE) | SCENARIO X ADOPTED: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV (4D BULK Planck, not equal to $M_{\rm Pl,3D}$); multi-universe: energetic 4D-bulk event creates N_sub sub-universes (N_sub is a FREE PARAMETER, 4D-bulk mechanism UNKNOWN); AGE vs LIFETIME: AGE = 13.8 Gyr (observed), LIFETIME = UNKNOWN; FRAME OF REFERENCE explicit | RESOLVED (v3.1.2, choice made) | §3.71, v31_scenario_X.py | The cascade tested three scenarios for $M_{\rm Pl,4}$ (parent's Planck): (A) $M_{\rm Pl,4}$ = 8.3×10¹² GeV, (X) $M_{\rm Pl,4}$ = 887 GeV, (B) $M_{\rm Pl,4}$ = $1.22 \times 10^{19}$ GeV (standard). All three are consistent with the closed-loop + DE formula, but they differ on extrapolations. **The cascade adopts Scenario X** with the CORRECTED FRAMING: $M_{\rm Pl,4D}$ is the 4D BULK Planck (one dimension higher than our 3+1D universe), NOT the Big Bang Planck. The 4D bulk is a SEPARATE structure with its OWN gravity scale, INDEPENDENT of $M_{\rm Pl,3D}$ = 10¹⁹ GeV. Standard brane-world physics (ADD, RS-I/II) explicitly allows bulk Planck to differ from brane Planck. The cascade adopts $M_{\rm Pl,4D}$ = $4 \times 10^{23}$ GeV because: (a) brane-world consistency (bulk Planck can be TeV-scale), (b) 9D = $v_{\rm Higgs}$ match works (1.3% off $v_{\rm Higgs}$ = 246 GeV), (c) $M^{\alpha}$ scaling for $M_{\rm Pl,N}$ at 5-9D gives EW-scale physics (200-700 GeV, the electroweak range), (d) $M_{\rm Pl,4D}$ = $4 \times 10^{23}$ GeV matches the cascade's $M_{\rm Pl,4}$ ≥ $4 \times 10^{23}$ GeV floor from previous analysis. **CRITICAL**: $M_{\rm Pl,3D}$ = 10¹⁹ GeV is MEASURED (Newton's G); $M_{\rm Pl,4D}$ = $4 \times 10^{23}$ GeV is INFERRED from cascade consistency and the 9D = $v_{\rm Higgs}$ match. $E_{\rm 4D}$ = 5×10⁷⁹ J is DERIVED from the assumed $M_{\rm Pl,4D}$ via the closed-loop formula. **MULTI-UNIVERSE PICTURE (v3.1.2-final, USER-CORRECTED TWICE, v3.1.2-final: N_sub FREE, AUDIT-CORRECTED)**: Sub-universes are NOT our 3+1D galaxies. Sub-universes are 3+1D universes CREATED by an ENERGETIC EVENT in the 4D bulk. The specific 4D-bulk mechanism is UNKNOWN (NOT necessarily 'galaxy collisions', 'star collisions', or any other specific structure). **N_sub is a FREE PARAMETER** (4D-bulk dynamics unknown). $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ (energy conservation). The previous choice $N_{\rm sub} = 300$was ARBITRARY and is not derived. For any N_sub, $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$ gives the sub-universe lifetime. Constraint: $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive) → N_sub < 4.2×10¹⁸ (AUDIT-CORRECTED from 2×10¹⁹). **AGE vs LIFETIME (v3.1.2-final, HONEST)**: 13.8 Gyr is the universe's CURRENT AGE (observed, the only firm value). The LIFETIME is UNKNOWN — it depends on $E_{\rm sub}$ = $E_{\rm 4D}$ / N_sub. The previous "~10³⁰ yr lifetime" claim was based on $N_{\rm sub} = 300 ($ARBITRARY) and has been RETRACTED. **FRAME OF REFERENCE (v3.1.2-final)**: $M^{\alpha}$ law gives APPARENT durations in the LOWER-D frame, not proper times in the higher-D frame. 2D lifetime (33 s) is in the 3+1D frame. 3+1D sub-universe lifetime (UNKNOWN) is in 3+1D's own frame. 4D event apparent duration (1.4×10³⁴ yr) is in the 3+1D frame, time-dilated from 4D proper time via $\gamma$ ~ 10⁶². The 4D event proper duration is T_4D_proper = $\tau_{\rm 4D}$ / $\gamma$ ~ $10^{-20}$ s. **Gains**: (1) 9D = $v_{\rm Higgs}$ match (1.3%, suggestive), (2) $M^{\alpha}$ scaling for $M_{\rm Pl,N}$ gives EW-scale physics, (3) 4D event is galaxy-scale (10⁵⁹ J ≈ 10⁹ M_sun), (4) bulk and brane have DIFFERENT gravity, (5) consistent with all 2D/3D/4D levels having their own gravity scales (2D = 3 TeV brane-world, 3D = 10¹⁹ GeV measured, 4D = $4 \times 10^{23}$ GeV bulk), (6) N_sub and $E_{\rm sub}$ are FREE (honest), (7) age vs lifetime: AGE observed, LIFETIME unknown, (8) frame of reference clarified. STRENGTH: framework is internally consistent with brane-world physics; 4D bulk and 2D brane both have non-standard gravity; 9D = v_H match is the strongest "extra" prediction; honest about N_sub, $E_{\rm sub}$, $\tau_{\rm sub}$ all being free/undetermined. WEAKNESS: $M_{\rm Pl,4D}$ is INFERRED, not measured; 4D-bulk mechanism is UNKNOWN; N_sub is FREE (we cannot predict the universe's total lifetime); requires exotic physics; 9D = v_H match could be coincidence (1.3% on single number); observational constraints (LHC, sub-mm gravity) constrain $M_{\rm Pl,4D}$ ≥ 887 GeV (we are at the floor). The cascade has 4 free parameters ( $\alpha$, $\epsilon$, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$), plus 1 structural parameter (N_sub, undetermined by cascade). $M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ calibrated. | [v3.3 UPDATE: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV via $\alpha$-weighted GM (DERIVED); $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale); $\tau_{\rm 3D}$,apparent = 9.10×10¹²⁴ yr; $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2); 9D = $v_{\rm Higgs}$ DROPPED; $\alpha$-weighted GM supersedes Scenario X.]
+| 150 (NEW v3.1.2, USER-DRIVEN, REVISED to SCENARIO X, USER-CORRECTED multi-universe, v3.1.2-final: AGE vs LIFETIME + FRAME OF REFERENCE + 4D-BULK MECHANISM UNKNOWN + $N_{\rm sub}$ FREE) | SCENARIO X ADOPTED: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV (4D BULK Planck, not equal to $M_{\rm Pl,3D}$); multi-universe: energetic 4D-bulk event creates $N_{\rm sub}$ sub-universes ( $N_{\rm sub}$ is a FREE PARAMETER, 4D-bulk mechanism UNKNOWN); AGE vs LIFETIME: AGE = 13.8 Gyr (observed), LIFETIME = UNKNOWN; FRAME OF REFERENCE explicit | RESOLVED (v3.1.2, choice made) | §3.71, v31_scenario_X.py | The cascade tested three scenarios for $M_{\rm Pl,4}$ (parent's Planck): (A) $M_{\rm Pl,4}$ = 8.3×10¹² GeV, (X) $M_{\rm Pl,4}$ = 887 GeV, (B) $M_{\rm Pl,4}$ = $1.22 \times 10^{19}$ GeV (standard). All three are consistent with the closed-loop + DE formula, but they differ on extrapolations. **The cascade adopts Scenario X** with the CORRECTED FRAMING: $M_{\rm Pl,4D}$ is the 4D BULK Planck (one dimension higher than our 3+1D universe), NOT the Big Bang Planck. The 4D bulk is a SEPARATE structure with its OWN gravity scale, INDEPENDENT of $M_{\rm Pl,3D}$ = 10¹⁹ GeV. Standard brane-world physics (ADD, RS-I/II) explicitly allows bulk Planck to differ from brane Planck. The cascade adopts $M_{\rm Pl,4D}$ = $4 \times 10^{23}$ GeV because: (a) brane-world consistency (bulk Planck can be TeV-scale), (b) 9D = $v_{\rm Higgs}$ match works (1.3% off $v_{\rm Higgs}$ = 246 GeV), (c) $M^{\alpha}$ scaling for $M_{\rm Pl,N}$ at 5-9D gives EW-scale physics (200-700 GeV, the electroweak range), (d) $M_{\rm Pl,4D}$ = $4 \times 10^{23}$ GeV matches the cascade's $M_{\rm Pl,4}$ ≥ $4 \times 10^{23}$ GeV floor from previous analysis. **CRITICAL**: $M_{\rm Pl,3D}$ = 10¹⁹ GeV is MEASURED (Newton's G); $M_{\rm Pl,4D}$ = $4 \times 10^{23}$ GeV is INFERRED from cascade consistency and the 9D = $v_{\rm Higgs}$ match. $E_{\rm 4D}$ = 5×10⁷⁹ J is DERIVED from the assumed $M_{\rm Pl,4D}$ via the closed-loop formula. **MULTI-UNIVERSE PICTURE (v3.1.2-final, USER-CORRECTED TWICE, v3.1.2-final: $N_{\rm sub}$ FREE, AUDIT-CORRECTED)**: Sub-universes are NOT our 3+1D galaxies. Sub-universes are 3+1D universes CREATED by an ENERGETIC EVENT in the 4D bulk. The specific 4D-bulk mechanism is UNKNOWN (NOT necessarily 'galaxy collisions', 'star collisions', or any other specific structure). ** $N_{\rm sub}$ is a FREE PARAMETER** (4D-bulk dynamics unknown). $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation). The previous choice $N_{\rm sub} = 300$was ARBITRARY and is not derived. For any $N_{\rm sub}$, $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$ gives the sub-universe lifetime. Constraint: $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive) → $N_{\rm sub}$ < 4.2×10¹⁸ (AUDIT-CORRECTED from 2×10¹⁹). **AGE vs LIFETIME (v3.1.2-final, HONEST)**: 13.8 Gyr is the universe's CURRENT AGE (observed, the only firm value). The LIFETIME is UNKNOWN — it depends on $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$. The previous "~10³⁰ yr lifetime" claim was based on $N_{\rm sub} = 300 ($ARBITRARY) and has been RETRACTED. **FRAME OF REFERENCE (v3.1.2-final)**: $M^{\alpha}$ law gives APPARENT durations in the LOWER-D frame, not proper times in the higher-D frame. 2D lifetime (33 s) is in the 3+1D frame. 3+1D sub-universe lifetime (UNKNOWN) is in 3+1D's own frame. 4D event apparent duration (1.4×10³⁴ yr) is in the 3+1D frame, time-dilated from 4D proper time via $\gamma$ ~ 10⁶². The 4D event proper duration is T_4D_proper = $\tau_{\rm 4D}$ / $\gamma$ ~ $10^{-20}$ s. **Gains**: (1) 9D = $v_{\rm Higgs}$ match (1.3%, suggestive), (2) $M^{\alpha}$ scaling for $M_{\rm Pl,N}$ gives EW-scale physics, (3) 4D event is galaxy-scale (10⁵⁹ J ≈ 10⁹ M_sun), (4) bulk and brane have DIFFERENT gravity, (5) consistent with all 2D/3D/4D levels having their own gravity scales (2D = 3 TeV brane-world, 3D = 10¹⁹ GeV measured, 4D = $4 \times 10^{23}$ GeV bulk), (6) $N_{\rm sub}$ and $E_{\rm sub}$ are FREE (honest), (7) age vs lifetime: AGE observed, LIFETIME unknown, (8) frame of reference clarified. STRENGTH: framework is internally consistent with brane-world physics; 4D bulk and 2D brane both have non-standard gravity; 9D = $v_H$ match is the strongest "extra" prediction; honest about $N_{\rm sub}$, $E_{\rm sub}$, $\tau_{\rm sub}$ all being free/undetermined. WEAKNESS: $M_{\rm Pl,4D}$ is INFERRED, not measured; 4D-bulk mechanism is UNKNOWN; $N_{\rm sub}$ is FREE (we cannot predict the universe's total lifetime); requires exotic physics; 9D = $v_H$ match could be coincidence (1.3% on single number); observational constraints (LHC, sub-mm gravity) constrain $M_{\rm Pl,4D}$ ≥ 887 GeV (we are at the floor). The cascade has 4 free parameters ( $\alpha$, $\epsilon$, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$), plus 1 structural parameter ( $N_{\rm sub}$, undetermined by cascade). $M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ calibrated. | [v3.3 UPDATE: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$ GeV via $\alpha$-weighted GM (DERIVED); $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale); $\tau_{\rm 3D}$,apparent = 9.10×10¹²⁴ yr; $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2); 9D = $v_{\rm Higgs}$ DROPPED; $\alpha$-weighted GM supersedes Scenario X.]
 
 **Summary (v3.1.2):**
 - **OPEN**: 28 (37%) — require theoretical physics work beyond SIDC's current framework (L31, L33-L35 retained; L38-L43 added v3.0.2; L45 NEW; L91 NEW; L94, L96, L97, L119, L120 NEW v3.0.22; **L143, L144, L145 NEW v3.1.2**)
@@ -8817,9 +8817,9 @@ If you are a brane-world expert, a DGP specialist, an analog gravity theorist, o
 
 ## 7.2 v3.4 Limitations: F-theory 12D and the "12" pattern (NEW)
 
-L283. **N=12 in SYK is the standard numerical benchmark, NOT theoretically motivated** (v3.4.5). Web research confirms: N=12 with q=4 is used in Wenbo Fu (Princeton) thesis, OSTI variational, Caltech papers, and Sachdev MagLab lecture as the standard SYK numerical benchmark. But it is chosen for tractability, not from first principles. Other N (6, 8, 10, 14, 16) work equally well. The framework's α = 1 + 1/√N formula at N=12 is a PHENOMENOLOGICAL FIT, not a derivation. Status: CORRELATION, not derivation. Source: `calculations/v34_web_research_n12_consistency.py`.
+L283. ** $N=12$ in SYK is the standard numerical benchmark, NOT theoretically motivated** (v3.4.5). Web research confirms: $N=12$ with q=4 is used in Wenbo Fu (Princeton) thesis, OSTI variational, Caltech papers, and Sachdev MagLab lecture as the standard SYK numerical benchmark. But it is chosen for tractability, not from first principles. Other N (6, 8, 10, 14, 16) work equally well. The framework's α = 1 + 1/√N formula at $N=12$ is a PHENOMENOLOGICAL FIT, not a derivation. Status: CORRELATION, not derivation. Source: `calculations/v34_web_research_n12_consistency.py`.
 
-L284. **α = 1 + 1/√N is NOT a standard SYK formula** (v3.4.5). The SYK literature has Lyapunov exponent λ_L → 2π/β, specific heat corrections, etc. There is NO known "α = 1 + 1/√N" formula. The framework's claim that "α = 1.289 derives from N=12 SYK" is FALSE — α is calibrated to 14 M^α events, and the √12 in the formula is a curve fit. Status: PHENOMENOLOGICAL. Source: `calculations/v34_web_research_n12_consistency.py`.
+L284. **α = 1 + 1/√N is NOT a standard SYK formula** (v3.4.5). The SYK literature has Lyapunov exponent λ_L → 2π/β, specific heat corrections, etc. There is NO known "α = 1 + 1/√N" formula. The framework's claim that "α = 1.289 derives from $N=12$ SYK" is FALSE — α is calibrated to 14 M^α events, and the √12 in the formula is a curve fit. Status: PHENOMENOLOGICAL. Source: `calculations/v34_web_research_n12_consistency.py`.
 
 L285. **"12 SM fermions per generation" is FALSE** (v3.4.5). Per generation: SM has 15 Weyl (no ν_R) or 16 Weyl (with ν_R) = 7-8 Dirac. NOT 12. The only legitimate "12" in SM are: (a) 12 fermion FLAVORS (6 quarks + 6 leptons across all 3 generations = 4 Dirac × 3 = 12), and (b) 12 GAUGE BOSONS (8 gluons + 3 weak + 1 hypercharge). Framework's "12 SM fermions per gen" was an error. Status: REFUTED. Source: `calculations/v34_sm_side_12_match.py`.
 
@@ -8833,9 +8833,9 @@ L289. **SM has 12 fermion FLAVORS across all 3 generations, NOT per gen** (v3.4.
 
 L290. **DOF conservation at 24 was framework's interpretation, NOT a physical law** (v3.4.6). The math works: 12 Majorana × 2 = 6 Dirac × 4 = 3 4D-Dirac × 8 = 24 real DOF. But the "12"s at each level are DIFFERENT physics (fermions, gauge bosons, dimensions). No law requires them to match. The "DOF conservation" was a counting exercise, not a conservation principle. Status: DROPPED as physical claim. Source: `calculations/v34_sm_side_12_match.py`.
 
-L291. **α's first-principles derivation remains open** (v3.4.6). Multiple formulas give α = 1.289 within 0.1%: α = 1 + 1/√N (N=12), α = 1 + ln(q²/N) (N=12, q=4). But none are derived from SYK first principles. 2D CFT derivation not found. Status: CALIBRATED, not derived. Source: `calculations/v33_alpha_derivation_attempt.py`.
+L291. **α's first-principles derivation remains open** (v3.4.6). Multiple formulas give α = 1.289 within 0.1%: α = 1 + 1/√N ( $N=12$), α = 1 + ln(q²/N) ( $N=12$, q=4). But none are derived from SYK first principles. 2D CFT derivation not found. Status: CALIBRATED, not derived. Source: `calculations/v33_alpha_derivation_attempt.py`.
 
-L292. **"Why 12?" remains unanswered** (v3.4.6). Multiple correlations: N=12 SYK benchmark, 12 gauge bosons in SM, 12 fermion FLAVORS in SM, 12 = F-theory dim, 12 = E_6 Coxeter, Z_12 in CY3 quotients. But no first-principles derivation links these. Status: CORRELATIONS, not derivation.
+L292. **"Why 12?" remains unanswered** (v3.4.6). Multiple correlations: $N=12$ SYK benchmark, 12 gauge bosons in SM, 12 fermion FLAVORS in SM, 12 = F-theory dim, 12 = E_6 Coxeter, Z_12 in CY3 quotients. But no first-principles derivation links these. Status: CORRELATIONS, not derivation.
 
 ---
 
@@ -8847,7 +8847,7 @@ L292. **"Why 12?" remains unanswered** (v3.4.6). Multiple correlations: N=12 SYK
 L293. **"12" is common in physics for ARITHMETIC reasons, not because physics has a "12 principle"** (v3.4.7). 12 = 2² × 3 is the smallest highly composite number with 6 divisors (1, 2, 3, 4, 6, 12) for n ≤ 16. This is the same reason 12 appears in clocks (12 hours), calendars (12 months), music (12 semitones), and currency (12 pennies/shilling). The "12" in physics is a coincidence of arithmetic, not a derivation. Source: `calculations/v34_12_in_physics_meta.py`.
 
 L294. **"12 propagates" through cascade is a CORRELATION, not a derivation** (v3.4.7). The framework's claim that "12 propagates as a structural constant" is overstated. Each "12" at each cascade level has its own INDEPENDENT physics origin:
-- 2D: N=12 is the standard SYK numerical benchmark (tractical choice, not theoretical)
+- 2D: $N=12$ is the standard SYK numerical benchmark (tractical choice, not theoretical)
 - 3D: 12 gauge bosons come from SU(3) × SU(2) × U(1) generators (8+3+1)
 - 3D: 12 fermion FLAVORS come from 4 Dirac × 3 generations (coincidental)
 - 4D: 12 dimensions come from F-theory 10+2 (structural)
@@ -8857,7 +8857,7 @@ L295. **12 has 13+ independent physics occurrences (none derived from cascade)**
 - 12 fermion FLAVORS (SM, coincidence)
 - 12 gauge BOSONS (SM, structural)
 - F-theory 12D (structural)
-- N=12 SYK (numerical benchmark)
+- $N=12$ SYK (numerical benchmark)
 - E_6 Coxeter = 12 (Lie algebra)
 - A_11 Dynkin = 12 simple roots
 - F_4 Coxeter = 12
@@ -8899,7 +8899,7 @@ The framework notes the "12" pattern as a curiosity but does not derive it. Stat
 
 L298. **Of ~28 CY3 with χ=±6, only 2-3 have explicit Z_12 fundamental groups** (v3.5, #4). The framework's choice of F-theory 12D with Z_12 specifically is OPTIONAL, not necessary. arXiv:0910.5464 (BCD 2009) is the most explicit example, but Z_12 is RARE in standard CY3 references. Most χ=±6 CY3 have abelian π_1 (Z_2, Z_3, Z_4, etc.) or trivial π_1. The "12" in F-theory 12D is structural (10+2 = 12) but the explicit Z_12 quotient in (1,4) CY3 is a specific (not generic) construction. Source: `calculations/v35_tier2_research_depth.py`.
 
-L299. **α = 1 + 1/√N has a PHYSICAL INTERPRETATION: "leading order + finite-N correction"** (v3.5, #5). The cleanest physical reason for α = 1.289 is: α = 1 (leading order, possibly from holographic/Schwarzian limit) + 1/√12 (N=12 finite-N correction). This is structurally motivated but is still a STRUCTURAL MATCH, not a derivation. The "1" in α = 1 + 1/√N is not derived from any specific 2D CFT structure. Status: PHYSICAL INTERPRETATION, not derivation. Source: `calculations/v35_tier2_research_depth.py`.
+L299. **α = 1 + 1/√N has a PHYSICAL INTERPRETATION: "leading order + finite-N correction"** (v3.5, #5). The cleanest physical reason for α = 1.289 is: α = 1 (leading order, possibly from holographic/Schwarzian limit) + 1/√12 ( $N=12$ finite-N correction). This is structurally motivated but is still a STRUCTURAL MATCH, not a derivation. The "1" in α = 1 + 1/√N is not derived from any specific 2D CFT structure. Status: PHYSICAL INTERPRETATION, not derivation. Source: `calculations/v35_tier2_research_depth.py`.
 
 L300. **α = 1 + ln(q²/N) for q=4 SYK is a curve-fit, NOT a derivation** (v3.5, #5). No known physical reason for the ln form. The q=4 SYK connection is suggestive but the ln structure has no underlying 2D CFT justification. This is a numerical coincidence, not a structural match. Status: CURVE-FIT. Source: `calculations/v35_tier2_research_depth.py`.
 
@@ -9024,12 +9024,12 @@ L308d. **String thermal duality b ↔ 1/(2b) → $T_H$** (v3.5.7+). Closed strin
 
 L308e. **Hawking-Page $\beta$ = $2\pi$ L → $T_H$** (v3.5.7+). Euclidean periodicity forced by SL(2,R) isometry. $T_H$ = 1/( $2\pi$ L) = $M_{\rm Pl,2D}$/( $2\pi$). Same as Hagedorn via BH thermodynamics. Source: `calculations/v35_euclidean_periodicity_mu.py`.
 
-L308f. ** $M_{\rm Pl,2D}$ = 2.95 TeV origin: N=12 SYK + $v_{\rm Higgs}$ EW coincidence, NOT holographic** (v3.5.7+, USER-CAUGHT). The framework has historically labeled $M_{\rm Pl,2D}$ = 2.95 TeV as "holographic estimate" (L110, L113). This label is INCORRECT. The actual derivation chain:
+L308f. ** $M_{\rm Pl,2D}$ = 2.95 TeV origin: $N=12$ SYK + $v_{\rm Higgs}$ EW coincidence, NOT holographic** (v3.5.7+, USER-CAUGHT). The framework has historically labeled $M_{\rm Pl,2D}$ = 2.95 TeV as "holographic estimate" (L110, L113). This label is INCORRECT. The actual derivation chain:
 - The v32 calculation `lagrangian_v32_scale_downward.py` G_2D = $G_4$ × L_2D gives $M_{\rm Pl,2D}$ = 1.71 TeV (Option 2) or 2.94×10¹² GeV (Option 1) — neither is 3 TeV.
-- The framework chose 3 TeV because ** $v_{\rm Higgs}$ × N = 246 GeV × 12 = 2952 GeV ≈ 3 TeV** (the "EW coincidence", L42), where N=12 is the SYK count for $\alpha$ = 1 + 1/√12.
+- The framework chose 3 TeV because ** $v_{\rm Higgs}$ × N = 246 GeV × 12 = 2952 GeV ≈ 3 TeV** (the "EW coincidence", L42), where $N=12$ is the SYK count for $\alpha$ = 1 + 1/√12.
 - The "holographic" label was applied retroactively in L110/L113 but does NOT match v32's actual output.
 
-**Honest framing**: $M_{\rm Pl,2D}$ = 2.95 TeV is a FRAMEWORK CHOICE (N=12 SYK + $v_{\rm Higgs}$), not a derivation. The 1.7 TeV alternative (Option 2) is the actual "holographic" estimate but lacks the 12-fold structural connection. Status: PARTIAL (EW coincidence documented). Source: user catch + `calculations/v35_alpha_cone_depth_structure.py`.
+**Honest framing**: $M_{\rm Pl,2D}$ = 2.95 TeV is a FRAMEWORK CHOICE ( $N=12$ SYK + $v_{\rm Higgs}$), not a derivation. The 1.7 TeV alternative (Option 2) is the actual "holographic" estimate but lacks the 12-fold structural connection. Status: PARTIAL (EW coincidence documented). Source: user catch + `calculations/v35_alpha_cone_depth_structure.py`.
 
 L308g. ** $M_{\rm Pl,4D}$ = $4 \times 10^{23}$ GeV derivation chain: closed loop + $\alpha$-GM (NOT first-principles)** (v3.5.7+, USER-CAUGHT). The framework has TWO methods that give $M_{\rm Pl,4D}$ ≈ $4 \times 10^{23}$ GeV within 1%, but BOTH use calibrated inputs:
 
@@ -9045,13 +9045,13 @@ Match within 1% ✓ (framework self-consistent).
 
 **Honest chain**: DE observation → $E_{\rm 4D}$, $\tau_{\rm 4D}$ (calibrated) → closed loop → $M_{\rm Pl,4D}$. Also consistent with $\alpha$-GM. Round to $4 \times 10^{23}$ GeV. Status: PARTIAL (self-consistent but not first-principles). Source: user catch + git history v3.1.2→v3.3 evolution.
 
-L308h. **First-principles search: 0/9 → 3/15 parameters derived (UPDATED v3.5.9+ A2, N=12 downgraded to STRUCTURAL per L308ag)** (v3.5.7+, USER-DIRECTED). Systematic attempt to derive framework parameters from first principles (7 possibilities: $\alpha$, $4\pi$, N_sub, $\mu$, $\epsilon$, $\tau_{\rm 4D}$, cone slope). **3 NOW DERIVED** (N=12 has first-principles motivations via L308u 6D anomaly but is classified STRUCTURAL per L308ag):
-- $\alpha$ = 1 + 1/ $\sqrt{12}$ (L308n, Schwarzian SYK N=12)
+L308h. **First-principles search: 0/9 → 3/15 parameters derived (UPDATED v3.5.9+ A2, $N=12$ downgraded to STRUCTURAL per L308ag)** (v3.5.7+, USER-DIRECTED). Systematic attempt to derive framework parameters from first principles (7 possibilities: $\alpha$, $4\pi$, $N_{\rm sub}$, $\mu$, $\epsilon$, $\tau_{\rm 4D}$, cone slope). **3 NOW DERIVED** ( $N=12$ has first-principles motivations via L308u 6D anomaly but is classified STRUCTURAL per L308ag):
+- $\alpha$ = 1 + 1/ $\sqrt{12}$ (L308n, Schwarzian SYK $N=12$)
 - $M_{\rm Pl,2D}$ = 12 $\times$ $v_{\rm Higgs}$ (L308r, EW coincidence)
 - $\mu$ = $M_{\rm Pl,2D}^2$ (L308r, follows from $M_{\rm Pl,2D}$)
 - N = 12 (L308u, 6D anomaly cancellation, Appelquist 2001 PRL 87, 031801)
 
-**AFTER (v3.5.9+ A2)**: 15 parameters total: 1 MEASURED ( $M_{\rm Pl,3D}$), 3 FIRST-PRINCIPLES ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$) [N=12 STRUCTURAL per L308ag], 2 DERIVED ( $M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via N_sub $\times$ $E_{\rm sub}$), 4 CALIBRATED ( $\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ( $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ( $N_{\rm sub}$). Status: SIGNIFICANT PROGRESS (3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived, was 3/9 in v3.5.8). Source: `calculations/v35_first_principles_search.py`, `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_6d_anomaly_n12.py`.
+**AFTER (v3.5.9+ A2)**: 15 parameters total: 1 MEASURED ( $M_{\rm Pl,3D}$), 3 FIRST-PRINCIPLES ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$) [ $N=12$ STRUCTURAL per L308ag], 2 DERIVED ( $M_{\rm Pl,4D}$ via $\alpha$-GM, $E_{\rm 4D}$ via $N_{\rm sub}$ $\times$ $E_{\rm sub}$), 4 CALIBRATED ( $\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ( $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ per L308ag), 1 FREE ( $N_{\rm sub}$). Status: SIGNIFICANT PROGRESS (3/15 first-principles ( $N=12$ downgraded to STRUCTURAL per L308ag) derived, was 3/9 in v3.5.8). Source: `calculations/v35_first_principles_search.py`, `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_6d_anomaly_n12.py`.
 
 L308i. **Geometric factor asymmetry $2\pi$ vs $4\pi$ is BOUNDARY-SPHERE STRUCTURED** (v3.5.7+, USER-DISCOVERED). The cascade has different geometric factors at different transitions, matching the boundary sphere dimensions:
 - 2D → 3D: $2\pi$ = S¹ (circle circumference) — boundary of 2D world is 1D circle
@@ -9068,18 +9068,18 @@ L308l. **Cone has natural range n=1 to n≈17 (USER-DIRECTED)** (v3.5.7+). Exten
 
 L308m. **MCMC parameter convergence: 4/15 strongly pinned, 2/15 framework choices, 5/15 derived (NEW v3.5.8, REVISED v3.5.9+)**. Metropolis-Hastings MCMC with 15,000 samples over 6 free parameters finds: (i) $\alpha$ = 1.291 ± 0.002 matches framework 1.289 ( $0.9\sigma$), (ii) $\epsilon$ = $10^{-38.03 ± 0.06}$ matches $10^{-38}$ ( $0.5\sigma$), (iii) $\tau_{\rm 4D}$ = $10^{34.15 ± 0.04}$ yr matches $10^{34.18}$ ( $0.7\sigma$), (iv) AGN rate = $10^{-15.50 ± 0.42}$ matches $10^{-15}$·⁵² ( $0.1\sigma$). These 4 parameters STRONGLY CONVERGE — observations PIN them. $M_{\rm Pl,2D}$ = 1.75 ± 0.33 TeV (posterior) vs 2.95 TeV (framework, WEAK, framework choice per L308f). $N_{\rm sub} = 217$± 100 (posterior) vs 386 (framework, WEAK, free per L144). $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$ are DERIVED. TIER 1 (4/9): observationally pinned. TIER 2 (2/9): framework choices — these are the FIRST-PRINCIPPLES GAPS. TIER 3 (3/9): derived. Source: `calculations/v35_monte_carlo_parameter_search.py`.
 
-L308n. ** $\alpha$ = 1 + 1/√12 EXACT first-principles match (NEW v3.5.8, BREAKTHROUGH)**. Schwarzian SYK saddle-point with N=12 gives $\alpha$ = 1.2886751346, matching framework's $\alpha$ = 1.289 within 0.025% — essentially EXACT. N=12 = 12 Majorana = 6 Dirac = 3 generations × 2 (L+R). This DERIVES $\alpha$ from first principles: (1) N=12 justified by SM fermion count, (2) 1/√N from Schwarzian coefficient, (3) $\alpha$ = 1 + c_s where c_s is the time-fluctuation exponent. **L43 (Lagrangian skeleton → $\alpha$) OPEN → PARTIAL**. First-principles progress: 1/9 (was 0/9). Remaining: full combined Z = Z_Liouville × Z_Schwarzian × Z_SYK path integral, cross-couplings. Source: `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
+L308n. ** $\alpha$ = 1 + 1/√12 EXACT first-principles match (NEW v3.5.8, BREAKTHROUGH)**. Schwarzian SYK saddle-point with $N=12$ gives $\alpha$ = 1.2886751346, matching framework's $\alpha$ = 1.289 within 0.025% — essentially EXACT. $N=12$ = 12 Majorana = 6 Dirac = 3 generations × 2 (L+R). This DERIVES $\alpha$ from first principles: (1) $N=12$ justified by SM fermion count, (2) 1/√N from Schwarzian coefficient, (3) $\alpha$ = 1 + c_s where c_s is the time-fluctuation exponent. **L43 (Lagrangian skeleton → $\alpha$) OPEN → PARTIAL**. First-principles progress: 1/9 (was 0/9). Remaining: full combined Z = Z_Liouville × Z_Schwarzian × Z_SYK path integral, cross-couplings. Source: `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
-L308o. **N_sub = $E_{\rm 4D}$/ $E_{\rm sub}$ scales linearly (NEW v3.5.8, USER-INSIGHT)**. User suggested N_sub might depend on event size. Tested scalings: linear (N_sub = $E_{\rm 4D}$/ $E_{\rm sub}$) MATCHES framework with $E_{\rm sub}$ = 1.295×10⁷⁷ J ( $N_{\rm sub} = 386$, rounded from 386.5). Other power laws (k=0.05 to 1.0) give off by factors 5 to 10³⁰. Surface area / volume scalings in 4D give off by 10⁶⁵. **N_sub is NOT a fundamental constant; it derives from $E_{\rm 4D}$ via energy conservation** ( $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$). For our specific $E_{\rm 4D}$ = 5×10⁷⁹ J, $N_{\rm sub} = 386.$Different 4D events would give different N_sub (sub-galaxy: N=4, supercluster: N=400,000). Status: SEMI-DERIVED — N_sub is no longer "free parameter" but $E_{\rm sub}$ itself is framework choice. L308n first-principles progress: 2/9 (was 1/9). Source: `calculations/v35_n_sub_scaling.py`.
+L308o. ** $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$ scales linearly (NEW v3.5.8, USER-INSIGHT)**. User suggested $N_{\rm sub}$ might depend on event size. Tested scalings: linear ( $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$) MATCHES framework with $E_{\rm sub}$ = 1.295×10⁷⁷ J ( $N_{\rm sub} = 386$, rounded from 386.5). Other power laws (k=0.05 to 1.0) give off by factors 5 to 10³⁰. Surface area / volume scalings in 4D give off by 10⁶⁵. ** $N_{\rm sub}$ is NOT a fundamental constant; it derives from $E_{\rm 4D}$ via energy conservation** ( $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$). For our specific $E_{\rm 4D}$ = 5×10⁷⁹ J, $N_{\rm sub} = 386.$Different 4D events would give different $N_{\rm sub}$ (sub-galaxy: N=4, supercluster: N=400,000). Status: SEMI-DERIVED — $N_{\rm sub}$ is no longer "free parameter" but $E_{\rm sub}$ itself is framework choice. L308n first-principles progress: 2/9 (was 1/9). Source: `calculations/v35_n_sub_scaling.py`.
 
-L308p. **Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8, USER-INSIGHT)**. User asked if N_sub scaling applies at 2D level too. Tested: linear scaling N_2D_per_event = $E_{\rm event}$/E_2D_ref at 2D gives SN creating 10⁶⁵ 2D universes per event, vastly overproducing DM (off by 10⁶⁵). Therefore the cone has DIFFERENT scaling rules at different levels: 4D → 3+1D is linear (universe-creating); 3+1D → 2D is one-to-one (universe-modifying). This asymmetry is CONSTRAINED by DM observation, not free. 4D level is "transcendent" (bulk), 3+1D level is "internal" (within universe). Each transition has its own scaling law, and 1:1 at 2D level is REQUIRED by DM abundance. Source: `calculations/v35_n_sub_scaling.py` (extended).
+L308p. **Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8, USER-INSIGHT)**. User asked if $N_{\rm sub}$ scaling applies at 2D level too. Tested: linear scaling N_2D_per_event = $E_{\rm event}$/E_2D_ref at 2D gives SN creating 10⁶⁵ 2D universes per event, vastly overproducing DM (off by 10⁶⁵). Therefore the cone has DIFFERENT scaling rules at different levels: 4D → 3+1D is linear (universe-creating); 3+1D → 2D is one-to-one (universe-modifying). This asymmetry is CONSTRAINED by DM observation, not free. 4D level is "transcendent" (bulk), 3+1D level is "internal" (within universe). Each transition has its own scaling law, and 1:1 at 2D level is REQUIRED by DM abundance. Source: `calculations/v35_n_sub_scaling.py` (extended).
 
 L308q. **2D universe is discrete quantum (NEW v3.5.8, USER-INSIGHT)**. User asked why can't there be 2 half-mass universes per event. Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM (if lifetime is from event energy) but violate geometric constraint $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$. Framework's $M_{\rm 2D}$ is DERIVED from 5D AdS projection, not adjustable. 2D universe behaves as discrete 'particle' with fixed mass. Splitting would require different geometry, 2D CFT (multiple saddle points), and $M_{\rm Pl,2D}$ value (breaks $\alpha$-GM by 9.4%). Within framework: $M_{\rm 2D}$ is quantum, smallest unit of DM. Source: `calculations/v35_2d_universe_quantum.py`.
 
 
-L308r. ** $\mu$ = $M_{\rm Pl,2D}^2$ DERIVED from N=12 $\times$ $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)**. The 3% offset between framework's $\mu$ = $9 \times 10^{6}$ GeV $^2$ and the new derivation $\mu$ = ( $N$ $\times$ $v_{\rm Higgs}$) $^2$ = $8.73 \times 10^{6}$ GeV $^2$ is within rounding. This REDUCES $\mu$ from CALIBRATED to DERIVED with 3 inputs:
+L308r. ** $\mu$ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ $\times$ $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)**. The 3% offset between framework's $\mu$ = $9 \times 10^{6}$ GeV $^2$ and the new derivation $\mu$ = ( $N$ $\times$ $v_{\rm Higgs}$) $^2$ = $8.73 \times 10^{6}$ GeV $^2$ is within rounding. This REDUCES $\mu$ from CALIBRATED to DERIVED with 3 inputs:
 
-1. ** $\alpha$ = 1 + 1/ $\sqrt{12}$ = 1.2886751346** (FIRST-PRINCIPPLES, L308n, Schwarzian SYK N=12)
+1. ** $\alpha$ = 1 + 1/ $\sqrt{12}$ = 1.2886751346** (FIRST-PRINCIPPLES, L308n, Schwarzian SYK $N=12$)
 2. ** $v_{\rm Higgs}$ = 246.22 GeV** (MEASURED, LEP+SLD combined Higgs mass)
 3. **N = 12** (STRUCTURAL: 12 Majorana = 3 generations $\times$ 4 Weyl)
 
@@ -9091,13 +9091,13 @@ L308r. ** $\mu$ = $M_{\rm Pl,2D}^2$ DERIVED from N=12 $\times$ $v_{\rm Higgs}$ c
 **L26 STATUS: OPEN → PARTIAL CLOSURE**. $\mu$ is no longer a calibrated parameter but follows from the same chain that gives $M_{\rm Pl,2D}$ and $M_{\rm Pl,4D}$.
 
 **What remains OPEN** (after L308r):
-- WHY N=12 specifically? (3 generations $\times$ 4 Weyl is consistent but not derived)
+- WHY $N=12$ specifically? (3 generations $\times$ 4 Weyl is consistent but not derived)
 - WHY $\alpha$ = 1 + 1/ $\sqrt{N}$ for SYK? (Schwarzian formula, framework-adopted)
 
 **Caveat**: The framework's choice of $M_{\rm Pl,2D}$ = 2.95 TeV vs the derivation's $M_{\rm Pl,2D}$ = 2.95 TeV reflects rounding. If we accept the derivation chain as primary, $\mu$ = $8.73 \times 10^{6}$ GeV $^2$ (not $9 \times 10^{6}$). The framework should UPDATE $\mu$ to $8.73 \times 10^{6}$ GeV $^2$ for internal consistency.
 
 **First-principles progress**: 2/9 → **3/9** (was $\alpha$, $M_{\rm Pl,2D}$, now also $\mu$). Source: `calculations/v35_mu_N_vH_derivation.py`.
-L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIRECTED)**. After §7.4.16's L26 PARTIAL CLOSURE via L308r (3% offset), 8 further derivation paths were attempted to FULLY close L26. **None bridge the 3% offset**. The 3% offset is genuinely from framework's $M_{\rm Pl,2D} = 2.95$TeV (rounded) vs derivation's 2.95 TeV (exact N × v_H). Of 8 paths:
+L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIRECTED)**. After §7.4.16's L26 PARTIAL CLOSURE via L308r (3% offset), 8 further derivation paths were attempted to FULLY close L26. **None bridge the 3% offset**. The 3% offset is genuinely from framework's $M_{\rm Pl,2D} = 2.95$TeV (rounded) vs derivation's 2.95 TeV (exact N × $v_H$). Of 8 paths:
 
 - **6 are TAUTOLOGICAL** ( $\mu = M_{\rm Pl,2D}^2$ by definition, given $M_{\rm Pl,2D}$ as input):
   - Hagedorn self-dual (Path 2): $\mu = M_s^2 = M_{\rm Pl,2D}^2$
@@ -9108,9 +9108,9 @@ L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIR
   - Unimodular (Path 6): μ is integration constant
 
 - **1 is NOT APPLICABLE** (Path 8): b = i is fixed point, no RG flow
-- **1 works** (Path 1, L308r): μ = (N × v_H)² = $8.73 \times 10^6$ GeV² (3% off)
+- **1 works** (Path 1, L308r): μ = (N × $v_H$)² = $8.73 \times 10^6$ GeV² (3% off)
 
-**Verdict**: The 5 stringy/quantum-gravity paths confirm that ** $M_{\rm Pl,2D}^2$ is the natural $\mu$** in 2D quantum gravity, but DON'T specify $M_{\rm Pl,2D}$ itself. The 3 "alternative" paths don't pin down μ. Only L308r's N × v_H chain gives a non-tautological result, and it gives $8.73 \times 10^6$ (3% off framework's 8.73×10⁶).
+**Verdict**: The 5 stringy/quantum-gravity paths confirm that ** $M_{\rm Pl,2D}^2$ is the natural $\mu$** in 2D quantum gravity, but DON'T specify $M_{\rm Pl,2D}$ itself. The 3 "alternative" paths don't pin down μ. Only L308r's N × $v_H$ chain gives a non-tautological result, and it gives $8.73 \times 10^6$ (3% off framework's 8.73×10⁶).
 
 **RECOMMENDATION**: Framework should UPDATE $M_{\rm Pl,2D} = 2955 GeV$and μ = $8.73 \times 10^6$ GeV² for internal consistency with the new derivation chain. This makes L26 PARTIAL CLOSURE exact (no 3% offset). See §7.4.17 for full analysis. Source: `calculations/v35_mu_L26_complete.py`, `calculations/v35_mu_L26_complete_results.txt`.
 
@@ -9137,7 +9137,7 @@ $M_{\rm Pl,2D} =$10^{3.461} $= 2.89 \text{ TeV}$
 This matches the framework's 3 TeV to within 3.6% (consistent with rounding). **So $M_{\rm Pl,2D}$ ≈ 2.95 TeV is REQUIRED for cascade consistency given $\alpha$ and $M_{\rm Pl,4D}$.**
 
 **Connection to $v_{\rm Higgs}$**:
-- $M_{\rm Pl,2D}$ ( $\alpha$-GM consistent) / $v_{\rm Higgs}$ = 2891 / 246 = 11.75 ≈ **12** (N=12 SYK!)
+- $M_{\rm Pl,2D}$ ( $\alpha$-GM consistent) / $v_{\rm Higgs}$ = 2891 / 246 = 11.75 ≈ **12** ( $N=12$ SYK!)
 - So the " $v_{\rm Higgs}$ × 12 ≈ 3 TeV" coincidence is actually a CASCADE CONSISTENCY condition
 
 ### Link 2: Cone Depth Structure (the "12" as cascade unit)
@@ -9157,7 +9157,7 @@ Cone depths in $\alpha$-units (depth = log(M_N/M_{N-1}) / log( $\alpha$)):
 
 **The ratio is exactly √12 ≈ 3.46.**
 
-This means the cascade has a self-similar structure where each level transition is √12 times deeper than the previous in $\alpha$-units. The "12" in N=12 SYK = the fundamental cascade unit.
+This means the cascade has a self-similar structure where each level transition is √12 times deeper than the previous in $\alpha$-units. The "12" in $N=12$ SYK = the fundamental cascade unit.
 
 ### The "12" Propagation: A Structural Unity
 
@@ -9165,7 +9165,7 @@ The number 12 appears in 5+ places in the framework:
 
 | Where | Value | Meaning |
 |---|---|---|
-| N=12 SYK | $\alpha$ = 1 + 1/√12 | Calibrated to events |
+| $N=12$ SYK | $\alpha$ = 1 + 1/√12 | Calibrated to events |
 | Cone depth 4D→3+1D | 11.82 ≈ 12 sub-steps | Geometric structure |
 | $M_{\rm Pl,2D}$ / $v_{\rm Higgs}$ | 11.75 ≈ 12 | $\alpha$-GM consistency |
 | 12 Majorana = 6 Dirac | 3 generations | Cascade fermion count |
@@ -9184,7 +9184,7 @@ These are CONSISTENCIES, not derivations. But they show that "12" is a **STRUCTU
 
 ### Status of L308f, L308g
 
-**L308f ( $M_{\rm Pl,2D}$ origin)**: PARTIAL — 2.95 TeV is consistent with $\alpha$-GM + N=12 SYK + $v_{\rm Higgs}$, but the "holographic" label in L110 was incorrect.
+**L308f ( $M_{\rm Pl,2D}$ origin)**: PARTIAL — 2.95 TeV is consistent with $\alpha$-GM + $N=12$ SYK + $v_{\rm Higgs}$, but the "holographic" label in L110 was incorrect.
 
 **L308g ( $M_{\rm Pl,4D}$ derivation)**: PARTIAL — $4 \times 10^{23}$ GeV is consistent with both $\alpha$-GM and closed loop, but neither is first-principles (both use calibrated inputs).
 
@@ -9213,15 +9213,15 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 | 9 | $N_{\rm sub}$ | $4 \times 10^2$ | **FREE** (L144 OPEN) |
 | -- | $\mu$ = $M_{\rm Pl,2D}^2$ | $9 \times 10^6$ GeV² | **STRUCTURAL** (5 paths, L308a-e) |
 
-**Verdict (v3.5.9+ A2 REVISED)**: **3/15 first-principles (N=12 downgraded to STRUCTURAL per L308ag) derived** (was 1/9, then 3/9). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r). N=12 has strong first-principles motivations (L308u 6D anomaly) but is classified STRUCTURAL per L308ag. Total 15 parameters: 1 MEASURED, 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ), 2 DERIVED ( $M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via N_sub × $E_{\rm sub}$), 4 CALIBRATED, 4 STRUCTURAL ( $E_{\rm sub}$, τ_3D,apparent, γ_4D, N=12 per L308ag), 1 FREE.
+**Verdict (v3.5.9+ A2 REVISED)**: **3/15 first-principles ( $N=12$ downgraded to STRUCTURAL per L308ag) derived** (was 1/9, then 3/9). DERIVED: $\alpha$ (L308n), $M_{\rm Pl,2D}$ (L308r), $\mu$ (L308r). $N=12$ has strong first-principles motivations (L308u 6D anomaly) but is classified STRUCTURAL per L308ag. Total 15 parameters: 1 MEASURED, 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ), 2 DERIVED ( $M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via $N_{\rm sub}$ × $E_{\rm sub}$), 4 CALIBRATED, 4 STRUCTURAL ( $E_{\rm sub}$, τ_3D,apparent, γ_4D, $N=12$ per L308ag), 1 FREE.
 
 ### 7 Possibilities Tried (2026-06-20)
 
-**1. $\alpha$ = 1 + 1/√12 = 1.289 first-principles (CLOSED via L308n)**: Schwarzian SYK saddle-point with N=12 gives $\alpha$ = 1.2886751346, matching framework's 1.289 within 0.025%. Status: **DERIVED** (L308n).
+**1. $\alpha$ = 1 + 1/√12 = 1.289 first-principles (CLOSED via L308n)**: Schwarzian SYK saddle-point with $N=12$ gives $\alpha$ = 1.2886751346, matching framework's 1.289 within 0.025%. Status: **DERIVED** (L308n).
 
 **2. $4\pi$ geometric factor in $\gamma_{\rm 4D}$ = $4\pi$ × $\gamma_{\rm sub}$**: Tested 6 candidates (S³ surface, solid angle, Gauss law, holographic, S³×R topology, AdS isometry). Best candidate: $4\pi$ = surface area of unit 3-sphere S³ (i.e., 4D bulk's S³ boundary). Status: PARTIAL (structural, not derived).
 
-**3. $N_{\rm sub} = 3.86×10²$first-principles**: Energy conservation $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ gives $E_{\rm sub}$ = 1.295×10⁷⁷ J (~cluster mass, $N_{\rm sub} = 386$= $E_{\rm 4D}$/ $E_{\rm sub}$, REVISED L308z). No physical principle determines N_sub. Status: FREE (L144 OPEN).
+**3. $N_{\rm sub} = 3.86×10²$first-principles**: Energy conservation $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ gives $E_{\rm sub}$ = 1.295×10⁷⁷ J (~cluster mass, $N_{\rm sub} = 386$= $E_{\rm 4D}$/ $E_{\rm sub}$, REVISED L308z). No physical principle determines $N_{\rm sub}$. Status: FREE (L144 OPEN).
 
 **4. $\mu$ = $M_{\rm Pl,2D}^2$ first-principles (PARTIAL CLOSURE via L308r)**: DERIVED via N $\times$ $v_{\rm Higgs}$ chain: $\mu$ = (12 $\times$ 246) $^2$ = $8.73 \times 10^{6}$ GeV $^2$ (3% off framework's $9 \times 10^{6}$). Combines $\alpha$ = 1 + 1/ $\sqrt{12}$ (L308n first-principles), $v_{\rm Higgs}$ (measured), N = 12 (structural). Status: **DERIVED** (L308r).
 
@@ -9241,7 +9241,7 @@ The framework is:
 - **Internally consistent** (multiple parameters cross-check via $\alpha$-GM, closed loop, $M^{\alpha}$ law)
 - **Structurally motivated** (5 paths to $\mu$ = $M_{\rm Pl,2D}^2$, now DERIVED via L308r)
 - **Observationally validated** (5/27/68 split, $H_0$ = 69.8±1.9 within $0.2\sigma$, etc.)
-- **3/15 parameters FIRST-PRINCIPPLES** ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$ via L308n/L308r chain) [N=12 STRUCTURAL per L308ag despite L308u 6D anomaly derivation path]
+- **3/15 parameters FIRST-PRINCIPPLES** ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$ via L308n/L308r chain) [ $N=12$ STRUCTURAL per L308ag despite L308u 6D anomaly derivation path]
 
 First-principles progress: 0/9 → 1/9 ( $\alpha$, L308n) → **3/9** ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$, L308r).
 
@@ -9251,7 +9251,7 @@ First-principles progress: 0/9 → 1/9 ( $\alpha$, L308n) → **3/9** ( $\alpha$
 2. **WHY $\alpha$ = 1 + 1/ $\sqrt{N}$ for SYK?** (Schwarzian formula adopted)
 3. **L138 ( $M_{\rm Pl,4D}$)**: Closed-loop derivation independent of $\alpha$-GM
 4. **L142a ( $4\pi$)**: Geometric origin of $4\pi$ factor (S³ boundary? Gauss law?)
-5. **L144 (N_sub)**: Holographic bound or bulk stability criterion
+5. **L144 ( $N_{\rm sub}$)**: Holographic bound or bulk stability criterion
 
 Source: `calculations/v35_first_principles_search.py`.
 
@@ -9445,7 +9445,7 @@ The framework's actual position (v3.3, v3.4):
 - v3.0.22 proposed $M_{\rm Pl,9D}$ = $v_{\rm Higgs}$ = 246 GeV (1.3% off)
 - 9D would be at EW scale, INSIDE our 3+1D world
 - DROPPED in v3.3 because it broke 4D = $4 \times 10^{23}$ GeV floor
-- L122 (SPECULATIVE v3.0.22): "9D = string critical dim, 9D = v_H suggestive"
+- L122 (SPECULATIVE v3.0.22): "9D = string critical dim, 9D = $v_H$ suggestive"
 
 **10D base (F-theory)**:
 - Superstring theory lives in 10D
@@ -9588,7 +9588,7 @@ Source: `calculations/v35_cone_extends_to_zero.py`. Plot saved at `calculations/
 
 **User question (2026-06-20)**: "try monte carlo, then since the 9 numbers are plugged into this lagrangian, can't we find where all of them converge to be consistent with our observed universe in 3d?"
 
-**APPROACH**: Metropolis-Hastings MCMC sampling of the 6 free framework parameters ( $\alpha$, $M_{\rm Pl,2D}$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate, N_sub) under observational constraints.
+**APPROACH**: Metropolis-Hastings MCMC sampling of the 6 free framework parameters ( $\alpha$, $M_{\rm Pl,2D}$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate, $N_{\rm sub}$) under observational constraints.
 
 ### Constraints Used
 
@@ -9607,7 +9607,7 @@ Source: `calculations/v35_cone_extends_to_zero.py`. Plot saved at `calculations/
 | **log $\tau_{\rm 4D}$ (yr)** | 34.18 | 34.15 ± 0.04 | ✓ STRONG ( $0.7\sigma$) |
 | **log AGN rate** | -15.52 | -15.50 ± 0.42 | ✓ STRONG ( $0.1\sigma$) |
 | ** $M_{\rm Pl,2D}$ (TeV)** | 3.0 | 1.75 ± 0.33 | ⚠ WEAK ( $3.8\sigma$) |
-| **N_sub** | 400 | 217 ± 100 | ⚠ WEAK ( $1.8\sigma$) |
+| ** $N_{\rm sub}$** | 400 | 217 ± 100 | ⚠ WEAK ( $1.8\sigma$) |
 | $M_{\rm Pl,4D}$ (10²³ GeV) | 4.0 | 4.93 ± 0.43 | ✓ DERIVED |
 
 ### Three-Tier Classification
@@ -9615,11 +9615,11 @@ Source: `calculations/v35_cone_extends_to_zero.py`. Plot saved at `calculations/
 **Tier 1 (STRONGLY CONSTRAINED, 4/15 parameters)**: $\alpha$, $\epsilon$, $\tau_{\rm 4D}$, AGN rate.
 These converge to framework values within $0.5\sigma$. They're "observationally pinned" — observations fix them uniquely.
 
-**Tier 2 (WEAKLY CONSTRAINED, 2/15 parameters)**: $M_{\rm Pl,2D}$, N_sub.
-$M_{\rm Pl,2D}$ is now FIRST-PRINCIPLES (L308r, 12 × $v_{\rm Higgs}$ = 2.95 TeV). N_sub is FREE (L308z, event-specific = 386 for our universe). These ARE the "first-principles gaps".
+**Tier 2 (WEAKLY CONSTRAINED, 2/15 parameters)**: $M_{\rm Pl,2D}$, $N_{\rm sub}$.
+$M_{\rm Pl,2D}$ is now FIRST-PRINCIPLES (L308r, 12 × $v_{\rm Higgs}$ = 2.95 TeV). $N_{\rm sub}$ is FREE (L308z, event-specific = 386 for our universe). These ARE the "first-principles gaps".
 
 **Tier 3 (DERIVED, 5/15 parameters)**: $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$, $\tau_{\rm 3D,apparent}$, $E_{\rm sub}$.
-These follow from Tier 1 + Tier 2 via framework consistency ( $\alpha$-GM, $M^{\alpha}$ law, energy conservation N_sub × $E_{\rm sub}$). $\tau_{\rm 3D,apparent}$ and $E_{\rm sub}$ added as STRUCTURAL (v3.5.9+ L308z).
+These follow from Tier 1 + Tier 2 via framework consistency ( $\alpha$-GM, $M^{\alpha}$ law, energy conservation $N_{\rm sub}$ × $E_{\rm sub}$). $\tau_{\rm 3D,apparent}$ and $E_{\rm sub}$ added as STRUCTURAL (v3.5.9+ L308z).
 
 ### Interpretation
 
@@ -9631,7 +9631,7 @@ These follow from Tier 1 + Tier 2 via framework consistency ( $\alpha$-GM, $M^{\
 
 **CURRENT (v3.5.9+ A2+L308u, 15 parameters total)**: This L308m tier classification was for v3.5.8 era 9-parameter framework. Current framework has 15 parameters (1+4+2+4+3+1 = 15):
 - 1 MEASURED ( $M_{\rm Pl,3D}$)
-- 4 FIRST-PRINCIPPLES ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 — was 1 in L308m, + $\alpha$, $M_{\rm Pl,2D}$, $\mu$, N=12 via L308n/r/u)
+- 4 FIRST-PRINCIPPLES ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$, $N=12$ — was 1 in L308m, + $\alpha$, $M_{\rm Pl,2D}$, $\mu$, $N=12$ via L308n/r/u)
 - 2 DERIVED ( $M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via $N_{\rm sub} \times E_{\rm sub}$)
 - 4 CALIBRATED ( $\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak} = H_0$)
 - 3 STRUCTURAL ( $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$)
@@ -9641,17 +9641,17 @@ These follow from Tier 1 + Tier 2 via framework consistency ( $\alpha$-GM, $M^{\
 
 $\alpha$ = 1 + 1/√12 = 1.2886751346, matching framework's 1.289 within **0.025%** — essentially EXACT!
 
-This DERIVES $\alpha$ from Schwarzian SYK saddle-point with N=12 (12 Majorana = 3 generations × 4 Weyl per gen). Status: **L43 OPEN → PARTIAL**. First-principles progress: 1/9 (was 0/9).
+This DERIVES $\alpha$ from Schwarzian SYK saddle-point with $N=12$ (12 Majorana = 3 generations × 4 Weyl per gen). Status: **L43 OPEN → PARTIAL**. First-principles progress: 1/9 (was 0/9).
 
 ### Implication for First-Principles
 
 The first-principles WORK would focus on Tier 2:
 - Derive $M_{\rm Pl,2D}$ = 2.95 TeV from string theory / 2D CFT
-- Derive N_sub from 4D event mechanism
+- Derive $N_{\rm sub}$ from 4D event mechanism
 
 These are the actual GAPS in the framework. Everything else is constrained.
 
-Status: L308m, L308n (NEW v3.5.8, REVISED v3.5.9+ A2). 4/15 parameters observationally pinned + 3/15 first-principles (N=12 STRUCTURAL per L308ag) (α, $M_{\rm Pl,2D}$, μ). Tier 2 (N_sub) is now FREE (event-specific, L308z).
+Status: L308m, L308n (NEW v3.5.8, REVISED v3.5.9+ A2). 4/15 parameters observationally pinned + 3/15 first-principles ( $N=12$ STRUCTURAL per L308ag) (α, $M_{\rm Pl,2D}$, μ). Tier 2 ( $N_{\rm sub}$) is now FREE (event-specific, L308z).
 
 Source: `calculations/v35_monte_carlo_parameter_search.py`, `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
@@ -9678,7 +9678,7 @@ Tested several candidates:
 - $4\pi$ × √( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$) = 2275 (469% off)
 - ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^0.6 = 512 (28% off)
 
-None match $N_{\rm sub} = 386 e$xactly. N_sub is calibrated to $E_{\rm sub}$ scale (small galaxy mass), not derived. **L144 remains OPEN**.
+None match $N_{\rm sub} = 386 e$xactly. $N_{\rm sub}$ is calibrated to $E_{\rm sub}$ scale (small galaxy mass), not derived. **L144 remains OPEN**.
 
 ### $\epsilon$ = $10^{-38}$: ABSORBS COSMOLOGICAL CONSTANT PROBLEM
 
@@ -9706,8 +9706,8 @@ MCMC posterior: $10^{34.15 ± 0.04}$ yr matches framework $10^{34.18}$ ( $0.7\si
 | 3 | $\tau_{\rm 4D}$ | 1.51×10³⁴ yr | CALIBRATED (MCMC converge) |
 | 4 | $\epsilon$ | $10^{-38}$ | CALIBRATED (CC problem) |
 | 5 | AGN rate | 3× $10^{-16}$ /m³/s | CALIBRATED (DM 27%) |
-| 6 | $M_{\rm Pl,2D}$ | 2.95 TeV | STRUCTURAL (12×v_H) |
-| 7 | N_sub | 4×10² | FREE/CALIBRATED |
+| 6 | $M_{\rm Pl,2D}$ | 2.95 TeV | STRUCTURAL (12× $v_H$) |
+| 7 | $N_{\rm sub}$ | 4×10² | FREE/CALIBRATED |
 | 8 | $M_{\rm Pl,4D}$ | $4 \times 10^{23}$ GeV | DERIVED via $\alpha$-GM (circular) |
 | 9 | $E_{\rm 4D}$ | 5×10⁷⁹ J | DERIVED ( $M_{\rm Pl,4D}$, $\tau_{\rm 4D}$) |
 
@@ -9722,7 +9722,7 @@ MCMC posterior: $10^{34.15 ± 0.04}$ yr matches framework $10^{34.18}$ ( $0.7\si
 **Why 12?** Multiple consistent interpretations:
 - 12 = 3 generations × 4 Weyl per gen (u, d, e, $\nu$)
 - 12 = 2 (L/R) × 2 (quark/lepton) × 3 (generations)
-- 12 = N=12 SYK (Majorana fermions)
+- 12 = $N=12$ SYK (Majorana fermions)
 - 12 = cone depth (sub-steps 4D → 3+1D)
 - 12 = $M_{\rm Pl,2D}$ / $v_{\rm Higgs}$ ≈ 12.2
 
@@ -9730,8 +9730,8 @@ These are all CONSISTENT, but the deep reason for '12' needs theoretical work (L
 
 ### REMAINING GAPS (for theoretical physicist)
 
-- ** $M_{\rm Pl,2D}$**: structural 12×v_H, but not first-principles derived
-- **N_sub**: free, no current derivation
+- ** $M_{\rm Pl,2D}$**: structural 12× $v_H$, but not first-principles derived
+- ** $N_{\rm sub}$**: free, no current derivation
 - ** $\epsilon$**: absorbs CC problem, no derivation
 - ** $4\pi$**: structural via S² boundary, not derived (L142a)
 
@@ -9739,29 +9739,29 @@ These are all CONSISTENT, but the deep reason for '12' needs theoretical work (L
 
 Source: `calculations/v35_first_principles_rest.py`.
 
-## 7.4.13 N_sub Scales Linearly with $E_{\rm 4D}$ (v3.5.8, USER-INSIGHT)
+## 7.4.13 $N_{\rm sub}$ Scales Linearly with $E_{\rm 4D}$ (v3.5.8, USER-INSIGHT)
 
 **User insight (2026-06-20)**: "n_sub is the number of 2d universe per event is it? maybe it depends on the size of the event"
 
-### Clarification: What is N_sub?
+### Clarification: What is $N_{\rm sub}$?
 
-N_sub in v3.5.8 is the number of **3+1D sub-universes** per 4D event (NOT 2D universes directly).
+$N_{\rm sub}$ in v3.5.8 is the number of **3+1D sub-universes** per 4D event (NOT 2D universes directly).
 
 The cone structure is:
-- 4D bulk event ( $E_{\rm 4D}$) → N_sub 3+1D sub-universes
+- 4D bulk event ( $E_{\rm 4D}$) → $N_{\rm sub}$ 3+1D sub-universes
 - 3+1D universe → 2D universes (counted by AGN rate, gives 27% DM)
 
-N_sub counts the 3+1D sub-universes in the multi-universe picture.
+$N_{\rm sub}$ counts the 3+1D sub-universes in the multi-universe picture.
 
-### User's Insight: N_sub Depends on Event Size
+### User's Insight: $N_{\rm sub}$ Depends on Event Size
 
-Tested scalings: N_sub ∝ $E_{\rm 4D}$^k for various k.
+Tested scalings: $N_{\rm sub}$ ∝ $E_{\rm 4D}$^k for various k.
 
-**Best fit: LINEAR (N_sub = $E_{\rm 4D}$ / $E_{\rm sub}$)** where $E_{\rm sub}$ = 1.295×10⁷⁷ J ( $N_{\rm sub} = 386$, REVISED L308z from 1.25×10⁷⁷).
+**Best fit: LINEAR ( $N_{\rm sub}$ = $E_{\rm 4D}$ / $E_{\rm sub}$)** where $E_{\rm sub}$ = 1.295×10⁷⁷ J ( $N_{\rm sub} = 386$, REVISED L308z from 1.25×10⁷⁷).
 
-This is essentially ENERGY CONSERVATION: total event energy $E_{\rm 4D}$ split into N_sub sub-universes, each with fixed energy $E_{\rm sub}$.
+This is essentially ENERGY CONSERVATION: total event energy $E_{\rm 4D}$ split into $N_{\rm sub}$ sub-universes, each with fixed energy $E_{\rm sub}$.
 
-| Event | $E_{\rm 4D}$ (J) | N_sub | $\tau_{\rm sub}$ (yr) |
+| Event | $E_{\rm 4D}$ (J) | $N_{\rm sub}$ | $\tau_{\rm sub}$ (yr) |
 |---|---|---|---|
 | Sub-galaxy (small) | 5×10⁷⁶ J | 4 | 2.5×10³³ yr |
 | Sub-galaxy (large) | 5×10⁷⁷ J | 40 | 3.3×10³² yr |
@@ -9773,19 +9773,19 @@ $\tau_{\rm sub}$ = $\tau_{\rm 4D}$ / N_su $b^{\alpha}$ where $\alpha$ = 1.289.
 
 ### Other Scalings Tested (all fail)
 
-- Power law N_sub = ( $E_{\rm 4D}$/ $M_{\rm Pl,4D}$)^k: best k=0.065, off by 47×
-- Surface area N_sub ∝ R_4D²: off by 10⁶⁵
-- Volume N_sub ∝ R_4D³: off by 10⁶⁵
+- Power law $N_{\rm sub}$ = ( $E_{\rm 4D}$/ $M_{\rm Pl,4D}$)^k: best k=0.065, off by 47×
+- Surface area $N_{\rm sub}$ ∝ R_4D²: off by 10⁶⁵
+- Volume $N_{\rm sub}$ ∝ R_4D³: off by 10⁶⁵
 
 ### Status: SEMI-DERIVED
 
-N_sub = $E_{\rm 4D}$/ $E_{\rm sub}$ makes N_sub a function of $E_{\rm 4D}$ (not free constant), but:
-- ✓ N_sub is no longer "free parameter" (was Tier 2)
+$N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$ makes $N_{\rm sub}$ a function of $E_{\rm 4D}$ (not free constant), but:
+- ✓ $N_{\rm sub}$ is no longer "free parameter" (was Tier 2)
 - ✓ Linear scaling is consistent with framework's single data point
 - ⚠ $E_{\rm sub}$ itself is NOT yet derived (still framework choice)
-- ⚠ Doesn't fully DERIVE N_sub from first principles
+- ⚠ Doesn't fully DERIVE $N_{\rm sub}$ from first principles
 
-**L308o (NEW v3.5.8)**: N_sub = $E_{\rm 4D}$/ $E_{\rm sub}$ is STRUCTURAL MOTIVATION (linear scaling). For fixed $E_{\rm 4D}$, N_sub is determined by $E_{\rm sub}$. But $E_{\rm sub}$ requires framework choice.
+**L308o (NEW v3.5.8)**: $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$ is STRUCTURAL MOTIVATION (linear scaling). For fixed $E_{\rm 4D}$, $N_{\rm sub}$ is determined by $E_{\rm sub}$. But $E_{\rm sub}$ requires framework choice.
 
 ### First-Principles Progress (Updated)
 
@@ -9796,12 +9796,12 @@ N_sub = $E_{\rm 4D}$/ $E_{\rm sub}$ makes N_sub a function of $E_{\rm 4D}$ (not 
 | 3 | $\tau_{\rm 4D}$ | CALIBRATED (MCMC converge) |
 | 4 | $\epsilon$ | CALIBRATED (CC problem) |
 | 5 | AGN rate | CALIBRATED (DM 27%) |
-| 6 | $M_{\rm Pl,2D}$ | STRUCTURAL (12×v_H) |
-| 7 | N_sub | SEMI-DERIVED (linear in $E_{\rm 4D}$) |
+| 6 | $M_{\rm Pl,2D}$ | STRUCTURAL (12× $v_H$) |
+| 7 | $N_{\rm sub}$ | SEMI-DERIVED (linear in $E_{\rm 4D}$) |
 | 8 | $M_{\rm Pl,4D}$ | DERIVED ( $\alpha$-GM) |
 | 9 | $E_{\rm 4D}$ | DERIVED ( $M_{\rm Pl,4D}$, $\tau_{\rm 4D}$) |
 
-**Progress: 2/9 first-principles** ( $M_{\rm Pl,3D}$ + $\alpha$). N_sub moved from Tier 2 (free) to SEMI-DERIVED.
+**Progress: 2/9 first-principles** ( $M_{\rm Pl,3D}$ + $\alpha$). $N_{\rm sub}$ moved from Tier 2 (free) to SEMI-DERIVED.
 
 ### Physical Meaning of $E_{\rm sub}$ = 1.295×10⁷⁷ J (REVISED L308z, was 1.25×10⁷⁷ in L308o)
 
@@ -9814,8 +9814,8 @@ $E_{\rm sub}$ is not yet derived from first principles, but its value (~10²⁹ 
 
 ### Implications
 
-If N_sub scales linearly with $E_{\rm 4D}$:
-1. Different 4D events would have different N_sub (not universal constant)
+If $N_{\rm sub}$ scales linearly with $E_{\rm 4D}$:
+1. Different 4D events would have different $N_{\rm sub}$ (not universal constant)
 2. Sub-universe structure varies with parent event size
 3. For our specific $E_{\rm 4D}$ = 5×10⁷⁹ J, $N_{\rm sub} = 386$is fixed
 4. The framework's multi-universe picture becomes more concrete
@@ -9828,13 +9828,13 @@ Source: `calculations/v35_n_sub_scaling.py`.
 
 **User question (2026-06-20)**: "does it mean n_sub for 2d as well?"
 
-**Investigation**: Does the linear scaling N_sub = E/E_ref ALSO apply at the 2D level?
+**Investigation**: Does the linear scaling $N_{\rm sub}$ = E/E_ref ALSO apply at the 2D level?
 
 ### Test: Linear Scaling at 2D Level
 
 If N_2D_per_event = $E_{\rm event}$ / E_2D_ref (where E_2D_ref = $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ = 7.4× $10^{-13}$ GeV = 1.18× $10^{-22}$ J):
 
-| Event | E (J) | N_2D per event | $\tau_{\rm 2D}$ (s) |
+| Event | E (J) | $N_{\rm 2D}$ per event | $\tau_{\rm 2D}$ (s) |
 |---|---|---|---|
 | Asteroid (10¹⁷ J) | 10¹⁷ J | 8.5×10³⁸ | 4.7× $10^{-34}$ s |
 | SN (10⁴⁴ J) | 10⁴⁴ J | ** $8.5 \times 10^{65}$** | 33 s |
@@ -9852,9 +9852,9 @@ vs observed: 10⁸²
 The cone has TWO different transition rules:
 
 **4D → 3+1D (UNIVERSE-CREATING)**:
-- Each 4D event creates N_sub = $E_{\rm 4D}$/ $E_{\rm sub}$ sub-universes
+- Each 4D event creates $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$ sub-universes
 - Linear scaling (energy conservation)
-- N_sub varies with event size
+- $N_{\rm sub}$ varies with event size
 
 **3+1D → 2D (UNIVERSE-MODIFYING)**:
 - Each 3+1D event creates ONE 2D universe (one-to-one)
@@ -9865,7 +9865,7 @@ The cone has TWO different transition rules:
 
 | Transition | Event type | N_universes | Per-universe energy | Per-universe lifetime |
 |---|---|---|---|---|
-| 4D → 3+1D | Transcendent | N_sub ∝ $E_{\rm 4D}$ | $E_{\rm sub}$ = $E_{\rm 4D}$/N_sub | $\tau_{\rm sub}$ = $\tau_{\rm 4D}$/N_su $b^{\alpha}$ |
+| 4D → 3+1D | Transcendent | $N_{\rm sub}$ ∝ $E_{\rm 4D}$ | $E_{\rm sub}$ = $E_{\rm 4D}$/ $N_{\rm sub}$ | $\tau_{\rm sub}$ = $\tau_{\rm 4D}$/N_su $b^{\alpha}$ |
 | 3+1D → 2D | Internal | 1 (fixed) | $M_{\rm 2D}$ = fixed | $\tau_{\rm 2D}$ ∝ $E^{\alpha}$ |
 
 4D events are TRANSCENDENT (in the bulk, outside our universe). They CREATE new 3+1D universes. Linear scaling reflects bulk dynamics.
@@ -9882,9 +9882,9 @@ This asymmetry is CONSTRAINED by DM observation, not free. The 4D level is "tran
 ### Implication for First-Principles
 
 The asymmetric scaling means:
-- N_sub (4D → 3+1D) is now SEMI-DERIVED via linear scaling (L308o)
+- $N_{\rm sub}$ (4D → 3+1D) is now SEMI-DERIVED via linear scaling (L308o)
 - N_2D_per_event (3+1D → 2D) is FIXED at 1 (by DM constraint)
-- Total N_2D = total events = AGN_rate × V × t (DERIVED from AGN rate)
+- Total $N_{\rm 2D}$ = total events = AGN_rate × V × t (DERIVED from AGN rate)
 
 So the cone structure has TWO independent scaling laws, each constrained by observations.
 
@@ -9954,7 +9954,7 @@ This is analogous to a particle in QFT: has fixed mass quantum, but can have var
 
 Source: `calculations/v35_2d_universe_quantum.py`.
 
-## 7.4.16 $\mu$ = $M_{\rm Pl,2D}^2$ DERIVED from N=12 $\times$ $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)
+## 7.4.16 $\mu$ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ $\times$ $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)
 
 **User direction (2026-06-20)**: "L26. lets go."
 
@@ -9965,7 +9965,7 @@ Previously, $\mu$ had 5 STRUCTURAL motivations (L308a-e) but no derivation. L26 
 This work REDUCES $\mu$ from CALIBRATED to DERIVED via a 3-input chain:
 
 **INPUTS** (all fundamental):
-1. ** $\alpha$ = 1 + 1/ $\sqrt{12}$ = 1.2886751346** (FIRST-PRINCIPPLES via Schwarzian SYK N=12, L308n)
+1. ** $\alpha$ = 1 + 1/ $\sqrt{12}$ = 1.2886751346** (FIRST-PRINCIPPLES via Schwarzian SYK $N=12$, L308n)
 2. ** $v_{\rm Higgs}$ = 246.22 GeV** (MEASURED, LEP+SLD combined)
 3. **N = 12** (STRUCTURAL: 12 Majorana = 6 Dirac = 3 generations $\times$ 2)
 
@@ -9994,9 +9994,9 @@ The "12" appears as:
 
 ### First-Principles Progress
 
-**BEFORE** (v3.5.7+): 1/9 parameters first-principles ( $\alpha$ only, via L308n) [REVISED v3.5.9+ A2: 3/15, N=12 downgraded to STRUCTURAL per L308ag]
+**BEFORE** (v3.5.7+): 1/9 parameters first-principles ( $\alpha$ only, via L308n) [REVISED v3.5.9+ A2: 3/15, $N=12$ downgraded to STRUCTURAL per L308ag]
 
-**AFTER** (v3.5.8+, REVISED v3.5.9+): **3/15 parameters first-principles (N=12 STRUCTURAL per L308ag) derived** (was 3/9):
+**AFTER** (v3.5.8+, REVISED v3.5.9+): **3/15 parameters first-principles ( $N=12$ STRUCTURAL per L308ag) derived** (was 3/9):
 - $\alpha$ = 1 + 1/ $\sqrt{12}$ (L308n)
 - $M_{\rm Pl,2D}$ = N $\times$ $v_{\rm Higgs}$ (this section, via L308f EW coincidence)
 - $\mu$ = $M_{\rm Pl,2D}^2$ (this section, follows from $M_{\rm Pl,2D}$)
@@ -10040,11 +10040,11 @@ The 3% offset is exactly $(1.015)^2 = 1.030$, consistent with $M_{\rm Pl,2D}$ be
 
 ### 8 Attempted Derivation Paths (v3.5.8+)
 
-After exhaustive search, 8 candidate derivations for μ were tested. Only Path 1 (N × v_H, L308r) gives a non-tautological result.
+After exhaustive search, 8 candidate derivations for μ were tested. Only Path 1 (N × $v_H$, L308r) gives a non-tautological result.
 
 | # | Path | Formula | Result | Tautological? | Source |
 |---|---|---|---|---|---|
-| 1 | N × v_H (L308r) | μ = (N × v_H)² | $8.73 \times 10^6$ GeV² (3% off) | NO | `v35_mu_N_vH_derivation.py` |
+| 1 | N × $v_H$ (L308r) | μ = (N × $v_H$)² | $8.73 \times 10^6$ GeV² (3% off) | NO | `v35_mu_N_vH_derivation.py` |
 | 2 | Hagedorn self-dual | $\mu = M_s^2$ with $M_s = M_{\rm Pl,2D}$ | $9 \times 10^6$ GeV² | YES | `v35_hagedorn_mu.py` |
 | 3 | JT dilaton potential | $\mu = -R_{\rm AdS,2}/2 = M_{\rm Pl,2D}^2$ | $9 \times 10^6$ GeV² | YES | `v35_jt_mu.py` |
 | 4 | String thermal duality | μ = M_s² at b↔1/(2b) self-dual | $9 \times 10^6$ GeV² | YES | `v35_string_duality_mu.py` |
@@ -10086,7 +10086,7 @@ The derivation chain requires N = 12 to be fixed. Where does N = 12 come from?
 
 **L26 (μ first-principles)**: OPEN → **PARTIAL CLOSURE** (§7.4.16) → **NO FURTHER CLOSURE POSSIBLE** (this section, 8 paths exhausted)
 
-**Verdict**: μ is DERIVED from (N × v_H)² within 3% of framework's value, and the 3% offset is honestly from $M_{\rm Pl,2D}$ rounding. There is no known derivation that pins down $M_{\rm Pl,2D}$ more precisely than N × v_H.
+**Verdict**: μ is DERIVED from (N × $v_H$)² within 3% of framework's value, and the 3% offset is honestly from $M_{\rm Pl,2D}$ rounding. There is no known derivation that pins down $M_{\rm Pl,2D}$ more precisely than N × $v_H$.
 
 **Implication for the framework**:
 - If precision matters, the framework should UPDATE $M_{\rm Pl,2D} = 2955 GeV (2.95 $TeV) and μ = $8.73 \times 10^6$ GeV²
@@ -10101,7 +10101,7 @@ L308t. **Framework UPDATED to consistent values (L308t, NEW v3.5.8+, USER-DIRECT
 - ** $M_{\rm Pl,2D}$**: 3 TeV (rounded) → **2.95 TeV (exact, 12 × 246.22 GeV)**
 - ** $\mu$**: 9×10⁶ GeV² (rounded) → **8.73×10⁶ GeV² (exact, $M_{\rm Pl,2D}^2$)**
 - ** $M_{\rm Pl,4D}$**: 4×10²³ GeV (rounded) → **3.93×10²³ GeV (exact, $\alpha$-GM with new $M_{\rm Pl,2D}$)**
-- **N_sub**: 4×10² (rounded) → **3.86×10² (exact, from new $M_{\rm Pl,4D}$)**
+- ** $N_{\rm sub}$**: 4×10² (rounded) → **3.86×10² (exact, from new $M_{\rm Pl,4D}$)**
 
 **L26 → FULLY CLOSED** (was PARTIAL CLOSURE with 3% offset). The derivation chain is now exact.
 
@@ -10110,7 +10110,7 @@ L308t. **Framework UPDATED to consistent values (L308t, NEW v3.5.8+, USER-DIRECT
 - 2D universe lifetime (33 s for SN, uses $M_{\rm Pl,3D}$) — UNCHANGED  
 - RAR / $g_+$ scaling — UNCHANGED
 - 5/27/68 split — UNCHANGED
-- $\alpha$ = 1.289 — UNCHANGED (Schwarzian SYK N=12)
+- $\alpha$ = 1.289 — UNCHANGED (Schwarzian SYK $N=12$)
 
 **Affected derived quantities** (1.5-3.4% shifts, all small):
 - 2D BH entropy: 3.49×10⁴⁶ → 3.60×10⁴⁶ (3% change, not directly observable)
@@ -10121,11 +10121,11 @@ L308t. **Framework UPDATED to consistent values (L308t, NEW v3.5.8+, USER-DIRECT
 
 **Note**: Some text in §7.4.16 and §7.4.17 retains references to "3 TeV" and "9×10⁶" in CONTRAST form (showing the OLD framework value vs NEW derivation) — these are intentional historical documentation, not stale values.
 
-L308u. **Why N = 12? — Z_12 bulk + 6D anomaly cancellation (NEW v3.5.9+, USER-DIRECTED, BREAKTHROUGH)**. The most striking open question (5 independent counts all giving N=12: SM, Majorana, F-theory, cone depth, Schwarzian) now has a first-principles derivation:
+L308u. **Why N = 12? — Z_12 bulk + 6D anomaly cancellation (NEW v3.5.9+, USER-DIRECTED, BREAKTHROUGH)**. The most striking open question (5 independent counts all giving $N=12$: SM, Majorana, F-theory, cone depth, Schwarzian) now has a first-principles derivation:
 
 1. **Appelquist et al. 2001** (PRL 87, 031801, hep-ph/0102010): proves that SM fields propagating in 6D spacetime (= 4D + 2D universal extra dimensions) require EXACTLY 3 generations for global anomaly cancellation.
 
-2. **Framework's F-theory 12D structure**: 2D fiber IS the "2D universal extra dimension" required by Appelquist et al. (SM fermions DO propagate in 2D fiber as SYK N=12 Majoranas).
+2. **Framework's F-theory 12D structure**: 2D fiber IS the "2D universal extra dimension" required by Appelquist et al. (SM fermions DO propagate in 2D fiber as SYK $N=12$ Majoranas).
 
 3. **SM fermion content**: 4 Weyl fermions per generation (up, down, electron, neutrino).
 
@@ -10138,18 +10138,18 @@ This unifies ALL FIVE "12"s in the framework:
 - N = 12 SYK Majoranas = 12 SM Weyl fermions
 - $M_{\rm Pl,2D} = 12 ×$v_H (structural)
 - Cone depth 12 sub-steps = Z_12 fiber
-- α = 1 + 1/√12 (Schwarzian unique to N=12, L308n)
+- α = 1 + 1/√12 (Schwarzian unique to $N=12$, L308n)
 - F-theory Z_12 orbifold (bulk symmetry)
 
 **All connected via Z_12 bulk symmetry + 6D anomaly cancellation!**
 
 This is the unified deep origin of the "12" cascade fundamental unit. The "12 = 12 SM Weyl fermions" identification is no longer just structural — it's a first-principles derivation.
 
-**First-principles count**: 3/9 → **4/9** (added N=12 derivation). Plus 1 MEASURED ( $M_{\rm Pl,3D}$), 1 DERIVED via α-GM ( $M_{\rm Pl,4D}$), 4 CALIBRATED (ε, τ_4D, AGN rate, $E_{\rm 4D}$). Source: `calculations/v36_research/anomaly_N12_connection.py`, arXiv:hep-ph/0102010.
+**First-principles count**: 3/9 → **4/9** (added $N=12$ derivation). Plus 1 MEASURED ( $M_{\rm Pl,3D}$), 1 DERIVED via α-GM ( $M_{\rm Pl,4D}$), 4 CALIBRATED (ε, τ_4D, AGN rate, $E_{\rm 4D}$). Source: `calculations/v36_research/anomaly_N12_connection.py`, arXiv:hep-ph/0102010.
 
 **What remains open after L308u**:
 - L138 ( $M_{\rm Pl,4D}$ closed-loop): Riley 2008 gives n=9.07, close to integer but not exact
-- L144 (N_sub first-principles): no derivation found yet
+- L144 ( $N_{\rm sub}$ first-principles): no derivation found yet
 
 
 
@@ -10159,8 +10159,8 @@ This is the unified deep origin of the "12" cascade fundamental unit. The "12 = 
 L308v. **L138 PARTIAL CLOSURE: $M_{\rm Pl,4D}$ via α-GM with first-principles inputs (NEW v3.5.9+, USER-DIRECTED)**. The α-GM formula $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) is now a CLOSED LOOP because all three inputs are first-principles:
 
 1. $M_{\rm Pl,3D} = 1.22×10¹⁹ GeV ($MEASURED)
-2. α = 1 + 1/√12 (L308n, Schwarzian SYK N=12, first-principles)
-3. $M_{\rm Pl,2D} = 12 × 246.22 GeV ($L308r, N × v_H, first-principles)
+2. α = 1 + 1/√12 (L308n, Schwarzian SYK $N=12$, first-principles)
+3. $M_{\rm Pl,2D} = 12 × 246.22 GeV ($L308r, N × $v_H$, first-principles)
 
 Result: $M_{\rm Pl,4D} = 3.98×10²³ GeV ($matches framework's 3.93×10²³ within 1.2%).
 
@@ -10237,7 +10237,7 @@ The "12" appears FIVE times in the framework:
 | "12" usage | Origin |
 |---|---|
 | N = 12 SYK Majoranas | = 12 SM Weyl fermions (3 gens × 4 Weyl) |
-| $M_{\rm Pl,2D} = 12 ×$v_H | Z_12 × v_H (structural) |
+| $M_{\rm Pl,2D} = 12 ×$v_H | Z_12 × $v_H$ (structural) |
 | Cone depth 12 sub-steps | Z_12 fiber (structural) |
 | α = 1 + 1/√12 | Schwarzian unique to N = 12 (L308n) |
 | F-theory Z_12 orbifold | Bulk symmetry → 3 generations |
@@ -10248,11 +10248,11 @@ This is the unified deep origin of the "12" cascade fundamental unit.
 
 ### First-Principles Status Update
 
-**BEFORE** (v3.5.8+): 3/9 parameters first-principles derived (α, $M_{\rm Pl,2D}$, μ via L308r) [REVISED v3.5.9+ A2: 3/15, N=12 downgraded to STRUCTURAL per L308ag]
+**BEFORE** (v3.5.8+): 3/9 parameters first-principles derived (α, $M_{\rm Pl,2D}$, μ via L308r) [REVISED v3.5.9+ A2: 3/15, $N=12$ downgraded to STRUCTURAL per L308ag]
 
-**AFTER** (v3.5.9+): **3/15 parameters first-principles (N=12 STRUCTURAL per L308ag) derived** (was 4/9 in L308h, corrected count):
-- α = 1 + 1/√12 (L308n, Schwarzian SYK N=12)
-- $M_{\rm Pl,2D}$ = N × v_H = 12 × 246.22 GeV (L308r, EW coincidence)
+**AFTER** (v3.5.9+): **3/15 parameters first-principles ( $N=12$ STRUCTURAL per L308ag) derived** (was 4/9 in L308h, corrected count):
+- α = 1 + 1/√12 (L308n, Schwarzian SYK $N=12$)
+- $M_{\rm Pl,2D}$ = N × $v_H$ = 12 × 246.22 GeV (L308r, EW coincidence)
 - $\mu = M_{\rm Pl,2D}^2$ (L308r, follows from $M_{\rm Pl,2D}$)
 - **N = 12 = 3 gens × 4 Weyl** (NEW, this section, 6D anomaly cancellation)
 
@@ -10260,13 +10260,13 @@ The remaining 5:
 - 1 MEASURED: $M_{\rm Pl,3D}$
 - 1 DERIVED via consistency: $M_{\rm Pl,4D}$ (α-GM)
 - 4 CALIBRATED: ε, τ_4D, AGN rate, $E_{\rm 4D}$
-- 1 FREE: N_sub (still genuinely free — see below)
+- 1 FREE: $N_{\rm sub}$ (still genuinely free — see below)
 - 1 STRUCTURAL: N = 12 (now derived from anomaly cancellation — promoted from structural)
 
 **Note (post-A1, v3.5.9+)**: With APPROACH A1 (§7.4.20), $f_{\rm leak} = H_0$ is added as 4th calibrated parameter (post-Friedmann). Total framework count is now **14 parameters** (was 9 pre-A1, was 10 after L308u but pre-A1). [REVISED post-L308z: 15 parameters — $E_{\rm 4D}$ moved from CALIBRATED to DERIVED, $E_{\rm sub}$ added as STRUCTURAL.]
 
 Wait, that's 7. Let me recount:
-- 4 DERIVED first-principles: α, $M_{\rm Pl,2D}$, μ, N=12
+- 4 DERIVED first-principles: α, $M_{\rm Pl,2D}$, μ, $N=12$
 - 1 DERIVED via consistency: $M_{\rm Pl,4D}$
 - 1 MEASURED: $M_{\rm Pl,3D}$
 - 4 CALIBRATED: ε, τ_4D, AGN rate, $E_{\rm 4D}$
@@ -10277,14 +10277,14 @@ Total = 4 + 1 + 1 + 4 = 10 — but framework has 15 parameters (v3.5.9+ A2). Let
 
 Actually the framework has 9 input parameters (v3.5.9 pre-A1):
 1. $M_{\rm Pl,3D}$ (MEASURED)
-2. $M_{\rm Pl,2D}$ (DERIVED via N × v_H)
+2. $M_{\rm Pl,2D}$ (DERIVED via N × $v_H$)
 3. $M_{\rm Pl,4D}$ (DERIVED via α-GM)
 4. α (DERIVED via Schwarzian)
 5. ε (CALIBRATED)
 6. τ_4D,proper (CALIBRATED)
 7. τ_3D,apparent (DERIVED, γ_4D × τ_4D)
 8. γ_4D (DERIVED, time dilation)
-9. N_sub (FREE)
+9. $N_{\rm sub}$ (FREE)
 
 After L308u (this section):
 - N = 12 is now first-principles derived (from 6D anomaly cancellation)
@@ -10297,15 +10297,15 @@ After L308u (this section):
 ### What Remains Open (Tier 1 status)
 
 - **L138 ( $M_{\rm Pl,4D}$ closed-loop derivation)**: Riley 2008 formula gives n=9.07 (close to integer 9, not exact). Could be improved with specific 6D compactification. STATUS: PROMISING but not first-principles.
-- **L144 (N_sub first-principles)**: No derivation found in research. $N_{\rm sub} = 3.86×10² re$mains FREE. STATUS: OPEN.
+- **L144 ( $N_{\rm sub}$ first-principles)**: No derivation found in research. $N_{\rm sub} = 3.86×10² re$mains FREE. STATUS: OPEN.
 - **Cone depth 12 sub-steps**: Structural (Z_12 fiber), not derived from deeper principle.
 
 ### Verification Checks
 
-1. **Is the 2D fiber "universal"?** YES — SM fermions DO propagate in 2D universe (as SYK N=12 Majoranas)
+1. **Is the 2D fiber "universal"?** YES — SM fermions DO propagate in 2D universe (as SYK $N=12$ Majoranas)
 2. **Same gauge charges across generations?** YES — SM structure
 3. **F-theory geometry consistent?** YES — standard F-theory on CY_4 with 2D fiber
-4. **N=12 follows exactly?** YES — 3 generations × 4 Weyl = 12 Weyl = 12 Majorana
+4. ** $N=12$ follows exactly?** YES — 3 generations × 4 Weyl = 12 Weyl = 12 Majorana
 
 **Source**: `calculations/v36_research/anomaly_N12_connection.py`, `calculations/v36_research/tier1_findings.py`, arXiv:hep-ph/0102010, arXiv:0809.0111, Candelas standard embedding on Z_12 CY_3.
 
@@ -10314,7 +10314,7 @@ After L308u (this section):
 
 **User direction (2026-06-20)**: "l138 it is"
 
-After L308n (α first-principles via Schwarzian SYK N=12), L308r ( $M_{\rm Pl,2D}$ via N × v_H), and L308u (N = 12 from 6D anomaly cancellation), the α-GM formula for $M_{\rm Pl,4D}$ now has ALL first-principles inputs.
+After L308n (α first-principles via Schwarzian SYK $N=12$), L308r ( $M_{\rm Pl,2D}$ via N × $v_H$), and L308u (N = 12 from 6D anomaly cancellation), the α-GM formula for $M_{\rm Pl,4D}$ now has ALL first-principles inputs.
 
 ### The α-GM Closed Loop
 
@@ -10323,8 +10323,8 @@ $$M_{\rm Pl,4D} = M_{\rm Pl,3D}^\alpha \times M_{\rm Pl,2D}^{(1-\alpha)}$$
 
 **Inputs** (all first-principles post-L308n/r/u):
 - $M_{\rm Pl,3D} = 1.22×10¹⁹ GeV ($MEASURED, Newton's G)
-- α = 1 + 1/√12 = 1.2886751346 (L308n first-principles via Schwarzian SYK N=12)
-- $M_{\rm Pl,2D}$ = N × v_H = 12 × 246.22 = 2954.64 GeV (L308r first-principles via N × v_H)
+- α = 1 + 1/√12 = 1.2886751346 (L308n first-principles via Schwarzian SYK $N=12$)
+- $M_{\rm Pl,2D}$ = N × $v_H$ = 12 × 246.22 = 2954.64 GeV (L308r first-principles via N × $v_H$)
 
 **Output** via α-GM:
 $$M_{\rm Pl,4D} = (1.22 \times 10^{19})^{1.289} \times (2954.64)^{-0.289} = 3.98 \times 10^{23} \text{ GeV}$$
@@ -10354,18 +10354,18 @@ So each cascade level increases log scale by α factor of the previous level. Th
 
 **Parameter hierarchy update**:
 - 4 MEASURED/CALIBRATED: $M_{\rm Pl,3D}$, ε, τ_4D, AGN rate, f_leak= $H_0$ (post-A1)
-- 4 FIRST-PRINCIPLES DERIVED: α, $M_{\rm Pl,2D}$, μ, N=12
+- 4 FIRST-PRINCIPLES DERIVED: α, $M_{\rm Pl,2D}$, μ, $N=12$
 - 2 DERIVED via α-GM and energy conservation: $M_{\rm Pl,4D}$, $E_{\rm 4D}$ (post-L308z)
 - 2 STRUCTURAL: τ_3D,apparent, γ_4D (follow from M^α law and time dilation)
-- 1 FREE: N_sub (event-specific, post-L308z)
+- 1 FREE: $N_{\rm sub}$ (event-specific, post-L308z)
 - TOTAL: 15 parameters (1+4+2+4+2+1+1 = 15)
 
 Actually, the count is:
 - 1 MEASURED: $M_{\rm Pl,3D}$
 - 4 CALIBRATED: ε, τ_4D, AGN rate, $E_{\rm 4D}$
-- 4 FIRST-PRINCIPPLES: α, $M_{\rm Pl,2D}$, μ, N=12
-- 3 DERIVED (via α-GM, time dilation, energy conservation): $M_{\rm Pl,4D}$, τ_3D,apparent, N_sub
-- 1 FREE: none? Or maybe N_sub counts as free?
+- 4 FIRST-PRINCIPPLES: α, $M_{\rm Pl,2D}$, μ, $N=12$
+- 3 DERIVED (via α-GM, time dilation, energy conservation): $M_{\rm Pl,4D}$, τ_3D,apparent, $N_{\rm sub}$
+- 1 FREE: none? Or maybe $N_{\rm sub}$ counts as free?
 
 Hmm, framework has 9 input parameters (v3.5.9 PRE-A1). After A1 (§7.4.20), total is 14. Let me re-count.
 
@@ -10478,7 +10478,7 @@ The framework now has three independent "rates":
    - f_leak = $H_0$ (set by cosmic expansion rate)
    - DM is "redshifted out" at the expansion rate
 
-**The 1.4% match between §3.67 formula and $H_0$** becomes a "striking coincidence" rather than a derivation. It may yet be derivable from a deeper principle (e.g., specific N=12 structure or F-theory geometry), but the framework no longer requires it.
+**The 1.4% match between §3.67 formula and $H_0$** becomes a "striking coincidence" rather than a derivation. It may yet be derivable from a deeper principle (e.g., specific $N=12$ structure or F-theory geometry), but the framework no longer requires it.
 
 ### Implications
 
@@ -10507,17 +10507,17 @@ The framework now has three independent "rates":
 | Status | Parameters |
 |---|---|
 | **MEASURED** | $M_{\rm Pl,3D}$ |
-| **FIRST-PRINCIPLES** | α, $M_{\rm Pl,2D}$, μ, N=12 |
+| **FIRST-PRINCIPLES** | α, $M_{\rm Pl,2D}$, μ, $N=12$ |
 | **DERIVED (α-GM)** | $M_{\rm Pl,4D}$ |
 | **CALIBRATED** | ε, τ_4D, $E_{\rm 4D}$, AGN rate, **f_leak = $H_0$** (new) |
 | **STRUCTURAL** | τ_3D,apparent, γ_4D (both cascade amplification factor) |
-| **FREE** | N_sub |
+| **FREE** | $N_{\rm sub}$ |
 
 **Total**: 14 parameters (was 13, +f_leak). **Net change: +1 calibrated (f_leak)**. [REVISED post-L308z: 15 parameters — $E_{\rm 4D}$ moved from CALIBRATED to DERIVED, $E_{\rm sub}$ added as STRUCTURAL.]
 
 ### What Remains Open
 
-- **f_leak = $H_0$ first-principles**: $H_0$ is observed, not derived. Future research could derive f_leak from a deeper principle (e.g., N=12 structure, F-theory geometry, or Schwarzian dynamics). STATUS: PARTIALLY CLOSED (calibrated/observed).
+- **f_leak = $H_0$ first-principles**: $H_0$ is observed, not derived. Future research could derive f_leak from a deeper principle (e.g., $N=12$ structure, F-theory geometry, or Schwarzian dynamics). STATUS: PARTIALLY CLOSED (calibrated/observed).
 - **§3.67 1.4% match**: Now a coincidence. May yet be derivable. STATUS: OPEN (derivation target).
 - **$\gamma_{\rm 4D}$ derivation**: $\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ is derived, but the PHYSICAL INTERPRETATION (time dilation vs back-flow efficiency) is ambiguous. STATUS: STRUCTURAL.
 
@@ -10650,7 +10650,7 @@ This is a sharp question. Let me audit honestly.
 | 2 | α | 1.289 | FIRST-PRINCIPLES |
 | 3 | $M_{\rm Pl,2D}$ | 2.95 TeV | FIRST-PRINCIPLES |
 | 4 | μ | 8.73×10⁶ GeV² | FIRST-PRINCIPLES |
-| 5 | N=12 | 12 | FIRST-PRINCIPLES |
+| 5 | $N=12$ | 12 | FIRST-PRINCIPLES |
 | 6 | $M_{\rm Pl,4D}$ | 3.93×10²³ GeV | DERIVED |
 | 7 | $E_{\rm 4D}$ | 5×10⁷⁹ J | DERIVED |
 | 8 | ε | $10^{-38}$ | CALIBRATED |
@@ -10660,7 +10660,7 @@ This is a sharp question. Let me audit honestly.
 | 12 | $E_{\rm sub}$ | 1.295×10⁷⁷ J | STRUCTURAL |
 | 13 | τ_3D,apparent | 1.66×10¹⁴⁵ yr (A2) | STRUCTURAL |
 | 14 | γ_4D | 1.10×10¹¹¹ (A2) | STRUCTURAL |
-| 15 | N_sub | 386 | FREE |
+| 15 | $N_{\rm sub}$ | 386 | FREE |
 
 ### Re-audit: True Independence
 
@@ -10682,23 +10682,23 @@ This is a sharp question. Let me audit honestly.
 - $M_{\rm Pl,3D}$ (Newton G): can't avoid
 - ρ_DE (or ε·τ_4D product): cosmological input
 - AGN rate: observational input for late-time DM
-- N_sub: event-specific (L144 OPEN)
+- $N_{\rm sub}$: event-specific (L144 OPEN)
 
 ### The Honest Count
 
 | Bucket | Parameters | Truly independent? |
 |---|---|---|
 | **MEASURED** (input from observation) | $M_{\rm Pl,3D}$, AGN rate | 2 |
-| **FIRST-PRINCIPLES** (from SM/SYK) | α, $M_{\rm Pl,2D}$, μ, N=12 | 5 — but 5 derive from SM $v_{\rm Higgs}$ |
+| **FIRST-PRINCIPLES** (from SM/SYK) | α, $M_{\rm Pl,2D}$, μ, $N=12$ | 5 — but 5 derive from SM $v_{\rm Higgs}$ |
 | **DERIVED** (follow from others) | $M_{\rm Pl,4D}$, $E_{\rm 4D}$, τ_3D,apparent, γ_4D | 4 — geometric consequences |
 | **STRUCTURAL** (per-sub-universe) | $E_{\rm sub}$ | 1 — $E_{\rm 4D}$/ $N_{\rm sub} = 1.295e77 J$|
 | **CALIBRATED** (set to match) | ρ_DE (was ε, τ_4D separately) | 1 |
-| **FREE** (event-specific) | N_sub | 1 |
+| **FREE** (event-specific) | $N_{\rm sub}$ | 1 |
 | **TOTAL** | | **15 → 9** |
 
-**But 5 of the 9 come FROM the Standard Model** (α, $M_{\rm Pl,2D}$, μ, N=12 all derive from SM).
+**But 5 of the 9 come FROM the Standard Model** (α, $M_{\rm Pl,2D}$, μ, $N=12$ all derive from SM).
 
-**Net new parameters beyond SM+GR: 4** ( $M_{\rm Pl,3D}$, ρ_DE, AGN rate, N_sub)
+**Net new parameters beyond SM+GR: 4** ( $M_{\rm Pl,3D}$, ρ_DE, AGN rate, $N_{\rm sub}$)
 
 ### Comparison With Other Models
 
@@ -10726,7 +10726,7 @@ The framework's REAL flexibility is comparable to ΛCDM: 4-6 truly free paramete
 | Reduction | Requires |
 |---|---|
 | AGN rate from first principles | Specific 2D CFT calculation of 2D universe population |
-| N_sub from first principles | L144 closure (specific 4D-bulk dynamics) |
+| $N_{\rm sub}$ from first principles | L144 closure (specific 4D-bulk dynamics) |
 | ρ_DE from first principles | Specific 5D AdS geometry + brane tension |
 | ε alone from first principles | Bulk Lagrangian |
 
@@ -10737,15 +10737,15 @@ The framework's REAL flexibility is comparable to ΛCDM: 4-6 truly free paramete
   1. $M_{\rm Pl,3D}$ (gravity scale)
   2. ρ_DE (DE density — calibrated to observation)
   3. AGN rate (DM production rate — measured)
-  4. N_sub (event-specific — FREE, L144 OPEN)
-- **5 first-principles** (α, $M_{\rm Pl,2D}$, μ, N=12) all derive from SM
+  4. $N_{\rm sub}$ (event-specific — FREE, L144 OPEN)
+- **5 first-principles** (α, $M_{\rm Pl,2D}$, μ, $N=12$) all derive from SM
 - **4 derived** are geometric consequences
 - **1 structural** is $E_{\rm sub}$ (per-sub-universe energy: $E_{\rm 4D}$/ $N_{\rm sub} = 1.295e77 J)$- Status: PARTIAL closure — parameter count clarified but not reduced
 
 **Source**: User audit request (2026-06-21), `calculations/v36_research/L308ab_fleak_Hz_drain_CMB.py` (parameter hierarchy).
 
 
-## 7.4.23 L308ad: N_sub ≈ N_12 × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3), PARTIAL closure of L144 (v3.5.9+, USER-DIRECTED)
+## 7.4.23 L308ad: $N_{\rm sub}$ ≈ $N_{12}$ × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3), PARTIAL closure of L144 (v3.5.9+, USER-DIRECTED)
 
 **User direction (2026-06-21)**: "yes, try" (derive the truly-free parameters from first principles)
 
@@ -10755,7 +10755,7 @@ Of 15 total parameters, only 4 are truly new beyond SM+GR:
 1. ** $M_{\rm Pl,3D}$** — Newton's G (MEASURED, can't derive)
 2. **ρ_DE** — cosmological constant (OPEN, requires bulk Lagrangian)
 3. **AGN rate** — DM production rate (OPEN, requires 2D CFT event spectrum)
-4. **N_sub** — sub-universes per 4D event (FREE, L144)
+4. ** $N_{\rm sub}$** — sub-universes per 4D event (FREE, L144)
 
 ### Attempted Derivations
 
@@ -10763,16 +10763,16 @@ Tried multiple first-principles approaches:
 
 | Approach | Formula | Result | Match? |
 |---|---|---|---|
-| Holographic | N_sub = A_3D / l_Pl,4D² | 10^185 | ✗ way too many |
-| Causal patches | N_sub = V_4D_ball / l_Pl,4D⁴ | 10^225 | ✗ |
-| Entropy | N_sub = exp(S_BH/k_B) | 10^185 | ✗ |
+| Holographic | $N_{\rm sub}$ = A_3D / l_Pl,4D² | 10^185 | ✗ way too many |
+| Causal patches | $N_{\rm sub}$ = V_4D_ball / l_Pl,4D⁴ | 10^225 | ✗ |
+| Entropy | $N_{\rm sub}$ = exp(S_BH/k_B) | 10^185 | ✗ |
 | $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio^1 | 3.22×10⁴ | ✗ off by 83× |
 | $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio^1/2 | 179 | ✗ off by 2.2× |
-| $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio^1/3 | 31.82 | ✓ ×N_12 gives 381.8 |
+| $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio^1/3 | 31.82 | ✓ × $N_{12}$ gives 381.8 |
 | $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio^1/α | 3143 | ✗ |
 | $M_{\rm Pl,4D}$/ $M_{\rm Pl,2D}$ ratio^1/12 | 47.5 | ✗ |
 
-### The Break: N_sub ≈ N_12 × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3)
+### The Break: $N_{\rm sub}$ ≈ $N_{12}$ × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3)
 
 **Formula**:
 $$N_{\rm sub} \approx N_{12} \times \left(\frac{M_{\rm Pl,4D}}{M_{\rm Pl,3D}}\right)^{1/3}$$
@@ -10824,7 +10824,7 @@ The first formula is cleanest (cube root is geometric, no arbitrary 1000).
 
 | Parameter | Before L308ad | After L308ad |
 |---|---|---|
-| N_sub | FREE (L144 OPEN) | PARTIAL (1.6% off from first principles) |
+| $N_{\rm sub}$ | FREE (L144 OPEN) | PARTIAL (1.6% off from first principles) |
 | $M_{\rm Pl,3D}$ | MEASURED | MEASURED (no change) |
 | ρ_DE | CALIBRATED | CALIBRATED (cosmological constant problem) |
 | AGN rate | CALIBRATED | CALIBRATED (event spectrum) |
@@ -10841,7 +10841,7 @@ The first formula is cleanest (cube root is geometric, no arbitrary 1000).
 
 
 
-## 7.4.24 L308ae: N_sub formula residual — 1.6% gap is within framework uncertainties (v3.5.9+)
+## 7.4.24 L308ae: $N_{\rm sub}$ formula residual — 1.6% gap is within framework uncertainties (v3.5.9+)
 
 **Context**: L308ad proposed $N_{\rm sub} \approx N_{12} \times (M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3} = 381.8$ vs framework 386 (1.6% off).
 
@@ -10856,7 +10856,7 @@ Tried 18+ correction formulas to close the gap:
 | × (1 + 1/12²) | 384.5 | -1.5 |
 | × (1 + (α-1)/12) | 391.0 | +5.0 |
 | × √(1 + 1/12) | 397.4 | +11.4 |
-| × √(1 + 1/N_12) | 397.4 | +11.4 |
+| × √(1 + 1/ $N_{12}$) | 397.4 | +11.4 |
 | × (α²/α) | 492.0 | way off |
 
 The closest match is ×(1 + α/100) = 386.7, but **α/100 is not a natural physics factor**.
@@ -10866,7 +10866,7 @@ The closest match is ×(1 + α/100) = 386.7, but **α/100 is not a natural physi
 The 1.6% gap is **within the framework's own uncertainties**:
 
 1. ** $M_{\rm Pl,4D}$ has ±2x uncertainty** from α-GM (different rounding conventions give 3.93e23 or 4.0e23)
-2. **Framework rounds N_sub to 386** from exact calculation 386.5 ( $E_{\rm 4D}$/ $E_{\rm sub}$)
+2. **Framework rounds $N_{\rm sub}$ to 386** from exact calculation 386.5 ( $E_{\rm 4D}$/ $E_{\rm sub}$)
 3. ** $E_{\rm sub}$ itself is calibrated** (STRUCTURAL), so 386 is essentially $E_{\rm 4D}$ / $E_{\rm sub}$ where $E_{\rm sub}$ has ~1-2% uncertainty
 
 ### Conclusion
@@ -10887,7 +10887,7 @@ L144 is now PARTIALLY closed (was OPEN). Full closure requires:
 - $E_{\rm sub}$ derivation (currently STRUCTURAL, not derived)
 - Specific bulk Lagrangian (genuine OPEN)
 
-For practical purposes, **N_sub ≈ 12 × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3) ≈ 386** is a working first-principles estimate within framework precision.
+For practical purposes, ** $N_{\rm sub}$ ≈ 12 × ( $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$)^(1/3) ≈ 386** is a working first-principles estimate within framework precision.
 
 
 
@@ -10929,21 +10929,21 @@ If taken literally as events per cubic meter per second with $M_{\rm 2D}$ ~ 10 M
 
 
 
-## 7.4.26 (L308ag): N=12 First-Principles Status — HONEST RE-EXAMINATION (v3.5.9+)
+## 7.4.26 (L308ag): $N=12$ First-Principles Status — HONEST RE-EXAMINATION (v3.5.9+)
 
 **Date**: 2026-06-21
 **Trigger**: User question "why is n=12 first principles"
-**Status**: REVISED — N=12 reclassified from FIRST-PRINCIPLES to PARTIAL
+**Status**: REVISED — $N=12$ reclassified from FIRST-PRINCIPLES to PARTIAL
 
 ### The User's Sharp Question
 
-N=12 was claimed to be first-principles in v3.5.9+ A2 (L308u, Z_12 + 6D anomaly). But is it really?
+$N=12$ was claimed to be first-principles in v3.5.9+ A2 (L308u, Z_12 + 6D anomaly). But is it really?
 
 ### The 5 "Derivations" Re-Examined
 
 **1. Schwarzian SYK: α = 1 + 1/√N**
-- Match: framework α=1.289 corresponds to N=12 ✓
-- **But this is CIRCULAR**: framework uses α=1.289, then derives N=12
+- Match: framework α=1.289 corresponds to $N=12$ ✓
+- **But this is CIRCULAR**: framework uses α=1.289, then derives $N=12$
 - Schwarzian coefficient 1/√N is itself model-dependent (depends on q=4 SYK specifically)
 - Status: SUGGESTIVE, not derivation
 
@@ -10962,20 +10962,20 @@ N=12 was claimed to be first-principles in v3.5.9+ A2 (L308u, Z_12 + 6D anomaly)
 
 **4. $M_{\rm Pl,2D} = 12 ×$v_Higgs**
 - This is FRAMEWORK CHOICE
-- N=12 emerges as the ratio $M_{\rm Pl,2D}$/ $v_{\rm Higgs}$
+- $N=12$ emerges as the ratio $M_{\rm Pl,2D}$/ $v_{\rm Higgs}$
 - $M_{\rm Pl,2D}$ itself is calibrated to 2.95 TeV (consistency with cascade)
 - Status: CIRCULAR
 
-**5. Ising CFT with c=1/2 + N=12 Majoranas**
+**5. Ising CFT with c=1/2 + $N=12$ Majoranas**
 - 1 Ising CFT has c=1/2 (1 Majorana)
 - 12 Ising CFTs would have c=6 (12 Majoranas)
-- **Framework says c=1/2 (Ising) with N=12 → INCONSISTENT**
+- **Framework says c=1/2 (Ising) with $N=12$ → INCONSISTENT**
 - Either c=6 (12 Majoranas) or c=1/2 (1 Majorana), not both
 - Status: ARITHMETIC INCONSISTENT
 
 ### Honest Verdict
 
-**N=12 is NOT first-principles in the strict sense.**
+** $N=12$ is NOT first-principles in the strict sense.**
 
 It has multiple suggestive interpretations:
 - Schwarzian match (circular)
@@ -10990,28 +10990,28 @@ But NONE of these are rigorous first-principles derivations. The "5 independent 
 
 | Status | Parameter | Was | Now |
 |---|---|---|---|
-| FIRST-PRINCIPLES | α | ✓ | ✓ (L308n, via Schwarzian with assumed N=12) |
+| FIRST-PRINCIPLES | α | ✓ | ✓ (L308n, via Schwarzian with assumed $N=12$) |
 | FIRST-PRINCIPLES | $M_{\rm Pl,2D}$ | ✓ | ✓ (L308r, $M_{\rm Pl,2D} = 12 ×$v_Higgs) |
 | FIRST-PRINCIPLES | μ | ✓ | ✓ (L308r, μ = $M_{\rm Pl}$,2D²) |
-| FIRST-PRINCIPLES | N=12 | ✓ | **PARTIAL** (downgrade per this L308ag) |
+| FIRST-PRINCIPLES | $N=12$ | ✓ | **PARTIAL** (downgrade per this L308ag) |
 | FIRST-PRINCIPLES | 4 total | | **3 total** |
 
 **L308u was overclaiming.** The 6D anomaly argument requires specific brane-world structure not present in the cascade.
 
-### What Would Make N=12 First-Principles
+### What Would Make $N=12$ First-Principles
 
-1. **Derive N=12 from 2D CFT internal consistency** (closed-loop, not Schwarzian)
-2. **Show 12 is the unique number with N=12 SYK UV completion** (not 11, 13)
+1. **Derive $N=12$ from 2D CFT internal consistency** (closed-loop, not Schwarzian)
+2. **Show 12 is the unique number with $N=12$ SYK UV completion** (not 11, 13)
 3. **F-theory CY3 topology that specifically gives 12 generations structure**
 4. **Observed 12 in cosmology** (cosmic topology, CMB, large-scale structure)
 
 ### Status
 
-**L308ag (this section)**: N=12 reclassified FIRST-PRINCIPLES → PARTIAL.
+**L308ag (this section)**: $N=12$ reclassified FIRST-PRINCIPLES → PARTIAL.
 
 **Parameter count update**:
-- Was: 1 MEASURED, 4 FIRST-PRINCIPPLES, 2 DERIVED, 4 CALIBRATED, 4 STRUCTURAL (incl N=12 per L308ag), 1 FREE
-- Now: 1 MEASURED, **3 FIRST-PRINCIPPLES**, 2 DERIVED, 4 CALIBRATED, **4 STRUCTURAL** (added N=12), 1 FREE
+- Was: 1 MEASURED, 4 FIRST-PRINCIPPLES, 2 DERIVED, 4 CALIBRATED, 4 STRUCTURAL (incl $N=12$ per L308ag), 1 FREE
+- Now: 1 MEASURED, **3 FIRST-PRINCIPPLES**, 2 DERIVED, 4 CALIBRATED, **4 STRUCTURAL** (added $N=12$), 1 FREE
 - Total still 15
 
 **L308u → L308ag**: First-principles claim PARTIAL → STRUCTURAL with multiple physical motivations.
@@ -11019,7 +11019,7 @@ But NONE of these are rigorous first-principles derivations. The "5 independent 
 
 
 
-## 7.4.27 (L308ah): Deeper Research on N=12 and α = 1.289 (v3.5.9+, USER-DIRECTED)
+## 7.4.27 (L308ah): Deeper Research on $N=12$ and α = 1.289 (v3.5.9+, USER-DIRECTED)
 
 **Date**: 2026-06-21
 **Trigger**: User question "lets more research for n=12 and why alpha is 1.289"
@@ -11027,13 +11027,13 @@ But NONE of these are rigorous first-principles derivations. The "5 independent 
 
 ### The Research Question
 
-After L308ag downgraded N=12 to STRUCTURAL, the user requested deeper research into:
-1. **Why is N=12** (can we derive it from first principles?)
+After L308ag downgraded $N=12$ to STRUCTURAL, the user requested deeper research into:
+1. **Why is $N=12$** (can we derive it from first principles?)
 2. **Why is α = 1.289** (is the Schwarzian formula exact?)
 
 ### What I Found: α = 1.289 Investigation
 
-**The framework's claim**: α = 1 + 1/√N with N=12 gives α = 1.2887 (matches framework's 1.289 within 0.025%).
+**The framework's claim**: α = 1 + 1/√N with $N=12$ gives α = 1.2887 (matches framework's 1.289 within 0.025%).
 
 **Literature check** (web research):
 - Standard SYK: conformal dimension Δ = 1/q (for q-body interaction)
@@ -11055,28 +11055,28 @@ After L308ag downgraded N=12 to STRUCTURAL, the user requested deeper research i
 **Alternative formulas for α in SYK literature**:
 | Formula | q=4 | q=8 | Notes |
 |---------|-----|-----|-------|
-| α = 1 + 1/√N (N=12) | 1.289 | 1.289 | Framework's claim |
+| α = 1 + 1/√N ( $N=12$) | 1.289 | 1.289 | Framework's claim |
 | α = 1 + 2/q | 1.500 | 1.250 | Different q-dependence |
 | α = 1 + 1/(q-1) | 1.333 | 1.143 | Yet another form |
 | α = 1 (universal limit) | 1.000 | 1.000 | Large-N, large-q limit |
 
-**Verdict**: α = 1.289 is **plausibly** derived from SYK with N=12, but the derivation is non-standard and assumes α_M^α_law = α_Schwarzian. This assumption is not derived.
+**Verdict**: α = 1.289 is **plausibly** derived from SYK with $N=12$, but the derivation is non-standard and assumes α_M^α_law = α_Schwarzian. This assumption is not derived.
 
-### What I Found: N=12 Investigation
+### What I Found: $N=12$ Investigation
 
 **The framework's 5 motivations (L308u, L308ag downgraded)**:
 1. Schwarzian α = 1+1/√N: **CIRCULAR** (uses α as input)
 2. 6D anomaly (Appelquist 2001): **MISAPPLIED** (framework's 2D fiber ≠ UED)
 3. SM fermion count: **ASSUMES SM**
 4. $M_{\rm Pl,2D}$/ $v_{\rm Higgs}$: **FRAMEWORK CHOICE**
-5. Ising c=1/2 + N=12: **ARITHMETIC INCONSISTENT**
+5. Ising c=1/2 + $N=12$: **ARITHMETIC INCONSISTENT**
 
-**New investigation: Is there a clean derivation of N=12?**
+**New investigation: Is there a clean derivation of $N=12$?**
 
 A. **F-theory with specific CY3 topology** (Cvetic et al, arXiv:1503.02068):
    - 3-generation SM can be realized in F-theory
    - But the construction requires specific topological choices
-   - Doesn't uniquely give N=12
+   - Doesn't uniquely give $N=12$
 
 B. **Anomaly cancellation in 6D** (Appelquist, PRL 87, 031801):
    - "Global anomaly cancellation requires more than one generation of quarks and leptons, provided that the standard model fields propagate in two universal extra dimensions"
@@ -11086,38 +11086,38 @@ B. **Anomaly cancellation in 6D** (Appelquist, PRL 87, 031801):
    - So this argument doesn't apply
 
 C. **Modular tensor categories / 2D CFT consistency**:
-   - N=12 doesn't appear as a unique number in standard CFT classifications
-   - No bootstrap argument forces N=12 specifically
+   - $N=12$ doesn't appear as a unique number in standard CFT classifications
+   - No bootstrap argument forces $N=12$ specifically
    - Status: NOT FOUND
 
-D. **N=24 vs N=12 confusion (CLARIFIED)**:
+D. **N=24 vs $N=12$ confusion (CLARIFIED)**:
    - 1 free Majorana: c = 1/2
    - N free Majoranas: c = N/2 (standard)
    - 12 free Majoranas: c = 6 (NOT 1/2)
    - Framework claims c = N/24, NOT N/2
    - 12 × (1/24) = 1/2 ✓ (matches Ising)
    - c = N/24 is a SPECIFIC formula (Schwarzian/SYK with Z2 orbifold), not free Majorana CFT
-   - So framework's "c=1/2 (Ising) + N=12 Majoranas" requires SPECIFIC construction (Schwarzian/SYK with Z2)
+   - So framework's "c=1/2 (Ising) + $N=12$ Majoranas" requires SPECIFIC construction (Schwarzian/SYK with Z2)
    - This is a framework choice (which construction to use), not derivation
    - Note: c=N/24 might be a misrepresentation; c=N/2 with Z2 quotient would give c=3 (still not 1/2)
 
-**Verdict**: There is NO rigorous first-principles derivation of N=12 currently known.
+**Verdict**: There is NO rigorous first-principles derivation of $N=12$ currently known.
 
 ### Honest Re-Assessment
 
-**N=12 status**: STRUCTURAL with 5 suggestive motivations (L308ag)
+** $N=12$ status**: STRUCTURAL with 5 suggestive motivations (L308ag)
 
 **α = 1.289 status**: PARTIALLY first-principles
 - Formula α = 1 + 1/√N is valid in SYK literature (1/N correction)
-- N=12 → α = 1.2887 ✓ (within 0.025% of framework's 1.289)
+- $N=12$ → α = 1.2887 ✓ (within 0.025% of framework's 1.289)
 - BUT: framework's M^α law application is non-standard
 - Specifically: assumes α_M^α_law = α_Schwarzian (NOT derived)
 
 ### What Would Close the Gaps
 
-1. **For N=12**: 
-   - Find a 2D CFT calculation where N=12 is uniquely required by internal consistency
-   - OR find an observation that forces N=12
+1. **For $N=12$**: 
+   - Find a 2D CFT calculation where $N=12$ is uniquely required by internal consistency
+   - OR find an observation that forces $N=12$
    - OR derive from a specific F-theory CY3 topology
    - Current status: no derivation found
 
@@ -11129,7 +11129,7 @@ D. **N=24 vs N=12 confusion (CLARIFIED)**:
 ### Source for This Research
 
 Web searches conducted 2026-06-21:
-- "Schwarzian SYK N=12 Majorana fermion alpha exponent first principles derivation"
+- "Schwarzian SYK $N=12$ Majorana fermion alpha exponent first principles derivation"
 - "6D anomaly cancellation generations Appelquist 2001 three generations"
 - "F-theory compactification generations three chiral families CY3 12"
 - "Ising CFT central charge N Majorana fermions 12 c=1/2"
@@ -11143,17 +11143,17 @@ Key references found:
 
 ### Status
 
-**L308ah (this section)**: Deeper research on N=12 and α. Both remain at the same status as before:
-- N=12: STRUCTURAL (L308ag), with no first-principles derivation found
+**L308ah (this section)**: Deeper research on $N=12$ and α. Both remain at the same status as before:
+- $N=12$: STRUCTURAL (L308ag), with no first-principles derivation found
 - α = 1.289: PARTIALLY first-principles (L308n), but framework's M^α application is non-standard
 
-**Honest conclusion**: After deeper research, neither N=12 nor α = 1.289 has a clean first-principles derivation. They are **structural parameters with physical motivations**, not derived values.
+**Honest conclusion**: After deeper research, neither $N=12$ nor α = 1.289 has a clean first-principles derivation. They are **structural parameters with physical motivations**, not derived values.
 
 The framework remains rigorous by acknowledging this honestly, rather than overclaiming.
 
 
 
-## 7.4.28 (L308ai): N=12 from Other Angles — Web Research Round 2 (v3.5.9+)
+## 7.4.28 (L308ai): $N=12$ from Other Angles — Web Research Round 2 (v3.5.9+)
 
 **Date**: 2026-06-21
 **Trigger**: User question "can you do yet more web research on n=12? view other angles"
@@ -11161,7 +11161,7 @@ The framework remains rigorous by acknowledging this honestly, rather than overc
 
 ### Angles Explored
 
-After L308ah, the user requested deeper research into OTHER angles for N=12. Web searches conducted 2026-06-21 explored:
+After L308ah, the user requested deeper research into OTHER angles for $N=12$. Web searches conducted 2026-06-21 explored:
 
 ### 1. Z_12 Orbifolds in String Theory (Heterotic)
 
@@ -11177,7 +11177,7 @@ After L308ah, the user requested deeper research into OTHER angles for N=12. Web
 **Significance**:
 - 12 appears as the order of the orbifold group
 - 3 generations arise from CY topology with Z_12 fundamental group
-- This is the cleanest "N=12 → 3 generations" connection in physics literature
+- This is the cleanest " $N=12$ → 3 generations" connection in physics literature
 
 **But**:
 - Z_12 orbifold is a SPECIFIC CHOICE among many possible orbifolds (Z_3, Z_4, Z_6, Z_8, Z_12, etc.)
@@ -11286,18 +11286,18 @@ After L308ah, the user requested deeper research into OTHER angles for N=12. Web
 ### 7. Other Angles (Negative Results)
 
 Searches for:
-- SU(12) gauge group: 143-dim adjoint, no special N=12 significance
-- N=12 in CFT bootstrap: no unique constraint
-- N=12 in minimal models: not in standard classifications
-- N=12 in conformal embeddings: not uniquely required
-- N=12 from W-algebras: not standard
-- N=12 in Casimir algebra: SO(12) has 66-dim adjoint
+- SU(12) gauge group: 143-dim adjoint, no special $N=12$ significance
+- $N=12$ in CFT bootstrap: no unique constraint
+- $N=12$ in minimal models: not in standard classifications
+- $N=12$ in conformal embeddings: not uniquely required
+- $N=12$ from W-algebras: not standard
+- $N=12$ in Casimir algebra: SO(12) has 66-dim adjoint
 
-**None give a rigorous first-principles derivation of N=12.**
+**None give a rigorous first-principles derivation of $N=12$.**
 
 ### Synthesis
 
-After Round 2 of research, the strongest candidates for N=12 are:
+After Round 2 of research, the strongest candidates for $N=12$ are:
 
 | Angle | Status | Strongest point |
 |---|---|---|
@@ -11314,9 +11314,9 @@ After Round 2 of research, the strongest candidates for N=12 are:
 
 **None is a first-principles derivation.** All are structural motivations.
 
-### Verdict on N=12
+### Verdict on $N=12$
 
-After TWO rounds of web research, **N=12 remains STRUCTURAL with multiple physical motivations but no first-principles derivation**.
+After TWO rounds of web research, ** $N=12$ remains STRUCTURAL with multiple physical motivations but no first-principles derivation**.
 
 The strongest case is **Z_12 orbifold in heterotic string theory**, which gives 3 generations naturally. But this is a model-building choice, not a derivation.
 
@@ -11335,9 +11335,9 @@ Web searches conducted 2026-06-21:
 
 ### Status
 
-**L308ai (this section)**: Round 2 web research on N=12. **Conclusion: still no first-principles derivation found.**
+**L308ai (this section)**: Round 2 web research on $N=12$. **Conclusion: still no first-principles derivation found.**
 
-**Final status of N=12**: STRUCTURAL with 10+ suggestive motivations:
+**Final status of $N=12$**: STRUCTURAL with 10+ suggestive motivations:
 - Schwarzian SYK (circular)
 - 6D anomaly (misapplied)
 - SM fermion count (assumes SM)
@@ -11349,14 +11349,14 @@ Web searches conducted 2026-06-21:
 - CY Z_12 (topology)
 - 12 vertices icosahedron (geometry)
 
-The framework is honest about this: N=12 is a structural choice with many motivations, not a derivation.
+The framework is honest about this: $N=12$ is a structural choice with many motivations, not a derivation.
 
 
 
 
 
-## 7.4.29 (L308aj): N=12 Unified Analysis — 12-Fold Coordination, Z_12 Orbifold, Honest Synthesis (v3.5.9+)
-**STATUS: WITHDRAWN (see §7.4.32, L308am)** — The 130 M_sun MACHO-cluster prediction was inconsistent with SIDC's geometric DM model. The Z_12 orbifold connection and structural motivations for N=12 remain valid.
+## 7.4.29 (L308aj): $N=12$ Unified Analysis — 12-Fold Coordination, Z_12 Orbifold, Honest Synthesis (v3.5.9+)
+**STATUS: WITHDRAWN (see §7.4.32, L308am)** — The 130 M_sun MACHO-cluster prediction was inconsistent with SIDC's geometric DM model. The Z_12 orbifold connection and structural motivations for $N=12$ remain valid.
 
 **Date**: 2026-06-21
 **Trigger**: User question "explore what you think is best"
@@ -11364,10 +11364,10 @@ The framework is honest about this: N=12 is a structural choice with many motiva
 
 ### What I Think Is Best to Explore
 
-After 2 rounds of web research on N=12, the most valuable direction is to:
+After 2 rounds of web research on $N=12$, the most valuable direction is to:
 1. **NEW PREDICTION**: 12-fold coordination as DM substructure signature
 2. **FORMAL CONNECTION**: Z_12 orbifold structure of the bulk → 3 generations naturally
-3. **HONEST SYNTHESIS**: Recognize N=12 as structural with rich connections
+3. **HONEST SYNTHESIS**: Recognize $N=12$ as structural with rich connections
 
 ### PART 1: NEW PREDICTION — 12-Fold Coordinated DM Substructure
 
@@ -11418,7 +11418,7 @@ This is in the range of **MACHO microlensing searches** ( $10^{-7}$ to 10 M_sun,
 - Pulsar timing arrays (NANOGrav, EPTA) — current
 - LIGO substructure searches (future)
 
-**This is a NEW SIDC prediction that follows from the N=12 structural choice.**
+**This is a NEW SIDC prediction that follows from the $N=12$ structural choice.**
 
 ### PART 2: FORMAL CONNECTION — Z_12 Orbifold Structure
 
@@ -11429,7 +11429,7 @@ If we take seriously that the 4D bulk is described by F-theory on a Calabi-Yau t
 Specifically:
 - CY3 with Hodge (h^1,1, h^2,1) = (1, 4) gives E6 GUT with 3 generations
 - A natural way to get h^2,1 = 4 is via Z_12 fundamental group
-- The 12 of the fundamental group connects to SIDC's N=12
+- The 12 of the fundamental group connects to SIDC's $N=12$
 
 **Reference**: Braun, Candelas, Davies (2013), JHEP 05 (2012) 127
 > "the standard embedding on a Calabi-Yau threefold which has Hodge numbers (h^1,1, h^2,1) = (1, 4) and fundamental group Z_12, which gives an E6 grand unified theory with three net chiral generations"
@@ -11438,7 +11438,7 @@ Specifically:
 
 | SIDC element | String theory equivalent |
 |--------------|-------------------------|
-| N=12 (Majorana count) | Z_12 orbifold order |
+| $N=12$ (Majorana count) | Z_12 orbifold order |
 | 3 generations (observed) | h^2,1 - 1 = 3 (CY3 Euler characteristic) |
 | 4 Weyl per generation | 4 (h^2,1 contribution to generation index) |
 | 2D universe | 2D fiber of F-theory |
@@ -11456,14 +11456,14 @@ Specifically:
 
 ### PART 3: HONEST SYNTHESIS
 
-After 2 rounds of web research, here's the complete picture of N=12 in SIDC:
+After 2 rounds of web research, here's the complete picture of $N=12$ in SIDC:
 
-**1. N=12 has 10+ suggestive motivations (L308ai)**
+**1. $N=12$ has 10+ suggestive motivations (L308ai)**
 **2. The 12-fold coordination gives a NEW PREDICTION (this section, Part 1)**
 **3. Z_12 orbifold provides a FORMAL CONNECTION (this section, Part 2)**
 **4. But NONE of these is a first-principles DERIVATION**
 
-**Final Status**: N=12 is **STRUCTURAL with rich physical connections**. It's a framework choice that:
+**Final Status**: $N=12$ is **STRUCTURAL with rich physical connections**. It's a framework choice that:
 - Is consistent with the SM (3 generations)
 - Is consistent with string theory (Z_12 orbifolds)
 - Predicts new DM substructure (12-fold coordination)
@@ -11473,7 +11473,7 @@ After 2 rounds of web research, here's the complete picture of N=12 in SIDC:
 
 ### What This Means for the Framework
 
-**Strengths of N=12 as structural choice**:
+**Strengths of $N=12$ as structural choice**:
 - Multiple independent motivations (10+)
 - Clean physical picture (12 vertices, 12 Weyl, 12 sectors)
 - Testable prediction (12-fold DM substructure)
@@ -11485,7 +11485,7 @@ After 2 rounds of web research, here's the complete picture of N=12 in SIDC:
 - The choice "12" is motivated but not unique
 
 **Honest path forward**:
-- Accept N=12 as structural (L308ag, L308ai)
+- Accept $N=12$ as structural (L308ag, L308ai)
 - Pursue testable consequences (12-fold DM substructure, L308aj Part 1)
 - Continue searching for first-principles derivation
 - Note that even without derivation, the framework makes new predictions
@@ -11521,18 +11521,18 @@ Mathematical references:
 
 ### Status
 
-**L308aj (this section)**: Unified analysis of N=12.
+**L308aj (this section)**: Unified analysis of $N=12$.
 - **Part 1**: New prediction (12-fold DM substructure) - TESTABLE
 - **Part 2**: Formal connection (Z_12 orbifold) - STRUCTURAL
-- **Part 3**: Honest synthesis - N=12 is structural with rich connections
+- **Part 3**: Honest synthesis - $N=12$ is structural with rich connections
 
 **Implications**:
 - Framework is now MORE TESTABLE (12-fold DM substructure prediction)
 - Framework is now MORE CONNECTED (Z_12 orbifold in string theory)
-- Framework is now MORE HONEST (N=12 acknowledged as structural, not derived)
+- Framework is now MORE HONEST ( $N=12$ acknowledged as structural, not derived)
 
 **Updated parameters**:
-- N=12 remains STRUCTURAL (per L308ag)
+- $N=12$ remains STRUCTURAL (per L308ag)
 - Now has richer connection to string theory and observations
 - New testable predictions from 12-fold coordination
 
@@ -11601,7 +11601,7 @@ The framework has previously noted (v3.3 calculations, see `calculations/v33_4d_
 5. **F-theory is 12D** (Type IIB + elliptic fiber)
 6. **A_11 root lattice has 12 vertices**
 
-These are STRUCTURAL MOTIVATIONS for N=12 in the framework.
+These are STRUCTURAL MOTIVATIONS for $N=12$ in the framework.
 
 ### Honest Status of 12-Fold Prediction
 
@@ -11900,7 +11900,7 @@ However, the framework EXPLICITLY states (multiple locations in the paper):
 ### What Was Wrong with L308aj
 
 L308aj argued:
-1. SIDC's N=12 → 12 Majoranas per 2D universe
+1. SIDC's $N=12$ → 12 Majoranas per 2D universe
 2. 12 Majoranas × 10 M_sun = 130 M_sun "cluster"
 3. 12-fold coordination (kissing number in 3D)
 4. 130 M_sun clusters detectable by Gaia DR4
@@ -11951,7 +11951,7 @@ If SIDC's geometric DM comes from cumulative 2D universe deaths, and these death
 
 ### What Stays the Same
 
-- N=12 is still STRUCTURAL (L308ag)
+- $N=12$ is still STRUCTURAL (L308ag)
 - 12-fold coordination is still a real physical concept (kissing number)
 - Z_12 orbifold connection is still relevant (L308ai)
 - 12-fold coordination as a structural choice is still motivated
@@ -12009,7 +12009,7 @@ Cross-references in framework:
 **Implications**:
 - Framework is more honest
 - Predictions are internally consistent
-- N=12 structural choice retained
+- $N=12$ structural choice retained
 - New testable consequence identified
 
 
@@ -12077,7 +12077,7 @@ The 12 that appears in SIDC has multiple physical meanings:
 
 SIDC's geometric DM comes from cumulative 2D universe deaths. These deaths have specific spatial patterns (clustered around energetic events: stars, AGN, etc.). The resulting DM density field has specific statistical properties.
 
-If SIDC's N=12 is structural, the DM density field might show **12-fold statistical correlations** — not as point-like clusters, but as preferred correlation distances.
+If SIDC's $N=12$ is structural, the DM density field might show **12-fold statistical correlations** — not as point-like clusters, but as preferred correlation distances.
 
 **The prediction**:
 
@@ -12114,7 +12114,7 @@ where A_12 is the amplitude of the 12-fold correlation.
 
 ### What Stays From L308aj
 
-The 12-fold coordination MOTIVATION (kissing number) is still valid. The 12-fold Z_12 orbifold connection (L308ai) is still valid. The structural choice of N=12 is still valid.
+The 12-fold coordination MOTIVATION (kissing number) is still valid. The 12-fold Z_12 orbifold connection (L308ai) is still valid. The structural choice of $N=12$ is still valid.
 
 What changes:
 - 12-fold applies to DENSITY CORRELATIONS, not discrete point clusters
@@ -12167,7 +12167,7 @@ The reason 12 might be special:
 - 12 = PDS fundamental symmetry
 - 12 = SM fermion count per generation
 
-**If SIDC's N=12 is structural**, the DM density correlations should show 12-fold structure.
+**If SIDC's $N=12$ is structural**, the DM density correlations should show 12-fold structure.
 
 This is a SPECIFIC prediction, distinct from:
 - ΛCDM (smooth power law correlations)
@@ -12259,7 +12259,7 @@ Key references found:
 
 
 
-## 7.4.34 (L308ao): Connection Between 12-Fold Density Correlation and SIDC's N=12 — HONEST ANALYSIS (v3.5.9+)
+## 7.4.34 (L308ao): Connection Between 12-Fold Density Correlation and SIDC's $N=12$ — HONEST ANALYSIS (v3.5.9+)
 
 **Date**: 2026-06-22
 **Trigger**: User question "how is it related to n=12"
@@ -12267,7 +12267,7 @@ Key references found:
 
 ### The User's Sharp Question
 
-After L308an proposed the 12-fold density correlation prediction, the user asked: how is it actually related to N=12?
+After L308an proposed the 12-fold density correlation prediction, the user asked: how is it actually related to $N=12$?
 
 This is a critical question. Let me be honest.
 
@@ -12278,7 +12278,7 @@ L308an proposes:
 - Angular power spectrum oscillation at ℓ_12 = π × D_A / r_12
 - "12" appears as a SUBSCRIPT on r_12 and ℓ_12
 
-The "12" implies this is a 12-fold coordination signature, related to SIDC's structural N=12.
+The "12" implies this is a 12-fold coordination signature, related to SIDC's structural $N=12$.
 
 ### The Honest Answer: The Connection is WEAK
 
@@ -12290,12 +12290,12 @@ The "12" implies this is a 12-fold coordination signature, related to SIDC's str
 **What this actually means**:
 - r_12 is determined by the spatial distribution of energetic events
 - This is set by ASTROPHYSICS of star formation and AGN
-- It is NOT directly determined by N=12 (the cascade's Majorana count)
-- The "12" in r_12 is a NOTATION, not a physical derivation from N=12
+- It is NOT directly determined by $N=12$ (the cascade's Majorana count)
+- The "12" in r_12 is a NOTATION, not a physical derivation from $N=12$
 
-### The N=12 → r_12 Connection: Where It Could Come From
+### The $N=12$ → r_12 Connection: Where It Could Come From
 
-For the connection to be RIGOROUS, N=12 must determine r_12 via some physical mechanism. Possible mechanisms:
+For the connection to be RIGOROUS, $N=12$ must determine r_12 via some physical mechanism. Possible mechanisms:
 
 **Mechanism 1: Z_12 Orbifold → 12 Sectors**
 
@@ -12313,9 +12313,9 @@ If SIDC's 2D universe death creates icosahedral structures (12 vertices):
 - This is a real physical connection
 - But: requires assuming icosahedral geometry of 2D universe deaths (not derived)
 
-**Mechanism 3: SYK N=12 → M^α → Lifetime**
+**Mechanism 3: SYK $N=12$ → M^α → Lifetime**
 
-SIDC's α = 1 + 1/√12 = 1.2887 from Schwarzian SYK with N=12:
+SIDC's α = 1 + 1/√12 = 1.2887 from Schwarzian SYK with $N=12$:
 - This gives 2D universe lifetime τ_2D = (E/ $M_{\rm Pl,2D}$)^α × $t_{\rm Pl}$
 - Lifetime doesn't directly give a length scale r_12
 - But it determines WHICH events create 2D universes (energetic threshold)
@@ -12324,7 +12324,7 @@ SIDC's α = 1 + 1/√12 = 1.2887 from Schwarzian SYK with N=12:
 
 **Mechanism 4: SM Fermion Count = 12**
 
-The framework's N=12 = 3 gen × 4 Weyl (SM fermion count per generation):
+The framework's $N=12$ = 3 gen × 4 Weyl (SM fermion count per generation):
 - This is a SM content, not a length scale
 - Doesn't directly give r_12
 - But it does affect the local energetic event rate (via SM physics)
@@ -12342,7 +12342,7 @@ The framework's N=12 = 3 gen × 4 Weyl (SM fermion count per generation):
 ### What Should Be Done
 
 Option A: **Strengthen the connection** (find a real physical link)
-- Would require deriving r_12 from N=12 via some physical mechanism
+- Would require deriving r_12 from $N=12$ via some physical mechanism
 - This is OPEN WORK, not done yet
 
 Option B: **Acknowledge the connection is weak** (be honest)
@@ -12351,14 +12351,14 @@ Option B: **Acknowledge the connection is weak** (be honest)
 - This is the most honest path
 
 Option C: **Withdraw L308an** (similar to L308aj)
-- The connection to N=12 is too weak
+- The connection to $N=12$ is too weak
 - Better to have fewer, more rigorous predictions
 
 ### My Recommendation: Option B (Acknowledge, Don't Withdraw)
 
 The L308an prediction is:
 - A HEURISTIC exploration of what 12-fold coordination could mean
-- NOT a derived prediction from N=12
+- NOT a derived prediction from $N=12$
 - Consistent with geometric DM (unlike L308aj)
 - Testable with current/near-future surveys
 
@@ -12370,9 +12370,9 @@ This is HONEST framework methodology:
 
 ### What's Needed to Strengthen the Connection
 
-For a RIGOROUS N=12 → r_12 derivation:
+For a RIGOROUS $N=12$ → r_12 derivation:
 1. Choose one of the mechanisms above
-2. Show how N=12 specifically determines r_12
+2. Show how $N=12$ specifically determines r_12
 3. Compute the predicted r_12 from framework parameters
 4. Compare with observational tests
 
@@ -12381,10 +12381,10 @@ This is significant work, not done in this session.
 ### Honest Status of L308an
 
 **L308an remains as PROPOSED** but with explicit acknowledgment that:
-- The "12-fold" is HEURISTIC, not derived from N=12
-- The connection to N=12 is IMPLICIT, not EXPLICIT
-- The prediction is testable but the specific r_12 is unconstrained by N=12 alone
-- The framework would need additional structure to derive r_12 from N=12
+- The "12-fold" is HEURISTIC, not derived from $N=12$
+- The connection to $N=12$ is IMPLICIT, not EXPLICIT
+- The prediction is testable but the specific r_12 is unconstrained by $N=12$ alone
+- The framework would need additional structure to derive r_12 from $N=12$
 
 This is more honest than the original L308an which implied a stronger connection.
 
@@ -12392,31 +12392,31 @@ This is more honest than the original L308an which implied a stronger connection
 
 User question (2026-06-22): "how is it related to n=12"
 
-Re-read of L308an and L308ai to assess the actual physical mechanism linking N=12 to a length scale.
+Re-read of L308an and L308ai to assess the actual physical mechanism linking $N=12$ to a length scale.
 
 ### Status
 
-**L308ao (this section)**: Honest critique of the N=12 → r_12 connection.
+**L308ao (this section)**: Honest critique of the $N=12$ → r_12 connection.
 
 **Finding**: The connection is WEAK and IMPLICIT, not RIGOROUS.
 
 **Implications**:
 - L308an remains a testable prediction
-- But the specific r_12 is not derived from N=12
+- But the specific r_12 is not derived from $N=12$
 - The "12" is a notation, not a derivation
 - More work is needed to strengthen the connection
 
 **Updated status of L308an**:
 - ✅ Consistent with geometric DM (not particles)
 - ✅ Testable with current/near-future surveys
-- ❌ r_12 is NOT derived from N=12
+- ❌ r_12 is NOT derived from $N=12$
 - ⚠️ The "12-fold" is HEURISTIC, not derived
-- ⏳ Need additional framework structure to derive r_12 from N=12
+- ⏳ Need additional framework structure to derive r_12 from $N=12$
 
 
 
 
-## 7.4.35 (L308ap): Re-Examination of N=12 First-Principles Status — DERIVATION vs CONFIRMATION (v3.5.9+)
+## 7.4.35 (L308ap): Re-Examination of $N=12$ First-Principles Status — DERIVATION vs CONFIRMATION (v3.5.9+)
 
 **Date**: 2026-06-22
 **Trigger**: User question "re examine why you classified n=12 as first principles previously and whether there is anything you missed. there must be a reason why you did."
@@ -12424,14 +12424,14 @@ Re-read of L308an and L308ai to assess the actual physical mechanism linking N=1
 
 ### The User's Sharp Question
 
-After multiple rounds of downgrading N=12 (L308ag, L308ah, L308ai, L308ao), the user asked: did I miss something? Why was N=12 originally classified as first-principles?
+After multiple rounds of downgrading $N=12$ (L308ag, L308ah, L308ai, L308ao), the user asked: did I miss something? Why was $N=12$ originally classified as first-principles?
 
 This is a critical re-examination. Let me be honest about what was in the framework's logic and what I might have missed.
 
 ### The Original Classification (L308u, L308n, before L308ag)
 
-The framework originally claimed N=12 was first-principles via:
-1. **Schwarzian SYK**: α = 1 + 1/√N for q=4 SYK → α = 1.2887 for N=12
+The framework originally claimed $N=12$ was first-principles via:
+1. **Schwarzian SYK**: α = 1 + 1/√N for q=4 SYK → α = 1.2887 for $N=12$
 2. **SM fermion count**: 3 gen × 4 Weyl = 12
 3. **6D anomaly** (Appelquist 2001): proves 3 generations
 4. ** $M_{\rm Pl,2D} = 12 ×$v_Higgs**: framework choice
@@ -12443,7 +12443,7 @@ I downgraded to STRUCTURAL in L308ag because:
 - Schwarzian α is CIRCULAR (uses framework's α to derive N)
 - 6D anomaly doesn't apply (requires UED, not framework's setup)
 - SM fermion count is ASSUMES SM (3 gen measured, 4 Weyl/gen is counting convention)
-- Ising c=1/2 + N=12 is FRAMEWORK CHOICE (c = N/24 is non-standard)
+- Ising c=1/2 + $N=12$ is FRAMEWORK CHOICE (c = N/24 is non-standard)
 - $M_{\rm Pl,2D}$/ $v_{\rm Higgs}$ = 12 is FRAMEWORK CHOICE
 
 ### The User's Question: Did I Miss Something?
@@ -12457,28 +12457,28 @@ Let me reconsider:
 - Each generation has 4 Weyl fermions (in left-handed doublet counting)
 - Total: 12 Weyl fermions in left-handed doublets
 
-**The Schwarzian α for N=12 is rigorous**:
+**The Schwarzian α for $N=12$ is rigorous**:
 - α = 1 + 1/√N for q=4 SYK
 - This is a theoretical result
 - It depends on N as a parameter
 
 **The match between framework's α and Schwarzian α is suggestive**:
 - Framework measures α = 1.289
-- Schwarzian says α = 1.2887 for N=12
+- Schwarzian says α = 1.2887 for $N=12$
 - Match within 0.025%
 
 ### The Distinction: DERIVATION vs CONFIRMATION
 
 I conflated two different concepts:
 
-| Concept | What it means | Does N=12 satisfy it? |
+| Concept | What it means | Does $N=12$ satisfy it? |
 |---------|---------------|------------------------|
-| **First-principles DERIVATION** | Theory → unique N=12 (no measurement needed) | ❌ NO (requires data) |
-| **First-principles CONFIRMATION** | Theory predicts α for N=12, data confirms | ✓ YES |
+| **First-principles DERIVATION** | Theory → unique $N=12$ (no measurement needed) | ❌ NO (requires data) |
+| **First-principles CONFIRMATION** | Theory predicts α for $N=12$, data confirms | ✓ YES |
 | **First-principles INPUT** | SM fermion count is fundamental | ✓ YES (specific counting) |
-| **Structural choice** | Framework chose N=12 for consistency | ✓ YES (multiple motivations) |
+| **Structural choice** | Framework chose $N=12$ for consistency | ✓ YES (multiple motivations) |
 
-The framework's N=12 satisfies the second and third, NOT the first.
+The framework's $N=12$ satisfies the second and third, NOT the first.
 
 ### What I Might Have Missed: The SM Count as First-Principles INPUT
 
@@ -12489,10 +12489,10 @@ This "12" is:
 - COUNTING CONVENTION (4 Weyl per gen is specific to left-handed doublets)
 - FIRST-PRINCIPLES in the sense that the SM is fundamental physics
 
-So N=12 = "12 SM fermions" is a first-principles INPUT (the SM has this structure), not a derivation.
+So $N=12$ = "12 SM fermions" is a first-principles INPUT (the SM has this structure), not a derivation.
 
 Combined with Schwarzian:
-- N=12 (from SM input) → α = 1.2887 (from Schwarzian)
+- $N=12$ (from SM input) → α = 1.2887 (from Schwarzian)
 - Data: α = 1.289 (matches Schwarzian within 0.025%)
 - This is a CONSISTENCY CHECK, not a derivation
 
@@ -12500,17 +12500,17 @@ But the SM input itself is first-principles! The 3 generations are measured, the
 
 ### The Refined Classification
 
-After re-examination, N=12 should be classified as:
+After re-examination, $N=12$ should be classified as:
 
 **STRUCTURAL with first-principles MOTIVATIONS**
 
 Specifically:
 - **SM fermion count = 12** is first-principles INPUT (the SM has this structure)
-- **Schwarzian α = 1 + 1/√N for N=12** is first-principles PREDICTION
+- **Schwarzian α = 1 + 1/√N for $N=12$** is first-principles PREDICTION
 - **Data confirms α = 1.2887** is first-principles CONFIRMATION
-- **But N=12 itself is not THEORETICALLY UNIQUE** (could be 11, 12, 13)
+- **But $N=12$ itself is not THEORETICALLY UNIQUE** (could be 11, 12, 13)
 
-The refined status: N=12 is **first-principles motivated** (multiple first-principles arguments) and **first-principles confirmed** (Schwarzian α matches data), but NOT **first-principles derived** (requires SM count + Schwarzian + data).
+The refined status: $N=12$ is **first-principles motivated** (multiple first-principles arguments) and **first-principles confirmed** (Schwarzian α matches data), but NOT **first-principles derived** (requires SM count + Schwarzian + data).
 
 This is a MIDDLE position between:
 - "First-principles derived" (which I was wrong to claim)
@@ -12534,24 +12534,24 @@ The correct position: **first-principles motivated and confirmed, not derived**.
 
 ### The Refined Position
 
-**N=12 status (REVISED, post-L308ap)**:
+** $N=12$ status (REVISED, post-L308ap)**:
 
 | Aspect | Status |
 |--------|--------|
 | 3 generations of SM | FIRST-PRINCIPLES INPUT (measured) |
 | 4 Weyl per generation (counting) | CONVENTION (framework choice) |
-| Schwarzian α = 1 + 1/√N for N=12 | FIRST-PRINCIPLES PREDICTION |
+| Schwarzian α = 1 + 1/√N for $N=12$ | FIRST-PRINCIPLES PREDICTION |
 | Data α = 1.289 (matches Schwarzian within 0.025%) | FIRST-PRINCIPLES CONFIRMATION |
-| Unique derivation of N=12 | NO (still requires SM count + data) |
+| Unique derivation of $N=12$ | NO (still requires SM count + data) |
 | Multiple independent motivations | YES (10+ per L308ai) |
 
-**Final status**: N=12 is **STRUCTURAL with strong first-principles motivations and confirmations**, not a first-principles derivation.
+**Final status**: $N=12$ is **STRUCTURAL with strong first-principles motivations and confirmations**, not a first-principles derivation.
 
 This is more nuanced than my previous L308ag downgrade (which called it purely structural) and the original L308n claim (which called it first-principles derived).
 
 ### Why This Matters
 
-The user was right to question my downgrade. N=12 is not purely structural — it has:
+The user was right to question my downgrade. $N=12$ is not purely structural — it has:
 - A first-principles INPUT (SM fermion count)
 - A first-principles PREDICTION (Schwarzian α)
 - A first-principles CONFIRMATION (data matches)
@@ -12562,17 +12562,17 @@ But it is ALSO not purely first-principles derived — it requires:
 - Measured α (Schwarzian gives α for N, not N itself)
 - Framework choices (Ising formula, $M_{\rm Pl,2D}$ ratio)
 
-The honest position: **N=12 is well-motivated and confirmed, but the specific value of 12 depends on framework conventions**.
+The honest position: ** $N=12$ is well-motivated and confirmed, but the specific value of 12 depends on framework conventions**.
 
 ### Implications for the Framework
 
-**Strengths of N=12**:
+**Strengths of $N=12$**:
 - Multiple independent first-principles motivations
 - First-principles confirmation via Schwarzian
 - Consistent with data within 0.025%
 - Has structural interpretations (Z_12 orbifold, 12-fold coordination)
 
-**Weaknesses of N=12**:
+**Weaknesses of $N=12$**:
 - Specific counting convention required
 - Schwarzian α ≠ M^α α (the application is a postulate)
 - Other α formulas exist (1+2/q, 1+1/(q-1))
@@ -12584,24 +12584,24 @@ User question (2026-06-22): "re examine why you classified n=12 as first princip
 
 Re-read of:
 - L308n (original α = 1+1/√12 claim)
-- L308u (original N=12 from 6D anomaly)
+- L308u (original $N=12$ from 6D anomaly)
 - L308r (μ derivation chain)
 - L308ag (downgrade to structural)
 - L308ah-L308ao (subsequent analyses)
 
 ### Status
 
-**L308ap (this section)**: Re-examination of N=12 first-principles status.
+**L308ap (this section)**: Re-examination of $N=12$ first-principles status.
 
-**Result**: N=12 is **STRUCTURAL with strong first-principles motivations and confirmations**, not a pure derivation.
+**Result**: $N=12$ is **STRUCTURAL with strong first-principles motivations and confirmations**, not a pure derivation.
 
-**Implication**: My L308ag downgrade was partially right (N=12 is not purely derived) but partially wrong (N=12 has strong first-principles motivations).
+**Implication**: My L308ag downgrade was partially right ( $N=12$ is not purely derived) but partially wrong ( $N=12$ has strong first-principles motivations).
 
 **Refined classification**:
-- N=12 = "12 SM fermions" → FIRST-PRINCIPLES INPUT
-- α = 1 + 1/√N for N=12 → FIRST-PRINCIPLES PREDICTION
+- $N=12$ = "12 SM fermions" → FIRST-PRINCIPLES INPUT
+- α = 1 + 1/√N for $N=12$ → FIRST-PRINCIPLES PREDICTION
 - Data matches → FIRST-PRINCIPLES CONFIRMATION
-- Combined: N=12 is well-motivated but not derived from theory alone
+- Combined: $N=12$ is well-motivated but not derived from theory alone
 
 
 
@@ -12705,7 +12705,7 @@ Source: `calculations/v35_other_formulas.py`.
 
 ## 7.6 v3.5.5 Limitations: mu formula without input + Lagrangian + Tier 3
 
-L309. **mu CANNOT be derived without $M_{\rm Pl,2D}$ as input** (v3.5.5). Tested 3+ angles for mu formula using only $M_{\rm Pl,3D}$, alpha, $E_{\rm SN}$, N=12:
+L309. **mu CANNOT be derived without $M_{\rm Pl,2D}$ as input** (v3.5.5). Tested 3+ angles for mu formula using only $M_{\rm Pl,3D}$, alpha, $E_{\rm SN}$, $N=12$:
 - (1) mu = $M_{\rm Pl,3D}$^2 / factor: gives mu ~ $10^{40}$ (off by $10^{34}$) for any natural factor
 - (2) mu from SN lifetime tau_SN = 33 s: BH thermo gives mu ~ $10^{30}$ (off by $10^{24}$)
 - (3) Constraint counting: 9 framework params, 5 obs constraints -> 4 free params; mu is genuinely FREE/CALIBRATED
@@ -12816,7 +12816,7 @@ L320. **'2 pi' in mu formula is UNIVERSAL 2D FACTOR** (v3.5.7). The "2 pi" appea
 
 The "2 pi" is the UNIVERSAL 2D FACTOR from periodic identification, modular flow, or causal diamond structure. Source: `calculations/v35_holographic.py`.
 
-L321. **Bousso covariant bound doesn't constrain mu directly** (v3.5.7). The Bousso bound S <= A/4 applied to 2D universe gives S_total = N_sub x ln(2) = 277 bits, while A/4 = 1/(4 sqrt(mu)). Setting 277 <= 1/(4 sqrt(mu)) gives mu <= 8.15x $10^{-7}$ GeV^2 (too tight by factor $10^{13}$). The Bousso bound doesn't apply straightforwardly to our 2D universe. Source: `calculations/v35_holographic.py`.
+L321. **Bousso covariant bound doesn't constrain mu directly** (v3.5.7). The Bousso bound S <= A/4 applied to 2D universe gives S_total = $N_{\rm sub}$ x ln(2) = 277 bits, while A/4 = 1/(4 sqrt(mu)). Setting 277 <= 1/(4 sqrt(mu)) gives mu <= 8.15x $10^{-7}$ GeV^2 (too tight by factor $10^{13}$). The Bousso bound doesn't apply straightforwardly to our 2D universe. Source: `calculations/v35_holographic.py`.
 
 L322. **RT formula gives universal constant for 2D BH at $T_H$** (v3.5.7). For 2D universe at Hawking temperature T = sqrt(mu)/(2 pi), the entanglement entropy from RT formula is S_EE = 1/6 (UNIVERSAL for c=1 Liouville). This is independent of mu — gives a checkable constant for our framework. Status: STRUCTURAL. Source: `calculations/v35_holographic.py`.
 
@@ -17101,7 +17101,7 @@ These are bookkeeping fixes, not framework issues. The framework itself is inter
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
@@ -17368,8 +17368,8 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 - SIDC explains the deceleration-to-acceleration transition (z=0.63) and the DE/DM ratio change (9 orders of magnitude)
 
 **NEW: First-principles structure (L308bh-bk).**
-- SIDC: N=12, 6, 3 are first-principles (Bott periodicity, Clifford C(6), SM algebra)
-- $\Lambda{\rm CDM}$: No first-principles for N_sub, N_2D, N_3+1D, N_4D (just free parameters)
+- SIDC: $N=12$, 6, 3 are first-principles (Bott periodicity, Clifford C(6), SM algebra)
+- $\Lambda{\rm CDM}$: No first-principles for $N_{\rm sub}$, $N_{\rm 2D}$, $N_{3+1D}$, $N_{\rm 4D}$ (just free parameters)
 
 **Quantitative comparison:**
 
@@ -17409,7 +17409,7 @@ SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling
 **NEW: Cascade is dimension-invariant (L308bk).**
 - SIDC: 3 integer-N brane levels (2D, 3+1D, 4D) + infinite fractional-N bulk levels
 - ADD/RS: Fixed number of extra dimensions (1, 2, ..., n)
-- SIDC's cascade extends to ALL D, with halving rule N_D = 12/2^(D-2) via Bott periodicity
+- SIDC's cascade extends to ALL D, with halving rule $N_D$ = 12/2^(D-2) via Bott periodicity
 
 **Quantitative comparison:**
 
@@ -17619,10 +17619,10 @@ A defining feature of SIDC after v3.5.9+ A2 is that the framework's structural n
 
 | Quantity | First-Principles Origin | Source |
 |----------|--------------------------|--------|
-| N=12 (2D) | Standard Model fermion count (3 generations × 4 Weyl) | L308n, structural |
-| N=6 (3+1D) | C(6) minimal ideal = 1 SM generation (Stoica 2018) | L308bh, BREAKTHROUGH |
-| N=3 (4D) | 3 generations × 1 (Majorana-Weyl dim at 4D) | L308bi, structural |
-| N_D = 12/2^(D-2) | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
+| $N=12$ (2D) | Standard Model fermion count (3 generations × 4 Weyl) | L308n, structural |
+| $N=6$ (3+1D) | C(6) minimal ideal = 1 SM generation (Stoica 2018) | L308bh, BREAKTHROUGH |
+| $N=3$ (4D) | 3 generations × 1 (Majorana-Weyl dim at 4D) | L308bi, structural |
+| $N_D$ = 12/2^(D-2) | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
 
 **What this means for competitors:**
 - ΛCDM: Ω_c, Ω_Λ, N_eff, A_s, n_s, τ_reio, etc. are all FREE parameters (~6)
@@ -17630,7 +17630,7 @@ A defining feature of SIDC after v3.5.9+ A2 is that the framework's structural n
 - Quintessence: V(φ) is a free function
 - SGC: requires fundamental strings (unobserved)
 - HDE: IR cutoff choice is free
-- SIDC: structural numbers (N=12, 6, 3) are first-principles
+- SIDC: structural numbers ( $N=12$, 6, 3) are first-principles
 
 SIDC now has the strongest first-principles foundation of any dark sector theory — the framework's core structure emerges from mathematics (Bott periodicity, Clifford algebra), not from observations. This is qualitatively different from parameter-fitting approaches.<!-- 09_data_refs.md - part of paper.md split (v3.0.13) -->
 
@@ -18202,7 +18202,7 @@ SIDC's $\alpha$ = 1.29 is **falsified if observed $\alpha$ differs by more than 
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -18342,7 +18342,7 @@ The full calculation is in `calculations/v27_47_tuc_cascade.py`.
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -18463,7 +18463,7 @@ The full simulation is in `calculations/cascade_model.py` (run with `--outliers`
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
@@ -18747,7 +18747,7 @@ This was previously IMPOSSIBLE because Ω_c(z=1100) ≈ 0 in SIDC (pre-L308ab). 
 ---
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -18763,7 +18763,7 @@ This was previously IMPOSSIBLE because Ω_c(z=1100) ≈ 0 in SIDC (pre-L308ab). 
 - **16/17 test categories pass** (16 pass, 1 confounded) on real observational data (SPARC, MaNGA, Pantheon+, Planck, Tian+ 2024, AGC 114905, KKR 25).
 - **0 strongly confirmed, 2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form in v2.2; Mechanism A Hubble in commit ~80) — both *specific functional forms*, since replaced by the SIDC-MOND hybrid and Mechanism M, respectively. SIDC's *framework* (4D event → 3+1D → 2D) is NOT falsified; only the specific implementations that SIDC has since improved. The framework is *consistent* with current data without being *established* by it.
 - **37 honest limitations documented** (v2.7.41+: 17 OPEN (including 1 architectural), 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED (including 1 PARTIAL→REVERTED), 1 DISCARDED — legacy_paper.md §3.13 mechanism discarded v2.7.20, L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation legacy_paper.md §3.24, L38 added v2.7.33 for KKR 25 $M_{b}$ value (off by $1000\times$) legacy_paper.md §3.27, L39 added v2.7.34 for 10-year data gap between AGC 114905 and KKR 25 legacy_paper.md §3.28, L40-42 added v2.7.35 for AGC 114905 contested DM, KKR 25 no new data, bifurcation even more uncertain legacy_paper.md §3.29, L43-45 added v2.7.37 for new extreme observation tests (TDGs, JWST z>4, Crater II, Antlia 2, UFDs) §3.30, L46-48 added v2.7.38 for 6 new testable galaxies (consensus data only), L49 added v2.7.41 for SIDC pass criterion being qualitative). L32 removed v2.7, L34 added v2.7.4 for $E_{\rm primordial}$, L35 added v2.7.4 for $z_{\rm half}$, L36 added v2.7.4 for $E_{\rm crit}$ REVERTED, L20 reverted v2.7.1, L9_ext DISCARDED v2.7.20, A_event parameter acknowledged v2.7.16, with specific closure criteria.
-- **2-3 active free parameters** in the v2.4 tensor framework: $G_5$ (5D Newton's constant), $\alpha$ (SIDC coupling), and $\tau_{2D}$ (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., $f_{back} = 1$ from $J^A_{bulk} = 0$ BC) or *bounded* (e.g., $c \in \mathbb{Z}_{\geq 1}$, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 ( $\mu$, b, $\alpha$, z_0) to 2 ( $\mu$, $m_{3+1D}$)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
+- **2-3 active free parameters** in the v2.4 tensor framework: $G_5$ (5D Newton's constant), $\alpha$ (SIDC coupling), and $\tau_{2D}$ (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., $f_{back} = 1$ from $J^A_{bulk} = 0$ BC) or *bounded* (e.g., $c \in \mathbb{Z}{}_{\geq 1}$, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 ( $\mu$, b, $\alpha$, z_0) to 2 ( $\mu$, $m_{3+1D}$)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
 - **Coordinate-invariant stress-energy tensor** $T_{\mu\nu}^{eff}$ explicitly constructed in §4.44 with 5 verification checks all passing.
 
 **Specific call-to-action: theoretical physicists.** The following items are *concrete, well-defined research problems* that would each constitute a publishable contribution:
@@ -19106,7 +19106,7 @@ The 2D universe death coupling to Standard Model channels is **not derived** in 
 | Property | Value |
 |---|---|
 | Total mass | 1.1 × 10⁶ M_sun |
-| Stellar mass (M_stars) | 1.0 × 10⁶ M_sun |
+| Stellar mass ( $M_{\rm stars}$) | 1.0 × 10⁶ M_sun |
 | Half-mass radius | 6 pc |
 | Age | 12.0 ± 0.5 Gyr |
 | Distance | 4.45 kpc (Hipparcos) / 4.69 kpc (Gaia DR3) |
@@ -19126,7 +19126,7 @@ This makes 47 Tuc unique among stellar systems:
 ## §17.2 SIDC Prediction for 47 Tuc
 
 **Inputs for SIDC calculation**:
-- M_stars = 1.0 × 10⁶ M_sun
+- $M_{\rm stars}$ = 1.0 × 10⁶ M_sun
 - Age = 12 Gyr
 - $E_{\rm crit}$ ≈ 10³⁰ J for 2D universe birth (per L308ba)
 - Recent activity: ~25 CVs at ~10³⁰ J per outburst (right at $E_{\rm crit}$ threshold, but recurring and small-scale)
@@ -19135,10 +19135,10 @@ This makes 47 Tuc unique among stellar systems:
 $$\boxed{M_{\rm dyn} \approx M_{\rm stars} \text{ within } \pm 5\%}$$
 
 Specifically:
-- $M_{\rm dyn}$/M_stars = 1.00 ± 0.05 (5% from stellar IMF uncertainties)
+- $M_{\rm dyn}$/ $M_{\rm stars}$ = 1.00 ± 0.05 (5% from stellar IMF uncertainties)
 - **No DM spike** (no recent 2D universe nucleation)
 - **No additional DM** from cluster's history (no AGN-like events)
-- Velocity dispersion follows King/Plummer profile from M_stars alone
+- Velocity dispersion follows King/Plummer profile from $M_{\rm stars}$ alone
 
 **Reasoning**:
 - 47 Tuc has had NO energetic events > 10⁴⁴ J (SN) in 12 Gyr
@@ -19146,7 +19146,7 @@ Specifically:
 - The CV activity is at the $E_{\rm crit}$ threshold but recurring (not single events)
 - Therefore NO new 2D universes have nucleated
 - Therefore NO additional DM-like back-projection
-- The 47 Tuc DM content should match M_stars within stellar evolution uncertainties
+- The 47 Tuc DM content should match $M_{\rm stars}$ within stellar evolution uncertainties
 
 ## §17.3 ΛCDM Prediction for 47 Tuc
 
@@ -19158,42 +19158,42 @@ Specifically:
 - ρ_NFW(r=4.5 kpc) = 0.030 M_sun/pc³
 
 **NFW DM mass within 47 Tuc**:
-- M_DM(r < 6 pc) ≈ 5 × 10⁴ M_sun (~5% of M_stars)
-- M_DM(r < 50 pc, tidal radius) ≈ 3.5 × 10⁵ M_sun (~30% of M_stars)
+- M_DM(r < 6 pc) ≈ 5 × 10⁴ M_sun (~5% of $M_{\rm stars}$)
+- M_DM(r < 50 pc, tidal radius) ≈ 3.5 × 10⁵ M_sun (~30% of $M_{\rm stars}$)
 
 **ΛCDM prediction** (profile-dependent):
 $$M_{\rm dyn}/M_{\rm stars} = 1.05 \pm 0.05$$
 
-| Profile | M_DM fraction | $M_{\rm dyn}$/M_stars |
+| Profile | M_DM fraction | $M_{\rm dyn}$/ $M_{\rm stars}$ |
 |---|---|---|
 | CoreNFW | 1-3% | 1.01-1.03 |
 | Standard NFW | 5% | 1.05 |
 | Contracted NFW (adiabatic) | 10-15% | 1.10-1.15 |
 
-The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm dyn}$ > M_stars by 1-15%.
+The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm dyn}$ > $M_{\rm stars}$ by 1-15%.
 
 ## §17.4 Decisive Comparison
 
 | Observable | SIDC | ΛCDM | Rubin/LSST precision |
 |---|---|---|---|
-| $M_{\rm dyn}$/M_stars (6 pc) | **1.00 ± 0.05** | **1.05 ± 0.05** | ~10% per radial bin |
-| Velocity dispersion profile | matches M_stars | requires DM spike | ~5 km/s |
+| $M_{\rm dyn}$/ $M_{\rm stars}$ (6 pc) | **1.00 ± 0.05** | **1.05 ± 0.05** | ~10% per radial bin |
+| Velocity dispersion profile | matches $M_{\rm stars}$ | requires DM spike | ~5 km/s |
 | Tidal stream (47 Tuc stream) | clean | perturbed by halo | ~mas/yr proper motion |
-| Outer velocity tail | thermal (M_stars) | enhanced (DM) | per-star |
-| Escape velocity | from M_stars only | from M_stars + DM | integrated |
+| Outer velocity tail | thermal ( $M_{\rm stars}$) | enhanced (DM) | per-star |
+| Escape velocity | from $M_{\rm stars}$ only | from $M_{\rm stars}$ + DM | integrated |
 
-**The KEY discriminator**: SIDC predicts $M_{\rm dyn}$ ≈ M_stars (1.0), ΛCDM predicts $M_{\rm dyn}$ > M_stars (1.05-1.15). With Rubin/LSST astrometric precision (~mas per year proper motions), this 5-15% difference is **detectable**.
+**The KEY discriminator**: SIDC predicts $M_{\rm dyn}$ ≈ $M_{\rm stars}$ (1.0), ΛCDM predicts $M_{\rm dyn}$ > $M_{\rm stars}$ (1.05-1.15). With Rubin/LSST astrometric precision (~mas per year proper motions), this 5-15% difference is **detectable**.
 
 ## §17.5 Specific Observables to Monitor
 
 ### §17.5.1 Stellar Velocity Dispersion Profile
-- **SIDC**: σ(r) follows Plummer/King profile from M_stars alone
+- **SIDC**: σ(r) follows Plummer/King profile from $M_{\rm stars}$ alone
 - **ΛCDM**: σ(r) has enhanced outer tail due to DM spike
 - **Measurement**: Rubin/LSST proper motions of ~10⁵ stars in 47 Tuc
 
 ### §17.5.2 Escape Velocity
 - **SIDC**: v_esc = √(2GM_stars/r) — from stellar mass only
-- **ΛCDM**: v_esc = √(2G(M_stars + M_DM)/r) — enhanced in outer parts
+- **ΛCDM**: v_esc = √(2G( $M_{\rm stars}$ + M_DM)/r) — enhanced in outer parts
 - **Measurement**: High-velocity tail of stellar velocities
 
 ### §17.5.3 Tidal Stream Morphology
@@ -19235,17 +19235,17 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 
 ### Possible Outcomes
 
-**If 47 Tuc shows $M_{\rm dyn}$ ≈ M_stars** (within 5%):
+**If 47 Tuc shows $M_{\rm dyn}$ ≈ $M_{\rm stars}$** (within 5%):
 - **SIDC STRENGTHENED**
 - ΛCDM needs ad-hoc DM spike suppression in old GCs
 - Strong evidence for $E_{\rm crit}$ threshold in SIDC
 
-**If 47 Tuc shows $M_{\rm dyn}$ > M_stars** by 10%+:
+**If 47 Tuc shows $M_{\rm dyn}$ > $M_{\rm stars}$** by 10%+:
 - **ΛCDM CONFIRMED** (smooth DM halo)
 - SIDC needs to address galactic halo contribution to GCs
 - $E_{\rm crit}$ threshold may need refinement
 
-**If 47 Tuc shows $M_{\rm dyn}$ < M_stars** (impossible by either):
+**If 47 Tuc shows $M_{\rm dyn}$ < $M_{\rm stars}$** (impossible by either):
 - Both models wrong, new physics needed
 
 **Either way**, this is a **USEFUL test** that can discriminate.
@@ -19256,7 +19256,7 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 
 | Test | Timeline | SIDC vs ΛCDM | Decisiveness |
 |---|---|---|---|
-| **47 Tuc** (this section) | DP1 2025, Y10 2034 | 5-15% $M_{\rm dyn}$/M_stars | DECISIVE |
+| **47 Tuc** (this section) | DP1 2025, Y10 2034 | 5-15% $M_{\rm dyn}$/ $M_{\rm stars}$ | DECISIVE |
 | **w = -1 EXACTLY** (Euclid/Roman) | 2024+ / 2027+ | Sharpness of w deviation | SHARPEST |
 | **BCG $g_+$ universality** (Tian+) | 2024+ | $g_+$ across cluster mass | STRONG |
 | **21cm heating** (SKA) | 2030s | Small excess over ΛCDM | TESTABLE |
@@ -19264,7 +19264,7 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 
 47 Tuc is the **MOST DECISIVE** upcoming test because:
 1. Timeline is short (DP1 in <2 years)
-2. The prediction is clean ( $M_{\rm dyn}$ = M_stars exactly)
+2. The prediction is clean ( $M_{\rm dyn}$ = $M_{\rm stars}$ exactly)
 3. The ΛCDM prediction is well-defined (NFW + halo)
 4. The measurement is precise (Rubin/LSST astrometry)
 
@@ -19274,11 +19274,11 @@ Honest framing:
 
 1. **47 Tuc is in the Milky Way halo**, so even SIDC predicts some contribution from our galaxy's DM (if DM is a particle). But SIDC says DM is geometric, so cluster-local DM is from cluster-local events only.
 
-2. **The 5% level is achievable but challenging**. SIDC says $M_{\rm dyn}$/M_stars = 1.00 ± 0.05, ΛCDM says 1.05 ± 0.05. The difference is small (5%) and measurement systematics could mimic either.
+2. **The 5% level is achievable but challenging**. SIDC says $M_{\rm dyn}$/ $M_{\rm stars}$ = 1.00 ± 0.05, ΛCDM says 1.05 ± 0.05. The difference is small (5%) and measurement systematics could mimic either.
 
 3. **CV activity is at the $E_{\rm crit}$ boundary**. 25 CVs each producing ~10³⁰ J per outburst — this is right at SIDC's $E_{\rm crit}$. We need to verify whether this triggers 2D universe nucleation.
 
-4. **Stellar IMF uncertainty**: The 5% error on $M_{\rm dyn}$/M_stars = 1.00 reflects stellar IMF uncertainties. These uncertainties will improve with JWST and Rubin/LSST.
+4. **Stellar IMF uncertainty**: The 5% error on $M_{\rm dyn}$/ $M_{\rm stars}$ = 1.00 reflects stellar IMF uncertainties. These uncertainties will improve with JWST and Rubin/LSST.
 
 5. **47 Tuc has a tidal stream**: This complicates the dynamics. Need to model the stream for accurate $M_{\rm dyn}$.
 
@@ -19300,10 +19300,10 @@ For SIDC to gain experimental traction, the **47 Tuc test is the highest-priorit
 **Expected timeline**:
 - 2025 (Q4): First Rubin/LSST DP1 results
 - 2027 (Q1): First LSST DR1 47 Tuc M/L ratio
-- 2030 (LSST Y6): $M_{\rm dyn}$/M_stars to ~5% precision
-- 2034 (LSST Y10): Decisive $M_{\rm dyn}$/M_stars at ~3% precision
+- 2030 (LSST Y6): $M_{\rm dyn}$/ $M_{\rm stars}$ to ~5% precision
+- 2034 (LSST Y10): Decisive $M_{\rm dyn}$/ $M_{\rm stars}$ at ~3% precision
 
-**Bottom line**: 47 Tuc is the **FIRST DECISIVE TEST** of SIDC vs ΛCDM. The framework predicts $M_{\rm dyn}$ ≈ M_stars (no DM spike), while ΛCDM predicts $M_{\rm dyn}$ > M_stars (smooth DM halo). Rubin/LSST will measure this with sufficient precision by 2030-2034.
+**Bottom line**: 47 Tuc is the **FIRST DECISIVE TEST** of SIDC vs ΛCDM. The framework predicts $M_{\rm dyn}$ ≈ $M_{\rm stars}$ (no DM spike), while ΛCDM predicts $M_{\rm dyn}$ > $M_{\rm stars}$ (smooth DM halo). Rubin/LSST will measure this with sufficient precision by 2030-2034.
 
 ---
 
@@ -19455,7 +19455,7 @@ where ρ_tot(P) combines Liouville × Ising × SYK contributions.
 
 **Status**: g_couple is a CALIBRATED parameter in the current Lagrangian.
 
-### §18.4.2 f_leak,3D→4D in S_drain (MEDIUM)
+### §18.4.2 $f_{\rm leak,3D→4D}$ in S_drain (MEDIUM)
 
 **Need**: Derive drain rate from first principles.
 
@@ -19470,13 +19470,13 @@ where c_s is the brane sound speed.
 
 ### §18.4.3 N values origin (LOW)
 
-**Need**: Why N_2D = 12, N_3+1D = 6, N_4D = 3?
+**Need**: Why $N_{\rm 2D}$ = 12, $N_{3+1D}$ = 6, $N_{\rm 4D}$ = 3?
 
 **Status**: ✓ 90% closed
 
-- N_2D = 12: 3 generations × 4 Weyl (1-comp Majorana) = 12 ✓
-- N_3+1D = 6: Cℓ(6) IS SM algebra (Stoica 2018) ✓
-- N_4D = 3: 3 generations (4-comp Majorana) ✓
+- $N_{\rm 2D}$ = 12: 3 generations × 4 Weyl (1-comp Majorana) = 12 ✓
+- $N_{3+1D}$ = 6: Cℓ(6) IS SM algebra (Stoica 2018) ✓
+- $N_{\rm 4D}$ = 3: 3 generations (4-comp Majorana) ✓
 - Halving rule: Bott periodicity (L308bj) ✓
 
 **Remaining 10%**: Why specifically 3 generations? Why 1+2+3 pattern? These are "isomorphisms of algebraic structures, not physical identifications" (L308cc caveat).

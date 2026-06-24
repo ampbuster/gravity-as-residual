@@ -1,7 +1,7 @@
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -18,7 +18,7 @@
 | $\mu$ (bulk AdS curvature) | ? | Sets the bulk-brane coupling $\epsilon = e^{-kL}$ (RS-II mechanism) | Free (open) |
 | $m_{3+1D}$ (induced Planck scale) | $\sim 10^{19}$ GeV | Effective 3+1D Planck mass from bulk geometry | Brane-world framework |
 
-**Note (HISTORICAL v2.7-v3.0 context):** In v2.7, SIDC had **2 free parameters** ( $\mu$, $m_{3+1D}$) parameterizing the bulk geometry (RS-II). They followed from the cascade structure plus the bulk. **CURRENT (v3.5.9+ A2):** The framework has **15 parameters** total: 1 MEASURED ( $M_{\rm Pl,3D}$), 3 FIRST-PRINCIPLES ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$) [N=12 STRUCTURAL per L308ag], 2 DERIVED ( $M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ( $\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ( $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ( $N_{\rm sub}$, event-specific).
+**Note (HISTORICAL v2.7-v3.0 context):** In v2.7, SIDC had **2 free parameters** ( $\mu$, $m_{3+1D}$) parameterizing the bulk geometry (RS-II). They followed from the cascade structure plus the bulk. **CURRENT (v3.5.9+ A2):** The framework has **15 parameters** total: 1 MEASURED ( $M_{\rm Pl,3D}$), 3 FIRST-PRINCIPLES ( $\alpha$, $M_{\rm Pl,2D}$, $\mu$) [ $N=12$ STRUCTURAL per L308ag], 2 DERIVED ( $M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ( $\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ( $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ per L308ag), 1 FREE ( $N_{\rm sub}$, event-specific).
 
 ### Calibrated Postulates (0) — All Derived
 
@@ -26,7 +26,7 @@
 
 | Previously "calibrated" | Current status | Derivation |
 |------------------------|----------------|------------|
-| $f_{back} = 8.6 \times 10^{-86}$ | **DERIVED** | $f_{back} = \epsilon \times (E_{\rm 4D}/M_{Pl}^4)$ where $\epsilon$ is the bulk-brane coupling and $E_{\rm 4D}/M_{Pl}^4 \sim 10^{-47}$ is the 4D event's energy ratio. The composite model (§3.60) gives $f_{back} = c/\alpha_{BR}$-powered formula with $c = 1/2$ (Ising) and $\alpha_{BR} = 1.289$ (N=12 SYK). |
+| $f_{back} = 8.6 \times 10^{-86}$ | **DERIVED** | $f_{back} = \epsilon \times (E_{\rm 4D}/M_{Pl}^4)$ where $\epsilon$ is the bulk-brane coupling and $E_{\rm 4D}/M_{Pl}^4 \sim 10^{-47}$ is the 4D event's energy ratio. The composite model (§3.60) gives $f_{back} = c/\alpha_{BR}$-powered formula with $c = 1/2$ (Ising) and $\alpha_{BR} = 1.289$ ($N=12$ SYK). |
 | $\epsilon$ $\sim 10^{-38}$ | **DERIVED** | $\epsilon = e^{-kL}$ (Randall-Sundrum II bulk-brane coupling), where $k$ is the AdS curvature and $L$ is the brane distance. Both follow from the bulk geometry ( $\mu$, $m_{3+1D}$). The standard RS-II mechanism derives the hierarchy from geometry. |
 | $F_p(0) = 0.9993$ | **DROPPED v3.3+** | $F_p$(z) Hill function framework was DROPPED in v3.3 (per L100, user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`. |
 
@@ -67,7 +67,7 @@
 This is not a derivation. **(HISTORICAL v2.7-v3.0):** SIDC had 2 free parameters ( $\mu$, $m_{3+1D}$) in the bulk geometry. **(CURRENT v3.5.9+ A2):** $\mu$ is now FIRST-PRINCIPLES (L308r, $\mu = M_{\rm Pl,2D}^2$); see full hierarchy above.
 
 All other values in SIDC are *derived* from the cascade structure:
-- $\alpha = 1.289$ from N=12 SYK saddle-point argument
+- $\alpha = 1.289$ from $N=12$ SYK saddle-point argument
 - $c = 1/2$ from N/24 (Ising CFT)
 - $f_{back} = 8.6 \times 10^{-86}$ from $\epsilon \times (E_{\rm 4D}/M_{Pl}^4)$ — bulk-brane coupling × 4D event energy ratio
 - $\epsilon = e^{-kL}$ from Randall-Sundrum II bulk-brane coupling (RS-II mechanism)
@@ -76,7 +76,7 @@ All other values in SIDC are *derived* from the cascade structure:
 The 5 observational inputs (5/27/68, $H_0$, $E_{SN}$, $\Omega$'s, $g_+$) are taken from data, not fit.
 
 **HISTORICAL**: SIDC had 0 calibrated postulates in the v3.0+ state.
-**CURRENT (v3.5.9+ A2 update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 3 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$) [N=12 STRUCTURAL per L308ag], 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 per L308ag), 1 FREE ($N_{\rm sub}$).
+**CURRENT (v3.5.9+ A2 update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 3 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$) [$N=12$ STRUCTURAL per L308ag], 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ per L308ag), 1 FREE ($N_{\rm sub}$).
 ### 2.1 The setup
 
 We assume, following the well-developed brane-world framework [ADD98, RS99], that our observable universe is a 3+1 dimensional brane embedded in a higher-dimensional bulk. Gravity propagates in the bulk; the other Standard Model forces are confined to the brane.
@@ -499,7 +499,7 @@ This is a *power-law* relation, not a step. Future observations of dwarf galaxie
 
 **What the smooth function does NOT change.** SIDC's other elements (energy-scaling rule, §2.5.1 action, $S_{\rm destruction}$ mechanism, Madau-SFR weighting, AGC 114905 + KKR 25 individual galaxy tests) all remain. The smooth function only changes the *functional form* of the contribution weight from step(E - $E_{\rm crit}$) to $E^{1+α}$. The qualitative predictions (Sun has no DM, SN-dominated galaxies have DM, AGC 114905 has no DM because of low E_max) all survive.
 
-**Limitation update.** The v2.3.0 $E_{\rm crit}$ phase-transition threshold (a calibrated free parameter, $\sim 10^{30}$ J) has been *removed* in v2.7.4: the smooth function uses only $\alpha$ = 1.29 (from the SN calibration, §10.1), and the same $\alpha$ already characterizes the energy-scaling rule. SIDC's *single* free parameter $\alpha$ (HISTORICAL v2.7.4-v3.0 era; in v3.5.9+, $\alpha$ is FIRST-PRINCIPLES via Schwarzian SYK N=12, L308n, and $N_{\rm sub}$ is FREE event-specific, L308z) is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an $E_{\rm crit}$ free parameter to derive. This is a *parameter reduction*: 2 free parameters ( $\alpha$ + $E_{\rm crit}$) → 1 free parameter ( $\alpha$). New **Limitation 36 added** ( $E_{\rm crit}$ hidden free parameter REVERTED, smooth function uses only $\alpha$).
+**Limitation update.** The v2.3.0 $E_{\rm crit}$ phase-transition threshold (a calibrated free parameter, $\sim 10^{30}$ J) has been *removed* in v2.7.4: the smooth function uses only $\alpha$ = 1.29 (from the SN calibration, §10.1), and the same $\alpha$ already characterizes the energy-scaling rule. SIDC's *single* free parameter $\alpha$ (HISTORICAL v2.7.4-v3.0 era; in v3.5.9+, $\alpha$ is FIRST-PRINCIPLES via Schwarzian SYK $N=12$, L308n, and $N_{\rm sub}$ is FREE event-specific, L308z) is consistent across all contexts: 2D universe lifetime scaling AND DM contribution weighting. There is no longer an $E_{\rm crit}$ free parameter to derive. This is a *parameter reduction*: 2 free parameters ( $\alpha$ + $E_{\rm crit}$) → 1 free parameter ( $\alpha$). New **Limitation 36 added** ( $E_{\rm crit}$ hidden free parameter REVERTED, smooth function uses only $\alpha$).
 
 #### 2.5.4 The 2D universe is "invisible" during life: deaths-only DM (v2.7.11+, RETAINED in v3.5.9+)
 

@@ -16,8 +16,8 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 - SIDC explains the deceleration-to-acceleration transition (z=0.63) and the DE/DM ratio change (9 orders of magnitude)
 
 **NEW: First-principles structure (L308bh-bk).**
-- SIDC: N=12, 6, 3 are first-principles (Bott periodicity, Clifford C(6), SM algebra)
-- $\Lambda{\rm CDM}$: No first-principles for N_sub, N_2D, N_3+1D, N_4D (just free parameters)
+- SIDC: $N=12$, 6, 3 are first-principles (Bott periodicity, Clifford C(6), SM algebra)
+- $\Lambda{\rm CDM}$: No first-principles for $N_{\rm sub}$, $N_{\rm 2D}$, $N_{3+1D}$, $N_{\rm 4D}$ (just free parameters)
 
 **Quantitative comparison:**
 
@@ -57,7 +57,7 @@ SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling
 **NEW: Cascade is dimension-invariant (L308bk).**
 - SIDC: 3 integer-N brane levels (2D, 3+1D, 4D) + infinite fractional-N bulk levels
 - ADD/RS: Fixed number of extra dimensions (1, 2, ..., n)
-- SIDC's cascade extends to ALL D, with halving rule N_D = 12/2^(D-2) via Bott periodicity
+- SIDC's cascade extends to ALL D, with halving rule $N_D$ = 12/2^(D-2) via Bott periodicity
 
 **Quantitative comparison:**
 
@@ -267,10 +267,10 @@ A defining feature of SIDC after v3.5.9+ A2 is that the framework's structural n
 
 | Quantity | First-Principles Origin | Source |
 |----------|--------------------------|--------|
-| N=12 (2D) | Standard Model fermion count (3 generations × 4 Weyl) | L308n, structural |
-| N=6 (3+1D) | C(6) minimal ideal = 1 SM generation (Stoica 2018) | L308bh, BREAKTHROUGH |
-| N=3 (4D) | 3 generations × 1 (Majorana-Weyl dim at 4D) | L308bi, structural |
-| N_D = 12/2^(D-2) | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
+| $N=12$ (2D) | Standard Model fermion count (3 generations × 4 Weyl) | L308n, structural |
+| $N=6$ (3+1D) | C(6) minimal ideal = 1 SM generation (Stoica 2018) | L308bh, BREAKTHROUGH |
+| $N=3$ (4D) | 3 generations × 1 (Majorana-Weyl dim at 4D) | L308bi, structural |
+| $N_D$ = 12/2^(D-2) | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
 
 **What this means for competitors:**
 - ΛCDM: Ω_c, Ω_Λ, N_eff, A_s, n_s, τ_reio, etc. are all FREE parameters (~6)
@@ -278,6 +278,6 @@ A defining feature of SIDC after v3.5.9+ A2 is that the framework's structural n
 - Quintessence: V(φ) is a free function
 - SGC: requires fundamental strings (unobserved)
 - HDE: IR cutoff choice is free
-- SIDC: structural numbers (N=12, 6, 3) are first-principles
+- SIDC: structural numbers ( $N=12$, 6, 3) are first-principles
 
 SIDC now has the strongest first-principles foundation of any dark sector theory — the framework's core structure emerges from mathematics (Bott periodicity, Clifford algebra), not from observations. This is qualitatively different from parameter-fitting approaches.

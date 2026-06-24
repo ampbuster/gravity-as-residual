@@ -1,7 +1,7 @@
 
 > **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
@@ -248,7 +248,7 @@ Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity a
 User reference (v3.0.22): Kusuki 2024 (arXiv:2412.18307) "Modern Approach to 2D Conformal Field Theory" is a ~70-page review of **modern ICFT methods** (irrational CFT), which is exactly what SIDC's 2D universe uses.
 
 **SIDC's 2D universe framework**:
-- c = 1 Liouville + c = 1/2 matter (N=12 SYK) = c_total = 3/2
+- c = 1 Liouville + c = 1/2 matter ( $N=12$ SYK) = c_total = 3/2
 - This is an ICFT (irrational CFT)
 - Standard CFT methods (Yellow book) don't fully cover this
 

@@ -11,7 +11,7 @@
 | Property | Value |
 |---|---|
 | Total mass | 1.1 × 10⁶ M_sun |
-| Stellar mass (M_stars) | 1.0 × 10⁶ M_sun |
+| Stellar mass ( $M_{\rm stars}$) | 1.0 × 10⁶ M_sun |
 | Half-mass radius | 6 pc |
 | Age | 12.0 ± 0.5 Gyr |
 | Distance | 4.45 kpc (Hipparcos) / 4.69 kpc (Gaia DR3) |
@@ -31,7 +31,7 @@ This makes 47 Tuc unique among stellar systems:
 ## §17.2 SIDC Prediction for 47 Tuc
 
 **Inputs for SIDC calculation**:
-- M_stars = 1.0 × 10⁶ M_sun
+- $M_{\rm stars}$ = 1.0 × 10⁶ M_sun
 - Age = 12 Gyr
 - $E_{\rm crit}$ ≈ 10³⁰ J for 2D universe birth (per L308ba)
 - Recent activity: ~25 CVs at ~10³⁰ J per outburst (right at $E_{\rm crit}$ threshold, but recurring and small-scale)
@@ -40,10 +40,10 @@ This makes 47 Tuc unique among stellar systems:
 $$\boxed{M_{\rm dyn} \approx M_{\rm stars} \text{ within } \pm 5\%}$$
 
 Specifically:
-- $M_{\rm dyn}$/M_stars = 1.00 ± 0.05 (5% from stellar IMF uncertainties)
+- $M_{\rm dyn}$/ $M_{\rm stars}$ = 1.00 ± 0.05 (5% from stellar IMF uncertainties)
 - **No DM spike** (no recent 2D universe nucleation)
 - **No additional DM** from cluster's history (no AGN-like events)
-- Velocity dispersion follows King/Plummer profile from M_stars alone
+- Velocity dispersion follows King/Plummer profile from $M_{\rm stars}$ alone
 
 **Reasoning**:
 - 47 Tuc has had NO energetic events > 10⁴⁴ J (SN) in 12 Gyr
@@ -51,7 +51,7 @@ Specifically:
 - The CV activity is at the $E_{\rm crit}$ threshold but recurring (not single events)
 - Therefore NO new 2D universes have nucleated
 - Therefore NO additional DM-like back-projection
-- The 47 Tuc DM content should match M_stars within stellar evolution uncertainties
+- The 47 Tuc DM content should match $M_{\rm stars}$ within stellar evolution uncertainties
 
 ## §17.3 ΛCDM Prediction for 47 Tuc
 
@@ -63,42 +63,42 @@ Specifically:
 - ρ_NFW(r=4.5 kpc) = 0.030 M_sun/pc³
 
 **NFW DM mass within 47 Tuc**:
-- M_DM(r < 6 pc) ≈ 5 × 10⁴ M_sun (~5% of M_stars)
-- M_DM(r < 50 pc, tidal radius) ≈ 3.5 × 10⁵ M_sun (~30% of M_stars)
+- M_DM(r < 6 pc) ≈ 5 × 10⁴ M_sun (~5% of $M_{\rm stars}$)
+- M_DM(r < 50 pc, tidal radius) ≈ 3.5 × 10⁵ M_sun (~30% of $M_{\rm stars}$)
 
 **ΛCDM prediction** (profile-dependent):
 $$M_{\rm dyn}/M_{\rm stars} = 1.05 \pm 0.05$$
 
-| Profile | M_DM fraction | $M_{\rm dyn}$/M_stars |
+| Profile | M_DM fraction | $M_{\rm dyn}$/ $M_{\rm stars}$ |
 |---|---|---|
 | CoreNFW | 1-3% | 1.01-1.03 |
 | Standard NFW | 5% | 1.05 |
 | Contracted NFW (adiabatic) | 10-15% | 1.10-1.15 |
 
-The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm dyn}$ > M_stars by 1-15%.
+The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm dyn}$ > $M_{\rm stars}$ by 1-15%.
 
 ## §17.4 Decisive Comparison
 
 | Observable | SIDC | ΛCDM | Rubin/LSST precision |
 |---|---|---|---|
-| $M_{\rm dyn}$/M_stars (6 pc) | **1.00 ± 0.05** | **1.05 ± 0.05** | ~10% per radial bin |
-| Velocity dispersion profile | matches M_stars | requires DM spike | ~5 km/s |
+| $M_{\rm dyn}$/ $M_{\rm stars}$ (6 pc) | **1.00 ± 0.05** | **1.05 ± 0.05** | ~10% per radial bin |
+| Velocity dispersion profile | matches $M_{\rm stars}$ | requires DM spike | ~5 km/s |
 | Tidal stream (47 Tuc stream) | clean | perturbed by halo | ~mas/yr proper motion |
-| Outer velocity tail | thermal (M_stars) | enhanced (DM) | per-star |
-| Escape velocity | from M_stars only | from M_stars + DM | integrated |
+| Outer velocity tail | thermal ( $M_{\rm stars}$) | enhanced (DM) | per-star |
+| Escape velocity | from $M_{\rm stars}$ only | from $M_{\rm stars}$ + DM | integrated |
 
-**The KEY discriminator**: SIDC predicts $M_{\rm dyn}$ ≈ M_stars (1.0), ΛCDM predicts $M_{\rm dyn}$ > M_stars (1.05-1.15). With Rubin/LSST astrometric precision (~mas per year proper motions), this 5-15% difference is **detectable**.
+**The KEY discriminator**: SIDC predicts $M_{\rm dyn}$ ≈ $M_{\rm stars}$ (1.0), ΛCDM predicts $M_{\rm dyn}$ > $M_{\rm stars}$ (1.05-1.15). With Rubin/LSST astrometric precision (~mas per year proper motions), this 5-15% difference is **detectable**.
 
 ## §17.5 Specific Observables to Monitor
 
 ### §17.5.1 Stellar Velocity Dispersion Profile
-- **SIDC**: σ(r) follows Plummer/King profile from M_stars alone
+- **SIDC**: σ(r) follows Plummer/King profile from $M_{\rm stars}$ alone
 - **ΛCDM**: σ(r) has enhanced outer tail due to DM spike
 - **Measurement**: Rubin/LSST proper motions of ~10⁵ stars in 47 Tuc
 
 ### §17.5.2 Escape Velocity
 - **SIDC**: v_esc = √(2GM_stars/r) — from stellar mass only
-- **ΛCDM**: v_esc = √(2G(M_stars + M_DM)/r) — enhanced in outer parts
+- **ΛCDM**: v_esc = √(2G( $M_{\rm stars}$ + M_DM)/r) — enhanced in outer parts
 - **Measurement**: High-velocity tail of stellar velocities
 
 ### §17.5.3 Tidal Stream Morphology
@@ -140,17 +140,17 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 
 ### Possible Outcomes
 
-**If 47 Tuc shows $M_{\rm dyn}$ ≈ M_stars** (within 5%):
+**If 47 Tuc shows $M_{\rm dyn}$ ≈ $M_{\rm stars}$** (within 5%):
 - **SIDC STRENGTHENED**
 - ΛCDM needs ad-hoc DM spike suppression in old GCs
 - Strong evidence for $E_{\rm crit}$ threshold in SIDC
 
-**If 47 Tuc shows $M_{\rm dyn}$ > M_stars** by 10%+:
+**If 47 Tuc shows $M_{\rm dyn}$ > $M_{\rm stars}$** by 10%+:
 - **ΛCDM CONFIRMED** (smooth DM halo)
 - SIDC needs to address galactic halo contribution to GCs
 - $E_{\rm crit}$ threshold may need refinement
 
-**If 47 Tuc shows $M_{\rm dyn}$ < M_stars** (impossible by either):
+**If 47 Tuc shows $M_{\rm dyn}$ < $M_{\rm stars}$** (impossible by either):
 - Both models wrong, new physics needed
 
 **Either way**, this is a **USEFUL test** that can discriminate.
@@ -161,7 +161,7 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 
 | Test | Timeline | SIDC vs ΛCDM | Decisiveness |
 |---|---|---|---|
-| **47 Tuc** (this section) | DP1 2025, Y10 2034 | 5-15% $M_{\rm dyn}$/M_stars | DECISIVE |
+| **47 Tuc** (this section) | DP1 2025, Y10 2034 | 5-15% $M_{\rm dyn}$/ $M_{\rm stars}$ | DECISIVE |
 | **w = -1 EXACTLY** (Euclid/Roman) | 2024+ / 2027+ | Sharpness of w deviation | SHARPEST |
 | **BCG $g_+$ universality** (Tian+) | 2024+ | $g_+$ across cluster mass | STRONG |
 | **21cm heating** (SKA) | 2030s | Small excess over ΛCDM | TESTABLE |
@@ -169,7 +169,7 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 
 47 Tuc is the **MOST DECISIVE** upcoming test because:
 1. Timeline is short (DP1 in <2 years)
-2. The prediction is clean ( $M_{\rm dyn}$ = M_stars exactly)
+2. The prediction is clean ( $M_{\rm dyn}$ = $M_{\rm stars}$ exactly)
 3. The ΛCDM prediction is well-defined (NFW + halo)
 4. The measurement is precise (Rubin/LSST astrometry)
 
@@ -179,11 +179,11 @@ Honest framing:
 
 1. **47 Tuc is in the Milky Way halo**, so even SIDC predicts some contribution from our galaxy's DM (if DM is a particle). But SIDC says DM is geometric, so cluster-local DM is from cluster-local events only.
 
-2. **The 5% level is achievable but challenging**. SIDC says $M_{\rm dyn}$/M_stars = 1.00 ± 0.05, ΛCDM says 1.05 ± 0.05. The difference is small (5%) and measurement systematics could mimic either.
+2. **The 5% level is achievable but challenging**. SIDC says $M_{\rm dyn}$/ $M_{\rm stars}$ = 1.00 ± 0.05, ΛCDM says 1.05 ± 0.05. The difference is small (5%) and measurement systematics could mimic either.
 
 3. **CV activity is at the $E_{\rm crit}$ boundary**. 25 CVs each producing ~10³⁰ J per outburst — this is right at SIDC's $E_{\rm crit}$. We need to verify whether this triggers 2D universe nucleation.
 
-4. **Stellar IMF uncertainty**: The 5% error on $M_{\rm dyn}$/M_stars = 1.00 reflects stellar IMF uncertainties. These uncertainties will improve with JWST and Rubin/LSST.
+4. **Stellar IMF uncertainty**: The 5% error on $M_{\rm dyn}$/ $M_{\rm stars}$ = 1.00 reflects stellar IMF uncertainties. These uncertainties will improve with JWST and Rubin/LSST.
 
 5. **47 Tuc has a tidal stream**: This complicates the dynamics. Need to model the stream for accurate $M_{\rm dyn}$.
 
@@ -205,10 +205,10 @@ For SIDC to gain experimental traction, the **47 Tuc test is the highest-priorit
 **Expected timeline**:
 - 2025 (Q4): First Rubin/LSST DP1 results
 - 2027 (Q1): First LSST DR1 47 Tuc M/L ratio
-- 2030 (LSST Y6): $M_{\rm dyn}$/M_stars to ~5% precision
-- 2034 (LSST Y10): Decisive $M_{\rm dyn}$/M_stars at ~3% precision
+- 2030 (LSST Y6): $M_{\rm dyn}$/ $M_{\rm stars}$ to ~5% precision
+- 2034 (LSST Y10): Decisive $M_{\rm dyn}$/ $M_{\rm stars}$ at ~3% precision
 
-**Bottom line**: 47 Tuc is the **FIRST DECISIVE TEST** of SIDC vs ΛCDM. The framework predicts $M_{\rm dyn}$ ≈ M_stars (no DM spike), while ΛCDM predicts $M_{\rm dyn}$ > M_stars (smooth DM halo). Rubin/LSST will measure this with sufficient precision by 2030-2034.
+**Bottom line**: 47 Tuc is the **FIRST DECISIVE TEST** of SIDC vs ΛCDM. The framework predicts $M_{\rm dyn}$ ≈ $M_{\rm stars}$ (no DM spike), while ΛCDM predicts $M_{\rm dyn}$ > $M_{\rm stars}$ (smooth DM halo). Rubin/LSST will measure this with sufficient precision by 2030-2034.
 
 ---
 
