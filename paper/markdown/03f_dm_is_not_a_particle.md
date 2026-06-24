@@ -125,7 +125,7 @@ The "spectrum" is determined by:
 For Option 1 (universal $\mu$):
 - All 2D universes have same growth factor
 - Energy distribution = distribution of E (with universal growth)
-- Not a single mass — distribution from 10⁻⁴³ J (TNT) to 10⁶⁰ J (quasar)
+- Not a single mass — distribution from $10^{-43}$ J (TNT) to 10⁶⁰ J (quasar)
 
 For Option 2 (event-dep $\mu$):
 - Different growth factors

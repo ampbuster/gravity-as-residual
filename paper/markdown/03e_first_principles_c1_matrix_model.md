@@ -50,8 +50,8 @@ This is **counterintuitive** because we might think:
 
 TNT 2D universe:
 - $M_{\rm Pl,2D}$ = 360,000 TeV (very rigid)
-- Size = c × $\tau$ = 3×10⁸ × 10⁻⁴³ = 3×10⁻³⁵ m (TINY!)
-- Action = E × $\tau$ = 4×10⁹ × 10⁻⁴³ = 4×10⁻³⁴ J·s (tiny!)
+- Size = c × $\tau$ = 3×10⁸ × $10^{-43}$ = 3×$10^{-35}$ m (TINY!)
+- Action = E × $\tau$ = 4×10⁹ × $10^{-43}$ = 4×$10^{-34}$ J·s (tiny!)
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:

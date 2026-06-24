@@ -110,7 +110,7 @@ Both directions use the **SAME $\alpha = 1.289$** derived from **N = 12** SYK. T
 **The closed loop UNITES DM, DE, and gravity (v3.0.22, §3.60.3)**:
 
 - **Gravity weakness**: $\varepsilon_{\rm grav} \sim 6.32 \times 10^{-34}$ (A2, was $10^{-38}$ in A1) from bulk-brane cancellation; $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant
-- **DE density**: $\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.5 \times 10^{-47}$ GeV$^4$ (matches observed within 0.13%, via f×ε = 1.13×10⁻¹²³ invariant; v3.0.22 was 2.2×10⁻⁴⁷ within 12% via f_back ≈ 10⁻⁸⁵)
+- **DE density**: $\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.5 \times 10^{-47}$ GeV$^4$ (matches observed within 0.13%, via f×ε = 1.13×$10^{-123}$ invariant; v3.0.22 was 2.2×$10^{-47}$ within 12% via f_back ≈ $10^{-85}$)
 - **DM density**: $\rho_{\rm DM} = f_{\rm DM,death} \times \Sigma(M_{\rm 2D} \times N_{\rm 2D})/V$ (uses same $f_{\rm DM,death}$)
 
 All three use the SAME $\alpha = 1.289$ (Schwarzian SYK N=12, L308n), the SAME $f_{\rm DE,closed} \approx 1.79 \times 10^{-90}$ (A2 closed loop, L308av; A1 form $f_{\rm DE,simple} \approx 1.13 \times 10^{-85}$ gives same ρ_DE), the SAME bulk-brane geometry. The closed loop is what unifies them.
@@ -5351,8 +5351,8 @@ This is **counterintuitive** because we might think:
 
 TNT 2D universe:
 - $M_{\rm Pl,2D}$ = 360,000 TeV (very rigid)
-- Size = c × $\tau$ = 3×10⁸ × 10⁻⁴³ = 3×10⁻³⁵ m (TINY!)
-- Action = E × $\tau$ = 4×10⁹ × 10⁻⁴³ = 4×10⁻³⁴ J·s (tiny!)
+- Size = c × $\tau$ = 3×10⁸ × $10^{-43}$ = 3×$10^{-35}$ m (TINY!)
+- Action = E × $\tau$ = 4×10⁹ × $10^{-43}$ = 4×$10^{-34}$ J·s (tiny!)
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:
@@ -5627,7 +5627,7 @@ The "spectrum" is determined by:
 For Option 1 (universal $\mu$):
 - All 2D universes have same growth factor
 - Energy distribution = distribution of E (with universal growth)
-- Not a single mass — distribution from 10⁻⁴³ J (TNT) to 10⁶⁰ J (quasar)
+- Not a single mass — distribution from $10^{-43}$ J (TNT) to 10⁶⁰ J (quasar)
 
 For Option 2 (event-dep $\mu$):
 - Different growth factors
@@ -8453,7 +8453,7 @@ The full table follows:
 | 31 (NEW) | 2D-to-3+1D time compression | OPEN (v2.6) | §2.5, §2.6 | The bulk position distribution P(y) is unknown; required $e^{-ky} \sim 10^{-48}$ corresponds to 2D universes ~100 AdS₅ radii deep; a specific bulk geometry and 2D CFT calculation would close this |
 | 32 (REMOVED v2.7) | 4-zone H(z) derivation | N/A | N/A | REMOVED in v2.7: the 4-zone H(z) was data fitting (8 free parameters for ~5 data points), and the P(y) problem made it internally inconsistent. SIDC now adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved. |
 | 33 (NEW) | $\Omega_{\rm DM}$ = 0.27 as input postulate | OPEN (v2.6) | §2.5, §2.6 | SIDC postulates that all observed DM is 2D universe mass, time-compressed; the specific 27% value is an INPUT from Planck 2018, not a derivation; closing this would require a 2D CFT calculation that yields 27% as a numerical output |
-| 34 (NEW v2.7.5) | $E_{\rm primordial}$ (per-event energy of primordial 2D universes) | OPEN (v2.7.5) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* $$F_p $, but does NOT specify the per-event energy $E_{\rm primordial}$. The 2D universe lifetime $\tau_{2D}$, growth factor G, and cumulative energy all depend on $E_{\rm primordial}$. SIDC treats $E_{\rm primordial}$ as a FREE PARAMETER. Closing requires a derivation of $E_{\rm primordial}$ from the 4D event's internal dynamics. |
+| 34 (NEW v2.7.5) | $E_{\rm primordial}$ (per-event energy of primordial 2D universes) | OPEN (v2.7.5) | §4.48 | §4.48 specifies the primordial *rate* R_p and *fraction* $F_p$, but does NOT specify the per-event energy $E_{\rm primordial}$. The 2D universe lifetime $\tau_{2D}$, growth factor G, and cumulative energy all depend on $E_{\rm primordial}$. SIDC treats $E_{\rm primordial}$ as a FREE PARAMETER. Closing requires a derivation of $E_{\rm primordial}$ from the 4D event's internal dynamics. |
 | 35 (NEW v2.7.5) | $z_{\rm half}$ (smooth $F_p$ transition redshift) | OPEN (v2.7.5) | §4.48.1 | Smooth $F_p$(z) = 0.7 + 0.3 * z^2/($z_{\rm half}$^2 + z^2) introduces free parameter $z_{\rm half}$ ~ 3, calibrated to match z=0 and z=1100 anchors. Closing requires derivation of $z_{\rm half}$ from 4D event dynamics. |
 | 36 (NEW v2.7.5) | $E_{\rm crit}$ (phase-transition threshold) | REVERTED (v2.7.5) | §2.5.3 | v2.3.0 $E_{\rm crit} \sim 10^{30}$ J step-function threshold REMOVED in v2.7.4 in favor of smooth creation function C(E) = $E^{1+\alpha}$. The smooth function uses only existing $\alpha = 1.29$, no new free parameters. All 5/5 dwarf cases still work. |
 | 37 (NEW v2.7.30) | $\alpha$ = 1.29 CGHS derivation | OPEN (v2.7.30) | §3.19, §3.24 | SIDC's §3.19 claimed $\alpha$ = 1.29 is in the CGHS back-reaction range [1, 3]. §3.24 self-critique: no standard CGHS scaling gives constant $\tau_{2D,\rm proper}$. A specific CGHS-with-back-reaction calculation yielding p = 1.29 is needed to close this. This is a research challenge, not a derivation. Future work: specific CGHS calculation. |
@@ -19502,7 +19502,7 @@ The 4% gap is NOT a blocker for the framework's core predictions. Without the fu
 
 ✓ ρ_DE matches observation (0.13% off, A2 closed loop)
 ✓ DM distribution (SPARC, BCG)
-✓ AGN-DM correlation (p < 10⁻⁵⁰)
+✓ AGN-DM correlation (p < $10^{-50}$)
 ✓ 5/27/68 split matches Planck 2018
 ✓ $M_{\rm Pl,2D} = 2.95$TeV (testable at HL-LHC)
 ✓ w = -1 EXACTLY (testable by Euclid/Roman)
