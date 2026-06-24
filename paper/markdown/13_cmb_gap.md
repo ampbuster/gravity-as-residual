@@ -152,10 +152,10 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 - In late universe (z < 1100): low H(z) → low leak rate → DM reaches steady state
 - Today: $f_{\rm leak}$(z=0) = 1.13 × H₀, essentially matching A1
 
-**Result**: Drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
+**Result**: Drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 $\Omega_{\rm c}$ = 0.265.
 
 **Implications**:
-- τ_DM changes by only 11.5% (14.51 → 12.84 Gyr)
+- $\tau_{\rm DM}$ changes by only 11.5% (14.51 → 12.84 Gyr)
 - All A1 derivations remain valid to within ~13%
 - No new parameters (H(z) is standard cosmology)
 - Natural generalization of A1's post-Friedmann principle
@@ -176,9 +176,9 @@ This is the right question to ask. The CMB angular power spectrum has multiple a
 
 | Peak | ℓ | What it measures | ΛCDM | SIDC pre-L308ab | SIDC post-L308ab |
 |---|---|---|---|---|---|
-| **1st** | ~220 | Sound horizon r_s, total Ω_m | ✓ | partial (Ω_b alone wrong by 6.4×) | **✓ matches** |
+| **1st** | ~220 | Sound horizon r_s, total $\Omega_{\rm m}$ | ✓ | partial ($\Omega_{\rm b}$ alone wrong by 6.4×) | **✓ matches** |
 | **2nd** | ~540 | Baryon-to-photon ratio η | ✓ | ✓ (BBNS unchanged) | **✓ matches** |
-| **3rd** | ~810 | Matter-to-radiation, Ω_c | ✓ | ✗ FAIL (no DM at z=1100) | **✓ matches** (Ω_c = 0.265) |
+| **3rd** | ~810 | Matter-to-radiation, $\Omega_{\rm c}$ | ✓ | ✗ FAIL (no DM at z=1100) | **✓ matches** ($\Omega_{\rm c}$ = 0.265) |
 | **Silk damping** | ℓ > 1000 | DM-baryon coupling | ✓ | ✗ FAIL | **✓ matches** (collisionless DM) |
 | **Polarization** (TE/EE) | ℓ < 200 | Recombination, reionization | ✓ | ✓ (3+1D physics) | **✓ matches** |
 
@@ -186,7 +186,7 @@ This is the right question to ask. The CMB angular power spectrum has multiple a
 
 **The CMB peak structure depends on**:
 
-1. **Background cosmology** H(z), Ωₘ(z), Ω_b — SAME in both frameworks (3+1D Friedmann equation)
+1. **Background cosmology** H(z), Ωₘ(z), $\Omega_{\rm b}$ — SAME in both frameworks (3+1D Friedmann equation)
 2. **Recombination physics** — SAME (3+1D atomic physics)
 3. **DM properties** — SAME if DM is collisionless and cold
 4. **Early universe physics** — SAME in both
@@ -206,26 +206,26 @@ $$r_s = \int_0^{a_*} \frac{c_s}{a^2 H(a)} da, \quad c_s = \frac{c}{\sqrt{3(1+R)}
 
 This integral depends on:
 - H(a): SAME (ΛCDM background)
-- ρ_b: SAME (standard BBNS)
+- $\rho_{\rm b}$: SAME (standard BBNS)
 - ρ_γ: SAME (standard photon bath)
 
 So rₛ is IDENTICAL in SIDC and ΛCDM. Peak 1 position is determined by 3+1D physics. ✓
 
 #### Peak 2 (ℓ ~ 540): Baryon Loading
 
-The 2nd-to-1st peak ratio depends on Ω_b h²:
+The 2nd-to-1st peak ratio depends on $\Omega_{\rm b}$ h²:
 $$\frac{\ell_2}{\ell_1} \approx 1 + \frac{1}{4} \cdot \frac{\Omega_b h^2}{\Omega_m h^2}$$
 
-SIDC's Ω_b = 0.0493 (Planck 2018, standard BBNS). Same as ΛCDM. ✓
+SIDC's $\Omega_{\rm b}$ = 0.0493 (Planck 2018, standard BBNS). Same as ΛCDM. ✓
 
 #### Peak 3 (ℓ ~ 810): Cold Dark Matter
 
 The 3rd peak height depends on:
-- Ω_c h² (cold DM density)
+- $\Omega_{\rm c}$ h² (cold DM density)
 - DM velocity dispersion (free-streaming scale)
 
 SIDC's DM:
-- Has Ω_c = 0.265 at z=1100 (post-L308ab) ✓
+- Has $\Omega_{\rm c}$ = 0.265 at z=1100 (post-L308ab) ✓
 - Has $v_{\rm 2D} \sim 30$ m/s (effectively cold, see below) ✓
 - Same gravitational behavior as ΛCDM CDM ✓
 
@@ -243,7 +243,7 @@ That's essentially zero velocity dispersion. **SIDC's DM is "cold" by any measur
 The Silk damping scale is:
 $$k_D^{-2} \sim \int_0^{a_*} \frac{1}{a^2 \sigma_T n_e H(a)} \left(\frac{R^2 + 1}{6(1+R)}\right) da$$
 
-The (1+R) factor: R = 3ρ_b/(4ρ_γ) doesn't depend on DM. The σ_T nₑ term doesn't depend on DM. **Silk damping scale is unchanged by DM origin.** ✓
+The (1+R) factor: R = 3$\rho_{\rm b}$/(4ρ_γ) doesn't depend on DM. The $\sigma_{\rm T}$ nₑ term doesn't depend on DM. **Silk damping scale is unchanged by DM origin.** ✓
 
 #### Polarization (TE/EE)
 
@@ -269,11 +269,11 @@ The "CMB gap" before L308ab was specifically about DM being absent at z=1100. Af
 #### Verification Path
 
 A specific test would be:
-1. Run a Boltzmann solver (CAMB, CLASS) with SIDC's DM properties (Ω_c, $v_{\rm 2D}$ ~ 30 m/s)
+1. Run a Boltzmann solver (CAMB, CLASS) with SIDC's DM properties ($\Omega_{\rm c}$, $v_{\rm 2D}$ ~ 30 m/s)
 2. Compute the predicted CMB angular power spectrum
 3. Compare to Planck 2018 measurements
 
-This was previously IMPOSSIBLE because Ω_c(z=1100) ≈ 0 in SIDC (pre-L308ab). **Now it's possible** with Ω_c = 0.265. The expected result: matches ΛCDM within measurement uncertainties.
+This was previously IMPOSSIBLE because $\Omega_{\rm c}$(z=1100) ≈ 0 in SIDC (pre-L308ab). **Now it's possible** with $\Omega_{\rm c}$ = 0.265. The expected result: matches ΛCDM within measurement uncertainties.
 
 **Source**: User question (2026-06-21). Analysis: this section.
 

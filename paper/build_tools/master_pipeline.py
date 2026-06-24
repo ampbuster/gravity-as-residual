@@ -326,6 +326,30 @@ def step_fix_dollar_letter_no_space(dry_run=False):
     return True
 
 
+def step_fix_unicode_greek_subscripts(dry_run=False):
+    """Wrap Unicode Greek+subscript patterns in $...$ math.
+
+    Problem: Plain text like `ρ_DE = 2.5e-47` or `Ω_c = 0.265` is not
+    in math mode. In LaTeX, `_` outside math mode is an error or
+    renders as plain underscore. We want these patterns to be wrapped
+    in `$...$` for proper math rendering.
+
+    Examples:
+      `ρ_DE = 2.5e-47`    → `$\\rho_{\\rm DE} = 2.5e-47$`
+      `Ω_c = 0.265`       → `$\\Omega_{\\rm c} = 0.265$`
+      `α_M = 1.408`       → `$\\alpha_{\\rm M} = 1.408$`
+      `ρ_DE/ρ_Pl`         → `$\\rho_{\\rm DE}/\\rho_{\\rm Pl}$`
+
+    Skips: code blocks, inline code, existing math mode.
+    """
+    print('\n=== Step 7: fix_unicode_greek_subscripts ===')
+    if dry_run:
+        run_script('fix_unicode_greek_subscripts.py --all', capture=False)
+    else:
+        run_script('fix_unicode_greek_subscripts.py --all', capture=False)
+    return True
+
+
 STEPS = [
     'fix_broken_wraps',
     'fix_unbalanced_dollars',
@@ -336,6 +360,7 @@ STEPS = [
     'fix_broken_wraps',  # Run AGAIN to clean up broken patterns from wrap_math_vars
     'fix_math_spacing',  # Run AGAIN to clean up spacing
     'fix_dollar_letter_no_space',  # NEW: insert space after $ when followed by letter
+    'fix_unicode_greek_subscripts',  # NEW: wrap Unicode Greek+subscript in $...$
     'build_pdf',
     'audit',
 ]
@@ -359,6 +384,7 @@ def main():
         'inline_to_unicode': step_inline_to_unicode,
         'wrap_math_vars': step_wrap_math_vars,
         'fix_dollar_letter_no_space': step_fix_dollar_letter_no_space,
+        'fix_unicode_greek_subscripts': step_fix_unicode_greek_subscripts,
         'build_pdf': step_build_pdf,
         'audit': step_audit,
     }

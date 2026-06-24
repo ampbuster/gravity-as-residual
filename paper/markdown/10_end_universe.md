@@ -260,7 +260,7 @@ For bursts of energy E_GW at rate r_local per m^3 per s, each at frequency $f_{\
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
-where ρ_c = 7.7 × 10⁻¹⁰ J/m³ is the critical density.
+where $\rho_{\rm c}$ = 7.7 × 10⁻¹⁰ J/m³ is the critical density.
 
 For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = 10⁴⁴ J, $\tau_{2D} = 33$ s, rate$\sim 10^{4}/({\rm Mpc}^3 {\rm yr}) = 1.08 \times 10^{-71}/({\rm m}^3 {\rm s})$):
 
@@ -348,7 +348,7 @@ For a population of bursts at rate n_rate (per m³/s) with energy E_GW per burst
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
-where ρ_c = 7.7 × 10⁻¹⁰ J/m³.
+where $\rho_{\rm c}$ = 7.7 × 10⁻¹⁰ J/m³.
 
 **For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = 10⁴⁴ J, $\tau_{2D} = 33$ s, rate$\sim 10^{4}/({\rm Mpc}^3 {\rm yr}) = 1.08 \times 10^{-71}/({\rm m}^3 {\rm s})$):**
 

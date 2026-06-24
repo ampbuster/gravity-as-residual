@@ -676,19 +676,19 @@ The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-g
 **Numerical verification** (our universe, N=4D, N-1=3+1D, A2 with α_4D = 1.577):
 - The anti-gravity formula $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{α}$ × ε × $M_{\rm Pl,3D}^4$ / γ_4D requires SAME α in both
 - With α_4D = 1.577: $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1.577}$ / γ_4D = $(M_{\rm Pl,4D}/E_{\rm 4D})^{1.577}$ = 1.17e-104
-- ρ_DE = 1.17e-104 × 6.32e-34 × (1.22e19)^4 = 1.63e-61 GeV⁴ (NOT 2.5e-47 with ε=6.32e-34)
+- $\rho_{\rm DE}$ = 1.17e-104 × 6.32e-34 × (1.22e19)^4 = 1.63e-61 GeV⁴ (NOT 2.5e-47 with ε=6.32e-34)
 - 
 - This shows: the anti-gravity formula has TWO α values in A2 (α_2D for $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$, α_4D for γ_4D)
 - They DON'T cancel cleanly, so the formula gives wrong result
 - 
 - The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
-- ρ_DE = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
+- $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
 **Simple $f_{\rm DE,simple}$ formula (legacy A1, preserved as compact form, gives 0.13% off, near-exact)**:
 $$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$ (A2)
 Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is DE-calibrated).
 
-**A2 Note**: The simple $f_{\rm DE}$,simple formula uses α_2D = 1.289 (in $M_{\rm Pl,4D}$ from α-GM) with ε = 1e-38. The closed loop formula $f_{\rm DE}$,closed (L308av, was $f_{\rm back}$ in legacy naming) uses α_4D = 1.577 with ε = 6.32e-34. Both give ρ_DE = 2.5e-47 ✓. f×ε = 1.13e-123 invariant preserved.
+**A2 Note**: The simple $f_{\rm DE}$,simple formula uses α_2D = 1.289 (in $M_{\rm Pl,4D}$ from α-GM) with ε = 1e-38. The closed loop formula $f_{\rm DE}$,closed (L308av, was $f_{\rm back}$ in legacy naming) uses α_4D = 1.577 with ε = 6.32e-34. Both give $\rho_{\rm DE}$ = 2.5e-47 ✓. f×ε = 1.13e-123 invariant preserved.
 
 **Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = 1× 10⁻³⁸). In v3.5.9+ A2, the $f_{\rm DE}$,closed formula is canonical (uses α_4D = 1.577, ε = 6.32× 10⁻³⁴). f×ε = 1.13× $10^{-123}$ invariant preserved in both.
 
@@ -1475,7 +1475,7 @@ This section REVISES the Lagrangian with three A2-era corrections and ONE new st
 
 #### 3.68.2 The Dim-Specific α Pattern (L308ba, USER-DISCOVERED)
 
-The three framework A2 dim-specific α values match **α_D = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2)**:
+The three framework A2 dim-specific α values match **$\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2)**:
 
 ```
 α_2D   = 1 + 1/√12 = 1.2887   ✓ (Schwarzian N=12 SYK, FIRST-PRINCIPLES)
@@ -1588,7 +1588,7 @@ Where prefactor accounts for parent-reference Planck ( $M_{\rm Pl,3D}$, not $M_{
 
 The Lagrangian now uses A2 frame-neutral naming (L308ax):
 - `$f_{\rm DE}$,closed` (was $f_{\rm back}$ in legacy naming) — 3D→4D projection efficiency (closed loop)
-- `$f_{\rm DE}$,simple` — A1 form, preserved for compactness (also gives ρ_DE exact)
+- `$f_{\rm DE}$,simple` — A1 form, preserved for compactness (also gives $\rho_{\rm DE}$ exact)
 - `$f_{\rm leak}$,2D→3D` (was $f_{\rm DM}$,leak) — natural cascade leak from 2D perspective (= $f_{\rm DM}$,leak from 3+1D perspective, ~ 10⁻⁴⁵, dropped)
 - `$f_{\rm leak,3D→4D}$` (was $f_{\rm leak}$) — calibrated drain rate = H₀ (post-Friedmann principle)
 
@@ -1612,13 +1612,13 @@ It does NOT:
 
 | Aspect | §3.67 (L116) | §3.68 (NEW) | Source |
 |--------|---------------|-------------|--------|
-| α (scaling law) | α = 1.289 (universal) | α_D = 1 + 1/√(12/2^(D-2)) | L308ba |
+| α (scaling law) | α = 1.289 (universal) | $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) | L308ba |
 | $f_{\rm DE}$ formula | $f_{\rm back}$ ≈ 10⁻⁸⁵ | $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ | L308av |
 | Projection sign | ± $g_{\rm couple}$ (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
 | Frame naming | $f_{\rm back}$, $f_{\rm leak}$, $f_{\rm DM}$,leak | $f_{\rm DE}$,closed, $f_{\rm leak}$,2D→3D, $f_{\rm leak,3D→4D}$ | L308ax |
 | $E_{\rm sub}$ in 4D term | not explicit | $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ explicit | A2 STRUCTURAL |
 | 2D universe lifetime | (E/ $M_{\rm Pl,3D}$)^α × $t_{\rm Pl}$ | $(E/M_{\rm Pl,parent})^{\alpha}$_D × $t_{\rm Pl}$,parent (dim-specific) | L308ba |
-| DM picture | pulsed death + ε × ρ | pulsed death + $f_{\rm leak,3D→4D}$ × ρ_DM (bilateral) | L308ax |
+| DM picture | pulsed death + ε × ρ | pulsed death + $f_{\rm leak,3D→4D}$ × $\rho_{\rm DM}$ (bilateral) | L308ax |
 | Mirror plane | not encoded | S_mirror term explicit | L308az |
 | Halving rule | unknown | $N_D$ = 12/2^(D-2) identified | L308ba |
 
@@ -1657,7 +1657,7 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 | **OVERALL** | **73%** | **93%** | **+20 percentage points** |
 
 **What improved**:
-- **Numerical consistency** (5/6 → 7/7): A2 values ( $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give EXACT match to observed ρ_DE. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
+- **Numerical consistency** (5/6 → 7/7): A2 values ( $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give EXACT match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
 - **Issue resolution** (37% → 80%): L308ar, L308az, L308ax all addressed in §3.68 with explicit Lagrangian terms (S_mirror, S_drain, halving rule).
 - **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, halving rule, f×ε invariant, σ_+×σ_-=-1).
 
@@ -1669,7 +1669,7 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 
 #### 3.69.2 Halving Rule Deeper Analysis (L308bb)
 
-L308ba identified α_D = 1 + 1/√(12/2^(D-2)) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
+L308ba identified $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
 
 ** $N_{\rm 2D}$ = 12 (FIRST-PRINCIPLES derived, L308r):**
 - 3 generations × 4 Weyl fermions (SM backbone)
@@ -1863,7 +1863,7 @@ After the L308bh breakthrough (C(6) is the SM algebra, Stoica 2018), the user di
   - $N_{3+1D}$ = 6 = C(6) SM algebra (Stoica 2018) [NEW]
   - $N_{\rm 4D}$ = 3 = 3 generations (Clifford/McKay/cobordism)
 - ε = 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, $\gamma_{\rm 4D} = 1.10×10¹¹¹$
-- ρ_DE = 2.5× 10⁻⁴⁷ EXACT
+- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT
 
 #### 3.71.2 What Changed from Previous B
 
@@ -1933,7 +1933,7 @@ NO numerical changes. Option B Strengthened uses the same values as Option B (A2
 - $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
-- ρ_DE = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT)
+- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT)
 
 The switch is interpretive (justification), not numerical (re-calibration).
 
@@ -1974,7 +1974,7 @@ The cascade framework now uses Option B Strengthened as its primary interpretati
 - All three N values first-principles derived
 - ε = 6.32× 10⁻³⁴ (A2 calibrated)
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
-- ρ_DE = 2.5× 10⁻⁴⁷ EXACT
+- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT
 
 The framework's choice is justified BOTH structurally (L308ba, L308bc, L308az) AND first-principles (L308r, Stoica 2018, Clifford/McKay/cobordism).
 
@@ -2127,7 +2127,7 @@ SIDC is the ONLY framework with:
 - ✓ A Lagrangian that derives both DM and DE from a single mechanism (cascade)
 - ✓ First-principles N values (C(6) is SM algebra)
 - ✓ Mirror plane symmetry explicit (sign flip at 3+1D)
-- ✓ Numerical EXACT match to ρ_DE
+- ✓ Numerical EXACT match to $\rho_{\rm DE}$
 
 #### 3.72.9 Source
 
@@ -2141,7 +2141,7 @@ See `calculations/v36_research/` for individual L308 verification scripts.
 
 The Lagrangian has:
 - ✓ 93% audit score (§3.68)
-- ✓ All A2 numerical values consistent (ρ_DE = 2.5× 10⁻⁴⁷ EXACT)
+- ✓ All A2 numerical values consistent ($\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT)
 - ✓ Frame-neutral naming (L308ax)
 - ✓ Mirror plane symmetry (L308az)
 - ✓ First-principles N values (L308bi, C(6) is SM algebra)

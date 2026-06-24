@@ -122,13 +122,13 @@ The Fateev-Zamolodchikov-Zamolodchikov-Teschner brane provides the boundary stat
 
 $$|\text{FZZT}, s\rangle = \int dP \, \Psi_s(P) |P, \bar{P}\rangle$$
 
-where s is the FZZT parameter (related to brane tension) and Ψ_s(P) is a known function.
+where s is the FZZT parameter (related to brane tension) and $\Psi_{\rm s}$(P) is a known function.
 
 ### §18.3.5 Combined $Z_{\rm 2D}$
 
 $$Z_{2D} = \int dP \, \rho_{\rm tot}(P) \, \Psi_s(P)^2$$
 
-where ρ_tot(P) combines Liouville × Ising × SYK contributions.
+where $\rho_{\rm tot}$(P) combines Liouville × Ising × SYK contributions.
 
 **This is computable in principle**, but requires the conformal bootstrap program for Ising + Liouville + SYK combined.
 
@@ -188,7 +188,7 @@ where c_s is the brane sound speed.
 
 The 4% gap is NOT a blocker for the framework's core predictions. Without the full path integral, SIDC still predicts:
 
-✓ ρ_DE matches observation (0.13% off, A2 closed loop)
+✓ $\rho_{\rm DE}$ matches observation (0.13% off, A2 closed loop)
 ✓ DM distribution (SPARC, BCG)
 ✓ AGN-DM correlation (p < 10⁻⁵⁰)
 ✓ 5/27/68 split matches Planck 2018

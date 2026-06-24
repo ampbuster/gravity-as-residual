@@ -41,7 +41,7 @@
 - $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas (f×ε = 1.13× $10^{-123}$ invariant)
   - $f_{\rm DE,simple}$ = 1.13× 10⁻⁸⁵ (uses α_2D = 1.289, ε = 1× 10⁻³⁸)
   - $f_{\rm DE,closed}$ = 1.79× 10⁻⁹⁰ (uses α_4D = 1.577, ε = 6.32× 10⁻³⁴)
-  - Both give ρ_DE = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT match)
+  - Both give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT match)
   - **Was called $f_{\rm back}$ in v3.0+ naming, renamed in v3.5.7+ naming revolution**
 
 ### Observational Inputs (5, taken from data)
@@ -51,7 +51,7 @@
 | 5/27/68 split | 0.05/0.27/0.68 | Planck 2018 |
 | H₀ | 67.4 km/s/Mpc | Planck 2018 |
 | $E_{SN}$ (kinetic) | 10⁴⁴ J | Standard CCSN model |
-| Ωₘ, Ω_b, Ω_Λ | 0.315, 0.049, 0.685 | Planck 2018 |
+| Ωₘ, $\Omega_{\rm b}$, Ω_Λ | 0.315, 0.049, 0.685 | Planck 2018 |
 | g₊ (MOND accel) | 1.2 × 10⁻¹⁰ m/s² | SPARC RAR fit (adopted in SIDC-MOND hybrid) |
 
 ### Derived Quantities (not free, derived from data + framework)

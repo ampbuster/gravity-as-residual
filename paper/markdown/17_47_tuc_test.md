@@ -58,9 +58,9 @@ Specifically:
 ΛCDM + NFW halo predicts a smooth DM contribution from the Milky Way halo passing through 47 Tuc's location:
 
 **NFW parameters** (Milky Way):
-- ρ_s = 0.014 M_sun/pc³
+- $\rho_{\rm s}$ = 0.014 M_sun/pc³
 - r_s = 16 kpc
-- ρ_NFW(r=4.5 kpc) = 0.030 M_sun/pc³
+- $\rho_{\rm NFW}$(r=4.5 kpc) = 0.030 M_sun/pc³
 
 **NFW DM mass within 47 Tuc**:
 - M_DM(r < 6 pc) ≈ 5 × 10⁴ M_sun (~5% of $M_{\rm stars}$)

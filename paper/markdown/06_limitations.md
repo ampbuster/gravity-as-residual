@@ -464,9 +464,9 @@ If you are a brane-world expert, a DGP specialist, an analog gravity theorist, o
 
 L283. ** N=12 in SYK is the standard numerical benchmark, NOT theoretically motivated** (v3.4.5). Web research confirms: N=12 with q=4 is used in Wenbo Fu (Princeton) thesis, OSTI variational, Caltech papers, and Sachdev MagLab lecture as the standard SYK numerical benchmark. But it is chosen for tractability, not from first principles. Other N (6, 8, 10, 14, 16) work equally well. The framework's α = 1 + 1/√N formula at N=12 is a PHENOMENOLOGICAL FIT, not a derivation. Status: CORRELATION, not derivation. Source: `calculations/v34_web_research_n12_consistency.py`.
 
-L284. **α = 1 + 1/√N is NOT a standard SYK formula** (v3.4.5). The SYK literature has Lyapunov exponent λ_L → 2π/β, specific heat corrections, etc. There is NO known "α = 1 + 1/√N" formula. The framework's claim that "α = 1.289 derives from N=12 SYK" is FALSE — α is calibrated to 14 M^α events, and the √12 in the formula is a curve fit. Status: PHENOMENOLOGICAL. Source: `calculations/v34_web_research_n12_consistency.py`.
+L284. **α = 1 + 1/√N is NOT a standard SYK formula** (v3.4.5). The SYK literature has Lyapunov exponent $\lambda_{\rm L}$ → 2π/β, specific heat corrections, etc. There is NO known "α = 1 + 1/√N" formula. The framework's claim that "α = 1.289 derives from N=12 SYK" is FALSE — α is calibrated to 14 M^α events, and the √12 in the formula is a curve fit. Status: PHENOMENOLOGICAL. Source: `calculations/v34_web_research_n12_consistency.py`.
 
-L285. **"12 SM fermions per generation" is FALSE** (v3.4.5). Per generation: SM has 15 Weyl (no ν_R) or 16 Weyl (with ν_R) = 7-8 Dirac. NOT 12. The only legitimate "12" in SM are: (a) 12 fermion FLAVORS (6 quarks + 6 leptons across all 3 generations = 4 Dirac × 3 = 12), and (b) 12 GAUGE BOSONS (8 gluons + 3 weak + 1 hypercharge). Framework's "12 SM fermions per gen" was an error. Status: REFUTED. Source: `calculations/v34_sm_side_12_match.py`.
+L285. **"12 SM fermions per generation" is FALSE** (v3.4.5). Per generation: SM has 15 Weyl (no $\nu_{\rm R}$) or 16 Weyl (with $\nu_{\rm R}$) = 7-8 Dirac. NOT 12. The only legitimate "12" in SM are: (a) 12 fermion FLAVORS (6 quarks + 6 leptons across all 3 generations = 4 Dirac × 3 = 12), and (b) 12 GAUGE BOSONS (8 gluons + 3 weak + 1 hypercharge). Framework's "12 SM fermions per gen" was an error. Status: REFUTED. Source: `calculations/v34_sm_side_12_match.py`.
 
 L286. **"h^{2,1} = N → N generations" is REFUTED by direct evidence** (v3.4.4). arXiv:0910.5464 (Braun-Candelas-Davies 2009) has CY3 with (h^{1,1}, h^{2,1}) = (1, 4) and 3 chiral generations via E_6 standard embedding. h^{2,1} = 4 does NOT give 4 generations. The index formula is N_gen = |χ|/2 (Euler characteristic), NOT h^{2,1}. User caught this directly. Status: REFUTED. Source: `calculations/v34_h21_4_vs_3_gen.py`.
 
@@ -474,7 +474,7 @@ L287. **Z_12 fundamental group DOES exist in CY3 quotients** (v3.4.5, VERIFIED).
 
 L288. **SM has 12 gauge bosons, not 12 fermions per generation** (v3.4.6). The framework's claim "12 SM fermions/gen" is wrong. The legitimate SM-side match for "12" is: 12 gauge bosons (SU(3) + SU(2) + U(1) generators = 8+3+1 = 12). This IS structural (real, well-defined). Status: REFRAMED. Source: `calculations/v34_sm_side_12_match.py`.
 
-L289. **SM has 12 fermion FLAVORS across all 3 generations, NOT per gen** (v3.4.6). 6 quark flavors (u, d, s, c, b, t) + 6 lepton flavors (e, ν_e, μ, ν_μ, τ, ν_τ) = 12 total flavors. 4 Dirac fermion FAMILIES × 3 generations = 12. The "12" applies to the WHOLE SM, not per generation. Status: REFRAMED. Source: `calculations/v34_sm_side_12_match.py`.
+L289. **SM has 12 fermion FLAVORS across all 3 generations, NOT per gen** (v3.4.6). 6 quark flavors (u, d, s, c, b, t) + 6 lepton flavors (e, $\nu_{\rm e}$, μ, ν_μ, τ, ν_τ) = 12 total flavors. 4 Dirac fermion FAMILIES × 3 generations = 12. The "12" applies to the WHOLE SM, not per generation. Status: REFRAMED. Source: `calculations/v34_sm_side_12_match.py`.
 
 L290. **DOF conservation at 24 was framework's interpretation, NOT a physical law** (v3.4.6). The math works: 12 Majorana × 2 = 6 Dirac × 4 = 3 4D-Dirac × 8 = 24 real DOF. But the "12"s at each level are DIFFERENT physics (fermions, gauge bosons, dimensions). No law requires them to match. The "DOF conservation" was a counting exercise, not a conservation principle. Status: DROPPED as physical claim. Source: `calculations/v34_sm_side_12_match.py`.
 
@@ -522,7 +522,7 @@ L296. **Small highly composite numbers (2, 3, 4, 8, 12) are over-represented in 
 - 12: gauge bosons, fermion flavors, F-theory dim (~13+, MOST common)
 - 24: 24-cell (4D), 24 = 4! (~3)
 - 60: icosahedral order, base-60 (~3)
-- 137: 1/α_EM (~1, very specific)
+- 137: 1/$\alpha_{\rm EM}$ (~1, very specific)
 - 248: dim(E_8) (~2)
 Small highly composite numbers appear naturally in physics because they have many factorizations, are easy to count, and combine to form larger structures. Source: `calculations/v34_12_in_physics_meta.py`.
 
@@ -1693,7 +1693,7 @@ After exhaustive search, 8 candidate derivations for μ were tested. Only Path 1
 | 2 | Hagedorn self-dual | μ = Mₛ² with $M_s = M_{\rm Pl,2D}$ | 9 × 10⁶ GeV² | YES | `v35_hagedorn_mu.py` |
 | 3 | JT dilaton potential | $\mu = -R_{\rm AdS,2}/2 = M_{\rm Pl,2D}^2$ | 9 × 10⁶ GeV² | YES | `v35_jt_mu.py` |
 | 4 | String thermal duality | μ = M_s² at b↔1/(2b) self-dual | 9 × 10⁶ GeV² | YES | `v35_string_duality_mu.py` |
-| 5 | Hawking-Page β = 2π L | $\mu = M_{\rm Pl,2D}^2$ at β_H | 9 × 10⁶ GeV² | YES | `v35_euclidean_periodicity_mu.py` |
+| 5 | Hawking-Page β = 2π L | $\mu = M_{\rm Pl,2D}^2$ at $\beta_{\rm H}$ | 9 × 10⁶ GeV² | YES | `v35_euclidean_periodicity_mu.py` |
 | 6 | Unimodular gravity | μ = integration constant | ANY | INCONCLUSIVE | `v35_unimodular_mu.py` |
 | 7 | DOZZ c=1 Liouville | C(i,i,i) = 1, no scale | N/A | TRIVIAL | `v35_mu_boundary_cft.py` |
 | 8 | Dimensional transmutation | b = i fixed point, no RG | N/A | NOT APPLICABLE | `v35_mu_self_consistency.py` |
@@ -2100,7 +2100,7 @@ This separates concerns cleanly:
 | γ_4D formula | decoupled | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ (REINSTATED) |
 | $f_{\rm leak}$ | 2.18× 10⁻¹⁸ /s = H₀ | **2.18× 10⁻¹⁸ /s = H₀** (same) |
 | $f_{\rm leak}$ source | γ_4D calibrated to give H₀ | ** H₀ directly (NEW principle)** |
-| τ_DM | 14.5 Gyr | **14.5 Gyr** (same) |
+| $\tau_{\rm DM}$ | 14.5 Gyr | **14.5 Gyr** (same) |
 | §3.67 formula | preserved (used) | **REPLACED** (becomes coincidence) |
 | τ_3D,apparent | 1.69×10⁹⁸ yr | **1.66×10¹⁴⁵ yr (A2) (REINSTATED)** |
 
@@ -2139,7 +2139,7 @@ The framework now has three independent "rates":
 - Cone is symmetric in HAVING time dilation, asymmetric in MAGNITUDE (γ_4D >> γ_2D)
 
 **3. AGC/KKR predictions work:**
-- τ_DM ≈ 14.5 Gyr allows for galaxy-scale differentiation
+- $\tau_{\rm DM}$ ≈ 14.5 Gyr allows for galaxy-scale differentiation
 - Ultra-diffuse galaxies (AGC 114905, KKR 25) consistent with framework
 
 **4. The "1.4% match" is preserved structurally:**
@@ -2201,7 +2201,7 @@ $$M_{\rm DM}(t) = M_{\rm produced} \cdot \exp\left[-\int_{t_{\rm early}}^t f_{\r
 With $f_{\rm leak}$ = c × H(z), and H(z) ≈ 1/(2t) in radiation era:
 $$\int_{t_{\rm Pl}}^{t_{\rm CMB}} H(t')\,dt' = \frac{1}{2}\ln\frac{t_{\rm CMB}}{t_{\rm Pl}} = 64.77$$
 
-Required drain by z = 1100 to match Ω_c = 0.265: **32 orders of magnitude**
+Required drain by z = 1100 to match $\Omega_{\rm c}$ = 0.265: **32 orders of magnitude**
 $$\int_{t_{\rm Pl}}^{t_{\rm CMB}} f_{\rm leak}(t')\,dt' = 32 \times \ln(10) = 73.68$$
 
 Calibration constant:
@@ -2215,7 +2215,7 @@ $$c = \frac{73.68}{65.18} = 1.13$$
 |----------|-----|--------|--------|
 | $f_{\rm leak}$(z = 0) | H₀ = 2.18× 10⁻¹⁸ /s | 1.13 × H₀ = 2.47× 10⁻¹⁸ /s | +13% |
 | $f_{\rm leak}$(z = 1100) | H₀ (constant) | 5.81× 10⁻¹⁴ /s = 2.66×10⁴ × H₀ | +2,660,000% |
-| τ_DM (today) | 14.51 Gyr | 12.84 Gyr | -11.5% |
+| $\tau_{\rm DM}$ (today) | 14.51 Gyr | 12.84 Gyr | -11.5% |
 | Drain by z = 1100 | 2.6% | ~100% (32 orders) | Closes gap |
 
 ### Physical Interpretation: Parker-Like Production
@@ -2232,12 +2232,12 @@ In an expanding spacetime, particles can be produced from the vacuum (Parker 196
 
 **1. CMB gap CLOSED:**
 - Early-universe DM overproduction (10⁷⁴ kg) drained to 10³⁹ kg by z = 1100
-- Matches Planck 2018 Ω_c = 0.265
+- Matches Planck 2018 $\Omega_{\rm c}$ = 0.265
 - Was OPEN, now PARTIAL → CLOSED
 
 **2. A1 essentially preserved:**
 - $f_{\rm leak}$(z = 0) changes by only 13% (2.18× 10⁻¹⁸ → 2.47× 10⁻¹⁸ /s)
-- τ_DM changes by only 11.5% (14.51 → 12.84 Gyr)
+- $\tau_{\rm DM}$ changes by only 11.5% (14.51 → 12.84 Gyr)
 - All A1 derivations remain valid to within ~13%
 
 **3. No new parameters:**
@@ -2314,7 +2314,7 @@ This is a sharp question. Let me audit honestly.
 - After: 2 MEASURED, 3 CALIBRATED
 
 **Step 2: Recognize CALIBRATED redundancies**
-- ρ_DE = $f_{\rm DE}$ × ε × $M_{\rm Pl}$,3⁴ — DE observation gives the COMBINATION, not ε alone
+- $\rho_{\rm DE}$ = $f_{\rm DE}$ × ε × $M_{\rm Pl}$,3⁴ — DE observation gives the COMBINATION, not ε alone
 - τ_4D and ε are linked: only the product matters for DE
 - After: 2 CALIBRATED could collapse to 1 (DE density itself)
 
@@ -2325,7 +2325,7 @@ This is a sharp question. Let me audit honestly.
 
 **Step 4: Truly free inputs**
 - $M_{\rm Pl,3D}$ (Newton G): can't avoid
-- ρ_DE (or ε·τ_4D product): cosmological input
+- $\rho_{\rm DE}$ (or ε·τ_4D product): cosmological input
 - AGN rate: observational input for late-time DM
 - $N_{\rm sub}$: event-specific (L144 OPEN)
 
@@ -2337,13 +2337,13 @@ This is a sharp question. Let me audit honestly.
 | **FIRST-PRINCIPLES** (from SM/SYK) | α, $M_{\rm Pl,2D}$, μ, N=12 | 5 — but 5 derive from SM $v_{\rm Higgs}$ |
 | **DERIVED** (follow from others) | $M_{\rm Pl,4D}$, $E_{\rm 4D}$, τ_3D,apparent, γ_4D | 4 — geometric consequences |
 | **STRUCTURAL** (per-sub-universe) | $E_{\rm sub}$ | 1 — $E_{\rm 4D}$/ $N_{\rm sub} = 1.295e77 J$|
-| **CALIBRATED** (set to match) | ρ_DE (was ε, τ_4D separately) | 1 |
+| **CALIBRATED** (set to match) | $\rho_{\rm DE}$ (was ε, τ_4D separately) | 1 |
 | **FREE** (event-specific) | $N_{\rm sub}$ | 1 |
 | **TOTAL** | | **15 → 9** |
 
 **But 5 of the 9 come FROM the Standard Model** (α, $M_{\rm Pl,2D}$, μ, N=12 all derive from SM).
 
-**Net new parameters beyond SM+GR: 4** ( $M_{\rm Pl,3D}$, ρ_DE, AGN rate, $N_{\rm sub}$)
+**Net new parameters beyond SM+GR: 4** ( $M_{\rm Pl,3D}$, $\rho_{\rm DE}$, AGN rate, $N_{\rm sub}$)
 
 ### Comparison With Other Models
 
@@ -2352,7 +2352,7 @@ This is a sharp question. Let me audit honestly.
 | Newtonian gravity | 1 (G) |
 | GR | 2 (G, Λ) |
 | Standard Model | 19-26 (gauge couplings, Yukawas, etc.) |
-| **ΛCDM** | **6** ( H₀, Ω_b, Ω_c, Ω_Λ, n_s, σ_8, A_s) |
+| **ΛCDM** | **6** ( H₀, $\Omega_{\rm b}$, $\Omega_{\rm c}$, Ω_Λ, n_s, σ_8, A_s) |
 | WIMP DM (on top of ΛCDM) | +5 (mass, σ, etc.) |
 | **SIDC v3.5.9+** | **15 total, ~4 truly new beyond SM** |
 
@@ -2362,7 +2362,7 @@ The 15-parameter count **overstates** the framework's flexibility because:
 1. **First-principles** parameters are constrained by SM (not free inputs)
 2. **Derived** parameters follow from others (not independent)
 3. **Structural** parameters are geometric (not tunable)
-4. **Calibrated** parameters are constrained by OBSERVATIONS (ρ_DE is measured, not chosen)
+4. **Calibrated** parameters are constrained by OBSERVATIONS ($\rho_{\rm DE}$ is measured, not chosen)
 
 The framework's REAL flexibility is comparable to ΛCDM: 4-6 truly free parameters.
 
@@ -2372,7 +2372,7 @@ The framework's REAL flexibility is comparable to ΛCDM: 4-6 truly free paramete
 |---|---|
 | AGN rate from first principles | Specific 2D CFT calculation of 2D universe population |
 | $N_{\rm sub}$ from first principles | L144 closure (specific 4D-bulk dynamics) |
-| ρ_DE from first principles | Specific 5D AdS geometry + brane tension |
+| $\rho_{\rm DE}$ from first principles | Specific 5D AdS geometry + brane tension |
 | ε alone from first principles | Bulk Lagrangian |
 
 ### Recommendation: L308ac
@@ -2380,7 +2380,7 @@ The framework's REAL flexibility is comparable to ΛCDM: 4-6 truly free paramete
 **L308ac (NEW v3.5.9+, USER-DIRECTED)**: Parameter audit clarifies SIDC's true flexibility:
 - **15 parameters total**, but only **4 truly new beyond SM+GR**:
   1. $M_{\rm Pl,3D}$ (gravity scale)
-  2. ρ_DE (DE density — calibrated to observation)
+  2. $\rho_{\rm DE}$ (DE density — calibrated to observation)
   3. AGN rate (DM production rate — measured)
   4. $N_{\rm sub}$ (event-specific — FREE, L144 OPEN)
 - **5 first-principles** (α, $M_{\rm Pl,2D}$, μ, N=12) all derive from SM
@@ -2398,7 +2398,7 @@ The framework's REAL flexibility is comparable to ΛCDM: 4-6 truly free paramete
 
 Of 15 total parameters, only 4 are truly new beyond SM+GR:
 1. ** $M_{\rm Pl,3D}$** — Newton's G (MEASURED, can't derive)
-2. **ρ_DE** — cosmological constant (OPEN, requires bulk Lagrangian)
+2. **$\rho_{\rm DE}$** — cosmological constant (OPEN, requires bulk Lagrangian)
 3. **AGN rate** — DM production rate (OPEN, requires 2D CFT event spectrum)
 4. ** $N_{\rm sub}$** — sub-universes per 4D event (FREE, L144)
 
@@ -2462,7 +2462,7 @@ The first formula is cleanest (cube root is geometric, no arbitrary 1000).
 - **L144 still PARTIAL**: Not fully closed, but a clean formula exists
 
 - **Other free parameters still OPEN**:
-  - ρ_DE: Cosmological constant problem (unsolved by any framework)
+  - $\rho_{\rm DE}$: Cosmological constant problem (unsolved by any framework)
   - AGN rate: Requires 2D CFT event spectrum calculation
 
 ### Status Update
@@ -2471,7 +2471,7 @@ The first formula is cleanest (cube root is geometric, no arbitrary 1000).
 |---|---|---|
 | $N_{\rm sub}$ | FREE (L144 OPEN) | PARTIAL (1.6% off from first principles) |
 | $M_{\rm Pl,3D}$ | MEASURED | MEASURED (no change) |
-| ρ_DE | CALIBRATED | CALIBRATED (cosmological constant problem) |
+| $\rho_{\rm DE}$ | CALIBRATED | CALIBRATED (cosmological constant problem) |
 | AGN rate | CALIBRATED | CALIBRATED (event spectrum) |
 
 ### Files Modified
@@ -2548,7 +2548,7 @@ If taken literally as events per cubic meter per second with $M_{\rm 2D}$ ~ 10 M
 - Production rate = 3× 10⁻¹⁶ × 2×10⁴⁷ J = 6×10³¹ W/m³
 - Over 14 Gyr × 1.4×10¹⁸ s/yr × 10¹⁰ yr = 4.4×10²⁸ s
 - Total energy = 2.6×10⁶⁰ J/m³
-- Required: ρ_DM ~ 4× 10⁻¹² J/m³
+- Required: $\rho_{\rm DM}$ ~ 4× 10⁻¹² J/m³
 - **Overproduction factor: 10⁷²**
 
 **Resolution paths**:
@@ -2683,7 +2683,7 @@ After L308ag downgraded N=12 to STRUCTURAL, the user requested deeper research i
 **Literature check** (web research):
 - Standard SYK: conformal dimension Δ = 1/q (for q-body interaction)
 - Standard SYK: Schwarzian action coefficient is N
-- Standard SYK: Lyapunov exponent λ_L = (2π/β)(1 - α_s/N + O(1/N²))
+- Standard SYK: Lyapunov exponent $\lambda_{\rm L}$ = (2π/β)(1 - $\alpha_{\rm s}$/N + O(1/N²))
 - The "1 + 1/√N" form is the **finite-N correction to leading universal behavior**
 
 **What α = 1.289 actually is in the framework**:
@@ -2694,7 +2694,7 @@ After L308ag downgraded N=12 to STRUCTURAL, the user requested deeper research i
 **Is α = 1 + 1/√N a "derivation"?**
 - It IS a valid formula in the SYK literature for the 1/N correction
 - But its APPLICATION to the M^α law is non-standard
-- The framework assumes α_M^α_law = α_Schwarzian = α_time_dilation = α_back_action
+- The framework assumes $\alpha_{\rm M}^{\alpha_{\rm law}} = \alpha_{\rm Schwarzian} = \alpha_{\rm time_dilation} = \alpha_{\rm back_action}$
 - This is a POSTULATE, not a derivation
 
 **Alternative formulas for α in SYK literature**:
@@ -2705,7 +2705,7 @@ After L308ag downgraded N=12 to STRUCTURAL, the user requested deeper research i
 | α = 1 + 1/(q-1) | 1.333 | 1.143 | Yet another form |
 | α = 1 (universal limit) | 1.000 | 1.000 | Large-N, large-q limit |
 
-**Verdict**: α = 1.289 is **plausibly** derived from SYK with N=12, but the derivation is non-standard and assumes α_M^α_law = α_Schwarzian. This assumption is not derived.
+**Verdict**: α = 1.289 is **plausibly** derived from SYK with N=12, but the derivation is non-standard and assumes $\alpha_{\rm M}^{\alpha_{\rm law}} = \alpha_{\rm Schwarzian}$. This assumption is not derived.
 
 ### What I Found: N=12 Investigation
 
@@ -2756,7 +2756,7 @@ D. **N=24 vs N=12 confusion (CLARIFIED)**:
 - Formula α = 1 + 1/√N is valid in SYK literature (1/N correction)
 - N=12 → α = 1.2887 ✓ (within 0.025% of framework's 1.289)
 - BUT: framework's M^α law application is non-standard
-- Specifically: assumes α_M^α_law = α_Schwarzian (NOT derived)
+- Specifically: assumes $\alpha_{\rm M}^{\alpha_{\rm law}} = \alpha_{\rm Schwarzian}$ (NOT derived)
 
 ### What Would Close the Gaps
 
@@ -4685,7 +4685,7 @@ Source: user correction 2026-06-21 "wait, why no time dilation? it should exist 
 - τ_3D,apparent: REINSTATED as 1.66×10¹⁴⁵ yr (A2)
 - $f_{\rm leak}$: NEW principle = H₀ (post-Friedmann)
 - §3.67 formula: REPLACED (1.4% match becomes coincidence)
-- τ_DM: 14.5 Gyr (just over 
+- $\tau_{\rm DM}$: 14.5 Gyr (just over 
 ## 7.4.36 (L308aq): "c = N/24" Formula is MISLEADING — Real Physics is c_UV → c_IR via SYK q=4 (v3.5.9+)
 
 **Date**: 2026-06-22
@@ -5529,8 +5529,8 @@ The user asked: "re-calibrate those that are linked and see what happens"
 
 Adopt Option B: α is dimension-specific. The linked quantities are:
 - γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ (4D time dilation)
-- $f_{\rm DE}$,closed = ( $t_{\rm Pl,3}$/τ_4D) × (τ_SN,obs/τ_universe) × ( $E_{\rm 4D}$/ $E_{\rm SN}$)^{1/(2α)} (was $f_{\rm back}$ in legacy naming)
-- ρ_DE = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$
+- $f_{\rm DE}$,closed = ( $t_{\rm Pl,3}$/τ_4D) × ($\tau_{\rm SN,obs}/\tau_{\rm universe}$) × ( $E_{\rm 4D}$/ $E_{\rm SN}$)^{1/(2α)} (was $f_{\rm back}$ in legacy naming)
+- $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$
 - τ_3D,apparent = τ_4D × γ_4D
 - Hierarchy level transitions: $f_{\rm back}$,N = $(M_{\rm Pl,N}/E_N)^{α}$ (legacy naming, was $f_{\rm back}$)
 
@@ -5541,8 +5541,8 @@ Adopt Option B: α is dimension-specific. The linked quantities are:
 | **γ_4D** | 5.70×10⁹⁰ | 1.10×10¹¹¹ (A2) | **+20.3 orders** |
 | **τ_3D,apparent** | 8.61×10¹²⁴ yr | 1.66×10¹⁴⁵ yr (A2) | **+20.3 orders** |
 | ** $f_{\rm DE}$,closed** (was $f_{\rm back}$) | 6.03× 10⁻⁸⁸ | 1.79× 10⁻⁹⁰ (A2) | **−2.5 orders** |
-| **ρ_DE (with old ε)** | 1.34× 10⁻⁴⁹ | 3.96× 10⁻⁵² | **−2.5 orders** |
-| **Required ε for ρ_DE match** | 1.87× 10⁻³⁶ | 6.32× 10⁻³⁴ | **+4.8 orders** |
+| **$\rho_{\rm DE}$ (with old ε)** | 1.34× 10⁻⁴⁹ | 3.96× 10⁻⁵² | **−2.5 orders** |
+| **Required ε for $\rho_{\rm DE}$ match** | 1.87× 10⁻³⁶ | 6.32× 10⁻³⁴ | **+4.8 orders** |
 | ** kL (RS-II)** | 87.5 | 76.4 | **−11.1 change** |
 
 ### What This Means
@@ -5562,9 +5562,9 @@ The closed-loop back-action is 2.5 orders smaller.
 - Old: 6.0× 10⁻⁸⁸
 - New: 1.8× 10⁻⁹⁰
 
-#### 4. ρ_DE (with old ε) is 2.5 orders below observed
-- ρ_DE_observed = 2.5× 10⁻⁴⁷ GeV⁴
-- New ρ_DE = 4.0× 10⁻⁵² GeV⁴
+#### 4. $\rho_{\rm DE}$ (with old ε) is 2.5 orders below observed
+- $\rho_{\rm DE_observed}$ = 2.5× 10⁻⁴⁷ GeV⁴
+- New $\rho_{\rm DE}$ = 4.0× 10⁻⁵² GeV⁴
 - Ratio: 1.6× 10⁻⁵ (off by 4.8 orders)
 
 #### 5. Required ε: 4.8 orders higher
@@ -5594,7 +5594,7 @@ The $f_{\rm DE}$,closed values span 50+ orders of magnitude across levels. The h
 
 ### What Becomes Inconsistent
 
-- DE density match (12%): ✗ New ρ_DE is 4.8 orders off
+- DE density match (12%): ✗ New $\rho_{\rm DE}$ is 4.8 orders off
 - $f_{\rm DE}$ formula: ✗ Uses α_2D in cross-dim contexts
 - Hierarchy level transitions: ✗ Not uniform across levels
 - γ_4D time dilation: ✗ +20 orders correction
@@ -5615,7 +5615,7 @@ The $f_{\rm DE}$,closed values span 50+ orders of magnitude across levels. The h
 
 **C: Hybrid approach**
 - Keep α_2D for 2D physics (14 events)
-- Use α_4D for 4D physics (γ_4D, ρ_DE)
+- Use α_4D for 4D physics (γ_4D, $\rho_{\rm DE}$)
 - Use level-specific α for hierarchy transitions
 - Most consistent with dimension-dependence
 
@@ -5634,8 +5634,8 @@ User request: "re-calibrate those that are linked and see what happens"
 - γ_4D changes by +20 orders (HUGE)
 - τ_3D,apparent changes by +20 orders
 - $f_{\rm DE}$,closed (was $f_{\rm back}$) changes by −2.5 orders
-- ρ_DE is 4.8 orders below observation with old ε
-- Required ε for ρ_DE match: 6.3× 10⁻³⁴ (vs 10⁻³⁸)
+- $\rho_{\rm DE}$ is 4.8 orders below observation with old ε
+- Required ε for $\rho_{\rm DE}$ match: 6.3× 10⁻³⁴ (vs 10⁻³⁸)
 - kL changes by −11
 
 **Implication**: Adopting Option B (α dim-specific) requires significant recalibration. The framework's DE density match would need ε ~ 6× 10⁻³⁴ instead of 10⁻³⁸. The hierarchy level transitions are not uniform.
@@ -5658,9 +5658,9 @@ User request: "re-calibrate those that are linked and see what happens"
 
 ### The User's Decision
 
-After the recalibration showed significant changes (γ_4D +20 orders, ρ_DE off by 4.8 orders), the user chose:
+After the recalibration showed significant changes (γ_4D +20 orders, $\rho_{\rm DE}$ off by 4.8 orders), the user chose:
 
-**Adopt α_4D = 1.577 (dimension-specific) and recalibrate ε to 6.32× 10⁻³⁴ to maintain ρ_DE match.**
+**Adopt α_4D = 1.577 (dimension-specific) and recalibrate ε to 6.32× 10⁻³⁴ to maintain $\rho_{\rm DE}$ match.**
 
 ### The New State
 
@@ -5676,7 +5676,7 @@ After the recalibration showed significant changes (γ_4D +20 orders, ρ_DE off 
 | τ_3D,apparent | 8.61×10¹²⁴ yr | 1.66×10¹⁴⁵ yr (A2) | +20.3 orders |
 | $f_{\rm DE}$,closed (was $f_{\rm back}$) | 6.03× 10⁻⁸⁸ | 1.79× 10⁻⁹⁰ (A2) | −2.5 orders |
 | $f_{\rm DE}$,closed exponent 1/(2α) | 0.388 | 0.317 | −18% |
-| ρ_DE | 1.34× 10⁻⁴⁹ | 2.50× 10⁻⁴⁷ | matched to obs |
+| $\rho_{\rm DE}$ | 1.34× 10⁻⁴⁹ | 2.50× 10⁻⁴⁷ | matched to obs |
 
 ### What This Means
 
@@ -5698,7 +5698,7 @@ The "α universality" was a POSTULATE, not a derivation. Dropping it is the hone
 
 #### 3. The DE Density Match is Restored (with new ε)
 
-ρ_DE = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$ now matches observation:
+$\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$ now matches observation:
 - Old: 1.34× 10⁻⁴⁹ (off by 4.8 orders with new α)
 - New: 2.50× 10⁻⁴⁷ (matches exactly with ε = 6.32× 10⁻³⁴)
 
@@ -5745,7 +5745,7 @@ The framework is now at **v3.5.9+ A2** (was A1):
 | γ_4D | 5.70×10⁹⁰ | 1.08×10¹¹¹ |
 | τ_3D,apparent | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr |
 | $f_{\rm DE}$,closed exponent | 0.388 | 0.317 |
-| ρ_DE | matches (within 12%) | matches (exact) |
+| $\rho_{\rm DE}$ | matches (within 12%) | matches (exact) |
 
 ### The Open Questions
 
@@ -5873,7 +5873,7 @@ After Option A adoption (α dim-specific, ε = 6.32× 10⁻³⁴, kL = 76.4), th
 
 ### 1. DE Density (PRIMARY TEST) — EXACT MATCH
 
-**Framework formula**: ρ_DE = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴
+**Framework formula**: $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴
 
 **Calculation**:
 - $f_{\rm DE}$,closed = A × B × C = 1.785× 10⁻⁹⁰ (was $f_{\rm back}$ in legacy naming)
@@ -5882,18 +5882,18 @@ After Option A adoption (α dim-specific, ε = 6.32× 10⁻³⁴, kL = 76.4), th
   - C = $(E_{\rm 4D}/E_{\rm SN})^{0.317}$ = 2.083×10¹¹
 - ε = 6.32× 10⁻³⁴
 - $M_{\rm Pl}$,3D⁴ = 2.215×10⁷⁶ GeV⁴
-- ρ_DE = 2.500× 10⁻⁴⁷ GeV⁴
+- $\rho_{\rm DE}$ = 2.500× 10⁻⁴⁷ GeV⁴
 
-**Observed**: ρ_DE = 2.500× 10⁻⁴⁷ GeV⁴
+**Observed**: $\rho_{\rm DE}$ = 2.500× 10⁻⁴⁷ GeV⁴
 
 **Match**: 0.9999 ✓ EXACT
 
 ### 2. Cosmological Split (5/27/68) — CONSISTENT
 
-- ρ_crit = 3 H_0² $M_{\rm Pl}$,red² = 3.558× 10⁻⁴⁷ GeV⁴
-- Ω_DE = ρ_DE/ρ_crit = **0.703** (vs 0.68 observed, off by 2.3%)
-- Ω_DM = 0.27 (by construction, $f_{\rm leak}$ = H₀)
-- Ω_b = 0.05 (by construction, $f_{\rm leak}$ = H₀)
+- $\rho_{\rm crit}$ = 3 H_0² $M_{\rm Pl}$,red² = 3.558× 10⁻⁴⁷ GeV⁴
+- $\Omega_{\rm DE} = \rho_{\rm DE}/\rho_{\rm crit}$ = **0.703** (vs 0.68 observed, off by 2.3%)
+- $\Omega_{\rm DM}$ = 0.27 (by construction, $f_{\rm leak}$ = H₀)
+- $\Omega_{\rm b}$ = 0.05 (by construction, $f_{\rm leak}$ = H₀)
 
 **Status**: All match ✓
 
@@ -5960,10 +5960,10 @@ The framework claims 14 event types fit M^α with α_2D = 1.289 within 1.6× of 
 
 | Test | Status | Match |
 |------|--------|-------|
-| ρ_DE | ✓ EXACT | 0.9999 |
-| Ω_DE | ✓ within 2.3% | 0.703 vs 0.68 |
-| Ω_DM | ✓ by construction | 0.27 |
-| Ω_b | ✓ by construction | 0.05 |
+| $\rho_{\rm DE}$ | ✓ EXACT | 0.9999 |
+| $\Omega_{\rm DE}$ | ✓ within 2.3% | 0.703 vs 0.68 |
+| $\Omega_{\rm DM}$ | ✓ by construction | 0.27 |
+| $\Omega_{\rm b}$ | ✓ by construction | 0.05 |
 | H₀ | ✓ matches Planck | 67.4 km/s/Mpc |
 | $M_{\rm Pl,2D}$ | ✓ EXACT | 12 × $v_{\rm Higgs}$ |
 | $M_{\rm Pl,4D}$ | ✓ within 1.14% | α-GM |
@@ -5988,8 +5988,8 @@ User request: "audit the numbers and make sure they match up to observed data"
 
 **Findings**:
 - All major predictions match observations
-- ρ_DE is EXACT match (with new ε)
-- Ω_DE within 2.3%
+- $\rho_{\rm DE}$ is EXACT match (with new ε)
+- $\Omega_{\rm DE}$ within 2.3%
 - $M_{\rm Pl,2D}$, μ EXACT
 - $M_{\rm Pl,4D}$, $N_{\rm sub}$ within 1-2%
 - r_s within 1.88%
@@ -6042,9 +6042,9 @@ Despite coming from the **same M^α law at different cascade levels**, DE (anti-
 
 ### Asymmetric Density Ratio
 
-- ρ_DE = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴ = 2.5× 10⁻⁴⁷ GeV⁴ (anti-gravity)
-- ρ_DM = Ω_DM × ρ_crit ≈ 1.4× 10⁻⁴⁷ GeV⁴ (gravity, 27% of critical)
-- **ρ_DM/ρ_DE ≈ 0.4** (asymmetric — 2D has less "room" than 4D)
+- $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴ = 2.5× 10⁻⁴⁷ GeV⁴ (anti-gravity)
+- $\rho_{\rm DM} = \Omega_{\rm DM} × \rho_{\rm crit}$ ≈ 1.4× 10⁻⁴⁷ GeV⁴ (gravity, 27% of critical)
+- **$\rho_{\rm DM}/\rho_{\rm DE}$ ≈ 0.4** (asymmetric — 2D has less "room" than 4D)
 
 The 0.4 ratio reflects the cone asymmetry: 2D extent is smaller than 3+1D extent, so the 2D side contributes proportionally less "stuff" to the 3+1D brane.
 
@@ -6076,7 +6076,7 @@ Source: User insight (2026-06-22), `calculations/v36_research/L308az_geometric_m
 ---
 
 
-## 7.4.45 (L308ba): α Dim-Specific Pattern α_D = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2) — Halving Rule (v3.5.9+ A2, USER-DISCOVERED STRUCTURAL PATTERN)
+## 7.4.45 (L308ba): α Dim-Specific Pattern $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2) — Halving Rule (v3.5.9+ A2, USER-DISCOVERED STRUCTURAL PATTERN)
 
 **Date**: 2026-06-22
 **Trigger**: User insight during Lagrangian review: "the three α values look like 1 + 1/√N for different N. $N=12$, 6, 3 — that's halving each dimension up."
@@ -6086,7 +6086,7 @@ Source: User insight (2026-06-22), `calculations/v36_research/L308az_geometric_m
 
 The three framework A2 dim-specific α values match the Schwarzian formula α = 1 + 1/√N with **N halving at each dimension up**:
 
-| Dimension | $N_D$ | α_D = 1 + 1/√ $N_D$ | Framework value | Match |
+| Dimension | $N_D$ | $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ | Framework value | Match |
 |-----------|-----|----------------------|------------------|-------|
 | **2D** | 12 | 1.2887 | 1.289 (Schwarzian $N=12$) | ✓ |
 | **3+1D** | 6 | 1.4082 | 1.408 (L308av inferred) | ✓ |
@@ -6192,7 +6192,7 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 | **OVERALL** | **73%** | **93%** | **+20 percentage points** |
 
 **What improved**:
-- **Numerical consistency** (5/6 → 7/7): A2 numerical values ( $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give exact match to observed ρ_DE. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
+- **Numerical consistency** (5/6 → 7/7): A2 numerical values ( $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give exact match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
 - **Issue resolution** (37% → 80%): L308ar (halving rule), L308az (mirror plane), L308ax (frame-neutral naming) all addressed in §3.68 with explicit Lagrangian terms.
 - **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, etc.).
 
@@ -6204,7 +6204,7 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 
 ### $N_D$ Physical Interpretations (L308ba deeper analysis)
 
-L308ba identified the halving rule α_D = 1 + 1/√(12/2^(D-2)) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
+L308ba identified the halving rule $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
 
 ** $N_{\rm 2D}$ = 12** (FIRST-PRINCIPLES derived, L308r):
 - 3 generations × 4 Weyl fermions (SM backbone)
@@ -6438,11 +6438,11 @@ After L308ba (halving rule), L308bb ( $N_D$ interpretations), and L308bc (DOF co
 | γ_4D | 5.41×10⁹⁰ | 1.14×10¹¹¹ |
 | ε | 1.00× 10⁻³⁸ | 6.32× 10⁻³⁴ |
 | $f_{\rm DE}$ | 1.13× 10⁻⁸⁵ | 1.79× 10⁻⁹⁰ |
-| **ρ_DE** | **2.503× 10⁻⁴⁷** | **2.506× 10⁻⁴⁷** ✓ EXACT |
+| **$\rho_{\rm DE}$** | **2.503× 10⁻⁴⁷** | **2.506× 10⁻⁴⁷** ✓ EXACT |
 | f×ε | 1.130× $10^{-123}$ | 1.131× $10^{-123}$ ✓ INVARIANT |
 | τ_3D,apparent | 8.16×10¹²⁴ yr | 1.72×10¹⁴⁵ yr |
 
-**Both give ρ_DE exact within 0.3%. The f×ε invariant is identical. The data CANNOT distinguish them at the ρ_DE level.**
+**Both give $\rho_{\rm DE}$ exact within 0.3%. The f×ε invariant is identical. The data CANNOT distinguish them at the $\rho_{\rm DE}$ level.**
 
 The 20-order difference in γ_4D and τ_3D,apparent is unobservable (both are much longer than 13.8 Gyr universe age).
 
@@ -6476,10 +6476,10 @@ Option A is **not wrong**, just less structurally tight:
 
 1. **Simpler**: One formula, one α value, one ε value.
 2. **Schwarzian universality**: If the Schwarzian formula applies universally with $N=12$, then α = 1.289 everywhere.
-3. **Data doesn't distinguish**: Both give exact ρ_DE.
+3. **Data doesn't distinguish**: Both give exact $\rho_{\rm DE}$.
 4. **A1 values**: $\gamma_{\rm 4D} = 5.93×10⁹⁰$, ε = 1× 10⁻³⁸, $f_{\rm DE}$ = 1.13× 10⁻⁸⁵ were the original A1 framework values.
 
-If someone prefers option A, they get a SIMPLER framework with A1 numerical values, and ρ_DE still matches exactly.
+If someone prefers option A, they get a SIMPLER framework with A1 numerical values, and $\rho_{\rm DE}$ still matches exactly.
 
 ### What's Lost in Each Option
 
@@ -6581,7 +6581,7 @@ But under the **first-principles criterion**, option B introduces assumptions ( 
 
 ### The Synthesis: KEEP the Pattern, USE the First-Principles
 
-The structural pattern α_D = 1 + 1/√(12/2^(D-2)) is a **valid observation**:
+The structural pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) is a **valid observation**:
 - It matches all three A2 dim-specific α values exactly (0.01%)
 - It suggests a structural halving ( $N_D$ = 12/2^(D-2))
 - It encodes DOF conservation (L308bc)
@@ -6601,7 +6601,7 @@ If the framework USES option A (universal α = 1.289):
 - $f_{\rm DE}$,simple = 1.13× 10⁻⁸⁵ (A1 value)
 - $\gamma_{\rm 4D} = 5.41×10⁹⁰$ (A1 value, vs A2's 1.14×10¹¹¹)
 - $\tau_{\rm 3D,apparent} = 8.16×10¹²⁴$ yr (A1, vs A2's 1.72×10¹⁴⁵)
-- ρ_DE = 2.503× 10⁻⁴⁷ GeV⁴ (EXACT match, f×ε invariant preserved)
+- $\rho_{\rm DE}$ = 2.503× 10⁻⁴⁷ GeV⁴ (EXACT match, f×ε invariant preserved)
 
 If the framework USES option B (dim-specific α):
 - α_2D = 1.289 (FIRST-PRINCIPLES via Schwarzian)
@@ -6611,9 +6611,9 @@ If the framework USES option B (dim-specific α):
 - $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (A2 closed loop)
 - $\gamma_{\rm 4D} = 1.14×10¹¹¹$ (A2)
 - $\tau_{\rm 3D,apparent} = 1.72×10¹⁴⁵$ yr (A2)
-- ρ_DE = 2.506× 10⁻⁴⁷ GeV⁴ (EXACT match)
+- $\rho_{\rm DE}$ = 2.506× 10⁻⁴⁷ GeV⁴ (EXACT match)
 
-**Both give ρ_DE exact. The data cannot distinguish. The choice is whether to use inferred N values (option B) or stay with first-principles (option A).**
+**Both give $\rho_{\rm DE}$ exact. The data cannot distinguish. The choice is whether to use inferred N values (option B) or stay with first-principles (option A).**
 
 ### What L308be Closes
 
@@ -6686,13 +6686,13 @@ When one of the following is achieved, the framework should RECONSIDER option A 
 
 3. **Derivation of the halving rule $N_D$ = 12/2^(D-2)**: e.g., from chirality/fermion-counting structure, from Majorana → Weyl → bulk transition, from cascade termination physics, etc.
 
-4. **Better theoretical understanding of the Schwarzian formula at higher dimensions**: a rigorous derivation of α_D = 1 + 1/√ $N_D$ for 3+1D and 4D CFTs.
+4. **Better theoretical understanding of the Schwarzian formula at higher dimensions**: a rigorous derivation of $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ for 3+1D and 4D CFTs.
 
 ### Why Option B Is Kept for Now
 
 Despite option A being more first-principles, option B is kept because:
 
-1. **ρ_DE exact in both**: Both options give ρ_DE = 2.5× 10⁻⁴⁷ EXACT (via f×ε invariant). Data doesn't distinguish.
+1. **$\rho_{\rm DE}$ exact in both**: Both options give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT (via f×ε invariant). Data doesn't distinguish.
 
 2. **Structural insights**: Option B has the halving rule, DOF conservation, and L308bb $N_D$ interpretations — all structurally rich insights that may guide future derivations.
 
@@ -7074,7 +7074,7 @@ Now, Option B is also **first-principles derived** for all three N values. This 
   - $N_{3+1D}$ = 6 = C(6) SM algebra (Stoica 2018) [NEW]
   - $N_{\rm 4D}$ = 3 = 3 generations (Clifford/McKay/cobordism)
 
-**Both give ρ_DE = 2.5× 10⁻⁴⁷ EXACT** (f×ε invariant preserved).
+**Both give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT** (f×ε invariant preserved).
 
 ### Why Option B Strengthened Wins
 
@@ -7086,7 +7086,7 @@ Now, Option B is also **first-principles derived** for all three N values. This 
 | Halving rule | Empirical | **Structural (Clifford cascade)** ✓ |
 | DOF conservation | Implied | **Explicit (12 real total)** ✓ |
 | Mirror plane | Compatible | **Encodable (sign flip σ_+ × σ_- = -1)** ✓ |
-| Numerical ρ_DE | Exact | Exact |
+| Numerical $\rho_{\rm DE}$ | Exact | Exact |
 | Internal consistency | ✓ | ✓ |
 | First-principles depth | Partial | **Full** ✓ |
 
@@ -7129,7 +7129,7 @@ No numerical changes. Option B Strengthened uses the same values as Option B (th
 - $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
-- ρ_DE = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT)
+- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT)
 
 ### Source
 
@@ -7145,7 +7145,7 @@ The cascade framework now uses Option B Strengthened as its primary interpretati
 - All three N values first-principles derived
 - ε = 6.32× 10⁻³⁴ (A2 calibrated)
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
-- ρ_DE = 2.5× 10⁻⁴⁷ EXACT
+- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT
 
 The framework's choice is now justified BOTH structurally (L308ba, L308bc, L308az) AND first-principles (L308r, Stoica 2018, Clifford/McKay/cobordism).
 
@@ -7456,7 +7456,7 @@ Whether this magnitude is achievable depends on detailed calculation requiring B
 
 **Standard ΛCDM assumes**:
 - No energy loss from 3+1D brane
-- Standard H(z) ∝ sqrt(ρ_total) at all z
+- Standard H(z) ∝ sqrt($\rho_{\rm total}$) at all z
 
 **SIDC with $f_{\rm leak}$ = H(z)**:
 - Energy drains from 3+1D to 4D at z=1100
@@ -7477,7 +7477,7 @@ To fully test this hypothesis, need:
 
 ### Connection to L308ab
 
-L308ab established $f_{\rm leak}$ = H(z) to drain 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
+L308ab established $f_{\rm leak}$ = H(z) to drain 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 $\Omega_{\rm c}$ = 0.265.
 
 L308bl extends this to H₀ inference: if $f_{\rm leak}$ affects energy density at z=1100, it also affects H(z=1100), and thus the CMB-inferred H₀.
 
@@ -7540,8 +7540,8 @@ The Hubble tension is fundamentally about H₀ / DE (the late-time expansion rat
    - DM is subdominant (~27%) — not the primary driver of H₀
    - $f_{\rm leak}$ drains DM, not DE — wouldn't naturally shift H₀
 
-2. **CMB inference uses OBSERVED Ω_c, not SIDC prediction**:
-   - Planck measures Ω_c = 0.265 at z=1100 (observed)
+2. **CMB inference uses OBSERVED $\Omega_{\rm c}$, not SIDC prediction**:
+   - Planck measures $\Omega_{\rm c}$ = 0.265 at z=1100 (observed)
    - SIDC drains DM to MATCH this observation (L308ab mechanism)
    - The OBSERVED energy density is the same in both ΛCDM and SIDC
    - H(z=1100) is unchanged → r_s unchanged → inferred H₀ unchanged
@@ -7554,7 +7554,7 @@ The Hubble tension is fundamentally about H₀ / DE (the late-time expansion rat
 
 4. **L308bl's "50% DM drain → 8% H₀ shift" was physically wrong**:
    - The DM drained is the SIDC overproduction
-   - The OBSERVED Ω_c is what Planck measures
+   - The OBSERVED $\Omega_{\rm c}$ is what Planck measures
    - Draining the overproduction doesn't change the observation
    - There's no shift to shift
 
@@ -7614,7 +7614,7 @@ When investigating whether mechanism X can resolve problem Y:
 
 **Finding**: c = 1.13 in L308ab depends on the integration starting time.
 
-| Starting time | c | τ_DM (Gyr) |
+| Starting time | c | $\tau_{\rm DM}$ (Gyr) |
 |---|---|---|
 | $t_{\rm Pl}$ (5.4e-44 s) | 1.130 | 12.84 ← Framework |
 | t_EW (1e-12 s) | 2.525 | 5.75 |
@@ -7623,9 +7623,9 @@ When investigating whether mechanism X can resolve problem Y:
 
 **Interpretation**: c is calibrated to drain 32 orders by z=1100, GIVEN the assumed starting time. The choice of $t_{\rm Pl}$ is arbitrary; if we start at BBN, c = 4.8 but $\tau_{\rm DM} = 3$ Gyr (inconsistent with universe age).
 
-**Why c = 1.13 is forced**: τ_DM = 1/(c × H₀). For τ_DM ≈ 14 Gyr (universe age), c must be ≈ 1. So c = 1.13 is the unique value that:
-1. Drains 32 orders by z=1100 (matches Ω_c = 0.265)
-2. Gives τ_DM ≈ universe age
+**Why c = 1.13 is forced**: $\tau_{\rm DM}$ = 1/(c × H₀). For $\tau_{\rm DM}$ ≈ 14 Gyr (universe age), c must be ≈ 1. So c = 1.13 is the unique value that:
+1. Drains 32 orders by z=1100 (matches $\Omega_{\rm c}$ = 0.265)
+2. Gives $\tau_{\rm DM}$ ≈ universe age
 
 **Honest framing**: 
 - c is CALIBRATED, not derived (acknowledged in L308ab)
@@ -7665,7 +7665,7 @@ The prefactor HIDES the $M_{\rm Pl,4D}$ inconsistency. If $M_{\rm Pl,4D}$ were c
 ### What is preserved
 
 - f × ε invariant = 1.13e-123 (both A1 and A2 give this)
-- ρ_DE = 2.5e-47 EXACT (in both A1 and A2)
+- $\rho_{\rm DE}$ = 2.5e-47 EXACT (in both A1 and A2)
 - γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ uses $M_{\rm Pl,3D}$ (not $M_{\rm Pl,4D}$) — independent of this issue
 
 ### What is broken
@@ -7702,7 +7702,7 @@ Calculation: `calculations/v36_research/L308bm_audit_corrections.py`
 
 **L308bm**: TWO calibration issues found and documented.
 
-Both are HONEST CALIBRATION CHOICES, not fundamental errors. The framework's numerical results (ρ_DE, γ_4D, $f_{\rm DE}$,closed) are correct within A1 era. The inconsistencies are between A1 and A2 eras.
+Both are HONEST CALIBRATION CHOICES, not fundamental errors. The framework's numerical results ($\rho_{\rm DE}$, γ_4D, $f_{\rm DE}$,closed) are correct within A1 era. The inconsistencies are between A1 and A2 eras.
 
 Framework is self-consistent within A1 but not across A1→A2 transition for $M_{\rm Pl,4D}$.
 
@@ -7755,9 +7755,9 @@ $f_{\rm DE}$,closed = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α_4D}$ × prefactor
 
 ### What This Preserves
 
-- All A2 numerical values ( $M_{\rm Pl,4D}$, $f_{\rm DE}$,closed, γ_4D, ρ_DE, f × ε)
+- All A2 numerical values ( $M_{\rm Pl,4D}$, $f_{\rm DE}$,closed, γ_4D, $\rho_{\rm DE}$, f × ε)
 - f × ε invariant = 1.13e-123
-- ρ_DE = 2.5e-47 EXACT
+- $\rho_{\rm DE}$ = 2.5e-47 EXACT
 - All previous L308a-z limitations
 
 ### Numerical Verification
@@ -7767,7 +7767,7 @@ $f_{\rm DE}$,closed = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α_4D}$ × prefactor
 | $M_{\rm Pl,4D}$ | 3.93e23 | 3.93e23 (with α_2D) | ✓ |
 | $f_{\rm DE}$,closed | 1.13e-85 | 1.79e-90 (with α_4D) | (different formula) |
 | γ_4D | 5.93e90 | 1.10e+111 (with α_4D) | (different formula) |
-| ρ_DE | 2.5e-47 | 2.5e-47 | ✓ EXACT |
+| $\rho_{\rm DE}$ | 2.5e-47 | 2.5e-47 | ✓ EXACT |
 | f × ε | 1.13e-123 | 1.13e-123 | ✓ INVARIANT |
 
 ### Framework Status After L308bn
@@ -7809,7 +7809,7 @@ Has the ratio of DM/DE/matter stayed about the same throughout the lifetime of t
 
 The DE/DM ratio has changed by ~10 orders of magnitude over cosmic history.
 
-| z | t (Gyr) | Ω_DE | Ω_DM | DE/DM |
+| z | t (Gyr) | $\Omega_{\rm DE}$ | $\Omega_{\rm DM}$ | DE/DM |
 |---|---|---|---|---|
 | 1100 | 3.6e-4 | 1.2e-9 | 0.638 | 1.6e-9 |
 | 100 | 1.5e-2 | 2.0e-6 | 0.819 | 2.5e-6 |
@@ -7850,7 +7850,7 @@ SIDC mechanism:
 ### Transition at z_t ≈ 0.30
 
 The transition from matter-dominated to DE-dominated happened at:
-- z_t = (Ω_Λ/Ω_m)^(1/3) - 1 = 0.296
+- z_t = (Ω_Λ/$\Omega_{\rm m}$)^(1/3) - 1 = 0.296
 - t ≈ 10.5 Gyr after Big Bang
 - About 3.3 Gyr AGO
 
@@ -7916,7 +7916,7 @@ This is consistent with ΛCDM-like behavior and all observational tests.
 **Step 2: $f_{\rm leak}$ drains DM (L308ab)**
 - $f_{\rm leak}$ = H(z) (scales with expansion rate)
 - At z=1100, $f_{\rm leak}$ is ~10⁴× larger than at z=0
-- Drains overproduction, leaves observed Ω_c = 0.265
+- Drains overproduction, leaves observed $\Omega_{\rm c}$ = 0.265
 
 **Step 3: Leaked DM goes to 4D bulk**
 - 4D bulk contains the 4D event (eternal, $\tau_{\rm 4D} = 1.51e34 yr)$- Energy "stored" in 4D contributes to 4D antigravity
@@ -7933,7 +7933,7 @@ This is consistent with ΛCDM-like behavior and all observational tests.
 
 ### The Transition Table
 
-| z | Ω_DM | Ω_DE | DM/DE | Era |
+| z | $\Omega_{\rm DM}$ | $\Omega_{\rm DE}$ | DM/DE | Era |
 |---|---|---|---|---|
 | 1100 | 0.638 | 1.2e-9 | 6.4e8 | matter-dominated |
 | 100 | 0.819 | 2.0e-6 | 4.0e5 | matter-dominated |
@@ -8016,7 +8016,7 @@ The DE/DM ratio increase is the explanation for why the early universe expanded 
 
 ### Deceleration Parameter Evolution
 
-q(z) = 0.5 × (Ω_m + 2Ω_r - 2Ω_Λ) / (Ω_m + Ω_r + Ω_Λ)
+q(z) = 0.5 × ($\Omega_{\rm m}$ + 2$\Omega_{\rm r}$ - 2Ω_Λ) / ($\Omega_{\rm m} + \Omega_{\rm r}$ + Ω_Λ)
 
 | z | q | Phase |
 |---|---|---|
@@ -8059,10 +8059,10 @@ The cascade structure EXPLAINS why this happens. ΛCDM doesn't.
 
 | Transition | z | Definition |
 |---|---|---|
-| Matter-DE equality | 0.296 | Ω_m = Ω_Λ (energy density) |
+| Matter-DE equality | 0.296 | $\Omega_{\rm m}$ = Ω_Λ (energy density) |
 | Decel-Accel (q=0) | 0.63 | Universe starts accelerating |
 
-The two are different because radiation matters for q but not for Ω_Λ/Ω_m equality.
+The two are different because radiation matters for q but not for Ω_Λ/$\Omega_{\rm m}$ equality.
 
 ### Implications
 
@@ -8219,7 +8219,7 @@ This corrected narrative is more honest and reflects SIDC's actual structure.
 
 Planck 2018: w = -1.03 ± 0.03 → |w + 1| < 0.06 at 2σ
 
-If DE evolves as DE ∝ H^α, then α ≈ 0.5α_w where α_w relates to w.
+If DE evolves as DE ∝ H^α, then α ≈ 0.5$\alpha_{\rm w}$ where $\alpha_{\rm w}$ relates to w.
 
 Specifically: H^α ≈ (1+z)^(1.5α), and DE(z) ≈ (1+z)^(3(1+w))
 
@@ -8429,7 +8429,7 @@ All 15 framework parameters verified:
 |---|---|---|---|
 | $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) | 3.98×10²³ | 3.93×10²³ | -1.13% |
 | γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D | 1.0×10¹¹¹ | 1.10×10¹¹¹ | ~exact |
-| ρ_DE = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴ | 2.5× 10⁻⁴⁷ | 2.5× 10⁻⁴⁷ | EXACT |
+| $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴ | 2.5× 10⁻⁴⁷ | 2.5× 10⁻⁴⁷ | EXACT |
 | f × ε invariant | 1.13× $10^{-123}$ | 1.13× $10^{-123}$ | EXACT |
 | α = 1 + 1/√N | 1.28868 | 1.289 | 0.025% (essentially exact) |
 
@@ -8453,7 +8453,7 @@ Key values appear consistently across the paper:
 - $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰: 4 occurrences
 - ε = 6.32× 10⁻³⁴: 4 occurrences
 - $\gamma_{\rm 4D} = 1.10\times 10^{111}$: 1 occurrence
-- ρ_DE = 2.5× 10⁻⁴⁷: 8 occurrences
+- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷: 8 occurrences
 
 ### Issues Found
 
@@ -8472,9 +8472,9 @@ Actually, looking at the original Tian+ 2024 paper, the ratio is reported as ~14
 - "Naive γ_4D = $E_{\rm 4D}$/ $M_{\rm Pl,4D}$" is wrong (formula uses $M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$)
 - **VERDICT**: Script needs A2 update (not a paper issue)
 
-**MINOR ISSUE 3**: ρ_DE conversion check
+**MINOR ISSUE 3**: $\rho_{\rm DE}$ conversion check
 - 6.91e-10 J/m³ = 5.62e+47 GeV⁴ (script conversion)
-- But framework ρ_DE = 2.5e-47 GeV⁴
+- But framework $\rho_{\rm DE}$ = 2.5e-47 GeV⁴
 - **VERDICT**: This is the unit conversion mismatch in the audit script (not framework)
 
 ### Final Verdict
@@ -8486,7 +8486,7 @@ Actually, looking at the original Tian+ 2024 paper, the ratio is reported as ~14
 - ✓ f × ε = 1.13e-123 invariant preserved
 - ✓ $M_{\rm Pl,4D} = 3.93e23$ matches α-GM to 1%
 - ✓ α = 1 + 1/√N matches Schwarzian SYK to 0.025%
-- ✓ ρ_DE = 2.5e-47 GeV⁴ EXACT match
+- ✓ $\rho_{\rm DE}$ = 2.5e-47 GeV⁴ EXACT match
 - ✓ Most citations used in correct context
 
 **MINOR ISSUES TO FIX:**
@@ -8507,7 +8507,7 @@ Calculation: `calculations/v36_research/L308bu_logical_audit.py`
 Framework is internally consistent. No major issues found. Minor issues:
 1. Tian+ 2024 ratio (14× vs 17×): both defensible, no fix needed
 2. Audit script uses A1 values: not a paper issue
-3. ρ_DE conversion: not a paper issue
+3. $\rho_{\rm DE}$ conversion: not a paper issue
 
 Ready for pre-submission polish and arXiv prep.
 

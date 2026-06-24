@@ -640,7 +640,7 @@ Key values:
 If SIDC's cumulative component of DM grows over time (which it should, by SIDC's own logic), then the *absolute* DM density at z=0 should be larger than at z=∞. Two scenarios:
 
 **Scenario A: Total DM conserved in comoving volume.** The total $\Omega_{DM} = 0.27$ is constant at all z (per line 1897 of the paper: "the *total* dark matter in a comoving volume is *approximately* conserved"). In this case:
-- At all z: $\Omega_{DM} = 0.27$, Ω_b = 0.05, ratio = 5.4×
+- At all z: $\Omega_{DM} = 0.27$, $\Omega_{\rm b}$ = 0.05, ratio = 5.4×
 - The cumulative component GROWS at the expense of the primordial component
 - Primordial: 27% at z=∞, 19% at z=0
 - Cumulative: 0% at z=∞, 8.1% at z=0
