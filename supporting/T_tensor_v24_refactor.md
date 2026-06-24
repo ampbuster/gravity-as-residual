@@ -245,7 +245,7 @@ The changes are in:
 
 **1. The bulk boundary condition:**$J^A_{\text{bulk}}|_{\text{brane}} = 0$ (Task 1)
 
-**2. The fossil surface tension:**$\sigma = \int d^2\xi \sqrt{-\gamma} \, \frac{c}{24\pi} R^{(2)}$ with $c \in \mathbb{Z}_{\ge 1}$ (Task 2)
+**2. The fossil surface tension:**$\sigma = \int d^2\xi \sqrt{-\gamma} \, \frac{c}{24\pi} R^{(2)}$ with $c \in \mathbb{Z}{}_{\ge 1}$ (Task 2)
 
 **3. The fossil localization profile:**$T_{\mu\nu}^{\text{fossil, v24}}$ uses the Gaussian instanton $g(\tau)$ instead of $\delta(\tau - \tau_{2D})$ (Task 3)
 
@@ -264,7 +264,7 @@ The Bianchi identity $\nabla^\mu T_{\mu\nu}^{\text{eff}} = 0$ is preserved by al
 | $\tau_{2D}$ (death timescale) | Postulated | Postulated (Gaussian width) | 0 |
 | $\mathcal{L}_{2D}$ (2D matter) | Free | Free | 0 |
 | $f_{\text{back}}$ (staying fraction) | Free (set to 1 by postulate) | **DERIVED** from bulk BC | -1 |
-| $c$ (central charge) | Free | $c \in \mathbb{Z}_{\ge 1}$ (discrete) | -1 |
+| $c$ (central charge) | Free | $c \in \mathbb{Z}{}_{\ge 1}$ (discrete) | -1 |
 | 5/27 inner split | Free / Fit | **TOPOLOGICAL INVARIANT** | -1 |
 
 **Result: free parameter count reduced from 5+ to 2-3 active parameters.**
@@ -300,7 +300,7 @@ $$T_{\mu\nu}^{\text{eff}} = T_{\mu\nu}^{\text{SM}} + \frac{\kappa_5^4}{8\pi G_4}
 
 with the four v2.4 modifications:
 1. **Bulk BC:**$J^A_{\text{bulk}}|_{\text{brane}} = T^{AB}_{\text{bulk}} n_B = 0$
-2. **Central charge:**$c \in \mathbb{Z}_{\ge 1}$ (default $c=1$)
+2. **Central charge:**$c \in \mathbb{Z}{}_{\ge 1}$ (default $c=1$)
 3. **Fossil localization:**$T_{\mu\nu}^{\text{fossil, v24}} \propto \int d\tau \, g(\tau) \sigma(\tau) \cdot \text{projection}$, with $g(\tau) = \frac{1}{\tau_{2D}\sqrt{\pi}} e^{-\tau^2/\tau_{2D}^2}$
 4. **5/27 invariant:**$\frac{V_5}{A_4 R_{\text{AdS}_5}} = \frac{27}{5}$ (topological, frozen at brane deployment)
 

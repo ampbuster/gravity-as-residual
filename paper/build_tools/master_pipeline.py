@@ -73,6 +73,10 @@ def step_fix_broken_wraps(dry_run=False):
         # General: $X = $Y$ -> $X = Y$ (any var X and Y, with { } allowed)
         (r'\$([A-Za-z0-9_\\\\\{\}\.]+) = \$([A-Za-z0-9_\\\\\{\}]+)\$',
          r'$\1 = \2$'),
+        # \mathbb{Z}2 (no underscore) -> \mathbb{Z}{}_2 (use {} separator to
+        # prevent markdown from interpreting _2 as emphasis in some renderers)
+        (r'\\mathbb\{Z\}([0-9])',
+         r'\\mathbb{Z}{}_\1'),
     ]
 
     for fname in os.listdir(MARKDOWN_DIR):
@@ -90,6 +94,29 @@ def step_fix_broken_wraps(dry_run=False):
         if new_content != content and not dry_run:
             with open(fp, 'w') as f:
                 f.write(new_content)
+
+    # Also process README.md (the markdown-only $\mathbb{Z}_2$ -> $\mathbb{Z}{}_2$
+    # fix prevents GitHub from rendering _2 as italic emphasis)
+    readme_path = os.path.join(WORKSPACE, 'README.md')
+    if os.path.exists(readme_path):
+        with open(readme_path) as f:
+            content = f.read()
+        new_content = content
+        # Apply ONLY the mathbb fix to README (don't run nested-$X fix on README
+        # since it has different syntax)
+        readme_patterns = [
+            (r'\\mathbb\{Z\}([0-9])',
+             r'\\mathbb{Z}{}_\1'),
+        ]
+        for pattern, repl in readme_patterns:
+            new_content, n = re.subn(pattern, repl, new_content)
+            if n > 0:
+                print(f'  README.md: Fixed {n} instances of \\mathbb{{Z}}<digit>')
+                fixed += n
+        if new_content != content and not dry_run:
+            with open(readme_path, 'w') as f:
+                f.write(new_content)
+
     print(f'Fixed {fixed} broken wraps')
     return True
 
