@@ -42,8 +42,8 @@ This is the canonical "physics paper" version. Read this first.
 ### Full changelog from v3.5.7+ to v3.5.9+ A2
 
 The L308 chain (L308ab-L308ce) covers:
-- **L308ab** — kL=76.4 re-calibration, M_Pl,4D via α-GM
-- **L308ac** — f_DE re-derivation in A2
+- **L308ab** — $kL$=76.4 re-calibration, $M_{\rm Pl,4D}$ via α-GM
+- **L308ac** — $f_{\rm DE}$ re-derivation in A2
 - **L308ad-af** — A1→A2 transition
 - **L308ag-ah** — Frame-neutral naming
 - **L308ai-aj** — Mirror geometry fix for ghost problem
@@ -58,7 +58,7 @@ The L308 chain (L308ab-L308ce) covers:
 - **L308ax** — Cascade dimension invariance
 - **L308ay** — MCMC audit v2
 - **L308az** — Mirror geometry ghost fix
-- **L308ba** — Halving rule (N_D = 12/2^(D-2))
+- **L308ba** — Halving rule ($N_D$ = 12/2^(D-2))
 - **L308bb** — 93% Lagrangian audit
 - **L308bc** — DOF conservation
 - **L308bd-be** — First-principles re-framing
@@ -68,9 +68,9 @@ The L308 chain (L308ab-L308ce) covers:
 - **L308bi** — Option B Strengthened
 - **L308bj** — Halving Rule First-Principles
 - **L308bk** — Cascade Dimension Invariance
-- **L308bl** — REJECTED (Hubble tension via f_leak)
+- **L308bl** — REJECTED (Hubble tension via $f_{\rm leak}$)
 - **L308bm** — Framework Audit
-- **L308bn** — M_Pl,4D Re-Derivation in A2
+- **L308bn** — $M_{\rm Pl,4D}$ Re-Derivation in A2
 - **L308bo** — DE/DM Ratio Evolution
 - **L308bp** — DM-DE Unification
 - **L308bq** — Decel-Accel Transition (z_t = 0.63)
@@ -98,20 +98,20 @@ The L308 chain (L308ab-L308ce) covers:
 
 **Numerical values (A2):**
 - ε = 6.32×10⁻³⁴
-- f_DE,closed = 1.79×10⁻⁹⁰
+- $f_{\rm DE}$,closed = 1.79×10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - ρ_DE = 2.5×10⁻⁴⁷ GeV⁴ (matches observed)
 - f×ε invariant = 1.13×10⁻¹²³ (preserved across A1 and A2)
-- H_0 = 67.4 km/s/Mpc (Planck, inherited from ΛCDM)
+- $H_0$ = 67.4 km/s/Mpc (Planck, inherited from ΛCDM)
 - r_s = 141.85 Mpc (1.88% off Planck 144.57)
 
 **15 parameters:**
-- 1 MEASURED (M_Pl,3D)
-- 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ)
-- 2 DERIVED (M_Pl,4D via α-GM, E_4D via N_sub × E_sub)
-- 4 CALIBRATED (ε, τ_4D, AGN rate, f_leak,3D→4D = H_0)
-- 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12)
+- 1 MEASURED ($M_{\rm Pl,3D}$)
+- 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ)
+- 2 DERIVED ($M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via $N_{\rm sub}$ × $E_{\rm sub}$)
+- 4 CALIBRATED (ε, τ_4D, AGN rate, $f_{\rm leak,3D→4D}$ = $H_0$)
+- 4 STRUCTURAL ($E_{\rm sub}$, τ_3D,apparent, γ_4D, $N=12$)
 - 1 FREE ($N_{\rm sub} = 386)$### Citation
 
 ```bibtex

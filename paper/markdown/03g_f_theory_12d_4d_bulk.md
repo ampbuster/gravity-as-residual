@@ -41,7 +41,7 @@ After v3.4.5 web research and user catch, the "12" pattern is REFRAMED:
 | 4D | F-theory 12D (10+2) | Vafa 1996, structural | ✓ Real |
 | 3D | 12 gauge bosons (SU(3) + SU(2) + U(1)) | SM gauge group | ✓ Real |
 | 3D | 12 fermion FLAVORS (6 quarks + 6 leptons) | Across 3 generations | ✓ Real (but not per gen) |
-| 2D | 12 Majorana ( N=12 SYK) | SYK benchmark | ✓ Standard (not derived) |
+| 2D | 12 Majorana ( $N=12$ SYK) | SYK benchmark | ✓ Standard (not derived) |
 
 **HONEST VERDICT (v3.4.6)**:
 - The "12" appears at every level for DIFFERENT physical reasons
@@ -81,7 +81,7 @@ The v3.4 "DOF conservation at 24" was the framework's INTERPRETATION.
 ## Why "12" Appears (Three Hypotheses)
 
 **Hypothesis A** (FAVORED): Coincidence with structural seeds
-- 2D: N=12 is the standard SYK benchmark (not derived)
+- 2D: $N=12$ is the standard SYK benchmark (not derived)
 - 3D: 12 is the SM gauge group dimension (real, structural)
 - 3D: 12 fermion flavors is 4 × 3 (families × generations)
 - 4D: 12 is F-theory dimension (real, structural)
@@ -130,7 +130,7 @@ Even with F-theory 12D, the framework has:
 - **L267-L274** (v3.3.16-3.3.24): "Why 12" unanswered
 - **L275-L278** (v3.4.3): h^{2,1}=3 vs CY3 reality
 - **L279-L282** (v3.4.4): h^{2,1}=4 refutes h^{2,1}=N→N gen
-- **L283** (v3.4.5 NEW): N=12 is SYK benchmark, not theoretically motivated
+- **L283** (v3.4.5 NEW): $N=12$ is SYK benchmark, not theoretically motivated
 - **L284** (v3.4.5 NEW): α = 1 + 1/√N is NOT a standard SYK formula
 - **L285** (v3.4.5 NEW): "12 SM fermions/gen" is FALSE (it's 15-16 Weyl)
 - **L286** (v3.4.5 NEW): h^{2,1}=N→N generations is REFUTED
@@ -144,7 +144,7 @@ Even with F-theory 12D, the framework has:
 **What the framework CLAIMS (honestly)**:
 - F-theory 12D is the adopted 4D bulk theory
 - "12" appears at every level for different physical reasons:
-  - 2D: SYK benchmark ( N=12)
+  - 2D: SYK benchmark ( $N=12$)
   - 3D: SM gauge bosons (12) and fermion FLAVORS (12 across 3 gens)
   - 4D: F-theory spacetime dimension (12D)
 - α = 1.289 matches 1 + 1/√12 (phenomenological, not derived)

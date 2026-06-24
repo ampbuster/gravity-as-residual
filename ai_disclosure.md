@@ -7,7 +7,7 @@ This paper was developed with substantial assistance from **Mavis** (an AI assis
 Mavis contributed to the following aspects of the work:
 
 1. **Physics literature review** — helping find and verify 22 cited papers (brane-world scenarios, dark matter observations, CMB constraints, black hole physics, dark energy equation of state, etc.)
-2. **Numerical verification** — running Python calculations to verify every numerical claim (10^38 hierarchy, 10^-85 f_back, 5%/27%/68% energy budget, 2D universe lifetimes, black hole Schwarzschild radii, Hawking evaporation time, supernova energy conversion, Sun's total output, etc.)
+2. **Numerical verification** — running Python calculations to verify every numerical claim (10³⁸ hierarchy, 10⁻⁸⁵ $f_{\rm back}$, 5%/27%/68% energy budget, 2D universe lifetimes, black hole Schwarzschild radii, Hawking evaporation time, supernova energy conversion, Sun's total output, etc.)
 3. **Internal consistency audits** — repeatedly reading the paper to identify cross-reference errors, numerical inconsistencies, contradictory claims, and overstatements
 4. **Iterative refinement** — proposing framings (e.g., the "two dark-sector products" framing, the "universal bulk-brane cancellation" framing, the "ending-agnostic" framing) that the human author then accepted, modified, or rejected
 5. **Prose editing** — making the writing clearer and more accessible to non-specialists

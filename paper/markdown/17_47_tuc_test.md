@@ -163,7 +163,7 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 |---|---|---|---|
 | **47 Tuc** (this section) | DP1 2025, Y10 2034 | 5-15% $M_{\rm dyn}$/ $M_{\rm stars}$ | DECISIVE |
 | **w = -1 EXACTLY** (Euclid/Roman) | 2024+ / 2027+ | Sharpness of w deviation | SHARPEST |
-| **BCG g_+ universality** (Tian+) | 2024+ | g_+ across cluster mass | STRONG |
+| **BCG $g_+$ universality** (Tian+) | 2024+ | $g_+$ across cluster mass | STRONG |
 | **21cm heating** (SKA) | 2030s | Small excess over ΛCDM | TESTABLE |
 | **Multi-messenger** (§16) | 2025+ | Sub-dominant | NOT primary |
 

@@ -14,16 +14,16 @@ $$S_{\rm SIDC} = S_{4D} + S_{3+1D} + \sum_{\rm events} S_{2D} + S_{\rm proj} + S
 |---|---|---|
 | $S_{\rm 4D}$ (4D bulk event) | ✓ Implemented | L308bn ( $M_{\rm Pl,4D} = 3.93×10²³ GeV$via α-GM) |
 | $S_{\rm 3+1D}$ (3+1D brane) | ✓ Implemented | Standard + SM |
-| $S_{\rm 2D}$ (per 2D universe) | ⚠️ Partially implemented | Form written, exact Z_2D unclear |
+| $S_{\rm 2D}$ (per 2D universe) | ⚠️ Partially implemented | Form written, exact $Z_{\rm 2D}$ unclear |
 | S_proj (projection) | ✓ Structurally implemented | L308az (mirror plane) |
 | S_mirror (mirror plane) | ✓ Implemented | L308az explicit |
-| S_drain (DM stability) | ✓ Implemented | L308ax (f_leak = H₀) |
+| S_drain (DM stability) | ✓ Implemented | L308ax ($f_{\rm leak}$ = H₀) |
 
 The 4% gap consists of:
-1. Exact 2D CFT partition function Z_2D
-2. Exact brane coupling g_couple
-3. Exact drain rate derivation f_leak (currently calibrated)
-4. Full path integral Z_SIDC (UV completion)
+1. Exact 2D CFT partition function $Z_{\rm 2D}$
+2. Exact brane coupling $g_{\rm couple}$
+3. Exact drain rate derivation $f_{\rm leak}$ (currently calibrated)
+4. Full path integral $Z_{\rm SIDC}$ (UV completion)
 
 ## §18.2 The Path Integral Structure
 
@@ -37,7 +37,7 @@ $$Z_{\rm SIDC} \approx Z_{4D} \times Z_{3+1D} \times \langle \Sigma_{\rm events}
 
 where each Z is the partition function of that sector.
 
-### §18.2.1 The 4D Bulk Z_4D
+### §18.2.1 The 4D Bulk $Z_{\rm 4D}$
 
 $$Z_{4D} = \int \mathcal{D}\Phi_{4D} \exp\left(i \int d^4x \sqrt{-g_4} \left[\frac{R_4}{16\pi G_4} + N_{4D} \mathcal{L}_{4D}\right]\right)$$
 
@@ -45,7 +45,7 @@ $$Z_{4D} = \int \mathcal{D}\Phi_{4D} \exp\left(i \int d^4x \sqrt{-g_4} \left[\fr
 
 **Expertise needed**: Standard GR/QFT.
 
-### §18.2.2 The 3+1D Brane Z_3+1D
+### §18.2.2 The 3+1D Brane $Z_{\rm 3+1D}$
 
 $$Z_{3+1D} = \int \mathcal{D}\Phi_{3+1D} \exp\left(i \int d^4x \sqrt{-g} \left[\frac{1}{16\pi G_3}(R - 2\Lambda) + \mathcal{L}_{\rm SM}\right]\right)$$
 
@@ -53,7 +53,7 @@ $$Z_{3+1D} = \int \mathcal{D}\Phi_{3+1D} \exp\left(i \int d^4x \sqrt{-g} \left[\
 
 **Expertise needed**: Particle physics.
 
-### §18.2.3 The 2D Universe Z_2D (THE BIG GAP)
+### §18.2.3 The 2D Universe $Z_{\rm 2D}$ (THE BIG GAP)
 
 $$Z_{2D} = \int \mathcal{D}\phi \, \mathcal{D}\psi \langle \text{FZZT} | \exp(-S_L - S_{\rm Ising} - S_{\rm SYK}) | \text{FZZT} \rangle$$
 
@@ -78,7 +78,7 @@ where:
 1. Use known Liouville + Ising + FZZT results as base case
 2. Add SYK as small perturbation (since q-body interactions are subdominant)
 3. Compute the partition function via modular bootstrap
-4. Extract physics (lifetime, energy spectrum) from Z_2D
+4. Extract physics (lifetime, energy spectrum) from $Z_{\rm 2D}$
 
 ## §18.3 The 2D Universe Path Integral — Detailed
 
@@ -124,7 +124,7 @@ $$|\text{FZZT}, s\rangle = \int dP \, \Psi_s(P) |P, \bar{P}\rangle$$
 
 where s is the FZZT parameter (related to brane tension) and Ψ_s(P) is a known function.
 
-### §18.3.5 Combined Z_2D
+### §18.3.5 Combined $Z_{\rm 2D}$
 
 $$Z_{2D} = \int dP \, \rho_{\rm tot}(P) \, \Psi_s(P)^2$$
 
@@ -134,7 +134,7 @@ where ρ_tot(P) combines Liouville × Ising × SYK contributions.
 
 ## §18.4 Other Lagrangian Gaps
 
-### §18.4.1 g_couple in S_proj (MEDIUM)
+### §18.4.1 $g_{\rm couple}$ in S_proj (MEDIUM)
 
 **Need**: Derive the bulk-to-brane coupling strength.
 
@@ -142,7 +142,7 @@ where ρ_tot(P) combines Liouville × Ising × SYK contributions.
 
 **Difficulty**: 1-2 months (brane-world expertise).
 
-**Status**: g_couple is a CALIBRATED parameter in the current Lagrangian.
+**Status**: $g_{\rm couple}$ is a CALIBRATED parameter in the current Lagrangian.
 
 ### §18.4.2 $f_{\rm leak,3D→4D}$ in S_drain (MEDIUM)
 
@@ -155,7 +155,7 @@ where c_s is the brane sound speed.
 
 **Difficulty**: 1-3 months.
 
-**Status**: f_leak = H₀ (calibrated, L308ax). This is the "post-Friedmann principle" — DM stability is maintained by Hubble-scale dynamics.
+**Status**: $f_{\rm leak}$ = H₀ (calibrated, L308ax). This is the "post-Friedmann principle" — DM stability is maintained by Hubble-scale dynamics.
 
 ### §18.4.3 N values origin (LOW)
 
@@ -174,10 +174,10 @@ where c_s is the brane sound speed.
 
 | Component | Difficulty | FTE Time | Required Expertise |
 |---|---|---|---|
-| Z_2D (2D CFT) | HIGH | 6-12 months | 2D CFT expert |
-| g_couple | MEDIUM | 1-2 months | Brane-world / AdS/CFT |
-| f_leak derivation | MEDIUM | 1-3 months | Brane tension + cosmology |
-| Full Z_SIDC | VERY HIGH | 12-18 months | 2D gravity + branes |
+| $Z_{\rm 2D}$ (2D CFT) | HIGH | 6-12 months | 2D CFT expert |
+| $g_{\rm couple}$ | MEDIUM | 1-2 months | Brane-world / AdS/CFT |
+| $f_{\rm leak}$ derivation | MEDIUM | 1-3 months | Brane tension + cosmology |
+| Full $Z_{\rm SIDC}$ | VERY HIGH | 12-18 months | 2D gravity + branes |
 | N values (deeper) | LOW | 1-2 weeks | Already 90% closed (L308r, bh) |
 | Halving rule | DONE | — | L308bj (Bott periodicity) |
 
@@ -198,7 +198,7 @@ The 4% gap is NOT a blocker for the framework's core predictions. Without the fu
 
 **All these predictions are INDEPENDENT of the 4% gap.**
 
-The 4% gap is about **UV completion** (the path integral Z_SIDC), not **phenomenology** (the testable predictions).
+The 4% gap is about **UV completion** (the path integral $Z_{\rm SIDC}$), not **phenomenology** (the testable predictions).
 
 SIDC is a:
 - **CALIBRATED** framework (4 calibrated parameters)
@@ -212,10 +212,10 @@ The 4% gap is a **RESEARCH PROGRAM**, not a **framework flaw**.
 
 The Lagrangian gap (§3.68 = 96% complete) consists of:
 
-1. **EXACT 2D CFT partition function Z_2D** (the biggest, requires 2D CFT expert)
-2. **EXACT brane coupling g_couple** (medium, brane-world expertise)
-3. **EXACT drain rate derivation f_leak** (currently calibrated, 1-3 months)
-4. **FULL path integral Z_SIDC** (UV completion, 12-18 months)
+1. **EXACT 2D CFT partition function $Z_{\rm 2D}$** (the biggest, requires 2D CFT expert)
+2. **EXACT brane coupling $g_{\rm couple}$** (medium, brane-world expertise)
+3. **EXACT drain rate derivation $f_{\rm leak}$** (currently calibrated, 1-3 months)
+4. **FULL path integral $Z_{\rm SIDC}$** (UV completion, 12-18 months)
 
 All 4 pieces are **TECHNICALLY ADDRESSABLE** with current mathematical tools, but require **EXPERT INPUT** in:
 - 2D quantum gravity (Liouville, ZZ branes)

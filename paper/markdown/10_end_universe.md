@@ -256,7 +256,7 @@ The SN and Core-collapse SN death signals are in LISA's band ( 10⁻⁴ to 1 Hz)
 
 **Quantitative $\Omega_{\rm GW}$ estimate (Phinney 2001 / Maggiore 2000):**
 
-For bursts of energy E_GW at rate r_local per m^3 per s, each at frequency f_obs with lifetime $\tau_{2D}$, the spectral density at f_obs (delta function with bandwidth Δf ~ 1/ $\tau_{2D}$) is:
+For bursts of energy E_GW at rate r_local per m^3 per s, each at frequency $f_{\rm obs}$ with lifetime $\tau_{2D}$, the spectral density at $f_{\rm obs}$ (delta function with bandwidth Δf ~ 1/ $\tau_{2D}$) is:
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
@@ -273,11 +273,11 @@ For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = 10⁴⁴ J, $
 
 **KEY FINDING (v2.7.3+):** SIDC's 2D-universe death GW background at 0.03 Hz is **FAR BELOW LISA's noise floor**, even with $\epsilon_{\rm GW}$ = 1 (100% of E_per_death radiated as GW). LISA's best sensitivity is $\Omega_{\rm GW} \sim 10^{-12}$ at ~3 mHz, while SIDC predicts $\Omega_{\rm GW} \sim 10^{-17}$ for SN deaths with $\epsilon_{\rm GW}$ = 1. SIDC's death GW is **NOT DETECTABLE BY LISA** for any reasonable $\epsilon_{\rm GW}$.
 
-**Caveat:** This analysis uses the *narrowband* assumption (delta-function bursts at f_obs = 1/ $\tau_{2D}$). For the *flat_lnf* model (energy spread uniformly in log-frequency), $\Omega_{\rm GW}$ is ~10× higher per dex, but still far below LISA's noise.
+**Caveat:** This analysis uses the *narrowband* assumption (delta-function bursts at $f_{\rm obs}$ = 1/ $\tau_{2D}$). For the *flat_lnf* model (energy spread uniformly in log-frequency), $\Omega_{\rm GW}$ is ~10× higher per dex, but still far below LISA's noise.
 
 **For higher-energy events (BNS, AGN), the predicted $\Omega_{\rm GW}$ is *larger*, but the death frequency is *lower* (below LISA's 10⁻⁴ Hz band):**
 
-| Event | f_obs (Hz) | $\Omega_{\rm GW}$ ( ε=1) | LISA band? |
+| Event | $f_{\rm obs}$ (Hz) | $\Omega_{\rm GW}$ ( ε=1) | LISA band? |
 |---|---|---|---|
 | SN Ia | 0.03 | 4.5 × 10⁻¹⁷ | **[PASS]** in band |
 | Short GRB | 8.2 × 10⁻⁵ | 1.7 × 10⁻¹³ | **[FAIL]** just below |
@@ -344,7 +344,7 @@ This section quantifies whether SIDC's death GW background can be detected by LI
 
 **Death GW background from SIDC (Phinney/Maggiore formula, narrowband model):**
 
-For a population of bursts at rate n_rate (per m³/s) with energy E_GW per burst and lifetime $\tau_{2D}$, each burst is a delta function with bandwidth Δf ~ 1/ $\tau_{2D}$. The spectral density at f_obs = 1/ $\tau_{2D}$ is:
+For a population of bursts at rate n_rate (per m³/s) with energy E_GW per burst and lifetime $\tau_{2D}$, each burst is a delta function with bandwidth Δf ~ 1/ $\tau_{2D}$. The spectral density at $f_{\rm obs}$ = 1/ $\tau_{2D}$ is:
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
@@ -361,9 +361,9 @@ where ρ_c = 7.7 × 10⁻¹⁰ J/m³.
 
 **Conclusion: LISA will NOT detect SIDC's death GW background from typical SN events, regardless of $\epsilon_{\rm GW}$.** SIDC's predicted $\Omega_{\rm GW}$ is 6-14 orders of magnitude below LISA's noise at 0.03 Hz.
 
-**For higher-energy events (which have higher $\Omega_{\rm GW}$ but lower f_obs):**
+**For higher-energy events (which have higher $\Omega_{\rm GW}$ but lower $f_{\rm obs}$):**
 
-| Event | f_obs (Hz) | $\Omega_{\rm GW}$ ( ε=1) | LISA in band? |
+| Event | $f_{\rm obs}$ (Hz) | $\Omega_{\rm GW}$ ( ε=1) | LISA in band? |
 |---|---|---|---|
 | Core-collapse SN | 1.6 × 10⁻³ | 4.4 × 10⁻¹⁵ | yes (in band) |
 | Short GRB | 8.2 × 10⁻⁵ | 1.7 × 10⁻¹³ | NO (just below) |

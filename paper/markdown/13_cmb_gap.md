@@ -5,7 +5,7 @@
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab f_leak = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The f × ε invariant (1.13× $10^{-123}$) is preserved in A2 (ε = 6.32× 10⁻³⁴). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab $f_{\rm leak}$ = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The f × ε invariant (1.13× $10^{-123}$) is preserved in A2 (ε = 6.32× 10⁻³⁴). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
 
 <!-- 13_cmb_gap.md - part of paper.md split (v3.0.13) -->
 
@@ -140,17 +140,17 @@ This is an **honest limitation** of v2.7.3+. SIDC is a *late-time* (z < 4) geome
 The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculations/v27_cascade_mcmc_rar.py`.
 
 
-### 13.9 L308ab Resolution: f_leak = H(z) closes the CMB gap (v3.5.9+, June 21, 2026)
+### 13.9 L308ab Resolution: $f_{\rm leak}$ = H(z) closes the CMB gap (v3.5.9+, June 21, 2026)
 
 **Status update**: As of L308ab (v3.5.9+, see §7.4.21 in `paper/markdown/06_limitations.md`), the CMB gap is **PARTIALLY CLOSED** via the user's physical insight:
 
 > "when the universe was small, pressure was higher, so more leaks back to 4d"
 
-**Mechanism**: Generalizing A1's f_leak = H₀ to f_leak = c × H(z) (where c ≈ 1.13):
+**Mechanism**: Generalizing A1's $f_{\rm leak}$ = H₀ to $f_{\rm leak}$ = c × H(z) (where c ≈ 1.13):
 
 - In early universe (z > 1100): high H(z) → high leak rate → DM doesn't accumulate
 - In late universe (z < 1100): low H(z) → low leak rate → DM reaches steady state
-- Today: f_leak(z=0) = 1.13 × H₀, essentially matching A1
+- Today: $f_{\rm leak}$(z=0) = 1.13 × H₀, essentially matching A1
 
 **Result**: Drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
 
@@ -269,7 +269,7 @@ The "CMB gap" before L308ab was specifically about DM being absent at z=1100. Af
 #### Verification Path
 
 A specific test would be:
-1. Run a Boltzmann solver (CAMB, CLASS) with SIDC's DM properties (Ω_c, v_2D ~ 30 m/s)
+1. Run a Boltzmann solver (CAMB, CLASS) with SIDC's DM properties (Ω_c, $v_{\rm 2D}$ ~ 30 m/s)
 2. Compute the predicted CMB angular power spectrum
 3. Compare to Planck 2018 measurements
 

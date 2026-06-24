@@ -123,10 +123,10 @@ Given that SIDC's standard multi-messenger signals are SECONDARY and small, the 
 
 | Test | SIDC | ΛCDM | How to distinguish |
 |---|---|---|---|
-| g_+ vs SFR (dwarfs) | TIGHT correlation | NO correlation | Compare KKR 25 (DM-rich, post-starburst) vs AGC 114905 (DM-poor, never crossed $E_{\rm crit}$) |
-| BCG g_+ vs ICM activity | TIGHT correlation | NO correlation | Tian+ 2024, eROSITA cluster sample |
+| $g_+$ vs SFR (dwarfs) | TIGHT correlation | NO correlation | Compare KKR 25 (DM-rich, post-starburst) vs AGC 114905 (DM-poor, never crossed $E_{\rm crit}$) |
+| BCG $g_+$ vs ICM activity | TIGHT correlation | NO correlation | Tian+ 2024, eROSITA cluster sample |
 | 47 Tuc DM | $M_{\rm dyn} \approx M_{\rm stars}$ (NO spike) | DM spike | Rubin/LSST DP1 (2025), DR1 (2027) |
-| BCG g_+ universal | g_+ ≈ 1.7 × 10⁻⁹ m/s² | Variable | Tian+ 2024 (50 BCGs) |
+| BCG $g_+$ universal | $g_+$ ≈ 1.7 × 10⁻⁹ m/s² | Variable | Tian+ 2024 (50 BCGs) |
 
 ### §16.4.2 Dark Energy Equation of State
 
@@ -171,7 +171,7 @@ The 2D universe death coupling to Standard Model channels is **not derived** in 
 
 1. **47 Tuc DM** (Rubin/LSST DP1 2025) — DECISIVE
 2. **w = -1** (Euclid 2024+) — SHARPEST
-3. **BCG g_+ universality** (eROSITA 2024+) — STRONG
+3. **BCG $g_+$ universality** (eROSITA 2024+) — STRONG
 4. **21cm heating** (SKA-MPG 2030s) — TESTABLE
 5. **GW background** (LISA 2030s) — UNLIKELY DETECTABLE
 6. **Diffuse ν/ γ** — REQUIRES LAGRANGIAN FIRST

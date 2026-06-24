@@ -16,7 +16,7 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 - SIDC explains the deceleration-to-acceleration transition (z=0.63) and the DE/DM ratio change (9 orders of magnitude)
 
 **NEW: First-principles structure (L308bh-bk).**
-- SIDC: N=12, 6, 3 are first-principles (Bott periodicity, Clifford C(6), SM algebra)
+- SIDC: $N=12$, 6, 3 are first-principles (Bott periodicity, Clifford C(6), SM algebra)
 - $\Lambda{\rm CDM}$: No first-principles for $N_{\rm sub}$, $N_{\rm 2D}$, $N_{3+1D}$, $N_{\rm 4D}$ (just free parameters)
 
 **Quantitative comparison:**
@@ -28,7 +28,7 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 | Too-big-to-fail | Brightest sats too dense | No sub-halos to be too big |
 | Lensing flux ratio | Quad anomalies from substructure | No sub-halos to lens |
 | Direct detection | No WIMP up to $9.2 \times 10^{-48} {\rm cm}^2$ | No particle → trivially consistent |
-| DE/DM ratio mechanism | No mechanism (just const) | f_leak converts DM to DE |
+| DE/DM ratio mechanism | No mechanism (just const) | $f_{\rm leak}$ converts DM to DE |
 | First-principles for N | Free parameters | Bott periodicity + C(6) |
 | Hubble tension | Cannot resolve | Cannot resolve (same tension) |
 
@@ -57,7 +57,7 @@ SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling
 **NEW: Cascade is dimension-invariant (L308bk).**
 - SIDC: 3 integer-N brane levels (2D, 3+1D, 4D) + infinite fractional-N bulk levels
 - ADD/RS: Fixed number of extra dimensions (1, 2, ..., n)
-- SIDC's cascade extends to ALL D, with halving rule N_D = 12/2^(D-2) via Bott periodicity
+- SIDC's cascade extends to ALL D, with halving rule $N_D$ = 12/2^(D-2) via Bott periodicity
 
 **Quantitative comparison:**
 
@@ -196,7 +196,7 @@ The distinction is *when* the energetic events happened, not just how much mass 
 | Dark energy | Not addressed | 4D event antigravity **[PASS]** |
 | Hierarchy problem | String-scale | $M_{\rm Pl,2D}$ from α-GM **[PASS]** |
 | First-principles N | T-duality mechanism | C(6) IS SM algebra **[PASS]** |
-| Modifies expansion | Yes (string gas) | Yes (cascade + f_leak) |
+| Modifies expansion | Yes (string gas) | Yes (cascade + $f_{\rm leak}$) |
 | Testable now | Strings unobserved | 17/17 tests pass |
 
 SGC shares with SIDC the insight that dimension is dynamic, but SIDC goes further by tying dimension structure to the SM algebra (C(6)) and to the dark sector (cumulative 2D deaths).
@@ -248,7 +248,7 @@ SIDC is conceptually superior in its parsimony, its handling of small-scale gala
 | Small-scale crisis | SIDC | 4 problems collapse to 0 by construction |
 | Cluster g₊ scaling | SIDC | Phase-transition + MOND EFE |
 | Historical DM differences | SIDC | Stellar Age Lifecycle ledger |
-| DE/DM ratio mechanism | SIDC (NEW) | L308bp: f_leak converts DM to DE |
+| DE/DM ratio mechanism | SIDC (NEW) | L308bp: $f_{\rm leak}$ converts DM to DE |
 | First-principles structure | SIDC (NEW) | Bott periodicity, C(6) IS SM |
 | Dimension invariance | SIDC (NEW) | L308bk: cascade extends to all D |
 | 3 large dimensions (vs SGC) | SIDC | C(6) IS SM algebra (L308bh) |
@@ -267,17 +267,17 @@ A defining feature of SIDC after v3.5.9+ A2 is that the framework's structural n
 
 | Quantity | First-Principles Origin | Source |
 |----------|--------------------------|--------|
-| N=12 (2D) | Standard Model fermion count (3 generations × 4 Weyl) | L308n, structural |
-| N=6 (3+1D) | C(6) minimal ideal = 1 SM generation (Stoica 2018) | L308bh, BREAKTHROUGH |
-| N=3 (4D) | 3 generations × 1 (Majorana-Weyl dim at 4D) | L308bi, structural |
-| N_D = 12/2^(D-2) | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
+| $N=12$ (2D) | Standard Model fermion count (3 generations × 4 Weyl) | L308n, structural |
+| $N=6$ (3+1D) | C(6) minimal ideal = 1 SM generation (Stoica 2018) | L308bh, BREAKTHROUGH |
+| $N=3$ (4D) | 3 generations × 1 (Majorana-Weyl dim at 4D) | L308bi, structural |
+| $N_D$ = 12/2^(D-2) | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
 
 **What this means for competitors:**
-- ΛCDM: Ω_c, Ω_Λ, N_eff, A_s, n_s, τ_reio, etc. are all FREE parameters (~6)
+- ΛCDM: Ω_c, Ω_Λ, $N_{\rm eff}$, A_s, n_s, τ_reio, etc. are all FREE parameters (~6)
 - MOND: a_0 is the single free parameter
 - Quintessence: V(φ) is a free function
 - SGC: requires fundamental strings (unobserved)
 - HDE: IR cutoff choice is free
-- SIDC: structural numbers ( N=12, 6, 3) are first-principles
+- SIDC: structural numbers ( $N=12$, 6, 3) are first-principles
 
 SIDC now has the strongest first-principles foundation of any dark sector theory — the framework's core structure emerges from mathematics (Bott periodicity, Clifford algebra), not from observations. This is qualitatively different from parameter-fitting approaches.

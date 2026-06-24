@@ -819,7 +819,7 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz- μHz band.
 
 **Frequencies for different events**:
 
-| Event | E (J) | $\tau_{2D}$ (s) | f_2D (Hz) | Detector |
+| Event | E (J) | $\tau_{2D}$ (s) | $f_{\rm 2D}$ (Hz) | Detector |
 |-------|-------|----------|-----------|----------|
 | Core-collapse SN | 10⁴⁴ J | 33 s | 0.03 Hz | LISA |
 | Type Ia SN | 10⁴⁴ J | 33 s | 0.03 Hz | LISA |

@@ -261,23 +261,94 @@ def process_inline_math(text: str) -> str:
     return ''.join(result)
 
 
+# ============================================================
+# PROSE conversions (in markdown text, not inside $...$)
+# ============================================================
+def convert_prose_patterns(text: str) -> str:
+    """Convert simple Unicode-friendly patterns in prose (not in $...$)."""
+    # Find math regions to skip
+    display_ranges = []
+    for m in re.finditer(r'\$\$[^$]+?\$\$', text, re.DOTALL):
+        display_ranges.append((m.start(), m.end()))
+    inline_ranges = []
+    for m in re.finditer(r'\$[^$\n]+?\$', text):
+        if not any(s <= m.start() < e for s, e in display_ranges):
+            inline_ranges.append((m.start(), m.end()))
+    # Also skip code blocks
+    code_block_ranges = []
+    i = 0
+    while i < len(text):
+        if text[i:i+3] == '```':
+            end = text.find('```', i+3)
+            if end == -1:
+                end = len(text)
+            else:
+                end += 3
+            code_block_ranges.append((i, end))
+            i = end
+        else:
+            i += 1
+    # And inline code
+    inline_code_ranges = []
+    for m in re.finditer(r'`[^`\n]+`', text):
+        inline_code_ranges.append((m.start(), m.end()))
+    
+    def is_protected(pos):
+        for s, e in code_block_ranges + inline_code_ranges + inline_ranges + display_ranges:
+            if s <= pos < e:
+                return True
+        return False
+    
+    result = text
+    
+    # Convert plain 10^N to Unicode 10ⁿ (only in prose, not in code/math)
+    sup_digits = {'0':'⁰','1':'¹','2':'²','3':'³','4':'⁴','5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹'}
+    
+    def repl_10n(m):
+        if is_protected(m.start()):
+            return m.group(0)
+        sign = m.group(1) or ''
+        digits = m.group(2)
+        if not digits.isdigit():
+            return m.group(0)
+        uni_sign = ''
+        if sign == '-':
+            uni_sign = '⁻'
+        elif sign == '+':
+            uni_sign = '⁺'
+        return '10' + uni_sign + ''.join(sup_digits.get(d, d) for d in digits)
+    
+    result = re.sub(r'10\^([+\-]?)(\d+)', repl_10n, result)
+    
+    # Convert g_+ -> g₊
+    def repl_gplus(m):
+        if is_protected(m.start()):
+            return m.group(0)
+        return 'g₊'
+    result = re.sub(r'(?<!\w)g_\+(?!\w)', repl_gplus, result)
+    
+    return result
+
+
 def process_file(filepath: str, dry_run=False) -> int:
     with open(filepath) as f:
         content = f.read()
-    new_content = process_inline_math(content)
+    # First do prose conversions
+    new_content = convert_prose_patterns(content)
+    # Then do inline math conversions
+    new_content = process_inline_math(new_content)
     if new_content != content:
-        # Count diffs
-        n = 0
-        for a, b in zip(content.split('$'), new_content.split('$')):
-            if a != b:
-                n += 1
-        n = n // 2  # pairs
+        n = sum(1 for a, b in zip(content.split('$'), new_content.split('$')) if a != b) // 2
         if not dry_run:
             with open(filepath, 'w') as f:
                 f.write(new_content)
-        print(f'  {filepath}: converted {n} inline math expressions to Unicode')
+        print(f'  {filepath}: converted (n={n} math exprs)')
         return n
     return 0
+
+
+
+
 
 
 if __name__ == '__main__':

@@ -188,6 +188,27 @@ VARS = [
     # f_leak family (when standalone, not in already-wrapped text)
     (r'\bf_leak,3D→4D\b', '$f_{\\rm leak,3D→4D}$'),
     (r'\bf_leak,3D→4D→2D\b', '$f_{\\rm leak,3D→4D→2D}$'),
+    # Bare f_leak (when not followed by ,digitD)
+    (r'\bf_leak\b', '$f_{\\rm leak}$'),
+    # f_DM variants
+    (r'\bf_DM\b', '$f_{\\rm DM}$'),
+    # N_eff (effective neutrino number)
+    (r'\bN_eff\b', '$N_{\\rm eff}$'),
+    # Z_2D, Z_SIDC, g_couple (path integral / coupling)
+    (r'\bZ_2D\b', '$Z_{\\rm 2D}$'),
+    (r'\bZ_SIDC\b', '$Z_{\\rm SIDC}$'),
+    (r'\bg_couple\b', '$g_{\\rm couple}$'),
+    # Other variables in prose
+    (r'\bf_2D\b', '$f_{\\rm 2D}$'),
+    (r'\btau_obs\b', '$\\tau_{\\rm obs}$'),
+    (r'\balpha_eff\b', '$\\alpha_{\\rm eff}$'),
+    (r'\brho_crit\b', '$\\rho_{\\rm crit}$'),
+    (r'\bf_obs\b', '$f_{\\rm obs}$'),
+    (r'\bv_2D\b', '$v_{\\rm 2D}$'),
+    (r'\bZ_4D\b', '$Z_{\\rm 4D}$'),
+    (r'\bZ_3\+1D\b', '$Z_{\\rm 3+1D}$'),
+    (r'\bZ_3D\b', '$Z_{\\rm 3D}$'),
+    (r'\bZ_2D\b', '$Z_{\\rm 2D}$'),
 ]
 
 

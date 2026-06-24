@@ -63,10 +63,10 @@ The model in this paper is one of several recent proposals that attempt to unify
 
 **The SIDC-MOND hybrid's empirical status (v2.3.0):**
 - Galaxy scale (SPARC, 175 galaxies): 10% median residual with free g₊ and M/L (commit 153)
-- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC g_+ = 1.3 × 10⁻⁹ ( 1σ: 5.3 × 10⁻¹⁰ to 2.7 × 10⁻⁹), matches Tian+ 2024's 1.7 × 10⁻⁹ within 1σ (commit 159)
-- $V_{\rm local}$ predictions test (commit 170): $g_+ \propto \sigma^{1.85}$ matches MOND EFE ( g_+ ∝ σ²) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
+- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = 1.3 × 10⁻⁹ ( 1σ: 5.3 × 10⁻¹⁰ to 2.7 × 10⁻⁹), matches Tian+ 2024's 1.7 × 10⁻⁹ within 1σ (commit 159)
+- $V_{\rm local}$ predictions test (commit 170): $g_+ \propto \sigma^{1.85}$ matches MOND EFE ( $g_+$ ∝ σ²) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
 
-**The SIDC-MOND hybrid is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.** SIDC's pure prediction ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$) was falsified by real SPARC (commit 152, Limitation 19). SIDC's *framework* (4D event → 3+1D → 2D, with cumulative 2D universe gravity) survives because the SIDC-MOND hybrid is a *natural completion*: SIDC provides the *geometric origin* of g_+, MOND provides the *functional form* of $g_{\rm obs}$( $g_{\rm bar}$). The hybrid model is a *prediction* of SIDC (Limitation 27), and it's *consistent* with the cluster-scale data (Limitation 28). A specific implementation of SIDC would need to derive MOND's interpolation function from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture (Limitation 27).
+**The SIDC-MOND hybrid is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.** SIDC's pure prediction ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$) was falsified by real SPARC (commit 152, Limitation 19). SIDC's *framework* (4D event → 3+1D → 2D, with cumulative 2D universe gravity) survives because the SIDC-MOND hybrid is a *natural completion*: SIDC provides the *geometric origin* of $g_+$, MOND provides the *functional form* of $g_{\rm obs}$( $g_{\rm bar}$). The hybrid model is a *prediction* of SIDC (Limitation 27), and it's *consistent* with the cluster-scale data (Limitation 28). A specific implementation of SIDC would need to derive MOND's interpolation function from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture (Limitation 27).
 
 **Caveats and limits.** The SIDC-MOND hybrid is *consistent* with the RAR and the cluster enhancement, but has not yet been checked against the CMB power spectrum, galaxy cluster dark matter content, or the Bullet Cluster in detail. A specific implementation of the SIDC-MOND hybrid would need to address these tests. SIDC's $V_{\rm local}$ formula is *qualitatively* correct (predicts the cluster enhancement direction and order of magnitude) but the *exact* coefficients depend on the 2D brane dynamics (Limitation 26).
 
@@ -248,7 +248,7 @@ Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity a
 User reference (v3.0.22): Kusuki 2024 (arXiv:2412.18307) "Modern Approach to 2D Conformal Field Theory" is a ~70-page review of **modern ICFT methods** (irrational CFT), which is exactly what SIDC's 2D universe uses.
 
 **SIDC's 2D universe framework**:
-- c = 1 Liouville + c = 1/2 matter ( N=12 SYK) = c_total = 3/2
+- c = 1 Liouville + c = 1/2 matter ( $N=12$ SYK) = c_total = 3/2
 - This is an ICFT (irrational CFT)
 - Standard CFT methods (Yellow book) don't fully cover this
 

@@ -20,16 +20,16 @@
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (cascade amplification factor)
 - **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, μ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, $N_{\rm sub} = 3$.86×10²
-- **L308u (WHY N=12? PARTIAL BREAKTHROUGH)**: 6D anomaly + SM fermion count + Schwarzian α → L308ap: STRUCTURAL with strong first-principles motivations and confirmations (3 gen × 4 Weyl INPUT, Schwarzian α = 1+1/√N PREDICTION, data CONFIRMATION)
+- **L308u (WHY $N=12$? PARTIAL BREAKTHROUGH)**: 6D anomaly + SM fermion count + Schwarzian α → L308ap: STRUCTURAL with strong first-principles motivations and confirmations (3 gen × 4 Weyl INPUT, Schwarzian α = 1+1/√N PREDICTION, data CONFIRMATION)
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
-- **First-principles progress**: 0/9 → 3/15 (α, $M_{\rm Pl,2D}$, μ) — **L308ag: N=12 reclassified STRUCTURAL** — **L308ap: N=12 has strong first-principles motivations and confirmations but is not pure derivation**
+- **First-principles progress**: 0/9 → 3/15 (α, $M_{\rm Pl,2D}$, μ) — **L308ag: $N=12$ reclassified STRUCTURAL** — **L308ap: $N=12$ has strong first-principles motivations and confirmations but is not pure derivation**
 
 **v3.5.9+ A2 PARAMETER HIERARCHY** (current, 15 total, REVISED L308z):
 - 1 MEASURED: $M_{\rm Pl,3D}$ (Newton's G)
-- 3 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK, L308n), $M_{\rm Pl,2D}$ = 12× $v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r) [L308ap: N=12 has SM fermion count INPUT + Schwarzian PREDICTION + data CONFIRMATION, but not pure derivation]
+- 3 FIRST-PRINCIPLES: α = 1+1/√12 (Schwarzian SYK, L308n), $M_{\rm Pl,2D}$ = 12× $v_{\rm H}$ (L308r), μ = $M_{\rm Pl,2D}^2$ (L308r) [L308ap: $N=12$ has SM fermion count INPUT + Schwarzian PREDICTION + data CONFIRMATION, but not pure derivation]
 - 2 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation, L308o)
 - 4 CALIBRATED: ε, $\tau_{\rm 4D}$, AGN rate, ** $f_{\rm leak,3D\to4D} = H_0$ (A1 principle, L308ax frame-neutral name)**
-- 4 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ (both cascade amplification factor), ** N=12 (L308ap: with strong first-principles motivations, not pure derivation)**
+- 4 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ (both cascade amplification factor), ** $N=12$ (L308ap: with strong first-principles motivations, not pure derivation)**
 - 1 FREE: $N_{\rm sub}$ (specific to our universe's 4D event; 386 = we are 1 of 386 sibling sub-universes; other 4D events → different N)
 
 **For v3.5.9+ A1 era**: see `paper/legacy/v359_path_B2_rejected.md` (Path B2 REJECTED), `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
