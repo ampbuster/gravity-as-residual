@@ -1408,7 +1408,7 @@ This identification provides a *concrete* information-theoretic interpretation o
 
 **3.8.3 Horava-Witten (1996) M-theory and SIDC as 11D → 4D → 2D stacking.**
 
-Horava-Witten [HW96] is 11D M-theory compactified on $S^1/\mathbb{Z}{}_2$ (orbifold), with two 10D branes at the orbifold fixed points. E8 gauge theory lives on each 10D brane, gravity propagates in the 11D bulk. SIDC's bulk-brane structure has a *natural* realization in HW:
+Horava-Witten [HW96] is 11D M-theory compactified on $S^1/\mathbb{Z}_{2}$ (orbifold), with two 10D branes at the orbifold fixed points. E8 gauge theory lives on each 10D brane, gravity propagates in the 11D bulk. SIDC's bulk-brane structure has a *natural* realization in HW:
 
 - **SIDC's 3+1D us** = 10D HW brane with 6D Calabi-Yau compactification (standard string phenomenology, gives N=1 SUSY, E6 → Standard Model gauge group, chiral fermions, etc.)
 - **SIDC's 2D children** = D1-branes (1+1D branes in string theory) nucleated on the 4D effective brane by energetic events
@@ -5298,7 +5298,7 @@ L308ba-bj, bi improvements pushed the score from 93% → 96% via:
 - Option B Strengthened (L308bi) → all N values first-principles
 - DOF conservation (L308bc) → 12 = 6 = 3 structure
 
-Remaining 4% is genuine research (full path integral, 4D action specifics, bulk field theory connection) — not framework failures.
+Remaining 4% is genuine research (full path integral, 4D action specifics, bulk field theory connection) — not framework failures.$
 # First-Principles Analysis: c=1 Matrix Model → $M_{\rm Pl,2D}$ = 2.95 TeV
 
 **⚠️ HISTORICAL (v3.3.8) — REVERTED in v3.5.8+ L308r**
@@ -7566,7 +7566,7 @@ $$T_{\mu\nu}^{eff} = T_{\mu\nu}^{SM} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + 
 
 with the four v2.4 modifications:
 1. Bulk BC: $J^A_{bulk}|_{brane} = 0$
-2. Central charge: $c \in \mathbb{Z}{}_{\ge 1}$ (default $c=1$)
+2. Central charge: $c \in \mathbb{Z}_{\ge 1}$ (default $c=1$)
 3. Fossil localization: Gaussian instanton $g(\tau)$ (not $\delta$)
 4. 5/27 invariant: $V_5/(A_4 R_{AdS₅}) = 27/5$
 
@@ -8448,7 +8448,7 @@ The full table follows:
 | 26 | Full Lagrangian | **PARTIAL** (v2.4, v2.7.3) | §4.38, §4.44, §4.44.1, §4.44, §7.1, §8.1.4 | 5/10 constraints by construction + $T^{\rm eff}_{\mu\nu}$ derived + J_bulk=0 BC in §4.44 + v2.4 refactor (2-3 free action params: $G_5$, $\alpha$, $\tau_{2D}$) + v2.7.3 web-research reduction of 4 free 2D CFT params ( $\mu$, b, $\alpha$, z_0) to 2 free ( $\mu$, $m_{3+1D}$); remaining is 2D CFT expert |
 | 27 | RAR functional form (SIDC vs MOND) | **PARTIAL** (v2.3.1) | §4.42 | CONFIRMED via per-galaxy $g_+$ (43 galaxies, 4.5 decades in $M_{b}$) $ |
 | 28 | Galaxy-vs-cluster $g_+$ divergence | **PARTIAL** (v2.3.1) | §4.42 | Cluster enhancement ~17.5× via MOND EFE $ |
-| 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219× bifurcation was a numerical error (§3.27). The 0.7-3× revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}{}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
+| 29 | Phase-transition empirical calibration | **PARTIAL** (v2.4, REVISED v2.7.33+, REMOVED v2.7.36+) | §4.45, §4.46, §4.44.1 | **Bifurcation framing REMOVED v2.7.36+**. Emulator now tests AGC 114905 and KKR 25 independently (was AGC/KKR bifurcation). The original 219× bifurcation was a numerical error (§3.27). The 0.7-3× revised bifurcation is also problematic (§3.28, §3.29). Proportionality constant (0.1) was calibrated to dSph obs; **the 0.1 is now understood as a phenomenological stand-in for the unconstrained bounds of the central charge $c$ (v2.4 Task 2, $c \in \mathbb{Z}_{\geq 1}$, default 1)** — varying $c$ shifts the fossil amplitude $\sigma = (c/24\pi) R^{(2)}$ and hence the 0.1 coefficient; closing this requires a specific 2D theory choice |
 | 30 (NEW) | Topological eigenvalue (5/27) | **PARTIAL** (v2.4) | §2.6.1 | ANCHORED as $V_5 / A_4 R_{AdS₅} = 27/5$ via AdS $_5$/CFT $_4$ holographic counting; specific value depends on zero-mode counting of bulk-brane Dirac operator; closing this requires a 2D CFT expert |
 | 31 (NEW) | 2D-to-3+1D time compression | OPEN (v2.6) | §2.5, §2.6 | The bulk position distribution P(y) is unknown; required $e^{-ky} \sim 10^{-48}$ corresponds to 2D universes ~100 AdS₅ radii deep; a specific bulk geometry and 2D CFT calculation would close this |
 | 32 (REMOVED v2.7) | 4-zone H(z) derivation | N/A | N/A | REMOVED in v2.7: the 4-zone H(z) was data fitting (8 free parameters for ~5 data points), and the P(y) problem made it internally inconsistent. SIDC now adopts Mechanism M and accepts the Hubble tension as a real observational tension, not resolved. |
@@ -18763,7 +18763,7 @@ This was previously IMPOSSIBLE because Ω_c(z=1100) ≈ 0 in SIDC (pre-L308ab). 
 - **16/17 test categories pass** (16 pass, 1 confounded) on real observational data (SPARC, MaNGA, Pantheon+, Planck, Tian+ 2024, AGC 114905, KKR 25).
 - **0 strongly confirmed, 2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form in v2.2; Mechanism A Hubble in commit ~80) — both *specific functional forms*, since replaced by the SIDC-MOND hybrid and Mechanism M, respectively. SIDC's *framework* (4D event → 3+1D → 2D) is NOT falsified; only the specific implementations that SIDC has since improved. The framework is *consistent* with current data without being *established* by it.
 - **37 honest limitations documented** (v2.7.41+: 17 OPEN (including 1 architectural), 10 PARTIAL, 3 CLOSED, 2 FALSIFIED, 4 REVERTED (including 1 PARTIAL→REVERTED), 1 DISCARDED — legacy_paper.md §3.13 mechanism discarded v2.7.20, L37 added v2.7.30 for $\alpha$=1.29 CGHS derivation legacy_paper.md §3.24, L38 added v2.7.33 for KKR 25 $M_{b}$ value (off by $1000\times$) legacy_paper.md §3.27, L39 added v2.7.34 for 10-year data gap between AGC 114905 and KKR 25 legacy_paper.md §3.28, L40-42 added v2.7.35 for AGC 114905 contested DM, KKR 25 no new data, bifurcation even more uncertain legacy_paper.md §3.29, L43-45 added v2.7.37 for new extreme observation tests (TDGs, JWST z>4, Crater II, Antlia 2, UFDs) §3.30, L46-48 added v2.7.38 for 6 new testable galaxies (consensus data only), L49 added v2.7.41 for SIDC pass criterion being qualitative). L32 removed v2.7, L34 added v2.7.4 for $E_{\rm primordial}$, L35 added v2.7.4 for $z_{\rm half}$, L36 added v2.7.4 for $E_{\rm crit}$ REVERTED, L20 reverted v2.7.1, L9_ext DISCARDED v2.7.20, A_event parameter acknowledged v2.7.16, with specific closure criteria.
-- **2-3 active free parameters** in the v2.4 tensor framework: $G_5$ (5D Newton's constant), $\alpha$ (SIDC coupling), and $\tau_{2D}$ (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., $f_{back} = 1$ from $J^A_{bulk} = 0$ BC) or *bounded* (e.g., $c \in \mathbb{Z}{}_{\geq 1}$, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 ( $\mu$, b, $\alpha$, z_0) to 2 ( $\mu$, $m_{3+1D}$)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
+- **2-3 active free parameters** in the v2.4 tensor framework: $G_5$ (5D Newton's constant), $\alpha$ (SIDC coupling), and $\tau_{2D}$ (2D universe lifetime, dimensional postulate). All other free parameters from earlier versions have been either *derived* (e.g., $f_{back} = 1$ from $J^A_{bulk} = 0$ BC) or *bounded* (e.g., $c \in \mathbb{Z}_{\geq 1}$, default 1). **v2.7.3 web-research constraints further reduce the 2D CFT free parameters from 4 ( $\mu$, b, $\alpha$, z_0) to 2 ( $\mu$, $m_{3+1D}$)** — see §8.1.1 for the parameter-reducing constraints and Limitation 26.
 - **Coordinate-invariant stress-energy tensor** $T_{\mu\nu}^{eff}$ explicitly constructed in §4.44 with 5 verification checks all passing.
 
 **Specific call-to-action: theoretical physicists.** The following items are *concrete, well-defined research problems* that would each constitute a publishable contribution:

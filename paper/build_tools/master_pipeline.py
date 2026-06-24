@@ -7,7 +7,7 @@ the LaTeX build for the SIDC paper.
 
 SAFE SCRIPTS (used):
   - fix_math_spacing.py   (adds/cleans space around $)
-  - wrap_unicode_powers.py (handles 10⁻⁴⁵ unicode patterns)
+  - wrap_unicode_powers.py (handles 10-45 unicode patterns)
 
 SOURCE FIXES (in-script):
   - fix_broken_wraps      (revert bad wrap_math_vars.py outputs)
@@ -73,11 +73,15 @@ def step_fix_broken_wraps(dry_run=False):
         # General: $X = $Y$ -> $X = Y$ (any var X and Y, with { } allowed)
         (r'\$([A-Za-z0-9_\\\\\{\}\.]+) = \$([A-Za-z0-9_\\\\\{\}]+)\$',
          r'$\1 = \2$'),
-        # \mathbb{Z}2 (no underscore) -> \mathbb{Z}{}_2 (use {} separator to
-        # prevent markdown from interpreting _2 as emphasis in some renderers)
+        # \mathbb{Z}2 (no underscore) -> \mathbb{Z}_{2} (curly braces around digit
+        # prevents markdown from interpreting _2 as italic emphasis)
         (r'\\mathbb\{Z\}([0-9])',
-         r'\\mathbb{Z}{}_\1'),
-    ]
+         r'\\mathbb{Z}_{\1}'),
+        # \mathbb{Z}{}_{\ge 1 (and similar) -> \mathbb{Z}_{\ge 1.
+        # Empty {} separator is also prone to GFM italic parsing in some renderers.
+        (r'\\mathbb\{Z\}\{\}_',
+         r'\\mathbb{Z}_'),
+    ]  
 
     for fname in os.listdir(MARKDOWN_DIR):
         if not fname.endswith('.md'):
@@ -95,7 +99,7 @@ def step_fix_broken_wraps(dry_run=False):
             with open(fp, 'w') as f:
                 f.write(new_content)
 
-    # Also process README.md (the markdown-only $\mathbb{Z}_2$ -> $\mathbb{Z}{}_2$
+    # Also process README.md (the markdown-only $\mathbb{Z}_2$ -> $\mathbb{Z}_{2}$
     # fix prevents GitHub from rendering _2 as italic emphasis)
     readme_path = os.path.join(WORKSPACE, 'README.md')
     if os.path.exists(readme_path):
@@ -106,8 +110,8 @@ def step_fix_broken_wraps(dry_run=False):
         # since it has different syntax)
         readme_patterns = [
             (r'\\mathbb\{Z\}([0-9])',
-             r'\\mathbb{Z}{}_\1'),
-        ]
+             r'\\mathbb{Z}_{\1}'),
+        ] 
         for pattern, repl in readme_patterns:
             new_content, n = re.subn(pattern, repl, new_content)
             if n > 0:

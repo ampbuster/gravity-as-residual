@@ -789,7 +789,7 @@ $$T_{\mu\nu}^{eff} = T_{\mu\nu}^{SM} + \frac{\kappa_5^4}{8\pi G_4} S_{\mu\nu} + 
 
 with the four v2.4 modifications:
 1. Bulk BC: $J^A_{bulk}|_{brane} = 0$
-2. Central charge: $c \in \mathbb{Z}{}_{\ge 1}$ (default $c=1$)
+2. Central charge: $c \in \mathbb{Z}_{\ge 1}$ (default $c=1$)
 3. Fossil localization: Gaussian instanton $g(\tau)$ (not $\delta$)
 4. 5/27 invariant: $V_5/(A_4 R_{AdS₅}) = 27/5$
 

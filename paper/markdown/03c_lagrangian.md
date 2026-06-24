@@ -2286,4 +2286,4 @@ L308ba-bj, bi improvements pushed the score from 93% → 96% via:
 - Option B Strengthened (L308bi) → all N values first-principles
 - DOF conservation (L308bc) → 12 = 6 = 3 structure
 
-Remaining 4% is genuine research (full path integral, 4D action specifics, bulk field theory connection) — not framework failures.
+Remaining 4% is genuine research (full path integral, 4D action specifics, bulk field theory connection) — not framework failures.$

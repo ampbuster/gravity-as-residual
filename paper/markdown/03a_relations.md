@@ -133,7 +133,7 @@ This identification provides a *concrete* information-theoretic interpretation o
 
 **3.8.3 Horava-Witten (1996) M-theory and SIDC as 11D → 4D → 2D stacking.**
 
-Horava-Witten [HW96] is 11D M-theory compactified on $S^1/\mathbb{Z}{}_2$ (orbifold), with two 10D branes at the orbifold fixed points. E8 gauge theory lives on each 10D brane, gravity propagates in the 11D bulk. SIDC's bulk-brane structure has a *natural* realization in HW:
+Horava-Witten [HW96] is 11D M-theory compactified on $S^1/\mathbb{Z}_{2}$ (orbifold), with two 10D branes at the orbifold fixed points. E8 gauge theory lives on each 10D brane, gravity propagates in the 11D bulk. SIDC's bulk-brane structure has a *natural* realization in HW:
 
 - **SIDC's 3+1D us** = 10D HW brane with 6D Calabi-Yau compactification (standard string phenomenology, gives N=1 SUSY, E6 → Standard Model gauge group, chiral fermions, etc.)
 - **SIDC's 2D children** = D1-branes (1+1D branes in string theory) nucleated on the 4D effective brane by energetic events
