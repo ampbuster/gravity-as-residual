@@ -592,7 +592,7 @@ This document contains the cascade's full version history.
    - 0 `\text{}` patterns
    - 0 `\mathcal{}` patterns
    - 0 thin spaces `\,`
-   - 4288 $ signs (all proper LaTeX math)
+   - 4288 \$ signs (all proper LaTeX math)
    - 1 remaining `\left` (handled safely)
 
 7. **Why this is the cleanest approach**:
@@ -628,7 +628,7 @@ This document contains the cascade's full version history.
 
 5. **Counts**:
    - 289 pages (was 287 in v3.0.4, back to v3.0.3 count)
-   - 4288 $ signs in entire .md (back to v3.0.3 level)
+   - 4288 \$ signs in entire .md (back to v3.0.3 level)
    - 0 `\text{}` in §4+ (the breaking pattern, removed)
    - All math properly typeset in LaTeX
 
@@ -675,9 +675,9 @@ This document contains the cascade's full version history.
 
 5. **Counts**:
    - 287 pages (was 289, -2)
-   - 0 $ signs in §4+ region
+   - 0 \$ signs in §4+ region
    - 0 LaTeX commands in §4+ region
-   - The 1640 remaining $ signs are all in §1-§3 (which the user
+   - The 1640 remaining \$ signs are all in §1-§3 (which the user
      confirmed render fine)
 
 6. **Verification**:
@@ -707,7 +707,7 @@ This document contains the cascade's full version history.
    - 2 '≫' (much greater than) → '>>'
    - All ✓/✗ symbols were appearing as 'Unable to render' in the PDF
 
-3. **Fixed 2 unbalanced $ signs** (lines 8497-8498 in commands)
+3. **Fixed 2 unbalanced \$ signs** (lines 8497-8498 in commands)
 
 4. **Added "Main Points (TL;DR)" section at the top of the paper**:
    - What is the cascade?
@@ -728,7 +728,7 @@ This document contains the cascade's full version history.
    - 289 pages (was 300, -11)
    - 85 honest limitations preserved
    - 0 missing characters in PDF (was 362)
-   - 0 unbalanced $ signs (was 2)
+   - 0 unbalanced \$ signs (was 2)
 
 **Earlier v3.0.2 entry (unchanged):**
 
@@ -1313,8 +1313,8 @@ multiple cascade parameters that were previously calibrated.
 
 6. **Why this works**:
    - Formula has τ_event and $E_{\rm event}$, related by energy-scaling rule
-   - Combined event-dependence: $f_{\rm back}$ ∝ E^$(α - 1/(2α))
-   - Multiplying by (E/E_{\rm SN})^{-(α-1/(2α}$)) cancels the event-dependence
+   - Combined event-dependence: $f_{\rm back} \propto E^{(\alpha - 1/(2\alpha))}$
+   - Multiplying by $\left(E/E_{\rm SN}\right)^{-(\alpha-1/(2\alpha))}$ cancels the event-dependence
    - Result: universal constant
 
 7. **Implications**:
@@ -3693,7 +3693,7 @@ Where:
 
 $$g₊ = k \int_{t_{form}}^{t_0} \dot{n}(t) \cdot E_{event} \cdot \frac{\tau_{2D}}{L_{2D}} \, dt$$
 
-This is the cascade's first-principles formula for $g_+$, which is essentially Gemini's scaling relation: g₊ ∝ ∫ ρ_events/M_b$ dt.
+This is the cascade's first-principles formula for $g_+$, which is essentially Gemini's scaling relation: g₊ ∝ \int \rho_{\rm events}/M_b \, dt.
 
 **CLUSTER g₊ ENHANCEMENT (Tian+ 2024) NOW EXPLAINED as a natural consequence.** A BCG sits at the bottom of a cluster's potential well and sees not just its own stellar history but the entire cluster's ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure). Cluster event rate ~ 100× BCG's own, cluster events ~ 10× more energetic, ~ 10× larger. Net enhancement ~ 100×, in the right ballpark for Tian+ 2024's 10-17×.
 

@@ -426,7 +426,7 @@ So **SKA-MPG could distinguish α = 1.20 from α = 1.40** (the difference is 0.2
 
 **Falsification tolerance.** What range of α is consistent with α = 1.29?
 
-| | Δ α| from 1.29 | Verdict |
+| abs(Δα) from 1.29 | Verdict |
 |--------------|---------|
 | ±0.05 | **Consistent** (4% deviation, factor 3 prediction difference) |
 | ±0.10 | **Marginal** (10% deviation, factor 10 prediction difference) |
