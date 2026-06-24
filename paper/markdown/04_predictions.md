@@ -98,7 +98,7 @@ For a Milky Way-like galaxy (v_circ ~ 250-380 km/s), the inner galaxy (r < 5 kpc
 
 *Parameter search (commit 107, v2.2.1).* Per the question of whether SIDC's RAR can be fit better with different parameter choices, I performed a trial-and-error grid search over $f_{active}$ and $N_{crit}$ (in `calculations/rar_parameter_fit.py`). The best-fit parameters (minimizing log-error to the empirical targets: MW $g_{\rm obs}$/ $g_{\rm bar}$=2.5/ $g_+$= 1.2 × 10⁻¹⁰, EDGE 2025 dwarf 20/ 1.5 × 10⁻¹⁰, Tian 2024 cluster 50/17× galaxy) are:
 
-  $f_{\rm active}$ = 0.08, N_crit = 25 (log_err = 0.76)
+  $f_{\rm active}$ = 0.08, $N_{\rm crit}$ = 25 (log_err = 0.76)
 
 With these parameters:
   - MW: $g_{\rm obs}$/ $g_{\rm bar}$ = 2.9, $g_+$ = 4.3 × 10⁻¹⁰ (16% off)
@@ -109,14 +109,14 @@ With these parameters:
 - Galaxy scale: the model matches within 16% (good).
 - Dwarf and cluster scales: the model is off by 50-90% (poor).
 - The model captures the *qualitative* trend (galaxy scale matches) but the *quantitative* mass-dependence is wrong by 50-90%.
-- This is consistent with the recent RAR papers (EDGE 2025, Tian 2024) showing the RAR is NOT perfectly universal. SIDC's parameters are also partially degenerate — multiple ( $f_{\rm active}$, N_crit) combinations give similar fits.
-- A specific implementation would need additional physics (e.g., feedback-driven modifications to kappa, baryonic effects on mixing, or environment-dependent N_crit) to match the full mass spectrum.
+- This is consistent with the recent RAR papers (EDGE 2025, Tian 2024) showing the RAR is NOT perfectly universal. SIDC's parameters are also partially degenerate — multiple ( $f_{\rm active}$, $N_{\rm crit}$) combinations give similar fits.
+- A specific implementation would need additional physics (e.g., feedback-driven modifications to kappa, baryonic effects on mixing, or environment-dependent $N_{\rm crit}$) to match the full mass spectrum.
 
 *Inner-galaxy over-prediction (commits 109-110, v2.2.1).* I tried several model variations to fit the empirical RAR better (in `calculations/rar_*.py`):
 - Power-law cumulative profile (different α): no improvement
 - Scale-dependent $f_{\rm active}$ (varies with mass): cluster prediction became too low
-- Mass-dependent $g_+$ ( $g_+$ scales as M^p): search converged to p=0
-- Core+isothermal cumulative: best at r_core=10% of R_halo, but mass-dependence still wrong
+- Mass-dependent $g_+$ ( $g_+$ scales as $M^p$): search converged to p=0
+- Core+isothermal cumulative: best at r_core=10% of $R_{\rm halo}$, but mass-dependence still wrong
 - Spread-out active contribution: no improvement
 - Direct $g_{\rm obs}$( $g_{\rm bar}$) curve comparison (commits 109-110): **SIDC's MW actually matches the cluster RAR ( $g_+$=17x) much better than the galaxy RAR ( $g_+$=1x)** — diff_17x ranges from -0.32 to 0.74, vs diff_cascade from 0.77 to 5.75. This is a tension: SIDC's MW model is in the 'cluster' regime of the RAR parameter space, but empirically it's in the 'galaxy' regime.
 
@@ -248,15 +248,15 @@ This is now SIDC's best candidate RAR model: small $f_{active}$ (5%), isothermal
 
 | Object | r (kpc) | N_orbits | f_mix | $g_{\rm obs}$/ $g_{\rm bar}$ | Effective $g_+$ |
 | --- | --- | --- | --- | --- | --- |
-| Milky Way (2 R_d) | 8 kpc | 130 | 1.00 | 6.4 | 2.7 × 10⁻⁹ m/s² |
-| Dwarf (2 R_d) | 2 kpc | 39 | 0.98 | 40 | 3.3 × 10⁻¹⁰ m/s² |
-| Cluster (2 R_d) | 60 kpc | 73 | 1.00 | 33 | 2.4 × 10⁻⁸ m/s² |
+| Milky Way (2 $R_d$) | 8 kpc | 130 | 1.00 | 6.4 | 2.7 × 10⁻⁹ m/s² |
+| Dwarf (2 $R_d$) | 2 kpc | 39 | 0.98 | 40 | 3.3 × 10⁻¹⁰ m/s² |
+| Cluster (2 $R_d$) | 60 kpc | 73 | 1.00 | 33 | 2.4 × 10⁻⁸ m/s² |
 
 *Honest assessment of the full dynamical-mixing model:*
 - The mixing-fraction formalism is correct: the cumulative return is *naturally* between fully clustered and fully uniform, with the mixing fraction depending on radius and halo mass.
 - However, the *amplitude* of the model's prediction for g₊ at galaxy and cluster scales is now *too large* (the model over-predicts $g_{\rm obs}$/ $g_{\rm bar}$ by ~2-3x for MW, dwarfs, and clusters compared to the empirical RAR).
 - The *direction* of the mass dependence is right: cluster $g_+$ > galaxy $g_+$ > dwarf $g_+$, consistent with the empirical trend (Tian+ 2024 finds cluster $g_+$ is 17x galaxy $g_+$).
-- The model is *qualitatively correct* (the spatial distribution is right) but *quantitatively off* by a factor of a few at each scale. A specific implementation would need to also adjust the active/cumulative split, the kappa factor, or the N_crit parameter to match the data.
+- The model is *qualitatively correct* (the spatial distribution is right) but *quantitatively off* by a factor of a few at each scale. A specific implementation would need to also adjust the active/cumulative split, the kappa factor, or the $N_{\rm crit}$ parameter to match the data.
 
 This dynamical-mixing naturally gives the *intermediate* spatial distribution needed to match the data:
 
@@ -602,7 +602,7 @@ SIDC's phase-transition principle (§2.5, §4.8) makes a clean *negative* predic
 
 SIDC prediction: ** $M_{dyn}$ / $M_{\rm stellar}$ ~ 1-3** (consistent with a pure old, metal-poor stellar population and no DM halo contribution). If SIDC is wrong — if DM is a particle that is *not* related to energetic events — then GCs might or might not have DM (depending on whether GCs are surrounded by DM sub-halos from cosmological structure formation).
 
-*Test method.* I cross-matched the Harris 1996 catalog (146 GCs with V-band magnitudes and Galactocentric distances) with the Usher+ 2013 catalog (143 GCs with measured velocity dispersions from integrated-light spectra), obtaining 111 GCs with both. For each GC, I computed the *dynamical mass* via the Wolf+ 2010 estimator: $M_{\rm dyn} = 4.5 \sigma^2 r_h / G$, with the half-light radius rₕ set to 3.5 pc (the median value from Baumgardt+ 2019). I computed the *stellar mass* from the V-band luminosity using $M_{\rm stellar} = 2.0   L_V$ (typical M/L_V for old metal-poor GCs). The *ratio* M_{\rm dyn} / M_{\rm stellar}$ is a direct DM indicator: values near 1-2 mean no DM, values >3 mean significant DM excess. See `calculations/globular_cluster_dm_test.py` for the full calculation.
+*Test method.* I cross-matched the Harris 1996 catalog (146 GCs with V-band magnitudes and Galactocentric distances) with the Usher+ 2013 catalog (143 GCs with measured velocity dispersions from integrated-light spectra), obtaining 111 GCs with both. For each GC, I computed the *dynamical mass* via the Wolf+ 2010 estimator: $M_{\rm dyn} = 4.5 \sigma^2 r_h / G$, with the half-light radius rₕ set to 3.5 pc (the median value from Baumgardt+ 2019). I computed the *stellar mass* from the V-band luminosity using $M_{\rm stellar} = 2.0   L_V$ (typical M/$L_V$ for old metal-poor GCs). The *ratio* M_{\rm dyn} / M_{\rm stellar}$ is a direct DM indicator: values near 1-2 mean no DM, values >3 mean significant DM excess. See `calculations/globular_cluster_dm_test.py` for the full calculation.
 
 *Result.* The median $M_{\rm dyn} / M_{\rm stellar}$ across the 111 GCs is **1.22** (16-84 percentile: 0.37 - 5.00). **73% of GCs have $M_{dyn}$/ $M_{\rm stellar}$ < 3** (within the pure-stellar range), and 89% have M/L < 10. The 11% of GCs with $M_{dyn}$/ $M_{\rm stellar}$ > 10 are mostly small/faint GCs (M_V > -5) with large fractional uncertainties in their measured velocity dispersions, unresolved binary contamination, and individual rₕ that may be larger than the median 3.5 pc assumed here. The trend with Galactocentric distance is *opposite* to the DM-halo expectation: GCs in the inner Galaxy (R_gc < 3 kpc) have *higher* $M_{dyn}$/ $M_{\rm stellar}$ (median 3.25) than GCs in the outer halo (R_gc > 15 kpc, median 0.37). This is consistent with central GCs having larger rₕ (which scales with Galactocentric distance for tidally-limited clusters, see Harris 1996), not with a DM halo contribution (which would be larger for inner-halo GCs).
 
@@ -617,7 +617,7 @@ Even at the *most extreme* rₕ = 7 pc (larger than any known GC), the median $M
 
 *Verdict.* **[PASS]** **CONSISTENT with SIDC**. The 111 GCs in our cross-matched sample have $M_{dyn}$/ $M_{\rm stellar}$ ratios consistent with a pure old, metal-poor stellar population, *with no significant dark matter halo contribution*. This is a clean null-test *pass* for SIDC's prediction that old stellar systems without high-energy events do not accumulate DM.
 
-*Caveats.* (a) The assumed rₕ = 3.5 pc is a single value for all GCs; individual rₕ measurements (from HST imaging, available for ~80 GCs) would tighten the test by a factor of ~2. (b) The assumed M/ L_V =2 is the median for old metal-poor GCs; the real range is 1.5-2.5, which propagates to a factor of ~1.5 uncertainty in the $M_{dyn}$/ $M_{\rm stellar}$ ratio. (c) Unresolved binary stars can inflate the measured σ by 10-30% in some GCs, biasing $M_{dyn}$ high. (d) The Wolf+ 2010 mass estimator assumes a spherical, isotropic system; some GCs may have anisotropy. (e) The test is *qualitative* (presence/absence of DM) rather than *quantitative* (DM density profile). All caveats push in the same direction: with more precise rₕ and accounting for binaries, the $M_{dyn}$/ $M_{\rm stellar}$ ratio would *decrease*, not increase, making SIDC's prediction even more clearly satisfied.
+*Caveats.* (a) The assumed rₕ = 3.5 pc is a single value for all GCs; individual rₕ measurements (from HST imaging, available for ~80 GCs) would tighten the test by a factor of ~2. (b) The assumed M/ $L_V$ =2 is the median for old metal-poor GCs; the real range is 1.5-2.5, which propagates to a factor of ~1.5 uncertainty in the $M_{dyn}$/ $M_{\rm stellar}$ ratio. (c) Unresolved binary stars can inflate the measured σ by 10-30% in some GCs, biasing $M_{dyn}$ high. (d) The Wolf+ 2010 mass estimator assumes a spherical, isotropic system; some GCs may have anisotropy. (e) The test is *qualitative* (presence/absence of DM) rather than *quantitative* (DM density profile). All caveats push in the same direction: with more precise rₕ and accounting for binaries, the $M_{dyn}$/ $M_{\rm stellar}$ ratio would *decrease*, not increase, making SIDC's prediction even more clearly satisfied.
 
 *Implications for SIDC.* This is a *new* prediction test that doesn't appear elsewhere in SIDC's empirical work (§4.1-§4.17 all use galactic or cluster scales, not individual old stellar systems). The GCs provide the cleanest null-test in SIDC's empirical basis: they are old, small, and DM-free, as predicted. SIDC's framework naturally explains this: no high-energy events → no 2D universe creation → no cumulative DM return. A $\Lambda{\rm CDM}$ particle-DM model, by contrast, would need to explain why GCs *don't* retain their cosmological DM sub-halos (the "GC survival" problem in $\Lambda{\rm CDM}$ simulations; e.g., Contenta+ 2018 reports $M_{dyn}$/ $M_{\rm stellar}$ > 2 for some GCs, while others have values consistent with no DM). SIDC's *deterministic* prediction (no events → no DM) is a sharper test than the *statistical* prediction of $\Lambda{\rm CDM}$ sub-halo survival.
 
@@ -722,7 +722,7 @@ This section lists SIDC's most specific, testable predictions, the corresponding
 #### Tier 3: Both models predict similar results (NOT discriminative)
 
 **8. Baryonic Tully-Fisher slope and zero-point.**
-- Both SIDC and $\Lambda{\rm CDM}$ predict M_{b} ∝ v^4. Same prediction. NOT a test.
+- Both SIDC and $\Lambda{\rm CDM}$ predict M_{b} ∝ $v^4$. Same prediction. NOT a test.
 
 **9. RAR scatter at fixed $g_{\rm bar}$.**
 - Both predict small scatter (~0.1-0.2 dex). Data: ~0.13 dex. NOT a clear test.
@@ -871,9 +871,9 @@ The "Too-Big-To-Fail" (TBTF) problem (Boylan-Kolchin+ 2011, 2012) is a related $
 
 *SIDC prediction:* No sub-halos → no TBTF problem. The MW's brightest satellites ARE the most massive sub-halos (because no sub-halos exist).
 
-*Standard $\Lambda{\rm CDM}$ prediction:* ~10 most massive sub-halos in MW-like halos have v_max > 25 km/s. These should host galaxies as bright as Fornax or Leo I. But observed: Fornax (v_max ~ 18 km/s), Leo I (~ 17 km/s), Sculptor (~ 12 km/s) — all BELOW the predicted v_max by factor 3-5.
+*Standard $\Lambda{\rm CDM}$ prediction:* ~10 most massive sub-halos in MW-like halos have $v_{\rm max}$ > 25 km/s. These should host galaxies as bright as Fornax or Leo I. But observed: Fornax ($v_{\rm max}$ ~ 18 km/s), Leo I (~ 17 km/s), Sculptor (~ 12 km/s) — all BELOW the predicted $v_{\rm max}$ by factor 3-5.
 
-*Published data (Boylan-Kolchin+ 2011, 2012, Aquarius simulations):* ~10 sub-halos with v_max > 25 km/s in MW-mass halos. The MW's brightest satellites have lower v_max than predicted.
+*Published data (Boylan-Kolchin+ 2011, 2012, Aquarius simulations):* ~10 sub-halos with $v_{\rm max}$ > 25 km/s in MW-mass halos. The MW's brightest satellites have lower $v_{\rm max}$ than predicted.
 
 *Verdict.* **[PASS]** **CONSISTENT with SIDC** (no TBTF problem). SIDC naturally avoids TBTF because it has no particle DM and no sub-halos.
 
@@ -889,12 +889,12 @@ This test computes the $M_{dyn}$- M_⋆ relation for 10 MW dSphs using the Wolf+
 - sigma: Walker+ 2007 (J/ApJ/649/201)
 - rₕ: McConnachie 2012 (J/AJ/144/4)
 - M_V: McConnachie 2012
-- M/ L_V =2 (conservative)
-- Mass estimator: M_1/2 = 4.5 sigma^2 r_1/2 / G (Wolf+ 2010, with r_1/2 = (4/3) rₕ)
+- M/ $L_V$ =2 (conservative)
+- Mass estimator: M_1/2 = 4.5 $sigma^2$ r_1/2 / G (Wolf+ 2010, with r_1/2 = (4/3) rₕ)
 
 *Sample (10 MW dSphs):* Draco, UMi, Sculptor, Sextans, Carina, Fornax, Leo I, Leo II, Sgr, CVn I.
 
-*Results (M/ L_V =2):*
+*Results (M/ $L_V$ =2):*
 - $M_{dyn}$- M_⋆ slope (log-log): 0.37
 - Expected (NFW abundance matching): 0.3-0.5
 - Median $M_{dyn}$/ M_⋆: 15.4
@@ -902,7 +902,7 @@ This test computes the $M_{dyn}$- M_⋆ relation for 10 MW dSphs using the Wolf+
 
 *Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$. **NOT a discriminative test** — both models predict the same $M_{dyn}$- M_⋆ relation. SIDC and $\Lambda{\rm CDM}$ differ in MECHANISM (cumulative 2D universe gravity vs NFW halo), not the relation itself. This is similar to the halo M/M* vs z test (Test 6) in being consistent but not discriminative.
 
-*Caveats.* (a) M/ L_V is uncertain (1-5 for dSphs depending on SFH and metallicity). (b) The relation is structural, not specific to SIDC. (c) The key point is the slope (0.37), not absolute values.
+*Caveats.* (a) M/ $L_V$ is uncertain (1-5 for dSphs depending on SFH and metallicity). (b) The relation is structural, not specific to SIDC. (c) The key point is the slope (0.37), not absolute values.
 
 See `calculations/dsph_sigma_test.py` for the full analysis.
 
@@ -922,7 +922,7 @@ The Mass Discrepancy-Acceleration Relation (MDAR) for dSphs complements the SPAR
 
 *Verdict.* **[PASS]** **CONSISTENT with SIDC-MOND hybrid.** SIDC's framework + MOND's interpolation matches the dSph MDAR to within factor ~2. This complements the SPARC RAR test at the dSph regime.
 
-*Caveats.* (a) M/ L_V uncertainty propagates to $g_{\rm bar}$ uncertainty. (b) dSphs are COMPLEX systems (tidal stripping, baryonic effects). (c) The MOND interpolation is SIDC's "modified gravity" layer, not derived from SIDC's pure 2D universe picture.
+*Caveats.* (a) M/ $L_V$ uncertainty propagates to $g_{\rm bar}$ uncertainty. (b) dSphs are COMPLEX systems (tidal stripping, baryonic effects). (c) The MOND interpolation is SIDC's "modified gravity" layer, not derived from SIDC's pure 2D universe picture.
 
 See `calculations/mdar_dwarf_test.py` for the full analysis.
 

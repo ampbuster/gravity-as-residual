@@ -15,7 +15,7 @@ In v3.4, the framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory
 1. Real, well-developed theory (Vafa 1996)
 2. "12" is structural to F-theory (10+2 = 12, not arbitrary)
 3. Compactifies to 4D N=1 SUSY (matches framework)
-4. Provides GUT models (SU(5), SO(10), E_6)
+4. Provides GUT models (SU(5), SO(10), $E_6$)
 5. Geometric origin for SL(2,Z) symmetry
 
 ## The Cascade with F-theory 12D
@@ -103,7 +103,7 @@ The v3.4 "DOF conservation at 24" was the framework's INTERPRETATION.
 1. ✓ **Structural reason for 12 in 4D**: 10 base + 2 fiber = 12
 2. ✓ **Real theory**: Vafa 1996, well-developed
 3. ✓ **Compactifies to 4D N=1 SUSY** (matches framework)
-4. ✓ **Provides GUT models**: SU(5), SO(10), E_6
+4. ✓ **Provides GUT models**: SU(5), SO(10), $E_6$
 5. ✓ **3 generations from CY3 topology**: χ = ±6 → 3 generations (standard F-theory)
 6. ✓ **12 gauge bosons in SM**: from SU(3) × SU(2) × U(1)
 7. ✓ **12 fermion FLAVORS in SM**: 4 Dirac × 3 generations
@@ -148,7 +148,7 @@ Even with F-theory 12D, the framework has:
   - 3D: SM gauge bosons (12) and fermion FLAVORS (12 across 3 gens)
   - 4D: F-theory spacetime dimension (12D)
 - α = 1.289 matches 1 + 1/√12 (phenomenological, not derived)
-- 3 generations from χ=±6 CY3 + E_6 standard embedding
+- 3 generations from χ=±6 CY3 + $E_6$ standard embedding
 
 **What the framework DOES NOT claim**:
 - "12" is derived from first principles

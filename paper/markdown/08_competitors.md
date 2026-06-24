@@ -274,7 +274,7 @@ A defining feature of SIDC after v3.5.9+ A2 is that the framework's structural n
 
 **What this means for competitors:**
 - ΛCDM: $\Omega_{\rm c}$, Ω_Λ, $N_{\rm eff}$, A_s, n_s, $\tau_{\rm reio}$, etc. are all FREE parameters (~6)
-- MOND: a_0 is the single free parameter
+- MOND: $a_0$ is the single free parameter
 - Quintessence: V(φ) is a free function
 - SGC: requires fundamental strings (unobserved)
 - HDE: IR cutoff choice is free

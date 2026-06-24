@@ -35,8 +35,8 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
 | Current mass ( $M_{dyn}$) | $7 \times 10^{5} M_\odot$ | $\sigma_{\rm v}$ = 11.7 km/s |
 | Half-mass radius | 6.0 pc | literature |
 | Velocity dispersion | 11.7 km/s | literature |
-| M/ L_V (observed) | ~1.7 | literature |
-| M/ L_V (predicted, 12 Gyr, [Fe/H] = −0.78) | ~1.7 | PARSEC isochrones |
+| M/ $L_V$ (observed) | ~1.7 | literature |
+| M/ $L_V$ (predicted, 12 Gyr, [Fe/H] = −0.78) | ~1.7 | PARSEC isochrones |
 | Age | 12 Gyr | literature |
 | Central BH upper limit | 578 $M_\odot$ ( 3σ) | Della Croce+ 2024, A&A |
 | Tidal tails | 5 known | Shipp+ 2021, Ibata+ 2024, Boldrini+ 2024 |
@@ -46,18 +46,18 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
 1. **Current 2D universe creation rate:** essentially **ZERO** in 47 Tuc. No current SN. The most energetic current events are ms-pulsar giant flares ( ∼ 10⁴⁰ J, ∼ 10⁻³ /yr, $\tau_{2D} \sim 230$ μs) and recurrent novae ( ∼ 10³⁹ J, ∼ 10⁻³ /yr, $\tau_{2D} \sim 11$ μs). All of these are microsecond-scale 2D universes that die essentially instantly and contribute negligible DM.
 
 2. **Cumulative 2D universe contribution over 12 Gyr:** at formation, 47 Tuc had ∼ 10⁴ O/B stars, each producing a SN at ∼ 10⁴⁴ J. Total SN energy ∼ 10⁴⁸ J. With SIDC's $f_{\rm back} \sim 10^{-85}$, the resulting DM contribution is:
-   - E_DM = 10⁴⁸ × 10⁻⁸⁵ = 10⁻³⁷ J = ** $5.6 \times 10^{-85} M_\odot$**
+   - $E_{\rm DM}$ = 10⁴⁸ × 10⁻⁸⁵ = 10⁻³⁷ J = ** $5.6 \times 10^{-85} M_\odot$**
    - **Completely negligible.** The SN energy that did become 2D universe mass contributes essentially zero to 47 Tuc's local DM.
 
 3. **Density comparison (47 Tuc vs Galaxy's halo DM):**
-   - Galaxy's NFW DM density at 7.4 kpc Galactocentric: **$\rho_{\rm DM,galaxy} \approx 0.061$ GeV/{\rm cm}^3** (with $\rho_s = 0.32$ GeV/cm$^3$, r_s = 21.5 kpc)
+   - Galaxy's NFW DM density at 7.4 kpc Galactocentric: **$\rho_{\rm DM,galaxy} \approx 0.061$ GeV/{\rm cm}^3** (with $\rho_s = 0.32$ GeV/cm$^3$, $r_s$ = 21.5 kpc)
    - 47 Tuc's *central* density (within r_core = 0.5 pc): ** $\rho_{\rm core} \approx$ 7.3 GeV/ ${\rm cm}^3$** — ∼ 120 × the Galaxy's local DM
    - 47 Tuc's *average* density (within rₕ = 6 pc): ** $\rho_{\rm avg} \approx 0.029$ GeV/ ${\rm cm}^3$** — ½× the Galaxy's local DM
    - **47 Tuc is a dense stellar system embedded in a sparse DM halo.** The Galaxy's DM halo *passes through* 47 Tuc but is locally overwhelmed by 47 Tuc's baryonic concentration.
 
 4. **Mass budget:**$M_{dyn} \approx 7 \times 10^{5} M_\odot$; $M_{stars}$ (from CMD + IMF)$\approx 5.5 \times 10^{5} M_\odot$. The "missing" $1.5 \times 10^{5} M_\odot$ (21% of $M_{dyn}$) is **within the 20-30% uncertainty** of IMF, mass segregation, binary fraction, and velocity anisotropy. Consistent with **no local DM enhancement**.
 
-5. **Central BH (≤ 578 $M_\odot$):** the BH formation event ~12 Gyr ago released E_BH ∼ 10⁴⁹ J, creating a 2D universe with $\tau_{2D} \sim 3$ yr (energy-scaling rule). The 2D universe died long ago; energy was returned to 3+1D. With $f_{\rm back} \sim 10^{-85}$, the BH's DM contribution is ** $\sim 10^{-84} M_\odot$** — zero. The BH's gravitational influence on 47 Tuc is via standard GR (it acts as a point mass), not via 2D universe back-projection.
+5. **Central BH (≤ 578 $M_\odot$):** the BH formation event ~12 Gyr ago released $E_{\rm BH}$ ∼ 10⁴⁹ J, creating a 2D universe with $\tau_{2D} \sim 3$ yr (energy-scaling rule). The 2D universe died long ago; energy was returned to 3+1D. With $f_{\rm back} \sim 10^{-85}$, the BH's DM contribution is ** $\sim 10^{-84} M_\odot$** — zero. The BH's gravitational influence on 47 Tuc is via standard GR (it acts as a point mass), not via 2D universe back-projection.
 
 6. **Mass loss over 12 Gyr:** dM/dt from 2-body relaxation is $\sim 2 \times 10^{-6} M_\odot$/yr (negligible). Stellar evolution mass loss is ~30% of initial mass. Total: $\sim 3 \times 10^{5} M_\odot$ lost, leaving the observed $7 \times 10^{5} M_\odot$. The 5 known tidal tails (Shipp+ 2021, Ibata+ 2024, Boldrini+ 2024) contain ~0.5% of the cluster mass and are consistent with Galactic tidal stripping + 47 Tuc's complex orbit.
 

@@ -111,7 +111,7 @@ This is the standard interpolating function that smoothly transitions from Newto
 **MCMC result (this run):**
 - a₀ = 2.34 × 10⁻¹⁰ ± 1.54 × 10⁻¹⁰ m/s^2
 - sigma_int = 0.089 ± 0.040 dex
-- Reduced chi^2 ≈ 0 (model is "over-fit" given the wide error bars)
+- Reduced $chi^2$ ≈ 0 (model is "over-fit" given the wide error bars)
 
 **Literature comparison (Li+ 2018, arXiv:1803.00022):**
 - a₀ = 1.20 × 10⁻¹⁰ ± 0.02 m/s^2
@@ -176,7 +176,7 @@ This is the right question to ask. The CMB angular power spectrum has multiple a
 
 | Peak | ℓ | What it measures | ΛCDM | SIDC pre-L308ab | SIDC post-L308ab |
 |---|---|---|---|---|---|
-| **1st** | ~220 | Sound horizon r_s, total $\Omega_{\rm m}$ | ✓ | partial ($\Omega_{\rm b}$ alone wrong by 6.4×) | **✓ matches** |
+| **1st** | ~220 | Sound horizon $r_s$, total $\Omega_{\rm m}$ | ✓ | partial ($\Omega_{\rm b}$ alone wrong by 6.4×) | **✓ matches** |
 | **2nd** | ~540 | Baryon-to-photon ratio η | ✓ | ✓ (BBNS unchanged) | **✓ matches** |
 | **3rd** | ~810 | Matter-to-radiation, $\Omega_{\rm c}$ | ✓ | ✗ FAIL (no DM at z=1100) | **✓ matches** ($\Omega_{\rm c}$ = 0.265) |
 | **Silk damping** | ℓ > 1000 | DM-baryon coupling | ✓ | ✗ FAIL | **✓ matches** (collisionless DM) |

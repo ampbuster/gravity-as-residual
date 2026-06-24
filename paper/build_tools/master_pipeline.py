@@ -350,6 +350,61 @@ def step_fix_unicode_greek_subscripts(dry_run=False):
     return True
 
 
+def step_fix_letter_caret(dry_run=False):
+    """Wrap plain-text X^N or X^Y math expressions in $...$ math.
+
+    Problem: Plain text like `M^1.29`, `V^4`, `c^2`, `m^3` is not in
+    math mode. In LaTeX, `^` outside math mode is an error or renders
+    as plain `^`. We want these patterns to be wrapped in `$...$` for
+    proper math rendering.
+
+    Examples:
+      `M^1.29`           → `$M^{1.29}$`
+      `V^4`              → `$V^4$`
+      `V^3.5-4.0`        → `$V^{3.5-4.0}$`
+      `c^2`              → `$c^2$`
+      `m/s^2`            → `m/s$^2$`
+
+    Skips: code blocks, inline code, existing math mode, URLs, common
+    English words, and the 10^N pattern (handled by wrap_unicode_powers.py).
+    """
+    print('\n=== Step 8: fix_letter_caret ===')
+    if dry_run:
+        run_script('fix_letter_caret.py --all', capture=False)
+    else:
+        run_script('fix_letter_caret.py --all', capture=False)
+    return True
+
+
+def step_fix_physics_subscripts(dry_run=False):
+    """Wrap plain-text physics subscripts (H_0, M_b, sigma_int, etc.) in $...$ math.
+
+    Problem: Plain text like `H_0 = 73.04`, `M_* = 1e10`, `sigma_int = 0.089`
+    is not in math mode. In LaTeX, `_` outside math mode is an error or
+    renders as plain underscore. We want these patterns to be wrapped in
+    `$...$` for proper math rendering.
+
+    Handles common physics subscripts: H_0, M_b, M_*, M_dyn, M_gas, M_disk,
+    M_halo, T_H, T_0, T_*, E_2D, E_3D, E_4D, tau_2D, tau_3D, rho_0, rho_b,
+    Omega_b, v_H, v_esc, r_s, sigma_int, g_+, g_bar, t_eq, N_sub, ...
+
+    Examples:
+      `H_0 = 73.04`        → `$H_0 = 73.04$`
+      `sigma_int = 0.089`  → `$\\sigma_{\\rm int} = 0.089$`
+      `M_gas from MHI`     → `$M_{\\rm gas}$ from MHI`
+      `v_esc = sqrt(...)`  → `$v_{\\rm esc} = \\sqrt{...}$`
+      `tau_2D = 14.5 Gyr`  → `$\\tau_{\\rm 2D} = 14.5$ Gyr`
+
+    Skips: code blocks, inline code, existing math mode, URLs.
+    """
+    print('\n=== Step 9: fix_physics_subscripts ===')
+    if dry_run:
+        run_script('fix_physics_subscripts.py --all', capture=False)
+    else:
+        run_script('fix_physics_subscripts.py --all', capture=False)
+    return True
+
+
 STEPS = [
     'fix_broken_wraps',
     'fix_unbalanced_dollars',
@@ -361,6 +416,8 @@ STEPS = [
     'fix_math_spacing',  # Run AGAIN to clean up spacing
     'fix_dollar_letter_no_space',  # NEW: insert space after $ when followed by letter
     'fix_unicode_greek_subscripts',  # NEW: wrap Unicode Greek+subscript in $...$
+    'fix_letter_caret',  # NEW: wrap X^N or X^Y in $...$
+    'fix_physics_subscripts',  # NEW: wrap H_0, M_*, sigma_int, etc.
     'build_pdf',
     'audit',
 ]
@@ -385,6 +442,8 @@ def main():
         'wrap_math_vars': step_wrap_math_vars,
         'fix_dollar_letter_no_space': step_fix_dollar_letter_no_space,
         'fix_unicode_greek_subscripts': step_fix_unicode_greek_subscripts,
+        'fix_letter_caret': step_fix_letter_caret,
+        'fix_physics_subscripts': step_fix_physics_subscripts,
         'build_pdf': step_build_pdf,
         'audit': step_audit,
     }

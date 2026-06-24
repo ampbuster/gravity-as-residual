@@ -110,7 +110,7 @@ Despite these caveats, the prediction is **concrete, testable, and falsifiable**
 
 ### 10.9 Sensitivity analysis: how robust is the rule?
 
-A trial-and-error exploration reveals a striking sensitivity: SIDC's energy-scaling rule, with α ≈ 1.29 forced by the SN calibration, gives a 4D cosmological lifespan of 1.9 × 10²⁶ yr. But a 1% change in α gives a **60% change** in the predicted T_3D. The sensitivity table:
+A trial-and-error exploration reveals a striking sensitivity: SIDC's energy-scaling rule, with α ≈ 1.29 forced by the SN calibration, gives a 4D cosmological lifespan of 1.9 × 10²⁶ yr. But a 1% change in α gives a **60% change** in the predicted $T_{\rm 3D}$. The sensitivity table:
 
 | α | 4D cosm. lifespan (yr) | 3D's current age / total |
 |---|---|---|
@@ -124,7 +124,7 @@ The α = 1.29 prediction is the *single point* in this range. The rule is *very*
 
 **Other candidate exponents give wrong predictions at the SN point** (and are therefore excluded):
 
-| α | T_SN prediction (vs 33s actual) | 4D cosm. lifespan (yr) |
+| α | $T_{\rm SN}$ prediction (vs 33s actual) | 4D cosm. lifespan (yr) |
 |---|---|---|
 | 1.0 (linear) | 17 min (× 31 off) | 10¹⁹ yr |
 | 4/3 (Bondi) | 42 min (× 76 off) | 2 × 10²⁷ yr |
@@ -207,10 +207,10 @@ A follow-up analysis asks: if a *second* 2D universe lifetime data point were av
 
 **A 2-point fit (SN + hypothetical 2nd point) gives α = 1.29 only if the 2nd point matches the predicted lifetime.** A *different* 2nd point would force a different α, and the 4D cosmological lifespan would change accordingly:
 
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10³ s) [1000 s, way shorter than predicted]: $\alpha_{\rm refit}$ = 0.16, T_3D = 1.4 × 10⁻² yr (3D would have ended immediately)
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10⁶ s) [12 days, much shorter than predicted]: $\alpha_{\rm refit}$ = 0.50, T_3D = 2.9 × 10⁶ yr
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10¹³ s) [ 4.3 × 10⁵ yr, predicted value]: $\alpha_{\rm refit}$ = 1.29, T_3D = 1.9 × 10²⁶ yr
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10¹⁵ s) [ 3 × 10⁷ yr, much longer than predicted]: $\alpha_{\rm refit}$ = 1.74, T_3D = 3.4 × 10³⁷ yr
+- If 2nd point = ( 1 × 10⁵³ J, 1 × 10³ s) [1000 s, way shorter than predicted]: $\alpha_{\rm refit}$ = 0.16, $T_{\rm 3D}$ = 1.4 × 10⁻² yr (3D would have ended immediately)
+- If 2nd point = ( 1 × 10⁵³ J, 1 × 10⁶ s) [12 days, much shorter than predicted]: $\alpha_{\rm refit}$ = 0.50, $T_{\rm 3D}$ = 2.9 × 10⁶ yr
+- If 2nd point = ( 1 × 10⁵³ J, 1 × 10¹³ s) [ 4.3 × 10⁵ yr, predicted value]: $\alpha_{\rm refit}$ = 1.29, $T_{\rm 3D}$ = 1.9 × 10²⁶ yr
+- If 2nd point = ( 1 × 10⁵³ J, 1 × 10¹⁵ s) [ 3 × 10⁷ yr, much longer than predicted]: $\alpha_{\rm refit}$ = 1.74, $T_{\rm 3D}$ = 3.4 × 10³⁷ yr
 
 These are SIDC's **testable predictions**. A measurement of the 2D universe death GW burst at the predicted time after a BNS merger, AGN flare, or hypernova would directly test the α = 1.29 rule. If the measured lifetime matches the prediction, α is confirmed. If not, the rule needs revision.
 
@@ -256,7 +256,7 @@ The SN and Core-collapse SN death signals are in LISA's band ( 10⁻⁴ to 1 Hz)
 
 **Quantitative $\Omega_{\rm GW}$ estimate (Phinney 2001 / Maggiore 2000):**
 
-For bursts of energy E_GW at rate r_local per m^3 per s, each at frequency $f_{\rm obs}$ with lifetime $\tau_{2D}$, the spectral density at $f_{\rm obs}$ (delta function with bandwidth Δf ~ 1/ $\tau_{2D}$) is:
+For bursts of energy $E_{\rm GW}$ at rate $r_{\rm local}$ per $m^3$ per s, each at frequency $f_{\rm obs}$ with lifetime $\tau_{2D}$, the spectral density at $f_{\rm obs}$ (delta function with bandwidth Δf ~ 1/ $\tau_{2D}$) is:
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
@@ -340,11 +340,11 @@ This section quantifies whether SIDC's death GW background can be detected by LI
 - Frequency range: 10⁻⁴ to 1 Hz (best sensitivity at ~3 mHz)
 - Best strain sensitivity: h_c ∼ 4.5 × 10⁻²² at f ~ 4 mHz
 - Best Omega_GW noise: ∼ 2.8 × 10⁻¹² at f ~ 2.4 mHz
-- L_arm = 2.5 × 10⁹ m, laser noise S_x = ( 1.5 × 10⁻¹¹)², accel noise Sₐ = ( 3 × 10⁻¹⁵)²
+- L_arm = 2.5 × 10⁹ m, laser noise $S_x$ = ( 1.5 × 10⁻¹¹)², accel noise Sₐ = ( 3 × 10⁻¹⁵)²
 
 **Death GW background from SIDC (Phinney/Maggiore formula, narrowband model):**
 
-For a population of bursts at rate n_rate (per m³/s) with energy E_GW per burst and lifetime $\tau_{2D}$, each burst is a delta function with bandwidth Δf ~ 1/ $\tau_{2D}$. The spectral density at $f_{\rm obs}$ = 1/ $\tau_{2D}$ is:
+For a population of bursts at rate n_rate (per m³/s) with energy $E_{\rm GW}$ per burst and lifetime $\tau_{2D}$, each burst is a delta function with bandwidth Δf ~ 1/ $\tau_{2D}$. The spectral density at $f_{\rm obs}$ = 1/ $\tau_{2D}$ is:
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
@@ -410,7 +410,7 @@ SIDC's energy-scaling rule $\tau_{2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl}$ w
 
 A change of Δ α = 0.20 gives a **factor of 10-100x** change in $\tau_{2D}$ predictions. A change of Δ α = 0.05 gives a **factor of 3** change. SIDC's predictions are most sensitive to α in the BNS, AGN, and high-energy event range, where small α changes produce large $\tau_{2D}$ differences.
 
-**Precision required for future BNS/AGN GW detection.** The GW frequency from 2D universe death is f_GW = 1/ $\tau_{2D}$ ∝ E^(- α). Taking the derivative:
+**Precision required for future BNS/AGN GW detection.** The GW frequency from 2D universe death is $f_{\rm GW}$ = 1/ $\tau_{2D}$ ∝ E^(- α). Taking the derivative:
 
 $$\Delta\alpha = \frac{\Delta f_{GW}}{f_{GW} \cdot \log(E/E_{SN})}$$
 

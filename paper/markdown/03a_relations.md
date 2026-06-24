@@ -98,7 +98,7 @@ The CGHS model [CGHS92] is a 1+1-dimensional dilaton gravity theory that is *exa
 
 **Quantitative check.** SIDC's lifetime $\tau_{2D}$ = $(E/E_{\rm Pl})^{1.29}$ × $t_{\rm Pl}$, calibrated to τ(SN) = 33 s, predicts:
 - τ(LHC pp) = 3.5 × 10⁻⁶⁴ s for $E_{\rm pp}$ = 10⁻⁹ J
-- τ(BNS merger) = 4.3 × 10⁵ yr for E_BNS = 10⁴⁶ J
+- τ(BNS merger) = 4.3 × 10⁵ yr for $E_{\rm BNS}$ = 10⁴⁶ J
 - τ(AGN outburst) = 1.6 × 10⁸ yr for $E_{\rm AGN}$ = 10⁵² J
 
 CGHS original (p=3) gives τ(LHC pp) = 3.3 × $10^{-138}$ s (75 orders too short), and RST (p=1) gives τ(LHC pp) = 3.3 × 10⁻⁵⁴ s (9 orders too long). SIDC's α = 1.29 is *between* these extremes, which is consistent with a CGHS-like 2D black hole with *intermediate* back-reaction. A CGHS-with-back-reaction calculation that yields exactly α = 1.29 would be a *first-principles derivation* of SIDC's energy-scaling rule. This is a concrete, testable prediction for 2D quantum gravity experts (a working calculation, not a vague hope).
@@ -141,7 +141,7 @@ Horava-Witten [HW96] is 11D M-theory compactified on S¹/ℤ₂ (orbifold), with
 
 **What HW gives SIDC:**
 - A *concrete string-theoretic realization* of SIDC's bulk-brane structure (10D HW brane + 6D CY → 4D effective brane, with 2D children as D1-branes)
-- A specific *candidate* for SIDC's 2D universes: D1-branes with tension T_1 = M_s / ( 2π g_s)
+- A specific *candidate* for SIDC's 2D universes: D1-branes with tension $T_1$ = M_s / ( 2π $g_s$)
 - A *predictivity comparison*: HW has 10-100+ free parameters (CY moduli, fluxes, gauge bundle), SIDC has 1-2 ( α, $z_{\rm half}$). SIDC is *more predictive* than HW — the 16/17 test scorecard + 7/7 specific cases come from 1-2 free parameters, vs HW's 10-100+ parameters for the same data
 
 **What HW does NOT give SIDC:**
@@ -186,7 +186,7 @@ This is SIDC's status as of v2.7.30: a phenomenological model with 1-2 free para
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
-The RT formula [Ryu06] is the central tool of holographic entanglement entropy in AdS/CFT: S_A = Area( $\gamma_{\rm A}$) / (4 G_N), where $\gamma_{\rm A}$ is the minimal surface in the bulk that is homologous to the boundary region A. This formula has been proven in many contexts (Casini-Huerta-Myers 2011) and is the basis for the AdS/CFT connection between bulk geometry and boundary entanglement.
+The RT formula [Ryu06] is the central tool of holographic entanglement entropy in AdS/CFT: $S_A$ = Area( $\gamma_{\rm A}$) / (4 G_N), where $\gamma_{\rm A}$ is the minimal surface in the bulk that is homologous to the boundary region A. This formula has been proven in many contexts (Casini-Huerta-Myers 2011) and is the basis for the AdS/CFT connection between bulk geometry and boundary entanglement.
 
 **What RT gives SIDC:**
 - A *concrete* information-theoretic interpretation of SIDC DM as missing bulk entanglement entropy: 2D universe = bulk region with area A_2D = 4π(c $\tau_{2D}$)², and SIDC's 3+1D back-projection of 2D universe gravity is structurally identical to the RT formula's area-entropy relation
@@ -200,7 +200,7 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 - A derivation of the 5/27/68 split (observational input, not from RT)
 
 **Quantitative check.** For SIDC's SN-calibrated 2D universe of $\tau_{2D} = 33$ s, RT gives:
-- R_2D = c × $\tau_{2D} = 9.9$ × 10⁹ m (about 70 × Earth-Moon distance)
+- $R_{\rm 2D}$ = c × $\tau_{2D} = 9.9$ × 10⁹ m (about 70 × Earth-Moon distance)
 - A_2D = 4π R_2D² = 1.2 × 10²¹ m²
 - $S_{\rm 2D}$ = A_2D / (4 ℓ_P²) ≈ 10⁹⁰ (in natural units)
 
@@ -212,7 +212,7 @@ This is an enormous entanglement entropy. The 2D universe is "small" in its intr
 
 **3.8.7 Kaluza-Klein (1921) 5D unification: SIDC as a generalization.**
 
-Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity and electromagnetism. The key result: starting from 5D Einstein-Hilbert action and compactifying one extra dimension on S^1 of radius R, the 5D metric decomposes into:
+Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity and electromagnetism. The key result: starting from 5D Einstein-Hilbert action and compactifying one extra dimension on $S^1$ of radius R, the 5D metric decomposes into:
 - $g_{\mu\nu}$ (4D graviton)
 - A_ μ = G_ μ 4 (4D EM vector potential, from off-diagonal metric)
 - φ = G_44 (4D dilaton scalar)
@@ -220,7 +220,7 @@ Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity a
 5D Einstein equations → 4D Einstein + 4D Maxwell + 4D dilaton dynamics. This was a remarkable result: 5D gravity naturally contains 4D EM.
 
 **SIDC as a generalization of KK.** SIDC's 4D event → 3+1D projection is a *generalization* of KK's 5D → 4D, with different assumptions:
-- KK's extra dim is COMPACT (S^1 of radius R)
+- KK's extra dim is COMPACT ($S^1$ of radius R)
 - SIDC's 4D event is SPATIALLY EXTENDED (per §2.4, extent ∼ 10³⁶ m from §3.8.2 Padmanabhan estimate)
 - KK derives EM from geometry (the off-diagonal metric = EM potential)
 - SIDC does NOT derive the SM from geometry (the SM is taken as given)
@@ -267,20 +267,20 @@ User reference (v3.0.22): Kusuki 2024 (arXiv:2412.18307) "Modern Approach to 2D 
 2. **Hellerman bound connection**: SIDC's c_total = 3/2 EXCEEDS the unitary c ≤ 1 bound, but SIDC is **non-unitary** (Liouville is non-unitary, SYK q=4 is non-unitary at finite N) — this is consistent. The fact that c_total = 3/2 is a specific non-integer is what makes SIDC testable: it requires non-unitarity, not just non-integer c.
 
 3. **HHLL block** (Heavy-Heavy-Light-Light):
-   - Heavy: 4D event (h_H $\sim E_{\rm 4D}$ × L_4D, very large)
-   - Light: 2D universe (h_L ~ μ × L_2D, very small)
+   - Heavy: 4D event (h_H $\sim E_{\rm 4D}$ × $L_{\rm 4D}$, very large)
+   - Light: 2D universe (h_L ~ μ × $L_{\rm 2D}$, very small)
    - The block describes the 4D → 2D projection
    - **In heavy limit, block dominated by double-trace exchange, which IS SIDC's scaling law $\tau_{\rm 2D}$ ~ E^1.289**
 
 4. **Monodromy method**:
    - Determines 2D universe structure from analytic continuation
-   - **The SIDC scaling law $\tau_{\rm 2D}$ ~ E^1.289 could be the unique monodromy solution for c = 3/2 with heavy/light operators**
+   - **The SIDC scaling law $\tau_{\rm 2D}$ ~ $E^{1.289}$ could be the unique monodromy solution for c = 3/2 with heavy/light operators**
    - If true, this DERIVES α = 1.289, closing L43!
 
 5. **AdS_3/CFT_2**:
    - SIDC's 5D AdS_5 bulk
    - 4D brane with 2D universes embedded
-   - Local 2D universe geometry: AdS_3 × S^something
+   - Local 2D universe geometry: AdS_3 × $S^s$ omething
    - 2D CFT on the boundary of AdS_3
    - This is the natural holographic setting for the 2D universe
 
@@ -324,11 +324,11 @@ The DGP model is a 5D Minkowski bulk with a 4D brane, gravity localized by a bra
 
 $$H^2 - \epsilon \frac{H}{r_c} = \frac{8\pi G}{3} \rho + \frac{\Lambda_4}{3}$$
 
-where r_c = G₅/G₄ is the crossover scale. For the **self-accelerating branch** ( ε = -1, the *negative* sign):
+where $r_c$ = G₅/G₄ is the crossover scale. For the **self-accelerating branch** ( ε = -1, the *negative* sign):
 
 $$H^2 + \frac{H}{r_c} = \frac{8\pi G}{3} \rho$$
 
-At low ρ, this gives H → 1/r_c — a **constant Hubble rate** (effective DE) **without a cosmological constant**. The DE comes entirely from dimensional projection (5D gravity leaking into 4D).
+At low ρ, this gives H → 1/$r_c$ — a **constant Hubble rate** (effective DE) **without a cosmological constant**. The DE comes entirely from dimensional projection (5D gravity leaking into 4D).
 
 **This is exactly SIDC's inversion**: dimensional projection gives effective DE. The 4D brane perceives 5D gravity's contribution as a *repulsive* constant, even though 5D gravity is attractive in the bulk.
 

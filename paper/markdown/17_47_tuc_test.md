@@ -10,8 +10,8 @@
 
 | Property | Value |
 |---|---|
-| Total mass | 1.1 × 10⁶ M_sun |
-| Stellar mass ( $M_{\rm stars}$) | 1.0 × 10⁶ M_sun |
+| Total mass | 1.1 × 10⁶ $M_{\rm sun}$ |
+| Stellar mass ( $M_{\rm stars}$) | 1.0 × 10⁶ $M_{\rm sun}$ |
 | Half-mass radius | 6 pc |
 | Age | 12.0 ± 0.5 Gyr |
 | Distance | 4.45 kpc (Hipparcos) / 4.69 kpc (Gaia DR3) |
@@ -31,7 +31,7 @@ This makes 47 Tuc unique among stellar systems:
 ## §17.2 SIDC Prediction for 47 Tuc
 
 **Inputs for SIDC calculation**:
-- $M_{\rm stars}$ = 1.0 × 10⁶ M_sun
+- $M_{\rm stars}$ = 1.0 × 10⁶ $M_{\rm sun}$
 - Age = 12 Gyr
 - $E_{\rm crit}$ ≈ 10³⁰ J for 2D universe birth (per L308ba)
 - Recent activity: ~25 CVs at ~10³⁰ J per outburst (right at $E_{\rm crit}$ threshold, but recurring and small-scale)
@@ -59,12 +59,12 @@ Specifically:
 
 **NFW parameters** (Milky Way):
 - $\rho_{\rm s}$ = 0.014 M_sun/pc³
-- r_s = 16 kpc
+- $r_s$ = 16 kpc
 - $\rho_{\rm NFW}$(r=4.5 kpc) = 0.030 M_sun/pc³
 
 **NFW DM mass within 47 Tuc**:
-- M_DM(r < 6 pc) ≈ 5 × 10⁴ M_sun (~5% of $M_{\rm stars}$)
-- M_DM(r < 50 pc, tidal radius) ≈ 3.5 × 10⁵ M_sun (~30% of $M_{\rm stars}$)
+- M_DM(r < 6 pc) ≈ 5 × 10⁴ $M_{\rm sun}$ (~5% of $M_{\rm stars}$)
+- M_DM(r < 50 pc, tidal radius) ≈ 3.5 × 10⁵ $M_{\rm sun}$ (~30% of $M_{\rm stars}$)
 
 **ΛCDM prediction** (profile-dependent):
 $$M_{\rm dyn}/M_{\rm stars} = 1.05 \pm 0.05$$
@@ -97,8 +97,8 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 - **Measurement**: Rubin/LSST proper motions of ~10⁵ stars in 47 Tuc
 
 ### §17.5.2 Escape Velocity
-- **SIDC**: v_esc = √(2GM_stars/r) — from stellar mass only
-- **ΛCDM**: v_esc = √(2G( $M_{\rm stars}$ + M_DM)/r) — enhanced in outer parts
+- **SIDC**: $v_{\rm esc}$ = √(2GM_stars/r) — from stellar mass only
+- **ΛCDM**: $v_{\rm esc}$ = √(2G( $M_{\rm stars}$ + M_DM)/r) — enhanced in outer parts
 - **Measurement**: High-velocity tail of stellar velocities
 
 ### §17.5.3 Tidal Stream Morphology

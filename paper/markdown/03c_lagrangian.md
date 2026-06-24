@@ -115,7 +115,7 @@ where:
 - $\tau_{\rm universe}$ = age of universe = 13.8 Gyr
 - $E_{\rm 4D}$ = 4D cosmological event energy = 10⁶⁹ J
 - $E_{\rm SN}$ = SN1987A event energy = 10⁴⁴ J
-- α = 1.289 (the M^1.29 scaling exponent)
+- α = 1.289 (the $M^{1.29}$ scaling exponent)
 
 **Numerical value**:
 - Prefactor: $(t_{\rm Pl,3}/\tau_{\rm 4D}) \times (\tau_{\rm SN,obs}/\tau_{\rm universe}) \sim 3.5 \times 10^{-87}$
@@ -305,7 +305,7 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ( γ ~ 10⁵⁶), which is OU
    - This is a CLOSED LOOP (same $f_{\rm back}$ in both directions)
 
 2. **3+1D → 2D (CREATION + DEATH RETURN, NOT a closed loop)**:
-   - 3+1D events create 2D universes (M^1.29 scaling law, 14 event types)
+   - 3+1D events create 2D universes ($M^{1.29}$ scaling law, 14 event types)
    - 2D universes die, 100% energy returns to 3+1D as DM
    - No while-alive $f_{\rm back}$ worth modeling (2D lifetimes too short: 33s for SN)
    - DM = cumulative 2D universe deaths ( Σ $M_{\rm 2D}$ × N)
@@ -401,9 +401,9 @@ The 10¹⁸ discrepancy was RESOLVED via: (a) 4π factor REMOVED, (b) $M_{\rm Pl
 
 **The forward/backward α symmetry DOES close** (L98, L103):
 
-- Forward: γ = (E/E_Pl) $^{\alpha}$ (time dilation, scaling law)
+- Forward: γ = (E/$E_{\rm Pl}$) $^{\alpha}$ (time dilation, scaling law)
 - Backward: $f_{\rm back}$ ~ ( $E_{\rm 4D}$/E) $^{1/(2\alpha)}$ (back-action)
-- α × 1/(2α) = 1/2 (round-trip loss, Z_2 orbifold)
+- α × 1/(2α) = 1/2 (round-trip loss, $Z_2$ orbifold)
 
 The same α = 1.289 connects the time-dilated event (forward) to the
 back-projection (backward). This IS structural and IS derivable
@@ -418,13 +418,13 @@ from the framework.
 | ε = 10⁻³⁸ (gravity weakness) | **OBSERVED** (hierarchy problem) |
 | $\rho_{\rm DE}$/ $\rho_{\rm Pl}$ = $10^{-123}$ | **OBSERVED** (cosmological CC problem) |
 | $f_{\rm DE}$ = 1.13× 10⁻⁸⁵ | **DERIVED** (v3.3+, L308v α-GM closed loop) |
-| M^1.29 scaling law across 14 events | **DERIVED** from 2D CFT + α |
+| $M^{1.29}$ scaling law across 14 events | **DERIVED** from 2D CFT + α |
 | 5/27/68 split | **OBSERVED** (Planck 2018) |
 | DM local variation | **EXPLAINED** by cumulative SFH |
 
 **SIDC's contribution is**:
 - A geometric PICTURE (4D antigravity cancellation, 2D universe creation)
-- A scaling LAW (M^1.29 across 14 event types — derived)
+- A scaling LAW ($M^{1.29}$ across 14 event types — derived)
 - A consistency CHECK across observations
 - A vocabulary for the dark sector
 
@@ -450,7 +450,7 @@ See `calculations/v31_F_p_consistency.py` and `calculations/v31_F_p_result.md` f
 
 ### 3.60.4 Multi-universe picture: energetic 4D-bulk events create 3+1D sub-universes (v3.1.2 NEW, USER-CORRECTED)
 
-**User insight (v3.1.2)**: "1 SN can produce multiple 2D universes" (allowed by M^1.29 law degeneracy in N). "1 4D event can produce multiple 3+1D sub-universes" (analogous).
+**User insight (v3.1.2)**: "1 SN can produce multiple 2D universes" (allowed by $M^{1.29}$ law degeneracy in N). "1 4D event can produce multiple 3+1D sub-universes" (analogous).
 
 **v3.3 Status**: This section describes the multi-universe picture. The v3.3 framework adopts $M_{\rm Pl,4D}$ = 3.93×10²³ GeV ( α-weighted GM) and $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale). The v3.1.2 Scenario X ( $M_{\rm Pl,4D}$ = 887 GeV) has been SUPERSEDED.
 
@@ -818,7 +818,7 @@ This is the democratic cosmology (legacy_paper.md §3.17) made concrete.
 Within the same dimension, all universes are EQUAL — they have the same internal physics. The 1-species-at-each-level principle is formalized as:
 
 **Within each dimension N, all universes share**:
-- Same Lagrangian (e.g., L_c=1,Liouville + L_N=12,SYK + L_Schwarzian for 2D)
+- Same Lagrangian (e.g., $L_c$=1,Liouville + $L_N$=12,SYK + L_Schwarzian for 2D)
 - Same constants ( α = 1.289, $M_{\rm Pl,N}$, central charge c)
 - Same particle content (e.g., 12 SM Weyl fermions for 3+1D)
 - Same internal structure ( $N=12$ SYK backbone, Ising CFT)
@@ -953,7 +953,7 @@ for a numerical demonstration of $Z_{\rm SIDC} = Z_{\rm JT}
 After §3.62.1, we tried 5 more angles to close L41, L42, L43.
 Honest summary:
 
-**v14 (M^1.29 universality across 14 events)**: Initial check
+**v14 ($M^{1.29}$ universality across 14 events)**: Initial check
 of the scaling law. Multiple iterations: v14, v14c, v14d.
 
 **v14e (FINAL, CORRECTED hierarchy from user)**: User correction:
@@ -1138,7 +1138,7 @@ User question: "so α is the shape that links dimensions?"
 | Cone slope | tan( θ) = 1.289, θ ≈ 52° | Geometric projection shape |
 | Spectral | 1 + 1/√12 = 1.289 | 12-vertex SYK graph |
 | Ising CFT | α × 1/(2α) = 1/2 | c = 1/2 (Ising central charge) |
-| Z_2 orbifold | Round-trip loss = 1/2 | Group with 2 elements |
+| $Z_2$ orbifold | Round-trip loss = 1/2 | Group with 2 elements |
 | Kesten-McKay | 1/√N = 0.289 | Fluctuation scale of N-graph |
 
 **How α links dimensions (4 ways)**:
@@ -1149,7 +1149,7 @@ User question: "so α is the shape that links dimensions?"
    - Level 5+: α = 1.289 (claimed)
 
 2. **Horizontal (forward + backward)**: α × 1/(2α) = 1/2
-   - Forward: γ = (E/E_Pl) $^{\alpha}$ (scaling law)
+   - Forward: γ = (E/$E_{\rm Pl}$) $^{\alpha}$ (scaling law)
    - Backward: $f_{\rm back}$ ~ ( $E_{\rm 4D}$/E) $^{1/(2\alpha)}$ (closed loop)
    - Product = 1/2 closes the loop
 
@@ -1388,7 +1388,7 @@ across 14 event types but is not derived from first principles.
 
 **10. CONNECTION TO §3.62 LAGRANGIAN SKELETON**
 
-The v3.0.2 Lagrangian skeleton (L = L_c=1 + L_N=12 + L_Schwarzian)
+The v3.0.2 Lagrangian skeleton (L = $L_c$=1 + $L_N$=12 + L_Schwarzian)
 is now EMBEDDED in the full v3.0.22 Lagrangian as $S_{\rm 2D,universe}$.
 The skeleton was the starting point; the full Lagrangian adds:
 
@@ -1717,7 +1717,7 @@ Product: σ_+ × σ_- = -1  (the sign flip)
 Square: σ_+² = σ_-² = +1  (Z_2 structure)
 ```
 
-The Z_2 × Z_2 structure is consistent with:
+The $Z_2$ × $Z_2$ structure is consistent with:
 - Going UP the cascade: N halves (loss of chirality/pairing)
 - Going DOWN the cascade: N doubles (gain of chirality/pairing)
 - 3+1D is the mirror plane: σ_+ above, σ_- below
@@ -1725,7 +1725,7 @@ The Z_2 × Z_2 structure is consistent with:
 
 #### 3.69.5 Proposed $S_{\rm 4D}$,event Detail (L308bb sketch)
 
-Currently $S_{\rm 4D}$,event is: $S_{\rm 4D}$,event = ∫ d⁴x √(-g_4) [1/(16π G₄) R_4 + L_4D_matter]
+Currently $S_{\rm 4D}$,event is: $S_{\rm 4D}$,event = ∫ d⁴x √(-$g_4$) [1/(16π G₄) $R_4$ + L_4D_matter]
 
 A more detailed proposal (still speculative):
 ```
@@ -2215,7 +2215,7 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 
 **First-principles parameters (4):**
 1. α_2D = 1 + 1/√12 = 1.289 (Schwarzian SYK N=12, L308n)
-2. $M_{\rm Pl,2D} = 12 ×$ v_H = 2.95 TeV (L308r)
+2. $M_{\rm Pl,2D} = 12 ×$ $v_H$ = 2.95 TeV (L308r)
 3. μ = $M_{\rm Pl}$,2D² = 8.73×10⁶ GeV² (L308r)
 4. ** $N_{3+1D}$ = 6 = C(6) SM algebra (L308bh) ← NEW**
 
