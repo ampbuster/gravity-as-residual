@@ -300,6 +300,32 @@ def step_audit(dry_run=False):
     return True
 
 
+def step_fix_dollar_letter_no_space(dry_run=False):
+    """Insert space after closing `$` when followed by letter/Greek.
+
+    Problem: wrap_math_vars.py and other regex scripts sometimes leave
+    patterns like `$M_{\rm Pl,2D}$ = 2.95$TeV` where a closing `$` of
+    inline math is immediately followed by a letter/Greek with no
+    space. This breaks GitHub GFM rendering.
+
+    Fix: Insert a space between the closing `$` and the following
+    letter/Greek when there's no space already.
+
+    User rule: 'if there's no space after $, you should probably make a space'.
+
+    Examples:
+      `$M_{\rm Pl,2D} = 2.95$TeV`           → `$M_{\rm Pl,2D} = 2.95$ TeV`
+      `$M_{\rm Pl,2D} = 12×$v_H`            → `$M_{\rm Pl,2D} = 12×$ $v_H`
+      `$N_{\rm sub} = 386 (e$vent-specific)`→ `$N_{\rm sub} = 386$ (event-specific)`
+    """
+    print('\n=== Step 6: fix_dollar_letter_no_space ===')
+    if dry_run:
+        run_script('fix_dollar_letter_no_space.py --all', capture=False)
+    else:
+        run_script('fix_dollar_letter_no_space.py --all', capture=False)
+    return True
+
+
 STEPS = [
     'fix_broken_wraps',
     'fix_unbalanced_dollars',
@@ -309,6 +335,7 @@ STEPS = [
     'wrap_math_vars',   # AGGRESSIVE: wraps M_Pl,4D, H_0, etc.
     'fix_broken_wraps',  # Run AGAIN to clean up broken patterns from wrap_math_vars
     'fix_math_spacing',  # Run AGAIN to clean up spacing
+    'fix_dollar_letter_no_space',  # NEW: insert space after $ when followed by letter
     'build_pdf',
     'audit',
 ]
@@ -331,6 +358,7 @@ def main():
         'wrap_unicode_powers': step_wrap_unicode_powers,
         'inline_to_unicode': step_inline_to_unicode,
         'wrap_math_vars': step_wrap_math_vars,
+        'fix_dollar_letter_no_space': step_fix_dollar_letter_no_space,
         'build_pdf': step_build_pdf,
         'audit': step_audit,
     }
