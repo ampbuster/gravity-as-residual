@@ -721,7 +721,7 @@ SFH (formation redshift, duration, current mass) to compute:
 Where:
 - M_dyn_primordial ~ 5 × M_{b} (primordial 2D universe death halo)
 - M_dyn_recent = $f_{\rm back}$ × E_SN_total / c^2 (cumulative SN deaths)
-- Fₚ(z) = z^n / (z^n + $z_{\rm half}$^n), n=2, $z_{\rm half}$=3 (Hill function)
+- Fₚ(z) = z^n / (z^n + $z_{\rm half}^n$), n=2, $z_{\rm half}$=3 (Hill function)
 - $f_{\rm back}$ = 10⁻⁸⁵ (SIDC calibrated from SN 33s lifetime)
 
 **Key finding (v2.7.48, REVISED v2.7.52, LEGACY)**: With Fₚ(0) = 0.9993 (revised), SIDC predicts $M_{dyn}$/ M_{b} ∼ 4.97 for these galaxies, dominated by the Fₚ(z) primordial component. The recent (SN-driven) component is **negligible** ( ∼ 10⁻⁹¹).

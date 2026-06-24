@@ -342,7 +342,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ (closed loop formula, matches obs within 0.13% simple $f_{\rm DE}$ / 2.7% full bilateral cascade)
 - **Bilateral cascade (v3.3)**: DE = time-dilated slice of 4D's pulsed life; DM = 100% pulsed at 2D universe death
 - In our universe, every energetic event (SNe, BH mergers, etc.) creates a 2D universe
-- 2D universe lives for τ_2D = (E/$E_{\rm Pl,3}$D)^α × $t_{\rm Pl}$ (M^α law, 14 events, α = 1.289)
+- 2D universe lives for τ_2D = (E/$E_{\rm Pl,3}$ D)^α × $t_{\rm Pl}$ (M^α law, 14 events, α = 1.289)
 - 2D universe dies, **100% of energy returns to 3+1D as DM** (death return, not $f_{\rm back}$)
 - DM is cumulative 2D universe deaths (Σ $M_{\rm 2D}$ × N, calibrated AGN rate matches 27%)
 

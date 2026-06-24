@@ -159,11 +159,11 @@ Level    N    Clifford Structure                  First-principles
 | Status | Count | Parameters |
 |---|:---:|---|
 | 1 MEASURED | 1 | $M_{\rm Pl,3D}$ (Newton's G) |
-| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$v_H (L308r), μ = $M_{\rm Pl}$,2D² (L308r) |
+| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$ v_H (L308r), μ = $M_{\rm Pl}$,2D² (L308r) |
 | 2 DERIVED | 2 | $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (L308o) |
 | 4 CALIBRATED | 4 | ε, τ_4D, AGN rate, **$f_{\rm leak,3D→4D}$ = H₀** (A1 frame-neutral) |
 | 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), τ_3D,apparent, γ_4D, $N=12$ |
-| 1 FREE | 1 | $N_{\rm sub} = 386 (e$vent-specific) |
+| 1 FREE | 1 | $N_{\rm sub} = 386 (e$ vent-specific) |
 
 **Of 15 parameters: 1 measured, 3 first-principles, 2 derived, 4 calibrated — only 1 truly free.** The "dark sector" doesn't require any new particle masses, cross-sections, or cosmological-constant fine-tuning.
 
@@ -242,7 +242,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ### Weaknesses
 
 - **Hubble tension**: ACCEPTED as real tension. H₀,₄D = 70.16 is a geometric-mean property but specific H₀ values are not derived. SIDC's prediction H₀ = 73 (local) matches local measurements but leaves 5.6 km/s/Mpc gap to Planck CMB H₀ = 67.4 unresolved. **REJECTED (L308bl)**: User correctly identified that $f_{\rm leak}$ is for DM (attractive gravity), not DE (repulsive antigravity). The Hubble tension is fundamentally about H₀/DE, not DM. No direct connection via $f_{\rm leak}$.
-- **No unique testable predictions beyond ΛCDM precision**: SIDC has 3 sharp predictions (w = -1 EXACTLY, DE/DM ∝ (1+z)⁻³ EXACTLY, $M_{\rm Pl,2D} = 2.95$TeV) that overlap with ΛCDM and MOND in regime, but SIDC's *tightness* (exact match, no evolution) is unique. Future surveys (Euclid, Roman, SKA) can discriminate if precision reaches the tight/loose boundary. SIDC's deeper value is *interpretive* and *parsimonious*.
+- **No unique testable predictions beyond ΛCDM precision**: SIDC has 3 sharp predictions (w = -1 EXACTLY, DE/DM ∝ (1+z)⁻³ EXACTLY, $M_{\rm Pl,2D} = 2.95$ TeV) that overlap with ΛCDM and MOND in regime, but SIDC's *tightness* (exact match, no evolution) is unique. Future surveys (Euclid, Roman, SKA) can discriminate if precision reaches the tight/loose boundary. SIDC's deeper value is *interpretive* and *parsimonious*.
 - **2D CFT requires expert input**: Full Lagrangian requires 2D CFT expert to fill in remaining details (Lagrangian scores 93% in audit, was 73%).
 - **Halving rule origin**: $N_D$ = 12/2^(D-2) is now first-principles via spinor dim doubling (L308bj), but the deeper origin of "12" as total real DOF budget is the SM fermion count (L308r), not derived from more fundamental physics.
 - **$N_{\rm sub}$ is event-specific**: $N_{\rm sub} = 386$ is specific to our universe's 4D event. Other 4D events would have different $N_{\rm sub}$.

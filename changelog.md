@@ -618,7 +618,7 @@ This document contains the cascade's full version history.
    - Removed `\text{...}` commands (just unwrap to plain text)
    - Removed `\,` (thin space) which might cause issues
    - Kept all other LaTeX as-is (works in user's math-aware viewer)
-   - Example: `g_+\text{(cascade)}` → `g_+(cascade)` (LaTeX, no \text)
+   - Example: `$g_+$\text{(cascade)}` → `$g_+$(cascade)` (LaTeX, no \text)
    - Example: `$M_{DM}/R_{halo}^2$` → kept as LaTeX (works fine)
 
 4. **All sections now use LaTeX consistently**:
@@ -720,7 +720,7 @@ This document contains the cascade's full version history.
 5. **Consolidated §3.48-§3.59 (v2.7.59-67 research)**:
    - 11 pages of v2.7.60-67 research path (30,664 chars)
    - → 1 single "Research path to v3.0" summary (2,643 chars)
-   - Preserved key insights (scaling law, 1/2 origin, N=12 discovery)
+   - Preserved key insights (scaling law, 1/2 origin, $N=12$ discovery)
    - Removed redundant detail (full derivations, intermediate findings)
    - Net: -11 pages, cleaner narrative
 
@@ -3693,15 +3693,15 @@ Where:
 
 $$g₊ = k \int_{t_{form}}^{t_0} \dot{n}(t) \cdot E_{event} \cdot \frac{\tau_{2D}}{L_{2D}} \, dt$$
 
-This is the cascade's first-principles formula for $g_+$, which is essentially Gemini's scaling relation: g₊ ∝ \int \rho_{\rm events}/M_b \, dt.
+This is the cascade's first-principles formula for $g_+$, which is essentially Gemini's scaling relation: g₊ ∝ \int \rho_{\rm events}/$M_b$ \, dt.
 
 **CLUSTER g₊ ENHANCEMENT (Tian+ 2024) NOW EXPLAINED as a natural consequence.** A BCG sits at the bottom of a cluster's potential well and sees not just its own stellar history but the entire cluster's ICM activity (AGN feedback, mergers, thermal bremsstrahlung, ram pressure). Cluster event rate ~ 100× BCG's own, cluster events ~ 10× more energetic, ~ 10× larger. Net enhancement ~ 100×, in the right ballpark for Tian+ 2024's 10-17×.
 
 **4 testable predictions from the g₊ formula:**
 1. BCG g₊ correlates with cluster ICM activity (cooling flow vs not)
 2. Dwarf g₊ correlates with recent SFR, not total M_*
-3. g₊ ratio between systems matches event rate ratio, not M_b ratio
-4. Direct test: partial correlation between SFR, M_*, and g₊ (TENSION: §4.7 partial correlation test found SFR signal is entirely mediated by M_b)
+3. g₊ ratio between systems matches event rate ratio, not $M_b$ ratio
+4. Direct test: partial correlation between SFR, M_*, and g₊ (TENSION: §4.7 partial correlation test found SFR signal is entirely mediated by $M_b$)
 
 **Build infrastructure fix (commit 163).** Replaced one longtable that was breaking xelatex with bullet list format. Added xcolor [table] option for future longtables. PDF now builds cleanly: 100 → 103 pages.
 
@@ -3866,7 +3866,7 @@ The cascade is *infinite in principle* (no a priori depth limit) but *practicall
 **HubbleTensionCalculator removed (v2.5)**: the `HubbleTensionCalculator` class in `calculations/cascade_model.py` was a **postdiction**, not a derivation. The formula H_0_local = 67.4 × (1 + $f_{\rm active}$ × Ω_DM × 0.5) = 70.13 had three hand-tuned parameters ($f_{\rm active}$ = 0.3 fitted, 0.5 geometric factor placeholder, 70.13 reverse-engineered). The class has been **removed** in v2.5. Replaced with §2.6.1 *Honest H₀ framework* that documents: (1) the cascade does **not** derive a specific H₀ value, (2) H₀ = 70 ± 3 is the qualitative consistency with all measurements, (3) the 5.6 km/s/Mpc gap is a ΛCDM-framework artifact, (4) a 2D CFT calculation is needed to derive the specific active boost and cumulative drag. The `HubbleTensionBF/L/M` classes remain as historical record of mechanisms tested.
 
 **Overstatement audit (v2.5, commit 282)**: audited the paper for overstatements and found five to clean up:
-1. **Abstract "4.5-decade-universal g₊" → "approximately constant g₊ but r=+0.19, p=0.22, NOT significant"**. The data shows g₊ is approximately constant at galaxy scale, but the per-galaxy correlation with M_b is NOT statistically significant. The "universal" claim overstated the statistical evidence.
+1. **Abstract "4.5-decade-universal g₊" → "approximately constant g₊ but r=+0.19, p=0.22, NOT significant"**. The data shows g₊ is approximately constant at galaxy scale, but the per-galaxy correlation with $M_b$ is NOT statistically significant. The "universal" claim overstated the statistical evidence.
 2. **"matches ΛCDM exactly at all z" → "matches ΛCDM to within 0.1% at all z"**. r(z=6) = 342.0 vs (1+6)³ = 343; r(z=10) = 1327 vs (1+10)³ = 1331. "Exactly" was loose; "to within 0.1%" is more honest.
 3. **"MATCHING MCMC 0.0513 without any fitting" → "MATCHING, conditional on τ_2D = 0.7 Gyr by physical analogy"**. τ_2D = 0.7 Gyr is itself identified by physical analogy ($M_{\rm 2D}$ ~ 1 × 10⁴⁶ J / L_consumption ~ 1 × 10²⁸ W), so the "without any fitting" claim was misleading.
 4. **"matches Tian+ 2024's 1.7 × 10⁻⁹ within 1σ" → "within 30%, MCMC 1σ range includes 1.7 × 10⁻⁹"**. The 1.3 × 10⁻⁹ vs 1.7 × 10⁻⁹ is 24% off, but the MCMC 1σ range (5.3 × 10⁻¹⁰ to 2.7 × 10⁻⁹) does include 1.7 × 10⁻⁹. "30%" is more honest than "within 1σ".
@@ -4210,7 +4210,7 @@ the competitors:
 
 - **ΛCDM via SMHM**: Both AGC 114905 and KKR 25 have similar stellar
   masses (M* ~ 10⁶⁻⁷ M☉), so SMHM predicts *similar* halos for them
-  by construction. To get the observed 219× $M_{\rm dyn}$/M_b split, ΛCDM
+  by construction. To get the observed 219× $M_{\rm dyn}$/$M_b$ split, ΛCDM
   must invoke 3-4σ stochastic outliers in feedback/spin parameters.
   Calling that a "prediction" is generous — it's an *outlier*, not
   a *prediction*.
@@ -4530,7 +4530,7 @@ Changes:
 - **~20 specific LaTeX issues fixed in markdown**:
   - `g₊` in text mode → wrap in `g₊`
   - `τ_2D_3+1D` raw → wrap in `$\tau_{2D_{3+1D}} = ...$`
-  - `M_b` in text mode → `M_{b}`
+  - `$M_b$` in text mode → `M_{b}`
   - Various `\propto`, `\sim`, `\approx` patterns
   - Table cell math (`\sim\$1-2` → `~1-2`)
   - Double-dash ranges (`1--2` → `1-2`)
@@ -4607,16 +4607,16 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV (MEASURED)
 - $M_{\rm Pl,2D}$ = 3 TeV → **2.95 TeV** (FIRST-PRINCIPLES, L308r)
 - $M_{\rm Pl,4D}$ = 4×10²³ GeV → **3.93×10²³ GeV** (DERIVED, L308t precision)
-- $E_{\rm 4D}$ = 5×10⁷⁹ J (DERIVED via N_sub × E_sub, L308o)
-- α = 1.289 → **FIRST-PRINCIPLES** via Schwarzian SYK N=12 (L308n)
+- $E_{\rm 4D}$ = 5×10⁷⁹ J (DERIVED via $N_{\rm sub}$ × $E_{\rm sub}$, L308o)
+- α = 1.289 → **FIRST-PRINCIPLES** via Schwarzian SYK $N=12$ (L308n)
 - ε = 10⁻³⁸ (CALIBRATED)
 - τ_4D = 1.51×10³⁴ yr (CALIBRATED)
 - γ_4D = 1.10×10¹¹¹ (A2) → **1.10×10¹¹¹ (A2)** (L308t precision)
 - τ_3D_apparent = 9.10×10²⁴ yr → **1.66×10¹⁴⁵ yr (A2)** (L308t precision)
-- N_sub = 4×10² → **3.86×10²** (FREE event-specific, L308z)
-- E_sub = (added L308z) → **1.295×10⁷⁷ J** (STRUCTURAL)
+- $N_{\rm sub}$ = 4×10² → **3.86×10²** (FREE event-specific, L308z)
+- $E_{\rm sub}$ = (added L308z) → **1.295×10⁷⁷ J** (STRUCTURAL)
 - AGN rate = 3×10⁻¹⁶ /m³/s → **10⁻¹⁵·⁵² /s** (CALIBRATED)
-- f_leak = (added A1) → **H_0 = 2.18×10⁻¹⁸ /s** (CALIBRATED)
+- $f_{\rm leak}$ = (added A1) → **$H_0$ = 2.18×10⁻¹⁸ /s** (CALIBRATED)
 - μ = (added L308r) → **8.73×10⁶ GeV²** (FIRST-PRINCIPLES, was 9×10⁶)
 - N = 12 = (added L308u) → **FIRST-PRINCIPLES** via Appelquist 2001 + Z_12 + 6D anomaly
 
@@ -4653,7 +4653,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 **KEY CHANGES**:
 - **F-theory 12D adopted as 4D bulk**: 10D base (Type IIB) + 2D T² fiber = 12D (Vafa 1996). Compactifies to 4D N=1 SUSY.
 - **"12 propagates" honest reframe (v3.4.6)**: 12 at each level is DIFFERENT physics:
-  - 2D: 12 Majorana (N=12 SYK, standard benchmark)
+  - 2D: 12 Majorana ($N=12$ SYK, standard benchmark)
   - 3D: 12 GAUGE BOSONS in SM (SU(3)+SU(2)+U(1) = 8+3+1)
   - 3D: 12 fermion FLAVORS across 3 generations (4 Dirac × 3)
   - 4D: F-theory 12D (structural)
@@ -4661,7 +4661,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - **v3.4.8 AGE IMPLICATIONS**: t_0/τ_3D = 1.5×10⁻¹⁵ → universe is at cosmic "day 1" → SIDC is INITIAL-CONDITIONS framework
 
 **8 INCONSISTENCIES FOUND (v3.4.5-7)**:
-1. N=12 in SYK is standard benchmark, NOT theoretically motivated
+1. $N=12$ in SYK is standard benchmark, NOT theoretically motivated
 2. α = 1 + 1/√N is NOT a standard SYK formula (phenomenological)
 3. "12 SM fermions/gen" is FALSE (15-16 Weyl or 7-8 Dirac per gen)
 4. "h^{2,1}=N → N generations" REFUTED (arXiv:0910.5464 has h^{2,1}=4 + 3 gen)
@@ -4691,19 +4691,19 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - **v3.5 TIER 2**: CY3 Z_12 (2-3 of ~28 have explicit Z_12), α = 1 + 1/√N interpretation, μ F-theory (10³⁴× off, doesn't directly give μ)
 - **v3.5.1**: "1/2" has 3+ anchors (Schwarzian, DOZZ, Ising, L308)
 - **v3.5.2-v3.5.3**: 5 structural candidates for "2×" factor in μ, 45 alternative formulas
-- **v3.5.4**: 10 candidates for why T_H = $T_{\rm Pl,2D}$ — TOP 3: Planckian max, Euclidean periodicity, Hagedorn
+- **v3.5.4**: 10 candidates for why $T_H$ = $T_{\rm Pl,2D}$ — TOP 3: Planckian max, Euclidean periodicity, Hagedorn
 - **v3.5.5**: Lagrangian L = L_c=1 + L_Schwarzian + L_N=12 SYK consistently gives μ = $M_{\rm Pl,2D}^2$ via 3 routes
 - **v3.5.6 WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins:
   1. **Unimodular gravity (HT)**: Λ is INTEGRATION CONSTANT — calibrated μ is EXPECTED in modern gravity
-  2. **Hagedorn T_H = M_s/(2π)**: EXACT from closed string modular invariance (Chaudhuri 2001)
+  2. **Hagedorn $T_H$ = M_s/(2π)**: EXACT from closed string modular invariance (Chaudhuri 2001)
   3. **JT U(Φ)=2Φ**: the "2" traces to $R_{\rm AdS}$,2 = -2/L²
   4. **String thermal duality**: b ↔ 1/(2b) (Kogan 1990)
   5. **Hawking-Page + Euclidean periodicity**: β = 2πL forced by SL(2,R)
 - **v3.5.7 HOLOGRAPHIC**: String minimal area gives μ = M_s² (L319). "2π" is UNIVERSAL 2D factor (L320, Longo 2024 Bekenstein bound)
 - **v3.5.7 AUDIT**: Framework internally consistent (47 legacy limitations archived)
 - **v3.5.7 NAMING REVOLUTION** (user-suggested, June 19, 2026):
-  - f_DM,leak = continuous 2D→3+1D (1.6×10⁻⁴⁵, negligible)
-  - f_DM,death = pulsed 2D→3+1D at death (1, 100% → DM)
+  - $f_{\rm DM}$,leak = continuous 2D→3+1D (1.6×10⁻⁴⁵, negligible)
+  - $f_{\rm DM}$,death = pulsed 2D→3+1D at death (1, 100% → DM)
   - $f_{\rm DE}$ = continuous 3+1D→4D (1.2×10⁻⁸⁵ → DE)
 
 **v3.5 KEY FILES**:
@@ -4739,7 +4739,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - **§7.4.10 (NEW)**: Extending Cascade to 0 and Negative Dimensions. Cone has natural range n=1 to n≈17. Past peak (n=6), factors decrease. Negative-n gives mathematical curiosities (A_-2 = -1/π).
 
 **NEW LIMITATIONS (7 added, 116 → 123)**:
-- **L308f**: $M_{\rm Pl,2D}$ = 3 TeV origin: N=12 SYK + $v_{\rm Higgs}$, NOT "holographic" (USER-CAUGHT)
+- **L308f**: $M_{\rm Pl,2D}$ = 3 TeV origin: $N=12$ SYK + $v_{\rm Higgs}$, NOT "holographic" (USER-CAUGHT)
 - **L308g**: $M_{\rm Pl,4D}$ = 4×10²³ derivation chain: α-GM + closed loop, NOT first-principles (USER-CAUGHT)
 - **L308h**: 0/9 parameters first-principles derived (USER-DIRECTED systematic search)
 - **L308i**: Geometric factor 2π vs 4π is BOUNDARY-SPHERE STRUCTURED (USER-DISCOVERED)
@@ -4749,7 +4749,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 
 **KEY DISCOVERIES THIS SESSION**:
 1. **α-GM CONSISTENCY** (LINK 1): $M_{\rm Pl,2D}$ = 2.89 TeV UNIQUELY fixed given α, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$ (3.6% off framework's 3 TeV)
-2. **"12" CASCADE UNIT** (LINK 2): N=12 SYK count matches cone depth (12 sub-steps 4D→3+1D), $M_{\rm Pl,2D}$/$v_{\rm Higgs}$ ratio (11.75), 12 Majorana=6 Dirac=3 generations
+2. **"12" CASCADE UNIT** (LINK 2): $N=12$ SYK count matches cone depth (12 sub-steps 4D→3+1D), $M_{\rm Pl,2D}$/$v_{\rm Higgs}$ ratio (11.75), 12 Majorana=6 Dirac=3 generations
 3. **BOUNDARY SPHERE STRUCTURE**: 2D→3D has factor 2π (S¹ circle), 3D→4D has 4π (S² sphere). Each transition factor = parent's boundary sphere surface area
 4. **GEOMETRIC PEAK AT n=6**: S^6 surface area = 33.07 is the maximum. Framework's 4D choice was PRACTICAL, not geometric. Cone could extend to 7D/8D where peak is.
 5. **CONE DISSOLVES AT n≈17**: Factors cross 1 around n=17. Past that, factors < 1, cone structure weakens. At n→∞, factors → 0.
@@ -4811,21 +4811,21 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 
 ---
 
-## v3.5.8 SESSION 2 (June 20, 2026) — MCMC + α first-principles + N_sub scaling
+## v3.5.8 SESSION 2 (June 20, 2026) — MCMC + α first-principles + $N_{\rm sub}$ scaling
 
 **Reason for continuation:** User asked "try monte carlo, then since the 9 numbers are plugged into this lagrangian, can't we find where all of them converge to be consistent with our observed universe in 3d?" — this led to the v3.5.8 BREAKTHROUGHS.
 
 **NEW SECTIONS (5 added, §7.4.11-§7.4.15)**:
 - **§7.4.11 (NEW)**: Monte Carlo Parameter Convergence. MCMC finds 4/9 params observationally pinned, 2/9 framework choices, 3/9 derived.
-- **§7.4.12 (NEW)**: First-Principles Search: Remaining Parameters. $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, N_sub no derivation, ε absorbs CC, 4π structural.
-- **§7.4.13 (NEW)**: N_sub Scales Linearly with $E_{\rm 4D}$. User insight, linear scaling in event size.
+- **§7.4.12 (NEW)**: First-Principles Search: Remaining Parameters. $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, $N_{\rm sub}$ no derivation, ε absorbs CC, 4π structural.
+- **§7.4.13 (NEW)**: $N_{\rm sub}$ Scales Linearly with $E_{\rm 4D}$. User insight, linear scaling in event size.
 - **§7.4.14 (NEW)**: Cone is Asymmetric: 4D Linear, 2D One-to-One. User insight, different scaling at different levels.
 - **§7.4.15 (NEW)**: 2D Universe is a Discrete Quantum. User insight, $M_{\rm 2D}$ can't be split.
 
 **NEW LIMITATIONS (5 added, 123 → 128)**:
 - **L308m (NEW)**: MCMC parameter convergence: 4/9 strongly pinned, 2/9 framework choices, 3/9 derived
 - **L308n (BREAKTHROUGH)**: α = 1 + 1/√12 EXACT first-principles match (0.025% off framework 1.289)
-- **L308o (USER-INSIGHT)**: N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ scales linearly with event size
+- **L308o (USER-INSIGHT)**: $N_{\rm sub}$ = $E_{\rm 4D}$/$E_{\rm sub}$ scales linearly with event size
 - **L308p (USER-INSIGHT)**: Cone is asymmetric: 4D linear, 2D one-to-one
 - **L308q (USER-INSIGHT)**: 2D universe is discrete quantum ($M_{\rm 2D}$ can't be split)
 
@@ -4834,26 +4834,26 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 1. **MCMC PARAMETER CONVERGENCE** (BREAKTHROUGH):
    - Metropolis-Hastings MCMC with 15,000 samples over 6 free parameters
    - **Tier 1 (4/9 STRONGLY CONSTRAINED)**: α, ε, τ_4D, AGN rate converge within 0.5σ
-   - **Tier 2 (2/9 WEAKLY CONSTRAINED)**: $M_{\rm Pl,2D}$ (1.75 vs 3 TeV), N_sub (217 vs 400)
+   - **Tier 2 (2/9 WEAKLY CONSTRAINED)**: $M_{\rm Pl,2D}$ (1.75 vs 3 TeV), $N_{\rm sub}$ (217 vs 400)
    - **Tier 3 (3/9 DERIVED)**: $M_{\rm Pl,4D}$, γ_4D, $E_{\rm 4D}$
    - Confirms framework's structure is correct
 
 2. **α = 1 + 1/√12 FIRST-PRINCIPLES** (BREAKTHROUGH):
    - α_2D_CFT = 1 + 1/√N (Schwarzian SYK saddle-point)
-   - N=12 (12 Majorana = 3 generations × 4 Weyl per gen)
+   - $N=12$ (12 Majorana = 3 generations × 4 Weyl per gen)
    - α = 1.2886751346 matches framework 1.289 within **0.025%** — EXACT!
    - **L43 (Lagrangian skeleton → α) OPEN → PARTIAL**
    - First-principles progress: 0/9 → 1/9
 
-3. **N_sub LINEAR SCALING** (USER-INSIGHT):
-   - N_sub = $E_{\rm 4D}$ / $E_{\rm sub}$ (energy conservation)
+3. **$N_{\rm sub}$ LINEAR SCALING** (USER-INSIGHT):
+   - $N_{\rm sub}$ = $E_{\rm 4D}$ / $E_{\rm sub}$ (energy conservation)
    - $E_{\rm sub}$ = 1.25×10⁷⁷ J (~10²⁹ M_sun, sub-universe scale)
-   - For framework: N_sub = 400 ($E_{\rm 4D}$ = 5×10⁷⁹ J)
-   - Different 4D events → different N_sub (sub-galaxy: N=4, supercluster: N=400,000)
-   - N_sub no longer "free parameter" — SEMI-DERIVED
+   - For framework: $N_{\rm sub}$ = 400 ($E_{\rm 4D}$ = 5×10⁷⁹ J)
+   - Different 4D events → different $N_{\rm sub}$ (sub-galaxy: N=4, supercluster: N=400,000)
+   - $N_{\rm sub}$ no longer "free parameter" — SEMI-DERIVED
 
 4. **CONE ASYMMETRY** (USER-INSIGHT):
-   - 4D → 3+1D: linear (N_sub ∝ $E_{\rm 4D}$, universe-creating, transcendent)
+   - 4D → 3+1D: linear ($N_{\rm sub}$ ∝ $E_{\rm 4D}$, universe-creating, transcendent)
    - 3+1D → 2D: one-to-one (1 universe per event, universe-modifying, internal)
    - 2D asymmetry CONSTRAINED by DM observation
    - Linear at 2D would overproduce DM by 10⁶⁵
@@ -4876,8 +4876,8 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 **NEW CALCULATIONS** (5 files):
 - calculations/v35_monte_carlo_parameter_search.py (MCMC breakthrough)
 - calculations/v35_2d_cft_monte_carlo_alpha.py (α first-principles derivation)
-- calculations/v35_first_principles_rest.py ($M_{\rm Pl,2D}$, N_sub, ε, τ_4D search)
-- calculations/v35_n_sub_scaling.py (N_sub = $E_{\rm 4D}$/$E_{\rm sub}$)
+- calculations/v35_first_principles_rest.py ($M_{\rm Pl,2D}$, $N_{\rm sub}$, ε, τ_4D search)
+- calculations/v35_n_sub_scaling.py ($N_{\rm sub}$ = $E_{\rm 4D}$/$E_{\rm sub}$)
 - calculations/v35_2d_universe_quantum.py ($M_{\rm 2D}$ discrete)
 
 **NEW RESULT FILES** (3 files):
@@ -4887,7 +4887,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 **USER INSIGHTS (v3.5.8 SESSION 2)**:
 1. "try monte carlo, then since the 9 numbers are plugged into this lagrangian, can't we find where all of them converge to be consistent with our observed universe in 3d?" → L308m MCMC breakthrough
 2. "how about the rest" → L308n α first-principles + §7.4.12 systematic search
-3. "n_sub is the number of 2d universe per event is it? maybe it depends on the size of the event" → L308o N_sub linear scaling + §7.4.13
+3. "n_sub is the number of 2d universe per event is it? maybe it depends on the size of the event" → L308o $N_{\rm sub}$ linear scaling + §7.4.13
 4. "does it mean n_sub for 2d as well?" → L308p cone asymmetry + §7.4.14
 5. "why cant there be 2 2d universe at half size each, rather than 1 big one?" → L308q 2D universe quantum + §7.4.15
 
@@ -4903,49 +4903,49 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - f4c4655: v3.5.8 formal release (initial)
 - 942f725: v3.5.8 MCMC parameter search + α = 1+1/√12 first-principles
 - 20b83ec: v3.5.8 first-principles search for remaining parameters
-- 66d4fdc: v3.5.8 N_sub scales linearly with $E_{\rm 4D}$
+- 66d4fdc: v3.5.8 $N_{\rm sub}$ scales linearly with $E_{\rm 4D}$
 - 2460fcf: v3.5.8 cone is asymmetric (4D linear, 2D one-to-one)
 - f47e052: v3.5.8 2D universe is discrete quantum
 - 7381fd1: persistent_memory.md comprehensive v3.5.8 update
 
-## v3.5.9+ A2 (June 22, 2026) — α dim-specific + f_back → f_DE,closed renaming
+## v3.5.9+ A2 (June 22, 2026) — α dim-specific + $f_{\rm back}$ → $f_{\rm DE}$,closed renaming
 
 **Reason for version bump:** Three major consistency findings after A1 framework audit:
 
 1. **CRITICAL MATH FIX (pass 8)**: γ_4D formula in 03b_predictions.md was
-   γ_4D = (E_4D/$M_{\rm Pl,4D}$)^α but should be (E_4D/M_Pl,3D)^α (M_Pl,3D, not $M_{\rm Pl,4D}$).
+   γ_4D = ($E_{\rm 4D}$/$M_{\rm Pl,4D}$)^α but should be ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α ($M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$).
    The original formula gives 8.4e103, the correct formula gives 1.10e111 ✓
 
-2. **NAMING REVOLUTION (pass 10, USER-CAUGHT)**: `f_back` is the LEGACY name
-   (v3.0+), renamed in v3.5.7+ naming revolution to `f_DE`. Two equivalent
+2. **NAMING REVOLUTION (pass 10, USER-CAUGHT)**: `$f_{\rm back}$` is the LEGACY name
+   (v3.0+), renamed in v3.5.7+ naming revolution to `$f_{\rm DE}$`. Two equivalent
    formulas in A2:
-   - `f_DE,simple` = 1.13×10⁻⁸⁵ (A1, α_2D=1.289, ε=1×10⁻³⁸)
-   - `f_DE,closed` = 1.79×10⁻⁹⁰ (A2, α_4D=1.577, ε=6.32×10⁻³⁴)
+   - `$f_{\rm DE}$,simple` = 1.13×10⁻⁸⁵ (A1, α_2D=1.289, ε=1×10⁻³⁸)
+   - `$f_{\rm DE}$,closed` = 1.79×10⁻⁹⁰ (A2, α_4D=1.577, ε=6.32×10⁻³⁴)
    - f × ε = 1.13×10⁻¹²³ invariant preserved (gives ρ_DE = 2.5×10⁻⁴⁷ EXACT)
 
 3. **α DIM-SPECIFIC (A2, L308aw)**: α is dimension-dependent (was POSTULATE in A1)
-   - α_2D = 1.289 (rigorous, Schwarzian SYK N=12)
+   - α_2D = 1.289 (rigorous, Schwarzian SYK $N=12$)
    - α_3+1D = 1.408 (predicted)
    - α_4D = 1.577 (predicted)
    - α universality (L103) DROPPED
    - ε recalibrated: 1×10⁻³⁸ → 6.32×10⁻³⁴ (+4.8 orders)
-   - kL: 87.5 (A1) → 76.4 (A2)
+   - $kL$: 87.5 (A1) → 76.4 (A2)
    - γ_4D: 5.70×10⁹⁰ (A1) → 1.10×10¹¹¹ (A2) (+20.3 orders)
    - τ_3D,apparent: 8.61×10¹²⁴ (A1) → 1.66×10¹⁴⁵ (A2) yr
 
-4. **N=12 DOWNGRADED to STRUCTURAL (L308ag, L308ap)**: 4 FP → 3 FP, +1 STRUCTURAL
+4. **$N=12$ DOWNGRADED to STRUCTURAL (L308ag, L308ap)**: 4 FP → 3 FP, +1 STRUCTURAL
    - Tier 1 (pure derivation): NO
    - Tier 2 (motivated + confirmed): YES (10+ structural motivations)
    - Tier 3 (input + prediction + confirmation): YES
-   - N=12 has 3 first-principles roles but is NOT pure derivation
+   - $N=12$ has 3 first-principles roles but is NOT pure derivation
 
 5. **13+ CONSISTENCY PASSES** completed:
-   - Pass 1-3: parameter hierarchy, N=12 dedup
+   - Pass 1-3: parameter hierarchy, $N=12$ dedup
    - Pass 4: 156 → 144 limitations, v3.5.9+ A1 → A2
    - Pass 5-7: 5th → 4th calibrated, version headers
    - Pass 8: γ_4D formula fix
-   - Pass 9-11: f_DE,closed renaming, kL fix, f_DE,simple
-   - Pass 12-13: E_sub value description (not galaxy-mass)
+   - Pass 9-11: $f_{\rm DE}$,closed renaming, $kL$ fix, $f_{\rm DE}$,simple
+   - Pass 12-13: $E_{\rm sub}$ value description (not galaxy-mass)
    - Plus STATE_OF_THE_MODEL and README updates
 
 6. **NEW LEGACY FILE**: `paper/legacy/v359_legacy_A1_to_A2_renaming.md`
@@ -4955,12 +4955,12 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 
 **State at v3.5.9+ A2**:
 - 144 master table limitations (156 with L308af-ay in A2)
-- 15 parameters: 1 MEASURED + 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, E_4D) + 4 CALIBRATED (ε, τ_4D, AGN, f_leak) + 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12) + 1 FREE (N_sub)
+- 15 parameters: 1 MEASURED + 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 CALIBRATED (ε, τ_4D, AGN, $f_{\rm leak}$) + 4 STRUCTURAL ($E_{\rm sub}$, τ_3D,apparent, γ_4D, $N=12$) + 1 FREE ($N_{\rm sub}$)
 - 476 pages, 1.94 MB
 - 50 unique L308 entries (a-ay minus ax)
 - All values consistent: γ_4D=1.10e111, τ_3D,apparent=1.66e145 yr,
-  f_DE,closed=1.79e-90, ε=6.32e-34, $M_{\rm Pl,4D}$=3.93e23 GeV, ρ_DE=2.5e-47,
-  $M_{\rm Pl,2D}$=2.95 TeV, μ=8.73e6 GeV², N_sub=386, $E_{\rm sub}$=1.295e77 J
+  $f_{\rm DE}$,closed=1.79e-90, ε=6.32e-34, $M_{\rm Pl,4D}$=3.93e23 GeV, ρ_DE=2.5e-47,
+  $M_{\rm Pl,2D}$=2.95 TeV, μ=8.73e6 GeV², $N_{\rm sub}$=386, $E_{\rm sub}$=1.295e77 J
 
 
 **L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford C(6) SM algebra, Stoica 2018). No numerical changes.

@@ -674,7 +674,7 @@ $$\rho_{\rm DE}^{(N-1)} = \underbrace{\left(\frac{M_{\rm Pl,N}}{M_{\rm Pl,N-1}}\
 The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gravity from above, leaving DE as the residual.
 
 **Numerical verification** (our universe, N=4D, N-1=3+1D, A2 with α_4D = 1.577):
-- The anti-gravity formula $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{α}$ × ε × $M_{\rm Pl,3D}$^4 / γ_4D requires SAME α in both
+- The anti-gravity formula $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{α}$ × ε × $M_{\rm Pl,3D}^4$ / γ_4D requires SAME α in both
 - With α_4D = 1.577: $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1.577}$ / γ_4D = $(M_{\rm Pl,4D}/E_{\rm 4D})^{1.577}$ = 1.17e-104
 - ρ_DE = 1.17e-104 × 6.32e-34 × (1.22e19)^4 = 1.63e-61 GeV⁴ (NOT 2.5e-47 with ε=6.32e-34)
 - 
@@ -682,7 +682,7 @@ The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-g
 - They DON'T cancel cleanly, so the formula gives wrong result
 - 
 - The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
-- ρ_DE = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}$^4 = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
+- ρ_DE = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
 **Simple $f_{\rm DE,simple}$ formula (legacy A1, preserved as compact form, gives 0.13% off, near-exact)**:
 $$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$ (A2)
@@ -1614,7 +1614,7 @@ It does NOT:
 |--------|---------------|-------------|--------|
 | α (scaling law) | α = 1.289 (universal) | α_D = 1 + 1/√(12/2^(D-2)) | L308ba |
 | $f_{\rm DE}$ formula | $f_{\rm back}$ ≈ 10⁻⁸⁵ | $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ | L308av |
-| Projection sign | ±$g_{\rm couple}$ (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
+| Projection sign | ± $g_{\rm couple}$ (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
 | Frame naming | $f_{\rm back}$, $f_{\rm leak}$, $f_{\rm DM}$,leak | $f_{\rm DE}$,closed, $f_{\rm leak}$,2D→3D, $f_{\rm leak,3D→4D}$ | L308ax |
 | $E_{\rm sub}$ in 4D term | not explicit | $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ explicit | A2 STRUCTURAL |
 | 2D universe lifetime | (E/ $M_{\rm Pl,3D}$)^α × $t_{\rm Pl}$ | $(E/M_{\rm Pl,parent})^{\alpha}$_D × $t_{\rm Pl}$,parent (dim-specific) | L308ba |
@@ -1745,7 +1745,7 @@ If 4D has 3 generations of bulk fields, the 4D action is structurally analogous 
 | Why $N_{3+1D}$ = 6 specifically | Multiple interpretations, none first-principles |
 | Why $N_{\rm 4D}$ = 3 specifically | Multiple interpretations, none first-principles |
 | Why the halving rule itself | Cascade-specific or general principle? |
-| Full Lagrangian path integral | L43 still OPEN ($Z_{\rm SIDC}$ not computed) |
+| Full Lagrangian path integral | L43 still OPEN ( $Z_{\rm SIDC}$ not computed) |
 | 4D action structure | L308bb sketch needs theoretical physicist review |
 | 5D extrapolation | $N_{\rm 5D}$ = 1.5 (non-integer) — structural not derived |
 
@@ -1999,7 +1999,7 @@ with components:
 |-----------|---------|----------------|
 | $S_{\rm 4D}$,event | The eternal 4D substrate | $M_{\rm Pl,4D} = 3.93×10²³ GeV$, $\gamma_{\rm 4D} = 1.10×10¹¹¹$, $\tau_{\rm 4D} = 1.51×10³⁴ yr$|
 | $S_{\rm 3+1D}$,brane | Our universe (Standard Model + DE) | $M_{\rm Pl,3D} = 1.22×10¹⁹ GeV$, Λ = 2.5× 10⁻⁴⁷ GeV⁴ |
-| $S_{\rm 2D}$,universe | Quantum gravity floor (2D CFT) | $M_{\rm Pl,2D} = 2.95$TeV, $N=12$ (SYK), c=1 Liouville |
+| $S_{\rm 2D}$,universe | Quantum gravity floor (2D CFT) | $M_{\rm Pl,2D} = 2.95$ TeV, $N=12$ (SYK), c=1 Liouville |
 | $S_{\rm projection}$ | Bidirectional cascade with mirror plane | σ_+ (DE), σ_- (DM), $g_{\rm couple}$ |
 | S_drain | Calibrated DM stability | $f_{\rm leak} = H_0 = 67.4 km/s/Mpc |
 
@@ -2215,7 +2215,7 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 
 **First-principles parameters (4):**
 1. α_2D = 1 + 1/√12 = 1.289 (Schwarzian SYK N=12, L308n)
-2. $M_{\rm Pl,2D} = 12 ×$v_H = 2.95 TeV (L308r)
+2. $M_{\rm Pl,2D} = 12 ×$ v_H = 2.95 TeV (L308r)
 3. μ = $M_{\rm Pl}$,2D² = 8.73×10⁶ GeV² (L308r)
 4. ** $N_{3+1D}$ = 6 = C(6) SM algebra (L308bh) ← NEW**
 
@@ -2228,7 +2228,7 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 **Still structural (4):** $E_{\rm sub}$, τ_3D,apparent, γ_4D, $N_{\rm 2D}$ = 12 (SM count)
 **Inferred:** $N_{\rm 4D}$ = 3 (3 generations — multiple interpretations)
 
-**Still free (1):** $N_{\rm sub} = 386 ($specific to our 4D event)
+**Still free (1):** $N_{\rm sub} = 386 ($ specific to our 4D event)
 
 #### 3.73.6 Path Integral (5%, was 0%)
 

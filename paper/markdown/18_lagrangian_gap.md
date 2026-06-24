@@ -12,12 +12,12 @@ $$S_{\rm SIDC} = S_{4D} + S_{3+1D} + \sum_{\rm events} S_{2D} + S_{\rm proj} + S
 
 | Component | Status | Source |
 |---|---|---|
-| $S_{\rm 4D}$ (4D bulk event) | ✓ Implemented | L308bn ( $M_{\rm Pl,4D} = 3.93×10²³ GeV$via α-GM) |
+| $S_{\rm 4D}$ (4D bulk event) | ✓ Implemented | L308bn ( $M_{\rm Pl,4D} = 3.93×10²³ GeV$ via α-GM) |
 | $S_{\rm 3+1D}$ (3+1D brane) | ✓ Implemented | Standard + SM |
 | $S_{\rm 2D}$ (per 2D universe) | ⚠️ Partially implemented | Form written, exact $Z_{\rm 2D}$ unclear |
 | S_proj (projection) | ✓ Structurally implemented | L308az (mirror plane) |
 | S_mirror (mirror plane) | ✓ Implemented | L308az explicit |
-| S_drain (DM stability) | ✓ Implemented | L308ax ($f_{\rm leak}$ = H₀) |
+| S_drain (DM stability) | ✓ Implemented | L308ax ( $f_{\rm leak}$ = H₀) |
 
 The 4% gap consists of:
 1. Exact 2D CFT partition function $Z_{\rm 2D}$
@@ -192,7 +192,7 @@ The 4% gap is NOT a blocker for the framework's core predictions. Without the fu
 ✓ DM distribution (SPARC, BCG)
 ✓ AGN-DM correlation (p < 10⁻⁵⁰)
 ✓ 5/27/68 split matches Planck 2018
-✓ $M_{\rm Pl,2D} = 2.95$TeV (testable at HL-LHC)
+✓ $M_{\rm Pl,2D} = 2.95$ TeV (testable at HL-LHC)
 ✓ w = -1 EXACTLY (testable by Euclid/Roman)
 ✓ 47 Tuc DM test (testable by Rubin/LSST 2025-2034)
 

@@ -94,7 +94,7 @@ The L308 chain (L308ab-L308ce) covers:
 **Testable predictions:**
 1. **w = -1 EXACTLY** (no evolution, tighter than ΛCDM) — testable by Euclid (2024+), Roman (2027+)
 2. **DE/DM ratio follows (1+z)⁻³ EXACTLY** — testable by BAO + growth rate f(z)σ_8
-3. **$M_{\rm Pl,2D} = 2.95$TeV** — testable at HL-LHC as anomalous missing-energy threshold
+3. **$M_{\rm Pl,2D} = 2.95$ TeV** — testable at HL-LHC as anomalous missing-energy threshold
 
 **Numerical values (A2):**
 - ε = 6.32×10⁻³⁴

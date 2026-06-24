@@ -40,6 +40,9 @@ import glob
 # U+1F00-U+1FFF Greek Extended)
 LETTER_PATTERN = r'[A-Za-zΑ-Ωα-ωἀ-Ἇὀ-὏ᾀ-ᾟ]'
 
+# Digit exponent pattern: $X$^N or $X$^N_M - exponent outside math
+EXPONENT_PATTERN = r'\^'
+
 
 def find_inline_math_closing_positions(text):
     """Find positions of CLOSING `$` of inline math `$...$`.
@@ -119,6 +122,12 @@ def find_inline_math_closing_positions(text):
                     nxt = text[i + 1]
                     if re.match(LETTER_PATTERN, nxt):
                         results.append((i, nxt))
+                    elif nxt == '^':
+                        # $X$^N - exponent outside math, fix by moving ^N into the math
+                        # Find the entire ^N or ^N_M pattern
+                        m = re.match(r'\^(?:\[[^\]]*\]|\{[^}]*\}|[0-9]|[A-Za-z])', text[i+1:])
+                        if m:
+                            results.append((i, '^'))
                 state = 'text'
                 i += 1
                 continue
@@ -149,8 +158,22 @@ def fix_file(filepath, dry_run=False):
     # Apply fixes in reverse order so positions remain valid
     new_content = content
     for pos, nxt in reversed(issues):
-        # Insert space between $ and nxt
-        new_content = new_content[:pos+1] + ' ' + new_content[pos+1:]
+        if nxt == '^':
+            # Move the ^N (or ^{N} or ^N_M) into the math block
+            # Find the extent of the exponent
+            m = re.match(r'\^(?:\[[^\]]*\]|\{[^}]*\}|[0-9]|[A-Za-z])(?:_\{[^}]*\}|\{[^{}]*\})?', new_content[pos+1:])
+            if m:
+                # Insert the ^N INSIDE the math by:
+                # 1) Remove the ^N from outside math
+                # 2) Add the ^N just before the closing $ (which is at pos)
+                exp = m.group(0)
+                # Remove from outside
+                new_content = new_content[:pos+1] + new_content[pos+1+m.end():]
+                # Insert inside math (just before the $)
+                new_content = new_content[:pos] + exp + new_content[pos:]
+        else:
+            # Insert space between $ and nxt (letter)
+            new_content = new_content[:pos+1] + ' ' + new_content[pos+1:]
 
     if not dry_run and new_content != content:
         with open(filepath, 'w') as f:

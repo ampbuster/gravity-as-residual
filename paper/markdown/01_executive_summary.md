@@ -16,12 +16,12 @@ These two expressions are SIDC's quantitative backbone and are taken as ground t
 
 $$\boxed{\tau_{2D,\,\text{our frame}} = t_{\rm Pl,3} \times \left(\frac{E_{\rm 3D\,event}}{M_{\rm Pl,3D}}\right)^{1.29}}$$
 
-(SN calibration: $\tau_{2D} = 33\,$s when E = 10⁴⁴ J, the SN energy.)
+(SN calibration: $\tau_{2D} = 33\,$ s when E = 10⁴⁴ J, the SN energy.)
 
 - **Hierarchy (v3.0.21, user-corrected)**: A **3D event** (event in 3+1D spacetime = our universe) creates a **2D universe**. (NOT a 4D event — that creates our 3+1D universe.)
 - **Calibration**: SN1987A ( $E_{\text{3D}} = 10^{44}$ J, τ = 33 s) anchors the rule.
 - **Verified**: 8/8 3D events match the formula within factor 1.6 (§10.1 table).
-- **Range**: works from 1 ton TNT ( $10^{-37}\,\mu$s) to AGN outbursts ( 10⁸ yr), spanning 54 orders of magnitude.
+- **Range**: works from 1 ton TNT ( $10^{-37}\,\mu$ s) to AGN outbursts ( 10⁸ yr), spanning 54 orders of magnitude.
 - **Origin**: $\alpha = 1.289 = 1 + 1/\sqrt{12}$ from $N=12$ SYK saddle-point (§3.62).
 
 ### Main Point #2: The Closed Loop (§3.60.1)

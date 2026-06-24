@@ -334,9 +334,9 @@ S = S_bulk (5D AdS EH) + S_brane_3+1D (4D gravity + SM + DM)
   + S_creation (T_SM ↔ 2D brane) + $S_{\rm destruction}$ (T_DM ↔ 2D brane)
 
 where:
-- S_bulk = (1/(2 $\kappa_{\rm 5}$^2)) ∫ d^5X √(-G) [R_5 - 2 $\Lambda_{\rm 5}$] (AdS₅ with $\Lambda_{\rm 5}$ = -6/L²)
-- S_brane_3+1D = ∫ d^4x √(-g) [(1/(2 $\kappa_{\rm 4}$^2))(R_4 - 2 $\Lambda_{\rm 4}$) + L_SM + L_DM + L_2D-universes]
-- $S_{\rm 2D}$ = ∫ $d^{2\sigma}$ √(- γ) [(1/(2 $\kappa_{\rm 2}$^2))(R_2 - 2 $\Lambda_{\rm 2}$) + L_2D_matter] (per 2D universe)
+- S_bulk = (1/(2 $\kappa_{\rm 5}^2$)) ∫ d^5X √(-G) [R_5 - 2 $\Lambda_{\rm 5}$] (AdS₅ with $\Lambda_{\rm 5}$ = -6/L²)
+- S_brane_3+1D = ∫ d^4x √(-g) [(1/(2 $\kappa_{\rm 4}^2$))(R_4 - 2 $\Lambda_{\rm 4}$) + L_SM + L_DM + L_2D-universes]
+- $S_{\rm 2D}$ = ∫ $d^{2\sigma}$ √(- γ) [(1/(2 $\kappa_{\rm 2}^2$))(R_2 - 2 $\Lambda_{\rm 2}$) + L_2D_matter] (per 2D universe)
 - S_tension = -∫ d^4x √(-g) $\sigma_{\rm brane}$ + -∑_i ∫ d^2 $\sigma_{\rm i}$ √(- $\gamma_{\rm i}$) $\sigma_{\rm 2D}$ (Israel junction)
 - S_creation = - α ∫ d^4x √(-g) $T_{\mu\nu}^{\rm SM}$(x) * ∑_i ∫ d^2 $\sigma_{\rm i}$ √(- $\gamma_{\rm i}$) $\eta^{\mu\nu}$ δ^(4)(x - X_i( σ))
 - $S_{\rm destruction}$ = + α ∫ d^4x √(-g) $T_{\mu\nu}^{\rm DM}$(x) * ∑_i ∫ d^2 $\sigma_{\rm i}$ √(- $\gamma_{\rm i}$) $\eta^{\mu\nu}$ δ^(4)(x - X_i( σ)) δ(t - $\tau_{2D}$)
