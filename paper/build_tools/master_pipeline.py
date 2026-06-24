@@ -66,10 +66,13 @@ def step_fix_broken_wraps(dry_run=False):
     print('\n=== Step 0: Fix broken wraps ===')
     fixed = 0
     patterns = [
-        # Specific known: $f_{\rm leak} = $H_0$ = ... -> $f_{\rm leak} = H_0$ = ...
-        (r'\$f_\\rm leak\} = \$H_0\$', r'$f_{\\rm leak} = H_0$'),
-        # General: $X = $Y$ = ... (any var X, any var Y) -> $X = Y$ = ...
-        (r'\\$([A-Za-z0-9_\\\\\{\}\.]+) = \\$([A-Za-z0-9_\\\\\{\}]+)\$ = ', r'$\1 = \2$ = '),
+        # $f_{\rm leak} = $H_0$ = ... -> $f_{\rm leak} = H_0$ = ...
+        # Use .*? for non-greedy match between $f and = $H_0$
+        (r'\$f.*? = \$H_0\$ = ',
+         r'$f_{\\rm leak} = H_0 = '),
+        # General: $X = $Y$ -> $X = Y$ (any var X and Y, with { } allowed)
+        (r'\$([A-Za-z0-9_\\\\\{\}\.]+) = \$([A-Za-z0-9_\\\\\{\}]+)\$',
+         r'$\1 = \2$'),
     ]
 
     for fname in os.listdir(MARKDOWN_DIR):
@@ -92,9 +95,27 @@ def step_fix_broken_wraps(dry_run=False):
 
 
 def step_fix_unbalanced_dollars(dry_run=False):
-    """Find and fix unbalanced $ in markdown files."""
+    """Find and fix unbalanced $ in markdown files.
+
+    Also applies source bug fixes that are independent of $ count.
+    """
     print('\n=== Step 1: Fix unbalanced $ ===')
     fixed = 0
+    # Always-fix: applied to ALL .md files regardless of $ count
+    always_fix = [
+        # L323 (06_limitations.md:4479): $$..$ in prose breaks find_math_ranges
+        # Wrap in inline code so find_math_ranges skips it
+        ('State machine handles $$.. $ and $..$ correctly.',
+         'State machine handles display math (`$$` ... `$$`) and inline math (`$` ... `$`) correctly.',
+         'L323: wrap $$ in inline code'),
+        # Source bug: 06_limitations.md:4499 - math has closing $ but missing
+        # the explicit "= 67.4 km/s/Mpc" clarification. Always apply to ensure
+        # this important f_leak principle is clear.
+        ('**New principle**: $f_{\\rm leak} = H_0 = 2.18\\times10^{-18}\,\\text{s}^{-1}$\n',
+         '**New principle**: $f_{\\rm leak} = H_0 = 2.18\\times10^{-18}\,\\text{s}^{-1}$ = 67.4 km/s/Mpc\n',
+         'add = 67.4 km/s/Mpc to New principle'),
+    ]
+    # Conditional fixes: applied only if file has odd $ count
     known_fixes = [
         ('$$F_p $', '$F_p$', 'display -> inline'),
         ('$$E/\\tau$)', '$E/\\tau$', 'display -> inline'),
@@ -105,14 +126,33 @@ def step_fix_unbalanced_dollars(dry_run=False):
         fp = os.path.join(MARKDOWN_DIR, fname)
         with open(fp) as f:
             content = f.read()
-        dollar_count = content.count('$') - content.count('\\$')
-        if dollar_count % 2 == 0:
-            continue
         new_content = content
-        for search, repl, desc in known_fixes:
+        # Apply always-fix first
+        for search, repl, desc in always_fix:
             if search in new_content:
                 new_content = new_content.replace(search, repl)
-                print(f'  {fname}: Fixed {search!r} -> {repl!r} ({desc})')
+                print(f'  {fname}: Fixed {desc!r}')
+                fixed += 1
+        # Apply known fixes if file has odd $ count
+        dollar_count = new_content.count('$') - new_content.count('\\$')
+        if dollar_count % 2 != 0:
+            for search, repl, desc in known_fixes:
+                if search in new_content:
+                    new_content = new_content.replace(search, repl)
+                    print(f'  {fname}: Fixed {desc!r}')
+                    fixed += 1
+        # Recount
+        dollar_count = new_content.count('$') - new_content.count('\\$')
+        # If still unbalanced, append closing $ at end of file
+        if dollar_count % 2 != 0:
+            stripped = new_content.rstrip()
+            if stripped.endswith('$'):
+                new_content = stripped[:-1] + '\n'
+                print(f'  {fname}: Removed stray trailing $')
+                fixed += 1
+            else:
+                new_content = new_content.rstrip() + '$\n'
+                print(f'  {fname}: Appended closing $ at end of file (odd count)')
                 fixed += 1
         if new_content != content and not dry_run:
             with open(fp, 'w') as f:
@@ -145,6 +185,22 @@ def step_wrap_unicode_powers(dry_run=False):
         run_script('wrap_unicode_powers.py')
     else:
         run_script('wrap_unicode_powers.py')
+    return True
+
+
+def step_wrap_math_vars(dry_run=False):
+    """Run wrap_math_vars.py - AGGRESSIVE math wrapping.
+
+    This script wraps math vars (M_Pl,4D, H_0, etc.) in $...$.
+    Known issues:
+      - Creates broken states like $X = $Y$ = ... (var wrapped inside math)
+        These are fixed by the second fix_broken_wraps step.
+    """
+    print('\n=== Step 5: wrap_math_vars.py (aggressive) ===')
+    if dry_run:
+        run_script('wrap_math_vars.py')
+    else:
+        run_script('wrap_math_vars.py')
     return True
 
 
@@ -182,6 +238,9 @@ STEPS = [
     'fix_unbalanced_dollars',
     'fix_math_spacing',
     'wrap_unicode_powers',
+    'wrap_math_vars',   # AGGRESSIVE: wraps M_Pl,4D, H_0, etc.
+    'fix_broken_wraps',  # Run AGAIN to clean up broken patterns from wrap_math_vars
+    'fix_math_spacing',  # Run AGAIN to clean up spacing
     'build_pdf',
     'audit',
 ]
@@ -202,6 +261,7 @@ def main():
         'fix_unbalanced_dollars': step_fix_unbalanced_dollars,
         'fix_math_spacing': step_fix_math_spacing,
         'wrap_unicode_powers': step_wrap_unicode_powers,
+        'wrap_math_vars': step_wrap_math_vars,
         'build_pdf': step_build_pdf,
         'audit': step_audit,
     }

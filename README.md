@@ -81,7 +81,7 @@ This repository contains a thought experiment in theoretical physics: a single g
 | DF2/DF4 | No DM | PASS (no recent energetic events) |
 | FCC 224 | DM-poor | PASS (isolated ultra-diffuse) |
 | AGC 114905 | DM-poor | PASS via smooth E^(1+α) |
-| KKR 25 | DM-rich (M_dyn/M_b ~ 1-4) | PASS (post-starburst dSph) |
+| KKR 25 | DM-rich ($M_{\rm dyn}$/$M_b$ ~ 1-4) | PASS (post-starburst dSph) |
 
 **Score breakdown**: 11 clean passes + 4 structural (no substructure to test) + 5 = ΛCDM (consistent, not discriminative) + 1 confounded = **17/17 consistent, 0 falsified**.
 
@@ -121,7 +121,7 @@ $$\boxed{\tau_{2D,\,\text{our frame}} = t_{\rm Pl,3} \times \left(\frac{E_{\rm 3
 
 $$f_{\rm DE} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)}$$
 
-Evaluates to **f_DE,closed = 1.79×10⁻⁹⁰** (A2, α_4D = 1.577). Dark energy density matches observation within **0.13%** of 2.5×10⁻⁴⁷ GeV⁴. The f×ε invariant = 1.13×10⁻¹²³ is preserved across both A1 and A2 formulations.
+Evaluates to **$f_{\rm DE}$,closed = 1.79×10⁻⁹⁰** (A2, α_4D = 1.577). Dark energy density matches observation within **0.13%** of 2.5×10⁻⁴⁷ GeV⁴. The f×ε invariant = 1.13×10⁻¹²³ is preserved across both A1 and A2 formulations.
 
 ### 7. First-principles structure: Clifford algebras + Bott periodicity
 
@@ -158,11 +158,11 @@ Level    N    Clifford Structure                  First-principles
 
 | Status | Count | Parameters |
 |---|:---:|---|
-| 1 MEASURED | 1 | M_Pl,3D (Newton's G) |
-| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$v_H (L308r), μ = M_Pl,2D² (L308r) |
-| 2 DERIVED | 2 | M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) (α-GM, L308v), E_4D = N_sub × E_sub (L308o) |
-| 4 CALIBRATED | 4 | ε, τ_4D, AGN rate, **f_leak,3D→4D = H_0** (A1 frame-neutral) |
-| 4 STRUCTURAL | 4 | E_sub (per-sub-universe energy), τ_3D,apparent, γ_4D, N=12 |
+| 1 MEASURED | 1 | $M_{\rm Pl,3D}$ (Newton's G) |
+| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$v_H (L308r), μ = $M_{\rm Pl}$,2D² (L308r) |
+| 2 DERIVED | 2 | $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) (α-GM, L308v), $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ (L308o) |
+| 4 CALIBRATED | 4 | ε, τ_4D, AGN rate, **f_leak,3D→4D = $H_0$** (A1 frame-neutral) |
+| 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), τ_3D,apparent, γ_4D, N=12 |
 | 1 FREE | 1 | $N_{\rm sub} = 386 (e$vent-specific) |
 
 **Of 15 parameters: 1 measured, 3 first-principles, 2 derived, 4 calibrated — only 1 truly free.** The "dark sector" doesn't require any new particle masses, cross-sections, or cosmological-constant fine-tuning.
@@ -181,7 +181,7 @@ Level    N    Clifford Structure                  First-principles
 
 **Numerical values (unchanged from A2):**
 - ε = 6.32×10⁻³⁴
-- f_DE,closed = 1.79×10⁻⁹⁰
+- $f_{\rm DE}$,closed = 1.79×10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - ρ_DE = 2.5×10⁻⁴⁷ GeV⁴ (EXACT)
@@ -199,16 +199,16 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 | System | Empirical g₊ | MOND | SIDC |
 |---|---|---|---|
 | Isolated spiral (SPARC) | 1.2×10⁻¹⁰ m/s² | PASS | PASS |
-| Massive cluster (Tian+ 2024) | 1.7×10⁻⁹ m/s² | **FAIL** (a₀ mismatch) | **PASS** (E_crit scaling) |
-| Dwarf galaxy (low SB) | Variable | Fail | **PASS** (E_crit threshold) |
+| Massive cluster (Tian+ 2024) | 1.7×10⁻⁹ m/s² | **FAIL** (a₀ mismatch) | **PASS** ($E_{\rm crit}$ scaling) |
+| Dwarf galaxy (low SB) | Variable | Fail | **PASS** ($E_{\rm crit}$ threshold) |
 
-**MOND's weakness**: works for isolated spirals but fails in massive clusters. The cluster acceleration is 10× higher than MOND's a₀, forcing MOND to invoke unseen baryonic gas or sterile neutrinos. **SIDC scales naturally from galaxy to cluster via E_crit.**
+**MOND's weakness**: works for isolated spirals but fails in massive clusters. The cluster acceleration is 10× higher than MOND's a₀, forcing MOND to invoke unseen baryonic gas or sterile neutrinos. **SIDC scales naturally from galaxy to cluster via $E_{\rm crit}$.**
 
 ### SIDC vs Emergent / Entropic Gravity (Verlinde)
 
 | Galaxy | Entropic | SIDC |
 |---|---|---|
-| AGC 114905 (diffuse, never crossed E_crit) | DM-rich (wrong) | DM-poor **PASS** |
+| AGC 114905 (diffuse, never crossed $E_{\rm crit}$) | DM-rich (wrong) | DM-poor **PASS** |
 | KKR 25 (post-starburst, intense history) | DM-rich **PASS** | DM-rich **PASS** |
 
 **Entropic gravity lacks a historical clock.** It struggles with two galaxies of nearly identical baryonic mass but opposite DM content. **SIDC has a Stellar Age Lifecycle** that explains the bifurcation via event history.
@@ -223,7 +223,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 | Empirical fit (SPARC) | Not native | 10% median residual |
 | Cluster g₊ | Not native | Naturally scaled |
 
-**Top-down complexity failure**: ADD/RS posit a static higher-dimensional bulk. They treat extra dimensions as permanent plumbing. They don't natively explain the dark sector without added scalar fields. **SIDC's extra dimensions are dynamic** — our universe actively spawns lower-dimensional spaces (3+1D → 2D) when localized energy density passes E_crit.
+**Top-down complexity failure**: ADD/RS posit a static higher-dimensional bulk. They treat extra dimensions as permanent plumbing. They don't natively explain the dark sector without added scalar fields. **SIDC's extra dimensions are dynamic** — our universe actively spawns lower-dimensional spaces (3+1D → 2D) when localized energy density passes $E_{\rm crit}$.
 
 ---
 
@@ -231,17 +231,17 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 
 ### Strengths
 
-- **Local physics is strong**: RAR matches SPARC to 10% median residual; AGN host DM strongly supported at p < 10⁻⁵⁰ partial correlation; g₊ approximately constant across 4.5 decades in M_b (r=+0.19, p=0.22).
+- **Local physics is strong**: RAR matches SPARC to 10% median residual; AGN host DM strongly supported at p < 10⁻⁵⁰ partial correlation; g₊ approximately constant across 4.5 decades in $M_b$ (r=+0.19, p=0.22).
 - **Parsimony**: 1 geometric process vs ΛCDM's 20+ free parameters. **No DM particle. No cosmological constant.**
-- **First-principles structure**: All components of the cascade now derive from SM count, Clifford algebras (Cℓ(6) is isomorphic to the SM algebra, Stoica 2018), and Bott periodicity. The cascade **structure** is end-to-end first-principles (L308ba-L308bk chain); the **quantitative values** (ε, f_DE, f_leak) are calibrated to observation.
+- **First-principles structure**: All components of the cascade now derive from SM count, Clifford algebras (Cℓ(6) is isomorphic to the SM algebra, Stoica 2018), and Bott periodicity. The cascade **structure** is end-to-end first-principles (L308ba-L308bk chain); the **quantitative values** (ε, $f_{\rm DE}$, f_leak) are calibrated to observation.
 - **Empirical match**: ρ_DE within 0.13% of observation; scaling law holds over 54 orders of magnitude; 16/17 test categories consistent (1 confounded).
 - **Time direction**: The cone is asymmetric in time direction (L308x). $\gamma_{\rm 4D} = 1.10×10¹¹¹$ and $\gamma_{\rm 2D} = 5.5×10⁴⁴$ are both cascade amplification factors (not SR time dilation — they are dimensionless frame-dilation exponents relating energy scale to clock rate, see L308bs/L308bw).
 - **CMB-era consistency**: L308ab shows f_leak = H(z) drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
-- **N_sub derived**: L308ad gives N_sub ≈ N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) = 382 ± 6, matching framework's 386 within 1.6%.
+- **N_sub derived**: L308ad gives N_sub ≈ N_12 × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3) = 382 ± 6, matching framework's 386 within 1.6%.
 
 ### Weaknesses
 
-- **Hubble tension**: ACCEPTED as real tension. H₀,₄D = 70.16 is a geometric-mean property but specific H₀ values are not derived. SIDC's prediction H₀ = 73 (local) matches local measurements but leaves 5.6 km/s/Mpc gap to Planck CMB H₀ = 67.4 unresolved. **REJECTED (L308bl)**: User correctly identified that f_leak is for DM (attractive gravity), not DE (repulsive antigravity). The Hubble tension is fundamentally about H_0/DE, not DM. No direct connection via f_leak.
+- **Hubble tension**: ACCEPTED as real tension. H₀,₄D = 70.16 is a geometric-mean property but specific H₀ values are not derived. SIDC's prediction H₀ = 73 (local) matches local measurements but leaves 5.6 km/s/Mpc gap to Planck CMB H₀ = 67.4 unresolved. **REJECTED (L308bl)**: User correctly identified that f_leak is for DM (attractive gravity), not DE (repulsive antigravity). The Hubble tension is fundamentally about $H_0$/DE, not DM. No direct connection via f_leak.
 - **No unique testable predictions beyond ΛCDM precision**: SIDC has 3 sharp predictions (w = -1 EXACTLY, DE/DM ∝ (1+z)⁻³ EXACTLY, $M_{\rm Pl,2D} = 2.95$TeV) that overlap with ΛCDM and MOND in regime, but SIDC's *tightness* (exact match, no evolution) is unique. Future surveys (Euclid, Roman, SKA) can discriminate if precision reaches the tight/loose boundary. SIDC's deeper value is *interpretive* and *parsimonious*.
 - **2D CFT requires expert input**: Full Lagrangian requires 2D CFT expert to fill in remaining details (Lagrangian scores 93% in audit, was 73%).
 - **Halving rule origin**: N_D = 12/2^(D-2) is now first-principles via spinor dim doubling (L308bj), but the deeper origin of "12" as total real DOF budget is the SM fermion count (L308r), not derived from more fundamental physics.
@@ -259,9 +259,9 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 3. **Dwarf g₊ correlates with recent star formation rate**, not total M*.
 4. **DM fraction in quiescent galaxies should be LOWER** than in identical-mass active galaxies (phase-transition test).
 5. **AGC 114905 has no high-energy events above 10³⁰ J** in its recent history (testable with deep X-ray/radio).
-6. **47 Tucanae (NGC 104)**: M_dyn ≈ M_stars (no local DM spike). Falsifiable by Rubin/LSST DP1 (2025), DR1 (2027), Y10 (2034).
+6. **47 Tucanae (NGC 104)**: $M_{\rm dyn}$ ≈ M_stars (no local DM spike). Falsifiable by Rubin/LSST DP1 (2025), DR1 (2027), Y10 (2034).
 7. **CMB at z=1100: Ω_c = 0.265** — confirmed by Planck 2018.
-8. **N_sub ≈ 386** for our universe — L308ad: N_sub = N_12 × (M_Pl,4D/M_Pl,3D)^(1/3) = 382 ± 6.
+8. **N_sub ≈ 386** for our universe — L308ad: N_sub = N_12 × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3) = 382 ± 6.
 
 ---
 
@@ -305,8 +305,8 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ### Legacy docs (for historical context)
 
 - `paper/legacy/v359_README_legacy_sections.md` — historical README sections
-- `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` — Hill function F_p(z) (DROPPED v3.3+)
-- `paper/legacy/v357_f_back_clarification.md` — f_back naming revolution (v3.5.7+)
+- `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` — Hill function $F_p$(z) (DROPPED v3.3+)
+- `paper/legacy/v357_f_back_clarification.md` — $f_{\rm back}$ naming revolution (v3.5.7+)
 - `paper/legacy/v358_user_driven_refinements.md` — v3.5.8 audit details
 - `paper/legacy/v359_path_B2_rejected.md` — Path B2 (rejected)
 - `paper/legacy/v359_audit_housekeeping.md` — A1 details
@@ -317,7 +317,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ## ⚠️ What this paper is NOT
 
 - **Not a finished theory**. It is a **thought experiment**.
-- **Not a derivation from first principles** (in the strict sense). The cascade **structure** (12, 6, 3 brane levels, Bott periodicity halving rule, Cℓ(6) SM algebra isomorphism) is end-to-end first-principles (L308ba-L308bk). The **quantitative values** (ε, f_DE, f_leak, τ_4D, AGN rate) are still calibrated to observation, not derived. The framework is a *structural* first-principles theory, not a *quantitative* one.
+- **Not a derivation from first principles** (in the strict sense). The cascade **structure** (12, 6, 3 brane levels, Bott periodicity halving rule, Cℓ(6) SM algebra isomorphism) is end-to-end first-principles (L308ba-L308bk). The **quantitative values** (ε, $f_{\rm DE}$, f_leak, τ_4D, AGN rate) are still calibrated to observation, not derived. The framework is a *structural* first-principles theory, not a *quantitative* one.
 - **Not predictively unique**. SIDC has 0 unique testable predictions beyond ΛCDM and MOND. Its value is *interpretive* and *parsimonious*.
 - **Not written by a physicist**. By a software developer with AI assistance.
 

@@ -5,7 +5,7 @@
 1. **Mathematical audit** found three inconsistencies in v3.3+ formulas (γ_4D formula, τ_3D,apparent units, M^α at 4D level)
 2. **L26 FULL CLOSURE** (L308t): framework values UPDATED to consistent derivation
 3. **WHY N=12?** (L308u, BREAKTHROUGH): Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
-4. **L138 PARTIAL CLOSURE** (L308v): M_Pl,4D via α-GM closed loop
+4. **L138 PARTIAL CLOSURE** (L308v): $M_{\rm Pl,4D}$ via α-GM closed loop
 5. **APPROACH A1** (HISTORICAL June 21, superseded by A2 June 22, §7.4.20): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
    - γ_4D stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
    - τ_3D,apparent = 1.66×10¹⁴⁵ (A2: α_4D=1.577) yr (REINSTATED)
@@ -22,13 +22,13 @@
 - 1 MEASURED: $M_{\rm Pl,3D}$
 - 4 FIRST-PRINCIPPLES: α, $M_{\rm Pl,2D}$, μ, N=12 (was 3)
 - 2 DERIVED: $M_{\rm Pl,4D}$ (α-GM, L308v), **$E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$** (L308o, was calibrated)
-- 5 CALIBRATED: ε, τ_4D, AGN rate, $f_{\rm leak} = H_0$ (E_4D moved to DERIVED per L308z, was 4 in pre-L308z pre-A1)
+- 5 CALIBRATED: ε, τ_4D, AGN rate, $f_{\rm leak} = H_0$ ($E_{\rm 4D}$ moved to DERIVED per L308z, was 4 in pre-L308z pre-A1)
 - 3 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), τ_3D,apparent, γ_4D
 - 1 FREE: $N_{\rm sub}$ (event-specific, our universe's 4D event had N=386)
 
 **L308z REFRAME (v3.5.9+)**:
 - N_sub is the FREE parameter (specific to each 4D event)
-- E_4D was "calibrated" but is actually DERIVED from N_sub × E_sub
+- $E_{\rm 4D}$ was "calibrated" but is actually DERIVED from N_sub × $E_{\rm sub}$
 - DE match becomes a consistency check, not the calibration driver
 - Different 4D events would have different N_sub (sub-galaxy: N=4, supercluster: N=400,000)
 
@@ -50,7 +50,7 @@
 
 **Reason for sub-version (A2 within v3.5.9+)**:
 1. α is now dim-specific (α_2D = 1.289, α_3+1D = 1.408, α_4D = 1.577)
-2. f_back → f_DE,closed (LEGACY naming retired, f_DE,simple/closed formulas)
+2. $f_{\rm back}$ → $f_{\rm DE}$,closed (LEGACY naming retired, $f_{\rm DE}$,simple/closed formulas)
 3. N=12 downgraded FIRST-PRINCIPPLES → STRUCTURAL (L308ag, 1-1 mapping not derivation)
 4. L308ax: frame-neutral leak naming (f_leak,2D→3D, f_leak,3D→4D)
 5. Web research audit for first-principles (L43/L138/L144/L142a, NEGATIVE result)
@@ -59,33 +59,33 @@
 - **α dim-specific**: α_2D = 1.289 (Schwarzian SYK N=12), α_3+1D = 1.408 (predicted), α_4D = 1.577 (predicted)
 - **ε recalibrated**: 10⁻³⁸ (A1) → 6.32×10⁻³⁴ (A2, +4.8 orders)
 - **f × ε = 1.13×10⁻¹²³ INVARIANT** preserved (ρ_DE = 2.5×10⁻⁴⁷ EXACT match in BOTH formulas)
-- **kL recalibrated**: 87.5 (A1) → 76.4 (A2), ΔkL = -11.1
-- **γ_4D FORMULA FIX (CRITICAL)**: γ_4D = (E_4D/M_Pl,3D)^α (uses M_Pl,3D parent reference, NOT M_Pl,4D). Correct value: 1.10×10¹¹¹. Old formula gave 8.4×10¹⁰³ (wrong)
+- **$kL$ recalibrated**: 87.5 (A1) → 76.4 (A2), ΔkL = -11.1
+- **γ_4D FORMULA FIX (CRITICAL)**: γ_4D = ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α (uses $M_{\rm Pl,3D}$ parent reference, NOT $M_{\rm Pl,4D}$). Correct value: 1.10×10¹¹¹. Old formula gave 8.4×10¹⁰³ (wrong)
 - **τ_3D,apparent updated**: 9.10×10¹²⁴ (v3.5.9+) → 1.66×10¹⁴⁵ yr (A2, with corrected γ_4D)
 
-**f_DE FORMULAS (A2 NAMING, was f_back in legacy)**:
-- f_DE,simple = 1.13×10⁻⁸⁵ (uses α_2D = 1.289, ε = 1×10⁻³⁸)
-- f_DE,closed = 1.79×10⁻⁹⁰ (uses α_4D = 1.577, ε = 6.32×10⁻³⁴)
-- f_back = LEGACY name (v3.0+), retired in v3.5.7+ naming revolution
-- DE formula: ρ_DE = f_DE,closed × ε × M_Pl,3D⁴ (was f_back × ε × M_Pl,3D⁴)
+**$f_{\rm DE}$ FORMULAS (A2 NAMING, was $f_{\rm back}$ in legacy)**:
+- $f_{\rm DE}$,simple = 1.13×10⁻⁸⁵ (uses α_2D = 1.289, ε = 1×10⁻³⁸)
+- $f_{\rm DE}$,closed = 1.79×10⁻⁹⁰ (uses α_4D = 1.577, ε = 6.32×10⁻³⁴)
+- $f_{\rm back}$ = LEGACY name (v3.0+), retired in v3.5.7+ naming revolution
+- DE formula: ρ_DE = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴ (was $f_{\rm back}$ × ε × $M_{\rm Pl}$,3D⁴)
 
 **PARAMETER HIERARCHY (A2)**:
-- 1 MEASURED: M_Pl,3D = 1.22×10¹⁹ GeV
-- 3 FIRST-PRINCIPPLES (was 4, N=12 downgraded per L308ag): α = 1.289, M_Pl,2D = 2955 GeV, μ = 8.73×10⁶ GeV²
-- 2 DERIVED: M_Pl,4D = 3.93×10²³ GeV (α-GM, L308v), E_4D = 5×10⁷⁹ J
-- 4 STRUCTURAL: E_sub = 1.295×10⁷⁷ J, τ_3D,apparent = 1.66×10¹⁴⁵ yr, γ_4D = 1.10×10¹¹¹, N=12 (per L308ag)
-- 4 CALIBRATED (was 5, f_leak is 4th NOT 5th): ε = 6.32×10⁻³⁴, τ_4D = 1.51×10³⁴ yr, AGN rate, f_leak,3D→4D = H_0
+- 1 MEASURED: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV
+- 3 FIRST-PRINCIPPLES (was 4, N=12 downgraded per L308ag): α = 1.289, $M_{\rm Pl,2D}$ = 2955 GeV, μ = 8.73×10⁶ GeV²
+- 2 DERIVED: $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (α-GM, L308v), $E_{\rm 4D}$ = 5×10⁷⁹ J
+- 4 STRUCTURAL: $E_{\rm sub}$ = 1.295×10⁷⁷ J, τ_3D,apparent = 1.66×10¹⁴⁵ yr, γ_4D = 1.10×10¹¹¹, N=12 (per L308ag)
+- 4 CALIBRATED (was 5, f_leak is 4th NOT 5th): ε = 6.32×10⁻³⁴, τ_4D = 1.51×10³⁴ yr, AGN rate, f_leak,3D→4D = $H_0$
 - 1 FREE: N_sub = 386
 - **Total: 15 parameters** (1+3+2+4+4+1)
 
 **L308ax (Frame-Neutral Leak Naming, USER INSIGHT)**:
 - f_DM,leak → f_leak,2D→3D (1.6×10⁻⁴⁵, frame-neutral, transition-explicit)
-- f_leak → f_leak,3D→4D (= H_0, frame-neutral, transition-explicit)
+- f_leak → f_leak,3D→4D (= $H_0$, frame-neutral, transition-explicit)
 - **NATURAL CASCADE LEAKS DROPPED AS NEGLIGIBLE**:
   - f_leak,2D→3D (natural) = 1.6×10⁻⁴⁵ (88 orders below death pulse)
-  - f_leak,3D→4D (natural) = ~10⁻⁸⁶ (67 orders below H_0)
-  - 27-order gap: f_leak = H_0 is CALIBRATED stability principle, not natural
-- **DM picture simplified**: 100% pulsed at 2D death (with γ_2D growth) + f_leak,3D→4D = H_0 calibrated drain
+  - f_leak,3D→4D (natural) = ~10⁻⁸⁶ (67 orders below $H_0$)
+  - 27-order gap: f_leak = $H_0$ is CALIBRATED stability principle, not natural
+- **DM picture simplified**: 100% pulsed at 2D death (with γ_2D growth) + f_leak,3D→4D = $H_0$ calibrated drain
 - §7.4.42b in 06_limitations.md
 - 5 files changed, 154 insertions, 24 deletions
 - Commit 025a6cc (pushed)
@@ -99,18 +99,18 @@
 - Sweep 18: Stale "4/15 first-principles" → "3/15 first-principles" (N=12 STRUCTURAL per L308ag)
 - Sweep 19: Page count consistency (476 → 478 in README/STATE_OF_THE_MODEL)
 - Sweep 21: New legacy file `v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
-- Sweep 24-30: A2 value updates (ε=6.32e-34, f_DE,simple/closed)
-- Sweep 59-77: Cross-doc numerical verification (H_0, r_s, CMB peaks)
+- Sweep 24-30: A2 value updates (ε=6.32e-34, $f_{\rm DE}$,simple/closed)
+- Sweep 59-77: Cross-doc numerical verification ($H_0$, r_s, CMB peaks)
 - Sweep 78-80: L308 list in exec summary completed
 - Sweep 81-98: Final verification (no active v3.5.9+ A1 refs)
 - 8+ commits this session, all pushed
 
 **WEB RESEARCH AUDIT FOR FIRST-PRINCIPLES (NEGATIVE RESULT)**:
-- Targets: L43 (α from 2D CFT), L138 (M_Pl,4D closed), L144 (N_sub first-principles), L142a (4π origin)
+- Targets: L43 (α from 2D CFT), L138 ($M_{\rm Pl,4D}$ closed), L144 (N_sub first-principles), L142a (4π origin)
 - Verdict: HONEST NEGATIVE. ~30 search queries, ~150 results examined across holographic bounds, JT gravity, Schwarzian derivatives, brane cosmology, multi-universe models, entropy bounds, Planck scale derivations in extra-dim models
 - L43: Best is L308n (Schwarzian SYK N=12, 0.025% match)
 - L138: Best is L308v (α-GM closed loop, 1.2% match)
-- L144: Best is L308ad (N_12 × (M_Pl,4D/M_Pl,3D)^(1/3), 1.6% match)
+- L144: Best is L308ad (N_12 × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3), 1.6% match)
 - L142a: Best is S² boundary hypothesis (structural)
 - **Honest framing**: 1.6%/1.2%/0.025% matches are CONSISTENT with first-principles inputs, NOT DERIVED from them
 - New file: `paper/legacy/v359_legacy_first_principles_research_audit.md` (13,272 bytes)
@@ -293,7 +293,7 @@ being interpreted by the markdown parser as italic/subscript and
 showing as raw text on the phone viewer.
 
 **Fixed:**
-- `T_{D-1} ∝ $E_{\rm D}$^1.29` → `$T_{D-1} \propto E_D^{1.29}$`
+- `T_{D-1} ∝ $E_{\rm D}$^1.29` → `$T_{D-1} \propto $E_{\rm D}$^{1.29}$`
 - `M_{Pl,4} ≥ 887 GeV` → `$M_{Pl,4} \geq 887$ GeV`
 - `2×10²⁶ yr` → `$2 \times 10^{26}$ yr`
 - `T ∝ E^1, T ∝ E²` → `$T \propto E^1$, $T \propto E^2$`
@@ -4913,7 +4913,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 **Reason for version bump:** Three major consistency findings after A1 framework audit:
 
 1. **CRITICAL MATH FIX (pass 8)**: γ_4D formula in 03b_predictions.md was
-   γ_4D = (E_4D/M_Pl,4D)^α but should be (E_4D/M_Pl,3D)^α (M_Pl,3D, not M_Pl,4D).
+   γ_4D = (E_4D/$M_{\rm Pl,4D}$)^α but should be (E_4D/M_Pl,3D)^α (M_Pl,3D, not $M_{\rm Pl,4D}$).
    The original formula gives 8.4e103, the correct formula gives 1.10e111 ✓
 
 2. **NAMING REVOLUTION (pass 10, USER-CAUGHT)**: `f_back` is the LEGACY name
@@ -4955,12 +4955,12 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 
 **State at v3.5.9+ A2**:
 - 144 master table limitations (156 with L308af-ay in A2)
-- 15 parameters: 1 MEASURED + 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ) + 2 DERIVED (M_Pl,4D, E_4D) + 4 CALIBRATED (ε, τ_4D, AGN, f_leak) + 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12) + 1 FREE (N_sub)
+- 15 parameters: 1 MEASURED + 3 FIRST-PRINCIPLES (α, M_Pl,2D, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, E_4D) + 4 CALIBRATED (ε, τ_4D, AGN, f_leak) + 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12) + 1 FREE (N_sub)
 - 476 pages, 1.94 MB
 - 50 unique L308 entries (a-ay minus ax)
 - All values consistent: γ_4D=1.10e111, τ_3D,apparent=1.66e145 yr,
-  f_DE,closed=1.79e-90, ε=6.32e-34, M_Pl,4D=3.93e23 GeV, ρ_DE=2.5e-47,
-  M_Pl,2D=2.95 TeV, μ=8.73e6 GeV², N_sub=386, E_sub=1.295e77 J
+  f_DE,closed=1.79e-90, ε=6.32e-34, $M_{\rm Pl,4D}$=3.93e23 GeV, ρ_DE=2.5e-47,
+  $M_{\rm Pl,2D}$=2.95 TeV, μ=8.73e6 GeV², N_sub=386, $E_{\rm sub}$=1.295e77 J
 
 
 **L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford C(6) SM algebra, Stoica 2018). No numerical changes.

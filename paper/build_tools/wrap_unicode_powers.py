@@ -26,18 +26,50 @@ import sys
 #   [⁰¹²³⁴⁵⁶⁷⁸⁹]+   unicode superscript digits
 UNICODE_POWER = r'(?<![$\d.])10[⁻⁺][⁰¹²³⁴⁵⁶⁷⁸⁹]+(?![⁰¹²³⁴⁵⁶⁷⁸⁹])'
 
+# ASCII power notation: 10^{-18}, 10^{+23}, etc.
+# DISABLED by default — wrapping these in $...$ creates broken states when
+# the surrounding math is already broken (e.g., $\sigma < 9.2 \times 10^{-48}$ {\rm cm}^2$
+# becomes $\sigma < 9.2 \times $10^{-48}$ {\rm cm}^2$, which is worse).
+# Source-level fixes for ASCII 10^{-N} are preferred.
+# ASCII_NEG_POWER = r'(?<![\$\d.])10\^\{?-\d+\}?(?![0-9])'
+# ASCII_POS_POWER = r'(?<![\$\d.])10\^\{?\+\d+\}?(?![0-9])'
+
 
 def find_math_ranges(text):
-    """Find character positions inside $...$ or $$...$$."""
+    """Find character positions inside $...$ or $$...$$.
+
+    Handles inline code (`...`) and code blocks (```...```) — their
+    contents are NOT math, even if they contain $ or $$.
+    """
     ranges = []
-    state = 0  # 0=text, 1=inline, 2=display
+    state = 0  # 0=text, 1=inline math, 2=display math
+    in_code_block = False
+    in_inline_code = False
     open_pos = 0
     i = 0
     while i < len(text):
+        # Code block: ``` ... ```
+        if i + 3 <= len(text) and text[i:i+3] == '```':
+            in_code_block = not in_code_block
+            i += 3
+            continue
+        if in_code_block:
+            i += 1
+            continue
+        # Inline code: ` ... `
+        if text[i] == '`':
+            in_inline_code = not in_inline_code
+            i += 1
+            continue
+        if in_inline_code:
+            i += 1
+            continue
+        # Escape: \\X
         c = text[i]
         if c == '\\' and i + 1 < len(text):
             i += 2
             continue
+        # Math: $...$ or $$...$$
         if c == '$':
             if i + 1 < len(text) and text[i+1] == '$':
                 if state == 0:
@@ -53,6 +85,7 @@ def find_math_ranges(text):
                 # inline state, $$ is text
                 i += 2
                 continue
+            # Single $
             if state == 0:
                 state = 1
                 open_pos = i
@@ -63,6 +96,7 @@ def find_math_ranges(text):
                 state = 0
                 i += 1
                 continue
+            # state == 2 (display): single $ is text
             i += 1
             continue
         i += 1
@@ -77,20 +111,46 @@ def is_in_math(pos, ranges):
 
 
 def is_in_code(text, pos):
-    """Check if pos is inside ``` code block or ` inline code."""
-    # Check for ``` code block
-    code_start = text.rfind('```', 0, pos)
-    if code_start != -1:
-        code_end = text.find('```', code_start + 3)
-        if code_end == -1 or code_end > pos:
-            return True
-    # Check for ` inline code
-    backtick = text.rfind('`', 0, pos)
-    if backtick != -1:
-        close = text.find('`', backtick + 1)
-        if close != -1 and close > pos:
-            return True
-    return False
+    """Check if pos is inside ``` code block or ` inline code.
+
+    Uses a stateful scan (proper handling of paired backticks).
+    """
+    in_code_block = False
+    in_inline = False
+    inline_open = 0
+    i = 0
+    while i < pos:
+        # Check for ``` code block start/end
+        if i + 3 <= len(text) and text[i:i+3] == '```':
+            if in_code_block:
+                # End of code block
+                in_code_block = False
+                i += 3
+                continue
+            else:
+                in_code_block = True
+                i += 3
+                continue
+        if in_code_block:
+            i += 1
+            continue
+        # Check for ` inline code
+        if text[i] == '`':
+            if in_inline:
+                # Closing
+                in_inline = False
+                i += 1
+                continue
+            else:
+                in_inline = True
+                inline_open = i
+                i += 1
+                continue
+        if not in_inline:
+            i += 1
+            continue
+        i += 1
+    return in_code_block or in_inline
 
 
 def unicode_to_latex(power_str):
@@ -134,6 +194,13 @@ def process_file(filepath):
         if any(skip in ctx for skip in ['.md', '.py', '.tex', 'http', 'github.com']):
             continue
         replacements.append((pos, m.end(), unicode_to_latex(m.group(0))))
+
+    # ASCII 10^{-N} handler DISABLED (see top of file for rationale).
+    # Wrapping ASCII patterns can break already-broken math contexts.
+    # Source-level fixes are preferred for ASCII 10^{-N}.
+    # for pattern in [ASCII_NEG_POWER, ASCII_POS_POWER]:
+    #     for m in re.finditer(pattern, content):
+    #         ...
 
     if not replacements:
         return 0

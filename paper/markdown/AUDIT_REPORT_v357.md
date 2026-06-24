@@ -20,11 +20,11 @@ Apparent "0 occurrences" were due to notation differences.
 | $\mu$ = 8.73×10⁶ GeV² | 6 | (varies) | ✓ CONSISTENT |
 | $E_{\rm 4D}$ = 5×10⁷⁹ J | 25 | 21 | ✓ CONSISTENT |
 | $N_{\rm sub} = 3$.86×10² | 62 | 67 | ✓ CONSISTENT |
-| AGN rate = 3×10⁻¹⁶ | 16 | 3 | ✓ CONSISTENT |
+| AGN rate = 3× $10^{-16}$ | 16 | 3 | ✓ CONSISTENT |
 | $\tau_{\rm SN}$ = 33 s | 388 | (varies) | ✓ CONSISTENT |
 | 5/27/68 split | 419 | (varies) | ✓ CONSISTENT |
 | 0.13% DE (simple $f_{\rm DE}$) / 2.7% (bilateral) | 20 | (varies) | ✓ CONSISTENT |
-| $\epsilon$ = 10⁻³⁸ | 40 | (varies) | ✓ CONSISTENT |
+| $\epsilon$ = $10^{-38}$ | 40 | (varies) | ✓ CONSISTENT |
 
 ## Notation Difference (NOT inconsistency)
 
@@ -33,7 +33,7 @@ Apparent "0 occurrences" were due to notation differences.
 | $\tau_{\rm 3D}$,apparent | $\tau_{\rm 3D}$,apparent (text) | 9.10×10²⁴ (numeric, **UNITS ERROR — audit fixed to 1.66×10¹⁴⁵ (A2)**) |
 | $\gamma_{\rm 4D}$ | $\gamma_{\rm 4D}$ (text) | 1.10×10¹¹¹ (A2) (numeric, **L308t updated precision to 1.10×10¹¹¹ (A2)**) |
 | $\tau_{\rm 4D}$ | $\tau_{\rm 4D}$ (text) | 1.51×10³⁴ (numeric) |
-| age ratio | (mentioned as "day 1") | 1.5×10⁻¹⁵ (numeric) |
+| age ratio | (mentioned as "day 1") | 1.5× $10^{-15}$ (numeric) |
 
 Both notations exist in BOTH files (just used in different contexts).
 

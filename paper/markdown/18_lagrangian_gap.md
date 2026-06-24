@@ -12,12 +12,12 @@ $$S_{\rm SIDC} = S_{4D} + S_{3+1D} + \sum_{\rm events} S_{2D} + S_{\rm proj} + S
 
 | Component | Status | Source |
 |---|---|---|
-| S_4D (4D bulk event) | ✓ Implemented | L308bn ( $M_{\rm Pl,4D} = 3.93×10²³ GeV$via α-GM) |
-| S_3+1D (3+1D brane) | ✓ Implemented | Standard + SM |
-| S_2D (per 2D universe) | ⚠️ Partially implemented | Form written, exact Z_2D unclear |
+| $S_{\rm 4D}$ (4D bulk event) | ✓ Implemented | L308bn ( $M_{\rm Pl,4D} = 3.93×10²³ GeV$via α-GM) |
+| $S_{\rm 3+1D}$ (3+1D brane) | ✓ Implemented | Standard + SM |
+| $S_{\rm 2D}$ (per 2D universe) | ⚠️ Partially implemented | Form written, exact Z_2D unclear |
 | S_proj (projection) | ✓ Structurally implemented | L308az (mirror plane) |
 | S_mirror (mirror plane) | ✓ Implemented | L308az explicit |
-| S_drain (DM stability) | ✓ Implemented | L308ax (f_leak = H_0) |
+| S_drain (DM stability) | ✓ Implemented | L308ax (f_leak = $H_0$) |
 
 The 4% gap consists of:
 1. Exact 2D CFT partition function Z_2D
@@ -41,7 +41,7 @@ where each Z is the partition function of that sector.
 
 $$Z_{4D} = \int \mathcal{D}\Phi_{4D} \exp\left(i \int d^4x \sqrt{-g_4} \left[\frac{R_4}{16\pi G_4} + N_{4D} \mathcal{L}_{4D}\right]\right)$$
 
-**Status**: ✓ Implemented via L308bn. The α-GM derivation gives $M_{\rm Pl,4D} = 3.93×10²³ GeV$, which enters S_4D directly.
+**Status**: ✓ Implemented via L308bn. The α-GM derivation gives $M_{\rm Pl,4D} = 3.93×10²³ GeV$, which enters $S_{\rm 4D}$ directly.
 
 **Expertise needed**: Standard GR/QFT.
 
@@ -155,7 +155,7 @@ where c_s is the brane sound speed.
 
 **Difficulty**: 1-3 months.
 
-**Status**: f_leak = H_0 (calibrated, L308ax). This is the "post-Friedmann principle" — DM stability is maintained by Hubble-scale dynamics.
+**Status**: f_leak = $H_0$ (calibrated, L308ax). This is the "post-Friedmann principle" — DM stability is maintained by Hubble-scale dynamics.
 
 ### §18.4.3 N values origin (LOW)
 

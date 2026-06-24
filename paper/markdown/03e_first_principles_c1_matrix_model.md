@@ -2,7 +2,7 @@
 
 **⚠️ HISTORICAL (v3.3.8) — REVERTED in v3.5.8+ L308r**
 
-**M_Pl,2D is NOW FIXED at 2.95 TeV (L308r, N=12 × v_Higgs structural). The Option A 'event-dependent M_Pl,2D' was REVERTED in v3.5.8+. This document preserves the v3.3.8 analysis for historical reference.**
+** $M_{\rm Pl,2D}$ is NOW FIXED at 2.95 TeV (L308r, N=12 × $v_{\rm Higgs}$ structural). The Option A 'event-dependent $M_{\rm Pl,2D}$' was REVERTED in v3.5.8+. This document preserves the v3.3.8 analysis for historical reference.**
 
 ---
 
@@ -93,7 +93,7 @@ We tested several alternatives:
 |---|---|---|---|---|
 | **v3.3 (universal $\mu$)** | 8.73×10⁶ | 8.73×10⁶ | 8.73×10⁶ | None |
 | **v3.3.6 ( $E/\tau$** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
-| **Energy-based ( $E^{\alpha}$)** | 8.73×10⁶ | 4.2×$10^{-37}$ | 1.3×$10^{-29}$ | Opposite (also weird) |
+| **Energy-based ( $E^{\alpha}$)** | 8.73×10⁶ | 4.2× $10^{-37}$ | 1.3× $10^{-29}$ | Opposite (also weird) |
 | **Capped ( $\mu$ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
 
 The energy-based formula gives OPPOSITE weirdness (TNT very small $\mu$, quasar very large).

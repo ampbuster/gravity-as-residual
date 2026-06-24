@@ -1,15 +1,15 @@
 
-> **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
+> **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab f_leak = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The f × ε invariant (1.13×10⁻¹²³) is preserved in A2 (ε = 6.32×10⁻³⁴). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab f_leak = H(z) (CMB gap closure) used A1 ε = $10^{-38}$. The f × ε invariant (1.13× $10^{-123}$) is preserved in A2 (ε = 6.32× $10^{-34}$). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
 
 <!-- 13_cmb_gap.md - part of paper.md split (v3.0.13) -->
 
-## 13. SIDC's CMB Gap: an Honest Limitation (June 2026) — *HISTORICAL (v2.7.5: CLOSED, v3.3+: F_p FRAMEWORK DROPPED)*
+## 13. SIDC's CMB Gap: an Honest Limitation (June 2026) — *HISTORICAL (v2.7.5: CLOSED, v3.3+: $F_p$ FRAMEWORK DROPPED)*
 
 **LEGACY (v2.7.5+, HISTORICAL)**: The CMB gap was CLOSED in v2.7.5 via the smooth $F_p(z) = 0.7 + 0.3 \cdot z^2/(z_{half}^2 + z^2)$ (Hill function, n=2, $z_{half} \approx 3$). This replaces the v2.4 constant $F_p = 0.7$.
 
@@ -146,11 +146,11 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 
 > "when the universe was small, pressure was higher, so more leaks back to 4d"
 
-**Mechanism**: Generalizing A1's f_leak = H_0 to f_leak = c × H(z) (where c ≈ 1.13):
+**Mechanism**: Generalizing A1's f_leak = $H_0$ to f_leak = c × H(z) (where c ≈ 1.13):
 
 - In early universe (z > 1100): high H(z) → high leak rate → DM doesn't accumulate
 - In late universe (z < 1100): low H(z) → low leak rate → DM reaches steady state
-- Today: f_leak(z=0) = 1.13 × H_0, essentially matching A1
+- Today: f_leak(z=0) = 1.13 × $H_0$, essentially matching A1
 
 **Result**: Drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
 

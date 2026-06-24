@@ -6,7 +6,7 @@
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
 **Current version:** v3.5.9+ A2 (paper) — 597 pages, **169 honest limitations** (144 master + 26 L308af-bl in v3.5.9+ A2)
-**v3.5.9+ A2**: APPROACH A2 (α dim-specific, f_back → f_DE,closed, ε recalibrated, frame-neutral leak naming)
+**v3.5.9+ A2**: APPROACH A2 (α dim-specific, $f_{\rm back}$ → $f_{\rm DE}$,closed, ε recalibrated, frame-neutral leak naming)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)
@@ -60,7 +60,7 @@
     - γ_4D stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
     - τ_3D,apparent = 1.66×10¹⁴⁵ (A2) yr (REINSTATED)
     - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
-  - **L308w, L308x, L308y**: f_leak = H_0 principle, γ consistency, §3.67 coincidence
+  - **L308w, L308x, L308y**: f_leak = $H_0$ principle, γ consistency, §3.67 coincidence
   - 140 limitations (was 139 pre-L308aa, was 138 pre-L308z, was 131 v3.5.8), 395 pages (was 398)
 ---
   - **"12" cascade fundamental unit**: α = 1+1/√12, $M_{\rm Pl,2D}$ = 12×$v_{\rm Higgs}$, $M_{\rm Pl,2D}$/$v_{\rm Higgs}$ = 11.75
@@ -69,7 +69,7 @@
   - Tier 2 (1/9): N_sub (framework choice, weakly constrained)
   - Tier 3 (4/9): derived ($M_{\rm Pl,4D}$, γ_4D, $E_{\rm 4D}$, AND $M_{\rm Pl,2D}$/μ via L308r closed loop)
   - **TIER 4 (NEW v3.5.9)**: FIRST-PRINCIPPLES DERIVED (4/9) — α (L308n), $M_{\rm Pl,2D}$ (L308r), μ (L308r), N=12 (L308u)
-  - L138 (M_Pl,4D via α-GM): PARTIAL CLOSURE (L308v) — closed loop with all first-principles inputs
+  - L138 ($M_{\rm Pl,4D}$ via α-GM): PARTIAL CLOSURE (L308v) — closed loop with all first-principles inputs
   - 11 new calculations, 1 new plot
   - 6 commits pushed
   - Pages: 385 → 393 (+8)
@@ -84,26 +84,26 @@
 **This session (v3.5.8) commits**: f4c4655, 942f725, 20b83ec, 66d4fdc, 2460fcf, f47e052
 **v3.5.8+ NEW**: MCMC parameter search, α = 1+1/√12 first-principles, N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ linear scaling, cone asymmetry (4D linear, 2D one-to-one), 2D universe is discrete quantum, **L26 FULL CLOSURE** (μ = (N×v_H)² = 8.73×10⁶ GeV², framework updated L308t)
 
-**v3.5.9 NEW (June 21, 2026)**: WHY N=12? **Z_12 bulk + 6D anomaly cancellation BREAKTHROUGH (L308u)**. Appelquist et al. 2001 (PRL 87, 031801) proved 3 generations required by anomaly cancellation in 6D spacetime (= 4D + 2D universal extra). Framework's 2D fiber = the 2D universal extra. So N=12 = 3 gens × 4 Weyl = Z_12 orbifold order. Unifies ALL FIVE "12"s in framework. First-principles 3/9 → **4/9**. **L138 PARTIAL CLOSURE via α-GM closed loop (L308v)**: M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = 3.98×10²³ GeV (1.2% match). All 3 inputs first-principles. α-GM encodes cascade's self-similar structure. 133 limitations, 403 pages.
+**v3.5.9 NEW (June 21, 2026)**: WHY N=12? **Z_12 bulk + 6D anomaly cancellation BREAKTHROUGH (L308u)**. Appelquist et al. 2001 (PRL 87, 031801) proved 3 generations required by anomaly cancellation in 6D spacetime (= 4D + 2D universal extra). Framework's 2D fiber = the 2D universal extra. So N=12 = 3 gens × 4 Weyl = Z_12 orbifold order. Unifies ALL FIVE "12"s in framework. First-principles 3/9 → **4/9**. **L138 PARTIAL CLOSURE via α-GM closed loop (L308v)**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 3.98×10²³ GeV (1.2% match). All 3 inputs first-principles. α-GM encodes cascade's self-similar structure. 133 limitations, 403 pages.
 
 **v3.5.9+ A1 → A2 TRANSITION (June 22, 2026, A2 ACTIVE)**:
-- **APPROACH A1 (HISTORICAL, June 21)**: f_leak = H_0 as new principle. §3.67 replaced. 138 limitations, 405 pages.
-- **APPROACH A2 (CURRENT, June 22)**: α dim-specific (α_2D = 1.289 for 2D→3D, α_4D = 1.577 for 3D→4D); f_back → f_DE,closed (LEGACY naming retired); ε recalibrated 1e-38 → 6.32e-34 (+4.8 orders); kL recalibrated 87.5 → 76.4 (ΔkL = -11.1).
+- **APPROACH A1 (HISTORICAL, June 21)**: f_leak = $H_0$ as new principle. §3.67 replaced. 138 limitations, 405 pages.
+- **APPROACH A2 (CURRENT, June 22)**: α dim-specific (α_2D = 1.289 for 2D→3D, α_4D = 1.577 for 3D→4D); $f_{\rm back}$ → $f_{\rm DE}$,closed (LEGACY naming retired); ε recalibrated 1e-38 → 6.32e-34 (+4.8 orders); $kL$ recalibrated 87.5 → 76.4 (ΔkL = -11.1).
 - **f × ε = 1.13×10⁻¹²³ INVARIANT** preserved (ρ_DE = 2.5×10⁻⁴⁷ in BOTH formulas).
 - **L308ag (N=12 downgrade)**: N=12 downgraded from FIRST-PRINCIPPLES → STRUCTURAL (L308u derivation was a 1-1 mapping, not a derivation). First-principles 4/9 → 3/9.
-- **A2 PARAMETER HIERARCHY**: 1 MEASURED + 3 FIRST-PRINCIPPLES (α, M_Pl,2D, μ) + 2 DERIVED (M_Pl,4D, E_4D) + 4 STRUCTURAL (E_sub, τ_3D,apparent, γ_4D, N=12) + 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak=H_0) + 1 FREE (N_sub) = 15 parameters.
+- **A2 PARAMETER HIERARCHY**: 1 MEASURED + 3 FIRST-PRINCIPPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 STRUCTURAL ($E_{\rm sub}$, τ_3D,apparent, γ_4D, N=12) + 4 CALIBRATED (ε=6.32e-34, τ_4D, AGN rate, f_leak=$H_0$) + 1 FREE (N_sub) = 15 parameters.
 
 **v3.5.9+ A2 L308af-ay + L308az (USER-DRIVEN, June 22)**: 14 new limitations (L308af-ay + new L308az geometric mirror plane insight), all awaiting master table update. **169 honest limitations** (144 master + 26 L308af-bl), 597 pages, 1.94 MB.
 
 **v3.5.9+ A2 L308ax FRAME-NEUTRAL LEAK NAMING (June 22, USER INSIGHT)**:
 - f_DM,leak → f_leak,2D→3D (1.6e-45, frame-neutral, transition-explicit)
-- f_leak → f_leak,3D→4D (= H_0, frame-neutral, transition-explicit)
+- f_leak → f_leak,3D→4D (= $H_0$, frame-neutral, transition-explicit)
 - User insight: "f_leak from 2d->3d seen from 2d = f_DM,leak from 2d->3d seen from 3d"
 - **NATURAL CASCADE LEAKS DROPPED AS NEGLIGIBLE**:
   - f_leak,2D→3D (natural) = 1.6e-45 (88 orders below death pulse)
-  - f_leak,3D→4D (natural) = ~10^-86 (67 orders below H_0)
-  - 27-order gap: f_leak = H_0 is CALIBRATED stability principle, not natural
-- **DM picture simplified**: 100% pulsed at 2D death (with γ_2D growth) + f_leak,3D→4D = H_0 calibrated drain
+  - f_leak,3D→4D (natural) = ~10^-86 (67 orders below $H_0$)
+  - 27-order gap: f_leak = $H_0$ is CALIBRATED stability principle, not natural
+- **DM picture simplified**: 100% pulsed at 2D death (with γ_2D growth) + f_leak,3D→4D = $H_0$ calibrated drain
 - §7.4.42b in 06_limitations.md
 - 5 files changed, 154 insertions, 24 deletions
 - Commit 025a6cc (pushed)
@@ -120,18 +120,18 @@
 - Sweep 18: Stale "4/15 first-principles" → "3/15 first-principles" (N=12 STRUCTURAL per L308ag)
 - Sweep 19: Page count consistency (476 → 478 in README/STATE_OF_THE_MODEL)
 - Sweep 21: New legacy file `v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
-- Sweep 24-30: A2 value updates (ε=6.32e-34, f_DE,simple/closed)
-- Sweep 59-77: Cross-doc numerical verification (H_0, r_s, CMB peaks)
+- Sweep 24-30: A2 value updates (ε=6.32e-34, $f_{\rm DE}$,simple/closed)
+- Sweep 59-77: Cross-doc numerical verification ($H_0$, r_s, CMB peaks)
 - Sweep 78-80: L308 list in exec summary completed (L308ar-as, at-au, av-aw, ax, ay added)
-- Sweep 81-98: Final verification (no active v3.5.9+ A1 refs, M_Pl,2D=2955 GeV, M_Pl,4D=3.93e23, α=1.289 all consistent)
+- Sweep 81-98: Final verification (no active v3.5.9+ A1 refs, $M_{\rm Pl,2D}$=2955 GeV, $M_{\rm Pl,4D}$=3.93e23, α=1.289 all consistent)
 - 8+ commits this session, all pushed
 
 **v3.5.9+ A2 WEB RESEARCH AUDIT FOR FIRST-PRINCIPLES (June 22, NEGATIVE RESULT)**:
-- Targets: L43 (α from 2D CFT), L138 (M_Pl,4D closed), L144 (N_sub first-principles), L142a (4π origin)
+- Targets: L43 (α from 2D CFT), L138 ($M_{\rm Pl,4D}$ closed), L144 (N_sub first-principles), L142a (4π origin)
 - Verdict: HONEST NEGATIVE. ~30 search queries, ~150 results examined across holographic bounds, JT gravity, Schwarzian derivatives, brane cosmology, multi-universe models, entropy bounds, Planck scale derivations in extra-dim models. NO closed first-principles derivations found in 2024-2026 literature.
 - L43: Best is L308n (Schwarzian SYK N=12, 0.025% match). HKS bound (2024) constrains 2D CFTs but doesn't give α. JT gravity finite-geometry (Ferrari 2025) gives new boundary condition but not α.
 - L138: Best is L308v (α-GM closed loop, 1.2%). Kuntz-Trautner 2025 (arXiv:2312.09853) gives 4D Planck from two bulk scales (R, R₀) but free choice in framework. Riley 2008 gives n=9.07 (1.6% off).
-- L144: Best is L308ad (N_12 × (M_Pl,4D/M_Pl,3D)^(1/3), 1.6% match). Holographic bounds give entropy, not sub-universe counts. PRL 110.141302 (2013) could in principle give N_sub but requires event-specific calculation.
+- L144: Best is L308ad (N_12 × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3), 1.6% match). Holographic bounds give entropy, not sub-universe counts. PRL 110.141302 (2013) could in principle give N_sub but requires event-specific calculation.
 - L142a: Best is S² boundary hypothesis. Multiple consistent interpretations but no UNIQUE derivation.
 - **Honest framing**: 1.6%/1.2%/0.025% matches are CONSISTENT with first-principles inputs, NOT DERIVED from them. Framework is at the limit of what off-the-shelf literature can offer.
 - New file: `paper/legacy/v359_legacy_first_principles_research_audit.md` (13,272 bytes)
@@ -185,7 +185,7 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - ε = 10⁻³⁸ — CALIBRATED to hierarchy (CC problem, MCMC 0.5σ)
 - AGN rate = 3×10⁻¹⁶ /m³/s — CALIBRATED to 27% DM (MCMC 0.1σ)
 - $M_{\rm Pl,2D}$ = 2.95 TeV — STRUCTURAL (12×$v_{\rm Higgs}$, 1.5% off)
-- **N_sub = 386 — FREE (event-specific, per L308z)** [was SEMI-DERIVED via L308o, but reframe: N_sub is the free parameter for our 4D event; E_4D = N_sub × E_sub is then derived]
+- **N_sub = 386 — FREE (event-specific, per L308z)** [was SEMI-DERIVED via L308o, but reframe: N_sub is the free parameter for our 4D event; $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$ is then derived]
 - $M_{\rm Pl,4D}$ = 3.93×10²³ GeV — DERIVED via α-GM (circular consistency)
 - $E_{\rm 4D}$ = 5×10⁷⁹ J — DERIVED ($M_{\rm Pl,4D}$, τ_4D)
 
@@ -193,10 +193,10 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - **ε: 10⁻³⁸ → 6.32×10⁻³⁴** (A2, +4.8 orders)
 - **γ_4D formula fix**: was ($E_{\rm 4D}$/$M_{\rm Pl,4D}$)^α = 8.4×10¹⁰³, correct is ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α = 1.10×10¹¹¹
 - **τ_3D,apparent: 9.10×10¹²⁴ → 1.66×10¹⁴⁵ yr** (A2, time dilation with corrected γ_4D)
-- **kL: 87.5 → 76.4** (A2, ΔkL = -11.1)
+- **$kL$: 87.5 → 76.4** (A2, ΔkL = -11.1)
 - **N=12: FIRST-PRINCIPPLES → STRUCTURAL** (L308ag downgrade, 1-1 mapping not derivation)
-- **f_DE FORMULAS (A2)**: f_DE,simple = 1.13×10⁻⁸⁵, f_DE,closed = 1.79×10⁻⁹⁰, f×ε = 1.13×10⁻¹²³ invariant
-- **f_back → f_DE,closed** (LEGACY naming retired, A2 uses f_DE,simple/f_DE,closed)
+- **$f_{\rm DE}$ FORMULAS (A2)**: $f_{\rm DE}$,simple = 1.13×10⁻⁸⁵, $f_{\rm DE}$,closed = 1.79×10⁻⁹⁰, f×ε = 1.13×10⁻¹²³ invariant
+- **$f_{\rm back}$ → $f_{\rm DE}$,closed** (LEGACY naming retired, A2 uses $f_{\rm DE}$,simple/$f_{\rm DE}$,closed)
 - **f_leak,2D→3D and f_leak,3D→4D** (L308ax frame-neutral naming, A2)
 - **Parameter count: 9 → 15** (1+3+2+4+4+1, f_leak is 4th calibrated NOT 5th)
 - **Limitations: 133 → 158** (144 master + 14 L308af-az)
@@ -497,20 +497,20 @@ $$\tau_{2D} = \left(\frac{E}{E_{\rm Pl}}\right)^{\alpha} \times t_{\rm Pl}, \qua
 2. v_H = 246.22 GeV (LEP+SLD measured)
 3. N = 12 (structural: 3 gens × 4 Weyl)
 
-This also DERIVES M_Pl,2D = N × v_H = 2955 GeV (1.5% off framework's 3 TeV). v3.5.8+ first-principles: 0/9 → 1/9 (α) → **3/9** (α, M_Pl,2D, μ via L308r). The 3% offset is from framework's M_Pl,2D = 2.95 TeV (rounded) vs derivation's 2.95 TeV (exact). L26 OPEN → **PARTIAL CLOSURE** → **FULL CLOSURE** (L308t, framework updated to consistent values).
+This also DERIVES $M_{\rm Pl,2D}$ = N × v_H = 2955 GeV (1.5% off framework's 3 TeV). v3.5.8+ first-principles: 0/9 → 1/9 (α) → **3/9** (α, $M_{\rm Pl,2D}$, μ via L308r). The 3% offset is from framework's $M_{\rm Pl,2D}$ = 2.95 TeV (rounded) vs derivation's 2.95 TeV (exact). L26 OPEN → **PARTIAL CLOSURE** → **FULL CLOSURE** (L308t, framework updated to consistent values).
 
-**[v3.5.8+ L308t, FULL CLOSURE]**: Framework values UPDATED to consistent derivation (user chose full closure). M_Pl,2D = 2.95 TeV (was 3 TeV), μ = 8.73×10⁶ (was 9×10⁶), M_Pl,4D = 3.93×10²³ (was 4×10²³), N_sub = 3.86×10² (was 4×10²). L26 PARTIAL → **FULL CLOSURE** (no 3% offset). Predictions UNAFFECTED (all key predictions use M_Pl,3D, not M_Pl,2D).
+**[v3.5.8+ L308t, FULL CLOSURE]**: Framework values UPDATED to consistent derivation (user chose full closure). $M_{\rm Pl,2D}$ = 2.95 TeV (was 3 TeV), μ = 8.73×10⁶ (was 9×10⁶), $M_{\rm Pl,4D}$ = 3.93×10²³ (was 4×10²³), N_sub = 3.86×10² (was 4×10²). L26 PARTIAL → **FULL CLOSURE** (no 3% offset). Predictions UNAFFECTED (all key predictions use $M_{\rm Pl,3D}$, not $M_{\rm Pl,2D}$).
 
-**[v3.5.9+ L308u, BREAKTHROUGH]**: Why N=12? — Z_12 bulk + 6D anomaly cancellation. Appelquist et al. 2001 (PRL 87, 031801, hep-ph/0102010) PROVED that SM fields in 6D spacetime (= 4D + 2D universal extra dimensions) require EXACTLY 3 generations for global anomaly cancellation. Framework's F-theory 12D has 2D fiber = cascade's 2D universe = the 2D universal extra. SM fermions propagate in 2D fiber (as SYK N=12 Majoranas). So **N=12 = 3 generations × 4 Weyl fermions** is a FIRST-PRINCIPLES consequence. Unifies ALL FIVE "12"s in framework (N=12 SYK, M_Pl,2D = 12×v_H, cone depth 12, α=1+1/√12, F-theory Z_12). First-principles: 3/9 → **4/9** (added N=12 derivation).
+**[v3.5.9+ L308u, BREAKTHROUGH]**: Why N=12? — Z_12 bulk + 6D anomaly cancellation. Appelquist et al. 2001 (PRL 87, 031801, hep-ph/0102010) PROVED that SM fields in 6D spacetime (= 4D + 2D universal extra dimensions) require EXACTLY 3 generations for global anomaly cancellation. Framework's F-theory 12D has 2D fiber = cascade's 2D universe = the 2D universal extra. SM fermions propagate in 2D fiber (as SYK N=12 Majoranas). So **N=12 = 3 generations × 4 Weyl fermions** is a FIRST-PRINCIPLES consequence. Unifies ALL FIVE "12"s in framework (N=12 SYK, $M_{\rm Pl,2D}$ = 12×v_H, cone depth 12, α=1+1/√12, F-theory Z_12). First-principles: 3/9 → **4/9** (added N=12 derivation).
 
-**[v3.5.9+ L308v, PARTIAL CLOSURE]**: L138 (M_Pl,4D closed-loop) — α-GM with first-principles inputs is a CLOSED LOOP:
-M_Pl,4D = M_Pl,3D^α × M_Pl,2D^(1-α) = (1.22×10¹⁹)^1.289 × (2954.64)^(-0.289) = 3.98×10²³ GeV (1.2% match). All 3 inputs first-principles (M_Pl,3D measured, α L308n, M_Pl,2D L308r). The α-GM encodes the cascade's self-similar structure: each level increases log M_Pl by α factor of previous. L138 → PARTIAL CLOSURE (structural formula, not derivation from deeper principle).
+**[v3.5.9+ L308v, PARTIAL CLOSURE]**: L138 ($M_{\rm Pl,4D}$ closed-loop) — α-GM with first-principles inputs is a CLOSED LOOP:
+$M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = (1.22×10¹⁹)^1.289 × (2954.64)^(-0.289) = 3.98×10²³ GeV (1.2% match). All 3 inputs first-principles ($M_{\rm Pl,3D}$ measured, α L308n, $M_{\rm Pl,2D}$ L308r). The α-GM encodes the cascade's self-similar structure: each level increases log $M_{\rm Pl}$ by α factor of previous. L138 → PARTIAL CLOSURE (structural formula, not derivation from deeper principle).
 
 **[v3.5.8+ L308s, EXHAUSTIVE SEARCH]**: 8 attempted paths to FULLY close L26 beyond L308r:
-- 6 TAUTOLOGICAL (μ = M_Pl,2D² by definition, given M_Pl,2D as input): Hagedorn, JT, String duality, Hawking-Page, DOZZ trivial, Unimodular
+- 6 TAUTOLOGICAL (μ = $M_{\rm Pl}$,2D² by definition, given $M_{\rm Pl,2D}$ as input): Hagedorn, JT, String duality, Hawking-Page, DOZZ trivial, Unimodular
 - 1 NOT APPLICABLE: b = i fixed point
 - 1 WORKS (L308r): (N × v_H)² = 8.73×10⁶ (3% off)
-NO path bridges the 3% offset. The gap is from M_Pl,2D = 2.95 TeV (rounded). **Recommendation**: UPDATE framework's M_Pl,2D = 2955 GeV and μ = 8.73×10⁶ for internal consistency. See §7.4.17.
+NO path bridges the 3% offset. The gap is from $M_{\rm Pl,2D}$ = 2.95 TeV (rounded). **Recommendation**: UPDATE framework's $M_{\rm Pl,2D}$ = 2955 GeV and μ = 8.73×10⁶ for internal consistency. See §7.4.17.
 
 **What α is NOT used for:**
 - 4π factor at 3D→4D (specific to that transition, not universal) ✗
@@ -1667,7 +1667,7 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
   - L265: `$\Omega_{\rm DM}$≈0.27` (DM as text not subscript)
   - L297: `$$N_p = ...$` (triple dollar)
   - L378/387/389/393: `$\Lambda{\rm CDM}$` (CDM as text)
-  - L588-592: `$M_{dyn}/M_b` (slash between math blocks)
+  - L588-592: `$M_{dyn}/$M_b$` (slash between math blocks)
   - L736: `$10^{$10^{1} }$` (nested math)
 - Added 5 new patterns to fix_broken_markdown.py:
   - Pattern 8: `$\Omega_{\rm DM}$` → `$\Omega_{\rm DM}$`
@@ -1703,7 +1703,7 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - γ_4D: 1.10×10¹¹¹ (A2) → 1.10×10¹¹¹ (A2)
 - τ_3D,apparent: 9.10×10¹²⁴ → 1.66×10¹⁴⁵ (A2)
 - 133 → 138 limitations
-- Added LEGACY markers for F_p
+- Added LEGACY markers for $F_p$
 
 **PASS 3 (65c8a1c)**: More fixes
 - 00_title.md "v3.3 updates" → HISTORICAL
@@ -1715,8 +1715,8 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - 01_executive_summary.md (2 more): 133→138
 - 06_limitations.md line 12: 133→138
 
-**PASS 5 (4e257f0)**: Mark stale F_p
-- 02_glossary.md: F_p(0) = 0.9993 strikethrough
+**PASS 5 (4e257f0)**: Mark stale $F_p$
+- 02_glossary.md: $F_p$(0) = 0.9993 strikethrough
 - 02_glossary.md: "0 calibrated postulates" → HISTORICAL
 - 06_limitations.md §7.4.19: pre-A1 note
 
@@ -1734,44 +1734,44 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - 12 legacy files in paper/legacy/
 - 13 markdown files with LEGACY NOTE flags
 - 8 commits this session
-- A1 framework: f_leak = H_0, γ_4D = 1.10×10¹¹¹ (A2) (literal time dilation)
+- A1 framework: f_leak = $H_0$, γ_4D = 1.10×10¹¹¹ (A2) (literal time dilation)
 
 **KEY INSIGHTS**:
 - Cleanup workflow: LEGACY NOTE flags + dedicated legacy files
 - Don't try surgical edits — user uses git reset
 - All current claims consistent across all docs
 - Historical claims clearly marked (v3.3, v3.5.7+, v3.5.8+ tags)
-- "0 calibrated postulates" was HISTORICAL — A1 adds f_leak = H_0
+- "0 calibrated postulates" was HISTORICAL — A1 adds f_leak = $H_0$
 
 ### v3.5.9+ L308z: N_sub IS FREE (event-specific) — reframe from L308o (2026-06-21)
 - User: "386 could be the 4D event that created our universe. so we have 385 other siblings. but a different event could create other amounts. it probably is a free parameter. just that energy must be conserved."
 - 
-- **REFREME**: L308o derived N_sub = E_4D/E_sub. But this is BACKWARDS:
-- - E_4D was "calibrated" to give DE match
-- - N_sub = E_4D/E_sub is then "derived"
+- **REFREME**: L308o derived N_sub = $E_{\rm 4D}$/$E_{\rm sub}$. But this is BACKWARDS:
+- - $E_{\rm 4D}$ was "calibrated" to give DE match
+- - N_sub = $E_{\rm 4D}$/$E_{\rm sub}$ is then "derived"
 - - 
 - - User's correct framing:
 - - **N_sub is the FREE parameter** (specific to our universe's 4D event)
-- - **E_4D is DERIVED** via energy conservation: E_4D = N_sub × E_sub
+- - **$E_{\rm 4D}$ is DERIVED** via energy conservation: $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$
 - - The "DE match" becomes a consistency check, not the calibration driver
 - 
 - **NUMBERS**:
 - - N_sub = 386 (FREE, specific to our event, we are 1 of 386 siblings)
-- - E_sub = 1.3×10⁷⁷ J (STRUCTURAL, galaxy-mass 2D universe)
-- - E_4D = 386 × 1.3×10⁷⁷ = 5×10⁷⁹ J (DERIVED)
+- - $E_{\rm sub}$ = 1.3×10⁷⁷ J (STRUCTURAL, galaxy-mass 2D universe)
+- - $E_{\rm 4D}$ = 386 × 1.3×10⁷⁷ = 5×10⁷⁹ J (DERIVED)
 - 
 - **PHYSICAL MEANING**:
 - - The 4D event that created our universe had N_sub = 386 sibling sub-universes
 - - A different 4D event would have a different N_sub
 - - N_sub is event-specific (we don't have a theory for why exactly 386)
-- - But energy conservation MUST hold: E_4D = N_sub × E_sub
+- - But energy conservation MUST hold: $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$
 - 
 - **UPDATED A1 PARAMETER HIERARCHY** (14 total):
-- - 1 MEASURED: M_Pl,3D
-- - 4 FIRST-PRINCIPLES: α, M_Pl,2D, μ, N=12
-- - 2 DERIVED: M_Pl,4D (α-GM), E_4D = N_sub × E_sub
-- - 4 CALIBRATED: ε, τ_4D, AGN rate, f_leak = H_0 (NEW A1)
-- - 4 STRUCTURAL: E_sub, τ_3D,apparent, γ_4D, N=12 (per L308ag)
+- - 1 MEASURED: $M_{\rm Pl,3D}$
+- - 4 FIRST-PRINCIPLES: α, $M_{\rm Pl,2D}$, μ, N=12
+- - 2 DERIVED: $M_{\rm Pl,4D}$ (α-GM), $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$
+- - 4 CALIBRATED: ε, τ_4D, AGN rate, f_leak = $H_0$ (NEW A1)
+- - 4 STRUCTURAL: $E_{\rm sub}$, τ_3D,apparent, γ_4D, N=12 (per L308ag)
 - - 1 FREE: N_sub (event-specific)
 - 
 - **L144 STATUS**: REMAINS OPEN. N_sub is event-specific, not predicted by framework. But the
@@ -1790,7 +1790,7 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - **L308aa v2 (current, REVERTED L308aa v1)**: γ_2D = 5.5e44 (time dilation DOES exist)
 - 
 - **CORRECTED INTERPRETATION**:
-- - 2D universe's proper time = ~t_Pl,3D (Planck time, essentially instantaneous)
+- - 2D universe's proper time = ~$t_{\rm Pl}$,3D (Planck time, essentially instantaneous)
 - - In 3D frame: stretched by γ_2D = 5.5e44 to 33s (for SN)
 - - 4D event's proper time = 1.51e34 yr
 - - In 3D frame: stretched by γ_4D = 1.10e111 (A2) to 1.66e145 (A2) yr
@@ -1799,13 +1799,13 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - - 2D-3D: γ_2D = 5.5e44 (literal time dilation)
 - - 4D-3D: γ_4D = 1.10e111 (A2) (literal time dilation)
 - - Cone is SYMMETRIC in HAVING time dilation
-- - Cone is ASYMMETRIC in MAGNITUDE (γ_4D >> γ_2D because E_4D >> E_3D)
+- - Cone is ASYMMETRIC in MAGNITUDE (γ_4D >> γ_2D because $E_{\rm 4D}$ >> $E_{\rm 3D}$)
 - 
 - **Continuous 2D→3D leakage**:
-- - In 2D's own frame: 2D universe exists for ~t_Pl (one Planck time)
-- - During this t_Pl, continuous leakage is too short to be observable
+- - In 2D's own frame: 2D universe exists for ~$t_{\rm Pl}$ (one Planck time)
+- - During this $t_{\rm Pl}$, continuous leakage is too short to be observable
 - - In 3D frame: the 33s we observe is the γ_2D-stretched time
-- - So 2D→3D continuous leakage IS INVISIBLE (because 2D proper time is t_Pl)
+- - So 2D→3D continuous leakage IS INVISIBLE (because 2D proper time is $t_{\rm Pl}$)
 - 
 - **LESSON**: Both γ values are literal time dilation (L308x stands). Cone is symmetric
 - in HAVING time dilation, asymmetric in magnitude. L308aa v1's claim γ_2D=1 was wrong.
@@ -1821,16 +1821,16 @@ User requested more cleanup passes after L308z+L308x v3. Found and fixed:
 **CRITICAL ARITHMETIC ERROR** (PASS 16-25): Parameter count was reported as 14 but is actually 15.
 
 CORRECT COUNT (v3.5.9+ A1+L308z):
-- 1 MEASURED: M_Pl,3D
-- 4 FIRST-PRINCIPLES: α, M_Pl,2D, μ, N=12
-- 2 DERIVED: M_Pl,4D (α-GM, L308v), E_4D (N_sub × E_sub, L308o)
-- 4 CALIBRATED: ε, τ_4D, AGN rate, f_leak = H_0 (A1)
-- 4 STRUCTURAL: E_sub, τ_3D,apparent, γ_4D, N=12 (per L308ag)
+- 1 MEASURED: $M_{\rm Pl,3D}$
+- 4 FIRST-PRINCIPLES: α, $M_{\rm Pl,2D}$, μ, N=12
+- 2 DERIVED: $M_{\rm Pl,4D}$ (α-GM, L308v), $E_{\rm 4D}$ (N_sub × $E_{\rm sub}$, L308o)
+- 4 CALIBRATED: ε, τ_4D, AGN rate, f_leak = $H_0$ (A1)
+- 4 STRUCTURAL: $E_{\rm sub}$, τ_3D,apparent, γ_4D, N=12 (per L308ag)
 - 1 FREE: N_sub
 - TOTAL: 1+4+2+4+3+1 = **15** (was 14, was 13, was 9)
 
-The "14" came from miscounting when E_4D moved from CALIBRATED to DERIVED
-and E_sub was added as STRUCTURAL (post-L308z). Each is a +1 net.
+The "14" came from miscounting when $E_{\rm 4D}$ moved from CALIBRATED to DERIVED
+and $E_{\rm sub}$ was added as STRUCTURAL (post-L308z). Each is a +1 net.
 
 **STATE_OF_THE_MODEL TABLE CORRECTIONS** (PASS 17):
 - Removed duplicates (rows 7/13, 8/14)
@@ -1849,7 +1849,7 @@ All updated to clearly mark as HISTORICAL and provide current state (15 paramete
 
 **COMMITS THIS ROUND** (12 commits total this session):
 1. ad567eb — persistent_memory updated
-2. 0207037 — L308z: N_sub FREE, E_4D DERIVED
+2. 0207037 — L308z: N_sub FREE, $E_{\rm 4D}$ DERIVED
 3. a068804 — L308aa v1: γ_2D = 1 (REJECTED)
 4. ffbb9f6 — L308aa REVERTED: γ_2D = 5.5e44
 5. e252d91 — L308x v3: proper/observed time distinction
@@ -1866,30 +1866,30 @@ All updated to clearly mark as HISTORICAL and provide current state (15 paramete
 - 395 pages, 1.52 MB PDF
 - 140 limitations
 - 15 parameters (1+4+2+4+3+1 = 15)
-- M_Pl,2D = 2.95 TeV (12 × v_Higgs)
-- M_Pl,4D = 3.93×10²³ GeV (α-GM)
+- $M_{\rm Pl,2D}$ = 2.95 TeV (12 × $v_{\rm Higgs}$)
+- $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (α-GM)
 - γ_4D = 1.10×10¹¹¹ (A2) (DERIVED, literal time dilation at 4D level)
 - γ_2D = 5.5×10⁴⁴ (DERIVED, literal time dilation at 2D level)
-- 4 first-principles derived: α, M_Pl,2D, μ, N=12
-- f_leak = H_0 (A1 NEW principle)
+- 4 first-principles derived: α, $M_{\rm Pl,2D}$, μ, N=12
+- f_leak = $H_0$ (A1 NEW principle)
 - N_sub = 386 (FREE, event-specific)
 - Cone asymmetric in time direction (L308x v3): both γ are time dilation but directions differ
 
 
-### v3.5.9+ CLEANUP PASSES 30-34 (2026-06-21) — F_p(z)/F(z) markers + count fixes
+### v3.5.9+ CLEANUP PASSES 30-34 (2026-06-21) — $F_p$(z)/F(z) markers + count fixes
 
 User said "do more passes. i still see fp(z) in readme."
 
-Found multiple F_p(z)/F(z) references scattered throughout README that weren't
-clearly marked as HISTORICAL (F_p(z) Hill function was DROPPED in v3.3+).
+Found multiple $F_p$(z)/F(z) references scattered throughout README that weren't
+clearly marked as HISTORICAL ($F_p$(z) Hill function was DROPPED in v3.3+).
 
 **README FIXES** (PASS 31):
-- Added FRAMEWORK CONTEXT banner at §1 (Consistency with ΛCDM) — explains F_p(z) was DROPPED v3.3+
+- Added FRAMEWORK CONTEXT banner at §1 (Consistency with ΛCDM) — explains $F_p$(z) was DROPPED v3.3+
 - Added FRAMEWORK CONTEXT banner at §11 (Testable predictions) — explains intermediate F(z) is HISTORICAL
-- Added FRAMEWORK CONTEXT banner at "45 external constraints" section — explains F_p(z) is HISTORICAL
+- Added FRAMEWORK CONTEXT banner at "45 external constraints" section — explains $F_p$(z) is HISTORICAL
 
 **LEGACY_PAPER.MD FIX** (PASS 32):
-- Added F_p(z) DROPPED note at top of legacy_paper.md (was just ARCHIVED/LEGACY header)
+- Added $F_p$(z) DROPPED note at top of legacy_paper.md (was just ARCHIVED/LEGACY header)
 
 **SECTION HEADER FIXES** (PASS 33-34):
 - 03b_predictions.md §3.34 (DESI DR3): added 'LEGACY HISTORICAL — DROPPED framework'
@@ -1898,14 +1898,14 @@ clearly marked as HISTORICAL (F_p(z) Hill function was DROPPED in v3.3+).
 - 12_galaxy_zoo.md CVnC dwarf section: added 'LEGACY HISTORICAL — DROPPED framework'
 
 **FINAL STATE** (verified):
-- All markdown files with F_p(z) refs have LEGACY NOTE/DROPPED/HISTORICAL markers
+- All markdown files with $F_p$(z) refs have LEGACY NOTE/DROPPED/HISTORICAL markers
 - 13 markdown files with LEGACY NOTE header
 - README.md has 3 banners at appropriate sections
 - §3.34, §3.37, line 141, CVnC dwarf section all marked as LEGACY HISTORICAL
 
 **COMMITS** (4 more this round, **total 24 commits this session**):
-- b5df1bb — CLEANUP PASS 31: HISTORICAL FRAMEWORK banners for F_p(z)/F(z)
-- d125e3d — CLEANUP PASS 32: legacy_paper.md F_p(z) DROPPED note
+- b5df1bb — CLEANUP PASS 31: HISTORICAL FRAMEWORK banners for $F_p$(z)/F(z)
+- d125e3d — CLEANUP PASS 32: legacy_paper.md $F_p$(z) DROPPED note
 - aab40a0 — CLEANUP PASS 33: §3.34 and §3.37 LEGACY HISTORICAL markers
 - 161c8a4 — CLEANUP PASS 34: F(z) refs in 01_executive_summary and 12_galaxy_zoo
 
@@ -1913,41 +1913,41 @@ clearly marked as HISTORICAL (F_p(z) Hill function was DROPPED in v3.3+).
 - 395 pages, 1.52 MB PDF
 - 140 limitations
 - 15 parameters
-- All F_p(z)/F(z) references now clearly marked as HISTORICAL/DROPPED
+- All $F_p$(z)/F(z) references now clearly marked as HISTORICAL/DROPPED
 
 
 ### v3.5.9+ CLEANUP PASSES 35-38 (2026-06-21) — value consistency + parameter hierarchy sections
 
-**CRITICAL FIX (PASS 35)**: E_sub value inconsistency
-- Was: E_sub = 1.25×10⁷⁷ J (L308o era, implied N_sub = 400)
-- Now: E_sub = 1.295×10⁷⁷ J (L308z revision, N_sub = 386)
-- Math: E_4D = 5×10⁷⁹ J (constant); E_sub = E_4D / N_sub = 1.295×10⁷⁷ J
+**CRITICAL FIX (PASS 35)**: $E_{\rm sub}$ value inconsistency
+- Was: $E_{\rm sub}$ = 1.25×10⁷⁷ J (L308o era, implied N_sub = 400)
+- Now: $E_{\rm sub}$ = 1.295×10⁷⁷ J (L308z revision, N_sub = 386)
+- Math: $E_{\rm 4D}$ = 5×10⁷⁹ J (constant); $E_{\rm sub}$ = $E_{\rm 4D}$ / N_sub = 1.295×10⁷⁷ J
 - Files updated: 06_limitations.md (4 places), persistent_memory.md, calculations/v35_n_sub_scaling.py
 
 **SECTION UPDATES (PASS 36-38)**: STATE_OF_THE_MODEL.md "What's CALIBRATED", "What's DERIVED", and "README banner" sections
 - "What's CALIBRATED" now correctly shows α, μ, N=12 as FIRST-PRINCIPPLES (L308n/r/u)
-- "What's DERIVED" now includes all 4 first-principles + L308o E_4D + L308x γ_2D
+- "What's DERIVED" now includes all 4 first-principles + L308o $E_{\rm 4D}$ + L308x γ_2D
 - "README banner" updated from "v3.5.7 CURRENT, 9 parameters" to "v3.5.9+ A1, 15 parameters"
 
 **COMMITS** (4 more this round, **total 30 commits this session**):
-- 62cfb20 — E_sub consistency fix 1.25e77 → 1.295e77
+- 62cfb20 — $E_{\rm sub}$ consistency fix 1.25e77 → 1.295e77
 - 766fbb8 — STATE_OF_THE_MODEL 'What's CALIBRATED' section update
 - 422af73 — STATE_OF_THE_MODEL 'What's DERIVED' section update
 - b6619c9 — STATE_OF_THE_MODEL 'README banner' section update
 
 **VERIFICATION**: All key values consistent across docs:
-- M_Pl,3D = 1.22×10¹⁹ GeV (MEASURED)
-- M_Pl,2D = 2.95 TeV (FIRST-PRINCIPLES, L308r)
-- M_Pl,4D = 3.93×10²³ GeV (DERIVED, L308v)
+- $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV (MEASURED)
+- $M_{\rm Pl,2D}$ = 2.95 TeV (FIRST-PRINCIPLES, L308r)
+- $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (DERIVED, L308v)
 - α = 1.289 (FIRST-PRINCIPLES, L308n)
 - μ = 8.73×10⁶ GeV² (FIRST-PRINCIPLES, L308r)
 - N = 12 (FIRST-PRINCIPPLES, L308u)
 - ε = 10⁻³⁸ (CALIBRATED)
 - τ_4D = 1.51×10³⁴ yr (CALIBRATED)
 - AGN rate = 10⁻¹⁵·⁵² /s (CALIBRATED)
-- f_leak = H_0 = 2.18×10⁻¹⁸ /s (CALIBRATED, NEW A1)
-- E_4D = 5×10⁷⁹ J (DERIVED, L308o)
-- E_sub = 1.295×10⁷⁷ J (STRUCTURAL, L308z)
+- f_leak = $H_0$ = 2.18×10⁻¹⁸ /s (CALIBRATED, NEW A1)
+- $E_{\rm 4D}$ = 5×10⁷⁹ J (DERIVED, L308o)
+- $E_{\rm sub}$ = 1.295×10⁷⁷ J (STRUCTURAL, L308z)
 - τ_3D,apparent = 1.66×10¹⁴⁵ (A2) yr (STRUCTURAL, A1)
 - γ_4D = 1.10×10¹¹¹ (A2) (STRUCTURAL, A1)
 - γ_2D = 5.5×10⁴⁴ (STRUCTURAL, L308aa)
@@ -1962,10 +1962,10 @@ clearly marked as HISTORICAL (F_p(z) Hill function was DROPPED in v3.3+).
 PASS 39: More stale value fixes
 - changelog.md parameter count 14 → 15 (miscounted)
 - changelog.md first-principles progress 4/14 → 4/15 (N_sub now FREE)
-- paper/legacy/v358_user_driven_refinements.md: E_sub 1.25 → 1.295 (L308z)
+- paper/legacy/v358_user_driven_refinements.md: $E_{\rm sub}$ 1.25 → 1.295 (L308z)
 - 06_limitations.md L308s: added POST-L308t note about framework update
 
-PASS 40: M_Pl,4D = 4×10²³ → 3.93×10²³ in README
+PASS 40: $M_{\rm Pl,4D}$ = 4×10²³ → 3.93×10²³ in README
 - Found 3 stale references in README (lines 142, 281, 961)
 - Updated to current L308t precision value
 - 06_limitations.md L308v entry: updated hierarchy to 15 parameters
@@ -1976,8 +1976,8 @@ PASS 41: v357_legacy_parameters.md CURRENT markers updated
 - L308r/L308t/L308z updates noted
 
 PASS 42: changelog.md v3.3 KEY PARAMS section updated
-- v3.3 era values were: M_Pl,2D=3 TeV, M_Pl,4D=4×10²³, γ_4D=1.10×10¹¹¹ (A2), τ_3D=9.10×10²⁴ yr, N_sub=4×10²
-- Current values noted: M_Pl,2D=2.95 TeV, M_Pl,4D=3.93×10²³, γ_4D=1.10×10¹¹¹ (A2), τ_3D=1.66×10¹⁴⁵ (A2) yr, N_sub=3.86×10²
+- v3.3 era values were: $M_{\rm Pl,2D}$=3 TeV, $M_{\rm Pl,4D}$=4×10²³, γ_4D=1.10×10¹¹¹ (A2), τ_3D=9.10×10²⁴ yr, N_sub=4×10²
+- Current values noted: $M_{\rm Pl,2D}$=2.95 TeV, $M_{\rm Pl,4D}$=3.93×10²³, γ_4D=1.10×10¹¹¹ (A2), τ_3D=1.66×10¹⁴⁵ (A2) yr, N_sub=3.86×10²
 - Added REVISED notes with L308r/L308t/L308z citations
 
 **ALL CLEAN**: Programmatic sweep verified no more stale values
@@ -1986,16 +1986,16 @@ preserve historical content by design.
 
 **COMMITS** (4 more, **total 54 commits this session**):
 - c649a04 — More stale value fixes
-- c2ac5fa — M_Pl,4D value updates in README
+- c2ac5fa — $M_{\rm Pl,4D}$ value updates in README
 - bbe34d5 — v357_legacy_parameters.md stale CURRENT markers
 - 0a57114 — changelog.md v3.3 era values REVISED notes
 
 
-### v3.5.9+ CLEANUP PASSES 44-46 (2026-06-21) — more F_p(z)/F(z) HISTORICAL markers
+### v3.5.9+ CLEANUP PASSES 44-46 (2026-06-21) — more $F_p$(z)/F(z) HISTORICAL markers
 
 User noted: "isn't the hill function deprecated? i still see it in the readme."
 
-Even after earlier F_p(z) cleanup, there were still many F_p(z) and F(z) 
+Even after earlier $F_p$(z) cleanup, there were still many $F_p$(z) and F(z) 
 references in README body text (not just in banners) that could mislead readers.
 
 PASS 44: More HISTORICAL markers in README and 03b
@@ -2015,11 +2015,11 @@ PASS 46: More F(z) HISTORICAL markers in dwarf sections
 - F(z) prediction paragraph (with current framework reproduction note)
 - 'SIDC's REAL differentiators' Intermediate F(z) population bullet
 
-**FINAL VERIFICATION**: Programmatic sweep confirmed all F_p(z) and F(z) 
+**FINAL VERIFICATION**: Programmatic sweep confirmed all $F_p$(z) and F(z) 
 references in main docs (00-14 markdown) are now in LEGACY/HISTORICAL contexts.
 
 **COMMITS** (3 more, **total 57 commits this session**):
-- 736629e — CLEANUP PASS 44: More F_p(z)/F(z) HISTORICAL markers
+- 736629e — CLEANUP PASS 44: More $F_p$(z)/F(z) HISTORICAL markers
 - 8f45cf4 — CLEANUP PASS 45: 14_appendix.md F(z) HISTORICAL marker
 - fd51a07 — CLEANUP PASS 46: More F(z) HISTORICAL markers in README dwarf sections
 
@@ -2030,7 +2030,7 @@ User noted: "isn't the hill function deprecated? i still see it in the readme."
 
 PASS 47: v2.7.3 STATE section HISTORICAL marker
 - Added HISTORICAL marker to '# v2.7.3 STATE' section header (line 930)
-- Updated 'CMB RESOLVED' line to explicitly note F_p(z) was DROPPED in v3.3+
+- Updated 'CMB RESOLVED' line to explicitly note $F_p$(z) was DROPPED in v3.3+
   and r(z) ≈ (1+z)³ is REPRODUCED via different mechanism
 
 PASS 48: v2.7.3+ §11 header HISTORICAL marker
@@ -2038,7 +2038,7 @@ PASS 48: v2.7.3+ §11 header HISTORICAL marker
   section header (line 945) to clarify it describes v2.7.3+ era state
 
 **FINAL VERIFICATION** (programmatic sweep):
-- 176 F_p(z) references across all docs
+- 176 $F_p$(z) references across all docs
 - 49 F(z) references across all docs
 - ALL are now in LEGACY/HISTORICAL contexts (no primary framework usage)
 
@@ -2047,37 +2047,37 @@ PASS 48: v2.7.3+ §11 header HISTORICAL marker
 - 631d822 — CLEANUP PASS 48: v2.7.3+ §11 header HISTORICAL marker
 
 **SESSION TOTAL**: 59 commits, all key values verified consistent, 
-all F_p(z)/F(z) references marked as LEGACY/HISTORICAL.
+all $F_p$(z)/F(z) references marked as LEGACY/HISTORICAL.
 
 
-### v3.5.9+ CLEANUP PASSES 49-50 (2026-06-21) — even more F_p(z)/F(z) markers
+### v3.5.9+ CLEANUP PASSES 49-50 (2026-06-21) — even more $F_p$(z)/F(z) markers
 
 User said "i still see it in the readme" — even after earlier passes.
 
-PASS 49: HYPOTHETICAL marker for M_Pl,4D ~ TeV
-- §10 SPECULATIVE EXTENSION has a line "If M_Pl,4D ~ TeV" describing a HYPOTHETICAL scenario
-- Added HYPOTHETICAL marker + note that current framework has M_Pl,4D = 3.93×10²³ GeV (bulk)
+PASS 49: HYPOTHETICAL marker for $M_{\rm Pl,4D}$ ~ TeV
+- §10 SPECULATIVE EXTENSION has a line "If $M_{\rm Pl,4D}$ ~ TeV" describing a HYPOTHETICAL scenario
+- Added HYPOTHETICAL marker + note that current framework has $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (bulk)
 
 PASS 50: More inline HISTORICAL markers in README body
 - 'JWST high-z galaxy excess' line: added HISTORICAL framework marker
 - 'JWST MoM-z14' line: added HISTORICAL framework marker + current framework note
-- 'r(z) ≈ (1+z)³ match comes from F_p(z)' line: added HISTORICAL marker + DROPPED note
+- 'r(z) ≈ (1+z)³ match comes from $F_p$(z)' line: added HISTORICAL marker + DROPPED note
 - 'Honest framing' line: added HISTORICAL framework marker + current framework note
-- 'calculations/time_scale_invariance_test_v5.py' line: added HISTORICAL F_p(z) framework marker
+- 'calculations/time_scale_invariance_test_v5.py' line: added HISTORICAL $F_p$(z) framework marker
 
 **FINAL STATUS**:
 - 916 commits in repo
 - 60+ session commits
-- All F_p(z)/F(z) references in main docs now in LEGACY/HISTORICAL contexts
+- All $F_p$(z)/F(z) references in main docs now in LEGACY/HISTORICAL contexts
 - Changelog F(z) references in version history entries (HISTORICAL by design)
 
 **COMMITS** (2 more, **total 62 commits this session**):
-- 2b9eaf8 — CLEANUP PASS 49: 'If M_Pl,4D ~ TeV' HYPOTHETICAL marker
-- 1513efd — CLEANUP PASS 50: More F_p(z)/F(z) HISTORICAL markers in README body
+- 2b9eaf8 — CLEANUP PASS 49: 'If $M_{\rm Pl,4D}$ ~ TeV' HYPOTHETICAL marker
+- 1513efd — CLEANUP PASS 50: More $F_p$(z)/F(z) HISTORICAL markers in README body
 
-**SESSION COMPLETE**: All known F_p(z)/F(z) references in main docs are 
+**SESSION COMPLETE**: All known $F_p$(z)/F(z) references in main docs are 
 now properly marked as LEGACY/HISTORICAL. Current framework (v3.5.9+ A1) 
-uses bilateral cascade with f_leak = H_0.
+uses bilateral cascade with f_leak = $H_0$.
 
 
 **L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford C(6) SM algebra, Stoica 2018). No numerical changes.

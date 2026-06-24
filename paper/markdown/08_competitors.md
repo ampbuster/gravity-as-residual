@@ -194,7 +194,7 @@ The distinction is *when* the energetic events happened, not just how much mass 
 | 3 large dimensions | T-duality **[PASS]** | Bott periodicity **[PASS]** |
 | Dark matter | Not addressed | Emerges from cascade **[PASS]** |
 | Dark energy | Not addressed | 4D event antigravity **[PASS]** |
-| Hierarchy problem | String-scale | M_Pl,2D from α-GM **[PASS]** |
+| Hierarchy problem | String-scale | $M_{\rm Pl,2D}$ from α-GM **[PASS]** |
 | First-principles N | T-duality mechanism | C(6) IS SM algebra **[PASS]** |
 | Modifies expansion | Yes (string gas) | Yes (cascade + f_leak) |
 | Testable now | Strings unobserved | 17/17 tests pass |

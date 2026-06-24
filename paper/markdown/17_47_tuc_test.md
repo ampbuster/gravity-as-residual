@@ -33,14 +33,14 @@ This makes 47 Tuc unique among stellar systems:
 **Inputs for SIDC calculation**:
 - M_stars = 1.0 × 10⁶ M_sun
 - Age = 12 Gyr
-- E_crit ≈ 10³⁰ J for 2D universe birth (per L308ba)
-- Recent activity: ~25 CVs at ~10³⁰ J per outburst (right at E_crit threshold, but recurring and small-scale)
+- $E_{\rm crit}$ ≈ 10³⁰ J for 2D universe birth (per L308ba)
+- Recent activity: ~25 CVs at ~10³⁰ J per outburst (right at $E_{\rm crit}$ threshold, but recurring and small-scale)
 
 **SIDC prediction**:
 $$\boxed{M_{\rm dyn} \approx M_{\rm stars} \text{ within } \pm 5\%}$$
 
 Specifically:
-- M_dyn/M_stars = 1.00 ± 0.05 (5% from stellar IMF uncertainties)
+- $M_{\rm dyn}$/M_stars = 1.00 ± 0.05 (5% from stellar IMF uncertainties)
 - **No DM spike** (no recent 2D universe nucleation)
 - **No additional DM** from cluster's history (no AGN-like events)
 - Velocity dispersion follows King/Plummer profile from M_stars alone
@@ -48,7 +48,7 @@ Specifically:
 **Reasoning**:
 - 47 Tuc has had NO energetic events > 10⁴⁴ J (SN) in 12 Gyr
 - No AGN, no mergers, no gas
-- The CV activity is at the E_crit threshold but recurring (not single events)
+- The CV activity is at the $E_{\rm crit}$ threshold but recurring (not single events)
 - Therefore NO new 2D universes have nucleated
 - Therefore NO additional DM-like back-projection
 - The 47 Tuc DM content should match M_stars within stellar evolution uncertainties
@@ -69,25 +69,25 @@ Specifically:
 **ΛCDM prediction** (profile-dependent):
 $$M_{\rm dyn}/M_{\rm stars} = 1.05 \pm 0.05$$
 
-| Profile | M_DM fraction | M_dyn/M_stars |
+| Profile | M_DM fraction | $M_{\rm dyn}$/M_stars |
 |---|---|---|
 | CoreNFW | 1-3% | 1.01-1.03 |
 | Standard NFW | 5% | 1.05 |
 | Contracted NFW (adiabatic) | 10-15% | 1.10-1.15 |
 
-The ΛCDM prediction is **highly profile-dependent**, but in all cases M_dyn > M_stars by 1-15%.
+The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm dyn}$ > M_stars by 1-15%.
 
 ## §17.4 Decisive Comparison
 
 | Observable | SIDC | ΛCDM | Rubin/LSST precision |
 |---|---|---|---|
-| M_dyn/M_stars (6 pc) | **1.00 ± 0.05** | **1.05 ± 0.05** | ~10% per radial bin |
+| $M_{\rm dyn}$/M_stars (6 pc) | **1.00 ± 0.05** | **1.05 ± 0.05** | ~10% per radial bin |
 | Velocity dispersion profile | matches M_stars | requires DM spike | ~5 km/s |
 | Tidal stream (47 Tuc stream) | clean | perturbed by halo | ~mas/yr proper motion |
 | Outer velocity tail | thermal (M_stars) | enhanced (DM) | per-star |
 | Escape velocity | from M_stars only | from M_stars + DM | integrated |
 
-**The KEY discriminator**: SIDC predicts M_dyn ≈ M_stars (1.0), ΛCDM predicts M_dyn > M_stars (1.05-1.15). With Rubin/LSST astrometric precision (~mas per year proper motions), this 5-15% difference is **detectable**.
+**The KEY discriminator**: SIDC predicts $M_{\rm dyn}$ ≈ M_stars (1.0), ΛCDM predicts $M_{\rm dyn}$ > M_stars (1.05-1.15). With Rubin/LSST astrometric precision (~mas per year proper motions), this 5-15% difference is **detectable**.
 
 ## §17.5 Specific Observables to Monitor
 
@@ -140,17 +140,17 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases M_dyn > M
 
 ### Possible Outcomes
 
-**If 47 Tuc shows M_dyn ≈ M_stars** (within 5%):
+**If 47 Tuc shows $M_{\rm dyn}$ ≈ M_stars** (within 5%):
 - **SIDC STRENGTHENED**
 - ΛCDM needs ad-hoc DM spike suppression in old GCs
-- Strong evidence for E_crit threshold in SIDC
+- Strong evidence for $E_{\rm crit}$ threshold in SIDC
 
-**If 47 Tuc shows M_dyn > M_stars** by 10%+:
+**If 47 Tuc shows $M_{\rm dyn}$ > M_stars** by 10%+:
 - **ΛCDM CONFIRMED** (smooth DM halo)
 - SIDC needs to address galactic halo contribution to GCs
-- E_crit threshold may need refinement
+- $E_{\rm crit}$ threshold may need refinement
 
-**If 47 Tuc shows M_dyn < M_stars** (impossible by either):
+**If 47 Tuc shows $M_{\rm dyn}$ < M_stars** (impossible by either):
 - Both models wrong, new physics needed
 
 **Either way**, this is a **USEFUL test** that can discriminate.
@@ -161,15 +161,15 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases M_dyn > M
 
 | Test | Timeline | SIDC vs ΛCDM | Decisiveness |
 |---|---|---|---|
-| **47 Tuc** (this section) | DP1 2025, Y10 2034 | 5-15% M_dyn/M_stars | DECISIVE |
+| **47 Tuc** (this section) | DP1 2025, Y10 2034 | 5-15% $M_{\rm dyn}$/M_stars | DECISIVE |
 | **w = -1 EXACTLY** (Euclid/Roman) | 2024+ / 2027+ | Sharpness of w deviation | SHARPEST |
-| **BCG g_+ universality** (Tian+) | 2024+ | g_+ across cluster mass | STRONG |
+| **BCG $g_+$ universality** (Tian+) | 2024+ | $g_+$ across cluster mass | STRONG |
 | **21cm heating** (SKA) | 2030s | Small excess over ΛCDM | TESTABLE |
 | **Multi-messenger** (§16) | 2025+ | Sub-dominant | NOT primary |
 
 47 Tuc is the **MOST DECISIVE** upcoming test because:
 1. Timeline is short (DP1 in <2 years)
-2. The prediction is clean (M_dyn = M_stars exactly)
+2. The prediction is clean ( $M_{\rm dyn}$ = M_stars exactly)
 3. The ΛCDM prediction is well-defined (NFW + halo)
 4. The measurement is precise (Rubin/LSST astrometry)
 
@@ -179,13 +179,13 @@ Honest framing:
 
 1. **47 Tuc is in the Milky Way halo**, so even SIDC predicts some contribution from our galaxy's DM (if DM is a particle). But SIDC says DM is geometric, so cluster-local DM is from cluster-local events only.
 
-2. **The 5% level is achievable but challenging**. SIDC says M_dyn/M_stars = 1.00 ± 0.05, ΛCDM says 1.05 ± 0.05. The difference is small (5%) and measurement systematics could mimic either.
+2. **The 5% level is achievable but challenging**. SIDC says $M_{\rm dyn}$/M_stars = 1.00 ± 0.05, ΛCDM says 1.05 ± 0.05. The difference is small (5%) and measurement systematics could mimic either.
 
-3. **CV activity is at the E_crit boundary**. 25 CVs each producing ~10³⁰ J per outburst — this is right at SIDC's E_crit. We need to verify whether this triggers 2D universe nucleation.
+3. **CV activity is at the $E_{\rm crit}$ boundary**. 25 CVs each producing ~10³⁰ J per outburst — this is right at SIDC's $E_{\rm crit}$. We need to verify whether this triggers 2D universe nucleation.
 
-4. **Stellar IMF uncertainty**: The 5% error on M_dyn/M_stars = 1.00 reflects stellar IMF uncertainties. These uncertainties will improve with JWST and Rubin/LSST.
+4. **Stellar IMF uncertainty**: The 5% error on $M_{\rm dyn}$/M_stars = 1.00 reflects stellar IMF uncertainties. These uncertainties will improve with JWST and Rubin/LSST.
 
-5. **47 Tuc has a tidal stream**: This complicates the dynamics. Need to model the stream for accurate M_dyn.
+5. **47 Tuc has a tidal stream**: This complicates the dynamics. Need to model the stream for accurate $M_{\rm dyn}$.
 
 ## §17.10 Call to Action
 
@@ -199,19 +199,19 @@ For SIDC to gain experimental traction, the **47 Tuc test is the highest-priorit
 
 **To theorists**:
 - SIDC needs to model 47 Tuc DM prediction more precisely
-- E_crit threshold needs 2D universe nucleation theory
+- $E_{\rm crit}$ threshold needs 2D universe nucleation theory
 - Galactic halo contribution to GCs needs quantification
 
 **Expected timeline**:
 - 2025 (Q4): First Rubin/LSST DP1 results
 - 2027 (Q1): First LSST DR1 47 Tuc M/L ratio
-- 2030 (LSST Y6): M_dyn/M_stars to ~5% precision
-- 2034 (LSST Y10): Decisive M_dyn/M_stars at ~3% precision
+- 2030 (LSST Y6): $M_{\rm dyn}$/M_stars to ~5% precision
+- 2034 (LSST Y10): Decisive $M_{\rm dyn}$/M_stars at ~3% precision
 
-**Bottom line**: 47 Tuc is the **FIRST DECISIVE TEST** of SIDC vs ΛCDM. The framework predicts M_dyn ≈ M_stars (no DM spike), while ΛCDM predicts M_dyn > M_stars (smooth DM halo). Rubin/LSST will measure this with sufficient precision by 2030-2034.
+**Bottom line**: 47 Tuc is the **FIRST DECISIVE TEST** of SIDC vs ΛCDM. The framework predicts $M_{\rm dyn}$ ≈ M_stars (no DM spike), while ΛCDM predicts $M_{\rm dyn}$ > M_stars (smooth DM halo). Rubin/LSST will measure this with sufficient precision by 2030-2034.
 
 ---
 
-**Source**: This section synthesizes L308ba-bk (E_crit threshold), L308bv (observational predictions), L308bx (paper consistency), L308ch (multi-messenger context), and standard NFW calculations.
+**Source**: This section synthesizes L308ba-bk ( $E_{\rm crit}$ threshold), L308bv (observational predictions), L308bx (paper consistency), L308ch (multi-messenger context), and standard NFW calculations.
 
 **L308ci source**: User "yep keep going" → L308ci: 47 Tuc detailed test plan, building on L308ch multi-messenger.

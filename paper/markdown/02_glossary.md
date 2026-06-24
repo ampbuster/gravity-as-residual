@@ -1,7 +1,7 @@
 
-> **LEGACY NOTE**: This file contains references to the OLD Hill function F_p(z) framework
+> **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> **f_leak,3D→4D = H_0** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> **f_leak,3D→4D = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 
@@ -22,13 +22,13 @@
 
 ### Calibrated Postulates (0) — All Derived
 
-**SIDC has 0 calibrated postulates in the v3.0+ state (HISTORICAL, v3.5.9+ A2 adds f_leak = H_0 as 4th calibrated).** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
+**SIDC has 0 calibrated postulates in the v3.0+ state (HISTORICAL, v3.5.9+ A2 adds f_leak = $H_0$ as 4th calibrated).** All values that were previously labeled "calibrated" are now *derived* from the cascade structure:
 
 | Previously "calibrated" | Current status | Derivation |
 |------------------------|----------------|------------|
 | $f_{back} = 8.6 \times 10^{-86}$ | **DERIVED** | $f_{back} = \epsilon \times (E_{\rm 4D}/M_{Pl}^4)$ where $\epsilon$ is the bulk-brane coupling and $E_{\rm 4D}/M_{Pl}^4 \sim 10^{-47}$ is the 4D event's energy ratio. The composite model (§3.60) gives $f_{back} = c/\alpha_{BR}$-powered formula with $c = 1/2$ (Ising) and $\alpha_{BR} = 1.289$ (N=12 SYK). |
 | $\epsilon$ $\sim 10^{-38}$ | **DERIVED** | $\epsilon = e^{-kL}$ (Randall-Sundrum II bulk-brane coupling), where $k$ is the AdS curvature and $L$ is the brane distance. Both follow from the bulk geometry ( $\mu$, $m_{3+1D}$). The standard RS-II mechanism derives the hierarchy from geometry. |
-| $F_p(0) = 0.9993$ | **DROPPED v3.3+** | F_p(z) Hill function framework was DROPPED in v3.3 (per L100, user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`. |
+| $F_p(0) = 0.9993$ | **DROPPED v3.3+** | $F_p$(z) Hill function framework was DROPPED in v3.3 (per L100, user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`. |
 
 **Note on $z_{half}$:** The Hill-function transition redshift $z_{half} = 3$ is the *only* remaining semi-calibrated value, and it could itself be derived from the 4D event dynamics (§3.40 alternative). The v3.0+ state treats it as a derived value with a specific physical meaning (the redshift at which 50% of the primordial-to-cumulative transition has occurred).
 
@@ -37,11 +37,11 @@
 - $f_{active}$ (v2.7.1): dropped after finding inconsistency with SN 33s lifetime
 - $A_{event}$ (v2.7.54): revised from 67 → 1 (identity operation, not a parameter)
 - $F_p(0)$ (v2.7.52): derived from cumulative DM calculation, no longer calibrated
-- $\epsilon$ (CURRENT v3.5.9+ A2): CALIBRATED at 6.32×10⁻³⁴ (gravity weakness, hierarchy problem, OBSERVED). Was 10⁻³⁸ in A1, recalibrated +4.8 orders in A2. $f \times \epsilon = 1.13 \times 10^{-123}$ invariant preserved.
-- $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas (f×ε = 1.13×10⁻¹²³ invariant)
-  - $f_{\rm DE,simple}$ = 1.13×10⁻⁸⁵ (uses α_2D = 1.289, ε = 1×10⁻³⁸)
-  - $f_{\rm DE,closed}$ = 1.79×10⁻⁹⁰ (uses α_4D = 1.577, ε = 6.32×10⁻³⁴)
-  - Both give ρ_DE = 2.5×10⁻⁴⁷ GeV⁴ (EXACT match)
+- $\epsilon$ (CURRENT v3.5.9+ A2): CALIBRATED at 6.32×$10^{-34}$ (gravity weakness, hierarchy problem, OBSERVED). Was $10^{-38}$ in A1, recalibrated +4.8 orders in A2. $f \times \epsilon = 1.13 \times 10^{-123}$ invariant preserved.
+- $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas (f×ε = 1.13× $10^{-123}$ invariant)
+  - $f_{\rm DE,simple}$ = 1.13× $10^{-85}$ (uses α_2D = 1.289, ε = 1× $10^{-38}$)
+  - $f_{\rm DE,closed}$ = 1.79× $10^{-90}$ (uses α_4D = 1.577, ε = 6.32× $10^{-34}$)
+  - Both give ρ_DE = 2.5× $10^{-47}$ GeV⁴ (EXACT match)
   - **Was called $f_{\rm back}$ in v3.0+ naming, renamed in v3.5.7+ naming revolution**
 
 ### Observational Inputs (5, taken from data)
@@ -1006,28 +1006,28 @@ This is consistent with observations: G has been constant to within ~10% over th
 
 | Symbol | Direction | Value | What it produces |
 |--------|-----------|-------|------------------|
-| ** $f_{\rm leak,2D\to3D}$** | 2D → 3+1D while alive | 1.6×10⁻⁴⁵ | Negligible (0.16 J per SN) |
+| ** $f_{\rm leak,2D\to3D}$** | 2D → 3+1D while alive | 1.6× $10^{-45}$ | Negligible (0.16 J per SN) |
 | ** $f_{\rm DM,death}$** | 2D → 3+1D at death | **1** (100%) | **DM (27%) cumulative** |
-| ** $f_{\rm DE}$** | 3+1D → 4D (alive) | 1.2×10⁻⁸⁵ | **DE (68%)** |
-| ** $f_{\rm leak,3D\to4D}$** | 3+1D → 4D continuous | ** $H_0$ = 2.18×10⁻¹⁸ /s** | **DM drain** (prevents over-accumulation) |
+| ** $f_{\rm DE}$** | 3+1D → 4D (alive) | 1.2× $10^{-85}$ | **DE (68%)** |
+| ** $f_{\rm leak,3D\to4D}$** | 3+1D → 4D continuous | ** $H_0$ = 2.18× $10^{-18}$ /s** | **DM drain** (prevents over-accumulation) |
 
 **Four flows, four names, frame-neutral**:
 
 1. ** $f_{\rm leak,2D\to3D}$** = continuous 2D→3+1D leakage while 2D universe lives (tiny, **dropped as negligible** per L308av)
 2. ** $f_{\rm DM,death}$** = pulsed 2D→3+1D at $\tau_{\rm 2D}$ = 100% (gives all DM)
-3. ** $f_{\rm DE}$** = continuous 3+1D→4D leakage = 10⁻⁸⁵ (gives DE, the 4D→3+1D anti-gravity projection)
+3. ** $f_{\rm DE}$** = continuous 3+1D→4D leakage = $10^{-85}$ (gives DE, the 4D→3+1D anti-gravity projection)
 4. ** $f_{\rm leak,3D\to4D}$** = continuous 3+1D→4D drain = $H_0$ (calibrated, prevents DM over-accumulation)
 
 **Frame-neutral naming (v3.5.9+ A2)**: The previous "f_DM,leak" name was frame-dependent (named from 3+1D observer's view). Renamed to $f_{\rm leak,2D\to3D}$ to be transition-explicit and frame-neutral. Same applies to $f_{\rm leak,3D\to4D}$ (formerly just "f_leak") for symmetry.
 
 **KEY SIMPLIFICATION (L308av)**: Both "natural" cascade leakages at transitions 2D→3D and 3D→4D are NEGLIGIBLE compared to the dominant DM production (death pulse) and DE production (continuous anti-gravity). Only $f_{\rm leak,3D\to4D}$ = $H_0$ is significant — and it's a **calibrated stability principle**, not a "natural" cascade formula.
 
-**Your key insight**: 10⁻⁸⁵ is for 3+1D→4D DE, NOT for 2D→3+1D DM.
+**Your key insight**: $10^{-85}$ is for 3+1D→4D DE, NOT for 2D→3+1D DM.
 DM comes from 100% pulsed return at 2D universe death.
 
 **Why this matters**: The old " $f_{\rm back}$" was used for both:
 - Continuous leakage (small while-alive fraction)
-- DE consistency check (10⁻⁸⁵, 3D→4D only)
+- DE consistency check ( $10^{-85}$, 3D→4D only)
 
 These are different flows and now have distinct names.
 
