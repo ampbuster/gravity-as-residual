@@ -6,7 +6,7 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 ### 9.1 SIDC vs Standard Cosmology ( $\Lambda{\rm CDM}$)
 
-** $\Lambda{\rm CDM}$'s burden.** $\Lambda{\rm CDM}$ requires accepting an increasingly messy and bloated "codebase" to explain new telescope data. It assumes (1) an undiscovered physical particle (WIMPs, axions, or sterile neutrinos) for dark matter, (2) a fine-tuned cosmological constant ( $\Lambda$) for dark energy, and (3) a highly complex web of adjustable "baryonic feedback" parameters to reconcile simulations with observations. The small-scale failures are the most visible: because $\Lambda{\rm CDM}$ assumes dark matter is made of physical, collisionless particles, gravity inherently clumps at small scales, producing the cusp-core problem, the missing satellites problem, too-big-to-fail, and lensing flux ratio anomalies.
+** $\Lambda{\rm CDM}$'s burden.** $\Lambda{\rm CDM}$ requires accepting an increasingly messy and bloated "codebase" to explain new telescope data. It assumes (1) an undiscovered physical particle (WIMPs, axions, or sterile neutrinos) for dark matter, (2) a fine-tuned cosmological constant ( Λ) for dark energy, and (3) a highly complex web of adjustable "baryonic feedback" parameters to reconcile simulations with observations. The small-scale failures are the most visible: because $\Lambda{\rm CDM}$ assumes dark matter is made of physical, collisionless particles, gravity inherently clumps at small scales, producing the cusp-core problem, the missing satellites problem, too-big-to-fail, and lensing flux ratio anomalies.
 
 **SIDC's structural advantage (v3.5.9+ A2).** In SIDC, dark matter is a smooth, localized metric back-projection resulting from the $S_{destruction}$ action parameter. Because it is not a physical particle, clumpy sub-halos do not exist *by construction*. By replacing physical particles with a geometric projection, those four historic small-scale crises collapse simultaneously.
 
@@ -16,7 +16,7 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 - SIDC explains the deceleration-to-acceleration transition (z=0.63) and the DE/DM ratio change (9 orders of magnitude)
 
 **NEW: First-principles structure (L308bh-bk).**
-- SIDC: $N=12$, 6, 3 are first-principles (Bott periodicity, Clifford C(6), SM algebra)
+- SIDC: N=12, 6, 3 are first-principles (Bott periodicity, Clifford C(6), SM algebra)
 - $\Lambda{\rm CDM}$: No first-principles for $N_{\rm sub}$, $N_{\rm 2D}$, $N_{3+1D}$, $N_{\rm 4D}$ (just free parameters)
 
 **Quantitative comparison:**
@@ -34,7 +34,7 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 ### 9.2 SIDC vs MOND (Modified Newtonian Dynamics)
 
-**MOND's strength and weakness.** MOND elegantly eliminates the need for dark matter in individual spiral galaxies by modifying Newton's law of gravity at a universal acceleration floor ( $a_0 \sim 1.2 \times 10^{-10}$ m/s²). It works beautifully for isolated spiral galaxies (the SPARC dataset, 175 galaxies). But it fails fundamentally in massive galaxy clusters: the observed acceleration scale in cluster cores is an order of magnitude higher ( $\sim 10^{-9}$ m/s², Tian+ 2024), forcing MOND proponents to awkwardly introduce unseen baryonic gas or hypothetical sterile neutrinos to make the math work.
+**MOND's strength and weakness.** MOND elegantly eliminates the need for dark matter in individual spiral galaxies by modifying Newton's law of gravity at a universal acceleration floor ( a₀ ∼ 1.2 × 10⁻¹⁰ m/s²). It works beautifully for isolated spiral galaxies (the SPARC dataset, 175 galaxies). But it fails fundamentally in massive galaxy clusters: the observed acceleration scale in cluster cores is an order of magnitude higher ( ∼ 10⁻⁹ m/s², Tian+ 2024), forcing MOND proponents to awkwardly introduce unseen baryonic gas or hypothetical sterile neutrinos to make the math work.
 
 **SIDC's hybrid advantage.** SIDC behaves like MOND in quiet, low-density spiral arms because the 2D universe projection establishes a non-linear acceleration floor. However, because the model tracks integrated historical energetic events, massive galaxy clusters — which are filled with violent, space-time-compressing plasma shocks — consistently blow past the $E_{crit}$ phase-transition threshold across massive spatial volumes. This naturally scales the apparent acceleration up to match the Tian+ 2024 cluster data, seamlessly bridging the gap that leaves MOND stranded.
 
@@ -42,8 +42,8 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 | System | Empirical g₊ | MOND | SIDC | Best |
 |--------|------------------|------|------|------|
-| Isolated spiral (SPARC) | $1.2 \times 10^{-10}$ m/s² | **[PASS]** | **[PASS]** | Tie |
-| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}$ m/s² | **[FAIL]** | **[PASS]** | SIDC |
+| Isolated spiral (SPARC) | 1.2 × 10⁻¹⁰ m/s² | **[PASS]** | **[PASS]** | Tie |
+| Massive cluster (Tian+ 2024) | 1.7 × 10⁻⁹ m/s² | **[FAIL]** | **[PASS]** | SIDC |
 | Dwarf galaxy | Variable | Fail (low SB) | **[PASS]** (via $E_{crit}$) | SIDC |
 
 SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling baked in as a consequence of the phase-transition principle.
@@ -57,7 +57,7 @@ SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling
 **NEW: Cascade is dimension-invariant (L308bk).**
 - SIDC: 3 integer-N brane levels (2D, 3+1D, 4D) + infinite fractional-N bulk levels
 - ADD/RS: Fixed number of extra dimensions (1, 2, ..., n)
-- SIDC's cascade extends to ALL D, with halving rule $N_D$ = 12/2^(D-2) via Bott periodicity
+- SIDC's cascade extends to ALL D, with halving rule N_D = 12/2^(D-2) via Bott periodicity
 
 **Quantitative comparison:**
 
@@ -80,8 +80,8 @@ SIDC inherits the hierarchy-problem solution of brane-world models while extendi
 
 **SIDC's temporal advantage.** By introducing the Stellar Age Lifecycle matrix (Limitation 24), the SIDC model possesses a historic ledger system. It flawlessly accounts for:
 
-- **AGC 114905** (DM-poor, $\sim 10^{9}$ M $_\odot$ baryons): diffuse star formation that *never crossed* $E_{crit}$.
-- **KKR 25** (REVISED v2.7.33+, DM-rich dSph, $M_{b}$ = $3 \times 10^{6} M_\odot$): an intense historical starburst 1-4 Gyr ago whose $S_{destruction}$ energy remains permanently cached on our brane as a stable gravitational fossil.
+- **AGC 114905** (DM-poor, ∼ 10⁹ M $_\odot$ baryons): diffuse star formation that *never crossed* $E_{crit}$.
+- **KKR 25** (REVISED v2.7.33+, DM-rich dSph, M_{b} = $3 \times 10^{6} M_\odot$): an intense historical starburst 1-4 Gyr ago whose $S_{destruction}$ energy remains permanently cached on our brane as a stable gravitational fossil.
 
 The distinction is *when* the energetic events happened, not just how much mass is there now. Entropic gravity cannot make this distinction; SIDC does.
 
@@ -95,7 +95,7 @@ The distinction is *when* the energetic events happened, not just how much mass 
 
 ### 9.5 SIDC vs f(R) Gravity
 
-**f(R) gravity's approach.** f(R) gravity modifies Einstein's equations by replacing the Ricci scalar $R$ with a general function $f(R)$. This can produce "chameleon screening" that mimics dark matter effects on galactic scales without requiring new particles. Recent work (e.g., Hu & Sawicki 2007, Starobinsky 2007) shows f(R) can match some cosmological observations.
+**f(R) gravity's approach.** f(R) gravity modifies Einstein's equations by replacing the Ricci scalar R with a general function f(R). This can produce "chameleon screening" that mimics dark matter effects on galactic scales without requiring new particles. Recent work (e.g., Hu & Sawicki 2007, Starobinsky 2007) shows f(R) can match some cosmological observations.
 
 **SIDC's structural advantage.**
 - f(R) requires fine-tuning of the f(R) function for each scale (galaxy, cluster, cosmological)
@@ -116,7 +116,7 @@ The distinction is *when* the energetic events happened, not just how much mass 
 
 ### 9.6 SIDC vs Quintessence / w(z) DE Models
 
-**Quintessence's approach.** Quintessence models allow the dark energy equation of state $w = p/\rho$ to evolve with redshift. They parameterize DE as a slowly-rolling scalar field, with $w$ possibly varying from $-1$. This is the "LOOSE" scenario discussed in L308bs.
+**Quintessence's approach.** Quintessence models allow the dark energy equation of state w = p/ρ to evolve with redshift. They parameterize DE as a slowly-rolling scalar field, with w possibly varying from -1. This is the "LOOSE" scenario discussed in L308bs.
 
 **SIDC's tight prediction (L308bs).** SIDC predicts DE = constant by time-dilation mechanism:
 - $t_{\rm universe} / \tau_{4D} = 9.1 \times 10^{-26}$ of 4D time observed
@@ -203,7 +203,7 @@ SGC shares with SIDC the insight that dimension is dynamic, but SIDC goes furthe
 
 ### 9.10 SIDC vs Holographic Dark Energy (Li 2004)
 
-**Holographic DE's approach.** Holographic Dark Energy (HDE, Li 2004) proposes that the dark energy density is set by the holographic principle: $\rho_{\rm DE} = 3c^2 M_{\rm Pl}^2 L^{-2}$, where $L$ is an IR cutoff (typically the future event horizon). This is motivated by the 't Hooft-Susskind holographic bound, which limits the entropy in a region to be proportional to its surface area.
+**Holographic DE's approach.** Holographic Dark Energy (HDE, Li 2004) proposes that the dark energy density is set by the holographic principle: $\rho_{\rm DE} = 3c^2 M_{\rm Pl}^2 L^{-2}$, where L is an IR cutoff (typically the future event horizon). This is motivated by the 't Hooft-Susskind holographic bound, which limits the entropy in a region to be proportional to its surface area.
 
 **SIDC's structural advantage over HDE.**
 - HDE: DE is tied to horizon size (which grows with time)
@@ -267,10 +267,10 @@ A defining feature of SIDC after v3.5.9+ A2 is that the framework's structural n
 
 | Quantity | First-Principles Origin | Source |
 |----------|--------------------------|--------|
-| $N=12$ (2D) | Standard Model fermion count (3 generations × 4 Weyl) | L308n, structural |
-| $N=6$ (3+1D) | C(6) minimal ideal = 1 SM generation (Stoica 2018) | L308bh, BREAKTHROUGH |
-| $N=3$ (4D) | 3 generations × 1 (Majorana-Weyl dim at 4D) | L308bi, structural |
-| $N_D$ = 12/2^(D-2) | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
+| N=12 (2D) | Standard Model fermion count (3 generations × 4 Weyl) | L308n, structural |
+| N=6 (3+1D) | C(6) minimal ideal = 1 SM generation (Stoica 2018) | L308bh, BREAKTHROUGH |
+| N=3 (4D) | 3 generations × 1 (Majorana-Weyl dim at 4D) | L308bi, structural |
+| N_D = 12/2^(D-2) | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
 
 **What this means for competitors:**
 - ΛCDM: Ω_c, Ω_Λ, N_eff, A_s, n_s, τ_reio, etc. are all FREE parameters (~6)
@@ -278,6 +278,6 @@ A defining feature of SIDC after v3.5.9+ A2 is that the framework's structural n
 - Quintessence: V(φ) is a free function
 - SGC: requires fundamental strings (unobserved)
 - HDE: IR cutoff choice is free
-- SIDC: structural numbers ( $N=12$, 6, 3) are first-principles
+- SIDC: structural numbers ( N=12, 6, 3) are first-principles
 
 SIDC now has the strongest first-principles foundation of any dark sector theory — the framework's core structure emerges from mathematics (Bott periodicity, Clifford algebra), not from observations. This is qualitatively different from parameter-fitting approaches.

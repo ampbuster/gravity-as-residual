@@ -21,18 +21,18 @@ The LaTeX source is available in the repository at `paper/arxiv/paper_arxiv.tex`
 
 ## Abstract
 
-We propose a phenomenological geometric framework—the **Scale-Invariant Dimensional Cascade (SIDC)**—in which gravity, dark matter, and dark energy emerge from a unified dimensional projection mechanism. The framework postulates a three-level hierarchical cascade (4D bulk event → 3+1D brane → 2D terminal quantum gravity floor) governed by a $\mathbb{Z}_{2}$ mirror symmetry at the 3+1D boundary. Downward dimensional projection induces an effective sign-flip in the gravitational coupling (yielding dark energy), while upward projection preserves standard attractive gravity (yielding dark matter). The cascade's structural parameters ($N_{2\text{D}} = 12$, $N_{3+1\text{D}} = 6$, $N_{4\text{D}} = 3$) are motivated by Clifford algebra representations and Bott periodicity. We construct an effective action that matches the observed dark energy density ($\rho_{\text{DE}} = 2.5 \times 10^{-47}$ GeV⁴) via cascade structure, and yields three sharp, falsifiable predictions:
+We propose a phenomenological geometric framework—the **Scale-Invariant Dimensional Cascade (SIDC)**—in which gravity, dark matter, and dark energy emerge from a unified dimensional projection mechanism. The framework postulates a three-level hierarchical cascade (4D bulk event → 3+1D brane → 2D terminal quantum gravity floor) governed by a ℤ₂ mirror symmetry at the 3+1D boundary. Downward dimensional projection induces an effective sign-flip in the gravitational coupling (yielding dark energy), while upward projection preserves standard attractive gravity (yielding dark matter). The cascade's structural parameters ($N_{2\text{D}} = 12$, $N_{3+1\text{D}} = 6$, $N_{4\text{D}} = 3$) are motivated by Clifford algebra representations and Bott periodicity. We construct an effective action that matches the observed dark energy density ($\rho_{\text{DE}} = 2.5 \times 10^{-47}$ GeV⁴) via cascade structure, and yields three sharp, falsifiable predictions:
 
-1. **Strict cosmological constant** ($w = -1$ exactly, no evolution)
-2. **DE/DM density ratio** scaling precisely as $(1+z)^{-3}$
+1. **Strict cosmological constant** (w = -1 exactly, no evolution)
+2. **DE/DM density ratio** scaling precisely as (1+z)⁻³
 3. **Structural 2D Planck scale** at $M_{\text{Pl,2D}} = 2.95$ TeV
 
 ## Testable predictions (with timelines)
 
 | Prediction | Survey / Experiment | Timeline | Verdict if confirmed |
 |---|---|---|---|
-| $w = -1$ EXACTLY (no evolution) | Euclid Q1+ / Roman | 2025+ / 2027+ | Falsifies quintessence, favors SIDC |
-| DE/DM $\propto (1+z)^{-3}$ | BAO, $f(z)\sigma_8$ growth rate | Ongoing (DESI, Euclid) | Tightness is unique to SIDC |
+| w = -1 EXACTLY (no evolution) | Euclid Q1+ / Roman | 2025+ / 2027+ | Falsifies quintessence, favors SIDC |
+| DE/DM ∝ (1+z)⁻³ | BAO, f(z)σ₈ growth rate | Ongoing (DESI, Euclid) | Tightness is unique to SIDC |
 | $M_{\text{Pl,2D}} = 2.95$ TeV | HL-LHC missing-energy, tensor resonances | 2030s | Structural SM-cascade connection |
 | 47 Tuc DM: $M_{\rm dyn} \approx M_{\rm stars}$ | Vera C. Rubin Observatory | DP1 2025 ✓ → DR1 2027 → Y10 2034 | **DECISIVE** SIDC vs ΛCDM test |
 
@@ -40,14 +40,14 @@ We propose a phenomenological geometric framework—the **Scale-Invariant Dimens
 
 | Quantity | Value | Status |
 |---|---|---|
-| $\rho_{\rm DE}$ | $2.5 \times 10^{-47}$ GeV⁴ | Matches observation within 0.13% |
-| $M_{\rm Pl,2D}$ | $2.95$ TeV | $= 12 \times v_{\rm Higgs} = 12 \times 246.22$ GeV (exact) |
-| $M_{\rm Pl,4D}$ | $3.93 \times 10^{23}$ GeV | Derived via $\alpha$-weighted geometric mean |
-| $\gamma_{4D}$ | $1.10 \times 10^{111}$ | Cascade amplification factor (not SR time dilation) |
-| $f_{\rm DE,closed}$ | $1.79 \times 10^{-90}$ | Closed-loop formula (A2) |
-| $f \times \varepsilon$ | $1.13 \times 10^{-123}$ | Invariant preserved across A1 and A2 |
-| $\alpha_{2D}, \alpha_{3+1D}, \alpha_{4D}$ | 1.289, 1.408, 1.577 | Schwarzian SYK applied to $N_D$ |
-| $H_0$ | $67.4$ km/s/Mpc | Planck CMB-inferred (inherited) |
+| $\rho_{\rm DE}$ | 2.5 × 10⁻⁴⁷ GeV⁴ | Matches observation within 0.13% |
+| $M_{\rm Pl,2D}$ | 2.95 TeV | $= 12 \times v_{\rm Higgs} = 12 \times 246.22$ GeV (exact) |
+| $M_{\rm Pl,4D}$ | 3.93 × 10²³ GeV | Derived via α-weighted geometric mean |
+| $\gamma_{4D}$ | 1.10 × 10¹¹¹ | Cascade amplification factor (not SR time dilation) |
+| $f_{\rm DE,closed}$ | 1.79 × 10⁻⁹⁰ | Closed-loop formula (A2) |
+| f × ε | $1.13 \times 10^{-123}$ | Invariant preserved across A1 and A2 |
+| $\alpha_{2D}, \alpha_{3+1D}, \alpha_{4D}$ | 1.289, 1.408, 1.577 | Schwarzian SYK applied to N_D |
+| H₀ | 67.4 km/s/Mpc | Planck CMB-inferred (inherited) |
 
 ## Framework state
 
@@ -62,7 +62,7 @@ All structural numbers derive from mathematics, not observations:
 | Component | Source | Status |
 |---|---|---|
 | $N_{2D} = 12$ | SM fermion count (3 gen × 4 Weyl) | ✓ First-principles |
-| $N_{3+1D} = 6$ | $C\ell(6)$ is isomorphic to the SM algebra (Stoica 2018) | ✓ First-principles |
+| $N_{3+1D} = 6$ | Cℓ(6) is isomorphic to the SM algebra (Stoica 2018) | ✓ First-principles |
 | $N_{4D} = 3$ | 3 generations (Clifford C(8), McKay, cobordism) | ✓ First-principles |
 | Halving rule $N_D = 12/2^{D-2}$ | Real spinor dim doubling via Bott periodicity | ✓ First-principles |
 | $\alpha_D = 1 + 1/\sqrt{N_D}$ | Schwarzian SYK applied to local Clifford dim | ✓ First-principles |
@@ -72,7 +72,7 @@ All structural numbers derive from mathematics, not observations:
 This is a **thought experiment** developed by a software developer (not a credentialed physicist) through extended dialogue with an AI assistant. The framework is:
 
 - ✓ **CALIBRATED** (4 calibrated parameters)
-- ✓ **STRUCTURALLY first-principles** (cascade structure, halving rule, $C\ell(6)$ SM algebra isomorphism)
+- ✓ **STRUCTURALLY first-principles** (cascade structure, halving rule, Cℓ(6) SM algebra isomorphism)
 - ✓ **TESTABLE** (47 Tuc 2025, Euclid 2024+, SKA 2030s)
 - ⚠️ **OPEN in UV completion** (the 4% Lagrangian gap — see §18 of the extended paper)
 - ⚠️ **MATCHES but does not derive** the cosmological constant (4 calibrated parameters absorb ~120 orders of magnitude; the framework accommodates $\rho_{\rm DE}$ rather than deriving it from first principles)
@@ -107,13 +107,13 @@ A DOI will be added once the release is archived on Zenodo.
 
 ## Changelog highlights (v3.5.7+ → v3.5.9+ A2)
 
-- **L308t** (v3.5.8+): L26 full closure — $M_{\rm Pl,2D} = 2.95$ TeV, $\mu = 8.73 \times 10^6$ GeV² exact
-- **L308u** (v3.5.9+): WHY $N=12$? — $Z_{12}$ bulk + 6D anomaly cancellation (Appelquist 2001)
-- **L308v** (v3.5.9+): L138 partial closure — $M_{\rm Pl,4D}$ via $\alpha$-GM closed loop
+- **L308t** (v3.5.8+): L26 full closure — $M_{\rm Pl,2D} = 2.95$ TeV, μ = 8.73 × 10⁶ GeV² exact
+- **L308u** (v3.5.9+): WHY N=12? — Z₁₂ bulk + 6D anomaly cancellation (Appelquist 2001)
+- **L308v** (v3.5.9+): L138 partial closure — $M_{\rm Pl,4D}$ via α-GM closed loop
 - **L308w** (v3.5.9+): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
 - **L308x** (v3.5.9+ A1): $\gamma_{4D}$ and $\gamma_{2D}$ consistent (both cascade amplification factors)
 - **L308ba**: Halving rule — $N_D = 12/2^{D-2}$ first-principles via spinor dim doubling
-- **L308bh**: $C\ell(6)$ IS the SM Algebra (Stoica 2018) — $N_{3+1D}$ first-principles
+- **L308bh**: Cℓ(6) IS the SM Algebra (Stoica 2018) — $N_{3+1D}$ first-principles
 - **L308bj**: Bott periodicity origin of the halving rule
 - **L308bn**: $M_{\rm Pl,4D}$ re-derived consistently in A2
 - **L308bp**: DM-DE unification — DE is constant (4D event), DM is depleted (leak to 4D bulk)

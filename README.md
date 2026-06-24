@@ -16,10 +16,10 @@
 
 ## Abstract
 
-We propose a phenomenological geometric framework—the **Scale-Invariant Dimensional Cascade (SIDC)**—in which gravity, dark matter, and dark energy emerge from a unified dimensional projection mechanism. The framework postulates a three-level hierarchical cascade (4D bulk event → 3+1D brane → 2D terminal quantum gravity floor) governed by a $\mathbb{Z}_{2}$ mirror symmetry at the 3+1D boundary. Downward dimensional projection induces an effective sign-flip in the gravitational coupling (yielding dark energy), while upward projection preserves standard attractive gravity (yielding dark matter). The cascade's structural parameters ($N_{2\text{D}} = 12$, $N_{3+1\text{D}} = 6$, $N_{4\text{D}} = 3$) are motivated by Clifford algebra representations and Bott periodicity. We construct an effective action that matches the observed dark energy density ($\rho_{\text{DE}} = 2.5 \times 10^{-47}$ GeV⁴) via cascade structure, and yields three sharp, falsifiable predictions:
+We propose a phenomenological geometric framework—the **Scale-Invariant Dimensional Cascade (SIDC)**—in which gravity, dark matter, and dark energy emerge from a unified dimensional projection mechanism. The framework postulates a three-level hierarchical cascade (4D bulk event → 3+1D brane → 2D terminal quantum gravity floor) governed by a ℤ₂ mirror symmetry at the 3+1D boundary. Downward dimensional projection induces an effective sign-flip in the gravitational coupling (yielding dark energy), while upward projection preserves standard attractive gravity (yielding dark matter). The cascade's structural parameters ($N_{2\text{D}} = 12$, $N_{3+1\text{D}} = 6$, $N_{4\text{D}} = 3$) are motivated by Clifford algebra representations and Bott periodicity. We construct an effective action that matches the observed dark energy density ($\rho_{\text{DE}} = 2.5 \times 10^{-47}$ GeV⁴) via cascade structure, and yields three sharp, falsifiable predictions:
 
-1. **Strict cosmological constant** ($w = -1$ exactly, no evolution)
-2. **DE/DM density ratio** scaling precisely as $(1+z)^{-3}$
+1. **Strict cosmological constant** (w = -1 exactly, no evolution)
+2. **DE/DM density ratio** scaling precisely as (1+z)⁻³
 3. **Structural 2D Planck scale** at $M_{\text{Pl,2D}} = 2.95$ TeV
 
 The framework is testable by Euclid (Q1+ 2025), Roman (2027+), and the Vera C. Rubin Observatory (47 Tuc DM test, DP1 2025 → DR1 2027 → Y10 2034).
@@ -81,7 +81,7 @@ This repository contains a thought experiment in theoretical physics: a single g
 | DF2/DF4 | No DM | PASS (no recent energetic events) |
 | FCC 224 | DM-poor | PASS (isolated ultra-diffuse) |
 | AGC 114905 | DM-poor | PASS via smooth E^(1+α) |
-| KKR 25 | DM-rich ($M_{\rm dyn}$/$M_b$ ~ 1-4) | PASS (post-starburst dSph) |
+| KKR 25 | DM-rich ($M_{\rm dyn}$/M_b ~ 1-4) | PASS (post-starburst dSph) |
 
 **Score breakdown**: 11 clean passes + 4 structural (no substructure to test) + 5 = ΛCDM (consistent, not discriminative) + 1 confounded = **17/17 consistent, 0 falsified**.
 
@@ -132,8 +132,8 @@ After a 12-limitation first-principles chain (L308ba-L308bk), the framework now 
 | $N_{\rm 2D}$ = 12 | SM fermion count (L308r) | ✓ first-principles |
 | $N_{3+1D}$ = 6 | **Cℓ(6) is isomorphic to the SM algebra** (Stoica 2018) | ✓ first-principles (with isomorphism caveat) |
 | $N_{\rm 4D}$ = 3 | 3 generations (Clifford C(6)/C(8), McKay, cobordism) | ✓ first-principles |
-| **Halving rule $N_D$ = 12/2^(D-2)** | **Spinor dim doubling via Bott periodicity** | ✓ first-principles |
-| DOF conservation (12 real total) | $N_D$ × 2^(D-2) = 12 | ✓ first-principles |
+| **Halving rule N_D = 12/2^(D-2)** | **Spinor dim doubling via Bott periodicity** | ✓ first-principles |
+| DOF conservation (12 real total) | N_D × 2^(D-2) = 12 | ✓ first-principles |
 | α values | Schwarzian SYK applied to N | ✓ first-principles |
 | **Cascade dimension invariance** | **Extends to all D (integer-N + fractional-N levels)** | ✓ first-principles |
 
@@ -161,8 +161,8 @@ Level    N    Clifford Structure                  First-principles
 | 1 MEASURED | 1 | $M_{\rm Pl,3D}$ (Newton's G) |
 | 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$v_H (L308r), μ = $M_{\rm Pl}$,2D² (L308r) |
 | 2 DERIVED | 2 | $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (L308o) |
-| 4 CALIBRATED | 4 | ε, τ_4D, AGN rate, **$f_{\rm leak,3D→4D}$ = $H_0$** (A1 frame-neutral) |
-| 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), τ_3D,apparent, γ_4D, $N=12$ |
+| 4 CALIBRATED | 4 | ε, τ_4D, AGN rate, **$f_{\rm leak,3D→4D}$ = H₀** (A1 frame-neutral) |
+| 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), τ_3D,apparent, γ_4D, N=12 |
 | 1 FREE | 1 | $N_{\rm sub} = 386 (e$vent-specific) |
 
 **Of 15 parameters: 1 measured, 3 first-principles, 2 derived, 4 calibrated — only 1 truly free.** The "dark sector" doesn't require any new particle masses, cross-sections, or cosmological-constant fine-tuning.
@@ -171,11 +171,11 @@ Level    N    Clifford Structure                  First-principles
 
 ## 🎯 α is now dimension-specific (Option B Strengthened)
 
-α = 1 + 1/√$N_D$ with $N_D$ = 12/2^(D-2) gives:
+α = 1 + 1/√N_D with N_D = 12/2^(D-2) gives:
 
-- α_2D = 1 + 1/√12 = **1.289** (Schwarzian + $N=12$ SM count)
-- α_3+1D = 1 + 1/√6 = **1.408** (Schwarzian + $N=6$ C(6) SM algebra)
-- α_4D = 1 + 1/√3 = **1.577** (Schwarzian + $N=3$ generations)
+- α_2D = 1 + 1/√12 = **1.289** (Schwarzian + N=12 SM count)
+- α_3+1D = 1 + 1/√6 = **1.408** (Schwarzian + N=6 C(6) SM algebra)
+- α_4D = 1 + 1/√3 = **1.577** (Schwarzian + N=3 generations)
 
 **Option B Strengthened** is the framework's official interpretation (L308bi): all three N values are first-principles derived, so α dim-specific is no longer just "structurally rich" — it's first-principles for every dim.
 
@@ -231,20 +231,20 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 
 ### Strengths
 
-- **Local physics is strong**: RAR matches SPARC to 10% median residual; AGN host DM strongly supported at p < 10⁻⁵⁰ partial correlation; g₊ approximately constant across 4.5 decades in $M_b$ (r=+0.19, p=0.22).
+- **Local physics is strong**: RAR matches SPARC to 10% median residual; AGN host DM strongly supported at p < 10⁻⁵⁰ partial correlation; g₊ approximately constant across 4.5 decades in M_b (r=+0.19, p=0.22).
 - **Parsimony**: 1 geometric process vs ΛCDM's 20+ free parameters. **No DM particle. No cosmological constant.**
 - **First-principles structure**: All components of the cascade now derive from SM count, Clifford algebras (Cℓ(6) is isomorphic to the SM algebra, Stoica 2018), and Bott periodicity. The cascade **structure** is end-to-end first-principles (L308ba-L308bk chain); the **quantitative values** (ε, $f_{\rm DE}$, f_leak) are calibrated to observation.
 - **Empirical match**: ρ_DE within 0.13% of observation; scaling law holds over 54 orders of magnitude; 16/17 test categories consistent (1 confounded).
 - **Time direction**: The cone is asymmetric in time direction (L308x). $\gamma_{\rm 4D} = 1.10×10¹¹¹$ and $\gamma_{\rm 2D} = 5.5×10⁴⁴$ are both cascade amplification factors (not SR time dilation — they are dimensionless frame-dilation exponents relating energy scale to clock rate, see L308bs/L308bw).
 - **CMB-era consistency**: L308ab shows f_leak = H(z) drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
-- **$N_{\rm sub}$ derived**: L308ad gives $N_{\rm sub}$ ≈ $N_{12}$ × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3) = 382 ± 6, matching framework's 386 within 1.6%.
+- **$N_{\rm sub}$ derived**: L308ad gives $N_{\rm sub}$ ≈ N₁₂ × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3) = 382 ± 6, matching framework's 386 within 1.6%.
 
 ### Weaknesses
 
-- **Hubble tension**: ACCEPTED as real tension. H₀,₄D = 70.16 is a geometric-mean property but specific H₀ values are not derived. SIDC's prediction H₀ = 73 (local) matches local measurements but leaves 5.6 km/s/Mpc gap to Planck CMB H₀ = 67.4 unresolved. **REJECTED (L308bl)**: User correctly identified that f_leak is for DM (attractive gravity), not DE (repulsive antigravity). The Hubble tension is fundamentally about $H_0$/DE, not DM. No direct connection via f_leak.
+- **Hubble tension**: ACCEPTED as real tension. H₀,₄D = 70.16 is a geometric-mean property but specific H₀ values are not derived. SIDC's prediction H₀ = 73 (local) matches local measurements but leaves 5.6 km/s/Mpc gap to Planck CMB H₀ = 67.4 unresolved. **REJECTED (L308bl)**: User correctly identified that f_leak is for DM (attractive gravity), not DE (repulsive antigravity). The Hubble tension is fundamentally about H₀/DE, not DM. No direct connection via f_leak.
 - **No unique testable predictions beyond ΛCDM precision**: SIDC has 3 sharp predictions (w = -1 EXACTLY, DE/DM ∝ (1+z)⁻³ EXACTLY, $M_{\rm Pl,2D} = 2.95$TeV) that overlap with ΛCDM and MOND in regime, but SIDC's *tightness* (exact match, no evolution) is unique. Future surveys (Euclid, Roman, SKA) can discriminate if precision reaches the tight/loose boundary. SIDC's deeper value is *interpretive* and *parsimonious*.
 - **2D CFT requires expert input**: Full Lagrangian requires 2D CFT expert to fill in remaining details (Lagrangian scores 93% in audit, was 73%).
-- **Halving rule origin**: $N_D$ = 12/2^(D-2) is now first-principles via spinor dim doubling (L308bj), but the deeper origin of "12" as total real DOF budget is the SM fermion count (L308r), not derived from more fundamental physics.
+- **Halving rule origin**: N_D = 12/2^(D-2) is now first-principles via spinor dim doubling (L308bj), but the deeper origin of "12" as total real DOF budget is the SM fermion count (L308r), not derived from more fundamental physics.
 - **$N_{\rm sub}$ is event-specific**: $N_{\rm sub} = 386$is specific to our universe's 4D event. Other 4D events would have different $N_{\rm sub}$.
 - **CMB-era 2D-to-3+1D time compression**: Has 54-orders uncertainty. CMB-era physics is approximately right but not precisely calibrated.
 
@@ -261,7 +261,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 5. **AGC 114905 has no high-energy events above 10³⁰ J** in its recent history (testable with deep X-ray/radio).
 6. **47 Tucanae (NGC 104)**: $M_{\rm dyn}$ ≈ $M_{\rm stars}$ (no local DM spike). Falsifiable by Rubin/LSST DP1 (2025), DR1 (2027), Y10 (2034).
 7. **CMB at z=1100: Ω_c = 0.265** — confirmed by Planck 2018.
-8. **$N_{\rm sub}$ ≈ 386** for our universe — L308ad: $N_{\rm sub}$ = $N_{12}$ × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3) = 382 ± 6.
+8. **$N_{\rm sub}$ ≈ 386** for our universe — L308ad: $N_{\rm sub}$ = N₁₂ × ($M_{\rm Pl,4D}$/$M_{\rm Pl,3D}$)^(1/3) = 382 ± 6.
 
 ---
 
@@ -305,7 +305,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ### Legacy docs (for historical context)
 
 - `paper/legacy/v359_README_legacy_sections.md` — historical README sections
-- `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` — Hill function $F_p$(z) (DROPPED v3.3+)
+- `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` — Hill function Fₚ(z) (DROPPED v3.3+)
 - `paper/legacy/v357_f_back_clarification.md` — $f_{\rm back}$ naming revolution (v3.5.7+)
 - `paper/legacy/v358_user_driven_refinements.md` — v3.5.8 audit details
 - `paper/legacy/v359_path_B2_rejected.md` — Path B2 (rejected)

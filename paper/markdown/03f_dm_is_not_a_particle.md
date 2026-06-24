@@ -72,7 +72,7 @@ These tests can't directly probe the framework's DM.
 |---|---|---|
 | **Cosmological structure** | Does 27% match? | ✓ (calibrated) |
 | **CMB power spectrum** | Does DE = 68% match? | ✓ (calibrated $\tau_{\rm 4D}$) |
-| **Hubble tension** | Cascade $H_0$ = 70.16? | ✓ (matches TRGB) |
+| **Hubble tension** | Cascade H₀ = 70.16? | ✓ (matches TRGB) |
 | **Small-scale structure** | CDM-like behavior? | ✓ (calibrated) |
 | **Pulsed injection** | Is DM pulsed, not steady? | Testable (unusual signature) |
 | **Direct detection** | Is there a 2.95 TeV particle? | Future (DARWIN) |
@@ -120,14 +120,14 @@ The "spectrum" is determined by:
 - Distribution of E (event energies)
 - Distribution of event rates
 - 2D universe growth factors
-- $\mu$ (universal vs event-dep)
+- μ (universal vs event-dep)
 
-For Option 1 (universal $\mu$):
+For Option 1 (universal μ):
 - All 2D universes have same growth factor
 - Energy distribution = distribution of E (with universal growth)
-- Not a single mass — distribution from $10^{-43}$ J (TNT) to 10⁶⁰ J (quasar)
+- Not a single mass — distribution from 10⁻⁴³ J (TNT) to 10⁶⁰ J (quasar)
 
-For Option 2 (event-dep $\mu$):
+For Option 2 (event-dep μ):
 - Different growth factors
 - Even broader energy distribution
 - More diverse

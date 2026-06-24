@@ -20,7 +20,7 @@ This is fundamentally different from ΛCDM/WIMP frameworks where DM is a particl
 **Output**:
 $$P_{\rm total} = E_{\rm sub} \times R_{\rm 2D} = 7.82 \times 10^{72} \text{ W}$$
 
-**Compare to SN power** ( $P_{\rm SN} \sim 10^{53}$ W): SIDC events carry $\sim 10^{20}$× more power, but distributed over vastly longer timescales and different coupling channels.
+**Compare to SN power** ( $P_{\rm SN} \sim 10^{53}$ W): SIDC events carry ∼ 10²⁰× more power, but distributed over vastly longer timescales and different coupling channels.
 
 ### §16.2.2 Channel Coupling Fractions (UNCERTAIN)
 
@@ -28,11 +28,11 @@ The fraction of 2D universe death energy going to each standard channel is **not
 
 | Channel | Fraction | Basis |
 |---|---|---|
-| Gravitational (DM) | $\sim 1$ | Primary channel (geometric) |
-| GW | $10^{-6}$ to $10^{-2}$ | Geometric event, weak quadrupole |
-| Neutrinos | $10^{-5}$ to $10^{-3}$ | Weak coupling to Standard Model |
-| Gamma rays | $10^{-5}$ to $10^{-3}$ | EM coupling to Standard Model |
-| Cosmic rays | $10^{-6}$ to $10^{-3}$ | Hadronic coupling (model-dependent) |
+| Gravitational (DM) | ∼ 1 | Primary channel (geometric) |
+| GW | 10⁻⁶ to 10⁻² | Geometric event, weak quadrupole |
+| Neutrinos | 10⁻⁵ to 10⁻³ | Weak coupling to Standard Model |
+| Gamma rays | 10⁻⁵ to 10⁻³ | EM coupling to Standard Model |
+| Cosmic rays | 10⁻⁶ to 10⁻³ | Hadronic coupling (model-dependent) |
 
 These ranges span 4-6 orders of magnitude, so all SIDC multi-messenger predictions have significant uncertainty.
 
@@ -58,8 +58,8 @@ $$\boxed{\Omega_{\rm GW} \sim 3 \times 10^{-5} \text{ (broadband)}}$$
 
 ### §16.3.2 Diffuse Supernova Neutrino Background (DSNB)
 
-**Assumed efficiency**: $f_\nu = 10^{-5}$ (conservative)
-**Assumed $\nu$ energy**: $\langle E_\nu \rangle = 10$ GeV
+**Assumed efficiency**: f_ν = 10⁻⁵ (conservative)
+**Assumed ν energy**: $\langle E_\nu \rangle = 10$ GeV
 
 **Predicted flux at Earth**:
 $$\Phi_\nu = \frac{P_{\rm total} \times f_\nu}{4 \pi r_{\rm obs}^2 \langle E_\nu \rangle} = \frac{7.82 \times 10^{67} \text{ W}}{4\pi (4.4 \times 10^{26})^2 \text{ m}^2 \times 1.6 \times 10^{-9} \text{ J}}$$
@@ -67,17 +67,17 @@ $$\Phi_\nu = \frac{P_{\rm total} \times f_\nu}{4 \pi r_{\rm obs}^2 \langle E_\nu
 $$\boxed{\Phi_\nu \sim 2 \times 10^{18} \text{ /m}^2/\text{s} = 2 \times 10^{14} \text{ /cm}^2/\text{s}}$$
 
 **Comparison**:
-- Super-K DSNB upper limit: $\sim 10$ /cm²/s
+- Super-K DSNB upper limit: ∼ 10 /cm²/s
 - **SIDC prediction: 13 orders of magnitude ABOVE Super-K limit**
 
 **Verdict**: This means either:
-1. The efficiency $f_\nu = 10^{-5}$ is too high (more likely: $f_\nu < 10^{-18}$)
-2. The $\nu$ energy is wrong (if $E_\nu = 100$ TeV, flux is 10⁴× lower)
-3. SIDC is excluded by DSNB (no: SN are the only confirmed $\nu$ source, and 2D universe events are not SN-like)
+1. The efficiency f_ν = 10⁻⁵ is too high (more likely: f_ν < 10⁻¹⁸)
+2. The ν energy is wrong (if E_ν = 100 TeV, flux is 10⁴× lower)
+3. SIDC is excluded by DSNB (no: SN are the only confirmed ν source, and 2D universe events are not SN-like)
 
-**Honest interpretation**: The naive calculation suggests SIDC 2D universe deaths would produce a neutrino flux far in excess of observed DSNB. This is a **tension that SIDC must explain**: the geometric events must couple VERY weakly to the Standard Model weak sector, with $f_\nu < 10^{-18}$.
+**Honest interpretation**: The naive calculation suggests SIDC 2D universe deaths would produce a neutrino flux far in excess of observed DSNB. This is a **tension that SIDC must explain**: the geometric events must couple VERY weakly to the Standard Model weak sector, with f_ν < 10⁻¹⁸.
 
-**Possible resolution**: The 2D universe death is a metric event, not a particle decay. The energy return to 3+1D is via gravitational coupling, not Standard Model weak interaction. So $f_\nu$ is naturally $\ll 10^{-5}$ — possibly zero (no Standard Model radiation at all).
+**Possible resolution**: The 2D universe death is a metric event, not a particle decay. The energy return to 3+1D is via gravitational coupling, not Standard Model weak interaction. So f_ν is naturally ≪ 10⁻⁵ — possibly zero (no Standard Model radiation at all).
 
 **Status**: ⚠️ **OPEN QUESTION** — this needs a Lagrangian-level derivation of the SM coupling fraction.
 
@@ -87,15 +87,15 @@ $$\boxed{\Phi_\nu \sim 2 \times 10^{18} \text{ /m}^2/\text{s} = 2 \times 10^{14}
 
 $$\Phi_\gamma \sim 2 \times 10^{19} \text{ /cm}^2/\text{s} \text{ at GeV energies (with } f_\gamma = 10^{-5}\text{)}$$
 
-**Fermi EGB observed**: $\sim 10^{-5}$ /cm²/s at GeV
+**Fermi EGB observed**: ∼ 10⁻⁵ /cm²/s at GeV
 
-**Same tension as neutrinos**: SIDC would overproduce gamma rays if 0.001% of geometric event energy goes to EM. Must have $f_\gamma < 10^{-24}$.
+**Same tension as neutrinos**: SIDC would overproduce gamma rays if 0.001% of geometric event energy goes to EM. Must have f_γ < 10⁻²⁴.
 
 **Resolution**: 2D universe deaths are GEOMETRIC events. They do not radiate Standard Model photons. The "energy return" is a metric back-projection, not particle emission.
 
 ### §16.3.4 Ultra-High Energy Cosmic Rays (UHECR)
 
-UHECR ( $E > 10^{18}$ eV) from 2D universe deaths require:
+UHECR ( E > 10¹⁸ eV) from 2D universe deaths require:
 1. Acceleration mechanism (not specified in SIDC)
 2. Composition (SIDC allows but doesn't predict)
 
@@ -107,11 +107,11 @@ SIDC is **consistent** with UHECR observations but makes **no specific predictio
 
 ### §16.3.5 21cm Cosmological Signal
 
-SIDC predicts small excess heating at $z > 20$ from 2D universe deaths, on top of the standard ΛCDM 21cm signal.
+SIDC predicts small excess heating at z > 20 from 2D universe deaths, on top of the standard ΛCDM 21cm signal.
 
-**Order of magnitude**: $\Delta T_b \sim 1-10$ mK at $z \sim 20$ (compared to ΛCDM's $\sim 10$ mK signal at $z \sim 17$).
+**Order of magnitude**: Δ T_b ∼ 1-10 mK at z ∼ 20 (compared to ΛCDM's ∼ 10 mK signal at z ∼ 17).
 
-**Detection**: SKA-MPG 2030s has $\sim 1$ mK sensitivity.
+**Detection**: SKA-MPG 2030s has ∼ 1 mK sensitivity.
 
 **Status**: ✓ TESTABLE, but small effect requiring high precision
 
@@ -123,18 +123,18 @@ Given that SIDC's standard multi-messenger signals are SECONDARY and small, the 
 
 | Test | SIDC | ΛCDM | How to distinguish |
 |---|---|---|---|
-| $g_+$ vs SFR (dwarfs) | TIGHT correlation | NO correlation | Compare KKR 25 (DM-rich, post-starburst) vs AGC 114905 (DM-poor, never crossed $E_{\rm crit}$) |
-| BCG $g_+$ vs ICM activity | TIGHT correlation | NO correlation | Tian+ 2024, eROSITA cluster sample |
+| g_+ vs SFR (dwarfs) | TIGHT correlation | NO correlation | Compare KKR 25 (DM-rich, post-starburst) vs AGC 114905 (DM-poor, never crossed $E_{\rm crit}$) |
+| BCG g_+ vs ICM activity | TIGHT correlation | NO correlation | Tian+ 2024, eROSITA cluster sample |
 | 47 Tuc DM | $M_{\rm dyn} \approx M_{\rm stars}$ (NO spike) | DM spike | Rubin/LSST DP1 (2025), DR1 (2027) |
-| BCG $g_+$ universal | $g_+ \approx 1.7 \times 10^{-9}$ m/s² | Variable | Tian+ 2024 (50 BCGs) |
+| BCG g_+ universal | g_+ ≈ 1.7 × 10⁻⁹ m/s² | Variable | Tian+ 2024 (50 BCGs) |
 
 ### §16.4.2 Dark Energy Equation of State
 
 | Test | SIDC | ΛCDM | Timeline |
 |---|---|---|---|
-| $w$ (DE eq of state) | $w = -1$ **EXACTLY** | $w \approx -1 \pm 0.05$ | Euclid (2024+), Roman (2027+) |
-| $w_a$ (evolution) | $w_a = 0$ EXACTLY | $w_a$ small but uncertain | Same surveys |
-| DE/DM ratio | $\propto (1+z)^{-3}$ EXACTLY | Same but with $w$ uncertainty | BAO + $f\sigma_8$ |
+| w (DE eq of state) | w = -1 **EXACTLY** | w ≈ -1 ± 0.05 | Euclid (2024+), Roman (2027+) |
+| wₐ (evolution) | wₐ = 0 EXACTLY | wₐ small but uncertain | Same surveys |
+| DE/DM ratio | ∝ (1+z)⁻³ EXACTLY | Same but with w uncertainty | BAO + fσ₈ |
 
 ### §16.4.3 2D Planck Scale
 
@@ -146,16 +146,16 @@ Given that SIDC's standard multi-messenger signals are SECONDARY and small, the 
 
 | Test | SIDC Signal | Current Sensitivity | Verdict |
 |---|---|---|---|
-| GW background | $\Omega_{\rm GW} \sim 10^{-5}$ (uncertain) | $10^{-9}$ (NANOGrav) | 4 orders below |
-| Diffuse $\nu$ | $\sim 10^{18}$ /cm²/s (if 0.001% coupling) | $10$ /cm²/s (Super-K) | Need 18 orders less coupling |
-| Diffuse $\gamma$ | $\sim 10^{19}$ /cm²/s (if 0.001% coupling) | $10^{-5}$ /cm²/s (Fermi) | Need 24 orders less coupling |
-| UHECR | Consistent | $10^{-20}$ /m²/s | No prediction |
-| 21cm | $\Delta T_b \sim 1-10$ mK | $\sim 1$ mK (SKA 2030s) | Within reach |
+| GW background | $\Omega_{\rm GW} \sim 10^{-5}$ (uncertain) | 10⁻⁹ (NANOGrav) | 4 orders below |
+| Diffuse ν | ∼ 10¹⁸ /cm²/s (if 0.001% coupling) | 10 /cm²/s (Super-K) | Need 18 orders less coupling |
+| Diffuse γ | ∼ 10¹⁹ /cm²/s (if 0.001% coupling) | 10⁻⁵ /cm²/s (Fermi) | Need 24 orders less coupling |
+| UHECR | Consistent | 10⁻²⁰ /m²/s | No prediction |
+| 21cm | Δ T_b ∼ 1-10 mK | ∼ 1 mK (SKA 2030s) | Within reach |
 
 **The geometric nature of SIDC's 2D universe events means standard multi-messenger signals are naturally tiny.** The framework's discriminating power comes from:
 
 1. **Local physics precision** (already strong, can be sharpened with new data)
-2. **Dark energy tightness** ( $w = -1$ EXACTLY is unique)
+2. **Dark energy tightness** ( w = -1 EXACTLY is unique)
 3. **47 Tuc DM test** (decisive SIDC vs ΛCDM)
 
 ## §16.6 The Lagrangian Gap (Honest Limitation)
@@ -171,10 +171,10 @@ The 2D universe death coupling to Standard Model channels is **not derived** in 
 
 1. **47 Tuc DM** (Rubin/LSST DP1 2025) — DECISIVE
 2. **w = -1** (Euclid 2024+) — SHARPEST
-3. **BCG $g_+$ universality** (eROSITA 2024+) — STRONG
+3. **BCG g_+ universality** (eROSITA 2024+) — STRONG
 4. **21cm heating** (SKA-MPG 2030s) — TESTABLE
 5. **GW background** (LISA 2030s) — UNLIKELY DETECTABLE
-6. **Diffuse $\nu$/ $\gamma$** — REQUIRES LAGRANGIAN FIRST
+6. **Diffuse ν/ γ** — REQUIRES LAGRANGIAN FIRST
 
 **Bottom line**: SIDC's multi-messenger predictions are **sub-dominant** to its primary DM/DE predictions. The framework's strongest tests are **precision local physics**, not standard multi-messenger channels.
 

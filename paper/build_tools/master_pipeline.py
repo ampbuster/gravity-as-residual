@@ -219,6 +219,42 @@ def step_wrap_unicode_powers(dry_run=False):
     return True
 
 
+def step_inline_to_unicode(dry_run=False):
+    """Convert simple inline LaTeX math to Unicode.
+
+    User principle: 'use unicode for inline, and latex if not'.
+
+    This converts single Greek letters, simple operators (×, →, ≤, ≥, etc.),
+    and blackboard letters (ℤ, ℝ, etc.) to their Unicode equivalents in
+    markdown files. Complex expressions (with \\rm, \\text, \\frac, multi-char
+    subscripts) are kept as LaTeX.
+
+    Note: only applies to .md files, NOT .tex files (LaTeX can't compile
+    Unicode characters natively without XeLaTeX/LuaLaTeX).
+    """
+    print('\n=== Step 3.5: inline_to_unicode ===')
+    if dry_run:
+        return True
+    # Run on all markdown files
+    import glob
+    files = glob.glob(os.path.join(MARKDOWN_DIR, '*.md'))
+    files.append(os.path.join(WORKSPACE, 'README.md'))
+    files.append(os.path.join(WORKSPACE, 'RELEASE_DESCRIPTION_v3.5.9-A2.md'))
+    files.append(os.path.join(WORKSPACE, 'STATE_OF_THE_MODEL.md'))
+    files.append(os.path.join(WORKSPACE, 'persistent_memory.md'))
+    files.append(os.path.join(WORKSPACE, 'changelog.md'))
+    files.append(os.path.join(WORKSPACE, 'paper', 'paper.md'))
+    # Apply
+    sys.path.insert(0, os.path.dirname(__file__))
+    import inline_to_unicode
+    total = 0
+    for fp in files:
+        if os.path.exists(fp):
+            total += inline_to_unicode.process_file(fp, dry_run=dry_run)
+    print(f'  Total: {total} inline math expressions converted to Unicode')
+    return True
+
+
 def step_wrap_math_vars(dry_run=False):
     """Run wrap_math_vars.py - AGGRESSIVE math wrapping.
 
@@ -269,6 +305,7 @@ STEPS = [
     'fix_unbalanced_dollars',
     'fix_math_spacing',
     'wrap_unicode_powers',
+    'inline_to_unicode',  # NEW: convert simple inline LaTeX to Unicode
     'wrap_math_vars',   # AGGRESSIVE: wraps M_Pl,4D, H_0, etc.
     'fix_broken_wraps',  # Run AGAIN to clean up broken patterns from wrap_math_vars
     'fix_math_spacing',  # Run AGAIN to clean up spacing
@@ -292,6 +329,7 @@ def main():
         'fix_unbalanced_dollars': step_fix_unbalanced_dollars,
         'fix_math_spacing': step_fix_math_spacing,
         'wrap_unicode_powers': step_wrap_unicode_powers,
+        'inline_to_unicode': step_inline_to_unicode,
         'wrap_math_vars': step_wrap_math_vars,
         'build_pdf': step_build_pdf,
         'audit': step_audit,

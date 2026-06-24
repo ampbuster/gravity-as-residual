@@ -17,7 +17,7 @@ $$S_{\rm SIDC} = S_{4D} + S_{3+1D} + \sum_{\rm events} S_{2D} + S_{\rm proj} + S
 | $S_{\rm 2D}$ (per 2D universe) | ⚠️ Partially implemented | Form written, exact Z_2D unclear |
 | S_proj (projection) | ✓ Structurally implemented | L308az (mirror plane) |
 | S_mirror (mirror plane) | ✓ Implemented | L308az explicit |
-| S_drain (DM stability) | ✓ Implemented | L308ax (f_leak = $H_0$) |
+| S_drain (DM stability) | ✓ Implemented | L308ax (f_leak = H₀) |
 
 The 4% gap consists of:
 1. Exact 2D CFT partition function Z_2D
@@ -58,7 +58,7 @@ $$Z_{3+1D} = \int \mathcal{D}\Phi_{3+1D} \exp\left(i \int d^4x \sqrt{-g} \left[\
 $$Z_{2D} = \int \mathcal{D}\phi \, \mathcal{D}\psi \langle \text{FZZT} | \exp(-S_L - S_{\rm Ising} - S_{\rm SYK}) | \text{FZZT} \rangle$$
 
 where:
-- $S_L$ = Liouville gravity action: $S_L = \frac{1}{4\pi} \int d^2z \, (\partial\phi \bar\partial\phi + Q R \phi + \mu e^\phi)$
+- S_L = Liouville gravity action: $S_L = \frac{1}{4\pi} \int d^2z \, (\partial\phi \bar\partial\phi + Q R \phi + \mu e^\phi)$
 - $S_{\rm Ising}$ = Ising CFT action (c = 1/2)
 - $S_{\rm SYK}$ = SYK model: $S_{\rm SYK} = \sum_{i<j<k<l} J_{ijkl} \psi_i \psi_j \psi_k \psi_l$
 - FZZT = Fateev-Zamolodchikov-Zamolodchikov-Teschner brane boundary
@@ -155,7 +155,7 @@ where c_s is the brane sound speed.
 
 **Difficulty**: 1-3 months.
 
-**Status**: f_leak = $H_0$ (calibrated, L308ax). This is the "post-Friedmann principle" — DM stability is maintained by Hubble-scale dynamics.
+**Status**: f_leak = H₀ (calibrated, L308ax). This is the "post-Friedmann principle" — DM stability is maintained by Hubble-scale dynamics.
 
 ### §18.4.3 N values origin (LOW)
 
@@ -190,7 +190,7 @@ The 4% gap is NOT a blocker for the framework's core predictions. Without the fu
 
 ✓ ρ_DE matches observation (0.13% off, A2 closed loop)
 ✓ DM distribution (SPARC, BCG)
-✓ AGN-DM correlation (p < $10^{-50}$)
+✓ AGN-DM correlation (p < 10⁻⁵⁰)
 ✓ 5/27/68 split matches Planck 2018
 ✓ $M_{\rm Pl,2D} = 2.95$TeV (testable at HL-LHC)
 ✓ w = -1 EXACTLY (testable by Euclid/Roman)

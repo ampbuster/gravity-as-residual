@@ -1,34 +1,34 @@
 
-> **LEGACY NOTE**: This file contains references to the OLD Hill function $F_p$(z) framework
+> **LEGACY NOTE**: This file contains references to the OLD Hill function Fₚ(z) framework
 > (DROPPED in v3.3+, see L100). The current framework uses **bilateral cascade** with
-> ** $f_{\rm leak,3D→4D}$ = $H_0$** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
+> ** $f_{\rm leak,3D→4D}$ = H₀** as new principle (Approach A1, §7.4.20, frame-neutral naming L308ax). Hill function references
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab f_leak = H(z) (CMB gap closure) used A1 ε = $10^{-38}$. The f × ε invariant (1.13× $10^{-123}$) is preserved in A2 (ε = 6.32× $10^{-34}$). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab f_leak = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The f × ε invariant (1.13× $10^{-123}$) is preserved in A2 (ε = 6.32× 10⁻³⁴). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
 
 <!-- 13_cmb_gap.md - part of paper.md split (v3.0.13) -->
 
-## 13. SIDC's CMB Gap: an Honest Limitation (June 2026) — *HISTORICAL (v2.7.5: CLOSED, v3.3+: $F_p$ FRAMEWORK DROPPED)*
+## 13. SIDC's CMB Gap: an Honest Limitation (June 2026) — *HISTORICAL (v2.7.5: CLOSED, v3.3+: Fₚ FRAMEWORK DROPPED)*
 
-**LEGACY (v2.7.5+, HISTORICAL)**: The CMB gap was CLOSED in v2.7.5 via the smooth $F_p(z) = 0.7 + 0.3 \cdot z^2/(z_{half}^2 + z^2)$ (Hill function, n=2, $z_{half} \approx 3$). This replaces the v2.4 constant $F_p = 0.7$.
+**LEGACY (v2.7.5+, HISTORICAL)**: The CMB gap was CLOSED in v2.7.5 via the smooth $F_p(z) = 0.7 + 0.3 \cdot z^2/(z_{half}^2 + z^2)$ (Hill function, n=2, $z_{half} \approx 3$). This replaces the v2.4 constant Fₚ = 0.7.
 
-**HOWEVER (v3.3+, CURRENT)**: The ENTIRE $F_p(z)$ Hill function framework was DROPPED in v3.3+ per L100 (user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). CMB gap is now addressed through DIFFERENT mechanism (cumulative 2D universe deaths + calibrated AGN rate).
+**HOWEVER (v3.3+, CURRENT)**: The ENTIRE Fₚ(z) Hill function framework was DROPPED in v3.3+ per L100 (user-critique 6 times). Current framework uses bilateral cascade with $f_{\rm leak} = H_0$ (post-Friedmann, A1). CMB gap is now addressed through DIFFERENT mechanism (cumulative 2D universe deaths + calibrated AGN rate).
 
 See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md` for full legacy history.
 
-**Historical framing (v2.4-v2.7.4).** SIDC's earlier (v2.4-v2.7.4) version of the CMB gap was an honest limitation. The current section is preserved for historical context — it documents SIDC's progression from "tension" to "closed" via the smooth $F(z)$ refinement.
+**Historical framing (v2.4-v2.7.4).** SIDC's earlier (v2.4-v2.7.4) version of the CMB gap was an honest limitation. The current section is preserved for historical context — it documents SIDC's progression from "tension" to "closed" via the smooth F(z) refinement.
 
 This section acknowledges a **fundamental tension** between SIDC's current mechanism and the observed CMB angular power spectrum.
 
 ### 13.1 The CMB requirement
 
-The CMB angular power spectrum (Planck 2018 results V, A&A 641, A5; arXiv:1907.12875) requires a matter density of ** $\Omega_m$ = 0.315** at the recombination epoch (z = 1100), of which ** $\Omega_{\rm c}$ = 0.265** is cold dark matter. Without this DM, the acoustic peaks are at the wrong positions:
-- First peak (l ~ 220): controlled by sound horizon, **shifts** if $\Omega_m$ changes
-- Second peak (l ~ 540): baryon-to-photon ratio, **changes** with $\Omega_m$
+The CMB angular power spectrum (Planck 2018 results V, A&A 641, A5; arXiv:1907.12875) requires a matter density of ** Ωₘ = 0.315** at the recombination epoch (z = 1100), of which ** $\Omega_{\rm c}$ = 0.265** is cold dark matter. Without this DM, the acoustic peaks are at the wrong positions:
+- First peak (l ~ 220): controlled by sound horizon, **shifts** if Ωₘ changes
+- Second peak (l ~ 540): baryon-to-photon ratio, **changes** with Ωₘ
 - Third peak (l ~ 810): matter-to-radiation, **depends on $\Omega_{\rm c}$**
 
-This is **not a small effect**: the difference between baryon-only ( $\Omega_m$ ~ 0.049) and the observed $\Omega_m$ = 0.315 corresponds to a factor of ~6.4 in total matter density, which moves the acoustic peaks by 10-20% in l.
+This is **not a small effect**: the difference between baryon-only ( Ωₘ ~ 0.049) and the observed Ωₘ = 0.315 corresponds to a factor of ~6.4 in total matter density, which moves the acoustic peaks by 10-20% in l.
 
 ### 13.2 SIDC's prediction at z = 1100
 
@@ -38,19 +38,19 @@ SIDC's mechanism (per §2.4-2.7) is:
 
 SIDC's first "energetic events" in our universe are the **first stars (Population III)** forming at z ~ 20-30, and the first core-collapse supernovae at z ~ 15-20. Before this, there are essentially no energetic events in SIDC's sense.
 
-Therefore, SIDC predicts: ** $\Omega_{\rm DM}$(z > 20) ~ 0**. SIDC's predicted $\Omega_m$(z = 1100) is approximately the **baryon-only** value: $\Omega_m$(z = 1100) ~ $\Omega_{\rm b}$ = 0.049.
+Therefore, SIDC predicts: ** $\Omega_{\rm DM}$(z > 20) ~ 0**. SIDC's predicted Ωₘ(z = 1100) is approximately the **baryon-only** value: Ωₘ(z = 1100) ~ $\Omega_{\rm b}$ = 0.049.
 
 **Importantly, SIDC's *baryon* prediction is correct at z = 1100.** The 5% baryons are present at all z, including z = 1100, in plasma form (ionized hydrogen and helium — the medium that emits and absorbs the CMB). They are "visible" via their interaction with CMB photons, even though no stars or galaxies have formed yet.
 
 SIDC's failure is specifically in the **27% dark matter**, not the 5% baryons. SIDC predicts:
 - $\Omega_{\rm b}$(z = 1100) = 0.049 **[PASS]** (matches Planck)
 - $\Omega_{\rm DM}$(z = 1100) = 0 **[FAIL]** (SIDC's specific failure)
-- $\Omega_m$(z = 1100) = 0.049 **[FAIL]** (factor of 6.4 below Planck's 0.315)
+- Ωₘ(z = 1100) = 0.049 **[FAIL]** (factor of 6.4 below Planck's 0.315)
 
 ### 13.3 The tension
 
 The CMB acoustic peaks depend on:
-- **First peak (l ~ 220):** sound horizon (depends on total $\Omega_m$, weakly on $\Omega_{\rm c}$)
+- **First peak (l ~ 220):** sound horizon (depends on total Ωₘ, weakly on $\Omega_{\rm c}$)
 - **Second peak (l ~ 540):** baryon-to-photon ratio (depends on $\Omega_{\rm b}$, mostly correct in SIDC)
 - **Third peak (l ~ 810):** matter-to-radiation ratio (depends on $\Omega_{\rm c}$, **missing in SIDC**)
 
@@ -104,21 +104,21 @@ This is **future work**, not a v2.7.3+ deliverable. SIDC's current framework is 
 
 To complement the qualitative picture, SIDC has been fit to the **SPARC database** (175 galaxies, 3383 radial data points) using MCMC (emcee). See `calculations/v27_cascade_mcmc_rar.py` for the full calculation.
 
-**SIDC RAR model:** $g_{\rm obs}$ = $g_{\rm bar}$ / (1 - exp(-sqrt( $g_{\rm bar}$ / $a_0$)))
+**SIDC RAR model:** $g_{\rm obs}$ = $g_{\rm bar}$ / (1 - exp(-sqrt( $g_{\rm bar}$ / a₀)))
 
-This is the standard interpolating function that smoothly transitions from Newtonian ( $g_{\rm bar}$ >> $a_0$) to MOND ( $g_{\rm bar}$ << $a_0$).
+This is the standard interpolating function that smoothly transitions from Newtonian ( $g_{\rm bar}$ >> a₀) to MOND ( $g_{\rm bar}$ << a₀).
 
 **MCMC result (this run):**
-- $a_0$ = $2.34 \times 10^{-10}$ ± $1.54 \times 10^{-10}$ m/s^2
+- a₀ = 2.34 × 10⁻¹⁰ ± 1.54 × 10⁻¹⁰ m/s^2
 - sigma_int = 0.089 ± 0.040 dex
 - Reduced chi^2 ≈ 0 (model is "over-fit" given the wide error bars)
 
 **Literature comparison (Li+ 2018, arXiv:1803.00022):**
-- $a_0$ = $1.20 \times 10^{-10}$ ± 0.02 m/s^2
+- a₀ = 1.20 × 10⁻¹⁰ ± 0.02 m/s^2
 - sigma_int = 0.057 ± 0.002 dex
-- Reduced $\chi^2 = 1.0$ (good fit)
+- Reduced χ² = 1.0 (good fit)
 
-SIDC's $a_0$ is consistent with the literature (within 1-2 sigma). SIDC's RAR is statistically equivalent to standard MOND. SIDC adds *geometric unification* ( $a_0$ emerges from 2D universe back-projection) but does not *uniquely* beat MOND via the RAR.
+SIDC's a₀ is consistent with the literature (within 1-2 sigma). SIDC's RAR is statistically equivalent to standard MOND. SIDC adds *geometric unification* ( a₀ emerges from 2D universe back-projection) but does not *uniquely* beat MOND via the RAR.
 
 **The 47 Tuc test is SIDC's true differentiator** (from MOND and from particle DM). The RAR fit is a *consistency check* on SIDC's phenomenological prediction, not a new confirmation.
 
@@ -146,11 +146,11 @@ The full analysis is in `calculations/v27_cascade_cmb_analysis.py` and `calculat
 
 > "when the universe was small, pressure was higher, so more leaks back to 4d"
 
-**Mechanism**: Generalizing A1's f_leak = $H_0$ to f_leak = c × H(z) (where c ≈ 1.13):
+**Mechanism**: Generalizing A1's f_leak = H₀ to f_leak = c × H(z) (where c ≈ 1.13):
 
 - In early universe (z > 1100): high H(z) → high leak rate → DM doesn't accumulate
 - In late universe (z < 1100): low H(z) → low leak rate → DM reaches steady state
-- Today: f_leak(z=0) = 1.13 × $H_0$, essentially matching A1
+- Today: f_leak(z=0) = 1.13 × H₀, essentially matching A1
 
 **Result**: Drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
 
@@ -186,7 +186,7 @@ This is the right question to ask. The CMB angular power spectrum has multiple a
 
 **The CMB peak structure depends on**:
 
-1. **Background cosmology** $H(z)$, $\Omega_m(z)$, $\Omega_b$ — SAME in both frameworks (3+1D Friedmann equation)
+1. **Background cosmology** H(z), Ωₘ(z), Ω_b — SAME in both frameworks (3+1D Friedmann equation)
 2. **Recombination physics** — SAME (3+1D atomic physics)
 3. **DM properties** — SAME if DM is collisionless and cold
 4. **Early universe physics** — SAME in both
@@ -205,27 +205,27 @@ But **once DM exists, it behaves identically** in both:
 $$r_s = \int_0^{a_*} \frac{c_s}{a^2 H(a)} da, \quad c_s = \frac{c}{\sqrt{3(1+R)}}, \quad R = \frac{3\rho_b}{4\rho_\gamma}$$
 
 This integral depends on:
-- $H(a)$: SAME (ΛCDM background)
-- $\rho_b$: SAME (standard BBNS)
-- $\rho_\gamma$: SAME (standard photon bath)
+- H(a): SAME (ΛCDM background)
+- ρ_b: SAME (standard BBNS)
+- ρ_γ: SAME (standard photon bath)
 
-So $r_s$ is IDENTICAL in SIDC and ΛCDM. Peak 1 position is determined by 3+1D physics. ✓
+So rₛ is IDENTICAL in SIDC and ΛCDM. Peak 1 position is determined by 3+1D physics. ✓
 
 #### Peak 2 (ℓ ~ 540): Baryon Loading
 
-The 2nd-to-1st peak ratio depends on $\Omega_b h^2$:
+The 2nd-to-1st peak ratio depends on Ω_b h²:
 $$\frac{\ell_2}{\ell_1} \approx 1 + \frac{1}{4} \cdot \frac{\Omega_b h^2}{\Omega_m h^2}$$
 
-SIDC's $\Omega_b = 0.0493$ (Planck 2018, standard BBNS). Same as ΛCDM. ✓
+SIDC's Ω_b = 0.0493 (Planck 2018, standard BBNS). Same as ΛCDM. ✓
 
 #### Peak 3 (ℓ ~ 810): Cold Dark Matter
 
 The 3rd peak height depends on:
-- $\Omega_c h^2$ (cold DM density)
+- Ω_c h² (cold DM density)
 - DM velocity dispersion (free-streaming scale)
 
 SIDC's DM:
-- Has $\Omega_c = 0.265$ at z=1100 (post-L308ab) ✓
+- Has Ω_c = 0.265 at z=1100 (post-L308ab) ✓
 - Has $v_{\rm 2D} \sim 30$ m/s (effectively cold, see below) ✓
 - Same gravitational behavior as ΛCDM CDM ✓
 
@@ -243,7 +243,7 @@ That's essentially zero velocity dispersion. **SIDC's DM is "cold" by any measur
 The Silk damping scale is:
 $$k_D^{-2} \sim \int_0^{a_*} \frac{1}{a^2 \sigma_T n_e H(a)} \left(\frac{R^2 + 1}{6(1+R)}\right) da$$
 
-The (1+R) factor: $R = 3\rho_b/(4\rho_\gamma)$ doesn't depend on DM. The $\sigma_T n_e$ term doesn't depend on DM. **Silk damping scale is unchanged by DM origin.** ✓
+The (1+R) factor: R = 3ρ_b/(4ρ_γ) doesn't depend on DM. The σ_T nₑ term doesn't depend on DM. **Silk damping scale is unchanged by DM origin.** ✓
 
 #### Polarization (TE/EE)
 
