@@ -181,10 +181,10 @@ for every upward dimension?"
 
 **Scaling law at each level**:
 
-For the scaling law $\tau$ = (E/ $M_{\rm Pl}$,parent)$^{\alpha}$ × $t_{\rm Pl}$ to work at every
+For the scaling law $\tau$ = (E/ $M_{\rm Pl}$,parent) $^{\alpha}$ × $t_{\rm Pl}$ to work at every
 upward level, $\alpha$ must be the SAME at every level.
 
-(SN normalization: the formula can be rewritten as $\tau$ = 33s × (E/ $E_{\rm SN}$)$^{\alpha}$
+(SN normalization: the formula can be rewritten as $\tau$ = 33s × (E/ $E_{\rm SN}$) $^{\alpha}$
 where 33s is the SN calibration value, but the cleaner form shows $\alpha$ is universal.)
 
 Evidence for $\alpha$ being universal:
@@ -218,12 +218,12 @@ energy (for forward $\gamma$) AND the grandparent event energy
 (for backward $f_{\rm back}$).
 
 At level 3 (3D → 2D, **v3.0.21 HISTORICAL naming**):
-- Forward: $\gamma_{\rm 3}$ = ($E_{\rm 3D}$/$E_{\rm Pl,3}$)$^{\alpha}$ → $\tau_{\rm 2D}$ = $\gamma_{\rm 3}$ × $t_{\rm Pl,3}$
-- Backward: f_back_3 (v3.0.21 naming: $f_{\rm leak,2D\to3D}$ for 2D→3D continuous leakage) = ($E_{\rm 4D}$/ $E_{\rm 3D}$)$^{1/(2\alpha)}$ × prefactors → $\approx 10^{-85}$ ✓
+- Forward: $\gamma_{\rm 3}$ = ( $E_{\rm 3D}$/ $E_{\rm Pl,3}$) $^{\alpha}$ → $\tau_{\rm 2D}$ = $\gamma_{\rm 3}$ × $t_{\rm Pl,3}$
+- Backward: f_back_3 (v3.0.21 naming: $f_{\rm leak,2D\to3D}$ for 2D→3D continuous leakage) = ( $E_{\rm 4D}$/ $E_{\rm 3D}$) $^{1/(2\alpha)}$ × prefactors → $\approx 10^{-85}$ ✓
 
 At level 4 (4D → 3+1D, **v3.0.21 HISTORICAL naming**):
-- Forward: $\gamma_{\rm 4}$ = ($E_{\rm 4D}$/$E_{\rm Pl,4}$)$^{\alpha}$ → $\tau_{\rm 3D}$ = $\gamma_{\rm 4}$ × $t_{\rm Pl,4}$
-- Backward: f_back_4 (v3.0.21 naming: $f_{\rm DE}$ for 3D→4D continuous leakage = DE) = ($E_{\rm 5D}$/ $E_{\rm 4D}$)$^{1/(2\alpha)}$ × prefactors → requires $E_{\rm 5D}$
+- Forward: $\gamma_{\rm 4}$ = ( $E_{\rm 4D}$/ $E_{\rm Pl,4}$) $^{\alpha}$ → $\tau_{\rm 3D}$ = $\gamma_{\rm 4}$ × $t_{\rm Pl,4}$
+- Backward: f_back_4 (v3.0.21 naming: $f_{\rm DE}$ for 3D→4D continuous leakage = DE) = ( $E_{\rm 5D}$/ $E_{\rm 4D}$) $^{1/(2\alpha)}$ × prefactors → requires $E_{\rm 5D}$
 
 At level 5+:
 - Need BOTH $E_{\rm D}$ and E_{D+1} for the closed loop
@@ -284,16 +284,16 @@ Then DE = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl}^4$:
 
 - **Forward (4D → 3+1D)**: $f_{\rm back}$ is the projection efficiency of the 4D event into 3+1D
 - **Backward (3+1D → 4D)**: $f_{\rm back}$ is the gravitational leakage of 3+1D back to 4D during 3+1D's lifetime
-- **At 3+1D's death**: ALL energy returns to 4D ($f_{\rm back,death} = 1$)
+- **At 3+1D's death**: ALL energy returns to 4D ( $f_{\rm back,death} = 1$)
 - The SAME $f_{\rm back}$ bridges forward and backward → "closed loop"
 
 **Why v10's interpretation was wrong**:
 
 v10 used: $f_{\rm back} = (t_{\rm Pl}/\tau_{\rm 4D}) \times (\tau_{\rm SN}/\tau_{\rm universe}) \times (E_{\rm 4D}/E_{\rm SN})^{1/(2\alpha)}$
 
-This formula required $\tau_{\rm 4D} = 10^{28}$ yr ($\gamma$ ~ 10⁵⁶), which is OUTSIDE the cone picture's range ($\gamma$ ~ 10⁶⁰-10¹⁰⁰). The extra factors ($\tau_{\rm SN}$, $E_{\rm SN}$) were artifacts of v10's wrong 2D-to-3D interpretation.
+This formula required $\tau_{\rm 4D} = 10^{28}$ yr ( $\gamma$ ~ 10⁵⁶), which is OUTSIDE the cone picture's range ( $\gamma$ ~ 10⁶⁰-10¹⁰⁰). The extra factors ( $\tau_{\rm SN}$, $E_{\rm SN}$) were artifacts of v10's wrong 2D-to-3D interpretation.
 
-**The proper closed loop uses only ONE factor** ($t_{\rm Pl}$/$\tau_{\rm 4D}$) and is frame-consistent with the cone picture when $\gamma$ ~ 10⁶².
+**The proper closed loop uses only ONE factor** ( $t_{\rm Pl}$/ $\tau_{\rm 4D}$) and is frame-consistent with the cone picture when $\gamma$ ~ 10⁶².
 
 **SIDC has TWO distinct cross-dimensional stories** (v3.1.1 REVISED):
 
@@ -308,17 +308,17 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ($\gamma$ ~ 10⁵⁶), which 
    - 3+1D events create 2D universes (M^1.29 scaling law, 14 event types)
    - 2D universes die, 100% energy returns to 3+1D as DM
    - No while-alive $f_{\rm back}$ worth modeling (2D lifetimes too short: 33s for SN)
-   - DM = cumulative 2D universe deaths ($\Sigma$ $M_{\rm 2D}$ × N)
+   - DM = cumulative 2D universe deaths ( $\Sigma$ $M_{\rm 2D}$ × N)
 
 **Why $f_{\rm DE}$ = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D**:
 
-- 3+1D universe CURRENT AGE: 13.8 Gyr (observed); predicted total LIFETIME: ~10³⁰ yr ($M^{\alpha}$); very young (1.4×10⁻²⁰ of life so far)
-- 4D event apparent duration (3+1D frame): 10³⁴ yr ($\gamma$ ~ 10⁶²)
-- $f_{\rm DE}$ = $t_{\rm Pl}$/$\tau_{\rm 4D}$ = 1.2×10⁻⁸⁵ ✓
+- 3+1D universe CURRENT AGE: 13.8 Gyr (observed); predicted total LIFETIME: ~10³⁰ yr ( $M^{\alpha}$); very young (1.4×10⁻²⁰ of life so far)
+- 4D event apparent duration (3+1D frame): 10³⁴ yr ( $\gamma$ ~ 10⁶²)
+- $f_{\rm DE}$ = $t_{\rm Pl}$/ $\tau_{\rm 4D}$ = 1.2×10⁻⁸⁵ ✓
 - DE matches observation (within 14%)
 
 - 2D universe lifetime: 33s (very short)
-- $f_{\rm leak,2D\to3D}$ = $t_{\rm Pl}$/$\tau_{\rm 2D}$ = 1.6×10⁻⁴⁵ (NOT 10⁻⁸⁵)
+- $f_{\rm leak,2D\to3D}$ = $t_{\rm Pl}$/ $\tau_{\rm 2D}$ = 1.6×10⁻⁴⁵ (NOT 10⁻⁸⁵)
 - During 2D's lifetime, leakage is 0.16 J per SN (negligible)
 - 2D's contribution to 3+1D happens at DEATH (100% return), not while-alive
 
@@ -339,17 +339,17 @@ The 3+1D → 2D transition is a CREATE-AND-DIE process, NOT a closed loop.
 | Pillar | Observation | Status | Mechanism |
 |--------|-------------|--------|-----------|
 | Gravity weakness | $\epsilon_{\rm grav}$ = 10⁻³⁸ | **Observed** (hierarchy problem) | 4D antigravity cancellation of 3+1D gravity |
-| Dark energy (68%) | $\rho_{\rm DE}$/$\rho_{\rm Pl}$ = 10⁻¹²³ | **Observed** (cosmological constant problem) | Un-cancelled fraction of 4D antigravity |
-| $f_{\rm DE}$ = 10⁻⁸⁵ | $t_{\rm Pl}$/$\tau_{\rm 4D}$ with $\gamma$ ~ 10⁶² | **Consistency check** between $\gamma$, $\epsilon$, DE | 3D-to-4D gravitational leakage |
-| Dark matter (27%) | $\Sigma$($M_{\rm 2D}$ × N)/V (cumulative) | **Observed** (Planck 2018) | Cumulative 2D universe deaths |
+| Dark energy (68%) | $\rho_{\rm DE}$/ $\rho_{\rm Pl}$ = 10⁻¹²³ | **Observed** (cosmological constant problem) | Un-cancelled fraction of 4D antigravity |
+| $f_{\rm DE}$ = 10⁻⁸⁵ | $t_{\rm Pl}$/ $\tau_{\rm 4D}$ with $\gamma$ ~ 10⁶² | **Consistency check** between $\gamma$, $\epsilon$, DE | 3D-to-4D gravitational leakage |
+| Dark matter (27%) | $\Sigma$( $M_{\rm 2D}$ × N)/V (cumulative) | **Observed** (Planck 2018) | Cumulative 2D universe deaths |
 
 **The mechanism (corrected v3.1.1)**:
 
 - 4D event's gravity **inverts** to antigravity when projected into 3+1D
 - The 4D antigravity **cancels** 3+1D's own gravity
-- The residual after cancellation = **$\epsilon$ = 10⁻³⁸** (gravity weakness, OBSERVED)
+- The residual after cancellation = ** $\epsilon$ = 10⁻³⁸** (gravity weakness, OBSERVED)
 - The un-cancelled fraction of 4D antigravity = **DE = 10⁻¹²³ × $M_{\rm Pl}^4$** (OBSERVED)
-- $f_{\rm DE}$ = 10⁻⁸⁵ = $t_{\rm Pl}$/$\tau_{\rm 4D}$ = **3D-to-4D leakage rate** (with $\gamma$ ~ 10⁶²)
+- $f_{\rm DE}$ = 10⁻⁸⁵ = $t_{\rm Pl}$/ $\tau_{\rm 4D}$ = **3D-to-4D leakage rate** (with $\gamma$ ~ 10⁶²)
 
 **Numerical check (DE density prediction)**:
 
@@ -393,7 +393,7 @@ $\rho_{\rm DE}$ observed (Planck 2018) = 2.5 × 10⁻⁴⁷ GeV⁴
 
 | Source | $f_{\rm DE}$ value (v3.1.1) | $f_{\rm DE}$ value (v3.5.9+) |
 |---|---|---|
-| Closed loop formula | $4.6 \times 10^{-68}$ (v3.1.1) | **$1.13 \times 10^{-85}$ (DERIVED via L308v α-GM)** |
+| Closed loop formula | $4.6 \times 10^{-68}$ (v3.1.1) | ** $1.13 \times 10^{-85}$ (DERIVED via L308v α-GM)** |
 | DE calibration | $1.1 \times 10^{-85}$ | $1.13 \times 10^{-85}$ (target) |
 | Ratio | $10^{18}$ apart (v3.1.1) | **0.13% (basically exact, v3.3+)** |
 
@@ -401,8 +401,8 @@ The 10¹⁸ discrepancy was RESOLVED via: (a) 4π factor REMOVED, (b) $M_{\rm Pl
 
 **The forward/backward $\alpha$ symmetry DOES close** (L98, L103):
 
-- Forward: $\gamma$ = (E/E_Pl)$^{\alpha}$ (time dilation, scaling law)
-- Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)$^{1/(2\alpha)}$ (back-action)
+- Forward: $\gamma$ = (E/E_Pl) $^{\alpha}$ (time dilation, scaling law)
+- Backward: $f_{\rm back}$ ~ ( $E_{\rm 4D}$/E) $^{1/(2\alpha)}$ (back-action)
 - $\alpha$ × $1/(2\alpha)$ = 1/2 (round-trip loss, Z_2 orbifold)
 
 The same $\alpha$ = 1.289 connects the time-dilated event (forward) to the
@@ -416,7 +416,7 @@ from the framework.
 | $\alpha$ = 1.289 (time dilation shape) | **DERIVED** from N=12 SYK (1 + 1/√12) |
 | $\gamma$ ~ 10⁶⁰-10¹⁰⁰ (4D time dilation) | **DERIVED** from $\alpha$ and $E_{\rm 4D}$ |
 | $\epsilon$ = 10⁻³⁸ (gravity weakness) | **OBSERVED** (hierarchy problem) |
-| $\rho_{\rm DE}$/$\rho_{\rm Pl}$ = 10⁻¹²³ | **OBSERVED** (cosmological CC problem) |
+| $\rho_{\rm DE}$/ $\rho_{\rm Pl}$ = 10⁻¹²³ | **OBSERVED** (cosmological CC problem) |
 | $f_{\rm DE}$ = 1.13×10⁻⁸⁵ | **DERIVED** (v3.3+, L308v α-GM closed loop) |
 | M^1.29 scaling law across 14 events | **DERIVED** from 2D CFT + $\alpha$ |
 | 5/27/68 split | **OBSERVED** (Planck 2018) |
@@ -433,7 +433,7 @@ from the framework.
 - A solution to the hierarchy or cosmological constant problems
 - A "closed loop" in the numerical sense
 
-**L102 REVISED (v3.1.1, FURTHER REVISED v3.3+, PARTIAL CLOSURE L308v)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha$ = 1.289 unifies forward time dilation and backward $f_{\rm DE}$. The values of $\epsilon$ (10⁻³⁸) and DE/Planck (10⁻¹²³) are still OBSERVED. However, $f_{\rm DE}$ = 1.13×10⁻⁸⁵ is now **DERIVED** from the framework's structure ($M_{\rm Pl,4D}$ α-GM, $E_{\rm 4D}$, $M^{\alpha}$ law) and matches DE calibration **within 0.13%** (basically exact). The v3.1.1 "closed loop is rhetorical, not numerical" claim is **REVISED** in v3.3+.
+**L102 REVISED (v3.1.1, FURTHER REVISED v3.3+, PARTIAL CLOSURE L308v)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha$ = 1.289 unifies forward time dilation and backward $f_{\rm DE}$. The values of $\epsilon$ (10⁻³⁸) and DE/Planck (10⁻¹²³) are still OBSERVED. However, $f_{\rm DE}$ = 1.13×10⁻⁸⁵ is now **DERIVED** from the framework's structure ( $M_{\rm Pl,4D}$ α-GM, $E_{\rm 4D}$, $M^{\alpha}$ law) and matches DE calibration **within 0.13%** (basically exact). The v3.1.1 "closed loop is rhetorical, not numerical" claim is **REVISED** in v3.3+.
 
 **L138 NEW (v3.1.1, PARTIAL CLOSURE L308v v3.5.9+)**: $f_{\rm DE}$ = 1.13×10⁻⁸⁵ was v3.1.1 CALIBRATION FACTOR (ratio of observed DE to $\epsilon$-suppressed Planck density). **REVISED in v3.3+ via L308v α-GM closed loop**: $f_{\rm DE}$ is now DERIVED from framework structure. See `paper/legacy/v359_README_legacy_sections.md` for the L138 closure history.
 
@@ -452,11 +452,11 @@ See `calculations/v31_F_p_consistency.py` and `calculations/v31_F_p_result.md` f
 
 **User insight (v3.1.2)**: "1 SN can produce multiple 2D universes" (allowed by M^1.29 law degeneracy in N). "1 4D event can produce multiple 3+1D sub-universes" (analogous).
 
-**v3.3 Status**: This section describes the multi-universe picture. The v3.3 framework adopts $M_{\rm Pl,4D}$ = 3.93×10²³ GeV ($\alpha$-weighted GM) and $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale). The v3.1.2 Scenario X ($M_{\rm Pl,4D}$ = 887 GeV) has been SUPERSEDED.
+**v3.3 Status**: This section describes the multi-universe picture. The v3.3 framework adopts $M_{\rm Pl,4D}$ = 3.93×10²³ GeV ( $\alpha$-weighted GM) and $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale). The v3.1.2 Scenario X ( $M_{\rm Pl,4D}$ = 887 GeV) has been SUPERSEDED.
 
 **User correction (v3.1.2, further revised v3.1.2-final)**: "An energetic event in a 4D bulk created our 3+1D universe" — we do NOT know what kind of event occurs in the 4D bulk (NOT necessarily 'galaxy collisions' as previously suggested; the 4D-bulk dynamics are UNKNOWN). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our universe was created, not related to whatever produced it).
 
-**Setup (Scenario X, REVISED v3.3)**: 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, calibrated to DE) creates N_sub 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so N_sub is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to 3.93×10²³ GeV via $\alpha$-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
+**Setup (Scenario X, REVISED v3.3)**: 4D event ( $E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, calibrated to DE) creates N_sub 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = N_sub × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so N_sub is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to 3.93×10²³ GeV via $\alpha$-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
 
 If we apply $M^{\alpha}$ law to a sub-universe of mass $E_{\rm sub}$ (in 3+1D's own frame):
 
@@ -494,12 +494,12 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
 **Status of $\alpha$ as universal exponent (v3.1.2, REVISED)**: In the multi-universe picture, $\alpha$ is the universal exponent for cascade lifetimes:
 
-- 2D universe lifetime: $\tau_{\rm 2D}$ = ($E_{\rm event}$/ $M_{\rm Pl,3D}$)$^{\alpha}$ × $t_{\rm Pl}$ = 33 s for SN ✓
-- 3+1D sub-universe lifetime: $\tau_{\rm sub}$ = ($E_{\rm sub}$/ $M_{\rm Pl,4D}$)$^{\alpha}$ × $t_{\rm Pl}$ — UNKNOWN (depends on $E_{\rm sub}$ = $E_{\rm 4D}$/N_sub)
+- 2D universe lifetime: $\tau_{\rm 2D}$ = ( $E_{\rm event}$/ $M_{\rm Pl,3D}$) $^{\alpha}$ × $t_{\rm Pl}$ = 33 s for SN ✓
+- 3+1D sub-universe lifetime: $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$ — UNKNOWN (depends on $E_{\rm sub}$ = $E_{\rm 4D}$/N_sub)
 - 3+1D universe CURRENT AGE: 13.8 Gyr (observed directly, the only firm value)
 - $f_{\rm DE}$ derived from closed-loop formula: 1.2×10⁻⁸⁵/s (matches DE within 1.7%, doesn't depend on N_sub)
 
-**Honest verdict (v3.1.2-final)**: N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm sub}$ = $E_{\rm 4D}$ / N_sub is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice ($N_{\rm sub} = 300$, $E_{\rm sub}$ = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
+**Honest verdict (v3.1.2-final)**: N_sub is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm sub}$ = $E_{\rm 4D}$ / N_sub is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice ( $N_{\rm sub} = 300$, $E_{\rm sub}$ = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
 
 **Age vs Lifetime (v3.1.2-final, KEY CORRECTION)**:
 - 13.8 Gyr = current AGE of our 3+1D universe (OBSERVED, the only firm value)
@@ -520,9 +520,9 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
 | Level | $M_{\rm Pl}$ | Status |
 |---|---|---|
-| 2D universes (children) | 2.95 TeV | brane-world, from L41 ($\mu$ = 8.73×10⁶ GeV²) |
+| 2D universes (children) | 2.95 TeV | brane-world, from L41 ( $\mu$ = 8.73×10⁶ GeV²) |
 | 3+1D universe (us) | 1.22×10¹⁹ GeV | MEASURED (Newton's G) |
-| 4D bulk (parent) | 3.93×10²³ GeV | DERIVED ($\alpha$-weighted GM, v3.3) |
+| 4D bulk (parent) | 3.93×10²³ GeV | DERIVED ( $\alpha$-weighted GM, v3.3) |
 
 The asymmetry is justified by their different physical roles: 2D brane-world, 3+1D standard, 4D bulk brane-world.
 
@@ -606,7 +606,7 @@ structural YES, parametric NO.
 **L86 NEW (v3.0.2)**: If we were in 4D, SIDC structure still
 works (lower-D universe deaths = DM).
 
-**L87 NEW (v3.0.2)**: Specific values ($\alpha$, c, N, $f_{\rm back}$) depend on
+**L87 NEW (v3.0.2)**: Specific values ( $\alpha$, c, N, $f_{\rm back}$) depend on
 the dimensional transition.
 
 **L88 NEW (v3.0.2)**: SIDC naming RESTORED. SIDC is now
@@ -651,7 +651,7 @@ full analysis.
 
 For each event of energy E creating an (N-1)-universe:
 - (N-1)-universe rest mass: M = E/c²
-- (N-1)-universe lifetime: $\tau$ = (E/ $M_{\rm Pl,N}$-1)$^{\alpha}$ × $t_{\rm Pl}$
+- (N-1)-universe lifetime: $\tau$ = (E/ $M_{\rm Pl,N}$-1) $^{\alpha}$ × $t_{\rm Pl}$
 - Mass returns to N-frame as DM at death (pulsed, 100%)
 
 Per-event DM contribution:
@@ -663,15 +663,15 @@ $$\rho_{\rm DM}^{(N)} = \sum_{\rm events} \frac{E}{c^2 V} \left(\frac{M_{\rm Pl,
 **DOWN flow (anti-gravity → DE, N → N-1)**:
 
 Higher-D event of energy E creates (N-1)-universe with anti-gravity effect:
-- Anti-gravity coupling: ($M_{\rm Pl,N}$ / $M_{\rm Pl,N}$-1)$^{\alpha}$
+- Anti-gravity coupling: ( $M_{\rm Pl,N}$ / $M_{\rm Pl,N}$-1) $^{\alpha}$
 - Bulk-brane modulation: $\epsilon$
 - Lower-D Planck scale: $M_{\rm Pl,N}$-1⁴
-- Time dilation: $\gamma_{\rm N}$ = (E/ $M_{\rm Pl,N}$-1)$^{\alpha}$
+- Time dilation: $\gamma_{\rm N}$ = (E/ $M_{\rm Pl,N}$-1) $^{\alpha}$
 
 Anti-gravity energy density in (N-1)-frame (after gravity cancellation):
 $$\rho_{\rm DE}^{(N-1)} = \underbrace{\left(\frac{M_{\rm Pl,N}}{M_{\rm Pl,N-1}}\right)^\alpha}_{\text{anti-gravity coupling}} \times \underbrace{\varepsilon}_{\text{bulk-brane}} \times \frac{M_{\rm Pl,N-1}^4}{\gamma_N}$$
 
-The "normal gravity" ($M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gravity from above, leaving DE as the residual.
+The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gravity from above, leaving DE as the residual.
 
 **Numerical verification** (our universe, N=4D, N-1=3+1D, A2 with α_4D = 1.577):
 - The anti-gravity formula (M_Pl,4D/M_Pl,3D)^α × ε × M_Pl,3D^4 / γ_4D requires SAME α in both
@@ -715,7 +715,7 @@ This is the **cleanest formulation** of the bilateral cascade. The user's reform
 again" / "isn't 1/2 also notable?" / "so we have a lagrangian
 now?" / "can't we trial and error them?"
 
-**v3.1.2-final REVISION**: This section originally motivated the Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 from the Inception cone picture (cone slope = $\alpha$, converging to 2D Planck). The cone picture is now SPECULATIVE / HISTORICAL (§3.67 v3.1.2-final REVISED). The Lagrangian remains a STRUCTURAL PROPOSAL, but its connection to $\alpha$ is now PURELY INTERPRETIVE. The Lagrangian is still useful for: (a) L41 ($\mu$ = $M_{\rm Pl,2D}^2$ = 8.73×10⁶ GeV², closed v3.0.22), (b) L42 ($m_{3+1D}$ = $v_{\rm Higgs}$, closed), (c) c = 1 Liouville structure, (d) N = 12 SYK structure. It does NOT derive $\alpha$.
+**v3.1.2-final REVISION**: This section originally motivated the Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 from the Inception cone picture (cone slope = $\alpha$, converging to 2D Planck). The cone picture is now SPECULATIVE / HISTORICAL (§3.67 v3.1.2-final REVISED). The Lagrangian remains a STRUCTURAL PROPOSAL, but its connection to $\alpha$ is now PURELY INTERPRETIVE. The Lagrangian is still useful for: (a) L41 ( $\mu$ = $M_{\rm Pl,2D}^2$ = 8.73×10⁶ GeV², closed v3.0.22), (b) L42 ( $m_{3+1D}$ = $v_{\rm Higgs}$, closed), (c) c = 1 Liouville structure, (d) N = 12 SYK structure. It does NOT derive $\alpha$.
 
 **Approach**: Trial-and-error of the 2D Lagrangian over 6
 separate calculations. Goal: identify the components that give
@@ -762,7 +762,7 @@ where:
 
 **Democratic cosmology** (legacy_paper.md §3.17, §3.62): All 14 events correspond
 to the SAME 2D universe operator. They differ only in $\gamma = (E/E_{\rm Pl})^{1.29}$.
-This is the **1-species, 14-$\gamma$-values** insight — not 14 different
+This is the **1-species, 14- $\gamma$-values** insight — not 14 different
 operators, just 1 universal 2D universe seen at 14 different $\gamma$.
 
 **Test of this insight**: For each of 11 SIDC events,
@@ -819,7 +819,7 @@ Within the same dimension, all universes are EQUAL — they have the same intern
 
 **Within each dimension N, all universes share**:
 - Same Lagrangian (e.g., L_c=1,Liouville + L_N=12,SYK + L_Schwarzian for 2D)
-- Same constants ($\alpha$ = 1.289, $M_{\rm Pl,N}$, central charge c)
+- Same constants ( $\alpha$ = 1.289, $M_{\rm Pl,N}$, central charge c)
 - Same particle content (e.g., 12 SM Weyl fermions for 3+1D)
 - Same internal structure (N=12 SYK backbone, Ising CFT)
 - **They differ ONLY in**: creation energy E, age, evolution stage, specific arrangement (like atoms)
@@ -1090,7 +1090,7 @@ direct consequence of the 2D partition function.
 - L43 (Full Lagrangian): NOT closed. Cross-coupling terms +
   correct observable identification needed. Pure 2D partition
   function doesn't give $\alpha = 1.289$ directly.
-- L48 ($f_{\rm back}$): Form closed via §3.60; value calibrated.
+- L48 ( $f_{\rm back}$): Form closed via §3.60; value calibrated.
 - L93 (CLOSED by v14d): scaling law from §10.1 internally consistent;
   all 9 events match within factor 1.6
 
@@ -1122,7 +1122,7 @@ User question: "so $\alpha$ is the shape that links dimensions?"
 
 **YES** — $\alpha$ is a spectral/fractal shape, not a simple geometric ratio.
 
-**$\alpha$ = 1 + 1/√12** has two pieces:
+** $\alpha$ = 1 + 1/√12** has two pieces:
 
 1. **The "1"** is universal — comes from kinematic boost (special
    relativity: $E/E_{\rm Pl}$). This is the SAME at every hierarchy level.
@@ -1135,7 +1135,7 @@ User question: "so $\alpha$ is the shape that links dimensions?"
 
 | Shape | Value | Interpretation |
 |-------|-------|----------------|
-| Cone slope | tan($\theta$) = 1.289, $\theta$ ≈ 52° | Geometric projection shape |
+| Cone slope | tan( $\theta$) = 1.289, $\theta$ ≈ 52° | Geometric projection shape |
 | Spectral | 1 + 1/√12 = 1.289 | 12-vertex SYK graph |
 | Ising CFT | $\alpha$ × $1/(2\alpha)$ = 1/2 | c = 1/2 (Ising central charge) |
 | Z_2 orbifold | Round-trip loss = 1/2 | Group with 2 elements |
@@ -1149,8 +1149,8 @@ User question: "so $\alpha$ is the shape that links dimensions?"
    - Level 5+: $\alpha$ = 1.289 (claimed)
 
 2. **Horizontal (forward + backward)**: $\alpha$ × $1/(2\alpha)$ = 1/2
-   - Forward: $\gamma$ = (E/E_Pl)$^{\alpha}$ (scaling law)
-   - Backward: $f_{\rm back}$ ~ ($E_{\rm 4D}$/E)$^{1/(2\alpha)}$ (closed loop)
+   - Forward: $\gamma$ = (E/E_Pl) $^{\alpha}$ (scaling law)
+   - Backward: $f_{\rm back}$ ~ ( $E_{\rm 4D}$/E) $^{1/(2\alpha)}$ (closed loop)
    - Product = 1/2 closes the loop
 
 3. **Origin (particle ↔ cosmos)**: $\alpha$ = 1 + 1/√12
@@ -1158,7 +1158,7 @@ User question: "so $\alpha$ is the shape that links dimensions?"
    - 1/√12 is the spectral shape
    - Links SM to cosmological projection
 
-4. **Geometric (cone)**: tan($\theta$) = $\alpha$, $\theta$ ≈ 52°
+4. **Geometric (cone)**: tan( $\theta$) = $\alpha$, $\theta$ ≈ 52°
    - The 3+1D event is the apex
    - The 2D universe is the base
    - The cone slope IS $\alpha$
@@ -1169,7 +1169,7 @@ in the sense that:
 - It's the spectral shape of the 12-vertex SYK graph (spectral)
 - It's the Ising CFT shape (c = 1/2 from round-trip)
 - It links every hierarchy level (vertical universality)
-- It links particle physics (N=12) to cosmology ($\alpha$)
+- It links particle physics (N=12) to cosmology ( $\alpha$)
 
 The "1" and "1/√12" decomposition is the answer to "why $\alpha$ = 1.289
 specifically?" — the "1" is universal SR, the "1/√12" is the finite-N
@@ -1191,15 +1191,15 @@ numerical analysis of all 4 shape interpretations.
 > (L105, L106, L107, L108, L111). The full Lagrangian (L116) is a
 > viable starting point (L120 audit: 73%) but not yet complete.
 
-**v3.1.2-final REVISION**: The Inception cone picture (cone slope = $\alpha$ = 1.289, "the angle at which the cone converges to the 2D Planck") was the ORIGINAL geometric justification for $\alpha$ = 1.289. However, v3.1.2-final replaced the cone framework with the closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl,N}$ / $E_{\rm event}$)$^{\alpha}$. The cone is now a **VISUALIZATION** (kept here for historical context), not a foundation. The Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 is now PURELY INTERPRETIVE (no geometric anchor).
+**v3.1.2-final REVISION**: The Inception cone picture (cone slope = $\alpha$ = 1.289, "the angle at which the cone converges to the 2D Planck") was the ORIGINAL geometric justification for $\alpha$ = 1.289. However, v3.1.2-final replaced the cone framework with the closed-loop formula $f_{\rm back}$ = ( $M_{\rm Pl,N}$ / $E_{\rm event}$) $^{\alpha}$. The cone is now a **VISUALIZATION** (kept here for historical context), not a foundation. The Lagrangian decomposition $\alpha$ = 1/2 + 1/2 + 1/√12 is now PURELY INTERPRETIVE (no geometric anchor).
 
 **What this means for the framework**:
 - $\alpha$ = 1.289 is CALIBRATED from the 14-event fit (SN, AGN, GRB, etc.)
 - The cone picture is consistent with $\alpha$ = 1.289 but does NOT derive it
 - The Lagrangian decomposition is suggestive but NOT a derivation
-- L43 (full Lagrangian → $\alpha$) is OPEN: 5 brute-force attempts from Z($\beta$) all failed (v15-v19, v26)
-- The closed-loop formula $f_{\rm back}$ = ($M_{\rm Pl}$/E)$^{\alpha}$ works WITHOUT the cone, without the Lagrangian decomposition
-- **$\alpha$ = 1.289 is an empirical number, supported by structural hints, NOT a derived prediction**
+- L43 (full Lagrangian → $\alpha$) is OPEN: 5 brute-force attempts from Z( $\beta$) all failed (v15-v19, v26)
+- The closed-loop formula $f_{\rm back}$ = ( $M_{\rm Pl}$/E) $^{\alpha}$ works WITHOUT the cone, without the Lagrangian decomposition
+- ** $\alpha$ = 1.289 is an empirical number, supported by structural hints, NOT a derived prediction**
 
 **What we found this session**:
 
@@ -1227,7 +1227,7 @@ event is FROZEN (time dilation $\gamma$ ~ $10^{60}$ to $10^{100}$). Inception st
 - **First dream** = 2D universe (transient, 33 s for SN)
 
 The 4D event's "proper lifetime" is finite (~10⁻⁴⁴ s in 4D frame)
-but **eternal from our frame** ($\gamma$ × $\tau_{\rm proper}$ → ∞ as $\gamma$ → ∞).
+but **eternal from our frame** ( $\gamma$ × $\tau_{\rm proper}$ → ∞ as $\gamma$ → ∞).
 
 **2. THE 2D PLANCK IS THE TIP (L113, L110, L114)**
 
@@ -1255,7 +1255,7 @@ $f_{\rm back}$ is NOT universal. It depends on event energy:
 - **While alive** (gravitational coupling during lifetime): small, e.g., 10⁻⁸⁵ for SN
 - **At death** (energy return to parent dimension): 1, i.e., full return of $M_{\rm 2D}$
 
-**$f_{\rm leak,2D\to3D}$ + $f_{\rm DM,death}$ = 1** (energy conservation: total projection = complete).
+** $f_{\rm leak,2D\to3D}$ + $f_{\rm DM,death}$ = 1** (energy conservation: total projection = complete).
 
 For SN: $f_{\rm leak,2D\to3D}$ = 10⁻⁸⁵ (DM via gravity during 33s lifetime), $f_{\rm DM,death}$ ≈ 1 (returns to 3+1D when 2D dies). For 4D event: $f_{\rm DM,death}$ = 1 (3+1D IS the 4D event's full projection). These are DIFFERENT physical quantities that were conflated under the same name.
 
@@ -1288,8 +1288,8 @@ $S_{\rm projection}$ = -g_couple ∫ d⁴x d²z Φ_4D Φ_2D Θ(τ_2D - τ)
               α = 1.289 (universal)
 ```
 
-Closed loop (current v3.3): $f_{\rm back}$ = ($M_{\rm Pl,N}$/ $E_{\rm event}$)$^{\alpha}$ (universal FORM, see §3.71)
-Legacy (v10): $f_{\rm back}$ = g_couple² × Z_2D($\tau_{\rm 2D}$) / E_3D² (rejected in v3.1.1)
+Closed loop (current v3.3): $f_{\rm back}$ = ( $M_{\rm Pl,N}$/ $E_{\rm event}$) $^{\alpha}$ (universal FORM, see §3.71)
+Legacy (v10): $f_{\rm back}$ = g_couple² × Z_2D( $\tau_{\rm 2D}$) / E_3D² (rejected in v3.1.1)
 
 **5. THE c-VALUE RESOLUTION (L117)**
 
@@ -1301,7 +1301,7 @@ c = 3/2. Resolution: 12 Majorana are UV DOF; c = 1/2 is the IR.
 - SYK q = 4 gaps out 11 of 12 Majorana modes (mass gap m_gap ~ 9 TeV)
 - c-theorem satisfied: 7 > 3/2 (RG flow reduces c) ✓
 
-**6. L41 ($\mu$) AND L42 (m₃₊₁D) CLOSED (L118)**
+**6. L41 ( $\mu$) AND L42 (m₃₊₁D) CLOSED (L118)**
 
 Only 2 free parameters remain in SIDC:
 
@@ -1311,12 +1311,12 @@ Only 2 free parameters remain in SIDC:
 | **L42: m₃₊₁D** | 246 GeV | Higgs VEV (EW scale) |
 
 Everything else is derived from these + 2D CFT structure:
-- $M_{\rm Pl,2D}$ = √$\mu$ = 2.95 TeV (from L41)
+- $M_{\rm Pl,2D}$ = √ $\mu$ = 2.95 TeV (from L41)
 - $\alpha$ = 1 + 1/√12 (from N=12)
-- $\tau_{\rm 2D}$ = ($E_{\rm 3D}$/$E_{\rm Pl,3}$)$^{\alpha}$ × $t_{\rm Pl,3}$ (time dilation)
+- $\tau_{\rm 2D}$ = ( $E_{\rm 3D}$/ $E_{\rm Pl,3}$) $^{\alpha}$ × $t_{\rm Pl,3}$ (time dilation)
 - $f_{\rm back}$ ~ 10⁻⁸⁵ for SN (closed loop)
 
-Single-particle events ($E_{\rm 3D} \sim v_{\rm Higgs}$) give $\tau_{\rm 2D}$ ~ 10⁻⁶⁵ s — BELOW
+Single-particle events ( $E_{\rm 3D} \sim v_{\rm Higgs}$) give $\tau_{\rm 2D}$ ~ 10⁻⁶⁵ s — BELOW
 2D Planck time. Only MACROSCOPIC events (SN, AGN, GW bursts) create
 2D universes. This is consistent with no observed 2D universes from
 particle physics.
@@ -1329,12 +1329,12 @@ $f_{\rm back} = (t_{\rm Pl,3}/\tau_{\rm 4D}) \times (\tau_{\rm SN}/\tau_{\rm uni
 ```
 
 Numerical decomposition:
-- log₁₀($t_{\rm Pl,3}$/$\tau_{\rm 4D}$) = −85.0  (v3.3: $\tau_{\rm 4D}$ = 1.51×10³⁴ yr = 4.77×10⁴¹ s)
-- log₁₀($\tau_{\rm SN}$/$\tau_{\rm universe}$) = −16.2
-- log₁₀(($E_{\rm 4D}$/ $E_{\rm SN}$)$^{1/(2\alpha)}$) = +6.98
+- log₁₀( $t_{\rm Pl,3}$/ $\tau_{\rm 4D}$) = −85.0  (v3.3: $\tau_{\rm 4D}$ = 1.51×10³⁴ yr = 4.77×10⁴¹ s)
+- log₁₀( $\tau_{\rm SN}$/ $\tau_{\rm universe}$) = −16.2
+- log₁₀(( $E_{\rm 4D}$/ $E_{\rm SN}$) $^{1/(2\alpha)}$) = +6.98
 - Sum = −84.3 ≈ −85 ✓
 
-The $1/(2\alpha)$ = 0.388 is Ising c (1/2) × inverse time dilation (1/$\alpha$).
+The $1/(2\alpha)$ = 0.388 is Ising c (1/2) × inverse time dilation (1/ $\alpha$).
 This is the only structural element derivable from the framework.
 
 **NOT derived from first principles**:
@@ -1380,7 +1380,7 @@ Honest documentation of failed derivations:
 | Double-Scaled SYK (v28) | $E_{\rm n}$ = (2n+1)/2 (constant) | NEGATIVE |
 | Brute force SYK (v29) | $\alpha_{\rm fit}$ = 1.29 (artifact!) | REVISED (v30) |
 | v30 verification | $\alpha_{\rm fit}$ = −0.06 ± 0.10 (constant) | CONFIRMED NEGATIVE |
-| LHC tests of $M_{\rm Pl,2D}$ (v33) | Invisible ($f_{\rm DE}^2$ suppressed) | NEGATIVE |
+| LHC tests of $M_{\rm Pl,2D}$ (v33) | Invisible ( $f_{\rm DE}^2$ suppressed) | NEGATIVE |
 
 $\alpha$ = 1.289 remains a CALIBRATION from the SN lifetime fit, not
 derivable from 2D CFT alone. This is HONEST — the calibration works
@@ -1392,13 +1392,13 @@ The v3.0.2 Lagrangian skeleton (L = L_c=1 + L_N=12 + L_Schwarzian)
 is now EMBEDDED in the full v3.0.22 Lagrangian as $S_{\rm 2D,universe}$.
 The skeleton was the starting point; the full Lagrangian adds:
 
-- 4D event action ($S_{\rm 4D,event}$, $M_{\rm Pl,4}$ = 3.93×10²³ GeV)
-- 3+1D brane action with SM ($S_{\rm 3+1D,brane}$)
-- Projection mechanism with time dilation ($S_{\rm projection}$)
-- Closed loop condition ($f_{\rm back}$ formula)
+- 4D event action ( $S_{\rm 4D,event}$, $M_{\rm Pl,4}$ = 3.93×10²³ GeV)
+- 3+1D brane action with SM ( $S_{\rm 3+1D,brane}$)
+- Projection mechanism with time dilation ( $S_{\rm projection}$)
+- Closed loop condition ( $f_{\rm back}$ formula)
 - Boundary state (FZZT brane with $\mu_{\rm B}$)
 
-The v3.0.2 skeleton's $\alpha$ decomposition ($\alpha$ = 1 + 1/√12) is preserved
+The v3.0.2 skeleton's $\alpha$ decomposition ( $\alpha$ = 1 + 1/√12) is preserved
 and now has a CLEAR physical meaning:
 - "1" = universal SR time dilation
 - "1/√12" = N=12 finite-N correction

@@ -20,7 +20,7 @@ This is fundamentally different from ΛCDM/WIMP frameworks where DM is a particl
 **Output**:
 $$P_{\rm total} = E_{\rm sub} \times R_{\rm 2D} = 7.82 \times 10^{72} \text{ W}$$
 
-**Compare to SN power** ($P_{\rm SN} \sim 10^{53}$ W): SIDC events carry $\sim 10^{20}$× more power, but distributed over vastly longer timescales and different coupling channels.
+**Compare to SN power** ( $P_{\rm SN} \sim 10^{53}$ W): SIDC events carry $\sim 10^{20}$× more power, but distributed over vastly longer timescales and different coupling channels.
 
 ### §16.2.2 Channel Coupling Fractions (UNCERTAIN)
 
@@ -95,7 +95,7 @@ $$\Phi_\gamma \sim 2 \times 10^{19} \text{ /cm}^2/\text{s} \text{ at GeV energie
 
 ### §16.3.4 Ultra-High Energy Cosmic Rays (UHECR)
 
-UHECR ($E > 10^{18}$ eV) from 2D universe deaths require:
+UHECR ( $E > 10^{18}$ eV) from 2D universe deaths require:
 1. Acceleration mechanism (not specified in SIDC)
 2. Composition (SIDC allows but doesn't predict)
 
@@ -155,7 +155,7 @@ Given that SIDC's standard multi-messenger signals are SECONDARY and small, the 
 **The geometric nature of SIDC's 2D universe events means standard multi-messenger signals are naturally tiny.** The framework's discriminating power comes from:
 
 1. **Local physics precision** (already strong, can be sharpened with new data)
-2. **Dark energy tightness** ($w = -1$ EXACTLY is unique)
+2. **Dark energy tightness** ( $w = -1$ EXACTLY is unique)
 3. **47 Tuc DM test** (decisive SIDC vs ΛCDM)
 
 ## §16.6 The Lagrangian Gap (Honest Limitation)
@@ -174,7 +174,7 @@ The 2D universe death coupling to Standard Model channels is **not derived** in 
 3. **BCG $g_+$ universality** (eROSITA 2024+) — STRONG
 4. **21cm heating** (SKA-MPG 2030s) — TESTABLE
 5. **GW background** (LISA 2030s) — UNLIKELY DETECTABLE
-6. **Diffuse $\nu$/$\gamma$** — REQUIRES LAGRANGIAN FIRST
+6. **Diffuse $\nu$/ $\gamma$** — REQUIRES LAGRANGIAN FIRST
 
 **Bottom line**: SIDC's multi-messenger predictions are **sub-dominant** to its primary DM/DE predictions. The framework's strongest tests are **precision local physics**, not standard multi-messenger channels.
 

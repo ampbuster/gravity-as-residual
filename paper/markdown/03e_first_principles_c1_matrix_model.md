@@ -24,17 +24,17 @@ The brute force formula $\mu = E/\tau$ gives:
 | SN (medium event) | 9.67×10⁶ | 2.95 TeV | Reasonable |
 | Quasar (huge event) | 2.02×10² | **14 GeV** | Should be LARGER, not smaller! |
 
-**$M_{\rm Pl,2D}$ is INVERTED from event size!**
+** $M_{\rm Pl,2D}$ is INVERTED from event size!**
 
 ## Why This Is Confusing
 
 The user's intuition: small event → small 2D universe → small $M_{\rm Pl,2D}$
 
 Reality with brute force formula:
-- Small event → SHORT lifetime ($\tau_{\rm 2D}$ ∝ $E^{\alpha}$) → high $\mu$ → high $M_{\rm Pl,2D}$
+- Small event → SHORT lifetime ( $\tau_{\rm 2D}$ ∝ $E^{\alpha}$) → high $\mu$ → high $M_{\rm Pl,2D}$
 - Big event → LONG lifetime → low $\mu$ → low $M_{\rm Pl,2D}$
 
-So **$M_{\rm Pl,2D}$ is inversely correlated with event energy.**
+So ** $M_{\rm Pl,2D}$ is inversely correlated with event energy.**
 
 This is **counterintuitive** because we might think:
 - Higher energy → more "stuff" → higher mass scale
@@ -50,8 +50,8 @@ This is **counterintuitive** because we might think:
 
 TNT 2D universe:
 - $M_{\rm Pl,2D}$ = 360,000 TeV (very rigid)
-- Size = c × $\tau$ = 3×10⁸ × $10^{-43}$ = 3×$10^{-35}$ m (TINY!)
-- Action = E × $\tau$ = 4×10⁹ × $10^{-43}$ = 4×$10^{-34}$ J·s (tiny!)
+- Size = c × $\tau$ = 3×10⁸ × $10^{-43}$ = 3× $10^{-35}$ m (TINY!)
+- Action = E × $\tau$ = 4×10⁹ × $10^{-43}$ = 4× $10^{-34}$ J·s (tiny!)
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:
@@ -71,7 +71,7 @@ So even though $M_{\rm Pl,2D}$ is "inverted", DM contribution isn't:
 **User's insight is still RIGHT in one way**:
 
 1. **Why would Nature create TNT 2D universes?**
-   - They're bizarre ($M_{\rm Pl,2D}$ = 360,000 TeV)
+   - They're bizarre ( $M_{\rm Pl,2D}$ = 360,000 TeV)
    - They die instantly (no DM contribution)
    - They have no observable effect
 
@@ -92,9 +92,9 @@ We tested several alternatives:
 | Formula | $\mu_{\rm SN}$ | $\mu_{\rm TNT}$ | $\mu_{\rm Quasar}$ | Weirdness |
 |---|---|---|---|---|
 | **v3.3 (universal $\mu$)** | 8.73×10⁶ | 8.73×10⁶ | 8.73×10⁶ | None |
-| **v3.3.6 ($$E/\tau$)** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
-| **Energy-based ($E^{\alpha}$)** | 8.73×10⁶ | 4.2×10⁻³⁷ | 1.3×10⁻²⁹ | Opposite (also weird) |
-| **Capped ($\mu$ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
+| **v3.3.6 ( $E/\tau$** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
+| **Energy-based ( $E^{\alpha}$)** | 8.73×10⁶ | 4.2×$10^{-37}$ | 1.3×$10^{-29}$ | Opposite (also weird) |
+| **Capped ( $\mu$ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
 
 The energy-based formula gives OPPOSITE weirdness (TNT very small $\mu$, quasar very large).
 
@@ -106,7 +106,7 @@ $$\mu = \min(K_{\max}, K_F \times E/\tau)$$
 with K_max = 100 × $\mu_{\rm SN}$ = 9×10⁸ GeV²
 
 This:
-- Keeps the $E/\tau$ pattern for high-$\tau$ events
+- Keeps the $E/\tau$ pattern for high- $\tau$ events
 - Caps $\mu$ at K_max to avoid TNT weirdness
 - Result: TNT $\mu$ = 9×10⁸ (100× SN, not 10¹⁰× SN)
 

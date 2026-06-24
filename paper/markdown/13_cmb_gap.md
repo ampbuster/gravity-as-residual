@@ -23,12 +23,12 @@ This section acknowledges a **fundamental tension** between SIDC's current mecha
 
 ### 13.1 The CMB requirement
 
-The CMB angular power spectrum (Planck 2018 results V, A&A 641, A5; arXiv:1907.12875) requires a matter density of **$\Omega_m$ = 0.315** at the recombination epoch (z = 1100), of which **$\Omega_{\rm c}$ = 0.265** is cold dark matter. Without this DM, the acoustic peaks are at the wrong positions:
+The CMB angular power spectrum (Planck 2018 results V, A&A 641, A5; arXiv:1907.12875) requires a matter density of ** $\Omega_m$ = 0.315** at the recombination epoch (z = 1100), of which ** $\Omega_{\rm c}$ = 0.265** is cold dark matter. Without this DM, the acoustic peaks are at the wrong positions:
 - First peak (l ~ 220): controlled by sound horizon, **shifts** if $\Omega_m$ changes
 - Second peak (l ~ 540): baryon-to-photon ratio, **changes** with $\Omega_m$
 - Third peak (l ~ 810): matter-to-radiation, **depends on $\Omega_{\rm c}$**
 
-This is **not a small effect**: the difference between baryon-only ($\Omega_m$ ~ 0.049) and the observed $\Omega_m$ = 0.315 corresponds to a factor of ~6.4 in total matter density, which moves the acoustic peaks by 10-20% in l.
+This is **not a small effect**: the difference between baryon-only ( $\Omega_m$ ~ 0.049) and the observed $\Omega_m$ = 0.315 corresponds to a factor of ~6.4 in total matter density, which moves the acoustic peaks by 10-20% in l.
 
 ### 13.2 SIDC's prediction at z = 1100
 
@@ -38,7 +38,7 @@ SIDC's mechanism (per §2.4-2.7) is:
 
 SIDC's first "energetic events" in our universe are the **first stars (Population III)** forming at z ~ 20-30, and the first core-collapse supernovae at z ~ 15-20. Before this, there are essentially no energetic events in SIDC's sense.
 
-Therefore, SIDC predicts: **$\Omega_{\rm DM}$(z > 20) ~ 0**. SIDC's predicted $\Omega_m$(z = 1100) is approximately the **baryon-only** value: $\Omega_m$(z = 1100) ~ $\Omega_{\rm b}$ = 0.049.
+Therefore, SIDC predicts: ** $\Omega_{\rm DM}$(z > 20) ~ 0**. SIDC's predicted $\Omega_m$(z = 1100) is approximately the **baryon-only** value: $\Omega_m$(z = 1100) ~ $\Omega_{\rm b}$ = 0.049.
 
 **Importantly, SIDC's *baryon* prediction is correct at z = 1100.** The 5% baryons are present at all z, including z = 1100, in plasma form (ionized hydrogen and helium — the medium that emits and absorbs the CMB). They are "visible" via their interaction with CMB photons, even though no stars or galaxies have formed yet.
 
@@ -104,9 +104,9 @@ This is **future work**, not a v2.7.3+ deliverable. SIDC's current framework is 
 
 To complement the qualitative picture, SIDC has been fit to the **SPARC database** (175 galaxies, 3383 radial data points) using MCMC (emcee). See `calculations/v27_cascade_mcmc_rar.py` for the full calculation.
 
-**SIDC RAR model:**$g_{\rm obs}$ = $g_{\rm bar}$ / (1 - exp(-sqrt($g_{\rm bar}$ / $a_0$)))
+**SIDC RAR model:** $g_{\rm obs}$ = $g_{\rm bar}$ / (1 - exp(-sqrt( $g_{\rm bar}$ / $a_0$)))
 
-This is the standard interpolating function that smoothly transitions from Newtonian ($g_{\rm bar}$ >> $a_0$) to MOND ($g_{\rm bar}$ << $a_0$).
+This is the standard interpolating function that smoothly transitions from Newtonian ( $g_{\rm bar}$ >> $a_0$) to MOND ( $g_{\rm bar}$ << $a_0$).
 
 **MCMC result (this run):**
 - $a_0$ = $2.34 \times 10^{-10}$ ± $1.54 \times 10^{-10}$ m/s^2
@@ -118,7 +118,7 @@ This is the standard interpolating function that smoothly transitions from Newto
 - sigma_int = 0.057 ± 0.002 dex
 - Reduced $\chi^2 = 1.0$ (good fit)
 
-SIDC's $a_0$ is consistent with the literature (within 1-2 sigma). SIDC's RAR is statistically equivalent to standard MOND. SIDC adds *geometric unification* ($a_0$ emerges from 2D universe back-projection) but does not *uniquely* beat MOND via the RAR.
+SIDC's $a_0$ is consistent with the literature (within 1-2 sigma). SIDC's RAR is statistically equivalent to standard MOND. SIDC adds *geometric unification* ( $a_0$ emerges from 2D universe back-projection) but does not *uniquely* beat MOND via the RAR.
 
 **The 47 Tuc test is SIDC's true differentiator** (from MOND and from particle DM). The RAR fit is a *consistency check* on SIDC's phenomenological prediction, not a new confirmation.
 

@@ -75,7 +75,7 @@ This is exactly what is observed in the Bullet Cluster. SIDC *naturally* explain
 
 The JWST strong + weak lensing analysis (Cha+ 2025, arXiv:2503.21870) confirms the original result with much higher resolution: 146 strong lensing constraints, 398 sources/ ${\rm arcmin}^2$ weak lensing, three distinct halos resolved. SIDC's prediction stands.
 
-**HONEST CAVEAT (v2.7.3+):** the Bullet Cluster is *not* a unique test of SIDC. **All particle DM models** ($\Lambda{\rm CDM}$ + WIMP/axion/sterile $\nu$/PBH/Fuzzy DM/SIDM, etc.) trivially explain the gas-galaxy separation: their DM particles are collisionless, so they pass through with the galaxies. The Bullet Cluster is a *necessary* test for any DM model (it kills pure modified gravity), but it is *not* a *sufficient* test for SIDC over particle DM.
+**HONEST CAVEAT (v2.7.3+):** the Bullet Cluster is *not* a unique test of SIDC. **All particle DM models** ( $\Lambda{\rm CDM}$ + WIMP/axion/sterile $\nu$/PBH/Fuzzy DM/SIDM, etc.) trivially explain the gas-galaxy separation: their DM particles are collisionless, so they pass through with the galaxies. The Bullet Cluster is a *necessary* test for any DM model (it kills pure modified gravity), but it is *not* a *sufficient* test for SIDC over particle DM.
 
 SIDC's specific *additional* prediction beyond particle DM: the lensing mass tracks the *star-formation history* of the galaxies, not just their collisionless nature. SIDC and particle DM both predict the Bullet Cluster; they differ in predictions for **objects with no current activity but real DM subhalos** (47 Tuc test, §11), where SIDC predicts no local DM and particle DM predicts a real cosmological subhalo.
 
@@ -91,7 +91,7 @@ SIDC's specific *additional* prediction beyond particle DM: the lensing mass tra
 **11/11 does NOT mean:**
 - SIDC is *uniquely* confirmed. LCDM + particle DM can also accommodate most of these tests (with the addition of baryonic feedback to explain the "no DM" UDGs).
 - SIDC's specific quantitative predictions (the *exact* $M_{dyn}$/ $M_{b}$ for each galaxy) are derived from first principles. They are *qualitative* predictions calibrated to the data.
-- SIDC has *no free parameters*. The 2 free parameters ($\mu$, $m_{3+1D}$) plus the calibrated f_split (32/68 projection ratio) and growth factor are not yet derived from first principles.
+- SIDC has *no free parameters*. The 2 free parameters ( $\mu$, $m_{3+1D}$) plus the calibrated f_split (32/68 projection ratio) and growth factor are not yet derived from first principles.
 
 **The honest framing:** 11/11 is a *consistency check*, not a *confirmation*. SIDC is a *geometric framework* that is *consistent* with the galaxy zoo, awaiting theoretical completion (2D CFT Lagrangian, bulk-brane geometry derivation).
 

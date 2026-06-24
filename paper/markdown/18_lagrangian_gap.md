@@ -12,7 +12,7 @@ $$S_{\rm SIDC} = S_{4D} + S_{3+1D} + \sum_{\rm events} S_{2D} + S_{\rm proj} + S
 
 | Component | Status | Source |
 |---|---|---|
-| S_4D (4D bulk event) | ✓ Implemented | L308bn ($M_{\rm Pl,4D} = 3.93×10²³ GeV$via α-GM) |
+| S_4D (4D bulk event) | ✓ Implemented | L308bn ( $M_{\rm Pl,4D} = 3.93×10²³ GeV$via α-GM) |
 | S_3+1D (3+1D brane) | ✓ Implemented | Standard + SM |
 | S_2D (per 2D universe) | ⚠️ Partially implemented | Form written, exact Z_2D unclear |
 | S_proj (projection) | ✓ Structurally implemented | L308az (mirror plane) |
@@ -190,7 +190,7 @@ The 4% gap is NOT a blocker for the framework's core predictions. Without the fu
 
 ✓ ρ_DE matches observation (0.13% off, A2 closed loop)
 ✓ DM distribution (SPARC, BCG)
-✓ AGN-DM correlation (p < 10⁻⁵⁰)
+✓ AGN-DM correlation (p < $10^{-50}$)
 ✓ 5/27/68 split matches Planck 2018
 ✓ $M_{\rm Pl,2D} = 2.95$TeV (testable at HL-LHC)
 ✓ w = -1 EXACTLY (testable by Euclid/Roman)

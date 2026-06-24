@@ -58,7 +58,7 @@ Two REAL SM-side "12"s:
    - Real, well-defined
 
 2. **12 fermion FLAVORS** across all 3 generations
-   - 6 quark flavors (u, d, s, c, b, t) + 6 lepton flavors (e, $\nu_{\rm e}$, $\mu$, $\nu$_$\mu$, $\tau$, $\nu$_$\tau$)
+   - 6 quark flavors (u, d, s, c, b, t) + 6 lepton flavors (e, $\nu_{\rm e}$, $\mu$, $\nu$_ $\mu$, $\tau$, $\nu$_ $\tau$)
    - 4 Dirac fermion FAMILIES × 3 generations = 12
    - Real, well-defined
 
@@ -95,7 +95,7 @@ The v3.4 "DOF conservation at 24" was the framework's INTERPRETATION.
 - This is interpretive, not derived
 
 **Hypothesis C** (DROPPED): Derivation from first principles
-- We tried this. None of our attempts ($\alpha$ = 1 + 1/√N, DOF=24, etc.) work as derivations
+- We tried this. None of our attempts ( $\alpha$ = 1 + 1/√N, DOF=24, etc.) work as derivations
 - v3.4.5 confirms: "12" is correlation, not derivation
 
 ## What F-theory 12D Provides (v3.4.6 HONEST)
@@ -113,7 +113,7 @@ The v3.4 "DOF conservation at 24" was the framework's INTERPRETATION.
 1. ✗ "Why 12 propagates?" — NOT derived (Hypothesis A: coincidence)
 2. ✗ "12 fermions per generation" — WRONG (it's 15-16 Weyl, or 7-8 Dirac)
 3. ✗ "DOF conservation at 24" — NOT a physical law
-4. ✗ "$\alpha$ = 1 + 1/√N from SYK" — phenomenological fit, not derivation
+4. ✗ " $\alpha$ = 1 + 1/√N from SYK" — phenomenological fit, not derivation
 5. ✗ "h^{2,1}=N → N gen" — REFUTED (h^{2,1}=4 gives 3 generations)
 6. ✗ "Why F-theory?" — open, structural hypothesis only
 
