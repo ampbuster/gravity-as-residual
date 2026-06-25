@@ -6101,7 +6101,7 @@ Source: User insight (2026-06-22), `calculations/v36_research/L308az_geometric_m
 ---
 
 
-## 7.4.45 (L308ba): α Dim-Specific Pattern $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2) — Halving Rule (v3.5.9+ A2, USER-DISCOVERED STRUCTURAL PATTERN)
+## 7.4.45 (L308ba): α Dim-Specific Pattern $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^{D-2} — Halving Rule (v3.5.9+ A2, USER-DISCOVERED STRUCTURAL PATTERN)
 
 **Date**: 2026-06-22
 **Trigger**: User insight during Lagrangian review: "the three α values look like 1 + 1/√N for different N. $N=12$, 6, 3 — that's halving each dimension up."
@@ -6117,7 +6117,7 @@ The three framework A2 dim-specific α values match the Schwarzian formula α = 
 | **3+1D** | 6 | 1.4082 | 1.408 (L308av inferred) | ✓ |
 | **4D** | 3 | 1.5774 | 1.577 (L308av inferred) | ✓ |
 
-The halving rule: ** $N_D$ = 12 / 2^(D-2)** for D = 2, 3+1D, 4D.
+The halving rule: ** $N_D$ = 12 / 2^{D-2}** for D = 2, 3+1D, 4D.
 
 ### Why This Matters
 
@@ -6230,7 +6230,7 @@ m DE,closed}$ = $1.79 \times 10^{-90}$, ε = $6.32 \times 10^{-34}$) give exact 
 
 ### $N_D$ Physical Interpretations (L308ba deeper analysis)
 
-L308ba identified the halving rule $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
+L308ba identified the halving rule $\alpha_{\rm D}$ = 1 + 1/√(12/2^{D-2}) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
 
 ** $N_{\rm 2D}$ = 12** (FIRST-PRINCIPLES derived, L308r):
 - 3 generations × 4 Weyl fermions (SM backbone)
@@ -6261,7 +6261,7 @@ All three are suggestive but not derivations.
 
 ### Halving Rule Physical Interpretation
 
-The halving rule $N_D$ = 12/2^(D-2) suggests a chirality/fermion-counting structure:
+The halving rule $N_D$ = 12/2^{D-2} suggests a chirality/fermion-counting structure:
 
 1. **Majorana → Weyl → bulk transition** (most natural)
    - 2D: 12 Majorana modes (real, 2D)
@@ -6342,7 +6342,7 @@ The §3.68 Lagrangian scores 93% in audit, +20 percentage points over §3.67. Th
 
 ### The Insight (USER-DISCOVERED)
 
-The L308ba halving rule $N_D$ = 12/2^(D-2) is not "halving" abstractly — it reflects a CONSERVATION LAW: the cascade has **12 real DOF total**, and each step up packages them into half as many spinors (because the spinor representation doubles per dimension up):
+The L308ba halving rule $N_D$ = 12/2^{D-2} is not "halving" abstractly — it reflects a CONSERVATION LAW: the cascade has **12 real DOF total**, and each step up packages them into half as many spinors (because the spinor representation doubles per dimension up):
 
 ```
 Level   N (count)   Spinor type                          Real DOF per   Total real
@@ -6356,8 +6356,8 @@ The chain: 12 Majorana (2D, 1 real) = 6 Weyl (3+1D, 2 real) = 3 4-comp Majorana 
 ### Equivalence to Halving Rule
 
 The L308ba halving rule and L308bc DOF conservation are EQUIVALENT statements:
-- Halving rule: $N_D$ = 12 / 2^(D-2)
-- DOF conservation: $N_D$ × 2^(D-2) = 12
+- Halving rule: $N_D$ = 12 / 2^{D-2}
+- DOF conservation: $N_D$ × 2^{D-2} = 12
 
 Both describe the same relationship. The halving rule says "count halves per dim up"; the DOF conservation says "spinor size doubles per dim up, count halves to keep total fixed." Same math, different interpretation.
 
@@ -6490,7 +6490,7 @@ The framework chose **Option B** because:
 
 2. **Spinor representation is genuinely dim-specific**: Majorana in 2D, Weyl in 3+1D, 4-comp Majorana in 4D are different physical objects. The Schwarzian formula should use the appropriate N for each dimension's spinor type.
 
-3. **L308ba halving rule** ( $N_D$ = 12/2^(D-2)) is structurally tight, matching all three α values EXACTLY (within 0.01%).
+3. **L308ba halving rule** ( $N_D$ = 12/2^{D-2}) is structurally tight, matching all three α values EXACTLY (within 0.01%).
 
 4. **L308bc DOF conservation** (12 real DOF total) is consistent with spinor size doubling per dim up.
 
@@ -6589,7 +6589,7 @@ L308bd (previous section) presented options A and B as both structurally valid, 
 | 2 | $\alpha_{2D}$ = 1.289 via Schwarzian | **FIRST-PRINCIPLES** via L308n |
 | 3 | $N_{3+1D}$ = 6 | **INFERRED from $\alpha_{\rm 3+1D}$ = 1.408** (NOT derived) |
 | 4 | $N_{\rm 4D}$ = 3 | **INFERRED from $\alpha_{4D}$ = 1.577** (NOT derived) |
-| 5 | Halving rule $N_D$ = 12/2^(D-2) | **EMPIRICAL PATTERN** (NOT derived) |
+| 5 | Halving rule $N_D$ = 12/2^{D-2} | **EMPIRICAL PATTERN** (NOT derived) |
 
 **Status**: 1 derived, 2 inferred, 1 pattern. Only $\alpha_{2D}$ is first-principles.
 
@@ -6607,9 +6607,9 @@ But under the **first-principles criterion**, option B introduces assumptions ( 
 
 ### The Synthesis: KEEP the Pattern, USE the First-Principles
 
-The structural pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) is a **valid observation**:
+The structural pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^{D-2}) is a **valid observation**:
 - It matches all three A2 dim-specific α values exactly (0.01%)
-- It suggests a structural halving ( $N_D$ = 12/2^(D-2))
+- It suggests a structural halving ( $N_D$ = 12/2^{D-2})
 - It encodes DOF conservation (L308bc)
 
 But the pattern is **not a first-principles derivation** for $\alpha_{\rm 3+1D}$ and $\alpha_{4D}$.
@@ -6713,7 +6713,7 @@ When one of the following is achieved, the framework should RECONSIDER option A 
 
 2. **Derivation of $N_{\rm 4D}$ = 3 from first principles**: e.g., from 3 generations, from SU(3) color, from bulk field theory structure, etc.
 
-3. **Derivation of the halving rule $N_D$ = 12/2^(D-2)**: e.g., from chirality/fermion-counting structure, from Majorana → Weyl → bulk transition, from cascade termination physics, etc.
+3. **Derivation of the halving rule $N_D$ = 12/2^{D-2}**: e.g., from chirality/fermion-counting structure, from Majorana → Weyl → bulk transition, from cascade termination physics, etc.
 
 4. **Better theoretical understanding of the Schwarzian formula at higher dimensions**: a rigorous derivation of $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ for 3+1D and 4D CFTs.
 
@@ -6826,7 +6826,7 @@ SU(6) appears in literature:
 
 **Status**: ✓ FIRST-PRINCIPLES derivations exist for $N_{\rm 4D}$ = 3 (= 3 generations).
 
-#### 4. Halving rule $N_D$ = 12/2^(D-2) (EMPIRICAL)
+#### 4. Halving rule $N_D$ = 12/2^{D-2} (EMPIRICAL)
 
 - Pattern: Majorana → Weyl → 4-comp Majorana transition (L308bc)
 - Related: "Chiral Majorana fermion can be viewed as 1/2 of chiral Dirac"
@@ -6984,7 +6984,7 @@ The cascade framework's N values map EXACTLY to Clifford algebra structure:
 | 3+1D | 6 | C(6) = 1 SM generation (complex 2-comp) | ✓ (Stoica 2018) [NEW] |
 | 4D | 3 | 3 generations (real 4-comp) | ✓ (Clifford/McKay/cobordism) |
 
-**The halving rule $N_D$ = 12/2^(D-2) now has a STRUCTURAL EXPLANATION**:
+**The halving rule $N_D$ = 12/2^{D-2} now has a STRUCTURAL EXPLANATION**:
 - 12 = 3 generations × 4 Weyl (full SM content)
 - 6 = 1 generation via C(6) (SM algebra, Stoica 2018)
 - 3 = 3 generations (the most reduced structure)
@@ -7030,7 +7030,7 @@ The Schwarzian formula is applied to N = Clifford algebra dimension at each leve
 
 ### What Remains Open
 
-- **Halving rule first-principles**: WHY does $N_D$ = 12/2^(D-2)? The Clifford algebra connection suggests it's tied to SM structure, but the deeper origin is open.
+- **Halving rule first-principles**: WHY does $N_D$ = 12/2^{D-2}? The Clifford algebra connection suggests it's tied to SM structure, but the deeper origin is open.
 - **Schwarzian at higher D**: Structural analogs exist (quaternionic 4D, Clifford higher-dim), but no derivation of $N=3$ or 6 from Schwarzian at 3+1D/4D.
 - **Connection to bulk field theory**: How does the C(6) structure relate to the bulk fields in the cascade?
 
@@ -7186,9 +7186,9 @@ The framework's choice is now justified BOTH structurally (L308ba, L308bc, L308a
 
 ### The Breakthrough
 
-The cascade's halving rule $N_D$ = 12/2^(D-2) IS FIRST-PRINCIPLES DERIVED.
+The cascade's halving rule $N_D$ = 12/2^{D-2} IS FIRST-PRINCIPLES DERIVED.
 
-The factor **2^(D-2) IS the minimal real spinor dimension at Lorentzian dim D** — a property of Clifford algebras via Bott periodicity.
+The factor **2^{D-2} IS the minimal real spinor dimension at Lorentzian dim D** — a property of Clifford algebras via Bott periodicity.
 
 ### The Mathematical Derivation
 
@@ -7198,15 +7198,15 @@ The halving rule has two ingredients:
 - 12 = 3 gen × 4 Weyl = SM count (L308r)
 - Total real fermion DOF conserved across cascade
 
-**INGREDIENT 2**: Real DOF per spinor = 2^(D-2) (DIMENSIONAL, first-principles)
+**INGREDIENT 2**: Real DOF per spinor = 2^{D-2} (DIMENSIONAL, first-principles)
 - D=2: 2^0 = 1 (Cl(1,1) = M_2(R), 1-comp Majorana, 1 real DOF)
 - D=3+1: 2^1 = 2 (Cl(3,1) = M_4(R), 2-comp Weyl, 2 real DOF)
 - D=4: 2^2 = 4 (Cl(1,3) = M_4(R), 4-comp Majorana, 4 real DOF)
 - This is a property of Clifford algebras via Bott periodicity
 
-**Conclusion**: $N_D$ = 12 / 2^(D-2) is **first-principles derived**:
+**Conclusion**: $N_D$ = 12 / 2^{D-2} is **first-principles derived**:
 - 12: from SM count (L308r, first-principles)
-- 2^(D-2): from Clifford algebra / spinor rep theory (first-principles)
+- 2^{D-2}: from Clifford algebra / spinor rep theory (first-principles)
 
 ### Bott Periodicity Connection
 
@@ -7227,9 +7227,9 @@ Cascade's halving (D=2 → 3+1 → 4) is 1 → 2 → 4, matching the period-8 pa
 
 ### Connection to L308ba + L308bc
 
-**L308ba (halving rule)**: $N_D$ = 12/2^(D-2)
-**L308bc (DOF conservation)**: $N_D$ × 2^(D-2) = 12
-**L308bj (this)**: 2^(D-2) = real DOF per spinor at dim D (first-principles)
+**L308ba (halving rule)**: $N_D$ = 12/2^{D-2}
+**L308bc (DOF conservation)**: $N_D$ × 2^{D-2} = 12
+**L308bj (this)**: 2^{D-2} = real DOF per spinor at dim D (first-principles)
 
 These three are MATHEMATICALLY EQUIVALENT statements. L308bj provides the **first-principles basis** for both L308ba and L308bc.
 
@@ -7253,7 +7253,7 @@ Either way, 5D is a NEW level with different structure than 2D/3+1D/4D. The casc
 
 ### What L308bj Preserves
 
-- **L308ba (halving rule)**: Still valid observation ( $N_D$ = 12/2^(D-2))
+- **L308ba (halving rule)**: Still valid observation ( $N_D$ = 12/2^{D-2})
 - **L308bc (DOF conservation)**: Still valid (12 real total)
 - **L308bh (C(6) SM algebra)**: Still first-principles for $N_{3+1D}$ = 6
 - **L308bi (Option B Strengthened)**: Now FULLY first-principles
@@ -7289,9 +7289,9 @@ Calculation: `calculations/v36_research/L308bj_halving_rule_first_principles.py`
 
 **L308bj**: BREAKTHROUGH — Halving rule is now FIRST-PRINCIPLES.
 
-The cascade framework's halving rule $N_D$ = 12/2^(D-2) has first-principles basis via:
+The cascade framework's halving rule $N_D$ = 12/2^{D-2} has first-principles basis via:
 - 12: total real DOF (SM count, L308r)
-- 2^(D-2): minimal real spinor dim at dim D (Clifford algebras, Bott periodicity)
+- 2^{D-2}: minimal real spinor dim at dim D (Clifford algebras, Bott periodicity)
 
 Option B Strengthened is now FULLY first-principles end-to-end.
 
@@ -7312,7 +7312,7 @@ This is a violation of the framework's own dimension invariance principle.
 
 ### Resolution
 
-The cascade IS dimension-invariant via the halving rule $N_D$ = 12/2^(D-2):
+The cascade IS dimension-invariant via the halving rule $N_D$ = 12/2^{D-2}:
 - The halving rule applies to ALL D
 - At integer-N levels (2D, 3+1D, 4D), we have physical brane levels
 - At fractional-N levels (5D, 6D, ...), we have bulk content
@@ -7383,7 +7383,7 @@ The framework claims dimension invariance, so the cascade should extend. The 3 i
 ### Implications
 
 1. **The 12 (SM fermion count) is distributed across ALL D**:
-   - ∫_D (12/2^(D-2)) dD = 24 (total content if integrated over D)
+   - ∫_D (12/2^{D-2}) dD = 24 (total content if integrated over D)
    - Or finite sum if D is bounded
    - The "12" at each level is a fraction of the total
 
@@ -7411,7 +7411,7 @@ The framework claims dimension invariance, so the cascade should extend. The 3 i
 
 ### What L308bk Preserves
 
-- **L308ba (halving rule)**: Still valid (12/2^(D-2))
+- **L308ba (halving rule)**: Still valid (12/2^{D-2})
 - **L308bj (spinor dim doubling)**: Still valid (Bott periodicity)
 - **L308bi (Option B Strengthened)**: Still first-principles
 - **L308bh (C(6) SM algebra)**: Still first-principles for $N_{3+1D}$ = 6

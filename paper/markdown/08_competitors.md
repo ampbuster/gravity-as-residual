@@ -57,7 +57,7 @@ SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling
 **NEW: Cascade is dimension-invariant (L308bk).**
 - SIDC: 3 integer-N brane levels (2D, 3+1D, 4D) + infinite fractional-N bulk levels
 - ADD/RS: Fixed number of extra dimensions (1, 2, ..., n)
-- SIDC's cascade extends to ALL D, with halving rule $N_D$ = 12/2^(D-2) via Bott periodicity
+- SIDC's cascade extends to ALL D, with halving rule $N_D$ = 12/2^{D-2} via Bott periodicity
 
 **Quantitative comparison:**
 
@@ -270,7 +270,7 @@ A defining feature of SIDC after v3.5.9+ A2 is that the framework's structural n
 | $N=12$ (2D) | Standard Model fermion count (3 generations × 4 Weyl) | L308n, structural |
 | $N=6$ (3+1D) | C(6) minimal ideal = 1 SM generation (Stoica 2018) | L308bh, BREAKTHROUGH |
 | $N=3$ (4D) | 3 generations × 1 (Majorana-Weyl dim at 4D) | L308bi, structural |
-| $N_D$ = 12/2^(D-2) | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
+| $N_D$ = 12/2^{D-2} | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
 
 **What this means for competitors:**
 - ΛCDM: $\Omega_{\rm c}$, Ω_Λ, $N_{\rm eff}$, A_s, n_s, $\tau_{\rm reio}$, etc. are all FREE parameters (~6)

@@ -59,7 +59,7 @@
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< 10⁻⁵⁰ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in M_{b} but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap ($\Omega_{\rm DM}$ at z=1100) is now PARTIALLY CLOSED via $f_{\rm leak}$ = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. $\tau_{\rm DM}$ unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N× $v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak}$= H₀ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak} = H$(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C$_l$ oscillation at $l_{12} = \pi \times D_A/r_{12}$ (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of α=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, μ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, α first-principles). L41, L42 closed in v3.0.22 ( μ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ( 4π specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< 10⁻⁵⁰ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in M_{b} but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap ($\Omega_{\rm DM}$ at z=1100) is now PARTIALLY CLOSED via $f_{\rm leak}$ = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. $\tau_{\rm DM}$ unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N× $v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak}$= H₀ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak} = H$(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C$_l$ oscillation at $l_{12} = \pi \times D_A/r_{12}$ (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^{D-2}) halving rule (closes structural dimension-dependence)********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of α=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, μ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, α first-principles). L41, L42 closed in v3.0.22 ( μ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ( 4π specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
 
 ---
 
@@ -136,7 +136,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with α coupling, δ-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as α → 0.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+$ ∼ $1.2 \times 10^{-10}$, ε ∼ $6.32 \times 10^{-34}$(A2), $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N×$v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak} = H₀$ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak} = H$(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C$_l$ oscillation at $l_{12} = \pi \times D_A/r_{12}$ (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+$ ∼ $1.2 \times 10^{-10}$, ε ∼ $6.32 \times 10^{-34}$(A2), $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N×$v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak} = H₀$ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak} = H$(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C$_l$ oscillation at $l_{12} = \pi \times D_A/r_{12}$ (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^{D-2}) halving rule (closes structural dimension-dependence)********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
@@ -4507,7 +4507,7 @@ This section REVISES the Lagrangian with three A2-era corrections and ONE new st
 
 #### 3.68.2 The Dim-Specific α Pattern (L308ba, USER-DISCOVERED)
 
-The three framework A2 dim-specific α values match ** $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2)**:
+The three framework A2 dim-specific α values match ** $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^{D-2}**:
 
 ```
 $\alpha_{\rm 2D} = 1 + 1/\sqrt{12} = \mathbf{1.2887}$   ✓ (Schwarzian N=12 SYK, FIRST-PRINCIPLES)
@@ -4515,7 +4515,7 @@ $\alpha_{\rm 3+1D} = 1 + 1/\sqrt{6} = \mathbf{1.4082}$   ✓ (matches framework 
 $\alpha_{\rm 4D} = 1 + 1/\sqrt{3} = \mathbf{1.5774}$   ✓ (matches framework 1.577)
 ```
 
-The halving rule: ** $N_D$ = 12/2^(D-2)** — divide N by 2 for each dimension up. Going to 5D would give $N_{\rm 5D}$ = 1.5 (non-integer), confirming no 5D level exists. The cascade TERMINATES at 4D (eternal substrate) and 2D (terminal quantum gravity floor).
+The halving rule: ** $N_D$ = 12/2^{D-2}** — divide N by 2 for each dimension up. Going to 5D would give $N_{\rm 5D}$ = 1.5 (non-integer), confirming no 5D level exists. The cascade TERMINATES at 4D (eternal substrate) and 2D (terminal quantum gravity floor).
 
 **Honest framing**: $N_{\rm 2D}$ = 12 IS first-principles derived (3 generations × 4 Weyl fermions, L308r). $N_{3+1D}$ = 6 and $N_{\rm 4D}$ = 3 are INFERRED from α values, not first-principles derived. The PATTERN is structurally tight (matches within 0.01%) but the deeper origin is OPEN.
 
@@ -4643,14 +4643,14 @@ m DE,closed}$ = $1.79 \times 10^{-90}$, ε = $6.32 \times 10^{-34}$, $\gamma_{\r
 It does NOT:
 - ✗ Derive $\alpha_{\rm 3+1D}$ = 1.408 from first principles (inferred from α value, L308ba)
 - ✗ Derive $\alpha_{4D}$ = 1.577 from first principles (inferred from α value, L308ba)
-- ✗ Explain WHY the halving rule $N_D$ = 12/2^(D-2) holds (pattern, not derivation)
+- ✗ Explain WHY the halving rule $N_D$ = 12/2^{D-2} holds (pattern, not derivation)
 - ✗ Replace the L116 audit (L120 was 73%; revised Lagrangian should be re-audited)
 
 #### 3.68.7 Net Improvements Over §3.67
 
 | Aspect | §3.67 (L116) | §3.68 (NEW) | Source |
 |--------|---------------|-------------|--------|
-| α (scaling law) | α = 1.289 (universal) | $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) | L308ba |
+| α (scaling law) | α = 1.289 (universal) | $\alpha_{\rm D}$ = 1 + 1/√(12/2^{D-2}) | L308ba |
 | $f_{\rm DE}$ formula | $f_{\rm back}$ ≈ 10⁻⁸⁵ | $f_{
 m DE,closed}$ = $1.79 \times 10^{-90}$| L308av |
 | Projection sign | ± $g_{\rm couple}$ (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
@@ -4661,7 +4661,7 @@ m leak,2D}$→3D, $f_{\rm leak,3D→4D}$ | L308ax |
 | 2D universe lifetime | (E/ $M_{\rm Pl,3D}$)^α × $t_{\rm Pl}$ | $(E/M_{\rm Pl,parent})^{\alpha}$_D × $t_{\rm Pl}$,parent (dim-specific) | L308ba |
 | DM picture | pulsed death + ε × ρ | pulsed death + $f_{\rm leak,3D→4D}$ × $\rho_{\rm DM}$ (bilateral) | L308ax |
 | Mirror plane | not encoded | S_mirror term explicit | L308az |
-| Halving rule | unknown | $N_D$ = 12/2^(D-2) identified | L308ba |
+| Halving rule | unknown | $N_D$ = 12/2^{D-2} identified | L308ba |
 
 #### 3.68.8 What This Closes
 
@@ -4711,7 +4711,7 @@ m DE,closed}$ = $1.79 \times 10^{-90}$, ε = $6.32 \times 10^{-34}$) give EXACT 
 
 #### 3.69.2 Halving Rule Deeper Analysis (L308bb)
 
-L308ba identified $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
+L308ba identified $\alpha_{\rm D}$ = 1 + 1/√(12/2^{D-2}) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
 
 ** $N_{\rm 2D}$ = 12 (FIRST-PRINCIPLES derived, L308r):**
 - 3 generations × 4 Weyl fermions (SM backbone)
@@ -4831,9 +4831,9 @@ The chain: **12 Majorana = 6 Weyl = 3 4-comp Majorana** (in 2D / 3+1D / 4D)
 
 #### 3.70.2 Equivalence to Halving Rule
 
-The L308ba halving rule $N_D$ = 12/2^(D-2) and L308bc DOF conservation are EQUIVALENT:
-- Halving: $N_D$ = 12/2^(D-2)
-- Conservation: $N_D$ × 2^(D-2) = 12
+The L308ba halving rule $N_D$ = 12/2^{D-2} and L308bc DOF conservation are EQUIVALENT:
+- Halving: $N_D$ = 12/2^{D-2}
+- Conservation: $N_D$ × 2^{D-2} = 12
 
 Same math, two interpretations. The cascade has a "fermion DOF budget" of 12, and each level packages them into spinors appropriate to that dimension.
 
@@ -4964,7 +4964,7 @@ Level   | N    | Clifford Structure                  | First-principles
 4D      | 3    | 3 generations (real 4-comp)         | ✓ (Clifford/McKay/cobordism)
 ```
 
-The halving rule $N_D$ = 12/2^(D-2) now has structural explanation:
+The halving rule $N_D$ = 12/2^{D-2} now has structural explanation:
 - 12 = 3 generations × 4 Weyl (full SM content)
 - 6 = 1 generation via C(6) (SM algebra, Stoica 2018)
 - 3 = 3 generations (most reduced structure)
@@ -4999,7 +4999,7 @@ The switch is interpretive (justification), not numerical (re-calibration).
 
 #### 3.71.9 What Remains Open
 
-- **Halving rule first-principles**: WHY does $N_D$ = 12/2^(D-2)? The Clifford algebra connection is suggestive but deeper origin is open
+- **Halving rule first-principles**: WHY does $N_D$ = 12/2^{D-2}? The Clifford algebra connection is suggestive but deeper origin is open
 - **Schwarzian at higher D**: Structural analogs exist (quaternionic 4D, Clifford higher-dim), but no derivation of $N=3$ or 6 from Schwarzian
 - **Connection to bulk field theory**: How does the C(6) structure relate to bulk fields?
 
@@ -5053,7 +5053,7 @@ The Lagrangian rests on three pillars:
 
 **Pillar 1: α Dim-Specific (L308ba)**
 ```
-α_D = 1 + 1/√N_D with N_D = 12/2^(D-2)
+α_D = 1 + 1/√N_D with N_D = 12/2^{D-2}
 $\alpha_{\rm 2D} = 1.289$, $\alpha_{\rm 3+1D} = 1.408$, $\alpha_{\rm 4D} = 1.577$
 ```
 The halving rule: divide N by 2 for each dimension up. Matches all three α values to <0.01%. First-principles via Bott periodicity + Clifford algebra structure.
@@ -5233,7 +5233,7 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 
 **2. L308bj: Halving rule via Bott periodicity**
 - Closes: "Why the halving rule itself?"
-- Mechanism: 2^(D-2) = real spinor dim at Lorentzian dim D
+- Mechanism: 2^{D-2} = real spinor dim at Lorentzian dim D
 - Status: CLOSED — halving rule has first-principles
 
 **3. L308bi: Option B Strengthened**
@@ -14488,7 +14488,7 @@ Source: User insight (2026-06-22), `calculations/v36_research/L308az_geometric_m
 ---
 
 
-## 7.4.45 (L308ba): α Dim-Specific Pattern $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2) — Halving Rule (v3.5.9+ A2, USER-DISCOVERED STRUCTURAL PATTERN)
+## 7.4.45 (L308ba): α Dim-Specific Pattern $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^{D-2} — Halving Rule (v3.5.9+ A2, USER-DISCOVERED STRUCTURAL PATTERN)
 
 **Date**: 2026-06-22
 **Trigger**: User insight during Lagrangian review: "the three α values look like 1 + 1/√N for different N. $N=12$, 6, 3 — that's halving each dimension up."
@@ -14504,7 +14504,7 @@ The three framework A2 dim-specific α values match the Schwarzian formula α = 
 | **3+1D** | 6 | 1.4082 | 1.408 (L308av inferred) | ✓ |
 | **4D** | 3 | 1.5774 | 1.577 (L308av inferred) | ✓ |
 
-The halving rule: ** $N_D$ = 12 / 2^(D-2)** for D = 2, 3+1D, 4D.
+The halving rule: ** $N_D$ = 12 / 2^{D-2}** for D = 2, 3+1D, 4D.
 
 ### Why This Matters
 
@@ -14617,7 +14617,7 @@ m DE,closed}$ = $1.79 \times 10^{-90}$, ε = $6.32 \times 10^{-34}$) give exact 
 
 ### $N_D$ Physical Interpretations (L308ba deeper analysis)
 
-L308ba identified the halving rule $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
+L308ba identified the halving rule $\alpha_{\rm D}$ = 1 + 1/√(12/2^{D-2}) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
 
 ** $N_{\rm 2D}$ = 12** (FIRST-PRINCIPLES derived, L308r):
 - 3 generations × 4 Weyl fermions (SM backbone)
@@ -14648,7 +14648,7 @@ All three are suggestive but not derivations.
 
 ### Halving Rule Physical Interpretation
 
-The halving rule $N_D$ = 12/2^(D-2) suggests a chirality/fermion-counting structure:
+The halving rule $N_D$ = 12/2^{D-2} suggests a chirality/fermion-counting structure:
 
 1. **Majorana → Weyl → bulk transition** (most natural)
    - 2D: 12 Majorana modes (real, 2D)
@@ -14729,7 +14729,7 @@ The §3.68 Lagrangian scores 93% in audit, +20 percentage points over §3.67. Th
 
 ### The Insight (USER-DISCOVERED)
 
-The L308ba halving rule $N_D$ = 12/2^(D-2) is not "halving" abstractly — it reflects a CONSERVATION LAW: the cascade has **12 real DOF total**, and each step up packages them into half as many spinors (because the spinor representation doubles per dimension up):
+The L308ba halving rule $N_D$ = 12/2^{D-2} is not "halving" abstractly — it reflects a CONSERVATION LAW: the cascade has **12 real DOF total**, and each step up packages them into half as many spinors (because the spinor representation doubles per dimension up):
 
 ```
 Level   N (count)   Spinor type                          Real DOF per   Total real
@@ -14743,8 +14743,8 @@ The chain: 12 Majorana (2D, 1 real) = 6 Weyl (3+1D, 2 real) = 3 4-comp Majorana 
 ### Equivalence to Halving Rule
 
 The L308ba halving rule and L308bc DOF conservation are EQUIVALENT statements:
-- Halving rule: $N_D$ = 12 / 2^(D-2)
-- DOF conservation: $N_D$ × 2^(D-2) = 12
+- Halving rule: $N_D$ = 12 / 2^{D-2}
+- DOF conservation: $N_D$ × 2^{D-2} = 12
 
 Both describe the same relationship. The halving rule says "count halves per dim up"; the DOF conservation says "spinor size doubles per dim up, count halves to keep total fixed." Same math, different interpretation.
 
@@ -14877,7 +14877,7 @@ The framework chose **Option B** because:
 
 2. **Spinor representation is genuinely dim-specific**: Majorana in 2D, Weyl in 3+1D, 4-comp Majorana in 4D are different physical objects. The Schwarzian formula should use the appropriate N for each dimension's spinor type.
 
-3. **L308ba halving rule** ( $N_D$ = 12/2^(D-2)) is structurally tight, matching all three α values EXACTLY (within 0.01%).
+3. **L308ba halving rule** ( $N_D$ = 12/2^{D-2}) is structurally tight, matching all three α values EXACTLY (within 0.01%).
 
 4. **L308bc DOF conservation** (12 real DOF total) is consistent with spinor size doubling per dim up.
 
@@ -14976,7 +14976,7 @@ L308bd (previous section) presented options A and B as both structurally valid, 
 | 2 | $\alpha_{2D}$ = 1.289 via Schwarzian | **FIRST-PRINCIPLES** via L308n |
 | 3 | $N_{3+1D}$ = 6 | **INFERRED from $\alpha_{\rm 3+1D}$ = 1.408** (NOT derived) |
 | 4 | $N_{\rm 4D}$ = 3 | **INFERRED from $\alpha_{4D}$ = 1.577** (NOT derived) |
-| 5 | Halving rule $N_D$ = 12/2^(D-2) | **EMPIRICAL PATTERN** (NOT derived) |
+| 5 | Halving rule $N_D$ = 12/2^{D-2} | **EMPIRICAL PATTERN** (NOT derived) |
 
 **Status**: 1 derived, 2 inferred, 1 pattern. Only $\alpha_{2D}$ is first-principles.
 
@@ -14994,9 +14994,9 @@ But under the **first-principles criterion**, option B introduces assumptions ( 
 
 ### The Synthesis: KEEP the Pattern, USE the First-Principles
 
-The structural pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) is a **valid observation**:
+The structural pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^{D-2}) is a **valid observation**:
 - It matches all three A2 dim-specific α values exactly (0.01%)
-- It suggests a structural halving ( $N_D$ = 12/2^(D-2))
+- It suggests a structural halving ( $N_D$ = 12/2^{D-2})
 - It encodes DOF conservation (L308bc)
 
 But the pattern is **not a first-principles derivation** for $\alpha_{\rm 3+1D}$ and $\alpha_{4D}$.
@@ -15100,7 +15100,7 @@ When one of the following is achieved, the framework should RECONSIDER option A 
 
 2. **Derivation of $N_{\rm 4D}$ = 3 from first principles**: e.g., from 3 generations, from SU(3) color, from bulk field theory structure, etc.
 
-3. **Derivation of the halving rule $N_D$ = 12/2^(D-2)**: e.g., from chirality/fermion-counting structure, from Majorana → Weyl → bulk transition, from cascade termination physics, etc.
+3. **Derivation of the halving rule $N_D$ = 12/2^{D-2}**: e.g., from chirality/fermion-counting structure, from Majorana → Weyl → bulk transition, from cascade termination physics, etc.
 
 4. **Better theoretical understanding of the Schwarzian formula at higher dimensions**: a rigorous derivation of $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ for 3+1D and 4D CFTs.
 
@@ -15213,7 +15213,7 @@ SU(6) appears in literature:
 
 **Status**: ✓ FIRST-PRINCIPLES derivations exist for $N_{\rm 4D}$ = 3 (= 3 generations).
 
-#### 4. Halving rule $N_D$ = 12/2^(D-2) (EMPIRICAL)
+#### 4. Halving rule $N_D$ = 12/2^{D-2} (EMPIRICAL)
 
 - Pattern: Majorana → Weyl → 4-comp Majorana transition (L308bc)
 - Related: "Chiral Majorana fermion can be viewed as 1/2 of chiral Dirac"
@@ -15371,7 +15371,7 @@ The cascade framework's N values map EXACTLY to Clifford algebra structure:
 | 3+1D | 6 | C(6) = 1 SM generation (complex 2-comp) | ✓ (Stoica 2018) [NEW] |
 | 4D | 3 | 3 generations (real 4-comp) | ✓ (Clifford/McKay/cobordism) |
 
-**The halving rule $N_D$ = 12/2^(D-2) now has a STRUCTURAL EXPLANATION**:
+**The halving rule $N_D$ = 12/2^{D-2} now has a STRUCTURAL EXPLANATION**:
 - 12 = 3 generations × 4 Weyl (full SM content)
 - 6 = 1 generation via C(6) (SM algebra, Stoica 2018)
 - 3 = 3 generations (the most reduced structure)
@@ -15417,7 +15417,7 @@ The Schwarzian formula is applied to N = Clifford algebra dimension at each leve
 
 ### What Remains Open
 
-- **Halving rule first-principles**: WHY does $N_D$ = 12/2^(D-2)? The Clifford algebra connection suggests it's tied to SM structure, but the deeper origin is open.
+- **Halving rule first-principles**: WHY does $N_D$ = 12/2^{D-2}? The Clifford algebra connection suggests it's tied to SM structure, but the deeper origin is open.
 - **Schwarzian at higher D**: Structural analogs exist (quaternionic 4D, Clifford higher-dim), but no derivation of $N=3$ or 6 from Schwarzian at 3+1D/4D.
 - **Connection to bulk field theory**: How does the C(6) structure relate to the bulk fields in the cascade?
 
@@ -15573,9 +15573,9 @@ The framework's choice is now justified BOTH structurally (L308ba, L308bc, L308a
 
 ### The Breakthrough
 
-The cascade's halving rule $N_D$ = 12/2^(D-2) IS FIRST-PRINCIPLES DERIVED.
+The cascade's halving rule $N_D$ = 12/2^{D-2} IS FIRST-PRINCIPLES DERIVED.
 
-The factor **2^(D-2) IS the minimal real spinor dimension at Lorentzian dim D** — a property of Clifford algebras via Bott periodicity.
+The factor **2^{D-2} IS the minimal real spinor dimension at Lorentzian dim D** — a property of Clifford algebras via Bott periodicity.
 
 ### The Mathematical Derivation
 
@@ -15585,15 +15585,15 @@ The halving rule has two ingredients:
 - 12 = 3 gen × 4 Weyl = SM count (L308r)
 - Total real fermion DOF conserved across cascade
 
-**INGREDIENT 2**: Real DOF per spinor = 2^(D-2) (DIMENSIONAL, first-principles)
+**INGREDIENT 2**: Real DOF per spinor = 2^{D-2} (DIMENSIONAL, first-principles)
 - D=2: 2^0 = 1 (Cl(1,1) = M_2(R), 1-comp Majorana, 1 real DOF)
 - D=3+1: 2^1 = 2 (Cl(3,1) = M_4(R), 2-comp Weyl, 2 real DOF)
 - D=4: 2^2 = 4 (Cl(1,3) = M_4(R), 4-comp Majorana, 4 real DOF)
 - This is a property of Clifford algebras via Bott periodicity
 
-**Conclusion**: $N_D$ = 12 / 2^(D-2) is **first-principles derived**:
+**Conclusion**: $N_D$ = 12 / 2^{D-2} is **first-principles derived**:
 - 12: from SM count (L308r, first-principles)
-- 2^(D-2): from Clifford algebra / spinor rep theory (first-principles)
+- 2^{D-2}: from Clifford algebra / spinor rep theory (first-principles)
 
 ### Bott Periodicity Connection
 
@@ -15614,9 +15614,9 @@ Cascade's halving (D=2 → 3+1 → 4) is 1 → 2 → 4, matching the period-8 pa
 
 ### Connection to L308ba + L308bc
 
-**L308ba (halving rule)**: $N_D$ = 12/2^(D-2)
-**L308bc (DOF conservation)**: $N_D$ × 2^(D-2) = 12
-**L308bj (this)**: 2^(D-2) = real DOF per spinor at dim D (first-principles)
+**L308ba (halving rule)**: $N_D$ = 12/2^{D-2}
+**L308bc (DOF conservation)**: $N_D$ × 2^{D-2} = 12
+**L308bj (this)**: 2^{D-2} = real DOF per spinor at dim D (first-principles)
 
 These three are MATHEMATICALLY EQUIVALENT statements. L308bj provides the **first-principles basis** for both L308ba and L308bc.
 
@@ -15640,7 +15640,7 @@ Either way, 5D is a NEW level with different structure than 2D/3+1D/4D. The casc
 
 ### What L308bj Preserves
 
-- **L308ba (halving rule)**: Still valid observation ( $N_D$ = 12/2^(D-2))
+- **L308ba (halving rule)**: Still valid observation ( $N_D$ = 12/2^{D-2})
 - **L308bc (DOF conservation)**: Still valid (12 real total)
 - **L308bh (C(6) SM algebra)**: Still first-principles for $N_{3+1D}$ = 6
 - **L308bi (Option B Strengthened)**: Now FULLY first-principles
@@ -15676,9 +15676,9 @@ Calculation: `calculations/v36_research/L308bj_halving_rule_first_principles.py`
 
 **L308bj**: BREAKTHROUGH — Halving rule is now FIRST-PRINCIPLES.
 
-The cascade framework's halving rule $N_D$ = 12/2^(D-2) has first-principles basis via:
+The cascade framework's halving rule $N_D$ = 12/2^{D-2} has first-principles basis via:
 - 12: total real DOF (SM count, L308r)
-- 2^(D-2): minimal real spinor dim at dim D (Clifford algebras, Bott periodicity)
+- 2^{D-2}: minimal real spinor dim at dim D (Clifford algebras, Bott periodicity)
 
 Option B Strengthened is now FULLY first-principles end-to-end.
 
@@ -15699,7 +15699,7 @@ This is a violation of the framework's own dimension invariance principle.
 
 ### Resolution
 
-The cascade IS dimension-invariant via the halving rule $N_D$ = 12/2^(D-2):
+The cascade IS dimension-invariant via the halving rule $N_D$ = 12/2^{D-2}:
 - The halving rule applies to ALL D
 - At integer-N levels (2D, 3+1D, 4D), we have physical brane levels
 - At fractional-N levels (5D, 6D, ...), we have bulk content
@@ -15770,7 +15770,7 @@ The framework claims dimension invariance, so the cascade should extend. The 3 i
 ### Implications
 
 1. **The 12 (SM fermion count) is distributed across ALL D**:
-   - ∫_D (12/2^(D-2)) dD = 24 (total content if integrated over D)
+   - ∫_D (12/2^{D-2}) dD = 24 (total content if integrated over D)
    - Or finite sum if D is bounded
    - The "12" at each level is a fraction of the total
 
@@ -15798,7 +15798,7 @@ The framework claims dimension invariance, so the cascade should extend. The 3 i
 
 ### What L308bk Preserves
 
-- **L308ba (halving rule)**: Still valid (12/2^(D-2))
+- **L308ba (halving rule)**: Still valid (12/2^{D-2})
 - **L308bj (spinor dim doubling)**: Still valid (Bott periodicity)
 - **L308bi (Option B Strengthened)**: Still first-principles
 - **L308bh (C(6) SM algebra)**: Still first-principles for $N_{3+1D}$ = 6
@@ -17490,7 +17490,7 @@ SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling
 **NEW: Cascade is dimension-invariant (L308bk).**
 - SIDC: 3 integer-N brane levels (2D, 3+1D, 4D) + infinite fractional-N bulk levels
 - ADD/RS: Fixed number of extra dimensions (1, 2, ..., n)
-- SIDC's cascade extends to ALL D, with halving rule $N_D$ = 12/2^(D-2) via Bott periodicity
+- SIDC's cascade extends to ALL D, with halving rule $N_D$ = 12/2^{D-2} via Bott periodicity
 
 **Quantitative comparison:**
 
@@ -17703,7 +17703,7 @@ A defining feature of SIDC after v3.5.9+ A2 is that the framework's structural n
 | $N=12$ (2D) | Standard Model fermion count (3 generations × 4 Weyl) | L308n, structural |
 | $N=6$ (3+1D) | C(6) minimal ideal = 1 SM generation (Stoica 2018) | L308bh, BREAKTHROUGH |
 | $N=3$ (4D) | 3 generations × 1 (Majorana-Weyl dim at 4D) | L308bi, structural |
-| $N_D$ = 12/2^(D-2) | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
+| $N_D$ = 12/2^{D-2} | Bott periodicity (real spinor dim doubling) | L308bj, first-principles |
 
 **What this means for competitors:**
 - ΛCDM: $\Omega_{\rm c}$, Ω_Λ, $N_{\rm eff}$, A_s, n_s, $\tau_{\rm reio}$, etc. are all FREE parameters (~6)

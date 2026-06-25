@@ -1476,7 +1476,7 @@ This section REVISES the Lagrangian with three A2-era corrections and ONE new st
 
 #### 3.68.2 The Dim-Specific α Pattern (L308ba, USER-DISCOVERED)
 
-The three framework A2 dim-specific α values match ** $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2)**:
+The three framework A2 dim-specific α values match ** $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^{D-2}**:
 
 ```
 $\alpha_{\rm 2D} = 1 + 1/\sqrt{12} = \mathbf{1.2887}$   ✓ (Schwarzian N=12 SYK, FIRST-PRINCIPLES)
@@ -1484,7 +1484,7 @@ $\alpha_{\rm 3+1D} = 1 + 1/\sqrt{6} = \mathbf{1.4082}$   ✓ (matches framework 
 $\alpha_{\rm 4D} = 1 + 1/\sqrt{3} = \mathbf{1.5774}$   ✓ (matches framework 1.577)
 ```
 
-The halving rule: ** $N_D$ = 12/2^(D-2)** — divide N by 2 for each dimension up. Going to 5D would give $N_{\rm 5D}$ = 1.5 (non-integer), confirming no 5D level exists. The cascade TERMINATES at 4D (eternal substrate) and 2D (terminal quantum gravity floor).
+The halving rule: ** $N_D$ = 12/2^{D-2}** — divide N by 2 for each dimension up. Going to 5D would give $N_{\rm 5D}$ = 1.5 (non-integer), confirming no 5D level exists. The cascade TERMINATES at 4D (eternal substrate) and 2D (terminal quantum gravity floor).
 
 **Honest framing**: $N_{\rm 2D}$ = 12 IS first-principles derived (3 generations × 4 Weyl fermions, L308r). $N_{3+1D}$ = 6 and $N_{\rm 4D}$ = 3 are INFERRED from α values, not first-principles derived. The PATTERN is structurally tight (matches within 0.01%) but the deeper origin is OPEN.
 
@@ -1612,14 +1612,14 @@ m DE,closed}$ = $1.79 \times 10^{-90}$, ε = $6.32 \times 10^{-34}$, $\gamma_{\r
 It does NOT:
 - ✗ Derive $\alpha_{\rm 3+1D}$ = 1.408 from first principles (inferred from α value, L308ba)
 - ✗ Derive $\alpha_{4D}$ = 1.577 from first principles (inferred from α value, L308ba)
-- ✗ Explain WHY the halving rule $N_D$ = 12/2^(D-2) holds (pattern, not derivation)
+- ✗ Explain WHY the halving rule $N_D$ = 12/2^{D-2} holds (pattern, not derivation)
 - ✗ Replace the L116 audit (L120 was 73%; revised Lagrangian should be re-audited)
 
 #### 3.68.7 Net Improvements Over §3.67
 
 | Aspect | §3.67 (L116) | §3.68 (NEW) | Source |
 |--------|---------------|-------------|--------|
-| α (scaling law) | α = 1.289 (universal) | $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) | L308ba |
+| α (scaling law) | α = 1.289 (universal) | $\alpha_{\rm D}$ = 1 + 1/√(12/2^{D-2}) | L308ba |
 | $f_{\rm DE}$ formula | $f_{\rm back}$ ≈ 10⁻⁸⁵ | $f_{
 m DE,closed}$ = $1.79 \times 10^{-90}$| L308av |
 | Projection sign | ± $g_{\rm couple}$ (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
@@ -1630,7 +1630,7 @@ m leak,2D}$→3D, $f_{\rm leak,3D→4D}$ | L308ax |
 | 2D universe lifetime | (E/ $M_{\rm Pl,3D}$)^α × $t_{\rm Pl}$ | $(E/M_{\rm Pl,parent})^{\alpha}$_D × $t_{\rm Pl}$,parent (dim-specific) | L308ba |
 | DM picture | pulsed death + ε × ρ | pulsed death + $f_{\rm leak,3D→4D}$ × $\rho_{\rm DM}$ (bilateral) | L308ax |
 | Mirror plane | not encoded | S_mirror term explicit | L308az |
-| Halving rule | unknown | $N_D$ = 12/2^(D-2) identified | L308ba |
+| Halving rule | unknown | $N_D$ = 12/2^{D-2} identified | L308ba |
 
 #### 3.68.8 What This Closes
 
@@ -1680,7 +1680,7 @@ m DE,closed}$ = $1.79 \times 10^{-90}$, ε = $6.32 \times 10^{-34}$) give EXACT 
 
 #### 3.69.2 Halving Rule Deeper Analysis (L308bb)
 
-L308ba identified $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
+L308ba identified $\alpha_{\rm D}$ = 1 + 1/√(12/2^{D-2}) with $N_D$ = {12, 6, 3}. The $N_D$ values have multiple possible physical interpretations:
 
 ** $N_{\rm 2D}$ = 12 (FIRST-PRINCIPLES derived, L308r):**
 - 3 generations × 4 Weyl fermions (SM backbone)
@@ -1800,9 +1800,9 @@ The chain: **12 Majorana = 6 Weyl = 3 4-comp Majorana** (in 2D / 3+1D / 4D)
 
 #### 3.70.2 Equivalence to Halving Rule
 
-The L308ba halving rule $N_D$ = 12/2^(D-2) and L308bc DOF conservation are EQUIVALENT:
-- Halving: $N_D$ = 12/2^(D-2)
-- Conservation: $N_D$ × 2^(D-2) = 12
+The L308ba halving rule $N_D$ = 12/2^{D-2} and L308bc DOF conservation are EQUIVALENT:
+- Halving: $N_D$ = 12/2^{D-2}
+- Conservation: $N_D$ × 2^{D-2} = 12
 
 Same math, two interpretations. The cascade has a "fermion DOF budget" of 12, and each level packages them into spinors appropriate to that dimension.
 
@@ -1933,7 +1933,7 @@ Level   | N    | Clifford Structure                  | First-principles
 4D      | 3    | 3 generations (real 4-comp)         | ✓ (Clifford/McKay/cobordism)
 ```
 
-The halving rule $N_D$ = 12/2^(D-2) now has structural explanation:
+The halving rule $N_D$ = 12/2^{D-2} now has structural explanation:
 - 12 = 3 generations × 4 Weyl (full SM content)
 - 6 = 1 generation via C(6) (SM algebra, Stoica 2018)
 - 3 = 3 generations (most reduced structure)
@@ -1968,7 +1968,7 @@ The switch is interpretive (justification), not numerical (re-calibration).
 
 #### 3.71.9 What Remains Open
 
-- **Halving rule first-principles**: WHY does $N_D$ = 12/2^(D-2)? The Clifford algebra connection is suggestive but deeper origin is open
+- **Halving rule first-principles**: WHY does $N_D$ = 12/2^{D-2}? The Clifford algebra connection is suggestive but deeper origin is open
 - **Schwarzian at higher D**: Structural analogs exist (quaternionic 4D, Clifford higher-dim), but no derivation of $N=3$ or 6 from Schwarzian
 - **Connection to bulk field theory**: How does the C(6) structure relate to bulk fields?
 
@@ -2022,7 +2022,7 @@ The Lagrangian rests on three pillars:
 
 **Pillar 1: α Dim-Specific (L308ba)**
 ```
-α_D = 1 + 1/√N_D with N_D = 12/2^(D-2)
+α_D = 1 + 1/√N_D with N_D = 12/2^{D-2}
 $\alpha_{\rm 2D} = 1.289$, $\alpha_{\rm 3+1D} = 1.408$, $\alpha_{\rm 4D} = 1.577$
 ```
 The halving rule: divide N by 2 for each dimension up. Matches all three α values to <0.01%. First-principles via Bott periodicity + Clifford algebra structure.
@@ -2202,7 +2202,7 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 
 **2. L308bj: Halving rule via Bott periodicity**
 - Closes: "Why the halving rule itself?"
-- Mechanism: 2^(D-2) = real spinor dim at Lorentzian dim D
+- Mechanism: 2^{D-2} = real spinor dim at Lorentzian dim D
 - Status: CLOSED — halving rule has first-principles
 
 **3. L308bi: Option B Strengthened**
