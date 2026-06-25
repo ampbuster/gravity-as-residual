@@ -16,7 +16,7 @@
 | Parameter | Value | Purpose | Source |
 |-----------|-------|---------|--------|
 | μ (bulk AdS curvature) | ? | Sets the bulk-brane coupling $\epsilon = e^{-kL}$ (RS-II mechanism) | Free (open) |
-| $m_{3+1D}$ (induced Planck scale) | ∼ 10¹⁹ GeV | Effective 3+1D Planck mass from bulk geometry | Brane-world framework |
+| $m_{3+1D}$ (induced Planck scale) | $\sim 10^{19}\,\text{GeV}$ | Effective 3+1D Planck mass from bulk geometry | Brane-world framework |
 
 **Note (HISTORICAL v2.7-v3.0 context):** In v2.7, SIDC had **2 free parameters** ( μ, $m_{3+1D}$) parameterizing the bulk geometry (RS-II). They followed from the cascade structure plus the bulk. **CURRENT (v3.5.9+ A2):** The framework has **15 parameters** total: 1 MEASURED ( $M_{\rm Pl,3D}$), 3 FIRST-PRINCIPLES ( α, $M_{\rm Pl,2D}$, μ) [ $N=12$ STRUCTURAL per L308ag], 2 DERIVED ( $M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ( ε, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}=H_0$), 4 STRUCTURAL ( $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ per L308ag), 1 FREE ( $N_{\rm sub}$, event-specific).
 
@@ -50,7 +50,7 @@
 |----------|-------|--------|
 | 5/27/68 split | 0.05/0.27/0.68 | Planck 2018 |
 | H₀ | 67.4 km/s/Mpc | Planck 2018 |
-| $E_{SN}$ (kinetic) | 10⁴⁴ J | Standard CCSN model |
+| $E_{SN}$ (kinetic) | $10^{44}\,\text{J}$ | Standard CCSN model |
 | Ωₘ, $\Omega_{\rm b}$, Ω_Λ | 0.315, 0.049, 0.685 | Planck 2018 |
 | g₊ (MOND accel) | $1.2 \times 10^{-10}\,\text{m/s}^2$ | SPARC RAR fit (adopted in SIDC-MOND hybrid) |
 
@@ -61,7 +61,7 @@
 | $M_{\rm Pl,4}$ floor | ≥ 887 GeV | From $T_{3D}' \geq 13.8$ Gyr + SIDC's $T_{3D} = 2 \times 10^{26}$ yr |
 | $f_{primordial}$ (efficiency) |∼ 10⁻⁴⁹ | From $\rho_{DM,primordial} / \rho_{4D}$ (data + SIDC framework) |
 | $H_{0,4D}$ (geometric mean) | 70.16 km/s/Mpc | From $\sqrt{H_{CMB} \times H_{local}}$ |
-| $\tau_{\rm 4D}$ (4D event duration) | ∼ 10²⁸ yr | From Padmanabhan equipartition (§3.8.2) |
+| $\tau_{\rm 4D}$ (4D event duration) | $\sim 10^{28}\,\text{yr}$ | From Padmanabhan equipartition (§3.8.2) |
 ### What this Glossary is NOT
 
 This is not a derivation. **(HISTORICAL v2.7-v3.0):** SIDC had 2 free parameters ( μ, $m_{3+1D}$) in the bulk geometry. **(CURRENT v3.5.9+ A2):** μ is now FIRST-PRINCIPLES (L308r, $\mu = M_{\rm Pl,2D}^2$); see full hierarchy above.
@@ -136,8 +136,8 @@ The *principled* threshold: $\rho_{crit}$ corresponds to an event energy of roug
 - The "faucet is open, but the pressure is too low to trigger the dimensional punch"
 - Solar-system-scale events (flares, CMEs): $E \sim 10^{23-28}$ J, BELOW $\rho_{crit}$
 - AGC 114905 SF regions: $E \sim 10^{28-32}$ J, AT OR BELOW $\rho_{crit}$
-- Super novae: E ∼ 10⁴⁴ J, ABOVE $\rho_{crit}$
-- AGN outbursts: E ∼ 10⁴⁵ J, ABOVE $\rho_{crit}$
+- Super novae: $E \sim 10^{44}\,\text{J}$, ABOVE $\rho_{crit}$
+- AGN outbursts: $E \sim 10^{45}\,\text{J}$, ABOVE $\rho_{crit}$
 - ICM shocks: $E \sim 10^{44-48}$ J integrated, ABOVE $\rho_{crit}$
 
 *Consistency with all observations:*
@@ -168,11 +168,11 @@ The phase-transition principle is **testable** with stellar population synthesis
 
 *Quantitative budget:*
 
-- **MW stellar nucleosynthesis energy over 10 Gyr**: ∼ 10⁵⁵ J (0.7% mass fraction × stellar mass)
+- **MW stellar nucleosynthesis energy over 10 Gyr**: $\sim 10^{55}\,\text{J}$ (0.7% mass fraction $\times$ stellar mass)
 - **MW "DM" energy ( $M_{\rm DM} \times c^2$)**: ∼ $1.8 \times 10^{59}\,\text{J}$ (critical density × volume)
 - **Required fraction of stellar energy in 2D universes**: ~0.2% (to produce observed DM density)
 - **Total energetic events per MW (SN + nucleosynthesis + AGN)**: ∼ 10⁵⁸ events (over 10 Gyr)
-- **Energy in 2D universe per event**: ∼ 10²-- 10⁵ eV (0.2% of typical event energy)
+- **Energy in 2D universe per event**: $\sim 10^{2}$--$10^{5}\,\text{eV}$ (0.2% of typical event energy)
 
 *The geometric interpretation:* In SIDC's framework, the 27% DM is NOT "missing 27% of the universe's energy." It is the *geometric effect* of 2D universes' back-projected gravity on 3+1D spacetime. The 68% DE is similarly the *geometric effect* of the 4D event's antigravity. Only ~5.2% of the universe's effective density is "real" energy in 3+1D (5% ordinary matter + 0.2% in 2D universes). The remaining 94.8% is *effective* density from geometric modifications to gravity.
 
@@ -425,7 +425,7 @@ The §2.5.1 action is a **starting skeleton, not a complete theory**. It has the
 3. **Death mechanism**: What causes $\tau_{2D} = L_{event}/c$? Is it brane tension, 2D gravity, 2D heat death, Big Crunch, or something else? NOT specified.
 4. ** $T^{DM}$ at death**: The spatial and temporal distribution of DM appearing at the 2D brane's death is NOT specified.
 5. **The 5/27/68 split**: NOT derived from the action. The numerical values are postulates, not outputs.
-6. **The SIDC-MOND hybrid g₊**: The action should derive $g_+$ ∼ 10⁻¹⁰ m/s² from first principles, but does NOT.
+6. **The SIDC-MOND hybrid g₊**: The action should derive $g_+ \sim 10^{-10}\,\text{m/s}^2$ from first principles, but does NOT.
 
 *Honest structural issue: the action is "teleological."* The $S_{destruction}$ term includes $\delta(t - \tau_{2D})$ which references the *future* death of the 2D brane. This is mathematically acceptable (integrate over all time in the action), but conceptually weird — the action "knows" that 2D branes created at t=0 will die at $t = \tau_{2D}$. The proper resolution is the **in-in formalism (Schwinger-Keldysh CTP)**: the action has two time contours (forward for creation, backward for destruction), which is the standard way to handle particle creation/annihilation in QFT.
 
