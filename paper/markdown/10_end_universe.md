@@ -256,7 +256,7 @@ The SN and Core-collapse SN death signals are in LISA's band ( 10⁻⁴ to 1 Hz)
 
 **Quantitative $\Omega_{\rm GW}$ estimate (Phinney 2001 / Maggiore 2000):**
 
-For bursts of energy $E_{\rm GW}$ at rate $r_{\rm local}$ per m³ per s, each at frequency $f_{\rm obs}$ with lifetime $\tau_{2D}$, the spectral density at $f_{\rm obs}$ (delta function with bandwidth Δf ~ 1/ $\tau_{2D}$) is:
+For bursts of energy $E_{\rm GW}$ at rate $r_{\rm local}$ per m³ per s, each at frequency $f_{\rm obs}$ with lifetime $\tau_{\rm 2D}$, the spectral density at $f_{\rm obs}$ (delta function with bandwidth Δf ~ 1/ $\tau_{\rm 2D}$) is:
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
@@ -273,7 +273,7 @@ For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = 10⁴⁴ J, $
 
 **KEY FINDING (v2.7.3+):** SIDC's 2D-universe death GW background at 0.03 Hz is **FAR BELOW LISA's noise floor**, even with $\epsilon_{\rm GW}$ = 1 (100% of E_per_death radiated as GW). LISA's best sensitivity is $\Omega_{\rm GW} \sim 10^{-12}$ at ~3 mHz, while SIDC predicts $\Omega_{\rm GW} \sim 10^{-17}$ for SN deaths with $\epsilon_{\rm GW}$ = 1. SIDC's death GW is **NOT DETECTABLE BY LISA** for any reasonable $\epsilon_{\rm GW}$.
 
-**Caveat:** This analysis uses the *narrowband* assumption (delta-function bursts at $f_{\rm obs}$ = 1/ $\tau_{2D}$). For the *flat_lnf* model (energy spread uniformly in log-frequency), $\Omega_{\rm GW}$ is ~10× higher per dex, but still far below LISA's noise.
+**Caveat:** This analysis uses the *narrowband* assumption (delta-function bursts at $f_{\rm obs}$ = 1/ $\tau_{\rm 2D}$). For the *flat_lnf* model (energy spread uniformly in log-frequency), $\Omega_{\rm GW}$ is ~10× higher per dex, but still far below LISA's noise.
 
 **For higher-energy events (BNS, AGN), the predicted $\Omega_{\rm GW}$ is *larger*, but the death frequency is *lower* (below LISA's 10⁻⁴ Hz band):**
 
@@ -344,7 +344,7 @@ This section quantifies whether SIDC's death GW background can be detected by LI
 
 **Death GW background from SIDC (Phinney/Maggiore formula, narrowband model):**
 
-For a population of bursts at rate n_rate (per m³/s) with energy $E_{\rm GW}$ per burst and lifetime $\tau_{2D}$, each burst is a delta function with bandwidth Δf ~ 1/ $\tau_{2D}$. The spectral density at $f_{\rm obs}$ = 1/ $\tau_{2D}$ is:
+For a population of bursts at rate n_rate (per m³/s) with energy $E_{\rm GW}$ per burst and lifetime $\tau_{\rm 2D}$, each burst is a delta function with bandwidth Δf ~ 1/ $\tau_{\rm 2D}$. The spectral density at $f_{\rm obs}$ = 1/ $\tau_{\rm 2D}$ is:
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
@@ -396,11 +396,11 @@ SIDC's §10 is a *speculative extension* with clear, testable, falsifiable predi
 
 ### 10.18 α sensitivity analysis: how precisely is α = 1.29 constrained? (v2.7.9+)
 
-SIDC's energy-scaling rule $\tau_{2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl}$ with α = 1.29 is calibrated to ONE data point (the SN 33s lifetime at $E_{\rm SN}$ = 10⁴⁴ J). This section quantifies how sensitive SIDC's predictions are to α, and what precision of future observations would be required to falsify α = 1.29.
+SIDC's energy-scaling rule $\tau_{\rm 2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl}$ with α = 1.29 is calibrated to ONE data point (the SN 33s lifetime at $E_{\rm SN}$ = 10⁴⁴ J). This section quantifies how sensitive SIDC's predictions are to α, and what precision of future observations would be required to falsify α = 1.29.
 
-**Sensitivity of $\tau_{2D}$ predictions to α.** For SIDC's 2D universe lifetime formula, varying α in the range [1.0, 1.6] gives:
+**Sensitivity of $\tau_{\rm 2D}$ predictions to α.** For SIDC's 2D universe lifetime formula, varying α in the range [1.0, 1.6] gives:
 
-| α | $\tau_{2D}$(BNS) | $\tau_{2D}$(AGN) |
+| α | $\tau_{\rm 2D}$(BNS) | $\tau_{\rm 2D}$(AGN) |
 |---|-----------|-----------|
 | 1.00 | 1.0 × 10² yr | 1.0 × 10⁴ yr |
 | 1.20 | 7 × 10⁴ yr | 1.6 × 10⁷ yr |
@@ -408,9 +408,9 @@ SIDC's energy-scaling rule $\tau_{2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl}$ w
 | 1.40 | 4.2 × 10⁶ yr | 2.6 × 10⁹ yr |
 | 1.60 | 1.7 × 10⁸ yr | 5.2 × 10¹¹ yr |
 
-A change of Δ α = 0.20 gives a **factor of 10-100x** change in $\tau_{2D}$ predictions. A change of Δ α = 0.05 gives a **factor of 3** change. SIDC's predictions are most sensitive to α in the BNS, AGN, and high-energy event range, where small α changes produce large $\tau_{2D}$ differences.
+A change of Δ α = 0.20 gives a **factor of 10-100x** change in $\tau_{\rm 2D}$ predictions. A change of Δ α = 0.05 gives a **factor of 3** change. SIDC's predictions are most sensitive to α in the BNS, AGN, and high-energy event range, where small α changes produce large $\tau_{\rm 2D}$ differences.
 
-**Precision required for future BNS/AGN GW detection.** The GW frequency from 2D universe death is $f_{\rm GW}$ = 1/ $\tau_{2D}$ ∝ E^(- α). Taking the derivative:
+**Precision required for future BNS/AGN GW detection.** The GW frequency from 2D universe death is $f_{\rm GW}$ = 1/ $\tau_{\rm 2D}$ ∝ E^(- α). Taking the derivative:
 
 $$\Delta\alpha = \frac{\Delta f_{GW}}{f_{GW} \cdot \log(E/E_{SN})}$$
 

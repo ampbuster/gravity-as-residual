@@ -61,7 +61,7 @@
 | $M_{\rm Pl,4}$ floor | ≥ 887 GeV | From $T_{3D}' \geq 13.8$ Gyr + SIDC's $T_{3D} = 2 \times 10^{26}$ yr |
 | $f_{primordial}$ (efficiency) |∼ 10⁻⁴⁹ | From $\rho_{DM,primordial} / \rho_{4D}$ (data + SIDC framework) |
 | $H_{0,4D}$ (geometric mean) | 70.16 km/s/Mpc | From $\sqrt{H_{CMB} \times H_{local}}$ |
-| $\tau_{4D}$ (4D event duration) | ∼ 10²⁸ yr | From Padmanabhan equipartition (§3.8.2) |
+| $\tau_{\rm 4D}$ (4D event duration) | ∼ 10²⁸ yr | From Padmanabhan equipartition (§3.8.2) |
 ### What this Glossary is NOT
 
 This is not a derivation. **(HISTORICAL v2.7-v3.0):** SIDC had 2 free parameters ( μ, $m_{3+1D}$) in the bulk geometry. **(CURRENT v3.5.9+ A2):** μ is now FIRST-PRINCIPLES (L308r, $\mu = M_{\rm Pl,2D}^2$); see full hierarchy above.
@@ -209,7 +209,7 @@ This formalization resolves the "where does the energy come from" question: the 
 
 **A note on the quantitative balance.** The model does not currently specify the *proportionality constant* that determines how much gravitational contribution each 2D universe provides. The qualitative picture (compression amplifies cumulative effect) is well-motivated, but the *quantitative* value of the cumulative effect — whether it reaches 27% of the mass-energy budget, or some other fraction — depends on parameters that are not derived in this paper. The model is currently *underdetermined* in this respect: the cumulative effect could be tuned to match any value by adjusting the proportionality constant. The model's *qualitative* prediction (dark matter tracks energetic activity on galaxy scales) is robust to the choice of proportionality constant; the *quantitative* prediction (the exact dark matter density in a galaxy) is not. A specific implementation of the model would need to derive the proportionality constant from a particular geometry and bulk field content.
 
-**Order-of-magnitude estimate.** A rough dimensional argument can be made. If the *average* 2D universe lifetime in our frame is $\tau_{2D}$ (a function of the event's energy), and the *average* event rate per unit volume is R (weighted by event energy), then the *steady-state* number density of 2D universes "currently active" in our frame is:
+**Order-of-magnitude estimate.** A rough dimensional argument can be made. If the *average* 2D universe lifetime in our frame is $\tau_{\rm 2D}$ (a function of the event's energy), and the *average* event rate per unit volume is R (weighted by event energy), then the *steady-state* number density of 2D universes "currently active" in our frame is:
 
 $$n_{2D} \sim R \cdot \tau_{2D}$$
 
@@ -217,7 +217,7 @@ Each active 2D universe contributes some gravitational effect to our 3+1 dimensi
 
 $$\rho_{DM} \sim n_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$$
 
-where $E_{\rm 2D}$ is the characteristic energy of a 2D universe, and $(G_{2D}^{projected} / G_{4D})$ is the ratio of the projected 2D gravity to the native 4D gravity (a small number, by SIDC cancellation). The observed dark matter fraction of the universe's mass-energy budget is ~27%, which would constrain the product $R \cdot \tau_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$. The model does not currently derive this product from first principles, but the order of magnitude is *plausible*: in a typical galaxy, the event rate is R ∼ 10⁻² supernovae per year per galaxy (with smaller events at much higher rates), $\tau_{2D}$ for a supernova-scale event is∼ 33 s (per the dimensional time-dilation rule l/c with $\ell_{event} \sim 10^{10}$ m and c ∼ 3 × 10⁸ m/s), and $(G_{2D}^{projected} / G_{4D})$ is a small ratio set by the dimensional SIDC cancellation. The cumulative effect being of order the observed dark matter density is therefore *qualitatively* plausible, but a *quantitative* derivation is left to future work.
+where $E_{\rm 2D}$ is the characteristic energy of a 2D universe, and $(G_{2D}^{projected} / G_{4D})$ is the ratio of the projected 2D gravity to the native 4D gravity (a small number, by SIDC cancellation). The observed dark matter fraction of the universe's mass-energy budget is ~27%, which would constrain the product $R \cdot \tau_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$. The model does not currently derive this product from first principles, but the order of magnitude is *plausible*: in a typical galaxy, the event rate is R ∼ 10⁻² supernovae per year per galaxy (with smaller events at much higher rates), $\tau_{\rm 2D}$ for a supernova-scale event is∼ 33 s (per the dimensional time-dilation rule l/c with $\ell_{event} \sim 10^{10}$ m and c ∼ 3 × 10⁸ m/s), and $(G_{2D}^{projected} / G_{4D})$ is a small ratio set by the dimensional SIDC cancellation. The cumulative effect being of order the observed dark matter density is therefore *qualitatively* plausible, but a *quantitative* derivation is left to future work.
 
 **Dimensional time-dilation rule.** The paper has assumed that a brief event in our 3+1 dimensional frame creates a complete cosmic history in the lower-dimensional universe, with a lifetime in our frame that scales with the event's spatial extent. The simplest dimensional rule is:
 
@@ -379,7 +379,7 @@ $$S_{destruction} = +\alpha \int d^4x \sqrt{-g}   T^{DM}_{\mu\nu}(x) \int d^2\si
 
 *Physical interpretation:*
 - $S_{creation}$: at a 3+1D energetic event, a 2D brane (worldsheet) is created at the event's location. The 2D brane carries a fraction of the event's stress-energy.
-- $S_{destruction}$: at the 2D brane's death (after $\tau_{2D}$), the energy returns to 3+1D as dark matter.
+- $S_{destruction}$: at the 2D brane's death (after $\tau_{\rm 2D}$), the energy returns to 3+1D as dark matter.
 - α: SIDC's coupling constant, calibrated to match observed DM density.
 - $\eta^{\mu\nu}$: worldsheet metric that maps 3+1D stress-energy to 2D surface.
 - $\delta^{(4)}(x - X(\sigma))$: localizes the 2D brane at the 3+1D event.
@@ -400,7 +400,7 @@ Summing: $\int d^4x \nabla_\mu T^{total \mu\nu} = 0 + 0 + \int d^2\sigma \nabla_
 
 (by Stoke's theorem, the surface integral of a conserved 2D current is zero).
 
-**Total energy is conserved across the 3+1D bulk + 2D worldsheet system.** During the 2D brane's lifetime $\tau_{2D}$, the 3+1D bulk alone sees a deficit (the energy is "in" the 2D worldsheet). This is the standard brane-world hidden sector picture. The dimensional time-dilation lag is exactly the 2D brane's lifetime.
+**Total energy is conserved across the 3+1D bulk + 2D worldsheet system.** During the 2D brane's lifetime $\tau_{\rm 2D}$, the 3+1D bulk alone sees a deficit (the energy is "in" the 2D worldsheet). This is the standard brane-world hidden sector picture. The dimensional time-dilation lag is exactly the 2D brane's lifetime.
 
 *The* $\tau_{2D} = L_{event}/c$ *postulate:*
 
@@ -465,7 +465,7 @@ Where $G_{++}$ is the time-ordered (Feynman) propagator for the brane's lifecycl
 
 **The previous "phase-transition principle" used a hard threshold.** The v2.3.0 formulation postulated a *step function* for 2D universe creation: events with E > $E_{\rm crit} \sim 10^{30}$ J create full 2D universes, events with E < $E_{\rm crit}$ create none. This step function was used to explain why the Sun has no DM, why AGC 114905 has no DM, and why KKR 25 does have DM (via cumulative return from past activity).
 
-**Problem with the step function.** SIDC *already has* a smooth energy-scaling rule for the 2D universe's lifetime: $\tau_{2D}$ = $t_{\rm Pl}$ × $(E/E_{\rm Pl})^{α}$ with α = 1.29 (calibrated to the SN 33s point, §10.1). The phase-transition principle's hard threshold $E_{\rm crit}$ is *inconsistent* with this energy-scaling rule — it's an additional, separate postulate that introduces a discontinuity at E = $E_{\rm crit}$. The hard threshold is *not derived* from SIDC's other principles; it's calibrated to data (a hidden free parameter, now removed in v2.7.5).
+**Problem with the step function.** SIDC *already has* a smooth energy-scaling rule for the 2D universe's lifetime: $\tau_{\rm 2D}$ = $t_{\rm Pl}$ × $(E/E_{\rm Pl})^{α}$ with α = 1.29 (calibrated to the SN 33s point, §10.1). The phase-transition principle's hard threshold $E_{\rm crit}$ is *inconsistent* with this energy-scaling rule — it's an additional, separate postulate that introduces a discontinuity at E = $E_{\rm crit}$. The hard threshold is *not derived* from SIDC's other principles; it's calibrated to data (a hidden free parameter, now removed in v2.7.5).
 
 **The smooth creation function.** SIDC's contribution to cumulative DM from a single event of energy E is:
 
@@ -687,7 +687,7 @@ These are three *different* numbers with three *different* sources. SIDC conflat
 - 5/27 inner split: DROPPED (was a separate postulate)
 - $f_{\rm active}$ ~ 0.05: phenomenological RAR fit, not derived
 
-**Honest v2.7.1 position:** SIDC is consistent with H₀ = 70 ± 3 and 5/27/68 (Planck 2018), but it does NOT derive these values. The 5% baryon fraction is observational; the 27% DM is observed; SIDC INTERPRETS the 27% as cumulative 2D universe back-projection, but the specific 2D universe parameters ( $m_{\rm 2D}$, e^{-ky}, $\tau_{2D}$) are free postulates. The "three 5%" coincidence was a confusion that has been resolved by dropping the 5:27 inner split derivation.
+**Honest v2.7.1 position:** SIDC is consistent with H₀ = 70 ± 3 and 5/27/68 (Planck 2018), but it does NOT derive these values. The 5% baryon fraction is observational; the 27% DM is observed; SIDC INTERPRETS the 27% as cumulative 2D universe back-projection, but the specific 2D universe parameters ( $m_{\rm 2D}$, e^{-ky}, $\tau_{\rm 2D}$) are free postulates. The "three 5%" coincidence was a confusion that has been resolved by dropping the 5:27 inner split derivation.
 
 *Deriving the growth factor from 2D universe dynamics.* The above self-consistency picture uses the growth factor as a *postulate* in the 10⁵– 10¹⁰ range, with the *specific* value left unspecified. We can, however, *derive* the growth factor from the 2D universe's own Friedmann–Robertson–Walker (FRW) dynamics, using only the universal-split assumption and a physically reasonable 2D universe equation-of-state. This closes the limitation noted in the *A quantitative attempt at the DM calculation* paragraph above, by showing that the growth factor is *not* a free parameter of the model — it is a *consequence* of the 2D universe's own physics.
 
@@ -871,7 +871,7 @@ The model does *not* currently specify which of these is correct, but the *gravi
   - 68% DE = 4D event antigravity (geometric effect)
 - The 5/27 INNER SPLIT is DROPPED. The 27% is treated as the cumulative 2D universe effect without further breakdown into active/deaths.
 - $f_{\rm active}$ is a FREE PARAMETER, not derived.
-- SIDC's 5D framework (RS-II) provides the structure, but the specific 2D universe parameters ( $m_{\rm 2D}$, e^{-ky}, $\tau_{2D}$) are postulates.
+- SIDC's 5D framework (RS-II) provides the structure, but the specific 2D universe parameters ( $m_{\rm 2D}$, e^{-ky}, $\tau_{\rm 2D}$) are postulates.
 
 ### 2.6.1 Honest H₀ framework (v2.5)
 

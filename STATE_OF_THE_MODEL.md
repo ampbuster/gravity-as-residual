@@ -43,7 +43,7 @@ m DE,closed}$, ε recalibrated
 
 ## The Model in 1 Paragraph
 
-Our 3+1D universe is one of $N_{\rm sub} = 3.86×10²$ sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM), with $\tau_{\rm 4D} = 1.51×10³⁴ yr ($ DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ (A2: $\alpha_{4D}$=1.577) yr (time-dilated by $\gamma_{\rm 4D} = 1.10×10¹¹¹$ (A2: $\alpha_{4D}$=1.577), **DERIVED, LITERAL TIME DILATION**). The bilateral cascade has 1 MEASURED ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 3 FIRST-PRINCIPLES (α = 1+1/√12 [L308n], $M_{\rm Pl,2D}$ = 2.95 TeV = 12×$v_{\rm Higgs}$ [L308r], μ = 8.73×10⁶ GeV² [L308r]) [$N=12$ STRUCTURAL per L308ag; L308ap: 3 first-principles roles (INPUT + PREDICTION + CONFIRMATION)], 2 DERIVED ($M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-GM [L308v], $E_{\rm 4D}$ = 5×10⁷⁹ J = $N_{\rm sub}$ × $E_{\rm sub}$ [L308o]), 4 CALIBRATED (ε = 6.32×10⁻³⁴ [A2, was 10⁻³⁸ A1, +4.8 orders], $\tau_{\rm 4D} = 1.51×10³⁴ yr$, AGN rate = 10⁻¹⁵·⁵² /s, $f_{\rm leak,3D→4D}$ = H₀ = 2.18×10⁻¹⁸ /s [A1, L308ax frame-neutral name]), 4 STRUCTURAL ($E_{\rm sub}$ = 1.295×10⁷⁷ J = $E_{\rm 4D}$/$N_{\rm sub}$ per-sub-universe, $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ (A2: $\alpha_{4D}$=1.577) yr, $\gamma_{\rm 4D} = 1.10×10¹¹¹$ (A2: $\alpha_{4D}$=1.577), $N=12$ per L308ag), 1 FREE ($N_{\rm sub}$ = 3.86×10², specific to our universe's 4D event) = 15 parameters total. **Approach A1 (v3.5.9+)**: $f_{\rm leak}$ = H₀ as NEW principle (post-Friedmann), $\gamma_{4D}$ stays derived (consistent with $\gamma_{2D}$ cascade amplification factor). DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age). The M^α law τ = (E/M_{\rm Pl},parent)^α × t_{\rm Pl} is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
+Our 3+1D universe is one of $N_{\rm sub} = 3.86×10²$ sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM), with $\tau_{\rm 4D} = 1.51×10³⁴ yr ($ DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ (A2: $\alpha_{4D}$=1.577) yr (time-dilated by $\gamma_{\rm 4D} = 1.10×10¹¹¹$ (A2: $\alpha_{4D}$=1.577), **DERIVED, LITERAL TIME DILATION**). The bilateral cascade has 1 MEASURED ($M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV), 3 FIRST-PRINCIPLES (α = 1+1/√12 [L308n], $M_{\rm Pl,2D}$ = 2.95 TeV = 12×$v_{\rm Higgs}$ [L308r], μ = 8.73×10⁶ GeV² [L308r]) [$N=12$ STRUCTURAL per L308ag; L308ap: 3 first-principles roles (INPUT + PREDICTION + CONFIRMATION)], 2 DERIVED ($M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-GM [L308v], $E_{\rm 4D}$ = 5×10⁷⁹ J = $N_{\rm sub}$ × $E_{\rm sub}$ [L308o]), 4 CALIBRATED (ε = 6.32×10⁻³⁴ [A2, was 10⁻³⁸ A1, +4.8 orders], $\tau_{\rm 4D} = 1.51×10³⁴ yr$, AGN rate = 10⁻¹⁵·⁵² /s, $f_{\rm leak,3D→4D}$ = H₀ = 2.18×10⁻¹⁸ /s [A1, L308ax frame-neutral name]), 4 STRUCTURAL ($E_{\rm sub}$ = 1.295×10⁷⁷ J = $E_{\rm 4D}$/$N_{\rm sub}$ per-sub-universe, $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ (A2: $\alpha_{4D}$=1.577) yr, $\gamma_{\rm 4D} = 1.10×10¹¹¹$ (A2: $\alpha_{4D}$=1.577), $N=12$ per L308ag), 1 FREE ($N_{\rm sub}$ = 3.86×10², specific to our universe's 4D event) = 15 parameters total. **Approach A1 (v3.5.9+)**: $f_{\rm leak}$ = H₀ as NEW principle (post-Friedmann), $\gamma_{\rm 4D}$ stays derived (consistent with $\gamma_{2D}$ cascade amplification factor). DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age). The M^α law τ = (E/M_{\rm Pl},parent)^α × t_{\rm Pl} is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
 ## The 15 Parameters (v3.5.9+ A2, current, REVISED L308z+L308aa+L308ag)
 
@@ -60,13 +60,13 @@ Our 3+1D universe is one of $N_{\rm sub} = 3.86×10²$ sub-universes created by 
 | 9 | AGN rate | 10⁻¹⁵·⁵² /s | **CALIBRATED** | 27% DM |
 | 10 | $f_{\rm leak,3D→4D}$ | 2.18×10⁻¹⁸ /s = H₀ | **CALIBRATED** | A1 NEW principle, L308ax frame-neutral name |
 | 11 | $E_{\rm sub}$ | 1.295×10⁷⁷ J | **STRUCTURAL** | per-sub-universe energy (= 7×10²⁹ M_sun) |
-| 12 | $\tau_{3D,apparent}$ | 1.66×10¹⁴⁵ yr (A2) | **STRUCTURAL** | $\gamma_{4D} × \tau_{4D}$ |
-| 13 | $\gamma_{4D}$ | 1.10×10¹¹¹ (A2) | **STRUCTURAL** | cascade amplification factor, consistent with $\gamma_{2D}$ |
+| 12 | $\tau_{\rm 3D,apparent}$ | 1.66×10¹⁴⁵ yr (A2) | **STRUCTURAL** | $\gamma_{4D} × \tau_{4D}$ |
+| 13 | $\gamma_{\rm 4D}$ | 1.10×10¹¹¹ (A2) | **STRUCTURAL** | cascade amplification factor, consistent with $\gamma_{2D}$ |
 | 14 | N = 12 | 12 (count) | **STRUCTURAL** | per L308ag downgrade (was FIRST-PRINCIPPLES via L308u; 5 suggestive interpretations, none rigorous) |
 | (ext) | $N_{\rm sub}$ | 3.86×10² | **FREE** | sub-universe count (event-specific) |
 | (ext) | $\gamma_{2D}$ | 5.5×10⁴⁴ (SN) | **STRUCTURAL** | cascade amplification factor at 2D level (L308aa) |
 
-**Summary** (v3.5.9+ A2): 1 MEASURED + 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 CALIBRATED (ε, $\tau_{4D}$, AGN rate, $f_{\rm leak,3D→4D}$) + 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$) + 1 FREE ($N_{\rm sub}$) + $\gamma_{2D}$ extension = **15 parameters** (1+3+2+4+4+1).
+**Summary** (v3.5.9+ A2): 1 MEASURED + 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 CALIBRATED (ε, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak,3D→4D}$) + 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$) + 1 FREE ($N_{\rm sub}$) + $\gamma_{2D}$ extension = **15 parameters** (1+3+2+4+4+1).
 
 **Note**: $M_{\rm Pl,2D}$ = 2.95 TeV gives μ = 8.73×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived). **v3.5.9+ A2**: $\gamma_{\rm 4D}$ stays derived (cascade amplification factor, consistent with $\gamma_{\rm 2D}$); $f_{\rm leak,3D→4D} = H_0$ is NEW calibrated principle; **$f \times \varepsilon$ = 1.13×10⁻¹²³ invariant** preserved; $kL$ = 76.4 (was 87.5 A1, ΔkL = -11.1).
 
@@ -189,7 +189,7 @@ m Pl,2D}$², L308r)
 - ✓ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 3.93×10²³ GeV (L308v, α-GM closed loop)
 - ✓ $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ = 386 × 1.295×10⁷⁷ = 5×10⁷⁹ J (L308o, energy conservation)
 - ✓ $\tau_{3D,apparent} = \gamma_{4D}$ × $\tau_{\rm 4D} = 1.66×10¹⁴⁵ yr ($ A2) (cascade amplification factor)
-- ✓ $\gamma_{4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ = 1.10×10¹¹¹ (A2) (cascade amplification factor, consistent with $\gamma_{2D}$)
+- ✓ $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ = 1.10×10¹¹¹ (A2) (cascade amplification factor, consistent with $\gamma_{2D}$)
 - ✓ $\gamma_{2D}$ = $(E_{\rm SN}/M_{\rm Pl,3D})^{α}$ = 5.5×10⁴⁴ (cascade amplification factor at 2D level, L308x v3)
 
 ## What's TESTABLE
@@ -270,7 +270,7 @@ m Pl,2D}$², L308r)
 **README.md** (v3.5.9+ A2, current):
 - v3.5.9+ APPROACH A1 banner, 15 parameters (was 9 in v3.5.7)
 - DE match: **0.13%** (simple $f_{\rm DE}$ formula, v3.3) — corrected from v3.1.2's 8.4%
-- $\gamma_{4D}$ stays DERIVED (cascade amplification factor, consistent with $\gamma_{2D}$)
+- $\gamma_{\rm 4D}$ stays DERIVED (cascade amplification factor, consistent with $\gamma_{2D}$)
 - $f_{\rm leak}$ = H₀ (NEW A1 principle, post-Friedmann)
 - $N_{\rm sub} = 386 ($ FREE event-specific, L308z)
 - F-theory 12D as 4D bulk (v3.4)

@@ -317,7 +317,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ## ⚠️ What this paper is NOT
 
 - **Not a finished theory**. It is a **thought experiment**.
-- **Not a derivation from first principles** (in the strict sense). The cascade **structure** (12, 6, 3 brane levels, Bott periodicity halving rule, Cℓ(6) SM algebra isomorphism) is end-to-end first-principles (L308ba-L308bk). The **quantitative values** (ε, $f_{\rm DE}$, $f_{\rm leak}$, $\tau_{4D}$, AGN rate) are still calibrated to observation, not derived. The framework is a *structural* first-principles theory, not a *quantitative* one.
+- **Not a derivation from first principles** (in the strict sense). The cascade **structure** (12, 6, 3 brane levels, Bott periodicity halving rule, Cℓ(6) SM algebra isomorphism) is end-to-end first-principles (L308ba-L308bk). The **quantitative values** (ε, $f_{\rm DE}$, $f_{\rm leak}$, $\tau_{\rm 4D}$, AGN rate) are still calibrated to observation, not derived. The framework is a *structural* first-principles theory, not a *quantitative* one.
 - **Not predictively unique**. SIDC has 0 unique testable predictions beyond ΛCDM and MOND. Its value is *interpretive* and *parsimonious*.
 - **Not written by a physicist**. By a software developer with AI assistance.
 

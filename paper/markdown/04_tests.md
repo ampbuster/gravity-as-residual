@@ -177,15 +177,15 @@ See `calculations/agn_host_dm_v2.py` and `calculations/agn_host_dm_v2_results.tx
 
 ### 4.35 $f_{\rm active}$ Derivation from 4D Event Dynamics (Tier 1 #2, v2.3.1) — REVERTED in v2.7.1
 
-The V1 status (commit 121) was that $f_{\rm active}$ was constrained to 0.05-0.18 by 3+1D data, with a 4× gap DOCUMENTED as Limitation 20. This V2 derives $f_{\rm active}$ from first principles using a 4D event energetics argument. **v2.7.1 update:** the identification $\tau_{2D} \sim 0.7$ Gyr (gas consumption timescale, Bigiel+ 2008, Kennicutt-Schmidt law) is a SEPARATE POSTULATE identified by physical analogy, not a first-principles derivation. The "derivation" $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ is REVERTED in v2.7.1: $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). The numerical coincidence (0.051 from the postulate matches 0.0513 from MCMC) is striking but does not constitute a derivation. Limitation 20 status: PARTIAL → REVERTED (see §7.0).
+The V1 status (commit 121) was that $f_{\rm active}$ was constrained to 0.05-0.18 by 3+1D data, with a 4× gap DOCUMENTED as Limitation 20. This V2 derives $f_{\rm active}$ from first principles using a 4D event energetics argument. **v2.7.1 update:** the identification $\tau_{2D} \sim 0.7$ Gyr (gas consumption timescale, Bigiel+ 2008, Kennicutt-Schmidt law) is a SEPARATE POSTULATE identified by physical analogy, not a first-principles derivation. The "derivation" $f_{\rm active}$ = $\tau_{\rm 2D}$ / $T_{\rm universe}$ is REVERTED in v2.7.1: $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). The numerical coincidence (0.051 from the postulate matches 0.0513 from MCMC) is striking but does not constitute a derivation. Limitation 20 status: PARTIAL → REVERTED (see §7.0).
 
 **The derivation:**
 
-For a 4D event with approximately constant output R(t) over the universe's lifetime $T_{\rm universe}$ = 13.8 Gyr, and a 2D universe lifetime $\tau_{2D}$:
+For a 4D event with approximately constant output R(t) over the universe's lifetime $T_{\rm universe}$ = 13.8 Gyr, and a 2D universe lifetime $\tau_{\rm 2D}$:
 
 $$f_{active} = \frac{N_{active}}{N_{cumulative}} = \frac{R \cdot \tau_{2D}}{R \cdot T_{universe}} = \frac{\tau_{2D}}{T_{universe}}$$
 
-**Identifying $\tau_{2D}$:** The 2D universe's lifetime is set by its internal dynamics — the time for the 2D universe to consume its fuel and return energy to 3+1D via $S_{\rm destruction}$. By physical analogy with our universe's gas consumption timescale (Bigiel+ 2008, Kennicutt-Schmidt law): ** $\tau_{2D} \sim 0.7$ Gyr**.
+**Identifying $\tau_{\rm 2D}$:** The 2D universe's lifetime is set by its internal dynamics — the time for the 2D universe to consume its fuel and return energy to 3+1D via $S_{\rm destruction}$. By physical analogy with our universe's gas consumption timescale (Bigiel+ 2008, Kennicutt-Schmidt law): ** $\tau_{2D} \sim 0.7$ Gyr**.
 
 **Result:**
 $$f_{active} = \frac{0.7  Gyr}{13.8  Gyr} = 0.051$$
@@ -207,10 +207,10 @@ These are TWO DIFFERENT physical processes:
 
 Both are real, both are ~1-3 Gyr, but they're not the same. The "5% in three places" mystery (commit 121) is now explained: **gas consumption (0.7 Gyr) is the relevant LOCAL timescale, not the cosmic SFR peak (2.5 Gyr).**
 
-**Closed limitation (v2.3.1, REVERTED v2.7.1):** Limitation 20 ( $f_{\rm active}$ derivation limitation) was **CLOSED** by this derivation in v2.3.1. $f_{\rm active}$ was no longer a "fit" but a "derivation" from $\tau_{2D}$ / $T_{\rm universe}$, with $\tau_{2D}$ identified by physical analogy with gas consumption. **v2.7.1 update:** the identification $\tau_{2D} \sim 0.7$ Gyr is a SEPARATE POSTULATE, not a first-principles derivation. The "CLOSED" status is REVERTED in v2.7.1; $f_{\rm active}$ is a FREE PARAMETER (see §7.0 L20 and the §4.35 header).
+**Closed limitation (v2.3.1, REVERTED v2.7.1):** Limitation 20 ( $f_{\rm active}$ derivation limitation) was **CLOSED** by this derivation in v2.3.1. $f_{\rm active}$ was no longer a "fit" but a "derivation" from $\tau_{\rm 2D}$ / $T_{\rm universe}$, with $\tau_{\rm 2D}$ identified by physical analogy with gas consumption. **v2.7.1 update:** the identification $\tau_{2D} \sim 0.7$ Gyr is a SEPARATE POSTULATE, not a first-principles derivation. The "CLOSED" status is REVERTED in v2.7.1; $f_{\rm active}$ is a FREE PARAMETER (see §7.0 L20 and the §4.35 header).
 
 **Predictions of this derivation:**
-1. $f_{\rm active}$ should be **UNIVERSAL across galaxy types** ( $\tau_{2D}$ is a property of the 2D universe, not the host galaxy).
+1. $f_{\rm active}$ should be **UNIVERSAL across galaxy types** ( $\tau_{\rm 2D}$ is a property of the 2D universe, not the host galaxy).
 2. $f_{\rm active}$ should **NOT depend on host galaxy's specific SFR** (it's set by 2D universe physics, not by how many 2D universes are created).
 3. The 4× gap is a **FEATURE, not a bug**: it reflects the LOCAL vs GLOBAL distinction. This is a real, testable prediction of SIDC.
 
@@ -221,8 +221,8 @@ Both are real, both are ~1-3 Gyr, but they're not the same. The "5% in three pla
 
 **Honest caveats:**
 - The $\tau_{2D} \sim 0.7$ Gyr identification is by PHYSICAL ANALOGY (gas consumption in our universe → 2D universe lifetime), not a first-principles derivation.
-- A full Lagrangian would derive $\tau_{2D}$ from $L_{\rm 2D}$ (Limitation 26, "A full Lagrangian is the unfinished business of fundamental physics").
-- The "0.7 Gyr" is approximatelyimate; a more precise $\tau_{2D}$ would give a more precise $f_{\rm active}$.
+- A full Lagrangian would derive $\tau_{\rm 2D}$ from $L_{\rm 2D}$ (Limitation 26, "A full Lagrangian is the unfinished business of fundamental physics").
+- The "0.7 Gyr" is approximatelyimate; a more precise $\tau_{\rm 2D}$ would give a more precise $f_{\rm active}$.
 - But the **ORDER OF MAGNITUDE is right**, and the LOCAL vs GLOBAL distinction is a real, testable prediction.
 
 **Preliminary test of prediction #1 ( $f_{\rm active}$ universality across morphology).** A crude per-morphology test using SPARC (175 galaxies, Lelli+ 2016) and the empirical RAR shows $g_{\rm obs}$/ $g_{\rm bar}$ ratios:
@@ -339,7 +339,7 @@ where:
 - $S_{\rm 2D}$ = ∫ $d^{2\sigma}$ √(- γ) [(1/(2 $\kappa_{\rm 2}^2$))( R₂ - 2 $\Lambda_{\rm 2}$) + L_2D_matter] (per 2D universe)
 - S_tension = -∫ d⁴ x √(-g) $\sigma_{\rm brane}$ + -∑_i ∫ d² $\sigma_{\rm i}$ √(- $\gamma_{\rm i}$) $\sigma_{\rm 2D}$ (Israel junction)
 - S_creation = - α ∫ d⁴ x √(-g) $T_{\mu\nu}^{\rm SM}$(x) * ∑_i ∫ d² $\sigma_{\rm i}$ √(- $\gamma_{\rm i}$) $\eta^{\mu\nu}$ δ^(4)(x - Xᵢ( σ))
-- $S_{\rm destruction}$ = + α ∫ d⁴ x √(-g) $T_{\mu\nu}^{\rm DM}$(x) * ∑_i ∫ d² $\sigma_{\rm i}$ √(- $\gamma_{\rm i}$) $\eta^{\mu\nu}$ δ^(4)(x - Xᵢ( σ)) δ(t - $\tau_{2D}$)
+- $S_{\rm destruction}$ = + α ∫ d⁴ x √(-g) $T_{\mu\nu}^{\rm DM}$(x) * ∑_i ∫ d² $\sigma_{\rm i}$ √(- $\gamma_{\rm i}$) $\eta^{\mu\nu}$ δ^(4)(x - Xᵢ( σ)) δ(t - $\tau_{\rm 2D}$)
 
 **Key dynamical equations:**
 
@@ -352,7 +352,7 @@ where:
    where the ρ² term is the high-energy correction, $\Lambda_{\rm 4}$ is the brane CC, and E is dark radiation from the 5D Weyl tensor.
 
 3. **2D universe lifetime (from brane tension):**
-   $\tau_{2D}$ = L_event / c (postulate), but SIDC's $f_{\rm active}$ ~ 0.05 requires $\tau_{2D} \sim 0.7$ Gyr (gas consumption, see §4.35). Resolution: $\tau_{2D}$ is the 2D universe's MATTER consumption timescale, not its gravitational-collapse timescale.
+   $\tau_{\rm 2D}$ = L_event / c (postulate), but SIDC's $f_{\rm active}$ ~ 0.05 requires $\tau_{2D} \sim 0.7$ Gyr (gas consumption, see §4.35). Resolution: $\tau_{\rm 2D}$ is the 2D universe's MATTER consumption timescale, not its gravitational-collapse timescale.
 
 **Constraint check (10 SIDC constraints from §2.5.1):**
 
@@ -362,7 +362,7 @@ where:
 | 2 | Projection efficiency: 32% projected, 68% antigravity | ? OPEN: requires specific geometry |
 | 3 | Inner split: 5% direct, 27% cumulative 2D | ? OPEN: requires 2D lifetime analysis |
 | 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε ∼ 1 × 10⁻³⁸) |
-| 5 | $f_{\rm active}$ = 0.0513 ± 0.0073 | ? OPEN: requires $\tau_{2D}$/ $T_{\rm universe}$ (done in §4.35) |
+| 5 | $f_{\rm active}$ = 0.0513 ± 0.0073 | ? OPEN: requires $\tau_{\rm 2D}$/ $T_{\rm universe}$ (done in §4.35) |
 | 6 | Spatial distribution: isothermal cumulative | **[PASS]** SATISFIED (2D 1/r gravity gives isothermal) |
 | 7 | H₀ = 70 ± 3 (qualitative consistency) | ? OPEN: requires 2D CFT for specific value |
 | 8 | RAR shape: $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ | ? OPEN: requires back-projection analysis |
@@ -383,9 +383,9 @@ where:
 **What's still open:**
 1. Specific values of couplings ( α, $\sigma_{\rm brane}$, $\sigma_{\rm 2D}$, $\kappa_{\rm 2}$)
 2. The 2D universe's matter content L_2D_matter
-3. The 2D universe's lifetime $\tau_{2D}$ (the death mechanism)
+3. The 2D universe's lifetime $\tau_{\rm 2D}$ (the death mechanism)
 4. The 32%/68% split (depends on specific geometry)
-5. The 5%/27% inner split (depends on $\tau_{2D}$ dynamics)
+5. The 5%/27% inner split (depends on $\tau_{\rm 2D}$ dynamics)
 6. The H₀ = 70 ± 3 qualitative consistency (SIDC does not derive a specific H₀ value; see §2.6.1)
 7. The RAR shape (requires back-projection analysis)
 
@@ -428,7 +428,7 @@ Reverting to 2D=3+1D would require:
 
 **Q3: What gives $\tau_{2D} = 0.7$ Gyr?** YES, with fine-tuning.
 
-SIDC's $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ = 0.7/13.8 = 0.051 requires $\tau_{2D} = 0.7$ Gyr (the gas consumption timescale). This is **not arbitrary** — it's a specific timescale that can be matched by:
+SIDC's $f_{\rm active}$ = $\tau_{\rm 2D}$ / $T_{\rm universe}$ = 0.7/13.8 = 0.051 requires $\tau_{2D} = 0.7$ Gyr (the gas consumption timescale). This is **not arbitrary** — it's a specific timescale that can be matched by:
 - $M_{2D} \sim 1 \times 10^{46}$ J (2D universe's total energy)
 - L_consumption ∼ 1 × 10²⁸ W (2D universe's energy consumption rate)
 - → $\tau_{2D} = M_{2D}$ / L_consumption = 0.7 Gyr **[PASS]**
@@ -437,7 +437,7 @@ This is FINE-TUNED but achievable. It requires the 2D universe's internal dynami
 
 **Q4 (Q4 again): Can the 5/27 inner split emerge from dynamics?** NO, the 5/27 inner split was DROPPED in v2.7.1.
 
-The 5/27 inner split was previously claimed to be derivable from $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$:
+The 5/27 inner split was previously claimed to be derivable from $f_{\rm active}$ = $\tau_{\rm 2D}$ / $T_{\rm universe}$:
 - $\tau_{2D} = 0.7$ Gyr → $f_{\rm active}$ = 0.05 (gas consumption timescale, matches MCMC)
 - $\tau_{2D} = 2.5$ Gyr → $f_{\rm active}$ = 0.18 (cosmic SFR peak timescale, matches 5/27 ratio)
 
@@ -459,7 +459,7 @@ A 2D CFT calculation is needed to derive the specific active boost and cumulativ
 | 2 | α (bulk-brane coupling) | YES | α ~ 0.03-0.3 for f_split = 0.32 **[PASS]** |
 | 3 | Death mechanism | YES | $M_{2D} \sim 1 \times 10^{46}$ J, L_rate ∼ 1 × 10²⁸ W for $\tau_{2D} = 0.7$ Gyr **[PASS]** |
 | 4 | $T^D$ M at death (spatial) | NO | Requires picking a specific distribution (not derivable) |
-| 5 | 5/27/68 inner split | YES (resolved §4.35) | $f_{\rm active}$ = $\tau_{2D}$/ $T_{\rm universe}$ = 0.051 **[PASS]** |
+| 5 | 5/27/68 inner split | YES (resolved §4.35) | $f_{\rm active}$ = $\tau_{\rm 2D}$/ $T_{\rm universe}$ = 0.051 **[PASS]** |
 
 **Verdict:** Trial-and-error works for **3/5 parameters**. The remaining 2/5 ( $L_{\rm 2D}$ and $T^D$ M) require NEW PHYSICS to specify. This means:
 - SIDC's free parameters go from 5 to 3 effective free parameters
@@ -717,7 +717,7 @@ This is a **Neumann-Dirichlet hybrid boundary condition** (also called a *reflec
 - ** $J^A_{bulk} = 0$ at Σ** means: the bulk energy flux through the 3+1D brane hypersurface is *identically zero*. No energy leaks from the 3+1D brane into the AdS ₅ bulk, and no bulk energy leaks onto the 3+1D brane except via the fossil term $T_{\mu\nu}^{fossil}$.
 - **Israel junction condition** (Israel 1966): the jump in extrinsic curvature $K_{\mu\nu}$ across the brane is fixed by the brane-localized stress-energy. With $J^A_{bulk} = 0$, the junction is *geometrically locked*: the bulk channel is non-propagating for the $S_{destruction}$ payload, and the fossil's energy is *fully deposited* on the 3+1D brane.
 - **Physical meaning:** the 2D universe's death energy ( $S_{destruction} \sim 10^{45}$ J per event) is *not* allowed to leak into the bulk. 100% of it must return to 3+1D. This is the *staying fraction* $f_{back} = 1$ promoted from a postulate (v2.3.2) to a *derived consequence* of the BC (v2.4).
-- **What this BC eliminates:** the $f_{back}$ free parameter is now *derived* (set to 1 by the BC), not *postulated*. The free-parameter count in the v2.3.2 framework (5+) drops to 2-3 active parameters in v2.4 (the remaining are G₅, α, and the dimensional $\tau_{2D}$ postulate; see §4.44.1 Task 1 and the §4.44.2 framework comparison).
+- **What this BC eliminates:** the $f_{back}$ free parameter is now *derived* (set to 1 by the BC), not *postulated*. The free-parameter count in the v2.3.2 framework (5+) drops to 2-3 active parameters in v2.4 (the remaining are G₅, α, and the dimensional $\tau_{\rm 2D}$ postulate; see §4.44.1 Task 1 and the §4.44.2 framework comparison).
 - **What this BC requires:** the bulk AdS ₅ geometry must be *Z ₂-symmetric* across Σ (the standard Randall-Sundrum II / DGP assumption). A more general bulk geometry (e.g., a non-Z ₂ asymmetric warp) would require a *modified* BC, which is left to future work.
 - **Verification:** the $J^A_{bulk} = 0$ BC is implemented and verified in `calculations/verify_v24_refactor.py` Check A (Bianchi identity preserved under the BC) and Check B (parameter reduction achieved). See `supporting/T_tensor_v24_refactor.md` §3.1 for the full derivation.
 
@@ -803,10 +803,10 @@ with the four v2.4 modifications:
 | α | Free | Free (requires 2D expert) |
 | G₅ | Free | Free (requires bulk geometry) |
 | $L_{2D}$ | Free | Free (requires 2D expert) |
-| $\tau_{2D}$ | Postulated | Postulated (Gaussian width) |
+| $\tau_{\rm 2D}$ | Postulated | Postulated (Gaussian width) |
 | $f_{back}^{DE}$ | Postulated 10⁻⁸⁵ | **STILL POSTULATED** (different from $f_{back}^{destruction}$) |
 
-**Free parameters: 5+ → 2-3 active (counting only the destruction channel).** The remaining open parameters ( α, G₅, $L_{2D}$, $\tau_{2D}$, $f_{back}^{DE}$) are the **fundamental** parameters of SIDC\'s framework. The v2.4 refactor anchors the destruction channel as a boundary condition but does **not** derive the dark-energy staying fraction.
+**Free parameters: 5+ → 2-3 active (counting only the destruction channel).** The remaining open parameters ( α, G₅, $L_{2D}$, $\tau_{\rm 2D}$, $f_{back}^{DE}$) are the **fundamental** parameters of SIDC\'s framework. The v2.4 refactor anchors the destruction channel as a boundary condition but does **not** derive the dark-energy staying fraction.
 
 **Verification (per spec\'s Output Verification Rules):**
 
@@ -816,7 +816,7 @@ with the four v2.4 modifications:
 
 **Limitation updates:**
 
-- **Limitation 26 (full Lagrangian)**: PARTIALLY ADDRESSED (further). SIDC\'s framework is now a *structurally complete field theory framework specification* with explicit boundary conditions, type signatures, and continuous profiles. The remaining open work is the specific 2D matter content $L_{2D}$, the bulk AdS radius $R_{AdS₅}$, SIDC coupling α, and the death timescale $\tau_{2D}$.
+- **Limitation 26 (full Lagrangian)**: PARTIALLY ADDRESSED (further). SIDC\'s framework is now a *structurally complete field theory framework specification* with explicit boundary conditions, type signatures, and continuous profiles. The remaining open work is the specific 2D matter content $L_{2D}$, the bulk AdS radius $R_{AdS₅}$, SIDC coupling α, and the death timescale $\tau_{\rm 2D}$.
 
 **Honest framing.** The v2.4 refactor is a meaningful step forward in framework formalization. It does not close all limitations, but it does eliminate three of the v2.3.2 "free parameters" by recasting them as boundary conditions (Tasks 1, 4) or discrete choices (Task 2). The continuous instanton (Task 3) makes the death mechanism physical.
 
@@ -840,7 +840,7 @@ For reviewers who want a one-paragraph summary of what changed between v2.3.2 an
 |---------|--------|------|
 | Bulk channel | Postulated $f_{\rm back}$ = 1 | **DERIVED** as J_bulk = 0 BC |
 | 2D central charge c | Free parameter | **Discrete set** c ∈ Z≥1, default 1 |
-| 2D universe death | δ-function at τ = $\tau_{2D}$ | **Gaussian instanton** $a_{\rm 2D}$( τ) = a₀ exp(- τ²/ $\tau_{2D}$²) |
+| 2D universe death | δ-function at τ = $\tau_{\rm 2D}$ | **Gaussian instanton** $a_{\rm 2D}$( τ) = a₀ exp(- τ²/ $\tau_{\rm 2D}$²) |
 | 5/27 inner split | Free / fit | **Topological invariant** V_5/(A_4 $R_{\rm AdS}$) = 27/5 |
 | Free parameters | 5+ active | **2-3 active** |
 | Bianchi identity | Preserved (in $f_{\rm back}$ = 1 limit) | **Preserved** (in J_bulk = 0 BC) |
@@ -850,7 +850,7 @@ For reviewers who want a one-paragraph summary of what changed between v2.3.2 an
 1. ** α** (SIDC coupling): the bulk-brane coupling strength. Requires specific bulk-brane geometry to derive.
 2. ** G₅** (5D Newton's constant): related to the AdS radius R_AdS₅. Requires specific 5D bulk construction.
 3. ** $L_{\rm 2D}$** (2D matter content): the 2D universe's Lagrangian. Requires a 2D field theory expert.
-4. ** $\tau_{2D}$** (death timescale): the dimensional postulate $\tau_{2D}$ = L_event/c. Consistent but not derived.
+4. ** $\tau_{\rm 2D}$** (death timescale): the dimensional postulate $\tau_{\rm 2D}$ = L_event/c. Consistent but not derived.
 
 These 2-3 (or 4) parameters define the SPECIFIC SIDC model. Everything else is a boundary condition or a discrete choice.
 
@@ -860,7 +860,7 @@ The framework is now EXPRESSIBLE in standard form. To complete SIDC, the physici
 1. Pick $L_{\rm 2D}$ from a standard 2D CFT (e.g., c=1 minimal model, c=26 bosonic string, c=15/2 supersymmetric, etc.)
 2. Compute α from the bulk-brane junction conditions (Israel + Z2 symmetry)
 3. Derive G₅ from the specific AdS₅ geometry (RS-II gives G₅ ∼ 1/M_5^3 with M_5 ~ TeV)
-4. Verify $\tau_{2D}$ = L_event/c from the 2D CFT dynamics
+4. Verify $\tau_{\rm 2D}$ = L_event/c from the 2D CFT dynamics
 
 These are 4 well-posed sub-problems in brane-world + CFT physics. A specialist could solve them in ~6 months.
 
@@ -1035,9 +1035,9 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 2. The IMF Kroupa fraction (15% for M > 8 $M_\odot$) is a *standard* assumption, not SIDC-specific.
 3. The $E_{CCSN} = 10^{46}$ J per SN is a *standard* assumption (Nomoto+ 2006), not SIDC-specific.
 4. The $E_{crit} = 10^{30}$ J threshold for "phase-transition" events is a *postulate* of SIDC, calibrated to match the LMC SN 1987A event's energy (the lowest-energy event known to have created an observable 2D universe signature, per SIDC's narrative).
-5. The Gaussian instanton width $\tau_{2D}$ is a *free parameter* (dimensional postulate, see v2.4 framework, §4.44.1 Task 3). The emulator uses $\tau_{2D} = 0.7$ Gyr (gas consumption timescale, per §4.35).
+5. The Gaussian instanton width $\tau_{\rm 2D}$ is a *free parameter* (dimensional postulate, see v2.4 framework, §4.44.1 Task 3). The emulator uses $\tau_{2D} = 0.7$ Gyr (gas consumption timescale, per §4.35).
 
-**The bifurcation prediction is robust to all 5 of the above.** REVISED v2.7.33+: Reasonable variations of the IMF, $E_{CCSN}$, $E_{crit}$, and $\tau_{2D}$ preserve the *qualitative* 0.7-3× $M_{dyn}$/ M_{b} shift (was 219×) between AGC 114905 and KKR 25 (see `calculations/sidc_phenomenological_emulator.py` for sensitivity tests). The *absolute* $M_{dyn}$ values shift, but the *ratio* is preserved to within a factor of ~2.
+**The bifurcation prediction is robust to all 5 of the above.** REVISED v2.7.33+: Reasonable variations of the IMF, $E_{CCSN}$, $E_{crit}$, and $\tau_{\rm 2D}$ preserve the *qualitative* 0.7-3× $M_{dyn}$/ M_{b} shift (was 219×) between AGC 114905 and KKR 25 (see `calculations/sidc_phenomenological_emulator.py` for sensitivity tests). The *absolute* $M_{dyn}$ values shift, but the *ratio* is preserved to within a factor of ~2.
 
 **Engineering reproducibility.** A reviewer can reproduce this subsection in <2 minutes:
 ```
@@ -1140,7 +1140,7 @@ SIDC's `$f_{\rm active}$` parameter (fraction of DM from "current" 2D universe a
 - `calculations/rar_isothermal_universal.py`: `$f_{\rm active}$ = 0.05` (5%)
 - `calculations/rar_trial_factive.py`: best fit at 0.05
 - MCMC posterior (§4.42): 0.0513 ± 0.0073 ( 1σ)
-- Paper §4.35 derivation: 0.05 (gas consumption timescale, $\tau_{2D}$ / $T_{\rm universe}$)
+- Paper §4.35 derivation: 0.05 (gas consumption timescale, $\tau_{\rm 2D}$ / $T_{\rm universe}$)
 - Paper §2.6 *Hubble tension Mechanism A*: $f_{\rm active}$ ~ 0.3 (estimated)
 
 These values differ by 6× (0.05 vs 0.3). The paper tries to resolve this with §4.35's "LOCAL vs GLOBAL distinction" (gas consumption timescale vs cosmic SFR peak), but this resolution is post-hoc and not fully consistent.
@@ -1411,12 +1411,12 @@ These values differ by 6×, suggesting a real inconsistency.
 SIDC has been using the symbol `$f_{\rm active}$` for two DIFFERENT physical quantities:
 
 1. **`$f_{\rm active}$,stellar` (CURRENT active fraction, value 0.05):**
-   = $\tau_{2D}$ / $T_{\rm universe}$ = 0.7 Gyr / 13.8 Gyr = 0.051
+   = $\tau_{\rm 2D}$ / $T_{\rm universe}$ = 0.7 Gyr / 13.8 Gyr = 0.051
    = MCMC posterior value: 0.0513 ± 0.0073
    = gas consumption timescale
    = fraction of CURRENT DM that is from currently-alive 2D universes
    = the "5%" used in RAR fits and per-galaxy $g_+$ calculations
-   = derived from $\tau_{2D}$ (the 2D universe lifetime in 3+1D)
+   = derived from $\tau_{\rm 2D}$ (the 2D universe lifetime in 3+1D)
 
 2. **`$f_{\rm active}$,local` (LOCAL volume fraction, value 0.3):**
    = ratio of active 2D universe energy to total DM in a local ~50 Mpc volume
@@ -1448,7 +1448,7 @@ After renaming, the apparent 6× discrepancy is resolved. The two values (0.05 a
 **Numerical verification (`calculations/f_active_consistency.py`).**
 
 The calculation verifies:
-- `$f_{\rm active}$,stellar` = $\tau_{2D}$ / $T_{\rm universe}$ = 0.051 (consistent with MCMC 0.0513 ± 0.0073)
+- `$f_{\rm active}$,stellar` = $\tau_{\rm 2D}$ / $T_{\rm universe}$ = 0.051 (consistent with MCMC 0.0513 ± 0.0073)
 - `$f_{\rm active}$,integrated` = MCMC value = 0.0513 (same as $f_{\rm active}$,stellar)
 - `$f_{\rm active}$,local` = 0.3 (estimated in Mechanism A, different concept)
 

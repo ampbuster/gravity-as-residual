@@ -257,7 +257,7 @@ The total 2D universe death energy in 3+1D frame = $\Omega_{\rm DM}$ = 27%. This
 
 **3.23.5 Prediction 5: 2D universe death GW has specific time signature.**
 
-A single 2D universe death in 3+1D frame lasts $\tau_{2D}$_3+1D = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$. For SN events, this is 33s; for BNS, 4.3 × 10⁵ yr; for AGN, 1.6 × 10⁸ yr. The GW burst has a specific time profile.
+A single 2D universe death in 3+1D frame lasts $\tau_{\rm 2D}$_3+1D = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$. For SN events, this is 33s; for BNS, 4.3 × 10⁵ yr; for AGN, 1.6 × 10⁸ yr. The GW burst has a specific time profile.
 
 **3.23.6 Falsifiability.**
 
@@ -812,15 +812,15 @@ See `calculations/v27_desi_wz.py` for full calculations.
 ### 3.35 SIDC 2D universe death GW background (v2.7.48+, **LEGACY HISTORICAL** — pre-A1 framework)
 
 **Motivation**: SIDC's 2D universe death events release
-gravitational wave energy. The 2D universe lifetime $\tau_{2D}$ =
+gravitational wave energy. The 2D universe lifetime $\tau_{\rm 2D}$ =
 $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$ sets the GW frequency. This is potentially
 detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz- μHz band.
 
-**Energy scaling rule**: $\tau_{2D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$
+**Energy scaling rule**: $\tau_{\rm 2D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$
 
 **Frequencies for different events**:
 
-| Event | E (J) | $\tau_{2D}$ (s) | $f_{\rm 2D}$ (Hz) | Detector |
+| Event | E (J) | $\tau_{\rm 2D}$ (s) | $f_{\rm 2D}$ (Hz) | Detector |
 |-------|-------|----------|-----------|----------|
 | Core-collapse SN | 10⁴⁴ J | 33 s | 0.03 Hz | LISA |
 | Type Ia SN | 10⁴⁴ J | 33 s | 0.03 Hz | LISA |

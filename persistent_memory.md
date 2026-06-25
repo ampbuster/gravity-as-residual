@@ -43,7 +43,7 @@ m DE,closed}$, ε recalibrated, frame-neutral leak naming)
     - L308j: Cone extension to 9D/10D/12D NOT APPLICABLE (USER-DIRECTED)
     - L308k: Cone's true endpoint is 7D/8D, not 4D (USER-CORRECTED)
     - L308l: Cone has natural range n=1 to n≈17 (USER-DIRECTED)
-  - **L308m (MCMC BREAKTHROUGH)**: 4/9 params observationally pinned (α, ε, $\tau_{4D}$, AGN rate)
+  - **L308m (MCMC BREAKTHROUGH)**: 4/9 params observationally pinned (α, ε, $\tau_{\rm 4D}$, AGN rate)
   - **L308n (α FIRST-PRINCIPLES)**: α = 1+1/√12 = 1.2887 matches framework 1.289 within 0.025% (BREAKTHROUGH!)
   - **L43 (α first-principles): OPEN → PARTIAL** (was 0/9 first-principles, now 1/9)
   - **L308o ($N_{\rm sub}$ linear scaling)**: $N_{\rm sub}$ = $E_{\rm 4D}$/$E_{\rm sub}$ (USER-INSIGHT, 2026-06-20)
@@ -51,15 +51,15 @@ m DE,closed}$, ε recalibrated, frame-neutral leak naming)
   - **L308q (2D universe quantum)**: $M_{\rm 2D}$ is discrete, can't be split (USER-INSIGHT)
   - **§7.4.5-§7.4.15**: 11 new sections documenting all user-caught findings
 - **v3.5.9+: MATHEMATICAL AUDIT + PATH B + APPROACH A1** (June 21, 2026):
-  - User: "audit the formulas" → 3 inconsistencies found ($\gamma_{4D}$ formula, $\tau_{3D,apparent}$ units, M^α at 4D level)
+  - User: "audit the formulas" → 3 inconsistencies found ($\gamma_{\rm 4D}$ formula, $\tau_{\rm 3D,apparent}$ units, M^α at 4D level)
   - **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, μ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, $N_{\rm sub}$ = 3.86×10² — framework values UPDATED to consistent derivation. L26 → FULL CLOSURE.
   - **L308u (WHY $N=12$? BREAKTHROUGH)**: Appelquist 2001 PRL 87, 031801 — 3 generations from 6D anomaly cancellation. Unifies all five "12"s in cascade.
   - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs.
-  - **Path B2 (REJECTED)**: $\gamma_{4D}$ decoupling had structural inconsistency ($\gamma_{4D}$ "back-flow" vs $\gamma_{2D}$ "time dilation")
+  - **Path B2 (REJECTED)**: $\gamma_{\rm 4D}$ decoupling had structural inconsistency ($\gamma_{\rm 4D}$ "back-flow" vs $\gamma_{2D}$ "time dilation")
   - **APPROACH A1 (CURRENT, §7.4.20)**: $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
     - DM stable at 27% (steady state, $\tau_{\rm DM}$ = 14.5 Gyr ≈ universe age)
-    - $\gamma_{4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
-    - $\tau_{3D,apparent}$ = 1.66×10¹⁴⁵ (A2) yr (REINSTATED)
+    - $\gamma_{\rm 4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
+    - $\tau_{\rm 3D,apparent}$ = 1.66×10¹⁴⁵ (A2) yr (REINSTATED)
     - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - **L308w, L308x, L308y**: $f_{\rm leak}$ = H₀ principle, γ consistency, §3.67 coincidence
   - 140 limitations (was 139 pre-L308aa, was 138 pre-L308z, was 131 v3.5.8), 395 pages (was 398)
@@ -68,7 +68,7 @@ m DE,closed}$, ε recalibrated, frame-neutral leak naming)
   - **First-principles progress**: 0/9 → 1/9 (α derived!)
   - Tier 1 (4/9): observationally pinned, converge within 0.5σ
   - Tier 2 (1/9): $N_{\rm sub}$ (framework choice, weakly constrained)
-  - Tier 3 (4/9): derived ($M_{\rm Pl,4D}$, $\gamma_{4D}$, $E_{\rm 4D}$, AND $M_{\rm Pl,2D}$/μ via L308r closed loop)
+  - Tier 3 (4/9): derived ($M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$, AND $M_{\rm Pl,2D}$/μ via L308r closed loop)
   - **TIER 4 (NEW v3.5.9)**: FIRST-PRINCIPPLES DERIVED (4/9) — α (L308n), $M_{\rm Pl,2D}$ (L308r), μ (L308r), $N=12$ (L308u)
   - L138 ($M_{\rm Pl,4D}$ via α-GM): PARTIAL CLOSURE (L308v) — closed loop with all first-principles inputs
   - 11 new calculations, 1 new plot
@@ -93,7 +93,7 @@ m DE,closed}$, ε recalibrated, frame-neutral leak naming)
 m DE,closed}$ (LEGACY naming retired); ε recalibrated 1e-38 → 6.32e-34 (+4.8 orders); $kL$ recalibrated 87.5 → 76.4 (ΔkL = -11.1).
 - **$f \times \varepsilon$ = 1.13×10⁻¹²³ INVARIANT** preserved ($\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ in BOTH formulas).
 - **L308ag ($N=12$ downgrade)**: $N=12$ downgraded from FIRST-PRINCIPPLES → STRUCTURAL (L308u derivation was a 1-1 mapping, not a derivation). First-principles 4/9 → 3/9.
-- **A2 PARAMETER HIERARCHY**: 1 MEASURED + 3 FIRST-PRINCIPPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$) + 4 CALIBRATED (ε=6.32e-34, $\tau_{4D}$, AGN rate, $f_{\rm leak}$=H₀) + 1 FREE ($N_{\rm sub}$) = 15 parameters.
+- **A2 PARAMETER HIERARCHY**: 1 MEASURED + 3 FIRST-PRINCIPPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$) + 4 CALIBRATED (ε=6.32e-34, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$=H₀) + 1 FREE ($N_{\rm sub}$) = 15 parameters.
 
 **v3.5.9+ A2 L308af-ay + L308az (USER-DRIVEN, June 22)**: 14 new limitations (L308af-ay + new L308az geometric mirror plane insight), all awaiting master table update. **169 honest limitations** (144 master + 26 L308af-bl), 597 pages, 1.94 MB.
 
@@ -169,7 +169,7 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 **v3.3 bilateral cascade** (#14-22, ALL flows pulsed in own frame):
 - DE (DOWN, 4D→3+1D): continuous in 3D view, pulsed in 4D frame
 - DM (UP, 2D→3D): NONE continuous, 100% pulsed at 2D universe death
-- Matter at 3D death: NONE continuous, 100% pulsed → 4D at $\tau_{3D}$
+- Matter at 3D death: NONE continuous, 100% pulsed → 4D at $\tau_{\rm 3D}$
 - "Continuity" of DE is a 3D-frame artifact (we see a slice of 4D's pulsed life)
 
 **v3.3 KEY PARAMS** (CALIBRATED or DERIVED):
@@ -178,26 +178,26 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV (MEASURED, Newton's G)
 - $M_{\rm Pl,2D}$ = 2.95 TeV (Liouville μ = 8.73×10⁶ GeV²)
 - **$M_{\rm Pl,4D}$ = 3.93×10²³ GeV** (DERIVED: $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α), α-weighted GM, #32)
-- **$E_{\rm 4D}$ = 5×10⁷⁹ J** (universe-scale, M^α law with $M_{\rm Pl,4D}$ and $\tau_{4D}$, #33)
-- $\gamma_{4D}$ = 1.10×10¹¹¹ (A2) (was 1.29×10⁶⁴; L308t updated precision)
+- **$E_{\rm 4D}$ = 5×10⁷⁹ J** (universe-scale, M^α law with $M_{\rm Pl,4D}$ and $\tau_{\rm 4D}$, #33)
+- $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2) (was 1.29×10⁶⁴; L308t updated precision)
 - $\tau_{4D,proper}$ = 1.51×10³⁴ yr (calibrated to DE)
-- **$\tau_{3D,apparent}$ = 1.66×10¹⁴⁵ (A2) yr** (was 1.83×10⁹⁸, 5×10²⁷× longer; audit fixed units error 9.10×10²⁴ → 1.66×10¹⁴⁵ (A2))
+- **$\tau_{\rm 3D,apparent}$ = 1.66×10¹⁴⁵ (A2) yr** (was 1.83×10⁹⁸, 5×10²⁷× longer; audit fixed units error 9.10×10²⁴ → 1.66×10¹⁴⁵ (A2))
 
 **v3.5.8 FIRST-PRINCIPPLES STATUS** (UPDATED):
 - $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV — **MEASURED** ✓
 - **α = 1.289 — DERIVED (1+1/√12) ✓** (was CALIBRATED, BREAKTHROUGH L308n)
-- $\tau_{4D}$ = 1.51×10³⁴ yr — CALIBRATED to DE (MCMC converges 0.7σ)
+- $\tau_{\rm 4D}$ = 1.51×10³⁴ yr — CALIBRATED to DE (MCMC converges 0.7σ)
 - ε = 10⁻³⁸ — CALIBRATED to hierarchy (CC problem, MCMC 0.5σ)
 - AGN rate = 3×10⁻¹⁶ /m³/s — CALIBRATED to 27% DM (MCMC 0.1σ)
 - $M_{\rm Pl,2D}$ = 2.95 TeV — STRUCTURAL (12×$v_{\rm Higgs}$, 1.5% off)
 - **$N_{\rm sub}$ = 386 — FREE (event-specific, per L308z)** [was SEMI-DERIVED via L308o, but reframe: $N_{\rm sub}$ is the free parameter for our 4D event; $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ is then derived]
 - $M_{\rm Pl,4D}$ = 3.93×10²³ GeV — DERIVED via α-GM (circular consistency)
-- $E_{\rm 4D}$ = 5×10⁷⁹ J — DERIVED ($M_{\rm Pl,4D}$, $\tau_{4D}$)
+- $E_{\rm 4D}$ = 5×10⁷⁹ J — DERIVED ($M_{\rm Pl,4D}$, $\tau_{\rm 4D}$)
 
 **[A2 OVERRIDE, June 22, 2026 — see full A2 status block below for current values]:**
 - **ε: 10⁻³⁸ → 6.32×10⁻³⁴** (A2, +4.8 orders)
-- **$\gamma_{4D}$ formula fix**: was $(E_{\rm 4D}/M_{\rm Pl,4D})^{α}$ = 8.4×10¹⁰³, correct is $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ = 1.10×10¹¹¹
-- **$\tau_{3D,apparent}$: 9.10×10¹²⁴ → 1.66×10¹⁴⁵ yr** (A2, time dilation with corrected $\gamma_{4D}$)
+- **$\gamma_{\rm 4D}$ formula fix**: was $(E_{\rm 4D}/M_{\rm Pl,4D})^{α}$ = 8.4×10¹⁰³, correct is $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ = 1.10×10¹¹¹
+- **$\tau_{\rm 3D,apparent}$: 9.10×10¹²⁴ → 1.66×10¹⁴⁵ yr** (A2, time dilation with corrected $\gamma_{\rm 4D}$)
 - **$kL$: 87.5 → 76.4** (A2, ΔkL = -11.1)
 - **$N=12$: FIRST-PRINCIPPLES → STRUCTURAL** (L308ag downgrade, 1-1 mapping not derivation)
 - **$f_{\rm DE}$ FORMULAS (A2)**: $f_{
@@ -213,9 +213,9 @@ m leak,2D}$→3D and $f_{\rm leak,3D→4D}$** (L308ax frame-neutral naming, A2)
 - **Limitations: 133 → 158** (144 master + 14 L308af-az)
 
 **MCMC PARAMETER SEARCH** (L308m, v3.5.8):
-- Tier 1 (4/9 STRONGLY CONSTRAINED): α, ε, $\tau_{4D}$, AGN rate (converge within 0.5σ)
+- Tier 1 (4/9 STRONGLY CONSTRAINED): α, ε, $\tau_{\rm 4D}$, AGN rate (converge within 0.5σ)
 - Tier 2 (1/9 WEAKLY CONSTRAINED): $N_{\rm sub}$ (217 vs 386)
-- Tier 3 (4/9 DERIVED): $M_{\rm Pl,2D}$ (L308r, was calibrated), μ (L308r), $M_{\rm Pl,4D}$ (α-GM L308v), $\gamma_{4D}$, $E_{\rm 4D}$
+- Tier 3 (4/9 DERIVED): $M_{\rm Pl,2D}$ (L308r, was calibrated), μ (L308r), $M_{\rm Pl,4D}$ (α-GM L308v), $\gamma_{\rm 4D}$, $E_{\rm 4D}$
 - **TIER 4 (v3.5.9+)**: FIRST-PRINCIPPLES DERIVED (4/9): α (L308n), $M_{\rm Pl,2D}$ (L308r), μ (L308r), $N=12$ (L308u)
 
 **First-principles progress**: 0/9 → **1/9** (α = 1+1/√12 derived)
@@ -247,7 +247,7 @@ m leak,2D}$→3D and $f_{\rm leak,3D→4D}$** (L308ax frame-neutral naming, A2)
 - α^5 relation DROPPED (was empirical coincidence, wrong direction)
 
 **v3.3 CASCADE STATUS**:
-- DE matches obs within 0.13% (simple $f_{\rm DE}$ formula, near-exact via $\tau_{4D}$ calibration; was 8.4% with v3.1.2 Scenario X 887 GeV formula)
+- DE matches obs within 0.13% (simple $f_{\rm DE}$ formula, near-exact via $\tau_{\rm 4D}$ calibration; was 8.4% with v3.1.2 Scenario X 887 GeV formula)
 - DM matches obs exactly (calibrated AGN) ✓
 - Baryons match obs (BBNS) ✓
 - Total: 1.0 × $\rho_{\rm crit}$ ✓
@@ -301,7 +301,7 @@ m leak,2D}$→3D and $f_{\rm leak,3D→4D}$** (L308ax frame-neutral naming, A2)
 7. SM has 12 fermion FLAVORS across all 3 gens (NOT per gen)
 8. DOF conservation at 24 was framework's interpretation, NOT a law
 
-**v3.4.8 AGE IMPLICATIONS** (t_0/$\tau_{3D}$ = 1.5×10⁻¹⁵):
+**v3.4.8 AGE IMPLICATIONS** (t_0/$\tau_{\rm 3D}$ = 1.5×10⁻¹⁵):
 - Universe is at cosmic "day 1" (essentially)
 - SIDC is primarily an INITIAL-CONDITIONS framework
 - Long-term evolution is theoretical (untestable in 3D frame)
@@ -347,13 +347,13 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - This 4D antigravity **cancels** (1 - ε) of 3+1D's own gravity
   - ε = 10⁻³⁸ is the residual = gravity weakness (hierarchy, observed)
   - The un-cancelled fraction = DE = 10⁻¹²³ × M_Pl⁴ (cosmological CC, observed)
-- The 4D event is "practically eternal" from 3+1D frame ($\gamma_{4D}$ = 1.10×10¹¹¹ (A2), $\tau_{4D}$ = 1.51×10³⁴ yr apparent)
+- The 4D event is "practically eternal" from 3+1D frame ($\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2), $\tau_{\rm 4D}$ = 1.51×10³⁴ yr apparent)
 - **Universe age = 1.5×10⁻¹⁵ of lifetime** (we observe at cosmic "day 1", v3.4.8)
 - 3+1D leaks $f_{\rm back}$ = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α}$ ~ 10⁻⁸⁵ back to 4D during its lifetime (UNIVERSAL formula)
 - DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ (closed loop formula, matches obs within 0.13% simple $f_{\rm DE}$ / 2.7% full bilateral cascade)
 - **Bilateral cascade (v3.3)**: DE = time-dilated slice of 4D's pulsed life; DM = 100% pulsed at 2D universe death
 - In our universe, every energetic event (SNe, BH mergers, etc.) creates a 2D universe
-- 2D universe lives for $\tau_{2D}$ = (E/$E_{\rm Pl,3}$ D)^α × $t_{\rm Pl}$ (M^α law, 14 events, α = 1.289)
+- 2D universe lives for $\tau_{\rm 2D}$ = (E/$E_{\rm Pl,3}$ D)^α × $t_{\rm Pl}$ (M^α law, 14 events, α = 1.289)
 - 2D universe dies, **100% of energy returns to 3+1D as DM** (death return, not $f_{\rm back}$)
 - DM is cumulative 2D universe deaths (Σ $M_{\rm 2D}$ × N, calibrated AGN rate matches 27%)
 
@@ -373,7 +373,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - 2D lifetime (33s) is in 3+1D frame
 - 3+1D sub-universe lifetime (~10³⁰ yr) is in 3+1D's own frame
 - 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 1.10×10¹¹¹ (A2) (was 10⁶² in v3.1.2)
-- 4D event proper duration: T_4D_proper = $\tau_{4D}$ / γ ~ 10⁻²⁰ s
+- 4D event proper duration: T_4D_proper = $\tau_{\rm 4D}$ / γ ~ 10⁻²⁰ s
 
 **Universal closed-loop formula (v3.1.2-final):**
 - $f_{\rm back}$(N→N-1) = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ — universal at EVERY dimensional transition
@@ -423,8 +423,8 @@ $$f_{\rm back}(N \to N-1) = \left(\frac{M_{\rm Pl,N}}{E_{\rm event}}\right)^\alp
 | 4D bulk (parent) | 3.93×10²³ GeV | DERIVED (α-weighted GM, v3.3) | 5×10⁷⁹ J (4D event, universe-scale) | 1.51×10³⁴ yr (DE-calibrated) | 1.2×10⁻⁸⁵/s |
 
 **Closed-loop formula at every transition:**
-- For 2D→3D: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV, $E_{\rm SN}$ = 10⁴⁴ J, gives $f_{\rm DM,leak}$ = 1.6×10⁻⁴⁵/s, $\tau_{2D}$ = 33s ✓
-- For 3D→4D: $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, $E_{\rm 4D}$ = 5×10⁷⁹ J, gives $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s, $\tau_{4D}$ = 1.51×10³⁴ yr ✓
+- For 2D→3D: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV, $E_{\rm SN}$ = 10⁴⁴ J, gives $f_{\rm DM,leak}$ = 1.6×10⁻⁴⁵/s, $\tau_{\rm 2D}$ = 33s ✓
+- For 3D→4D: $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, $E_{\rm 4D}$ = 5×10⁷⁹ J, gives $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s, $\tau_{\rm 4D}$ = 1.51×10³⁴ yr ✓
 - The M^α law is the SAME formula at every level
 
 **DE matching (3D→4D):**
@@ -434,7 +434,7 @@ $$f_{\rm back}(N \to N-1) = \left(\frac{M_{\rm Pl,N}}{E_{\rm event}}\right)^\alp
 **Frame-of-reference clarification (v3.1.2-final):**
 - 2D lifetime (33s) is in 3+1D frame
 - 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 1.10×10¹¹¹ (A2) (was 10⁶² in v3.1.2)
-- 4D event proper duration: T_4D_proper = $\tau_{4D}$ / γ ~ 10⁻²⁰ s
+- 4D event proper duration: T_4D_proper = $\tau_{\rm 4D}$ / γ ~ 10⁻²⁰ s
 - 3+1D universe AGE: 13.8 Gyr (in 3+1D's own frame)
 - 3+1D universe LIFETIME: ~10³⁰ yr (in 3+1D's own frame, M^α with $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
 
@@ -451,8 +451,8 @@ The $f_{\rm back}$ formula gives the **CONTINUOUS back-flow FRACTION** over the 
 - continuous ($f_{\rm back}$) + pulsed (1 - $f_{\rm back}$) = 1.0 (total return)
 
 This is what makes DE and DM look so different despite the SAME underlying mechanism:
-- **2D→3D (SN)**: $\tau_{2D}$ = 30s (SHORT). Pulsed return (100% at death) **dominates by 10⁴⁵×** over continuous. The continuous $f_{\rm DM,leak}$ = 1.83×10⁻⁴⁵ is OBSERVATIONALLY NEGLIGIBLE. What we see: **DM = pulsed** (clumpy, matter-like).
-- **3D→4D**: $\tau_{4D}$ = 1.51×10³⁴ yr (LONG). Pulsed return is in the future. The continuous $f_{\rm DE}$ = 1.22×10⁻⁸⁵ is what we see NOW. What we observe: **DE = continuous** (smooth, vacuum-like).
+- **2D→3D (SN)**: $\tau_{\rm 2D}$ = 30s (SHORT). Pulsed return (100% at death) **dominates by 10⁴⁵×** over continuous. The continuous $f_{\rm DM,leak}$ = 1.83×10⁻⁴⁵ is OBSERVATIONALLY NEGLIGIBLE. What we see: **DM = pulsed** (clumpy, matter-like).
+- **3D→4D**: $\tau_{\rm 4D}$ = 1.51×10³⁴ yr (LONG). Pulsed return is in the future. The continuous $f_{\rm DE}$ = 1.22×10⁻⁸⁵ is what we see NOW. What we observe: **DE = continuous** (smooth, vacuum-like).
 
 **This is the unification in §3.70**: same closed-loop formula at every level, but the OBSERVABLE consequence differs by level because of the TIMESCALE:
 - Short lifetime → pulsed dominates → clumpy DM
@@ -464,13 +464,13 @@ This is what makes DE and DM look so different despite the SAME underlying mecha
   - Pulsed return: 10⁴⁴ J per SN at death (DM)
   - Ratio: pulsed/continuous = 5.5×10⁴⁴
 - 3D→4D: $f_{\rm DE}$ = 1.22×10⁻⁸⁵ (continuous fraction)
-  - Continuous return: 1.3×10⁻²⁶ J over $\tau_{4D}$
+  - Continuous return: 1.3×10⁻²⁶ J over $\tau_{\rm 4D}$
   - Pulsed return: 5×10⁷⁹ J at heat death (future, v3.3 universe-scale)
   - DE: $\rho_{\rm DE}$ = $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ = 2.7×10⁻⁴⁷ GeV⁴ (matches observed 2.4×10⁻⁴⁷ within 14%)
 
 **Evolution:**
-- v10: $f_{\rm back}$ = ($t_{\rm Pl}$/$\tau_{4D}) × (\tau_{\rm SN}/\tau_{\rm universe}$) × $(E_{\rm 4D}/E_{\rm SN})^{1/(2α}$) — REJECTED (required unjustified $\tau_{4D}$ = 1 × 10²⁸ yr)
-- v3.1.1-final: $f_{\rm back}$ = $t_{\rm Pl}$/$\tau_{4D}$ (single factor) — PARTIALLY RESOLVED
+- v10: $f_{\rm back}$ = ($t_{\rm Pl}$/$\tau_{4D}) × (\tau_{\rm SN}/\tau_{\rm universe}$) × $(E_{\rm 4D}/E_{\rm SN})^{1/(2α}$) — REJECTED (required unjustified $\tau_{\rm 4D}$ = 1 × 10²⁸ yr)
+- v3.1.1-final: $f_{\rm back}$ = $t_{\rm Pl}$/$\tau_{\rm 4D}$ (single factor) — PARTIALLY RESOLVED
 - v3.1.2-final: $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ universal at every level — RESOLVED
 
 ---
@@ -627,8 +627,8 @@ python3 paper/build_tools/cleanup_math.py --build  # cleanup + build
 
 **AGE = 1.5×10⁻¹⁵ OF LIFETIME (v3.4.8)**:
 - t_0 = 13.8 Gyr (observed)
-- $\tau_{3D}$ = 1.66×10¹⁴⁵ (A2) yr (M^α with $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
-- t_0/$\tau_{3D}$ = 1.5×10⁻¹⁵
+- $\tau_{\rm 3D}$ = 1.66×10¹⁴⁵ (A2) yr (M^α with $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
+- t_0/$\tau_{\rm 3D}$ = 1.5×10⁻¹⁵
 - SIDC is primarily an INITIAL-CONDITIONS framework
 - Long-term evolution is theoretical (untestable in 3D frame)
 - 4D event ends in 10⁻²⁰ s (4D frame) but 10³⁴ yr (3D frame)
@@ -919,7 +919,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 - **2D lifetime (33 s)** is in the 3+1D frame (apparent)
 - **3+1D sub-universe lifetime (~10³⁰ yr)** is in the 3+1D's OWN frame
 - **4D event apparent duration (1.51×10³⁴ yr)** is in the 3+1D frame, time-dilated from 4D proper time via γ = 1.10×10¹¹¹ (A2) (was 10⁶² in v3.1.2)
-- **4D event proper duration**: T_4D_proper = $\tau_{4D}$ / γ ~ 10⁻²⁰ s
+- **4D event proper duration**: T_4D_proper = $\tau_{\rm 4D}$ / γ ~ 10⁻²⁰ s
 - The 3+1D universe's current age (13.8 Gyr) is in the 3+1D's own frame
 
 ### Multi-universe picture (v3.1.2-final, USER-CORRECTED TWICE, v3.1.2-final: $N_{\rm sub}$ is FREE)
@@ -1088,7 +1088,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
    - 2D lifetime (33s) is in 3+1D frame
    - 3+1D sub-universe lifetime (~10³⁰ yr) is in 3+1D's own frame
    - 4D event apparent duration (1.51×10³⁴ yr) is in 3+1D frame, time-dilated from 4D proper time via γ = 1.10×10¹¹¹ (A2) (was 10⁶² in v3.1.2)
-   - 4D event proper duration: T_4D_proper = $\tau_{4D}$ / γ ~ 10⁻²⁰ s
+   - 4D event proper duration: T_4D_proper = $\tau_{\rm 4D}$ / γ ~ 10⁻²⁰ s
 
 3. **LEGACY CONTENT MOVED**:
    - calculations/legacy/: v31_scenario_B, v31_f_back_only_3d_to_4d, v31_proper_closed_loop, v31_F_p_consistency, v31_fp_z_derivation
@@ -1134,8 +1134,8 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 **KEY NEW INSIGHT (audit-clarified)**: $f_{\rm back}$ is the CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). They sum to 1.0.
 
 Why DE and DM look so different despite same mechanism:
-- 2D→3D (SN): $\tau_{2D}$ = 30s SHORT. Pulsed return (100% at death) DOMINATES by 10⁴⁵×. → DM is pulsed (clumpy)
-- 3D→4D: $\tau_{4D}$ = 10³⁴ yr LONG. Pulsed return is in the future. → DE is continuous (smooth)
+- 2D→3D (SN): $\tau_{\rm 2D}$ = 30s SHORT. Pulsed return (100% at death) DOMINATES by 10⁴⁵×. → DM is pulsed (clumpy)
+- 3D→4D: $\tau_{\rm 4D}$ = 10³⁴ yr LONG. Pulsed return is in the future. → DE is continuous (smooth)
 
 Files added:
 - calculations/v31_fback_both_levels.py (NEW, full audit at both levels)
@@ -1154,7 +1154,7 @@ Build: 354 pages (no change), commit 105a989.
 **Fixed**: all N_sub values updated in paper, limitations, persistent memory.
 
 Other findings (noted, not fixed):
-- $\tau_{2D}$ for SN: 29.6 s ($E_{\rm SN}$ = 10⁴⁴ J) vs paper's 33 s (10% off, paper's "11% match" is roughly right)
+- $\tau_{\rm 2D}$ for SN: 29.6 s ($E_{\rm SN}$ = 10⁴⁴ J) vs paper's 33 s (10% off, paper's "11% match" is roughly right)
 - $f_{\rm DE}$ = 1.2×10⁻⁸⁵ /s notation: technically wrong, this is dimensionless fraction not rate. Kept for backward compat.
 
 Files:
@@ -1184,7 +1184,7 @@ Build: 354 pages, commit f4328c8.
 ## 11. Things to NOT re-do
 
 - **Don't claim $f_{\rm DE}$ = 10⁻⁸⁵ is a derived physical fraction.** It's a calibration (= $\rho_{\rm DE}$ / (ε × M_Pl⁴)). See L138.
-- **Don't claim the closed loop closes numerically with v10 formula.** v10's formula was tuned ($\tau_{4D}$ = 1 × 10²⁸ yr, outside cone range). Use v3.1.2-final formula: $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ universal at every level. See L139.
+- **Don't claim the closed loop closes numerically with v10 formula.** v10's formula was tuned ($\tau_{\rm 4D}$ = 1 × 10²⁸ yr, outside cone range). Use v3.1.2-final formula: $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ universal at every level. See L139.
 - **Don't claim ε is derived.** It's observed (hierarchy problem). SIDC provides a geometric story but not a derivation. See L140.
 - **Don't claim $f_{\rm back}$ is the SAME VALUE at every level.** It's universal in FORM $(M_{\rm Pl}/E)^{α}$, but VALUES differ because $M_{\rm Pl,N}$ and $E_{\rm event}$ differ. 2D→3D = 1.83×10⁻⁴⁵ (audit), 3D→4D = 1.22×10⁻⁸⁵. See L141.
 - **Don't confuse $f_{\rm back}$ (continuous) with pulsed return.**$f_{\rm back}$ formula gives CONTINUOUS back-flow fraction. Pulsed return at death is 100% (universal). 2D→3D: pulsed dominates by 10⁴⁵× (DM is pulsed, not $f_{\rm DM,leak}$). 3D→4D: continuous dominates NOW (DE is $f_{\rm DE}$ continuous, pulsed is in the future). See v31_fback_both_levels.py.
@@ -1257,7 +1257,7 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 - 5/27/68 matches obs (baryons/DM/DE)
 - 8/8 events fit M^1.29 within 1.6×
 - TRGB H₀ = 70.16 closest to cascade
-- DE within 0.13% (simple $f_{\rm DE}$, near-exact via $\tau_{4D}$ calibration)
+- DE within 0.13% (simple $f_{\rm DE}$, near-exact via $\tau_{\rm 4D}$ calibration)
 - $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (DERIVED via α-weighted GM)
 - $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale, structural)
 - "12 propagates" is CORRELATION not derivation (v3.4.6)
@@ -1265,9 +1265,9 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 
 **Free parameters (v3.5.6, 9 total)**:
 - 1 measured: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV
-- 1 calibrated: $M_{\rm Pl,2D}$ = 2.95 TeV (via SN $\tau_{2D}$ = 33 s, L41)
+- 1 calibrated: $M_{\rm Pl,2D}$ = 2.95 TeV (via SN $\tau_{\rm 2D}$ = 33 s, L41)
 - 1 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)
-- 4 calibrated: α = 1.289, ε = 10⁻³⁸, $\tau_{4D}$, AGN rate
+- 4 calibrated: α = 1.289, ε = 10⁻³⁸, $\tau_{\rm 4D}$, AGN rate
 - 1 free: N_sub = 3.86×10² (event-specific, our universe's 4D event had N=386)
 - 1 calibrated: μ = $M_{\rm Pl,2D}^2$ (now STRUCTURALLY MOTIVATED, 5+ origins, v3.5.6)
 
@@ -1346,7 +1346,7 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 
 **Three flows, three names**:
 1. $f_{\rm DM,leak}$ — continuous 2D→3+1D (small, can be ignored)
-2. $f_{\rm DM,death}$ — pulsed 2D→3+1D at $\tau_{2D}$ = 100% (gives DM)
+2. $f_{\rm DM,death}$ — pulsed 2D→3+1D at $\tau_{\rm 2D}$ = 100% (gives DM)
 3. $f_{\rm DE}$ — continuous 3+1D→4D = 10⁻⁸⁵ (gives DE)
 
 **Key user insight**: 10⁻⁸⁵ is for 3+1D→4D DE, NOT for 2D→3+1D DM.
@@ -1391,9 +1391,9 @@ DM comes from 100% pulsed return at 2D universe death.
 - v3.3 as current → v3.5.7 as current
 
 ### Notation Differences (NOT inconsistencies)
-- $\tau_{3D,apparent}$: paper uses text, memory uses numeric
-- $\gamma_{4D}$: paper uses $\gamma_{4D}$, memory uses 1.10×10¹¹¹ (A2)
-- $\tau_{4D}$: paper uses $\tau_{4D}$, memory uses 1.51×10³⁴
+- $\tau_{\rm 3D,apparent}$: paper uses text, memory uses numeric
+- $\gamma_{\rm 4D}$: paper uses $\gamma_{\rm 4D}$, memory uses 1.10×10¹¹¹ (A2)
+- $\tau_{\rm 4D}$: paper uses $\tau_{\rm 4D}$, memory uses 1.51×10³⁴
 - Both notations exist in both files (just used in different contexts)
 
 ### Limitations Audit
@@ -1491,9 +1491,9 @@ DM comes from 100% pulsed return at 2D universe death.
 - User: "try monte carlo, then since the 9 numbers are plugged into this lagrangian, can't we find where all of them converge to be consistent with our observed universe in 3d?"
 - Metropolis-Hastings MCMC with 15,000 samples over 6 free parameters
 - **3-tier structure discovered**:
-  - Tier 1 (4/9): α, ε, $\tau_{4D}$, AGN rate STRONGLY converge within 0.5σ (observationally pinned)
+  - Tier 1 (4/9): α, ε, $\tau_{\rm 4D}$, AGN rate STRONGLY converge within 0.5σ (observationally pinned)
   - Tier 2 (1/9): N_sub WEAKLY constrained (framework choice)
-  - Tier 3 (4/9): $M_{\rm Pl,4D}$ (α-GM L308v), $\gamma_{4D}$, $E_{\rm 4D}$ derived from above
+  - Tier 3 (4/9): $M_{\rm Pl,4D}$ (α-GM L308v), $\gamma_{\rm 4D}$, $E_{\rm 4D}$ derived from above
   - **TIER 4 (NEW v3.5.9)**: FIRST-PRINCIPPLES (4/9): α (L308n), $M_{\rm Pl,2D}$ (L308r), μ (L308r), N=12 (L308u)
   - L138: PARTIAL CLOSURE via α-GM closed loop (L308v)
 
@@ -1543,7 +1543,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### J) Key discoveries
 
-1. **MCMC confirms 4/9 params converge** — observations PIN α, ε, $\tau_{4D}$, AGN rate uniquely
+1. **MCMC confirms 4/9 params converge** — observations PIN α, ε, $\tau_{\rm 4D}$, AGN rate uniquely
 2. **α = 1 + 1/√12 EXACT match** — first-principles derivation of α!
 3. **"12" is the cascade fundamental unit** — appears as N=12 SYK, cone depth 12 sub-steps, $M_{\rm Pl,2D}$/$v_{\rm Higgs}$ = 11.75, 12 Majorana=6 Dirac=3 generations
 4. **N_sub is SEMI-DERIVED** — linear in $E_{\rm 4D}$, no longer free parameter
@@ -1562,7 +1562,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### L) v3.5.8 one-sentence summary
 
-"Our 3+1D universe is one of N_sub = 3.86×10² sub-universes (linear in $E_{\rm 4D}$ per L308o) created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-GM), with $\tau_{4D}$ = 1.51×10³⁴ yr (DE matches within 0.13% via simple $f_{\rm DE}$ formula), and $\tau_{3D,apparent}$ = 8.95×10²⁴ yr. Bilateral cascade has 9 parameters (v3.5.8+): 1 measured ($M_{\rm Pl,3D}$), 3 DERIVED from first principles (α = 1+1/√12, $M_{\rm Pl,2D}$ = N×$v_{\rm Higgs}$ = 12×246, μ = $M_{\rm Pl,2D}^2$ via L308r chain), 4 calibrated (ε, $\tau_{4D}$, AGN rate, $E_{\rm 4D}$), 1 SEMI-DERIVED (N_sub = $E_{\rm 4D}$/$E_{\rm sub}$), 1 derived via consistency ($M_{\rm Pl,4D}$ α-GM)."
+"Our 3+1D universe is one of N_sub = 3.86×10² sub-universes (linear in $E_{\rm 4D}$ per L308o) created by a universe-scale 4D event ($E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-GM), with $\tau_{\rm 4D}$ = 1.51×10³⁴ yr (DE matches within 0.13% via simple $f_{\rm DE}$ formula), and $\tau_{\rm 3D,apparent}$ = 8.95×10²⁴ yr. Bilateral cascade has 9 parameters (v3.5.8+): 1 measured ($M_{\rm Pl,3D}$), 3 DERIVED from first principles (α = 1+1/√12, $M_{\rm Pl,2D}$ = N×$v_{\rm Higgs}$ = 12×246, μ = $M_{\rm Pl,2D}^2$ via L308r chain), 4 calibrated (ε, $\tau_{\rm 4D}$, AGN rate, $E_{\rm 4D}$), 1 SEMI-DERIVED (N_sub = $E_{\rm 4D}$/$E_{\rm sub}$), 1 derived via consistency ($M_{\rm Pl,4D}$ α-GM)."
 
 ### M) Lessons learned
 
@@ -1602,9 +1602,9 @@ DM comes from 100% pulsed return at 2D universe death.
 
 | Tier | # params | Status | Examples |
 |---|---|---|---|
-| 1 | 4/9 | Strongly constrained (converge within 0.5σ) | α, ε, $\tau_{4D}$, AGN rate |
+| 1 | 4/9 | Strongly constrained (converge within 0.5σ) | α, ε, $\tau_{\rm 4D}$, AGN rate |
 | 2 | 2/9 | Framework choices (gaps) | $M_{\rm Pl,2D}$, N_sub |
-| 3 | 3/9 | Derived from above | $M_{\rm Pl,4D}$, $\gamma_{4D}$, $E_{\rm 4D}$ |
+| 3 | 3/9 | Derived from above | $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$ |
 
 **Implication**: First-principles work would focus on Tier 2 ($M_{\rm Pl,2D}$, N_sub derivations).
 
@@ -1613,7 +1613,7 @@ DM comes from 100% pulsed return at 2D universe death.
 | Transition | N_universes | Per-universe | Lifetime |
 |---|---|---|---|
 | 4D → 3+1D | N_sub ∝ $E_{\rm 4D}$ (linear) | $E_{\rm sub}$ = $E_{\rm 4D}$/N_sub | $\tau_{\rm sub} = \tau_{4D}$/N_sub^α |
-| 3+1D → 2D | 1 (one-to-one) | $M_{\rm 2D}$ = fixed | $\tau_{2D}$ ∝ E^α |
+| 3+1D → 2D | 1 (one-to-one) | $M_{\rm 2D}$ = fixed | $\tau_{\rm 2D}$ ∝ E^α |
 
 **Why asymmetry?**
 - 4D events are TRANSCENDENT (bulk, outside universe)
@@ -1652,7 +1652,7 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 |---|---|---|---|
 | α | 1.289 | 1.291 ± 0.002 | 0.9σ ✓ |
 | log ε | -38.0 | -38.03 ± 0.06 | 0.5σ ✓ |
-| log $\tau_{4D}$ | 34.18 | 34.15 ± 0.04 | 0.7σ ✓ |
+| log $\tau_{\rm 4D}$ | 34.18 | 34.15 ± 0.04 | 0.7σ ✓ |
 | log AGN | -15.52 | -15.50 ± 0.42 | 0.1σ ✓ |
 | $M_{\rm Pl,2D}$ | 3.0 TeV | 1.75 ± 0.33 TeV | 3.8σ ⚠ |
 | N_sub | 400 | 217 ± 100 | 1.8σ ⚠ |
@@ -1712,8 +1712,8 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - Added LEGACY NOTE flags to 13 markdown files
 
 **PASS 2 (ed24b21)**: Fix stale values
-- $\gamma_{4D}$: 1.10×10¹¹¹ (A2) → 1.10×10¹¹¹ (A2)
-- $\tau_{3D,apparent}$: 9.10×10¹²⁴ → 1.66×10¹⁴⁵ (A2)
+- $\gamma_{\rm 4D}$: 1.10×10¹¹¹ (A2) → 1.10×10¹¹¹ (A2)
+- $\tau_{\rm 3D,apparent}$: 9.10×10¹²⁴ → 1.66×10¹⁴⁵ (A2)
 - 133 → 138 limitations
 - Added LEGACY markers for Fₚ
 
@@ -1746,7 +1746,7 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - 12 legacy files in paper/legacy/
 - 13 markdown files with LEGACY NOTE flags
 - 8 commits this session
-- A1 framework: $f_{\rm leak}$ = H₀, $\gamma_{4D}$ = 1.10×10¹¹¹ (A2) (literal time dilation)
+- A1 framework: $f_{\rm leak}$ = H₀, $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2) (literal time dilation)
 
 **KEY INSIGHTS**:
 - Cleanup workflow: LEGACY NOTE flags + dedicated legacy files
@@ -1782,8 +1782,8 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - - 1 MEASURED: $M_{\rm Pl,3D}$
 - - 4 FIRST-PRINCIPLES: α, $M_{\rm Pl,2D}$, μ, $N=12$
 - - 2 DERIVED: $M_{\rm Pl,4D}$ (α-GM), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$
-- - 4 CALIBRATED: ε, $\tau_{4D}$, AGN rate, $f_{\rm leak}$ = H₀ (NEW A1)
-- - 4 STRUCTURAL: $E_{\rm sub}$, $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$ (per L308ag)
+- - 4 CALIBRATED: ε, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$ = H₀ (NEW A1)
+- - 4 STRUCTURAL: $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ (per L308ag)
 - - 1 FREE: $N_{\rm sub}$ (event-specific)
 - 
 - **L144 STATUS**: REMAINS OPEN. $N_{\rm sub}$ is event-specific, not predicted by framework. But the
@@ -1805,13 +1805,13 @@ This is no longer calibration — it's first-principles derivation. L43 (Lagrang
 - - 2D universe's proper time = ~$t_{\rm Pl}$,3D (Planck time, essentially instantaneous)
 - - In 3D frame: stretched by $\gamma_{2D}$ = 5.5e44 to 33s (for SN)
 - - 4D event's proper time = 1.51e34 yr
-- - In 3D frame: stretched by $\gamma_{4D}$ = 1.10e111 (A2) to 1.66e145 (A2) yr
+- - In 3D frame: stretched by $\gamma_{\rm 4D}$ = 1.10e111 (A2) to 1.66e145 (A2) yr
 - 
 - **BOTH transitions have time dilation**:
 - - 2D-3D: $\gamma_{2D}$ = 5.5e44 (literal time dilation)
-- - 4D-3D: $\gamma_{4D}$ = 1.10e111 (A2) (literal time dilation)
+- - 4D-3D: $\gamma_{\rm 4D}$ = 1.10e111 (A2) (literal time dilation)
 - - Cone is SYMMETRIC in HAVING time dilation
-- - Cone is ASYMMETRIC in MAGNITUDE ($\gamma_{4D}$ >> $\gamma_{2D}$ because $E_{\rm 4D}$ >> $E_{\rm 3D}$)
+- - Cone is ASYMMETRIC in MAGNITUDE ($\gamma_{\rm 4D}$ >> $\gamma_{2D}$ because $E_{\rm 4D}$ >> $E_{\rm 3D}$)
 - 
 - **Continuous 2D→3D leakage**:
 - - In 2D's own frame: 2D universe exists for ~$t_{\rm Pl}$ (one Planck time)
@@ -1836,8 +1836,8 @@ CORRECT COUNT (v3.5.9+ A1+L308z):
 - 1 MEASURED: $M_{\rm Pl,3D}$
 - 4 FIRST-PRINCIPLES: α, $M_{\rm Pl,2D}$, μ, $N=12$
 - 2 DERIVED: $M_{\rm Pl,4D}$ (α-GM, L308v), $E_{\rm 4D}$ ($N_{\rm sub}$ × $E_{\rm sub}$, L308o)
-- 4 CALIBRATED: ε, $\tau_{4D}$, AGN rate, $f_{\rm leak}$ = H₀ (A1)
-- 4 STRUCTURAL: $E_{\rm sub}$, $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$ (per L308ag)
+- 4 CALIBRATED: ε, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$ = H₀ (A1)
+- 4 STRUCTURAL: $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ (per L308ag)
 - 1 FREE: $N_{\rm sub}$
 - TOTAL: 1+4+2+4+3+1 = **15** (was 14, was 13, was 9)
 
@@ -1880,7 +1880,7 @@ All updated to clearly mark as HISTORICAL and provide current state (15 paramete
 - 15 parameters (1+4+2+4+3+1 = 15)
 - $M_{\rm Pl,2D}$ = 2.95 TeV (12 × $v_{\rm Higgs}$)
 - $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (α-GM)
-- $\gamma_{4D}$ = 1.10×10¹¹¹ (A2) (DERIVED, literal time dilation at 4D level)
+- $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2) (DERIVED, literal time dilation at 4D level)
 - $\gamma_{2D}$ = 5.5×10⁴⁴ (DERIVED, literal time dilation at 2D level)
 - 4 first-principles derived: α, $M_{\rm Pl,2D}$, μ, $N=12$
 - $f_{\rm leak}$ = H₀ (A1 NEW principle)
@@ -1955,13 +1955,13 @@ clearly marked as HISTORICAL (Fₚ(z) Hill function was DROPPED in v3.3+).
 - μ = 8.73×10⁶ GeV² (FIRST-PRINCIPLES, L308r)
 - N = 12 (FIRST-PRINCIPPLES, L308u)
 - ε = 10⁻³⁸ (CALIBRATED)
-- $\tau_{4D}$ = 1.51×10³⁴ yr (CALIBRATED)
+- $\tau_{\rm 4D}$ = 1.51×10³⁴ yr (CALIBRATED)
 - AGN rate = 10⁻¹⁵·⁵² /s (CALIBRATED)
 - $f_{\rm leak}$ = H₀ = 2.18×10⁻¹⁸ /s (CALIBRATED, NEW A1)
 - $E_{\rm 4D}$ = 5×10⁷⁹ J (DERIVED, L308o)
 - $E_{\rm sub}$ = 1.295×10⁷⁷ J (STRUCTURAL, L308z)
-- $\tau_{3D,apparent}$ = 1.66×10¹⁴⁵ (A2) yr (STRUCTURAL, A1)
-- $\gamma_{4D}$ = 1.10×10¹¹¹ (A2) (STRUCTURAL, A1)
+- $\tau_{\rm 3D,apparent}$ = 1.66×10¹⁴⁵ (A2) yr (STRUCTURAL, A1)
+- $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2) (STRUCTURAL, A1)
 - $\gamma_{2D}$ = 5.5×10⁴⁴ (STRUCTURAL, L308aa)
 - $N_{\rm sub}$ = 386 (FREE event-specific, L308z)
 - 15 parameters total (1+4+2+4+3+1 = 15)
@@ -1988,8 +1988,8 @@ PASS 41: v357_legacy_parameters.md CURRENT markers updated
 - L308r/L308t/L308z updates noted
 
 PASS 42: changelog.md v3.3 KEY PARAMS section updated
-- v3.3 era values were: $M_{\rm Pl,2D}$=3 TeV, $M_{\rm Pl,4D}$=4×10²³, $\gamma_{4D}$=1.10×10¹¹¹ (A2), $\tau_{3D}$=9.10×10²⁴ yr, $N_{\rm sub}$=4×10²
-- Current values noted: $M_{\rm Pl,2D}$=2.95 TeV, $M_{\rm Pl,4D}$=3.93×10²³, $\gamma_{4D}$=1.10×10¹¹¹ (A2), $\tau_{3D}$=1.66×10¹⁴⁵ (A2) yr, $N_{\rm sub}$=3.86×10²
+- v3.3 era values were: $M_{\rm Pl,2D}$=3 TeV, $M_{\rm Pl,4D}$=4×10²³, $\gamma_{\rm 4D}$=1.10×10¹¹¹ (A2), $\tau_{\rm 3D}$=9.10×10²⁴ yr, $N_{\rm sub}$=4×10²
+- Current values noted: $M_{\rm Pl,2D}$=2.95 TeV, $M_{\rm Pl,4D}$=3.93×10²³, $\gamma_{\rm 4D}$=1.10×10¹¹¹ (A2), $\tau_{\rm 3D}$=1.66×10¹⁴⁵ (A2) yr, $N_{\rm sub}$=3.86×10²
 - Added REVISED notes with L308r/L308t/L308z citations
 
 **ALL CLEAN**: Programmatic sweep verified no more stale values

@@ -97,7 +97,7 @@ The CGHS model [CGHS92] is a 1+1-dimensional dilaton gravity theory that is *exa
 - A specific 2D black hole mass-radius relation tied to SIDC's $f_{\rm back}$ = 10⁻⁸⁵
 - A derivation of SIDC's birth/death GW spectrum (per §10)
 
-**Quantitative check.** SIDC's lifetime $\tau_{2D}$ = $(E/E_{\rm Pl})^{1.29}$ × $t_{\rm Pl}$, calibrated to τ(SN) = 33 s, predicts:
+**Quantitative check.** SIDC's lifetime $\tau_{\rm 2D}$ = $(E/E_{\rm Pl})^{1.29}$ × $t_{\rm Pl}$, calibrated to τ(SN) = 33 s, predicts:
 - τ(LHC pp) = 3.5 × 10⁻⁶⁴ s for $E_{\rm pp}$ = 10⁻⁹ J
 - τ(BNS merger) = 4.3 × 10⁵ yr for $E_{\rm BNS}$ = 10⁴⁶ J
 - τ(AGN outburst) = 1.6 × 10⁸ yr for $E_{\rm AGN}$ = 10⁵² J
@@ -156,9 +156,9 @@ Horava-Witten [HW96] is 11D M-theory compactified on S¹/ℤ₂ (orbifold), with
 
 Jacobson [Jacobson95] derives Einstein's equations from the local Unruh temperature applied to local Rindler horizons: δQ = T dS with S = A/4G. This is the most direct thermodynamic derivation of gravity's equations of state.
 
-A consistency check on SIDC: a 2D universe with $M_{\rm 2D} = M_{\rm SN,bary} = 10\,M_\odot$ (the SN's baryonic mass) has a Jacobson minimum lifetime $\tau_{2D}$ ≥ 2 G $M_{2D}$ / c² ∼ 10¹³ yr, *not* SIDC's 33 s. SIDC's 33 s is only consistent with Jacobson if the 2D universe has mass $f_{\rm back}$ × M_SN ∼ 10⁻⁸⁵ × M_SN (i.e., a tiny fraction of the SN's energy, not the SN's full baryonic mass). This is a *consistency check on $f_{\rm back}$*, not a derivation of SIDC's α.
+A consistency check on SIDC: a 2D universe with $M_{\rm 2D} = M_{\rm SN,bary} = 10\,M_\odot$ (the SN's baryonic mass) has a Jacobson minimum lifetime $\tau_{\rm 2D}$ ≥ 2 G $M_{2D}$ / c² ∼ 10¹³ yr, *not* SIDC's 33 s. SIDC's 33 s is only consistent with Jacobson if the 2D universe has mass $f_{\rm back}$ × M_SN ∼ 10⁻⁸⁵ × M_SN (i.e., a tiny fraction of the SN's energy, not the SN's full baryonic mass). This is a *consistency check on $f_{\rm back}$*, not a derivation of SIDC's α.
 
-Furthermore, Jacobson's framework predicts *linear* $\tau_{2D}$ ~ E (from $M_{2D} = \tau_{2D}$ / (2G) and $M_{2D}$ ~ E), not SIDC's *power law* $\tau_{2D} \sim E^{1.29}$. The α = 1.29 is NOT derived from thermodynamic first principles.
+Furthermore, Jacobson's framework predicts *linear* $\tau_{\rm 2D}$ ~ E (from $M_{2D} = \tau_{2D}$ / (2G) and $M_{2D}$ ~ E), not SIDC's *power law* $\tau_{2D} \sim E^{1.29}$. The α = 1.29 is NOT derived from thermodynamic first principles.
 
 **Resolution:** SIDC's 2D universes are *non-equilibrium processes* (formed by energetic events, not thermodynamic equilibrium objects). Jacobson's derivation applies to *equilibrium* thermodynamic systems (black holes, Rindler horizons) and does not directly apply to dynamically formed 2D spacetimes. SIDC's 2D universes are more accurately modeled as *non-equilibrium* objects (CGHS-like 2D black holes, D1-branes) than as equilibrium thermodynamic systems.
 
@@ -190,9 +190,9 @@ This is SIDC's status as of v2.7.30: a phenomenological model with 1-2 free para
 The RT formula [Ryu06] is the central tool of holographic entanglement entropy in AdS/CFT: S_A = Area( $\gamma_{\rm A}$) / (4 G_N), where $\gamma_{\rm A}$ is the minimal surface in the bulk that is homologous to the boundary region A. This formula has been proven in many contexts (Casini-Huerta-Myers 2011) and is the basis for the AdS/CFT connection between bulk geometry and boundary entanglement.
 
 **What RT gives SIDC:**
-- A *concrete* information-theoretic interpretation of SIDC DM as missing bulk entanglement entropy: 2D universe = bulk region with area A_2D = 4π(c $\tau_{2D}$)², and SIDC's 3+1D back-projection of 2D universe gravity is structurally identical to the RT formula's area-entropy relation
+- A *concrete* information-theoretic interpretation of SIDC DM as missing bulk entanglement entropy: 2D universe = bulk region with area A_2D = 4π(c $\tau_{\rm 2D}$)², and SIDC's 3+1D back-projection of 2D universe gravity is structurally identical to the RT formula's area-entropy relation
 - A *consistency check* on SIDC's $f_{\rm back}$: the RT formula gives the same $M_{2D} = \tau_{2D}$ / (2G) as Jacobson's first law (since RT + Bekenstein-Hawking + Unruh = Jacobson derivation). This means RT, Jacobson, and Padmanabhan all give the same LINEAR $\tau_{2D} \sim M_{2D}$, not SIDC's power law
-- An *additional anchor* for SIDC's bulk-brane picture: the 2D universe's "boundary" in 3+1D (a 2-sphere of radius c $\tau_{2D}$) has area A_2D that grows quadratically with $\tau_{2D}$, and the entanglement entropy of the 2D universe's contents is $S_{\rm 2D}$ = A_2D / (4G) = π( $\tau_{2D}$)² (in Planck units)
+- An *additional anchor* for SIDC's bulk-brane picture: the 2D universe's "boundary" in 3+1D (a 2-sphere of radius c $\tau_{\rm 2D}$) has area A_2D that grows quadratically with $\tau_{\rm 2D}$, and the entanglement entropy of the 2D universe's contents is $S_{\rm 2D}$ = A_2D / (4G) = π( $\tau_{\rm 2D}$)² (in Planck units)
 
 **What RT does NOT give SIDC:**
 - A *derivation* of α = 1.29. RT is mathematically equivalent to the Jacobson derivation (both give $M_{2D} = \tau_{2D}$ / (2G), linear scaling). SIDC's power law $\tau_{2D} \sim E^{1.29}$ is a dynamical parameter, not from RT
@@ -209,7 +209,7 @@ This is an enormous entanglement entropy. The 2D universe is "small" in its intr
 
 **The RT-Jacobson-Padmanabhan equivalence.** A subtle but important point: RT + Bekenstein-Hawking + Unruh = Jacobson. All four give the same $M_{2D} = \tau_{2D}$ / (2G) linear relation. This is *good* for SIDC (multiple independent derivations agree), but it means they all FAIL to derive α = 1.29 (they all predict linear, not power law). SIDC's α = 1.29 is genuinely beyond what these thermodynamic frameworks can derive.
 
-**Status:** RT provides an additional information-theoretic anchor for SIDC's DM-as-missing-bulk-entanglement picture (complementing Padmanabhan). It does NOT derive α = 1.29, $f_{\rm back}$, or the inversion. The RT-Jacobson-Padmanabhan trio all give the same linear $\tau_{2D}$ scaling, reinforcing that SIDC's power law is a dynamical parameter. See `calculations/v27_ruyu_takayanagi.py` for the full analysis.
+**Status:** RT provides an additional information-theoretic anchor for SIDC's DM-as-missing-bulk-entanglement picture (complementing Padmanabhan). It does NOT derive α = 1.29, $f_{\rm back}$, or the inversion. The RT-Jacobson-Padmanabhan trio all give the same linear $\tau_{\rm 2D}$ scaling, reinforcing that SIDC's power law is a dynamical parameter. See `calculations/v27_ruyu_takayanagi.py` for the full analysis.
 
 **3.8.7 Kaluza-Klein (1921) 5D unification: SIDC as a generalization.**
 
@@ -577,7 +577,7 @@ where $V_{birth}$ is the 2D universe's birth volume (in 2D frame). To get $M_{2D
 
 $$f_{DE} \times \rho_{DE} \times V_{birth} \approx 6 M_\odot$$
 
-**Plausibility:** this is plausible if $V_{birth}$ is large. The 2D universe's volume depends on its 2D-frame size and lifetime. A 2D universe with size $R_{2D}$ and lifetime $\tau_{2D}$ has $V_{birth} = c \tau_{2D} R_{2D}$.
+**Plausibility:** this is plausible if $V_{birth}$ is large. The 2D universe's volume depends on its 2D-frame size and lifetime. A 2D universe with size $R_{2D}$ and lifetime $\tau_{\rm 2D}$ has $V_{birth} = c \tau_{2D} R_{2D}$.
 
 For SN-calibrated 2D universes: $\tau_{2D} = 33$ s, $R_{2D}$ depends on 2D physics (Liouville 2D CFT). The required $V_{birth}$ to extract $6 M_\odot$ from DE is:
 $V_{birth} = 6 M_\odot c^2 / \rho_{DE} \approx 10^{47}\,\text{m}^3$

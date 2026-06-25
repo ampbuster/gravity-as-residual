@@ -580,7 +580,7 @@ This is the **specific energetic power density** integrated over cosmic time, an
 
 *Status of this derivation:*
 
-SIDC provides a *first-principles formula* for $g_+$ (per §2.5.1's action and the α coupling), but the formula has *free parameters* ( k, $E_{event}$, $\tau_{2D}$, $L_{2D}$) that need to be calibrated. The formula's STRUCTURE is:
+SIDC provides a *first-principles formula* for $g_+$ (per §2.5.1's action and the α coupling), but the formula has *free parameters* ( k, $E_{event}$, $\tau_{\rm 2D}$, $L_{2D}$) that need to be calibrated. The formula's STRUCTURE is:
 - g₊ is proportional to integrated energetic event rate
 - g₊ depends on the event's typical energy, lifetime, and size
 - g₊ at a BCG sees cluster-wide events, not just BCG's own

@@ -69,16 +69,16 @@ L308dt — 155 broken math patterns:
 
 **Reason for version bump:** Three major developments after framework audit:
 
-1. **Mathematical audit** found three inconsistencies in v3.3+ formulas ($\gamma_{4D}$ formula, $\tau_{3D,apparent}$ units, M^α at 4D level)
+1. **Mathematical audit** found three inconsistencies in v3.3+ formulas ($\gamma_{\rm 4D}$ formula, $\tau_{\rm 3D,apparent}$ units, M^α at 4D level)
 2. **L26 FULL CLOSURE** (L308t): framework values UPDATED to consistent derivation
 3. **WHY N=12?** (L308u, BREAKTHROUGH): Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
 4. **L138 PARTIAL CLOSURE** (L308v): $M_{\rm Pl,4D}$ via α-GM closed loop
 5. **APPROACH A1** (HISTORICAL June 21, superseded by A2 June 22, §7.4.20): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
-   - $\gamma_{4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
-   - $\tau_{3D,apparent}$ = 1.66×10¹⁴⁵ (A2: $\alpha_{4D}$=1.577) yr (REINSTATED)
+   - $\gamma_{\rm 4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (literal time dilation, REINSTATED)
+   - $\tau_{\rm 3D,apparent}$ = 1.66×10¹⁴⁵ (A2: $\alpha_{4D}$=1.577) yr (REINSTATED)
    - DM stable at 27%, $\tau_{\rm DM}$ = 14.5 Gyr
-   - Both $\gamma_{4D}$ AND $\gamma_{2D}$ consistent (literal time dilation)
-6. **Path B2 REJECTED**: $\gamma_{4D}$ decoupling had structural inconsistency ($\gamma_{4D}$ vs $\gamma_{2D}$ interpretations)
+   - Both $\gamma_{\rm 4D}$ AND $\gamma_{2D}$ consistent (literal time dilation)
+6. **Path B2 REJECTED**: $\gamma_{\rm 4D}$ decoupling had structural inconsistency ($\gamma_{\rm 4D}$ vs $\gamma_{2D}$ interpretations)
 
 **Cleanup passes**:
 - 2 new legacy files in paper/legacy/ (Hill function, Path B2)
@@ -89,8 +89,8 @@ L308dt — 155 broken math patterns:
 - 1 MEASURED: $M_{\rm Pl,3D}$
 - 4 FIRST-PRINCIPPLES: α, $M_{\rm Pl,2D}$, μ, N=12 (was 3)
 - 2 DERIVED: $M_{\rm Pl,4D}$ (α-GM, L308v), **$E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$** (L308o, was calibrated)
-- 5 CALIBRATED: ε, $\tau_{4D}$, AGN rate, $f_{\rm leak} = H_0$ ($E_{\rm 4D}$ moved to DERIVED per L308z, was 4 in pre-L308z pre-A1)
-- 3 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), $\tau_{3D,apparent}$, $\gamma_{4D}$
+- 5 CALIBRATED: ε, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak} = H_0$ ($E_{\rm 4D}$ moved to DERIVED per L308z, was 4 in pre-L308z pre-A1)
+- 3 STRUCTURAL: $E_{\rm sub}$ (galaxy-mass 2D universe), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$
 - 1 FREE: $N_{\rm sub}$ (event-specific, our universe's 4D event had N=386)
 
 **L308z REFRAME (v3.5.9+)**:
@@ -130,8 +130,8 @@ m leak,2D}$→3D, $f_{\rm leak,3D→4D}$)
 - **ε recalibrated**: 10⁻³⁸ (A1) → 6.32×10⁻³⁴ (A2, +4.8 orders)
 - **$f \times \varepsilon$ = 1.13×10⁻¹²³ INVARIANT** preserved ($\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ EXACT match in BOTH formulas)
 - **kL recalibrated**: 87.5 (A1) → 76.4 (A2), ΔkL = -11.1
-- **$\gamma_{4D}$ FORMULA FIX (CRITICAL)**: $\gamma_{4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ (uses $M_{\rm Pl,3D}$ parent reference, NOT $M_{\rm Pl,4D}$). Correct value: 1.10×10¹¹¹. Old formula gave 8.4×10¹⁰³ (wrong)
-- **$\tau_{3D,apparent}$ updated**: 9.10×10¹²⁴ (v3.5.9+) → 1.66×10¹⁴⁵ yr (A2, with corrected $\gamma_{4D}$)
+- **$\gamma_{\rm 4D}$ FORMULA FIX (CRITICAL)**: $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ (uses $M_{\rm Pl,3D}$ parent reference, NOT $M_{\rm Pl,4D}$). Correct value: 1.10×10¹¹¹. Old formula gave 8.4×10¹⁰³ (wrong)
+- **$\tau_{\rm 3D,apparent}$ updated**: 9.10×10¹²⁴ (v3.5.9+) → 1.66×10¹⁴⁵ yr (A2, with corrected $\gamma_{\rm 4D}$)
 
 **$f_{\rm DE}$ FORMULAS (A2 NAMING, was $f_{\rm back}$ in legacy)**:
 - $f_{
@@ -148,8 +148,8 @@ m Pl,3D}$⁴)
 - 1 MEASURED: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV
 - 3 FIRST-PRINCIPPLES (was 4, N=12 downgraded per L308ag): α = 1.289, $M_{\rm Pl,2D}$ = 2955 GeV, μ = 8.73×10⁶ GeV²
 - 2 DERIVED: $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (α-GM, L308v), $E_{\rm 4D}$ = 5×10⁷⁹ J
-- 4 STRUCTURAL: $E_{\rm sub}$ = 1.295×10⁷⁷ J, $\tau_{3D,apparent}$ = 1.66×10¹⁴⁵ yr, $\gamma_{4D}$ = 1.10×10¹¹¹, N=12 (per L308ag)
-- 4 CALIBRATED (was 5, $f_{\rm leak}$ is 4th NOT 5th): ε = 6.32×10⁻³⁴, $\tau_{4D}$ = 1.51×10³⁴ yr, AGN rate, $f_{\rm leak,3D→4D}$ = H₀
+- 4 STRUCTURAL: $E_{\rm sub}$ = 1.295×10⁷⁷ J, $\tau_{\rm 3D,apparent}$ = 1.66×10¹⁴⁵ yr, $\gamma_{\rm 4D}$ = 1.10×10¹¹¹, N=12 (per L308ag)
+- 4 CALIBRATED (was 5, $f_{\rm leak}$ is 4th NOT 5th): ε = 6.32×10⁻³⁴, $\tau_{\rm 4D}$ = 1.51×10³⁴ yr, AGN rate, $f_{\rm leak,3D→4D}$ = H₀
 - 1 FREE: $N_{\rm sub}$ = 386
 - **Total: 15 parameters** (1+3+2+4+4+1)
 
@@ -996,7 +996,7 @@ multiple cascade parameters that were previously calibrated.
 - c = 1/2 (Ising CFT, N/24)
 - 1/(2α) = 0.388 (back-action)
 - $f_{\rm back}$ = 8.6 × 10⁻⁸⁶ (universal, gives 10⁻⁸⁵)
-- 14 event types follow $\tau_{2D}$ ~ $M^{1.29}$
+- 14 event types follow $\tau_{\rm 2D}$ ~ $M^{1.29}$
 - 1/√N saddle-point theoretical support
 
 **What the composite model does NOT derive**:
@@ -1029,7 +1029,7 @@ multiple cascade parameters that were previously calibrated.
   - $f_{\rm back}$ = 8.6 × 10⁻⁸⁶
 
 **Part 2: Data tests**
-- 14 event types: $\tau_{2D}$ ~ $M^{1.29}$ ✓
+- 14 event types: $\tau_{\rm 2D}$ ~ $M^{1.29}$ ✓
 - 47 Tuc: $M_{\rm dyn}$ ≈ $M_{\rm stars}$ (differentiator) ✓
 - Massive quiescents z>4: 10+ confirmed ✓
 - Intermediate F(z) dwarfs: 10+ confirmed ✓
@@ -1062,7 +1062,7 @@ multiple cascade parameters that were previously calibrated.
 - Cascade's magic angle is ~1.5°
 
 3. **L79 NEW**: All cascade consequences follow from N=12
-4. **L80 NEW**: 14 event types tested, $\tau_{2D}$ ~ $M^{1.29}$ confirmed
+4. **L80 NEW**: 14 event types tested, $\tau_{\rm 2D}$ ~ $M^{1.29}$ confirmed
 5. **L81 NEW**: Numerical simulations confirm scaling
 6. **L82 NEW**: 2D universes are Nariai black holes (extremal dS_2, T=0)
 7. **L83 NEW**: Cascade magic angle ~1.5° (BLG-like)
@@ -1486,7 +1486,7 @@ multiple cascade parameters that were previously calibrated.
 6. **Implications**:
    - 10⁻⁸⁵ is no longer "back in disguise"
    - Cascade's DE model is less ad hoc
-   - Connection to bulk geometry implicit ($\tau_{4D}$ from Padmanabhan)
+   - Connection to bulk geometry implicit ($\tau_{\rm 4D}$ from Padmanabhan)
    - Future work: derive 1/(2α) from specific RS1 calculation
 
 7. **§3.47 added** with full analysis
@@ -1550,7 +1550,7 @@ multiple cascade parameters that were previously calibrated.
 2. **4D event properties (mostly UNSPECIFIED)**:
    - $E_{\rm 4D}$: UNSPECIFIED (L34)
    - Spatial extent: UNSPECIFIED (L51, partially addressed)
-   - Duration: $\tau_{4D}$ ~ 10²⁸ yr (derived from Padmanabhan)
+   - Duration: $\tau_{\rm 4D}$ ~ 10²⁸ yr (derived from Padmanabhan)
    - Dimensionality: 4D (1+3)
 
 3. **DE from 4D → 3+1D inversion (INDISTINGUISHABLE from ΛCDM)**:
@@ -3034,7 +3034,7 @@ The cascade cannot proceed honestly without addressing L50.
    - 2 truly free parameters: α = 1.29, $z_{\rm half}$ ≈ 3
    - 3 calibrated postulates: $f_{\rm DE}$ ~ 10⁻⁸⁵, ε ~ 10⁻³⁸, Fₚ ~ 0.7
    - 5 observational inputs: 5/27/68, H₀, $E_{\rm SN}$, etc.
-   - 4 derived quantities: $M_{\rm Pl,4}$ floor, f_primordial, H₀,4D, $\tau_{4D}$
+   - 4 derived quantities: $M_{\rm Pl,4}$ floor, f_primordial, H₀,4D, $\tau_{\rm 4D}$
    - Recent removals: $E_{\rm crit}$, $\lambda_{\rm th}$, $f_{\rm active}$ (cleaned up over versions)
 
 2. **$E_{\rm primordial}$ specification (L34 partially addressed)** in §4.48:
@@ -3147,7 +3147,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 2. **Key findings**:
    - Varying α in [1.0, 1.6] gives 10-100x change in 2D universe lifetime predictions
-   - Δα = 0.20 → factor 10-100x change in $\tau_{2D}$(BNS) and $\tau_{2D}$(AGN)
+   - Δα = 0.20 → factor 10-100x change in $\tau_{\rm 2D}$(BNS) and $\tau_{\rm 2D}$(AGN)
    - Δα = 0.05 → factor 3 change in predictions
 
 3. **Precision required for future BNS/AGN GW detection**:
@@ -3205,7 +3205,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 **Major changes since v2.7.6:**
 
-1. **§3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy (NEW subsection)**: The RT formula S_A = Area($\gamma_{\rm A}$) / (4 G_N) provides a *concrete* information-theoretic interpretation of cascade DM as missing bulk entanglement entropy. Each 2D universe has area A_2D = 4π(c$\tau_{2D}$)² in 3+1D, and the RT formula gives the entanglement entropy of the 2D universe's contents as $S_{\rm 2D}$ ≈ 10⁹⁰ for SN-calibrated lifetimes. **Important subtlety**: RT + Bekenstein-Hawking + Unruh = Jacobson. All four derivations give the SAME $M_{\rm 2D}$ = $\tau_{2D}$ / (2G) linear relation, not the cascade's power law. So RT, Jacobson, and Padmanabhan all give the same LINEAR $\tau_{2D}$ ~ $M_{\rm 2D}$ — they reinforce each other but fail to derive α = 1.29.
+1. **§3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy (NEW subsection)**: The RT formula S_A = Area($\gamma_{\rm A}$) / (4 G_N) provides a *concrete* information-theoretic interpretation of cascade DM as missing bulk entanglement entropy. Each 2D universe has area A_2D = 4π(c$\tau_{\rm 2D}$)² in 3+1D, and the RT formula gives the entanglement entropy of the 2D universe's contents as $S_{\rm 2D}$ ≈ 10⁹⁰ for SN-calibrated lifetimes. **Important subtlety**: RT + Bekenstein-Hawking + Unruh = Jacobson. All four derivations give the SAME $M_{\rm 2D}$ = $\tau_{\rm 2D}$ / (2G) linear relation, not the cascade's power law. So RT, Jacobson, and Padmanabhan all give the same LINEAR $\tau_{\rm 2D}$ ~ $M_{\rm 2D}$ — they reinforce each other but fail to derive α = 1.29.
 
 2. **§3.8.7 Kaluza-Klein (1921) 5D unification (NEW subsection)**: KK is the historical prototype for dimensional reduction. The cascade is a *generalization* of KK: KK's 5D → 4D is a 1-step cascade; the cascade's 4D → 3+1D → 2D is a 2-step cascade. Key structural differences: (a) KK's extra dim is COMPACT ($S^1$ of radius R), cascade's 4D event is SPATIALLY EXTENDED (~ 10³⁶ m); (b) KK derives EM from geometry, cascade does NOT derive SM from geometry; (c) KK preserves the sign of gravity, cascade has an INVERSION. Both have gravity weakening (KK: 1/R, cascade: 0.47), but the specific factors differ.
 
@@ -3241,11 +3241,11 @@ The cascade cannot proceed honestly without addressing L50.
 
    a. **CGHS (Callan-Giddings-Harvey-Strominger 1992)**: 1+1D dilaton gravity with exactly solvable black hole formation/evaporation. The cascade's 2D universes are structurally similar to CGHS-like 2D black holes (both 1+1D, both formed by energetic events, both with finite lifetime, both return energy to parent). The cascade's α = 1.29 is BETWEEN RST (p=1) and CGHS original (p=3), consistent with a CGHS-like 2D black hole with intermediate back-reaction. **Testable prediction**: a specific CGHS-with-back-reaction calculation that yields α = 1.29 would be a *first-principles derivation* of the cascade's energy-scaling rule. This is a concrete calculation, not a vague hope.
 
-   b. **Padmanabhan (2015) "Emergent Gravity and Entanglement"**: gravity emerges from bulk/boundary entanglement entropy difference. The cascade's DM can be interpreted as *missing bulk entanglement entropy* (2D universe = bulk entropy, 3+1D observable matter = boundary entropy, DM = difference). Provides an information-theoretic foundation for the cascade's bulk-brane coupling. The cascade's 3+1D mass $M_{\rm 3+1D}$ ~ c $\tau_{4D}$ / (4π G) gives $\tau_{4D}$ ~ 10²⁸ yr for the 4D event's duration. Does NOT derive the inversion mechanism.
+   b. **Padmanabhan (2015) "Emergent Gravity and Entanglement"**: gravity emerges from bulk/boundary entanglement entropy difference. The cascade's DM can be interpreted as *missing bulk entanglement entropy* (2D universe = bulk entropy, 3+1D observable matter = boundary entropy, DM = difference). Provides an information-theoretic foundation for the cascade's bulk-brane coupling. The cascade's 3+1D mass $M_{\rm 3+1D}$ ~ c $\tau_{\rm 4D}$ / (4π G) gives $\tau_{\rm 4D}$ ~ 10²⁸ yr for the 4D event's duration. Does NOT derive the inversion mechanism.
 
    c. **Horava-Witten (1996) M-theory**: 11D M-theory on S¹/Z₂ with two 10D branes. The cascade's 3+1D us = 10D HW brane with 6D Calabi-Yau compactification (standard string phenomenology). The cascade's 2D children = D1-branes nucleated on the 4D effective brane. **Cascade is more predictive than HW**: 1-2 free parameters (α, $z_{\rm half}$) vs HW's 10-100+ (CY moduli, fluxes, gauge bundle). Does NOT derive α = 1.29, but a D1-brane nucleation calculation with p = 1.29 would.
 
-   d. **Jacobson (1995) "Thermodynamics of Spacetime"**: δQ = T dS applied to local Rindler horizons gives Einstein's equations. **TENSION**: a 2D universe with $M_{\rm 2D}$ = M_SN_bary would have $\tau_{2D}$ ≥ 10¹³ yr (Jacobson minimum), not the cascade's 33 s. Consistent ONLY if $M_{\rm 2D}$ = $f_{\rm back}$ × M_SN ~ 10⁻⁸⁵ × M_SN. Jacobson's framework predicts LINEAR $\tau_{2D}$ ~ E, not the cascade's POWER LAW $\tau_{2D}$ ~ $E^{1.29}$. The α = 1.29 is NOT derived from thermodynamic first principles. Resolution: cascade's 2D universes are NON-EQUILIBRIUM processes, not equilibrium thermodynamic systems.
+   d. **Jacobson (1995) "Thermodynamics of Spacetime"**: δQ = T dS applied to local Rindler horizons gives Einstein's equations. **TENSION**: a 2D universe with $M_{\rm 2D}$ = M_SN_bary would have $\tau_{\rm 2D}$ ≥ 10¹³ yr (Jacobson minimum), not the cascade's 33 s. Consistent ONLY if $M_{\rm 2D}$ = $f_{\rm back}$ × M_SN ~ 10⁻⁸⁵ × M_SN. Jacobson's framework predicts LINEAR $\tau_{\rm 2D}$ ~ E, not the cascade's POWER LAW $\tau_{\rm 2D}$ ~ $E^{1.29}$. The α = 1.29 is NOT derived from thermodynamic first principles. Resolution: cascade's 2D universes are NON-EQUILIBRIUM processes, not equilibrium thermodynamic systems.
 
 2. **4 new analysis scripts** (calculations/):
    - v27_jacobson_thermodynamics.py — consistency check on $f_{\rm back}$, identifies power-law-vs-linear tension
@@ -3427,9 +3427,9 @@ The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a
 **What was REMOVED:**
 1. **§2.6.1 "5/27 as topological eigenvalue" section.** The earlier v2.4 attempt to elevate the 5/27 ratio to a topological invariant of the AdS_5 bulk-to-boundary map was a post-hoc fit, not derived. The formula required N_cascade = 3 (4D, 3+1D, 2D), but the v2.1+ cone-shape has only 2 transitions, and the formula gives wrong values (8.3%/33.3%/58.3%, not 5%/27%/68%).
 
-2. **"Three 5% coincidence" section.** The cascade's previous framework conflated three different "5%" numbers (5% baryon fraction, 5/27 cascade ratio, $f_{\rm active}$ ~ 0.05) and tried to derive all from $\tau_{2D}$ = 0.7 Gyr. The conflation is dropped.
+2. **"Three 5% coincidence" section.** The cascade's previous framework conflated three different "5%" numbers (5% baryon fraction, 5/27 cascade ratio, $f_{\rm active}$ ~ 0.05) and tried to derive all from $\tau_{\rm 2D}$ = 0.7 Gyr. The conflation is dropped.
 
-3. **$f_{\rm active}$ = 0.05 as "derivable" from $\tau_{2D}$/T_universe.** The empirical 33 s lifetime gives $f_{\rm active}$ ~ 10⁻¹⁷, not 0.05. $f_{\rm active}$ is now a FREE PARAMETER.
+3. **$f_{\rm active}$ = 0.05 as "derivable" from $\tau_{\rm 2D}$/T_universe.** The empirical 33 s lifetime gives $f_{\rm active}$ ~ 10⁻¹⁷, not 0.05. $f_{\rm active}$ is now a FREE PARAMETER.
 
 **What was PRESERVED:**
 1. **5/27/68 as observational data (Planck 2018).** The cascade provides a qualitative interpretation:
@@ -3541,7 +3541,7 @@ The 5/27 inner split (5% "active" 2D universes vs 27% "cumulative deaths") was a
 
 **NEW: Time compression mechanism (§2.5)**
 - 2D universe lives in 2D frame (deep in 5D AdS_5 bulk)
-- Proper time: d$\tau_{2D}$ = e^{-ky} dt_4D where y is bulk position, k is AdS_5 curvature
+- Proper time: d$\tau_{\rm 2D}$ = e^{-ky} dt_4D where y is bulk position, k is AdS_5 curvature
 - 2D universe's death energy in 3+1D: m_{2D, 3+1D} = m_{2D, 2D} × e^{-ky}
 - Required e^{-ky} ~ 10^{-48} to match axion-like DM particle mass
 - Corresponds to 2D universe at bulk depth y ~ 100 AdS_5 radii
@@ -3725,11 +3725,11 @@ Building on v2.3.0, v2.3.1 is a polish + test consolidation patch:
 **Tier 1 #2 NEW: $f_{\rm active}$ derivation from 4D event dynamics (commits 251-252)**:
 - Limitation 20 ($f_{\rm active}$ derivation) was DOCUMENTED as OPEN: $f_{\rm active}$ was a fit (MCMC gave 0.05), not a derivation
 - 4× gap between $f_{\rm active}$ ~ 0.05 and 5/27 ~ 0.18 was real and unexplained
-- V2 derivation: $f_{\rm active}$ = $\tau_{2D}$ / T_universe, where $\tau_{2D}$ is the 2D universe lifetime
-- For $\tau_{2D}$ ~ 0.7 Gyr (gas consumption timescale, by physical analogy with Kennicutt-Schmidt law): $f_{\rm active}$ = 0.7/13.8 = 0.051
+- V2 derivation: $f_{\rm active}$ = $\tau_{\rm 2D}$ / T_universe, where $\tau_{\rm 2D}$ is the 2D universe lifetime
+- For $\tau_{\rm 2D}$ ~ 0.7 Gyr (gas consumption timescale, by physical analogy with Kennicutt-Schmidt law): $f_{\rm active}$ = 0.7/13.8 = 0.051
 - MATCHES MCMC posterior 0.0513 ± 0.0073 without any fitting
 - 4× gap is RESOLVED as a LOCAL vs GLOBAL distinction (gas consumption vs cosmic SFR peak)
-- **Limitation 20 is now CLOSED** (PARTIALLY CLOSED — qualitative identification solid, full Lagrangian would tighten $\tau_{2D}$)
+- **Limitation 20 is now CLOSED** (PARTIALLY CLOSED — qualitative identification solid, full Lagrangian would tighten $\tau_{\rm 2D}$)
 - New file: `calculations/derive_4d_factive_v2.py` + results
 - New paper section §4.35
 
@@ -3760,7 +3760,7 @@ $$S = S_{\text{grav, 3+1D}} + S_{\text{matter, 3+1D}} + S_{\text{brane, 2D}} + S
 
 Where:
 - S_creation has α coupling and δ-function localization of the 2D brane at the 3+1D event
-- S_destruction returns energy to 3+1D as DM after $\tau_{2D}$
+- S_destruction returns energy to 3+1D as DM after $\tau_{\rm 2D}$
 - Local energy conservation preserved in total 3+1D+2D system (Stoke's theorem)
 - Reduces to standard RS-II brane-world when α → 0
 - Comparable in structure to Randall-Sundrum brane-world physics
@@ -3885,7 +3885,7 @@ Following extensive real-data testing, the paper now reports **17 test categorie
 
 **Self-corrections and "Numerical correction" notes removed from body** (June 2026): seven "Numerical correction" or self-correction notes were removed from the body (lines that said "an earlier version said X, corrected to Y" or "this is not because X — that phrasing is misleading"). The corrections are documented in this changelog, not in the body. The body now reads as a finished work, with all numerical claims stated correctly and no meta-commentary about earlier wrong versions.
 
-**Parameter list consistency fix** (June 2026): the §2.6 "Honest quantitative assessment" subsection previously listed "three free parameters (ε, f_inv, cascade partition)" but f_inv was an orphan variable (used nowhere else), f_deliver (added later) was missing, and $f_{\rm back}$ (used throughout) was missing. Replaced with the actual four parameters used in the paper: ε_{3+1D} ~ 10⁻³⁸, $f_{\rm DE}$ ~ 10⁻⁸⁵, f_deliver ≤ 1, and cumulative 2D back-projection efficiency. The other parameter list at line 269 (R, $\tau_{2D}$, $E_{\rm 2D}$, projection fraction) is properly contextualized as the *DM-specific* parameters, not the *global* parameters.
+**Parameter list consistency fix** (June 2026): the §2.6 "Honest quantitative assessment" subsection previously listed "three free parameters (ε, f_inv, cascade partition)" but f_inv was an orphan variable (used nowhere else), f_deliver (added later) was missing, and $f_{\rm back}$ (used throughout) was missing. Replaced with the actual four parameters used in the paper: ε_{3+1D} ~ 10⁻³⁸, $f_{\rm DE}$ ~ 10⁻⁸⁵, f_deliver ≤ 1, and cumulative 2D back-projection efficiency. The other parameter list at line 269 (R, $\tau_{\rm 2D}$, $E_{\rm 2D}$, projection fraction) is properly contextualized as the *DM-specific* parameters, not the *global* parameters.
 
 **Version header trimmed** (June 2026): the v2.0 version header at the top of paper.md was 1126 chars (describing all v1.x → v2.0 changes inline). Trimmed to 369 chars (one-line summary pointing to changelog for details).
 
@@ -3893,8 +3893,8 @@ Following extensive real-data testing, the paper now reports **17 test categorie
 
 | Section | Old (wrong) | New (correct) |
 |---|---|---|
-| §2.3 SN $\tau_{2D}$ | 10⁻¹⁰ s | 33 s |
-| §2.3 LHC $\tau_{2D}$ | 10⁻²⁵ s | 3×10⁻²⁴ s |
+| §2.3 SN $\tau_{\rm 2D}$ | 10⁻¹⁰ s | 33 s |
+| §2.3 LHC $\tau_{\rm 2D}$ | 10⁻²⁵ s | 3×10⁻²⁴ s |
 | §4.7 SN visible light | 10⁴⁹ ergs | 1.6×10⁴⁸ ergs (10⁶⁰ eV conversion) |
 | §4.7 Sun total output | 7.5×10⁵² ergs | 1.2×10⁵¹ ergs |
 | §4.10 Sgr A* Schwarzschild | 10¹⁰ m | 1.2×10¹⁰ m |
@@ -3946,7 +3946,7 @@ The cascade is *infinite in principle* (no a priori depth limit) but *practicall
 **Overstatement audit (v2.5, commit 282)**: audited the paper for overstatements and found five to clean up:
 1. **Abstract "4.5-decade-universal g₊" → "approximately constant g₊ but r=+0.19, p=0.22, NOT significant"**. The data shows g₊ is approximately constant at galaxy scale, but the per-galaxy correlation with $M_b$ is NOT statistically significant. The "universal" claim overstated the statistical evidence.
 2. **"matches ΛCDM exactly at all z" → "matches ΛCDM to within 0.1% at all z"**. r(z=6) = 342.0 vs (1+6)³ = 343; r(z=10) = 1327 vs (1+10)³ = 1331. "Exactly" was loose; "to within 0.1%" is more honest.
-3. **"MATCHING MCMC 0.0513 without any fitting" → "MATCHING, conditional on $\tau_{2D}$ = 0.7 Gyr by physical analogy"**. $\tau_{2D}$ = 0.7 Gyr is itself identified by physical analogy ($M_{\rm 2D}$ ~ 1 × 10⁴⁶ J / L_consumption ~ 1 × 10²⁸ W), so the "without any fitting" claim was misleading.
+3. **"MATCHING MCMC 0.0513 without any fitting" → "MATCHING, conditional on $\tau_{\rm 2D}$ = 0.7 Gyr by physical analogy"**. $\tau_{\rm 2D}$ = 0.7 Gyr is itself identified by physical analogy ($M_{\rm 2D}$ ~ 1 × 10⁴⁶ J / L_consumption ~ 1 × 10²⁸ W), so the "without any fitting" claim was misleading.
 4. **"matches Tian+ 2024's 1.7 × 10⁻⁹ within 1σ" → "within 30%, MCMC 1σ range includes 1.7 × 10⁻⁹"**. The 1.3 × 10⁻⁹ vs 1.7 × 10⁻⁹ is 24% off, but the MCMC 1σ range (5.3 × 10⁻¹⁰ to 2.7 × 10⁻⁹) does include 1.7 × 10⁻⁹. "30%" is more honest than "within 1σ".
 5. **"g₊ ∝ σ^1.85 matches MOND EFE σ^2 almost exactly" → "approximately matches (1.85 vs 2.0, 7.5% off)"**. "Almost exactly" was loose.
 6. **$f_{\rm back}$ notational confusion clarified**: the v2.4 refactor's "$f_{\rm back}$ DERIVED" refers to the destruction channel (f_back^destruction = 1, from J_bulk = 0 BC). The dark-energy staying fraction f_back^DE ~ 10⁻⁸⁵ is a DIFFERENT parameter that remains postulated. The paper now distinguishes between the two.
@@ -4678,7 +4678,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 
 **KEY DERIVATIONS (#28-#33)**:
 - **#32 $M_{\rm Pl,4D}$ = α-weighted GM**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = (1.22×10¹⁹)^1.289 × (3×10³)^(-0.289) = 4×10²³ GeV (DERIVED, was 887 GeV Scenario X).
-- **#33 4D event universe-scale**: $E_{\rm 4D}$ = 5×10⁷⁹ J (10⁸× observable universe), $\gamma_{4D}$ = 1.10×10¹¹¹ (A2) [v3.3 value, REVISED to 1.10×10¹¹¹ (A2) by L308t precision], $\tau_{3D_apparent}$ = 9.10×10²⁴ yr [v3.3 value, REVISED to 1.66×10¹⁴⁵ yr (A2) by L308t].
+- **#33 4D event universe-scale**: $E_{\rm 4D}$ = 5×10⁷⁹ J (10⁸× observable universe), $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2) [v3.3 value, REVISED to 1.10×10¹¹¹ (A2) by L308t precision], $\tau_{3D_apparent}$ = 9.10×10²⁴ yr [v3.3 value, REVISED to 1.66×10¹⁴⁵ yr (A2) by L308t].
 - **#34 α^5 DROPPED**: Was empirical coincidence (1% off, wrong direction).
 
 **v3.3 KEY PARAMS (post-#33, REVISED v3.5.8+/v3.5.9+ L308r/t/z)**:
@@ -4688,8 +4688,8 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - $E_{\rm 4D}$ = 5×10⁷⁹ J (DERIVED via $N_{\rm sub}$ × $E_{\rm sub}$, L308o)
 - α = 1.289 → **FIRST-PRINCIPLES** via Schwarzian SYK $N=12$ (L308n)
 - ε = 10⁻³⁸ (CALIBRATED)
-- $\tau_{4D}$ = 1.51×10³⁴ yr (CALIBRATED)
-- $\gamma_{4D}$ = 1.10×10¹¹¹ (A2) → **1.10×10¹¹¹ (A2)** (L308t precision)
+- $\tau_{\rm 4D}$ = 1.51×10³⁴ yr (CALIBRATED)
+- $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2) → **1.10×10¹¹¹ (A2)** (L308t precision)
 - $\tau_{3D_apparent}$ = 9.10×10²⁴ yr → **1.66×10¹⁴⁵ yr (A2)** (L308t precision)
 - $N_{\rm sub}$ = 4×10² → **3.86×10²** (FREE event-specific, L308z)
 - $E_{\rm sub}$ = (added L308z) → **1.295×10⁷⁷ J** (STRUCTURAL)
@@ -4736,7 +4736,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
   - 3D: 12 fermion FLAVORS across 3 generations (4 Dirac × 3)
   - 4D: F-theory 12D (structural)
 - **v3.4.7 META-ANALYSIS**: Why "12" is common (12 = 2²×3 highly composite, 6 divisors, smallest with 6 for n ≤ 16). Same reason as 12 hours, 12 months, 12 semitones.
-- **v3.4.8 AGE IMPLICATIONS**: t_0/$\tau_{3D}$ = 1.5×10⁻¹⁵ → universe is at cosmic "day 1" → SIDC is INITIAL-CONDITIONS framework
+- **v3.4.8 AGE IMPLICATIONS**: t_0/$\tau_{\rm 3D}$ = 1.5×10⁻¹⁵ → universe is at cosmic "day 1" → SIDC is INITIAL-CONDITIONS framework
 
 **8 INCONSISTENCIES FOUND (v3.4.5-7)**:
 1. $N=12$ in SYK is standard benchmark, NOT theoretically motivated
@@ -4911,9 +4911,9 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 
 1. **MCMC PARAMETER CONVERGENCE** (BREAKTHROUGH):
    - Metropolis-Hastings MCMC with 15,000 samples over 6 free parameters
-   - **Tier 1 (4/9 STRONGLY CONSTRAINED)**: α, ε, $\tau_{4D}$, AGN rate converge within 0.5σ
+   - **Tier 1 (4/9 STRONGLY CONSTRAINED)**: α, ε, $\tau_{\rm 4D}$, AGN rate converge within 0.5σ
    - **Tier 2 (2/9 WEAKLY CONSTRAINED)**: $M_{\rm Pl,2D}$ (1.75 vs 3 TeV), $N_{\rm sub}$ (217 vs 400)
-   - **Tier 3 (3/9 DERIVED)**: $M_{\rm Pl,4D}$, $\gamma_{4D}$, $E_{\rm 4D}$
+   - **Tier 3 (3/9 DERIVED)**: $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$
    - Confirms framework's structure is correct
 
 2. **α = 1 + 1/√12 FIRST-PRINCIPLES** (BREAKTHROUGH):
@@ -4954,7 +4954,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 **NEW CALCULATIONS** (5 files):
 - calculations/v35_monte_carlo_parameter_search.py (MCMC breakthrough)
 - calculations/v35_2d_cft_monte_carlo_alpha.py (α first-principles derivation)
-- calculations/v35_first_principles_rest.py ($M_{\rm Pl,2D}$, $N_{\rm sub}$, ε, $\tau_{4D}$ search)
+- calculations/v35_first_principles_rest.py ($M_{\rm Pl,2D}$, $N_{\rm sub}$, ε, $\tau_{\rm 4D}$ search)
 - calculations/v35_n_sub_scaling.py ($N_{\rm sub}$ = $E_{\rm 4D}$/$E_{\rm sub}$)
 - calculations/v35_2d_universe_quantum.py ($M_{\rm 2D}$ discrete)
 
@@ -4991,8 +4991,8 @@ m DE,closed}$ renaming
 
 **Reason for version bump:** Three major consistency findings after A1 framework audit:
 
-1. **CRITICAL MATH FIX (pass 8)**: $\gamma_{4D}$ formula in 03b_predictions.md was
-   $\gamma_{4D}$ = ($E_{\rm 4D}$/$M_{\rm Pl,4D}$)^α but should be ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α ($M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$).
+1. **CRITICAL MATH FIX (pass 8)**: $\gamma_{\rm 4D}$ formula in 03b_predictions.md was
+   $\gamma_{\rm 4D}$ = ($E_{\rm 4D}$/$M_{\rm Pl,4D}$)^α but should be ($E_{\rm 4D}$/$M_{\rm Pl,3D}$)^α ($M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$).
    The original formula gives 8.4e103, the correct formula gives 1.10e111 ✓
 
 2. **NAMING REVOLUTION (pass 10, USER-CAUGHT)**: `$f_{\rm back}$` is the LEGACY name
@@ -5011,8 +5011,8 @@ m DE,closed}$` = 1.79×10⁻⁹⁰ (A2, $\alpha_{4D}$=1.577, ε=6.32×10⁻³⁴
    - α universality (L103) DROPPED
    - ε recalibrated: 1×10⁻³⁸ → 6.32×10⁻³⁴ (+4.8 orders)
    - $kL$: 87.5 (A1) → 76.4 (A2)
-   - $\gamma_{4D}$: 5.70×10⁹⁰ (A1) → 1.10×10¹¹¹ (A2) (+20.3 orders)
-   - $\tau_{3D,apparent}$: 8.61×10¹²⁴ (A1) → 1.66×10¹⁴⁵ (A2) yr
+   - $\gamma_{\rm 4D}$: 5.70×10⁹⁰ (A1) → 1.10×10¹¹¹ (A2) (+20.3 orders)
+   - $\tau_{\rm 3D,apparent}$: 8.61×10¹²⁴ (A1) → 1.66×10¹⁴⁵ (A2) yr
 
 4. **$N=12$ DOWNGRADED to STRUCTURAL (L308ag, L308ap)**: 4 FP → 3 FP, +1 STRUCTURAL
    - Tier 1 (pure derivation): NO
@@ -5024,7 +5024,7 @@ m DE,closed}$` = 1.79×10⁻⁹⁰ (A2, $\alpha_{4D}$=1.577, ε=6.32×10⁻³⁴
    - Pass 1-3: parameter hierarchy, $N=12$ dedup
    - Pass 4: 156 → 144 limitations, v3.5.9+ A1 → A2
    - Pass 5-7: 5th → 4th calibrated, version headers
-   - Pass 8: $\gamma_{4D}$ formula fix
+   - Pass 8: $\gamma_{\rm 4D}$ formula fix
    - Pass 9-11: $f_{
 m DE,closed}$ renaming, $kL$ fix, $f_{
 m DE,simple}$
@@ -5038,10 +5038,10 @@ m DE,simple}$
 
 **State at v3.5.9+ A2**:
 - 144 master table limitations (156 with L308af-ay in A2)
-- 15 parameters: 1 MEASURED + 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 CALIBRATED (ε, $\tau_{4D}$, AGN, $f_{\rm leak}$) + 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$) + 1 FREE ($N_{\rm sub}$)
+- 15 parameters: 1 MEASURED + 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 CALIBRATED (ε, $\tau_{\rm 4D}$, AGN, $f_{\rm leak}$) + 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$) + 1 FREE ($N_{\rm sub}$)
 - 476 pages, 1.94 MB
 - 50 unique L308 entries (a-ay minus ax)
-- All values consistent: $\gamma_{4D}$=1.10e111, $\tau_{3D,apparent}$=1.66e145 yr,
+- All values consistent: $\gamma_{\rm 4D}$=1.10e111, $\tau_{\rm 3D,apparent}$=1.66e145 yr,
   $f_{
 m DE,closed}$=1.79e-90, ε=6.32e-34, $M_{\rm Pl,4D}$=3.93e23 GeV, $\rho_{\rm DE}$=2.5e-47,
   $M_{\rm Pl,2D}$=2.95 TeV, μ=8.73e6 GeV², $N_{\rm sub}$=386, $E_{\rm sub}$=1.295e77 J
