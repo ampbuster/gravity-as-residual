@@ -452,6 +452,33 @@ def step_fix_greek_value_patterns(dry_run=False):
     return True
 
 
+def step_fix_unicode_times_powers(dry_run=False):
+    """Wrap plain-text 'number × 10^N [unit]' in $...$ math (or convert in-place if inside math).
+
+    Problem: Plain text like '3.93×10²³ GeV' or Unicode × (U+00D7) and
+    Unicode superscript digits (⁰¹²³⁴⁵⁶⁷⁸⁹) don't render correctly in
+    plain text outside LaTeX math mode. Inside math mode, they should be
+    converted to LaTeX equivalents (\times 10^{N}).
+
+    Examples:
+      '$f_{\\rm DE,closed}$ = 1.79×10⁻⁹⁰'
+        → '$f_{\\rm DE,closed} = 1.79 \\times 10^{-90}$'
+      '$\\rho_{\\rm DE}$ = 2.5×10⁻⁴⁷ GeV⁴'
+        → '$\\rho_{\\rm DE} = 2.5 \\times 10^{-47}\\,\\text{GeV}^4$'
+      '5.7×10³⁸ yr' (in plain text)
+        → '$5.7 \\times 10^{38}$ yr'
+
+    Skips: code blocks (```...```), inline code (`...`).
+    Handles both outside-math (wraps in $...$) and inside-math (converts in-place).
+    """
+    print('\n=== Step 12: fix_unicode_times_powers ===')
+    if dry_run:
+        run_script('fix_unicode_times_powers.py --all', capture=False)
+    else:
+        run_script('fix_unicode_times_powers.py --all', capture=False)
+    return True
+
+
 STEPS = [
     'fix_broken_wraps',
     'fix_unbalanced_dollars',
@@ -467,6 +494,7 @@ STEPS = [
     'fix_physics_subscripts',  # NEW: wrap H_0, M_*, sigma_int, etc.
     'replace_unicode_fallback',  # NEW: replace Unicode chars missing from DejaVu Serif
     'fix_greek_value_patterns',  # NEW: wrap Greek=value with Unicode superscript in $...$
+    'fix_unicode_times_powers',  # NEW: wrap x10^n plain text or convert in-math
     'build_pdf',
     'audit',
 ]
@@ -495,6 +523,7 @@ def main():
         'fix_physics_subscripts': step_fix_physics_subscripts,
         'replace_unicode_fallback': step_replace_unicode_fallback,
         'fix_greek_value_patterns': step_fix_greek_value_patterns,
+        'fix_unicode_times_powers': step_fix_unicode_times_powers,
         'build_pdf': step_build_pdf,
         'audit': step_audit,
     }
