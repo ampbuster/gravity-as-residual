@@ -1945,7 +1945,7 @@ clearly marked as HISTORICAL (Fₚ(z) Hill function was DROPPED in v3.3+).
 - N = 12 (FIRST-PRINCIPPLES, L308u)
 - ε = 10⁻³⁸ (CALIBRATED)
 - $\tau_{\rm 4D}$ = 1.51 \times 10^{34}\,\text{yr} (CALIBRATED)
-- AGN rate = 10⁻¹⁵·⁵² /s (CALIBRATED)
+- AGN rate = 10^{-15.52}/s (CALIBRATED)
 - $f_{\rm leak}$ = H₀ = 2.18 \times 10^{-18}/s (CALIBRATED, NEW A1)
 - $E_{\rm 4D}$ = 5 \times 10^{79}\,\text{J} (DERIVED, L308o)
 - $E_{\rm sub}$ = 1.295 \times 10^{77}\,\text{J} (STRUCTURAL, L308z)

@@ -4678,7 +4678,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - $\tau_{3D_apparent}$ = $9.10 \times 10^{24}\,\text{yr}$ → **$1.66 \times 10^{145}\,\text{yr}$ (A2)** (L308t precision)
 - $N_{\rm sub}$ = $4 \times 10^{2}$→ **$3.86 \times 10^{2}$** (FREE event-specific, L308z)
 - $E_{\rm sub}$ = (added L308z) → **$1.295 \times 10^{77}\,\text{J}$** (STRUCTURAL)
-- AGN rate = $3 \times 10^{-16}$/m³/s → **10⁻¹⁵·⁵² /s** (CALIBRATED)
+- AGN rate = $3 \times 10^{-16}$/m³/s → **10^{-15.52}/s** (CALIBRATED)
 - $f_{\rm leak}$ = (added A1) → **H₀ = $2.18 \times 10^{-18}$/s** (CALIBRATED)
 - μ = (added L308r) → **$8.73 \times 10^{6}\,\text{GeV}$²** (FIRST-PRINCIPLES, was $9 \times 10^{6}$)
 - N = 12 = (added L308u) → **FIRST-PRINCIPLES** via Appelquist 2001 + Z_12 + 6D anomaly
