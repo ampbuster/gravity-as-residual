@@ -1,3 +1,45 @@
+### L308dr/ds/dt (2026-06-25) — α_2D/4D wrapping + f_DE,closed fixes (1233 notation fixes)
+
+User reported "still plenty of either broken math notation or not in math notation" in the rendered PDF, especially in README.md parameter hierarchy section.
+
+**Issues found**:
+1. `α_2D`, `α_3+1D`, `α_4D` in plain text (not in math mode)
+2. `ε = 6.32×10⁻³⁴` plain text (not in math mode)
+3. `ρ_DE = 2.5×10⁻⁴⁷ GeV⁴` plain text
+4. `γ_4D = 1.10×10¹¹¹` plain text
+5. `τ_3D,apparent = 1.66×10¹⁴⁵ yr` plain text
+6. `$N_{\rm sub} = 386 (e$ vent-specific)` — double-broken math from L308dq missed
+7. `$\alpha_{3}+1D$` — +1D leaks out of math mode (subscript closes too early)
+8. `$f_{\rm DE}$,closed` — comma breaks math delimiter
+9. `f×ε invariant` or `f × ε invariant` plain text
+
+**Fixes applied**:
+
+L308dr — 612 notation fixes (α_2D/4D, ε=value, e vent-specific):
+- README.md L166 source bug: `$N_{\rm sub} = 386 (e$ vent-specific)` → `$N_{\rm sub} = 386$ (event-specific)`
+- Updated `fix_unicode_greek_subscripts.py` regex to handle digit-first subscripts (α_2D, α_4D, α_3+1D)
+- NEW build tool `fix_greek_value_patterns.py`: wraps standalone Greek=value patterns in `$...$` math
+- Added Step 11 to `master_pipeline.py`
+
+L308ds — 30 broken `$\alpha_{3}+1D$` patterns:
+- Updated `greek_to_latex_with_subscripts()` to greedily consume `+`, `-`, `.`, `_` in subscript chars
+- Post-processed existing broken patterns in 30 places across README/changelog/markdown files
+
+L308dt — 155 broken math patterns:
+- 131 `$f_{\rm X}$,Y` → `$f_{\rm X,Y}$` patterns (combining broken math delimiters)
+- 24 plain-text `f×ε invariant` → `$f \times \varepsilon$ invariant`
+- README.md 'Evaluates to ...' line fully reworked with proper math mode
+
+**Files modified**:
+- README.md, STATE_OF_THE_MODEL.md, changelog.md, persistent_memory.md, RELEASE_NOTES_v3.5.9-A2.md
+- 18 markdown files in paper/markdown/
+- paper/build_tools/fix_greek_value_patterns.py (NEW)
+- paper/build_tools/fix_unicode_greek_subscripts.py (regex update)
+- paper/build_tools/master_pipeline.py (Step 11 added)
+
+**Build**: CLEAN at 612 pages, 2.10 MB
+**Total fixes this session**: 612 (greek subscripts) + 467 (greek values) + 30 (alpha_3+1D) + 155 (f_DE,closed) = 1264 notation fixes
+
 ### L308dl (2026-06-24) — BUILD CLEAN: paper.pdf 612 pages, 2.07 MB
 - Source bug fixes (math outside math mode in source markdown):
   - `04_predictions.md` L468: `R_{SIDC} = f_{deliver}` and `10^{30/40} J` wrapped in `...`

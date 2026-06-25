@@ -2094,3 +2094,31 @@ uses bilateral cascade with $f_{\rm leak}$ = H₀.
 
 **L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford C(6) SM algebra, Stoica 2018). No numerical changes.
 - **L308dk + L308dl** (Jun 24, 2026): Build pipeline improvements + LaTeX build error fixes. L308dk: state machine for `XY` patterns (71 fixes). L308dl: source bug fixes + extended fix tool to handle `X^N` digit exponent outside math (22 additional fixes). Build progressed: 168 → 253 → 263 → 269 → 300 → 366 → 424 → 428 → 429 → 547 → **612 pages** (clean). Files: 06_limitations.md, 07_conclusion.md, 11_testable.md, 00_title.md, 04_predictions.md. Commit: 64e66de. Pushed via SSH.
+
+## L308dr/ds/dt — α_2D/4D wrapping + f_DE,closed fixes (1264 notation fixes, Jun 25 2026)
+
+User reported "still plenty of either broken math notation or not in math notation" in rendered PDF, especially in README.md parameter hierarchy section.
+
+**Issues found**:
+1. `α_2D`, `α_3+1D`, `α_4D` plain text (not in math mode)
+2. `ε = 6.32×10⁻³⁴` plain text
+3. `ρ_DE = 2.5×10⁻⁴⁷ GeV⁴` plain text
+4. `γ_4D = 1.10×10¹¹¹` plain text
+5. `τ_3D,apparent = 1.66×10¹⁴⁵ yr` plain text
+6. `$N_{\rm sub} = 386 (e$ vent-specific)` — double-broken math from L308dq missed
+7. `$\alpha_{3}+1D$` — +1D leaks out of math mode
+8. `$f_{\rm DE}$,closed` — comma breaks math delimiter
+9. `f×ε invariant` plain text
+
+**Fixes**:
+- L308dr (612): fix_unicode_greek_subscripts.py regex update + new fix_greek_value_patterns.py
+- L308ds (30): Fix $\alpha_{3}+1D$ broken math (subscript closes too early)
+- L308dt (155): $f_{\rm X}$,Y → $f_{\rm X,Y}$ + f×ε → $f \times \varepsilon$
+
+**Commits**:
+- `8b134b8` L308dr
+- `3287d32` L308ds  
+- `5a9497c` L308dt
+
+**Build**: CLEAN at 612 pages, 2.10 MB
+**Total fixes**: 1264 notation fixes across all 23 markdown files + 5 root files.
