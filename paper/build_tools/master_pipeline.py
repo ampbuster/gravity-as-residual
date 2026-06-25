@@ -479,6 +479,36 @@ def step_fix_unicode_times_powers(dry_run=False):
     return True
 
 
+
+
+def step_fix_subscript_vars(dry_run=False):
+    """Wrap subscript variable references in $...$ math mode.
+
+    Problem: Plain text patterns like 'r_12', 'l_12', 'D_A', 'theta_*',
+    'M_Pl,3D', 'tau_2D', etc. appear in narrative without $...$ math.
+    In LaTeX, '_' followed by letters outside math is an error or renders
+    as plain underscore.
+
+    Examples:
+      'Excess at specific multipole l_12 = π × D_A / r_12'
+        → 'Excess at specific multipole $l_{12} = \pi \times D_A / r_{12}$'
+      'r_12_disk = 5 kpc'
+        → '$r_{\\rm 12,disk} = 5$ kpc'
+      'M_Pl,4D = 3.93×10^23 GeV'
+        → '$M_{\\rm Pl,4D} = 3.93 \times 10^{23}\,\\text{GeV}$'
+
+    Skips: code blocks, URLs, filenames, inline code.
+    """
+    print('\n=== Step 13: fix_subscript_vars ===')
+    if dry_run:
+        run_script('fix_subscript_vars.py --all', capture=False)
+    else:
+        run_script('fix_subscript_vars.py --all', capture=False)
+    return True
+
+
+
+
 STEPS = [
     'fix_broken_wraps',
     'fix_unbalanced_dollars',
@@ -495,6 +525,7 @@ STEPS = [
     'replace_unicode_fallback',  # NEW: replace Unicode chars missing from DejaVu Serif
     'fix_greek_value_patterns',  # NEW: wrap Greek=value with Unicode superscript in $...$
     'fix_unicode_times_powers',  # NEW: wrap x10^n plain text or convert in-math
+    'fix_subscript_vars',  # NEW: wrap r_12, l_12, D_A, M_Pl,3D etc.
     'build_pdf',
     'audit',
 ]
@@ -524,6 +555,7 @@ def main():
         'replace_unicode_fallback': step_replace_unicode_fallback,
         'fix_greek_value_patterns': step_fix_greek_value_patterns,
         'fix_unicode_times_powers': step_fix_unicode_times_powers,
+        'fix_subscript_vars': step_fix_subscript_vars,
         'build_pdf': step_build_pdf,
         'audit': step_audit,
     }
