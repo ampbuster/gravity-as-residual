@@ -159,10 +159,10 @@ Level    N    Clifford Structure                  First-principles
 | Status | Count | Parameters |
 |---|:---:|---|
 | 1 MEASURED | 1 | $M_{\rm Pl,3D}$ (Newton's G) |
-| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$ $v_H$ (L308r), μ = $M_{m Pl,2D}$² (L308r) |
-| 2 DERIVED | 2 | $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (L308o) |
-| 4 CALIBRATED | 4 | ε, $\tau_{4D}$, AGN rate, **$f_{\rm leak,3D→4D}$ = H₀** (A1 frame-neutral) |
-| 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$ |
+| 3 FIRST-PRINCIPLES | 3 | $\alpha = 1+1/\sqrt{12}$ (L308n), $M_{\rm Pl,2D} = 12 \times v_H$ (L308r), $\mu = M_{\rm Pl,2D}^2$ (L308r) |
+| 2 DERIVED | 2 | $M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{1-\alpha}$ ($\alpha$-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (L308o) |
+| 4 CALIBRATED | 4 | $\epsilon$, $\tau_{\rm 4D}$, AGN rate, **$f_{\rm leak,3D→4D}$ = H₀** (A1 frame-neutral) |
+| 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ |
 | 1 FREE | 1 | $N_{\rm sub} = 386$ (event-specific) |
 
 **Of 15 parameters: 1 measured, 3 first-principles, 2 derived, 4 calibrated — only 1 truly free.** The "dark sector" doesn't require any new particle masses, cross-sections, or cosmological-constant fine-tuning.
@@ -180,11 +180,11 @@ Level    N    Clifford Structure                  First-principles
 **Option B Strengthened** is the framework's official interpretation (L308bi): all three N values are first-principles derived, so α dim-specific is no longer just "structurally rich" — it's first-principles for every dim.
 
 **Numerical values (unchanged from A2):**
-- ε = 6.32×10⁻³⁴
-- $f_{m DE,closed}$ = 1.79×10⁻⁹⁰
-- $\gamma_{\rm 4D} = 1.10×10¹¹¹$
-- $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
-- $\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ GeV⁴ (EXACT)
+- $\epsilon = 6.32 \times 10^{-34}$
+- $f_{\rm DE,closed} = 1.79 \times 10^{-90}$
+- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
+- $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ yr
+- $\rho_{\rm DE} = 2.5 \times 10^{-47}\,\text{GeV}^4$ (EXACT)
 
 The switch from A1 to A2 is interpretive (justification), not numerical (re-calibration).
 
