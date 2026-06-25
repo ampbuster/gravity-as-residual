@@ -2114,11 +2114,15 @@ User reported "still plenty of either broken math notation or not in math notati
 - L308dr (612): fix_unicode_greek_subscripts.py regex update + new fix_greek_value_patterns.py
 - L308ds (30): Fix $\alpha_{3}+1D$ broken math (subscript closes too early)
 - L308dt (155): $f_{\rm X}$,Y → $f_{\rm X,Y}$ + f×ε → $f \times \varepsilon$
+- L308dv (8): README parameter hierarchy table cleanup
+- L308dw (344): Add `\rm` to subscripted Greek in math mode (τ_{3D,apparent} → τ_{\rm 3D,apparent})
 
 **Commits**:
 - `8b134b8` L308dr
 - `3287d32` L308ds  
 - `5a9497c` L308dt
+- `f137543` L308dv
+- `e56c3c7` L308dw
 
 **Build**: CLEAN at 612 pages, 2.10 MB
-**Total fixes**: 1264 notation fixes across all 23 markdown files + 5 root files.
+**Total fixes**: 1264 + 8 + 344 = 1616 notation fixes across all 23 markdown files + 5 root files.
