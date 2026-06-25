@@ -72,7 +72,7 @@ The L308 chain (L308ab-L308ce) covers:
 - **L308bn** — $M_{\rm Pl,4D}$ Re-Derivation in A2
 - **L308bo** — DE/DM Ratio Evolution
 - **L308bp** — DM-DE Unification
-- **L308bq** — Decel-Accel Transition (z_t = 0.63)
+- **L308bq** — Decel-Accel Transition ($z_t$ = 0.63)
 - **L308br** — DM/DE Cleaner Narrative (DE = const, DM = depleted)
 - **L308bs** — TIGHT vs LOOSE Correlation
 - **L308bt** — TIGHT Overshoots Hubble Tension
@@ -102,7 +102,7 @@ m DE,closed}$ = $1.79 \times 10^{-90}$- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
 - $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴ (matches observed)
 - $f \times \varepsilon$ invariant = $1.13 \times 10^{-123}$(preserved across A1 and A2)
 - $H_0$ = 67.4 km/s/Mpc (Planck, inherited from ΛCDM)
-- r_s = 141.85 Mpc (1.88% off Planck 144.57)
+- $r_s$ = 141.85 Mpc (1.88% off Planck 144.57)
 
 **15 parameters:**
 - 1 MEASURED ($M_{\rm Pl,3D}$)

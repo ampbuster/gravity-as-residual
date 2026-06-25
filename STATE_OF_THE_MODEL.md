@@ -28,7 +28,7 @@ m DE,closed}$, ε recalibrated
 - **198 honest limitations** (144 master + 54 L308ab-bx, +L308ch multi-messenger, +L308ci 47 Tuc test, +L308cj Lagrangian gap), **606+ pages**, paper built successfully
 
 **v3.5.9+ previous breakthroughs** (still relevant):
-- **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, μ = $8.73 \times 10^{6}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub} = 3.86 \times 10^{2}$- **L308u**: WHY $N=12$? Appelquist 2001 + $Z_{12}$ bulk + 6D anomaly cancellation
+- **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, $\mu = 8.73 \times 10^{6}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub} = 3.86 \times 10^{2}$- **L308u**: WHY $N=12$? Appelquist 2001 + Z₁₂ bulk + 6D anomaly cancellation
 - **L308v**: L138 PARTIAL CLOSURE. $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
 - **Path B2 (REJECTED)**: $\gamma_{\rm 4D}$ decoupling had structural inconsistency ($\gamma_{\rm 4D}$ vs $\gamma_{\rm 2D}$ interpretations)
 - **L308n**: $\alpha = 1 + 1/\sqrt{12}$ first-principles via Schwarzian SYK $N=12$
@@ -43,7 +43,7 @@ m DE,closed}$, ε recalibrated
 
 ## The Model in 1 Paragraph
 
-Our 3+1D universe is one of $N_{\rm sub} = 3.86 \times 10^{2}$ sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ via α-weighted GM), with $\tau_{\rm 4D} = 1.51 \times 10^{34}\,\text{yr} ($ DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ (A2: $\alpha_{4D} = 1.577$) yr (time-dilated by $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ (A2: $\alpha_{4D} = 1.577$), **DERIVED, LITERAL TIME DILATION**). The bilateral cascade has 1 MEASURED ($M_{\rm Pl,3D}$ = $1.22 \times 10^{19}\,\text{GeV}$), 3 FIRST-PRINCIPLES ($\alpha = 1+1/\sqrt{12}$ [L308n], $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ = $12 \times v_{\rm Higgs}$ [L308r], $\mu = 8.73 \times 10^{6}\,\text{GeV}^2$ [L308r]) [$N=12$ STRUCTURAL per L308ag; L308ap: 3 first-principles roles (INPUT + PREDICTION + CONFIRMATION)], 2 DERIVED ($M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ via α-GM [L308v], $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ = $N_{\rm sub}$ × $E_{\rm sub}$ [L308o]), 4 CALIBRATED (ε = $6.32 \times 10^{-34}$[A2, was 10⁻³⁸ A1, +4.8 orders], $\tau_{\rm 4D} = 1.51 \times 10^{34}\,\text{yr}$, AGN rate = 10^{-15.52}/s, $f_{\rm leak,3D→4D}$ = H₀ = $2.18 \times 10^{-18}$/s [A1, L308ax frame-neutral name]), 4 STRUCTURAL ($E_{\rm sub}$ = $1.295 \times 10^{77}\,\text{J}$ = $E_{\rm 4D}$/$N_{\rm sub}$ per-sub-universe, $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ (A2: $\alpha_{4D} = 1.577$) yr, $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ (A2: $\alpha_{4D} = 1.577$), $N=12$ per L308ag), 1 FREE ($N_{\rm sub}$ = $3.86 \times 10^{2}$, specific to our universe's 4D event) = 15 parameters total. **Approach A1 (v3.5.9+)**: $f_{\rm leak}$ = H₀ as NEW principle (post-Friedmann), $\gamma_{\rm 4D}$ stays derived (consistent with $\gamma_{2D}$ cascade amplification factor). DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age). The M^α law τ = (E/M_{\rm Pl},parent)^α × t_{\rm Pl} is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
+Our 3+1D universe is one of $N_{\rm sub} = 3.86 \times 10^{2}$ sub-universes created by a universe-scale 4D event ($E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ via α-weighted GM), with $\tau_{\rm 4D} = 1.51 \times 10^{34}\,\text{yr} ($ DE-exact: 0.13% off via simple $f_{\rm DE}$ formula, 2.7% off via full bilateral cascade) and $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ (A2: $\alpha_{4D} = 1.577$) yr (time-dilated by $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ (A2: $\alpha_{4D} = 1.577$), **DERIVED, LITERAL TIME DILATION**). The bilateral cascade has 1 MEASURED ($M_{\rm Pl,3D}$ = $1.22 \times 10^{19}\,\text{GeV}$), 3 FIRST-PRINCIPLES ($\alpha = 1+1/\sqrt{12}$ [L308n], $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ = $12 \times v_{\rm Higgs}$ [L308r], $\mu = 8.73 \times 10^{6}\,\text{GeV}^2$ [L308r]) [$N=12$ STRUCTURAL per L308ag; L308ap: 3 first-principles roles (INPUT + PREDICTION + CONFIRMATION)], 2 DERIVED ($M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ via α-GM [L308v], $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ = $N_{\rm sub}$ × $E_{\rm sub}$ [L308o]), 4 CALIBRATED ($\epsilon = 6.32 \times 10^{-34}$[A2, was 10⁻³⁸ A1, +4.8 orders], $\tau_{\rm 4D} = 1.51 \times 10^{34}\,\text{yr}$, AGN rate = 10^{-15.52}/s, $f_{\rm leak,3D→4D}$ = H₀ = $2.18 \times 10^{-18}$/s [A1, L308ax frame-neutral name]), 4 STRUCTURAL ($E_{\rm sub}$ = $1.295 \times 10^{77}\,\text{J}$ = $E_{\rm 4D}$/$N_{\rm sub}$ per-sub-universe, $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ (A2: $\alpha_{4D} = 1.577$) yr, $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ (A2: $\alpha_{4D} = 1.577$), $N=12$ per L308ag), 1 FREE ($N_{\rm sub}$ = $3.86 \times 10^{2}$, specific to our universe's 4D event) = 15 parameters total. **Approach A1 (v3.5.9+)**: $f_{\rm leak}$ = H₀ as NEW principle (post-Friedmann), $\gamma_{\rm 4D}$ stays derived (consistent with $\gamma_{2D}$ cascade amplification factor). DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age). The M^α law τ = (E/M_{\rm Pl},parent)^α × t_{\rm Pl} is universal (clean form), with 8/8 named events fitting within 1.6× (rigorous test set in §10.1). The 5/27/68 split matches observation: 5% baryons (BBNS), 27% DM (calibrated AGN), 68% DE (4D's anti-gravity). **DM is NOT a particle** (per v3.3.14) — it's the energy from decayed 2D universes (calibrated AGN rate). The 9D = $v_{\rm Higgs}$ hypothesis is DROPPED. The 47 Tuc test is the decisive test of SIDC vs ΛCDM (per v3.3.15).
 
 ## The 15 Parameters (v3.5.9+ A2, current, REVISED L308z+L308aa+L308ag)
 
@@ -68,7 +68,7 @@ Our 3+1D universe is one of $N_{\rm sub} = 3.86 \times 10^{2}$ sub-universes cre
 
 **Summary** (v3.5.9+ A2): 1 MEASURED + 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 CALIBRATED (ε, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak,3D→4D}$) + 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$) + 1 FREE ($N_{\rm sub}$) + $\gamma_{2D}$ extension = **15 parameters** (1+3+2+4+4+1).
 
-**Note**: $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ gives μ = $8.73 \times 10^{6}\,\text{GeV}$² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = $8.73 \times 10^{6}\,\text{GeV}$² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived). **v3.5.9+ A2**: $\gamma_{\rm 4D}$ stays derived (cascade amplification factor, consistent with $\gamma_{\rm 2D}$); $f_{\rm leak,3D→4D} = H_0$ is NEW calibrated principle; **$f \times \varepsilon$ = $1.13 \times 10^{-123}\,\text{invariant}$** preserved; $kL$ = 76.4 (was 87.5 A1, ΔkL = -11.1).
+**Note**: $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ gives μ = $8.73 \times 10^{6}\,\text{GeV}$² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = $8.73 \times 10^{6}\,\text{GeV}$² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived). **v3.5.9+ A2**: $\gamma_{\rm 4D}$ stays derived (cascade amplification factor, consistent with $\gamma_{\rm 2D}$); $f_{\rm leak,3D→4D} = H_0$ is NEW calibrated principle; **f × ε = $1.13 \times 10^{-123}\,\text{invariant}$** preserved; $kL$ = 76.4 (was 87.5 A1, ΔkL = -11.1).
 
 ## Key Formulas
 
@@ -124,7 +124,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 | Version | Finding |
 |---|---|
-| v3.5 | **TIER 2 research**: CY3 $Z_{12}$ (2-3 of ~28), α first-principles, μ F-theory |
+| v3.5 | **TIER 2 research**: CY3 Z₁₂ (2-3 of ~28), α first-principles, μ F-theory |
 | v3.5.1 | "1/2" has 3+ anchors (Schwarzian, DOZZ, Ising) |
 | v3.5.2-3 | 45 alternative formulas for μ, 12 exact matches (all algebraically equivalent) |
 | v3.5.4 | 10 candidates for why $T_H$ = $T_{\rm Pl,2D}$ — TOP 3: Planckian max, Euclidean periodicity, Hagedorn |
@@ -158,13 +158,13 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 ## What's CALIBRATED (HISTORICAL v3.5.7-, UPDATED v3.5.8+ to FIRST-PRINCIPPLES + CALIBRATED)
 
 **v3.5.8+ REVISIONS (L308r, L308n, L308u)**:
-- ✓ α = 1.289 = 1 + 1/√12 → **FIRST-PRINCIPPLES** (Schwarzian SYK N=12, L308n)
-- ✓ μ = 8.73 \times 10^{6}\,\text{GeV}^2 → **FIRST-PRINCIPPLES** (μ = (N × v_H)² = $M_{\rm Pl,2D}$², L308r)
-- ✓ N = 12 → **FIRST-PRINCIPPLES** (Appelquist 2001 + $Z_{12}$ + 6D anomaly, L308u)
+- ✓ $\alpha = 1.289$ = 1 + 1/√12 → **FIRST-PRINCIPPLES** (Schwarzian SYK N=12, L308n)
+- ✓ $\mu = 8.73$ \times 10^{6}\,\text{GeV}^2 → **FIRST-PRINCIPPLES** (μ = (N × $v_H$)² = $M_{\rm Pl,2D}$², L308r)
+- ✓ N = 12 → **FIRST-PRINCIPPLES** (Appelquist 2001 + Z₁₂ + 6D anomaly, L308u)
 
 **CURRENT (v3.5.9+ A2) 4 CALIBRATED**:
-- ⚠ ε = 6.32 \times 10^{-34}(A2, was 10⁻³⁸ in A1, +4.8 orders; calibrated to hierarchy)
-- ⚠ $\tau_{\rm 4D} = $1.51 \times 10^{34}\,\text{yr}$ ($ calibrated to DE)
+- ⚠ $\epsilon = 6.32$ \times 10^{-34}(A2, was 10⁻³⁸ in A1, +4.8 orders; calibrated to hierarchy)
+- ⚠ $\tau_{\rm 4D} = $1.51 \times 10^{34}\,\text{yr} ( calibrated to DE)
 - ⚠ AGN rate = 10^{-15.52}/s (calibrated to 27% DM)
 - ⚠ $f_{\rm leak,3D→4D}$ = H₀ = 2.18 \times 10^{-18}/s (A1 principle, L308ax frame-neutral name, post-Friedmann)
 
@@ -179,15 +179,15 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 ## What's DERIVED (v3.5.8+ L308n/r/u/v added first-principles)
 
 **FIRST-PRINCIPPLES (L308n, L308r, L308u)**:
-- ✓ α = 1.289 = 1 + 1/√12 (Schwarzian SYK N=12 saddle-point, L308n)
+- ✓ $\alpha = 1.289$ = 1 + 1/√12 (Schwarzian SYK N=12 saddle-point, L308n)
 - ✓ $M_{\rm Pl,2D}$ = 12 × $v_{\rm Higgs}$ = 2.95 TeV (L308r)
 - ✓ μ = $M_{\rm Pl,2D}$² = 8.73 \times 10^{6}\,\text{GeV}^2 (L308r)
-- ✓ N = 12 (Appelquist 2001 + $Z_{12}$ + 6D anomaly cancellation, L308u)
+- ✓ N = 12 (Appelquist 2001 + Z₁₂ + 6D anomaly cancellation, L308u)
 
 **DERIVED (via formulas)**:
 - ✓ $M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{(1-\alpha)} = 3.93 \times 10^{23}\,\text{GeV}$ (L308v, α-GM closed loop)
 - ✓ $E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub} = 386 \times 1.295 \times 10^{77}\,\text{J} = 5 \times 10^{79}\,\text{J}$ (L308o, energy conservation)
-- ✓ $\tau_{3D,apparent} = \gamma_{4D}$ × $\tau_{\rm 4D} = $1.66 \times 10^{145}\,\text{yr}$ ($ A2) (cascade amplification factor)
+- ✓ $\tau_{3D,apparent} = \gamma_{4D}$ × $\tau_{\rm 4D} = $1.66 \times 10^{145}\,\text{yr} ( A2) (cascade amplification factor)
 - ✓ $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ = 1.10 \times 10^{111}(A2) (cascade amplification factor, consistent with $\gamma_{2D}$)
 - ✓ $\gamma_{2D}$ = $(E_{\rm SN}/M_{\rm Pl,3D})^{α}$ = 5.5 \times 10^{44}(cascade amplification factor at 2D level, L308x v3)
 
@@ -203,7 +203,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✗ 9D = $v_{\rm Higgs}$ (was empirical, dropped v3.3)
 - ✗ α^5 relation for $M_{\rm Pl,4D}$ (was empirical, dropped v3.3)
 - ✗ 4π geometric factor (was v3.1.2, removed v3.3)
-- ✗ α = 1.258 (falsified, 13/14 events fail)
+- ✗ $\alpha = 1.258$ (falsified, 13/14 events fail)
 
 ## Open Limitations (79 OPEN, 22 PARTIAL, 2 RESOLVED, 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE = 124 + 20 L308f-L308ay = 144 in v3.5.9+ A2 master table; +14 L308af-az awaiting master table = 169 total)
 
@@ -211,7 +211,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - 79 OPEN (need theoretical/observational work)
 - 22 PARTIAL (some progress)
 - 8 CLOSED (resolved by construction or v3.x updates, including L41, L42, L117)
-- 2 RESOLVED (L142b via 14-event $M^{1.29}$ fit; L149 via empirical rejection of α=1.258)
+- 2 RESOLVED (L142b via 14-event $M^{1.29}$ fit; L149 via empirical rejection of $\alpha = 1.258$)
 - 6 NEGATIVE (honest failed attempts)
 - 7 SPECULATIVE (L121-L127 v3.0.22, 5D-9D extensions, **UNCERTAIN in v3.3**)
 
@@ -254,7 +254,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 **Calculations** (~80 files total):
 - v3.3: 33 files (brute force, FZZT, alternative methods, c=1 matrix model, etc.)
 - v3.4: 6 files (F-theory 12D, "12" pattern analysis)
-- v3.5: 8 files (CY3 $Z_{12}$, μ F-theory, holographic angles)
+- v3.5: 8 files (CY3 Z₁₂, μ F-theory, holographic angles)
 - v3.5.7: 3 files (audit, naming)
 - Plus 30+ constraint calculations, SPARC analysis, etc.
 - Legacy: 5 v3.1.1-v3.1.2 superseded scripts in `calculations/legacy/`
@@ -295,12 +295,12 @@ A: Form of DM (not specified). μ first-principles derivation (17 methods tried,
 ## The Two Viable Frameworks
 
 **Option 1 (v3.3 canonical)**: μ universal
-- All 2D universes have μ = 8.73 \times 10^{6}\,\text{GeV}^2
+- All 2D universes have $\mu = 8.73$ \times 10^{6}\,\text{GeV}^2
 - Differ in lifetime, size, energy, action
 - 1 parameter, cleanest
 
 **Option 2 (v3.3.9 PROPER)**: μ ∝ E
-- $\mu_{\rm i}$ = K_td × α × E_i × $M_{\rm Pl,3D}$
+- $\mu_{\rm i}$ = K_td × α × $E_i$ × $M_{\rm Pl,3D}$
 - $M_{\rm Pl,2D}$ ∝ √E (intuitive)
 - 2 parameters, more general
 
@@ -351,4 +351,4 @@ Each catch has been acknowledged and addressed. The framework is now more honest
 6. **Open work**: L26 (μ from 2D CFT expert), L43 (α derivation), L100 (user-driven corrections), L138 ($M_{\rm Pl,4D}$ mechanism), L144 ($N_{\rm sub}$ free)
 
 
-**L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford Cℓ(6) SM algebra, Stoica 2018). No numerical changes.
+**L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford Cl(6) SM algebra, Stoica 2018). No numerical changes.

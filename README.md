@@ -16,7 +16,7 @@
 
 ## Abstract
 
-We propose a phenomenological geometric framework—the **Scale-Invariant Dimensional Cascade (SIDC)**—in which gravity, dark matter, and dark energy emerge from a unified dimensional projection mechanism. The framework postulates a three-level hierarchical cascade (4D bulk event → 3+1D brane → 2D terminal quantum gravity floor) governed by a ℤ₂ mirror symmetry at the 3+1D boundary. Downward dimensional projection induces an effective sign-flip in the gravitational coupling (yielding dark energy), while upward projection preserves standard attractive gravity (yielding dark matter). The cascade's structural parameters ($N_{2\text{D}} = 12$, $N_{3+1\text{D}} = 6$, $N_{4\text{D}} = 3$) are motivated by Clifford algebra representations and Bott periodicity. The framework's "scale-invariance" refers to *formula invariance* (the halving rule $N_D = 12/2^{D-2}$ and DOF conservation $N_D \times 2^{D-2} = 12$ apply at every $D$ via Bott periodicity), not to physical or geometric invariance — the physical cascade is bounded 4D → 3+1D → 2D (cone-shape, depth=2; see §1 for details). We construct an effective action that matches the observed dark energy density ($\rho_{\text{DE}} = 2.5 \times 10^{-47}$ \,\text{GeV}^4$) via cascade structure, and yields three sharp, falsifiable predictions:
+We propose a phenomenological geometric framework—the **Scale-Invariant Dimensional Cascade (SIDC)**—in which gravity, dark matter, and dark energy emerge from a unified dimensional projection mechanism. The framework postulates a three-level hierarchical cascade (4D bulk event → 3+1D brane → 2D terminal quantum gravity floor) governed by a ℤ₂ mirror symmetry at the 3+1D boundary. Downward dimensional projection induces an effective sign-flip in the gravitational coupling (yielding dark energy), while upward projection preserves standard attractive gravity (yielding dark matter). The cascade's structural parameters ($N_{2\text{D}} = 12$, $N_{3+1\text{D}} = 6$, $N_{4\text{D}} = 3$) are motivated by Clifford algebra representations and Bott periodicity. The framework's "scale-invariance" refers to *formula invariance* (the halving rule $N_D = 12/2^{D-2}$ and DOF conservation $N_D \times 2^{D-2} = 12$ apply at every D via Bott periodicity), not to physical or geometric invariance — the physical cascade is bounded 4D → 3+1D → 2D (cone-shape, depth=2; see §1 for details). We construct an effective action that matches the observed dark energy density ($\rho_{\text{DE}} = 2.5 \times 10^{-47}$ \,\text{GeV}^4$) via cascade structure, and yields three sharp, falsifiable predictions:
 
 1. **Strict cosmological constant** (w = -1 exactly, no evolution)
 2. **DE/DM density ratio** scaling precisely as (1+z)⁻³
@@ -60,7 +60,7 @@ This repository contains a thought experiment in theoretical physics: a single g
 
 | Observation | What SIDC says | Other models |
 |---|---|---|
-| **Gravity weakness** ($\varepsilon \sim 10^{-38}$) | Brane gravity − inverted bulk gravity | Hierarchy problem unsolved |
+| **Gravity weakness** (ε ∼ 10⁻³⁸) | Brane gravity − inverted bulk gravity | Hierarchy problem unsolved |
 | **Dark energy** ($\rho_{\rm DE}/\rho_{\rm Pl} \sim 10^{-123}$) | Un-cancelled fraction of bulk antigravity | Cosmological-constant fine-tuning |
 | **Dark matter** ($\Omega_{\rm c}$ ~ 0.27) | Cumulative 2D universe deaths | New particle required |
 
@@ -121,7 +121,7 @@ $$\boxed{\tau_{2D,\,\text{our frame}} = t_{\rm Pl,3} \times \left(\frac{E_{\rm 3
 
 $$f_{\rm DE} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)}$$
 
-Evaluates to **$f_{\rm DE,closed} = 1.79 \times 10^{-90}$** (A2, $\alpha_{4D} = 1.577$). Dark energy density matches observation within **0.13%** of $2.5 \times 10^{-47}\,\text{GeV}^4$. The $f \times \varepsilon$ invariant $= 1.13 \times 10^{-123}$ is preserved across both A1 and A2 formulations.
+Evaluates to **$f_{\rm DE,closed} = 1.79 \times 10^{-90}$** (A2, $\alpha_{4D} = 1.577$). Dark energy density matches observation within **0.13%** of $2.5 \times 10^{-47}\,\text{GeV}^4$. The f × ε invariant $= 1.13 \times 10^{-123}$ is preserved across both A1 and A2 formulations.
 
 ### 7. First-principles structure: Clifford algebras + Bott periodicity
 
@@ -130,7 +130,7 @@ After a 12-limitation first-principles chain (L308ba-L308bk), the framework now 
 | Component | Source | Status |
 |---|---|---|
 | $N_{\rm 2D}$ = 12 | SM fermion count (L308r) | ✓ first-principles |
-| $N_{3+1D}$ = 6 | **Cℓ(6) is isomorphic to the SM algebra** (Stoica 2018) | ✓ first-principles (with isomorphism caveat) |
+| $N_{3+1D}$ = 6 | **Cl(6) is isomorphic to the SM algebra** (Stoica 2018) | ✓ first-principles (with isomorphism caveat) |
 | $N_{\rm 4D}$ = 3 | 3 generations (Clifford C(6)/C(8), McKay, cobordism) | ✓ first-principles |
 | **Halving rule $N_D = 12/2^{D-2}$** | **Spinor dim doubling via Bott periodicity** | ✓ first-principles |
 | DOF conservation (12 real total) | $N_D \times 2^{D-2} = 12$ | ✓ first-principles |
@@ -150,7 +150,7 @@ Level    N    Clifford Structure                  First-principles
 4D       3    3 generations (4-comp Majorana)      ✓ (Clifford/McKay/cobordism)
 ```
 
-**Cℓ(6) is isomorphic to the Standard Model Algebra** (Stoica, "The Standard Model algebra—leptons, quarks, and gauge from the complex Clifford algebra C(6)", Adv. Appl. Clifford Algebras 28:52, 2018). The cascade's "12, 6, 3" maps onto the SM's fermion structure via this algebraic isomorphism. We note: this is an *isomorphism of algebraic structures*, not a physical identification; the connection requires an additional physical postulate (see L308cc).
+**Cl(6) is isomorphic to the Standard Model Algebra** (Stoica, "The Standard Model algebra—leptons, quarks, and gauge from the complex Clifford algebra C(6)", Adv. Appl. Clifford Algebras 28:52, 2018). The cascade's "12, 6, 3" maps onto the SM's fermion structure via this algebraic isomorphism. We note: this is an *isomorphism of algebraic structures*, not a physical identification; the connection requires an additional physical postulate (see L308cc).
 
 ---
 
@@ -160,22 +160,22 @@ Level    N    Clifford Structure                  First-principles
 |---|:---:|---|
 | 1 MEASURED | 1 | $M_{\rm Pl,3D}$ (Newton's G) |
 | 3 FIRST-PRINCIPLES | 3 | $\alpha = 1+1/\sqrt{12}$ (L308n), $M_{\rm Pl,2D} = 12 \times v_H$ (L308r), $\mu = M_{\rm Pl,2D}^2$ (L308r) |
-| 2 DERIVED | 2 | $M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{1-\alpha}$ ($\alpha$-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (L308o) |
-| 4 CALIBRATED | 4 | $\epsilon$, $\tau_{\rm 4D}$, AGN rate, **$f_{\rm leak,3D→4D}$ = H₀** (A1 frame-neutral) |
-| 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ |
+| 2 DERIVED | 2 | $M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (L308o) |
+| 4 CALIBRATED | 4 | ε, $\tau_{\rm 4D}$, AGN rate, **$f_{\rm leak,3D→4D}$ = H₀** (A1 frame-neutral) |
+| 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, N=12 |
 | 1 FREE | 1 | $N_{\rm sub} = 386$ (event-specific) |
 
 **Of 15 parameters: 1 measured, 3 first-principles, 2 derived, 4 calibrated — only 1 truly free.** The "dark sector" doesn't require any new particle masses, cross-sections, or cosmological-constant fine-tuning.
 
 ---
 
-## 🎯 α is now dimension-specific (Option B Strengthened)
+## [TARGET] α is now dimension-specific (Option B Strengthened)
 
-$\alpha = 1 + 1/\sqrt{N_D}$ with $N_D = 12/2^{D-2}$ gives:
+$\alpha = 1 + 1/\sqrt{$ $N_D$$}$ with $N_D = 12/2^{D-2}$ gives:
 
-- $\alpha_{\rm 2D} = 1 + 1/\sqrt{12} = \mathbf{1.289}$ (Schwarzian + $N=12$ SM count)
-- $\alpha_{\rm 3+1D} = 1 + 1/\sqrt{6} = \mathbf{1.408}$ (Schwarzian + $N=6$ C(6) SM algebra)
-- $\alpha_{\rm 4D} = 1 + 1/\sqrt{3} = \mathbf{1.577}$ (Schwarzian + $N=3$ generations)
+- $\alpha_{\rm 2D} = 1 + 1/\sqrt{12} = \mathbf{1.289}$ (Schwarzian + N=12 SM count)
+- $\alpha_{\rm 3+1D} = 1 + 1/\sqrt{6} = \mathbf{1.408}$ (Schwarzian + N=6 C(6) SM algebra)
+- $\alpha_{\rm 4D} = 1 + 1/\sqrt{3} = \mathbf{1.577}$ (Schwarzian + N=3 generations)
 
 **Option B Strengthened** is the framework's official interpretation (L308bi): all three N values are first-principles derived, so α dim-specific is no longer just "structurally rich" — it's first-principles for every dim.
 
@@ -231,9 +231,9 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 
 ### Strengths
 
-- **Local physics is strong**: RAR matches SPARC to 10% median residual; AGN host DM strongly supported at p < 10⁻⁵⁰ partial correlation; g₊ approximately constant across 4.5 decades in $M_b$ (r=+0.19, p=0.22).
+- **Local physics is strong**: RAR matches SPARC to 10% median residual; AGN host DM strongly supported at p < 10⁻⁵⁰ partial correlation; g₊ approximately constant across 4.5 decades in M_b (r=+0.19, p=0.22).
 - **Parsimony**: 1 geometric process vs ΛCDM's 20+ free parameters. **No DM particle. No cosmological constant.**
-- **First-principles structure**: All components of the cascade now derive from SM count, Clifford algebras (Cℓ(6) is isomorphic to the SM algebra, Stoica 2018), and Bott periodicity. The cascade **structure** is end-to-end first-principles (L308ba-L308bk chain); the **quantitative values** (ε, $f_{\rm DE}$, $f_{\rm leak}$) are calibrated to observation.
+- **First-principles structure**: All components of the cascade now derive from SM count, Clifford algebras (C\ell(6) is isomorphic to the SM algebra, Stoica 2018), and Bott periodicity. The cascade **structure** is end-to-end first-principles (L308ba-L308bk chain); the **quantitative values** (ε, $f_{\rm DE}$, $f_{\rm leak}$) are calibrated to observation.
 - **Empirical match**: $\rho_{\rm DE}$ within 0.13% of observation; scaling law holds over 54 orders of magnitude; 16/17 test categories consistent (1 confounded).
 - **Time direction**: The cone is asymmetric in time direction (L308x). $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ and $\gamma_{\rm 2D} = 5.5 \times 10^{44}$ are both cascade amplification factors (not SR time dilation — they are dimensionless frame-dilation exponents relating energy scale to clock rate, see L308bs/L308bw).
 - **CMB-era consistency**: L308ab shows $f_{\rm leak}$ = H(z) drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 $\Omega_{\rm c}$ = 0.265.
@@ -317,7 +317,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ## ⚠️ What this paper is NOT
 
 - **Not a finished theory**. It is a **thought experiment**.
-- **Not a derivation from first principles** (in the strict sense). The cascade **structure** (12, 6, 3 brane levels, Bott periodicity halving rule, Cℓ(6) SM algebra isomorphism) is end-to-end first-principles (L308ba-L308bk). The **quantitative values** (ε, $f_{\rm DE}$, $f_{\rm leak}$, $\tau_{\rm 4D}$, AGN rate) are still calibrated to observation, not derived. The framework is a *structural* first-principles theory, not a *quantitative* one.
+- **Not a derivation from first principles** (in the strict sense). The cascade **structure** (12, 6, 3 brane levels, Bott periodicity halving rule, C\ell(6) SM algebra isomorphism) is end-to-end first-principles (L308ba-L308bk). The **quantitative values** (ε, $f_{\rm DE}$, $f_{\rm leak}$, $\tau_{\rm 4D}$, AGN rate) are still calibrated to observation, not derived. The framework is a *structural* first-principles theory, not a *quantitative* one.
 - **Not predictively unique**. SIDC has 0 unique testable predictions beyond ΛCDM and MOND. Its value is *interpretive* and *parsimonious*.
 - **Not written by a physicist**. By a software developer with AI assistance.
 

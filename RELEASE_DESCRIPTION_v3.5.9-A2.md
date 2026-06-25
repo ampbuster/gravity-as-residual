@@ -46,7 +46,7 @@ We propose a phenomenological geometric framework—the **Scale-Invariant Dimens
 | $\gamma_{4D}$ | $1.10 \times 10^{111}$| Cascade amplification factor (not SR time dilation) |
 | $f_{\rm DE,closed}$ | $1.79 \times 10^{-90}$| Closed-loop formula (A2) |
 | f × ε | $1.13 \times 10^{-123}$ | Invariant preserved across A1 and A2 |
-| $\alpha_{2D}, \alpha_{3+1D}, \alpha_{4D}$ | 1.289, 1.408, 1.577 | Schwarzian SYK applied to N_D |
+| $\alpha_{2D}, \alpha_{3+1D}, \alpha_{4D}$ | 1.289, 1.408, 1.577 | Schwarzian SYK applied to $N_D$ |
 | H₀ | 67.4 km/s/Mpc | Planck CMB-inferred (inherited) |
 
 ## Framework state
@@ -62,7 +62,7 @@ All structural numbers derive from mathematics, not observations:
 | Component | Source | Status |
 |---|---|---|
 | $N_{2D} = 12$ | SM fermion count (3 gen × 4 Weyl) | ✓ First-principles |
-| $N_{3+1D} = 6$ | Cℓ(6) is isomorphic to the SM algebra (Stoica 2018) | ✓ First-principles |
+| $N_{3+1D} = 6$ | Cl(6) is isomorphic to the SM algebra (Stoica 2018) | ✓ First-principles |
 | $N_{4D} = 3$ | 3 generations (Clifford C(8), McKay, cobordism) | ✓ First-principles |
 | Halving rule $N_D = 12/2^{D-2}$ | Real spinor dim doubling via Bott periodicity | ✓ First-principles |
 | $\alpha_D = 1 + 1/\sqrt{N_D}$ | Schwarzian SYK applied to local Clifford dim | ✓ First-principles |
@@ -72,7 +72,7 @@ All structural numbers derive from mathematics, not observations:
 This is a **thought experiment** developed by a software developer (not a credentialed physicist) through extended dialogue with an AI assistant. The framework is:
 
 - ✓ **CALIBRATED** (4 calibrated parameters)
-- ✓ **STRUCTURALLY first-principles** (cascade structure, halving rule, Cℓ(6) SM algebra isomorphism)
+- ✓ **STRUCTURALLY first-principles** (cascade structure, halving rule, Cl(6) SM algebra isomorphism)
 - ✓ **TESTABLE** (47 Tuc 2025, Euclid 2024+, SKA 2030s)
 - ⚠️ **OPEN in UV completion** (the 4% Lagrangian gap — see §18 of the extended paper)
 - ⚠️ **MATCHES but does not derive** the cosmological constant (4 calibrated parameters absorb ~120 orders of magnitude; the framework accommodates $\rho_{\rm DE}$ rather than deriving it from first principles)
@@ -113,7 +113,7 @@ A DOI will be added once the release is archived on Zenodo.
 - **L308w** (v3.5.9+): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
 - **L308x** (v3.5.9+ A1): $\gamma_{4D}$ and $\gamma_{2D}$ consistent (both cascade amplification factors)
 - **L308ba**: Halving rule — $N_D = 12/2^{D-2}$ first-principles via spinor dim doubling
-- **L308bh**: Cℓ(6) IS the SM Algebra (Stoica 2018) — $N_{3+1D}$ first-principles
+- **L308bh**: Cl(6) IS the SM Algebra (Stoica 2018) — $N_{3+1D}$ first-principles
 - **L308bj**: Bott periodicity origin of the halving rule
 - **L308bn**: $M_{\rm Pl,4D}$ re-derived consistently in A2
 - **L308bp**: DM-DE unification — DE is constant (4D event), DM is depleted (leak to 4D bulk)

@@ -50,8 +50,8 @@ This is **counterintuitive** because we might think:
 
 TNT 2D universe:
 - $M_{\rm Pl,2D}$ = 360,000 TeV (very rigid)
-- Size = c × τ = $3 \times 10^{8}$× 10⁻⁴³ = $3 \times 10^{-35}\,\text{m}$ (TINY!)
-- Action = E × τ = $4 \times 10^{9}$× 10⁻⁴³ = $4 \times 10^{-34}\,\text{J}$·s (tiny!)
+- Size = c × $\tau = 3 \times 10^{8}$× 10⁻⁴³ = $3 \times 10^{-35}\,\text{m}$ (TINY!)
+- Action = E × $\tau = 4 \times 10^{9}$× 10⁻⁴³ = $4 \times 10^{-34}\,\text{J}$·s (tiny!)
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:
@@ -108,7 +108,7 @@ with K_max = 100 × $\mu_{\rm SN}$ = $9 \times 10^{8}\,\text{GeV}$²
 This:
 - Keeps the E/τ pattern for high- τ events
 - Caps μ at K_max to avoid TNT weirdness
-- Result: TNT μ = $9 \times 10^{8}$(100× SN, not 10¹⁰× SN)
+- Result: TNT $\mu = 9 \times 10^{8}$(100× SN, not 10¹⁰× SN)
 
 But this is ad hoc — no clear principle for K_max.
 
@@ -122,8 +122,8 @@ What if there's a NATURAL FLOOR for 2D universe creation?
 - $E_{\rm threshold}$ = $10^{44}\,\text{J}$ (SN scale — but then no TNT, flare, etc.)
 
 If $E_{\rm threshold}$ = $10^{9}\,\text{J}$:
-- TNT ($4 \times 10^{9}\,\text{J}$) is barely above threshold → maybe no 2D universe
-- SN ($10^{44}\,\text{J}$) is well above → standard 2D universe
+- TNT ( $4 \times 10^{9}\,\text{J}$) is barely above threshold → maybe no 2D universe
+- SN ( $10^{44}\,\text{J}$) is well above → standard 2D universe
 - This would explain why we don't see TNT 2D universes
 
 But the threshold needs a physical principle.
@@ -132,7 +132,7 @@ But the threshold needs a physical principle.
 
 The cleanest approach:
 
-1. **v3.3 (canonical)**: Keep universal μ = $8.73 \times 10^{6}$- Avoids weirdness
+1. **v3.3 (canonical)**: Keep universal $\mu = 8.73 \times 10^{6}$- Avoids weirdness
    - Simpler (9 parameters pre-A1, 15 parameters current v3.5.9+ A2 (α dim-specific)+L308z)
    - Agrees with most physics intuition
    - $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ universal

@@ -6,7 +6,7 @@
 > for details on what was dropped.
 >
 > **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → $6.32 \times 10^{-34}$, $f_{
-m DE,closed}$ = $1.79 \times 10^{-90}$(was $f_{\rm back}$ = $6.03 \times 10^{-88}\,\text{in}$ A1, dim-specific $\alpha_{4D}$ = 1.577). Some ε ≈ 10⁻³⁸ and $f_{\rm back}$ ≈ 10⁻⁸⁵ references in this file are HISTORICAL (predate A2 recalibration). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved in both A1 and A2.
+m DE,closed} = 1.79 \times 10^{-90}(was f_{\rm back} = 6.03 \times 10^{-88}\,\text{in} A1, dim-specific \alpha_{4D} = 1.577). Some ε ≈ 10^{-38} and f_{\rm back} ≈ 10^{-85} references in this file are HISTORICAL (predate A2 recalibration). The f \times \varepsilon = 1.13× 10^{-123}$ invariant is preserved in both A1 and A2.
 
 <!-- 04_predictions.md - part of paper.md split (v3.0.13) -->
 
@@ -62,12 +62,12 @@ SIDC's prediction across these scales (see `calculations/rar_across_scales_v2.py
 
 ```
 Object              M_DM ($M_\odot$)   R (kpc)    g_+ SIDC       g_+ obs           ratio
-Dwarf (EDGE 2025)   $1 \times 10^{9}$            $5$          $9.3 \times 10^{-13}$           $1.5 \times 10^{-10} *$         $0.006$
-Small spiral        $1 \times 10^{10}$           $10$         $2.3 \times 10^{-12}$           $1.2 \times 10^{-10}$           $0.02$
-Milky Way           $1 \times 10^{12}$           $30$         $2.6 \times 10^{-11}$           $1.2 \times 10^{-10}$           $0.22$
-Large spiral        $5 \times 10^{12}$           $50$         $4.7 \times 10^{-11}$           $1.2 \times 10^{-10}$           $0.39$
-Cluster (Tian 2024) $1 \times 10^{14}$           $500$        $9.3 \times 10^{-12}$           $1.7 \times 10^{-9}$            $0.005$
-Supercluster        $1 \times 10^{15}$           $3000$       $2.6 \times 10^{-12}$           $\sim 1.7 \times 10^{-9}$ (extrap.) $0.0015$
+Dwarf (EDGE 2025)   1 × 10⁹            5          9.3 × 10⁻¹³           1.5 × 10⁻¹⁰ *         0.006
+Small spiral        1 × 10¹⁰           10         2.3 × 10⁻¹²           1.2 × 10⁻¹⁰           0.02
+Milky Way           1 × 10¹²           30         2.6 × 10⁻¹¹           1.2 × 10⁻¹⁰           0.22
+Large spiral        5 × 10¹²           50         4.7 × 10⁻¹¹           1.2 × 10⁻¹⁰           0.39
+Cluster (Tian 2024) 1 × 10¹⁴           500        9.3 × 10⁻¹²           1.7 × 10⁻⁹            0.005
+Supercluster        1 × 10¹⁵           3000       2.6 × 10⁻¹²           ∼ 1.7 × 10⁻⁹ (extrap.) 0.0015
 ```
 
 *Note: The EDGE 2025 dwarf* $g_+$ *is the McGaugh+ 2016 RAR value* *increased* by the EDGE finding (low-mass dwarfs lie systematically *above* the McGaugh RAR, by ~25%). SIDC's $g_+$ at all scales is *systematically too small* (ratios 0.005 to 0.39) — this is the $M_{\rm DM}$ / $R_{\rm halo}^2$ dependence SIDC predicts, but the *observed* $g_+$ is approximately universal. This is a *TENSION*: SIDC's $g_+$ formula $g_+ = (3/4) \cdot G \cdot f_cum \cdot M_{\rm DM} / (\pi R_{\rm halo}^2)$ gives the right *shape* ($M_{\rm DM}$/$R_{\rm halo}^2$ scaling) but wrong *normalization* (off by $2.5\text{--}200\times$). A specific implementation of SIDC would need to either (a) calibrate the formula's prefactor (currently $0.75 \cdot f_{\rm cum} = 0.525$) up by $2.5\text{--}200\times$, or (b) re-derive the formula from first principles (Limitation 26).
@@ -119,7 +119,7 @@ With these parameters:
 - Mass-dependent $g_+$ ( $g_+$ scales as Mᵖ): search converged to p=0
 - Core+isothermal cumulative: best at r_core=10% of $R_{\rm halo}$, but mass-dependence still wrong
 - Spread-out active contribution: no improvement
-- Direct $g_{\rm obs}$( $g_{\rm bar}$) curve comparison (commits 109-110): **SIDC's MW actually matches the cluster RAR ( $g_+ = 17x$) much better than the galaxy RAR ( $g_+ = 1x$)** — diff_17x ranges from -0.32 to 0.74, vs diff_cascade from 0.77 to 5.75. This is a tension: SIDC's MW model is in the 'cluster' regime of the RAR parameter space, but empirically it's in the 'galaxy' regime.
+- Direct $g_{\rm obs}$( $g_{\rm bar}$) curve comparison (commits 109-110): **SIDC's MW actually matches the cluster RAR ( $g_+$ = 17x) much better than the galaxy RAR ( $g_+$ = 1x)** — diff_17x ranges from -0.32 to 0.74, vs diff_cascade from 0.77 to 5.75. This is a tension: SIDC's MW model is in the 'cluster' regime of the RAR parameter space, but empirically it's in the 'galaxy' regime.
 
 *The fundamental issue:* SIDC's active contribution (clustered, follows stellar) makes the inner $g_{\rm obs}$ too large. The empirical RAR requires $g_{\rm obs} \sim g_{\rm bar}$ at high $g_{\rm bar}$ (no DM excess at high stellar surface density), but SIDC's active contribution gives $g_{\rm obs}$ = $g_{\rm bar}$ * (1 + $f_{\rm active}$ * kappa), which is 5-6x $g_{\rm bar}$ for $f_{\rm active} = 0.2$, kappa=17. To match the RAR at 2R_d for MW, $f_{\rm active}$ * kappa must be < 1, requiring $f_{\rm active}$ < 0.06 — which is 5x smaller than SIDC's postulate of $f_{\rm active} = 0.3.$
 
@@ -127,7 +127,7 @@ This tension requires either a different spatial distribution for the active con
 
 *Full mass spectrum test (commit 111, v2.2.1).* I tested SIDC's RAR prediction across 9 systems from ultra-faint dwarf ($M_{halo} = 10^{7} M_\odot$) to supercluster core ($M_{halo} = 5 \times 10^{14} M_\odot$), in `calculations/rar_extremes.py`. Key findings:
 
-1. **The "lies on RAR" pattern is non-monotonic with mass.** SIDC's $g_{obs}/g_{bar}$ at 2R_d:
+1. **The "lies on RAR" pattern is non-monotonic with mass.** SIDC's $g_{obs}/g_{bar}$ at $2R_d$:
    - Ultra-faint dwarf ( $M_{halo} = 10^{7}$): 342 (over-predicts, beyond cluster RAR)
    - Classical dwarf ( 10⁹): 38 (transition)
    - Small spiral ( 10¹⁰): 4.16 (on galaxy RAR)
@@ -249,9 +249,9 @@ This is now SIDC's best candidate RAR model: small $f_{active}$ (5%), isothermal
 
 | Object | r (kpc) | N_orbits | f_mix | $g_{\rm obs}$/ $g_{\rm bar}$ | Effective $g_+$ |
 | --- | --- | --- | --- | --- | --- |
-| Milky Way (2 R_d) | 8 kpc | 130 | 1.00 | 6.4 | $2.7 \times 10^{-9}\,\text{m/s}^2$ |
-| Dwarf (2 R_d) | 2 kpc | 39 | 0.98 | 40 | $3.3 \times 10^{-10}\,\text{m/s}^2$ |
-| Cluster (2 R_d) | 60 kpc | 73 | 1.00 | 33 | $2.4 \times 10^{-8}\,\text{m/s}^2$ |
+| Milky Way (2 $R_d$) | 8 kpc | 130 | 1.00 | 6.4 | $2.7 \times 10^{-9}\,\text{m/s}^2$ |
+| Dwarf (2 $R_d$) | 2 kpc | 39 | 0.98 | 40 | $3.3 \times 10^{-10}\,\text{m/s}^2$ |
+| Cluster (2 $R_d$) | 60 kpc | 73 | 1.00 | 33 | $2.4 \times 10^{-8}\,\text{m/s}^2$ |
 
 *Honest assessment of the full dynamical-mixing model:*
 - The mixing-fraction formalism is correct: the cumulative return is *naturally* between fully clustered and fully uniform, with the mixing fraction depending on radius and halo mass.
@@ -352,9 +352,9 @@ A *specific* implementation of the 4D event scenario must reproduce these observ
 - The standard $\Lambda{\rm CDM}$ cosmology (with inflation) is in excellent agreement with current CMB data. The 4D event scenario must do at least as well, with any deviations being a target for observational test. The model does not currently explain the *origin* of the primordial perturbations (the inflationary quantum-fluctuation picture is one possibility; another is that the 4D event had its own small-scale structure that projects as the seed perturbations).
 
 **Inflation, matter-antimatter asymmetry, and other open issues.** The dimensional-SIDC framework does *not* currently derive:
-- *Cosmic inflation* — the near-exponential expansion in the very early universe ( ∼ $10^{-36}\,\text{t}$o $10^{-32}\,\text{s}$econds after the Big Bang) that solves the horizon, flatness, and monopole problems. In SIDC, the 4D event's projection could in principle provide an inflation-like phase (if the 4D event had a *spatially* localized region of intense energy near the projection's origin — corresponding to the 4D event's "early" region in the 4D-spatial direction that maps to 3+1D time, per the dimensional time-dilation principle of §2.2), but this is *not* derived in the current model. A specific implementation would need to derive the inflationary phase from the 4D event's *spatial* profile (the mapping of 4D-spatial intensity onto 3+1D-temporal early-universe intensity), and check that the resulting primordial perturbation spectrum matches observations (nearly scale-invariant, nₛ ≈ 0.965, with no detectable tensor modes at current sensitivity). SIDC's *temporal* profile of the 4D event (intensity vs 4D time) maps to 3+1D's *spatial* profile (intensity vs 3+1D position at a given 3+1D time), so the "brief, intense early phase" in the inflationary sense would correspond to a *spatially localized* intense region in the 4D event, not a temporally early phase in 4D time.
+- *Cosmic inflation* — the near-exponential expansion in the very early universe ( ∼ $10^{-36}\,\text{t}$ o $10^{-32}\,\text{s}$ econds after the Big Bang) that solves the horizon, flatness, and monopole problems. In SIDC, the 4D event's projection could in principle provide an inflation-like phase (if the 4D event had a *spatially* localized region of intense energy near the projection's origin — corresponding to the 4D event's "early" region in the 4D-spatial direction that maps to 3+1D time, per the dimensional time-dilation principle of §2.2), but this is *not* derived in the current model. A specific implementation would need to derive the inflationary phase from the 4D event's *spatial* profile (the mapping of 4D-spatial intensity onto 3+1D-temporal early-universe intensity), and check that the resulting primordial perturbation spectrum matches observations (nearly scale-invariant, nₛ ≈ 0.965, with no detectable tensor modes at current sensitivity). SIDC's *temporal* profile of the 4D event (intensity vs 4D time) maps to 3+1D's *spatial* profile (intensity vs 3+1D position at a given 3+1D time), so the "brief, intense early phase" in the inflationary sense would correspond to a *spatially localized* intense region in the 4D event, not a temporally early phase in 4D time.
 - *Matter-antimatter asymmetry* — the observed fact that our universe has *more matter than antimatter* (baryon-to-photon ratio η ∼ $6 \times 10^{-10}$). SIDC does *not* currently explain this asymmetry. In standard cosmology, the asymmetry is generated by *baryogenesis* (Sakharov conditions: baryon number violation, C and CP violation, out-of-equilibrium processes). In SIDC, the 4D event could in principle generate the asymmetry (if the 4D event's projection preferentially created matter over antimatter, or if the dimensional projection inherently violates C and CP), but this is *not* derived. A specific implementation would need to address why the projected 3+1D universe is matter-dominated.
-- *Big Bang nucleosynthesis (BBN)* — the observed light element abundances (D, ³He, ⁴He, ⁷Li) at ∼ $10^{-2}\,\text{t}$o $10^{3}\,\text{s}$econds after the Big Bang, which constrain the baryon-to-photon ratio and the number of relativistic species. SIDC does *not* currently derive the BBN predictions from the 4D event; the model takes the standard BBN picture as given and notes that the 4D event scenario must be *consistent* with the observed light element abundances.
+- *Big Bang nucleosynthesis (BBN)* — the observed light element abundances (D, ³He, ⁴He, ⁷Li) at ∼ $10^{-2}\,\text{t}$ o $10^{3}\,\text{s}$ econds after the Big Bang, which constrain the baryon-to-photon ratio and the number of relativistic species. SIDC does *not* currently derive the BBN predictions from the 4D event; the model takes the standard BBN picture as given and notes that the 4D event scenario must be *consistent* with the observed light element abundances.
 - *Primordial black holes, topological defects, cosmic strings* — other features of standard cosmology that are not currently addressed by SIDC.
 
 These are *honest* gaps in the current model. SIDC is a *framework* that addresses the dark sector (dark matter, dark energy, gravity's weakness) but does *not* yet derive the full set of standard cosmological predictions. A *complete* implementation of SIDC would need to address all of these issues, but the current paper focuses on the *core* dimensional-SIDC model and the dark sector, leaving the broader cosmological implications for future work.
@@ -371,7 +371,7 @@ If dark matter is the *cumulative* collective gravitational signature of all 2D 
 
 **Why event size matters, not just event rate.** The relevant quantity for dark matter production is not just the *count* of events but also their *energy*. Each 2D universe created by a 3+1 dimensional event has a gravitational contribution proportional to the event's energy. Many small events (e.g., solar fusion reactions at ~MeV each) contribute little to dark matter per event, even at high rates. A few large events (e.g., supernovae at ∼ $10^{60}\,\text{eV}$ each) contribute much more per event.
 
-The Sun, for example, hosts ∼ 10³⁸ nuclear fusion reactions per second — an enormous *event rate* in absolute terms. Each event releases only ~MeV, so the *current* power output from solar fusion is ~$3.8 \times 10^{26}\,\text{W}$. By contrast, a single supernova releases a total of ∼ 10⁵¹- $10^{53}\,\text{erg}$s of energy ( ≈ 10⁶²- $10^{64}\,\text{eV}$ in kinetic energy plus neutrinos; ∼ $10^{48}\,\text{erg}$s ≈ $10^{60}\,\text{eV}$ (since $10^{60}\,\text{eV}$ = $1.6 \times 10^{48}\,\text{erg}$) in visible light, which is what an external observer primarily *sees*) in a single brief event. The supernova energy depends on the type: Type Ia releases ∼ $10^{51}\,\text{erg}$s of kinetic energy, while Type II releases ∼ $10^{53}\,\text{erg}$s total (mostly neutrinos). Using the visible-light energy of ∼ $10^{60}\,\text{eV}$ as the "energetic event" energy (since most of the kinetic and neutrino energy does not directly create 2D universes via 3+1D electromagnetic interactions), the supernova's event energy is ∼ $10^{60}\,\text{eV}$. (Note: $10^{60}\,\text{eV}$ = $1.6 \times 10^{48}\,\text{ergs}$, NOT $10^{53}\,\text{erg}$s. The *total* supernova energy is ∼ $10^{53}\,\text{erg}$s, but most of that is kinetic and neutrino energy, not visible light. The visible-light energy of ∼ $10^{60}\,\text{eV}$ is what primarily drives the 2D universe creation in our 3+1D frame, since neutrinos and bulk kinetic energy do not directly create 2D universes via 3+1D events.) For comparison, this is ~0.1% of the Sun's *total* output over its entire lifetime (~$1.2 \times 10^{44}\,\text{J}$ = $1.2 \times 10^{51}\,\text{ergs}$). The Milky Way's *current* supernova rate is ~few per century, but each event contributes much more dark matter per event than solar fusion. The galaxy's *current* energetic activity (per unit volume) is therefore dominated by its large events (supernovae, AGN), not by stellar fusion.
+The Sun, for example, hosts ∼ 10³⁸ nuclear fusion reactions per second — an enormous *event rate* in absolute terms. Each event releases only ~MeV, so the *current* power output from solar fusion is ~$3.8 \times 10^{26}\,\text{W}$. By contrast, a single supernova releases a total of ∼ 10⁵¹- $10^{53}\,\text{erg}$ s of energy ( ≈ 10⁶²- $10^{64}\,\text{eV}$ in kinetic energy plus neutrinos; ∼ $10^{48}\,\text{erg}$ s ≈ $10^{60}\,\text{eV}$ (since $10^{60}\,\text{eV}$ = $1.6 \times 10^{48}\,\text{erg}$) in visible light, which is what an external observer primarily *sees*) in a single brief event. The supernova energy depends on the type: Type Ia releases ∼ $10^{51}\,\text{erg}$ s of kinetic energy, while Type II releases ∼ $10^{53}\,\text{erg}$ s total (mostly neutrinos). Using the visible-light energy of ∼ $10^{60}\,\text{eV}$ as the "energetic event" energy (since most of the kinetic and neutrino energy does not directly create 2D universes via 3+1D electromagnetic interactions), the supernova's event energy is ∼ $10^{60}\,\text{eV}$. (Note: $10^{60}\,\text{eV}$ = $1.6 \times 10^{48}\,\text{ergs}$, NOT $10^{53}\,\text{erg}$ s. The *total* supernova energy is ∼ $10^{53}\,\text{erg}$ s, but most of that is kinetic and neutrino energy, not visible light. The visible-light energy of ∼ $10^{60}\,\text{eV}$ is what primarily drives the 2D universe creation in our 3+1D frame, since neutrinos and bulk kinetic energy do not directly create 2D universes via 3+1D events.) For comparison, this is ~0.1% of the Sun's *total* output over its entire lifetime (~$1.2 \times 10^{44}\,\text{J}$ = $1.2 \times 10^{51}\,\text{ergs}$). The Milky Way's *current* supernova rate is ~few per century, but each event contributes much more dark matter per event than solar fusion. The galaxy's *current* energetic activity (per unit volume) is therefore dominated by its large events (supernovae, AGN), not by stellar fusion.
 
 (Note: the *spatial* dark matter correlation is dominated by the *active* population contribution (per §4.2), not the *cumulative return* contribution. The cumulative return is set by the *integrated historical* event rate, which is approximately uniform across galaxies of similar age (since all galaxies have had ~13.8 Gyr of similar activity on average). The *spatial variation* in dark matter across galaxies is therefore dominated by the *active* population, which depends on the *current* event rate at each location. The dark matter at any point is set by the *current* event rate at that point (active population), not the historical rate at that point (cumulative return is approximately uniform spatially). The historical comparison above (Sun's total output over its lifetime) is for *intuition* about the relative importance of small vs. large events in the *current* activity budget, not a claim about historical integration. The *total* dark matter budget (per §2.5, §4.2) is the sum of active + cumulative; the *spatial correlation* (per this subsection) is dominated by the active.)
 
@@ -441,7 +441,7 @@ In each case, the *energetic activity* of the system (collision rate, star forma
 
 **AGC 114905 and the smooth creation function (v2.7.4, supersedes v2.3.0 phase-transition).** A *particularly important* test of the activity-DM correlation is the gas-rich ultra-diffuse dwarf AGC 114905 [Mancera Piña+ 2024], which appears to have very little dark matter (less than 1/10 of the standard $\Lambda{\rm CDM}$ expectation) despite ongoing star formation. Under the simple "current activity = current DM" reading of our model, this would be a *falsifying case* — a star-forming galaxy should have cumulative 2D universe activity, hence high DM.
 
-The *resolution*: 2D universe creation follows the *smooth creation function* $C(E) = E^{1+\alpha}$ (per §2.5.3, where α = 1.29 from the energy-scaling rule). AGC 114905's ongoing star formation produces low-energy events ($E \sim 10^{28-32}$ J), which contribute $E^{2.29} / SN^{2.29} \sim 10^{-31}$ of a supernova's contribution — *negligible*. The galaxy remains DM-poor. This is the same principle that explains why the Sun has no detectable DM (solar events are 10⁻⁴¹ of SN contribution). The smooth function is *qualitatively equivalent* to a phase transition in the limit of a sharp threshold, but is continuous and uses only α = 1.29 (the same parameter as the energy-scaling rule). It predicts a *power-law* ordering of DM contributions by event energy, with SN-scale events dominating over SF-scale events by ~30 orders of magnitude.
+The *resolution*: 2D universe creation follows the *smooth creation function* $C(E) = E^{1+\alpha}$ (per §2.5.3, where $\alpha = 1.29\text{ from}$ the energy-scaling rule). AGC 114905's ongoing star formation produces low-energy events ($E \sim 10^{28-32}$ J), which contribute $E^{2.29} / SN^{2.29} \sim 10^{-31}$ of a supernova's contribution — *negligible*. The galaxy remains DM-poor. This is the same principle that explains why the Sun has no detectable DM (solar events are 10⁻⁴¹ of SN contribution). The smooth function is *qualitatively equivalent* to a phase transition in the limit of a sharp threshold, but is continuous and uses only $\alpha = 1.29$ (the same parameter as the energy-scaling rule). It predicts a *power-law* ordering of DM contributions by event energy, with SN-scale events dominating over SF-scale events by ~30 orders of magnitude.
 
 **Testable predictions of the phase-transition principle:**
 - AGC 114905 should have NO massive O/B stars, NO recent SN remnants, NO high-energy events above $10^{30}\,\text{J}$
@@ -533,7 +533,7 @@ This is the *Gemini scaling relation* (per the user's prompt): $g_+ \propto \int
 
 *Numerical estimates:*
 
-For a Milky Way-like galaxy with $M_b \sim 6 \times 10^{10} M_\odot$ and $\dot{n} \sim 10^{-12}$ events/($M_\odot$/yr) (1 SN per century, $10^{11}\,\text{s}$tars):
+For a Milky Way-like galaxy with $M_b \sim 6 \times 10^{10} M_\odot$ and $\dot{n} \sim 10^{-12}$ events/($M_\odot$/yr) (1 SN per century, $10^{11}\,\text{s}$ tars):
 - Integrated $\dot{n} \cdot T \sim 10^{-12} \times 10^{10}$ yr = 10⁻² events/($M_\odot$)
 - g₊ = $k \cdot 10^{-2} \cdot E_{event} \cdot \tau_{2D}/L_{2D}$
 
@@ -603,7 +603,7 @@ SIDC's phase-transition principle (§2.5, §4.8) makes a clean *negative* predic
 
 SIDC prediction: ** $M_{dyn}$ / $M_{\rm stellar}$ ~ 1-3** (consistent with a pure old, metal-poor stellar population and no DM halo contribution). If SIDC is wrong — if DM is a particle that is *not* related to energetic events — then GCs might or might not have DM (depending on whether GCs are surrounded by DM sub-halos from cosmological structure formation).
 
-*Test method.* I cross-matched the Harris 1996 catalog (146 GCs with V-band magnitudes and Galactocentric distances) with the Usher+ 2013 catalog (143 GCs with measured velocity dispersions from integrated-light spectra), obtaining 111 GCs with both. For each GC, I computed the *dynamical mass* via the Wolf+ 2010 estimator: $M_{\rm dyn} = 4.5 \sigma^2 r_h / G$, with the half-light radius rₕ set to 3.5 pc (the median value from Baumgardt+ 2019). I computed the *stellar mass* from the V-band luminosity using $M_{\rm stellar} = 2.0   L_V$ (typical M/L_V for old metal-poor GCs). The *ratio* M_{\rm dyn} / M_{\rm stellar}$ is a direct DM indicator: values near 1-2 mean no DM, values >3 mean significant DM excess. See `calculations/globular_cluster_dm_test.py` for the full calculation.
+*Test method.* I cross-matched the Harris 1996 catalog (146 GCs with V-band magnitudes and Galactocentric distances) with the Usher+ 2013 catalog (143 GCs with measured velocity dispersions from integrated-light spectra), obtaining 111 GCs with both. For each GC, I computed the *dynamical mass* via the Wolf+ 2010 estimator: $M_{\rm dyn} = 4.5 \sigma^2 r_h / G$, with the half-light radius rₕ set to 3.5 pc (the median value from Baumgardt+ 2019). I computed the *stellar mass* from the V-band luminosity using $M_{\rm stellar} = 2.0   L_V$ (typical M/$L_V$ for old metal-poor GCs). The *ratio* M_{\rm dyn} / M_{\rm stellar}$ is a direct DM indicator: values near 1-2 mean no DM, values >3 mean significant DM excess. See `calculations/globular_cluster_dm_test.py` for the full calculation.
 
 *Result.* The median $M_{\rm dyn} / M_{\rm stellar}$ across the 111 GCs is **1.22** (16-84 percentile: 0.37 - 5.00). **73% of GCs have $M_{dyn}$/ $M_{\rm stellar}$ < 3** (within the pure-stellar range), and 89% have M/L < 10. The 11% of GCs with $M_{dyn}$/ $M_{\rm stellar}$ > 10 are mostly small/faint GCs (M_V > -5) with large fractional uncertainties in their measured velocity dispersions, unresolved binary contamination, and individual rₕ that may be larger than the median 3.5 pc assumed here. The trend with Galactocentric distance is *opposite* to the DM-halo expectation: GCs in the inner Galaxy (R_gc < 3 kpc) have *higher* $M_{dyn}$/ $M_{\rm stellar}$ (median 3.25) than GCs in the outer halo (R_gc > 15 kpc, median 0.37). This is consistent with central GCs having larger rₕ (which scales with Galactocentric distance for tidally-limited clusters, see Harris 1996), not with a DM halo contribution (which would be larger for inner-halo GCs).
 
@@ -618,7 +618,7 @@ Even at the *most extreme* rₕ = 7 pc (larger than any known GC), the median $M
 
 *Verdict.* **[PASS]** **CONSISTENT with SIDC**. The 111 GCs in our cross-matched sample have $M_{dyn}$/ $M_{\rm stellar}$ ratios consistent with a pure old, metal-poor stellar population, *with no significant dark matter halo contribution*. This is a clean null-test *pass* for SIDC's prediction that old stellar systems without high-energy events do not accumulate DM.
 
-*Caveats.* (a) The assumed rₕ = 3.5 pc is a single value for all GCs; individual rₕ measurements (from HST imaging, available for ~80 GCs) would tighten the test by a factor of ~2. (b) The assumed M/ L_V =2 is the median for old metal-poor GCs; the real range is 1.5-2.5, which propagates to a factor of ~1.5 uncertainty in the $M_{dyn}$/ $M_{\rm stellar}$ ratio. (c) Unresolved binary stars can inflate the measured σ by 10-30% in some GCs, biasing $M_{dyn}$ high. (d) The Wolf+ 2010 mass estimator assumes a spherical, isotropic system; some GCs may have anisotropy. (e) The test is *qualitative* (presence/absence of DM) rather than *quantitative* (DM density profile). All caveats push in the same direction: with more precise rₕ and accounting for binaries, the $M_{dyn}$/ $M_{\rm stellar}$ ratio would *decrease*, not increase, making SIDC's prediction even more clearly satisfied.
+*Caveats.* (a) The assumed rₕ = 3.5 pc is a single value for all GCs; individual rₕ measurements (from HST imaging, available for ~80 GCs) would tighten the test by a factor of ~2. (b) The assumed M/ $L_V$ =2 is the median for old metal-poor GCs; the real range is 1.5-2.5, which propagates to a factor of ~1.5 uncertainty in the $M_{dyn}$/ $M_{\rm stellar}$ ratio. (c) Unresolved binary stars can inflate the measured σ by 10-30% in some GCs, biasing $M_{dyn}$ high. (d) The Wolf+ 2010 mass estimator assumes a spherical, isotropic system; some GCs may have anisotropy. (e) The test is *qualitative* (presence/absence of DM) rather than *quantitative* (DM density profile). All caveats push in the same direction: with more precise rₕ and accounting for binaries, the $M_{dyn}$/ $M_{\rm stellar}$ ratio would *decrease*, not increase, making SIDC's prediction even more clearly satisfied.
 
 *Implications for SIDC.* This is a *new* prediction test that doesn't appear elsewhere in SIDC's empirical work (§4.1-§4.17 all use galactic or cluster scales, not individual old stellar systems). The GCs provide the cleanest null-test in SIDC's empirical basis: they are old, small, and DM-free, as predicted. SIDC's framework naturally explains this: no high-energy events → no 2D universe creation → no cumulative DM return. A $\Lambda{\rm CDM}$ particle-DM model, by contrast, would need to explain why GCs *don't* retain their cosmological DM sub-halos (the "GC survival" problem in $\Lambda{\rm CDM}$ simulations; e.g., Contenta+ 2018 reports $M_{dyn}$/ $M_{\rm stellar}$ > 2 for some GCs, while others have values consistent with no DM). SIDC's *deterministic* prediction (no events → no DM) is a sharper test than the *statistical* prediction of $\Lambda{\rm CDM}$ sub-halo survival.
 
@@ -890,12 +890,12 @@ This test computes the $M_{dyn}$- M_* relation for 10 MW dSphs using the Wolf+ 2
 - sigma: Walker+ 2007 (J/ApJ/649/201)
 - rₕ: McConnachie 2012 (J/AJ/144/4)
 - M_V: McConnachie 2012
-- M/ L_V =2 (conservative)
+- M/ $L_V$ =2 (conservative)
 - Mass estimator: M_1/2 = 4.5 sigma² r_1/2 / G (Wolf+ 2010, with r_1/2 = (4/3) rₕ)
 
 *Sample (10 MW dSphs):* Draco, UMi, Sculptor, Sextans, Carina, Fornax, Leo I, Leo II, Sgr, CVn I.
 
-*Results (M/ L_V =2):*
+*Results (M/ $L_V$ =2):*
 - $M_{dyn}$- M_* slope (log-log): 0.37
 - Expected (NFW abundance matching): 0.3-0.5
 - Median $M_{dyn}$/ M_*: 15.4
@@ -903,7 +903,7 @@ This test computes the $M_{dyn}$- M_* relation for 10 MW dSphs using the Wolf+ 2
 
 *Verdict.* CONSISTENT with both SIDC and $\Lambda{\rm CDM}$. **NOT a discriminative test** — both models predict the same $M_{dyn}$- M_* relation. SIDC and $\Lambda{\rm CDM}$ differ in MECHANISM (cumulative 2D universe gravity vs NFW halo), not the relation itself. This is similar to the halo M/M* vs z test (Test 6) in being consistent but not discriminative.
 
-*Caveats.* (a) M/ L_V is uncertain (1-5 for dSphs depending on SFH and metallicity). (b) The relation is structural, not specific to SIDC. (c) The key point is the slope (0.37), not absolute values.
+*Caveats.* (a) M/ $L_V$ is uncertain (1-5 for dSphs depending on SFH and metallicity). (b) The relation is structural, not specific to SIDC. (c) The key point is the slope (0.37), not absolute values.
 
 See `calculations/dsph_sigma_test.py` for the full analysis.
 
@@ -923,7 +923,7 @@ The Mass Discrepancy-Acceleration Relation (MDAR) for dSphs complements the SPAR
 
 *Verdict.* **[PASS]** **CONSISTENT with SIDC-MOND hybrid.** SIDC's framework + MOND's interpolation matches the dSph MDAR to within factor ~2. This complements the SPARC RAR test at the dSph regime.
 
-*Caveats.* (a) M/ L_V uncertainty propagates to $g_{\rm bar}$ uncertainty. (b) dSphs are COMPLEX systems (tidal stripping, baryonic effects). (c) The MOND interpolation is SIDC's "modified gravity" layer, not derived from SIDC's pure 2D universe picture.
+*Caveats.* (a) M/ $L_V$ uncertainty propagates to $g_{\rm bar}$ uncertainty. (b) dSphs are COMPLEX systems (tidal stripping, baryonic effects). (c) The MOND interpolation is SIDC's "modified gravity" layer, not derived from SIDC's pure 2D universe picture.
 
 See `calculations/mdar_dwarf_test.py` for the full analysis.
 

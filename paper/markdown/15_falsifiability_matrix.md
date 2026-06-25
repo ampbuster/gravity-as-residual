@@ -46,7 +46,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 - AGN: $f_{GW} \approx 2 \times 10^{-17}$ Hz (PTA band)
 
 **Falsification threshold:**
-- If GW detected at SIDC's predicted frequencies: α = 1.29 validated to ±0.11
+- If GW detected at SIDC's predicted frequencies: $\alpha = 1.29\text{ validated}$ to ±0.11
 - If GW detected at 10× off-frequency: α falsified to ±0.11
 - If BNS+AGN internally inconsistent: framework-level falsification (not just α)
 - If no GW detected: SIDC's GW prediction falsified (less direct)
@@ -73,7 +73,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 #### μAres (next-gen PTA, 2040s?): higher-precision α
 
-**SIDC prediction:** α = 1.29 to ±0.055 precision (1 dex frequency precision → 0.055 in α).
+**SIDC prediction:** $\alpha = 1.29\text{ to}$ ±0.055 precision (1 dex frequency precision → 0.055 in α).
 
 **Falsification threshold:** If α measured at < 1.20 or > 1.40, SIDC's energy-scaling rule is wrong.
 

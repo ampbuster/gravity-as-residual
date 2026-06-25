@@ -6,7 +6,7 @@
 > for details on what was dropped.
 >
 > **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → $6.32 \times 10^{-34}$, $f_{
-m DE,closed}$ = $1.79 \times 10^{-90}$(was $f_{\rm back}$ = $6.03 \times 10^{-88}\,\text{in}$ A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved.
+m DE,closed} = 1.79 \times 10^{-90}(was f_{\rm back} = 6.03 \times 10^{-88}\,\text{in} A1, dim-specific \alpha_{4D} = 1.577). The f \times \varepsilon = 1.13× 10^{-123}$ invariant is preserved.
 
 <!-- 03b_predictions.md - part of paper.md split (v3.1, renamed from 03_predictions.md for sequential ordering) -->
 
@@ -31,7 +31,7 @@ Each level of SIDC has the same structure (per L308x v3, asymmetric cone in time
 |-------|---|------------|----------------------------------|---------------|-------------------------|
 | 0D | 0 | — | none | — | — |
 | 1D | 1 | varies | varies | $\gamma_{\rm 1D}$ = $(E/M_{\rm Pl,1})^\alpha$ | varies |
-| **2D** | 2 | 2.95 TeV | **$5.7 \times 10^{38}\,\text{yr}$** (2D's own frame, SN) | $\gamma_{2D}$ = $(E/M_{\rm Pl,3})^\alpha$ = $5.5 \times 10^{44}$| **33 s** (SN) |
+| **2D** | 2 | $2.95\,\text{TeV}$ | **$5.7 \times 10^{38}\,\text{yr}$** (2D's own frame, SN) | $\gamma_{2D} = (E/M_{\rm Pl,3})^\alpha = 5.5 \times 10^{44}$ | **33 s** (SN) |
 | 3+1D | 4 | $1.22 \times 10^{19}\,\text{GeV}$ | n/a (3+1D IS us) | — | 13.8 Gyr (age) |
 | **4D** | 5 | $3.93 \times 10^{23}\,\text{GeV}$ | **$1.51 \times 10^{34}\,\text{yr}$** (4D's own frame) | $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^\alpha$ = $1.10 \times 10^{111}$(A2: $\alpha_{4D} = 1.577$) | **$1.66 \times 10^{145}\,\text{yr}$ (A2)** |
 | 5D | 6 | varies | $t_{\rm Pl,5D}$ in 5D frame | $\gamma_{\rm 5D}$ = $(E/M_{\rm Pl,5})^\alpha$ | varies |
@@ -77,7 +77,7 @@ At every level, the parent dimension sees vastly different child lifetimes:
 **3.21.5 Implications.**
 
 1. SIDC is a **general framework**, not specific to 4D-3+1D-2D.
-2. The same physics ( α = 1.29, universal bulk-brane) applies at every level.
+2. The same physics ( $\alpha = 1.29$, universal bulk-brane) applies at every level.
 3. The "universe creation" principle is **universal** — every energetic event creates a child universe.
 4. SIDC's cone-shape (§2.6) is the *default* but not the *only* option.
 5. SIDC is **naturally recursive** to N dimensions.
@@ -112,7 +112,7 @@ Geodetic brane gravity is a recently-developed framework that treats branes as g
 - The 4D event is a localized process in 5D AdS₅
 - The 3+1D brane is a geodesic in this bulk
 - The "inversion" (4D attractive → 3+1D repulsive) is a feature of the embedding
-- α = 1.29 could be derived from the embedding geometry
+- $\alpha = 1.29\text{ could}$ be derived from the embedding geometry
 
 **Status:** STRUCTURAL SUPPORT. The framework supports SIDC's overall structure, but a specific α derivation is not yet available.
 
@@ -124,7 +124,7 @@ Massive gravity is a framework where the graviton has a small but non-zero mass.
 - SIDC's DE is the 4D event's antigravity (from §2.4)
 - In massive gravity, the graviton mass m_g introduces a length scale $\lambda_{\rm g}$ = ℏ/(m_g c)
 - The 4D event's antigravity could be a "mass term" for the 5D graviton
-- α = 1.29 could be a function of m_g
+- $\alpha = 1.29\text{ could}$ be a function of m_g
 
 **Status:** SPECULATIVE. The connection is intriguing but not yet established.
 
@@ -136,7 +136,7 @@ Conformal gravity replaces the Einstein-Hilbert action with a conformally invari
 - SIDC's "weak gravity" ( 10⁻³⁸) could be a conformal effect
 - SIDC's "DM" could be conformal gravity's modified gravity
 - SIDC's "DE" could be conformal gravity's natural acceleration
-- α = 1.29 could be a conformal weight
+- $\alpha = 1.29\text{ could}$ be a conformal weight
 
 **Status:** SPECULATIVE. Conformal gravity is a contested alternative to GR.
 
@@ -147,8 +147,8 @@ DGP (Dvali-Gabadadze-Porrati) is a 5D brane-world model with an induced 4D Einst
 **Connection to SIDC:**
 - SIDC's DE is the 4D event's antigravity (§2.4)
 - DGP's self-accelerating branch gives effective DE
-- The crossover scale r_c = G₅/ G₄ is a candidate for SIDC's bulk-brane coupling
-- α = 1.29 could be a function of r_c
+- The crossover scale $r_c$ = G₅/ G₄ is a candidate for SIDC's bulk-brane coupling
+- $\alpha = 1.29\text{ could}$ be a function of $r_c$
 
 **Status:** STRUCTURAL SUPPORT. SIDC's inversion (§3.9) mentions DGP. The connection is established but not unique.
 
@@ -168,11 +168,11 @@ Verlinde proposed that gravity is an entropic force arising from the tendency of
 
 | Framework | Year | Connection | Status |
 |-----------|------|------------|--------|
-| CGHS | 1992 | α = 1.29 in back-reaction range | STRONGEST MATCH |
+| CGHS | 1992 | $\alpha = 1.29\text{ in}$ back-reaction range | STRONGEST MATCH |
 | Padmanabhan | 2015 | DM = bulk entanglement entropy | STRUCTURAL |
 | Horava-Witten | 1996 | 3+1D = 10D HW brane + 6D CY | STRUCTURAL |
 | Jacobson | 1995 | TdS gives M = τ/(2G) | TENSION (linear) |
-| RT | 2006 | S_A = Area/(4G) | TENSION (= Jacobson) |
+| RT | 2006 | $S_A$ = Area/(4G) | TENSION (= Jacobson) |
 | KK | 1921 | Historical prototype | STRUCTURAL |
 | Geodetic brane | 2024 | Embedding geometry | STRUCTURAL |
 | Massive gravity | 2011 | m_g as DE source | SPECULATIVE |
@@ -188,12 +188,12 @@ SIDC's democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) and 
 - 2 TENSION (Jacobson, RT — predict linear, not power law)
 - 2 SPECULATIVE (Massive gravity, Conformal gravity)
 
-** α = 1.29 is in the CGHS back-reaction range [1, 3]**, but no specific calculation has been done to derive α = 1.29 from CGHS back-reaction.
+** $\alpha = 1.29\text{ is}$ in the CGHS back-reaction range [1, 3]**, but no specific calculation has been done to derive $\alpha = 1.29\text{ from}$ CGHS back-reaction.
 
 **3.22.8 Status (v2.7.29+).**
 
 - 11 frameworks analyzed
-- 1 STRONGEST MATCH (CGHS) for α = 1.29
+- 1 STRONGEST MATCH (CGHS) for $\alpha = 1.29$
 - 6 STRUCTURAL SUPPORT for SIDC's overall framework
 - 2 TENSION (Jacobson, RT — predict linear, not power law)
 - 2 SPECULATIVE (massive gravity, conformal gravity)
@@ -201,7 +201,7 @@ SIDC's democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) and 
 
 **SIDC's commitment (v2.7.29+):**
 - SIDC's framework is supported by 11 established frameworks
-- α = 1.29 is in the CGHS back-reaction range
+- $\alpha = 1.29\text{ is}$ in the CGHS back-reaction range
 - A specific CGHS-with-back-reaction calculation would close L9
 - SIDC is honest: no first-principles α derivation yet
 
@@ -219,8 +219,8 @@ The democratic cosmology says all 2D universes have the same M^α-observed lifet
 
 **Frame of reference (L308x v3, asymmetric cone in time direction)**:
 - **3+1D-observed lifetime** (what we measure in 3+1D): $\tau_{2D,3+1D} = 33\,s$ for SN
-- **2D proper lifetime** (in 2D's own frame): $\tau_{2D,proper}$ = $\gamma_{2D}$ × 33s = $5.5 \times 10^{44}$× 33s = **$5.7 \times 10^{38}\,\text{yr}$** for SN (MUCH LONGER)
-- The 2D universe "lives" for $5.7 \times 10^{38}\,\text{yr}$ in its own frame, but we observe it for 33s in 3+1D frame
+- **2D proper lifetime** (in 2D's own frame): $\tau_{2D,proper} = \gamma_{2D} \times 33$ s = $5.5 \times 10^{44} \times 33$ s = **$5.7 \times 10^{38}\,\text{yr}$** for SN (MUCH LONGER)
+- The 2D universe "lives" for $5.7 \times 10^{38}\,\text{yr}$ in its own frame, but we observe it for 33 s in 3+1D frame
 - $\gamma_{2D}$ stretches time in 2D's own frame (opposite direction from 4D level)
 
 The death rate in 3+1D frame is:
@@ -604,7 +604,7 @@ massive galaxies, and galaxy clusters (not just dwarfs).
 
 SIDC's qualitative SFH-DM correlation is tested against
 **21 galaxies with consensus $M_{dyn}$ measurements** spanning 10
-orders of magnitude in M_{b} (from GCs at $10^{5}\,\text{t}$o clusters at 10¹⁴):
+orders of magnitude in M_{b} (from GCs at $10^{5}\,\text{t}$ o clusters at 10¹⁴):
 
 | Galaxy | M_{b} ( $M_\odot$) | $M_{dyn}$ ( $M_\odot$) | $M_{dyn}$/ M_{b} | Type | SIDC |
 |--------|-----------|-------------|-----------|------|---------|
@@ -837,7 +837,7 @@ over cosmic history:
 - $\Omega_{\rm GW}$_SN = $\rho_{\rm GW_SN}$ / $\rho_{\rm crit}$ = $10^{-103}$ / $7.6 \times 10^{-10}$= ** 10⁻⁹⁴**
 
 - BNS: $N_{\rm BNS}$ ∼ $3 \times 10^{3}$/ ${\rm Mpc}^3$, $E_{\rm per,BNS,GW}$ = $f_{\rm back}$ × 10⁴⁷ = $10^{-38}\,\text{J}$
-- Total BNS GW energy density: $\rho_{\rm GW_BNS}$ = $3 \times 10^{3}$× 10⁻³⁸ / $2.9 \times 10^{67} = 10^{-102}$\,$\text{J/m}^3$
+- Total BNS GW energy density: $\rho_{\rm GW_BNS}$ = $3 \times 10^{3}$× 10⁻³⁸ / $2.9 \times 10^{67} = 10^{-102}$\, $\text{J/m}^3$
 - $\Omega_{\rm GW}$_BNS = ** 10⁻⁹³**
 
 **PTA detection threshold**: $\Omega_{\rm GW} \sim 10^{-10}$ to 10⁻⁹ (NANOGrav 15-yr,

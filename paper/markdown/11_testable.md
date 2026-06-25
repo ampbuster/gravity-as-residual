@@ -35,8 +35,8 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
 | Current mass ( $M_{dyn}$) | $7 \times 10^{5} M_\odot$ | $\sigma_{\rm v}$ = 11.7 km/s |
 | Half-mass radius | 6.0 pc | literature |
 | Velocity dispersion | 11.7 km/s | literature |
-| M/ L_V (observed) | ~1.7 | literature |
-| M/ L_V (predicted, 12 Gyr, [Fe/H] = −0.78) | ~1.7 | PARSEC isochrones |
+| M/ $L_V$ (observed) | ~1.7 | literature |
+| M/ $L_V$ (predicted, 12 Gyr, [Fe/H] = −0.78) | ~1.7 | PARSEC isochrones |
 | Age | 12 Gyr | literature |
 | Central BH upper limit | 578 $M_\odot$ ( 3σ) | Della Croce+ 2024, A&A |
 | Tidal tails | 5 known | Shipp+ 2021, Ibata+ 2024, Boldrini+ 2024 |
@@ -72,7 +72,7 @@ SIDC's prediction for 47 Tuc can be tested at three time horizons:
 - **Why it matters:** DP1 primarily validates Rubin's crowded-field photometry pipeline. SIDC predicts a *null* result (no DM component in the stars themselves) — a baseline check before more sensitive tests.
 
 **DR1 (LSST Y1, expected 2027):**
-- **What DR1 contains:** First full LSST data release, ~18,000 sq deg wide-fast-deep survey. Proper motions for ∼ $10^{9}\,\text{s}$tars to ~24th mag. 47 Tuc will have ∼ $10^{6}\,\text{s}$tars with proper motion measurements.
+- **What DR1 contains:** First full LSST data release, ~18,000 sq deg wide-fast-deep survey. Proper motions for ∼ $10^{9}\,\text{s}$ tars to ~24th mag. 47 Tuc will have ∼ $10^{6}\,\text{s}$ tars with proper motion measurements.
 - **SIDC prediction:** 47 Tuc's proper motion field is **consistent with Galactic rotation + dynamical friction** in the Galactic NFW potential. The 5 tidal tails should be **kinematically consistent with 47 Tuc's orbit** through the Galaxy, with no evidence of local 47 Tuc DM enhancement (e.g., no anomalous velocity dispersion in the tails beyond what Galactic tides predict).
 - **Test:** fit 47 Tuc's orbit in the Galactic potential using Gaia+LSST proper motions. Use tail kinematics to constrain the local DM density at 47 Tuc's location.
 - **Why it matters:** A direct test of whether 47 Tuc's dynamics are governed by Galactic DM or have a local component.

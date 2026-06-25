@@ -58,7 +58,7 @@ $$Z_{3+1D} = \int \mathcal{D}\Phi_{3+1D} \exp\left(i \int d^4x \sqrt{-g} \left[\
 $$Z_{2D} = \int \mathcal{D}\phi \, \mathcal{D}\psi \langle \text{FZZT} | \exp(-S_L - S_{\rm Ising} - S_{\rm SYK}) | \text{FZZT} \rangle$$
 
 where:
-- S_L = Liouville gravity action: $S_L = \frac{1}{4\pi} \int d^2z \, (\partial\phi \bar\partial\phi + Q R \phi + \mu e^\phi)$
+- $S_L$ = Liouville gravity action: $S_L = \frac{1}{4\pi} \int d^2z \, (\partial\phi \bar\partial\phi + Q R \phi + \mu e^\phi)$
 - $S_{\rm Ising}$ = Ising CFT action (c = 1/2)
 - $S_{\rm SYK}$ = SYK model: $S_{\rm SYK} = \sum_{i<j<k<l} J_{ijkl} \psi_i \psi_j \psi_k \psi_l$
 - FZZT = Fateev-Zamolodchikov-Zamolodchikov-Teschner brane boundary
