@@ -605,6 +605,16 @@ SIDC is a *cone* (one parent, many children, terminal at the children's level), 
 
 **SIDC IS still scale-invariant in the energy/size sense within the 2D level.** The Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3). The RAR is observed across 4-5 decades in galaxy mass. This is a *different* kind of scale invariance — not dimensional (no 1D, no 0D), but energy-scale (2D universes can be any size, with the smooth $E^{1+\alpha}$ weighting naturally emphasizing high-E events) — and it does not require a SIDC to lower dimensions. The new name SIDC preserves this distinction.
 
+**Clarifying "scale-invariant" in SIDC.** The framework name "SIDC" — **S**cale-**I**nvariant **D**imensional **C**ascade — risks ambiguity because "scale-invariance" can mean different things. We use it in a *narrow* sense: **formula invariance**, not physical or geometric invariance.
+
+- **Formula scale-invariance (the "S" in SIDC, the sense we mean).** The halving rule $N_D = 12/2^{D-2}$ and the DOF-conservation identity $N_D \times 2^{D-2} = 12$ apply at *every* dimensional level $D$ via Bott periodicity of real Clifford algebras $\mathrm{Cl}(p,q)$. The framework's *rule structure* is self-similar across dimensions: $N_2 = 12$, $N_{3+1} = 6$, $N_4 = 3$, $N_5 = 1.5$, $N_6 = 0.75$, ... — same algebraic rule, all $D$.
+
+- **NOT physical-cascade invariance.** The *physical* cascade that creates our universe is cone-shaped, bounded at 4D (apex) and 2D (terminal). Going *above* 4D breaks the cascade because $N_D$ becomes fractional ("1.5 sub-universes per 5D event" is physically unclear). Going *below* 2D breaks because 1D and 0D spacetimes cannot support structure. So the physical cascade is **bounded**, not scale-invariant.
+
+- **NOT geometric-cone invariance.** The projection geometry differs at each level: 2D → 3D uses a 2π cone ($S^1$ boundary), 3D → 4D uses a 4π cone ($S^2$ boundary). These are not self-similar.
+
+So SIDC combines: (a) **formula invariance** across all $D$ (what the name captures), (b) a **cone-shaped physical cascade** bounded to 4D → 3+1D → 2D, and (c) **energy-scale invariance** within the 2D level (see §2.5.3 above). A clearer name might be "Rule-Invariant Dimensional Cascade" (RIDC) or "Bott-Periodic Cascade" (BPC); we retain "SIDC" for continuity with prior versions. Readers encountering the framework name should interpret "scale-invariant" narrowly as algebraic-rule invariance, not in the broad sense of "self-similar fractal" or "geometric invariance".
+
 **What the cone-shape gives:**
 
 1. **Cone-shape is the default, not an alternative.** SIDC terminates at 2D by physical necessity. No $\rho_{crit}$ regulator is needed. The 1D-universes limitation is *closed*: 1D universes simply do not exist.
