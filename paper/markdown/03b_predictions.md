@@ -33,7 +33,7 @@ Each level of SIDC has the same structure (per L308x v3, asymmetric cone in time
 | 1D | 1 | varies | varies | $\gamma_{\rm 1D}$ = $(E/M_{\rm Pl,1})^\alpha$ | varies |
 | **2D** | 2 | 2.95 TeV | **$5.7 \times 10^{38}\,\text{yr}$** (2D's own frame, SN) | $\gamma_{2D}$ = $(E/M_{\rm Pl,3})^\alpha$ = $5.5 \times 10^{44}$| **33 s** (SN) |
 | 3+1D | 4 | $1.22 \times 10^{19}\,\text{GeV}$ | n/a (3+1D IS us) | — | 13.8 Gyr (age) |
-| **4D** | 5 | $3.93 \times 10^{23}\,\text{GeV}$ | **$1.51 \times 10^{34}\,\text{yr}$** (4D's own frame) | $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^\alpha$ = $1.10 \times 10^{111}$(A2: $\alpha_{4D}$=1.577) | **$1.66 \times 10^{145}\,\text{yr}$ (A2)** |
+| **4D** | 5 | $3.93 \times 10^{23}\,\text{GeV}$ | **$1.51 \times 10^{34}\,\text{yr}$** (4D's own frame) | $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^\alpha$ = $1.10 \times 10^{111}$(A2: $\alpha_{4D} = 1.577$) | **$1.66 \times 10^{145}\,\text{yr}$ (A2)** |
 | 5D | 6 | varies | $t_{\rm Pl,5D}$ in 5D frame | $\gamma_{\rm 5D}$ = $(E/M_{\rm Pl,5})^\alpha$ | varies |
 | ... | N | $t_{\rm Pl,N}$ | $t_{\rm Pl,N}$ in N-D frame | $\gamma_{\rm N}$ = $(E/M_{\rm Pl,N})^\alpha$ | varies |
 
@@ -722,7 +722,7 @@ SFH (formation redshift, duration, current mass) to compute:
 Where:
 - M_dyn_primordial ~ 5 × M_{b} (primordial 2D universe death halo)
 - M_dyn_recent = $f_{\rm back}$ × E_SN_total / c² (cumulative SN deaths)
-- Fₚ(z) = zⁿ / ( zⁿ + $z_{\rm half}^n$), n=2, $z_{\rm half}$=3 (Hill function)
+- Fₚ(z) = zⁿ / ( zⁿ + $z_{\rm half}^n$), n=2, $z_{\rm half} = 3$ (Hill function)
 - $f_{\rm back}$ = 10⁻⁸⁵ (SIDC calibrated from SN 33s lifetime)
 
 **Key finding (v2.7.48, REVISED v2.7.52, LEGACY)**: With Fₚ(0) = 0.9993 (revised), SIDC predicts $M_{dyn}$/ M_{b} ∼ 4.97 for these galaxies, dominated by the Fₚ(z) primordial component. The recent (SN-driven) component is **negligible** ( ∼ 10⁻⁹¹).
@@ -758,7 +758,7 @@ IFU observations.
 - $M_{dyn}$ for z>4 galaxies is hard to measure (need σ from absorption
   lines, only possible with very deep JWST/NIRSpec or ELT IFU)
 - $f_{\rm back} \sim 10^{-85}$ is calibrated from SN 33s lifetime (L9)
-- Fₚ(z) Hill function (n=2, $z_{\rm half}$=3) is phenomenological
+- Fₚ(z) Hill function (n=2, $z_{\rm half} = 3$) is phenomenological
 - SIDC's M_dyn_extra from local SN deaths is negligible
 
 See `calculations/v27_jwst_quiescent_mdyn.py` for full calculations.

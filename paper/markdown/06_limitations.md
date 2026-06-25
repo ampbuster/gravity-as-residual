@@ -5576,7 +5576,7 @@ The closed-loop back-action is 2.5 orders smaller.
 To match observed DE density, ε must change from 10⁻³⁸ to $6.3 \times 10^{-34}$.
 
 #### 6. $kL$ (RS-II): changes by −11
-The bulk curvature changes from $kL$=87.5 to $kL$=76.4 (about 0.9× change).
+The bulk curvature changes from $kL = 87.5$ to $kL = 76.4$ (about 0.9× change).
 
 ### Hierarchy Level Transitions (with level-specific α)
 

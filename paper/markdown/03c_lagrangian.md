@@ -1898,7 +1898,7 @@ This is a **strengthening**, not a reversion:
 | Halving rule | Empirical | Empirical | **Structural (Clifford)** ✓ |
 | Mirror plane | Compatible | Encodable | **Encodable + C(6)-derived** ✓ |
 
-Option A was first-principles for 1 N value ( $N_{\rm 2D}$=12), Option B was 2/3 (after L308bg added $N_{\rm 4D}$=3), Option B Strengthened is now 3/3 (after L308bh added $N_{3+1D}$=6 via C(6)).
+Option A was first-principles for 1 N value ( $N_{\rm 2D} = 12$), Option B was 2/3 (after L308bg added $N_{\rm 4D} = 3$), Option B Strengthened is now 3/3 (after L308bh added $N_{3+1D} = 6$ via C(6)).
 
 #### 3.71.4 The α Values Now Have Full First-principles
 

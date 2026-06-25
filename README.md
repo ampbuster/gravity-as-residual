@@ -60,8 +60,8 @@ This repository contains a thought experiment in theoretical physics: a single g
 
 | Observation | What SIDC says | Other models |
 |---|---|---|
-| **Gravity weakness** (ε ~ 10⁻³⁸) | Brane gravity − inverted bulk gravity | Hierarchy problem unsolved |
-| **Dark energy** ($\rho_{\rm DE}/\rho_{\rm Pl}$ ~ 10⁻¹²³) | Un-cancelled fraction of bulk antigravity | Cosmological-constant fine-tuning |
+| **Gravity weakness** ($\varepsilon \sim 10^{-38}$) | Brane gravity − inverted bulk gravity | Hierarchy problem unsolved |
+| **Dark energy** ($\rho_{\rm DE}/\rho_{\rm Pl} \sim 10^{-123}$) | Un-cancelled fraction of bulk antigravity | Cosmological-constant fine-tuning |
 | **Dark matter** ($\Omega_{\rm c}$ ~ 0.27) | Cumulative 2D universe deaths | New particle required |
 
 ΛCDM solves all three with separate fixes (WIMP/axion/sterile ν + cosmological constant + inflation). SIDC solves all three with one geometric process. **No dark matter particle. No fine-tuned cosmological constant.**
@@ -80,7 +80,7 @@ This repository contains a thought experiment in theoretical physics: a single g
 | Sun | No detectable DM | Consistent (no DM spike) |
 | DF2/DF4 | No DM | PASS (no recent energetic events) |
 | FCC 224 | DM-poor | PASS (isolated ultra-diffuse) |
-| AGC 114905 | DM-poor | PASS via smooth E^(1+α) |
+| AGC 114905 | DM-poor | PASS via smooth $E^{1+\alpha}$ |
 | KKR 25 | DM-rich ($M_{\rm dyn}$/$M_b$ ~ 1-4) | PASS (post-starburst dSph) |
 
 **Score breakdown**: 11 clean passes + 4 structural (no substructure to test) + 5 = ΛCDM (consistent, not discriminative) + 1 confounded = **17/17 consistent, 0 falsified**.
