@@ -1,4 +1,4 @@
-# First-Principles Analysis: c=1 Matrix Model → $M_{\rm Pl,2D}$ = 2.95 TeV
+# First-Principles Analysis: c=1 Matrix Model → $M_{\rm Pl,2D} = 2.95\,\text{TeV}$
 
 **⚠️ HISTORICAL (v3.3.8) — REVERTED in v3.5.8+ L308r**
 
@@ -55,7 +55,7 @@ TNT 2D universe:
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:
-- $M_{\rm Pl,2D}$ = 2.95 TeV (softer)
+- $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (softer)
 - Size = c × τ = $10^{10}\,\text{m}$ (huge!)
 - Action = 10⁴⁴ × 33 = $3.3 \times 10^{45}\,\text{J}$·s (huge!)
 - DM contribution: huge (action is huge)
@@ -135,7 +135,7 @@ The cleanest approach:
 1. **v3.3 (canonical)**: Keep universal μ = $8.73 \times 10^{6}$- Avoids weirdness
    - Simpler (9 parameters pre-A1, 15 parameters current v3.5.9+ A2 (α dim-specific)+L308z)
    - Agrees with most physics intuition
-   - $M_{\rm Pl,2D}$ = 2.95 TeV universal
+   - $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ universal
 
 2. **v3.3.6 (extended)**: Mention event-dependent μ
    - More honest about brute force pattern

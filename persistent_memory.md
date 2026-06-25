@@ -36,7 +36,7 @@ m DE,closed}$, ε recalibrated, frame-neutral leak naming)
 - **v3.5.8: USER-DRIVEN REFINEMENTS + MCMC BREAKTHROUGH** (June 20, 2026):
   - User: "ok version bump" + "why no first principles" + "try monte carlo" + 4 user-caught insights
   - **L308f-L308l (USER-DRIVEN, v3.5.7+ extension):**
-    - L308f: $M_{\rm Pl,2D}$ = 2.95 TeV origin ($N=12$ SYK + $v_{\rm Higgs}$, NOT 'holographic', USER-CAUGHT)
+    - L308f: $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ origin ($N=12$ SYK + $v_{\rm Higgs}$, NOT 'holographic', USER-CAUGHT)
     - L308g: $M_{\rm Pl,4D}$ derivation (α-GM + closed loop, NOT first-principles, USER-CAUGHT)
     - L308h: 0/9 first-principles derived (USER-DIRECTED)
     - L308i: 2π vs 4π is boundary-sphere structured (USER-DISCOVERED)
@@ -52,7 +52,7 @@ m DE,closed}$, ε recalibrated, frame-neutral leak naming)
   - **§7.4.5-§7.4.15**: 11 new sections documenting all user-caught findings
 - **v3.5.9+: MATHEMATICAL AUDIT + PATH B + APPROACH A1** (June 21, 2026):
   - User: "audit the formulas" → 3 inconsistencies found ($\gamma_{\rm 4D}$ formula, $\tau_{\rm 3D,apparent}$ units, M^α at 4D level)
-  - **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, μ = $8.73 \times 10^{6}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub}$ = $3.86 \times 10^{2}$— framework values UPDATED to consistent derivation. L26 → FULL CLOSURE.
+  - **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, μ = $8.73 \times 10^{6}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub}$ = $3.86 \times 10^{2}$— framework values UPDATED to consistent derivation. L26 → FULL CLOSURE.
   - **L308u (WHY $N=12$? BREAKTHROUGH)**: Appelquist 2001 PRL 87, 031801 — 3 generations from 6D anomaly cancellation. Unifies all five "12"s in cascade.
   - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs.
   - **Path B2 (REJECTED)**: $\gamma_{\rm 4D}$ decoupling had structural inconsistency ($\gamma_{\rm 4D}$ "back-flow" vs $\gamma_{2D}$ "time dilation")
@@ -176,7 +176,7 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - α = 1.289 (calibrated to 14 M^α events)
 - ε = 10⁻³⁸ (calibrated to hierarchy)
 - $M_{\rm Pl,3D}$ = $1.22 \times 10^{19}\,\text{GeV}$ (MEASURED, Newton's G)
-- $M_{\rm Pl,2D}$ = 2.95 TeV (Liouville μ = $8.73 \times 10^{6}\,\text{GeV}$²)
+- $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (Liouville μ = $8.73 \times 10^{6}\,\text{GeV}$²)
 - **$M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$** (DERIVED: $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α), α-weighted GM, #32)
 - **$E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$** (universe-scale, M^α law with $M_{\rm Pl,4D}$ and $\tau_{\rm 4D}$, #33)
 - $\gamma_{\rm 4D}$ = $1.10 \times 10^{111}$(A2) (was $1.29 \times 10^{64}$; L308t updated precision)
@@ -189,7 +189,7 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - $\tau_{\rm 4D}$ = $1.51 \times 10^{34}\,\text{yr}$ — CALIBRATED to DE (MCMC converges 0.7σ)
 - ε = 10⁻³⁸ — CALIBRATED to hierarchy (CC problem, MCMC 0.5σ)
 - AGN rate = $3 \times 10^{-16}$/m³/s — CALIBRATED to 27% DM (MCMC 0.1σ)
-- $M_{\rm Pl,2D}$ = 2.95 TeV — STRUCTURAL (12×$v_{\rm Higgs}$, 1.5% off)
+- $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ — STRUCTURAL (12×$v_{\rm Higgs}$, 1.5% off)
 - **$N_{\rm sub}$ = 386 — FREE (event-specific, per L308z)** [was SEMI-DERIVED via L308o, but reframe: $N_{\rm sub}$ is the free parameter for our 4D event; $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ is then derived]
 - $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ — DERIVED via α-GM (circular consistency)
 - $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ — DERIVED ($M_{\rm Pl,4D}$, $\tau_{\rm 4D}$)
@@ -340,7 +340,7 @@ in a **F-theory 12D bulk** (Vafa 1996, v3.4):
 - The 4D bulk has its own gravity scale: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ (DERIVED via α-weighted GM: $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α), v3.3)
 - The 4D event is **universe-scale**: $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (10⁸× observable universe, v3.3 #33)
 - Our universe's Planck: $M_{\rm Pl,3D}$ = $1.22 \times 10^{19}\,\text{GeV}$ (MEASURED via Newton's G)
-- The 2D universes' Planck: $M_{\rm Pl,2D}$ = 2.95 TeV (brane-world, from L41)
+- The 2D universes' Planck: $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (brane-world, from L41)
 - Three DIFFERENT $M_{\rm Pl}$ at three different levels (3D ≠ 4D, brane-world consistency)
 - The 4D event's gravity **inverts to antigravity** when projected into 3+1D
 - This 4D antigravity **cancels** (1 - ε) of 3+1D's own gravity
@@ -506,9 +506,9 @@ $$\tau_{2D} = \left(\frac{E}{E_{\rm Pl}}\right)^{\alpha} \times t_{\rm Pl}, \qua
 2. $v_H$ = 246.22 GeV (LEP+SLD measured)
 3. N = 12 (structural: 3 gens × 4 Weyl)
 
-This also DERIVES $M_{\rm Pl,2D}$ = N × $v_H$ = 2955 GeV (1.5% off framework's 3 TeV). v3.5.8+ first-principles: 0/9 → 1/9 (α) → **3/9** (α, $M_{\rm Pl,2D}$, μ via L308r). The 3% offset is from framework's $M_{\rm Pl,2D}$ = 2.95 TeV (rounded) vs derivation's 2.95 TeV (exact). L26 OPEN → **PARTIAL CLOSURE** → **FULL CLOSURE** (L308t, framework updated to consistent values).
+This also DERIVES $M_{\rm Pl,2D}$ = N × $v_H$ = 2955 GeV (1.5% off framework's 3 TeV). v3.5.8+ first-principles: 0/9 → 1/9 (α) → **3/9** (α, $M_{\rm Pl,2D}$, μ via L308r). The 3% offset is from framework's $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (rounded) vs derivation's 2.95 TeV (exact). L26 OPEN → **PARTIAL CLOSURE** → **FULL CLOSURE** (L308t, framework updated to consistent values).
 
-**[v3.5.8+ L308t, FULL CLOSURE]**: Framework values UPDATED to consistent derivation (user chose full closure). $M_{\rm Pl,2D}$ = 2.95 TeV (was 3 TeV), μ = $8.73 \times 10^{6}$(was $9 \times 10^{6}$), $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$(was $4 \times 10^{23}$), $N_{\rm sub}$ = $3.86 \times 10^{2}$(was $4 \times 10^{2}$). L26 PARTIAL → **FULL CLOSURE** (no 3% offset). Predictions UNAFFECTED (all key predictions use $M_{\rm Pl,3D}$, not $M_{\rm Pl,2D}$).
+**[v3.5.8+ L308t, FULL CLOSURE]**: Framework values UPDATED to consistent derivation (user chose full closure). $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (was 3 TeV), μ = $8.73 \times 10^{6}$(was $9 \times 10^{6}$), $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$(was $4 \times 10^{23}$), $N_{\rm sub}$ = $3.86 \times 10^{2}$(was $4 \times 10^{2}$). L26 PARTIAL → **FULL CLOSURE** (no 3% offset). Predictions UNAFFECTED (all key predictions use $M_{\rm Pl,3D}$, not $M_{\rm Pl,2D}$).
 
 **[v3.5.9+ L308u, BREAKTHROUGH]**: Why $N=12$? — Z_12 bulk + 6D anomaly cancellation. Appelquist et al. 2001 (PRL 87, 031801, hep-ph/0102010) PROVED that SM fields in 6D spacetime (= 4D + 2D universal extra dimensions) require EXACTLY 3 generations for global anomaly cancellation. Framework's F-theory 12D has 2D fiber = cascade's 2D universe = the 2D universal extra. SM fermions propagate in 2D fiber (as SYK $N=12$ Majoranas). So **$N=12$ = 3 generations × 4 Weyl fermions** is a FIRST-PRINCIPLES consequence. Unifies ALL FIVE "12"s in framework ($N=12$ SYK, $M_{\rm Pl,2D}$ = 12×$v_H$, cone depth 12, α=1+1/√12, F-theory Z_12). First-principles: 3/9 → **4/9** (added $N=12$ derivation).
 
@@ -519,7 +519,7 @@ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = ($1.22 \times 1
 - 6 TAUTOLOGICAL (μ = $M_{\rm Pl,2D}$² by definition, given $M_{\rm Pl,2D}$ as input): Hagedorn, JT, String duality, Hawking-Page, DOZZ trivial, Unimodular
 - 1 NOT APPLICABLE: b = i fixed point
 - 1 WORKS (L308r): (N × $v_H$)² = $8.73 \times 10^{6}$(3% off)
-NO path bridges the 3% offset. The gap is from $M_{\rm Pl,2D}$ = 2.95 TeV (rounded). **Recommendation**: UPDATE framework's $M_{\rm Pl,2D}$ = 2955 GeV and μ = $8.73 \times 10^{6}\,\text{for}$ internal consistency. See §7.4.17.
+NO path bridges the 3% offset. The gap is from $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (rounded). **Recommendation**: UPDATE framework's $M_{\rm Pl,2D}$ = 2955 GeV and μ = $8.73 \times 10^{6}\,\text{for}$ internal consistency. See §7.4.17.
 
 **What α is NOT used for:**
 - 4π factor at 3D→4D (specific to that transition, not universal) ✗
@@ -756,7 +756,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 
 | Dimension | Same physics (all universes) | Different (per universe) |
 |---|---|---|
-| 2D | $N=12$ SYK, $M_{\rm Pl,2D}$ = 2.95 TeV, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
+| 2D | $N=12$ SYK, $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
 | 3+1D | SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, α = 1.289, $N=12$ | $E_{\rm sub}$, age, stage, baryon asymmetry |
 | 4D (extrapolation) | $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$, $N=12$ | $E_{\rm 4D}$, age, stage |
 
@@ -776,7 +776,7 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 
 | Level | Creating events | All have same physics? | Differ in what? |
 |---|---|---|---|
-| 2D universes | 14 different 3D events (SN, AGN, ...) | ✓ same $N=12$ SYK, $M_{\rm Pl,2D}$ = 2.95 TeV, c=1 | $E_{\rm 2D}$ (energy) |
+| 2D universes | 14 different 3D events (SN, AGN, ...) | ✓ same $N=12$ SYK, $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, c=1 | $E_{\rm 2D}$ (energy) |
 | 3+1D universes | 4D events (per §3.60.4) | ✓ same SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, α = 1.289 | $E_{\rm sub}$ (energy) |
 
 **The 1-species-at-each-level principle is bilateral**:
@@ -889,14 +889,14 @@ Within the same dimension, all universes have the SAME INTERNAL PHYSICS. They di
 
 **Why $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$**
 
-**AUDIT CORRECTION (v3.1.2-final)**: $M_{\rm Pl,2D}$ = 2.95 TeV (from L41 closed in v3.0.22, μ = $8.73 \times 10^{6}\,\text{GeV}$², holographic 2D brane). Earlier v3.1.2 drafts listed $M_{\rm Pl,2D}$ = 10³⁸ GeV — this was WRONG (35 orders of magnitude off, not corresponding to any physics scale, NEVER used in any formula). The correct value is 2.95 TeV from L41. (Note: $M_{\rm Pl,2D}$ is NOT used in the closed-loop formula at all — the formula uses $M_{\rm Pl,N}$ at the parent's level, not the child's. So $M_{\rm Pl,2D}$ only appears in the Lagrangian section, where L41 fixes it at 2.95 TeV.)
+**AUDIT CORRECTION (v3.1.2-final)**: $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (from L41 closed in v3.0.22, μ = $8.73 \times 10^{6}\,\text{GeV}$², holographic 2D brane). Earlier v3.1.2 drafts listed $M_{\rm Pl,2D}$ = 10³⁸ GeV — this was WRONG (35 orders of magnitude off, not corresponding to any physics scale, NEVER used in any formula). The correct value is 2.95 TeV from L41. (Note: $M_{\rm Pl,2D}$ is NOT used in the closed-loop formula at all — the formula uses $M_{\rm Pl,N}$ at the parent's level, not the child's. So $M_{\rm Pl,2D}$ only appears in the Lagrangian section, where L41 fixes it at 2.95 TeV.)
 
-**[v3.5.7+ USER-CORRECTED]**: The "holographic 2D brane" label was INCORRECT. Actual derivation chain (L308f): the v32 calculation `lagrangian_v32_scale_downward.py` G_2D = G₄ × L_2D gives $M_{\rm Pl,2D}$ = 1.71 TeV (Option 2) or $2.94 \times 10^{12}\,\text{GeV}$ (Option 1) — neither is 3 TeV. The framework chose 3 TeV because **$v_{\rm Higgs}$ × $N=12$ = 246 GeV × 12 = 2952 GeV ≈ 3 TeV** (the "EW coincidence", L42). So $M_{\rm Pl,2D}$ = 2.95 TeV is FRAMEWORK CHOICE ($N=12$ SYK + $v_{\rm Higgs}$), not derivation.
+**[v3.5.7+ USER-CORRECTED]**: The "holographic 2D brane" label was INCORRECT. Actual derivation chain (L308f): the v32 calculation `lagrangian_v32_scale_downward.py` G_2D = G₄ × L_2D gives $M_{\rm Pl,2D}$ = 1.71 TeV (Option 2) or $2.94 \times 10^{12}\,\text{GeV}$ (Option 1) — neither is 3 TeV. The framework chose 3 TeV because **$v_{\rm Higgs}$ × $N=12$ = 246 GeV × 12 = 2952 GeV ≈ 3 TeV** (the "EW coincidence", L42). So $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ is FRAMEWORK CHOICE ($N=12$ SYK + $v_{\rm Higgs}$), not derivation.
 
 **[v3.5.7+ α-GM CONSISTENCY, §7.4.6 LINK 1]**: Given α (calibrated), $M_{\rm Pl,3D}$ (measured), $M_{\rm Pl,4D}$ (derived from closed loop), $M_{\rm Pl,2D}$ is UNIQUELY fixed at 2.89 TeV by α-GM. Framework chose 3 TeV (3.6% off, consistent with rounding). So $M_{\rm Pl,2D}$ ≈ 2.95 TeV is REQUIRED for cascade consistency. The $M_{\rm Pl,2D}$ / $v_{\rm Higgs}$ = 11.75 ≈ 12 = $N=12$ SYK count.
 
 **[v3.5.7+ CONE DEPTH STRUCTURE, §7.4.6 LINK 2]**: Cone depths in α-units: 4D → 3+1D = 41.0 α-steps (= 12 geometric sub-steps), 3+1D → 2D = 141.6 α-steps (= 41 geometric sub-steps). Ratio between adjacent levels = √12 ≈ 3.46. The "12" is the CASCADE FUNDAMENTAL UNIT.
-: In brane-world physics (ADD since 1998, RS-I/II since 1999), the bulk Planck is INDEPENDENT of the brane Planck. The 4D bulk is a SEPARATE 4-dimensional spacetime with its OWN gravity scale, different from our universe's. $M_{\rm Pl,3D}$ = 10¹⁹ GeV is OUR universe's gravity (measured). $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ is the BULK's gravity (inferred, brane-world). The cascade's 2D universes ($M_{\rm Pl,2D}$ = 2.95 TeV) are also separate structures with their own gravity. Different levels, different gravity scales. The asymmetric Occam's razor is NOT applied.
+: In brane-world physics (ADD since 1998, RS-I/II since 1999), the bulk Planck is INDEPENDENT of the brane Planck. The 4D bulk is a SEPARATE 4-dimensional spacetime with its OWN gravity scale, different from our universe's. $M_{\rm Pl,3D}$ = 10¹⁹ GeV is OUR universe's gravity (measured). $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ is the BULK's gravity (inferred, brane-world). The cascade's 2D universes ($M_{\rm Pl,2D} = 2.95\,\text{TeV}$) are also separate structures with their own gravity. Different levels, different gravity scales. The asymmetric Occam's razor is NOT applied.
 
 ### AGE vs LIFETIME (v3.1.2-final, HONEST, AUDIT-CORRECTED)
 - **AGE**: 13.8 Gyr = current age of our 3+1D universe (OBSERVED, the only firm value)
@@ -1170,7 +1170,7 @@ Build: 354 pages, commit f4328c8.
 
 **User insight #3**: "3d events created the same types of 2d universes. so we can assume 4d events create the same types of 3d universes?"
 
-→ YES! Bilateral democratic cosmology. 14 different 3D events → 14 different 2D universes, all same physics (N=12 SYK, $M_{\rm Pl,2D}$ = 2.95 TeV). 1 4D event → N_sub 3+1D sub-universes, all same physics as ours (SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, α = 1.289). The 1-species-at-each-level principle is bilateral.
+→ YES! Bilateral democratic cosmology. 14 different 3D events → 14 different 2D universes, all same physics (N=12 SYK, $M_{\rm Pl,2D} = 2.95\,\text{TeV}$). 1 4D event → N_sub 3+1D sub-universes, all same physics as ours (SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, α = 1.289). The 1-species-at-each-level principle is bilateral.
 
 ---
 
@@ -1258,7 +1258,7 @@ For very old context (v1.x, v2.0-v2.5), see `changelog.md` and the topic file.
 
 **Free parameters (v3.5.6, 9 total)**:
 - 1 measured: $M_{\rm Pl,3D}$ = 1.22 \times 10^{19}\,\text{GeV}
-- 1 calibrated: $M_{\rm Pl,2D}$ = 2.95 TeV (via SN $\tau_{\rm 2D}$ = 33 s, L41)
+- 1 calibrated: $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (via SN $\tau_{\rm 2D}$ = 33 s, L41)
 - 1 DERIVED: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α)
 - 4 calibrated: α = 1.289, ε = 10⁻³⁸, $\tau_{\rm 4D}$, AGN rate
 - 1 free: N_sub = 3.86 \times 10^{2}(event-specific, our universe's 4D event had N=386)
@@ -1361,7 +1361,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### Parameter Consistency (all consistent)
 - $M_{\rm Pl,3D}$ = 1.22 \times 10^{19}\,\text{GeV}: paper=3, memory=3 ✓
-- $M_{\rm Pl,2D}$ = 2.95 TeV: paper=195 (very consistent) ✓
+- $M_{\rm Pl,2D} = 2.95\,\text{TeV}$: paper=195 (very consistent) ✓
 - $M_{\rm Pl,4D}$ = 3.93 \times 10^{23}\,\text{GeV}: paper=40, memory=38 ✓
 - α = 1.289: paper=473 (very consistent) ✓
 - μ = 9 \times 10^{6}: paper=6, consistent ✓
@@ -1468,7 +1468,7 @@ DM comes from 100% pulsed return at 2D universe death.
 
 ### B) L308f-L308l: User-driven refinements
 - User caught: $M_{\rm Pl,2D}$ & $M_{\rm Pl,4D}$ were never first-principles derived
-- L308f: $M_{\rm Pl,2D}$ = 2.95 TeV origin (N=12 SYK + $v_{\rm Higgs}$, NOT 'holographic')
+- L308f: $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ origin (N=12 SYK + $v_{\rm Higgs}$, NOT 'holographic')
 - L308g: $M_{\rm Pl,4D}$ = 3.93 \times 10^{23}\,derivation (α-GM + closed loop, NOT first-principles)
 - L308h: 0/9 first-principles search summary
 - L308i: 2π vs 4π is boundary-sphere structured (USER-DISCOVERED)
@@ -1867,7 +1867,7 @@ All updated to clearly mark as HISTORICAL and provide current state (15 paramete
 - 395 pages, 1.52 MB PDF
 - 140 limitations
 - 15 parameters (1+4+2+4+3+1 = 15)
-- $M_{\rm Pl,2D}$ = 2.95 TeV (12 × $v_{\rm Higgs}$)
+- $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (12 × $v_{\rm Higgs}$)
 - $M_{\rm Pl,4D}$ = 3.93 \times 10^{23}\,\text{GeV} (α-GM)
 - $\gamma_{\rm 4D}$ = 1.10 \times 10^{111}(A2) (DERIVED, literal time dilation at 4D level)
 - $\gamma_{2D}$ = 5.5 \times 10^{44}(DERIVED, literal time dilation at 2D level)
@@ -1938,7 +1938,7 @@ clearly marked as HISTORICAL (Fₚ(z) Hill function was DROPPED in v3.3+).
 
 **VERIFICATION**: All key values consistent across docs:
 - $M_{\rm Pl,3D}$ = 1.22 \times 10^{19}\,\text{GeV} (MEASURED)
-- $M_{\rm Pl,2D}$ = 2.95 TeV (FIRST-PRINCIPLES, L308r)
+- $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (FIRST-PRINCIPLES, L308r)
 - $M_{\rm Pl,4D}$ = 3.93 \times 10^{23}\,\text{GeV} (DERIVED, L308v)
 - α = 1.289 (FIRST-PRINCIPLES, L308n)
 - μ = 8.73 \times 10^{6}\,\text{GeV}^2 (FIRST-PRINCIPLES, L308r)

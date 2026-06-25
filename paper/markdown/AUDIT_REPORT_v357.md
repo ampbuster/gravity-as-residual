@@ -14,7 +14,7 @@ Apparent "0 occurrences" were due to notation differences.
 | Parameter | Paper | Memory | Status |
 |-----------|-------|--------|--------|
 | $M_{\rm Pl,3D}$ = $1.22 \times 10^{19}\,\text{GeV}$ | 3 | 3 | ✓ CONSISTENT |
-| $M_{\rm Pl,2D}$ = 2.95 TeV | 195 | (varies) | ✓ CONSISTENT |
+| $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ | 195 | (varies) | ✓ CONSISTENT |
 | $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ | 40 | 38 | ✓ CONSISTENT |
 | α = 1.289 | 473 | (varies) | ✓ CONSISTENT |
 | μ = $8.73 \times 10^{6}\,\text{GeV}$² | 6 | (varies) | ✓ CONSISTENT |
@@ -88,7 +88,7 @@ All key files exist and are healthy.
 - 5/27/68 split: 419 occurrences in 41 files — extremely consistent
 - α = 1.289: 473 occurrences in 22 files — extremely consistent
 - $\tau_{\rm SN}$ = 33 s: 388 occurrences — extremely consistent
-- $M_{\rm Pl,2D}$ = 2.95 TeV: 195 occurrences — extremely consistent
+- $M_{\rm Pl,2D} = 2.95\,\text{TeV}$: 195 occurrences — extremely consistent
 
 ## Recommendation
 

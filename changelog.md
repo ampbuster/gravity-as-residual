@@ -245,7 +245,7 @@ m DE,simple}$/closed)
 
 **v3.1.2-final foundation preserved**:
 - 8/8 events fit $M^{1.29}$ within 1.6× (α = 1.258 REJECTED, 14% off $v_{\rm Higgs}$)
-- Scenario X adopted: $M_{\rm Pl,4D}$ = 887 GeV (4D BULK Planck, separate from $M_{\rm Pl,3D}$)
+- Scenario X adopted: $M_{\rm Pl,4D} = 887\,\text{GeV}$ (4D BULK Planck, separate from $M_{\rm Pl,3D}$)
 - Three different $M_{\rm Pl}$ at three different levels (2D = 3 TeV, 3D = 10¹⁹ GeV, 4D = 887 GeV)
 - Closed-loop formula $f_{\rm back}$ = $(M_{\rm Pl,N}/E_{\rm event})^{α}$ universal at every level
 - AGE vs LIFETIME distinct: 13.8 Gyr is AGE, LIFETIME UNKNOWN

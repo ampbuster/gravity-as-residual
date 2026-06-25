@@ -19,7 +19,7 @@
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (cascade amplification factor)
-- **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, μ = $8.73 \times 10^{6}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub} = 3$.$86 \times 10^{2}$- **L308u (WHY $N=12$? PARTIAL BREAKTHROUGH)**: 6D anomaly + SM fermion count + Schwarzian α → L308ap: STRUCTURAL with strong first-principles motivations and confirmations (3 gen × 4 Weyl INPUT, Schwarzian α = 1+1/√N PREDICTION, data CONFIRMATION)
+- **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, μ = $8.73 \times 10^{6}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub} = 3$.$86 \times 10^{2}$- **L308u (WHY $N=12$? PARTIAL BREAKTHROUGH)**: 6D anomaly + SM fermion count + Schwarzian α → L308ap: STRUCTURAL with strong first-principles motivations and confirmations (3 gen × 4 Weyl INPUT, Schwarzian α = 1+1/√N PREDICTION, data CONFIRMATION)
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
 - **First-principles progress**: 0/9 → 3/15 (α, $M_{\rm Pl,2D}$, μ) — **L308ag: $N=12$ reclassified STRUCTURAL** — **L308ap: $N=12$ has strong first-principles motivations and confirmations but is not pure derivation**
 
@@ -42,7 +42,7 @@
 
 **v3.1 HIGHLIGHTS**: Full Lagrangian for SIDC (§3.62.6), Inception cone picture (§3.67), 5D/6D extension (§3.68), 9D = string theory connection (§3.68), SIDC-SM connection (§3.69). **L41, L42 CLOSED** (only 2 free parameters remain). **$M_{\rm Pl,9D} \approx v_{\rm Higgs}$ within 1.3%** identifies 9D with superstring theory's critical dimension.
 
-**v3.1.2-final additions** (HISTORICAL, intermediate): 8/8 events fit $M^{1.29}$ within 1.6×, Scenario X ( $M_{\rm Pl,4D}$ = 887 GeV, brane-world), AGE vs LIFETIME distinct, frame of reference explicit (4D event proper time 10⁻²⁰ s, apparent 10³⁴ yr, γ ~ 10⁶²).
+**v3.1.2-final additions** (HISTORICAL, intermediate): 8/8 events fit $M^{1.29}$ within 1.6×, Scenario X ( $M_{\rm Pl,4D} = 887\,\text{GeV}$, brane-world), AGE vs LIFETIME distinct, frame of reference explicit (4D event proper time 10⁻²⁰ s, apparent 10³⁴ yr, γ ~ 10⁶²).
 **v3.3 updates** (HISTORICAL, June 2026): $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ ( α-weighted GM, derived), $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (universe-scale), $\tau_{\rm 3D,apparent}$ = $9.10 \times 10^{124}\,\text{yr}$ (was $1.83 \times 10^{98}\,\text{yr}$), $\gamma_{\rm 4D}$ = $1.10 \times 10^{111}$(A2) (was $1.29 \times 10^{64}$), universe age fraction $1.52 \times 10^{-15}$(was $7.5 \times 10^{-89}$). 9D = $v_{\rm Higgs}$ DROPPED. $M^{\alpha}$ uses PARENT's Planck.
 
 **v3.5.9+ A2 UPDATE** (after audit): $\tau_{\rm 3D,apparent}$ = **$1.66 \times 10^{145}\,\text{yr}$ (A2)** (audit fixed units/precision), $\gamma_{\rm 4D}$ = **$1.10 \times 10^{111}$(A2)** (L308t precision). Framework now has **15 parameters** (REVISED L308z, was 14 pre-L308z, was 9 in v3.5.8).
@@ -3460,11 +3460,11 @@ See `calculations/v31_F_p_consistency.py` and `calculations/v31_F_p_result.md` f
 
 **User insight (v3.1.2)**: "1 SN can produce multiple 2D universes" (allowed by $M^{1.29}$ law degeneracy in N). "1 4D event can produce multiple 3+1D sub-universes" (analogous).
 
-**v3.3 Status**: This section describes the multi-universe picture. The v3.3 framework adopts $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ ( α-weighted GM) and $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (universe-scale). The v3.1.2 Scenario X ( $M_{\rm Pl,4D}$ = 887 GeV) has been SUPERSEDED.
+**v3.3 Status**: This section describes the multi-universe picture. The v3.3 framework adopts $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ ( α-weighted GM) and $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (universe-scale). The v3.1.2 Scenario X ( $M_{\rm Pl,4D} = 887\,\text{GeV}$) has been SUPERSEDED.
 
 **User correction (v3.1.2, further revised v3.1.2-final)**: "An energetic event in a 4D bulk created our 3+1D universe" — we do NOT know what kind of event occurs in the 4D bulk (NOT necessarily 'galaxy collisions' as previously suggested; the 4D-bulk dynamics are UNKNOWN). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our universe was created, not related to whatever produced it).
 
-**Setup (Scenario X, REVISED v3.3)**: 4D event ( $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$, calibrated to DE) creates $N_{\rm sub}$ 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so $N_{\rm sub}$ is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to $3.93 \times 10^{23}\,\text{GeV}$ via α-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
+**Setup (Scenario X, REVISED v3.3)**: 4D event ( $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$, calibrated to DE) creates $N_{\rm sub}$ 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so $N_{\rm sub}$ is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D} = 887\,\text{GeV}$ calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to $3.93 \times 10^{23}\,\text{GeV}$ via α-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
 
 If we apply $M^{\alpha}$ law to a sub-universe of mass $E_{\rm sub}$ (in 3+1D's own frame):
 
@@ -3838,7 +3838,7 @@ Within the same dimension, all universes are EQUAL — they have the same intern
 
 | Dimension | Same physics (all universes) | Different (per universe) |
 |---|---|---|
-| 2D | $N=12$ SYK, $M_{\rm Pl,2D}$ = 2.95 TeV, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
+| 2D | $N=12$ SYK, $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
 | 3+1D | SM, $M_{\rm Pl,3D}$ = $10^{19}\,\text{GeV}$, α = 1.289, $N=12$ | $E_{\rm sub}$, age, stage, baryon asymmetry |
 | 4D (extrapolation) | $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$, $N=12$ | $E_{\rm 4D}$, age, stage |
 
@@ -5311,7 +5311,7 @@ L308ba-bj, bi improvements pushed the score from 93% → 96% via:
 - DOF conservation (L308bc) → 12 = 6 = 3 structure
 
 Remaining 4% is genuine research (full path integral, 4D action specifics, bulk field theory connection) — not framework failures.$
-# First-Principles Analysis: c=1 Matrix Model → $M_{\rm Pl,2D}$ = 2.95 TeV
+# First-Principles Analysis: c=1 Matrix Model → $M_{\rm Pl,2D} = 2.95\,\text{TeV}$
 
 **⚠️ HISTORICAL (v3.3.8) — REVERTED in v3.5.8+ L308r**
 
@@ -5368,7 +5368,7 @@ TNT 2D universe:
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:
-- $M_{\rm Pl,2D}$ = 2.95 TeV (softer)
+- $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (softer)
 - Size = c × τ = $10^{10}\,\text{m}$ (huge!)
 - Action = 10⁴⁴ × 33 = $3.3 \times 10^{45}\,\text{J}$·s (huge!)
 - DM contribution: huge (action is huge)
@@ -5448,7 +5448,7 @@ The cleanest approach:
 1. **v3.3 (canonical)**: Keep universal μ = $8.73 \times 10^{6}$- Avoids weirdness
    - Simpler (9 parameters pre-A1, 15 parameters current v3.5.9+ A2 (α dim-specific)+L308z)
    - Agrees with most physics intuition
-   - $M_{\rm Pl,2D}$ = 2.95 TeV universal
+   - $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ universal
 
 2. **v3.3.6 (extended)**: Mention event-dependent μ
    - More honest about brute force pattern
@@ -5538,7 +5538,7 @@ The framework v3.3 doesn't fully specify the form of DM. Three possibilities:
 ### Possibility A: Single particle species
 - All 2D universes decay to the same particle
 - m_DM is universal (some specific value)
-- Natural choice: m_DM = $M_{\rm Pl,2D}$ = 2.95 TeV
+- Natural choice: m_DM = $M_{\rm Pl,2D} = 2.95\,\text{TeV}$
 - Direct detection: would see a peak at 2.95 TeV
 - **Status: HYPOTHESIS, not derived**
 
@@ -8935,7 +8935,7 @@ L303. **NEW ANGLE for μ: μ might be the AdS_2 radius of the 2D universe** (v3.
 
 ## 7.4.5 μ's 5 Structural Motivations (v3.5.7+, CONSOLIDATED)
 
-**Status update (v3.5.7+)**: μ = $M_{\rm Pl,2D}^2$ = $9 \times 10^{6}\,\text{GeV}^2$ has FIVE independent structural reasons. All five independently yield μ = $M_{\rm Pl,2D}^2$ via the framework's choice $M_{\rm Pl,2D}$ = 2.95 TeV. This is REMARKABLE convergence.
+**Status update (v3.5.7+)**: μ = $M_{\rm Pl,2D}^2$ = $9 \times 10^{6}\,\text{GeV}^2$ has FIVE independent structural reasons. All five independently yield μ = $M_{\rm Pl,2D}^2$ via the framework's choice $M_{\rm Pl,2D} = 2.95\,\text{TeV}$. This is REMARKABLE convergence.
 
 ### The 5 Independent Paths to μ = $M_{\rm Pl,2D}^2$
 
@@ -9036,17 +9036,17 @@ L308d. **String thermal duality b ↔ 1/(2b) → $T_H$** (v3.5.7+). Closed strin
 
 L308e. **Hawking-Page β = 2π L → $T_H$** (v3.5.7+). Euclidean periodicity forced by SL(2,R) isometry. $T_H$ = 1/( 2π L) = $M_{\rm Pl,2D}$/( 2π). Same as Hagedorn via BH thermodynamics. Source: `calculations/v35_euclidean_periodicity_mu.py`.
 
-L308f. ** $M_{\rm Pl,2D}$ = 2.95 TeV origin: $N=12$ SYK + $v_{\rm Higgs}$ EW coincidence, NOT holographic** (v3.5.7+, USER-CAUGHT). The framework has historically labeled $M_{\rm Pl,2D}$ = 2.95 TeV as "holographic estimate" (L110, L113). This label is INCORRECT. The actual derivation chain:
+L308f. ** $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ origin: $N=12$ SYK + $v_{\rm Higgs}$ EW coincidence, NOT holographic** (v3.5.7+, USER-CAUGHT). The framework has historically labeled $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ as "holographic estimate" (L110, L113). This label is INCORRECT. The actual derivation chain:
 - The v32 calculation `lagrangian_v32_scale_downward.py` G_2D = G₄ × $L_{\rm 2D}$ gives $M_{\rm Pl,2D}$ = 1.71 TeV (Option 2) or $2.94 \times 10^{12}\,\text{GeV}$ (Option 1) — neither is 3 TeV.
 - The framework chose 3 TeV because ** $v_{\rm Higgs}$ × N = 246 GeV × 12 = 2952 GeV ≈ 3 TeV** (the "EW coincidence", L42), where $N=12$ is the SYK count for α = 1 + 1/√12.
 - The "holographic" label was applied retroactively in L110/L113 but does NOT match v32's actual output.
 
-**Honest framing**: $M_{\rm Pl,2D}$ = 2.95 TeV is a FRAMEWORK CHOICE ( $N=12$ SYK + $v_{\rm Higgs}$), not a derivation. The 1.7 TeV alternative (Option 2) is the actual "holographic" estimate but lacks the 12-fold structural connection. Status: PARTIAL (EW coincidence documented). Source: user catch + `calculations/v35_alpha_cone_depth_structure.py`.
+**Honest framing**: $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ is a FRAMEWORK CHOICE ( $N=12$ SYK + $v_{\rm Higgs}$), not a derivation. The 1.7 TeV alternative (Option 2) is the actual "holographic" estimate but lacks the 12-fold structural connection. Status: PARTIAL (EW coincidence documented). Source: user catch + `calculations/v35_alpha_cone_depth_structure.py`.
 
 L308g. ** $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ derivation chain: closed loop + α-GM (NOT first-principles)** (v3.5.7+, USER-CAUGHT). The framework has TWO methods that give $M_{\rm Pl,4D}$ ≈ $4 \times 10^{23}\,\text{GeV}$ within 1%, but BOTH use calibrated inputs:
 
 **Method 1 ( α-GM)**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^ α × $M_{\rm Pl,2D}$^(1- α) = $3.96 \times 10^{23}\,\text{GeV}$
-- INPUTS: $M_{\rm Pl,3D}$ (measured), α (calibrated), $M_{\rm Pl,2D}$ = 2.95 TeV (L308f choice)
+- INPUTS: $M_{\rm Pl,3D}$ (measured), α (calibrated), $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (L308f choice)
 
 **Method 2 (Closed loop)**: $M_{\rm Pl,4D} = E_{\rm 4D} / (\tau_{\rm 4D}/t_{\rm Pl})^{1/\alpha} = 3.92×10^{23}$ GeV
 - INPUTS: $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (calibrated to DE), $\tau_{\rm 4D}$ = $1.51 \times 10^{34}\,\text{yr}$ (calibrated to DE)
@@ -9106,7 +9106,7 @@ L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (N
 - WHY $N=12$ specifically? (3 generations × 4 Weyl is consistent but not derived)
 - WHY α = 1 + 1/ $\sqrt{N}$ for SYK? (Schwarzian formula, framework-adopted)
 
-**Caveat**: The framework's choice of $M_{\rm Pl,2D}$ = 2.95 TeV vs the derivation's $M_{\rm Pl,2D}$ = 2.95 TeV reflects rounding. If we accept the derivation chain as primary, μ = $8.73 \times 10^{6}\,\text{GeV}$ ² (not $9 \times 10^{6}$). The framework should UPDATE μ to $8.73 \times 10^{6}\,\text{GeV}$ ² for internal consistency.
+**Caveat**: The framework's choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ vs the derivation's $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ reflects rounding. If we accept the derivation chain as primary, μ = $8.73 \times 10^{6}\,\text{GeV}$ ² (not $9 \times 10^{6}$). The framework should UPDATE μ to $8.73 \times 10^{6}\,\text{GeV}$ ² for internal consistency.
 
 **First-principles progress**: 2/9 → **3/9** (was α, $M_{\rm Pl,2D}$, now also μ). Source: `calculations/v35_mu_N_vH_derivation.py`.
 L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIRECTED)**. After §7.4.16's L26 PARTIAL CLOSURE via L308r (3% offset), 8 further derivation paths were attempted to FULLY close L26. **None bridge the 3% offset**. The 3% offset is genuinely from framework's $M_{\rm Pl,2D} = 2.95$ TeV (rounded) vs derivation's 2.95 TeV (exact N × $v_H$). Of 8 paths:
@@ -9129,7 +9129,7 @@ L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIR
 
 ## 7.4.6 α-GM Consistency and Cone Depth Structure (v3.5.7+, USER-DISCOVERED)
 
-**Status update (v3.5.7+)**: The α-weighted GM and cone depth structure reveal that $M_{\rm Pl,2D}$ = 2.95 TeV has TWO real links to the cascade via α — not just numerology. The "12" emerges as the CASCADE FUNDAMENTAL UNIT.
+**Status update (v3.5.7+)**: The α-weighted GM and cone depth structure reveal that $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ has TWO real links to the cascade via α — not just numerology. The "12" emerges as the CASCADE FUNDAMENTAL UNIT.
 
 ### Link 1: α-GM Consistency ( $M_{\rm Pl,2D}$ UNIQUELY fixed by cascade)
 
@@ -9200,7 +9200,7 @@ These are CONSISTENCIES, not derivations. But they show that "12" is a **STRUCTU
 
 **L308g ( $M_{\rm Pl,4D}$ derivation)**: PARTIAL — $4 \times 10^{23}\,\text{GeV}$ is consistent with both α-GM and closed loop, but neither is first-principles (both use calibrated inputs).
 
-**Link 1 ( α-GM consistency)**: STRUCTURAL — shows $M_{\rm Pl,2D}$ = 2.95 TeV is the cascade-consistent value.
+**Link 1 ( α-GM consistency)**: STRUCTURAL — shows $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ is the cascade-consistent value.
 
 **Link 2 (cone depth)**: STRUCTURAL — shows √12 is the cascade geometric unit.
 
@@ -9658,7 +9658,7 @@ This DERIVES α from Schwarzian SYK saddle-point with $N=12$ (12 Majorana = 3 ge
 ### Implication for First-Principles
 
 The first-principles WORK would focus on Tier 2:
-- Derive $M_{\rm Pl,2D}$ = 2.95 TeV from string theory / 2D CFT
+- Derive $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ from string theory / 2D CFT
 - Derive $N_{\rm sub}$ from 4D event mechanism
 
 These are the actual GAPS in the framework. Everything else is constrained.
@@ -9673,7 +9673,7 @@ Source: `calculations/v35_monte_carlo_parameter_search.py`, `calculations/v35_2d
 
 Systematic search for first-principles derivations of remaining 8 parameters (after α was derived as 1+1/√12).
 
-### $M_{\rm Pl,2D}$ = 2.95 TeV: STRUCTURAL DERIVATION
+### $M_{\rm Pl,2D} = 2.95\,\text{TeV}$: STRUCTURAL DERIVATION
 
 **Key finding**: $M_{\rm Pl,2D}$ = 12 × $v_{\rm Higgs}$ = 12 × 246.22 GeV = 2954.64 GeV = 2.95 TeV (1.5% off original 3 TeV).
 
@@ -10022,12 +10022,12 @@ The remaining 6 parameters:
 
 1. **WHY N = 12 specifically?** (3 generations × 4 Weyl is consistent with SM but not derived from deeper principle)
 2. **WHY α = 1 + 1/ $\sqrt{N}$ for SYK?** (Schwarzian formula adopted from literature, not derived from cascade)
-3. **The 3% offset** between μ = 8.73 × 10 ⁶ (derivation) and μ = 9 × 10 ⁶ (framework choice of $M_{\rm Pl,2D}$ = 2.95 TeV). This reflects rounding in $M_{\rm Pl,2D}$.
+3. **The 3% offset** between μ = 8.73 × 10 ⁶ (derivation) and μ = 9 × 10 ⁶ (framework choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$). This reflects rounding in $M_{\rm Pl,2D}$.
 
 ### Status Updates
 
 - **L26 ( μ first-principles)**: OPEN → **PARTIAL CLOSURE** (this section)
-- **L308f ( $M_{\rm Pl,2D}$ = 2.95 TeV origin)**: PARTIAL → **STRUCTURAL DERIVATION** (this section confirms N × $v_{\rm Higgs}$ gives 2.95 TeV, framework's 3 TeV is within 1.5%)
+- **L308f ( $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ origin)**: PARTIAL → **STRUCTURAL DERIVATION** (this section confirms N × $v_{\rm Higgs}$ gives 2.95 TeV, framework's 3 TeV is within 1.5%)
 - **Parameter count**: was 9 fundamental inputs, now effectively **6** fundamental inputs (with μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived)
 
 Source: `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_mu_N_vH_derivation_results.txt`.
@@ -12621,7 +12621,7 @@ Re-read of:
 
 ## 7.5 v3.5 NEW ANGLE Limitations: μ first-principles (11 attempts)
 
-L304. ** μ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with $f_{\rm DE}^2$ suppression (SIDC's $f_{\rm DE}^2$ ~ $10^{-170}$ at LHC energies makes strings invisible). For M_s = 3 TeV: μ = M_s² = $9 \times 10^{6}\,\text{GeV}^2$ ✓ MATCHES framework. BUT: this requires M_s = $M_{\rm Pl,2D}$ = 2.95 TeV, which is just saying μ = $M_{\rm Pl,2D}^2$ (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.
+L304. ** μ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with $f_{\rm DE}^2$ suppression (SIDC's $f_{\rm DE}^2$ ~ $10^{-170}$ at LHC energies makes strings invisible). For M_s = 3 TeV: μ = M_s² = $9 \times 10^{6}\,\text{GeV}^2$ ✓ MATCHES framework. BUT: this requires M_s = $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, which is just saying μ = $M_{\rm Pl,2D}^2$ (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.
 
 L305. ** μ = b² × $M_{\rm Pl,2D}^2$ for c=1 Liouville gives $4.5 \times 10^{6}$(off by factor 2)** (v3.5). The Liouville conformal weight b² = 1/2 for c=1 doesn't simply relate to μ via this formula. The natural μ = $M_{\rm Pl,2D}^2$ is the AdS_2 inverse length squared, but b² = 1/2 specifically gives a different value. Status: NOT DERIVED. Source: `calculations/v35_new_angle_mu.py`.
 
@@ -12728,7 +12728,7 @@ L310. **Lagrangian CONSISTENTLY sets mu = $M_{\rm Pl,2D}^2$ but doesn't derive i
 - L_c=1: Liouville cosmological constant (DEFINES mu = $M_{\rm Pl,2D}^2$)
 - L_Schwarzian: C = 1/sqrt(mu) = 1/ $M_{\rm Pl,2D}$ (AdS length, gives mu = $M_{\rm Pl,2D}^2$)
 - L_N=12 SYK: J = $M_{\rm Pl,2D}$ self-consistency (gives mu = $M_{\rm Pl,2D}^2$)
-But all three require $M_{\rm Pl,2D}$ = 2.95 TeV as INPUT. The Lagrangian is STRUCTURALLY CONSISTENT (three independent routes agree) but NOT a derivation.
+But all three require $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ as INPUT. The Lagrangian is STRUCTURALLY CONSISTENT (three independent routes agree) but NOT a derivation.
 
 L311. **TIER 3 #8: New cascade predictions** (v3.5.5). The cascade makes several testable predictions:
 - (a) SN-scale 2D universe tau = 33 s (testable only with 2D universe detection -- not feasible)
@@ -12817,7 +12817,7 @@ Source: `calculations/v35_web_more_options.py`.
 
 ## 7.7 v3.5.7 HOLOGRAPHIC/INFO-THEORETIC ANGLES
 
-L319. **STRING MINIMAL AREA gives mu = M_s^2** (v3.5.7). From ResearchGate 2022 (Minimal model for BH entropy): S = A/(4 l_p^2) requires minimum area. If minimum area in 2D is set by STRING SCALE: A_min = 1/M_s, then mu = 1/A_min^2 = M_s^2. For M_s = 3 TeV: mu = $9 \times 10^{6}\,\text{GeV}^2$ ✓ EXACT MATCH. STRUCTURAL IF 2D universe is a STRING THEORY with M_s = $M_{\rm Pl,2D}$ = 2.95 TeV (low string scale, Antoniadis 1990). Source: `calculations/v35_holographic.py`.
+L319. **STRING MINIMAL AREA gives mu = M_s^2** (v3.5.7). From ResearchGate 2022 (Minimal model for BH entropy): S = A/(4 l_p^2) requires minimum area. If minimum area in 2D is set by STRING SCALE: A_min = 1/M_s, then mu = 1/A_min^2 = M_s^2. For M_s = 3 TeV: mu = $9 \times 10^{6}\,\text{GeV}^2$ ✓ EXACT MATCH. STRUCTURAL IF 2D universe is a STRING THEORY with M_s = $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (low string scale, Antoniadis 1990). Source: `calculations/v35_holographic.py`.
 
 L320. **'2 pi' in mu formula is UNIVERSAL 2D FACTOR** (v3.5.7). The "2 pi" appearing in mu = (2 pi $T_H$)² has the SAME origin across multiple formulas:
 - Bekenstein bound S <= 2 pi E R (Longo 2024, from local QFT)
@@ -19621,7 +19621,7 @@ Apparent "0 occurrences" were due to notation differences.
 | Parameter | Paper | Memory | Status |
 |-----------|-------|--------|--------|
 | $M_{\rm Pl,3D}$ = $1.22 \times 10^{19}\,\text{GeV}$ | 3 | 3 | ✓ CONSISTENT |
-| $M_{\rm Pl,2D}$ = 2.95 TeV | 195 | (varies) | ✓ CONSISTENT |
+| $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ | 195 | (varies) | ✓ CONSISTENT |
 | $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ | 40 | 38 | ✓ CONSISTENT |
 | α = 1.289 | 473 | (varies) | ✓ CONSISTENT |
 | μ = $8.73 \times 10^{6}\,\text{GeV}$² | 6 | (varies) | ✓ CONSISTENT |
@@ -19695,7 +19695,7 @@ All key files exist and are healthy.
 - 5/27/68 split: 419 occurrences in 41 files — extremely consistent
 - α = 1.289: 473 occurrences in 22 files — extremely consistent
 - $\tau_{\rm SN}$ = 33 s: 388 occurrences — extremely consistent
-- $M_{\rm Pl,2D}$ = 2.95 TeV: 195 occurrences — extremely consistent
+- $M_{\rm Pl,2D} = 2.95\,\text{TeV}$: 195 occurrences — extremely consistent
 
 ## Recommendation
 

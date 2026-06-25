@@ -25,7 +25,7 @@ The framework v3.3 doesn't fully specify the form of DM. Three possibilities:
 ### Possibility A: Single particle species
 - All 2D universes decay to the same particle
 - m_DM is universal (some specific value)
-- Natural choice: m_DM = $M_{\rm Pl,2D}$ = 2.95 TeV
+- Natural choice: m_DM = $M_{\rm Pl,2D} = 2.95\,\text{TeV}$
 - Direct detection: would see a peak at 2.95 TeV
 - **Status: HYPOTHESIS, not derived**
 
