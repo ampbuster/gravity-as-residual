@@ -38,7 +38,7 @@
 - $A_{event}$ (v2.7.54): revised from 67 → 1 (identity operation, not a parameter)
 - Fₚ(0) (v2.7.52): derived from cumulative DM calculation, no longer calibrated
 - ε (CURRENT v3.5.9+ A2): CALIBRATED at 6.32×10⁻³⁴ (gravity weakness, hierarchy problem, OBSERVED). Was 10⁻³⁸ in A1, recalibrated +4.8 orders in A2. $f \times \epsilon = 1.13 \times 10^{-123}$ invariant preserved.
-- $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas (f×ε = 1.13× $10^{-123}$ invariant)
+- $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas ($f \times \varepsilon$ = 1.13× $10^{-123}$ invariant)
   - $f_{\rm DE,simple}$ = 1.13× 10⁻⁸⁵ (uses $\alpha_{2D}$ = 1.289, ε = 1× 10⁻³⁸)
   - $f_{\rm DE,closed}$ = 1.79× 10⁻⁹⁰ (uses $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴)
   - Both give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT match)

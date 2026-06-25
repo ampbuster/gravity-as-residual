@@ -1,12 +1,14 @@
 # State of the Model: v3.5.9+ A2 (June 23, 2026)
 
-**APPROACH A2: α dim-specific, $f_{\rm back}$ → $f_{\rm DE}$,closed renaming complete**
+**APPROACH A2: α dim-specific, $f_{\rm back}$ → $f_{
+m DE,closed}$ renaming complete**
 
 ## Overview
 
 **Paper**: "Gravity as Residual: A Geometric Framework for the Dark Sector via Scale-Invariant Dimensional Cascades"
 **Subtitle**: SIDC = Scale-Invariant Dimensional Cascade
-**Version**: v3.5.9+ A2 (APPROACH A2: α dim-specific: $\alpha_{2D}$=1.289, $\alpha_{4D}$=1.577; $f_{\rm back}$ → $f_{\rm DE}$,closed)
+**Version**: v3.5.9+ A2 (APPROACH A2: α dim-specific: $\alpha_{2D}$=1.289, $\alpha_{4D}$=1.577; $f_{\rm back}$ → $f_{
+m DE,closed}$)
 
 **Available formats**:
 - **ArXiv condensed** (6 pages, 86 KB): `paper/arxiv/paper_arxiv.{tex,pdf}` — primary "physics paper" version
@@ -16,7 +18,8 @@
 **v3.5.9+ A2 BREAKTHROUGHS** (current, α dim-specific):
 - **APPROACH A1+A2** (§7.4.20-42):
   - **A1**: $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
-  - **A2**: α dim-specific, $f_{\rm back}$ → $f_{\rm DE}$,closed, ε recalibrated
+  - **A2**: α dim-specific, $f_{\rm back}$ → $f_{
+m DE,closed}$, ε recalibrated
   - DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age)
   - $\gamma_{\rm 4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (cascade amplification factor, REINSTATED)
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
@@ -65,7 +68,7 @@ Our 3+1D universe is one of $N_{\rm sub} = 3.86×10²$ sub-universes created by 
 
 **Summary** (v3.5.9+ A2): 1 MEASURED + 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 CALIBRATED (ε, $\tau_{4D}$, AGN rate, $f_{\rm leak,3D→4D}$) + 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$) + 1 FREE ($N_{\rm sub}$) + $\gamma_{2D}$ extension = **15 parameters** (1+3+2+4+4+1).
 
-**Note**: $M_{\rm Pl,2D}$ = 2.95 TeV gives μ = 8.73×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived). **v3.5.9+ A2**: $\gamma_{\rm 4D}$ stays derived (cascade amplification factor, consistent with $\gamma_{\rm 2D}$); $f_{\rm leak,3D→4D} = H_0$ is NEW calibrated principle; **f × ε = 1.13×10⁻¹²³ invariant** preserved; $kL$ = 76.4 (was 87.5 A1, ΔkL = -11.1).
+**Note**: $M_{\rm Pl,2D}$ = 2.95 TeV gives μ = 8.73×10⁶ GeV² (Liouville CC). Derivation: μ = (N × $v_{\rm Higgs}$)² = 8.73×10⁶ GeV² (3% off, L308r). v3.5.8+ reduced effective fundamental inputs from 9 → 6 (μ, $M_{\rm Pl,2D}$, $M_{\rm Pl,4D}$ all derived). **v3.5.9+ A2**: $\gamma_{\rm 4D}$ stays derived (cascade amplification factor, consistent with $\gamma_{\rm 2D}$); $f_{\rm leak,3D→4D} = H_0$ is NEW calibrated principle; **$f \times \varepsilon$ = 1.13×10⁻¹²³ invariant** preserved; $kL$ = 76.4 (was 87.5 A1, ΔkL = -11.1).
 
 ## Key Formulas
 
@@ -156,7 +159,8 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 **v3.5.8+ REVISIONS (L308r, L308n, L308u)**:
 - ✓ α = 1.289 = 1 + 1/√12 → **FIRST-PRINCIPPLES** (Schwarzian SYK N=12, L308n)
-- ✓ μ = 8.73×10⁶ GeV² → **FIRST-PRINCIPPLES** (μ = (N × v_H)² = $M_{\rm Pl}$,2D², L308r)
+- ✓ μ = 8.73×10⁶ GeV² → **FIRST-PRINCIPPLES** (μ = (N × v_H)² = $M_{
+m Pl,2D}$², L308r)
 - ✓ N = 12 → **FIRST-PRINCIPPLES** (Appelquist 2001 + Z_12 + 6D anomaly, L308u)
 
 **CURRENT (v3.5.9+ A2) 4 CALIBRATED**:

@@ -121,7 +121,7 @@ $$\boxed{\tau_{2D,\,\text{our frame}} = t_{\rm Pl,3} \times \left(\frac{E_{\rm 3
 
 $$f_{\rm DE} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)}$$
 
-Evaluates to **$f_{\rm DE}$,closed = 1.79×10⁻⁹⁰** (A2, $\alpha_{4D}$ = 1.577). Dark energy density matches observation within **0.13%** of 2.5×10⁻⁴⁷ GeV⁴. The f×ε invariant = 1.13×10⁻¹²³ is preserved across both A1 and A2 formulations.
+Evaluates to **$f_{\rm DE,closed} = 1.79 \times 10^{-90}$** (A2, $\alpha_{4D} = 1.577$). Dark energy density matches observation within **0.13%** of $2.5 \times 10^{-47}\,\text{GeV}^4$. The $f \times \varepsilon$ invariant $= 1.13 \times 10^{-123}$ is preserved across both A1 and A2 formulations.
 
 ### 7. First-principles structure: Clifford algebras + Bott periodicity
 
@@ -159,7 +159,7 @@ Level    N    Clifford Structure                  First-principles
 | Status | Count | Parameters |
 |---|:---:|---|
 | 1 MEASURED | 1 | $M_{\rm Pl,3D}$ (Newton's G) |
-| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$ $v_H$ (L308r), μ = $M_{\rm Pl}$,2D² (L308r) |
+| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$ $v_H$ (L308r), μ = $M_{m Pl,2D}$² (L308r) |
 | 2 DERIVED | 2 | $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (L308o) |
 | 4 CALIBRATED | 4 | ε, $\tau_{4D}$, AGN rate, **$f_{\rm leak,3D→4D}$ = H₀** (A1 frame-neutral) |
 | 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$ |
@@ -181,7 +181,7 @@ Level    N    Clifford Structure                  First-principles
 
 **Numerical values (unchanged from A2):**
 - ε = 6.32×10⁻³⁴
-- $f_{\rm DE}$,closed = 1.79×10⁻⁹⁰
+- $f_{m DE,closed}$ = 1.79×10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - $\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ GeV⁴ (EXACT)

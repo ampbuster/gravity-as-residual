@@ -110,7 +110,7 @@ Both directions use the **SAME α = 1.289** derived from **N = 12** SYK. This is
 **The closed loop UNITES DM, DE, and gravity (v3.0.22, §3.60.3)**:
 
 - **Gravity weakness**: $\varepsilon_{\rm grav} \sim 6.32 \times 10^{-34}$ (A2, was 10⁻³⁸ in A1) from bulk-brane cancellation; $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant
-- **DE density**: $\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.5 \times 10^{-47}$ GeV⁴ (matches observed within 0.13%, via f×ε = 1.13×$10^{-123}$ invariant; v3.0.22 was 2.2×10⁻⁴⁷ within 12% via $f_{\rm back}$ ≈ 10⁻⁸⁵)
+- **DE density**: $\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.5 \times 10^{-47}$ GeV⁴ (matches observed within 0.13%, via $f \times \varepsilon$ = 1.13×$10^{-123}$ invariant; v3.0.22 was 2.2×10⁻⁴⁷ within 12% via $f_{\rm back}$ ≈ 10⁻⁸⁵)
 - **DM density**: $\rho_{\rm DM} = f_{\rm DM,death} \times \Sigma(M_{\rm 2D} \times N_{\rm 2D})/V$ (uses same $f_{\rm DM,death}$)
 
 All three use the SAME α = 1.289 (Schwarzian SYK $N=12$, L308n), the SAME $f_{\rm DE,closed} \approx 1.79 \times 10^{-90}$ (A2 closed loop, L308av; A1 form $f_{\rm DE,simple} \approx 1.13 \times 10^{-85}$ gives same $\rho_{\rm DE}$), the SAME bulk-brane geometry. The closed loop is what unifies them.
@@ -277,7 +277,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 - $A_{event}$ (v2.7.54): revised from 67 → 1 (identity operation, not a parameter)
 - Fₚ(0) (v2.7.52): derived from cumulative DM calculation, no longer calibrated
 - ε (CURRENT v3.5.9+ A2): CALIBRATED at 6.32×10⁻³⁴ (gravity weakness, hierarchy problem, OBSERVED). Was 10⁻³⁸ in A1, recalibrated +4.8 orders in A2. $f \times \epsilon = 1.13 \times 10^{-123}$ invariant preserved.
-- $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas (f×ε = 1.13× $10^{-123}$ invariant)
+- $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas ($f \times \varepsilon$ = 1.13× $10^{-123}$ invariant)
   - $f_{\rm DE,simple}$ = 1.13× 10⁻⁸⁵ (uses $\alpha_{2D}$ = 1.289, ε = 1× 10⁻³⁸)
   - $f_{\rm DE,closed}$ = 1.79× 10⁻⁹⁰ (uses $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴)
   - Both give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT match)
@@ -1280,7 +1280,8 @@ See `paper/legacy/v357_f_back_clarification.md` for full discussion.
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The f × ε = 1.13× $10^{-123}$ invariant is preserved.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved.
 
 <!-- 03a_relations.md - part of paper.md split (v3.1, renamed from 03_relations.md for sequential ordering) -->
 
@@ -2013,7 +2014,8 @@ See `calculations/v27_dm_baryon_growth.py` for the full numerical analysis.
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The f × ε = 1.13× $10^{-123}$ invariant is preserved.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved.
 
 <!-- 03b_predictions.md - part of paper.md split (v3.1, renamed from 03_predictions.md for sequential ordering) -->
 
@@ -3367,7 +3369,8 @@ The 3+1D → 2D transition is a CREATE-AND-DIE process, NOT a closed loop.
 
 $f_{\rm back}$ ≈ 10⁻⁸⁵. Combined with $\epsilon_{\rm grav}$ ~ 10⁻³⁸:
 
-$\rho_{\rm DE}$ predicted = $f_{\rm back}$ × $\epsilon_{\rm grav}$ × $M_{\rm Pl}$,3⁴
+$\rho_{\rm DE}$ predicted = $f_{\rm back}$ × $\epsilon_{\rm grav}$ × $M_{
+m Pl,3}$⁴
               = 10⁻⁸⁵ × 10⁻³⁸ × (1.22 × 10¹⁹ GeV)⁴
               = 2.22 × 10⁻⁴⁷ GeV⁴
 
@@ -3694,15 +3697,19 @@ The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-g
 - They DON'T cancel cleanly, so the formula gives wrong result
 - 
 - The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
-- $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
+- $\rho_{\rm DE}$ = $f_{
+m DE,closed}$ × ε × $M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
 **Simple $f_{\rm DE,simple}$ formula (legacy A1, preserved as compact form, gives 0.13% off, near-exact)**:
 $$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$ (A2)
 Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is DE-calibrated).
 
-**A2 Note**: The simple $f_{\rm DE}$,simple formula uses $\alpha_{2D}$ = 1.289 (in $M_{\rm Pl,4D}$ from α-GM) with ε = 1e-38. The closed loop formula $f_{\rm DE}$,closed (L308av, was $f_{\rm back}$ in legacy naming) uses $\alpha_{4D}$ = 1.577 with ε = 6.32e-34. Both give $\rho_{\rm DE}$ = 2.5e-47 ✓. f×ε = 1.13e-123 invariant preserved.
+**A2 Note**: The simple $f_{
+m DE,simple}$ formula uses $\alpha_{2D}$ = 1.289 (in $M_{\rm Pl,4D}$ from α-GM) with ε = 1e-38. The closed loop formula $f_{
+m DE,closed}$ (L308av, was $f_{\rm back}$ in legacy naming) uses $\alpha_{4D}$ = 1.577 with ε = 6.32e-34. Both give $\rho_{\rm DE}$ = 2.5e-47 ✓. $f \times \varepsilon$ = 1.13e-123 invariant preserved.
 
-**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = 1× 10⁻³⁸). In v3.5.9+ A2, the $f_{\rm DE}$,closed formula is canonical (uses $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴). f×ε = 1.13× $10^{-123}$ invariant preserved in both.
+**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = 1× 10⁻³⁸). In v3.5.9+ A2, the $f_{
+m DE,closed}$ formula is canonical (uses $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴). $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant preserved in both.
 
 **Why this works**:
 - UP flow (e.g., 2D → 3+1D): pulsed return at (N-1)-universe death = DM
@@ -4286,7 +4293,8 @@ $S_{\rm 4D,event}$ = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
 
 $S_{\rm 3+1D,brane}$ = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
                with $M_{\rm Pl,3}$ = 1.22 × 10¹⁹ GeV
-               Λ = $f_{\rm back}$ × ε × $M_{\rm Pl}$,3² (SIDC's DE)
+               Λ = $f_{\rm back}$ × ε × $M_{
+m Pl,3}$² (SIDC's DE)
 
 $S_{\rm 2D,universe}$ = S_Liouville + S_Ising + S_SYK + S_FZZT
                 S_L = (1/4π) ∫ [(∂φ)² + μ e^(2φ)]
@@ -4480,7 +4488,8 @@ See `calculations/lagrangian_v23_dm_de_gravity.py` through
 The §3.67 Lagrangian proposal (L116) has three weaknesses relative to the v3.5.9+ A2 framework:
 
 1. **Uses α = 1.289 universally** — but A2 established that α is dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ = 1.408, $\alpha_{4D}$ = 1.577, L308av)
-2. **Uses $f_{\rm back}$ ≈ 10⁻⁸⁵** — but A2 has $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (closed loop) and f×ε = 1.13× $10^{-123}$ invariant
+2. **Uses $f_{\rm back}$ ≈ 10⁻⁸⁵** — but A2 has $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰ (closed loop) and f×ε = 1.13× $10^{-123}$ invariant
 3. **Has no mirror plane symmetry** — but L308az established 3+1D as dimensional mirror plane (sign flip between DE and DM)
 
 This section REVISES the Lagrangian with three A2-era corrections and ONE new structural insight (L308ba, halving pattern).
@@ -4576,7 +4585,8 @@ S_drain = -f_leak,3D→4D × ∫ d⁴x ρ_DM(brane)
        with f_leak,2D→3D (natural) = 1.6×10⁻⁴⁵, DROPPED as negligible
 ```
 
-This term encodes L308ax: the natural cascade leaks through the 3+1D mirror plane are negligible (~88 orders below the death pulse for $f_{\rm leak}$,2D→3D; ~67 orders below H₀ for $f_{\rm leak,3D→4D}$ natural). The DM picture is dominated by the death pulse (DM production) and the calibrated drain (DM stability).
+This term encodes L308ax: the natural cascade leaks through the 3+1D mirror plane are negligible (~88 orders below the death pulse for $f_{
+m leak,2D}$→3D; ~67 orders below H₀ for $f_{\rm leak,3D→4D}$ natural). The DM picture is dominated by the death pulse (DM production) and the calibrated drain (DM stability).
 
 #### 3.68.4 Numerical Consistency (A2 closed loop check)
 
@@ -4589,7 +4599,8 @@ f_DE,closed = (M_Pl,4D/E_4D)^α_4D × prefactor
             = 2.55×10⁻¹⁰⁴ × prefactor
 ```
 
-Where prefactor accounts for parent-reference Planck ( $M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$) and time-dilation. With prefactor ~ 7×10¹³ (the ratio of $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ to appropriate power), we get $f_{\rm DE}$,closed ≈ 1.79× 10⁻⁹⁰ ✓.
+Where prefactor accounts for parent-reference Planck ( $M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$) and time-dilation. With prefactor ~ 7×10¹³ (the ratio of $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ to appropriate power), we get $f_{
+m DE,closed}$ ≈ 1.79× 10⁻⁹⁰ ✓.
 
 ```
 ρ_DE = f_DE,closed × ε × M_Pl,3⁴ = 1.79×10⁻⁹⁰ × 6.32×10⁻³⁴ × (1.22×10¹⁹)⁴
@@ -4599,16 +4610,20 @@ Where prefactor accounts for parent-reference Planck ( $M_{\rm Pl,3D}$, not $M_{
 #### 3.68.5 Frame-Neutral Naming Throughout
 
 The Lagrangian now uses A2 frame-neutral naming (L308ax):
-- `$f_{\rm DE}$,closed` (was $f_{\rm back}$ in legacy naming) — 3D→4D projection efficiency (closed loop)
-- `$f_{\rm DE}$,simple` — A1 form, preserved for compactness (also gives $\rho_{\rm DE}$ exact)
-- `$f_{\rm leak}$,2D→3D` (was $f_{\rm DM}$,leak) — natural cascade leak from 2D perspective (= $f_{\rm DM}$,leak from 3+1D perspective, ~ 10⁻⁴⁵, dropped)
+- `$f_{
+m DE,closed}$` (was $f_{\rm back}$ in legacy naming) — 3D→4D projection efficiency (closed loop)
+- `$f_{
+m DE,simple}$` — A1 form, preserved for compactness (also gives $\rho_{\rm DE}$ exact)
+- `$f_{
+m leak,2D}$→3D` (was $f_{\rm DM}$,leak) — natural cascade leak from 2D perspective (= $f_{\rm DM}$,leak from 3+1D perspective, ~ 10⁻⁴⁵, dropped)
 - `$f_{\rm leak,3D→4D}$` (was $f_{\rm leak}$) — calibrated drain rate = H₀ (post-Friedmann principle)
 
 #### 3.68.6 Honest Status
 
 The §3.68 Lagrangian is a STRUCTURAL IMPROVEMENT over §3.67:
 - ✓ Integrates A2 dim-specific α (L308av, L308aw, L308ba)
-- ✓ Uses A2 numerical values ( $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴, $\gamma_{\rm 4D} = 1.10×10¹¹¹$)
+- ✓ Uses A2 numerical values ( $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴, $\gamma_{\rm 4D} = 1.10×10¹¹¹$)
 - ✓ Encodes L308az mirror plane symmetry (sign flip in projection)
 - ✓ Uses frame-neutral naming (L308ax)
 - ✓ Adds bilateral cascade structure (death pulse + drain) to $S_{\rm 2D}$,universe
@@ -4625,9 +4640,12 @@ It does NOT:
 | Aspect | §3.67 (L116) | §3.68 (NEW) | Source |
 |--------|---------------|-------------|--------|
 | α (scaling law) | α = 1.289 (universal) | $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) | L308ba |
-| $f_{\rm DE}$ formula | $f_{\rm back}$ ≈ 10⁻⁸⁵ | $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ | L308av |
+| $f_{\rm DE}$ formula | $f_{\rm back}$ ≈ 10⁻⁸⁵ | $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰ | L308av |
 | Projection sign | ± $g_{\rm couple}$ (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
-| Frame naming | $f_{\rm back}$, $f_{\rm leak}$, $f_{\rm DM}$,leak | $f_{\rm DE}$,closed, $f_{\rm leak}$,2D→3D, $f_{\rm leak,3D→4D}$ | L308ax |
+| Frame naming | $f_{\rm back}$, $f_{\rm leak}$, $f_{\rm DM}$,leak | $f_{
+m DE,closed}$, $f_{
+m leak,2D}$→3D, $f_{\rm leak,3D→4D}$ | L308ax |
 | $E_{\rm sub}$ in 4D term | not explicit | $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ explicit | A2 STRUCTURAL |
 | 2D universe lifetime | (E/ $M_{\rm Pl,3D}$)^α × $t_{\rm Pl}$ | $(E/M_{\rm Pl,parent})^{\alpha}$_D × $t_{\rm Pl}$,parent (dim-specific) | L308ba |
 | DM picture | pulsed death + ε × ρ | pulsed death + $f_{\rm leak,3D→4D}$ × $\rho_{\rm DM}$ (bilateral) | L308ax |
@@ -4669,9 +4687,10 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 | **OVERALL** | **73%** | **93%** | **+20 percentage points** |
 
 **What improved**:
-- **Numerical consistency** (5/6 → 7/7): A2 values ( $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give EXACT match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
+- **Numerical consistency** (5/6 → 7/7): A2 values ( $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give EXACT match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
 - **Issue resolution** (37% → 80%): L308ar, L308az, L308ax all addressed in §3.68 with explicit Lagrangian terms (S_mirror, S_drain, halving rule).
-- **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, halving rule, f×ε invariant, σ_+×σ_-=-1).
+- **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, halving rule, $f \times \varepsilon$ invariant, σ_+×σ_-=-1).
 
 **What remains open** (the 7% gap):
 - L43 (Lagrangian → α): full partition function $Z_{\rm SIDC}$ not yet computed
@@ -4769,7 +4788,9 @@ If 4D has 3 generations of bulk fields, the 4D action is structurally analogous 
 | Numerical consistency | 5/6 | 7/7 | A2 exact match |
 | Issue resolution | 37% | 80% | L308ar/az/ax/ba addressed |
 | Mirror plane | not encoded | S_mirror term | L308az |
-| Frame-neutral naming | legacy | $f_{\rm DE}$,closed, $f_{\rm leak}$,2D→3D, $f_{\rm leak,3D→4D}$ | L308ax |
+| Frame-neutral naming | legacy | $f_{
+m DE,closed}$, $f_{
+m leak,2D}$→3D, $f_{\rm leak,3D→4D}$ | L308ax |
 | Dim-specific α | universal 1.289 | 1.289/1.408/1.577 | L308ba halving rule |
 | $E_{\rm sub}$ explicit | not specified | $E_{\rm 4D} = 386 × 1.295e77 J$| A2 STRUCTURAL |
 | Bilateral cascade | pulsed only | death pulse + drain | L308ax |
@@ -4874,7 +4895,8 @@ After the L308bh breakthrough (C(6) is the SM algebra, Stoica 2018), the user di
   - $N_{\rm 2D}$ = 12 = 3 gen × 4 Weyl (L308r, SM count)
   - $N_{3+1D}$ = 6 = C(6) SM algebra (Stoica 2018) [NEW]
   - $N_{\rm 4D}$ = 3 = 3 generations (Clifford/McKay/cobordism)
-- ε = 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, $\gamma_{\rm 4D} = 1.10×10¹¹¹$
+- ε = 6.32× 10⁻³⁴, $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰, $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT
 
 #### 3.71.2 What Changed from Previous B
@@ -4942,7 +4964,8 @@ NO numerical changes. Option B Strengthened uses the same values as Option B (A2
 
 - $\alpha_{2D}$/3+1D/4D = 1.289/1.408/1.577
 - ε = 6.32× 10⁻³⁴
-- $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰
+- $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT)
@@ -5047,9 +5070,9 @@ All three N values derive from Clifford algebra structure, NOT from observations
 Every numerical prediction in the A2 framework uses the SAME formula chain:
 
 ```
-f × ε = 1.13×10⁻¹²³ invariant preserved (across all formulas)
+$f \times \varepsilon$ = 1.13×10⁻¹²³ invariant preserved (across all formulas)
 
-ρ_DE = f × ε × M_Pl,3D⁴ = 2.5×10⁻⁴⁷ GeV⁴ ✓ EXACT match to observation
+ρ_DE = $f \times \varepsilon$ × M_Pl,3D⁴ = 2.5×10⁻⁴⁷ GeV⁴ ✓ EXACT match to observation
 
 M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×10²³ GeV ✓ (-1.13% from α-GM formula)
 
@@ -5228,7 +5251,8 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 **First-principles parameters (4):**
 1. $\alpha_{2D}$ = 1 + 1/√12 = 1.289 (Schwarzian SYK N=12, L308n)
 2. $M_{\rm Pl,2D} = 12 ×$ v_H = 2.95 TeV (L308r)
-3. μ = $M_{\rm Pl}$,2D² = 8.73×10⁶ GeV² (L308r)
+3. μ = $M_{
+m Pl,2D}$² = 8.73×10⁶ GeV² (L308r)
 4. ** $N_{3+1D}$ = 6 = C(6) SM algebra (L308bh) ← NEW**
 
 **Derived from first-principles:**
@@ -5837,7 +5861,8 @@ Even with F-theory 12D, the framework has:
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). Some ε ≈ 10⁻³⁸ and $f_{\rm back}$ ≈ 10⁻⁸⁵ references in this file are HISTORICAL (predate A2 recalibration). The f × ε = 1.13× $10^{-123}$ invariant is preserved in both A1 and A2.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). Some ε ≈ 10⁻³⁸ and $f_{\rm back}$ ≈ 10⁻⁸⁵ references in this file are HISTORICAL (predate A2 recalibration). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved in both A1 and A2.
 
 <!-- 04_predictions.md - part of paper.md split (v3.0.13) -->
 
@@ -8490,7 +8515,8 @@ The full table follows:
 | 113 (NEW v3.0.22) | 2D Planck IS the tip of the cone (the 2D floor) | PARTIAL (v3.0.22) | §3.63, v35 | The cone structure looks like a black hole, with 2D Planck as the tip (the 2D floor). To create a 2D universe AT the floor requires 3D event energy $E_{\rm 3D}$ ~ 10¹⁷ J (asteroid impact scale). The cone shape: r(d) = d × tan( α) = d × 1.289. STRENGTH: gives a geometric meaning to the 2D Planck scale. WEAKNESS: the cone is a cartoon (the full geometry is AdS_5 + brane + 2D universe). |
 | 114 (NEW v3.0.22) | $f_{\rm back}$ is NOT universal (varies with event) | PARTIAL (v3.0.22) | §3.63, v36 | $f_{\rm back}$ depends on the 3D event energy. At 2D floor: $f_{\rm back}$ ~ 4.8 × 10⁻²⁴; at SN: $f_{\rm back}$ ~ 10⁻⁸⁵. Cone depths in α units: LHC = -11.86 (BELOW floor — impossible), SN = 26.93, 4D event = 53.8. LHC p-p collisions CANNOT create 2D universes (they're below the floor). STRENGTH: explains why LHC is silent. WEAKNESS: $f_{\rm back}$ variation is a NEW finding that wasn't in original SIDC. |
 | 115 (NEW v3.0.22) | 2D CFT formulas at the 2D Planck tip give 8 derivations | PARTIAL (v3.0.22) | §3.63, v37 | Applied 8 standard 2D CFT formulas at the 2D Planck tip: (1) Casimir energy, (2) Cardy formula (thermal entropy), (3) Bekenstein-Hawking entropy ~ 10³¹ (huge), (4) Hawking temperature ~ 10⁴⁶ K (Planckian), (5) FZZT brane with g_L ~ 6.9 × 10¹¹, (6) Affleck-Ludwig boundary entropy, (7) Ising modular S-matrix, (8) 2D energy levels. Boundary CC $\mu_{\rm B}$ ~ 5 × 10³⁸ J/m² (derivable from $f_{\rm back}$). Internal 2D entropy ~ 1, External 3+1D entropy ~ 10³¹ (huge mismatch). STRENGTH: 8 distinct formulas give CONSISTENT numbers. WEAKNESS: the formulas are CONSISTENCY CHECKS, not derivations of the action. |
-| 116 (NEW v3.0.22) | A Lagrangian for SIDC | PARTIAL (v3.0.22) | §3.62.6, v38 | Proposed $S_{\rm SIDC}$ = $S_{\rm 4D,event}$ + $S_{\rm 3+1D,brane}$ + $\Sigma_{\rm events}$ $S_{\rm 2D,universe}$ + $S_{\rm projection}$. Each component specified: $S_{\rm 4D}$ ( $M_{\rm Pl,4}$ = 4 × 10²³ GeV), $S_{\rm 3+1D}$ (SM + Λ = $f_{\rm back}$ × ε × $M_{\rm Pl}$,3²), $S_{\rm 2D}$ = $S_{\rm Liouville}$ + $S_{\rm Ising}$ + $S_{\rm SYK}$ + S_FZZT, $S_{\rm projection}$ with TIME DILATION α = 1.289. Closed loop: $f_{\rm back}$ = g_couple² × $Z_{\rm 2D}$( $\tau_{\rm 2D}$) / E_3D². Numerical check: SN $\tau_{\rm 2D}$ = 29.6 s ≈ 33 s ✓; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr (DE-calibrated) ✓. CRITICAL ISSUE FOUND: c = 1 (Liouville) + 6 (12 Majorana) = 7, NOT c = 1.5 as previously stated. Resolved in L117 (UV/IR RG flow). STRENGTH: complete Lagrangian with all components. WEAKNESS: 5D bulk action S_5D_bulk is MISSING, 4D event matter L_4D_matter is UNKNOWN, projection mechanism not specified. |
+| 116 (NEW v3.0.22) | A Lagrangian for SIDC | PARTIAL (v3.0.22) | §3.62.6, v38 | Proposed $S_{\rm SIDC}$ = $S_{\rm 4D,event}$ + $S_{\rm 3+1D,brane}$ + $\Sigma_{\rm events}$ $S_{\rm 2D,universe}$ + $S_{\rm projection}$. Each component specified: $S_{\rm 4D}$ ( $M_{\rm Pl,4}$ = 4 × 10²³ GeV), $S_{\rm 3+1D}$ (SM + Λ = $f_{\rm back}$ × ε × $M_{
+m Pl,3}$²), $S_{\rm 2D}$ = $S_{\rm Liouville}$ + $S_{\rm Ising}$ + $S_{\rm SYK}$ + S_FZZT, $S_{\rm projection}$ with TIME DILATION α = 1.289. Closed loop: $f_{\rm back}$ = g_couple² × $Z_{\rm 2D}$( $\tau_{\rm 2D}$) / E_3D². Numerical check: SN $\tau_{\rm 2D}$ = 29.6 s ≈ 33 s ✓; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr (DE-calibrated) ✓. CRITICAL ISSUE FOUND: c = 1 (Liouville) + 6 (12 Majorana) = 7, NOT c = 1.5 as previously stated. Resolved in L117 (UV/IR RG flow). STRENGTH: complete Lagrangian with all components. WEAKNESS: 5D bulk action S_5D_bulk is MISSING, 4D event matter L_4D_matter is UNKNOWN, projection mechanism not specified. |
 | 117 (NEW v3.0.22) | c-value contradiction resolved: UV c=7 → IR c=3/2 via SYK q=4 | RESOLVED (v3.0.22) | §3.62.6, v39 | The Lagrangian v38 had c = 7 (1 Liouville + 6 from 12 Majorana), not c = 3/2 (1 + 1/2). Resolution: 12 Majorana are UV DOF; the c = 1/2 is the IR mode. SYK q = 4 interaction GAPS OUT 11 of 12 Majorana modes (mass gap m_gap ~ 9 TeV), leaving 1 Ising mode. c-theorem satisfied: 7 > 3/2 (RG flow reduces c). STRENGTH: c-theorem provides consistency check. WEAKNESS: the mass gap is an ESTIMATE from SYK q=4, not precisely computed. |
 | 118 (NEW v3.0.22) | L41 ( μ) and L42 (m₃₊₁D) CLOSED; only 2 free parameters | RESOLVED (v3.0.22) | §3.62.7, v40 | L41: μ = $M_{\rm Pl,2D}^2$ = (2.95 TeV)² = 8.73×10⁶ GeV² (2D Liouville cosmological constant). L42: m₃₊₁D = $v_{\rm Higgs}$ = 246 GeV (Higgs VEV). These are the ONLY two free parameters in SIDC. Everything else derived from these + 2D CFT structure. Single-particle event (Higgs VEV) gives $\tau_{\rm 2D}$ ~ 10⁻⁶⁵ s — BELOW 2D Planck time. Only MACROSCOPIC events (SN, AGN) create 2D universes. STRENGTH: from 5 free parameters (original) to 2 (current). WEAKNESS: m₃₊₁D = $v_{\rm Higgs}$ identification is suggestive (consistent with EW scale) but not rigorously derived. The connection between 2D CC μ and $M_{\rm Pl,2D}$ is also suggestive. |
 | 119 (NEW v3.0.22) | Closed loop derivation PARTIAL: structure identified, formula not derived from first principles | OPEN (v3.0.22) | §3.67, v42 | The closed loop formula $f_{\rm back}$ = ( $t_{\rm Pl,3}$/ $\tau_{\rm 4D}$) × ( $\tau_{\rm SN}$/ $\tau_{\rm universe}$) × ( $E_{\rm 4D}$/ $E_{\rm SN}$) $^{1/(2\alpha)}$ has the CORRECT structure (numerical decomposition matches within rounding) but is NOT derived from first principles. The 1/(2α) exponent is the Ising CFT × time dilation = c/α where c = 1/2 (N=24 = Ising central charge) and α = 1.289 is the time dilation. The 1/2 is from c = N/24, the 1/ α is the inverse time dilation. The time ratios are natural scales (Planck vs cosmic, event vs age). A FULL derivation requires the complete 5D bulk action, the projection mechanism, the boundary state calculation, and the closed loop's path integral — all of which are OPEN PROBLEMS. The closed loop is a CONSISTENCY CONDITION between 4D event eternal nature, 2D CFT Ising structure, time dilation, and dimensional hierarchy. |
@@ -10669,7 +10695,8 @@ This is a sharp question. Let me audit honestly.
 - After: 2 MEASURED, 3 CALIBRATED
 
 **Step 2: Recognize CALIBRATED redundancies**
-- $\rho_{\rm DE}$ = $f_{\rm DE}$ × ε × $M_{\rm Pl}$,3⁴ — DE observation gives the COMBINATION, not ε alone
+- $\rho_{\rm DE}$ = $f_{\rm DE}$ × ε × $M_{
+m Pl,3}$⁴ — DE observation gives the COMBINATION, not ε alone
 - $\tau_{4D}$ and ε are linked: only the product matters for DE
 - After: 2 CALIBRATED could collapse to 1 (DE density itself)
 
@@ -10992,7 +11019,8 @@ But NONE of these are rigorous first-principles derivations. The "5 independent 
 |---|---|---|---|
 | FIRST-PRINCIPLES | α | ✓ | ✓ (L308n, via Schwarzian with assumed $N=12$) |
 | FIRST-PRINCIPLES | $M_{\rm Pl,2D}$ | ✓ | ✓ (L308r, $M_{\rm Pl,2D} = 12 ×$ $v_{\rm Higgs}$) |
-| FIRST-PRINCIPLES | μ | ✓ | ✓ (L308r, μ = $M_{\rm Pl}$,2D²) |
+| FIRST-PRINCIPLES | μ | ✓ | ✓ (L308r, μ = $M_{
+m Pl,2D}$²) |
 | FIRST-PRINCIPLES | $N=12$ | ✓ | **PARTIAL** (downgrade per this L308ag) |
 | FIRST-PRINCIPLES | 4 total | | **3 total** |
 
@@ -11044,7 +11072,8 @@ After L308ag downgraded $N=12$ to STRUCTURAL, the user requested deeper research
 **What α = 1.289 actually is in the framework**:
 - It's the M^α lifetime scaling exponent
 - It's the time-dilation exponent ($\gamma_{4D}$ = $(E/M_{\rm Pl,3D})^{α}$)
-- It's the back-action exponent ( $f_{\rm DE}$,closed ∝ E^(1/(2α)) in A2 closed loop formula)
+- It's the back-action exponent ( $f_{
+m DE,closed}$ ∝ E^(1/(2α)) in A2 closed loop formula)
 
 **Is α = 1 + 1/√N a "derivation"?**
 - It IS a valid formula in the SYK literature for the 1/N correction
@@ -13158,11 +13187,13 @@ After L308aq:
 | Derives from 12 Majoranas via SYK q=4 gapping | ✓ TRUE (per L117) |
 | c = N/24 general formula | ✗ FALSE (only works for $N=12$) |
 | "Three independent derivations" | ✗ MISLEADING (none is strict) |
-| The formula c/α = 1/(2α) for $f_{\rm DE}$,closed (was $f_{\rm back}$) | ✓ TRUE (closed loop math) |
+| The formula c/α = 1/(2α) for $f_{
+m DE,closed}$ (was $f_{\rm back}$) | ✓ TRUE (closed loop math) |
 
 ### Implications
 
-The closed loop formula $f_{\rm DE}$,closed ~ ( $E_{\rm 4D}$/ $E_{\rm SN}$)^{1/(2α)} (was $f_{\rm back}$) uses 1/(2α) where the "1/2" comes from c = 1/2 (IR central charge of 2D universe).
+The closed loop formula $f_{
+m DE,closed}$ ~ ( $E_{\rm 4D}$/ $E_{\rm SN}$)^{1/(2α)} (was $f_{\rm back}$) uses 1/(2α) where the "1/2" comes from c = 1/2 (IR central charge of 2D universe).
 
 This 1/2 is REAL (c = 1/2 from Ising mode), but the derivation is:
 - 12 Majoranas → SYK q=4 → 1 Ising mode (c = 1/2)
@@ -13874,7 +13905,8 @@ So 3 of 4 are not derivations.
 ### User's Request
 
 After the user caught that:
-1. $f_{\rm DE}$,closed (was $f_{\rm back}$) closed loop is no longer the central mechanism in A1
+1. $f_{
+m DE,closed}$ (was $f_{\rm back}$) closed loop is no longer the central mechanism in A1
 2. $f_{\rm leak}$ = H₀ is the new mechanism
 3. α dimension-dependence affects only DE density, $\gamma_{4D}$, hierarchy levels
 
@@ -13884,8 +13916,10 @@ The user asked: "re-calibrate those that are linked and see what happens"
 
 Adopt Option B: α is dimension-specific. The linked quantities are:
 - $\gamma_{4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ (4D time dilation)
-- $f_{\rm DE}$,closed = ( $t_{\rm Pl,3}$/$\tau_{4D}$) × ($\tau_{\rm SN,obs}/\tau_{\rm universe}$) × ( $E_{\rm 4D}$/ $E_{\rm SN}$)^{1/(2α)} (was $f_{\rm back}$ in legacy naming)
-- $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$
+- $f_{
+m DE,closed}$ = ( $t_{\rm Pl,3}$/$\tau_{4D}$) × ($\tau_{\rm SN,obs}/\tau_{\rm universe}$) × ( $E_{\rm 4D}$/ $E_{\rm SN}$)^{1/(2α)} (was $f_{\rm back}$ in legacy naming)
+- $\rho_{\rm DE}$ = $f_{
+m DE,closed}$ × ε × $M_{\rm Pl,3D}^4$
 - $\tau_{3D,apparent} = \tau_{4D} × \gamma_{4D}$
 - Hierarchy level transitions: $f_{\rm back}$,N = $(M_{\rm Pl,N}/E_N)^{α}$ (legacy naming, was $f_{\rm back}$)
 
@@ -13895,7 +13929,8 @@ Adopt Option B: α is dimension-specific. The linked quantities are:
 |----------|------------------|---------------------|--------|
 | **$\gamma_{4D}$** | 5.70×10⁹⁰ | 1.10×10¹¹¹ (A2) | **+20.3 orders** |
 | **$\tau_{3D,apparent}$** | 8.61×10¹²⁴ yr | 1.66×10¹⁴⁵ yr (A2) | **+20.3 orders** |
-| ** $f_{\rm DE}$,closed** (was $f_{\rm back}$) | 6.03× 10⁻⁸⁸ | 1.79× 10⁻⁹⁰ (A2) | **−2.5 orders** |
+| ** $f_{
+m DE,closed}$** (was $f_{\rm back}$) | 6.03× 10⁻⁸⁸ | 1.79× 10⁻⁹⁰ (A2) | **−2.5 orders** |
 | ** $\rho_{\rm DE}$ (with old ε)** | 1.34× 10⁻⁴⁹ | 3.96× 10⁻⁵² | **−2.5 orders** |
 | **Required ε for $\rho_{\rm DE}$ match** | 1.87× 10⁻³⁶ | 6.32× 10⁻³⁴ | **+4.8 orders** |
 | ** $kL$ (RS-II)** | 87.5 | 76.4 | **−11.1 change** |
@@ -13912,7 +13947,8 @@ The apparent 3D lifetime ($\tau_{4D} × \gamma_{4D}$) is 10²⁰ × larger.
 - Old: 8.6×10¹²⁴ yr
 - New: 1.6×10¹⁴⁵ yr
 
-#### 3. $f_{\rm DE}$,closed (was $f_{\rm back}$) changes by −2.5 orders
+#### 3. $f_{
+m DE,closed}$ (was $f_{\rm back}$) changes by −2.5 orders
 The closed-loop back-action is 2.5 orders smaller.
 - Old: 6.0× 10⁻⁸⁸
 - New: 1.8× 10⁻⁹⁰
@@ -13936,13 +13972,15 @@ The bulk curvature changes from $kL$=87.5 to $kL$=76.4 (about 0.9× change).
 | 3+1D | 1.22×10¹⁹ | 3.12×10⁸⁹ | 1.408 | 7.3× $10^{-100}$ |
 | 4D | 3.93×10²³ | 3.12×10⁸⁹ | 1.577 | 1.2× $10^{-104}$ |
 
-The $f_{\rm DE}$,closed values span 50+ orders of magnitude across levels. The hierarchy transitions are NOT uniform.
+The $f_{
+m DE,closed}$ values span 50+ orders of magnitude across levels. The hierarchy transitions are NOT uniform.
 
 ### What Stays the Same ($\alpha_{2D}$ = 1.289)
 
 - ✓ 14 event lifetimes (M^α law in 2D)
 - ✓ Schwarzian α = 1 + 1/√12
-- ✓ $M_{\rm Pl,2D} = 2955 GeV$- ✓ μ = $M_{\rm Pl}$,2D²
+- ✓ $M_{\rm Pl,2D} = 2955 GeV$- ✓ μ = $M_{
+m Pl,2D}$²
 - ✓ $M_{\rm Pl,4D} = 3.93×10²³ GeV ($ α-GM with $\alpha_{2D}$)
 - ✓ $N_{\rm sub} = 386$- ✓ $f_{\rm leak}$ = H₀ (DM stability, α-independent)
 - ✓ $\tau_{\rm DM} = 14.5$ Gyr
@@ -13988,7 +14026,8 @@ User request: "re-calibrate those that are linked and see what happens"
 **Findings**:
 - $\gamma_{4D}$ changes by +20 orders (HUGE)
 - $\tau_{3D,apparent}$ changes by +20 orders
-- $f_{\rm DE}$,closed (was $f_{\rm back}$) changes by −2.5 orders
+- $f_{
+m DE,closed}$ (was $f_{\rm back}$) changes by −2.5 orders
 - $\rho_{\rm DE}$ is 4.8 orders below observation with old ε
 - Required ε for $\rho_{\rm DE}$ match: 6.3× 10⁻³⁴ (vs 10⁻³⁸)
 - $kL$ changes by −11
@@ -14029,8 +14068,10 @@ After the recalibration showed significant changes ($\gamma_{4D}$ +20 orders, $\
 | $kL$ (RS-II) | 87.5 | 76.4 | −11.1 |
 | $\gamma_{4D}$ | 5.70×10⁹⁰ | 1.10×10¹¹¹ (A2) | +20.3 orders |
 | $\tau_{3D,apparent}$ | 8.61×10¹²⁴ yr | 1.66×10¹⁴⁵ yr (A2) | +20.3 orders |
-| $f_{\rm DE}$,closed (was $f_{\rm back}$) | 6.03× 10⁻⁸⁸ | 1.79× 10⁻⁹⁰ (A2) | −2.5 orders |
-| $f_{\rm DE}$,closed exponent 1/(2α) | 0.388 | 0.317 | −18% |
+| $f_{
+m DE,closed}$ (was $f_{\rm back}$) | 6.03× 10⁻⁸⁸ | 1.79× 10⁻⁹⁰ (A2) | −2.5 orders |
+| $f_{
+m DE,closed}$ exponent 1/(2α) | 0.388 | 0.317 | −18% |
 | $\rho_{\rm DE}$ | 1.34× 10⁻⁴⁹ | 2.50× 10⁻⁴⁷ | matched to obs |
 
 ### What This Means
@@ -14053,7 +14094,8 @@ The "α universality" was a POSTULATE, not a derivation. Dropping it is the hone
 
 #### 3. The DE Density Match is Restored (with new ε)
 
-$\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$ now matches observation:
+$\rho_{\rm DE}$ = $f_{
+m DE,closed}$ × ε × $M_{\rm Pl,3D}^4$ now matches observation:
 - Old: 1.34× 10⁻⁴⁹ (off by 4.8 orders with new α)
 - New: 2.50× 10⁻⁴⁷ (matches exactly with ε = 6.32× 10⁻³⁴)
 
@@ -14083,7 +14125,8 @@ These are $\alpha_{2D}$ or α-independent:
 - ✓ 14 event lifetimes (use $\alpha_{2D}$ = 1.289)
 - ✓ $M_{\rm Pl,2D} = 2955 GeV (12 ×$ $v_{\rm Higgs}$)
 - ✓ $M_{\rm Pl,4D} = 3.93×10²³ GeV ($ α-GM with $\alpha_{2D}$)
-- ✓ μ = $M_{\rm Pl}$,2D²
+- ✓ μ = $M_{
+m Pl,2D}$²
 - ✓ $N_{\rm sub} = 386$- ✓ $f_{\rm leak}$ = H₀ (DM stability, α-independent)
 - ✓ $\tau_{\rm DM} = 14.5$ Gyr
 - ✓ 5/27/68 split (uses $f_{\rm leak}$ = H₀)
@@ -14099,7 +14142,8 @@ The framework is now at **v3.5.9+ A2** (was A1):
 | $kL$ (RS-II) | 87.5 | 76.4 |
 | $\gamma_{4D}$ | 5.70×10⁹⁰ | 1.08×10¹¹¹ |
 | $\tau_{3D,apparent}$ | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr |
-| $f_{\rm DE}$,closed exponent | 0.388 | 0.317 |
+| $f_{
+m DE,closed}$ exponent | 0.388 | 0.317 |
 | $\rho_{\rm DE}$ | matches (within 12%) | matches (exact) |
 
 ### The Open Questions
@@ -14109,7 +14153,8 @@ With Option A adopted:
 1. **$\alpha_{\rm 3+1D}$$ = 1.408 derivation**: Just predicted, not derived
 2. **$\alpha_{4D}$ = 1.577 derivation**: Just predicted, not derived
 3. **Why is ε = 6.32× 10⁻³⁴ instead of 10⁻³⁸?**: The new value is calibrated, not derived
-4. **Hierarchy $f_{\rm DE}$,closed values are very different**: 50+ orders span, what does this mean physically?
+4. **Hierarchy $f_{
+m DE,closed}$ values are very different**: 50+ orders span, what does this mean physically?
 5. **$\gamma_{4D}$ is 20 orders larger**: Implications for cosmology?
 
 ### Implications for Cosmology
@@ -14148,19 +14193,23 @@ User directive: "A: Adopt $\alpha_{4D}$ = 1.577 + recalibrate ε to 6.3× 10⁻�
 - $kL$ = 76.4 (RS-II)
 - $\gamma_{\rm 4D} = 1.08×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.63×10¹⁴⁵$ yr
-- $f_{\rm DE}$,closed exponent = 0.317
+- $f_{
+m DE,closed}$ exponent = 0.317
 
 **Implication**: The framework is now at v3.5.9+ A2. The α universality claim is dropped. The DE density match is restored (with new ε). Hierarchy transitions are level-specific.
 
-**Open**: $\alpha_{\rm 3+1D}$$ and $\alpha_{4D}$ are predicted but not derived. The new ε is calibrated, not derived. The hierarchy $f_{\rm DE}$,closed values are very different (50+ orders span).
+**Open**: $\alpha_{\rm 3+1D}$$ and $\alpha_{4D}$ are predicted but not derived. The new ε is calibrated, not derived. The hierarchy $f_{
+m DE,closed}$ values are very different (50+ orders span).
 
 
 
 
-## 7.4.42b (L308ax): Frame-Neutral Naming of Leakage Channels — $f_{\rm DM}$,leak → $f_{\rm leak}$,2D→3D, $f_{\rm leak}$ → $f_{\rm leak,3D→4D}$ (v3.5.9+ A2)
+## 7.4.42b (L308ax): Frame-Neutral Naming of Leakage Channels — $f_{\rm DM}$,leak → $f_{
+m leak,2D}$→3D, $f_{\rm leak}$ → $f_{\rm leak,3D→4D}$ (v3.5.9+ A2)
 
 **Date**: 2026-06-22
-**Trigger**: User insight: " $f_{\rm leak}$ from 2d->3d seen from 2d = $f_{\rm DM}$,leak from 2d->3d seen from 3d" and "maybe use $f_{\rm leak}$,2D→3D and $f_{\rm leak,3D→4D}$"
+**Trigger**: User insight: " $f_{\rm leak}$ from 2d->3d seen from 2d = $f_{\rm DM}$,leak from 2d->3d seen from 3d" and "maybe use $f_{
+m leak,2D}$→3D and $f_{\rm leak,3D→4D}$"
 **Status**: NAMING SIMPLIFICATION — frame-neutral, transition-explicit
 
 ### User's Insight (Two-Part)
@@ -14172,19 +14221,22 @@ User directive: "A: Adopt $\alpha_{4D}$ = 1.577 + recalibrate ε to 6.3× 10⁻�
 | Leakage at 2D→3D transition | "I'm leaking to 3D" = $f_{\rm leak}$ | "I'm gaining DM from 2D" = $f_{\rm DM}$,leak |
 | Leakage at 3+1D→4D transition | "I'm leaking to 4D" = $f_{\rm leak}$ | "I'm gaining DM from 3D" = $f_{\rm DM}$,leak |
 
-**Part 2 — Frame-Neutral Naming**: Use transition-explicit names: $f_{\rm leak}$,2D→3D and $f_{\rm leak,3D→4D}$. These are frame-independent.
+**Part 2 — Frame-Neutral Naming**: Use transition-explicit names: $f_{
+m leak,2D}$→3D and $f_{\rm leak,3D→4D}$. These are frame-independent.
 
 ### Naming Update
 
 | Old name (frame-dependent) | New name (frame-neutral) | Value |
 |---|---|---|
-| $f_{\rm DM}$,leak | ** $f_{\rm leak}$,2D→3D** | 1.6× 10⁻⁴⁵ (negligible vs death) |
+| $f_{\rm DM}$,leak | ** $f_{
+m leak,2D}$→3D** | 1.6× 10⁻⁴⁵ (negligible vs death) |
 | $f_{\rm leak}$ (= H₀) | ** $f_{\rm leak,3D→4D}$** | H₀ = 2.18× 10⁻¹⁸ /s |
 
 ### Key Simplification: Drop the Natural Cascade Leak
 
 The cascade formula at each transition gives ( $M_{\rm Pl}$,parent/E)^α:
-- $f_{\rm leak}$,2D→3D (natural) = $(M_{\rm Pl,3D}/E_{\rm 2D})^{α}$ = 1.6× 10⁻⁴⁵ (for SN, 33s lifetime)
+- $f_{
+m leak,2D}$→3D (natural) = $(M_{\rm Pl,3D}/E_{\rm 2D})^{α}$ = 1.6× 10⁻⁴⁵ (for SN, 33s lifetime)
 - $f_{\rm leak,3D→4D}$ (natural) = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α}$ = ~ 10⁻⁸⁶
 
 Compared to the dominant flows:
@@ -14197,14 +14249,16 @@ Compared to the dominant flows:
 
 1. **DM production**: 100% pulsed at 2D universe death (with $\gamma_{2D}$ growth) — dominates by 88 orders of magnitude over natural leak
 2. **DM drain**: $f_{\rm leak,3D→4D}$ = H₀ (calibrated stability principle) — needed to prevent DM over-accumulation
-3. **No natural continuous leakage matters**: $f_{\rm leak}$,2D→3D and the natural $f_{\rm leak,3D→4D}$ are dropped as negligible
+3. **No natural continuous leakage matters**: $f_{
+m leak,2D}$→3D and the natural $f_{\rm leak,3D→4D}$ are dropped as negligible
 
 The 27-orders-of-magnitude gap between H₀ and the natural cascade leak formula at 3+1D→4D tells us $f_{\rm leak}$ = H₀ is a **calibrated stability principle**, NOT a natural cascade phenomenon. This is honest and clean.
 
 ### Files Updated
 
 - paper/markdown/02_glossary.md: Updated §0.5 to use new naming, added "dropped as negligible" annotation, added L308av note (rebranded as L308ax)
-- paper/markdown/03c_lagrangian.md: All $f_{\rm DM}$,leak → $f_{\rm leak}$,2D→3D (5 replacements)
+- paper/markdown/03c_lagrangian.md: All $f_{\rm DM}$,leak → $f_{
+m leak,2D}$→3D (5 replacements)
 - paper/markdown/06_limitations.md: 1 replacement
 - paper/paper.md: 9 replacements
 
@@ -14228,15 +14282,19 @@ After Option A adoption (α dim-specific, ε = 6.32× 10⁻³⁴, $kL$ = 76.4), 
 
 ### 1. DE Density (PRIMARY TEST) — EXACT MATCH
 
-**Framework formula**: $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴
+**Framework formula**: $\rho_{\rm DE}$ = $f_{
+m DE,closed}$ × ε × $M_{
+m Pl,3D}$⁴
 
 **Calculation**:
-- $f_{\rm DE}$,closed = A × B × C = 1.785× 10⁻⁹⁰ (was $f_{\rm back}$ in legacy naming)
+- $f_{
+m DE,closed}$ = A × B × C = 1.785× 10⁻⁹⁰ (was $f_{\rm back}$ in legacy naming)
   - A = $t_{\rm Pl,3}/\tau_{\rm 4D} = 1.131×10^{-85}$
   - B = $\tau_{\rm SN,obs}/\tau_{\rm universe} = 7.578×10^{-17}$
   - C = $(E_{\rm 4D}/E_{\rm SN})^{0.317}$ = 2.083×10¹¹
 - ε = 6.32× 10⁻³⁴
-- $M_{\rm Pl}$,3D⁴ = 2.215×10⁷⁶ GeV⁴
+- $M_{
+m Pl,3D}$⁴ = 2.215×10⁷⁶ GeV⁴
 - $\rho_{\rm DE}$ = 2.500× 10⁻⁴⁷ GeV⁴
 
 **Observed**: $\rho_{\rm DE}$ = 2.500× 10⁻⁴⁷ GeV⁴
@@ -14245,7 +14303,8 @@ After Option A adoption (α dim-specific, ε = 6.32× 10⁻³⁴, $kL$ = 76.4), 
 
 ### 2. Cosmological Split (5/27/68) — CONSISTENT
 
-- $\rho_{\rm crit}$ = 3 H_0² $M_{\rm Pl}$,red² = 3.558× 10⁻⁴⁷ GeV⁴
+- $\rho_{\rm crit}$ = 3 H_0² $M_{
+m Pl,red}$² = 3.558× 10⁻⁴⁷ GeV⁴
 - $\Omega_{\rm DE} = \rho_{\rm DE}/\rho_{\rm crit}$ = **0.703** (vs 0.68 observed, off by 2.3%)
 - $\Omega_{\rm DM}$ = 0.27 (by construction, $f_{\rm leak}$ = H₀)
 - $\Omega_{\rm b}$ = 0.05 (by construction, $f_{\rm leak}$ = H₀)
@@ -14267,7 +14326,8 @@ After Option A adoption (α dim-specific, ε = 6.32× 10⁻³⁴, $kL$ = 76.4), 
 |----------|-----------|------------|-------|
 | $M_{\rm Pl,2D} = 12 ×$ $v_{\rm Higgs}$ | 2955 GeV | 2952 GeV | 0.10% off ✓ |
 | $M_{\rm Pl,4D}$ = α-GM | 3.93×10²³ GeV | 3.975×10²³ GeV | 1.14% off ✓ |
-| μ = $M_{\rm Pl}$,2D² | 8.73×10⁶ GeV² | 8.732×10⁶ GeV² | 0.02% off ✓ |
+| μ = $M_{
+m Pl,2D}$² | 8.73×10⁶ GeV² | 8.732×10⁶ GeV² | 0.02% off ✓ |
 | $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$ | 386 | 384.6 | 0.36% off ✓ |
 
 ### 5. CMB Acoustic Peaks — MATCH
@@ -14301,7 +14361,8 @@ The new $kL$ is more "compact" bulk (less warped AdS_5)
 | 2D back-projection to 3+1D | 1.408 | 7.3× $10^{-100}$ |
 | 4D event from 3+1D | 1.577 | 1.2× $10^{-104}$ |
 
-** $f_{\rm DE}$,closed span (2D vs 4D): 51.7 orders of magnitude**
+** $f_{
+m DE,closed}$ span (2D vs 4D): 51.7 orders of magnitude**
 
 The hierarchy transitions are NOT uniform (per L308aw).
 
@@ -14322,7 +14383,8 @@ The framework claims 14 event types fit M^α with $\alpha_{2D}$ = 1.289 within 1
 | H₀ | ✓ matches Planck | 67.4 km/s/Mpc |
 | $M_{\rm Pl,2D}$ | ✓ EXACT | 12 × $v_{\rm Higgs}$ |
 | $M_{\rm Pl,4D}$ | ✓ within 1.14% | α-GM |
-| μ | ✓ EXACT | $M_{\rm Pl}$,2D² |
+| μ | ✓ EXACT | $M_{
+m Pl,2D}$² |
 | $N_{\rm sub}$ | ✓ within 0.36% | 386 |
 | rₛ | ✓ within 1.88% | 141.85 Mpc |
 | CMB peaks | ✓ EXACT | 220, 540, 810, 1120 |
@@ -14397,7 +14459,9 @@ Despite coming from the **same M^α law at different cascade levels**, DE (anti-
 
 ### Asymmetric Density Ratio
 
-- $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴ = 2.5× 10⁻⁴⁷ GeV⁴ (anti-gravity)
+- $\rho_{\rm DE}$ = $f_{
+m DE,closed}$ × ε × $M_{
+m Pl,3D}$⁴ = 2.5× 10⁻⁴⁷ GeV⁴ (anti-gravity)
 - $\rho_{\rm DM} = \Omega_{\rm DM} × \rho_{\rm crit}$ ≈ 1.4× 10⁻⁴⁷ GeV⁴ (gravity, 27% of critical)
 - ** $\rho_{\rm DM}/\rho_{\rm DE}$ ≈ 0.4** (asymmetric — 2D has less "room" than 4D)
 
@@ -14407,8 +14471,10 @@ The 0.4 ratio reflects the cone asymmetry: 2D extent is smaller than 3+1D extent
 
 - **L308ar-as (N is dimension-dependent)**: The cascade is asymmetric, with N anchored to 2D. L308az explains the geometric intuition.
 - **L308p (cone asymmetry)**: 4D linear, 2D one-to-one. L308az is the geometric interpretation of this asymmetry.
-- **L308ax (frame-neutral naming)**: $f_{\rm leak}$,2D→3D and $f_{\rm leak,3D→4D}$ are the two "flows" through the 3+1D mirror plane. L308az explains why these two flows have opposite signs.
-- ** $f_{\rm leak}$,2D→3D and $f_{\rm leak,3D→4D}$ as NATURAL CASCADE LEAKS** (L308ax): Both negligible because the dominant flows are pulsed (DM production at 2D death) and calibrated (DM drain at 3+1D→4D = H₀). The 3+1D mirror plane is "transparent" to natural leaks.
+- **L308ax (frame-neutral naming)**: $f_{
+m leak,2D}$→3D and $f_{\rm leak,3D→4D}$ are the two "flows" through the 3+1D mirror plane. L308az explains why these two flows have opposite signs.
+- ** $f_{
+m leak,2D}$→3D and $f_{\rm leak,3D→4D}$ as NATURAL CASCADE LEAKS** (L308ax): Both negligible because the dominant flows are pulsed (DM production at 2D death) and calibrated (DM drain at 3+1D→4D = H₀). The 3+1D mirror plane is "transparent" to natural leaks.
 
 ### Status
 
@@ -14547,7 +14613,8 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 | **OVERALL** | **73%** | **93%** | **+20 percentage points** |
 
 **What improved**:
-- **Numerical consistency** (5/6 → 7/7): A2 numerical values ( $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give exact match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
+- **Numerical consistency** (5/6 → 7/7): A2 numerical values ( $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give exact match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
 - **Issue resolution** (37% → 80%): L308ar (halving rule), L308az (mirror plane), L308ax (frame-neutral naming) all addressed in §3.68 with explicit Lagrangian terms.
 - **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, etc.).
 
@@ -14953,7 +15020,8 @@ But the pattern is **not a first-principles derivation** for $\alpha_{\rm 3+1D}$
 If the framework USES option A (universal α = 1.289):
 - α = 1.289 (universal, FIRST-PRINCIPLES)
 - ε = 1.00× 10⁻³⁸ (A1 value, no recalibration needed)
-- $f_{\rm DE}$,simple = 1.13× 10⁻⁸⁵ (A1 value)
+- $f_{
+m DE,simple}$ = 1.13× 10⁻⁸⁵ (A1 value)
 - $\gamma_{\rm 4D} = 5.41×10⁹⁰$ (A1 value, vs A2's 1.14×10¹¹¹)
 - $\tau_{\rm 3D,apparent} = 8.16×10¹²⁴$ yr (A1, vs A2's 1.72×10¹⁴⁵)
 - $\rho_{\rm DE}$ = 2.503× 10⁻⁴⁷ GeV⁴ (EXACT match, f×ε invariant preserved)
@@ -14963,7 +15031,8 @@ If the framework USES option B (dim-specific α):
 - $\alpha_{\rm 3+1D}$$ = 1.408 (INFERRED)
 - $\alpha_{4D}$ = 1.577 (INFERRED)
 - ε = 6.32× 10⁻³⁴ (A2 calibration)
-- $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (A2 closed loop)
+- $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰ (A2 closed loop)
 - $\gamma_{\rm 4D} = 1.14×10¹¹¹$ (A2)
 - $\tau_{\rm 3D,apparent} = 1.72×10¹⁴⁵$ yr (A2)
 - $\rho_{\rm DE}$ = 2.506× 10⁻⁴⁷ GeV⁴ (EXACT match)
@@ -15016,7 +15085,8 @@ After the L308be re-framing established that **option A is more first-principles
 **Keep option B as the framework's active choice, pending first-principles derivations of $N_{3+1D}$ = 6 and $N_{\rm 4D}$ = 3.**
 
 This means:
-- Framework uses option B numerical values ( $\gamma_{\rm 4D} = 1.14×10¹¹¹$, ε = 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰)
+- Framework uses option B numerical values ( $\gamma_{\rm 4D} = 1.14×10¹¹¹$, ε = 6.32× 10⁻³⁴, $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰)
 - L308ba halving rule preserved as valid OBSERVATION
 - L308bc DOF conservation preserved as valid OBSERVATION
 - L308be first-principles finding documented: option A is the ideal but option B is current
@@ -15047,7 +15117,7 @@ When one of the following is achieved, the framework should RECONSIDER option A 
 
 Despite option A being more first-principles, option B is kept because:
 
-1. ** $\rho_{\rm DE}$ exact in both**: Both options give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT (via f×ε invariant). Data doesn't distinguish.
+1. ** $\rho_{\rm DE}$ exact in both**: Both options give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT (via $f \times \varepsilon$ invariant). Data doesn't distinguish.
 
 2. **Structural insights**: Option B has the halving rule, DOF conservation, and L308bb $N_D$ interpretations — all structurally rich insights that may guide future derivations.
 
@@ -15067,7 +15137,8 @@ This trade-off is HONEST and DOCUMENTED. When first-principles derivations emerg
 
 | Aspect | Status |
 |--------|--------|
-| Framework numerical values | Option B ( $\gamma_{\rm 4D} = 1.14×10¹¹¹$, ε = 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰) |
+| Framework numerical values | Option B ( $\gamma_{\rm 4D} = 1.14×10¹¹¹$, ε = 6.32× 10⁻³⁴, $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰) |
 | First-principles ideal | Option A (α = 1.289 universal, A1 values) |
 | Structural pattern | PRESERVED as observation (L308ba, L308bc) |
 | Path to first-principles | $N_{3+1D}$ = 6, $N_{\rm 4D}$ = 3 derivations (OPEN) |
@@ -15414,14 +15485,16 @@ Now, Option B is also **first-principles derived** for all three N values. This 
 
 **Option A (α universal, A1 values)**:
 - α = 1.289 at all levels
-- ε = 1× 10⁻³⁸, $f_{\rm DE}$,simple = 1.13× 10⁻⁸⁵
+- ε = 1× 10⁻³⁸, $f_{
+m DE,simple}$ = 1.13× 10⁻⁸⁵
 - $\gamma_{\rm 4D} = 5.41×10⁹⁰$, $\tau_{\rm 3D,apparent} = 8.16×10¹²⁴$ yr
 - Status: 1 derivation chain, 1 postulate
 - N interpretation: 12 Majorana-equivalent at each level
 
 **Option B Strengthened (CURRENT FRAMEWORK)**:
 - $\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ = 1.408, $\alpha_{4D}$ = 1.577 (dim-specific)
-- ε = 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰
+- ε = 6.32× 10⁻³⁴, $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$, $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - Status: **3/3 N values first-principles** (full first-principles)
 - N interpretation:
@@ -15481,7 +15554,8 @@ The Schwarzian formula applied to N = Clifford algebra dimension at each level g
 No numerical changes. Option B Strengthened uses the same values as Option B (the previous A2 calibration):
 - $\alpha_{2D}$/3+1D/4D = 1.289/1.408/1.577
 - ε = 6.32× 10⁻³⁴
-- $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰
+- $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT)
@@ -16007,19 +16081,22 @@ When investigating whether mechanism X can resolve problem Y:
 
 ### How is the inconsistency hidden?
 
-The $f_{\rm DE}$,closed formula:
-- $f_{\rm DE}$,closed = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α_4D}$ × prefactor
+The $f_{
+m DE,closed}$ formula:
+- $f_{
+m DE,closed}$ = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α_4D}$ × prefactor
 - $M_{\rm Pl,4D} = 3.93e23 ($ A1)
 - $\alpha_{4D}$ = 1.577 (A2)
 - $(3.93e23/E_{\rm 4D})^{1.577}$ = 1.26e-104
-- To get $f_{\rm DE}$,closed = 1.79e-90: prefactor = 1.5e14
+- To get $f_{
+m DE,closed}$ = 1.79e-90: prefactor = 1.5e14
 - Framework says "prefactor ~ 7e13"
 
 The prefactor HIDES the $M_{\rm Pl,4D}$ inconsistency. If $M_{\rm Pl,4D}$ were correctly updated to 1.25e28, the prefactor would need to be 1.21e7 (6.7 orders different).
 
 ### What is preserved
 
-- f × ε invariant = 1.13e-123 (both A1 and A2 give this)
+- $f \times \varepsilon$ invariant = 1.13e-123 (both A1 and A2 give this)
 - $\rho_{\rm DE}$ = 2.5e-47 EXACT (in both A1 and A2)
 - $\gamma_{4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ uses $M_{\rm Pl,3D}$ (not $M_{\rm Pl,4D}$) — independent of this issue
 
@@ -16027,18 +16104,21 @@ The prefactor HIDES the $M_{\rm Pl,4D}$ inconsistency. If $M_{\rm Pl,4D}$ were c
 
 - $M_{\rm Pl,4D}$ α-GM formula is INCONSISTENT with α dim-specific (A2)
 - L138 (A1) result is not propagated to A2
-- $f_{\rm DE}$,closed prefactor hides the inconsistency (calibration)
+- $f_{
+m DE,closed}$ prefactor hides the inconsistency (calibration)
 
 ### Recommendations
 
 **Short-term (A2)**:
 1. Document c = 1.13 as "calibrated to $t_{\rm Pl}$" more clearly
 2. Document $M_{\rm Pl,4D} = 3.93e23$ as "A1 era value, not derived in A2"
-3. Note $f_{\rm DE}$,closed prefactor hides the inconsistency
+3. Note $f_{
+m DE,closed}$ prefactor hides the inconsistency
 
 **Long-term (A3)**:
 1. Re-derive $M_{\rm Pl,4D}$ consistently in A2 (either use $\alpha_{2D}$ or use $\alpha_{4D}$)
-2. Re-derive $f_{\rm DE}$,closed with consistent $M_{\rm Pl,4D}$
+2. Re-derive $f_{
+m DE,closed}$ with consistent $M_{\rm Pl,4D}$
 3. Update L138 to use $\alpha_{2D}$ (1.289) explicitly, not "universal α"
 
 ### Source
@@ -16057,7 +16137,8 @@ Calculation: `calculations/v36_research/L308bm_audit_corrections.py`
 
 **L308bm**: TWO calibration issues found and documented.
 
-Both are HONEST CALIBRATION CHOICES, not fundamental errors. The framework's numerical results ( $\rho_{\rm DE}$, $\gamma_{4D}$, $f_{\rm DE}$,closed) are correct within A1 era. The inconsistencies are between A1 and A2 eras.
+Both are HONEST CALIBRATION CHOICES, not fundamental errors. The framework's numerical results ( $\rho_{\rm DE}$, $\gamma_{4D}$, $f_{
+m DE,closed}$) are correct within A1 era. The inconsistencies are between A1 and A2 eras.
 
 Framework is self-consistent within A1 but not across A1→A2 transition for $M_{\rm Pl,4D}$.
 
@@ -16080,7 +16161,8 @@ The three α values serve DIFFERENT structural purposes:
 |---|---|---|
 | $\alpha_{2D}$ = 1.289 | $M_{\rm Pl}$ scaling | α-GM formula |
 | $\alpha_{\rm 3+1D}$$ = 1.408 | Cascade transitions | 2D-3+1D, 3+1D-4D |
-| $\alpha_{4D}$ = 1.577 | Energy scaling | $f_{\rm DE}$,closed, $\gamma_{4D}$ |
+| $\alpha_{4D}$ = 1.577 | Energy scaling | $f_{
+m DE,closed}$, $\gamma_{4D}$ |
 
 **Key insight**: The α-GM formula uses $\alpha_{2D}$ (the 2D Schwarzian, the "global" α that was A1's universal value).
 
@@ -16091,8 +16173,10 @@ $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^$\alpha_{2D}$ × $M_{\rm Pl,2D}$^(1-$\alpha_{2
        = (1.22e19)^1.289 × (2.95e3)^(-0.289)
        = 3.93e23 GeV ✓
 
-** $f_{\rm DE}$,closed** (with $\alpha_{4D}$):
-$f_{\rm DE}$,closed = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α_4D}$ × prefactor
+** $f_{
+m DE,closed}$** (with $\alpha_{4D}$):
+$f_{
+m DE,closed}$ = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α_4D}$ × prefactor
             = (3.93e23/3.115e89)^1.577 × prefactor
             = 1.21e-104 × 1.5e14
             = 1.79e-90 ✓
@@ -16106,12 +16190,14 @@ $\gamma_{4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D
 
 - **L308bm audit issue**: $M_{\rm Pl,4D} = 3.93e23$ in A2 is now consistent
 - **L138 calculation**: $\alpha_{2D}$ is the correct choice in α-GM
-- ** $f_{\rm DE}$,closed prefactor**: Clarified as "parent-reference + time-dilation" calibration
+- ** $f_{
+m DE,closed}$ prefactor**: Clarified as "parent-reference + time-dilation" calibration
 
 ### What This Preserves
 
-- All A2 numerical values ( $M_{\rm Pl,4D}$, $f_{\rm DE}$,closed, $\gamma_{4D}$, $\rho_{\rm DE}$, f × ε)
-- f × ε invariant = 1.13e-123
+- All A2 numerical values ( $M_{\rm Pl,4D}$, $f_{
+m DE,closed}$, $\gamma_{4D}$, $\rho_{\rm DE}$, $f \times \varepsilon$)
+- $f \times \varepsilon$ invariant = 1.13e-123
 - $\rho_{\rm DE}$ = 2.5e-47 EXACT
 - All previous L308a-z limitations
 
@@ -16120,16 +16206,18 @@ $\gamma_{4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D
 | Quantity | A1 | A2 (re-derived) | Match |
 |---|---|---|---|
 | $M_{\rm Pl,4D}$ | 3.93e23 | 3.93e23 (with $\alpha_{2D}$) | ✓ |
-| $f_{\rm DE}$,closed | 1.13e-85 | 1.79e-90 (with $\alpha_{4D}$) | (different formula) |
+| $f_{
+m DE,closed}$ | 1.13e-85 | 1.79e-90 (with $\alpha_{4D}$) | (different formula) |
 | $\gamma_{4D}$ | 5.93e90 | 1.10e+111 (with $\alpha_{4D}$) | (different formula) |
 | $\rho_{\rm DE}$ | 2.5e-47 | 2.5e-47 | ✓ EXACT |
-| f × ε | 1.13e-123 | 1.13e-123 | ✓ INVARIANT |
+| $f \times \varepsilon$ | 1.13e-123 | 1.13e-123 | ✓ INVARIANT |
 
 ### Framework Status After L308bn
 
 **SELF-CONSISTENT in A2**: All formulas use the appropriate α:
 - α-GM formula: $\alpha_{2D}$
-- $f_{\rm DE}$,closed: $\alpha_{4D}
+- $f_{
+m DE,closed}$: $\alpha_{4D}
 - \gamma_{4D}$: $\alpha_{4D}$
 - Cascade transitions: $\alpha_{\rm 3+1D}$$
 
@@ -16765,7 +16853,8 @@ All 15 framework parameters verified:
 | 1 | $M_{\rm Pl,3D}$ (MEASURED) | 1.22×10¹⁹ GeV | ✓ verified |
 | 2 | α (FIRST-PRINCIPPLES) | 1.289 | ✓ 1+1/√12 |
 | 3 | $M_{\rm Pl,2D}$ (DERIVED) | 2.95×10³ GeV | ✓ N× $v_H$ |
-| 4 | μ (DERIVED) | 8.73×10⁶ GeV² | ✓ $M_{\rm Pl}$,2D² |
+| 4 | μ (DERIVED) | 8.73×10⁶ GeV² | ✓ $M_{
+m Pl,2D}$² |
 | 5 | $M_{\rm Pl,4D}$ (DERIVED) | 3.93×10²³ GeV | ✓ α-GM |
 | 6 | $E_{\rm 4D}$ (DERIVED) | 5×10⁷⁹ J | ✓ $N_{\rm sub}$ × $E_{\rm sub}$ |
 | 7 | ε (CALIBRATED) | 6.32× 10⁻³⁴ | ✓ A2 value |
@@ -16776,7 +16865,8 @@ All 15 framework parameters verified:
 | 12 | $\tau_{3D,apparent}$ (STRUCTURAL) | 1.66×10¹⁴⁵ yr | ✓ $\gamma_{4D} × \tau_{4D}$ |
 | 13 | $\gamma_{4D}$ (STRUCTURAL) | 1.10×10¹¹¹ | ✓ $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D |
 | 14 | $N=12$ (STRUCTURAL) | 12 | ✓ 3 gens × 4 Weyl |
-| 15 | $f_{\rm leak}$,2D→3D (FREE) | ~ 10⁻⁴⁵ | ✓ natural cascade |
+| 15 | $f_{
+m leak,2D}$→3D (FREE) | ~ 10⁻⁴⁵ | ✓ natural cascade |
 
 ### Audit Pass 2: Key Formulas
 
@@ -16784,8 +16874,10 @@ All 15 framework parameters verified:
 |---|---|---|---|
 | $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) | 3.98×10²³ | 3.93×10²³ | -1.13% |
 | $\gamma_{4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D | 1.0×10¹¹¹ | 1.10×10¹¹¹ | ~exact |
-| $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴ | 2.5× 10⁻⁴⁷ | 2.5× 10⁻⁴⁷ | EXACT |
-| f × ε invariant | 1.13× $10^{-123}$ | 1.13× $10^{-123}$ | EXACT |
+| $\rho_{\rm DE}$ = $f_{
+m DE,closed}$ × ε × $M_{
+m Pl,3D}$⁴ | 2.5× 10⁻⁴⁷ | 2.5× 10⁻⁴⁷ | EXACT |
+| $f \times \varepsilon$ invariant | 1.13× $10^{-123}$ | 1.13× $10^{-123}$ | EXACT |
 | α = 1 + 1/√N | 1.28868 | 1.289 | 0.025% (essentially exact) |
 
 ### Audit Pass 3: Citation Usage
@@ -16805,7 +16897,8 @@ All 15 framework parameters verified:
 Key values appear consistently across the paper:
 - $M_{\rm Pl,4D} = 3.93\times 10^{23}$: 16 occurrences
 - $\tau_{\rm 4D} = 1.51\times 10^{34}$: 8 occurrences
-- $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰: 4 occurrences
+- $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰: 4 occurrences
 - ε = 6.32× 10⁻³⁴: 4 occurrences
 - $\gamma_{\rm 4D} = 1.10\times 10^{111}$: 1 occurrence
 - $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷: 8 occurrences
@@ -16823,7 +16916,8 @@ Actually, looking at the original Tian+ 2024 paper, the ratio is reported as ~14
 
 **MINOR ISSUE 2**: Audit script (v36_research/audit_all_formulas.py) is A1-era
 - Uses $f_{\rm DE}$ = 1.75e-91 (A1 simple form, before L308av)
-- Should use $f_{\rm DE}$,closed = 1.79e-90 (A2 closed loop)
+- Should use $f_{
+m DE,closed}$ = 1.79e-90 (A2 closed loop)
 - "Naive $\gamma_{4D}$ = $E_{\rm 4D}$/ $M_{\rm Pl,4D}$" is wrong (formula uses $M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$)
 - **VERDICT**: Script needs A2 update (not a paper issue)
 
@@ -16838,7 +16932,7 @@ Actually, looking at the original Tian+ 2024 paper, the ratio is reported as ~14
 
 **STRENGTHS:**
 - ✓ All 15 parameters verified
-- ✓ f × ε = 1.13e-123 invariant preserved
+- ✓ $f \times \varepsilon$ = 1.13e-123 invariant preserved
 - ✓ $M_{\rm Pl,4D} = 3.93e23$ matches α-GM to 1%
 - ✓ α = 1 + 1/√N matches Schwarzian SYK to 0.025%
 - ✓ $\rho_{\rm DE}$ = 2.5e-47 GeV⁴ EXACT match
@@ -17106,7 +17200,8 @@ These are bookkeeping fixes, not framework issues. The framework itself is inter
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The f × ε = 1.13× $10^{-123}$ invariant is preserved in both A1 and A2.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved in both A1 and A2.
 
 <!-- 07_conclusion.md - part of paper.md split (v3.0.13) -->
 
@@ -18468,7 +18563,7 @@ The full simulation is in `calculations/cascade_model.py` (run with `--outliers`
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab $f_{\rm leak}$ = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The f × ε invariant (1.13× $10^{-123}$) is preserved in A2 (ε = 6.32× 10⁻³⁴). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab $f_{\rm leak}$ = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The $f \times \varepsilon$ invariant (1.13× $10^{-123}$) is preserved in A2 (ε = 6.32× 10⁻³⁴). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
 
 <!-- 13_cmb_gap.md - part of paper.md split (v3.0.13) -->
 

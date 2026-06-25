@@ -98,11 +98,12 @@ The L308 chain (L308ab-L308ce) covers:
 
 **Numerical values (A2):**
 - ε = 6.32×10⁻³⁴
-- $f_{\rm DE}$,closed = 1.79×10⁻⁹⁰
+- $f_{
+m DE,closed}$ = 1.79×10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - $\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ GeV⁴ (matches observed)
-- f×ε invariant = 1.13×10⁻¹²³ (preserved across A1 and A2)
+- $f \times \varepsilon$ invariant = 1.13×10⁻¹²³ (preserved across A1 and A2)
 - $H_0$ = 67.4 km/s/Mpc (Planck, inherited from ΛCDM)
 - r_s = 141.85 Mpc (1.88% off Planck 144.57)
 

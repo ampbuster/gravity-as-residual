@@ -6,7 +6,8 @@
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
 **Current version:** v3.5.9+ A2 (paper) — 597 pages, **169 honest limitations** (144 master + 26 L308af-bl in v3.5.9+ A2)
-**v3.5.9+ A2**: APPROACH A2 (α dim-specific, $f_{\rm back}$ → $f_{\rm DE}$,closed, ε recalibrated, frame-neutral leak naming)
+**v3.5.9+ A2**: APPROACH A2 (α dim-specific, $f_{\rm back}$ → $f_{
+m DE,closed}$, ε recalibrated, frame-neutral leak naming)
 **v3.5.x timeline**:
 - v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)
@@ -88,19 +89,22 @@
 
 **v3.5.9+ A1 → A2 TRANSITION (June 22, 2026, A2 ACTIVE)**:
 - **APPROACH A1 (HISTORICAL, June 21)**: $f_{\rm leak}$ = H₀ as new principle. §3.67 replaced. 138 limitations, 405 pages.
-- **APPROACH A2 (CURRENT, June 22)**: α dim-specific ($\alpha_{2D}$ = 1.289 for 2D→3D, $\alpha_{4D}$ = 1.577 for 3D→4D); $f_{\rm back}$ → $f_{\rm DE}$,closed (LEGACY naming retired); ε recalibrated 1e-38 → 6.32e-34 (+4.8 orders); $kL$ recalibrated 87.5 → 76.4 (ΔkL = -11.1).
-- **f × ε = 1.13×10⁻¹²³ INVARIANT** preserved ($\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ in BOTH formulas).
+- **APPROACH A2 (CURRENT, June 22)**: α dim-specific ($\alpha_{2D}$ = 1.289 for 2D→3D, $\alpha_{4D}$ = 1.577 for 3D→4D); $f_{\rm back}$ → $f_{
+m DE,closed}$ (LEGACY naming retired); ε recalibrated 1e-38 → 6.32e-34 (+4.8 orders); $kL$ recalibrated 87.5 → 76.4 (ΔkL = -11.1).
+- **$f \times \varepsilon$ = 1.13×10⁻¹²³ INVARIANT** preserved ($\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ in BOTH formulas).
 - **L308ag ($N=12$ downgrade)**: $N=12$ downgraded from FIRST-PRINCIPPLES → STRUCTURAL (L308u derivation was a 1-1 mapping, not a derivation). First-principles 4/9 → 3/9.
 - **A2 PARAMETER HIERARCHY**: 1 MEASURED + 3 FIRST-PRINCIPPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$) + 4 CALIBRATED (ε=6.32e-34, $\tau_{4D}$, AGN rate, $f_{\rm leak}$=H₀) + 1 FREE ($N_{\rm sub}$) = 15 parameters.
 
 **v3.5.9+ A2 L308af-ay + L308az (USER-DRIVEN, June 22)**: 14 new limitations (L308af-ay + new L308az geometric mirror plane insight), all awaiting master table update. **169 honest limitations** (144 master + 26 L308af-bl), 597 pages, 1.94 MB.
 
 **v3.5.9+ A2 L308ax FRAME-NEUTRAL LEAK NAMING (June 22, USER INSIGHT)**:
-- $f_{\rm DM}$,leak → $f_{\rm leak}$,2D→3D (1.6e-45, frame-neutral, transition-explicit)
+- $f_{\rm DM}$,leak → $f_{
+m leak,2D}$→3D (1.6e-45, frame-neutral, transition-explicit)
 - $f_{\rm leak}$ → $f_{\rm leak,3D→4D}$ (= H₀, frame-neutral, transition-explicit)
 - User insight: "$f_{\rm leak}$ from 2d->3d seen from 2d = $f_{\rm DM}$,leak from 2d->3d seen from 3d"
 - **NATURAL CASCADE LEAKS DROPPED AS NEGLIGIBLE**:
-  - $f_{\rm leak}$,2D→3D (natural) = 1.6e-45 (88 orders below death pulse)
+  - $f_{
+m leak,2D}$→3D (natural) = 1.6e-45 (88 orders below death pulse)
   - $f_{\rm leak,3D→4D}$ (natural) = ~10⁻⁸⁶ (67 orders below H₀)
   - 27-order gap: $f_{\rm leak}$ = H₀ is CALIBRATED stability principle, not natural
 - **DM picture simplified**: 100% pulsed at 2D death (with $\gamma_{2D}$ growth) + $f_{\rm leak,3D→4D}$ = H₀ calibrated drain
@@ -120,7 +124,8 @@
 - Sweep 18: Stale "4/15 first-principles" → "3/15 first-principles" ($N=12$ STRUCTURAL per L308ag)
 - Sweep 19: Page count consistency (476 → 478 in README/STATE_OF_THE_MODEL)
 - Sweep 21: New legacy file `v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
-- Sweep 24-30: A2 value updates (ε=6.32e-34, $f_{\rm DE}$,simple/closed)
+- Sweep 24-30: A2 value updates (ε=6.32e-34, $f_{
+m DE,simple}$/closed)
 - Sweep 59-77: Cross-doc numerical verification (H₀, r_s, CMB peaks)
 - Sweep 78-80: L308 list in exec summary completed (L308ar-as, at-au, av-aw, ax, ay added)
 - Sweep 81-98: Final verification (no active v3.5.9+ A1 refs, $M_{\rm Pl,2D}$=2955 GeV, $M_{\rm Pl,4D}$=3.93e23, α=1.289 all consistent)
@@ -195,9 +200,15 @@ This is the unification in §3.70. See `calculations/v31_fback_both_levels.py` f
 - **$\tau_{3D,apparent}$: 9.10×10¹²⁴ → 1.66×10¹⁴⁵ yr** (A2, time dilation with corrected $\gamma_{4D}$)
 - **$kL$: 87.5 → 76.4** (A2, ΔkL = -11.1)
 - **$N=12$: FIRST-PRINCIPPLES → STRUCTURAL** (L308ag downgrade, 1-1 mapping not derivation)
-- **$f_{\rm DE}$ FORMULAS (A2)**: $f_{\rm DE}$,simple = 1.13×10⁻⁸⁵, $f_{\rm DE}$,closed = 1.79×10⁻⁹⁰, f×ε = 1.13×10⁻¹²³ invariant
-- **$f_{\rm back}$ → $f_{\rm DE}$,closed** (LEGACY naming retired, A2 uses $f_{\rm DE}$,simple/$f_{\rm DE}$,closed)
-- **$f_{\rm leak}$,2D→3D and $f_{\rm leak,3D→4D}$** (L308ax frame-neutral naming, A2)
+- **$f_{\rm DE}$ FORMULAS (A2)**: $f_{
+m DE,simple}$ = 1.13×10⁻⁸⁵, $f_{
+m DE,closed}$ = 1.79×10⁻⁹⁰, $f \times \varepsilon$ = 1.13×10⁻¹²³ invariant
+- **$f_{\rm back}$ → $f_{
+m DE,closed}$** (LEGACY naming retired, A2 uses $f_{
+m DE,simple}$/$f_{
+m DE,closed}$)
+- **$f_{
+m leak,2D}$→3D and $f_{\rm leak,3D→4D}$** (L308ax frame-neutral naming, A2)
 - **Parameter count: 9 → 15** (1+3+2+4+4+1, $f_{\rm leak}$ is 4th calibrated NOT 5th)
 - **Limitations: 133 → 158** (144 master + 14 L308af-az)
 
@@ -507,7 +518,8 @@ This also DERIVES $M_{\rm Pl,2D}$ = N × $v_H$ = 2955 GeV (1.5% off framework's 
 $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = (1.22×10¹⁹)^1.289 × (2954.64)^(-0.289) = 3.98×10²³ GeV (1.2% match). All 3 inputs first-principles ($M_{\rm Pl,3D}$ measured, α L308n, $M_{\rm Pl,2D}$ L308r). The α-GM encodes the cascade's self-similar structure: each level increases log $M_{\rm Pl}$ by α factor of previous. L138 → PARTIAL CLOSURE (structural formula, not derivation from deeper principle).
 
 **[v3.5.8+ L308s, EXHAUSTIVE SEARCH]**: 8 attempted paths to FULLY close L26 beyond L308r:
-- 6 TAUTOLOGICAL (μ = $M_{\rm Pl}$,2D² by definition, given $M_{\rm Pl,2D}$ as input): Hagedorn, JT, String duality, Hawking-Page, DOZZ trivial, Unimodular
+- 6 TAUTOLOGICAL (μ = $M_{
+m Pl,2D}$² by definition, given $M_{\rm Pl,2D}$ as input): Hagedorn, JT, String duality, Hawking-Page, DOZZ trivial, Unimodular
 - 1 NOT APPLICABLE: b = i fixed point
 - 1 WORKS (L308r): (N × $v_H$)² = 8.73×10⁶ (3% off)
 NO path bridges the 3% offset. The gap is from $M_{\rm Pl,2D}$ = 2.95 TeV (rounded). **Recommendation**: UPDATE framework's $M_{\rm Pl,2D}$ = 2955 GeV and μ = 8.73×10⁶ for internal consistency. See §7.4.17.

@@ -355,7 +355,8 @@ The 3+1D → 2D transition is a CREATE-AND-DIE process, NOT a closed loop.
 
 $f_{\rm back}$ ≈ 10⁻⁸⁵. Combined with $\epsilon_{\rm grav}$ ~ 10⁻³⁸:
 
-$\rho_{\rm DE}$ predicted = $f_{\rm back}$ × $\epsilon_{\rm grav}$ × $M_{\rm Pl}$,3⁴
+$\rho_{\rm DE}$ predicted = $f_{\rm back}$ × $\epsilon_{\rm grav}$ × $M_{
+m Pl,3}$⁴
               = 10⁻⁸⁵ × 10⁻³⁸ × (1.22 × 10¹⁹ GeV)⁴
               = 2.22 × 10⁻⁴⁷ GeV⁴
 
@@ -682,15 +683,19 @@ The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-g
 - They DON'T cancel cleanly, so the formula gives wrong result
 - 
 - The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
-- $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
+- $\rho_{\rm DE}$ = $f_{
+m DE,closed}$ × ε × $M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
 **Simple $f_{\rm DE,simple}$ formula (legacy A1, preserved as compact form, gives 0.13% off, near-exact)**:
 $$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$ (A2)
 Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is DE-calibrated).
 
-**A2 Note**: The simple $f_{\rm DE}$,simple formula uses $\alpha_{2D}$ = 1.289 (in $M_{\rm Pl,4D}$ from α-GM) with ε = 1e-38. The closed loop formula $f_{\rm DE}$,closed (L308av, was $f_{\rm back}$ in legacy naming) uses $\alpha_{4D}$ = 1.577 with ε = 6.32e-34. Both give $\rho_{\rm DE}$ = 2.5e-47 ✓. f×ε = 1.13e-123 invariant preserved.
+**A2 Note**: The simple $f_{
+m DE,simple}$ formula uses $\alpha_{2D}$ = 1.289 (in $M_{\rm Pl,4D}$ from α-GM) with ε = 1e-38. The closed loop formula $f_{
+m DE,closed}$ (L308av, was $f_{\rm back}$ in legacy naming) uses $\alpha_{4D}$ = 1.577 with ε = 6.32e-34. Both give $\rho_{\rm DE}$ = 2.5e-47 ✓. $f \times \varepsilon$ = 1.13e-123 invariant preserved.
 
-**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = 1× 10⁻³⁸). In v3.5.9+ A2, the $f_{\rm DE}$,closed formula is canonical (uses $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴). f×ε = 1.13× $10^{-123}$ invariant preserved in both.
+**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = 1× 10⁻³⁸). In v3.5.9+ A2, the $f_{
+m DE,closed}$ formula is canonical (uses $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴). $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant preserved in both.
 
 **Why this works**:
 - UP flow (e.g., 2D → 3+1D): pulsed return at (N-1)-universe death = DM
@@ -1274,7 +1279,8 @@ $S_{\rm 4D,event}$ = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
 
 $S_{\rm 3+1D,brane}$ = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
                with $M_{\rm Pl,3}$ = 1.22 × 10¹⁹ GeV
-               Λ = $f_{\rm back}$ × ε × $M_{\rm Pl}$,3² (SIDC's DE)
+               Λ = $f_{\rm back}$ × ε × $M_{
+m Pl,3}$² (SIDC's DE)
 
 $S_{\rm 2D,universe}$ = S_Liouville + S_Ising + S_SYK + S_FZZT
                 S_L = (1/4π) ∫ [(∂φ)² + μ e^(2φ)]
@@ -1468,7 +1474,8 @@ See `calculations/lagrangian_v23_dm_de_gravity.py` through
 The §3.67 Lagrangian proposal (L116) has three weaknesses relative to the v3.5.9+ A2 framework:
 
 1. **Uses α = 1.289 universally** — but A2 established that α is dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ = 1.408, $\alpha_{4D}$ = 1.577, L308av)
-2. **Uses $f_{\rm back}$ ≈ 10⁻⁸⁵** — but A2 has $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (closed loop) and f×ε = 1.13× $10^{-123}$ invariant
+2. **Uses $f_{\rm back}$ ≈ 10⁻⁸⁵** — but A2 has $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰ (closed loop) and f×ε = 1.13× $10^{-123}$ invariant
 3. **Has no mirror plane symmetry** — but L308az established 3+1D as dimensional mirror plane (sign flip between DE and DM)
 
 This section REVISES the Lagrangian with three A2-era corrections and ONE new structural insight (L308ba, halving pattern).
@@ -1564,7 +1571,8 @@ S_drain = -f_leak,3D→4D × ∫ d⁴x ρ_DM(brane)
        with f_leak,2D→3D (natural) = 1.6×10⁻⁴⁵, DROPPED as negligible
 ```
 
-This term encodes L308ax: the natural cascade leaks through the 3+1D mirror plane are negligible (~88 orders below the death pulse for $f_{\rm leak}$,2D→3D; ~67 orders below H₀ for $f_{\rm leak,3D→4D}$ natural). The DM picture is dominated by the death pulse (DM production) and the calibrated drain (DM stability).
+This term encodes L308ax: the natural cascade leaks through the 3+1D mirror plane are negligible (~88 orders below the death pulse for $f_{
+m leak,2D}$→3D; ~67 orders below H₀ for $f_{\rm leak,3D→4D}$ natural). The DM picture is dominated by the death pulse (DM production) and the calibrated drain (DM stability).
 
 #### 3.68.4 Numerical Consistency (A2 closed loop check)
 
@@ -1577,7 +1585,8 @@ f_DE,closed = (M_Pl,4D/E_4D)^α_4D × prefactor
             = 2.55×10⁻¹⁰⁴ × prefactor
 ```
 
-Where prefactor accounts for parent-reference Planck ( $M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$) and time-dilation. With prefactor ~ 7×10¹³ (the ratio of $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ to appropriate power), we get $f_{\rm DE}$,closed ≈ 1.79× 10⁻⁹⁰ ✓.
+Where prefactor accounts for parent-reference Planck ( $M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$) and time-dilation. With prefactor ~ 7×10¹³ (the ratio of $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ to appropriate power), we get $f_{
+m DE,closed}$ ≈ 1.79× 10⁻⁹⁰ ✓.
 
 ```
 ρ_DE = f_DE,closed × ε × M_Pl,3⁴ = 1.79×10⁻⁹⁰ × 6.32×10⁻³⁴ × (1.22×10¹⁹)⁴
@@ -1587,16 +1596,20 @@ Where prefactor accounts for parent-reference Planck ( $M_{\rm Pl,3D}$, not $M_{
 #### 3.68.5 Frame-Neutral Naming Throughout
 
 The Lagrangian now uses A2 frame-neutral naming (L308ax):
-- `$f_{\rm DE}$,closed` (was $f_{\rm back}$ in legacy naming) — 3D→4D projection efficiency (closed loop)
-- `$f_{\rm DE}$,simple` — A1 form, preserved for compactness (also gives $\rho_{\rm DE}$ exact)
-- `$f_{\rm leak}$,2D→3D` (was $f_{\rm DM}$,leak) — natural cascade leak from 2D perspective (= $f_{\rm DM}$,leak from 3+1D perspective, ~ 10⁻⁴⁵, dropped)
+- `$f_{
+m DE,closed}$` (was $f_{\rm back}$ in legacy naming) — 3D→4D projection efficiency (closed loop)
+- `$f_{
+m DE,simple}$` — A1 form, preserved for compactness (also gives $\rho_{\rm DE}$ exact)
+- `$f_{
+m leak,2D}$→3D` (was $f_{\rm DM}$,leak) — natural cascade leak from 2D perspective (= $f_{\rm DM}$,leak from 3+1D perspective, ~ 10⁻⁴⁵, dropped)
 - `$f_{\rm leak,3D→4D}$` (was $f_{\rm leak}$) — calibrated drain rate = H₀ (post-Friedmann principle)
 
 #### 3.68.6 Honest Status
 
 The §3.68 Lagrangian is a STRUCTURAL IMPROVEMENT over §3.67:
 - ✓ Integrates A2 dim-specific α (L308av, L308aw, L308ba)
-- ✓ Uses A2 numerical values ( $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴, $\gamma_{\rm 4D} = 1.10×10¹¹¹$)
+- ✓ Uses A2 numerical values ( $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴, $\gamma_{\rm 4D} = 1.10×10¹¹¹$)
 - ✓ Encodes L308az mirror plane symmetry (sign flip in projection)
 - ✓ Uses frame-neutral naming (L308ax)
 - ✓ Adds bilateral cascade structure (death pulse + drain) to $S_{\rm 2D}$,universe
@@ -1613,9 +1626,12 @@ It does NOT:
 | Aspect | §3.67 (L116) | §3.68 (NEW) | Source |
 |--------|---------------|-------------|--------|
 | α (scaling law) | α = 1.289 (universal) | $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) | L308ba |
-| $f_{\rm DE}$ formula | $f_{\rm back}$ ≈ 10⁻⁸⁵ | $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ | L308av |
+| $f_{\rm DE}$ formula | $f_{\rm back}$ ≈ 10⁻⁸⁵ | $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰ | L308av |
 | Projection sign | ± $g_{\rm couple}$ (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
-| Frame naming | $f_{\rm back}$, $f_{\rm leak}$, $f_{\rm DM}$,leak | $f_{\rm DE}$,closed, $f_{\rm leak}$,2D→3D, $f_{\rm leak,3D→4D}$ | L308ax |
+| Frame naming | $f_{\rm back}$, $f_{\rm leak}$, $f_{\rm DM}$,leak | $f_{
+m DE,closed}$, $f_{
+m leak,2D}$→3D, $f_{\rm leak,3D→4D}$ | L308ax |
 | $E_{\rm sub}$ in 4D term | not explicit | $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ explicit | A2 STRUCTURAL |
 | 2D universe lifetime | (E/ $M_{\rm Pl,3D}$)^α × $t_{\rm Pl}$ | $(E/M_{\rm Pl,parent})^{\alpha}$_D × $t_{\rm Pl}$,parent (dim-specific) | L308ba |
 | DM picture | pulsed death + ε × ρ | pulsed death + $f_{\rm leak,3D→4D}$ × $\rho_{\rm DM}$ (bilateral) | L308ax |
@@ -1657,9 +1673,10 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 | **OVERALL** | **73%** | **93%** | **+20 percentage points** |
 
 **What improved**:
-- **Numerical consistency** (5/6 → 7/7): A2 values ( $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give EXACT match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
+- **Numerical consistency** (5/6 → 7/7): A2 values ( $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give EXACT match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
 - **Issue resolution** (37% → 80%): L308ar, L308az, L308ax all addressed in §3.68 with explicit Lagrangian terms (S_mirror, S_drain, halving rule).
-- **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, halving rule, f×ε invariant, σ_+×σ_-=-1).
+- **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, halving rule, $f \times \varepsilon$ invariant, σ_+×σ_-=-1).
 
 **What remains open** (the 7% gap):
 - L43 (Lagrangian → α): full partition function $Z_{\rm SIDC}$ not yet computed
@@ -1757,7 +1774,9 @@ If 4D has 3 generations of bulk fields, the 4D action is structurally analogous 
 | Numerical consistency | 5/6 | 7/7 | A2 exact match |
 | Issue resolution | 37% | 80% | L308ar/az/ax/ba addressed |
 | Mirror plane | not encoded | S_mirror term | L308az |
-| Frame-neutral naming | legacy | $f_{\rm DE}$,closed, $f_{\rm leak}$,2D→3D, $f_{\rm leak,3D→4D}$ | L308ax |
+| Frame-neutral naming | legacy | $f_{
+m DE,closed}$, $f_{
+m leak,2D}$→3D, $f_{\rm leak,3D→4D}$ | L308ax |
 | Dim-specific α | universal 1.289 | 1.289/1.408/1.577 | L308ba halving rule |
 | $E_{\rm sub}$ explicit | not specified | $E_{\rm 4D} = 386 × 1.295e77 J$| A2 STRUCTURAL |
 | Bilateral cascade | pulsed only | death pulse + drain | L308ax |
@@ -1862,7 +1881,8 @@ After the L308bh breakthrough (C(6) is the SM algebra, Stoica 2018), the user di
   - $N_{\rm 2D}$ = 12 = 3 gen × 4 Weyl (L308r, SM count)
   - $N_{3+1D}$ = 6 = C(6) SM algebra (Stoica 2018) [NEW]
   - $N_{\rm 4D}$ = 3 = 3 generations (Clifford/McKay/cobordism)
-- ε = 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰, $\gamma_{\rm 4D} = 1.10×10¹¹¹$
+- ε = 6.32× 10⁻³⁴, $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰, $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT
 
 #### 3.71.2 What Changed from Previous B
@@ -1930,7 +1950,8 @@ NO numerical changes. Option B Strengthened uses the same values as Option B (A2
 
 - $\alpha_{2D}$/3+1D/4D = 1.289/1.408/1.577
 - ε = 6.32× 10⁻³⁴
-- $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰
+- $f_{
+m DE,closed}$ = 1.79× 10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
 - $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT)
@@ -2035,9 +2056,9 @@ All three N values derive from Clifford algebra structure, NOT from observations
 Every numerical prediction in the A2 framework uses the SAME formula chain:
 
 ```
-f × ε = 1.13×10⁻¹²³ invariant preserved (across all formulas)
+$f \times \varepsilon$ = 1.13×10⁻¹²³ invariant preserved (across all formulas)
 
-ρ_DE = f × ε × M_Pl,3D⁴ = 2.5×10⁻⁴⁷ GeV⁴ ✓ EXACT match to observation
+ρ_DE = $f \times \varepsilon$ × M_Pl,3D⁴ = 2.5×10⁻⁴⁷ GeV⁴ ✓ EXACT match to observation
 
 M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×10²³ GeV ✓ (-1.13% from α-GM formula)
 
@@ -2216,7 +2237,8 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 **First-principles parameters (4):**
 1. $\alpha_{2D}$ = 1 + 1/√12 = 1.289 (Schwarzian SYK N=12, L308n)
 2. $M_{\rm Pl,2D} = 12 ×$ v_H = 2.95 TeV (L308r)
-3. μ = $M_{\rm Pl}$,2D² = 8.73×10⁶ GeV² (L308r)
+3. μ = $M_{
+m Pl,2D}$² = 8.73×10⁶ GeV² (L308r)
 4. ** $N_{3+1D}$ = 6 = C(6) SM algebra (L308bh) ← NEW**
 
 **Derived from first-principles:**

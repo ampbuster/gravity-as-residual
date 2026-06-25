@@ -75,24 +75,32 @@
 
 **Reason for sub-version (A2 within v3.5.9+)**:
 1. α is now dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ = 1.408, $\alpha_{4D}$ = 1.577)
-2. $f_{\rm back}$ → $f_{\rm DE}$,closed (LEGACY naming retired, $f_{\rm DE}$,simple/closed formulas)
+2. $f_{\rm back}$ → $f_{
+m DE,closed}$ (LEGACY naming retired, $f_{
+m DE,simple}$/closed formulas)
 3. N=12 downgraded FIRST-PRINCIPPLES → STRUCTURAL (L308ag, 1-1 mapping not derivation)
-4. L308ax: frame-neutral leak naming ($f_{\rm leak}$,2D→3D, $f_{\rm leak,3D→4D}$)
+4. L308ax: frame-neutral leak naming ($f_{
+m leak,2D}$→3D, $f_{\rm leak,3D→4D}$)
 5. Web research audit for first-principles (L43/L138/L144/L142a, NEGATIVE result)
 
 **A2 FRAMEWORK CHANGES**:
 - **α dim-specific**: $\alpha_{2D}$ = 1.289 (Schwarzian SYK N=12), $\alpha_{\rm 3+1D}$$ = 1.408 (predicted), $\alpha_{4D}$ = 1.577 (predicted)
 - **ε recalibrated**: 10⁻³⁸ (A1) → 6.32×10⁻³⁴ (A2, +4.8 orders)
-- **f × ε = 1.13×10⁻¹²³ INVARIANT** preserved ($\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ EXACT match in BOTH formulas)
+- **$f \times \varepsilon$ = 1.13×10⁻¹²³ INVARIANT** preserved ($\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ EXACT match in BOTH formulas)
 - **kL recalibrated**: 87.5 (A1) → 76.4 (A2), ΔkL = -11.1
 - **$\gamma_{4D}$ FORMULA FIX (CRITICAL)**: $\gamma_{4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ (uses $M_{\rm Pl,3D}$ parent reference, NOT $M_{\rm Pl,4D}$). Correct value: 1.10×10¹¹¹. Old formula gave 8.4×10¹⁰³ (wrong)
 - **$\tau_{3D,apparent}$ updated**: 9.10×10¹²⁴ (v3.5.9+) → 1.66×10¹⁴⁵ yr (A2, with corrected $\gamma_{4D}$)
 
 **$f_{\rm DE}$ FORMULAS (A2 NAMING, was $f_{\rm back}$ in legacy)**:
-- $f_{\rm DE}$,simple = 1.13×10⁻⁸⁵ (uses $\alpha_{2D}$ = 1.289, ε = 1×10⁻³⁸)
-- $f_{\rm DE}$,closed = 1.79×10⁻⁹⁰ (uses $\alpha_{4D}$ = 1.577, ε = 6.32×10⁻³⁴)
+- $f_{
+m DE,simple}$ = 1.13×10⁻⁸⁵ (uses $\alpha_{2D}$ = 1.289, ε = 1×10⁻³⁸)
+- $f_{
+m DE,closed}$ = 1.79×10⁻⁹⁰ (uses $\alpha_{4D}$ = 1.577, ε = 6.32×10⁻³⁴)
 - $f_{\rm back}$ = LEGACY name (v3.0+), retired in v3.5.7+ naming revolution
-- DE formula: $\rho_{\rm DE}$ = $f_{\rm DE}$,closed × ε × $M_{\rm Pl}$,3D⁴ (was $f_{\rm back}$ × ε × $M_{\rm Pl}$,3D⁴)
+- DE formula: $\rho_{\rm DE}$ = $f_{
+m DE,closed}$ × ε × $M_{
+m Pl,3D}$⁴ (was $f_{\rm back}$ × ε × $M_{
+m Pl,3D}$⁴)
 
 **PARAMETER HIERARCHY (A2)**:
 - 1 MEASURED: $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV
@@ -104,10 +112,12 @@
 - **Total: 15 parameters** (1+3+2+4+4+1)
 
 **L308ax (Frame-Neutral Leak Naming, USER INSIGHT)**:
-- $f_{\rm DM}$,leak → $f_{\rm leak}$,2D→3D (1.6×10⁻⁴⁵, frame-neutral, transition-explicit)
+- $f_{\rm DM}$,leak → $f_{
+m leak,2D}$→3D (1.6×10⁻⁴⁵, frame-neutral, transition-explicit)
 - $f_{\rm leak}$ → $f_{\rm leak,3D→4D}$ (= H₀, frame-neutral, transition-explicit)
 - **NATURAL CASCADE LEAKS DROPPED AS NEGLIGIBLE**:
-  - $f_{\rm leak}$,2D→3D (natural) = 1.6×10⁻⁴⁵ (88 orders below death pulse)
+  - $f_{
+m leak,2D}$→3D (natural) = 1.6×10⁻⁴⁵ (88 orders below death pulse)
   - $f_{\rm leak,3D→4D}$ (natural) = ~10⁻⁸⁶ (67 orders below H₀)
   - 27-order gap: $f_{\rm leak}$ = H₀ is CALIBRATED stability principle, not natural
 - **DM picture simplified**: 100% pulsed at 2D death (with $\gamma_{2D}$ growth) + $f_{\rm leak,3D→4D}$ = H₀ calibrated drain
@@ -124,7 +134,8 @@
 - Sweep 18: Stale "4/15 first-principles" → "3/15 first-principles" (N=12 STRUCTURAL per L308ag)
 - Sweep 19: Page count consistency (476 → 478 in README/STATE_OF_THE_MODEL)
 - Sweep 21: New legacy file `v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
-- Sweep 24-30: A2 value updates (ε=6.32e-34, $f_{\rm DE}$,simple/closed)
+- Sweep 24-30: A2 value updates (ε=6.32e-34, $f_{
+m DE,simple}$/closed)
 - Sweep 59-77: Cross-doc numerical verification (H₀, r_s, CMB peaks)
 - Sweep 78-80: L308 list in exec summary completed
 - Sweep 81-98: Final verification (no active v3.5.9+ A1 refs)
@@ -4933,7 +4944,8 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - f47e052: v3.5.8 2D universe is discrete quantum
 - 7381fd1: persistent_memory.md comprehensive v3.5.8 update
 
-## v3.5.9+ A2 (June 22, 2026) — α dim-specific + $f_{\rm back}$ → $f_{\rm DE}$,closed renaming
+## v3.5.9+ A2 (June 22, 2026) — α dim-specific + $f_{\rm back}$ → $f_{
+m DE,closed}$ renaming
 
 **Reason for version bump:** Three major consistency findings after A1 framework audit:
 
@@ -4944,8 +4956,10 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 2. **NAMING REVOLUTION (pass 10, USER-CAUGHT)**: `$f_{\rm back}$` is the LEGACY name
    (v3.0+), renamed in v3.5.7+ naming revolution to `$f_{\rm DE}$`. Two equivalent
    formulas in A2:
-   - `$f_{\rm DE}$,simple` = 1.13×10⁻⁸⁵ (A1, $\alpha_{2D}$=1.289, ε=1×10⁻³⁸)
-   - `$f_{\rm DE}$,closed` = 1.79×10⁻⁹⁰ (A2, $\alpha_{4D}$=1.577, ε=6.32×10⁻³⁴)
+   - `$f_{
+m DE,simple}$` = 1.13×10⁻⁸⁵ (A1, $\alpha_{2D}$=1.289, ε=1×10⁻³⁸)
+   - `$f_{
+m DE,closed}$` = 1.79×10⁻⁹⁰ (A2, $\alpha_{4D}$=1.577, ε=6.32×10⁻³⁴)
    - f × ε = 1.13×10⁻¹²³ invariant preserved (gives $\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ EXACT)
 
 3. **α DIM-SPECIFIC (A2, L308aw)**: α is dimension-dependent (was POSTULATE in A1)
@@ -4969,7 +4983,9 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
    - Pass 4: 156 → 144 limitations, v3.5.9+ A1 → A2
    - Pass 5-7: 5th → 4th calibrated, version headers
    - Pass 8: $\gamma_{4D}$ formula fix
-   - Pass 9-11: $f_{\rm DE}$,closed renaming, $kL$ fix, $f_{\rm DE}$,simple
+   - Pass 9-11: $f_{
+m DE,closed}$ renaming, $kL$ fix, $f_{
+m DE,simple}$
    - Pass 12-13: $E_{\rm sub}$ value description (not galaxy-mass)
    - Plus STATE_OF_THE_MODEL and README updates
 
@@ -4984,7 +5000,8 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - 476 pages, 1.94 MB
 - 50 unique L308 entries (a-ay minus ax)
 - All values consistent: $\gamma_{4D}$=1.10e111, $\tau_{3D,apparent}$=1.66e145 yr,
-  $f_{\rm DE}$,closed=1.79e-90, ε=6.32e-34, $M_{\rm Pl,4D}$=3.93e23 GeV, $\rho_{\rm DE}$=2.5e-47,
+  $f_{
+m DE,closed}$=1.79e-90, ε=6.32e-34, $M_{\rm Pl,4D}$=3.93e23 GeV, $\rho_{\rm DE}$=2.5e-47,
   $M_{\rm Pl,2D}$=2.95 TeV, μ=8.73e6 GeV², $N_{\rm sub}$=386, $E_{\rm sub}$=1.295e77 J
 
 
