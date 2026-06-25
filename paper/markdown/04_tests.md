@@ -126,7 +126,7 @@ See `calculations/vflat_morphology_test.py` for the full analysis.
 
 The V1 AGN test (§4.19, commit 230) was confounded by morphology: high-logSFRHa galaxies are mostly late-type (with intrinsically lower $M_{dyn}$/ M_*), so the test measured "late vs early type" more than "AGN vs not AGN." This V2 addresses that confound by matching AGN vs control galaxies in **( M_*, sigma)** cells, where sigma is a proxy for morphology (high sigma = early-type, low sigma = late-type).
 
-**SIDC prediction:** AGN hosts have ~5-15% more $M_{dyn}$/ M_* than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function ( ∼ 10²⁵ times SN contribution per event).
+**SIDC prediction:** AGN hosts have ~5-15% more $M_{dyn}$/ M_* than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function ( ∼ $10^{25}\,\text{t}$imes SN contribution per event).
 
 **Data:** MaNGA DR15 (Sanchez+ 2018, J/ApJS/262/36), 10,220 galaxies. WHAN diagram classification (Cid Fernandes+ 2010):
 - 1,655 WHAN AGN (logSFRHa > 0, sigma > 80)
@@ -1063,7 +1063,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 *A quantitative test of whether SIDC is scale-invariant in time as well as space, using JWST-era high-z UV luminosity function data. The result is a NEGATIVE result for time-scale invariance but a POSITIVE result for SIDC's own consistency.*
 
-**The question.** SIDC's scale-invariance principle (every energetic event creates a 2D universe weighted by the smooth $E^{1+\alpha}$ function, §2.5.3) is *spatially* scale-invariant (any size event). Is it also *temporally* scale-invariant (any *epoch* event)? If so, then 2D universe creation at z= 10⁻³⁶ s (inflation), z= 10⁻¹² s (electroweak phase transition), z= 10⁻⁶ s (QCD phase transition), z~10-100 (primordial black holes), and z<10 (stellar/AGN activity) should all contribute.
+**The question.** SIDC's scale-invariance principle (every energetic event creates a 2D universe weighted by the smooth $E^{1+\alpha}$ function, §2.5.3) is *spatially* scale-invariant (any size event). Is it also *temporally* scale-invariant (any *epoch* event)? If so, then 2D universe creation at z= $10^{-36}\,\text{s}$ (inflation), z= $10^{-12}\,\text{s}$ (electroweak phase transition), z= $10^{-6}\,\text{s}$ (QCD phase transition), z~10-100 (primordial black holes), and z<10 (stellar/AGN activity) should all contribute.
 
 **SIDC's prediction (time-cumulative DM).** In SIDC, the DM density at redshift z is the *integrated past* 2D universe creation:
 
@@ -1073,7 +1073,7 @@ where the rate is the *energetic event rate* at epoch z' (weighted by the smooth
 
 **The ratio r(z) = $\rho_{\rm DM}^{\rm SIDC}(z) / \rho_{\rm DM}^{\Lambda\rm CDM}(z)$.**
 
-For stellar-only 2D universe creation (Madau & Dickinson 2014 cosmic SFR, CCSN rate scaled to 15% of stars above 8 $M_\odot$, $E_{\rm CCSN}$ = 10⁴⁶ J per SN):
+For stellar-only 2D universe creation (Madau & Dickinson 2014 cosmic SFR, CCSN rate scaled to 15% of stars above 8 $M_\odot$, $E_{\rm CCSN}$ = $10^{46}\,\text{J}$ per SN):
 
 | z | r(z) | Interpretation |
 |---|------|----------------|
@@ -1086,11 +1086,11 @@ For stellar-only 2D universe creation (Madau & Dickinson 2014 cosmic SFR, CCSN r
 **The energetic analysis: what $F_{\rm stellar}$ does SIDC's own physics predict?**
 
 SIDC's own energetics predict that *stellar/AGN activity dominates* 2D universe creation:
-- Inflation (z> 10²⁵): 10⁶⁰+ J per Hubble volume, but in only ∼ 10¹⁸⁰ m³ of space
-- Electroweak phase transition (z ∼ 10¹⁵): 10⁴⁷ J per horizon
-- QCD phase transition (z ∼ 10¹²): 10⁴⁷ J per horizon
-- Primordial black hole formation (z~10-100): 10⁴⁰ J per event
-- **Stellar CCSN (z<10): 10⁴⁶ J per event, ∼ 10⁶⁰ events over cosmic history**
+- Inflation (z> 10²⁵): 10⁶⁰+ J per Hubble volume, but in only ∼ $10^{180}\,\text{m}$³ of space
+- Electroweak phase transition (z ∼ 10¹⁵): $10^{47}\,\text{J}$ per horizon
+- QCD phase transition (z ∼ 10¹²): $10^{47}\,\text{J}$ per horizon
+- Primordial black hole formation (z~10-100): $10^{40}\,\text{J}$ per event
+- **Stellar CCSN (z<10): $10^{46}\,\text{J}$ per event, ∼ 10⁶⁰ events over cosmic history**
 
 After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contribute < 10⁻²⁰ of today's DM density. SIDC's own physics predicts ** $F_{\rm stellar}$ ~ 1** (essentially all of today's DM is from stellar/AGN activity).
 

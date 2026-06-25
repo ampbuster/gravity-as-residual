@@ -33,8 +33,8 @@ This makes 47 Tuc unique among stellar systems:
 **Inputs for SIDC calculation**:
 - $M_{\rm stars}$ = $1.0 \times 10^{6}$$M_{\rm sun}$
 - Age = 12 Gyr
-- $E_{\rm crit}$ ≈ 10³⁰ J for 2D universe birth (per L308ba)
-- Recent activity: ~25 CVs at ~10³⁰ J per outburst (right at $E_{\rm crit}$ threshold, but recurring and small-scale)
+- $E_{\rm crit}$ ≈ $10^{30}\,\text{J}$ for 2D universe birth (per L308ba)
+- Recent activity: ~25 CVs at ~$10^{30}\,\text{J}$ per outburst (right at $E_{\rm crit}$ threshold, but recurring and small-scale)
 
 **SIDC prediction**:
 $$\boxed{M_{\rm dyn} \approx M_{\rm stars} \text{ within } \pm 5\%}$$
@@ -46,7 +46,7 @@ Specifically:
 - Velocity dispersion follows King/Plummer profile from $M_{\rm stars}$ alone
 
 **Reasoning**:
-- 47 Tuc has had NO energetic events > 10⁴⁴ J (SN) in 12 Gyr
+- 47 Tuc has had NO energetic events > $10^{44}\,\text{J}$ (SN) in 12 Gyr
 - No AGN, no mergers, no gas
 - The CV activity is at the $E_{\rm crit}$ threshold but recurring (not single events)
 - Therefore NO new 2D universes have nucleated
@@ -94,7 +94,7 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 ### §17.5.1 Stellar Velocity Dispersion Profile
 - **SIDC**: σ(r) follows Plummer/King profile from $M_{\rm stars}$ alone
 - **ΛCDM**: σ(r) has enhanced outer tail due to DM spike
-- **Measurement**: Rubin/LSST proper motions of ~10⁵ stars in 47 Tuc
+- **Measurement**: Rubin/LSST proper motions of ~$10^{5}\,\text{s}$tars in 47 Tuc
 
 ### §17.5.2 Escape Velocity
 - **SIDC**: $v_{\rm esc}$ = √(2GM_stars/r) — from stellar mass only
@@ -102,7 +102,7 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 - **Measurement**: High-velocity tail of stellar velocities
 
 ### §17.5.3 Tidal Stream Morphology
-- 47 Tuc has a long tidal stream (~10⁵ stars stripped over Gyr)
+- 47 Tuc has a long tidal stream (~$10^{5}\,\text{s}$tars stripped over Gyr)
 - **SIDC**: clean stream following Galactic potential
 - **ΛCDM**: stream perturbed by DM subhalos (gaps, wiggles)
 - **Measurement**: Gaia + Rubin wide-field photometry
@@ -181,7 +181,7 @@ Honest framing:
 
 2. **The 5% level is achievable but challenging**. SIDC says $M_{\rm dyn}$/ $M_{\rm stars}$ = 1.00 ± 0.05, ΛCDM says 1.05 ± 0.05. The difference is small (5%) and measurement systematics could mimic either.
 
-3. **CV activity is at the $E_{\rm crit}$ boundary**. 25 CVs each producing ~10³⁰ J per outburst — this is right at SIDC's $E_{\rm crit}$. We need to verify whether this triggers 2D universe nucleation.
+3. **CV activity is at the $E_{\rm crit}$ boundary**. 25 CVs each producing ~$10^{30}\,\text{J}$ per outburst — this is right at SIDC's $E_{\rm crit}$. We need to verify whether this triggers 2D universe nucleation.
 
 4. **Stellar IMF uncertainty**: The 5% error on $M_{\rm dyn}$/ $M_{\rm stars}$ = 1.00 reflects stellar IMF uncertainties. These uncertainties will improve with JWST and Rubin/LSST.
 

@@ -113,8 +113,8 @@ where:
 - $\tau_{\rm 4D}$ = 4D-view lifetime of our 3+1D universe = $2 \times 10^{26}\,\text{yr}$
 - $\tau_{\rm SN,obs}$ = SN1987A observed burst duration = 33 s
 - $\tau_{\rm universe}$ = age of universe = 13.8 Gyr
-- $E_{\rm 4D}$ = 4D cosmological event energy = 10⁶⁹ J
-- $E_{\rm SN}$ = SN1987A event energy = 10⁴⁴ J
+- $E_{\rm 4D}$ = 4D cosmological event energy = $10^{69}\,\text{J}$
+- $E_{\rm SN}$ = SN1987A event energy = $10^{44}\,\text{J}$
 - α = 1.289 (the $M^{1.29}$ scaling exponent)
 
 **Numerical value**:
@@ -198,7 +198,7 @@ Evidence for α being universal:
 2. Brane tension may differ at each level.
 3. Higher levels (5+, if they exist) are not directly testable.
 
-**Sensitivity test** (level 4, $E_{\rm 4D}$ = 10⁶⁹ J):
+**Sensitivity test** (level 4, $E_{\rm 4D}$ = $10^{69}\,\text{J}$):
 - α = 1.289 (SIDC): $\tau_{\rm 3D}$ = $1.76 \times 10^{26}\,\text{yr}$ (matches paper within 12%)
 - α = 1.279: $\tau_{\rm 3D}$ = $9.87 \times 10^{25}\,\text{yr}$ (off by factor 2)
 - α = 1.299: $\tau_{\rm 3D}$ = $3.12 \times 10^{26}\,\text{yr}$ (off by factor 1.6)
@@ -269,7 +269,7 @@ where:
 - $T_{\rm 4D,proper} = T_{\rm universe} \times \varepsilon$ = 4D event's proper duration in 4D's own frame
 - γ = time dilation factor between 4D and 3+1D frames
 
-For γ ∼ 10⁶² (within the SIDC cone picture's range 10⁶⁰ to 10¹⁰⁰):
+For γ ∼ 10⁶² (within the SIDC cone picture's range $10^{60}\,\text{t}$o 10¹⁰⁰):
 - $\tau_{\rm 4D} = 4.35 \times 10^{41}$ s = $1.4 \times 10^{34}\,\text{yr}$ (10²⁴ × universe age: "practically eternal")
 - $f_{\rm back} = 5.4 \times 10^{-44} / 4.35 \times 10^{41} = 1.2 \times 10^{-85}$
 
@@ -298,7 +298,7 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ( γ ~ 10⁵⁶), which is OU
    - 4D event creates 3+1D (forward, $f_{\rm DE}$ = 10⁻⁸⁵)
    - 3+1D leaks back to 4D (backward, $f_{\rm DE}$ = 10⁻⁸⁵)
    - DE = $f_{\rm back}$ × ε × $M_{\rm Pl}^4$
-   - γ ~ 10⁶² makes 4D event "practically eternal" from 3+1D frame
+   - γ ~ $10^{62}\,\text{m}$akes 4D event "practically eternal" from 3+1D frame
    - This is a CLOSED LOOP (same $f_{\rm back}$ in both directions)
 
 2. **3+1D → 2D (CREATION + DEATH RETURN, NOT a closed loop)**:
@@ -309,8 +309,8 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ( γ ~ 10⁵⁶), which is OU
 
 **Why $f_{\rm DE}$ = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D**:
 
-- 3+1D universe CURRENT AGE: 13.8 Gyr (observed); predicted total LIFETIME: ~10³⁰ yr ( $M^{\alpha}$); very young ($1.4 \times 10^{-20}\,\text{of}$ life so far)
-- 4D event apparent duration (3+1D frame): 10³⁴ yr ( γ ~ 10⁶²)
+- 3+1D universe CURRENT AGE: 13.8 Gyr (observed); predicted total LIFETIME: ~$10^{30}\,\text{yr}$ ( $M^{\alpha}$); very young ($1.4 \times 10^{-20}\,\text{of}$ life so far)
+- 4D event apparent duration (3+1D frame): $10^{34}\,\text{yr}$ ( γ ~ 10⁶²)
 - $f_{\rm DE}$ = $t_{\rm Pl}$/ $\tau_{\rm 4D}$ = $1.2 \times 10^{-85}$✓
 - DE matches observation (within 14%)
 
@@ -496,7 +496,7 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 - 3+1D universe CURRENT AGE: 13.8 Gyr (observed directly, the only firm value)
 - $f_{\rm DE}$ derived from closed-loop formula: $1.2 \times 10^{-85}$/s (matches DE within 1.7%, doesn't depend on $N_{\rm sub}$)
 
-**Honest verdict (v3.1.2-final)**: $N_{\rm sub}$ is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$ is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice ( $N_{\rm sub} = 300$, $E_{\rm sub}$ = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
+**Honest verdict (v3.1.2-final)**: $N_{\rm sub}$ is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$ is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~$10^{30}\,\text{yr}$" claim was based on an ARBITRARY choice ( $N_{\rm sub} = 300$, $E_{\rm sub}$ = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
 
 **Age vs Lifetime (v3.1.2-final, KEY CORRECTION)**:
 - 13.8 Gyr = current AGE of our 3+1D universe (OBSERVED, the only firm value)
@@ -508,7 +508,7 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 - 2D lifetime (33 s) is in the 3+1D frame
 - 3+1D sub-universe lifetime (UNKNOWN) is in the 3+1D's own frame
 - 4D event apparent duration ($1.4 \times 10^{34}\,\text{yr}$) is in the 3+1D frame, time-dilated from 4D proper time via γ ~ 10⁶²
-- 4D event proper duration: T_4D_proper = $\tau_{\rm 4D}$ / γ ~ 10⁻²⁰ s
+- 4D event proper duration: T_4D_proper = $\tau_{\rm 4D}$ / γ ~ $10^{-20}\,\text{s}$
 - 3+1D universe's current age (13.8 Gyr) is in the 3+1D's own frame
 
 **The 4π geometric factor (preserved from v3.1.2)**: The 4π factor at 3D→4D continuous leakage is empirically verified (~1.7% match to DE). It is specific to the 3D→4D boundary, not universal. The 14-event $M^{\alpha}$ fit at 2D level requires α = 1.289 (NOT 1.258 with 4π hidden). See §3.71 for the cleanest unification.
@@ -828,7 +828,7 @@ Within the same dimension, all universes are EQUAL — they have the same intern
 | Dimension | Same physics (all universes) | Different (per universe) |
 |---|---|---|
 | 2D | $N=12$ SYK, $M_{\rm Pl,2D}$ = 2.95 TeV, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
-| 3+1D | SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, α = 1.289, $N=12$ | $E_{\rm sub}$, age, stage, baryon asymmetry |
+| 3+1D | SM, $M_{\rm Pl,3D}$ = $10^{19}\,\text{GeV}$, α = 1.289, $N=12$ | $E_{\rm sub}$, age, stage, baryon asymmetry |
 | 4D (extrapolation) | $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$, $N=12$ | $E_{\rm 4D}$, age, stage |
 
 This is analogous to atoms: same physics, different states. The 14 SIDC events are 14 instances of the SAME 2D universe at 14 different energies. The $N_{\rm sub}$ 3+1D sub-universes (per §3.60.4) are $N_{\rm sub}$ instances of the SAME 3+1D universe at $N_{\rm sub}$ different energies.
@@ -1008,7 +1008,7 @@ to the **4D event → 3D universe** level using the same formula.
 | Bright blazar (TXS 0506+056, neutrino) | $1 \times 10^{59}\,\text{J}$ | $2.03 \times 10^{22}\,\text{s}$ | — | — |
 | Quasar outburst (3C 273 major) | $1 \times 10^{60}\,\text{J}$ | $1.39 \times 10^{22}\,\text{s}$ | $1.58 \times 10^{22}\,\text{s}$ | 0.88 |
 
-**24 named events spanning 50+ orders of magnitude** (10⁹ to 10⁶⁰ J, τ from 10⁻⁴³ s to 10²² s).
+**24 named events spanning 50+ orders of magnitude** ($10^{9}\,\text{t}$o $10^{60}\,\text{J}$, τ from $10^{-43}\,\text{s}$ to $10^{22}\,\text{s}$).
 
 The 8 originally tested events still match within factor 1.6. The new named events fill in gaps and provide named astronomical references:
 - Terrestrial: Hiroshima, Tsar Bomba, Tunguska, Krakatoa, Toba, Chicxulub
@@ -1018,7 +1018,7 @@ The 8 originally tested events still match within factor 1.6. The new named even
 - AGN: PKS 2155-304, 3C 273, TXS 0506+056
 
 4D event creating 3D universe (1 event, SPECULATIVE extrapolation):
-- $E_{\rm 4D}$ = 10⁶⁹ J, T_pred = $1.76 \times 10^{26}\,\text{yr}$, T_paper = $2 \times 10^{26}\,\text{yr}$, ratio = 0.88
+- $E_{\rm 4D}$ = $10^{69}\,\text{J}$, T_pred = $1.76 \times 10^{26}\,\text{yr}$, T_paper = $2 \times 10^{26}\,\text{yr}$, ratio = 0.88
 
 **CONCLUSION (v14e, REVISED v3.2)**: The scaling law is internally consistent at
 the 3D → 2D level (8/8 originally tested events match within factor 1.6; 24 named events now fill in the gaps). The 4D → 3D
@@ -1221,13 +1221,13 @@ The cone is FLIPPED relative to earlier framings:
 ```
 
 The 4D event is the **eternal substrate**. From our 3+1D frame, the 4D
-event is FROZEN (time dilation γ ~ 10⁶⁰ to 10¹⁰⁰). Inception structure:
+event is FROZEN (time dilation γ ~ $10^{60}\,\text{t}$o 10¹⁰⁰). Inception structure:
 
 - **Limbo** = 4D event (eternal substrate)
 - **Reality** = 3+1D universe (our world, ~14 Gyr)
 - **First dream** = 2D universe (transient, 33 s for SN)
 
-The 4D event's "proper lifetime" is finite (~ 10⁻⁴⁴ s in 4D frame)
+The 4D event's "proper lifetime" is finite (~ $10^{-44}\,\text{s}$ in 4D frame)
 but **eternal from our frame** ( γ × $\tau_{\rm proper}$ → ∞ as γ → ∞).
 
 **2. THE 2D PLANCK IS THE TIP (L113, L110, L114)**
@@ -1270,10 +1270,10 @@ Proposed $S_{\rm SIDC}$ = $S_{\rm 4D,event}$ + $S_{\rm 3+1D,brane}$ + $\Sigma_{\
 
 ```
 $S_{\rm 4D,event}$ = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
-             with $M_{\rm Pl,4}$ = 3.93×10²³ GeV (SIDC's v3.3 4D Planck)
+             with $M_{\rm Pl,4}$ = 3.93×$10^{23}\,\text{GeV}$ (SIDC's v3.3 4D Planck)
 
 $S_{\rm 3+1D,brane}$ = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
-               with $M_{\rm Pl,3}$ = 1.22 × 10¹⁹ GeV
+               with $M_{\rm Pl,3}$ = 1.22 × $10^{19}\,\text{GeV}$
                Λ = $f_{\rm back}$ × ε × $M_{\rm Pl,3}$² (SIDC's DE)
 
 $S_{\rm 2D,universe}$ = S_Liouville + S_Ising + S_SYK + S_FZZT
@@ -1316,7 +1316,7 @@ Everything else is derived from these + 2D CFT structure:
 - $\tau_{\rm 2D}$ = ( $E_{\rm 3D}$/ $E_{\rm Pl,3}$) $^{\alpha}$ × $t_{\rm Pl,3}$ (time dilation)
 - $f_{\rm back}$ ~ 10⁻⁸⁵ for SN (closed loop)
 
-Single-particle events ( $E_{\rm 3D} \sim v_{\rm Higgs}$) give $\tau_{\rm 2D}$ ~ 10⁻⁶⁵ s — BELOW
+Single-particle events ( $E_{\rm 3D} \sim v_{\rm Higgs}$) give $\tau_{\rm 2D}$ ~ $10^{-65}\,\text{s}$ — BELOW
 2D Planck time. Only MACROSCOPIC events (SN, AGN, GW bursts) create
 2D universes. This is consistent with no observed 2D universes from
 particle physics.
@@ -1501,7 +1501,7 @@ The original §3.67 Lagrangian is REVISED as follows:
 
 ```
 S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
-       with M_Pl,4 = 3.93×10²³ GeV (SIDC's α-GM, L308v)
+       with M_Pl,4 = 3.93×$10^{23}\,\text{GeV}$ (SIDC's α-GM, L308v)
        and   $E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub} = 386 \times 1.295 \times 10^{77}\,\text{J} = 5.0 \times 10^{79}\,\text{J}$ (STRUCTURAL, E_sub is per-sub-universe energy)
        and   γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D × t_Pl,3D = 1.10×10¹¹¹ (uses PARENT's Planck per L308t fix)
        and   $\tau_{\rm 4D} = 1.51×10³⁴ yr ($apparent 3+1D lifetime, calibrated)
@@ -1511,7 +1511,7 @@ S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
 
 ```
 S_3+1D,brane = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
-       with M_Pl,3 = 1.22×10¹⁹ GeV (MEASURED, Newton's G)
+       with M_Pl,3 = 1.22×$10^{19}\,\text{GeV}$ (MEASURED, Newton's G)
        and   $\Lambda = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.5 \times 10^{-47}\,\text{GeV}^4$ (A2 EXACT)
        and   $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (A2 closed loop)
        and   $f_{\rm DE,simple} = 1.13 \times 10^{-85}$ (A1 form, gives same $\rho_{\rm DE}$ exact)
@@ -1574,7 +1574,7 @@ With the revised Lagrangian, the closed loop formula gives:
 
 ```
 f_DE,closed = (M_Pl,4D/E_4D)^α_4D × prefactor
-            = (3.93×10²³ GeV / 3.12×10⁸⁹ GeV)^1.577 × prefactor
+            = (3.93×$10^{23}\,\text{GeV}$ / 3.12×$10^{89}\,\text{GeV}$)^1.577 × prefactor
             $= (1.26 \times 10^{-66})^{1.577} \times \text{prefactor}$
             $= 2.55 \times 10^{-104} \times \text{prefactor}$
 ```
@@ -1584,7 +1584,7 @@ m DE,closed}$ ≈ $1.79 \times 10^{-90}$✓.
 
 ```
 $\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^4$
-     = 2.5×10⁻⁴⁷ GeV⁴ ✓ (EXACT match to observed)
+     = 2.5×$10^{-47}\,\text{GeV}$⁴ ✓ (EXACT match to observed)
 ```
 
 #### 3.68.5 Frame-Neutral Naming Throughout
@@ -2050,9 +2050,9 @@ Every numerical prediction in the A2 framework uses the SAME formula chain:
 ```
 $f \times \varepsilon$ = 1.13×10⁻¹²³ invariant preserved (across all formulas)
 
-ρ_DE = $f \times \varepsilon$ × M_Pl,3D⁴ = 2.5×10⁻⁴⁷ GeV⁴ ✓ EXACT match to observation
+ρ_DE = $f \times \varepsilon$ × M_Pl,3D⁴ = 2.5×$10^{-47}\,\text{GeV}$⁴ ✓ EXACT match to observation
 
-M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×10²³ GeV ✓ (-1.13% from α-GM formula)
+M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×$10^{23}\,\text{GeV}$ ✓ (-1.13% from α-GM formula)
 
 γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D = 1.10×10¹¹¹ ✓ EXACT (uses PARENT's Planck per L308t)
 

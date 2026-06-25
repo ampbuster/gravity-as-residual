@@ -69,8 +69,8 @@ SIDC's cone-shape (§2.6) terminates at 4D as the "top". But §3.10 (extending u
 **3.21.4 The "awe" of the parent dimension.**
 
 At every level, the parent dimension sees vastly different child lifetimes:
-- 3+1D sees 2D universes: 10⁻⁶³ s (LHC) to 10⁸ yr (AGN)
-- 4D sees 3+1D universes: 10⁻¹⁹ s (tiny 4D) to 10⁴⁰ yr (huge 4D)
+- 3+1D sees 2D universes: $10^{-63}\,\text{s}$ (LHC) to $10^{8}\,\text{yr}$ (AGN)
+- 4D sees 3+1D universes: $10^{-19}\,\text{s}$ (tiny 4D) to $10^{40}\,\text{yr}$ (huge 4D)
 - 5D sees 4D universes: ??? to ???
 - Each parent is in awe of its children's lifespans
 
@@ -233,9 +233,9 @@ $$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \fra
 |-------|-------|------|------------------------------|
 | LHC (14 TeV) | $2.24 \times 10^{-15}\,\text{J}$ | $1.3 \times 10^{-31}$| $7.7 \times 10^{30}$(HIGH) |
 | 1 ton TNT | $4 \times 10^{9}\,\text{J}$ | 2.5 | 0.4 |
-| SN ( 10⁴⁴ J) | $6 \times 10^{44}\,\text{J}$ | $6 \times 10^{44}$| $1.7 \times 10^{-45}$(LOW) |
-| BNS merger | 10⁵³ J | $2.4 \times 10^{56}$| $4.1 \times 10^{-57}$(LOW) |
-| AGN outburst | 10⁵⁵ J | $9.2 \times 10^{58}$| $1.1 \times 10^{-59}$(LOW) |
+| SN ( $10^{44}\,\text{J}$) | $6 \times 10^{44}\,\text{J}$ | $6 \times 10^{44}$| $1.7 \times 10^{-45}$(LOW) |
+| BNS merger | $10^{53}\,\text{J}$ | $2.4 \times 10^{56}$| $4.1 \times 10^{-57}$(LOW) |
+| AGN outburst | $10^{55}\,\text{J}$ | $9.2 \times 10^{58}$| $1.1 \times 10^{-59}$(LOW) |
 
 **3.23.2 Prediction 2: 2D universe death GW spectrum.**
 
@@ -245,7 +245,7 @@ $$\Omega_{GW}(f) \propto \int dE   R(E) \times \frac{1}{\gamma_{2D}} \times E_{d
 
 The democratic cosmology predicts a SPECIFIC spectral shape: weighted toward smaller events (low E) because of the 1/ $\gamma_{2D}$ factor.
 
-**Testable:** if PTA/LIGO observations show the GW stochastic background peaks at SN-scale ( 10⁴⁴ J) rather than AGN-scale ( 10⁵⁵ J), SIDC is supported.
+**Testable:** if PTA/LIGO observations show the GW stochastic background peaks at SN-scale ( $10^{44}\,\text{J}$) rather than AGN-scale ( $10^{55}\,\text{J}$), SIDC is supported.
 
 **3.23.3 Prediction 3: NO excess of 2D universe deaths in DM halos.**
 
@@ -604,7 +604,7 @@ massive galaxies, and galaxy clusters (not just dwarfs).
 
 SIDC's qualitative SFH-DM correlation is tested against
 **21 galaxies with consensus $M_{dyn}$ measurements** spanning 10
-orders of magnitude in M_{b} (from GCs at 10⁵ to clusters at 10¹⁴):
+orders of magnitude in M_{b} (from GCs at $10^{5}\,\text{t}$o clusters at 10¹⁴):
 
 | Galaxy | M_{b} ( $M_\odot$) | $M_{dyn}$ ( $M_\odot$) | $M_{dyn}$/ M_{b} | Type | SIDC |
 |--------|-----------|-------------|-----------|------|---------|
@@ -716,7 +716,7 @@ observational test.
 **Methodology**: For each massive quiescent, we use the measured
 SFH (formation redshift, duration, current mass) to compute:
 - $N_{\rm SN}$ = M_{b} / 100 (Salpeter IMF, M>8 $M_\odot$ SN progenitors ~1% of mass)
-- E_SN_total = $N_{\rm SN}$ × $E_{\rm CCSN}$ ( $E_{\rm CCSN}$ = 10⁴⁴ J)
+- E_SN_total = $N_{\rm SN}$ × $E_{\rm CCSN}$ ( $E_{\rm CCSN}$ = $10^{44}\,\text{J}$)
 - $M_{dyn}$ = Fₚ(z) × M_dyn_primordial + Fₛ(z) × M_dyn_recent
 
 Where:
@@ -822,21 +822,21 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz- μHz band.
 
 | Event | E (J) | $\tau_{\rm 2D}$ (s) | $f_{\rm 2D}$ (Hz) | Detector |
 |-------|-------|----------|-----------|----------|
-| Core-collapse SN | 10⁴⁴ J | 33 s | 0.03 Hz | LISA |
-| Type Ia SN | 10⁴⁴ J | 33 s | 0.03 Hz | LISA |
-| BNS merger | 10⁴⁷ J | $2.4 \times 10^{5}$| $4.2 \times 10^{-6}\,\text{Hz}$ | PTA |
-| Long GRB | 10⁴⁷ J | $2.4 \times 10^{5}$| $4.2 \times 10^{-6}\,\text{Hz}$ | PTA |
-| TDE | 10⁴⁸ J | $4.6 \times 10^{6}$| $2.2 \times 10^{-7}\,\text{Hz}$ | PTA |
-| AGN flare | 10⁵⁰ J | $1.8 \times 10^{9}$| $5.7 \times 10^{-10}\,\text{Hz}$ | PTA |
-| Primordial BH merger | 10⁵² J | $6.7 \times 10^{11}$| $1.5 \times 10^{-12}\,\text{Hz}$ | PTA |
+| Core-collapse SN | $10^{44}\,\text{J}$ | 33 s | 0.03 Hz | LISA |
+| Type Ia SN | $10^{44}\,\text{J}$ | 33 s | 0.03 Hz | LISA |
+| BNS merger | $10^{47}\,\text{J}$ | $2.4 \times 10^{5}$| $4.2 \times 10^{-6}\,\text{Hz}$ | PTA |
+| Long GRB | $10^{47}\,\text{J}$ | $2.4 \times 10^{5}$| $4.2 \times 10^{-6}\,\text{Hz}$ | PTA |
+| TDE | $10^{48}\,\text{J}$ | $4.6 \times 10^{6}$| $2.2 \times 10^{-7}\,\text{Hz}$ | PTA |
+| AGN flare | $10^{50}\,\text{J}$ | $1.8 \times 10^{9}$| $5.7 \times 10^{-10}\,\text{Hz}$ | PTA |
+| Primordial BH merger | $10^{52}\,\text{J}$ | $6.7 \times 10^{11}$| $1.5 \times 10^{-12}\,\text{Hz}$ | PTA |
 
 **Cumulative GW energy density**: For each event type, integrate
 over cosmic history:
-- SN: $N_{\rm SN}$ ∼ 10¹⁸ over cosmic history, $E_{\rm per,SN,GW}$ = $f_{\rm back}$ × 10⁴⁴ = 10⁻⁴¹ J
+- SN: $N_{\rm SN}$ ∼ 10¹⁸ over cosmic history, $E_{\rm per,SN,GW}$ = $f_{\rm back}$ × 10⁴⁴ = $10^{-41}\,\text{J}$
 - Total SN GW energy density: $\rho_{\rm GW_SN}$ = 10¹⁸ × 10⁻⁴¹ / $4 \times 10^{80}\,\text{m}$³ = $10^{-103}$ J/m^3
 - $\Omega_{\rm GW}$_SN = $\rho_{\rm GW_SN}$ / $\rho_{\rm crit}$ = $10^{-103}$ / $7.6 \times 10^{-10}$= ** 10⁻⁹⁴**
 
-- BNS: $N_{\rm BNS}$ ∼ $3 \times 10^{3}$/ ${\rm Mpc}^3$, $E_{\rm per,BNS,GW}$ = $f_{\rm back}$ × 10⁴⁷ = 10⁻³⁸ J
+- BNS: $N_{\rm BNS}$ ∼ $3 \times 10^{3}$/ ${\rm Mpc}^3$, $E_{\rm per,BNS,GW}$ = $f_{\rm back}$ × 10⁴⁷ = $10^{-38}\,\text{J}$
 - Total BNS GW energy density: $\rho_{\rm GW_BNS}$ = $3 \times 10^{3}$× 10⁻³⁸ / $2.9 \times 10^{67}$= $10^{-102}$ J/m^3
 - $\Omega_{\rm GW}$_BNS = ** 10⁻⁹³**
 
@@ -874,7 +874,7 @@ measurements) is the cleanest Solar System test of modified gravity.
 **Local 2D universe death mass** (within 100 pc):
 - Local stellar mass: 10⁵ Mₒ
 - SN events: 10³ (over 10 Gyr)
-- $M_{2D}$_local = $f_{\rm back}$ × 10³ × 10⁴⁴ J / c² = $5.6 \times 10^{-86}\,\text{M}$ₒ
+- $M_{2D}$_local = $f_{\rm back}$ × 10³ × $10^{44}\,\text{J}$ / c² = $5.6 \times 10^{-86}\,\text{M}$ₒ
 
 **Galaxy-integrated 2D universe death mass** (within 10 kpc):
 - N_SN_MW = $5 \times 10^{8}$(over 10 Gyr)

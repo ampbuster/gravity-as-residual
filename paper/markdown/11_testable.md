@@ -19,7 +19,7 @@ SIDC predicts that **DM is the cumulative 2D universe back-projection from energ
 - **No current massive star formation** (all O/B stars died > 1 Gyr ago)
 - **No current core-collapse supernovae** (none in > 1 Gyr, none expected)
 - **No current Type Ia supernovae** (theoretical rate ~ 1 per 10,000 yr, no events in recorded history)
-- **Only ~20 millisecond pulsars** (energetic but their flares are ∼ 10⁴⁰ J, sub-second 2D universes)
+- **Only ~20 millisecond pulsars** (energetic but their flares are ∼ $10^{40}\,\text{J}$, sub-second 2D universes)
 - **Mass dominated by ∼ 10⁶ old, low-mass stars** (M < 0.9 $M_\odot$, mostly main-sequence + RGB)
 
 SIDC prediction: **47 Tuc's dynamical mass ≈ its stellar mass**. No local DM spike. The 5 known tidal tails should be consistent with the *Galactic* DM potential, not any local 47 Tuc contribution.
@@ -43,10 +43,10 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
 
 **SIDC calculation results:**
 
-1. **Current 2D universe creation rate:** essentially **ZERO** in 47 Tuc. No current SN. The most energetic current events are ms-pulsar giant flares ( ∼ 10⁴⁰ J, ∼ 10⁻³ /yr, $\tau_{2D} \sim 230$ μs) and recurrent novae ( ∼ 10³⁹ J, ∼ 10⁻³ /yr, $\tau_{2D} \sim 11$ μs). All of these are microsecond-scale 2D universes that die essentially instantly and contribute negligible DM.
+1. **Current 2D universe creation rate:** essentially **ZERO** in 47 Tuc. No current SN. The most energetic current events are ms-pulsar giant flares ( ∼ $10^{40}\,\text{J}$, ∼ 10⁻³ /yr, $\tau_{2D} \sim 230$ μs) and recurrent novae ( ∼ $10^{39}\,\text{J}$, ∼ 10⁻³ /yr, $\tau_{2D} \sim 11$ μs). All of these are microsecond-scale 2D universes that die essentially instantly and contribute negligible DM.
 
-2. **Cumulative 2D universe contribution over 12 Gyr:** at formation, 47 Tuc had ∼ 10⁴ O/B stars, each producing a SN at ∼ 10⁴⁴ J. Total SN energy ∼ 10⁴⁸ J. With SIDC's $f_{\rm back} \sim 10^{-85}$, the resulting DM contribution is:
-   - $E_{\rm DM}$ = 10⁴⁸ × 10⁻⁸⁵ = 10⁻³⁷ J = ** $5.6 \times 10^{-85} M_\odot$**
+2. **Cumulative 2D universe contribution over 12 Gyr:** at formation, 47 Tuc had ∼ 10⁴ O/B stars, each producing a SN at ∼ $10^{44}\,\text{J}$. Total SN energy ∼ $10^{48}\,\text{J}$. With SIDC's $f_{\rm back} \sim 10^{-85}$, the resulting DM contribution is:
+   - $E_{\rm DM}$ = 10⁴⁸ × 10⁻⁸⁵ = $10^{-37}\,\text{J}$ = ** $5.6 \times 10^{-85} M_\odot$**
    - **Completely negligible.** The SN energy that did become 2D universe mass contributes essentially zero to 47 Tuc's local DM.
 
 3. **Density comparison (47 Tuc vs Galaxy's halo DM):**
@@ -57,7 +57,7 @@ See `calculations/v27_47_tuc_cascade.py` for the full calculation. Key numbers:
 
 4. **Mass budget:**$M_{dyn} \approx 7 \times 10^{5} M_\odot$; $M_{stars}$ (from CMD + IMF)$\approx 5.5 \times 10^{5} M_\odot$. The "missing" $1.5 \times 10^{5} M_\odot$ (21% of $M_{dyn}$) is **within the 20-30% uncertainty** of IMF, mass segregation, binary fraction, and velocity anisotropy. Consistent with **no local DM enhancement**.
 
-5. **Central BH (≤ 578 $M_\odot$):** the BH formation event ~12 Gyr ago released $E_{\rm BH}$ ∼ 10⁴⁹ J, creating a 2D universe with $\tau_{2D} \sim 3$ yr (energy-scaling rule). The 2D universe died long ago; energy was returned to 3+1D. With $f_{\rm back} \sim 10^{-85}$, the BH's DM contribution is ** $\sim 10^{-84} M_\odot$** — zero. The BH's gravitational influence on 47 Tuc is via standard GR (it acts as a point mass), not via 2D universe back-projection.
+5. **Central BH (≤ 578 $M_\odot$):** the BH formation event ~12 Gyr ago released $E_{\rm BH}$ ∼ $10^{49}\,\text{J}$, creating a 2D universe with $\tau_{2D} \sim 3$ yr (energy-scaling rule). The 2D universe died long ago; energy was returned to 3+1D. With $f_{\rm back} \sim 10^{-85}$, the BH's DM contribution is ** $\sim 10^{-84} M_\odot$** — zero. The BH's gravitational influence on 47 Tuc is via standard GR (it acts as a point mass), not via 2D universe back-projection.
 
 6. **Mass loss over 12 Gyr:** dM/dt from 2-body relaxation is $\sim 2 \times 10^{-6} M_\odot$/yr (negligible). Stellar evolution mass loss is ~30% of initial mass. Total: $\sim 3 \times 10^{5} M_\odot$ lost, leaving the observed $7 \times 10^{5} M_\odot$. The 5 known tidal tails (Shipp+ 2021, Ibata+ 2024, Boldrini+ 2024) contain ~0.5% of the cluster mass and are consistent with Galactic tidal stripping + 47 Tuc's complex orbit.
 
@@ -72,7 +72,7 @@ SIDC's prediction for 47 Tuc can be tested at three time horizons:
 - **Why it matters:** DP1 primarily validates Rubin's crowded-field photometry pipeline. SIDC predicts a *null* result (no DM component in the stars themselves) — a baseline check before more sensitive tests.
 
 **DR1 (LSST Y1, expected 2027):**
-- **What DR1 contains:** First full LSST data release, ~18,000 sq deg wide-fast-deep survey. Proper motions for ∼ 10⁹ stars to ~24th mag. 47 Tuc will have ∼ 10⁶ stars with proper motion measurements.
+- **What DR1 contains:** First full LSST data release, ~18,000 sq deg wide-fast-deep survey. Proper motions for ∼ $10^{9}\,\text{s}$tars to ~24th mag. 47 Tuc will have ∼ $10^{6}\,\text{s}$tars with proper motion measurements.
 - **SIDC prediction:** 47 Tuc's proper motion field is **consistent with Galactic rotation + dynamical friction** in the Galactic NFW potential. The 5 tidal tails should be **kinematically consistent with 47 Tuc's orbit** through the Galaxy, with no evidence of local 47 Tuc DM enhancement (e.g., no anomalous velocity dispersion in the tails beyond what Galactic tides predict).
 - **Test:** fit 47 Tuc's orbit in the Galactic potential using Gaia+LSST proper motions. Use tail kinematics to constrain the local DM density at 47 Tuc's location.
 - **Why it matters:** A direct test of whether 47 Tuc's dynamics are governed by Galactic DM or have a local component.

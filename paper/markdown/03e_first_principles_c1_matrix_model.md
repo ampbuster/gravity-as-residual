@@ -56,7 +56,7 @@ TNT 2D universe:
 
 SN 2D universe:
 - $M_{\rm Pl,2D}$ = 2.95 TeV (softer)
-- Size = c × τ = 10¹⁰ m (huge!)
+- Size = c × τ = $10^{10}\,\text{m}$ (huge!)
 - Action = 10⁴⁴ × 33 = $3.3 \times 10^{45}\,\text{J}$·s (huge!)
 - DM contribution: huge (action is huge)
 
@@ -117,13 +117,13 @@ But this is ad hoc — no clear principle for K_max.
 What if there's a NATURAL FLOOR for 2D universe creation?
 
 **Threshold candidates:**
-- $E_{\rm threshold}$ = $M_{\rm Pl,3D}$ × c² ≈ 10⁹ J (Planck energy in joules)
-- $E_{\rm threshold}$ = 10²⁵ J (X-class flare scale)
-- $E_{\rm threshold}$ = 10⁴⁴ J (SN scale — but then no TNT, flare, etc.)
+- $E_{\rm threshold}$ = $M_{\rm Pl,3D}$ × c² ≈ $10^{9}\,\text{J}$ (Planck energy in joules)
+- $E_{\rm threshold}$ = $10^{25}\,\text{J}$ (X-class flare scale)
+- $E_{\rm threshold}$ = $10^{44}\,\text{J}$ (SN scale — but then no TNT, flare, etc.)
 
-If $E_{\rm threshold}$ = 10⁹ J:
+If $E_{\rm threshold}$ = $10^{9}\,\text{J}$:
 - TNT ($4 \times 10^{9}\,\text{J}$) is barely above threshold → maybe no 2D universe
-- SN (10⁴⁴ J) is well above → standard 2D universe
+- SN ($10^{44}\,\text{J}$) is well above → standard 2D universe
 - This would explain why we don't see TNT 2D universes
 
 But the threshold needs a physical principle.
