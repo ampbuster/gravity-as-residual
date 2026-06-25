@@ -3409,7 +3409,7 @@ The 30-100 $M_{\rm sun}$ range is the "valley" between MACHO constraints and IMB
 The 12-fold coordination is a **SPATIAL pattern**, not a single signal. It manifests as:
 
 1. **Angular power spectrum** (cosmic shear, CMB):
-   - Excess at specific multipole l_12 = π × D_A / r_12
+   - Excess at specific multipole $l_{12} = \pi \times D_A / r_{12}$
    - Distinct from smooth ΛCDM
 
 2. **Substructure clustering**:
@@ -3588,8 +3588,8 @@ If SIDC's geometric DM comes from cumulative 2D universe deaths, and these death
 **Geometric 12-fold prediction**:
 - DM density has 12-fold statistical correlations
 - This is a CORRELATION function, not discrete clusters
-- Detectable as: angular power spectrum C_l at l_12 = π × D_A / r_12
-- Where r_12 is the 12-fold correlation length
+- Detectable as: angular power spectrum $C_l$ at $l_{12} = \pi \times D_A / r_{12}$
+- Where $r_{12}$ is the 12-fold correlation length
 
 **This is a different prediction from L308aj**:
 - L308aj: discrete point-like clusters (inconsistent with geometric DM)
@@ -3626,7 +3626,7 @@ After L308am:
 The new test would be:
 1. Measure galaxy-galaxy lensing correlation functions
 2. Look for 12-fold specific angular dependence
-3. Test for specific multipole l_12 in the power spectrum
+3. Test for specific multipole $l_{12}$ in the power spectrum
 4. Compare with ΛCDM (no specific 12-fold) vs SIDC (12-fold prediction)
 
 This is a more subtle test than the old one, but it's **consistent with geometric DM**.
@@ -3727,7 +3727,7 @@ If SIDC's $N=12$ is structural, the DM density field might show **12-fold statis
 
 **The prediction**:
 
-DM density two-point correlation function has a SPECIFIC PEAK at distance r_12, where:
+DM density two-point correlation function has a SPECIFIC PEAK at distance $r_{12}$, where:
 $$r_{12} = \text{typical inter-event distance for 2D universe creation}$$
 
 This is not a delta function (like 130 $M_{\rm sun}$ point clusters), but a PREFERRED CORRELATION LENGTH.
@@ -3741,12 +3741,12 @@ where A_12 is the amplitude of the 12-fold correlation.
 
 **1. Angular power spectrum of weak lensing (cosmic shear)**:
 - Standard: C_l ∝ lⁿ (smooth)
-- SIDC: C_l has specific peak at l_12 = π × D_A / r_12
+- SIDC: $C_l$ has specific peak at $l_{12} = \pi \times D_A / r_{12}$
 - Test: KiDS, DES, Subaru HSC, Roman, LSST
 
 **2. Two-point correlation function of galaxies**:
 - Standard: ξ(r) ~ r^(-1.8) (power law)
-- SIDC: ξ(r) has bump at r_12
+- SIDC: ξ(r) has bump at $r_{12}$
 - Test: SDSS, BOSS, DESI, 4MOST, Euclid
 
 **3. Three-point correlation (bispectrum)**:
@@ -3755,7 +3755,7 @@ where A_12 is the amplitude of the 12-fold correlation.
 - Test: high-precision galaxy surveys
 
 **4. Velocity correlation function**:
-- DM velocity correlations at r_12
+- DM velocity correlations at $r_{12}$
 - Test: stellar stream kinematics, Gaia
 
 ### What Stays From L308aj
@@ -3778,22 +3778,22 @@ L308am was honest: the 12-fold MACHO prediction was inconsistent with geometric 
 
 **New (L308an, PROPOSED)**:
 - Smooth DM density field
-- 12-fold STATISTICAL correlation at r_12
-- Detectable as specific l_12 in angular power spectrum
+- 12-fold STATISTICAL correlation at $r_{12}$
+- Detectable as specific $l_{12}$ in angular power spectrum
 
-### The r_12 Length Scale
+### The $r_{12}$ Length Scale
 
-What would r_12 be in SIDC?
+What would $r_{12}$ be in SIDC?
 
 The framework's 2D universe deaths happen at the locations of energetic events (SN, AGN). These are concentrated in:
 - Galactic centers
 - Star-forming regions
 - AGN-hosting galaxies
 
-The inter-event distance r_12 depends on the density of energetic events:
-- In galactic centers: r_12 ~ pc
-- In disks: r_12 ~ kpc
-- In halos: r_12 ~ 10 kpc
+The inter-event distance $r_{12}$ depends on the density of energetic events:
+- In galactic centers: $r_{12}$ ~ pc
+- In disks: $r_{12}$ ~ kpc
+- In halos: $r_{12}$ ~ 10 kpc
 
 For SIDC's geometric DM:
 - DM density should correlate with 2D universe death rate
@@ -3801,9 +3801,9 @@ For SIDC's geometric DM:
 - Star formation has specific spatial patterns
 
 The 12-fold correlation in DM density would manifest at:
-- Cluster scale: r_12 ~ Mpc (between galaxies)
-- Group scale: r_12 ~ 100 kpc (within groups)
-- Galaxy scale: r_12 ~ 10 kpc (within galaxies)
+- Cluster scale: $r_{12}$ ~ Mpc (between galaxies)
+- Group scale: $r_{12}$ ~ 100 kpc (within groups)
+- Galaxy scale: $r_{12}$ ~ 10 kpc (within galaxies)
 
 ### Connection to PDS (Why 12 Specifically?)
 
@@ -3838,20 +3838,20 @@ This is a SPECIFIC prediction, distinct from:
 ### What's Required to Test
 
 For a specific test:
-1. **Choose r_12**: estimate from SIDC parameters (energetic event density)
+1. **Choose $r_{12}$**: estimate from SIDC parameters (energetic event density)
 2. **Predict C_l peak**: compute expected angular power spectrum
-3. **Compare with data**: look for specific peak at l_12
+3. **Compare with data**: look for specific peak at $l_{12}$
 4. **Quantify significance**: how strong is the signal?
 
 The framework's $M_{\rm 2D}$ and $E_{\rm 2D}$ give:
 - 2D universe death rate per galaxy: ~ 10⁻² /yr
 - Inter-event distance in MW: ~kpc
-- Expected r_12 for DM correlation: ~kpc to ~10 kpc
+- Expected $r_{12}$ for DM correlation: ~kpc to ~10 kpc
 
-This gives l_12 = π × D_A / r_12:
+This gives $l_{12} = \pi \times D_A / r_{12}$:
 - D_A ~ 1 Gpc for nearby galaxies
-- r_12 ~ kpc
-- l_12 ~ 10⁶ (very high multipole, hard to measure)
+- $r_{12}$ ~ kpc
+- $l_{12}$ ~ 10⁶ (very high multipole, hard to measure)
 
 This is a SUBTLE signal at high multipoles.
 
@@ -3892,15 +3892,15 @@ Key references found:
 
 **Result**: New, consistent prediction. SIDC's 12-fold applies to DENSITY CORRELATIONS, not discrete clusters.
 
-**Observable**: Specific peak in angular power spectrum at l_12 = π × D_A / r_12
+**Observable**: Specific peak in angular power spectrum at $l_{12} = \pi \times D_A / r_{12}$
 
 **Implication**: The 12-fold structural choice now has a testable consequence that doesn't require point-particle DM.
 
 **Updated testable predictions**:
 - [FAIL] MACHO microlensing (withdrawn, L308am)
-- [OK] Angular power spectrum peak at l_12
-- [OK] 2-point correlation function bump at r_12
-- [OK] Velocity correlation at r_12
+- [OK] Angular power spectrum peak at $l_{12}$
+- [OK] 2-point correlation function bump at $r_{12}$
+- [OK] Velocity correlation at $r_{12}$
 
 
 
@@ -3920,34 +3920,34 @@ This is a critical question. Let me be honest.
 ### What L308an Claims
 
 L308an proposes:
-- Two-point correlation function: ξ(r) = ξ_ΛCDM(r) + A_12 × δ(r - r_12)
-- Angular power spectrum oscillation at l_12 = π × D_A / r_12
-- "12" appears as a SUBSCRIPT on r_12 and l_12
+- Two-point correlation function: ξ(r) = ξ_ΛCDM(r) + A_12 × δ(r - $r_{12}$)
+- Angular power spectrum oscillation at $l_{12} = \pi \times D_A / r_{12}$
+- "12" appears as a SUBSCRIPT on $r_{12}$ and $l_{12}$
 
 The "12" implies this is a 12-fold coordination signature, related to SIDC's structural $N=12$.
 
 ### The Honest Answer: The Connection is WEAK
 
-**What L308an actually says about r_12**:
-> "r_12 is the typical inter-event distance for 2D universe creation"
+**What L308an actually says about $r_{12}$**:
+> "$r_{12}$ is the typical inter-event distance for 2D universe creation"
 > "SIDC's 2D universes are created at SN, AGN, GRB events"
-> "r_12_disk = 5 kpc, r_12_halo = 50 kpc, r_12_cluster = 1 Mpc"
+> "$r_{\rm 12,disk}$ = 5 kpc, $r_{\rm 12,halo}$ = 50 kpc, $r_{\rm 12,cluster}$ = 1 Mpc"
 
 **What this actually means**:
-- r_12 is determined by the spatial distribution of energetic events
+- $r_{12}$ is determined by the spatial distribution of energetic events
 - This is set by ASTROPHYSICS of star formation and AGN
 - It is NOT directly determined by $N=12$ (the cascade's Majorana count)
-- The "12" in r_12 is a NOTATION, not a physical derivation from $N=12$
+- The "12" in $r_{12}$ is a NOTATION, not a physical derivation from $N=12$
 
-### The $N=12$ → r_12 Connection: Where It Could Come From
+### The $N=12$ → $r_{12}$ Connection: Where It Could Come From
 
-For the connection to be RIGOROUS, $N=12$ must determine r_12 via some physical mechanism. Possible mechanisms:
+For the connection to be RIGOROUS, $N=12$ must determine $r_{12}$ via some physical mechanism. Possible mechanisms:
 
 **Mechanism 1: Z_12 Orbifold → 12 Sectors**
 
 If SIDC's 4D bulk has Z_12 orbifold structure (per L308ai):
 - The 12 orbifold sectors would create 12-fold density modulation
-- The inter-sector distance is r_12
+- The inter-sector distance is $r_{12}$
 - This is a real physical connection
 - But: requires assuming F-theory bulk with Z_12 structure (model choice)
 
@@ -3955,7 +3955,7 @@ If SIDC's 4D bulk has Z_12 orbifold structure (per L308ai):
 
 If SIDC's 2D universe death creates icosahedral structures (12 vertices):
 - The 12 vertices per cluster would create 12-fold density correlation
-- The inter-vertex distance is r_12
+- The inter-vertex distance is $r_{12}$
 - This is a real physical connection
 - But: requires assuming icosahedral geometry of 2D universe deaths (not derived)
 
@@ -3963,16 +3963,16 @@ If SIDC's 2D universe death creates icosahedral structures (12 vertices):
 
 SIDC's α = 1 + 1/√12 = 1.2887 from Schwarzian SYK with $N=12$:
 - This gives 2D universe lifetime $\tau_{\rm 2D}$ = $(E/M_{\rm Pl,2D})^{α}$ × $t_{\rm Pl}$
-- Lifetime doesn't directly give a length scale r_12
+- Lifetime doesn't directly give a length scale $r_{12}$
 - But it determines WHICH events create 2D universes (energetic threshold)
-- The spatial distribution of those events depends on r_12
+- The spatial distribution of those events depends on $r_{12}$
 - This is an INDIRECT connection via event threshold
 
 **Mechanism 4: SM Fermion Count = 12**
 
 The framework's $N=12$ = 3 gen × 4 Weyl (SM fermion count per generation):
 - This is a SM content, not a length scale
-- Doesn't directly give r_12
+- Doesn't directly give $r_{12}$
 - But it does affect the local energetic event rate (via SM physics)
 
 ### What's HONEST vs SPECULATIVE
@@ -3982,13 +3982,13 @@ The framework's $N=12$ = 3 gen × 4 Weyl (SM fermion count per generation):
 | Both have "12" in name | NOTATION | Weak (just labels) |
 | Z_12 orbifold → 12 sectors | SPECULATIVE | Requires F-theory assumption |
 | Icosahedral vertices → 12 neighbors | SPECULATIVE | Requires icosahedral structure |
-| SYK α → event threshold | INDIRECT | Real, but doesn't directly give r_12 |
+| SYK α → event threshold | INDIRECT | Real, but doesn't directly give $r_{12}$ |
 | SM count = 12 → no length | NONE | SM count is a particle count, not a length |
 
 ### What Should Be Done
 
 Option A: **Strengthen the connection** (find a real physical link)
-- Would require deriving r_12 from $N=12$ via some physical mechanism
+- Would require deriving $r_{12}$ from $N=12$ via some physical mechanism
 - This is OPEN WORK, not done yet
 
 Option B: **Acknowledge the connection is weak** (be honest)
@@ -4016,10 +4016,10 @@ This is HONEST framework methodology:
 
 ### What's Needed to Strengthen the Connection
 
-For a RIGOROUS $N=12$ → r_12 derivation:
+For a RIGOROUS $N=12$ → $r_{12}$ derivation:
 1. Choose one of the mechanisms above
-2. Show how $N=12$ specifically determines r_12
-3. Compute the predicted r_12 from framework parameters
+2. Show how $N=12$ specifically determines $r_{12}$
+3. Compute the predicted $r_{12}$ from framework parameters
 4. Compare with observational tests
 
 This is significant work, not done in this session.
@@ -4029,8 +4029,8 @@ This is significant work, not done in this session.
 **L308an remains as PROPOSED** but with explicit acknowledgment that:
 - The "12-fold" is HEURISTIC, not derived from $N=12$
 - The connection to $N=12$ is IMPLICIT, not EXPLICIT
-- The prediction is testable but the specific r_12 is unconstrained by $N=12$ alone
-- The framework would need additional structure to derive r_12 from $N=12$
+- The prediction is testable but the specific $r_{12}$ is unconstrained by $N=12$ alone
+- The framework would need additional structure to derive $r_{12}$ from $N=12$
 
 This is more honest than the original L308an which implied a stronger connection.
 
@@ -4042,22 +4042,22 @@ Re-read of L308an and L308ai to assess the actual physical mechanism linking $N=
 
 ### Status
 
-**L308ao (this section)**: Honest critique of the $N=12$ → r_12 connection.
+**L308ao (this section)**: Honest critique of the $N=12$ → $r_{12}$ connection.
 
 **Finding**: The connection is WEAK and IMPLICIT, not RIGOROUS.
 
 **Implications**:
 - L308an remains a testable prediction
-- But the specific r_12 is not derived from $N=12$
+- But the specific $r_{12}$ is not derived from $N=12$
 - The "12" is a notation, not a derivation
 - More work is needed to strengthen the connection
 
 **Updated status of L308an**:
 - [OK] Consistent with geometric DM (not particles)
 - [OK] Testable with current/near-future surveys
-- [FAIL] r_12 is NOT derived from $N=12$
+- [FAIL] $r_{12}$ is NOT derived from $N=12$
 - ⚠️ The "12-fold" is HEURISTIC, not derived
-- [WAIT] Need additional framework structure to derive r_12 from $N=12$
+- [WAIT] Need additional framework structure to derive $r_{12}$ from $N=12$
 
 
 
@@ -5155,7 +5155,7 @@ The user has now caught the framework 7 times:
 1. L308ag: $N=12$ not first-principles
 2. L308ah: α = 1.289 is partial
 3. L308ai: 10+ structural motivations
-4. L308ao: r_12 not derived from $N=12$
+4. L308ao: $r_{12}$ not derived from $N=12$
 5. L308ap: re-examination ( $N=12$ has motivations, not derivation)
 6. L308aq: c = N/24 is misleading
 7. L308ar: N is dimension-dependent
@@ -5283,7 +5283,7 @@ c-theorem is satisfied. The framework's "c = 1/2" is the IR matter central charg
 1. **L308ag**: $N=12$ not first-principles (downgraded to STRUCTURAL)
 2. **L308ah**: α = 1.289 is PARTIAL (Schwarzian valid, application POSTULATED)
 3. **L308ai**: 10+ structural motivations for $N=12$ (Z_12 orbifold strongest)
-4. **L308ao**: r_12 not derived from $N=12$ (heuristic, weak connection)
+4. **L308ao**: $r_{12}$ not derived from $N=12$ (heuristic, weak connection)
 5. **L308ap**: $N=12$ has first-principles INPUT + CONFIRMATION, not pure derivation
 6. **L308aq**: c = N/24 is MISLEADING (real physics is SYK q=4 gapping)
 7. **L308ar**: N is dimension-dependent (12 in 2D, 6 in 3D, 3 in 4D)

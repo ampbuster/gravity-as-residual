@@ -59,7 +59,7 @@
 
 ## Abstract
 
-**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< 10⁻⁵⁰ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in M_{b} but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap ($\Omega_{\rm DM}$ at z=1100) is now PARTIALLY CLOSED via $f_{\rm leak}$ = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. $\tau_{\rm DM}$ unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N× $v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak}$= H₀ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak} = H$(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_l oscillation at l_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of α=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, μ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, α first-principles). L41, L42 closed in v3.0.22 ( μ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ( 4π specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
+**EXECUTIVE SUMMARY (for hurried readers).** This paper proposes a geometric framework (SIDC) in which gravity, dark matter, and dark energy are all consequences of a dimensional projection mechanism. We are a software developer, not a physicist; this is a thought experiment, not a finished theory. SIDC is a **cone-shaped 3-level structure** (4D parent → 3+1D us → 2D children, terminal at 2D), NOT a scale-invariant infinite SIDC (1D and 0D universes are nonsensical, so SIDC terminates at 2D). SIDC IS scale-invariant in the *energy/size* sense within the 2D level (the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size, weighted by a smooth $E^{1+\alpha}$ creation function — see §2.5.3; the v2.3.0 $E_{\rm crit}$ phase-transition threshold has been replaced by this single smooth function). SIDC postulates that all dark matter is 2D universe mass, time-compressed to 3+1D via the 5D AdS₅ bulk geometry. Honest status: **16/17 test categories** (16 pass, 1 confounded) and **7/7 specific cases** pass real-data tests, with **2 components falsified** ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$ functional form, FALSIFIED in v2.2; Mechanism A Hubble, FALSIFIED in commit ~80) and **0 strongly confirmed**. The 2 falsifications were *specific functional forms* that SIDC has since replaced (SIDC-MOND hybrid for RAR; Mechanism M for Hubble tension), not SIDC's framework. SIDC's STRENGTH is local physics (RAR matches SPARC to 10% median residual, AGN host DM strongly supported at p< 10⁻⁵⁰ partial correlation, $g_+$ approximately constant at galaxy scale across 4.5 decades in M_{b} but the correlation is not statistically significant, r=+0.19, p=0.22). SIDC's WEAKNESS was CMB-era physics (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). **UPDATE (v3.5.9+ L308ab)**: The CMB gap ($\Omega_{\rm DM}$ at z=1100) is now PARTIALLY CLOSED via $f_{\rm leak}$ = H(z) — user's physical insight that 'when universe was small, pressure was higher, so more leaks back to 4d'. This drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018. $\tau_{\rm DM}$ unchanged to within 13%. See §7.4.21. (Hubble tension ACCEPTED as real tension, H₀,4D = 70.16 is a geometric-mean property but specific H₀ values are not derived, 2D-to-3+1D time compression has 54-orders-of-magnitude uncertainty, full Lagrangian requires 2D expert). SIDC documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N× $v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak}$= H₀ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak} = H$(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C$_l$ oscillation at $l_{12} = \pi \times D_A/r_{12}$ (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) (§7.0 Master Table, v3.5.9+): 79 OPEN, 22 PARTIAL, 2 RESOLVED (L142b, L149 via empirical rejection of α=1.258), 8 CLOSED, 6 NEGATIVE, 7 SPECULATIVE. The master table is the CANONICAL count; this paragraph was HISTORICALLY 67 in v3.1 and grew to 133 across v3.0-v3.5.8+ (L102-L136 added v3.0-v3.1 Lagrangian; L142-L150 added v3.1.2 multi-universe + AGE/LIFETIME/frame; L151-L322 added v3.3-v3.5.7 Tier-2 research, μ structural origins, holographic; L308f-L308v added v3.5.7+/v3.5.8 user-driven refinements, MCMC, α first-principles). L41, L42 closed in v3.0.22 ( μ and m₃₊₁D now derived); L117 closed (c-value UV/IR RG flow); L149 resolved ( 4π specificity, empirical). L9 (2D universe physics) explicitly remains open — the form of DM at 2D universe death is UNSPECIFIED. SIDC commits to a **geometric DM framework** (Option D in legacy_paper.md §3.14) by default; specific particle interpretations (WIMP, axion, sterile neutrino) are possible but stability requires discrete symmetries, not Pauli blocking. Bottom line: **consistent with current data, falsifiable, ready for theoretical physicist to complete, with self-critical methodology (see legacy_paper.md legacy_paper.md §3.16)**.
 
 ---
 
@@ -136,7 +136,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with α coupling, δ-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as α → 0.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+$ ∼ $1.2 \times 10^{-10}$, ε ∼ $6.32 \times 10^{-34}$(A2), $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N×$v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak} = H₀$ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak} = H$(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_l oscillation at l_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+$ ∼ $1.2 \times 10^{-10}$, ε ∼ $6.32 \times 10^{-34}$(A2), $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N×$v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak} = H₀$ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak} = H$(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C$_l$ oscillation at $l_{12} = \pi \times D_A/r_{12}$ (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
@@ -7357,10 +7357,10 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 
 **The tension is at $\Delta\chi^2$ = +650 for the same-density case.** This is a HARD falsification at the level of CMB peak positions, but a CONSISTENT one with Mechanism M: SIDC accepts the Hubble tension, and now we have a Boltzmann-solver-level confirmation of that acceptance.
 
-**Why H₀ = 73 fails:** The angular acoustic scale θ_* = r_s/ D_A is fixed by Planck at 0.01041. With H₀ = 73 and same $\omega_{\rm b}$, $\omega_{\rm c}$:
+**Why H₀ = 73 fails:** The angular acoustic scale $\theta_* = r_s/ D_A$ is fixed by Planck at 0.01041. With H₀ = 73 and same $\omega_{\rm b}$, $\omega_{\rm c}$:
 - rₛ stays roughly the same (slight increase: 144.4 vs 144.4 Mpc)
-- D_A decreases significantly (more rapidly expanding universe at late times)
-- θ_* = r_s/ D_A INCREASES (1.058 vs 1.041)
+- $D_A$ decreases significantly (more rapidly expanding universe at late times)
+- $\theta_* = r_s/ D_A$ INCREASES (1.058 vs 1.041)
 - Peaks shift to LOWER l (217 vs 220)
 - This CONTRADICTS Planck
 
@@ -8303,7 +8303,7 @@ The remaining difference is the H₀: SIDC gives 73, Planck gives 67.4. This 5.6
 
 The CMB angular power spectrum depends on:
 - Sound horizon at recombination ( rₛ): set by the integral of cₛ(z)/H(z) from z=∞ to z=1100
-- Angular size of the sound horizon ( θ_*): set by rₛ and D_A (angular diameter distance)
+- Angular size of the sound horizon ($\theta_*$): set by $r_s$ and $D_A$ (angular diameter distance)
 - Matter density Ωₘ: set by the total matter content
 - Baryon density $\Omega_{\rm b}$: set by primordial nucleosynthesis
 - H₀: the present-day expansion rate
@@ -11796,7 +11796,7 @@ The 30-100 $M_{\rm sun}$ range is the "valley" between MACHO constraints and IMB
 The 12-fold coordination is a **SPATIAL pattern**, not a single signal. It manifests as:
 
 1. **Angular power spectrum** (cosmic shear, CMB):
-   - Excess at specific multipole l_12 = π × D_A / r_12
+   - Excess at specific multipole $l_{12} = \pi \times D_A / r_{12}$
    - Distinct from smooth ΛCDM
 
 2. **Substructure clustering**:
@@ -11975,8 +11975,8 @@ If SIDC's geometric DM comes from cumulative 2D universe deaths, and these death
 **Geometric 12-fold prediction**:
 - DM density has 12-fold statistical correlations
 - This is a CORRELATION function, not discrete clusters
-- Detectable as: angular power spectrum C_l at l_12 = π × D_A / r_12
-- Where r_12 is the 12-fold correlation length
+- Detectable as: angular power spectrum $C_l$ at $l_{12} = \pi \times D_A / r_{12}$
+- Where $r_{12}$ is the 12-fold correlation length
 
 **This is a different prediction from L308aj**:
 - L308aj: discrete point-like clusters (inconsistent with geometric DM)
@@ -12013,7 +12013,7 @@ After L308am:
 The new test would be:
 1. Measure galaxy-galaxy lensing correlation functions
 2. Look for 12-fold specific angular dependence
-3. Test for specific multipole l_12 in the power spectrum
+3. Test for specific multipole $l_{12}$ in the power spectrum
 4. Compare with ΛCDM (no specific 12-fold) vs SIDC (12-fold prediction)
 
 This is a more subtle test than the old one, but it's **consistent with geometric DM**.
@@ -12114,7 +12114,7 @@ If SIDC's $N=12$ is structural, the DM density field might show **12-fold statis
 
 **The prediction**:
 
-DM density two-point correlation function has a SPECIFIC PEAK at distance r_12, where:
+DM density two-point correlation function has a SPECIFIC PEAK at distance $r_{12}$, where:
 $$r_{12} = \text{typical inter-event distance for 2D universe creation}$$
 
 This is not a delta function (like 130 $M_{\rm sun}$ point clusters), but a PREFERRED CORRELATION LENGTH.
@@ -12128,12 +12128,12 @@ where A_12 is the amplitude of the 12-fold correlation.
 
 **1. Angular power spectrum of weak lensing (cosmic shear)**:
 - Standard: C_l ∝ lⁿ (smooth)
-- SIDC: C_l has specific peak at l_12 = π × D_A / r_12
+- SIDC: $C_l$ has specific peak at $l_{12} = \pi \times D_A / r_{12}$
 - Test: KiDS, DES, Subaru HSC, Roman, LSST
 
 **2. Two-point correlation function of galaxies**:
 - Standard: ξ(r) ~ r^(-1.8) (power law)
-- SIDC: ξ(r) has bump at r_12
+- SIDC: ξ(r) has bump at $r_{12}$
 - Test: SDSS, BOSS, DESI, 4MOST, Euclid
 
 **3. Three-point correlation (bispectrum)**:
@@ -12142,7 +12142,7 @@ where A_12 is the amplitude of the 12-fold correlation.
 - Test: high-precision galaxy surveys
 
 **4. Velocity correlation function**:
-- DM velocity correlations at r_12
+- DM velocity correlations at $r_{12}$
 - Test: stellar stream kinematics, Gaia
 
 ### What Stays From L308aj
@@ -12165,22 +12165,22 @@ L308am was honest: the 12-fold MACHO prediction was inconsistent with geometric 
 
 **New (L308an, PROPOSED)**:
 - Smooth DM density field
-- 12-fold STATISTICAL correlation at r_12
-- Detectable as specific l_12 in angular power spectrum
+- 12-fold STATISTICAL correlation at $r_{12}$
+- Detectable as specific $l_{12}$ in angular power spectrum
 
-### The r_12 Length Scale
+### The $r_{12}$ Length Scale
 
-What would r_12 be in SIDC?
+What would $r_{12}$ be in SIDC?
 
 The framework's 2D universe deaths happen at the locations of energetic events (SN, AGN). These are concentrated in:
 - Galactic centers
 - Star-forming regions
 - AGN-hosting galaxies
 
-The inter-event distance r_12 depends on the density of energetic events:
-- In galactic centers: r_12 ~ pc
-- In disks: r_12 ~ kpc
-- In halos: r_12 ~ 10 kpc
+The inter-event distance $r_{12}$ depends on the density of energetic events:
+- In galactic centers: $r_{12}$ ~ pc
+- In disks: $r_{12}$ ~ kpc
+- In halos: $r_{12}$ ~ 10 kpc
 
 For SIDC's geometric DM:
 - DM density should correlate with 2D universe death rate
@@ -12188,9 +12188,9 @@ For SIDC's geometric DM:
 - Star formation has specific spatial patterns
 
 The 12-fold correlation in DM density would manifest at:
-- Cluster scale: r_12 ~ Mpc (between galaxies)
-- Group scale: r_12 ~ 100 kpc (within groups)
-- Galaxy scale: r_12 ~ 10 kpc (within galaxies)
+- Cluster scale: $r_{12}$ ~ Mpc (between galaxies)
+- Group scale: $r_{12}$ ~ 100 kpc (within groups)
+- Galaxy scale: $r_{12}$ ~ 10 kpc (within galaxies)
 
 ### Connection to PDS (Why 12 Specifically?)
 
@@ -12225,20 +12225,20 @@ This is a SPECIFIC prediction, distinct from:
 ### What's Required to Test
 
 For a specific test:
-1. **Choose r_12**: estimate from SIDC parameters (energetic event density)
+1. **Choose $r_{12}$**: estimate from SIDC parameters (energetic event density)
 2. **Predict C_l peak**: compute expected angular power spectrum
-3. **Compare with data**: look for specific peak at l_12
+3. **Compare with data**: look for specific peak at $l_{12}$
 4. **Quantify significance**: how strong is the signal?
 
 The framework's $M_{\rm 2D}$ and $E_{\rm 2D}$ give:
 - 2D universe death rate per galaxy: ~ 10⁻² /yr
 - Inter-event distance in MW: ~kpc
-- Expected r_12 for DM correlation: ~kpc to ~10 kpc
+- Expected $r_{12}$ for DM correlation: ~kpc to ~10 kpc
 
-This gives l_12 = π × D_A / r_12:
+This gives $l_{12} = \pi \times D_A / r_{12}$:
 - D_A ~ 1 Gpc for nearby galaxies
-- r_12 ~ kpc
-- l_12 ~ 10⁶ (very high multipole, hard to measure)
+- $r_{12}$ ~ kpc
+- $l_{12}$ ~ 10⁶ (very high multipole, hard to measure)
 
 This is a SUBTLE signal at high multipoles.
 
@@ -12279,15 +12279,15 @@ Key references found:
 
 **Result**: New, consistent prediction. SIDC's 12-fold applies to DENSITY CORRELATIONS, not discrete clusters.
 
-**Observable**: Specific peak in angular power spectrum at l_12 = π × D_A / r_12
+**Observable**: Specific peak in angular power spectrum at $l_{12} = \pi \times D_A / r_{12}$
 
 **Implication**: The 12-fold structural choice now has a testable consequence that doesn't require point-particle DM.
 
 **Updated testable predictions**:
 - [FAIL] MACHO microlensing (withdrawn, L308am)
-- [OK] Angular power spectrum peak at l_12
-- [OK] 2-point correlation function bump at r_12
-- [OK] Velocity correlation at r_12
+- [OK] Angular power spectrum peak at $l_{12}$
+- [OK] 2-point correlation function bump at $r_{12}$
+- [OK] Velocity correlation at $r_{12}$
 
 
 
@@ -12307,34 +12307,34 @@ This is a critical question. Let me be honest.
 ### What L308an Claims
 
 L308an proposes:
-- Two-point correlation function: ξ(r) = ξ_ΛCDM(r) + A_12 × δ(r - r_12)
-- Angular power spectrum oscillation at l_12 = π × D_A / r_12
-- "12" appears as a SUBSCRIPT on r_12 and l_12
+- Two-point correlation function: ξ(r) = ξ_ΛCDM(r) + A_12 × δ(r - $r_{12}$)
+- Angular power spectrum oscillation at $l_{12} = \pi \times D_A / r_{12}$
+- "12" appears as a SUBSCRIPT on $r_{12}$ and $l_{12}$
 
 The "12" implies this is a 12-fold coordination signature, related to SIDC's structural $N=12$.
 
 ### The Honest Answer: The Connection is WEAK
 
-**What L308an actually says about r_12**:
-> "r_12 is the typical inter-event distance for 2D universe creation"
+**What L308an actually says about $r_{12}$**:
+> "$r_{12}$ is the typical inter-event distance for 2D universe creation"
 > "SIDC's 2D universes are created at SN, AGN, GRB events"
-> "r_12_disk = 5 kpc, r_12_halo = 50 kpc, r_12_cluster = 1 Mpc"
+> "$r_{\rm 12,disk}$ = 5 kpc, $r_{\rm 12,halo}$ = 50 kpc, $r_{\rm 12,cluster}$ = 1 Mpc"
 
 **What this actually means**:
-- r_12 is determined by the spatial distribution of energetic events
+- $r_{12}$ is determined by the spatial distribution of energetic events
 - This is set by ASTROPHYSICS of star formation and AGN
 - It is NOT directly determined by $N=12$ (the cascade's Majorana count)
-- The "12" in r_12 is a NOTATION, not a physical derivation from $N=12$
+- The "12" in $r_{12}$ is a NOTATION, not a physical derivation from $N=12$
 
-### The $N=12$ → r_12 Connection: Where It Could Come From
+### The $N=12$ → $r_{12}$ Connection: Where It Could Come From
 
-For the connection to be RIGOROUS, $N=12$ must determine r_12 via some physical mechanism. Possible mechanisms:
+For the connection to be RIGOROUS, $N=12$ must determine $r_{12}$ via some physical mechanism. Possible mechanisms:
 
 **Mechanism 1: Z_12 Orbifold → 12 Sectors**
 
 If SIDC's 4D bulk has Z_12 orbifold structure (per L308ai):
 - The 12 orbifold sectors would create 12-fold density modulation
-- The inter-sector distance is r_12
+- The inter-sector distance is $r_{12}$
 - This is a real physical connection
 - But: requires assuming F-theory bulk with Z_12 structure (model choice)
 
@@ -12342,7 +12342,7 @@ If SIDC's 4D bulk has Z_12 orbifold structure (per L308ai):
 
 If SIDC's 2D universe death creates icosahedral structures (12 vertices):
 - The 12 vertices per cluster would create 12-fold density correlation
-- The inter-vertex distance is r_12
+- The inter-vertex distance is $r_{12}$
 - This is a real physical connection
 - But: requires assuming icosahedral geometry of 2D universe deaths (not derived)
 
@@ -12350,16 +12350,16 @@ If SIDC's 2D universe death creates icosahedral structures (12 vertices):
 
 SIDC's α = 1 + 1/√12 = 1.2887 from Schwarzian SYK with $N=12$:
 - This gives 2D universe lifetime $\tau_{\rm 2D}$ = $(E/M_{\rm Pl,2D})^{α}$ × $t_{\rm Pl}$
-- Lifetime doesn't directly give a length scale r_12
+- Lifetime doesn't directly give a length scale $r_{12}$
 - But it determines WHICH events create 2D universes (energetic threshold)
-- The spatial distribution of those events depends on r_12
+- The spatial distribution of those events depends on $r_{12}$
 - This is an INDIRECT connection via event threshold
 
 **Mechanism 4: SM Fermion Count = 12**
 
 The framework's $N=12$ = 3 gen × 4 Weyl (SM fermion count per generation):
 - This is a SM content, not a length scale
-- Doesn't directly give r_12
+- Doesn't directly give $r_{12}$
 - But it does affect the local energetic event rate (via SM physics)
 
 ### What's HONEST vs SPECULATIVE
@@ -12369,13 +12369,13 @@ The framework's $N=12$ = 3 gen × 4 Weyl (SM fermion count per generation):
 | Both have "12" in name | NOTATION | Weak (just labels) |
 | Z_12 orbifold → 12 sectors | SPECULATIVE | Requires F-theory assumption |
 | Icosahedral vertices → 12 neighbors | SPECULATIVE | Requires icosahedral structure |
-| SYK α → event threshold | INDIRECT | Real, but doesn't directly give r_12 |
+| SYK α → event threshold | INDIRECT | Real, but doesn't directly give $r_{12}$ |
 | SM count = 12 → no length | NONE | SM count is a particle count, not a length |
 
 ### What Should Be Done
 
 Option A: **Strengthen the connection** (find a real physical link)
-- Would require deriving r_12 from $N=12$ via some physical mechanism
+- Would require deriving $r_{12}$ from $N=12$ via some physical mechanism
 - This is OPEN WORK, not done yet
 
 Option B: **Acknowledge the connection is weak** (be honest)
@@ -12403,10 +12403,10 @@ This is HONEST framework methodology:
 
 ### What's Needed to Strengthen the Connection
 
-For a RIGOROUS $N=12$ → r_12 derivation:
+For a RIGOROUS $N=12$ → $r_{12}$ derivation:
 1. Choose one of the mechanisms above
-2. Show how $N=12$ specifically determines r_12
-3. Compute the predicted r_12 from framework parameters
+2. Show how $N=12$ specifically determines $r_{12}$
+3. Compute the predicted $r_{12}$ from framework parameters
 4. Compare with observational tests
 
 This is significant work, not done in this session.
@@ -12416,8 +12416,8 @@ This is significant work, not done in this session.
 **L308an remains as PROPOSED** but with explicit acknowledgment that:
 - The "12-fold" is HEURISTIC, not derived from $N=12$
 - The connection to $N=12$ is IMPLICIT, not EXPLICIT
-- The prediction is testable but the specific r_12 is unconstrained by $N=12$ alone
-- The framework would need additional structure to derive r_12 from $N=12$
+- The prediction is testable but the specific $r_{12}$ is unconstrained by $N=12$ alone
+- The framework would need additional structure to derive $r_{12}$ from $N=12$
 
 This is more honest than the original L308an which implied a stronger connection.
 
@@ -12429,22 +12429,22 @@ Re-read of L308an and L308ai to assess the actual physical mechanism linking $N=
 
 ### Status
 
-**L308ao (this section)**: Honest critique of the $N=12$ → r_12 connection.
+**L308ao (this section)**: Honest critique of the $N=12$ → $r_{12}$ connection.
 
 **Finding**: The connection is WEAK and IMPLICIT, not RIGOROUS.
 
 **Implications**:
 - L308an remains a testable prediction
-- But the specific r_12 is not derived from $N=12$
+- But the specific $r_{12}$ is not derived from $N=12$
 - The "12" is a notation, not a derivation
 - More work is needed to strengthen the connection
 
 **Updated status of L308an**:
 - [OK] Consistent with geometric DM (not particles)
 - [OK] Testable with current/near-future surveys
-- [FAIL] r_12 is NOT derived from $N=12$
+- [FAIL] $r_{12}$ is NOT derived from $N=12$
 - ⚠️ The "12-fold" is HEURISTIC, not derived
-- [WAIT] Need additional framework structure to derive r_12 from $N=12$
+- [WAIT] Need additional framework structure to derive $r_{12}$ from $N=12$
 
 
 
@@ -13542,7 +13542,7 @@ The user has now caught the framework 7 times:
 1. L308ag: $N=12$ not first-principles
 2. L308ah: α = 1.289 is partial
 3. L308ai: 10+ structural motivations
-4. L308ao: r_12 not derived from $N=12$
+4. L308ao: $r_{12}$ not derived from $N=12$
 5. L308ap: re-examination ( $N=12$ has motivations, not derivation)
 6. L308aq: c = N/24 is misleading
 7. L308ar: N is dimension-dependent
@@ -13670,7 +13670,7 @@ c-theorem is satisfied. The framework's "c = 1/2" is the IR matter central charg
 1. **L308ag**: $N=12$ not first-principles (downgraded to STRUCTURAL)
 2. **L308ah**: α = 1.289 is PARTIAL (Schwarzian valid, application POSTULATED)
 3. **L308ai**: 10+ structural motivations for $N=12$ (Z_12 orbifold strongest)
-4. **L308ao**: r_12 not derived from $N=12$ (heuristic, weak connection)
+4. **L308ao**: $r_{12}$ not derived from $N=12$ (heuristic, weak connection)
 5. **L308ap**: $N=12$ has first-principles INPUT + CONFIRMATION, not pure derivation
 6. **L308aq**: c = N/24 is MISLEADING (real physics is SYK q=4 gapping)
 7. **L308ar**: N is dimension-dependent (12 in 2D, 6 in 3D, 3 in 4D)
