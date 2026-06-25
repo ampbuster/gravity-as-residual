@@ -62,12 +62,12 @@ SIDC's prediction across these scales (see `calculations/rar_across_scales_v2.py
 
 ```
 Object              M_DM ($M_\odot$)   R (kpc)    g_+ SIDC       g_+ obs           ratio
-Dwarf (EDGE 2025)   1 × 10⁹            5          9.3 × 10⁻¹³           1.5 × 10⁻¹⁰ *         0.006
-Small spiral        1 × 10¹⁰           10         2.3 × 10⁻¹²           1.2 × 10⁻¹⁰           0.02
-Milky Way           1 × 10¹²           30         2.6 × 10⁻¹¹           1.2 × 10⁻¹⁰           0.22
-Large spiral        5 × 10¹²           50         4.7 × 10⁻¹¹           1.2 × 10⁻¹⁰           0.39
-Cluster (Tian 2024) 1 × 10¹⁴           500        9.3 × 10⁻¹²           1.7 × 10⁻⁹            0.005
-Supercluster        1 × 10¹⁵           3000       2.6 × 10⁻¹²           ~1.7 × 10⁻⁹ (extrap.) 0.0015
+Dwarf (EDGE 2025)   $1 \times 10^{9}$            $5$          $9.3 \times 10^{-13}$           $1.5 \times 10^{-10} *$         $0.006$
+Small spiral        $1 \times 10^{10}$           $10$         $2.3 \times 10^{-12}$           $1.2 \times 10^{-10}$           $0.02$
+Milky Way           $1 \times 10^{12}$           $30$         $2.6 \times 10^{-11}$           $1.2 \times 10^{-10}$           $0.22$
+Large spiral        $5 \times 10^{12}$           $50$         $4.7 \times 10^{-11}$           $1.2 \times 10^{-10}$           $0.39$
+Cluster (Tian 2024) $1 \times 10^{14}$           $500$        $9.3 \times 10^{-12}$           $1.7 \times 10^{-9}$            $0.005$
+Supercluster        $1 \times 10^{15}$           $3000$       $2.6 \times 10^{-12}$           $\sim 1.7 \times 10^{-9}$ (extrap.) $0.0015$
 ```
 
 *Note: The EDGE 2025 dwarf* $g_+$ *is the McGaugh+ 2016 RAR value* *increased* by the EDGE finding (low-mass dwarfs lie systematically *above* the McGaugh RAR, by ~25%). SIDC's $g_+$ at all scales is *systematically too small* (ratios 0.005 to 0.39) — this is the $M_{\rm DM}$ / $R_{\rm halo}^2$ dependence SIDC predicts, but the *observed* $g_+$ is approximately universal. This is a *TENSION*: SIDC's $g_+$ formula $g_+ = (3/4) \cdot G \cdot f_cum \cdot M_{\rm DM} / (\pi R_{\rm halo}^2)$ gives the right *shape* ($M_{\rm DM}$/$R_{\rm halo}^2$ scaling) but wrong *normalization* (off by $2.5\text{--}200\times$). A specific implementation of SIDC would need to either (a) calibrate the formula's prefactor (currently $0.75 \cdot f_{\rm cum} = 0.525$) up by $2.5\text{--}200\times$, or (b) re-derive the formula from first principles (Limitation 26).

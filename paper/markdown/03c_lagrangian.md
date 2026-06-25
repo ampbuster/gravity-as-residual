@@ -1503,8 +1503,8 @@ The original §3.67 Lagrangian is REVISED as follows:
 S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
        with M_Pl,4 = 3.93×$10^{23}\,\text{GeV}$ (SIDC's α-GM, L308v)
        and   $E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub} = 386 \times 1.295 \times 10^{77}\,\text{J} = 5.0 \times 10^{79}\,\text{J}$ (STRUCTURAL, E_sub is per-sub-universe energy)
-       and   γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D × t_Pl,3D = 1.10×10¹¹¹ (uses PARENT's Planck per L308t fix)
-       and   $\tau_{\rm 4D} = 1.51×10³⁴ yr ($apparent 3+1D lifetime, calibrated)
+       and   γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D × t_Pl,3D = $1.10 \times 10^{111}$ (uses PARENT's Planck per L308t fix)
+       and   $\tau_{\rm 4D} = 1.51 \times 10^{34}\,\text{yr}$ (apparent 3+1D lifetime, calibrated)
 ```
 
 ** $S_{\rm 3+1D}$,brane (REVISED, with f×ε invariant)**:
@@ -2048,15 +2048,15 @@ All three N values derive from Clifford algebra structure, NOT from observations
 Every numerical prediction in the A2 framework uses the SAME formula chain:
 
 ```
-$f \times \varepsilon$ = 1.13×10⁻¹²³ invariant preserved (across all formulas)
+$f \times \varepsilon = 1.13 \times 10^{-123}$ invariant preserved (across all formulas)
 
 ρ_DE = $f \times \varepsilon$ × M_Pl,3D⁴ = 2.5×$10^{-47}\,\text{GeV}$⁴ ✓ EXACT match to observation
 
 M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×$10^{23}\,\text{GeV}$ ✓ (-1.13% from α-GM formula)
 
-γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D = 1.10×10¹¹¹ ✓ EXACT (uses PARENT's Planck per L308t)
+γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D = $1.10 \times 10^{111}$ ✓ EXACT (uses PARENT's Planck per L308t)
 
-τ_3D,apparent = γ_4D × $\tau_{\rm 4D} = 1.66×10¹⁴⁵ yr$✓ (apparent 3+1D lifetime of 4D event)
+τ_3D,apparent = γ_4D × $\tau_{\rm 4D} = 1.66 \times 10^{145}\,\text{yr}$✓ (apparent 3+1D lifetime of 4D event)
 ```
 
 #### 3.72.4 What the Lagrangian Closes (L308ba-bj, bi)
