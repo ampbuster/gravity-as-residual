@@ -1529,7 +1529,7 @@ S_2D,universe = S_Liouville + S_Ising + S_SYK + S_FZZT + S_bilateral
     S_bdy = (1/4π) ∫ [K + μ_B] ds                 ← FZZT brane
     S_bilateral = ∫ [δ(τ - τ_2D) × E_2D           ← DM DEATH PULSE (100% return)
                    - f_leak,2D→3D × Θ(τ_2D - τ)]   ← DM drain (natural, ~10⁻⁴⁵, DROPPED)
-       with τ_2D = $(E/M_{\rm Pl,parent})^{\alpha}$_2D × t_Pl,parent  ← α_2D = 1.289
+       with τ_2D = $(E/M_{\rm Pl,parent})^{\alpha}$_2D × t_Pl,parent  ← $\alpha_{\rm 2D} = 1.289$
        with $f_{\rm leak,2D\to 3D} = t_{\rm Pl,3}/\tau_{\rm 2D} \approx 1.6 \times 10^{-45}$ (NATURAL, negligible vs death pulse)
 ```
 
@@ -1742,7 +1742,7 @@ A more detailed proposal (still speculative):
 ```
 S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + N_4D × L_4D_field]
        with M_Pl,4 = 3.93e23 GeV (α-GM, L308v)
-       with α_4D = 1.577 (L308ba halving rule)
+       with $\alpha_{\rm 4D} = 1.577$ (L308ba halving rule)
        with N_4D = 3 (L308ba inferred: 3 generations OR 3 color)
        with L_4D_field = ½(∂Φ)² + V(Φ)  (canonical scalar field)
 ```
@@ -2023,7 +2023,7 @@ The Lagrangian rests on three pillars:
 **Pillar 1: α Dim-Specific (L308ba)**
 ```
 α_D = 1 + 1/√N_D with N_D = 12/2^(D-2)
-α_2D = 1.289, α_3+1D = 1.408, α_4D = 1.577
+$\alpha_{\rm 2D} = 1.289$, $\alpha_{\rm 3+1D} = 1.408$, $\alpha_{\rm 4D} = 1.577$
 ```
 The halving rule: divide N by 2 for each dimension up. Matches all three α values to <0.01%. First-principles via Bott periodicity + Clifford algebra structure.
 

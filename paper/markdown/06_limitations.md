@@ -6302,7 +6302,7 @@ A more detailed proposal (still speculative):
 ```
 S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + N_4D × L_4D_field]
        with M_Pl,4 = 3.93e23 GeV (α-GM, L308v)
-       with α_4D = 1.577 (L308ba halving rule)
+       with $\alpha_{\rm 4D} = 1.577$ (L308ba halving rule)
        with N_4D = 3 (L308ba inferred: 3 generations OR 3 color)
        with L_4D_field = ½(∂Φ)² + V(Φ)  (canonical scalar field)
 ```
