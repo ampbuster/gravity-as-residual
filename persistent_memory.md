@@ -427,7 +427,7 @@ $$f_{\rm back}(N \to N-1) = \left(\frac{M_{\rm Pl,N}}{E_{\rm event}}\right)^\alp
 - The M^α law is the SAME formula at every level
 
 **DE matching (3D→4D):**
-- DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ = $1.2 \times 10^{-85}$× 10⁻³⁸ × ($1.22 \times 10^{19}$)⁴ GeV⁴
+- DE = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$ = $1.2 \times 10^{-85}$× 10⁻³⁸ × ($1.22 \times 10^{19}$)⁴ \,\text{GeV}^4
 - Observed: $2.4 \times 10^{-47}\,\text{GeV}$⁴ (within 14%)
 
 **Frame-of-reference clarification (v3.1.2-final):**

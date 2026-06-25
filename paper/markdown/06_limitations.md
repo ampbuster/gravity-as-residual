@@ -300,7 +300,7 @@ The data does not currently distinguish (a) from (b): both give the same 7/7 spe
 - The synthetic tests (commits 128, 138-148) were self-deceptive: I was generating synthetic galaxies with a specific RAR functional form, then fitting with my model — of course it worked
 - Real SPARC data follows a different shape than SIDC's $g₊{\rm cum}$ + $g₊{\rm active}$ model can match
 
-**BUT** SIDC's *framework* is MOND-compatible: MOND's interpolation function $g₊{\rm obs} = g₊{\rm bar} / (1 - \exp(-\sqrt{g_+{\rm bar}/g_+}))$ fits the real data to 10% median residual on 149 SPARC galaxies (commit 153, `calculations/sparc_joint_fit.py`). The empirical $g_+$ ∼ 1.0-$1.2 \times 10^{-10}\,\text{m}$/s² is universal across the population (0.42 dex scatter, consistent with M/L noise). SIDC's 4D event physics could explain *why* g₊ is universal (from cumulative 2D universe gravity), even though SIDC's *specific $g₊{\rm obs}$ formula* is wrong.
+**BUT** SIDC's *framework* is MOND-compatible: MOND's interpolation function $g₊{\rm obs} = g₊{\rm bar} / (1 - \exp(-\sqrt{g_+{\rm bar}/g_+}))$ fits the real data to 10% median residual on 149 SPARC galaxies (commit 153, `calculations/sparc_joint_fit.py`). The empirical $g_+$ ∼ 1.0-$1.2 \times 10^{-10}\,\text{m/s}^2$ is universal across the population (0.42 dex scatter, consistent with M/L noise). SIDC's 4D event physics could explain *why* g₊ is universal (from cumulative 2D universe gravity), even though SIDC's *specific $g₊{\rm obs}$ formula* is wrong.
 
 **The SIDC-MOND hybrid (see §4.1 new subsection):** SIDC's framework + MOND's functional form. SIDC provides the geometric origin of g₊ (why it's universal at galaxy scales); MOND provides the $g₊{\rm obs}$( $g₊{\rm bar}$) interpolation (how $g_+{\rm obs}$ depends on $g_+{\rm bar}$). This is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.
 
@@ -363,7 +363,7 @@ A full Lagrangian consistent with all 10 constraints would be a SPECIFIC IMPLEME
 
 27. **NEW: SIDC's $g₊{\rm obs}$ functional form is MOND-compatible but not SIDC's own prediction (v2.2.1).** Real SPARC data (commit 153) shows that SIDC's g₊{obs} = g₊{bar} + $g_+${cum} + $g_+${active} decomposition is **falsified** (70% median residual on 149 galaxies), while MOND's interpolation $g₊{\rm obs} = g₊{\rm bar} / (1 - \exp(-\sqrt{g_+{\rm bar}/g_+}))$ fits to 10% median residual (with free g₊ and M/L). SIDC's *framework* can explain *why* g₊ is universal at galaxy scales (from cumulative 2D universe gravity), but SIDC does *not* derive MOND's specific interpolation function. The honest position: SIDC's RAR is *MOND-compatible*, not independent. A specific implementation would need to derive the MOND interpolation from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture.
 
-28. **NEW: Galaxy-vs-Cluster Scale Acceleration Divergence (PARTIALLY CLOSED, v2.3.0, commit 167).** The SIDC-MOND hybrid successfully accounts for the *empirical milestone* that g₊ is universal at g₊ ≈ $1.2 \times 10^{-10}\,\text{m}$/s² in *isolated* galaxy disks (SPARC) but g₊ ≈ $1.3 \times 10^{-9}\,\text{m}$/s² in *BCG-dominated cluster cores* (Tian+ 2024 BCGs: g₊ ≈ $1.7 \times 10^{-9}\,\text{m}$/s²). SIDC's explanation, derived from the new $V_{local}$ normalization in §4.17, follows from the geometry of a BCG sitting at the absolute focal point of a cluster's deep potential well: the BCG experiences the cumulative back-projection of not just its own stellar history but the *entire cluster's* shock-heated ICM sediment constantly falling inward. The cluster environment shifts the underlying thermodynamic processing scale upward, which naturally drives the back-projected metric acceleration scale up.
+28. **NEW: Galaxy-vs-Cluster Scale Acceleration Divergence (PARTIALLY CLOSED, v2.3.0, commit 167).** The SIDC-MOND hybrid successfully accounts for the *empirical milestone* that g₊ is universal at g₊ ≈ $1.2 \times 10^{-10}\,\text{m/s}^2$ in *isolated* galaxy disks (SPARC) but g₊ ≈ $1.3 \times 10^{-9}\,\text{m/s}^2$ in *BCG-dominated cluster cores* (Tian+ 2024 BCGs: g₊ ≈ $1.7 \times 10^{-9}\,\text{m/s}^2$). SIDC's explanation, derived from the new $V_{local}$ normalization in §4.17, follows from the geometry of a BCG sitting at the absolute focal point of a cluster's deep potential well: the BCG experiences the cumulative back-projection of not just its own stellar history but the *entire cluster's* shock-heated ICM sediment constantly falling inward. The cluster environment shifts the underlying thermodynamic processing scale upward, which naturally drives the back-projected metric acceleration scale up.
 
 *First-principles formula* (per Gemini's correction, replacing the old $g₊ \propto M_{DM}/R_{halo}^2$ which predicted the wrong direction):
 
@@ -437,7 +437,7 @@ SIDC's action in §2.5.1 (with its CTP extension in §2.5.2) provides the **boun
 SIDC is *unusually well-positioned* for theorists to contribute because:
 
 - The action structure is **fixed** (§2.5.1, §2.5.2). Theorists don't need to design the framework; they need to fill in the free parameters.
-- The empirical targets are **sharp**. SIDC's g₊ at galaxies ( $1.2 \times 10^{-10}\,\text{m}$/s²) and at cluster BCGs ( $1.7 \times 10^{-9}\,\text{m}$/s²) are well-measured. The MOND EFE scaling g₊ ∝ σ^1.85 (Tian+ 2024) is a clean test.
+- The empirical targets are **sharp**. SIDC's g₊ at galaxies ( $1.2 \times 10^{-10}\,\text{m/s}^2$) and at cluster BCGs ( $1.7 \times 10^{-9}\,\text{m/s}^2$) are well-measured. The MOND EFE scaling g₊ ∝ σ^1.85 (Tian+ 2024) is a clean test.
 - The failure modes are **documented**. The 4D graph theory attempt at deriving 5/27/68 FAILED (commit 173). The 8 approaches are documented in `calculations/five_27_68_graph_theory.py`. A theorist can either succeed where these failed, or build on the failures to constrain the 4D event's specific physics.
 - The phenomenological pipeline is **ready**. SPARC (175 galaxies), Tian+ 2024 (50 BCGs), and Pantheon+ (1701 SNe) are all analyzed. New theoretical predictions can be tested against these datasets immediately.
 
@@ -8484,8 +8484,8 @@ m DE,closed}$ × ε × $M_{\rm Pl,3D}$⁴ | $2.5 \times 10^{-47}$| $2.5 \times 1
 |---|---|---|---|
 | Padmanabhan (2015) | §3.8.2 | DM as missing bulk entanglement | ✓ Correct |
 | Stoica (2018) | §7.4.52 (L308bh) | C(6) IS SM algebra | ✓ Correct |
-| McGaugh+ (2016) | 04_predictions | g₊ = $1.2 \times 10^{-10}\,\text{m}$/s² | ✓ Correct |
-| Tian+ (2024) | multiple | g₊ ~ $1.7 \times 10^{-9}\,\text{m}$/s² at BCGs | ⚠️ "17×" vs "14×" (FLAGGED) |
+| McGaugh+ (2016) | 04_predictions | g₊ = $1.2 \times 10^{-10}\,\text{m/s}^2$ | ✓ Correct |
+| Tian+ (2024) | multiple | g₊ ~ $1.7 \times 10^{-9}\,\text{m/s}^2$ at BCGs | ⚠️ "17×" vs "14×" (FLAGGED) |
 | Jacobson (1995) | §3.8 | Thermodynamics of spacetime | ✓ Correct |
 | Takayanagi (2006) | §3.8 | RT formula for entanglement | ✓ Correct |
 | Witten (1996) | §3.8.1 | Horava-Witten heterotic string | ✓ Correct |

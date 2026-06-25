@@ -673,7 +673,7 @@ The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-g
 **Numerical verification** (our universe, N=4D, N-1=3+1D, A2 with $\alpha_{4D}$ = 1.577):
 - The anti-gravity formula $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{α}$ × ε × $M_{\rm Pl,3D}^4$ / $\gamma_{\rm 4D}$ requires SAME α in both
 - With $\alpha_{4D}$ = 1.577: $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1.577}$ / $\gamma_{\rm 4D}$ = $(M_{\rm Pl,4D}/E_{\rm 4D})^{1.577}$ = 1.17e-104
-- $\rho_{\rm DE}$ = 1.17e-104 × 6.32e-34 × (1.22e19)^4 = 1.63e-61 GeV⁴ (NOT 2.5e-47 with ε=6.32e-34)
+- $\rho_{\rm DE}$ = 1.17e-104 × 6.32e-34 × (1.22e19)^4 = 1.63e-61 \,\text{GeV}^4 (NOT 2.5e-47 with ε=6.32e-34)
 - 
 - This shows: the anti-gravity formula has TWO α values in A2 ($\alpha_{2D}$ for $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$, $\alpha_{4D}$ for $\gamma_{\rm 4D}$)
 - They DON'T cancel cleanly, so the formula gives wrong result

@@ -34,7 +34,7 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 ### 9.2 SIDC vs MOND (Modified Newtonian Dynamics)
 
-**MOND's strength and weakness.** MOND elegantly eliminates the need for dark matter in individual spiral galaxies by modifying Newton's law of gravity at a universal acceleration floor ( a₀ ∼ $1.2 \times 10^{-10}\,\text{m}$/s²). It works beautifully for isolated spiral galaxies (the SPARC dataset, 175 galaxies). But it fails fundamentally in massive galaxy clusters: the observed acceleration scale in cluster cores is an order of magnitude higher ( ∼ 10⁻⁹ m/s², Tian+ 2024), forcing MOND proponents to awkwardly introduce unseen baryonic gas or hypothetical sterile neutrinos to make the math work.
+**MOND's strength and weakness.** MOND elegantly eliminates the need for dark matter in individual spiral galaxies by modifying Newton's law of gravity at a universal acceleration floor ( a₀ ∼ $1.2 \times 10^{-10}\,\text{m/s}^2$). It works beautifully for isolated spiral galaxies (the SPARC dataset, 175 galaxies). But it fails fundamentally in massive galaxy clusters: the observed acceleration scale in cluster cores is an order of magnitude higher ( ∼ 10⁻⁹ m/s², Tian+ 2024), forcing MOND proponents to awkwardly introduce unseen baryonic gas or hypothetical sterile neutrinos to make the math work.
 
 **SIDC's hybrid advantage.** SIDC behaves like MOND in quiet, low-density spiral arms because the 2D universe projection establishes a non-linear acceleration floor. However, because the model tracks integrated historical energetic events, massive galaxy clusters — which are filled with violent, space-time-compressing plasma shocks — consistently blow past the $E_{crit}$ phase-transition threshold across massive spatial volumes. This naturally scales the apparent acceleration up to match the Tian+ 2024 cluster data, seamlessly bridging the gap that leaves MOND stranded.
 
@@ -42,8 +42,8 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 | System | Empirical g₊ | MOND | SIDC | Best |
 |--------|------------------|------|------|------|
-| Isolated spiral (SPARC) | $1.2 \times 10^{-10}\,\text{m}$/s² | **[PASS]** | **[PASS]** | Tie |
-| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}\,\text{m}$/s² | **[FAIL]** | **[PASS]** | SIDC |
+| Isolated spiral (SPARC) | $1.2 \times 10^{-10}\,\text{m/s}^2$ | **[PASS]** | **[PASS]** | Tie |
+| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}\,\text{m/s}^2$ | **[FAIL]** | **[PASS]** | SIDC |
 | Dwarf galaxy | Variable | Fail (low SB) | **[PASS]** (via $E_{crit}$) | SIDC |
 
 SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling baked in as a consequence of the phase-transition principle.

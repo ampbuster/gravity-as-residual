@@ -3330,7 +3330,7 @@ are kept as honest research artifacts.
    See `calculations/v27_boltzmann_liouville_rsii_smoking_guns.py`.
 
 6. **SPARC database analysis (175 galaxies, 3378 RAR data points):**
-   - RAR fit: g_+ = $9.54 \times 10^{-11}\,\text{m}$/s² (within 20% of MOND's a_0)
+   - RAR fit: g_+ = $9.54 \times 10^{-11}\,\text{m/s}^2$ (within 20% of MOND's a_0)
    - Deep MOND regime: $g_{\rm obs}$/g_MOND = 1.02 (within 2% of MOND)
    - 5 bifurcation pairs found (max V_max ratio 3.5×, vs AGC/KKR 219×)
    - 4-parameter 2D CFT degeneracy confirmed
@@ -3616,7 +3616,7 @@ Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive im
 
 1. **CMB power spectrum test (Boltzmann-solver level)**: CAMB computation for cascade's H₀=73 vs Planck ΛCDM. Cascade (H₀=73) gives Δχ² = +650 vs Planck ΛCDM (H₀=67.4). NEGATIVE result, CONSISTENT with Mechanism M. New §4.41.
 
-2. **Per-galaxy g₊ analysis**: 43 SPARC galaxies, 4.5 decades in M_b. Median g₊ = $9.74 \times 10^{-11}\,\text{m}$/s² (Lelli+ 2017: $1.20 \times 10^{-10}$). Correlation with M_b: r = +0.19, p = 0.22 (NOT SIGNIFICANT). Confirms cascade-MOND hybrid. New §4.42.
+2. **Per-galaxy g₊ analysis**: 43 SPARC galaxies, 4.5 decades in M_b. Median g₊ = $9.74 \times 10^{-11}\,\text{m/s}^2$ (Lelli+ 2017: $1.20 \times 10^{-10}$). Correlation with M_b: r = +0.19, p = 0.22 (NOT SIGNIFICANT). Confirms cascade-MOND hybrid. New §4.42.
 
 3. **Master Limitations Table §7.0**: 28 limitations with status (OPEN/PARTIAL/CLOSED/FALSIFIED/REVERTED). Summary: 17 open, 6 partial, 3 closed, 2 falsified, 2 reverted.
 

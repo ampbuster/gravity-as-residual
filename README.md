@@ -16,7 +16,7 @@
 
 ## Abstract
 
-We propose a phenomenological geometric framework—the **Scale-Invariant Dimensional Cascade (SIDC)**—in which gravity, dark matter, and dark energy emerge from a unified dimensional projection mechanism. The framework postulates a three-level hierarchical cascade (4D bulk event → 3+1D brane → 2D terminal quantum gravity floor) governed by a ℤ₂ mirror symmetry at the 3+1D boundary. Downward dimensional projection induces an effective sign-flip in the gravitational coupling (yielding dark energy), while upward projection preserves standard attractive gravity (yielding dark matter). The cascade's structural parameters ($N_{2\text{D}} = 12$, $N_{3+1\text{D}} = 6$, $N_{4\text{D}} = 3$) are motivated by Clifford algebra representations and Bott periodicity. We construct an effective action that matches the observed dark energy density ($\rho_{\text{DE}} = 2.5 \times 10^{-47}$ GeV⁴) via cascade structure, and yields three sharp, falsifiable predictions:
+We propose a phenomenological geometric framework—the **Scale-Invariant Dimensional Cascade (SIDC)**—in which gravity, dark matter, and dark energy emerge from a unified dimensional projection mechanism. The framework postulates a three-level hierarchical cascade (4D bulk event → 3+1D brane → 2D terminal quantum gravity floor) governed by a ℤ₂ mirror symmetry at the 3+1D boundary. Downward dimensional projection induces an effective sign-flip in the gravitational coupling (yielding dark energy), while upward projection preserves standard attractive gravity (yielding dark matter). The cascade's structural parameters ($N_{2\text{D}} = 12$, $N_{3+1\text{D}} = 6$, $N_{4\text{D}} = 3$) are motivated by Clifford algebra representations and Bott periodicity. We construct an effective action that matches the observed dark energy density ($\rho_{\text{DE}} = 2.5 \times 10^{-47}$ \,\text{GeV}^4$) via cascade structure, and yields three sharp, falsifiable predictions:
 
 1. **Strict cosmological constant** (w = -1 exactly, no evolution)
 2. **DE/DM density ratio** scaling precisely as (1+z)⁻³
@@ -76,7 +76,7 @@ This repository contains a thought experiment in theoretical physics: a single g
 | Case | Result | Notes |
 |---|---|---|
 | SPARC (175 galaxies) | 10% median residual | Matches MOND within 20% |
-| Tian+ 2024 (50 BCGs) | $1.7 \times 10^{-9}\,\text{m}$/s² | Within 30% of cluster g₊ |
+| Tian+ 2024 (50 BCGs) | $1.7 \times 10^{-9}\,\text{m/s}^2$ | Within 30% of cluster g₊ |
 | Sun | No detectable DM | Consistent (no DM spike) |
 | DF2/DF4 | No DM | PASS (no recent energetic events) |
 | FCC 224 | DM-poor | PASS (isolated ultra-diffuse) |
@@ -198,8 +198,8 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 
 | System | Empirical g₊ | MOND | SIDC |
 |---|---|---|---|
-| Isolated spiral (SPARC) | $1.2 \times 10^{-10}\,\text{m}$/s² | PASS | PASS |
-| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}\,\text{m}$/s² | **FAIL** (a₀ mismatch) | **PASS** ($E_{\rm crit}$ scaling) |
+| Isolated spiral (SPARC) | $1.2 \times 10^{-10}\,\text{m/s}^2$ | PASS | PASS |
+| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}\,\text{m/s}^2$ | **FAIL** (a₀ mismatch) | **PASS** ($E_{\rm crit}$ scaling) |
 | Dwarf galaxy (low SB) | Variable | Fail | **PASS** ($E_{\rm crit}$ threshold) |
 
 **MOND's weakness**: works for isolated spirals but fails in massive clusters. The cluster acceleration is 10× higher than MOND's a₀, forcing MOND to invoke unseen baryonic gas or sterile neutrinos. **SIDC scales naturally from galaxy to cluster via $E_{\rm crit}$.**

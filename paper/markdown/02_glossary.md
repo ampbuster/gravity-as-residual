@@ -52,7 +52,7 @@
 | H₀ | 67.4 km/s/Mpc | Planck 2018 |
 | $E_{SN}$ (kinetic) | 10⁴⁴ J | Standard CCSN model |
 | Ωₘ, $\Omega_{\rm b}$, Ω_Λ | 0.315, 0.049, 0.685 | Planck 2018 |
-| g₊ (MOND accel) | $1.2 \times 10^{-10}\,\text{m}$/s² | SPARC RAR fit (adopted in SIDC-MOND hybrid) |
+| g₊ (MOND accel) | $1.2 \times 10^{-10}\,\text{m/s}^2$ | SPARC RAR fit (adopted in SIDC-MOND hybrid) |
 
 ### Derived Quantities (not free, derived from data + framework)
 
@@ -625,7 +625,7 @@ SIDC is a *cone* (one parent, many children, terminal at the children's level), 
 
 2. **The 2D universe's 3+1D-frame mass.** SIDC postulates that the 2D universe's intrinsic 2D-frame mass (from the Liouville 2D CFT) is stellar-scale (~6 $M_\odot$), but the 3+1D-frame mass is time-compressed by a factor $e^{-ky}$ where y is the bulk position. The required $e^{-ky} \sim 10^{-54}$ to match the observed axion-like DM particle mass is a 54-orders-of-magnitude tension. Karch-Randall 2+1D Planck scale reduces this to ~15 orders, but the remaining tension is not resolved. This is Limitation 31 (the 2D-to-3+1D time compression has 54-orders uncertainty, reduced to 15 by Karch-Randall).
 
-3. ** $g_+$ (the RAR universal acceleration).** SIDC's $g_+$ ∼ $1.2 \times 10^{-10}\,\text{m}$/s² is empirically observed (SPARC RAR) and interpreted by SIDC as the back-projected acceleration from the cumulative 2D universe population. But $g_+$ = c × H₀ / (2π) is a fundamental constant combination, not derivable from the Liouville 2D CFT.
+3. ** $g_+$ (the RAR universal acceleration).** SIDC's $g_+$ ∼ $1.2 \times 10^{-10}\,\text{m/s}^2$ is empirically observed (SPARC RAR) and interpreted by SIDC as the back-projected acceleration from the cumulative 2D universe population. But $g_+$ = c × H₀ / (2π) is a fundamental constant combination, not derivable from the Liouville 2D CFT.
 
 **The time compression mechanism (§2.5 new in v2.6):**
 

@@ -593,7 +593,7 @@ See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_predi
 
 | Quantity | Value | Reference |
 |----------|-------|-----------|
-| Median per-galaxy $g_+$ | $9.74 \times 10^{-11}\,\text{m}$/s² | Lelli+ 2017: $1.20 \times 10^{-10}\,\text{m}$/s² |
+| Median per-galaxy $g_+$ | $9.74 \times 10^{-11}\,\text{m/s}^2$ | Lelli+ 2017: $1.20 \times 10^{-10}\,\text{m/s}^2$ |
 | Std (log $g_+$) | 0.57 dex | M/L noise dominates |
 | Correlation (log M_{b}, log $g_+$) | r = +0.19, p = 0.22 | NOT SIGNIFICANT |
 | Cluster enhancement (Tian+ 2024 / SPARC) | 17.5× | SIDC $V_{\rm local}$ prediction |
@@ -607,13 +607,13 @@ See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_predi
 | 9.5–10.5 | 5 | $2.57 \times 10^{-10}$| 0.432 |
 | 10.5–11.5 | 11 | $7.35 \times 10^{-11}$| 0.269 |
 
-The mass dependence is *not* statistically significant (p = 0.22). The $g_+$ distribution is consistent with a single value (~ 1.0–$1.2 \times 10^{-10}\,\text{m}$/s²) plus M/L noise, across 4.5 decades in M_{b}.
+The mass dependence is *not* statistically significant (p = 0.22). The $g_+$ distribution is consistent with a single value (~ 1.0–$1.2 \times 10^{-10}\,\text{m/s}^2$) plus M/L noise, across 4.5 decades in M_{b}.
 
 **Key findings:**
 
 1. ** $g_+$ is approximately UNIVERSAL across galaxy masses.** The correlation with M_{b} is r = +0.19, p = 0.22 (not significant). This supports the SIDC-MOND hybrid picture (Limitation 27), in which $g_+$ comes from cumulative 2D universe gravity and is independent of M_{b} at galaxy scale.
 
-2. **Cluster enhancement is ~17.5×.** Tian+ 2024 reports $g_+$ ~ $1.7 \times 10^{-9}\,\text{m}$/s² at cluster scale (BCG kinematics), which is 17.5× larger than the SPARC median ($9.74 \times 10^{-11}\,\text{m}$/s²). SIDC's $V_{\rm local}$ formula (Limitation 28) predicts this enhancement qualitatively ( $V_{\rm local}$ at cluster scale is larger than at galaxy scale, so $g_+$ ~ 1/ $V_{\rm local}$ is smaller at cluster scale... wait, that's the wrong direction).
+2. **Cluster enhancement is ~17.5×.** Tian+ 2024 reports $g_+$ ~ $1.7 \times 10^{-9}\,\text{m/s}^2$ at cluster scale (BCG kinematics), which is 17.5× larger than the SPARC median ($9.74 \times 10^{-11}\,\text{m/s}^2$). SIDC's $V_{\rm local}$ formula (Limitation 28) predicts this enhancement qualitatively ( $V_{\rm local}$ at cluster scale is larger than at galaxy scale, so $g_+$ ~ 1/ $V_{\rm local}$ is smaller at cluster scale... wait, that's the wrong direction).
 
 3. **Wait — let me re-check the $V_{\rm local}$ prediction.** SIDC's $V_{\rm local}$ formula says $g_+$ ∝ 1/ $V_{\rm local}$. At cluster scale, $V_{\rm local}$ is LARGER (more baryons to integrate over), so $g_+$ should be SMALLER at cluster scale, not larger. But the data shows the OPPOSITE: $g_+$ is LARGER at cluster scale. This is a real tension with SIDC's $V_{\rm local}$ prediction.
 
@@ -887,7 +887,7 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 **Part 2: Gaussian Instanton.** The Gaussian instanton $g(\tau) = (1/\tau_{2D} \sqrt{\pi}) \exp(-\tau^2/\tau_{2D}^2)$ (v2.4 Task 3) implements the smooth decay profile for the 2D universe's scale factor. The normalized window localizes the fossil payload with $\int g d\tau = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24\pi) R^{(2)}$ (v2.4 Task 2, with c = 1 default).
 
-**Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_b$ profile)` builds the SIDC-MOND hybrid potential: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$, with $g_+$ = $1.2 \times 10^{-10}\,\text{m}$/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\rm total}(r)}$ and a BTFR-predicted $V_{\rm flat} = (G M_b g_+)^{1/4}$.
+**Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_b$ profile)` builds the SIDC-MOND hybrid potential: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$, with $g_+$ = $1.2 \times 10^{-10}\,\text{m/s}^2$ universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\rm total}(r)}$ and a BTFR-predicted $V_{\rm flat} = (G M_b g_+)^{1/4}$.
 
 **Part 4: Testing Harness (independent dwarf-galaxy cases).** The emulator runs two INDEPENDENT dwarf-galaxy cases (AGC 114905 and KKR 25) and verifies that SIDC's SFH-DM correlation is qualitatively consistent with observations for each.
 
@@ -1163,7 +1163,7 @@ The paper §4.42 claims " $g_+$ is approximately universal across 4.5 decades in
 
 **4. Cluster $g_+$ discrepancy (minor).**
 
-The MCMC fit on Tian+ 2024 cluster data gives $g_+$ = $1.05 \times 10^{-9}\,\text{m}$/s² (with 0.20 dex scatter). Tian+ 2024 reports $1.7 \times 10^{-9}\,\text{m}$/s². The 0.62× discrepancy is documented in the bcg_mcmc_results.json. The paper's cluster/galaxy ratio of 17.5× is computed from SIDC's median $g_+$ ( $9.74 \times 10^{-11}$) divided into Tian+ 2024's $1.7 \times 10^{-9}$, but SIDC's *own* MCMC best fit gives $1.05 \times 10^{-9}$, which is a 14.2× ratio. The paper is somewhat inconsistent in which value it uses.
+The MCMC fit on Tian+ 2024 cluster data gives $g_+$ = $1.05 \times 10^{-9}\,\text{m/s}^2$ (with 0.20 dex scatter). Tian+ 2024 reports $1.7 \times 10^{-9}\,\text{m/s}^2$. The 0.62× discrepancy is documented in the bcg_mcmc_results.json. The paper's cluster/galaxy ratio of 17.5× is computed from SIDC's median $g_+$ ( $9.74 \times 10^{-11}$) divided into Tian+ 2024's $1.7 \times 10^{-9}$, but SIDC's *own* MCMC best fit gives $1.05 \times 10^{-9}$, which is a 14.2× ratio. The paper is somewhat inconsistent in which value it uses.
 
 **Status:** not a bug; honest reporting of MCMC, but the cluster/galaxy ratio could be more carefully derived from SIDC's own fit.
 
@@ -1187,7 +1187,7 @@ The cosmic shear test (§4.43) computes S₈ = 0.775 (SIDC) vs 0.759 (DES/KiDS) 
 
 **8. SPARC RAR fit (verified).**
 
-The SPARC RAR fit uses 175 galaxies, with 43 passing the Q≥1 and residual<0.1 quality cut. The fitted $g_+$ = $9.74 \times 10^{-11}\,\text{m}$/s² is within 20% of the empirical McGaugh+ 2016 value ( $1.20 \times 10^{-10}$). The data is correctly parsed from the SPARC `_rotmod.dat` files in `supporting/data/SPARC/`. The median $g_+$ across 4.5 decades in M_{b} is consistent with SIDC's universal $g_+$ prediction.
+The SPARC RAR fit uses 175 galaxies, with 43 passing the Q≥1 and residual<0.1 quality cut. The fitted $g_+$ = $9.74 \times 10^{-11}\,\text{m/s}^2$ is within 20% of the empirical McGaugh+ 2016 value ( $1.20 \times 10^{-10}$). The data is correctly parsed from the SPARC `_rotmod.dat` files in `supporting/data/SPARC/`. The median $g_+$ across 4.5 decades in M_{b} is consistent with SIDC's universal $g_+$ prediction.
 
 **Status:** verified. The 43-galaxy cut is a reasonable quality filter; the result is statistically robust.
 

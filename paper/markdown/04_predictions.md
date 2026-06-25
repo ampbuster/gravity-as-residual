@@ -42,7 +42,7 @@ At *fixed visible mass*, the model predicts that the *small* scatter in the RAR 
 
 $g₊ (SIDC) = \frac{3}{4} \cdot G \cdot f(cumulative) \cdot M_{DM} / (\pi R_{halo}^2)$
 
-For a Milky Way-like galaxy ( $M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, f(cumulative) = 0.7 from SIDC's 30%/70% active/cumulative split), this gives $g_+$ (SIDC) ≈ $2.6 \times 10^{-11}\,\text{m}$/s², which is∼ 0.22 × the empirical McGaugh+ 2016 value of $1.2 \times 10^{-10}\,\text{m}$/s² — within a factor of 5, in the right ballpark.
+For a Milky Way-like galaxy ( $M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, f(cumulative) = 0.7 from SIDC's 30%/70% active/cumulative split), this gives $g_+$ (SIDC) ≈ $2.6 \times 10^{-11}\,\text{m/s}^2$, which is∼ 0.22 × the empirical McGaugh+ 2016 value of $1.2 \times 10^{-10}\,\text{m/s}^2$ — within a factor of 5, in the right ballpark.
 
 *Critical test of SIDC:* the empirical g₊ is *constant* across galaxy types, but SIDC's g₊ depends on $M_{DM}/R_{halo}^2$. For g₊ to be constant, SIDC would require $M_{DM} \propto R_{halo}^2$ (a baryonic Tully-Fisher-like relation, but for $M_{DM}$ rather than $M_{bar}$). This is a *testable* prediction of SIDC. If future high-precision observations confirm the empirical constancy of g₊ across all galaxy types (with no variation in $M_{DM}/R_{halo}^2$ at fixed g₊), SIDC is in tension with the data. If g₊ shows *small* variations correlated with $M_{DM}/R_{halo}^2$, SIDC is *qualitatively* consistent. The current precision of g₊ measurements is at the ~0.1 dex level, which is *just* sensitive to SIDC's prediction — future observations (e.g., with Rubin Observatory / LSST) could resolve this question.
 
@@ -50,7 +50,7 @@ For a Milky Way-like galaxy ( $M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, f
 
 **The RAR across mass scales: SIDC vs. observations (v2.2.1).** A more stringent test of SIDC's g₊ prediction comes from comparing SIDC to recent observations across the *full* mass spectrum. Three recent observational results are particularly relevant:
 
-1. **McGaugh+ 2016 (galaxies)**: $g_+$ = $1.2 \times 10^{-10}\,\text{m}$/s² (a tight, approximately universal relation for spiral galaxies with $M_{bar} \sim 10^{8}$-- $10^{11} M_\odot$).
+1. **McGaugh+ 2016 (galaxies)**: $g_+$ = $1.2 \times 10^{-10}\,\text{m/s}^2$ (a tight, approximately universal relation for spiral galaxies with $M_{bar} \sim 10^{8}$-- $10^{11} M_\odot$).
 
 2. **Júlio+ 2025 (EDGE, dwarfs)**: 12 nearby dwarf galaxies with $M_{bar} \sim 10^{4}$-- $10^{7.5}\,M_\odot$ lie *systematically above* the low-mass extrapolation of the McGaugh+ 2016 RAR. Each galaxy traces a multi-valued locus in RAR space (the same baryonic acceleration can correspond to different observed accelerations). The conclusion: *"the RAR does not apply to low-mass dwarf galaxies"* [Júlio+ 2025, A&A 704, A330].
 
@@ -123,7 +123,7 @@ With these parameters:
 
 *The fundamental issue:* SIDC's active contribution (clustered, follows stellar) makes the inner $g_{\rm obs}$ too large. The empirical RAR requires $g_{\rm obs} \sim g_{\rm bar}$ at high $g_{\rm bar}$ (no DM excess at high stellar surface density), but SIDC's active contribution gives $g_{\rm obs}$ = $g_{\rm bar}$ * (1 + $f_{\rm active}$ * kappa), which is 5-6x $g_{\rm bar}$ for $f_{\rm active}$=0.2, kappa=17. To match the RAR at 2R_d for MW, $f_{\rm active}$ * kappa must be < 1, requiring $f_{\rm active}$ < 0.06 — which is 5x smaller than SIDC's postulate of $f_{\rm active}$=0.3.
 
-This tension requires either a different spatial distribution for the active contribution, a smaller $f_{\rm active}$ (SIDC's postulate is off by ~5x), or a different SIDC $g_+$. SIDC's $g_+$ might not be $1.2 \times 10^{-10}\,\text{m}$/s² (McGaugh+ 2016) but rather closer to $2 \times 10^{-9}\,\text{m}$/s² (Tian+ 2024 cluster value) — which would be a genuinely different prediction of SIDC that conflicts with the galaxy RAR. This is left as an open question for further theoretical work (Limitation 19).
+This tension requires either a different spatial distribution for the active contribution, a smaller $f_{\rm active}$ (SIDC's postulate is off by ~5x), or a different SIDC $g_+$. SIDC's $g_+$ might not be $1.2 \times 10^{-10}\,\text{m/s}^2$ (McGaugh+ 2016) but rather closer to $2 \times 10^{-9}\,\text{m/s}^2$ (Tian+ 2024 cluster value) — which would be a genuinely different prediction of SIDC that conflicts with the galaxy RAR. This is left as an open question for further theoretical work (Limitation 19).
 
 *Full mass spectrum test (commit 111, v2.2.1).* I tested SIDC's RAR prediction across 9 systems from ultra-faint dwarf ($M_{halo} = 10^{7} M_\odot$) to supercluster core ($M_{halo} = 5 \times 10^{14} M_\odot$), in `calculations/rar_extremes.py`. Key findings:
 
@@ -249,9 +249,9 @@ This is now SIDC's best candidate RAR model: small $f_{active}$ (5%), isothermal
 
 | Object | r (kpc) | N_orbits | f_mix | $g_{\rm obs}$/ $g_{\rm bar}$ | Effective $g_+$ |
 | --- | --- | --- | --- | --- | --- |
-| Milky Way (2 R_d) | 8 kpc | 130 | 1.00 | 6.4 | $2.7 \times 10^{-9}\,\text{m}$/s² |
-| Dwarf (2 R_d) | 2 kpc | 39 | 0.98 | 40 | $3.3 \times 10^{-10}\,\text{m}$/s² |
-| Cluster (2 R_d) | 60 kpc | 73 | 1.00 | 33 | $2.4 \times 10^{-8}\,\text{m}$/s² |
+| Milky Way (2 R_d) | 8 kpc | 130 | 1.00 | 6.4 | $2.7 \times 10^{-9}\,\text{m/s}^2$ |
+| Dwarf (2 R_d) | 2 kpc | 39 | 0.98 | 40 | $3.3 \times 10^{-10}\,\text{m/s}^2$ |
+| Cluster (2 R_d) | 60 kpc | 73 | 1.00 | 33 | $2.4 \times 10^{-8}\,\text{m/s}^2$ |
 
 *Honest assessment of the full dynamical-mixing model:*
 - The mixing-fraction formalism is correct: the cumulative return is *naturally* between fully clustered and fully uniform, with the mixing fraction depending on radius and halo mass.
@@ -281,11 +281,11 @@ The *dynamical-mixing* picture reconciles SIDC's apparently inconsistent claims 
 | **MOND ( $g_+$ = $1.0 \times 10^{-10}$, M/L=0.5)** | 20.2% | 49.7% |
 | **MOND (free g₊, free M/L)** | **10.1%** | **87.6%** |
 
-SIDC's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ functional form is **falsified** on real data (70% median residual). MOND's interpolation function $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$ fits the real data to 10% when g₊ and M/L are allowed to vary per galaxy. The empirical g₊ is **universal** at∼ 1.0-$1.2 \times 10^{-10}\,\text{m}$/s² across 149 galaxies (per-galaxy best fit: $9.1 \times 10^{-11}\,\text{median}$, $1.2 \times 10^{-10}\,\text{mean}$, 0.42 dex scatter, consistent with the McGaugh+ 2016 measurement of $1.2 \times 10^{-10}$).
+SIDC's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ functional form is **falsified** on real data (70% median residual). MOND's interpolation function $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$ fits the real data to 10% when g₊ and M/L are allowed to vary per galaxy. The empirical g₊ is **universal** at∼ 1.0-$1.2 \times 10^{-10}\,\text{m/s}^2$ across 149 galaxies (per-galaxy best fit: $9.1 \times 10^{-11}\,\text{median}$, $1.2 \times 10^{-10}\,\text{mean}$, 0.42 dex scatter, consistent with the McGaugh+ 2016 measurement of $1.2 \times 10^{-10}$).
 
 *The SIDC-MOND hybrid proposal.* SIDC's framework is not falsified by this test; only its specific RAR *functional form* is. A more honest proposal:
 
-- **SIDC provides the WHY**: the 2D universe cumulative gravity creates a universal acceleration scale $g_+$ ∼ $1.2 \times 10^{-10}\,\text{m}$/s². SIDC's 4D event physics explains *why* there's a universal g₊ at all (per SIDC's framework: it's a property of the cumulative 2D universe gravity at galaxy scales).
+- **SIDC provides the WHY**: the 2D universe cumulative gravity creates a universal acceleration scale $g_+$ ∼ $1.2 \times 10^{-10}\,\text{m/s}^2$. SIDC's 4D event physics explains *why* there's a universal g₊ at all (per SIDC's framework: it's a property of the cumulative 2D universe gravity at galaxy scales).
 - **MOND provides the HOW**: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$ is the correct functional form for the relationship between $g_{\rm obs}$ and $g_{\rm bar}$ in real galaxies.
 - **SIDC-MOND synthesis**: SIDC's RAR prediction is **MOND-compatible**, not its own independent prediction. SIDC's contribution to the RAR is the *geometric origin of g₊, not the form of* $g_{obs}(g_{bar})$.
 
@@ -537,7 +537,7 @@ For a Milky Way-like galaxy with $M_b \sim 6 \times 10^{10} M_\odot$ and $\dot{n
 - Integrated $\dot{n} \cdot T \sim 10^{-12} \times 10^{10}$ yr = 10⁻² events/($M_\odot$)
 - g₊ = $k \cdot 10^{-2} \cdot E_{event} \cdot \tau_{2D}/L_{2D}$
 
-For the empirical $g_+$ ∼ $1.2 \times 10^{-10}\,\text{m}$/s², we need $k \cdot E_{event} \cdot \tau_{2D}/L_{2D} \sim 10^{-8}$ in natural units. This is a *calibration* — SIDC does not derive k from first principles, but the *structure* of the formula is correct.
+For the empirical $g_+$ ∼ $1.2 \times 10^{-10}\,\text{m/s}^2$, we need $k \cdot E_{event} \cdot \tau_{2D}/L_{2D} \sim 10^{-8}$ in natural units. This is a *calibration* — SIDC does not derive k from first principles, but the *structure* of the formula is correct.
 
 *Critical prediction: the cluster-scale g₊ enhancement (Tian+ 2024).*
 
