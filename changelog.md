@@ -116,7 +116,7 @@ L308dt — 155 broken math patterns:
 ## v3.5.9+ A2 (June 22, 2026) — APPROACH A2: α dim-specific + frame-neutral leak naming + A2 era
 
 **Reason for sub-version (A2 within v3.5.9+)**:
-1. α is now dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ = 1.408, $\alpha_{4D}$ = 1.577)
+1. α is now dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$ = 1.408, $\alpha_{4D}$ = 1.577)
 2. $f_{\rm back}$ → $f_{
 m DE,closed}$ (LEGACY naming retired, $f_{
 m DE,simple}$/closed formulas)
@@ -126,7 +126,7 @@ m leak,2D}$→3D, $f_{\rm leak,3D→4D}$)
 5. Web research audit for first-principles (L43/L138/L144/L142a, NEGATIVE result)
 
 **A2 FRAMEWORK CHANGES**:
-- **α dim-specific**: $\alpha_{2D}$ = 1.289 (Schwarzian SYK N=12), $\alpha_{\rm 3+1D}$$ = 1.408 (predicted), $\alpha_{4D}$ = 1.577 (predicted)
+- **$\alpha$ dim-specific**: $\alpha_{2D}$ = 1.289 (Schwarzian SYK N=12), $\alpha_{\rm 3+1D}$ = 1.408 (predicted), $\alpha_{4D}$ = 1.577 (predicted)
 - **ε recalibrated**: 10⁻³⁸ (A1) → 6.32×10⁻³⁴ (A2, +4.8 orders)
 - **$f \times \varepsilon$ = 1.13×10⁻¹²³ INVARIANT** preserved ($\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ EXACT match in BOTH formulas)
 - **kL recalibrated**: 87.5 (A1) → 76.4 (A2), ΔkL = -11.1
@@ -2533,7 +2533,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 4. **Our universe verification:**
    - $E_{\rm 4D}$ = 10⁶⁹ J
-   - $\gamma_{\rm 3+1D}$$ = 10⁷⁷ (time dilation factor)
+   - $\gamma_{\rm 3+1D}$ = 10⁷⁷ (time dilation factor)
    - T_3D = 1.8×10²⁶ yr (matches paper)
    - $\tau_{3}+1D_{\rm proper}$ = $t_{\rm Pl,4}$ = 5.39×10⁻⁴⁴ s
 
@@ -2553,7 +2553,7 @@ The cascade cannot proceed honestly without addressing L50.
 
 8. **L9 (2D universe physics) further closed:**
    - Proper lifetime: $t_{\rm Pl,4}$ (specified)
-   - Time dilation factor: $\gamma_{\rm 3+1D}$$ = $(E_{\rm 4D}/E_{\rm Pl,4})^{1.29}$ (specified)
+   - Time dilation factor: $\gamma_{\rm 3+1D}$ = $(E_{\rm 4D}/E_{\rm Pl,4})^{1.29}$ (specified)
    - Mass scaling: M_3+1D_4D ∝ $E^{0.71}$ (specified)
    - Internal dynamics: still unspecified (the only remaining gap)
 
@@ -2568,7 +2568,7 @@ The cascade cannot proceed honestly without addressing L50.
    - User is right! The paper has this in §10.2, but the deeper implication deserves its own analysis
 
 2. **Major reframing:**
-   - The energy-scaling rule $\tau_{\rm 2D_3+1D}$$ = (E/E_Pl)^1.29 × $t_{\rm Pl}$ was an empirical fit (v2.7.9)
+   - The energy-scaling rule $\tau_{\rm 2D_3+1D}$ = (E/E_Pl)^1.29 × $t_{\rm Pl}$ was an empirical fit (v2.7.9)
    - Hypothesis: all 2D universes have same proper lifetime $\tau_{2D_proper}$ = $t_{\rm Pl}$
    - Then: $\gamma_{2D}$ = (E/E_Pl)^1.29 is the time-dilation factor
    - The energy-scaling rule is now a CONSEQUENCE of time dilation
@@ -5006,7 +5006,7 @@ m DE,closed}$` = 1.79×10⁻⁹⁰ (A2, $\alpha_{4D}$=1.577, ε=6.32×10⁻³⁴
 
 3. **α DIM-SPECIFIC (A2, L308aw)**: α is dimension-dependent (was POSTULATE in A1)
    - $\alpha_{2D}$ = 1.289 (rigorous, Schwarzian SYK $N=12$)
-   - $\alpha_{\rm 3+1D}$$ = 1.408 (predicted)
+   - $\alpha_{\rm 3+1D}$ = 1.408 (predicted)
    - $\alpha_{4D}$ = 1.577 (predicted)
    - α universality (L103) DROPPED
    - ε recalibrated: 1×10⁻³⁸ → 6.32×10⁻³⁴ (+4.8 orders)

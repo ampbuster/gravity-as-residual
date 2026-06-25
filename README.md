@@ -171,11 +171,11 @@ Level    N    Clifford Structure                  First-principles
 
 ## 🎯 α is now dimension-specific (Option B Strengthened)
 
-α = 1 + 1/√$N_D$ with $N_D$ = 12/2^(D-2) gives:
+$\alpha = 1 + 1/\sqrt{N_D}$ with $N_D = 12/2^{(D-2)}$ gives:
 
-- $\alpha_{2D}$ = 1 + 1/√12 = **1.289** (Schwarzian + $N=12$ SM count)
-- $\alpha_{\rm 3+1D}$$ = 1 + 1/√6 = **1.408** (Schwarzian + $N=6$ C(6) SM algebra)
-- $\alpha_{4D}$ = 1 + 1/√3 = **1.577** (Schwarzian + $N=3$ generations)
+- $\alpha_{\rm 2D} = 1 + 1/\sqrt{12} = \mathbf{1.289}$ (Schwarzian + $N=12$ SM count)
+- $\alpha_{\rm 3+1D} = 1 + 1/\sqrt{6} = \mathbf{1.408}$ (Schwarzian + $N=6$ C(6) SM algebra)
+- $\alpha_{\rm 4D} = 1 + 1/\sqrt{3} = \mathbf{1.577}$ (Schwarzian + $N=3$ generations)
 
 **Option B Strengthened** is the framework's official interpretation (L308bi): all three N values are first-principles derived, so α dim-specific is no longer just "structurally rich" — it's first-principles for every dim.
 

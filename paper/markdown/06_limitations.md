@@ -5682,7 +5682,7 @@ After the recalibration showed significant changes ($\gamma_{\rm 4D}$ +20 orders
 |-----------|-----|-----|--------|
 | α (universal) | 1.289 | dim-specific | — |
 | $\alpha_{2D}$ | 1.289 | 1.289 | 0 |
-| $\alpha_{\rm 3+1D}$$ | (implicit 1.289) | 1.408 | +0.119 |
+| $\alpha_{\rm 3+1D}$ | (implicit 1.289) | 1.408 | +0.119 |
 | $\alpha_{4D}$ | (implicit 1.289) | 1.577 | +0.288 |
 | ε | 1.00× 10⁻³⁸ | 6.32× 10⁻³⁴ | +4.8 orders |
 | $kL$ (RS-II) | 87.5 | 76.4 | −11.1 |
@@ -5770,7 +5770,7 @@ m DE,closed}$ exponent | 0.388 | 0.317 |
 
 With Option A adopted:
 
-1. **$\alpha_{\rm 3+1D}$$ = 1.408 derivation**: Just predicted, not derived
+1. **$\alpha_{\rm 3+1D}$ = 1.408 derivation**: Just predicted, not derived
 2. **$\alpha_{4D}$ = 1.577 derivation**: Just predicted, not derived
 3. **Why is ε = 6.32× 10⁻³⁴ instead of 10⁻³⁸?**: The new value is calibrated, not derived
 4. **Hierarchy $f_{
@@ -5818,7 +5818,7 @@ m DE,closed}$ exponent = 0.317
 
 **Implication**: The framework is now at v3.5.9+ A2. The α universality claim is dropped. The DE density match is restored (with new ε). Hierarchy transitions are level-specific.
 
-**Open**: $\alpha_{\rm 3+1D}$$ and $\alpha_{4D}$ are predicted but not derived. The new ε is calibrated, not derived. The hierarchy $f_{
+**Open**: $\alpha_{\rm 3+1D}$ and $\alpha_{4D}$ are predicted but not derived. The new ε is calibrated, not derived. The hierarchy $f_{
 m DE,closed}$ values are very different (50+ orders span).
 
 
@@ -6137,7 +6137,7 @@ The halving rule: ** $N_D$ = 12 / 2^(D-2)** for D = 2, 3+1D, 4D.
 
 ### Why This Matters
 
-L308av introduced dim-specific α ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ = 1.408, $\alpha_{4D}$ = 1.577) and noted that the framework had three different α values at three dimensional levels. But the STRUCTURAL RELATIONSHIP between them was not identified.
+L308av introduced dim-specific α ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$ = 1.408, $\alpha_{4D}$ = 1.577) and noted that the framework had three different α values at three dimensional levels. But the STRUCTURAL RELATIONSHIP between them was not identified.
 
 **L308ba closes this gap**: the three α values follow a precise halving pattern, suggesting that the cascade has a built-in dimensional structure that was previously unpatterned.
 
@@ -6164,7 +6164,7 @@ L308av introduced dim-specific α ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ =
 ### Honest Framing
 
 - ✓ **Pattern matches all three framework values within 0.01% precision**
-- ✗ ** $N_{3+1D}$ = 6 is INFERRED from $\alpha_{\rm 3+1D}$$ value (not first-principles derived)**
+- ✗ ** $N_{3+1D}$ = 6 is INFERRED from $\alpha_{\rm 3+1D}$ value (not first-principles derived)**
 - ✗ ** $N_{\rm 4D}$ = 3 is INFERRED from $\alpha_{4D}$ value (not first-principles derived)**
 - ✓ ** $N_{\rm 2D}$ = 12 IS first-principles derived** (3 generations × 4 Weyl fermions, L308r)
 - ✗ **The halving rule itself is EMPIRICAL**, not derived from a deeper principle
@@ -6188,7 +6188,7 @@ $M_{\rm Pl,N}$ = $M_{\rm Pl,N}$-1^α × $M_{\rm Pl,N}$+1^(1-α)
 ### What This Closes
 
 - **L308ar (N is dimension-dependent)**: STRUCTURAL CLOSURE — $N_{\rm 2D}$ = 12, $N_{3+1D}$ = 6, $N_{\rm 4D}$ = 3 follows the halving rule
-- **L308as (3+1D α is open)**: PARTIAL CLOSURE — $\alpha_{\rm 3+1D}$$ = 1.408 inferred from $N_{3+1D}$ = 6 (interpretations OPEN)
+- **L308as (3+1D α is open)**: PARTIAL CLOSURE — $\alpha_{\rm 3+1D}$ = 1.408 inferred from $N_{3+1D}$ = 6 (interpretations OPEN)
 
 ### What Remains Open
 
@@ -6208,7 +6208,7 @@ User insight (2026-06-22): pattern recognition during Lagrangian review.
 
 The cascade now has a tight dim-specific α structure:
 - $\alpha_{2D}$ = 1.289 ( $N=12$, derived)
-- $\alpha_{\rm 3+1D}$$ = 1.408 ( $N=6$, inferred from α value)
+- $\alpha_{\rm 3+1D}$ = 1.408 ( $N=6$, inferred from α value)
 - $\alpha_{4D}$ = 1.577 ( $N=3$, inferred from α value)
 
 Honest: $N_{3+1D}$ = 6 and $N_{\rm 4D}$ = 3 are inferred, not derived. The PATTERN is structurally tight (matches within 0.01%) but the deeper origin is OPEN.
@@ -6603,7 +6603,7 @@ L308bd (previous section) presented options A and B as both structurally valid, 
 |------|------------|--------|
 | 1 | $N_{\rm 2D}$ = 12 from SM count | **FIRST-PRINCIPLES** via L308r |
 | 2 | $\alpha_{2D}$ = 1.289 via Schwarzian | **FIRST-PRINCIPLES** via L308n |
-| 3 | $N_{3+1D}$ = 6 | **INFERRED from $\alpha_{\rm 3+1D}$$ = 1.408** (NOT derived) |
+| 3 | $N_{3+1D}$ = 6 | **INFERRED from $\alpha_{\rm 3+1D}$ = 1.408** (NOT derived) |
 | 4 | $N_{\rm 4D}$ = 3 | **INFERRED from $\alpha_{4D}$ = 1.577** (NOT derived) |
 | 5 | Halving rule $N_D$ = 12/2^(D-2) | **EMPIRICAL PATTERN** (NOT derived) |
 
@@ -6628,7 +6628,7 @@ The structural pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) is a **valid obs
 - It suggests a structural halving ( $N_D$ = 12/2^(D-2))
 - It encodes DOF conservation (L308bc)
 
-But the pattern is **not a first-principles derivation** for $\alpha_{\rm 3+1D}$$ and $\alpha_{4D}$.
+But the pattern is **not a first-principles derivation** for $\alpha_{\rm 3+1D}$ and $\alpha_{4D}$.
 
 **Proposed synthesis**:
 - USE option A (α = 1.289 universal) for first-principles derivations
@@ -6648,7 +6648,7 @@ m DE,simple}$ = 1.13× 10⁻⁸⁵ (A1 value)
 
 If the framework USES option B (dim-specific α):
 - $\alpha_{2D}$ = 1.289 (FIRST-PRINCIPLES via Schwarzian)
-- $\alpha_{\rm 3+1D}$$ = 1.408 (INFERRED)
+- $\alpha_{\rm 3+1D}$ = 1.408 (INFERRED)
 - $\alpha_{4D}$ = 1.577 (INFERRED)
 - ε = 6.32× 10⁻³⁴ (A2 calibration)
 - $f_{
@@ -6748,7 +6748,7 @@ Despite option A being more first-principles, option B is kept because:
 ### Trade-off Acknowledged
 
 The framework is making an explicit trade-off:
-- **Loss**: First-principles status for $\alpha_{\rm 3+1D}$$ and $\alpha_{4D}$ (these are inferred, not derived)
+- **Loss**: First-principles status for $\alpha_{\rm 3+1D}$ and $\alpha_{4D}$ (these are inferred, not derived)
 - **Gain**: Structural richness (halving rule, DOF conservation, A2 numerical calibration)
 
 This trade-off is HONEST and DOCUMENTED. When first-principles derivations emerge, the trade-off can be re-evaluated.
@@ -6900,7 +6900,7 @@ This gives a structural unity: the cascade's "3 generations" appears at multiple
 
 If $N_{3+1D}$ = 6 is derived, option B becomes fully first-principles:
 - $\alpha_{2D}$ = 1.289 ( $N=12$ SM count)
-- $\alpha_{\rm 3+1D}$$ = 1.408 ( $N=6$ from first-principles)
+- $\alpha_{\rm 3+1D}$ = 1.408 ( $N=6$ from first-principles)
 - $\alpha_{4D}$ = 1.577 ( $N=3$ from Clifford/topology)
 
 ### What L308bg Closes
@@ -7026,7 +7026,7 @@ The cascade framework's N values map EXACTLY to Clifford algebra structure:
 All three α values now have first-principles basis via Schwarzian SYK:
 
 - $\alpha_{2D}$ = 1 + 1/√12 = 1.289 (Schwarzian + $N=12$ SM count)
-- $\alpha_{\rm 3+1D}$$ = 1 + 1/√6 = 1.408 (Schwarzian + $N=6$ C(6) SM algebra) [NEW]
+- $\alpha_{\rm 3+1D}$ = 1 + 1/√6 = 1.408 (Schwarzian + $N=6$ C(6) SM algebra) [NEW]
 - $\alpha_{4D}$ = 1 + 1/√3 = 1.577 (Schwarzian + $N=3$ generations)
 
 The Schwarzian formula is applied to N = Clifford algebra dimension at each level.
@@ -7072,7 +7072,7 @@ Calculation: `calculations/v36_research/L308bh_C6_SM_algebra.py`
 
 The cascade framework's α dim-specific interpretation (option B) is now FULLY first-principles:
 - $\alpha_{2D}$: $N=12$ from SM count
-- $\alpha_{\rm 3+1D}$$: $N=6$ from C(6) SM algebra (Stoica 2018) [NEW]
+- $\alpha_{\rm 3+1D}$: $N=6$ from C(6) SM algebra (Stoica 2018) [NEW]
 - $\alpha_{4D}$: $N=3$ from 3 generations (Clifford/McKay/cobordism)
 
 ## 7.4.53 (L308bi): Framework Choice — Option B Strengthened (FULLY First-Principles)
@@ -7112,7 +7112,7 @@ m DE,simple}$ = 1.13× 10⁻⁸⁵
 - N interpretation: 12 Majorana-equivalent at each level
 
 **Option B Strengthened (CURRENT FRAMEWORK)**:
-- $\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ = 1.408, $\alpha_{4D}$ = 1.577 (dim-specific)
+- $\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$ = 1.408, $\alpha_{4D}$ = 1.577 (dim-specific)
 - ε = 6.32× 10⁻³⁴, $f_{
 m DE,closed}$ = 1.79× 10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$, $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
@@ -7143,7 +7143,7 @@ m DE,closed}$ = 1.79× 10⁻⁹⁰
 All three α values derive from Schwarzian SYK applied to N at each level:
 
 - $\alpha_{2D}$ = 1 + 1/√12 = 1.289 (Schwarzian + $N=12$ SM count)
-- $\alpha_{\rm 3+1D}$$ = 1 + 1/√6 = 1.408 (Schwarzian + $N=6$ C(6)) [NEW first-principles]
+- $\alpha_{\rm 3+1D}$ = 1 + 1/√6 = 1.408 (Schwarzian + $N=6$ C(6)) [NEW first-principles]
 - $\alpha_{4D}$ = 1 + 1/√3 = 1.577 (Schwarzian + $N=3$ generations) [NEW first-principles]
 
 The Schwarzian formula applied to N = Clifford algebra dimension at each level gives the α values directly. This is **first-principles end-to-end**.
@@ -7770,7 +7770,7 @@ Framework is self-consistent within A1 but not across A1→A2 transition for $M_
 
 ### The Problem (from L308bm)
 
-L138 (A1 era) used α = 1.289 in α-GM formula, giving $M_{\rm Pl,4D} = 3.93e23.$ A2 has α dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ = 1.408, $\alpha_{4D}$ = 1.577).
+L138 (A1 era) used α = 1.289 in α-GM formula, giving $M_{\rm Pl,4D} = 3.93e23.$ A2 has α dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$ = 1.408, $\alpha_{4D}$ = 1.577).
 If we use $\alpha_{4D}$ in the α-GM formula, $M_{\rm Pl,4D} = 1.25e28 ($ off by 4.5 orders!).
 
 ### The Solution: CLEAN SEPARATION OF α VALUES
@@ -7780,7 +7780,7 @@ The three α values serve DIFFERENT structural purposes:
 | α value | Role | Used in |
 |---|---|---|
 | $\alpha_{2D}$ = 1.289 | $M_{\rm Pl}$ scaling | α-GM formula |
-| $\alpha_{\rm 3+1D}$$ = 1.408 | Cascade transitions | 2D-3+1D, 3+1D-4D |
+| $\alpha_{\rm 3+1D}$ = 1.408 | Cascade transitions | 2D-3+1D, 3+1D-4D |
 | $\alpha_{4D}$ = 1.577 | Energy scaling | $f_{
 m DE,closed}$, $\gamma_{\rm 4D}$ |
 
@@ -7839,7 +7839,7 @@ m DE,closed}$ | 1.13e-85 | 1.79e-90 (with $\alpha_{4D}$) | (different formula) |
 - $f_{
 m DE,closed}$: $\alpha_{4D}
 - \gamma_{4D}$: $\alpha_{4D}$
-- Cascade transitions: $\alpha_{\rm 3+1D}$$
+- Cascade transitions: $\alpha_{\rm 3+1D}$
 
 **No more inconsistencies** between L138 (A1) and A2 numerical values.
 
@@ -7854,7 +7854,7 @@ Calculation: `calculations/v36_research/L308bn_M_Pl_4D_rederivation.py`
 
 The α-GM formula uses $\alpha_{2D}$ (the structural 2D Schwarzian).
 The energy scaling formulas use $\alpha_{4D}$ (the 4D Schwarzian).
-The cascade transitions use $\alpha_{\rm 3+1D}$$.
+The cascade transitions use $\alpha_{\rm 3+1D}$.
 
 Framework is now self-consistent in A2.
 
