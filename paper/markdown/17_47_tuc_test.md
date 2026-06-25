@@ -10,8 +10,8 @@
 
 | Property | Value |
 |---|---|
-| Total mass | 1.1 × 10⁶ $M_{\rm sun}$ |
-| Stellar mass ( $M_{\rm stars}$) | 1.0 × 10⁶ $M_{\rm sun}$ |
+| Total mass | $1.1 \times 10^{6}$$M_{\rm sun}$ |
+| Stellar mass ( $M_{\rm stars}$) | $1.0 \times 10^{6}$$M_{\rm sun}$ |
 | Half-mass radius | 6 pc |
 | Age | 12.0 ± 0.5 Gyr |
 | Distance | 4.45 kpc (Hipparcos) / 4.69 kpc (Gaia DR3) |
@@ -31,7 +31,7 @@ This makes 47 Tuc unique among stellar systems:
 ## §17.2 SIDC Prediction for 47 Tuc
 
 **Inputs for SIDC calculation**:
-- $M_{\rm stars}$ = 1.0 × 10⁶ $M_{\rm sun}$
+- $M_{\rm stars}$ = $1.0 \times 10^{6}$$M_{\rm sun}$
 - Age = 12 Gyr
 - $E_{\rm crit}$ ≈ 10³⁰ J for 2D universe birth (per L308ba)
 - Recent activity: ~25 CVs at ~10³⁰ J per outburst (right at $E_{\rm crit}$ threshold, but recurring and small-scale)
@@ -58,13 +58,13 @@ Specifically:
 ΛCDM + NFW halo predicts a smooth DM contribution from the Milky Way halo passing through 47 Tuc's location:
 
 **NFW parameters** (Milky Way):
-- $\rho_{\rm s}$ = 0.014 M_sun/pc³
+- $\rho_{\rm s}$ = 0.014 $M_{\rm sun}$/pc³
 - rₛ = 16 kpc
-- $\rho_{\rm NFW}$(r=4.5 kpc) = 0.030 M_sun/pc³
+- $\rho_{\rm NFW}$(r=4.5 kpc) = 0.030 $M_{\rm sun}$/pc³
 
 **NFW DM mass within 47 Tuc**:
-- M_DM(r < 6 pc) ≈ 5 × 10⁴ $M_{\rm sun}$ (~5% of $M_{\rm stars}$)
-- M_DM(r < 50 pc, tidal radius) ≈ 3.5 × 10⁵ $M_{\rm sun}$ (~30% of $M_{\rm stars}$)
+- M_DM(r < 6 pc) ≈ $5 \times 10^{4}$$M_{\rm sun}$ (~5% of $M_{\rm stars}$)
+- M_DM(r < 50 pc, tidal radius) ≈ $3.5 \times 10^{5}$$M_{\rm sun}$ (~30% of $M_{\rm stars}$)
 
 **ΛCDM prediction** (profile-dependent):
 $$M_{\rm dyn}/M_{\rm stars} = 1.05 \pm 0.05$$

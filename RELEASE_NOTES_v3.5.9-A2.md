@@ -23,8 +23,7 @@ This is the canonical "physics paper" version. Read this first.
 
 ### Fixes applied
 - `γ_4D` correctly named "cascade amplification factor" (not "time dilation")
-- Fraction of 4D time observed corrected from 10⁻²⁶ to ~9×10⁻²⁵
-- z transitions clearly distinguished (matter-DE equality z ≈ 0.30 vs decel-accel z ≈ 0.63)
+- Fraction of 4D time observed corrected from 10⁻²⁶ to ~$9 \times 10^{-25}$- z transitions clearly distinguished (matter-DE equality z ≈ 0.30 vs decel-accel z ≈ 0.63)
 - "EXACT match" language softened to "accommodated... rather than first-principles derived"
 - C(6) connection described as "isomorphic to" SM algebra, with "additional physical postulate required" caveat
 
@@ -97,13 +96,11 @@ The L308 chain (L308ab-L308ce) covers:
 3. **$M_{\rm Pl,2D} = 2.95$ TeV** — testable at HL-LHC as anomalous missing-energy threshold
 
 **Numerical values (A2):**
-- ε = 6.32×10⁻³⁴
-- $f_{
-m DE,closed}$ = 1.79×10⁻⁹⁰
-- $\gamma_{\rm 4D} = 1.10×10¹¹¹$
-- $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
-- $\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ GeV⁴ (matches observed)
-- $f \times \varepsilon$ invariant = 1.13×10⁻¹²³ (preserved across A1 and A2)
+- ε = $6.32 \times 10^{-34}$- $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
+- $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ yr
+- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴ (matches observed)
+- $f \times \varepsilon$ invariant = $1.13 \times 10^{-123}$(preserved across A1 and A2)
 - $H_0$ = 67.4 km/s/Mpc (Planck, inherited from ΛCDM)
 - r_s = 141.85 Mpc (1.88% off Planck 144.57)
 

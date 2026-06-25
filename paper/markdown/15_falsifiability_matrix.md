@@ -65,7 +65,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 **SIDC prediction:** $M_{\rm Pl,4D} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
 
-**Falsification threshold:** If $M_{\rm Pl,4}$ measured at < 3.93×10²³ GeV, SIDC's bulk-brane coupling is wrong.
+**Falsification threshold:** If $M_{\rm Pl,4}$ measured at < $3.93 \times 10^{23}\,\text{GeV}$, SIDC's bulk-brane coupling is wrong.
 
 **Status:** PENDING. Future colliders or precision tests.
 
@@ -94,9 +94,9 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 | w₀ (DESI DR3) | -0.83 ± 0.16 | > 5σ away from -0.83 |
 | wₐ (DESI DR3) | -0.75 ± 0.30 | > 5σ away from -0.75 |
 | 47 Tuc DM (LSST) | < 10⁻⁵ M_* | DM detected at > 5σ |
-| BNS GW (SKA-MPG) | f ≈ 7 × 10⁻¹⁴ Hz | 10× off-frequency |
-| AGN GW (SKA-MPG) | f ≈ 2 × 10⁻¹⁷ Hz | 10× off-frequency |
-| $M_{\rm Pl,4}$ (colliders) | ≥ 4×10²³ GeV | Measured < 3.93×10²³ GeV |
+| BNS GW (SKA-MPG) | f ≈ $7 \times 10^{-14}\,\text{Hz}$ | 10× off-frequency |
+| AGN GW (SKA-MPG) | f ≈ $2 \times 10^{-17}\,\text{Hz}$ | 10× off-frequency |
+| $M_{\rm Pl,4}$ (colliders) | ≥ $4 \times 10^{23}\,\text{GeV}$ | Measured < $3.93 \times 10^{23}\,\text{GeV}$ |
 | BBN DE (precision) | < 10⁻²⁰ rad | > 10⁻²⁰ detected |
 | 5/27/68 (Planck) | 5/27/68 (input) | Input, not tested |
 

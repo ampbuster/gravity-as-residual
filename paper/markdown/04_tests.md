@@ -249,20 +249,20 @@ SIDC is **scale-invariant by default** (per v2.3.1), meaning the same dimensiona
 
 This section audits 5 specific concerns about the 4D math. Full numerical analysis is in `calculations/audit_4d_math.py` and `calculations/audit_4d_math_results.txt`.
 
-**(1) Hierarchy concentration at 4D→3+1D.** Strict scale-invariance would distribute the observed Planck hierarchy ( 1 × 10⁻³⁸) across all SIDC levels (e.g., ∼ 1 × 10⁻¹⁹ per level for 2 levels, ∼ 2 × 10⁻¹³ for 3 levels). SIDC **POSTULATES** that the hierarchy is concentrated at the 4D→3+1D level, not distributed. This is an **architectural choice**, not a derivation. SIDC does not currently say *why* 4D is the special hierarchy-generating level — this is Limitation 1 (no derivation of the dimensional structure).
+**(1) Hierarchy concentration at 4D→3+1D.** Strict scale-invariance would distribute the observed Planck hierarchy ( $1 \times 10^{-38}$) across all SIDC levels (e.g., ∼ $1 \times 10^{-19}\,\text{per}$ level for 2 levels, ∼ $2 \times 10^{-13}\,\text{for}$ 3 levels). SIDC **POSTULATES** that the hierarchy is concentrated at the 4D→3+1D level, not distributed. This is an **architectural choice**, not a derivation. SIDC does not currently say *why* 4D is the special hierarchy-generating level — this is Limitation 1 (no derivation of the dimensional structure).
 
-**(2) Time direction.** SIDC's time-dilation rule T₃+1D = $T_{\rm 4D}$ / $\epsilon_{\rm 3}$+1D with $\epsilon_{\rm 3}$+1D ∼ 1 × 10⁻³⁸ gives $T_{\rm 4D}$ ∼ 1 × 10⁻²¹ s and $L_{\rm 4D}$ ∼ 1 × 10⁻¹² m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
+**(2) Time direction.** SIDC's time-dilation rule T₃+1D = $T_{\rm 4D}$ / $\epsilon_{\rm 3}$+1D with $\epsilon_{\rm 3}$+1D ∼ $1 \times 10^{-38}\,\text{gives}$ $T_{\rm 4D}$ ∼ $1 \times 10^{-21}\,\text{s}$ and $L_{\rm 4D}$ ∼ $1 \times 10^{-12}\,\text{m}$ (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
 
 **(3) Energy conservation.** SIDC's energy budget: 32% of $E_{\rm 4D}$ projects to 3+1D (5% direct matter + 27% cumulative 2D universe DM), and 68% remains as 4D antigravity (which we observe as 3+1D's dark energy). This is self-consistent under careful interpretation of "projection" — the 68% DE in 3+1D is the *back-projected antigravity* of the 4D event, not the 68% of $E_{\rm 4D}$ that didn't project. Total energy is conserved via Stoke's theorem in the action (§2.5.1).
 
-**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires ∼ 1 × 10⁻¹⁹ hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
+**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires ∼ $1 \times 10^{-19}\,\text{hierarchy}$ at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
 
 **(5) Infinite regress.** In strict scale-invariance, SIDC has no "top" or "bottom" — it extends infinitely in both directions. Physics does not require a "first cause" (e.g., eternal inflation has no first moment). Each level is self-consistent. Energy is conserved at every level (Stoke's theorem). SIDC is OK with infinite regress, but the v2.1 cone-shape alternative (terminal at 2D) avoids the question by fiat. Both are valid; the choice is architectural (Limitation 11.5).
 
 **VERDICT: 4D math is self-consistent, with limitations:**
 
 **[PASS]** Hierarchy is concentrated at 4D→3+1D (matches observation, but is a postulate)
-**[PASS]** Time direction works ( $T_{\rm 4D}$ ∼ 1 × 10⁻²¹ s, $L_{\rm 4D}$ ∼ 1 × 10⁻¹² m, Dark Dimension scale)
+**[PASS]** Time direction works ( $T_{\rm 4D}$ ∼ $1 \times 10^{-21}\,\text{s}$, $L_{\rm 4D}$ ∼ $1 \times 10^{-12}\,\text{m}$, Dark Dimension scale)
 **[PASS]** Energy conservation is consistent
 **[PASS]** Open upward is mathematically OK
 **[PASS]** Infinite regress is physically acceptable
@@ -289,20 +289,20 @@ This V3 follow-up adds two improvements:
 
 **1. Stricter pure-Seyfert cut.** The Tier 1 #1 test used logSFRHa > 0 + sigma > 80 (broad WHAN AGN). V3 uses logSFRHa > 0.5 + sigma > 100 (stricter pure Seyfert, lower contamination from LINERs). Result: 5/5 cells with N ≥ 5 have ratio > 1.0; **median ratio = 1.106 (+10.6%, in SIDC's predicted +5-15% range)**.
 
-**2. Partial correlation analysis (Simpson's paradox).** This is the strongest finding. The naive correlation between AGN status and M/L is **NEGATIVE** (r = -0.067, p = 5 × 10⁻³) — opposite of SIDC's prediction! Why? Because AGN are preferentially low-mass late-type galaxies, which have intrinsically lower $M_{dyn}$/ M_*. The M_{b} is the dominant mediator.
+**2. Partial correlation analysis (Simpson's paradox).** This is the strongest finding. The naive correlation between AGN status and M/L is **NEGATIVE** (r = -0.067, p = $5 \times 10^{-3}$) — opposite of SIDC's prediction! Why? Because AGN are preferentially low-mass late-type galaxies, which have intrinsically lower $M_{dyn}$/ M_*. The M_{b} is the dominant mediator.
 
-**When we control for M_{b} (and other variables), the correlation INVERTS to POSITIVE (r = +0.367, p = 4 × 10⁻⁵⁷)** — exactly the direction SIDC predicts. This is a **Simpson's paradox**: the marginal correlation is opposite to the partial correlation.
+**When we control for M_{b} (and other variables), the correlation INVERTS to POSITIVE (r = +0.367, p = $4 \times 10^{-57}$)** — exactly the direction SIDC predicts. This is a **Simpson's paradox**: the marginal correlation is opposite to the partial correlation.
 
 | Control variables | Partial r (AGN vs M/L) | p-value |
 |---|---|---|
-| None (uncontrolled) | **-0.067** | 5 × 10⁻³ |
-| \| M_{b} | **+0.367** | 4 × 10⁻⁵⁷ |
-| \| sigma | +0.348 | 5 × 10⁻⁵¹ |
-| \| M_{b}, sigma, logSFR | +0.325 | 2 × 10⁻⁴⁴ |
+| None (uncontrolled) | **-0.067** | $5 \times 10^{-3}$|
+| \| M_{b} | **+0.367** | $4 \times 10^{-57}$|
+| \| sigma | +0.348 | $5 \times 10^{-51}$|
+| \| M_{b}, sigma, logSFR | +0.325 | $2 \times 10^{-44}$|
 
 **This is a MUCH stronger result than the V2 (Tier 1 #1) test alone:**
 - V2 (per-cell morphology matching): Wilcoxon p = 0.047 (marginally significant)
-- V3 (partial correlation): p = 4 × 10⁻⁵⁷ (very strong, many orders of magnitude)
+- V3 (partial correlation): p = $4 \times 10^{-57}$(very strong, many orders of magnitude)
 
 **Interpretation:** SIDC's prediction — AGN hosts have +5-15% more DM than matched non-AGN hosts — is **strongly supported** by the partial correlation analysis, but the *simple* (uncontrolled) test misses the signal because AGN are preferentially low-mass galaxies. Once you control for M_{b}, the AGN-specific DM contribution emerges clearly.
 
@@ -361,7 +361,7 @@ where:
 | 1 | Dimensional structure: 4D bulk + 3+1D brane + 2D universes | **[PASS]** SATISFIED by construction |
 | 2 | Projection efficiency: 32% projected, 68% antigravity | ? OPEN: requires specific geometry |
 | 3 | Inner split: 5% direct, 27% cumulative 2D | ? OPEN: requires 2D lifetime analysis |
-| 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε ∼ 1 × 10⁻³⁸) |
+| 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε ∼ $1 \times 10^{-38}$) |
 | 5 | $f_{\rm active}$ = 0.0513 ± 0.0073 | ? OPEN: requires $\tau_{\rm 2D}$/ $T_{\rm universe}$ (done in §4.35) |
 | 6 | Spatial distribution: isothermal cumulative | **[PASS]** SATISFIED (2D 1/r gravity gives isothermal) |
 | 7 | H₀ = 70 ± 3 (qualitative consistency) | ? OPEN: requires 2D CFT for specific value |
@@ -402,7 +402,7 @@ Per user question "can't we trial-and-error on the free parameters?", this secti
 **Q1 & Q4: Can trial-and-error give 32% projection efficiency?** YES.
 
 For f_split = 0.32 (SIDC's 32%/68% split between projected and antigravity, NOT to be confused with the back-projection efficiency f_proj used elsewhere in the paper), the bulk-brane coupling α must be at a specific order of magnitude:
-- For $E_{\rm 4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events ∼ 1 × 10¹⁰ (total SN in 13.8 Gyr), $E_{\rm event}$ ∼ 1 × 10⁴⁴ J, $\tau_{2D} \sim 0.7$ Gyr:
+- For $E_{\rm 4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events ∼ $1 \times 10^{10}$(total SN in 13.8 Gyr), $E_{\rm event}$ ∼ $1 \times 10^{44}\,\text{J}$, $\tau_{2D} \sim 0.7$ Gyr:
 - α ~ 0.03-0.3 gives f_split ≈ 0.32
 
 The coupling α is NOT free — it's constrained to α ~ 0.03-0.3 by the observed 68% dark energy. This **partially closes Limitation 26** by reducing the free parameters from 5 to 3.
@@ -430,10 +430,10 @@ Reverting to 2D=3+1D would require:
 
 SIDC's $f_{\rm active}$ = $\tau_{\rm 2D}$ / $T_{\rm universe}$ = 0.7/13.8 = 0.051 requires $\tau_{2D} = 0.7$ Gyr (the gas consumption timescale). This is **not arbitrary** — it's a specific timescale that can be matched by:
 - $M_{2D} \sim 1 \times 10^{46}$ J (2D universe's total energy)
-- L_consumption ∼ 1 × 10²⁸ W (2D universe's energy consumption rate)
+- L_consumption ∼ $1 \times 10^{28}\,\text{W}$ (2D universe's energy consumption rate)
 - → $\tau_{2D} = M_{2D}$ / L_consumption = 0.7 Gyr **[PASS]**
 
-This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D} \sim 1 \times 10^{46}$ J and gas consumption rate ∼ 1 × 10²⁸ W would naturally have a 0.7 Gyr lifetime.
+This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D} \sim 1 \times 10^{46}$ J and gas consumption rate ∼ $1 \times 10^{28}\,\text{W}$ would naturally have a 0.7 Gyr lifetime.
 
 **Q4 (Q4 again): Can the 5/27 inner split emerge from dynamics?** NO, the 5/27 inner split was DROPPED in v2.7.1.
 
@@ -457,7 +457,7 @@ A 2D CFT calculation is needed to derive the specific active boost and cumulativ
 |---|-----------|------------------------|--------|
 | 1 | $L_{\rm 2D}$ (2D matter content) | NO | Requires picking a specific 2D theory (not derivable) |
 | 2 | α (bulk-brane coupling) | YES | α ~ 0.03-0.3 for f_split = 0.32 **[PASS]** |
-| 3 | Death mechanism | YES | $M_{2D} \sim 1 \times 10^{46}$ J, L_rate ∼ 1 × 10²⁸ W for $\tau_{2D} = 0.7$ Gyr **[PASS]** |
+| 3 | Death mechanism | YES | $M_{2D} \sim 1 \times 10^{46}$ J, L_rate ∼ $1 \times 10^{28}\,\text{W}$ for $\tau_{2D} = 0.7$ Gyr **[PASS]** |
 | 4 | $T^D$ M at death (spatial) | NO | Requires picking a specific distribution (not derivable) |
 | 5 | 5/27/68 inner split | YES (resolved §4.35) | $f_{\rm active}$ = $\tau_{\rm 2D}$/ $T_{\rm universe}$ = 0.051 **[PASS]** |
 
@@ -587,13 +587,13 @@ See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_predi
 
 **The question:** is SIDC's $g_+$ universal across galaxy masses, or does it have a mass dependence?
 
-**Approach.** Fit (M/L, $g_+$) per galaxy on the SPARC database (Lelli+ 2016c), using the MOND interpolation function. Use quality cuts (Q ≥ 1, residual < 0.1) to get 43 high-quality fits across 4.5 decades in baryonic mass ( M_{b} ∼ 6.5 × 10⁶ to 2.5 × $10^{11} M_\odot$).
+**Approach.** Fit (M/L, $g_+$) per galaxy on the SPARC database (Lelli+ 2016c), using the MOND interpolation function. Use quality cuts (Q ≥ 1, residual < 0.1) to get 43 high-quality fits across 4.5 decades in baryonic mass ( M_{b} ∼ $6.5 \times 10^{6}\,\text{to}$ 2.5 × $10^{11} M_\odot$).
 
 **Results.**
 
 | Quantity | Value | Reference |
 |----------|-------|-----------|
-| Median per-galaxy $g_+$ | 9.74 × 10⁻¹¹ m/s² | Lelli+ 2017: 1.20 × 10⁻¹⁰ m/s² |
+| Median per-galaxy $g_+$ | $9.74 \times 10^{-11}\,\text{m}$/s² | Lelli+ 2017: $1.20 \times 10^{-10}\,\text{m}$/s² |
 | Std (log $g_+$) | 0.57 dex | M/L noise dominates |
 | Correlation (log M_{b}, log $g_+$) | r = +0.19, p = 0.22 | NOT SIGNIFICANT |
 | Cluster enhancement (Tian+ 2024 / SPARC) | 17.5× | SIDC $V_{\rm local}$ prediction |
@@ -602,18 +602,18 @@ See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_predi
 
 | log M_{b} | N | median $g_+$ | std (log) |
 |---------|---|-----------|-----------|
-| 7.0–8.5 | 13 | 8.85 × 10⁻¹¹ | 0.745 |
-| 8.5–9.5 | 13 | 1.18 × 10⁻¹⁰ | 0.414 |
-| 9.5–10.5 | 5 | 2.57 × 10⁻¹⁰ | 0.432 |
-| 10.5–11.5 | 11 | 7.35 × 10⁻¹¹ | 0.269 |
+| 7.0–8.5 | 13 | $8.85 \times 10^{-11}$| 0.745 |
+| 8.5–9.5 | 13 | $1.18 \times 10^{-10}$| 0.414 |
+| 9.5–10.5 | 5 | $2.57 \times 10^{-10}$| 0.432 |
+| 10.5–11.5 | 11 | $7.35 \times 10^{-11}$| 0.269 |
 
-The mass dependence is *not* statistically significant (p = 0.22). The $g_+$ distribution is consistent with a single value (~ 1.0–1.2 × 10⁻¹⁰ m/s²) plus M/L noise, across 4.5 decades in M_{b}.
+The mass dependence is *not* statistically significant (p = 0.22). The $g_+$ distribution is consistent with a single value (~ 1.0–$1.2 \times 10^{-10}\,\text{m}$/s²) plus M/L noise, across 4.5 decades in M_{b}.
 
 **Key findings:**
 
 1. ** $g_+$ is approximately UNIVERSAL across galaxy masses.** The correlation with M_{b} is r = +0.19, p = 0.22 (not significant). This supports the SIDC-MOND hybrid picture (Limitation 27), in which $g_+$ comes from cumulative 2D universe gravity and is independent of M_{b} at galaxy scale.
 
-2. **Cluster enhancement is ~17.5×.** Tian+ 2024 reports $g_+$ ~ 1.7 × 10⁻⁹ m/s² at cluster scale (BCG kinematics), which is 17.5× larger than the SPARC median (9.74 × 10⁻¹¹ m/s²). SIDC's $V_{\rm local}$ formula (Limitation 28) predicts this enhancement qualitatively ( $V_{\rm local}$ at cluster scale is larger than at galaxy scale, so $g_+$ ~ 1/ $V_{\rm local}$ is smaller at cluster scale... wait, that's the wrong direction).
+2. **Cluster enhancement is ~17.5×.** Tian+ 2024 reports $g_+$ ~ $1.7 \times 10^{-9}\,\text{m}$/s² at cluster scale (BCG kinematics), which is 17.5× larger than the SPARC median ($9.74 \times 10^{-11}\,\text{m}$/s²). SIDC's $V_{\rm local}$ formula (Limitation 28) predicts this enhancement qualitatively ( $V_{\rm local}$ at cluster scale is larger than at galaxy scale, so $g_+$ ~ 1/ $V_{\rm local}$ is smaller at cluster scale... wait, that's the wrong direction).
 
 3. **Wait — let me re-check the $V_{\rm local}$ prediction.** SIDC's $V_{\rm local}$ formula says $g_+$ ∝ 1/ $V_{\rm local}$. At cluster scale, $V_{\rm local}$ is LARGER (more baryons to integrate over), so $g_+$ should be SMALLER at cluster scale, not larger. But the data shows the OPPOSITE: $g_+$ is LARGER at cluster scale. This is a real tension with SIDC's $V_{\rm local}$ prediction.
 
@@ -887,7 +887,7 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 **Part 2: Gaussian Instanton.** The Gaussian instanton $g(\tau) = (1/\tau_{2D} \sqrt{\pi}) \exp(-\tau^2/\tau_{2D}^2)$ (v2.4 Task 3) implements the smooth decay profile for the 2D universe's scale factor. The normalized window localizes the fossil payload with $\int g d\tau = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24\pi) R^{(2)}$ (v2.4 Task 2, with c = 1 default).
 
-**Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_b$ profile)` builds the SIDC-MOND hybrid potential: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$, with $g_+$ = 1.2 × 10⁻¹⁰ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\rm total}(r)}$ and a BTFR-predicted $V_{\rm flat} = (G M_b g_+)^{1/4}$.
+**Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_b$ profile)` builds the SIDC-MOND hybrid potential: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$, with $g_+$ = $1.2 \times 10^{-10}\,\text{m}$/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\rm total}(r)}$ and a BTFR-predicted $V_{\rm flat} = (G M_b g_+)^{1/4}$.
 
 **Part 4: Testing Harness (independent dwarf-galaxy cases).** The emulator runs two INDEPENDENT dwarf-galaxy cases (AGC 114905 and KKR 25) and verifies that SIDC's SFH-DM correlation is qualitatively consistent with observations for each.
 
@@ -895,7 +895,7 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type stars alive, no SN progenitors in the recent past). The emulator's SFH is:
 - $SFR(t) = 0.5 M_\odot/yr$ for t ∈ [0.5, 2.0] Gyr (lookback)
-- $M_b$ (current) = $7.3 \times 10^{8} M_\odot$ (REVISED v2.7.33+: was 2 × 10⁸ — SIDC's M_{b} was wrong)
+- $M_b$ (current) = $7.3 \times 10^{8} M_\odot$ (REVISED v2.7.33+: was $2 \times 10^{8}$— SIDC's M_{b} was wrong)
 - $M_{\rm total\ formed} = 7.3 \times 10^{8} M_\odot$ (1.5 Gyr of SF)
 - $N_{CCSN, total} = 1.1 \times 10^{6}$
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
@@ -912,8 +912,8 @@ Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type st
 Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created 2D universes whose energy was returned to 3+1D as DM via the $S_{destruction}$ cumulative-return pathway. The emulator's SFH is:
 - $\mathrm{SFR}(t) = 4 \times 10^{-4} M_\odot/\mathrm{yr}$ for t ∈ [1.0, 4.0] Gyr (lookback) (REVISED v2.7.33+: was 1.0 $M_\odot$/yr, off by 2500×)
 - $M_b$ (current) = $3.0 \times 10^{6} M_\odot$ (REVISED v2.7.33+: was 10⁶, Makarov 2012)
-- $M_{\rm total\ formed} = 1.2 \times 10^{6} M_\odot$ (REVISED v2.7.33+: was 3.0 × 10⁹, off by 2500×)
-- $N_{\rm CCSN, total} = 1.8 \times 10^{3}$ (REVISED v2.7.33+: was 4.5 × 10⁶, off by 2500×)
+- $M_{\rm total\ formed} = 1.2 \times 10^{6} M_\odot$ (REVISED v2.7.33+: was $3.0 \times 10^{9}$, off by 2500×)
+- $N_{\rm CCSN, total} = 1.8 \times 10^{3}$ (REVISED v2.7.33+: was $4.5 \times 10^{6}$, off by 2500×)
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
 **SIDC prediction:** $M_{dyn}/M_{b} \sim 1\text{--}4$ (REVISED v2.7.33+: was 299.19, see legacy_paper.md legacy_paper.md §3.27 for the correction).
@@ -990,12 +990,12 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Quantity | Value | Units | Source |
 |----------|-------|-------|--------|
-| $M_b$ (current baryon mass) | 2.0 × 10⁸ | $M_\odot$ | Mancera Piña+ 2024 |
+| $M_b$ (current baryon mass) | $2.0 \times 10^{8}$| $M_\odot$ | Mancera Piña+ 2024 |
 | $SFR_{peak}$ | 0.5 | $M_\odot/yr$ | Same |
 | SFH window | [0.5, 2.0] | Gyr (lookback) | "A-type stars only" |
-| $M_{total formed}$ | 7.3 × 10⁸ | $M_\odot$ | ∫ SFR dt = 0.5 × 1.5 Gyr |
-| $E_{total injected}$ | 1.1 × 10⁵¹ | J | $N_{CCSN} \times E_{CCSN}$ |
-| $N_{CCSN, total}$ | 1.1 × 10⁶ | events | 15% IMF + $E_{\rm CCSN}$ |
+| $M_{total formed}$ | $7.3 \times 10^{8}$| $M_\odot$ | ∫ SFR dt = 0.5 × 1.5 Gyr |
+| $E_{total injected}$ | $1.1 \times 10^{51}$| J | $N_{CCSN} \times E_{CCSN}$ |
+| $N_{CCSN, total}$ | $1.1 \times 10^{6}$| events | 15% IMF + $E_{\rm CCSN}$ |
 | Recent event rate (50 Myr) | 0 | events/Myr | "no current SN progenitors" |
 | **SIDC $M_{dyn}/M_b$** | **1.36** | dimensionless | emulator output |
 | **Observed $M_{dyn}/M_b$** | ~1-2 | dimensionless | Mancera Piña+ 2024 |
@@ -1006,12 +1006,12 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Quantity | Value (old) | Value (revised) | Units | Source |
 |----------|-------------|-----------------|-------|--------|
-| $M_b$ (current baryon mass) | 1.0 × 10⁶ | 3.0 × 10⁶ | $M_\odot$ | Makarov+ 2012 |
-| $SFR_{peak}$ | 1.0 | 4 × 10⁻⁴ | $M_\odot/yr$ | Same (revised) |
+| $M_b$ (current baryon mass) | $1.0 \times 10^{6}$| $3.0 \times 10^{6}$| $M_\odot$ | Makarov+ 2012 |
+| $SFR_{peak}$ | 1.0 | $4 \times 10^{-4}$| $M_\odot/yr$ | Same (revised) |
 | SFH window | [1.0, 4.0] | [1.0, 4.0] | Gyr (lookback) | "intermediate-age SF" |
-| $M_{total formed}$ | 3.0 × 10⁹ | 1.2 × 10⁶ | $M_\odot$ | ∫ SFR dt (revised) |
-| $E_{total injected}$ | 4.5 × 10⁵¹ | 1.8 × 10⁴⁹ | J | 0.15% IMF + $E_{\rm CCSN}$ |
-| $N_{CCSN, total}$ | 4.5 × 10⁶ | 1.8 × 10³ | events | (revised) |
+| $M_{total formed}$ | $3.0 \times 10^{9}$| $1.2 \times 10^{6}$| $M_\odot$ | ∫ SFR dt (revised) |
+| $E_{total injected}$ | $4.5 \times 10^{51}$| $1.8 \times 10^{49}$| J | 0.15% IMF + $E_{\rm CCSN}$ |
+| $N_{CCSN, total}$ | $4.5 \times 10^{6}$| $1.8 \times 10^{3}$| events | (revised) |
 | Recent event rate (50 Myr) | 0 | 0 | events/Myr | "no current SN progenitors" |
 | **SIDC $M_{dyn}/M_b$** | **299.19** | **1-4** | dimensionless | emulator output (revised) |
 | **Observed $M_{dyn}/M_b$** | ~100-1000 | ~1-4 | dimensionless | dSph typical (revised) |
@@ -1024,7 +1024,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 |--------|-----------|---------------|-------------------|-------------|------------------|
 | $M_{\rm total\ formed} / M_{b}$ (energy ledger) | 3.65 | 3000 | 0.4 | **820×** | **0.11×** (reverses) |
 | Predicted $M_{dyn}/M_b$ (SIDC emulator) | 1.36 | 299.19 | 1-4 | **219×** | **0.7-3×** |
-| Energy injection $E_{total}$ (J) | 1.1 × 10⁵¹ | 4.5 × 10⁵¹ | 1.8 × 10⁴⁹ | 4.1× | 0.016× |
+| Energy injection $E_{total}$ (J) | $1.1 \times 10^{51}$| $4.5 \times 10^{51}$| $1.8 \times 10^{49}$| 4.1× | 0.016× |
 
 **Honest finding (v2.7.33+):** SIDC's 820× → 219× bifurcation was based on a 1000× error in KKR 25's M_{b}. The corrected bifurcation is much smaller (0.7-3×) and may even REVERSE for some metrics (M_total_formed/ M_{b} = 0.11×). SIDC's qualitative interpretation (intermediate SF → DM) is preserved; the quantitative prediction is much weaker. See legacy_paper.md legacy_paper.md §3.27 for the full self-correction.
 
@@ -1163,13 +1163,13 @@ The paper §4.42 claims " $g_+$ is approximately universal across 4.5 decades in
 
 **4. Cluster $g_+$ discrepancy (minor).**
 
-The MCMC fit on Tian+ 2024 cluster data gives $g_+$ = 1.05 × 10⁻⁹ m/s² (with 0.20 dex scatter). Tian+ 2024 reports 1.7 × 10⁻⁹ m/s². The 0.62× discrepancy is documented in the bcg_mcmc_results.json. The paper's cluster/galaxy ratio of 17.5× is computed from SIDC's median $g_+$ ( 9.74 × 10⁻¹¹) divided into Tian+ 2024's 1.7 × 10⁻⁹, but SIDC's *own* MCMC best fit gives 1.05 × 10⁻⁹, which is a 14.2× ratio. The paper is somewhat inconsistent in which value it uses.
+The MCMC fit on Tian+ 2024 cluster data gives $g_+$ = $1.05 \times 10^{-9}\,\text{m}$/s² (with 0.20 dex scatter). Tian+ 2024 reports $1.7 \times 10^{-9}\,\text{m}$/s². The 0.62× discrepancy is documented in the bcg_mcmc_results.json. The paper's cluster/galaxy ratio of 17.5× is computed from SIDC's median $g_+$ ( $9.74 \times 10^{-11}$) divided into Tian+ 2024's $1.7 \times 10^{-9}$, but SIDC's *own* MCMC best fit gives $1.05 \times 10^{-9}$, which is a 14.2× ratio. The paper is somewhat inconsistent in which value it uses.
 
 **Status:** not a bug; honest reporting of MCMC, but the cluster/galaxy ratio could be more carefully derived from SIDC's own fit.
 
 **5. AGN partial correlation (verified).**
 
-The AGN host DM partial correlation (r = +0.367, p = 4 × 10⁻⁵⁷) uses a custom implementation of partial Spearman correlation (rank-transform + linear regression of ranks + Spearman on residuals). This is a *standard* methodology for partial rank correlation, and the result is statistically real. The p-value of 4 × 10⁻⁵⁷ reflects the large N (1190 AGN + 566 control = 1756 galaxies) and the real correlation after controlling for M_{b}.
+The AGN host DM partial correlation (r = +0.367, p = $4 \times 10^{-57}$) uses a custom implementation of partial Spearman correlation (rank-transform + linear regression of ranks + Spearman on residuals). This is a *standard* methodology for partial rank correlation, and the result is statistically real. The p-value of $4 \times 10^{-57}\,\text{reflects}$ the large N (1190 AGN + 566 control = 1756 galaxies) and the real correlation after controlling for M_{b}.
 
 **Status:** verified. The methodology is standard, the result is statistically robust. The "p < 10⁻⁵⁰" claim in the paper is supported.
 
@@ -1187,7 +1187,7 @@ The cosmic shear test (§4.43) computes S₈ = 0.775 (SIDC) vs 0.759 (DES/KiDS) 
 
 **8. SPARC RAR fit (verified).**
 
-The SPARC RAR fit uses 175 galaxies, with 43 passing the Q≥1 and residual<0.1 quality cut. The fitted $g_+$ = 9.74 × 10⁻¹¹ m/s² is within 20% of the empirical McGaugh+ 2016 value ( 1.20 × 10⁻¹⁰). The data is correctly parsed from the SPARC `_rotmod.dat` files in `supporting/data/SPARC/`. The median $g_+$ across 4.5 decades in M_{b} is consistent with SIDC's universal $g_+$ prediction.
+The SPARC RAR fit uses 175 galaxies, with 43 passing the Q≥1 and residual<0.1 quality cut. The fitted $g_+$ = $9.74 \times 10^{-11}\,\text{m}$/s² is within 20% of the empirical McGaugh+ 2016 value ( $1.20 \times 10^{-10}$). The data is correctly parsed from the SPARC `_rotmod.dat` files in `supporting/data/SPARC/`. The median $g_+$ across 4.5 decades in M_{b} is consistent with SIDC's universal $g_+$ prediction.
 
 **Status:** verified. The 43-galaxy cut is a reasonable quality filter; the result is statistically robust.
 
@@ -1211,7 +1211,7 @@ The Sun's intrinsic DM is computed as ∼ 10⁻¹⁷ of the local DM, which is c
 | BTFR slope (3.53 vs "V⁴") | LOW | Within range, not a bug |
 | Per-galaxy $g_+$ scatter (0.57 dex) | LOW | Documented as "approximately universal" |
 | Cluster $g_+$ discrepancy (0.62×) | LOW | Documented in MCMC results |
-| AGN partial correlation (p= 4 × 10⁻⁵⁷) | NONE | Verified, real result |
+| AGN partial correlation (p= $4 \times 10^{-57}$) | NONE | Verified, real result |
 | CMB test ( Δχ²=+650) | NONE | Verified, robust |
 | Cosmic shear S₈ | NONE | Honest qualitative |
 | SPARC RAR fit (43 galaxies) | NONE | Verified, robust |
@@ -1256,7 +1256,7 @@ SIDC's principle (§2.3, §2.5.3) says: *every energetic event creates a 2D univ
 The v5 calculation (`time_scale_invariance_test_v5.py`) fixes ALL bugs and uses the correct temperature. The result:
 
 - R(z) = R_stellar(z) + R_Thomson_proper(z) + R_recomb_proper(z) (with $z_{\rm max}$ = 2000)
-- Thomson rate is dominant at z > 4 (R_Thomson(6) = 3.7 × 10⁴⁴, R_stellar(6) = 3.1 × 10⁴²)
+- Thomson rate is dominant at z > 4 (R_Thomson(6) = $3.7 \times 10^{44}$, R_stellar(6) = $3.1 \times 10^{42}$)
 - r(z=6) = 342 ≈ (1+6)^3 = 343 (the expansion factor)
 - r(z=10) = 1327 ≈ (1+10)^3 = 1331
 - r(z=2) = 27 ≈ (1+2)^3 = 27
@@ -1299,7 +1299,7 @@ This is a meaningful distinction. The previous v2/v3 analysis was based on a bug
 
 **The v4 bug (missing (1+z)^3 factor).**
 
-The v4 function `rho_DM_integral_correct` returned the *integral* `∫ R/(E*(1+z)^4) dz` without multiplying by (1+z)^3. The ratio r(z) = integral(z)/integral(0) was reported as "r(z)", but the actual r(z) = (1+z)^3 * integral(z)/integral(0). The corrected r(z=6) = 7^3 * 8.5 × 10⁻⁵ = 0.029 (NOT 1 × 10⁻⁴ as v4 reported).
+The v4 function `rho_DM_integral_correct` returned the *integral* `∫ R/(E*(1+z)^4) dz` without multiplying by (1+z)^3. The ratio r(z) = integral(z)/integral(0) was reported as "r(z)", but the actual r(z) = (1+z)^3 * integral(z)/integral(0). The corrected r(z=6) = 7^3 * $8.5 \times 10^{-5}$= 0.029 (NOT $1 \times 10^{-4}\,\text{as}$ v4 reported).
 
 This is a NOTATIONAL bug: the v4 function returns integral ratio, not r(z). With the (1+z)^3 factor included, r(z=6) = 0.029 (35× underprediction of DM at z=6).
 

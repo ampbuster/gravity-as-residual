@@ -12,7 +12,7 @@ $$S_{\rm SIDC} = S_{4D} + S_{3+1D} + \sum_{\rm events} S_{2D} + S_{\rm proj} + S
 
 | Component | Status | Source |
 |---|---|---|
-| $S_{\rm 4D}$ (4D bulk event) | ✓ Implemented | L308bn ( $M_{\rm Pl,4D} = 3.93×10²³ GeV$ via α-GM) |
+| $S_{\rm 4D}$ (4D bulk event) | ✓ Implemented | L308bn ( $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV}$ via α-GM) |
 | $S_{\rm 3+1D}$ (3+1D brane) | ✓ Implemented | Standard + SM |
 | $S_{\rm 2D}$ (per 2D universe) | ⚠️ Partially implemented | Form written, exact $Z_{\rm 2D}$ unclear |
 | S_proj (projection) | ✓ Structurally implemented | L308az (mirror plane) |
@@ -41,7 +41,7 @@ where each Z is the partition function of that sector.
 
 $$Z_{4D} = \int \mathcal{D}\Phi_{4D} \exp\left(i \int d^4x \sqrt{-g_4} \left[\frac{R_4}{16\pi G_4} + N_{4D} \mathcal{L}_{4D}\right]\right)$$
 
-**Status**: ✓ Implemented via L308bn. The α-GM derivation gives $M_{\rm Pl,4D} = 3.93×10²³ GeV$, which enters $S_{\rm 4D}$ directly.
+**Status**: ✓ Implemented via L308bn. The α-GM derivation gives $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV}$, which enters $S_{\rm 4D}$ directly.
 
 **Expertise needed**: Standard GR/QFT.
 

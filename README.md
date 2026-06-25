@@ -76,7 +76,7 @@ This repository contains a thought experiment in theoretical physics: a single g
 | Case | Result | Notes |
 |---|---|---|
 | SPARC (175 galaxies) | 10% median residual | Matches MOND within 20% |
-| Tian+ 2024 (50 BCGs) | 1.7×10⁻⁹ m/s² | Within 30% of cluster g₊ |
+| Tian+ 2024 (50 BCGs) | $1.7 \times 10^{-9}\,\text{m}$/s² | Within 30% of cluster g₊ |
 | Sun | No detectable DM | Consistent (no DM spike) |
 | DF2/DF4 | No DM | PASS (no recent energetic events) |
 | FCC 224 | DM-poor | PASS (isolated ultra-diffuse) |
@@ -198,8 +198,8 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 
 | System | Empirical g₊ | MOND | SIDC |
 |---|---|---|---|
-| Isolated spiral (SPARC) | 1.2×10⁻¹⁰ m/s² | PASS | PASS |
-| Massive cluster (Tian+ 2024) | 1.7×10⁻⁹ m/s² | **FAIL** (a₀ mismatch) | **PASS** ($E_{\rm crit}$ scaling) |
+| Isolated spiral (SPARC) | $1.2 \times 10^{-10}\,\text{m}$/s² | PASS | PASS |
+| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}\,\text{m}$/s² | **FAIL** (a₀ mismatch) | **PASS** ($E_{\rm crit}$ scaling) |
 | Dwarf galaxy (low SB) | Variable | Fail | **PASS** ($E_{\rm crit}$ threshold) |
 
 **MOND's weakness**: works for isolated spirals but fails in massive clusters. The cluster acceleration is 10× higher than MOND's a₀, forcing MOND to invoke unseen baryonic gas or sterile neutrinos. **SIDC scales naturally from galaxy to cluster via $E_{\rm crit}$.**
@@ -235,7 +235,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 - **Parsimony**: 1 geometric process vs ΛCDM's 20+ free parameters. **No DM particle. No cosmological constant.**
 - **First-principles structure**: All components of the cascade now derive from SM count, Clifford algebras (Cℓ(6) is isomorphic to the SM algebra, Stoica 2018), and Bott periodicity. The cascade **structure** is end-to-end first-principles (L308ba-L308bk chain); the **quantitative values** (ε, $f_{\rm DE}$, $f_{\rm leak}$) are calibrated to observation.
 - **Empirical match**: $\rho_{\rm DE}$ within 0.13% of observation; scaling law holds over 54 orders of magnitude; 16/17 test categories consistent (1 confounded).
-- **Time direction**: The cone is asymmetric in time direction (L308x). $\gamma_{\rm 4D} = 1.10×10¹¹¹$ and $\gamma_{\rm 2D} = 5.5×10⁴⁴$ are both cascade amplification factors (not SR time dilation — they are dimensionless frame-dilation exponents relating energy scale to clock rate, see L308bs/L308bw).
+- **Time direction**: The cone is asymmetric in time direction (L308x). $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ and $\gamma_{\rm 2D} = 5.5 \times 10^{44}$ are both cascade amplification factors (not SR time dilation — they are dimensionless frame-dilation exponents relating energy scale to clock rate, see L308bs/L308bw).
 - **CMB-era consistency**: L308ab shows $f_{\rm leak}$ = H(z) drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 $\Omega_{\rm c}$ = 0.265.
 - **$N_{\rm sub}$ derived**: L308ad gives $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ = 382 ± 6, matching framework's 386 within 1.6%.
 

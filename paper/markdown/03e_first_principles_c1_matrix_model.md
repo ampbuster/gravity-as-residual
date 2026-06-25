@@ -20,9 +20,9 @@ The brute force formula μ = E/τ gives:
 
 | Event | μ (GeV²) | $M_{\rm Pl,2D}$ | User's intuition |
 |---|---|---|---|
-| TNT (small event) | 1.28×10¹⁷ | **360,000 TeV** | Should be SMALLER, not bigger! |
-| SN (medium event) | 9.67×10⁶ | 2.95 TeV | Reasonable |
-| Quasar (huge event) | 2.02×10² | **14 GeV** | Should be LARGER, not smaller! |
+| TNT (small event) | $1.28 \times 10^{17}$| **360,000 TeV** | Should be SMALLER, not bigger! |
+| SN (medium event) | $9.67 \times 10^{6}$| 2.95 TeV | Reasonable |
+| Quasar (huge event) | $2.02 \times 10^{2}$| **14 GeV** | Should be LARGER, not smaller! |
 
 ** $M_{\rm Pl,2D}$ is INVERTED from event size!**
 
@@ -50,14 +50,14 @@ This is **counterintuitive** because we might think:
 
 TNT 2D universe:
 - $M_{\rm Pl,2D}$ = 360,000 TeV (very rigid)
-- Size = c × τ = 3×10⁸ × 10⁻⁴³ = 3× 10⁻³⁵ m (TINY!)
-- Action = E × τ = 4×10⁹ × 10⁻⁴³ = 4× 10⁻³⁴ J·s (tiny!)
+- Size = c × τ = $3 \times 10^{8}$× 10⁻⁴³ = $3 \times 10^{-35}\,\text{m}$ (TINY!)
+- Action = E × τ = $4 \times 10^{9}$× 10⁻⁴³ = $4 \times 10^{-34}\,\text{J}$·s (tiny!)
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:
 - $M_{\rm Pl,2D}$ = 2.95 TeV (softer)
 - Size = c × τ = 10¹⁰ m (huge!)
-- Action = 10⁴⁴ × 33 = 3.3×10⁴⁵ J·s (huge!)
+- Action = 10⁴⁴ × 33 = $3.3 \times 10^{45}\,\text{J}$·s (huge!)
 - DM contribution: huge (action is huge)
 
 So even though $M_{\rm Pl,2D}$ is "inverted", DM contribution isn't:
@@ -91,10 +91,10 @@ We tested several alternatives:
 
 | Formula | $\mu_{\rm SN}$ | $\mu_{\rm TNT}$ | $\mu_{\rm Quasar}$ | Weirdness |
 |---|---|---|---|---|
-| **v3.3 (universal μ)** | 8.73×10⁶ | 8.73×10⁶ | 8.73×10⁶ | None |
-| **v3.3.6 ( E/τ** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
-| **Energy-based ( $E^{\alpha}$)** | 8.73×10⁶ | 4.2× 10⁻³⁷ | 1.3× 10⁻²⁹ | Opposite (also weird) |
-| **Capped ( μ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
+| **v3.3 (universal μ)** | $8.73 \times 10^{6}$| $8.73 \times 10^{6}$| $8.73 \times 10^{6}$| None |
+| **v3.3.6 ( E/τ** | $9.67 \times 10^{6}$| $1.3 \times 10^{17}$| $2.0 \times 10^{2}$| YES (inverted) |
+| **Energy-based ( $E^{\alpha}$)** | $8.73 \times 10^{6}$| $4.2 \times 10^{-37}$| $1.3 \times 10^{-29}$| Opposite (also weird) |
+| **Capped ( μ ≤ K_max)** | $9.7 \times 10^{6}$| $9 \times 10^{8}$| $2 \times 10^{2}$| Reduced |
 
 The energy-based formula gives OPPOSITE weirdness (TNT very small μ, quasar very large).
 
@@ -103,12 +103,12 @@ The energy-based formula gives OPPOSITE weirdness (TNT very small μ, quasar ver
 A capped formula might work:
 $$\mu = \min(K_{\max}, K_F \times E/\tau)$$
 
-with K_max = 100 × $\mu_{\rm SN}$ = 9×10⁸ GeV²
+with K_max = 100 × $\mu_{\rm SN}$ = $9 \times 10^{8}\,\text{GeV}$²
 
 This:
 - Keeps the E/τ pattern for high- τ events
 - Caps μ at K_max to avoid TNT weirdness
-- Result: TNT μ = 9×10⁸ (100× SN, not 10¹⁰× SN)
+- Result: TNT μ = $9 \times 10^{8}$(100× SN, not 10¹⁰× SN)
 
 But this is ad hoc — no clear principle for K_max.
 
@@ -122,7 +122,7 @@ What if there's a NATURAL FLOOR for 2D universe creation?
 - $E_{\rm threshold}$ = 10⁴⁴ J (SN scale — but then no TNT, flare, etc.)
 
 If $E_{\rm threshold}$ = 10⁹ J:
-- TNT (4×10⁹ J) is barely above threshold → maybe no 2D universe
+- TNT ($4 \times 10^{9}\,\text{J}$) is barely above threshold → maybe no 2D universe
 - SN (10⁴⁴ J) is well above → standard 2D universe
 - This would explain why we don't see TNT 2D universes
 
@@ -132,8 +132,7 @@ But the threshold needs a physical principle.
 
 The cleanest approach:
 
-1. **v3.3 (canonical)**: Keep universal μ = 8.73×10⁶
-   - Avoids weirdness
+1. **v3.3 (canonical)**: Keep universal μ = $8.73 \times 10^{6}$- Avoids weirdness
    - Simpler (9 parameters pre-A1, 15 parameters current v3.5.9+ A2 (α dim-specific)+L308z)
    - Agrees with most physics intuition
    - $M_{\rm Pl,2D}$ = 2.95 TeV universal
@@ -182,7 +181,7 @@ The framework should:
 
 ## Final Recommendation
 
-**KEEP v3.3 as canonical** (universal μ = 8.73×10⁶ GeV²)
+**KEEP v3.3 as canonical** (universal μ = $8.73 \times 10^{6}\,\text{GeV}$²)
 **MENTION v3.3.6 as alternative** with explicit caveats about TNT weirdness
 **CONTINUE search for true first-principles μ** via Karlsson 2025, Hartle-Hawking, etc.
 

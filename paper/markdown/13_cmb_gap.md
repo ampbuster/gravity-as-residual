@@ -5,7 +5,7 @@
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab $f_{\rm leak}$ = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The $f \times \varepsilon$ invariant (1.13× $10^{-123}$) is preserved in A2 (ε = 6.32× 10⁻³⁴). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab $f_{\rm leak}$ = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The $f \times \varepsilon$ invariant (1.13× $10^{-123}$) is preserved in A2 (ε = $6.32 \times 10^{-34}$). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
 
 <!-- 13_cmb_gap.md - part of paper.md split (v3.0.13) -->
 
@@ -109,12 +109,12 @@ To complement the qualitative picture, SIDC has been fit to the **SPARC database
 This is the standard interpolating function that smoothly transitions from Newtonian ( $g_{\rm bar}$ >> a₀) to MOND ( $g_{\rm bar}$ << a₀).
 
 **MCMC result (this run):**
-- a₀ = 2.34 × 10⁻¹⁰ ± 1.54 × 10⁻¹⁰ m/s^2
+- a₀ = $2.34 \times 10^{-10}$± $1.54 \times 10^{-10}\,\text{m}$/s^2
 - sigma_int = 0.089 ± 0.040 dex
 - Reduced chi² ≈ 0 (model is "over-fit" given the wide error bars)
 
 **Literature comparison (Li+ 2018, arXiv:1803.00022):**
-- a₀ = 1.20 × 10⁻¹⁰ ± 0.02 m/s^2
+- a₀ = $1.20 \times 10^{-10}$± 0.02 m/s^2
 - sigma_int = 0.057 ± 0.002 dex
 - Reduced χ² = 1.0 (good fit)
 

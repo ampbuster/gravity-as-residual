@@ -5,8 +5,8 @@
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → $6.32 \times 10^{-34}$, $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$(was $f_{\rm back}$ = $6.03 \times 10^{-88}\,\text{in}$ A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved.
 
 <!-- 03a_relations.md - part of paper.md split (v3.1, renamed from 03_relations.md for sequential ordering) -->
 
@@ -64,7 +64,7 @@ The model in this paper is one of several recent proposals that attempt to unify
 
 **The SIDC-MOND hybrid's empirical status (v2.3.0):**
 - Galaxy scale (SPARC, 175 galaxies): 10% median residual with free g₊ and M/L (commit 153)
-- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = 1.3 × 10⁻⁹ ( 1σ: 5.3 × 10⁻¹⁰ to 2.7 × 10⁻⁹), matches Tian+ 2024's 1.7 × 10⁻⁹ within 1σ (commit 159)
+- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = $1.3 \times 10^{-9}$( 1σ: $5.3 \times 10^{-10}\,\text{to}$ $2.7 \times 10^{-9}$), matches Tian+ 2024's $1.7 \times 10^{-9}\,\text{within}$ 1σ (commit 159)
 - $V_{\rm local}$ predictions test (commit 170): $g_+ \propto \sigma^{1.85}$ matches MOND EFE ( $g_+$ ∝ σ²) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
 
 **The SIDC-MOND hybrid is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.** SIDC's pure prediction ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$) was falsified by real SPARC (commit 152, Limitation 19). SIDC's *framework* (4D event → 3+1D → 2D, with cumulative 2D universe gravity) survives because the SIDC-MOND hybrid is a *natural completion*: SIDC provides the *geometric origin* of $g_+$, MOND provides the *functional form* of $g_{\rm obs}$( $g_{\rm bar}$). The hybrid model is a *prediction* of SIDC (Limitation 27), and it's *consistent* with the cluster-scale data (Limitation 28). A specific implementation of SIDC would need to derive MOND's interpolation function from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture (Limitation 27).
@@ -98,11 +98,11 @@ The CGHS model [CGHS92] is a 1+1-dimensional dilaton gravity theory that is *exa
 - A derivation of SIDC's birth/death GW spectrum (per §10)
 
 **Quantitative check.** SIDC's lifetime $\tau_{\rm 2D}$ = $(E/E_{\rm Pl})^{1.29}$ × $t_{\rm Pl}$, calibrated to τ(SN) = 33 s, predicts:
-- τ(LHC pp) = 3.5 × 10⁻⁶⁴ s for $E_{\rm pp}$ = 10⁻⁹ J
-- τ(BNS merger) = 4.3 × 10⁵ yr for $E_{\rm BNS}$ = 10⁴⁶ J
-- τ(AGN outburst) = 1.6 × 10⁸ yr for $E_{\rm AGN}$ = 10⁵² J
+- τ(LHC pp) = $3.5 \times 10^{-64}\,\text{s}$ for $E_{\rm pp}$ = 10⁻⁹ J
+- τ(BNS merger) = $4.3 \times 10^{5}\,\text{yr}$ for $E_{\rm BNS}$ = 10⁴⁶ J
+- τ(AGN outburst) = $1.6 \times 10^{8}\,\text{yr}$ for $E_{\rm AGN}$ = 10⁵² J
 
-CGHS original (p=3) gives τ(LHC pp) = 3.3 × $10^{-138}$ s (75 orders too short), and RST (p=1) gives τ(LHC pp) = 3.3 × 10⁻⁵⁴ s (9 orders too long). SIDC's α = 1.29 is *between* these extremes, which is consistent with a CGHS-like 2D black hole with *intermediate* back-reaction. A CGHS-with-back-reaction calculation that yields exactly α = 1.29 would be a *first-principles derivation* of SIDC's energy-scaling rule. This is a concrete, testable prediction for 2D quantum gravity experts (a working calculation, not a vague hope).
+CGHS original (p=3) gives τ(LHC pp) = 3.3 × $10^{-138}$ s (75 orders too short), and RST (p=1) gives τ(LHC pp) = $3.3 \times 10^{-54}\,\text{s}$ (9 orders too long). SIDC's α = 1.29 is *between* these extremes, which is consistent with a CGHS-like 2D black hole with *intermediate* back-reaction. A CGHS-with-back-reaction calculation that yields exactly α = 1.29 would be a *first-principles derivation* of SIDC's energy-scaling rule. This is a concrete, testable prediction for 2D quantum gravity experts (a working calculation, not a vague hope).
 
 SIDC's 2D universes have Hawking temperatures $T_H \sim M_{\rm Pl}$ × $( E_{\rm Pl}/E)^{1}$.29 that are *above* the Planck temperature for all events (E < $E_{\rm Pl}$), confirming SIDC's framing of 2D universes as Planckian objects. This is consistent with the CGHS picture: 2D black holes at Planckian energies are well-defined in 2D dilaton gravity (the theory is well-behaved even when 4D gravity breaks down).
 
@@ -202,7 +202,7 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 
 **Quantitative check.** For SIDC's SN-calibrated 2D universe of $\tau_{2D} = 33$ s, RT gives:
 - $R_{\rm 2D}$ = c × $\tau_{2D} = 9.9$ × 10⁹ m (about 70 × Earth-Moon distance)
-- A_2D = 4π R_2D² = 1.2 × 10²¹ m²
+- A_2D = 4π R_2D² = $1.2 \times 10^{21}\,\text{m}$²
 - $S_{\rm 2D}$ = A_2D / (4 l_P²) ≈ 10⁹⁰ (in natural units)
 
 This is an enormous entanglement entropy. The 2D universe is "small" in its intrinsic 1+1D spacetime, but its boundary in 3+1D is a 2-sphere of radius ∼ 10¹⁰ m. The RT formula gives this boundary area a holographic content of 10⁹⁰ dimensionless units. This is consistent with SIDC's claim that 2D universes can carry "missing bulk entropy" that back-projects to 3+1D as DM.
@@ -511,7 +511,7 @@ For a typical Milky-Way-like galaxy:
 - Required cumulative 2D universe deaths: $3.2 \times 10^{11} M_\odot$ worth of energy
 
 Over a Hubble time ( T = 13.8 Gyr):
-- Cumulative SNe in MW: ∼ 8.7 × 10¹⁵ events
+- Cumulative SNe in MW: ∼ $8.7 \times 10^{15}\,\text{events}$
 - Each SN releases∼ 10⁴⁴ J of kinetic energy$\sim 5.6 \times 10^{-7} M_\odot c^2$
 - Total SN energy in MW:$\sim 5 \times 10^{9} M_\odot c^2$ (i.e.,∼ 8\% of MW baryons)
 
@@ -528,16 +528,16 @@ $$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$$
 To get the required $3.7 \times 10^{-5} M_\odot$ per universe:
 $$e^{-ky} = 3.7 \times 10^{-5} / 6 = 6.2 \times 10^{-6}$$
 
-**Discrepancy with SIDC's stated value:** SIDC has previously stated $e^{-ky} \sim 10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is 6.2 × 10⁻⁶, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
+**Discrepancy with SIDC's stated value:** SIDC has previously stated $e^{-ky} \sim 10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is $6.2 \times 10^{-6}$, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
 
 **Honest assessment:** the 67x per-event amplification is a *postulated* mechanism, not a derivation. The 2D universe's intrinsic mass and the time compression factor are free parameters (effectively absorbed into SIDC's calibration).
 
 **3.11.3 Explanation 2: Time accumulation (necessary but not sufficient).**
 
 Over 13.8 Gyr, the cumulative number of energetic events in a galaxy is large:
-- SNe: ∼ 8.7 × 10¹⁵ in MW
-- Hypernovae: ∼ 8.7 × 10¹³ (1% of SNe)
-- Long GRBs: ∼ 8.7 × 10¹² (0.1% of SNe)
+- SNe: ∼ $8.7 \times 10^{15}\,\text{in}$ MW
+- Hypernovae: ∼ $8.7 \times 10^{13}$(1% of SNe)
+- Long GRBs: ∼ $8.7 \times 10^{12}$(0.1% of SNe)
 - BNS mergers: ∼ 10⁶ in MW
 - AGN outbursts: ∼ 10⁷ in MW
 

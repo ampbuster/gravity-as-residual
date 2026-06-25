@@ -13,14 +13,14 @@ Apparent "0 occurrences" were due to notation differences.
 
 | Parameter | Paper | Memory | Status |
 |-----------|-------|--------|--------|
-| $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV | 3 | 3 | ✓ CONSISTENT |
+| $M_{\rm Pl,3D}$ = $1.22 \times 10^{19}\,\text{GeV}$ | 3 | 3 | ✓ CONSISTENT |
 | $M_{\rm Pl,2D}$ = 2.95 TeV | 195 | (varies) | ✓ CONSISTENT |
-| $M_{\rm Pl,4D}$ = 3.93×10²³ GeV | 40 | 38 | ✓ CONSISTENT |
+| $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ | 40 | 38 | ✓ CONSISTENT |
 | α = 1.289 | 473 | (varies) | ✓ CONSISTENT |
-| μ = 8.73×10⁶ GeV² | 6 | (varies) | ✓ CONSISTENT |
-| $E_{\rm 4D}$ = 5×10⁷⁹ J | 25 | 21 | ✓ CONSISTENT |
-| $N_{\rm sub} = 3$.86×10² | 62 | 67 | ✓ CONSISTENT |
-| AGN rate = 3× 10⁻¹⁶ | 16 | 3 | ✓ CONSISTENT |
+| μ = $8.73 \times 10^{6}\,\text{GeV}$² | 6 | (varies) | ✓ CONSISTENT |
+| $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ | 25 | 21 | ✓ CONSISTENT |
+| $N_{\rm sub} = 3$.$86 \times 10^{2}$| 62 | 67 | ✓ CONSISTENT |
+| AGN rate = $3 \times 10^{-16}$| 16 | 3 | ✓ CONSISTENT |
 | $\tau_{\rm SN}$ = 33 s | 388 | (varies) | ✓ CONSISTENT |
 | 5/27/68 split | 419 | (varies) | ✓ CONSISTENT |
 | 0.13% DE (simple $f_{\rm DE}$) / 2.7% (bilateral) | 20 | (varies) | ✓ CONSISTENT |
@@ -30,10 +30,10 @@ Apparent "0 occurrences" were due to notation differences.
 
 | Parameter | Paper notation | Memory notation |
 |-----------|----------------|-----------------|
-| $\tau_{\rm 3D}$,apparent | $\tau_{\rm 3D}$,apparent (text) | 9.10×10²⁴ (numeric, **UNITS ERROR — audit fixed to 1.66×10¹⁴⁵ (A2)**) |
-| $\gamma_{\rm 4D}$ | $\gamma_{\rm 4D}$ (text) | 1.10×10¹¹¹ (A2) (numeric, **L308t updated precision to 1.10×10¹¹¹ (A2)**) |
-| $\tau_{\rm 4D}$ | $\tau_{\rm 4D}$ (text) | 1.51×10³⁴ (numeric) |
-| age ratio | (mentioned as "day 1") | 1.5× 10⁻¹⁵ (numeric) |
+| $\tau_{\rm 3D}$,apparent | $\tau_{\rm 3D}$,apparent (text) | $9.10 \times 10^{24}$(numeric, **UNITS ERROR — audit fixed to $1.66 \times 10^{145}$(A2)**) |
+| $\gamma_{\rm 4D}$ | $\gamma_{\rm 4D}$ (text) | $1.10 \times 10^{111}$(A2) (numeric, **L308t updated precision to $1.10 \times 10^{111}$(A2)**) |
+| $\tau_{\rm 4D}$ | $\tau_{\rm 4D}$ (text) | $1.51 \times 10^{34}$(numeric) |
+| age ratio | (mentioned as "day 1") | $1.5 \times 10^{-15}$(numeric) |
 
 Both notations exist in BOTH files (just used in different contexts).
 

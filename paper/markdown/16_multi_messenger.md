@@ -15,7 +15,7 @@ This is fundamentally different from ΛCDM/WIMP frameworks where DM is a particl
 
 **Inputs**:
 - Sub-universe energy: $E_{\rm sub} = 1.295 \times 10^{77}$ J (per-sub-universe, L308o)
-- 2D universe birth rate: $R_{\rm 2D} = 6.04 \times 10^{-5}$ /s in observable universe (calibrated to AGN rate $10^{-15.52}$ /s/galaxy × 2×10¹¹ galaxies)
+- 2D universe birth rate: $R_{\rm 2D} = 6.04 \times 10^{-5}$ /s in observable universe (calibrated to AGN rate $10^{-15.52}$ /s/galaxy × $2 \times 10^{11}\,\text{galaxies}$)
 
 **Output**:
 $$P_{\rm total} = E_{\rm sub} \times R_{\rm 2D} = 7.82 \times 10^{72} \text{ W}$$
@@ -126,7 +126,7 @@ Given that SIDC's standard multi-messenger signals are SECONDARY and small, the 
 | $g_+$ vs SFR (dwarfs) | TIGHT correlation | NO correlation | Compare KKR 25 (DM-rich, post-starburst) vs AGC 114905 (DM-poor, never crossed $E_{\rm crit}$) |
 | BCG $g_+$ vs ICM activity | TIGHT correlation | NO correlation | Tian+ 2024, eROSITA cluster sample |
 | 47 Tuc DM | $M_{\rm dyn} \approx M_{\rm stars}$ (NO spike) | DM spike | Rubin/LSST DP1 (2025), DR1 (2027) |
-| BCG $g_+$ universal | $g_+$ ≈ 1.7 × 10⁻⁹ m/s² | Variable | Tian+ 2024 (50 BCGs) |
+| BCG $g_+$ universal | $g_+$ ≈ $1.7 \times 10^{-9}\,\text{m}$/s² | Variable | Tian+ 2024 (50 BCGs) |
 
 ### §16.4.2 Dark Energy Equation of State
 

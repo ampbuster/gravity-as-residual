@@ -15,12 +15,11 @@
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):
 - **APPROACH A2** (α dim-specific, §7.4.20, CURRENT): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
   - DM stable at 27% (steady state, $\tau_{\rm DM} = 14.5$ Gyr ≈ universe age)
-  - $\gamma_{\rm 4D}$ stays DERIVED = 1.10×10¹¹¹ (A2) (cascade amplification factor, REINSTATED)
+  - $\gamma_{\rm 4D}$ stays DERIVED = $1.10 \times 10^{111}$(A2) (cascade amplification factor, REINSTATED)
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (cascade amplification factor)
-- **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, μ = 8.73×10⁶, $M_{\rm Pl,4D}$ = 3.93×10²³, $N_{\rm sub} = 3$.86×10²
-- **L308u (WHY $N=12$? PARTIAL BREAKTHROUGH)**: 6D anomaly + SM fermion count + Schwarzian α → L308ap: STRUCTURAL with strong first-principles motivations and confirmations (3 gen × 4 Weyl INPUT, Schwarzian α = 1+1/√N PREDICTION, data CONFIRMATION)
+- **L308t (L26 FULL CLOSURE)**: $M_{\rm Pl,2D}$ = 2.95 TeV, μ = $8.73 \times 10^{6}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub} = 3$.$86 \times 10^{2}$- **L308u (WHY $N=12$? PARTIAL BREAKTHROUGH)**: 6D anomaly + SM fermion count + Schwarzian α → L308ap: STRUCTURAL with strong first-principles motivations and confirmations (3 gen × 4 Weyl INPUT, Schwarzian α = 1+1/√N PREDICTION, data CONFIRMATION)
 - **L308v (L138 PARTIAL CLOSURE)**: $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
 - **First-principles progress**: 0/9 → 3/15 (α, $M_{\rm Pl,2D}$, μ) — **L308ag: $N=12$ reclassified STRUCTURAL** — **L308ap: $N=12$ has strong first-principles motivations and confirmations but is not pure derivation**
 
@@ -37,16 +36,16 @@
 **For v3.5.8 details**: see `paper/legacy/v358_user_driven_refinements.md`
 **For full version history**: see [`changelog.md`](../changelog.md)
 
-**v3.3 HIGHLIGHTS** (HISTORICAL, June 2026): Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), $f_{\rm back}$ UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D= $v_{\rm Higgs}$ DROPPED, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV via α-weighted GM (DERIVED). The 5/27/68 split matches observation via calibrated event rate. **DE matches within 0.13%** (simple $f_{\rm DE}$ formula: $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ with $\tau_{\rm 4D}$ calibrated; see §3.67b). HISTORICAL v3.3 era: 382 pages, 81 limitations.
+**v3.3 HIGHLIGHTS** (HISTORICAL, June 2026): Equal-Universe Cascade Formula (§3.63, user-formalized), v3.3 BILATERAL with continuous+pulsed (§3.65), frame-dependent 4D lifetime (§3.66), γ-scaled leak REVERTED to natural rate (§3.67a), framework matches 27% DM via calibrated AGN rate (§3.67b), NO continuous DM leak just 100% pulsed (§3.67c), $f_{\rm back}$ UNIVERSAL at 2D→3D AND 3D→4D (§3.67d), DE = TIME-DILATED SLICE of 4D pulsed life (§3.67e), 9D= $v_{\rm Higgs}$ DROPPED, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ via α-weighted GM (DERIVED). The 5/27/68 split matches observation via calibrated event rate. **DE matches within 0.13%** (simple $f_{\rm DE}$ formula: $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ with $\tau_{\rm 4D}$ calibrated; see §3.67b). HISTORICAL v3.3 era: 382 pages, 81 limitations.
 
 **v3.2 HIGHLIGHTS** (HISTORICAL): Equal-Universe Principle (§3.62 REVISED), Bilateral Democratic Cosmology (§3.62, REPLACED by current framework in L308x v3), Time-Dilation Insight (continuous leakage observability), 4π status clarified (KEPT at 3D→4D, REMOVED as universal — now in v3.3+ L149 RESOLVED), event count audit (8/8 in §10.1, not 14/14). 356 pages, 81 limitations.
 
 **v3.1 HIGHLIGHTS**: Full Lagrangian for SIDC (§3.62.6), Inception cone picture (§3.67), 5D/6D extension (§3.68), 9D = string theory connection (§3.68), SIDC-SM connection (§3.69). **L41, L42 CLOSED** (only 2 free parameters remain). **$M_{\rm Pl,9D} \approx v_{\rm Higgs}$ within 1.3%** identifies 9D with superstring theory's critical dimension.
 
 **v3.1.2-final additions** (HISTORICAL, intermediate): 8/8 events fit $M^{1.29}$ within 1.6×, Scenario X ( $M_{\rm Pl,4D}$ = 887 GeV, brane-world), AGE vs LIFETIME distinct, frame of reference explicit (4D event proper time 10⁻²⁰ s, apparent 10³⁴ yr, γ ~ 10⁶²).
-**v3.3 updates** (HISTORICAL, June 2026): $M_{\rm Pl,4D}$ = 3.93×10²³ GeV ( α-weighted GM, derived), $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale), $\tau_{\rm 3D,apparent}$ = 9.10×10¹²⁴ yr (was 1.83×10⁹⁸ yr), $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2) (was 1.29×10⁶⁴), universe age fraction 1.52× 10⁻¹⁵ (was 7.5× 10⁻⁸⁹). 9D = $v_{\rm Higgs}$ DROPPED. $M^{\alpha}$ uses PARENT's Planck.
+**v3.3 updates** (HISTORICAL, June 2026): $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ ( α-weighted GM, derived), $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (universe-scale), $\tau_{\rm 3D,apparent}$ = $9.10 \times 10^{124}\,\text{yr}$ (was $1.83 \times 10^{98}\,\text{yr}$), $\gamma_{\rm 4D}$ = $1.10 \times 10^{111}$(A2) (was $1.29 \times 10^{64}$), universe age fraction $1.52 \times 10^{-15}$(was $7.5 \times 10^{-89}$). 9D = $v_{\rm Higgs}$ DROPPED. $M^{\alpha}$ uses PARENT's Planck.
 
-**v3.5.9+ A2 UPDATE** (after audit): $\tau_{\rm 3D,apparent}$ = **1.66×10¹⁴⁵ yr (A2)** (audit fixed units/precision), $\gamma_{\rm 4D}$ = **1.10×10¹¹¹ (A2)** (L308t precision). Framework now has **15 parameters** (REVISED L308z, was 14 pre-L308z, was 9 in v3.5.8).
+**v3.5.9+ A2 UPDATE** (after audit): $\tau_{\rm 3D,apparent}$ = **$1.66 \times 10^{145}\,\text{yr}$ (A2)** (audit fixed units/precision), $\gamma_{\rm 4D}$ = **$1.10 \times 10^{111}$(A2)** (L308t precision). Framework now has **15 parameters** (REVISED L308z, was 14 pre-L308z, was 9 in v3.5.8).
 
 **v3.0 HIGHLIGHT:** The composite model is now **strongly specified** by a single number N = 12. SIDC's α = 1.29, central charge c = 1/2 (Ising CFT), back-action $f_{\rm back} \approx 10^{-85}$, and 14 event-type lifetimes all follow from **q = 4 SYK (Sachdev-Ye-Kitaev, a model of quantum chaos) with N = 12 Majorana fermions (fermions that are their own antiparticle)**, in AdS₂ × S² topology (2D anti-de Sitter space cross a 2-sphere, a specific curved geometry with positive lifetime scaling). N = 12 is uniquely determined (off by 0.001 from α = 1.29). The 12 Majoranas might provide a "backbone" for the 12 Standard Model Weyl fermions (massless chiral fermions, 3 generations × 4 per generation). See **§3.60 v3.0 breakthrough summary** for the full picture.
 
@@ -110,7 +109,7 @@ Both directions use the **SAME α = 1.289** derived from **N = 12** SYK. This is
 **The closed loop UNITES DM, DE, and gravity (v3.0.22, §3.60.3)**:
 
 - **Gravity weakness**: $\varepsilon_{\rm grav} \sim 6.32 \times 10^{-34}$ (A2, was 10⁻³⁸ in A1) from bulk-brane cancellation; $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant
-- **DE density**: $\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.5 \times 10^{-47}$ GeV⁴ (matches observed within 0.13%, via $f \times \varepsilon$ = 1.13×$10^{-123}$ invariant; v3.0.22 was 2.2×10⁻⁴⁷ within 12% via $f_{\rm back}$ ≈ 10⁻⁸⁵)
+- **DE density**: $\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.5 \times 10^{-47}$ GeV⁴ (matches observed within 0.13%, via $f \times \varepsilon$ = 1.13×$10^{-123}$ invariant; v3.0.22 was $2.2 \times 10^{-47}\,\text{within}$ 12% via $f_{\rm back}$ ≈ 10⁻⁸⁵)
 - **DM density**: $\rho_{\rm DM} = f_{\rm DM,death} \times \Sigma(M_{\rm 2D} \times N_{\rm 2D})/V$ (uses same $f_{\rm DM,death}$)
 
 All three use the SAME α = 1.289 (Schwarzian SYK $N=12$, L308n), the SAME $f_{\rm DE,closed} \approx 1.79 \times 10^{-90}$ (A2 closed loop, L308av; A1 form $f_{\rm DE,simple} \approx 1.13 \times 10^{-85}$ gives same $\rho_{\rm DE}$), the SAME bulk-brane geometry. The closed loop is what unifies them.
@@ -130,18 +129,18 @@ We propose a unifying interpretation of three open problems in fundamental physi
 **What the model does well (data backing).** SIDC has been tested against multiple independent observations. **16/17 test categories** (RAR, cluster $g_+$, dwarf phase-transition, globular cluster DM, direct detection, isolated vs cluster dwarf, AGN host DM, halo M/M* vs z, missing satellites, too-big-to-fail, dSph $M_{dyn}$, MDAR, lensing flux ratio, cluster baryon fraction, BTFR, dSph σ(r) profile, BTFR SPARC, HI-DM correlation, Vflat-morphology; ~430 data points) are consistent with SIDC; **1/17 is confounded** (HI-DM correlation confounded by gas-radius correlation; the Vflat-morphology test, previously inconclusive, is now documented as inconclusive due to sample selection bias). Of the 16 passing tests, **6 are clean real-data passes (was 5; AGN host DM added in v2.3.1 with morphology matching, +6.4%, p=0.047), 4 are structural (SIDC avoids $\Lambda{\rm CDM}$ problems by having no sub-halos), 5 are not discriminative vs $\Lambda{\rm CDM}$, and 1 is qualitatively consistent (AGN host DM).** **7/7 specific cases** (SPARC, Tian+ 2024, Sun, DF2/DF4, FCC 224, AGC 114905, KKR 25) are also consistent.
 
 - **Radial Acceleration Relation (SPARC, 175 galaxies):** the SIDC-MOND hybrid matches the RAR to a 10% median residual, comparable to MOND itself. MCMC posterior: $f_{active} = 0.0513^{+0.0070}_{-0.0073}$ (1σ), the fraction of cumulative 2D universe back-projection that is "active" at any moment. **CAVEAT (v2.7.1):**$f_{\rm active}$ ~ 0.05 is a phenomenological RAR fit, NOT derived from SIDC first principles. SIDC's "derivation" $f_{\rm active}$ = $\tau_{\rm 2D}$/$T_{\rm universe}$ = 0.7/13.8 = 0.051 used $\tau_{\rm 2D}$ ~ 0.7 Gyr (gas consumption timescale) as a SEPARATE POSTULATE, identified by physical analogy. The empirical 33 s lifetime gives $f_{\rm active} \sim 10^{-17}$, not 0.05. $f_{\rm active}$ is a FREE PARAMETER. See §4.35.
-- **Cluster scale (Tian+ 2024, 50 BCGs):** the cluster g₊ enhancement to ∼ 1.3 × 10⁻⁹ m/s² is naturally explained as the MOND external field effect ( $V_{local}$ formula), matching Tian+ 2024's 1.7 × 10⁻⁹ to within 30% (SIDC's MCMC 1σ range is 5.3 × 10⁻¹⁰ to 2.7 × 10⁻⁹, which does include 1.7 × 10⁻⁹).
+- **Cluster scale (Tian+ 2024, 50 BCGs):** the cluster g₊ enhancement to ∼ $1.3 \times 10^{-9}\,\text{m}$/s² is naturally explained as the MOND external field effect ( $V_{local}$ formula), matching Tian+ 2024's $1.7 \times 10^{-9}\,\text{to}$ within 30% (SIDC's MCMC 1σ range is $5.3 \times 10^{-10}\,\text{to}$ $2.7 \times 10^{-9}$, which does include $1.7 \times 10^{-9}$).
 - **Phase-transition principle (5 dwarf-galaxy tests, REVISED v2.7.36+):** the critical-energy threshold $E_{crit} \sim 10^{30}$ J correctly predicts: Sun (no detectable DM, as expected), DF2/DF4 (DM-poor, no recent energetic events), FCC 224 (DM-poor), AGC 114905 (DM-poor, low-mass SF below threshold), and KKR 25 (consistent via the $S_{\rm destruction}$ cumulative-return pathway: intermediate-age SF at 1-4 Gyr produced 2D universes whose energy has been returned to 3+1D as DM per the action's $S_{\rm destruction}$). 5/5 specific dwarf cases consistent (each tested independently, no bifurcation framing). The $S_{\rm destruction}$ energy-return mechanism is a model assumption, not a derivation; if the 2D universe's death energy instead escapes the 3+1D brane, KKR 25 would revert to a TENSION.
 - **Hubble constant:** SIDC is **qualitatively consistent** with H₀ = 70 ± 3 across all measurements (SH0ES 73.04 ± 1.04, TRGB 69.8 ± 1.9 [Freedman 2024, JWST], Planck CMB 67.4, standard sirens 70 ± 12). SIDC does **not** derive a specific H₀ value — earlier multiplicative boost formula ( H₀ = 70.13) was a postdiction, removed in v2.5. The 5.6 km/s/Mpc gap to Planck CMB-inferred H₀ = 67.4 is a ** $\Lambda{\rm CDM}$-framework artifact**, not a SIDC prediction. See §2.6.1 (Honest H₀ framework) and Limitation 26.
 - **Cosmic energy budget:** SIDC is consistent with the observed 5% ordinary / 27% dark matter / 68% dark energy split (Planck 2018). These values are **observational data**, not SIDC predictions. SIDC provides a qualitative INTERPRETATION: 5% = baryons (real 3+1D energy), 27% = DM (cumulative 2D universe back-projection), 68% = DE (4D event antigravity). The 32%/68% outer split is "interpretable" from projection kinematics. **The 5:27 inner split (5% "active" vs 27% "cumulative") is dropped in v2.7.1 as a separate postulate that conflicts with the empirical 33 s lifetime** (which gives $f_{\rm active} \sim 10^{-17}$, not 0.05).
 - **Concrete action functional (§2.5.1):** the geometric picture is now backed by a Lagrangian-level skeleton: $S = S_{grav} + S_{matter} + S_{brane 2D} + S_{creation} + S_{destruction}$, with α coupling, δ-function 2D brane localization, and Stoke's-theorem energy conservation. Reduces to standard RS-II brane-world as α → 0.
 - **First-principles g₊ derivation (§4.17):** g₊ = $k \cdot \int (event rate) \cdot E_{event} \cdot \tau_{2D} / L_{2D}\ dt$, SIDC's formula for the universal acceleration scale, equivalent to empirical $g_+ \propto \int \rho_{events} / M_{b}\ dt$ scaling.
 
-**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+$ ∼ 1.2 × 10⁻¹⁰, ε ∼ 6.32 × 10⁻³⁴ (A2), $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N×$v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak}$=H₀ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak}$=H(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_l oscillation at l_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
+**What the model is honest about (limitations).** SIDC is a *geometric framing*, not a derived Lagrangian. Quantitative values are *fits* to observation (5/27/68, $g_+$ ∼ $1.2 \times 10^{-10}$, ε ∼ $6.32 \times 10^{-34}$(A2), $f_{\rm DE} = 1.13\times 10^{-85}$ DERIVED via L308v α-GM), not all first-principles predictions. The 5/27/68 formula's "self+neighbor edges in a graph" interpretation fails to survive the cone-shape refinement — it was a post-hoc fit to a pre-v2.1 4-level model that no longer exists. SIDC's *specific* 5/27/68 derivation is left to future work (Limitation 26, §7.1 *Appeals to Formalism*). The model documents **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** (+L308f through +L308aa, v3.5.9+, 23 user-driven insights: L308f-L308l v3.5.7+ user catches + L308m MCMC + L308n α first-principles + L308o $N_{\rm sub}$ linear + L308p cone asymmetry + L308q 2D universe quantum + L308r μ N×$v_H$ chain + L308s 8-paths + L308t L26 full closure + L308u $N=12$ from 6D anomaly + L308v L138 closed loop + L308w $f_{\rm leak}$=H₀ + L308x γ consistency + L308y §3.67 coincidence + L308z $N_{\rm sub}$ event-specific (free) + **L308aa $\gamma_{\rm 2D}$ time dilation + **L308ab $f_{\rm leak}$=H(z) closes CMB gap + **L308ac parameter audit + L308ad $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ PARTIAL L144 closure + **L308ae $N_{\rm sub}$ formula residual + L308af AGN rate unit interpretation gap + L308ag $N=12$ reclassified FIRST-PRINCIPPLES → STRUCTURAL (5 suggestive interpretations, none rigorous) + L308ah deeper research on $N=12$ and α (no first-principles derivation found) + L308ai $N=12$ from other angles + L308aj 12-fold DM substructure (WITHDRAWN per L308am: 130 $M_{\rm sun}$ cluster prediction inconsistent with geometric DM) + L308am 12-fold geometric DM density correlations + L308an specific prediction: C_l oscillation at l_12 = π × D_A/r_12 (testable by LSST/Roman 2027) + L308ao honest critique: r_12 NOT derived from $N=12$ (connection is heuristic, not rigorous) + L308ap re-examination: $N=12$ has SM count INPUT + Schwarzian PREDICTION + data CONFIRMATION, not pure derivation + L308az 3+1D as dimensional mirror plane (cone asymmetry: 4D = compression → DE, 2D = expansion → DM) + L308ba α dim-specific pattern $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) halving rule (closes structural dimension-dependence)********) across all major claims (see §7.0 Master Table, v3.5.9+, was 67 in v3.1, was 81 in v3.3): 79 OPEN, 22 PARTIAL, 8 CLOSED, 2 RESOLVED, 6 NEGATIVE, 7 SPECULATIVE. L41, L42 closed in v3.0.22. L14 was resolved by the v2.1 mathematical sketch; L32 was removed in v2.7; L34 added v2.7.4 for $E_{\rm primordial}$; L35 added v2.7.4 for $z_{\rm half}$; L36 added v2.7.4 for $E_{\rm crit}$ REVERTED; **L37 added v2.7.30 for α=1.29 CGHS derivation** (legacy_paper.md §3.24 self-critique: in RANGE but NOT derived); **L9_ext DISCARDED v2.7.20 for Pauli-blocked sterile ν** (Batell-Yin 2024 bound).
 
 **Architectural choice: cone-shape is the default, NOT scale-invariance.** SIDC is **cone-shaped, not scale-invariant** in the dimensional sense. The 4D parent → 3+1D us → 2D children structure is the architecture; 2D is the hard floor (1D and 0D universes are nonsensical, so SIDC terminates at 2D). The earlier framing of "scale-invariance / infinite SIDC" with a $\rho_{crit}$ regulator has been removed — the 2D floor is a structural limit, not a choice. SIDC IS still scale-invariant in the *energy/size* sense within the 2D level: the Liouville 2D CFT is conformally invariant, and any energetic event creates a 2D universe of proportional size (weighted by the smooth $E^{1+\alpha}$ creation function in §2.5.3 — the v2.3.0 $E_{\rm crit}$ step threshold has been removed). This is a different kind of scale invariance — not dimensional, but energy-scale — and it does not require a SIDC to lower dimensions.
 
-**M^α law and time dilation (v2.7.24-v2.7.25+, legacy_paper.md §3.17-legacy_paper.md §3.18, REVISED L308x v3).** The M^α scaling law $\tau_{2D,3+1D} = (E/E_{Pl,3})^{1.29} \times t_{Pl,3}$ gives the 3+1D-observed lifetime of the 2D universe. The 2D universe's PROPER lifetime (in 2D's own frame) is $\gamma_{2D} \times \tau_{2D,3+1D}$ = 5.5×10⁴⁴ × 33s = **5.7×10³⁸ yr** for SN (much longer than 33s). Similarly, the 4D event's proper time is 1.51×10³⁴ yr, but the 3D-observed time is $\gamma_{4D} \times 1.51e34 yr = 1.66×10¹⁴⁵ yr (A2)$. The cone is ASYMMETRIC in time direction: $\gamma_{2D}$ stretches time in 2D's own frame (2D proper is LONG, 3D observed is short), while $\gamma_{\rm 4D}$ stretches time in 3D frame (4D proper is short, 3D observed is LONG). In both cases, the lower-D dimension has MORE time (2D > 3D > 4D in duration). The same α = 1.29 applies at every level. **α is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from Schwarzian SYK $N=12$ saddle point (L308n, 1+1/√12). SIDC's net free parameter count: 15 (REVISED L308z, was 14 pre-count-correction; A1+L308z+L308aa).
+**M^α law and time dilation (v2.7.24-v2.7.25+, legacy_paper.md §3.17-legacy_paper.md §3.18, REVISED L308x v3).** The M^α scaling law $\tau_{2D,3+1D} = (E/E_{Pl,3})^{1.29} \times t_{Pl,3}$ gives the 3+1D-observed lifetime of the 2D universe. The 2D universe's PROPER lifetime (in 2D's own frame) is $\gamma_{2D} \times \tau_{2D,3+1D}$ = $5.5 \times 10^{44}$× 33s = **$5.7 \times 10^{38}\,\text{yr}$** for SN (much longer than 33s). Similarly, the 4D event's proper time is $1.51 \times 10^{34}\,\text{yr}$, but the 3D-observed time is $\gamma_{4D} \times 1.51e34 yr = 1.66 \times 10^{145}\,\text{yr} (A2)$. The cone is ASYMMETRIC in time direction: $\gamma_{2D}$ stretches time in 2D's own frame (2D proper is LONG, 3D observed is short), while $\gamma_{\rm 4D}$ stretches time in 3D frame (4D proper is short, 3D observed is LONG). In both cases, the lower-D dimension has MORE time (2D > 3D > 4D in duration). The same α = 1.29 applies at every level. **α is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from Schwarzian SYK $N=12$ saddle point (L308n, 1+1/√12). SIDC's net free parameter count: 15 (REVISED L308z, was 14 pre-count-correction; A1+L308z+L308aa).
 
 **Self-critical methodology (v2.7.22+, legacy_paper.md §3.16).** SIDC's iterative process is formalized: build → user pushback → self-critique → discard or revise → document. The sterile neutrino DM with Pauli-blocked decay (now in legacy_paper.md legacy_paper.md §3.13-legacy_paper.md §3.15) is a worked example: built in v2.7.18, self-critiqued in v2.7.19, discarded in v2.7.20 after literature search (Batell-Yin 2024 m<10meV bound, sub-eV DM is HDM not CDM, 3.5 keV X-ray line weakened). SIDC documents the discard explicitly rather than papering over broken hypotheses.
 
@@ -187,7 +186,7 @@ v3.0 made a **major breakthrough**: a single number — **N = 12** — derives m
 | α (lifetime scaling) | 1.289 | α = 1 + 1/√N (saddle-point fluctuation) |
 | c (central charge) | 1/2 | c = 1/2 (Ising CFT, surviving mode from SYK q=4; L308aq) |
 | 1/(2α) (back-action) | 0.388 | c/α (composite) |
-| $f_{\rm DE}$ (universal) | 8.6 × 10⁻⁸⁵ | (1/(2α))-powered formula |
+| $f_{\rm DE}$ (universal) | $8.6 \times 10^{-85}$| (1/(2α))-powered formula |
 
 N = 12 is **uniquely determined** by α = 1.29 (off by 0.001; for N = 10, 11, 13, 14 the match is much worse).
 
@@ -228,7 +227,7 @@ The pattern is the same at every level. The specific values ( α, c, N, $f_{\rm 
 
 - **144 honest limitations (v3.5.9+ A2, +28 L308a-ae (L308af-ay in v3.5.9+ A2 await master table update))** documented in §7.0 (v3.5.9+ master table; was 67 in v3.1, was 116 in v3.5.7)
 - 8 closed, 25 open, 21 partial, 1 resolved, 6 negative, 7 speculative
-- **0 free parameters** at the level of the composite model (N = 12, α = 1.289, c = 1/2, $f_{\rm DE}$ = 8.6 × 10⁻⁸⁶ are all derived)
+- **0 free parameters** at the level of the composite model (N = 12, α = 1.289, c = 1/2, $f_{\rm DE}$ = $8.6 \times 10^{-86}\,\text{are}$ all derived)
 - 1 free parameter at the data-fitting level ( $z_{\rm half}$ = 3)
 
 SIDC is a **geometric framing with a strongly specified backbone**, not a fully derived Lagrangian. It's a thought experiment, not a complete theory.
@@ -276,11 +275,11 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 - $f_{active}$ (v2.7.1): dropped after finding inconsistency with SN 33s lifetime
 - $A_{event}$ (v2.7.54): revised from 67 → 1 (identity operation, not a parameter)
 - Fₚ(0) (v2.7.52): derived from cumulative DM calculation, no longer calibrated
-- ε (CURRENT v3.5.9+ A2): CALIBRATED at 6.32×10⁻³⁴ (gravity weakness, hierarchy problem, OBSERVED). Was 10⁻³⁸ in A1, recalibrated +4.8 orders in A2. $f \times \epsilon = 1.13 \times 10^{-123}$ invariant preserved.
+- ε (CURRENT v3.5.9+ A2): CALIBRATED at $6.32 \times 10^{-34}$(gravity weakness, hierarchy problem, OBSERVED). Was 10⁻³⁸ in A1, recalibrated +4.8 orders in A2. $f \times \epsilon = 1.13 \times 10^{-123}$ invariant preserved.
 - $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas ($f \times \varepsilon$ = 1.13× $10^{-123}$ invariant)
-  - $f_{\rm DE,simple}$ = 1.13× 10⁻⁸⁵ (uses $\alpha_{2D}$ = 1.289, ε = 1× 10⁻³⁸)
-  - $f_{\rm DE,closed}$ = 1.79× 10⁻⁹⁰ (uses $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴)
-  - Both give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT match)
+  - $f_{\rm DE,simple}$ = $1.13 \times 10^{-85}$(uses $\alpha_{2D}$ = 1.289, ε = $1 \times 10^{-38}$)
+  - $f_{\rm DE,closed}$ = $1.79 \times 10^{-90}$(uses $\alpha_{4D}$ = 1.577, ε = $6.32 \times 10^{-34}$)
+  - Both give $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴ (EXACT match)
   - **Was called $f_{\rm back}$ in v3.0+ naming, renamed in v3.5.7+ naming revolution**
 
 ### Observational Inputs (5, taken from data)
@@ -291,7 +290,7 @@ SIDC is a **geometric framing with a strongly specified backbone**, not a fully 
 | H₀ | 67.4 km/s/Mpc | Planck 2018 |
 | $E_{SN}$ (kinetic) | 10⁴⁴ J | Standard CCSN model |
 | Ωₘ, $\Omega_{\rm b}$, Ω_Λ | 0.315, 0.049, 0.685 | Planck 2018 |
-| g₊ (MOND accel) | 1.2 × 10⁻¹⁰ m/s² | SPARC RAR fit (adopted in SIDC-MOND hybrid) |
+| g₊ (MOND accel) | $1.2 \times 10^{-10}\,\text{m}$/s² | SPARC RAR fit (adopted in SIDC-MOND hybrid) |
 
 ### Derived Quantities (not free, derived from data + framework)
 
@@ -315,7 +314,7 @@ All other values in SIDC are *derived* from the cascade structure:
 The 5 observational inputs (5/27/68, H₀, $E_{SN}$, Ω's, $g_+$) are taken from data, not fit.
 
 **HISTORICAL**: SIDC had 0 calibrated postulates in the v3.0+ state.
-**CURRENT (v3.5.9+ A2 update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ) [$N=12$ STRUCTURAL per L308ag], 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED (ε, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ per L308ag), 1 FREE ($N_{\rm sub}$).
+**CURRENT (v3.5.9+ A2 update)**: $f_{\rm leak} = H_0$ added as 4th calibrated parameter (post-Friedmann). $E_{\rm 4D}$ moved from "calibrated" to "derived" ($E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$, energy conservation). $N_{\rm sub}$ is FREE (event-specific: we are 1 of 386 sibling sub-universes from our universe's 4D event). Framework now has **15 parameters** (was 14 pre-L308z, was 9 in v3.5.8): 1 MEASURED, 3 FIRST-PRINCIPLES ($\alpha$, $M_{\rm Pl,2D}$, $\mu$) [$N=12$ STRUCTURAL per L308ag], 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$), 4 CALIBRATED ($\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$), 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ per L308ag), 1 FREE ($N_{\rm sub}$).
 ### 2.1 The setup
 
 We assume, following the well-developed brane-world framework [ADD98, RS99], that our observable universe is a 3+1 dimensional brane embedded in a higher-dimensional bulk. Gravity propagates in the bulk; the other Standard Model forces are confined to the brane.
@@ -350,7 +349,7 @@ This is a *scale-invariant* principle. The same mechanism operates at every ener
 
 This is a *speculative* extension of the model. The model does not currently require the existence of these other 3+1D universes; it only requires that *our* universe corresponds to the 4D event (or some part of it). But the scale-invariant principle, taken seriously, implies them.
 
-We emphasize that these smaller events do *not* re-create our universe. They create *separate* universes, in separate dimensional subspaces, with their own physics and their own lifetimes. From our 3+1 dimensional perspective, the 2D universes' lifetimes in *our* frame scale with the creating event's energy, via the *energy-scaling rule* $\tau_{2D}^{our frame} = t_{Pl,3} \times (E_D / E_{Pl,3})^\alpha$ with α ≈ 1.29 (calibrated to the SN 33s point; see §10.1 for the full derivation and §10.9 for sensitivity analysis). **Caveat:** this energy-scaling rule is *specifically calibrated to supernova-scale events*. The §4.48 two-component model introduces Fₚ ∼ 0.7 *primordial* 2D universes whose per-event energy $E_{\rm primordial}$ was UNSPECIFIED in v2.7.4-64 (Limitation 34). The v2.7.65 §3.40 L51 derivation attempt constrained $E_{\rm primordial}$ to $\sim 10^{22}\,M_\odot$ ($E_{\rm 4D}$ at the 4D event scale, galaxy-cluster level), but the per-event energy of primordial 2D universes is still partially OPEN (L51 PARTIAL). The lifetime of primordial 2D universes may differ from the SN-calibrated rule by a factor that depends on $E_{\rm primordial}$. Working out specific examples: a small event (LHC collision, ~14 TeV∼ 2.2 × 10⁻⁶ J) creates a 2D universe that lasts ∼ 3 × 10⁻⁶³ seconds in our frame (essentially instantaneous); a large event (supernova, E ∼ 10⁴⁴ J for the kinetic energy of the ejecta) creates a 2D universe that lasts ∼ 33 seconds in our frame; even larger events (hypernova, E ∼ 10⁴⁶ J) create 2D universes that last ∼ 3.5 hr, long GRBs (E ∼ 10⁴⁷ J) create 2D universes that last ∼ 2.8 d, BNS mergers (E ∼ 10⁵³ J) create 2D universes that last ∼ 4.3 × 10⁵ years, and AGN outbursts (E ∼ 10⁵⁵ J) create 2D universes that last ∼ 1.6 × 10⁸ years. *Note*: an earlier version of this section used the simpler *spatial-extent* rule $\tau_{2D}^{our frame} \sim \ell_{event} / c$ (giving ∼ 3 × 10⁻²⁴ s for the LHC and ∼ 33 s for the SN). This spatial rule and the energy rule give the *same* answer for the SN calibration point but *different* predictions for other events. The energy-scaling rule is preferred because (a) it correctly captures the qualitative principle "lower-energy events create shorter-lived 2D universes" (per the user-SIDC conversation establishing the relativistic-particle analogy in §10.2), and (b) it provides a *quantitative* framework for extrapolating to cosmological-scale events (§10.4). The spatial-extent rule is a *first-order approximatelyimation* valid when $\ell_{event}$ and $E_{event}$ are correlated, but it fails for events where the two scales decouple (LHC: small l, high E; AGN: large l, high E). The energy-scaling rule in §10 supersedes the earlier spatial-extent example. The 2D universes are *not* all "essentially instantaneous" in our frame — only the very small ones are. From the perspective of each tiny universe, that brief moment in our frame is the entirety of *its* cosmic history. The dimensional time-dilation principle applies in both directions: a brief event in our frame can be a complete cosmic history in the lower-dimensional universe's frame.
+We emphasize that these smaller events do *not* re-create our universe. They create *separate* universes, in separate dimensional subspaces, with their own physics and their own lifetimes. From our 3+1 dimensional perspective, the 2D universes' lifetimes in *our* frame scale with the creating event's energy, via the *energy-scaling rule* $\tau_{2D}^{our frame} = t_{Pl,3} \times (E_D / E_{Pl,3})^\alpha$ with α ≈ 1.29 (calibrated to the SN 33s point; see §10.1 for the full derivation and §10.9 for sensitivity analysis). **Caveat:** this energy-scaling rule is *specifically calibrated to supernova-scale events*. The §4.48 two-component model introduces Fₚ ∼ 0.7 *primordial* 2D universes whose per-event energy $E_{\rm primordial}$ was UNSPECIFIED in v2.7.4-64 (Limitation 34). The v2.7.65 §3.40 L51 derivation attempt constrained $E_{\rm primordial}$ to $\sim 10^{22}\,M_\odot$ ($E_{\rm 4D}$ at the 4D event scale, galaxy-cluster level), but the per-event energy of primordial 2D universes is still partially OPEN (L51 PARTIAL). The lifetime of primordial 2D universes may differ from the SN-calibrated rule by a factor that depends on $E_{\rm primordial}$. Working out specific examples: a small event (LHC collision, ~14 TeV∼ $2.2 \times 10^{-6}\,\text{J}$) creates a 2D universe that lasts ∼ $3 \times 10^{-63}\,\text{seconds}$ in our frame (essentially instantaneous); a large event (supernova, E ∼ 10⁴⁴ J for the kinetic energy of the ejecta) creates a 2D universe that lasts ∼ 33 seconds in our frame; even larger events (hypernova, E ∼ 10⁴⁶ J) create 2D universes that last ∼ 3.5 hr, long GRBs (E ∼ 10⁴⁷ J) create 2D universes that last ∼ 2.8 d, BNS mergers (E ∼ 10⁵³ J) create 2D universes that last ∼ $4.3 \times 10^{5}\,\text{years}$, and AGN outbursts (E ∼ 10⁵⁵ J) create 2D universes that last ∼ $1.6 \times 10^{8}\,\text{years}$. *Note*: an earlier version of this section used the simpler *spatial-extent* rule $\tau_{2D}^{our frame} \sim \ell_{event} / c$ (giving ∼ $3 \times 10^{-24}\,\text{s}$ for the LHC and ∼ 33 s for the SN). This spatial rule and the energy rule give the *same* answer for the SN calibration point but *different* predictions for other events. The energy-scaling rule is preferred because (a) it correctly captures the qualitative principle "lower-energy events create shorter-lived 2D universes" (per the user-SIDC conversation establishing the relativistic-particle analogy in §10.2), and (b) it provides a *quantitative* framework for extrapolating to cosmological-scale events (§10.4). The spatial-extent rule is a *first-order approximatelyimation* valid when $\ell_{event}$ and $E_{event}$ are correlated, but it fails for events where the two scales decouple (LHC: small l, high E; AGN: large l, high E). The energy-scaling rule in §10 supersedes the earlier spatial-extent example. The 2D universes are *not* all "essentially instantaneous" in our frame — only the very small ones are. From the perspective of each tiny universe, that brief moment in our frame is the entirety of *its* cosmic history. The dimensional time-dilation principle applies in both directions: a brief event in our frame can be a complete cosmic history in the lower-dimensional universe's frame.
 
 **Implication for dark matter.** Each of these tiny universes created by 3+1 dimensional events has its own gravity (a small replica of the same dimensional-projection mechanism that creates gravity in our universe). By the same logic as §2.4, the 3+1 dimensional event's gravity is *inverted* (antigravity) when projected into the 2D universe, and the un-cancelled fraction of this antigravity is the 2D universe's *internal* dark energy. The 2D universe's own *attractive* gravity, projected back into our 3+1 dimensional frame, is what we observe as *dark matter*. Dark matter, in this picture, is not a particle at all, but a *collective gravitational signature* of all the lower-dimensional universes (active + cumulative, per §2.5, §4.2). The 2D universe's *antigravity* is *internal* to the 2D universe (its own dark energy, in 2D), and does *not* project back to 3+1D as a separate effect. *Note*: dark energy in the *3+1D* frame is *separately* the 4D event's un-cancelled antigravity (§2.4), not the cumulative 2D universe antigravity. The dark matter and the 3+1D dark energy arise from *different* dimensional projections: dark matter from 2D → 3+1D back-projection, dark energy from 4D → 3+1D projection. The two are *distinct in their dimensional origin* but *complementary* in their effect on the 3+1D universe.
 
@@ -408,7 +407,7 @@ The phase-transition principle is **testable** with stellar population synthesis
 *Quantitative budget:*
 
 - **MW stellar nucleosynthesis energy over 10 Gyr**: ∼ 10⁵⁵ J (0.7% mass fraction × stellar mass)
-- **MW "DM" energy ( $M_{\rm DM} \times c^2$)**: ∼ 1.8 × 10⁵⁹ J (critical density × volume)
+- **MW "DM" energy ( $M_{\rm DM} \times c^2$)**: ∼ $1.8 \times 10^{59}\,\text{J}$ (critical density × volume)
 - **Required fraction of stellar energy in 2D universes**: ~0.2% (to produce observed DM density)
 - **Total energetic events per MW (SN + nucleosynthesis + AGN)**: ∼ 10⁵⁸ events (over 10 Gyr)
 - **Energy in 2D universe per event**: ∼ 10²-- 10⁵ eV (0.2% of typical event energy)
@@ -438,7 +437,7 @@ SIDC's *unique contribution*: it provides a *specific mechanism* for the geometr
 
 This formalization resolves the "where does the energy come from" question: the 2D universe channel is a small (~0.2%) but consistent part of every energetic event, and the integrated effect of all 2D universes is the observed 27% DM density.
 
-**Why the cumulative effect is significant.** At first glance, this proposal seems puzzling: how can the cumulative effect of 2D universes' gravity reach 27% of the universe's mass-energy budget, given that each 2D universe's contribution is small? The resolution comes from the dimensional time-dilation principle: from our 3+1 dimensional frame, the 2D universes are *compressed* into brief moments whose duration scales with the creating event's energy via the energy-scaling rule (per §10.1; $\tau_{2D} = t_{Pl,3} \times (E/E_{Pl,3})^{1.29}$, with∼ 3 × 10⁻⁶³ s for an LHC collision,∼ 33 s for a supernova,∼ 3.5 hr for a hypernova,∼ 2.8 d for a long GRB, and∼ 4.3 × 10⁵ yr for a BNS merger, in our frame). Because all these brief 2D universes' gravitational contributions are *stacked* in our 3+1 dimensional frame at a high rate, the cumulative effect can be substantial — even though each individual 2D universe is weak in projection. The "compression" of 2D universes into brief 3+1 dimensional moments *amplifies* their cumulative gravitational contribution relative to what you'd expect from "each 2D universe contributes little" alone. This is a *feature* of the dimensional time-dilation principle: a brief event in one frame can be a complete cosmic history in another, and the gravitational contributions from many brief events can add up. *Note (v2.7.3+):* an earlier version of this section used $\tau_{2D} \sim \ell_{event}/c$ (the spatial-extent rule, giving∼ 3 × 10⁻²⁴ s for LHC). The energy-scaling rule supersedes this, with the same 33s for SN but a *much* shorter lifetime for the LHC, and longer lifetimes for higher-energy events. See §10 for the full derivation.
+**Why the cumulative effect is significant.** At first glance, this proposal seems puzzling: how can the cumulative effect of 2D universes' gravity reach 27% of the universe's mass-energy budget, given that each 2D universe's contribution is small? The resolution comes from the dimensional time-dilation principle: from our 3+1 dimensional frame, the 2D universes are *compressed* into brief moments whose duration scales with the creating event's energy via the energy-scaling rule (per §10.1; $\tau_{2D} = t_{Pl,3} \times (E/E_{Pl,3})^{1.29}$, with∼ $3 \times 10^{-63}\,\text{s}$ for an LHC collision,∼ 33 s for a supernova,∼ 3.5 hr for a hypernova,∼ 2.8 d for a long GRB, and∼ $4.3 \times 10^{5}\,\text{yr}$ for a BNS merger, in our frame). Because all these brief 2D universes' gravitational contributions are *stacked* in our 3+1 dimensional frame at a high rate, the cumulative effect can be substantial — even though each individual 2D universe is weak in projection. The "compression" of 2D universes into brief 3+1 dimensional moments *amplifies* their cumulative gravitational contribution relative to what you'd expect from "each 2D universe contributes little" alone. This is a *feature* of the dimensional time-dilation principle: a brief event in one frame can be a complete cosmic history in another, and the gravitational contributions from many brief events can add up. *Note (v2.7.3+):* an earlier version of this section used $\tau_{2D} \sim \ell_{event}/c$ (the spatial-extent rule, giving∼ $3 \times 10^{-24}\,\text{s}$ for LHC). The energy-scaling rule supersedes this, with the same 33s for SN but a *much* shorter lifetime for the LHC, and longer lifetimes for higher-energy events. See §10 for the full derivation.
 
 *Quantitative sketch.* SIDC gives a *qualitative* picture (gravity is weak, dark energy is small, dark matter is cumulative), but the *quantitative* values depend on several free parameters. SIDC predicts the dark energy density is of order $\epsilon \cdot M_{Pl}^4 \sim 10^{-38} M_{Pl}^4$, which is 10⁸⁵ *larger* than the observed$\sim 10^{-123} M_{Pl}^4$. To bridge this gap, we need a *staying fraction* $f_{back} \sim 10^{-85}$ (the fraction of SIDC-produced antigravity that remains in 3+1D as observable dark energy, the rest going elsewhere or being cancelled). The $f_{back} = 10^{-85}$ is a *postulate* of the model, not derived. Similarly, SIDC predicts the dark matter is a *cumulative* effect of 2D universe gravity, with the cumulative contribution depending on the event rate, the 2D universe lifetime, the event energy, and the back-projection fraction. The model does *not* uniquely derive the *exact* values of the 5%/95% dark/ordinary split, the *absolute* dark energy density ($\sim 10^{-47} {\rm GeV}^{4}$), or the *absolute* dark matter density. A specific implementation of the model would need to derive these from the geometry of dimensional projection, which is left to future work. The *qualitative* picture is *robust* (gravity is weak, dark energy is small, dark matter is cumulative); the *quantitative* picture is underdetermined.
 
@@ -456,13 +455,13 @@ Each active 2D universe contributes some gravitational effect to our 3+1 dimensi
 
 $$\rho_{DM} \sim n_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$$
 
-where $E_{\rm 2D}$ is the characteristic energy of a 2D universe, and $(G_{2D}^{projected} / G_{4D})$ is the ratio of the projected 2D gravity to the native 4D gravity (a small number, by SIDC cancellation). The observed dark matter fraction of the universe's mass-energy budget is ~27%, which would constrain the product $R \cdot \tau_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$. The model does not currently derive this product from first principles, but the order of magnitude is *plausible*: in a typical galaxy, the event rate is R ∼ 10⁻² supernovae per year per galaxy (with smaller events at much higher rates), $\tau_{\rm 2D}$ for a supernova-scale event is∼ 33 s (per the dimensional time-dilation rule l/c with $\ell_{event} \sim 10^{10}$ m and c ∼ 3 × 10⁸ m/s), and $(G_{2D}^{projected} / G_{4D})$ is a small ratio set by the dimensional SIDC cancellation. The cumulative effect being of order the observed dark matter density is therefore *qualitatively* plausible, but a *quantitative* derivation is left to future work.
+where $E_{\rm 2D}$ is the characteristic energy of a 2D universe, and $(G_{2D}^{projected} / G_{4D})$ is the ratio of the projected 2D gravity to the native 4D gravity (a small number, by SIDC cancellation). The observed dark matter fraction of the universe's mass-energy budget is ~27%, which would constrain the product $R \cdot \tau_{2D} \cdot E_{\rm 2D} \cdot (G_{2D}^{projected} / G_{4D})$. The model does not currently derive this product from first principles, but the order of magnitude is *plausible*: in a typical galaxy, the event rate is R ∼ 10⁻² supernovae per year per galaxy (with smaller events at much higher rates), $\tau_{\rm 2D}$ for a supernova-scale event is∼ 33 s (per the dimensional time-dilation rule l/c with $\ell_{event} \sim 10^{10}$ m and c ∼ $3 \times 10^{8}\,\text{m}$/s), and $(G_{2D}^{projected} / G_{4D})$ is a small ratio set by the dimensional SIDC cancellation. The cumulative effect being of order the observed dark matter density is therefore *qualitatively* plausible, but a *quantitative* derivation is left to future work.
 
 **Dimensional time-dilation rule.** The paper has assumed that a brief event in our 3+1 dimensional frame creates a complete cosmic history in the lower-dimensional universe, with a lifetime in our frame that scales with the event's spatial extent. The simplest dimensional rule is:
 
 $$\tau_{2D}^{our frame} \sim \frac{\ell_{event}}{c}$$
 
-where $\ell_{event}$ is the spatial extent of the creating event in 3+1D, and c is the 3+1D speed of light. For a supernova with $\ell_{event} \sim 10^{10}$ m, this gives $\tau_{2D}^{our frame} \sim 33$ s (10¹⁰ m / 3 × 10⁸ m/s), consistent with the paper's claim. For an LHC collision with $\ell_{event} \sim 10^{-15}$ m, this gives $\tau_{2D}^{our frame} \sim 3 \times 10^{-24}$ s (10⁻¹⁵ m / 3 × 10⁸ m/s), also consistent. The rule is *consistent* with the dimensional time-dilation principle, but the *exact* rule (whether it's $\ell_{event}/c$ or some other function of the event's spatial structure) is not derived in this paper.
+where $\ell_{event}$ is the spatial extent of the creating event in 3+1D, and c is the 3+1D speed of light. For a supernova with $\ell_{event} \sim 10^{10}$ m, this gives $\tau_{2D}^{our frame} \sim 33$ s (10¹⁰ m / $3 \times 10^{8}\,\text{m}$/s), consistent with the paper's claim. For an LHC collision with $\ell_{event} \sim 10^{-15}$ m, this gives $\tau_{2D}^{our frame} \sim 3 \times 10^{-24}$ s (10⁻¹⁵ m / $3 \times 10^{8}\,\text{m}$/s), also consistent. The rule is *consistent* with the dimensional time-dilation principle, but the *exact* rule (whether it's $\ell_{event}/c$ or some other function of the event's spatial structure) is not derived in this paper.
 
 We emphasize that the dark matter is the *cumulative* effect of 2D universes (active + cumulative return, per §2.5, §4.2), not an ancient residue. The *spatial variation* in dark matter is dominated by the *active* population: the 2D universes being created *now* (in our frame) are the primary contributors to the *local* dark matter density. The *total* dark matter budget also includes the *cumulative return* from past 2D universe endings, which is approximately uniform spatially. The *rate* of creation depends on the *current* rate of energetic events, weighted by their individual energies, and this is what dominates the *spatial correlation* of dark matter with energetic activity. We discuss the quantitative consequences of this in §4.7 and §4.8.
 
@@ -718,7 +717,7 @@ where α = 1.29 from the energy-scaling rule. The E¹ factor is from the event's
 |-------|-------|------------------|------------------------|--------|
 | Solar flare (max) | 10²⁶ J | 10⁻⁴¹ | BELOW (no SIDC) | negligible **[PASS]** |
 | AGC 114905 SF | 10³⁰ J | 10⁻³¹ | BELOW (no SIDC) | negligible **[PASS]** |
-| Sun total over 4.6 Gyr | 5 × 10⁴³ J | 0.20 | ABOVE (full SIDC) | comparable to 1 SN |
+| Sun total over 4.6 Gyr | $5 \times 10^{43}\,\text{J}$ | 0.20 | ABOVE (full SIDC) | comparable to 1 SN |
 | Typical SN (kinetic) | 10⁴⁴ J | 1.00 | ABOVE (full SIDC) | dominant **[PASS]** |
 | GRB (long) | 10⁴⁷ J | 10⁷ | ABOVE (full SIDC) | super-dominant |
 | BNS merger | 10⁵³ J | 10²⁰ | ABOVE | super-super-dominant |
@@ -827,7 +826,7 @@ This is a *unification* of two effects that might otherwise seem separate: the h
 
 *Asymmetry between dark energy and dark matter math.* The dark energy and dark matter are *both* products of the dimensional-SIDC framework, but their *quantitative derivations* are *asymmetric*. The dark energy math works *cleanly* once we include the *staying fraction* (§2.6 above): SIDC prediction × $f_{back}$ = observed. The staying fraction is a *single* postulate that fixes the dark energy to the right value. The dark matter math, by contrast, is *underdetermined*: it depends on the *event rate* R, the *2D universe lifetime* τ_{2D}, the *event energy* E_{\rm 2D}, and the *projection fraction* G_{2D}^{projected}/G_{4D} — four free parameters (rather than one) that must be specified to make a quantitative prediction. The current model gives a *qualitatively plausible* picture (the cumulative effect of 2D universes is consistent with the observed dark matter density for plausible parameter values) but does *not* give a *unique* numerical prediction. The *asymmetry* reflects the fact that dark energy is a *single* global quantity (the vacuum energy), while dark matter is a *cumulative* quantity (the integral over many 2D universes). Dark energy is fixed by *geometry* (the projection rule), while dark matter is fixed by *event statistics* (the rate and energy distribution of 3+1D energetic events). We acknowledge this asymmetry as a *limitation* of the current model, *partially closed* by the growth factor derivation below (the *Deriving the growth factor from 2D universe dynamics* paragraph), which shows that the growth factor is itself *derivable* from the 2D universe's FRW dynamics, leaving only the 2D equation-of-state parameters (Omega_{DE,2D}, $t_{\rm eq}$, $T_{2D}$) as physical inputs.
 
-*A quantitative attempt at the DM calculation.* To make this asymmetry more concrete, we can attempt a *naive* calculation of the cumulative 2D universe back-projection and compare it to the observed DM density. For a typical galaxy ( $10^{10} M_\odot$ of baryons, $\sim 5 \times 10^{10} M_\odot$ of DM, in a (10 kpc)^3 volume), the DM energy density is ∼ 10⁵ J/m^3. The *active* 2D universe population per galaxy, integrating over event types (SN, stars, AGN, BH mergers, etc.) and weighting by lifetime, is ∼ 10⁻⁵ concurrent universes per galaxy. The total active 2D universe energy per galaxy is ∼ 3 × 10⁴⁷ J, dominated by long-lived AGN-scale 2D universes. If the back-projection efficiency were 1 (full projection), this would give a galaxy DM energy of 3 × 10⁴⁷ J, *much less* than the observed 8.95 × 10⁵⁷ J. To match observation, the back-projection efficiency would need to be ∼ 3 × 10¹⁰, which is unphysical. If instead we include *all* 2D universes that have ever lived (over the universe's 13.8 Gyr history, not just currently active), the count is ∼ 3 × 10⁸ SN-scale 2D universes per galaxy, giving ∼ 3 × 10⁵² J at full back-projection, still ∼ 10⁵ short of the observed DM energy. The *gap* is significant: the simple cumulative calculation underestimates the DM by a factor of ∼ 10⁵ to 10¹⁰, depending on what is included. The most natural resolution is that the 2D universe's *total mass-energy* is *much larger* than the original event energy: the 2D universe is dark-energy dominated and has its own expansion, so its total mass-energy at any moment is the original event energy multiplied by the 2D universe's growth factor (which depends on the 2D universe's Hubble parameter and lifetime). If the growth factor is ∼ 10⁵ to 10¹⁰ (depending on the 2D universe's specific dark energy dynamics), the cumulative calculation can be brought into line with observation. *Alternatively*, the 2D universe's total mass-energy could be dominated by the *bulk* energy the 2D universe accumulates during its lifetime (analogous to how our universe's mass-energy is dominated by the dark energy, not the original Big Bang energy). The model is *qualitatively* consistent with the observed DM density for plausible 2D universe dynamics, and the growth factor is *derivable* from the 2D universe's FRW dynamics as shown in the *Deriving the growth factor from 2D universe dynamics* paragraph below: with Omega_{DE,2D} ~ 0.999, $t_{\rm eq}$ at 1% of 2D lifetime, $T_{2D}$ ~ 30 Gyr, the growth factor is G = 9.7 × 10⁷, matching the trial-and-error value of 10⁸ to within 3%. This *resolves* the previously-acknowledged limitation: the growth factor is no longer a free parameter — it is a *consequence* of the 2D universe's own physics.
+*A quantitative attempt at the DM calculation.* To make this asymmetry more concrete, we can attempt a *naive* calculation of the cumulative 2D universe back-projection and compare it to the observed DM density. For a typical galaxy ( $10^{10} M_\odot$ of baryons, $\sim 5 \times 10^{10} M_\odot$ of DM, in a (10 kpc)^3 volume), the DM energy density is ∼ 10⁵ J/m^3. The *active* 2D universe population per galaxy, integrating over event types (SN, stars, AGN, BH mergers, etc.) and weighting by lifetime, is ∼ 10⁻⁵ concurrent universes per galaxy. The total active 2D universe energy per galaxy is ∼ $3 \times 10^{47}\,\text{J}$, dominated by long-lived AGN-scale 2D universes. If the back-projection efficiency were 1 (full projection), this would give a galaxy DM energy of $3 \times 10^{47}\,\text{J}$, *much less* than the observed $8.95 \times 10^{57}\,\text{J}$. To match observation, the back-projection efficiency would need to be ∼ $3 \times 10^{10}$, which is unphysical. If instead we include *all* 2D universes that have ever lived (over the universe's 13.8 Gyr history, not just currently active), the count is ∼ $3 \times 10^{8}\,\text{SN}$-scale 2D universes per galaxy, giving ∼ $3 \times 10^{52}\,\text{J}$ at full back-projection, still ∼ 10⁵ short of the observed DM energy. The *gap* is significant: the simple cumulative calculation underestimates the DM by a factor of ∼ 10⁵ to 10¹⁰, depending on what is included. The most natural resolution is that the 2D universe's *total mass-energy* is *much larger* than the original event energy: the 2D universe is dark-energy dominated and has its own expansion, so its total mass-energy at any moment is the original event energy multiplied by the 2D universe's growth factor (which depends on the 2D universe's Hubble parameter and lifetime). If the growth factor is ∼ 10⁵ to 10¹⁰ (depending on the 2D universe's specific dark energy dynamics), the cumulative calculation can be brought into line with observation. *Alternatively*, the 2D universe's total mass-energy could be dominated by the *bulk* energy the 2D universe accumulates during its lifetime (analogous to how our universe's mass-energy is dominated by the dark energy, not the original Big Bang energy). The model is *qualitatively* consistent with the observed DM density for plausible 2D universe dynamics, and the growth factor is *derivable* from the 2D universe's FRW dynamics as shown in the *Deriving the growth factor from 2D universe dynamics* paragraph below: with Omega_{DE,2D} ~ 0.999, $t_{\rm eq}$ at 1% of 2D lifetime, $T_{2D}$ ~ 30 Gyr, the growth factor is G = $9.7 \times 10^{7}$, matching the trial-and-error value of 10⁸ to within 3%. This *resolves* the previously-acknowledged limitation: the growth factor is no longer a free parameter — it is a *consequence* of the 2D universe's own physics.
 
 *Self-consistency under the assumption of universal energy budget split. (v2.7.1+ reframing.)* In v2.7.1, the 5/27/68 split is **observational 3+1D data**, not a SIDC derivation. The "universal split" assumption (the same 5%/27%/68% applies at each SIDC level) is a *postulate that was DROPPED in v2.7.1* as a separate hypothesis that conflicted with the empirical 33 s lifetime. This subsection preserves the *historical* discussion for completeness but flags it as superseded. SIDC now treats the 5/27/68 as 3+1D observational data and does *not* extrapolate it to the 2D level. The 32% attractive / 68% antigravity split is *one possibility* for the 2D universe's own internal budget, but it is no longer assumed. SIDC's qualitative claims (DM is cumulative 2D universe back-projection, DE is 4D event antigravity) hold regardless of the specific 2D-internal budget.
 
@@ -864,7 +863,7 @@ SIDC is a *cone* (one parent, many children, terminal at the children's level), 
 
 2. **The 2D universe's 3+1D-frame mass.** SIDC postulates that the 2D universe's intrinsic 2D-frame mass (from the Liouville 2D CFT) is stellar-scale (~6 $M_\odot$), but the 3+1D-frame mass is time-compressed by a factor $e^{-ky}$ where y is the bulk position. The required $e^{-ky} \sim 10^{-54}$ to match the observed axion-like DM particle mass is a 54-orders-of-magnitude tension. Karch-Randall 2+1D Planck scale reduces this to ~15 orders, but the remaining tension is not resolved. This is Limitation 31 (the 2D-to-3+1D time compression has 54-orders uncertainty, reduced to 15 by Karch-Randall).
 
-3. ** $g_+$ (the RAR universal acceleration).** SIDC's $g_+$ ∼ 1.2 × 10⁻¹⁰ m/s² is empirically observed (SPARC RAR) and interpreted by SIDC as the back-projected acceleration from the cumulative 2D universe population. But $g_+$ = c × H₀ / (2π) is a fundamental constant combination, not derivable from the Liouville 2D CFT.
+3. ** $g_+$ (the RAR universal acceleration).** SIDC's $g_+$ ∼ $1.2 \times 10^{-10}\,\text{m}$/s² is empirically observed (SPARC RAR) and interpreted by SIDC as the back-projected acceleration from the cumulative 2D universe population. But $g_+$ = c × H₀ / (2π) is a fundamental constant combination, not derivable from the Liouville 2D CFT.
 
 **The time compression mechanism (§2.5 new in v2.6):**
 
@@ -973,7 +972,7 @@ GrowthFactorCalculator:
   G = 20 * V_growth = 9.717 × 10^{+07}
 ```
 
-This gives G = 9.7 × 10⁷, matching the trial-and-error value of 10⁸ to within 3%. The growth factor is therefore a *derived* parameter, not a free postulate.
+This gives G = $9.7 \times 10^{7}$, matching the trial-and-error value of 10⁸ to within 3%. The growth factor is therefore a *derived* parameter, not a free postulate.
 
 The *takeaway*: the growth factor is *derivable* from the 2D universe's equation of state (Omega_{DE,2D} ~ 0.999, $t_{\rm eq}$ at 1% of 2D lifetime, $T_{2D}$ ~ 30 Gyr in 2D's frame), and the paper's 10⁵– 10¹⁰ range corresponds to a *physically reasonable* family of 2D universe dynamics. The growth factor is not a free parameter — it is a *consequence* of SIDC's structure, with the specific value determined by the 2D universe's FRW parameters.
 
@@ -1245,10 +1244,10 @@ This is consistent with observations: G has been constant to within ~10% over th
 
 | Symbol | Direction | Value | What it produces |
 |--------|-----------|-------|------------------|
-| ** $f_{\rm leak,2D\to3D}$** | 2D → 3+1D while alive | 1.6× 10⁻⁴⁵ | Negligible (0.16 J per SN) |
+| ** $f_{\rm leak,2D\to3D}$** | 2D → 3+1D while alive | $1.6 \times 10^{-45}$| Negligible (0.16 J per SN) |
 | ** $f_{\rm DM,death}$** | 2D → 3+1D at death | **1** (100%) | **DM (27%) cumulative** |
-| ** $f_{\rm DE}$** | 3+1D → 4D (alive) | 1.2× 10⁻⁸⁵ | **DE (68%)** |
-| ** $f_{\rm leak,3D\to4D}$** | 3+1D → 4D continuous | ** H₀ = 2.18× 10⁻¹⁸ /s** | **DM drain** (prevents over-accumulation) |
+| ** $f_{\rm DE}$** | 3+1D → 4D (alive) | $1.2 \times 10^{-85}$| **DE (68%)** |
+| ** $f_{\rm leak,3D\to4D}$** | 3+1D → 4D continuous | ** H₀ = $2.18 \times 10^{-18}$/s** | **DM drain** (prevents over-accumulation) |
 
 **Four flows, four names, frame-neutral**:
 
@@ -1280,8 +1279,8 @@ See `paper/legacy/v357_f_back_clarification.md` for full discussion.
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → $6.32 \times 10^{-34}$, $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$(was $f_{\rm back}$ = $6.03 \times 10^{-88}\,\text{in}$ A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved.
 
 <!-- 03a_relations.md - part of paper.md split (v3.1, renamed from 03_relations.md for sequential ordering) -->
 
@@ -1339,7 +1338,7 @@ The model in this paper is one of several recent proposals that attempt to unify
 
 **The SIDC-MOND hybrid's empirical status (v2.3.0):**
 - Galaxy scale (SPARC, 175 galaxies): 10% median residual with free g₊ and M/L (commit 153)
-- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = 1.3 × 10⁻⁹ ( 1σ: 5.3 × 10⁻¹⁰ to 2.7 × 10⁻⁹), matches Tian+ 2024's 1.7 × 10⁻⁹ within 1σ (commit 159)
+- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = $1.3 \times 10^{-9}$( 1σ: $5.3 \times 10^{-10}\,\text{to}$ $2.7 \times 10^{-9}$), matches Tian+ 2024's $1.7 \times 10^{-9}\,\text{within}$ 1σ (commit 159)
 - $V_{\rm local}$ predictions test (commit 170): $g_+ \propto \sigma^{1.85}$ matches MOND EFE ( $g_+$ ∝ σ²) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
 
 **The SIDC-MOND hybrid is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.** SIDC's pure prediction ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$) was falsified by real SPARC (commit 152, Limitation 19). SIDC's *framework* (4D event → 3+1D → 2D, with cumulative 2D universe gravity) survives because the SIDC-MOND hybrid is a *natural completion*: SIDC provides the *geometric origin* of $g_+$, MOND provides the *functional form* of $g_{\rm obs}$( $g_{\rm bar}$). The hybrid model is a *prediction* of SIDC (Limitation 27), and it's *consistent* with the cluster-scale data (Limitation 28). A specific implementation of SIDC would need to derive MOND's interpolation function from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture (Limitation 27).
@@ -1373,11 +1372,11 @@ The CGHS model [CGHS92] is a 1+1-dimensional dilaton gravity theory that is *exa
 - A derivation of SIDC's birth/death GW spectrum (per §10)
 
 **Quantitative check.** SIDC's lifetime $\tau_{\rm 2D}$ = $(E/E_{\rm Pl})^{1.29}$ × $t_{\rm Pl}$, calibrated to τ(SN) = 33 s, predicts:
-- τ(LHC pp) = 3.5 × 10⁻⁶⁴ s for $E_{\rm pp}$ = 10⁻⁹ J
-- τ(BNS merger) = 4.3 × 10⁵ yr for $E_{\rm BNS}$ = 10⁴⁶ J
-- τ(AGN outburst) = 1.6 × 10⁸ yr for $E_{\rm AGN}$ = 10⁵² J
+- τ(LHC pp) = $3.5 \times 10^{-64}\,\text{s}$ for $E_{\rm pp}$ = 10⁻⁹ J
+- τ(BNS merger) = $4.3 \times 10^{5}\,\text{yr}$ for $E_{\rm BNS}$ = 10⁴⁶ J
+- τ(AGN outburst) = $1.6 \times 10^{8}\,\text{yr}$ for $E_{\rm AGN}$ = 10⁵² J
 
-CGHS original (p=3) gives τ(LHC pp) = 3.3 × $10^{-138}$ s (75 orders too short), and RST (p=1) gives τ(LHC pp) = 3.3 × 10⁻⁵⁴ s (9 orders too long). SIDC's α = 1.29 is *between* these extremes, which is consistent with a CGHS-like 2D black hole with *intermediate* back-reaction. A CGHS-with-back-reaction calculation that yields exactly α = 1.29 would be a *first-principles derivation* of SIDC's energy-scaling rule. This is a concrete, testable prediction for 2D quantum gravity experts (a working calculation, not a vague hope).
+CGHS original (p=3) gives τ(LHC pp) = 3.3 × $10^{-138}$ s (75 orders too short), and RST (p=1) gives τ(LHC pp) = $3.3 \times 10^{-54}\,\text{s}$ (9 orders too long). SIDC's α = 1.29 is *between* these extremes, which is consistent with a CGHS-like 2D black hole with *intermediate* back-reaction. A CGHS-with-back-reaction calculation that yields exactly α = 1.29 would be a *first-principles derivation* of SIDC's energy-scaling rule. This is a concrete, testable prediction for 2D quantum gravity experts (a working calculation, not a vague hope).
 
 SIDC's 2D universes have Hawking temperatures $T_H \sim M_{\rm Pl}$ × $( E_{\rm Pl}/E)^{1}$.29 that are *above* the Planck temperature for all events (E < $E_{\rm Pl}$), confirming SIDC's framing of 2D universes as Planckian objects. This is consistent with the CGHS picture: 2D black holes at Planckian energies are well-defined in 2D dilaton gravity (the theory is well-behaved even when 4D gravity breaks down).
 
@@ -1477,7 +1476,7 @@ The RT formula [Ryu06] is the central tool of holographic entanglement entropy i
 
 **Quantitative check.** For SIDC's SN-calibrated 2D universe of $\tau_{2D} = 33$ s, RT gives:
 - $R_{\rm 2D}$ = c × $\tau_{2D} = 9.9$ × 10⁹ m (about 70 × Earth-Moon distance)
-- A_2D = 4π R_2D² = 1.2 × 10²¹ m²
+- A_2D = 4π R_2D² = $1.2 \times 10^{21}\,\text{m}$²
 - $S_{\rm 2D}$ = A_2D / (4 l_P²) ≈ 10⁹⁰ (in natural units)
 
 This is an enormous entanglement entropy. The 2D universe is "small" in its intrinsic 1+1D spacetime, but its boundary in 3+1D is a 2-sphere of radius ∼ 10¹⁰ m. The RT formula gives this boundary area a holographic content of 10⁹⁰ dimensionless units. This is consistent with SIDC's claim that 2D universes can carry "missing bulk entropy" that back-projects to 3+1D as DM.
@@ -1786,7 +1785,7 @@ For a typical Milky-Way-like galaxy:
 - Required cumulative 2D universe deaths: $3.2 \times 10^{11} M_\odot$ worth of energy
 
 Over a Hubble time ( T = 13.8 Gyr):
-- Cumulative SNe in MW: ∼ 8.7 × 10¹⁵ events
+- Cumulative SNe in MW: ∼ $8.7 \times 10^{15}\,\text{events}$
 - Each SN releases∼ 10⁴⁴ J of kinetic energy$\sim 5.6 \times 10^{-7} M_\odot c^2$
 - Total SN energy in MW:$\sim 5 \times 10^{9} M_\odot c^2$ (i.e.,∼ 8\% of MW baryons)
 
@@ -1803,16 +1802,16 @@ $$M_{2D,3+1D} = M_{2D,2D} \times e^{-ky}$$
 To get the required $3.7 \times 10^{-5} M_\odot$ per universe:
 $$e^{-ky} = 3.7 \times 10^{-5} / 6 = 6.2 \times 10^{-6}$$
 
-**Discrepancy with SIDC's stated value:** SIDC has previously stated $e^{-ky} \sim 10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is 6.2 × 10⁻⁶, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
+**Discrepancy with SIDC's stated value:** SIDC has previously stated $e^{-ky} \sim 10^{-54}$ (per the 2D-to-3+1D time compression, L31). The required value is $6.2 \times 10^{-6}$, which is **49 orders of magnitude larger**. This is *within* the 54-orders-of-magnitude uncertainty (L31), but it's a *significant* discrepancy from SIDC's nominal value.
 
 **Honest assessment:** the 67x per-event amplification is a *postulated* mechanism, not a derivation. The 2D universe's intrinsic mass and the time compression factor are free parameters (effectively absorbed into SIDC's calibration).
 
 **3.11.3 Explanation 2: Time accumulation (necessary but not sufficient).**
 
 Over 13.8 Gyr, the cumulative number of energetic events in a galaxy is large:
-- SNe: ∼ 8.7 × 10¹⁵ in MW
-- Hypernovae: ∼ 8.7 × 10¹³ (1% of SNe)
-- Long GRBs: ∼ 8.7 × 10¹² (0.1% of SNe)
+- SNe: ∼ $8.7 \times 10^{15}\,\text{in}$ MW
+- Hypernovae: ∼ $8.7 \times 10^{13}$(1% of SNe)
+- Long GRBs: ∼ $8.7 \times 10^{12}$(0.1% of SNe)
 - BNS mergers: ∼ 10⁶ in MW
 - AGN outbursts: ∼ 10⁷ in MW
 
@@ -2014,8 +2013,8 @@ See `calculations/v27_dm_baryon_growth.py` for the full numerical analysis.
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → $6.32 \times 10^{-34}$, $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$(was $f_{\rm back}$ = $6.03 \times 10^{-88}\,\text{in}$ A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved.
 
 <!-- 03b_predictions.md - part of paper.md split (v3.1, renamed from 03_predictions.md for sequential ordering) -->
 
@@ -2040,9 +2039,9 @@ Each level of SIDC has the same structure (per L308x v3, asymmetric cone in time
 |-------|---|------------|----------------------------------|---------------|-------------------------|
 | 0D | 0 | — | none | — | — |
 | 1D | 1 | varies | varies | $\gamma_{\rm 1D}$ = $(E/M_{\rm Pl,1})^\alpha$ | varies |
-| **2D** | 2 | 2.95 TeV | **5.7×10³⁸ yr** (2D's own frame, SN) | $\gamma_{2D}$ = $(E/M_{\rm Pl,3})^\alpha$ = 5.5×10⁴⁴ | **33 s** (SN) |
-| 3+1D | 4 | 1.22×10¹⁹ GeV | n/a (3+1D IS us) | — | 13.8 Gyr (age) |
-| **4D** | 5 | 3.93×10²³ GeV | **1.51×10³⁴ yr** (4D's own frame) | $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^\alpha$ = 1.10×10¹¹¹ (A2: $\alpha_{4D}$=1.577) | **1.66×10¹⁴⁵ yr (A2)** |
+| **2D** | 2 | 2.95 TeV | **$5.7 \times 10^{38}\,\text{yr}$** (2D's own frame, SN) | $\gamma_{2D}$ = $(E/M_{\rm Pl,3})^\alpha$ = $5.5 \times 10^{44}$| **33 s** (SN) |
+| 3+1D | 4 | $1.22 \times 10^{19}\,\text{GeV}$ | n/a (3+1D IS us) | — | 13.8 Gyr (age) |
+| **4D** | 5 | $3.93 \times 10^{23}\,\text{GeV}$ | **$1.51 \times 10^{34}\,\text{yr}$** (4D's own frame) | $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^\alpha$ = $1.10 \times 10^{111}$(A2: $\alpha_{4D}$=1.577) | **$1.66 \times 10^{145}\,\text{yr}$ (A2)** |
 | 5D | 6 | varies | $t_{\rm Pl,5D}$ in 5D frame | $\gamma_{\rm 5D}$ = $(E/M_{\rm Pl,5})^\alpha$ | varies |
 | ... | N | $t_{\rm Pl,N}$ | $t_{\rm Pl,N}$ in N-D frame | $\gamma_{\rm N}$ = $(E/M_{\rm Pl,N})^\alpha$ | varies |
 
@@ -2056,10 +2055,10 @@ Each level of SIDC has the same structure (per L308x v3, asymmetric cone in time
 In D dimensions, the Planck time scales as:
 $$t_{Pl,D} = t_{Pl,3} \times (\frac{M_{Pl,3}}{M_{Pl,D}})^{D-4}$$
 
-If $M_{\rm Pl}$,D = 3.93×10²³ GeV (SIDC's v3.5.8+ value) for all D ≥ 4:
-- $t_{\rm Pl,4D}$ = $t_{\rm Pl,3+1D}$ = 5.39 × 10⁻⁴⁴ s
-- $t_{\rm Pl,5D}$ = 7.4 × 10⁻²⁸ s (longer!)
-- $t_{\rm Pl}$,6 = 1.0 × 10⁻¹¹ s (much longer)
+If $M_{\rm Pl}$,D = $3.93 \times 10^{23}\,\text{GeV}$ (SIDC's v3.5.8+ value) for all D ≥ 4:
+- $t_{\rm Pl,4D}$ = $t_{\rm Pl,3+1D}$ = $5.39 \times 10^{-44}\,\text{s}$
+- $t_{\rm Pl,5D}$ = $7.4 \times 10^{-28}\,\text{s}$ (longer!)
+- $t_{\rm Pl}$,6 = $1.0 \times 10^{-11}\,\text{s}$ (much longer)
 - ...
 
 **Higher dimensions have longer Planck times.** This is because the Planck scale is determined by the bulk-brane geometry, which is the same at every level.
@@ -2228,8 +2227,8 @@ The democratic cosmology says all 2D universes have the same M^α-observed lifet
 
 **Frame of reference (L308x v3, asymmetric cone in time direction)**:
 - **3+1D-observed lifetime** (what we measure in 3+1D): $\tau_{2D,3+1D}$ = 33s for SN
-- **2D proper lifetime** (in 2D's own frame): $\tau_{2D,proper}$ = $\gamma_{2D}$ × 33s = 5.5×10⁴⁴ × 33s = **5.7×10³⁸ yr** for SN (MUCH LONGER)
-- The 2D universe "lives" for 5.7×10³⁸ yr in its own frame, but we observe it for 33s in 3+1D frame
+- **2D proper lifetime** (in 2D's own frame): $\tau_{2D,proper}$ = $\gamma_{2D}$ × 33s = $5.5 \times 10^{44}$× 33s = **$5.7 \times 10^{38}\,\text{yr}$** for SN (MUCH LONGER)
+- The 2D universe "lives" for $5.7 \times 10^{38}\,\text{yr}$ in its own frame, but we observe it for 33s in 3+1D frame
 - $\gamma_{2D}$ stretches time in 2D's own frame (opposite direction from 4D level)
 
 The death rate in 3+1D frame is:
@@ -2240,11 +2239,11 @@ $$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \fra
 
 | Event | E (J) | $\gamma_{2D}$ | Relative death rate (1/ $\gamma_{2D}$) |
 |-------|-------|------|------------------------------|
-| LHC (14 TeV) | 2.24 × 10⁻¹⁵ J | 1.3 × 10⁻³¹ | 7.7 × 10³⁰ (HIGH) |
-| 1 ton TNT | 4 × 10⁹ J | 2.5 | 0.4 |
-| SN ( 10⁴⁴ J) | 6 × 10⁴⁴ J | 6 × 10⁴⁴ | 1.7 × 10⁻⁴⁵ (LOW) |
-| BNS merger | 10⁵³ J | 2.4 × 10⁵⁶ | 4.1 × 10⁻⁵⁷ (LOW) |
-| AGN outburst | 10⁵⁵ J | 9.2 × 10⁵⁸ | 1.1 × 10⁻⁵⁹ (LOW) |
+| LHC (14 TeV) | $2.24 \times 10^{-15}\,\text{J}$ | $1.3 \times 10^{-31}$| $7.7 \times 10^{30}$(HIGH) |
+| 1 ton TNT | $4 \times 10^{9}\,\text{J}$ | 2.5 | 0.4 |
+| SN ( 10⁴⁴ J) | $6 \times 10^{44}\,\text{J}$ | $6 \times 10^{44}$| $1.7 \times 10^{-45}$(LOW) |
+| BNS merger | 10⁵³ J | $2.4 \times 10^{56}$| $4.1 \times 10^{-57}$(LOW) |
+| AGN outburst | 10⁵⁵ J | $9.2 \times 10^{58}$| $1.1 \times 10^{-59}$(LOW) |
 
 **3.23.2 Prediction 2: 2D universe death GW spectrum.**
 
@@ -2266,7 +2265,7 @@ The total 2D universe death energy in 3+1D frame = $\Omega_{\rm DM}$ = 27%. This
 
 **3.23.5 Prediction 5: 2D universe death GW has specific time signature.**
 
-A single 2D universe death in 3+1D frame lasts $\tau_{\rm 2D}$_3+1D = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$. For SN events, this is 33s; for BNS, 4.3 × 10⁵ yr; for AGN, 1.6 × 10⁸ yr. The GW burst has a specific time profile.
+A single 2D universe death in 3+1D frame lasts $\tau_{\rm 2D}$_3+1D = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$. For SN events, this is 33s; for BNS, $4.3 \times 10^{5}\,\text{yr}$; for AGN, $1.6 \times 10^{8}\,\text{yr}$. The GW burst has a specific time profile.
 
 **3.23.6 Falsifiability.**
 
@@ -2464,12 +2463,12 @@ with non-trivial past SF should have non-zero $M_{dyn}$.
 
 | Galaxy | M_{b} ( $M_\odot$) | σ (km/s) | rₕ (pc) | $M_{dyn}$ ( $M_\odot$) | $M_{dyn}$/ M_{b} | SIDC |
 |--------|-----------|----------|----------|-------------|-----------|---------|
-| **Crater II** | 3.0 × 10⁵ | 2.7 km/s | 700 pc | 5.9 × 10⁶ | **19.8** | PASS (low $M_{dyn}$/ M_{b}, but DM is non-zero) |
-| **Antlia 2** | 5.0 × 10⁵ | 5.0 km/s | 2900 pc | 8.4 × 10⁷ | **168.6** | PASS (high $M_{dyn}$/ M_{b}, consistent with SIDC) |
-| **Boötes I** | 3.0 × 10⁴ | 5.0 km/s | 230 pc | 6.7 × 10⁶ | **222.9** | PASS (high $M_{dyn}$/ M_{b}, consistent with SIDC) |
-| **Segue 1** | 6.0 × 10² | 3.7 km/s | 30 pc | 4.8 × 10⁵ | **796.1** | PASS (very high $M_{dyn}$/ M_{b}, consistent with SIDC) |
-| **Willman 1** | 1.0 × 10⁴ | 4.0 km/s | 25 pc | 4.7 × 10⁵ | **46.5** | PASS (DM is non-zero, consistent with SIDC) |
-| **Tucana II** | 2.3 × 10³ | 4.5 km/s | 165 pc | 3.9 × 10⁶ | **1689.6** | PASS (very high $M_{dyn}$/ M_{b}, consistent with SIDC) |
+| **Crater II** | $3.0 \times 10^{5}$| 2.7 km/s | 700 pc | $5.9 \times 10^{6}$| **19.8** | PASS (low $M_{dyn}$/ M_{b}, but DM is non-zero) |
+| **Antlia 2** | $5.0 \times 10^{5}$| 5.0 km/s | 2900 pc | $8.4 \times 10^{7}$| **168.6** | PASS (high $M_{dyn}$/ M_{b}, consistent with SIDC) |
+| **Boötes I** | $3.0 \times 10^{4}$| 5.0 km/s | 230 pc | $6.7 \times 10^{6}$| **222.9** | PASS (high $M_{dyn}$/ M_{b}, consistent with SIDC) |
+| **Segue 1** | $6.0 \times 10^{2}$| 3.7 km/s | 30 pc | $4.8 \times 10^{5}$| **796.1** | PASS (very high $M_{dyn}$/ M_{b}, consistent with SIDC) |
+| **Willman 1** | $1.0 \times 10^{4}$| 4.0 km/s | 25 pc | $4.7 \times 10^{5}$| **46.5** | PASS (DM is non-zero, consistent with SIDC) |
+| **Tucana II** | $2.3 \times 10^{3}$| 4.5 km/s | 165 pc | $3.9 \times 10^{6}$| **1689.6** | PASS (very high $M_{dyn}$/ M_{b}, consistent with SIDC) |
 
 **ALL 6 GALAXIES PASS THE QUALITATIVE TEST.** SIDC's picture
 is: DM is non-zero for any galaxy with non-trivial past SF.
@@ -2524,8 +2523,8 @@ The JWST discoveries (ZF-UDS-7329, RUBIES-EGS-QG-1) are extreme
 
 | Galaxy | z | M_{b} ( $M_\odot$) | SIDC prediction | Status |
 |--------|---|-----------|---------------------|--------|
-| **ZF-UDS-7329** | 3.205 | 1.6 × 10¹¹ | VERY HIGH $M_{dyn}$/ M_{b} (extreme early SF) | $M_{dyn}$ not measured yet |
-| **RUBIES-EGS-QG-1** | 4.9 | 1.0 × 10¹⁰ | VERY HIGH $M_{dyn}$/ M_{b} (extreme early SF) | $M_{dyn}$ not measured yet |
+| **ZF-UDS-7329** | 3.205 | $1.6 \times 10^{11}$| VERY HIGH $M_{dyn}$/ M_{b} (extreme early SF) | $M_{dyn}$ not measured yet |
+| **RUBIES-EGS-QG-1** | 4.9 | $1.0 \times 10^{10}$| VERY HIGH $M_{dyn}$/ M_{b} (extreme early SF) | $M_{dyn}$ not measured yet |
 
 These galaxies formed their stars at z ~ 11 (only 350 Myr after the
 Big Bang) and were already massive and dead by z ~ 5. SIDC
@@ -2617,28 +2616,28 @@ orders of magnitude in M_{b} (from GCs at 10⁵ to clusters at 10¹⁴):
 
 | Galaxy | M_{b} ( $M_\odot$) | $M_{dyn}$ ( $M_\odot$) | $M_{dyn}$/ M_{b} | Type | SIDC |
 |--------|-----------|-------------|-----------|------|---------|
-| M15 (NGC 7078) | 5.0 × 10⁵ | 5.0 × 10⁵ | 1.0 | GC | **[PASS]** |
-| 47 Tucanae | 1.0 × 10⁶ | 1.0 × 10⁶ | 1.0 | GC | **[PASS]** |
-| Omega Centauri | 4.0 × 10⁶ | 5.0 × 10⁶ | 1.2 | Massive GC | **[PASS]** |
-| G1 (Mayall II) in M31 | 8.0 × 10⁶ | 1.4 × 10⁷ | 1.7 | Massive GC | **[PASS]** |
-| Tucana dSph | 2.0 × 10⁵ | 2.5 × 10⁵ | 1.3 | dSph | **[PASS]** |
-| Crater II | 3.0 × 10⁵ | 5.9 × 10⁶ | 19.8 | MW satellite | **[PASS]** |
-| NGC 1052-DF2 | 2.0 × 10⁸ | 3.0 × 10⁸ | 1.5 | UDG | **[PASS]** |
-| Antlia 2 | 5.0 × 10⁵ | 8.4 × 10⁷ | 168.6 | MW satellite | **[PASS]** |
-| Willman 1 | 1.0 × 10⁴ | 4.7 × 10⁵ | 46.5 | UFD | **[PASS]** |
-| Boötes I | 3.0 × 10⁴ | 6.7 × 10⁶ | 222.9 | UFD | **[PASS]** |
-| Segue 1 | 6.0 × 10² | 4.8 × 10⁵ | 796.1 | UFD | **[PASS]** |
-| Tucana II | 2.3 × 10³ | 3.9 × 10⁶ | 1689.6 | UFD | **[PASS]** |
-| KKR 25 ([!]️ estimated) | 3.0 × 10⁶ | ∼ 3 × 10⁶ *(est.)* | ~1 *(est.)* | dSph | **[PASS]** |
-| LMC | 3.0 × 10⁹ | 2.0 × 10¹⁰ | 6.7 | Irregular | **[PASS]** |
-| SMC | 5.0 × 10⁸ | 3.0 × 10⁹ | 6.0 | Irregular | **[PASS]** |
-| M82 (NGC 3034) | 1.0 × 10¹⁰ | 4.0 × 10¹⁰ | 4.0 | Starburst | **[PASS]** |
-| Milky Way | 6.0 × 10¹⁰ | 1.8 × 10¹² | 30.0 | Spiral | **[PASS]** |
-| M31 (Andromeda) | 1.0 × 10¹¹ | 1.4 × 10¹² | 14.0 | Spiral | **[PASS]** |
-| NGC 1275 (Perseus A) | 1.0 × 10¹² | 5.0 × 10¹³ | 50.0 | AGN host | **[PASS]** |
-| Bullet Cluster | 2.0 × 10¹³ | 1.0 × 10¹⁵ | 50.0 | Cluster merger | **[PASS]** |
-| Coma Cluster | 5.0 × 10¹³ | 5.0 × 10¹⁴ | 10.0 | Cluster | **[PASS]** |
-| Perseus Cluster | 1.0 × 10¹⁴ | 1.5 × 10¹⁵ | 15.0 | Cluster | **[PASS]** |
+| M15 (NGC 7078) | $5.0 \times 10^{5}$| $5.0 \times 10^{5}$| 1.0 | GC | **[PASS]** |
+| 47 Tucanae | $1.0 \times 10^{6}$| $1.0 \times 10^{6}$| 1.0 | GC | **[PASS]** |
+| Omega Centauri | $4.0 \times 10^{6}$| $5.0 \times 10^{6}$| 1.2 | Massive GC | **[PASS]** |
+| G1 (Mayall II) in M31 | $8.0 \times 10^{6}$| $1.4 \times 10^{7}$| 1.7 | Massive GC | **[PASS]** |
+| Tucana dSph | $2.0 \times 10^{5}$| $2.5 \times 10^{5}$| 1.3 | dSph | **[PASS]** |
+| Crater II | $3.0 \times 10^{5}$| $5.9 \times 10^{6}$| 19.8 | MW satellite | **[PASS]** |
+| NGC 1052-DF2 | $2.0 \times 10^{8}$| $3.0 \times 10^{8}$| 1.5 | UDG | **[PASS]** |
+| Antlia 2 | $5.0 \times 10^{5}$| $8.4 \times 10^{7}$| 168.6 | MW satellite | **[PASS]** |
+| Willman 1 | $1.0 \times 10^{4}$| $4.7 \times 10^{5}$| 46.5 | UFD | **[PASS]** |
+| Boötes I | $3.0 \times 10^{4}$| $6.7 \times 10^{6}$| 222.9 | UFD | **[PASS]** |
+| Segue 1 | $6.0 \times 10^{2}$| $4.8 \times 10^{5}$| 796.1 | UFD | **[PASS]** |
+| Tucana II | $2.3 \times 10^{3}$| $3.9 \times 10^{6}$| 1689.6 | UFD | **[PASS]** |
+| KKR 25 ([!]️ estimated) | $3.0 \times 10^{6}$| ∼ $3 \times 10^{6}$*(est.)* | ~1 *(est.)* | dSph | **[PASS]** |
+| LMC | $3.0 \times 10^{9}$| $2.0 \times 10^{10}$| 6.7 | Irregular | **[PASS]** |
+| SMC | $5.0 \times 10^{8}$| $3.0 \times 10^{9}$| 6.0 | Irregular | **[PASS]** |
+| M82 (NGC 3034) | $1.0 \times 10^{10}$| $4.0 \times 10^{10}$| 4.0 | Starburst | **[PASS]** |
+| Milky Way | $6.0 \times 10^{10}$| $1.8 \times 10^{12}$| 30.0 | Spiral | **[PASS]** |
+| M31 (Andromeda) | $1.0 \times 10^{11}$| $1.4 \times 10^{12}$| 14.0 | Spiral | **[PASS]** |
+| NGC 1275 (Perseus A) | $1.0 \times 10^{12}$| $5.0 \times 10^{13}$| 50.0 | AGN host | **[PASS]** |
+| Bullet Cluster | $2.0 \times 10^{13}$| $1.0 \times 10^{15}$| 50.0 | Cluster merger | **[PASS]** |
+| Coma Cluster | $5.0 \times 10^{13}$| $5.0 \times 10^{14}$| 10.0 | Cluster | **[PASS]** |
+| Perseus Cluster | $1.0 \times 10^{14}$| $1.5 \times 10^{15}$| 15.0 | Cluster | **[PASS]** |
 
 **22/22 galaxies pass the qualitative test** (DM is non-zero). KKR 25 included with [!]️ marker for estimated $M_{dyn}$.
 
@@ -2833,20 +2832,20 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz- μHz band.
 |-------|-------|----------|-----------|----------|
 | Core-collapse SN | 10⁴⁴ J | 33 s | 0.03 Hz | LISA |
 | Type Ia SN | 10⁴⁴ J | 33 s | 0.03 Hz | LISA |
-| BNS merger | 10⁴⁷ J | 2.4 × 10⁵ | 4.2 × 10⁻⁶ Hz | PTA |
-| Long GRB | 10⁴⁷ J | 2.4 × 10⁵ | 4.2 × 10⁻⁶ Hz | PTA |
-| TDE | 10⁴⁸ J | 4.6 × 10⁶ | 2.2 × 10⁻⁷ Hz | PTA |
-| AGN flare | 10⁵⁰ J | 1.8 × 10⁹ | 5.7 × 10⁻¹⁰ Hz | PTA |
-| Primordial BH merger | 10⁵² J | 6.7 × 10¹¹ | 1.5 × 10⁻¹² Hz | PTA |
+| BNS merger | 10⁴⁷ J | $2.4 \times 10^{5}$| $4.2 \times 10^{-6}\,\text{Hz}$ | PTA |
+| Long GRB | 10⁴⁷ J | $2.4 \times 10^{5}$| $4.2 \times 10^{-6}\,\text{Hz}$ | PTA |
+| TDE | 10⁴⁸ J | $4.6 \times 10^{6}$| $2.2 \times 10^{-7}\,\text{Hz}$ | PTA |
+| AGN flare | 10⁵⁰ J | $1.8 \times 10^{9}$| $5.7 \times 10^{-10}\,\text{Hz}$ | PTA |
+| Primordial BH merger | 10⁵² J | $6.7 \times 10^{11}$| $1.5 \times 10^{-12}\,\text{Hz}$ | PTA |
 
 **Cumulative GW energy density**: For each event type, integrate
 over cosmic history:
 - SN: $N_{\rm SN}$ ∼ 10¹⁸ over cosmic history, $E_{\rm per,SN,GW}$ = $f_{\rm back}$ × 10⁴⁴ = 10⁻⁴¹ J
-- Total SN GW energy density: $\rho_{\rm GW_SN}$ = 10¹⁸ × 10⁻⁴¹ / 4 × 10⁸⁰ m³ = $10^{-103}$ J/m^3
-- $\Omega_{\rm GW}$_SN = $\rho_{\rm GW_SN}$ / $\rho_{\rm crit}$ = $10^{-103}$ / 7.6 × 10⁻¹⁰ = ** 10⁻⁹⁴**
+- Total SN GW energy density: $\rho_{\rm GW_SN}$ = 10¹⁸ × 10⁻⁴¹ / $4 \times 10^{80}\,\text{m}$³ = $10^{-103}$ J/m^3
+- $\Omega_{\rm GW}$_SN = $\rho_{\rm GW_SN}$ / $\rho_{\rm crit}$ = $10^{-103}$ / $7.6 \times 10^{-10}$= ** 10⁻⁹⁴**
 
-- BNS: $N_{\rm BNS}$ ∼ 3 × 10³/ ${\rm Mpc}^3$, $E_{\rm per,BNS,GW}$ = $f_{\rm back}$ × 10⁴⁷ = 10⁻³⁸ J
-- Total BNS GW energy density: $\rho_{\rm GW_BNS}$ = 3 × 10³ × 10⁻³⁸ / 2.9 × 10⁶⁷ = $10^{-102}$ J/m^3
+- BNS: $N_{\rm BNS}$ ∼ $3 \times 10^{3}$/ ${\rm Mpc}^3$, $E_{\rm per,BNS,GW}$ = $f_{\rm back}$ × 10⁴⁷ = 10⁻³⁸ J
+- Total BNS GW energy density: $\rho_{\rm GW_BNS}$ = $3 \times 10^{3}$× 10⁻³⁸ / $2.9 \times 10^{67}$= $10^{-102}$ J/m^3
 - $\Omega_{\rm GW}$_BNS = ** 10⁻⁹³**
 
 **PTA detection threshold**: $\Omega_{\rm GW} \sim 10^{-10}$ to 10⁻⁹ (NANOGrav 15-yr,
@@ -2883,16 +2882,14 @@ measurements) is the cleanest Solar System test of modified gravity.
 **Local 2D universe death mass** (within 100 pc):
 - Local stellar mass: 10⁵ Mₒ
 - SN events: 10³ (over 10 Gyr)
-- $M_{2D}$_local = $f_{\rm back}$ × 10³ × 10⁴⁴ J / c² = 5.6 × 10⁻⁸⁶ Mₒ
+- $M_{2D}$_local = $f_{\rm back}$ × 10³ × 10⁴⁴ J / c² = $5.6 \times 10^{-86}\,\text{M}$ₒ
 
 **Galaxy-integrated 2D universe death mass** (within 10 kpc):
-- N_SN_MW = 5 × 10⁸ (over 10 Gyr)
-- $M_{2D}$_MW = 5.6 × 10⁻⁸⁰ Mₒ
+- N_SN_MW = $5 \times 10^{8}$(over 10 Gyr)
+- $M_{2D}$_MW = $5.6 \times 10^{-80}\,\text{M}$ₒ
 
 **PPN γ prediction**:
-- $\gamma_{\rm cascade}$ - 1 $\sim M_{2D}$_local / M_Sun = 5.6 × 10⁻⁸⁶
-- Cassini 2003: | γ - 1| < 2.3 × 10⁻⁵
-- SIDC is **80 orders of magnitude BELOW Cassini precision**
+- $\gamma_{\rm cascade}$ - 1 $\sim M_{2D}$_local / M_Sun = $5.6 \times 10^{-86}$- Cassini 2003: | γ - 1| < $2.3 \times 10^{-5}$- SIDC is **80 orders of magnitude BELOW Cassini precision**
 - ** $\gamma_{\rm cascade}$ = 1.00000000 (indistinguishable from GR)**
 
 **Solar System tests**:
@@ -3036,7 +3033,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 | c (central charge) | 1/2 | 1 surviving Ising mode from 12 Majoranas via SYK q=4 (per L117); arithmetic 12/24 = 1/2 is coincidence, NOT a general formula (L308aq) |
 | α (lifetime scaling) | 1.289 | 1 + 1/√N (saddle-point fluctuation) |
 | 1/(2α) (back-action) | 0.388 | c/α (composite) |
-| $f_{\rm back}$ (universal) | 8.6 × 10⁻⁸⁶ | (1/(2α))-powered formula |
+| $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$| (1/(2α))-powered formula |
 
 **Why N = 12 is unique** (off by 0.001 from α = 1.29):
 
@@ -3067,7 +3064,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 4. q = 4 SYK with N = 12
 5. α = 1 + 1/√N scaling is universal
 6. c = 1/2 Ising CFT (specific)
-7. $f_{\rm back}$ = 8.6 × 10⁻⁸⁶ universal
+7. $f_{\rm back}$ = $8.6 \times 10^{-86}\,\text{universal}$
 8. 14 event types follow $\tau_{2D} \sim M^{1.29}$
 
 **What v3 derives (NEW)**:
@@ -3075,7 +3072,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 - α = 1.289 (lifetime scaling, EXACT from $N=12$)
 - c = 1/2 (Ising CFT, surviving Ising mode from SYK q=4; L308aq clarifies)
 - 1/(2α) = 0.388 (back-action)
-- $f_{\rm back}$ = 8.6 × 10⁻⁸⁶ (universal, gives 10⁻⁸⁵)
+- $f_{\rm back}$ = $8.6 \times 10^{-86}$(universal, gives 10⁻⁸⁵)
 - 14 event types follow $\tau_{2D} \sim M^{1.29}$
 - 1/√N saddle-point theoretical support
 
@@ -3109,7 +3106,7 @@ See `changelog.md` for v2.7.x → v3.0 history.
 
 ### 3.60.1 Closed loop expression for $f_{\rm back}$ (v3.0.21, revised v3.0.22 — **HISTORICAL FORMULA**; current formula uses L308v α-GM)
 
-**IMPORTANT CLARIFICATION (v3.0.22, REVISED v3.3+)**: $f_{\rm back} \approx 10^{-85}$ was the v3.0.21 numerical value of the closed-loop back-flow fraction. In **v3.3+** (L308v α-GM), this is RENAMED to $f_{\rm DE}$ for the 3D→4D channel (= 1.13× 10⁻⁸⁵, DERIVED via L308v). See `paper/legacy/v359_README_legacy_sections.md` §4 for the naming revolution.
+**IMPORTANT CLARIFICATION (v3.0.22, REVISED v3.3+)**: $f_{\rm back} \approx 10^{-85}$ was the v3.0.21 numerical value of the closed-loop back-flow fraction. In **v3.3+** (L308v α-GM), this is RENAMED to $f_{\rm DE}$ for the 3D→4D channel (= $1.13 \times 10^{-85}$, DERIVED via L308v). See `paper/legacy/v359_README_legacy_sections.md` §4 for the naming revolution.
 
 $$\boxed{f_{\rm back} \equiv \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)} \approx 10^{-85}}$$
 
@@ -3123,8 +3120,8 @@ the v10 calculation (`calculations/lagrangian_v10_fback_from_alpha.py`):
 $$f_{\rm back} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)}$$
 
 where:
-- $t_{\rm Pl,3}$ = 3+1D Planck time = 5.39 × 10⁻⁴⁴ s
-- $\tau_{\rm 4D}$ = 4D-view lifetime of our 3+1D universe = 2 × 10²⁶ yr
+- $t_{\rm Pl,3}$ = 3+1D Planck time = $5.39 \times 10^{-44}\,\text{s}$
+- $\tau_{\rm 4D}$ = 4D-view lifetime of our 3+1D universe = $2 \times 10^{26}\,\text{yr}$
 - $\tau_{\rm SN,obs}$ = SN1987A observed burst duration = 33 s
 - $\tau_{\rm universe}$ = age of universe = 13.8 Gyr
 - $E_{\rm 4D}$ = 4D cosmological event energy = 10⁶⁹ J
@@ -3143,10 +3140,7 @@ Wait, this gives 10⁻⁷⁷, not 10⁻⁸⁵. Let me recheck.
 $f_{\rm back} = (t_{\rm Pl,3}/\tau_{\rm 4D}) \times (\tau_{\rm SN,obs}/\tau_{\rm universe}) \times (E_{\rm 4D}/E_{\rm SN})^{1/2α}$
 $= (5.39 \times 10^{-44} / 6.3 \times 10^{33}) \times (33 / 4.35 \times 10^{17}) \times (10^{69}/10^{44})^{0.388}$
 $= 8.55 \times 10^{-78} \times 7.59 \times 10^{-17} \times 10^{9.7}$
-= 8.55 × 10⁻⁷⁸ × 7.59 × 10⁻¹⁷ × 5.0 × 10⁹
-= 3.24 × 10⁻⁸⁴
-
-This matches the §3.60 claim of $f_{\rm back} \approx 10^{-85}$ to 0.4 orders.
+= $8.55 \times 10^{-78}$× $7.59 \times 10^{-17}$× $5.0 \times 10^{9}$= $3.24 \times 10^{-84}\,\text{This}$ matches the §3.60 claim of $f_{\rm back} \approx 10^{-85}$ to 0.4 orders.
 
 **Why the closed loop closes**:
 - The exponent 1/(2α) is c/α where c = 1/2 is the IR central charge (1 surviving Ising mode from 12 Majoranas via SYK q=4, per L117/L308aq; 'N/24' is misleading arithmetic, not a general formula)
@@ -3216,10 +3210,10 @@ Evidence for α being universal:
 3. Higher levels (5+, if they exist) are not directly testable.
 
 **Sensitivity test** (level 4, $E_{\rm 4D}$ = 10⁶⁹ J):
-- α = 1.289 (SIDC): $\tau_{\rm 3D}$ = 1.76 × 10²⁶ yr (matches paper within 12%)
-- α = 1.279: $\tau_{\rm 3D}$ = 9.87 × 10²⁵ yr (off by factor 2)
-- α = 1.299: $\tau_{\rm 3D}$ = 3.12 × 10²⁶ yr (off by factor 1.6)
-- α = 1.239: $\tau_{\rm 3D}$ = 9.87 × 10²⁴ yr (off by factor 20)
+- α = 1.289 (SIDC): $\tau_{\rm 3D}$ = $1.76 \times 10^{26}\,\text{yr}$ (matches paper within 12%)
+- α = 1.279: $\tau_{\rm 3D}$ = $9.87 \times 10^{25}\,\text{yr}$ (off by factor 2)
+- α = 1.299: $\tau_{\rm 3D}$ = $3.12 \times 10^{26}\,\text{yr}$ (off by factor 1.6)
+- α = 1.239: $\tau_{\rm 3D}$ = $9.87 \times 10^{24}\,\text{yr}$ (off by factor 20)
 
 A 1% change in α gives a factor ~1.7 change in predicted lifetime.
 This is consistent with the 54-order-of-magnitude span of SIDC's
@@ -3267,10 +3261,10 @@ analysis.
 
 User question: "so it links dm / de and gravity?"
 
-> ⚠️ **HISTORICAL FRAMEWORK NOTE (v3.1.1)**: This section describes the v3.1.1 closed-loop analysis which found a **10¹⁸ discrepancy** between the §3.60.1 formula (4.6× 10⁻⁶⁸) and DE calibration (1.1× 10⁻⁸⁵). This was **REVISED in v3.3+**:
+> ⚠️ **HISTORICAL FRAMEWORK NOTE (v3.1.1)**: This section describes the v3.1.1 closed-loop analysis which found a **10¹⁸ discrepancy** between the §3.60.1 formula ($4.6 \times 10^{-68}$) and DE calibration ($1.1 \times 10^{-85}$). This was **REVISED in v3.3+**:
 > - 4π factor REMOVED from DE formula (was a v3.1.2 empirical factor)
-> - $M_{\rm Pl,4D}$ updated from 4×10²³ to **3.93×10²³ GeV** (α-GM, DERIVED, L308v)
-> - Result: $f_{\rm DE}$ = 1.13× 10⁻⁸⁵ matches DE calibration **within 0.13%** (basically exact)
+> - $M_{\rm Pl,4D}$ updated from $4 \times 10^{23}\,\text{to}$ **$3.93 \times 10^{23}\,\text{GeV}$** (α-GM, DERIVED, L308v)
+> - Result: $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{matches}$ DE calibration **within 0.13%** (basically exact)
 > - **L138 PARTIAL CLOSURE** via L308v α-GM
 > 
 > The "closed loop is rhetorical, not numerical" claim was REVISED. Current (v3.5.9+ A2 (α dim-specific)) framework has the closed loop as a numerical closure. See `paper/legacy/v359_README_legacy_sections.md` for full history.
@@ -3282,17 +3276,17 @@ User question: "so it links dm / de and gravity?"
 $$f_{\rm back} = \frac{t_{\rm Pl,3}}{\tau_{\rm 4D}} = \frac{t_{\rm Pl,3}}{T_{\rm 4D,proper} \times \gamma}$$
 
 where:
-- $t_{\rm Pl,3}$ = 3+1D Planck time = 5.4 × 10⁻⁴⁴ s
+- $t_{\rm Pl,3}$ = 3+1D Planck time = $5.4 \times 10^{-44}\,\text{s}$
 - $T_{\rm 4D,proper} = T_{\rm universe} \times \varepsilon$ = 4D event's proper duration in 4D's own frame
 - γ = time dilation factor between 4D and 3+1D frames
 
 For γ ∼ 10⁶² (within the SIDC cone picture's range 10⁶⁰ to 10¹⁰⁰):
-- $\tau_{\rm 4D} = 4.35 \times 10^{41}$ s = 1.4 × 10³⁴ yr (10²⁴ × universe age: "practically eternal")
+- $\tau_{\rm 4D} = 4.35 \times 10^{41}$ s = $1.4 \times 10^{34}\,\text{yr}$ (10²⁴ × universe age: "practically eternal")
 - $f_{\rm back} = 5.4 \times 10^{-44} / 4.35 \times 10^{41} = 1.2 \times 10^{-85}$
 
 Then DE = $f_{\rm back}$ × ε × $M_{\rm Pl}^4$:
-- 10⁻⁸⁵ × 10⁻³⁸ × 10⁷⁶ = 2.7 × 10⁻⁴⁷ GeV⁴
-- Observed: 2.4 × 10⁻⁴⁷ GeV⁴ (within 14%)
+- 10⁻⁸⁵ × 10⁻³⁸ × 10⁷⁶ = $2.7 \times 10^{-47}\,\text{GeV}$⁴
+- Observed: $2.4 \times 10^{-47}\,\text{GeV}$⁴ (within 14%)
 
 **Physical meaning of $f_{\rm back} = 10^{-85}$**:
 
@@ -3326,13 +3320,13 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ( γ ~ 10⁵⁶), which is OU
 
 **Why $f_{\rm DE}$ = 10⁻⁸⁵ ONLY makes sense as 3D-to-4D**:
 
-- 3+1D universe CURRENT AGE: 13.8 Gyr (observed); predicted total LIFETIME: ~10³⁰ yr ( $M^{\alpha}$); very young (1.4× 10⁻²⁰ of life so far)
+- 3+1D universe CURRENT AGE: 13.8 Gyr (observed); predicted total LIFETIME: ~10³⁰ yr ( $M^{\alpha}$); very young ($1.4 \times 10^{-20}\,\text{of}$ life so far)
 - 4D event apparent duration (3+1D frame): 10³⁴ yr ( γ ~ 10⁶²)
-- $f_{\rm DE}$ = $t_{\rm Pl}$/ $\tau_{\rm 4D}$ = 1.2× 10⁻⁸⁵ ✓
+- $f_{\rm DE}$ = $t_{\rm Pl}$/ $\tau_{\rm 4D}$ = $1.2 \times 10^{-85}$✓
 - DE matches observation (within 14%)
 
 - 2D universe lifetime: 33s (very short)
-- $f_{\rm leak,2D\to3D}$ = $t_{\rm Pl}$/ $\tau_{\rm 2D}$ = 1.6× 10⁻⁴⁵ (NOT 10⁻⁸⁵)
+- $f_{\rm leak,2D\to3D}$ = $t_{\rm Pl}$/ $\tau_{\rm 2D}$ = $1.6 \times 10^{-45}$(NOT 10⁻⁸⁵)
 - During 2D's lifetime, leakage is 0.16 J per SN (negligible)
 - 2D's contribution to 3+1D happens at DEATH (100% return), not while-alive
 
@@ -3369,12 +3363,11 @@ The 3+1D → 2D transition is a CREATE-AND-DIE process, NOT a closed loop.
 
 $f_{\rm back}$ ≈ 10⁻⁸⁵. Combined with $\epsilon_{\rm grav}$ ~ 10⁻³⁸:
 
-$\rho_{\rm DE}$ predicted = $f_{\rm back}$ × $\epsilon_{\rm grav}$ × $M_{
-m Pl,3}$⁴
-              = 10⁻⁸⁵ × 10⁻³⁸ × (1.22 × 10¹⁹ GeV)⁴
-              = 2.22 × 10⁻⁴⁷ GeV⁴
+$\rho_{\rm DE}$ predicted = $f_{\rm back}$ × $\epsilon_{\rm grav}$ × $M_{\rm Pl,3}$⁴
+              = 10⁻⁸⁵ × 10⁻³⁸ × ($1.22 \times 10^{19}\,\text{GeV}$)⁴
+              = $2.22 \times 10^{-47}\,\text{GeV}$⁴
 
-$\rho_{\rm DE}$ observed (Planck 2018) = 2.5 × 10⁻⁴⁷ GeV⁴
+$\rho_{\rm DE}$ observed (Planck 2018) = $2.5 \times 10^{-47}\,\text{GeV}$⁴
 
 **Ratio: 0.89 — within 12%!** (But: this is a CALIBRATION MATCH, not a derivation.)
 
@@ -3408,11 +3401,11 @@ $\rho_{\rm DE}$ observed (Planck 2018) = 2.5 × 10⁻⁴⁷ GeV⁴
 
 | Source | $f_{\rm DE}$ value (v3.1.1) | $f_{\rm DE}$ value (v3.5.9+) |
 |---|---|---|
-| Closed loop formula | 4.6 × 10⁻⁶⁸ (v3.1.1) | ** 1.13 × 10⁻⁸⁵ (DERIVED via L308v α-GM)** |
-| DE calibration | 1.1 × 10⁻⁸⁵ | 1.13 × 10⁻⁸⁵ (target) |
+| Closed loop formula | $4.6 \times 10^{-68}$(v3.1.1) | ** $1.13 \times 10^{-85}$(DERIVED via L308v α-GM)** |
+| DE calibration | $1.1 \times 10^{-85}$| $1.13 \times 10^{-85}$(target) |
 | Ratio | 10¹⁸ apart (v3.1.1) | **0.13% (basically exact, v3.3+)** |
 
-The 10¹⁸ discrepancy was RESOLVED via: (a) 4π factor REMOVED, (b) $M_{\rm Pl,4D}$ updated to 3.93×10²³ GeV. The closed loop is NOW a numerical closure. See `paper/legacy/v359_README_legacy_sections.md` for the closure history.
+The 10¹⁸ discrepancy was RESOLVED via: (a) 4π factor REMOVED, (b) $M_{\rm Pl,4D}$ updated to $3.93 \times 10^{23}\,\text{GeV}$. The closed loop is NOW a numerical closure. See `paper/legacy/v359_README_legacy_sections.md` for the closure history.
 
 **The forward/backward α symmetry DOES close** (L98, L103):
 
@@ -3432,7 +3425,7 @@ from the framework.
 | γ ~ 10⁶⁰-10¹⁰⁰ (4D time dilation) | **DERIVED** from α and $E_{\rm 4D}$ |
 | ε = 10⁻³⁸ (gravity weakness) | **OBSERVED** (hierarchy problem) |
 | $\rho_{\rm DE}$/ $\rho_{\rm Pl}$ = $10^{-123}$ | **OBSERVED** (cosmological CC problem) |
-| $f_{\rm DE}$ = 1.13× 10⁻⁸⁵ | **DERIVED** (v3.3+, L308v α-GM closed loop) |
+| $f_{\rm DE}$ = $1.13 \times 10^{-85}$| **DERIVED** (v3.3+, L308v α-GM closed loop) |
 | $M^{1.29}$ scaling law across 14 events | **DERIVED** from 2D CFT + α |
 | 5/27/68 split | **OBSERVED** (Planck 2018) |
 | DM local variation | **EXPLAINED** by cumulative SFH |
@@ -3448,11 +3441,11 @@ from the framework.
 - A solution to the hierarchy or cosmological constant problems
 - A "closed loop" in the numerical sense
 
-**L102 REVISED (v3.1.1, FURTHER REVISED v3.3+, PARTIAL CLOSURE L308v)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same α = 1.289 unifies forward time dilation and backward $f_{\rm DE}$. The values of ε ( 10⁻³⁸) and DE/Planck ( $10^{-123}$) are still OBSERVED. However, $f_{\rm DE}$ = 1.13× 10⁻⁸⁵ is now **DERIVED** from the framework's structure ( $M_{\rm Pl,4D}$ α-GM, $E_{\rm 4D}$, $M^{\alpha}$ law) and matches DE calibration **within 0.13%** (basically exact). The v3.1.1 "closed loop is rhetorical, not numerical" claim is **REVISED** in v3.3+.
+**L102 REVISED (v3.1.1, FURTHER REVISED v3.3+, PARTIAL CLOSURE L308v)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same α = 1.289 unifies forward time dilation and backward $f_{\rm DE}$. The values of ε ( 10⁻³⁸) and DE/Planck ( $10^{-123}$) are still OBSERVED. However, $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{is}$ now **DERIVED** from the framework's structure ( $M_{\rm Pl,4D}$ α-GM, $E_{\rm 4D}$, $M^{\alpha}$ law) and matches DE calibration **within 0.13%** (basically exact). The v3.1.1 "closed loop is rhetorical, not numerical" claim is **REVISED** in v3.3+.
 
-**L138 NEW (v3.1.1, PARTIAL CLOSURE L308v v3.5.9+)**: $f_{\rm DE}$ = 1.13× 10⁻⁸⁵ was v3.1.1 CALIBRATION FACTOR (ratio of observed DE to ε-suppressed Planck density). **REVISED in v3.3+ via L308v α-GM closed loop**: $f_{\rm DE}$ is now DERIVED from framework structure. See `paper/legacy/v359_README_legacy_sections.md` for the L138 closure history.
+**L138 NEW (v3.1.1, PARTIAL CLOSURE L308v v3.5.9+)**: $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{was}$ v3.1.1 CALIBRATION FACTOR (ratio of observed DE to ε-suppressed Planck density). **REVISED in v3.3+ via L308v α-GM closed loop**: $f_{\rm DE}$ is now DERIVED from framework structure. See `paper/legacy/v359_README_legacy_sections.md` for the L138 closure history.
 
-**L139 NEW (v3.1.1, RESOLVED v3.3+ via L308v)**: The "closed loop" formula in §3.60.1 (v3.1.1 gave $f_{\rm back} \approx 4.6 \times 10^{-68}$, DE calibration $f_{\rm DE}$ = 10⁻⁸⁵, 10¹⁸ discrepancy) is **RESOLVED** in v3.3+ via: (a) 4π factor REMOVED, (b) $M_{\rm Pl,4D}$ updated to 3.93×10²³ GeV (α-GM, L308v). New $f_{\rm DE}$ = 1.13×10⁻⁸⁵ matches DE within 0.13%. The "rhetorical, not numerical" claim is REVISED.
+**L139 NEW (v3.1.1, RESOLVED v3.3+ via L308v)**: The "closed loop" formula in §3.60.1 (v3.1.1 gave $f_{\rm back} \approx 4.6 \times 10^{-68}$, DE calibration $f_{\rm DE}$ = 10⁻⁸⁵, 10¹⁸ discrepancy) is **RESOLVED** in v3.3+ via: (a) 4π factor REMOVED, (b) $M_{\rm Pl,4D}$ updated to $3.93 \times 10^{23}\,\text{GeV}$ (α-GM, L308v). New $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{matches}$ DE within 0.13%. The "rhetorical, not numerical" claim is REVISED.
 
 **L140 NEW (v3.1.1, STILL OPEN v3.5.9+)**: ε = 10⁻³⁸ is OBSERVED (gravity weakness vs other forces — the hierarchy problem). SIDC's mechanism (4D antigravity cancellation) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC (still L140 OPEN in current framework).
 
@@ -3467,11 +3460,11 @@ See `calculations/v31_F_p_consistency.py` and `calculations/v31_F_p_result.md` f
 
 **User insight (v3.1.2)**: "1 SN can produce multiple 2D universes" (allowed by $M^{1.29}$ law degeneracy in N). "1 4D event can produce multiple 3+1D sub-universes" (analogous).
 
-**v3.3 Status**: This section describes the multi-universe picture. The v3.3 framework adopts $M_{\rm Pl,4D}$ = 3.93×10²³ GeV ( α-weighted GM) and $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale). The v3.1.2 Scenario X ( $M_{\rm Pl,4D}$ = 887 GeV) has been SUPERSEDED.
+**v3.3 Status**: This section describes the multi-universe picture. The v3.3 framework adopts $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ ( α-weighted GM) and $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (universe-scale). The v3.1.2 Scenario X ( $M_{\rm Pl,4D}$ = 887 GeV) has been SUPERSEDED.
 
 **User correction (v3.1.2, further revised v3.1.2-final)**: "An energetic event in a 4D bulk created our 3+1D universe" — we do NOT know what kind of event occurs in the 4D bulk (NOT necessarily 'galaxy collisions' as previously suggested; the 4D-bulk dynamics are UNKNOWN). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our universe was created, not related to whatever produced it).
 
-**Setup (Scenario X, REVISED v3.3)**: 4D event ( $E_{\rm 4D}$ = 5×10⁷⁹ J, $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, calibrated to DE) creates $N_{\rm sub}$ 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so $N_{\rm sub}$ is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to 3.93×10²³ GeV via α-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
+**Setup (Scenario X, REVISED v3.3)**: 4D event ( $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$, calibrated to DE) creates $N_{\rm sub}$ 3+1D sub-universes. Energy conservation: $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$. The 4D-bulk dynamics are UNKNOWN, so $N_{\rm sub}$ is a FREE PARAMETER (not derived). The constraint is: the universe is still alive at 13.8 Gyr, so $\tau_{\rm sub}$ > 13.8 Gyr. (Earlier v3.1.2-final used $M_{\rm Pl,4D}$ = 887 GeV calibrated to 9D = $v_{\rm Higgs}$; v3.3 REVISED to $3.93 \times 10^{23}\,\text{GeV}$ via α-weighted GM; 9D = $v_{\rm Higgs}$ dropped; 4D event now universe-scale, 10⁸× observable.)
 
 If we apply $M^{\alpha}$ law to a sub-universe of mass $E_{\rm sub}$ (in 3+1D's own frame):
 
@@ -3481,29 +3474,29 @@ $$\tau_{\rm sub} = \left(\frac{E_{\rm sub}}{E_{\rm Pl,4D}}\right)^\alpha \times 
 
 | $N_{\rm sub}$ | $E_{\rm sub}$ | $\tau_{\rm sub}$ (3+1D frame) |
 |---|---|---|
-| 1 | 5×10⁷⁹ J | 1.4×10³⁴ yr (no sub-universe structure) |
-| 150 | 7.14×10⁵⁶ J | ~2.2×10³¹ yr |
-| 300 | 3.57×10⁵⁶ J | ~9×10³⁰ yr |
-| 10⁶ | 1.07×10⁵³ J | ~2.6×10²⁶ yr |
-| 10¹² | 1.07×10⁴⁷ J | ~4.8×10¹⁸ yr |
-| 10¹⁸ | 1.07×10⁴¹ J | ~1.4×10⁵ yr |
-| 4.2×10¹⁸ | 2.5×10⁴⁰ J | 13.8 Gyr (lower bound, universe just alive now) |
+| 1 | $5 \times 10^{79}\,\text{J}$ | $1.4 \times 10^{34}\,\text{yr}$ (no sub-universe structure) |
+| 150 | $7.14 \times 10^{56}\,\text{J}$ | ~$2.2 \times 10^{31}\,\text{yr}$ |
+| 300 | $3.57 \times 10^{56}\,\text{J}$ | ~$9 \times 10^{30}\,\text{yr}$ |
+| 10⁶ | $1.07 \times 10^{53}\,\text{J}$ | ~$2.6 \times 10^{26}\,\text{yr}$ |
+| 10¹² | $1.07 \times 10^{47}\,\text{J}$ | ~$4.8 \times 10^{18}\,\text{yr}$ |
+| 10¹⁸ | $1.07 \times 10^{41}\,\text{J}$ | ~$1.4 \times 10^{5}\,\text{yr}$ |
+| $4.2 \times 10^{18}$| $2.5 \times 10^{40}\,\text{J}$ | 13.8 Gyr (lower bound, universe just alive now) |
 
 The lifetime $\tau_{\rm sub}$ is UNKNOWN — only constrained to be > 13.8 Gyr (the observed AGE).
 
 **What we ACTUALLY know:**
-- $E_{\rm 4D}$ = 5×10⁷⁹ J (from closed loop, given $M_{\rm Pl,4D}$ = 3.93×10²³ GeV)
-- $M_{\rm Pl,4D}$ = 3.93×10²³ GeV (v3.3, derived via α-weighted GM; was 887 GeV in v3.1.2 Scenario X)
+- $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (from closed loop, given $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$)
+- $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ (v3.3, derived via α-weighted GM; was 887 GeV in v3.1.2 Scenario X)
 - 13.8 Gyr is the universe's CURRENT AGE (observed directly)
 - 4D-bulk dynamics: UNKNOWN ( $N_{\rm sub}$, $E_{\rm sub}$, $\tau_{\rm sub}$ all undetermined)
-- $f_{\rm DE}$ = 1.2× 10⁻⁸⁵/s (DE matching, doesn't depend on $N_{\rm sub}$)
+- $f_{\rm DE}$ = $1.2 \times 10^{-85}$/s (DE matching, doesn't depend on $N_{\rm sub}$)
 - The universe has NOT yet died → $\tau_{\rm sub}$ > 13.8 Gyr
 
 **Sub-universe mass (energy conservation)**:
 
 $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
-** $N_{\rm sub}$ and $E_{\rm sub}$ are FREE PARAMETERS** linked by energy conservation. The choice $N_{\rm sub} = 300$, $E_{\rm sub}$ = 3.57×10⁵⁶ J was an ARBITRARY choice (gives "small galaxy mass" sub-universes, but is not derived from the cascade). The user's correction: $N_{\rm sub}$ could be 150 with double-mass sub-universes, or $N_{\rm sub} = 1$ with one universe, etc.
+** $N_{\rm sub}$ and $E_{\rm sub}$ are FREE PARAMETERS** linked by energy conservation. The choice $N_{\rm sub} = 300$, $E_{\rm sub}$ = $3.57 \times 10^{56}\,\text{J}$ was an ARBITRARY choice (gives "small galaxy mass" sub-universes, but is not derived from the cascade). The user's correction: $N_{\rm sub}$ could be 150 with double-mass sub-universes, or $N_{\rm sub} = 1$ with one universe, etc.
 
 **Number of sub-universes per 4D event**: $N_{\rm sub}$ is UNKNOWN. The 4D-bulk dynamics that determine $N_{\rm sub}$ are open (L144).
 
@@ -3512,7 +3505,7 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 - 2D universe lifetime: $\tau_{\rm 2D}$ = ( $E_{\rm event}$/ $M_{\rm Pl,3D}$) $^{\alpha}$ × $t_{\rm Pl}$ = 33 s for SN ✓
 - 3+1D sub-universe lifetime: $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$ — UNKNOWN (depends on $E_{\rm sub}$ = $E_{\rm 4D}$/ $N_{\rm sub}$)
 - 3+1D universe CURRENT AGE: 13.8 Gyr (observed directly, the only firm value)
-- $f_{\rm DE}$ derived from closed-loop formula: 1.2× 10⁻⁸⁵/s (matches DE within 1.7%, doesn't depend on $N_{\rm sub}$)
+- $f_{\rm DE}$ derived from closed-loop formula: $1.2 \times 10^{-85}$/s (matches DE within 1.7%, doesn't depend on $N_{\rm sub}$)
 
 **Honest verdict (v3.1.2-final)**: $N_{\rm sub}$ is a FREE PARAMETER (4D-bulk dynamics unknown). $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$ is also free. The 3+1D sub-universe's predicted total LIFETIME is UNKNOWN — only constrained to $\tau_{\rm sub}$ > 13.8 Gyr by the universe being alive today. The previous "~10³⁰ yr" claim was based on an ARBITRARY choice ( $N_{\rm sub} = 300$, $E_{\rm sub}$ = small galaxy mass) and is NOT a derived prediction. The user caught this over-specification.
 
@@ -3525,7 +3518,7 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 - The $M^{\alpha}$ law gives **apparent durations in the lower-D frame**, not proper times in the higher-D frame
 - 2D lifetime (33 s) is in the 3+1D frame
 - 3+1D sub-universe lifetime (UNKNOWN) is in the 3+1D's own frame
-- 4D event apparent duration (1.4×10³⁴ yr) is in the 3+1D frame, time-dilated from 4D proper time via γ ~ 10⁶²
+- 4D event apparent duration ($1.4 \times 10^{34}\,\text{yr}$) is in the 3+1D frame, time-dilated from 4D proper time via γ ~ 10⁶²
 - 4D event proper duration: T_4D_proper = $\tau_{\rm 4D}$ / γ ~ 10⁻²⁰ s
 - 3+1D universe's current age (13.8 Gyr) is in the 3+1D's own frame
 
@@ -3535,9 +3528,9 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
 | Level | $M_{\rm Pl}$ | Status |
 |---|---|---|
-| 2D universes (children) | 2.95 TeV | brane-world, from L41 ( μ = 8.73×10⁶ GeV²) |
-| 3+1D universe (us) | 1.22×10¹⁹ GeV | MEASURED (Newton's G) |
-| 4D bulk (parent) | 3.93×10²³ GeV | DERIVED ( α-weighted GM, v3.3) |
+| 2D universes (children) | 2.95 TeV | brane-world, from L41 ( μ = $8.73 \times 10^{6}\,\text{GeV}$²) |
+| 3+1D universe (us) | $1.22 \times 10^{19}\,\text{GeV}$ | MEASURED (Newton's G) |
+| 4D bulk (parent) | $3.93 \times 10^{23}\,\text{GeV}$ | DERIVED ( α-weighted GM, v3.3) |
 
 The asymmetry is justified by their different physical roles: 2D brane-world, 3+1D standard, 4D bulk brane-world.
 
@@ -3702,14 +3695,14 @@ m DE,closed}$ × ε × $M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5
 
 **Simple $f_{\rm DE,simple}$ formula (legacy A1, preserved as compact form, gives 0.13% off, near-exact)**:
 $$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$ (A2)
-Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is DE-calibrated).
+Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = $1.51 \times 10^{34}\,\text{yr}$ is DE-calibrated).
 
 **A2 Note**: The simple $f_{
 m DE,simple}$ formula uses $\alpha_{2D}$ = 1.289 (in $M_{\rm Pl,4D}$ from α-GM) with ε = 1e-38. The closed loop formula $f_{
 m DE,closed}$ (L308av, was $f_{\rm back}$ in legacy naming) uses $\alpha_{4D}$ = 1.577 with ε = 6.32e-34. Both give $\rho_{\rm DE}$ = 2.5e-47 ✓. $f \times \varepsilon$ = 1.13e-123 invariant preserved.
 
-**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = 1× 10⁻³⁸). In v3.5.9+ A2, the $f_{
-m DE,closed}$ formula is canonical (uses $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴). $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant preserved in both.
+**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = $1 \times 10^{-38}$). In v3.5.9+ A2, the $f_{
+m DE,closed}$ formula is canonical (uses $\alpha_{4D}$ = 1.577, ε = $6.32 \times 10^{-34}\$). f \times \varepsilon$ = 1.13× $10^{-123}$ invariant preserved in both.
 
 **Why this works**:
 - UP flow (e.g., 2D → 3+1D): pulsed return at (N-1)-universe death = DM
@@ -3734,7 +3727,7 @@ This is the **cleanest formulation** of the bilateral cascade. The user's reform
 again" / "isn't 1/2 also notable?" / "so we have a lagrangian
 now?" / "can't we trial and error them?"
 
-**v3.1.2-final REVISION**: This section originally motivated the Lagrangian decomposition α = 1/2 + 1/2 + 1/√12 from the Inception cone picture (cone slope = α, converging to 2D Planck). The cone picture is now SPECULATIVE / HISTORICAL (§3.67 v3.1.2-final REVISED). The Lagrangian remains a STRUCTURAL PROPOSAL, but its connection to α is now PURELY INTERPRETIVE. The Lagrangian is still useful for: (a) L41 ( μ = $M_{\rm Pl,2D}^2$ = 8.73×10⁶ GeV², closed v3.0.22), (b) L42 ( $m_{3+1D}$ = $v_{\rm Higgs}$, closed), (c) c = 1 Liouville structure, (d) N = 12 SYK structure. It does NOT derive α.
+**v3.1.2-final REVISION**: This section originally motivated the Lagrangian decomposition α = 1/2 + 1/2 + 1/√12 from the Inception cone picture (cone slope = α, converging to 2D Planck). The cone picture is now SPECULATIVE / HISTORICAL (§3.67 v3.1.2-final REVISED). The Lagrangian remains a STRUCTURAL PROPOSAL, but its connection to α is now PURELY INTERPRETIVE. The Lagrangian is still useful for: (a) L41 ( μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$², closed v3.0.22), (b) L42 ( $m_{3+1D}$ = $v_{\rm Higgs}$, closed), (c) c = 1 Liouville structure, (d) N = 12 SYK structure. It does NOT derive α.
 
 **Approach**: Trial-and-error of the 2D Lagrangian over 6
 separate calculations. Goal: identify the components that give
@@ -3847,7 +3840,7 @@ Within the same dimension, all universes are EQUAL — they have the same intern
 |---|---|---|
 | 2D | $N=12$ SYK, $M_{\rm Pl,2D}$ = 2.95 TeV, c=1, Schwarzian | $E_{\rm 2D}$, age, stage |
 | 3+1D | SM, $M_{\rm Pl,3D}$ = 10¹⁹ GeV, α = 1.289, $N=12$ | $E_{\rm sub}$, age, stage, baryon asymmetry |
-| 4D (extrapolation) | $M_{\rm Pl,4D}$ = 3.93×10²³ GeV, $N=12$ | $E_{\rm 4D}$, age, stage |
+| 4D (extrapolation) | $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$, $N=12$ | $E_{\rm 4D}$, age, stage |
 
 This is analogous to atoms: same physics, different states. The 14 SIDC events are 14 instances of the SAME 2D universe at 14 different energies. The $N_{\rm sub}$ 3+1D sub-universes (per §3.60.4) are $N_{\rm sub}$ instances of the SAME 3+1D universe at $N_{\rm sub}$ different energies.
 
@@ -3995,36 +3988,36 @@ to the **4D event → 3D universe** level using the same formula.
 | 3D event | $E_{\rm 3D}$ (J) | T_pred (s) | T_paper (s) | ratio |
 |----------|----------|------------|-------------|-------|
 | **Terrestrial / man-made** | | | | |
-| 1 ton TNT | 4 × 10⁹ J | 1.5 × 10⁻⁴³ s | 1 × 10⁻⁴³ s | 1.51 |
-| Hiroshima (Little Boy, 15 kt) | 6.3 × 10¹³ J | 3.5 × 10⁻³⁸ s | — | — |
-| Tsar Bomba (50 MT, largest nuke) | 2.1 × 10¹⁷ J | 1.2 × 10⁻³³ s | — | — |
-| Tunguska (1908) | 1 × 10¹⁷ J | 4.7 × 10⁻³⁴ s | — | — |
-| Krakatoa (1883) | 8.4 × 10¹⁸ J | 1.4 × 10⁻³¹ s | — | — |
-| Toba supereruption (~74 kya) | 1 × 10²¹ J | 6.7 × 10⁻²⁹ s | — | — |
-| Chicxulub impactor (dinosaur killer) | 1 × 10²³ J | 2.5 × 10⁻²⁶ s | — | — |
-| X-class solar flare (typical max) | 1 × 10²⁵ J | 1.1 × 10⁻²³ s | 1 × 10⁻²³ s | 1.07 |
-| Carrington event (1859) | 1 × 10²⁵ J | 1.1 × 10⁻²³ s | — | — |
+| 1 ton TNT | $4 \times 10^{9}\,\text{J}$ | $1.5 \times 10^{-43}\,\text{s}$ | $1 \times 10^{-43}\,\text{s}$ | 1.51 |
+| Hiroshima (Little Boy, 15 kt) | $6.3 \times 10^{13}\,\text{J}$ | $3.5 \times 10^{-38}\,\text{s}$ | — | — |
+| Tsar Bomba (50 MT, largest nuke) | $2.1 \times 10^{17}\,\text{J}$ | $1.2 \times 10^{-33}\,\text{s}$ | — | — |
+| Tunguska (1908) | $1 \times 10^{17}\,\text{J}$ | $4.7 \times 10^{-34}\,\text{s}$ | — | — |
+| Krakatoa (1883) | $8.4 \times 10^{18}\,\text{J}$ | $1.4 \times 10^{-31}\,\text{s}$ | — | — |
+| Toba supereruption (~74 kya) | $1 \times 10^{21}\,\text{J}$ | $6.7 \times 10^{-29}\,\text{s}$ | — | — |
+| Chicxulub impactor (dinosaur killer) | $1 \times 10^{23}\,\text{J}$ | $2.5 \times 10^{-26}\,\text{s}$ | — | — |
+| X-class solar flare (typical max) | $1 \times 10^{25}\,\text{J}$ | $1.1 \times 10^{-23}\,\text{s}$ | $1 \times 10^{-23}\,\text{s}$ | 1.07 |
+| Carrington event (1859) | $1 \times 10^{25}\,\text{J}$ | $1.1 \times 10^{-23}\,\text{s}$ | — | — |
 | **Stellar events** | | | | |
-| Solar-type star (10 Gyr total output) | 1.1 × 10⁴⁴ J | 33.5 s | — | — |
-| Type Ia SN (calibration, 1987A-like) | 1 × 10⁴⁴ J | 33 s | 33 s | 1.00 (calibration) |
-| SN 1987A | 1 × 10⁴⁴ J | 33 s | — | — |
-| SGR 1806-20 magnetar giant flare (2004) | 1.4 × 10⁴⁵ J | 14.8 min | — | — |
-| Magnetar (typical giant flare) | 1 × 10⁴⁵ J | 9.6 min | — | — |
-| Short GRB (170817A-like) | 1 × 10⁴⁵ J | 9.6 min | — | — |
-| Hypernova / collapsar | 1 × 10⁴⁶ J | 1.25 × 10⁴ s | 1.26 × 10⁴ s | 0.99 |
-| Long GRB (typical) | 1 × 10⁴⁷ J | 2.43 × 10⁵ s | 2.42 × 10⁵ s | 1.00 |
-| Long GRB (GRB 221009A, brightest ever) | 1 × 10⁴⁷ J | 2.43 × 10⁵ s | — | — |
+| Solar-type star (10 Gyr total output) | $1.1 \times 10^{44}\,\text{J}$ | 33.5 s | — | — |
+| Type Ia SN (calibration, 1987A-like) | $1 \times 10^{44}\,\text{J}$ | 33 s | 33 s | 1.00 (calibration) |
+| SN 1987A | $1 \times 10^{44}\,\text{J}$ | 33 s | — | — |
+| SGR 1806-20 magnetar giant flare (2004) | $1.4 \times 10^{45}\,\text{J}$ | 14.8 min | — | — |
+| Magnetar (typical giant flare) | $1 \times 10^{45}\,\text{J}$ | 9.6 min | — | — |
+| Short GRB (170817A-like) | $1 \times 10^{45}\,\text{J}$ | 9.6 min | — | — |
+| Hypernova / collapsar | $1 \times 10^{46}\,\text{J}$ | $1.25 \times 10^{4}\,\text{s}$ | $1.26 \times 10^{4}\,\text{s}$ | 0.99 |
+| Long GRB (typical) | $1 \times 10^{47}\,\text{J}$ | $2.43 \times 10^{5}\,\text{s}$ | $2.42 \times 10^{5}\,\text{s}$ | 1.00 |
+| Long GRB (GRB 221009A, brightest ever) | $1 \times 10^{47}\,\text{J}$ | $2.43 \times 10^{5}\,\text{s}$ | — | — |
 | **TDE / SMBH** | | | | |
-| TDE (typical, optical) | 1 × 10⁴⁸ J | 4.91 × 10⁶ s | — | — |
-| ASASSN-14li (TDE) | 1 × 10⁴⁹ J | 2.6 yr | — | — |
-| TDE with jet (Swift J1644+57) | 1 × 10⁵³ J | 1.32 × 10¹³ s | 1.26 × 10¹³ s | 1.04 |
+| TDE (typical, optical) | $1 \times 10^{48}\,\text{J}$ | $4.91 \times 10^{6}\,\text{s}$ | — | — |
+| ASASSN-14li (TDE) | $1 \times 10^{49}\,\text{J}$ | 2.6 yr | — | — |
+| TDE with jet (Swift J1644+57) | $1 \times 10^{53}\,\text{J}$ | $1.32 \times 10^{13}\,\text{s}$ | $1.26 \times 10^{13}\,\text{s}$ | 1.04 |
 | **AGN / Quasars** | | | | |
-| AGN flare (typical) | 1 × 10⁵⁵ J | 4.98 × 10¹⁵ s | 3.16 × 10¹⁵ s | 1.58 |
-| PKS 2155-304 blazar flare (2006) | 1 × 10⁵⁵ J | 4.98 × 10¹⁵ s | — | — |
-| Seyfert galaxy outburst | 1 × 10⁵⁶ J | 2.76 × 10¹⁷ s | — | — |
-| 3C 273 quasar (typical) | 1 × 10⁵⁸ J | 1.04 × 10²⁰ s | — | — |
-| Bright blazar (TXS 0506+056, neutrino) | 1 × 10⁵⁹ J | 2.03 × 10²² s | — | — |
-| Quasar outburst (3C 273 major) | 1 × 10⁶⁰ J | 1.39 × 10²² s | 1.58 × 10²² s | 0.88 |
+| AGN flare (typical) | $1 \times 10^{55}\,\text{J}$ | $4.98 \times 10^{15}\,\text{s}$ | $3.16 \times 10^{15}\,\text{s}$ | 1.58 |
+| PKS 2155-304 blazar flare (2006) | $1 \times 10^{55}\,\text{J}$ | $4.98 \times 10^{15}\,\text{s}$ | — | — |
+| Seyfert galaxy outburst | $1 \times 10^{56}\,\text{J}$ | $2.76 \times 10^{17}\,\text{s}$ | — | — |
+| 3C 273 quasar (typical) | $1 \times 10^{58}\,\text{J}$ | $1.04 \times 10^{20}\,\text{s}$ | — | — |
+| Bright blazar (TXS 0506+056, neutrino) | $1 \times 10^{59}\,\text{J}$ | $2.03 \times 10^{22}\,\text{s}$ | — | — |
+| Quasar outburst (3C 273 major) | $1 \times 10^{60}\,\text{J}$ | $1.39 \times 10^{22}\,\text{s}$ | $1.58 \times 10^{22}\,\text{s}$ | 0.88 |
 
 **24 named events spanning 50+ orders of magnitude** (10⁹ to 10⁶⁰ J, τ from 10⁻⁴³ s to 10²² s).
 
@@ -4036,7 +4029,7 @@ The 8 originally tested events still match within factor 1.6. The new named even
 - AGN: PKS 2155-304, 3C 273, TXS 0506+056
 
 4D event creating 3D universe (1 event, SPECULATIVE extrapolation):
-- $E_{\rm 4D}$ = 10⁶⁹ J, T_pred = 1.76 × 10²⁶ yr, T_paper = 2 × 10²⁶ yr, ratio = 0.88
+- $E_{\rm 4D}$ = 10⁶⁹ J, T_pred = $1.76 \times 10^{26}\,\text{yr}$, T_paper = $2 \times 10^{26}\,\text{yr}$, ratio = 0.88
 
 **CONCLUSION (v14e, REVISED v3.2)**: The scaling law is internally consistent at
 the 3D → 2D level (8/8 originally tested events match within factor 1.6; 24 named events now fill in the gaps). The 4D → 3D
@@ -4252,7 +4245,7 @@ but **eternal from our frame** ( γ × $\tau_{\rm proper}$ → ∞ as γ → ∞
 
 The cone looks like a black hole, with 2D Planck as the tip (the 2D
 floor). $M_{\rm Pl,2D}$ ~ 2.95 TeV (holographic estimate). 2D Planck time
-$t_{\rm Pl}$,2D ~ 2 × 10⁻²⁸ s. 2D Planck temperature $T_{\rm Pl,2D}$ ~ 3 × 10²² K.
+$t_{\rm Pl}$,2D ~ $2 \times 10^{-28}\,\text{s}$. 2D Planck temperature $T_{\rm Pl,2D}$ ~ $3 \times 10^{22}\,\text{K}$.
 
 Cone depths in α units:
 - LHC p-p = −11.86 (BELOW 2D floor — impossible)
@@ -4266,8 +4259,7 @@ floor in α units. This is why LHC is silent (L108, L111).
 
 $f_{\rm back}$ is NOT universal. It depends on event energy:
 
-- At 2D floor: $f_{\rm back}$ ~ 4.8 × 10⁻²⁴
-- At SN: $f_{\rm back}$ ~ 10⁻⁸⁵
+- At 2D floor: $f_{\rm back}$ ~ $4.8 \times 10^{-24}$- At SN: $f_{\rm back}$ ~ 10⁻⁸⁵
 - For 4D event: $f_{\rm back}$ = 1 (the substrate IS 3+1D — full projection)
 
 **SEMANTIC CLARIFICATION (v3.1.1)**: $f_{\rm back}$ has two distinct physical meanings:
@@ -4281,7 +4273,7 @@ For SN: $f_{\rm leak,2D\to3D}$ = 10⁻⁸⁵ (DM via gravity during 33s lifetime
 Cone depths in α units determine $f_{\rm DE}$ (was $f_{\rm back}$ in legacy naming): deeper cone → larger $f_{\rm DE}$.
 The closed loop formula gives $f_{\rm DE,closed}$ (was $f_{\rm back}$) as a function of event energy.
 
-**v3.1.1 note**: For 4D event, $f_{\rm back}$ = 1 means the 3+1D universe IS the 4D event's projection. This is the $f_{\rm DM,death}$ meaning, NOT the $f_{\rm leak,2D\to3D}$ meaning. The closed loop formula (§3.60.1) gives $f_{\rm DE}$ ~ 4.6 × 10⁻⁶⁸ in the alive-gravitational meaning — DIFFERENT from the death-projection meaning of 1.
+**v3.1.1 note**: For 4D event, $f_{\rm back}$ = 1 means the 3+1D universe IS the 4D event's projection. This is the $f_{\rm DM,death}$ meaning, NOT the $f_{\rm leak,2D\to3D}$ meaning. The closed loop formula (§3.60.1) gives $f_{\rm DE}$ ~ $4.6 \times 10^{-68}\,\text{in}$ the alive-gravitational meaning — DIFFERENT from the death-projection meaning of 1.
 
 **4. A LAGRANGIAN FOR SIDC (L116)**
 
@@ -4293,8 +4285,7 @@ $S_{\rm 4D,event}$ = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
 
 $S_{\rm 3+1D,brane}$ = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
                with $M_{\rm Pl,3}$ = 1.22 × 10¹⁹ GeV
-               Λ = $f_{\rm back}$ × ε × $M_{
-m Pl,3}$² (SIDC's DE)
+               Λ = $f_{\rm back}$ × ε × $M_{\rm Pl,3}$² (SIDC's DE)
 
 $S_{\rm 2D,universe}$ = S_Liouville + S_Ising + S_SYK + S_FZZT
                 S_L = (1/4π) ∫ [(∂φ)² + μ e^(2φ)]
@@ -4327,7 +4318,7 @@ Only 2 free parameters remain in SIDC:
 
 | Param | Value | Meaning |
 |-------|-------|---------|
-| **L41: μ** | 9 × 10⁶ GeV² | 2D Liouville cosmological constant (= $M_{\rm Pl,2D}^2$) |
+| **L41: μ** | $9 \times 10^{6}\,\text{GeV}$² | 2D Liouville cosmological constant (= $M_{\rm Pl,2D}^2$) |
 | **L42: m₃₊₁D** | 246 GeV | Higgs VEV (EW scale) |
 
 Everything else is derived from these + 2D CFT structure:
@@ -4349,7 +4340,7 @@ $f_{\rm back} = (t_{\rm Pl,3}/\tau_{\rm 4D}) \times (\tau_{\rm SN}/\tau_{\rm uni
 ```
 
 Numerical decomposition:
-- log₁₀( $t_{\rm Pl,3}$/ $\tau_{\rm 4D}$) = −85.0  (v3.3: $\tau_{\rm 4D}$ = 1.51×10³⁴ yr = 4.77×10⁴¹ s)
+- log₁₀( $t_{\rm Pl,3}$/ $\tau_{\rm 4D}$) = −85.0  (v3.3: $\tau_{\rm 4D}$ = $1.51 \times 10^{34}\,\text{yr}$ = $4.77 \times 10^{41}\,\text{s}$)
 - log₁₀( $\tau_{\rm SN}$/ $\tau_{\rm universe}$) = −16.2
 - log₁₀(( $E_{\rm 4D}$/ $E_{\rm SN}$) $^{1/(2\alpha)}$) = +6.98
 - Sum = −84.3 ≈ −85 ✓
@@ -4360,8 +4351,8 @@ This is the only structural element derivable from the framework.
 **NOT derived from first principles**:
 - Why the multiplicative (not additive) structure
 - Why the 1/(2α) is the specific exponent (only matched)
-- Why $\tau_{\rm 4D}$ = 4.77 × 10⁴¹ s (= 1.51×10³⁴ yr, eternal for our cosmic time, v3.3)
-- Why $g_{\rm 2D}$ = 3.2 × 10¹⁸ (not 1 or other)
+- Why $\tau_{\rm 4D}$ = $4.77 \times 10^{41}\,\text{s}$ (= $1.51 \times 10^{34}\,\text{yr}$, eternal for our cosmic time, v3.3)
+- Why $g_{\rm 2D}$ = $3.2 \times 10^{18}$(not 1 or other)
 
 A full derivation requires:
 - The complete 5D bulk action (S_5D_bulk is MISSING)
@@ -4412,7 +4403,7 @@ The v3.0.2 Lagrangian skeleton (L = L_c=1 + L_N=12 + L_Schwarzian)
 is now EMBEDDED in the full v3.0.22 Lagrangian as $S_{\rm 2D,universe}$.
 The skeleton was the starting point; the full Lagrangian adds:
 
-- 4D event action ( $S_{\rm 4D,event}$, $M_{\rm Pl,4}$ = 3.93×10²³ GeV)
+- 4D event action ( $S_{\rm 4D,event}$, $M_{\rm Pl,4}$ = $3.93 \times 10^{23}\,\text{GeV}$)
 - 3+1D brane action with SM ( $S_{\rm 3+1D,brane}$)
 - Projection mechanism with time dilation ( $S_{\rm projection}$)
 - Closed loop condition ( $f_{\rm back}$ formula)
@@ -4452,7 +4443,7 @@ What's still missing:
 
 If this speculation section survives peer review:
 
-1. **Derive the 5D bulk action** (S_5D_bulk with $kL$ ~ 3.93×10²³ GeV / $M_{\rm Pl,3}$)
+1. **Derive the 5D bulk action** (S_5D_bulk with $kL$ ~ $3.93 \times 10^{23}\,\text{GeV}$ / $M_{\rm Pl,3}$)
 2. **Specify the projection mechanism** (explicit mathematical form)
 3. **Compute the closed loop path integral** (with 5D bulk)
 4. **Test α = 1.289 against 14 events** (already done in v14d, all match)
@@ -4489,7 +4480,7 @@ The §3.67 Lagrangian proposal (L116) has three weaknesses relative to the v3.5.
 
 1. **Uses α = 1.289 universally** — but A2 established that α is dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$ = 1.408, $\alpha_{4D}$ = 1.577, L308av)
 2. **Uses $f_{\rm back}$ ≈ 10⁻⁸⁵** — but A2 has $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰ (closed loop) and f×ε = 1.13× $10^{-123}$ invariant
+m DE,closed}$ = $1.79 \times 10^{-90}$(closed loop) and f×ε = 1.13× $10^{-123}$ invariant
 3. **Has no mirror plane symmetry** — but L308az established 3+1D as dimensional mirror plane (sign flip between DE and DM)
 
 This section REVISES the Lagrangian with three A2-era corrections and ONE new structural insight (L308ba, halving pattern).
@@ -4599,8 +4590,8 @@ f_DE,closed = (M_Pl,4D/E_4D)^α_4D × prefactor
             = 2.55×10⁻¹⁰⁴ × prefactor
 ```
 
-Where prefactor accounts for parent-reference Planck ( $M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$) and time-dilation. With prefactor ~ 7×10¹³ (the ratio of $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ to appropriate power), we get $f_{
-m DE,closed}$ ≈ 1.79× 10⁻⁹⁰ ✓.
+Where prefactor accounts for parent-reference Planck ( $M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$) and time-dilation. With prefactor ~ $7 \times 10^{13}$(the ratio of $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ to appropriate power), we get $f_{
+m DE,closed}$ ≈ $1.79 \times 10^{-90}$✓.
 
 ```
 ρ_DE = f_DE,closed × ε × M_Pl,3⁴ = 1.79×10⁻⁹⁰ × 6.32×10⁻³⁴ × (1.22×10¹⁹)⁴
@@ -4623,7 +4614,7 @@ m leak,2D}$→3D` (was $f_{\rm DM}$,leak) — natural cascade leak from 2D persp
 The §3.68 Lagrangian is a STRUCTURAL IMPROVEMENT over §3.67:
 - ✓ Integrates A2 dim-specific α (L308av, L308aw, L308ba)
 - ✓ Uses A2 numerical values ( $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴, $\gamma_{\rm 4D} = 1.10×10¹¹¹$)
+m DE,closed}$ = $1.79 \times 10^{-90}$, ε = $6.32 \times 10^{-34}$, $\gamma_{\rm 4D} = 1.10 \times 10^{111}$)
 - ✓ Encodes L308az mirror plane symmetry (sign flip in projection)
 - ✓ Uses frame-neutral naming (L308ax)
 - ✓ Adds bilateral cascade structure (death pulse + drain) to $S_{\rm 2D}$,universe
@@ -4641,7 +4632,7 @@ It does NOT:
 |--------|---------------|-------------|--------|
 | α (scaling law) | α = 1.289 (universal) | $\alpha_{\rm D}$ = 1 + 1/√(12/2^(D-2)) | L308ba |
 | $f_{\rm DE}$ formula | $f_{\rm back}$ ≈ 10⁻⁸⁵ | $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰ | L308av |
+m DE,closed}$ = $1.79 \times 10^{-90}$| L308av |
 | Projection sign | ± $g_{\rm couple}$ (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
 | Frame naming | $f_{\rm back}$, $f_{\rm leak}$, $f_{\rm DM}$,leak | $f_{
 m DE,closed}$, $f_{
@@ -4688,7 +4679,7 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 
 **What improved**:
 - **Numerical consistency** (5/6 → 7/7): A2 values ( $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give EXACT match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
+m DE,closed}$ = $1.79 \times 10^{-90}$, ε = $6.32 \times 10^{-34}$) give EXACT match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
 - **Issue resolution** (37% → 80%): L308ar, L308az, L308ax all addressed in §3.68 with explicit Lagrangian terms (S_mirror, S_drain, halving rule).
 - **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, halving rule, $f \times \varepsilon$ invariant, σ_+×σ_-=-1).
 
@@ -4895,9 +4886,9 @@ After the L308bh breakthrough (C(6) is the SM algebra, Stoica 2018), the user di
   - $N_{\rm 2D}$ = 12 = 3 gen × 4 Weyl (L308r, SM count)
   - $N_{3+1D}$ = 6 = C(6) SM algebra (Stoica 2018) [NEW]
   - $N_{\rm 4D}$ = 3 = 3 generations (Clifford/McKay/cobordism)
-- ε = 6.32× 10⁻³⁴, $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰, $\gamma_{\rm 4D} = 1.10×10¹¹¹$
-- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT
+- ε = $6.32 \times 10^{-34}$, $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$, $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
+- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{EXACT}$
 
 #### 3.71.2 What Changed from Previous B
 
@@ -4963,12 +4954,10 @@ The halving rule $N_D$ = 12/2^(D-2) now has structural explanation:
 NO numerical changes. Option B Strengthened uses the same values as Option B (A2 calibration):
 
 - $\alpha_{2D}$/3+1D/4D = 1.289/1.408/1.577
-- ε = 6.32× 10⁻³⁴
-- $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰
-- $\gamma_{\rm 4D} = 1.10×10¹¹¹$
-- $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
-- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT)
+- ε = $6.32 \times 10^{-34}$- $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
+- $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ yr
+- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴ (EXACT)
 
 The switch is interpretive (justification), not numerical (re-calibration).
 
@@ -5007,9 +4996,9 @@ See `paper/markdown/06_limitations.md` §7.4.53 (L308bi) for full discussion.
 The cascade framework now uses Option B Strengthened as its primary interpretation:
 - α dim-specific (1.289/1.408/1.577)
 - All three N values first-principles derived
-- ε = 6.32× 10⁻³⁴ (A2 calibrated)
-- $\gamma_{\rm 4D} = 1.10×10¹¹¹$
-- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT
+- ε = $6.32 \times 10^{-34}$(A2 calibrated)
+- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
+- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{EXACT}$
 
 The framework's choice is justified BOTH structurally (L308ba, L308bc, L308az) AND first-principles (L308r, Stoica 2018, Clifford/McKay/cobordism).
 
@@ -5032,8 +5021,8 @@ with components:
 
 | Component | Purpose | Key Parameters |
 |-----------|---------|----------------|
-| $S_{\rm 4D}$,event | The eternal 4D substrate | $M_{\rm Pl,4D} = 3.93×10²³ GeV$, $\gamma_{\rm 4D} = 1.10×10¹¹¹$, $\tau_{\rm 4D} = 1.51×10³⁴ yr$|
-| $S_{\rm 3+1D}$,brane | Our universe (Standard Model + DE) | $M_{\rm Pl,3D} = 1.22×10¹⁹ GeV$, Λ = 2.5× 10⁻⁴⁷ GeV⁴ |
+| $S_{\rm 4D}$,event | The eternal 4D substrate | $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV}$, $\gamma_{\rm 4D} = 1.10 \times 10^{111}$, $\tau_{\rm 4D} = 1.51 \times 10^{34}\,\text{yr}$|
+| $S_{\rm 3+1D}$,brane | Our universe (Standard Model + DE) | $M_{\rm Pl,3D} = 1.22 \times 10^{19}\,\text{GeV}$, Λ = $2.5 \times 10^{-47}\,\text{GeV}$⁴ |
 | $S_{\rm 2D}$,universe | Quantum gravity floor (2D CFT) | $M_{\rm Pl,2D} = 2.95$ TeV, $N=12$ (SYK), c=1 Liouville |
 | $S_{\rm projection}$ | Bidirectional cascade with mirror plane | σ_+ (DE), σ_- (DM), $g_{\rm couple}$ |
 | S_drain | Calibrated DM stability | $f_{\rm leak} = H_0 = 67.4 km/s/Mpc |
@@ -5176,7 +5165,7 @@ See `calculations/v36_research/` for individual L308 verification scripts.
 
 The Lagrangian has:
 - ✓ 93% audit score (§3.68)
-- ✓ All A2 numerical values consistent ( $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT)
+- ✓ All A2 numerical values consistent ($\rho_{\rm DE} = 2.5 \times 10^{-47}\,\text{GeV}^4$ EXACT)
 - ✓ Frame-neutral naming (L308ax)
 - ✓ Mirror plane symmetry (L308az)
 - ✓ First-principles N values (L308bi, C(6) is SM algebra)
@@ -5250,9 +5239,8 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 
 **First-principles parameters (4):**
 1. $\alpha_{2D}$ = 1 + 1/√12 = 1.289 (Schwarzian SYK N=12, L308n)
-2. $M_{\rm Pl,2D} = 12 ×$ v_H = 2.95 TeV (L308r)
-3. μ = $M_{
-m Pl,2D}$² = 8.73×10⁶ GeV² (L308r)
+2. $M_{\rm Pl,2D} = 12 \times v_{\rm H} = 2.95$ TeV (L308r)
+3. $\mu = M_{\rm Pl,2D}^2 = 8.73 \times 10^{6}\,\text{GeV}^2$ (L308r)
 4. ** $N_{3+1D}$ = 6 = C(6) SM algebra (L308bh) ← NEW**
 
 **Derived from first-principles:**
@@ -5345,9 +5333,9 @@ The brute force formula μ = E/τ gives:
 
 | Event | μ (GeV²) | $M_{\rm Pl,2D}$ | User's intuition |
 |---|---|---|---|
-| TNT (small event) | 1.28×10¹⁷ | **360,000 TeV** | Should be SMALLER, not bigger! |
-| SN (medium event) | 9.67×10⁶ | 2.95 TeV | Reasonable |
-| Quasar (huge event) | 2.02×10² | **14 GeV** | Should be LARGER, not smaller! |
+| TNT (small event) | $1.28 \times 10^{17}$| **360,000 TeV** | Should be SMALLER, not bigger! |
+| SN (medium event) | $9.67 \times 10^{6}$| 2.95 TeV | Reasonable |
+| Quasar (huge event) | $2.02 \times 10^{2}$| **14 GeV** | Should be LARGER, not smaller! |
 
 ** $M_{\rm Pl,2D}$ is INVERTED from event size!**
 
@@ -5375,14 +5363,14 @@ This is **counterintuitive** because we might think:
 
 TNT 2D universe:
 - $M_{\rm Pl,2D}$ = 360,000 TeV (very rigid)
-- Size = c × τ = 3×10⁸ × 10⁻⁴³ = 3× 10⁻³⁵ m (TINY!)
-- Action = E × τ = 4×10⁹ × 10⁻⁴³ = 4× 10⁻³⁴ J·s (tiny!)
+- Size = c × τ = $3 \times 10^{8}$× 10⁻⁴³ = $3 \times 10^{-35}\,\text{m}$ (TINY!)
+- Action = E × τ = $4 \times 10^{9}$× 10⁻⁴³ = $4 \times 10^{-34}\,\text{J}$·s (tiny!)
 - DM contribution: tiny (action is tiny)
 
 SN 2D universe:
 - $M_{\rm Pl,2D}$ = 2.95 TeV (softer)
 - Size = c × τ = 10¹⁰ m (huge!)
-- Action = 10⁴⁴ × 33 = 3.3×10⁴⁵ J·s (huge!)
+- Action = 10⁴⁴ × 33 = $3.3 \times 10^{45}\,\text{J}$·s (huge!)
 - DM contribution: huge (action is huge)
 
 So even though $M_{\rm Pl,2D}$ is "inverted", DM contribution isn't:
@@ -5416,10 +5404,10 @@ We tested several alternatives:
 
 | Formula | $\mu_{\rm SN}$ | $\mu_{\rm TNT}$ | $\mu_{\rm Quasar}$ | Weirdness |
 |---|---|---|---|---|
-| **v3.3 (universal μ)** | 8.73×10⁶ | 8.73×10⁶ | 8.73×10⁶ | None |
-| **v3.3.6 ( E/τ** | 9.67×10⁶ | 1.3×10¹⁷ | 2.0×10² | YES (inverted) |
-| **Energy-based ( $E^{\alpha}$)** | 8.73×10⁶ | 4.2× 10⁻³⁷ | 1.3× 10⁻²⁹ | Opposite (also weird) |
-| **Capped ( μ ≤ K_max)** | 9.7×10⁶ | 9×10⁸ | 2×10² | Reduced |
+| **v3.3 (universal μ)** | $8.73 \times 10^{6}$| $8.73 \times 10^{6}$| $8.73 \times 10^{6}$| None |
+| **v3.3.6 ( E/τ** | $9.67 \times 10^{6}$| $1.3 \times 10^{17}$| $2.0 \times 10^{2}$| YES (inverted) |
+| **Energy-based ( $E^{\alpha}$)** | $8.73 \times 10^{6}$| $4.2 \times 10^{-37}$| $1.3 \times 10^{-29}$| Opposite (also weird) |
+| **Capped ( μ ≤ K_max)** | $9.7 \times 10^{6}$| $9 \times 10^{8}$| $2 \times 10^{2}$| Reduced |
 
 The energy-based formula gives OPPOSITE weirdness (TNT very small μ, quasar very large).
 
@@ -5428,12 +5416,12 @@ The energy-based formula gives OPPOSITE weirdness (TNT very small μ, quasar ver
 A capped formula might work:
 $$\mu = \min(K_{\max}, K_F \times E/\tau)$$
 
-with K_max = 100 × $\mu_{\rm SN}$ = 9×10⁸ GeV²
+with K_max = 100 × $\mu_{\rm SN}$ = $9 \times 10^{8}\,\text{GeV}$²
 
 This:
 - Keeps the E/τ pattern for high- τ events
 - Caps μ at K_max to avoid TNT weirdness
-- Result: TNT μ = 9×10⁸ (100× SN, not 10¹⁰× SN)
+- Result: TNT μ = $9 \times 10^{8}$(100× SN, not 10¹⁰× SN)
 
 But this is ad hoc — no clear principle for K_max.
 
@@ -5447,7 +5435,7 @@ What if there's a NATURAL FLOOR for 2D universe creation?
 - $E_{\rm threshold}$ = 10⁴⁴ J (SN scale — but then no TNT, flare, etc.)
 
 If $E_{\rm threshold}$ = 10⁹ J:
-- TNT (4×10⁹ J) is barely above threshold → maybe no 2D universe
+- TNT ($4 \times 10^{9}\,\text{J}$) is barely above threshold → maybe no 2D universe
 - SN (10⁴⁴ J) is well above → standard 2D universe
 - This would explain why we don't see TNT 2D universes
 
@@ -5457,8 +5445,7 @@ But the threshold needs a physical principle.
 
 The cleanest approach:
 
-1. **v3.3 (canonical)**: Keep universal μ = 8.73×10⁶
-   - Avoids weirdness
+1. **v3.3 (canonical)**: Keep universal μ = $8.73 \times 10^{6}$- Avoids weirdness
    - Simpler (9 parameters pre-A1, 15 parameters current v3.5.9+ A2 (α dim-specific)+L308z)
    - Agrees with most physics intuition
    - $M_{\rm Pl,2D}$ = 2.95 TeV universal
@@ -5507,7 +5494,7 @@ The framework should:
 
 ## Final Recommendation
 
-**KEEP v3.3 as canonical** (universal μ = 8.73×10⁶ GeV²)
+**KEEP v3.3 as canonical** (universal μ = $8.73 \times 10^{6}\,\text{GeV}$²)
 **MENTION v3.3.6 as alternative** with explicit caveats about TNT weirdness
 **CONTINUE search for true first-principles μ** via Karlsson 2025, Hartle-Hawking, etc.
 
@@ -5808,7 +5795,7 @@ The v3.4 "DOF conservation at 24" was the framework's INTERPRETATION.
 ## What's Still Calibrated/Assumed
 
 Even with F-theory 12D, the framework has:
-- **Calibrated**: α = 1.289, μ = 8.73×10⁶ GeV², ε, $\tau_{\rm 4D}$, AGN rate
+- **Calibrated**: α = 1.289, μ = $8.73 \times 10^{6}\,\text{GeV}$², ε, $\tau_{\rm 4D}$, AGN rate
 - **Assumed**: c=1, b²=1/2, universal 2D physics
 - **Open**: μ first-principles, "Why F-theory?", CY3 topology, "Why 12?"
 
@@ -5861,8 +5848,8 @@ Even with F-theory 12D, the framework has:
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). Some ε ≈ 10⁻³⁸ and $f_{\rm back}$ ≈ 10⁻⁸⁵ references in this file are HISTORICAL (predate A2 recalibration). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved in both A1 and A2.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → $6.32 \times 10^{-34}$, $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$(was $f_{\rm back}$ = $6.03 \times 10^{-88}\,\text{in}$ A1, dim-specific $\alpha_{4D}$ = 1.577). Some ε ≈ 10⁻³⁸ and $f_{\rm back}$ ≈ 10⁻⁸⁵ references in this file are HISTORICAL (predate A2 recalibration). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved in both A1 and A2.
 
 <!-- 04_predictions.md - part of paper.md split (v3.0.13) -->
 
@@ -5898,7 +5885,7 @@ At *fixed visible mass*, the model predicts that the *small* scatter in the RAR 
 
 $g₊ (SIDC) = \frac{3}{4} \cdot G \cdot f(cumulative) \cdot M_{DM} / (\pi R_{halo}^2)$
 
-For a Milky Way-like galaxy ( $M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, f(cumulative) = 0.7 from SIDC's 30%/70% active/cumulative split), this gives $g_+$ (SIDC) ≈ 2.6 × 10⁻¹¹ m/s², which is∼ 0.22 × the empirical McGaugh+ 2016 value of 1.2 × 10⁻¹⁰ m/s² — within a factor of 5, in the right ballpark.
+For a Milky Way-like galaxy ( $M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, f(cumulative) = 0.7 from SIDC's 30%/70% active/cumulative split), this gives $g_+$ (SIDC) ≈ $2.6 \times 10^{-11}\,\text{m}$/s², which is∼ 0.22 × the empirical McGaugh+ 2016 value of $1.2 \times 10^{-10}\,\text{m}$/s² — within a factor of 5, in the right ballpark.
 
 *Critical test of SIDC:* the empirical g₊ is *constant* across galaxy types, but SIDC's g₊ depends on $M_{DM}/R_{halo}^2$. For g₊ to be constant, SIDC would require $M_{DM} \propto R_{halo}^2$ (a baryonic Tully-Fisher-like relation, but for $M_{DM}$ rather than $M_{bar}$). This is a *testable* prediction of SIDC. If future high-precision observations confirm the empirical constancy of g₊ across all galaxy types (with no variation in $M_{DM}/R_{halo}^2$ at fixed g₊), SIDC is in tension with the data. If g₊ shows *small* variations correlated with $M_{DM}/R_{halo}^2$, SIDC is *qualitatively* consistent. The current precision of g₊ measurements is at the ~0.1 dex level, which is *just* sensitive to SIDC's prediction — future observations (e.g., with Rubin Observatory / LSST) could resolve this question.
 
@@ -5906,7 +5893,7 @@ For a Milky Way-like galaxy ( $M_{DM} = 10^{12} M_\odot$, $R_{halo} = 30$ kpc, f
 
 **The RAR across mass scales: SIDC vs. observations (v2.2.1).** A more stringent test of SIDC's g₊ prediction comes from comparing SIDC to recent observations across the *full* mass spectrum. Three recent observational results are particularly relevant:
 
-1. **McGaugh+ 2016 (galaxies)**: $g_+$ = 1.2 × 10⁻¹⁰ m/s² (a tight, approximately universal relation for spiral galaxies with $M_{bar} \sim 10^{8}$-- $10^{11} M_\odot$).
+1. **McGaugh+ 2016 (galaxies)**: $g_+$ = $1.2 \times 10^{-10}\,\text{m}$/s² (a tight, approximately universal relation for spiral galaxies with $M_{bar} \sim 10^{8}$-- $10^{11} M_\odot$).
 
 2. **Júlio+ 2025 (EDGE, dwarfs)**: 12 nearby dwarf galaxies with $M_{bar} \sim 10^{4}$-- $10^{7.5}\,M_\odot$ lie *systematically above* the low-mass extrapolation of the McGaugh+ 2016 RAR. Each galaxy traces a multi-valued locus in RAR space (the same baryonic acceleration can correspond to different observed accelerations). The conclusion: *"the RAR does not apply to low-mass dwarf galaxies"* [Júlio+ 2025, A&A 704, A330].
 
@@ -5953,14 +5940,14 @@ This gives a *naturally intermediate* profile that smoothly transitions from ful
 
 For a Milky Way-like galaxy (v_circ ~ 250-380 km/s), the inner galaxy (r < 5 kpc) has $t_{dyn} < 0.1$ Gyr and the cumulative dark matter has had ~100-1000 dynamical times to mix — it is *very well-mixed*, close to uniform. The outer halo (r ~ 30-100 kpc) has $t_{dyn} \sim 1-3$ Gyr and is only partially mixed. For a galaxy cluster (r ~ 500 kpc, v_circ ~ 900 km/s), the inner region (r < 30 kpc) is well-mixed but the outer halo (r ~ 200-500 kpc) is *barely mixed* (only a few dynamical times over cosmic history).
 
-*Parameter search (commit 107, v2.2.1).* Per the question of whether SIDC's RAR can be fit better with different parameter choices, I performed a trial-and-error grid search over $f_{active}$ and $N_{crit}$ (in `calculations/rar_parameter_fit.py`). The best-fit parameters (minimizing log-error to the empirical targets: MW $g_{\rm obs}$/ $g_{\rm bar}$=2.5/ $g_+$= 1.2 × 10⁻¹⁰, EDGE 2025 dwarf 20/ 1.5 × 10⁻¹⁰, Tian 2024 cluster 50/17× galaxy) are:
+*Parameter search (commit 107, v2.2.1).* Per the question of whether SIDC's RAR can be fit better with different parameter choices, I performed a trial-and-error grid search over $f_{active}$ and $N_{crit}$ (in `calculations/rar_parameter_fit.py`). The best-fit parameters (minimizing log-error to the empirical targets: MW $g_{\rm obs}$/ $g_{\rm bar}$=2.5/ $g_+$= $1.2 \times 10^{-10}$, EDGE 2025 dwarf 20/ $1.5 \times 10^{-10}$, Tian 2024 cluster 50/17× galaxy) are:
 
   $f_{\rm active}$ = 0.08, $N_{\rm crit}$ = 25 (log_err = 0.76)
 
 With these parameters:
-  - MW: $g_{\rm obs}$/ $g_{\rm bar}$ = 2.9, $g_+$ = 4.3 × 10⁻¹⁰ (16% off)
-  - Dwarf: $g_{\rm obs}$/ $g_{\rm bar}$ = 38, $g_+$ = 2.9 × 10⁻¹⁰ (90% off)
-  - Cluster: $g_{\rm obs}$/ $g_{\rm bar}$ = 28, $g_+$ = 1.8 × 10⁻⁸ (44% off)
+  - MW: $g_{\rm obs}$/ $g_{\rm bar}$ = 2.9, $g_+$ = $4.3 \times 10^{-10}$(16% off)
+  - Dwarf: $g_{\rm obs}$/ $g_{\rm bar}$ = 38, $g_+$ = $2.9 \times 10^{-10}$(90% off)
+  - Cluster: $g_{\rm obs}$/ $g_{\rm bar}$ = 28, $g_+$ = $1.8 \times 10^{-8}$(44% off)
 
 *Honest assessment of the parameter search:*
 - Galaxy scale: the model matches within 16% (good).
@@ -5979,7 +5966,7 @@ With these parameters:
 
 *The fundamental issue:* SIDC's active contribution (clustered, follows stellar) makes the inner $g_{\rm obs}$ too large. The empirical RAR requires $g_{\rm obs} \sim g_{\rm bar}$ at high $g_{\rm bar}$ (no DM excess at high stellar surface density), but SIDC's active contribution gives $g_{\rm obs}$ = $g_{\rm bar}$ * (1 + $f_{\rm active}$ * kappa), which is 5-6x $g_{\rm bar}$ for $f_{\rm active}$=0.2, kappa=17. To match the RAR at 2R_d for MW, $f_{\rm active}$ * kappa must be < 1, requiring $f_{\rm active}$ < 0.06 — which is 5x smaller than SIDC's postulate of $f_{\rm active}$=0.3.
 
-This tension requires either a different spatial distribution for the active contribution, a smaller $f_{\rm active}$ (SIDC's postulate is off by ~5x), or a different SIDC $g_+$. SIDC's $g_+$ might not be 1.2 × 10⁻¹⁰ m/s² (McGaugh+ 2016) but rather closer to 2 × 10⁻⁹ m/s² (Tian+ 2024 cluster value) — which would be a genuinely different prediction of SIDC that conflicts with the galaxy RAR. This is left as an open question for further theoretical work (Limitation 19).
+This tension requires either a different spatial distribution for the active contribution, a smaller $f_{\rm active}$ (SIDC's postulate is off by ~5x), or a different SIDC $g_+$. SIDC's $g_+$ might not be $1.2 \times 10^{-10}\,\text{m}$/s² (McGaugh+ 2016) but rather closer to $2 \times 10^{-9}\,\text{m}$/s² (Tian+ 2024 cluster value) — which would be a genuinely different prediction of SIDC that conflicts with the galaxy RAR. This is left as an open question for further theoretical work (Limitation 19).
 
 *Full mass spectrum test (commit 111, v2.2.1).* I tested SIDC's RAR prediction across 9 systems from ultra-faint dwarf ($M_{halo} = 10^{7} M_\odot$) to supercluster core ($M_{halo} = 5 \times 10^{14} M_\odot$), in `calculations/rar_extremes.py`. Key findings:
 
@@ -5988,25 +5975,25 @@ This tension requires either a different spatial distribution for the active con
    - Classical dwarf ( 10⁹): 38 (transition)
    - Small spiral ( 10¹⁰): 4.16 (on galaxy RAR)
    - MW-like ( 10¹²): 2.9 (matches well at 2R_d)
-   - Large spiral ( 5 × 10¹²): 3.6 (transition)
+   - Large spiral ( $5 \times 10^{12}$): 3.6 (transition)
    - Compact group ( 10¹³): 9.3 (transition)
-   - Small cluster ( 5 × 10¹³): 14 (beyond cluster RAR)
+   - Small cluster ( $5 \times 10^{13}$): 14 (beyond cluster RAR)
    - Massive cluster ( 10¹⁴): 29 (beyond cluster RAR)
-   - Supercluster core ( 5 × 10¹⁴): 31 (beyond cluster RAR)
+   - Supercluster core ( $5 \times 10^{14}$): 31 (beyond cluster RAR)
 
 2. **SIDC's MW model TRANSITIONS from "on galaxy RAR" at small r to "on cluster RAR" at large r:** at r=0.5 kpc, SIDC matches the galaxy RAR (5% off); at r=30 kpc, it matches the cluster RAR (18% off). This radial transition is a generic feature of the uniform-cumulative profile: at small r, $g_{active}$ dominates (clustered, follows stellar, gives $g_{obs} \sim g_{bar}$); at large r, $g_{cum}$ dominates (uniform, gives $g_{obs} \sim const$, MOND-like).
 
 3. **At the cluster scale, SIDC over-predicts by 1.4-2.5x even with $f_{active} = 0$.** This means the CUMULATIVE-ONLY contribution is too much. The cluster's empirical $M_{halo}$ would need to be 1.6-1.7x smaller to match the cluster RAR.
 
 4. **SIDC's $M_{halo}$ is too large for the RAR fit:**
-   - MW: 4.6x too large (compared to the MOND-implied $M_{halo}$ from $g_+$ = 1.2 × 10⁻¹⁰)
-   - Cluster: 1.65x too large (compared to the MOND-implied $M_{halo}$ from $g_+$ = 2 × 10⁻⁹)
+   - MW: 4.6x too large (compared to the MOND-implied $M_{halo}$ from $g_+$ = $1.2 \times 10^{-10}$)
+   - Cluster: 1.65x too large (compared to the MOND-implied $M_{halo}$ from $g_+$ = $2 \times 10^{-9}$)
    - The "too large" factor is *mass-dependent* (4.6x for MW, 1.65x for cluster)
 
 **Honest interpretation of the full mass spectrum:**
 - SIDC's qualitative RAR picture is correct (extra gravity from dark matter exists, scales with mass).
 - The quantitative mass-dependence is off by factors of 2-5 at the extremes.
-- SIDC's g₊ is naturally closer to the *cluster* value ( 2 × 10⁻⁹) than the *galaxy* value ( 1.2 × 10⁻¹⁰). This could be a genuinely new SIDC prediction that conflicts with the McGaugh+ 2016 RAR.
+- SIDC's g₊ is naturally closer to the *cluster* value ( $2 \times 10^{-9}$) than the *galaxy* value ( $1.2 \times 10^{-10}$). This could be a genuinely new SIDC prediction that conflicts with the McGaugh+ 2016 RAR.
 - A specific implementation would need either (a) mass-dependent $M_{halo}$ scaling, (b) a different spatial distribution that flattens the cumulative at large masses, or (c) a sub-dominant active contribution ( $f_{active} < 0.06$).
 
 This is consistent with the recent findings (EDGE 2025, Tian 2024) that the RAR is not perfectly universal, and SIDC's specific implementation would need additional physics to match the full mass spectrum.
@@ -6031,7 +6018,7 @@ This is consistent with the recent findings (EDGE 2025, Tian 2024) that the RAR 
 - SIDC's postulate of $f_{active} = 0.3$ is **6-15x too large**. The "true" $f_{active}$ for SIDC to match the RAR is ∼ 0.05 (5% active, 95% cumulative), not 30%.
 - SIDC's $f_{active}$ appears to be slightly mass-dependent: MW fits best with $f_{active} = 0.02$, cluster with $f_{active} = 0.1$. This is consistent with a scale-dependent SIDC fraction (different mass scales have different proportions of current vs cumulative dark matter).
 - SIDC's MW model matches the cluster RAR better than the galaxy RAR (a real testable tension, not a fudge).
-- A specific implementation would need $f_{active} \sim 0.05$ (or scale-dependent $f_{active}$), with the additional understanding that SIDC's g₊ may be closer to the cluster value ( 2 × 10⁻⁹) than the galaxy value ( 1.2 × 10⁻¹⁰).
+- A specific implementation would need $f_{active} \sim 0.05$ (or scale-dependent $f_{active}$), with the additional understanding that SIDC's g₊ may be closer to the cluster value ( $2 \times 10^{-9}$) than the galaxy value ( $1.2 \times 10^{-10}$).
 
 This refinement updates SIDC's "postulates" to be more quantitative: $f_{active}$ is much smaller than originally conjectured, and the spatial distribution of the cumulative dark matter is closer to uniform than to NFW (with some radial dependence from dynamical mixing).
 
@@ -6105,9 +6092,9 @@ This is now SIDC's best candidate RAR model: small $f_{active}$ (5%), isothermal
 
 | Object | r (kpc) | N_orbits | f_mix | $g_{\rm obs}$/ $g_{\rm bar}$ | Effective $g_+$ |
 | --- | --- | --- | --- | --- | --- |
-| Milky Way (2 R_d) | 8 kpc | 130 | 1.00 | 6.4 | 2.7 × 10⁻⁹ m/s² |
-| Dwarf (2 R_d) | 2 kpc | 39 | 0.98 | 40 | 3.3 × 10⁻¹⁰ m/s² |
-| Cluster (2 R_d) | 60 kpc | 73 | 1.00 | 33 | 2.4 × 10⁻⁸ m/s² |
+| Milky Way (2 R_d) | 8 kpc | 130 | 1.00 | 6.4 | $2.7 \times 10^{-9}\,\text{m}$/s² |
+| Dwarf (2 R_d) | 2 kpc | 39 | 0.98 | 40 | $3.3 \times 10^{-10}\,\text{m}$/s² |
+| Cluster (2 R_d) | 60 kpc | 73 | 1.00 | 33 | $2.4 \times 10^{-8}\,\text{m}$/s² |
 
 *Honest assessment of the full dynamical-mixing model:*
 - The mixing-fraction formalism is correct: the cumulative return is *naturally* between fully clustered and fully uniform, with the mixing fraction depending on radius and halo mass.
@@ -6134,14 +6121,14 @@ The *dynamical-mixing* picture reconciles SIDC's apparently inconsistent claims 
 | Model | Median residual | Within 20% of RAR |
 |-------|----------------|-------------------|
 | **SIDC (pure, MW-tuned)** | 70.5% | 22.8% |
-| **MOND ( $g_+$ = 1.0 × 10⁻¹⁰, M/L=0.5)** | 20.2% | 49.7% |
+| **MOND ( $g_+$ = $1.0 \times 10^{-10}$, M/L=0.5)** | 20.2% | 49.7% |
 | **MOND (free g₊, free M/L)** | **10.1%** | **87.6%** |
 
-SIDC's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ functional form is **falsified** on real data (70% median residual). MOND's interpolation function $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$ fits the real data to 10% when g₊ and M/L are allowed to vary per galaxy. The empirical g₊ is **universal** at∼ 1.0-1.2 × 10⁻¹⁰ m/s² across 149 galaxies (per-galaxy best fit: 9.1 × 10⁻¹¹ median, 1.2 × 10⁻¹⁰ mean, 0.42 dex scatter, consistent with the McGaugh+ 2016 measurement of 1.2 × 10⁻¹⁰).
+SIDC's $g_{obs} = g_{bar} + g_{cum} + g_{active}$ functional form is **falsified** on real data (70% median residual). MOND's interpolation function $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$ fits the real data to 10% when g₊ and M/L are allowed to vary per galaxy. The empirical g₊ is **universal** at∼ 1.0-$1.2 \times 10^{-10}\,\text{m}$/s² across 149 galaxies (per-galaxy best fit: $9.1 \times 10^{-11}\,\text{median}$, $1.2 \times 10^{-10}\,\text{mean}$, 0.42 dex scatter, consistent with the McGaugh+ 2016 measurement of $1.2 \times 10^{-10}$).
 
 *The SIDC-MOND hybrid proposal.* SIDC's framework is not falsified by this test; only its specific RAR *functional form* is. A more honest proposal:
 
-- **SIDC provides the WHY**: the 2D universe cumulative gravity creates a universal acceleration scale $g_+$ ∼ 1.2 × 10⁻¹⁰ m/s². SIDC's 4D event physics explains *why* there's a universal g₊ at all (per SIDC's framework: it's a property of the cumulative 2D universe gravity at galaxy scales).
+- **SIDC provides the WHY**: the 2D universe cumulative gravity creates a universal acceleration scale $g_+$ ∼ $1.2 \times 10^{-10}\,\text{m}$/s². SIDC's 4D event physics explains *why* there's a universal g₊ at all (per SIDC's framework: it's a property of the cumulative 2D universe gravity at galaxy scales).
 - **MOND provides the HOW**: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$ is the correct functional form for the relationship between $g_{\rm obs}$ and $g_{\rm bar}$ in real galaxies.
 - **SIDC-MOND synthesis**: SIDC's RAR prediction is **MOND-compatible**, not its own independent prediction. SIDC's contribution to the RAR is the *geometric origin of g₊, not the form of* $g_{obs}(g_{bar})$.
 
@@ -6209,7 +6196,7 @@ A *specific* implementation of the 4D event scenario must reproduce these observ
 
 **Inflation, matter-antimatter asymmetry, and other open issues.** The dimensional-SIDC framework does *not* currently derive:
 - *Cosmic inflation* — the near-exponential expansion in the very early universe ( ∼ 10⁻³⁶ to 10⁻³² seconds after the Big Bang) that solves the horizon, flatness, and monopole problems. In SIDC, the 4D event's projection could in principle provide an inflation-like phase (if the 4D event had a *spatially* localized region of intense energy near the projection's origin — corresponding to the 4D event's "early" region in the 4D-spatial direction that maps to 3+1D time, per the dimensional time-dilation principle of §2.2), but this is *not* derived in the current model. A specific implementation would need to derive the inflationary phase from the 4D event's *spatial* profile (the mapping of 4D-spatial intensity onto 3+1D-temporal early-universe intensity), and check that the resulting primordial perturbation spectrum matches observations (nearly scale-invariant, nₛ ≈ 0.965, with no detectable tensor modes at current sensitivity). SIDC's *temporal* profile of the 4D event (intensity vs 4D time) maps to 3+1D's *spatial* profile (intensity vs 3+1D position at a given 3+1D time), so the "brief, intense early phase" in the inflationary sense would correspond to a *spatially localized* intense region in the 4D event, not a temporally early phase in 4D time.
-- *Matter-antimatter asymmetry* — the observed fact that our universe has *more matter than antimatter* (baryon-to-photon ratio η ∼ 6 × 10⁻¹⁰). SIDC does *not* currently explain this asymmetry. In standard cosmology, the asymmetry is generated by *baryogenesis* (Sakharov conditions: baryon number violation, C and CP violation, out-of-equilibrium processes). In SIDC, the 4D event could in principle generate the asymmetry (if the 4D event's projection preferentially created matter over antimatter, or if the dimensional projection inherently violates C and CP), but this is *not* derived. A specific implementation would need to address why the projected 3+1D universe is matter-dominated.
+- *Matter-antimatter asymmetry* — the observed fact that our universe has *more matter than antimatter* (baryon-to-photon ratio η ∼ $6 \times 10^{-10}$). SIDC does *not* currently explain this asymmetry. In standard cosmology, the asymmetry is generated by *baryogenesis* (Sakharov conditions: baryon number violation, C and CP violation, out-of-equilibrium processes). In SIDC, the 4D event could in principle generate the asymmetry (if the 4D event's projection preferentially created matter over antimatter, or if the dimensional projection inherently violates C and CP), but this is *not* derived. A specific implementation would need to address why the projected 3+1D universe is matter-dominated.
 - *Big Bang nucleosynthesis (BBN)* — the observed light element abundances (D, ³He, ⁴He, ⁷Li) at ∼ 10⁻² to 10³ seconds after the Big Bang, which constrain the baryon-to-photon ratio and the number of relativistic species. SIDC does *not* currently derive the BBN predictions from the 4D event; the model takes the standard BBN picture as given and notes that the 4D event scenario must be *consistent* with the observed light element abundances.
 - *Primordial black holes, topological defects, cosmic strings* — other features of standard cosmology that are not currently addressed by SIDC.
 
@@ -6227,7 +6214,7 @@ If dark matter is the *cumulative* collective gravitational signature of all 2D 
 
 **Why event size matters, not just event rate.** The relevant quantity for dark matter production is not just the *count* of events but also their *energy*. Each 2D universe created by a 3+1 dimensional event has a gravitational contribution proportional to the event's energy. Many small events (e.g., solar fusion reactions at ~MeV each) contribute little to dark matter per event, even at high rates. A few large events (e.g., supernovae at ∼ 10⁶⁰ eV each) contribute much more per event.
 
-The Sun, for example, hosts ∼ 10³⁸ nuclear fusion reactions per second — an enormous *event rate* in absolute terms. Each event releases only ~MeV, so the *current* power output from solar fusion is ~3.8 × 10²⁶ W. By contrast, a single supernova releases a total of ∼ 10⁵¹- 10⁵³ ergs of energy ( ≈ 10⁶²- 10⁶⁴ eV in kinetic energy plus neutrinos; ∼ 10⁴⁸ ergs ≈ 10⁶⁰ eV (since 10⁶⁰ eV = 1.6 × 10⁴⁸ erg) in visible light, which is what an external observer primarily *sees*) in a single brief event. The supernova energy depends on the type: Type Ia releases ∼ 10⁵¹ ergs of kinetic energy, while Type II releases ∼ 10⁵³ ergs total (mostly neutrinos). Using the visible-light energy of ∼ 10⁶⁰ eV as the "energetic event" energy (since most of the kinetic and neutrino energy does not directly create 2D universes via 3+1D electromagnetic interactions), the supernova's event energy is ∼ 10⁶⁰ eV. (Note: 10⁶⁰ eV = 1.6 × 10⁴⁸ ergs, NOT 10⁵³ ergs. The *total* supernova energy is ∼ 10⁵³ ergs, but most of that is kinetic and neutrino energy, not visible light. The visible-light energy of ∼ 10⁶⁰ eV is what primarily drives the 2D universe creation in our 3+1D frame, since neutrinos and bulk kinetic energy do not directly create 2D universes via 3+1D events.) For comparison, this is ~0.1% of the Sun's *total* output over its entire lifetime (~1.2 × 10⁴⁴ J = 1.2 × 10⁵¹ ergs). The Milky Way's *current* supernova rate is ~few per century, but each event contributes much more dark matter per event than solar fusion. The galaxy's *current* energetic activity (per unit volume) is therefore dominated by its large events (supernovae, AGN), not by stellar fusion.
+The Sun, for example, hosts ∼ 10³⁸ nuclear fusion reactions per second — an enormous *event rate* in absolute terms. Each event releases only ~MeV, so the *current* power output from solar fusion is ~$3.8 \times 10^{26}\,\text{W}$. By contrast, a single supernova releases a total of ∼ 10⁵¹- 10⁵³ ergs of energy ( ≈ 10⁶²- 10⁶⁴ eV in kinetic energy plus neutrinos; ∼ 10⁴⁸ ergs ≈ 10⁶⁰ eV (since 10⁶⁰ eV = $1.6 \times 10^{48}\,\text{erg}$) in visible light, which is what an external observer primarily *sees*) in a single brief event. The supernova energy depends on the type: Type Ia releases ∼ 10⁵¹ ergs of kinetic energy, while Type II releases ∼ 10⁵³ ergs total (mostly neutrinos). Using the visible-light energy of ∼ 10⁶⁰ eV as the "energetic event" energy (since most of the kinetic and neutrino energy does not directly create 2D universes via 3+1D electromagnetic interactions), the supernova's event energy is ∼ 10⁶⁰ eV. (Note: 10⁶⁰ eV = $1.6 \times 10^{48}\,\text{ergs}$, NOT 10⁵³ ergs. The *total* supernova energy is ∼ 10⁵³ ergs, but most of that is kinetic and neutrino energy, not visible light. The visible-light energy of ∼ 10⁶⁰ eV is what primarily drives the 2D universe creation in our 3+1D frame, since neutrinos and bulk kinetic energy do not directly create 2D universes via 3+1D events.) For comparison, this is ~0.1% of the Sun's *total* output over its entire lifetime (~$1.2 \times 10^{44}\,\text{J}$ = $1.2 \times 10^{51}\,\text{ergs}$). The Milky Way's *current* supernova rate is ~few per century, but each event contributes much more dark matter per event than solar fusion. The galaxy's *current* energetic activity (per unit volume) is therefore dominated by its large events (supernovae, AGN), not by stellar fusion.
 
 (Note: the *spatial* dark matter correlation is dominated by the *active* population contribution (per §4.2), not the *cumulative return* contribution. The cumulative return is set by the *integrated historical* event rate, which is approximately uniform across galaxies of similar age (since all galaxies have had ~13.8 Gyr of similar activity on average). The *spatial variation* in dark matter across galaxies is therefore dominated by the *active* population, which depends on the *current* event rate at each location. The dark matter at any point is set by the *current* event rate at that point (active population), not the historical rate at that point (cumulative return is approximately uniform spatially). The historical comparison above (Sun's total output over its lifetime) is for *intuition* about the relative importance of small vs. large events in the *current* activity budget, not a claim about historical integration. The *total* dark matter budget (per §2.5, §4.2) is the sum of active + cumulative; the *spatial correlation* (per this subsection) is dominated by the active.)
 
@@ -6322,7 +6309,7 @@ The key physical insight: SIDC's threshold is on *event energy*, not on *stellar
 - **DF2/DF4** [van Dokkum+ 2018, Nature 555, 629; van Dokkum+ 2019, ApJ 880, 91]: Old stellar populations (~10 Gyr). Maximum surviving stellar mass: 1 $M_\odot$ (K/M dwarfs). NO SN progenitors. NO X-ray. SIDC PREDICTION: DM-poor. OBSERVED: DM-poor (factor 1/400 of $\Lambda{\rm CDM}$). ****[PASS]** CONSISTENT.**
 - **FCC 224** [Ferguson et al. 2024, "UDG sample"]: Quiescent UDG in the Fosbury-Carter-Cannon catalog. Age ~8 Gyr. Maximum surviving mass: 1.1 $M_\odot$ (K dwarf, per the lifetime $\propto M^{-2.5}$ scaling). NO SN. SIDC PREDICTION: DM-poor. OBSERVED: DM-poor. ****[PASS]** CONSISTENT.** *Note: The "Ferguson+ 2024" reference is a placeholder for a paper in the UDG-survey literature; the specific paper was not independently verified during this audit. FCC 224 is a known UDG; the qualitative claim (DM-poor, quiescent) is consistent with the broader UDG literature.*
 - **KKR 25** [Makarov et al. 2012, MNRAS 425, 709, "A unique isolated dwarf spheroidal galaxy at D = 1.9 Mpc"]: A *nearby* (D = 1.9 Mpc) isolated dwarf spheroidal (dSph) galaxy with intermediate-age star formation (1-4 Gyr ago, per Lick indices). 60% of total stellar mass was formed in this single burst event. Maximum surviving mass in the *current* 1-4 Gyr population: ~2.5-3 $M_\odot$ (A-type). **NO current SN progenitors alive** (phase-transition threshold not crossed by current activity). **HOWEVER**, the 1-4 Gyr population *was* active at the time of the burst, with O/B stars that produced core-collapse SN ( ∼ 10⁴⁴ J, well above $E_{crit}$). Those SN seeded 2D universes with $\tau_{2D} \sim 33$ seconds (per the dimensional time-dilation rule). The 2D universes have since died (33 seconds after creation), and per the §2.5.1 action\'s $S_{\rm destruction}$, the energy was *returned to 3+1D as a permanent DM contribution*. **SIDC PREDICTION**: SIDC NOT active *now* (no current SN), but cumulative return from the 1-4 Gyr burst\'s SN contributes to present-day DM. **OBSERVED**: KKR 25 is DM-rich for its mass. **RESOLVED** via the $S_{\rm destruction}$ pathway (energy-return assumption). *Honest caveat*: the $S_{\rm destruction}$ mechanism is a model assumption (encoded in the action but not derived from first principles). If the 2D universe\'s death energy instead *escapes* the 3+1D brane (e.g., radiates into the 4D bulk), then the cumulative return would NOT contribute to 3+1D DM, and KKR 25 would be a real TENSION. X-ray follow-up observations and a more rigorous derivation of S_destruction\'s energetics are needed to confirm.
-- **Sun (null test)**: $M = 1 M_\odot$, age 4.6 Gyr. *Key physical point — the phase-transition threshold is on VOLUMETRIC ENERGY DENSITY (dE/dV), not on total integrated energy.* Main-sequence solar fusion releases∼ 3.8 × 10²⁶ W continuously, totaling∼ 5 × 10⁴³ J over the Sun's 4.6 Gyr lifetime — a number that *vastly* exceeds a single supernova's∼ 10⁴⁴ J. A naive integrated-energy ledger would predict the Sun to be surrounded by a massive micro-halo. SIDC's principle *explicitly avoids* this conclusion by computing the *local volumetric energy density* dE/dV at the event site. Solar fusion packs$\sim 10^{23-26}$ J per event (MeV-scale per reaction) into a *huge spatial volume* (the solar core,$\sim 0.25 R_\odot \sim 1.7 \times 10^{8}$ m), giving dE/dV per event of $\sim 10^{23-26} / (1.7 \times 10^{8})^3 \sim 10^{-2}$ J/m³ — many orders of magnitude below $\rho_{crit}$. By contrast, a supernova packs ∼ 10⁴⁴ J into a *stellar core* (∼ 3 × 10³ m radius) over a fraction of a second, giving dE/dV ∼ 10⁴⁴ / (3 × 10³)³ ∼ 10³³ J/m³ — *many orders of magnitude above* $\rho_{crit}$. The *maximum single-event* energy is also below threshold: solar flares peak at$\sim 10^{23-26}$ J, well below $E_{crit} = 10^{30}$ J (5-7 orders of magnitude below), so SIDC initialization script ($R_{SIDC} = f_{deliver} \cdot E$ for $\rho_E \geq \rho_{crit}$) never fires. White-dwarf formation in ~5 Gyr will produce ∼ 10⁴⁰ J in a compact planetary-nebula-scale volume, above threshold, but this is a *future* event that has not yet happened. SIDC PREDICTION: No DM now. OBSERVED: No DM detection (< 10⁻¹⁷ of galactic). ****[PASS]** CONSISTENT.**
+- **Sun (null test)**: $M = 1 M_\odot$, age 4.6 Gyr. *Key physical point — the phase-transition threshold is on VOLUMETRIC ENERGY DENSITY (dE/dV), not on total integrated energy.* Main-sequence solar fusion releases∼ $3.8 \times 10^{26}\,\text{W}$ continuously, totaling∼ $5 \times 10^{43}\,\text{J}$ over the Sun's 4.6 Gyr lifetime — a number that *vastly* exceeds a single supernova's∼ 10⁴⁴ J. A naive integrated-energy ledger would predict the Sun to be surrounded by a massive micro-halo. SIDC's principle *explicitly avoids* this conclusion by computing the *local volumetric energy density* dE/dV at the event site. Solar fusion packs$\sim 10^{23-26}$ J per event (MeV-scale per reaction) into a *huge spatial volume* (the solar core,$\sim 0.25 R_\odot \sim 1.7 \times 10^{8}$ m), giving dE/dV per event of $\sim 10^{23-26} / (1.7 \times 10^{8})^3 \sim 10^{-2}$ J/m³ — many orders of magnitude below $\rho_{crit}$. By contrast, a supernova packs ∼ 10⁴⁴ J into a *stellar core* (∼ $3 \times 10^{3}\,\text{m}$ radius) over a fraction of a second, giving dE/dV ∼ 10⁴⁴ / ($3 \times 10^{3}$)³ ∼ 10³³ J/m³ — *many orders of magnitude above* $\rho_{crit}$. The *maximum single-event* energy is also below threshold: solar flares peak at$\sim 10^{23-26}$ J, well below $E_{crit} = 10^{30}$ J (5-7 orders of magnitude below), so SIDC initialization script ($R_{SIDC} = f_{deliver} \cdot E$ for $\rho_E \geq \rho_{crit}$) never fires. White-dwarf formation in ~5 Gyr will produce ∼ 10⁴⁰ J in a compact planetary-nebula-scale volume, above threshold, but this is a *future* event that has not yet happened. SIDC PREDICTION: No DM now. OBSERVED: No DM detection (< 10⁻¹⁷ of galactic). ****[PASS]** CONSISTENT.**
 
 *Result: 5/5 specific cases consistent with SIDC's phase-transition principle using real observational data (KKR 25 via the $S_{\rm destruction}$ cumulative-return pathway).* The AGC 114905 anomaly is *resolved* by the specific stellar population age (0.5-2 Gyr), which means no O/B stars survive to produce SN, which means no events above $E_{crit}$, which means no 2D universe creation, which means no DM contribution from SIDC. The same principle explains all 5 cases: 4 directly (DM-poor with no current high-energy events) and KKR 25 via the $S_{\rm destruction}$ cumulative-return pathway (past activity contributes to present-day DM).
 
@@ -6393,7 +6380,7 @@ For a Milky Way-like galaxy with $M_b \sim 6 \times 10^{10} M_\odot$ and $\dot{n
 - Integrated $\dot{n} \cdot T \sim 10^{-12} \times 10^{10}$ yr = 10⁻² events/($M_\odot$)
 - g₊ = $k \cdot 10^{-2} \cdot E_{event} \cdot \tau_{2D}/L_{2D}$
 
-For the empirical $g_+$ ∼ 1.2 × 10⁻¹⁰ m/s², we need $k \cdot E_{event} \cdot \tau_{2D}/L_{2D} \sim 10^{-8}$ in natural units. This is a *calibration* — SIDC does not derive k from first principles, but the *structure* of the formula is correct.
+For the empirical $g_+$ ∼ $1.2 \times 10^{-10}\,\text{m}$/s², we need $k \cdot E_{event} \cdot \tau_{2D}/L_{2D} \sim 10^{-8}$ in natural units. This is a *calibration* — SIDC does not derive k from first principles, but the *structure* of the formula is correct.
 
 *Critical prediction: the cluster-scale g₊ enhancement (Tian+ 2024).*
 
@@ -6769,10 +6756,10 @@ The Mass Discrepancy-Acceleration Relation (MDAR) for dSphs complements the SPAR
 
 *Data:* Same 10 MW dSphs as Test 9. Compute $g_{\rm bar}$ (from M_* and rₕ) and $g_{\rm obs}$ (from sigma).
 
-*SIDC-MOND hybrid prediction:* $g_{\rm obs}$/ $g_{\rm bar}$ = 1 + sqrt( g₊/ $g_{\rm bar}$) at low $g_{\rm bar}$. MOND scale g₊ = 1.2 × 10⁻¹⁰ m/s^2.
+*SIDC-MOND hybrid prediction:* $g_{\rm obs}/g_{\rm bar} = 1 + \sqrt{g_+/g_{\rm bar}}$ at low $g_{\rm bar}$. MOND scale $g_+ = 1.2 \times 10^{-10}\,\text{m/s}^2$.
 
 *Results:*
-- Median $g_{\rm bar}$: 1.1 × 10⁻¹² m/s^2
+- Median $g_{\rm bar}$: $1.1 \times 10^{-12}\,\text{m/s}^2$
 - Median $g_{\rm obs}$/ $g_{\rm bar}$: 30.8
 - Median MOND prediction: 11.4
 - Median log residual: 0.47 dex (factor of ~2)
@@ -7051,20 +7038,20 @@ SIDC is **scale-invariant by default** (per v2.3.1), meaning the same dimensiona
 
 This section audits 5 specific concerns about the 4D math. Full numerical analysis is in `calculations/audit_4d_math.py` and `calculations/audit_4d_math_results.txt`.
 
-**(1) Hierarchy concentration at 4D→3+1D.** Strict scale-invariance would distribute the observed Planck hierarchy ( 1 × 10⁻³⁸) across all SIDC levels (e.g., ∼ 1 × 10⁻¹⁹ per level for 2 levels, ∼ 2 × 10⁻¹³ for 3 levels). SIDC **POSTULATES** that the hierarchy is concentrated at the 4D→3+1D level, not distributed. This is an **architectural choice**, not a derivation. SIDC does not currently say *why* 4D is the special hierarchy-generating level — this is Limitation 1 (no derivation of the dimensional structure).
+**(1) Hierarchy concentration at 4D→3+1D.** Strict scale-invariance would distribute the observed Planck hierarchy ( $1 \times 10^{-38}$) across all SIDC levels (e.g., ∼ $1 \times 10^{-19}\,\text{per}$ level for 2 levels, ∼ $2 \times 10^{-13}\,\text{for}$ 3 levels). SIDC **POSTULATES** that the hierarchy is concentrated at the 4D→3+1D level, not distributed. This is an **architectural choice**, not a derivation. SIDC does not currently say *why* 4D is the special hierarchy-generating level — this is Limitation 1 (no derivation of the dimensional structure).
 
-**(2) Time direction.** SIDC's time-dilation rule T₃+1D = $T_{\rm 4D}$ / $\epsilon_{\rm 3}$+1D with $\epsilon_{\rm 3}$+1D ∼ 1 × 10⁻³⁸ gives $T_{\rm 4D}$ ∼ 1 × 10⁻²¹ s and $L_{\rm 4D}$ ∼ 1 × 10⁻¹² m (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
+**(2) Time direction.** SIDC's time-dilation rule T₃+1D = $T_{\rm 4D}$ / $\epsilon_{\rm 3}$+1D with $\epsilon_{\rm 3}$+1D ∼ $1 \times 10^{-38}\,\text{gives}$ $T_{\rm 4D}$ ∼ $1 \times 10^{-21}\,\text{s}$ and $L_{\rm 4D}$ ∼ $1 \times 10^{-12}\,\text{m}$ (1.3 picometers). This is in the **Dark Dimension scenario range** (Obied+ 2023, arXiv:2311.05318), where extra dimensions are ~0.1 nm to ~1 micron. SIDC is consistent with current observational constraints on extra dimensions (no detection at LHC, but accessible to future gravitational-wave and table-top experiments).
 
 **(3) Energy conservation.** SIDC's energy budget: 32% of $E_{\rm 4D}$ projects to 3+1D (5% direct matter + 27% cumulative 2D universe DM), and 68% remains as 4D antigravity (which we observe as 3+1D's dark energy). This is self-consistent under careful interpretation of "projection" — the 68% DE in 3+1D is the *back-projected antigravity* of the 4D event, not the 68% of $E_{\rm 4D}$ that didn't project. Total energy is conserved via Stoke's theorem in the action (§2.5.1).
 
-**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires ∼ 1 × 10⁻¹⁹ hierarchy at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
+**(4) Open upward (5D, 6D, ...).** Mathematically, the 4D event *can* be a child of a 5D process without inconsistency. Strict scale-invariance requires ∼ $1 \times 10^{-19}\,\text{hierarchy}$ at each level (if there are 2 levels) or smaller (if more levels). This is fine but means we cannot identify *which* level is "the" hierarchy-generating one. SIDC's default is to leave this open (Limitation 11).
 
 **(5) Infinite regress.** In strict scale-invariance, SIDC has no "top" or "bottom" — it extends infinitely in both directions. Physics does not require a "first cause" (e.g., eternal inflation has no first moment). Each level is self-consistent. Energy is conserved at every level (Stoke's theorem). SIDC is OK with infinite regress, but the v2.1 cone-shape alternative (terminal at 2D) avoids the question by fiat. Both are valid; the choice is architectural (Limitation 11.5).
 
 **VERDICT: 4D math is self-consistent, with limitations:**
 
 **[PASS]** Hierarchy is concentrated at 4D→3+1D (matches observation, but is a postulate)
-**[PASS]** Time direction works ( $T_{\rm 4D}$ ∼ 1 × 10⁻²¹ s, $L_{\rm 4D}$ ∼ 1 × 10⁻¹² m, Dark Dimension scale)
+**[PASS]** Time direction works ( $T_{\rm 4D}$ ∼ $1 \times 10^{-21}\,\text{s}$, $L_{\rm 4D}$ ∼ $1 \times 10^{-12}\,\text{m}$, Dark Dimension scale)
 **[PASS]** Energy conservation is consistent
 **[PASS]** Open upward is mathematically OK
 **[PASS]** Infinite regress is physically acceptable
@@ -7091,20 +7078,20 @@ This V3 follow-up adds two improvements:
 
 **1. Stricter pure-Seyfert cut.** The Tier 1 #1 test used logSFRHa > 0 + sigma > 80 (broad WHAN AGN). V3 uses logSFRHa > 0.5 + sigma > 100 (stricter pure Seyfert, lower contamination from LINERs). Result: 5/5 cells with N ≥ 5 have ratio > 1.0; **median ratio = 1.106 (+10.6%, in SIDC's predicted +5-15% range)**.
 
-**2. Partial correlation analysis (Simpson's paradox).** This is the strongest finding. The naive correlation between AGN status and M/L is **NEGATIVE** (r = -0.067, p = 5 × 10⁻³) — opposite of SIDC's prediction! Why? Because AGN are preferentially low-mass late-type galaxies, which have intrinsically lower $M_{dyn}$/ M_*. The M_{b} is the dominant mediator.
+**2. Partial correlation analysis (Simpson's paradox).** This is the strongest finding. The naive correlation between AGN status and M/L is **NEGATIVE** (r = -0.067, p = $5 \times 10^{-3}$) — opposite of SIDC's prediction! Why? Because AGN are preferentially low-mass late-type galaxies, which have intrinsically lower $M_{dyn}$/ M_*. The M_{b} is the dominant mediator.
 
-**When we control for M_{b} (and other variables), the correlation INVERTS to POSITIVE (r = +0.367, p = 4 × 10⁻⁵⁷)** — exactly the direction SIDC predicts. This is a **Simpson's paradox**: the marginal correlation is opposite to the partial correlation.
+**When we control for M_{b} (and other variables), the correlation INVERTS to POSITIVE (r = +0.367, p = $4 \times 10^{-57}$)** — exactly the direction SIDC predicts. This is a **Simpson's paradox**: the marginal correlation is opposite to the partial correlation.
 
 | Control variables | Partial r (AGN vs M/L) | p-value |
 |---|---|---|
-| None (uncontrolled) | **-0.067** | 5 × 10⁻³ |
-| \| M_{b} | **+0.367** | 4 × 10⁻⁵⁷ |
-| \| sigma | +0.348 | 5 × 10⁻⁵¹ |
-| \| M_{b}, sigma, logSFR | +0.325 | 2 × 10⁻⁴⁴ |
+| None (uncontrolled) | **-0.067** | $5 \times 10^{-3}$|
+| \| M_{b} | **+0.367** | $4 \times 10^{-57}$|
+| \| sigma | +0.348 | $5 \times 10^{-51}$|
+| \| M_{b}, sigma, logSFR | +0.325 | $2 \times 10^{-44}$|
 
 **This is a MUCH stronger result than the V2 (Tier 1 #1) test alone:**
 - V2 (per-cell morphology matching): Wilcoxon p = 0.047 (marginally significant)
-- V3 (partial correlation): p = 4 × 10⁻⁵⁷ (very strong, many orders of magnitude)
+- V3 (partial correlation): p = $4 \times 10^{-57}$(very strong, many orders of magnitude)
 
 **Interpretation:** SIDC's prediction — AGN hosts have +5-15% more DM than matched non-AGN hosts — is **strongly supported** by the partial correlation analysis, but the *simple* (uncontrolled) test misses the signal because AGN are preferentially low-mass galaxies. Once you control for M_{b}, the AGN-specific DM contribution emerges clearly.
 
@@ -7163,7 +7150,7 @@ where:
 | 1 | Dimensional structure: 4D bulk + 3+1D brane + 2D universes | **[PASS]** SATISFIED by construction |
 | 2 | Projection efficiency: 32% projected, 68% antigravity | ? OPEN: requires specific geometry |
 | 3 | Inner split: 5% direct, 27% cumulative 2D | ? OPEN: requires 2D lifetime analysis |
-| 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε ∼ 1 × 10⁻³⁸) |
+| 4 | Near-exact cancellation: ordinary gravity and DE both << 4D | **[PASS]** SATISFIED (RS-II gives ε ∼ $1 \times 10^{-38}$) |
 | 5 | $f_{\rm active}$ = 0.0513 ± 0.0073 | ? OPEN: requires $\tau_{\rm 2D}$/ $T_{\rm universe}$ (done in §4.35) |
 | 6 | Spatial distribution: isothermal cumulative | **[PASS]** SATISFIED (2D 1/r gravity gives isothermal) |
 | 7 | H₀ = 70 ± 3 (qualitative consistency) | ? OPEN: requires 2D CFT for specific value |
@@ -7204,7 +7191,7 @@ Per user question "can't we trial-and-error on the free parameters?", this secti
 **Q1 & Q4: Can trial-and-error give 32% projection efficiency?** YES.
 
 For f_split = 0.32 (SIDC's 32%/68% split between projected and antigravity, NOT to be confused with the back-projection efficiency f_proj used elsewhere in the paper), the bulk-brane coupling α must be at a specific order of magnitude:
-- For $E_{\rm 4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events ∼ 1 × 10¹⁰ (total SN in 13.8 Gyr), $E_{\rm event}$ ∼ 1 × 10⁴⁴ J, $\tau_{2D} \sim 0.7$ Gyr:
+- For $E_{\rm 4D} \sim 1 \times 10^{60}$ J (rough 4D event total energy), N_events ∼ $1 \times 10^{10}$(total SN in 13.8 Gyr), $E_{\rm event}$ ∼ $1 \times 10^{44}\,\text{J}$, $\tau_{2D} \sim 0.7$ Gyr:
 - α ~ 0.03-0.3 gives f_split ≈ 0.32
 
 The coupling α is NOT free — it's constrained to α ~ 0.03-0.3 by the observed 68% dark energy. This **partially closes Limitation 26** by reducing the free parameters from 5 to 3.
@@ -7232,10 +7219,10 @@ Reverting to 2D=3+1D would require:
 
 SIDC's $f_{\rm active}$ = $\tau_{\rm 2D}$ / $T_{\rm universe}$ = 0.7/13.8 = 0.051 requires $\tau_{2D} = 0.7$ Gyr (the gas consumption timescale). This is **not arbitrary** — it's a specific timescale that can be matched by:
 - $M_{2D} \sim 1 \times 10^{46}$ J (2D universe's total energy)
-- L_consumption ∼ 1 × 10²⁸ W (2D universe's energy consumption rate)
+- L_consumption ∼ $1 \times 10^{28}\,\text{W}$ (2D universe's energy consumption rate)
 - → $\tau_{2D} = M_{2D}$ / L_consumption = 0.7 Gyr **[PASS]**
 
-This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D} \sim 1 \times 10^{46}$ J and gas consumption rate ∼ 1 × 10²⁸ W would naturally have a 0.7 Gyr lifetime.
+This is FINE-TUNED but achievable. It requires the 2D universe's internal dynamics to consume energy at a specific rate. A 2D universe with $M_{2D} \sim 1 \times 10^{46}$ J and gas consumption rate ∼ $1 \times 10^{28}\,\text{W}$ would naturally have a 0.7 Gyr lifetime.
 
 **Q4 (Q4 again): Can the 5/27 inner split emerge from dynamics?** NO, the 5/27 inner split was DROPPED in v2.7.1.
 
@@ -7259,7 +7246,7 @@ A 2D CFT calculation is needed to derive the specific active boost and cumulativ
 |---|-----------|------------------------|--------|
 | 1 | $L_{\rm 2D}$ (2D matter content) | NO | Requires picking a specific 2D theory (not derivable) |
 | 2 | α (bulk-brane coupling) | YES | α ~ 0.03-0.3 for f_split = 0.32 **[PASS]** |
-| 3 | Death mechanism | YES | $M_{2D} \sim 1 \times 10^{46}$ J, L_rate ∼ 1 × 10²⁸ W for $\tau_{2D} = 0.7$ Gyr **[PASS]** |
+| 3 | Death mechanism | YES | $M_{2D} \sim 1 \times 10^{46}$ J, L_rate ∼ $1 \times 10^{28}\,\text{W}$ for $\tau_{2D} = 0.7$ Gyr **[PASS]** |
 | 4 | $T^D$ M at death (spatial) | NO | Requires picking a specific distribution (not derivable) |
 | 5 | 5/27/68 inner split | YES (resolved §4.35) | $f_{\rm active}$ = $\tau_{\rm 2D}$/ $T_{\rm universe}$ = 0.051 **[PASS]** |
 
@@ -7389,13 +7376,13 @@ See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_predi
 
 **The question:** is SIDC's $g_+$ universal across galaxy masses, or does it have a mass dependence?
 
-**Approach.** Fit (M/L, $g_+$) per galaxy on the SPARC database (Lelli+ 2016c), using the MOND interpolation function. Use quality cuts (Q ≥ 1, residual < 0.1) to get 43 high-quality fits across 4.5 decades in baryonic mass ( M_{b} ∼ 6.5 × 10⁶ to 2.5 × $10^{11} M_\odot$).
+**Approach.** Fit (M/L, $g_+$) per galaxy on the SPARC database (Lelli+ 2016c), using the MOND interpolation function. Use quality cuts (Q ≥ 1, residual < 0.1) to get 43 high-quality fits across 4.5 decades in baryonic mass ( M_{b} ∼ $6.5 \times 10^{6}\,\text{to}$ 2.5 × $10^{11} M_\odot$).
 
 **Results.**
 
 | Quantity | Value | Reference |
 |----------|-------|-----------|
-| Median per-galaxy $g_+$ | 9.74 × 10⁻¹¹ m/s² | Lelli+ 2017: 1.20 × 10⁻¹⁰ m/s² |
+| Median per-galaxy $g_+$ | $9.74 \times 10^{-11}\,\text{m}$/s² | Lelli+ 2017: $1.20 \times 10^{-10}\,\text{m}$/s² |
 | Std (log $g_+$) | 0.57 dex | M/L noise dominates |
 | Correlation (log M_{b}, log $g_+$) | r = +0.19, p = 0.22 | NOT SIGNIFICANT |
 | Cluster enhancement (Tian+ 2024 / SPARC) | 17.5× | SIDC $V_{\rm local}$ prediction |
@@ -7404,18 +7391,18 @@ See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_predi
 
 | log M_{b} | N | median $g_+$ | std (log) |
 |---------|---|-----------|-----------|
-| 7.0–8.5 | 13 | 8.85 × 10⁻¹¹ | 0.745 |
-| 8.5–9.5 | 13 | 1.18 × 10⁻¹⁰ | 0.414 |
-| 9.5–10.5 | 5 | 2.57 × 10⁻¹⁰ | 0.432 |
-| 10.5–11.5 | 11 | 7.35 × 10⁻¹¹ | 0.269 |
+| 7.0–8.5 | 13 | $8.85 \times 10^{-11}$| 0.745 |
+| 8.5–9.5 | 13 | $1.18 \times 10^{-10}$| 0.414 |
+| 9.5–10.5 | 5 | $2.57 \times 10^{-10}$| 0.432 |
+| 10.5–11.5 | 11 | $7.35 \times 10^{-11}$| 0.269 |
 
-The mass dependence is *not* statistically significant (p = 0.22). The $g_+$ distribution is consistent with a single value (~ 1.0–1.2 × 10⁻¹⁰ m/s²) plus M/L noise, across 4.5 decades in M_{b}.
+The mass dependence is *not* statistically significant (p = 0.22). The $g_+$ distribution is consistent with a single value (~ 1.0–$1.2 \times 10^{-10}\,\text{m}$/s²) plus M/L noise, across 4.5 decades in M_{b}.
 
 **Key findings:**
 
 1. ** $g_+$ is approximately UNIVERSAL across galaxy masses.** The correlation with M_{b} is r = +0.19, p = 0.22 (not significant). This supports the SIDC-MOND hybrid picture (Limitation 27), in which $g_+$ comes from cumulative 2D universe gravity and is independent of M_{b} at galaxy scale.
 
-2. **Cluster enhancement is ~17.5×.** Tian+ 2024 reports $g_+$ ~ 1.7 × 10⁻⁹ m/s² at cluster scale (BCG kinematics), which is 17.5× larger than the SPARC median (9.74 × 10⁻¹¹ m/s²). SIDC's $V_{\rm local}$ formula (Limitation 28) predicts this enhancement qualitatively ( $V_{\rm local}$ at cluster scale is larger than at galaxy scale, so $g_+$ ~ 1/ $V_{\rm local}$ is smaller at cluster scale... wait, that's the wrong direction).
+2. **Cluster enhancement is ~17.5×.** Tian+ 2024 reports $g_+$ ~ $1.7 \times 10^{-9}\,\text{m}$/s² at cluster scale (BCG kinematics), which is 17.5× larger than the SPARC median ($9.74 \times 10^{-11}\,\text{m}$/s²). SIDC's $V_{\rm local}$ formula (Limitation 28) predicts this enhancement qualitatively ( $V_{\rm local}$ at cluster scale is larger than at galaxy scale, so $g_+$ ~ 1/ $V_{\rm local}$ is smaller at cluster scale... wait, that's the wrong direction).
 
 3. **Wait — let me re-check the $V_{\rm local}$ prediction.** SIDC's $V_{\rm local}$ formula says $g_+$ ∝ 1/ $V_{\rm local}$. At cluster scale, $V_{\rm local}$ is LARGER (more baryons to integrate over), so $g_+$ should be SMALLER at cluster scale, not larger. But the data shows the OPPOSITE: $g_+$ is LARGER at cluster scale. This is a real tension with SIDC's $V_{\rm local}$ prediction.
 
@@ -7689,7 +7676,7 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 **Part 2: Gaussian Instanton.** The Gaussian instanton $g(\tau) = (1/\tau_{2D} \sqrt{\pi}) \exp(-\tau^2/\tau_{2D}^2)$ (v2.4 Task 3) implements the smooth decay profile for the 2D universe's scale factor. The normalized window localizes the fossil payload with $\int g d\tau = 1$ (preserves total energy). The fossil amplitude combines this with the 2D CFT trace anomaly $\sigma = (c/24\pi) R^{(2)}$ (v2.4 Task 2, with c = 1 default).
 
-**Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_b$ profile)` builds the SIDC-MOND hybrid potential: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$, with $g_+$ = 1.2 × 10⁻¹⁰ m/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\rm total}(r)}$ and a BTFR-predicted $V_{\rm flat} = (G M_b g_+)^{1/4}$.
+**Part 3: Smooth Potential Field.** `smooth_potential_field(r, $M_b$ profile)` builds the SIDC-MOND hybrid potential: $g_{\rm obs} = g_{\rm bar} / (1 - \exp(-\sqrt{g_{\rm bar}/g_+}))$, with $g_+$ = $1.2 \times 10^{-10}\,\text{m}$/s² universal at galaxy scale (McGaugh+ 2016). The DM contribution from the historical energy ledger is added explicitly, giving a velocity dispersion profile $\sigma(r) = \sqrt{r \cdot g_{\rm total}(r)}$ and a BTFR-predicted $V_{\rm flat} = (G M_b g_+)^{1/4}$.
 
 **Part 4: Testing Harness (independent dwarf-galaxy cases).** The emulator runs two INDEPENDENT dwarf-galaxy cases (AGC 114905 and KKR 25) and verifies that SIDC's SFH-DM correlation is qualitatively consistent with observations for each.
 
@@ -7697,7 +7684,7 @@ A Python-based phenomenological emulator has been built to verify SIDC's phase-t
 
 Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type stars alive, no SN progenitors in the recent past). The emulator's SFH is:
 - $SFR(t) = 0.5 M_\odot/yr$ for t ∈ [0.5, 2.0] Gyr (lookback)
-- $M_b$ (current) = $7.3 \times 10^{8} M_\odot$ (REVISED v2.7.33+: was 2 × 10⁸ — SIDC's M_{b} was wrong)
+- $M_b$ (current) = $7.3 \times 10^{8} M_\odot$ (REVISED v2.7.33+: was $2 \times 10^{8}$— SIDC's M_{b} was wrong)
 - $M_{\rm total\ formed} = 7.3 \times 10^{8} M_\odot$ (1.5 Gyr of SF)
 - $N_{CCSN, total} = 1.1 \times 10^{6}$
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
@@ -7714,8 +7701,8 @@ Per Mancera Piña+ 2022, AGC 114905 has stellar ages 0.5–2 Gyr (only A-type st
 Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past events created 2D universes whose energy was returned to 3+1D as DM via the $S_{destruction}$ cumulative-return pathway. The emulator's SFH is:
 - $\mathrm{SFR}(t) = 4 \times 10^{-4} M_\odot/\mathrm{yr}$ for t ∈ [1.0, 4.0] Gyr (lookback) (REVISED v2.7.33+: was 1.0 $M_\odot$/yr, off by 2500×)
 - $M_b$ (current) = $3.0 \times 10^{6} M_\odot$ (REVISED v2.7.33+: was 10⁶, Makarov 2012)
-- $M_{\rm total\ formed} = 1.2 \times 10^{6} M_\odot$ (REVISED v2.7.33+: was 3.0 × 10⁹, off by 2500×)
-- $N_{\rm CCSN, total} = 1.8 \times 10^{3}$ (REVISED v2.7.33+: was 4.5 × 10⁶, off by 2500×)
+- $M_{\rm total\ formed} = 1.2 \times 10^{6} M_\odot$ (REVISED v2.7.33+: was $3.0 \times 10^{9}$, off by 2500×)
+- $N_{\rm CCSN, total} = 1.8 \times 10^{3}$ (REVISED v2.7.33+: was $4.5 \times 10^{6}$, off by 2500×)
 - Recent event rate (last 50 Myr): 0 (no current CCSN progenitors)
 
 **SIDC prediction:** $M_{dyn}/M_{b} \sim 1\text{--}4$ (REVISED v2.7.33+: was 299.19, see legacy_paper.md legacy_paper.md §3.27 for the correction).
@@ -7792,12 +7779,12 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Quantity | Value | Units | Source |
 |----------|-------|-------|--------|
-| $M_b$ (current baryon mass) | 2.0 × 10⁸ | $M_\odot$ | Mancera Piña+ 2024 |
+| $M_b$ (current baryon mass) | $2.0 \times 10^{8}$| $M_\odot$ | Mancera Piña+ 2024 |
 | $SFR_{peak}$ | 0.5 | $M_\odot/yr$ | Same |
 | SFH window | [0.5, 2.0] | Gyr (lookback) | "A-type stars only" |
-| $M_{total formed}$ | 7.3 × 10⁸ | $M_\odot$ | ∫ SFR dt = 0.5 × 1.5 Gyr |
-| $E_{total injected}$ | 1.1 × 10⁵¹ | J | $N_{CCSN} \times E_{CCSN}$ |
-| $N_{CCSN, total}$ | 1.1 × 10⁶ | events | 15% IMF + $E_{\rm CCSN}$ |
+| $M_{total formed}$ | $7.3 \times 10^{8}$| $M_\odot$ | ∫ SFR dt = 0.5 × 1.5 Gyr |
+| $E_{total injected}$ | $1.1 \times 10^{51}$| J | $N_{CCSN} \times E_{CCSN}$ |
+| $N_{CCSN, total}$ | $1.1 \times 10^{6}$| events | 15% IMF + $E_{\rm CCSN}$ |
 | Recent event rate (50 Myr) | 0 | events/Myr | "no current SN progenitors" |
 | **SIDC $M_{dyn}/M_b$** | **1.36** | dimensionless | emulator output |
 | **Observed $M_{dyn}/M_b$** | ~1-2 | dimensionless | Mancera Piña+ 2024 |
@@ -7808,12 +7795,12 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 
 | Quantity | Value (old) | Value (revised) | Units | Source |
 |----------|-------------|-----------------|-------|--------|
-| $M_b$ (current baryon mass) | 1.0 × 10⁶ | 3.0 × 10⁶ | $M_\odot$ | Makarov+ 2012 |
-| $SFR_{peak}$ | 1.0 | 4 × 10⁻⁴ | $M_\odot/yr$ | Same (revised) |
+| $M_b$ (current baryon mass) | $1.0 \times 10^{6}$| $3.0 \times 10^{6}$| $M_\odot$ | Makarov+ 2012 |
+| $SFR_{peak}$ | 1.0 | $4 \times 10^{-4}$| $M_\odot/yr$ | Same (revised) |
 | SFH window | [1.0, 4.0] | [1.0, 4.0] | Gyr (lookback) | "intermediate-age SF" |
-| $M_{total formed}$ | 3.0 × 10⁹ | 1.2 × 10⁶ | $M_\odot$ | ∫ SFR dt (revised) |
-| $E_{total injected}$ | 4.5 × 10⁵¹ | 1.8 × 10⁴⁹ | J | 0.15% IMF + $E_{\rm CCSN}$ |
-| $N_{CCSN, total}$ | 4.5 × 10⁶ | 1.8 × 10³ | events | (revised) |
+| $M_{total formed}$ | $3.0 \times 10^{9}$| $1.2 \times 10^{6}$| $M_\odot$ | ∫ SFR dt (revised) |
+| $E_{total injected}$ | $4.5 \times 10^{51}$| $1.8 \times 10^{49}$| J | 0.15% IMF + $E_{\rm CCSN}$ |
+| $N_{CCSN, total}$ | $4.5 \times 10^{6}$| $1.8 \times 10^{3}$| events | (revised) |
 | Recent event rate (50 Myr) | 0 | 0 | events/Myr | "no current SN progenitors" |
 | **SIDC $M_{dyn}/M_b$** | **299.19** | **1-4** | dimensionless | emulator output (revised) |
 | **Observed $M_{dyn}/M_b$** | ~100-1000 | ~1-4 | dimensionless | dSph typical (revised) |
@@ -7826,7 +7813,7 @@ Per the Makarov+ 2012 paper, KKR 25 had intermediate-age SF 1–4 Gyr ago. Past 
 |--------|-----------|---------------|-------------------|-------------|------------------|
 | $M_{\rm total\ formed} / M_{b}$ (energy ledger) | 3.65 | 3000 | 0.4 | **820×** | **0.11×** (reverses) |
 | Predicted $M_{dyn}/M_b$ (SIDC emulator) | 1.36 | 299.19 | 1-4 | **219×** | **0.7-3×** |
-| Energy injection $E_{total}$ (J) | 1.1 × 10⁵¹ | 4.5 × 10⁵¹ | 1.8 × 10⁴⁹ | 4.1× | 0.016× |
+| Energy injection $E_{total}$ (J) | $1.1 \times 10^{51}$| $4.5 \times 10^{51}$| $1.8 \times 10^{49}$| 4.1× | 0.016× |
 
 **Honest finding (v2.7.33+):** SIDC's 820× → 219× bifurcation was based on a 1000× error in KKR 25's M_{b}. The corrected bifurcation is much smaller (0.7-3×) and may even REVERSE for some metrics (M_total_formed/ M_{b} = 0.11×). SIDC's qualitative interpretation (intermediate SF → DM) is preserved; the quantitative prediction is much weaker. See legacy_paper.md legacy_paper.md §3.27 for the full self-correction.
 
@@ -7965,13 +7952,13 @@ The paper §4.42 claims " $g_+$ is approximately universal across 4.5 decades in
 
 **4. Cluster $g_+$ discrepancy (minor).**
 
-The MCMC fit on Tian+ 2024 cluster data gives $g_+$ = 1.05 × 10⁻⁹ m/s² (with 0.20 dex scatter). Tian+ 2024 reports 1.7 × 10⁻⁹ m/s². The 0.62× discrepancy is documented in the bcg_mcmc_results.json. The paper's cluster/galaxy ratio of 17.5× is computed from SIDC's median $g_+$ ( 9.74 × 10⁻¹¹) divided into Tian+ 2024's 1.7 × 10⁻⁹, but SIDC's *own* MCMC best fit gives 1.05 × 10⁻⁹, which is a 14.2× ratio. The paper is somewhat inconsistent in which value it uses.
+The MCMC fit on Tian+ 2024 cluster data gives $g_+$ = $1.05 \times 10^{-9}\,\text{m}$/s² (with 0.20 dex scatter). Tian+ 2024 reports $1.7 \times 10^{-9}\,\text{m}$/s². The 0.62× discrepancy is documented in the bcg_mcmc_results.json. The paper's cluster/galaxy ratio of 17.5× is computed from SIDC's median $g_+$ ( $9.74 \times 10^{-11}$) divided into Tian+ 2024's $1.7 \times 10^{-9}$, but SIDC's *own* MCMC best fit gives $1.05 \times 10^{-9}$, which is a 14.2× ratio. The paper is somewhat inconsistent in which value it uses.
 
 **Status:** not a bug; honest reporting of MCMC, but the cluster/galaxy ratio could be more carefully derived from SIDC's own fit.
 
 **5. AGN partial correlation (verified).**
 
-The AGN host DM partial correlation (r = +0.367, p = 4 × 10⁻⁵⁷) uses a custom implementation of partial Spearman correlation (rank-transform + linear regression of ranks + Spearman on residuals). This is a *standard* methodology for partial rank correlation, and the result is statistically real. The p-value of 4 × 10⁻⁵⁷ reflects the large N (1190 AGN + 566 control = 1756 galaxies) and the real correlation after controlling for M_{b}.
+The AGN host DM partial correlation (r = +0.367, p = $4 \times 10^{-57}$) uses a custom implementation of partial Spearman correlation (rank-transform + linear regression of ranks + Spearman on residuals). This is a *standard* methodology for partial rank correlation, and the result is statistically real. The p-value of $4 \times 10^{-57}\,\text{reflects}$ the large N (1190 AGN + 566 control = 1756 galaxies) and the real correlation after controlling for M_{b}.
 
 **Status:** verified. The methodology is standard, the result is statistically robust. The "p < 10⁻⁵⁰" claim in the paper is supported.
 
@@ -7989,7 +7976,7 @@ The cosmic shear test (§4.43) computes S₈ = 0.775 (SIDC) vs 0.759 (DES/KiDS) 
 
 **8. SPARC RAR fit (verified).**
 
-The SPARC RAR fit uses 175 galaxies, with 43 passing the Q≥1 and residual<0.1 quality cut. The fitted $g_+$ = 9.74 × 10⁻¹¹ m/s² is within 20% of the empirical McGaugh+ 2016 value ( 1.20 × 10⁻¹⁰). The data is correctly parsed from the SPARC `_rotmod.dat` files in `supporting/data/SPARC/`. The median $g_+$ across 4.5 decades in M_{b} is consistent with SIDC's universal $g_+$ prediction.
+The SPARC RAR fit uses 175 galaxies, with 43 passing the Q≥1 and residual<0.1 quality cut. The fitted $g_+$ = $9.74 \times 10^{-11}\,\text{m}$/s² is within 20% of the empirical McGaugh+ 2016 value ( $1.20 \times 10^{-10}$). The data is correctly parsed from the SPARC `_rotmod.dat` files in `supporting/data/SPARC/`. The median $g_+$ across 4.5 decades in M_{b} is consistent with SIDC's universal $g_+$ prediction.
 
 **Status:** verified. The 43-galaxy cut is a reasonable quality filter; the result is statistically robust.
 
@@ -8013,7 +8000,7 @@ The Sun's intrinsic DM is computed as ∼ 10⁻¹⁷ of the local DM, which is c
 | BTFR slope (3.53 vs "V⁴") | LOW | Within range, not a bug |
 | Per-galaxy $g_+$ scatter (0.57 dex) | LOW | Documented as "approximately universal" |
 | Cluster $g_+$ discrepancy (0.62×) | LOW | Documented in MCMC results |
-| AGN partial correlation (p= 4 × 10⁻⁵⁷) | NONE | Verified, real result |
+| AGN partial correlation (p= $4 \times 10^{-57}$) | NONE | Verified, real result |
 | CMB test ( Δχ²=+650) | NONE | Verified, robust |
 | Cosmic shear S₈ | NONE | Honest qualitative |
 | SPARC RAR fit (43 galaxies) | NONE | Verified, robust |
@@ -8058,7 +8045,7 @@ SIDC's principle (§2.3, §2.5.3) says: *every energetic event creates a 2D univ
 The v5 calculation (`time_scale_invariance_test_v5.py`) fixes ALL bugs and uses the correct temperature. The result:
 
 - R(z) = R_stellar(z) + R_Thomson_proper(z) + R_recomb_proper(z) (with $z_{\rm max}$ = 2000)
-- Thomson rate is dominant at z > 4 (R_Thomson(6) = 3.7 × 10⁴⁴, R_stellar(6) = 3.1 × 10⁴²)
+- Thomson rate is dominant at z > 4 (R_Thomson(6) = $3.7 \times 10^{44}$, R_stellar(6) = $3.1 \times 10^{42}$)
 - r(z=6) = 342 ≈ (1+6)^3 = 343 (the expansion factor)
 - r(z=10) = 1327 ≈ (1+10)^3 = 1331
 - r(z=2) = 27 ≈ (1+2)^3 = 27
@@ -8101,7 +8088,7 @@ This is a meaningful distinction. The previous v2/v3 analysis was based on a bug
 
 **The v4 bug (missing (1+z)^3 factor).**
 
-The v4 function `rho_DM_integral_correct` returned the *integral* `∫ R/(E*(1+z)^4) dz` without multiplying by (1+z)^3. The ratio r(z) = integral(z)/integral(0) was reported as "r(z)", but the actual r(z) = (1+z)^3 * integral(z)/integral(0). The corrected r(z=6) = 7^3 * 8.5 × 10⁻⁵ = 0.029 (NOT 1 × 10⁻⁴ as v4 reported).
+The v4 function `rho_DM_integral_correct` returned the *integral* `∫ R/(E*(1+z)^4) dz` without multiplying by (1+z)^3. The ratio r(z) = integral(z)/integral(0) was reported as "r(z)", but the actual r(z) = (1+z)^3 * integral(z)/integral(0). The corrected r(z=6) = 7^3 * $8.5 \times 10^{-5}$= 0.029 (NOT $1 \times 10^{-4}\,\text{as}$ v4 reported).
 
 This is a NOTATIONAL bug: the v4 function returns integral ratio, not r(z). With the (1+z)^3 factor included, r(z=6) = 0.029 (35× underprediction of DM at z=6).
 
@@ -8389,7 +8376,7 @@ We acknowledge that the model is currently difficult to falsify in a clean way. 
 
 ## 7. Limitations and open questions
 
-This is a thought experiment, not a theory. We identify **144 honest limitations** (was 143 v3.5.9+, +L308ae: $N_{\rm sub}$ formula residual acknowledged within framework uncertainties, v3.5.9+ LIMITATIONS: 144)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = 3.93 × 10²³ GeV, brane-world, was 4 × 10²³ in v3.5.8), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr ( $M^{\alpha}$ prediction); (2) frame of reference: $M^{\alpha}$ law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration 1.4×10³⁴ yr, proper $T_{\rm 4D}$ ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event $M^{1.29}$ empirical fit ( α = 1.258 fails 13/14 events).
+This is a thought experiment, not a theory. We identify **144 honest limitations** (was 143 v3.5.9+, +L308ae: $N_{\rm sub}$ formula residual acknowledged within framework uncertainties, v3.5.9+ LIMITATIONS: 144)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (was 116 v3.5.7)** (v3.5.7+, was 116 v3.5.7) (v3.1.2-final), with notes on which have been *partially* or *fully* closed. The full status: 79 OPEN, 2 RESOLVED (L142b, L149 via empirical rejection of α = 1.258). v3.1.2 added L142-L150 covering: 4π geometric factor, multi-universe picture, sub-universe calibration, DE-DM unification, asymmetric 4π, **AGE vs LIFETIME distinction (v3.1.2-final)**, **FRAME OF REFERENCE clarification (v3.1.2-final)**, **SCENARIO X adoption** ( $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$, brane-world, was $4 \times 10^{23}\,\text{in}$ v3.5.8), and **4D-bulk mechanism UNKNOWN** (sub-universe = energetic 4D-bulk event, not specifically '4D-galaxy collisions'). v3.1.2-final KEY CORRECTIONS: (1) 13.8 Gyr is universe AGE (observed), distinct from LIFETIME ~10³⁰ yr ( $M^{\alpha}$ prediction); (2) frame of reference: $M^{\alpha}$ law gives apparent durations in lower-D frame, not proper time in higher-D frame (4D event apparent duration $1.4 \times 10^{34}\,\text{yr}$, proper $T_{\rm 4D}$ ~ 10⁻²⁰ s with γ ~ 10⁶²); (3) sub-universe = energetic 4D-bulk event (NOT specifically '4D-galaxy collisions' — 4D-bulk mechanism is UNKNOWN); (4) $M_{\rm Pl,4D}$ ≠ $M_{\rm Pl,3D}$ (3D≠4D, brane-world consistency). L142b and L149 RESOLVED via 14-event $M^{1.29}$ empirical fit ( α = 1.258 fails 13/14 events).
 
 ### 7.0 Master Limitations Table (v2.4-v2.7.30)
 
@@ -8448,7 +8435,7 @@ The full table follows:
 | 2 | Inversion mechanism | OPEN | §2.4 | A derivation of the brane coupling |
 | 3 | Original event parameters | OPEN | §2.2 | A specific 4D Lagrangian |
 | 4 | Dimensional time-dilation rule | OPEN | §2.3 | A map of 4D structure to 3+1D time |
-| 5 | Proportionality constants for DM | **PARTIAL** | §2.6 | A specific geometry (G = 9.7 × 10⁷ derived) |
+| 5 | Proportionality constants for DM | **PARTIAL** | §2.6 | A specific geometry (G = $9.7 \times 10^{7}\,\text{derived}$) |
 | 6 | CMB power spectrum derivation | **PARTIAL** (v2.3.1) | §4.41 | A modified early-universe mechanism (CMB tested via CAMB, fails as expected) |
 | 7 | Direct-detection signals | OPEN | §4.7 | A specific bulk field content |
 | 8 | DM-activity proportionality constant | OPEN | §2.6 | A specific geometry and event spectrum |
@@ -8497,11 +8484,11 @@ The full table follows:
 | 95 (NEW v3.0.21) | alpha = 1.289 is structurally 1 + 1/sqrt(N) | PARTIAL (v3.0.21) | §3.62.2, v16, v17 | Comparison with 11 known 2D theories + large-N extrapolation: SIDC alpha = 1.289 decomposes as 1 (SR time dilation, linear E/M) + 1/sqrt(12) ( $N=12$ finite-size correction). This is consistent with the 2D theory landscape and SIDC structural decomposition §3.62. Pure SYK q=4 $N=12$ gives $\alpha_{\rm eff}$ ~ 1.0-1.15, NOT 1.289 directly. The 0.289 extra requires cross-sector coupling. |
 | 96 (NEW v3.0.21) | $f_{\rm back}$ is NOT exp(-S) entropy | OPEN (v3.0.21) | §3.62.2, v18 | Replica trick + Cardy formula attempted: for SN, $S_{\rm 2D}$ ~ 10¹⁸, exp(-S) ~ 0 — WAY too small. $f_{\rm back}$ is a STRUCTURAL RATIO ( $E_{\rm 4D}$/E)^{1/ 2α}, not an entropy factor. L48 status unchanged. |
 | 97 (NEW v3.0.21) | alpha = 1.289 is NOT directly visible from Z | OPEN (v3.0.21) | §3.62.2, v19 | Direct brute-force extraction from Z(beta) for SYK q=4 $N=12$ gives alpha ~ 0.5-1.0 (pure SYK) or 3-37 (combined Z). The $M^{1.29}$ is NOT a direct consequence of the 2D partition function. It is a CROSS-SECTOR EMERGENT phenomenon. L43 cannot be closed by more brute force — requires structural input (cross-couplings, observable identification). |
-| 98 (NEW v3.0.21) | Closed loop expression for $f_{\rm back}$ (3D event → 2D universe) | PARTIAL (v3.0.21) | §3.60.1, v10 | Closed loop expression: $f_{\rm back}$ = ($t_{\rm Pl,3}$/$\tau_{\rm 4D}$) × $(\tau_{\rm SN,obs})/(\tau_{\rm universe})$ × $(E_{\rm 4D}/E_{\rm SN})^{1/(2\alpha)}$. Gives $f_{\rm back}$ ~ 3.24 × 10⁻⁸⁴ ~ 10⁻⁸⁵ (matches §3.60 to 0.4 orders). Forward direction γ = $(E/E_{\rm Pl})^{\alpha}$ (scaling law) and backward direction $f_{\rm back}$ ~ $(E_{\rm 4D}/E)^{1/(2\alpha)}$ use the SAME α = 1.289. The closed loop closes for $f_{\rm back}$ via the composite exponent 1/(2α) = c/α where c = 1/2 = N/24 (Ising CFT). Three independent derivations of 1/2 (Schwarzian, DOZZ b² = 1/2, N/24) confirm the exponent. |
+| 98 (NEW v3.0.21) | Closed loop expression for $f_{\rm back}$ (3D event → 2D universe) | PARTIAL (v3.0.21) | §3.60.1, v10 | Closed loop expression: $f_{\rm back}$ = ($t_{\rm Pl,3}$/$\tau_{\rm 4D}$) × $(\tau_{\rm SN,obs})/(\tau_{\rm universe})$ × $(E_{\rm 4D}/E_{\rm SN})^{1/(2\alpha)}$. Gives $f_{\rm back}$ ~ $3.24 \times 10^{-84}$~ 10⁻⁸⁵ (matches §3.60 to 0.4 orders). Forward direction γ = $(E/E_{\rm Pl})^{\alpha}$ (scaling law) and backward direction $f_{\rm back}$ ~ $(E_{\rm 4D}/E)^{1/(2\alpha)}$ use the SAME α = 1.289. The closed loop closes for $f_{\rm back}$ via the composite exponent 1/(2α) = c/α where c = 1/2 = N/24 (Ising CFT). Three independent derivations of 1/2 (Schwarzian, DOZZ b² = 1/2, N/24) confirm the exponent. |
 | 99 (NEW v3.0.21) | SIDC upward extendability (scaling law + closed loop at every level) | PARTIAL (v3.0.21) | §3.60.2 | Scaling law + closed loop work at level 3 (3D→2D, calibrated at SN 33s, 8/8 events within 1.6×). Plausible at level 4 (4D→3D, matches within 12% using α = 1.289). Cannot verify at level 5+ (no data). α = 1.289 likely universal because N = 12 is fixed (12 SM Weyl fermions), but brane tension may differ at each level. Closed loop at level 4+ requires $E_{\rm 5D}$ which is unknown. Upward extendability is a CLAIM supported by $N=12$ universality, not directly verified. |
-| 100 (NEW v3.0.21, REVISED v3.2, USER-CRITIQUED SIX TIMES) | Fₚ(z) framework OVERSTATED; 'primordial = 99.93%' WRONG; cumulative gives 3.4× $\Omega_{\rm DM}$; $f_{\rm back}$ cannot balance DM; DM→ ν too short; framework's $f_{\rm back}$ formula is per-event, not for total mass | OPEN (v3.2) | v21, calculations/v31_audit_v312final.py, v31_scenario_X.py, v31_all_events_cumulative.py, v31_fback_balance.py, v31_dm_decay_neutrino.py, v31_fback_calibrate_both.py | Fₚ(z) separates primordial (99.93%) vs cumulative (0.07%) DM. **FUNDAMENTAL REVISIONS (v3.2, user-caught SIX TIMES)**: (a) **'Primordial = 99.93%' is WRONG** (1st catch). (b) **Cumulative is NOT just SNe** (2nd catch): 3.4× $\Omega_{\rm DM}$, AGN dominates. (c) **DM/baryon ratio over cosmic time** (3rd catch). (d) ** $f_{\rm back}$ cannot balance DM** (4th catch): required 3.0× 10⁻¹⁵ /s, but framework has 1.22× 10⁻⁸⁵ (10⁷⁰× off). (e) **DM→ ν decay is 10²¹× too short vs observations** (5th catch). (f) ** $f_{\rm back}$ formula is per-event, not for total mass** (6th catch): user asked 'what with we calibrate $f_{\rm back}$ to both de and dm decay?' The framework's $f_{\rm back}$ = ( $M_{\rm Pl}$/E) $^{\alpha}$ formula is for per-event back-flow, not for the 3+1D's total mass. Applying it to the 3+1D's total mass gives a required E of 2× 10⁻²⁷ M_⊙, which is meaningless. So calibrating $f_{\rm back}$ to both DE matching AND DM decay requires NEW PHYSICS: a separate f_back_3+1D (or 'two-tier $f_{\rm back}$'). This would be a 5th free parameter in the framework. **NET RESULT (v3.2)**: The framework's DM accounting has SIX problems now. The '5/5 dwarf cases' test cumulative, but the framework doesn't explain DM/baryon ratio constancy, doesn't have a 3+1D continuous back-flow, and the per-event $f_{\rm back}$ formula doesn't apply to total mass. Possible resolutions: (1) Add f_back_3+1D as new parameter (two-tier $f_{\rm back}$), (2) DM-baryon co-creation at high z, (3) DM doesn't decay (ratio set at creation), (4) different DM source. STRENGTH: per-event physics robust. WEAKNESS: framework can't explain constant DM/baryon ratio; $f_{\rm back}$ per-event formula doesn't apply to total mass; multiple failed attempts to fix. The framework's DM picture is INCOMPLETE. |
+| 100 (NEW v3.0.21, REVISED v3.2, USER-CRITIQUED SIX TIMES) | Fₚ(z) framework OVERSTATED; 'primordial = 99.93%' WRONG; cumulative gives 3.4× $\Omega_{\rm DM}$; $f_{\rm back}$ cannot balance DM; DM→ ν too short; framework's $f_{\rm back}$ formula is per-event, not for total mass | OPEN (v3.2) | v21, calculations/v31_audit_v312final.py, v31_scenario_X.py, v31_all_events_cumulative.py, v31_fback_balance.py, v31_dm_decay_neutrino.py, v31_fback_calibrate_both.py | Fₚ(z) separates primordial (99.93%) vs cumulative (0.07%) DM. **FUNDAMENTAL REVISIONS (v3.2, user-caught SIX TIMES)**: (a) **'Primordial = 99.93%' is WRONG** (1st catch). (b) **Cumulative is NOT just SNe** (2nd catch): 3.4× $\Omega_{\rm DM}$, AGN dominates. (c) **DM/baryon ratio over cosmic time** (3rd catch). (d) ** $f_{\rm back}$ cannot balance DM** (4th catch): required $3.0 \times 10^{-15}$/s, but framework has $1.22 \times 10^{-85}$(10⁷⁰× off). (e) **DM→ ν decay is 10²¹× too short vs observations** (5th catch). (f) ** $f_{\rm back}$ formula is per-event, not for total mass** (6th catch): user asked 'what with we calibrate $f_{\rm back}$ to both de and dm decay?' The framework's $f_{\rm back}$ = ( $M_{\rm Pl}$/E) $^{\alpha}$ formula is for per-event back-flow, not for the 3+1D's total mass. Applying it to the 3+1D's total mass gives a required E of $2 \times 10^{-27}\,\text{M}$_⊙, which is meaningless. So calibrating $f_{\rm back}$ to both DE matching AND DM decay requires NEW PHYSICS: a separate f_back_3+1D (or 'two-tier $f_{\rm back}$'). This would be a 5th free parameter in the framework. **NET RESULT (v3.2)**: The framework's DM accounting has SIX problems now. The '5/5 dwarf cases' test cumulative, but the framework doesn't explain DM/baryon ratio constancy, doesn't have a 3+1D continuous back-flow, and the per-event $f_{\rm back}$ formula doesn't apply to total mass. Possible resolutions: (1) Add f_back_3+1D as new parameter (two-tier $f_{\rm back}$), (2) DM-baryon co-creation at high z, (3) DM doesn't decay (ratio set at creation), (4) different DM source. STRENGTH: per-event physics robust. WEAKNESS: framework can't explain constant DM/baryon ratio; $f_{\rm back}$ per-event formula doesn't apply to total mass; multiple failed attempts to fix. The framework's DM picture is INCOMPLETE. |
 | 101 (NEW v3.0.21) | SIDC strengths form a network of 17+ interlinked relationships | PARTIAL (v3.0.21) | v22 | Identified 12 main SIDC strengths and 17 links. Most connected: α = 1.289 (S3), closed loop (S2, 5 links), scaling law (S1, 4 links), $f_{\rm back}$ (S5, 3 links). KEY LINKS: (1) α ↔ c (both from $N=12$), (2) α ↔ scaling law (scaling uses α), (3) α ↔ closed loop (closed loop uses α), (4) $f_{\rm back}$ ↔ 5/27/68 ( $f_{\rm back}$ bridges DE gap), (5) phase-transition ↔ scaling law (low-E limit), (6) g₊ ↔ 5/27/68 (DM/baryon ratio), (7) cluster g₊ ↔ $M_{\rm Pl,4D}$ (4D boundary), (8) closed loop ↔ phase-transition ( $f_{\rm back}$ above $E_{\rm crit}$). α = 1.289 is the BRIDGE parameter that unifies the cascade. |
-| 102 (NEW v3.0.22) | Closed loop UNITES DM, DE, and gravity | PARTIAL (v3.0.22) | §3.60.3, v23 | The closed loop uses the SAME α = 1.289 in BOTH directions (forward γ and backward $f_{\rm back}$). DE density $\rho_{\rm DE}$ = $f_{\rm back}$ × ε × $M_{\rm Pl,3}^4$ = 2.22 × 10⁻⁴⁷ GeV⁴ (within 12% of observed 2.5 × 10⁻⁴⁷). DM density $\rho_{\rm DM}$ = $f_{\rm back}$ × Σ( $M_{\rm 2D}$ × N)/V (uses same $f_{\rm back}$). Gravity weakness $\epsilon_{\rm grav}$ ~ 10⁻³⁸ from bulk-brane. All three use the SAME α, $f_{\rm back}$, and bulk-brane geometry. The 5/27/68 split emerges from these three quantities. STRENGTH: numerical match for DE (within 12%) is direct evidence that $f_{\rm back}$ × ε × $M_{\rm Pl}^4$ is the correct DE formula. WEAKNESS: the Σ( $M_{\rm 2D}$ × N)/V integration for DM is not directly computed (depends on unknown 2D universe population). |
+| 102 (NEW v3.0.22) | Closed loop UNITES DM, DE, and gravity | PARTIAL (v3.0.22) | §3.60.3, v23 | The closed loop uses the SAME α = 1.289 in BOTH directions (forward γ and backward $f_{\rm back}$). DE density $\rho_{\rm DE}$ = $f_{\rm back}$ × ε × $M_{\rm Pl,3}^4$ = $2.22 \times 10^{-47}\,\text{GeV}$⁴ (within 12% of observed $2.5 \times 10^{-47}$). DM density $\rho_{\rm DM}$ = $f_{\rm back}$ × Σ( $M_{\rm 2D}$ × N)/V (uses same $f_{\rm back}$). Gravity weakness $\epsilon_{\rm grav}$ ~ 10⁻³⁸ from bulk-brane. All three use the SAME α, $f_{\rm back}$, and bulk-brane geometry. The 5/27/68 split emerges from these three quantities. STRENGTH: numerical match for DE (within 12%) is direct evidence that $f_{\rm back}$ × ε × $M_{\rm Pl}^4$ is the correct DE formula. WEAKNESS: the Σ( $M_{\rm 2D}$ × N)/V integration for DM is not directly computed (depends on unknown 2D universe population). |
 | 103 (NEW v3.0.22) | α is the shape that links dimensions | PARTIAL (v3.0.22) | §3.62.3, v24 | α = 1 + 1/√12 has TWO pieces: (1) the "1" is universal SR, (2) the "1/√12" is the $N=12$ finite-size correction. α links dimensions in 4 ways: (1) vertical — same α at every hierarchy level; (2) horizontal — α × 1/(2α) = 1/2 in closed loop; (3) origin — α = 1 + 1/√12 links SM ( $N=12$) to cosmology; (4) geometric — α is cone slope (tan θ = 1.289, θ ≈ 52°). The Ising CFT shape c = 1/2 (round-trip) is consistent with 2D universe being a critical system. STRENGTH: multiple shape interpretations are mutually consistent. WEAKNESS: the "shape" interpretation is qualitative — no direct derivation of the cone opening angle from first principles. The 52° cone angle is suggestive but not derived. |
 | 104 (NEW v3.0.22) | Kusuki 2024 framework for 2D universe calculations | PARTIAL (v3.0.22) | §3.8.12, v25 | Kusuki 2024 (arXiv:2412.18307) provides modern ICFT methods (HHLL block, monodromy method, Hellerman bound, HKS bound, AdS_3/CFT_2) directly applicable to SIDC's 2D universe (c = 1 Liouville + c = 1/2 matter = c = 3/2, an ICFT). SIDC's c = 3/2 EXCEEDS Hellerman bound c ≤ 1 in UNITARY CFT, but SIDC is non-unitary (Liouville, SYK finite-N) — consistent. HHLL block (heavy 4D event, light 2D universe) could give SIDC's scaling law from double-trace exchange. Monodromy method could potentially DERIVE α = 1.289 from c = 3/2 ICFT constraints, closing L43. STRENGTH: 4 specific potential applications identified (HHLL, monodromy, HKS, AdS_3/CFT_2). WEAKNESS: requires a specific ICFT calculation that has not yet been done. α is still a fit, not derived. |
 | 105 (NEW v3.0.22) | Monodromy method does NOT derive α = 1.289 | NEGATIVE (v3.0.22) | §3.62.4, v26 | Attempted to apply HHLL block (heavy vertex in 2D CFT) to derive α. Setup: 4D event as heavy vertex Vₕ, 2D universe as light vertex Vₗ, monodromy method to compute ⟨ Vₕ Vₕ⟩. Found saddle z₀ = 0.4416, but assumed α = 1.289 to compute it (CIRCULAR). Honest verdict: monodromy gives 2D CFT structure ( z₀ = 0.4416 is a reasonable ICFT saddle) but does NOT derive α. L43 stays OPEN. |
@@ -8509,16 +8496,15 @@ The full table follows:
 | 107 (NEW v3.0.22, REVISED) | v29 α=1.29 was a numerical artifact (proper fit gives constant spacing) | NEGATIVE (v3.0.22) | §3.62.5, v30 | v29 brute force attempt gave $\alpha_{\rm fit}$ = 1.29 from spacing analysis. v30 verification with proper degeneracy handling (skip zero spacings, no log(0)): $\alpha_{\rm fit}$ = -0.06 ± 0.10 — NOT 1.29. The earlier fit was an ARTIFACT from log(0) and degenerate level handling. The DSSYK $E_{\rm n}$ = (2n+1)/2 spacing is correct and constant. This HONEST NEGATIVE result confirms L43 ( α is not derivable from 2D CFT spectrum alone). |
 | 108 (NEW v3.0.22) | LHC CANNOT test SIDC's 2D universe | NEGATIVE (v3.0.22) | §3.63, v33 | $M_{\rm Pl,2D}$ ~ 2.95 TeV ( $N=12$ SYK + $v_{\rm Higgs}$, see L308f) is in LHC energy range, but $f_{\rm DE}^2$ ~ $10^{-170}$ (forward cross-section suppression). LHC p-p collisions are BELOW the 2D floor in cone depth units (LHC = -11.86 α, SN = 26.93 α, 4D event = 53.8 α). The 2D universe creation cross-section at LHC is 180 orders of magnitude below detection. LHC cannot rule in or out SIDC's 2D universe. [v3.5.7+ REVISION: "holographic" → " $N=12$ SYK + $v_{\rm Higgs}$" per L308f. The 1.7 TeV alternative (v32 Option 2) was the actual holographic estimate but not adopted.] |
 | 109 (NEW v3.0.22) | α = 1.289 is a TIME DILATION SHAPE | PARTIAL (v3.0.22) | §3.62.3, v31 | α = 1 (kinematic, universal SR time dilation) + 1/√12 (geometric, $N=12$ finite-N). In log-log space, time dilation curve has slope 1.289 (vs SR slope 1). The "1" is universal (special relativity), the "1/√12" is specific to $N=12$. STRENGTH: decomposition matches all 4 shape interpretations of α (cone, spectral, Ising, Z₂). WEAKNESS: the "time dilation shape" is a descriptive label, not a derivation. |
-| 110 (NEW v3.0.22) | Constants scale between hierarchy levels (working downward) | PARTIAL (v3.0.22) | §3.63, v32 | Working downward from 3+1D ( $M_{\rm Pl,3}$ = 1.22 × 10¹⁹ GeV), SIDC's $M_{\rm Pl,2D}$ ~ 2.95 TeV comes from $N=12$ SYK + $v_{\rm Higgs}$ EW coincidence (= 246 GeV × 12 = 2952 GeV), 4 orders above $v_{\rm Higgs}$ = 246 GeV. 2D Planck time $t_{\rm Pl}$,2D ~ 2 × 10⁻²⁸ s, 2D Planck temperature $T_{\rm Pl,2D}$ ~ 3 × 10²² K. 4D event at BASE (eternal substrate), 2D Planck at APEX (transient tip). STRENGTH: $M_{\rm Pl,2D}$ ~ 2.95 TeV is consistent with α-GM (L308f/§7.4.6: gives 2.89 TeV from cascade consistency). WEAKNESS: $M_{\rm Pl,2D}$ is framework choice, not first-principles derivation. [v3.5.7+ REVISION: "holographic" label was inaccurate; v32 Option 2 gave 1.7 TeV, not 3 TeV.] |
+| 110 (NEW v3.0.22) | Constants scale between hierarchy levels (working downward) | PARTIAL (v3.0.22) | §3.63, v32 | Working downward from 3+1D ( $M_{\rm Pl,3}$ = $1.22 \times 10^{19}\,\text{GeV}$), SIDC's $M_{\rm Pl,2D}$ ~ 2.95 TeV comes from $N=12$ SYK + $v_{\rm Higgs}$ EW coincidence (= 246 GeV × 12 = 2952 GeV), 4 orders above $v_{\rm Higgs}$ = 246 GeV. 2D Planck time $t_{\rm Pl}$,2D ~ $2 \times 10^{-28}\,\text{s}$, 2D Planck temperature $T_{\rm Pl,2D}$ ~ $3 \times 10^{22}\,\text{K}$. 4D event at BASE (eternal substrate), 2D Planck at APEX (transient tip). STRENGTH: $M_{\rm Pl,2D}$ ~ 2.95 TeV is consistent with α-GM (L308f/§7.4.6: gives 2.89 TeV from cascade consistency). WEAKNESS: $M_{\rm Pl,2D}$ is framework choice, not first-principles derivation. [v3.5.7+ REVISION: "holographic" label was inaccurate; v32 Option 2 gave 1.7 TeV, not 3 TeV.] |
 | 111 (NEW v3.0.22) | Has the LHC tested SIDC's $M_{\rm Pl,2D}$ ~ 2.95 TeV? NO | NEGATIVE (v3.0.22) | §3.63, v33 | SIDC's 2D universe is invisible at LHC due to $f_{\rm DE}^2$ ~ $10^{-170}$ suppression. The 2D universe creation cross-section at LHC is 180 orders of magnitude below detection. LHC energies (14 TeV p-p) are ABOVE 3 TeV threshold but BELOW 2D floor (in α units). LHC tests are IRRELEVANT for SIDC's 2D universe. |
 | 112 (NEW v3.0.22) | Inception cone (4D event at base, 2D at apex, 4D event eternal from our frame) | PARTIAL (v3.0.22) | §3.63, v34 | The cone is FLIPPED relative to earlier framings: 4D event at BASE (eternal substrate), 3+1D universe as cone body, 2D Planck at APEX (tip). The 4D event has γ ~ 10⁶⁰ to 10¹⁰⁰ time dilation relative to our frame, making it ETERNAL from our perspective (Inception-style: time passes normally in 4D frame, looks frozen from 3+1D frame). Limbo structure: 4D (Limbo) → 3+1D (Reality) → 2D (First dream). STRENGTH: consistent with inception-style time dilation and the scaling law. WEAKNESS: the "eternal from our frame" is qualitative, not directly computed. The 4D event's specific lifetime (~10³².6 s, eternal for our cosmic time) is a CALIBRATION. |
 | 113 (NEW v3.0.22) | 2D Planck IS the tip of the cone (the 2D floor) | PARTIAL (v3.0.22) | §3.63, v35 | The cone structure looks like a black hole, with 2D Planck as the tip (the 2D floor). To create a 2D universe AT the floor requires 3D event energy $E_{\rm 3D}$ ~ 10¹⁷ J (asteroid impact scale). The cone shape: r(d) = d × tan( α) = d × 1.289. STRENGTH: gives a geometric meaning to the 2D Planck scale. WEAKNESS: the cone is a cartoon (the full geometry is AdS_5 + brane + 2D universe). |
-| 114 (NEW v3.0.22) | $f_{\rm back}$ is NOT universal (varies with event) | PARTIAL (v3.0.22) | §3.63, v36 | $f_{\rm back}$ depends on the 3D event energy. At 2D floor: $f_{\rm back}$ ~ 4.8 × 10⁻²⁴; at SN: $f_{\rm back}$ ~ 10⁻⁸⁵. Cone depths in α units: LHC = -11.86 (BELOW floor — impossible), SN = 26.93, 4D event = 53.8. LHC p-p collisions CANNOT create 2D universes (they're below the floor). STRENGTH: explains why LHC is silent. WEAKNESS: $f_{\rm back}$ variation is a NEW finding that wasn't in original SIDC. |
-| 115 (NEW v3.0.22) | 2D CFT formulas at the 2D Planck tip give 8 derivations | PARTIAL (v3.0.22) | §3.63, v37 | Applied 8 standard 2D CFT formulas at the 2D Planck tip: (1) Casimir energy, (2) Cardy formula (thermal entropy), (3) Bekenstein-Hawking entropy ~ 10³¹ (huge), (4) Hawking temperature ~ 10⁴⁶ K (Planckian), (5) FZZT brane with g_L ~ 6.9 × 10¹¹, (6) Affleck-Ludwig boundary entropy, (7) Ising modular S-matrix, (8) 2D energy levels. Boundary CC $\mu_{\rm B}$ ~ 5 × 10³⁸ J/m² (derivable from $f_{\rm back}$). Internal 2D entropy ~ 1, External 3+1D entropy ~ 10³¹ (huge mismatch). STRENGTH: 8 distinct formulas give CONSISTENT numbers. WEAKNESS: the formulas are CONSISTENCY CHECKS, not derivations of the action. |
-| 116 (NEW v3.0.22) | A Lagrangian for SIDC | PARTIAL (v3.0.22) | §3.62.6, v38 | Proposed $S_{\rm SIDC}$ = $S_{\rm 4D,event}$ + $S_{\rm 3+1D,brane}$ + $\Sigma_{\rm events}$ $S_{\rm 2D,universe}$ + $S_{\rm projection}$. Each component specified: $S_{\rm 4D}$ ( $M_{\rm Pl,4}$ = 4 × 10²³ GeV), $S_{\rm 3+1D}$ (SM + Λ = $f_{\rm back}$ × ε × $M_{
-m Pl,3}$²), $S_{\rm 2D}$ = $S_{\rm Liouville}$ + $S_{\rm Ising}$ + $S_{\rm SYK}$ + S_FZZT, $S_{\rm projection}$ with TIME DILATION α = 1.289. Closed loop: $f_{\rm back}$ = g_couple² × $Z_{\rm 2D}$( $\tau_{\rm 2D}$) / E_3D². Numerical check: SN $\tau_{\rm 2D}$ = 29.6 s ≈ 33 s ✓; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr (DE-calibrated) ✓. CRITICAL ISSUE FOUND: c = 1 (Liouville) + 6 (12 Majorana) = 7, NOT c = 1.5 as previously stated. Resolved in L117 (UV/IR RG flow). STRENGTH: complete Lagrangian with all components. WEAKNESS: 5D bulk action S_5D_bulk is MISSING, 4D event matter L_4D_matter is UNKNOWN, projection mechanism not specified. |
+| 114 (NEW v3.0.22) | $f_{\rm back}$ is NOT universal (varies with event) | PARTIAL (v3.0.22) | §3.63, v36 | $f_{\rm back}$ depends on the 3D event energy. At 2D floor: $f_{\rm back}$ ~ $4.8 \times 10^{-24}$; at SN: $f_{\rm back}$ ~ 10⁻⁸⁵. Cone depths in α units: LHC = -11.86 (BELOW floor — impossible), SN = 26.93, 4D event = 53.8. LHC p-p collisions CANNOT create 2D universes (they're below the floor). STRENGTH: explains why LHC is silent. WEAKNESS: $f_{\rm back}$ variation is a NEW finding that wasn't in original SIDC. |
+| 115 (NEW v3.0.22) | 2D CFT formulas at the 2D Planck tip give 8 derivations | PARTIAL (v3.0.22) | §3.63, v37 | Applied 8 standard 2D CFT formulas at the 2D Planck tip: (1) Casimir energy, (2) Cardy formula (thermal entropy), (3) Bekenstein-Hawking entropy ~ 10³¹ (huge), (4) Hawking temperature ~ 10⁴⁶ K (Planckian), (5) FZZT brane with g_L ~ $6.9 \times 10^{11}$, (6) Affleck-Ludwig boundary entropy, (7) Ising modular S-matrix, (8) 2D energy levels. Boundary CC $\mu_{\rm B}$ ~ $5 \times 10^{38}\,\text{J}$/m² (derivable from $f_{\rm back}$). Internal 2D entropy ~ 1, External 3+1D entropy ~ 10³¹ (huge mismatch). STRENGTH: 8 distinct formulas give CONSISTENT numbers. WEAKNESS: the formulas are CONSISTENCY CHECKS, not derivations of the action. |
+| 116 (NEW v3.0.22) | A Lagrangian for SIDC | PARTIAL (v3.0.22) | §3.62.6, v38 | Proposed $S_{\rm SIDC}$ = $S_{\rm 4D,event}$ + $S_{\rm 3+1D,brane}$ + $\Sigma_{\rm events}$ $S_{\rm 2D,universe}$ + $S_{\rm projection}$. Each component specified: $S_{\rm 4D}$ ( $M_{\rm Pl,4}$ = $4 \times 10^{23}\,\text{GeV}$), $S_{\rm 3+1D}$ (SM + Λ = $f_{\rm back}$ × ε × $M_{\rm Pl,3}$²), $S_{\rm 2D}$ = $S_{\rm Liouville}$ + $S_{\rm Ising}$ + $S_{\rm SYK}$ + S_FZZT, $S_{\rm projection}$ with TIME DILATION α = 1.289. Closed loop: $f_{\rm back}$ = g_couple² × $Z_{\rm 2D}$( $\tau_{\rm 2D}$) / E_3D². Numerical check: SN $\tau_{\rm 2D}$ = 29.6 s ≈ 33 s ✓; $\tau_{\rm 4D}$ = $1.51 \times 10^{34}\,\text{yr}$ (DE-calibrated) ✓. CRITICAL ISSUE FOUND: c = 1 (Liouville) + 6 (12 Majorana) = 7, NOT c = 1.5 as previously stated. Resolved in L117 (UV/IR RG flow). STRENGTH: complete Lagrangian with all components. WEAKNESS: 5D bulk action S_5D_bulk is MISSING, 4D event matter L_4D_matter is UNKNOWN, projection mechanism not specified. |
 | 117 (NEW v3.0.22) | c-value contradiction resolved: UV c=7 → IR c=3/2 via SYK q=4 | RESOLVED (v3.0.22) | §3.62.6, v39 | The Lagrangian v38 had c = 7 (1 Liouville + 6 from 12 Majorana), not c = 3/2 (1 + 1/2). Resolution: 12 Majorana are UV DOF; the c = 1/2 is the IR mode. SYK q = 4 interaction GAPS OUT 11 of 12 Majorana modes (mass gap m_gap ~ 9 TeV), leaving 1 Ising mode. c-theorem satisfied: 7 > 3/2 (RG flow reduces c). STRENGTH: c-theorem provides consistency check. WEAKNESS: the mass gap is an ESTIMATE from SYK q=4, not precisely computed. |
-| 118 (NEW v3.0.22) | L41 ( μ) and L42 (m₃₊₁D) CLOSED; only 2 free parameters | RESOLVED (v3.0.22) | §3.62.7, v40 | L41: μ = $M_{\rm Pl,2D}^2$ = (2.95 TeV)² = 8.73×10⁶ GeV² (2D Liouville cosmological constant). L42: m₃₊₁D = $v_{\rm Higgs}$ = 246 GeV (Higgs VEV). These are the ONLY two free parameters in SIDC. Everything else derived from these + 2D CFT structure. Single-particle event (Higgs VEV) gives $\tau_{\rm 2D}$ ~ 10⁻⁶⁵ s — BELOW 2D Planck time. Only MACROSCOPIC events (SN, AGN) create 2D universes. STRENGTH: from 5 free parameters (original) to 2 (current). WEAKNESS: m₃₊₁D = $v_{\rm Higgs}$ identification is suggestive (consistent with EW scale) but not rigorously derived. The connection between 2D CC μ and $M_{\rm Pl,2D}$ is also suggestive. |
+| 118 (NEW v3.0.22) | L41 ( μ) and L42 (m₃₊₁D) CLOSED; only 2 free parameters | RESOLVED (v3.0.22) | §3.62.7, v40 | L41: μ = $M_{\rm Pl,2D}^2$ = (2.95 TeV)² = $8.73 \times 10^{6}\,\text{GeV}^2$ (2D Liouville cosmological constant). L42: m₃₊₁D = $v_{\rm Higgs}$ = 246 GeV (Higgs VEV). These are the ONLY two free parameters in SIDC. Everything else derived from these + 2D CFT structure. Single-particle event (Higgs VEV) gives $\tau_{\rm 2D}$ ~ 10⁻⁶⁵ s — BELOW 2D Planck time. Only MACROSCOPIC events (SN, AGN) create 2D universes. STRENGTH: from 5 free parameters (original) to 2 (current). WEAKNESS: m₃₊₁D = $v_{\rm Higgs}$ identification is suggestive (consistent with EW scale) but not rigorously derived. The connection between 2D CC μ and $M_{\rm Pl,2D}$ is also suggestive. |
 | 119 (NEW v3.0.22) | Closed loop derivation PARTIAL: structure identified, formula not derived from first principles | OPEN (v3.0.22) | §3.67, v42 | The closed loop formula $f_{\rm back}$ = ( $t_{\rm Pl,3}$/ $\tau_{\rm 4D}$) × ( $\tau_{\rm SN}$/ $\tau_{\rm universe}$) × ( $E_{\rm 4D}$/ $E_{\rm SN}$) $^{1/(2\alpha)}$ has the CORRECT structure (numerical decomposition matches within rounding) but is NOT derived from first principles. The 1/(2α) exponent is the Ising CFT × time dilation = c/α where c = 1/2 (N=24 = Ising central charge) and α = 1.289 is the time dilation. The 1/2 is from c = N/24, the 1/ α is the inverse time dilation. The time ratios are natural scales (Planck vs cosmic, event vs age). A FULL derivation requires the complete 5D bulk action, the projection mechanism, the boundary state calculation, and the closed loop's path integral — all of which are OPEN PROBLEMS. The closed loop is a CONSISTENCY CONDITION between 4D event eternal nature, 2D CFT Ising structure, time dilation, and dimensional hierarchy. |
 | 120 (NEW v3.0.22) | Lagrangian AUDIT: 73% overall confidence | PARTIAL (v3.0.22) | §3.62.8, v41 | Link consistency: 12/12 = 100% (all major SIDC predictions linked to Lagrangian). Numerical consistency: 5/6 = 83% (SN lifetime, DE density, $f_{\rm back}$, g_{\rm 2D}, 4D event, hierarchy). Issue resolution: 37% (10 issues: 2 resolved, 3 partial, 1 accepted, 4 open). OVERALL: 73%. The Lagrangian is a VIABLE STARTING POINT for SIDC's full action. |
 | 121 (NEW v3.0.22) | Cone extends to 5D and 6D with the SAME α | SPECULATIVE (v3.0.22) | §3.68, v43 | Power-law extrapolation $M_{\rm Pl,N}$ = $M_{\rm Pl,4}$ / α^(N-4) gives: $M_{\rm Pl}$,5 = 688 GeV, $M_{\rm Pl}$,6 = 534 GeV, $M_{\rm Pl}$,7 = 414 GeV, $M_{\rm Pl}$,8 = 321 GeV, $M_{\rm Pl}$,9 = 249 GeV $\sim v_{\rm Higgs}$, $M_{\rm Pl}$,10 = 193 GeV. The hierarchy CONVERGES to the EW scale at N ~ 9. STRENGTH: a consistent extension of SIDC's framework. WEAKNESS: the power-law scaling is ASSUMED, not derived. The specific form $M_{\rm Pl,N}$ = $M_{\rm Pl,4}$ / α^(N-4) is one of several possibilities (could be exponential, or have α-dependent corrections). |
@@ -8528,22 +8514,22 @@ m Pl,3}$²), $S_{\rm 2D}$ = $S_{\rm Liouville}$ + $S_{\rm Ising}$ + $S_{\rm SYK}
 | 125 (NEW v3.0.22) | LHC null results explained by $f_{\rm DE}$ suppression at all levels | SPECULATIVE (v3.0.22) | §3.68, v44 | LHC has tested up to 14 TeV but found no string physics, no extra dimensions, no new particles (besides Higgs). SIDC's explanation: even at $v_{\rm Higgs}$ = 246 GeV, string physics has $f_{\rm DE}^2$ ~ $10^{-170}$ cross-section suppression. Same mechanism that makes 2D universes invisible (L108). WEAKNESS: the suppression estimate is for 2D universes; the 9D string suppression could be different. |
 | 126 (NEW v3.0.22) | 12 SYK Majorana = 9 spatial + 3 generational? | SPECULATIVE (v3.0.22) | §3.68, v44 | N = 12 = 9 + 3. If 9 Majorana are "spatial" (gapped by string physics at 9D) and 3 are "generational" (surviving IR modes), this explains why exactly 1 Ising mode survives (the 3 generational Majorana gap down to 1 Ising). STRENGTH: provides a structural reason for 12 = 9 + 3. WEAKNESS: speculative, requires detailed SYK string-coupling calculation to verify. |
 | 127 (NEW v3.0.22) | Hierarchy problem solved by cascade structure | SPECULATIVE (v3.0.22) | §3.68, v44 | Why is $M_{\rm Pl,3}$ = 10¹⁹ GeV so much bigger than $v_{\rm Higgs}$ = 246 GeV? SIDC's answer: $M_{\rm Pl,3}$ is the 3+1D Planck, $v_{\rm Higgs}$ is the 9D Planck (string scale). They're at DIFFERENT levels of the cascade. No fine-tuning needed. STRENGTH: provides a structural solution. WEAKNESS: the cascade structure itself is not derived from first principles (L43 still OPEN). |
-| 138 (NEW v3.1.1, REVISED v3.1.2, SCENARIO X) | $f_{\rm back}$ = 10⁻⁸⁵ is a CALIBRATION; closed-loop formula gives FORM, not value; $M_{\rm Pl,4D}$ is the 4D BULK Planck (different from $M_{\rm Pl,3D}$) | PARTIAL → RESOLVED (v3.1.2, Scenario X) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): the closed-loop formula $f_{\rm back} = (M_{\rm Pl,N}/E_{\rm event})^\alpha$ gives the FORM (universal at every dimensional transition, scales with α = 1.289). The VALUE is calibrated: $M_{\rm Pl,4D}$ = 3.93 × 10²³ GeV (4D BULK Planck, INDEPENDENT of our universe's Planck, was 4 × 10²³ pre-v3.5.8+) with $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale 4D event). The DE formula uses $M_{\rm Pl,3D}$ = 10¹⁹ GeV (our universe's Planck, MEASURED) for $\rho_{\rm DE}$ = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$. STRENGTH: FORM is universal at 2D→3D AND 3D→4D; $M_{\rm Pl,4D}$ and $M_{\rm Pl,3D}$ are correctly identified as DIFFERENT (bulk vs brane), consistent with brane-world physics. WEAKNESS: $M_{\rm Pl,4D}$ = 3.93 × 10²³ GeV is INFERRED, not measured; $E_{\rm 4D}$ = 5×10⁷⁹ J is calibrated (consistent with closed-loop, but the partition between $M_{\rm Pl,4D}$ and $E_{\rm 4D}$ is one-parameter, fixed by the closed-loop ratio). |
-| 139 (NEW v3.1.1, REVISED v3.1.2, SCENARIO X) | "Closed loop" formula: $f_{\rm back}$ = ($(M_{\rm Pl}, E_{\rm event})^{\alpha}$ applies at EVERY dimensional transition | PARTIAL → RESOLVED (v3.1.2) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): the closed-loop formula $f_{\rm back} = (M_{\rm Pl,N}/E_{\rm event})^\alpha$ with α = 1.289 applies at BOTH 2D→3D AND 3D→4D. For 2D→3D: $M_{\rm Pl,3D}$ = 1.22 × 10¹⁹ GeV (our universe's Planck, MEASURED), $E_{\rm SN}$ = 10⁴⁴ J, gives $f_{\rm leak,2D\to3D}$ = 1.6×10⁻⁴⁵/s and $\tau_{\rm 2D}$ = 33s. For 3D→4D: $M_{\rm Pl,4D}$ = 3.93 × 10²³ GeV (4D BULK Planck, INFERRED, Scenario X), $E_{\rm 4D}$ = 5×10⁷⁹ J (galaxy-scale), gives $f_{\rm DE}$ = 1.2×10⁻⁸⁵/s and $\tau_{\rm 4D}$ = 1.4×10³⁴ yr. The $M^{\alpha}$ law is the SAME formula at every level. STRENGTH: TRUE closed loop with universal formula; DIFFERENT $M_{\rm Pl}$ at different levels ($M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ inferred) is consistent with brane-world physics where bulk and brane have different gravity. WEAKNESS: $M_{\rm Pl,4D}$ = 3.93 × 10²³ GeV is INFERRED (cascade calibration, not direct measurement). |
+| 138 (NEW v3.1.1, REVISED v3.1.2, SCENARIO X) | $f_{\rm back}$ = 10⁻⁸⁵ is a CALIBRATION; closed-loop formula gives FORM, not value; $M_{\rm Pl,4D}$ is the 4D BULK Planck (different from $M_{\rm Pl,3D}$) | PARTIAL → RESOLVED (v3.1.2, Scenario X) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): the closed-loop formula $f_{\rm back} = (M_{\rm Pl,N}/E_{\rm event})^\alpha$ gives the FORM (universal at every dimensional transition, scales with α = 1.289). The VALUE is calibrated: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ (4D BULK Planck, INDEPENDENT of our universe's Planck, was $4 \times 10^{23}\,\text{pre}$-v3.5.8+) with $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (universe-scale 4D event). The DE formula uses $M_{\rm Pl,3D}$ = 10¹⁹ GeV (our universe's Planck, MEASURED) for $\rho_{\rm DE}$ = $f_{\rm back}$ × ε × $M_{\rm Pl,3D}^4$. STRENGTH: FORM is universal at 2D→3D AND 3D→4D; $M_{\rm Pl,4D}$ and $M_{\rm Pl,3D}$ are correctly identified as DIFFERENT (bulk vs brane), consistent with brane-world physics. WEAKNESS: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ is INFERRED, not measured; $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ is calibrated (consistent with closed-loop, but the partition between $M_{\rm Pl,4D}$ and $E_{\rm 4D}$ is one-parameter, fixed by the closed-loop ratio). |
+| 139 (NEW v3.1.1, REVISED v3.1.2, SCENARIO X) | "Closed loop" formula: $f_{\rm back}$ = ($(M_{\rm Pl}, E_{\rm event})^{\alpha}$ applies at EVERY dimensional transition | PARTIAL → RESOLVED (v3.1.2) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): the closed-loop formula $f_{\rm back} = (M_{\rm Pl,N}/E_{\rm event})^\alpha$ with α = 1.289 applies at BOTH 2D→3D AND 3D→4D. For 2D→3D: $M_{\rm Pl,3D}$ = $1.22 \times 10^{19}\,\text{GeV}$ (our universe's Planck, MEASURED), $E_{\rm SN}$ = 10⁴⁴ J, gives $f_{\rm leak,2D\to3D}$ = $1.6 \times 10^{-45}$/s and $\tau_{\rm 2D}$ = 33s. For 3D→4D: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ (4D BULK Planck, INFERRED, Scenario X), $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (galaxy-scale), gives $f_{\rm DE}$ = $1.2 \times 10^{-85}$/s and $\tau_{\rm 4D}$ = $1.4 \times 10^{34}\,\text{yr}$. The $M^{\alpha}$ law is the SAME formula at every level. STRENGTH: TRUE closed loop with universal formula; DIFFERENT $M_{\rm Pl}$ at different levels ($M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ inferred) is consistent with brane-world physics where bulk and brane have different gravity. WEAKNESS: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ is INFERRED (cascade calibration, not direct measurement). |
 | 140 (NEW v3.1.1) | ε = 10⁻³⁸ is OBSERVED (hierarchy problem), not derived | OPEN (v3.1.1) | §3.60.3, v31_F_p_consistency.py | ε = 10⁻³⁸ is the observed ratio of gravitational to EM force strength (the hierarchy problem). SIDC's mechanism (4D antigravity cancels 3+1D gravity, residual is ε) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC; it is relabeled with a geometric story. STRENGTH: honest framing. WEAKNESS: the value 10⁻³⁸ is input, not output. |
-| 141 (NEW v3.1.1-final, REVISED v3.1.2, SCENARIO X) | $f_{\rm back}$ = ( $M_{\rm Pl,N}$/ $E_{\rm event}$) $^{\alpha}$ is UNIVERSAL at every dimensional transition with DIFFERENT $M_{\rm Pl,N}$ at each level | RESOLVED → REINFORCED (v3.1.2) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): $f_{\rm back}$ = ( $M_{\rm Pl,N}$/ $E_{\rm event}$) $^{\alpha}$ applies at BOTH 2D→3D and 3D→4D with DIFFERENT $M_{\rm Pl}$ at each level (2D = 2.95 TeV, 3D = 10¹⁹ GeV, 4D = 3.93 × 10²³ GeV). The previous v3.1.1-final claim that " $f_{\rm back}$ ONLY makes sense as 3D-to-4D leakage" was about the 10⁻⁸⁵ VALUE matching DE, not about the formula being level-specific. v3.1.2 unifies: the FORMULA is universal ( $M_{\rm Pl}$/E) $^{\alpha}$, the VALUES differ (1.6× 10⁻⁴⁵ at 2D→3D vs 1.2× 10⁻⁸⁵ at 3D→4D) because BOTH $M_{\rm Pl}$ and $E_{\rm event}$ differ at each level. The 100% pulsed return at death is ALSO universal. STRENGTH: $f_{\rm back}$ is genuinely universal in FORM; DIFFERENT $M_{\rm Pl}$ at each level is consistent with brane-world physics (bulk Planck ≠ brane Planck ≠ 2D brane Planck). WEAKNESS: $M_{\rm Pl,4D}$ = 3.93 × 10²³ GeV is INFERRED (not measured); $E_{\rm 4D}$ = 5×10⁷⁹ J is galaxy-scale (calibrated, not derived). |
-| 142 (NEW v3.1.2, REVISED with 4π BREAKTHROUGH) | Multi-universe picture: $f_{\rm back}$ derived via $\gamma_{\rm 4D}$ = 4π × $\gamma_{\rm sub}$ (within 1.7% of observation) | PARTIAL (v3.1.2) | §3.60.4, v31_multi_universe_alpha.py | Multi-universe + 4π factor gives: $\gamma_{\rm 4D}$ = 4π × T_universe/ $t_{\rm Pl}$ = 1.015×10⁶² (within 1.5% of calibrated 10⁶²), $f_{\rm DE}$ = 1.22× 10⁻⁸⁵ (within 1.7% of calibrated 1.24× 10⁻⁸⁵). The 12× discrepancy found earlier is RESOLVED by recognizing $\gamma_{\rm 4D}$/ $\gamma_{\rm sub}$ = 12.36 ≈ 4π (within 1.7%). USES THREE INGREDIENTS: (a) α = 1.289 from SN 33s, (b) $E_{\rm sub}$ = 3.6×10⁵⁶ J from universe age, (c) 4π geometric factor. Without 4π, $f_{\rm DE}$ = 1.5× 10⁻⁸⁴ (12% off). With 4π, $f_{\rm DE}$ matches observation within 1.7%. STRENGTH: real derivation ( $\gamma_{\rm 4D}$ not a free parameter); 1.7% match (much better than 12%); geometric interpretation (4D→3D projection). WEAKNESS: 4π is geometric/postulated, not derived from first principles; 1.7% discrepancy still unexplained. |
+| 141 (NEW v3.1.1-final, REVISED v3.1.2, SCENARIO X) | $f_{\rm back}$ = ( $M_{\rm Pl,N}$/ $E_{\rm event}$) $^{\alpha}$ is UNIVERSAL at every dimensional transition with DIFFERENT $M_{\rm Pl,N}$ at each level | RESOLVED → REINFORCED (v3.1.2) | §3.71, v31_closed_loop_fback.py | v3.1.2 (Scenario X adopted): $f_{\rm back}$ = ( $M_{\rm Pl,N}$/ $E_{\rm event}$) $^{\alpha}$ applies at BOTH 2D→3D and 3D→4D with DIFFERENT $M_{\rm Pl}$ at each level (2D = 2.95 TeV, 3D = 10¹⁹ GeV, 4D = $3.93 \times 10^{23}\,\text{GeV}$). The previous v3.1.1-final claim that " $f_{\rm back}$ ONLY makes sense as 3D-to-4D leakage" was about the 10⁻⁸⁵ VALUE matching DE, not about the formula being level-specific. v3.1.2 unifies: the FORMULA is universal ( $M_{\rm Pl}$/E) $^{\alpha}$, the VALUES differ ($1.6 \times 10^{-45}\,\text{at}$ 2D→3D vs $1.2 \times 10^{-85}\,\text{at}$ 3D→4D) because BOTH $M_{\rm Pl}$ and $E_{\rm event}$ differ at each level. The 100% pulsed return at death is ALSO universal. STRENGTH: $f_{\rm back}$ is genuinely universal in FORM; DIFFERENT $M_{\rm Pl}$ at each level is consistent with brane-world physics (bulk Planck ≠ brane Planck ≠ 2D brane Planck). WEAKNESS: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ is INFERRED (not measured); $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ is galaxy-scale (calibrated, not derived). |
+| 142 (NEW v3.1.2, REVISED with 4π BREAKTHROUGH) | Multi-universe picture: $f_{\rm back}$ derived via $\gamma_{\rm 4D}$ = 4π × $\gamma_{\rm sub}$ (within 1.7% of observation) | PARTIAL (v3.1.2) | §3.60.4, v31_multi_universe_alpha.py | Multi-universe + 4π factor gives: $\gamma_{\rm 4D}$ = 4π × T_universe/ $t_{\rm Pl}$ = $1.015 \times 10^{62}$(within 1.5% of calibrated 10⁶²), $f_{\rm DE}$ = $1.22 \times 10^{-85}$(within 1.7% of calibrated $1.24 \times 10^{-85}$). The 12× discrepancy found earlier is RESOLVED by recognizing $\gamma_{\rm 4D}$/ $\gamma_{\rm sub}$ = 12.36 ≈ 4π (within 1.7%). USES THREE INGREDIENTS: (a) α = 1.289 from SN 33s, (b) $E_{\rm sub}$ = $3.6 \times 10^{56}\,\text{J}$ from universe age, (c) 4π geometric factor. Without 4π, $f_{\rm DE}$ = $1.5 \times 10^{-84}$(12% off). With 4π, $f_{\rm DE}$ matches observation within 1.7%. STRENGTH: real derivation ( $\gamma_{\rm 4D}$ not a free parameter); 1.7% match (much better than 12%); geometric interpretation (4D→3D projection). WEAKNESS: 4π is geometric/postulated, not derived from first principles; 1.7% discrepancy still unexplained. |
 | 142a (NEW v3.1.2) | 4π geometric factor needs derivation | OPEN (v3.1.2) | §3.60.4 | The 4π factor in $\gamma_{\rm 4D}$ = 4π × $\gamma_{\rm sub}$ is required to match $f_{\rm DE}$. Possible origins: (1) surface area of 3-sphere ( 4πR²), (2) 4× solid angle, (3) 4D-to-3D projection factor, (4) 4D Gauss law, (5) holographic screen factor. Without an explicit derivation, 4π is a postulate (like α and ε). The derivation would close the residual 1.7% discrepancy and complete the $f_{\rm back}$ formula. Future work: 4D Gauss law integration, holographic principle application. |
-| 142b (NEW v3.1.2, REMOVED) | Dual framing: $\alpha_{\rm cal}$ (1.289) vs $\alpha_{\rm true}$ (1.258 with 4π hidden) | RESOLVED (v3.1.2) | §3.60.4 | **REMOVED v3.1.2**: The dual framing proposed $\alpha_{\rm true}$ = 1.258 ( 4π hidden in α at 2D→3D) as an alternative to $\alpha_{\rm cal}$ = 1.289 ( 4π explicit at 3D→4D only). Empirical testing against the 14-event $M^{1.29}$ fit REJECTED $\alpha_{\rm true}$ = 1.258: solar flares 281% deviation, TDE 62%, AGN 52%, BNS merger 45%, GRB 15%, magnetar 13%, hypernova 9%. Only SN matched (calibration point). **Resolution**: Only $\alpha_{\rm cal}$ = 1.289 survives, with 4π specific to 3D→4D continuous leakage. The 14-event fit is the STRONGEST empirical anchor of the framework, and it requires α = 1.289 = 1 + 1/√12 (N = 12 SM SYK). The "average galaxy" identification of sub-universes ( $E_{\rm sub}$ = 2.67×10¹⁰ $M_{\rm sun}$, interpretation B) is NOT supported by the $M^{1.29}$ law. STRENGTH: empirical evidence settles the question. WEAKNESS: framework is asymmetric ( 4π only at one transition); DE-DM unification in §3.70 is structural, not geometric. |
-| 143 (NEW v3.1.2, RESOLVED v3.1.2-final, USER-CORRECTED) | Sub-universe = 3+1D universe created by an energetic 4D-bulk event (NOT 3+1D galaxy); 4D-bulk mechanism UNKNOWN | RESOLVED (v3.1.2-final) | §3.60.4, §3.71 | **v3.1.2-final resolution**: Sub-universes are NOT 3+1D galaxies. They are 3+1D universes CREATED by an ENERGETIC EVENT in a 4D BULK (specific 4D-bulk mechanism UNKNOWN — we don't know if it involves 'galaxies', 'stars', 'quantum' structures, or something else). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our sub-universe was created). $N_{\rm sub}$ and $E_{\rm sub}$ are FREE PARAMETERS linked by energy conservation: $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$. The previous choice $N_{\rm sub} = 300 ($ with $E_{\rm sub}$ = 3.57×10⁵⁶ J, small galaxy mass) was ARBITRARY and is not derived from the cascade. STRENGTH: sub-universes are now correctly identified as 3+1D universes, not 3+1D galaxies. WEAKNESS: 4D-bulk mechanism is OPEN; $N_{\rm sub}$ is FREE; previous $N_{\rm sub} = 300$ was a placeholder, not a derivation. |
-| 144 (NEW v3.1.2, REVISED v3.1.2-final, AUDIT-CORRECTED) | $N_{\rm sub}$ and $E_{\rm sub}$ are FREE PARAMETERS (4D-bulk dynamics unknown); universe's total LIFETIME is UNKNOWN; $N_{\rm sub}$ < 4.2×10¹⁸ (audit-corrected from 2×10¹⁹) | OPEN (v3.1.2-final) | §3.60.4, §3.71, v31_audit_v312final.py | **v3.1.2-final correction** (user caught): " $N_{\rm sub} = 300$ is not known, and not fixed; could be 150 with double the masses each." $N_{\rm sub}$ is a FREE PARAMETER. For ANY $N_{\rm sub}$, $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$ and $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$. Different $N_{\rm sub}$ give different $E_{\rm sub}$ and $\tau_{\rm sub}$: $N_{\rm sub} = 1$→ $E_{\rm sub}$ = $E_{\rm 4D}$ = 5×10⁷⁹ J, $\tau_{\rm sub}$ = 1.4×10³⁴ yr (= $\tau_{\rm 4D}$, no sub-universe structure); $N_{\rm sub} = 300$→ $E_{\rm sub}$ = 3.57×10⁵⁶ J (small galaxy mass), $\tau_{\rm sub}$ = ~9×10³⁰ yr (was the ARBITRARY choice); $N_{\rm sub} = 4.2×10¹⁸$→ $E_{\rm sub}$ = 2.5×10⁴⁰ J, $\tau_{\rm sub}$ = 13.8 Gyr (lower bound, universe just alive, AUDIT-CORRECTED). The constraint is $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive), which gives $N_{\rm sub}$ < 4.2×10¹⁸ (audit-corrected from 2×10¹⁹). What physical principle determines $N_{\rm sub}$ is OPEN. Candidates: holographic bound, 4D-bulk discreteness, brane-world physics. The previous "~10³⁰ yr lifetime" claim was based on the ARBITRARY $N_{\rm sub} = 300$ and should be retracted. |
+| 142b (NEW v3.1.2, REMOVED) | Dual framing: $\alpha_{\rm cal}$ (1.289) vs $\alpha_{\rm true}$ (1.258 with 4π hidden) | RESOLVED (v3.1.2) | §3.60.4 | **REMOVED v3.1.2**: The dual framing proposed $\alpha_{\rm true}$ = 1.258 ( 4π hidden in α at 2D→3D) as an alternative to $\alpha_{\rm cal}$ = 1.289 ( 4π explicit at 3D→4D only). Empirical testing against the 14-event $M^{1.29}$ fit REJECTED $\alpha_{\rm true}$ = 1.258: solar flares 281% deviation, TDE 62%, AGN 52%, BNS merger 45%, GRB 15%, magnetar 13%, hypernova 9%. Only SN matched (calibration point). **Resolution**: Only $\alpha_{\rm cal}$ = 1.289 survives, with 4π specific to 3D→4D continuous leakage. The 14-event fit is the STRONGEST empirical anchor of the framework, and it requires α = 1.289 = 1 + 1/√12 (N = 12 SM SYK). The "average galaxy" identification of sub-universes ( $E_{\rm sub}$ = $2.67 \times 10^{10}$$M_{\rm sun}$, interpretation B) is NOT supported by the $M^{1.29}$ law. STRENGTH: empirical evidence settles the question. WEAKNESS: framework is asymmetric ( 4π only at one transition); DE-DM unification in §3.70 is structural, not geometric. |
+| 143 (NEW v3.1.2, RESOLVED v3.1.2-final, USER-CORRECTED) | Sub-universe = 3+1D universe created by an energetic 4D-bulk event (NOT 3+1D galaxy); 4D-bulk mechanism UNKNOWN | RESOLVED (v3.1.2-final) | §3.60.4, §3.71 | **v3.1.2-final resolution**: Sub-universes are NOT 3+1D galaxies. They are 3+1D universes CREATED by an ENERGETIC EVENT in a 4D BULK (specific 4D-bulk mechanism UNKNOWN — we don't know if it involves 'galaxies', 'stars', 'quantum' structures, or something else). The 10¹² galaxies in our 3+1D universe are a SEPARATE population (formed after our sub-universe was created). $N_{\rm sub}$ and $E_{\rm sub}$ are FREE PARAMETERS linked by energy conservation: $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$. The previous choice $N_{\rm sub} = 300 ($ with $E_{\rm sub}$ = $3.57 \times 10^{56}\,\text{J}$, small galaxy mass) was ARBITRARY and is not derived from the cascade. STRENGTH: sub-universes are now correctly identified as 3+1D universes, not 3+1D galaxies. WEAKNESS: 4D-bulk mechanism is OPEN; $N_{\rm sub}$ is FREE; previous $N_{\rm sub} = 300$ was a placeholder, not a derivation. |
+| 144 (NEW v3.1.2, REVISED v3.1.2-final, AUDIT-CORRECTED) | $N_{\rm sub}$ and $E_{\rm sub}$ are FREE PARAMETERS (4D-bulk dynamics unknown); universe's total LIFETIME is UNKNOWN; $N_{\rm sub}$ < $4.2 \times 10^{18}$(audit-corrected from $2 \times 10^{19}$) | OPEN (v3.1.2-final) | §3.60.4, §3.71, v31_audit_v312final.py | **v3.1.2-final correction** (user caught): " $N_{\rm sub} = 300$ is not known, and not fixed; could be 150 with double the masses each." $N_{\rm sub}$ is a FREE PARAMETER. For ANY $N_{\rm sub}$, $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$ and $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$. Different $N_{\rm sub}$ give different $E_{\rm sub}$ and $\tau_{\rm sub}$: $N_{\rm sub} = 1$→ $E_{\rm sub}$ = $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$, $\tau_{\rm sub}$ = $1.4 \times 10^{34}\,\text{yr}$ (= $\tau_{\rm 4D}$, no sub-universe structure); $N_{\rm sub} = 300$→ $E_{\rm sub}$ = $3.57 \times 10^{56}\,\text{J}$ (small galaxy mass), $\tau_{\rm sub}$ = ~$9 \times 10^{30}\,\text{yr}$ (was the ARBITRARY choice); $N_{\rm sub} = 4.2 \times 10^{18}$→ $E_{\rm sub}$ = $2.5 \times 10^{40}\,\text{J}$, $\tau_{\rm sub}$ = 13.8 Gyr (lower bound, universe just alive, AUDIT-CORRECTED). The constraint is $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive), which gives $N_{\rm sub}$ < $4.2 \times 10^{18}$(audit-corrected from $2 \times 10^{19}$). What physical principle determines $N_{\rm sub}$ is OPEN. Candidates: holographic bound, 4D-bulk discreteness, brane-world physics. The previous "~10³⁰ yr lifetime" claim was based on the ARBITRARY $N_{\rm sub} = 300$ and should be retracted. |
 | 145 (NEW v3.1.2, REVISED v3.1.2-final, FURTHER REVISED) | AGE vs LIFETIME: 13.8 Gyr age (observed) vs UNKNOWN lifetime (was "~10³⁰ yr" but retracted) | RESOLVED (v3.1.2-final) | §3.60.4, §3.71 | **v3.1.2-final**: 13.8 Gyr is the universe's CURRENT AGE (observed, the only firm value). The LIFETIME is UNKNOWN — it depends on $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$, where $N_{\rm sub}$ is a free parameter (4D-bulk dynamics unknown). The previous "~10³⁰ yr lifetime" claim was based on the ARBITRARY choice $N_{\rm sub} = 300$ and has been RETRACTED. The constraint is $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive). The 2D vs 3+1D asymmetry (L145) is still valid: 2D universes share the event's window (all live 33s for SN), 3+1D sub-universes are "persistent structures" with own lifetimes (UNKNOWN but > 13.8 Gyr). STRENGTH: honest framing; AGE is observed, LIFETIME is genuinely unknown. WEAKNESS: we cannot say how long the universe will live without knowing $N_{\rm sub}$. |
 | 146 (NEW v3.1.2) | 4π is specific to 3D→4D, not universal across all transitions | OPEN (v3.1.2) | §3.60.4 | 4π appears at 3D→4D continuous leakage ( $\gamma_{\rm 4D}$ = 4π × $\gamma_{\rm sub}$). It does NOT appear at 2D→3D ( $M^{1.29}$ has no 4π factor) or at higher transitions (4D→5D, ..., 8D→9D; would break 9D = $v_{\rm Higgs}$ match). This is structurally asymmetric: the 4π is specific to one continuous-leakage transition. WEAKNESS: framework lacks a universal geometric principle. STRENGTH: 4π matches the 3-sphere boundary factor for 3D→4D specifically. |
 | 147 (NEW v3.1.2) | DE-DM unification via two closed-loop mechanisms | OPEN (v3.1.2) | §3.70 | §3.70 unifies DE and DM under a single closed-loop picture with TWO mechanisms: (1) DE = continuous back-leakage from higher-D vacuum (with 4π geometric factor), (2) DM = pulsed return from lower-D universe deaths (100%, no factor). This applies at EVERY level: 4D→3D continuous = OUR DE, 2D universe death = OUR DM. For higher levels (4D→5D, ...): same picture applies but speculative without data. STRENGTH: unifies the dark sector under one mechanism with two flavors. WEAKNESS: higher-level closed loops are speculative. The 4π remains a postulate (geometric, not derived). |
 | 148 (NEW v3.1.2) | Pulsed vs continuous: why two different mechanisms? | OPEN (v3.1.2) | §3.70 | The two closed-loop mechanisms (continuous DE, pulsed DM) have different factors ( 4π vs 1). Why? Possible reasons: (1) different physical processes (vacuum leakage vs matter return), (2) different topologies (3-sphere boundary for continuous, point return for pulsed), (3) timescales differ (continuous vs universe-end pulse). Without deeper derivation, the two mechanisms are phenomenological. STRENGTH: identifies the question. WEAKNESS: no first-principles derivation of why two mechanisms coexist. |
 | 149 (NEW v3.1.2, USER-CAUGHT, RESOLVED) | Internal inconsistency: 4π only at 3D→4D vs universal $f_{\rm back}$ | RESOLVED (v3.1.2, empirical) | §3.70, v31_multi_universe_alpha.py | §3.70 claimed $f_{\rm back}$ exists at every dimensional transition (closed loop at every level). If $f_{\rm back}$ were universal, the 4π geometric factor SHOULD also be universal. But: 4π at 3D→4D (verified ~1.7%); NO 4π at 2D→3D ( $M^{1.29}$ has no explicit factor); UNKNOWN at higher transitions. EMPIRICAL SMOKING GUN: testing α = 1.258 (interpretation B with 4π hidden) against the 14-event $M^{1.29}$ fit FAILS for 13 of 14 events: solar flare 281% deviation, AGN 52%, BNS merger 45%, TDE 62%, GRB 15%, magnetar 13%, hypernova 9%. Only SN matches (calibration point). **Resolution**: 4π is SPECIFIC to the 3D→4D continuous leakage boundary, NOT universal. The 14-event fit requires α = 1.289 = 1 + 1/√12 (N = 12 SM SYK), which FORBIDS 4π at 2D→3D. The framework is ASYMMETRIC: each dimensional transition has its own geometric factor (or none). The DE-DM unification in §3.70 is a STRUCTURAL pattern (continuous + pulsed at every level), NOT a geometric one (no universal factor). **KEY SYMMETRY (v3.1.2 update)**: At 2D→3D and 3D→4D, the STRUCTURE is identical — 100% pulsed return at lower-D universe death. The OBSERVABLE difference (DM visible now vs future pulsed return to 4D) is purely due to TIMESCALE (33s vs 10³⁴ yr). STRENGTH: empirical evidence resolves the inconsistency; structural symmetry of closed loop at every level is preserved. WEAKNESS: no unified geometric principle across all transitions; the 4π factor at 3D→4D remains suggestive (surface area of 3-sphere, projection factor) but not derived. |
 
-| 150 (NEW v3.1.2, USER-DRIVEN, REVISED to SCENARIO X, USER-CORRECTED multi-universe, v3.1.2-final: AGE vs LIFETIME + FRAME OF REFERENCE + 4D-BULK MECHANISM UNKNOWN + $N_{\rm sub}$ FREE) | SCENARIO X ADOPTED: $M_{\rm Pl,4D}$ = 3.93 × 10²³ GeV (4D BULK Planck, not equal to $M_{\rm Pl,3D}$); multi-universe: energetic 4D-bulk event creates $N_{\rm sub}$ sub-universes ( $N_{\rm sub}$ is a FREE PARAMETER, 4D-bulk mechanism UNKNOWN); AGE vs LIFETIME: AGE = 13.8 Gyr (observed), LIFETIME = UNKNOWN; FRAME OF REFERENCE explicit | RESOLVED (v3.1.2, choice made) | §3.71, v31_scenario_X.py | The cascade tested three scenarios for $M_{\rm Pl,4}$ (parent's Planck): (A) $M_{\rm Pl,4}$ = 8.3×10¹² GeV, (X) $M_{\rm Pl,4}$ = 887 GeV, (B) $M_{\rm Pl,4}$ = 1.22 × 10¹⁹ GeV (standard). All three are consistent with the closed-loop + DE formula, but they differ on extrapolations. **The cascade adopts Scenario X** with the CORRECTED FRAMING: $M_{\rm Pl,4D}$ is the 4D BULK Planck (one dimension higher than our 3+1D universe), NOT the Big Bang Planck. The 4D bulk is a SEPARATE structure with its OWN gravity scale, INDEPENDENT of $M_{\rm Pl,3D}$ = 10¹⁹ GeV. Standard brane-world physics (ADD, RS-I/II) explicitly allows bulk Planck to differ from brane Planck. The cascade adopts $M_{\rm Pl,4D}$ = 4 × 10²³ GeV because: (a) brane-world consistency (bulk Planck can be TeV-scale), (b) 9D = $v_{\rm Higgs}$ match works (1.3% off $v_{\rm Higgs}$ = 246 GeV), (c) $M^{\alpha}$ scaling for $M_{\rm Pl,N}$ at 5-9D gives EW-scale physics (200-700 GeV, the electroweak range), (d) $M_{\rm Pl,4D}$ = 4 × 10²³ GeV matches the cascade's $M_{\rm Pl,4}$ ≥ 4 × 10²³ GeV floor from previous analysis. **CRITICAL**: $M_{\rm Pl,3D}$ = 10¹⁹ GeV is MEASURED (Newton's G); $M_{\rm Pl,4D}$ = 4 × 10²³ GeV is INFERRED from cascade consistency and the 9D = $v_{\rm Higgs}$ match. $E_{\rm 4D}$ = 5×10⁷⁹ J is DERIVED from the assumed $M_{\rm Pl,4D}$ via the closed-loop formula. **MULTI-UNIVERSE PICTURE (v3.1.2-final, USER-CORRECTED TWICE, v3.1.2-final: $N_{\rm sub}$ FREE, AUDIT-CORRECTED)**: Sub-universes are NOT our 3+1D galaxies. Sub-universes are 3+1D universes CREATED by an ENERGETIC EVENT in the 4D bulk. The specific 4D-bulk mechanism is UNKNOWN (NOT necessarily 'galaxy collisions', 'star collisions', or any other specific structure). ** $N_{\rm sub}$ is a FREE PARAMETER** (4D-bulk dynamics unknown). $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation). The previous choice $N_{\rm sub} = 300$ was ARBITRARY and is not derived. For any $N_{\rm sub}$, $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$ gives the sub-universe lifetime. Constraint: $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive) → $N_{\rm sub}$ < 4.2×10¹⁸ (AUDIT-CORRECTED from 2×10¹⁹). **AGE vs LIFETIME (v3.1.2-final, HONEST)**: 13.8 Gyr is the universe's CURRENT AGE (observed, the only firm value). The LIFETIME is UNKNOWN — it depends on $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$. The previous "~10³⁰ yr lifetime" claim was based on $N_{\rm sub} = 300 ($ ARBITRARY) and has been RETRACTED. **FRAME OF REFERENCE (v3.1.2-final)**: $M^{\alpha}$ law gives APPARENT durations in the LOWER-D frame, not proper times in the higher-D frame. 2D lifetime (33 s) is in the 3+1D frame. 3+1D sub-universe lifetime (UNKNOWN) is in 3+1D's own frame. 4D event apparent duration (1.4×10³⁴ yr) is in the 3+1D frame, time-dilated from 4D proper time via γ ~ 10⁶². The 4D event proper duration is T_4D_proper = $\tau_{\rm 4D}$ / γ ~ 10⁻²⁰ s. **Gains**: (1) 9D = $v_{\rm Higgs}$ match (1.3%, suggestive), (2) $M^{\alpha}$ scaling for $M_{\rm Pl,N}$ gives EW-scale physics, (3) 4D event is galaxy-scale (10⁵⁹ J ≈ 10⁹ $M_{\rm sun}$), (4) bulk and brane have DIFFERENT gravity, (5) consistent with all 2D/3D/4D levels having their own gravity scales (2D = 3 TeV brane-world, 3D = 10¹⁹ GeV measured, 4D = 4 × 10²³ GeV bulk), (6) $N_{\rm sub}$ and $E_{\rm sub}$ are FREE (honest), (7) age vs lifetime: AGE observed, LIFETIME unknown, (8) frame of reference clarified. STRENGTH: framework is internally consistent with brane-world physics; 4D bulk and 2D brane both have non-standard gravity; 9D = $v_H$ match is the strongest "extra" prediction; honest about $N_{\rm sub}$, $E_{\rm sub}$, $\tau_{\rm sub}$ all being free/undetermined. WEAKNESS: $M_{\rm Pl,4D}$ is INFERRED, not measured; 4D-bulk mechanism is UNKNOWN; $N_{\rm sub}$ is FREE (we cannot predict the universe's total lifetime); requires exotic physics; 9D = $v_H$ match could be coincidence (1.3% on single number); observational constraints (LHC, sub-mm gravity) constrain $M_{\rm Pl,4D}$ ≥ 887 GeV (we are at the floor). The cascade has 4 free parameters ( α, ε, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$), plus 1 structural parameter ( $N_{\rm sub}$, undetermined by cascade). $M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ calibrated. | [v3.3 UPDATE: $M_{\rm Pl,4D}$ = 3.93 × 10²³ GeV via α-weighted GM (DERIVED); $E_{\rm 4D}$ = 5×10⁷⁹ J (universe-scale); $\tau_{\rm 3D}$,apparent = 9.10×10¹²⁴ yr; $\gamma_{\rm 4D}$ = 1.10×10¹¹¹ (A2); 9D = $v_{\rm Higgs}$ DROPPED; α-weighted GM supersedes Scenario X.]
+| 150 (NEW v3.1.2, USER-DRIVEN, REVISED to SCENARIO X, USER-CORRECTED multi-universe, v3.1.2-final: AGE vs LIFETIME + FRAME OF REFERENCE + 4D-BULK MECHANISM UNKNOWN + $N_{\rm sub}$ FREE) | SCENARIO X ADOPTED: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ (4D BULK Planck, not equal to $M_{\rm Pl,3D}$); multi-universe: energetic 4D-bulk event creates $N_{\rm sub}$ sub-universes ( $N_{\rm sub}$ is a FREE PARAMETER, 4D-bulk mechanism UNKNOWN); AGE vs LIFETIME: AGE = 13.8 Gyr (observed), LIFETIME = UNKNOWN; FRAME OF REFERENCE explicit | RESOLVED (v3.1.2, choice made) | §3.71, v31_scenario_X.py | The cascade tested three scenarios for $M_{\rm Pl,4}$ (parent's Planck): (A) $M_{\rm Pl,4}$ = $8.3 \times 10^{12}\,\text{GeV}$, (X) $M_{\rm Pl,4}$ = 887 GeV, (B) $M_{\rm Pl,4}$ = $1.22 \times 10^{19}\,\text{GeV}$ (standard). All three are consistent with the closed-loop + DE formula, but they differ on extrapolations. **The cascade adopts Scenario X** with the CORRECTED FRAMING: $M_{\rm Pl,4D}$ is the 4D BULK Planck (one dimension higher than our 3+1D universe), NOT the Big Bang Planck. The 4D bulk is a SEPARATE structure with its OWN gravity scale, INDEPENDENT of $M_{\rm Pl,3D}$ = 10¹⁹ GeV. Standard brane-world physics (ADD, RS-I/II) explicitly allows bulk Planck to differ from brane Planck. The cascade adopts $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ because: (a) brane-world consistency (bulk Planck can be TeV-scale), (b) 9D = $v_{\rm Higgs}$ match works (1.3% off $v_{\rm Higgs}$ = 246 GeV), (c) $M^{\alpha}$ scaling for $M_{\rm Pl,N}$ at 5-9D gives EW-scale physics (200-700 GeV, the electroweak range), (d) $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ matches the cascade's $M_{\rm Pl,4}$ ≥ $4 \times 10^{23}\,\text{GeV}$ floor from previous analysis. **CRITICAL**: $M_{\rm Pl,3D}$ = 10¹⁹ GeV is MEASURED (Newton's G); $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ is INFERRED from cascade consistency and the 9D = $v_{\rm Higgs}$ match. $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ is DERIVED from the assumed $M_{\rm Pl,4D}$ via the closed-loop formula. **MULTI-UNIVERSE PICTURE (v3.1.2-final, USER-CORRECTED TWICE, v3.1.2-final: $N_{\rm sub}$ FREE, AUDIT-CORRECTED)**: Sub-universes are NOT our 3+1D galaxies. Sub-universes are 3+1D universes CREATED by an ENERGETIC EVENT in the 4D bulk. The specific 4D-bulk mechanism is UNKNOWN (NOT necessarily 'galaxy collisions', 'star collisions', or any other specific structure). ** $N_{\rm sub}$ is a FREE PARAMETER** (4D-bulk dynamics unknown). $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (energy conservation). The previous choice $N_{\rm sub} = 300$ was ARBITRARY and is not derived. For any $N_{\rm sub}$, $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$ gives the sub-universe lifetime. Constraint: $\tau_{\rm sub}$ > 13.8 Gyr (universe still alive) → $N_{\rm sub}$ < $4.2 \times 10^{18}$(AUDIT-CORRECTED from $2 \times 10^{19}$). **AGE vs LIFETIME (v3.1.2-final, HONEST)**: 13.8 Gyr is the universe's CURRENT AGE (observed, the only firm value). The LIFETIME is UNKNOWN — it depends on $E_{\rm sub}$ = $E_{\rm 4D}$ / $N_{\rm sub}$. The previous "~10³⁰ yr lifetime" claim was based on $N_{\rm sub} = 300 ($ ARBITRARY) and has been RETRACTED. **FRAME OF REFERENCE (v3.1.2-final)**: $M^{\alpha}$ law gives APPARENT durations in the LOWER-D frame, not proper times in the higher-D frame. 2D lifetime (33 s) is in the 3+1D frame. 3+1D sub-universe lifetime (UNKNOWN) is in 3+1D's own frame. 4D event apparent duration ($1.4 \times 10^{34}\,\text{yr}$) is in the 3+1D frame, time-dilated from 4D proper time via γ ~ 10⁶². The 4D event proper duration is T_4D_proper = $\tau_{\rm 4D}$ / γ ~ 10⁻²⁰ s. **Gains**: (1) 9D = $v_{\rm Higgs}$ match (1.3%, suggestive), (2) $M^{\alpha}$ scaling for $M_{\rm Pl,N}$ gives EW-scale physics, (3) 4D event is galaxy-scale (10⁵⁹ J ≈ 10⁹ $M_{\rm sun}$), (4) bulk and brane have DIFFERENT gravity, (5) consistent with all 2D/3D/4D levels having their own gravity scales (2D = 3 TeV brane-world, 3D = 10¹⁹ GeV measured, 4D = $4 \times 10^{23}\,\text{GeV}$ bulk), (6) $N_{\rm sub}$ and $E_{\rm sub}$ are FREE (honest), (7) age vs lifetime: AGE observed, LIFETIME unknown, (8) frame of reference clarified. STRENGTH: framework is internally consistent with brane-world physics; 4D bulk and 2D brane both have non-standard gravity; 9D = $v_H$ match is the strongest "extra" prediction; honest about $N_{\rm sub}$, $E_{\rm sub}$, $\tau_{\rm sub}$ all being free/undetermined. WEAKNESS: $M_{\rm Pl,4D}$ is INFERRED, not measured; 4D-bulk mechanism is UNKNOWN; $N_{\rm sub}$ is FREE (we cannot predict the universe's total lifetime); requires exotic physics; 9D = $v_H$ match could be coincidence (1.3% on single number); observational constraints (LHC, sub-mm gravity) constrain $M_{\rm Pl,4D}$ ≥ 887 GeV (we are at the floor). The cascade has 4 free parameters ( α, ε, $M_{\rm Pl,3D}$, $M_{\rm Pl,4D}$), plus 1 structural parameter ( $N_{\rm sub}$, undetermined by cascade). $M_{\rm Pl,3D}$ measured, $M_{\rm Pl,4D}$ calibrated. | [v3.3 UPDATE: $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ via α-weighted GM (DERIVED); $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (universe-scale); $\tau_{\rm 3D}$,apparent = $9.10 \times 10^{124}\,\text{yr}$; $\gamma_{\rm 4D}$ = $1.10 \times 10^{111}$(A2); 9D = $v_{\rm Higgs}$ DROPPED; α-weighted GM supersedes Scenario X.]
 
 **Summary (v3.1.2):**
 - **OPEN**: 28 (37%) — require theoretical physics work beyond SIDC's current framework (L31, L33-L35 retained; L38-L43 added v3.0.2; L45 NEW; L91 NEW; L94, L96, L97, L119, L120 NEW v3.0.22; **L143, L144, L145 NEW v3.1.2**)
@@ -8604,7 +8590,7 @@ SIDC's HONEST position (Mechanism M):
 
 - **Limitation 14 (sign ambiguity in §2.4 mathematical sketch) is now FULLY CLOSED** by the clean formulation in §2.4. The ordinary attractive gravity and the dark energy are now treated as two *physically distinct small contributions* to the effective 3+1D action — a *force on matter* and a *vacuum energy*, respectively — not as opposite-sign components of the same quantity. The two contributions are not required to have any algebraic sign relationship.
 
-- **Limitation 5 (proportionality constants for dark matter) is PARTIALLY CLOSED** by the growth factor derivation (§2.6 *Deriving the growth factor from 2D universe dynamics*). G = 20 × $V_{\rm growth}$ is derived from 2D universe FRW dynamics (G = 9.7 × 10⁷ from Omega_{DE,2D} = 0.999, $t_{\rm eq}$ = 1% of 2D lifetime, $T_{2D}$ = 30 Gyr, h_{2D} $\sim H_{0,\rm our}$), matching the trial-and-error value of 10⁸ within 3%. The growth factor is no longer a free parameter.
+- **Limitation 5 (proportionality constants for dark matter) is PARTIALLY CLOSED** by the growth factor derivation (§2.6 *Deriving the growth factor from 2D universe dynamics*). G = 20 × $V_{\rm growth}$ is derived from 2D universe FRW dynamics (G = $9.7 \times 10^{7}\,\text{from}$ Omega_{DE,2D} = 0.999, $t_{\rm eq}$ = 1% of 2D lifetime, $T_{2D}$ = 30 Gyr, h_{2D} $\sim H_{0,\rm our}$), matching the trial-and-error value of 10⁸ within 3%. The growth factor is no longer a free parameter.
 
 - **Limitation 15 (10⁸⁵ discrepancy for DE density) is PARTIALLY CLOSED** by the *Empirical formula for the 5/27/68 split* (§2.6): the 27% DM fraction follows from the derived G (since $M_{\rm DM} = 6.4 \times G \times M_{\rm event} \times N_{\rm events}$). The 5% ordinary and 68% DE are still coupled via SIDC's bulk-brane coupling (epsilon) and the staying fraction ($f_{\rm back}$); these are *defined* by the observed hierarchy and DE density respectively, not derived.
 
@@ -8618,7 +8604,7 @@ SIDC's HONEST position (Mechanism M):
 
 - **A new Mechanism B/F is proposed.** The 4D event's antigravity output is not constant in 4D time. Local H₀ measures the *current* 4D output; CMB H₀ measures the *time-averaged* 4D output. If the 4D event is currently ~8% above its historical average, $H_{0,\rm local}$ = 73 (matches data). This is *host-type-independent* (depends on the 4D event's global state), consistent with the SH0ES/SBF data. **Testable predictions:** H₀ at high z should be *below* the $\Lambda{\rm CDM}$ extrapolation (4D event was in pre-burst phase at high z), H₀ should be isotropic across the sky, H₀ should not correlate with any local property. *Status: MECHANISM B/F was TESTED with the full Pantheon+ statistical+systematic covariance matrix (1701 SNe, 1701x1701 cov, M fixed at SH0ES value). SIDC's H₀(z) = $H_{0,\rm CMB}^2 + ($ H_{0,\rm local}^2 - $H_{0,\rm CMB}^2) / (1+z)^{2/3}$ gives χ² = 1488.3 vs best-fit LCDM ( H₀ = 73.00) χ² = 1439.4. Δχ² = +48.9 (~7 sigma), LCDM WINS. MECHANISM B/F is REJECTED by Pantheon+ at high statistical significance. The data shows H₀ is *roughly constant* at ~73 across all z bins (z = 0.01-1.5), not decreasing with z as B/F predicted. See commit 82.*
 
-- **The RAR (radial acceleration relation) is naturally produced** by SIDC's picture. SIDC predicts: more energetic activity (star formation, supernovae, AGN) → more 2D universe creation → more DM. Since activity is naturally higher in galaxy centers, DM density is higher in galaxy centers, giving a *cuspy* or NFW-like profile rather than a uniform halo. SIDC's *qualitative* picture (activity-driven 2D universe creation + cumulative return from past 2D universe endings) is consistent with the *smooth* empirical RAR (McGaugh16 form, with g+ ∼ 1.2 × 10⁻¹⁰ m/s^2). SIDC's g+ scale matches the prediction G * M_D $M_{\rm halo}$ / $R_{\rm halo}^2$ for typical galaxies. *Status: QUALITATIVE PICTURE CONSISTENT with empirical RAR. The specific RAR shape has not been computed from first principles — SIDC says 2D universes cluster where activity is high but does not yet give the exact functional form of the RAR. This is a calculation, not a fundamental limitation.* (Earlier versions of this paper described SIDC as predicting a broken RAR with a uniform halo. This was an oversimplification; the full SIDC picture with activity-driven 2D universe creation and cumulative return is more naturally compatible with the empirical smooth RAR.)
+- **The RAR (radial acceleration relation) is naturally produced** by SIDC's picture. SIDC predicts: more energetic activity (star formation, supernovae, AGN) → more 2D universe creation → more DM. Since activity is naturally higher in galaxy centers, DM density is higher in galaxy centers, giving a *cuspy* or NFW-like profile rather than a uniform halo. SIDC's *qualitative* picture (activity-driven 2D universe creation + cumulative return from past 2D universe endings) is consistent with the *smooth* empirical RAR (McGaugh16 form, with g+ ∼ $1.2 \times 10^{-10}\,\text{m}$/s^2). SIDC's g+ scale matches the prediction G * M_D $M_{\rm halo}$ / $R_{\rm halo}^2$ for typical galaxies. *Status: QUALITATIVE PICTURE CONSISTENT with empirical RAR. The specific RAR shape has not been computed from first principles — SIDC says 2D universes cluster where activity is high but does not yet give the exact functional form of the RAR. This is a calculation, not a fundamental limitation.* (Earlier versions of this paper described SIDC as predicting a broken RAR with a uniform halo. This was an oversimplification; the full SIDC picture with activity-driven 2D universe creation and cumulative return is more naturally compatible with the empirical smooth RAR.)
 
 **Status of remaining limitations (v2.3.1 update):**
 
@@ -8681,7 +8667,7 @@ The data does not currently distinguish (a) from (b): both give the same 7/7 spe
 - The synthetic tests (commits 128, 138-148) were self-deceptive: I was generating synthetic galaxies with a specific RAR functional form, then fitting with my model — of course it worked
 - Real SPARC data follows a different shape than SIDC's $g₊{\rm cum}$ + $g₊{\rm active}$ model can match
 
-**BUT** SIDC's *framework* is MOND-compatible: MOND's interpolation function $g₊{\rm obs} = g₊{\rm bar} / (1 - \exp(-\sqrt{g_+{\rm bar}/g_+}))$ fits the real data to 10% median residual on 149 SPARC galaxies (commit 153, `calculations/sparc_joint_fit.py`). The empirical $g_+$ ∼ 1.0-1.2 × 10⁻¹⁰ m/s² is universal across the population (0.42 dex scatter, consistent with M/L noise). SIDC's 4D event physics could explain *why* g₊ is universal (from cumulative 2D universe gravity), even though SIDC's *specific $g₊{\rm obs}$ formula* is wrong.
+**BUT** SIDC's *framework* is MOND-compatible: MOND's interpolation function $g₊{\rm obs} = g₊{\rm bar} / (1 - \exp(-\sqrt{g_+{\rm bar}/g_+}))$ fits the real data to 10% median residual on 149 SPARC galaxies (commit 153, `calculations/sparc_joint_fit.py`). The empirical $g_+$ ∼ 1.0-$1.2 \times 10^{-10}\,\text{m}$/s² is universal across the population (0.42 dex scatter, consistent with M/L noise). SIDC's 4D event physics could explain *why* g₊ is universal (from cumulative 2D universe gravity), even though SIDC's *specific $g₊{\rm obs}$ formula* is wrong.
 
 **The SIDC-MOND hybrid (see §4.1 new subsection):** SIDC's framework + MOND's functional form. SIDC provides the geometric origin of g₊ (why it's universal at galaxy scales); MOND provides the $g₊{\rm obs}$( $g₊{\rm bar}$) interpolation (how $g_+{\rm obs}$ depends on $g_+{\rm bar}$). This is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.
 
@@ -8744,7 +8730,7 @@ A full Lagrangian consistent with all 10 constraints would be a SPECIFIC IMPLEME
 
 27. **NEW: SIDC's $g₊{\rm obs}$ functional form is MOND-compatible but not SIDC's own prediction (v2.2.1).** Real SPARC data (commit 153) shows that SIDC's g₊{obs} = g₊{bar} + $g_+${cum} + $g_+${active} decomposition is **falsified** (70% median residual on 149 galaxies), while MOND's interpolation $g₊{\rm obs} = g₊{\rm bar} / (1 - \exp(-\sqrt{g_+{\rm bar}/g_+}))$ fits to 10% median residual (with free g₊ and M/L). SIDC's *framework* can explain *why* g₊ is universal at galaxy scales (from cumulative 2D universe gravity), but SIDC does *not* derive MOND's specific interpolation function. The honest position: SIDC's RAR is *MOND-compatible*, not independent. A specific implementation would need to derive the MOND interpolation from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture.
 
-28. **NEW: Galaxy-vs-Cluster Scale Acceleration Divergence (PARTIALLY CLOSED, v2.3.0, commit 167).** The SIDC-MOND hybrid successfully accounts for the *empirical milestone* that g₊ is universal at g₊ ≈ 1.2 × 10⁻¹⁰ m/s² in *isolated* galaxy disks (SPARC) but g₊ ≈ 1.3 × 10⁻⁹ m/s² in *BCG-dominated cluster cores* (Tian+ 2024 BCGs: g₊ ≈ 1.7 × 10⁻⁹ m/s²). SIDC's explanation, derived from the new $V_{local}$ normalization in §4.17, follows from the geometry of a BCG sitting at the absolute focal point of a cluster's deep potential well: the BCG experiences the cumulative back-projection of not just its own stellar history but the *entire cluster's* shock-heated ICM sediment constantly falling inward. The cluster environment shifts the underlying thermodynamic processing scale upward, which naturally drives the back-projected metric acceleration scale up.
+28. **NEW: Galaxy-vs-Cluster Scale Acceleration Divergence (PARTIALLY CLOSED, v2.3.0, commit 167).** The SIDC-MOND hybrid successfully accounts for the *empirical milestone* that g₊ is universal at g₊ ≈ $1.2 \times 10^{-10}\,\text{m}$/s² in *isolated* galaxy disks (SPARC) but g₊ ≈ $1.3 \times 10^{-9}\,\text{m}$/s² in *BCG-dominated cluster cores* (Tian+ 2024 BCGs: g₊ ≈ $1.7 \times 10^{-9}\,\text{m}$/s²). SIDC's explanation, derived from the new $V_{local}$ normalization in §4.17, follows from the geometry of a BCG sitting at the absolute focal point of a cluster's deep potential well: the BCG experiences the cumulative back-projection of not just its own stellar history but the *entire cluster's* shock-heated ICM sediment constantly falling inward. The cluster environment shifts the underlying thermodynamic processing scale upward, which naturally drives the back-projected metric acceleration scale up.
 
 *First-principles formula* (per Gemini's correction, replacing the old $g₊ \propto M_{DM}/R_{halo}^2$ which predicted the wrong direction):
 
@@ -8763,11 +8749,11 @@ Order-of-magnitude agreement: 100× predicted vs 14× observed (within a factor 
 
 *Status: PARTIALLY CLOSED* — the formula structure correctly predicts the direction and order of magnitude.
 
-**Refined scaling (v2.3.0, commit 168):** The empirical relationship $a_0 \propto M^{0.57}$ from Tian+ 2024 (14× enhancement from M = 10¹² to M = 10¹⁴) is exactly the *MOND external field effect* scaling: $a_0(M) = a_0(M_{\rm galaxy}) \times \sqrt{M_{\rm cluster}/M_{\rm galaxy}} = 1.2 \times 10^{-10} \times \sqrt{100} = 1.2 \times 10^{-9}$ m/s², matching Tian+ 2024's 1.7 × 10⁻⁹ to within 30%.
+**Refined scaling (v2.3.0, commit 168):** The empirical relationship $a_0 \propto M^{0.57}$ from Tian+ 2024 (14× enhancement from M = 10¹² to M = 10¹⁴) is exactly the *MOND external field effect* scaling: $a_0(M) = a_0(M_{\rm galaxy}) \times \sqrt{M_{\rm cluster}/M_{\rm galaxy}} = 1.2 \times 10^{-10} \times \sqrt{100} = 1.2 \times 10^{-9}$ m/s², matching Tian+ 2024's $1.7 \times 10^{-9}\,\text{to}$ within 30%.
 
 SIDC's $V_{local}$ formula and MOND's external field effect are the **same physics viewed from different frameworks**: SIDC says the BCG sees cluster-wide energetic events through its own local sphere of influence; MOND says the BCG sees the cluster's tidal field. The 30% residual is the *specific calculation* that requires the 2D brane's detailed dynamics (Limitation 26).
 
-**Limitation 28 can be UPGRADED to PARTIALLY CLOSED with quantitative agreement**: the cluster g₊ enhancement is now a *derivable consequence* of SIDC's $V_{local}$ geometry (consistent with MOND's external field effect), with the exact coefficient (1.2 vs 1.7 × 10⁻⁹) being a *specific calculation* rather than a fundamental limitation. The SIDC-MOND hybrid now provides a *coherent picture* of g₊ across 1.5 orders of magnitude in halo mass.
+**Limitation 28 can be UPGRADED to PARTIALLY CLOSED with quantitative agreement**: the cluster g₊ enhancement is now a *derivable consequence* of SIDC's $V_{local}$ geometry (consistent with MOND's external field effect), with the exact coefficient (1.2 vs $1.7 \times 10^{-9}$) being a *specific calculation* rather than a fundamental limitation. The SIDC-MOND hybrid now provides a *coherent picture* of g₊ across 1.5 orders of magnitude in halo mass.
 
 **Direct test of $V_{\rm local}$ predictions on Tian+ 2024 data (v2.3.0, commit 170).** Per SIDC's 4 testable predictions, I performed a direct correlation analysis on the Tian+ 2024 BCGs (50 BCGs, computed per-galaxy g₊ from the deep MOND limit g₊ ≈ g₊{obs}² / g₊{bar}). Key results:
 
@@ -8818,7 +8804,7 @@ SIDC's action in §2.5.1 (with its CTP extension in §2.5.2) provides the **boun
 SIDC is *unusually well-positioned* for theorists to contribute because:
 
 - The action structure is **fixed** (§2.5.1, §2.5.2). Theorists don't need to design the framework; they need to fill in the free parameters.
-- The empirical targets are **sharp**. SIDC's g₊ at galaxies ( 1.2 × 10⁻¹⁰ m/s²) and at cluster BCGs ( 1.7 × 10⁻⁹ m/s²) are well-measured. The MOND EFE scaling g₊ ∝ σ^1.85 (Tian+ 2024) is a clean test.
+- The empirical targets are **sharp**. SIDC's g₊ at galaxies ( $1.2 \times 10^{-10}\,\text{m}$/s²) and at cluster BCGs ( $1.7 \times 10^{-9}\,\text{m}$/s²) are well-measured. The MOND EFE scaling g₊ ∝ σ^1.85 (Tian+ 2024) is a clean test.
 - The failure modes are **documented**. The 4D graph theory attempt at deriving 5/27/68 FAILED (commit 173). The 8 approaches are documented in `calculations/five_27_68_graph_theory.py`. A theorist can either succeed where these failed, or build on the failures to constrain the 4D event's specific physics.
 - The phenomenological pipeline is **ready**. SPARC (175 galaxies), Tian+ 2024 (50 BCGs), and Pantheon+ (1701 SNe) are all analyzed. New theoretical predictions can be tested against these datasets immediately.
 
@@ -8938,7 +8924,7 @@ L301. **CFT structures (Schwarzian, DOZZ, JT gravity, Liouville c=1) do not dire
 
 NO 2D CFT structure gives α = 1.289 naturally. The "1 + 1/√N" formula is the CLEANEST match but is still a structural interpretation. Source: `calculations/v35_tier2_research_depth.py`.
 
-L302. **F-theory compactification does not immediately give μ = 9 × 10⁶ GeV²** (v3.5, #6). F-theory estimates μ ∝ $M_{\rm Pl,4D}^2$/Vol_6(CY3), which gives different values depending on CY3 specifics. With $M_{\rm Pl,4D}$ = 4 × 10²³ GeV and typical Vol_6, μ ~ 10⁴⁰-10⁴¹ GeV², which is ~10³⁴× off from framework's μ = 9 × 10⁶ GeV². v3.4 F-theory adoption does NOT immediately close L26. Source: `calculations/v35_tier2_research_depth.py`.
+L302. **F-theory compactification does not immediately give μ = $9 \times 10^{6}\,\text{GeV}^2$** (v3.5, #6). F-theory estimates μ ∝ $M_{\rm Pl,4D}^2$/Vol_6(CY3), which gives different values depending on CY3 specifics. With $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ and typical Vol_6, μ ~ 10⁴⁰-10⁴¹ GeV², which is ~10³⁴× off from framework's μ = $9 \times 10^{6}\,\text{GeV}^2$. v3.4 F-theory adoption does NOT immediately close L26. Source: `calculations/v35_tier2_research_depth.py`.
 
 L303. **NEW ANGLE for μ: μ might be the AdS_2 radius of the 2D universe** (v3.5, #6, SPECULATIVE). The 2D universe is asymptotically AdS_2 (with cosmological constant Λ = -μ). The AdS_2 curvature scale IS μ. From F-theory: μ might come from compactification of 4D bulk geometry. This is physically motivated but speculative. Not yet derived. Source: `calculations/v35_tier2_research_depth.py`.
 
@@ -8949,7 +8935,7 @@ L303. **NEW ANGLE for μ: μ might be the AdS_2 radius of the 2D universe** (v3.
 
 ## 7.4.5 μ's 5 Structural Motivations (v3.5.7+, CONSOLIDATED)
 
-**Status update (v3.5.7+)**: μ = $M_{\rm Pl,2D}^2$ = 9 × 10⁶ GeV² has FIVE independent structural reasons. All five independently yield μ = $M_{\rm Pl,2D}^2$ via the framework's choice $M_{\rm Pl,2D}$ = 2.95 TeV. This is REMARKABLE convergence.
+**Status update (v3.5.7+)**: μ = $M_{\rm Pl,2D}^2$ = $9 \times 10^{6}\,\text{GeV}^2$ has FIVE independent structural reasons. All five independently yield μ = $M_{\rm Pl,2D}^2$ via the framework's choice $M_{\rm Pl,2D}$ = 2.95 TeV. This is REMARKABLE convergence.
 
 ### The 5 Independent Paths to μ = $M_{\rm Pl,2D}^2$
 
@@ -8979,7 +8965,7 @@ Closed string modular invariance forces $T_H$ = M_s/(2π) at the self-dual point
 
 $$T_H = \frac{M_s}{2\pi}, \quad \mu = (2\pi T_H)^2 = M_s^2 = M_{\rm Pl,2D}^2$$
 
-For M_s = 3 TeV: μ = 9 × 10⁶ GeV² ✓
+For M_s = 3 TeV: μ = $9 \times 10^{6}\,\text{GeV}^2$ ✓
 
 **References**: Chaudhuri 2001 PRL 86, 1943 (arXiv:hep-th/0008051); Minahan 2024 (Hagedorn from integrability); arXiv:2508.11626 (2025) string-based Hagedorn model.
 
@@ -9051,25 +9037,25 @@ L308d. **String thermal duality b ↔ 1/(2b) → $T_H$** (v3.5.7+). Closed strin
 L308e. **Hawking-Page β = 2π L → $T_H$** (v3.5.7+). Euclidean periodicity forced by SL(2,R) isometry. $T_H$ = 1/( 2π L) = $M_{\rm Pl,2D}$/( 2π). Same as Hagedorn via BH thermodynamics. Source: `calculations/v35_euclidean_periodicity_mu.py`.
 
 L308f. ** $M_{\rm Pl,2D}$ = 2.95 TeV origin: $N=12$ SYK + $v_{\rm Higgs}$ EW coincidence, NOT holographic** (v3.5.7+, USER-CAUGHT). The framework has historically labeled $M_{\rm Pl,2D}$ = 2.95 TeV as "holographic estimate" (L110, L113). This label is INCORRECT. The actual derivation chain:
-- The v32 calculation `lagrangian_v32_scale_downward.py` G_2D = G₄ × $L_{\rm 2D}$ gives $M_{\rm Pl,2D}$ = 1.71 TeV (Option 2) or 2.94×10¹² GeV (Option 1) — neither is 3 TeV.
+- The v32 calculation `lagrangian_v32_scale_downward.py` G_2D = G₄ × $L_{\rm 2D}$ gives $M_{\rm Pl,2D}$ = 1.71 TeV (Option 2) or $2.94 \times 10^{12}\,\text{GeV}$ (Option 1) — neither is 3 TeV.
 - The framework chose 3 TeV because ** $v_{\rm Higgs}$ × N = 246 GeV × 12 = 2952 GeV ≈ 3 TeV** (the "EW coincidence", L42), where $N=12$ is the SYK count for α = 1 + 1/√12.
 - The "holographic" label was applied retroactively in L110/L113 but does NOT match v32's actual output.
 
 **Honest framing**: $M_{\rm Pl,2D}$ = 2.95 TeV is a FRAMEWORK CHOICE ( $N=12$ SYK + $v_{\rm Higgs}$), not a derivation. The 1.7 TeV alternative (Option 2) is the actual "holographic" estimate but lacks the 12-fold structural connection. Status: PARTIAL (EW coincidence documented). Source: user catch + `calculations/v35_alpha_cone_depth_structure.py`.
 
-L308g. ** $M_{\rm Pl,4D}$ = 4 × 10²³ GeV derivation chain: closed loop + α-GM (NOT first-principles)** (v3.5.7+, USER-CAUGHT). The framework has TWO methods that give $M_{\rm Pl,4D}$ ≈ 4 × 10²³ GeV within 1%, but BOTH use calibrated inputs:
+L308g. ** $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ derivation chain: closed loop + α-GM (NOT first-principles)** (v3.5.7+, USER-CAUGHT). The framework has TWO methods that give $M_{\rm Pl,4D}$ ≈ $4 \times 10^{23}\,\text{GeV}$ within 1%, but BOTH use calibrated inputs:
 
-**Method 1 ( α-GM)**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^ α × $M_{\rm Pl,2D}$^(1- α) = 3.96×10²³ GeV
+**Method 1 ( α-GM)**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^ α × $M_{\rm Pl,2D}$^(1- α) = $3.96 \times 10^{23}\,\text{GeV}$
 - INPUTS: $M_{\rm Pl,3D}$ (measured), α (calibrated), $M_{\rm Pl,2D}$ = 2.95 TeV (L308f choice)
 
 **Method 2 (Closed loop)**: $M_{\rm Pl,4D} = E_{\rm 4D} / (\tau_{\rm 4D}/t_{\rm Pl})^{1/\alpha} = 3.92×10^{23}$ GeV
-- INPUTS: $E_{\rm 4D}$ = 5×10⁷⁹ J (calibrated to DE), $\tau_{\rm 4D}$ = 1.51×10³⁴ yr (calibrated to DE)
+- INPUTS: $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (calibrated to DE), $\tau_{\rm 4D}$ = $1.51 \times 10^{34}\,\text{yr}$ (calibrated to DE)
 
 Match within 1% ✓ (framework self-consistent).
 
-**But neither method is first-principles!** v3.1.2 tried THREE scenarios for $M_{\rm Pl,4D}$ (Scenario A: 8.3×10¹², B: 1.22×10¹⁹, X: 887 GeV) before adopting v3.3's α-GM. The current 3.93×10²³ value is the value consistent with DE observation.
+**But neither method is first-principles!** v3.1.2 tried THREE scenarios for $M_{\rm Pl,4D}$ (Scenario A: $8.3 \times 10^{12}$, B: $1.22 \times 10^{19}$, X: 887 GeV) before adopting v3.3's α-GM. The current $3.93 \times 10^{23}\,\text{value}$ is the value consistent with DE observation.
 
-**Honest chain**: DE observation → $E_{\rm 4D}$, $\tau_{\rm 4D}$ (calibrated) → closed loop → $M_{\rm Pl,4D}$. Also consistent with α-GM. Round to 4 × 10²³ GeV. Status: PARTIAL (self-consistent but not first-principles). Source: user catch + git history v3.1.2→v3.3 evolution.
+**Honest chain**: DE observation → $E_{\rm 4D}$, $\tau_{\rm 4D}$ (calibrated) → closed loop → $M_{\rm Pl,4D}$. Also consistent with α-GM. Round to $4 \times 10^{23}\,\text{GeV}$. Status: PARTIAL (self-consistent but not first-principles). Source: user catch + git history v3.1.2→v3.3 evolution.
 
 L308h. **First-principles search: 0/9 → 3/15 parameters derived (UPDATED v3.5.9+ A2, $N=12$ downgraded to STRUCTURAL per L308ag)** (v3.5.7+, USER-DIRECTED). Systematic attempt to derive framework parameters from first principles (7 possibilities: α, 4π, $N_{\rm sub}$, μ, ε, $\tau_{\rm 4D}$, cone slope). **3 NOW DERIVED** ( $N=12$ has first-principles motivations via L308u 6D anomaly but is classified STRUCTURAL per L308ag):
 - α = 1 + 1/ $\sqrt{12}$ (L308n, Schwarzian SYK $N=12$)
@@ -9096,14 +9082,14 @@ L308m. **MCMC parameter convergence: 4/15 strongly pinned, 2/15 framework choice
 
 L308n. ** α = 1 + 1/√12 EXACT first-principles match (NEW v3.5.8, BREAKTHROUGH)**. Schwarzian SYK saddle-point with $N=12$ gives α = 1.2886751346, matching framework's α = 1.289 within 0.025% — essentially EXACT. $N=12$ = 12 Majorana = 6 Dirac = 3 generations × 2 (L+R). This DERIVES α from first principles: (1) $N=12$ justified by SM fermion count, (2) 1/√N from Schwarzian coefficient, (3) α = 1 + cₛ where cₛ is the time-fluctuation exponent. **L43 (Lagrangian skeleton → α) OPEN → PARTIAL**. First-principles progress: 1/9 (was 0/9). Remaining: full combined Z = Z_Liouville × Z_Schwarzian × Z_SYK path integral, cross-couplings. Source: `calculations/v35_2d_cft_monte_carlo_alpha.py`, `calculations/v35_alpha_first_principles.txt`.
 
-L308o. ** $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$ scales linearly (NEW v3.5.8, USER-INSIGHT)**. User suggested $N_{\rm sub}$ might depend on event size. Tested scalings: linear ( $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$) MATCHES framework with $E_{\rm sub}$ = 1.295×10⁷⁷ J ( $N_{\rm sub} = 386$, rounded from 386.5). Other power laws (k=0.05 to 1.0) give off by factors 5 to 10³⁰. Surface area / volume scalings in 4D give off by 10⁶⁵. ** $N_{\rm sub}$ is NOT a fundamental constant; it derives from $E_{\rm 4D}$ via energy conservation** ( $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$). For our specific $E_{\rm 4D}$ = 5×10⁷⁹ J, $N_{\rm sub} = 386.$ Different 4D events would give different $N_{\rm sub}$ (sub-galaxy: N=4, supercluster: N=400,000). Status: SEMI-DERIVED — $N_{\rm sub}$ is no longer "free parameter" but $E_{\rm sub}$ itself is framework choice. L308n first-principles progress: 2/9 (was 1/9). Source: `calculations/v35_n_sub_scaling.py`.
+L308o. ** $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$ scales linearly (NEW v3.5.8, USER-INSIGHT)**. User suggested $N_{\rm sub}$ might depend on event size. Tested scalings: linear ( $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$) MATCHES framework with $E_{\rm sub}$ = $1.295 \times 10^{77}\,\text{J}$ ( $N_{\rm sub} = 386$, rounded from 386.5). Other power laws (k=0.05 to 1.0) give off by factors 5 to 10³⁰. Surface area / volume scalings in 4D give off by 10⁶⁵. ** $N_{\rm sub}$ is NOT a fundamental constant; it derives from $E_{\rm 4D}$ via energy conservation** ( $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$). For our specific $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$, $N_{\rm sub} = 386.$ Different 4D events would give different $N_{\rm sub}$ (sub-galaxy: N=4, supercluster: N=400,000). Status: SEMI-DERIVED — $N_{\rm sub}$ is no longer "free parameter" but $E_{\rm sub}$ itself is framework choice. L308n first-principles progress: 2/9 (was 1/9). Source: `calculations/v35_n_sub_scaling.py`.
 
 L308p. **Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8, USER-INSIGHT)**. User asked if $N_{\rm sub}$ scaling applies at 2D level too. Tested: linear scaling N_2D_per_event = $E_{\rm event}$/E_2D_ref at 2D gives SN creating 10⁶⁵ 2D universes per event, vastly overproducing DM (off by 10⁶⁵). Therefore the cone has DIFFERENT scaling rules at different levels: 4D → 3+1D is linear (universe-creating); 3+1D → 2D is one-to-one (universe-modifying). This asymmetry is CONSTRAINED by DM observation, not free. 4D level is "transcendent" (bulk), 3+1D level is "internal" (within universe). Each transition has its own scaling law, and 1:1 at 2D level is REQUIRED by DM abundance. Source: `calculations/v35_n_sub_scaling.py` (extended).
 
 L308q. **2D universe is discrete quantum (NEW v3.5.8, USER-INSIGHT)**. User asked why can't there be 2 half-mass universes per event. Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM (if lifetime is from event energy) but violate geometric constraint $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$. Framework's $M_{\rm 2D}$ is DERIVED from 5D AdS projection, not adjustable. 2D universe behaves as discrete 'particle' with fixed mass. Splitting would require different geometry, 2D CFT (multiple saddle points), and $M_{\rm Pl,2D}$ value (breaks α-GM by 9.4%). Within framework: $M_{\rm 2D}$ is quantum, smallest unit of DM. Source: `calculations/v35_2d_universe_quantum.py`.
 
 
-L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)**. The 3% offset between framework's μ = 9 × 10⁶ GeV ² and the new derivation μ = ( N × $v_{\rm Higgs}$) ² = 8.73 × 10⁶ GeV ² is within rounding. This REDUCES μ from CALIBRATED to DERIVED with 3 inputs:
+L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)**. The 3% offset between framework's μ = $9 \times 10^{6}\,\text{GeV}$ ² and the new derivation μ = ( N × $v_{\rm Higgs}$) ² = $8.73 \times 10^{6}\,\text{GeV}$ ² is within rounding. This REDUCES μ from CALIBRATED to DERIVED with 3 inputs:
 
 1. ** α = 1 + 1/ $\sqrt{12}$ = 1.2886751346** (FIRST-PRINCIPPLES, L308n, Schwarzian SYK $N=12$)
 2. ** $v_{\rm Higgs}$ = 246.22 GeV** (MEASURED, LEP+SLD combined Higgs mass)
@@ -9111,8 +9097,8 @@ L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (N
 
 **Derivation chain**:
 - $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 12 × 246.22 = 2954.64 GeV (3% off framework's 3 TeV choice)
-- μ = $M_{\rm Pl,2D}^2$ = 8.73 × 10⁶ GeV ² (3% off framework's 9 × 10⁶)
-- $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = 3.93 × 10²³ GeV (matches framework's 4 × 10²³ within 2%)
+- μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$ ² (3% off framework's $9 \times 10^{6}$)
+- $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = $3.93 \times 10^{23}\,\text{GeV}$ (matches framework's $4 \times 10^{23}\,\text{within}$ 2%)
 
 **L26 STATUS: OPEN → PARTIAL CLOSURE**. μ is no longer a calibrated parameter but follows from the same chain that gives $M_{\rm Pl,2D}$ and $M_{\rm Pl,4D}$.
 
@@ -9120,7 +9106,7 @@ L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (N
 - WHY $N=12$ specifically? (3 generations × 4 Weyl is consistent but not derived)
 - WHY α = 1 + 1/ $\sqrt{N}$ for SYK? (Schwarzian formula, framework-adopted)
 
-**Caveat**: The framework's choice of $M_{\rm Pl,2D}$ = 2.95 TeV vs the derivation's $M_{\rm Pl,2D}$ = 2.95 TeV reflects rounding. If we accept the derivation chain as primary, μ = 8.73 × 10⁶ GeV ² (not 9 × 10⁶). The framework should UPDATE μ to 8.73 × 10⁶ GeV ² for internal consistency.
+**Caveat**: The framework's choice of $M_{\rm Pl,2D}$ = 2.95 TeV vs the derivation's $M_{\rm Pl,2D}$ = 2.95 TeV reflects rounding. If we accept the derivation chain as primary, μ = $8.73 \times 10^{6}\,\text{GeV}$ ² (not $9 \times 10^{6}$). The framework should UPDATE μ to $8.73 \times 10^{6}\,\text{GeV}$ ² for internal consistency.
 
 **First-principles progress**: 2/9 → **3/9** (was α, $M_{\rm Pl,2D}$, now also μ). Source: `calculations/v35_mu_N_vH_derivation.py`.
 L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIRECTED)**. After §7.4.16's L26 PARTIAL CLOSURE via L308r (3% offset), 8 further derivation paths were attempted to FULLY close L26. **None bridge the 3% offset**. The 3% offset is genuinely from framework's $M_{\rm Pl,2D} = 2.95$ TeV (rounded) vs derivation's 2.95 TeV (exact N × $v_H$). Of 8 paths:
@@ -9134,11 +9120,11 @@ L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIR
   - Unimodular (Path 6): μ is integration constant
 
 - **1 is NOT APPLICABLE** (Path 8): b = i is fixed point, no RG flow
-- **1 works** (Path 1, L308r): μ = (N × $v_H$)² = 8.73 × 10⁶ GeV² (3% off)
+- **1 works** (Path 1, L308r): μ = (N × $v_H$)² = $8.73 \times 10^{6}\,\text{GeV}^2$ (3% off)
 
-**Verdict**: The 5 stringy/quantum-gravity paths confirm that ** $M_{\rm Pl,2D}^2$ is the natural μ** in 2D quantum gravity, but DON'T specify $M_{\rm Pl,2D}$ itself. The 3 "alternative" paths don't pin down μ. Only L308r's N × $v_H$ chain gives a non-tautological result, and it gives 8.73 × 10⁶ (3% off framework's 8.73×10⁶).
+**Verdict**: The 5 stringy/quantum-gravity paths confirm that ** $M_{\rm Pl,2D}^2$ is the natural μ** in 2D quantum gravity, but DON'T specify $M_{\rm Pl,2D}$ itself. The 3 "alternative" paths don't pin down μ. Only L308r's N × $v_H$ chain gives a non-tautological result, and it gives $8.73 \times 10^{6}$(3% off framework's $8.73 \times 10^{6}$).
 
-**RECOMMENDATION**: Framework should UPDATE $M_{\rm Pl,2D} = 2955 GeV$ and μ = 8.73 × 10⁶ GeV² for internal consistency with the new derivation chain. This makes L26 PARTIAL CLOSURE exact (no 3% offset). See §7.4.17 for full analysis. Source: `calculations/v35_mu_L26_complete.py`, `calculations/v35_mu_L26_complete_results.txt`.
+**RECOMMENDATION**: Framework should UPDATE $M_{\rm Pl,2D} = 2955 GeV$ and μ = $8.73 \times 10^{6}\,\text{GeV}^2$ for internal consistency with the new derivation chain. This makes L26 PARTIAL CLOSURE exact (no 3% offset). See §7.4.17 for full analysis. Source: `calculations/v35_mu_L26_complete.py`, `calculations/v35_mu_L26_complete_results.txt`.
 
 
 ## 7.4.6 α-GM Consistency and Cone Depth Structure (v3.5.7+, USER-DISCOVERED)
@@ -9148,9 +9134,9 @@ L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIR
 ### Link 1: α-GM Consistency ( $M_{\rm Pl,2D}$ UNIQUELY fixed by cascade)
 
 Given:
-- $M_{\rm Pl,3D}$ = 1.22 × 10¹⁹ GeV (MEASURED)
+- $M_{\rm Pl,3D}$ = $1.22 \times 10^{19}\,\text{GeV}$ (MEASURED)
 - α = 1.289 (CALIBRATED to 8 events)
-- $M_{\rm Pl,4D}$ = 4 × 10²³ GeV (DERIVED from closed loop + DE match)
+- $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ (DERIVED from closed loop + DE match)
 
 Inverting the α-GM formula:
 $$M_{\rm Pl,4D} = M_{\rm Pl,3D}^\alpha \times M_{\rm Pl,2D}^{(1-\alpha)}$$
@@ -9170,8 +9156,8 @@ This matches the framework's 3 TeV to within 3.6% (consistent with rounding). **
 
 The cascade has Planck scales at:
 - 2D: 2.95 TeV
-- 3+1D: 1.22 × 10¹⁹ GeV  
-- 4D: 4 × 10²³ GeV
+- 3+1D: $1.22 \times 10^{19}\,\text{GeV}$  
+- 4D: $4 \times 10^{23}\,\text{GeV}$
 
 Cone depths in α-units (depth = log(M_N/M_{N-1}) / log( α)):
 
@@ -9203,16 +9189,16 @@ These are CONSISTENCIES, not derivations. But they show that "12" is a **STRUCTU
 
 | Quantity | Computed | Framework | Match |
 |---|---|---|---|
-| α^41 | 3.31×10⁴ | $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ = 3.28×10⁴ | 1.08% ✓ |
-| α^142 | 4.53×10¹⁵ | $M_{\rm Pl,3D}$/ $M_{\rm Pl,2D}$ = 4.07×10¹⁵ | 11.4% |
-| α-GM $M_{\rm Pl,4D}$ | 3.96×10²³ | 3.93×10²³ | 1.0% ✓ |
-| Closed loop $M_{\rm Pl,4D}$ | 3.92×10²³ | 3.93×10²³ | 2.0% ✓ |
+| α^41 | $3.31 \times 10^{4}$| $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ = $3.28 \times 10^{4}$| 1.08% ✓ |
+| α^142 | $4.53 \times 10^{15}$| $M_{\rm Pl,3D}$/ $M_{\rm Pl,2D}$ = $4.07 \times 10^{15}$| 11.4% |
+| α-GM $M_{\rm Pl,4D}$ | $3.96 \times 10^{23}$| $3.93 \times 10^{23}$| 1.0% ✓ |
+| Closed loop $M_{\rm Pl,4D}$ | $3.92 \times 10^{23}$| $3.93 \times 10^{23}$| 2.0% ✓ |
 
 ### Status of L308f, L308g
 
 **L308f ( $M_{\rm Pl,2D}$ origin)**: PARTIAL — 2.95 TeV is consistent with α-GM + $N=12$ SYK + $v_{\rm Higgs}$, but the "holographic" label in L110 was incorrect.
 
-**L308g ( $M_{\rm Pl,4D}$ derivation)**: PARTIAL — 4 × 10²³ GeV is consistent with both α-GM and closed loop, but neither is first-principles (both use calibrated inputs).
+**L308g ( $M_{\rm Pl,4D}$ derivation)**: PARTIAL — $4 \times 10^{23}\,\text{GeV}$ is consistent with both α-GM and closed loop, but neither is first-principles (both use calibrated inputs).
 
 **Link 1 ( α-GM consistency)**: STRUCTURAL — shows $M_{\rm Pl,2D}$ = 2.95 TeV is the cascade-consistent value.
 
@@ -9228,16 +9214,16 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 | # | Parameter | Value | Status |
 |---|---|---|---|
-| 1 | $M_{\rm Pl,3D}$ | 1.22 × 10¹⁹ GeV | **MEASURED** ✓ (Newton's G) |
+| 1 | $M_{\rm Pl,3D}$ | $1.22 \times 10^{19}\,\text{GeV}$ | **MEASURED** ✓ (Newton's G) |
 | 2 | $M_{\rm Pl,2D}$ | 2.95 TeV (3 TeV rounded) | **DERIVED** (N × $v_{\rm Higgs}$ chain, L308r, this work) |
-| 3 | $M_{\rm Pl,4D}$ | 4 × 10²³ GeV | **DERIVED** via α-GM + closed loop (L308g) |
+| 3 | $M_{\rm Pl,4D}$ | $4 \times 10^{23}\,\text{GeV}$ | **DERIVED** via α-GM + closed loop (L308g) |
 | 4 | α | 1.289 | **DERIVED** (1 + 1/ $\sqrt{12}$, L308n, Schwarzian SYK) |
 | 5 | ε | 10⁻³⁸ | **CALIBRATED** to hierarchy |
-| 6 | $\tau_{\rm 4D}$ | 1.51 × 10³⁴ yr | **CALIBRATED** to DE |
-| 7 | $\gamma_{\rm 4D}$ | 6.03 × 10⁹⁰ | **DERIVED** from $\tau_{\rm 4D}$ / $M_{\rm Pl,4D}$ |
-| 8 | AGN rate | 3 × 10⁻¹⁶ /m³/s | **CALIBRATED** to DM |
-| 9 | $N_{\rm sub}$ | 4 × 10² | **FREE** (L144 OPEN) |
-| -- | μ = $M_{\rm Pl,2D}^2$ | 9 × 10⁶ GeV² | **STRUCTURAL** (5 paths, L308a-e) |
+| 6 | $\tau_{\rm 4D}$ | $1.51 \times 10^{34}\,\text{yr}$ | **CALIBRATED** to DE |
+| 7 | $\gamma_{\rm 4D}$ | $6.03 \times 10^{90}$| **DERIVED** from $\tau_{\rm 4D}$ / $M_{\rm Pl,4D}$ |
+| 8 | AGN rate | $3 \times 10^{-16}$/m³/s | **CALIBRATED** to DM |
+| 9 | $N_{\rm sub}$ | $4 \times 10^{2}$| **FREE** (L144 OPEN) |
+| -- | μ = $M_{\rm Pl,2D}^2$ | $9 \times 10^{6}\,\text{GeV}^2$ | **STRUCTURAL** (5 paths, L308a-e) |
 
 **Verdict (v3.5.9+ A2 REVISED)**: **3/15 first-principles ( $N=12$ downgraded to STRUCTURAL per L308ag) derived** (was 1/9, then 3/9). DERIVED: α (L308n), $M_{\rm Pl,2D}$ (L308r), μ (L308r). $N=12$ has strong first-principles motivations (L308u 6D anomaly) but is classified STRUCTURAL per L308ag. Total 15 parameters: 1 MEASURED, 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ), 2 DERIVED ( $M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via $N_{\rm sub}$ × $E_{\rm sub}$), 4 CALIBRATED, 4 STRUCTURAL ( $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$ per L308ag), 1 FREE.
 
@@ -9247,13 +9233,13 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 **2. 4π geometric factor in $\gamma_{\rm 4D}$ = 4π × $\gamma_{\rm sub}$**: Tested 6 candidates (S³ surface, solid angle, Gauss law, holographic, S³×R topology, AdS isometry). Best candidate: 4π = surface area of unit 3-sphere S³ (i.e., 4D bulk's S³ boundary). Status: PARTIAL (structural, not derived).
 
-**3. $N_{\rm sub} = 3.86×10²$ first-principles**: Energy conservation $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ gives $E_{\rm sub}$ = 1.295×10⁷⁷ J (~cluster mass, $N_{\rm sub} = 386$= $E_{\rm 4D}$/ $E_{\rm sub}$, REVISED L308z). No physical principle determines $N_{\rm sub}$. Status: FREE (L144 OPEN).
+**3. $N_{\rm sub} = 3.86 \times 10^{2}$ first-principles**: Energy conservation $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ gives $E_{\rm sub}$ = $1.295 \times 10^{77}\,\text{J}$ (~cluster mass, $N_{\rm sub} = 386$= $E_{\rm 4D}$/ $E_{\rm sub}$, REVISED L308z). No physical principle determines $N_{\rm sub}$. Status: FREE (L144 OPEN).
 
-**4. μ = $M_{\rm Pl,2D}^2$ first-principles (PARTIAL CLOSURE via L308r)**: DERIVED via N × $v_{\rm Higgs}$ chain: μ = (12 × 246) ² = 8.73 × 10⁶ GeV ² (3% off framework's 9 × 10⁶). Combines α = 1 + 1/ $\sqrt{12}$ (L308n first-principles), $v_{\rm Higgs}$ (measured), N = 12 (structural). Status: **DERIVED** (L308r).
+**4. μ = $M_{\rm Pl,2D}^2$ first-principles (PARTIAL CLOSURE via L308r)**: DERIVED via N × $v_{\rm Higgs}$ chain: μ = (12 × 246) ² = $8.73 \times 10^{6}\,\text{GeV}$ ² (3% off framework's $9 \times 10^{6}$). Combines α = 1 + 1/ $\sqrt{12}$ (L308n first-principles), $v_{\rm Higgs}$ (measured), N = 12 (structural). Status: **DERIVED** (L308r).
 
 **5. ε = 10⁻³⁸ hierarchy constant**: $f_{\rm DE}$ = ( $M_{\rm Pl,2D}$/ $E_{\rm SN}$) $^{\alpha}$ ≈ 10⁻⁶⁵ (way bigger than needed). ε is separate factor calibrated to give DE. Status: OPEN (calibrated).
 
-**6. $\tau_{\rm 4D}$ = 1.51×10³⁴ yr first-principles**: $\tau_{\rm 4D}$ = ( $E_{\rm 4D}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$,4D with $E_{\rm 4D}$ calibrated. No first-principles for $E_{\rm 4D}$. Status: OPEN.
+**6. $\tau_{\rm 4D}$ = $1.51 \times 10^{34}\,\text{yr}$ first-principles**: $\tau_{\rm 4D}$ = ( $E_{\rm 4D}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$,4D with $E_{\rm 4D}$ calibrated. No first-principles for $E_{\rm 4D}$. Status: OPEN.
 
 **7. Cone slope α from geometry**: Tested cone half-angle θ: tan(52.18°) = 1.280 (close but not exact). sec(39.1°) = 1.289 but 39.1° not natural. No clean geometric angle found. Status: NO DERIVATION.
 
@@ -9261,7 +9247,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 **UPDATED v3.5.8+ (after L308r, this work)**: After 7+ systematic attempts, **3 of the 9 framework parameters now have first-principles derivations**:
 - **L43 ( α) PARTIAL → CLOSED via L308n**: α = 1 + 1/ $\sqrt{12}$ = 1.2887, matches framework 1.289 within 0.025%
-- **L308r ( $M_{\rm Pl,2D}$, μ) CLOSED (this work)**: $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 2955 GeV; μ = $M_{\rm Pl,2D}^2$ = 8.73 × 10⁶ GeV ²
+- **L308r ( $M_{\rm Pl,2D}$, μ) CLOSED (this work)**: $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 2955 GeV; μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$ ²
 
 The framework is:
 - **Internally consistent** (multiple parameters cross-check via α-GM, closed loop, $M^{\alpha}$ law)
@@ -9407,7 +9393,7 @@ There are TWO possible endpoints:
 2. **Framework's chosen endpoint**: 4D (practical, observational)
 
 The framework chose 4D as the endpoint for PRACTICAL reasons:
-- $M_{\rm Pl,4D}$ = 4 × 10²³ GeV derived from α-GM
+- $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ derived from α-GM
 - 4D = bulk base, observable physics
 - 4D bulk theory (F-theory 12D) handles 4D structure
 - DROPPED 9D = $v_{\rm Higgs}$ in v3.3 (broke 4D floor)
@@ -9470,7 +9456,7 @@ The framework's actual position (v3.3, v3.4):
 **9D = $v_{\rm Higgs}$ (DROPPED v3.3)**:
 - v3.0.22 proposed $M_{\rm Pl,9D}$ = $v_{\rm Higgs}$ = 246 GeV (1.3% off)
 - 9D would be at EW scale, INSIDE our 3+1D world
-- DROPPED in v3.3 because it broke 4D = 4 × 10²³ GeV floor
+- DROPPED in v3.3 because it broke 4D = $4 \times 10^{23}\,\text{GeV}$ floor
 - L122 (SPECULATIVE v3.0.22): "9D = string critical dim, 9D = $v_H$ suggestive"
 
 **10D base (F-theory)**:
@@ -9620,7 +9606,7 @@ Source: `calculations/v35_cone_extends_to_zero.py`. Plot saved at `calculations/
 
 1. **SN $\tau_{\rm 2D}$ = 33 s** (TIGHT, calibrates α)
 2. ** $f_{\rm DE}$ = $t_{\rm Pl}$/ $\tau_{\rm 4D}$** (simple bilateral formula)
-3. ** $\rho_{\rm DE}$ = $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ = 2.5× 10⁻⁴⁷ GeV⁴**
+3. ** $\rho_{\rm DE}$ = $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴**
 4. **8 named events**: $M^{\alpha}$ law (positive τ)
 5. Loose priors on remaining parameters
 
@@ -9645,7 +9631,7 @@ These converge to framework values within 0.5σ. They're "observationally pinned
 $M_{\rm Pl,2D}$ is now FIRST-PRINCIPLES (L308r, 12 × $v_{\rm Higgs}$ = 2.95 TeV). $N_{\rm sub}$ is FREE (L308z, event-specific = 386 for our universe). These ARE the "first-principles gaps".
 
 **Tier 3 (DERIVED, 5/15 parameters)**: $M_{\rm Pl,4D}$, $\gamma_{\rm 4D}$, $E_{\rm 4D}$, $\tau_{\rm 3D,apparent}$, $E_{\rm sub}$.
-These follow from Tier 1 + Tier 2 via framework consistency ( α-GM, $M^{\alpha}$ law, energy conservation $N_{\rm sub}$ × $E_{\rm sub}$). $\tau_{\rm 3D,apparent}$ and $E_{\rm sub}$ added as STRUCTURAL (v3.5.9+ L308z).
+These follow from Tier 1 + Tier 2 via framework consistency ($\alpha$-GM, $M^{\alpha}$ law, energy conservation $N_{\rm sub} \times E_{\rm sub}\$). \tau_{\rm 3D,apparent}$ and $E_{\rm sub}$ added as STRUCTURAL (v3.5.9+ L308z).
 
 ### Interpretation
 
@@ -9695,7 +9681,7 @@ Systematic search for first-principles derivations of remaining 8 parameters (af
 
 **Status**: STRUCTURAL motivation, not first-principles derivation. But the 1.5% discrepancy is within rounding (12 × $v_{\rm Higgs}$, PDG = 2954.6 GeV = 2.95 TeV (was rounded to 3 TeV)).
 
-**Coincidence check**: $M_{\rm Pl,2D}$ / $M_{\rm Pl,3D}$ = 2.46× 10⁻¹⁶ ≈ AGN rate (3× 10⁻¹⁶, within 22%). Possibly suggestive but not exact.
+**Coincidence check**: $M_{\rm Pl,2D}$ / $M_{\rm Pl,3D}$ = $2.46 \times 10^{-16}$≈ AGN rate ($3 \times 10^{-16}$, within 22%). Possibly suggestive but not exact.
 
 ### $N_{\rm sub} = 386$: NO DERIVATION FOUND
 
@@ -9727,15 +9713,15 @@ MCMC posterior: $10^{34.15 ± 0.04}$ yr matches framework $10^{34.18}$ ( 0.7σ).
 
 | # | Parameter | Value | Status |
 |---|---|---|---|
-| 1 | $M_{\rm Pl,3D}$ | 1.22 × 10¹⁹ GeV | MEASURED ✓ |
+| 1 | $M_{\rm Pl,3D}$ | $1.22 \times 10^{19}\,\text{GeV}$ | MEASURED ✓ |
 | 2 | α | 1.289 | DERIVED (1+1/√12) ✓ NEW |
-| 3 | $\tau_{\rm 4D}$ | 1.51×10³⁴ yr | CALIBRATED (MCMC converge) |
+| 3 | $\tau_{\rm 4D}$ | $1.51 \times 10^{34}\,\text{yr}$ | CALIBRATED (MCMC converge) |
 | 4 | ε | 10⁻³⁸ | CALIBRATED (CC problem) |
-| 5 | AGN rate | 3× 10⁻¹⁶ /m³/s | CALIBRATED (DM 27%) |
+| 5 | AGN rate | $3 \times 10^{-16}$/m³/s | CALIBRATED (DM 27%) |
 | 6 | $M_{\rm Pl,2D}$ | 2.95 TeV | STRUCTURAL (12× $v_H$) |
-| 7 | $N_{\rm sub}$ | 4×10² | FREE/CALIBRATED |
-| 8 | $M_{\rm Pl,4D}$ | 4 × 10²³ GeV | DERIVED via α-GM (circular) |
-| 9 | $E_{\rm 4D}$ | 5×10⁷⁹ J | DERIVED ( $M_{\rm Pl,4D}$, $\tau_{\rm 4D}$) |
+| 7 | $N_{\rm sub}$ | $4 \times 10^{2}$| FREE/CALIBRATED |
+| 8 | $M_{\rm Pl,4D}$ | $4 \times 10^{23}\,\text{GeV}$ | DERIVED via α-GM (circular) |
+| 9 | $E_{\rm 4D}$ | $5 \times 10^{79}\,\text{J}$ | DERIVED ( $M_{\rm Pl,4D}$, $\tau_{\rm 4D}$) |
 
 **Progress: 2/9 first-principles (was 1/9; α DERIVED!)**
 
@@ -9783,17 +9769,17 @@ $N_{\rm sub}$ counts the 3+1D sub-universes in the multi-universe picture.
 
 Tested scalings: $N_{\rm sub}$ ∝ $E_{\rm 4D}^k$ for various k.
 
-**Best fit: LINEAR ( $N_{\rm sub}$ = $E_{\rm 4D}$ / $E_{\rm sub}$)** where $E_{\rm sub}$ = 1.295×10⁷⁷ J ( $N_{\rm sub} = 386$, REVISED L308z from 1.25×10⁷⁷).
+**Best fit: LINEAR ( $N_{\rm sub}$ = $E_{\rm 4D}$ / $E_{\rm sub}$)** where $E_{\rm sub}$ = $1.295 \times 10^{77}\,\text{J}$ ( $N_{\rm sub} = 386$, REVISED L308z from $1.25 \times 10^{77}$).
 
 This is essentially ENERGY CONSERVATION: total event energy $E_{\rm 4D}$ split into $N_{\rm sub}$ sub-universes, each with fixed energy $E_{\rm sub}$.
 
 | Event | $E_{\rm 4D}$ (J) | $N_{\rm sub}$ | $\tau_{\rm sub}$ (yr) |
 |---|---|---|---|
-| Sub-galaxy (small) | 5×10⁷⁶ J | 4 | 2.5×10³³ yr |
-| Sub-galaxy (large) | 5×10⁷⁷ J | 40 | 3.3×10³² yr |
-| Framework (current) | 5×10⁷⁹ J | 400 | 6.7×10³⁰ yr |
-| Galaxy cluster | 5×10⁸¹ J | 40000 | 1.8×10²⁸ yr |
-| Supercluster | 5×10⁸² J | 400000 | 9.1×10²⁶ yr |
+| Sub-galaxy (small) | $5 \times 10^{76}\,\text{J}$ | 4 | $2.5 \times 10^{33}\,\text{yr}$ |
+| Sub-galaxy (large) | $5 \times 10^{77}\,\text{J}$ | 40 | $3.3 \times 10^{32}\,\text{yr}$ |
+| Framework (current) | $5 \times 10^{79}\,\text{J}$ | 400 | $6.7 \times 10^{30}\,\text{yr}$ |
+| Galaxy cluster | $5 \times 10^{81}\,\text{J}$ | 40000 | $1.8 \times 10^{28}\,\text{yr}$ |
+| Supercluster | $5 \times 10^{82}\,\text{J}$ | 400000 | $9.1 \times 10^{26}\,\text{yr}$ |
 
 $\tau_{\rm sub}$ = $\tau_{\rm 4D}$ / N_su $b^{\alpha}$ where α = 1.289.
 
@@ -9829,9 +9815,9 @@ $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$ makes $N_{\rm sub}$ a function of $E
 
 **Progress: 2/9 first-principles** ( $M_{\rm Pl,3D}$ + α). $N_{\rm sub}$ moved from Tier 2 (free) to SEMI-DERIVED.
 
-### Physical Meaning of $E_{\rm sub}$ = 1.295×10⁷⁷ J (REVISED L308z, was 1.25×10⁷⁷ in L308o)
+### Physical Meaning of $E_{\rm sub}$ = $1.295 \times 10^{77}\,\text{J}$ (REVISED L308z, was $1.25 \times 10^{77}\,\text{in}$ L308o)
 
-$E_{\rm sub}$ is about 10²⁹ $M_{\rm sun}$ (10²⁹ × solar mass), which is much bigger than the observable universe mass (~10²³ $M_{\rm sun}$). $E_{\rm sub}$ represents:
+$E_{\rm sub}$ is about 10²⁹ $M_{\rm sun}$ (10²⁹ × solar mass), which is much bigger than the observable universe mass (~10²³ $M_{\rm sun}$). E_{\rm sub}$ represents:
 - (a) Minimum energy to form a stable 3+1D sub-universe
 - (b) Vacuum energy of a sub-universe (with cosmological horizon)
 - (c) Total matter + DM + DE in one sub-universe
@@ -9843,7 +9829,7 @@ $E_{\rm sub}$ is not yet derived from first principles, but its value (~10²⁹ 
 If $N_{\rm sub}$ scales linearly with $E_{\rm 4D}$:
 1. Different 4D events would have different $N_{\rm sub}$ (not universal constant)
 2. Sub-universe structure varies with parent event size
-3. For our specific $E_{\rm 4D}$ = 5×10⁷⁹ J, $N_{\rm sub} = 386$ is fixed
+3. For our specific $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$, $N_{\rm sub} = 386$ is fixed
 4. The framework's multi-universe picture becomes more concrete
 
 This is a STRUCTURAL finding, not a derivation. But it's a significant refinement of the multi-universe picture.
@@ -9858,14 +9844,14 @@ Source: `calculations/v35_n_sub_scaling.py`.
 
 ### Test: Linear Scaling at 2D Level
 
-If N_2D_per_event = $E_{\rm event}$ / E_2D_ref (where E_2D_ref = $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ = 7.4× 10⁻¹³ GeV = 1.18× 10⁻²² J):
+If N_2D_per_event = $E_{\rm event}$ / E_2D_ref (where E_2D_ref = $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$ = $7.4 \times 10^{-13}\,\text{GeV}$ = $1.18 \times 10^{-22}\,\text{J}$):
 
 | Event | E (J) | $N_{\rm 2D}$ per event | $\tau_{\rm 2D}$ (s) |
 |---|---|---|---|
-| Asteroid (10¹⁷ J) | 10¹⁷ J | 8.5×10³⁸ | 4.7× 10⁻³⁴ s |
-| SN (10⁴⁴ J) | 10⁴⁴ J | ** 8.5 × 10⁶⁵** | 33 s |
-| AGN (10⁵⁵ J) | 10⁵⁵ J | 8.5×10⁷⁶ | 4.5×10¹⁵ s |
-| Quasar (10⁶⁰ J) | 10⁶⁰ J | 8.5×10⁸¹ | 1.2×10²² s |
+| Asteroid (10¹⁷ J) | 10¹⁷ J | $8.5 \times 10^{38}$| $4.7 \times 10^{-34}\,\text{s}$ |
+| SN (10⁴⁴ J) | 10⁴⁴ J | ** $8.5 \times 10^{65}$** | 33 s |
+| AGN (10⁵⁵ J) | 10⁵⁵ J | $8.5 \times 10^{76}$| $4.5 \times 10^{15}\,\text{s}$ |
+| Quasar (10⁶⁰ J) | 10⁶⁰ J | $8.5 \times 10^{81}$| $1.2 \times 10^{22}\,\text{s}$ |
 
 **SN would create 10⁶⁵ 2D universes per event!** This vastly overproduces DM.
 
@@ -9926,8 +9912,8 @@ Tested: 2 × $M_{\rm 2D}$/2 universes per event (vs framework's 1 × $M_{\rm 2D}
 
 | Scenario | Per universe mass | Lifetime | DM per event |
 |---|---|---|---|
-| A: 1 universe (FRAMEWORK) | $M_{\rm 2D}$ = 7.4× 10⁻¹³ GeV | $\tau_{\rm 2D}$ = $(E/M_{\rm Pl,3D})^{\alpha}$ × $t_{\rm Pl}$ | $M_{\rm 2D}$ × $\tau_{\rm 2D}$ |
-| B: 2 half-mass universes | $M_{\rm 2D}$/2 = 3.7× 10⁻¹³ GeV | same $\tau_{\rm 2D}$ | $M_{\rm 2D}$ × $\tau_{\rm 2D}$ |
+| A: 1 universe (FRAMEWORK) | $M_{\rm 2D}$ = $7.4 \times 10^{-13}\,\text{GeV}$ | $\tau_{\rm 2D}$ = $(E/M_{\rm Pl,3D})^{\alpha}$ × $t_{\rm Pl}$ | $M_{\rm 2D}$ × $\tau_{\rm 2D}$ |
+| B: 2 half-mass universes | $M_{\rm 2D}$/2 = $3.7 \times 10^{-13}\,\text{GeV}$ | same $\tau_{\rm 2D}$ | $M_{\rm 2D}$ × $\tau_{\rm 2D}$ |
 
 **Same DM total!** But each universe has mass $M_{\rm 2D}$/2, NOT framework's $M_{\rm 2D}$.
 
@@ -9941,7 +9927,7 @@ Schwarzian + Majorana has UNIQUE saddle-point per (E, J). Multiple saddle points
 
 **Reason 3: OBSERVATIONAL CALIBRATION**:
 - SN $\tau_{\rm 2D}$ = 33 s calibrates $M^{\alpha}$ law
-- AGN rate = 3× 10⁻¹⁶ /m³/s gives 27% DM
+- AGN rate = $3 \times 10^{-16}$/m³/s gives 27% DM
 - DE density matches within 0.13%
 - All consistent with 1 universe per event of mass $M_{\rm 2D}$
 
@@ -9953,15 +9939,15 @@ Schwarzian + Majorana has UNIQUE saddle-point per (E, J). Multiple saddle points
 For 2D universe mass = $M_{\rm 2D}$/2:
 - Need $M_{\rm Pl,2D}$ = √( $M_{\rm Pl,3D}$ × $M_{\rm 2D}$/2) = 2.12 TeV (not framework's 2.95 TeV)
 - α-GM with $M_{\rm Pl,2D}$ = 2.12 TeV gives $M_{\rm Pl,4D}$ = $4.4 \times 10^{23}\,\text{GeV}$
-- Framework needs $M_{\rm Pl,4D}$ = 4 × 10²³ GeV
+- Framework needs $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$
 - **Ratio: 1.094 — breaks α-GM consistency!**
 
-Cannot have BOTH $M_{\rm 2D}$ = $M_{\rm 2D}$/2 AND framework's $M_{\rm Pl,4D}$ = 4 × 10²³ GeV.
+Cannot have BOTH $M_{\rm 2D}$ = $M_{\rm 2D}$/2 AND framework's $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$.
 
 ### Conclusion: 2D Universe is a Discrete Quantum
 
 The 2D universe has:
-- **FIXED mass** $M_{\rm 2D}$ = 7.4× 10⁻¹³ GeV (from 5D AdS geometry)
+- **FIXED mass** $M_{\rm 2D}$ = $7.4 \times 10^{-13}\,\text{GeV}$ (from 5D AdS geometry)
 - **Variable lifetime** ( $M^{\alpha}$ law from event energy)
 - **Unique creation mode** per event (1 universe per event)
 
@@ -10057,12 +10043,12 @@ After §7.4.16's L26 PARTIAL CLOSURE (3% offset between derivation and framework
 | Quantity | Framework (PRE-L308t) | Derivation (L308r) | Offset |
 |---|---|---|---|
 | $M_{\rm Pl,2D}$ | 3000 GeV (3 TeV) | 2954.64 GeV (12 × 246.22) | 1.5% |
-| μ | 9 × 10⁶ GeV² | 8.73 × 10⁶ GeV² | 3.0% |
-| $M_{\rm Pl,4D}$ (α-GM) | 4 × 10²³ GeV | 3.93 × 10²³ GeV | 1.7% |
+| μ | $9 \times 10^{6}\,\text{GeV}^2$ | $8.73 \times 10^{6}\,\text{GeV}^2$ | 3.0% |
+| $M_{\rm Pl,4D}$ (α-GM) | $4 \times 10^{23}\,\text{GeV}$ | $3.93 \times 10^{23}\,\text{GeV}$ | 1.7% |
 
 The 3% offset is exactly (1.015)² = 1.030, consistent with $M_{\rm Pl,2D}$ being the source. **Conclusion: the offset is from framework's rounding of $M_{\rm Pl,2D}$ to 3 TeV (3 sig figs)**.
 
-**POST-L308t UPDATE**: Framework values updated to match derivation ($M_{\rm Pl,2D} = 2955 GeV$, μ = 8.73×10⁶ GeV², $M_{\rm Pl,4D} = 3.93×10²³ GeV). $ This eliminates the 3% offset (L26 FULL CLOSURE). See L308t entry.
+**POST-L308t UPDATE**: Framework values updated to match derivation. $M_{\rm Pl,2D} = 2955\,\text{GeV}$, $\mu = 8.73 \times 10^{6}\,\text{GeV}^2$, $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV}$. This eliminates the 3% offset (L26 FULL CLOSURE). See L308t entry.
 
 ### 8 Attempted Derivation Paths (v3.5.8+)
 
@@ -10070,11 +10056,11 @@ After exhaustive search, 8 candidate derivations for μ were tested. Only Path 1
 
 | # | Path | Formula | Result | Tautological? | Source |
 |---|---|---|---|---|---|
-| 1 | N × $v_H$ (L308r) | μ = (N × $v_H$)² | 8.73 × 10⁶ GeV² (3% off) | NO | `v35_mu_N_vH_derivation.py` |
-| 2 | Hagedorn self-dual | μ = Mₛ² with $M_s = M_{\rm Pl,2D}$ | 9 × 10⁶ GeV² | YES | `v35_hagedorn_mu.py` |
-| 3 | JT dilaton potential | $\mu = -R_{\rm AdS,2}/2 = M_{\rm Pl,2D}^2$ | 9 × 10⁶ GeV² | YES | `v35_jt_mu.py` |
-| 4 | String thermal duality | μ = M_s² at b↔1/(2b) self-dual | 9 × 10⁶ GeV² | YES | `v35_string_duality_mu.py` |
-| 5 | Hawking-Page β = 2π L | $\mu = M_{\rm Pl,2D}^2$ at $\beta_{\rm H}$ | 9 × 10⁶ GeV² | YES | `v35_euclidean_periodicity_mu.py` |
+| 1 | N × $v_H$ (L308r) | μ = (N × $v_H$)² | $8.73 \times 10^{6}\,\text{GeV}^2$ (3% off) | NO | `v35_mu_N_vH_derivation.py` |
+| 2 | Hagedorn self-dual | μ = Mₛ² with $M_s = M_{\rm Pl,2D}$ | $9 \times 10^{6}\,\text{GeV}^2$ | YES | `v35_hagedorn_mu.py` |
+| 3 | JT dilaton potential | $\mu = -R_{\rm AdS,2}/2 = M_{\rm Pl,2D}^2$ | $9 \times 10^{6}\,\text{GeV}^2$ | YES | `v35_jt_mu.py` |
+| 4 | String thermal duality | μ = M_s² at b↔1/(2b) self-dual | $9 \times 10^{6}\,\text{GeV}^2$ | YES | `v35_string_duality_mu.py` |
+| 5 | Hawking-Page β = 2π L | $\mu = M_{\rm Pl,2D}^2$ at $\beta_{\rm H}$ | $9 \times 10^{6}\,\text{GeV}^2$ | YES | `v35_euclidean_periodicity_mu.py` |
 | 6 | Unimodular gravity | μ = integration constant | ANY | INCONCLUSIVE | `v35_unimodular_mu.py` |
 | 7 | DOZZ c=1 Liouville | C(i,i,i) = 1, no scale | N/A | TRIVIAL | `v35_mu_boundary_cft.py` |
 | 8 | Dimensional transmutation | b = i fixed point, no RG | N/A | NOT APPLICABLE | `v35_mu_self_consistency.py` |
@@ -10115,19 +10101,19 @@ The derivation chain requires N = 12 to be fixed. Where does N = 12 come from?
 **Verdict**: μ is DERIVED from (N × $v_H$)² within 3% of framework's value, and the 3% offset is honestly from $M_{\rm Pl,2D}$ rounding. There is no known derivation that pins down $M_{\rm Pl,2D}$ more precisely than N × $v_H$.
 
 **Implication for the framework**:
-- If precision matters, the framework should UPDATE $M_{\rm Pl,2D} = 2955 GeV (2.95 $ TeV) and μ = 8.73 × 10⁶ GeV²
+- If precision matters, the framework should UPDATE $M_{\rm Pl,2D} = 2955 GeV (2.95 $ TeV) and μ = $8.73 \times 10^{6}\,\text{GeV}^2$
 - If backwards compatibility with previous sections matters, keep $M_{\rm Pl,2D} = 2.95$ TeV and acknowledge the 3% as rounding
 
-**Recommendation**: The framework should UPDATE to consistent values ( $M_{\rm Pl,2D} = 2955 GeV$, μ = 8.73 × 10⁶ GeV²) for INTERNAL CONSISTENCY with the new derivation chain. This makes L26 PARTIAL CLOSURE exact.
+**Recommendation**: The framework should UPDATE to consistent values ( $M_{\rm Pl,2D} = 2955 GeV$, μ = $8.73 \times 10^{6}\,\text{GeV}^2$) for INTERNAL CONSISTENCY with the new derivation chain. This makes L26 PARTIAL CLOSURE exact.
 
 Source: `calculations/v35_mu_L26_complete.py`, `calculations/v35_mu_L26_complete_results.txt`, `calculations/v35_mu_N_vH_derivation.py`, `calculations/v35_mu_boundary_cft.py`, `calculations/v35_mu_ftheory.py`, `calculations/v35_mu_self_consistency.py`.
 
 L308t. **Framework UPDATED to consistent values (L308t, NEW v3.5.8+, USER-DIRECTED, FULL CLOSURE)**. After L308r's L26 PARTIAL CLOSURE (3% offset between derivation and framework), user chose FULL CLOSURE: framework values updated to match derivation. Changes:
 
 - ** $M_{\rm Pl,2D}$**: 3 TeV (rounded) → **2.95 TeV (exact, 12 × 246.22 GeV)**
-- ** μ**: 9×10⁶ GeV² (rounded) → **8.73×10⁶ GeV² (exact, $M_{\rm Pl,2D}^2$)**
-- ** $M_{\rm Pl,4D}$**: 4×10²³ GeV (rounded) → **3.93×10²³ GeV (exact, α-GM with new $M_{\rm Pl,2D}$)**
-- ** $N_{\rm sub}$**: 4×10² (rounded) → **3.86×10² (exact, from new $M_{\rm Pl,4D}$)**
+- ** μ**: $9 \times 10^{6}\,\text{GeV}^2$ (rounded) → **$8.73 \times 10^{6}\,\text{GeV}^2$ (exact, $M_{\rm Pl,2D}^2$)**
+- ** $M_{\rm Pl,4D}$**: $4 \times 10^{23}\,\text{GeV}$ (rounded) → **$3.93 \times 10^{23}\,\text{GeV}$ (exact, α-GM with new $M_{\rm Pl,2D}$)**
+- ** $N_{\rm sub}$**: $4 \times 10^{2}$(rounded) → **$3.86 \times 10^{2}$(exact, from new $M_{\rm Pl,4D}$)**
 
 **L26 → FULLY CLOSED** (was PARTIAL CLOSURE with 3% offset). The derivation chain is now exact.
 
@@ -10139,13 +10125,13 @@ L308t. **Framework UPDATED to consistent values (L308t, NEW v3.5.8+, USER-DIRECT
 - α = 1.289 — UNCHANGED (Schwarzian SYK $N=12$)
 
 **Affected derived quantities** (1.5-3.4% shifts, all small):
-- 2D BH entropy: 3.49×10⁴⁶ → 3.60×10⁴⁶ (3% change, not directly observable)
-- $\gamma_{\rm 4D}$ time dilation: 1.10×10¹¹¹ (A2) → 1.10×10¹¹¹ (A2) (1.7% change, huge number)
-- $\tau_{\rm 3D,apparent}$: 9.10×10¹²⁴ yr → 1.66×10¹⁴⁵ yr (A2) (1.7% change, huge number)
+- 2D BH entropy: $3.49 \times 10^{46}$→ $3.60 \times 10^{46}$(3% change, not directly observable)
+- $\gamma_{\rm 4D}$ time dilation: $1.10 \times 10^{111}$(A2) → $1.10 \times 10^{111}$(A2) (1.7% change, huge number)
+- $\tau_{\rm 3D,apparent}$: $9.10 \times 10^{124}\,\text{yr}$ → $1.66 \times 10^{145}\,\text{yr}$ (A2) (1.7% change, huge number)
 
 **Source**: `calculations/v35_full_closure_consequences.py` (impact analysis), `calculations/v35_full_closure_consequences_results.txt`.
 
-**Note**: Some text in §7.4.16 and §7.4.17 retains references to "3 TeV" and "9×10⁶" in CONTRAST form (showing the OLD framework value vs NEW derivation) — these are intentional historical documentation, not stale values.
+**Note**: Some text in §7.4.16 and §7.4.17 retains references to "3 TeV" and "$9 \times 10^{6}$" in CONTRAST form (showing the OLD framework value vs NEW derivation) — these are intentional historical documentation, not stale values.
 
 L308u. **Why N = 12? — Z_12 bulk + 6D anomaly cancellation (NEW v3.5.9+, USER-DIRECTED, BREAKTHROUGH)**. The most striking open question (5 independent counts all giving $N=12$: SM, Majorana, F-theory, cone depth, Schwarzian) now has a first-principles derivation:
 
@@ -10184,11 +10170,11 @@ This is the unified deep origin of the "12" cascade fundamental unit. The "12 = 
 
 L308v. **L138 PARTIAL CLOSURE: $M_{\rm Pl,4D}$ via α-GM with first-principles inputs (NEW v3.5.9+, USER-DIRECTED)**. The α-GM formula $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) is now a CLOSED LOOP because all three inputs are first-principles:
 
-1. $M_{\rm Pl,3D} = 1.22×10¹⁹ GeV ($ MEASURED)
+1. $M_{\rm Pl,3D} = 1.22 \times 10^{19}\,\text{GeV} ($ MEASURED)
 2. α = 1 + 1/√12 (L308n, Schwarzian SYK $N=12$, first-principles)
 3. $M_{\rm Pl,2D} = 12 × 246.22 GeV ($ L308r, N × $v_H$, first-principles)
 
-Result: $M_{\rm Pl,4D} = 3.98×10²³ GeV ($ matches framework's 3.93×10²³ within 1.2%).
+Result: $M_{\rm Pl,4D} = 3.98 \times 10^{23}\,\text{GeV} ($ matches framework's $3.93 \times 10^{23}\,\text{within}$ 1.2%).
 
 **Geometric interpretation**: The α-GM encodes the cascade's self-similar structure. Each level increases log $M_{\rm Pl}$ by α factor of the previous level. This is a SELF-SIMILAR CASCADE with expansion factor α.
 
@@ -10323,7 +10309,7 @@ After L308u (this section):
 ### What Remains Open (Tier 1 status)
 
 - **L138 ( $M_{\rm Pl,4D}$ closed-loop derivation)**: Riley 2008 formula gives n=9.07 (close to integer 9, not exact). Could be improved with specific 6D compactification. STATUS: PROMISING but not first-principles.
-- **L144 ( $N_{\rm sub}$ first-principles)**: No derivation found in research. $N_{\rm sub} = 3.86×10² re$ mains FREE. STATUS: OPEN.
+- **L144 ( $N_{\rm sub}$ first-principles)**: No derivation found in research. $N_{\rm sub} = 3.86 \times 10^{2}\,re$ mains FREE. STATUS: OPEN.
 - **Cone depth 12 sub-steps**: Structural (Z_12 fiber), not derived from deeper principle.
 
 ### Verification Checks
@@ -10348,14 +10334,14 @@ The framework's α-GM formula:
 $$M_{\rm Pl,4D} = M_{\rm Pl,3D}^\alpha \times M_{\rm Pl,2D}^{(1-\alpha)}$$
 
 **Inputs** (all first-principles post-L308n/r/u):
-- $M_{\rm Pl,3D} = 1.22×10¹⁹ GeV ($ MEASURED, Newton's G)
+- $M_{\rm Pl,3D} = 1.22 \times 10^{19}\,\text{GeV} ($ MEASURED, Newton's G)
 - α = 1 + 1/√12 = 1.2886751346 (L308n first-principles via Schwarzian SYK $N=12$)
 - $M_{\rm Pl,2D}$ = N × $v_H$ = 12 × 246.22 = 2954.64 GeV (L308r first-principles via N × $v_H$)
 
 **Output** via α-GM:
 $$M_{\rm Pl,4D} = (1.22 \times 10^{19})^{1.289} \times (2954.64)^{-0.289} = 3.98 \times 10^{23} \text{ GeV}$$
 
-Framework uses $M_{\rm Pl,4D} = 3.93×10²³ GeV. **$ Match: 1.2% (within framework precision).**
+Framework uses $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV}. **$ Match: 1.2% (within framework precision).**
 
 ### Geometric Interpretation
 
@@ -10373,8 +10359,8 @@ So each cascade level increases log scale by α factor of the previous level. Th
 ### What This Closes
 
 **L138 ( $M_{\rm Pl,4D}$ closed-loop derivation)**: 
-- BEFORE: $M_{\rm Pl,4D} = 4×10²³ GeV ($ calibrated)
-- NOW: $M_{\rm Pl,4D} = 3.98×10²³ GeV ($ DERIVED via α-GM with first-principles inputs)
+- BEFORE: $M_{\rm Pl,4D} = 4 \times 10^{23}\,\text{GeV} ($ calibrated)
+- NOW: $M_{\rm Pl,4D} = 3.98 \times 10^{23}\,\text{GeV} ($ DERIVED via α-GM with first-principles inputs)
 - The α-GM IS the closed-loop formula
 - The 1.2% offset was from rounding in framework's $M_{\rm Pl,2D} = 3$ TeV (vs derivation's 2.95 TeV) [POST-L308t: eliminated by framework value update to 2.95 TeV exact]
 
@@ -10410,7 +10396,7 @@ Hmm, framework has 9 input parameters (v3.5.9 PRE-A1). After A1 (§7.4.20), tota
 
 ### The Problem Discovered
 
-Mathematical audit (v3.5.9+) found that the framework's closed loop forces $f_{\rm leak}$ = 2.59× 10⁻² /s (way too fast), which breaks DM stability:
+Mathematical audit (v3.5.9+) found that the framework's closed loop forces $f_{\rm leak}$ = $2.59 \times 10^{-2}$/s (way too fast), which breaks DM stability:
 
 ```
 Closed loop (forces f_leak too fast):
@@ -10460,30 +10446,30 @@ This separates concerns cleanly:
 
 ### What Stays Unchanged ($\gamma_{\rm 4D}$ reinstated)
 
-- **$M_{\rm Pl,3D} = 1.22×10¹⁹ GeV** ($ measured)
+- **$M_{\rm Pl,3D} = 1.22 \times 10^{19}\,\text{GeV}** ($ measured)
 - ** $M_{\rm Pl,2D} = 2.95$ TeV** (L308r first-principles)
-- **$M_{\rm Pl,4D} = 3.93×10²³ GeV** ($ α-GM, L308v first-principles)
+- **$M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV}** ($ α-GM, L308v first-principles)
 - **α = 1.289** (Schwarzian, L308n first-principles)
-- **μ = 8.73×10⁶ GeV²** (L308r)
+- **μ = $8.73 \times 10^{6}\,\text{GeV}^2$** (L308r)
 - **N = 12** (Appelquist 2001, L308u first-principles)
-- ** $E_{\rm 4D} = 5×10⁷⁹ J$= 3.12×10⁸⁹ GeV** (closed-loop from $\tau_{\rm 4D}$)
+- ** $E_{\rm 4D} = 5 \times 10^{79}\,\text{J}$= $3.12 \times 10^{89}\,\text{GeV}$** (closed-loop from $\tau_{\rm 4D}$)
 - **$\tau_{\rm 4D,proper} = 1.51\times10^{34}\,\text{yr}$** (calibrated for DE match)
 - **$\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$** (DERIVED, cascade amplification factor — REINSTATED)
 - **$\tau_{\rm 3D,apparent} = 1.66\times10^{145} (A2)\,\text{yr}$** ($\gamma_{\rm 4D} \times \tau_{\rm 4D}$, structural — REINSTATED)
-- ** $N_{\rm sub} = 3.86×10²** ($ calibrated, still first-principles open L144)
+- ** $N_{\rm sub} = 3.86 \times 10^{2}** ($ calibrated, still first-principles open L144)
 - **$\tau_{\rm sub} = 6.97\times10^{30}\,\text{yr}$** (sub-universe lifetime)
 
 ### What Changes ( $f_{\rm leak}$ = H₀)
 
 | Quantity | Before (Path B2) | After (A1) |
 |---|---|---|
-| $\gamma_{\rm 4D}$ | 1.12×10⁶⁴ (calibrated) | **1.10×10¹¹¹ (A2) (DERIVED, reinstated)** |
+| $\gamma_{\rm 4D}$ | $1.12 \times 10^{64}$(calibrated) | **$1.10 \times 10^{111}$(A2) (DERIVED, reinstated)** |
 | $\gamma_{\rm 4D}$ formula | decoupled | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ (REINSTATED) |
-| $f_{\rm leak}$ | 2.18× 10⁻¹⁸ /s = H₀ | **2.18× 10⁻¹⁸ /s = H₀** (same) |
+| $f_{\rm leak}$ | $2.18 \times 10^{-18}$/s = H₀ | **$2.18 \times 10^{-18}$/s = H₀** (same) |
 | $f_{\rm leak}$ source | $\gamma_{\rm 4D}$ calibrated to give H₀ | ** H₀ directly (NEW principle)** |
 | $\tau_{\rm DM}$ | 14.5 Gyr | **14.5 Gyr** (same) |
 | §3.67 formula | preserved (used) | **REPLACED** (becomes coincidence) |
-| $\tau_{\rm 3D,apparent}$ | 1.69×10⁹⁸ yr | **1.66×10¹⁴⁵ yr (A2) (REINSTATED)** |
+| $\tau_{\rm 3D,apparent}$ | $1.69 \times 10^{98}\,\text{yr}$ | **$1.66 \times 10^{145}\,\text{yr}$ (A2) (REINSTATED)** |
 
 ### Physical Interpretation
 
@@ -10494,8 +10480,8 @@ The framework now has three independent "rates":
    - 4D event's lifetime appears 10⁹⁰× longer in 3D frame
 
 2. **$\gamma_{2D}$ rate**: time dilation between 2D universe and 3+1D frames
-   - $\gamma_{2D}$(SN) = 5.5×10⁴⁴ (very large)
-   - 2D universe's proper time (in 2D's own frame) = $\gamma_{2D}$ × 33s = 5.5×10⁴⁴ × 33s = **5.7×10³⁸ yr**
+   - $\gamma_{2D}$(SN) = $5.5 \times 10^{44}$(very large)
+   - 2D universe's proper time (in 2D's own frame) = $\gamma_{2D}$ × 33s = $5.5 \times 10^{44}$× 33s = **$5.7 \times 10^{38}\,\text{yr}$**
    - 2D universe in 2D's own frame lives 10⁴⁴× LONGER than the 33s we observe in 3D frame
    - This is OPPOSITE direction from $\gamma_{\rm 4D}$: $\gamma_{2D}$ stretches time in 2D's own frame, $\gamma_{\rm 4D}$ stretches time in 3D frame
    - The cone is ASYMMETRIC in time direction (L308x v3, L308aa)
@@ -10594,8 +10580,8 @@ $$c = \frac{73.68}{65.18} = 1.13$$
 
 | Quantity | A1 | L308ab | Change |
 |----------|-----|--------|--------|
-| $f_{\rm leak}$(z = 0) | H₀ = 2.18× 10⁻¹⁸ /s | 1.13 × H₀ = 2.47× 10⁻¹⁸ /s | +13% |
-| $f_{\rm leak}$(z = 1100) | H₀ (constant) | 5.81× 10⁻¹⁴ /s = 2.66×10⁴ × H₀ | +2,660,000% |
+| $f_{\rm leak}$(z = 0) | H₀ = $2.18 \times 10^{-18}$/s | 1.13 × H₀ = $2.47 \times 10^{-18}$/s | +13% |
+| $f_{\rm leak}$(z = 1100) | H₀ (constant) | $5.81 \times 10^{-14}$/s = $2.66 \times 10^{4}$× H₀ | +2,660,000% |
 | $\tau_{\rm DM}$ (today) | 14.51 Gyr | 12.84 Gyr | -11.5% |
 | Drain by z = 1100 | 2.6% | ~100% (32 orders) | Closes gap |
 
@@ -10617,7 +10603,7 @@ In an expanding spacetime, particles can be produced from the vacuum (Parker 196
 - Was OPEN, now PARTIAL → CLOSED
 
 **2. A1 essentially preserved:**
-- $f_{\rm leak}$(z = 0) changes by only 13% (2.18× 10⁻¹⁸ → 2.47× 10⁻¹⁸ /s)
+- $f_{\rm leak}$(z = 0) changes by only 13% ($2.18 \times 10^{-18}$→ $2.47 \times 10^{-18}$/s)
 - $\tau_{\rm DM}$ changes by only 11.5% (14.51 → 12.84 Gyr)
 - All A1 derivations remain valid to within ~13%
 
@@ -10672,20 +10658,20 @@ This is a sharp question. Let me audit honestly.
 
 | # | Parameter | Value | Current Status |
 |---|---|---|---|
-| 1 | $M_{\rm Pl,3D}$ | 1.22×10¹⁹ GeV | MEASURED |
+| 1 | $M_{\rm Pl,3D}$ | $1.22 \times 10^{19}\,\text{GeV}$ | MEASURED |
 | 2 | α | 1.289 | FIRST-PRINCIPLES |
 | 3 | $M_{\rm Pl,2D}$ | 2.95 TeV | FIRST-PRINCIPLES |
-| 4 | μ | 8.73×10⁶ GeV² | FIRST-PRINCIPLES |
+| 4 | μ | $8.73 \times 10^{6}\,\text{GeV}^2$ | FIRST-PRINCIPLES |
 | 5 | $N=12$ | 12 | FIRST-PRINCIPLES |
-| 6 | $M_{\rm Pl,4D}$ | 3.93×10²³ GeV | DERIVED |
-| 7 | $E_{\rm 4D}$ | 5×10⁷⁹ J | DERIVED |
+| 6 | $M_{\rm Pl,4D}$ | $3.93 \times 10^{23}\,\text{GeV}$ | DERIVED |
+| 7 | $E_{\rm 4D}$ | $5 \times 10^{79}\,\text{J}$ | DERIVED |
 | 8 | ε | 10⁻³⁸ | CALIBRATED |
-| 9 | $\tau_{\rm 4D}$ | 1.51×10³⁴ yr | CALIBRATED |
-| 10 | AGN rate | 3× 10⁻¹⁶ /m³/s | CALIBRATED |
+| 9 | $\tau_{\rm 4D}$ | $1.51 \times 10^{34}\,\text{yr}$ | CALIBRATED |
+| 10 | AGN rate | $3 \times 10^{-16}$/m³/s | CALIBRATED |
 | 11 | $f_{\rm leak}$ | 1.13 × H₀ | CALIBRATED |
-| 12 | $E_{\rm sub}$ | 1.295×10⁷⁷ J | STRUCTURAL |
-| 13 | $\tau_{\rm 3D,apparent}$ | 1.66×10¹⁴⁵ yr (A2) | STRUCTURAL |
-| 14 | $\gamma_{\rm 4D}$ | 1.10×10¹¹¹ (A2) | STRUCTURAL |
+| 12 | $E_{\rm sub}$ | $1.295 \times 10^{77}\,\text{J}$ | STRUCTURAL |
+| 13 | $\tau_{\rm 3D,apparent}$ | $1.66 \times 10^{145}\,\text{yr}$ (A2) | STRUCTURAL |
+| 14 | $\gamma_{\rm 4D}$ | $1.10 \times 10^{111}$(A2) | STRUCTURAL |
 | 15 | $N_{\rm sub}$ | 386 | FREE |
 
 ### Re-audit: True Independence
@@ -10695,8 +10681,7 @@ This is a sharp question. Let me audit honestly.
 - After: 2 MEASURED, 3 CALIBRATED
 
 **Step 2: Recognize CALIBRATED redundancies**
-- $\rho_{\rm DE}$ = $f_{\rm DE}$ × ε × $M_{
-m Pl,3}$⁴ — DE observation gives the COMBINATION, not ε alone
+- $\rho_{\rm DE}$ = $f_{\rm DE}$ × ε × $M_{\rm Pl,3}$⁴ — DE observation gives the COMBINATION, not ε alone
 - $\tau_{\rm 4D}$ and ε are linked: only the product matters for DE
 - After: 2 CALIBRATED could collapse to 1 (DE density itself)
 
@@ -10793,7 +10778,7 @@ Tried multiple first-principles approaches:
 | Holographic | $N_{\rm sub}$ = A_3D / l_Pl,4D² | 10¹⁸⁵ | ✗ way too many |
 | Causal patches | $N_{\rm sub}$ = V_4D_ball / l_Pl,4D⁴ | 10²²⁵ | ✗ |
 | Entropy | $N_{\rm sub}$ = exp(S_BH/ k_B) | 10¹⁸⁵ | ✗ |
-| Power-law ratio | $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio¹ | 3.22×10⁴ | ✗ off by 83× |
+| Power-law ratio | $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio¹ | $3.22 \times 10^{4}$| ✗ off by 83× |
 | Power-law sqrt | $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio¹/2 | 179 | ✗ off by 2.2× |
 | Power-law cbrt | $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio¹/3 | 31.82 | ✓ × N₁₂ gives 381.8 |
 | Power-law 1/α | $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ ratio¹/α | 3143 | ✗ |
@@ -10924,13 +10909,13 @@ For practical purposes, ** $N_{\rm sub}$ ≈ 12 × $(M_{\rm Pl,4D}/M_{\rm Pl,3D}
 **Status**: DOCUMENTED GAP
 **Tier**: 3 (intermediate)
 
-**Issue**: The framework's "AGN rate = 3× 10⁻¹⁶ /m³/s" is calibrated to give 27% DM, but the unit interpretation is unclear:
+**Issue**: The framework's "AGN rate = $3 \times 10^{-16}$/m³/s" is calibrated to give 27% DM, but the unit interpretation is unclear:
 
 If taken literally as events per cubic meter per second with $M_{\rm 2D}$ ~ 10 $M_{\rm sun}$ (SN-scale):
-- Production rate = 3× 10⁻¹⁶ × 2×10⁴⁷ J = 6×10³¹ W/m³
-- Over 14 Gyr × 1.4×10¹⁸ s/yr × 10¹⁰ yr = 4.4×10²⁸ s
-- Total energy = 2.6×10⁶⁰ J/m³
-- Required: $\rho_{\rm DM}$ ~ 4× 10⁻¹² J/m³
+- Production rate = $3 \times 10^{-16}$× $2 \times 10^{47}\,\text{J}$ = $6 \times 10^{31}\,\text{W}$/m³
+- Over 14 Gyr × $1.4 \times 10^{18}\,\text{s}$/yr × 10¹⁰ yr = $4.4 \times 10^{28}\,\text{s}$
+- Total energy = $2.6 \times 10^{60}\,\text{J}$/m³
+- Required: $\rho_{\rm DM}$ ~ $4 \times 10^{-12}\,\text{J}$/m³
 - **Overproduction factor: 10⁷²**
 
 **Resolution paths**:
@@ -10941,9 +10926,9 @@ If taken literally as events per cubic meter per second with $M_{\rm 2D}$ ~ 10 $
 
 (c) **Decay/leak factor**: Only 10⁻⁷² of created DM survives, with the rest leaking back to 4D. This is essentially the $f_{\rm leak}$ = H₀ mechanism (A1, L308ab).
 
-(d) **Per-galaxy rate**: The "3× 10⁻¹⁶" might be a per-galaxy rate, not per m³. Galaxy density 10⁻² per Mpc³ = 3.4× 10⁻⁷⁰ per m³. Conversion: AGN rate per m³ = 3× 10⁻¹⁶ / galaxy density ≈ 10⁵⁴ per m³, but that's the wrong direction.
+(d) **Per-galaxy rate**: The "$3 \times 10^{-16}$" might be a per-galaxy rate, not per m³. Galaxy density 10⁻² per Mpc³ = $3.4 \times 10^{-70}\,\text{per}$ m³. Conversion: AGN rate per m³ = $3 \times 10^{-16}$/ galaxy density ≈ 10⁵⁴ per m³, but that's the wrong direction.
 
-**Coincidence noted (v3.5.7+)**: $M_{\rm Pl,2D}$ / $M_{\rm Pl,3D} = 2.42×10⁻¹⁶$, AGN rate = 3× 10⁻¹⁶ (within 22%). The framework explicitly flags this as a "coincidence check" (L110 limitations table line 1317), not a derivation.
+**Coincidence noted (v3.5.7+)**: $M_{\rm Pl,2D}$ / $M_{\rm Pl,3D} = 2.42 \times 10^{-16}$, AGN rate = $3 \times 10^{-16}$(within 22%). The framework explicitly flags this as a "coincidence check" (L110 limitations table line 1317), not a derivation.
 
 **Honest position**: The AGN rate is a CALIBRATED parameter that SIDC uses to match observation. Its unit interpretation is a documentation gap, not a physics failure. The framework's cascade mechanics work correctly (DM = 27%) regardless of how the rate is interpreted, because the rate is calibrated to that target.
 
@@ -11019,8 +11004,7 @@ But NONE of these are rigorous first-principles derivations. The "5 independent 
 |---|---|---|---|
 | FIRST-PRINCIPLES | α | ✓ | ✓ (L308n, via Schwarzian with assumed $N=12$) |
 | FIRST-PRINCIPLES | $M_{\rm Pl,2D}$ | ✓ | ✓ (L308r, $M_{\rm Pl,2D} = 12 ×$ $v_{\rm Higgs}$) |
-| FIRST-PRINCIPLES | μ | ✓ | ✓ (L308r, μ = $M_{
-m Pl,2D}$²) |
+| FIRST-PRINCIPLES | μ | ✓ | ✓ (L308r, μ = $M_{\rm Pl,2D}$²) |
 | FIRST-PRINCIPLES | $N=12$ | ✓ | **PARTIAL** (downgrade per this L308ag) |
 | FIRST-PRINCIPLES | 4 total | | **3 total** |
 
@@ -11772,7 +11756,7 @@ The 30-100 $M_{\rm sun}$ range is the "valley" between MACHO constraints and IMB
 
 **Three current/future surveys are in the 130 $M_{\rm sun}$ range:**
 
-1. **Gaia DR4 (FORECAST, 2026-2027)**: 10-3×10³ $M_{\rm sun}$, sensitive to fₗ > 0.001 substructure
+1. **Gaia DR4 (FORECAST, 2026-2027)**: 10-$3 \times 10^{3}$$M_{\rm sun}$, sensitive to fₗ > 0.001 substructure
    - Reference: Mondino et al. 2024, arXiv:2308.12330
    - "**Gaia DR4 could be the FIRST survey to test the 12-fold prediction!**"
 
@@ -11845,7 +11829,7 @@ The 12-fold coordination is a **SPATIAL pattern**, not a single signal. It manif
 
 2. **Gaia DR4 (2026-2027)**
    - Will have proper motions for 2+ billion stars
-   - Forecast to be sensitive to 10-3×10³ $M_{\rm sun}$ substructure
+   - Forecast to be sensitive to 10-$3 \times 10^{3}$$M_{\rm sun}$ substructure
    - **Could be the first direct test of 12-fold prediction**
 
 3. **Roman Space Telescope (2027)**
@@ -12637,13 +12621,13 @@ Re-read of:
 
 ## 7.5 v3.5 NEW ANGLE Limitations: μ first-principles (11 attempts)
 
-L304. ** μ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with $f_{\rm DE}^2$ suppression (SIDC's $f_{\rm DE}^2$ ~ $10^{-170}$ at LHC energies makes strings invisible). For M_s = 3 TeV: μ = M_s² = 9 × 10⁶ GeV² ✓ MATCHES framework. BUT: this requires M_s = $M_{\rm Pl,2D}$ = 2.95 TeV, which is just saying μ = $M_{\rm Pl,2D}^2$ (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.
+L304. ** μ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). Antoniadis 1990 low string scale scenario: M_s ~ TeV is consistent with $f_{\rm DE}^2$ suppression (SIDC's $f_{\rm DE}^2$ ~ $10^{-170}$ at LHC energies makes strings invisible). For M_s = 3 TeV: μ = M_s² = $9 \times 10^{6}\,\text{GeV}^2$ ✓ MATCHES framework. BUT: this requires M_s = $M_{\rm Pl,2D}$ = 2.95 TeV, which is just saying μ = $M_{\rm Pl,2D}^2$ (tautological). Status: STRUCTURAL, not derivation. Source: `calculations/v35_new_angle_mu.py`.
 
-L305. ** μ = b² × $M_{\rm Pl,2D}^2$ for c=1 Liouville gives 4.5×10⁶ (off by factor 2)** (v3.5). The Liouville conformal weight b² = 1/2 for c=1 doesn't simply relate to μ via this formula. The natural μ = $M_{\rm Pl,2D}^2$ is the AdS_2 inverse length squared, but b² = 1/2 specifically gives a different value. Status: NOT DERIVED. Source: `calculations/v35_new_angle_mu.py`.
+L305. ** μ = b² × $M_{\rm Pl,2D}^2$ for c=1 Liouville gives $4.5 \times 10^{6}$(off by factor 2)** (v3.5). The Liouville conformal weight b² = 1/2 for c=1 doesn't simply relate to μ via this formula. The natural μ = $M_{\rm Pl,2D}^2$ is the AdS_2 inverse length squared, but b² = 1/2 specifically gives a different value. Status: NOT DERIVED. Source: `calculations/v35_new_angle_mu.py`.
 
 L306. **2D BH entropy matching doesn't give framework's μ** (v3.5). For SN-scale 2D BH: $S_{\rm BH}$ = 4π² E/√ μ ~ 10⁵⁰ (huge). Setting $S_{\rm BH}$ = ln(N!) = ln(12!) = 19.99 gives μ ~ 10¹¹⁰ GeV² (way off). The SN scale is too large for natural entropy bounds. Status: NOT APPLICABLE. Source: `calculations/v35_new_angle_mu.py`.
 
-L307. ** μ from conformal weight of first excited state** (v3.5). For c=1 Liouville: first excited state has h = b² = 1/2. Energy E_1st = h × $M_{\rm Pl,2D}$ = 1.5 TeV. Then μ = (2 × E_1st)² = (3 TeV)² = 9 × 10⁶ GeV² ✓ MATCHES. But the "2 × " in (2 × E_1st)² is just to make h = 1/2 cancel, giving μ = $M_{\rm Pl,2D}^2$ (tautological). The h = 1/2 doesn't actually constrain μ. Status: STRUCTURAL. Source: `calculations/v35_new_angle_mu.py`.
+L307. ** μ from conformal weight of first excited state** (v3.5). For c=1 Liouville: first excited state has h = b² = 1/2. Energy E_1st = h × $M_{\rm Pl,2D}$ = 1.5 TeV. Then μ = (2 × E_1st)² = (3 TeV)² = $9 \times 10^{6}\,\text{GeV}^2$ ✓ MATCHES. But the "2 × " in (2 × E_1st)² is just to make h = 1/2 cancel, giving μ = $M_{\rm Pl,2D}^2$ (tautological). The h = 1/2 doesn't actually constrain μ. Status: STRUCTURAL. Source: `calculations/v35_new_angle_mu.py`.
 
 L308. **NEW ANGLE RESULT (v3.5)**: All 11 attempts at μ first-principles reduce to either TAUTOLOGICAL ( μ = $M_{\rm Pl,2D}^2$) or STRUCTURAL ( μ = M_s², μ = b² $M_{\rm Pl,2D}^2$). NONE give a true derivation. L26 REMAINS OPEN: μ is calibrated (via SN $\tau_{\rm 2D}$ = 33 s, L41). The framework should ACCEPT this and not over-claim "derivation". The structural interpretations are useful context but not derivations.
 
@@ -12750,19 +12734,19 @@ L311. **TIER 3 #8: New cascade predictions** (v3.5.5). The cascade makes several
 - (a) SN-scale 2D universe tau = 33 s (testable only with 2D universe detection -- not feasible)
 - (b) AGN-scale 2D universe tau ~ 1.4 yr (not directly testable)
 - (c) BH-scale 2D universe tau ~ 6.4 hr (could be tested via BH evaporation signatures?)
-- (d) Universe-scale 4D event: $E_{\rm 4D}$ = 5x 10⁷⁹ J (untestable)
+- (d) Universe-scale 4D event: $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ (untestable)
 - (e) DM/AGN correlation (testable in principle)
 - (f) DE constancy in time (testable, current limit ~10% over z < 1)
-Status: MOST predictions are not directly testable in 3D. Framework is INITIAL-CONDITIONS framework (universe at 1.5x 10⁻¹⁵ of lifetime).
+Status: MOST predictions are not directly testable in 3D. Framework is INITIAL-CONDITIONS framework (universe at $1.5 \times 10^{-15}\,\text{of}$ lifetime).
 
 L312. **TIER 3 #9: 5/27/68 split structurally clean but each mechanism different** (v3.5.5). The observational split (Planck 2018) is interpreted structurally:
 - 5% baryons: standard BBNS (no SIDC contribution)
-- 27% DM: cumulative 2D universe pulsed returns (calibrated AGN rate 3x 10⁻¹⁶ /m^3/s)
-- 68% DE: 4D event anti-gravity (derived from $M_{\rm Pl,4D}$ = 4x 10²³ GeV and $\tau_{\rm 4D}$)
+- 27% DM: cumulative 2D universe pulsed returns (calibrated AGN rate $3 \times 10^{-16}$/m^3/s)
+- 68% DE: 4D event anti-gravity (derived from $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ and $\tau_{\rm 4D}$)
 Each component has DIFFERENT physical mechanism but sum = 1.0 x $\rho_{\rm crit}$.
 **OPEN**: Why exactly 27%? Calibrated AGN rate, not derived.
 
-L313. **Framework is INITIAL-CONDITIONS framework** (v3.5.5). Universe age = 1.5x 10⁻¹⁵ of lifetime (essentially "day 1"). Most cascade predictions (SN tau, AGN tau, BH tau, 4D $E_{\rm 4D}$) refer to:
+L313. **Framework is INITIAL-CONDITIONS framework** (v3.5.5). Universe age = $1.5 \times 10^{-15}\,\text{of}$ lifetime (essentially "day 1"). Most cascade predictions (SN tau, AGN tau, BH tau, 4D $E_{\rm 4D}$) refer to:
 - Timescales BEFORE universe was created (paradox)
 - Timescales AFTER universe ends (~ 10¹²⁵ yr from now)
 - Energy scales beyond observation (4D events)
@@ -12833,7 +12817,7 @@ Source: `calculations/v35_web_more_options.py`.
 
 ## 7.7 v3.5.7 HOLOGRAPHIC/INFO-THEORETIC ANGLES
 
-L319. **STRING MINIMAL AREA gives mu = M_s^2** (v3.5.7). From ResearchGate 2022 (Minimal model for BH entropy): S = A/(4 l_p^2) requires minimum area. If minimum area in 2D is set by STRING SCALE: A_min = 1/M_s, then mu = 1/A_min^2 = M_s^2. For M_s = 3 TeV: mu = 9x 10⁶ GeV² ✓ EXACT MATCH. STRUCTURAL IF 2D universe is a STRING THEORY with M_s = $M_{\rm Pl,2D}$ = 2.95 TeV (low string scale, Antoniadis 1990). Source: `calculations/v35_holographic.py`.
+L319. **STRING MINIMAL AREA gives mu = M_s^2** (v3.5.7). From ResearchGate 2022 (Minimal model for BH entropy): S = A/(4 l_p^2) requires minimum area. If minimum area in 2D is set by STRING SCALE: A_min = 1/M_s, then mu = 1/A_min^2 = M_s^2. For M_s = 3 TeV: mu = $9 \times 10^{6}\,\text{GeV}^2$ ✓ EXACT MATCH. STRUCTURAL IF 2D universe is a STRING THEORY with M_s = $M_{\rm Pl,2D}$ = 2.95 TeV (low string scale, Antoniadis 1990). Source: `calculations/v35_holographic.py`.
 
 L320. **'2 pi' in mu formula is UNIVERSAL 2D FACTOR** (v3.5.7). The "2 pi" appearing in mu = (2 pi $T_H$)² has the SAME origin across multiple formulas:
 - Bekenstein bound S <= 2 pi E R (Longo 2024, from local QFT)
@@ -12845,7 +12829,7 @@ L320. **'2 pi' in mu formula is UNIVERSAL 2D FACTOR** (v3.5.7). The "2 pi" appea
 
 The "2 pi" is the UNIVERSAL 2D FACTOR from periodic identification, modular flow, or causal diamond structure. Source: `calculations/v35_holographic.py`.
 
-L321. **Bousso covariant bound doesn't constrain mu directly** (v3.5.7). The Bousso bound S <= A/4 applied to 2D universe gives S_total = $N_{\rm sub}$ x ln(2) = 277 bits, while A/4 = 1/(4 sqrt(mu)). Setting 277 <= 1/(4 sqrt(mu)) gives mu <= 8.15x 10⁻⁷ GeV² (too tight by factor 10¹³). The Bousso bound doesn't apply straightforwardly to our 2D universe. Source: `calculations/v35_holographic.py`.
+L321. **Bousso covariant bound doesn't constrain mu directly** (v3.5.7). The Bousso bound S <= A/4 applied to 2D universe gives S_total = $N_{\rm sub}$ x ln(2) = 277 bits, while A/4 = 1/(4 sqrt(mu)). Setting 277 <= 1/(4 sqrt(mu)) gives mu <= $8.15 \times 10^{-7}\,\text{GeV}^2$ (too tight by factor 10¹³). The Bousso bound doesn't apply straightforwardly to our 2D universe. Source: `calculations/v35_holographic.py`.
 
 L322. **RT formula gives universal constant for 2D BH at $T_H$** (v3.5.7). For 2D universe at Hawking temperature T = sqrt(mu)/(2 pi), the entanglement entropy from RT formula is S_EE = 1/6 (UNIVERSAL for c=1 Liouville). This is independent of mu — gives a checkable constant for our framework. Status: STRUCTURAL. Source: `calculations/v35_holographic.py`.
 
@@ -12876,7 +12860,7 @@ The scripts are idempotent (re-running produces 0 changes) and safe to leave in 
 
 L308w. ** $f_{\rm leak}$ = H₀ IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** (v3.5.9+, A1, USER-DIRECTED).
 
-**Problem identified**: The framework's closed loop ($\tau_{\rm 4D}$ → $E_{\rm 4D}$ → $\gamma_{\rm 4D}$) forced $f_{\rm leak}$ from §3.67 formula = 2.59× 10⁻² /s (way too fast). Without continuous leak, DM grows unbounded, breaking stable 5/27/68 ratio. User catch: "no leak means dm to de and matter ratio will keep growing".
+**Problem identified**: The framework's closed loop ($\tau_{\rm 4D}$ → $E_{\rm 4D}$ → $\gamma_{\rm 4D}$) forced $f_{\rm leak}$ from §3.67 formula = $2.59 \times 10^{-2}$/s (way too fast). Without continuous leak, DM grows unbounded, breaking stable 5/27/68 ratio. User catch: "no leak means dm to de and matter ratio will keep growing".
 
 **Fix (A1)**: $\gamma_{\rm 4D}$ stays DERIVED (cascade amplification factor (4D level)). $\gamma_{\rm 2D} = 5.5\times10^{44}$ (cascade amplification factor (2D level), consistent with $\gamma_{\rm 4D}$ formula). The §3.67 formula is REPLACED by a NEW principle: $f_{\rm leak} = H_0$ directly.
 
@@ -12886,10 +12870,10 @@ L308w. ** $f_{\rm leak}$ = H₀ IS A NEW FRAMEWORK PRINCIPLE (post-Friedmann)** 
 - $\gamma_{\rm 4D} = (E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha_{\rm 4D}} = 1.10\times10^{111} (A2)$ (DERIVED, cascade amplification factor)
 - $\gamma_{\rm 2D} = (E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha} = 5.5\times10^{44}$ (cascade amplification factor, per L308x)
 - Both γ values: consistent (cascade amplification factor)
-- $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵ (A2)$ yr (REINSTATED)
-- $\tau_{\rm 4D,proper} = 1.51×10³⁴$ yr (DE-exact, unchanged)
-- $E_{\rm 4D} = 5×10⁷⁹ J ($ closed loop, unchanged)
-- $M_{\rm Pl,4D} = 3.93×10²³ GeV ($ α-GM, unchanged)
+- $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}(A2)$ yr (REINSTATED)
+- $\tau_{\rm 4D,proper} = 1.51 \times 10^{34}$ yr (DE-exact, unchanged)
+- $E_{\rm 4D} = 5 \times 10^{79}\,\text{J} ($ closed loop, unchanged)
+- $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV} ($ α-GM, unchanged)
 - DE match (unchanged)
 - Multi-universe picture (unchanged)
 
@@ -12926,8 +12910,8 @@ Both use the formula $(E_{\rm event}/M_{\rm Pl,parent})^{\alpha}$. Both represen
 
 | Transition | γ formula | Proper time (event's own frame) | Observed time (3D frame) | γ value | Direction |
 |---|---|---|---|---|---|
-| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | **5.7×10³⁸ yr** (2D's own frame, SN) | **33 s** (3D frame) | $\gamma_{\rm 2D} = 5.5\times10^{44}$ | Time is COMPRESSED in 3D |
-| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | 1.51×10³⁴ yr (4D's own frame) | 1.66×10¹⁴⁵ yr (A2) (3D frame) | $\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$ | Time is STRETCHED in 3D |
+| 2D → 3D | $(E_{\rm 3D}/M_{\rm Pl,3D})^{\alpha}$ | **$5.7 \times 10^{38}\,\text{yr}$** (2D's own frame, SN) | **33 s** (3D frame) | $\gamma_{\rm 2D} = 5.5\times10^{44}$ | Time is COMPRESSED in 3D |
+| 4D → 3D | $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$ | $1.51 \times 10^{34}\,\text{yr}$ (4D's own frame) | $1.66 \times 10^{145}\,\text{yr}$ (A2) (3D frame) | $\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$ | Time is STRETCHED in 3D |
 
 **Key insight (L308x v3)**: 
 - γ = (lower-D proper time) / (higher-D observed time) [when looking from above]
@@ -12935,13 +12919,13 @@ Both use the formula $(E_{\rm event}/M_{\rm Pl,parent})^{\alpha}$. Both represen
 - Both ratios > 1, but the "long" and "short" sides swap
 
 **At 2D level**: 
-- 2D universe's proper time (in 2D's own frame) = $\gamma_{2D}$ × 33s = 5.5e44 × 33s = 1.8e46 s = **5.7×10³⁸ yr**
+- 2D universe's proper time (in 2D's own frame) = $\gamma_{2D}$ × 33s = 5.5e44 × 33s = 1.8e46 s = **$5.7 \times 10^{38}\,\text{yr}$**
 - 2D universe's observed time in 3D = 33s
 - The 33s we observe in 3D IS the 3D-observed time, NOT the 2D's proper time
 
 **At 4D level**:
-- 4D event's proper time (in 4D's own frame) = 1.51×10³⁴ yr
-- 4D event's observed time in 3D = $\gamma_{\rm 4D}$ × 1.51e34 yr = **1.66×10¹⁴⁵ yr (A2)**
+- 4D event's proper time (in 4D's own frame) = $1.51 \times 10^{34}\,\text{yr}$
+- 4D event's observed time in 3D = $\gamma_{\rm 4D}$ × 1.51e34 yr = **$1.66 \times 10^{145}\,\text{yr}$ (A2)**
 - The 1.51e34 yr we calculate is the 4D's PROPER time, NOT the 3D-observed time
 
 **ASYMMETRY (cone is asymmetric in time direction)**:
@@ -12991,7 +12975,7 @@ User: "386 could be the 4D event that created our universe. so we have 385 other
 - We are 1 of those 386 sub-universes
 - A different 4D event would have a different $N_{\rm sub}$ (sub-galaxy: N=4, supercluster: N=400,000)
 - $N_{\rm sub}$ is FREE in the sense of: framework doesn't predict it; it's event-specific
-- $E_{\rm sub} = 1.3×10⁷⁷ J$ is STRUCTURAL (galaxy-mass 2D universe, why? framework choice)
+- $E_{\rm sub} = 1.3 \times 10^{77}\,\text{J}$ is STRUCTURAL (galaxy-mass 2D universe, why? framework choice)
 - $E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$ is DERIVED from these two (energy conservation)
 
 **ENERGY CONSERVATION MUST HOLD**:
@@ -13005,11 +12989,11 @@ User: "386 could be the 4D event that created our universe. so we have 385 other
 - 1 MEASURED: $M_{\rm Pl,3D} = 1.22\times10^{19}\,\text{GeV}$
 - 3 FIRST-PRINCIPLES: $\alpha = 1+1/\sqrt{12}$ (Schwarzian SYK, L308n), $M_{\rm Pl,2D} = 12 \times v_{\rm H}$ (L308r), $\mu = M_{\rm Pl,2D}^2$ (L308r) [$N=12$ downgraded to STRUCTURAL per L308ag]
 - 2 DERIVED: $M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{1-\alpha}$ (α-GM, L308v), $E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub}$ (L308o, energy conservation)
-- 4 CALIBRATED: ε = 6.32× 10⁻³⁴ (A2, was 10⁻³⁸ in A1), $\tau_{\rm 4D} = 1.51×10³⁴ yr$, AGN rate = 10⁻¹⁵·⁵² /s, $f_{\rm leak,3D→4D}$ = H₀ (A1 principle, L308ax frame-neutral name)
+- 4 CALIBRATED: ε = $6.32 \times 10^{-34}$(A2, was 10⁻³⁸ in A1), $\tau_{\rm 4D} = 1.51 \times 10^{34}\,\text{yr}$, AGN rate = 10⁻¹⁵·⁵² /s, $f_{\rm leak,3D→4D}$ = H₀ (A1 principle, L308ax frame-neutral name)
 - 4 STRUCTURAL: $E_{\rm sub} = 1.295\times10^{77}\,\text{J}$, $\tau_{\rm 3D,apparent} = 1.66\times10^{145} (A2)\,\text{yr}$, $\gamma_{\rm 4D} = 1.10\times10^{111} (A2)$, **$N=12$ (per L308ag downgrade)**
 - 1 FREE: $N_{\rm sub} = 386$ (event-specific)
 
-**DE match check**: With derived $E_{\rm 4D} = 5×10⁷⁹ J$, framework gives DE density 0.13% off observation. This is a CONSISTENCY CHECK, not the calibration driver.
+**DE match check**: With derived $E_{\rm 4D} = 5 \times 10^{79}\,\text{J}$, framework gives DE density 0.13% off observation. This is a CONSISTENCY CHECK, not the calibration driver.
 
 **L144 STATUS**: REMAINS OPEN. $N_{\rm sub}$ is event-specific, not predicted. But physical interpretation is now clearer: $N_{\rm sub}$ is the multiplicity of the specific 4D event that created our universe.
 
@@ -13046,7 +13030,7 @@ Both have time dilation. The "asymmetry" is in MAGNITUDE ($\gamma_{\rm 4D}$ >> $
 - In 3D frame: stretched by $\gamma_{\rm 4D}$ to 1.66e145 (A2) yr (apparent time)
 
 **The 33s in 3D IS time-dilated**:
-- 2D universe's proper time: $\sim t_{\rm Pl}$ ( 5×10⁻⁴⁴ s)
+- 2D universe's proper time: $\sim t_{\rm Pl}$ ( $5 \times 10^{-44}\,\text{s}$)
 - 3D observed time: $33\text{s} = \gamma_{\rm 2D} \times t_{\rm Pl}$
 - Continuous leakage 2D→3D during the 2D's proper time ( $t_{\rm Pl}$) is too short
 - But during the 33s in 3D, the 2D universe exists as a "frozen" particle (DM)
@@ -13066,7 +13050,7 @@ Source: user correction 2026-06-21 "wait, why no time dilation? it should exist 
 **v3.5.9+ Approach A1 status**: 
 - 5 new limitations (L308w, L308x, L308y, L308z, L308aa). Total limitations: 140 (was 135, +L308w/L308x/L308y/L308z/L308aa).
 - $\gamma_{\rm 4D}$: REINSTATED as DERIVED (cascade amplification factor)
-- $\tau_{\rm 3D,apparent}$: REINSTATED as 1.66×10¹⁴⁵ yr (A2)
+- $\tau_{\rm 3D,apparent}$: REINSTATED as $1.66 \times 10^{145}\,\text{yr}$ (A2)
 - $f_{\rm leak}$: NEW principle = H₀ (post-Friedmann)
 - §3.67 formula: REPLACED (1.4% match becomes coincidence)
 - $\tau_{\rm DM}$: 14.5 Gyr (just over 
@@ -13927,39 +13911,36 @@ m DE,closed}$ × ε × $M_{\rm Pl,3D}^4$
 
 | Quantity | Old (α = 1.289) | New ($\alpha_{4D}$ = 1.577) | Change |
 |----------|------------------|---------------------|--------|
-| **$\gamma_{\rm 4D}$** | 5.70×10⁹⁰ | 1.10×10¹¹¹ (A2) | **+20.3 orders** |
-| **$\tau_{\rm 3D,apparent}$** | 8.61×10¹²⁴ yr | 1.66×10¹⁴⁵ yr (A2) | **+20.3 orders** |
+| **$\gamma_{\rm 4D}$** | $5.70 \times 10^{90}$| $1.10 \times 10^{111}$(A2) | **+20.3 orders** |
+| **$\tau_{\rm 3D,apparent}$** | $8.61 \times 10^{124}\,\text{yr}$ | $1.66 \times 10^{145}\,\text{yr}$ (A2) | **+20.3 orders** |
 | ** $f_{
-m DE,closed}$** (was $f_{\rm back}$) | 6.03× 10⁻⁸⁸ | 1.79× 10⁻⁹⁰ (A2) | **−2.5 orders** |
-| ** $\rho_{\rm DE}$ (with old ε)** | 1.34× 10⁻⁴⁹ | 3.96× 10⁻⁵² | **−2.5 orders** |
-| **Required ε for $\rho_{\rm DE}$ match** | 1.87× 10⁻³⁶ | 6.32× 10⁻³⁴ | **+4.8 orders** |
+m DE,closed}$** (was $f_{\rm back}$) | $6.03 \times 10^{-88}$| $1.79 \times 10^{-90}$(A2) | **−2.5 orders** |
+| ** $\rho_{\rm DE}$ (with old ε)** | $1.34 \times 10^{-49}$| $3.96 \times 10^{-52}$| **−2.5 orders** |
+| **Required ε for $\rho_{\rm DE}$ match** | $1.87 \times 10^{-36}$| $6.32 \times 10^{-34}$| **+4.8 orders** |
 | ** $kL$ (RS-II)** | 87.5 | 76.4 | **−11.1 change** |
 
 ### What This Means
 
 #### 1. $\gamma_{\rm 4D}$ changes by +20 orders
 The 4D time dilation is 10²⁰ × larger with $\alpha_{4D}$ = 1.577. This is a HUGE change.
-- Old: $\gamma_{\rm 4D} = 5.7×10⁹⁰$
-- New: $\gamma_{\rm 4D} = 1.08×10¹¹¹$
+- Old: $\gamma_{\rm 4D} = 5.7 \times 10^{90}$
+- New: $\gamma_{\rm 4D} = 1.08 \times 10^{111}$
 
 #### 2. $\tau_{\rm 3D,apparent}$ changes by +20 orders
 The apparent 3D lifetime ($\tau_{4D} × \gamma_{4D}$) is 10²⁰ × larger.
-- Old: 8.6×10¹²⁴ yr
-- New: 1.6×10¹⁴⁵ yr
+- Old: $8.6 \times 10^{124}\,\text{yr}$
+- New: $1.6 \times 10^{145}\,\text{yr}$
 
 #### 3. $f_{
 m DE,closed}$ (was $f_{\rm back}$) changes by −2.5 orders
 The closed-loop back-action is 2.5 orders smaller.
-- Old: 6.0× 10⁻⁸⁸
-- New: 1.8× 10⁻⁹⁰
-
-#### 4. $\rho_{\rm DE}$ (with old ε) is 2.5 orders below observed
-- $\rho_{\rm DE_observed}$ = 2.5× 10⁻⁴⁷ GeV⁴
-- New $\rho_{\rm DE}$ = 4.0× 10⁻⁵² GeV⁴
-- Ratio: 1.6× 10⁻⁵ (off by 4.8 orders)
+- Old: $6.0 \times 10^{-88}$- New: $1.8 \times 10^{-90}$#### 4. $\rho_{\rm DE}$ (with old ε) is 2.5 orders below observed
+- $\rho_{\rm DE_observed}$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴
+- New $\rho_{\rm DE}$ = $4.0 \times 10^{-52}\,\text{GeV}$⁴
+- Ratio: $1.6 \times 10^{-5}$(off by 4.8 orders)
 
 #### 5. Required ε: 4.8 orders higher
-To match observed DE density, ε must change from 10⁻³⁸ to 6.3× 10⁻³⁴.
+To match observed DE density, ε must change from 10⁻³⁸ to $6.3 \times 10^{-34}$.
 
 #### 6. $kL$ (RS-II): changes by −11
 The bulk curvature changes from $kL$=87.5 to $kL$=76.4 (about 0.9× change).
@@ -13968,9 +13949,9 @@ The bulk curvature changes from $kL$=87.5 to $kL$=76.4 (about 0.9× change).
 
 | Level | $M_{\rm Pl}$ (GeV) | E (GeV) | α | $f_{\rm DE}$ (level transition) |
 |-------|-----------|---------|---|--------|
-| 2D | 2955 | 10⁴⁴ | 1.289 | 5.7× 10⁻⁵³ |
-| 3+1D | 1.22×10¹⁹ | 3.12×10⁸⁹ | 1.408 | 7.3× $10^{-100}$ |
-| 4D | 3.93×10²³ | 3.12×10⁸⁹ | 1.577 | 1.2× $10^{-104}$ |
+| 2D | 2955 | 10⁴⁴ | 1.289 | $5.7 \times 10^{-53}$|
+| 3+1D | $1.22 \times 10^{19}$| $3.12 \times 10^{89}$| 1.408 | 7.3× $10^{-100}$ |
+| 4D | $3.93 \times 10^{23}$| $3.12 \times 10^{89}$| 1.577 | 1.2× $10^{-104}$ |
 
 The $f_{
 m DE,closed}$ values span 50+ orders of magnitude across levels. The hierarchy transitions are NOT uniform.
@@ -13979,9 +13960,8 @@ m DE,closed}$ values span 50+ orders of magnitude across levels. The hierarchy t
 
 - ✓ 14 event lifetimes (M^α law in 2D)
 - ✓ Schwarzian α = 1 + 1/√12
-- ✓ $M_{\rm Pl,2D} = 2955 GeV$- ✓ μ = $M_{
-m Pl,2D}$²
-- ✓ $M_{\rm Pl,4D} = 3.93×10²³ GeV ($ α-GM with $\alpha_{2D}$)
+- ✓ $M_{\rm Pl,2D} = 2955 GeV$- ✓ μ = $M_{\rm Pl,2D}$²
+- ✓ $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV} ($ α-GM with $\alpha_{2D}$)
 - ✓ $N_{\rm sub} = 386$- ✓ $f_{\rm leak}$ = H₀ (DM stability, α-independent)
 - ✓ $\tau_{\rm DM} = 14.5$ Gyr
 
@@ -13995,7 +13975,7 @@ m Pl,2D}$²
 
 ### Three Possible Resolutions
 
-**A: Adopt $\alpha_{4D}$ = 1.577 + recalibrate ε to 6.3× 10⁻³⁴**
+**A: Adopt $\alpha_{4D}$ = 1.577 + recalibrate ε to $6.3 \times 10^{-34}$**
 - DE density matches with new ε
 - 4D physics consistent
 - Hierarchy transitions are not uniform (but that's the consequence)
@@ -14029,10 +14009,10 @@ User request: "re-calibrate those that are linked and see what happens"
 - $f_{
 m DE,closed}$ (was $f_{\rm back}$) changes by −2.5 orders
 - $\rho_{\rm DE}$ is 4.8 orders below observation with old ε
-- Required ε for $\rho_{\rm DE}$ match: 6.3× 10⁻³⁴ (vs 10⁻³⁸)
+- Required ε for $\rho_{\rm DE}$ match: $6.3 \times 10^{-34}$(vs 10⁻³⁸)
 - $kL$ changes by −11
 
-**Implication**: Adopting Option B (α dim-specific) requires significant recalibration. The framework's DE density match would need ε ~ 6× 10⁻³⁴ instead of 10⁻³⁸. The hierarchy level transitions are not uniform.
+**Implication**: Adopting Option B (α dim-specific) requires significant recalibration. The framework's DE density match would need ε ~ $6 \times 10^{-34}\,\text{instead}$ of 10⁻³⁸. The hierarchy level transitions are not uniform.
 
 **Recommendation**: 
 - If α dim-specific is correct, the framework should adopt Option C (hybrid):
@@ -14044,17 +14024,17 @@ m DE,closed}$ (was $f_{\rm back}$) changes by −2.5 orders
 
 
 
-## 7.4.42 (L308aw): Option A Adoption — $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴ (v3.5.9+ → v3.5.9+ A2)
+## 7.4.42 (L308aw): Option A Adoption — $\alpha_{4D}$ = 1.577, ε = $6.32 \times 10^{-34}$(v3.5.9+ → v3.5.9+ A2)
 
 **Date**: 2026-06-22
-**Trigger**: User directive "A: Adopt $\alpha_{4D}$ = 1.577 + recalibrate ε to 6.3× 10⁻³⁴"
+**Trigger**: User directive "A: Adopt $\alpha_{4D}$ = 1.577 + recalibrate ε to $6.3 \times 10^{-34}$"
 **Status**: ADOPTION — Option A officially adopted
 
 ### The User's Decision
 
 After the recalibration showed significant changes ($\gamma_{\rm 4D}$ +20 orders, $\rho_{\rm DE}$ off by 4.8 orders), the user chose:
 
-**Adopt $\alpha_{4D}$ = 1.577 (dimension-specific) and recalibrate ε to 6.32× 10⁻³⁴ to maintain $\rho_{\rm DE}$ match.**
+**Adopt $\alpha_{4D}$ = 1.577 (dimension-specific) and recalibrate ε to $6.32 \times 10^{-34}\,\text{to}$ maintain $\rho_{\rm DE}$ match.**
 
 ### The New State
 
@@ -14064,15 +14044,15 @@ After the recalibration showed significant changes ($\gamma_{\rm 4D}$ +20 orders
 | $\alpha_{2D}$ | 1.289 | 1.289 | 0 |
 | $\alpha_{\rm 3+1D}$ | (implicit 1.289) | 1.408 | +0.119 |
 | $\alpha_{4D}$ | (implicit 1.289) | 1.577 | +0.288 |
-| ε | 1.00× 10⁻³⁸ | 6.32× 10⁻³⁴ | +4.8 orders |
+| ε | $1.00 \times 10^{-38}$| $6.32 \times 10^{-34}$| +4.8 orders |
 | $kL$ (RS-II) | 87.5 | 76.4 | −11.1 |
-| $\gamma_{\rm 4D}$ | 5.70×10⁹⁰ | 1.10×10¹¹¹ (A2) | +20.3 orders |
-| $\tau_{\rm 3D,apparent}$ | 8.61×10¹²⁴ yr | 1.66×10¹⁴⁵ yr (A2) | +20.3 orders |
+| $\gamma_{\rm 4D}$ | $5.70 \times 10^{90}$| $1.10 \times 10^{111}$(A2) | +20.3 orders |
+| $\tau_{\rm 3D,apparent}$ | $8.61 \times 10^{124}\,\text{yr}$ | $1.66 \times 10^{145}\,\text{yr}$ (A2) | +20.3 orders |
 | $f_{
-m DE,closed}$ (was $f_{\rm back}$) | 6.03× 10⁻⁸⁸ | 1.79× 10⁻⁹⁰ (A2) | −2.5 orders |
+m DE,closed}$ (was $f_{\rm back}$) | $6.03 \times 10^{-88}$| $1.79 \times 10^{-90}$(A2) | −2.5 orders |
 | $f_{
 m DE,closed}$ exponent 1/(2α) | 0.388 | 0.317 | −18% |
-| $\rho_{\rm DE}$ | 1.34× 10⁻⁴⁹ | 2.50× 10⁻⁴⁷ | matched to obs |
+| $\rho_{\rm DE}$ | $1.34 \times 10^{-49}$| $2.50 \times 10^{-47}$| matched to obs |
 
 ### What This Means
 
@@ -14096,15 +14076,15 @@ The "α universality" was a POSTULATE, not a derivation. Dropping it is the hone
 
 $\rho_{\rm DE}$ = $f_{
 m DE,closed}$ × ε × $M_{\rm Pl,3D}^4$ now matches observation:
-- Old: 1.34× 10⁻⁴⁹ (off by 4.8 orders with new α)
-- New: 2.50× 10⁻⁴⁷ (matches exactly with ε = 6.32× 10⁻³⁴)
+- Old: $1.34 \times 10^{-49}$(off by 4.8 orders with new α)
+- New: $2.50 \times 10^{-47}$(matches exactly with ε = $6.32 \times 10^{-34}$)
 
 The required ε is 4.8 orders larger, which corresponds to $kL$ = 76.4 instead of 87.5.
 
 #### 4. $\gamma_{\rm 4D}$ and $\tau_{\rm 3D,apparent}$ are Now 20 Orders Larger
 
-- Old: $\gamma_{\rm 4D} = 5.70×10⁹⁰$
-- New: $\gamma_{\rm 4D} = 1.08×10¹¹¹$
+- Old: $\gamma_{\rm 4D} = 5.70 \times 10^{90}$
+- New: $\gamma_{\rm 4D} = 1.08 \times 10^{111}$
 - 20.3 orders of magnitude larger
 
 The 4D time dilation is now much stronger.
@@ -14113,7 +14093,7 @@ The 4D time dilation is now much stronger.
 
 | Transition | α used | $f_{\rm DE}$ (transition) |
 |------------|--------|--------|
-| 2D→3+1D (SN creates 2D) | 1.289 | 5.7× 10⁻⁵³ |
+| 2D→3+1D (SN creates 2D) | 1.289 | $5.7 \times 10^{-53}$|
 | 3+1D→2D (back-projection) | 1.408 | 7.3× $10^{-100}$ |
 | 4D→3+1D (4D event) | 1.577 | 1.2× $10^{-104}$ |
 
@@ -14124,9 +14104,8 @@ The hierarchy is NOT uniform — different α at different transitions.
 These are $\alpha_{2D}$ or α-independent:
 - ✓ 14 event lifetimes (use $\alpha_{2D}$ = 1.289)
 - ✓ $M_{\rm Pl,2D} = 2955 GeV (12 ×$ $v_{\rm Higgs}$)
-- ✓ $M_{\rm Pl,4D} = 3.93×10²³ GeV ($ α-GM with $\alpha_{2D}$)
-- ✓ μ = $M_{
-m Pl,2D}$²
+- ✓ $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV} ($ α-GM with $\alpha_{2D}$)
+- ✓ μ = $M_{\rm Pl,2D}$²
 - ✓ $N_{\rm sub} = 386$- ✓ $f_{\rm leak}$ = H₀ (DM stability, α-independent)
 - ✓ $\tau_{\rm DM} = 14.5$ Gyr
 - ✓ 5/27/68 split (uses $f_{\rm leak}$ = H₀)
@@ -14138,10 +14117,10 @@ The framework is now at **v3.5.9+ A2** (was A1):
 | Component | A1 | A2 |
 |-----------|-----|-----|
 | α (treatment) | Universal (1.289) | Dim-specific (1.289/1.408/1.577) |
-| ε | 1.00× 10⁻³⁸ | 6.32× 10⁻³⁴ |
+| ε | $1.00 \times 10^{-38}$| $6.32 \times 10^{-34}$|
 | $kL$ (RS-II) | 87.5 | 76.4 |
-| $\gamma_{\rm 4D}$ | 5.70×10⁹⁰ | 1.08×10¹¹¹ |
-| $\tau_{\rm 3D,apparent}$ | 8.61×10¹²⁴ yr | 1.63×10¹⁴⁵ yr |
+| $\gamma_{\rm 4D}$ | $5.70 \times 10^{90}$| $1.08 \times 10^{111}$|
+| $\tau_{\rm 3D,apparent}$ | $8.61 \times 10^{124}\,\text{yr}$ | $1.63 \times 10^{145}\,\text{yr}$ |
 | $f_{
 m DE,closed}$ exponent | 0.388 | 0.317 |
 | $\rho_{\rm DE}$ | matches (within 12%) | matches (exact) |
@@ -14152,7 +14131,7 @@ With Option A adopted:
 
 1. **$\alpha_{\rm 3+1D}$ = 1.408 derivation**: Just predicted, not derived
 2. **$\alpha_{4D}$ = 1.577 derivation**: Just predicted, not derived
-3. **Why is ε = 6.32× 10⁻³⁴ instead of 10⁻³⁸?**: The new value is calibrated, not derived
+3. **Why is ε = $6.32 \times 10^{-34}\,\text{instead}$ of 10⁻³⁸?**: The new value is calibrated, not derived
 4. **Hierarchy $f_{
 m DE,closed}$ values are very different**: 50+ orders span, what does this mean physically?
 5. **$\gamma_{\rm 4D}$ is 20 orders larger**: Implications for cosmology?
@@ -14160,7 +14139,7 @@ m DE,closed}$ values are very different**: 50+ orders span, what does this mean 
 ### Implications for Cosmology
 
 With $\alpha_{4D}$ = 1.577:
-- $\gamma_{\rm 4D} = 1.08×10¹¹¹$ (was 5.7×10⁹⁰)
+- $\gamma_{\rm 4D} = 1.08 \times 10^{111}$ (was $5.7 \times 10^{90}$)
 - This is a 20-order correction to 4D time dilation
 - May affect:
   - 4D event lifetime interpretation
@@ -14181,7 +14160,7 @@ The hierarchy problem ( $M_{\rm Pl,3D} = 10¹⁹ GeV$ vs $v_{\rm Higgs}$ = 246 G
 Calculation: `calculations/v36_research/L308aw_option_A_adoption.py`
 Results: `calculations/v36_research/L308aw_option_A_results.txt`
 
-User directive: "A: Adopt $\alpha_{4D}$ = 1.577 + recalibrate ε to 6.3× 10⁻³⁴"
+User directive: "A: Adopt $\alpha_{4D}$ = 1.577 + recalibrate ε to $6.3 \times 10^{-34}$"
 
 ### Status
 
@@ -14189,10 +14168,10 @@ User directive: "A: Adopt $\alpha_{4D}$ = 1.577 + recalibrate ε to 6.3× 10⁻�
 
 **Changes from A1 to A2**:
 - α is now dim-specific (not universal)
-- ε = 6.32× 10⁻³⁴ (recalibrated)
+- ε = $6.32 \times 10^{-34}$(recalibrated)
 - $kL$ = 76.4 (RS-II)
-- $\gamma_{\rm 4D} = 1.08×10¹¹¹$
-- $\tau_{\rm 3D,apparent} = 1.63×10¹⁴⁵$ yr
+- $\gamma_{\rm 4D} = 1.08 \times 10^{111}$
+- $\tau_{\rm 3D,apparent} = 1.63 \times 10^{145}$ yr
 - $f_{
 m DE,closed}$ exponent = 0.317
 
@@ -14229,18 +14208,18 @@ m leak,2D}$→3D and $f_{\rm leak,3D→4D}$. These are frame-independent.
 | Old name (frame-dependent) | New name (frame-neutral) | Value |
 |---|---|---|
 | $f_{\rm DM}$,leak | ** $f_{
-m leak,2D}$→3D** | 1.6× 10⁻⁴⁵ (negligible vs death) |
-| $f_{\rm leak}$ (= H₀) | ** $f_{\rm leak,3D→4D}$** | H₀ = 2.18× 10⁻¹⁸ /s |
+m leak,2D}$→3D** | $1.6 \times 10^{-45}$(negligible vs death) |
+| $f_{\rm leak}$ (= H₀) | ** $f_{\rm leak,3D→4D}$** | H₀ = $2.18 \times 10^{-18}$/s |
 
 ### Key Simplification: Drop the Natural Cascade Leak
 
 The cascade formula at each transition gives ( $M_{\rm Pl}$,parent/E)^α:
 - $f_{
-m leak,2D}$→3D (natural) = $(M_{\rm Pl,3D}/E_{\rm 2D})^{α}$ = 1.6× 10⁻⁴⁵ (for SN, 33s lifetime)
+m leak,2D}$→3D (natural) = $(M_{\rm Pl,3D}/E_{\rm 2D})^{α}$ = $1.6 \times 10^{-45}$(for SN, 33s lifetime)
 - $f_{\rm leak,3D→4D}$ (natural) = $(M_{\rm Pl,4D}/E_{\rm 4D})^{α}$ = ~ 10⁻⁸⁶
 
 Compared to the dominant flows:
-- DM production: 100% pulsed at 2D death (× $\gamma_{\rm 2D} = 5.5×10⁴⁴$ growth factor)
+- DM production: 100% pulsed at 2D death (× $\gamma_{\rm 2D} = 5.5 \times 10^{44}$ growth factor)
 - DM drain via $f_{\rm leak,3D→4D}$ = H₀ (calibrated for 27% steady state)
 
 **The "natural" cascade leakages are negligible** at both transitions (~ 10⁻⁴⁵ and ~ 10⁻⁸⁶, vs 10⁻⁸⁸ death pulse contribution and 10⁻¹⁸ drain rate). They contribute nothing to observables.
@@ -14264,7 +14243,7 @@ m leak,2D}$→3D (5 replacements)
 
 ### Calculation (none needed)
 
-This is a NAMING refactor, not a recalculation. No new calculation file. The values are unchanged (1.6× 10⁻⁴⁵ and H₀).
+This is a NAMING refactor, not a recalculation. No new calculation file. The values are unchanged ($1.6 \times 10^{-45}\,\text{and}$ H₀).
 
 **L308ax (this section)**: Frame-neutral naming refactor + simplification (drop natural leaks as negligible).
 
@@ -14278,33 +14257,28 @@ This is a NAMING refactor, not a recalculation. No new calculation file. The val
 
 ### Audit Overview
 
-After Option A adoption (α dim-specific, ε = 6.32× 10⁻³⁴, $kL$ = 76.4), the framework was audited against observational data. All major predictions are consistent with observations.
+After Option A adoption (α dim-specific, ε = $6.32 \times 10^{-34}$, $kL$ = 76.4), the framework was audited against observational data. All major predictions are consistent with observations.
 
 ### 1. DE Density (PRIMARY TEST) — EXACT MATCH
 
 **Framework formula**: $\rho_{\rm DE}$ = $f_{
-m DE,closed}$ × ε × $M_{
-m Pl,3D}$⁴
+m DE,closed}$ × ε × $M_{\rm Pl,3D}$⁴
 
 **Calculation**:
 - $f_{
-m DE,closed}$ = A × B × C = 1.785× 10⁻⁹⁰ (was $f_{\rm back}$ in legacy naming)
+m DE,closed}$ = A × B × C = $1.785 \times 10^{-90}$(was $f_{\rm back}$ in legacy naming)
   - A = $t_{\rm Pl,3}/\tau_{\rm 4D} = 1.131×10^{-85}$
   - B = $\tau_{\rm SN,obs}/\tau_{\rm universe} = 7.578×10^{-17}$
-  - C = $(E_{\rm 4D}/E_{\rm SN})^{0.317}$ = 2.083×10¹¹
-- ε = 6.32× 10⁻³⁴
-- $M_{
-m Pl,3D}$⁴ = 2.215×10⁷⁶ GeV⁴
-- $\rho_{\rm DE}$ = 2.500× 10⁻⁴⁷ GeV⁴
+  - C = $(E_{\rm 4D}/E_{\rm SN})^{0.317}$ = $2.083 \times 10^{11}$- ε = $6.32 \times 10^{-34}$- $M_{\rm Pl,3D}$⁴ = $2.215 \times 10^{76}\,\text{GeV}$⁴
+- $\rho_{\rm DE}$ = $2.500 \times 10^{-47}\,\text{GeV}$⁴
 
-**Observed**: $\rho_{\rm DE}$ = 2.500× 10⁻⁴⁷ GeV⁴
+**Observed**: $\rho_{\rm DE}$ = $2.500 \times 10^{-47}\,\text{GeV}$⁴
 
 **Match**: 0.9999 ✓ EXACT
 
 ### 2. Cosmological Split (5/27/68) — CONSISTENT
 
-- $\rho_{\rm crit}$ = 3 H_0² $M_{
-m Pl,red}$² = 3.558× 10⁻⁴⁷ GeV⁴
+- $\rho_{\rm crit}$ = 3 H_0² $M_{\rm Pl,red}$² = $3.558 \times 10^{-47}\,\text{GeV}$⁴
 - $\Omega_{\rm DE} = \rho_{\rm DE}/\rho_{\rm crit}$ = **0.703** (vs 0.68 observed, off by 2.3%)
 - $\Omega_{\rm DM}$ = 0.27 (by construction, $f_{\rm leak}$ = H₀)
 - $\Omega_{\rm b}$ = 0.05 (by construction, $f_{\rm leak}$ = H₀)
@@ -14313,7 +14287,7 @@ m Pl,red}$² = 3.558× 10⁻⁴⁷ GeV⁴
 
 ### 3. Hubble Constant — MATCHES PLANCK
 
-- Framework H₀ = 2.18× 10⁻¹⁸ /s = **67.4 km/s/Mpc**
+- Framework H₀ = $2.18 \times 10^{-18}$/s = **67.4 km/s/Mpc**
 - Planck: 67.4 km/s/Mpc
 - Local SH0ES: 73.0 km/s/Mpc
 - Tension: 5.6 km/s/Mpc
@@ -14325,9 +14299,8 @@ m Pl,red}$² = 3.558× 10⁻⁴⁷ GeV⁴
 | Quantity | Framework | Calculated | Match |
 |----------|-----------|------------|-------|
 | $M_{\rm Pl,2D} = 12 ×$ $v_{\rm Higgs}$ | 2955 GeV | 2952 GeV | 0.10% off ✓ |
-| $M_{\rm Pl,4D}$ = α-GM | 3.93×10²³ GeV | 3.975×10²³ GeV | 1.14% off ✓ |
-| μ = $M_{
-m Pl,2D}$² | 8.73×10⁶ GeV² | 8.732×10⁶ GeV² | 0.02% off ✓ |
+| $M_{\rm Pl,4D}$ = α-GM | $3.93 \times 10^{23}\,\text{GeV}$ | $3.975 \times 10^{23}\,\text{GeV}$ | 1.14% off ✓ |
+| μ = $M_{\rm Pl,2D}$² | $8.73 \times 10^{6}\,\text{GeV}^2$ | $8.732 \times 10^{6}\,\text{GeV}^2$ | 0.02% off ✓ |
 | $N_{\rm sub}$ = $E_{\rm 4D}$/ $E_{\rm sub}$ | 386 | 384.6 | 0.36% off ✓ |
 
 ### 5. CMB Acoustic Peaks — MATCH
@@ -14339,16 +14312,16 @@ m Pl,2D}$² | 8.73×10⁶ GeV² | 8.732×10⁶ GeV² | 0.02% off ✓ |
 ### 6. $\gamma_{\rm 4D}$ and $\tau_{\rm 3D,apparent}$ — STRUCTURAL
 
 With $\alpha_{4D}$ = 1.577:
-- $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{1.577}$ = **1.08×10¹¹¹** (was 5.70×10⁹⁰, +20 orders)
-- $\tau_{3D,apparent} = \tau_{4D} × \gamma_{4D}$ = **1.63×10¹⁴⁵ yr** (was 8.61×10¹²⁴)
+- $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{1.577}$ = **$1.08 \times 10^{111}$** (was $5.70 \times 10^{90}$, +20 orders)
+- $\tau_{3D,apparent} = \tau_{4D} × \gamma_{4D}$ = **$1.63 \times 10^{145}\,\text{yr}$** (was $8.61 \times 10^{124}$)
 
 These are STRUCTURAL quantities (not directly observed), must be self-consistent ✓
 
 ### 7. $kL$ (RS-II) — UPDATED
 
 - ε = e^(- $kL$)
-- Old $kL$ = 87.5 (A1) (with ε = 1× 10⁻³⁸)
-- New $kL$ = **76.4** (with ε = 6.32× 10⁻³⁴)
+- Old $kL$ = 87.5 (A1) (with ε = $1 \times 10^{-38}$)
+- New $kL$ = **76.4** (with ε = $6.32 \times 10^{-34}$)
 - ΔkL = -11.1
 
 The new $kL$ is more "compact" bulk (less warped AdS_5)
@@ -14357,7 +14330,7 @@ The new $kL$ is more "compact" bulk (less warped AdS_5)
 
 | Transition | α used | $f_{\rm DE}$ (transition) |
 |------------|--------|--------|
-| 2D universe creation | 1.289 | 5.7× 10⁻⁵³ |
+| 2D universe creation | 1.289 | $5.7 \times 10^{-53}$|
 | 2D back-projection to 3+1D | 1.408 | 7.3× $10^{-100}$ |
 | 4D event from 3+1D | 1.577 | 1.2× $10^{-104}$ |
 
@@ -14383,8 +14356,7 @@ The framework claims 14 event types fit M^α with $\alpha_{2D}$ = 1.289 within 1
 | H₀ | ✓ matches Planck | 67.4 km/s/Mpc |
 | $M_{\rm Pl,2D}$ | ✓ EXACT | 12 × $v_{\rm Higgs}$ |
 | $M_{\rm Pl,4D}$ | ✓ within 1.14% | α-GM |
-| μ | ✓ EXACT | $M_{
-m Pl,2D}$² |
+| μ | ✓ EXACT | $M_{\rm Pl,2D}$² |
 | $N_{\rm sub}$ | ✓ within 0.36% | 386 |
 | rₛ | ✓ within 1.88% | 141.85 Mpc |
 | CMB peaks | ✓ EXACT | 220, 540, 810, 1120 |
@@ -14460,9 +14432,8 @@ Despite coming from the **same M^α law at different cascade levels**, DE (anti-
 ### Asymmetric Density Ratio
 
 - $\rho_{\rm DE}$ = $f_{
-m DE,closed}$ × ε × $M_{
-m Pl,3D}$⁴ = 2.5× 10⁻⁴⁷ GeV⁴ (anti-gravity)
-- $\rho_{\rm DM} = \Omega_{\rm DM} × \rho_{\rm crit}$ ≈ 1.4× 10⁻⁴⁷ GeV⁴ (gravity, 27% of critical)
+m DE,closed}$ × ε × $M_{\rm Pl,3D}$⁴ = $2.5 \times 10^{-47}\,\text{GeV}$⁴ (anti-gravity)
+- $\rho_{\rm DM} = \Omega_{\rm DM} × \rho_{\rm crit}$ ≈ $1.4 \times 10^{-47}\,\text{GeV}$⁴ (gravity, 27% of critical)
 - ** $\rho_{\rm DM}/\rho_{\rm DE}$ ≈ 0.4** (asymmetric — 2D has less "room" than 4D)
 
 The 0.4 ratio reflects the cone asymmetry: 2D extent is smaller than 3+1D extent, so the 2D side contributes proportionally less "stuff" to the 3+1D brane.
@@ -14614,7 +14585,7 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 
 **What improved**:
 - **Numerical consistency** (5/6 → 7/7): A2 numerical values ( $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰, ε = 6.32× 10⁻³⁴) give exact match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
+m DE,closed}$ = $1.79 \times 10^{-90}$, ε = $6.32 \times 10^{-34}$) give exact match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
 - **Issue resolution** (37% → 80%): L308ar (halving rule), L308az (mirror plane), L308ax (frame-neutral naming) all addressed in §3.68 with explicit Lagrangian terms.
 - **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, etc.).
 
@@ -14857,12 +14828,12 @@ After L308ba (halving rule), L308bb ( $N_D$ interpretations), and L308bc (DOF co
 | Quantity | Option A (α universal) | Option B (α dim-specific) |
 |----------|------------------------|---------------------------|
 | α | 1.289 (universal) | 1.289 / 1.408 / 1.577 (per dim) |
-| $\gamma_{\rm 4D}$ | 5.41×10⁹⁰ | 1.14×10¹¹¹ |
-| ε | 1.00× 10⁻³⁸ | 6.32× 10⁻³⁴ |
-| $f_{\rm DE}$ | 1.13× 10⁻⁸⁵ | 1.79× 10⁻⁹⁰ |
-| ** $\rho_{\rm DE}$** | **2.503× 10⁻⁴⁷** | **2.506× 10⁻⁴⁷** ✓ EXACT |
+| $\gamma_{\rm 4D}$ | $5.41 \times 10^{90}$| $1.14 \times 10^{111}$|
+| ε | $1.00 \times 10^{-38}$| $6.32 \times 10^{-34}$|
+| $f_{\rm DE}$ | $1.13 \times 10^{-85}$| $1.79 \times 10^{-90}$|
+| ** $\rho_{\rm DE}$** | **$2.503 \times 10^{-47}$** | **$2.506 \times 10^{-47}$** ✓ EXACT |
 | f×ε | 1.130× $10^{-123}$ | 1.131× $10^{-123}$ ✓ INVARIANT |
-| $\tau_{\rm 3D,apparent}$ | 8.16×10¹²⁴ yr | 1.72×10¹⁴⁵ yr |
+| $\tau_{\rm 3D,apparent}$ | $8.16 \times 10^{124}\,\text{yr}$ | $1.72 \times 10^{145}\,\text{yr}$ |
 
 **Both give $\rho_{\rm DE}$ exact within 0.3%. The f×ε invariant is identical. The data CANNOT distinguish them at the $\rho_{\rm DE}$ level.**
 
@@ -14899,7 +14870,7 @@ Option A is **not wrong**, just less structurally tight:
 1. **Simpler**: One formula, one α value, one ε value.
 2. **Schwarzian universality**: If the Schwarzian formula applies universally with $N=12$, then α = 1.289 everywhere.
 3. **Data doesn't distinguish**: Both give exact $\rho_{\rm DE}$.
-4. **A1 values**: $\gamma_{\rm 4D} = 5.93×10⁹⁰$, ε = 1× 10⁻³⁸, $f_{\rm DE}$ = 1.13× 10⁻⁸⁵ were the original A1 framework values.
+4. **A1 values**: $\gamma_{\rm 4D} = 5.93 \times 10^{90}$, ε = $1 \times 10^{-38}$, $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{were}$ the original A1 framework values.
 
 If someone prefers option A, they get a SIMPLER framework with A1 numerical values, and $\rho_{\rm DE}$ still matches exactly.
 
@@ -14997,7 +14968,7 @@ L308bd (previous section) presented options A and B as both structurally valid, 
 
 The framework chose option B for **structural reasons** (L308av, L308aw):
 - α dim-specific is consistent with $N_{\rm 2D}$ = 12, $N_{3+1D}$ = 6, $N_{\rm 4D}$ = 3 (halving)
-- A2 numerical recalibration (ε = 6.32× 10⁻³⁴, $\gamma_{\rm 4D} = 1.10×10¹¹¹$)
+- A2 numerical recalibration (ε = $6.32 \times 10^{-34}$, $\gamma_{\rm 4D} = 1.10 \times 10^{111}$)
 
 But under the **first-principles criterion**, option B introduces assumptions ( $N_{3+1D}$ = 6, $N_{\rm 4D}$ = 3) that aren't derived. Option A doesn't introduce such assumptions.
 
@@ -15019,23 +14990,23 @@ But the pattern is **not a first-principles derivation** for $\alpha_{\rm 3+1D}$
 
 If the framework USES option A (universal α = 1.289):
 - α = 1.289 (universal, FIRST-PRINCIPLES)
-- ε = 1.00× 10⁻³⁸ (A1 value, no recalibration needed)
+- ε = $1.00 \times 10^{-38}$(A1 value, no recalibration needed)
 - $f_{
-m DE,simple}$ = 1.13× 10⁻⁸⁵ (A1 value)
-- $\gamma_{\rm 4D} = 5.41×10⁹⁰$ (A1 value, vs A2's 1.14×10¹¹¹)
-- $\tau_{\rm 3D,apparent} = 8.16×10¹²⁴$ yr (A1, vs A2's 1.72×10¹⁴⁵)
-- $\rho_{\rm DE}$ = 2.503× 10⁻⁴⁷ GeV⁴ (EXACT match, f×ε invariant preserved)
+m DE,simple}$ = $1.13 \times 10^{-85}$(A1 value)
+- $\gamma_{\rm 4D} = 5.41 \times 10^{90}$ (A1 value, vs A2's $1.14 \times 10^{111}$)
+- $\tau_{\rm 3D,apparent} = 8.16 \times 10^{124}$ yr (A1, vs A2's $1.72 \times 10^{145}$)
+- $\rho_{\rm DE}$ = $2.503 \times 10^{-47}\,\text{GeV}$⁴ (EXACT match, f×ε invariant preserved)
 
 If the framework USES option B (dim-specific α):
 - $\alpha_{2D}$ = 1.289 (FIRST-PRINCIPLES via Schwarzian)
 - $\alpha_{\rm 3+1D}$ = 1.408 (INFERRED)
 - $\alpha_{4D}$ = 1.577 (INFERRED)
-- ε = 6.32× 10⁻³⁴ (A2 calibration)
+- ε = $6.32 \times 10^{-34}$(A2 calibration)
 - $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰ (A2 closed loop)
-- $\gamma_{\rm 4D} = 1.14×10¹¹¹$ (A2)
-- $\tau_{\rm 3D,apparent} = 1.72×10¹⁴⁵$ yr (A2)
-- $\rho_{\rm DE}$ = 2.506× 10⁻⁴⁷ GeV⁴ (EXACT match)
+m DE,closed}$ = $1.79 \times 10^{-90}$(A2 closed loop)
+- $\gamma_{\rm 4D} = 1.14 \times 10^{111}$ (A2)
+- $\tau_{\rm 3D,apparent} = 1.72 \times 10^{145}$ yr (A2)
+- $\rho_{\rm DE}$ = $2.506 \times 10^{-47}\,\text{GeV}$⁴ (EXACT match)
 
 **Both give $\rho_{\rm DE}$ exact. The data cannot distinguish. The choice is whether to use inferred N values (option B) or stay with first-principles (option A).**
 
@@ -15085,8 +15056,8 @@ After the L308be re-framing established that **option A is more first-principles
 **Keep option B as the framework's active choice, pending first-principles derivations of $N_{3+1D}$ = 6 and $N_{\rm 4D}$ = 3.**
 
 This means:
-- Framework uses option B numerical values ( $\gamma_{\rm 4D} = 1.14×10¹¹¹$, ε = 6.32× 10⁻³⁴, $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰)
+- Framework uses option B numerical values ( $\gamma_{\rm 4D} = 1.14 \times 10^{111}$, ε = $6.32 \times 10^{-34}$, $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$)
 - L308ba halving rule preserved as valid OBSERVATION
 - L308bc DOF conservation preserved as valid OBSERVATION
 - L308be first-principles finding documented: option A is the ideal but option B is current
@@ -15117,11 +15088,11 @@ When one of the following is achieved, the framework should RECONSIDER option A 
 
 Despite option A being more first-principles, option B is kept because:
 
-1. ** $\rho_{\rm DE}$ exact in both**: Both options give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT (via $f \times \varepsilon$ invariant). Data doesn't distinguish.
+1. ** $\rho_{\rm DE}$ exact in both**: Both options give $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{EXACT}$ (via $f \times \varepsilon$ invariant). Data doesn't distinguish.
 
 2. **Structural insights**: Option B has the halving rule, DOF conservation, and L308bb $N_D$ interpretations — all structurally rich insights that may guide future derivations.
 
-3. **Calibration consistency**: The A2 numerical values ( $\gamma_{\rm 4D} = 1.10×10¹¹¹$, ε = 6.32× 10⁻³⁴, etc.) are internally consistent with the framework's other parameters.
+3. **Calibration consistency**: The A2 numerical values ( $\gamma_{\rm 4D} = 1.10 \times 10^{111}$, ε = $6.32 \times 10^{-34}$, etc.) are internally consistent with the framework's other parameters.
 
 4. **Open derivation**: $N_{3+1D}$ = 6 and $N_{\rm 4D}$ = 3 may have first-principles derivations that we haven't found yet. Option B might be vindicated once these derivations emerge.
 
@@ -15137,8 +15108,8 @@ This trade-off is HONEST and DOCUMENTED. When first-principles derivations emerg
 
 | Aspect | Status |
 |--------|--------|
-| Framework numerical values | Option B ( $\gamma_{\rm 4D} = 1.14×10¹¹¹$, ε = 6.32× 10⁻³⁴, $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰) |
+| Framework numerical values | Option B ( $\gamma_{\rm 4D} = 1.14 \times 10^{111}$, ε = $6.32 \times 10^{-34}$, $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$) |
 | First-principles ideal | Option A (α = 1.289 universal, A1 values) |
 | Structural pattern | PRESERVED as observation (L308ba, L308bc) |
 | Path to first-principles | $N_{3+1D}$ = 6, $N_{\rm 4D}$ = 3 derivations (OPEN) |
@@ -15485,24 +15456,22 @@ Now, Option B is also **first-principles derived** for all three N values. This 
 
 **Option A (α universal, A1 values)**:
 - α = 1.289 at all levels
-- ε = 1× 10⁻³⁸, $f_{
-m DE,simple}$ = 1.13× 10⁻⁸⁵
-- $\gamma_{\rm 4D} = 5.41×10⁹⁰$, $\tau_{\rm 3D,apparent} = 8.16×10¹²⁴$ yr
+- ε = $1 \times 10^{-38}$, $f_{
+m DE,simple}$ = $1.13 \times 10^{-85}$- $\gamma_{\rm 4D} = 5.41 \times 10^{90}$, $\tau_{\rm 3D,apparent} = 8.16 \times 10^{124}$ yr
 - Status: 1 derivation chain, 1 postulate
 - N interpretation: 12 Majorana-equivalent at each level
 
 **Option B Strengthened (CURRENT FRAMEWORK)**:
 - $\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$ = 1.408, $\alpha_{4D}$ = 1.577 (dim-specific)
-- ε = 6.32× 10⁻³⁴, $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰
-- $\gamma_{\rm 4D} = 1.10×10¹¹¹$, $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
+- ε = $6.32 \times 10^{-34}$, $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$, $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ yr
 - Status: **3/3 N values first-principles** (full first-principles)
 - N interpretation:
   - $N_{\rm 2D}$ = 12 = 3 gen × 4 Weyl (L308r)
   - $N_{3+1D}$ = 6 = C(6) SM algebra (Stoica 2018) [NEW]
   - $N_{\rm 4D}$ = 3 = 3 generations (Clifford/McKay/cobordism)
 
-**Both give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT** (f×ε invariant preserved).
+**Both give $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{EXACT}$** (f×ε invariant preserved).
 
 ### Why Option B Strengthened Wins
 
@@ -15541,7 +15510,7 @@ The Schwarzian formula applied to N = Clifford algebra dimension at each level g
 - **L308ba (halving rule)**: Still a valid observation (12 → 6 → 3)
 - **L308bc (DOF conservation)**: Still a valid structural property (12 real total)
 - **L308az (mirror plane)**: Still structurally meaningful
-- **A2 numerical calibration**: Unchanged (ε = 6.32× 10⁻³⁴, $\gamma_{\rm 4D} = 1.10×10¹¹¹$)
+- **A2 numerical calibration**: Unchanged (ε = $6.32 \times 10^{-34}$, $\gamma_{\rm 4D} = 1.10 \times 10^{111}$)
 
 ### What Remains Open
 
@@ -15553,12 +15522,10 @@ The Schwarzian formula applied to N = Clifford algebra dimension at each level g
 
 No numerical changes. Option B Strengthened uses the same values as Option B (the previous A2 calibration):
 - $\alpha_{2D}$/3+1D/4D = 1.289/1.408/1.577
-- ε = 6.32× 10⁻³⁴
-- $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰
-- $\gamma_{\rm 4D} = 1.10×10¹¹¹$
-- $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
-- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT)
+- ε = $6.32 \times 10^{-34}$- $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
+- $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ yr
+- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴ (EXACT)
 
 ### Source
 
@@ -15572,9 +15539,9 @@ Recommendation source: L308bh framework decision recommendation
 The cascade framework now uses Option B Strengthened as its primary interpretation:
 - α dim-specific (1.289/1.408/1.577)
 - All three N values first-principles derived
-- ε = 6.32× 10⁻³⁴ (A2 calibrated)
-- $\gamma_{\rm 4D} = 1.10×10¹¹¹$
-- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT
+- ε = $6.32 \times 10^{-34}$(A2 calibrated)
+- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
+- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{EXACT}$
 
 The framework's choice is now justified BOTH structurally (L308ba, L308bc, L308az) AND first-principles (L308r, Stoica 2018, Clifford/McKay/cobordism).
 
@@ -16269,7 +16236,7 @@ The DE/DM ratio has changed by ~10 orders of magnitude over cosmic history.
 
 **DE in SIDC**: $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ ≈ 2.5e-47 GeV⁴ (CONSTANT)
 - Comes from un-cancelled 4D antigravity
-- 4D event lifetime $\tau_{\rm 4D} = 1.51×10³⁴ yr$>> 13.8 Gyr
+- 4D event lifetime $\tau_{\rm 4D} = 1.51 \times 10^{34}\,\text{yr}$>> 13.8 Gyr
 - DE doesn't change appreciably over cosmic history
 
 **DM in SIDC**: cumulative 2D universe deaths (GROWING)
@@ -16678,7 +16645,7 @@ For w = -0.9: α = 0.2 (moderate loose)
 
 In SIDC, DE = 4D event antigravity (time-dilated). We see only:
 
-t_universe / $\tau_{\rm 4D} = 13.8×10⁹ / 1.51×10³⁴$= 9.1×10⁻²⁶ of 4D time
+t_universe / $\tau_{\rm 4D} = 13.8 \times 10^{9}/ 1.51 \times 10^{34}$= $9.1 \times 10^{-26}\,\text{of}$ 4D time
 
 So DE looks perfectly constant to us. There's no mechanism in SIDC for DE to evolve with H.
 
@@ -16686,9 +16653,9 @@ So DE looks perfectly constant to us. There's no mechanism in SIDC for DE to evo
 
 | z | TIGHT (α=0) | LOOSE (α=0.5) | LOOSE (α=1) | LOOSE (α=2) |
 |---|---|---|---|---|
-| 1100 | 2.34× 10⁻⁹ | 1.50× 10⁻⁸ | 9.65× 10⁻⁸ | 3.97× 10⁻⁶ |
-| 1 | 7.86× 10⁻¹ | 1.18×10⁰ | 1.79×10⁰ | 4.05×10⁰ |
-| 0 | 2.58×10⁰ | 2.58×10⁰ | 2.58×10⁰ | 2.58×10⁰ |
+| 1100 | $2.34 \times 10^{-9}$| $1.50 \times 10^{-8}$| $9.65 \times 10^{-8}$| $3.97 \times 10^{-6}$|
+| 1 | $7.86 \times 10^{-1}$| $1.18 \times 10^{0}$| $1.79 \times 10^{0}$| $4.05 \times 10^{0}$|
+| 0 | $2.58 \times 10^{0}$| $2.58 \times 10^{0}$| $2.58 \times 10^{0}$| $2.58 \times 10^{0}$|
 
 (Boundary condition at z=0: DE/DM = 2.58 today)
 
@@ -16696,7 +16663,7 @@ So DE looks perfectly constant to us. There's no mechanism in SIDC for DE to evo
 
 1. **SIDC predicts TIGHT DE/DM correlation**:
    - DE = constant due to time dilation
-   - We see only 9.1× 10⁻²⁶ of 4D time over cosmic history
+   - We see only $9.1 \times 10^{-26}\,\text{of}$ 4D time over cosmic history
    - DE/DM ratio is fully determined by cascade structure
 
 2. **Observationally, DE is very close to constant**:
@@ -16850,20 +16817,19 @@ All 15 framework parameters verified:
 
 | # | Parameter | Value | Status |
 |---|---|---|---|
-| 1 | $M_{\rm Pl,3D}$ (MEASURED) | 1.22×10¹⁹ GeV | ✓ verified |
+| 1 | $M_{\rm Pl,3D}$ (MEASURED) | $1.22 \times 10^{19}\,\text{GeV}$ | ✓ verified |
 | 2 | α (FIRST-PRINCIPPLES) | 1.289 | ✓ 1+1/√12 |
-| 3 | $M_{\rm Pl,2D}$ (DERIVED) | 2.95×10³ GeV | ✓ N× $v_H$ |
-| 4 | μ (DERIVED) | 8.73×10⁶ GeV² | ✓ $M_{
-m Pl,2D}$² |
-| 5 | $M_{\rm Pl,4D}$ (DERIVED) | 3.93×10²³ GeV | ✓ α-GM |
-| 6 | $E_{\rm 4D}$ (DERIVED) | 5×10⁷⁹ J | ✓ $N_{\rm sub}$ × $E_{\rm sub}$ |
-| 7 | ε (CALIBRATED) | 6.32× 10⁻³⁴ | ✓ A2 value |
-| 8 | $\tau_{\rm 4D}$ (CALIBRATED) | 1.51×10³⁴ yr | ✓ A2 value |
-| 9 | AGN rate (CALIBRATED) | 1.51× 10⁻¹⁵ /s/Mpc³ | ✓ observed |
+| 3 | $M_{\rm Pl,2D}$ (DERIVED) | $2.95 \times 10^{3}\,\text{GeV}$ | ✓ N× $v_H$ |
+| 4 | μ (DERIVED) | $8.73 \times 10^{6}\,\text{GeV}^2$ | ✓ $M_{\rm Pl,2D}$² |
+| 5 | $M_{\rm Pl,4D}$ (DERIVED) | $3.93 \times 10^{23}\,\text{GeV}$ | ✓ α-GM |
+| 6 | $E_{\rm 4D}$ (DERIVED) | $5 \times 10^{79}\,\text{J}$ | ✓ $N_{\rm sub}$ × $E_{\rm sub}$ |
+| 7 | ε (CALIBRATED) | $6.32 \times 10^{-34}$| ✓ A2 value |
+| 8 | $\tau_{\rm 4D}$ (CALIBRATED) | $1.51 \times 10^{34}\,\text{yr}$ | ✓ A2 value |
+| 9 | AGN rate (CALIBRATED) | $1.51 \times 10^{-15}$/s/Mpc³ | ✓ observed |
 | 10 | $f_{\rm leak,3D→4D}$ (CALIBRATED) | 67.4 km/s/Mpc | ✓ = H₀ |
-| 11 | $E_{\rm sub}$ (STRUCTURAL) | 1.295×10⁷⁷ J | ✓ per-sub-universe |
-| 12 | $\tau_{\rm 3D,apparent}$ (STRUCTURAL) | 1.66×10¹⁴⁵ yr | ✓ $\gamma_{4D} × \tau_{4D}$ |
-| 13 | $\gamma_{\rm 4D}$ (STRUCTURAL) | 1.10×10¹¹¹ | ✓ $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D |
+| 11 | $E_{\rm sub}$ (STRUCTURAL) | $1.295 \times 10^{77}\,\text{J}$ | ✓ per-sub-universe |
+| 12 | $\tau_{\rm 3D,apparent}$ (STRUCTURAL) | $1.66 \times 10^{145}\,\text{yr}$ | ✓ $\gamma_{4D} × \tau_{4D}$ |
+| 13 | $\gamma_{\rm 4D}$ (STRUCTURAL) | $1.10 \times 10^{111}$| ✓ $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D |
 | 14 | $N=12$ (STRUCTURAL) | 12 | ✓ 3 gens × 4 Weyl |
 | 15 | $f_{
 m leak,2D}$→3D (FREE) | ~ 10⁻⁴⁵ | ✓ natural cascade |
@@ -16872,11 +16838,10 @@ m leak,2D}$→3D (FREE) | ~ 10⁻⁴⁵ | ✓ natural cascade |
 
 | Formula | Calc | Paper | Match |
 |---|---|---|---|
-| $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) | 3.98×10²³ | 3.93×10²³ | -1.13% |
-| $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D | 1.0×10¹¹¹ | 1.10×10¹¹¹ | ~exact |
+| $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) | $3.98 \times 10^{23}$| $3.93 \times 10^{23}$| -1.13% |
+| $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D | $1.0 \times 10^{111}$| $1.10 \times 10^{111}$| ~exact |
 | $\rho_{\rm DE}$ = $f_{
-m DE,closed}$ × ε × $M_{
-m Pl,3D}$⁴ | 2.5× 10⁻⁴⁷ | 2.5× 10⁻⁴⁷ | EXACT |
+m DE,closed}$ × ε × $M_{\rm Pl,3D}$⁴ | $2.5 \times 10^{-47}$| $2.5 \times 10^{-47}$| EXACT |
 | $f \times \varepsilon$ invariant | 1.13× $10^{-123}$ | 1.13× $10^{-123}$ | EXACT |
 | α = 1 + 1/√N | 1.28868 | 1.289 | 0.025% (essentially exact) |
 
@@ -16886,8 +16851,8 @@ m Pl,3D}$⁴ | 2.5× 10⁻⁴⁷ | 2.5× 10⁻⁴⁷ | EXACT |
 |---|---|---|---|
 | Padmanabhan (2015) | §3.8.2 | DM as missing bulk entanglement | ✓ Correct |
 | Stoica (2018) | §7.4.52 (L308bh) | C(6) IS SM algebra | ✓ Correct |
-| McGaugh+ (2016) | 04_predictions | g₊ = 1.2× 10⁻¹⁰ m/s² | ✓ Correct |
-| Tian+ (2024) | multiple | g₊ ~ 1.7× 10⁻⁹ m/s² at BCGs | ⚠️ "17×" vs "14×" (FLAGGED) |
+| McGaugh+ (2016) | 04_predictions | g₊ = $1.2 \times 10^{-10}\,\text{m}$/s² | ✓ Correct |
+| Tian+ (2024) | multiple | g₊ ~ $1.7 \times 10^{-9}\,\text{m}$/s² at BCGs | ⚠️ "17×" vs "14×" (FLAGGED) |
 | Jacobson (1995) | §3.8 | Thermodynamics of spacetime | ✓ Correct |
 | Takayanagi (2006) | §3.8 | RT formula for entanglement | ✓ Correct |
 | Witten (1996) | §3.8.1 | Horava-Witten heterotic string | ✓ Correct |
@@ -16898,10 +16863,10 @@ Key values appear consistently across the paper:
 - $M_{\rm Pl,4D} = 3.93\times 10^{23}$: 16 occurrences
 - $\tau_{\rm 4D} = 1.51\times 10^{34}$: 8 occurrences
 - $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰: 4 occurrences
-- ε = 6.32× 10⁻³⁴: 4 occurrences
+m DE,closed}$ = $1.79 \times 10^{-90}$: 4 occurrences
+- ε = $6.32 \times 10^{-34}$: 4 occurrences
 - $\gamma_{\rm 4D} = 1.10\times 10^{111}$: 1 occurrence
-- $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷: 8 occurrences
+- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}$: 8 occurrences
 
 ### Issues Found
 
@@ -16971,7 +16936,7 @@ Ready for pre-submission polish and arXiv prep.
 **1. w = -1 EXACTLY (TIGHT prediction)**
 
 SIDC predicts DE equation of state w = -1 EXACTLY at all z:
-- DE is constant due to time dilation (we see 9.1× 10⁻²⁶ of 4D time)
+- DE is constant due to time dilation (we see $9.1 \times 10^{-26}\,\text{of}$ 4D time)
 - No mechanism in SIDC for DE evolution
 - This is TIGHTER than ΛCDM's w = -1.03 ± 0.03
 
@@ -17047,7 +17012,7 @@ These are not just-so stories — they're real predictions the framework commits
 
 ### User's Thought Experiment
 
-What if there was a sudden burst of DE from 4D (e.g., a passing black hole)? With the $\gamma_{\rm 4D} = 1.10×10¹¹¹$ time dilation, how much would it affect DE in 3+1D?
+What if there was a sudden burst of DE from 4D (e.g., a passing black hole)? With the $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ time dilation, how much would it affect DE in 3+1D?
 
 ### Key Finding
 
@@ -17060,19 +17025,19 @@ The time dilation factor is so extreme that:
 
 | $M_{\rm 4D}$ | rₛ (4D) | Δ$\tau_{\rm 4D}$ (4D) | Δt (3+1D) |
 |---|---|---|---|
-| 1 Planck mass | 3.23× 10⁻³⁵ m | 6.83× 10⁻⁵¹ yr | 7.51×10⁶⁰ yr |
-| 1 kg | 1.48× 10⁻²⁷ m | 3.13× 10⁻⁴³ yr | 3.45×10⁶⁸ yr |
-| 1 Earth mass | 8.85× 10⁻³ m | 1.87× 10⁻¹⁸ yr | 2.06×10⁹³ yr |
-| 1 solar mass | 2.95×10³ m | 6.23× 10⁻¹³ yr | 6.86×10⁹⁸ yr |
-| 10⁶ $M_{\rm sun}$ (SMBH) | 2.95×10⁹ m | 6.23× 10⁻⁷ yr | 6.86×10¹⁰⁴ yr |
-| 10¹⁰ $M_{\rm sun}$ | 2.95×10¹³ m | 6.23× 10⁻³ yr | 6.86×10¹⁰⁸ yr |
+| 1 Planck mass | $3.23 \times 10^{-35}\,\text{m}$ | $6.83 \times 10^{-51}\,\text{yr}$ | $7.51 \times 10^{60}\,\text{yr}$ |
+| 1 kg | $1.48 \times 10^{-27}\,\text{m}$ | $3.13 \times 10^{-43}\,\text{yr}$ | $3.45 \times 10^{68}\,\text{yr}$ |
+| 1 Earth mass | $8.85 \times 10^{-3}\,\text{m}$ | $1.87 \times 10^{-18}\,\text{yr}$ | $2.06 \times 10^{93}\,\text{yr}$ |
+| 1 solar mass | $2.95 \times 10^{3}\,\text{m}$ | $6.23 \times 10^{-13}\,\text{yr}$ | $6.86 \times 10^{98}\,\text{yr}$ |
+| 10⁶ $M_{\rm sun}$ (SMBH) | $2.95 \times 10^{9}\,\text{m}$ | $6.23 \times 10^{-7}\,\text{yr}$ | $6.86 \times 10^{104}\,\text{yr}$ |
+| 10¹⁰ $M_{\rm sun}$ | $2.95 \times 10^{13}\,\text{m}$ | $6.23 \times 10^{-3}\,\text{yr}$ | $6.86 \times 10^{108}\,\text{yr}$ |
 
 ### Threshold for "Constant" DE in 3+1D
 
 For DE to look CONSTANT in 3+1D (longer than universe age):
 - Max 4D event duration: 1.25× $10^{-101}$ yr in 4D time
-- = 3.96× 10⁻⁹⁴ seconds in 4D time
-- = 2.47× 10⁻⁵⁰ Planck times in 4D time
+- = $3.96 \times 10^{-94}\,\text{seconds}$ in 4D time
+- = $2.47 \times 10^{-50}\,\text{Planck}$ times in 4D time
 
 Anything shorter than this in 4D time = DE looks constant
 Anything longer than this = DE could vary over cosmic history
@@ -17084,8 +17049,8 @@ Euclid: σ(w) ~ 0.02
 Roman: σ(w) ~ 0.01
 
 To produce a 1% change in DE in 3+1D:
-- Δ$\tau_{\rm 4D}$ ~ 0.01 × $\tau_{\rm 4D} = 1.51×10³² yr$ in 4D time
-- Apparent duration: 1.66×10¹⁴³ yr in 3+1D (10¹³³× universe age)
+- Δ$\tau_{\rm 4D}$ ~ 0.01 × $\tau_{\rm 4D} = 1.51 \times 10^{32}\,\text{yr}$ in 4D time
+- Apparent duration: $1.66 \times 10^{143}\,\text{yr}$ in 3+1D (10¹³³× universe age)
 
 ### Implications
 
@@ -17097,7 +17062,7 @@ To produce a 1% change in DE in 3+1D:
 
 ### The Time-Dilation Filter
 
-The $\gamma_{\rm 4D} = 1.10×10¹¹¹$ time dilation acts as an extreme low-pass filter:
+The $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ time dilation acts as an extreme low-pass filter:
 - Short 4D events (Planck time) appear as slow 3+1D drifts
 - Long 4D events (years) appear as ridiculously slow 3+1D drifts
 - The universe's age is 10¹⁰ yr, so 4D events must last > $10^{-101}$ yr in 4D time to be detectable in 3+1D
@@ -17200,8 +17165,8 @@ These are bookkeeping fixes, not framework issues. The framework itself is inter
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{
-m DE,closed}$ = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved in both A1 and A2.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → $6.32 \times 10^{-34}$, $f_{
+m DE,closed}$ = $1.79 \times 10^{-90}$(was $f_{\rm back}$ = $6.03 \times 10^{-88}\,\text{in}$ A1, dim-specific $\alpha_{4D}$ = 1.577). The $f \times \varepsilon$ = 1.13× $10^{-123}$ invariant is preserved in both A1 and A2.
 
 <!-- 07_conclusion.md - part of paper.md split (v3.0.13) -->
 
@@ -17244,7 +17209,7 @@ We have tested SIDC against 9+ observational categories (CMB acoustic peak, r(z)
 - Dark matter fraction in quiescent galaxies should be LOWER than in identical-mass active galaxies (phase-transition test)
 - AGC 114905 has no high-energy events above 10³⁰ J in its recent history (testable with deep X-ray/radio)
 
-The 30 external constraints catalogued in §8.1.1–§8.1.7 are documented below. SIDC is consistent with $\Lambda{\rm CDM}$ at all cosmological scales (because 2D universes are CDM-like, with no electromagnetic interaction) and with MOND at galactic scales (because the 2D universe population's "memory" of past energetic activity produces MOND-like behavior at low acceleration). SIDC's best-fit $g_+$ = 9.54 × 10⁻¹¹ m/s² from the SPARC RAR (Radial Acceleration Relation) matches MOND's a₀ = 1.2 × 10⁻¹⁰ m/s² within 20%, and the deep-MOND regime ( $g_+{\rm bar}$ < 0.1 × a₀) reproduces the MOND prediction $g_+{\rm obs}$ ≈ √( $g_+{\rm bar}$ × a₀) to within 2%.
+The 30 external constraints catalogued in §8.1.1–§8.1.7 are documented below. SIDC is consistent with $\Lambda{\rm CDM}$ at all cosmological scales (because 2D universes are CDM-like, with no electromagnetic interaction) and with MOND at galactic scales (because the 2D universe population's "memory" of past energetic activity produces MOND-like behavior at low acceleration). SIDC's best-fit $g_+$ = $9.54 \times 10^{-11}\,\text{m}$/s² from the SPARC RAR (Radial Acceleration Relation) matches MOND's a₀ = $1.2 \times 10^{-10}\,\text{m}$/s² within 20%, and the deep-MOND regime ( $g_+{\rm bar}$ < 0.1 × a₀) reproduces the MOND prediction $g_+{\rm obs}$ ≈ √( $g_+{\rm bar}$ × a₀) to within 2%.
 
 However, SIDC has **0 unique testable predictions** beyond what $\Lambda{\rm CDM}$ and MOND already predict. **The AGC 114905 vs KKR 25 "bifurcation" was removed v2.7.36+** because:
 1. The 219× bifurcation was based on a 1000× error in KKR 25's M_{b} (legacy_paper.md §3.27)
@@ -17266,7 +17231,7 @@ A web research survey (June 2026) of Liouville CFT theory, Karch-Randall branewo
 
 3. **Jackiw–Teitelboim (JT) gravity is the natural realization of SIDC 2D universe on a Karch–Randall brane** (Pingleton, Sully, Thorlacius 2022, PRL 129, 231601; see also the AdS₂ quantum gravity review by Chen, Gorbenko, Sperber 2022, JHEP 09(2022)024). JT gravity is 2D dilaton gravity with action $S = (1/16\pi G_2) \int d^2x \sqrt{-g}  (\Phi R + 2\Phi_0)$. It is the simplest 2D quantum gravity theory, and the Karch-Randall brane embedding in AdS₃ naturally supports it. SIDC's 2D universe is therefore not exotic: it is a JT-gravity excitation localized on a Karch–Randall end-of-the-world brane. The 2D Planck mass follows from the RS-II natural scales as $M_{2D} = M_5^{3/2} k^{1/2} \sim 10^{38}$ GeV.
 
-4. **The Radial Acceleration Relation now extends to $\log g_+{\rm bar} \sim -12$ m/s²** (Vărăşteanu et al. 2025, MIGHTEE-HI, arXiv:2504.20857, 19 galaxies with resolved HI kinematics and resolved stellar masses; and Júlio et al. 2025, EDGE, arXiv:2510.06905, 12 nearby dwarf galaxies with $10^4 < M_{\rm bar}/M_\odot < 10^{7.5}$). SIDC's $g_+$ = c H₀ / (2π) = 1.09 × 10⁻¹⁰ m/s² (within 10% of MOND's a₀ = 1.2 × 10⁻¹⁰ m/s²) predicts $g_+{\rm obs} \approx \sqrt{g_+{\rm bar} \times g_+}$ in the deep-MOND regime, which is now testable down to $\log g_+{\rm bar} \sim -12$ with the new data. SIDC's MOND-like behavior is therefore testable with current observations; the consistency at the lowest accelerations would be a positive signal for SIDC (or for MOND).
+4. **The Radial Acceleration Relation now extends to $\log g_+{\rm bar} \sim -12$ m/s²** (Vărăşteanu et al. 2025, MIGHTEE-HI, arXiv:2504.20857, 19 galaxies with resolved HI kinematics and resolved stellar masses; and Júlio et al. 2025, EDGE, arXiv:2510.06905, 12 nearby dwarf galaxies with $10^4 < M_{\rm bar}/M_\odot < 10^{7.5}$). SIDC's $g_+$ = c H₀ / (2π) = $1.09 \times 10^{-10}\,\text{m}$/s² (within 10% of MOND's a₀ = $1.2 \times 10^{-10}\,\text{m}$/s²) predicts $g_+{\rm obs} \approx \sqrt{g_+{\rm bar} \times g_+}$ in the deep-MOND regime, which is now testable down to $\log g_+{\rm bar} \sim -12$ with the new data. SIDC's MOND-like behavior is therefore testable with current observations; the consistency at the lowest accelerations would be a positive signal for SIDC (or for MOND).
 
 Together these four external constraints reduce SIDC's 2D CFT free-parameter count from 4 to **2**: the Liouville cosmological constant μ (setting the 2D universe mass scale) and the effective 3+1D dark-matter mass $m_{3+1D}$ (setting the Karch–Randall brane location z₀). These are SIDC's two *honest unknowns* — equivalent to "why Λ = ?" and "why $m_{\rm DM} = ?$" — and correspond to Limitation 26. Deriving them from first principles requires a 2D CFT theoretical physicist and is beyond the scope of this thought experiment. The web-research script that consolidates these four constraints is `calculations/v27_web_2d_cft_convergence.py`.
 
@@ -17312,9 +17277,9 @@ Continued web research (June 2026) yields four *more* external constraints that 
 
 Continued web research in June 2026 yields five more external constraints:
 
-16. **Torsion balance ultra-light vector DM search (Ross, Shaw, Gettings, Apple, Paulson, Gundlach 2025, arXiv:2510.21764)**. The Eot-Wash group has set new limits on ultra-light vector DM coupled to baryon-minus-lepton number. The search covers 1.3 × 10⁻²² to 1.9 × 10⁻¹⁸ eV, with peak sensitivity g₊{B-L} ≤ 9 × 10⁻²⁶. SIDC's 2D universe mass (∼ 10⁻¹⁵ GeV = 10⁻⁶ eV) is∼ 10¹² × ABOVE the search range — SIDC 2D universes are *heavy* (CDM-like), not ultra-light. The torsion balance constraint is *vacuously consistent* with SIDC (SIDC 2D universes have no Standard Model coupling, so g₊{B-L} = 0 by construction).
+16. **Torsion balance ultra-light vector DM search (Ross, Shaw, Gettings, Apple, Paulson, Gundlach 2025, arXiv:2510.21764)**. The Eot-Wash group has set new limits on ultra-light vector DM coupled to baryon-minus-lepton number. The search covers $1.3 \times 10^{-22}\,\text{to}$ $1.9 \times 10^{-18}\,\text{eV}$, with peak sensitivity g₊{B-L} ≤ $9 \times 10^{-26}$. SIDC's 2D universe mass (∼ 10⁻¹⁵ GeV = 10⁻⁶ eV) is∼ 10¹² × ABOVE the search range — SIDC 2D universes are *heavy* (CDM-like), not ultra-light. The torsion balance constraint is *vacuously consistent* with SIDC (SIDC 2D universes have no Standard Model coupling, so g₊{B-L} = 0 by construction).
 
-17. **NANOGrav 15-year stochastic GW background (Agazie et al. 2023; confirmed by EPTA, PPTA, CPTA 2024-2025)**. Multiple pulsar timing array experiments have detected evidence for a stochastic GW background at nanohertz frequencies, with h_c ∼ 2.4 × 10⁻¹⁵ at $f_{\rm yr} = 1/{\rm year}$. Possible origins include supermassive black hole binaries (SMBHB), cosmological sources (phase transitions, cosmic strings, scalar-induced GWs), or new physics. SIDC's 2D universe births could contribute a stochastic GW background at SIDC's rate: total power $\sim 10^{60-62}$ erg/s/ ${\rm Mpc}^3$, which is ∼ 10³ × below current PTA sensitivity. SIDC's predicted 2D universe birth GW background is *not yet detectable* but is *testable* with future SKA-MPG (2030s).
+17. **NANOGrav 15-year stochastic GW background (Agazie et al. 2023; confirmed by EPTA, PPTA, CPTA 2024-2025)**. Multiple pulsar timing array experiments have detected evidence for a stochastic GW background at nanohertz frequencies, with h_c ∼ $2.4 \times 10^{-15}\,\text{at}$ $f_{\rm yr} = 1/{\rm year}$. Possible origins include supermassive black hole binaries (SMBHB), cosmological sources (phase transitions, cosmic strings, scalar-induced GWs), or new physics. SIDC's 2D universe births could contribute a stochastic GW background at SIDC's rate: total power $\sim 10^{60-62}$ erg/s/ ${\rm Mpc}^3$, which is ∼ 10³ × below current PTA sensitivity. SIDC's predicted 2D universe birth GW background is *not yet detectable* but is *testable* with future SKA-MPG (2030s).
 
 18. **JT gravity boundary conditions classified (Anous, Kruthoff, Mahajan 2021, JHEP 04(2021)069)**. The possible boundary conditions in JT gravity have been classified into a one-parameter family of "energy-branes" (or α-branes) and End-of-the-World (EOW) branes. SIDC's 2D universe population corresponds to a *multi-brane* JT gravity configuration, with each 2D universe being an EOW brane at a specific dilaton value. The partition function of multi-brane JT gravity is given by a multi-matrix integral. Specific predictions for SIDC require explicit calculation, but the *framework* (multi-brane JT) is well-established.
 
@@ -17336,7 +17301,7 @@ Continued web research in June 2026 yields five more external constraints from t
 
 22. **Ly α forest WDM constraints** (Garcia-Gallego, Iršič, Haehnelt, Viel, Bolton 2025, arXiv:2504.06367). New Ly α forest flux power spectrum measurements from the Sherwood-Relics suite constrain warm dark matter (WDM) to $m_{\rm WDM} > 3$ keV (95% CL). SIDC's 2D universe mass ( ∼ 10⁻¹⁵ GeV = 10⁻⁶ eV = 1 GeV) is *vastly heavier* than this WDM bound, so SIDC is *trivially consistent* with the Lyα forest WDM constraint.
 
-23. **Primordial black hole constraints 2024-2025** (Tan & Xia 2024, arXiv:2402.17871, X-ray background; Green 2025, arXiv:2501.02610, microlensing; Crispim Romao et al. 2025, arXiv:2506.20709, LSST forecasts). The PBH mass spectrum is constrained across many orders of magnitude: X-ray background (10 ¹⁶– 5 × 10¹⁸ g), microlensing (10 ⁻⁹–10 ⁴ M $_\odot$), and CMB accretion ( $>100 M_{\odot}$). SIDC's 2D universe mass is ∼ 10⁻²¹ M $_\odot$, which is *below* the X-ray background window. However, SIDC's 2D universes are *not* black holes (they're 2D CFT excitations, not gravitational collapse products), so PBH constraints are *inapplicable* to SIDC.
+23. **Primordial black hole constraints 2024-2025** (Tan & Xia 2024, arXiv:2402.17871, X-ray background; Green 2025, arXiv:2501.02610, microlensing; Crispim Romao et al. 2025, arXiv:2506.20709, LSST forecasts). The PBH mass spectrum is constrained across many orders of magnitude: X-ray background (10 ¹⁶– $5 \times 10^{18}\,\text{g}$), microlensing (10 ⁻⁹–10 ⁴ M $_\odot$), and CMB accretion ( $>100 M_{\odot}$). SIDC's 2D universe mass is ∼ 10⁻²¹ M $_\odot$, which is *below* the X-ray background window. However, SIDC's 2D universes are *not* black holes (they're 2D CFT excitations, not gravitational collapse products), so PBH constraints are *inapplicable* to SIDC.
 
 24. **XENONnT 2025 final WIMP result** (XENON Collaboration 2025, *Phys. Rev. Lett.* 135, 221003). The XENONnT experiment reports a 3.1 tonne-year exposure analysis, setting a 90% CL upper limit on the spin-independent WIMP-nucleon cross-section of $\sigma_{\rm SI} < 1.7 \times 10^{-47}$ cm² at $m_{\rm WIMP} = 30$ GeV/c^2, with best median sensitivity $\sigma_{\rm SI} = 1.4 \times 10^{-47}$ cm² at $m_{\rm WIMP} = 41$ GeV/c². SIDC's 2D universes have *no Standard Model coupling* (CDM-like), so the XENONnT cross-section is σ = 0 for SIDC. The constraint is *trivially satisfied* (vacuously consistent), but also *uninformative* about SIDC.
 
@@ -17353,7 +17318,7 @@ These five additional constraints from 2025 datasets do not reduce SIDC's 2 free
 
 The 6th round of web research (June 2026, total 30 constraints across rounds 1-6) yields five more external constraints from the latest 2024-2025 datasets. Rounds 7-8 (15 additional constraints, total 45) are documented in §8.1.8–§8.1.10.
 
-26. **ALPS/IAXO/ADMX axion-like particle coupling constraints** (Carenza, Pasechnik, Wang 2024, *Composite heavy axion-like dark matter*, arXiv:2408.14245; Zhang, Wu, Yan 2025, *New limits on ultralight axionlike DM*, arXiv:2501.08117). Two classes of axion-like particle (ALP) DM have been constrained: (a) *composite heavy* ALPs with mass 10³– 10⁹ GeV and *suppressed* electromagnetic couplings (GALPs); (b) *ultralight* ALPs with mass 10⁻²⁴– 5 × 10⁻²¹ eV, with laboratory bounds on the axion-nucleon coupling improved by *more than 3 orders of magnitude*. SIDC's 2D universe mass ( ∼ 10⁻¹⁵ GeV = 10⁻⁶ eV) is *between* these two ALP mass ranges. SIDC 2D universes have *no Standard Model coupling*, so the ALP constraints are *inapplicable* to SIDC (vacuously consistent).
+26. **ALPS/IAXO/ADMX axion-like particle coupling constraints** (Carenza, Pasechnik, Wang 2024, *Composite heavy axion-like dark matter*, arXiv:2408.14245; Zhang, Wu, Yan 2025, *New limits on ultralight axionlike DM*, arXiv:2501.08117). Two classes of axion-like particle (ALP) DM have been constrained: (a) *composite heavy* ALPs with mass 10³– 10⁹ GeV and *suppressed* electromagnetic couplings (GALPs); (b) *ultralight* ALPs with mass 10⁻²⁴– $5 \times 10^{-21}\,\text{eV}$, with laboratory bounds on the axion-nucleon coupling improved by *more than 3 orders of magnitude*. SIDC's 2D universe mass ( ∼ 10⁻¹⁵ GeV = 10⁻⁶ eV) is *between* these two ALP mass ranges. SIDC 2D universes have *no Standard Model coupling*, so the ALP constraints are *inapplicable* to SIDC (vacuously consistent).
 
 27. **HERA/MeerKAT 21cm reionization** (Sims, Bevins, Fialkov, Anstey, Handley, Heimersheim, de Lera Acedo, Mondal, Barkana 2025, arXiv:2504.09725, *Rapid and late cosmic reionization driven by massive galaxies*). A joint Bayesian analysis of 21cm, Lyman-line, and CMB data constrains the astrophysics of reionization: rapid and late reionization driven by massive galaxies is preferred. SIDC's 2D universe births are *negligible* for IGM heating (SIDC 2D universes are CDM-like, not ionizing sources), so SIDC is *indistinguishable* from $\Lambda{\rm CDM}$ in the 21cm signal. No SIDC-specific prediction in 21cm.
 
@@ -17375,7 +17340,7 @@ These five additional constraints do not reduce SIDC's 2 free parameters (μ, $m
 
 Continued web research (June 2026) yields five additional external constraints from the most current 2025-2026 datasets. The total external constraint catalog is now **35 constraints** (the most extensively tested thought-experiment model).
 
-31. **JWST MoM-z14 confirmed z=14.44 galaxy** (Naidu, Oesch, Brammer, Weibel, Li, Matthee, et al. 2025, arXiv:2505.11263, *A Cosmic Miracle: A Remarkably Luminous Galaxy at $z_{\rm spec}=14.44$ Confirmed with JWST*). The most distant spectroscopically confirmed galaxy: $z_{\rm spec} = 14.44$, existing at 280 Myr after the Big Bang. Luminosity is 100× higher than ΛCDM theoretical predictions; high nitrogen abundance (globular-cluster-like). This is the *newest* high-z galaxy record, beating JADES-GS-z14-0 at z=14.18 (Carniani+ 2024). **SIDC analysis:** at z=14.44, (1+z)⁴ = 1.9 × 10⁶ × the present-day Thomson+energetic event rate. SIDC's $R_{2D}(z=14.44)$ is very high (under the broader Thomson-dominant principle, §4.51–§4.53). SIDC's predicted DM density at z=14.44 matches ΛCDM to∼ 10\%. The MoM-z14 brightness is driven by efficient early star formation, which in SIDC would also create many 2D universes, giving early DM — qualitatively consistent with JWST observations. **Status: QUALITATIVELY CONSISTENT** (SIDC's broader principle predicts early DM in lockstep with early SF, which is needed to form such bright early galaxies).
+31. **JWST MoM-z14 confirmed z=14.44 galaxy** (Naidu, Oesch, Brammer, Weibel, Li, Matthee, et al. 2025, arXiv:2505.11263, *A Cosmic Miracle: A Remarkably Luminous Galaxy at $z_{\rm spec}=14.44$ Confirmed with JWST*). The most distant spectroscopically confirmed galaxy: $z_{\rm spec} = 14.44$, existing at 280 Myr after the Big Bang. Luminosity is 100× higher than ΛCDM theoretical predictions; high nitrogen abundance (globular-cluster-like). This is the *newest* high-z galaxy record, beating JADES-GS-z14-0 at z=14.18 (Carniani+ 2024). **SIDC analysis:** at z=14.44, (1+z)⁴ = $1.9 \times 10^{6}$× the present-day Thomson+energetic event rate. SIDC's $R_{2D}(z=14.44)$ is very high (under the broader Thomson-dominant principle, §4.51–§4.53). SIDC's predicted DM density at z=14.44 matches ΛCDM to∼ 10\%. The MoM-z14 brightness is driven by efficient early star formation, which in SIDC would also create many 2D universes, giving early DM — qualitatively consistent with JWST observations. **Status: QUALITATIVELY CONSISTENT** (SIDC's broader principle predicts early DM in lockstep with early SF, which is needed to form such bright early galaxies).
 
 32. **DESI DR2 BAO (March 2025)** (Adame, Aguilar, Ahlen, et al. 2025, arXiv:2503.14738, *DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations*; Lodha, Calderon, Matthewson, et al. 2025, arXiv:2503.14743, *Extended Dark Energy analysis using DESI DR2 BAO measurements*). 14 million galaxies and quasars give the best BAO measurements to date. DR1 result (2024) **confirmed**: 3.5σ preference for evolving DE, with w₀ = -0.83 ± 0.16, wₐ = -0.75 ± 0.30 (combined with SNe). The cosmological constant Λ is *outside* the 95% confidence interval for w₀– wₐ. ΛCDM is in ∼ 3.5σ tension with this preference. **SIDC analysis:** SIDC's DE is the 4D event's un-cancelled antigravity; SIDC *qualitatively* predicts evolving DE (the 4D event's antigravity output is not necessarily perfectly constant in 4D time). SIDC does *not* predict the specific w₀, wₐ values (Limitation 33). The DR2 result is **QUALITATIVELY CONSISTENT** with SIDC (DE evolves) but specific values are not derived from first principles.
 
@@ -17385,7 +17350,7 @@ Continued web research (June 2026) yields five additional external constraints f
 
 35. **LIGO-Virgo-KAGRA O4 catalog (November 2025)** (LVK Collaboration, LIGO Caltech announcement 2025-11-18, *LIGO–Virgo–KAGRA Complete Fourth Observing Run*). The O4 observing ran May 2023 to October 2025 (29 months), with 218+ confident gravitational wave detections through August 2025 (the 200th O4 detection was announced March 2025, doubling the total from O1+O2+O3 combined which was 90). The events are predominantly BBH, with smaller numbers of BNS, NSBH, and asymmetric mass mergers. O5 begins ∼ 2027 with enhanced detectors. **SIDC analysis:** O4 BBH events are themselves *energetic events above $E_{\rm crit}$* in SIDC's framework, and should create 2D universes at the merger site. The 2D universe contribution to local DM from BBH mergers is *sub-dominant* to the cumulative contribution from SN, AGN, and other more frequent events. A potential testable signature: cross-correlation of GWTC events with weak-lensing maps (negligible S/N with current data; future direction). **Status: QUALITATIVELY CONSISTENT** (BBH mergers are energetic events in SIDC; 2D universe contribution to DM is sub-dominant but testable in principle).
 
-**Supplementary (late update, June 2026):** UMa3/U1 revisited (Rostami-Shirazi, Haghi, Hasani Zonoozi, Kroupa 2025, arXiv:2508.10543, *Dark Star Clusters or Ultra-Faint Dwarf galaxies? Revisiting UMa3/U1*). The Ursa Major III/UNIONS 1 object (Smith+ 2024) — which Dalal & May 2025 used to set the m > 8 × 10⁻¹⁸ eV lower bound (constraint #2 in v2.7.2) — has been revisited. Rostami-Shirazi+ 2025 confirm: UMa3/U1 has $M_{\rm dyn}/L \sim 10^{3}$ (DM-dominated) but is cluster-like in compactness; classification as DM-dwarf vs self-gravitating cluster *remains unresolved*. SIDC's $m_{3+1D} = 10^{-15}$ GeV is 1.25 × 10¹¹ × above the 8 × 10⁻¹⁸ eV bound; this bound is robust to UMa3/U1 classification ambiguity (other dSphs set the same bound). **Status: CONSISTENT** (SIDC's $m_{3+1D}$ bound is unchanged).
+**Supplementary (late update, June 2026):** UMa3/U1 revisited (Rostami-Shirazi, Haghi, Hasani Zonoozi, Kroupa 2025, arXiv:2508.10543, *Dark Star Clusters or Ultra-Faint Dwarf galaxies? Revisiting UMa3/U1*). The Ursa Major III/UNIONS 1 object (Smith+ 2024) — which Dalal & May 2025 used to set the m > $8 \times 10^{-18}\,\text{eV}$ lower bound (constraint #2 in v2.7.2) — has been revisited. Rostami-Shirazi+ 2025 confirm: UMa3/U1 has $M_{\rm dyn}/L \sim 10^{3}$ (DM-dominated) but is cluster-like in compactness; classification as DM-dwarf vs self-gravitating cluster *remains unresolved*. SIDC's $m_{3+1D} = 10^{-15}$ GeV is $1.25 \times 10^{11}$× above the $8 \times 10^{-18}\,\text{eV}$ bound; this bound is robust to UMa3/U1 classification ambiguity (other dSphs set the same bound). **Status: CONSISTENT** (SIDC's $m_{3+1D}$ bound is unchanged).
 
 **SIDC's total record (v2.7.3+ with this update):**
 
@@ -17482,7 +17447,7 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 ### 9.2 SIDC vs MOND (Modified Newtonian Dynamics)
 
-**MOND's strength and weakness.** MOND elegantly eliminates the need for dark matter in individual spiral galaxies by modifying Newton's law of gravity at a universal acceleration floor ( a₀ ∼ 1.2 × 10⁻¹⁰ m/s²). It works beautifully for isolated spiral galaxies (the SPARC dataset, 175 galaxies). But it fails fundamentally in massive galaxy clusters: the observed acceleration scale in cluster cores is an order of magnitude higher ( ∼ 10⁻⁹ m/s², Tian+ 2024), forcing MOND proponents to awkwardly introduce unseen baryonic gas or hypothetical sterile neutrinos to make the math work.
+**MOND's strength and weakness.** MOND elegantly eliminates the need for dark matter in individual spiral galaxies by modifying Newton's law of gravity at a universal acceleration floor ( a₀ ∼ $1.2 \times 10^{-10}\,\text{m}$/s²). It works beautifully for isolated spiral galaxies (the SPARC dataset, 175 galaxies). But it fails fundamentally in massive galaxy clusters: the observed acceleration scale in cluster cores is an order of magnitude higher ( ∼ 10⁻⁹ m/s², Tian+ 2024), forcing MOND proponents to awkwardly introduce unseen baryonic gas or hypothetical sterile neutrinos to make the math work.
 
 **SIDC's hybrid advantage.** SIDC behaves like MOND in quiet, low-density spiral arms because the 2D universe projection establishes a non-linear acceleration floor. However, because the model tracks integrated historical energetic events, massive galaxy clusters — which are filled with violent, space-time-compressing plasma shocks — consistently blow past the $E_{crit}$ phase-transition threshold across massive spatial volumes. This naturally scales the apparent acceleration up to match the Tian+ 2024 cluster data, seamlessly bridging the gap that leaves MOND stranded.
 
@@ -17490,8 +17455,8 @@ Whether the Scale-Invariant Dimensional Cascade (SIDC) framework is "superior" t
 
 | System | Empirical g₊ | MOND | SIDC | Best |
 |--------|------------------|------|------|------|
-| Isolated spiral (SPARC) | 1.2 × 10⁻¹⁰ m/s² | **[PASS]** | **[PASS]** | Tie |
-| Massive cluster (Tian+ 2024) | 1.7 × 10⁻⁹ m/s² | **[FAIL]** | **[PASS]** | SIDC |
+| Isolated spiral (SPARC) | $1.2 \times 10^{-10}\,\text{m}$/s² | **[PASS]** | **[PASS]** | Tie |
+| Massive cluster (Tian+ 2024) | $1.7 \times 10^{-9}\,\text{m}$/s² | **[FAIL]** | **[PASS]** | SIDC |
 | Dwarf galaxy | Variable | Fail (low SB) | **[PASS]** (via $E_{crit}$) | SIDC |
 
 SIDC essentially equals MOND for galaxies, with the *additional* cluster scaling baked in as a consequence of the phase-transition principle.
@@ -17854,31 +17819,31 @@ calibrated to a Type Ia supernova (E ≈ 10⁴⁴ J) creating a 2D universe that
 
 | D-event | Energy (J) | (D−1)-universe lifespan in D-view |
 |---|---|---|
-| 1 ton TNT → 2D | 4 × 10⁹ J | 10⁻³⁷ μs |
+| 1 ton TNT → 2D | $4 \times 10^{9}\,\text{J}$ | 10⁻³⁷ μs |
 | X-class solar flare → 2D | 10²⁵ J | 10⁻¹⁷ μs |
 | **Type Ia SN → 2D** | ** 10⁴⁴ J** | **33 s** |
 | Hypernova → 2D | 10⁴⁶ J | 3.5 hr |
 | Long GRB → 2D | 10⁴⁷ J | 2.8 days |
-| BNS merger → 2D | 10⁵³ J | 4 × 10⁵ yr |
+| BNS merger → 2D | 10⁵³ J | $4 \times 10^{5}\,\text{yr}$ |
 | AGN flare → 2D | 10⁵⁵ J | 10⁸ yr |
-| Quasar outburst → 2D | 10⁶⁰ J | 5 × 10¹⁴ yr |
-| **4D cosmological event → 3D (us)** | ** 10⁶⁹ J** | ** ∼ 2 × 10²⁶ yr** |
+| Quasar outburst → 2D | 10⁶⁰ J | $5 \times 10^{14}\,\text{yr}$ |
+| **4D cosmological event → 3D (us)** | ** 10⁶⁹ J** | ** ∼ $2 \times 10^{26}\,\text{yr}$** |
 
-The 4D cosmological event (rest energy of the observable 3+1D universe) gives a 3D universe that lives ∼ 2 × 10²⁶ yr in 4D view.
+The 4D cosmological event (rest energy of the observable 3+1D universe) gives a 3D universe that lives ∼ $2 \times 10^{26}\,\text{yr}$ in 4D view.
 
 ### 10.2 The 2D universe as a "relativistic particle" — mass-dependent time dilation
 
 The user-SIDC conversation (June 2026) identified a striking analogy with special relativity: **a 2D universe is to a 3D event as a relativistic particle is to its rest frame**. A particle with less rest mass can travel faster (closer to c) and experiences *more* time dilation; a particle with more rest mass travels slower and experiences *less* time dilation. By the same token:
 
-- A **2D universe from a small event** (1 ton TNT, 4 × 10⁹ J) is "light" — it experiences *more* time dilation and lives only 10⁻³⁷ μs in 3D view.
+- A **2D universe from a small event** (1 ton TNT, $4 \times 10^{9}\,\text{J}$) is "light" — it experiences *more* time dilation and lives only 10⁻³⁷ μs in 3D view.
 - A **2D universe from a large event** (AGN flare, 10⁵⁵ J) is "heavy" — it experiences *less* time dilation and lives 10⁸ yr in 3D view.
-- **Our 3D universe**, created by the 4D cosmological event ( 10⁶⁹ J), is one of the *heaviest* (D−1)-universes in SIDC. It experiences very *little* time dilation and lives 2 × 10²⁶ yr in 4D view.
+- **Our 3D universe**, created by the 4D cosmological event ( 10⁶⁹ J), is one of the *heaviest* (D−1)-universes in SIDC. It experiences very *little* time dilation and lives $2 \times 10^{26}\,\text{yr}$ in 4D view.
 
 This is a **unification**: 2D universes from supernovae and our 3D universe are *the same kind of object* in SIDC — they differ only in the *size* of the D-event that created them. SIDC's "33 s" is one data point on a smooth ladder that goes from 10⁻³⁷ μs to 10²⁶ yr over 54 orders of magnitude in event energy.
 
-### 10.3 The 4D Planck mass has a floor: M_{Pl,4} ≥ 3.93×10²³ GeV
+### 10.3 The 4D Planck mass has a floor: M_{Pl,4} ≥ $3.93 \times 10^{23}\,\text{GeV}$
 
-For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × ( $t_{Pl,3}$ / $t_{Pl,4}$) and the energy-scaling result T₃D = 2 × 10²⁶ yr:
+For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × ( $t_{Pl,3}$ / $t_{Pl,4}$) and the energy-scaling result T₃D = $2 \times 10^{26}\,\text{yr}$:
 
 $$\frac{t_{Pl,3}}{t_{Pl,4}} \geq \frac{13.8 \text{ Gyr}}{2\times 10^{26} \text{ yr}} = 7\times 10^{-17}$$
 
@@ -17894,15 +17859,15 @@ For different choices of M_{Pl,4} above the floor, the 3D universe's *internal* 
 
 | M_{Pl,4} assumption | T₃D' (3D internal) | Time remaining | Status |
 |---|---|---|---|
-| 3.93×10²³ GeV (floor) | 14 Gyr | 0.2 Gyr | just barely alive |
+| $3.93 \times 10^{23}\,\text{GeV}$ (floor) | 14 Gyr | 0.2 Gyr | just barely alive |
 | 1 TeV (LHC-scale) | 28 Gyr | 14 Gyr | another Hubble time |
 | 10 TeV (ADD upper) | 280 Gyr | 266 Gyr | cosmic afternoon |
-| 10¹⁶ GeV (string/GUT) | 2 × 10²⁰ yr | ∼ 10²⁰ yr | cosmic infancy |
-| M_{Pl,3} = 10¹⁹ GeV (no extra dim) | 2 × 10²⁶ yr | ~forever | true infancy |
+| 10¹⁶ GeV (string/GUT) | $2 \times 10^{20}\,\text{yr}$ | ∼ 10²⁰ yr | cosmic infancy |
+| M_{Pl,3} = 10¹⁹ GeV (no extra dim) | $2 \times 10^{26}\,\text{yr}$ | ~forever | true infancy |
 
 **If M_{Pl,4} ~ TeV (the most natural ADD value, also accessible to the LHC), the 3D universe ends in ~1 Gyr in 3D internal time.** The 3D has lived 13.8 Gyr out of an internal lifespan of 14-28 Gyr — it is at the *end* of its life.
 
-The 4D sees the 3D as a *very brief* event ( 2 × 10²⁶ yr is 10⁻³³ of the 4D's own 10⁵⁹-yr predicted lifespan). The 3D's *own* clock, by contrast, is *running out*. The "4D sees us as brief" intuition is the right way around: brief in 4D view, but our own clock is at the end.
+The 4D sees the 3D as a *very brief* event ( $2 \times 10^{26}\,\text{yr}$ is 10⁻³³ of the 4D's own 10⁵⁹-yr predicted lifespan). The 3D's *own* clock, by contrast, is *running out*. The "4D sees us as brief" intuition is the right way around: brief in 4D view, but our own clock is at the end.
 
 ### 10.5 Testable signatures of the end-of-universe picture
 
@@ -17916,7 +17881,7 @@ If M_{Pl,4} ~ TeV and the 3D universe is approaching its end in 3D internal time
 
 **(d) Final 2D-universe creation bursts.** As the 3D universe approaches its end, the 2D universe creation rate should *drop*, not increase. SIDC's existing GW prediction (2D universe birth stochastic background, ∼ 10⁶⁰-62 erg/s/ ${\rm Mpc}^3$) predicts a *constant* GW background. A *declining* GW background on Gyr timescales would be evidence of the 3D approaching its end.
 
-**(e) No new "BNS-merger 2D universe" echo expected soon.** SIDC's energy scaling predicts a 2D universe from a BNS merger ( 10⁵³ J) lives 4 × 10⁵ yr in 3D view. If the 3D universe is at the end of its life, *new* 2D universes from current BNS mergers would *also* be short-lived (because the 3D's overall energetics are declining). A LIGO/Virgo search for post-merger GW echoes from BNS events in the next ~Gyr could test this.
+**(e) No new "BNS-merger 2D universe" echo expected soon.** SIDC's energy scaling predicts a 2D universe from a BNS merger ( 10⁵³ J) lives $4 \times 10^{5}\,\text{yr}$ in 3D view. If the 3D universe is at the end of its life, *new* 2D universes from current BNS mergers would *also* be short-lived (because the 3D's overall energetics are declining). A LIGO/Virgo search for post-merger GW echoes from BNS events in the next ~Gyr could test this.
 
 ### 10.6 The constraint as a *testable prediction*
 
@@ -17940,7 +17905,7 @@ The author flags this section as *speculative* for the following reasons:
 
 1. The energy-scaling rule $T_{D-1} \propto E_D^{1.29}$ is a *fit* to a single data point (the 33 s supernova 2D universe). It is not derived from first principles. Alternative scalings (e.g., T ∝ E¹, T ∝ E², T = constant) give different T₃D values.
 
-2. The $M_{\rm Pl,4D} \geq 887$ GeV floor is a *necessary* condition for the 3D to be alive, but it is not sufficient. The actual M_{Pl,4} could be much larger (up to $M_{Pl,3}$), in which case the 3D has 2 × 10²⁶ yr left and the end-of-universe picture is irrelevant on any practical timescale.
+2. The $M_{\rm Pl,4D} \geq 887$ GeV floor is a *necessary* condition for the 3D to be alive, but it is not sufficient. The actual M_{Pl,4} could be much larger (up to $M_{Pl,3}$), in which case the 3D has $2 \times 10^{26}\,\text{yr}$ left and the end-of-universe picture is irrelevant on any practical timescale.
 
 3. The connection between DESI's evolving DE and SIDC's end-of-universe picture is a *plausible* interpretation, not a *necessary* one. DESI's evolving DE could have other explanations (early dark energy, modified gravity, etc.) that do not involve the 3D approaching its end.
 
@@ -17950,15 +17915,15 @@ Despite these caveats, the prediction is **concrete, testable, and falsifiable**
 
 ### 10.9 Sensitivity analysis: how robust is the rule?
 
-A trial-and-error exploration reveals a striking sensitivity: SIDC's energy-scaling rule, with α ≈ 1.29 forced by the SN calibration, gives a 4D cosmological lifespan of 1.9 × 10²⁶ yr. But a 1% change in α gives a **60% change** in the predicted $T_{\rm 3D}$. The sensitivity table:
+A trial-and-error exploration reveals a striking sensitivity: SIDC's energy-scaling rule, with α ≈ 1.29 forced by the SN calibration, gives a 4D cosmological lifespan of $1.9 \times 10^{26}\,\text{yr}$. But a 1% change in α gives a **60% change** in the predicted $T_{\rm 3D}$. The sensitivity table:
 
 | α | 4D cosm. lifespan (yr) | 3D's current age / total |
 |---|---|---|
-| 1.16 (1.29 - 10%) | 1.1 × 10²³ | 10⁻¹³ |
-| 1.23 (1.29 - 5%) | 4.6 × 10²⁴ | 3 × 10⁻¹⁵ |
-| **1.29 (best fit)** | ** 1.9 × 10²⁶** | ** 7 × 10⁻¹⁷** |
-| 1.36 (1.29 + 5%) | 7.8 × 10²⁷ | 2 × 10⁻¹⁸ |
-| 1.42 (1.29 + 10%) | 3.2 × 10²⁹ | 4 × 10⁻²⁰ |
+| 1.16 (1.29 - 10%) | $1.1 \times 10^{23}$| 10⁻¹³ |
+| 1.23 (1.29 - 5%) | $4.6 \times 10^{24}$| $3 \times 10^{-15}$|
+| **1.29 (best fit)** | ** $1.9 \times 10^{26}$** | ** $7 \times 10^{-17}$** |
+| 1.36 (1.29 + 5%) | $7.8 \times 10^{27}$| $2 \times 10^{-18}$|
+| 1.42 (1.29 + 10%) | $3.2 \times 10^{29}$| $4 \times 10^{-20}$|
 
 The α = 1.29 prediction is the *single point* in this range. The rule is *very* sensitive to α because the extrapolation spans 25 decades of energy ( 10⁴⁴ → 10⁶⁹ J). A 1% uncertainty in α translates to a 60% uncertainty in the 4D cosmological lifespan.
 
@@ -17967,15 +17932,15 @@ The α = 1.29 prediction is the *single point* in this range. The rule is *very*
 | α | $T_{\rm SN}$ prediction (vs 33s actual) | 4D cosm. lifespan (yr) |
 |---|---|---|
 | 1.0 (linear) | 17 min (× 31 off) | 10¹⁹ yr |
-| 4/3 (Bondi) | 42 min (× 76 off) | 2 × 10²⁷ yr |
-| 3/2 (random walk) | 20 yr (× 1.9 × 10⁷ off) | 3 × 10³¹ yr |
-| 2.0 (quadratic) | 4.5 × 10⁹ Gyr (× 10¹⁶ off) | 3 × 10⁴⁴ yr |
+| 4/3 (Bondi) | 42 min (× 76 off) | $2 \times 10^{27}\,\text{yr}$ |
+| 3/2 (random walk) | 20 yr (× $1.9 \times 10^{7}\,\text{off}$) | $3 \times 10^{31}\,\text{yr}$ |
+| 2.0 (quadratic) | $4.5 \times 10^{9}\,\text{Gyr}$ (× 10¹⁶ off) | $3 \times 10^{44}\,\text{yr}$ |
 
 Only α = 1.29 fits the SN data. But SIDC has **only ONE calibration point** (the 33s for SN), so the rule is *forced* and not *natural*. Alternative functional forms (logarithmic, two-component, exponential, etc.) don't fit the SN data either.
 
-**Honest verdict:** SIDC's energy-scaling rule is the *only* rule that fits the SN data, but it's not "natural" in any obvious way. The α = 1.29 value is an accident of the single calibration. The 4D cosmological lifespan is uncertain by *orders of magnitude* ( 10¹⁹ to 10⁴⁴ yr depending on the true α). The M_{Pl,4} ≥ 3.93×10²³ GeV (LHC bound) in §10.3 is **specific to α = 1.29**; other α values give different (or no) floors.
+**Honest verdict:** SIDC's energy-scaling rule is the *only* rule that fits the SN data, but it's not "natural" in any obvious way. The α = 1.29 value is an accident of the single calibration. The 4D cosmological lifespan is uncertain by *orders of magnitude* ( 10¹⁹ to 10⁴⁴ yr depending on the true α). The M_{Pl,4} ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) in §10.3 is **specific to α = 1.29**; other α values give different (or no) floors.
 
-SIDC's end-of-universe picture in §10.4 is therefore **not robust to the choice of α**. The qualitative prediction (DE should evolve, SFR should decline, etc.) is robust; the quantitative prediction ( $M_{\rm Pl,4D}$ floor at 3.93×10²³ GeV, end in 1-10 Gyr) is not.
+SIDC's end-of-universe picture in §10.4 is therefore **not robust to the choice of α**. The qualitative prediction (DE should evolve, SFR should decline, etc.) is robust; the quantitative prediction ( $M_{\rm Pl,4D}$ floor at $3.93 \times 10^{23}\,\text{GeV}$, end in 1-10 Gyr) is not.
 
 ### 10.10 2D universe *death* gravitational wave predictions
 
@@ -17984,10 +17949,10 @@ SIDC's energy-scaling rule predicts a *specific* 2D universe *death* time for ea
 | Event | E (J) | 2D universe lifetime | GW death frequency (Hz) |
 |---|---|---|---|
 | Type Ia SN | 10⁴⁴ | 33 s | 0.03 Hz |
-| Hypernova | 10⁴⁶ | 3.5 hr | 8 × 10⁻⁵ Hz |
-| Long GRB | 10⁴⁷ | 2.8 days | 4 × 10⁻⁶ Hz |
-| BNS merger (GW170817) | 10⁵³ | 4.3 × 10⁵ yr | 7 × 10⁻¹⁴ Hz |
-| AGN flare | 10⁵⁵ | 1.6 × 10⁸ yr | 2 × 10⁻¹⁶ Hz |
+| Hypernova | 10⁴⁶ | 3.5 hr | $8 \times 10^{-5}\,\text{Hz}$ |
+| Long GRB | 10⁴⁷ | 2.8 days | $4 \times 10^{-6}\,\text{Hz}$ |
+| BNS merger (GW170817) | 10⁵³ | $4.3 \times 10^{5}\,\text{yr}$ | $7 \times 10^{-14}\,\text{Hz}$ |
+| AGN flare | 10⁵⁵ | $1.6 \times 10^{8}\,\text{yr}$ | $2 \times 10^{-16}\,\text{Hz}$ |
 
 **The LISA mission (planned 2030s) operates in the 10⁻⁴ - 1 Hz band**, which covers the hypernova, long GRB, and SN 2D-universe death frequencies. SIDC predicts a *stochastic background* of these bursts from past energetic events, with characteristic frequencies set by the most common event types (SNe, hypernovae, GRBs).
 
@@ -17999,7 +17964,7 @@ The 2D universe death prediction is *qualitatively* robust to the choice of α: 
 
 A careful audit of SIDC's other claims finds **no other explicit 2D universe lifetime data points**:
 
-1. **2D universe Planck scale (set by μ):** The 2D universe's natural time scale is $t_{\rm Pl}$,2 = ℏ/( μ c²). If $T_{2D} \sim t_{\rm Pl}$,2, then μ ∼ 5 × 10⁻⁴⁸ J = 3 × 10⁻²⁹ eV. But μ is a free parameter in SIDC, so this doesn't constrain the energy-scaling rule.
+1. **2D universe Planck scale (set by μ):** The 2D universe's natural time scale is $t_{\rm Pl}$,2 = ℏ/( μ c²). If $T_{2D} \sim t_{\rm Pl}$,2, then μ ∼ $5 \times 10^{-48}\,\text{J}$ = $3 \times 10^{-29}\,\text{eV}$. But μ is a free parameter in SIDC, so this doesn't constrain the energy-scaling rule.
 
 2. **2D universe effective mass m_{3+1D}:** SIDC's analysis of DM gives the *collective* back-projection, not the individual 2D universe's mass. The 2D universe's intrinsic mass is not pinned down.
 
@@ -18025,13 +17990,13 @@ After the trial-and-error and sensitivity analysis, SIDC's claims should be re-f
 **What SIDC CANNOT claim (quantitative, fragile):**
 - The exact value of α ≈ 1.29 (forced by one data point, not natural)
 - The exact 4D cosmological lifespan ( 10¹⁹ to 10⁴⁴ yr depending on α)
-- The M_{Pl,4} ≥ 3.93×10²³ GeV (LHC bound) (specific to α = 1.29)
+- The M_{Pl,4} ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) (specific to α = 1.29)
 - The "end-of-universe in 1-10 Gyr" timeline (depends sensitively on $M_{\rm Pl,4D}$)
 - The specific 2D universe death frequencies (depend on α)
 
 SIDC's energy-scaling ladder is a *qualitative* result that should be presented honestly. The quantitative predictions in §10.3-§10.4 are *preliminary* and *uncertain* by orders of magnitude. They should be re-evaluated when (if) SIDC acquires additional 2D universe lifetime data points — possibly from SPARC reanalysis, possibly from future GW observations, possibly from a 2D CFT theoretical derivation.
 
-The $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) in §10.3 should be flagged as " α = 1.29 specific." The end-of-universe timeline in §10.4 should be flagged as "highly model-dependent." The testable signatures in §10.5 are robust at the qualitative level (DE should evolve, SFR should decline, GW death background should exist) but not at the quantitative level.
+The $M_{\rm Pl,4D}$ ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) in §10.3 should be flagged as " α = 1.29 specific." The end-of-universe timeline in §10.4 should be flagged as "highly model-dependent." The testable signatures in §10.5 are robust at the qualitative level (DE should evolve, SFR should decline, GW death background should exist) but not at the quantitative level.
 
 **SIDC is, in the end, a *thought experiment*.** Its quantitative predictions are forced by limited data and should be treated as *suggestive* rather than *definitive*. The testable signatures in §10.5 are the most reliable part of this section; the $M_{\rm Pl,4D}$ floor and end-of-universe timeline are the most uncertain.
 
@@ -18041,16 +18006,16 @@ A follow-up analysis asks: if a *second* 2D universe lifetime data point were av
 
 | Event | E (J) | α = 1.29 predicted $T_{2D}$ |
 |---|---|---|
-| BNS merger | 10⁵³ | 4.3 × 10⁵ yr |
-| AGN flare | 10⁵⁵ | 1.6 × 10⁸ yr |
+| BNS merger | 10⁵³ | $4.3 \times 10^{5}\,\text{yr}$ |
+| AGN flare | 10⁵⁵ | $1.6 \times 10^{8}\,\text{yr}$ |
 | Hypernova | 10⁴⁶ | 3.5 hr |
 
 **A 2-point fit (SN + hypothetical 2nd point) gives α = 1.29 only if the 2nd point matches the predicted lifetime.** A *different* 2nd point would force a different α, and the 4D cosmological lifespan would change accordingly:
 
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10³ s) [1000 s, way shorter than predicted]: $\alpha_{\rm refit}$ = 0.16, $T_{\rm 3D}$ = 1.4 × 10⁻² yr (3D would have ended immediately)
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10⁶ s) [12 days, much shorter than predicted]: $\alpha_{\rm refit}$ = 0.50, $T_{\rm 3D}$ = 2.9 × 10⁶ yr
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10¹³ s) [ 4.3 × 10⁵ yr, predicted value]: $\alpha_{\rm refit}$ = 1.29, $T_{\rm 3D}$ = 1.9 × 10²⁶ yr
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10¹⁵ s) [ 3 × 10⁷ yr, much longer than predicted]: $\alpha_{\rm refit}$ = 1.74, $T_{\rm 3D}$ = 3.4 × 10³⁷ yr
+- If 2nd point = ( $1 \times 10^{53}\,\text{J}$, $1 \times 10^{3}\,\text{s}$) [1000 s, way shorter than predicted]: $\alpha_{\rm refit}$ = 0.16, $T_{\rm 3D}$ = $1.4 \times 10^{-2}\,\text{yr}$ (3D would have ended immediately)
+- If 2nd point = ( $1 \times 10^{53}\,\text{J}$, $1 \times 10^{6}\,\text{s}$) [12 days, much shorter than predicted]: $\alpha_{\rm refit}$ = 0.50, $T_{\rm 3D}$ = $2.9 \times 10^{6}\,\text{yr}$
+- If 2nd point = ( $1 \times 10^{53}\,\text{J}$, $1 \times 10^{13}\,\text{s}$) [ $4.3 \times 10^{5}\,\text{yr}$, predicted value]: $\alpha_{\rm refit}$ = 1.29, $T_{\rm 3D}$ = $1.9 \times 10^{26}\,\text{yr}$
+- If 2nd point = ( $1 \times 10^{53}\,\text{J}$, $1 \times 10^{15}\,\text{s}$) [ $3 \times 10^{7}\,\text{yr}$, much longer than predicted]: $\alpha_{\rm refit}$ = 1.74, $T_{\rm 3D}$ = $3.4 \times 10^{37}\,\text{yr}$
 
 These are SIDC's **testable predictions**. A measurement of the 2D universe death GW burst at the predicted time after a BNS merger, AGN flare, or hypernova would directly test the α = 1.29 rule. If the measured lifetime matches the prediction, α is confirmed. If not, the rule needs revision.
 
@@ -18062,9 +18027,9 @@ $$S = \int d^2\sigma \sqrt{g}[\frac{1}{2} (\partial\phi)^2 + \mu e^{2b\phi} + T(
 
 The 2D universe's lifetime $T_{2D}$ should be derivable from this Lagrangian. Candidate derivations:
 
-1. **2D Planck scale (set by μ):** $T_{2D} \sim t_{\rm Pl}$,2 = ℏ/( μ c²). For $T_{2D} = 33$ s: μ = 5.3 × 10⁻⁴⁸ J = 3.3 × 10⁻²⁹ eV. This is a "dark energy"-like scale.
+1. **2D Planck scale (set by μ):** $T_{2D} \sim t_{\rm Pl}$,2 = ℏ/( μ c²). For $T_{2D} = 33$ s: μ = $5.3 \times 10^{-48}\,\text{J}$ = $3.3 \times 10^{-29}\,\text{eV}$. This is a "dark energy"-like scale.
 
-2. **2D universe burnout time:** t_burnout ~ 1/√ μ (set by 2D Hubble rate). For $T_{2D} = 33$ s: μ = 6 × 10⁻¹⁸ eV. **Inconsistent with the Planck-scale anchor by 12 orders of magnitude.**
+2. **2D universe burnout time:** t_burnout ~ 1/√ μ (set by 2D Hubble rate). For $T_{2D} = 33$ s: μ = $6 \times 10^{-18}\,\text{eV}$. **Inconsistent with the Planck-scale anchor by 12 orders of magnitude.**
 
 3. **2D universe expansion time:** t_exp $\sim \ell_{\rm Pl}$,2 / c. For $T_{2D} = 33$ s, the final size is c × 33 s = 10¹⁰ m. Natural, but doesn't give μ directly.
 
@@ -18083,14 +18048,14 @@ For SIDC's α = 1.29 rule, the *death frequency* in our frame for each event cla
 | Event | E (J) | Death frequency (Hz) | LISA detectable? |
 |---|---|---|---|
 | Type Ia SN | 10⁴⁴ | 0.03 Hz | **[PASS]** (in band) |
-| Core-collapse SN | 10⁴⁵ | 1.6 × 10⁻³ Hz | **[PASS]** (in band) |
-| Short GRB | 10⁴⁶ | 8.2 × 10⁻⁵ Hz | **[FAIL]** (just below band) |
-| Hypernova | 10⁴⁶ | 8.2 × 10⁻⁵ Hz | **[FAIL]** (just below band) |
-| Long GRB | 10⁴⁷ | 4.2 × 10⁻⁶ Hz | **[FAIL]** (below band) |
-| Magnetar | 10⁴⁰ | 4.5 × 10³ Hz | **[FAIL]** (above LISA) |
-| LHC | 2.2 × 10⁻⁶ | 3.6 × 10⁶² Hz | **[FAIL]** (way above) |
-| BNS merger | 10⁴⁷→ 10⁵³ | 4.2 × 10⁻⁶ Hz (GRB) to 4 × 10⁻¹⁴ Hz (BNS) | **[FAIL]** (below) |
-| AGN flare | 10⁵⁵ | 7.7 × 10⁻¹⁴ Hz | **[FAIL]** (way below) |
+| Core-collapse SN | 10⁴⁵ | $1.6 \times 10^{-3}\,\text{Hz}$ | **[PASS]** (in band) |
+| Short GRB | 10⁴⁶ | $8.2 \times 10^{-5}\,\text{Hz}$ | **[FAIL]** (just below band) |
+| Hypernova | 10⁴⁶ | $8.2 \times 10^{-5}\,\text{Hz}$ | **[FAIL]** (just below band) |
+| Long GRB | 10⁴⁷ | $4.2 \times 10^{-6}\,\text{Hz}$ | **[FAIL]** (below band) |
+| Magnetar | 10⁴⁰ | $4.5 \times 10^{3}\,\text{Hz}$ | **[FAIL]** (above LISA) |
+| LHC | $2.2 \times 10^{-6}$| $3.6 \times 10^{62}\,\text{Hz}$ | **[FAIL]** (way above) |
+| BNS merger | 10⁴⁷→ 10⁵³ | $4.2 \times 10^{-6}\,\text{Hz}$ (GRB) to $4 \times 10^{-14}\,\text{Hz}$ (BNS) | **[FAIL]** (below) |
+| AGN flare | 10⁵⁵ | $7.7 \times 10^{-14}\,\text{Hz}$ | **[FAIL]** (way below) |
 
 The SN and Core-collapse SN death signals are in LISA's band ( 10⁻⁴ to 1 Hz). The Short GRB is just below LISA's band. SIDC predicts a *stochastic background* in this frequency range, dominated by SN 2D universe deaths at 0.03 Hz.
 
@@ -18100,16 +18065,16 @@ For bursts of energy $E_{\rm GW}$ at rate $r_{\rm local}$ per m³ per s, each at
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
-where $\rho_{\rm c}$ = 7.7 × 10⁻¹⁰ J/m³ is the critical density.
+where $\rho_{\rm c}$ = $7.7 \times 10^{-10}\,\text{J}$/m³ is the critical density.
 
 For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = 10⁴⁴ J, $\tau_{2D} = 33$ s, rate$\sim 10^{4}/({\rm Mpc}^3 {\rm yr}) = 1.08 \times 10^{-71}/({\rm m}^3 {\rm s})$):
 
 | $\epsilon_{\rm GW}$ | $\Omega_{\rm GW}$ at 0.03 Hz | LISA noise at 0.03 Hz | Detectable? |
 |---|---|---|---|
-| 10⁻⁸ (typical SN GW efficiency) | 4.5 × 10⁻²⁵ | ∼ 5 × 10⁻¹¹ | **[FAIL]** |
-| 10⁻⁵ | 4.5 × 10⁻²² | ∼ 5 × 10⁻¹¹ | **[FAIL]** |
-| 10⁻³ (optimistic) | 4.5 × 10⁻²⁰ | ∼ 5 × 10⁻¹¹ | **[FAIL]** |
-| 1 (full conversion) | 4.5 × 10⁻¹⁷ | ∼ 5 × 10⁻¹¹ | **[FAIL]** (still below!) |
+| 10⁻⁸ (typical SN GW efficiency) | $4.5 \times 10^{-25}$| ∼ $5 \times 10^{-11}$| **[FAIL]** |
+| 10⁻⁵ | $4.5 \times 10^{-22}$| ∼ $5 \times 10^{-11}$| **[FAIL]** |
+| 10⁻³ (optimistic) | $4.5 \times 10^{-20}$| ∼ $5 \times 10^{-11}$| **[FAIL]** |
+| 1 (full conversion) | $4.5 \times 10^{-17}$| ∼ $5 \times 10^{-11}$| **[FAIL]** (still below!) |
 
 **KEY FINDING (v2.7.3+):** SIDC's 2D-universe death GW background at 0.03 Hz is **FAR BELOW LISA's noise floor**, even with $\epsilon_{\rm GW}$ = 1 (100% of E_per_death radiated as GW). LISA's best sensitivity is $\Omega_{\rm GW} \sim 10^{-12}$ at ~3 mHz, while SIDC predicts $\Omega_{\rm GW} \sim 10^{-17}$ for SN deaths with $\epsilon_{\rm GW}$ = 1. SIDC's death GW is **NOT DETECTABLE BY LISA** for any reasonable $\epsilon_{\rm GW}$.
 
@@ -18119,11 +18084,11 @@ For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = 10⁴⁴ J, $
 
 | Event | $f_{\rm obs}$ (Hz) | $\Omega_{\rm GW}$ ( ε=1) | LISA band? |
 |---|---|---|---|
-| SN Ia | 0.03 | 4.5 × 10⁻¹⁷ | **[PASS]** in band |
-| Short GRB | 8.2 × 10⁻⁵ | 1.7 × 10⁻¹³ | **[FAIL]** just below |
-| Long GRB | 4.2 × 10⁻⁶ | 3.3 × 10⁻¹¹ | **[FAIL]** below |
-| BNS merger (full E) | 4 × 10⁻¹⁴ | 0.018 | **[FAIL]** way below (PTA band) |
-| AGN flare | 7.7 × 10⁻¹⁴ | 18 | **[FAIL]** way below (PTA band) |
+| SN Ia | 0.03 | $4.5 \times 10^{-17}$| **[PASS]** in band |
+| Short GRB | $8.2 \times 10^{-5}$| $1.7 \times 10^{-13}$| **[FAIL]** just below |
+| Long GRB | $4.2 \times 10^{-6}$| $3.3 \times 10^{-11}$| **[FAIL]** below |
+| BNS merger (full E) | $4 \times 10^{-14}$| 0.018 | **[FAIL]** way below (PTA band) |
+| AGN flare | $7.7 \times 10^{-14}$| 18 | **[FAIL]** way below (PTA band) |
 
 The BNS-merger and AGN-flare death signals are *much* above LISA's noise at their respective death frequencies, but those frequencies are *below* LISA's band — they fall in the **PTA (pulsar timing array) band** (nHz to μHz). NANOGrav, EPTA, SKA-MPG could in principle detect SIDC's death GW background from these high-energy events, *if* $\epsilon_{\rm GW}$ ~ 1. With $\epsilon_{\rm GW} \sim 10^{-3}$, the BNS/AGN death GW is at $\Omega_{\rm GW} \sim 10^{-5}$ to 10⁻², comparable to the PTA-detected stochastic background ( $\Omega_{\rm GW} \sim 10^{-9}$ to 10⁻⁸ at nHz, depending on interpretation).
 
@@ -18153,12 +18118,12 @@ After the trial-and-error, sensitivity analysis, 2D CFT investigation, and death
 - LISA can test the death GW background prediction
 - DE should evolve on Gyr timescales (testable with DESI Y5, LSST Y1, Euclid Q3)
 - SFR should continue to decline (testable with current observations)
-- The $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) ( α = 1.29 specific) is consistent with the ADD model
+- The $M_{\rm Pl,4D}$ ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) ( α = 1.29 specific) is consistent with the ADD model
 
 **Fragile claims:**
 - The exact value of α ≈ 1.29 (forced by one data point)
-- The exact 4D cosmological lifespan ( 1.9 × 10²⁶ yr for α = 1.29)
-- The $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) (specific to α = 1.29)
+- The exact 4D cosmological lifespan ( $1.9 \times 10^{26}\,\text{yr}$ for α = 1.29)
+- The $M_{\rm Pl,4D}$ ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) (specific to α = 1.29)
 - The "end-of-universe in 1-10 Gyr" timeline (specific to $M_{\rm Pl,4D}$ ~ TeV)
 - The specific 2D universe death frequencies (depend on α)
 - The 2D CFT theoretical derivation of the energy-scaling rule
@@ -18168,7 +18133,7 @@ After the trial-and-error, sensitivity analysis, 2D CFT investigation, and death
 - Are there other 2D universe lifetime data points in SIDC (or future observations)?
 - What is the *exact* death GW background spectrum (requires more careful calculation)?
 - Is the energy-scaling rule a *fit* to one point, or a *prediction* from deeper physics?
-- Does the $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) survive when α is allowed to vary?
+- Does the $M_{\rm Pl,4D}$ ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) survive when α is allowed to vary?
 
 SIDC's §10 is now in a *mature* state: the qualitative claims are robust, the quantitative claims are honest about their uncertainty, and the open questions are clearly identified for future work. The end-of-universe picture in §10.4 should be re-evaluated when (if) SIDC acquires additional calibration data.
 
@@ -18178,9 +18143,9 @@ This section quantifies whether SIDC's death GW background can be detected by LI
 
 **LISA noise curve (Robson-Cornish 2019, arXiv:1903.04634):**
 - Frequency range: 10⁻⁴ to 1 Hz (best sensitivity at ~3 mHz)
-- Best strain sensitivity: h_c ∼ 4.5 × 10⁻²² at f ~ 4 mHz
-- Best Omega_GW noise: ∼ 2.8 × 10⁻¹² at f ~ 2.4 mHz
-- L_arm = 2.5 × 10⁹ m, laser noise Sₓ = ( 1.5 × 10⁻¹¹)², accel noise Sₐ = ( 3 × 10⁻¹⁵)²
+- Best strain sensitivity: h_c ∼ $4.5 \times 10^{-22}\,\text{at}$ f ~ 4 mHz
+- Best Omega_GW noise: ∼ $2.8 \times 10^{-12}\,\text{at}$ f ~ 2.4 mHz
+- L_arm = $2.5 \times 10^{9}\,\text{m}$, laser noise Sₓ = ( $1.5 \times 10^{-11}$)², accel noise Sₐ = ( $3 \times 10^{-15}$)²
 
 **Death GW background from SIDC (Phinney/Maggiore formula, narrowband model):**
 
@@ -18188,16 +18153,16 @@ For a population of bursts at rate n_rate (per m³/s) with energy $E_{\rm GW}$ p
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
-where $\rho_{\rm c}$ = 7.7 × 10⁻¹⁰ J/m³.
+where $\rho_{\rm c}$ = $7.7 \times 10^{-10}\,\text{J}$/m³.
 
 **For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = 10⁴⁴ J, $\tau_{2D} = 33$ s, rate$\sim 10^{4}/({\rm Mpc}^3 {\rm yr}) = 1.08 \times 10^{-71}/({\rm m}^3 {\rm s})$):**
 
 | $\epsilon_{\rm GW}$ | $\Omega_{\rm GW}$ at 0.03 Hz | LISA noise at 0.03 Hz | Ratio (SNR) | Detectable? |
 |---|---|---|---|---|
-| 10⁻⁸ (typical SN GW) | 4.5 × 10⁻²⁵ | ∼ 5 × 10⁻¹¹ | 9 × 10⁻¹⁵ | NO |
-| 10⁻⁵ | 4.5 × 10⁻²² | ∼ 5 × 10⁻¹¹ | 9 × 10⁻¹² | NO |
-| 10⁻³ (optimistic) | 4.5 × 10⁻²⁰ | ∼ 5 × 10⁻¹¹ | 9 × 10⁻¹⁰ | NO |
-| 1 (full conversion) | 4.5 × 10⁻¹⁷ | ∼ 5 × 10⁻¹¹ | 9 × 10⁻⁷ | NO (6 orders below) |
+| 10⁻⁸ (typical SN GW) | $4.5 \times 10^{-25}$| ∼ $5 \times 10^{-11}$| $9 \times 10^{-15}$| NO |
+| 10⁻⁵ | $4.5 \times 10^{-22}$| ∼ $5 \times 10^{-11}$| $9 \times 10^{-12}$| NO |
+| 10⁻³ (optimistic) | $4.5 \times 10^{-20}$| ∼ $5 \times 10^{-11}$| $9 \times 10^{-10}$| NO |
+| 1 (full conversion) | $4.5 \times 10^{-17}$| ∼ $5 \times 10^{-11}$| $9 \times 10^{-7}$| NO (6 orders below) |
 
 **Conclusion: LISA will NOT detect SIDC's death GW background from typical SN events, regardless of $\epsilon_{\rm GW}$.** SIDC's predicted $\Omega_{\rm GW}$ is 6-14 orders of magnitude below LISA's noise at 0.03 Hz.
 
@@ -18205,10 +18170,10 @@ where $\rho_{\rm c}$ = 7.7 × 10⁻¹⁰ J/m³.
 
 | Event | $f_{\rm obs}$ (Hz) | $\Omega_{\rm GW}$ ( ε=1) | LISA in band? |
 |---|---|---|---|
-| Core-collapse SN | 1.6 × 10⁻³ | 4.4 × 10⁻¹⁵ | yes (in band) |
-| Short GRB | 8.2 × 10⁻⁵ | 1.7 × 10⁻¹³ | NO (just below) |
-| BNS merger | 4 × 10⁻¹⁴ | 0.018 | NO (PTA band) |
-| AGN flare | 7.7 × 10⁻¹⁴ | 18 | NO (PTA band) |
+| Core-collapse SN | $1.6 \times 10^{-3}$| $4.4 \times 10^{-15}$| yes (in band) |
+| Short GRB | $8.2 \times 10^{-5}$| $1.7 \times 10^{-13}$| NO (just below) |
+| BNS merger | $4 \times 10^{-14}$| 0.018 | NO (PTA band) |
+| AGN flare | $7.7 \times 10^{-14}$| 18 | NO (PTA band) |
 
 The BNS-merger and AGN-flare death signals are *loud* ( $\Omega_{\rm GW}$ >> LISA noise) but at frequencies *below* LISA's 10⁻⁴ Hz band. They fall in the **PTA band** (nHz to μHz), where NANOGrav, EPTA, IPTA, and SKA-MPG operate. SIDC's death GW from BNS/AGN events is detectable by *PTAs* (with $\epsilon_{\rm GW}$ ~ 1), not by LISA.
 
@@ -18230,7 +18195,7 @@ The BNS-merger and AGN-flare death signals are *loud* ( $\Omega_{\rm GW}$ >> LIS
 | LSST Y1 | 2027 | DE density decreases with z | If DE is constant Λ to z=2, SIDC is falsified |
 | SKA-MPG PTA | 2030s | $\Omega_{\rm GW} \sim 10^{-9}$ at nHz from BNS/AGN death | If PTA sees $\Omega_{\rm GW}$ << 10⁻⁹, $\epsilon_{\rm GW}$ too small (consistent w/ SIDC); if $\Omega_{\rm GW}$ >> 10⁻⁸, need non-SIDC explanation |
 | LISA | 2034+ | (Birth GW only) | Death GW at 0.03 Hz will be 6-14 orders below LISA noise regardless of $\epsilon_{\rm GW}$ |
-| Direct $M_{\rm Pl,4D}$ measurement | 2030s+ (colliders) | $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV | If $M_{\rm Pl,4D}$ measured at < 3.93×10²³ GeV, SIDC's end-of-universe timeline is falsified; if at > 3.93×10²³ GeV, end-of-universe is irrelevant |
+| Direct $M_{\rm Pl,4D}$ measurement | 2030s+ (colliders) | $M_{\rm Pl,4D}$ ≥ $3.93 \times 10^{23}\,\text{GeV}$ | If $M_{\rm Pl,4D}$ measured at < $3.93 \times 10^{23}\,\text{GeV}$, SIDC's end-of-universe timeline is falsified; if at > $3.93 \times 10^{23}\,\text{GeV}$, end-of-universe is irrelevant |
 
 SIDC's §10 is a *speculative extension* with clear, testable, falsifiable predictions. The energy-scaling rule, the $M_{\rm Pl,4D}$ floor, and the death-GW spectrum are *specific enough to be tested* but *fragile enough to be wrong*. The 5-10 year window from 2026 (DESI DR3) to 2034 (LISA launch) is the critical period for SIDC's §10 to be either confirmed, refined, or falsified.
 
@@ -18242,11 +18207,11 @@ SIDC's energy-scaling rule $\tau_{\rm 2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl
 
 | α | $\tau_{\rm 2D}$(BNS) | $\tau_{\rm 2D}$(AGN) |
 |---|-----------|-----------|
-| 1.00 | 1.0 × 10² yr | 1.0 × 10⁴ yr |
-| 1.20 | 7 × 10⁴ yr | 1.6 × 10⁷ yr |
-| **1.29 (SIDC)** | ** 4.3 × 10⁵ yr** | ** 1.6 × 10⁸ yr** |
-| 1.40 | 4.2 × 10⁶ yr | 2.6 × 10⁹ yr |
-| 1.60 | 1.7 × 10⁸ yr | 5.2 × 10¹¹ yr |
+| 1.00 | $1.0 \times 10^{2}\,\text{yr}$ | $1.0 \times 10^{4}\,\text{yr}$ |
+| 1.20 | $7 \times 10^{4}\,\text{yr}$ | $1.6 \times 10^{7}\,\text{yr}$ |
+| **1.29 (SIDC)** | ** $4.3 \times 10^{5}\,\text{yr}$** | ** $1.6 \times 10^{8}\,\text{yr}$** |
+| 1.40 | $4.2 \times 10^{6}\,\text{yr}$ | $2.6 \times 10^{9}\,\text{yr}$ |
+| 1.60 | $1.7 \times 10^{8}\,\text{yr}$ | $5.2 \times 10^{11}\,\text{yr}$ |
 
 A change of Δ α = 0.20 gives a **factor of 10-100x** change in $\tau_{\rm 2D}$ predictions. A change of Δ α = 0.05 gives a **factor of 3** change. SIDC's predictions are most sensitive to α in the BNS, AGN, and high-energy event range, where small α changes produce large $\tau_{\rm 2D}$ differences.
 
@@ -18276,11 +18241,11 @@ SIDC's α = 1.29 is **falsified if observed α differs by more than ±0.10** (i.
 
 **Falsification scenarios for α = 1.29:**
 
-1. **BNS GW detected at SIDC's predicted frequency (f ≈ 7 × 10⁻¹⁴ Hz):** α = 1.29 validated. Precision ±0.11 from SKA-MPG.
+1. **BNS GW detected at SIDC's predicted frequency (f ≈ $7 \times 10^{-14}\,\text{Hz}$):** α = 1.29 validated. Precision ±0.11 from SKA-MPG.
 
-2. **BNS GW detected at 10x lower frequency (f ≈ 7 × 10⁻¹⁵ Hz):** implied α = 1.40 (factor 10 longer lifetime). Falsifies α = 1.29 to ±0.11.
+2. **BNS GW detected at 10x lower frequency (f ≈ $7 \times 10^{-15}\,\text{Hz}$):** implied α = 1.40 (factor 10 longer lifetime). Falsifies α = 1.29 to ±0.11.
 
-3. **BNS GW detected at 10x higher frequency (f ≈ 7 × 10⁻¹³ Hz):** implied α = 1.18 (factor 10 shorter lifetime). Falsifies α = 1.29 to ±0.11.
+3. **BNS GW detected at 10x higher frequency (f ≈ $7 \times 10^{-13}\,\text{Hz}$):** implied α = 1.18 (factor 10 shorter lifetime). Falsifies α = 1.29 to ±0.11.
 
 4. **BNS + AGN GW both detected, but with internally inconsistent α:** If BNS gives α = 1.30 and AGN gives α = 1.50, the energy-scaling rule is NOT a single power law. SIDC is **falsified at a deeper level** (not just the specific α, but the framework of universal power-law scaling).
 
@@ -18563,7 +18528,7 @@ The full simulation is in `calculations/cascade_model.py` (run with `--outliers`
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab $f_{\rm leak}$ = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The $f \times \varepsilon$ invariant (1.13× $10^{-123}$) is preserved in A2 (ε = 6.32× 10⁻³⁴). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: L308ab $f_{\rm leak}$ = H(z) (CMB gap closure) used A1 ε = 10⁻³⁸. The $f \times \varepsilon$ invariant (1.13× $10^{-123}$) is preserved in A2 (ε = $6.32 \times 10^{-34}$). The CMB gap analysis is qualitative (gap size in orders of magnitude), so A1 vs A2 ε values don't change the conclusion.
 
 <!-- 13_cmb_gap.md - part of paper.md split (v3.0.13) -->
 
@@ -18667,12 +18632,12 @@ To complement the qualitative picture, SIDC has been fit to the **SPARC database
 This is the standard interpolating function that smoothly transitions from Newtonian ( $g_{\rm bar}$ >> a₀) to MOND ( $g_{\rm bar}$ << a₀).
 
 **MCMC result (this run):**
-- a₀ = 2.34 × 10⁻¹⁰ ± 1.54 × 10⁻¹⁰ m/s^2
+- a₀ = $2.34 \times 10^{-10}$± $1.54 \times 10^{-10}\,\text{m}$/s^2
 - sigma_int = 0.089 ± 0.040 dex
 - Reduced chi² ≈ 0 (model is "over-fit" given the wide error bars)
 
 **Literature comparison (Li+ 2018, arXiv:1803.00022):**
-- a₀ = 1.20 × 10⁻¹⁰ ± 0.02 m/s^2
+- a₀ = $1.20 \times 10^{-10}$± 0.02 m/s^2
 - sigma_int = 0.057 ± 0.002 dex
 - Reduced χ² = 1.0 (good fit)
 
@@ -18949,7 +18914,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 **SIDC prediction:** $M_{\rm Pl,4D} \geq 887$ GeV (derived from $T_{3D}' \geq 13.8$ Gyr).
 
-**Falsification threshold:** If $M_{\rm Pl,4}$ measured at < 3.93×10²³ GeV, SIDC's bulk-brane coupling is wrong.
+**Falsification threshold:** If $M_{\rm Pl,4}$ measured at < $3.93 \times 10^{23}\,\text{GeV}$, SIDC's bulk-brane coupling is wrong.
 
 **Status:** PENDING. Future colliders or precision tests.
 
@@ -18978,9 +18943,9 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 | w₀ (DESI DR3) | -0.83 ± 0.16 | > 5σ away from -0.83 |
 | wₐ (DESI DR3) | -0.75 ± 0.30 | > 5σ away from -0.75 |
 | 47 Tuc DM (LSST) | < 10⁻⁵ M_* | DM detected at > 5σ |
-| BNS GW (SKA-MPG) | f ≈ 7 × 10⁻¹⁴ Hz | 10× off-frequency |
-| AGN GW (SKA-MPG) | f ≈ 2 × 10⁻¹⁷ Hz | 10× off-frequency |
-| $M_{\rm Pl,4}$ (colliders) | ≥ 4×10²³ GeV | Measured < 3.93×10²³ GeV |
+| BNS GW (SKA-MPG) | f ≈ $7 \times 10^{-14}\,\text{Hz}$ | 10× off-frequency |
+| AGN GW (SKA-MPG) | f ≈ $2 \times 10^{-17}\,\text{Hz}$ | 10× off-frequency |
+| $M_{\rm Pl,4}$ (colliders) | ≥ $4 \times 10^{23}\,\text{GeV}$ | Measured < $3.93 \times 10^{23}\,\text{GeV}$ |
 | BBN DE (precision) | < 10⁻²⁰ rad | > 10⁻²⁰ detected |
 | 5/27/68 (Planck) | 5/27/68 (input) | Input, not tested |
 
@@ -19021,7 +18986,7 @@ This is fundamentally different from ΛCDM/WIMP frameworks where DM is a particl
 
 **Inputs**:
 - Sub-universe energy: $E_{\rm sub} = 1.295 \times 10^{77}$ J (per-sub-universe, L308o)
-- 2D universe birth rate: $R_{\rm 2D} = 6.04 \times 10^{-5}$ /s in observable universe (calibrated to AGN rate $10^{-15.52}$ /s/galaxy × 2×10¹¹ galaxies)
+- 2D universe birth rate: $R_{\rm 2D} = 6.04 \times 10^{-5}$ /s in observable universe (calibrated to AGN rate $10^{-15.52}$ /s/galaxy × $2 \times 10^{11}\,\text{galaxies}$)
 
 **Output**:
 $$P_{\rm total} = E_{\rm sub} \times R_{\rm 2D} = 7.82 \times 10^{72} \text{ W}$$
@@ -19132,7 +19097,7 @@ Given that SIDC's standard multi-messenger signals are SECONDARY and small, the 
 | $g_+$ vs SFR (dwarfs) | TIGHT correlation | NO correlation | Compare KKR 25 (DM-rich, post-starburst) vs AGC 114905 (DM-poor, never crossed $E_{\rm crit}$) |
 | BCG $g_+$ vs ICM activity | TIGHT correlation | NO correlation | Tian+ 2024, eROSITA cluster sample |
 | 47 Tuc DM | $M_{\rm dyn} \approx M_{\rm stars}$ (NO spike) | DM spike | Rubin/LSST DP1 (2025), DR1 (2027) |
-| BCG $g_+$ universal | $g_+$ ≈ 1.7 × 10⁻⁹ m/s² | Variable | Tian+ 2024 (50 BCGs) |
+| BCG $g_+$ universal | $g_+$ ≈ $1.7 \times 10^{-9}\,\text{m}$/s² | Variable | Tian+ 2024 (50 BCGs) |
 
 ### §16.4.2 Dark Energy Equation of State
 
@@ -19201,8 +19166,8 @@ The 2D universe death coupling to Standard Model channels is **not derived** in 
 
 | Property | Value |
 |---|---|
-| Total mass | 1.1 × 10⁶ $M_{\rm sun}$ |
-| Stellar mass ( $M_{\rm stars}$) | 1.0 × 10⁶ $M_{\rm sun}$ |
+| Total mass | $1.1 \times 10^{6}$$M_{\rm sun}$ |
+| Stellar mass ( $M_{\rm stars}$) | $1.0 \times 10^{6}$$M_{\rm sun}$ |
 | Half-mass radius | 6 pc |
 | Age | 12.0 ± 0.5 Gyr |
 | Distance | 4.45 kpc (Hipparcos) / 4.69 kpc (Gaia DR3) |
@@ -19222,7 +19187,7 @@ This makes 47 Tuc unique among stellar systems:
 ## §17.2 SIDC Prediction for 47 Tuc
 
 **Inputs for SIDC calculation**:
-- $M_{\rm stars}$ = 1.0 × 10⁶ $M_{\rm sun}$
+- $M_{\rm stars}$ = $1.0 \times 10^{6}$$M_{\rm sun}$
 - Age = 12 Gyr
 - $E_{\rm crit}$ ≈ 10³⁰ J for 2D universe birth (per L308ba)
 - Recent activity: ~25 CVs at ~10³⁰ J per outburst (right at $E_{\rm crit}$ threshold, but recurring and small-scale)
@@ -19249,13 +19214,13 @@ Specifically:
 ΛCDM + NFW halo predicts a smooth DM contribution from the Milky Way halo passing through 47 Tuc's location:
 
 **NFW parameters** (Milky Way):
-- $\rho_{\rm s}$ = 0.014 M_sun/pc³
+- $\rho_{\rm s}$ = 0.014 $M_{\rm sun}$/pc³
 - rₛ = 16 kpc
-- $\rho_{\rm NFW}$(r=4.5 kpc) = 0.030 M_sun/pc³
+- $\rho_{\rm NFW}$(r=4.5 kpc) = 0.030 $M_{\rm sun}$/pc³
 
 **NFW DM mass within 47 Tuc**:
-- M_DM(r < 6 pc) ≈ 5 × 10⁴ $M_{\rm sun}$ (~5% of $M_{\rm stars}$)
-- M_DM(r < 50 pc, tidal radius) ≈ 3.5 × 10⁵ $M_{\rm sun}$ (~30% of $M_{\rm stars}$)
+- M_DM(r < 6 pc) ≈ $5 \times 10^{4}$$M_{\rm sun}$ (~5% of $M_{\rm stars}$)
+- M_DM(r < 50 pc, tidal radius) ≈ $3.5 \times 10^{5}$$M_{\rm sun}$ (~30% of $M_{\rm stars}$)
 
 **ΛCDM prediction** (profile-dependent):
 $$M_{\rm dyn}/M_{\rm stars} = 1.05 \pm 0.05$$
@@ -19419,7 +19384,7 @@ $$S_{\rm SIDC} = S_{4D} + S_{3+1D} + \sum_{\rm events} S_{2D} + S_{\rm proj} + S
 
 | Component | Status | Source |
 |---|---|---|
-| $S_{\rm 4D}$ (4D bulk event) | ✓ Implemented | L308bn ( $M_{\rm Pl,4D} = 3.93×10²³ GeV$ via α-GM) |
+| $S_{\rm 4D}$ (4D bulk event) | ✓ Implemented | L308bn ( $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV}$ via α-GM) |
 | $S_{\rm 3+1D}$ (3+1D brane) | ✓ Implemented | Standard + SM |
 | $S_{\rm 2D}$ (per 2D universe) | ⚠️ Partially implemented | Form written, exact $Z_{\rm 2D}$ unclear |
 | S_proj (projection) | ✓ Structurally implemented | L308az (mirror plane) |
@@ -19448,7 +19413,7 @@ where each Z is the partition function of that sector.
 
 $$Z_{4D} = \int \mathcal{D}\Phi_{4D} \exp\left(i \int d^4x \sqrt{-g_4} \left[\frac{R_4}{16\pi G_4} + N_{4D} \mathcal{L}_{4D}\right]\right)$$
 
-**Status**: ✓ Implemented via L308bn. The α-GM derivation gives $M_{\rm Pl,4D} = 3.93×10²³ GeV$, which enters $S_{\rm 4D}$ directly.
+**Status**: ✓ Implemented via L308bn. The α-GM derivation gives $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV}$, which enters $S_{\rm 4D}$ directly.
 
 **Expertise needed**: Standard GR/QFT.
 
@@ -19655,14 +19620,14 @@ Apparent "0 occurrences" were due to notation differences.
 
 | Parameter | Paper | Memory | Status |
 |-----------|-------|--------|--------|
-| $M_{\rm Pl,3D}$ = 1.22×10¹⁹ GeV | 3 | 3 | ✓ CONSISTENT |
+| $M_{\rm Pl,3D}$ = $1.22 \times 10^{19}\,\text{GeV}$ | 3 | 3 | ✓ CONSISTENT |
 | $M_{\rm Pl,2D}$ = 2.95 TeV | 195 | (varies) | ✓ CONSISTENT |
-| $M_{\rm Pl,4D}$ = 3.93×10²³ GeV | 40 | 38 | ✓ CONSISTENT |
+| $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ | 40 | 38 | ✓ CONSISTENT |
 | α = 1.289 | 473 | (varies) | ✓ CONSISTENT |
-| μ = 8.73×10⁶ GeV² | 6 | (varies) | ✓ CONSISTENT |
-| $E_{\rm 4D}$ = 5×10⁷⁹ J | 25 | 21 | ✓ CONSISTENT |
-| $N_{\rm sub} = 3$.86×10² | 62 | 67 | ✓ CONSISTENT |
-| AGN rate = 3× 10⁻¹⁶ | 16 | 3 | ✓ CONSISTENT |
+| μ = $8.73 \times 10^{6}\,\text{GeV}$² | 6 | (varies) | ✓ CONSISTENT |
+| $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ | 25 | 21 | ✓ CONSISTENT |
+| $N_{\rm sub} = 3$.$86 \times 10^{2}$| 62 | 67 | ✓ CONSISTENT |
+| AGN rate = $3 \times 10^{-16}$| 16 | 3 | ✓ CONSISTENT |
 | $\tau_{\rm SN}$ = 33 s | 388 | (varies) | ✓ CONSISTENT |
 | 5/27/68 split | 419 | (varies) | ✓ CONSISTENT |
 | 0.13% DE (simple $f_{\rm DE}$) / 2.7% (bilateral) | 20 | (varies) | ✓ CONSISTENT |
@@ -19672,10 +19637,10 @@ Apparent "0 occurrences" were due to notation differences.
 
 | Parameter | Paper notation | Memory notation |
 |-----------|----------------|-----------------|
-| $\tau_{\rm 3D}$,apparent | $\tau_{\rm 3D}$,apparent (text) | 9.10×10²⁴ (numeric, **UNITS ERROR — audit fixed to 1.66×10¹⁴⁵ (A2)**) |
-| $\gamma_{\rm 4D}$ | $\gamma_{\rm 4D}$ (text) | 1.10×10¹¹¹ (A2) (numeric, **L308t updated precision to 1.10×10¹¹¹ (A2)**) |
-| $\tau_{\rm 4D}$ | $\tau_{\rm 4D}$ (text) | 1.51×10³⁴ (numeric) |
-| age ratio | (mentioned as "day 1") | 1.5× 10⁻¹⁵ (numeric) |
+| $\tau_{\rm 3D}$,apparent | $\tau_{\rm 3D}$,apparent (text) | $9.10 \times 10^{24}$(numeric, **UNITS ERROR — audit fixed to $1.66 \times 10^{145}$(A2)**) |
+| $\gamma_{\rm 4D}$ | $\gamma_{\rm 4D}$ (text) | $1.10 \times 10^{111}$(A2) (numeric, **L308t updated precision to $1.10 \times 10^{111}$(A2)**) |
+| $\tau_{\rm 4D}$ | $\tau_{\rm 4D}$ (text) | $1.51 \times 10^{34}$(numeric) |
+| age ratio | (mentioned as "day 1") | $1.5 \times 10^{-15}$(numeric) |
 
 Both notations exist in BOTH files (just used in different contexts).
 

@@ -40,11 +40,11 @@ We propose a phenomenological geometric framework—the **Scale-Invariant Dimens
 
 | Quantity | Value | Status |
 |---|---|---|
-| $\rho_{\rm DE}$ | 2.5 × 10⁻⁴⁷ GeV⁴ | Matches observation within 0.13% |
+| $\rho_{\rm DE}$ | $2.5 \times 10^{-47}\,\text{GeV}$⁴ | Matches observation within 0.13% |
 | $M_{\rm Pl,2D}$ | 2.95 TeV | $= 12 \times v_{\rm Higgs} = 12 \times 246.22$ GeV (exact) |
-| $M_{\rm Pl,4D}$ | 3.93 × 10²³ GeV | Derived via α-weighted geometric mean |
-| $\gamma_{4D}$ | 1.10 × 10¹¹¹ | Cascade amplification factor (not SR time dilation) |
-| $f_{\rm DE,closed}$ | 1.79 × 10⁻⁹⁰ | Closed-loop formula (A2) |
+| $M_{\rm Pl,4D}$ | $3.93 \times 10^{23}\,\text{GeV}$ | Derived via α-weighted geometric mean |
+| $\gamma_{4D}$ | $1.10 \times 10^{111}$| Cascade amplification factor (not SR time dilation) |
+| $f_{\rm DE,closed}$ | $1.79 \times 10^{-90}$| Closed-loop formula (A2) |
 | f × ε | $1.13 \times 10^{-123}$ | Invariant preserved across A1 and A2 |
 | $\alpha_{2D}, \alpha_{3+1D}, \alpha_{4D}$ | 1.289, 1.408, 1.577 | Schwarzian SYK applied to N_D |
 | H₀ | 67.4 km/s/Mpc | Planck CMB-inferred (inherited) |
@@ -107,7 +107,7 @@ A DOI will be added once the release is archived on Zenodo.
 
 ## Changelog highlights (v3.5.7+ → v3.5.9+ A2)
 
-- **L308t** (v3.5.8+): L26 full closure — $M_{\rm Pl,2D} = 2.95$ TeV, μ = 8.73 × 10⁶ GeV² exact
+- **L308t** (v3.5.8+): L26 full closure — $M_{\rm Pl,2D} = 2.95$ TeV, μ = $8.73 \times 10^{6}\,\text{GeV}$² exact
 - **L308u** (v3.5.9+): WHY N=12? — Z₁₂ bulk + 6D anomaly cancellation (Appelquist 2001)
 - **L308v** (v3.5.9+): L138 partial closure — $M_{\rm Pl,4D}$ via α-GM closed loop
 - **L308w** (v3.5.9+): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)

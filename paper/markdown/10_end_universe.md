@@ -14,31 +14,31 @@ calibrated to a Type Ia supernova (E ≈ 10⁴⁴ J) creating a 2D universe that
 
 | D-event | Energy (J) | (D−1)-universe lifespan in D-view |
 |---|---|---|
-| 1 ton TNT → 2D | 4 × 10⁹ J | 10⁻³⁷ μs |
+| 1 ton TNT → 2D | $4 \times 10^{9}\,\text{J}$ | 10⁻³⁷ μs |
 | X-class solar flare → 2D | 10²⁵ J | 10⁻¹⁷ μs |
 | **Type Ia SN → 2D** | ** 10⁴⁴ J** | **33 s** |
 | Hypernova → 2D | 10⁴⁶ J | 3.5 hr |
 | Long GRB → 2D | 10⁴⁷ J | 2.8 days |
-| BNS merger → 2D | 10⁵³ J | 4 × 10⁵ yr |
+| BNS merger → 2D | 10⁵³ J | $4 \times 10^{5}\,\text{yr}$ |
 | AGN flare → 2D | 10⁵⁵ J | 10⁸ yr |
-| Quasar outburst → 2D | 10⁶⁰ J | 5 × 10¹⁴ yr |
-| **4D cosmological event → 3D (us)** | ** 10⁶⁹ J** | ** ∼ 2 × 10²⁶ yr** |
+| Quasar outburst → 2D | 10⁶⁰ J | $5 \times 10^{14}\,\text{yr}$ |
+| **4D cosmological event → 3D (us)** | ** 10⁶⁹ J** | ** ∼ $2 \times 10^{26}\,\text{yr}$** |
 
-The 4D cosmological event (rest energy of the observable 3+1D universe) gives a 3D universe that lives ∼ 2 × 10²⁶ yr in 4D view.
+The 4D cosmological event (rest energy of the observable 3+1D universe) gives a 3D universe that lives ∼ $2 \times 10^{26}\,\text{yr}$ in 4D view.
 
 ### 10.2 The 2D universe as a "relativistic particle" — mass-dependent time dilation
 
 The user-SIDC conversation (June 2026) identified a striking analogy with special relativity: **a 2D universe is to a 3D event as a relativistic particle is to its rest frame**. A particle with less rest mass can travel faster (closer to c) and experiences *more* time dilation; a particle with more rest mass travels slower and experiences *less* time dilation. By the same token:
 
-- A **2D universe from a small event** (1 ton TNT, 4 × 10⁹ J) is "light" — it experiences *more* time dilation and lives only 10⁻³⁷ μs in 3D view.
+- A **2D universe from a small event** (1 ton TNT, $4 \times 10^{9}\,\text{J}$) is "light" — it experiences *more* time dilation and lives only 10⁻³⁷ μs in 3D view.
 - A **2D universe from a large event** (AGN flare, 10⁵⁵ J) is "heavy" — it experiences *less* time dilation and lives 10⁸ yr in 3D view.
-- **Our 3D universe**, created by the 4D cosmological event ( 10⁶⁹ J), is one of the *heaviest* (D−1)-universes in SIDC. It experiences very *little* time dilation and lives 2 × 10²⁶ yr in 4D view.
+- **Our 3D universe**, created by the 4D cosmological event ( 10⁶⁹ J), is one of the *heaviest* (D−1)-universes in SIDC. It experiences very *little* time dilation and lives $2 \times 10^{26}\,\text{yr}$ in 4D view.
 
 This is a **unification**: 2D universes from supernovae and our 3D universe are *the same kind of object* in SIDC — they differ only in the *size* of the D-event that created them. SIDC's "33 s" is one data point on a smooth ladder that goes from 10⁻³⁷ μs to 10²⁶ yr over 54 orders of magnitude in event energy.
 
-### 10.3 The 4D Planck mass has a floor: M_{Pl,4} ≥ 3.93×10²³ GeV
+### 10.3 The 4D Planck mass has a floor: M_{Pl,4} ≥ $3.93 \times 10^{23}\,\text{GeV}$
 
-For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × ( $t_{Pl,3}$ / $t_{Pl,4}$) and the energy-scaling result T₃D = 2 × 10²⁶ yr:
+For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × ( $t_{Pl,3}$ / $t_{Pl,4}$) and the energy-scaling result T₃D = $2 \times 10^{26}\,\text{yr}$:
 
 $$\frac{t_{Pl,3}}{t_{Pl,4}} \geq \frac{13.8 \text{ Gyr}}{2\times 10^{26} \text{ yr}} = 7\times 10^{-17}$$
 
@@ -54,15 +54,15 @@ For different choices of M_{Pl,4} above the floor, the 3D universe's *internal* 
 
 | M_{Pl,4} assumption | T₃D' (3D internal) | Time remaining | Status |
 |---|---|---|---|
-| 3.93×10²³ GeV (floor) | 14 Gyr | 0.2 Gyr | just barely alive |
+| $3.93 \times 10^{23}\,\text{GeV}$ (floor) | 14 Gyr | 0.2 Gyr | just barely alive |
 | 1 TeV (LHC-scale) | 28 Gyr | 14 Gyr | another Hubble time |
 | 10 TeV (ADD upper) | 280 Gyr | 266 Gyr | cosmic afternoon |
-| 10¹⁶ GeV (string/GUT) | 2 × 10²⁰ yr | ∼ 10²⁰ yr | cosmic infancy |
-| M_{Pl,3} = 10¹⁹ GeV (no extra dim) | 2 × 10²⁶ yr | ~forever | true infancy |
+| 10¹⁶ GeV (string/GUT) | $2 \times 10^{20}\,\text{yr}$ | ∼ 10²⁰ yr | cosmic infancy |
+| M_{Pl,3} = 10¹⁹ GeV (no extra dim) | $2 \times 10^{26}\,\text{yr}$ | ~forever | true infancy |
 
 **If M_{Pl,4} ~ TeV (the most natural ADD value, also accessible to the LHC), the 3D universe ends in ~1 Gyr in 3D internal time.** The 3D has lived 13.8 Gyr out of an internal lifespan of 14-28 Gyr — it is at the *end* of its life.
 
-The 4D sees the 3D as a *very brief* event ( 2 × 10²⁶ yr is 10⁻³³ of the 4D's own 10⁵⁹-yr predicted lifespan). The 3D's *own* clock, by contrast, is *running out*. The "4D sees us as brief" intuition is the right way around: brief in 4D view, but our own clock is at the end.
+The 4D sees the 3D as a *very brief* event ( $2 \times 10^{26}\,\text{yr}$ is 10⁻³³ of the 4D's own 10⁵⁹-yr predicted lifespan). The 3D's *own* clock, by contrast, is *running out*. The "4D sees us as brief" intuition is the right way around: brief in 4D view, but our own clock is at the end.
 
 ### 10.5 Testable signatures of the end-of-universe picture
 
@@ -76,7 +76,7 @@ If M_{Pl,4} ~ TeV and the 3D universe is approaching its end in 3D internal time
 
 **(d) Final 2D-universe creation bursts.** As the 3D universe approaches its end, the 2D universe creation rate should *drop*, not increase. SIDC's existing GW prediction (2D universe birth stochastic background, ∼ 10⁶⁰-62 erg/s/ ${\rm Mpc}^3$) predicts a *constant* GW background. A *declining* GW background on Gyr timescales would be evidence of the 3D approaching its end.
 
-**(e) No new "BNS-merger 2D universe" echo expected soon.** SIDC's energy scaling predicts a 2D universe from a BNS merger ( 10⁵³ J) lives 4 × 10⁵ yr in 3D view. If the 3D universe is at the end of its life, *new* 2D universes from current BNS mergers would *also* be short-lived (because the 3D's overall energetics are declining). A LIGO/Virgo search for post-merger GW echoes from BNS events in the next ~Gyr could test this.
+**(e) No new "BNS-merger 2D universe" echo expected soon.** SIDC's energy scaling predicts a 2D universe from a BNS merger ( 10⁵³ J) lives $4 \times 10^{5}\,\text{yr}$ in 3D view. If the 3D universe is at the end of its life, *new* 2D universes from current BNS mergers would *also* be short-lived (because the 3D's overall energetics are declining). A LIGO/Virgo search for post-merger GW echoes from BNS events in the next ~Gyr could test this.
 
 ### 10.6 The constraint as a *testable prediction*
 
@@ -100,7 +100,7 @@ The author flags this section as *speculative* for the following reasons:
 
 1. The energy-scaling rule $T_{D-1} \propto E_D^{1.29}$ is a *fit* to a single data point (the 33 s supernova 2D universe). It is not derived from first principles. Alternative scalings (e.g., T ∝ E¹, T ∝ E², T = constant) give different T₃D values.
 
-2. The $M_{\rm Pl,4D} \geq 887$ GeV floor is a *necessary* condition for the 3D to be alive, but it is not sufficient. The actual M_{Pl,4} could be much larger (up to $M_{Pl,3}$), in which case the 3D has 2 × 10²⁶ yr left and the end-of-universe picture is irrelevant on any practical timescale.
+2. The $M_{\rm Pl,4D} \geq 887$ GeV floor is a *necessary* condition for the 3D to be alive, but it is not sufficient. The actual M_{Pl,4} could be much larger (up to $M_{Pl,3}$), in which case the 3D has $2 \times 10^{26}\,\text{yr}$ left and the end-of-universe picture is irrelevant on any practical timescale.
 
 3. The connection between DESI's evolving DE and SIDC's end-of-universe picture is a *plausible* interpretation, not a *necessary* one. DESI's evolving DE could have other explanations (early dark energy, modified gravity, etc.) that do not involve the 3D approaching its end.
 
@@ -110,15 +110,15 @@ Despite these caveats, the prediction is **concrete, testable, and falsifiable**
 
 ### 10.9 Sensitivity analysis: how robust is the rule?
 
-A trial-and-error exploration reveals a striking sensitivity: SIDC's energy-scaling rule, with α ≈ 1.29 forced by the SN calibration, gives a 4D cosmological lifespan of 1.9 × 10²⁶ yr. But a 1% change in α gives a **60% change** in the predicted $T_{\rm 3D}$. The sensitivity table:
+A trial-and-error exploration reveals a striking sensitivity: SIDC's energy-scaling rule, with α ≈ 1.29 forced by the SN calibration, gives a 4D cosmological lifespan of $1.9 \times 10^{26}\,\text{yr}$. But a 1% change in α gives a **60% change** in the predicted $T_{\rm 3D}$. The sensitivity table:
 
 | α | 4D cosm. lifespan (yr) | 3D's current age / total |
 |---|---|---|
-| 1.16 (1.29 - 10%) | 1.1 × 10²³ | 10⁻¹³ |
-| 1.23 (1.29 - 5%) | 4.6 × 10²⁴ | 3 × 10⁻¹⁵ |
-| **1.29 (best fit)** | ** 1.9 × 10²⁶** | ** 7 × 10⁻¹⁷** |
-| 1.36 (1.29 + 5%) | 7.8 × 10²⁷ | 2 × 10⁻¹⁸ |
-| 1.42 (1.29 + 10%) | 3.2 × 10²⁹ | 4 × 10⁻²⁰ |
+| 1.16 (1.29 - 10%) | $1.1 \times 10^{23}$| 10⁻¹³ |
+| 1.23 (1.29 - 5%) | $4.6 \times 10^{24}$| $3 \times 10^{-15}$|
+| **1.29 (best fit)** | ** $1.9 \times 10^{26}$** | ** $7 \times 10^{-17}$** |
+| 1.36 (1.29 + 5%) | $7.8 \times 10^{27}$| $2 \times 10^{-18}$|
+| 1.42 (1.29 + 10%) | $3.2 \times 10^{29}$| $4 \times 10^{-20}$|
 
 The α = 1.29 prediction is the *single point* in this range. The rule is *very* sensitive to α because the extrapolation spans 25 decades of energy ( 10⁴⁴ → 10⁶⁹ J). A 1% uncertainty in α translates to a 60% uncertainty in the 4D cosmological lifespan.
 
@@ -127,15 +127,15 @@ The α = 1.29 prediction is the *single point* in this range. The rule is *very*
 | α | $T_{\rm SN}$ prediction (vs 33s actual) | 4D cosm. lifespan (yr) |
 |---|---|---|
 | 1.0 (linear) | 17 min (× 31 off) | 10¹⁹ yr |
-| 4/3 (Bondi) | 42 min (× 76 off) | 2 × 10²⁷ yr |
-| 3/2 (random walk) | 20 yr (× 1.9 × 10⁷ off) | 3 × 10³¹ yr |
-| 2.0 (quadratic) | 4.5 × 10⁹ Gyr (× 10¹⁶ off) | 3 × 10⁴⁴ yr |
+| 4/3 (Bondi) | 42 min (× 76 off) | $2 \times 10^{27}\,\text{yr}$ |
+| 3/2 (random walk) | 20 yr (× $1.9 \times 10^{7}\,\text{off}$) | $3 \times 10^{31}\,\text{yr}$ |
+| 2.0 (quadratic) | $4.5 \times 10^{9}\,\text{Gyr}$ (× 10¹⁶ off) | $3 \times 10^{44}\,\text{yr}$ |
 
 Only α = 1.29 fits the SN data. But SIDC has **only ONE calibration point** (the 33s for SN), so the rule is *forced* and not *natural*. Alternative functional forms (logarithmic, two-component, exponential, etc.) don't fit the SN data either.
 
-**Honest verdict:** SIDC's energy-scaling rule is the *only* rule that fits the SN data, but it's not "natural" in any obvious way. The α = 1.29 value is an accident of the single calibration. The 4D cosmological lifespan is uncertain by *orders of magnitude* ( 10¹⁹ to 10⁴⁴ yr depending on the true α). The M_{Pl,4} ≥ 3.93×10²³ GeV (LHC bound) in §10.3 is **specific to α = 1.29**; other α values give different (or no) floors.
+**Honest verdict:** SIDC's energy-scaling rule is the *only* rule that fits the SN data, but it's not "natural" in any obvious way. The α = 1.29 value is an accident of the single calibration. The 4D cosmological lifespan is uncertain by *orders of magnitude* ( 10¹⁹ to 10⁴⁴ yr depending on the true α). The M_{Pl,4} ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) in §10.3 is **specific to α = 1.29**; other α values give different (or no) floors.
 
-SIDC's end-of-universe picture in §10.4 is therefore **not robust to the choice of α**. The qualitative prediction (DE should evolve, SFR should decline, etc.) is robust; the quantitative prediction ( $M_{\rm Pl,4D}$ floor at 3.93×10²³ GeV, end in 1-10 Gyr) is not.
+SIDC's end-of-universe picture in §10.4 is therefore **not robust to the choice of α**. The qualitative prediction (DE should evolve, SFR should decline, etc.) is robust; the quantitative prediction ( $M_{\rm Pl,4D}$ floor at $3.93 \times 10^{23}\,\text{GeV}$, end in 1-10 Gyr) is not.
 
 ### 10.10 2D universe *death* gravitational wave predictions
 
@@ -144,10 +144,10 @@ SIDC's energy-scaling rule predicts a *specific* 2D universe *death* time for ea
 | Event | E (J) | 2D universe lifetime | GW death frequency (Hz) |
 |---|---|---|---|
 | Type Ia SN | 10⁴⁴ | 33 s | 0.03 Hz |
-| Hypernova | 10⁴⁶ | 3.5 hr | 8 × 10⁻⁵ Hz |
-| Long GRB | 10⁴⁷ | 2.8 days | 4 × 10⁻⁶ Hz |
-| BNS merger (GW170817) | 10⁵³ | 4.3 × 10⁵ yr | 7 × 10⁻¹⁴ Hz |
-| AGN flare | 10⁵⁵ | 1.6 × 10⁸ yr | 2 × 10⁻¹⁶ Hz |
+| Hypernova | 10⁴⁶ | 3.5 hr | $8 \times 10^{-5}\,\text{Hz}$ |
+| Long GRB | 10⁴⁷ | 2.8 days | $4 \times 10^{-6}\,\text{Hz}$ |
+| BNS merger (GW170817) | 10⁵³ | $4.3 \times 10^{5}\,\text{yr}$ | $7 \times 10^{-14}\,\text{Hz}$ |
+| AGN flare | 10⁵⁵ | $1.6 \times 10^{8}\,\text{yr}$ | $2 \times 10^{-16}\,\text{Hz}$ |
 
 **The LISA mission (planned 2030s) operates in the 10⁻⁴ - 1 Hz band**, which covers the hypernova, long GRB, and SN 2D-universe death frequencies. SIDC predicts a *stochastic background* of these bursts from past energetic events, with characteristic frequencies set by the most common event types (SNe, hypernovae, GRBs).
 
@@ -159,7 +159,7 @@ The 2D universe death prediction is *qualitatively* robust to the choice of α: 
 
 A careful audit of SIDC's other claims finds **no other explicit 2D universe lifetime data points**:
 
-1. **2D universe Planck scale (set by μ):** The 2D universe's natural time scale is $t_{\rm Pl}$,2 = ℏ/( μ c²). If $T_{2D} \sim t_{\rm Pl}$,2, then μ ∼ 5 × 10⁻⁴⁸ J = 3 × 10⁻²⁹ eV. But μ is a free parameter in SIDC, so this doesn't constrain the energy-scaling rule.
+1. **2D universe Planck scale (set by μ):** The 2D universe's natural time scale is $t_{\rm Pl}$,2 = ℏ/( μ c²). If $T_{2D} \sim t_{\rm Pl}$,2, then μ ∼ $5 \times 10^{-48}\,\text{J}$ = $3 \times 10^{-29}\,\text{eV}$. But μ is a free parameter in SIDC, so this doesn't constrain the energy-scaling rule.
 
 2. **2D universe effective mass m_{3+1D}:** SIDC's analysis of DM gives the *collective* back-projection, not the individual 2D universe's mass. The 2D universe's intrinsic mass is not pinned down.
 
@@ -185,13 +185,13 @@ After the trial-and-error and sensitivity analysis, SIDC's claims should be re-f
 **What SIDC CANNOT claim (quantitative, fragile):**
 - The exact value of α ≈ 1.29 (forced by one data point, not natural)
 - The exact 4D cosmological lifespan ( 10¹⁹ to 10⁴⁴ yr depending on α)
-- The M_{Pl,4} ≥ 3.93×10²³ GeV (LHC bound) (specific to α = 1.29)
+- The M_{Pl,4} ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) (specific to α = 1.29)
 - The "end-of-universe in 1-10 Gyr" timeline (depends sensitively on $M_{\rm Pl,4D}$)
 - The specific 2D universe death frequencies (depend on α)
 
 SIDC's energy-scaling ladder is a *qualitative* result that should be presented honestly. The quantitative predictions in §10.3-§10.4 are *preliminary* and *uncertain* by orders of magnitude. They should be re-evaluated when (if) SIDC acquires additional 2D universe lifetime data points — possibly from SPARC reanalysis, possibly from future GW observations, possibly from a 2D CFT theoretical derivation.
 
-The $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) in §10.3 should be flagged as " α = 1.29 specific." The end-of-universe timeline in §10.4 should be flagged as "highly model-dependent." The testable signatures in §10.5 are robust at the qualitative level (DE should evolve, SFR should decline, GW death background should exist) but not at the quantitative level.
+The $M_{\rm Pl,4D}$ ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) in §10.3 should be flagged as " α = 1.29 specific." The end-of-universe timeline in §10.4 should be flagged as "highly model-dependent." The testable signatures in §10.5 are robust at the qualitative level (DE should evolve, SFR should decline, GW death background should exist) but not at the quantitative level.
 
 **SIDC is, in the end, a *thought experiment*.** Its quantitative predictions are forced by limited data and should be treated as *suggestive* rather than *definitive*. The testable signatures in §10.5 are the most reliable part of this section; the $M_{\rm Pl,4D}$ floor and end-of-universe timeline are the most uncertain.
 
@@ -201,16 +201,16 @@ A follow-up analysis asks: if a *second* 2D universe lifetime data point were av
 
 | Event | E (J) | α = 1.29 predicted $T_{2D}$ |
 |---|---|---|
-| BNS merger | 10⁵³ | 4.3 × 10⁵ yr |
-| AGN flare | 10⁵⁵ | 1.6 × 10⁸ yr |
+| BNS merger | 10⁵³ | $4.3 \times 10^{5}\,\text{yr}$ |
+| AGN flare | 10⁵⁵ | $1.6 \times 10^{8}\,\text{yr}$ |
 | Hypernova | 10⁴⁶ | 3.5 hr |
 
 **A 2-point fit (SN + hypothetical 2nd point) gives α = 1.29 only if the 2nd point matches the predicted lifetime.** A *different* 2nd point would force a different α, and the 4D cosmological lifespan would change accordingly:
 
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10³ s) [1000 s, way shorter than predicted]: $\alpha_{\rm refit}$ = 0.16, $T_{\rm 3D}$ = 1.4 × 10⁻² yr (3D would have ended immediately)
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10⁶ s) [12 days, much shorter than predicted]: $\alpha_{\rm refit}$ = 0.50, $T_{\rm 3D}$ = 2.9 × 10⁶ yr
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10¹³ s) [ 4.3 × 10⁵ yr, predicted value]: $\alpha_{\rm refit}$ = 1.29, $T_{\rm 3D}$ = 1.9 × 10²⁶ yr
-- If 2nd point = ( 1 × 10⁵³ J, 1 × 10¹⁵ s) [ 3 × 10⁷ yr, much longer than predicted]: $\alpha_{\rm refit}$ = 1.74, $T_{\rm 3D}$ = 3.4 × 10³⁷ yr
+- If 2nd point = ( $1 \times 10^{53}\,\text{J}$, $1 \times 10^{3}\,\text{s}$) [1000 s, way shorter than predicted]: $\alpha_{\rm refit}$ = 0.16, $T_{\rm 3D}$ = $1.4 \times 10^{-2}\,\text{yr}$ (3D would have ended immediately)
+- If 2nd point = ( $1 \times 10^{53}\,\text{J}$, $1 \times 10^{6}\,\text{s}$) [12 days, much shorter than predicted]: $\alpha_{\rm refit}$ = 0.50, $T_{\rm 3D}$ = $2.9 \times 10^{6}\,\text{yr}$
+- If 2nd point = ( $1 \times 10^{53}\,\text{J}$, $1 \times 10^{13}\,\text{s}$) [ $4.3 \times 10^{5}\,\text{yr}$, predicted value]: $\alpha_{\rm refit}$ = 1.29, $T_{\rm 3D}$ = $1.9 \times 10^{26}\,\text{yr}$
+- If 2nd point = ( $1 \times 10^{53}\,\text{J}$, $1 \times 10^{15}\,\text{s}$) [ $3 \times 10^{7}\,\text{yr}$, much longer than predicted]: $\alpha_{\rm refit}$ = 1.74, $T_{\rm 3D}$ = $3.4 \times 10^{37}\,\text{yr}$
 
 These are SIDC's **testable predictions**. A measurement of the 2D universe death GW burst at the predicted time after a BNS merger, AGN flare, or hypernova would directly test the α = 1.29 rule. If the measured lifetime matches the prediction, α is confirmed. If not, the rule needs revision.
 
@@ -222,9 +222,9 @@ $$S = \int d^2\sigma \sqrt{g}[\frac{1}{2} (\partial\phi)^2 + \mu e^{2b\phi} + T(
 
 The 2D universe's lifetime $T_{2D}$ should be derivable from this Lagrangian. Candidate derivations:
 
-1. **2D Planck scale (set by μ):** $T_{2D} \sim t_{\rm Pl}$,2 = ℏ/( μ c²). For $T_{2D} = 33$ s: μ = 5.3 × 10⁻⁴⁸ J = 3.3 × 10⁻²⁹ eV. This is a "dark energy"-like scale.
+1. **2D Planck scale (set by μ):** $T_{2D} \sim t_{\rm Pl}$,2 = ℏ/( μ c²). For $T_{2D} = 33$ s: μ = $5.3 \times 10^{-48}\,\text{J}$ = $3.3 \times 10^{-29}\,\text{eV}$. This is a "dark energy"-like scale.
 
-2. **2D universe burnout time:** t_burnout ~ 1/√ μ (set by 2D Hubble rate). For $T_{2D} = 33$ s: μ = 6 × 10⁻¹⁸ eV. **Inconsistent with the Planck-scale anchor by 12 orders of magnitude.**
+2. **2D universe burnout time:** t_burnout ~ 1/√ μ (set by 2D Hubble rate). For $T_{2D} = 33$ s: μ = $6 \times 10^{-18}\,\text{eV}$. **Inconsistent with the Planck-scale anchor by 12 orders of magnitude.**
 
 3. **2D universe expansion time:** t_exp $\sim \ell_{\rm Pl}$,2 / c. For $T_{2D} = 33$ s, the final size is c × 33 s = 10¹⁰ m. Natural, but doesn't give μ directly.
 
@@ -243,14 +243,14 @@ For SIDC's α = 1.29 rule, the *death frequency* in our frame for each event cla
 | Event | E (J) | Death frequency (Hz) | LISA detectable? |
 |---|---|---|---|
 | Type Ia SN | 10⁴⁴ | 0.03 Hz | **[PASS]** (in band) |
-| Core-collapse SN | 10⁴⁵ | 1.6 × 10⁻³ Hz | **[PASS]** (in band) |
-| Short GRB | 10⁴⁶ | 8.2 × 10⁻⁵ Hz | **[FAIL]** (just below band) |
-| Hypernova | 10⁴⁶ | 8.2 × 10⁻⁵ Hz | **[FAIL]** (just below band) |
-| Long GRB | 10⁴⁷ | 4.2 × 10⁻⁶ Hz | **[FAIL]** (below band) |
-| Magnetar | 10⁴⁰ | 4.5 × 10³ Hz | **[FAIL]** (above LISA) |
-| LHC | 2.2 × 10⁻⁶ | 3.6 × 10⁶² Hz | **[FAIL]** (way above) |
-| BNS merger | 10⁴⁷→ 10⁵³ | 4.2 × 10⁻⁶ Hz (GRB) to 4 × 10⁻¹⁴ Hz (BNS) | **[FAIL]** (below) |
-| AGN flare | 10⁵⁵ | 7.7 × 10⁻¹⁴ Hz | **[FAIL]** (way below) |
+| Core-collapse SN | 10⁴⁵ | $1.6 \times 10^{-3}\,\text{Hz}$ | **[PASS]** (in band) |
+| Short GRB | 10⁴⁶ | $8.2 \times 10^{-5}\,\text{Hz}$ | **[FAIL]** (just below band) |
+| Hypernova | 10⁴⁶ | $8.2 \times 10^{-5}\,\text{Hz}$ | **[FAIL]** (just below band) |
+| Long GRB | 10⁴⁷ | $4.2 \times 10^{-6}\,\text{Hz}$ | **[FAIL]** (below band) |
+| Magnetar | 10⁴⁰ | $4.5 \times 10^{3}\,\text{Hz}$ | **[FAIL]** (above LISA) |
+| LHC | $2.2 \times 10^{-6}$| $3.6 \times 10^{62}\,\text{Hz}$ | **[FAIL]** (way above) |
+| BNS merger | 10⁴⁷→ 10⁵³ | $4.2 \times 10^{-6}\,\text{Hz}$ (GRB) to $4 \times 10^{-14}\,\text{Hz}$ (BNS) | **[FAIL]** (below) |
+| AGN flare | 10⁵⁵ | $7.7 \times 10^{-14}\,\text{Hz}$ | **[FAIL]** (way below) |
 
 The SN and Core-collapse SN death signals are in LISA's band ( 10⁻⁴ to 1 Hz). The Short GRB is just below LISA's band. SIDC predicts a *stochastic background* in this frequency range, dominated by SN 2D universe deaths at 0.03 Hz.
 
@@ -260,16 +260,16 @@ For bursts of energy $E_{\rm GW}$ at rate $r_{\rm local}$ per m³ per s, each at
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
-where $\rho_{\rm c}$ = 7.7 × 10⁻¹⁰ J/m³ is the critical density.
+where $\rho_{\rm c}$ = $7.7 \times 10^{-10}\,\text{J}$/m³ is the critical density.
 
 For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = 10⁴⁴ J, $\tau_{2D} = 33$ s, rate$\sim 10^{4}/({\rm Mpc}^3 {\rm yr}) = 1.08 \times 10^{-71}/({\rm m}^3 {\rm s})$):
 
 | $\epsilon_{\rm GW}$ | $\Omega_{\rm GW}$ at 0.03 Hz | LISA noise at 0.03 Hz | Detectable? |
 |---|---|---|---|
-| 10⁻⁸ (typical SN GW efficiency) | 4.5 × 10⁻²⁵ | ∼ 5 × 10⁻¹¹ | **[FAIL]** |
-| 10⁻⁵ | 4.5 × 10⁻²² | ∼ 5 × 10⁻¹¹ | **[FAIL]** |
-| 10⁻³ (optimistic) | 4.5 × 10⁻²⁰ | ∼ 5 × 10⁻¹¹ | **[FAIL]** |
-| 1 (full conversion) | 4.5 × 10⁻¹⁷ | ∼ 5 × 10⁻¹¹ | **[FAIL]** (still below!) |
+| 10⁻⁸ (typical SN GW efficiency) | $4.5 \times 10^{-25}$| ∼ $5 \times 10^{-11}$| **[FAIL]** |
+| 10⁻⁵ | $4.5 \times 10^{-22}$| ∼ $5 \times 10^{-11}$| **[FAIL]** |
+| 10⁻³ (optimistic) | $4.5 \times 10^{-20}$| ∼ $5 \times 10^{-11}$| **[FAIL]** |
+| 1 (full conversion) | $4.5 \times 10^{-17}$| ∼ $5 \times 10^{-11}$| **[FAIL]** (still below!) |
 
 **KEY FINDING (v2.7.3+):** SIDC's 2D-universe death GW background at 0.03 Hz is **FAR BELOW LISA's noise floor**, even with $\epsilon_{\rm GW}$ = 1 (100% of E_per_death radiated as GW). LISA's best sensitivity is $\Omega_{\rm GW} \sim 10^{-12}$ at ~3 mHz, while SIDC predicts $\Omega_{\rm GW} \sim 10^{-17}$ for SN deaths with $\epsilon_{\rm GW}$ = 1. SIDC's death GW is **NOT DETECTABLE BY LISA** for any reasonable $\epsilon_{\rm GW}$.
 
@@ -279,11 +279,11 @@ For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = 10⁴⁴ J, $
 
 | Event | $f_{\rm obs}$ (Hz) | $\Omega_{\rm GW}$ ( ε=1) | LISA band? |
 |---|---|---|---|
-| SN Ia | 0.03 | 4.5 × 10⁻¹⁷ | **[PASS]** in band |
-| Short GRB | 8.2 × 10⁻⁵ | 1.7 × 10⁻¹³ | **[FAIL]** just below |
-| Long GRB | 4.2 × 10⁻⁶ | 3.3 × 10⁻¹¹ | **[FAIL]** below |
-| BNS merger (full E) | 4 × 10⁻¹⁴ | 0.018 | **[FAIL]** way below (PTA band) |
-| AGN flare | 7.7 × 10⁻¹⁴ | 18 | **[FAIL]** way below (PTA band) |
+| SN Ia | 0.03 | $4.5 \times 10^{-17}$| **[PASS]** in band |
+| Short GRB | $8.2 \times 10^{-5}$| $1.7 \times 10^{-13}$| **[FAIL]** just below |
+| Long GRB | $4.2 \times 10^{-6}$| $3.3 \times 10^{-11}$| **[FAIL]** below |
+| BNS merger (full E) | $4 \times 10^{-14}$| 0.018 | **[FAIL]** way below (PTA band) |
+| AGN flare | $7.7 \times 10^{-14}$| 18 | **[FAIL]** way below (PTA band) |
 
 The BNS-merger and AGN-flare death signals are *much* above LISA's noise at their respective death frequencies, but those frequencies are *below* LISA's band — they fall in the **PTA (pulsar timing array) band** (nHz to μHz). NANOGrav, EPTA, SKA-MPG could in principle detect SIDC's death GW background from these high-energy events, *if* $\epsilon_{\rm GW}$ ~ 1. With $\epsilon_{\rm GW} \sim 10^{-3}$, the BNS/AGN death GW is at $\Omega_{\rm GW} \sim 10^{-5}$ to 10⁻², comparable to the PTA-detected stochastic background ( $\Omega_{\rm GW} \sim 10^{-9}$ to 10⁻⁸ at nHz, depending on interpretation).
 
@@ -313,12 +313,12 @@ After the trial-and-error, sensitivity analysis, 2D CFT investigation, and death
 - LISA can test the death GW background prediction
 - DE should evolve on Gyr timescales (testable with DESI Y5, LSST Y1, Euclid Q3)
 - SFR should continue to decline (testable with current observations)
-- The $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) ( α = 1.29 specific) is consistent with the ADD model
+- The $M_{\rm Pl,4D}$ ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) ( α = 1.29 specific) is consistent with the ADD model
 
 **Fragile claims:**
 - The exact value of α ≈ 1.29 (forced by one data point)
-- The exact 4D cosmological lifespan ( 1.9 × 10²⁶ yr for α = 1.29)
-- The $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) (specific to α = 1.29)
+- The exact 4D cosmological lifespan ( $1.9 \times 10^{26}\,\text{yr}$ for α = 1.29)
+- The $M_{\rm Pl,4D}$ ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) (specific to α = 1.29)
 - The "end-of-universe in 1-10 Gyr" timeline (specific to $M_{\rm Pl,4D}$ ~ TeV)
 - The specific 2D universe death frequencies (depend on α)
 - The 2D CFT theoretical derivation of the energy-scaling rule
@@ -328,7 +328,7 @@ After the trial-and-error, sensitivity analysis, 2D CFT investigation, and death
 - Are there other 2D universe lifetime data points in SIDC (or future observations)?
 - What is the *exact* death GW background spectrum (requires more careful calculation)?
 - Is the energy-scaling rule a *fit* to one point, or a *prediction* from deeper physics?
-- Does the $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV (LHC bound) survive when α is allowed to vary?
+- Does the $M_{\rm Pl,4D}$ ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) survive when α is allowed to vary?
 
 SIDC's §10 is now in a *mature* state: the qualitative claims are robust, the quantitative claims are honest about their uncertainty, and the open questions are clearly identified for future work. The end-of-universe picture in §10.4 should be re-evaluated when (if) SIDC acquires additional calibration data.
 
@@ -338,9 +338,9 @@ This section quantifies whether SIDC's death GW background can be detected by LI
 
 **LISA noise curve (Robson-Cornish 2019, arXiv:1903.04634):**
 - Frequency range: 10⁻⁴ to 1 Hz (best sensitivity at ~3 mHz)
-- Best strain sensitivity: h_c ∼ 4.5 × 10⁻²² at f ~ 4 mHz
-- Best Omega_GW noise: ∼ 2.8 × 10⁻¹² at f ~ 2.4 mHz
-- L_arm = 2.5 × 10⁹ m, laser noise Sₓ = ( 1.5 × 10⁻¹¹)², accel noise Sₐ = ( 3 × 10⁻¹⁵)²
+- Best strain sensitivity: h_c ∼ $4.5 \times 10^{-22}\,\text{at}$ f ~ 4 mHz
+- Best Omega_GW noise: ∼ $2.8 \times 10^{-12}\,\text{at}$ f ~ 2.4 mHz
+- L_arm = $2.5 \times 10^{9}\,\text{m}$, laser noise Sₓ = ( $1.5 \times 10^{-11}$)², accel noise Sₐ = ( $3 \times 10^{-15}$)²
 
 **Death GW background from SIDC (Phinney/Maggiore formula, narrowband model):**
 
@@ -348,16 +348,16 @@ For a population of bursts at rate n_rate (per m³/s) with energy $E_{\rm GW}$ p
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
-where $\rho_{\rm c}$ = 7.7 × 10⁻¹⁰ J/m³.
+where $\rho_{\rm c}$ = $7.7 \times 10^{-10}\,\text{J}$/m³.
 
 **For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = 10⁴⁴ J, $\tau_{2D} = 33$ s, rate$\sim 10^{4}/({\rm Mpc}^3 {\rm yr}) = 1.08 \times 10^{-71}/({\rm m}^3 {\rm s})$):**
 
 | $\epsilon_{\rm GW}$ | $\Omega_{\rm GW}$ at 0.03 Hz | LISA noise at 0.03 Hz | Ratio (SNR) | Detectable? |
 |---|---|---|---|---|
-| 10⁻⁸ (typical SN GW) | 4.5 × 10⁻²⁵ | ∼ 5 × 10⁻¹¹ | 9 × 10⁻¹⁵ | NO |
-| 10⁻⁵ | 4.5 × 10⁻²² | ∼ 5 × 10⁻¹¹ | 9 × 10⁻¹² | NO |
-| 10⁻³ (optimistic) | 4.5 × 10⁻²⁰ | ∼ 5 × 10⁻¹¹ | 9 × 10⁻¹⁰ | NO |
-| 1 (full conversion) | 4.5 × 10⁻¹⁷ | ∼ 5 × 10⁻¹¹ | 9 × 10⁻⁷ | NO (6 orders below) |
+| 10⁻⁸ (typical SN GW) | $4.5 \times 10^{-25}$| ∼ $5 \times 10^{-11}$| $9 \times 10^{-15}$| NO |
+| 10⁻⁵ | $4.5 \times 10^{-22}$| ∼ $5 \times 10^{-11}$| $9 \times 10^{-12}$| NO |
+| 10⁻³ (optimistic) | $4.5 \times 10^{-20}$| ∼ $5 \times 10^{-11}$| $9 \times 10^{-10}$| NO |
+| 1 (full conversion) | $4.5 \times 10^{-17}$| ∼ $5 \times 10^{-11}$| $9 \times 10^{-7}$| NO (6 orders below) |
 
 **Conclusion: LISA will NOT detect SIDC's death GW background from typical SN events, regardless of $\epsilon_{\rm GW}$.** SIDC's predicted $\Omega_{\rm GW}$ is 6-14 orders of magnitude below LISA's noise at 0.03 Hz.
 
@@ -365,10 +365,10 @@ where $\rho_{\rm c}$ = 7.7 × 10⁻¹⁰ J/m³.
 
 | Event | $f_{\rm obs}$ (Hz) | $\Omega_{\rm GW}$ ( ε=1) | LISA in band? |
 |---|---|---|---|
-| Core-collapse SN | 1.6 × 10⁻³ | 4.4 × 10⁻¹⁵ | yes (in band) |
-| Short GRB | 8.2 × 10⁻⁵ | 1.7 × 10⁻¹³ | NO (just below) |
-| BNS merger | 4 × 10⁻¹⁴ | 0.018 | NO (PTA band) |
-| AGN flare | 7.7 × 10⁻¹⁴ | 18 | NO (PTA band) |
+| Core-collapse SN | $1.6 \times 10^{-3}$| $4.4 \times 10^{-15}$| yes (in band) |
+| Short GRB | $8.2 \times 10^{-5}$| $1.7 \times 10^{-13}$| NO (just below) |
+| BNS merger | $4 \times 10^{-14}$| 0.018 | NO (PTA band) |
+| AGN flare | $7.7 \times 10^{-14}$| 18 | NO (PTA band) |
 
 The BNS-merger and AGN-flare death signals are *loud* ( $\Omega_{\rm GW}$ >> LISA noise) but at frequencies *below* LISA's 10⁻⁴ Hz band. They fall in the **PTA band** (nHz to μHz), where NANOGrav, EPTA, IPTA, and SKA-MPG operate. SIDC's death GW from BNS/AGN events is detectable by *PTAs* (with $\epsilon_{\rm GW}$ ~ 1), not by LISA.
 
@@ -390,7 +390,7 @@ The BNS-merger and AGN-flare death signals are *loud* ( $\Omega_{\rm GW}$ >> LIS
 | LSST Y1 | 2027 | DE density decreases with z | If DE is constant Λ to z=2, SIDC is falsified |
 | SKA-MPG PTA | 2030s | $\Omega_{\rm GW} \sim 10^{-9}$ at nHz from BNS/AGN death | If PTA sees $\Omega_{\rm GW}$ << 10⁻⁹, $\epsilon_{\rm GW}$ too small (consistent w/ SIDC); if $\Omega_{\rm GW}$ >> 10⁻⁸, need non-SIDC explanation |
 | LISA | 2034+ | (Birth GW only) | Death GW at 0.03 Hz will be 6-14 orders below LISA noise regardless of $\epsilon_{\rm GW}$ |
-| Direct $M_{\rm Pl,4D}$ measurement | 2030s+ (colliders) | $M_{\rm Pl,4D}$ ≥ 3.93×10²³ GeV | If $M_{\rm Pl,4D}$ measured at < 3.93×10²³ GeV, SIDC's end-of-universe timeline is falsified; if at > 3.93×10²³ GeV, end-of-universe is irrelevant |
+| Direct $M_{\rm Pl,4D}$ measurement | 2030s+ (colliders) | $M_{\rm Pl,4D}$ ≥ $3.93 \times 10^{23}\,\text{GeV}$ | If $M_{\rm Pl,4D}$ measured at < $3.93 \times 10^{23}\,\text{GeV}$, SIDC's end-of-universe timeline is falsified; if at > $3.93 \times 10^{23}\,\text{GeV}$, end-of-universe is irrelevant |
 
 SIDC's §10 is a *speculative extension* with clear, testable, falsifiable predictions. The energy-scaling rule, the $M_{\rm Pl,4D}$ floor, and the death-GW spectrum are *specific enough to be tested* but *fragile enough to be wrong*. The 5-10 year window from 2026 (DESI DR3) to 2034 (LISA launch) is the critical period for SIDC's §10 to be either confirmed, refined, or falsified.
 
@@ -402,11 +402,11 @@ SIDC's energy-scaling rule $\tau_{\rm 2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl
 
 | α | $\tau_{\rm 2D}$(BNS) | $\tau_{\rm 2D}$(AGN) |
 |---|-----------|-----------|
-| 1.00 | 1.0 × 10² yr | 1.0 × 10⁴ yr |
-| 1.20 | 7 × 10⁴ yr | 1.6 × 10⁷ yr |
-| **1.29 (SIDC)** | ** 4.3 × 10⁵ yr** | ** 1.6 × 10⁸ yr** |
-| 1.40 | 4.2 × 10⁶ yr | 2.6 × 10⁹ yr |
-| 1.60 | 1.7 × 10⁸ yr | 5.2 × 10¹¹ yr |
+| 1.00 | $1.0 \times 10^{2}\,\text{yr}$ | $1.0 \times 10^{4}\,\text{yr}$ |
+| 1.20 | $7 \times 10^{4}\,\text{yr}$ | $1.6 \times 10^{7}\,\text{yr}$ |
+| **1.29 (SIDC)** | ** $4.3 \times 10^{5}\,\text{yr}$** | ** $1.6 \times 10^{8}\,\text{yr}$** |
+| 1.40 | $4.2 \times 10^{6}\,\text{yr}$ | $2.6 \times 10^{9}\,\text{yr}$ |
+| 1.60 | $1.7 \times 10^{8}\,\text{yr}$ | $5.2 \times 10^{11}\,\text{yr}$ |
 
 A change of Δ α = 0.20 gives a **factor of 10-100x** change in $\tau_{\rm 2D}$ predictions. A change of Δ α = 0.05 gives a **factor of 3** change. SIDC's predictions are most sensitive to α in the BNS, AGN, and high-energy event range, where small α changes produce large $\tau_{\rm 2D}$ differences.
 
@@ -436,11 +436,11 @@ SIDC's α = 1.29 is **falsified if observed α differs by more than ±0.10** (i.
 
 **Falsification scenarios for α = 1.29:**
 
-1. **BNS GW detected at SIDC's predicted frequency (f ≈ 7 × 10⁻¹⁴ Hz):** α = 1.29 validated. Precision ±0.11 from SKA-MPG.
+1. **BNS GW detected at SIDC's predicted frequency (f ≈ $7 \times 10^{-14}\,\text{Hz}$):** α = 1.29 validated. Precision ±0.11 from SKA-MPG.
 
-2. **BNS GW detected at 10x lower frequency (f ≈ 7 × 10⁻¹⁵ Hz):** implied α = 1.40 (factor 10 longer lifetime). Falsifies α = 1.29 to ±0.11.
+2. **BNS GW detected at 10x lower frequency (f ≈ $7 \times 10^{-15}\,\text{Hz}$):** implied α = 1.40 (factor 10 longer lifetime). Falsifies α = 1.29 to ±0.11.
 
-3. **BNS GW detected at 10x higher frequency (f ≈ 7 × 10⁻¹³ Hz):** implied α = 1.18 (factor 10 shorter lifetime). Falsifies α = 1.29 to ±0.11.
+3. **BNS GW detected at 10x higher frequency (f ≈ $7 \times 10^{-13}\,\text{Hz}$):** implied α = 1.18 (factor 10 shorter lifetime). Falsifies α = 1.29 to ±0.11.
 
 4. **BNS + AGN GW both detected, but with internally inconsistent α:** If BNS gives α = 1.30 and AGN gives α = 1.50, the energy-scaling rule is NOT a single power law. SIDC is **falsified at a deeper level** (not just the specific α, but the framework of universal power-law scaling).
 
