@@ -548,14 +548,14 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 
 **The tension is at Δχ² = +650 for the same-density case.** This is a HARD falsification at the level of CMB peak positions, but a CONSISTENT one with Mechanism M: SIDC accepts the Hubble tension, and now we have a Boltzmann-solver-level confirmation of that acceptance.
 
-**Why H₀ = 73 fails:** The angular acoustic scale θ_* = rₛ/ $D_A$ is fixed by Planck at 0.01041. With H₀ = 73 and same $\omega_{\rm b}$, $\omega_{\rm c}$:
+**Why H₀ = 73 fails:** The angular acoustic scale $\theta_*$ = rₛ/ $D_A$ is fixed by Planck at 0.01041. With H₀ = 73 and same $\omega_{\rm b}$, $\omega_{\rm c}$:
 - rₛ stays roughly the same (slight increase: 144.4 vs 144.4 Mpc)
 - $D_A$ decreases significantly (more rapidly expanding universe at late times)
-- θ_* = rₛ/ $D_A$ INCREASES (1.058 vs 1.041)
+- $\theta_*$ = rₛ/ $D_A$ INCREASES (1.058 vs 1.041)
 - Peaks shift to LOWER l (217 vs 220)
 - This CONTRADICTS Planck
 
-**Adding extra $N_{\rm eff}$ makes it worse**, not better: dark radiation INCREASES H(z) at high z, which DECREASES rₛ, which DECREASES θ_*, which moves peaks to HIGHER l. SIDC's "+1 neutrino from 5D Weyl" overshoots in the other direction.
+**Adding extra $N_{\rm eff}$ makes it worse**, not better: dark radiation INCREASES H(z) at high z, which DECREASES rₛ, which DECREASES $\theta_*$, which moves peaks to HIGHER l. SIDC's "+1 neutrino from 5D Weyl" overshoots in the other direction.
 
 **Lowering $\omega_{\rm c}$ helps partially** ( χ² = 92.66 vs 666.88), but still has 4- 6σ residual tension. SIDC's "DM" cannot be both 27% (today) and have a low $\omega_{\rm c}$ to satisfy Planck CMB at H₀ = 73.
 
@@ -1494,7 +1494,7 @@ The remaining difference is the H₀: SIDC gives 73, Planck gives 67.4. This 5.6
 
 The CMB angular power spectrum depends on:
 - Sound horizon at recombination ( rₛ): set by the integral of cₛ(z)/H(z) from z=∞ to z=1100
-- Angular size of the sound horizon ( θ_*): set by rₛ and $D_A$ (angular diameter distance)
+- Angular size of the sound horizon ( $\theta_*$): set by rₛ and $D_A$ (angular diameter distance)
 - Matter density Ωₘ: set by the total matter content
 - Baryon density $\Omega_{\rm b}$: set by primordial nucleosynthesis
 - H₀: the present-day expansion rate
