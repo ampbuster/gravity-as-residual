@@ -1467,7 +1467,7 @@ See `calculations/lagrangian_v23_dm_de_gravity.py` through
 
 The §3.67 Lagrangian proposal (L116) has three weaknesses relative to the v3.5.9+ A2 framework:
 
-1. **Uses α = 1.289 universally** — but A2 established that α is dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{3}+1D$ = 1.408, $\alpha_{4D}$ = 1.577, L308av)
+1. **Uses α = 1.289 universally** — but A2 established that α is dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ = 1.408, $\alpha_{4D}$ = 1.577, L308av)
 2. **Uses $f_{\rm back}$ ≈ 10⁻⁸⁵** — but A2 has $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (closed loop) and f×ε = 1.13× $10^{-123}$ invariant
 3. **Has no mirror plane symmetry** — but L308az established 3+1D as dimensional mirror plane (sign flip between DE and DM)
 
@@ -1603,7 +1603,7 @@ The §3.68 Lagrangian is a STRUCTURAL IMPROVEMENT over §3.67:
 - ✓ Makes $E_{\rm sub}$ explicit in 4D event term
 
 It does NOT:
-- ✗ Derive $\alpha_{3}+1D$ = 1.408 from first principles (inferred from α value, L308ba)
+- ✗ Derive $\alpha_{\rm 3+1D}$$ = 1.408 from first principles (inferred from α value, L308ba)
 - ✗ Derive $\alpha_{4D}$ = 1.577 from first principles (inferred from α value, L308ba)
 - ✗ Explain WHY the halving rule $N_D$ = 12/2^(D-2) holds (pattern, not derivation)
 - ✗ Replace the L116 audit (L120 was 73%; revised Lagrangian should be re-audited)
@@ -1857,7 +1857,7 @@ See `calculations/v36_research/L308bc_dof_conservation.py` for the full analysis
 After the L308bh breakthrough (C(6) is the SM algebra, Stoica 2018), the user directed the framework to officially adopt **Option B Strengthened** as the primary interpretation.
 
 **Option B Strengthened**:
-- α dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{3}+1D$ = 1.408, $\alpha_{4D}$ = 1.577)
+- α dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{\rm 3+1D}$$ = 1.408, $\alpha_{4D}$ = 1.577)
 - N values ALL first-principles derived:
   - $N_{\rm 2D}$ = 12 = 3 gen × 4 Weyl (L308r, SM count)
   - $N_{3+1D}$ = 6 = C(6) SM algebra (Stoica 2018) [NEW]

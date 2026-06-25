@@ -70,6 +70,7 @@ def greek_to_latex_with_subscripts(full):
 
     Accepts operators between Greek+subscript sequences, e.g.
     'ρ_DE/ρ_Pl' -> '$\\rho_{\\rm DE}/\\rho_{\\rm Pl}$'
+    'α_3+1D'   -> '$\\alpha_{\\rm 3+1D}$'  (with + consumed in subscript)
     """
     # Replace each Greek letter with its LaTeX form, and _X with _{X}
     result = ''
@@ -79,18 +80,20 @@ def greek_to_latex_with_subscripts(full):
         if ch in GREEK_TO_LATEX:
             result += GREEK_TO_LATEX[ch]
         elif ch == '_':
-            # Find the subscript
+            # Find the subscript - greedy, includes +, -, ., digits, letters, comma
             j = i + 1
             sub = ''
-            while j < len(full) and (full[j].isalnum() or full[j] == ',' or full[j] == '_'):
+            while j < len(full) and (full[j].isalnum() or full[j] in '+-,._'):
                 sub += full[j]
                 j += 1
             if sub:
-                # Use \rm for letter subscripts (avoids italic)
+                # Use \rm for letter-leading subscripts (avoids italic)
+                # For mixed subscripts like '3+1D', also use \rm
                 if sub[0].isalpha():
                     result += r'_{\rm ' + sub + r'}'
                 else:
-                    result += r'_{' + sub + r'}'
+                    # Pure-digit or digit-led subscript: wrap in \rm too for consistency
+                    result += r'_{\rm ' + sub + r'}'
                 i = j
                 continue
         else:
