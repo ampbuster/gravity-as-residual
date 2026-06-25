@@ -833,11 +833,11 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz- μHz band.
 **Cumulative GW energy density**: For each event type, integrate
 over cosmic history:
 - SN: $N_{\rm SN}$ ∼ 10¹⁸ over cosmic history, $E_{\rm per,SN,GW}$ = $f_{\rm back}$ × 10⁴⁴ = $10^{-41}\,\text{J}$
-- Total SN GW energy density: $\rho_{\rm GW_SN}$ = 10¹⁸ × 10⁻⁴¹ / $4 \times 10^{80}\,\text{m}$³ = $10^{-103}$ J/m^3
+- Total SN GW energy density: $\rho_{\rm GW_SN}$ = 10¹⁸ × 10⁻⁴¹ / $4 \times 10^{80}\,\text{m}^3$ = $10^{-103}$ J/m^3
 - $\Omega_{\rm GW}$_SN = $\rho_{\rm GW_SN}$ / $\rho_{\rm crit}$ = $10^{-103}$ / $7.6 \times 10^{-10}$= ** 10⁻⁹⁴**
 
 - BNS: $N_{\rm BNS}$ ∼ $3 \times 10^{3}$/ ${\rm Mpc}^3$, $E_{\rm per,BNS,GW}$ = $f_{\rm back}$ × 10⁴⁷ = $10^{-38}\,\text{J}$
-- Total BNS GW energy density: $\rho_{\rm GW_BNS}$ = $3 \times 10^{3}$× 10⁻³⁸ / $2.9 \times 10^{67}$= $10^{-102}$ J/m^3
+- Total BNS GW energy density: $\rho_{\rm GW_BNS}$ = $3 \times 10^{3}$× 10⁻³⁸ / $2.9 \times 10^{67} = 10^{-102}$\,$\text{J/m}^3$
 - $\Omega_{\rm GW}$_BNS = ** 10⁻⁹³**
 
 **PTA detection threshold**: $\Omega_{\rm GW} \sim 10^{-10}$ to 10⁻⁹ (NANOGrav 15-yr,

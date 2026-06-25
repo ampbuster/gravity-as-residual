@@ -6161,9 +6161,9 @@ This is a structural pattern, not a derivation. The framework's α dim-specifici
 The Lagrangian's scaling law τ = $(E/M_{\rm Pl,parent})^{\alpha}$ × $t_{\rm Pl}$ becomes level-specific:
 
 ```
-τ_2D   = (E/M_Pl,3D)^α_2D   × t_Pl,3D     [α_2D = 1 + 1/√12]
-τ_3+1D = (E/M_Pl,4D)^α_3+1D × t_Pl,4D     [α_3+1D = 1 + 1/√6]
-τ_4D   = $(E_{\rm 5D}/M_{\rm Pl,5D})^{\alpha}$_4D × t_Pl,5D    [α_4D = 1 + 1/√3, NO 5D]
+$\tau_{\rm 2D} = (E/M_{\rm Pl,3D})^{\alpha_{\rm 2D}} \times t_{\rm Pl,3D}$     [$\alpha_{\rm 2D} = 1 + 1/\sqrt{12}$]
+$\tau_{\rm 3+1D} = (E/M_{\rm Pl,4D})^{\alpha_{\rm 3+1D}} \times t_{\rm Pl,4D}$     [$\alpha_{\rm 3+1D} = 1 + 1/\sqrt{6}$]
+$\tau_{\rm 4D} = (E_{\rm 5D}/M_{\rm Pl,5D})^{\alpha_{\rm 4D}} \times t_{\rm Pl,5D}$    [$\alpha_{\rm 4D} = 1 + 1/\sqrt{3}$, NO 5D]
 ```
 
 The $M_{\rm Pl}$,parent for each level follows the α-GM closed loop:

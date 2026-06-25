@@ -1277,7 +1277,7 @@ $S_{\rm 3+1D,brane}$ = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
                Λ = $f_{\rm back}$ × ε × $M_{\rm Pl,3}$² (SIDC's DE)
 
 $S_{\rm 2D,universe}$ = S_Liouville + S_Ising + S_SYK + S_FZZT
-                S_L = (1/4π) ∫ [(∂φ)² + μ e^(2φ)]
+                S_L = (1/4π) ∫ [(∂φ)² + μ e^{2φ}]
                 S_I = (1/4π) ∫ Σ [ψ_i ∂ψ_i + (m/2) ψ_i²]  ← 12 Majorana
                 S_SYK = Σ J_{ijkl} ψ_i ψ_j ψ_k ψ_l  ← N=12, q=4
                 S_bdy = (1/4π) ∫ [K + μ_B] ds  ← FZZT brane
@@ -1523,7 +1523,7 @@ S_3+1D,brane = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
 ```
 S_2D,universe = S_Liouville + S_Ising + S_SYK + S_FZZT + S_bilateral
 
-    S_L = (1/4π) ∫ [(∂φ)² + μ e^(2φ)]              ← c=1 Liouville
+    S_L = (1/4π) ∫ [(∂φ)² + μ e^{2φ}]              ← c=1 Liouville
     S_I = (1/4π) ∫ Σ_{i=1}^{12} [ψ_i ∂ψ_i + (m/2) ψ_i²]  ← 12 Majorana
     S_SYK = Σ J_{ijkl} ψ_i ψ_j ψ_k ψ_l            ← N=12, q=4
     S_bdy = (1/4π) ∫ [K + μ_B] ds                 ← FZZT brane
