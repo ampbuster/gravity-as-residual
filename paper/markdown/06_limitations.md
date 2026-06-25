@@ -83,7 +83,7 @@ The full table follows:
 | 16 | 4D temporal structure (Mechanism B/F) | **FALSIFIED** (v2.2) | §2.6 | Mechanism B/F rejected at 7σ |
 | 17 | 5/27/68 split derivation | **PARTIAL** (v2.4) | §2.6, §2.6.1, §4.44.1 | NOW ANCHORED as AdS ₅ volume-to-boundary eigenvalue ratio (§2.6.1); specific zero-mode counting requires 2D CFT expert |
 | 18 | Hubble tension resolution | **CLOSED** (Mechanism M) | §4.40, §4.41 | ACCEPTED as a real tension |
-| 19 | g_{obs} = g_{bar} + g_{cum} + g_{active} form | **FALSIFIED** | §4.1 | Replaced by SIDC-MOND hybrid |
+| 19 | $g_{obs}$ = $g_{bar}$ + $g_{cum}$ + $g_{active}$ form | **FALSIFIED** | §4.1 | Replaced by SIDC-MOND hybrid |
 | 20 | $f_{\rm active}$ derivation | **PARTIAL → REVERTED (v2.7.1)** | §4.35 | The v2.3.1 "derivation" $f_{\rm active}$ = $\tau_{2D}$ / $T_{\rm universe}$ used $\tau_{2D} \sim 0.7$ Gyr (gas consumption timescale) as a SEPARATE POSTULATE identified by physical analogy. The empirical 33 s lifetime gives $f_{\rm active} \sim 10^{-17}$, NOT 0.05. The "derivation" is REVERTED in v2.7.1: $f_{\rm active}$ is a FREE PARAMETER, fit phenomenologically to the RAR via MCMC (0.0513 ± 0.0073). A first-principles derivation remains OPEN. |
 | 21 | $f_{\rm active}$ ~ 0.05 vs 0.18 (LOCAL vs GLOBAL) | **PARTIAL** (v2.3.1) | §4.35 | Resolved as LOCAL vs GLOBAL |
 | 22 | Isothermal cumulative profile | OPEN | §2.6 | A specific 2D gravity model |
@@ -223,7 +223,7 @@ SIDC's HONEST position (Mechanism M):
 
 - **Limitation 14 (sign ambiguity in §2.4 mathematical sketch) is now FULLY CLOSED** by the clean formulation in §2.4. The ordinary attractive gravity and the dark energy are now treated as two *physically distinct small contributions* to the effective 3+1D action — a *force on matter* and a *vacuum energy*, respectively — not as opposite-sign components of the same quantity. The two contributions are not required to have any algebraic sign relationship.
 
-- **Limitation 5 (proportionality constants for dark matter) is PARTIALLY CLOSED** by the growth factor derivation (§2.6 *Deriving the growth factor from 2D universe dynamics*). G = 20 × $V_{\rm growth}$ is derived from 2D universe FRW dynamics (G = 9.7 × 10⁷ from Omega_{DE,2D} = 0.999, $t_{\rm eq}$ = 1% of 2D lifetime, T_{2D} = 30 Gyr, h_{2D} $\sim H_{0,\rm our}$), matching the trial-and-error value of 10⁸ within 3%. The growth factor is no longer a free parameter.
+- **Limitation 5 (proportionality constants for dark matter) is PARTIALLY CLOSED** by the growth factor derivation (§2.6 *Deriving the growth factor from 2D universe dynamics*). G = 20 × $V_{\rm growth}$ is derived from 2D universe FRW dynamics (G = 9.7 × 10⁷ from Omega_{DE,2D} = 0.999, $t_{\rm eq}$ = 1% of 2D lifetime, $T_{2D}$ = 30 Gyr, h_{2D} $\sim H_{0,\rm our}$), matching the trial-and-error value of 10⁸ within 3%. The growth factor is no longer a free parameter.
 
 - **Limitation 15 (10⁸⁵ discrepancy for DE density) is PARTIALLY CLOSED** by the *Empirical formula for the 5/27/68 split* (§2.6): the 27% DM fraction follows from the derived G (since $M_{\rm DM} = 6.4 \times G \times M_{\rm event} \times N_{\rm events}$). The 5% ordinary and 68% DE are still coupled via SIDC's bulk-brane coupling (epsilon) and the staying fraction ($f_{\rm back}$); these are *defined* by the observed hierarchy and DE density respectively, not derived.
 
@@ -293,7 +293,7 @@ The data does not currently distinguish (a) from (b): both give the same 7/7 spe
 
 18. **NEW: SIDC does not resolve the Hubble tension.** SIDC's *core* prediction is H₀ = 73 (the 4D event's antigravity projection rate), which is consistent with local + Pantheon+ measurements. The 5.6 km/s/Mpc gap between local/Pantheon+ (73) and Planck CMB-inferred (67.4) H₀ is a real tension that SIDC accommodates but does not resolve. SIDC's *qualitative* explanation ( $H_{0,\rm local}$ > $H_{0,\rm CMB}$ due to dimensional projection) is consistent with the data, but a specific quantitative mechanism for the 5.6 km/s/Mpc gap is not provided. Mechanism B/F was tested and rejected at 7σ (Limitation 16). SIDC joins other cosmological models (including LCDM itself) in leaving the precise value of the Hubble tension unresolved.
 
-19. **NEW: SIDC's g_{obs} = g_{bar} + g_{cum} + g_{active} functional form is FALSIFIED by real SPARC data, but SIDC's framework is MOND-compatible (commits 144-153).** A real-data test (commit 151, `calculations/rar_sparc_real.py`) using the actual SPARC database (175 galaxies, Lelli+ 2016) shows:
+19. **NEW: SIDC's $g_{obs}$ = $g_{bar}$ + $g_{cum}$ + $g_{active}$ functional form is FALSIFIED by real SPARC data, but SIDC's framework is MOND-compatible (commits 144-153).** A real-data test (commit 151, `calculations/rar_sparc_real.py`) using the actual SPARC database (175 galaxies, Lelli+ 2016) shows:
 - With MW-tuned params: median abs residual = 70.5% on 149 high-quality galaxies (vs 5-13% claimed from synthetic tests)
 - With per-galaxy best fit: median residual ~50%, with scale ALWAYS preferring 1.0 (SIDC needs *all* the $M_{\rm halo}$, not 15%)
 - Residuals anti-correlate with log(L): -0.642 (large galaxies 34% resid, small galaxies 66% resid)

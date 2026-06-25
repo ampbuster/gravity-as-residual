@@ -86,10 +86,8 @@ VAR_SUBSCRIPT_PATTERN = re.compile(
     + r'(?:H|M|E|T|P|tau|sigma|rho|Omega|gamma|alpha|beta|delta|epsilon|zeta|eta|theta|kappa|lambda|mu|nu|xi|pi|phi|chi|psi|v|V|r|R|a|A|k|g|N|t|c|L|s|S|u|U|p|P|b|B|d|D|f|F|q|Q|x|X|y|Y|z|Z)'
     # Optional second letter (for compound var names)
     r'(?:[a-zA-Z]{0,3})'
-    # Underscore
-    + r')_('
-    + SUBSCRIPTS_RE
-    + r')(?![a-zA-Z0-9])'
+    # Underscore, optionally followed by brace-delimited subscript
+    + r')(?:_(?:\\?\{[a-zA-Z0-9,]+\}|' + SUBSCRIPTS_RE + r'))(?![a-zA-Z0-9])'
 )
 
 
@@ -143,7 +141,11 @@ def find_physics_subscripts(text):
                 # Skip common false positives
                 orig = m.group(0)
                 var = m.group(1)
-                sub = m.group(2)
+                # Extract subscript (handle both _X and _{X} patterns)
+                if '_{' in orig:
+                    sub = orig[orig.index('_{')+2:-1]
+                else:
+                    sub = orig[len(var)+1:]
                 
                 # Skip common English words
                 if var.lower() in ('the', 'and', 'or', 'is', 'it', 'this', 'we', 'as', 'in', 'on', 'to', 'of', 'for', 'be', 'an', 'at', 'by'):
@@ -188,9 +190,13 @@ def find_physics_subscripts(text):
 
 def wrap_in_math(original):
     """Wrap the matched text in $...$ math.
-    
+
     Single-letter subscripts don't need braces, but multi-letter do.
+    Handles both M_b and M_{b} patterns.
     """
+    if '_{' in original:
+        # Already has braces, just wrap in $
+        return f'${original}$'
     var, sub = original.split('_', 1)
     if len(sub) == 1 and sub.isalnum():
         # Single letter/digit subscript: no braces

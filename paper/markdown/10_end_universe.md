@@ -38,7 +38,7 @@ This is a **unification**: 2D universes from supernovae and our 3D universe are 
 
 ### 10.3 The 4D Planck mass has a floor: M_{Pl,4} ≥ 3.93×10²³ GeV
 
-For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × (t_{Pl,3} / t_{Pl,4}) and the energy-scaling result T₃D = 2 × 10²⁶ yr:
+For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × ($t_{Pl,3}$ / $t_{Pl,4}$) and the energy-scaling result T₃D = 2 × 10²⁶ yr:
 
 $$\frac{t_{Pl,3}}{t_{Pl,4}} \geq \frac{13.8 \text{ Gyr}}{2\times 10^{26} \text{ yr}} = 7\times 10^{-17}$$
 
