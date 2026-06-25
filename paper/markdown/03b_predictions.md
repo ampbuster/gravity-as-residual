@@ -5,7 +5,7 @@
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific α_4D = 1.577). The f × ε = 1.13× $10^{-123}$ invariant is preserved.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The f × ε = 1.13× $10^{-123}$ invariant is preserved.
 
 <!-- 03b_predictions.md - part of paper.md split (v3.1, renamed from 03_predictions.md for sequential ordering) -->
 
@@ -32,7 +32,7 @@ Each level of SIDC has the same structure (per L308x v3, asymmetric cone in time
 | 1D | 1 | varies | varies | $\gamma_{\rm 1D}$ = $(E/M_{\rm Pl,1})^\alpha$ | varies |
 | **2D** | 2 | 2.95 TeV | **5.7×10³⁸ yr** (2D's own frame, SN) | $\gamma_{2D}$ = $(E/M_{\rm Pl,3})^\alpha$ = 5.5×10⁴⁴ | **33 s** (SN) |
 | 3+1D | 4 | 1.22×10¹⁹ GeV | n/a (3+1D IS us) | — | 13.8 Gyr (age) |
-| **4D** | 5 | 3.93×10²³ GeV | **1.51×10³⁴ yr** (4D's own frame) | $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^\alpha$ = 1.10×10¹¹¹ (A2: α_4D=1.577) | **1.66×10¹⁴⁵ yr (A2)** |
+| **4D** | 5 | 3.93×10²³ GeV | **1.51×10³⁴ yr** (4D's own frame) | $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^\alpha$ = 1.10×10¹¹¹ (A2: $\alpha_{4D}$=1.577) | **1.66×10¹⁴⁵ yr (A2)** |
 | 5D | 6 | varies | $t_{\rm Pl,5D}$ in 5D frame | $\gamma_{\rm 5D}$ = $(E/M_{\rm Pl,5})^\alpha$ | varies |
 | ... | N | $t_{\rm Pl,N}$ | $t_{\rm Pl,N}$ in N-D frame | $\gamma_{\rm N}$ = $(E/M_{\rm Pl,N})^\alpha$ | varies |
 
@@ -146,8 +146,8 @@ DGP (Dvali-Gabadadze-Porrati) is a 5D brane-world model with an induced 4D Einst
 **Connection to SIDC:**
 - SIDC's DE is the 4D event's antigravity (§2.4)
 - DGP's self-accelerating branch gives effective DE
-- The crossover scale $r_c$ = G₅/ G₄ is a candidate for SIDC's bulk-brane coupling
-- α = 1.29 could be a function of $r_c$
+- The crossover scale r_c = G₅/ G₄ is a candidate for SIDC's bulk-brane coupling
+- α = 1.29 could be a function of r_c
 
 **Status:** STRUCTURAL SUPPORT. SIDC's inversion (§3.9) mentions DGP. The connection is established but not unique.
 
@@ -171,7 +171,7 @@ Verlinde proposed that gravity is an entropic force arising from the tendency of
 | Padmanabhan | 2015 | DM = bulk entanglement entropy | STRUCTURAL |
 | Horava-Witten | 1996 | 3+1D = 10D HW brane + 6D CY | STRUCTURAL |
 | Jacobson | 1995 | TdS gives M = τ/(2G) | TENSION (linear) |
-| RT | 2006 | $S_A$ = Area/(4G) | TENSION (= Jacobson) |
+| RT | 2006 | S_A = Area/(4G) | TENSION (= Jacobson) |
 | KK | 1921 | Historical prototype | STRUCTURAL |
 | Geodetic brane | 2024 | Embedding geometry | STRUCTURAL |
 | Massive gravity | 2011 | m_g as DE source | SPECULATIVE |
@@ -720,8 +720,8 @@ SFH (formation redshift, duration, current mass) to compute:
 
 Where:
 - M_dyn_primordial ~ 5 × M_{b} (primordial 2D universe death halo)
-- M_dyn_recent = $f_{\rm back}$ × E_SN_total / $c^2$ (cumulative SN deaths)
-- Fₚ(z) = $z^n$ / ($z^n$ + $z_{\rm half}^n$), n=2, $z_{\rm half}$=3 (Hill function)
+- M_dyn_recent = $f_{\rm back}$ × E_SN_total / c² (cumulative SN deaths)
+- Fₚ(z) = zⁿ / ( zⁿ + $z_{\rm half}^n$), n=2, $z_{\rm half}$=3 (Hill function)
 - $f_{\rm back}$ = 10⁻⁸⁵ (SIDC calibrated from SN 33s lifetime)
 
 **Key finding (v2.7.48, REVISED v2.7.52, LEGACY)**: With Fₚ(0) = 0.9993 (revised), SIDC predicts $M_{dyn}$/ M_{b} ∼ 4.97 for these galaxies, dominated by the Fₚ(z) primordial component. The recent (SN-driven) component is **negligible** ( ∼ 10⁻⁹¹).
@@ -832,7 +832,7 @@ detectable by PTAs (NANOGrav, EPTA, SKA-MPG) in the nHz- μHz band.
 **Cumulative GW energy density**: For each event type, integrate
 over cosmic history:
 - SN: $N_{\rm SN}$ ∼ 10¹⁸ over cosmic history, $E_{\rm per,SN,GW}$ = $f_{\rm back}$ × 10⁴⁴ = 10⁻⁴¹ J
-- Total SN GW energy density: $\rho_{\rm GW_SN}$ = 10¹⁸ × 10⁻⁴¹ / 4 × 10⁸⁰ $m^3$ = $10^{-103}$ J/m^3
+- Total SN GW energy density: $\rho_{\rm GW_SN}$ = 10¹⁸ × 10⁻⁴¹ / 4 × 10⁸⁰ m³ = $10^{-103}$ J/m^3
 - $\Omega_{\rm GW}$_SN = $\rho_{\rm GW_SN}$ / $\rho_{\rm crit}$ = $10^{-103}$ / 7.6 × 10⁻¹⁰ = ** 10⁻⁹⁴**
 
 - BNS: $N_{\rm BNS}$ ∼ 3 × 10³/ ${\rm Mpc}^3$, $E_{\rm per,BNS,GW}$ = $f_{\rm back}$ × 10⁴⁷ = 10⁻³⁸ J

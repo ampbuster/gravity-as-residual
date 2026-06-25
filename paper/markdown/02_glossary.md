@@ -39,8 +39,8 @@
 - Fₚ(0) (v2.7.52): derived from cumulative DM calculation, no longer calibrated
 - ε (CURRENT v3.5.9+ A2): CALIBRATED at 6.32×10⁻³⁴ (gravity weakness, hierarchy problem, OBSERVED). Was 10⁻³⁸ in A1, recalibrated +4.8 orders in A2. $f \times \epsilon = 1.13 \times 10^{-123}$ invariant preserved.
 - $f_{\rm DE}$ (CURRENT v3.5.9+ A2): has TWO equivalent formulas (f×ε = 1.13× $10^{-123}$ invariant)
-  - $f_{\rm DE,simple}$ = 1.13× 10⁻⁸⁵ (uses α_2D = 1.289, ε = 1× 10⁻³⁸)
-  - $f_{\rm DE,closed}$ = 1.79× 10⁻⁹⁰ (uses α_4D = 1.577, ε = 6.32× 10⁻³⁴)
+  - $f_{\rm DE,simple}$ = 1.13× 10⁻⁸⁵ (uses $\alpha_{2D}$ = 1.289, ε = 1× 10⁻³⁸)
+  - $f_{\rm DE,closed}$ = 1.79× 10⁻⁹⁰ (uses $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴)
   - Both give $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ GeV⁴ (EXACT match)
   - **Was called $f_{\rm back}$ in v3.0+ naming, renamed in v3.5.7+ naming revolution**
 
@@ -703,11 +703,11 @@ The volumetric growth $V_{growth}$ comes from the 2D universe's expansion in its
 
 $$V_{growth} = V_{matter} \cdot V_{DE}$$
 
-In the matter-dominated era, a(t) ~ t^{2/3}, so V ~ $t^2$. If matter–DE equality occurs at time $t_{\rm eq}$ = $f_{eq}$ * $T_{2D}$ (where $f_{eq}$ is the fraction of the 2D lifetime at equality), then:
+In the matter-dominated era, a(t) ~ t^{2/3}, so V ~ t². If matter–DE equality occurs at time $t_{\rm eq}$ = $f_{eq}$ * $T_{2D}$ (where $f_{eq}$ is the fraction of the 2D lifetime at equality), then:
 
 $$V_{matter} = (1 / f_{eq})^2 $$
 
-In the DE-dominated era (after $t_{\rm eq}$), a(t) ~ exp($H_{2D}$ * t), so V ~ exp(3 * $H_{2D}$ * t). If the 2D universe's lifetime in its own frame is $T_{2D}$ and its Hubble constant is $H_{2D}$ = h_{2D} * H₀ (in 2D's natural units), then:
+In the DE-dominated era (after $t_{\rm eq}$), a(t) ~ exp( $H_{2D}$ * t), so V ~ exp(3 * $H_{2D}$ * t). If the 2D universe's lifetime in its own frame is $T_{2D}$ and its Hubble constant is $H_{2D}$ = h_{2D} * H₀ (in 2D's natural units), then:
 
 $$V_{DE} = \exp(3 \cdot h_{2D} \cdot H_0 \cdot T_{2D} \cdot (1 - f_{eq}))$$
 

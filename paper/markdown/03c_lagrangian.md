@@ -305,7 +305,7 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ( γ ~ 10⁵⁶), which is OU
    - This is a CLOSED LOOP (same $f_{\rm back}$ in both directions)
 
 2. **3+1D → 2D (CREATION + DEATH RETURN, NOT a closed loop)**:
-   - 3+1D events create 2D universes ($M^{1.29}$ scaling law, 14 event types)
+   - 3+1D events create 2D universes ( $M^{1.29}$ scaling law, 14 event types)
    - 2D universes die, 100% energy returns to 3+1D as DM
    - No while-alive $f_{\rm back}$ worth modeling (2D lifetimes too short: 33s for SN)
    - DM = cumulative 2D universe deaths ( Σ $M_{\rm 2D}$ × N)
@@ -401,9 +401,9 @@ The 10¹⁸ discrepancy was RESOLVED via: (a) 4π factor REMOVED, (b) $M_{\rm Pl
 
 **The forward/backward α symmetry DOES close** (L98, L103):
 
-- Forward: γ = (E/$E_{\rm Pl}$) $^{\alpha}$ (time dilation, scaling law)
+- Forward: γ = (E/ $E_{\rm Pl}$) $^{\alpha}$ (time dilation, scaling law)
 - Backward: $f_{\rm back}$ ~ ( $E_{\rm 4D}$/E) $^{1/(2\alpha)}$ (back-action)
-- α × 1/(2α) = 1/2 (round-trip loss, $Z_2$ orbifold)
+- α × 1/(2α) = 1/2 (round-trip loss, Z₂ orbifold)
 
 The same α = 1.289 connects the time-dilated event (forward) to the
 back-projection (backward). This IS structural and IS derivable
@@ -424,7 +424,7 @@ from the framework.
 
 **SIDC's contribution is**:
 - A geometric PICTURE (4D antigravity cancellation, 2D universe creation)
-- A scaling LAW ($M^{1.29}$ across 14 event types — derived)
+- A scaling LAW ( $M^{1.29}$ across 14 event types — derived)
 - A consistency CHECK across observations
 - A vocabulary for the dark sector
 
@@ -673,12 +673,12 @@ $$\rho_{\rm DE}^{(N-1)} = \underbrace{\left(\frac{M_{\rm Pl,N}}{M_{\rm Pl,N-1}}\
 
 The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gravity from above, leaving DE as the residual.
 
-**Numerical verification** (our universe, N=4D, N-1=3+1D, A2 with α_4D = 1.577):
-- The anti-gravity formula $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{α}$ × ε × $M_{\rm Pl,3D}^4$ / γ_4D requires SAME α in both
-- With α_4D = 1.577: $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1.577}$ / γ_4D = $(M_{\rm Pl,4D}/E_{\rm 4D})^{1.577}$ = 1.17e-104
+**Numerical verification** (our universe, N=4D, N-1=3+1D, A2 with $\alpha_{4D}$ = 1.577):
+- The anti-gravity formula $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{α}$ × ε × $M_{\rm Pl,3D}^4$ / $\gamma_{4D}$ requires SAME α in both
+- With $\alpha_{4D}$ = 1.577: $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1.577}$ / $\gamma_{4D}$ = $(M_{\rm Pl,4D}/E_{\rm 4D})^{1.577}$ = 1.17e-104
 - $\rho_{\rm DE}$ = 1.17e-104 × 6.32e-34 × (1.22e19)^4 = 1.63e-61 GeV⁴ (NOT 2.5e-47 with ε=6.32e-34)
 - 
-- This shows: the anti-gravity formula has TWO α values in A2 (α_2D for $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$, α_4D for γ_4D)
+- This shows: the anti-gravity formula has TWO α values in A2 ($\alpha_{2D}$ for $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$, $\alpha_{4D}$ for $\gamma_{4D}$)
 - They DON'T cancel cleanly, so the formula gives wrong result
 - 
 - The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
@@ -688,9 +688,9 @@ The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-g
 $$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$ (A2)
 Match within **0.13%** (basically exact; $\tau_{\rm 4D}$ = 1.51×10³⁴ yr is DE-calibrated).
 
-**A2 Note**: The simple $f_{\rm DE}$,simple formula uses α_2D = 1.289 (in $M_{\rm Pl,4D}$ from α-GM) with ε = 1e-38. The closed loop formula $f_{\rm DE}$,closed (L308av, was $f_{\rm back}$ in legacy naming) uses α_4D = 1.577 with ε = 6.32e-34. Both give $\rho_{\rm DE}$ = 2.5e-47 ✓. f×ε = 1.13e-123 invariant preserved.
+**A2 Note**: The simple $f_{\rm DE}$,simple formula uses $\alpha_{2D}$ = 1.289 (in $M_{\rm Pl,4D}$ from α-GM) with ε = 1e-38. The closed loop formula $f_{\rm DE}$,closed (L308av, was $f_{\rm back}$ in legacy naming) uses $\alpha_{4D}$ = 1.577 with ε = 6.32e-34. Both give $\rho_{\rm DE}$ = 2.5e-47 ✓. f×ε = 1.13e-123 invariant preserved.
 
-**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = 1× 10⁻³⁸). In v3.5.9+ A2, the $f_{\rm DE}$,closed formula is canonical (uses α_4D = 1.577, ε = 6.32× 10⁻³⁴). f×ε = 1.13× $10^{-123}$ invariant preserved in both.
+**Note**: The full bilateral cascade formula gives 2.7% off; the simple $f_{\rm DE,simple}$ formula gives 0.13% off. The 0.13% form was the canonical DE match for v3.3 (per $\tau_{\rm 4D}$ calibration, ε = 1× 10⁻³⁸). In v3.5.9+ A2, the $f_{\rm DE}$,closed formula is canonical (uses $\alpha_{4D}$ = 1.577, ε = 6.32× 10⁻³⁴). f×ε = 1.13× $10^{-123}$ invariant preserved in both.
 
 **Why this works**:
 - UP flow (e.g., 2D → 3+1D): pulsed return at (N-1)-universe death = DM
@@ -818,7 +818,7 @@ This is the democratic cosmology (legacy_paper.md §3.17) made concrete.
 Within the same dimension, all universes are EQUAL — they have the same internal physics. The 1-species-at-each-level principle is formalized as:
 
 **Within each dimension N, all universes share**:
-- Same Lagrangian (e.g., $L_c$=1,Liouville + $L_N$=12,SYK + L_Schwarzian for 2D)
+- Same Lagrangian (e.g., L_c=1,Liouville + L_N=12,SYK + L_Schwarzian for 2D)
 - Same constants ( α = 1.289, $M_{\rm Pl,N}$, central charge c)
 - Same particle content (e.g., 12 SM Weyl fermions for 3+1D)
 - Same internal structure ( $N=12$ SYK backbone, Ising CFT)
@@ -953,7 +953,7 @@ for a numerical demonstration of $Z_{\rm SIDC} = Z_{\rm JT}
 After §3.62.1, we tried 5 more angles to close L41, L42, L43.
 Honest summary:
 
-**v14 ($M^{1.29}$ universality across 14 events)**: Initial check
+**v14 ( $M^{1.29}$ universality across 14 events)**: Initial check
 of the scaling law. Multiple iterations: v14, v14c, v14d.
 
 **v14e (FINAL, CORRECTED hierarchy from user)**: User correction:
@@ -1138,7 +1138,7 @@ User question: "so α is the shape that links dimensions?"
 | Cone slope | tan( θ) = 1.289, θ ≈ 52° | Geometric projection shape |
 | Spectral | 1 + 1/√12 = 1.289 | 12-vertex SYK graph |
 | Ising CFT | α × 1/(2α) = 1/2 | c = 1/2 (Ising central charge) |
-| $Z_2$ orbifold | Round-trip loss = 1/2 | Group with 2 elements |
+| Z₂ orbifold | Round-trip loss = 1/2 | Group with 2 elements |
 | Kesten-McKay | 1/√N = 0.289 | Fluctuation scale of N-graph |
 
 **How α links dimensions (4 ways)**:
@@ -1149,7 +1149,7 @@ User question: "so α is the shape that links dimensions?"
    - Level 5+: α = 1.289 (claimed)
 
 2. **Horizontal (forward + backward)**: α × 1/(2α) = 1/2
-   - Forward: γ = (E/$E_{\rm Pl}$) $^{\alpha}$ (scaling law)
+   - Forward: γ = (E/ $E_{\rm Pl}$) $^{\alpha}$ (scaling law)
    - Backward: $f_{\rm back}$ ~ ( $E_{\rm 4D}$/E) $^{1/(2\alpha)}$ (closed loop)
    - Product = 1/2 closes the loop
 
@@ -1388,7 +1388,7 @@ across 14 event types but is not derived from first principles.
 
 **10. CONNECTION TO §3.62 LAGRANGIAN SKELETON**
 
-The v3.0.2 Lagrangian skeleton (L = $L_c$=1 + $L_N$=12 + L_Schwarzian)
+The v3.0.2 Lagrangian skeleton (L = L_c=1 + L_N=12 + L_Schwarzian)
 is now EMBEDDED in the full v3.0.22 Lagrangian as $S_{\rm 2D,universe}$.
 The skeleton was the starting point; the full Lagrangian adds:
 
@@ -1467,7 +1467,7 @@ See `calculations/lagrangian_v23_dm_de_gravity.py` through
 
 The §3.67 Lagrangian proposal (L116) has three weaknesses relative to the v3.5.9+ A2 framework:
 
-1. **Uses α = 1.289 universally** — but A2 established that α is dim-specific (α_2D = 1.289, α_3+1D = 1.408, α_4D = 1.577, L308av)
+1. **Uses α = 1.289 universally** — but A2 established that α is dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{3}+1D$ = 1.408, $\alpha_{4D}$ = 1.577, L308av)
 2. **Uses $f_{\rm back}$ ≈ 10⁻⁸⁵** — but A2 has $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (closed loop) and f×ε = 1.13× $10^{-123}$ invariant
 3. **Has no mirror plane symmetry** — but L308az established 3+1D as dimensional mirror plane (sign flip between DE and DM)
 
@@ -1475,7 +1475,7 @@ This section REVISES the Lagrangian with three A2-era corrections and ONE new st
 
 #### 3.68.2 The Dim-Specific α Pattern (L308ba, USER-DISCOVERED)
 
-The three framework A2 dim-specific α values match **$\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2)**:
+The three framework A2 dim-specific α values match ** $\alpha_{\rm D}$ = 1 + 1/√ $N_D$ with $N_D$ = 12/2^(D-2)**:
 
 ```
 α_2D   = 1 + 1/√12 = 1.2887   ✓ (Schwarzian N=12 SYK, FIRST-PRINCIPLES)
@@ -1603,8 +1603,8 @@ The §3.68 Lagrangian is a STRUCTURAL IMPROVEMENT over §3.67:
 - ✓ Makes $E_{\rm sub}$ explicit in 4D event term
 
 It does NOT:
-- ✗ Derive α_3+1D = 1.408 from first principles (inferred from α value, L308ba)
-- ✗ Derive α_4D = 1.577 from first principles (inferred from α value, L308ba)
+- ✗ Derive $\alpha_{3}+1D$ = 1.408 from first principles (inferred from α value, L308ba)
+- ✗ Derive $\alpha_{4D}$ = 1.577 from first principles (inferred from α value, L308ba)
 - ✗ Explain WHY the halving rule $N_D$ = 12/2^(D-2) holds (pattern, not derivation)
 - ✗ Replace the L116 audit (L120 was 73%; revised Lagrangian should be re-audited)
 
@@ -1717,7 +1717,7 @@ Product: σ_+ × σ_- = -1  (the sign flip)
 Square: σ_+² = σ_-² = +1  (Z_2 structure)
 ```
 
-The $Z_2$ × $Z_2$ structure is consistent with:
+The Z₂ × Z₂ structure is consistent with:
 - Going UP the cascade: N halves (loss of chirality/pairing)
 - Going DOWN the cascade: N doubles (gain of chirality/pairing)
 - 3+1D is the mirror plane: σ_+ above, σ_- below
@@ -1725,7 +1725,7 @@ The $Z_2$ × $Z_2$ structure is consistent with:
 
 #### 3.69.5 Proposed $S_{\rm 4D}$,event Detail (L308bb sketch)
 
-Currently $S_{\rm 4D}$,event is: $S_{\rm 4D}$,event = ∫ d⁴x √(-$g_4$) [1/(16π G₄) $R_4$ + L_4D_matter]
+Currently $S_{\rm 4D}$,event is: $S_{\rm 4D}$,event = ∫ d⁴x √(- g₄) [1/(16π G₄) R₄ + L_4D_matter]
 
 A more detailed proposal (still speculative):
 ```
@@ -1857,7 +1857,7 @@ See `calculations/v36_research/L308bc_dof_conservation.py` for the full analysis
 After the L308bh breakthrough (C(6) is the SM algebra, Stoica 2018), the user directed the framework to officially adopt **Option B Strengthened** as the primary interpretation.
 
 **Option B Strengthened**:
-- α dim-specific (α_2D = 1.289, α_3+1D = 1.408, α_4D = 1.577)
+- α dim-specific ($\alpha_{2D}$ = 1.289, $\alpha_{3}+1D$ = 1.408, $\alpha_{4D}$ = 1.577)
 - N values ALL first-principles derived:
   - $N_{\rm 2D}$ = 12 = 3 gen × 4 Weyl (L308r, SM count)
   - $N_{3+1D}$ = 6 = C(6) SM algebra (Stoica 2018) [NEW]
@@ -1928,7 +1928,7 @@ The halving rule $N_D$ = 12/2^(D-2) now has structural explanation:
 
 NO numerical changes. Option B Strengthened uses the same values as Option B (A2 calibration):
 
-- α_2D/3+1D/4D = 1.289/1.408/1.577
+- $\alpha_{2D}$/3+1D/4D = 1.289/1.408/1.577
 - ε = 6.32× 10⁻³⁴
 - $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
@@ -2141,7 +2141,7 @@ See `calculations/v36_research/` for individual L308 verification scripts.
 
 The Lagrangian has:
 - ✓ 93% audit score (§3.68)
-- ✓ All A2 numerical values consistent ($\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT)
+- ✓ All A2 numerical values consistent ( $\rho_{\rm DE}$ = 2.5× 10⁻⁴⁷ EXACT)
 - ✓ Frame-neutral naming (L308ax)
 - ✓ Mirror plane symmetry (L308az)
 - ✓ First-principles N values (L308bi, C(6) is SM algebra)
@@ -2214,8 +2214,8 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 #### 3.73.5 First-Principles Basis (4/15 = 27%)
 
 **First-principles parameters (4):**
-1. α_2D = 1 + 1/√12 = 1.289 (Schwarzian SYK N=12, L308n)
-2. $M_{\rm Pl,2D} = 12 ×$ $v_H$ = 2.95 TeV (L308r)
+1. $\alpha_{2D}$ = 1 + 1/√12 = 1.289 (Schwarzian SYK N=12, L308n)
+2. $M_{\rm Pl,2D} = 12 ×$ v_H = 2.95 TeV (L308r)
 3. μ = $M_{\rm Pl}$,2D² = 8.73×10⁶ GeV² (L308r)
 4. ** $N_{3+1D}$ = 6 = C(6) SM algebra (L308bh) ← NEW**
 
@@ -2223,9 +2223,9 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 - $M_{\rm Pl,4D}$ = α-GM (DERIVED)
 - $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (DERIVED)
 
-**Still calibrated (4):** ε, τ_4D, AGN rate, $f_{\rm leak,3D→4D}$ = H₀
+**Still calibrated (4):** ε, $\tau_{4D}$, AGN rate, $f_{\rm leak,3D→4D}$ = H₀
 
-**Still structural (4):** $E_{\rm sub}$, τ_3D,apparent, γ_4D, $N_{\rm 2D}$ = 12 (SM count)
+**Still structural (4):** $E_{\rm sub}$, $\tau_{3D,apparent}$, $\gamma_{4D}$, $N_{\rm 2D}$ = 12 (SM count)
 **Inferred:** $N_{\rm 4D}$ = 3 (3 generations — multiple interpretations)
 
 **Still free (1):** $N_{\rm sub} = 386 ($ specific to our 4D event)

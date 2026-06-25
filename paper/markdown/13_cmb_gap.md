@@ -111,7 +111,7 @@ This is the standard interpolating function that smoothly transitions from Newto
 **MCMC result (this run):**
 - a₀ = 2.34 × 10⁻¹⁰ ± 1.54 × 10⁻¹⁰ m/s^2
 - sigma_int = 0.089 ± 0.040 dex
-- Reduced $chi^2$ ≈ 0 (model is "over-fit" given the wide error bars)
+- Reduced chi² ≈ 0 (model is "over-fit" given the wide error bars)
 
 **Literature comparison (Li+ 2018, arXiv:1803.00022):**
 - a₀ = 1.20 × 10⁻¹⁰ ± 0.02 m/s^2
@@ -176,9 +176,9 @@ This is the right question to ask. The CMB angular power spectrum has multiple a
 
 | Peak | l | What it measures | ΛCDM | SIDC pre-L308ab | SIDC post-L308ab |
 |---|---|---|---|---|---|
-| **1st** | ~220 | Sound horizon $r_s$, total $\Omega_{\rm m}$ | ✓ | partial ($\Omega_{\rm b}$ alone wrong by 6.4×) | **✓ matches** |
+| **1st** | ~220 | Sound horizon rₛ, total $\Omega_{\rm m}$ | ✓ | partial ( $\Omega_{\rm b}$ alone wrong by 6.4×) | **✓ matches** |
 | **2nd** | ~540 | Baryon-to-photon ratio η | ✓ | ✓ (BBNS unchanged) | **✓ matches** |
-| **3rd** | ~810 | Matter-to-radiation, $\Omega_{\rm c}$ | ✓ | ✗ FAIL (no DM at z=1100) | **✓ matches** ($\Omega_{\rm c}$ = 0.265) |
+| **3rd** | ~810 | Matter-to-radiation, $\Omega_{\rm c}$ | ✓ | ✗ FAIL (no DM at z=1100) | **✓ matches** ( $\Omega_{\rm c}$ = 0.265) |
 | **Silk damping** | l > 1000 | DM-baryon coupling | ✓ | ✗ FAIL | **✓ matches** (collisionless DM) |
 | **Polarization** (TE/EE) | l < 200 | Recombination, reionization | ✓ | ✓ (3+1D physics) | **✓ matches** |
 
@@ -243,7 +243,7 @@ That's essentially zero velocity dispersion. **SIDC's DM is "cold" by any measur
 The Silk damping scale is:
 $$k_D^{-2} \sim \int_0^{a_*} \frac{1}{a^2 \sigma_T n_e H(a)} \left(\frac{R^2 + 1}{6(1+R)}\right) da$$
 
-The (1+R) factor: R = 3$\rho_{\rm b}$/(4ρ_γ) doesn't depend on DM. The $\sigma_{\rm T}$ nₑ term doesn't depend on DM. **Silk damping scale is unchanged by DM origin.** ✓
+The (1+R) factor: R = 3 $\rho_{\rm b}$/(4ρ_γ) doesn't depend on DM. The $\sigma_{\rm T}$ nₑ term doesn't depend on DM. **Silk damping scale is unchanged by DM origin.** ✓
 
 #### Polarization (TE/EE)
 
@@ -269,7 +269,7 @@ The "CMB gap" before L308ab was specifically about DM being absent at z=1100. Af
 #### Verification Path
 
 A specific test would be:
-1. Run a Boltzmann solver (CAMB, CLASS) with SIDC's DM properties ($\Omega_{\rm c}$, $v_{\rm 2D}$ ~ 30 m/s)
+1. Run a Boltzmann solver (CAMB, CLASS) with SIDC's DM properties ( $\Omega_{\rm c}$, $v_{\rm 2D}$ ~ 30 m/s)
 2. Compute the predicted CMB angular power spectrum
 3. Compare to Planck 2018 measurements
 

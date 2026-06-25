@@ -93,7 +93,7 @@ The L308 chain (L308ab-L308ce) covers:
 
 **Testable predictions:**
 1. **w = -1 EXACTLY** (no evolution, tighter than ΛCDM) — testable by Euclid (2024+), Roman (2027+)
-2. **DE/DM ratio follows (1+z)⁻³ EXACTLY** — testable by BAO + growth rate f(z)σ_8
+2. **DE/DM ratio follows (1+z)⁻³ EXACTLY** — testable by BAO + growth rate f(z)$\sigma_{8}$
 3. **$M_{\rm Pl,2D} = 2.95$ TeV** — testable at HL-LHC as anomalous missing-energy threshold
 
 **Numerical values (A2):**
@@ -101,7 +101,7 @@ The L308 chain (L308ab-L308ce) covers:
 - $f_{\rm DE}$,closed = 1.79×10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
-- ρ_DE = 2.5×10⁻⁴⁷ GeV⁴ (matches observed)
+- $\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ GeV⁴ (matches observed)
 - f×ε invariant = 1.13×10⁻¹²³ (preserved across A1 and A2)
 - $H_0$ = 67.4 km/s/Mpc (Planck, inherited from ΛCDM)
 - r_s = 141.85 Mpc (1.88% off Planck 144.57)
@@ -110,8 +110,8 @@ The L308 chain (L308ab-L308ce) covers:
 - 1 MEASURED ($M_{\rm Pl,3D}$)
 - 3 FIRST-PRINCIPLES (α, $M_{\rm Pl,2D}$, μ)
 - 2 DERIVED ($M_{\rm Pl,4D}$ via α-GM, $E_{\rm 4D}$ via $N_{\rm sub}$ × $E_{\rm sub}$)
-- 4 CALIBRATED (ε, τ_4D, AGN rate, $f_{\rm leak,3D→4D}$ = $H_0$)
-- 4 STRUCTURAL ($E_{\rm sub}$, τ_3D,apparent, γ_4D, $N=12$)
+- 4 CALIBRATED (ε, $\tau_{4D}$, AGN rate, $f_{\rm leak,3D→4D}$ = $H_0$)
+- 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$)
 - 1 FREE ($N_{\rm sub} = 386)$### Citation
 
 ```bibtex

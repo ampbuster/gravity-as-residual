@@ -59,7 +59,7 @@ Specifically:
 
 **NFW parameters** (Milky Way):
 - $\rho_{\rm s}$ = 0.014 M_sun/pc³
-- $r_s$ = 16 kpc
+- rₛ = 16 kpc
 - $\rho_{\rm NFW}$(r=4.5 kpc) = 0.030 M_sun/pc³
 
 **NFW DM mass within 47 Tuc**:

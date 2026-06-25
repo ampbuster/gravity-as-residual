@@ -38,7 +38,7 @@ This is a **unification**: 2D universes from supernovae and our 3D universe are 
 
 ### 10.3 The 4D Planck mass has a floor: M_{Pl,4} ≥ 3.93×10²³ GeV
 
-For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × ($t_{Pl,3}$ / $t_{Pl,4}$) and the energy-scaling result T₃D = 2 × 10²⁶ yr:
+For our 3D universe to still be *alive* at 13.8 Gyr (its current internal age), its *internal* lifespan T₃D' must be ≥ 13.8 Gyr. Using SIDC's time-dilation identity T₃D' = T₃D × ( $t_{Pl,3}$ / $t_{Pl,4}$) and the energy-scaling result T₃D = 2 × 10²⁶ yr:
 
 $$\frac{t_{Pl,3}}{t_{Pl,4}} \geq \frac{13.8 \text{ Gyr}}{2\times 10^{26} \text{ yr}} = 7\times 10^{-17}$$
 
@@ -256,7 +256,7 @@ The SN and Core-collapse SN death signals are in LISA's band ( 10⁻⁴ to 1 Hz)
 
 **Quantitative $\Omega_{\rm GW}$ estimate (Phinney 2001 / Maggiore 2000):**
 
-For bursts of energy $E_{\rm GW}$ at rate $r_{\rm local}$ per $m^3$ per s, each at frequency $f_{\rm obs}$ with lifetime $\tau_{2D}$, the spectral density at $f_{\rm obs}$ (delta function with bandwidth Δf ~ 1/ $\tau_{2D}$) is:
+For bursts of energy $E_{\rm GW}$ at rate $r_{\rm local}$ per m³ per s, each at frequency $f_{\rm obs}$ with lifetime $\tau_{2D}$, the spectral density at $f_{\rm obs}$ (delta function with bandwidth Δf ~ 1/ $\tau_{2D}$) is:
 
 $$\Omega_{GW}(f_{obs}) = \frac{E_{GW} \times n_{rate} \times \tau_{2D}}{\rho_c}$$
 
@@ -340,7 +340,7 @@ This section quantifies whether SIDC's death GW background can be detected by LI
 - Frequency range: 10⁻⁴ to 1 Hz (best sensitivity at ~3 mHz)
 - Best strain sensitivity: h_c ∼ 4.5 × 10⁻²² at f ~ 4 mHz
 - Best Omega_GW noise: ∼ 2.8 × 10⁻¹² at f ~ 2.4 mHz
-- L_arm = 2.5 × 10⁹ m, laser noise $S_x$ = ( 1.5 × 10⁻¹¹)², accel noise Sₐ = ( 3 × 10⁻¹⁵)²
+- L_arm = 2.5 × 10⁹ m, laser noise Sₓ = ( 1.5 × 10⁻¹¹)², accel noise Sₐ = ( 3 × 10⁻¹⁵)²
 
 **Death GW background from SIDC (Phinney/Maggiore formula, narrowband model):**
 

@@ -5,7 +5,7 @@
 > are kept for historical context. See `paper/legacy/v3_legacy_dm_dynamics_hill_Fp.md`
 > for details on what was dropped.
 >
-> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific α_4D = 1.577). The f × ε = 1.13× $10^{-123}$ invariant is preserved.
+> **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → 6.32× 10⁻³⁴, $f_{\rm DE}$,closed = 1.79× 10⁻⁹⁰ (was $f_{\rm back}$ = 6.03× 10⁻⁸⁸ in A1, dim-specific $\alpha_{4D}$ = 1.577). The f × ε = 1.13× $10^{-123}$ invariant is preserved.
 
 <!-- 03a_relations.md - part of paper.md split (v3.1, renamed from 03_relations.md for sequential ordering) -->
 
@@ -141,7 +141,7 @@ Horava-Witten [HW96] is 11D M-theory compactified on S¹/ℤ₂ (orbifold), with
 
 **What HW gives SIDC:**
 - A *concrete string-theoretic realization* of SIDC's bulk-brane structure (10D HW brane + 6D CY → 4D effective brane, with 2D children as D1-branes)
-- A specific *candidate* for SIDC's 2D universes: D1-branes with tension $T_1$ = M_s / ( 2π $g_s$)
+- A specific *candidate* for SIDC's 2D universes: D1-branes with tension T₁ = M_s / ( 2π gₛ)
 - A *predictivity comparison*: HW has 10-100+ free parameters (CY moduli, fluxes, gauge bundle), SIDC has 1-2 ( α, $z_{\rm half}$). SIDC is *more predictive* than HW — the 16/17 test scorecard + 7/7 specific cases come from 1-2 free parameters, vs HW's 10-100+ parameters for the same data
 
 **What HW does NOT give SIDC:**
@@ -186,7 +186,7 @@ This is SIDC's status as of v2.7.30: a phenomenological model with 1-2 free para
 
 **3.8.6 Ryu-Takayanagi (2006) holographic entanglement entropy and the RT formula.**
 
-The RT formula [Ryu06] is the central tool of holographic entanglement entropy in AdS/CFT: $S_A$ = Area( $\gamma_{\rm A}$) / (4 G_N), where $\gamma_{\rm A}$ is the minimal surface in the bulk that is homologous to the boundary region A. This formula has been proven in many contexts (Casini-Huerta-Myers 2011) and is the basis for the AdS/CFT connection between bulk geometry and boundary entanglement.
+The RT formula [Ryu06] is the central tool of holographic entanglement entropy in AdS/CFT: S_A = Area( $\gamma_{\rm A}$) / (4 G_N), where $\gamma_{\rm A}$ is the minimal surface in the bulk that is homologous to the boundary region A. This formula has been proven in many contexts (Casini-Huerta-Myers 2011) and is the basis for the AdS/CFT connection between bulk geometry and boundary entanglement.
 
 **What RT gives SIDC:**
 - A *concrete* information-theoretic interpretation of SIDC DM as missing bulk entanglement entropy: 2D universe = bulk region with area A_2D = 4π(c $\tau_{2D}$)², and SIDC's 3+1D back-projection of 2D universe gravity is structurally identical to the RT formula's area-entropy relation
@@ -212,7 +212,7 @@ This is an enormous entanglement entropy. The 2D universe is "small" in its intr
 
 **3.8.7 Kaluza-Klein (1921) 5D unification: SIDC as a generalization.**
 
-Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity and electromagnetism. The key result: starting from 5D Einstein-Hilbert action and compactifying one extra dimension on $S^1$ of radius R, the 5D metric decomposes into:
+Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity and electromagnetism. The key result: starting from 5D Einstein-Hilbert action and compactifying one extra dimension on S¹ of radius R, the 5D metric decomposes into:
 - $g_{\mu\nu}$ (4D graviton)
 - A_ μ = G_ μ 4 (4D EM vector potential, from off-diagonal metric)
 - φ = G_44 (4D dilaton scalar)
@@ -220,7 +220,7 @@ Kaluza (1921) and Klein (1926) proposed the original 5D unification of gravity a
 5D Einstein equations → 4D Einstein + 4D Maxwell + 4D dilaton dynamics. This was a remarkable result: 5D gravity naturally contains 4D EM.
 
 **SIDC as a generalization of KK.** SIDC's 4D event → 3+1D projection is a *generalization* of KK's 5D → 4D, with different assumptions:
-- KK's extra dim is COMPACT ($S^1$ of radius R)
+- KK's extra dim is COMPACT ( S¹ of radius R)
 - SIDC's 4D event is SPATIALLY EXTENDED (per §2.4, extent ∼ 10³⁶ m from §3.8.2 Padmanabhan estimate)
 - KK derives EM from geometry (the off-diagonal metric = EM potential)
 - SIDC does NOT derive the SM from geometry (the SM is taken as given)
@@ -280,7 +280,7 @@ User reference (v3.0.22): Kusuki 2024 (arXiv:2412.18307) "Modern Approach to 2D 
 5. **AdS_3/CFT_2**:
    - SIDC's 5D AdS_5 bulk
    - 4D brane with 2D universes embedded
-   - Local 2D universe geometry: AdS_3 × $S^s$ omething
+   - Local 2D universe geometry: AdS_3 × Sˢ omething
    - 2D CFT on the boundary of AdS_3
    - This is the natural holographic setting for the 2D universe
 
@@ -324,11 +324,11 @@ The DGP model is a 5D Minkowski bulk with a 4D brane, gravity localized by a bra
 
 $$H^2 - \epsilon \frac{H}{r_c} = \frac{8\pi G}{3} \rho + \frac{\Lambda_4}{3}$$
 
-where $r_c$ = G₅/G₄ is the crossover scale. For the **self-accelerating branch** ( ε = -1, the *negative* sign):
+where r_c = G₅/G₄ is the crossover scale. For the **self-accelerating branch** ( ε = -1, the *negative* sign):
 
 $$H^2 + \frac{H}{r_c} = \frac{8\pi G}{3} \rho$$
 
-At low ρ, this gives H → 1/$r_c$ — a **constant Hubble rate** (effective DE) **without a cosmological constant**. The DE comes entirely from dimensional projection (5D gravity leaking into 4D).
+At low ρ, this gives H → 1/ r_c — a **constant Hubble rate** (effective DE) **without a cosmological constant**. The DE comes entirely from dimensional projection (5D gravity leaking into 4D).
 
 **This is exactly SIDC's inversion**: dimensional projection gives effective DE. The 4D brane perceives 5D gravity's contribution as a *repulsive* constant, even though 5D gravity is attractive in the bulk.
 

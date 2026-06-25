@@ -61,8 +61,8 @@ This repository contains a thought experiment in theoretical physics: a single g
 | Observation | What SIDC says | Other models |
 |---|---|---|
 | **Gravity weakness** (ε ~ 10⁻³⁸) | Brane gravity − inverted bulk gravity | Hierarchy problem unsolved |
-| **Dark energy** (ρ_DE/ρ_Pl ~ 10⁻¹²³) | Un-cancelled fraction of bulk antigravity | Cosmological-constant fine-tuning |
-| **Dark matter** (Ω_c ~ 0.27) | Cumulative 2D universe deaths | New particle required |
+| **Dark energy** ($\rho_{\rm DE}/\rho_{\rm Pl}$ ~ 10⁻¹²³) | Un-cancelled fraction of bulk antigravity | Cosmological-constant fine-tuning |
+| **Dark matter** ($\Omega_{\rm c}$ ~ 0.27) | Cumulative 2D universe deaths | New particle required |
 
 ΛCDM solves all three with separate fixes (WIMP/axion/sterile ν + cosmological constant + inflation). SIDC solves all three with one geometric process. **No dark matter particle. No fine-tuned cosmological constant.**
 
@@ -121,7 +121,7 @@ $$\boxed{\tau_{2D,\,\text{our frame}} = t_{\rm Pl,3} \times \left(\frac{E_{\rm 3
 
 $$f_{\rm DE} = \left(\frac{t_{\rm Pl,3}}{\tau_{\rm 4D}}\right) \times \left(\frac{\tau_{\rm SN,obs}}{\tau_{\rm universe}}\right) \times \left(\frac{E_{\rm 4D}}{E_{\rm SN}}\right)^{1/(2\alpha)}$$
 
-Evaluates to **$f_{\rm DE}$,closed = 1.79×10⁻⁹⁰** (A2, α_4D = 1.577). Dark energy density matches observation within **0.13%** of 2.5×10⁻⁴⁷ GeV⁴. The f×ε invariant = 1.13×10⁻¹²³ is preserved across both A1 and A2 formulations.
+Evaluates to **$f_{\rm DE}$,closed = 1.79×10⁻⁹⁰** (A2, $\alpha_{4D}$ = 1.577). Dark energy density matches observation within **0.13%** of 2.5×10⁻⁴⁷ GeV⁴. The f×ε invariant = 1.13×10⁻¹²³ is preserved across both A1 and A2 formulations.
 
 ### 7. First-principles structure: Clifford algebras + Bott periodicity
 
@@ -159,11 +159,11 @@ Level    N    Clifford Structure                  First-principles
 | Status | Count | Parameters |
 |---|:---:|---|
 | 1 MEASURED | 1 | $M_{\rm Pl,3D}$ (Newton's G) |
-| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$ v_H (L308r), μ = $M_{\rm Pl}$,2D² (L308r) |
+| 3 FIRST-PRINCIPLES | 3 | α = 1+1/√12 (L308n), $M_{\rm Pl,2D} = 12×$ $v_H$ (L308r), μ = $M_{\rm Pl}$,2D² (L308r) |
 | 2 DERIVED | 2 | $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) (α-GM, L308v), $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (L308o) |
-| 4 CALIBRATED | 4 | ε, τ_4D, AGN rate, **$f_{\rm leak,3D→4D}$ = H₀** (A1 frame-neutral) |
-| 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), τ_3D,apparent, γ_4D, $N=12$ |
-| 1 FREE | 1 | $N_{\rm sub} = 386 (e$ vent-specific) |
+| 4 CALIBRATED | 4 | ε, $\tau_{4D}$, AGN rate, **$f_{\rm leak,3D→4D}$ = H₀** (A1 frame-neutral) |
+| 4 STRUCTURAL | 4 | $E_{\rm sub}$ (per-sub-universe energy), $\tau_{3D,apparent}$, $\gamma_{4D}$, $N=12$ |
+| 1 FREE | 1 | $N_{\rm sub} = 386$ (event-specific) |
 
 **Of 15 parameters: 1 measured, 3 first-principles, 2 derived, 4 calibrated — only 1 truly free.** The "dark sector" doesn't require any new particle masses, cross-sections, or cosmological-constant fine-tuning.
 
@@ -173,9 +173,9 @@ Level    N    Clifford Structure                  First-principles
 
 α = 1 + 1/√$N_D$ with $N_D$ = 12/2^(D-2) gives:
 
-- α_2D = 1 + 1/√12 = **1.289** (Schwarzian + $N=12$ SM count)
-- α_3+1D = 1 + 1/√6 = **1.408** (Schwarzian + $N=6$ C(6) SM algebra)
-- α_4D = 1 + 1/√3 = **1.577** (Schwarzian + $N=3$ generations)
+- $\alpha_{2D}$ = 1 + 1/√12 = **1.289** (Schwarzian + $N=12$ SM count)
+- $\alpha_{3}+1D$ = 1 + 1/√6 = **1.408** (Schwarzian + $N=6$ C(6) SM algebra)
+- $\alpha_{4D}$ = 1 + 1/√3 = **1.577** (Schwarzian + $N=3$ generations)
 
 **Option B Strengthened** is the framework's official interpretation (L308bi): all three N values are first-principles derived, so α dim-specific is no longer just "structurally rich" — it's first-principles for every dim.
 
@@ -184,7 +184,7 @@ Level    N    Clifford Structure                  First-principles
 - $f_{\rm DE}$,closed = 1.79×10⁻⁹⁰
 - $\gamma_{\rm 4D} = 1.10×10¹¹¹$
 - $\tau_{\rm 3D,apparent} = 1.66×10¹⁴⁵$ yr
-- ρ_DE = 2.5×10⁻⁴⁷ GeV⁴ (EXACT)
+- $\rho_{\rm DE}$ = 2.5×10⁻⁴⁷ GeV⁴ (EXACT)
 
 The switch from A1 to A2 is interpretive (justification), not numerical (re-calibration).
 
@@ -234,9 +234,9 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 - **Local physics is strong**: RAR matches SPARC to 10% median residual; AGN host DM strongly supported at p < 10⁻⁵⁰ partial correlation; g₊ approximately constant across 4.5 decades in $M_b$ (r=+0.19, p=0.22).
 - **Parsimony**: 1 geometric process vs ΛCDM's 20+ free parameters. **No DM particle. No cosmological constant.**
 - **First-principles structure**: All components of the cascade now derive from SM count, Clifford algebras (Cℓ(6) is isomorphic to the SM algebra, Stoica 2018), and Bott periodicity. The cascade **structure** is end-to-end first-principles (L308ba-L308bk chain); the **quantitative values** (ε, $f_{\rm DE}$, $f_{\rm leak}$) are calibrated to observation.
-- **Empirical match**: ρ_DE within 0.13% of observation; scaling law holds over 54 orders of magnitude; 16/17 test categories consistent (1 confounded).
+- **Empirical match**: $\rho_{\rm DE}$ within 0.13% of observation; scaling law holds over 54 orders of magnitude; 16/17 test categories consistent (1 confounded).
 - **Time direction**: The cone is asymmetric in time direction (L308x). $\gamma_{\rm 4D} = 1.10×10¹¹¹$ and $\gamma_{\rm 2D} = 5.5×10⁴⁴$ are both cascade amplification factors (not SR time dilation — they are dimensionless frame-dilation exponents relating energy scale to clock rate, see L308bs/L308bw).
-- **CMB-era consistency**: L308ab shows $f_{\rm leak}$ = H(z) drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 Ω_c = 0.265.
+- **CMB-era consistency**: L308ab shows $f_{\rm leak}$ = H(z) drains 32 orders of magnitude of overproduced DM by z=1100, matching Planck 2018 $\Omega_{\rm c}$ = 0.265.
 - **$N_{\rm sub}$ derived**: L308ad gives $N_{\rm sub}$ ≈ N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ = 382 ± 6, matching framework's 386 within 1.6%.
 
 ### Weaknesses
@@ -260,7 +260,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 4. **DM fraction in quiescent galaxies should be LOWER** than in identical-mass active galaxies (phase-transition test).
 5. **AGC 114905 has no high-energy events above 10³⁰ J** in its recent history (testable with deep X-ray/radio).
 6. **47 Tucanae (NGC 104)**: $M_{\rm dyn}$ ≈ $M_{\rm stars}$ (no local DM spike). Falsifiable by Rubin/LSST DP1 (2025), DR1 (2027), Y10 (2034).
-7. **CMB at z=1100: Ω_c = 0.265** — confirmed by Planck 2018.
+7. **CMB at z=1100: $\Omega_{\rm c}$ = 0.265** — confirmed by Planck 2018.
 8. **$N_{\rm sub}$ ≈ 386** for our universe — L308ad: $N_{\rm sub}$ = N₁₂ × $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1/3}$ = 382 ± 6.
 
 ---
@@ -317,7 +317,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ## ⚠️ What this paper is NOT
 
 - **Not a finished theory**. It is a **thought experiment**.
-- **Not a derivation from first principles** (in the strict sense). The cascade **structure** (12, 6, 3 brane levels, Bott periodicity halving rule, Cℓ(6) SM algebra isomorphism) is end-to-end first-principles (L308ba-L308bk). The **quantitative values** (ε, $f_{\rm DE}$, $f_{\rm leak}$, τ_4D, AGN rate) are still calibrated to observation, not derived. The framework is a *structural* first-principles theory, not a *quantitative* one.
+- **Not a derivation from first principles** (in the strict sense). The cascade **structure** (12, 6, 3 brane levels, Bott periodicity halving rule, Cℓ(6) SM algebra isomorphism) is end-to-end first-principles (L308ba-L308bk). The **quantitative values** (ε, $f_{\rm DE}$, $f_{\rm leak}$, $\tau_{4D}$, AGN rate) are still calibrated to observation, not derived. The framework is a *structural* first-principles theory, not a *quantitative* one.
 - **Not predictively unique**. SIDC has 0 unique testable predictions beyond ΛCDM and MOND. Its value is *interpretive* and *parsimonious*.
 - **Not written by a physicist**. By a software developer with AI assistance.
 

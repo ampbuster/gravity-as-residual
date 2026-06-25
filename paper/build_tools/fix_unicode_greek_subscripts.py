@@ -50,11 +50,18 @@ GREEK_TO_LATEX = {
 # Combined regex: match a Greek letter + optional subscripts (one or more)
 # Subscript: underscore followed by alphanumeric/word chars, or comma-separated
 # Greek letter: from the map
+# Subscript can be:
+#   - Letter first: _DE, _D, _c, _sub, _Pl
+#   - Digit first: _2D, _4D, _3+1D (alpha_2D, alpha_4D, alpha_3+1D etc.)
+#   - Mixed: _D2, _2Dx
 GREEK_RE = '|'.join(re.escape(g) for g in sorted(GREEK_TO_LATEX.keys(), key=len, reverse=True))
+# Subscript pattern: underscore + alpha or digit-prefixed word
+# Allows: _DE, _2D, _3+1D, _4D, _D2, _Pl,3D, _2D,peak, _2D,2D
+SUBSCRIPT_RE = r'_([A-Za-z0-9]+(?:\+[0-9]+[A-Za-z]*)?(?:[,.][A-Za-z0-9]+)*)'
 GREEK_SUBSCRIPT_PATTERN = re.compile(
     r'(?<![\\$`])('
     + GREEK_RE
-    + r')(?:_([A-Za-z]+(?:[0-9]+)?)(?:,([A-Za-z0-9]+))?)+'
+    + r')(?:' + SUBSCRIPT_RE + r')+'
 )
 
 

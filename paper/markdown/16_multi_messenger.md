@@ -109,7 +109,7 @@ SIDC is **consistent** with UHECR observations but makes **no specific predictio
 
 SIDC predicts small excess heating at z > 20 from 2D universe deaths, on top of the standard ΛCDM 21cm signal.
 
-**Order of magnitude**: Δ $T_b$ ∼ 1-10 mK at z ∼ 20 (compared to ΛCDM's ∼ 10 mK signal at z ∼ 17).
+**Order of magnitude**: Δ T_b ∼ 1-10 mK at z ∼ 20 (compared to ΛCDM's ∼ 10 mK signal at z ∼ 17).
 
 **Detection**: SKA-MPG 2030s has ∼ 1 mK sensitivity.
 
@@ -150,7 +150,7 @@ Given that SIDC's standard multi-messenger signals are SECONDARY and small, the 
 | Diffuse ν | ∼ 10¹⁸ /cm²/s (if 0.001% coupling) | 10 /cm²/s (Super-K) | Need 18 orders less coupling |
 | Diffuse γ | ∼ 10¹⁹ /cm²/s (if 0.001% coupling) | 10⁻⁵ /cm²/s (Fermi) | Need 24 orders less coupling |
 | UHECR | Consistent | 10⁻²⁰ /m²/s | No prediction |
-| 21cm | Δ $T_b$ ∼ 1-10 mK | ∼ 1 mK (SKA 2030s) | Within reach |
+| 21cm | Δ T_b ∼ 1-10 mK | ∼ 1 mK (SKA 2030s) | Within reach |
 
 **The geometric nature of SIDC's 2D universe events means standard multi-messenger signals are naturally tiny.** The framework's discriminating power comes from:
 

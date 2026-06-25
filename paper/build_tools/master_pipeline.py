@@ -430,6 +430,28 @@ def step_replace_unicode_fallback(dry_run=False):
     return True
 
 
+def step_fix_greek_value_patterns(dry_run=False):
+    """Wrap standalone Greek=value patterns in $...$ math.
+
+    Problem: Plain text like `ε = 6.32×10⁻³⁴` or `ρ_DE = 2.5×10⁻⁴⁷ GeV⁴`
+    is not in math mode. The Greek letter and value with Unicode superscript
+    don't render correctly in plain text.
+
+    Examples:
+      `ε = 6.32×10⁻³⁴`           → `$\\epsilon = 6.32 \\times 10^{-34}$`
+      `ρ_DE = 2.5×10⁻⁴⁷ GeV⁴`   → `$\\rho_{\\rm DE} = 2.5 \\times 10^{-47} \\text{ GeV}^4$`
+
+    Skips: code blocks, inline code, existing math mode, partial values
+    (e.g. `α = 1 + 1/√N` where 1 is incomplete).
+    """
+    print('\n=== Step 11: fix_greek_value_patterns ===')
+    if dry_run:
+        run_script('fix_greek_value_patterns.py --all', capture=False)
+    else:
+        run_script('fix_greek_value_patterns.py --all', capture=False)
+    return True
+
+
 STEPS = [
     'fix_broken_wraps',
     'fix_unbalanced_dollars',
@@ -444,6 +466,7 @@ STEPS = [
     'fix_letter_caret',  # NEW: wrap X^N or X^Y in $...$
     'fix_physics_subscripts',  # NEW: wrap H_0, M_*, sigma_int, etc.
     'replace_unicode_fallback',  # NEW: replace Unicode chars missing from DejaVu Serif
+    'fix_greek_value_patterns',  # NEW: wrap Greek=value with Unicode superscript in $...$
     'build_pdf',
     'audit',
 ]
@@ -471,6 +494,7 @@ def main():
         'fix_letter_caret': step_fix_letter_caret,
         'fix_physics_subscripts': step_fix_physics_subscripts,
         'replace_unicode_fallback': step_replace_unicode_fallback,
+        'fix_greek_value_patterns': step_fix_greek_value_patterns,
         'build_pdf': step_build_pdf,
         'audit': step_audit,
     }
