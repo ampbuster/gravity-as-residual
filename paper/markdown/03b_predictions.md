@@ -215,10 +215,10 @@ The democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) gives s
 
 **3.23.1 Prediction 1: 2D universe death rate ∝ R(E) / $\gamma_{2D}$.**
 
-The democratic cosmology says all 2D universes have the same M^α-observed lifetime (in 3+1D frame). The M^α law gives the 3+1D-observed lifetime as $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D}$ = 33s for SN.
+The democratic cosmology says all 2D universes have the same M^α-observed lifetime (in 3+1D frame). The M^α law gives the 3+1D-observed lifetime as $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D} = 33\,s$ for SN.
 
 **Frame of reference (L308x v3, asymmetric cone in time direction)**:
-- **3+1D-observed lifetime** (what we measure in 3+1D): $\tau_{2D,3+1D}$ = 33s for SN
+- **3+1D-observed lifetime** (what we measure in 3+1D): $\tau_{2D,3+1D} = 33\,s$ for SN
 - **2D proper lifetime** (in 2D's own frame): $\tau_{2D,proper}$ = $\gamma_{2D}$ × 33s = $5.5 \times 10^{44}$× 33s = **$5.7 \times 10^{38}\,\text{yr}$** for SN (MUCH LONGER)
 - The 2D universe "lives" for $5.7 \times 10^{38}\,\text{yr}$ in its own frame, but we observe it for 33s in 3+1D frame
 - $\gamma_{2D}$ stretches time in 2D's own frame (opposite direction from 4D level)

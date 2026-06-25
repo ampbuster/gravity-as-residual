@@ -491,7 +491,7 @@ $$E_{\rm sub} = \frac{E_{\rm 4D}}{N_{\rm sub}}$$
 
 **Status of α as universal exponent (v3.1.2, REVISED)**: In the multi-universe picture, α is the universal exponent for cascade lifetimes:
 
-- 2D universe lifetime: $\tau_{\rm 2D}$ = ( $E_{\rm event}$/ $M_{\rm Pl,3D}$) $^{\alpha}$ × $t_{\rm Pl}$ = 33 s for SN ✓
+- 2D universe lifetime: $\tau_{\rm 2D}$ = ( $E_{\rm event}$/ $M_{\rm Pl,3D}$) $^{\alpha}$ × $t_{\rm Pl} = 33\,s$ for SN ✓
 - 3+1D sub-universe lifetime: $\tau_{\rm sub}$ = ( $E_{\rm sub}$/ $M_{\rm Pl,4D}$) $^{\alpha}$ × $t_{\rm Pl}$ — UNKNOWN (depends on $E_{\rm sub}$ = $E_{\rm 4D}$/ $N_{\rm sub}$)
 - 3+1D universe CURRENT AGE: 13.8 Gyr (observed directly, the only firm value)
 - $f_{\rm DE}$ derived from closed-loop formula: $1.2 \times 10^{-85}$/s (matches DE within 1.7%, doesn't depend on $N_{\rm sub}$)

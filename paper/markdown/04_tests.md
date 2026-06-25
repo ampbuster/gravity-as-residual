@@ -181,7 +181,7 @@ The V1 status (commit 121) was that $f_{\rm active}$ was constrained to 0.05-0.1
 
 **The derivation:**
 
-For a 4D event with approximately constant output R(t) over the universe's lifetime $T_{\rm universe}$ = 13.8 Gyr, and a 2D universe lifetime $\tau_{\rm 2D}$:
+For a 4D event with approximately constant output R(t) over the universe's lifetime $T_{\rm universe} = 13.8\,Gyr$, and a 2D universe lifetime $\tau_{\rm 2D}$:
 
 $$f_{active} = \frac{N_{active}}{N_{cumulative}} = \frac{R \cdot \tau_{2D}}{R \cdot T_{universe}} = \frac{\tau_{2D}}{T_{universe}}$$
 
@@ -1411,7 +1411,7 @@ These values differ by 6×, suggesting a real inconsistency.
 SIDC has been using the symbol `$f_{\rm active}$` for two DIFFERENT physical quantities:
 
 1. **`$f_{\rm active}$,stellar` (CURRENT active fraction, value 0.05):**
-   = $\tau_{\rm 2D}$ / $T_{\rm universe}$ = 0.7 Gyr / 13.8 Gyr = 0.051
+   = $\tau_{\rm 2D}$ / $T_{\rm universe} = 0.7\,Gyr$ / 13.8 Gyr = 0.051
    = MCMC posterior value: 0.0513 ± 0.0073
    = gas consumption timescale
    = fraction of CURRENT DM that is from currently-alive 2D universes

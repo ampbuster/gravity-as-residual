@@ -21,7 +21,7 @@ Apparent "0 occurrences" were due to notation differences.
 | $E_{\rm 4D}$ = $5 \times 10^{79}\,\text{J}$ | 25 | 21 | ✓ CONSISTENT |
 | $N_{\rm sub} = 3$.$86 \times 10^{2}$| 62 | 67 | ✓ CONSISTENT |
 | AGN rate = $3 \times 10^{-16}$| 16 | 3 | ✓ CONSISTENT |
-| $\tau_{\rm SN}$ = 33 s | 388 | (varies) | ✓ CONSISTENT |
+| $\tau_{\rm SN} = 33\,s$ | 388 | (varies) | ✓ CONSISTENT |
 | 5/27/68 split | 419 | (varies) | ✓ CONSISTENT |
 | 0.13% DE (simple $f_{\rm DE}$) / 2.7% (bilateral) | 20 | (varies) | ✓ CONSISTENT |
 | ε = 10⁻³⁸ | 40 | (varies) | ✓ CONSISTENT |
@@ -87,7 +87,7 @@ All key files exist and are healthy.
 ### Strengths
 - 5/27/68 split: 419 occurrences in 41 files — extremely consistent
 - α = 1.289: 473 occurrences in 22 files — extremely consistent
-- $\tau_{\rm SN}$ = 33 s: 388 occurrences — extremely consistent
+- $\tau_{\rm SN} = 33\,s$: 388 occurrences — extremely consistent
 - $M_{\rm Pl,2D} = 2.95\,\text{TeV}$: 195 occurrences — extremely consistent
 
 ## Recommendation
