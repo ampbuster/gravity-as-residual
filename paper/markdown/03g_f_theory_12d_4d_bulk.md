@@ -134,7 +134,7 @@ Even with F-theory 12D, the framework has:
 - **L284** (v3.4.5 NEW): α = 1 + 1/√N is NOT a standard SYK formula
 - **L285** (v3.4.5 NEW): "12 SM fermions/gen" is FALSE (it's 15-16 Weyl)
 - **L286** (v3.4.5 NEW): h^{2,1}=N→N generations is REFUTED
-- **L287** (v3.4.5 NEW): Z_12 fundamental group DOES exist in CY3 (verified)
+- **L287** (v3.4.5 NEW): $Z_{12}$ fundamental group DOES exist in CY3 (verified)
 - **L288** (v3.4.6 NEW): SM has 12 gauge bosons, not 12 fermions/gen
 - **L289** (v3.4.6 NEW): SM has 12 fermion FLAVORS (across 3 generations)
 - **L290** (v3.4.6 NEW): DOF conservation at 24 was framework's interpretation, NOT a law

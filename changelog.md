@@ -1,4 +1,4 @@
-### L308dr/ds/dt (2026-06-25) — α_2D/4D wrapping + f_DE,closed fixes (1233 notation fixes)
+### L308dr/ds/dt (2026-06-25) — $\alpha_{\rm 2D}$/4D wrapping + f_DE,closed fixes (1233 notation fixes)
 
 User reported "still plenty of either broken math notation or not in math notation" in the rendered PDF, especially in README.md parameter hierarchy section.
 
@@ -15,7 +15,7 @@ User reported "still plenty of either broken math notation or not in math notati
 
 **Fixes applied**:
 
-L308dr — 612 notation fixes (α_2D/4D, ε=value, e vent-specific):
+L308dr — 612 notation fixes ($\alpha_{\rm 2D}$/4D, ε=value, e vent-specific):
 - README.md L166 source bug: `$N_{\rm sub} = 386 (e$ vent-specific)` → `$N_{\rm sub} = 386$ (event-specific)`
 - Updated `fix_unicode_greek_subscripts.py` regex to handle digit-first subscripts (α_2D, α_4D, α_3+1D)
 - NEW build tool `fix_greek_value_patterns.py`: wraps standalone Greek=value patterns in `$...$` math
@@ -71,7 +71,7 @@ L308dt — 155 broken math patterns:
 
 1. **Mathematical audit** found three inconsistencies in v3.3+ formulas ($\gamma_{\rm 4D}$ formula, $\tau_{\rm 3D,apparent}$ units, M^α at 4D level)
 2. **L26 FULL CLOSURE** (L308t): framework values UPDATED to consistent derivation
-3. **WHY N=12?** (L308u, BREAKTHROUGH): Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
+3. **WHY N=12?** (L308u, BREAKTHROUGH): Appelquist 2001 + $Z_{12}$ bulk + 6D anomaly cancellation
 4. **L138 PARTIAL CLOSURE** (L308v): $M_{\rm Pl,4D}$ via α-GM closed loop
 5. **APPROACH A1** (HISTORICAL June 21, superseded by A2 June 22, §7.4.20): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
    - $\gamma_{\rm 4D}$ stays DERIVED = $1.10 \times 10^{111}$(A2) (literal time dilation, REINSTATED)
@@ -176,7 +176,7 @@ m leak,2D}$→3D (natural) = $1.6 \times 10^{-45}$(88 orders below death pulse)
 - Sweep 21: New legacy file `v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
 - Sweep 24-30: A2 value updates (ε=6.32e-34, $f_{
 m DE,simple}$/closed)
-- Sweep 59-77: Cross-doc numerical verification (H₀, r_s, CMB peaks)
+- Sweep 59-77: Cross-doc numerical verification (H₀, $r_s$, CMB peaks)
 - Sweep 78-80: L308 list in exec summary completed
 - Sweep 81-98: Final verification (no active v3.5.9+ A1 refs)
 - 8+ commits this session, all pushed
@@ -4681,7 +4681,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 - AGN rate = $3 \times 10^{-16}$/m³/s → **10^{-15.52}/s** (CALIBRATED)
 - $f_{\rm leak}$ = (added A1) → **H₀ = $2.18 \times 10^{-18}$/s** (CALIBRATED)
 - μ = (added L308r) → **$8.73 \times 10^{6}\,\text{GeV}$²** (FIRST-PRINCIPLES, was $9 \times 10^{6}$)
-- N = 12 = (added L308u) → **FIRST-PRINCIPLES** via Appelquist 2001 + Z_12 + 6D anomaly
+- N = 12 = (added L308u) → **FIRST-PRINCIPLES** via Appelquist 2001 + $Z_{12}$ + 6D anomaly
 
 **v3.3 RESULTS**:
 - DE matches obs within 8.4% (NOT 0.24% — that was a v3.3 miscalculation; framework's calibration precision, see §3.67b)
@@ -4728,7 +4728,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 2. α = 1 + 1/√N is NOT a standard SYK formula (phenomenological)
 3. "12 SM fermions/gen" is FALSE (15-16 Weyl or 7-8 Dirac per gen)
 4. "h^{2,1}=N → N generations" REFUTED (arXiv:0910.5464 has h^{2,1}=4 + 3 gen)
-5. Z_12 fundamental group DOES exist in CY3 quotients (verified)
+5. $Z_{12}$ fundamental group DOES exist in CY3 quotients (verified)
 6. SM has 12 gauge bosons (real match), NOT 12 fermions/gen
 7. SM has 12 fermion FLAVORS across all 3 gens (NOT per gen)
 8. DOF conservation at 24 was framework's interpretation, NOT a law
@@ -4751,7 +4751,7 @@ KEY INSIGHT: The `\dimexpr` syntax is more flexible (can account for
 **Reason for major version bump:** Five research rounds (v3.5-v3.5.7) established μ has 5+ structural origins. Naming revolution: $f_{\rm back}$ → $f_{\rm DM,leak}$ / $f_{\rm DM,death}$ / $f_{\rm DE}$. 116 honest limitations (was 81 in v3.3).
 
 **KEY RESEARCH ROUNDS**:
-- **v3.5 TIER 2**: CY3 Z_12 (2-3 of ~28 have explicit Z_12), α = 1 + 1/√N interpretation, μ F-theory (10³⁴× off, doesn't directly give μ)
+- **v3.5 TIER 2**: CY3 $Z_{12}$ (2-3 of ~28 have explicit $Z_{12}$), α = 1 + 1/√N interpretation, μ F-theory (10³⁴× off, doesn't directly give μ)
 - **v3.5.1**: "1/2" has 3+ anchors (Schwarzian, DOZZ, Ising, L308)
 - **v3.5.2-v3.5.3**: 5 structural candidates for "2×" factor in μ, 45 alternative formulas
 - **v3.5.4**: 10 candidates for why $T_H$ = $T_{\rm Pl,2D}$ — TOP 3: Planckian max, Euclidean periodicity, Hagedorn

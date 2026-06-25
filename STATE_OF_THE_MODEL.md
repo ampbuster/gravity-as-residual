@@ -28,7 +28,7 @@ m DE,closed}$, ε recalibrated
 - **198 honest limitations** (144 master + 54 L308ab-bx, +L308ch multi-messenger, +L308ci 47 Tuc test, +L308cj Lagrangian gap), **606+ pages**, paper built successfully
 
 **v3.5.9+ previous breakthroughs** (still relevant):
-- **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, μ = $8.73 \times 10^{6}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub} = 3.86 \times 10^{2}$- **L308u**: WHY $N=12$? Appelquist 2001 + Z_12 bulk + 6D anomaly cancellation
+- **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, μ = $8.73 \times 10^{6}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub} = 3.86 \times 10^{2}$- **L308u**: WHY $N=12$? Appelquist 2001 + $Z_{12}$ bulk + 6D anomaly cancellation
 - **L308v**: L138 PARTIAL CLOSURE. $M_{\rm Pl,4D}$ via α-GM closed loop with first-principles inputs
 - **Path B2 (REJECTED)**: $\gamma_{\rm 4D}$ decoupling had structural inconsistency ($\gamma_{\rm 4D}$ vs $\gamma_{\rm 2D}$ interpretations)
 - **L308n**: $\alpha = 1 + 1/\sqrt{12}$ first-principles via Schwarzian SYK $N=12$
@@ -124,7 +124,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 | Version | Finding |
 |---|---|
-| v3.5 | **TIER 2 research**: CY3 Z_12 (2-3 of ~28), α first-principles, μ F-theory |
+| v3.5 | **TIER 2 research**: CY3 $Z_{12}$ (2-3 of ~28), α first-principles, μ F-theory |
 | v3.5.1 | "1/2" has 3+ anchors (Schwarzian, DOZZ, Ising) |
 | v3.5.2-3 | 45 alternative formulas for μ, 12 exact matches (all algebraically equivalent) |
 | v3.5.4 | 10 candidates for why $T_H$ = $T_{\rm Pl,2D}$ — TOP 3: Planckian max, Euclidean periodicity, Hagedorn |
@@ -160,7 +160,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 **v3.5.8+ REVISIONS (L308r, L308n, L308u)**:
 - ✓ α = 1.289 = 1 + 1/√12 → **FIRST-PRINCIPPLES** (Schwarzian SYK N=12, L308n)
 - ✓ μ = 8.73 \times 10^{6}\,\text{GeV}^2 → **FIRST-PRINCIPPLES** (μ = (N × v_H)² = $M_{\rm Pl,2D}$², L308r)
-- ✓ N = 12 → **FIRST-PRINCIPPLES** (Appelquist 2001 + Z_12 + 6D anomaly, L308u)
+- ✓ N = 12 → **FIRST-PRINCIPPLES** (Appelquist 2001 + $Z_{12}$ + 6D anomaly, L308u)
 
 **CURRENT (v3.5.9+ A2) 4 CALIBRATED**:
 - ⚠ ε = 6.32 \times 10^{-34}(A2, was 10⁻³⁸ in A1, +4.8 orders; calibrated to hierarchy)
@@ -182,7 +182,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 - ✓ α = 1.289 = 1 + 1/√12 (Schwarzian SYK N=12 saddle-point, L308n)
 - ✓ $M_{\rm Pl,2D}$ = 12 × $v_{\rm Higgs}$ = 2.95 TeV (L308r)
 - ✓ μ = $M_{\rm Pl,2D}$² = 8.73 \times 10^{6}\,\text{GeV}^2 (L308r)
-- ✓ N = 12 (Appelquist 2001 + Z_12 + 6D anomaly cancellation, L308u)
+- ✓ N = 12 (Appelquist 2001 + $Z_{12}$ + 6D anomaly cancellation, L308u)
 
 **DERIVED (via formulas)**:
 - ✓ $M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{(1-\alpha)} = 3.93 \times 10^{23}\,\text{GeV}$ (L308v, α-GM closed loop)
@@ -254,7 +254,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 **Calculations** (~80 files total):
 - v3.3: 33 files (brute force, FZZT, alternative methods, c=1 matrix model, etc.)
 - v3.4: 6 files (F-theory 12D, "12" pattern analysis)
-- v3.5: 8 files (CY3 Z_12, μ F-theory, holographic angles)
+- v3.5: 8 files (CY3 $Z_{12}$, μ F-theory, holographic angles)
 - v3.5.7: 3 files (audit, naming)
 - Plus 30+ constraint calculations, SPARC analysis, etc.
 - Legacy: 5 v3.1.1-v3.1.2 superseded scripts in `calculations/legacy/`

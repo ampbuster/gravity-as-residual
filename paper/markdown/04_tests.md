@@ -555,7 +555,7 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 - Peaks shift to LOWER l (217 vs 220)
 - This CONTRADICTS Planck
 
-**Adding extra $N_{\rm eff}$ makes it worse**, not better: dark radiation INCREASES H(z) at high z, which DECREASES rₛ, which DECREASES θ_*, which moves peaks to HIGHER l. SIDC's "+1 neutrino from 5D Weyl" overshoots in the other direction.
+**Adding extra $N_{\rm eff}$ makes it worse**, not better: dark radiation INCREASES H(z) at high z, which DECREASES rₛ, which DECREASES $\theta_*$, which moves peaks to HIGHER l. SIDC's "+1 neutrino from 5D Weyl" overshoots in the other direction.
 
 **Lowering $\omega_{\rm c}$ helps partially** ( χ² = 92.66 vs 666.88), but still has 4- 6σ residual tension. SIDC's "DM" cannot be both 27% (today) and have a low $\omega_{\rm c}$ to satisfy Planck CMB at H₀ = 73.
 

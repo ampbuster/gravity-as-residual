@@ -202,7 +202,7 @@ But **once DM exists, it behaves identically** in both:
 
 #### Peak 1 (l ~ 220): Sound Horizon
 
-$$r_s = \int_0^{a_*} \frac{c_s}{a^2 H(a)} da, \quad c_s = \frac{c}{\sqrt{3(1+R)}}, \quad R = \frac{3\rho_b}{4\rho_\gamma}$$
+$$r_s = \int_0^{a_*} \frac{c_s}{a^2 H(a)} \, da, \quad c_s = \frac{c}{\sqrt{3(1+R)}}, \quad R = \frac{3\rho_b}{4\rho_\gamma}$$
 
 This integral depends on:
 - H(a): SAME (ΛCDM background)

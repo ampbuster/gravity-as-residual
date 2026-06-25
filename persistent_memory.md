@@ -9,7 +9,7 @@
 **v3.5.9+ A2**: APPROACH A2 (α dim-specific, $f_{\rm back}$ → $f_{
 m DE,closed}$, ε recalibrated, frame-neutral leak naming)
 **v3.5.x timeline**:
-- v3.5: TIER 2 research (CY3 Z_12, α first-principles, μ F-theory) — 98 limits
+- v3.5: TIER 2 research (CY3 $Z_{12}$, α first-principles, μ F-theory) — 98 limits
 - v3.5.1: L308 addition on "1/2" having 3+ anchors (Schwarzian, DOZZ, Ising)
 - v3.5.2: 5 structural candidates for "2×" factor in μ formula
 - v3.5.3: 45 alternative formulas for μ, 12 exact matches, NEW Planckian $T_H$ interpretation
@@ -85,7 +85,7 @@ m DE,closed}$, ε recalibrated, frame-neutral leak naming)
 **This session (v3.5.8) commits**: f4c4655, 942f725, 20b83ec, 66d4fdc, 2460fcf, f47e052
 **v3.5.8+ NEW**: MCMC parameter search, α = 1+1/√12 first-principles, $N_{\rm sub}$ = $E_{\rm 4D}$/$E_{\rm sub}$ linear scaling, cone asymmetry (4D linear, 2D one-to-one), 2D universe is discrete quantum, **L26 FULL CLOSURE** (μ = (N×$v_H$)² = $8.73 \times 10^{6}\,\text{GeV}$², framework updated L308t)
 
-**v3.5.9 NEW (June 21, 2026)**: WHY $N=12$? **Z_12 bulk + 6D anomaly cancellation BREAKTHROUGH (L308u)**. Appelquist et al. 2001 (PRL 87, 031801) proved 3 generations required by anomaly cancellation in 6D spacetime (= 4D + 2D universal extra). Framework's 2D fiber = the 2D universal extra. So $N=12$ = 3 gens × 4 Weyl = Z_12 orbifold order. Unifies ALL FIVE "12"s in framework. First-principles 3/9 → **4/9**. **L138 PARTIAL CLOSURE via α-GM closed loop (L308v)**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = $3.98 \times 10^{23}\,\text{GeV}$ (1.2% match). All 3 inputs first-principles. α-GM encodes cascade's self-similar structure. 133 limitations, 403 pages.
+**v3.5.9 NEW (June 21, 2026)**: WHY $N=12$? **$Z_{12}$ bulk + 6D anomaly cancellation BREAKTHROUGH (L308u)**. Appelquist et al. 2001 (PRL 87, 031801) proved 3 generations required by anomaly cancellation in 6D spacetime (= 4D + 2D universal extra). Framework's 2D fiber = the 2D universal extra. So $N=12$ = 3 gens × 4 Weyl = $Z_{12}$ orbifold order. Unifies ALL FIVE "12"s in framework. First-principles 3/9 → **4/9**. **L138 PARTIAL CLOSURE via α-GM closed loop (L308v)**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = $3.98 \times 10^{23}\,\text{GeV}$ (1.2% match). All 3 inputs first-principles. α-GM encodes cascade's self-similar structure. 133 limitations, 403 pages.
 
 **v3.5.9+ A1 → A2 TRANSITION (June 22, 2026, A2 ACTIVE)**:
 - **APPROACH A1 (HISTORICAL, June 21)**: $f_{\rm leak}$ = H₀ as new principle. §3.67 replaced. 138 limitations, 405 pages.
@@ -126,7 +126,7 @@ m leak,2D}$→3D (natural) = 1.6e-45 (88 orders below death pulse)
 - Sweep 21: New legacy file `v359_legacy_f_DM_leak_naming.md` (L308ax frame-neutral renaming)
 - Sweep 24-30: A2 value updates (ε=6.32e-34, $f_{
 m DE,simple}$/closed)
-- Sweep 59-77: Cross-doc numerical verification (H₀, r_s, CMB peaks)
+- Sweep 59-77: Cross-doc numerical verification (H₀, $r_s$, CMB peaks)
 - Sweep 78-80: L308 list in exec summary completed (L308ar-as, at-au, av-aw, ax, ay added)
 - Sweep 81-98: Final verification (no active v3.5.9+ A1 refs, $M_{\rm Pl,2D}$=2955 GeV, $M_{\rm Pl,4D}$=3.93e23, α=1.289 all consistent)
 - 8+ commits this session, all pushed
@@ -270,9 +270,9 @@ m leak,2D}$→3D and $f_{\rm leak,3D→4D}$** (L308ax frame-neutral naming, A2)
 2. "12" is structural to F-theory (10+2 = 12)
 3. Compactifies to 4D N=1 SUSY (matches framework)
 4. Provides GUT models (SU(5), SO(10), E_6)
-5. Z_12 fundamental group exists in CY3 quotients (arXiv:0910.5464)
+5. $Z_{12}$ fundamental group exists in CY3 quotients (arXiv:0910.5464)
 6. arXiv:0911.0708: known CY3 with $\pi_{1}$ = Z_N for N=2,3,4,5,6,7,8,10,12
-7. arXiv:0910.5464 (Braun-Candelas-Davies): χ=-72 → χ=-6 via Z_12 quotient, (h^{1,1}, h^{2,1}) = (1, 4), 3 generations via E_6 standard embedding
+7. arXiv:0910.5464 (Braun-Candelas-Davies): χ=-72 → χ=-6 via $Z_{12}$ quotient, (h^{1,1}, h^{2,1}) = (1, 4), 3 generations via E_6 standard embedding
 
 **The "12 propagates" pattern (v3.4.6 HONEST REFRAME)**:
 "12" at each level is DIFFERENT physics (NOT a unified derivation):
@@ -295,7 +295,7 @@ m leak,2D}$→3D and $f_{\rm leak,3D→4D}$** (L308ax frame-neutral naming, A2)
 2. α = 1 + 1/√N is NOT a standard SYK formula (phenomenological)
 3. "12 SM fermions/gen" is FALSE (15-16 Weyl, 7-8 Dirac per gen)
 4. "h^{2,1}=N → N generations" REFUTED (arXiv:0910.5464 has h^{2,1}=4 + 3 gen)
-5. Z_12 fundamental group DOES exist in CY3 quotients (verified)
+5. $Z_{12}$ fundamental group DOES exist in CY3 quotients (verified)
 6. SM has 12 gauge bosons (real match), NOT 12 fermions/gen
 7. SM has 12 fermion FLAVORS across all 3 gens (NOT per gen)
 8. DOF conservation at 24 was framework's interpretation, NOT a law
@@ -510,7 +510,7 @@ This also DERIVES $M_{\rm Pl,2D}$ = N × $v_H$ = 2955 GeV (1.5% off framework's 
 
 **[v3.5.8+ L308t, FULL CLOSURE]**: Framework values UPDATED to consistent derivation (user chose full closure). $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ (was 3 TeV), μ = $8.73 \times 10^{6}$(was $9 \times 10^{6}$), $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$(was $4 \times 10^{23}$), $N_{\rm sub}$ = $3.86 \times 10^{2}$(was $4 \times 10^{2}$). L26 PARTIAL → **FULL CLOSURE** (no 3% offset). Predictions UNAFFECTED (all key predictions use $M_{\rm Pl,3D}$, not $M_{\rm Pl,2D}$).
 
-**[v3.5.9+ L308u, BREAKTHROUGH]**: Why $N=12$? — Z_12 bulk + 6D anomaly cancellation. Appelquist et al. 2001 (PRL 87, 031801, hep-ph/0102010) PROVED that SM fields in 6D spacetime (= 4D + 2D universal extra dimensions) require EXACTLY 3 generations for global anomaly cancellation. Framework's F-theory 12D has 2D fiber = cascade's 2D universe = the 2D universal extra. SM fermions propagate in 2D fiber (as SYK $N=12$ Majoranas). So **$N=12$ = 3 generations × 4 Weyl fermions** is a FIRST-PRINCIPLES consequence. Unifies ALL FIVE "12"s in framework ($N=12$ SYK, $M_{\rm Pl,2D}$ = 12×$v_H$, cone depth 12, α=1+1/√12, F-theory Z_12). First-principles: 3/9 → **4/9** (added $N=12$ derivation).
+**[v3.5.9+ L308u, BREAKTHROUGH]**: Why $N=12$? — $Z_{12}$ bulk + 6D anomaly cancellation. Appelquist et al. 2001 (PRL 87, 031801, hep-ph/0102010) PROVED that SM fields in 6D spacetime (= 4D + 2D universal extra dimensions) require EXACTLY 3 generations for global anomaly cancellation. Framework's F-theory 12D has 2D fiber = cascade's 2D universe = the 2D universal extra. SM fermions propagate in 2D fiber (as SYK $N=12$ Majoranas). So **$N=12$ = 3 generations × 4 Weyl fermions** is a FIRST-PRINCIPLES consequence. Unifies ALL FIVE "12"s in framework ($N=12$ SYK, $M_{\rm Pl,2D}$ = 12×$v_H$, cone depth 12, α=1+1/√12, F-theory $Z_{12}$). First-principles: 3/9 → **4/9** (added $N=12$ derivation).
 
 **[v3.5.9+ L308v, PARTIAL CLOSURE]**: L138 ($M_{\rm Pl,4D}$ closed-loop) — α-GM with first-principles inputs is a CLOSED LOOP:
 $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = ($1.22 \times 10^{19}$)^1.289 × (2954.64)^(-0.289) = $3.98 \times 10^{23}\,\text{GeV}$ (1.2% match). All 3 inputs first-principles ($M_{\rm Pl,3D}$ measured, α L308n, $M_{\rm Pl,2D}$ L308r). The α-GM encodes the cascade's self-similar structure: each level increases log $M_{\rm Pl}$ by α factor of previous. L138 → PARTIAL CLOSURE (structural formula, not derivation from deeper principle).
@@ -1423,7 +1423,7 @@ DM comes from 100% pulsed return at 2D universe death.
 ## 20. SESSION SUMMARY (v3.5.7, June 19, 2026)
 
 **Major accomplishments**:
-1. TIER 2 research (CY3 Z_12, α first-principles, μ F-theory)
+1. TIER 2 research (CY3 $Z_{12}$, α first-principles, μ F-theory)
 2. "12 propagates" honest reframe (v3.4.6)
 3. Universe age = 1.5 \times 10^{-15}\,of lifetime → SIDC is initial-conditions framework
 4. **WEB SEARCH BREAKTHROUGH**: μ has 5+ structural origins (unimodular gravity, Hagedorn, etc.)
@@ -2082,7 +2082,7 @@ uses bilateral cascade with $f_{\rm leak}$ = H₀.
 **L308bi (2026-06-22)**: Framework officially adopts Option B Strengthened (α dim-specific with full first-principles for all three N values via Clifford C(6) SM algebra, Stoica 2018). No numerical changes.
 - **L308dk + L308dl** (Jun 24, 2026): Build pipeline improvements + LaTeX build error fixes. L308dk: state machine for `XY` patterns (71 fixes). L308dl: source bug fixes + extended fix tool to handle `X^N` digit exponent outside math (22 additional fixes). Build progressed: 168 → 253 → 263 → 269 → 300 → 366 → 424 → 428 → 429 → 547 → **612 pages** (clean). Files: 06_limitations.md, 07_conclusion.md, 11_testable.md, 00_title.md, 04_predictions.md. Commit: 64e66de. Pushed via SSH.
 
-## L308dr/ds/dt — α_2D/4D wrapping + f_DE,closed fixes (1264 notation fixes, Jun 25 2026)
+## L308dr/ds/dt — $\alpha_{\rm 2D}$/4D wrapping + f_DE,closed fixes (1264 notation fixes, Jun 25 2026)
 
 User reported "still plenty of either broken math notation or not in math notation" in rendered PDF, especially in README.md parameter hierarchy section.
 
@@ -2221,7 +2221,7 @@ of notation fixes.
 
 ### L308ej (commit e47bb3a)
 - α_X = <value> patterns (6 fixes in 03c_lagrangian.md, 06_limitations.md)
-- α_2D = 1.289, α_3+1D = 1.408, α_4D = 1.577
+- $\alpha_{\rm 2D}$ = 1.289, $\alpha_{\rm 3+1D}$ = 1.408, $\alpha_{\rm 4D}$ = 1.577
 
 ### L308ek (commit c821868)
 - More N × 10ⁿ patterns (11 fixes in 03c_lagrangian.md, 04_predictions.md)
