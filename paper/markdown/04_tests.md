@@ -546,7 +546,7 @@ Compare peak positions to Planck 2018 measurements: l_1 = 220.0 ± 0.5, l_2 = 53
 | SIDC + dark rad | 221 (+ 2σ) | 542 (+ 6σ) | 826 (+ 22σ) | 1144 (+ 13σ) | 694.61 |
 | SIDC + $\omega_{\rm c}$ lowered | 218 (- 4σ) | 533 (- 6σ) | 810 (- 1σ) | 1121 (- 6σ) | 92.66 |
 
-**The tension is at Δχ² = +650 for the same-density case.** This is a HARD falsification at the level of CMB peak positions, but a CONSISTENT one with Mechanism M: SIDC accepts the Hubble tension, and now we have a Boltzmann-solver-level confirmation of that acceptance.
+**The tension is at $\Delta\chi^2$ = +650 for the same-density case.** This is a HARD falsification at the level of CMB peak positions, but a CONSISTENT one with Mechanism M: SIDC accepts the Hubble tension, and now we have a Boltzmann-solver-level confirmation of that acceptance.
 
 **Why H₀ = 73 fails:** The angular acoustic scale θ_* = r_s/ D_A is fixed by Planck at 0.01041. With H₀ = 73 and same $\omega_{\rm b}$, $\omega_{\rm c}$:
 - rₛ stays roughly the same (slight increase: 144.4 vs 144.4 Mpc)
@@ -573,7 +573,7 @@ This test is INDEPENDENT of SIDC's other predictions ( $g_+$, RAR, AGN). It is S
 
 **Status.** This is a NEGATIVE result for SIDC's CMB-era physics, but a CONSISTENT one with Mechanism M. SIDC's strong empirical wins are at LOCAL scales ( $g_+$, RAR, AGN, dwarf galaxies). The CMB is a known weak point, and SIDC is honest about it.
 
-**Limitation update:** Limitation 18 (Hubble tension) is now DOCUMENTED at the Boltzmann-solver level. SIDC's H₀ = 73 fails the CMB peak position test at Δχ² = +650, confirming that SIDC does not resolve the Hubble tension.
+**Limitation update:** Limitation 18 (Hubble tension) is now DOCUMENTED at the Boltzmann-solver level. SIDC's H₀ = 73 fails the CMB peak position test at $\Delta\chi^2$ = +650, confirming that SIDC does not resolve the Hubble tension.
 
 **Limitation update:** Limitation 6 (no CMB power spectrum derivation) is now PARTIALLY ADDRESSED — we have a CAMB-based test of SIDC's prediction, and it fails (as expected per Mechanism M).
 
@@ -1096,7 +1096,7 @@ After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contri
 
 **SIDC is therefore NOT time-scale-invariant in the strict sense.** SIDC predicts **time-lagged DM**: at z>0, SIDC has LESS DM than $\Lambda{\rm CDM}$. At z=6, SIDC has ~1% of $\Lambda{\rm CDM}$'s DM density.
 
-**This is the Δχ²=+650 CMB penalty in physical terms** (§4.41). SIDC accepts that high-z structure formation is *different* from $\Lambda{\rm CDM}$.
+**This is the $\Delta\chi^2$=+650 CMB penalty in physical terms** (§4.41). SIDC accepts that high-z structure formation is *different* from $\Lambda{\rm CDM}$.
 
 **Falsifiable predictions of time-lagged DM:**
 
@@ -1107,7 +1107,7 @@ After dilution by (1+z)^3 over cosmic time, pre-stellar phase transitions contri
 
 **Comparison to JWST observations.** The JWST "early galaxy problem" (more bright galaxies at z>10 than $\Lambda{\rm CDM}$ predicts, Donnan+ 2024, Harikane+ 2022) is a *stronger* problem for SIDC than for $\Lambda{\rm CDM}$. If SIDC has 1000× less DM at z=10, the bright galaxies JWST sees are even harder to explain in SIDC. This is a *real* tension.
 
-**Honest verdict.** Time-scale invariance in the strict sense FAILS. SIDC is dominated by stellar/AGN activity, $F_{\rm stellar}$ ~ 1, and predicts time-lagged DM. The Δχ²=+650 CMB penalty is the *quantitative* signature of this time-lag. SIDC is honest about this:
+**Honest verdict.** Time-scale invariance in the strict sense FAILS. SIDC is dominated by stellar/AGN activity, $F_{\rm stellar}$ ~ 1, and predicts time-lagged DM. The $\Delta\chi^2$=+650 CMB penalty is the *quantitative* signature of this time-lag. SIDC is honest about this:
 
 - **[PASS]** *Established*: SIDC is NOT strictly time-scale-invariant; stellar/AGN activity dominates
 - **[PASS]** *Established*: SIDC's DM is time-lagged, with ~1% of $\Lambda{\rm CDM}$'s value at z=6
@@ -1175,9 +1175,9 @@ The AGN host DM partial correlation (r = +0.367, p = $4 \times 10^{-57}$) uses a
 
 **6. CMB test (verified).**
 
-The CMB power spectrum test ( Δχ² = +650 for SIDC's H₀ = 73 vs Planck) uses CAMB (v1.6.6), a well-tested Boltzmann solver. The result is robust and well-documented in §4.41.
+The CMB power spectrum test ( $\Delta\chi^2$ = +650 for SIDC's H₀ = 73 vs Planck) uses CAMB (v1.6.6), a well-tested Boltzmann solver. The result is robust and well-documented in §4.41.
 
-**Status:** verified. The Δχ²=+650 is a real, quantitative signature of SIDC's time-lag.
+**Status:** verified. The $\Delta\chi^2$=+650 is a real, quantitative signature of SIDC's time-lag.
 
 **7. Cosmic shear S₈ (qualitative, honest).**
 
@@ -1212,7 +1212,7 @@ The Sun's intrinsic DM is computed as ∼ 10⁻¹⁷ of the local DM, which is c
 | Per-galaxy $g_+$ scatter (0.57 dex) | LOW | Documented as "approximately universal" |
 | Cluster $g_+$ discrepancy (0.62×) | LOW | Documented in MCMC results |
 | AGN partial correlation (p= $4 \times 10^{-57}$) | NONE | Verified, real result |
-| CMB test ( Δχ²=+650) | NONE | Verified, robust |
+| CMB test ( $\Delta\chi^2$=+650) | NONE | Verified, robust |
 | Cosmic shear S₈ | NONE | Honest qualitative |
 | SPARC RAR fit (43 galaxies) | NONE | Verified, robust |
 | AGC 114905 + KKR 25 individual tests (bifurcation REMOVED v2.7.36+) | NONE | Verified, independent (REVISED v2.7.36+) |
@@ -1265,7 +1265,7 @@ The v5 calculation (`time_scale_invariance_test_v5.py`) fixes ALL bugs and uses 
 
 **The reason SIDC is saved:** Thomson scattering at z > 1100 dominates the integral, and the Thomson rate scales as (1+z)^7 in proper units. With the (1+z)^4 in the denominator (fossil dilution), the integrand scales as (1+z)^3 in the radiation era. The integral then gives ρ(z) ∝ (1+z)^3, which is the expansion factor for non-interacting DM.
 
-SIDC is now INTERNALLY CONSISTENT under the broader principle. The CMB at z=1100 has ~27% DM (SIDC prediction matches). Δχ²=+650 is a HUBBLE TENSION ( H₀=73 vs 67.4), not a structural failure. **HONEST NOTE (v2.7.1):** The 5/27/68 split is observational data (Planck 2018), not derived from SIDC. The 5:27 inner split (5% "active" vs 27% "cumulative") was a separate postulate that was dropped in v2.7.1 because it conflicted with the empirical 33 s lifetime. SIDC provides a qualitative interpretation of 5/27/68 (5% baryons, 27% cumulative 2D universe back-projection, 68% 4D event antigravity), but does not derive the specific values.
+SIDC is now INTERNALLY CONSISTENT under the broader principle. The CMB at z=1100 has ~27% DM (SIDC prediction matches). $\Delta\chi^2$=+650 is a HUBBLE TENSION ( H₀=73 vs 67.4), not a structural failure. **HONEST NOTE (v2.7.1):** The 5/27/68 split is observational data (Planck 2018), not derived from SIDC. The 5:27 inner split (5% "active" vs 27% "cumulative") was a separate postulate that was dropped in v2.7.1 because it conflicted with the empirical 33 s lifetime. SIDC provides a qualitative interpretation of 5/27/68 (5% baryons, 27% cumulative 2D universe back-projection, 68% 4D event antigravity), but does not derive the specific values.
 
 **Theoretical caveat (honest):** The broader principle treats Thomson scattering (a continuous energy transfer process) as a 2D universe creator. The original SIDC principle was about discrete events (CCSN, AGN, etc.). The broader principle is a THEORETICAL EXTENSION of SIDC, not an obvious consequence of the original framework. This is acknowledged as an open question (Limitation 26: 2D CFT expert needed to derive from first principles).
 
@@ -1358,7 +1358,7 @@ The broader principle treats Thomson scattering (a continuous energy transfer pr
 - **[PASS]** Identifies the matter-radiation transition issue
 - **[PASS]** Computes the v5 result with all bugs fixed
 - **[PASS]** Shows r(z) ≈ (1+z)^3, consistent with $\Lambda{\rm CDM}$
-- **[PASS]** Reframes Δχ²=+650 as Hubble tension, not structural failure
+- **[PASS]** Reframes $\Delta\chi^2$=+650 as Hubble tension, not structural failure
 - **[PASS]** Documents the broader principle as a theoretical extension
 
 **What this subsection does NOT do:**
@@ -1376,7 +1376,7 @@ The broader principle treats Thomson scattering (a continuous energy transfer pr
 1. SIDC predicts 5/27/68 ratio at all z, including z > 10 (testable with JWST, Roman, Euclid)
 2. SIDC predicts r(z) = (1+z)^3 for proper DM density (testable with growth rate measurements)
 3. SIDC's H₀ = 73 is the standard Hubble tension (testable with TRGB, Cepheid, megamaser distance ladder)
-4. SIDC predicts that Δχ² in CMB likelihood is dominated by H₀ mismatch (not structural)
+4. SIDC predicts that $\Delta\chi^2$ in CMB likelihood is dominated by H₀ mismatch (not structural)
 5. SIDC's broader principle is a theoretical extension (requires 2D CFT derivation)
 
 **Files added:**
@@ -1478,11 +1478,11 @@ The calculation verifies:
 
 ### 4.53 CMB Prediction Re-Derivation Under the Broader Principle (v2.4)
 
-*Per user direction ("how to fix" the CMB prediction), this subsection re-derives SIDC's CMB prediction under the broader principle. The result: Δχ²=+650 is dominated by the H₀ mismatch (Hubble tension), not a structural failure of SIDC. SIDC is consistent with Planck at all redshifts except for the H₀ offset.*
+*Per user direction ("how to fix" the CMB prediction), this subsection re-derives SIDC's CMB prediction under the broader principle. The result: $\Delta\chi^2$=+650 is dominated by the H₀ mismatch (Hubble tension), not a structural failure of SIDC. SIDC is consistent with Planck at all redshifts except for the H₀ offset.*
 
 **The original CMB prediction (§4.41).**
 
-SIDC's CMB prediction was computed using `calculations/cmb_cascade_prediction.py` (using CAMB v1.6.6). The result was Δχ² = +650 between SIDC's prediction ( H₀ = 73) and Planck ( H₀ = 67.4). This was interpreted as a significant falsification.
+SIDC's CMB prediction was computed using `calculations/cmb_cascade_prediction.py` (using CAMB v1.6.6). The result was $\Delta\chi^2$ = +650 between SIDC's prediction ( H₀ = 73) and Planck ( H₀ = 67.4). This was interpreted as a significant falsification.
 
 **The re-derivation under the broader principle.**
 
@@ -1490,7 +1490,7 @@ With the broader principle (§4.51), SIDC's R(z) is dominated by Thomson scatter
 
 The remaining difference is the H₀: SIDC gives 73, Planck gives 67.4. This 5.6 km/s/Mpc gap is the standard HUBBLE TENSION, not a SIDC-specific failure.
 
-**The Δχ²=+650 in detail.**
+**The $\Delta\chi^2$=+650 in detail.**
 
 The CMB angular power spectrum depends on:
 - Sound horizon at recombination ( rₛ): set by the integral of cₛ(z)/H(z) from z=∞ to z=1100
@@ -1501,11 +1501,11 @@ The CMB angular power spectrum depends on:
 
 SIDC's H₀ = 73 is the only difference. All other parameters are the same as $\Lambda{\rm CDM}$ (because the broader principle makes SIDC's R(z) match $\Lambda{\rm CDM}$'s DM history).
 
-**The Δχ²=+650 is therefore the Δχ² from changing H₀ from 67.4 to 73 in the CMB likelihood.** This is the standard Hubble tension: when you change H₀ in Planck's best-fit model, the CMB likelihood drops by 650 (in χ²). This is well-documented in the literature (Verde, Treu, Riess 2019; Di Valentino et al. 2021).
+**The $\Delta\chi^2$=+650 is therefore the $\Delta\chi^2$ from changing H₀ from 67.4 to 73 in the CMB likelihood.** This is the standard Hubble tension: when you change H₀ in Planck's best-fit model, the CMB likelihood drops by 650 (in χ²). This is well-documented in the literature (Verde, Treu, Riess 2019; Di Valentino et al. 2021).
 
 **Interpretation:**
 
-SIDC is NOT structurally different from $\Lambda{\rm CDM}$ at the CMB. The only difference is H₀. The Δχ²=+650 is SIDC's H₀ mismatch, not a structural failure.
+SIDC is NOT structurally different from $\Lambda{\rm CDM}$ at the CMB. The only difference is H₀. The $\Delta\chi^2$=+650 is SIDC's H₀ mismatch, not a structural failure.
 
 SIDC's H₀ = 73 is SIDC's prediction from §2.6 Mechanism M (SIDC's 4D event's antigravity output). This is a real prediction of SIDC, and it's in tension with Planck's H₀ = 67.4.
 
@@ -1514,7 +1514,7 @@ SIDC's H₀ = 73 is SIDC's prediction from §2.6 Mechanism M (SIDC's 4D event's 
 1. H₀ SIDC: 73 ± 1 (TRGB, Cepheid, megamaser calibration)
 2. H₀ Planck: 67.4 ± 0.5 (CMB + $\Lambda{\rm CDM}$)
 3. Difference: 5.6 km/s/Mpc ( 4σ tension)
-4. CMB Δχ² from H₀ change: ~650
+4. CMB $\Delta\chi^2$ from H₀ change: ~650
 
 This is the standard Hubble tension. SIDC is in this tension because its H₀ prediction is 73.
 
@@ -1529,7 +1529,7 @@ This is the standard Hubble tension. SIDC is in this tension because its H₀ pr
 **What this subsection does:**
 
 - **[PASS]** Re-derives SIDC's CMB prediction under the broader principle
-- **[PASS]** Shows that Δχ²=+650 is dominated by H₀ mismatch, not structural failure
+- **[PASS]** Shows that $\Delta\chi^2$=+650 is dominated by H₀ mismatch, not structural failure
 - **[PASS]** Documents SIDC's H₀=73 as a real prediction (Mechanism M)
 - **[PASS]** Places SIDC's CMB in the context of the standard Hubble tension
 
@@ -1542,7 +1542,7 @@ This is the standard Hubble tension. SIDC is in this tension because its H₀ pr
 
 **Files referenced:**
 
-- `calculations/cmb_cascade_prediction.py` (CAMB-based CMB prediction, Δχ² = +650)
+- `calculations/cmb_cascade_prediction.py` (CAMB-based CMB prediction, $\Delta\chi^2$ = +650)
 - `calculations/hubble_mechanism_*.py` (Mechanism M derivations)
 
 ---
