@@ -51,7 +51,7 @@ Our 3+1D universe is one of $N_{\rm sub} = 3.86 \times 10^{2}$ sub-universes cre
 |---|---|---|---|---|
 | 1 | $M_{\rm Pl,3D}$ | $1.22 \times 10^{19}\,\text{GeV}$ | **MEASURED** | Newton's G |
 | 2 | α | 1.289 | **FIRST-PRINCIPLES** | Schwarzian SYK $N=12$, 1+1/√12 (L308n) |
-| 3 | $M_{\rm Pl,2D}$ | 2.95 TeV | **FIRST-PRINCIPLES** | N × $v_{\rm Higgs}$ = 12 × 246.22 (L308r) |
+| 3 | $M_{\rm Pl,2D}$ | $2.95\,\text{TeV}$ | **FIRST-PRINCIPLES** | $N \times v_{\rm Higgs} = 12 \times 246.22$ (L308r) |
 | 4 | μ | $8.73 \times 10^{6}\,\text{GeV}$² | **FIRST-PRINCIPLES** | $M_{\rm Pl,2D}^2$ (L308r) |
 | 5 | $M_{\rm Pl,4D}$ | $3.93 \times 10^{23}\,\text{GeV}$ | **DERIVED** | α-GM closed loop (L308v) |
 | 6 | $E_{\rm 4D}$ | $5 \times 10^{79}\,\text{J}$ | **DERIVED** | $N_{\rm sub}$ × $E_{\rm sub}$ (L308o energy conservation) |
@@ -186,7 +186,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 
 **DERIVED (via formulas)**:
 - ✓ $M_{\rm Pl,4D} = M_{\rm Pl,3D}^{\alpha} \times M_{\rm Pl,2D}^{(1-\alpha)} = 3.93 \times 10^{23}\,\text{GeV}$ (L308v, α-GM closed loop)
-- ✓ $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ = 386 × 1.295 \times 10^{77}= 5 \times 10^{79}\,\text{J} (L308o, energy conservation)
+- ✓ $E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub} = 386 \times 1.295 \times 10^{77}\,\text{J} = 5 \times 10^{79}\,\text{J}$ (L308o, energy conservation)
 - ✓ $\tau_{3D,apparent} = \gamma_{4D}$ × $\tau_{\rm 4D} = $1.66 \times 10^{145}\,\text{yr}$ ($ A2) (cascade amplification factor)
 - ✓ $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{α}$ = 1.10 \times 10^{111}(A2) (cascade amplification factor, consistent with $\gamma_{2D}$)
 - ✓ $\gamma_{2D}$ = $(E_{\rm SN}/M_{\rm Pl,3D})^{α}$ = 5.5 \times 10^{44}(cascade amplification factor at 2D level, L308x v3)

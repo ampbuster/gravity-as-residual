@@ -4513,7 +4513,7 @@ The original §3.67 Lagrangian is REVISED as follows:
 ```
 S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
        with M_Pl,4 = 3.93×10²³ GeV (SIDC's α-GM, L308v)
-       and   E_4D = N_sub × $E_{\rm sub} = 386 × 1.295×10⁷⁷ J$= 5.0×10⁷⁹ J (STRUCTURAL, E_sub is per-sub-universe energy)
+       and   $E_{\rm 4D} = N_{\rm sub} \times E_{\rm sub} = 386 \times 1.295 \times 10^{77}\,\text{J} = 5.0 \times 10^{79}\,\text{J}$ (STRUCTURAL, E_sub is per-sub-universe energy)
        and   γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D × t_Pl,3D = 1.10×10¹¹¹ (uses PARENT's Planck per L308t fix)
        and   $\tau_{\rm 4D} = 1.51×10³⁴ yr ($apparent 3+1D lifetime, calibrated)
 ```
@@ -4523,10 +4523,10 @@ S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
 ```
 S_3+1D,brane = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
        with M_Pl,3 = 1.22×10¹⁹ GeV (MEASURED, Newton's G)
-       and   Λ = f_DE,closed × ε × M_Pl,3⁴ = 2.5×10⁻⁴⁷ GeV⁴ (A2 EXACT)
-       and   f_DE,closed = 1.79×10⁻⁹⁰ (A2 closed loop)
-       and   f_DE,simple = 1.13×10⁻⁸⁵ (A1 form, gives same ρ_DE exact)
-       and   f×ε = 1.13×10⁻¹²³ invariant preserved
+       and   $\Lambda = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 2.5 \times 10^{-47}\,\text{GeV}^4$ (A2 EXACT)
+       and   $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (A2 closed loop)
+       and   $f_{\rm DE,simple} = 1.13 \times 10^{-85}$ (A1 form, gives same $\rho_{\rm DE}$ exact)
+       and   $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant preserved
 ```
 
 ** $S_{\rm 2D}$,universe (REVISED, with bilateral cascade structure)**:
@@ -4541,7 +4541,7 @@ S_2D,universe = S_Liouville + S_Ising + S_SYK + S_FZZT + S_bilateral
     S_bilateral = ∫ [δ(τ - τ_2D) × E_2D           ← DM DEATH PULSE (100% return)
                    - f_leak,2D→3D × Θ(τ_2D - τ)]   ← DM drain (natural, ~10⁻⁴⁵, DROPPED)
        with τ_2D = $(E/M_{\rm Pl,parent})^{\alpha}$_2D × t_Pl,parent  ← α_2D = 1.289
-       with f_leak,2D→3D = t_Pl,3/τ_2D ≈ 1.6×10⁻⁴⁵ (NATURAL, negligible vs death pulse)
+       with $f_{\rm leak,2D\to 3D} = t_{\rm Pl,3}/\tau_{\rm 2D} \approx 1.6 \times 10^{-45}$ (NATURAL, negligible vs death pulse)
 ```
 
 ** $S_{\rm projection}$ (REVISED, with mirror plane symmetry, L308ax + L308az)**:
@@ -4573,7 +4573,7 @@ This term explicitly encodes L308az: the 3+1D brane is the dimensional mirror pl
 ```
 S_drain = -f_leak,3D→4D × ∫ d⁴x ρ_DM(brane)
        with f_leak,3D→4D = H_0 (CALIBRATED, prevents DM over-accumulation)
-       with f_leak,2D→3D (natural) = 1.6×10⁻⁴⁵, DROPPED as negligible
+       with $f_{\rm leak,2D\to 3D}$ (natural) $= 1.6 \times 10^{-45}$, DROPPED as negligible
 ```
 
 This term encodes L308ax: the natural cascade leaks through the 3+1D mirror plane are negligible (~88 orders below the death pulse for $f_{
@@ -4586,15 +4586,15 @@ With the revised Lagrangian, the closed loop formula gives:
 ```
 f_DE,closed = (M_Pl,4D/E_4D)^α_4D × prefactor
             = (3.93×10²³ GeV / 3.12×10⁸⁹ GeV)^1.577 × prefactor
-            = (1.26×10⁻⁶⁶)^1.577 × prefactor
-            = 2.55×10⁻¹⁰⁴ × prefactor
+            $= (1.26 \times 10^{-66})^{1.577} \times \text{prefactor}$
+            $= 2.55 \times 10^{-104} \times \text{prefactor}$
 ```
 
 Where prefactor accounts for parent-reference Planck ( $M_{\rm Pl,3D}$, not $M_{\rm Pl,4D}$) and time-dilation. With prefactor ~ $7 \times 10^{13}$(the ratio of $M_{\rm Pl,4D}$/ $M_{\rm Pl,3D}$ to appropriate power), we get $f_{
 m DE,closed}$ ≈ $1.79 \times 10^{-90}$✓.
 
 ```
-ρ_DE = f_DE,closed × ε × M_Pl,3⁴ = 1.79×10⁻⁹⁰ × 6.32×10⁻³⁴ × (1.22×10¹⁹)⁴
+$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3}^4 = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^4$
      = 2.5×10⁻⁴⁷ GeV⁴ ✓ (EXACT match to observed)
 ```
 
