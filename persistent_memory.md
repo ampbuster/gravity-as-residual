@@ -2113,3 +2113,71 @@ User reported "still plenty of either broken math notation or not in math notati
 
 **Build**: CLEAN at 612 pages, 2.10 MB
 **Total fixes**: 1264 + 8 + 344 = 1616 notation fixes across all 23 markdown files + 5 root files.
+
+## L308dz-L308ed: ×10ⁿ comprehensive audit + several source bugs (Jun 25, 2026)
+
+User asked for "more errors" and "any more broken notations" - did aggressive audit.
+
+### L308dz: ×10ⁿ comprehensive fix (commit e8b1ff9, 2026-06-25)
+- **NEW build tool**: `paper/build_tools/fix_unicode_times_powers.py` (5269 bytes)
+- **Algorithm**: Detects `N × 10^M [unit]` patterns. Inside math → convert in place
+  (× → \times, 10ⁿ → 10^{n}, GeV⁴ → \text{GeV}^4). Outside math → wrap in $...$.
+- **202 fixes** applied across all markdown files
+- **8 source bugs** also fixed (see git log)
+- **Build** CLEAN at 612 pages
+- **Lesson**: fix_unicode_times_powers.py was too aggressive at first - introduced 
+  build errors. Had to manually fix `, $M_{\rm Pl,XD}` patterns (pandoc escaped 
+  these). Final approach: only wrap outside-math, convert in-math in place.
+
+### L308ea: GeV⁴ and m/s² Unicode-superscript units (commit ca51001, 2026-06-25)
+- Found 4 cases of `GeV⁴` outside math (Unicode ⁴) and 44 cases of 
+  `$\text{m}$/s²` (math closes before /s²).
+- Fixed: `GeV⁴` → `$\,\text{GeV}^4$`, `$\text{m}$/s²` → `$\text{m/s}^2$`
+- Total: 46 fixes across 10 files
+- **Build**: CLEAN at 612 pages
+
+### L308eb: $X$=Y broken math (commit a83e897, 2026-06-25)
+- 20 more `$\alpha_{2D}$=1.289` patterns where `=1.289` is outside math
+- Plus STATE_OF_THE_MODEL.md L46 specific issues:
+  - `μ = $8.73 \times 10^6\,\text{GeV}$²` (² was outside math)
+  - `($\alpha_{4D}$=1.577)` (broken)
+  - `12×$v_{\rm Higgs}$` (12 was outside)
+  - `10⁻³⁸` plain text
+  - `E^(1+α)` plain text
+- 22 total fixes
+- **Build**: CLEAN at 612 pages
+
+### L308ec: α = 1+1/√12 and α-GM formula (commit 70c8431, 2026-06-25)
+- L46: `α = 1+1/√12` → `$\alpha = 1+1/\sqrt{12}$`
+- L46: `12×$v_{\rm Higgs}$` → `$12 \times v_{\rm Higgs}$`
+- L46: `(A2, was 10⁻³⁸ A1, +4.8 orders)` → `(A2, was $10^{-38}$ A1, +4.8 orders)`
+- L188: `$M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = 3.93 × 10²³ GeV` 
+  → `$M_{\rm Pl,4D} = M_{\rm Pl,3D}^\alpha \times M_{\rm Pl,2D}^{(1-\alpha)} = 3.93 \times 10^{23}\,\text{GeV}$`
+- 4 fixes
+- **Build**: CLEAN at 612 pages
+
+### L308ed: 10⁻¹⁵·⁵² Unicode middle dot (commit f43ff89, 2026-06-25)
+- Found 7 places with `10⁻¹⁵·⁵²` (AGN rate) using Unicode middle dot ·
+- LaTeX doesn't render · well in superscript
+- Fixed: `10⁻¹⁵·⁵²` → `$10^{-15.52}$`
+- 7 fixes across 4 files
+- **Build**: CLEAN at 612 pages
+
+### Total session L308dr-L308ed (Jun 25)
+- **Notation fixes**: 1264 + 8 + 344 + 202 + 46 + 20 + 4 + 7 = **1895** 
+- **Source bugs**: 30+ fixed manually
+- **Build**: STAYS CLEAN at 612 pages, 2.12 MB
+
+### Current state (2026-06-25)
+- **v3.5.9+ A2** (June 25, 2026)
+- **paper.pdf**: 612 pages, 2.12 MB, builds CLEAN
+- **arXiv paper**: 6 pages, 213 KB
+- **Zenodo DOI**: 10.5281/zenodo.20810441
+- **Latest commits**:
+  - `f43ff89` L308ed
+  - `70c8431` L308ec
+  - `a83e897` L308eb
+  - `ca51001` L308ea
+  - `e8b1ff9` L308dz
+  - `db7013d` L308dz-add
+  - `916a1c4` L308dy
