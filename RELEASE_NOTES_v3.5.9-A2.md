@@ -125,4 +125,4 @@ m DE,closed}$ = $1.79 \times 10^{-90}$- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
 
 ---
 
-**Full development log**: see the 597-page paper and `paper/markdown/` directory.
+**Full development log**: see the 607-page paper and `paper/markdown/` directory.

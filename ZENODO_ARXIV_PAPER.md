@@ -40,7 +40,7 @@ experiment proposing that gravity, dark matter, and dark energy emerge from
 a unified dimensional projection mechanism (Scale-Invariant Dimensional
 Cascade, SIDC).
 
-The full 597-page development paper and all supporting materials are available
+The full 607-page development paper and all supporting materials are available
 at the GitHub repository: https://github.com/ampbuster/gravity-as-residual
 
 ## Abstract
@@ -77,7 +77,7 @@ CC-BY-4.0
 ## Related identifiers
 
 - GitHub: https://github.com/ampbuster/gravity-as-residual
-- Full paper: see GitHub repo for the 597-page version
+- Full paper: see GitHub repo for the 607-page version
 ```
 
 ### Keywords
@@ -125,6 +125,6 @@ Once uploaded, the paper can be cited as:
 
 ## Notes
 
-- **Don't upload the full 597-page paper to this record** — keep it on GitHub. The arxiv paper is the focused "publication" version.
+- **Don't upload the full 607-page paper to this record** — keep it on GitHub. The arxiv paper is the focused "publication" version.
 - **The GitHub integration (Option B) is the simpler approach** if you don't need a separate DOI. See `ZENODO_SETUP.md` for that.
 - **You can do both** — the GitHub integration archives the full repo with one DOI, and this manual upload gives the arxiv paper its own DOI.

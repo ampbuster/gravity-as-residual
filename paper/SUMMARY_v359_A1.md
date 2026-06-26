@@ -4,8 +4,8 @@
 **Version**: v3.5.9+ A2 (APPROACH A2: α dim-specific, f_back → f_DE,closed)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: ~960
-**Pages**: 481
-**Limitations**: 195 (144 master + 51 L308ab-bw)
+**Pages**: 607
+**Limitations**: 198 (144 master + 54 L308ab-bx + ch/ci/cj)
 
 This document is a clean reference for the SIDC framework as of v3.5.9+ A2. For deep details, see the full paper at `paper/paper.pdf`.
 
