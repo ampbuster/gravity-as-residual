@@ -18166,7 +18166,7 @@ The BNS-merger and AGN-flare death signals are *loud* ( $\Omega_{\rm GW}$ >> LIS
 
 SIDC's §10 is a *speculative extension* with clear, testable, falsifiable predictions. The energy-scaling rule, the $M_{\rm Pl,4D}$ floor, and the death-GW spectrum are *specific enough to be tested* but *fragile enough to be wrong*. The 5-10 year window from 2026 (DESI DR3) to 2034 (LISA launch) is the critical period for SIDC's §10 to be either confirmed, refined, or falsified.
 
-### 10.18 α sensitivity analysis: how precisely is $\alpha = 1.29\text{ constrained}$? (v2.7.9+)
+### 10.18 $\alpha$ sensitivity analysis: how precisely is $\alpha = 1.29\text{ constrained}$? (v2.7.9+)
 
 SIDC's energy-scaling rule $\tau_{\rm 2D}$ = $(E/E_{\rm Pl})^{α}$ × $t_{\rm Pl}$ with $\alpha = 1.29\text{ is}$ calibrated to ONE data point (the SN 33s lifetime at $E_{\rm SN}$ = $10^{44}\,\text{J}$). This section quantifies how sensitive SIDC's predictions are to α, and what precision of future observations would be required to falsify $\alpha = 1.29$.
 
