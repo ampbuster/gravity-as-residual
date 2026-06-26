@@ -77,6 +77,14 @@ Documents the v3.5.9+ A1 → A2 transition (June 22, 2026):
 
 **SUPERSEDED** by v3.5.9+ A2 (current, June 22, 2026).
 
+### `v359_legacy_version_highlights.md`
+Per-version HIGHLIGHTS that previously appeared on the title page of the paper.
+Moved here to keep the title page focused on the CURRENT version (v3.5.9+ A2).
+Includes v3.0/v3.1/v3.1.2-final/v3.2/v3.3 era summaries that are no longer on the
+current title page but useful for understanding the framework's evolution.
+
+**SUPERSEDED** by v3.5.9+ A2 (current, June 22, 2026).
+
 ## Why Legacy?
 
 The SIDC framework has gone through **8 major iterations** (v2.7.3 → v3.5.7+).
