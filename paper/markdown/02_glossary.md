@@ -358,7 +358,7 @@ To move beyond a geometric narrative to a framework a mathematical physicist can
 
 *Setup:*
 - 3+1D bulk: 4D spacetime with metric $g_{\mu\nu}$ ( μ, ν = 0, 1, 2, 3)
-- 2D universe: 1+1D worldsheet embedded in 3+1D, with embedding X^μ(σᵃ), a = 0, 1
+- 2D universe: 1+1D worldsheet embedded in 3+1D, with embedding $X^{mu}$(σᵃ), a = 0, 1
 - Induced 2D metric: $\gamma_{ab} = \partial_a X^\mu \partial_b X^\nu g_{\mu\nu}$
 
 *Total action (sketch):*

@@ -85,15 +85,15 @@ At every level, the parent dimension sees vastly different child lifetimes:
 **3.21.6 Status (v2.7.28+).**
 
 - SIDC is naturally recursive to N dimensions
-- Each level's PROPER lifetime in its own frame follows the M^α law (L308x v3)
+- Each level's PROPER lifetime in its own frame follows the $M^{alpha}$ law (L308x v3)
 - Each level has the same time-dilation factor γ = $(E/E_{\rm Pl})^{1.29}$
-- The M^α law (L308x v3, asymmetric cone) extends to every level
+- The $M^{alpha}$ law (L308x v3, asymmetric cone) extends to every level
 - SIDC's framework is general, not specific
 
 **SIDC's commitment (v2.7.28+):**
 - SIDC is a recursive framework from 0D to ND
 - Each level is similar to 3+1D
-- The M^α law is universal
+- The $M^{alpha}$ law is universal
 - The cone-shape (§2.6) is the default, but the framework extends
 
 See `calculations/v27_recursive_structure.py` for the full analysis.
@@ -215,7 +215,7 @@ The democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) gives s
 
 **3.23.1 Prediction 1: 2D universe death rate ∝ R(E) / $\gamma_{2D}$.**
 
-The democratic cosmology says all 2D universes have the same M^α-observed lifetime (in 3+1D frame). The M^α law gives the 3+1D-observed lifetime as $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D} = 33\,s$ for SN.
+The democratic cosmology says all 2D universes have the same $M^{alpha}$-observed lifetime (in 3+1D frame). The $M^{alpha}$ law gives the 3+1D-observed lifetime as $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D} = 33\,s$ for SN.
 
 **Frame of reference (L308x v3, asymmetric cone in time direction)**:
 - **3+1D-observed lifetime** (what we measure in 3+1D): $\tau_{2D,3+1D} = 33\,s$ for SN
@@ -227,7 +227,7 @@ The death rate in 3+1D frame is:
 
 $$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D,3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3}})^{-1.29} \times \frac{1}{t_{Pl,3}}$$
 
-**Counter-intuitive:** smaller events (low E) have HIGHER 2D universe death rates in 3+1D frame, because their M^α-observed lifetime $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{Pl,3}$ is SHORTER (smaller $\gamma_{2D}$ means shorter 3+1D-observed lifetime).
+**Counter-intuitive:** smaller events (low E) have HIGHER 2D universe death rates in 3+1D frame, because their $M^{alpha}$-observed lifetime $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{Pl,3}$ is SHORTER (smaller $\gamma_{2D}$ means shorter 3+1D-observed lifetime).
 
 | Event | E (J) | $\gamma_{2D}$ | Relative death rate (1/ $\gamma_{2D}$) |
 |-------|-------|------|------------------------------|

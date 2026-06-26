@@ -2049,7 +2049,7 @@ $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant preserved (across all f
 
 ρ_DE = f × ε × M_Pl,3D⁴ = 2.5×$10^{-47}\,\text{GeV}^4$ ✓ EXACT match to observation
 
-M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×$10^{23}\,\text{GeV}$ ✓ (-1.13% from α-GM formula)
+M_Pl,4D = M_Pl,3$D^{alpha}$_2D × M_Pl,2D^(1-α_2D) = 3.93×$10^{23}\,\text{GeV}$ ✓ (-1.13% from α-GM formula)
 
 γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D = 1.10 × 10¹¹¹ ✓ EXACT (uses PARENT's Planck per L308t)
 

@@ -71,7 +71,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 ### 14.3 Long-term tests (2034+)
 
-#### μAres (next-gen PTA, 2040s?): higher-precision α
+#### μAres (next-gen PTA, 2040s?): higher-precision $\alpha$
 
 **SIDC prediction:** $\alpha = 1.29\text{ to}$ ±0.055 precision (1 dex frequency precision → 0.055 in α).
 

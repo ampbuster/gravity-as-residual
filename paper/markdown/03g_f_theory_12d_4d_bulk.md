@@ -29,7 +29,7 @@ In v3.4, the framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory
    ↓ (3D events: SN, AGN, etc.)
 2D universe: N=12 SYK
    ↓
-α = 1 + 1/√12 = 1.289 (M^α law, phenomenological)
+α = 1 + 1/√12 = 1.289 ($M^{alpha}$ law, phenomenological)
 ```
 
 ## The "12" Pattern (v3.4.6 HONEST REFRAME)

@@ -150,7 +150,7 @@ We propose a unifying interpretation of three open problems in fundamental physi
 
 So SIDC combines: (a) **formula invariance** across all D (what the name captures), (b) a **cone-shaped physical cascade** bounded to 4D → 3+1D → 2D, and (c) **energy-scale invariance** within the 2D level (see §2.5.3 above). A clearer name might be "Rule-Invariant Dimensional Cascade" (RIDC) or "Bott-Periodic Cascade" (BPC); we retain "SIDC" for continuity with prior versions. Readers encountering the framework name should interpret "scale-invariant" narrowly as algebraic-rule invariance, not in the broad sense of "self-similar fractal" or "geometric invariance".
 
-**M^α law and time dilation (v2.7.24-v2.7.25+, legacy_paper.md §3.17-legacy_paper.md §3.18, REVISED L308x v3).** The M^α scaling law $\tau_{2D,3+1D} = (E/E_{Pl,3})^{1.29} \times t_{Pl,3}$ gives the 3+1D-observed lifetime of the 2D universe. The 2D universe's PROPER lifetime (in 2D's own frame) is $\gamma_{2D} \times \tau_{2D,3+1D}$ = $5.5 \times 10^{44}$ × 33 s = **$5.7 \times 10^{38}\,\text{yr}$** for SN (much longer than 33s). Similarly, the 4D event's proper time is $1.51 \times 10^{34}\,\text{yr}$, but the 3D-observed time is $\gamma_{4D} \times 1.51e34 yr = 1.66 \times 10^{145}\,\text{yr} (A2)$. The cone is ASYMMETRIC in time direction: $\gamma_{2D}$ stretches time in 2D's own frame (2D proper is LONG, 3D observed is short), while $\gamma_{\rm 4D}$ stretches time in 3D frame (4D proper is short, 3D observed is LONG). In both cases, the lower-D dimension has MORE time (2D > 3D > 4D in duration). The same $\alpha = 1.29$ applies at every level. **α is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from Schwarzian SYK N=12 saddle point (L308n, 1+1/√12). SIDC's net free parameter count: 15 (REVISED L308z, was 14 pre-count-correction; A1+L308z+L308aa).
+**$M^{\alpha}$ law and time dilation (v2.7.24-v2.7.25+, legacy_paper.md §3.17-legacy_paper.md §3.18, REVISED L308x v3).** The $M^{\alpha}$ scaling law $\tau_{2D,3+1D} = (E/E_{Pl,3})^{1.29} \times t_{Pl,3}$ gives the 3+1D-observed lifetime of the 2D universe. The 2D universe's PROPER lifetime (in 2D's own frame) is $\gamma_{2D} \times \tau_{2D,3+1D}$ = $5.5 \times 10^{44}$ × 33 s = **$5.7 \times 10^{38}\,\text{yr}$** for SN (much longer than 33s). Similarly, the 4D event's proper time is $1.51 \times 10^{34}\,\text{yr}$, but the 3D-observed time is $\gamma_{4D} \times 1.51e34 yr = 1.66 \times 10^{145}\,\text{yr} (A2)$. The cone is ASYMMETRIC in time direction: $\gamma_{2D}$ stretches time in 2D's own frame (2D proper is LONG, 3D observed is short), while $\gamma_{\rm 4D}$ stretches time in 3D frame (4D proper is short, 3D observed is LONG). In both cases, the lower-D dimension has MORE time (2D > 3D > 4D in duration). The same $\alpha = 1.29$ applies at every level. **α is no longer a free parameter** — it is a property of the projection geometry, derivable in principle from Schwarzian SYK N=12 saddle point (L308n, 1+1/√12). SIDC's net free parameter count: 15 (REVISED L308z, was 14 pre-count-correction; A1+L308z+L308aa).
 
 **Self-critical methodology (v2.7.22+, legacy_paper.md §3.16).** SIDC's iterative process is formalized: build → user pushback → self-critique → discard or revise → document. The sterile neutrino DM with Pauli-blocked decay (now in legacy_paper.md legacy_paper.md §3.13-legacy_paper.md §3.15) is a worked example: built in v2.7.18, self-critiqued in v2.7.19, discarded in v2.7.20 after literature search (Batell-Yin 2024 m<10meV bound, sub-eV DM is HDM not CDM, 3.5 keV X-ray line weakened). SIDC documents the discard explicitly rather than papering over broken hypotheses.
 
@@ -603,7 +603,7 @@ To move beyond a geometric narrative to a framework a mathematical physicist can
 
 *Setup:*
 - 3+1D bulk: 4D spacetime with metric $g_{\mu\nu}$ ( μ, ν = 0, 1, 2, 3)
-- 2D universe: 1+1D worldsheet embedded in 3+1D, with embedding X^μ(σᵃ), a = 0, 1
+- 2D universe: 1+1D worldsheet embedded in 3+1D, with embedding $X^{mu}$(σᵃ), a = 0, 1
 - Induced 2D metric: $\gamma_{ab} = \partial_a X^\mu \partial_b X^\nu g_{\mu\nu}$
 
 *Total action (sketch):*
@@ -2110,15 +2110,15 @@ At every level, the parent dimension sees vastly different child lifetimes:
 **3.21.6 Status (v2.7.28+).**
 
 - SIDC is naturally recursive to N dimensions
-- Each level's PROPER lifetime in its own frame follows the M^α law (L308x v3)
+- Each level's PROPER lifetime in its own frame follows the $M^{alpha}$ law (L308x v3)
 - Each level has the same time-dilation factor γ = $(E/E_{\rm Pl})^{1.29}$
-- The M^α law (L308x v3, asymmetric cone) extends to every level
+- The $M^{alpha}$ law (L308x v3, asymmetric cone) extends to every level
 - SIDC's framework is general, not specific
 
 **SIDC's commitment (v2.7.28+):**
 - SIDC is a recursive framework from 0D to ND
 - Each level is similar to 3+1D
-- The M^α law is universal
+- The $M^{alpha}$ law is universal
 - The cone-shape (§2.6) is the default, but the framework extends
 
 See `calculations/v27_recursive_structure.py` for the full analysis.
@@ -2240,7 +2240,7 @@ The democratic cosmology (legacy_paper.md §3.17-legacy_paper.md §3.18) gives s
 
 **3.23.1 Prediction 1: 2D universe death rate ∝ R(E) / $\gamma_{2D}$.**
 
-The democratic cosmology says all 2D universes have the same M^α-observed lifetime (in 3+1D frame). The M^α law gives the 3+1D-observed lifetime as $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D} = 33\,s$ for SN.
+The democratic cosmology says all 2D universes have the same $M^{alpha}$-observed lifetime (in 3+1D frame). The $M^{alpha}$ law gives the 3+1D-observed lifetime as $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{\rm Pl,3+1D}$ = $(E/E_{\rm Pl,3+1D})^{1.29}$ × $t_{\rm Pl,3+1D} = 33\,s$ for SN.
 
 **Frame of reference (L308x v3, asymmetric cone in time direction)**:
 - **3+1D-observed lifetime** (what we measure in 3+1D): $\tau_{2D,3+1D} = 33\,s$ for SN
@@ -2252,7 +2252,7 @@ The death rate in 3+1D frame is:
 
 $$\frac{dN_{2D death}}{dt_{3+1D}} = \frac{dN_{2D create}}{dt_{3+1D}} \times \frac{1}{\tau_{2D,3+1D}} = \frac{R(E)}{\gamma_{2D} \cdot t_{Pl,3}} = R(E) \times (\frac{E}{E_{Pl,3}})^{-1.29} \times \frac{1}{t_{Pl,3}}$$
 
-**Counter-intuitive:** smaller events (low E) have HIGHER 2D universe death rates in 3+1D frame, because their M^α-observed lifetime $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{Pl,3}$ is SHORTER (smaller $\gamma_{2D}$ means shorter 3+1D-observed lifetime).
+**Counter-intuitive:** smaller events (low E) have HIGHER 2D universe death rates in 3+1D frame, because their $M^{alpha}$-observed lifetime $\tau_{2D,3+1D}$ = $\gamma_{2D}$ × $t_{Pl,3}$ is SHORTER (smaller $\gamma_{2D}$ means shorter 3+1D-observed lifetime).
 
 | Event | E (J) | $\gamma_{2D}$ | Relative death rate (1/ $\gamma_{2D}$) |
 |-------|-------|------|------------------------------|
@@ -5077,7 +5077,7 @@ $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant preserved (across all f
 
 ρ_DE = f × ε × M_Pl,3D⁴ = 2.5×$10^{-47}\,\text{GeV}^4$ ✓ EXACT match to observation
 
-M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×$10^{23}\,\text{GeV}$ ✓ (-1.13% from α-GM formula)
+M_Pl,4D = M_Pl,3$D^{alpha}$_2D × M_Pl,2D^(1-α_2D) = 3.93×$10^{23}\,\text{GeV}$ ✓ (-1.13% from α-GM formula)
 
 γ_4D = $(E_{\rm 4D}/M_{\rm Pl,3D})^{\alpha}$_4D = 1.10 × 10¹¹¹ ✓ EXACT (uses PARENT's Planck per L308t)
 
@@ -5718,7 +5718,7 @@ In v3.4, the framework adopts **F-theory 12D** (Vafa 1996) as the 4D bulk theory
    ↓ (3D events: SN, AGN, etc.)
 2D universe: N=12 SYK
    ↓
-α = 1 + 1/√12 = 1.289 (M^α law, phenomenological)
+α = 1 + 1/√12 = 1.289 ($M^{alpha}$ law, phenomenological)
 ```
 
 ## The "12" Pattern (v3.4.6 HONEST REFRAME)
@@ -8845,7 +8845,7 @@ If you are a brane-world expert, a DGP specialist, an analog gravity theorist, o
 
 L283. ** $N=12$ in SYK is the standard numerical benchmark, NOT theoretically motivated** (v3.4.5). Web research confirms: $N=12$ with q=4 is used in Wenbo Fu (Princeton) thesis, OSTI variational, Caltech papers, and Sachdev MagLab lecture as the standard SYK numerical benchmark. But it is chosen for tractability, not from first principles. Other N (6, 8, 10, 14, 16) work equally well. The framework's α = 1 + 1/√N formula at $N=12$ is a PHENOMENOLOGICAL FIT, not a derivation. Status: CORRELATION, not derivation. Source: `calculations/v34_web_research_n12_consistency.py`.
 
-L284. **α = 1 + 1/√N is NOT a standard SYK formula** (v3.4.5). The SYK literature has Lyapunov exponent $\lambda_{\rm L}$ → 2π/β, specific heat corrections, etc. There is NO known "α = 1 + 1/√N" formula. The framework's claim that "$\alpha = 1.289\text{ derives}$ from $N=12$ SYK" is FALSE — α is calibrated to 14 M^α events, and the √12 in the formula is a curve fit. Status: PHENOMENOLOGICAL. Source: `calculations/v34_web_research_n12_consistency.py`.
+L284. **α = 1 + 1/√N is NOT a standard SYK formula** (v3.4.5). The SYK literature has Lyapunov exponent $\lambda_{\rm L}$ → 2π/β, specific heat corrections, etc. There is NO known "α = 1 + 1/√N" formula. The framework's claim that "$\alpha = 1.289\text{ derives}$ from $N=12$ SYK" is FALSE — α is calibrated to 14 $M^{alpha}$ events, and the √12 in the formula is a curve fit. Status: PHENOMENOLOGICAL. Source: `calculations/v34_web_research_n12_consistency.py`.
 
 L285. **"12 SM fermions per generation" is FALSE** (v3.4.5). Per generation: SM has 15 Weyl (no $\nu_{\rm R}$) or 16 Weyl (with $\nu_{\rm R}$) = 7-8 Dirac. NOT 12. The only legitimate "12" in SM are: (a) 12 fermion FLAVORS (6 quarks + 6 leptons across all 3 generations = 4 Dirac × 3 = 12), and (b) 12 GAUGE BOSONS (8 gluons + 3 weak + 1 hypercharge). Framework's "12 SM fermions per gen" was an error. Status: REFUTED. Source: `calculations/v34_sm_side_12_match.py`.
 
@@ -10106,7 +10106,7 @@ The derivation chain requires N = 12 to be fixed. Where does N = 12 come from?
 
 **All five independent counts give N = 12**. This is the most striking "coincidence" in the framework, but it's a CONSISTENCY, not a derivation. Why these five counts are the same is genuinely open.
 
-**Possible reason**: SM fermion count determines the c = 1/2 Ising matter content on the 2D side. The F-theory Z₁₂ structure is required for anomaly cancellation in 12D bulk. The cone depth is set by the cascade's M^α law. The Schwarzian formula α = 1 + 1/√N then gives $\alpha = 1.289\text{ specifically}$. **All these are related via the 2D quantum gravity structure**, but the formal proof is beyond this paper.
+**Possible reason**: SM fermion count determines the c = 1/2 Ising matter content on the 2D side. The F-theory Z₁₂ structure is required for anomaly cancellation in 12D bulk. The cone depth is set by the cascade's $M^{alpha}$ law. The Schwarzian formula α = 1 + 1/√N then gives $\alpha = 1.289\text{ specifically}$. **All these are related via the 2D quantum gravity structure**, but the formal proof is beyond this paper.
 
 ### L26 Final Status
 
@@ -10382,7 +10382,7 @@ So each cascade level increases log scale by α factor of the previous level. Th
 - 4 MEASURED/CALIBRATED: $M_{\rm Pl,3D}$, ε, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$= H₀ (post-A1)
 - 4 FIRST-PRINCIPLES DERIVED: α, $M_{\rm Pl,2D}$, μ, N=12
 - 2 DERIVED via α-GM and energy conservation: $M_{\rm Pl,4D}$, $E_{\rm 4D}$ (post-L308z)
-- 2 STRUCTURAL: $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ (follow from M^α law and time dilation)
+- 2 STRUCTURAL: $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$ (follow from $M^{alpha}$ law and time dilation)
 - 1 FREE: $N_{\rm sub}$ (event-specific, post-L308z)
 - TOTAL: 15 parameters (1+4+2+4+2+1+1 = 15)
 
@@ -11068,13 +11068,13 @@ After L308ag downgraded N=12 to STRUCTURAL, the user requested deeper research i
 - The "1 + 1/√N" form is the **finite-N correction to leading universal behavior**
 
 **What $\alpha = 1.289\text{ actually}$ is in the framework**:
-- It's the M^α lifetime scaling exponent
+- It's the $M^{alpha}$ lifetime scaling exponent
 - It's the time-dilation exponent ( $\gamma_{\rm 4D}$ = $(E/M_{\rm Pl,3D})^{α}$)
 - It's the back-action exponent ( $f_{\rm DE,closed}$ ∝ E^(1/(2α)) in A2 closed loop formula)
 
 **Is α = 1 + 1/√N a "derivation"?**
 - It IS a valid formula in the SYK literature for the 1/N correction
-- But its APPLICATION to the M^α law is non-standard
+- But its APPLICATION to the $M^{alpha}$ law is non-standard
 - The framework assumes $\alpha_{\rm M}^{\alpha_{\rm law}} = \alpha_{\rm Schwarzian} = \alpha_{\rm time_dilation} = \alpha_{\rm back_action}$
 - This is a POSTULATE, not a derivation
 
@@ -11136,7 +11136,7 @@ D. **N=24 vs N=12 confusion (CLARIFIED)**:
 **$\alpha = 1.289\text{ status}$**: PARTIALLY first-principles
 - Formula α = 1 + 1/√N is valid in SYK literature (1/N correction)
 - N=12 → $\alpha = 1.2887$ ✓ (within 0.025% of framework's 1.289)
-- BUT: framework's M^α law application is non-standard
+- BUT: framework's $M^{alpha}$ law application is non-standard
 - Specifically: assumes $\alpha_{\rm M}^{\alpha_{\rm law}} = \alpha_{\rm Schwarzian}$ (NOT derived)
 
 ### What Would Close the Gaps
@@ -11148,8 +11148,8 @@ D. **N=24 vs N=12 confusion (CLARIFIED)**:
    - Current status: no derivation found
 
 2. **For $\alpha = 1.289$**:
-   - Derive the M^α law from first principles of 2D CFT (not just Schwarzian)
-   - Or show that the M^α law IS the Schwarzian 1/N correction in some specific limit
+   - Derive the $M^{alpha}$ law from first principles of 2D CFT (not just Schwarzian)
+   - Or show that the $M^{alpha}$ law IS the Schwarzian 1/N correction in some specific limit
    - Current status: framework's application is plausible but unproven
 
 ### Source for This Research
@@ -11171,7 +11171,7 @@ Key references found:
 
 **L308ah (this section)**: Deeper research on N=12 and α. Both remain at the same status as before:
 - N=12: STRUCTURAL (L308ag), with no first-principles derivation found
-- $\alpha = 1.289$: PARTIALLY first-principles (L308n), but framework's M^α application is non-standard
+- $\alpha = 1.289$: PARTIALLY first-principles (L308n), but framework's $M^{alpha}$ application is non-standard
 
 **Honest conclusion**: After deeper research, neither N=12 nor $\alpha = 1.289\text{ has}$ a clean first-principles derivation. They are **structural parameters with physical motivations**, not derived values.
 
@@ -12339,7 +12339,7 @@ If SIDC's 2D universe death creates icosahedral structures (12 vertices):
 - This is a real physical connection
 - But: requires assuming icosahedral geometry of 2D universe deaths (not derived)
 
-**Mechanism 3: SYK N=12 → M^α → Lifetime**
+**Mechanism 3: SYK N=12 → $M^{alpha}$ → Lifetime**
 
 SIDC's α = 1 + 1/√12 = 1.2887 from Schwarzian SYK with N=12:
 - This gives 2D universe lifetime $\tau_{\rm 2D}$ = $(E/M_{\rm Pl,2D})^{α}$ × $t_{\rm Pl}$
@@ -12600,7 +12600,7 @@ The honest position: ** N=12 is well-motivated and confirmed, but the specific v
 
 **Weaknesses of N=12**:
 - Specific counting convention required
-- Schwarzian α ≠ M^α α (the application is a postulate)
+- Schwarzian α ≠ $M^{alpha}$ α (the application is a postulate)
 - Other α formulas exist (1+2/q, 1+1/(q-1))
 - Not THEORETICALLY UNIQUE
 
@@ -13965,7 +13965,7 @@ The $f_{\rm DE,closed}$ values span 50+ orders of magnitude across levels. The h
 
 ### What Stays the Same ( $\alpha_{2D}$ = 1.289)
 
-- ✓ 14 event lifetimes (M^α law in 2D)
+- ✓ 14 event lifetimes ($M^{alpha}$ law in 2D)
 - ✓ Schwarzian α = 1 + 1/√12
 - ✓ $M_{\rm Pl,2D} = 2955 GeV$- ✓ μ = $M_{\rm Pl,2D}$²
 - ✓ $M_{\rm Pl,4D} = 3.93 \times 10^{23}\,\text{GeV} ($ α-GM with $\alpha_{2D}$)
@@ -14331,9 +14331,9 @@ The hierarchy transitions are NOT uniform (per L308aw).
 
 ### 9. 14 Event Lifetimes — CENTRAL CLAIM
 
-The framework claims 14 event types fit M^α with $\alpha_{2D}$ = 1.289 within 1.6× of observed. This is the framework's central claim.
+The framework claims 14 event types fit $M^{alpha}$ with $\alpha_{2D}$ = 1.289 within 1.6× of observed. This is the framework's central claim.
 
-**Honest note**: The raw M^α law ( $\tau_{\rm 2D}$ = $(E/M_{\rm Pl,2D})^{α}$ × $t_{\rm Pl}$,2D) doesn't directly give observed lifetimes — there are additional factors in the actual fit formula (the 1.6× fit is what the framework achieves with proper analysis).
+**Honest note**: The raw $M^{alpha}$ law ( $\tau_{\rm 2D}$ = $(E/M_{\rm Pl,2D})^{α}$ × $t_{\rm Pl}$,2D) doesn't directly give observed lifetimes — there are additional factors in the actual fit formula (the 1.6× fit is what the framework achieves with proper analysis).
 
 ### Summary: All Major Predictions Match Observations
 
@@ -14377,7 +14377,7 @@ User request: "audit the numbers and make sure they match up to observed data"
 
 **Implication**: After Option A adoption, the framework is fully observationally consistent. The numerical values are correct.
 
-**Open**: The 14 event fit uses $\alpha_{2D}$ = 1.289 but the raw M^α law needs additional factors to give observed lifetimes. This is a known detail of the framework's actual fit procedure.
+**Open**: The 14 event fit uses $\alpha_{2D}$ = 1.289 but the raw $M^{alpha}$ law needs additional factors to give observed lifetimes. This is a known detail of the framework's actual fit procedure.
 
 
 universe age)
@@ -14413,7 +14413,7 @@ The 3+1D brane acts as a **dimensional mirror plane** between 4D (above) and 2D 
 
 ### Why DE and DM Have Opposite Signs
 
-Despite coming from the **same M^α law at different cascade levels**, DE (anti-gravity, 4D side) and DM (gravity, 2D side) have opposite signs because:
+Despite coming from the **same $M^{alpha}$ law at different cascade levels**, DE (anti-gravity, 4D side) and DM (gravity, 2D side) have opposite signs because:
 
 1. **Volume scaling asymmetry**: $V_{\rm 4D}$ ∝ r⁴ (compression when projecting to 3+1D), $V_{\rm 2D}$ ∝ r² (expansion when projecting to 3+1D). The 3+1D brane has intermediate volume r³.
 2. **Cone direction**: 4D is "above" 3+1D (transcendent, eternal, source of DE), 2D is "below" 3+1D (mortal, terminal, source of DM). The 3+1D brane is the INVERSION POINT where the sign flips.
@@ -14436,14 +14436,14 @@ The 0.4 ratio reflects the cone asymmetry: 2D extent is smaller than 3+1D extent
 
 ### Status
 
-**L308az** is a STRUCTURAL INSIGHT, not a first-principles derivation. The framework's M^α law, the cascade structure, and the dimensional inversion are all POSTULATES. L308az is a CLARIFICATION of the framework's geometric picture.
+**L308az** is a STRUCTURAL INSIGHT, not a first-principles derivation. The framework's $M^{alpha}$ law, the cascade structure, and the dimensional inversion are all POSTULATES. L308az is a CLARIFICATION of the framework's geometric picture.
 
 It does not change any numerical values. It does not introduce any new parameters. It does not close any limitations. It explains WHY the framework has DE and DM as opposite-sign phenomena despite coming from the same underlying mechanism.
 
 ### Why This Is Honest
 
 The geometric mirror plane picture is:
-- ✓ Consistent with the framework's existing math (M^α law, cone structure, dimensional inversion)
+- ✓ Consistent with the framework's existing math ($M^{alpha}$ law, cone structure, dimensional inversion)
 - ✗ Not a derivation of new physics
 - ✗ Not a prediction of new observables
 - ✗ Not a closure of any existing limitation
@@ -16591,7 +16591,7 @@ This corrected narrative is more honest and reflects SIDC's actual structure.
 - DE = 2.58 GeV/m³ × (1+z)^(-3) × DM_0
 - No freedom in the ratio
 
-**LOOSE (DE evolves)**: DE ∝ H^α
+**LOOSE (DE evolves)**: DE ∝ $H^{alpha}$
 - For α = 0: tight (standard)
 - For $\alpha = 0.5$: DE scales with √H
 - For α = 1: DE scales with H (linear)
@@ -16601,9 +16601,9 @@ This corrected narrative is more honest and reflects SIDC's actual structure.
 
 Planck 2018: w = -1.03 ± 0.03 → |w + 1| < 0.06 at 2σ
 
-If DE evolves as DE ∝ H^α, then α ≈ 0.5 $\alpha_{\rm w}$ where $\alpha_{\rm w}$ relates to w.
+If DE evolves as DE ∝ $H^{alpha}$, then α ≈ 0.5 $\alpha_{\rm w}$ where $\alpha_{\rm w}$ relates to w.
 
-Specifically: H^α ≈ (1+z)^(1.5α), and DE(z) ≈ (1+z)^(3(1+w))
+Specifically: $H^{alpha}$ ≈ (1+z)^(1.5α), and DE(z) ≈ (1+z)^(3(1+w))
 
 Equating: 3(1+w) = 1.5α → α = 2(1+w)
 
@@ -16644,7 +16644,7 @@ So DE looks perfectly constant to us. There's no mechanism in SIDC for DE to evo
    - SNe Ia: w ≈ -1 within 5%
 
 3. **'LOOSE' is allowed but constrained**:
-   - |α| < 0.12 if DE ∝ H^α
+   - |α| < 0.12 if DE ∝ $H^{alpha}$
    - Could be tiny deviations from constant DE
    - Not strongly supported by current data
 
@@ -18887,7 +18887,7 @@ SIDC's predictions span 5-10 orders of magnitude in energy, time, and frequency.
 
 ### 14.3 Long-term tests (2034+)
 
-#### μAres (next-gen PTA, 2040s?): higher-precision α
+#### μAres (next-gen PTA, 2040s?): higher-precision $\alpha$
 
 **SIDC prediction:** $\alpha = 1.29\text{ to}$ ±0.055 precision (1 dex frequency precision → 0.055 in α).
 
