@@ -22,7 +22,8 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 | c (central charge) | 1/2 | 1 surviving Ising mode from 12 Majoranas via SYK q=4 (per L117); arithmetic 12/24 = 1/2 is coincidence, NOT a general formula (L308aq) |
 | α (lifetime scaling) | 1.289 | 1 + 1/√N (saddle-point fluctuation) |
 | 1/(2α) (back-action) | 0.388 | c/α (composite) |
-| $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$| (1/(2α))-powered formula |
+| $f_{\rm DE,simple}$ (A1) | $1.13 \times 10^{-85}$ | (1/(2$\alpha_{2D}$))-powered, uses $\alpha_{2D} = 1.289$ |
+| $f_{\rm DE,closed}$ (A2) | $1.79 \times 10^{-90}$ | (1/(2$\alpha_{4D}$))-powered, uses $\alpha_{4D} = 1.577$ |
 
 **Why N = 12 is unique** (off by 0.001 from $\alpha = 1.29$):
 
@@ -51,7 +52,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 2. SIDC magic angle ~1.5-2.0° (BLG-like)
 3. 12 Majoranas = 12 SM Weyl fermions (backbone)
 4. q = 4 SYK with N = 12
-5. α = 1 + 1/√N scaling is universal
+5. α = 1 + 1/√N for 2D (REVISED v3.5.9+ A2: dim-specific, see L308ba; α_D = 1 + 1/√N_D with N_D = 12/2^{D-2})
 6. c = 1/2 Ising CFT (specific)
 7. $f_{\rm back}$ = $8.6 \times 10^{-86}\,\text{universal}$
 8. 14 event types follow $\tau_{2D} \sim M^{1.29}$
@@ -311,7 +312,7 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ( γ ~ 10⁵⁶), which is OU
 
 - 3+1D universe CURRENT AGE: 13.8 Gyr (observed); predicted total LIFETIME: ~ $10^{30}\,\text{yr}$ ( $M^{\alpha}$); very young ( $1.4 \times 10^{-20}\,\text{of}$ life so far)
 - 4D event apparent duration (3+1D frame): $10^{34}\,\text{yr}$ ( γ ~ 10⁶²)
-- $f_{\rm DE}$ = $t_{\rm Pl}$/ $\tau_{\rm 4D}$ = $1.2 \times 10^{-85}$✓
+- $f_{\rm DE,simple}$ (A1) = $t_{\rm Pl}$/ $\tau_{\rm 4D}$ = $1.13 \times 10^{-85}$ ✓ (or $f_{\rm DE,closed}$ (A2) = $1.79 \times 10^{-90}$)
 - DE matches observation (within 14%)
 
 - 2D universe lifetime: 33s (very short)
@@ -478,7 +479,7 @@ The lifetime $\tau_{\rm sub}$ is UNKNOWN — only constrained to be > 13.8 Gyr (
 - $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ (v3.3, derived via α-weighted GM; was 887 GeV in v3.1.2 Scenario X)
 - 13.8 Gyr is the universe's CURRENT AGE (observed directly)
 - 4D-bulk dynamics: UNKNOWN ( $N_{\rm sub}$, $E_{\rm sub}$, $\tau_{\rm sub}$ all undetermined)
-- $f_{\rm DE}$ = $1.2 \times 10^{-85}$/s (DE matching, doesn't depend on $N_{\rm sub}$)
+- $f_{\rm DE,simple}$ (A1) = $1.13 \times 10^{-85}$/s, or $f_{\rm DE,closed}$ (A2) = $1.79 \times 10^{-90}$/s (DE matching, doesn't depend on $N_{\rm sub}$)
 - The universe has NOT yet died → $\tau_{\rm sub}$ > 13.8 Gyr
 
 **Sub-universe mass (energy conservation)**:

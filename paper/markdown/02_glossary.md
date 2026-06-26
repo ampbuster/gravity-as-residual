@@ -1018,7 +1018,8 @@ This is consistent with observations: G has been constant to within ~10% over th
 |--------|-----------|-------|------------------|
 | ** $f_{\rm leak,2D\to3D}$** | 2D → 3+1D while alive | $1.6 \times 10^{-45}$| Negligible (0.16 J per SN) |
 | ** $f_{\rm DM,death}$** | 2D → 3+1D at death | **1** (100%) | **DM (27%) cumulative** |
-| ** $f_{\rm DE}$** | 3+1D → 4D (alive) | $1.2 \times 10^{-85}$| **DE (68%)** |
+| ** $f_{\rm DE,closed}$** (A2) | 3+1D → 4D (alive) | **$1.79 \times 10^{-90}$** | **DE (68%)** |
+| $f_{\rm DE,simple}$ (A1) | 3+1D → 4D (alive, A1) | $1.13 \times 10^{-85}$ | DE (68%) |
 | ** $f_{\rm leak,3D\to4D}$** | 3+1D → 4D continuous | ** H₀ = $2.18 \times 10^{-18}$/s** | **DM drain** (prevents over-accumulation) |
 
 **Four flows, four names, frame-neutral**:

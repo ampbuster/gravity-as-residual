@@ -181,7 +181,8 @@ v3.0 made a **major breakthrough**: a single number — **N = 12** — derives m
 | α (lifetime scaling) | 1.289 | α = 1 + 1/√N (saddle-point fluctuation) |
 | c (central charge) | 1/2 | c = 1/2 (Ising CFT, surviving mode from SYK q=4; L308aq) |
 | 1/(2α) (back-action) | 0.388 | c/α (composite) |
-| $f_{\rm DE}$ (universal) | $8.6 \times 10^{-85}$ | $(1/(2\alpha))$-powered formula |
+| $f_{\rm DE,simple}$ (A1) | $1.13 \times 10^{-85}$ | $(1/(2\alpha))$-powered, uses $\alpha_{2D} = 1.289$ |
+| $f_{\rm DE,closed}$ (A2 current) | $1.79 \times 10^{-90}$ | $(1/(2\alpha_{4D}))$-powered, uses $\alpha_{4D} = 1.577$ |
 
 N = 12 is **uniquely determined** by $\alpha = 1.29$ (off by 0.001; for N = 10, 11, 13, 14 the match is much worse).
 
@@ -1248,7 +1249,8 @@ This is consistent with observations: G has been constant to within ~10% over th
 |--------|-----------|-------|------------------|
 | ** $f_{\rm leak,2D\to3D}$** | 2D → 3+1D while alive | $1.6 \times 10^{-45}$| Negligible (0.16 J per SN) |
 | ** $f_{\rm DM,death}$** | 2D → 3+1D at death | **1** (100%) | **DM (27%) cumulative** |
-| ** $f_{\rm DE}$** | 3+1D → 4D (alive) | $1.2 \times 10^{-85}$| **DE (68%)** |
+| ** $f_{\rm DE,closed}$** (A2) | 3+1D → 4D (alive) | **$1.79 \times 10^{-90}$** | **DE (68%)** |
+| $f_{\rm DE,simple}$ (A1) | 3+1D → 4D (alive, A1) | $1.13 \times 10^{-85}$ | DE (68%) |
 | ** $f_{\rm leak,3D\to4D}$** | 3+1D → 4D continuous | ** H₀ = $2.18 \times 10^{-18}$/s** | **DM drain** (prevents over-accumulation) |
 
 **Four flows, four names, frame-neutral**:
@@ -3035,7 +3037,8 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 | c (central charge) | 1/2 | 1 surviving Ising mode from 12 Majoranas via SYK q=4 (per L117); arithmetic 12/24 = 1/2 is coincidence, NOT a general formula (L308aq) |
 | α (lifetime scaling) | 1.289 | 1 + 1/√N (saddle-point fluctuation) |
 | 1/(2α) (back-action) | 0.388 | c/α (composite) |
-| $f_{\rm back}$ (universal) | $8.6 \times 10^{-86}$| (1/(2α))-powered formula |
+| $f_{\rm DE,simple}$ (A1) | $1.13 \times 10^{-85}$ | (1/(2$\alpha_{2D}$))-powered, uses $\alpha_{2D} = 1.289$ |
+| $f_{\rm DE,closed}$ (A2) | $1.79 \times 10^{-90}$ | (1/(2$\alpha_{4D}$))-powered, uses $\alpha_{4D} = 1.577$ |
 
 **Why N = 12 is unique** (off by 0.001 from $\alpha = 1.29$):
 
@@ -3064,7 +3067,7 @@ SIDC's key parameters are now ALL determined by **N = 12**:
 2. SIDC magic angle ~1.5-2.0° (BLG-like)
 3. 12 Majoranas = 12 SM Weyl fermions (backbone)
 4. q = 4 SYK with N = 12
-5. α = 1 + 1/√N scaling is universal
+5. α = 1 + 1/√N for 2D (REVISED v3.5.9+ A2: dim-specific, see L308ba; α_D = 1 + 1/√N_D with N_D = 12/2^{D-2})
 6. c = 1/2 Ising CFT (specific)
 7. $f_{\rm back}$ = $8.6 \times 10^{-86}\,\text{universal}$
 8. 14 event types follow $\tau_{2D} \sim M^{1.29}$
@@ -3324,7 +3327,7 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ( γ ~ 10⁵⁶), which is OU
 
 - 3+1D universe CURRENT AGE: 13.8 Gyr (observed); predicted total LIFETIME: ~ $10^{30}\,\text{yr}$ ( $M^{\alpha}$); very young ( $1.4 \times 10^{-20}\,\text{of}$ life so far)
 - 4D event apparent duration (3+1D frame): $10^{34}\,\text{yr}$ ( γ ~ 10⁶²)
-- $f_{\rm DE}$ = $t_{\rm Pl}$/ $\tau_{\rm 4D}$ = $1.2 \times 10^{-85}$✓
+- $f_{\rm DE,simple}$ (A1) = $t_{\rm Pl}$/ $\tau_{\rm 4D}$ = $1.13 \times 10^{-85}$ ✓ (or $f_{\rm DE,closed}$ (A2) = $1.79 \times 10^{-90}$)
 - DE matches observation (within 14%)
 
 - 2D universe lifetime: 33s (very short)
@@ -3491,7 +3494,7 @@ The lifetime $\tau_{\rm sub}$ is UNKNOWN — only constrained to be > 13.8 Gyr (
 - $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}\,\text{GeV}$ (v3.3, derived via α-weighted GM; was 887 GeV in v3.1.2 Scenario X)
 - 13.8 Gyr is the universe's CURRENT AGE (observed directly)
 - 4D-bulk dynamics: UNKNOWN ( $N_{\rm sub}$, $E_{\rm sub}$, $\tau_{\rm sub}$ all undetermined)
-- $f_{\rm DE}$ = $1.2 \times 10^{-85}$/s (DE matching, doesn't depend on $N_{\rm sub}$)
+- $f_{\rm DE,simple}$ (A1) = $1.13 \times 10^{-85}$/s, or $f_{\rm DE,closed}$ (A2) = $1.79 \times 10^{-90}$/s (DE matching, doesn't depend on $N_{\rm sub}$)
 - The universe has NOT yet died → $\tau_{\rm sub}$ > 13.8 Gyr
 
 **Sub-universe mass (energy conservation)**:
@@ -13917,7 +13920,7 @@ $f_{\rm DE,closed}$ (was $f_{\rm back}$) | $6.03 \times 10^{-88}$ | $1.79 \times
 #### 1. $\gamma_{\rm 4D}$ changes by +20 orders
 The 4D time dilation is 10²⁰ × larger with $\alpha_{4D}$ = 1.577. This is a HUGE change.
 - Old: $\gamma_{\rm 4D} = 5.7 \times 10^{90}$
-- New: $\gamma_{\rm 4D} = 1.08 \times 10^{111}$
+- New: $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
 
 #### 2. $\tau_{\rm 3D,apparent}$ changes by +20 orders
 The apparent 3D lifetime ( $\tau_{4D} × \gamma_{4D}$) is 10²⁰ × larger.
@@ -14073,7 +14076,7 @@ The required $\epsilon$ is 4.8 orders larger, which corresponds to kL = 76.4 ins
 #### 4. $\gamma_{\rm 4D}$ and $\tau_{\rm 3D,apparent}$ are Now 20 Orders Larger
 
 - Old: $\gamma_{\rm 4D} = 5.70 \times 10^{90}$
-- New: $\gamma_{\rm 4D} = 1.08 \times 10^{111}$
+- New: $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
 - 20.3 orders of magnitude larger
 
 The 4D time dilation is now much stronger.
@@ -14108,8 +14111,8 @@ The framework is now at **v3.5.9+ A2** (was A1):
 | α (treatment) | Universal (1.289) | Dim-specific (1.289/1.408/1.577) |
 | $\epsilon$ | $1.00 \times 10^{-38}$ | $6.32 \times 10^{-34}$ |
 | kL (RS-II) | 87.5 | 76.4 |
-| $\gamma_{\rm 4D}$ | $5.70 \times 10^{90}$ | $1.08 \times 10^{111}$ |
-| $\tau_{\rm 3D,apparent}$ | $8.61 \times 10^{124}\,\text{yr}$ | $1.63 \times 10^{145}\,\text{yr}$ |
+| $\gamma_{\rm 4D}$ | $5.70 \times 10^{90}$ | $1.10 \times 10^{111}$ |
+| $\tau_{\rm 3D,apparent}$ | $8.61 \times 10^{124}\,\text{yr}$ | $1.66 \times 10^{145}\,\text{yr}$ |
 | $f_{\rm DE,closed}$ exponent | 0.388 | 0.317 |
 | $\rho_{\rm DE}$ | matches (within 12%) | matches (exact) |
 
@@ -14126,7 +14129,7 @@ With Option A adopted:
 ### Implications for Cosmology
 
 With $\alpha_{4D}$ = 1.577:
-- $\gamma_{\rm 4D} = 1.08 \times 10^{111}$ (was $5.7 \times 10^{90}$)
+- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ (was $5.7 \times 10^{90}$)
 - This is a 20-order correction to 4D time dilation
 - May affect:
   - 4D event lifetime interpretation
@@ -14157,8 +14160,8 @@ User directive: "A: Adopt $\alpha_{4D} = 1.577$ + recalibrate $\epsilon$ to $6.3
 - α is now dim-specific (not universal)
 - $\epsilon = 6.32 \times 10^{-34}$(recalibrated)
 - kL = 76.4 (RS-II)
-- $\gamma_{\rm 4D} = 1.08 \times 10^{111}$
-- $\tau_{\rm 3D,apparent} = 1.63 \times 10^{145}$ yr
+- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
+- $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ yr
 - $f_{\rm DE,closed}$ exponent = 0.317
 
 **Implication**: The framework is now at v3.5.9+ A2. The α universality claim is dropped. The DE density match is restored (with new $\epsilon$). Hierarchy transitions are level-specific.
@@ -14288,8 +14291,8 @@ After Option A adoption (α dim-specific, $\epsilon = 6.32 \times 10^{-34}$, kL 
 ### 6. $\gamma_{\rm 4D}$ and $\tau_{\rm 3D,apparent}$ — STRUCTURAL
 
 With $\alpha_{4D}$ = 1.577:
-- $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{1.577}$ = **$1.08 \times 10^{111}$** (was $5.70 \times 10^{90}$, +20 orders)
-- $\tau_{3D,apparent} = \tau_{4D} \times \gamma_{4D}$ = **$1.63 \times 10^{145}\,\text{yr}$** (was $8.61 \times 10^{124}$)
+- $\gamma_{\rm 4D}$ = $(E_{\rm 4D}/M_{\rm Pl,3D})^{1.577}$ = **$1.10 \times 10^{111}$** (was $5.70 \times 10^{90}$, +20 orders)
+- $\tau_{3D,apparent} = \tau_{4D} \times \gamma_{4D}$ = **$1.66 \times 10^{145}\,\text{yr}$** (was $8.61 \times 10^{124}$)
 
 These are STRUCTURAL quantities (not directly observed), must be self-consistent ✓
 
@@ -14800,12 +14803,12 @@ After L308ba (halving rule), L308bb ( $N_D$ interpretations), and L308bc (DOF co
 | Quantity | Option A (α universal) | Option B (α dim-specific) |
 |----------|------------------------|---------------------------|
 | α | 1.289 (universal) | 1.289 / 1.408 / 1.577 (per dim) |
-| $\gamma_{\rm 4D}$ | $5.41 \times 10^{90}$ | $1.14 \times 10^{111}$ |
+| $\gamma_{\rm 4D}$ | $5.41 \times 10^{90}$ | $1.10 \times 10^{111}$ |
 | $\epsilon$ | $1.00 \times 10^{-38}$ | $6.32 \times 10^{-34}$ |
 | $f_{\rm DE}$ | $1.13 \times 10^{-85}$ | $1.79 \times 10^{-90}$ |
 | **$\rho_{\rm DE}$** | **$2.503 \times 10^{-47}$** | **$2.506 \times 10^{-47}$** ✓ EXACT |
 | f×$\epsilon$ | 1.130× $10^{-123}$ | 1.131× $10^{-123}$ ✓ INVARIANT |
-| $\tau_{\rm 3D,apparent}$ | $8.16 \times 10^{124}\,\text{yr}$ | $1.72 \times 10^{145}\,\text{yr}$ |
+| $\tau_{\rm 3D,apparent}$ | $8.16 \times 10^{124}\,\text{yr}$ | $1.66 \times 10^{145}\,\text{yr}$ |
 
 **Both give $\rho_{\rm DE}$ exact within 0.3%. The f×$\epsilon$ invariant is identical. The data CANNOT distinguish them at the $\rho_{\rm DE}$ level.**
 
@@ -14964,8 +14967,8 @@ If the framework USES option A (universal $\alpha = 1.289$):
 - $\alpha = 1.289$ (universal, FIRST-PRINCIPLES)
 - $\epsilon = 1.00 \times 10^{-38}$ (A1 value, no recalibration needed)
 - $f_{\rm DE,simple} = 1.13 \times 10^{-85}$ (A1 value)
-- $\gamma_{\rm 4D} = 5.41 \times 10^{90}$ (A1 value, vs A2's $1.14 \times 10^{111}$)
-- $\tau_{\rm 3D,apparent} = 8.16 \times 10^{124}$ yr (A1, vs A2's $1.72 \times 10^{145}$)
+- $\gamma_{\rm 4D} = 5.41 \times 10^{90}$ (A1 value, vs A2's $1.10 \times 10^{111}$)
+- $\tau_{\rm 3D,apparent} = 8.16 \times 10^{124}$ yr (A1, vs A2's $1.66 \times 10^{145}$)
 - $\rho_{\rm DE}$ = $2.503 \times 10^{-47}\,\text{GeV}$⁴ (EXACT match, f×$\epsilon$ invariant preserved)
 
 If the framework USES option B (dim-specific α):
@@ -14975,8 +14978,8 @@ If the framework USES option B (dim-specific α):
 - $\epsilon = 6.32 \times 10^{-34}$(A2 calibration)
 - $f_{
 $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (A2 closed loop)
-- $\gamma_{\rm 4D} = 1.14 \times 10^{111}$ (A2)
-- $\tau_{\rm 3D,apparent} = 1.72 \times 10^{145}$ yr (A2)
+- $\gamma_{\rm 4D} = 1.10 \times 10^{111}$ (A2)
+- $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ yr (A2)
 - $\rho_{\rm DE}$ = $2.506 \times 10^{-47}\,\text{GeV}$⁴ (EXACT match)
 
 **Both give $\rho_{\rm DE}$ exact. The data cannot distinguish. The choice is whether to use inferred N values (option B) or stay with first-principles (option A).**
@@ -15027,7 +15030,7 @@ After the L308be re-framing established that **option A is more first-principles
 **Keep option B as the framework's active choice, pending first-principles derivations of $N_{3+1D}$ = 6 and $N_{\rm 4D}$ = 3.**
 
 This means:
-- Framework uses option B numerical values ( $\gamma_{\rm 4D} = 1.14 \times 10^{111}$, $\epsilon = 6.32 \times 10^{-34}$, $f_{
+- Framework uses option B numerical values ( $\gamma_{\rm 4D} = 1.10 \times 10^{111}$, $\epsilon = 6.32 \times 10^{-34}$, $f_{
 $f_{\rm DE,closed} = 1.79 \times 10^{-90}$)
 - L308ba halving rule preserved as valid OBSERVATION
 - L308bc DOF conservation preserved as valid OBSERVATION
@@ -15079,7 +15082,7 @@ This trade-off is HONEST and DOCUMENTED. When first-principles derivations emerg
 
 | Aspect | Status |
 |--------|--------|
-| Framework numerical values | Option B ( $\gamma_{\rm 4D} = 1.14 \times 10^{111}$, $\epsilon = 6.32 \times 10^{-34}$, $f_{
+| Framework numerical values | Option B ( $\gamma_{\rm 4D} = 1.10 \times 10^{111}$, $\epsilon = 6.32 \times 10^{-34}$, $f_{
 $f_{\rm DE,closed} = 1.79 \times 10^{-90}$) |
 | First-principles ideal | Option A ($\alpha = 1.289\text{ universal}$, A1 values) |
 | Structural pattern | PRESERVED as observation (L308ba, L308bc) |

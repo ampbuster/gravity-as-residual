@@ -139,7 +139,8 @@ v3.0 made a **major breakthrough**: a single number — **N = 12** — derives m
 | α (lifetime scaling) | 1.289 | α = 1 + 1/√N (saddle-point fluctuation) |
 | c (central charge) | 1/2 | c = 1/2 (Ising CFT, surviving mode from SYK q=4; L308aq) |
 | 1/(2α) (back-action) | 0.388 | c/α (composite) |
-| $f_{\rm DE}$ (universal) | $8.6 \times 10^{-85}$ | $(1/(2\alpha))$-powered formula |
+| $f_{\rm DE,simple}$ (A1) | $1.13 \times 10^{-85}$ | $(1/(2\alpha))$-powered, uses $\alpha_{2D} = 1.289$ |
+| $f_{\rm DE,closed}$ (A2 current) | $1.79 \times 10^{-90}$ | $(1/(2\alpha_{4D}))$-powered, uses $\alpha_{4D} = 1.577$ |
 
 N = 12 is **uniquely determined** by $\alpha = 1.29$ (off by 0.001; for N = 10, 11, 13, 14 the match is much worse).
 
