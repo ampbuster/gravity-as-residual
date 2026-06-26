@@ -67,7 +67,7 @@ Legacy parameters and their final disposition:
 
 ### `legacy_paper.md`
 Full v3.0.x era paper (single-file version before v3.0.13 split).
-197,776 bytes, ~ 600 pages equivalent.
+198,204 bytes, ~ 600 pages equivalent.
 Mostly SUPERSEDED by v3.5.7+ but kept for completeness.
 
 
