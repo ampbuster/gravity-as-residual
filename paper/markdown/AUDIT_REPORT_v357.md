@@ -24,7 +24,7 @@ Apparent "0 occurrences" were due to notation differences.
 | $\tau_{\rm SN} = 33\,s$ | 388 | (varies) | ✓ CONSISTENT |
 | 5/27/68 split | 419 | (varies) | ✓ CONSISTENT |
 | 0.13% DE (simple $f_{\rm DE}$) / 2.7% (bilateral) | 20 | (varies) | ✓ CONSISTENT |
-| ε = 10⁻³⁸ | 40 | (varies) | ✓ CONSISTENT |
+| $\epsilon$ = 10⁻³⁸ | 40 | (varies) | ✓ CONSISTENT |
 
 ## Notation Difference (NOT inconsistency)
 

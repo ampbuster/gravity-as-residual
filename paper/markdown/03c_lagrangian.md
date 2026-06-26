@@ -258,7 +258,7 @@ User question: "so it links dm / de and gravity?"
 > 
 > The "closed loop is rhetorical, not numerical" claim was REVISED. Current (v3.5.9+ A2 (α dim-specific)) framework has the closed loop as a numerical closure. See `paper/legacy/v359_README_legacy_sections.md` for full history.
 
-**The closed loop, properly formulated, is a 3D-to-4D leakage rate that provides a frame-consistent consistency check between γ, $f_{\rm back}$, ε, and DE.** This is a REVISED interpretation that replaces v10's 2D-to-3D back-projection (which required an unjustified $\tau_{\rm 4D}$).
+**The closed loop, properly formulated, is a 3D-to-4D leakage rate that provides a frame-consistent consistency check between γ, $f_{\rm back}$, $\epsilon$, and DE.** This is a REVISED interpretation that replaces v10's 2D-to-3D back-projection (which required an unjustified $\tau_{\rm 4D}$).
 
 **The proper closed loop (v3.1.1 REVISED)**:
 
@@ -273,7 +273,7 @@ For γ ∼ 10⁶² (within the SIDC cone picture's range $10^{60}\,to 10¹⁰⁰
 - $\tau_{\rm 4D} = 4.35 \times 10^{41}$ s = $1.4 \times 10^{34}\,\text{yr}$ (10²⁴ × universe age: "practically eternal")
 - $f_{\rm back} = 5.4 \times 10^{-44} / 4.35 \times 10^{41} = 1.2 \times 10^{-85}$
 
-Then DE = $f_{\rm back}$ × ε × $M_{\rm Pl}^4$:
+Then DE = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl}^4$:
 - 10⁻⁸⁵ × 10⁻³⁸ × 10⁷⁶ = $2.7 \times 10^{-47}\,\text{GeV}$⁴
 - Observed: $2.4 \times 10^{-47}\,\text{GeV}$⁴ (within 14%)
 
@@ -297,7 +297,7 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ( γ ~ 10⁵⁶), which is OU
 1. **4D ↔ 3+1D (CLOSED LOOP)**:
    - 4D event creates 3+1D (forward, $f_{\rm DE}$ = 10⁻⁸⁵)
    - 3+1D leaks back to 4D (backward, $f_{\rm DE}$ = 10⁻⁸⁵)
-   - DE = $f_{\rm back}$ × ε × $M_{\rm Pl}^4$
+   - DE = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl}^4$
    - γ ~ $10^{62}\,makes 4D event "practically eternal" from 3+1D frame
    - This is a CLOSED LOOP (same $f_{\rm back}$ in both directions)
 
@@ -337,14 +337,14 @@ The 3+1D → 2D transition is a CREATE-AND-DIE process, NOT a closed loop.
 |--------|-------------|--------|-----------|
 | Gravity weakness | $\epsilon_{\rm grav}$ = 10⁻³⁸ | **Observed** (hierarchy problem) | 4D antigravity cancellation of 3+1D gravity |
 | Dark energy (68%) | $\rho_{\rm DE}$/ $\rho_{\rm Pl}$ = $10^{-123}$ | **Observed** (cosmological constant problem) | Un-cancelled fraction of 4D antigravity |
-| $f_{\rm DE}$ = 10⁻⁸⁵ | $t_{\rm Pl}$/ $\tau_{\rm 4D}$ with γ ~ 10⁶² | **Consistency check** between γ, ε, DE | 3D-to-4D gravitational leakage |
+| $f_{\rm DE}$ = 10⁻⁸⁵ | $t_{\rm Pl}$/ $\tau_{\rm 4D}$ with γ ~ 10⁶² | **Consistency check** between γ, $\epsilon$, DE | 3D-to-4D gravitational leakage |
 | Dark matter (27%) | Σ( $M_{\rm 2D}$ × N)/V (cumulative) | **Observed** (Planck 2018) | Cumulative 2D universe deaths |
 
 **The mechanism (corrected v3.1.1)**:
 
 - 4D event's gravity **inverts** to antigravity when projected into 3+1D
 - The 4D antigravity **cancels** 3+1D's own gravity
-- The residual after cancellation = ** ε = 10⁻³⁸** (gravity weakness, OBSERVED)
+- The residual after cancellation = ** $\epsilon$ = 10⁻³⁸** (gravity weakness, OBSERVED)
 - The un-cancelled fraction of 4D antigravity = **DE = $10^{-123}$ × $M_{\rm Pl}^4$** (OBSERVED)
 - $f_{\rm DE}$ = 10⁻⁸⁵ = $t_{\rm Pl}$/ $\tau_{\rm 4D}$ = **3D-to-4D leakage rate** (with γ ~ 10⁶²)
 
@@ -365,7 +365,7 @@ $\rho_{\rm DE}$ observed (Planck 2018) = $2.5 \times 10^{-47}\,\text{GeV}$⁴
 ```
    ┌─────────────── OBSERVED ───────────────┐
    │                                         │
-   │  ε = 10⁻³⁸ (gravity weakness)           │
+   │  $\epsilon$ = 10⁻³⁸ (gravity weakness)           │
    │  ρ_DE/ρ_Pl = 10⁻¹²³ (cosmological CC)   │
    │  f_DE = 10⁻⁸⁵ = (10⁻¹²³ / 10⁻³⁸)    │
    │                                         │
@@ -377,7 +377,7 @@ $\rho_{\rm DE}$ observed (Planck 2018) = $2.5 \times 10^{-47}\,\text{GeV}$⁴
    │                                         │
    │  4D gravity inverts → 4D antigravity   │
    │  Antigravity cancels 3+1D gravity       │
-   │  Residual = ε (observed)                │
+   │  Residual = $\epsilon$ (observed)                │
    │  Un-cancelled = DE (observed)           │
    │  Ratio = $f_{\rm DE}$ (defined)          │
    │                                         │
@@ -412,7 +412,7 @@ from the framework.
 |---|---|
 | $\alpha = 1.289$ (time dilation shape) | **DERIVED** from $N=12$ SYK (1 + 1/√12) |
 | γ ~ 10⁶⁰-10¹⁰⁰ (4D time dilation) | **DERIVED** from α and $E_{\rm 4D}$ |
-| ε = 10⁻³⁸ (gravity weakness) | **OBSERVED** (hierarchy problem) |
+| $\epsilon$ = 10⁻³⁸ (gravity weakness) | **OBSERVED** (hierarchy problem) |
 | $\rho_{\rm DE}$/ $\rho_{\rm Pl}$ = $10^{-123}$ | **OBSERVED** (cosmological CC problem) |
 | $f_{\rm DE}$ = $1.13 \times 10^{-85}$| **DERIVED** (v3.3+, L308v α-GM closed loop) |
 | $M^{1.29}$ scaling law across 14 events | **DERIVED** from 2D CFT + α |
@@ -426,17 +426,17 @@ from the framework.
 - A vocabulary for the dark sector
 
 **SIDC is NOT**:
-- A derivation of ε, $f_{\rm back}$, or DE values
+- A derivation of $\epsilon$, $f_{\rm back}$, or DE values
 - A solution to the hierarchy or cosmological constant problems
 - A "closed loop" in the numerical sense
 
-**L102 REVISED (v3.1.1, FURTHER REVISED v3.3+, PARTIAL CLOSURE L308v)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha = 1.289\text{ unifies}$ forward time dilation and backward $f_{\rm DE}$. The values of ε ( 10⁻³⁸) and DE/Planck ( $10^{-123}$) are still OBSERVED. However, $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{is}$ now **DERIVED** from the framework's structure ( $M_{\rm Pl,4D}$ α-GM, $E_{\rm 4D}$, $M^{\alpha}$ law) and matches DE calibration **within 0.13%** (basically exact). The v3.1.1 "closed loop is rhetorical, not numerical" claim is **REVISED** in v3.3+.
+**L102 REVISED (v3.1.1, FURTHER REVISED v3.3+, PARTIAL CLOSURE L308v)**: The closed loop provides a consistent GEOMETRIC PICTURE across DM, DE, and gravity. The same $\alpha = 1.289\text{ unifies}$ forward time dilation and backward $f_{\rm DE}$. The values of $\epsilon$ ( 10⁻³⁸) and DE/Planck ( $10^{-123}$) are still OBSERVED. However, $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{is}$ now **DERIVED** from the framework's structure ( $M_{\rm Pl,4D}$ α-GM, $E_{\rm 4D}$, $M^{\alpha}$ law) and matches DE calibration **within 0.13%** (basically exact). The v3.1.1 "closed loop is rhetorical, not numerical" claim is **REVISED** in v3.3+.
 
-**L138 NEW (v3.1.1, PARTIAL CLOSURE L308v v3.5.9+)**: $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{was}$ v3.1.1 CALIBRATION FACTOR (ratio of observed DE to ε-suppressed Planck density). **REVISED in v3.3+ via L308v α-GM closed loop**: $f_{\rm DE}$ is now DERIVED from framework structure. See `paper/legacy/v359_README_legacy_sections.md` for the L138 closure history.
+**L138 NEW (v3.1.1, PARTIAL CLOSURE L308v v3.5.9+)**: $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{was}$ v3.1.1 CALIBRATION FACTOR (ratio of observed DE to $\epsilon$-suppressed Planck density). **REVISED in v3.3+ via L308v α-GM closed loop**: $f_{\rm DE}$ is now DERIVED from framework structure. See `paper/legacy/v359_README_legacy_sections.md` for the L138 closure history.
 
 **L139 NEW (v3.1.1, RESOLVED v3.3+ via L308v)**: The "closed loop" formula in §3.60.1 (v3.1.1 gave $f_{\rm back} \approx 4.6 \times 10^{-68}$, DE calibration $f_{\rm DE}$ = 10⁻⁸⁵, 10¹⁸ discrepancy) is **RESOLVED** in v3.3+ via: (a) 4π factor REMOVED, (b) $M_{\rm Pl,4D}$ updated to $3.93 \times 10^{23}\,\text{GeV}$ (α-GM, L308v). New $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{matches}$ DE within 0.13%. The "rhetorical, not numerical" claim is REVISED.
 
-**L140 NEW (v3.1.1, STILL OPEN v3.5.9+)**: ε = 10⁻³⁸ is OBSERVED (gravity weakness vs other forces — the hierarchy problem). SIDC's mechanism (4D antigravity cancellation) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC (still L140 OPEN in current framework).
+**L140 NEW (v3.1.1, STILL OPEN v3.5.9+)**: $\epsilon$ = 10⁻³⁸ is OBSERVED (gravity weakness vs other forces — the hierarchy problem). SIDC's mechanism (4D antigravity cancellation) is a geometric PICTURE, not a derivation. The hierarchy problem is NOT solved by SIDC (still L140 OPEN in current framework).
 
 **Net (v3.1.1)**:
 - Total: 334 pages
@@ -642,7 +642,7 @@ full analysis.
 **Setup** (per dimensional level N):
 - $M_{\rm Pl,N}$: characteristic Planck mass
 - α: universal scaling exponent (= 1.289)
-- ε: bulk-brane coupling (= 10⁻³⁸)
+- $\epsilon$: bulk-brane coupling (= 10⁻³⁸)
 
 **UP flow (DM creation, N-1 → N)**:
 
@@ -661,7 +661,7 @@ $$\rho_{\rm DM}^{(N)} = \sum_{\rm events} \frac{E}{c^2 V} \left(\frac{M_{\rm Pl,
 
 Higher-D event of energy E creates (N-1)-universe with anti-gravity effect:
 - Anti-gravity coupling: ( $M_{\rm Pl,N}$ / $M_{\rm Pl,N}$-1) $^{\alpha}$
-- Bulk-brane modulation: ε
+- Bulk-brane modulation: $\epsilon$
 - Lower-D Planck scale: $M_{\rm Pl,N}$-1⁴
 - Time dilation: $\gamma_{\rm N}$ = (E/ $M_{\rm Pl,N}$-1) $^{\alpha}$
 
@@ -671,7 +671,7 @@ $$\rho_{\rm DE}^{(N-1)} = \underbrace{\left(\frac{M_{\rm Pl,N}}{M_{\rm Pl,N-1}}\
 The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-gravity from above, leaving DE as the residual.
 
 **Numerical verification** (our universe, N=4D, N-1=3+1D, A2 with $\alpha_{4D}$ = 1.577):
-- The anti-gravity formula $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{α}$ × ε × $M_{\rm Pl,3D}^4$ / $\gamma_{\rm 4D}$ requires SAME α in both
+- The anti-gravity formula $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{α}$ × $\epsilon$ × $M_{\rm Pl,3D}^4$ / $\gamma_{\rm 4D}$ requires SAME α in both
 - With $\alpha_{4D}$ = 1.577: $(M_{\rm Pl,4D}/M_{\rm Pl,3D})^{1.577}$ / $\gamma_{\rm 4D}$ = $(M_{\rm Pl,4D}/E_{\rm 4D})^{1.577}$ = 1.17e-104
 - $\rho_{\rm DE}$ = 1.17e-104 × 6.32e-34 × (1.22e19)^4 = 1.63e-61 \,\text{GeV}^4 (NOT 2.5e-47 with $\epsilon = 6.32\text{ e}$-34)
 - 
@@ -680,7 +680,7 @@ The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-g
 - 
 - The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
 - $\rho_{\rm DE}$ = $f_{
-$f_{\rm DE,closed}$ × ε × M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
+$f_{\rm DE,closed}$ × $\epsilon$ × M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
 **Simple $f_{\rm DE,simple}$ formula (legacy A1, preserved as compact form, gives 0.13% off, near-exact)**:
 $$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$ (A2)
@@ -697,7 +697,7 @@ $f_{\rm DE,closed}$ formula is canonical (uses $\alpha_{\rm 4D} = 1.577$, $\epsi
 
 **Comparison with old framework**:
 - DM formula: per-event pulsed return (same, but explicitly UP flow)
-- DE formula: $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ (same, but explicitly DOWN flow with anti-gravity interpretation)
+- DE formula: $f_{\rm DE}$ × $\epsilon$ × $M_{\rm Pl,3D}^4$ (same, but explicitly DOWN flow with anti-gravity interpretation)
 - 5/27/68 split: "DE" = 4D event's anti-gravity (going DOWN), not 3+1D's mass going up
 
 **DM/baryon ratio (new picture)**:
@@ -1271,7 +1271,7 @@ $S_{\rm 4D,event}$ = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
 
 $S_{\rm 3+1D,brane}$ = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
                with $M_{\rm Pl,3}$ = 1.22 × $10^{19}\,\text{GeV}$
-               Λ = $f_{\rm back}$ × ε × $M_{\rm Pl,3}$² (SIDC's DE)
+               Λ = $f_{\rm back}$ × $\epsilon$ × $M_{\rm Pl,3}$² (SIDC's DE)
 
 $S_{\rm 2D,universe}$ = S_Liouville + S_Ising + S_SYK + S_FZZT
                 S_L = (1/4π) ∫ [(∂φ)² + μ e^{2φ}]
@@ -1504,7 +1504,7 @@ S_4D,event = ∫ d⁴x √(-g_4) [1/(16π G_4) R_4 + L_4D_matter]
        and   $\tau_{\rm 4D} = 1.51 \times 10^{34}\,\text{yr}$ (apparent 3+1D lifetime, calibrated)
 ```
 
-** $S_{\rm 3+1D}$,brane (REVISED, with f×ε invariant)**:
+** $S_{\rm 3+1D}$,brane (REVISED, with f×$\epsilon$ invariant)**:
 
 ```
 S_3+1D,brane = ∫ d⁴x √(-g) [1/(16π G_3) (R - 2Λ) + L_SM]
@@ -1547,8 +1547,8 @@ S_projection = σ_+ × g_couple × ∫ d⁴x d²z Φ_4D Φ_2D Θ(τ_2D - τ)    
 **S_mirror (NEW, encodes L308az explicitly)**:
 
 ```
-S_mirror = (1/2) ∫_brane ε_mirror (∂_μ Φ_4D × ∂^μ Φ_2D - Φ_4D × Φ_2D × δ_mirror)
-       with ε_mirror = +1 (3+1D is the dimensional mirror plane)
+S_mirror = (1/2) ∫_brane $\epsilon$_mirror (∂_μ Φ_4D × ∂^μ Φ_2D - Φ_4D × Φ_2D × δ_mirror)
+       with $\epsilon$_mirror = +1 (3+1D is the dimensional mirror plane)
        with δ_mirror = 0 by symmetry (brane is the inversion point)
 ```
 
@@ -1625,7 +1625,7 @@ $f_{\rm DE,closed}$ ,f_{
 $f_{\rm leak,2D→3D}$, f_{\rm leak,3D→4D}$ | L308ax |
 | $E_{\rm sub}$ in 4D term | not explicit | $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ explicit | A2 STRUCTURAL |
 | 2D universe lifetime | (E/ $M_{\rm Pl,3D}$)^α × $t_{\rm Pl}$ | $(E/M_{\rm Pl,parent})^{\alpha}$_D × $t_{\rm Pl}$,parent (dim-specific) | L308ba |
-| DM picture | pulsed death + ε × ρ | pulsed death + $f_{\rm leak,3D→4D}$ × $\rho_{\rm DM}$ (bilateral) | L308ax |
+| DM picture | pulsed death + $\epsilon$ × ρ | pulsed death + $f_{\rm leak,3D→4D}$ × $\rho_{\rm DM}$ (bilateral) | L308ax |
 | Mirror plane | not encoded | S_mirror term explicit | L308az |
 | Halving rule | unknown | $N_D$ = 12/2^{D-2} identified | L308ba |
 
@@ -1667,7 +1667,7 @@ The L120 audit of §3.67 (L116) scored 73%. The §3.68 revision integrates A2 co
 - **Numerical consistency** (5/6 → 7/7): A2 values ( $f_{
 $f_{\rm DE,closed} = 1.79 \times 10^{-90}$, $\epsilon = 6.32 \times 10^{-34}$) give EXACT match to observed $\rho_{\rm DE}$. The previous v3.1.1 closed loop had a 10¹⁸ discrepancy; §3.68 has zero discrepancy.
 - **Issue resolution** (37% → 80%): L308ar, L308az, L308ax all addressed in §3.68 with explicit Lagrangian terms (S_mirror, S_drain, halving rule).
-- **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, halving rule, f × ε invariant, σ_+×σ_-=-1).
+- **Link consistency** (12/12 → 18/18): Six new links traced (S_mirror, S_drain, $E_{\rm sub}$ explicit, halving rule, f × $\epsilon$ invariant, σ_+×σ_-=-1).
 
 **What remains open** (the 7% gap):
 - L43 (Lagrangian → α): full partition function $Z_{\rm SIDC}$ not yet computed
@@ -2047,7 +2047,7 @@ Every numerical prediction in the A2 framework uses the SAME formula chain:
 ```
 $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant preserved (across all formulas)
 
-ρ_DE = f × ε × M_Pl,3D⁴ = 2.5×$10^{-47}\,\text{GeV}^4$ ✓ EXACT match to observation
+ρ_DE = f × $\epsilon$ × M_Pl,3D⁴ = 2.5×$10^{-47}\,\text{GeV}^4$ ✓ EXACT match to observation
 
 M_Pl,4D = M_Pl,3$D^{alpha}$_2D × M_Pl,2D^(1-α_2D) = 3.93×$10^{23}\,\text{GeV}$ ✓ (-1.13% from α-GM formula)
 
@@ -2233,7 +2233,7 @@ The original §3.69.1 audit scored §3.68 at 93%. Since then, several improvemen
 - $M_{\rm Pl,4D}$ = α-GM (DERIVED)
 - $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ (DERIVED)
 
-**Still calibrated (4):** ε, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak,3D→4D}$ = H₀
+**Still calibrated (4):** $\epsilon$, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak,3D→4D}$ = H₀
 
 **Still structural (4):** $E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N_{\rm 2D}$ = 12 (SM count)
 **Inferred:** $N_{\rm 4D}$ = 3 (3 generations — multiple interpretations)

@@ -277,7 +277,7 @@ For the SN Ia 2D universe death (calibration point: $E_{\rm SN}$ = $10^{44}\,\te
 
 **For higher-energy events (BNS, AGN), the predicted $\Omega_{\rm GW}$ is *larger*, but the death frequency is *lower* (below LISA's $10^{-4}\,\text{Hz}$ band):**
 
-| Event | $f_{\rm obs}$ (Hz) | $\Omega_{\rm GW}$ ( ε=1) | LISA band? |
+| Event | $f_{\rm obs}$ (Hz) | $\Omega_{\rm GW}$ ( $\epsilon$=1) | LISA band? |
 |---|---|---|---|
 | SN Ia | 0.03 | $4.5 \times 10^{-17}$| **[PASS]** in band |
 | Short GRB | $8.2 \times 10^{-5}$| $1.7 \times 10^{-13}$| **[FAIL]** just below |
@@ -363,7 +363,7 @@ where $\rho_{\rm c}$ = $7.7 \times 10^{-10}\,\text{J}$/m³.
 
 **For higher-energy events (which have higher $\Omega_{\rm GW}$ but lower $f_{\rm obs}$):**
 
-| Event | $f_{\rm obs}$ (Hz) | $\Omega_{\rm GW}$ ( ε=1) | LISA in band? |
+| Event | $f_{\rm obs}$ (Hz) | $\Omega_{\rm GW}$ ( $\epsilon$=1) | LISA in band? |
 |---|---|---|---|
 | Core-collapse SN | $1.6 \times 10^{-3}$| $4.4 \times 10^{-15}$| yes (in band) |
 | Short GRB | $8.2 \times 10^{-5}$| $1.7 \times 10^{-13}$| NO (just below) |
