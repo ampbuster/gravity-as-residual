@@ -288,7 +288,7 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 | 03g | `03g_f_theory_12d_4d_bulk.md` | F-theory 12D as 4D bulk (HISTORICAL context) |
 | 04 | `04_predictions.md` / `04_tests.md` | Detailed predictions and tests |
 | 05 | `05_falsification.md` | What would falsify SIDC |
-| 06 | `06_limitations.md` | **All 195 honest limitations** (L308ab-bx integrated; 144 master + 51 L308ab-bx) |
+| 06 | `06_limitations.md` | **All 198 honest limitations** (L308ab-bx + L308by/cz/cc/ch/ci/cj integrated; 144 master + 54 L308ab-bx + ch/ci/cj) |
 | 16 | `16_multi_messenger.md` | **Multi-messenger predictions (L308ch)**: GW/ν/γ background, 47 Tuc priority |
 | 17 | `17_47_tuc_test.md` | **47 Tuc test plan (L308ci)**: DECISIVE SIDC vs ΛCDM test (Rubin/LSST 2025-2034) |
 | 18 | `18_lagrangian_gap.md` | **Lagrangian gap analysis (L308cj)**: 4% remaining ($Z_{\rm 2D}$, $g_{\rm couple}$, $f_{\rm leak}$, $Z_{\rm SIDC}$) |

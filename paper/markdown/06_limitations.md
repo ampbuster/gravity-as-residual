@@ -8700,7 +8700,7 @@ The total number of limitations in the paper is inconsistently reported:
 - 144 master (L1-L150, with some closed/resolved)
 - 50 unique L308s (L308ab-bw, including L308ax as §7.4.42b)
 - 1 duplicate L308bl (sections §7.4.56 AND §7.4.57)
-- **CORRECT TOTAL: 195 limitations** (or 194 if excluding duplicate bl)
+- **CORRECT TOTAL: 198 limitations** (or 197 if excluding duplicate bl, with ch/ci/cj)
 
 **MAJOR INCONSISTENCY 2: PAGE COUNT STALE IN 2 FILES**
 
@@ -8720,7 +8720,7 @@ L308ax has its own section §7.4.42b (Frame-Neutral Naming), so the L308 count s
 
 ### Recommendations
 
-1. **Update limitation count to 195 across all files** (144 master + 50 L308s + 1 dup)
+1. **Update limitation count to 198 across all files** (144 master + 54 L308s + ch/ci/cj)
 2. **Update page count to 588** in 03c_lagrangian.md and 06_limitations.md
 3. **Re-number L308bl duplicate**: change §7.4.57 to L308bm (or other unused L308)
 4. **Verify L308 numbering is complete** (no gaps in L308af-bw range)

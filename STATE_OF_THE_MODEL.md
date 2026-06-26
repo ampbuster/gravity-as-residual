@@ -36,7 +36,7 @@ m DE,closed}$, ε recalibrated
 **First-principles progress (v3.5.9+ A2)**: 0/9 → 3/9 (+ α, $M_{\rm Pl,2D}$, μ) — current is 3/15 [$N=12$ downgraded to STRUCTURAL per L308ag]
 
 **Pages**: 395 (was 405 v3.5.9+ A2 initial build, was 398 v3.5.8, was 393 v3.5.8 SESSION 1+2)
-**Limitations**: **195 honest limitations** (144 master + 51 L308ab-bx, was 131 v3.5.8, +L308t through +L308bx; REVISED)
+**Limitations**: **198 honest limitations** (144 master + 54 L308ab-bx + L308by/cz/cc/ch/ci/cj, was 131 v3.5.8)
 **GitHub**: https://github.com/ampbuster/gravity-as-residual
 **Total commits**: 813+ (as of June 20, 2026)
 **v3.5.7+ recent commits**: ~30 in v3.5 era (math wrapping, adjacent math, lint checks, naming revolution, audit, DE match fix)
