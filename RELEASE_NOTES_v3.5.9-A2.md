@@ -29,7 +29,7 @@ This is the canonical "physics paper" version. Read this first.
 
 ### What's in this release
 
-- **`paper/paper.pdf`** — Main paper, 611 pages, 2.12 MB
+- **`paper/paper.pdf`** — Main paper, 607 pages, 2.02 MB
 - **`paper/arxiv/paper_arxiv.pdf`** — Condensed arxiv paper, 6 pages, 82 KB
 - **`paper/arxiv/paper_arxiv.tex`** — LaTeX source for the arxiv paper
 - **`paper/arxiv/paper_arxiv.tex`** — LaTeX source (Qwen template)

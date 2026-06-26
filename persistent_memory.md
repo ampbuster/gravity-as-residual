@@ -5,7 +5,7 @@
 > open work items, and gotchas that should survive across sessions.
 
 **Repo:** [github.com/ampbuster/gravity-as-residual](https://github.com/ampbuster/gravity-as-residual)
-**Current version:** v3.5.9+ A2 (paper) — 611 pages, **198 honest limitations** (144 master + 54 L308ab-bx + ch/ci/cj in v3.5.9+ A2)
+**Current version:** v3.5.9+ A2 (paper) — 607 pages, **198 honest limitations** (144 master + 54 L308ab-bx + ch/ci/cj in v3.5.9+ A2)
 **v3.5.9+ A2**: APPROACH A2 (α dim-specific, $f_{\rm back}$ → $f_{
 m DE,closed}$, ε recalibrated, frame-neutral leak naming)
 **v3.5.x timeline**:
@@ -81,21 +81,21 @@ m DE,closed}$, ε recalibrated, frame-neutral leak naming)
 - v3.4.6: honest reframe of "12 propagates" as correlation, not derivation
 - v3.4.7: meta-analysis of why "12" is common in physics (arithmetic)
 - v3.4.8: universe age = $1.5 \times 10^{-15}\,\text{of}$ lifetime implications + PDF rebuild
-**Last updated:** June 22, 2026 (v3.5.9+ A2 ACTIVE: +L308af-ay + L308az (14 new limitations), +L308ax (frame-neutral leak naming), +§7.4.42b, +§7.4.44 (L308az geometric mirror plane), +web research audit (L43/L138/L144/L142a negative result), +sweeps 18-98, **198 limitations** (144 master + 14 L308af-az), **611 pages**, 2.12 MB, **15 parameters** (1+3+2+4+4+1))
+**Last updated:** June 22, 2026 (v3.5.9+ A2 ACTIVE: +L308af-ay + L308az (14 new limitations), +L308ax (frame-neutral leak naming), +§7.4.42b, +§7.4.44 (L308az geometric mirror plane), +web research audit (L43/L138/L144/L142a negative result), +sweeps 18-98, **198 limitations** (144 master + 14 L308af-az), **607 pages**, 2.12 MB, **15 parameters** (1+3+2+4+4+1))
 **This session (v3.5.8) commits**: f4c4655, 942f725, 20b83ec, 66d4fdc, 2460fcf, f47e052
 **v3.5.8+ NEW**: MCMC parameter search, α = 1+1/√12 first-principles, $N_{\rm sub}$ = $E_{\rm 4D}$/$E_{\rm sub}$ linear scaling, cone asymmetry (4D linear, 2D one-to-one), 2D universe is discrete quantum, **L26 FULL CLOSURE** (μ = (N×$v_H$)² = $8.73 \times 10^{6}\,\text{GeV}$², framework updated L308t)
 
 **v3.5.9 NEW (June 21, 2026)**: WHY $N=12$? **Z₁₂ bulk + 6D anomaly cancellation BREAKTHROUGH (L308u)**. Appelquist et al. 2001 (PRL 87, 031801) proved 3 generations required by anomaly cancellation in 6D spacetime (= 4D + 2D universal extra). Framework's 2D fiber = the 2D universal extra. So $N=12$ = 3 gens × 4 Weyl = Z₁₂ orbifold order. Unifies ALL FIVE "12"s in framework. First-principles 3/9 → **4/9**. **L138 PARTIAL CLOSURE via α-GM closed loop (L308v)**: $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}$^α × $M_{\rm Pl,2D}$^(1-α) = $3.98 \times 10^{23}\,\text{GeV}$ (1.2% match). All 3 inputs first-principles. α-GM encodes cascade's self-similar structure. 133 limitations, 403 pages.
 
 **v3.5.9+ A1 → A2 TRANSITION (June 22, 2026, A2 ACTIVE)**:
-- **APPROACH A1 (HISTORICAL, June 21)**: $f_{\rm leak}$ = H₀ as new principle. §3.67 replaced. 138 limitations, 611 pages.
+- **APPROACH A1 (HISTORICAL, June 21)**: $f_{\rm leak}$ = H₀ as new principle. §3.67 replaced. 138 limitations, 607 pages.
 - **APPROACH A2 (CURRENT, June 22)**: α dim-specific ($\alpha_{2D}$ = 1.289 for 2D→3D, $\alpha_{4D}$ = 1.577 for 3D→4D); $f_{\rm back}$ → $f_{
 m DE,closed} (LEGACY naming retired); ε recalibrated 1e-38 → 6.32e-34 (+4.8 orders); kL$ recalibrated 87.5 → 76.4 (ΔkL = -11.1).
 - **f × ε = $1.13 \times 10^{-123}\,\text{INVARIANT}$** preserved ($\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{in}$ BOTH formulas).
 - **L308ag ($N=12$ downgrade)**: $N=12$ downgraded from FIRST-PRINCIPPLES → STRUCTURAL (L308u derivation was a 1-1 mapping, not a derivation). First-principles 4/9 → 3/9.
 - **A2 PARAMETER HIERARCHY**: 1 MEASURED + 3 FIRST-PRINCIPPLES (α, $M_{\rm Pl,2D}$, μ) + 2 DERIVED ($M_{\rm Pl,4D}$, $E_{\rm 4D}$) + 4 STRUCTURAL ($E_{\rm sub}$, $\tau_{\rm 3D,apparent}$, $\gamma_{\rm 4D}$, $N=12$) + 4 CALIBRATED ($\epsilon = 6.32\text{ e}$-34, $\tau_{\rm 4D}$, AGN rate, $f_{\rm leak}$=H₀) + 1 FREE ($N_{\rm sub}$) = 15 parameters.
 
-**v3.5.9+ A2 L308af-ay + L308az (USER-DRIVEN, June 22)**: 14 new limitations (L308af-ay + new L308az geometric mirror plane insight), all awaiting master table update. **198 honest limitations** (144 master + 26 L308af-bl), 611 pages, 2.12 MB.
+**v3.5.9+ A2 L308af-ay + L308az (USER-DRIVEN, June 22)**: 14 new limitations (L308af-ay + new L308az geometric mirror plane insight), all awaiting master table update. **198 honest limitations** (144 master + 26 L308af-bl), 607 pages, 2.02 MB.
 
 **v3.5.9+ A2 L308ax FRAME-NEUTRAL LEAK NAMING (June 22, USER INSIGHT)**:
 - $f_{\rm DM}$,leak → $f_{

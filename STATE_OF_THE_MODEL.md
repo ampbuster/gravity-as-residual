@@ -12,7 +12,7 @@ m DE,closed}$)
 
 **Available formats**:
 - **ArXiv condensed** (6 pages, 86 KB): `paper/arxiv/paper_arxiv.{tex,pdf}` — primary "physics paper" version
-- **Extended development** (611 pages, 2.1 MB): `paper/paper.{md,pdf}` — full Lagrangian, 198 limitations, audit log
+- **Extended development** (607 pages, 2.02 MB): `paper/paper.{md,pdf}` — full Lagrangian, 198 limitations, audit log
 - **Markdown sources** (24 files): `paper/markdown/`
 
 **v3.5.9+ A2 BREAKTHROUGHS** (current, α dim-specific):
@@ -233,7 +233,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 ## Files in v3.5.7+
 
 **Paper**:
-- `paper/paper.pdf` (611 pages, 2.12 MB, v3.5.9+ A2)
+- `paper/paper.pdf` (607 pages, 2.02 MB, v3.5.9+ A2)
 - `paper/markdown/00_title.md` through `15_falsifiability_matrix.md`
 - `paper/markdown/03e_first_principles_c1_matrix_model.md` (NEW v3.3)
 - `paper/markdown/03f_dm_is_not_a_particle.md` (NEW v3.3.14)

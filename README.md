@@ -8,7 +8,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 📄 **[Read the paper](paper/arxiv/paper_arxiv.pdf)** (PDF, 6 pages, arXiv format)
-🗂️ **[Extended development](paper/paper.pdf)** (PDF, 611 pages, 2.1 MB — full Lagrangian, calculations, audit log)
+🗂️ **[Extended development](paper/paper.pdf)** (PDF, 607 pages, 2.02 MB — full Lagrangian, calculations, audit log)
 💻 **[GitHub repo](https://github.com/ampbuster/gravity-as-residual)**
 📚 **Cite as**: [Zenodo DOI 10.5281/zenodo.20810441](https://doi.org/10.5281/zenodo.20810441)
 
@@ -268,12 +268,12 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ## 📚 The Paper
 
 **Current version**: v3.5.9+ A2 (June 23, 2026, with Option B Strengthened + L308ba-bx chain, L308ce LaTeX audit, L308ch multi-messenger, L308ci 47 Tuc test plan, L308cj Lagrangian gap)
-**Length**: 611 pages, 2.12 MB
+**Length**: 607 pages, 2.02 MB
 **Limitations**: 198 honest limitations (144 master + 54 L308ab-bx, +L308ch + L308ci + L308cj)
 **Parameters**: 15 total (1 MEASURED + 3 FIRST-PRINCIPLES + 2 DERIVED + 4 CALIBRATED + 4 STRUCTURAL + 1 FREE)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 
-### Paper structure (24 markdown files, 611 pages)
+### Paper structure (24 markdown files, 607 pages)
 
 | # | File | Topic |
 |---|---|---|

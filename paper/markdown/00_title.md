@@ -9,7 +9,7 @@
 
 **v3.5.9+ A2 HIGHLIGHTS** (CURRENT, June 22, 2026, APPROACH A2):
 
-**Paper:** 611 pages, 2.12 MB (US Letter, PDF 1.5)
+**Paper:** 607 pages, 2.02 MB (US Letter, PDF 1.5)
 **Limitations:** 198 total (144 master + 54 v3.5.9+ A2 additions L308ab-bx + L308by/cz/cc/ch/ci/cj) — see [`paper/markdown/06_limitations.md`](markdown/06_limitations.md) for the master table (L308af-ay are pending master table updates, see L308az)
 
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):

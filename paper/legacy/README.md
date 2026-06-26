@@ -32,6 +32,12 @@ Detailed development history of v3.3.x (v3.3.1 through v3.3.15).
 
 ### `v357_audit_housekeeping.md`
 47 legacy limitations archived during the v3.5.7 consistency audit.
+
+### `v357_audit_report.md`
+Full v3.5.7 consistency audit report (consistency check of all 116 limitations
+at v3.5.7 release).
+
+**CURRENT**: Superseded by v3.5.9+ A2 audits. Kept for audit history.
 Documents which v3.0-v3.4 limitations were merged, dropped, or retained.
 
 **CURRENT**: v3.5.7 audit; framework internally consistent.
