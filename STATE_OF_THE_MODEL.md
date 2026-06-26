@@ -25,7 +25,7 @@ m DE,closed}$, ε recalibrated
   - $\tau_{\rm 3D,apparent} = 1.66\times 10^{145} (A2)$ yr (REINSTATED, time-dilated 4D event lifetime)
   - §3.67 scaled-leak formula REPLACED (1.4% match becomes coincidence)
   - Both $\gamma_{\rm 4D}$ and $\gamma_{\rm 2D}$ CONSISTENT (cascade amplification factor)
-- **198 honest limitations** (144 master + 54 L308ab-bx, +L308ch multi-messenger, +L308ci 47 Tuc test, +L308cj Lagrangian gap), **606+ pages**, paper built successfully
+- **198 honest limitations** (144 master + 54 L308ab-bx, +L308ch multi-messenger, +L308ci 47 Tuc test, +L308cj Lagrangian gap), **607 pages**, paper built successfully
 
 **v3.5.9+ previous breakthroughs** (still relevant):
 - **L308t**: L26 FULL CLOSURE. $M_{\rm Pl,2D} = 2.95\,\text{TeV}$, $\mu = 8.73 \times 10^{6}$, $M_{\rm Pl,4D}$ = $3.93 \times 10^{23}$, $N_{\rm sub} = 3.86 \times 10^{2}$- **L308u**: WHY $N=12$? Appelquist 2001 + Z₁₂ bulk + 6D anomaly cancellation

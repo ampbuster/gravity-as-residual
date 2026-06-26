@@ -13,7 +13,7 @@ This is the canonical "physics paper" version. Read this first.
 
 ## Supplementary material
 
-- **`paper/paper.pdf`** — 611-page extended development version (full Lagrangian, 198 limitations, audit log)
+- **`paper/paper.pdf`** — 607-page extended development version (full Lagrangian, 198 limitations, audit log)
 - **`paper/markdown/`** — 24 markdown source files
 - **`paper/legacy/`** — historical versions
 

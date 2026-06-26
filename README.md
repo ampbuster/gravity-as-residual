@@ -41,8 +41,8 @@ This repository contains a thought experiment in theoretical physics: a single g
 - **`paper/arxiv/paper_arxiv.tex`** — LaTeX source.
 
 ### Extended development (supplementary material)
-- **`paper/paper.pdf`** — 611-page extended version: full Lagrangian derivations (§3.60–§3.73), 198 limitations (§6), all calculation scripts, and the full audit history (L308ba–L308cj).
-- **`paper/markdown/`** — 24 source markdown files used to build the 611-page version.
+- **`paper/paper.pdf`** — 607-page extended version: full Lagrangian derivations (§3.60–§3.73), 198 limitations (§6), all calculation scripts, and the full audit history (L308ba–L308cj).
+- **`paper/markdown/`** — 24 source markdown files used to build the 607-page version.
 - **`paper/SUMMARY_v359_A1.md`** — summary of v3.5.9+ A1 (superseded by A2, kept for history).
 - **`paper/legacy/`** — historical versions and superseded approaches.
 

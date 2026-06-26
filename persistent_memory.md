@@ -2166,11 +2166,11 @@ User asked for "more errors" and "any more broken notations" - did aggressive au
 ### Total session L308dr-L308ed (Jun 25)
 - **Notation fixes**: 1264 + 8 + 344 + 202 + 46 + 20 + 4 + 7 = **1895** 
 - **Source bugs**: 30+ fixed manually
-- **Build**: STAYS CLEAN at 612 pages, 2.12 MB
+- **Build**: STAYS CLEAN at 607 pages, 2.02 MB
 
 ### Current state (2026-06-25)
 - **v3.5.9+ A2** (June 25, 2026)
-- **paper.pdf**: 612 pages, 2.12 MB, builds CLEAN
+- **paper.pdf**: 607 pages, 2.02 MB, builds CLEAN
 - **arXiv paper**: 6 pages, 213 KB
 - **Zenodo DOI**: 10.5281/zenodo.20810441
 - **Latest commits**:
@@ -2228,11 +2228,11 @@ of notation fixes.
 - 04_predictions.md L65-70: 6 table rows of plain-text numbers → all wrapped
 
 ### Build status (L308ee-L308ek)
-**CLEAN at 612 pages, 2.12 MB** after every commit
+**CLEAN at 607 pages, 2.02 MB** after every commit
 
 ### Total session L308dz-L308ek (Jun 25)
 - **Notation fixes**: ~2900+ total across 30+ files
-- **Build**: CLEAN at 612 pages, 2.12 MB
+- **Build**: CLEAN at 607 pages, 2.02 MB
 - **State**: v3.5.9+ A2, paper ready for next phase
 
 ### Xelatex remaining warnings (15)

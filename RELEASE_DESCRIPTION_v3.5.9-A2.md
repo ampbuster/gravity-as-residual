@@ -14,7 +14,7 @@ The LaTeX source is available in the repository at `paper/arxiv/paper_arxiv.tex`
 
 ### 🗂️ Supplementary: extended development
 
-- **`paper.pdf`** — 611-page extended version with full Lagrangian derivations, 198 limitations, and the complete audit history (L308ba–L308cj).
+- **`paper.pdf`** — 607-page extended version with full Lagrangian derivations, 198 limitations, and the complete audit history (L308ba–L308cj).
 - **`paper/markdown/`** — 24 source markdown files.
 - **`paper/legacy/`** — historical versions and superseded approaches.
 - **`calculations/`** — 500+ calculation scripts used to derive and verify framework values.
@@ -100,7 +100,7 @@ A DOI will be added once the release is archived on Zenodo.
 ## Links
 
 - 📄 [ArXiv paper (PDF, 6 pages)](paper/arxiv/paper_arxiv.pdf)
-- 🗂️ [Extended development (PDF, 611 pages, 2.1 MB)](paper/paper.pdf)
+- 🗂️ [Extended development (PDF, 607 pages, 2.02 MB)](paper/paper.pdf)
 - 💻 [GitHub repository](https://github.com/ampbuster/gravity-as-residual)
 - 📋 [STATE_OF_THE_MODEL.md](STATE_OF_THE_MODEL.md) — current model state
 - 🧮 [calculations/](calculations/) — derivation scripts
