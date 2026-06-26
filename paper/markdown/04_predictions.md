@@ -647,7 +647,7 @@ RAR (175 SPARC galaxies)                      175 galaxies        10% median res
 Cluster g_+ (50 Tian+ 2024 BCGs)              50 BCGs             14% median residual           Pass
 Dwarf phase-transition (5 specific cases)     5 dwarfs            5/5 consistent                Pass
 Globular cluster DM                           111 GCs             $M_{dyn}$/M_* = 1.22              Pass
-Direct detection (LZ, XENONnT, PandaX-4T)     ~8.5 tonne-yr       sigma < 1 × $10^{-47}\,\text{cm}$^2            Pass
+Direct detection (LZ, XENONnT, PandaX-4T)     ~8.5 tonne-yr       sigma < 1 × $10^{-47}\,\text{cm}^2$            Pass
 Isolated vs cluster dwarf M*-M_200            40 + 20 dwarfs      No significant difference     Pass
 AGN host DM (MaNGA, morphology-matched)        1655 AGN vs 1650 ctrl  +6.4% $M_{dyn}$ (Wilcoxon p=0.047)  Pass (qualitative)
 Cusp-core (dwarf density profiles)            7 THINGS dwarfs     V(0.5)/V(half) = 0.71         Pass
@@ -743,7 +743,7 @@ This section lists SIDC's most specific, testable predictions, the corresponding
 Prediction                          SIDC             LambdaCDM             Data Status
 ---------------------------------------------------------------------------
 AGN host DM at fixed M*             +5%                 ~0%                   Unt (confounded)
-Direct detection                    0                   ~1 × $10^{-44}\,\text{cm}$^2           Consistent (SIDC)
+Direct detection                    0                   ~1 × $10^{-44}\,\text{cm}^2$           Consistent (SIDC)
 Halo M/M* vs z                      Decreasing          Constant              Not tested
 GRB host DM at fixed M*             High                ~0%                   Not tested
 Cusp vs core                        Cores               Cusps (feedback)      Consistent (SIDC)
