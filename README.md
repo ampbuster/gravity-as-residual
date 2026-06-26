@@ -268,12 +268,12 @@ The switch from A1 to A2 is interpretive (justification), not numerical (re-cali
 ## 📚 The Paper
 
 **Current version**: v3.5.9+ A2 (June 23, 2026, with Option B Strengthened + L308ba-bx chain, L308ce LaTeX audit, L308ch multi-messenger, L308ci 47 Tuc test plan, L308cj Lagrangian gap)
-**Length**: 597 pages, 1.94 MB
+**Length**: 611 pages, 2.12 MB
 **Limitations**: 198 honest limitations (144 master + 54 L308ab-bx, +L308ch + L308ci + L308cj)
 **Parameters**: 15 total (1 MEASURED + 3 FIRST-PRINCIPLES + 2 DERIVED + 4 CALIBRATED + 4 STRUCTURAL + 1 FREE)
 **Repository**: https://github.com/ampbuster/gravity-as-residual
 
-### Paper structure (24 markdown files, 597 pages)
+### Paper structure (24 markdown files, 611 pages)
 
 | # | File | Topic |
 |---|---|---|

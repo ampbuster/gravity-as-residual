@@ -1,6 +1,6 @@
 # Layman Summary: Gravity as Residual
 
-**v3.5.9+ A2 — June 22, 2026** (CURRENT: APPROACH A2, α dim-specific, $f_{\rm back}$ → $f_{\rm DE}$,closed. 195 limitations (144 master + 51 L308ab-bw). Paper at 597 pages.)
+**v3.5.9+ A2 — June 22, 2026** (CURRENT: APPROACH A2, α dim-specific, $f_{\rm back}$ → $f_{\rm DE}$,closed. 198 limitations (144 master + 54 L308ab-bx + ch/ci/cj). Paper at 611 pages.)
 
 **v3.4 — June 2026 — F-THEORY 12D AS 4D BULK (NEW)**
 

@@ -233,7 +233,7 @@ $$\Omega_{\rm DM} = \sum_{\rm events} (\text{rate}_i) \times (\text{action}_i)$$
 ## Files in v3.5.7+
 
 **Paper**:
-- `paper/paper.pdf` (597 pages, 1.94 MB, v3.5.9+ A2)
+- `paper/paper.pdf` (611 pages, 2.12 MB, v3.5.9+ A2)
 - `paper/markdown/00_title.md` through `15_falsifiability_matrix.md`
 - `paper/markdown/03e_first_principles_c1_matrix_model.md` (NEW v3.3)
 - `paper/markdown/03f_dm_is_not_a_particle.md` (NEW v3.3.14)
