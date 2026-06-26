@@ -133,7 +133,7 @@ The $\alpha = 1.29\text{ prediction}$ is the *single point* in this range. The r
 
 Only $\alpha = 1.29\text{ fits}$ the SN data. But SIDC has **only ONE calibration point** (the 33s for SN), so the rule is *forced* and not *natural*. Alternative functional forms (logarithmic, two-component, exponential, etc.) don't fit the SN data either.
 
-**Honest verdict:** SIDC's energy-scaling rule is the *only* rule that fits the SN data, but it's not "natural" in any obvious way. The $\alpha = 1.29\text{ value}$ is an accident of the single calibration. The 4D cosmological lifespan is uncertain by *orders of magnitude* ( $10^{19}\,\text{t}$ o $10^{44}\,\text{yr}$ depending on the true α). The M_{Pl,4} ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) in §10.3 is **specific to $\alpha = 1.29$**; other α values give different (or no) floors.
+**Honest verdict:** SIDC's energy-scaling rule is the *only* rule that fits the SN data, but it's not "natural" in any obvious way. The $\alpha = 1.29\text{ value}$ is an accident of the single calibration. The 4D cosmological lifespan is uncertain by *orders of magnitude* ( $10^{19}\,to $10^{44}\,\text{yr}$ depending on the true α). The M_{Pl,4} ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) in §10.3 is **specific to $\alpha = 1.29$**; other α values give different (or no) floors.
 
 SIDC's end-of-universe picture in §10.4 is therefore **not robust to the choice of α**. The qualitative prediction (DE should evolve, SFR should decline, etc.) is robust; the quantitative prediction ( $M_{\rm Pl,4D}$ floor at $3.93 \times 10^{23}\,\text{GeV}$, end in 1-10 Gyr) is not.
 
@@ -184,7 +184,7 @@ After the trial-and-error and sensitivity analysis, SIDC's claims should be re-f
 
 **What SIDC CANNOT claim (quantitative, fragile):**
 - The exact value of α ≈ 1.29 (forced by one data point, not natural)
-- The exact 4D cosmological lifespan ( $10^{19}\,\text{t}$ o $10^{44}\,\text{yr}$ depending on α)
+- The exact 4D cosmological lifespan ( $10^{19}\,to $10^{44}\,\text{yr}$ depending on α)
 - The M_{Pl,4} ≥ $3.93 \times 10^{23}\,\text{GeV}$ (LHC bound) (specific to $\alpha = 1.29$)
 - The "end-of-universe in 1-10 Gyr" timeline (depends sensitively on $M_{\rm Pl,4D}$)
 - The specific 2D universe death frequencies (depend on α)
@@ -252,7 +252,7 @@ For SIDC's $\alpha = 1.29\text{ rule}$, the *death frequency* in our frame for e
 | BNS merger | 10⁴⁷→ 10⁵³ | $4.2 \times 10^{-6}\,\text{Hz}$ (GRB) to $4 \times 10^{-14}\,\text{Hz}$ (BNS) | **[FAIL]** (below) |
 | AGN flare | 10⁵⁵ | $7.7 \times 10^{-14}\,\text{Hz}$ | **[FAIL]** (way below) |
 
-The SN and Core-collapse SN death signals are in LISA's band ( $10^{-4}\,\text{t}$ o 1 Hz). The Short GRB is just below LISA's band. SIDC predicts a *stochastic background* in this frequency range, dominated by SN 2D universe deaths at 0.03 Hz.
+The SN and Core-collapse SN death signals are in LISA's band ( $10^{-4}\,to 1 Hz). The Short GRB is just below LISA's band. SIDC predicts a *stochastic background* in this frequency range, dominated by SN 2D universe deaths at 0.03 Hz.
 
 **Quantitative $\Omega_{\rm GW}$ estimate (Phinney 2001 / Maggiore 2000):**
 
@@ -289,7 +289,7 @@ The BNS-merger and AGN-flare death signals are *much* above LISA's noise at thei
 
 **LISA detection prospects (consolidated, v2.7.3+):**
 - **LISA will NOT detect SIDC's death GW background** for typical SN events, regardless of $\epsilon_{\rm GW}$.
-- LISA's *noise* at 0.03 Hz is ∼ 10⁻¹¹, while SIDC predicts ∼ $10^{-17}\,\text{t}$ o 10⁻²⁵. A 6-14 order-of-magnitude gap.
+- LISA's *noise* at 0.03 Hz is ∼ 10⁻¹¹, while SIDC predicts ∼ $10^{-17}\,to 10⁻²⁵. A 6-14 order-of-magnitude gap.
 - A NULL result from LISA is **consistent with** SIDC, not contradictory.
 - LISA *might* detect SIDC's *birth* GW background (a separate prediction, not analyzed here) at higher frequencies, depending on birth-GW spectrum and $\epsilon_{\rm GW}$.
 
@@ -337,7 +337,7 @@ SIDC's §10 is now in a *mature* state: the qualitative claims are robust, the q
 This section quantifies whether SIDC's death GW background can be detected by LISA (adopted Jan 2024, launch 2034+), using the Robson-Cornish (2019) LISA noise curve and the Phinney (2001) stochastic background formula. See `calculations/v27_lisa_sensitivity_check.py` for the full calculation.
 
 **LISA noise curve (Robson-Cornish 2019, arXiv:1903.04634):**
-- Frequency range: $10^{-4}\,\text{t}$ o 1 Hz (best sensitivity at ~3 mHz)
+- Frequency range: $10^{-4}\,to 1 Hz (best sensitivity at ~3 mHz)
 - Best strain sensitivity: h_c ∼ $4.5 \times 10^{-22}\,\text{at}$ f ~ 4 mHz
 - Best Omega_GW noise: ∼ $2.8 \times 10^{-12}\,\text{at}$ f ~ 2.4 mHz
 - L_arm = $2.5 \times 10^{9}\,\text{m}$, laser noise Sₓ = ( $1.5 \times 10^{-11}$)², accel noise Sₐ = ( $3 \times 10^{-15}$)²

@@ -6,7 +6,7 @@
 > for details on what was dropped.
 >
 > **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → $6.32 \times 10^{-34}$, $f_{
-m DE,closed} = 1.79 \times 10^{-90}(was f_{\rm back} = 6.03 \times 10^{-88}\,\text{in} A1, dim-specific \alpha_{4D} = 1.577). The f \times \varepsilon = 1.13× 10^{-123}$ invariant is preserved in both A1 and A2.
+$f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (was $f_{\rm back} = 6.03 \times 10^{-88}$ in A1, dim-specific $\alpha_{4D} = 1.577$). The $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant is preserved.
 
 <!-- 07_conclusion.md - part of paper.md split (v3.0.13) -->
 
@@ -117,7 +117,7 @@ Continued web research (June 2026) yields four *more* external constraints that 
 
 Continued web research in June 2026 yields five more external constraints:
 
-16. **Torsion balance ultra-light vector DM search (Ross, Shaw, Gettings, Apple, Paulson, Gundlach 2025, arXiv:2510.21764)**. The Eot-Wash group has set new limits on ultra-light vector DM coupled to baryon-minus-lepton number. The search covers $1.3 \times 10^{-22}\,\text{to}$ $1.9 \times 10^{-18}\,\text{eV}$, with peak sensitivity g₊{B-L} ≤ $9 \times 10^{-26}$. SIDC's 2D universe mass (∼ 10⁻¹⁵ GeV = 10⁻⁶ eV) is∼ 10¹² × ABOVE the search range — SIDC 2D universes are *heavy* (CDM-like), not ultra-light. The torsion balance constraint is *vacuously consistent* with SIDC (SIDC 2D universes have no Standard Model coupling, so g₊{B-L} = 0 by construction).
+16. **Torsion balance ultra-light vector DM search (Ross, Shaw, Gettings, Apple, Paulson, Gundlach 2025, arXiv:2510.21764)**. The Eot-Wash group has set new limits on ultra-light vector DM coupled to baryon-minus-lepton number. The search covers $1.3 \times 10^{-22}\,to$ $1.9 \times 10^{-18}\,\text{eV}$, with peak sensitivity g₊{B-L} ≤ $9 \times 10^{-26}$. SIDC's 2D universe mass (∼ 10⁻¹⁵ GeV = 10⁻⁶ eV) is∼ 10¹² × ABOVE the search range — SIDC 2D universes are *heavy* (CDM-like), not ultra-light. The torsion balance constraint is *vacuously consistent* with SIDC (SIDC 2D universes have no Standard Model coupling, so g₊{B-L} = 0 by construction).
 
 17. **NANOGrav 15-year stochastic GW background (Agazie et al. 2023; confirmed by EPTA, PPTA, CPTA 2024-2025)**. Multiple pulsar timing array experiments have detected evidence for a stochastic GW background at nanohertz frequencies, with h_c ∼ $2.4 \times 10^{-15}\,\text{at}$ $f_{\rm yr} = 1/{\rm year}$. Possible origins include supermassive black hole binaries (SMBHB), cosmological sources (phase transitions, cosmic strings, scalar-induced GWs), or new physics. SIDC's 2D universe births could contribute a stochastic GW background at SIDC's rate: total power $\sim 10^{60-62}$ erg/s/ ${\rm Mpc}^3$, which is ∼ 10³ × below current PTA sensitivity. SIDC's predicted 2D universe birth GW background is *not yet detectable* but is *testable* with future SKA-MPG (2030s).
 

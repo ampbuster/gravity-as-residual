@@ -252,7 +252,7 @@ User question: "so it links dm / de and gravity?"
 
 > ⚠️ **HISTORICAL FRAMEWORK NOTE (v3.1.1)**: This section describes the v3.1.1 closed-loop analysis which found a **10¹⁸ discrepancy** between the §3.60.1 formula ( $4.6 \times 10^{-68}$) and DE calibration ( $1.1 \times 10^{-85}$). This was **REVISED in v3.3+**:
 > - 4π factor REMOVED from DE formula (was a v3.1.2 empirical factor)
-> - $M_{\rm Pl,4D}$ updated from $4 \times 10^{23}\,\text{to}$ **$3.93 \times 10^{23}\,\text{GeV}$** (α-GM, DERIVED, L308v)
+> - $M_{\rm Pl,4D}$ updated from $4 \times 10^{23}\,to$ **$3.93 \times 10^{23}\,\text{GeV}$** (α-GM, DERIVED, L308v)
 > - Result: $f_{\rm DE}$ = $1.13 \times 10^{-85}\,\text{matches}$ DE calibration **within 0.13%** (basically exact)
 > - **L138 PARTIAL CLOSURE** via L308v α-GM
 > 
@@ -269,7 +269,7 @@ where:
 - $T_{\rm 4D,proper} = T_{\rm universe} \times \varepsilon$ = 4D event's proper duration in 4D's own frame
 - γ = time dilation factor between 4D and 3+1D frames
 
-For γ ∼ 10⁶² (within the SIDC cone picture's range $10^{60}\,\text{t}$ o 10¹⁰⁰):
+For γ ∼ 10⁶² (within the SIDC cone picture's range $10^{60}\,to 10¹⁰⁰):
 - $\tau_{\rm 4D} = 4.35 \times 10^{41}$ s = $1.4 \times 10^{34}\,\text{yr}$ (10²⁴ × universe age: "practically eternal")
 - $f_{\rm back} = 5.4 \times 10^{-44} / 4.35 \times 10^{41} = 1.2 \times 10^{-85}$
 
@@ -298,7 +298,7 @@ This formula required $\tau_{\rm 4D} = 10^{28}$ yr ( γ ~ 10⁵⁶), which is OU
    - 4D event creates 3+1D (forward, $f_{\rm DE}$ = 10⁻⁸⁵)
    - 3+1D leaks back to 4D (backward, $f_{\rm DE}$ = 10⁻⁸⁵)
    - DE = $f_{\rm back}$ × ε × $M_{\rm Pl}^4$
-   - γ ~ $10^{62}\,\text{m}$ akes 4D event "practically eternal" from 3+1D frame
+   - γ ~ $10^{62}\,makes 4D event "practically eternal" from 3+1D frame
    - This is a CLOSED LOOP (same $f_{\rm back}$ in both directions)
 
 2. **3+1D → 2D (CREATION + DEATH RETURN, NOT a closed loop)**:
@@ -680,7 +680,7 @@ The "normal gravity" ( $M_{\rm Pl,N}$-1⁴) is partially cancelled by the anti-g
 - 
 - The CLOSED LOOP formula (L98, L308av) is the correct A2 formula:
 - $\rho_{\rm DE}$ = $f_{
-m DE,closed} × ε × M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
+$f_{\rm DE,closed}$ × ε × M_{\rm Pl,3D}^4$ = 1.79e-90 × 6.32e-34 × 2.21e76 = 2.5e-47 ✓ EXACT
 
 **Simple $f_{\rm DE,simple}$ formula (legacy A1, preserved as compact form, gives 0.13% off, near-exact)**:
 $$\rho_{\rm DE} = f_{\rm DE,closed} \times \varepsilon \times M_{\rm Pl,3D}^{4} = 1.79 \times 10^{-90} \times 6.32 \times 10^{-34} \times (1.22 \times 10^{19})^{4} = 2.51 \times 10^{-47} \text{ GeV}^{4}$$ (A2)
@@ -1006,7 +1006,7 @@ to the **4D event → 3D universe** level using the same formula.
 | Bright blazar (TXS 0506+056, neutrino) | $1 \times 10^{59}\,\text{J}$ | $2.03 \times 10^{22}\,\text{s}$ | — | — |
 | Quasar outburst (3C 273 major) | $1 \times 10^{60}\,\text{J}$ | $1.39 \times 10^{22}\,\text{s}$ | $1.58 \times 10^{22}\,\text{s}$ | 0.88 |
 
-**24 named events spanning 50+ orders of magnitude** ( $10^{9}\,\text{t}$ o $10^{60}\,\text{J}$, τ from $10^{-43}\,\text{s}$ to $10^{22}\,\text{s}$).
+**24 named events spanning 50+ orders of magnitude** ( $10^{9}\,to $10^{60}\,\text{J}$, τ from $10^{-43}\,\text{s}$ to $10^{22}\,\text{s}$).
 
 The 8 originally tested events still match within factor 1.6. The new named events fill in gaps and provide named astronomical references:
 - Terrestrial: Hiroshima, Tsar Bomba, Tunguska, Krakatoa, Toba, Chicxulub
@@ -1218,7 +1218,7 @@ The cone is FLIPPED relative to earlier framings:
 ```
 
 The 4D event is the **eternal substrate**. From our 3+1D frame, the 4D
-event is FROZEN (time dilation γ ~ $10^{60}\,\text{t}$ o 10¹⁰⁰). Inception structure:
+event is FROZEN (time dilation γ ~ $10^{60}\,to 10¹⁰⁰). Inception structure:
 
 - **Limbo** = 4D event (eternal substrate)
 - **Reality** = 3+1D universe (our world, ~14 Gyr)
@@ -1563,7 +1563,7 @@ S_drain = -f_leak,3D→4D × ∫ d⁴x ρ_DM(brane)
 ```
 
 This term encodes L308ax: the natural cascade leaks through the 3+1D mirror plane are negligible (~88 orders below the death pulse for $f_{
-m leak,2D}→3D; ~67 orders below H₀ for f_{\rm leak,3D→4D}$ natural). The DM picture is dominated by the death pulse (DM production) and the calibrated drain (DM stability).
+$f_{\rm leak,2D→3D}$; ~67 orders below H₀ for f_{\rm leak,3D→4D}$ natural). The DM picture is dominated by the death pulse (DM production) and the calibrated drain (DM stability).
 
 #### 3.68.4 Numerical Consistency (A2 closed loop check)
 
@@ -1621,8 +1621,8 @@ It does NOT:
 $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ | L308av |
 | Projection sign | ± $g_{\rm couple}$ (arbitrary) | σ_+ and σ_- with mirror plane | L308az |
 | Frame naming | $f_{\rm back}$, $f_{\rm leak}$, $f_{\rm DM}$,leak | $f_{
-m DE,closed} ,f_{
-m leak,2D}→3D, f_{\rm leak,3D→4D}$ | L308ax |
+$f_{\rm DE,closed}$ ,f_{
+$f_{\rm leak,2D→3D}$, f_{\rm leak,3D→4D}$ | L308ax |
 | $E_{\rm sub}$ in 4D term | not explicit | $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ explicit | A2 STRUCTURAL |
 | 2D universe lifetime | (E/ $M_{\rm Pl,3D}$)^α × $t_{\rm Pl}$ | $(E/M_{\rm Pl,parent})^{\alpha}$_D × $t_{\rm Pl}$,parent (dim-specific) | L308ba |
 | DM picture | pulsed death + ε × ρ | pulsed death + $f_{\rm leak,3D→4D}$ × $\rho_{\rm DM}$ (bilateral) | L308ax |
@@ -1766,8 +1766,8 @@ If 4D has 3 generations of bulk fields, the 4D action is structurally analogous 
 | Issue resolution | 37% | 80% | L308ar/az/ax/ba addressed |
 | Mirror plane | not encoded | S_mirror term | L308az |
 | Frame-neutral naming | legacy | $f_{
-m DE,closed} ,f_{
-m leak,2D}→3D, f_{\rm leak,3D→4D}$ | L308ax |
+$f_{\rm DE,closed}$ ,f_{
+$f_{\rm leak,2D→3D}$, f_{\rm leak,3D→4D}$ | L308ax |
 | Dim-specific α | universal 1.289 | 1.289/1.408/1.577 | L308ba halving rule |
 | $E_{\rm sub}$ explicit | not specified | $E_{\rm 4D} = 386 × 1.295e77 J$| A2 STRUCTURAL |
 | Bilateral cascade | pulsed only | death pulse + drain | L308ax |
@@ -1874,7 +1874,7 @@ After the L308bh breakthrough (C(6) is the SM algebra, Stoica 2018), the user di
   - $N_{\rm 4D}$ = 3 = 3 generations (Clifford/McKay/cobordism)
 - $\epsilon = 6.32 \times 10^{-34}$, $f_{
 $f_{\rm DE,closed} = 1.79 \times 10^{-90}$, $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
-- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{EXACT}$
+- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,EXACT$
 
 #### 3.71.2 What Changed from Previous B
 
@@ -1941,7 +1941,7 @@ NO numerical changes. Option B Strengthened uses the same values as Option B (A2
 
 - $\alpha_{2D}$/3+1D/4D = 1.289/1.408/1.577
 - $\epsilon = 6.32 \times 10^{-34}$- $f_{
-m DE,closed} = 1.79 \times 10^{-90}- \gamma_{\rm 4D} = 1.10 \times 10^{111}$
+$f_{\rm DE,closed} = 1.79 \times 10^{-90}$, $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
 - $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ yr
 - $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴ (EXACT)
 
@@ -1952,7 +1952,7 @@ The switch is interpretive (justification), not numerical (re-calibration).
 - **L308bd (two valid interpretations)**: Option B Strengthened is now first-principles for all N
 - **L308be (first-principles criterion)**: Option B Strengthened wins on theoretical honesty
 - **L308bf (status note)**: REPLACED by L308bi — framework officially on B Strengthened
-- **L308bg ( $N_{3+1D}$ = 6 still patterns)**: SUPERSEDED — now first-principles
+- **L308bg ($N_{3+1D} = 6$ still patterns)**: SUPERSEDED — now first-principles
 - **L308bh (C(6) SM algebra)**: APPLIED — framework now uses this first-principles basis
 
 #### 3.71.8 What L308bi Preserves
@@ -1984,7 +1984,7 @@ The cascade framework now uses Option B Strengthened as its primary interpretati
 - All three N values first-principles derived
 - $\epsilon = 6.32 \times 10^{-34}$(A2 calibrated)
 - $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
-- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{EXACT}$
+- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,EXACT$
 
 The framework's choice is justified BOTH structurally (L308ba, L308bc, L308az) AND first-principles (L308r, Stoica 2018, Clifford/McKay/cobordism).
 

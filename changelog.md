@@ -3626,7 +3626,7 @@ Building on v2.3.1, v2.3.2 is a "five-in-order" patch adding five substantive im
 
 **Sixth addition: formal tensor construction**
 
-6. **Coordinate-Invariant Tensor Construction (T_μν)**: Full formal derivation in `supporting/T_tensor_construction.md` (367 lines). Unifies RS-II/DGP framework, 2D Dirac delta localization, and 2D Liouville/Polyakov trace anomaly. Key result: Tᵉff_μν = $T^S$M + (κ₅^4/8πG_4)S_μν + (1/8πG_4)E_μν + Tᶠossil_μν. NOVELTY: fossil's amplitude derived from 2D CFT trace anomaly (σ = (c/24π)∫R^(2)√(-γ)d²ξ). Covariant conservation proven in bulk-minimization limit ($f_{\rm back}$ = 1). 5 verification checks all pass. New §4.44. Limitation 26 PARTIALLY ADDRESSED.
+6. **Coordinate-Invariant Tensor Construction (T_μν)**: Full formal derivation in `supporting/T_tensor_construction.md` (367 lines). Unifies RS-II/DGP framework, 2D Dirac delta localization, and 2D Liouville/Polyakov trace anomaly. Key result: Tᵉff_μν = $T^S$ M + (κ₅^4/8πG_4)S_μν + (1/8πG_4)E_μν + Tᶠossil_μν. NOVELTY: fossil's amplitude derived from 2D CFT trace anomaly (σ = (c/24π)∫R^(2)√(-γ)d²ξ). Covariant conservation proven in bulk-minimization limit ($f_{\rm back}$ = 1). 5 verification checks all pass. New §4.44. Limitation 26 PARTIALLY ADDRESSED.
 
 **Seventh addition: v2.4 refactor of the tensor pipeline (commit 265)**
 
@@ -3750,7 +3750,7 @@ Where:
 - Reduces to standard RS-II brane-world when α → 0
 - Comparable in structure to Randall-Sundrum brane-world physics
 
-**§2.5.1 HONEST STATUS (commit 164):** The action is a SKELETON, not a complete theory. It has 5+ free parameters that need to be specified for a complete theory: $L_{\rm 2D}$, α, the death mechanism, $T^D$M at death, the 5/27/68 split, the cascade-MOND g₊. The cascade's contribution is the GEOMETRY; the dynamics are open problems. A mathematical physicist would need to specify these to complete the cascade.
+**§2.5.1 HONEST STATUS (commit 164):** The action is a SKELETON, not a complete theory. It has 5+ free parameters that need to be specified for a complete theory: $L_{\rm 2D}$, α, the death mechanism, $T^D$ M at death, the 5/27/68 split, the cascade-MOND g₊. The cascade's contribution is the GEOMETRY; the dynamics are open problems. A mathematical physicist would need to specify these to complete the cascade.
 
 **§4.11 NEW: First-principles g₊ derivation (commit 165).** From the action's α coupling, derived:
 

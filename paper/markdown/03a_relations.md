@@ -6,7 +6,7 @@
 > for details on what was dropped.
 >
 > **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → $6.32 \times 10^{-34}$, $f_{
-m DE,closed} = 1.79 \times 10^{-90}(was f_{\rm back} = 6.03 \times 10^{-88}\,\text{in} A1, dim-specific \alpha_{4D} = 1.577). The f \times \varepsilon = 1.13× 10^{-123}$ invariant is preserved.
+$f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (was $f_{\rm back} = 6.03 \times 10^{-88}$ in A1, dim-specific $\alpha_{4D} = 1.577$). The $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant is preserved.
 
 <!-- 03a_relations.md - part of paper.md split (v3.1, renamed from 03_relations.md for sequential ordering) -->
 
@@ -64,7 +64,7 @@ The model in this paper is one of several recent proposals that attempt to unify
 
 **The SIDC-MOND hybrid's empirical status (v2.3.0):**
 - Galaxy scale (SPARC, 175 galaxies): 10% median residual with free g₊ and M/L (commit 153)
-- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = $1.3 \times 10^{-9}$( 1σ: $5.3 \times 10^{-10}\,\text{to}$ $2.7 \times 10^{-9}$), matches Tian+ 2024's $1.7 \times 10^{-9}\,\text{within}$ 1σ (commit 159)
+- Cluster scale (Tian+ 2024, 50 BCGs): 14% median residual, MCMC $g_+$ = $1.3 \times 10^{-9}$( 1σ: $5.3 \times 10^{-10}\,to$ $2.7 \times 10^{-9}$), matches Tian+ 2024's $1.7 \times 10^{-9}\,\text{within}$ 1σ (commit 159)
 - $V_{\rm local}$ predictions test (commit 170): $g_+ \propto \sigma^{1.85}$ matches MOND EFE ( $g_+$ ∝ σ²) approximately (exponent 1.85 vs 2.0, 7.5% off). 2 of 4 predictions confirmed, 2 partial.
 
 **The SIDC-MOND hybrid is a *completion* of SIDC's RAR story, not a falsification of SIDC's framework.** SIDC's pure prediction ( $g_{\rm obs}$ = $g_{\rm bar}$ + $g_{\rm cum}$ + $g_{\rm active}$) was falsified by real SPARC (commit 152, Limitation 19). SIDC's *framework* (4D event → 3+1D → 2D, with cumulative 2D universe gravity) survives because the SIDC-MOND hybrid is a *natural completion*: SIDC provides the *geometric origin* of $g_+$, MOND provides the *functional form* of $g_{\rm obs}$( $g_{\rm bar}$). The hybrid model is a *prediction* of SIDC (Limitation 27), and it's *consistent* with the cluster-scale data (Limitation 28). A specific implementation of SIDC would need to derive MOND's interpolation function from SIDC's 4D event physics, or accept that the RAR functional form comes from modified gravity rather than SIDC's pure cumulative-2D-universe-gravity picture (Limitation 27).

@@ -94,7 +94,7 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 ### §17.5.1 Stellar Velocity Dispersion Profile
 - **SIDC**: σ(r) follows Plummer/King profile from $M_{\rm stars}$ alone
 - **ΛCDM**: σ(r) has enhanced outer tail due to DM spike
-- **Measurement**: Rubin/LSST proper motions of ~ $10^{5}\,\text{s}$ tars in 47 Tuc
+- **Measurement**: Rubin/LSST proper motions of ~ $10^{5}\,stars in 47 Tuc
 
 ### §17.5.2 Escape Velocity
 - **SIDC**: $v_{\rm esc}$ = √(2GM_stars/r) — from stellar mass only
@@ -102,7 +102,7 @@ The ΛCDM prediction is **highly profile-dependent**, but in all cases $M_{\rm d
 - **Measurement**: High-velocity tail of stellar velocities
 
 ### §17.5.3 Tidal Stream Morphology
-- 47 Tuc has a long tidal stream (~ $10^{5}\,\text{s}$ tars stripped over Gyr)
+- 47 Tuc has a long tidal stream (~ $10^{5}\,stars stripped over Gyr)
 - **SIDC**: clean stream following Galactic potential
 - **ΛCDM**: stream perturbed by DM subhalos (gaps, wiggles)
 - **Measurement**: Gaia + Rubin wide-field photometry

@@ -126,7 +126,7 @@ See `calculations/vflat_morphology_test.py` for the full analysis.
 
 The V1 AGN test (§4.19, commit 230) was confounded by morphology: high-logSFRHa galaxies are mostly late-type (with intrinsically lower $M_{dyn}$/ M_*), so the test measured "late vs early type" more than "AGN vs not AGN." This V2 addresses that confound by matching AGN vs control galaxies in **( M_*, sigma)** cells, where sigma is a proxy for morphology (high sigma = early-type, low sigma = late-type).
 
-**SIDC prediction:** AGN hosts have ~5-15% more $M_{dyn}$/ M_* than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function ( ∼ $10^{25}\,\text{t}$ imes SN contribution per event).
+**SIDC prediction:** AGN hosts have ~5-15% more $M_{dyn}$/ M_* than matched non-AGN hosts, because AGN events are high-E enough to contribute significantly via the smooth $E^{1+\alpha}$ creation function ( ∼ $10^{25}\,times SN contribution per event).
 
 **Data:** MaNGA DR15 (Sanchez+ 2018, J/ApJS/262/36), 10,220 galaxies. WHAN diagram classification (Cid Fernandes+ 2010):
 - 1,655 WHAN AGN (logSFRHa > 0, sigma > 80)
@@ -587,7 +587,7 @@ See `calculations/cmb_cascade_prediction.py` and `calculations/cmb_cascade_predi
 
 **The question:** is SIDC's $g_+$ universal across galaxy masses, or does it have a mass dependence?
 
-**Approach.** Fit (M/L, $g_+$) per galaxy on the SPARC database (Lelli+ 2016c), using the MOND interpolation function. Use quality cuts (Q ≥ 1, residual < 0.1) to get 43 high-quality fits across 4.5 decades in baryonic mass ( M_{b} ∼ $6.5 \times 10^{6}\,\text{to}$ 2.5 × $10^{11} M_\odot$).
+**Approach.** Fit (M/L, $g_+$) per galaxy on the SPARC database (Lelli+ 2016c), using the MOND interpolation function. Use quality cuts (Q ≥ 1, residual < 0.1) to get 43 high-quality fits across 4.5 decades in baryonic mass ( M_{b} ∼ $6.5 \times 10^{6}\,to$ 2.5 × $10^{11} M_\odot$).
 
 **Results.**
 

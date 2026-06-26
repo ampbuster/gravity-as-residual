@@ -6,7 +6,7 @@
 > for details on what was dropped.
 >
 > **A2 NOTE (v3.5.9+ A2, June 22, 2026)**: ε recalibrated 10⁻³⁸ → $6.32 \times 10^{-34}$, $f_{
-m DE,closed} = 1.79 \times 10^{-90}(was f_{\rm back} = 6.03 \times 10^{-88}\,\text{in} A1, dim-specific \alpha_{4D} = 1.577). The f \times \varepsilon = 1.13× 10^{-123}$ invariant is preserved.
+$f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (was $f_{\rm back} = 6.03 \times 10^{-88}$ in A1, dim-specific $\alpha_{4D} = 1.577$). The $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant is preserved.
 
 <!-- 03b_predictions.md - part of paper.md split (v3.1, renamed from 03_predictions.md for sequential ordering) -->
 
@@ -604,7 +604,7 @@ massive galaxies, and galaxy clusters (not just dwarfs).
 
 SIDC's qualitative SFH-DM correlation is tested against
 **21 galaxies with consensus $M_{dyn}$ measurements** spanning 10
-orders of magnitude in M_{b} (from GCs at $10^{5}\,\text{t}$ o clusters at 10¹⁴):
+orders of magnitude in M_{b} (from GCs at $10^{5}\,to clusters at 10¹⁴):
 
 | Galaxy | M_{b} ( $M_\odot$) | $M_{dyn}$ ( $M_\odot$) | $M_{dyn}$/ M_{b} | Type | SIDC |
 |--------|-----------|-------------|-----------|------|---------|
