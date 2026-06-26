@@ -129,7 +129,7 @@ Or, equivalently, a sharp power law:
 
 $$R_{SIDC} \propto (\frac{dE}{dV})^\alpha \quad where \quad \alpha \gg 1$$
 
-The *principled* threshold: $\rho_{crit}$ corresponds to an event energy of roughly $E_{crit} \sim 10^{30}$ J (10 ³⁷ erg). Below this, no 2D universe SIDC. Above this, full SIDC.
+The *principled* threshold: $\rho_{crit}$ corresponds to an event energy of roughly $E_{crit} \sim 10^{30}$ J (10³⁷ erg). Below this, no 2D universe SIDC. Above this, full SIDC.
 
 *This completely resolves the AGC 114905 anomaly* (Mancera Piña+ 2024):
 - AGC 114905 has ongoing low-mass star formation, but the local energy density in its SF regions *never* crosses $\rho_{crit}$
@@ -149,14 +149,14 @@ The *principled* threshold: $\rho_{crit}$ corresponds to an event energy of roug
 - **KKR 25 (DM-rich, dSph):** Intermediate-age SF (1-4 Gyr ago) BELOW current threshold; cumulative return via $S_{\rm destruction}$ contributes to present-day DM
 
 *Predictions of the phase-transition principle:*
-- AGC 114905 should have NO massive O/B stars, NO recent SN remnants, NO high-energy events above 10 ³⁰ J
-- DF2/DF4 should have NO high-energy events above 10 ³⁰ J in their recent past
+- AGC 114905 should have NO massive O/B stars, NO recent SN remnants, NO high-energy events above 10³⁰ J
+- DF2/DF4 should have NO high-energy events above 10³⁰ J in their recent past
 - Galaxies with KNOWN recent SN should be DM-richer than quiescent galaxies of the same mass
 - AGN-host galaxies should be DM-richer than non-AGN galaxies of the same mass
 
 The phase-transition principle is **testable** with stellar population synthesis (SPS) of UDGs and dwarf galaxies. SIDC's specific prediction: SF galaxies should have HIGHER $g_+$ than quiescent galaxies of the same M_{b}, with the ratio set by the SF's *peak event energy* relative to $E_{crit}$.
 
-*Energy-deposition threshold (v2.2.1) refined by the phase-transition principle (v2.3.0):* The threshold is no longer just "energy deposited in 3+1D" but specifically "energy deposited above the critical density $\rho_{crit}$." This is a *quantitative* threshold (with $\rho_{crit}$ having a specific value of ~10 ³⁰ J per event) rather than a qualitative principle.
+*Energy-deposition threshold (v2.2.1) refined by the phase-transition principle (v2.3.0):* The threshold is no longer just "energy deposited in 3+1D" but specifically "energy deposited above the critical density $\rho_{crit}$." This is a *quantitative* threshold (with $\rho_{crit}$ having a specific value of ~10³⁰ J per event) rather than a qualitative principle.
 
 *The Sun-versus-galaxy distinction.* The energy-deposition threshold principle *also* resolves a related observation: the *Sun* contains a vast quantity of neutrinos ( ∼ 10³⁸ /s being produced by fusion, plus the cosmic neutrino background) but *negligible* dark matter, while *galaxies* contain both neutrinos and dark matter in significant quantities. Under SIDC: the Sun's *neutrino content* does not contribute to its dark matter (neutrinos are in flight, not depositing energy, per the threshold principle). The Sun's *photons, charged particles, and overall stellar activity* DO deposit energy inside the Sun and so DO create 2D universes, but the Sun is a single star — its cumulative 2D universe contribution is small compared to the galaxy's cumulative contribution ( ∼ $10^{10}\,stars over 13.8 Gyr). The dark matter in a galaxy is the *cumulative* effect of 2D universe back-projection, integrated over the galaxy's *entire* history of energetic activity, not the present-day content of any individual object. The Sun's *individual* cumulative contribution is small (it's one star, ~10 Gyr old); the galaxy's *collective* cumulative contribution is large ( ∼ $10^{10}\,stars, 13.8 Gyr of activity). The Sun's *neutrino production* is large ( 10³⁸ /s) but *irrelevant* to dark matter (in flight, not depositing); the Sun's *dark matter content* is small (cumulative activity is small); the galaxy's *neutrino production* is also large ( 10⁴⁸ /s, summed over all stars) and *also irrelevant* to dark matter (same reason); the galaxy's *dark matter content* is large (cumulative activity is large). The two effects (neutrinos in flight, dark matter as cumulative deposition) are *distinct* and *independent*. This is a *consistency check* for SIDC: the model correctly predicts that *both* neutrinos and dark matter are present in galaxies (they are), that the Sun has neutrinos but little dark matter (consistent with the Sun's small cumulative activity), and that the Sun's *neutrino* content does not produce a "solar neutrino dark matter" excess (because the energy-deposition threshold excludes in-flight neutrinos). The Sun's dark matter content is constrained by direct-detection experiments and by neutrino telescope searches for dark matter annihilation to be very small (less than ∼ 10⁻¹⁰ of the Sun's mass from annihilation limits), which is *consistent* with SIDC's prediction that the Sun's *individual* dark matter contribution is small.
 

@@ -722,7 +722,7 @@ L308p. **Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8, USER-INSIGHT)
 L308q. **2D universe is discrete quantum (NEW v3.5.8, USER-INSIGHT)**. User asked why can't there be 2 half-mass universes per event. Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM (if lifetime is from event energy) but violate geometric constraint $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$. Framework's $M_{\rm 2D}$ is DERIVED from 5D AdS projection, not adjustable. 2D universe behaves as discrete 'particle' with fixed mass. Splitting would require different geometry, 2D CFT (multiple saddle points), and $M_{\rm Pl,2D}$ value (breaks α-GM by 9.4%). Within framework: $M_{\rm 2D}$ is quantum, smallest unit of DM. Source: `calculations/v35_2d_universe_quantum.py`.
 
 
-L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)**. The 3% offset between framework's μ = $9 \times 10^{6}\,\text{GeV}$ ² and the new derivation μ = ( N × $v_{\rm Higgs}$) ² = $8.73 \times 10^{6}\,\text{GeV}$ ² is within rounding. This REDUCES μ from CALIBRATED to DERIVED with 3 inputs:
+L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)**. The 3% offset between framework's μ = $9 \times 10^{6}\,\text{GeV}$² and the new derivation μ = ( N × $v_{\rm Higgs}$)² = $8.73 \times 10^{6}\,\text{GeV}$² is within rounding. This REDUCES μ from CALIBRATED to DERIVED with 3 inputs:
 
 1. ** α = 1 + 1/ $\sqrt{12}$ = 1.2886751346** (FIRST-PRINCIPPLES, L308n, Schwarzian SYK $N=12$)
 2. ** $v_{\rm Higgs}$ = 246.22 GeV** (MEASURED, LEP+SLD combined Higgs mass)
@@ -730,7 +730,7 @@ L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (N
 
 **Derivation chain**:
 - $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 12 × 246.22 = 2954.64 GeV (3% off framework's 3 TeV choice)
-- μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$ ² (3% off framework's $9 \times 10^{6}$)
+- μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$² (3% off framework's $9 \times 10^{6}$)
 - $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = $3.93 \times 10^{23}\,\text{GeV}$ (matches framework's $4 \times 10^{23}\,\text{within}$ 2%)
 
 **L26 STATUS: OPEN → PARTIAL CLOSURE**. μ is no longer a calibrated parameter but follows from the same chain that gives $M_{\rm Pl,2D}$ and $M_{\rm Pl,4D}$.
@@ -739,7 +739,7 @@ L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (N
 - WHY $N=12$ specifically? (3 generations × 4 Weyl is consistent but not derived)
 - WHY α = 1 + 1/ $\sqrt{N}$ for SYK? (Schwarzian formula, framework-adopted)
 
-**Caveat**: The framework's choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ vs the derivation's $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ reflects rounding. If we accept the derivation chain as primary, μ = $8.73 \times 10^{6}\,\text{GeV}$ ² (not $9 \times 10^{6}$). The framework should UPDATE μ to $8.73 \times 10^{6}\,\text{GeV}$ ² for internal consistency.
+**Caveat**: The framework's choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ vs the derivation's $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ reflects rounding. If we accept the derivation chain as primary, μ = $8.73 \times 10^{6}\,\text{GeV}$² (not $9 \times 10^{6}$). The framework should UPDATE μ to $8.73 \times 10^{6}\,\text{GeV}$² for internal consistency.
 
 **First-principles progress**: 2/9 → **3/9** (was α, $M_{\rm Pl,2D}$, now also μ). Source: `calculations/v35_mu_N_vH_derivation.py`.
 L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIRECTED)**. After §7.4.16's L26 PARTIAL CLOSURE via L308r (3% offset), 8 further derivation paths were attempted to FULLY close L26. **None bridge the 3% offset**. The 3% offset is genuinely from framework's $M_{\rm Pl,2D} = 2.95$ TeV (rounded) vs derivation's 2.95 TeV (exact N × $v_H$). Of 8 paths:
@@ -868,7 +868,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 **3. $N_{\rm sub} = 3.86 \times 10^{2}$ first-principles**: Energy conservation $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ gives $E_{\rm sub}$ = $1.295 \times 10^{77}\,\text{J}$ (~cluster mass, $N_{\rm sub} = 386$= $E_{\rm 4D}$/ $E_{\rm sub}$, REVISED L308z). No physical principle determines $N_{\rm sub}$. Status: FREE (L144 OPEN).
 
-**4. μ = $M_{\rm Pl,2D}^2$ first-principles (PARTIAL CLOSURE via L308r)**: DERIVED via N × $v_{\rm Higgs}$ chain: μ = (12 × 246) ² = $8.73 \times 10^{6}\,\text{GeV}$ ² (3% off framework's $9 \times 10^{6}$). Combines α = 1 + 1/ $\sqrt{12}$ (L308n first-principles), $v_{\rm Higgs}$ (measured), N = 12 (structural). Status: **DERIVED** (L308r).
+**4. μ = $M_{\rm Pl,2D}^2$ first-principles (PARTIAL CLOSURE via L308r)**: DERIVED via N × $v_{\rm Higgs}$ chain: μ = (12 × 246)² = $8.73 \times 10^{6}\,\text{GeV}$² (3% off framework's $9 \times 10^{6}$). Combines α = 1 + 1/ $\sqrt{12}$ (L308n first-principles), $v_{\rm Higgs}$ (measured), N = 12 (structural). Status: **DERIVED** (L308r).
 
 **5. ε = 10⁻³⁸ hierarchy constant**: $f_{\rm DE}$ = ( $M_{\rm Pl,2D}$/ $E_{\rm SN}$) $^{\alpha}$ ≈ 10⁻⁶⁵ (way bigger than needed). ε is separate factor calibrated to give DE. Status: OPEN (calibrated).
 
@@ -880,7 +880,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 **UPDATED v3.5.8+ (after L308r, this work)**: After 7+ systematic attempts, **3 of the 9 framework parameters now have first-principles derivations**:
 - **L43 ( α) PARTIAL → CLOSED via L308n**: α = 1 + 1/ $\sqrt{12}$ = 1.2887, matches framework 1.289 within 0.025%
-- **L308r ( $M_{\rm Pl,2D}$, μ) CLOSED (this work)**: $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 2955 GeV; μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$ ²
+- **L308r ( $M_{\rm Pl,2D}$, μ) CLOSED (this work)**: $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 2955 GeV; μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$²
 
 The framework is:
 - **Internally consistent** (multiple parameters cross-check via α-GM, closed loop, $M^{\alpha}$ law)
@@ -1616,19 +1616,19 @@ This work REDUCES μ from CALIBRATED to DERIVED via a 3-input chain:
 
 **DERIVATION**:
 - $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 12 × 246.22 GeV = **2954.64 GeV = 2.95 TeV** (within 1.5% of framework's 3 TeV)
-- μ = $M_{\rm Pl,2D}^2$ = (2954.64) ² = **8.73 × 10 ⁶ GeV ²** (3% off framework's 9 × 10 ⁶, within rounding)
+- μ = $M_{\rm Pl,2D}^2$ = (2954.64)² = **8.73 × 10⁶ GeV²** (3% off framework's 9 × 10⁶, within rounding)
 
 **VERIFICATION** via α-GM consistency:
-- $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = (1.22 × 10 ¹⁹) $^{1.289}$ × (2954.64) $^{-0.289}$ = **3.93 × 10 ²³ GeV**
-- Framework uses $M_{\rm Pl,4D}$ = 4 × 10 ²³ GeV
+- $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = (1.22 × 10¹⁹) $^{1.289}$ × (2954.64) $^{-0.289}$ = **3.93 × 10²³ GeV**
+- Framework uses $M_{\rm Pl,4D}$ = 4 × 10²³ GeV
 - Match: 98.2% (within 2%)
 
 ### Why This Works (Structural Reasoning)
 
 The cascade has THREE different $M_{\rm Pl}$ at three different levels:
-- $M_{\rm Pl,3D}$ = 1.22 × 10 ¹⁹ GeV (MEASURED)
+- $M_{\rm Pl,3D}$ = 1.22 × 10¹⁹ GeV (MEASURED)
 - $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 2.95 TeV (DERIVED via N × $v_{\rm Higgs}$ EW coincidence)
-- $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = 3.93 × 10 ²³ GeV (DERIVED via α-GM consistency)
+- $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = 3.93 × 10²³ GeV (DERIVED via α-GM consistency)
 
 The "12" appears as:
 - N = 12 (SYK fermion count)
@@ -1655,7 +1655,7 @@ The remaining 6 parameters:
 
 1. **WHY N = 12 specifically?** (3 generations × 4 Weyl is consistent with SM but not derived from deeper principle)
 2. **WHY α = 1 + 1/ $\sqrt{N}$ for SYK?** (Schwarzian formula adopted from literature, not derived from cascade)
-3. **The 3% offset** between $\mu = 8.73$ × 10 ⁶ (derivation) and μ = 9 × 10 ⁶ (framework choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$). This reflects rounding in $M_{\rm Pl,2D}$.
+3. **The 3% offset** between $\mu = 8.73$ × 10⁶ (derivation) and μ = 9 × 10⁶ (framework choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$). This reflects rounding in $M_{\rm Pl,2D}$.
 
 ### Status Updates
 

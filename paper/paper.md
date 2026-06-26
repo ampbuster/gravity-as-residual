@@ -374,7 +374,7 @@ Or, equivalently, a sharp power law:
 
 $$R_{SIDC} \propto (\frac{dE}{dV})^\alpha \quad where \quad \alpha \gg 1$$
 
-The *principled* threshold: $\rho_{crit}$ corresponds to an event energy of roughly $E_{crit} \sim 10^{30}$ J (10 ³⁷ erg). Below this, no 2D universe SIDC. Above this, full SIDC.
+The *principled* threshold: $\rho_{crit}$ corresponds to an event energy of roughly $E_{crit} \sim 10^{30}$ J (10³⁷ erg). Below this, no 2D universe SIDC. Above this, full SIDC.
 
 *This completely resolves the AGC 114905 anomaly* (Mancera Piña+ 2024):
 - AGC 114905 has ongoing low-mass star formation, but the local energy density in its SF regions *never* crosses $\rho_{crit}$
@@ -394,14 +394,14 @@ The *principled* threshold: $\rho_{crit}$ corresponds to an event energy of roug
 - **KKR 25 (DM-rich, dSph):** Intermediate-age SF (1-4 Gyr ago) BELOW current threshold; cumulative return via $S_{\rm destruction}$ contributes to present-day DM
 
 *Predictions of the phase-transition principle:*
-- AGC 114905 should have NO massive O/B stars, NO recent SN remnants, NO high-energy events above 10 ³⁰ J
-- DF2/DF4 should have NO high-energy events above 10 ³⁰ J in their recent past
+- AGC 114905 should have NO massive O/B stars, NO recent SN remnants, NO high-energy events above 10³⁰ J
+- DF2/DF4 should have NO high-energy events above 10³⁰ J in their recent past
 - Galaxies with KNOWN recent SN should be DM-richer than quiescent galaxies of the same mass
 - AGN-host galaxies should be DM-richer than non-AGN galaxies of the same mass
 
 The phase-transition principle is **testable** with stellar population synthesis (SPS) of UDGs and dwarf galaxies. SIDC's specific prediction: SF galaxies should have HIGHER $g_+$ than quiescent galaxies of the same M_{b}, with the ratio set by the SF's *peak event energy* relative to $E_{crit}$.
 
-*Energy-deposition threshold (v2.2.1) refined by the phase-transition principle (v2.3.0):* The threshold is no longer just "energy deposited in 3+1D" but specifically "energy deposited above the critical density $\rho_{crit}$." This is a *quantitative* threshold (with $\rho_{crit}$ having a specific value of ~10 ³⁰ J per event) rather than a qualitative principle.
+*Energy-deposition threshold (v2.2.1) refined by the phase-transition principle (v2.3.0):* The threshold is no longer just "energy deposited in 3+1D" but specifically "energy deposited above the critical density $\rho_{crit}$." This is a *quantitative* threshold (with $\rho_{crit}$ having a specific value of ~10³⁰ J per event) rather than a qualitative principle.
 
 *The Sun-versus-galaxy distinction.* The energy-deposition threshold principle *also* resolves a related observation: the *Sun* contains a vast quantity of neutrinos ( ∼ 10³⁸ /s being produced by fusion, plus the cosmic neutrino background) but *negligible* dark matter, while *galaxies* contain both neutrinos and dark matter in significant quantities. Under SIDC: the Sun's *neutrino content* does not contribute to its dark matter (neutrinos are in flight, not depositing energy, per the threshold principle). The Sun's *photons, charged particles, and overall stellar activity* DO deposit energy inside the Sun and so DO create 2D universes, but the Sun is a single star — its cumulative 2D universe contribution is small compared to the galaxy's cumulative contribution ( ∼ $10^{10}\,stars over 13.8 Gyr). The dark matter in a galaxy is the *cumulative* effect of 2D universe back-projection, integrated over the galaxy's *entire* history of energetic activity, not the present-day content of any individual object. The Sun's *individual* cumulative contribution is small (it's one star, ~10 Gyr old); the galaxy's *collective* cumulative contribution is large ( ∼ $10^{10}\,stars, 13.8 Gyr of activity). The Sun's *neutrino production* is large ( 10³⁸ /s) but *irrelevant* to dark matter (in flight, not depositing); the Sun's *dark matter content* is small (cumulative activity is small); the galaxy's *neutrino production* is also large ( 10⁴⁸ /s, summed over all stars) and *also irrelevant* to dark matter (same reason); the galaxy's *dark matter content* is large (cumulative activity is large). The two effects (neutrinos in flight, dark matter as cumulative deposition) are *distinct* and *independent*. This is a *consistency check* for SIDC: the model correctly predicts that *both* neutrinos and dark matter are present in galaxies (they are), that the Sun has neutrinos but little dark matter (consistent with the Sun's small cumulative activity), and that the Sun's *neutrino* content does not produce a "solar neutrino dark matter" excess (because the energy-deposition threshold excludes in-flight neutrinos). The Sun's dark matter content is constrained by direct-detection experiments and by neutrino telescope searches for dark matter annihilation to be very small (less than ∼ 10⁻¹⁰ of the Sun's mass from annihilation limits), which is *consistent* with SIDC's prediction that the Sun's *individual* dark matter contribution is small.
 
@@ -9103,7 +9103,7 @@ L308p. **Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8, USER-INSIGHT)
 L308q. **2D universe is discrete quantum (NEW v3.5.8, USER-INSIGHT)**. User asked why can't there be 2 half-mass universes per event. Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM (if lifetime is from event energy) but violate geometric constraint $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$. Framework's $M_{\rm 2D}$ is DERIVED from 5D AdS projection, not adjustable. 2D universe behaves as discrete 'particle' with fixed mass. Splitting would require different geometry, 2D CFT (multiple saddle points), and $M_{\rm Pl,2D}$ value (breaks α-GM by 9.4%). Within framework: $M_{\rm 2D}$ is quantum, smallest unit of DM. Source: `calculations/v35_2d_universe_quantum.py`.
 
 
-L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)**. The 3% offset between framework's μ = $9 \times 10^{6}\,\text{GeV}$ ² and the new derivation μ = ( N × $v_{\rm Higgs}$) ² = $8.73 \times 10^{6}\,\text{GeV}$ ² is within rounding. This REDUCES μ from CALIBRATED to DERIVED with 3 inputs:
+L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)**. The 3% offset between framework's μ = $9 \times 10^{6}\,\text{GeV}$² and the new derivation μ = ( N × $v_{\rm Higgs}$)² = $8.73 \times 10^{6}\,\text{GeV}$² is within rounding. This REDUCES μ from CALIBRATED to DERIVED with 3 inputs:
 
 1. ** α = 1 + 1/ $\sqrt{12}$ = 1.2886751346** (FIRST-PRINCIPPLES, L308n, Schwarzian SYK $N=12$)
 2. ** $v_{\rm Higgs}$ = 246.22 GeV** (MEASURED, LEP+SLD combined Higgs mass)
@@ -9111,7 +9111,7 @@ L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (N
 
 **Derivation chain**:
 - $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 12 × 246.22 = 2954.64 GeV (3% off framework's 3 TeV choice)
-- μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$ ² (3% off framework's $9 \times 10^{6}$)
+- μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$² (3% off framework's $9 \times 10^{6}$)
 - $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = $3.93 \times 10^{23}\,\text{GeV}$ (matches framework's $4 \times 10^{23}\,\text{within}$ 2%)
 
 **L26 STATUS: OPEN → PARTIAL CLOSURE**. μ is no longer a calibrated parameter but follows from the same chain that gives $M_{\rm Pl,2D}$ and $M_{\rm Pl,4D}$.
@@ -9120,7 +9120,7 @@ L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (N
 - WHY $N=12$ specifically? (3 generations × 4 Weyl is consistent but not derived)
 - WHY α = 1 + 1/ $\sqrt{N}$ for SYK? (Schwarzian formula, framework-adopted)
 
-**Caveat**: The framework's choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ vs the derivation's $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ reflects rounding. If we accept the derivation chain as primary, μ = $8.73 \times 10^{6}\,\text{GeV}$ ² (not $9 \times 10^{6}$). The framework should UPDATE μ to $8.73 \times 10^{6}\,\text{GeV}$ ² for internal consistency.
+**Caveat**: The framework's choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ vs the derivation's $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ reflects rounding. If we accept the derivation chain as primary, μ = $8.73 \times 10^{6}\,\text{GeV}$² (not $9 \times 10^{6}$). The framework should UPDATE μ to $8.73 \times 10^{6}\,\text{GeV}$² for internal consistency.
 
 **First-principles progress**: 2/9 → **3/9** (was α, $M_{\rm Pl,2D}$, now also μ). Source: `calculations/v35_mu_N_vH_derivation.py`.
 L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIRECTED)**. After §7.4.16's L26 PARTIAL CLOSURE via L308r (3% offset), 8 further derivation paths were attempted to FULLY close L26. **None bridge the 3% offset**. The 3% offset is genuinely from framework's $M_{\rm Pl,2D} = 2.95$ TeV (rounded) vs derivation's 2.95 TeV (exact N × $v_H$). Of 8 paths:
@@ -9249,7 +9249,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 **3. $N_{\rm sub} = 3.86 \times 10^{2}$ first-principles**: Energy conservation $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ gives $E_{\rm sub}$ = $1.295 \times 10^{77}\,\text{J}$ (~cluster mass, $N_{\rm sub} = 386$= $E_{\rm 4D}$/ $E_{\rm sub}$, REVISED L308z). No physical principle determines $N_{\rm sub}$. Status: FREE (L144 OPEN).
 
-**4. μ = $M_{\rm Pl,2D}^2$ first-principles (PARTIAL CLOSURE via L308r)**: DERIVED via N × $v_{\rm Higgs}$ chain: μ = (12 × 246) ² = $8.73 \times 10^{6}\,\text{GeV}$ ² (3% off framework's $9 \times 10^{6}$). Combines α = 1 + 1/ $\sqrt{12}$ (L308n first-principles), $v_{\rm Higgs}$ (measured), N = 12 (structural). Status: **DERIVED** (L308r).
+**4. μ = $M_{\rm Pl,2D}^2$ first-principles (PARTIAL CLOSURE via L308r)**: DERIVED via N × $v_{\rm Higgs}$ chain: μ = (12 × 246)² = $8.73 \times 10^{6}\,\text{GeV}$² (3% off framework's $9 \times 10^{6}$). Combines α = 1 + 1/ $\sqrt{12}$ (L308n first-principles), $v_{\rm Higgs}$ (measured), N = 12 (structural). Status: **DERIVED** (L308r).
 
 **5. ε = 10⁻³⁸ hierarchy constant**: $f_{\rm DE}$ = ( $M_{\rm Pl,2D}$/ $E_{\rm SN}$) $^{\alpha}$ ≈ 10⁻⁶⁵ (way bigger than needed). ε is separate factor calibrated to give DE. Status: OPEN (calibrated).
 
@@ -9261,7 +9261,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 **UPDATED v3.5.8+ (after L308r, this work)**: After 7+ systematic attempts, **3 of the 9 framework parameters now have first-principles derivations**:
 - **L43 ( α) PARTIAL → CLOSED via L308n**: α = 1 + 1/ $\sqrt{12}$ = 1.2887, matches framework 1.289 within 0.025%
-- **L308r ( $M_{\rm Pl,2D}$, μ) CLOSED (this work)**: $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 2955 GeV; μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$ ²
+- **L308r ( $M_{\rm Pl,2D}$, μ) CLOSED (this work)**: $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 2955 GeV; μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$²
 
 The framework is:
 - **Internally consistent** (multiple parameters cross-check via α-GM, closed loop, $M^{\alpha}$ law)
@@ -9997,19 +9997,19 @@ This work REDUCES μ from CALIBRATED to DERIVED via a 3-input chain:
 
 **DERIVATION**:
 - $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 12 × 246.22 GeV = **2954.64 GeV = 2.95 TeV** (within 1.5% of framework's 3 TeV)
-- μ = $M_{\rm Pl,2D}^2$ = (2954.64) ² = **8.73 × 10 ⁶ GeV ²** (3% off framework's 9 × 10 ⁶, within rounding)
+- μ = $M_{\rm Pl,2D}^2$ = (2954.64)² = **8.73 × 10⁶ GeV²** (3% off framework's 9 × 10⁶, within rounding)
 
 **VERIFICATION** via α-GM consistency:
-- $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = (1.22 × 10 ¹⁹) $^{1.289}$ × (2954.64) $^{-0.289}$ = **3.93 × 10 ²³ GeV**
-- Framework uses $M_{\rm Pl,4D}$ = 4 × 10 ²³ GeV
+- $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = (1.22 × 10¹⁹) $^{1.289}$ × (2954.64) $^{-0.289}$ = **3.93 × 10²³ GeV**
+- Framework uses $M_{\rm Pl,4D}$ = 4 × 10²³ GeV
 - Match: 98.2% (within 2%)
 
 ### Why This Works (Structural Reasoning)
 
 The cascade has THREE different $M_{\rm Pl}$ at three different levels:
-- $M_{\rm Pl,3D}$ = 1.22 × 10 ¹⁹ GeV (MEASURED)
+- $M_{\rm Pl,3D}$ = 1.22 × 10¹⁹ GeV (MEASURED)
 - $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 2.95 TeV (DERIVED via N × $v_{\rm Higgs}$ EW coincidence)
-- $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = 3.93 × 10 ²³ GeV (DERIVED via α-GM consistency)
+- $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = 3.93 × 10²³ GeV (DERIVED via α-GM consistency)
 
 The "12" appears as:
 - N = 12 (SYK fermion count)
@@ -10036,7 +10036,7 @@ The remaining 6 parameters:
 
 1. **WHY N = 12 specifically?** (3 generations × 4 Weyl is consistent with SM but not derived from deeper principle)
 2. **WHY α = 1 + 1/ $\sqrt{N}$ for SYK?** (Schwarzian formula adopted from literature, not derived from cascade)
-3. **The 3% offset** between $\mu = 8.73$ × 10 ⁶ (derivation) and μ = 9 × 10 ⁶ (framework choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$). This reflects rounding in $M_{\rm Pl,2D}$.
+3. **The 3% offset** between $\mu = 8.73$ × 10⁶ (derivation) and μ = 9 × 10⁶ (framework choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$). This reflects rounding in $M_{\rm Pl,2D}$.
 
 ### Status Updates
 
@@ -17268,7 +17268,7 @@ Continued web research in June 2026 yields five more external constraints from t
 
 22. **Ly α forest WDM constraints** (Garcia-Gallego, Iršič, Haehnelt, Viel, Bolton 2025, arXiv:2504.06367). New Ly α forest flux power spectrum measurements from the Sherwood-Relics suite constrain warm dark matter (WDM) to $m_{\rm WDM} > 3$ keV (95% CL). SIDC's 2D universe mass ( ∼ 10⁻¹⁵ GeV = 10⁻⁶ eV = 1 GeV) is *vastly heavier* than this WDM bound, so SIDC is *trivially consistent* with the Lyα forest WDM constraint.
 
-23. **Primordial black hole constraints 2024-2025** (Tan & Xia 2024, arXiv:2402.17871, X-ray background; Green 2025, arXiv:2501.02610, microlensing; Crispim Romao et al. 2025, arXiv:2506.20709, LSST forecasts). The PBH mass spectrum is constrained across many orders of magnitude: X-ray background (10 ¹⁶– $5 \times 10^{18}\,\text{g}$), microlensing (10 ⁻⁹–10 ⁴ M $_\odot$), and CMB accretion ( $>100 M_{\odot}$). SIDC's 2D universe mass is ∼ 10⁻²¹ M $_\odot$, which is *below* the X-ray background window. However, SIDC's 2D universes are *not* black holes (they're 2D CFT excitations, not gravitational collapse products), so PBH constraints are *inapplicable* to SIDC.
+23. **Primordial black hole constraints 2024-2025** (Tan & Xia 2024, arXiv:2402.17871, X-ray background; Green 2025, arXiv:2501.02610, microlensing; Crispim Romao et al. 2025, arXiv:2506.20709, LSST forecasts). The PBH mass spectrum is constrained across many orders of magnitude: X-ray background (10¹⁶– $5 \times 10^{18}\,\text{g}$), microlensing (10⁻⁹–10⁴ M $_\odot$), and CMB accretion ( $>100 M_{\odot}$). SIDC's 2D universe mass is ∼ 10⁻²¹ M $_\odot$, which is *below* the X-ray background window. However, SIDC's 2D universes are *not* black holes (they're 2D CFT excitations, not gravitational collapse products), so PBH constraints are *inapplicable* to SIDC.
 
 24. **XENONnT 2025 final WIMP result** (XENON Collaboration 2025, *Phys. Rev. Lett.* 135, 221003). The XENONnT experiment reports a 3.1 tonne-year exposure analysis, setting a 90% CL upper limit on the spin-independent WIMP-nucleon cross-section of $\sigma_{\rm SI} < 1.7 \times 10^{-47}$ cm² at $m_{\rm WIMP} = 30$ GeV/c^2, with best median sensitivity $\sigma_{\rm SI} = 1.4 \times 10^{-47}$ cm² at $m_{\rm WIMP} = 41$ GeV/c². SIDC's 2D universes have *no Standard Model coupling* (CDM-like), so the XENONnT cross-section is σ = 0 for SIDC. The constraint is *trivially satisfied* (vacuously consistent), but also *uninformative* about SIDC.
 
