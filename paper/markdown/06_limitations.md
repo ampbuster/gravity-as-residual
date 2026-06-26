@@ -5669,7 +5669,7 @@ After the recalibration showed significant changes ( $\gamma_{\rm 4D}$ +20 order
 | $\alpha_{2D}$ | 1.289 | 1.289 | 0 |
 | $\alpha_{\rm 3+1D}$ | (implicit 1.289) | 1.408 | +0.119 |
 | $\alpha_{4D}$ | (implicit 1.289) | 1.577 | +0.288 |
-| ε | $1.00 \times 10^{-38}$ | $6.32 \times 10^{-34}$ | +4.8 orders |
+| $\epsilon$ | $1.00 \times 10^{-38}$ | $6.32 \times 10^{-34}$ | +4.8 orders |
 | kL (RS-II) | 87.5 | 76.4 | −11.1 |
 | $\gamma_{\rm 4D}$ | $5.70 \times 10^{90}$ | $1.10 \times 10^{111}$ (A2) | +20.3 orders |
 | $\tau_{\rm 3D,apparent}$ | $8.61 \times 10^{124}\,\text{yr}$ | $1.66 \times 10^{145}\,\text{yr}$ (A2) | +20.3 orders |
@@ -5740,7 +5740,7 @@ The framework is now at **v3.5.9+ A2** (was A1):
 | Component | A1 | A2 |
 |-----------|-----|-----|
 | α (treatment) | Universal (1.289) | Dim-specific (1.289/1.408/1.577) |
-| ε | $1.00 \times 10^{-38}$ | $6.32 \times 10^{-34}$ |
+| $\epsilon$ | $1.00 \times 10^{-38}$ | $6.32 \times 10^{-34}$ |
 | kL (RS-II) | 87.5 | 76.4 |
 | $\gamma_{\rm 4D}$ | $5.70 \times 10^{90}$ | $1.08 \times 10^{111}$ |
 | $\tau_{\rm 3D,apparent}$ | $8.61 \times 10^{124}\,\text{yr}$ | $1.63 \times 10^{145}\,\text{yr}$ |
@@ -6435,7 +6435,7 @@ After L308ba (halving rule), L308bb ( $N_D$ interpretations), and L308bc (DOF co
 |----------|------------------------|---------------------------|
 | α | 1.289 (universal) | 1.289 / 1.408 / 1.577 (per dim) |
 | $\gamma_{\rm 4D}$ | $5.41 \times 10^{90}$ | $1.14 \times 10^{111}$ |
-| ε | $1.00 \times 10^{-38}$ | $6.32 \times 10^{-34}$ |
+| $\epsilon$ | $1.00 \times 10^{-38}$ | $6.32 \times 10^{-34}$ |
 | $f_{\rm DE}$ | $1.13 \times 10^{-85}$ | $1.79 \times 10^{-90}$ |
 | **$\rho_{\rm DE}$** | **$2.503 \times 10^{-47}$** | **$2.506 \times 10^{-47}$** ✓ EXACT |
 | f×ε | 1.130× $10^{-123}$ | 1.131× $10^{-123}$ ✓ INVARIANT |

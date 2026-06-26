@@ -10,7 +10,7 @@
 **v3.5.9+ A2 HIGHLIGHTS** (CURRENT, June 22, 2026, APPROACH A2):
 
 **Paper:** 597 pages, 1.94 MB
-**Limitations:** 195 (144 master + 51 L308ab-bw in v3.5.9+ A2 await master table update: L308af-ay + new L308az) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: α dim-specific, ε recalibrated)+L308z+L308aa)
+**Limitations:** 195 (144 master + 51 L308ab-bw in v3.5.9+ A2 await master table update: L308af-ay + new L308az) (was 116 in v3.5.7, +4 v3.5.8-v3.5.9+ A2 (L308aw: $\alpha$ dim-specific, $\epsilon$ recalibrated)+L308z+L308aa)
 
 **v3.5.9+ A2 BREAKTHROUGHS** (this release):
 - **APPROACH A2** (α dim-specific, §7.4.20, CURRENT): $f_{\rm leak} = H_0$ as new framework principle (post-Friedmann)
