@@ -2047,7 +2047,7 @@ Every numerical prediction in the A2 framework uses the SAME formula chain:
 ```
 $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant preserved (across all formulas)
 
-ρ_DE = f × ε × M_Pl,3D⁴ = 2.5×$10^{-47}\,\text{GeV}$⁴ ✓ EXACT match to observation
+ρ_DE = f × ε × M_Pl,3D⁴ = 2.5×$10^{-47}\,\text{GeV}^4$ ✓ EXACT match to observation
 
 M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×$10^{23}\,\text{GeV}$ ✓ (-1.13% from α-GM formula)
 

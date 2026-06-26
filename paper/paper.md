@@ -5075,7 +5075,7 @@ Every numerical prediction in the A2 framework uses the SAME formula chain:
 ```
 $f \times \varepsilon = 1.13 \times 10^{-123}$ invariant preserved (across all formulas)
 
-ρ_DE = f × ε × M_Pl,3D⁴ = 2.5×$10^{-47}\,\text{GeV}$⁴ ✓ EXACT match to observation
+ρ_DE = f × ε × M_Pl,3D⁴ = 2.5×$10^{-47}\,\text{GeV}^4$ ✓ EXACT match to observation
 
 M_Pl,4D = M_Pl,3D^α_2D × M_Pl,2D^(1-α_2D) = 3.93×$10^{23}\,\text{GeV}$ ✓ (-1.13% from α-GM formula)
 
@@ -8502,7 +8502,7 @@ The full table follows:
 | 99 (NEW v3.0.21) | SIDC upward extendability (scaling law + closed loop at every level) | PARTIAL (v3.0.21) | §3.60.2 | Scaling law + closed loop work at level 3 (3D→2D, calibrated at SN 33s, 8/8 events within 1.6×). Plausible at level 4 (4D→3D, matches within 12% using $\alpha = 1.289$). Cannot verify at level 5+ (no data). $\alpha = 1.289\text{ likely}$ universal because N = 12 is fixed (12 SM Weyl fermions), but brane tension may differ at each level. Closed loop at level 4+ requires $E_{\rm 5D}$ which is unknown. Upward extendability is a CLAIM supported by $N=12$ universality, not directly verified. |
 | 100 (NEW v3.0.21, REVISED v3.2, USER-CRITIQUED SIX TIMES) | Fₚ(z) framework OVERSTATED; 'primordial = 99.93%' WRONG; cumulative gives 3.4× $\Omega_{\rm DM}$; $f_{\rm back}$ cannot balance DM; DM→ ν too short; framework's $f_{\rm back}$ formula is per-event, not for total mass | OPEN (v3.2) | v21, calculations/v31_audit_v312final.py, v31_scenario_X.py, v31_all_events_cumulative.py, v31_fback_balance.py, v31_dm_decay_neutrino.py, v31_fback_calibrate_both.py | Fₚ(z) separates primordial (99.93%) vs cumulative (0.07%) DM. **FUNDAMENTAL REVISIONS (v3.2, user-caught SIX TIMES)**: (a) **'Primordial = 99.93%' is WRONG** (1st catch). (b) **Cumulative is NOT just SNe** (2nd catch): 3.4× $\Omega_{\rm DM}$, AGN dominates. (c) **DM/baryon ratio over cosmic time** (3rd catch). (d) ** $f_{\rm back}$ cannot balance DM** (4th catch): required $3.0 \times 10^{-15}$/s, but framework has $1.22 \times 10^{-85}$(10⁷⁰× off). (e) **DM→ ν decay is 10²¹× too short vs observations** (5th catch). (f) ** $f_{\rm back}$ formula is per-event, not for total mass** (6th catch): user asked 'what with we calibrate $f_{\rm back}$ to both de and dm decay?' The framework's $f_{\rm back}$ = ( $M_{\rm Pl}$/E) $^{\alpha}$ formula is for per-event back-flow, not for the 3+1D's total mass. Applying it to the 3+1D's total mass gives a required E of $2 \times 10^{-27}\,\text{M}$_⊙, which is meaningless. So calibrating $f_{\rm back}$ to both DE matching AND DM decay requires NEW PHYSICS: a separate f_back_3+1D (or 'two-tier $f_{\rm back}$'). This would be a 5th free parameter in the framework. **NET RESULT (v3.2)**: The framework's DM accounting has SIX problems now. The '5/5 dwarf cases' test cumulative, but the framework doesn't explain DM/baryon ratio constancy, doesn't have a 3+1D continuous back-flow, and the per-event $f_{\rm back}$ formula doesn't apply to total mass. Possible resolutions: (1) Add f_back_3+1D as new parameter (two-tier $f_{\rm back}$), (2) DM-baryon co-creation at high z, (3) DM doesn't decay (ratio set at creation), (4) different DM source. STRENGTH: per-event physics robust. WEAKNESS: framework can't explain constant DM/baryon ratio; $f_{\rm back}$ per-event formula doesn't apply to total mass; multiple failed attempts to fix. The framework's DM picture is INCOMPLETE. |
 | 101 (NEW v3.0.21) | SIDC strengths form a network of 17+ interlinked relationships | PARTIAL (v3.0.21) | v22 | Identified 12 main SIDC strengths and 17 links. Most connected: $\alpha = 1.289$ (S3), closed loop (S2, 5 links), scaling law (S1, 4 links), $f_{\rm back}$ (S5, 3 links). KEY LINKS: (1) α ↔ c (both from $N=12$), (2) α ↔ scaling law (scaling uses α), (3) α ↔ closed loop (closed loop uses α), (4) $f_{\rm back}$ ↔ 5/27/68 ( $f_{\rm back}$ bridges DE gap), (5) phase-transition ↔ scaling law (low-E limit), (6) g₊ ↔ 5/27/68 (DM/baryon ratio), (7) cluster g₊ ↔ $M_{\rm Pl,4D}$ (4D boundary), (8) closed loop ↔ phase-transition ( $f_{\rm back}$ above $E_{\rm crit}$). $\alpha = 1.289\text{ is}$ the BRIDGE parameter that unifies the cascade. |
-| 102 (NEW v3.0.22) | Closed loop UNITES DM, DE, and gravity | PARTIAL (v3.0.22) | §3.60.3, v23 | The closed loop uses the SAME $\alpha = 1.289\text{ in}$ BOTH directions (forward γ and backward $f_{\rm back}$). DE density $\rho_{\rm DE}$ = $f_{\rm back}$ × ε × $M_{\rm Pl,3}^4$ = $2.22 \times 10^{-47}\,\text{GeV}$⁴ (within 12% of observed $2.5 \times 10^{-47}$). DM density $\rho_{\rm DM}$ = $f_{\rm back}$ × Σ( $M_{\rm 2D}$ × N)/V (uses same $f_{\rm back}$). Gravity weakness $\epsilon_{\rm grav}$ ~ 10⁻³⁸ from bulk-brane. All three use the SAME α, $f_{\rm back}$, and bulk-brane geometry. The 5/27/68 split emerges from these three quantities. STRENGTH: numerical match for DE (within 12%) is direct evidence that $f_{\rm back}$ × ε × $M_{\rm Pl}^4$ is the correct DE formula. WEAKNESS: the Σ( $M_{\rm 2D}$ × N)/V integration for DM is not directly computed (depends on unknown 2D universe population). |
+| 102 (NEW v3.0.22) | Closed loop UNITES DM, DE, and gravity | PARTIAL (v3.0.22) | §3.60.3, v23 | The closed loop uses the SAME $\alpha = 1.289\text{ in}$ BOTH directions (forward γ and backward $f_{\rm back}$). DE density $\rho_{\rm DE}$ = $f_{\rm back}$ × ε × $M_{\rm Pl,3}^4$ = $2.22 \times 10^{-47}\,\text{GeV}^{4}$ (within 12% of observed $2.5 \times 10^{-47}$). DM density $\rho_{\rm DM}$ = $f_{\rm back}$ × Σ( $M_{\rm 2D}$ × N)/V (uses same $f_{\rm back}$). Gravity weakness $\epsilon_{\rm grav}$ ~ 10⁻³⁸ from bulk-brane. All three use the SAME α, $f_{\rm back}$, and bulk-brane geometry. The 5/27/68 split emerges from these three quantities. STRENGTH: numerical match for DE (within 12%) is direct evidence that $f_{\rm back}$ × ε × $M_{\rm Pl}^4$ is the correct DE formula. WEAKNESS: the Σ( $M_{\rm 2D}$ × N)/V integration for DM is not directly computed (depends on unknown 2D universe population). |
 | 103 (NEW v3.0.22) | α is the shape that links dimensions | PARTIAL (v3.0.22) | §3.62.3, v24 | α = 1 + 1/√12 has TWO pieces: (1) the "1" is universal SR, (2) the "1/√12" is the $N=12$ finite-size correction. α links dimensions in 4 ways: (1) vertical — same α at every hierarchy level; (2) horizontal — α × 1/(2α) = 1/2 in closed loop; (3) origin — α = 1 + 1/√12 links SM ( $N=12$) to cosmology; (4) geometric — α is cone slope (tan $\theta = 1.289$, θ ≈ 52°). The Ising CFT shape c = 1/2 (round-trip) is consistent with 2D universe being a critical system. STRENGTH: multiple shape interpretations are mutually consistent. WEAKNESS: the "shape" interpretation is qualitative — no direct derivation of the cone opening angle from first principles. The 52° cone angle is suggestive but not derived. |
 | 104 (NEW v3.0.22) | Kusuki 2024 framework for 2D universe calculations | PARTIAL (v3.0.22) | §3.8.12, v25 | Kusuki 2024 (arXiv:2412.18307) provides modern ICFT methods (HHLL block, monodromy method, Hellerman bound, HKS bound, AdS_3/CFT_2) directly applicable to SIDC's 2D universe (c = 1 Liouville + c = 1/2 matter = c = 3/2, an ICFT). SIDC's c = 3/2 EXCEEDS Hellerman bound c ≤ 1 in UNITARY CFT, but SIDC is non-unitary (Liouville, SYK finite-N) — consistent. HHLL block (heavy 4D event, light 2D universe) could give SIDC's scaling law from double-trace exchange. Monodromy method could potentially DERIVE $\alpha = 1.289\text{ from}$ c = 3/2 ICFT constraints, closing L43. STRENGTH: 4 specific potential applications identified (HHLL, monodromy, HKS, AdS_3/CFT_2). WEAKNESS: requires a specific ICFT calculation that has not yet been done. α is still a fit, not derived. |
 | 105 (NEW v3.0.22) | Monodromy method does NOT derive $\alpha = 1.289$ | NEGATIVE (v3.0.22) | §3.62.4, v26 | Attempted to apply HHLL block (heavy vertex in 2D CFT) to derive α. Setup: 4D event as heavy vertex Vₕ, 2D universe as light vertex Vₗ, monodromy method to compute ⟨ Vₕ Vₕ⟩. Found saddle z₀ = 0.4416, but assumed $\alpha = 1.289\text{ to}$ compute it (CIRCULAR). Honest verdict: monodromy gives 2D CFT structure ( z₀ = 0.4416 is a reasonable ICFT saddle) but does NOT derive α. L43 stays OPEN. |
@@ -8938,7 +8938,7 @@ L301. **CFT structures (Schwarzian, DOZZ, JT gravity, Liouville c=1) do not dire
 
 NO 2D CFT structure gives $\alpha = 1.289\text{ naturally}$. The "1 + 1/√N" formula is the CLEANEST match but is still a structural interpretation. Source: `calculations/v35_tier2_research_depth.py`.
 
-L302. **F-theory compactification does not immediately give μ = $9 \times 10^{6}\,\text{GeV}^2$** (v3.5, #6). F-theory estimates μ ∝ $M_{\rm Pl,4D}^2$/Vol_6(CY3), which gives different values depending on CY3 specifics. With $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ and typical Vol_6, μ ~ 10⁴⁰- $10^{41}\,\text{GeV}$², which is ~10³⁴× off from framework's μ = $9 \times 10^{6}\,\text{GeV}^2$. v3.4 F-theory adoption does NOT immediately close L26. Source: `calculations/v35_tier2_research_depth.py`.
+L302. **F-theory compactification does not immediately give μ = $9 \times 10^{6}\,\text{GeV}^2$** (v3.5, #6). F-theory estimates μ ∝ $M_{\rm Pl,4D}^2$/Vol_6(CY3), which gives different values depending on CY3 specifics. With $M_{\rm Pl,4D}$ = $4 \times 10^{23}\,\text{GeV}$ and typical Vol_6, μ ~ 10⁴⁰- $10^{41}\,\text{GeV}^{2}$, which is ~10³⁴× off from framework's μ = $9 \times 10^{6}\,\text{GeV}^2$. v3.4 F-theory adoption does NOT immediately close L26. Source: `calculations/v35_tier2_research_depth.py`.
 
 L303. **NEW ANGLE for μ: μ might be the AdS_2 radius of the 2D universe** (v3.5, #6, SPECULATIVE). The 2D universe is asymptotically AdS_2 (with cosmological constant Λ = -μ). The AdS_2 curvature scale IS μ. From F-theory: μ might come from compactification of 4D bulk geometry. This is physically motivated but speculative. Not yet derived. Source: `calculations/v35_tier2_research_depth.py`.
 
@@ -9103,7 +9103,7 @@ L308p. **Cone is asymmetric: 4D linear, 2D one-to-one (NEW v3.5.8, USER-INSIGHT)
 L308q. **2D universe is discrete quantum (NEW v3.5.8, USER-INSIGHT)**. User asked why can't there be 2 half-mass universes per event. Tested: 2 × $M_{\rm 2D}$/2 universes give SAME total DM (if lifetime is from event energy) but violate geometric constraint $M_{\rm 2D}$ = $M_{\rm Pl,2D}^2/M_{\rm Pl,3D}$. Framework's $M_{\rm 2D}$ is DERIVED from 5D AdS projection, not adjustable. 2D universe behaves as discrete 'particle' with fixed mass. Splitting would require different geometry, 2D CFT (multiple saddle points), and $M_{\rm Pl,2D}$ value (breaks α-GM by 9.4%). Within framework: $M_{\rm 2D}$ is quantum, smallest unit of DM. Source: `calculations/v35_2d_universe_quantum.py`.
 
 
-L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)**. The 3% offset between framework's μ = $9 \times 10^{6}\,\text{GeV}$² and the new derivation μ = ( N × $v_{\rm Higgs}$)² = $8.73 \times 10^{6}\,\text{GeV}$² is within rounding. This REDUCES μ from CALIBRATED to DERIVED with 3 inputs:
+L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (NEW v3.5.8+, BREAKTHROUGH)**. The 3% offset between framework's μ = $9 \times 10^{6}\,\text{GeV}^{2}$ and the new derivation μ = ( N × $v_{\rm Higgs}$)² = $8.73 \times 10^{6}\,\text{GeV}^{2}$ is within rounding. This REDUCES μ from CALIBRATED to DERIVED with 3 inputs:
 
 1. ** α = 1 + 1/ $\sqrt{12}$ = 1.2886751346** (FIRST-PRINCIPPLES, L308n, Schwarzian SYK $N=12$)
 2. ** $v_{\rm Higgs}$ = 246.22 GeV** (MEASURED, LEP+SLD combined Higgs mass)
@@ -9111,7 +9111,7 @@ L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (N
 
 **Derivation chain**:
 - $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 12 × 246.22 = 2954.64 GeV (3% off framework's 3 TeV choice)
-- μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$² (3% off framework's $9 \times 10^{6}$)
+- μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}^{2}$ (3% off framework's $9 \times 10^{6}$)
 - $M_{\rm Pl,4D}$ = $M_{\rm Pl,3D}^\alpha$ × $M_{\rm Pl,2D}^{(1-\alpha)}$ = $3.93 \times 10^{23}\,\text{GeV}$ (matches framework's $4 \times 10^{23}\,\text{within}$ 2%)
 
 **L26 STATUS: OPEN → PARTIAL CLOSURE**. μ is no longer a calibrated parameter but follows from the same chain that gives $M_{\rm Pl,2D}$ and $M_{\rm Pl,4D}$.
@@ -9120,7 +9120,7 @@ L308r. ** μ = $M_{\rm Pl,2D}^2$ DERIVED from $N=12$ × $v_{\rm Higgs}$ chain (N
 - WHY $N=12$ specifically? (3 generations × 4 Weyl is consistent but not derived)
 - WHY α = 1 + 1/ $\sqrt{N}$ for SYK? (Schwarzian formula, framework-adopted)
 
-**Caveat**: The framework's choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ vs the derivation's $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ reflects rounding. If we accept the derivation chain as primary, μ = $8.73 \times 10^{6}\,\text{GeV}$² (not $9 \times 10^{6}$). The framework should UPDATE μ to $8.73 \times 10^{6}\,\text{GeV}$² for internal consistency.
+**Caveat**: The framework's choice of $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ vs the derivation's $M_{\rm Pl,2D} = 2.95\,\text{TeV}$ reflects rounding. If we accept the derivation chain as primary, μ = $8.73 \times 10^{6}\,\text{GeV}^{2}$ (not $9 \times 10^{6}$). The framework should UPDATE μ to $8.73 \times 10^{6}\,\text{GeV}^{2}$ for internal consistency.
 
 **First-principles progress**: 2/9 → **3/9** (was α, $M_{\rm Pl,2D}$, now also μ). Source: `calculations/v35_mu_N_vH_derivation.py`.
 L308s. **L26 Full Closure: 8 attempted paths beyond L308r (NEW v3.5.8+, USER-DIRECTED)**. After §7.4.16's L26 PARTIAL CLOSURE via L308r (3% offset), 8 further derivation paths were attempted to FULLY close L26. **None bridge the 3% offset**. The 3% offset is genuinely from framework's $M_{\rm Pl,2D} = 2.95$ TeV (rounded) vs derivation's 2.95 TeV (exact N × $v_H$). Of 8 paths:
@@ -9249,7 +9249,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 **3. $N_{\rm sub} = 3.86 \times 10^{2}$ first-principles**: Energy conservation $E_{\rm 4D}$ = $N_{\rm sub}$ × $E_{\rm sub}$ gives $E_{\rm sub}$ = $1.295 \times 10^{77}\,\text{J}$ (~cluster mass, $N_{\rm sub} = 386$= $E_{\rm 4D}$/ $E_{\rm sub}$, REVISED L308z). No physical principle determines $N_{\rm sub}$. Status: FREE (L144 OPEN).
 
-**4. μ = $M_{\rm Pl,2D}^2$ first-principles (PARTIAL CLOSURE via L308r)**: DERIVED via N × $v_{\rm Higgs}$ chain: μ = (12 × 246)² = $8.73 \times 10^{6}\,\text{GeV}$² (3% off framework's $9 \times 10^{6}$). Combines α = 1 + 1/ $\sqrt{12}$ (L308n first-principles), $v_{\rm Higgs}$ (measured), N = 12 (structural). Status: **DERIVED** (L308r).
+**4. μ = $M_{\rm Pl,2D}^2$ first-principles (PARTIAL CLOSURE via L308r)**: DERIVED via N × $v_{\rm Higgs}$ chain: μ = (12 × 246)² = $8.73 \times 10^{6}\,\text{GeV}^{2}$ (3% off framework's $9 \times 10^{6}$). Combines α = 1 + 1/ $\sqrt{12}$ (L308n first-principles), $v_{\rm Higgs}$ (measured), N = 12 (structural). Status: **DERIVED** (L308r).
 
 **5. ε = 10⁻³⁸ hierarchy constant**: $f_{\rm DE}$ = ( $M_{\rm Pl,2D}$/ $E_{\rm SN}$) $^{\alpha}$ ≈ 10⁻⁶⁵ (way bigger than needed). ε is separate factor calibrated to give DE. Status: OPEN (calibrated).
 
@@ -9261,7 +9261,7 @@ Source: `calculations/v35_alpha_cone_depth_structure.py`.
 
 **UPDATED v3.5.8+ (after L308r, this work)**: After 7+ systematic attempts, **3 of the 9 framework parameters now have first-principles derivations**:
 - **L43 ( α) PARTIAL → CLOSED via L308n**: α = 1 + 1/ $\sqrt{12}$ = 1.2887, matches framework 1.289 within 0.025%
-- **L308r ( $M_{\rm Pl,2D}$, μ) CLOSED (this work)**: $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 2955 GeV; μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}$²
+- **L308r ( $M_{\rm Pl,2D}$, μ) CLOSED (this work)**: $M_{\rm Pl,2D}$ = N × $v_{\rm Higgs}$ = 2955 GeV; μ = $M_{\rm Pl,2D}^2$ = $8.73 \times 10^{6}\,\text{GeV}^{2}$
 
 The framework is:
 - **Internally consistent** (multiple parameters cross-check via α-GM, closed loop, $M^{\alpha}$ law)
@@ -9620,7 +9620,7 @@ Source: `calculations/v35_cone_extends_to_zero.py`. Plot saved at `calculations/
 
 1. **SN $\tau_{\rm 2D} = 33\,s$** (TIGHT, calibrates α)
 2. ** $f_{\rm DE}$ = $t_{\rm Pl}$/ $\tau_{\rm 4D}$** (simple bilateral formula)
-3. ** $\rho_{\rm DE}$ = $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴**
+3. ** $\rho_{\rm DE}$ = $f_{\rm DE}$ × ε × $M_{\rm Pl,3D}^4$ = $2.5 \times 10^{-47}\,\text{GeV}^{4}$**
 4. **8 named events**: $M^{\alpha}$ law (positive τ)
 5. Loose priors on remaining parameters
 
@@ -12638,7 +12638,7 @@ L304. ** μ = M_s² (string scale squared) is STRUCTURAL but CIRCULAR** (v3.5). 
 
 L305. **$\mu = b^2 \times M_{\rm Pl,2D}^2$ for $c=1$ Liouville gives $4.5 \times 10^{6}$ (off by factor 2)** (v3.5). The Liouville conformal weight $b^2 = 1/2$ for $c=1$ doesn't simply relate to $\mu$ via this formula. The natural μ = $M_{\rm Pl,2D}^2$ is the AdS_2 inverse length squared, but b² = 1/2 specifically gives a different value. Status: NOT DERIVED. Source: `calculations/v35_new_angle_mu.py`.
 
-L306. **2D BH entropy matching doesn't give framework's μ** (v3.5). For SN-scale 2D BH: $S_{\rm BH}$ = 4π² E/√ μ ~ 10⁵⁰ (huge). Setting $S_{\rm BH}$ = ln(N!) = ln(12!) = 19.99 gives μ ~ $10^{110}\,\text{GeV}$² (way off). The SN scale is too large for natural entropy bounds. Status: NOT APPLICABLE. Source: `calculations/v35_new_angle_mu.py`.
+L306. **2D BH entropy matching doesn't give framework's μ** (v3.5). For SN-scale 2D BH: $S_{\rm BH}$ = 4π² E/√ μ ~ 10⁵⁰ (huge). Setting $S_{\rm BH}$ = ln(N!) = ln(12!) = 19.99 gives μ ~ $10^{110}\,\text{GeV}^{2}$ (way off). The SN scale is too large for natural entropy bounds. Status: NOT APPLICABLE. Source: `calculations/v35_new_angle_mu.py`.
 
 L307. ** μ from conformal weight of first excited state** (v3.5). For c=1 Liouville: first excited state has h = b² = 1/2. Energy E_1st = h × $M_{\rm Pl,2D}$ = 1.5 TeV. Then μ = (2 × E_1st)² = (3 TeV)² = $9 \times 10^{6}\,\text{GeV}^2$ ✓ MATCHES. But the "2 × " in (2 × E_1st)² is just to make h = 1/2 cancel, giving μ = $M_{\rm Pl,2D}^2$ (tautological). The h = 1/2 doesn't actually constrain μ. Status: STRUCTURAL. Source: `calculations/v35_new_angle_mu.py`.
 
@@ -13943,8 +13943,8 @@ The apparent 3D lifetime ( $\tau_{4D} × \gamma_{4D}$) is 10²⁰ × larger.
 The closed-loop back-action is 2.5 orders smaller.
 - Old: $6.0 \times 10^{-88}$ - New: $1.8 \times 10^{-90}$
 #### 4. $\rho_{\rm DE}$ (with old ε) is 2.5 orders below observed
-- $\rho_{\rm DE_observed}$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴
-- New $\rho_{\rm DE}$ = $4.0 \times 10^{-52}\,\text{GeV}$⁴
+- $\rho_{\rm DE_observed}$ = $2.5 \times 10^{-47}\,\text{GeV}^{4}$
+- New $\rho_{\rm DE}$ = $4.0 \times 10^{-52}\,\text{GeV}^{4}$
 - Ratio: $1.6 \times 10^{-5}$ (off by 4.8 orders)
 
 #### 5. Required ε: 4.8 orders higher
@@ -14261,15 +14261,15 @@ After Option A adoption (α dim-specific, $\epsilon = 6.32 \times 10^{-34}$, kL 
   - A = $t_{\rm Pl,3}/\tau_{\rm 4D} = 1.131×10^{-85}$
   - B = $\tau_{\rm SN,obs}/\tau_{\rm universe} = 7.578×10^{-17}$
   - C = $(E_{\rm 4D}/E_{\rm SN})^{0.317} = 2.083 \times 10^{11}$ - $\epsilon = 6.32 \times 10^{-34}$ - $M_{\rm Pl,3D}^4 = 2.215 \times 10^{76}\,\text{GeV}^4$
-- $\rho_{\rm DE}$ = $2.500 \times 10^{-47}\,\text{GeV}$⁴
+- $\rho_{\rm DE}$ = $2.500 \times 10^{-47}\,\text{GeV}^{4}$
 
-**Observed**: $\rho_{\rm DE}$ = $2.500 \times 10^{-47}\,\text{GeV}$⁴
+**Observed**: $\rho_{\rm DE}$ = $2.500 \times 10^{-47}\,\text{GeV}^{4}$
 
 **Match**: 0.9999 ✓ EXACT
 
 ### 2. Cosmological Split (5/27/68) — CONSISTENT
 
-- $\rho_{\rm crit}$ = 3 H_0² $M_{\rm Pl,red}$² = $3.558 \times 10^{-47}\,\text{GeV}$⁴
+- $\rho_{\rm crit}$ = 3 H_0² $M_{\rm Pl,red}$² = $3.558 \times 10^{-47}\,\text{GeV}^{4}$
 - $\Omega_{\rm DE} = \rho_{\rm DE}/\rho_{\rm crit}$ = **0.703** (vs 0.68 observed, off by 2.3%)
 - $\Omega_{\rm DM}$ = 0.27 (by construction, $f_{\rm leak}$ = H₀)
 - $\Omega_{\rm b}$ = 0.05 (by construction, $f_{\rm leak}$ = H₀)
@@ -14421,8 +14421,8 @@ Despite coming from the **same M^α law at different cascade levels**, DE (anti-
 
 ### Asymmetric Density Ratio
 
-- $\rho_{\rm DE}$ = $f_{\rm DE,closed} × ε × M_{\rm Pl,3D}⁴ = 2.5 \times 10^{-47}\,\text{GeV}$⁴ (anti-gravity)
-- $\rho_{\rm DM} = \Omega_{\rm DM} × \rho_{\rm crit}$ ≈ $1.4 \times 10^{-47}\,\text{GeV}$⁴ (gravity, 27% of critical)
+- $\rho_{\rm DE}$ = $f_{\rm DE,closed} × ε × M_{\rm Pl,3D}⁴ = 2.5 \times 10^{-47}\,\text{GeV}^{4}$ (anti-gravity)
+- $\rho_{\rm DM} = \Omega_{\rm DM} × \rho_{\rm crit}$ ≈ $1.4 \times 10^{-47}\,\text{GeV}^{4}$ (gravity, 27% of critical)
 - ** $\rho_{\rm DM}/\rho_{\rm DE}$ ≈ 0.4** (asymmetric — 2D has less "room" than 4D)
 
 The 0.4 ratio reflects the cone asymmetry: 2D extent is smaller than 3+1D extent, so the 2D side contributes proportionally less "stuff" to the 3+1D brane.
@@ -14981,7 +14981,7 @@ If the framework USES option A (universal $\alpha = 1.289$):
 - $f_{\rm DE,simple} = 1.13 \times 10^{-85}$ (A1 value)
 - $\gamma_{\rm 4D} = 5.41 \times 10^{90}$ (A1 value, vs A2's $1.14 \times 10^{111}$)
 - $\tau_{\rm 3D,apparent} = 8.16 \times 10^{124}$ yr (A1, vs A2's $1.72 \times 10^{145}$)
-- $\rho_{\rm DE}$ = $2.503 \times 10^{-47}\,\text{GeV}$⁴ (EXACT match, f×ε invariant preserved)
+- $\rho_{\rm DE}$ = $2.503 \times 10^{-47}\,\text{GeV}^{4}$ (EXACT match, f×ε invariant preserved)
 
 If the framework USES option B (dim-specific α):
 - $\alpha_{2D}$ = 1.289 (FIRST-PRINCIPLES via Schwarzian)
@@ -14992,7 +14992,7 @@ If the framework USES option B (dim-specific α):
 $f_{\rm DE,closed} = 1.79 \times 10^{-90}$ (A2 closed loop)
 - $\gamma_{\rm 4D} = 1.14 \times 10^{111}$ (A2)
 - $\tau_{\rm 3D,apparent} = 1.72 \times 10^{145}$ yr (A2)
-- $\rho_{\rm DE}$ = $2.506 \times 10^{-47}\,\text{GeV}$⁴ (EXACT match)
+- $\rho_{\rm DE}$ = $2.506 \times 10^{-47}\,\text{GeV}^{4}$ (EXACT match)
 
 **Both give $\rho_{\rm DE}$ exact. The data cannot distinguish. The choice is whether to use inferred N values (option B) or stay with first-principles (option A).**
 
@@ -15511,7 +15511,7 @@ No numerical changes. Option B Strengthened uses the same values as Option B (th
 - $\epsilon = 6.32 \times 10^{-34}$- $f_{
 $f_{\rm DE,closed} = 1.79 \times 10^{-90}$, $\gamma_{\rm 4D} = 1.10 \times 10^{111}$
 - $\tau_{\rm 3D,apparent} = 1.66 \times 10^{145}$ yr
-- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{GeV}$⁴ (EXACT)
+- $\rho_{\rm DE}$ = $2.5 \times 10^{-47}\,\text{GeV}^{4}$ (EXACT)
 
 ### Source
 
@@ -17272,7 +17272,7 @@ Continued web research in June 2026 yields five more external constraints from t
 
 24. **XENONnT 2025 final WIMP result** (XENON Collaboration 2025, *Phys. Rev. Lett.* 135, 221003). The XENONnT experiment reports a 3.1 tonne-year exposure analysis, setting a 90% CL upper limit on the spin-independent WIMP-nucleon cross-section of $\sigma_{\rm SI} < 1.7 \times 10^{-47}$ cm² at $m_{\rm WIMP} = 30$ GeV/c^2, with best median sensitivity $\sigma_{\rm SI} = 1.4 \times 10^{-47}$ cm² at $m_{\rm WIMP} = 41$ GeV/c². SIDC's 2D universes have *no Standard Model coupling* (CDM-like), so the XENONnT cross-section is σ = 0 for SIDC. The constraint is *trivially satisfied* (vacuously consistent), but also *uninformative* about SIDC.
 
-25. **ACT DR6 CMB lensing** (Farren, Krolewski, Qu et al. 2024, arXiv:2409.02109). The ACT DR6 CMB lensing power spectrum, combined with Planck PR4 and unWISE galaxies, gives S₈ = 0.840 ± 0.014 — *slightly higher* than the Planck CMB-only value ( S₈ = 0.832 ± 0.013), and *significantly higher* than weak-lensing values ( S₈ = 0.769 ± 0.030 from HSC Y3, S₈ = 0.759 ± 0.025 from DES Y3). The S₈ tension persists at 2– 3σ in 2025 data. SIDC's interpretation: a MOND-like g₊ floor at g ∼ 10⁻¹⁰ m/s ² suppresses small-scale structure formation in the late universe, giving a *qualitative* match to the S₈ suppression. SIDC does *not* predict the specific S₈ value (Limitation 28 OPEN).
+25. **ACT DR6 CMB lensing** (Farren, Krolewski, Qu et al. 2024, arXiv:2409.02109). The ACT DR6 CMB lensing power spectrum, combined with Planck PR4 and unWISE galaxies, gives S₈ = 0.840 ± 0.014 — *slightly higher* than the Planck CMB-only value ( S₈ = 0.832 ± 0.013), and *significantly higher* than weak-lensing values ( S₈ = 0.769 ± 0.030 from HSC Y3, S₈ = 0.759 ± 0.025 from DES Y3). The S₈ tension persists at 2– 3σ in 2025 data. SIDC's interpretation: a MOND-like g₊ floor at g ∼ 10⁻¹⁰ m/s² suppresses small-scale structure formation in the late universe, giving a *qualitative* match to the S₈ suppression. SIDC does *not* predict the specific S₈ value (Limitation 28 OPEN).
 
 These five additional constraints from 2025 datasets do not reduce SIDC's 2 free parameters ( μ, $m_{3+1D}$) further, but they:
 - 21: Strengthen the qualitative DE interpretation ( 3.5σ evolving DE, quintessence-like)
@@ -17291,7 +17291,7 @@ The 6th round of web research (June 2026, total 30 constraints across rounds 1-6
 
 28. **SIDM cross-section with mass segregation** (Yang, Fan, Hou, Tsai 2025, arXiv:2506.14898, *SIDM with mass segregation: A unified explanation of dwarf cores and small-scale lenses*). Two-component self-interacting DM with mass segregation can satisfy *both* cluster-scale ($\sigma/m < 1 {\rm cm}^2/{\rm g}$) and dwarf-scale ($\sigma/m < 0.1 {\rm cm}^2/{\rm g}$) cross-section constraints. SIDC's 2D universes are *not* particles (they are 2D CFT excitations), so the SIDM cross-section is *trivially* σ/m = 0 for SIDC. SIDM constraints are *inapplicable* to SIDC.
 
-29. **Dynamical heating in ultrafaint dwarfs** (Graham, Ramani 2024, arXiv:2404.01378, *Constraints on DM from dynamical heating of stars in ultrafaint dwarfs, Part 2: Substructure and the primordial power spectrum*). The dynamical heating of stars in ultrafaint dwarf galaxies places *strong* constraints on the primordial power spectrum at k = 10– 10³ Mpc ⁻¹, *orders of magnitude* stronger than CMB-only constraints. These constraints limit the abundance of subcompact objects ( 10– $10^8 M_\odot$). SIDC's 2D universe mass ( ∼ 10⁻¹⁵ GeV = $10^{-21} M_\odot$) is *below* the subcompact range, so SIDC is *consistent* with the dynamical heating constraints.
+29. **Dynamical heating in ultrafaint dwarfs** (Graham, Ramani 2024, arXiv:2404.01378, *Constraints on DM from dynamical heating of stars in ultrafaint dwarfs, Part 2: Substructure and the primordial power spectrum*). The dynamical heating of stars in ultrafaint dwarf galaxies places *strong* constraints on the primordial power spectrum at k = 10– 10³ Mpc⁻¹, *orders of magnitude* stronger than CMB-only constraints. These constraints limit the abundance of subcompact objects ( 10– $10^8 M_\odot$). SIDC's 2D universe mass ( ∼ 10⁻¹⁵ GeV = $10^{-21} M_\odot$) is *below* the subcompact range, so SIDC is *consistent* with the dynamical heating constraints.
 
 30. **Future MeV gamma-ray DM constraints** (O'Donnell, Slatyer 2024, arXiv:2411.00087, *Constraints on DM with future MeV gamma-ray telescopes*). Future MeV gamma-ray telescopes will close the "MeV gap" in DM sensitivity, with projected σ v < 10⁻²⁷ cm³/s for annihilation and τ > 10²⁷ s for decay. SIDC's 2D universes are *MeV-invisible* to gamma rays (no SM coupling, no annihilation, no decay). No constraint, but also *no signal* expected.
 
